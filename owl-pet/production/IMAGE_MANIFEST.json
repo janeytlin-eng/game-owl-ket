@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T10:31:00+08:00",
+  "updated": "2026-11-07T10:33:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -26674,13 +26674,13 @@
       "archive_commit_pending": false,
       "readback_pending": false,
       "exact_readback": true,
-      "ledger_credited": false,
+      "ledger_credited": true,
       "evidence_limit": "Exact juvenile age and individual flight ability are not asserted; adult sex is not visually diagnosable and the slight female fullness is only a regional-evidence-informed design cue; Mikkola upload unavailable.",
       "archive_encoding": "1536x1024 indexed PNG, 64-color no-dither; full-colour ImageGen source SHA retained in run/review; transport derivative opened after optimization.",
       "archive_commit": "98243a5a2d9ab9eaaf80838de77beb4367b9c13e",
       "archive_tree": "796cc6b09e97914c9d3f60b32d87802ecbcfff20",
       "verified_at": "2026-11-07T10:31:00+08:00",
-      "verification_commit_pending": true,
+      "verification_commit_pending": false,
       "readback": {
         "method": "immutable archive exact path/blob/size plus non-truncated recursive tree and manifest cross-check",
         "required_paths": 15,
@@ -26694,8 +26694,11 @@
           "production": 755
         },
         "connector_full_binary_stream_readback": false
-      }
+      },
+      "verification_commit": "04a29769901001886ef01710ee622a98b57731d6",
+      "verification_tree": "e33520d72b421ba731c854a45bd6340a69af656f",
+      "ledger_credited_at": "2026-11-07T10:33:00+08:00"
     }
   ],
-  "updated_at": "2026-11-07T10:31:00+08:00"
+  "updated_at": "2026-11-07T10:33:00+08:00"
 }

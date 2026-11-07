@@ -27624,7 +27624,7 @@
     },
     {
       "batch_id": "20261107T062903+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -27691,38 +27691,30 @@
           "archive_commit": "02518c3e98683088b119e7df9f9d3491f05249f8",
           "run_record": "owl-pet/production/runs/20261107T093300+0800-cycle-5.md",
           "scientifically_verified": false
+        },
+        {
+          "cycle": 6,
+          "species": "Aegolius acadicus",
+          "species_id": 162,
+          "version": 2,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "commit_sha": "04a29769901001886ef01710ee622a98b57731d6",
+          "archive_commit": "98243a5a2d9ab9eaaf80838de77beb4367b9c13e",
+          "run_record": "owl-pet/production/runs/20261107T094700+0800-cycle-6.md",
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 6,
-      "active_cycle": 6,
+      "next_cycle": null,
+      "active_cycle": null,
       "started_at": "2026-11-07T06:29:03+08:00",
-      "updated_at": "2026-11-07T10:31:00+08:00",
-      "current_stage": "VERIFIED",
-      "ledger_credit_pending": true,
-      "lease": {
-        "owner": "codex",
-        "run_id": "20261107T094700+0800-cycle-6",
-        "heartbeat_at": "2026-11-07T10:31:00+08:00",
-        "expires_at": "2026-11-07T10:46:00+08:00"
-      },
-      "in_progress": {
-        "cycle": 6,
-        "species_id": 162,
-        "species": "Aegolius acadicus",
-        "version": 2,
-        "stage": "VERIFIED",
-        "run_id": "20261107T094700+0800-cycle-6",
-        "run_record": "owl-pet/production/runs/20261107T094700+0800-cycle-6.md"
-      },
-      "active": {
-        "cycle": 6,
-        "species_id": 162,
-        "species": "Aegolius acadicus",
-        "version": 2,
-        "stage": "VERIFIED",
-        "run_id": "20261107T094700+0800-cycle-6",
-        "run_record": "owl-pet/production/runs/20261107T094700+0800-cycle-6.md"
-      },
+      "updated_at": "2026-11-07T10:33:00+08:00",
+      "current_stage": "COMPLETE",
+      "ledger_credit_pending": false,
+      "lease": null,
+      "in_progress": null,
+      "active": null,
       "stage_events": [
         {
           "cycle": 1,
@@ -28546,16 +28538,32 @@
             "ledger_credit_pending": true,
             "lease_expires_at": "2026-11-07T10:46:00+08:00"
           }
+        },
+        {
+          "cycle": 6,
+          "stage": "LEDGER_CREDITED",
+          "at": "2026-11-07T10:33:00+08:00",
+          "run_id": "20261107T094700+0800-cycle-6",
+          "species_id": 162,
+          "species": "Aegolius acadicus",
+          "credited": true,
+          "evidence": {
+            "verification_commit": "04a29769901001886ef01710ee622a98b57731d6",
+            "verification_tree": "e33520d72b421ba731c854a45bd6340a69af656f",
+            "archive_commit": "98243a5a2d9ab9eaaf80838de77beb4367b9c13e",
+            "archive_tree": "796cc6b09e97914c9d3f60b32d87802ecbcfff20",
+            "batch_progress": "6/6",
+            "next_cycle": null,
+            "unique_species_count": 176,
+            "total_species": 251,
+            "revision_increment": 1,
+            "scientifically_verified": false
+          }
         }
       ]
     }
   ],
-  "lease": {
-    "owner": "codex",
-    "run_id": "20261107T094700+0800-cycle-6",
-    "heartbeat_at": "2026-11-07T10:31:00+08:00",
-    "expires_at": "2026-11-07T10:46:00+08:00"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -28689,7 +28697,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-07T10:31:00+08:00",
+  "updated_at": "2026-11-07T10:33:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -28698,13 +28706,8 @@
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6.",
     "2026-10-30T18:12:00+08:00 ledger normalization: historical batch 2026-10-16T0430+0800 already COMPLETE with six preserved completed_cycles; stale next_cycle 7 changed to null. No cycle count or evidence changed."
   ],
-  "active_lease": {
-    "owner": "codex",
-    "run_id": "20261107T094700+0800-cycle-6",
-    "heartbeat_at": "2026-11-07T10:31:00+08:00",
-    "expires_at": "2026-11-07T10:46:00+08:00"
-  },
-  "last_updated_at": "2026-11-07T10:31:00+08:00",
+  "active_lease": null,
+  "last_updated_at": "2026-11-07T10:33:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -29501,15 +29504,7 @@
       "credited": false
     }
   ],
-  "in_progress": {
-    "cycle": 6,
-    "species_id": 162,
-    "species": "Aegolius acadicus",
-    "version": 2,
-    "stage": "VERIFIED",
-    "run_id": "20261107T094700+0800-cycle-6",
-    "run_record": "owl-pet/production/runs/20261107T094700+0800-cycle-6.md"
-  },
+  "in_progress": null,
   "previous_checkpoint": {
     "batch_id": "20261106T123716+0800",
     "cycle": 3,
@@ -30802,7 +30797,7 @@
       "credited": true
     }
   ],
-  "last_updated": "2026-11-07T10:31:00+08:00",
+  "last_updated": "2026-11-07T10:33:00+08:00",
   "audit_log": [
     {
       "at": "2026-10-31T18:36:48+08:00",
@@ -34064,10 +34059,10 @@
       }
     }
   ],
-  "active_batch_id": "20261107T062903+0800",
-  "active_cycle": 6,
-  "current_stage": "VERIFIED",
-  "next_cycle": 6,
+  "active_batch_id": null,
+  "active_cycle": null,
+  "current_stage": "COMPLETE",
+  "next_cycle": null,
   "unique_species_count": 176,
   "total_species": 251,
   "stage_events": [
@@ -42566,936 +42561,31 @@
         "ledger_credit_pending": true,
         "lease_expires_at": "2026-11-07T10:46:00+08:00"
       }
+    },
+    {
+      "cycle": 6,
+      "stage": "LEDGER_CREDITED",
+      "at": "2026-11-07T10:33:00+08:00",
+      "run_id": "20261107T094700+0800-cycle-6",
+      "species_id": 162,
+      "species": "Aegolius acadicus",
+      "credited": true,
+      "evidence": {
+        "verification_commit": "04a29769901001886ef01710ee622a98b57731d6",
+        "verification_tree": "e33520d72b421ba731c854a45bd6340a69af656f",
+        "archive_commit": "98243a5a2d9ab9eaaf80838de77beb4367b9c13e",
+        "archive_tree": "796cc6b09e97914c9d3f60b32d87802ecbcfff20",
+        "batch_progress": "6/6",
+        "next_cycle": null,
+        "unique_species_count": 176,
+        "total_species": 251,
+        "revision_increment": 1,
+        "scientifically_verified": false
+      }
     }
   ],
-  "last_completed_batch_id": "20261107T043300+0800",
-  "active_batch": {
-    "batch_id": "20261107T062903+0800",
-    "status": "PARTIAL",
-    "target_cycles": 6,
-    "completed_cycles": [
-      {
-        "cycle": 1,
-        "species": "Athene jacquinoti",
-        "species_id": 151,
-        "version": 3,
-        "action": "SCIENCE_REVISION",
-        "unique_species_increment": 0,
-        "revision_increment": 1,
-        "commit_sha": "a1324392ee72514fc053f0bcf09e60e349c53d2e",
-        "archive_commit": "ae92217d2c5028fe76a0dfef7257b0fbec35fbb9",
-        "run_record": "owl-pet/production/runs/20261107T062903+0800-cycle-1.md",
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 2,
-        "species": "Jubula lettii",
-        "species_id": 153,
-        "version": 3,
-        "action": "SCIENCE_REVISION",
-        "unique_species_increment": 0,
-        "revision_increment": 1,
-        "commit_sha": "8624d4a4b7aa596aec5d6d4c8bd0ffdd9599ddd0",
-        "archive_commit": "36a01f385a6f32501ddaff3076c13d551b5aa5fd",
-        "run_record": "owl-pet/production/runs/20261107T064131+0800-cycle-2.md",
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 3,
-        "species": "Phodilus badius",
-        "species_id": 158,
-        "version": 3,
-        "action": "SCIENCE_REVISION",
-        "unique_species_increment": 0,
-        "revision_increment": 1,
-        "commit_sha": "1d046099d3e696c3a75b41e52c69c63f754d68dc",
-        "archive_commit": "379fc1852b23ff86732a8bb32fd959be9bcfd7fe",
-        "run_record": "owl-pet/production/runs/20261107T070200+0800-cycle-3.md",
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 4,
-        "species": "Tyto inexspectata",
-        "species_id": 160,
-        "version": 3,
-        "action": "SCIENCE_REVISION",
-        "unique_species_increment": 0,
-        "revision_increment": 1,
-        "commit_sha": "e44fb4425e676ebd14692fa02c3d5037b8f8760a",
-        "archive_commit": "beff61214ecd9048a35513d6b8761a887a3e0612",
-        "run_record": "owl-pet/production/runs/20261107T080000+0800-cycle-4.md",
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 5,
-        "species": "Ketupa blakistoni",
-        "species_id": 161,
-        "version": 3,
-        "action": "SCIENCE_REVISION",
-        "unique_species_increment": 0,
-        "revision_increment": 1,
-        "commit_sha": "ff05129f16c422fd95159a07947ba352399f14db",
-        "archive_commit": "02518c3e98683088b119e7df9f9d3491f05249f8",
-        "run_record": "owl-pet/production/runs/20261107T093300+0800-cycle-5.md",
-        "scientifically_verified": false
-      }
-    ],
-    "next_cycle": 6,
-    "active_cycle": 6,
-    "started_at": "2026-11-07T06:29:03+08:00",
-    "updated_at": "2026-11-07T10:31:00+08:00",
-    "current_stage": "VERIFIED",
-    "ledger_credit_pending": true,
-    "lease": {
-      "owner": "codex",
-      "run_id": "20261107T094700+0800-cycle-6",
-      "heartbeat_at": "2026-11-07T10:31:00+08:00",
-      "expires_at": "2026-11-07T10:46:00+08:00"
-    },
-    "in_progress": {
-      "cycle": 6,
-      "species_id": 162,
-      "species": "Aegolius acadicus",
-      "version": 2,
-      "stage": "VERIFIED",
-      "run_id": "20261107T094700+0800-cycle-6",
-      "run_record": "owl-pet/production/runs/20261107T094700+0800-cycle-6.md"
-    },
-    "active": {
-      "cycle": 6,
-      "species_id": 162,
-      "species": "Aegolius acadicus",
-      "version": 2,
-      "stage": "VERIFIED",
-      "run_id": "20261107T094700+0800-cycle-6",
-      "run_record": "owl-pet/production/runs/20261107T094700+0800-cycle-6.md"
-    },
-    "stage_events": [
-      {
-        "cycle": 1,
-        "stage": "STARTED",
-        "at": "2026-11-07T06:29:03+08:00",
-        "species_id": 151,
-        "species": "Athene jacquinoti",
-        "run_id": "20261107T062903+0800-cycle-1",
-        "run_record": "owl-pet/production/runs/20261107T062903+0800-cycle-1.md",
-        "baseline_main": "224c3146a3460a7be5c10c8e44784c132678b273",
-        "lease_expires_at": "2026-11-07T06:44:03+08:00",
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 1,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-07T06:30:44+08:00",
-        "run_id": "20261107T062903+0800-cycle-1",
-        "species_id": 151,
-        "species": "Athene jacquinoti",
-        "credited": false,
-        "evidence": {
-          "research_file": "owl-pet/research/species/151-athene-jacquinoti-v3.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "new_sources": 2,
-          "reused_sources": 5,
-          "unverified_leads": 1,
-          "mikkola_upload_accessible": false,
-          "design_boundary": "adults near-equal; holotype-based irregular underpart barring; age-unknown supported juvenile with compact down-soft wing and concealed tail",
-          "full_prompt_path": "owl-pet/production/PROMPTS_FULL.md",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-07T06:45:44+08:00"
-        }
-      },
-      {
-        "cycle": 1,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-07T06:33:47+08:00",
-        "run_id": "20261107T062903+0800-cycle-1",
-        "species_id": 151,
-        "species": "Athene jacquinoti",
-        "credited": false,
-        "evidence": {
-          "generated_path": "owl-pet/production/generated/151-athene-jacquinoti-v3-generated-master.png",
-          "image_blob": "d1b29bf3608001020ab126033bab58e13c4a582d",
-          "width": 1536,
-          "height": 1024,
-          "bytes": 2844522,
-          "sha256": "bc0ed49402f16d44306e538a7474e7d69bc51a6445af7431f958886b3d7ca19f",
-          "preliminary_inspection": "exact title/name/count/labels; adults near-equal with rust upperparts, white throat and brown-barred cream underparts; six feet supported; juvenile has overly long visibly layered left wing and needs targeted correction",
-          "edit_required": true,
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-07T06:48:47+08:00"
-        }
-      },
-      {
-        "cycle": 1,
-        "stage": "REVIEWED",
-        "at": "2026-11-07T06:35:51+08:00",
-        "run_id": "20261107T062903+0800-cycle-1",
-        "species_id": 151,
-        "species": "Athene jacquinoti",
-        "credited": false,
-        "evidence": {
-          "reviewed_path": "owl-pet/production/reviewed/151-athene-jacquinoti-v3-reviewed-master.png",
-          "reviewed_blob": "4094b03fd76dca1bdbaed75e42d9f398af857553",
-          "edit_path": "owl-pet/production/generated/151-athene-jacquinoti-v3-edit1.png",
-          "edit_blob": "4094b03fd76dca1bdbaed75e42d9f398af857553",
-          "edit_count": 1,
-          "review_record": "owl-pet/research/reviews/151-athene-jacquinoti-v3-review.md",
-          "review_crops": [
-            "owl-pet/production/review-crops/151-athene-jacquinoti-v3-older-juvenile.png",
-            "owl-pet/production/review-crops/151-athene-jacquinoti-v3-adults-support.png"
-          ],
-          "crop_blobs": [
-            "dbf7e990f82a09403eb9b95291e78f123d0e06a4",
-            "47553fd9e1b512576dbec064af954bdfee104461"
-          ],
-          "reinspection": "edited full plate plus juvenile and adults/support crops opened; juvenile wing short/down-soft/tail hidden; adults and six supports preserved; exterior cavity cue omitted but no nest detail invented",
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-07T06:50:51+08:00"
-        }
-      },
-      {
-        "cycle": 1,
-        "stage": "ARCHIVED",
-        "at": "2026-11-07T06:37:21+08:00",
-        "run_id": "20261107T062903+0800-cycle-1",
-        "species_id": 151,
-        "species": "Athene jacquinoti",
-        "credited": false,
-        "evidence": {
-          "concept": "owl-pet/design/concepts/151-athene-jacquinoti-v3.png",
-          "concept_blob": "4094b03fd76dca1bdbaed75e42d9f398af857553",
-          "generated": "owl-pet/production/generated/151-athene-jacquinoti-v3-generated-master.png",
-          "reviewed": "owl-pet/production/reviewed/151-athene-jacquinoti-v3-reviewed-master.png",
-          "review_crops": [
-            "owl-pet/production/review-crops/151-athene-jacquinoti-v3-older-juvenile.png",
-            "owl-pet/production/review-crops/151-athene-jacquinoti-v3-adults-support.png"
-          ],
-          "manifest_counts": {
-            "design_image": 759,
-            "design_legacy": 760,
-            "production": 750
-          },
-          "unique_species_count": 176,
-          "total_species": 251,
-          "unique_species_increment": 0,
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "readback_pending": true,
-          "lease_expires_at": "2026-11-07T06:52:21+08:00"
-        }
-      },
-      {
-        "cycle": 1,
-        "stage": "VERIFIED",
-        "at": "2026-11-07T06:39:27+08:00",
-        "run_id": "20261107T062903+0800-cycle-1",
-        "species_id": 151,
-        "species": "Athene jacquinoti",
-        "credited": false,
-        "evidence": {
-          "archive_commit": "ae92217d2c5028fe76a0dfef7257b0fbec35fbb9",
-          "archive_tree": "f9fb81d80f500381e8e13e2159c103cf24b95be6",
-          "required_paths": 17,
-          "exact_binary_paths": 6,
-          "manifest_counts": {
-            "design_image": 759,
-            "design_legacy": 760,
-            "production": 750
-          },
-          "verification_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "ledger_credit_pending": true,
-          "lease_expires_at": "2026-11-07T06:54:27+08:00"
-        }
-      },
-      {
-        "cycle": 1,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-07T06:40:20+08:00",
-        "run_id": "20261107T062903+0800-cycle-1",
-        "species_id": 151,
-        "species": "Athene jacquinoti",
-        "credited": true,
-        "evidence": {
-          "verification_commit": "a1324392ee72514fc053f0bcf09e60e349c53d2e",
-          "verification_tree": "d2790e4d373c0ea58f15e393b5ff1db6195f68bc",
-          "archive_commit": "ae92217d2c5028fe76a0dfef7257b0fbec35fbb9",
-          "batch_progress": "1/6",
-          "next_cycle": 2,
-          "unique_species_count": 176,
-          "total_species": 251,
-          "revision_increment": 1,
-          "scientifically_verified": false
-        }
-      },
-      {
-        "cycle": 2,
-        "stage": "STARTED",
-        "at": "2026-11-07T06:41:31+08:00",
-        "run_id": "20261107T064131+0800-cycle-2",
-        "species_id": 153,
-        "species": "Jubula lettii",
-        "credited": false,
-        "evidence": {
-          "run_record": "owl-pet/production/runs/20261107T064131+0800-cycle-2.md",
-          "baseline_main": "de38d7e16df071fc94067facf91adbb5fe01f643",
-          "selection_note": "#152 already has verified v3 science revision; next unresolved numbered v3 is #153",
-          "lease_expires_at": "2026-11-07T06:56:31+08:00"
-        }
-      },
-      {
-        "cycle": 2,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-07T06:48:20+08:00",
-        "run_id": "20261107T064131+0800-cycle-2",
-        "species_id": 153,
-        "species": "Jubula lettii",
-        "credited": false,
-        "evidence": {
-          "research_file": "owl-pet/research/species/153-jubula-lettii-v3.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "new_sources": 3,
-          "reused_sources": 0,
-          "unverified_leads": 1,
-          "mikkola_upload_accessible": false,
-          "design_boundary": "adult sexes near-equal because no sex-specific evidence; rufous shaggy head and long ear tufts; supported older immature with retained white juvenile facial feathers and demonstrated short-flight/perching ability",
-          "full_prompt_path": "owl-pet/production/PROMPTS_FULL.md",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-07T07:03:20+08:00"
-        }
-      },
-      {
-        "cycle": 2,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-07T06:50:10+08:00",
-        "run_id": "20261107T064131+0800-cycle-2",
-        "species_id": 153,
-        "species": "Jubula lettii",
-        "credited": false,
-        "evidence": {
-          "generated_path": "owl-pet/production/generated/153-jubula-lettii-v3-generated-master.png",
-          "image_blob": "263f3f690a3260f5f93e67d7bb4faa38c03c4cc6",
-          "width": 1536,
-          "height": 1024,
-          "bytes": 2720633,
-          "sha256": "75a96991d2d42b315d4f91c61ee88dfa719f7f7eef67fc3604e45fa5a49e2280",
-          "preliminary_inspection": "exact title, italic scientific name, exact three labels/count; adults near-equal and rufous with shaggy long tufts, orange eyes, fine ventral streaks and six supported feet; immature has white juvenile facial mask but folded wing and tail remain too adult-long/crisp, so targeted edit required",
-          "edit_required": true,
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-07T07:05:10+08:00"
-        }
-      },
-      {
-        "cycle": 2,
-        "stage": "REVIEWED",
-        "at": "2026-11-07T06:53:10+08:00",
-        "run_id": "20261107T064131+0800-cycle-2",
-        "species_id": 153,
-        "species": "Jubula lettii",
-        "credited": false,
-        "evidence": {
-          "reviewed_path": "owl-pet/production/reviewed/153-jubula-lettii-v3-reviewed-master.png",
-          "reviewed_blob": "482cab6ee1382ebb119b8dbc179454a4dc47e16e",
-          "edit_path": "owl-pet/production/generated/153-jubula-lettii-v3-edit1.png",
-          "edit_blob": "482cab6ee1382ebb119b8dbc179454a4dc47e16e",
-          "edit_count": 1,
-          "review_record": "owl-pet/research/reviews/153-jubula-lettii-v3-review.md",
-          "review_crops": [
-            "owl-pet/production/review-crops/153-jubula-lettii-v3-older-immature.png",
-            "owl-pet/production/review-crops/153-jubula-lettii-v3-adults-support.png"
-          ],
-          "crop_blobs": [
-            "183e5ccdfb0d34b1e235960bf0f2dd456ede47bf",
-            "0c44f3bc9932dbcd0ac94f9c0b54ebb6bb21d8a5"
-          ],
-          "reinspection": "edited full 1536x1024 plate plus juvenile and adults/support crops opened; juvenile white facial feathers preserved, wing edge shortened/softened above feet, tail modest and functional; adult identity, exact text/count and six supports preserved",
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-07T07:08:10+08:00"
-        }
-      },
-      {
-        "cycle": 2,
-        "stage": "ARCHIVED",
-        "at": "2026-11-07T06:56:20+08:00",
-        "run_id": "20261107T064131+0800-cycle-2",
-        "species_id": 153,
-        "species": "Jubula lettii",
-        "credited": false,
-        "evidence": {
-          "concept": "owl-pet/design/concepts/153-jubula-lettii-v3.png",
-          "concept_blob": "482cab6ee1382ebb119b8dbc179454a4dc47e16e",
-          "generated": "owl-pet/production/generated/153-jubula-lettii-v3-generated-master.png",
-          "reviewed": "owl-pet/production/reviewed/153-jubula-lettii-v3-reviewed-master.png",
-          "review_crops": [
-            "owl-pet/production/review-crops/153-jubula-lettii-v3-older-immature.png",
-            "owl-pet/production/review-crops/153-jubula-lettii-v3-adults-support.png"
-          ],
-          "manifest_counts": {
-            "design_image": 760,
-            "design_legacy": 761,
-            "production": 751
-          },
-          "unique_species_count": 176,
-          "total_species": 251,
-          "unique_species_increment": 0,
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "readback_pending": true,
-          "lease_expires_at": "2026-11-07T07:11:20+08:00"
-        }
-      },
-      {
-        "cycle": 2,
-        "stage": "VERIFIED",
-        "at": "2026-11-07T06:58:20+08:00",
-        "run_id": "20261107T064131+0800-cycle-2",
-        "species_id": 153,
-        "species": "Jubula lettii",
-        "credited": false,
-        "evidence": {
-          "archive_commit": "36a01f385a6f32501ddaff3076c13d551b5aa5fd",
-          "archive_tree": "8dfe17c657c749a822c2714905b3808854bd0d70",
-          "required_paths": 19,
-          "exact_binary_paths": 6,
-          "manifest_counts": {
-            "design_image": 760,
-            "design_legacy": 761,
-            "production": 751
-          },
-          "verification_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "ledger_credit_pending": true,
-          "lease_expires_at": "2026-11-07T07:13:20+08:00"
-        }
-      },
-      {
-        "cycle": 2,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-07T07:00:05+08:00",
-        "run_id": "20261107T064131+0800-cycle-2",
-        "species_id": 153,
-        "species": "Jubula lettii",
-        "credited": true,
-        "evidence": {
-          "verification_commit": "8624d4a4b7aa596aec5d6d4c8bd0ffdd9599ddd0",
-          "verification_tree": "b0fcf1343267d2fb35fe4fee5647f235827ee631",
-          "archive_commit": "36a01f385a6f32501ddaff3076c13d551b5aa5fd",
-          "archive_tree": "8dfe17c657c749a822c2714905b3808854bd0d70",
-          "batch_progress": "2/6",
-          "next_cycle": 3,
-          "unique_species_count": 176,
-          "total_species": 251,
-          "revision_increment": 1,
-          "scientifically_verified": false
-        }
-      },
-      {
-        "cycle": 3,
-        "stage": "STARTED",
-        "at": "2026-11-07T07:02:00+08:00",
-        "run_id": "20261107T070200+0800-cycle-3",
-        "species_id": 154,
-        "species": "Pseudoscops grammicus",
-        "credited": false,
-        "evidence": {
-          "run_record": "owl-pet/production/runs/20261107T070200+0800-cycle-3.md",
-          "baseline_main": "e57dc0f8bb662e8d451c1df0b8529e434f6cdc93",
-          "selection_note": "#154 has v1/v2 but no v3; #155-157 already have later v3 revisions",
-          "lease_expires_at": "2026-11-07T07:17:00+08:00"
-        }
-      },
-      {
-        "cycle": 3,
-        "stage": "STARTED",
-        "at": "2026-11-07T07:04:05+08:00",
-        "run_id": "20261107T070200+0800-cycle-3",
-        "species_id": 158,
-        "species": "Phodilus badius",
-        "credited": false,
-        "evidence": {
-          "run_record": "owl-pet/production/runs/20261107T070200+0800-cycle-3.md",
-          "baseline_main": "59f87b64fa746ba92c9c3a52994a0e13c9c0913d",
-          "selection_correction": "#154 Pseudoscops grammicus is a synonym-duplicate of completed #142 Asio grammicus and was skipped before research/image generation; #158 Phodilus badius has archived v1/v2 but no v3",
-          "skipped_species_id": 154,
-          "skipped_reason": "synonym duplicate; no image generated; no credit",
-          "lease_expires_at": "2026-11-07T07:19:05+08:00"
-        }
-      },
-      {
-        "cycle": 3,
-        "stage": "LEASE_RENEWED",
-        "at": "2026-11-07T07:26:30+08:00",
-        "run_id": "20261107T070200+0800-cycle-3",
-        "species_id": 158,
-        "species": "Phodilus badius",
-        "credited": false,
-        "evidence": {
-          "previous_lease_expired_at": "2026-11-07T07:19:05+08:00",
-          "lease_expires_at": "2026-11-07T07:41:30+08:00",
-          "resume_from": "STARTED",
-          "baseline_main": "628caf27f1c9567eac3fe1b3b71c41dcc50377de"
-        }
-      },
-      {
-        "cycle": 3,
-        "stage": "VERIFIED",
-        "at": "2026-11-07T07:52:40+08:00",
-        "run_id": "20261107T070200+0800-cycle-3",
-        "species_id": 158,
-        "species": "Phodilus badius",
-        "credited": false,
-        "evidence": {
-          "archive_commit": "379fc1852b23ff86732a8bb32fd959be9bcfd7fe",
-          "archive_tree": "fd16cd946c9b5df3f591968e3a7614d6386aeee3",
-          "required_paths": 16,
-          "exact_binary_paths": 6,
-          "manifest_counts": {
-            "design_image": 761,
-            "design_legacy": 762,
-            "production": 752
-          },
-          "verification_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "ledger_credit_pending": true
-        }
-      },
-      {
-        "cycle": 3,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-07T07:55:20+08:00",
-        "run_id": "20261107T070200+0800-cycle-3",
-        "species_id": 158,
-        "species": "Phodilus badius",
-        "credited": true,
-        "evidence": {
-          "verification_commit": "1d046099d3e696c3a75b41e52c69c63f754d68dc",
-          "verification_tree": "04b9b8f39ebba0dfd8b0b6a6763d6eb165c444ea",
-          "archive_commit": "379fc1852b23ff86732a8bb32fd959be9bcfd7fe",
-          "archive_tree": "fd16cd946c9b5df3f591968e3a7614d6386aeee3",
-          "batch_progress": "3/6",
-          "next_cycle": 4,
-          "unique_species_count": 176,
-          "total_species": 251,
-          "revision_increment": 1,
-          "scientifically_verified": false
-        }
-      },
-      {
-        "cycle": 4,
-        "stage": "STARTED",
-        "at": "2026-11-07T08:00:00+08:00",
-        "species_id": 160,
-        "species": "Tyto inexspectata",
-        "run_id": "20261107T080000+0800-cycle-4",
-        "run_record": "owl-pet/production/runs/20261107T080000+0800-cycle-4.md",
-        "baseline_main": "ff9934ef02ca1bb1060889e7136efa40b5596b1b",
-        "selection_note": "#159 already has v3; #160 has v1/v2 but no v3",
-        "lease_expires_at": "2026-11-07T08:15:00+08:00",
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 4,
-        "stage": "LEASE_RENEWED",
-        "at": "2026-11-07T09:26:00+08:00",
-        "run_id": "20261107T080000+0800-cycle-4",
-        "species_id": 160,
-        "species": "Tyto inexspectata",
-        "credited": false,
-        "evidence": {
-          "previous_lease_expired_at": "2026-11-07T08:35:00+08:00",
-          "resume_from": "ARCHIVED",
-          "archive_commit": "beff61214ecd9048a35513d6b8761a887a3e0612",
-          "baseline_main": "beff61214ecd9048a35513d6b8761a887a3e0612",
-          "lease_expires_at": "2026-11-07T09:41:00+08:00",
-          "no_later_commit_confirmed": true
-        }
-      },
-      {
-        "cycle": 4,
-        "stage": "VERIFIED",
-        "at": "2026-11-07T09:29:00+08:00",
-        "run_id": "20261107T080000+0800-cycle-4",
-        "species_id": 160,
-        "species": "Tyto inexspectata",
-        "credited": false,
-        "evidence": {
-          "archive_commit": "beff61214ecd9048a35513d6b8761a887a3e0612",
-          "archive_tree": "ec68397afe48ef6604e58a6689a07d4cd1adc46a",
-          "required_paths": 17,
-          "exact_binary_paths": 6,
-          "tree_entries": 3710,
-          "tree_truncated": false,
-          "manifest_counts": {
-            "design_image": 762,
-            "design_legacy": 763,
-            "production": 753
-          },
-          "verification_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "ledger_credit_pending": true,
-          "lease_expires_at": "2026-11-07T09:44:00+08:00"
-        }
-      },
-      {
-        "cycle": 4,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-07T09:31:00+08:00",
-        "run_id": "20261107T080000+0800-cycle-4",
-        "species_id": 160,
-        "species": "Tyto inexspectata",
-        "credited": true,
-        "evidence": {
-          "verification_commit": "e44fb4425e676ebd14692fa02c3d5037b8f8760a",
-          "verification_tree": "a6959ef608fc88e39b6bcb161e7508d4c230db4d",
-          "archive_commit": "beff61214ecd9048a35513d6b8761a887a3e0612",
-          "archive_tree": "ec68397afe48ef6604e58a6689a07d4cd1adc46a",
-          "batch_progress": "4/6",
-          "next_cycle": 5,
-          "unique_species_count": 176,
-          "total_species": 251,
-          "revision_increment": 1,
-          "scientifically_verified": false
-        }
-      },
-      {
-        "cycle": 5,
-        "stage": "STARTED",
-        "at": "2026-11-07T09:33:00+08:00",
-        "run_id": "20261107T093300+0800-cycle-5",
-        "species_id": 161,
-        "species": "Ketupa blakistoni",
-        "credited": false,
-        "evidence": {
-          "run_record": "owl-pet/production/runs/20261107T093300+0800-cycle-5.md",
-          "baseline_main": "e724a644cc44c3689ce82b4af76db5d17d4e0502",
-          "selection_note": "#160 cycle 4 credited; #161 has archived v1/v2 but no v3 and is the next unresolved numbered science revision",
-          "lease_expires_at": "2026-11-07T09:48:00+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "cycle": 5,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-07T09:38:00+08:00",
-        "run_id": "20261107T093300+0800-cycle-5",
-        "species_id": 161,
-        "species": "Ketupa blakistoni",
-        "credited": false,
-        "evidence": {
-          "research_file": "owl-pet/research/species/161-ketupa-blakistoni-v3.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "new_sources": 3,
-          "reused_sources": 4,
-          "unverified_leads": 0,
-          "mikkola_upload_accessible": false,
-          "design_boundary": "Hokkaido sensu-stricto adults near equal; female subtly fuller; no continental doerriesi white nape/near-white tail; supported ~50-day cavity nestling with short down-soft wing and hidden tail",
-          "full_prompt_path": "owl-pet/production/PROMPTS_FULL.md",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-07T09:53:00+08:00"
-        }
-      },
-      {
-        "cycle": 5,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-07T09:38:30+08:00",
-        "run_id": "20261107T093300+0800-cycle-5",
-        "species_id": 161,
-        "species": "Ketupa blakistoni",
-        "credited": false,
-        "evidence": {
-          "generated_path": "owl-pet/production/generated/161-ketupa-blakistoni-v3-generated-master.png",
-          "image_blob": "605ed87482354ae069dfe1dd893d5939503da105",
-          "width": 1536,
-          "height": 1024,
-          "bytes": 3422680,
-          "sha256": "4ffa10313d85f8ff35303d6840422d93304895552a1a68977d2e3c1f15a48c4a",
-          "preliminary_inspection": "exact title/name/count/labels; adults near-equal with Hokkaido riverine support; all feet supported; juvenile fully supported but first render concealed nearly all wing development, so targeted edit required",
-          "edit_required": true,
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-07T09:53:30+08:00"
-        }
-      },
-      {
-        "cycle": 5,
-        "stage": "REVIEWED",
-        "at": "2026-11-07T09:41:30+08:00",
-        "run_id": "20261107T093300+0800-cycle-5",
-        "species_id": 161,
-        "species": "Ketupa blakistoni",
-        "credited": false,
-        "evidence": {
-          "reviewed_path": "owl-pet/production/reviewed/161-ketupa-blakistoni-v3-reviewed-master.png",
-          "reviewed_blob": "787f24c17be0bb3b5a1dfa4456d5a177bacb97ab",
-          "edit_path": "owl-pet/production/generated/161-ketupa-blakistoni-v3-edit1.png",
-          "edit_blob": "787f24c17be0bb3b5a1dfa4456d5a177bacb97ab",
-          "edit_count": 1,
-          "review_record": "owl-pet/research/reviews/161-ketupa-blakistoni-v3-review.md",
-          "review_crops": [
-            "owl-pet/production/review-crops/161-ketupa-blakistoni-v3-late-nestling.png",
-            "owl-pet/production/review-crops/161-ketupa-blakistoni-v3-adults-support.png"
-          ],
-          "crop_blobs": [
-            "f876688c58f156423ed2be4850f91cbaf4b3060c",
-            "802f9b64556812d4c09b20c217aa724f0054d864"
-          ],
-          "reinspection": "edited full plate plus juvenile and adult/support crops opened; juvenile wings now short/down-soft/non-flight, tail hidden and belly/two feet supported; adult identity, exact text/count and supports preserved",
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-07T09:56:30+08:00"
-        }
-      },
-      {
-        "cycle": 5,
-        "stage": "ARCHIVED",
-        "at": "2026-11-07T09:45:00+08:00",
-        "run_id": "20261107T093300+0800-cycle-5",
-        "species_id": 161,
-        "species": "Ketupa blakistoni",
-        "credited": false,
-        "evidence": {
-          "concept": "owl-pet/design/concepts/161-ketupa-blakistoni-v3.png",
-          "concept_blob": "787f24c17be0bb3b5a1dfa4456d5a177bacb97ab",
-          "generated": "owl-pet/production/generated/161-ketupa-blakistoni-v3-generated-master.png",
-          "reviewed": "owl-pet/production/reviewed/161-ketupa-blakistoni-v3-reviewed-master.png",
-          "review_crops": [
-            "owl-pet/production/review-crops/161-ketupa-blakistoni-v3-late-nestling.png",
-            "owl-pet/production/review-crops/161-ketupa-blakistoni-v3-adults-support.png"
-          ],
-          "manifest_counts": {
-            "design_image": 763,
-            "design_legacy": 764,
-            "production": 754
-          },
-          "unique_species_count": 176,
-          "total_species": 251,
-          "unique_species_increment": 0,
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "readback_pending": true,
-          "lease_expires_at": "2026-11-07T10:00:00+08:00"
-        }
-      },
-      {
-        "cycle": 5,
-        "stage": "ARCHIVE_CORRECTED",
-        "at": "2026-11-07T09:50:00+08:00",
-        "run_id": "20261107T093300+0800-cycle-5",
-        "species_id": 161,
-        "species": "Ketupa blakistoni",
-        "credited": false,
-        "evidence": {
-          "failed_archive_commit": "f12e5669239be06ad33530c5f66cb1fa21bf7927",
-          "failure": "all >786KB PNG writes truncated to connector ceiling; detected by immutable tree sizes before credit",
-          "replacement_blobs": {
-            "generated": "96497132d9135dbad48a37eff4c2cbbb33c5b425",
-            "concept_edit_reviewed": "462dd4e19dc581c931084223b45ba06bfcab22ca",
-            "juvenile_crop": "476181a0230253bfd8f23f47997d526402dcf648",
-            "adults_crop": "c242c32bf86978e8b6f125db57c5a1bc68ccdc9d"
-          },
-          "replacement_sizes": {
-            "generated": 756513,
-            "concept_edit_reviewed": 715220,
-            "juvenile_crop": 256176,
-            "adults_crop": 754643
-          },
-          "transport_derivatives_opened": true,
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-07T10:05:00+08:00"
-        }
-      },
-      {
-        "cycle": 5,
-        "stage": "VERIFIED",
-        "at": "2026-11-07T09:54:00+08:00",
-        "run_id": "20261107T093300+0800-cycle-5",
-        "species_id": 161,
-        "species": "Ketupa blakistoni",
-        "credited": false,
-        "evidence": {
-          "archive_commit": "02518c3e98683088b119e7df9f9d3491f05249f8",
-          "archive_tree": "0906afc68af348255bd64682e51e90a9939823c5",
-          "rejected_truncated_archive": "f12e5669239be06ad33530c5f66cb1fa21bf7927",
-          "required_paths": 19,
-          "exact_binary_paths": 6,
-          "manifest_counts": {
-            "design_image": 763,
-            "design_legacy": 764,
-            "production": 754
-          },
-          "verification_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "ledger_credit_pending": true,
-          "lease_expires_at": "2026-11-07T10:09:00+08:00"
-        }
-      },
-      {
-        "cycle": 5,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-07T09:57:00+08:00",
-        "run_id": "20261107T093300+0800-cycle-5",
-        "species_id": 161,
-        "species": "Ketupa blakistoni",
-        "credited": true,
-        "evidence": {
-          "verification_commit": "ff05129f16c422fd95159a07947ba352399f14db",
-          "verification_tree": "9810f8aaa2f2e8b9a62f10cf16ab72c89914151f",
-          "archive_commit": "02518c3e98683088b119e7df9f9d3491f05249f8",
-          "batch_progress": "5/6",
-          "next_cycle": 6,
-          "unique_species_count": 176,
-          "total_species": 251,
-          "revision_increment": 1,
-          "scientifically_verified": false
-        }
-      },
-      {
-        "cycle": 6,
-        "stage": "STARTED",
-        "at": "2026-11-07T09:47:00+08:00",
-        "run_id": "20261107T094700+0800-cycle-6",
-        "species_id": 162,
-        "species": "Aegolius acadicus",
-        "credited": false,
-        "evidence": {
-          "run_record": "owl-pet/production/runs/20261107T094700+0800-cycle-6.md",
-          "baseline_main": "d39592ee4421ca2192315befe0052ca38e1ba211",
-          "selection_note": "#162 canonical task entry Aegolius acadicus has archived v1 only; historical colliding 162-glaucidium-hoskinsii paths are preserved but not treated as this species",
-          "lease_expires_at": "2026-11-07T10:02:00+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "cycle": 6,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-07T09:51:00+08:00",
-        "run_id": "20261107T094700+0800-cycle-6",
-        "species_id": 162,
-        "species": "Aegolius acadicus",
-        "credited": false,
-        "evidence": {
-          "research_file": "owl-pet/research/species/162-aegolius-acadicus-v2.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "new_sources": 5,
-          "reused_sources": 1,
-          "unverified_leads": 0,
-          "mikkola_upload_accessible": false,
-          "design_boundary": "near-equal adults, subtly fuller female only; late cavity nestling with plain chocolate juvenal wing/back, cinnamon belly, white facial V and natural cavity-lip support",
-          "full_prompt_path": "owl-pet/production/PROMPTS_FULL.md",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-07T10:06:00+08:00"
-        }
-      },
-      {
-        "cycle": 6,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-07T09:54:00+08:00",
-        "run_id": "20261107T094700+0800-cycle-6",
-        "species_id": 162,
-        "species": "Aegolius acadicus",
-        "credited": false,
-        "evidence": {
-          "generated_path": "owl-pet/production/generated/162-aegolius-acadicus-v2-generated-master.png",
-          "image_blob": "8dd1a2a20c82f1dff97c2306cdb68e40cab5e804",
-          "full_color_bytes": 3204777,
-          "full_color_sha256": "06d3798119da4e7793d283d69f9d5190faf3b7ff1785009be41ef2eda000fd6b",
-          "transport_bytes": 709816,
-          "transport_sha256": "5db9c3937177e21f5336d3b691a986e793cfc293344c9a3d2a2fd8737dffb7a0",
-          "width": 1536,
-          "height": 1024,
-          "preliminary_inspection": "exact title/name/count/labels; near-equal adults; plain chocolate juvenile wing/back, cinnamon belly, white facial V; six feet supported",
-          "edit_required": false,
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-07T10:09:00+08:00"
-        }
-      },
-      {
-        "cycle": 6,
-        "stage": "REVIEWED",
-        "at": "2026-11-07T09:57:00+08:00",
-        "run_id": "20261107T094700+0800-cycle-6",
-        "species_id": 162,
-        "species": "Aegolius acadicus",
-        "credited": false,
-        "evidence": {
-          "reviewed_path": "owl-pet/production/reviewed/162-aegolius-acadicus-v2-reviewed-master.png",
-          "reviewed_blob": "8dd1a2a20c82f1dff97c2306cdb68e40cab5e804",
-          "edit_count": 0,
-          "review_record": "owl-pet/research/reviews/162-aegolius-acadicus-v2-review.md",
-          "review_crops": [
-            "owl-pet/production/review-crops/162-aegolius-acadicus-v2-late-nestling.png",
-            "owl-pet/production/review-crops/162-aegolius-acadicus-v2-adults-support.png"
-          ],
-          "crop_blobs": [
-            "55a46800226fa1463a4dae59cf947e0a2f3f455f",
-            "c71487f86507803563b3cc712bd5809cf87fc29e"
-          ],
-          "reinspection": "full-colour image plus palette-reduced full plate and two crops opened; juvenile plain chocolate rounded wing/back, cinnamon belly, white V and natural support; adults near-equal and all six feet supported",
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-07T10:12:00+08:00"
-        }
-      },
-      {
-        "cycle": 6,
-        "stage": "ARCHIVED",
-        "at": "2026-11-07T10:00:00+08:00",
-        "run_id": "20261107T094700+0800-cycle-6",
-        "species_id": 162,
-        "species": "Aegolius acadicus",
-        "credited": false,
-        "evidence": {
-          "concept": "owl-pet/design/concepts/162-aegolius-acadicus-v2.png",
-          "concept_blob": "8dd1a2a20c82f1dff97c2306cdb68e40cab5e804",
-          "generated": "owl-pet/production/generated/162-aegolius-acadicus-v2-generated-master.png",
-          "reviewed": "owl-pet/production/reviewed/162-aegolius-acadicus-v2-reviewed-master.png",
-          "review_crops": [
-            "owl-pet/production/review-crops/162-aegolius-acadicus-v2-late-nestling.png",
-            "owl-pet/production/review-crops/162-aegolius-acadicus-v2-adults-support.png"
-          ],
-          "manifest_counts": {
-            "design_image": 764,
-            "design_legacy": 765,
-            "production": 755
-          },
-          "unique_species_count": 176,
-          "total_species": 251,
-          "unique_species_increment": 0,
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "readback_pending": true,
-          "lease_expires_at": "2026-11-07T10:15:00+08:00"
-        }
-      },
-      {
-        "cycle": 6,
-        "stage": "VERIFIED",
-        "at": "2026-11-07T10:31:00+08:00",
-        "run_id": "20261107T094700+0800-cycle-6",
-        "species_id": 162,
-        "species": "Aegolius acadicus",
-        "credited": false,
-        "evidence": {
-          "archive_commit": "98243a5a2d9ab9eaaf80838de77beb4367b9c13e",
-          "archive_tree": "796cc6b09e97914c9d3f60b32d87802ecbcfff20",
-          "required_paths": 15,
-          "exact_binary_paths": 5,
-          "tree_entries": 3727,
-          "tree_truncated": false,
-          "manifest_counts": {
-            "design_image": 764,
-            "design_legacy": 765,
-            "production": 755
-          },
-          "verification_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "ledger_credit_pending": true,
-          "lease_expires_at": "2026-11-07T10:46:00+08:00"
-        }
-      }
-    ]
-  },
+  "last_completed_batch_id": "20261107T062903+0800",
+  "active_batch": null,
   "events": [
     {
       "batch_id": "20261105T183434+0800",
@@ -48375,28 +47465,44 @@
         "ledger_credit_pending": true,
         "lease_expires_at": "2026-11-07T10:46:00+08:00"
       }
+    },
+    {
+      "cycle": 6,
+      "stage": "LEDGER_CREDITED",
+      "at": "2026-11-07T10:33:00+08:00",
+      "run_id": "20261107T094700+0800-cycle-6",
+      "species_id": 162,
+      "species": "Aegolius acadicus",
+      "credited": true,
+      "evidence": {
+        "verification_commit": "04a29769901001886ef01710ee622a98b57731d6",
+        "verification_tree": "e33520d72b421ba731c854a45bd6340a69af656f",
+        "archive_commit": "98243a5a2d9ab9eaaf80838de77beb4367b9c13e",
+        "archive_tree": "796cc6b09e97914c9d3f60b32d87802ecbcfff20",
+        "batch_progress": "6/6",
+        "next_cycle": null,
+        "unique_species_count": 176,
+        "total_species": 251,
+        "revision_increment": 1,
+        "scientifically_verified": false
+      }
     }
   ],
-  "ledger_credit_pending": true,
-  "last_verified_commit": "ff05129f16c422fd95159a07947ba352399f14db",
+  "ledger_credit_pending": false,
+  "last_verified_commit": "04a29769901001886ef01710ee622a98b57731d6",
   "completed_cycles": 5,
-  "updated": "2026-11-07T10:31:00+08:00",
-  "stage": "VERIFIED",
+  "updated": "2026-11-07T10:33:00+08:00",
+  "stage": "COMPLETE",
   "stage_evidence": {
+    "verification_commit": "04a29769901001886ef01710ee622a98b57731d6",
+    "verification_tree": "e33520d72b421ba731c854a45bd6340a69af656f",
     "archive_commit": "98243a5a2d9ab9eaaf80838de77beb4367b9c13e",
     "archive_tree": "796cc6b09e97914c9d3f60b32d87802ecbcfff20",
-    "required_paths": 15,
-    "exact_binary_paths": 5,
-    "tree_entries": 3727,
-    "tree_truncated": false,
-    "manifest_counts": {
-      "design_image": 764,
-      "design_legacy": 765,
-      "production": 755
-    },
-    "verification_result": "PASS_WITH_LIMITATIONS",
-    "scientifically_verified": false,
-    "ledger_credit_pending": true,
-    "lease_expires_at": "2026-11-07T10:46:00+08:00"
+    "batch_progress": "6/6",
+    "next_cycle": null,
+    "unique_species_count": 176,
+    "total_species": 251,
+    "revision_increment": 1,
+    "scientifically_verified": false
   }
 }

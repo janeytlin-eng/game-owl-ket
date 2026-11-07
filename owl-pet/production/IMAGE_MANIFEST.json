@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T11:52:00+08:00",
+  "updated": "2026-11-07T11:56:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -26908,13 +26908,31 @@
       "auxiliary_review_crop_blob": "91e90c43eaff6bacab95ddecc4e3090088041fc9",
       "auxiliary_review_crop_sha256": "52e65f7726c777814d5785c7655d20300c8b361be1085ed5059bcb62839a7c2b",
       "auxiliary_review_crop_size_bytes": 414573,
-      "archive_commit_pending": true,
-      "readback_pending": true,
-      "exact_readback": false,
+      "archive_commit_pending": false,
+      "readback_pending": false,
+      "exact_readback": true,
       "ledger_credited": false,
       "evidence_limit": "Exact juvenile age, sex, iris ontogeny, flight capability, continuous feather sequence and exact nest/tree geometry remain unknown; adult lower body may be brighter/cleaner than the specimen wording; Mikkola upload unavailable this execution.",
-      "archive_encoding": "1536x1024 indexed PNG, 64-color no-dither; full-colour ImageGen source SHA retained in run/review; transport derivative and both crops actually opened after optimization."
+      "archive_encoding": "1536x1024 indexed PNG, 64-color no-dither; full-colour ImageGen source SHA retained in run/review; transport derivative and both crops actually opened after optimization.",
+      "archive_commit": "5869ac6de6eee497502676974a2d5426ec15543a",
+      "archive_tree": "4edc8513f1ddde61e75148a4709e28a9c2b327c8",
+      "verified_at": "2026-11-07T11:56:00+08:00",
+      "verification_commit_pending": true,
+      "readback": {
+        "method": "immutable archive exact path/blob/size plus non-truncated recursive tree and manifest cross-check",
+        "required_paths": 16,
+        "exact_binary_paths": 5,
+        "all_git_blobs_match": true,
+        "tree_entries": 3752,
+        "tree_truncated": false,
+        "manifest_counts": {
+          "design_image": 767,
+          "design_legacy": 768,
+          "production": 758
+        },
+        "connector_full_binary_stream_readback": false
+      }
     }
   ],
-  "updated_at": "2026-11-07T11:52:00+08:00"
+  "updated_at": "2026-11-07T11:56:00+08:00"
 }

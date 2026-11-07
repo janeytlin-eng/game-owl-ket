@@ -3865,3 +3865,10 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` read back; cycle 1 credi
 - Three manifests parse to 799 / 796 / 789; newest ID is `33-taenioptynx-brodiei-v5`.
 - Original-access path resolves in the immutable tree to blob `d3666fd014e04a1468565c046ce9b10255e9cbdc`, 3,306,125 bytes.
 - Review result PASS_WITH_LIMITATIONS; science=false. Ledger credit pending.
+
+
+## 2026-11-08 — #33 v5 batch ledger credit
+
+- Verification commit `779f61778d4b35a561414acffa2abb684c28a4a8` and archive commit `40318caef977b4a5487883450ac69800414a8a83` were read back.
+- Credited as batch 20261108T011416+0800 cycle 2/6; next cycle 3.
+- Unique coverage remains 176/251; revision +1; science=false; lease released.

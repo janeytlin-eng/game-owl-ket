@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T12:43:00+08:00",
+  "updated": "2026-11-07T12:46:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -26989,13 +26989,13 @@
       "archive_commit_pending": false,
       "readback_pending": false,
       "exact_readback": true,
-      "ledger_credited": false,
+      "ledger_credited": true,
       "evidence_limit": "Exact age within 35–43 days, sex of the young, iris ontogeny, first-flight timing, quantitative adult sex-size ratio and exact nest/tree geometry remain unknown; Mikkola upload unavailable this execution.",
       "archive_encoding": "1536x1024 indexed PNG, 64-color no-dither; full-colour ImageGen source SHA retained; transport derivative and both crops actually opened after optimization.",
       "archive_commit": "96dc218e4577359671454ede788b802eee4f9b35",
       "archive_tree": "aa0f276da26c4657acad3ec7fc3976b999c37913",
       "verified_at": "2026-11-07T12:43:00+08:00",
-      "verification_commit_pending": true,
+      "verification_commit_pending": false,
       "readback": {
         "method": "immutable archive exact path/blob/size plus non-truncated recursive tree and manifest cross-check",
         "required_paths": 16,
@@ -27009,8 +27009,11 @@
           "production": 759
         },
         "connector_full_binary_stream_readback": false
-      }
+      },
+      "verification_commit": "01d60cfbe52d9a513b9011b8bc1a2470b2fab3a6",
+      "verification_tree": "bc9a211b4582ecb667147254b1d9706b61987c79",
+      "ledger_credited_at": "2026-11-07T12:46:00+08:00"
     }
   ],
-  "updated_at": "2026-11-07T12:43:00+08:00"
+  "updated_at": "2026-11-07T12:46:00+08:00"
 }

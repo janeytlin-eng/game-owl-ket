@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T05:38:09.875+08:00",
+  "updated": "2026-11-08T05:39:28.507+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -30882,12 +30882,20 @@
         }
       ],
       "archive_note": "Recovered from the prior REVIEWED checkpoint without regeneration. Full plate and three role crops had been opened and passed. Full-size originals retained; immutable readback pending.",
-      "readback_pending": true,
-      "archive_commit_pending": true,
-      "archive_commit": null,
-      "exact_readback": false,
-      "archived_at": "2026-11-08T05:38:09.875+08:00"
+      "readback_pending": false,
+      "archive_commit_pending": false,
+      "archive_commit": "94db1071e7f69002dff410a8c2ea3f4df9314d96",
+      "exact_readback": true,
+      "archived_at": "2026-11-08T05:38:09.875+08:00",
+      "archive_tree": "eee7e38625a0899717b9e53c24b490e1ae827fde",
+      "archive_tree_entries": 4182,
+      "archive_tree_truncated": false,
+      "required_paths_verified": 20,
+      "exact_binary_paths_verified": 9,
+      "unique_binary_streams_read_back": 4,
+      "verified_at": "2026-11-08T05:39:28.507+08:00",
+      "verification_result": "Immutable archive tree was non-truncated (4,182 entries). All 20 required paths were present; nine binary paths matched expected Git blob SHA and exact byte size. Three manifests parsed at 810/807/800 with #97 v5 exactly once."
     }
   ],
-  "updated_at": "2026-11-08T05:38:09.875+08:00"
+  "updated_at": "2026-11-08T05:39:28.507+08:00"
 }

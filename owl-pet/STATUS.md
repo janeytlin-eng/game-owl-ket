@@ -4078,3 +4078,10 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` was read back after arch
 - Wetmore sexed samples do not support a universal female-larger rule; older mesoptile remains age/sex unknown and branch-supported.
 - PASS_WITH_LIMITATIONS, science=false; unique coverage remains 176/251; revision +1 only after verification.
 - Manifests staged at 810 / 807 / 800; immutable readback pending.
+
+
+## 2026-11-08 — #97 v5 VERIFIED
+
+- Archive `94db1071e7f69002dff410a8c2ea3f4df9314d96`; tree `eee7e38625a0899717b9e53c24b490e1ae827fde` non-truncated with 4,182 entries.
+- Required paths 20/20; exact binary path/blob/size tuples 9/9; four unique image streams.
+- Manifests 810 / 807 / 800 with #97 v5 exactly once. PASS_WITH_LIMITATIONS; science=false; ledger credit pending.

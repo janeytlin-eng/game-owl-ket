@@ -31363,14 +31363,14 @@
       "next_cycle": 6,
       "active_cycle": 6,
       "started_at": "2026-11-07T14:35:37+08:00",
-      "updated_at": "2026-11-07T17:45:04+08:00",
-      "current_stage": "IMAGE_GENERATED",
+      "updated_at": "2026-11-07T17:46:25+08:00",
+      "current_stage": "REVIEWED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex-root",
         "run_id": "20261107T171100+0800-cycle-6",
-        "heartbeat_at": "2026-11-07T17:45:04+08:00",
-        "expires_at": "2026-11-07T10:00:04.000+00:00"
+        "heartbeat_at": "2026-11-07T17:46:25+08:00",
+        "expires_at": "2026-11-07T18:01:25+08:00"
       },
       "in_progress": {
         "cycle": 6,
@@ -31386,7 +31386,7 @@
         "run_id": "20261107T171100+0800-cycle-6",
         "species_id": 188,
         "species": "Otus semitorques",
-        "stage": "IMAGE_GENERATED"
+        "stage": "REVIEWED"
       },
       "stage_events": [
         {
@@ -32180,6 +32180,35 @@
             "preliminary_inspection": "edited full-colour image and 32-colour transport opened; exact title/name/count/order/labels, near-equal adult scale, adult orange eyes, feathered toes, supported dark-eyed down-rich recent fledgling with short soft wing, all six feet and no nest/flight claim pass",
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-07T10:00:04.000+00:00"
+          }
+        },
+        {
+          "cycle": 6,
+          "stage": "REVIEWED",
+          "at": "2026-11-07T17:46:25+08:00",
+          "run_id": "20261107T171100+0800-cycle-6",
+          "species_id": 188,
+          "species": "Otus semitorques",
+          "credited": false,
+          "evidence": {
+            "reviewed_path": "owl-pet/production/reviewed/188-otus-semitorques-v3-reviewed-master.png",
+            "reviewed_blob": "fae519346fad89e67f1f5366278d294cbc1c87c6",
+            "full_color_blob": "057dc5a560baaa186acb038b61cdac71f23704c9",
+            "edit_count": 1,
+            "imagegen_invocations": 2,
+            "review_record": "owl-pet/research/reviews/188-otus-semitorques-v3-review.md",
+            "review_crops": [
+              "owl-pet/production/review-crops/188-otus-semitorques-v3-adults.png",
+              "owl-pet/production/review-crops/188-otus-semitorques-v3-recent-fledgling.png"
+            ],
+            "crop_blobs": [
+              "9c51ab94b4588f5035c5ff20756cdb762b7d2791",
+              "acff7f5177ca79912dd6c85c9f60273200e9a848"
+            ],
+            "reinspection": "edited full-colour plate, adult crop, recent-fledgling crop and 32-colour transport opened; adults are near-equal same-plumage with orange eyes, long natural tufts, pale nuchal collar and feathered toes; juvenile is down-rich, dark-eyed, little-movement and fully supported with short soft developing wing; all six feet and exact labels pass",
+            "review_result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-07T18:01:25+08:00"
           }
         }
       ]

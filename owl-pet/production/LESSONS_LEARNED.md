@@ -52,3 +52,11 @@ undefined
 - **Rule:** treat life-stage evidence and nest-site evidence as independent gates. A fledgling may be shown when its observable stage is supported, but nest/cavity/egg details require separate direct evidence.
 - **Applied:** #175 *Otus ireneae* v3 uses an age-unknown supported fledgling and omits nest, cavity and eggs.
 - **Verified:** visually effective for #175 v3; not yet validated across earlier plates.
+
+
+## 2026-11-07 — #188 *Otus semitorques* v3 — recent-fledgling evidence does not license mature remiges
+- **Problem found:** the first image matched the down-rich fledgling body but exposed a long, layered wing that read as adult flight plumage.
+- **Evidence:** Nohara & Honda (2025) describe/figure a recently fledged juvenile with the entire body covered in down, little movement, and incomplete flight and tail feathers; exact day-age, iris, first-flight ability and feather sequence remain unknown.
+- **Rule derived:** when direct evidence says incomplete flight feathers, require a compact wing mostly buried in down with only short developing feather tips; forbid a long layered remex fan even if the face and ear tufts look developed.
+- **Applied:** one localized edit to #188 v3; adults, text, forest and support were locked.
+- **Verified effect:** the reopened full plate and juvenile crop show a shorter soft wing, down-dominant contour and complete branch support. Verified for #188 v3 only; earlier recent-fledgling plates need source-specific recheck.

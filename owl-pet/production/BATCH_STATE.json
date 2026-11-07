@@ -28575,38 +28575,26 @@
           "commit_sha": "c6a133491f5a11cf99c8220a11d937ecc4afd8da",
           "archive_commit": "b1c9df704af877366e1443e4f970d9c410a7c58d",
           "run_record": "owl-pet/production/runs/20261107T103800+0800-cycle-1.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Strix hadorami",
+          "species_id": 164,
+          "version": 3,
+          "commit_sha": "6a4a28723c6eef446bc7a939861a3afeaf09a1ba",
+          "archive_commit": "a9c75a083cfbb2ead876504a2350edf2b21a897c",
+          "run_record": "owl-pet/production/runs/20261107T110600+0800-cycle-2.md"
         }
       ],
-      "next_cycle": 2,
-      "active_cycle": 2,
+      "next_cycle": 3,
+      "active_cycle": null,
       "started_at": "2026-11-07T10:38:00+08:00",
-      "updated_at": "2026-11-07T11:28:00+08:00",
-      "current_stage": "VERIFIED",
-      "ledger_credit_pending": true,
-      "lease": {
-        "owner": "codex",
-        "run_id": "20261107T110600+0800-cycle-2",
-        "heartbeat_at": "2026-11-07T11:28:00+08:00",
-        "expires_at": "2026-11-07T11:43:00+08:00"
-      },
-      "in_progress": {
-        "cycle": 2,
-        "species_id": 164,
-        "species": "Strix hadorami",
-        "version": 3,
-        "stage": "VERIFIED",
-        "run_id": "20261107T110600+0800-cycle-2",
-        "run_record": "owl-pet/production/runs/20261107T110600+0800-cycle-2.md"
-      },
-      "active": {
-        "cycle": 2,
-        "species_id": 164,
-        "species": "Strix hadorami",
-        "version": 3,
-        "stage": "VERIFIED",
-        "run_id": "20261107T110600+0800-cycle-2",
-        "run_record": "owl-pet/production/runs/20261107T110600+0800-cycle-2.md"
-      },
+      "updated_at": "2026-11-07T11:31:00+08:00",
+      "current_stage": "LEDGER_CREDITED",
+      "ledger_credit_pending": false,
+      "lease": null,
+      "in_progress": null,
+      "active": null,
       "stage_events": [
         {
           "cycle": 1,
@@ -28915,6 +28903,27 @@
             "scientifically_verified": false,
             "ledger_credit_pending": true,
             "lease_expires_at": "2026-11-07T11:43:00+08:00"
+          }
+        },
+        {
+          "cycle": 2,
+          "stage": "LEDGER_CREDITED",
+          "at": "2026-11-07T11:31:00+08:00",
+          "run_id": "20261107T110600+0800-cycle-2",
+          "species_id": 164,
+          "species": "Strix hadorami",
+          "credited": true,
+          "evidence": {
+            "verification_commit": "6a4a28723c6eef446bc7a939861a3afeaf09a1ba",
+            "verification_tree": "26c8d6849327fa346508b86b4f37692422cf47d2",
+            "archive_commit": "a9c75a083cfbb2ead876504a2350edf2b21a897c",
+            "archive_tree": "e1ab6cc86df5b6401f15b1117a1125d7caa02597",
+            "batch_progress": "2/6",
+            "next_cycle": 3,
+            "unique_species_count": 176,
+            "total_species": 251,
+            "revision_increment": 1,
+            "scientifically_verified": false
           }
         }
       ]

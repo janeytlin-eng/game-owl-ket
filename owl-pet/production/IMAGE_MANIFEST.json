@@ -26835,13 +26835,13 @@
       "archive_commit_pending": false,
       "readback_pending": false,
       "exact_readback": true,
-      "ledger_credited": false,
+      "ledger_credited": true,
       "evidence_limit": "Exact juvenile age, iris chronology, feather sequence, geographic colour variation, nest-crevice geometry and universal quantitative sex ratio remain unknown; Mikkola upload unavailable this execution.",
       "archive_encoding": "1536x1024 indexed PNG, 64-color no-dither; full-colour ImageGen source SHA retained in run/review; transport derivative opened after optimization.",
       "archive_commit": "a9c75a083cfbb2ead876504a2350edf2b21a897c",
       "archive_tree": "e1ab6cc86df5b6401f15b1117a1125d7caa02597",
       "verified_at": "2026-11-07T11:28:00+08:00",
-      "verification_commit_pending": true,
+      "verification_commit_pending": false,
       "readback": {
         "method": "immutable archive exact path/blob/size plus non-truncated recursive tree and manifest cross-check",
         "required_paths": 16,
@@ -26855,8 +26855,11 @@
           "production": 757
         },
         "connector_full_binary_stream_readback": false
-      }
+      },
+      "verification_commit": "6a4a28723c6eef446bc7a939861a3afeaf09a1ba",
+      "verification_tree": "26c8d6849327fa346508b86b4f37692422cf47d2",
+      "ledger_credited_at": "2026-11-07T11:31:00+08:00"
     }
   ],
-  "updated_at": "2026-11-07T11:28:00+08:00"
+  "updated_at": "2026-11-07T11:31:00+08:00"
 }

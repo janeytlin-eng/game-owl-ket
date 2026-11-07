@@ -32387,14 +32387,14 @@
       "next_cycle": 5,
       "active_cycle": 5,
       "started_at": "2026-11-07T18:30:00+08:00",
-      "updated_at": "2026-11-07T21:08:00+08:00",
-      "current_stage": "IMAGE_GENERATED",
+      "updated_at": "2026-11-07T21:11:00+08:00",
+      "current_stage": "REVIEWED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex-root",
         "run_id": "20261107T205300+0800-cycle-5",
-        "heartbeat_at": "2026-11-07T21:08:00+08:00",
-        "expires_at": "2026-11-07T21:23:00+08:00"
+        "heartbeat_at": "2026-11-07T21:11:00+08:00",
+        "expires_at": "2026-11-07T21:26:00+08:00"
       },
       "in_progress": {
         "cycle": 5,
@@ -32410,7 +32410,7 @@
         "run_id": "20261107T205300+0800-cycle-5",
         "species_id": 184,
         "species": "Otus spilocephalus",
-        "stage": "IMAGE_GENERATED"
+        "stage": "REVIEWED"
       },
       "stage_events": [
         {
@@ -33138,6 +33138,44 @@
             "preliminary_inspection": "Initial plate opened: labels, adults, colour and support passed; juvenile wing was too long and adult-like. One targeted edit shortened/softened only the juvenile wing, concealed the tail and lowered the body onto the fork. Edited full plate reopened and passed preliminary review.",
             "lease_expires_at": "2026-11-07T21:23:00+08:00",
             "scientifically_verified": false
+          }
+        },
+        {
+          "cycle": 5,
+          "stage": "REVIEWED",
+          "at": "2026-11-07T21:11:00+08:00",
+          "run_id": "20261107T205300+0800-cycle-5",
+          "species_id": 184,
+          "species": "Otus spilocephalus",
+          "credited": false,
+          "evidence": {
+            "review_record": "owl-pet/research/reviews/184-otus-spilocephalus-v3-review.md",
+            "reviewed_path": "owl-pet/production/reviewed/184-otus-spilocephalus-v3-reviewed-master.png",
+            "result": "PASS_WITH_LIMITATIONS",
+            "edit_count": 1,
+            "viewed": [
+              "edited full plate",
+              "transport master",
+              "adult male pattern/feet crop",
+              "recent fledgling crop",
+              "adult female pattern/feet crop"
+            ],
+            "checks": {
+              "identity": "PASS",
+              "sex_direction": "PASS_NEAR_EQUAL",
+              "juvenile_stage": "PASS_WITH_LIMITATIONS",
+              "support": "PASS",
+              "text_labels": "PASS",
+              "habitat": "PASS"
+            },
+            "unknowns": [
+              "exact juvenile age and sex",
+              "juvenile iris chronology",
+              "first-flight threshold",
+              "quantitative sex dimorphism in O. s. hambroecki"
+            ],
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-07T21:26:00+08:00"
           }
         }
       ]

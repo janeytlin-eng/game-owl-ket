@@ -29707,21 +29707,21 @@
       "next_cycle": 6,
       "active_cycle": 6,
       "started_at": "2026-11-07T14:00:00+08:00",
-      "updated_at": "2026-11-07T13:34:00+08:00",
-      "current_stage": "REVIEWED",
+      "updated_at": "2026-11-07T13:38:00+08:00",
+      "current_stage": "ARCHIVED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex",
         "run_id": "20261107T165200+0800-cycle-6",
-        "heartbeat_at": "2026-11-07T13:34:00+08:00",
-        "expires_at": "2026-11-07T13:49:00+08:00"
+        "heartbeat_at": "2026-11-07T13:38:00+08:00",
+        "expires_at": "2026-11-07T13:53:00+08:00"
       },
       "in_progress": {
         "cycle": 6,
         "species_id": 175,
         "species": "Otus ireneae",
         "version": 3,
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "run_id": "20261107T165200+0800-cycle-6",
         "run_record": "owl-pet/production/runs/20261107T165200+0800-cycle-6.md"
       },
@@ -29730,7 +29730,7 @@
         "species_id": 175,
         "species": "Otus ireneae",
         "version": 3,
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "run_id": "20261107T165200+0800-cycle-6",
         "run_record": "owl-pet/production/runs/20261107T165200+0800-cycle-6.md"
       },
@@ -30710,6 +30710,34 @@
             "review_record": "owl-pet/research/reviews/175-otus-ireneae-v3-review.md",
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-07T13:49:00+08:00"
+          }
+        },
+        {
+          "cycle": 6,
+          "stage": "ARCHIVED",
+          "at": "2026-11-07T13:38:00+08:00",
+          "run_id": "20261107T165200+0800-cycle-6",
+          "species_id": 175,
+          "species": "Otus ireneae",
+          "credited": false,
+          "evidence": {
+            "concept_path": "owl-pet/design/concepts/175-otus-ireneae-v3.png",
+            "concept_blob": "bfbcb1d9b1de45b08993e6bdabf3657876568c72",
+            "concept_sha256": "ea6cd896cd01913b2592524e90da50e9706f60e72422e3c3812b52adf7e199b2",
+            "concept_bytes": 619928,
+            "binary_paths": 5,
+            "manifest_counts": {
+              "design_image": 776,
+              "design_legacy": 777,
+              "production": 767
+            },
+            "full_color_source_sha256": "9291f735b83eb6e3546cc14b75723d41b4cd71e455d2bf92a483e968d238c0d3",
+            "full_color_source_bytes": 3023501,
+            "review_result": "PASS_WITH_LIMITATIONS",
+            "archive_commit_pending": true,
+            "readback_pending": true,
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-07T13:53:00+08:00"
           }
         }
       ],
@@ -32189,8 +32217,8 @@
   "last_checkpoint": {
     "batch_id": "20261107T140000+0800",
     "cycle": 6,
-    "stage": "REVIEWED",
-    "at": "2026-11-07T13:34:00+08:00",
+    "stage": "ARCHIVED",
+    "at": "2026-11-07T13:38:00+08:00",
     "run_record": "owl-pet/production/runs/20261107T165200+0800-cycle-6.md"
   },
   "history": [
@@ -52259,6 +52287,34 @@
         "scientifically_verified": false,
         "lease_expires_at": "2026-11-07T13:49:00+08:00"
       }
+    },
+    {
+      "cycle": 6,
+      "stage": "ARCHIVED",
+      "at": "2026-11-07T13:38:00+08:00",
+      "run_id": "20261107T165200+0800-cycle-6",
+      "species_id": 175,
+      "species": "Otus ireneae",
+      "credited": false,
+      "evidence": {
+        "concept_path": "owl-pet/design/concepts/175-otus-ireneae-v3.png",
+        "concept_blob": "bfbcb1d9b1de45b08993e6bdabf3657876568c72",
+        "concept_sha256": "ea6cd896cd01913b2592524e90da50e9706f60e72422e3c3812b52adf7e199b2",
+        "concept_bytes": 619928,
+        "binary_paths": 5,
+        "manifest_counts": {
+          "design_image": 776,
+          "design_legacy": 777,
+          "production": 767
+        },
+        "full_color_source_sha256": "9291f735b83eb6e3546cc14b75723d41b4cd71e455d2bf92a483e968d238c0d3",
+        "full_color_source_bytes": 3023501,
+        "review_result": "PASS_WITH_LIMITATIONS",
+        "archive_commit_pending": true,
+        "readback_pending": true,
+        "scientifically_verified": false,
+        "lease_expires_at": "2026-11-07T13:53:00+08:00"
+      }
     }
   ],
   "ledger_credit_pending": false,
@@ -52331,7 +52387,7 @@
     }
   ],
   "updated": "2026-11-07T17:00:00+08:00",
-  "stage": "REVIEWED",
+  "stage": "ARCHIVED",
   "stage_evidence": {
     "run_record": "owl-pet/production/runs/20261107T154800+0800-cycle-4.md",
     "baseline_main": "27f57fdd9785164a39369ffdcffd7c1ec70aff7b",
@@ -52404,23 +52460,23 @@
       "lease_expires_at": "2026-11-07T13:49:00+08:00"
     },
     "ARCHIVED": {
-      "concept_path": "owl-pet/design/concepts/174-strix-sartorii-v3.png",
-      "concept_blob": "997cf98b0d1af1114342274375603ab4efb4e8a2",
-      "concept_sha256": "d02486ee0d9138eaa2dc2bb43bab35e1de8032bde027a9e229c569f3e0e7bb26",
-      "concept_bytes": 604378,
+      "concept_path": "owl-pet/design/concepts/175-otus-ireneae-v3.png",
+      "concept_blob": "bfbcb1d9b1de45b08993e6bdabf3657876568c72",
+      "concept_sha256": "ea6cd896cd01913b2592524e90da50e9706f60e72422e3c3812b52adf7e199b2",
+      "concept_bytes": 619928,
       "binary_paths": 5,
       "manifest_counts": {
-        "design_image": 775,
-        "design_legacy": 776,
-        "production": 766
+        "design_image": 776,
+        "design_legacy": 777,
+        "production": 767
       },
-      "full_color_source_sha256": "5881f172eb03cdeb567708bd7f2cdd0b9db284a3b81e5cebf9fe83a78d105e99",
-      "full_color_source_bytes": 2712237,
+      "full_color_source_sha256": "9291f735b83eb6e3546cc14b75723d41b4cd71e455d2bf92a483e968d238c0d3",
+      "full_color_source_bytes": 3023501,
       "review_result": "PASS_WITH_LIMITATIONS",
       "archive_commit_pending": true,
       "readback_pending": true,
       "scientifically_verified": false,
-      "lease_expires_at": "2026-11-07T16:56:00+08:00"
+      "lease_expires_at": "2026-11-07T13:53:00+08:00"
     },
     "VERIFIED": {
       "archive_commit": "84cfcc33eb91b0c016e914a1299217ea67736519",
@@ -52467,7 +52523,7 @@
     "RESEARCH_READY": "2026-11-07T17:00:00+08:00",
     "IMAGE_GENERATED": "2026-11-07T13:30:00+08:00",
     "REVIEWED": "2026-11-07T13:34:00+08:00",
-    "ARCHIVED": "2026-11-07T16:41:00+08:00",
+    "ARCHIVED": "2026-11-07T13:38:00+08:00",
     "VERIFIED": "2026-11-07T16:45:00+08:00",
     "LEDGER_CREDITED": "2026-11-07T16:48:00+08:00",
     "STARTED": "2026-11-07T16:52:00+08:00"

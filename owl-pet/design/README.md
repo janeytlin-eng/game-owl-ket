@@ -1,3 +1,8 @@
+## Latest concept: #175 Sokoke Scops Owl — *Otus ireneae* v3
+
+- [Concept](concepts/175-otus-ireneae-v3.png) · [Research](../research/species/175-otus-ireneae-v3.md) · [Review](../research/reviews/175-otus-ireneae-v3-review.md) · [Run](../production/runs/20261107T165200+0800-cycle-6.md)
+- V3 preserves v1–v2, uses near-equal same-morph adults, and limits the young bird to an age-unknown supported fledgling. The full 2002 field account records fledglings but a failed nest search, so no cavity, eggs or nest material are inferred. Full image and two crops opened; no edit required. `PASS_WITH_LIMITATIONS`; science=false; immutable readback pending.
+
 ## Latest concept: #140 Reddish Scops Owl — *Otus rufescens* v4
 
 - [Concept](concepts/140-otus-rufescens-v4.png) · [Research](../research/species/140-otus-rufescens-v4.md) · [Review](../research/reviews/140-otus-rufescens-v4-review.md) · [Run](../production/runs/20261107T015800+0800-cycle-3.md)

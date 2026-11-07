@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T16:48:00+08:00",
+  "updated": "2026-11-07",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -28276,7 +28276,64 @@
       "verification_tree": "e594ccd4f8ca26d8809276e52dbde61afcfde8f7",
       "ledger_credited": true,
       "credited_at": "2026-11-07T16:48:00+08:00"
+    },
+    {
+      "id": "175-otus-ireneae-v3",
+      "path": "design/concepts/175-otus-ireneae-v3.png",
+      "species_id": 175,
+      "scientific_name": "Otus ireneae",
+      "historical_names": [
+        "Otus scops ireneae"
+      ],
+      "common_name": "Sokoke Scops Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "status": "v3科学校准。读取Cameron 2002《Nest Quest》全文（印刷页30–35）及BirdLife生态资料，并复用Virani和Mikkola记录。成年雌雄近等体型、同一灰至深褐色型，不将色型或体型差异强行性别化；成年浅黄眼、小耳羽束。幼鸟限定为年龄未知离巢幼鸟，深色/不确定虹膜、软轮廓、短圆折翼和有支撑短尾。2001年密集搜巢失败，因此不重建巢洞、蛋或巢材。PASS_WITH_LIMITATIONS；精确幼鸟年龄/性别、虹膜/翼羽/首飞时序及巢位未知，science=false。",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "source_ids": [
+        "SSO-CAMERON-2002-P30-35",
+        "SSO-BIRDLIFE-DATAZONE-2026",
+        "SSO-VIRANI-1995-P24-27",
+        "SSO-VIRANI-2008-P6-9",
+        "SSO-MIKKOLA-2013-P134",
+        "SSO-RIPLEY-1966-P136-LEAD"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/175-otus-ireneae-v3.md",
+      "run_record": "production/runs/20261107T165200+0800-cycle-6.md",
+      "review_record": "research/reviews/175-otus-ireneae-v3-review.md",
+      "reviewed_at": "2026-11-07T13:34:00+08:00",
+      "dimensions": "1536x1024",
+      "sha256": "ea6cd896cd01913b2592524e90da50e9706f60e72422e3c3812b52adf7e199b2",
+      "size_bytes": 619928,
+      "git_blob": "bfbcb1d9b1de45b08993e6bdabf3657876568c72",
+      "generated_path": "production/generated/175-otus-ireneae-v3-generated-master.png",
+      "generated_blob": "bfbcb1d9b1de45b08993e6bdabf3657876568c72",
+      "generated_sha256": "ea6cd896cd01913b2592524e90da50e9706f60e72422e3c3812b52adf7e199b2",
+      "generated_size_bytes": 619928,
+      "full_color_source_sha256": "9291f735b83eb6e3546cc14b75723d41b4cd71e455d2bf92a483e968d238c0d3",
+      "full_color_source_size_bytes": 3023501,
+      "reviewed_path": "production/reviewed/175-otus-ireneae-v3-reviewed-master.png",
+      "reviewed_blob": "bfbcb1d9b1de45b08993e6bdabf3657876568c72",
+      "reviewed_sha256": "ea6cd896cd01913b2592524e90da50e9706f60e72422e3c3812b52adf7e199b2",
+      "reviewed_size_bytes": 619928,
+      "review_crop_path": "production/review-crops/175-otus-ireneae-v3-age-unknown-fledgling.png",
+      "review_crop_blob": "fdbeb346d1cc713edeb9b675204e19d1eaca0ce7",
+      "review_crop_sha256": "2bfd0b9bebe72f9fb3c5e522f9b861a4b36f70e6183ebc7ca718a0151f2a72ff",
+      "review_crop_size_bytes": 190333,
+      "auxiliary_review_crop_path": "production/review-crops/175-otus-ireneae-v3-adults-support.png",
+      "auxiliary_review_crop_blob": "d7551893943dc9bd10e56354e264ae749b2533e6",
+      "auxiliary_review_crop_sha256": "0001a0b99a65f07a2f7b2578a6b0b5ab6636c41fb614e504d8e4f457b1a574d7",
+      "auxiliary_review_crop_size_bytes": 427504,
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "ledger_credited": false
     }
   ],
-  "updated_at": "2026-11-07T16:48:00+08:00"
+  "updated_at": "2026-11-07T13:38:00+08:00"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T12:46:00+08:00",
+  "updated": "2026-11-07T13:13:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -27696,7 +27696,69 @@
       "verification_commit": "01d60cfbe52d9a513b9011b8bc1a2470b2fab3a6",
       "verification_tree": "bc9a211b4582ecb667147254b1d9706b61987c79",
       "ledger_credited_at": "2026-11-07T12:46:00+08:00"
+    },
+    {
+      "id": "167-ketupa-poensis-v3",
+      "path": "design/concepts/167-ketupa-poensis-v3.png",
+      "species_id": 167,
+      "scientific_name": "Ketupa poensis",
+      "historical_names": [
+        "Bubo poensis",
+        "Bubo poensis poensis",
+        "Bubo vosseleri"
+      ],
+      "common_name": "Fraser's Eagle-Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "status": "v3科学校准。新增Sharpe 1875 p.42原始成鸟/幼鸟标本描述及Tobias & Williams 2022比较照片证据；统一顺序为雄、雌、年龄未知幼鸟。成鸟深色眼、板岩色喙、暖褐细横斑、羽跗至蓝灰趾，银白肩斑明显但不形成项圈；雌鸟仅略丰满。幼鸟更浅的黄褐/白色细横斑，弱绒状耳羽、柔和体态，保留有物种证据的成鸟式折翼纹但双足支撑且不推断飞行。全图与两裁图实际查看通过，无需编辑。PASS_WITH_LIMITATIONS；精确日龄/性别、活体幼鸟软部、首飞、连续羽序和巢位未知，science=false。",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "source_ids": [
+        "FREO-SHARPE-1875-P42",
+        "FREO-TOBIAS-WILLIAMS-2022-FIG2-5",
+        "FREO-CLEMENTS-2022-LUMP",
+        "FREO-MNHN-MO-1971-66",
+        "FREO-MIKKOLA-2013-P284"
+      ],
+      "unverified_leads": [],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-07--167-ketupa-poensis-v3--primary-young-and-scapular-calibration",
+      "research_record": "research/species/167-ketupa-poensis-v3.md",
+      "run_record": "production/runs/20261107T125000+0800-cycle-5.md",
+      "review_record": "research/reviews/167-ketupa-poensis-v3-review.md",
+      "reviewed_at": "2026-11-07T13:09:00+08:00",
+      "dimensions": "1536x1024",
+      "sha256": "0071955f013bf6c243f2748f443c39adeb2c089f7508a3eb3add259ccde324b5",
+      "size_bytes": 682559,
+      "git_blob": "ff9666d13d4e3e809a09990797fbfb2ac42207a4",
+      "generated_path": "production/generated/167-ketupa-poensis-v3-generated-master.png",
+      "generated_blob": "ff9666d13d4e3e809a09990797fbfb2ac42207a4",
+      "generated_sha256": "0071955f013bf6c243f2748f443c39adeb2c089f7508a3eb3add259ccde324b5",
+      "generated_size_bytes": 682559,
+      "full_color_source_sha256": "d7e9d6452178791711d09b9d72970c5ae6f1d27e3082f4d36140f94119deb5f8",
+      "full_color_source_size_bytes": 3265597,
+      "reviewed_path": "production/reviewed/167-ketupa-poensis-v3-reviewed-master.png",
+      "reviewed_blob": "ff9666d13d4e3e809a09990797fbfb2ac42207a4",
+      "reviewed_sha256": "0071955f013bf6c243f2748f443c39adeb2c089f7508a3eb3add259ccde324b5",
+      "reviewed_size_bytes": 682559,
+      "review_crop_path": "production/review-crops/167-ketupa-poensis-v3-young.png",
+      "review_crop_blob": "471a09947df61ef22fab8c65fce65de64440f94a",
+      "review_crop_sha256": "c62eb8a07acd9910ba9a6d558df2861e29bf08b16afee3fb50365f6482a952fd",
+      "review_crop_size_bytes": 157170,
+      "auxiliary_review_crop_path": "production/review-crops/167-ketupa-poensis-v3-adults.png",
+      "auxiliary_review_crop_blob": "125931203d399d3b76ca9d171ee70039f781dbb5",
+      "auxiliary_review_crop_sha256": "7b468272041d1c943ad67aee294aa9e750b3ae0031d94e08709222ee4e8d84c9",
+      "auxiliary_review_crop_size_bytes": 381468,
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false,
+      "ledger_credited": false,
+      "evidence_limit": "Exact young age/sex, living juvenile soft parts, first flight, continuous feather sequence, quantitative linear adult sex ratio and exact nest geometry remain unknown; Mikkola upload unavailable.",
+      "archive_encoding": "1536x1024 indexed PNG, 64-color no-dither; full-colour ImageGen source SHA retained; transport board and final crops actually opened."
     }
   ],
-  "updated_at": "2026-11-07T12:46:00+08:00"
+  "updated_at": "2026-11-07T13:13:00+08:00"
 }

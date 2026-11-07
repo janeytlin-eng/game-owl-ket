@@ -36171,8 +36171,8 @@
       "next_cycle": 3,
       "active_cycle": 3,
       "started_at": "2026-11-08T02:35:50+08:00",
-      "updated_at": "2026-11-08T03:36:19+08:00",
-      "current_stage": "REVIEWED",
+      "updated_at": "2026-11-08T03:37:28+08:00",
+      "current_stage": "ARCHIVED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex-owl-production",
@@ -36180,15 +36180,15 @@
         "batch_id": "20261108T023550+0800",
         "cycle": 3,
         "species_id": 40,
-        "heartbeat_at": "2026-11-08T03:36:19+08:00",
-        "expires_at": "2026-11-08T03:51:19+08:00"
+        "heartbeat_at": "2026-11-08T03:37:28+08:00",
+        "expires_at": "2026-11-08T03:52:28+08:00"
       },
       "in_progress": {
         "run_id": "20261108T032852+0800-cycle-3",
         "cycle": 3,
         "species_id": 40,
         "species": "Glaucidium nubicola",
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "run_record": "owl-pet/production/runs/20261108T032852+0800-cycle-3.md"
       },
       "active": {
@@ -36786,6 +36786,40 @@
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-08T03:51:19+08:00"
           }
+        },
+        {
+          "batch_id": "20261108T023550+0800",
+          "cycle": 3,
+          "stage": "ARCHIVED",
+          "at": "2026-11-08T03:37:28+08:00",
+          "run_id": "20261108T032852+0800-cycle-3",
+          "species_id": 40,
+          "species": "Glaucidium nubicola",
+          "credited": false,
+          "evidence": {
+            "concept": "owl-pet/design/concepts/40-glaucidium-nubicola-v5.png",
+            "concept_blob": "eaa428fb02257c5b24deedd20e5539b146d18b56",
+            "initial_original": "production/generated/40-glaucidium-nubicola-v5-initial-original.png",
+            "final_original": "production/generated/40-glaucidium-nubicola-v5-final-original.png",
+            "full_color_source": "production/generated/40-glaucidium-nubicola-v5-full-color.png",
+            "reviewed": "production/reviewed/40-glaucidium-nubicola-v5-reviewed-master.png",
+            "review_crops": 3,
+            "manifests": 3,
+            "manifest_counts": {
+              "design_upper": 806,
+              "design_lower": 803,
+              "production": 796
+            },
+            "unique_species_count": 176,
+            "total_species": 251,
+            "unique_species_increment": 0,
+            "revision_increment": 1,
+            "review_result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false,
+            "archive_commit_pending": true,
+            "readback_pending": true,
+            "lease_expires_at": "2026-11-08T03:52:28+08:00"
+          }
         }
       ]
     }
@@ -36796,8 +36830,8 @@
     "batch_id": "20261108T023550+0800",
     "cycle": 3,
     "species_id": 40,
-    "heartbeat_at": "2026-11-08T03:36:19+08:00",
-    "expires_at": "2026-11-08T03:51:19+08:00"
+    "heartbeat_at": "2026-11-08T03:37:28+08:00",
+    "expires_at": "2026-11-08T03:52:28+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -36947,8 +36981,8 @@
     "batch_id": "20261108T023550+0800",
     "cycle": 3,
     "species_id": 40,
-    "heartbeat_at": "2026-11-08T03:36:19+08:00",
-    "expires_at": "2026-11-08T03:51:19+08:00"
+    "heartbeat_at": "2026-11-08T03:37:28+08:00",
+    "expires_at": "2026-11-08T03:52:28+08:00"
   },
   "last_updated_at": "2026-11-08T03:26:20+08:00",
   "audit_notes": [
@@ -53328,71 +53362,43 @@
       "batch_id": "20261108T023550+0800"
     }
   ],
-  "updated": "2026-11-08T03:36:19+08:00",
-  "stage": "REVIEWED",
+  "updated": "2026-11-08T03:37:28+08:00",
+  "stage": "ARCHIVED",
   "stage_evidence": {
-    "final_original": "owl-pet/production/generated/40-glaucidium-nubicola-v5-final-original.png",
-    "final_blob": "eaa428fb02257c5b24deedd20e5539b146d18b56",
-    "final_bytes": 2850815,
-    "final_sha256": "97bc385c39e1fc3190af2be778e4f568ca2c9ea855b17aeb612abed1e6644d17",
-    "geometry": "1536x1024",
-    "generation_seconds": 45.4,
-    "edit_seconds": 36.7,
-    "edit_count": 1,
-    "reviewed_path": "owl-pet/production/reviewed/40-glaucidium-nubicola-v5-reviewed-master.png",
-    "reviewed_blob": "eaa428fb02257c5b24deedd20e5539b146d18b56",
-    "review_record": "owl-pet/research/reviews/40-glaucidium-nubicola-v5-review.md",
-    "review_crops": [
-      "owl-pet/production/review-crops/40-glaucidium-nubicola-v5-adult-male.png",
-      "owl-pet/production/review-crops/40-glaucidium-nubicola-v5-adult-female.png",
-      "owl-pet/production/review-crops/40-glaucidium-nubicola-v5-juvenile.png"
-    ],
-    "crop_blobs": [
-      "d731fdddb4350ea21cd8ba9e4a0daf3b0ffe5946",
-      "255c7bc647aba33bc20df784c484b8a1ed815d52",
-      "f7a0929b056bcb3e050af2bb637413347eeca122"
-    ],
-    "actual_views": [
-      "initial full plate",
-      "three initial crops",
-      "edited full plate",
-      "adult male final crop",
-      "adult female final crop",
-      "juvenile final crop"
-    ],
-    "checks": {
-      "identity": "PASS",
-      "male_occipital_pattern": "PASS",
-      "sex_direction": "PASS_WITH_LIMITATION",
-      "tail_bands": "PASS_WITH_LIMITATION",
-      "juvenile_stage": "PASS_WITH_LIMITATIONS",
-      "support": "PASS",
-      "text_labels": "PASS",
-      "habitat": "PASS"
+    "concept": "owl-pet/design/concepts/40-glaucidium-nubicola-v5.png",
+    "concept_blob": "eaa428fb02257c5b24deedd20e5539b146d18b56",
+    "initial_original": "production/generated/40-glaucidium-nubicola-v5-initial-original.png",
+    "final_original": "production/generated/40-glaucidium-nubicola-v5-final-original.png",
+    "full_color_source": "production/generated/40-glaucidium-nubicola-v5-full-color.png",
+    "reviewed": "production/reviewed/40-glaucidium-nubicola-v5-reviewed-master.png",
+    "review_crops": 3,
+    "manifests": 3,
+    "manifest_counts": {
+      "design_upper": 806,
+      "design_lower": 803,
+      "production": 796
     },
-    "unknowns": [
-      "exact juvenile age and sex",
-      "iris chronology",
-      "feather sequence",
-      "nest stage",
-      "flight threshold",
-      "independence"
-    ],
+    "unique_species_count": 176,
+    "total_species": 251,
+    "unique_species_increment": 0,
+    "revision_increment": 1,
     "review_result": "PASS_WITH_LIMITATIONS",
     "scientifically_verified": false,
-    "lease_expires_at": "2026-11-08T03:51:19+08:00"
+    "archive_commit_pending": true,
+    "readback_pending": true,
+    "lease_expires_at": "2026-11-08T03:52:28+08:00"
   },
   "last_verification_commit": "68cd3c050eb407bfb2701b635ad2627b1528e45c",
   "timestamps": {
     "RESEARCH_READY": "2026-11-08T03:30:36+08:00",
     "IMAGE_GENERATED": "2026-11-08T03:32:55+08:00",
     "REVIEWED": "2026-11-08T03:36:19+08:00",
-    "ARCHIVED": "2026-11-07T23:36:55.461+08:00",
+    "ARCHIVED": "2026-11-08T03:37:28+08:00",
     "VERIFIED": "2026-11-07T23:38:51.658+08:00",
     "LEDGER_CREDITED": "2026-11-07T23:39:44.747+08:00",
     "STARTED": "2026-11-08T03:28:52+08:00",
     "reviewed_at": "2026-11-08T03:36:19+08:00",
-    "archived_at": "2026-11-07T23:36:55.461+08:00",
+    "archived_at": "2026-11-08T03:37:28+08:00",
     "verified_at": "2026-11-07T23:38:51.658+08:00",
     "ledger_credited_at": "2026-11-07T23:39:44.747+08:00",
     "started_at": "2026-11-08T03:28:52+08:00",
@@ -53868,6 +53874,40 @@
         "review_result": "PASS_WITH_LIMITATIONS",
         "scientifically_verified": false,
         "lease_expires_at": "2026-11-08T03:51:19+08:00"
+      }
+    },
+    {
+      "batch_id": "20261108T023550+0800",
+      "cycle": 3,
+      "stage": "ARCHIVED",
+      "at": "2026-11-08T03:37:28+08:00",
+      "run_id": "20261108T032852+0800-cycle-3",
+      "species_id": 40,
+      "species": "Glaucidium nubicola",
+      "credited": false,
+      "evidence": {
+        "concept": "owl-pet/design/concepts/40-glaucidium-nubicola-v5.png",
+        "concept_blob": "eaa428fb02257c5b24deedd20e5539b146d18b56",
+        "initial_original": "production/generated/40-glaucidium-nubicola-v5-initial-original.png",
+        "final_original": "production/generated/40-glaucidium-nubicola-v5-final-original.png",
+        "full_color_source": "production/generated/40-glaucidium-nubicola-v5-full-color.png",
+        "reviewed": "production/reviewed/40-glaucidium-nubicola-v5-reviewed-master.png",
+        "review_crops": 3,
+        "manifests": 3,
+        "manifest_counts": {
+          "design_upper": 806,
+          "design_lower": 803,
+          "production": 796
+        },
+        "unique_species_count": 176,
+        "total_species": 251,
+        "unique_species_increment": 0,
+        "revision_increment": 1,
+        "review_result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false,
+        "archive_commit_pending": true,
+        "readback_pending": true,
+        "lease_expires_at": "2026-11-08T03:52:28+08:00"
       }
     }
   ]

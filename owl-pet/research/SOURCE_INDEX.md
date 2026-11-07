@@ -4127,7 +4127,7 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - **Pages / figures:** pp.305–309; Fig.1 p.306.
 - **Evidence:** very wet 1,400–2,000 m Pacific-slope cloud forest; compact short tail; sparse non-rufous dorsal/flank marks; bold scapular/wing spots; white-bordered false eyes; yellow iris and greenish-yellow bare parts; five incomplete pale tail bands in non-rufous birds.
 - **Limit / design use:** only six males and one female; the lone female was extreme rufous and had six tail bands. Supports near-equal brown adults and explicitly does not support a general female-rufous or female-larger rule.
-- **Links:** [v5 research](species/40-glaucidium-nubicola-v5.md); v5 image pending.
+- **Links:** [v5 research](species/40-glaucidium-nubicola-v5.md); [v5 concept](../design/concepts/40-glaucidium-nubicola-v5.png); [v5 review](reviews/40-glaucidium-nubicola-v5-review.md).
 
 ### CFPO-CADENA-ORTIZ-2022-REREAD
 - **Title / authors / year:** “What Do We Know about the Diet of Ecuadorian Owls?” / Cadena-Ortiz et al. / 2022.

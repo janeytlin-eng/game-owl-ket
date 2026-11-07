@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T03:01:05+08:00",
+  "updated": "2026-11-08T03:37:28+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -30439,7 +30439,87 @@
       "verified_at": "2026-11-08T03:01:05+08:00",
       "exact_readback": true,
       "verification_result": "Immutable archive tree was non-truncated (4,121 entries). All 21 required paths were present; nine binary paths matched expected Git blob SHA and exact byte size. Manifests parsed at 805/802/795 with #39 v5 newest. Connector full-body blob streaming returned UNKNOWN for large binaries, but path/tree SHA and byte verification succeeded."
+    },
+    {
+      "id": "40-glaucidium-nubicola-v5",
+      "path": "design/concepts/40-glaucidium-nubicola-v5.png",
+      "species_id": 40,
+      "scientific_name": "Glaucidium nubicola",
+      "historical_names": [
+        "Glaucidium gnoma nubicola (historical lower-rank combination; not adopted as current name)"
+      ],
+      "common_name": "Cloud-forest Pygmy Owl",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "imagegen_invocations": 2,
+      "status": "V5 preserves v1–v4 and re-reads Robbins & Stiles 1999 plus a peer-reviewed juvenile-feeding synthesis. Adults are near-equal and both brown because the type series had six males but only one extreme-rufous female, so no population-wide sex rule is claimed. One targeted edit shortened the juvenile wing and removed adult-like pale edging. The final age-unknown dependent juvenile is low and fully supported; exact age, iris chronology, nest stage, flight and independence remain unknown.",
+      "source_ids": [
+        "CFPO-ROBBINS-STILES-1999-REREAD",
+        "CFPO-CADENA-ORTIZ-2022-REREAD",
+        "CFPO-BIRDSCOLOMBIA-2024-REREAD"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/40-glaucidium-nubicola-v5.md",
+      "review_record": "research/reviews/40-glaucidium-nubicola-v5-review.md",
+      "run_record": "production/runs/20261108T032852+0800-cycle-3.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 2850815,
+      "sha256": "97bc385c39e1fc3190af2be778e4f568ca2c9ea855b17aeb612abed1e6644d17",
+      "git_blob": "eaa428fb02257c5b24deedd20e5539b146d18b56",
+      "initial_original_path": "production/generated/40-glaucidium-nubicola-v5-initial-original.png",
+      "initial_original_blob": "98a0faf60ae419f31ecf89e64f6435c329658455",
+      "initial_original_size_bytes": 3157252,
+      "initial_original_sha256": "0df36f45460b55c7b93bdd463e8b9b2a44c80670de85b973d1cd779aeacdfa81",
+      "final_original_path": "production/generated/40-glaucidium-nubicola-v5-final-original.png",
+      "final_original_blob": "eaa428fb02257c5b24deedd20e5539b146d18b56",
+      "final_original_size_bytes": 2850815,
+      "final_original_sha256": "97bc385c39e1fc3190af2be778e4f568ca2c9ea855b17aeb612abed1e6644d17",
+      "full_color_source_path": "production/generated/40-glaucidium-nubicola-v5-full-color.png",
+      "full_color_source_blob": "eaa428fb02257c5b24deedd20e5539b146d18b56",
+      "full_color_source_size_bytes": 2850815,
+      "full_color_source_sha256": "97bc385c39e1fc3190af2be778e4f568ca2c9ea855b17aeb612abed1e6644d17",
+      "generated_path": "production/generated/40-glaucidium-nubicola-v5-generated-master.png",
+      "generated_blob": "eaa428fb02257c5b24deedd20e5539b146d18b56",
+      "generated_size_bytes": 2850815,
+      "reviewed_path": "production/reviewed/40-glaucidium-nubicola-v5-reviewed-master.png",
+      "reviewed_blob": "eaa428fb02257c5b24deedd20e5539b146d18b56",
+      "reviewed_size_bytes": 2850815,
+      "review_crops": [
+        {
+          "path": "production/review-crops/40-glaucidium-nubicola-v5-adult-male.png",
+          "blob": "d731fdddb4350ea21cd8ba9e4a0daf3b0ffe5946",
+          "size_bytes": 707596,
+          "sha256": "44f07d72d94696a6e1afe0fd359739078719526c9d11db7e46b0b66ede7ee61a"
+        },
+        {
+          "path": "production/review-crops/40-glaucidium-nubicola-v5-adult-female.png",
+          "blob": "255c7bc647aba33bc20df784c484b8a1ed815d52",
+          "size_bytes": 699858,
+          "sha256": "4f98fc1410a75535095f0ad55360cab643aba220d797ba83ccc57245620964b1"
+        },
+        {
+          "path": "production/review-crops/40-glaucidium-nubicola-v5-juvenile.png",
+          "blob": "f7a0929b056bcb3e050af2bb637413347eeca122",
+          "size_bytes": 733163,
+          "sha256": "9ce6cfb485364d37d67c76f90edcfa52b04e0576badf797786a8387f5550c909"
+        }
+      ],
+      "archive_note": "Initial full plate and three crops opened; one targeted juvenile-wing edit; edited full plate and all final crops reopened. Full-size originals retained. Immutable readback pending.",
+      "readback_pending": true,
+      "archive_commit_pending": true
     }
   ],
-  "updated_at": "2026-11-08T03:01:05+08:00"
+  "updated_at": "2026-11-08T03:37:28+08:00"
 }

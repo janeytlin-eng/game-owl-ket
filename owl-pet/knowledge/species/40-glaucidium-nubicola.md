@@ -92,3 +92,14 @@ Habitat: steep, very wet western-Andean Chocó cloud forest at 1,400–2,000 m, 
 - Juvenile crop: `production/review-crops/40-glaucidium-nubicola-v4-juvenile.png`, 640,737 bytes, Git blob `86947de0fcaf5bbbee7b32f8b2a14e3d74a810cd`.
 - Reusable rule verified in this plate: age-unknown fledgling review must inspect folded-wing tip length in a crop; a short tail alone does not prevent adult-like flight-feather overstatement.
 - Remaining unknowns: exact juvenile age/plumage/iris/flight/nest and population-level sex size direction.
+
+
+## V5 science revision — 2026-11-08T03:37:28+08:00
+
+- Research: `../../research/species/40-glaucidium-nubicola-v5.md`
+- Review: `../../research/reviews/40-glaucidium-nubicola-v5-review.md`
+- Concept: `../../design/concepts/40-glaucidium-nubicola-v5.png`
+- Evidence change: original description reread; single extreme-rufous female is no longer generalized into a female colour/size rule. Adults remain near-equal brown birds.
+- Image change: one edit shortened the juvenile folded wing and removed adult-like pale edging; final juvenile is age-unknown, low and fully supported.
+- Result: PASS_WITH_LIMITATIONS; scientifically_verified=false.
+- Unknowns: exact juvenile age/sex, iris chronology, nest stage, feather sequence, flight threshold and independence.

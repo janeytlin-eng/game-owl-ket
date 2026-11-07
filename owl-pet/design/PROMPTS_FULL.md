@@ -530,3 +530,20 @@ Lighting/mood: soft filtered montane woodland daylight, calm protective adults, 
 Text (verbatim): "27 EURASIAN PYGMY-OWL" at top; italic-style subtitle "Glaucidium passerinum"; labels "ADULT MALE", "RECENT FLEDGLING", "ADULT FEMALE" below corresponding birds.
 Constraints: exactly three birds; same-plumage adults; modest overlapping female size direction; recent fledgling is unsexed and not assigned exact age, iris chronology or independent-flight threshold; remote cavity is habitat context only.
 Avoid: ear tufts, extra birds, prey, eggs, visible nest contents, different female colour morph, huge female, adult-like fledgling wing rows, long fully barred adult tail on fledgling, begging pose, spread wings, unsupported body, hidden or malformed feet, extra text, watermark.
+
+
+## #28 Pearl-spotted Owlet · *Glaucidium perlatum* · v5 · 2026-11-07
+
+Use case: scientific-educational
+Asset type: owl-pet natural-history prototype group plate, 1536×1024 landscape
+Primary request: Create one scientifically conservative Pearl-spotted Owlet group plate in the repository's established polished realistic digital field-guide style.
+Scene/backdrop: open southern African mopane/acacia thorn savanna with sparse dry grass and muted olive foliage; one old barbet/woodpecker cavity opening appears softly out of focus as context only, not an occupied nest.
+Subject: exactly three Glaucidium perlatum and no other animals. Left ADULT MALE, center RECENT FLEDGLING, right ADULT FEMALE.
+Style/medium: warm natural daylight, restrained earthy colour, realistic feather texture, calm natural-history painting, clean pale parchment margin, no decorative fantasy elements.
+Composition/framing: three separated full-body birds on one broad forked acacia structure. Adults share one foot baseline and near-equal displayed crown height. The fledgling sits lower on a wide fork with both feet and belly naturally supported. Leave clear space for exact title and labels.
+Adult male: tiny compact ear-tuft-free owl, rounded head, yellow iris, yellowish-horn bill, cinnamon-brown upperparts with neat small whitish pearl spots, pale underparts with narrow dark longitudinal streaks, feathered tarsi, short barred tail; both feet grip bark.
+Adult female: same plumage and near-equal standing height; only modestly fuller in body and folded-wing volume, never a separate size class. Turn partly rearward while one facial eye remains visible so one coherent paired nape false-eye pattern can be reviewed; both feet grip bark.
+Recent fledgling: age and sex unknown, newly outside the cavity and still parent-dependent. Show a quiet low supported posture in dense thorn foliage near the nesting tree, not flying, hunting or begging. Body is soft and rounded; crown/back pearl spotting is sparse and diffuse rather than adult rows; folded wing is compact with developing but not adult-neat covert geometry; tail is visibly shorter and weakly patterned. Keep iris dim/indeterminate in shade rather than asserting bright adult yellow. No hatchling nakedness and no exact day-age claim.
+Text (verbatim): top title "28 PEARL-SPOTTED OWLET"; below it italic "Glaucidium perlatum"; labels "ADULT MALE", "RECENT FLEDGLING", "ADULT FEMALE". No other words.
+Constraints: exact three birds; natural six-foot support; adult sexes same plumage; near-equal adult scale; false eyes anatomically coherent; juvenile remains fully supported; habitat and cavity context plausible.
+Avoid: ear tufts, dramatically larger female, sex-coded adult colour differences, extra birds, prey, eggs, visible nest contents, airborne juvenile, unsupported feet, adult-length juvenile tail, mature ordered pearl rows or rigid adult wing on the fledgling, invented iris chronology, watermark, extra text.

@@ -3779,3 +3779,49 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - Valuable information: reliable visual cross-check for overall soft dark juvenile contour and branch-supported posture.
 - Limits: no measured age, sex, flight history or iris chronology; it cannot establish a daily developmental sequence. Used only as visual direction, not for exact-stage claims.
 - Confidence: medium for visible phenotype, low for developmental timing.
+
+
+## 2026-11-07 — #28 *Glaucidium perlatum* v5 — recent-fledgling age correction
+
+### PSOW-ROBERTS-BDI-2005-2026
+- **Title / authors / year:** *Glaucidium perlatum* (Pearl-spotted owlet); Biodiversity Explorer synthesis citing Hockey, Dean & Ryan (eds), *Roberts Birds of Southern Africa VII* (2005); live page accessed 2026-11-07.
+- **URL:** https://www.biodiversityexplorer.info/birds/strigidae/glaucidium_perlatum.htm
+- **Type / section:** institutional-linked regional secondary synthesis; Distribution and habitat; Breeding; page has no stable printed pagination.
+- **Taxon / stage:** *Glaucidium perlatum*; adult habitat/nest and recently fledged dependent young.
+- **Facts:** open thorn savanna/bushveld/sparse woodland; old natural or barbet/woodpecker cavity; young remain in the cavity 27–31/32 days, then live in dense bush near the nest and remain parent-fed at least 14 days.
+- **Limits / conflict:** secondary synthesis; interval is not a primary daily plumage series and does not justify assigning one exact visible day-age.
+- **Design support:** recent fledgling low in dense bush near the nesting tree; parent-dependent; no exact day-age or airborne pose.
+- **Links:** research/species/28-glaucidium-perlatum-v5.md; design/concepts/28-glaucidium-perlatum-v5.png.
+
+### PSOW-SANBI-2025
+- **Title / author / date:** “Pearl-spotted owlet” — Nozipho Khumalo, SANBI Zoological Research, 2025-10-09.
+- **URL:** https://www.sanbi.org/animal-of-the-week/pearl-spotted-owlet/
+- **Accessed / type:** 2026-11-07; national biodiversity institution species account.
+- **Sections / taxon / stage:** Description, Habitat, Sex and Family life; adult *Glaucidium perlatum* and nesting context.
+- **Facts:** 17–21 cm, about 75 g; brown with heavy white spotting; paired dark false eyes; mopane/open thorn savanna; old barbet/woodpecker cavities.
+- **Limits:** no sex-separated measurements or juvenile plumage sequence.
+- **Design support:** adult identity, false-eye anatomy, habitat and cavity context only.
+- **Links:** research/species/28-glaucidium-perlatum-v5.md.
+
+### PSOW-OWLPAGES-2020
+- **Title / author / update:** “Pearl-spotted Owlet ~ *Glaucidium perlatum*” — Deane Lewis, updated 2020-10-29.
+- **URL:** https://www.owlpages.com/owls/species.php?s=1860
+- **Accessed / type:** 2026-11-07; specialist secondary synthesis; Description/Breeding/Habitat.
+- **Facts:** 29-day incubation; young hatch with closed eyes, open them around 12 days, leave near 31 days able to move short distances, hide near the nest and remain parent-fed.
+- **Limits / conflict:** not a primary growth series; the 31-day behavioural boundary cannot be mapped to an exact day-specific visual feather state.
+- **Design support:** recent-fledgling dependence and no long-distance/independent behaviour.
+- **Links:** research/species/28-glaucidium-perlatum-v5.md.
+
+### PSOW-FEATHERBASE-LEAD-2026
+- **Title / institution:** “Pearl-spotted Owlet (*Glaucidium perlatum*)” — Featherbase.
+- **URL:** https://www.featherbase.info/en/species/glaucidium/perlatum
+- **Accessed:** 2026-11-07.
+- **Status:** UNVERIFIED LEAD. Search extraction described finer/more obvious juvenile flight-feather barring and larger female feathers with otherwise same pattern, but direct retrieval returned 502.
+- **Limits / design use:** not used for juvenile marking geometry or quantitative sex difference until the specimen page can be read directly.
+
+### PSOW-SCHERZINGER-1986-LEAD
+- **Title / author / year:** “Lebensgeschichte eines Perlkauzes, *Glaucidium perlatum* (Vieill.)” — Wolfgang Scherzinger, 1986.
+- **URL:** https://www.researchgate.net/publication/298448618
+- **Accessed:** 2026-11-07.
+- **Status:** UNVERIFIED DEVELOPMENTAL LEAD. Only abstract/longevity information was accessible; the PDF route failed.
+- **Limits / design use:** no developmental assertion used.

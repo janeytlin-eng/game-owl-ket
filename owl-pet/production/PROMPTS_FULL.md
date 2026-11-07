@@ -379,3 +379,22 @@ Older juvenile: Taiwan museum description only supports yellowish/rufous-brown, 
 
 No nest interior, eggs or hatchling; a shallow bark fissure is acceptable but must not reconstruct a cavity. Avoid sex-size stereotype, long horn tufts, bright white shoulder patches, adult-hard juvenile wing layers, exposed long tail, unsupported feet, flight or extra text. PASS_WITH_LIMITATIONS; science=false.
 ```
+
+
+
+## 2026-11-07 — #188 *Otus semitorques semitorques* v3 SCIENCE_REVISION
+
+~~~text
+Use case: scientific-educational.
+Asset: premium naturalistic tactile 3D owl-pet concept triptych, v3 scientific revision.
+Species: #188 JAPANESE SCOPS OWL — Otus semitorques semitorques; historical mappings Otus bakkamoena semitorques and Otus lempiji semitorques only.
+Canvas: 1536×1024 landscape. Early-summer Honshu setting based on the Saitama breeding record: living Japanese cedar branch at the edge of cedar plantation with nearby patchy deciduous broadleaf woodland and a restrained hint of bamboo. Warm cream title field, museum-quality hand-modelled feather planes, natural subdued colour and readable silhouettes. Exactly three complete birds, left-to-right labels exactly ADULT MALE, ADULT FEMALE, RECENT FLEDGLING. Title exactly 188 JAPANESE SCOPS OWL with italic Otus semitorques below. No other text, birds, eggs, prey, nest, cavity, box or loose lining.
+
+Adults: nominate Japanese Scops Owls, compact about 24–25 cm. Same plumage and genuinely near-equal displayed standing scale and volume because no quantified sex dimorphism was found; do not repeat v2's visually larger male. Long prominent but natural feather ear tufts, never mammal horns. Bark-grey to warm grey-brown cryptic crown and upperparts with fine black shaft streaks and vermiculation; visible pale greyish double / brownish-white nuchal collar; small broken pale scapular patches; barred flight feathers and tail; pale grey-buff underparts with dark herringbone shaft streaking and irregular fine barring. Orange to orange-red irises, dark horn-grey bill, feathering extending onto tarsi and toes. Distinct calm poses, all feet gripping naturally.
+
+Recent fledgling: directly based on Nohara & Honda 2025, printed pp.76–78 and Fig.3. Whole body richly covered in soft pale grey-buff down; clearly visible soft ear tufts; iris dark/indeterminate because the photograph could not establish colour. Flight and tail feathers present but incompletely grown: one compact short soft developing folded wing with small dark tips and blurred coverts, no adult-hard layered primaries; very short partly hidden tail. Stationary stable crouch/upright perch on a sturdy fork of Japanese cedar, both feet gripping and belly naturally supported. It moved little in the field; do not show flight, wing spread or begging. Exact day-age, sex, iris, first-flight ability and feather-by-feather sequence remain unknown.
+
+Evidence boundary: adult diagnostic soft parts and hind-neck patch plus the recent-fledgling stage come from the 25–26 June 2024 Honshu record; Okinawa breeding research supports forest/cavity ecology only, not plumage or exact timing. Tokyo Zoo's white-down hatchling fact is not transferred to this older recent fledgling. Mikkola p.158 adult cues are reused from retained repository evidence; the uploaded volume was unavailable this execution.
+
+Avoid: exaggerated sex size difference, different sex morphs, overlong horn-like tufts, yellow juvenile eyes, mature juvenile remiges/tail, unsupported feet, flight action, reconstructed nest/cavity, extra text/birds, watermark or orange grading. Target PASS_WITH_LIMITATIONS; scientifically_verified=false.
+~~~

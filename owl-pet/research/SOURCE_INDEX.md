@@ -3543,3 +3543,64 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - **Design support:** confirms compact proportions only; not a sex-size rule.
 
 **Mapping:** *Otus spilocephalus* → adult morphology: MOSO-COMMONS-ARNDT-2024-TAICHUNG, MOSO-NTM-TMAV4405-2021; older juvenile support/wing boundary: MOSO-COMMONS-ATOANO44-2018-JUV (cross-subspecies limit); reused foundation: MOSO-MIKKOLA-2013-P148, MOSO-NTM-HAMBROECKI-2026, MOSO-AVIBASE-HAMBROECKI-2026.
+
+
+## 2026-11-07 — #188 *Otus semitorques* v3 source additions
+
+### JPSO-NOHARA-HONDA-2025-P75-78
+- **Title:** A Reliable Breeding Record of Collared Scops Owl in Saitama Prefecture, Japan
+- **Authors / institution:** Kiyoshi Nohara; Rina Honda; Saitama Museum of Natural History
+- **Year / type:** 2025; primary field record / museum bulletin
+- **URL / DOI:** https://doi.org/10.24715/smnh.19.0_75
+- **Accessed:** 2026-11-07
+- **Taxon / stage:** *Otus semitorques*; Honshu adult and recent fledgling
+- **Actually read:** printed pp.75–78 / PDF pp.1–4; adult Fig.1 and young Fig.3.
+- **Facts:** adult had ear tufts, orange iris, feathered toes and a brownish-white hind-neck patch (printed p.76). The young was fully down-covered with distinct tufts; iris could not be determined. On 25–26 June 2024 it stayed on Japanese cedar at roughly 9–10 m, moved little, and had incompletely grown flight and tail feathers; authors inferred very recent nest departure. Nest was not found (pp.76–78).
+- **Limits / confidence:** high for the photographed individuals and stage; exact day-age, sex, iris and flight ability are unknown. No nest structure can be reconstructed.
+- **Design support:** stationary, fully supported down-rich recent fledgling with incomplete short wing/tail; orange-eyed, feather-toed adult; cedar / patchy broadleaf habitat. No flight or nest.
+- **Links:** research/species/188-otus-semitorques-v3.md; design/concepts/188-otus-semitorques-v3.png.
+
+### JPSO-TOYAMA-ETAL-2015-P841-847
+- **Title:** Breeding timing and nest predation rate of sympatric scops owls with different dietary niche breadth
+- **Authors / institution:** Masahiro Toyama; Nobuhiko Kotaka; Itsuro Koizumi; Hokkaido University / FFPRI
+- **Year / type:** 2015; peer-reviewed primary breeding study
+- **URL / DOI:** https://hdl.handle.net/2115/60540 ; https://doi.org/10.1139/cjz-2015-0060
+- **Accessed:** 2026-11-07
+- **Taxon / stage:** *Otus semitorques* breeding population on Okinawa; eggs, nestlings and nest departure
+- **Actually read:** repository manuscript PDF pp.1–27; journal citation pp.841–847; methods and results including study-site / nest monitoring.
+- **Facts:** study monitored Japanese and Ryukyu scops owls in subtropical forest, using natural cavities and nest boxes; Japanese Scops Owl was the earlier-breeding dietary generalist. The evidence is population and breeding-context evidence, not a plumage plate.
+- **Limits / confidence:** high for the Okinawa study population. Do not transfer Okinawa plumage, exact timing or nest-box appearance to the nominate Honshu fledgling.
+- **Design support:** forest/cavity ecology only; no nest reconstruction in this plate.
+- **Links:** research/species/188-otus-semitorques-v3.md.
+
+### JPSO-TOKYO-ZOO-2026
+- **Title:** Japanese Scops-owl species account
+- **Author / institution:** Tokyo Zoological Park Society / Ueno Zoo
+- **Year / type:** current institutional species account; accessed 2026-11-07
+- **URL:** https://www.tokyo-zoo.net/en/ueno/encyclopedia/japanese-scops-owl/index.html
+- **Taxon / stage:** *Otus semitorques*; adult ecology and hatchling
+- **Actually read:** species-account lines 164–180.
+- **Facts:** forest species, c.25 cm; breeds May–July in tree hollows; hatchlings have white down.
+- **Limits / confidence:** institutional summary, not a developmental series. White-down hatchling evidence is not transferred to the older photographed recent fledgling.
+- **Design support:** scale and forest ecology only; no white hatchling in v3.
+- **Links:** research/species/188-otus-semitorques-v3.md.
+
+### JPSO-MIKKOLA-2013-P158
+- **Title:** Owls of the World: A Photographic Guide, 2nd ed.
+- **Author:** Heimo Mikkola
+- **Year / type:** 2013; photographic guide
+- **Source location:** printed p.158 / uploaded PDF p.160 in retained repository evidence
+- **Access status:** repository transcription and prior user-confirmed page evidence reused on 2026-11-07; the uploaded volume itself was not accessible in this execution.
+- **Taxon / stage:** adult *Otus semitorques*
+- **Facts retained:** long natural tufts, grey double collar, red/orange-red eyes, small pale scapular marks, barred wings/tail and dark herringbone underparts.
+- **Limits:** no quantitative sex-size difference or juvenile developmental series.
+- **Design support:** adult diagnostic pattern only.
+- **Links:** research/species/188-otus-semitorques-v3.md.
+
+### JPSO-FEATHERBASE-4442-LEAD
+- **Title:** Featherbase specimen 4442 — *Otus semitorques semitorques*
+- **Institution / type:** Featherbase; specimen metadata lead
+- **URL:** https://www.featherbase.info/jp/specimen/4442
+- **Accessed:** 2026-11-07
+- **Status:** UNVERIFIED LEAD. Search extraction indicated an anatomically sexed adult female from Shizuoka and feather measurements, but direct page retrieval failed in both research and browser checks.
+- **Limit:** not used to assert sex dimorphism, colour, or any juvenile feature.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T15:42:00+08:00",
+  "updated": "2026-11-07T15:46:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -27936,13 +27936,13 @@
       "archive_commit_pending": false,
       "readback_pending": false,
       "exact_readback": true,
-      "ledger_credited": false,
+      "ledger_credited": true,
       "evidence_limit": "Exact castanops mesoptile age, feather chronology, iris/bill development, first-flight threshold, occupied nest interior and a universal adult height ratio remain unknown; Mikkola upload unavailable.",
       "archive_encoding": "All archived binary paths use complete 64-colour no-dither indexed PNG transport assets; full-colour ImageGen SHA-256/byte count retained as provenance; board and both crops actually opened.",
       "archive_commit": "254177143b89aec101183533699cab9ae5991a4c",
       "archive_tree": "9c358ab475009b2b34c4a23cfbb27c4c7648697f",
       "verified_at": "2026-11-07T15:42:00+08:00",
-      "verification_commit_pending": true,
+      "verification_commit_pending": false,
       "readback": {
         "method": "immutable archive exact path/blob/size plus non-truncated recursive tree and manifest cross-check",
         "required_paths": 17,
@@ -27957,8 +27957,11 @@
         },
         "connector_full_binary_stream_readback": false,
         "full_color_source_provenance_only": true
-      }
+      },
+      "verification_commit": "391498b03379e62923d15eb0671c30f6aa767550",
+      "verification_tree": "7ca979c84c54a39b9eef04a38c552f3be2652abb",
+      "ledger_credited_at": "2026-11-07T15:46:00+08:00"
     }
   ],
-  "updated_at": "2026-11-07T15:42:00+08:00"
+  "updated_at": "2026-11-07T15:46:00+08:00"
 }

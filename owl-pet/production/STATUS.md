@@ -3748,3 +3748,8 @@ Verification commit `b807ad5456d853e782e50b95ef82c3050b8de44b` was read back aft
 
 
 - #172 v3 VERIFIED: archive `254177143b89aec101183533699cab9ae5991a4c` / tree `9c358ab475009b2b34c4a23cfbb27c4c7648697f`; non-truncated 3,801-entry tree, 17 required paths and five exact binary paths passed. Manifests 773/774/764 parsed; ledger pending; science false.
+
+
+### #172 v3 LEDGER_CREDITED — batch 3/6
+
+Verification commit `391498b03379e62923d15eb0671c30f6aa767550` was read back after immutable archive `254177143b89aec101183533699cab9ae5991a4c` / tree `9c358ab475009b2b34c4a23cfbb27c4c7648697f`. Cycle 3 is credited exactly once; batch `20261107T140000+0800` is PARTIAL 3/6 with next_cycle=4 and lease released. Unique species remains 176/251; revision +1; science false.

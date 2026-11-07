@@ -1003,3 +1003,10 @@ When an age-unknown, down-rich owl juvenile is directly photographed with narrow
 ### 2026-11-06 — photographed young does not license an exposed adult wing
 
 When a species guide says “juvenile not known” but a regional field photograph shows an older young, bind the design to visible facts only: residual down, eye/bill appearance, supported posture and only the portion of formed wing actually visible. Treat a long clean primary panel as an error even if the bird is otherwise plausible. Apply a juvenile crop review and shorten/occlude the wing before archive.
+
+
+## 2026-11-08 — older dependent is not automatically a downy nestling
+- **Problem:** rare-species juvenile evidence may document only a fully feathered dependent bird; forcing down or artificially tiny wings creates a different unsupported stage.
+- **Evidence:** #32 v5 uses dated/repeated older-dependent observations plus CBC pair-care/cavity records; exact age and flight threshold remain unknown.
+- **Applied:** separate the juvenile by lower supported posture, softer incomplete markings, compact low-contrast wing/tail and a small head-turn; do not assert flight or independence.
+- **Validated:** full plate and three crops passed on the first render. This is validated for #32 v5 only, not a universal juvenile template.

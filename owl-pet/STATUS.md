@@ -3893,3 +3893,10 @@ Archive commit `4e0525c59b76a14aeb06ef6dc22df3f3bb25fdd9` verified: 18 paths, 8 
 Batch `20261107T183000+0800` is now 4/6; next cycle 5. Unique coverage remains 176/251; revision increment +1. Archive `4e0525c59b76a14aeb06ef6dc22df3f3bb25fdd9`; verification `d5a2330002cb80250a4504edc560154b8414d1eb`.
 
 - 2026-11-07T22:59:17.142+08:00: #27 *Glaucidium passerinum* v5 ARCHIVED pending immutable readback. Three new verified sources, two reused; one wing/scale edit; manifests 793/790/783; unique 176/251; science=false.
+
+
+## 2026-11-08 — #32 *Glaucidium castanotum* v5 ARCHIVED — readback pending
+- Science revision only; v1–v4 preserved; unique remains 176/251.
+- One new taxonomy source, five re-read/reused records and one corrected inference. One imagegen render; no edit; full plate and three role crops opened.
+- Manifests prepared at 798/795/788. Result PASS_WITH_LIMITATIONS; exact age/sex, first flight, independence, feather chronology and population sex-size direction remain unknown; science false.
+- Immutable archive verification and cycle credit are pending.

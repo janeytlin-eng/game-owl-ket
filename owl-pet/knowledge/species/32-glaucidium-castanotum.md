@@ -49,3 +49,7 @@ v4为1536×1024全分辨率重制。首稿全图及520×700幼鸟局部均实际
 
 
 - 2026-10-30T09:08:00+08:00：固定提交 `b44d504135d5083e53c7f22008a148d59e48f207` 回读通过；四个图像路径/blob/字节数及清单、来源与记录一致。科学状态仍为false。
+
+
+## v5 revision — 2026-11-08
+ITIS now independently supports current *Glaucidium castanotum* and historical *G. castanonotum* / *Athene castanotus*. IOBSL printed p.72 was re-read: 7 Chestnut-backed and 8 Jungle Owlets support the former’s redder mantle and fewer chest bars, but not sex- or age-specific measurements. Ceylon Bird Club lines 47–63 support wet-zone identity, cavities with young and both adults feeding; direct older-juvenile observations remain age estimates only. V5 therefore keeps same-plumage adults near equal and uses a lower, fully supported, fully feathered dependent with softer markings, compact wing and short tail. First render and three crops passed without edit. Exact age/sex, first flight, independence, continuous feather chronology and population sex-size direction remain unknown; science false. Archive/readback evidence is in `production/runs/20261108T011416+0800-cycle-1.md`.

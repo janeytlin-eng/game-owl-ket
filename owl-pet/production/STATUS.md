@@ -3833,3 +3833,9 @@ Verification commit `391498b03379e62923d15eb0671c30f6aa767550` was read back aft
 
 ### #173 v3 LEDGER_CREDITED — batch 4/6
 - 2026-11-07T16:18:00+08:00 — verification `45a7d89255f677a388461886885abd29c429c59d` credited exactly once; next cycle 5. Unique species remains 176/251; revision +1; science=false.
+
+
+## 2026-11-08 01:22 +08 — #32 *Glaucidium castanotum* v5 ARCHIVED — readback pending
+- Batch 20261108T011416+0800 cycle 1/6. Original plate, reviewed master, three crops, evidence, prompts and manifests persisted.
+- New source 1; re-read/reused 5; imagegen 1; edit 0; PASS_WITH_LIMITATIONS; science false; unique 176/251.
+- No cycle credit until immutable blob/size and manifest readback passes.

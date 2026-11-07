@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T01:06:21+08:00",
+  "updated": "2026-11-08T01:22:30+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -29819,7 +29819,92 @@
       "verified_at": "2026-11-08T01:06:21+08:00",
       "exact_readback": true,
       "verification_result": "Repair commit immutable tree returned all 18 required paths. Nine binary paths matched exact repaired Git blob SHAs and exact byte sizes; tree was not truncated. First archive truncation is retained in the run/audit trail and received no cycle credit."
+    },
+    {
+      "id": "32-glaucidium-castanotum-v5",
+      "path": "design/concepts/32-glaucidium-castanotum-v5.png",
+      "species_id": 32,
+      "scientific_name": "Glaucidium castanotum",
+      "historical_names": [
+        "Glaucidium castanonotum",
+        "Athene castanotus",
+        "Taenioglaux castanonota"
+      ],
+      "common_name": "Chestnut-backed Owlet",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "imagegen_invocations": 1,
+      "status": "V5 preserves v1–v4. ITIS confirms the current name and two historical synonyms; the 2025 seven-bird field sample supports a redder mantle and fewer chest bars than Jungle Owlet, while Ceylon Bird Club cavity observations and dated/repeated field images support an age-unknown fully feathered dependent young. First render passed without edit. Exact age, sex, first-flight threshold, independence, continuous feather sequence and population sex-size direction remain unknown.",
+      "source_ids": [
+        "CBOW-ITIS-2025",
+        "CBOW-EDIRISINGHE-2025",
+        "CBOW-CEYLONBIRDCLUB-2009",
+        "CBOW-COMMONS-ABEY2019",
+        "CBOW-FLICKR-KALUBOWILA-2014",
+        "CBOW-MIKKOLA-2013"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/32-glaucidium-castanotum-v5.md",
+      "review_record": "research/reviews/32-glaucidium-castanotum-v5-review.md",
+      "run_record": "production/runs/20261108T011416+0800-cycle-1.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 3238990,
+      "sha256": "8cc68f8404c8ac3a5651332aa75800532d4ed509d0847c446a97b531a6140a71",
+      "git_blob": "2b2608b62002e0e438c8c3ed450f51fea77ec290",
+      "initial_original_path": "production/generated/32-glaucidium-castanotum-v5-initial-original.png",
+      "initial_original_blob": "2b2608b62002e0e438c8c3ed450f51fea77ec290",
+      "initial_original_size_bytes": 3238990,
+      "initial_original_sha256": "8cc68f8404c8ac3a5651332aa75800532d4ed509d0847c446a97b531a6140a71",
+      "final_original_path": "production/generated/32-glaucidium-castanotum-v5-final-original.png",
+      "final_original_blob": "2b2608b62002e0e438c8c3ed450f51fea77ec290",
+      "final_original_size_bytes": 3238990,
+      "final_original_sha256": "8cc68f8404c8ac3a5651332aa75800532d4ed509d0847c446a97b531a6140a71",
+      "full_color_source_path": "production/generated/32-glaucidium-castanotum-v5-full-color.png",
+      "full_color_source_blob": "2b2608b62002e0e438c8c3ed450f51fea77ec290",
+      "full_color_source_size_bytes": 3238990,
+      "full_color_source_sha256": "8cc68f8404c8ac3a5651332aa75800532d4ed509d0847c446a97b531a6140a71",
+      "generated_path": "production/generated/32-glaucidium-castanotum-v5-generated-master.png",
+      "generated_blob": "2b2608b62002e0e438c8c3ed450f51fea77ec290",
+      "generated_size_bytes": 3238990,
+      "reviewed_path": "production/reviewed/32-glaucidium-castanotum-v5-reviewed-master.png",
+      "reviewed_blob": "2b2608b62002e0e438c8c3ed450f51fea77ec290",
+      "reviewed_size_bytes": 3238990,
+      "review_crops": [
+        {
+          "path": "production/review-crops/32-glaucidium-castanotum-v5-adult-male.png",
+          "blob": "225137b17af10e6a5aa8281ec59401e4979bfd08",
+          "size_bytes": 209725,
+          "sha256": "aec353c367c753b404d5c0aab32ffd892540092abcd4f5fa752cd5837eda8cbe"
+        },
+        {
+          "path": "production/review-crops/32-glaucidium-castanotum-v5-juvenile.png",
+          "blob": "c14be560e1d908109387336c7f975a17fd84ddcb",
+          "size_bytes": 200288,
+          "sha256": "aa72bc12b291d4db1a8d36e089ee3a4a4e453bc4da0e144a3e5cf84bc23c4ad9"
+        },
+        {
+          "path": "production/review-crops/32-glaucidium-castanotum-v5-adult-female.png",
+          "blob": "692d4b128532672c01f40adfe2e7a6ae8f126cf4",
+          "size_bytes": 213748,
+          "sha256": "28dc51fbf80f78104e4597812b0a8549653950c075d88de113eca36228ece644"
+        }
+      ],
+      "archive_note": "Original full-colour plate and all three role crops were opened. First render passed without edit. The older dependent remains fully feathered but lower, softer and supported; no exact age/flight/independence claim. Archive readback pending.",
+      "readback_pending": true,
+      "archive_commit_pending": true
     }
   ],
-  "updated_at": "2026-11-08T00:48:04.086+08:00"
+  "updated_at": "2026-11-08T01:22:30+08:00"
 }

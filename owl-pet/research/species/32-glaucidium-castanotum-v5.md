@@ -38,3 +38,7 @@ Scene: shaded Sri Lankan wet-zone evergreen forest resembling Sinharaja or Kitul
 
 ## Image review — 2026-11-08T01:21:29+08:00
 The generated 1536×1024 original and three role crops were actually opened. Exact title/count/labels, adult identity, near-equal sex scale, older-dependent stage, all six feet and wet forest passed. No edit was required. Result **PASS_WITH_LIMITATIONS**; the five listed scientific unknowns remain, so scientific verification stays false.
+
+
+## Archive checkpoint — 2026-11-08T01:22:30+08:00
+Concept, original, generated/reviewed master and three crop paths are prepared in the repository. Manifests 798/795/788; unique remains 176/251; readback and ledger credit pending.

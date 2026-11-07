@@ -33496,35 +33496,32 @@
       "batch_id": "20261107T223235+0800",
       "status": "PARTIAL",
       "target_cycles": 6,
-      "completed_cycles": [],
-      "next_cycle": 1,
-      "active_cycle": 1,
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Glaucidium siju",
+          "species_id": 26,
+          "version": 5,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "commit_sha": "7b2ae919926cedcca2daceef0d799eb92d2d7912",
+          "archive_commit": "664d099f577c98d03e7e4b0797fbf79b17183b57",
+          "run_record": "owl-pet/production/runs/20261107T223235+0800-cycle-1.md",
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "credited_at": "2026-11-07T22:48:14.542+08:00"
+        }
+      ],
+      "next_cycle": 2,
+      "active_cycle": null,
       "started_at": "2026-11-07T22:32:35+08:00",
-      "updated_at": "2026-11-07T22:47:28.016+08:00",
-      "current_stage": "VERIFIED",
-      "ledger_credit_pending": true,
-      "lease": {
-        "owner": "codex-work",
-        "run_id": "20261107T223235+0800-cycle-1",
-        "heartbeat_at": "2026-11-07T22:47:28.016+08:00",
-        "expires_at": "2026-11-07T23:02:28.016+08:00"
-      },
-      "in_progress": {
-        "cycle": 1,
-        "run_id": "20261107T223235+0800-cycle-1",
-        "species_id": 26,
-        "species": "Glaucidium siju",
-        "version": 5,
-        "stage": "VERIFIED"
-      },
-      "active": {
-        "cycle": 1,
-        "run_id": "20261107T223235+0800-cycle-1",
-        "species_id": 26,
-        "species": "Glaucidium siju",
-        "version": 5,
-        "stage": "VERIFIED"
-      },
+      "updated_at": "2026-11-07T22:48:14.542+08:00",
+      "current_stage": "LEDGER_CREDITED",
+      "ledger_credit_pending": false,
+      "lease": null,
+      "in_progress": null,
+      "active": null,
       "stage_events": [
         {
           "cycle": 1,
@@ -33711,16 +33708,32 @@
             "ledger_credit_pending": true,
             "lease_expires_at": "2026-11-07T23:02:28.016+08:00"
           }
+        },
+        {
+          "cycle": 1,
+          "stage": "LEDGER_CREDITED",
+          "at": "2026-11-07T22:48:14.542+08:00",
+          "run_id": "20261107T223235+0800-cycle-1",
+          "species_id": 26,
+          "species": "Glaucidium siju",
+          "credited": true,
+          "evidence": {
+            "verification_commit": "7b2ae919926cedcca2daceef0d799eb92d2d7912",
+            "archive_commit": "664d099f577c98d03e7e4b0797fbf79b17183b57",
+            "run_record": "owl-pet/production/runs/20261107T223235+0800-cycle-1.md",
+            "batch_progress": "1/6",
+            "next_cycle": 2,
+            "unique_species_increment": 0,
+            "revision_increment": 1,
+            "unique_species_count": 176,
+            "total_species": 251,
+            "scientifically_verified": false
+          }
         }
       ]
     }
   ],
-  "lease": {
-    "owner": "codex-work",
-    "run_id": "20261107T223235+0800-cycle-1",
-    "heartbeat_at": "2026-11-07T22:47:28.016+08:00",
-    "expires_at": "2026-11-07T23:02:28.016+08:00"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -33854,7 +33867,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-07T22:47:28.016+08:00",
+  "updated_at": "2026-11-07T22:48:14.542+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -33863,13 +33876,8 @@
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6.",
     "2026-10-30T18:12:00+08:00 ledger normalization: historical batch 2026-10-16T0430+0800 already COMPLETE with six preserved completed_cycles; stale next_cycle 7 changed to null. No cycle count or evidence changed."
   ],
-  "active_lease": {
-    "owner": "codex-work",
-    "run_id": "20261107T223235+0800-cycle-1",
-    "heartbeat_at": "2026-11-07T22:47:28.016+08:00",
-    "expires_at": "2026-11-07T23:02:28.016+08:00"
-  },
-  "last_updated_at": "2026-11-07T22:47:28.016+08:00",
+  "active_lease": null,
+  "last_updated_at": "2026-11-07T22:48:14.542+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -34666,14 +34674,7 @@
       "credited": false
     }
   ],
-  "in_progress": {
-    "cycle": 1,
-    "run_id": "20261107T223235+0800-cycle-1",
-    "species_id": 26,
-    "species": "Glaucidium siju",
-    "version": 5,
-    "stage": "VERIFIED"
-  },
+  "in_progress": null,
   "previous_checkpoint": {
     "batch_id": "20261107T140000+0800",
     "cycle": 3,
@@ -35978,7 +35979,7 @@
       "lease_expires_at": "2026-11-07T21:08:00+08:00"
     }
   ],
-  "last_updated": "2026-11-07T22:47:28.016+08:00",
+  "last_updated": "2026-11-07T22:48:14.542+08:00",
   "audit_log": [
     {
       "at": "2026-10-31T18:36:48+08:00",
@@ -39498,9 +39499,9 @@
     }
   ],
   "active_batch_id": "20261107T223235+0800",
-  "active_cycle": 1,
-  "current_stage": "VERIFIED",
-  "next_cycle": 1,
+  "active_cycle": null,
+  "current_stage": "LEDGER_CREDITED",
+  "next_cycle": 2,
   "unique_species_count": 176,
   "total_species": 251,
   "stage_events": [
@@ -40756,18 +40757,40 @@
         "ledger_credit_pending": true,
         "lease_expires_at": "2026-11-07T23:02:28.016+08:00"
       }
+    },
+    {
+      "cycle": 1,
+      "stage": "LEDGER_CREDITED",
+      "at": "2026-11-07T22:48:14.542+08:00",
+      "run_id": "20261107T223235+0800-cycle-1",
+      "species_id": 26,
+      "species": "Glaucidium siju",
+      "credited": true,
+      "evidence": {
+        "verification_commit": "7b2ae919926cedcca2daceef0d799eb92d2d7912",
+        "archive_commit": "664d099f577c98d03e7e4b0797fbf79b17183b57",
+        "run_record": "owl-pet/production/runs/20261107T223235+0800-cycle-1.md",
+        "batch_progress": "1/6",
+        "next_cycle": 2,
+        "unique_species_increment": 0,
+        "revision_increment": 1,
+        "unique_species_count": 176,
+        "total_species": 251,
+        "scientifically_verified": false
+      }
     }
   ],
   "last_completed_batch_id": "20261107T183000+0800",
   "active_batch": {
     "batch_id": "20261107T223235+0800",
-    "cycle": 1,
-    "run_id": "20261107T223235+0800-cycle-1",
-    "status": "ACTIVE",
-    "species_id": 26,
-    "species": "Glaucidium siju",
-    "version": 5,
-    "stage": "VERIFIED"
+    "cycle": null,
+    "run_id": null,
+    "status": "PARTIAL",
+    "species_id": null,
+    "species": null,
+    "version": null,
+    "stage": "LEDGER_CREDITED",
+    "next_cycle": 2
   },
   "events": [
     {
@@ -47366,130 +47389,38 @@
       }
     }
   ],
-  "ledger_credit_pending": true,
+  "ledger_credit_pending": false,
   "last_verified_commit": "664d099f577c98d03e7e4b0797fbf79b17183b57",
   "completed_cycles": [
     {
       "cycle": 1,
-      "species": "Otus lempiji",
-      "species_id": 190,
-      "version": 2,
+      "species": "Glaucidium siju",
+      "species_id": 26,
+      "version": 5,
       "action": "SCIENCE_REVISION",
       "unique_species_increment": 0,
       "revision_increment": 1,
-      "commit_sha": "79e00709ab05476191b40999d0b8e989370ac181",
-      "archive_commit": "125474f4c87b41ec218f0efb65f750746a1046ed",
-      "run_record": "owl-pet/production/runs/20261107T183000+0800-cycle-1.md",
+      "commit_sha": "7b2ae919926cedcca2daceef0d799eb92d2d7912",
+      "archive_commit": "664d099f577c98d03e7e4b0797fbf79b17183b57",
+      "run_record": "owl-pet/production/runs/20261107T223235+0800-cycle-1.md",
       "review_result": "PASS_WITH_LIMITATIONS",
       "scientifically_verified": false,
-      "credited_at": "2026-11-07T18:45:00+08:00"
-    },
-    {
-      "cycle": 2,
-      "species": "Otus brookii",
-      "species_id": 195,
-      "version": 3,
-      "action": "SCIENCE_REVISION",
-      "unique_species_increment": 0,
-      "revision_increment": 1,
-      "commit_sha": "0cccb0814e6bc9ef09b9c4419543cdad8b10c380",
-      "archive_commit": "3be5710239aaa0d6b9c6d70bcc7c884da106e5c6",
-      "run_record": "owl-pet/production/runs/20261107T193000+0800-cycle-2.md",
-      "review_result": "PASS_WITH_LIMITATIONS",
-      "scientifically_verified": false,
-      "credited_at": "2026-11-07T19:44:00+08:00"
-    },
-    {
-      "cycle": 3,
-      "species": "Otus megalotis",
-      "species_id": 197,
-      "version": 3,
-      "action": "SCIENCE_REVISION",
-      "unique_species_increment": 0,
-      "revision_increment": 1,
-      "commit_sha": "32444b82aa8873131f8c6c599f985664045c16d9",
-      "archive_commit": "bfe64e94c90d7bcb910ebe31fb188deafa0cd6d8",
-      "run_record": "owl-pet/production/runs/20261107T194600+0800-cycle-3.md",
-      "review_result": "PASS_WITH_LIMITATIONS",
-      "scientifically_verified": false,
-      "credited_at": "2026-11-07T20:02:00+08:00"
-    },
-    {
-      "cycle": 4,
-      "species": "Otus mantananensis",
-      "species_id": 201,
-      "version": 3,
-      "action": "SCIENCE_REVISION",
-      "unique_species_increment": 0,
-      "revision_increment": 1,
-      "commit_sha": "d5a2330002cb80250a4504edc560154b8414d1eb",
-      "archive_commit": "4e0525c59b76a14aeb06ef6dc22df3f3bb25fdd9",
-      "run_record": "owl-pet/production/runs/20261107T203821+0800-cycle-4.md",
-      "review_result": "PASS_WITH_LIMITATIONS",
-      "scientifically_verified": false,
-      "credited_at": "2026-11-07T20:52:00+08:00"
-    },
-    {
-      "cycle": 5,
-      "species": "Otus spilocephalus",
-      "species_id": 184,
-      "version": 3,
-      "action": "SCIENCE_REVISION",
-      "unique_species_increment": 0,
-      "revision_increment": 1,
-      "commit_sha": "0bb4601c073b17a810032eb2f0f530a6c5683aa7",
-      "archive_commit": "a7072a5d122738f7775835e7c0ababcf83420088",
-      "run_record": "owl-pet/production/runs/20261107T205300+0800-cycle-5.md",
-      "review_result": "PASS_WITH_LIMITATIONS",
-      "scientifically_verified": false,
-      "credited_at": "2026-11-07T21:24:00+08:00"
-    },
-    {
-      "cycle": 6,
-      "species": "Glaucidium brasilianum cactorum",
-      "species_id": 25,
-      "version": 4,
-      "action": "SCIENCE_REVISION",
-      "unique_species_increment": 0,
-      "revision_increment": 1,
-      "commit_sha": "418e96315c7e790ea18b413a311aa703d9aa1472",
-      "archive_commit": "ba60744e8901348c92d8f46dc5d69accdced4d83",
-      "run_record": "owl-pet/production/runs/20261107T212500+0800-cycle-6.md",
-      "review_result": "PASS_WITH_LIMITATIONS",
-      "scientifically_verified": false,
-      "credited_at": "2026-11-07T21:52:00+08:00"
+      "credited_at": "2026-11-07T22:48:14.542+08:00"
     }
   ],
-  "updated": "2026-11-07T22:47:28.016+08:00",
-  "stage": "VERIFIED",
+  "updated": "2026-11-07T22:48:14.542+08:00",
+  "stage": "LEDGER_CREDITED",
   "stage_evidence": {
+    "verification_commit": "7b2ae919926cedcca2daceef0d799eb92d2d7912",
     "archive_commit": "664d099f577c98d03e7e4b0797fbf79b17183b57",
-    "archive_tree": "d00e49b4db2e5a31fe2e3ab8bbfb182b73f184d3",
-    "required_paths_verified": 16,
-    "safe_binary_paths_verified": 6,
-    "safe_binary_complete_streams": 6,
-    "original_imagegen_paths_verified": 1,
-    "original_full_streams": 0,
-    "original_stream_limit": "connector response ceiling; exact Git path/blob SHA matched",
-    "concept_blob": "f17c0aa85021deff4d743ef73befeb586b159ca7",
-    "concept_bytes": 726917,
-    "original_blob": "7228f25d7c3501ec50ead4983e1874a9e2548d73",
-    "original_bytes": 2896822,
-    "crop_blobs": [
-      "be0f63049e24290fadeba541eebd8ad0c99870ae",
-      "37cad4d105b761ab22162c204a29bcc27d20e4c4",
-      "7e9b51e71623f2e5f581937fec8438090e4e4337"
-    ],
-    "manifest_counts": {
-      "design_upper": 792,
-      "design_lower": 789,
-      "production": 782
-    },
-    "historical_v4_manifest_recovered": true,
-    "verification_result": "PASS_WITH_LIMITATIONS",
-    "scientifically_verified": false,
-    "ledger_credit_pending": true,
-    "lease_expires_at": "2026-11-07T23:02:28.016+08:00"
+    "run_record": "owl-pet/production/runs/20261107T223235+0800-cycle-1.md",
+    "batch_progress": "1/6",
+    "next_cycle": 2,
+    "unique_species_increment": 0,
+    "revision_increment": 1,
+    "unique_species_count": 176,
+    "total_species": 251,
+    "scientifically_verified": false
   },
   "last_verification_commit": "664d099f577c98d03e7e4b0797fbf79b17183b57",
   "timestamps": {
@@ -47498,12 +47429,12 @@
     "REVIEWED": "2026-11-07T22:43:14.652+08:00",
     "ARCHIVED": "2026-11-07T22:45:57.721+08:00",
     "VERIFIED": "2026-11-07T22:47:28.016+08:00",
-    "LEDGER_CREDITED": "2026-11-07T17:09:00+08:00",
+    "LEDGER_CREDITED": "2026-11-07T22:48:14.542+08:00",
     "STARTED": "2026-11-07T17:11:00+08:00",
     "reviewed_at": "2026-11-07T22:43:14.652+08:00",
     "archived_at": "2026-11-07T22:45:57.721+08:00",
     "verified_at": "2026-11-07T22:47:28.016+08:00",
-    "ledger_credited_at": "2026-11-07T17:09:00+08:00",
+    "ledger_credited_at": "2026-11-07T22:48:14.542+08:00",
     "started_at": "2026-11-07T17:11:00+08:00",
     "research_ready_at": "2026-11-07T15:55:00+08:00",
     "image_generated_at": "2026-11-07T22:42:02.970+08:00"

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T13:20:00+08:00",
+  "updated": "2026-11-07T13:47:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -27779,7 +27779,69 @@
       "verification_commit": "ea8b87f73a0323c6c6c1207f9d5f36168975da17",
       "verification_tree": "65894816860e7d764f4be0a19d68cc0929ca01ff",
       "ledger_credited_at": "2026-11-07T13:20:00+08:00"
+    },
+    {
+      "id": "168-ketupa-leucosticta-v3",
+      "path": "design/concepts/168-ketupa-leucosticta-v3.png",
+      "species_id": 168,
+      "scientific_name": "Ketupa leucosticta",
+      "historical_names": [
+        "Bubo leucostictus",
+        "Huhua leucosticta"
+      ],
+      "common_name": "Akun Eagle-Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "status": "v3科学校准。新增Sharpe 1875 p.41成鸟标本描述、Sharpe/Bates 1904 Efulen雌雄系列及Naturalis 2023模式标本目录；统一雄、雌、年龄未知幼鸟顺序。成年雄鸟较深、雌鸟较红但差异克制，黄眼、弱黄绿色喙、浅色内耳羽缘、少量白肩斑和带纹羽跗可辨。初稿幼鸟翼羽过长，主动编辑为短圆绒状翼、尾羽隐藏、双足支撑后复查通过。PASS_WITH_LIMITATIONS；幼鸟精确日龄/性别/首飞和种群级雌雄二色性未知，science=false。",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "AKUN-SHARPE-1875-P41",
+        "AKUN-SHARPE-BATES-1904-P443",
+        "AKUN-NATURALIS-TYPES-2023-P178",
+        "AKUN-TOBIAS-WILLIAMS-2022-P76-77",
+        "AKUN-KING-2022-JUV",
+        "AKUN-MIKKOLA-2013-P278"
+      ],
+      "unverified_leads": [],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-07--168-ketupa-leucosticta-v3--sex-palette-and-soft-young",
+      "research_record": "research/species/168-ketupa-leucosticta-v3.md",
+      "run_record": "production/runs/20261107T132400+0800-cycle-6.md",
+      "review_record": "research/reviews/168-ketupa-leucosticta-v3-review.md",
+      "reviewed_at": "2026-11-07T13:43:00+08:00",
+      "dimensions": "1536x1024",
+      "sha256": "e845a1e0c3ba355387ff83686094018b9fecfd48d92718d85616db19abde8490",
+      "size_bytes": 649882,
+      "git_blob": "bae5c7a4ab7cbc5b99563cb6e499ddec46801231",
+      "generated_path": "production/generated/168-ketupa-leucosticta-v3-generated-master.png",
+      "generated_blob": "bae5c7a4ab7cbc5b99563cb6e499ddec46801231",
+      "generated_sha256": "e845a1e0c3ba355387ff83686094018b9fecfd48d92718d85616db19abde8490",
+      "generated_size_bytes": 649882,
+      "full_color_source_sha256": "8f9ef0a4ca519be21fecd8bc00d06451cd7c4eee5a87393068662e37c43713c6",
+      "full_color_source_size_bytes": 2902141,
+      "reviewed_path": "production/reviewed/168-ketupa-leucosticta-v3-reviewed-master.png",
+      "reviewed_blob": "bae5c7a4ab7cbc5b99563cb6e499ddec46801231",
+      "reviewed_sha256": "e845a1e0c3ba355387ff83686094018b9fecfd48d92718d85616db19abde8490",
+      "reviewed_size_bytes": 649882,
+      "review_crop_path": "production/review-crops/168-ketupa-leucosticta-v3-young.png",
+      "review_crop_blob": "e36f82a5374aa96c084dcedc24e5173896b4220e",
+      "review_crop_sha256": "7078ccc47b0b7194dc9e069a35a6259f15e5946f0ad2f3d6f9065b39776e65ee",
+      "review_crop_size_bytes": 194581,
+      "auxiliary_review_crop_path": "production/review-crops/168-ketupa-leucosticta-v3-adults.png",
+      "auxiliary_review_crop_blob": "54c4aa01db9732c3ec647a1b4f7152e163f44257",
+      "auxiliary_review_crop_sha256": "06a44801095b98e093f987f6287089e57529fbe266af66b63f664eca308e717e",
+      "auxiliary_review_crop_size_bytes": 463211,
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false,
+      "ledger_credited": false,
+      "evidence_limit": "Exact young age/sex, living juvenile soft-part ontogeny, first flight, continuous molt sequence and population-wide adult sex dichromatism remain unknown; Mikkola upload unavailable.",
+      "archive_encoding": "1536x1024 indexed PNG, 64-color no-dither; edited full-colour ImageGen source SHA retained; transport board and final crops actually opened."
     }
   ],
-  "updated_at": "2026-11-07T13:20:00+08:00"
+  "updated_at": "2026-11-07T13:47:00+08:00"
 }

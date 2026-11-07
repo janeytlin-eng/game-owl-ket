@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T15:46:00+08:00",
+  "updated": "2026-11-07T16:10:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -28127,7 +28127,67 @@
       "verification_commit": "391498b03379e62923d15eb0671c30f6aa767550",
       "verification_tree": "7ca979c84c54a39b9eef04a38c552f3be2652abb",
       "ledger_credited_at": "2026-11-07T15:46:00+08:00"
+    },
+    {
+      "id": "173-otus-madagascariensis-v3",
+      "path": "design/concepts/173-otus-madagascariensis-v3.png",
+      "species_id": 173,
+      "scientific_name": "Otus madagascariensis",
+      "historical_names": [
+        "Otus rutilus madagascariensis (Clements/BirdLife lumped treatment)",
+        "Scops madagascariensis"
+      ],
+      "common_name": "Torotoroka Scops Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "status": "v3科学校准。完整读取René de Roland & Thorstrom 2009 pp.87–88，将地面巢限定为异常且未观察孵化；复用Fuchs et al. 2007、ITIS及仓库Mikkola p.145转录，Grandidier原始描述仅列未核验线索。成年雌雄同灰黄褐型，雌鸟仅适度丰满；年龄未知较大幼鸟保留柔软体羽、短软翼与部分隐藏尾羽，不声明周龄/性别/飞行能力。首次成图幼鸟翼尾过度成年化，经1次定向编辑并复查。PASS_WITH_LIMITATIONS；精确发育序列、性别体型比、软部发育、首飞阈值未知，science=false。",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "TSO-RENE-THORSTROM-2009-P87-88",
+        "TSO-FUCHS-ETAL-2007-P408-418",
+        "TSO-ITIS-686657-2025",
+        "TSO-MIKKOLA-2013-P145",
+        "TSO-GRANDIDIER-1867-P85-86-LEAD"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-07--173-otus-madagascariensis-v3--full-nest-paper-and-bounded-older-immature",
+      "research_record": "research/species/173-otus-madagascariensis-v3.md",
+      "run_record": "production/runs/20261107T154800+0800-cycle-4.md",
+      "review_record": "research/reviews/173-otus-madagascariensis-v3-review.md",
+      "reviewed_at": "2026-11-07T16:05:00+08:00",
+      "dimensions": "1536x1024",
+      "sha256": "a61f40f6734fa52b975491a5ecaa00214c68e107d64d1d840d1bec0bf5335e98",
+      "size_bytes": 648860,
+      "git_blob": "26fa8289632468f86749868e2138b10672e474b3",
+      "generated_path": "production/generated/173-otus-madagascariensis-v3-generated-master.png",
+      "generated_blob": "26fa8289632468f86749868e2138b10672e474b3",
+      "generated_sha256": "a61f40f6734fa52b975491a5ecaa00214c68e107d64d1d840d1bec0bf5335e98",
+      "generated_size_bytes": 648860,
+      "full_color_source_sha256": "3ef2d4f7297cf0c99aba1cd3daadb179fc8bb509db32051318596c1a21386071",
+      "full_color_source_size_bytes": 2980819,
+      "reviewed_path": "production/reviewed/173-otus-madagascariensis-v3-reviewed-master.png",
+      "reviewed_blob": "26fa8289632468f86749868e2138b10672e474b3",
+      "reviewed_sha256": "a61f40f6734fa52b975491a5ecaa00214c68e107d64d1d840d1bec0bf5335e98",
+      "reviewed_size_bytes": 648860,
+      "review_crop_path": "production/review-crops/173-otus-madagascariensis-v3-older-immature.png",
+      "review_crop_blob": "78151bd15b7ae2145b9a1aa65caf8637711e33ac",
+      "review_crop_sha256": "5d3d233edddd7fbea760a9555ab8f1a522bb8c412c4321b79d88160c05031198",
+      "review_crop_size_bytes": 216898,
+      "auxiliary_review_crop_path": "production/review-crops/173-otus-madagascariensis-v3-adults-support.png",
+      "auxiliary_review_crop_blob": "8a014a738c0fbaa7278e200d7b89328cd749ee6f",
+      "auxiliary_review_crop_sha256": "c2b5bf6566fa387d19a081ede41babf9862ee7ce00710dfeb8fc85907ec6fed4",
+      "auxiliary_review_crop_size_bytes": 430388,
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false,
+      "ledger_credited": false,
+      "evidence_limit": "Exact immature age/sex, soft-part and remex chronology, first-flight threshold, species-specific sex-size ratio and occupied nest-interior support remain unknown; Mikkola upload unavailable.",
+      "archive_encoding": "All archived binary paths use complete 64-colour no-dither indexed PNG transport assets; full-colour edited ImageGen SHA-256/byte count retained as provenance; board and both crops actually opened."
     }
   ],
-  "updated_at": "2026-11-07T15:46:00+08:00"
+  "updated_at": "2026-11-07T16:10:00+08:00"
 }

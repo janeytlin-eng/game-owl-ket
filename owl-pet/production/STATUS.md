@@ -3753,3 +3753,9 @@ Verification commit `b807ad5456d853e782e50b95ef82c3050b8de44b` was read back aft
 ### #172 v3 LEDGER_CREDITED — batch 3/6
 
 Verification commit `391498b03379e62923d15eb0671c30f6aa767550` was read back after immutable archive `254177143b89aec101183533699cab9ae5991a4c` / tree `9c358ab475009b2b34c4a23cfbb27c4c7648697f`. Cycle 3 is credited exactly once; batch `20261107T140000+0800` is PARTIAL 3/6 with next_cycle=4 and lease released. Unique species remains 176/251; revision +1; science false.
+
+
+## 2026-11-07 — #173 *Otus madagascariensis* v3 ARCHIVED (verification pending)
+- Full nest paper read and source index corrected; exceptional ground nest explicitly excluded from chick design.
+- Exactly three birds; one edit softened/shortened the older immature wing and tail. Concept plus two crops opened. Unique remains 176/251; revision +1; science=false.
+- Transport SHA-256 `a61f40f6734fa52b975491a5ecaa00214c68e107d64d1d840d1bec0bf5335e98`; immutable tree/readback pending.

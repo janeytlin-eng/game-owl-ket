@@ -251,3 +251,19 @@ Use three distinct natural poses, comparable scale and clear diagnostic comparis
 
 Avoid ear tufts, enormous female, generic white scapular patches, bold continuous white eyebrows, adult crown spotting on the immature, long hard immature primaries, crisp regular adult wing spots on the immature, long flight-ready tail, unsupported feet, eggs, prey, extra birds, extra labels, decorative border, warm sunset grading.
 
+
+
+## 171 *Glaucidium palmarum* v3 — 2026-11-07
+
+Create a polished 1536×1024 landscape scientific owl-pet plate in the repository’s established premium stylized 3D maquette look.
+
+Title exactly: “171 COLIMA PYGMY-OWL · Glaucidium palmarum”
+Exactly three complete tiny earless pygmy owls on one naturally supportive western-Mexican dry-forest branch. Left label “ADULT MALE”, centre label “ADULT FEMALE”, right label “AGE-UNKNOWN IMMATURE”.
+
+Adults: same species-typical colour pattern in both sexes, not dichromatic. Pale greyish tawny-brown crown and nape with extensive fine irregular whitish-to-pale-buff spotting; olive-brown to bistre back; no bold white scapular patches; small pale cinnamon-to-buffy wing spots; five-to-seven pale tail-bar series documented across sources, render six restrained bars with only distal three or four strongly visible as a design inference, not a universal count; pale ochre facial discs, short whitish brows, bright yellow irises, yellowish-horn bill/cere, feathered tarsi, pale yellow toes, off-white underparts with cinnamon-brown streaks. Keep standing height near-equal. Female only subtly fuller with marginally longer wing/tail direction, never dramatically larger.
+
+Right age-unknown older immature/mesoptile: soft paler rounded contour; unspotted grey crown and nape contrasting with brown upperparts; only sparse pale forehead flecks; nape false-eye patches may be muted; iris dark/indeterminate rather than confidently adult-yellow; very short rounded down-soft developing folded wing ending high above the feet, without crisp adult spot rows or hard layered remiges; short tail largely concealed by body and branch; low stable non-flying stance with both feet gripping the branch. Do not state or imply exact age, sex, flight ability or hatch-stage detail.
+
+Habitat: western Mexico near-sea-level to montane arid/semihumid tropical deciduous and thorn forest, with subtle palm-grove and dry-oak cues; neutral warm daylight, not humid cloud forest. Distinct three-quarter poses, all six feet visible and naturally supported.
+
+Avoid ear tufts, bold white scapular patches, male/female colour split, huge female, adult-spotted immature crown, vivid yellow immature iris, mature spotted immature wing rows, long hard immature wing/tail, unsupported feet, nest interior, eggs, prey, extra birds, extra labels, decorative border, or orange sunset grading.

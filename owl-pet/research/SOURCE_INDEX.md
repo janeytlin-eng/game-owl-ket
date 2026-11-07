@@ -3342,3 +3342,29 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - Reused repository record **TPO-MIKKOLA-2013-P384** and v2 research boundaries; the user-uploaded guide itself was unavailable in this execution, so no new page-reading claim is made.
 - A 2025 Cornell/Macaulay adult asset (ML647795249) was found, but direct page access was bot-blocked; only catalogue metadata was read and it is not used as visual evidence.
 - Exact immature age/sex, iris and bill ontogeny, flight threshold, daily feather sequence, occupied nest geometry and quantified sex-size ratio remain unknown. Scientific verification remains false.
+
+
+## 2026-11-07 — #171 *Glaucidium palmarum* v3 — original diagnosis, tail-bar conflict and current name
+
+### CPO-NELSON-1901-P46 — newly read original description
+- **Title / author / year:** “Descriptions of Five New Birds from Mexico,” Edward W. Nelson, 1901, *The Auk* 18(1).
+- **URL / page / accessed:** https://repository.si.edu/bitstreams/5153b8f5-7f56-4771-949f-b0969040d380/download ; printed p.46; accessed 2026-11-07.
+- **Type / scope:** primary original description; prepared adult type USNM Biological Survey 155955 from Arroyo de Juan Sanchez, Tepic.
+- **Facts:** brownish-Isabella densely white-spotted crown/nape; plain bistre-brown mid-back; pale-spotted wing; five transverse series of large rounded white tail spots; buff-white barred ear-coverts; white chin/malar/undertail; rusty-brown breast sides/tarsi and heavy rusty-brown streaking below; wing 87, tail 56, culmen 9, tarsus 21 mm; palm forest on a low coastal ridge south of San Blas.
+- **Conflict / decision:** original type has five tail-spot series, while later species-level sources summarize six/seven bars. V3 uses six restrained bars as a midpoint design inference and records the variation; no universal count claim.
+- **Limits/confidence:** high for the described type; historic skin colour names, uncertain printed sex and no living soft parts/development/nest.
+
+### CPO-ITIS-555451-2026 — newly read current-name authority
+- **Institution / URL / accessed:** ITIS TSN 555451; https://www.itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=555451&source=to_print ; accessed 2026-11-07.
+- **Fact/use:** valid *Glaucidium palmarum* Nelson, 1901, verified-standards record; *palmarum*, *oberholseri* and *griscomi* retained as synonym records. Naming only.
+- **Limits:** no morphology, sex or development evidence.
+
+### CPO-UNAM-MZFC-1999 — newly read institutional specimen metadata
+- **Institution / record / URL:** UNAM Repositorio, Museo de Zoología Alfonso L. Herrera collection search record, dated 1999-09-12; https://repositorio.unam.mx/contenidos?as=0&c=jzQ69R&d=false&f=351.%23.%23.b_lit%3AMuseo+de+Zoolog%C3%ADa+Alfonso+L.+Herrera+%28MZFC%29&i=1&q=%2A%3A%2A&t=search_0&v=1
+- **Actually read / use:** species-name and institutional collection metadata, accessed 2026-11-07. Supports collection identity only.
+- **Limits:** no sex, age, measurements or viewable specimen detail; not visual or developmental evidence.
+
+### Reuse and unresolved limits
+- Reused **CPO-HOWELL-ROBBINS-1995-P17-20**, **CPO-BUCHANAN-1964-P104-106**, **CPO-MEDINA-ETAL-2022-P8-9**, **CPO-MIKKOLA-2013-P385-386** and the bounded **CPO-BITRAN-2018-JUV** lead without duplicating their source records.
+- Mikkola upload unavailable; only the repository transcription was reused.
+- Exact immature age/sex, soft-part ontogeny, flight threshold, feather sequence, occupied nest geometry and universal sex-size/tail-bar ratios remain unknown. Full prompt and decisions: [#171 v3 research](species/171-glaucidium-palmarum-v3.md). Scientific verification remains false.

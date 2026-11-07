@@ -28330,10 +28330,17 @@
       "auxiliary_review_crop_blob": "d7551893943dc9bd10e56354e264ae749b2533e6",
       "auxiliary_review_crop_sha256": "0001a0b99a65f07a2f7b2578a6b0b5ab6636c41fb614e504d8e4f457b1a574d7",
       "auxiliary_review_crop_size_bytes": 427504,
-      "archive_commit_pending": true,
-      "readback_pending": true,
-      "ledger_credited": false
+      "archive_commit_pending": false,
+      "readback_pending": false,
+      "ledger_credited": false,
+      "archive_commit": "dce3dcf1001213342062d337fff7b89de178df99",
+      "archive_tree": "ca2d590acb8c9338bcf8c1057bb856ea65076baf",
+      "verified_at": "2026-11-07T13:42:00+08:00",
+      "connector_full_binary_stream_readback": true,
+      "required_paths_verified": 18,
+      "tree_entries": 3827,
+      "tree_truncated": false
     }
   ],
-  "updated_at": "2026-11-07T13:38:00+08:00"
+  "updated_at": "2026-11-07T13:42:00+08:00"
 }

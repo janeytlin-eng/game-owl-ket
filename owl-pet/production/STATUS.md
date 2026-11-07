@@ -1,3 +1,7 @@
+### #175 v3 immutable archive VERIFIED — ledger credit pending
+
+Archive `dce3dcf1001213342062d337fff7b89de178df99` / tree `ca2d590acb8c9338bcf8c1057bb856ea65076baf` returned 3,827 non-truncated entries. All 18 required paths, five exact binary tuples, complete connector concept stream and manifest counts 776/777/767 passed. PASS_WITH_LIMITATIONS; science=false; ledger credit pending.
+
 ### #175 v3 ARCHIVED — readback pending
 
 Transport board and two review crops were visually reopened. Five binary paths, three manifests, research/review/run records and staged ledger are committed; immutable recursive-tree and connector binary readback are pending. Unique ledger remains 176/251; revision +1; science=false.

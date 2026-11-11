@@ -1,5 +1,44 @@
 
 
+## 2026-11-11 — #111 *Otus cyprius* v4 — adult-pattern correction and fledged-juvenile boundary
+
+### CYSO-MIKKOLA-2013-P122-123
+- **Title / author / year:** *Owls of the World: A Photographic Guide* / Heimo Mikkola / 2013.
+- **Pages / accessed / type:** printed pp.122–123, uploaded PDF pp.124–125; freshly read 2026-11-11; photographic guide.
+- **Species/stages:** historical *Otus scops cyprius* plus broader *O. scops* complex; adults, downy chick and age-unknown juvenile/mesoptile.
+- **Facts:** Cyprus form called silvery-grey; complex account gives small tufts, black shaft-streaks, white scapular webs, barred flight/tail, yellow eyes, grey bill and tarsal feathering to toe bases; juvenile fluffier with prominent vermiculations.
+- **Limits/decision:** broad complex size and female-heavier wording are not Cyprus-specific visible dimorphism; no exact juvenile age/flight claim. Supports old-name mapping, bare parts and a conservative fluff/vermiculation boundary.
+
+### CYSO-FLINT-2015
+- **Title / authors / year:** “Reprising the taxonomy of Cyprus Scops Owl *Otus (scops) cyprius*…” / Flint et al. / 2015.
+- **URL / accessed / type:** https://www.britishbirds.co.uk/wp-content/uploads/article_files/V108/V108_N06/V108_N06_P291_307_A006.pdf ; 2026-11-11; primary taxonomic/morphology paper.
+- **Pages:** diagnosis/morphology pp.298–301; measurements p.300; breeding/habitat pp.303–304.
+- **Facts:** darkest/darker-grey taxon, heavy broad black streaking, coarse vermiculation, narrow bars and larger white spots; no rufous morph. Specimen wing means male n=10 153.3 mm, female n=13 153.5 mm; eggs Apr–May, chicks late Apr–Jul; villages/light woodland/open pine forest.
+- **Limits/decision:** tiny live samples and no juvenile series; use near-equal adult height and irregular coarse pattern, not a fixed sex ratio.
+
+### CYSO-SOUNDAPPROACH-2013PHOTOS
+- **Title / institution:** “Cyprus Scops Owl” / The Sound Approach.
+- **URL / accessed / type:** https://soundapproach.co.uk/cyprus-scops-owl/ ; 2026-11-11; reliable field-photo narrative.
+- **Stage/facts:** ancient olive grove; juvenile fed by an adult on 21 June; several fledged juveniles photographed on 27 June; at least two young fledged.
+- **Limits/decision:** no hatch age, sex, controlled flight test or continuous sequence. Supports an age-unknown, branch-supported fledged juvenile only.
+
+### CYSO-BIRDLIFE-CYPRUS-2026
+- **Title / institution:** “Cyprus Scops Owl” / BirdLife Cyprus.
+- **URL / accessed / type:** https://birdlifecyprus.org/cyprus-scops-owl/ ; 2026-11-11; current institution overview.
+- **Facts:** 19–21 cm, 47–54 cm wingspan; hollows in conifers/olive trees and boxes; forests, farmland, villages and olive groves.
+- **Limits/decision:** overview, not an ageing source; habitat/nesting context only.
+
+### CYSO-IEZEKIEL-ETAL-2021
+- **Title / authors / year:** “Nest-Box Occupancy by the Cyprus Scops Owl in Different Habitats” / Iezekiel et al. / 2021, *Animals* 11:1775.
+- **DOI / URL / accessed:** https://doi.org/10.3390/ani11061775 ; 2026-11-11.
+- **Type / scope:** primary 2015–2018 breeding study; 238 boxes in Paphos Forest rural, ecotone and forest sites; laying through fledging.
+- **Facts:** boxes mainly on *Pinus brutia* or buildings; 5–11% occupancy; edge/rural occupancy higher.
+- **Limits/decision:** no juvenile feather chronology or locomotor threshold; breeding-site context only.
+
+### Reuse and corrected boundaries
+- New1 / reused4 / corrected5. V3's pale warm-grey and tidy narrow pinstripes are corrected toward dark cool grey, broad irregular streaks, coarse vermiculation and larger isolated white spots. Cyprus wing data do not justify imposed female height. A photographed fledged stage does not establish exact age or sustained flight. Olive-grove context is documented but not universal. Science remains false.
+- Links: [v4 research](species/111-otus-cyprius-v4.md); planned v4; run `production/runs/20261111T175057+0800-cycle-5.md`.
+
 ## 2026-11-08 — #37 *Glaucidium peruanum* v5 — juvenile-record correction and taxonomy refresh
 
 ### PEPO-LUTHI-2011

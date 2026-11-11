@@ -3,7 +3,7 @@
 - Current name: *Strix nigrolineata*; historical combination: *Ciccaba nigrolineata*.
 - Action: `SCIENCE_REVISION`; v1–v4 preserved.
 - Selected young stage: age-unknown older juvenile / mesoptile; no invented hatch age, fledging age or flight threshold.
-- Accessed: 2026-11-08; scientific status remains `false` pending expert review.
+- Accessed: 2026-11-08; revalidated 2026-11-11 during archive-transport recovery; scientific status remains `false` pending expert review.
 
 ## Evidence actually read
 
@@ -54,3 +54,11 @@ Avoid: giant or much taller female, equal-size body clones, ear tufts, white-spo
 ## Unknowns retained
 
 Exact juvenile age/sex, continuous feather chronology, first-flight threshold, juvenile iris chronology, population-wide dimorphism distribution, universal nest-site choice, and cross-population transfer remain unknown. This concept may pass visual production review while remaining scientifically unverified.
+
+## 2026-11-11 recovery revalidation
+
+- Re-read the current ITIS record for TSN 1063255: *Strix nigrolineata* remains valid and *Ciccaba nigrolineata* remains the historical synonym.
+- Re-read the USDA Forest Service symposium record and printed pp.190–196: the sex-size evidence remains one measured Tikal pair and still supports fuller female mass/tail, not a fixed standing-height multiplier.
+- Re-read the 1994 breeding-paper abstract: the four Black-and-white Owl nests were epiphytes in large live trees at mean height 20.5 m; the 27–33-day departure statement still belongs to Mottled Owl and remains excluded.
+- The user-uploaded Mikkola guide was not mounted in this recovery execution; repository evidence for printed p.339 was reused with that limitation.
+- The regenerated recovery plate was checked against the same boundary: adult crown heights remain near-equal, the female is fuller rather than dramatically taller, and the age-unknown older juvenile has a short rounded supported wing and no flight claim.

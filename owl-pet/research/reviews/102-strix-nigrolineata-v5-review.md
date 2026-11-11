@@ -2,11 +2,13 @@
 
 - Result: **PASS_WITH_LIMITATIONS**
 - Scientifically verified: **false**
-- Reviewed: 2026-11-08
+- Reviewed: 2026-11-08; archive-recovery plate re-reviewed 2026-11-11
 - Initial: `owl-pet/production/generated/102-strix-nigrolineata-v5-initial-original.png`
 - Final: `owl-pet/production/generated/102-strix-nigrolineata-v5-final-original.png`
 - Final reviewed master: `owl-pet/production/reviewed/102-strix-nigrolineata-v5-reviewed-master.png`
 - Edit count / imagegen invocations: 1 / 2
+- Recovery original: `owl-pet/production/generated/102-strix-nigrolineata-v5-recovery-original.png`
+- Recovery generation / edit count: 1 / 0
 
 ## Problem → evidence → change → recheck
 
@@ -28,4 +30,18 @@
 ## Remaining unknowns
 
 Exact juvenile age/sex, continuous feather chronology, first-flight threshold, juvenile iris chronology, population-wide dimorphism distribution, universal nest-site choice and cross-population transfer remain unknown. Visual production approval is not scientific verification.
+
+## 2026-11-11 archive-recovery review
+
+The 2026-11-08 large image objects were truncated during connector transport, so the persisted prompt was regenerated rather than treating the broken bytes as a valid archive. The recovery plate and three newly cropped role views were opened.
+
+- Exact title, three role labels and exactly three birds: PASS.
+- Adult identity: rounded untufted heads, dark reddish/orange-brown irides, orange-yellow bills, dark upperparts, black bibs and narrow black-on-white bars: PASS.
+- Sex treatment: near-equal crown height, female fuller through torso and only subtly longer in outline: PASS_WITH_LIMITATIONS because evidence remains one measured pair.
+- Older juvenile: pale tightly barred fluffy plumage, dark eyes, compact dark wing-coverts patch, short rounded folded wing ending well above the platform and short/concealed tail: PASS.
+- Support/action: both feet and belly are naturally supported; no hovering or flight: PASS.
+- Regional setting: living bromeliad/orchid epiphyte platform in humid forest, without claiming a universal nest type: PASS.
+- No eggs, prey, extra birds, watermark or logo: PASS.
+
+No targeted edit was required on the regenerated plate. Result remains **PASS_WITH_LIMITATIONS** and scientifically verified remains **false**.
 

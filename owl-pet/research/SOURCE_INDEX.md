@@ -588,6 +588,12 @@
 - **Useful facts/limits:** supports the existing adult and older-juvenile visual boundary already recorded for #102; no new page fact or developmental timing is claimed here.
 - **Design decision/links:** keep the age-unknown pale barred mesoptile and mark science false. Link `research/species/102-strix-nigrolineata-v5.md`.
 
+### 2026-11-11 revalidation note — existing IDs, no duplicate source entries
+- Re-read `BWO-GERHARDT-GERHARDT-1997-USFS`, `BWO-GERHARDT-1994-JSTOR` and `BWO-ITIS-1063255-2026` during #102 archive-transport recovery.
+- The measured-pair values, Tikal epiphyte-nest scope and current/old-name crosswalk were unchanged; therefore no new stable source ID was created.
+- The recovery plate applies the same limits: one measured pair does not establish a population-wide illustrated ratio; 27–33 days is not assigned to this species; exact juvenile age, flight threshold and iris chronology remain unknown.
+- Revalidated links: `research/species/102-strix-nigrolineata-v5.md`, `research/reviews/102-strix-nigrolineata-v5-review.md`, `design/concepts/102-strix-nigrolineata-v5.png`.
+
 ## 2026-11-06 — #101 *Otus spilocephalus* v8 — Taiwan adult/immature boundary
 
 ### MOSO-NTM-TMAV3451-2026

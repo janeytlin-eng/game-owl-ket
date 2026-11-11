@@ -99,3 +99,10 @@ When primary sources say a recent fledgling can fly but lands poorly, that evide
 - **Applied:** #28 v5 replaced “approximately 31-day appearance” with an age-unknown recent fledgling; kept only supported behaviour (near nest, parent-dependent, low support) and conservative juvenile directions already indexed.
 - **Verified:** the generated plate passed whole-image and crop review without an edit: short/soft wing, short/mostly hidden tail, dim indeterminate iris, six-foot support, no flight claim.
 - **Rule:** never translate a behavioural fledging interval into exact visual age unless a readable age-linked growth/photographic series supports it. Record the applied life stage and unresolved chronology separately.
+
+## 2026-11-11 — Archive transport must be verified as bytes, not inferred from a successful ref update
+
+- **Problem:** the #102 archive commit moved `main`, but two large PNG objects were only about 786 KB and four JSON files contained unescaped/truncated content; a successful commit/ref update therefore did not prove a valid production archive.
+- **Applied:** preserved the old commit for audit, restored the last valid ledger/manifests, regenerated the asset from the persisted full prompt, opened the full plate and three role crops, and uploaded binary content in 300,000-byte raw chunks with an exact expected base64-length check before blob creation.
+- **Validation required:** compare remote Git blob SHA and byte size for every image alias, parse every canonical JSON manifest from the immutable commit, and only then write `VERIFIED` and ledger credit.
+- **Reusable rule:** connector success is only a transport event. Production success requires immutable path, blob, byte and parse evidence; a scratch path or ref update alone is not archival proof.

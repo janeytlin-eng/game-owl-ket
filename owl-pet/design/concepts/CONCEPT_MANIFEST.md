@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T05:56:13+08:00",
+  "updated": "2026-11-12T05:58:32+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -32217,30 +32217,30 @@
       "dimensions": "1536x1024",
       "size_bytes": 2808330,
       "sha256": "c8646dafdf8551874abbb5d3aa1be7faf831b7b77c742aac9cabb1272f23bd50",
-      "git_blob": "dc4319c6e6b24cb506d591193b8f00ebe7c1e8ae",
+      "git_blob": "0bc6fde0c0120322247fade465c3fdf5070e1695",
       "initial_original_path": "production/generated/133-megascops-atricapilla-v5-initial-original.png",
-      "initial_original_blob": "dc4319c6e6b24cb506d591193b8f00ebe7c1e8ae",
+      "initial_original_blob": "0bc6fde0c0120322247fade465c3fdf5070e1695",
       "initial_original_size_bytes": 2808330,
       "initial_original_sha256": "c8646dafdf8551874abbb5d3aa1be7faf831b7b77c742aac9cabb1272f23bd50",
       "final_original_path": "production/generated/133-megascops-atricapilla-v5-final-original.png",
-      "final_original_blob": "dc4319c6e6b24cb506d591193b8f00ebe7c1e8ae",
+      "final_original_blob": "0bc6fde0c0120322247fade465c3fdf5070e1695",
       "final_original_size_bytes": 2808330,
       "final_original_sha256": "c8646dafdf8551874abbb5d3aa1be7faf831b7b77c742aac9cabb1272f23bd50",
       "full_color_source_path": "production/generated/133-megascops-atricapilla-v5-full-color.png",
-      "full_color_source_blob": "dc4319c6e6b24cb506d591193b8f00ebe7c1e8ae",
+      "full_color_source_blob": "0bc6fde0c0120322247fade465c3fdf5070e1695",
       "full_color_source_size_bytes": 2808330,
       "full_color_source_sha256": "c8646dafdf8551874abbb5d3aa1be7faf831b7b77c742aac9cabb1272f23bd50",
       "generated_path": "production/generated/133-megascops-atricapilla-v5-generated-master.png",
-      "generated_blob": "dc4319c6e6b24cb506d591193b8f00ebe7c1e8ae",
+      "generated_blob": "0bc6fde0c0120322247fade465c3fdf5070e1695",
       "generated_size_bytes": 2808330,
       "reviewed_path": "production/reviewed/133-megascops-atricapilla-v5-reviewed-master.png",
-      "reviewed_blob": "dc4319c6e6b24cb506d591193b8f00ebe7c1e8ae",
+      "reviewed_blob": "0bc6fde0c0120322247fade465c3fdf5070e1695",
       "reviewed_size_bytes": 2808330,
       "review_crops": [
         {
           "path": "production/review-crops/133-megascops-atricapilla-v5-adult-male.png",
-          "blob": "0c9b857576e1b2eccdf460bde0df9f96a6494d9b",
-          "size_bytes": 848487
+          "blob": "074e5859c99b2d97cabd07f96dc820105b0aa1d4",
+          "size_bytes": 688320
         },
         {
           "path": "production/review-crops/133-megascops-atricapilla-v5-older-juvenile.png",
@@ -32249,15 +32249,23 @@
         },
         {
           "path": "production/review-crops/133-megascops-atricapilla-v5-adult-female.png",
-          "blob": "121f1231b925bed16d48cdba99491bed9a7a1068",
-          "size_bytes": 860292
+          "blob": "39517a12e64b4fa0d969d057df5f5f5dad587984",
+          "size_bytes": 696722
         }
       ],
-      "archive_note": "V4, v5 full plate and all three role crops opened. Short down-veiled juvenile wing, support, near-equal adults and Atlantic-Forest habitat boundaries applied. New2/reused3. Uploaded Mikkola unavailable; no new page claim. Science false.",
+      "archive_note": "V4, v5 full plate and all three role crops opened. Short down-veiled juvenile wing, support, near-equal adults and Atlantic-Forest habitat boundaries applied. New2/reused3. Uploaded Mikkola unavailable; no new page claim. Science false. Initial archive readback exposed connector-output truncation (master 786,446 bytes; two crops truncated). Re-uploaded master directly from the generated data URL and resized only the two review crops to 500×786 before re-upload; all three displayed role details were re-opened. Archive verification still pending.",
       "readback_pending": true,
       "archive_commit_pending": true,
-      "archived_at": "2026-11-12T05:56:13+08:00"
+      "archived_at": "2026-11-12T05:56:13+08:00",
+      "archive_repair": {
+        "failed_archive_commit": "20fe7934b05dbf63e4effe54816e3a6ad9e55d42",
+        "problem": "base64 output truncation before Git blob creation",
+        "repaired_at": "2026-11-12T05:58:32+08:00",
+        "master_blob": "0bc6fde0c0120322247fade465c3fdf5070e1695",
+        "male_crop_blob": "074e5859c99b2d97cabd07f96dc820105b0aa1d4",
+        "female_crop_blob": "39517a12e64b4fa0d969d057df5f5f5dad587984"
+      }
     }
   ],
-  "updated_at": "2026-11-12T05:56:13+08:00"
+  "updated_at": "2026-11-12T05:58:32+08:00"
 }

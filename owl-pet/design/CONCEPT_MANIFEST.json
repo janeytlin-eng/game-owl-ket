@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T18:10:33+08:00",
+  "updated": "2026-11-11T19:32:24+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -31286,7 +31286,100 @@
       "unique_binary_streams_read_back": 6,
       "verified_at": "2026-11-11T18:10:33+08:00",
       "verification_result": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "id": "112-asio-abyssinicus-v4",
+      "path": "design/concepts/112-asio-abyssinicus-v4.png",
+      "species_id": 112,
+      "scientific_name": "Asio abyssinicus",
+      "historical_names": [
+        "Otus abyssinicus"
+      ],
+      "common_name": "Abyssinian Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3
+      ],
+      "prior_versions_retained": true,
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 2,
+      "imagegen_invocations": 3,
+      "status": "V4 preserves v1-v3 and corrects the juvenile's adult-like wing/remiges and long hair-like down into a compact mostly buried developing wing, concealed tail and short matte frayed down clumps. Adults remain near-equal because sex-specific size direction is unsupported. Exact juvenile age, sex/subspecies, flight competence, independence, feather chronology and population sex-size direction remain unknown.",
+      "source_ids": [
+        "ABY-COLLAR-BOESMAN-2019",
+        "ABY-MATON-1989-JUV",
+        "ABY-OGADA-MURIITHI-2017",
+        "ABY-BMNP-BIRDING-2026",
+        "ABY-ONET-LANNELUC-2018",
+        "ABY-ITIS-555498-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/112-asio-abyssinicus-v4.md",
+      "review_record": "research/reviews/112-asio-abyssinicus-v4-review.md",
+      "run_record": "production/runs/20261111T181313+0800-cycle-6.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 2907558,
+      "sha256": "81384a4b51dbc61708dbd0c0ecfbf2ea3bf8f5ffef5a74474741fa680b64a6da",
+      "git_blob": "68367f2a80dbfa62c366cbbdc41641584e54864d",
+      "initial_original_path": "production/generated/112-asio-abyssinicus-v4-initial-original.png",
+      "initial_original_blob": "71cdd477480b06469c6f9ca68748b2b1c851864f",
+      "initial_original_size_bytes": 3192063,
+      "initial_original_sha256": "86b5cacf0bd2f7887b062be5d18d0fb04c8b799cb84e19bcae76ad9a51f43da7",
+      "edit1_path": "production/edits/112-asio-abyssinicus-v4-edit1.png",
+      "edit1_blob": "0e7faba30db989a0b111f43b275649435937c788",
+      "edit1_size_bytes": 3014775,
+      "edit1_sha256": "1bb04e0a8ec2854882f5016dea43d5c3635359eb527faf235cbd644da288792f",
+      "final_original_path": "production/generated/112-asio-abyssinicus-v4-final-original.png",
+      "final_original_blob": "68367f2a80dbfa62c366cbbdc41641584e54864d",
+      "final_original_size_bytes": 2907558,
+      "final_original_sha256": "81384a4b51dbc61708dbd0c0ecfbf2ea3bf8f5ffef5a74474741fa680b64a6da",
+      "full_color_source_path": "production/generated/112-asio-abyssinicus-v4-full-color.png",
+      "full_color_source_blob": "68367f2a80dbfa62c366cbbdc41641584e54864d",
+      "full_color_source_size_bytes": 2907558,
+      "full_color_source_sha256": "81384a4b51dbc61708dbd0c0ecfbf2ea3bf8f5ffef5a74474741fa680b64a6da",
+      "generated_path": "production/generated/112-asio-abyssinicus-v4-generated-master.png",
+      "generated_blob": "68367f2a80dbfa62c366cbbdc41641584e54864d",
+      "generated_size_bytes": 2907558,
+      "reviewed_path": "production/reviewed/112-asio-abyssinicus-v4-reviewed-master.png",
+      "reviewed_blob": "68367f2a80dbfa62c366cbbdc41641584e54864d",
+      "reviewed_size_bytes": 2907558,
+      "review_crops": [
+        {
+          "role": "male",
+          "path": "production/review-crops/112-asio-abyssinicus-v4-adult-male.png",
+          "blob": "8365f57996c465989c130e6efcb403d721b04f65",
+          "size_bytes": 665423
+        },
+        {
+          "role": "juvenile",
+          "path": "production/review-crops/112-asio-abyssinicus-v4-older-juvenile.png",
+          "blob": "b78a300596451b632b0baaf8c3747cc68dd5ee14",
+          "size_bytes": 555554
+        },
+        {
+          "role": "female",
+          "path": "production/review-crops/112-asio-abyssinicus-v4-adult-female.png",
+          "blob": "9bc0e4f7c8c0a5f5d9a556cd3fc821b3dc0c1c1a",
+          "size_bytes": 658019
+        },
+        {
+          "role": "support",
+          "path": "production/review-crops/112-asio-abyssinicus-v4-support.png",
+          "blob": "cb7d9fca996e7b6251c5b84418493b4730e80b70"
+        }
+      ],
+      "archive_note": "V4 full plate and four independent role/support crops were reopened after two evidence-led ImageGen edits. One new institutional habitat source and five reused/re-read sources are indexed. Uploaded Mikkola guide was unavailable; no fresh page claim. Science remains false.",
+      "readback_pending": true,
+      "archive_commit_pending": true,
+      "archived_at": "2026-11-11T19:32:24+08:00"
     }
   ],
-  "updated_at": "2026-11-11T18:10:33+08:00"
+  "updated_at": "2026-11-11T19:32:24+08:00"
 }

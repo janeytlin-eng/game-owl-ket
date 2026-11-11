@@ -32339,17 +32339,17 @@
         {
           "path": "production/review-crops/134-megascops-sanctaecatarinae-v5-adult-male.png",
           "blob": "be7ead85c094259a84048da77a659e44d5f848d9",
-          "size_bytes": 652964
+          "size_bytes": 652989
         },
         {
           "path": "production/review-crops/134-megascops-sanctaecatarinae-v5-older-juvenile.png",
           "blob": "98ffc3bbe120004dc7b35b58bca03bdc228cebd1",
-          "size_bytes": 573691
+          "size_bytes": 573716
         },
         {
           "path": "production/review-crops/134-megascops-sanctaecatarinae-v5-adult-female.png",
           "blob": "e291cc40f416a8810b4ed0b26376538b4b06c99f",
-          "size_bytes": 614958
+          "size_bytes": 614982
         }
       ],
       "archive_note": "V4, initial v5, edited v5 and all three final role crops opened. Correct title hierarchy, near-equal adults and cavity-bounded juvenile applied. Initial complete juvenile feet were evidence-exceeding and removed with one edit; edited crop re-opened. New1/reused3. Uploaded Mikkola unavailable; no fresh page claim. Science false. Archive verification pending.",

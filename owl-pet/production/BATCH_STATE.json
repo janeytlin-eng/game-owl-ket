@@ -41479,7 +41479,7 @@
       "next_cycle": 4,
       "active_cycle": 4,
       "started_at": "2026-11-12T04:31:00+08:00",
-      "updated_at": "2026-11-12T06:14:41+08:00",
+      "updated_at": "2026-11-12T06:15:45+08:00",
       "current_stage": "ARCHIVED",
       "ledger_credit_pending": false,
       "lease": {
@@ -41488,8 +41488,8 @@
         "batch_id": "20261112T043100+0800",
         "cycle": 4,
         "species_id": 134,
-        "heartbeat_at": "2026-11-12T06:14:41+08:00",
-        "expires_at": "2026-11-12T06:29:41+08:00"
+        "heartbeat_at": "2026-11-12T06:15:45+08:00",
+        "expires_at": "2026-11-12T06:30:45+08:00"
       },
       "active": {
         "run_id": "20261112T060100+0800-cycle-4",
@@ -42397,6 +42397,33 @@
             "review_result": "PASS_WITH_LIMITATIONS",
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-12T06:29:41+08:00"
+          }
+        },
+        {
+          "batch_id": "20261112T043100+0800",
+          "cycle": 4,
+          "stage": "ARCHIVE_METADATA_CORRECTED",
+          "at": "2026-11-12T06:15:45+08:00",
+          "run_id": "20261112T060100+0800-cycle-4",
+          "species_id": 134,
+          "species": "Megascops sanctaecatarinae",
+          "credited": false,
+          "evidence": {
+            "prior_archive_commit": "74b57c995c2a5e15aabbcd72bd74426f955870ea",
+            "problem": "Remote Git tree reported crop byte counts 24–25 bytes larger than local stat because view_image returned re-encoded PNG streams.",
+            "remedy": "Updated all three manifests to the exact remote Git blob sizes; image blobs and visual review are unchanged.",
+            "crop_blobs": [
+              "be7ead85c094259a84048da77a659e44d5f848d9",
+              "98ffc3bbe120004dc7b35b58bca03bdc228cebd1",
+              "e291cc40f416a8810b4ed0b26376538b4b06c99f"
+            ],
+            "correct_crop_bytes": [
+              652989,
+              573716,
+              614982
+            ],
+            "verification_pending": true,
+            "lease_expires_at": "2026-11-12T06:30:45+08:00"
           }
         }
       ],

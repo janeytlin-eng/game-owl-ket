@@ -31,4 +31,5 @@ ActualnewPNGviewed, noadditionaledit requiredforgrossstage/support: darkfluffyph
 - Freshly re-read the Dantas journal page/abstract and SACC Proposal 937: the complex is genetically structured but lacks a concrete morphology/vocal diagnosis accepted by SACC. “Guiana Shield concept” is therefore a design scope, not a scientific-resolution claim.
 - Reused WA2661782 only for an age/sex-unknown photographed older young. The bird must not be labelled nestling, fledgling or flight-capable; Mikkola's guide says the juvenile is not known.
 - V5 preserves near-equal adults and compact down-obscured juvenile wing, replacing the static frontal young with a cautious sideways head turn and two-foot supported shuffle. No sex-size rule, exact age or flight inference. Science remains false.
+- V5 full plate and all three role crops were actually opened. Exact labels, three-bird order, non-mirrored near-equal adults, compact down-obscured young wing, two-foot shuffle and all six supported feet pass. No targeted edit was needed; imagegen invocations 1, edits 0. This validates the pose-variation rule for this image only, not a general developmental claim.
 

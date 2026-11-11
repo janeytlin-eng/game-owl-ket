@@ -40313,17 +40313,17 @@
       "next_cycle": 3,
       "active_cycle": 3,
       "started_at": "2026-11-11T23:36:00+08:00",
-      "updated_at": "2026-11-12T01:25:00+08:00",
-      "current_stage": "ARCHIVED",
-      "ledger_credit_pending": false,
+      "updated_at": "2026-11-12T01:30:00+08:00",
+      "current_stage": "VERIFIED",
+      "ledger_credit_pending": true,
       "lease": {
         "owner": "codex-owl-production",
         "run_id": "20261112T005500+0800-cycle-3",
         "batch_id": "20261111T233600+0800",
         "cycle": 3,
         "species_id": 126,
-        "heartbeat_at": "2026-11-12T01:25:00+08:00",
-        "expires_at": "2026-11-12T01:40:00+08:00"
+        "heartbeat_at": "2026-11-12T01:30:00+08:00",
+        "expires_at": "2026-11-12T01:45:00+08:00"
       },
       "active": {
         "run_id": "20261112T005500+0800-cycle-3",
@@ -40982,6 +40982,44 @@
             "review_result": "PASS_WITH_LIMITATIONS",
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-12T01:40:00+08:00"
+          }
+        },
+        {
+          "batch_id": "20261111T233600+0800",
+          "cycle": 3,
+          "stage": "VERIFIED",
+          "at": "2026-11-12T01:30:00+08:00",
+          "run_id": "20261112T005500+0800-cycle-3",
+          "species_id": 126,
+          "species": "Strix hadorami",
+          "credited": false,
+          "evidence": {
+            "archive_commit": "a23c26690732cf9f564f4e1218a11ceff0f2b126",
+            "archive_tree": "6025ad258817c3a816276e6dd8ff62a6fecbba3d",
+            "required_paths_verified": 18,
+            "exact_binary_paths_verified": 9,
+            "unique_binary_streams_read_back": 5,
+            "initial_blob": "3c40750486721e9a320e7461cc5dd1bdb9fd90f4",
+            "initial_bytes": 3073812,
+            "concept_blob": "c7084dde44cd9142b9c744acacd73ee3838d577e",
+            "concept_bytes": 2707629,
+            "crop_blobs": [
+              "de5f85f2bf8f0b360198555e2d455cd26dbca7e5",
+              "7d53ff7fa3cf6e44095417769b61dcf99614219b",
+              "0a822a411ef65467601f51a21e0e84d402382528"
+            ],
+            "manifest_counts": {
+              "design_image": 807,
+              "design_concepts": 818,
+              "production_image": 797
+            },
+            "tree_entries": 4355,
+            "tree_truncated": false,
+            "immutable_raw_render_verified": true,
+            "verification_result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false,
+            "ledger_credit_pending": true,
+            "lease_expires_at": "2026-11-12T01:45:00+08:00"
           }
         }
       ]

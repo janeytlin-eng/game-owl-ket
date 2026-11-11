@@ -4456,3 +4456,35 @@ Reused without duplicate IDs: `BLO-KIRKCONNELL-WILEY-2017`, `BLO-SUAREZ-2022-CAT
 - Limits: taxonomy database, not morphology or development evidence.
 
 Reused/re-read without duplicate IDs: `PSC-KOMAR-STUFKENS-2012` (primary one-event older fledgling defensive display/difficulty flying), `PSC-MIKKOLA-2013-P210` (repository-pinned adult guide page; uploaded copy unavailable in this execution), `PSC-OWLPAGES-2020`, `PSC-AVESCR-2025` (lines 29–33 freshly re-read; AI illustration excluded). Full prompt/boundaries: `owl-pet/research/species/118-megascops-cooperi-v5.md`. Scientific verification remains false.
+
+
+## 2026-11-11 — #119 *Megascops centralis* v5 — current-name and advanced-juvenile boundary
+
+### CHSO-ITIS-1063250-2026
+- **Institution/title:** Integrated Taxonomic Information System — *Megascops centralis*, TSN 1063250.
+- **URL/accessed/type:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=1063250 ; accessed 2026-11-11; authoritative taxonomy database.
+- **Section read:** taxonomy/nomenclature and sources.
+- **Facts/use:** current valid species *M. centralis*; synonym *Otus guatemalae centralis*; current English name Choco Screech Owl. Supports title/current-name mapping only.
+- **Limits/confidence:** no morphology, sex, development or nest evidence; high for nomenclature.
+
+### CHSO-AOS-13691-2026
+- **Institution/title:** American Ornithological Society Checklist — *Megascops centralis*.
+- **URL/accessed/type:** https://checklist.americanornithology.org/taxa/13691 ; accessed 2026-11-11; official checklist.
+- **Section read:** species entry/annotation.
+- **Facts/use:** lists current *M. centralis* and states it was formerly considered conspecific with *M. guatemalae*.
+- **Limits/confidence:** taxonomy only; no morphology or development inference.
+
+### CHSO-REYES-ASTUDILLO-2017-P377-381 — reused repository primary evidence
+- **Authors/title/year:** Enzo M.R. Reyes & Evelyng Astudillo-Sánchez, “Notes on the Nest, Owlets, Diet, and Parasites of the Choco Screech-Owl (*Megascops guatemalae centralis*)…,” 2017.
+- **DOI/URL:** https://doi.org/10.1676/16-019.1 ; issue pp.377–381; DOI/issue metadata rechecked 2026-11-11.
+- **Actual evidence basis:** full text and figures were read in the archived v4 run; current run reuses that immutable record rather than pretending a new full-text read.
+- **Facts/use:** advanced-stage young mostly gray mesoptile with fine black bars; pennaceous facial disc/rictal bristles/primaries/secondaries; light-brown remiges with dark bars; tail 0 mm; hatch age unknown.
+- **Limits/conflict:** parasite effects may alter development; cannot establish normal feather timetable, exact age, sex, flight or first-flight threshold. High for the monitored individuals only.
+
+### CHSO-JORDAN-2012-ADULT — reused adult photo record
+- **Author/site/date:** Raphaël Jordan / Oiseaux.net; photographed Oct. 2012, San Tadeo, Pichincha, Ecuador.
+- **URL:** https://www.oiseaux.net/photos/raphael.jordan/petit-duc.du.choco.1.html?ctx=auteur_espece ; caption/EXIF re-read 2026-11-11; repository visual reading reused.
+- **Facts/use:** adult record supporting gray-brown cryptic direction, small lowered tufts, yellow eyes and pale greenish bill.
+- **Limits:** sex unknown; feet mostly hidden; not a tarsal or dimorphism source.
+
+**Run synthesis:** new indexed sources 2; reused/re-read sources 3; corrected design boundary 1. The user-uploaded Mikkola file was unavailable, so only the repository-pinned pp.242–243 record was reused. V5 remains concept calibration, `scientifically_verified=false`. Links: `research/species/119-megascops-centralis-v5.md`, target `design/concepts/119-megascops-centralis-v5.png`.

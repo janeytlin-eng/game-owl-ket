@@ -18,3 +18,11 @@ NewMSC-GIERSBERGEN-2019 Mantadia primaryadultphotoplumage; reusedMSC-VASSEN-2013
 Actual v3 and both v4 edit passes were opened. Adult compactness, warm/dark facial discs, small short tufts, shortened feet and eastern humid-forest rufous/dark-brown direction were corrected from ITIS/current-name mapping, the 2000 east/west diagnostic study and opened Cornell/Macaulay adult photographs. The centre young follows Frank Vassen’s 2013 Andasibe photograph: loose brown down, dark mask, pale crown/brow, yellow-brown iris/pink lower eyelid, dark bill, hidden tail and branch support. Two edits; final full image plus juvenile and adults/support crops passed with limitations. Exact age, feather/iris chronology, flight threshold, adult sex-size ratio and nest facts remain unknown; science false.
 
 [Original v4](../../design/concepts/108-otus-rutilus-v4.png) · [Research](../../research/species/108-otus-rutilus-v4.md) · [Review](../../research/reviews/108-otus-rutilus-v4-review.md)
+
+
+## v5 — 2026-11-11 science revision
+
+- Reopened Mikkola printed pp.143–144/PDF pp.145–146: 19–22 cm, 85–120 g, small ear tufts, yellow adult eyes, feathered tarsi, eastern humid-forest setting; the guide explicitly leaves juvenile undescribed.
+- Added Benson, Colebrook-Robjent & Williams (1976): two yellow-eyed males, one 107 g; western skins tend paler/greyer while humid-eastern specimens include the strongest rufous birds, with overlap and exceptions. This pre-split evidence constrains variation but does not prove a simple east/west colour rule.
+- Reused the direct 2013 Andasibe juvenile photograph for loose brown down, dark mask, pale brow/crown, yellow-brown iris/pink eyelid, dark bill, hidden tail and two-foot branch support. Exact age, sex, flight and independence remain unknown.
+- V5 uses near-equal same-morph adults and an age-unknown supported juvenile; no nest or flight claim. Review: PASS_WITH_LIMITATIONS; scientific verification false.

@@ -1032,3 +1032,8 @@ When a species guide says “juvenile not known” but a regional field photogra
 - **Applied:** keep adult crown heights near equal, express the measured direction as female body fullness and a subtly longer tail, and evaluate juvenile coverts separately from remige endpoint. One targeted edit shortened the age-unknown mesoptile's wing to a compact down-softened coverts patch.
 - **Validated:** the edited full plate and three role crops passed for #102 v5. This validates the mass-to-fullness and juvenile-wing-endpoint checks for this asset only; it does not create a universal female-larger or developmental rule.
 - Evidence: `owl-pet/research/reviews/102-strix-nigrolineata-v5-review.md`.
+
+
+### Irregular juvenile down is a crop-level check (validated once on #108 v5, 2026-11-11)
+
+When a direct juvenile photograph shows loose clumps and gaps, prohibit fleece-like curls and open a dedicated juvenile crop after generation. Also prohibit tiled adult covert repetition when real specimens show individually varied markings. Applied to #108 *Otus rutilus* v5: the first generated plate materially reduced the v4 repetition and passed crop review without edit. This is one-asset validation, not a universal species rule; retain stage and source limits.

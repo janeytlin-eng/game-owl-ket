@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T16:27:40+08:00",
+  "updated": "2026-11-11T17:47:38+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -31088,7 +31088,99 @@
       "exact_binary_paths_verified": 9,
       "unique_binary_streams_read_back": 4,
       "verified_at": "2026-11-11T16:27:40+08:00"
+    },
+    {
+      "id": "108-otus-rutilus-v5",
+      "path": "design/concepts/108-otus-rutilus-v5.png",
+      "species_id": 108,
+      "scientific_name": "Otus rutilus",
+      "historical_names": [
+        "Scops rutilus",
+        "Otus rutilus rutilus"
+      ],
+      "common_name": "Madagascar Scops Owl",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "prior_versions_retained": true,
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "imagegen_invocations": 1,
+      "status": "V5 preserves v1-v4 and replaces residual fleece-like juvenile down and orderly adult wing repetition with irregular evidence-bounded textures. Adults remain near-equal and same morph; the juvenile is age-unknown, fully supported, lacks a visible long tail or mature wing. Exact age, sex, flight, independence, nest provenance and robust sex-specific plumage remain unknown.",
+      "source_ids": [
+        "RUT-MIKKOLA-2013-P143-144",
+        "RUT-BENSON-COLEBROOK-WILLIAMS-1976",
+        "RUT-RASMUSSEN-ETAL-2000",
+        "RUT-VASSEN-2013-ANDASIBE-JUV",
+        "RUT-ITIS-202268-2026",
+        "RUT-CORNELL-ADULT-PHOTOS-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/108-otus-rutilus-v5.md",
+      "review_record": "research/reviews/108-otus-rutilus-v5-review.md",
+      "run_record": "production/runs/20261111173321+0800-cycle-4.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 3061334,
+      "sha256": "52a3b280bb83db7f1071309bbbe62033fbf7bf8be6765d9e570aafe0dcb7f143",
+      "git_blob": "9aea1cce7e0902b8ced80541c865b7f84440d100",
+      "initial_original_path": "production/generated/108-otus-rutilus-v5-initial-original.png",
+      "initial_original_blob": "9aea1cce7e0902b8ced80541c865b7f84440d100",
+      "initial_original_size_bytes": 3061334,
+      "initial_original_sha256": "52a3b280bb83db7f1071309bbbe62033fbf7bf8be6765d9e570aafe0dcb7f143",
+      "final_original_path": "production/generated/108-otus-rutilus-v5-final-original.png",
+      "final_original_blob": "9aea1cce7e0902b8ced80541c865b7f84440d100",
+      "final_original_size_bytes": 3061334,
+      "final_original_sha256": "52a3b280bb83db7f1071309bbbe62033fbf7bf8be6765d9e570aafe0dcb7f143",
+      "full_color_source_path": "production/generated/108-otus-rutilus-v5-full-color.png",
+      "full_color_source_blob": "9aea1cce7e0902b8ced80541c865b7f84440d100",
+      "full_color_source_size_bytes": 3061334,
+      "full_color_source_sha256": "52a3b280bb83db7f1071309bbbe62033fbf7bf8be6765d9e570aafe0dcb7f143",
+      "generated_path": "production/generated/108-otus-rutilus-v5-generated-master.png",
+      "generated_blob": "9aea1cce7e0902b8ced80541c865b7f84440d100",
+      "generated_size_bytes": 3061334,
+      "reviewed_path": "production/reviewed/108-otus-rutilus-v5-reviewed-master.png",
+      "reviewed_blob": "9aea1cce7e0902b8ced80541c865b7f84440d100",
+      "reviewed_size_bytes": 3061334,
+      "review_crops": [
+        {
+          "role": "male",
+          "path": "production/review-crops/108-otus-rutilus-v5-adult-male.jpg",
+          "blob": "46a280d3f00815d3ce0de229da32fa196490f970",
+          "size_bytes": 192449
+        },
+        {
+          "role": "juvenile",
+          "path": "production/review-crops/108-otus-rutilus-v5-juvenile.jpg",
+          "blob": "67dbec3ef11c82e733548f686456f98639342492",
+          "size_bytes": 177224
+        },
+        {
+          "role": "female",
+          "path": "production/review-crops/108-otus-rutilus-v5-adult-female.jpg",
+          "blob": "81ebbc869badb2e5c75e474ca9a52af99411c68e",
+          "size_bytes": 188366
+        },
+        {
+          "role": "support",
+          "path": "production/review-crops/108-otus-rutilus-v5-support.jpg",
+          "blob": "8d445c5f9f11964237c653122d5f3aa53cf0e52b",
+          "size_bytes": 253968
+        }
+      ],
+      "archive_note": "V5 full plate and four independent role/support crops opened. No edit required. Research adds a reopened Mikkola account and a primary 1976 adult specimen source; juvenile remains direct-photo bounded. Scientific verification remains false.",
+      "readback_pending": true,
+      "archive_commit_pending": true,
+      "archived_at": "2026-11-11T17:47:38+08:00"
     }
   ],
-  "updated_at": "2026-11-11T16:00:14+08:00"
+  "updated_at": "2026-11-11T17:47:38+08:00"
 }

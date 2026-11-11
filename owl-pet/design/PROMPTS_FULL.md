@@ -780,3 +780,25 @@ Adults: rounded untufted heads, sooty black-brown upperparts, restrained pale fa
 Edit only the center juvenile: replace long layered adult-like remiges with a much shorter compact rounded down-softened immature wing ending high on the body, retaining only a small dark coverts patch and a few short pale bars. Preserve both adults, exact text, exact count, support, lighting and environment. Keep tail short/concealed and both juvenile feet supported. No other change.
 ```
 
+
+
+## #136 — Cinnamon Screech-Owl / *Megascops petersoni* — v5
+
+```text
+Scientific-educational natural-history concept plate in the repository's established tactile naturalistic 3D-maquette / painterly field-guide style, landscape 1536×1024, warm parchment border, humid mossy eastern-Andean cloud-forest setting with epiphytes and a stable mossy branch. Exactly THREE Cinnamon Screech-Owls (Megascops petersoni), full bodies visible and all feet naturally supported. Clear non-clone silhouettes and subtle pose asymmetry, but adults remain near-equal crown height because reported sexual dimorphism is slight if present at all.
+
+Left — ADULT MALE: small compact screech-owl, alert three-quarter pose, medium ear tufts, rich warm cinnamon-buffy ground colour, dark-brown irides, pale grey-green bill, pale pinkish-flesh toes, tarsi feathered almost to the toe bases. Virtually no white anywhere. Fine sparse dark shaft streaks, a few thin irregular wavy bars and restrained mottling; warm pale-buff nasal/interorbital tufts, only a narrow dark facial-disc edge.
+
+Center — FIRST-YEAR: documented conservative late first-year boundary, nearly in adult plumage rather than a hatchling. Compact low two-foot crouch/side-step on a broad mossy support. Same cinnamon-buff identity, with numerous paler, more heavily barred residual downy body feathers; a formed but visibly softer, slightly shorter and less-regular folded wing and short tail partly obscured by that down. No spread wing, no flight pose, no unsupported feet, no claim of exact age or locomotor threshold.
+
+Right — ADULT FEMALE: near-equal height to male, subtly fuller body only, calm different head angle, same species colours and anatomy, with individually varied but restrained cinnamon mottling rather than a mirrored clone.
+
+Environment is humid, mossy eastern-Andean cloud forest only; do not depict or imply an active nest, egg, chick or specific nest cavity. Natural anatomy, coherent toes and talons.
+
+Exact visible text only:
+top title “#136 · CINNAMON SCREECH-OWL”
+italic scientific line “Megascops petersoni”
+role labels in order “ADULT MALE” · “FIRST-YEAR” · “ADULT FEMALE”
+
+Avoid: bright white eyebrows, white scapular spots, white belly, yellow/orange eyes, black bill, exaggerated facial rim, long pointed black ear tufts, a dramatic female-larger ratio, adult clones, mature layered remiges on first-year, airborne pose, extra birds, eggs, prey, watermark, extra text.
+```

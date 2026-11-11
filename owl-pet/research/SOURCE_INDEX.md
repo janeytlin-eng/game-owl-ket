@@ -4695,3 +4695,20 @@ Reused/re-read without duplicate IDs for #130 v5: `KOEP-ITIS-686665-2026`, repos
 - **WSC-ITIS-555386-2026:** current/old-name mapping reused.
 - **WSC-MARSHALL-1978 / SLSO-SANGSTER-2013:** adult plumage and toe-base feathering reused.
 - **Index change:** new1 / reused5 / corrected4 (title hierarchy, role placement, adult pose/scale, immature action/feather boundary). Science remains false.
+
+
+## 2026-11-12 — #136 *Megascops petersoni* v5 — first-year molt, sex-scale and no-white boundary
+
+### CIN-ITIS-686670-2026 — newly indexed nomenclatural crosswalk
+- **Title / institution / accessed:** “ITIS Report — *Megascops petersoni*” / Integrated Taxonomic Information System / 2026-11-12.
+- **URL / identifier:** https://itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=686670 ; TSN 686670.
+- **Source type / scope:** authoritative taxonomy database; current scientific/common name and synonym/original-combination mapping.
+- **Evidence:** current valid *Megascops petersoni* (Fitzpatrick & O'Neill, 1986); *Otus petersoni* Fitzpatrick & O'Neill, 1986 listed as synonym; Cinnamon Screech Owl.
+- **Limits/design use:** taxonomy only; no morphology, sex-size, development or behaviour inference.
+
+### Reused/re-read stable evidence
+- **CIN-FITZPATRICK-ONEILL-1986:** primary description re-read at printed pp.3–6. Supports warm cinnamon-buff identity, dark-brown eyes, pale grey-green bill, nearly toe-base tarsal feathering, virtually no white, sparse streak/bar pattern and slight-if-any sexual dimorphism. One first-year male retained paler, more heavily barred downy body feathers while nearly adult-plumaged; exact age, wing chronology and locomotor ability are not reported.
+- **CIN-BHL-242281-2026:** BHL article record and pagination/provenance reused; not a separate developmental source.
+- **CIN-ALARCON-SHANEE-2022:** primary nesting note re-read at printed pp.6–8. Supports a humid mossy epiphyte-rich montane-forest setting and natural cavity nesting, but provides no chick/juvenile sequence; v5 makes no active-nest claim.
+- **Access note:** uploaded Heimo Mikkola guide was not mounted in this execution; no fresh page claim added.
+- **Index change:** new 1; reused/re-read 3; corrected inference boundaries 4 (adult sex scale, first-year feather/action boundary, no-white/bare-part identity, nest-setting wording). Detailed record and full prompt: `research/species/136-megascops-petersoni-v5.md`. Scientific status remains false.

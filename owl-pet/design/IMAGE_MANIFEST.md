@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T05:50:00+08:00",
+  "updated": "2026-11-12T05:54:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -31102,8 +31102,10 @@
       "exact_binary_paths_verified": 9,
       "unique_binary_streams_read_back": 4,
       "verified_at": "2026-11-12T05:50:00+08:00",
-      "verification_result": "PASS_WITH_LIMITATIONS"
+      "verification_result": "PASS_WITH_LIMITATIONS",
+      "verification_commit": "4dd04f91dda6ac31698ccc98022f6b41355e55b7",
+      "ledger_credited_at": "2026-11-12T05:54:00+08:00"
     }
   ],
-  "updated_at": "2026-11-12T05:50:00+08:00"
+  "updated_at": "2026-11-12T05:54:00+08:00"
 }

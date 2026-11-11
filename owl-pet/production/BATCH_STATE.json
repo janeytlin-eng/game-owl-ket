@@ -41442,33 +41442,34 @@
           "review_result": "PASS_WITH_LIMITATIONS",
           "scientifically_verified": false,
           "completed_at": "2026-11-12T04:58:00+08:00"
+        },
+        {
+          "cycle": 2,
+          "species": "Strix davidi",
+          "species_id": 132,
+          "version": 5,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "commit_sha": "4dd04f91dda6ac31698ccc98022f6b41355e55b7",
+          "archive_commit": "efcaf17b9a78e053fa54df79c28258013ffd83ba",
+          "run_record": "owl-pet/production/runs/20261112T050000+0800-cycle-2.md",
+          "concept_path": "owl-pet/design/concepts/132-strix-davidi-v5.png",
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "completed_at": "2026-11-12T05:54:00+08:00"
         }
       ],
-      "next_cycle": 2,
-      "active_cycle": 2,
+      "next_cycle": 3,
+      "active_cycle": null,
       "started_at": "2026-11-12T04:31:00+08:00",
-      "updated_at": "2026-11-12T05:50:00+08:00",
-      "current_stage": "VERIFIED",
-      "ledger_credit_pending": true,
-      "lease": {
-        "owner": "codex-owl-production",
-        "run_id": "20261112T050000+0800-cycle-2",
-        "batch_id": "20261112T043100+0800",
-        "cycle": 2,
-        "species_id": 132,
-        "heartbeat_at": "2026-11-12T05:50:00+08:00",
-        "expires_at": "2026-11-12T06:05:00+08:00"
-      },
-      "active": {
-        "run_id": "20261112T050000+0800-cycle-2",
-        "cycle": 2,
-        "species_id": 132,
-        "species": "Strix davidi",
-        "stage": "VERIFIED",
-        "run_record": "owl-pet/production/runs/20261112T050000+0800-cycle-2.md"
-      },
-      "stage": "VERIFIED",
-      "completed_count": 1,
+      "updated_at": "2026-11-12T05:54:00+08:00",
+      "current_stage": "LEDGER_CREDITED",
+      "ledger_credit_pending": false,
+      "lease": null,
+      "active": null,
+      "stage": "LEDGER_CREDITED",
+      "completed_count": 2,
       "stage_events": [
         {
           "batch_id": "20261112T043100+0800",
@@ -41898,26 +41899,38 @@
             "ledger_credit_pending": true,
             "lease_expires_at": "2026-11-12T06:05:00+08:00"
           }
+        },
+        {
+          "batch_id": "20261112T043100+0800",
+          "cycle": 2,
+          "stage": "LEDGER_CREDITED",
+          "at": "2026-11-12T05:54:00+08:00",
+          "run_id": "20261112T050000+0800-cycle-2",
+          "species_id": 132,
+          "species": "Strix davidi",
+          "credited": true,
+          "evidence": {
+            "verification_commit": "4dd04f91dda6ac31698ccc98022f6b41355e55b7",
+            "verification_tree": "4617dafbb92c0cdfe9af6a7912b5fbcad686ea4f",
+            "archive_commit": "efcaf17b9a78e053fa54df79c28258013ffd83ba",
+            "archive_tree": "0e186df599344452b7e50d737cc47186d402829c",
+            "run_record": "owl-pet/production/runs/20261112T050000+0800-cycle-2.md",
+            "concept_path": "owl-pet/design/concepts/132-strix-davidi-v5.png",
+            "batch_progress": "2/6",
+            "next_cycle": 3,
+            "unique_species_increment": 0,
+            "revision_increment": 1,
+            "unique_species_count": 176,
+            "total_species": 251,
+            "review_result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false
+          }
         }
       ],
-      "in_progress": {
-        "cycle": 2,
-        "species_id": 132,
-        "species": "Strix davidi",
-        "stage": "VERIFIED",
-        "run_record": "owl-pet/production/runs/20261112T050000+0800-cycle-2.md"
-      }
+      "in_progress": null
     }
   ],
-  "lease": {
-    "owner": "codex-owl-production",
-    "run_id": "20261112T050000+0800-cycle-2",
-    "batch_id": "20261112T043100+0800",
-    "cycle": 2,
-    "species_id": 132,
-    "heartbeat_at": "2026-11-12T05:31:00+08:00",
-    "expires_at": "2026-11-12T05:46:00+08:00"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -42051,7 +42064,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-12T05:31:00+08:00",
+  "updated_at": "2026-11-12T05:54:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -42060,16 +42073,8 @@
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6.",
     "2026-10-30T18:12:00+08:00 ledger normalization: historical batch 2026-10-16T0430+0800 already COMPLETE with six preserved completed_cycles; stale next_cycle 7 changed to null. No cycle count or evidence changed."
   ],
-  "active_lease": {
-    "owner": "codex-owl-production",
-    "run_id": "20261112T050000+0800-cycle-2",
-    "batch_id": "20261112T043100+0800",
-    "cycle": 2,
-    "species_id": 132,
-    "heartbeat_at": "2026-11-12T05:31:00+08:00",
-    "expires_at": "2026-11-12T05:46:00+08:00"
-  },
-  "last_updated_at": "2026-11-12T05:31:00+08:00",
+  "active_lease": null,
+  "last_updated_at": "2026-11-12T05:54:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -42866,27 +42871,22 @@
       "credited": false
     }
   ],
-  "in_progress": {
-    "cycle": 2,
-    "species_id": 132,
-    "species": "Strix davidi",
-    "stage": "RESEARCH_READY",
-    "run_record": "owl-pet/production/runs/20261112T050000+0800-cycle-2.md"
-  },
+  "in_progress": null,
   "previous_checkpoint": {
-    "batch_id": "20261107T140000+0800",
-    "cycle": 3,
-    "stage": "LEDGER_CREDITED",
-    "at": "2026-11-07T15:46:00+08:00",
-    "run_record": "owl-pet/production/runs/20261107T151400+0800-cycle-3.md"
-  },
-  "last_checkpoint": {
     "batch_id": "20261111T233600+0800",
     "cycle": 2,
     "stage": "LEDGER_CREDITED",
     "verification_commit": "2db4212d11dfb9bbc51c258bb202d7a1c6458347",
     "archive_commit": "431b2838ac69f93d8f10791eb332c23c34ac220f",
     "at": "2026-11-12T00:50:00+08:00"
+  },
+  "last_checkpoint": {
+    "batch_id": "20261112T043100+0800",
+    "cycle": 2,
+    "stage": "LEDGER_CREDITED",
+    "verification_commit": "4dd04f91dda6ac31698ccc98022f6b41355e55b7",
+    "archive_commit": "efcaf17b9a78e053fa54df79c28258013ffd83ba",
+    "at": "2026-11-12T05:54:00+08:00"
   },
   "history": [
     {
@@ -44178,7 +44178,7 @@
       "lease_expires_at": "2026-11-07T21:08:00+08:00"
     }
   ],
-  "last_updated": "2026-11-12T05:31:00+08:00",
+  "last_updated": "2026-11-12T05:54:00+08:00",
   "audit_log": [
     {
       "at": "2026-10-31T18:36:48+08:00",
@@ -48823,12 +48823,246 @@
         "total_species": 251,
         "scientifically_verified": false
       }
+    },
+    {
+      "batch_id": "20261112T043100+0800",
+      "cycle": 2,
+      "stage": "STARTED",
+      "at": "2026-11-12T05:00:00+08:00",
+      "run_id": "20261112T050000+0800-cycle-2",
+      "species_id": 132,
+      "species": "Strix davidi",
+      "credited": false,
+      "evidence": {
+        "run_record": "owl-pet/production/runs/20261112T050000+0800-cycle-2.md",
+        "baseline_main": "d0e54e3059bd6fd97213ae49b16dd6bb8157581d",
+        "selection_note": "#131 v5 credited cycle1. #132 currently ends at v4; preserve v1-v4 and re-check current-name crosswalk, four-week nest-box young, adult face and sex-size evidence.",
+        "prior_version": "owl-pet/design/concepts/132-strix-davidi-v4.png",
+        "prior_visual_inspected": true,
+        "lease_expires_at": "2026-11-12T05:15:00+08:00",
+        "scientifically_verified": false
+      }
+    },
+    {
+      "batch_id": "20261112T043100+0800",
+      "cycle": 2,
+      "stage": "STARTED",
+      "at": "2026-11-12T05:28:00+08:00",
+      "run_id": "20261112T050000+0800-cycle-2",
+      "species_id": 132,
+      "species": "Strix davidi",
+      "credited": false,
+      "evidence": {
+        "run_record": "owl-pet/production/runs/20261112T050000+0800-cycle-2.md",
+        "baseline_main": "72b9d7b7bb2cbfb744febd6d120042f889e6ff57",
+        "resumed_after_expired_lease": true,
+        "previous_lease_expired_at": "2026-11-12T05:15:00+08:00",
+        "lease_expires_at": "2026-11-12T05:43:00+08:00",
+        "scientifically_verified": false
+      }
+    },
+    {
+      "batch_id": "20261112T043100+0800",
+      "cycle": 2,
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-12T05:31:00+08:00",
+      "run_id": "20261112T050000+0800-cycle-2",
+      "species_id": 132,
+      "species": "Strix davidi",
+      "credited": false,
+      "evidence": {
+        "run_record": "owl-pet/production/runs/20261112T050000+0800-cycle-2.md",
+        "research_file": "owl-pet/research/species/132-strix-davidi-v5.md",
+        "source_index": "owl-pet/research/SOURCE_INDEX.md",
+        "new_source_ids": [
+          "DAV-CLEMENTS-2022-LUMP-2026"
+        ],
+        "reused_source_ids": [
+          "DAV-SCHERZINGER-2014",
+          "DAV-ITIS-686975-2026",
+          "DAV-SCHERZINGER-FANG-2006",
+          "DAV-FANG-ETAL-2009",
+          "DAV-MIK2013-348"
+        ],
+        "prompt_saved": true,
+        "research_started_at": "2026-11-12T05:28:00+08:00",
+        "research_completed_at": "2026-11-12T05:31:00+08:00",
+        "lease_expires_at": "2026-11-12T05:46:00+08:00",
+        "scientifically_verified": false
+      }
+    },
+    {
+      "batch_id": "20261112T043100+0800",
+      "cycle": 2,
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-12T05:36:00+08:00",
+      "run_id": "20261112T050000+0800-cycle-2",
+      "species_id": 132,
+      "species": "Strix davidi",
+      "credited": false,
+      "evidence": {
+        "initial_original": "owl-pet/production/generated/132-strix-davidi-v5-initial-original.png",
+        "generated_master": "owl-pet/production/generated/132-strix-davidi-v5-generated-master.png",
+        "initial_blob": "f46b4833f5669983079a03f6aa710b440bee70ce",
+        "initial_bytes": 3015175,
+        "initial_sha256": "5b42c59c2636b438a0b76ba8180aaf0b046efa305c87353fa60c78ecdb000ac0",
+        "geometry": "1536x1024",
+        "generation_seconds": 47.4,
+        "imagegen_invocations": 1,
+        "edit_required": false,
+        "edit_count": 0,
+        "inspection_summary": "Full plate opened: exact title/scientific name/three role labels and exactly three owls; adults near-equal but non-mirrored; all feet have natural support; adult faces are radially patterned without bold concentric target rings; approximately-four-week young is down-rich with compact hidden wing/tail and two-foot sill support. Three role crops prepared for review.",
+        "complete_prompt": "owl-pet/research/species/132-strix-davidi-v5.md",
+        "lease_expires_at": "2026-11-12T05:51:00+08:00",
+        "scientifically_verified": false
+      }
+    },
+    {
+      "batch_id": "20261112T043100+0800",
+      "cycle": 2,
+      "stage": "REVIEWED",
+      "at": "2026-11-12T05:40:00+08:00",
+      "run_id": "20261112T050000+0800-cycle-2",
+      "species_id": 132,
+      "species": "Strix davidi",
+      "credited": false,
+      "evidence": {
+        "final_original": "owl-pet/production/generated/132-strix-davidi-v5-final-original.png",
+        "final_blob": "f46b4833f5669983079a03f6aa710b440bee70ce",
+        "final_bytes": 3015175,
+        "final_sha256": "5b42c59c2636b438a0b76ba8180aaf0b046efa305c87353fa60c78ecdb000ac0",
+        "geometry": "1536x1024",
+        "edit_count": 0,
+        "imagegen_invocations": 1,
+        "reviewed_path": "owl-pet/production/reviewed/132-strix-davidi-v5-reviewed-master.png",
+        "reviewed_blob": "f46b4833f5669983079a03f6aa710b440bee70ce",
+        "review_record": "owl-pet/research/reviews/132-strix-davidi-v5-review.md",
+        "review_crops": [
+          "owl-pet/production/review-crops/132-strix-davidi-v5-adult-male.png",
+          "owl-pet/production/review-crops/132-strix-davidi-v5-four-week-young.png",
+          "owl-pet/production/review-crops/132-strix-davidi-v5-adult-female.png"
+        ],
+        "crop_blobs": [
+          "4422cbb39a2e5fe3035b7b0210122c4ea59c99fa",
+          "f18371746a5b38a8515f6539d52649a098ff75b2",
+          "1164feac52231ccb1bb130970497f19ab3e72993"
+        ],
+        "checks": {
+          "identity": "PASS_WITH_LIMITATIONS",
+          "sex_direction": "PASS_WITH_LIMITATIONS",
+          "young_stage": "PASS_WITH_LIMITATIONS",
+          "young_action": "PASS",
+          "wing_development": "PASS",
+          "support": "PASS",
+          "text_count_order": "PASS",
+          "habitat": "PASS_WITH_LIMITATION"
+        },
+        "review_result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false,
+        "unknowns": [
+          "exact individual sex confirmation",
+          "population-level quantitative sex-size direction",
+          "full development timetable outside the photographed approximately-four-week stage",
+          "natural nest-site substrate and frequency",
+          "current taxonomic rank treatment"
+        ],
+        "iteration_lesson": "When primary evidence gives a photographed age but taxonomic rank and sex-size direction remain disputed, anchor the young to the evidenced age and keep adults near-equal; do not convert either uncertainty into a visual claim.",
+        "lease_expires_at": "2026-11-12T05:55:00+08:00"
+      }
+    },
+    {
+      "batch_id": "20261112T043100+0800",
+      "cycle": 2,
+      "stage": "ARCHIVED",
+      "at": "2026-11-12T05:44:00+08:00",
+      "run_id": "20261112T050000+0800-cycle-2",
+      "species_id": 132,
+      "species": "Strix davidi",
+      "credited": false,
+      "evidence": {
+        "archive_commit_pending": true,
+        "concept_path": "owl-pet/design/concepts/132-strix-davidi-v5.png",
+        "concept_blob": "f46b4833f5669983079a03f6aa710b440bee70ce",
+        "concept_bytes": 3015175,
+        "manifest_counts": {
+          "design_image": 812,
+          "design_concept": 824,
+          "production_image": 802
+        },
+        "prompt_archive": "owl-pet/production/PROMPTS_FULL.md",
+        "review_record": "owl-pet/research/reviews/132-strix-davidi-v5-review.md",
+        "research_record": "owl-pet/research/species/132-strix-davidi-v5.md",
+        "source_index": "owl-pet/research/SOURCE_INDEX.md",
+        "review_result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false,
+        "lease_expires_at": "2026-11-12T05:59:00+08:00"
+      }
+    },
+    {
+      "batch_id": "20261112T043100+0800",
+      "cycle": 2,
+      "stage": "VERIFIED",
+      "at": "2026-11-12T05:50:00+08:00",
+      "run_id": "20261112T050000+0800-cycle-2",
+      "species_id": 132,
+      "species": "Strix davidi",
+      "credited": false,
+      "evidence": {
+        "archive_commit": "efcaf17b9a78e053fa54df79c28258013ffd83ba",
+        "archive_tree": "0e186df599344452b7e50d737cc47186d402829c",
+        "required_paths_verified": 17,
+        "exact_binary_paths_verified": 9,
+        "unique_binary_streams_read_back": 4,
+        "concept_blob": "f46b4833f5669983079a03f6aa710b440bee70ce",
+        "concept_download_url": "https://raw.githubusercontent.com/janeytlin-eng/game-owl-ket/efcaf17b9a78e053fa54df79c28258013ffd83ba/owl-pet/design/concepts/132-strix-davidi-v5.png",
+        "crop_blobs": [
+          "4422cbb39a2e5fe3035b7b0210122c4ea59c99fa",
+          "f18371746a5b38a8515f6539d52649a098ff75b2",
+          "1164feac52231ccb1bb130970497f19ab3e72993"
+        ],
+        "manifest_counts": {
+          "design_image": 812,
+          "design_concept": 824,
+          "production_image": 802
+        },
+        "prompt_archive_verified": true,
+        "verification_result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false,
+        "ledger_credit_pending": true,
+        "lease_expires_at": "2026-11-12T06:05:00+08:00"
+      }
+    },
+    {
+      "batch_id": "20261112T043100+0800",
+      "cycle": 2,
+      "stage": "LEDGER_CREDITED",
+      "at": "2026-11-12T05:54:00+08:00",
+      "run_id": "20261112T050000+0800-cycle-2",
+      "species_id": 132,
+      "species": "Strix davidi",
+      "credited": true,
+      "evidence": {
+        "verification_commit": "4dd04f91dda6ac31698ccc98022f6b41355e55b7",
+        "verification_tree": "4617dafbb92c0cdfe9af6a7912b5fbcad686ea4f",
+        "archive_commit": "efcaf17b9a78e053fa54df79c28258013ffd83ba",
+        "archive_tree": "0e186df599344452b7e50d737cc47186d402829c",
+        "run_record": "owl-pet/production/runs/20261112T050000+0800-cycle-2.md",
+        "concept_path": "owl-pet/design/concepts/132-strix-davidi-v5.png",
+        "batch_progress": "2/6",
+        "next_cycle": 3,
+        "unique_species_increment": 0,
+        "revision_increment": 1,
+        "unique_species_count": 176,
+        "total_species": 251,
+        "review_result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false
+      }
     }
   ],
   "active_batch_id": "20261112T043100+0800",
-  "active_cycle": 2,
-  "current_stage": "RESEARCH_READY",
-  "next_cycle": 2,
+  "active_cycle": null,
+  "current_stage": "LEDGER_CREDITED",
+  "next_cycle": 3,
   "unique_species_count": 176,
   "total_species": 251,
   "stage_events": [
@@ -53904,6 +54138,192 @@
         "lease_expires_at": "2026-11-12T05:46:00+08:00",
         "scientifically_verified": false
       }
+    },
+    {
+      "batch_id": "20261112T043100+0800",
+      "cycle": 2,
+      "stage": "STARTED",
+      "at": "2026-11-12T05:00:00+08:00",
+      "run_id": "20261112T050000+0800-cycle-2",
+      "species_id": 132,
+      "species": "Strix davidi",
+      "credited": false,
+      "evidence": {
+        "run_record": "owl-pet/production/runs/20261112T050000+0800-cycle-2.md",
+        "baseline_main": "d0e54e3059bd6fd97213ae49b16dd6bb8157581d",
+        "selection_note": "#131 v5 credited cycle1. #132 currently ends at v4; preserve v1-v4 and re-check current-name crosswalk, four-week nest-box young, adult face and sex-size evidence.",
+        "prior_version": "owl-pet/design/concepts/132-strix-davidi-v4.png",
+        "prior_visual_inspected": true,
+        "lease_expires_at": "2026-11-12T05:15:00+08:00",
+        "scientifically_verified": false
+      }
+    },
+    {
+      "batch_id": "20261112T043100+0800",
+      "cycle": 2,
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-12T05:36:00+08:00",
+      "run_id": "20261112T050000+0800-cycle-2",
+      "species_id": 132,
+      "species": "Strix davidi",
+      "credited": false,
+      "evidence": {
+        "initial_original": "owl-pet/production/generated/132-strix-davidi-v5-initial-original.png",
+        "generated_master": "owl-pet/production/generated/132-strix-davidi-v5-generated-master.png",
+        "initial_blob": "f46b4833f5669983079a03f6aa710b440bee70ce",
+        "initial_bytes": 3015175,
+        "initial_sha256": "5b42c59c2636b438a0b76ba8180aaf0b046efa305c87353fa60c78ecdb000ac0",
+        "geometry": "1536x1024",
+        "generation_seconds": 47.4,
+        "imagegen_invocations": 1,
+        "edit_required": false,
+        "edit_count": 0,
+        "inspection_summary": "Full plate opened: exact title/scientific name/three role labels and exactly three owls; adults near-equal but non-mirrored; all feet have natural support; adult faces are radially patterned without bold concentric target rings; approximately-four-week young is down-rich with compact hidden wing/tail and two-foot sill support. Three role crops prepared for review.",
+        "complete_prompt": "owl-pet/research/species/132-strix-davidi-v5.md",
+        "lease_expires_at": "2026-11-12T05:51:00+08:00",
+        "scientifically_verified": false
+      }
+    },
+    {
+      "batch_id": "20261112T043100+0800",
+      "cycle": 2,
+      "stage": "REVIEWED",
+      "at": "2026-11-12T05:40:00+08:00",
+      "run_id": "20261112T050000+0800-cycle-2",
+      "species_id": 132,
+      "species": "Strix davidi",
+      "credited": false,
+      "evidence": {
+        "final_original": "owl-pet/production/generated/132-strix-davidi-v5-final-original.png",
+        "final_blob": "f46b4833f5669983079a03f6aa710b440bee70ce",
+        "final_bytes": 3015175,
+        "final_sha256": "5b42c59c2636b438a0b76ba8180aaf0b046efa305c87353fa60c78ecdb000ac0",
+        "geometry": "1536x1024",
+        "edit_count": 0,
+        "imagegen_invocations": 1,
+        "reviewed_path": "owl-pet/production/reviewed/132-strix-davidi-v5-reviewed-master.png",
+        "reviewed_blob": "f46b4833f5669983079a03f6aa710b440bee70ce",
+        "review_record": "owl-pet/research/reviews/132-strix-davidi-v5-review.md",
+        "review_crops": [
+          "owl-pet/production/review-crops/132-strix-davidi-v5-adult-male.png",
+          "owl-pet/production/review-crops/132-strix-davidi-v5-four-week-young.png",
+          "owl-pet/production/review-crops/132-strix-davidi-v5-adult-female.png"
+        ],
+        "crop_blobs": [
+          "4422cbb39a2e5fe3035b7b0210122c4ea59c99fa",
+          "f18371746a5b38a8515f6539d52649a098ff75b2",
+          "1164feac52231ccb1bb130970497f19ab3e72993"
+        ],
+        "checks": {
+          "identity": "PASS_WITH_LIMITATIONS",
+          "sex_direction": "PASS_WITH_LIMITATIONS",
+          "young_stage": "PASS_WITH_LIMITATIONS",
+          "young_action": "PASS",
+          "wing_development": "PASS",
+          "support": "PASS",
+          "text_count_order": "PASS",
+          "habitat": "PASS_WITH_LIMITATION"
+        },
+        "review_result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false,
+        "unknowns": [
+          "exact individual sex confirmation",
+          "population-level quantitative sex-size direction",
+          "full development timetable outside the photographed approximately-four-week stage",
+          "natural nest-site substrate and frequency",
+          "current taxonomic rank treatment"
+        ],
+        "iteration_lesson": "When primary evidence gives a photographed age but taxonomic rank and sex-size direction remain disputed, anchor the young to the evidenced age and keep adults near-equal; do not convert either uncertainty into a visual claim.",
+        "lease_expires_at": "2026-11-12T05:55:00+08:00"
+      }
+    },
+    {
+      "batch_id": "20261112T043100+0800",
+      "cycle": 2,
+      "stage": "ARCHIVED",
+      "at": "2026-11-12T05:44:00+08:00",
+      "run_id": "20261112T050000+0800-cycle-2",
+      "species_id": 132,
+      "species": "Strix davidi",
+      "credited": false,
+      "evidence": {
+        "archive_commit_pending": true,
+        "concept_path": "owl-pet/design/concepts/132-strix-davidi-v5.png",
+        "concept_blob": "f46b4833f5669983079a03f6aa710b440bee70ce",
+        "concept_bytes": 3015175,
+        "manifest_counts": {
+          "design_image": 812,
+          "design_concept": 824,
+          "production_image": 802
+        },
+        "prompt_archive": "owl-pet/production/PROMPTS_FULL.md",
+        "review_record": "owl-pet/research/reviews/132-strix-davidi-v5-review.md",
+        "research_record": "owl-pet/research/species/132-strix-davidi-v5.md",
+        "source_index": "owl-pet/research/SOURCE_INDEX.md",
+        "review_result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false,
+        "lease_expires_at": "2026-11-12T05:59:00+08:00"
+      }
+    },
+    {
+      "batch_id": "20261112T043100+0800",
+      "cycle": 2,
+      "stage": "VERIFIED",
+      "at": "2026-11-12T05:50:00+08:00",
+      "run_id": "20261112T050000+0800-cycle-2",
+      "species_id": 132,
+      "species": "Strix davidi",
+      "credited": false,
+      "evidence": {
+        "archive_commit": "efcaf17b9a78e053fa54df79c28258013ffd83ba",
+        "archive_tree": "0e186df599344452b7e50d737cc47186d402829c",
+        "required_paths_verified": 17,
+        "exact_binary_paths_verified": 9,
+        "unique_binary_streams_read_back": 4,
+        "concept_blob": "f46b4833f5669983079a03f6aa710b440bee70ce",
+        "concept_download_url": "https://raw.githubusercontent.com/janeytlin-eng/game-owl-ket/efcaf17b9a78e053fa54df79c28258013ffd83ba/owl-pet/design/concepts/132-strix-davidi-v5.png",
+        "crop_blobs": [
+          "4422cbb39a2e5fe3035b7b0210122c4ea59c99fa",
+          "f18371746a5b38a8515f6539d52649a098ff75b2",
+          "1164feac52231ccb1bb130970497f19ab3e72993"
+        ],
+        "manifest_counts": {
+          "design_image": 812,
+          "design_concept": 824,
+          "production_image": 802
+        },
+        "prompt_archive_verified": true,
+        "verification_result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false,
+        "ledger_credit_pending": true,
+        "lease_expires_at": "2026-11-12T06:05:00+08:00"
+      }
+    },
+    {
+      "batch_id": "20261112T043100+0800",
+      "cycle": 2,
+      "stage": "LEDGER_CREDITED",
+      "at": "2026-11-12T05:54:00+08:00",
+      "run_id": "20261112T050000+0800-cycle-2",
+      "species_id": 132,
+      "species": "Strix davidi",
+      "credited": true,
+      "evidence": {
+        "verification_commit": "4dd04f91dda6ac31698ccc98022f6b41355e55b7",
+        "verification_tree": "4617dafbb92c0cdfe9af6a7912b5fbcad686ea4f",
+        "archive_commit": "efcaf17b9a78e053fa54df79c28258013ffd83ba",
+        "archive_tree": "0e186df599344452b7e50d737cc47186d402829c",
+        "run_record": "owl-pet/production/runs/20261112T050000+0800-cycle-2.md",
+        "concept_path": "owl-pet/design/concepts/132-strix-davidi-v5.png",
+        "batch_progress": "2/6",
+        "next_cycle": 3,
+        "unique_species_increment": 0,
+        "revision_increment": 1,
+        "unique_species_count": 176,
+        "total_species": 251,
+        "review_result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false
+      }
     }
   ],
   "last_completed_batch_id": "20261111T193846+0800",
@@ -53927,33 +54347,34 @@
         "review_result": "PASS_WITH_LIMITATIONS",
         "scientifically_verified": false,
         "completed_at": "2026-11-12T04:58:00+08:00"
+      },
+      {
+        "cycle": 2,
+        "species": "Strix davidi",
+        "species_id": 132,
+        "version": 5,
+        "action": "SCIENCE_REVISION",
+        "unique_species_increment": 0,
+        "revision_increment": 1,
+        "commit_sha": "4dd04f91dda6ac31698ccc98022f6b41355e55b7",
+        "archive_commit": "efcaf17b9a78e053fa54df79c28258013ffd83ba",
+        "run_record": "owl-pet/production/runs/20261112T050000+0800-cycle-2.md",
+        "concept_path": "owl-pet/design/concepts/132-strix-davidi-v5.png",
+        "review_result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false,
+        "completed_at": "2026-11-12T05:54:00+08:00"
       }
     ],
-    "next_cycle": 2,
-    "active_cycle": 2,
+    "next_cycle": 3,
+    "active_cycle": null,
     "started_at": "2026-11-12T04:31:00+08:00",
-    "updated_at": "2026-11-12T05:31:00+08:00",
-    "current_stage": "RESEARCH_READY",
+    "updated_at": "2026-11-12T05:54:00+08:00",
+    "current_stage": "LEDGER_CREDITED",
     "ledger_credit_pending": false,
-    "lease": {
-      "owner": "codex-owl-production",
-      "run_id": "20261112T050000+0800-cycle-2",
-      "batch_id": "20261112T043100+0800",
-      "cycle": 2,
-      "species_id": 132,
-      "heartbeat_at": "2026-11-12T05:31:00+08:00",
-      "expires_at": "2026-11-12T05:46:00+08:00"
-    },
-    "active": {
-      "run_id": "20261112T050000+0800-cycle-2",
-      "cycle": 2,
-      "species_id": 132,
-      "species": "Strix davidi",
-      "stage": "RESEARCH_READY",
-      "run_record": "owl-pet/production/runs/20261112T050000+0800-cycle-2.md"
-    },
-    "stage": "RESEARCH_READY",
-    "completed_count": 1,
+    "lease": null,
+    "active": null,
+    "stage": "LEDGER_CREDITED",
+    "completed_count": 2,
     "stage_events": [
       {
         "batch_id": "20261112T043100+0800",
@@ -54242,15 +54663,176 @@
           "lease_expires_at": "2026-11-12T05:46:00+08:00",
           "scientifically_verified": false
         }
+      },
+      {
+        "batch_id": "20261112T043100+0800",
+        "cycle": 2,
+        "stage": "IMAGE_GENERATED",
+        "at": "2026-11-12T05:36:00+08:00",
+        "run_id": "20261112T050000+0800-cycle-2",
+        "species_id": 132,
+        "species": "Strix davidi",
+        "credited": false,
+        "evidence": {
+          "initial_original": "owl-pet/production/generated/132-strix-davidi-v5-initial-original.png",
+          "generated_master": "owl-pet/production/generated/132-strix-davidi-v5-generated-master.png",
+          "initial_blob": "f46b4833f5669983079a03f6aa710b440bee70ce",
+          "initial_bytes": 3015175,
+          "initial_sha256": "5b42c59c2636b438a0b76ba8180aaf0b046efa305c87353fa60c78ecdb000ac0",
+          "geometry": "1536x1024",
+          "generation_seconds": 47.4,
+          "imagegen_invocations": 1,
+          "edit_required": false,
+          "edit_count": 0,
+          "inspection_summary": "Full plate opened: exact title/scientific name/three role labels and exactly three owls; adults near-equal but non-mirrored; all feet have natural support; adult faces are radially patterned without bold concentric target rings; approximately-four-week young is down-rich with compact hidden wing/tail and two-foot sill support. Three role crops prepared for review.",
+          "complete_prompt": "owl-pet/research/species/132-strix-davidi-v5.md",
+          "lease_expires_at": "2026-11-12T05:51:00+08:00",
+          "scientifically_verified": false
+        }
+      },
+      {
+        "batch_id": "20261112T043100+0800",
+        "cycle": 2,
+        "stage": "REVIEWED",
+        "at": "2026-11-12T05:40:00+08:00",
+        "run_id": "20261112T050000+0800-cycle-2",
+        "species_id": 132,
+        "species": "Strix davidi",
+        "credited": false,
+        "evidence": {
+          "final_original": "owl-pet/production/generated/132-strix-davidi-v5-final-original.png",
+          "final_blob": "f46b4833f5669983079a03f6aa710b440bee70ce",
+          "final_bytes": 3015175,
+          "final_sha256": "5b42c59c2636b438a0b76ba8180aaf0b046efa305c87353fa60c78ecdb000ac0",
+          "geometry": "1536x1024",
+          "edit_count": 0,
+          "imagegen_invocations": 1,
+          "reviewed_path": "owl-pet/production/reviewed/132-strix-davidi-v5-reviewed-master.png",
+          "reviewed_blob": "f46b4833f5669983079a03f6aa710b440bee70ce",
+          "review_record": "owl-pet/research/reviews/132-strix-davidi-v5-review.md",
+          "review_crops": [
+            "owl-pet/production/review-crops/132-strix-davidi-v5-adult-male.png",
+            "owl-pet/production/review-crops/132-strix-davidi-v5-four-week-young.png",
+            "owl-pet/production/review-crops/132-strix-davidi-v5-adult-female.png"
+          ],
+          "crop_blobs": [
+            "4422cbb39a2e5fe3035b7b0210122c4ea59c99fa",
+            "f18371746a5b38a8515f6539d52649a098ff75b2",
+            "1164feac52231ccb1bb130970497f19ab3e72993"
+          ],
+          "checks": {
+            "identity": "PASS_WITH_LIMITATIONS",
+            "sex_direction": "PASS_WITH_LIMITATIONS",
+            "young_stage": "PASS_WITH_LIMITATIONS",
+            "young_action": "PASS",
+            "wing_development": "PASS",
+            "support": "PASS",
+            "text_count_order": "PASS",
+            "habitat": "PASS_WITH_LIMITATION"
+          },
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "unknowns": [
+            "exact individual sex confirmation",
+            "population-level quantitative sex-size direction",
+            "full development timetable outside the photographed approximately-four-week stage",
+            "natural nest-site substrate and frequency",
+            "current taxonomic rank treatment"
+          ],
+          "iteration_lesson": "When primary evidence gives a photographed age but taxonomic rank and sex-size direction remain disputed, anchor the young to the evidenced age and keep adults near-equal; do not convert either uncertainty into a visual claim.",
+          "lease_expires_at": "2026-11-12T05:55:00+08:00"
+        }
+      },
+      {
+        "batch_id": "20261112T043100+0800",
+        "cycle": 2,
+        "stage": "ARCHIVED",
+        "at": "2026-11-12T05:44:00+08:00",
+        "run_id": "20261112T050000+0800-cycle-2",
+        "species_id": 132,
+        "species": "Strix davidi",
+        "credited": false,
+        "evidence": {
+          "archive_commit_pending": true,
+          "concept_path": "owl-pet/design/concepts/132-strix-davidi-v5.png",
+          "concept_blob": "f46b4833f5669983079a03f6aa710b440bee70ce",
+          "concept_bytes": 3015175,
+          "manifest_counts": {
+            "design_image": 812,
+            "design_concept": 824,
+            "production_image": 802
+          },
+          "prompt_archive": "owl-pet/production/PROMPTS_FULL.md",
+          "review_record": "owl-pet/research/reviews/132-strix-davidi-v5-review.md",
+          "research_record": "owl-pet/research/species/132-strix-davidi-v5.md",
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "lease_expires_at": "2026-11-12T05:59:00+08:00"
+        }
+      },
+      {
+        "batch_id": "20261112T043100+0800",
+        "cycle": 2,
+        "stage": "VERIFIED",
+        "at": "2026-11-12T05:50:00+08:00",
+        "run_id": "20261112T050000+0800-cycle-2",
+        "species_id": 132,
+        "species": "Strix davidi",
+        "credited": false,
+        "evidence": {
+          "archive_commit": "efcaf17b9a78e053fa54df79c28258013ffd83ba",
+          "archive_tree": "0e186df599344452b7e50d737cc47186d402829c",
+          "required_paths_verified": 17,
+          "exact_binary_paths_verified": 9,
+          "unique_binary_streams_read_back": 4,
+          "concept_blob": "f46b4833f5669983079a03f6aa710b440bee70ce",
+          "concept_download_url": "https://raw.githubusercontent.com/janeytlin-eng/game-owl-ket/efcaf17b9a78e053fa54df79c28258013ffd83ba/owl-pet/design/concepts/132-strix-davidi-v5.png",
+          "crop_blobs": [
+            "4422cbb39a2e5fe3035b7b0210122c4ea59c99fa",
+            "f18371746a5b38a8515f6539d52649a098ff75b2",
+            "1164feac52231ccb1bb130970497f19ab3e72993"
+          ],
+          "manifest_counts": {
+            "design_image": 812,
+            "design_concept": 824,
+            "production_image": 802
+          },
+          "prompt_archive_verified": true,
+          "verification_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "ledger_credit_pending": true,
+          "lease_expires_at": "2026-11-12T06:05:00+08:00"
+        }
+      },
+      {
+        "batch_id": "20261112T043100+0800",
+        "cycle": 2,
+        "stage": "LEDGER_CREDITED",
+        "at": "2026-11-12T05:54:00+08:00",
+        "run_id": "20261112T050000+0800-cycle-2",
+        "species_id": 132,
+        "species": "Strix davidi",
+        "credited": true,
+        "evidence": {
+          "verification_commit": "4dd04f91dda6ac31698ccc98022f6b41355e55b7",
+          "verification_tree": "4617dafbb92c0cdfe9af6a7912b5fbcad686ea4f",
+          "archive_commit": "efcaf17b9a78e053fa54df79c28258013ffd83ba",
+          "archive_tree": "0e186df599344452b7e50d737cc47186d402829c",
+          "run_record": "owl-pet/production/runs/20261112T050000+0800-cycle-2.md",
+          "concept_path": "owl-pet/design/concepts/132-strix-davidi-v5.png",
+          "batch_progress": "2/6",
+          "next_cycle": 3,
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "unique_species_count": 176,
+          "total_species": 251,
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false
+        }
       }
     ],
-    "in_progress": {
-      "cycle": 2,
-      "species_id": 132,
-      "species": "Strix davidi",
-      "stage": "RESEARCH_READY",
-      "run_record": "owl-pet/production/runs/20261112T050000+0800-cycle-2.md"
-    }
+    "in_progress": null
   },
   "events": [
     {
@@ -62724,67 +63306,297 @@
         "scientifically_verified": false,
         "lease_expires_at": "2026-11-12T01:20:00+08:00"
       }
+    },
+    {
+      "batch_id": "20261112T043100+0800",
+      "cycle": 2,
+      "stage": "STARTED",
+      "at": "2026-11-12T05:00:00+08:00",
+      "run_id": "20261112T050000+0800-cycle-2",
+      "species_id": 132,
+      "species": "Strix davidi",
+      "credited": false,
+      "evidence": {
+        "run_record": "owl-pet/production/runs/20261112T050000+0800-cycle-2.md",
+        "baseline_main": "d0e54e3059bd6fd97213ae49b16dd6bb8157581d",
+        "selection_note": "#131 v5 credited cycle1. #132 currently ends at v4; preserve v1-v4 and re-check current-name crosswalk, four-week nest-box young, adult face and sex-size evidence.",
+        "prior_version": "owl-pet/design/concepts/132-strix-davidi-v4.png",
+        "prior_visual_inspected": true,
+        "lease_expires_at": "2026-11-12T05:15:00+08:00",
+        "scientifically_verified": false
+      }
+    },
+    {
+      "batch_id": "20261112T043100+0800",
+      "cycle": 2,
+      "stage": "STARTED",
+      "at": "2026-11-12T05:28:00+08:00",
+      "run_id": "20261112T050000+0800-cycle-2",
+      "species_id": 132,
+      "species": "Strix davidi",
+      "credited": false,
+      "evidence": {
+        "run_record": "owl-pet/production/runs/20261112T050000+0800-cycle-2.md",
+        "baseline_main": "72b9d7b7bb2cbfb744febd6d120042f889e6ff57",
+        "resumed_after_expired_lease": true,
+        "previous_lease_expired_at": "2026-11-12T05:15:00+08:00",
+        "lease_expires_at": "2026-11-12T05:43:00+08:00",
+        "scientifically_verified": false
+      }
+    },
+    {
+      "batch_id": "20261112T043100+0800",
+      "cycle": 2,
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-12T05:31:00+08:00",
+      "run_id": "20261112T050000+0800-cycle-2",
+      "species_id": 132,
+      "species": "Strix davidi",
+      "credited": false,
+      "evidence": {
+        "run_record": "owl-pet/production/runs/20261112T050000+0800-cycle-2.md",
+        "research_file": "owl-pet/research/species/132-strix-davidi-v5.md",
+        "source_index": "owl-pet/research/SOURCE_INDEX.md",
+        "new_source_ids": [
+          "DAV-CLEMENTS-2022-LUMP-2026"
+        ],
+        "reused_source_ids": [
+          "DAV-SCHERZINGER-2014",
+          "DAV-ITIS-686975-2026",
+          "DAV-SCHERZINGER-FANG-2006",
+          "DAV-FANG-ETAL-2009",
+          "DAV-MIK2013-348"
+        ],
+        "prompt_saved": true,
+        "research_started_at": "2026-11-12T05:28:00+08:00",
+        "research_completed_at": "2026-11-12T05:31:00+08:00",
+        "lease_expires_at": "2026-11-12T05:46:00+08:00",
+        "scientifically_verified": false
+      }
+    },
+    {
+      "batch_id": "20261112T043100+0800",
+      "cycle": 2,
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-12T05:36:00+08:00",
+      "run_id": "20261112T050000+0800-cycle-2",
+      "species_id": 132,
+      "species": "Strix davidi",
+      "credited": false,
+      "evidence": {
+        "initial_original": "owl-pet/production/generated/132-strix-davidi-v5-initial-original.png",
+        "generated_master": "owl-pet/production/generated/132-strix-davidi-v5-generated-master.png",
+        "initial_blob": "f46b4833f5669983079a03f6aa710b440bee70ce",
+        "initial_bytes": 3015175,
+        "initial_sha256": "5b42c59c2636b438a0b76ba8180aaf0b046efa305c87353fa60c78ecdb000ac0",
+        "geometry": "1536x1024",
+        "generation_seconds": 47.4,
+        "imagegen_invocations": 1,
+        "edit_required": false,
+        "edit_count": 0,
+        "inspection_summary": "Full plate opened: exact title/scientific name/three role labels and exactly three owls; adults near-equal but non-mirrored; all feet have natural support; adult faces are radially patterned without bold concentric target rings; approximately-four-week young is down-rich with compact hidden wing/tail and two-foot sill support. Three role crops prepared for review.",
+        "complete_prompt": "owl-pet/research/species/132-strix-davidi-v5.md",
+        "lease_expires_at": "2026-11-12T05:51:00+08:00",
+        "scientifically_verified": false
+      }
+    },
+    {
+      "batch_id": "20261112T043100+0800",
+      "cycle": 2,
+      "stage": "REVIEWED",
+      "at": "2026-11-12T05:40:00+08:00",
+      "run_id": "20261112T050000+0800-cycle-2",
+      "species_id": 132,
+      "species": "Strix davidi",
+      "credited": false,
+      "evidence": {
+        "final_original": "owl-pet/production/generated/132-strix-davidi-v5-final-original.png",
+        "final_blob": "f46b4833f5669983079a03f6aa710b440bee70ce",
+        "final_bytes": 3015175,
+        "final_sha256": "5b42c59c2636b438a0b76ba8180aaf0b046efa305c87353fa60c78ecdb000ac0",
+        "geometry": "1536x1024",
+        "edit_count": 0,
+        "imagegen_invocations": 1,
+        "reviewed_path": "owl-pet/production/reviewed/132-strix-davidi-v5-reviewed-master.png",
+        "reviewed_blob": "f46b4833f5669983079a03f6aa710b440bee70ce",
+        "review_record": "owl-pet/research/reviews/132-strix-davidi-v5-review.md",
+        "review_crops": [
+          "owl-pet/production/review-crops/132-strix-davidi-v5-adult-male.png",
+          "owl-pet/production/review-crops/132-strix-davidi-v5-four-week-young.png",
+          "owl-pet/production/review-crops/132-strix-davidi-v5-adult-female.png"
+        ],
+        "crop_blobs": [
+          "4422cbb39a2e5fe3035b7b0210122c4ea59c99fa",
+          "f18371746a5b38a8515f6539d52649a098ff75b2",
+          "1164feac52231ccb1bb130970497f19ab3e72993"
+        ],
+        "checks": {
+          "identity": "PASS_WITH_LIMITATIONS",
+          "sex_direction": "PASS_WITH_LIMITATIONS",
+          "young_stage": "PASS_WITH_LIMITATIONS",
+          "young_action": "PASS",
+          "wing_development": "PASS",
+          "support": "PASS",
+          "text_count_order": "PASS",
+          "habitat": "PASS_WITH_LIMITATION"
+        },
+        "review_result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false,
+        "unknowns": [
+          "exact individual sex confirmation",
+          "population-level quantitative sex-size direction",
+          "full development timetable outside the photographed approximately-four-week stage",
+          "natural nest-site substrate and frequency",
+          "current taxonomic rank treatment"
+        ],
+        "iteration_lesson": "When primary evidence gives a photographed age but taxonomic rank and sex-size direction remain disputed, anchor the young to the evidenced age and keep adults near-equal; do not convert either uncertainty into a visual claim.",
+        "lease_expires_at": "2026-11-12T05:55:00+08:00"
+      }
+    },
+    {
+      "batch_id": "20261112T043100+0800",
+      "cycle": 2,
+      "stage": "ARCHIVED",
+      "at": "2026-11-12T05:44:00+08:00",
+      "run_id": "20261112T050000+0800-cycle-2",
+      "species_id": 132,
+      "species": "Strix davidi",
+      "credited": false,
+      "evidence": {
+        "archive_commit_pending": true,
+        "concept_path": "owl-pet/design/concepts/132-strix-davidi-v5.png",
+        "concept_blob": "f46b4833f5669983079a03f6aa710b440bee70ce",
+        "concept_bytes": 3015175,
+        "manifest_counts": {
+          "design_image": 812,
+          "design_concept": 824,
+          "production_image": 802
+        },
+        "prompt_archive": "owl-pet/production/PROMPTS_FULL.md",
+        "review_record": "owl-pet/research/reviews/132-strix-davidi-v5-review.md",
+        "research_record": "owl-pet/research/species/132-strix-davidi-v5.md",
+        "source_index": "owl-pet/research/SOURCE_INDEX.md",
+        "review_result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false,
+        "lease_expires_at": "2026-11-12T05:59:00+08:00"
+      }
+    },
+    {
+      "batch_id": "20261112T043100+0800",
+      "cycle": 2,
+      "stage": "VERIFIED",
+      "at": "2026-11-12T05:50:00+08:00",
+      "run_id": "20261112T050000+0800-cycle-2",
+      "species_id": 132,
+      "species": "Strix davidi",
+      "credited": false,
+      "evidence": {
+        "archive_commit": "efcaf17b9a78e053fa54df79c28258013ffd83ba",
+        "archive_tree": "0e186df599344452b7e50d737cc47186d402829c",
+        "required_paths_verified": 17,
+        "exact_binary_paths_verified": 9,
+        "unique_binary_streams_read_back": 4,
+        "concept_blob": "f46b4833f5669983079a03f6aa710b440bee70ce",
+        "concept_download_url": "https://raw.githubusercontent.com/janeytlin-eng/game-owl-ket/efcaf17b9a78e053fa54df79c28258013ffd83ba/owl-pet/design/concepts/132-strix-davidi-v5.png",
+        "crop_blobs": [
+          "4422cbb39a2e5fe3035b7b0210122c4ea59c99fa",
+          "f18371746a5b38a8515f6539d52649a098ff75b2",
+          "1164feac52231ccb1bb130970497f19ab3e72993"
+        ],
+        "manifest_counts": {
+          "design_image": 812,
+          "design_concept": 824,
+          "production_image": 802
+        },
+        "prompt_archive_verified": true,
+        "verification_result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false,
+        "ledger_credit_pending": true,
+        "lease_expires_at": "2026-11-12T06:05:00+08:00"
+      }
+    },
+    {
+      "batch_id": "20261112T043100+0800",
+      "cycle": 2,
+      "stage": "LEDGER_CREDITED",
+      "at": "2026-11-12T05:54:00+08:00",
+      "run_id": "20261112T050000+0800-cycle-2",
+      "species_id": 132,
+      "species": "Strix davidi",
+      "credited": true,
+      "evidence": {
+        "verification_commit": "4dd04f91dda6ac31698ccc98022f6b41355e55b7",
+        "verification_tree": "4617dafbb92c0cdfe9af6a7912b5fbcad686ea4f",
+        "archive_commit": "efcaf17b9a78e053fa54df79c28258013ffd83ba",
+        "archive_tree": "0e186df599344452b7e50d737cc47186d402829c",
+        "run_record": "owl-pet/production/runs/20261112T050000+0800-cycle-2.md",
+        "concept_path": "owl-pet/design/concepts/132-strix-davidi-v5.png",
+        "batch_progress": "2/6",
+        "next_cycle": 3,
+        "unique_species_increment": 0,
+        "revision_increment": 1,
+        "unique_species_count": 176,
+        "total_species": 251,
+        "review_result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false
+      }
     }
   ],
   "ledger_credit_pending": false,
-  "last_verified_commit": "2db4212d11dfb9bbc51c258bb202d7a1c6458347",
+  "last_verified_commit": "4dd04f91dda6ac31698ccc98022f6b41355e55b7",
   "completed_cycles": [
     {
       "cycle": 1,
-      "species": "Otus megalotis",
-      "species_id": 122,
+      "species": "Megascops watsonii",
+      "species_id": 131,
       "version": 5,
       "action": "SCIENCE_REVISION",
       "unique_species_increment": 0,
       "revision_increment": 1,
-      "commit_sha": "69cd470431a87b23a640321588f3b687eb98583c",
-      "archive_commit": "7c61a90f6f553b4c3518e5481307718de94b7fa2",
-      "run_record": "owl-pet/production/runs/20261111T233600+0800-cycle-1.md",
-      "concept_path": "owl-pet/design/concepts/122-otus-megalotis-v5.png",
+      "commit_sha": "562a0f1294c5508070ed08b3438e65cf4c73aad3",
+      "archive_commit": "6adde1c0cf9e4180905e573d612fd0e7990fddda",
+      "run_record": "owl-pet/production/runs/20261112T043100+0800-cycle-1.md",
+      "concept_path": "owl-pet/design/concepts/131-megascops-watsonii-v5.png",
       "review_result": "PASS_WITH_LIMITATIONS",
       "scientifically_verified": false,
-      "completed_at": "2026-11-12T00:13:00+08:00"
+      "completed_at": "2026-11-12T04:58:00+08:00"
     },
     {
       "cycle": 2,
-      "species": "Ketupa philippensis",
-      "species_id": 124,
+      "species": "Strix davidi",
+      "species_id": 132,
       "version": 5,
       "action": "SCIENCE_REVISION",
       "unique_species_increment": 0,
       "revision_increment": 1,
-      "commit_sha": "2db4212d11dfb9bbc51c258bb202d7a1c6458347",
-      "archive_commit": "431b2838ac69f93d8f10791eb332c23c34ac220f",
-      "run_record": "owl-pet/production/runs/20261112T001500+0800-cycle-2.md",
-      "concept_path": "owl-pet/design/concepts/124-ketupa-philippensis-v5.png",
+      "commit_sha": "4dd04f91dda6ac31698ccc98022f6b41355e55b7",
+      "archive_commit": "efcaf17b9a78e053fa54df79c28258013ffd83ba",
+      "run_record": "owl-pet/production/runs/20261112T050000+0800-cycle-2.md",
+      "concept_path": "owl-pet/design/concepts/132-strix-davidi-v5.png",
       "review_result": "PASS_WITH_LIMITATIONS",
       "scientifically_verified": false,
-      "completed_at": "2026-11-12T00:50:00+08:00"
+      "completed_at": "2026-11-12T05:54:00+08:00"
     }
   ],
-  "updated": "2026-11-12T05:31:00+08:00",
-  "stage": "RESEARCH_READY",
+  "updated": "2026-11-12T05:54:00+08:00",
+  "stage": "LEDGER_CREDITED",
   "stage_evidence": {
+    "verification_commit": "4dd04f91dda6ac31698ccc98022f6b41355e55b7",
+    "verification_tree": "4617dafbb92c0cdfe9af6a7912b5fbcad686ea4f",
+    "archive_commit": "efcaf17b9a78e053fa54df79c28258013ffd83ba",
+    "archive_tree": "0e186df599344452b7e50d737cc47186d402829c",
     "run_record": "owl-pet/production/runs/20261112T050000+0800-cycle-2.md",
-    "research_file": "owl-pet/research/species/132-strix-davidi-v5.md",
-    "source_index": "owl-pet/research/SOURCE_INDEX.md",
-    "new_source_ids": [
-      "DAV-CLEMENTS-2022-LUMP-2026"
-    ],
-    "reused_source_ids": [
-      "DAV-SCHERZINGER-2014",
-      "DAV-ITIS-686975-2026",
-      "DAV-SCHERZINGER-FANG-2006",
-      "DAV-FANG-ETAL-2009",
-      "DAV-MIK2013-348"
-    ],
-    "prompt_saved": true,
-    "research_started_at": "2026-11-12T05:28:00+08:00",
-    "research_completed_at": "2026-11-12T05:31:00+08:00",
-    "lease_expires_at": "2026-11-12T05:46:00+08:00",
+    "concept_path": "owl-pet/design/concepts/132-strix-davidi-v5.png",
+    "batch_progress": "2/6",
+    "next_cycle": 3,
+    "unique_species_increment": 0,
+    "revision_increment": 1,
+    "unique_species_count": 176,
+    "total_species": 251,
+    "review_result": "PASS_WITH_LIMITATIONS",
     "scientifically_verified": false
   },
-  "last_verification_commit": "2db4212d11dfb9bbc51c258bb202d7a1c6458347",
+  "last_verification_commit": "4dd04f91dda6ac31698ccc98022f6b41355e55b7",
   "timestamps": {
     "RESEARCH_READY": "2026-11-08T03:43:01+08:00",
     "IMAGE_GENERATED": "2026-11-08T03:44:43+08:00",
@@ -63904,8 +64716,34 @@
         "total_species": 251,
         "scientifically_verified": false
       }
+    },
+    {
+      "batch_id": "20261112T043100+0800",
+      "cycle": 2,
+      "stage": "LEDGER_CREDITED",
+      "at": "2026-11-12T05:54:00+08:00",
+      "run_id": "20261112T050000+0800-cycle-2",
+      "species_id": 132,
+      "species": "Strix davidi",
+      "credited": true,
+      "evidence": {
+        "verification_commit": "4dd04f91dda6ac31698ccc98022f6b41355e55b7",
+        "verification_tree": "4617dafbb92c0cdfe9af6a7912b5fbcad686ea4f",
+        "archive_commit": "efcaf17b9a78e053fa54df79c28258013ffd83ba",
+        "archive_tree": "0e186df599344452b7e50d737cc47186d402829c",
+        "run_record": "owl-pet/production/runs/20261112T050000+0800-cycle-2.md",
+        "concept_path": "owl-pet/design/concepts/132-strix-davidi-v5.png",
+        "batch_progress": "2/6",
+        "next_cycle": 3,
+        "unique_species_increment": 0,
+        "revision_increment": 1,
+        "unique_species_count": 176,
+        "total_species": 251,
+        "review_result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false
+      }
     }
   ],
-  "last_archive_commit": "9bbb63a41c810b0712ce9c28488ec4319abbf89a",
+  "last_archive_commit": "efcaf17b9a78e053fa54df79c28258013ffd83ba",
   "active": null
 }

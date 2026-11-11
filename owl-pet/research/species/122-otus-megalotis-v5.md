@@ -48,3 +48,10 @@ Do not import Everett’s or Negros Scops-Owl traits; no newborn chick; no fixed
 4. Supported action: both juvenile feet planted; at most one slight wing lift; no takeoff/full spread/unsupported flight.
 5. Natural branch and lowland/urban-edge foliage; no tether/cage/box/nest claim.
 6. Science remains false and unknowns remain explicit.
+
+## Actual generation, edit and review
+
+- Initial 1536×1024 plate opened: exact text/count, adults and six-foot support passed; juvenile raised wing was too long and orderly/adult-like.
+- One targeted edit shortened/softened that lifted wing while preserving two-foot support, the tucked opposite wing, short tail and all text/layout.
+- Edited full plate and three role crops opened. Identity, near-equal adult scale, supported later-juvenile action, compact juvenile wing and lowland/urban-edge context passed with the stated uncertainty.
+- Result: `PASS_WITH_LIMITATIONS`; edit count 1; `scientifically_verified=false`.

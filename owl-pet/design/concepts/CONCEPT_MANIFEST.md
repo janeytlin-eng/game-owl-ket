@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T07:42:00+08:00",
+  "updated": "2026-11-12T07:58:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -32578,7 +32578,95 @@
       "binary_content_api_note": "Exact path, Git blob SHA and byte size were re-read from the untruncated archive tree for ten binary aliases/six unique streams. Base64 file fetch also returned the concept blob SHA.",
       "verification_commit": "3789e2ac340d10c01a5d695687e4acf205d92f9e",
       "ledger_credited_at": "2026-11-12T07:42:00+08:00"
+    },
+    {
+      "id": "137-otus-alfredi-v5",
+      "species_id": 137,
+      "common_name": "Flores Scops-Owl",
+      "scientific_name": "Otus alfredi",
+      "current_name_crosswalk": "Otus alfredi",
+      "historical_names": [
+        "Pisorhina alfredi"
+      ],
+      "path": "design/concepts/137-otus-alfredi-v5.png",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "prior_versions_retained": true,
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 2,
+      "imagegen_invocations": 3,
+      "status": "V5 preserves v1-v4, keeps near-equal adults because historical sex assignments are uncertain, and uses the one age-unknown juvenile male only for a smaller down-retaining supported stage. Initial juvenile inherited adult pink/reddish orbital skin; a first overbroad edit removed the documented adult feature and was rejected. Accepted edit preserves adult yellow irides and pink/reddish orbital skin while leaving juvenile eyes dark/non-diagnostic. Exact juvenile age, iris/orbital chronology, feather sequence, flight/independence, population sex-size direction and nest details remain unknown.",
+      "source_ids": [
+        "FLO-WIDODO-1999",
+        "FLO-HUTCHINSON-2007",
+        "FLO-REEVE-RABENAK-2016"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/137-otus-alfredi-v5.md",
+      "review_record": "research/reviews/137-otus-alfredi-v5-review.md",
+      "run_record": "production/runs/20261112T074300+0800-cycle-1.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 2834690,
+      "sha256": "6c75a1ecca87ac2e79aa609fe53fd584be25face7b62df12ca082a7e3c995d1c",
+      "git_blob": "b545dfc31c7672790afac53dc5e939b27a1ad723",
+      "initial_original_path": "production/generated/137-otus-alfredi-v5-initial-original.png",
+      "initial_original_blob": "856567a7bbdc7492215a3aaa69ea33812cc02549",
+      "initial_original_size_bytes": 3122972,
+      "initial_original_sha256": "63b779cd1d8e39c6cbd3dc83b327add1a15cc1890a8c5ef4d562474e5d915797",
+      "final_original_path": "production/generated/137-otus-alfredi-v5-final-original.png",
+      "final_original_blob": "b545dfc31c7672790afac53dc5e939b27a1ad723",
+      "final_original_size_bytes": 2834690,
+      "final_original_sha256": "6c75a1ecca87ac2e79aa609fe53fd584be25face7b62df12ca082a7e3c995d1c",
+      "full_color_source_path": "production/generated/137-otus-alfredi-v5-full-color.png",
+      "full_color_source_blob": "b545dfc31c7672790afac53dc5e939b27a1ad723",
+      "full_color_source_size_bytes": 2834690,
+      "full_color_source_sha256": "6c75a1ecca87ac2e79aa609fe53fd584be25face7b62df12ca082a7e3c995d1c",
+      "generated_path": "production/generated/137-otus-alfredi-v5-generated-master.png",
+      "generated_blob": "b545dfc31c7672790afac53dc5e939b27a1ad723",
+      "generated_size_bytes": 2834690,
+      "reviewed_path": "production/reviewed/137-otus-alfredi-v5-reviewed-master.png",
+      "reviewed_blob": "b545dfc31c7672790afac53dc5e939b27a1ad723",
+      "reviewed_size_bytes": 2834690,
+      "review_crops": [
+        {
+          "path": "production/review-crops/137-otus-alfredi-v5-adult-male.png",
+          "blob": "ce8a9a391c6e99ba042e376da893bc358650c43c",
+          "size_bytes": 734778
+        },
+        {
+          "path": "production/review-crops/137-otus-alfredi-v5-juvenile-male.png",
+          "blob": "0397a2f40f32b59722eef0662055d37a705ce7f3",
+          "size_bytes": 647993
+        },
+        {
+          "path": "production/review-crops/137-otus-alfredi-v5-adult-female.png",
+          "blob": "f7d98a2face842fb20f106d88f3d168c115b1d44",
+          "size_bytes": 701050
+        }
+      ],
+      "rejected_edits": [
+        {
+          "path": "production/generated/137-otus-alfredi-v5-edit1-rejected-original.png",
+          "blob": "3d585cc1e6b6567b170cb4fa8b05ca8a9c606ccf",
+          "size_bytes": 2914867,
+          "reason": "Removed primary-source-supported adult pink/reddish orbital skin together with the unsupported juvenile ring; rejected after primary-paper re-read."
+        }
+      ],
+      "archive_note": "V4, initial v5, rejected overcorrection, accepted corrected v5, three accepted-role crops and contact sheet opened. Primary-source soft-part wording re-read during review; accepted edit changes juvenile eyes only. New0/reused2/unverified lead1; uploaded Mikkola unavailable and no fresh page claim. Science false. Archive verification pending.",
+      "readback_pending": true,
+      "archive_commit_pending": true,
+      "archived_at": "2026-11-12T07:58:00+08:00"
     }
   ],
-  "updated_at": "2026-11-12T07:42:00+08:00"
+  "updated_at": "2026-11-12T07:58:00+08:00"
 }

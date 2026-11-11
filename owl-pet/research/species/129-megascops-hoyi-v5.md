@@ -36,3 +36,12 @@ Create a polished 1536×1024 horizontal scientific concept plate in the reposito
 ## Unknowns retained
 
 Exact juvenile age/sex; juvenile iris and bill chronology; continuous feather sequence; first-flight/independence timing; population-level adult sex-size direction; universality of the recorded tree species, cavity geometry and feather lining.
+
+## Generated and reviewed result
+
+- Initial generation: 2026-11-12T03:00:00+08:00; 47.2 s; 1536×1024 RGB PNG; exactly three labelled birds with supported cavity-rim juvenile.
+- Inspection problem: the initial juvenile iris was unambiguously adult-yellow even though no source establishes juvenile iris chronology.
+- Targeted edit: changed only the visible juvenile iris to a dark, shadowed, non-diagnostic colour. Generation wait was approximately 47.6 s.
+- Recheck: edited full plate plus three final role crops actually opened. Text/count/order, near-equal adults, identity cues, formed-but-soft fledged-juvenile wing/tail, all-foot support and one-record-bounded cavity setting passed. No collateral change found.
+- Final review: `PASS_WITH_LIMITATIONS`; scientific verification remains false. See `owl-pet/research/reviews/129-megascops-hoyi-v5-review.md`.
+- Final original: `owl-pet/production/generated/129-megascops-hoyi-v5-final-original.png`; 2,817,626 bytes; SHA-256 `39ad4e0c90552eaf81a97b7c556981b7ad18c0c2d0f58a80cc7abbed6710b0ce`.

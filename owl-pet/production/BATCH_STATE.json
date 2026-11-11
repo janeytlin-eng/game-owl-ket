@@ -41517,8 +41517,8 @@
       "lease": {
         "owner": "codex-root",
         "run_id": "20261112T063600+0800-cycle-6",
-        "heartbeat_at": "2026-11-12T07:30:00+08:00",
-        "expires_at": "2026-11-12T07:45:00+08:00"
+        "heartbeat_at": "2026-11-12T07:35:00+08:00",
+        "expires_at": "2026-11-12T07:50:00+08:00"
       },
       "active": {
         "run_id": "20261112T063600+0800-cycle-6",
@@ -42921,7 +42921,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-12T07:30:00+08:00",
+  "updated_at": "2026-11-12T07:35:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -67656,10 +67656,12 @@
     "cycle": 6,
     "species_id": 136,
     "species": "Megascops petersoni",
-    "stage": "RESEARCH_READY",
+    "stage": "REVIEWED",
     "run_record": "owl-pet/production/runs/20261112T063600+0800-cycle-6.md",
     "research_record": "owl-pet/research/species/136-megascops-petersoni-v5.md",
-    "lease_expires_at": "2026-11-12T07:45:00+08:00"
+    "lease_expires_at": "2026-11-12T07:50:00+08:00",
+    "final_original": "owl-pet/production/generated/136-megascops-petersoni-v5-final-original.png",
+    "review_record": "owl-pet/research/reviews/136-megascops-petersoni-v5-review.md"
   },
   "phase_events": [
     {
@@ -67691,6 +67693,72 @@
         ],
         "lease_expires_at": "2026-11-12T07:45:00+08:00",
         "scientifically_verified": false
+      }
+    },
+    {
+      "batch_id": "20261112T043100+0800",
+      "cycle": 6,
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-12T07:32:00+08:00",
+      "run_id": "20261112T063600+0800-cycle-6",
+      "species_id": 136,
+      "species": "Megascops petersoni",
+      "credited": false,
+      "evidence": {
+        "initial_original": "owl-pet/production/generated/136-megascops-petersoni-v5-initial-original.png",
+        "initial_blob": "3b2ca766df068b1eb808d10a92e1c6ff532453ab",
+        "initial_bytes": 3357370,
+        "initial_sha256": "c9782e0f5b8568333187c4ae6569a99d2872326d8c4559995a9baa9dac9d734e",
+        "geometry": "1536x1024",
+        "generation_seconds": 45,
+        "preliminary_inspection": "full plate and three role crops opened; first-year wing/tail too mature; edit required",
+        "scientifically_verified": false,
+        "lease_expires_at": "2026-11-12T07:47:00+08:00"
+      }
+    },
+    {
+      "batch_id": "20261112T043100+0800",
+      "cycle": 6,
+      "stage": "REVIEWED",
+      "at": "2026-11-12T07:35:00+08:00",
+      "run_id": "20261112T063600+0800-cycle-6",
+      "species_id": 136,
+      "species": "Megascops petersoni",
+      "credited": false,
+      "evidence": {
+        "final_original": "owl-pet/production/generated/136-megascops-petersoni-v5-final-original.png",
+        "final_blob": "ced4a8ab71e180a8a843988040d546c2de85e9b8",
+        "final_bytes": 3066410,
+        "final_sha256": "c49ae799c32b70a37b846e91c1167994a6d4225e49ac67dfbbb542d91c6bb5a0",
+        "rejected_edit": "owl-pet/production/generated/136-megascops-petersoni-v5-edit1-rejected-original.png",
+        "rejected_blob": "2f845645d389729f7029012b4111c0287e5dec37",
+        "edit_count": 1,
+        "rejected_edit_count": 1,
+        "imagegen_invocations": 3,
+        "review_record": "owl-pet/research/reviews/136-megascops-petersoni-v5-review.md",
+        "review_crops": [
+          "owl-pet/production/review-crops/136-megascops-petersoni-v5-adult-male.png",
+          "owl-pet/production/review-crops/136-megascops-petersoni-v5-first-year.png",
+          "owl-pet/production/review-crops/136-megascops-petersoni-v5-adult-female.png"
+        ],
+        "crop_blobs": [
+          "6a88cd909364dd4a31b221c26c23c1e015614176",
+          "107f6acef21ae4b1e0cc0e014bd705e964032813",
+          "2ad50620578b80923ba4993cce605e599746e41f"
+        ],
+        "actual_views": [
+          "initial full plate",
+          "initial adult-male crop",
+          "initial first-year crop",
+          "initial adult-female crop",
+          "final full plate",
+          "final adult-male crop",
+          "final first-year crop",
+          "final adult-female crop"
+        ],
+        "review_result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false,
+        "lease_expires_at": "2026-11-12T07:50:00+08:00"
       }
     }
   ]

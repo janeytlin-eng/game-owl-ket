@@ -41424,7 +41424,7 @@
     },
     {
       "batch_id": "20261112T043100+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -41506,30 +41506,34 @@
           "review_result": "PASS_WITH_LIMITATIONS",
           "scientifically_verified": false,
           "completed_at": "2026-11-12T06:34:00+08:00"
+        },
+        {
+          "cycle": 6,
+          "species": "Megascops petersoni",
+          "species_id": 136,
+          "version": 5,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "commit_sha": "3789e2ac340d10c01a5d695687e4acf205d92f9e",
+          "archive_commit": "fa1b53c23ccc2f8896568184e8dfa3e8c54f6de5",
+          "run_record": "owl-pet/production/runs/20261112T063600+0800-cycle-6.md",
+          "concept_path": "owl-pet/design/concepts/136-megascops-petersoni-v5.png",
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "completed_at": "2026-11-12T07:42:00+08:00"
         }
       ],
-      "next_cycle": 6,
-      "active_cycle": 6,
+      "next_cycle": null,
+      "active_cycle": null,
       "started_at": "2026-11-12T04:31:00+08:00",
-      "updated_at": "2026-11-12T06:36:00+08:00",
-      "current_stage": "STARTED",
+      "updated_at": "2026-11-12T07:42:00+08:00",
+      "current_stage": "COMPLETE",
       "ledger_credit_pending": false,
-      "lease": {
-        "owner": "codex-root",
-        "run_id": "20261112T063600+0800-cycle-6",
-        "heartbeat_at": "2026-11-12T07:40:00+08:00",
-        "expires_at": "2026-11-12T07:55:00+08:00"
-      },
-      "active": {
-        "run_id": "20261112T063600+0800-cycle-6",
-        "cycle": 6,
-        "species_id": 136,
-        "species": "Megascops petersoni",
-        "stage": "STARTED",
-        "run_record": "owl-pet/production/runs/20261112T063600+0800-cycle-6.md"
-      },
-      "stage": "STARTED",
-      "completed_count": 5,
+      "lease": null,
+      "active": null,
+      "stage": "COMPLETE",
+      "completed_count": 6,
       "stage_events": [
         {
           "batch_id": "20261112T043100+0800",
@@ -42768,6 +42772,31 @@
             "lease_expires_at": "2026-11-12T06:51:00+08:00",
             "scientifically_verified": false
           }
+        },
+        {
+          "batch_id": "20261112T043100+0800",
+          "cycle": 6,
+          "stage": "LEDGER_CREDITED",
+          "at": "2026-11-12T07:42:00+08:00",
+          "run_id": "20261112T063600+0800-cycle-6",
+          "species_id": 136,
+          "species": "Megascops petersoni",
+          "credited": true,
+          "evidence": {
+            "verification_commit": "3789e2ac340d10c01a5d695687e4acf205d92f9e",
+            "archive_commit": "fa1b53c23ccc2f8896568184e8dfa3e8c54f6de5",
+            "archive_tree": "ecfa1206fcf5126831b3e8b4ae3b2450cd501b40",
+            "run_record": "owl-pet/production/runs/20261112T063600+0800-cycle-6.md",
+            "concept_path": "owl-pet/design/concepts/136-megascops-petersoni-v5.png",
+            "batch_progress": "6/6",
+            "next_cycle": null,
+            "unique_species_increment": 0,
+            "revision_increment": 1,
+            "unique_species_count": 176,
+            "total_species": 251,
+            "review_result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false
+          }
         }
       ],
       "in_progress": {
@@ -42776,7 +42805,8 @@
         "species": "Otus silvicola",
         "stage": "RESEARCH_READY",
         "run_record": "owl-pet/production/runs/20261112T061900+0800-cycle-5.md"
-      }
+      },
+      "completed_at": "2026-11-12T07:42:00+08:00"
     }
   ],
   "lease": {
@@ -42921,7 +42951,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-12T07:40:00+08:00",
+  "updated_at": "2026-11-12T07:42:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -67650,22 +67680,8 @@
       }
     }
   ],
-  "last_archive_commit": "fa128917a300e6315f0ea826e07b34a68567c0ed",
-  "active": {
-    "run_id": "20261112T063600+0800-cycle-6",
-    "cycle": 6,
-    "species_id": 136,
-    "species": "Megascops petersoni",
-    "stage": "VERIFIED",
-    "run_record": "owl-pet/production/runs/20261112T063600+0800-cycle-6.md",
-    "research_record": "owl-pet/research/species/136-megascops-petersoni-v5.md",
-    "lease_expires_at": "2026-11-12T07:55:00+08:00",
-    "final_original": "owl-pet/production/generated/136-megascops-petersoni-v5-final-original.png",
-    "review_record": "owl-pet/research/reviews/136-megascops-petersoni-v5-review.md",
-    "concept_path": "owl-pet/design/concepts/136-megascops-petersoni-v5.png",
-    "archive_commit": "fa1b53c23ccc2f8896568184e8dfa3e8c54f6de5",
-    "archive_tree": "ecfa1206fcf5126831b3e8b4ae3b2450cd501b40"
-  },
+  "last_archive_commit": "fa1b53c23ccc2f8896568184e8dfa3e8c54f6de5",
+  "active": null,
   "phase_events": [
     {
       "batch_id": "20261112T043100+0800",
@@ -67833,6 +67849,31 @@
         "scientifically_verified": false,
         "ledger_credit_pending": true,
         "lease_expires_at": "2026-11-12T07:55:00+08:00"
+      }
+    },
+    {
+      "batch_id": "20261112T043100+0800",
+      "cycle": 6,
+      "stage": "LEDGER_CREDITED",
+      "at": "2026-11-12T07:42:00+08:00",
+      "run_id": "20261112T063600+0800-cycle-6",
+      "species_id": 136,
+      "species": "Megascops petersoni",
+      "credited": true,
+      "evidence": {
+        "verification_commit": "3789e2ac340d10c01a5d695687e4acf205d92f9e",
+        "archive_commit": "fa1b53c23ccc2f8896568184e8dfa3e8c54f6de5",
+        "archive_tree": "ecfa1206fcf5126831b3e8b4ae3b2450cd501b40",
+        "run_record": "owl-pet/production/runs/20261112T063600+0800-cycle-6.md",
+        "concept_path": "owl-pet/design/concepts/136-megascops-petersoni-v5.png",
+        "batch_progress": "6/6",
+        "next_cycle": null,
+        "unique_species_increment": 0,
+        "revision_increment": 1,
+        "unique_species_count": 176,
+        "total_species": 251,
+        "review_result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false
       }
     }
   ]

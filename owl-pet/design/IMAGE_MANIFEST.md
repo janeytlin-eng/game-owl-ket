@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T08:02:00+08:00",
+  "updated": "2026-11-12T08:05:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -31605,9 +31605,11 @@
       "unique_binary_streams_tree_verified": 6,
       "verified_at": "2026-11-12T08:02:00+08:00",
       "verification_result": "PASS_WITH_LIMITATIONS",
-      "verification_commit_pending": true,
-      "binary_content_api_note": "Exact path, Git blob SHA and byte size were re-read from the untruncated archive tree for ten binary aliases/six unique streams. Base64 file fetch returned the concept blob SHA."
+      "verification_commit_pending": false,
+      "binary_content_api_note": "Exact path, Git blob SHA and byte size were re-read from the untruncated archive tree for ten binary aliases/six unique streams. Base64 file fetch returned the concept blob SHA.",
+      "verification_commit": "ec1c29299ef8f174bd96fbae93530adf2fc04ead",
+      "ledger_credited_at": "2026-11-12T08:05:00+08:00"
     }
   ],
-  "updated_at": "2026-11-12T08:02:00+08:00"
+  "updated_at": "2026-11-12T08:05:00+08:00"
 }

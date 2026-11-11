@@ -4427,3 +4427,32 @@ Reused without duplicate IDs: `SUN-BIRDFORUM-YOGYA-2013`, `SUSO-MEES-2006-LEMPIJ
 - Confidence: high for stated adult identity/habitat, not developmental detail.
 
 Reused without duplicate IDs: `BLO-KIRKCONNELL-WILEY-2017`, `BLO-SUAREZ-2022-CATALOGUE`, `CBLO-MIK2013-252`, `CBLO-SHERONY-2006`, `CBLO-AOU-2013A11`, `BLO-OLSON-SUAREZ-2008`. Full prompt/boundaries: `owl-pet/research/species/116-margarobyas-lawrencii-v5.md`. Science remains false.
+
+
+## 2026-11-11 — #118 *Megascops cooperi* v5 — museum/live-character key, original description and current taxonomy
+
+### PSC-CAMACHO-VARELA-2014-MEGASCOPS
+- Camacho-Varela, Pablo. “¿Cómo identificar correctamente los búhos *Megascops* presentes en Costa Rica?” *Zeledonia* 18(2), 2014, pp.3–14. Asociación Ornitológica de Costa Rica.
+- URL: https://www.avesdecostarica.org/uploads/7/0/1/0/70104897/18-2-completo.pdf ; accessed 2026-11-11.
+- Actually read: printed p.4 key; pp.5–7 Figs.2–3 and explanatory text; pp.8–10 Figs.4 and 6 plus comparison discussion.
+- Species-specific adult facts: fully feathered tarsi, bristled/hairy toes, pale gray-whitish ground colour, less-distinct dark facial rim, whitish-green bill/cere, no rufous phase reported for Costa Rica. Museum specimen and live-bird images independently show the tarsus/toe boundary. Ear tufts occur in all four compared species and may be hidden, so tufts alone are not diagnostic.
+- Design support: adult leg/foot treatment, green-white bill/cere, pale non-rufous palette and restrained tuft use.
+- Limits/conflicts: adult-only identification paper; it does not establish juvenile chronology, flight ability or a reliable sex-size display rule. PDF screenshot endpoint failed during this execution, but the full text and figure captions were actually read.
+- Confidence: high for the stated Costa Rican adult diagnostic characters; not a juvenile source.
+
+### PSC-RIDGWAY-1878-COOPERI
+- Ridgway, Robert. “A Review of the American Species of the Genus *Scops*.” *Proceedings of the United States National Museum* 1 (1878), species account p.116.
+- Smithsonian PDF: https://repository.si.edu/server/api/core/bitstreams/0a67e5bb-28e6-447b-8441-f150bbed1c5f/content ; accessed 2026-11-11.
+- Actually read: printed p.116, original adult female description from Santa Ana, Costa Rica. It records distinctly bristled toes, grayish umber-brown upperparts, fine dusky vermiculation, chain-like blackish mesial streaks, white-spotted scapular webs, pale-fulvous primary spots, face finely barred, yellow iris and yellowish-green cere/bill/feet.
+- Design support: historical diagnostic texture and toe bristles; helps avoid generic polka dots.
+- Limits: one historical adult female specimen description, archaic taxonomy and no juvenile development evidence.
+- Confidence: high for the specimen description; limited generality.
+
+### PSC-ITIS-686661-2026
+- Integrated Taxonomic Information System, TSN 686661, *Megascops cooperi*; accessed 2026-11-11.
+- URL: https://www.itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=686661&source=to_print
+- Current accepted species name: *Megascops cooperi* (Ridgway, 1878). Historical synonyms retained: *Otus cooperi* and *Scops cooperi*. Two direct subspecies are listed, *M. c. cooperi* and *M. c. lambi*.
+- Design support: current title and old-name mapping only.
+- Limits: taxonomy database, not morphology or development evidence.
+
+Reused/re-read without duplicate IDs: `PSC-KOMAR-STUFKENS-2012` (primary one-event older fledgling defensive display/difficulty flying), `PSC-MIKKOLA-2013-P210` (repository-pinned adult guide page; uploaded copy unavailable in this execution), `PSC-OWLPAGES-2020`, `PSC-AVESCR-2025` (lines 29–33 freshly re-read; AI illustration excluded). Full prompt/boundaries: `owl-pet/research/species/118-megascops-cooperi-v5.md`. Scientific verification remains false.

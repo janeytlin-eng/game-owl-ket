@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T05:43:02+08:00",
+  "updated": "2026-11-12T05:56:13+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -32174,7 +32174,90 @@
       "verification_result": "PASS_WITH_LIMITATIONS",
       "verification_commit": "4dd04f91dda6ac31698ccc98022f6b41355e55b7",
       "ledger_credited_at": "2026-11-12T05:43:02+08:00"
+    },
+    {
+      "id": "133-megascops-atricapilla-v5",
+      "species_id": 133,
+      "common_name": "Black-capped Screech-Owl",
+      "scientific_name": "Megascops atricapilla",
+      "current_name_crosswalk": "Megascops atricapilla",
+      "historical_names": [
+        "Strix atricapilla",
+        "Otus atricapillus"
+      ],
+      "path": "design/concepts/133-megascops-atricapilla-v5.png",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "prior_versions_retained": true,
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "imagegen_invocations": 1,
+      "status": "V5 preserves v1-v4, keeps near-equal non-cloned adults, and corrects the age-unknown older juvenile's v4 overlong adult-regular wing to a short rounded formed but down-veiled wing ending above supported feet. Exact age, flight ability, iris chronology, quantitative sex-size direction, subspecies/individual identity and active nest occupancy remain unknown.",
+      "source_ids": [
+        "BCSO-DANTAS-2021",
+        "BCSO-WIKIAVES-WA2019052",
+        "BCSO-MENQ-ANJOS-2015",
+        "BCSO-WIKIAVES-SPECIES-2026",
+        "BCSO-NATURALIS-TYPES-2023"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/133-megascops-atricapilla-v5.md",
+      "review_record": "research/reviews/133-megascops-atricapilla-v5-review.md",
+      "run_record": "production/runs/20261112T054400+0800-cycle-3.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 2808330,
+      "sha256": "c8646dafdf8551874abbb5d3aa1be7faf831b7b77c742aac9cabb1272f23bd50",
+      "git_blob": "dc4319c6e6b24cb506d591193b8f00ebe7c1e8ae",
+      "initial_original_path": "production/generated/133-megascops-atricapilla-v5-initial-original.png",
+      "initial_original_blob": "dc4319c6e6b24cb506d591193b8f00ebe7c1e8ae",
+      "initial_original_size_bytes": 2808330,
+      "initial_original_sha256": "c8646dafdf8551874abbb5d3aa1be7faf831b7b77c742aac9cabb1272f23bd50",
+      "final_original_path": "production/generated/133-megascops-atricapilla-v5-final-original.png",
+      "final_original_blob": "dc4319c6e6b24cb506d591193b8f00ebe7c1e8ae",
+      "final_original_size_bytes": 2808330,
+      "final_original_sha256": "c8646dafdf8551874abbb5d3aa1be7faf831b7b77c742aac9cabb1272f23bd50",
+      "full_color_source_path": "production/generated/133-megascops-atricapilla-v5-full-color.png",
+      "full_color_source_blob": "dc4319c6e6b24cb506d591193b8f00ebe7c1e8ae",
+      "full_color_source_size_bytes": 2808330,
+      "full_color_source_sha256": "c8646dafdf8551874abbb5d3aa1be7faf831b7b77c742aac9cabb1272f23bd50",
+      "generated_path": "production/generated/133-megascops-atricapilla-v5-generated-master.png",
+      "generated_blob": "dc4319c6e6b24cb506d591193b8f00ebe7c1e8ae",
+      "generated_size_bytes": 2808330,
+      "reviewed_path": "production/reviewed/133-megascops-atricapilla-v5-reviewed-master.png",
+      "reviewed_blob": "dc4319c6e6b24cb506d591193b8f00ebe7c1e8ae",
+      "reviewed_size_bytes": 2808330,
+      "review_crops": [
+        {
+          "path": "production/review-crops/133-megascops-atricapilla-v5-adult-male.png",
+          "blob": "0c9b857576e1b2eccdf460bde0df9f96a6494d9b",
+          "size_bytes": 848487
+        },
+        {
+          "path": "production/review-crops/133-megascops-atricapilla-v5-older-juvenile.png",
+          "blob": "6aa5beeb8b2da2bf150b91dfb52c05e389fb203a",
+          "size_bytes": 673256
+        },
+        {
+          "path": "production/review-crops/133-megascops-atricapilla-v5-adult-female.png",
+          "blob": "121f1231b925bed16d48cdba99491bed9a7a1068",
+          "size_bytes": 860292
+        }
+      ],
+      "archive_note": "V4, v5 full plate and all three role crops opened. Short down-veiled juvenile wing, support, near-equal adults and Atlantic-Forest habitat boundaries applied. New2/reused3. Uploaded Mikkola unavailable; no new page claim. Science false.",
+      "readback_pending": true,
+      "archive_commit_pending": true,
+      "archived_at": "2026-11-12T05:56:13+08:00"
     }
   ],
-  "updated_at": "2026-11-12T05:43:02+08:00"
+  "updated_at": "2026-11-12T05:56:13+08:00"
 }

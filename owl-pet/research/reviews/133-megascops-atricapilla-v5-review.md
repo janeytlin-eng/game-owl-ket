@@ -1,6 +1,6 @@
 # #133 Black-capped Screech-Owl (*Megascops atricapilla*) v5 — actual visual review
 
-- Reviewed at: 2026-11-11T05:53:42+08:00
+- Reviewed at: 2026-11-12T05:53:46+08:00
 - Batch / cycle: `20261112T043100+0800` / 3 of 6
 - Action: science revision; v1–v4 preserved
 - Result: **PASS_WITH_LIMITATIONS**

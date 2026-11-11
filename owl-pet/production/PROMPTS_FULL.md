@@ -805,3 +805,27 @@ Avoid: extra birds, duplicated limbs, floating bodies, merged branch/feet, overs
 ### Applied review rule
 
 When primary evidence supports a photographed age while rank and sex-size direction remain disputed, anchor the young only to that age and keep adults near-equal. Do not turn uncertainty into a larger female, mature juvenile wing or unsupported action. Applied and crop-checked on #132 v5; result PASS_WITH_LIMITATIONS, science false.
+
+
+## #133 Black-capped Screech-Owl (*Megascops atricapilla*) v5 — 2026-11-12
+
+Use case: scientific-educational
+Asset type: 1536×1024 landscape owl electronic-pet species concept plate
+Primary request: Create a fresh v5 science-revision plate for repository species #133 Black-capped Screech-Owl, preserving v1–v4 as historical versions and following the established soft-painted, realistic 3D owl electronic-pet style.
+
+Scene/backdrop: humid southern Atlantic Forest in soft overcast dawn light, with moss, epiphytes, fern fronds, deep green foliage and restrained shallow depth of field. Use one continuous naturally supported mossy branch; a hollow old trunk may appear only as habitat structure in the background, not as a claimed active nest. No eggs, prey or nest lining.
+
+Composition/framing: exactly three owls at one coherent depth, generous margins, no collage panels. Left adult male on the branch in alert three-quarter profile, looking inward. Center age-unknown later juvenile on a slightly raised knotted section of the same branch, leaning forward in a cautious supported side-step with head turned upward; both feet visibly grip the branch and both folded wings stay closed. Right adult female on the continuation of the branch in a relaxed side-three-quarter pose, near-equal crown height and only subtly fuller/heavier than the male. Adults must not be mirror clones.
+
+Adult identity: compact Megascops proportions; moderate ear tufts; distinct nearly black to dark-brown crown cap and nape; dark-edged warm-brown facial disc; brown to dark-amber irises (never bright yellow for the two adults); dull greenish-horn bill; brown-morph upperparts with restrained pale scapular edging, fine shaft streaks and cross-bars; cream-brown underparts with narrow dark streaking; feathered tarsi and naturally gripping feet. Do not import fixed traits from M. watsonii, M. sanctaecatarinae or M. alagoensis.
+
+Young: field-record-bounded age-unknown later juvenile, not a hatchling and not a precise-day fledgling. Bright yellow irises; tiny developing ear tufts; rounder, softer/downier head and facial feathers; compact body; SHORT, ROUNDED, FORMED BUT DOWN-VEILED folded wings ending well above the feet, with irregular soft juvenile mottling rather than long aligned adult remiges or crisp white scapular tiles; short visible tail; both feet gripping. Do not claim flight ability, independence, exact sex or exact age.
+
+Typography must be exact:
+Top title: "#133 · BLACK-CAPPED SCREECH-OWL"
+Subtitle: "Megascops atricapilla"
+Bottom labels under the correct birds: "ADULT MALE" · "OLDER JUVENILE · AGE UNKNOWN" · "ADULT FEMALE"
+
+Avoid: extra birds; extra, fused or missing feet; floating birds; long adult-regular juvenile wing layers reaching the feet; mature adult facial disc on the juvenile; juvenile flight display; male visibly larger/taller; female visibly smaller; fixed giant female; cloned adult poses; bright-yellow adult eyes; black bill; open grassland; snow; active nest claim; eggs; prey; watermark; logo; misspelled or additional text.
+
+Applied result: one generation, no edit; full plate and three role crops reviewed. V4's overlong adult-regular juvenile wing was replaced by a short rounded formed but down-veiled wing on a bilaterally supported age-unknown older juvenile. PASS_WITH_LIMITATIONS; scientifically_verified=false.

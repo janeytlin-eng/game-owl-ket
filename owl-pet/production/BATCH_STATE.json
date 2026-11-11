@@ -38947,8 +38947,8 @@
       "next_cycle": 5,
       "active_cycle": 5,
       "started_at": "2026-11-11T19:38:46+08:00",
-      "updated_at": "2026-11-11T22:39:47+08:00",
-      "current_stage": "IMAGE_GENERATED",
+      "updated_at": "2026-11-11T22:41:39+08:00",
+      "current_stage": "REVIEWED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex-owl-production",
@@ -38956,15 +38956,15 @@
         "batch_id": "20261111T193846+0800",
         "cycle": 5,
         "species_id": 120,
-        "heartbeat_at": "2026-11-11T22:39:47+08:00",
-        "expires_at": "2026-11-11T22:54:47+08:00"
+        "heartbeat_at": "2026-11-11T22:41:39+08:00",
+        "expires_at": "2026-11-11T22:56:39+08:00"
       },
       "in_progress": {
         "run_id": "20261111T223524+0800-cycle-5",
         "cycle": 5,
         "species_id": 120,
         "species": "Megascops ingens",
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "run_record": "owl-pet/production/runs/20261111T223524+0800-cycle-5.md"
       },
       "active": {
@@ -38972,7 +38972,7 @@
         "cycle": 5,
         "species_id": 120,
         "species": "Megascops ingens",
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "run_record": "owl-pet/production/runs/20261111T223524+0800-cycle-5.md"
       },
       "stage_events": [
@@ -39941,9 +39941,67 @@
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-11T22:54:47+08:00"
           }
+        },
+        {
+          "batch_id": "20261111T193846+0800",
+          "cycle": 5,
+          "stage": "REVIEWED",
+          "at": "2026-11-11T22:41:39+08:00",
+          "run_id": "20261111T223524+0800-cycle-5",
+          "species_id": 120,
+          "species": "Megascops ingens",
+          "credited": false,
+          "evidence": {
+            "final_original": "owl-pet/production/generated/120-megascops-ingens-v5-final-original.png",
+            "final_blob": "a37eeac43940af54ab559348754899a4ada8f432",
+            "final_bytes": 3003333,
+            "final_sha256": "af27d13d7a9669c737060ade44c02bf845d5a99aeef63c275802bf944c21c2e3",
+            "geometry": "1536x1024",
+            "edit_count": 1,
+            "imagegen_invocations": 2,
+            "review_record": "owl-pet/research/reviews/120-megascops-ingens-v5-review.md",
+            "review_crops": [
+              "owl-pet/production/review-crops/120-megascops-ingens-v5-adult-male.png",
+              "owl-pet/production/review-crops/120-megascops-ingens-v5-juvenile.png",
+              "owl-pet/production/review-crops/120-megascops-ingens-v5-adult-female.png"
+            ],
+            "crop_blobs": [
+              "1769606ccfd70ae923b2b54126bae6b69030f36e",
+              "da353bb1a7c18a72b0cc48e9e1b244f6fcb058fb",
+              "a15b2f5abcac0162ae794fbcd881306cb1440ca5"
+            ],
+            "actual_views": [
+              "v4 full plate",
+              "v5 initial full plate",
+              "v5 edited full plate",
+              "edited adult male crop",
+              "edited juvenile crop",
+              "edited adult female crop"
+            ],
+            "checks": {
+              "identity": "PASS_WITH_LIMITATION",
+              "sex_direction": "PASS_WITH_LIMITATION",
+              "juvenile_stage": "PASS_WITH_LIMITATIONS_AFTER_EDIT",
+              "juvenile_action": "PASS_AFTER_EDIT",
+              "support": "PASS",
+              "text_count_order": "PASS",
+              "habitat": "PASS_WITH_LIMITATION",
+              "taxonomy": "PASS"
+            },
+            "unknowns": [
+              "exact juvenile age and sex",
+              "continuous feather chronology",
+              "first-flight threshold and independence",
+              "quantitative adult sex-size ratio",
+              "exact subspecific colour"
+            ],
+            "review_result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-11T22:56:39+08:00"
+          }
         }
       ],
-      "stage": "IMAGE_GENERATED",
+      "stage": "REVIEWED",
       "completed_count": 4
     }
   ],
@@ -39953,8 +40011,8 @@
     "batch_id": "20261111T193846+0800",
     "cycle": 5,
     "species_id": 120,
-    "heartbeat_at": "2026-11-11T22:39:47+08:00",
-    "expires_at": "2026-11-11T22:54:47+08:00"
+    "heartbeat_at": "2026-11-11T22:41:39+08:00",
+    "expires_at": "2026-11-11T22:56:39+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -46684,7 +46742,7 @@
   ],
   "active_batch_id": "20261111T193846+0800",
   "active_cycle": 5,
-  "current_stage": "IMAGE_GENERATED",
+  "current_stage": "REVIEWED",
   "next_cycle": 5,
   "unique_species_count": 176,
   "total_species": 251,
@@ -50992,6 +51050,64 @@
         ],
         "scientifically_verified": false,
         "lease_expires_at": "2026-11-11T22:54:47+08:00"
+      }
+    },
+    {
+      "batch_id": "20261111T193846+0800",
+      "cycle": 5,
+      "stage": "REVIEWED",
+      "at": "2026-11-11T22:41:39+08:00",
+      "run_id": "20261111T223524+0800-cycle-5",
+      "species_id": 120,
+      "species": "Megascops ingens",
+      "credited": false,
+      "evidence": {
+        "final_original": "owl-pet/production/generated/120-megascops-ingens-v5-final-original.png",
+        "final_blob": "a37eeac43940af54ab559348754899a4ada8f432",
+        "final_bytes": 3003333,
+        "final_sha256": "af27d13d7a9669c737060ade44c02bf845d5a99aeef63c275802bf944c21c2e3",
+        "geometry": "1536x1024",
+        "edit_count": 1,
+        "imagegen_invocations": 2,
+        "review_record": "owl-pet/research/reviews/120-megascops-ingens-v5-review.md",
+        "review_crops": [
+          "owl-pet/production/review-crops/120-megascops-ingens-v5-adult-male.png",
+          "owl-pet/production/review-crops/120-megascops-ingens-v5-juvenile.png",
+          "owl-pet/production/review-crops/120-megascops-ingens-v5-adult-female.png"
+        ],
+        "crop_blobs": [
+          "1769606ccfd70ae923b2b54126bae6b69030f36e",
+          "da353bb1a7c18a72b0cc48e9e1b244f6fcb058fb",
+          "a15b2f5abcac0162ae794fbcd881306cb1440ca5"
+        ],
+        "actual_views": [
+          "v4 full plate",
+          "v5 initial full plate",
+          "v5 edited full plate",
+          "edited adult male crop",
+          "edited juvenile crop",
+          "edited adult female crop"
+        ],
+        "checks": {
+          "identity": "PASS_WITH_LIMITATION",
+          "sex_direction": "PASS_WITH_LIMITATION",
+          "juvenile_stage": "PASS_WITH_LIMITATIONS_AFTER_EDIT",
+          "juvenile_action": "PASS_AFTER_EDIT",
+          "support": "PASS",
+          "text_count_order": "PASS",
+          "habitat": "PASS_WITH_LIMITATION",
+          "taxonomy": "PASS"
+        },
+        "unknowns": [
+          "exact juvenile age and sex",
+          "continuous feather chronology",
+          "first-flight threshold and independence",
+          "quantitative adult sex-size ratio",
+          "exact subspecific colour"
+        ],
+        "review_result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false,
+        "lease_expires_at": "2026-11-11T22:56:39+08:00"
       }
     }
   ],
@@ -61507,7 +61623,7 @@
     "cycle": 5,
     "species_id": 120,
     "species": "Megascops ingens",
-    "stage": "IMAGE_GENERATED",
+    "stage": "REVIEWED",
     "run_record": "owl-pet/production/runs/20261111T223524+0800-cycle-5.md"
   }
 }

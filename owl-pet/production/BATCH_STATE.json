@@ -40313,8 +40313,8 @@
       "next_cycle": 3,
       "active_cycle": 3,
       "started_at": "2026-11-11T23:36:00+08:00",
-      "updated_at": "2026-11-12T01:15:00+08:00",
-      "current_stage": "IMAGE_GENERATED",
+      "updated_at": "2026-11-12T01:20:00+08:00",
+      "current_stage": "REVIEWED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex-owl-production",
@@ -40322,8 +40322,8 @@
         "batch_id": "20261111T233600+0800",
         "cycle": 3,
         "species_id": 126,
-        "heartbeat_at": "2026-11-12T01:15:00+08:00",
-        "expires_at": "2026-11-12T01:30:00+08:00"
+        "heartbeat_at": "2026-11-12T01:20:00+08:00",
+        "expires_at": "2026-11-12T01:35:00+08:00"
       },
       "active": {
         "run_id": "20261112T005500+0800-cycle-3",
@@ -40894,6 +40894,66 @@
             "inspection_issue": "Juvenile folded wing was too long and adult-like; exact text/count, adult identity, near-equal scale, six stable contacts and limestone setting passed. One targeted edit shortened/rounded the wing and restored down interruption; crop review pending.",
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-12T01:30:00+08:00"
+          }
+        },
+        {
+          "batch_id": "20261111T233600+0800",
+          "cycle": 3,
+          "stage": "REVIEWED",
+          "at": "2026-11-12T01:20:00+08:00",
+          "run_id": "20261112T005500+0800-cycle-3",
+          "species_id": 126,
+          "species": "Strix hadorami",
+          "credited": false,
+          "evidence": {
+            "final_original": "owl-pet/production/generated/126-strix-hadorami-v4-final-original.png",
+            "final_blob": "c7084dde44cd9142b9c744acacd73ee3838d577e",
+            "final_bytes": 2707629,
+            "final_sha256": "83cd3e3cdb71baeb4c812737694916b67b8802e3e1070028fcf6e118a35efa2c",
+            "geometry": "1536x1024",
+            "edit_count": 1,
+            "imagegen_invocations": 2,
+            "reviewed_path": "owl-pet/production/reviewed/126-strix-hadorami-v4-reviewed-master.png",
+            "reviewed_blob": "c7084dde44cd9142b9c744acacd73ee3838d577e",
+            "review_record": "owl-pet/research/reviews/126-strix-hadorami-v4-review.md",
+            "review_crops": [
+              "owl-pet/production/review-crops/126-strix-hadorami-v4-adult-male.png",
+              "owl-pet/production/review-crops/126-strix-hadorami-v4-fledgling.png",
+              "owl-pet/production/review-crops/126-strix-hadorami-v4-adult-female.png"
+            ],
+            "crop_blobs": [
+              "de5f85f2bf8f0b360198555e2d455cd26dbca7e5",
+              "7d53ff7fa3cf6e44095417769b61dcf99614219b",
+              "0a822a411ef65467601f51a21e0e84d402382528"
+            ],
+            "actual_views": [
+              "v3 full plate",
+              "v4 initial full plate",
+              "v4 edited full plate",
+              "v4 adult male crop",
+              "v4 fledgling crop",
+              "v4 adult female crop"
+            ],
+            "checks": {
+              "identity": "PASS_WITH_LIMITATION",
+              "sex_direction": "PASS_WITH_LIMITATION",
+              "juvenile_stage": "PASS_AFTER_EDIT_WITH_LIMITATIONS",
+              "juvenile_action": "PASS_AFTER_EDIT",
+              "wing_development": "PASS_AFTER_EDIT",
+              "support": "PASS",
+              "text_count_order": "PASS",
+              "habitat": "PASS_WITH_LIMITATION"
+            },
+            "unknowns": [
+              "exact hatch dates of photographed young",
+              "individual sex-size ratio",
+              "iris and feather chronology",
+              "continuous flight competence",
+              "independence timing outside the study population"
+            ],
+            "review_result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-12T01:35:00+08:00"
           }
         }
       ]

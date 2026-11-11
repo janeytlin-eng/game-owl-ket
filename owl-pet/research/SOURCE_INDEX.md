@@ -4658,3 +4658,22 @@ Reused/re-read without duplicate IDs for #130 v5: `KOEP-ITIS-686665-2026`, repos
 
 ### Reused source mapping
 - Re-read `BCSO-DANTAS-2021` and `BCSO-WIKIAVES-WA2019052`; retained `BCSO-NATURALIS-TYPES-2023`. Applied to `research/species/133-megascops-atricapilla-v5.md` and v5 review.
+
+
+## 2026-11-12 — #134 *Megascops sanctaecatarinae* v5 — title, sex-scale and cavity-young boundary
+
+### LTSC-MENQ-BICHINSKI-2018 — newly indexed secondary nesting synthesis
+- **Title / author / year:** “Corujinha-do-sul (*Megascops sanctaecatarinae*)” / Willian Menq / edited 2018.
+- **URL / accessed / type:** https://www.avesderapinabrasil.com/megascops_sanctaecatarinae.htm ; 2026-11-12; specialist secondary synthesis.
+- **Sections read:** species account lines 17–35 and adult/nest photo captions.
+- **Species/stages:** adults and reported cavity broods; southern Brazil.
+- **Evidence:** cites Bichinski (2012) for three Piraí do Sul cavity nests, including repeat use of a woodpecker cavity and a natural cavity in a dead tree; reports two chicks in each of the first two events; summarizes semi-open, Araucaria, riparian/secondary forest and edge contexts.
+- **Limits/confidence:** secondary rather than the original note; no known-age development, feather chronology, foot anatomy or flight threshold. Medium for cavity/habitat context only. It does not justify making the illustrated cavity a claim about a specific active nest.
+- **Design/review link:** `research/species/134-megascops-sanctaecatarinae-v5.md`; v5 keeps an evidence-limited cavity-supported upper-body juvenile.
+
+### Reused/re-read stable sources
+- **LTSC-PAGANO-2021:** primary natural-history article, pp.51–64 / abstract and morphology-habitat sections re-read. Voice is key; ear-tuft length and iris colour are not diagnostic; available specimen/mass evidence does not justify a fixed visible sex ratio.
+- **LTSC-KACHIMARECK-2014-WA1527488:** direct age-unknown “Filhote” photograph re-used only for visible charcoal-grey mesoptile, dark face, open greenish bill and cavity-lip support; hidden anatomy and locomotor stage remain unknown.
+- **LTSC-ITIS-686677:** current name/common name and *Otus*/*Scops* old-name mapping only.
+- **Access note:** Macaulay ML626150010 direct page was blocked by bot protection; search metadata alone was not treated as verified evidence. Uploaded Mikkola guide was not mounted in this execution; no new page claim was added.
+- **Index change:** new 1; reused/re-read 3; corrected inference boundaries 4 (title hierarchy, adult scale, juvenile anatomy/action, nest-context wording). Scientific status remains false.

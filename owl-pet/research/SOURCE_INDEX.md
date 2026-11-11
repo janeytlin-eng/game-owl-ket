@@ -2925,6 +2925,36 @@
 - Reused/freshly reread: `PEO-URRIZA-2017`, `PEO-OCHAVO-2012`, `PEO-MIK2013-P294`, `PEO-ARTUSO-2015`, `PEO-AVIBASE-MAPPING`. Full boundaries/prompt: `research/species/124-ketupa-philippensis-v4.md`. Science false.
 
 
+## 2026-11-11 — #106 *Strix albitarsis* v4 — current name, adult iris and juvenile-roost boundary
+
+### RBO-GREENEY-2003-P67-68
+- **Title / author / year:** *Brief observations on the diet, day roost, and juveniles of the rufous-banded owl (Strix albitarsis) in eastern Ecuador* / Harold F. Greeney / 2003.
+- **URL:** https://periodicos.ufmg.br/index.php/lundiana/article/download/21838/17677
+- **Type / accessed:** primary field note, *Lundiana* 4(1):67–68; full institutional PDF read 2026-11-11.
+- **Species/stage/pages:** *Strix albitarsis*; adult-plumaged bird and age-unknown yellow-cream-down juvenile; printed pp.67–68.
+- **Facts:** a juvenile repeatedly day-roosted beside an adult-plumaged bird at the bases of large tree-fern leaves about 4 m high in disturbed primary forest with *Chusquea*; another juvenile sat in a dirt road at night. The paper says nesting sites/breeding biology were unknown.
+- **Limits/conflicts:** no hatch date, feather sequence, sex, iris chronology or flight test; fern-base is a day roost, not a nest.
+- **Design use:** supported age-unknown yellow-cream-down juvenile at an attached living tree-fern roost; no nest material, eggs or flight claim.
+- **Links:** `research/species/106-strix-albitarsis-v4.md`; planned concept v4; run `production/runs/20261111T161047+0800-cycle-3.md`.
+
+### RBO-SIBUNDOY-2013-P144
+- **Title / authors / year:** *Aves del Valle de Sibundoy, Alto Putumayo, Colombia: Guía de Campo* / E. A. Gutiérrez Zamora, J. J. Mueses-Cisneros, M. C. Ramírez-Enríquez & I. V. Perdomo-Castillo; editor F. G. Stiles / 2013.
+- **URL:** https://www.birds.cornell.edu/latam/wp-content/uploads/2023/09/Aves-de-sibundoy-2014-1.pdf
+- **Type / accessed:** Cornell-hosted institutional regional field guide; PDF read 2026-11-11.
+- **Species/stage/page:** *Ciccaba albitarsus* = *Strix albitarsis*; adult; printed p.144, extracted lines 3903–3926.
+- **Facts:** 38 cm / 360 g; dark eyes, rounded head, dark-brown upperparts with dense rufous barring, rufous-brown face, whitish brows, thin dark facial border, white throat, broad rufous mottled/barred pectoral band and creamier finely marked belly; dense-cover roosting among branches, epiphytes and foliage.
+- **Limits/conflicts:** regional guide, no sexed dimensions and no juvenile chronology; conflicts with secondary bright-eye accounts.
+- **Design use:** adult identity, dark-eye boundary and humid Andean dense-cover context; no illustrated sex-size hierarchy.
+
+### RBO-ITIS-686690-2026
+- **Institution / record:** Integrated Taxonomic Information System, TSN 686690; source includes IOC World Bird List 15.1; accessed 2026-11-11.
+- **URL:** https://itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=686690
+- **Type / section:** official taxonomy registry; lines 42–106.
+- **Facts:** valid *Strix albitarsis*; synonyms *Ciccaba albitarsus*, *Syrnium albitarse* and *Ciccaba albitarsis*; verified-standards record.
+- **Limits/design use:** taxonomy only; supports current/old-name crosswalk and no morphology or development inference.
+
+- Re-read/reused: accessible Peru Aves adult/juvenile-labelled account and repository v3 record. Corrected boundary: two accessible institutional dark-eye accounts control v4; inaccessible Mikkola orange-eye snippet remains an unverified conflict. New3 / re-read2 / corrected2; science false.
+
 ## 2026-11-06 — #127 *Megascops albogularis* v4 — direct juvenile description and name mapping
 
 ### WTSO-SIBUNDOY-2013-P142

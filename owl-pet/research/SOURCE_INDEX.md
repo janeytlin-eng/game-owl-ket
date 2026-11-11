@@ -4415,3 +4415,15 @@ Reused without duplicate IDs: `RUT-RASMUSSEN-ETAL-2000`, `RUT-ITIS-202268-2026`,
 - Confidence: high for survey setting/results.
 
 Reused without duplicate IDs: `SUN-BIRDFORUM-YOGYA-2013`, `SUSO-MEES-2006-LEMPIJI`, `SUSO-NPARKS-2025`, `SUN-ITIS-1063234`. Full prompt/boundaries: `owl-pet/research/species/115-otus-lempiji-v4.md`. Scientific verification remains false.
+
+
+## 2026-11-11 — #116 *Margarobyas lawrencii* v5 — current text contract and institutional identity check
+
+### BLO-PEREGRINEFUND-2025-P74
+- The Peregrine Fund. *Raptors of the Caribbean: Education Guide* (2025), p.74. https://peregrinefund.org/sites/default/files/2026-01/Raptor%20Education%20Guide%20English%202025.pdf ; accessed 2026-11-11.
+- Species-specific institutional account: Cuba/Isla de la Juventud; wooded, forest, shrub and human-altered habitats; dark eyes, off-white facial disc, no ear tufts and legs entirely unfeathered; natural/tree/rock cavities including woodpecker holes.
+- Design support: adult identity, bare-leg requirement and conservative wooded/cavity setting.
+- Limits: education guide, not a primary growth study; no juvenile feather chronology, exact age, flight ability or quantitative sex-size evidence.
+- Confidence: high for stated adult identity/habitat, not developmental detail.
+
+Reused without duplicate IDs: `BLO-KIRKCONNELL-WILEY-2017`, `BLO-SUAREZ-2022-CATALOGUE`, `CBLO-MIK2013-252`, `CBLO-SHERONY-2006`, `CBLO-AOU-2013A11`, `BLO-OLSON-SUAREZ-2008`. Full prompt/boundaries: `owl-pet/research/species/116-margarobyas-lawrencii-v5.md`. Science remains false.

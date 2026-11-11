@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T05:58:32+08:00",
+  "updated": "2026-11-12T05:59:55+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -31185,8 +31185,8 @@
         }
       ],
       "archive_note": "V4, v5 full plate and all three role crops opened. Short down-veiled juvenile wing, support, near-equal adults and Atlantic-Forest habitat boundaries applied. New2/reused3. Uploaded Mikkola unavailable; no new page claim. Science false. Initial archive readback exposed connector-output truncation (master 786,446 bytes; two crops truncated). Re-uploaded master directly from the generated data URL and resized only the two review crops to 500×786 before re-upload; all three displayed role details were re-opened. Archive verification still pending.",
-      "readback_pending": true,
-      "archive_commit_pending": true,
+      "readback_pending": false,
+      "archive_commit_pending": false,
       "archived_at": "2026-11-12T05:56:13+08:00",
       "archive_repair": {
         "failed_archive_commit": "20fe7934b05dbf63e4effe54816e3a6ad9e55d42",
@@ -31195,8 +31195,15 @@
         "master_blob": "0bc6fde0c0120322247fade465c3fdf5070e1695",
         "male_crop_blob": "074e5859c99b2d97cabd07f96dc820105b0aa1d4",
         "female_crop_blob": "39517a12e64b4fa0d969d057df5f5f5dad587984"
-      }
+      },
+      "archive_commit": "11099857ed587ad964162b832bb90ed8dd945392",
+      "archive_tree": "a5fab5a52a1186be63149b9a64d8c99b8e246fee",
+      "exact_binary_paths_verified": 9,
+      "unique_binary_streams_read_back": 4,
+      "verified_at": "2026-11-12T05:59:55+08:00",
+      "verification_result": "PASS_WITH_LIMITATIONS",
+      "verification_commit_pending": true
     }
   ],
-  "updated_at": "2026-11-12T05:58:32+08:00"
+  "updated_at": "2026-11-12T05:59:55+08:00"
 }

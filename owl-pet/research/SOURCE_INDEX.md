@@ -2997,6 +2997,26 @@
 
 - Reused/freshly reread: `PEO-URRIZA-2017`, `PEO-OCHAVO-2012`, `PEO-MIK2013-P294`, `PEO-ARTUSO-2015`, `PEO-AVIBASE-MAPPING`. Full boundaries/prompt: `research/species/124-ketupa-philippensis-v4.md`. Science false.
 
+## 2026-11-12 — #124 *Ketupa philippensis* v5 — age-label correction and institutional visual cross-check
+
+### PEO-MACAULAY-ML624492559
+
+- **Stable ID / title:** PEO-MACAULAY-ML624492559 — “ML624492559 — Philippine Eagle-Owl.”
+- **Creator / institution / date:** Adrian Constantino / Birding Philippines; Macaulay Library, Cornell Lab of Ornithology; media date not supplied; accessed 2026-11-11.
+- **URL / source type:** https://macaulaylibrary.org/asset/624492559 — institutional media catalogue and full image; species-specific visual reference.
+- **Taxon / stage / locality:** *Ketupa philippensis*; age and sex explicitly “Not specified”; National Capital Region (Manila), Philippines.
+- **Actually read / viewed:** catalogue lines 53–99 and the linked 2048×1536 image. The record supplies contributor, Manila locality, explicit unknown age/sex and low-light capture metadata (ISO 3200, 1/80 s, no flash). It is useful as a cautious current visual cross-check only.
+- **Limits / confidence:** high confidence for record metadata, low for sex, age, calibrated colour and subspecies diagnosis. It must not support a sex-size rule, juvenile chronology or iris-colour chronology.
+- **Design / QA decision:** reinforces the rule that an unaged photograph must not be silently assigned as male, female or juvenile. V5 therefore keeps adult body size near equal and labels the young “OLDER JUVENILE — AGE UNKNOWN,” while juvenile iris colour remains an explicit inference rather than a fact.
+- **Links:** `research/species/124-ketupa-philippensis-v5.md`; `design/concepts/124-ketupa-philippensis-v5.png`; `research/reviews/124-ketupa-philippensis-v5-review.md`.
+
+### Re-read and boundary correction
+
+- `PEO-URRIZA-2017` author-posted abstract was re-read at lines 26–31: weekly observations over five weeks and “at least 70 days to fledge” are a minimum for one young, not a day-age label or feather-sequence chart.
+- `PEO-OCHAVO-2012` was re-read at lines 48–70: the juvenile was observed flapping on 3 January, left the structure on 7 January and made a long flight on 14 January. The sequence supports an older supported young and wing exercise, but supplies no plumage chronology or exact age.
+- `PEO-ITIS-1244715-2026` is reused for the current-name and old-name mapping. `PEO-MIK2013-P294` is reused only from the repository-pinned printed pp.294–295 because the uploaded guide was not mounted in this execution.
+- **Correction applied:** v4’s visible label “NEAR-FLEDGED” was more specific than the displayed individual’s evidence. V5 uses “OLDER JUVENILE — AGE UNKNOWN”; it may show a compact folded wing and a supported balancing lean, but no flight, spread wing, exact age or adult-perfect covert rows. Science remains false.
+
 
 ## 2026-11-11 — #106 *Strix albitarsis* v4 — current name, adult iris and juvenile-roost boundary
 

@@ -4389,3 +4389,29 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - Limit: predates the current east/west split and supplies no female or juvenile development evidence. Supports a cautious eastern rufous direction only.
 
 Reused without duplicate IDs: `RUT-RASMUSSEN-ETAL-2000`, `RUT-ITIS-202268-2026`, `RUT-VASSEN-2013-ANDASIBE-JUV`, `RUT-CORNELL-ADULT-PHOTOS-2026`. Full prompt/boundaries: `owl-pet/research/species/108-otus-rutilus-v5.md`. Scientific verification remains false.
+
+
+## 2026-11-11 — #115 *Otus lempiji* v4 — mobile juvenile behavior and lowland habitat
+
+### SUN-LOK-2009 — corrected/expanded existing source record
+- Lok, A. F. S. L., Lee, T. K. & Lim, K. C. (2009). “The Biology of *Otus lempiji cnephaeus*, the Sunda Scops-Owl in Singapore.” *Nature in Singapore* 2:31–38. LKCNHM/NUS.
+- URL: https://lkcnhm.nus.edu.sg/app/uploads/2017/04/2009nis31-38.pdf ; accessed 2026-11-11.
+- Printed p.32 Fig.2: juvenile lacking distinct ear tufts, supported on an Albizia twig. Printed pp.35–37 Figs.5–9 and text: two Oct.2008 immature birds begged on adult arrival; one flew to the adult branch and feeding/prey handling followed.
+- Design support: an older age-unknown mobile juvenile may be branch-supported and shown begging. It does **not** establish exact age, sex, a universal fledging threshold or nominate *O. l. lempiji* juvenile colour.
+- Confidence: high for the documented Singapore behavior; subspecies-transfer boundary explicit.
+
+### SUN-NAJMI-HANIS-2016
+- Najmi-Hanis, Z., Puan, C. L., Zakaria, M. & Azhar, B. (2016). “Home range and activity patterns of Sunda scops owl in Peninsular Malaysia.” *Raffles Bulletin of Zoology* 64:28–32.
+- URL: https://lkcnhm.nus.edu.sg/app/uploads/2017/04/64rbz028-032.pdf ; accessed 2026-11-11.
+- Primary radio-telemetry study of six molecularly sexed adults in isolated lowland Ayer Hitam forest. Species also described from forest, plantations and suburban/wooded habitats.
+- Design support: lowland wooded-edge habitat only. No juvenile morphology, adult plumage or sex-size conclusion.
+- Confidence: high for study habitat/activity; not a development source.
+
+### SUN-PILLA-2018
+- Pilla, P., Puan, C. L., Lim, V.-C., Azhar, B. & Zakaria, M. (2018). “Sunda Scops-Owl Density Estimation via Distance Sampling and Call Playback.” *Sains Malaysiana* 47(3):441–446. DOI: https://doi.org/10.17576/jsm-2018-4703-03
+- URL: https://www.ukm.my/jsm/pdf_files/SM-PDF-47-3-2018/03%20Phillcaine%20Pilla.pdf ; accessed 2026-11-11.
+- Primary lowland dipterocarp-forest survey: 58 detections, 72.41% during the breeding period.
+- Design support: lowland forest context only; no morphology or juvenile-stage inference.
+- Confidence: high for survey setting/results.
+
+Reused without duplicate IDs: `SUN-BIRDFORUM-YOGYA-2013`, `SUSO-MEES-2006-LEMPIJI`, `SUSO-NPARKS-2025`, `SUN-ITIS-1063234`. Full prompt/boundaries: `owl-pet/research/species/115-otus-lempiji-v4.md`. Scientific verification remains false.

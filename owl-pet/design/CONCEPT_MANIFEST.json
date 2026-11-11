@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T20:40:09.340+08:00",
+  "updated": "2026-11-11T20:49:56.613+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -31542,7 +31542,79 @@
       "unique_binary_streams_read_back": 4,
       "verified_at": "2026-11-11T20:40:09.340+08:00",
       "verification_result": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "id": "118-megascops-cooperi-v5",
+      "path": "design/concepts/118-megascops-cooperi-v5.png",
+      "species_id": 118,
+      "scientific_name": "Megascops cooperi",
+      "historical_names": [
+        "Otus cooperi",
+        "Scops cooperi"
+      ],
+      "common_name": "Pacific Screech-Owl",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "prior_versions_retained": true,
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "imagegen_invocations": 1,
+      "status": "V5 preserves v1-v4, updates the current text/order, keeps near-equal adults with fully feathered tarsi and visibly bristled toes, and bounds the older fledgling to the documented supported defensive display. Formed barred flight feathers are retained with softer downy head/body/wing bases and a short hidden tail. Exact age, sex, feather sequence, first-flight threshold, independence, sex-size ratio and subspecific detail remain unknown.",
+      "source_ids": [
+        "PSC-CAMACHO-VARELA-2014-MEGASCOPS",
+        "PSC-RIDGWAY-1878-COOPERI",
+        "PSC-ITIS-686661-2026",
+        "PSC-KOMAR-STUFKENS-2012",
+        "PSC-MIKKOLA-2013-P210",
+        "PSC-OWLPAGES-2020",
+        "PSC-AVESCR-2025"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/118-megascops-cooperi-v5.md",
+      "review_record": "research/reviews/118-megascops-cooperi-v5-review.md",
+      "run_record": "production/runs/20261111T204400+0800-cycle-3.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 3456977,
+      "sha256": "f70e2c7b5556e3e27101d0528f8f0290f9b9e38a8f854b0898af6d3099a6b1f2",
+      "git_blob": "2585d8ab2a9d36f6921e741e2cf95a6abe86e2c2",
+      "initial_original_path": "production/generated/118-megascops-cooperi-v5-initial-original.png",
+      "initial_original_blob": "2585d8ab2a9d36f6921e741e2cf95a6abe86e2c2",
+      "initial_original_size_bytes": 3456977,
+      "initial_original_sha256": "f70e2c7b5556e3e27101d0528f8f0290f9b9e38a8f854b0898af6d3099a6b1f2",
+      "final_original_path": "production/generated/118-megascops-cooperi-v5-final-original.png",
+      "final_original_blob": "2585d8ab2a9d36f6921e741e2cf95a6abe86e2c2",
+      "final_original_size_bytes": 3456977,
+      "final_original_sha256": "f70e2c7b5556e3e27101d0528f8f0290f9b9e38a8f854b0898af6d3099a6b1f2",
+      "full_color_source_path": "production/generated/118-megascops-cooperi-v5-full-color.png",
+      "full_color_source_blob": "2585d8ab2a9d36f6921e741e2cf95a6abe86e2c2",
+      "full_color_source_size_bytes": 3456977,
+      "full_color_source_sha256": "f70e2c7b5556e3e27101d0528f8f0290f9b9e38a8f854b0898af6d3099a6b1f2",
+      "generated_path": "production/generated/118-megascops-cooperi-v5-generated-master.png",
+      "generated_blob": "2585d8ab2a9d36f6921e741e2cf95a6abe86e2c2",
+      "generated_size_bytes": 3456977,
+      "reviewed_path": "production/reviewed/118-megascops-cooperi-v5-reviewed-master.png",
+      "reviewed_blob": "2585d8ab2a9d36f6921e741e2cf95a6abe86e2c2",
+      "reviewed_size_bytes": 3456977,
+      "review_crops": [
+        "production/review-crops/118-megascops-cooperi-v5-adult-male.jpg",
+        "production/review-crops/118-megascops-cooperi-v5-adult-female.jpg",
+        "production/review-crops/118-megascops-cooperi-v5-juvenile.jpg"
+      ],
+      "archive_note": "V5 full plate and three focused role crops were actually opened. No edit was required because the documented older fledgling may retain formed flight feathers; softness, short hidden tail and support remain bounded. Three new verified sources and four reused/re-read sources. Uploaded Mikkola copy unavailable; repository page reused only. Science false.",
+      "readback_pending": true,
+      "archive_commit_pending": true,
+      "archived_at": "2026-11-11T20:49:56.613+08:00"
     }
   ],
-  "updated_at": "2026-11-11T20:40:09.340+08:00"
+  "updated_at": "2026-11-11T20:49:56.613+08:00"
 }

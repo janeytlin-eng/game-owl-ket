@@ -1749,4 +1749,4 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 
 - 2026-11-08T05:40:36.411+08:00: #97 *Lophostrix cristata* v5 LEDGER_CREDITED after verification `6e81be91d60bbad92ef2bbc98d4428a03a0a6f62`; batch 1/6, next cycle 2, lease released; unique 176/251; science false.
 
-- 2026-11-08T05:57:11.135+08:00: #102 *Strix nigrolineata* v5 archived pending immutable readback. New verified3 / re-read or reused3 / corrected1; one juvenile-wing imagegen edit; full plate and three crops opened; manifests 811/808/801; unique176/251; science=false.
+- 2026-11-11T15:55:19+08:00: #102 *Strix nigrolineata* v5 recovery archive staged after detecting truncated image objects and invalid JSON in the 2026-11-08 transport. Regenerated from the persisted prompt, re-read three authoritative records, opened the full plate and three role crops, and staged valid manifests at 811/808/801. Immutable readback pending; no ledger credit yet; unique 176/251; science false.

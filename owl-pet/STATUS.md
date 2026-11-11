@@ -4050,12 +4050,6 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` was read back after arch
 - Verification `32ffd7b47affd2bfb624aec1a8d10611fb12f073` and repaired archive `5027ec7ab4f4e447c1f40e543075650056ca3707` read back.
 - Credited cycle 1/6 exactly once; next cycle 2. Coverage 176/251; revision +1; science=false; lease released.
 
-## 2026-11-08 — #102 *Strix nigrolineata* v5 ARCHIVED (readback pending)
-
-- Re-read the full USDA 1997 primary dimorphism paper and 1994 food paper, plus ITIS taxonomy; added three verified source records and reused/re-read three bounded records.
-- One targeted imagegen edit shortened the age-unknown older juvenile's adult-like folded wing. Full plate and three role crops opened; `PASS_WITH_LIMITATIONS`, science=false.
-- Manifests staged at 811 / 808 / 801; unique coverage remains 176/251; revision +1 only after immutable verification.
-
 
 ## 2026-11-08 — #39 *Glaucidium griseiceps* v5 ARCHIVED (readback pending)
 
@@ -4097,3 +4091,10 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` was read back after arch
 
 - Verification `6e81be91d60bbad92ef2bbc98d4428a03a0a6f62` and archive `94db1071e7f69002dff410a8c2ea3f4df9314d96` read back.
 - Credited cycle 1/6 exactly once; next cycle 2. Coverage 176/251; revision +1; science=false; lease released.
+
+## 2026-11-11 — #102 v5 archive-transport recovery, ARCHIVED pending readback
+
+- The 2026-11-08 archive commit contained two truncated large PNG objects and invalid JSON in the ledger plus three canonical manifests; the broken commit is retained for audit and is not counted.
+- Existing research was revalidated against ITIS, USDA Forest Service pp.190–196 and the 1994 breeding-paper abstract; no duplicate source IDs were added.
+- A 1536×1024 recovery plate was regenerated from the persisted full prompt, then the full plate and three role crops were opened. No recovery edit was required.
+- PASS_WITH_LIMITATIONS; science=false; coverage remains 176/251. Manifests staged at 811 / 808 / 801; immutable readback pending.

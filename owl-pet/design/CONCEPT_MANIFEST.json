@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T21:43:30+08:00",
+  "updated": "2026-11-11T21:49:30+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -31701,10 +31701,17 @@
         }
       ],
       "archive_note": "Full plate and three focused crops were actually opened. First render passed without edit. V4's template symmetry was corrected; the older juvenile remains fully supported with no flight claim. Two new current-name sources, three reused/re-read species sources, and one corrected boundary. Uploaded Mikkola copy unavailable; repository-pinned pages reused only. Science false.",
-      "readback_pending": true,
-      "archive_commit_pending": true,
-      "archived_at": "2026-11-11T21:43:30+08:00"
+      "readback_pending": false,
+      "archive_commit_pending": false,
+      "archived_at": "2026-11-11T21:43:30+08:00",
+      "archive_commit": "5162e9b8c6010e7f28efc7047473aa73657860e8",
+      "archive_tree": "91697719bb2f633eab14f86813a87d965307ba39",
+      "exact_readback": true,
+      "required_paths_verified": 18,
+      "exact_binary_paths_verified": 9,
+      "verified_at": "2026-11-11T21:49:30+08:00",
+      "verification_result": "Immutable archive tree was non-truncated (4,295 entries). All 18 required paths were present; six original/alias paths matched the exact 3,355,983-byte Git blob, three crop paths matched exact blob and byte size, and all three manifests parsed with exactly one #119 v5 entry."
     }
   ],
-  "updated_at": "2026-11-11T21:43:30+08:00"
+  "updated_at": "2026-11-11T21:49:30+08:00"
 }

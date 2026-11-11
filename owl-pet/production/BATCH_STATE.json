@@ -53382,8 +53382,8 @@
     "next_cycle": 6,
     "active_cycle": 6,
     "started_at": "2026-11-11T23:36:00+08:00",
-    "updated_at": "2026-11-12T03:42:00+08:00",
-    "current_stage": "STARTED",
+    "updated_at": "2026-11-12T03:45:00+08:00",
+    "current_stage": "RESEARCH_READY",
     "ledger_credit_pending": false,
     "lease": {
       "owner": "codex-owl-production",
@@ -53391,18 +53391,18 @@
       "batch_id": "20261111T233600+0800",
       "cycle": 6,
       "species_id": 130,
-      "heartbeat_at": "2026-11-12T03:42:00+08:00",
-      "expires_at": "2026-11-12T03:57:00+08:00"
+      "heartbeat_at": "2026-11-12T03:45:00+08:00",
+      "expires_at": "2026-11-12T04:00:00+08:00"
     },
     "active": {
       "run_id": "20261112T034200+0800-cycle-6",
       "cycle": 6,
       "species_id": 130,
       "species": "Megascops koepckeae",
-      "stage": "STARTED",
+      "stage": "RESEARCH_READY",
       "run_record": "owl-pet/production/runs/20261112T034200+0800-cycle-6.md"
     },
-    "stage": "STARTED",
+    "stage": "RESEARCH_READY",
     "completed_count": 5,
     "stage_events": [
       {
@@ -54112,6 +54112,31 @@
           "prior_version": "owl-pet/design/concepts/130-megascops-koepckeae-v4.png",
           "lease_expires_at": "2026-11-12T03:57:00+08:00",
           "scientifically_verified": false
+        }
+      },
+      {
+        "batch_id": "20261111T233600+0800",
+        "cycle": 6,
+        "stage": "RESEARCH_READY",
+        "at": "2026-11-12T03:45:00+08:00",
+        "run_id": "20261112T034200+0800-cycle-6",
+        "species_id": 130,
+        "species": "Megascops koepckeae",
+        "credited": false,
+        "evidence": {
+          "research_record": "owl-pet/research/species/130-megascops-koepckeae-v5.md",
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "new_source_ids": [
+            "KOEP-FJELDSA-2012-P180-191",
+            "KOEP-REO2019-P31"
+          ],
+          "reused_or_reread_sources": 4,
+          "corrected_boundaries": 2,
+          "v4_visual_opened": true,
+          "complete_prompt_saved": true,
+          "uploaded_mikkola_accessible": false,
+          "scientifically_verified": false,
+          "lease_expires_at": "2026-11-12T04:00:00+08:00"
         }
       }
     ]

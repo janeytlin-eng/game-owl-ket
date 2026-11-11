@@ -4600,3 +4600,23 @@ Reused/re-read without duplicate IDs: `WTSO-ITIS-686679-2026` (current name, syn
 - **Links:** `owl-pet/research/species/129-megascops-hoyi-v5.md`; planned `owl-pet/design/concepts/129-megascops-hoyi-v5.png`.
 
 Reused/re-read without duplicate IDs for #129 v5: `HOY-KS1989-P4` (repository-pinned original-description p.4; BHL full text unavailable this run), `HOY-ITIS-686675-2026` (current name and *Otus hoyi* synonym), `HOY-KOENIG-2000` (adult visual calibration) and `HOY-MIK2013-228` (repository-pinned fledged-young guide page; uploaded file unavailable for a fresh read). Full prompt and uncertainty boundary: `owl-pet/research/species/129-megascops-hoyi-v5.md`. Scientific verification remains false.
+
+## 2026-11-12 — #130 *Megascops koepckeae* v5 — adult subspecies caution and Loja fledgling boundary
+
+### KOEP-FJELDSA-2012-P180-191
+- **Title/authors/year:** “Reappraisal of Koepcke’s Screech Owl *Megascops koepckeae* and description of a new subspecies” — Jon Fjeldså, Niels Krabbe, Manuel Sánchez Vega & Vivian Villegas, 2012, *Bulletin of the British Ornithologists’ Club* 132(3):180–191.
+- **URL/accessed/type:** https://www.biodiversitylibrary.org/partpdf/152393 ; accessed 2026-11-11 UTC / 2026-11-12 +08; peer-reviewed taxonomic/specimen and field-vocal evidence.
+- **Pages actually read:** printed pp.180–191, especially pp.189–191 (diagnosis/description of *M. k. hockingi* and comparison with nominate material).
+- **Facts/use:** central-Peruvian *hockingi* is described as drabber gray versus richer chocolate/snuff-brown nominate material. Useful adult characters include irregular fuscous upperpart streaks with ochre/whitish mottling, pale mouse-gray face edged black, white throat with darker herringbone marks, yellow iris, greenish or blue-gray bill/cere, and greenish-gray feet. The paper itself cautions that plumage is of limited taxonomic use compared with voice/habitat.
+- **Limits/conflicts/credibility:** adult/subspecies source, not juvenile development. Measurements include too little sex-balanced material to justify a sex-size direction. High confidence for the stated specimen comparison; it cannot assign the Loja population or image to a subspecies, so v5 explicitly leaves phenotype/subspecies unresolved.
+- **Links:** `owl-pet/research/species/130-megascops-koepckeae-v5.md`; planned v5 concept/review/run.
+
+### KOEP-REO2019-P31
+- **Title/authors/year:** “Notas sobre la historia natural del Autillo de Koepcke (*Megascops koepckeae*) en un ambiente antropizado al sur de Ecuador” — L. Ordóñez-Delgado, A. Orihuela-Torres & J. F. Freile, 2019, *Memorias VI Reunión Ecuatoriana de Ornitología*, p.31.
+- **URL/accessed/type:** https://avesconservacion.org/wp-content/uploads/2022/05/Memorias-VI-REO-2019.pdf ; accessed 2026-11-11 UTC / 2026-11-12 +08; conference-proceedings abstract of species-specific observations.
+- **Page actually read:** printed p.31.
+- **Facts/use:** Loja-basin records at 2,092–2,285 m include urban eucalyptus and Andean-forest edges; rescued chicks in 2015/2017; broad January–June breeding activity; a nest recorded in a crevice among Canary Island date-palm fronds; approximately three months from chick to adult-like plumage.
+- **Limits/conflicts/credibility:** abstract-level report; rescued chicks are not individually aged, staged or sexed, and the approximate interval is not a day-level sequence. The palm site is not universalized. Moderate confidence for the reported events, insufficient for exact-age anatomy or action.
+- **Links:** `owl-pet/research/species/130-megascops-koepckeae-v5.md`; planned v5 concept/review/run.
+
+Reused/re-read without duplicate IDs for #130 v5: `KOEP-ITIS-686665-2026`, repository-pinned `KOEP-MIK2013-222` (upload unavailable this run), `KOEP-ALARCON-2023` (two age-unknown Loja fledglings with gray-white barred residual nessoptiles, brown chest, white brows, black facial edges and yellow eyes on *Podocarpus* support) and `KOEP-ORDONEZ-FREILE-2019`. Full prompt and uncertainty boundary: `owl-pet/research/species/130-megascops-koepckeae-v5.md`. Scientific verification remains false.

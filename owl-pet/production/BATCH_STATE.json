@@ -41479,27 +41479,27 @@
       "next_cycle": 4,
       "active_cycle": 4,
       "started_at": "2026-11-12T04:31:00+08:00",
-      "updated_at": "2026-11-12T06:15:45+08:00",
-      "current_stage": "ARCHIVED",
-      "ledger_credit_pending": false,
+      "updated_at": "2026-11-12T06:17:11+08:00",
+      "current_stage": "VERIFIED",
+      "ledger_credit_pending": true,
       "lease": {
         "owner": "codex-owl-production",
         "run_id": "20261112T060100+0800-cycle-4",
         "batch_id": "20261112T043100+0800",
         "cycle": 4,
         "species_id": 134,
-        "heartbeat_at": "2026-11-12T06:15:45+08:00",
-        "expires_at": "2026-11-12T06:30:45+08:00"
+        "heartbeat_at": "2026-11-12T06:17:11+08:00",
+        "expires_at": "2026-11-12T06:32:11+08:00"
       },
       "active": {
         "run_id": "20261112T060100+0800-cycle-4",
         "cycle": 4,
         "species_id": 134,
         "species": "Megascops sanctaecatarinae",
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "run_record": "owl-pet/production/runs/20261112T060100+0800-cycle-4.md"
       },
-      "stage": "ARCHIVED",
+      "stage": "VERIFIED",
       "completed_count": 3,
       "stage_events": [
         {
@@ -42425,13 +42425,52 @@
             "verification_pending": true,
             "lease_expires_at": "2026-11-12T06:30:45+08:00"
           }
+        },
+        {
+          "batch_id": "20261112T043100+0800",
+          "cycle": 4,
+          "stage": "VERIFIED",
+          "at": "2026-11-12T06:17:11+08:00",
+          "run_id": "20261112T060100+0800-cycle-4",
+          "species_id": 134,
+          "species": "Megascops sanctaecatarinae",
+          "credited": false,
+          "evidence": {
+            "archive_commit": "27a73b52bc456e8442a0e1d76670d03573790030",
+            "archive_tree": "6e7f6236b5eed7abec8e09e3655b8036b8efe6f8",
+            "required_paths_verified": 18,
+            "exact_binary_paths_verified": 9,
+            "unique_binary_streams_read_back": 4,
+            "concept_blob": "ad8674d3d188ce13b3702ede469d1d930e355b7c",
+            "concept_bytes": 3210079,
+            "crop_blobs": [
+              "be7ead85c094259a84048da77a659e44d5f848d9",
+              "98ffc3bbe120004dc7b35b58bca03bdc228cebd1",
+              "e291cc40f416a8810b4ed0b26376538b4b06c99f"
+            ],
+            "crop_bytes": [
+              652989,
+              573716,
+              614982
+            ],
+            "manifest_counts": {
+              "design_image": 814,
+              "design_concept": 826,
+              "production_image": 804
+            },
+            "prompt_archive_verified": true,
+            "verification_result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false,
+            "ledger_credit_pending": true,
+            "lease_expires_at": "2026-11-12T06:32:11+08:00"
+          }
         }
       ],
       "in_progress": {
         "cycle": 4,
         "species_id": 134,
         "species": "Megascops sanctaecatarinae",
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "run_record": "owl-pet/production/runs/20261112T060100+0800-cycle-4.md"
       }
     }
@@ -42442,8 +42481,8 @@
     "batch_id": "20261112T043100+0800",
     "cycle": 4,
     "species_id": 134,
-    "heartbeat_at": "2026-11-12T06:01:51+08:00",
-    "expires_at": "2026-11-12T06:16:51+08:00"
+    "heartbeat_at": "2026-11-12T06:17:11+08:00",
+    "expires_at": "2026-11-12T06:32:11+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -42578,7 +42617,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-12T06:01:51+08:00",
+  "updated_at": "2026-11-12T06:17:11+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -42593,10 +42632,10 @@
     "batch_id": "20261112T043100+0800",
     "cycle": 4,
     "species_id": 134,
-    "heartbeat_at": "2026-11-12T06:01:51+08:00",
-    "expires_at": "2026-11-12T06:16:51+08:00"
+    "heartbeat_at": "2026-11-12T06:17:11+08:00",
+    "expires_at": "2026-11-12T06:32:11+08:00"
   },
-  "last_updated_at": "2026-11-12T06:01:51+08:00",
+  "last_updated_at": "2026-11-12T06:17:11+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -43397,7 +43436,7 @@
     "cycle": 4,
     "species_id": 134,
     "species": "Megascops sanctaecatarinae",
-    "stage": "STARTED",
+    "stage": "VERIFIED",
     "run_record": "owl-pet/production/runs/20261112T060100+0800-cycle-4.md"
   },
   "previous_checkpoint": {
@@ -44706,7 +44745,7 @@
       "lease_expires_at": "2026-11-07T21:08:00+08:00"
     }
   ],
-  "last_updated": "2026-11-12T06:01:51+08:00",
+  "last_updated": "2026-11-12T06:17:11+08:00",
   "audit_log": [
     {
       "at": "2026-10-31T18:36:48+08:00",
@@ -49875,7 +49914,7 @@
   ],
   "active_batch_id": "20261112T043100+0800",
   "active_cycle": 4,
-  "current_stage": "STARTED",
+  "current_stage": "VERIFIED",
   "next_cycle": 4,
   "unique_species_count": 176,
   "total_species": 251,
@@ -55424,6 +55463,45 @@
         "lease_expires_at": "2026-11-12T06:16:51+08:00",
         "scientifically_verified": false
       }
+    },
+    {
+      "batch_id": "20261112T043100+0800",
+      "cycle": 4,
+      "stage": "VERIFIED",
+      "at": "2026-11-12T06:17:11+08:00",
+      "run_id": "20261112T060100+0800-cycle-4",
+      "species_id": 134,
+      "species": "Megascops sanctaecatarinae",
+      "credited": false,
+      "evidence": {
+        "archive_commit": "27a73b52bc456e8442a0e1d76670d03573790030",
+        "archive_tree": "6e7f6236b5eed7abec8e09e3655b8036b8efe6f8",
+        "required_paths_verified": 18,
+        "exact_binary_paths_verified": 9,
+        "unique_binary_streams_read_back": 4,
+        "concept_blob": "ad8674d3d188ce13b3702ede469d1d930e355b7c",
+        "concept_bytes": 3210079,
+        "crop_blobs": [
+          "be7ead85c094259a84048da77a659e44d5f848d9",
+          "98ffc3bbe120004dc7b35b58bca03bdc228cebd1",
+          "e291cc40f416a8810b4ed0b26376538b4b06c99f"
+        ],
+        "crop_bytes": [
+          652989,
+          573716,
+          614982
+        ],
+        "manifest_counts": {
+          "design_image": 814,
+          "design_concept": 826,
+          "production_image": 804
+        },
+        "prompt_archive_verified": true,
+        "verification_result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false,
+        "ledger_credit_pending": true,
+        "lease_expires_at": "2026-11-12T06:32:11+08:00"
+      }
     }
   ],
   "last_completed_batch_id": "20261111T193846+0800",
@@ -55484,27 +55562,27 @@
     "next_cycle": 4,
     "active_cycle": 4,
     "started_at": "2026-11-12T04:31:00+08:00",
-    "updated_at": "2026-11-12T06:01:51+08:00",
-    "current_stage": "STARTED",
-    "ledger_credit_pending": false,
+    "updated_at": "2026-11-12T06:17:11+08:00",
+    "current_stage": "VERIFIED",
+    "ledger_credit_pending": true,
     "lease": {
       "owner": "codex-owl-production",
       "run_id": "20261112T060100+0800-cycle-4",
       "batch_id": "20261112T043100+0800",
       "cycle": 4,
       "species_id": 134,
-      "heartbeat_at": "2026-11-12T06:01:51+08:00",
-      "expires_at": "2026-11-12T06:16:51+08:00"
+      "heartbeat_at": "2026-11-12T06:17:11+08:00",
+      "expires_at": "2026-11-12T06:32:11+08:00"
     },
     "active": {
       "run_id": "20261112T060100+0800-cycle-4",
       "cycle": 4,
       "species_id": 134,
       "species": "Megascops sanctaecatarinae",
-      "stage": "STARTED",
+      "stage": "VERIFIED",
       "run_record": "owl-pet/production/runs/20261112T060100+0800-cycle-4.md"
     },
-    "stage": "STARTED",
+    "stage": "VERIFIED",
     "completed_count": 3,
     "stage_events": [
       {
@@ -56247,13 +56325,235 @@
           "lease_expires_at": "2026-11-12T06:16:51+08:00",
           "scientifically_verified": false
         }
+      },
+      {
+        "batch_id": "20261112T043100+0800",
+        "cycle": 4,
+        "stage": "RESEARCH_READY",
+        "at": "2026-11-12T06:05:48+08:00",
+        "run_id": "20261112T060100+0800-cycle-4",
+        "species_id": 134,
+        "species": "Megascops sanctaecatarinae",
+        "credited": false,
+        "evidence": {
+          "research_record": "owl-pet/research/species/134-megascops-sanctaecatarinae-v5.md",
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "new_source_ids": [
+            "LTSC-MENQ-BICHINSKI-2018"
+          ],
+          "reused_source_ids": [
+            "LTSC-PAGANO-2021",
+            "LTSC-KACHIMARECK-2014-WA1527488",
+            "LTSC-ITIS-686677"
+          ],
+          "prior_v4_opened": true,
+          "complete_prompt_saved": true,
+          "mikkola_fresh_access": false,
+          "design_change": "correct common-name title hierarchy; near-equal non-cloned adults; age-unknown charcoal-grey cavity-supported upper-body young; no mature wing/flight claim",
+          "unknowns": [
+            "population sex-size ratio",
+            "exact juvenile age/sex/hatch date",
+            "hidden wing/tail/foot anatomy",
+            "fledging/flight/independence",
+            "iris chronology",
+            "active-nest identity"
+          ],
+          "lease_expires_at": "2026-11-12T06:20:48+08:00",
+          "scientifically_verified": false
+        }
+      },
+      {
+        "batch_id": "20261112T043100+0800",
+        "cycle": 4,
+        "stage": "IMAGE_GENERATED",
+        "at": "2026-11-12T06:09:41+08:00",
+        "run_id": "20261112T060100+0800-cycle-4",
+        "species_id": 134,
+        "species": "Megascops sanctaecatarinae",
+        "credited": false,
+        "evidence": {
+          "initial_original": "owl-pet/production/generated/134-megascops-sanctaecatarinae-v5-initial-original.png",
+          "initial_blob": "9e12c584216f6868b98fd6935994c7a086aaffbf",
+          "initial_bytes": 3500863,
+          "initial_sha256": "55a2c86ab423e3629931ea75560ef9cd5b6cdb724c2ec322023151716d1ec93b",
+          "generated_master": "owl-pet/production/generated/134-megascops-sanctaecatarinae-v5-generated-master.png",
+          "final_blob": "ad8674d3d188ce13b3702ede469d1d930e355b7c",
+          "final_bytes": 3210079,
+          "final_sha256": "b6a952d1e806dba1ea83999a52660385e4348d08688c40260eea841f8552d211",
+          "geometry": "1536x1024",
+          "generation_seconds": 47.069,
+          "edit_seconds": 38.835,
+          "imagegen_invocations": 2,
+          "edit_count": 1,
+          "edit_reason": "Initial juvenile exposed two complete mature-looking feet/talons beyond the direct-photo evidence boundary; edited cavity rim to conceal feet/lower anatomy while retaining secure support.",
+          "inspection_summary": "Initial and edited full plates opened. Edited plate has exact title/scientific name/three labels and exactly three owls; near-equal non-cloned adults; cavity-supported charcoal-grey older young with concealed feet/lower anatomy and open greenish-grey bill.",
+          "complete_prompt": "owl-pet/research/species/134-megascops-sanctaecatarinae-v5.md",
+          "lease_expires_at": "2026-11-12T06:24:41+08:00",
+          "scientifically_verified": false
+        }
+      },
+      {
+        "batch_id": "20261112T043100+0800",
+        "cycle": 4,
+        "stage": "REVIEWED",
+        "at": "2026-11-12T06:11:34+08:00",
+        "run_id": "20261112T060100+0800-cycle-4",
+        "species_id": 134,
+        "species": "Megascops sanctaecatarinae",
+        "credited": false,
+        "evidence": {
+          "final_original": "owl-pet/production/generated/134-megascops-sanctaecatarinae-v5-final-original.png",
+          "final_blob": "ad8674d3d188ce13b3702ede469d1d930e355b7c",
+          "final_bytes": 3210079,
+          "final_sha256": "b6a952d1e806dba1ea83999a52660385e4348d08688c40260eea841f8552d211",
+          "geometry": "1536x1024",
+          "edit_count": 1,
+          "imagegen_invocations": 2,
+          "reviewed_path": "owl-pet/production/reviewed/134-megascops-sanctaecatarinae-v5-reviewed-master.png",
+          "reviewed_blob": "ad8674d3d188ce13b3702ede469d1d930e355b7c",
+          "review_record": "owl-pet/research/reviews/134-megascops-sanctaecatarinae-v5-review.md",
+          "review_crops": [
+            "owl-pet/production/review-crops/134-megascops-sanctaecatarinae-v5-adult-male.png",
+            "owl-pet/production/review-crops/134-megascops-sanctaecatarinae-v5-older-juvenile.png",
+            "owl-pet/production/review-crops/134-megascops-sanctaecatarinae-v5-adult-female.png"
+          ],
+          "crop_blobs": [
+            "be7ead85c094259a84048da77a659e44d5f848d9",
+            "98ffc3bbe120004dc7b35b58bca03bdc228cebd1",
+            "e291cc40f416a8810b4ed0b26376538b4b06c99f"
+          ],
+          "actual_views": [
+            "v4 full plate",
+            "v5 initial full plate",
+            "v5 edited full plate",
+            "v5 adult male crop",
+            "v5 older juvenile crop",
+            "v5 adult female crop"
+          ],
+          "checks": {
+            "identity": "PASS_WITH_LIMITATIONS",
+            "sex_direction": "PASS_WITH_LIMITATIONS",
+            "juvenile_stage": "PASS_WITH_LIMITATIONS",
+            "juvenile_action": "PASS",
+            "wing_development": "PASS",
+            "support": "PASS",
+            "text_count_order": "PASS",
+            "habitat": "PASS_WITH_LIMITATION"
+          },
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "unknowns": [
+            "population sex-size ratio",
+            "exact juvenile age/sex/hatch date",
+            "hidden wing/tail/foot anatomy",
+            "fledging/flight/independence",
+            "iris chronology",
+            "active nest identity"
+          ],
+          "iteration_lesson": "When a direct juvenile image exposes only the upper body, any fully rendered mature-looking foot is an unsupported detail; use the cavity lip to conceal lower anatomy and verify the edited crop.",
+          "lease_expires_at": "2026-11-12T06:26:34+08:00"
+        }
+      },
+      {
+        "batch_id": "20261112T043100+0800",
+        "cycle": 4,
+        "stage": "ARCHIVED",
+        "at": "2026-11-12T06:14:41+08:00",
+        "run_id": "20261112T060100+0800-cycle-4",
+        "species_id": 134,
+        "species": "Megascops sanctaecatarinae",
+        "credited": false,
+        "evidence": {
+          "archive_commit_pending": true,
+          "concept_path": "owl-pet/design/concepts/134-megascops-sanctaecatarinae-v5.png",
+          "concept_blob": "ad8674d3d188ce13b3702ede469d1d930e355b7c",
+          "concept_bytes": 3210079,
+          "manifest_counts": {
+            "design_image": 814,
+            "design_concept": 826,
+            "production_image": 804
+          },
+          "prompt_archive": "owl-pet/production/PROMPTS_FULL.md",
+          "review_record": "owl-pet/research/reviews/134-megascops-sanctaecatarinae-v5-review.md",
+          "research_record": "owl-pet/research/species/134-megascops-sanctaecatarinae-v5.md",
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "lease_expires_at": "2026-11-12T06:29:41+08:00"
+        }
+      },
+      {
+        "batch_id": "20261112T043100+0800",
+        "cycle": 4,
+        "stage": "ARCHIVE_METADATA_CORRECTED",
+        "at": "2026-11-12T06:15:45+08:00",
+        "run_id": "20261112T060100+0800-cycle-4",
+        "species_id": 134,
+        "species": "Megascops sanctaecatarinae",
+        "credited": false,
+        "evidence": {
+          "prior_archive_commit": "74b57c995c2a5e15aabbcd72bd74426f955870ea",
+          "problem": "Remote Git tree reported crop byte counts 24–25 bytes larger than local stat because view_image returned re-encoded PNG streams.",
+          "remedy": "Updated all three manifests to the exact remote Git blob sizes; image blobs and visual review are unchanged.",
+          "crop_blobs": [
+            "be7ead85c094259a84048da77a659e44d5f848d9",
+            "98ffc3bbe120004dc7b35b58bca03bdc228cebd1",
+            "e291cc40f416a8810b4ed0b26376538b4b06c99f"
+          ],
+          "correct_crop_bytes": [
+            652989,
+            573716,
+            614982
+          ],
+          "verification_pending": true,
+          "lease_expires_at": "2026-11-12T06:30:45+08:00"
+        }
+      },
+      {
+        "batch_id": "20261112T043100+0800",
+        "cycle": 4,
+        "stage": "VERIFIED",
+        "at": "2026-11-12T06:17:11+08:00",
+        "run_id": "20261112T060100+0800-cycle-4",
+        "species_id": 134,
+        "species": "Megascops sanctaecatarinae",
+        "credited": false,
+        "evidence": {
+          "archive_commit": "27a73b52bc456e8442a0e1d76670d03573790030",
+          "archive_tree": "6e7f6236b5eed7abec8e09e3655b8036b8efe6f8",
+          "required_paths_verified": 18,
+          "exact_binary_paths_verified": 9,
+          "unique_binary_streams_read_back": 4,
+          "concept_blob": "ad8674d3d188ce13b3702ede469d1d930e355b7c",
+          "concept_bytes": 3210079,
+          "crop_blobs": [
+            "be7ead85c094259a84048da77a659e44d5f848d9",
+            "98ffc3bbe120004dc7b35b58bca03bdc228cebd1",
+            "e291cc40f416a8810b4ed0b26376538b4b06c99f"
+          ],
+          "crop_bytes": [
+            652989,
+            573716,
+            614982
+          ],
+          "manifest_counts": {
+            "design_image": 814,
+            "design_concept": 826,
+            "production_image": 804
+          },
+          "prompt_archive_verified": true,
+          "verification_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "ledger_credit_pending": true,
+          "lease_expires_at": "2026-11-12T06:32:11+08:00"
+        }
       }
     ],
     "in_progress": {
       "cycle": 4,
       "species_id": 134,
       "species": "Megascops sanctaecatarinae",
-      "stage": "STARTED",
+      "stage": "VERIFIED",
       "run_record": "owl-pet/production/runs/20261112T060100+0800-cycle-4.md"
     }
   },
@@ -65251,7 +65551,7 @@
       }
     }
   ],
-  "ledger_credit_pending": false,
+  "ledger_credit_pending": true,
   "last_verified_commit": "8d5c4fc0ddd7bb343f0120b1167805a13bad5ba9",
   "completed_cycles": [
     {
@@ -65304,7 +65604,7 @@
     }
   ],
   "updated": "2026-11-12T06:01:51+08:00",
-  "stage": "STARTED",
+  "stage": "VERIFIED",
   "stage_evidence": {
     "verification_commit": "8d5c4fc0ddd7bb343f0120b1167805a13bad5ba9",
     "verification_tree": "378c9c8241ca9cee3f42aced371abf6dabbbac63",
@@ -66469,13 +66769,13 @@
       }
     }
   ],
-  "last_archive_commit": "11099857ed587ad964162b832bb90ed8dd945392",
+  "last_archive_commit": "27a73b52bc456e8442a0e1d76670d03573790030",
   "active": {
     "run_id": "20261112T060100+0800-cycle-4",
     "cycle": 4,
     "species_id": 134,
     "species": "Megascops sanctaecatarinae",
-    "stage": "STARTED",
+    "stage": "VERIFIED",
     "run_record": "owl-pet/production/runs/20261112T060100+0800-cycle-4.md"
   }
 }

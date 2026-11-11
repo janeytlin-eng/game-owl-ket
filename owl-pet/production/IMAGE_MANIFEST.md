@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T06:14:41+08:00",
+  "updated": "2026-11-12T06:17:11+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -30767,18 +30767,19 @@
         }
       ],
       "archive_note": "V4, initial v5, edited v5 and all three final role crops opened. Correct title hierarchy, near-equal adults and cavity-bounded juvenile applied. Initial complete juvenile feet were evidence-exceeding and removed with one edit; edited crop re-opened. New1/reused3. Uploaded Mikkola unavailable; no fresh page claim. Science false. Archive verification pending.",
-      "readback_pending": true,
-      "archive_commit_pending": true,
+      "readback_pending": false,
+      "archive_commit_pending": false,
       "archived_at": "2026-11-12T06:14:41+08:00",
-      "archive_commit": null,
-      "archive_tree": null,
-      "exact_readback": false,
-      "required_paths_verified": 0,
-      "exact_binary_paths_verified": 0,
-      "unique_binary_streams_read_back": 0,
-      "verified_at": null,
-      "verification_result": null
+      "archive_commit": "27a73b52bc456e8442a0e1d76670d03573790030",
+      "archive_tree": "6e7f6236b5eed7abec8e09e3655b8036b8efe6f8",
+      "exact_readback": true,
+      "required_paths_verified": 18,
+      "exact_binary_paths_verified": 9,
+      "unique_binary_streams_read_back": 4,
+      "verified_at": "2026-11-12T06:17:11+08:00",
+      "verification_result": "PASS_WITH_LIMITATIONS",
+      "verification_commit_pending": true
     }
   ],
-  "updated_at": "2026-11-12T06:14:41+08:00"
+  "updated_at": "2026-11-12T06:17:11+08:00"
 }

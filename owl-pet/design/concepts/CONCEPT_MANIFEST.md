@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T07:38:00+08:00",
+  "updated": "2026-11-12T07:40:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -32541,17 +32541,17 @@
         {
           "path": "production/review-crops/136-megascops-petersoni-v5-adult-male.png",
           "blob": "6a88cd909364dd4a31b221c26c23c1e015614176",
-          "size_bytes": 841230
+          "size_bytes": 841254
         },
         {
           "path": "production/review-crops/136-megascops-petersoni-v5-first-year.png",
           "blob": "107f6acef21ae4b1e0cc0e014bd705e964032813",
-          "size_bytes": 783095
+          "size_bytes": 783120
         },
         {
           "path": "production/review-crops/136-megascops-petersoni-v5-adult-female.png",
           "blob": "2ad50620578b80923ba4993cce605e599746e41f",
-          "size_bytes": 798221
+          "size_bytes": 798246
         }
       ],
       "rejected_edits": [
@@ -32563,18 +32563,20 @@
         }
       ],
       "archive_note": "V4, v5 initial, rejected edit, accepted edited v5 and all three accepted-role crops were opened. One accepted edit corrected the first-year wing/tail boundary. New1/reused3; uploaded Mikkola unavailable and no fresh page claim. Science false. Archive verification pending.",
-      "readback_pending": true,
-      "archive_commit_pending": true,
+      "readback_pending": false,
+      "archive_commit_pending": false,
       "archived_at": "2026-11-12T07:38:00+08:00",
-      "archive_commit": null,
-      "archive_tree": null,
-      "tree_readback_exact": false,
-      "required_paths_verified": 0,
-      "exact_binary_paths_verified": 0,
-      "unique_binary_streams_tree_verified": 0,
-      "verified_at": null,
-      "verification_result": null
+      "archive_commit": "fa1b53c23ccc2f8896568184e8dfa3e8c54f6de5",
+      "archive_tree": "ecfa1206fcf5126831b3e8b4ae3b2450cd501b40",
+      "tree_readback_exact": true,
+      "required_paths_verified": 20,
+      "exact_binary_paths_verified": 10,
+      "unique_binary_streams_tree_verified": 6,
+      "verified_at": "2026-11-12T07:40:00+08:00",
+      "verification_result": "PASS_WITH_LIMITATIONS",
+      "verification_commit_pending": true,
+      "binary_content_api_note": "Exact path, Git blob SHA and byte size were re-read from the untruncated archive tree for ten binary aliases/six unique streams. Base64 file fetch also returned the concept blob SHA."
     }
   ],
-  "updated_at": "2026-11-12T07:38:00+08:00"
+  "updated_at": "2026-11-12T07:40:00+08:00"
 }

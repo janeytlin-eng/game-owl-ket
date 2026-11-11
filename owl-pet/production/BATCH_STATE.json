@@ -40327,10 +40327,10 @@
         }
       ],
       "next_cycle": 4,
-      "active_cycle": 3,
+      "active_cycle": 4,
       "started_at": "2026-11-11T23:36:00+08:00",
-      "updated_at": "2026-11-12T01:40:00+08:00",
-      "current_stage": "STARTED",
+      "updated_at": "2026-11-12T01:47:00+08:00",
+      "current_stage": "RESEARCH_READY",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex-owl-production",
@@ -40338,12 +40338,12 @@
         "batch_id": "20261111T233600+0800",
         "cycle": 4,
         "species_id": 127,
-        "heartbeat_at": "2026-11-12T01:40:00+08:00",
-        "expires_at": "2026-11-12T01:55:00+08:00"
+        "heartbeat_at": "2026-11-12T01:47:00+08:00",
+        "expires_at": "2026-11-12T02:02:00+08:00"
       },
       "active": null,
       "stage": "RESEARCH_READY",
-      "completed_count": 2,
+      "completed_count": 3,
       "stage_events": [
         {
           "batch_id": "20261111T233600+0800",
@@ -41071,6 +41071,33 @@
             "lease_expires_at": "2026-11-12T01:55:00+08:00",
             "scientifically_verified": false
           }
+        },
+        {
+          "batch_id": "20261111T233600+0800",
+          "cycle": 4,
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-12T01:47:00+08:00",
+          "run_id": "20261112T014000+0800-cycle-4",
+          "species_id": 127,
+          "species": "Megascops albogularis",
+          "credited": false,
+          "evidence": {
+            "research_record": "owl-pet/research/species/127-megascops-albogularis-v5.md",
+            "source_index": "owl-pet/research/SOURCE_INDEX.md",
+            "new_sources": 1,
+            "reused_or_reread_sources": 4,
+            "complete_prompt_saved": true,
+            "v4_visually_opened": true,
+            "unknowns": [
+              "exact juvenile age, sex and subspecies",
+              "iris chronology",
+              "continuous feather sequence and first-flight threshold",
+              "normal nest geometry",
+              "quantitative sex-size direction"
+            ],
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-12T02:02:00+08:00"
+          }
         }
       ],
       "in_progress": {
@@ -41078,7 +41105,7 @@
         "species_id": 127,
         "species": "Megascops albogularis",
         "version": 5,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "run_id": "20261112T014000+0800-cycle-4"
       }
     }
@@ -63295,11 +63322,11 @@
   ],
   "last_archive_commit": "431b2838ac69f93d8f10791eb332c23c34ac220f",
   "active": {
-    "run_id": "20261112T005500+0800-cycle-3",
-    "cycle": 3,
-    "species_id": 126,
-    "species": "Strix hadorami",
+    "run_id": "20261112T014000+0800-cycle-4",
+    "cycle": 4,
+    "species_id": 127,
+    "species": "Megascops albogularis",
     "stage": "RESEARCH_READY",
-    "run_record": "owl-pet/production/runs/20261112T005500+0800-cycle-3.md"
+    "run_record": "owl-pet/production/runs/20261112T014000+0800-cycle-4.md"
   }
 }

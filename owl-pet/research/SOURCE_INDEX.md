@@ -4573,3 +4573,17 @@ Reused/re-read without duplicate IDs: `PSC-KOMAR-STUFKENS-2012` (primary one-eve
 - **Links:** `owl-pet/research/species/122-otus-megalotis-v5.md`; target `owl-pet/design/concepts/122-otus-megalotis-v5.png`.
 
 Reused/re-read without duplicate IDs: `PSO-MIRANDA-2011` (printed pp.444, 446–450), `PSO-JOSEF-2012` (article lines 40–62), `PSO-SANCHEZ-2012`, `PSO-MIK2013-P170`. Uploaded Mikkola guide unavailable for fresh reading. Science remains false.
+
+
+## 2026-11-12 — #127 *Megascops albogularis* v5 — historical specimen morphology and conservative juvenile boundary
+
+### WTSO-SCHLEGEL-1862-P16-17
+- **Stable ID/title:** WTSO-SCHLEGEL-1862-P16-17 — Hermann Schlegel, *Muséum d'histoire naturelle des Pays-Bas: Striges* (1862), account “Ulula albigularis”.
+- **Institution/URL/accessed/type:** Naturalis Biodiversity Center institutional repository; https://repository.naturalis.nl/pub/508296/MHN1862002001002.pdf ; accessed 2026-11-11 UTC / 2026-11-12 +08; historical museum catalog/specimen account.
+- **Pages/sections actually read:** printed pp.16–17; machine-readable PDF lines 3952–4137.
+- **Taxon/stage:** historical *Ulula albigularis* = *Syrnium albigularis* Cassin; one cataloged adult from Colombia. This is adult evidence only.
+- **Useful facts:** the account distinguishes the smaller, darker owl by numerous rufous tail bars and a white throat; describes dark-brown upperparts/ear region/crop/breast marbled with pale and rufous lines, light-rufous lower underparts interrupted by narrow dark shaft marks and occasional bars, down-covered tarsi, bare yellowish toes and a yellow bill tip. It also maps *Syrnium maccabrum* as an historical name in the account.
+- **Design use:** reinforces a compact dark screech-owl silhouette, conspicuous white throat, irregular fine rufous/dark texture, feathered tarsi and finely barred tail; avoids a generic bulky eagle-owl body and uniform polka-dot plumage.
+- **Limits/conflicts/credibility:** historical terminology and one adult specimen; no iris colour, quantitative sex difference, juvenile chronology, action or nest evidence. The catalog's “Mexico” distribution statement is not used, because modern species limits differ. High confidence for what the specimen account states, limited generality.
+
+Reused/re-read without duplicate IDs: `WTSO-ITIS-686679-2026` (current name, synonym and five subspecies), `WTSO-PERUAVES-PHOTOS2019` (two Colombia adults, a Piura juvenile and Cuzco adult; adult identity/habitat), `WTSO-SIBUNDOY-2013-P142` (repository-pinned buff-white finely barred age-unknown juvenile), and `WTSO-MIK2013-249` (repository-pinned adult guide page; uploaded file unavailable for a fresh read). The photographed juvenile's exact age, sex, subspecies, iris chronology, wing timetable, first-flight threshold and normal nest geometry remain unknown. Full prompt/boundaries: `owl-pet/research/species/127-megascops-albogularis-v5.md`. Scientific verification remains false.

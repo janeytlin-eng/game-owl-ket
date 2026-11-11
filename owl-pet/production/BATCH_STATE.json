@@ -41495,8 +41495,8 @@
       "next_cycle": 5,
       "active_cycle": 5,
       "started_at": "2026-11-12T04:31:00+08:00",
-      "updated_at": "2026-11-12T06:24:00+08:00",
-      "current_stage": "IMAGE_GENERATED",
+      "updated_at": "2026-11-12T06:27:00+08:00",
+      "current_stage": "REVIEWED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex-owl-production",
@@ -41504,18 +41504,18 @@
         "batch_id": "20261112T043100+0800",
         "cycle": 5,
         "species_id": 135,
-        "heartbeat_at": "2026-11-12T06:24:00+08:00",
-        "expires_at": "2026-11-12T06:39:00+08:00"
+        "heartbeat_at": "2026-11-12T06:27:00+08:00",
+        "expires_at": "2026-11-12T06:42:00+08:00"
       },
       "active": {
         "run_id": "20261112T061900+0800-cycle-5",
         "cycle": 5,
         "species_id": 135,
         "species": "Otus silvicola",
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "run_record": "owl-pet/production/runs/20261112T061900+0800-cycle-5.md"
       },
-      "stage": "IMAGE_GENERATED",
+      "stage": "REVIEWED",
       "completed_count": 4,
       "stage_events": [
         {
@@ -42588,6 +42588,65 @@
             "complete_prompt": "owl-pet/research/species/135-otus-silvicola-v5.md",
             "lease_expires_at": "2026-11-12T06:39:00+08:00",
             "scientifically_verified": false
+          }
+        },
+        {
+          "batch_id": "20261112T043100+0800",
+          "cycle": 5,
+          "stage": "REVIEWED",
+          "at": "2026-11-12T06:27:00+08:00",
+          "run_id": "20261112T061900+0800-cycle-5",
+          "species_id": 135,
+          "species": "Otus silvicola",
+          "credited": false,
+          "evidence": {
+            "final_original": "owl-pet/production/generated/135-otus-silvicola-v5-final-original.png",
+            "final_blob": "c7139548a091f216646840c678290212c5900531",
+            "final_bytes": 3328280,
+            "final_sha256": "6e9ae2e79c0e8ea262bfe90d239ca82f5f6f1768533f27cd90793dd6970ca3fd",
+            "geometry": "1536x1024",
+            "edit_attempts": 2,
+            "accepted_edit_count": 0,
+            "imagegen_invocations": 3,
+            "rejected_edit_blobs": [
+              "97e4c7a5348de6ef9bb39a0f799fb211aba43c2c",
+              "885b6d20210dde6afc0b848b637b95d33fdbb25f"
+            ],
+            "reviewed_path": "owl-pet/production/reviewed/135-otus-silvicola-v5-reviewed-master.png",
+            "reviewed_blob": "c7139548a091f216646840c678290212c5900531",
+            "review_record": "owl-pet/research/reviews/135-otus-silvicola-v5-review.md",
+            "review_crops": [
+              "owl-pet/production/review-crops/135-otus-silvicola-v5-adult-male.png",
+              "owl-pet/production/review-crops/135-otus-silvicola-v5-transitional-immature.png",
+              "owl-pet/production/review-crops/135-otus-silvicola-v5-adult-female.png"
+            ],
+            "crop_blobs": [
+              "7016656b5342a856ee2f19c33e8ff8ba6635342b",
+              "11d189a1bbb6a7fdefce90f1fddef8d03efe63d4",
+              "ed53cbef8a9b0dd2b542df762afac452c4066cd2"
+            ],
+            "actual_views": [
+              "v4 full plate",
+              "v5 initial full plate",
+              "v5 rejected edit 1",
+              "v5 rejected edit 2",
+              "v5 adult male crop",
+              "v5 transitional immature crop",
+              "v5 adult female crop"
+            ],
+            "checks": {
+              "identity": "PASS_WITH_LIMITATIONS",
+              "sex_direction": "PASS_WITH_LIMITATIONS",
+              "immature_stage": "PASS_WITH_LIMITATIONS",
+              "immature_action": "PASS_WITH_LIMITATIONS",
+              "wing_development": "PASS_WITH_LIMITATIONS",
+              "support": "PASS",
+              "text_count_order": "PASS",
+              "habitat": "PASS_WITH_LIMITATION"
+            },
+            "review_result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-12T06:42:00+08:00"
           }
         }
       ],

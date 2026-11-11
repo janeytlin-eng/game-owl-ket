@@ -41,3 +41,9 @@ Create a polished 1536×1024 horizontal scientific concept plate in the reposito
 - Six supported feet on one plausible branch; no floating or hidden third leg.
 - Humid Andean cloud-forest setting; no unsupported nest architecture.
 
+## IMAGE_GENERATED — 2026-11-12T01:50:00+08:00
+
+- Initial original: `owl-pet/production/generated/127-megascops-albogularis-v5-initial-original.png`; 1536×1024; 2,878,771 bytes; SHA-256 `c1c5e4c7b3c8a11a0cf079020bca6d58f093261af62233ab214ba2d70ea46194`.
+- Preliminary full-plate view: exact title/subtitle/three labels and exactly three complete birds are present; adults are near-equal and more compact than v4; white throats, dark/rufous identity, misty cloud forest and six branch-supported feet are visible. The juvenile is supported and slightly leaning, but crop-level review is still required before acceptance.
+
+

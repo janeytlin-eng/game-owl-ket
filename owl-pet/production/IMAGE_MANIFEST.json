@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T02:00:24.000+08:00",
+  "updated": "2026-11-11T21:43:30+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -29574,7 +29574,89 @@
       "verified_at": "2026-11-08T02:00:24.000+08:00",
       "exact_readback": true,
       "verification_result": "Immutable archive tree was non-truncated (4,065 entries). All 23 required paths were present; nine binary paths matched exact Git blob SHA and byte size, including the 3,519,692-byte original reused by six archival paths and three separately reviewed crop blobs. Manifests parsed at 801/798/791 with #35 v5 newest."
+    },
+    {
+      "id": "119-megascops-centralis-v5",
+      "path": "design/concepts/119-megascops-centralis-v5.png",
+      "species_id": 119,
+      "scientific_name": "Megascops centralis",
+      "historical_names": [
+        "Otus guatemalae centralis",
+        "Megascops guatemalae centralis"
+      ],
+      "common_name": "Choco Screech-Owl",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "prior_versions_retained": true,
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "imagegen_invocations": 1,
+      "status": "V5 preserves v1-v4, replaces the repeated frontal template with asymmetric adults and individualized irregular plumage, keeps adults near-equal in displayed scale, and bounds the older cavity juvenile to gray mesoptile, no projecting tail, compact formed barred wing feathers above the sill, and complete bilateral support. Exact age, sex, ontogeny, flight proficiency, independence, quantitative sex-size direction, and individual/subspecific colour variation remain unknown.",
+      "source_ids": [
+        "CHSO-REYES-ASTUDILLO-2017",
+        "CHSO-OISEAUX-JORDAN-2012",
+        "CHSO-MIKKOLA-2013-P242-243",
+        "CHSO-ITIS-1063250-2026",
+        "CHSO-AOS-13691-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/119-megascops-centralis-v5.md",
+      "review_record": "research/reviews/119-megascops-centralis-v5-review.md",
+      "run_record": "production/runs/20261111T205600+0800-cycle-4.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 3355983,
+      "sha256": "36edc3074424bceb1646e2b18aac5dd38999e914f115279ea2788e2674c8e19c",
+      "git_blob": "19923fd3a91f9677a55eed6115c87dbd4827596f",
+      "initial_original_path": "production/generated/119-megascops-centralis-v5-initial-original.png",
+      "initial_original_blob": "19923fd3a91f9677a55eed6115c87dbd4827596f",
+      "initial_original_size_bytes": 3355983,
+      "initial_original_sha256": "36edc3074424bceb1646e2b18aac5dd38999e914f115279ea2788e2674c8e19c",
+      "final_original_path": "production/generated/119-megascops-centralis-v5-final-original.png",
+      "final_original_blob": "19923fd3a91f9677a55eed6115c87dbd4827596f",
+      "final_original_size_bytes": 3355983,
+      "final_original_sha256": "36edc3074424bceb1646e2b18aac5dd38999e914f115279ea2788e2674c8e19c",
+      "full_color_source_path": "production/generated/119-megascops-centralis-v5-full-color.png",
+      "full_color_source_blob": "19923fd3a91f9677a55eed6115c87dbd4827596f",
+      "full_color_source_size_bytes": 3355983,
+      "full_color_source_sha256": "36edc3074424bceb1646e2b18aac5dd38999e914f115279ea2788e2674c8e19c",
+      "generated_path": "production/generated/119-megascops-centralis-v5-generated-master.png",
+      "generated_blob": "19923fd3a91f9677a55eed6115c87dbd4827596f",
+      "generated_size_bytes": 3355983,
+      "reviewed_path": "production/reviewed/119-megascops-centralis-v5-reviewed-master.png",
+      "reviewed_blob": "19923fd3a91f9677a55eed6115c87dbd4827596f",
+      "reviewed_size_bytes": 3355983,
+      "review_crops": [
+        {
+          "path": "production/review-crops/119-megascops-centralis-v5-adult-male.jpg",
+          "blob": "0a8b95ac4c115f8b504fab2ebe4d689d0e500be6",
+          "size_bytes": 206733
+        },
+        {
+          "path": "production/review-crops/119-megascops-centralis-v5-juvenile.jpg",
+          "blob": "c5eb8d7bfe93be669c35815dc49f1db54efe7f9c",
+          "size_bytes": 213818
+        },
+        {
+          "path": "production/review-crops/119-megascops-centralis-v5-adult-female.jpg",
+          "blob": "f624098b4c40caa33de97c2cbfaaf1dd18de41ed",
+          "size_bytes": 232071
+        }
+      ],
+      "archive_note": "Full plate and three focused crops were actually opened. First render passed without edit. V4's template symmetry was corrected; the older juvenile remains fully supported with no flight claim. Two new current-name sources, three reused/re-read species sources, and one corrected boundary. Uploaded Mikkola copy unavailable; repository-pinned pages reused only. Science false.",
+      "readback_pending": true,
+      "archive_commit_pending": true,
+      "archived_at": "2026-11-11T21:43:30+08:00"
     }
   ],
-  "updated_at": "2026-11-08T02:00:24.000+08:00"
+  "updated_at": "2026-11-11T21:43:30+08:00"
 }

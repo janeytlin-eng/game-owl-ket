@@ -39,3 +39,8 @@ Exact visible text only: “#137 · FLORES SCOPS-OWL”; italic “Otus alfredi�
 ## Index delta
 
 New verified sources 0; reused/re-read 2; unverified lead 1; corrected inference boundaries 3.
+
+
+## Visual-review correction addendum — 2026-11-12
+
+The primary Widodo et al. paper was re-opened during image review. Printed p.22 (PDF extraction lines 677–681) explicitly records adult irides yellow, orbital skin pink/reddish, and the visible bill/cere, toes and claws yellowish. Therefore the first attempted edit, which removed the adult orbital colour, was scientifically overbroad and was rejected. The accepted edit preserves the documented adult pink/reddish orbital skin but removes the age-unknown juvenile's invented coloured orbital ring and retains dark/non-diagnostic juvenile eyes. This is a source-fact correction, not a claim that juvenile orbital skin is known. Final status remains PASS_WITH_LIMITATIONS; scientifically_verified=false.

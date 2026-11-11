@@ -815,3 +815,16 @@ Center juvenile male, exact age unknown: clearly smaller/lower, quiet supported 
 
 Exact visible text only: “#137 · FLORES SCOPS-OWL”; italic “Otus alfredi”; role labels “ADULT MALE” · “JUVENILE MALE — AGE UNKNOWN” · “ADULT FEMALE”. No nest, cavity, eggs, prey, buildings, extra birds, watermark or extra text. Avoid long pointed tufts, black facial rims, bold adult black streaks, regular barred adult tails, giant repeated white patches, female-larger exaggeration, hatchling anatomy, mature hard juvenile remiges, long juvenile tail, flying/unsupported juvenile or unsupported feet.
 ```
+
+
+### #137 v5 review correction — 2026-11-12
+
+**Rejected overbroad edit prompt (preserved for audit):**
+
+Edit this exact three-owl scientific concept plate for #137 Flores Scops-Owl (Otus alfredi). Keep the full 3:2 landscape composition, all text, labels, roles, poses, body proportions, plumage, rainforest setting, branches, and parchment panel unchanged. Correct ONLY the eyes and their immediate margins: remove every pink, red, magenta, or brightly colored bare orbital ring/eyelid from all three birds. The adult male and adult female must retain bright yellow irides with natural black pupils, but their eyelid and eye margins must be densely feathered rufous-brown, with no colored bare skin ring. The juvenile male must retain dark, non-diagnostic irides/pupils and also have fully feathered rufous-brown eye margins with no colored bare orbital skin. Do not add black facial rims, white facial rings, or any other new marking. Preserve the exact title '#137 · FLORES SCOPS-OWL', species line 'Otus alfredi', and the three exact role labels including 'JUVENILE MALE — AGE UNKNOWN'. Output the complete plate, not a crop.
+
+**Accepted evidence-bounded edit prompt:**
+
+Edit this exact complete three-owl scientific concept plate for #137 Flores Scops-Owl (Otus alfredi). Keep the full 1536×1024 landscape composition, all text, labels, roles, poses, body proportions, plumage, rainforest setting, branches, and parchment panel unchanged. Correct ONLY the CENTER JUVENILE MALE'S eyes and immediate eye margins. Remove the juvenile's pink/red/magenta bare orbital rings; make the juvenile's irides/pupils dark and non-diagnostic and its eye margins fully feathered rufous-brown, with no colored bare skin ring. IMPORTANT: keep BOTH ADULTS unchanged, including their bright yellow irides and their biologically documented narrow pink/reddish orbital skin. Do not remove or mute the adult pink/reddish orbital skin. Do not add black facial rims, white facial rings, or other new markings. Preserve the exact title '#137 · FLORES SCOPS-OWL', italic species line 'Otus alfredi', and role labels 'ADULT MALE', 'JUVENILE MALE — AGE UNKNOWN', and 'ADULT FEMALE'. Output the complete plate, not a crop.
+
+**Iteration rule actually applied and visually rechecked:** when a primary source gives adult soft-part colours but the juvenile chronology/colour is unknown, preserve the adult feature and edit only the juvenile; never generalize the juvenile unknown to adults or vice versa.

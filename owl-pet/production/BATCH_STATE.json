@@ -42882,8 +42882,8 @@
   "lease": {
     "owner": "codex-work",
     "run_id": "20261112T074300+0800-cycle-1",
-    "heartbeat_at": "2026-11-12T07:50:00+08:00",
-    "expires_at": "2026-11-12T08:05:00+08:00"
+    "heartbeat_at": "2026-11-12T07:54:00+08:00",
+    "expires_at": "2026-11-12T08:09:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -67753,10 +67753,11 @@
     "cycle": 1,
     "species_id": 137,
     "species": "Otus alfredi",
-    "stage": "IMAGE_GENERATED",
+    "stage": "REVIEWED",
     "run_record": "owl-pet/production/runs/20261112T074300+0800-cycle-1.md",
-    "lease_expires_at": "2026-11-12T08:05:00+08:00",
-    "research_record": "owl-pet/research/species/137-otus-alfredi-v5.md"
+    "lease_expires_at": "2026-11-12T08:09:00+08:00",
+    "research_record": "owl-pet/research/species/137-otus-alfredi-v5.md",
+    "review_record": "owl-pet/research/reviews/137-otus-alfredi-v5-review.md"
   },
   "phase_events": [
     {
@@ -68011,6 +68012,42 @@
         "preliminary_inspection": "full plate and three role crops opened; adult pink/reddish orbital skin is primary-source supported, but the age-unknown juvenile was given the same coloured orbital ring and required evidence-bounded correction",
         "scientifically_verified": false,
         "lease_expires_at": "2026-11-12T08:05:00+08:00"
+      }
+    },
+    {
+      "batch_id": "20261112T074300+0800",
+      "cycle": 1,
+      "stage": "REVIEWED",
+      "at": "2026-11-12T07:54:00+08:00",
+      "run_id": "20261112T074300+0800-cycle-1",
+      "species_id": 137,
+      "species": "Otus alfredi",
+      "credited": false,
+      "evidence": {
+        "final_original": "owl-pet/production/generated/137-otus-alfredi-v5-final-original.png",
+        "final_blob": "b545dfc31c7672790afac53dc5e939b27a1ad723",
+        "final_bytes": 2834690,
+        "final_sha256": "6c75a1ecca87ac2e79aa609fe53fd584be25face7b62df12ca082a7e3c995d1c",
+        "rejected_edit": "owl-pet/production/generated/137-otus-alfredi-v5-edit1-rejected-original.png",
+        "rejected_blob": "3d585cc1e6b6567b170cb4fa8b05ca8a9c606ccf",
+        "edit_count": 2,
+        "rejected_edit_count": 1,
+        "imagegen_invocations": 3,
+        "review_record": "owl-pet/research/reviews/137-otus-alfredi-v5-review.md",
+        "review_crops": [
+          "owl-pet/production/review-crops/137-otus-alfredi-v5-adult-male.png",
+          "owl-pet/production/review-crops/137-otus-alfredi-v5-juvenile-male.png",
+          "owl-pet/production/review-crops/137-otus-alfredi-v5-adult-female.png"
+        ],
+        "crop_blobs": [
+          "ce8a9a391c6e99ba042e376da893bc358650c43c",
+          "0397a2f40f32b59722eef0662055d37a705ce7f3",
+          "f7d98a2face842fb20f106d88f3d168c115b1d44"
+        ],
+        "correction": "adult pink/reddish orbital skin restored from primary evidence; juvenile coloured ring removed as unsupported",
+        "review_result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false,
+        "lease_expires_at": "2026-11-12T08:09:00+08:00"
       }
     }
   ]

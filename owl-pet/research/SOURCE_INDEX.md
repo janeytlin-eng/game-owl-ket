@@ -4716,7 +4716,7 @@ Reused/re-read without duplicate IDs for #130 v5: `KOEP-ITIS-686665-2026`, repos
 
 ## 2026-11-12 — #137 *Otus alfredi* v5 — juvenile specimen and adult sex-scale re-read
 
-- **FLO-WIDODO-1999:** primary taxonomic/morphology paper re-read at printed pp.15–20, Tables1–2 and Fig.2. The single 1994 juvenile male supports a smaller down-retaining formed stage and shorter wing/tail measurements, but not exact age, iris chronology or flight. Historical adult sex assignments were uncertain; v5 keeps adults near-equal.
+- **FLO-WIDODO-1999:** primary taxonomic/morphology paper re-read at printed pp.15–22, Tables1–2 and Fig.2. Printed p.22 (extracted lines 677–681) explicitly records adult irides yellow, orbital skin pink/reddish, and visible bill/cere, toes and claws yellowish. The single 1994 juvenile male supports a smaller down-retaining formed stage and shorter wing/tail measurements, but not exact age, juvenile iris/orbital colour or flight. Historical adult sex assignments were uncertain; v5 keeps adults near-equal.
 - **FLO-HUTCHINSON-2007:** primary field note re-read at printed pp.184–186. Supports compact rufous adult identity, short rounded tufts, yellow adult bare parts, localized white brow/scapular marks, no black facial rim/streaking and primary-montane-forest context. It does not supply a juvenile sequence or sex-size ratio.
 - **FLO-REEVE-RABENAK-2016:** BioStor metadata/page list opened at https://biostor.org/reference/246710; full text not read, so retained as an unverified distribution/habitat lead only.
 - **Access note:** uploaded Mikkola guide unavailable; no fresh page claim.

@@ -802,3 +802,16 @@ role labels in order “ADULT MALE” · “FIRST-YEAR” · “ADULT FEMALE”
 
 Avoid: bright white eyebrows, white scapular spots, white belly, yellow/orange eyes, black bill, exaggerated facial rim, long pointed black ear tufts, a dramatic female-larger ratio, adult clones, mature layered remiges on first-year, airborne pose, extra birds, eggs, prey, watermark, extra text.
 ```
+
+
+## #137 — Flores Scops-Owl / *Otus alfredi* — v5
+
+```text
+Create one polished 1536×1024 landscape owl electronic-pet concept plate in the repository's established warm tactile softly modeled 3D storybook / scientific field-guide style. Exactly THREE Flores Scops-Owls (Otus alfredi) on one broad mossy living branch in humid primary montane forest on Flores. Adult male left, age-unknown juvenile male center/front-lower, adult female right. Full bodies visible, all six feet naturally gripping support. Adults near-equal crown height; vary pose, not invented sex dimorphism.
+
+Adults: very small compact owls; short broad rounded solid-rufous ear tufts; rich saturated foxy rufous upperparts; fine pale forehead vermiculation and short distinct white brows; solid bright-rufous facial discs without black rims; yellow irises, pink-red orbital skin, orange-yellow bills/cere; long rufous facial bristles; restrained row of small triangular white neck/scapular areas with dark-brown blotches, not large blank shields; small widely spaced pale primary notches; virtually unbanded adult tertials/tails; white lower underparts finely rufous-brown vermiculated without bold black shaft streaks. Dense rufous tarsal feathering with only distal third bare; yellow-orange feet/claws.
+
+Center juvenile male, exact age unknown: clearly smaller/lower, quiet supported crouch, both feet gripping a branch fork. Slightly paler nearly uniform rufous residual natal down on neck, mantle, wing coverts, scapulars and uppertail coverts; only a few pale shaft streaks. Compact softly edged formed folded wing partly buried by residual down; short partly concealed tail with somewhat clearer rufous banding than adults. Do not assign iris colour if not clearly visible; no flight or exact-age claim.
+
+Exact visible text only: “#137 · FLORES SCOPS-OWL”; italic “Otus alfredi”; role labels “ADULT MALE” · “JUVENILE MALE — AGE UNKNOWN” · “ADULT FEMALE”. No nest, cavity, eggs, prey, buildings, extra birds, watermark or extra text. Avoid long pointed tufts, black facial rims, bold adult black streaks, regular barred adult tails, giant repeated white patches, female-larger exaggeration, hatchling anatomy, mature hard juvenile remiges, long juvenile tail, flying/unsupported juvenile or unsupported feet.
+```

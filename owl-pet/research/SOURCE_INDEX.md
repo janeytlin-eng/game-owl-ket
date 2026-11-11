@@ -4712,3 +4712,12 @@ Reused/re-read without duplicate IDs for #130 v5: `KOEP-ITIS-686665-2026`, repos
 - **CIN-ALARCON-SHANEE-2022:** primary nesting note re-read at printed pp.6–8. Supports a humid mossy epiphyte-rich montane-forest setting and natural cavity nesting, but provides no chick/juvenile sequence; v5 makes no active-nest claim.
 - **Access note:** uploaded Heimo Mikkola guide was not mounted in this execution; no fresh page claim added.
 - **Index change:** new 1; reused/re-read 3; corrected inference boundaries 4 (adult sex scale, first-year feather/action boundary, no-white/bare-part identity, nest-setting wording). Detailed record and full prompt: `research/species/136-megascops-petersoni-v5.md`. Scientific status remains false.
+
+
+## 2026-11-12 — #137 *Otus alfredi* v5 — juvenile specimen and adult sex-scale re-read
+
+- **FLO-WIDODO-1999:** primary taxonomic/morphology paper re-read at printed pp.15–20, Tables1–2 and Fig.2. The single 1994 juvenile male supports a smaller down-retaining formed stage and shorter wing/tail measurements, but not exact age, iris chronology or flight. Historical adult sex assignments were uncertain; v5 keeps adults near-equal.
+- **FLO-HUTCHINSON-2007:** primary field note re-read at printed pp.184–186. Supports compact rufous adult identity, short rounded tufts, yellow adult bare parts, localized white brow/scapular marks, no black facial rim/streaking and primary-montane-forest context. It does not supply a juvenile sequence or sex-size ratio.
+- **FLO-REEVE-RABENAK-2016:** BioStor metadata/page list opened at https://biostor.org/reference/246710; full text not read, so retained as an unverified distribution/habitat lead only.
+- **Access note:** uploaded Mikkola guide unavailable; no fresh page claim.
+- **Index delta:** new verified 0; reused/re-read 2; unverified lead 1; corrected boundaries 3. Details/full prompt: `research/species/137-otus-alfredi-v5.md`. Science false.

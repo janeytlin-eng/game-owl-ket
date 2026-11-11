@@ -41495,8 +41495,8 @@
       "next_cycle": 5,
       "active_cycle": 5,
       "started_at": "2026-11-12T04:31:00+08:00",
-      "updated_at": "2026-11-12T06:21:06+08:00",
-      "current_stage": "RESEARCH_READY",
+      "updated_at": "2026-11-12T06:24:00+08:00",
+      "current_stage": "IMAGE_GENERATED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex-owl-production",
@@ -41504,18 +41504,18 @@
         "batch_id": "20261112T043100+0800",
         "cycle": 5,
         "species_id": 135,
-        "heartbeat_at": "2026-11-12T06:21:06+08:00",
-        "expires_at": "2026-11-12T06:36:06+08:00"
+        "heartbeat_at": "2026-11-12T06:24:00+08:00",
+        "expires_at": "2026-11-12T06:39:00+08:00"
       },
       "active": {
         "run_id": "20261112T061900+0800-cycle-5",
         "cycle": 5,
         "species_id": 135,
         "species": "Otus silvicola",
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "run_record": "owl-pet/production/runs/20261112T061900+0800-cycle-5.md"
       },
-      "stage": "RESEARCH_READY",
+      "stage": "IMAGE_GENERATED",
       "completed_count": 4,
       "stage_events": [
         {
@@ -42562,6 +42562,31 @@
               "nest site"
             ],
             "lease_expires_at": "2026-11-12T06:36:06+08:00",
+            "scientifically_verified": false
+          }
+        },
+        {
+          "batch_id": "20261112T043100+0800",
+          "cycle": 5,
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-12T06:24:00+08:00",
+          "run_id": "20261112T061900+0800-cycle-5",
+          "species_id": 135,
+          "species": "Otus silvicola",
+          "credited": false,
+          "evidence": {
+            "initial_original": "owl-pet/production/generated/135-otus-silvicola-v5-initial-original.png",
+            "initial_blob": "c7139548a091f216646840c678290212c5900531",
+            "initial_bytes": 3328280,
+            "initial_sha256": "6e9ae2e79c0e8ea262bfe90d239ca82f5f6f1768533f27cd90793dd6970ca3fd",
+            "geometry": "1536x1024",
+            "generation_seconds": 47.985,
+            "imagegen_invocations": 1,
+            "edit_required": true,
+            "inspection_issue": "Adult underparts/facial contrast read too white/high-contrast and Bubo-like; transitional immature exposes mature-looking feet too strongly.",
+            "planned_edit": "Retain exact text/order/layout; soften adult contrast and white patches; preserve long ear tufts; conceal more of immature feet behind moss while retaining two-foot support; keep unknown-age fully feathered transitional stage.",
+            "complete_prompt": "owl-pet/research/species/135-otus-silvicola-v5.md",
+            "lease_expires_at": "2026-11-12T06:39:00+08:00",
             "scientifically_verified": false
           }
         }

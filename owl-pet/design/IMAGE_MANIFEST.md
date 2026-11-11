@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T04:50:00+08:00",
+  "updated": "2026-11-12T04:55:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -31002,10 +31002,18 @@
         }
       ],
       "archive_note": "V4, v5 full plate and all three role crops opened. Taxonomic certainty and young-stage label corrected. New0/reused4. Uploaded Mikkola unavailable; pinned page only. Science false.",
-      "readback_pending": true,
-      "archive_commit_pending": true,
-      "archived_at": "2026-11-12T04:50:00+08:00"
+      "readback_pending": false,
+      "archive_commit_pending": false,
+      "archived_at": "2026-11-12T04:50:00+08:00",
+      "archive_commit": "6adde1c0cf9e4180905e573d612fd0e7990fddda",
+      "archive_tree": "67e9693d64ed5e0d0c43b45c321000ee1cdbb32f",
+      "exact_readback": true,
+      "required_paths_verified": 19,
+      "exact_binary_paths_verified": 9,
+      "unique_binary_streams_read_back": 4,
+      "verified_at": "2026-11-12T04:55:00+08:00",
+      "verification_result": "PASS_WITH_LIMITATIONS"
     }
   ],
-  "updated_at": "2026-11-12T04:50:00+08:00"
+  "updated_at": "2026-11-12T04:55:00+08:00"
 }

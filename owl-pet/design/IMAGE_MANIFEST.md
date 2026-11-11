@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T06:33:00+08:00",
+  "updated": "2026-11-12T06:34:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -31404,9 +31404,11 @@
       "unique_binary_streams_tree_verified": 6,
       "verified_at": "2026-11-12T06:33:00+08:00",
       "verification_result": "PASS_WITH_LIMITATIONS",
-      "verification_commit_pending": true,
-      "binary_content_api_note": "Git contents/blob text endpoint rejects PNG as UTF-8; exact path, Git blob SHA and byte size were re-read from the archive tree for all binary aliases and six unique streams."
+      "verification_commit_pending": false,
+      "binary_content_api_note": "Git contents/blob text endpoint rejects PNG as UTF-8; exact path, Git blob SHA and byte size were re-read from the archive tree for all binary aliases and six unique streams.",
+      "verification_commit": "970f752fbf99537ddfd80f812fd0fa36a2ae8d52",
+      "ledger_credited_at": "2026-11-12T06:34:00+08:00"
     }
   ],
-  "updated_at": "2026-11-12T06:33:00+08:00"
+  "updated_at": "2026-11-12T06:34:00+08:00"
 }

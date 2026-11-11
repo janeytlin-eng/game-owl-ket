@@ -4721,3 +4721,12 @@ Reused/re-read without duplicate IDs for #130 v5: `KOEP-ITIS-686665-2026`, repos
 - **FLO-REEVE-RABENAK-2016:** BioStor metadata/page list opened at https://biostor.org/reference/246710; full text not read, so retained as an unverified distribution/habitat lead only.
 - **Access note:** uploaded Mikkola guide unavailable; no fresh page claim.
 - **Index delta:** new verified 0; reused/re-read 2; unverified lead 1; corrected boundaries 3. Details/full prompt: `research/species/137-otus-alfredi-v5.md`. Science false.
+
+
+## 2026-11-12 — #138 *Otus mentawi* v5 — dated branch-stage juvenile and sex-scale boundary re-read
+
+- **MEN-TAUFIQURRAHMAN-2018-P31-32:** primary BirdingASIA paper re-read in full at printed pp.31–32, Plates1–4. The 18–21 May 2017 juveniles were slightly smaller than the adult, lower-branch users with pale greyish-brown thin-streaked underparts, darker upperparts, reddish-brown face/eyes, pale greyish-horn bill/toes, wing beyond a short dark tail and faint narrow flight-feather bars. The paper calls its breeding-timing reconstruction only a reasonable estimate; no exact age or general flight threshold is inferred.
+- **MEN-ITIS-555383-2026:** current valid *Otus mentawi* and synonym/protonym *O. bakkamoena mentawi* re-read from the current ITIS/IOC-backed record. Taxonomy only.
+- **MEN-MIKKOLA-2013-P166-167:** repository-stable prior actual read reused for adult identity and the explicit absence of sexual-size data. Uploaded guide unavailable in this execution; no fresh page claim.
+- **MEN-CHASEN-KLOSS-1926-DOI:** publisher metadata and p.279 citation/protonym opened; full species text not read, so retained as an unverified morphology lead.
+- **Index delta:** new verified 0; reused/re-read 3; unverified lead 1; corrected boundaries 2 (no fixed sex-size direction; formed juvenile wing is stage-supported but exact age/flight is not). Details/full prompt: `research/species/138-otus-mentawi-v5.md`. Science false.

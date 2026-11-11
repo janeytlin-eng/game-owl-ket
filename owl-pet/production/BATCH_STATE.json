@@ -38947,8 +38947,8 @@
       "next_cycle": 5,
       "active_cycle": 5,
       "started_at": "2026-11-11T19:38:46+08:00",
-      "updated_at": "2026-11-11T22:41:39+08:00",
-      "current_stage": "REVIEWED",
+      "updated_at": "2026-11-11T22:44:00+08:00",
+      "current_stage": "ARCHIVED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex-owl-production",
@@ -38956,15 +38956,15 @@
         "batch_id": "20261111T193846+0800",
         "cycle": 5,
         "species_id": 120,
-        "heartbeat_at": "2026-11-11T22:41:39+08:00",
-        "expires_at": "2026-11-11T22:56:39+08:00"
+        "heartbeat_at": "2026-11-11T22:44:00+08:00",
+        "expires_at": "2026-11-11T22:59:00+08:00"
       },
       "in_progress": {
         "run_id": "20261111T223524+0800-cycle-5",
         "cycle": 5,
         "species_id": 120,
         "species": "Megascops ingens",
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "run_record": "owl-pet/production/runs/20261111T223524+0800-cycle-5.md"
       },
       "active": {
@@ -38972,7 +38972,7 @@
         "cycle": 5,
         "species_id": 120,
         "species": "Megascops ingens",
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "run_record": "owl-pet/production/runs/20261111T223524+0800-cycle-5.md"
       },
       "stage_events": [
@@ -39999,9 +39999,49 @@
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-11T22:56:39+08:00"
           }
+        },
+        {
+          "batch_id": "20261111T193846+0800",
+          "cycle": 5,
+          "stage": "ARCHIVED",
+          "at": "2026-11-11T22:44:00+08:00",
+          "run_id": "20261111T223524+0800-cycle-5",
+          "species_id": 120,
+          "species": "Megascops ingens",
+          "credited": false,
+          "evidence": {
+            "concept_path": "owl-pet/design/concepts/120-megascops-ingens-v5.png",
+            "initial_blob": "2239656057634898e23bfcaefb7174169d28effe",
+            "final_blob": "a37eeac43940af54ab559348754899a4ada8f432",
+            "initial_bytes": 3278379,
+            "final_bytes": 3003333,
+            "aliases": [
+              "owl-pet/production/generated/120-megascops-ingens-v5-final-original.png",
+              "owl-pet/production/generated/120-megascops-ingens-v5-full-color.png",
+              "owl-pet/production/generated/120-megascops-ingens-v5-generated-master.png",
+              "owl-pet/production/reviewed/120-megascops-ingens-v5-reviewed-master.png",
+              "owl-pet/design/concepts/120-megascops-ingens-v5.png"
+            ],
+            "review_crops": 3,
+            "manifests": 3,
+            "manifest_counts": {
+              "design_upper": 803,
+              "design_concepts": 820,
+              "production": 793
+            },
+            "unique_species_count": 176,
+            "total_species": 251,
+            "unique_species_increment": 0,
+            "revision_increment": 1,
+            "review_result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false,
+            "archive_commit_pending": true,
+            "readback_pending": true,
+            "lease_expires_at": "2026-11-11T22:59:00+08:00"
+          }
         }
       ],
-      "stage": "REVIEWED",
+      "stage": "ARCHIVED",
       "completed_count": 4
     }
   ],
@@ -40011,8 +40051,8 @@
     "batch_id": "20261111T193846+0800",
     "cycle": 5,
     "species_id": 120,
-    "heartbeat_at": "2026-11-11T22:41:39+08:00",
-    "expires_at": "2026-11-11T22:56:39+08:00"
+    "heartbeat_at": "2026-11-11T22:44:00+08:00",
+    "expires_at": "2026-11-11T22:59:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -46742,7 +46782,7 @@
   ],
   "active_batch_id": "20261111T193846+0800",
   "active_cycle": 5,
-  "current_stage": "REVIEWED",
+  "current_stage": "ARCHIVED",
   "next_cycle": 5,
   "unique_species_count": 176,
   "total_species": 251,
@@ -51108,6 +51148,46 @@
         "review_result": "PASS_WITH_LIMITATIONS",
         "scientifically_verified": false,
         "lease_expires_at": "2026-11-11T22:56:39+08:00"
+      }
+    },
+    {
+      "batch_id": "20261111T193846+0800",
+      "cycle": 5,
+      "stage": "ARCHIVED",
+      "at": "2026-11-11T22:44:00+08:00",
+      "run_id": "20261111T223524+0800-cycle-5",
+      "species_id": 120,
+      "species": "Megascops ingens",
+      "credited": false,
+      "evidence": {
+        "concept_path": "owl-pet/design/concepts/120-megascops-ingens-v5.png",
+        "initial_blob": "2239656057634898e23bfcaefb7174169d28effe",
+        "final_blob": "a37eeac43940af54ab559348754899a4ada8f432",
+        "initial_bytes": 3278379,
+        "final_bytes": 3003333,
+        "aliases": [
+          "owl-pet/production/generated/120-megascops-ingens-v5-final-original.png",
+          "owl-pet/production/generated/120-megascops-ingens-v5-full-color.png",
+          "owl-pet/production/generated/120-megascops-ingens-v5-generated-master.png",
+          "owl-pet/production/reviewed/120-megascops-ingens-v5-reviewed-master.png",
+          "owl-pet/design/concepts/120-megascops-ingens-v5.png"
+        ],
+        "review_crops": 3,
+        "manifests": 3,
+        "manifest_counts": {
+          "design_upper": 803,
+          "design_concepts": 820,
+          "production": 793
+        },
+        "unique_species_count": 176,
+        "total_species": 251,
+        "unique_species_increment": 0,
+        "revision_increment": 1,
+        "review_result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false,
+        "archive_commit_pending": true,
+        "readback_pending": true,
+        "lease_expires_at": "2026-11-11T22:59:00+08:00"
       }
     }
   ],
@@ -61623,7 +61703,7 @@
     "cycle": 5,
     "species_id": 120,
     "species": "Megascops ingens",
-    "stage": "REVIEWED",
+    "stage": "ARCHIVED",
     "run_record": "owl-pet/production/runs/20261111T223524+0800-cycle-5.md"
   }
 }

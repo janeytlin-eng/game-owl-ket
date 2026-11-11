@@ -69,3 +69,11 @@ undefined
 - Evidence boundary: the repository's primary-study record supports an older photographed juvenile with gray mesoptile, formed remiges and no visible tail, but not an exact age, sex, flight threshold or independence claim. Current-name checks retain *Megascops centralis* and the former *Otus guatemalae centralis* combination.
 - Applied change: v5 uses asymmetric adult angles, irregular individualized plumage, near-equal displayed adult scale, and a cavity-braced juvenile whose formed wing group ends above the sill and whose feet are fully supported.
 - Validation: full plate and three focused crops passed the saved checks without edit; exact text/count/order and all supports were visible. This validates the prompt/review rule for #119 only. It does not establish a universal juvenile pattern or quantitative sex-size rule.
+
+
+## 2026-11-11 — separate feather-development evidence from action ability (#120 v5)
+
+- A primary description of “considerably developed” primaries/secondaries/tertials can justify formed barred remiges under residual down, but it does not by itself justify a long rigid adult wing or flight.
+- When the same record documents only slight wing opening and bill-clapping, render a compact partially lifted wing with belly and both feet supported; keep first-flight threshold and independence unknown.
+- If a paper gives different estimated age ranges in its results and discussion (here 20–30 versus 25–30 d), do not collapse them into an exact-age design label.
+- Applied and visually verified for #120 *Megascops ingens* v5 after one edit; broader effectiveness is not claimed.

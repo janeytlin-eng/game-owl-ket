@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T21:49:30+08:00",
+  "updated": "2026-11-11T22:44:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -29663,7 +29663,92 @@
       "exact_binary_paths_verified": 9,
       "verified_at": "2026-11-11T21:49:30+08:00",
       "verification_result": "Immutable archive tree was non-truncated (4,295 entries). All 18 required paths were present; six original/alias paths matched the exact 3,355,983-byte Git blob, three crop paths matched exact blob and byte size, and all three manifests parsed with exactly one #119 v5 entry."
+    },
+    {
+      "id": "120-megascops-ingens-v5",
+      "path": "design/concepts/120-megascops-ingens-v5.png",
+      "species_id": 120,
+      "scientific_name": "Megascops ingens",
+      "historical_names": [
+        "Scops ingens Salvin, 1897",
+        "Otus ingens"
+      ],
+      "common_name": "Rufescent Screech Owl",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "prior_versions_retained": true,
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "imagegen_invocations": 2,
+      "status": "V5 preserves v1-v4. The primary paper's internally inconsistent 20–30 versus 25–30 day estimates are no longer converted to an exact-age claim. The supported older nestling keeps residual natal down and compact formed barred remiges, uses the documented slight-wing/open-bill threat action with full cavity support, and makes no flight/independence claim. One edit shortened the adult-perfect juvenile wing and reduced the male's oversized ear tuft. Adults are near-equal and non-mirrored.",
+      "source_ids": [
+        "RIS-ORDONEZ-2022-LEAD",
+        "RIS-IKIAM-2022-INGENS-REPO",
+        "RIS-ITIS-686668-2026",
+        "RIS-ITIS-686872-2026",
+        "RIS-MIKKOLA-2013-P229"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/120-megascops-ingens-v5.md",
+      "review_record": "research/reviews/120-megascops-ingens-v5-review.md",
+      "run_record": "production/runs/20261111T223524+0800-cycle-5.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 3003333,
+      "sha256": "af27d13d7a9669c737060ade44c02bf845d5a99aeef63c275802bf944c21c2e3",
+      "git_blob": "a37eeac43940af54ab559348754899a4ada8f432",
+      "initial_original_path": "production/generated/120-megascops-ingens-v5-initial-original.png",
+      "initial_original_blob": "2239656057634898e23bfcaefb7174169d28effe",
+      "initial_original_size_bytes": 3278379,
+      "initial_original_sha256": "c00b10c8fe8cf1f3d0749ad43b9f6034c1ee68b0f899c764a0d64454409d5593",
+      "final_original_path": "production/generated/120-megascops-ingens-v5-final-original.png",
+      "final_original_blob": "a37eeac43940af54ab559348754899a4ada8f432",
+      "final_original_size_bytes": 3003333,
+      "final_original_sha256": "af27d13d7a9669c737060ade44c02bf845d5a99aeef63c275802bf944c21c2e3",
+      "full_color_source_path": "production/generated/120-megascops-ingens-v5-full-color.png",
+      "full_color_source_blob": "a37eeac43940af54ab559348754899a4ada8f432",
+      "full_color_source_size_bytes": 3003333,
+      "full_color_source_sha256": "af27d13d7a9669c737060ade44c02bf845d5a99aeef63c275802bf944c21c2e3",
+      "generated_path": "production/generated/120-megascops-ingens-v5-generated-master.png",
+      "generated_blob": "a37eeac43940af54ab559348754899a4ada8f432",
+      "generated_size_bytes": 3003333,
+      "reviewed_path": "production/reviewed/120-megascops-ingens-v5-reviewed-master.png",
+      "reviewed_blob": "a37eeac43940af54ab559348754899a4ada8f432",
+      "reviewed_size_bytes": 3003333,
+      "review_crops": [
+        {
+          "path": "production/review-crops/120-megascops-ingens-v5-adult-male.png",
+          "blob": "1769606ccfd70ae923b2b54126bae6b69030f36e",
+          "size_bytes": 788330,
+          "sha256": "db2127265c93c00e15c6ef2b978d76eef6742c393c99a2408f4107f3e67a192f"
+        },
+        {
+          "path": "production/review-crops/120-megascops-ingens-v5-juvenile.png",
+          "blob": "da353bb1a7c18a72b0cc48e9e1b244f6fcb058fb",
+          "size_bytes": 785342,
+          "sha256": "c31794bf52706e35a605a9240e2c672da095b57293519c6c5fe4aefafa9adbd5"
+        },
+        {
+          "path": "production/review-crops/120-megascops-ingens-v5-adult-female.png",
+          "blob": "a15b2f5abcac0162ae794fbcd881306cb1440ca5",
+          "size_bytes": 712604,
+          "sha256": "3d82e9d10b861d7dc6c453779fc47dc6a366d2529e391f600a83e7650837f91b"
+        }
+      ],
+      "archive_note": "V4 plus v5 initial, edited full plate and three role crops were actually opened. One edit corrected juvenile wing maturity and male tuft height. One new institutional source, four re-read/reused records and two corrected boundaries. Uploaded Mikkola unavailable; repository-pinned page reused only. Science false.",
+      "readback_pending": true,
+      "archive_commit_pending": true,
+      "archived_at": "2026-11-11T22:44:00+08:00"
     }
   ],
-  "updated_at": "2026-11-11T21:49:30+08:00"
+  "updated_at": "2026-11-11T22:44:00+08:00"
 }

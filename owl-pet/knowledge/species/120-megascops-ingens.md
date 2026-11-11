@@ -18,3 +18,8 @@ SCIENCE_REVISION; unique archived total remains 174/251. Publisher PDF printed p
 ## 2026-11-06 v4 production boundary
 
 Primary pp.301–304/Fig.1 supports a 20–30 d estimate, abundant residual down and considerably developed barred primaries/secondaries/tertials, but not exact age or flight. V4 therefore uses a compact down-veiled formed cluster ending above both feet, concealed tail and full cavity-rim support. Adult visible scale remains near equal; the average-mass note is not converted into a fixed height ratio. See `research/species/120-megascops-ingens-v4.md` and its review record. Scientific verification remains false.
+
+
+## 2026-11-11 v5 science revision
+
+V5 preserves v1–v4. The primary article was re-read at printed pp.301–304/Fig.1 and its institutional repository record was added to the source index. The paper internally gives 20–30 d in the observation/results passage and 25–30 d later in discussion, so the concept retains only an age-unknown older nestling. The documented slight wing opening and bill-clapping support a low, fully supported defensive pose but not flight. Initial image review found an adult-perfect juvenile wing and an oversized male ear tuft; one imagegen edit shortened/softened the down-veiled formed remiges and reduced both male tufts. Edited full plate and three crops passed with limitations. Exact age/sex, continuous feather chronology, first-flight threshold, independence, quantitative sex-size ratio and exact subspecific colour remain unknown; scientific verification remains false. See `research/species/120-megascops-ingens-v5.md` and `research/reviews/120-megascops-ingens-v5-review.md`.

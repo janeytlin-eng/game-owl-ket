@@ -4104,3 +4104,8 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` was read back after arch
 - Archive `c9413688e93920051247286046c1da70fbbabc7c`; tree `78023e707f1d0b91da3173a62050509a81b22cde`.
 - Required paths 24/24; exact binary path/blob/size tuples 12/12; all four JSON files parse.
 - Manifests 811 / 808 / 801 with #102 v5 exactly once. PASS_WITH_LIMITATIONS; science=false; ledger credit pending.
+
+## 2026-11-11 — #102 v5 batch ledger credit
+
+- Verification `60ab8d7a2f275e941ebb8fbb8175e28bba62ae46` and archive `c9413688e93920051247286046c1da70fbbabc7c` read back.
+- Credited cycle 2/6 exactly once; next cycle 3. Coverage 176/251; revision +1; science=false; lease released.

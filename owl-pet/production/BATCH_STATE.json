@@ -37684,39 +37684,33 @@
           "scientifically_verified": false,
           "credited_at": "2026-11-08T05:40:36.411+08:00",
           "batch_id": "20261108T045200+0800"
+        },
+        {
+          "cycle": 2,
+          "species": "Strix nigrolineata",
+          "species_id": 102,
+          "version": 5,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "commit_sha": "60ab8d7a2f275e941ebb8fbb8175e28bba62ae46",
+          "archive_commit": "c9413688e93920051247286046c1da70fbbabc7c",
+          "run_record": "owl-pet/production/runs/20261108T054352+0800-cycle-2.md",
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "credited_at": "2026-11-11T16:06:17+08:00",
+          "batch_id": "20261108T045200+0800"
         }
       ],
-      "next_cycle": 2,
-      "active_cycle": 2,
+      "next_cycle": 3,
+      "active_cycle": null,
       "started_at": "2026-11-08T04:51:43.588+08:00",
-      "updated_at": "2026-11-11T16:00:14+08:00",
-      "current_stage": "VERIFIED",
-      "ledger_credit_pending": true,
-      "lease": {
-        "owner": "codex-owl-production",
-        "run_id": "20261108T054352+0800-cycle-2",
-        "batch_id": "20261108T045200+0800",
-        "cycle": 2,
-        "species_id": 102,
-        "heartbeat_at": "2026-11-11T16:00:14+08:00",
-        "expires_at": "2026-11-11T16:15:14+08:00"
-      },
-      "in_progress": {
-        "run_id": "20261108T054352+0800-cycle-2",
-        "cycle": 2,
-        "species_id": 102,
-        "species": "Strix nigrolineata",
-        "stage": "VERIFIED",
-        "run_record": "owl-pet/production/runs/20261108T054352+0800-cycle-2.md"
-      },
-      "active": {
-        "run_id": "20261108T054352+0800-cycle-2",
-        "cycle": 2,
-        "species_id": 102,
-        "species": "Strix nigrolineata",
-        "stage": "VERIFIED",
-        "run_record": "owl-pet/production/runs/20261108T054352+0800-cycle-2.md"
-      },
+      "updated_at": "2026-11-11T16:06:17+08:00",
+      "current_stage": "LEDGER_CREDITED",
+      "ledger_credit_pending": false,
+      "lease": null,
+      "in_progress": null,
+      "active": null,
       "stage_events": [
         {
           "batch_id": "20261108T045200+0800",
@@ -38016,10 +38010,33 @@
             "ledger_credit_pending": true,
             "lease_expires_at": "2026-11-11T16:15:14+08:00"
           }
+        },
+        {
+          "batch_id": "20261108T045200+0800",
+          "cycle": 2,
+          "stage": "LEDGER_CREDITED",
+          "at": "2026-11-11T16:06:17+08:00",
+          "run_id": "20261108T054352+0800-cycle-2",
+          "species_id": 102,
+          "species": "Strix nigrolineata",
+          "credited": true,
+          "evidence": {
+            "verification_commit": "60ab8d7a2f275e941ebb8fbb8175e28bba62ae46",
+            "archive_commit": "c9413688e93920051247286046c1da70fbbabc7c",
+            "archive_tree": "78023e707f1d0b91da3173a62050509a81b22cde",
+            "run_record": "owl-pet/production/runs/20261108T054352+0800-cycle-2.md",
+            "batch_progress": "2/6",
+            "next_cycle": 3,
+            "unique_species_increment": 0,
+            "revision_increment": 1,
+            "unique_species_count": 176,
+            "total_species": 251,
+            "scientifically_verified": false
+          }
         }
       ],
-      "stage": "VERIFIED",
-      "completed_count": 1
+      "stage": "LEDGER_CREDITED",
+      "completed_count": 2
     }
   ],
   "lease": null,
@@ -38156,7 +38173,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-11T16:00:14+08:00",
+  "updated_at": "2026-11-11T16:06:17+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -38166,7 +38183,7 @@
     "2026-10-30T18:12:00+08:00 ledger normalization: historical batch 2026-10-16T0430+0800 already COMPLETE with six preserved completed_cycles; stale next_cycle 7 changed to null. No cycle count or evidence changed."
   ],
   "active_lease": null,
-  "last_updated_at": "2026-11-11T16:00:14+08:00",
+  "last_updated_at": "2026-11-11T16:06:17+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -38972,11 +38989,12 @@
     "run_record": "owl-pet/production/runs/20261107T151400+0800-cycle-3.md"
   },
   "last_checkpoint": {
-    "batch_id": "20261108T023550+0800",
-    "cycle": 6,
+    "batch_id": "20261108T045200+0800",
+    "cycle": 2,
     "stage": "LEDGER_CREDITED",
-    "verification_commit": "e48fed1f667787287601f024ea0fec51b443b226",
-    "at": "2026-11-08T04:50:24.556+08:00"
+    "verification_commit": "60ab8d7a2f275e941ebb8fbb8175e28bba62ae46",
+    "archive_commit": "c9413688e93920051247286046c1da70fbbabc7c",
+    "at": "2026-11-11T16:06:17+08:00"
   },
   "history": [
     {
@@ -40268,7 +40286,7 @@
       "lease_expires_at": "2026-11-07T21:08:00+08:00"
     }
   ],
-  "last_updated": "2026-11-11T16:00:14+08:00",
+  "last_updated": "2026-11-11T16:06:17+08:00",
   "audit_log": [
     {
       "at": "2026-10-31T18:36:48+08:00",
@@ -40471,6 +40489,18 @@
       "cycle": 4,
       "run_id": "20261107T160900+0800-cycle-4",
       "note": "Expired lease checked against unchanged main 4437e8f; resume from persisted RESEARCH_READY without repeating research."
+    },
+    {
+      "at": "2026-11-11T16:06:17+08:00",
+      "event": "LEDGER_CREDITED",
+      "batch_id": "20261108T045200+0800",
+      "cycle": 2,
+      "species_id": 102,
+      "commit_sha": "60ab8d7a2f275e941ebb8fbb8175e28bba62ae46",
+      "archive_commit": "c9413688e93920051247286046c1da70fbbabc7c",
+      "next_cycle": 3,
+      "unique_species_count": 176,
+      "scientifically_verified": false
     }
   ],
   "stage_history": [
@@ -44550,8 +44580,8 @@
   ],
   "active_batch_id": "20261108T045200+0800",
   "active_cycle": null,
-  "current_stage": "VERIFIED",
-  "next_cycle": 2,
+  "current_stage": "LEDGER_CREDITED",
+  "next_cycle": 3,
   "unique_species_count": 176,
   "total_species": 251,
   "stage_events": [
@@ -48249,6 +48279,29 @@
         "ledger_credit_pending": true,
         "lease_expires_at": "2026-11-11T16:15:14+08:00"
       }
+    },
+    {
+      "batch_id": "20261108T045200+0800",
+      "cycle": 2,
+      "stage": "LEDGER_CREDITED",
+      "at": "2026-11-11T16:06:17+08:00",
+      "run_id": "20261108T054352+0800-cycle-2",
+      "species_id": 102,
+      "species": "Strix nigrolineata",
+      "credited": true,
+      "evidence": {
+        "verification_commit": "60ab8d7a2f275e941ebb8fbb8175e28bba62ae46",
+        "archive_commit": "c9413688e93920051247286046c1da70fbbabc7c",
+        "archive_tree": "78023e707f1d0b91da3173a62050509a81b22cde",
+        "run_record": "owl-pet/production/runs/20261108T054352+0800-cycle-2.md",
+        "batch_progress": "2/6",
+        "next_cycle": 3,
+        "unique_species_increment": 0,
+        "revision_increment": 1,
+        "unique_species_count": 176,
+        "total_species": 251,
+        "scientifically_verified": false
+      }
     }
   ],
   "last_completed_batch_id": "20261108T023550+0800",
@@ -48272,39 +48325,33 @@
         "scientifically_verified": false,
         "credited_at": "2026-11-08T05:40:36.411+08:00",
         "batch_id": "20261108T045200+0800"
+      },
+      {
+        "cycle": 2,
+        "species": "Strix nigrolineata",
+        "species_id": 102,
+        "version": 5,
+        "action": "SCIENCE_REVISION",
+        "unique_species_increment": 0,
+        "revision_increment": 1,
+        "commit_sha": "60ab8d7a2f275e941ebb8fbb8175e28bba62ae46",
+        "archive_commit": "c9413688e93920051247286046c1da70fbbabc7c",
+        "run_record": "owl-pet/production/runs/20261108T054352+0800-cycle-2.md",
+        "review_result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false,
+        "credited_at": "2026-11-11T16:06:17+08:00",
+        "batch_id": "20261108T045200+0800"
       }
     ],
-    "next_cycle": 2,
-    "active_cycle": 2,
+    "next_cycle": 3,
+    "active_cycle": null,
     "started_at": "2026-11-08T04:51:43.588+08:00",
-    "updated_at": "2026-11-11T16:00:14+08:00",
-    "current_stage": "VERIFIED",
-    "ledger_credit_pending": true,
-    "lease": {
-      "owner": "codex-owl-production",
-      "run_id": "20261108T054352+0800-cycle-2",
-      "batch_id": "20261108T045200+0800",
-      "cycle": 2,
-      "species_id": 102,
-      "heartbeat_at": "2026-11-11T16:00:14+08:00",
-      "expires_at": "2026-11-11T16:15:14+08:00"
-    },
-    "in_progress": {
-      "run_id": "20261108T054352+0800-cycle-2",
-      "cycle": 2,
-      "species_id": 102,
-      "species": "Strix nigrolineata",
-      "stage": "VERIFIED",
-      "run_record": "owl-pet/production/runs/20261108T054352+0800-cycle-2.md"
-    },
-    "active": {
-      "run_id": "20261108T054352+0800-cycle-2",
-      "cycle": 2,
-      "species_id": 102,
-      "species": "Strix nigrolineata",
-      "stage": "VERIFIED",
-      "run_record": "owl-pet/production/runs/20261108T054352+0800-cycle-2.md"
-    },
+    "updated_at": "2026-11-11T16:06:17+08:00",
+    "current_stage": "LEDGER_CREDITED",
+    "ledger_credit_pending": false,
+    "lease": null,
+    "in_progress": null,
+    "active": null,
     "stage_events": [
       {
         "batch_id": "20261108T045200+0800",
@@ -48531,9 +48578,33 @@
           "ledger_credit_pending": true,
           "lease_expires_at": "2026-11-11T16:15:14+08:00"
         }
+      },
+      {
+        "batch_id": "20261108T045200+0800",
+        "cycle": 2,
+        "stage": "LEDGER_CREDITED",
+        "at": "2026-11-11T16:06:17+08:00",
+        "run_id": "20261108T054352+0800-cycle-2",
+        "species_id": 102,
+        "species": "Strix nigrolineata",
+        "credited": true,
+        "evidence": {
+          "verification_commit": "60ab8d7a2f275e941ebb8fbb8175e28bba62ae46",
+          "archive_commit": "c9413688e93920051247286046c1da70fbbabc7c",
+          "archive_tree": "78023e707f1d0b91da3173a62050509a81b22cde",
+          "run_record": "owl-pet/production/runs/20261108T054352+0800-cycle-2.md",
+          "batch_progress": "2/6",
+          "next_cycle": 3,
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "unique_species_count": 176,
+          "total_species": 251,
+          "scientifically_verified": false
+        }
       }
     ],
-    "completed_count": 1
+    "completed_count": 2,
+    "stage": "LEDGER_CREDITED"
   },
   "events": [
     {
@@ -56396,8 +56467,8 @@
       }
     }
   ],
-  "ledger_credit_pending": true,
-  "last_verified_commit": "6e81be91d60bbad92ef2bbc98d4428a03a0a6f62",
+  "ledger_credit_pending": false,
+  "last_verified_commit": "60ab8d7a2f275e941ebb8fbb8175e28bba62ae46",
   "completed_cycles": [
     {
       "cycle": 1,
@@ -56571,10 +56642,26 @@
       "scientifically_verified": false,
       "credited_at": "2026-11-08T05:40:36.411+08:00",
       "batch_id": "20261108T045200+0800"
+    },
+    {
+      "cycle": 2,
+      "species": "Strix nigrolineata",
+      "species_id": 102,
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "commit_sha": "60ab8d7a2f275e941ebb8fbb8175e28bba62ae46",
+      "archive_commit": "c9413688e93920051247286046c1da70fbbabc7c",
+      "run_record": "owl-pet/production/runs/20261108T054352+0800-cycle-2.md",
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "scientifically_verified": false,
+      "credited_at": "2026-11-11T16:06:17+08:00",
+      "batch_id": "20261108T045200+0800"
     }
   ],
-  "updated": "2026-11-11T16:00:14+08:00",
-  "stage": "VERIFIED",
+  "updated": "2026-11-11T16:06:17+08:00",
+  "stage": "LEDGER_CREDITED",
   "stage_evidence": {
     "final_original": "owl-pet/production/generated/97-lophostrix-cristata-v5-final-original.png",
     "final_blob": "b5c0e0c7d907f9ccc78eab7e3d96866b93c0507c",
@@ -56606,8 +56693,8 @@
       "production": 800,
       "legacy": 807
     },
-    "archive_commit": "94db1071e7f69002dff410a8c2ea3f4df9314d96",
-    "archive_tree": "eee7e38625a0899717b9e53c24b490e1ae827fde",
+    "archive_commit": "c9413688e93920051247286046c1da70fbbabc7c",
+    "archive_tree": "78023e707f1d0b91da3173a62050509a81b22cde",
     "archive_tree_entries": 4182,
     "archive_tree_truncated": false,
     "required_paths_verified": 20,
@@ -56615,13 +56702,18 @@
     "unique_binary_streams_verified": 4,
     "verified_at": "2026-11-08T05:39:28.507+08:00",
     "exact_readback": true,
-    "ledger_credited_at": "2026-11-08T05:40:36.411+08:00",
-    "verification_commit": "6e81be91d60bbad92ef2bbc98d4428a03a0a6f62",
-    "batch_progress": "1/6",
-    "next_cycle": 2,
-    "lease_released": true
+    "ledger_credited_at": "2026-11-11T16:06:17+08:00",
+    "verification_commit": "60ab8d7a2f275e941ebb8fbb8175e28bba62ae46",
+    "batch_progress": "2/6",
+    "next_cycle": 3,
+    "lease_released": true,
+    "run_record": "owl-pet/production/runs/20261108T054352+0800-cycle-2.md",
+    "unique_species_increment": 0,
+    "revision_increment": 1,
+    "unique_species_count": 176,
+    "total_species": 251
   },
-  "last_verification_commit": "6e81be91d60bbad92ef2bbc98d4428a03a0a6f62",
+  "last_verification_commit": "60ab8d7a2f275e941ebb8fbb8175e28bba62ae46",
   "timestamps": {
     "RESEARCH_READY": "2026-11-08T03:43:01+08:00",
     "IMAGE_GENERATED": "2026-11-08T03:44:43+08:00",
@@ -57712,6 +57804,29 @@
         "run_record": "owl-pet/production/runs/20261108T045200+0800-cycle-1.md",
         "batch_progress": "1/6",
         "next_cycle": 2,
+        "unique_species_increment": 0,
+        "revision_increment": 1,
+        "unique_species_count": 176,
+        "total_species": 251,
+        "scientifically_verified": false
+      }
+    },
+    {
+      "batch_id": "20261108T045200+0800",
+      "cycle": 2,
+      "stage": "LEDGER_CREDITED",
+      "at": "2026-11-11T16:06:17+08:00",
+      "run_id": "20261108T054352+0800-cycle-2",
+      "species_id": 102,
+      "species": "Strix nigrolineata",
+      "credited": true,
+      "evidence": {
+        "verification_commit": "60ab8d7a2f275e941ebb8fbb8175e28bba62ae46",
+        "archive_commit": "c9413688e93920051247286046c1da70fbbabc7c",
+        "archive_tree": "78023e707f1d0b91da3173a62050509a81b22cde",
+        "run_record": "owl-pet/production/runs/20261108T054352+0800-cycle-2.md",
+        "batch_progress": "2/6",
+        "next_cycle": 3,
         "unique_species_increment": 0,
         "revision_increment": 1,
         "unique_species_count": 176,

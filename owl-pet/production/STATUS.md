@@ -4022,3 +4022,8 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` read back; cycle 1 credi
 - Archive `c9413688e93920051247286046c1da70fbbabc7c`; tree `78023e707f1d0b91da3173a62050509a81b22cde`.
 - Required paths 24/24 and exact binary tuples 12/12 passed immutable readback; ledger and three canonical manifests parse.
 - #102 v5 occurs exactly once in manifests 811 / 808 / 801. PASS_WITH_LIMITATIONS; science=false; ledger credit pending.
+
+## 2026-11-11 — #102 *Strix nigrolineata* v5 LEDGER_CREDITED
+
+- Verification `60ab8d7a2f275e941ebb8fbb8175e28bba62ae46`; archive `c9413688e93920051247286046c1da70fbbabc7c`.
+- Credited cycle 2/6 exactly once; next cycle 3; lease released. Unique coverage remains 176/251; revision +1; science=false.

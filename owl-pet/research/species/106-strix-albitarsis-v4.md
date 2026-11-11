@@ -51,3 +51,7 @@ Avoid: bright orange/yellow adult iris, ear tufts, generic brown owls without ru
 ## Unknowns retained
 
 Exact juvenile age/sex, continuous feather chronology, first-flight threshold, juvenile iris chronology, population-wide sex-size direction, nest site, toe-feather boundary and the unresolved historical iris conflict remain unknown. The concept may pass visual production review while remaining scientifically unverified.
+
+## Actual image review
+
+The generated 1536×1024 plate, title crop and all three role crops were opened. Adult identity, dark irides, near-equal scale, yellow-cream downy juvenile, short down-softened wing, attached tree-fern support and no-nest boundary all passed. No targeted edit was required. Remaining evidence conflicts/unknowns are not visually guessed; result `PASS_WITH_LIMITATIONS`, science false.

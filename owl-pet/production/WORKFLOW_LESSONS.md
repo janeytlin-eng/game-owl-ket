@@ -106,3 +106,10 @@ When primary sources say a recent fledgling can fly but lands poorly, that evide
 - **Applied:** preserved the old commit for audit, restored the last valid ledger/manifests, regenerated the asset from the persisted full prompt, opened the full plate and three role crops, and uploaded binary content in 300,000-byte raw chunks with an exact expected base64-length check before blob creation.
 - **Validation required:** compare remote Git blob SHA and byte size for every image alias, parse every canonical JSON manifest from the immutable commit, and only then write `VERIFIED` and ledger credit.
 - **Reusable rule:** connector success is only a transport event. Production success requires immutable path, blob, byte and parse evidence; a scratch path or ref update alone is not archival proof.
+
+## 2026-11-11 — Preserve source conflicts instead of averaging them into invented traits
+
+- **Finding:** #106 *Strix albitarsis* has two accessible institutional accounts describing dark eyes, while a blocked prior guide snippet and a secondary account point toward orange/yellow eyes.
+- **Applied:** v4 uses very dark brown adult irides with restrained warm reflections, documents the conflicting material, and remains scientifically unverified. No speculative second edit was made merely to blend contradictory color claims.
+- **Validation:** full plate plus adult and juvenile crops were opened; the result preserves the selected evidence boundary without bright iris discs, clone adults, adult-hard juvenile wings or nest-like geometry.
+- **Reusable rule:** when sources conflict, select the best actually read evidence for the concept, retain the conflict and confidence limit in the record, and never present an aesthetic compromise as a resolved scientific fact.

@@ -53366,27 +53366,27 @@
     "next_cycle": 3,
     "active_cycle": 3,
     "started_at": "2026-11-11T23:36:00+08:00",
-    "updated_at": "2026-11-12T03:36:00+08:00",
-    "current_stage": "ARCHIVED",
-    "ledger_credit_pending": false,
+    "updated_at": "2026-11-12T03:39:00+08:00",
+    "current_stage": "VERIFIED",
+    "ledger_credit_pending": true,
     "lease": {
       "owner": "codex-owl-production",
       "run_id": "20261112T005500+0800-cycle-3",
       "batch_id": "20261111T233600+0800",
       "cycle": 3,
       "species_id": 126,
-      "heartbeat_at": "2026-11-12T03:36:00+08:00",
-      "expires_at": "2026-11-12T03:51:00+08:00"
+      "heartbeat_at": "2026-11-12T03:39:00+08:00",
+      "expires_at": "2026-11-12T03:54:00+08:00"
     },
     "active": {
       "run_id": "20261112T005500+0800-cycle-3",
       "cycle": 3,
       "species_id": 126,
       "species": "Strix hadorami",
-      "stage": "ARCHIVED",
+      "stage": "VERIFIED",
       "run_record": "owl-pet/production/runs/20261112T005500+0800-cycle-3.md"
     },
-    "stage": "ARCHIVED",
+    "stage": "VERIFIED",
     "completed_count": 2,
     "stage_events": [
       {
@@ -54020,6 +54020,41 @@
           "review_result": "PASS_WITH_LIMITATIONS",
           "scientifically_verified": false,
           "lease_expires_at": "2026-11-12T03:51:00+08:00"
+        }
+      },
+      {
+        "batch_id": "20261111T233600+0800",
+        "cycle": 5,
+        "stage": "VERIFIED",
+        "at": "2026-11-12T03:39:00+08:00",
+        "run_id": "20261112T024500+0800-cycle-5",
+        "species_id": 129,
+        "species": "Megascops hoyi",
+        "credited": false,
+        "evidence": {
+          "archive_commit": "9bbb63a41c810b0712ce9c28488ec4319abbf89a",
+          "archive_tree": "ebcc5e3c264a28df6d187ad0645d7778adbfab10",
+          "required_paths_verified": 18,
+          "exact_binary_paths_verified": 9,
+          "unique_binary_streams_read_back": 5,
+          "initial_blob": "161e4a2f8422b68c4d1671643f65e46a399287d3",
+          "initial_bytes": 3106212,
+          "concept_blob": "eb568ce25c589b2aa2e08b23752238a7caf2a738",
+          "concept_bytes": 2817626,
+          "crop_blobs": [
+            "1fb6d7348c0c43d493af0d24947f4885c82ce9ee",
+            "8e3f208199b875b4311409e4b5a012e69003f1f4",
+            "7b088609dbfae85429064a2f5499b6124f2ca756"
+          ],
+          "manifest_counts": {
+            "design_image": 809,
+            "design_concepts": 820,
+            "production_image": 799
+          },
+          "verification_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "ledger_credit_pending": true,
+          "lease_expires_at": "2026-11-12T03:54:00+08:00"
         }
       }
     ]

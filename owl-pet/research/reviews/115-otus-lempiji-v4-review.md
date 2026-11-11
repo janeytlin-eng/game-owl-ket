@@ -3,7 +3,7 @@
 - Batch/run: `20261111T193846+0800`, cycle 1/6, `20261111T193846+0800-cycle-1`
 - Reviewed: 2026-11-11T19:50:00+08:00
 - Generated SHA-256: `c3c5bcb77e66701687c54e24e93d75f33403164670eda197b5f00ae442d6f888`
-- Git blob: `0f`
+- Git blob: `0b1c0ac56514531bf3e0868997e57fb86a51c255`
 - Result: **PASS_WITH_LIMITATIONS**
 - Scientifically verified: **false**
 - Edit count: **0** (no evidence-led defect required an image edit)

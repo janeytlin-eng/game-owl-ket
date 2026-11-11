@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T15:55:19+08:00",
+  "updated": "2026-11-11T16:00:14+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -30986,12 +30986,20 @@
         }
       ],
       "archive_note": "Recovery replaced the 2026-11-08 truncated binary objects with a newly generated, visually re-reviewed plate from the persisted full prompt. Historical broken commit remains in Git history. Immutable readback pending.",
-      "readback_pending": true,
-      "archive_commit_pending": true,
-      "archive_commit": null,
-      "exact_readback": false,
-      "archived_at": null
+      "readback_pending": false,
+      "archive_commit_pending": false,
+      "archive_commit": "c9413688e93920051247286046c1da70fbbabc7c",
+      "exact_readback": true,
+      "archived_at": "2026-11-11T15:55:19+08:00",
+      "archive_tree": "78023e707f1d0b91da3173a62050509a81b22cde",
+      "archive_tree_entries": 4132,
+      "archive_tree_truncated": false,
+      "required_paths_verified": 24,
+      "exact_binary_paths_verified": 12,
+      "unique_binary_streams_read_back": 4,
+      "verified_at": "2026-11-11T16:00:14+08:00",
+      "verification_result": "Immutable repaired archive tree contained 4,132 entries. All 24 required paths existed; 12 binary path/blob/byte tuples matched exactly; three canonical manifests parsed at 811/808/801 with #102 v5 exactly once."
     }
   ],
-  "updated_at": "2026-11-11T15:55:19+08:00"
+  "updated_at": "2026-11-11T16:00:14+08:00"
 }

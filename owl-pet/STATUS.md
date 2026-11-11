@@ -4098,3 +4098,9 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` was read back after arch
 - Existing research was revalidated against ITIS, USDA Forest Service pp.190–196 and the 1994 breeding-paper abstract; no duplicate source IDs were added.
 - A 1536×1024 recovery plate was regenerated from the persisted full prompt, then the full plate and three role crops were opened. No recovery edit was required.
 - PASS_WITH_LIMITATIONS; science=false; coverage remains 176/251. Manifests staged at 811 / 808 / 801; immutable readback pending.
+
+## 2026-11-11 — #102 v5 recovery VERIFIED
+
+- Archive `c9413688e93920051247286046c1da70fbbabc7c`; tree `78023e707f1d0b91da3173a62050509a81b22cde`.
+- Required paths 24/24; exact binary path/blob/size tuples 12/12; all four JSON files parse.
+- Manifests 811 / 808 / 801 with #102 v5 exactly once. PASS_WITH_LIMITATIONS; science=false; ledger credit pending.

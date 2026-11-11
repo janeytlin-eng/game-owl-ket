@@ -4016,3 +4016,9 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` read back; cycle 1 credi
 - Re-read three existing authoritative records; the current/old-name crosswalk, one-pair dimorphism limit and regional epiphyte-nest boundary were unchanged.
 - Regenerated from the persisted prompt; opened the 1536×1024 plate and three role crops. The older juvenile has a short rounded supported wing and no flight claim; no recovery edit was needed.
 - Staged 12 image paths plus research, review, source-index, workflow and run evidence. Manifests 811 / 808 / 801; PASS_WITH_LIMITATIONS; science=false; readback pending.
+
+## 2026-11-11 — #102 *Strix nigrolineata* v5 recovery VERIFIED
+
+- Archive `c9413688e93920051247286046c1da70fbbabc7c`; tree `78023e707f1d0b91da3173a62050509a81b22cde`.
+- Required paths 24/24 and exact binary tuples 12/12 passed immutable readback; ledger and three canonical manifests parse.
+- #102 v5 occurs exactly once in manifests 811 / 808 / 801. PASS_WITH_LIMITATIONS; science=false; ledger credit pending.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T06:34:00+08:00",
+  "updated": "2026-11-12T07:38:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -31408,7 +31408,104 @@
       "binary_content_api_note": "Git contents/blob text endpoint rejects PNG as UTF-8; exact path, Git blob SHA and byte size were re-read from the archive tree for all binary aliases and six unique streams.",
       "verification_commit": "970f752fbf99537ddfd80f812fd0fa36a2ae8d52",
       "ledger_credited_at": "2026-11-12T06:34:00+08:00"
+    },
+    {
+      "id": "136-megascops-petersoni-v5",
+      "species_id": 136,
+      "common_name": "Cinnamon Screech-Owl",
+      "scientific_name": "Megascops petersoni",
+      "current_name_crosswalk": "Megascops petersoni",
+      "historical_names": [
+        "Otus petersoni"
+      ],
+      "path": "design/concepts/136-megascops-petersoni-v5.png",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "prior_versions_retained": true,
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "imagegen_invocations": 3,
+      "status": "V5 preserves v1-v4, retains near-equal non-cloned adults because the primary description says sexual dimorphism is slight if present, and constrains the first-year bird to the documented nearly adult-plumaged stage with paler heavily barred residual down. One failed edit crop was rejected; the accepted edit shortens/softens the first-year wing and conceals the tail while preserving two-foot support. Exact age/sex, iris chronology, continuous feather sequence, flight threshold, independence and population sex-size ratio remain unknown.",
+      "source_ids": [
+        "CIN-FITZPATRICK-ONEILL-1986",
+        "CIN-BHL-242281-2026",
+        "CIN-ALARCON-SHANEE-2022",
+        "CIN-ITIS-686670-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/136-megascops-petersoni-v5.md",
+      "review_record": "research/reviews/136-megascops-petersoni-v5-review.md",
+      "run_record": "production/runs/20261112T063600+0800-cycle-6.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 3066410,
+      "sha256": "c49ae799c32b70a37b846e91c1167994a6d4225e49ac67dfbbb542d91c6bb5a0",
+      "git_blob": "ced4a8ab71e180a8a843988040d546c2de85e9b8",
+      "initial_original_path": "production/generated/136-megascops-petersoni-v5-initial-original.png",
+      "initial_original_blob": "3b2ca766df068b1eb808d10a92e1c6ff532453ab",
+      "initial_original_size_bytes": 3357370,
+      "initial_original_sha256": "c9782e0f5b8568333187c4ae6569a99d2872326d8c4559995a9baa9dac9d734e",
+      "final_original_path": "production/generated/136-megascops-petersoni-v5-final-original.png",
+      "final_original_blob": "ced4a8ab71e180a8a843988040d546c2de85e9b8",
+      "final_original_size_bytes": 3066410,
+      "final_original_sha256": "c49ae799c32b70a37b846e91c1167994a6d4225e49ac67dfbbb542d91c6bb5a0",
+      "full_color_source_path": "production/generated/136-megascops-petersoni-v5-full-color.png",
+      "full_color_source_blob": "ced4a8ab71e180a8a843988040d546c2de85e9b8",
+      "full_color_source_size_bytes": 3066410,
+      "full_color_source_sha256": "c49ae799c32b70a37b846e91c1167994a6d4225e49ac67dfbbb542d91c6bb5a0",
+      "generated_path": "production/generated/136-megascops-petersoni-v5-generated-master.png",
+      "generated_blob": "ced4a8ab71e180a8a843988040d546c2de85e9b8",
+      "generated_size_bytes": 3066410,
+      "reviewed_path": "production/reviewed/136-megascops-petersoni-v5-reviewed-master.png",
+      "reviewed_blob": "ced4a8ab71e180a8a843988040d546c2de85e9b8",
+      "reviewed_size_bytes": 3066410,
+      "review_crops": [
+        {
+          "path": "production/review-crops/136-megascops-petersoni-v5-adult-male.png",
+          "blob": "6a88cd909364dd4a31b221c26c23c1e015614176",
+          "size_bytes": 841230
+        },
+        {
+          "path": "production/review-crops/136-megascops-petersoni-v5-first-year.png",
+          "blob": "107f6acef21ae4b1e0cc0e014bd705e964032813",
+          "size_bytes": 783095
+        },
+        {
+          "path": "production/review-crops/136-megascops-petersoni-v5-adult-female.png",
+          "blob": "2ad50620578b80923ba4993cce605e599746e41f",
+          "size_bytes": 798221
+        }
+      ],
+      "rejected_edits": [
+        {
+          "path": "production/generated/136-megascops-petersoni-v5-edit1-rejected-original.png",
+          "blob": "2f845645d389729f7029012b4111c0287e5dec37",
+          "size_bytes": 2791998,
+          "reason": "Returned a portrait crop of the adult female instead of the requested full-plate juvenile-wing retouch."
+        }
+      ],
+      "archive_note": "V4, v5 initial, rejected edit, accepted edited v5 and all three accepted-role crops were opened. One accepted edit corrected the first-year wing/tail boundary. New1/reused3; uploaded Mikkola unavailable and no fresh page claim. Science false. Archive verification pending.",
+      "readback_pending": true,
+      "archive_commit_pending": true,
+      "archived_at": "2026-11-12T07:38:00+08:00",
+      "archive_commit": null,
+      "archive_tree": null,
+      "tree_readback_exact": false,
+      "required_paths_verified": 0,
+      "exact_binary_paths_verified": 0,
+      "unique_binary_streams_tree_verified": 0,
+      "verified_at": null,
+      "verification_result": null
     }
   ],
-  "updated_at": "2026-11-12T06:34:00+08:00"
+  "updated_at": "2026-11-12T07:38:00+08:00"
 }

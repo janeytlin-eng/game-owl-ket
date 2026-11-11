@@ -41517,8 +41517,8 @@
       "lease": {
         "owner": "codex-root",
         "run_id": "20261112T063600+0800-cycle-6",
-        "heartbeat_at": "2026-11-12T07:35:00+08:00",
-        "expires_at": "2026-11-12T07:50:00+08:00"
+        "heartbeat_at": "2026-11-12T07:38:00+08:00",
+        "expires_at": "2026-11-12T07:53:00+08:00"
       },
       "active": {
         "run_id": "20261112T063600+0800-cycle-6",
@@ -42921,7 +42921,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-12T07:35:00+08:00",
+  "updated_at": "2026-11-12T07:38:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -67656,12 +67656,13 @@
     "cycle": 6,
     "species_id": 136,
     "species": "Megascops petersoni",
-    "stage": "REVIEWED",
+    "stage": "ARCHIVED",
     "run_record": "owl-pet/production/runs/20261112T063600+0800-cycle-6.md",
     "research_record": "owl-pet/research/species/136-megascops-petersoni-v5.md",
-    "lease_expires_at": "2026-11-12T07:50:00+08:00",
+    "lease_expires_at": "2026-11-12T07:53:00+08:00",
     "final_original": "owl-pet/production/generated/136-megascops-petersoni-v5-final-original.png",
-    "review_record": "owl-pet/research/reviews/136-megascops-petersoni-v5-review.md"
+    "review_record": "owl-pet/research/reviews/136-megascops-petersoni-v5-review.md",
+    "concept_path": "owl-pet/design/concepts/136-megascops-petersoni-v5.png"
   },
   "phase_events": [
     {
@@ -67759,6 +67760,41 @@
         "review_result": "PASS_WITH_LIMITATIONS",
         "scientifically_verified": false,
         "lease_expires_at": "2026-11-12T07:50:00+08:00"
+      }
+    },
+    {
+      "batch_id": "20261112T043100+0800",
+      "cycle": 6,
+      "stage": "ARCHIVED",
+      "at": "2026-11-12T07:38:00+08:00",
+      "run_id": "20261112T063600+0800-cycle-6",
+      "species_id": 136,
+      "species": "Megascops petersoni",
+      "credited": false,
+      "evidence": {
+        "concept": "owl-pet/design/concepts/136-megascops-petersoni-v5.png",
+        "concept_blob": "ced4a8ab71e180a8a843988040d546c2de85e9b8",
+        "initial_original": "production/generated/136-megascops-petersoni-v5-initial-original.png",
+        "rejected_edit": "production/generated/136-megascops-petersoni-v5-edit1-rejected-original.png",
+        "final_original": "production/generated/136-megascops-petersoni-v5-final-original.png",
+        "full_color_source": "production/generated/136-megascops-petersoni-v5-full-color.png",
+        "reviewed": "production/reviewed/136-megascops-petersoni-v5-reviewed-master.png",
+        "review_crops": 3,
+        "manifests": 3,
+        "manifest_counts": {
+          "design_upper": 816,
+          "design_lower": 828,
+          "production": 806
+        },
+        "unique_species_count": 176,
+        "total_species": 251,
+        "unique_species_increment": 0,
+        "revision_increment": 1,
+        "review_result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false,
+        "archive_commit_pending": true,
+        "readback_pending": true,
+        "lease_expires_at": "2026-11-12T07:53:00+08:00"
       }
     }
   ]

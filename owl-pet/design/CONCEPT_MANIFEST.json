@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T22:49:00+08:00",
+  "updated": "2026-11-11T23:28:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -31807,7 +31807,91 @@
       "connector_full_binary_stream_readback_supported": false,
       "verified_at": "2026-11-11T22:49:00+08:00",
       "verification_result": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "id": "121-ninox-leucopsis-v5",
+      "path": "design/concepts/121-ninox-leucopsis-v5.png",
+      "species_id": 121,
+      "scientific_name": "Ninox leucopsis",
+      "historical_names": [
+        "Ninox novaeseelandiae leucopsis",
+        "Ninox boobook leucopsis",
+        "Athene leucopsis"
+      ],
+      "common_name": "Tasmanian Boobook",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "prior_versions_retained": true,
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "imagegen_invocations": 1,
+      "status": "V5 preserves v1-v4. It corrects v4's oversized repeated adult spotting and mirror-like frontal pair with small irregular white spots and asymmetric near-equal adults. The center age-unknown young remains a dark-down, yellow-eyed later nestling/juvenile with a short soft plain remige cluster, concealed tail and bilateral cavity-lip support. Exact age, sex, continuous feather chronology, first-flight threshold and independence remain unknown.",
+      "source_ids": [
+        "TBO-SPERRING-2026-CAPTURE",
+        "TBO-OLSEN-DEBUS-2013-FIG1",
+        "TBO-ABSA-AGEING-2019",
+        "TBO-AFD-ALA-2026",
+        "TBO-ITIS-1244677-2026",
+        "TBO-MIKKOLA-2013-P463"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/121-ninox-leucopsis-v5.md",
+      "review_record": "research/reviews/121-ninox-leucopsis-v5-review.md",
+      "run_record": "production/runs/20261111T225200+0800-cycle-6.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 2855735,
+      "sha256": "bcedd673cfb14f8655339b4157eef2fa324a1fe025a21fd3b6359ec5b4f69f65",
+      "git_blob": "84a276aeb0e9a0e43dbe1df0bc91e45fbf2d221c",
+      "initial_original_path": "production/generated/121-ninox-leucopsis-v5-initial-original.png",
+      "initial_original_blob": "84a276aeb0e9a0e43dbe1df0bc91e45fbf2d221c",
+      "initial_original_size_bytes": 2855735,
+      "initial_original_sha256": "bcedd673cfb14f8655339b4157eef2fa324a1fe025a21fd3b6359ec5b4f69f65",
+      "final_original_path": "production/generated/121-ninox-leucopsis-v5-final-original.png",
+      "final_original_blob": "84a276aeb0e9a0e43dbe1df0bc91e45fbf2d221c",
+      "final_original_size_bytes": 2855735,
+      "final_original_sha256": "bcedd673cfb14f8655339b4157eef2fa324a1fe025a21fd3b6359ec5b4f69f65",
+      "full_color_source_path": "production/generated/121-ninox-leucopsis-v5-full-color.png",
+      "full_color_source_blob": "84a276aeb0e9a0e43dbe1df0bc91e45fbf2d221c",
+      "full_color_source_size_bytes": 2855735,
+      "full_color_source_sha256": "bcedd673cfb14f8655339b4157eef2fa324a1fe025a21fd3b6359ec5b4f69f65",
+      "generated_path": "production/generated/121-ninox-leucopsis-v5-generated-master.png",
+      "generated_blob": "84a276aeb0e9a0e43dbe1df0bc91e45fbf2d221c",
+      "generated_size_bytes": 2855735,
+      "reviewed_path": "production/reviewed/121-ninox-leucopsis-v5-reviewed-master.png",
+      "reviewed_blob": "84a276aeb0e9a0e43dbe1df0bc91e45fbf2d221c",
+      "reviewed_size_bytes": 2855735,
+      "review_crops": [
+        {
+          "path": "production/review-crops/121-ninox-leucopsis-v5-adult-male.png",
+          "blob": "06a14f5553255eaefd6707b6a223d5838301a4c9",
+          "size_bytes": 668796
+        },
+        {
+          "path": "production/review-crops/121-ninox-leucopsis-v5-juvenile.png",
+          "blob": "ae4ae3ae5dc3bb3d3303829a0c13dc2ca7b4ddaa",
+          "size_bytes": 766098
+        },
+        {
+          "path": "production/review-crops/121-ninox-leucopsis-v5-adult-female.png",
+          "blob": "fdfeb624985f7930a5bf6d87e0228179c2fb7eb6",
+          "size_bytes": 687416
+        }
+      ],
+      "archive_note": "V4, v5 full plate and all three role crops were actually opened. V5 corrects oversized repeated adult spots and mirrored posture; the evidence-bounded age-unknown young remains static, tail-concealed and bilaterally supported. One new primary adult source, five reused/re-read sources and one corrected boundary. Uploaded Mikkola unavailable; repository-pinned p.463 reused only. Science false.",
+      "readback_pending": true,
+      "archive_commit_pending": true,
+      "archived_at": "2026-11-11T23:28:00+08:00"
     }
   ],
-  "updated_at": "2026-11-11T22:49:00+08:00"
+  "updated_at": "2026-11-11T23:28:00+08:00"
 }

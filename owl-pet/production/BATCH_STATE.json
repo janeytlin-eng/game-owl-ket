@@ -40329,8 +40329,8 @@
       "next_cycle": 4,
       "active_cycle": 4,
       "started_at": "2026-11-11T23:36:00+08:00",
-      "updated_at": "2026-11-12T01:50:00+08:00",
-      "current_stage": "IMAGE_GENERATED",
+      "updated_at": "2026-11-12T01:55:00+08:00",
+      "current_stage": "REVIEWED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex-owl-production",
@@ -40338,8 +40338,8 @@
         "batch_id": "20261111T233600+0800",
         "cycle": 4,
         "species_id": 127,
-        "heartbeat_at": "2026-11-12T01:50:00+08:00",
-        "expires_at": "2026-11-12T02:05:00+08:00"
+        "heartbeat_at": "2026-11-12T01:55:00+08:00",
+        "expires_at": "2026-11-12T02:10:00+08:00"
       },
       "active": null,
       "stage": "RESEARCH_READY",
@@ -41119,6 +41119,49 @@
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-12T02:05:00+08:00"
           }
+        },
+        {
+          "batch_id": "20261111T233600+0800",
+          "cycle": 4,
+          "stage": "REVIEWED",
+          "at": "2026-11-12T01:55:00+08:00",
+          "run_id": "20261112T014000+0800-cycle-4",
+          "species_id": 127,
+          "species": "Megascops albogularis",
+          "credited": false,
+          "evidence": {
+            "review_record": "owl-pet/research/reviews/127-megascops-albogularis-v5-review.md",
+            "final_original": "owl-pet/production/generated/127-megascops-albogularis-v5-final-original.png",
+            "reviewed_master": "owl-pet/production/reviewed/127-megascops-albogularis-v5-reviewed-master.png",
+            "final_blob": "f8f8bd2cc3e7d3763e4a318f821599b6135d9e79",
+            "final_bytes": 2693435,
+            "final_sha256": "80137ecf01a4b0958e81932998027b151b94e5f1583b0942a134f837096ff4cb",
+            "edit_count": 1,
+            "imagegen_invocations": 2,
+            "actual_views": [
+              "initial full plate",
+              "initial adult male crop",
+              "initial older juvenile crop",
+              "initial adult female crop",
+              "edited full plate",
+              "edited adult male crop",
+              "edited older juvenile crop",
+              "edited adult female crop"
+            ],
+            "checks": {
+              "identity": "PASS_WITH_LIMITATION",
+              "sex_direction": "PASS_WITH_LIMITATION",
+              "juvenile_stage": "PASS_WITH_LIMITATIONS",
+              "wing_development": "PASS_AFTER_EDIT",
+              "support": "PASS",
+              "text_labels": "PASS",
+              "habitat": "PASS",
+              "taxonomy": "PASS"
+            },
+            "review_result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-12T02:10:00+08:00"
+          }
         }
       ],
       "in_progress": {
@@ -41126,7 +41169,7 @@
         "species_id": 127,
         "species": "Megascops albogularis",
         "version": 5,
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "run_id": "20261112T014000+0800-cycle-4"
       }
     }
@@ -41137,8 +41180,8 @@
     "batch_id": "20261111T233600+0800",
     "cycle": 4,
     "species_id": 127,
-    "heartbeat_at": "2026-11-12T01:50:00+08:00",
-    "expires_at": "2026-11-12T02:05:00+08:00"
+    "heartbeat_at": "2026-11-12T01:55:00+08:00",
+    "expires_at": "2026-11-12T02:10:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -63347,7 +63390,7 @@
     "cycle": 4,
     "species_id": 127,
     "species": "Megascops albogularis",
-    "stage": "RESEARCH_READY",
+    "stage": "REVIEWED",
     "run_record": "owl-pet/production/runs/20261112T014000+0800-cycle-4.md"
   }
 }

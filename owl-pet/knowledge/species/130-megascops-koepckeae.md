@@ -27,3 +27,10 @@ Actuallyviewedexec-91d360d8-7372-4df3-948b-4e6f36639ca5: cheeksnowvisiblydarkerc
 - Adults remain near equal in displayed height because no sex-specific ratio is established. Six supported feet, correct text and no invented nest pass actual full/crop review.
 - Zero edits; PASS_WITH_LIMITATIONS. Exact age, continuous feather sequence, first-flight threshold, sex ratio and universal nest form remain unknown; scientifically_verified=false.
 - [Concept](../../design/concepts/130-megascops-koepckeae-v4.png) · [Research](../../research/species/130-megascops-koepckeae-v4.md) · [Review](../../research/reviews/130-megascops-koepckeae-v4-review.md) · [Run](../../production/runs/20261106T222600+0800-cycle-1.md)
+
+## v5 science revision — 2026-11-12
+- Fjeldså et al. 2012 pp.180–191 was re-read for adult/subspecies variation; the 2019 Ecuador proceedings p.31 was newly indexed for Loja habitat, rescued chicks, broad breeding timing and an approximate chick-to-adult-plumage interval. Alarcón et al. 2023 remains the juvenile endpoint.
+- Corrected an earlier overreach: Ecuador/Loja is not labelled “northern nominate”. The paper cautions that plumage alone is weak subspecies evidence; rich brown is only a conservative concept direction.
+- V4 was actually opened and its long ordered juvenile wing panel was replaced by a small compact formed cluster obscured by loose residual down. V5 full plate and all three role crops were opened; no additional imagegen edit was needed.
+- Near-equal adults, all six supported feet, exact labels and no invented nest pass. Exact juvenile age/sex/subspecies, continuous feather chronology, first-flight threshold, independence and population sex-size direction remain unknown; `scientifically_verified=false`.
+- [Concept](../../design/concepts/130-megascops-koepckeae-v5.png) · [Research](../../research/species/130-megascops-koepckeae-v5.md) · [Review](../../research/reviews/130-megascops-koepckeae-v5-review.md) · [Run](../../production/runs/20261112T034200+0800-cycle-6.md)

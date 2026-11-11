@@ -53382,8 +53382,8 @@
     "next_cycle": 6,
     "active_cycle": 6,
     "started_at": "2026-11-11T23:36:00+08:00",
-    "updated_at": "2026-11-12T03:50:00+08:00",
-    "current_stage": "IMAGE_GENERATED",
+    "updated_at": "2026-11-12T03:54:00+08:00",
+    "current_stage": "REVIEWED",
     "ledger_credit_pending": false,
     "lease": {
       "owner": "codex-owl-production",
@@ -53391,18 +53391,18 @@
       "batch_id": "20261111T233600+0800",
       "cycle": 6,
       "species_id": 130,
-      "heartbeat_at": "2026-11-12T03:50:00+08:00",
-      "expires_at": "2026-11-12T04:05:00+08:00"
+      "heartbeat_at": "2026-11-12T03:54:00+08:00",
+      "expires_at": "2026-11-12T04:09:00+08:00"
     },
     "active": {
       "run_id": "20261112T034200+0800-cycle-6",
       "cycle": 6,
       "species_id": 130,
       "species": "Megascops koepckeae",
-      "stage": "IMAGE_GENERATED",
+      "stage": "REVIEWED",
       "run_record": "owl-pet/production/runs/20261112T034200+0800-cycle-6.md"
     },
-    "stage": "IMAGE_GENERATED",
+    "stage": "REVIEWED",
     "completed_count": 5,
     "stage_events": [
       {
@@ -54160,6 +54160,47 @@
           "crop_review_pending": true,
           "scientifically_verified": false,
           "lease_expires_at": "2026-11-12T04:05:00+08:00"
+        }
+      },
+      {
+        "batch_id": "20261111T233600+0800",
+        "cycle": 6,
+        "stage": "REVIEWED",
+        "at": "2026-11-12T03:54:00+08:00",
+        "run_id": "20261112T034200+0800-cycle-6",
+        "species_id": 130,
+        "species": "Megascops koepckeae",
+        "credited": false,
+        "evidence": {
+          "final_original": "owl-pet/production/generated/130-megascops-koepckeae-v5-final-original.png",
+          "final_blob": "48cde9965d7f90dd8a12b790fc4658f34baba870",
+          "final_bytes": 3062019,
+          "final_sha256": "d92cf9faa755bdbee9455bd097d44931918ef946408fa261ee5a58d8a3f9f4b7",
+          "geometry": "1536x1024",
+          "edit_count": 0,
+          "imagegen_invocations": 1,
+          "reviewed_path": "owl-pet/production/reviewed/130-megascops-koepckeae-v5-reviewed-master.png",
+          "review_record": "owl-pet/research/reviews/130-megascops-koepckeae-v5-review.md",
+          "review_crops": [
+            "owl-pet/production/review-crops/130-megascops-koepckeae-v5-adult-male.png",
+            "owl-pet/production/review-crops/130-megascops-koepckeae-v5-juvenile.png",
+            "owl-pet/production/review-crops/130-megascops-koepckeae-v5-adult-female.png"
+          ],
+          "crop_blobs": [
+            "ede886ced5f986c3908eeb67fee28f9e6c406bb5",
+            "9c60372d5ade188d0dd55e7b4a53d808c6cc4ff3",
+            "138dde61d355325fb47df2d5bf341360bc010316"
+          ],
+          "actual_views": [
+            "v4 full plate",
+            "v5 full plate",
+            "v5 adult male crop",
+            "v5 fledged juvenile crop",
+            "v5 adult female crop"
+          ],
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "lease_expires_at": "2026-11-12T04:09:00+08:00"
         }
       }
     ]

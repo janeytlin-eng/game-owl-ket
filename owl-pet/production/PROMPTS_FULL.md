@@ -761,3 +761,20 @@ Edit only the center juvenile: replace long layered adult-like remiges with a mu
 ```text
 Create a 1536×1024 horizontal scientific concept plate in the repository’s confirmed warm, softly painted 3D natural-history style. Show exactly three complete Koepcke’s Screech-Owls: adult male left, age-unknown fledged juvenile center, adult female right. Exact title “#130 · KOEPCKE’S SCREECH-OWL”, italic “Megascops koepckeae”, and exact role labels. All six feet supported. Loja Ecuador Andean edge, broad mossy Podocarpus-like branch; no universal nest. Adults near-equal, rich brown only as conservative concept, short tufts, yellow eyes, greenish/blue-gray bill/cere, gray dark-edged face, white throat, irregular marks. Juvenile tuftless with white brows, dark face edge, yellow eyes, brown chest, loose gray-white barred residual down and a very small compact formed wing cluster mostly obscured by down; no long mature panel/tail, flight or jump. No subspecies, exact-age or dimorphism claim.
 ```
+
+
+## #131 *Megascops watsonii* v5 — 2026-11-12T04:40:00+08:00
+
+## Complete imagegen prompt
+
+Use case: scientific-educational. Asset type: landscape owl electronic-pet species concept plate, 1536×1024.
+
+Create a fresh v5 science-revision raster plate in the established soft painted, realistic 3D owl electronic-pet style. Exactly three birds at one depth on one broad living mossy branch in a humid mature lowland terra-firme forest. Exact title: “#131 · TAWNY-BELLIED SCREECH-OWL”. Exact subtitle: “Megascops watsonii · Guiana Shield concept”. Exact role labels below the birds: “ADULT MALE”, “OLDER YOUNG · AGE UNKNOWN”, “ADULT FEMALE”. No other text.
+
+Taxonomic caution: this is the repository's narrow Guiana Shield/east-of-Branco–Negro concept, but the split is disputed and cannot be diagnosed reliably from plumage alone. Do not import southern *usta*, *atricapilla*, *ater*, *stangiae* or *alagoensis* signature claims. Do not add badges or imply scientific resolution.
+
+Adults: small screech owls, near-equal skeletal standing height because quantitative sex-size direction is not documented. Male alert three-quarter-left with one tuft slightly relaxed; female calmer three-quarter-right with both relatively long natural tufts modestly raised, subtly fuller only as an individual body-shape cue. Dusty dark gray-brown upperparts with matte irregular vermiculation, freckles and broken bars; no white scapular outer-web bands, no ordered white wing spots, no repeated wire/scallop texture. Gray-brown facial discs with subtle darker rims; large black pupils with restrained dark amber to pale brownish-orange iris, never bright lemon. Muted greenish-gray bills. Tawny/light rusty lower breast and belly with thin irregular shaft streaks, short broken crossbars and mottled vermiculation. Tarsi densely feathered to ochre-brown toes.
+
+Center older young: photograph-supported age-unknown fluffy gray-brown barred stage, not a reconstructed hatchling and not an adult miniature. Compact rounded body with uneven residual pale wispy down, dark-brown visible iris rims and large pupils, pale blue-gray bill and only short soft ear wisps. One small formed brown folded-wing cluster is mostly concealed by down and ends well above the feet; no long smooth adult wing panel, no mature ear tufts, no tail fan, no mature adult feather suit. Give it a cautious sideways head turn and a low supported shuffle along the branch: both feet visibly touch and grip the branch, one slightly forward, body balanced. No open wing and no claim of flight.
+
+All six feet must have anatomically natural branch contact. Forest: dense shaded Guiana/Amazon terra-firme interior with large trunks, layered green understory and soft humid green light. This is a perch, not a nest: no cavity entrance, eggs, prey or family story. Generous margins, no cropped toes, coherent soft painted 3D concept style. Avoid extra birds, extra feet, extra wings, logos, borders, text errors, mirrored adult clones, glossy armor feathers, white scapular rows, unsupported female-larger scaling and mature juvenile plumage.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12",
+  "updated": "2026-11-12T04:50:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -30924,7 +30924,88 @@
       "unique_binary_streams_read_back": 4,
       "verified_at": "2026-11-12T04:02:00+08:00",
       "verification_result": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "id": "131-megascops-watsonii-v5",
+      "species_id": 131,
+      "common_name": "Tawny-bellied Screech-Owl",
+      "scientific_name": "Megascops watsonii",
+      "historical_names": [
+        "Otus watsonii",
+        "Ephialtes watsonii"
+      ],
+      "path": "design/concepts/131-megascops-watsonii-v5.png",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "prior_versions_retained": true,
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "imagegen_invocations": 1,
+      "status": "V5 preserves v1-v4, labels the Guiana Shield as a disputed concept rather than settled diagnosis, retains near-equal adults, and gives the photographed age-unknown fluffy young a supported sideways shuffle with a compact down-obscured wing. Exact age/sex, feather chronology, first-flight threshold, sex-size direction, colour morph and genetic/vocal assignment remain unknown.",
+      "source_ids": [
+        "WAT-DANTAS-2021",
+        "WAT-SACC-937-2022",
+        "WAT-DAFFONSECA-2017",
+        "WAT-MIK2013-235"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/131-megascops-watsonii-v5.md",
+      "review_record": "research/reviews/131-megascops-watsonii-v5-review.md",
+      "run_record": "production/runs/20261112T043100+0800-cycle-1.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 2773314,
+      "sha256": "ca082a756ed86d8daa71cd0421dd0218d76ee78142dfe87067dc71a440ec7456",
+      "git_blob": "66f9a6343bd4f8bf28b77bff22994dfb6caf6448",
+      "initial_original_path": "production/generated/131-megascops-watsonii-v5-initial-original.png",
+      "initial_original_blob": "66f9a6343bd4f8bf28b77bff22994dfb6caf6448",
+      "initial_original_size_bytes": 2773314,
+      "initial_original_sha256": "ca082a756ed86d8daa71cd0421dd0218d76ee78142dfe87067dc71a440ec7456",
+      "final_original_path": "production/generated/131-megascops-watsonii-v5-final-original.png",
+      "final_original_blob": "66f9a6343bd4f8bf28b77bff22994dfb6caf6448",
+      "final_original_size_bytes": 2773314,
+      "final_original_sha256": "ca082a756ed86d8daa71cd0421dd0218d76ee78142dfe87067dc71a440ec7456",
+      "full_color_source_path": "production/generated/131-megascops-watsonii-v5-full-color.png",
+      "full_color_source_blob": "66f9a6343bd4f8bf28b77bff22994dfb6caf6448",
+      "full_color_source_size_bytes": 2773314,
+      "full_color_source_sha256": "ca082a756ed86d8daa71cd0421dd0218d76ee78142dfe87067dc71a440ec7456",
+      "generated_path": "production/generated/131-megascops-watsonii-v5-generated-master.png",
+      "generated_blob": "66f9a6343bd4f8bf28b77bff22994dfb6caf6448",
+      "generated_size_bytes": 2773314,
+      "reviewed_path": "production/reviewed/131-megascops-watsonii-v5-reviewed-master.png",
+      "reviewed_blob": "66f9a6343bd4f8bf28b77bff22994dfb6caf6448",
+      "reviewed_size_bytes": 2773314,
+      "review_crops": [
+        {
+          "path": "production/review-crops/131-megascops-watsonii-v5-adult-male.png",
+          "blob": "da427400baed231b36b531c801c5674a93942310",
+          "size_bytes": 649326
+        },
+        {
+          "path": "production/review-crops/131-megascops-watsonii-v5-older-young.png",
+          "blob": "ec604580786b6b0df8335be2371d8e9bc1166904",
+          "size_bytes": 636027
+        },
+        {
+          "path": "production/review-crops/131-megascops-watsonii-v5-adult-female.png",
+          "blob": "0e1703bd4c826fd88514ca40f7214f60b09b4559",
+          "size_bytes": 652218
+        }
+      ],
+      "archive_note": "V4, v5 full plate and all three role crops opened. Taxonomic certainty and young-stage label corrected. New0/reused4. Uploaded Mikkola unavailable; pinned page only. Science false.",
+      "readback_pending": true,
+      "archive_commit_pending": true,
+      "archived_at": "2026-11-12T04:50:00+08:00"
     }
   ],
-  "updated_at": "2026-11-12T04:02:00+08:00"
+  "updated_at": "2026-11-12T04:50:00+08:00"
 }

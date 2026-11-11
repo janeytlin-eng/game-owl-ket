@@ -38886,7 +38886,7 @@
     },
     {
       "batch_id": "20261111T193846+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -38957,39 +38957,33 @@
           "review_result": "PASS_WITH_LIMITATIONS",
           "scientifically_verified": false,
           "completed_at": "2026-11-11T22:50:30+08:00"
+        },
+        {
+          "cycle": 6,
+          "species": "Ninox leucopsis",
+          "species_id": 121,
+          "version": 5,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "commit_sha": "8416174f5fb44e235fb3075c8182ab6d32912fb6",
+          "archive_commit": "6198d1190d886165e41518391b7d6bba379c0d67",
+          "run_record": "owl-pet/production/runs/20261111T225200+0800-cycle-6.md",
+          "concept_path": "owl-pet/design/concepts/121-ninox-leucopsis-v5.png",
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "completed_at": "2026-11-11T23:34:00+08:00"
         }
       ],
-      "next_cycle": 6,
-      "active_cycle": 6,
+      "next_cycle": null,
+      "active_cycle": null,
       "started_at": "2026-11-11T19:38:46+08:00",
-      "updated_at": "2026-11-11T23:00:30+08:00",
-      "current_stage": "VERIFIED",
+      "updated_at": "2026-11-11T23:34:00+08:00",
+      "current_stage": "LEDGER_CREDITED",
       "ledger_credit_pending": false,
-      "lease": {
-        "owner": "codex-owl-production",
-        "run_id": "20261111T225200+0800-cycle-6",
-        "batch_id": "20261111T193846+0800",
-        "cycle": 6,
-        "species_id": 121,
-        "heartbeat_at": "2026-11-11T23:31:00+08:00",
-        "expires_at": "2026-11-11T23:46:00+08:00"
-      },
-      "in_progress": {
-        "run_id": "20261111T225200+0800-cycle-6",
-        "cycle": 6,
-        "species_id": 121,
-        "species": "Ninox leucopsis",
-        "stage": "REVIEWED",
-        "run_record": "owl-pet/production/runs/20261111T225200+0800-cycle-6.md"
-      },
-      "active": {
-        "run_id": "20261111T225200+0800-cycle-6",
-        "cycle": 6,
-        "species_id": 121,
-        "species": "Ninox leucopsis",
-        "stage": "REVIEWED",
-        "run_record": "owl-pet/production/runs/20261111T225200+0800-cycle-6.md"
-      },
+      "lease": null,
+      "in_progress": null,
+      "active": null,
       "stage_events": [
         {
           "batch_id": "20261111T193846+0800",
@@ -40250,21 +40244,36 @@
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-11T23:15:30+08:00"
           }
+        },
+        {
+          "batch_id": "20261111T193846+0800",
+          "cycle": 6,
+          "stage": "LEDGER_CREDITED",
+          "at": "2026-11-11T23:34:00+08:00",
+          "run_id": "20261111T225200+0800-cycle-6",
+          "species_id": 121,
+          "species": "Ninox leucopsis",
+          "credited": true,
+          "evidence": {
+            "verification_commit": "8416174f5fb44e235fb3075c8182ab6d32912fb6",
+            "archive_commit": "6198d1190d886165e41518391b7d6bba379c0d67",
+            "archive_tree": "29f4fdc03074afd07ae266e60ee99bdf3451d9dd",
+            "run_record": "owl-pet/production/runs/20261111T225200+0800-cycle-6.md",
+            "batch_progress": "6/6",
+            "next_cycle": null,
+            "unique_species_increment": 0,
+            "revision_increment": 1,
+            "unique_species_count": 176,
+            "total_species": 251,
+            "scientifically_verified": false
+          }
         }
       ],
-      "stage": "REVIEWED",
-      "completed_count": 5
+      "stage": "LEDGER_CREDITED",
+      "completed_count": 6
     }
   ],
-  "lease": {
-    "owner": "codex-owl-production",
-    "run_id": "20261111T225200+0800-cycle-6",
-    "batch_id": "20261111T193846+0800",
-    "cycle": 6,
-    "species_id": 121,
-    "heartbeat_at": "2026-11-11T23:31:00+08:00",
-    "expires_at": "2026-11-11T23:46:00+08:00"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -40398,7 +40407,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-11T23:31:00+08:00",
+  "updated_at": "2026-11-11T23:34:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -40407,16 +40416,8 @@
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6.",
     "2026-10-30T18:12:00+08:00 ledger normalization: historical batch 2026-10-16T0430+0800 already COMPLETE with six preserved completed_cycles; stale next_cycle 7 changed to null. No cycle count or evidence changed."
   ],
-  "active_lease": {
-    "owner": "codex-owl-production",
-    "run_id": "20261111T225200+0800-cycle-6",
-    "batch_id": "20261111T193846+0800",
-    "cycle": 6,
-    "species_id": 121,
-    "heartbeat_at": "2026-11-11T23:31:00+08:00",
-    "expires_at": "2026-11-11T23:46:00+08:00"
-  },
-  "last_updated_at": "2026-11-11T23:31:00+08:00",
+  "active_lease": null,
+  "last_updated_at": "2026-11-11T23:34:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -41213,14 +41214,7 @@
       "credited": false
     }
   ],
-  "in_progress": {
-    "run_id": "20261111T205600+0800-cycle-4",
-    "cycle": 4,
-    "species_id": 119,
-    "species": "Megascops centralis",
-    "stage": "RESEARCH_READY",
-    "run_record": "owl-pet/production/runs/20261111T205600+0800-cycle-4.md"
-  },
+  "in_progress": null,
   "previous_checkpoint": {
     "batch_id": "20261107T140000+0800",
     "cycle": 3,
@@ -42526,7 +42520,7 @@
       "lease_expires_at": "2026-11-07T21:08:00+08:00"
     }
   ],
-  "last_updated": "2026-11-11T23:31:00+08:00",
+  "last_updated": "2026-11-11T23:34:00+08:00",
   "audit_log": [
     {
       "at": "2026-10-31T18:36:48+08:00",
@@ -46991,10 +46985,10 @@
       }
     }
   ],
-  "active_batch_id": "20261111T193846+0800",
-  "active_cycle": 6,
-  "current_stage": "VERIFIED",
-  "next_cycle": 6,
+  "active_batch_id": null,
+  "active_cycle": null,
+  "current_stage": "LEDGER_CREDITED",
+  "next_cycle": null,
   "unique_species_count": 176,
   "total_species": 251,
   "stage_events": [
@@ -51462,12 +51456,35 @@
         "ledger_credit_pending": true,
         "lease_expires_at": "2026-11-11T23:46:00+08:00"
       }
+    },
+    {
+      "batch_id": "20261111T193846+0800",
+      "cycle": 6,
+      "stage": "LEDGER_CREDITED",
+      "at": "2026-11-11T23:34:00+08:00",
+      "run_id": "20261111T225200+0800-cycle-6",
+      "species_id": 121,
+      "species": "Ninox leucopsis",
+      "credited": true,
+      "evidence": {
+        "verification_commit": "8416174f5fb44e235fb3075c8182ab6d32912fb6",
+        "archive_commit": "6198d1190d886165e41518391b7d6bba379c0d67",
+        "archive_tree": "29f4fdc03074afd07ae266e60ee99bdf3451d9dd",
+        "run_record": "owl-pet/production/runs/20261111T225200+0800-cycle-6.md",
+        "batch_progress": "6/6",
+        "next_cycle": null,
+        "unique_species_increment": 0,
+        "revision_increment": 1,
+        "unique_species_count": 176,
+        "total_species": 251,
+        "scientifically_verified": false
+      }
     }
   ],
-  "last_completed_batch_id": "20261108T045200+0800",
+  "last_completed_batch_id": "20261111T193846+0800",
   "active_batch": {
     "batch_id": "20261111T193846+0800",
-    "status": "PARTIAL",
+    "status": "COMPLETE",
     "target_cycles": 6,
     "completed_cycles": [
       {
@@ -51523,12 +51540,43 @@
         "review_result": "PASS_WITH_LIMITATIONS",
         "scientifically_verified": false,
         "completed_at": "2026-11-11T21:52:00+08:00"
+      },
+      {
+        "cycle": 5,
+        "species": "Megascops ingens",
+        "species_id": 120,
+        "action": "REVISION",
+        "unique_species_increment": 0,
+        "revision_increment": 1,
+        "commit_sha": "7ef4d082677571928fb30693bd8667d4d012ac23",
+        "archive_commit": "07f3c2dba82b543ade132687133e4b84901b91bb",
+        "run_record": "owl-pet/production/runs/20261111T223524+0800-cycle-5.md",
+        "concept_path": "owl-pet/design/concepts/120-megascops-ingens-v5.png",
+        "review_result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false,
+        "completed_at": "2026-11-11T22:50:30+08:00"
+      },
+      {
+        "cycle": 6,
+        "species": "Ninox leucopsis",
+        "species_id": 121,
+        "version": 5,
+        "action": "SCIENCE_REVISION",
+        "unique_species_increment": 0,
+        "revision_increment": 1,
+        "commit_sha": "8416174f5fb44e235fb3075c8182ab6d32912fb6",
+        "archive_commit": "6198d1190d886165e41518391b7d6bba379c0d67",
+        "run_record": "owl-pet/production/runs/20261111T225200+0800-cycle-6.md",
+        "concept_path": "owl-pet/design/concepts/121-ninox-leucopsis-v5.png",
+        "review_result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false,
+        "completed_at": "2026-11-11T23:34:00+08:00"
       }
     ],
-    "next_cycle": 5,
+    "next_cycle": null,
     "active_cycle": null,
     "started_at": "2026-11-11T19:38:46+08:00",
-    "updated_at": "2026-11-11T21:52:00+08:00",
+    "updated_at": "2026-11-11T23:34:00+08:00",
     "current_stage": "LEDGER_CREDITED",
     "ledger_credit_pending": false,
     "lease": null,
@@ -52419,10 +52467,408 @@
           "total_species": 251,
           "scientifically_verified": false
         }
+      },
+      {
+        "batch_id": "20261111T193846+0800",
+        "cycle": 5,
+        "stage": "STARTED",
+        "at": "2026-11-11T22:35:24+08:00",
+        "run_id": "20261111T223524+0800-cycle-5",
+        "species_id": 120,
+        "species": "Megascops ingens",
+        "credited": false,
+        "evidence": {
+          "run_record": "owl-pet/production/runs/20261111T223524+0800-cycle-5.md",
+          "baseline_main": "d4c27dc9e01f3072c3c5c50812f34ec2e6cd43cf",
+          "selection_note": "#119 v5 is verified and credited. #120 Megascops ingens is the next numbered repository-backed target; v1–v4 are preserved. V5 will re-read the primary nestling record and current-name mapping, inspect v4, retain the evidence-bounded formed-remiges exception without inferring flight, and reduce v4's mirrored adult pose/pattern.",
+          "prior_version": "owl-pet/design/concepts/120-megascops-ingens-v4.png",
+          "lease_expires_at": "2026-11-11T22:50:24+08:00",
+          "scientifically_verified": false
+        }
+      },
+      {
+        "batch_id": "20261111T193846+0800",
+        "cycle": 5,
+        "stage": "RESEARCH_READY",
+        "at": "2026-11-11T22:36:50+08:00",
+        "run_id": "20261111T223524+0800-cycle-5",
+        "species_id": 120,
+        "species": "Megascops ingens",
+        "credited": false,
+        "evidence": {
+          "research_record": "owl-pet/research/species/120-megascops-ingens-v5.md",
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "new_indexed_sources": 1,
+          "reused_or_reread_sources": 4,
+          "corrected_boundaries": 2,
+          "prior_visual_inspected": true,
+          "uploaded_mikkola_accessible": false,
+          "complete_prompt_saved": true,
+          "design_boundary": "near-equal asymmetric adults; age-unknown supported nestling with residual down, formed barred remiges, slight one-wing defensive lift and open-bill posture; no flight claim",
+          "unknowns": [
+            "exact age and sex",
+            "continuous feather chronology",
+            "first-flight threshold and independence",
+            "quantitative adult sex-size ratio",
+            "exact subspecific colour"
+          ],
+          "lease_expires_at": "2026-11-11T22:51:50+08:00",
+          "scientifically_verified": false
+        }
+      },
+      {
+        "batch_id": "20261111T193846+0800",
+        "cycle": 5,
+        "stage": "IMAGE_GENERATED",
+        "at": "2026-11-11T22:39:47+08:00",
+        "run_id": "20261111T223524+0800-cycle-5",
+        "species_id": 120,
+        "species": "Megascops ingens",
+        "credited": false,
+        "evidence": {
+          "initial_original": "owl-pet/production/generated/120-megascops-ingens-v5-initial-original.png",
+          "initial_blob": "2239656057634898e23bfcaefb7174169d28effe",
+          "initial_bytes": 3278379,
+          "initial_sha256": "c00b10c8fe8cf1f3d0749ad43b9f6034c1ee68b0f899c764a0d64454409d5593",
+          "geometry": "1536x1024",
+          "generation_seconds": 73.3,
+          "edit_required": true,
+          "inspection_issues": [
+            "juvenile lifted wing too long/rigid and adult-perfect",
+            "adult male left ear tuft far too tall for short-tuft species"
+          ],
+          "preliminary_passes": [
+            "exact title and three labels",
+            "exactly three birds",
+            "honey-brown adult irises",
+            "dark-brown juvenile iris and open bill",
+            "all feet supported",
+            "lower-montane forest-edge/cavity context"
+          ],
+          "scientifically_verified": false,
+          "lease_expires_at": "2026-11-11T22:54:47+08:00"
+        }
+      },
+      {
+        "batch_id": "20261111T193846+0800",
+        "cycle": 5,
+        "stage": "REVIEWED",
+        "at": "2026-11-11T22:41:39+08:00",
+        "run_id": "20261111T223524+0800-cycle-5",
+        "species_id": 120,
+        "species": "Megascops ingens",
+        "credited": false,
+        "evidence": {
+          "final_original": "owl-pet/production/generated/120-megascops-ingens-v5-final-original.png",
+          "final_blob": "a37eeac43940af54ab559348754899a4ada8f432",
+          "final_bytes": 3003333,
+          "final_sha256": "af27d13d7a9669c737060ade44c02bf845d5a99aeef63c275802bf944c21c2e3",
+          "geometry": "1536x1024",
+          "edit_count": 1,
+          "imagegen_invocations": 2,
+          "review_record": "owl-pet/research/reviews/120-megascops-ingens-v5-review.md",
+          "review_crops": [
+            "owl-pet/production/review-crops/120-megascops-ingens-v5-adult-male.png",
+            "owl-pet/production/review-crops/120-megascops-ingens-v5-juvenile.png",
+            "owl-pet/production/review-crops/120-megascops-ingens-v5-adult-female.png"
+          ],
+          "crop_blobs": [
+            "1769606ccfd70ae923b2b54126bae6b69030f36e",
+            "da353bb1a7c18a72b0cc48e9e1b244f6fcb058fb",
+            "a15b2f5abcac0162ae794fbcd881306cb1440ca5"
+          ],
+          "actual_views": [
+            "v4 full plate",
+            "v5 initial full plate",
+            "v5 edited full plate",
+            "edited adult male crop",
+            "edited juvenile crop",
+            "edited adult female crop"
+          ],
+          "checks": {
+            "identity": "PASS_WITH_LIMITATION",
+            "sex_direction": "PASS_WITH_LIMITATION",
+            "juvenile_stage": "PASS_WITH_LIMITATIONS_AFTER_EDIT",
+            "juvenile_action": "PASS_AFTER_EDIT",
+            "support": "PASS",
+            "text_count_order": "PASS",
+            "habitat": "PASS_WITH_LIMITATION",
+            "taxonomy": "PASS"
+          },
+          "unknowns": [
+            "exact juvenile age and sex",
+            "continuous feather chronology",
+            "first-flight threshold and independence",
+            "quantitative adult sex-size ratio",
+            "exact subspecific colour"
+          ],
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "lease_expires_at": "2026-11-11T22:56:39+08:00"
+        }
+      },
+      {
+        "batch_id": "20261111T193846+0800",
+        "cycle": 5,
+        "stage": "ARCHIVED",
+        "at": "2026-11-11T22:44:00+08:00",
+        "run_id": "20261111T223524+0800-cycle-5",
+        "species_id": 120,
+        "species": "Megascops ingens",
+        "credited": false,
+        "evidence": {
+          "concept_path": "owl-pet/design/concepts/120-megascops-ingens-v5.png",
+          "initial_blob": "2239656057634898e23bfcaefb7174169d28effe",
+          "final_blob": "a37eeac43940af54ab559348754899a4ada8f432",
+          "initial_bytes": 3278379,
+          "final_bytes": 3003333,
+          "aliases": [
+            "owl-pet/production/generated/120-megascops-ingens-v5-final-original.png",
+            "owl-pet/production/generated/120-megascops-ingens-v5-full-color.png",
+            "owl-pet/production/generated/120-megascops-ingens-v5-generated-master.png",
+            "owl-pet/production/reviewed/120-megascops-ingens-v5-reviewed-master.png",
+            "owl-pet/design/concepts/120-megascops-ingens-v5.png"
+          ],
+          "review_crops": 3,
+          "manifests": 3,
+          "manifest_counts": {
+            "design_upper": 803,
+            "design_concepts": 820,
+            "production": 793
+          },
+          "unique_species_count": 176,
+          "total_species": 251,
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "archive_commit_pending": false,
+          "readback_pending": false,
+          "lease_expires_at": "2026-11-11T22:59:00+08:00",
+          "archive_commit": "07f3c2dba82b543ade132687133e4b84901b91bb",
+          "archive_tree": "5d828dc73a066227821dce26ec85d1e9631d58b2"
+        }
+      },
+      {
+        "batch_id": "20261111T193846+0800",
+        "cycle": 5,
+        "stage": "VERIFIED",
+        "at": "2026-11-11T22:49:00+08:00",
+        "run_id": "20261111T223524+0800-cycle-5",
+        "species_id": 120,
+        "species": "Megascops ingens",
+        "credited": false,
+        "evidence": {
+          "archive_commit": "07f3c2dba82b543ade132687133e4b84901b91bb",
+          "archive_tree": "5d828dc73a066227821dce26ec85d1e9631d58b2",
+          "required_paths_verified": 18,
+          "exact_binary_paths_verified": 9,
+          "tree_entries": 4307,
+          "tree_truncated": false,
+          "initial_blob": "2239656057634898e23bfcaefb7174169d28effe",
+          "initial_bytes": 3278379,
+          "concept_blob": "a37eeac43940af54ab559348754899a4ada8f432",
+          "concept_bytes": 3003333,
+          "crop_blobs": [
+            "1769606ccfd70ae923b2b54126bae6b69030f36e",
+            "da353bb1a7c18a72b0cc48e9e1b244f6fcb058fb",
+            "a15b2f5abcac0162ae794fbcd881306cb1440ca5"
+          ],
+          "manifest_counts": {
+            "design_upper": 803,
+            "design_concepts": 820,
+            "production": 793
+          },
+          "manifest_matches_each": 1,
+          "immutable_raw_render_verified": true,
+          "immutable_raw_url": "https://raw.githubusercontent.com/janeytlin-eng/game-owl-ket/07f3c2dba82b543ade132687133e4b84901b91bb/owl-pet/design/concepts/120-megascops-ingens-v5.png",
+          "connector_full_binary_stream_readback_supported": false,
+          "verification_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "ledger_credit_pending": true,
+          "lease_expires_at": "2026-11-11T23:04:00+08:00"
+        }
+      },
+      {
+        "batch_id": "20261111T193846+0800",
+        "cycle": 5,
+        "stage": "LEDGER_CREDITED",
+        "at": "2026-11-11T22:50:30+08:00",
+        "run_id": "20261111T223524+0800-cycle-5",
+        "species_id": 120,
+        "species": "Megascops ingens",
+        "credited": true,
+        "evidence": {
+          "verification_commit": "7ef4d082677571928fb30693bd8667d4d012ac23",
+          "archive_commit": "07f3c2dba82b543ade132687133e4b84901b91bb",
+          "archive_tree": "5d828dc73a066227821dce26ec85d1e9631d58b2",
+          "run_record": "owl-pet/production/runs/20261111T223524+0800-cycle-5.md",
+          "batch_progress": "5/6",
+          "next_cycle": 6,
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "unique_species_count": 176,
+          "total_species": 251,
+          "scientifically_verified": false
+        }
+      },
+      {
+        "batch_id": "20261111T193846+0800",
+        "cycle": 6,
+        "stage": "STARTED",
+        "at": "2026-11-11T22:52:00+08:00",
+        "run_id": "20261111T225200+0800-cycle-6",
+        "species_id": 121,
+        "species": "Ninox leucopsis",
+        "credited": false,
+        "evidence": {
+          "run_record": "owl-pet/production/runs/20261111T225200+0800-cycle-6.md",
+          "baseline_main": "ff6bde30f174446c7b5a94cdac642deae283718c",
+          "selection_note": "#120 v5 is verified and credited. #121 Ninox leucopsis is the next numbered repository-backed target and currently ends at v4; v1-v4 and prior review records are preserved. Cycle 6 will re-read the existing evidence, inspect v4, add targeted external research for remaining juvenile/adult uncertainties, and revise only with evidence-bounded traits.",
+          "prior_version": "owl-pet/design/concepts/121-ninox-leucopsis-v4.png",
+          "lease_expires_at": "2026-11-11T23:07:00+08:00",
+          "scientifically_verified": false
+        }
+      },
+      {
+        "batch_id": "20261111T193846+0800",
+        "cycle": 6,
+        "stage": "RESEARCH_READY",
+        "at": "2026-11-11T22:55:00+08:00",
+        "run_id": "20261111T225200+0800-cycle-6",
+        "species_id": 121,
+        "species": "Ninox leucopsis",
+        "credited": false,
+        "evidence": {
+          "research_record": "owl-pet/research/species/121-ninox-leucopsis-v5.md",
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "new_indexed_sources": 1,
+          "reused_or_reread_sources": 5,
+          "corrected_boundaries": 1,
+          "prior_visual_inspected": true,
+          "uploaded_mikkola_accessible": false,
+          "complete_prompt_saved": true,
+          "design_boundary": "small irregular adult white spots; asymmetric near-equal adults; dark-down yellow-eyed age-unknown juvenile with compact remiges and bilateral cavity support; no juvenile flight claim",
+          "unknowns": [
+            "exact juvenile age and sex",
+            "continuous feather chronology",
+            "first-flight threshold and independence",
+            "ordinary iris chronology",
+            "universal cavity geometry",
+            "fixed sex-size ratio"
+          ],
+          "lease_expires_at": "2026-11-11T23:10:00+08:00",
+          "scientifically_verified": false
+        }
+      },
+      {
+        "batch_id": "20261111T193846+0800",
+        "cycle": 6,
+        "stage": "IMAGE_GENERATED",
+        "at": "2026-11-11T22:58:30+08:00",
+        "run_id": "20261111T225200+0800-cycle-6",
+        "species_id": 121,
+        "species": "Ninox leucopsis",
+        "credited": false,
+        "evidence": {
+          "initial_original": "owl-pet/production/generated/121-ninox-leucopsis-v5-initial-original.png",
+          "initial_blob": "84a276aeb0e9a0e43dbe1df0bc91e45fbf2d221c",
+          "initial_bytes": 2855735,
+          "initial_sha256": "bcedd673cfb14f8655339b4157eef2fa324a1fe025a21fd3b6359ec5b4f69f65",
+          "geometry": "1536x1024",
+          "generation_seconds": 49.7,
+          "edit_required": false,
+          "preliminary_inspection": "Exact title and three labels; exactly three birds; small irregular adult white spots; near-equal asymmetric adults; dark-down yellow-eyed age-unknown juvenile with concealed tail and both feet on the cavity lip; all adult feet supported. Focused crops opened; no demonstrated image error requiring edit.",
+          "scientifically_verified": false,
+          "lease_expires_at": "2026-11-11T23:13:30+08:00"
+        }
+      },
+      {
+        "batch_id": "20261111T193846+0800",
+        "cycle": 6,
+        "stage": "REVIEWED",
+        "at": "2026-11-11T23:00:30+08:00",
+        "run_id": "20261111T225200+0800-cycle-6",
+        "species_id": 121,
+        "species": "Ninox leucopsis",
+        "credited": false,
+        "evidence": {
+          "final_original": "owl-pet/production/generated/121-ninox-leucopsis-v5-final-original.png",
+          "final_blob": "84a276aeb0e9a0e43dbe1df0bc91e45fbf2d221c",
+          "final_bytes": 2855735,
+          "final_sha256": "bcedd673cfb14f8655339b4157eef2fa324a1fe025a21fd3b6359ec5b4f69f65",
+          "geometry": "1536x1024",
+          "edit_count": 0,
+          "imagegen_invocations": 1,
+          "review_record": "owl-pet/research/reviews/121-ninox-leucopsis-v5-review.md",
+          "review_crops": [
+            "owl-pet/production/review-crops/121-ninox-leucopsis-v5-adult-male.png",
+            "owl-pet/production/review-crops/121-ninox-leucopsis-v5-juvenile.png",
+            "owl-pet/production/review-crops/121-ninox-leucopsis-v5-adult-female.png"
+          ],
+          "crop_blobs": [
+            "06a14f5553255eaefd6707b6a223d5838301a4c9",
+            "ae4ae3ae5dc3bb3d3303829a0c13dc2ca7b4ddaa",
+            "fdfeb624985f7930a5bf6d87e0228179c2fb7eb6"
+          ],
+          "actual_views": [
+            "v4 full plate",
+            "v5 full plate",
+            "v5 adult male crop",
+            "v5 juvenile crop",
+            "v5 adult female crop"
+          ],
+          "checks": {
+            "identity": "PASS_WITH_LIMITATION",
+            "adult_spot_pattern": "PASS",
+            "sex_direction": "PASS_WITH_LIMITATION",
+            "juvenile_stage": "PASS_WITH_LIMITATIONS",
+            "juvenile_action": "PASS",
+            "support": "PASS",
+            "text_count_order": "PASS",
+            "habitat": "PASS_WITH_LIMITATION",
+            "revision_goal": "PASS"
+          },
+          "unknowns": [
+            "exact juvenile age and sex",
+            "continuous feather chronology",
+            "first-flight threshold and independence",
+            "ordinary iris chronology",
+            "universal cavity geometry",
+            "fixed sex-size ratio",
+            "individual colour variation"
+          ],
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "lease_expires_at": "2026-11-11T23:15:30+08:00"
+        }
+      },
+      {
+        "batch_id": "20261111T193846+0800",
+        "cycle": 6,
+        "stage": "LEDGER_CREDITED",
+        "at": "2026-11-11T23:34:00+08:00",
+        "run_id": "20261111T225200+0800-cycle-6",
+        "species_id": 121,
+        "species": "Ninox leucopsis",
+        "credited": true,
+        "evidence": {
+          "verification_commit": "8416174f5fb44e235fb3075c8182ab6d32912fb6",
+          "archive_commit": "6198d1190d886165e41518391b7d6bba379c0d67",
+          "archive_tree": "29f4fdc03074afd07ae266e60ee99bdf3451d9dd",
+          "run_record": "owl-pet/production/runs/20261111T225200+0800-cycle-6.md",
+          "batch_progress": "6/6",
+          "next_cycle": null,
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "unique_species_count": 176,
+          "total_species": 251,
+          "scientifically_verified": false
+        }
       }
     ],
     "stage": "LEDGER_CREDITED",
-    "completed_count": 4
+    "completed_count": 6
   },
   "events": [
     {
@@ -60673,10 +61119,33 @@
         "ledger_credit_pending": true,
         "lease_expires_at": "2026-11-11T23:46:00+08:00"
       }
+    },
+    {
+      "batch_id": "20261111T193846+0800",
+      "cycle": 6,
+      "stage": "LEDGER_CREDITED",
+      "at": "2026-11-11T23:34:00+08:00",
+      "run_id": "20261111T225200+0800-cycle-6",
+      "species_id": 121,
+      "species": "Ninox leucopsis",
+      "credited": true,
+      "evidence": {
+        "verification_commit": "8416174f5fb44e235fb3075c8182ab6d32912fb6",
+        "archive_commit": "6198d1190d886165e41518391b7d6bba379c0d67",
+        "archive_tree": "29f4fdc03074afd07ae266e60ee99bdf3451d9dd",
+        "run_record": "owl-pet/production/runs/20261111T225200+0800-cycle-6.md",
+        "batch_progress": "6/6",
+        "next_cycle": null,
+        "unique_species_increment": 0,
+        "revision_increment": 1,
+        "unique_species_count": 176,
+        "total_species": 251,
+        "scientifically_verified": false
+      }
     }
   ],
-  "ledger_credit_pending": true,
-  "last_verified_commit": "01abc6d1173554dd0930f83694c4ae10e139fe74",
+  "ledger_credit_pending": false,
+  "last_verified_commit": "8416174f5fb44e235fb3075c8182ab6d32912fb6",
   "completed_cycles": [
     {
       "cycle": 1,
@@ -60898,9 +61367,27 @@
       "scientifically_verified": false,
       "credited_at": "2026-11-11T19:37:31+08:00",
       "batch_id": "20261108T045200+0800"
+    },
+    {
+      "cycle": 6,
+      "species": "Ninox leucopsis",
+      "species_id": 121,
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "commit_sha": "8416174f5fb44e235fb3075c8182ab6d32912fb6",
+      "archive_commit": "6198d1190d886165e41518391b7d6bba379c0d67",
+      "run_record": "owl-pet/production/runs/20261111T225200+0800-cycle-6.md",
+      "concept_path": "owl-pet/design/concepts/121-ninox-leucopsis-v5.png",
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "scientifically_verified": false,
+      "completed_at": "2026-11-11T23:34:00+08:00",
+      "batch_id": "20261111T193846+0800",
+      "credited_at": "2026-11-11T23:34:00+08:00"
     }
   ],
-  "updated": "2026-11-11T19:38:46+08:00",
+  "updated": "2026-11-11T23:34:00+08:00",
   "stage": "VERIFIED",
   "stage_evidence": {
     "run_record": "owl-pet/production/runs/20261111T181313+0800-cycle-6.md",
@@ -60910,7 +61397,7 @@
     "lease_expires_at": "2026-11-11T18:28:13+08:00",
     "scientifically_verified": false
   },
-  "last_verification_commit": "252e044260d6693caea8e1bc29fb391e1e06a970",
+  "last_verification_commit": "8416174f5fb44e235fb3075c8182ab6d32912fb6",
   "timestamps": {
     "RESEARCH_READY": "2026-11-08T03:43:01+08:00",
     "IMAGE_GENERATED": "2026-11-08T03:44:43+08:00",
@@ -62033,12 +62520,5 @@
     }
   ],
   "last_archive_commit": "6198d1190d886165e41518391b7d6bba379c0d67",
-  "active": {
-    "run_id": "20261111T225200+0800-cycle-6",
-    "cycle": 6,
-    "species_id": 121,
-    "species": "Ninox leucopsis",
-    "stage": "VERIFIED",
-    "run_record": "owl-pet/production/runs/20261111T225200+0800-cycle-6.md"
-  }
+  "active": null
 }

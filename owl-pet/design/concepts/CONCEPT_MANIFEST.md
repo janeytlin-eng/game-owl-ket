@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T06:30:00+08:00",
+  "updated": "2026-11-12T06:33:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -32462,10 +32462,20 @@
         }
       ],
       "archive_note": "V4, initial v5, two rejected edit attempts and three accepted-role crops opened. Initial retained after both edits regressed. New1/reused5; uploaded Mikkola unavailable and no fresh page claim. Science false. Archive verification pending.",
-      "readback_pending": true,
-      "archive_commit_pending": true,
-      "archived_at": "2026-11-12T06:30:00+08:00"
+      "readback_pending": false,
+      "archive_commit_pending": false,
+      "archived_at": "2026-11-12T06:30:00+08:00",
+      "archive_commit": "fa128917a300e6315f0ea826e07b34a68567c0ed",
+      "archive_tree": "c9ace5dcf88964919368a99227e654c495baed77",
+      "tree_readback_exact": true,
+      "required_paths_verified": 20,
+      "exact_binary_paths_verified": 11,
+      "unique_binary_streams_tree_verified": 6,
+      "verified_at": "2026-11-12T06:33:00+08:00",
+      "verification_result": "PASS_WITH_LIMITATIONS",
+      "verification_commit_pending": true,
+      "binary_content_api_note": "Git contents/blob text endpoint rejects PNG as UTF-8; exact path, Git blob SHA and byte size were re-read from the archive tree for all binary aliases and six unique streams."
     }
   ],
-  "updated_at": "2026-11-12T06:30:00+08:00"
+  "updated_at": "2026-11-12T06:33:00+08:00"
 }

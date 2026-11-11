@@ -4033,3 +4033,9 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` read back; cycle 1 credi
 - Three new source records establish current-name mapping, accessible dark-eye adult evidence and the age-unknown yellow-cream juvenile at a tree-fern day roost; inaccessible/secondary iris conflicts remain unresolved.
 - One actual generation; full plate, title and three role crops opened; no edit required. PASS_WITH_LIMITATIONS; science=false.
 - Staged concept/master/original/reviewed aliases, three crops and manifests 812 / 809 / 802. Immutable readback pending.
+
+## 2026-11-11 — #106 *Strix albitarsis* v4 VERIFIED
+
+- Archive `3551810adc3f6c7f0af018cfec1c36dec60d65ff`; tree `644d645e0c2095ce6e2eb92e2318843bdcc9a2c1` non-truncated with 4,209 entries.
+- Required paths 22/22; exact binary path/blob/size tuples 9/9; four unique image streams.
+- Manifests 812 / 809 / 802 contain #106 v4 exactly once. PASS_WITH_LIMITATIONS; science=false; ledger credit pending.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T16:00:14+08:00",
+  "updated": "2026-11-11T16:27:40+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -31150,12 +31150,19 @@
           "size_bytes": 881804
         }
       ],
-      "archive_note": "V4 full plate, title and three role crops opened; no targeted edit required. Immutable archive readback pending.",
-      "readback_pending": true,
-      "archive_commit_pending": true,
-      "archive_commit": null,
-      "exact_readback": false,
-      "archived_at": "2026-11-11T16:21:03+08:00"
+      "archive_note": "V4 full plate, title and three role crops opened; no targeted edit required. Immutable archive tree readback passed with exact path/blob/byte evidence.",
+      "readback_pending": false,
+      "archive_commit_pending": false,
+      "archive_commit": "3551810adc3f6c7f0af018cfec1c36dec60d65ff",
+      "exact_readback": true,
+      "archived_at": "2026-11-11T16:21:03+08:00",
+      "archive_tree": "644d645e0c2095ce6e2eb92e2318843bdcc9a2c1",
+      "archive_tree_entries": 4209,
+      "archive_tree_truncated": false,
+      "required_paths_verified": 22,
+      "exact_binary_paths_verified": 9,
+      "unique_binary_streams_read_back": 4,
+      "verified_at": "2026-11-11T16:27:40+08:00"
     }
   ],
   "updated_at": "2026-11-11T16:00:14+08:00"

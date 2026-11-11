@@ -1756,3 +1756,5 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 - 2026-11-11T16:06:17+08:00: #102 *Strix nigrolineata* v5 LEDGER_CREDITED after verification `60ab8d7a2f275e941ebb8fbb8175e28bba62ae46`; batch 2/6, next cycle 3, lease released; unique 176/251; revision +1; science false.
 
 - 2026-11-11T16:21:03+08:00: #106 *Strix albitarsis* v4 archived after new taxonomy/adult/juvenile-roost research, one generation and full-plus-crop review. No edit required; manifests 812/809/802; immutable readback pending; no ledger credit yet; unique 176/251; science false.
+
+- 2026-11-11T16:27:40+08:00: #106 *Strix albitarsis* v4 immutable readback passed archive `3551810adc3f6c7f0af018cfec1c36dec60d65ff` / tree `644d645e0c2095ce6e2eb92e2318843bdcc9a2c1`: 22 required paths, nine exact binary tuples, parseable ledger/manifests 812/809/802 with #106 exactly once; ledger credit pending; science false.

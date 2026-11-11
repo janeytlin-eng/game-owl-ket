@@ -3017,6 +3017,24 @@
 - `PEO-ITIS-1244715-2026` is reused for the current-name and old-name mapping. `PEO-MIK2013-P294` is reused only from the repository-pinned printed pp.294–295 because the uploaded guide was not mounted in this execution.
 - **Correction applied:** v4’s visible label “NEAR-FLEDGED” was more specific than the displayed individual’s evidence. V5 uses “OLDER JUVENILE — AGE UNKNOWN”; it may show a compact folded wing and a supported balancing lean, but no flight, spread wing, exact age or adult-perfect covert rows. Science remains false.
 
+## 2026-11-12 — #126 *Strix hadorami* v4 — current-name refresh and estimated-age wording
+
+### DESO-ITIS-1063253-2026
+
+- **Stable ID / title:** DESO-ITIS-1063253-2026 — “ITIS Report: *Strix hadorami*.”
+- **Institution / date:** Integrated Taxonomic Information System; current report accessed 2026-11-11.
+- **URL / source type:** https://itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=1063253&source=to_print — institutional taxonomic record.
+- **Taxon / stage:** *Strix hadorami*; all life stages; no developmental morphology.
+- **Actually read:** report lines 6–30 and 45–69. TSN 1063253, author string Kirwan, Schweizer & Copete, 2015, English common name Desert Owl, current standing valid, credibility “verified — standards met”; IOC 15.1 (2025) is listed among current references.
+- **Limits / confidence:** high for the current name and database status; it does not support plumage, sex-size direction, age, behaviour or nest form.
+- **Design / QA decision:** retain *Strix hadorami* and keep old broad *S. butleri* only as historical mapping. Do not import eastern Omani Owl traits. Applied to research/species/126-strix-hadorami-v4.md.
+
+### Re-read and unverified lead
+
+- DESO-BENDOV-2017 was re-read at article lines 281–285, 400–402, 739–762, 1079–1101 and 1303–1318. Plates/captions explicitly identify c35-day fledglings, including one with both adults; occasional self-feeding begins around c35 days, while the authors state development information is limited and use Tawny Owl as a comparison. V4 keeps the estimate but changes the visible label to “EST. c35-DAY FLEDGLING” so the uncertainty attaches directly to age.
+- DESO-KIRWAN-2015 was re-read at PDF lines 36–58 and the previously indexed diagnosis/ecology pages; current/old-name separation and adult morphology remain applicable.
+- Macaulay Library asset ML610547030 appeared in search as *Strix hadorami*, unaged and unsexed, HaDarom, Israel. Opening the record returned an access-denied bot check, so it is an **unverified lead**, not an indexed visual fact and not counted as supporting evidence.
+
 
 ## 2026-11-11 — #106 *Strix albitarsis* v4 — current name, adult iris and juvenile-roost boundary
 

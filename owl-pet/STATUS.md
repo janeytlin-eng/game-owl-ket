@@ -4109,3 +4109,9 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` was read back after arch
 
 - Verification `60ab8d7a2f275e941ebb8fbb8175e28bba62ae46` and archive `c9413688e93920051247286046c1da70fbbabc7c` read back.
 - Credited cycle 2/6 exactly once; next cycle 3. Coverage 176/251; revision +1; science=false; lease released.
+
+## 2026-11-11 — #106 *Strix albitarsis* v4 ARCHIVED pending readback
+
+- Added v4 while preserving v1–v3. New indexed sources: 3; re-read/reused: 2; conflicting iris evidence remains explicit.
+- Full plate, title and three role crops opened. Dark-eyed near-equal adults, yellow-cream downy juvenile and attached tree-fern day-roost geometry passed without an edit.
+- PASS_WITH_LIMITATIONS; science=false; coverage remains 176/251. Manifests staged at 812 / 809 / 802; immutable readback pending.

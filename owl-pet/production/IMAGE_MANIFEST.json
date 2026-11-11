@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T23:31:00+08:00",
+  "updated": "2026-11-12T00:01:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -29855,7 +29855,89 @@
       "connector_full_binary_stream_readback_supported": false,
       "verified_at": "2026-11-11T23:31:00+08:00",
       "verification_result": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "id": "122-otus-megalotis-v5",
+      "path": "design/concepts/122-otus-megalotis-v5.png",
+      "species_id": 122,
+      "scientific_name": "Otus megalotis",
+      "historical_names": [
+        "Otus bakkamoena megalotis",
+        "Otus megalotis megalotis"
+      ],
+      "common_name": "Philippine Scops-Owl",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "prior_versions_retained": true,
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "imagegen_invocations": 2,
+      "status": "V5 preserves v1-v4 and selects an evidence-bounded age-unknown dependent later juvenile: larger than a tiny brancher, rusty/downy with reduced tufts, compact irregular formed remiges, short concealed tail and one slight wing stretch while both feet remain supported. One targeted edit removed the initial long orderly adult-like wing. Adults remain near-equal gray-brown long-tufted birds because known-sex museum measurements overlap. Exact age, sex, healthy flight threshold and normal size ratio remain unknown.",
+      "source_ids": [
+        "PSO-WBCP-RICARTE-2020",
+        "PSO-MIRANDA-2011",
+        "PSO-JOSEF-2012",
+        "PSO-SANCHEZ-2012",
+        "PSO-MIK2013-P170"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/122-otus-megalotis-v5.md",
+      "review_record": "research/reviews/122-otus-megalotis-v5-review.md",
+      "run_record": "production/runs/20261111T233600+0800-cycle-1.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 2652408,
+      "sha256": "40e1d4be5e073ab74a3b0ebe784d558589d010278f0e42394ec8ec77c22a97cc",
+      "git_blob": "b1923855274ffbda47cab1c03dd27247d1d4037d",
+      "initial_original_path": "production/generated/122-otus-megalotis-v5-initial-original.png",
+      "initial_original_blob": "4aa048f191e8ef88341efa19f0f6a4d27cefacb0",
+      "initial_original_size_bytes": 2802280,
+      "initial_original_sha256": "0f5b2d7f821b98d5a195ec49756f7bd749e92ead9f5f8049aa2468fc089eb419",
+      "final_original_path": "production/generated/122-otus-megalotis-v5-final-original.png",
+      "final_original_blob": "b1923855274ffbda47cab1c03dd27247d1d4037d",
+      "final_original_size_bytes": 2652408,
+      "final_original_sha256": "40e1d4be5e073ab74a3b0ebe784d558589d010278f0e42394ec8ec77c22a97cc",
+      "full_color_source_path": "production/generated/122-otus-megalotis-v5-full-color.png",
+      "full_color_source_blob": "b1923855274ffbda47cab1c03dd27247d1d4037d",
+      "full_color_source_size_bytes": 2652408,
+      "full_color_source_sha256": "40e1d4be5e073ab74a3b0ebe784d558589d010278f0e42394ec8ec77c22a97cc",
+      "generated_path": "production/generated/122-otus-megalotis-v5-generated-master.png",
+      "generated_blob": "b1923855274ffbda47cab1c03dd27247d1d4037d",
+      "generated_size_bytes": 2652408,
+      "reviewed_path": "production/reviewed/122-otus-megalotis-v5-reviewed-master.png",
+      "reviewed_blob": "b1923855274ffbda47cab1c03dd27247d1d4037d",
+      "reviewed_size_bytes": 2652408,
+      "review_crops": [
+        {
+          "path": "production/review-crops/122-otus-megalotis-v5-adult-male.png",
+          "blob": "3a659f91a859034c4c65e10050de3f75209b3da7",
+          "size_bytes": 745452
+        },
+        {
+          "path": "production/review-crops/122-otus-megalotis-v5-juvenile.png",
+          "blob": "cdbba8b6662b998da43498c8e08946dd64fb45cf",
+          "size_bytes": 749398
+        },
+        {
+          "path": "production/review-crops/122-otus-megalotis-v5-adult-female.png",
+          "blob": "d30fa008df80695fa26d201936ed877f87f17068",
+          "size_bytes": 730139
+        }
+      ],
+      "archive_note": "V4, initial v5, edited v5 and all three role crops were actually opened. Initial long orderly juvenile wing was shortened/softened in one targeted edit while bilateral support and the evidenced later-juvenile stretch were retained. One new field/rescue serial source and four reused/re-read sources. Uploaded Mikkola unavailable; repository-pinned p.170 reused only. Science false.",
+      "readback_pending": true,
+      "archive_commit_pending": true,
+      "archived_at": "2026-11-12T00:01:00+08:00"
     }
   ],
-  "updated_at": "2026-11-11T23:31:00+08:00"
+  "updated_at": "2026-11-12T00:01:00+08:00"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T04:55:00+08:00",
+  "updated": "2026-11-12T05:44:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -30496,7 +30496,91 @@
       "unique_binary_streams_read_back": 4,
       "verified_at": "2026-11-12T04:55:00+08:00",
       "verification_result": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "id": "132-strix-davidi-v5",
+      "species_id": 132,
+      "common_name": "Sichuan Wood Owl",
+      "scientific_name": "Strix davidi",
+      "current_name_crosswalk": "Strix uralensis davidi",
+      "historical_names": [
+        "Syrnium davidi",
+        "Strix uralensis davidi"
+      ],
+      "path": "design/concepts/132-strix-davidi-v5.png",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "prior_versions_retained": true,
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "imagegen_invocations": 1,
+      "status": "V5 preserves v1-v4, corrects the adult facial disc to radial rather than bold concentric target rings, keeps adults near-equal because no universal female-larger ratio was established, and anchors the young to the directly evidenced approximately-four-week down-rich mesoptile with compact hidden wing/tail and two-foot sill support. Exact sex-size direction, complete development timetable, natural nest substrate and current rank remain unknown.",
+      "source_ids": [
+        "DAV-SCHERZINGER-2014",
+        "DAV-ITIS-686975-2026",
+        "DAV-SCHERZINGER-FANG-2006",
+        "DAV-FANG-ETAL-2009",
+        "DAV-MIK2013-348",
+        "DAV-CLEMENTS-2022-LUMP-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/132-strix-davidi-v5.md",
+      "review_record": "research/reviews/132-strix-davidi-v5-review.md",
+      "run_record": "production/runs/20261112T050000+0800-cycle-2.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 3015175,
+      "sha256": "5b42c59c2636b438a0b76ba8180aaf0b046efa305c87353fa60c78ecdb000ac",
+      "git_blob": "f46b4833f5669983079a03f6aa710b440bee70ce",
+      "initial_original_path": "production/generated/132-strix-davidi-v5-initial-original.png",
+      "initial_original_blob": "f46b4833f5669983079a03f6aa710b440bee70ce",
+      "initial_original_size_bytes": 3015175,
+      "initial_original_sha256": "5b42c59c2636b438a0b76ba8180aaf0b046efa305c87353fa60c78ecdb000ac0",
+      "final_original_path": "production/generated/132-strix-davidi-v5-final-original.png",
+      "final_original_blob": "f46b4833f5669983079a03f6aa710b440bee70ce",
+      "final_original_size_bytes": 3015175,
+      "final_original_sha256": "5b42c59c2636b438a0b76ba8180aaf0b046efa305c87353fa60c78ecdb000ac0",
+      "full_color_source_path": "production/generated/132-strix-davidi-v5-full-color.png",
+      "full_color_source_blob": "f46b4833f5669983079a03f6aa710b440bee70ce",
+      "full_color_source_size_bytes": 3015175,
+      "full_color_source_sha256": "5b42c59c2636b438a0b76ba8180aaf0b046efa305c87353fa60c78ecdb000ac0",
+      "generated_path": "production/generated/132-strix-davidi-v5-generated-master.png",
+      "generated_blob": "f46b4833f5669983079a03f6aa710b440bee70ce",
+      "generated_size_bytes": 3015175,
+      "reviewed_path": "production/reviewed/132-strix-davidi-v5-reviewed-master.png",
+      "reviewed_blob": "f46b4833f5669983079a03f6aa710b440bee70ce",
+      "reviewed_size_bytes": 3015175,
+      "review_crops": [
+        {
+          "path": "production/review-crops/132-strix-davidi-v5-adult-male.png",
+          "blob": "4422cbb39a2e5fe3035b7b0210122c4ea59c99fa",
+          "size_bytes": 867568
+        },
+        {
+          "path": "production/review-crops/132-strix-davidi-v5-four-week-young.png",
+          "blob": "f18371746a5b38a8515f6539d52649a098ff75b2",
+          "size_bytes": 612466
+        },
+        {
+          "path": "production/review-crops/132-strix-davidi-v5-adult-female.png",
+          "blob": "1164feac52231ccb1bb130970497f19ab3e72993",
+          "size_bytes": 870985
+        }
+      ],
+      "archive_note": "V4, v5 full plate and all three role crops opened. Facial-disc, near-equal adult and approximately-four-week mesoptile boundaries applied. New1/reused5. Uploaded Mikkola unavailable; repository-pinned page only. Science false.",
+      "readback_pending": true,
+      "archive_commit_pending": true,
+      "archived_at": "2026-11-12T05:44:00+08:00"
     }
   ],
-  "updated_at": "2026-11-12T04:55:00+08:00"
+  "updated_at": "2026-11-12T05:44:00+08:00"
 }

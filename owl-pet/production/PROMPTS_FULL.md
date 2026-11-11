@@ -778,3 +778,30 @@ Adults: small screech owls, near-equal skeletal standing height because quantita
 Center older young: photograph-supported age-unknown fluffy gray-brown barred stage, not a reconstructed hatchling and not an adult miniature. Compact rounded body with uneven residual pale wispy down, dark-brown visible iris rims and large pupils, pale blue-gray bill and only short soft ear wisps. One small formed brown folded-wing cluster is mostly concealed by down and ends well above the feet; no long smooth adult wing panel, no mature ear tufts, no tail fan, no mature adult feather suit. Give it a cautious sideways head turn and a low supported shuffle along the branch: both feet visibly touch and grip the branch, one slightly forward, body balanced. No open wing and no claim of flight.
 
 All six feet must have anatomically natural branch contact. Forest: dense shaded Guiana/Amazon terra-firme interior with large trunks, layered green understory and soft humid green light. This is a perch, not a nest: no cavity entrance, eggs, prey or family story. Generous margins, no cropped toes, coherent soft painted 3D concept style. Avoid extra birds, extra feet, extra wings, logos, borders, text errors, mirrored adult clones, glossy armor feathers, white scapular rows, unsupported female-larger scaling and mature juvenile plumage.
+
+
+## #132 v5 — *Strix davidi* — batch 20261112T043100+0800 cycle 2/6
+
+### Complete imagegen prompt
+
+Use case: scientific-educational
+Asset type: 1536×1024 landscape owl electronic-pet species concept plate
+Primary request: Create a fresh v5 science-revision plate for repository species #132, preserving v1–v4 as historical versions and following the established soft-painted, realistic 3D owl electronic-pet style.
+
+Scene/backdrop: cool, softly overcast high-elevation conifer forest in central China, with subdued moss, lichen, deep spruce/fir trunks and shallow natural depth of field. A rough artificial study nest box is integrated into one trunk; its sill is bare, with no nest material, eggs or prey.
+
+Composition/framing: exactly three owls at one coherent depth, generous margins, no collage panels. Left adult male on a broad mossy branch in alert three-quarter profile, looking slightly down the branch. Center approximately-four-week nestling fully supported in the nest-box opening, both feet braced on the bare sill. Right adult female on a continuation of the branch, torso angled differently and head gently turned toward the center. Adults have near-equal structural crown height; do not make the female mechanically larger. Poses must be asymmetric and not mirrored clones.
+
+Text (verbatim): title “#132 · SICHUAN WOOD OWL”; subtitle “Strix davidi”; bottom role labels “ADULT MALE”, “NESTLING · APPROX. 4 WEEKS”, “ADULT FEMALE”. No other text.
+
+Adult morphology: large powerful dark chocolate-brown wood owl, no ear tufts. Dark almond-shaped brown eyes, narrow pale eye frames, pale-yellow bill. Broad facial disc with mainly fine radial streaking and a dark restrained rim; absolutely no bold concentric target rings and no bright dotted halo. Dark plain mantle/back, one restrained row of white drop marks along scapular margins, sparse broken pale secondary marks rather than blanket snow spotting. Pale underparts with strong irregular dark longitudinal wedge/arrow streaks crossed by delicate ochre waves. Long tail with dark central feathers and irregular subtle flecks/scribbles, not clean graphic bars. Feathered tarsi and toe tops, natural talons, two visibly supported feet per adult.
+
+Center nestling: directly documented approximately-four-week Lianhuashan nest-box mesoptile, rounded and down-rich. Dull gray woolly fluff with fine pale-brown undulating bars; darker tawny/rusty-brown mask; dark-brown eyes, subtle lilac-pink lids and narrow pale facial border; pale corneous-yellow bill; furry toe tops. Both feet visibly supported on the rough bare sill. Wings and tail remain compact and mostly hidden by woolly mesoptile: no adult scapular drops, no long tail, no layered mature remiges, no open wing, no flight claim and no precarious balancing.
+
+Constraints: exactly three birds and exactly six visible feet total; anatomically correct toes and claws with continuous branch/sill contact; documentary natural-history clarity within the established gentle electronic-pet finish. Taxonomic caution: the project retains #132 Strix davidi, while current IOC/ITIS/Clements treat the same davidi unit under Strix uralensis; do not import pale generic Ural Owl whitening.
+
+Avoid: extra birds, duplicated limbs, floating bodies, merged branch/feet, oversized female, clone poses, Great Gray Owl-style face rings, adult-pattern leakage into the nestling, long adult-like juvenile wing or tail, oversaturated orange, decorative border, logos, watermark, misspelled text or invented development claims.
+
+### Applied review rule
+
+When primary evidence supports a photographed age while rank and sex-size direction remain disputed, anchor the young only to that age and keep adults near-equal. Do not turn uncertainty into a larger female, mature juvenile wing or unsupported action. Applied and crop-checked on #132 v5; result PASS_WITH_LIMITATIONS, science false.

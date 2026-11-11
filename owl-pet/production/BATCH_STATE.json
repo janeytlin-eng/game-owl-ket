@@ -38962,8 +38962,8 @@
       "next_cycle": 6,
       "active_cycle": 6,
       "started_at": "2026-11-11T19:38:46+08:00",
-      "updated_at": "2026-11-11T22:52:00+08:00",
-      "current_stage": "STARTED",
+      "updated_at": "2026-11-11T22:55:00+08:00",
+      "current_stage": "RESEARCH_READY",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex-owl-production",
@@ -38971,15 +38971,15 @@
         "batch_id": "20261111T193846+0800",
         "cycle": 6,
         "species_id": 121,
-        "heartbeat_at": "2026-11-11T22:52:00+08:00",
-        "expires_at": "2026-11-11T23:07:00+08:00"
+        "heartbeat_at": "2026-11-11T22:55:00+08:00",
+        "expires_at": "2026-11-11T23:10:00+08:00"
       },
       "in_progress": {
         "run_id": "20261111T225200+0800-cycle-6",
         "cycle": 6,
         "species_id": 121,
         "species": "Ninox leucopsis",
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "run_record": "owl-pet/production/runs/20261111T225200+0800-cycle-6.md"
       },
       "active": {
@@ -38987,7 +38987,7 @@
         "cycle": 6,
         "species_id": 121,
         "species": "Ninox leucopsis",
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "run_record": "owl-pet/production/runs/20261111T225200+0800-cycle-6.md"
       },
       "stage_events": [
@@ -40137,9 +40137,40 @@
             "lease_expires_at": "2026-11-11T23:07:00+08:00",
             "scientifically_verified": false
           }
+        },
+        {
+          "batch_id": "20261111T193846+0800",
+          "cycle": 6,
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-11T22:55:00+08:00",
+          "run_id": "20261111T225200+0800-cycle-6",
+          "species_id": 121,
+          "species": "Ninox leucopsis",
+          "credited": false,
+          "evidence": {
+            "research_record": "owl-pet/research/species/121-ninox-leucopsis-v5.md",
+            "source_index": "owl-pet/research/SOURCE_INDEX.md",
+            "new_indexed_sources": 1,
+            "reused_or_reread_sources": 5,
+            "corrected_boundaries": 1,
+            "prior_visual_inspected": true,
+            "uploaded_mikkola_accessible": false,
+            "complete_prompt_saved": true,
+            "design_boundary": "small irregular adult white spots; asymmetric near-equal adults; dark-down yellow-eyed age-unknown juvenile with compact remiges and bilateral cavity support; no juvenile flight claim",
+            "unknowns": [
+              "exact juvenile age and sex",
+              "continuous feather chronology",
+              "first-flight threshold and independence",
+              "ordinary iris chronology",
+              "universal cavity geometry",
+              "fixed sex-size ratio"
+            ],
+            "lease_expires_at": "2026-11-11T23:10:00+08:00",
+            "scientifically_verified": false
+          }
         }
       ],
-      "stage": "STARTED",
+      "stage": "RESEARCH_READY",
       "completed_count": 5
     }
   ],
@@ -40149,8 +40180,8 @@
     "batch_id": "20261111T193846+0800",
     "cycle": 6,
     "species_id": 121,
-    "heartbeat_at": "2026-11-11T22:52:00+08:00",
-    "expires_at": "2026-11-11T23:07:00+08:00"
+    "heartbeat_at": "2026-11-11T22:55:00+08:00",
+    "expires_at": "2026-11-11T23:10:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -46880,7 +46911,7 @@
   ],
   "active_batch_id": "20261111T193846+0800",
   "active_cycle": 6,
-  "current_stage": "STARTED",
+  "current_stage": "RESEARCH_READY",
   "next_cycle": 6,
   "unique_species_count": 176,
   "total_species": 251,
@@ -60664,7 +60695,7 @@
     }
   ],
   "updated": "2026-11-11T19:38:46+08:00",
-  "stage": "STARTED",
+  "stage": "RESEARCH_READY",
   "stage_evidence": {
     "run_record": "owl-pet/production/runs/20261111T181313+0800-cycle-6.md",
     "baseline_main": "6bbeb9408b971fe916843fddd3377a416320f1c3",
@@ -61801,7 +61832,7 @@
     "cycle": 6,
     "species_id": 121,
     "species": "Ninox leucopsis",
-    "stage": "STARTED",
+    "stage": "RESEARCH_READY",
     "run_record": "owl-pet/production/runs/20261111T225200+0800-cycle-6.md"
   }
 }

@@ -4507,3 +4507,15 @@ Reused/re-read without duplicate IDs: `PSC-KOMAR-STUFKENS-2012` (primary one-eve
 - Reused repository-pinned `RIS-MIKKOLA-2013-P229` (printed p.229 / uploaded PDF p.231) for adult identification only; the uploaded guide was not accessible in this execution, so no fresh page-view claim is made.
 - Correction 1: preserve the paper's explicit formed-remiges exception but reject exact-day labels because its two age ranges conflict.
 - Correction 2: use the documented slight wing opening and bill-clapping as a supported defensive action, without inferring first flight, sustained flight or independence.
+
+
+## TBO-SPERRING-2026-CAPTURE
+- **Title:** Using Hand- and Mist-Nets to Capture Small Ninox Owls: Lessons from Three Australian Case Studies
+- **Authors/institution/year:** V. Florence Sperring et al.; Western Sydney University, Monash University, Zoos Victoria and collaborators; 2026.
+- **URL/DOI:** https://www.mdpi.com/1424-2818/18/10/621 · https://doi.org/10.3390/d18100621
+- **Accessed:** 2026-11-11.
+- **Type/status:** peer-reviewed primary field-methods article; full HTML sections 2.2.1–2.2.3 and Table 1 actually read.
+- **Taxon/stage:** *Ninox leucopsis* adults; Victorian coastal staging behaviour. No juvenile data.
+- **Useful facts:** reports 118–275 g; Tasmania-only breeding with partial winter movement; five individuals captured on low shrubs/fence posts at Cape Liptrap; three tagged individuals made overwater flights up to 251.9 km. This supports an adult small-hawk-owl ecology/perch boundary, not a juvenile pose or a breeding-cavity setting.
+- **Limits/credibility/design use:** recent primary adult capture study, high confidence for the described field sample; it cannot resolve sex-size direction, juvenile feathering, age, nest support, or subspecific colour. For #121 v5 it is indexed as active new research but does not override the taxon-specific Olsen–Debus nestling endpoint or justify flight in the juvenile.
+- **Links:** `owl-pet/research/species/121-ninox-leucopsis-v5.md`; planned v5 concept/review/run.

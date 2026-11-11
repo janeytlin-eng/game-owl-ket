@@ -1,5 +1,39 @@
 
 
+## 2026-11-11 — #112 *Asio abyssinicus* v4 — juvenile-down texture correction and Dinsho habitat boundary
+
+### ABY-BMNP-BIRDING-2026 — newly indexed institutional habitat page
+- **Title / institution / accessed:** “Birding — The Bale Birding Zones” / Bale Mountains National Park / 2026-11-11.
+- **URL / section:** https://balemountains.org/plan-your-trip/activities/birding/ ; “BMNP Headquarters (Juniper woodlands)”, lines 55–72 in the accessed page.
+- **Species/stage/place:** *Asio abyssinicus*; occurrence context at Dinsho, not an age or nest source.
+- **Facts:** the headquarters patch is a remnant dry Afromontane forest dominated by *Hagenia abyssinica*, *Juniperus procera* and *Hypericum revolutum*; the park describes it as one of Ethiopia’s best places to see Abyssinian Long-eared Owl.
+- **Limits/decision:** tourism/institution page, not a breeding or developmental study. Supports a Dinsho Afromontane forest setting and named vegetation only; does not support a nest, juvenile provenance, sex ratio or plumage detail.
+
+### ABY-COLLAR-BOESMAN-2019 — reused, museum/taxonomy paper re-read
+- Collar & Boesman, 2019, “The taxonomy of certain *Asio* and *Bubo* owl species in Africa and Arabia,” *Bulletin of the African Bird Club* 26(2):155–169.
+- URL: https://www.researchgate.net/publication/335292194_The_taxonomy_of_certain_Asio_and_Bubo_owl_species_in_Africa_and_Arabia ; pp.158–161, Figs.1–3, Tables1–2.
+- Broader/fused dark upperpart markings, dense irregular net-like underpart panels, curved pale spots on secondaries/tail and the more ochre-buff nominate phenotype remain the adult identity basis. Sexes are pooled; no fixed female-larger display is licensed.
+
+### ABY-MATON-1989-JUV — reused, species-labelled field photograph re-opened from repository evidence
+- Peter Maton, age-unknown juvenile *A. abyssinicus*, Ethiopia 1989: https://www.flickr.com/photos/34579661@N04/5424426357
+- Visible boundary retained: charcoal/gray-brown **loose irregular** down, very dark face, orange irises, dark bill, short emerging tufts, concealed tail and natural support. The photograph does not establish exact age, sex, subspecies, flight competence, foot anatomy or wing/tail chronology.
+- V3 reinspection found repeated tight decorative curls inconsistent with the evidence wording; v4 will replace them with wispy clumps and broken down edges, while keeping wings/tail compact and mostly concealed.
+
+### ABY-OGADA-MURIITHI-2017 — reused, primary field-project report re-read
+- Darcy Ogada & Paul Muriithi, 2017, “Is the Abyssinian Owl on Mt Kenya dependent on declining heath forest habitat?”, African Bird Club final report: https://www.africanbirdclub.org/sites/default/files/2016_Abyssinian_Owl.pdf
+- Read pp.1–5. The report states there had been no systematic species study, breeding and movements were poorly known, and its Mt Kenya sightings/roost/pellets were preliminary and not conclusively assigned. It supports an extreme-highland woodland/heath context and uncertainty, not a nest or universal habitat claim.
+
+### ABY-ONET-LANNELUC-2018 — reused, dated adult field photograph
+- Catherine & Bernard Lanneluc, adult *A. abyssinicus*, Dinsho, November 2018: https://www.oiseaux.net/photos/catherine.et.bernard.lanneluc/hibou.d.abyssinie.1.html
+- Supports orange irides, black bill, flexible central tufts, warm dark-rimmed facial disc, robust dark/ochre body pattern and feathered tarsi. One image does not determine sex or a universal tuft angle/colour.
+
+### ABY-ITIS-555498-2026 — reused taxonomy record
+- ITIS TSN 555498: https://itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=555498&source=to_print
+- Current *Asio abyssinicus*; historical/original combination *Otus abyssinicus*; nominate *A. a. abyssinicus* kept distinct from *A. a. graueri*. Taxonomy only.
+
+- **Index change:** new 1; reused/re-read 5; corrected inference boundaries 3 (sex scale, juvenile down/wing-tail, nest/habitat). User-uploaded Mikkola guide was not mounted in the current execution; no fresh page claim is added. Detailed facts, design inferences, complete prompt and unknowns: `owl-pet/research/species/112-asio-abyssinicus-v4.md`. Scientific status remains false.
+
+
 ## 2026-11-11 — #111 *Otus cyprius* v4 — adult-pattern correction and fledged-juvenile boundary
 
 ### CYSO-MIKKOLA-2013-P122-123

@@ -52,5 +52,11 @@ Create a polished 1536×1024 horizontal scientific concept plate in the reposito
 - Edited full plate and all three edited crops were opened. Exact text/count, adult identity/neutral scale, six supported feet and cloud-forest habitat remain intact.
 - Result: `PASS_WITH_LIMITATIONS`; detailed record `owl-pet/research/reviews/127-megascops-albogularis-v5-review.md`; `scientifically_verified=false`.
 
+## ARCHIVED — 2026-11-12T02:00:00+08:00
+
+- Final concept, initial/final/full-color/generated aliases, reviewed master, three crops, research/review/knowledge/run records, source index and three incremented manifests prepared in one archive tree.
+- Manifest counts after append: design image 808; design concepts 819; production image 798. Archive commit and immutable readback are pending; science remains false.
+
+
 
 

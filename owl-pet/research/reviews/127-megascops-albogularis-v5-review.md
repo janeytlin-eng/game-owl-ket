@@ -38,3 +38,8 @@ Exact juvenile age, sex and subspecies; iris chronology; complete feather sequen
 - Final/reviewed: 1536×1024; 2,693,435 bytes; Git blob `f8f8bd2cc3e7d3763e4a318f821599b6135d9e79`; SHA-256 `80137ecf01a4b0958e81932998027b151b94e5f1583b0942a134f837096ff4cb`.
 - Review crops: male `c4fef593544bf7cd940e242a21e65eeaf527eb47` (704,047 bytes); juvenile `614ad2ca1e8bf8b55650bdf7a7702faf950b3612` (592,557 bytes); female `eff72a151cd842952835398e6089f7cd64bc51c7` (657,271 bytes).
 
+## Archive state
+
+Prepared at 2026-11-12T02:00:00+08:00 with manifest counts 808/819/798. Immutable commit/tree/path readback is pending; this record must not be interpreted as VERIFIED yet.
+
+

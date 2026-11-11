@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T01:30:00+08:00",
+  "updated": "2026-11-12T02:00:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -30133,7 +30133,74 @@
       "immutable_raw_render_verified": true,
       "verified_at": "2026-11-12T01:30:00+08:00",
       "verification_result": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "id": "127-megascops-albogularis-v5",
+      "path": "design/concepts/127-megascops-albogularis-v5.png",
+      "species_id": 127,
+      "scientific_name": "Megascops albogularis",
+      "historical_names": [
+        "Syrnium albo-gularis",
+        "Syrnium albogularis",
+        "Otus albogularis",
+        "Ulula albigularis"
+      ],
+      "common_name": "White-throated Screech-Owl",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [1, 2, 3, 4],
+      "prior_versions_retained": true,
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "imagegen_invocations": 2,
+      "status": "V5 preserves v1-v4. Adults are near-equal because no quantified sex-size direction was found. One targeted edit replaced the juvenile's long orderly adult-like wing with a compact down-obscured patch. Exact juvenile age, sex/subspecies, iris chronology, feather sequence, first-flight threshold and normal nest geometry remain unknown.",
+      "source_ids": [
+        "WTSO-SCHLEGEL-1862-P16-17",
+        "WTSO-ITIS-686679-2026",
+        "WTSO-PERUAVES-PHOTOS2019",
+        "WTSO-SIBUNDOY-2013-P142",
+        "WTSO-MIK2013-249"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/127-megascops-albogularis-v5.md",
+      "review_record": "research/reviews/127-megascops-albogularis-v5-review.md",
+      "run_record": "production/runs/20261112T014000+0800-cycle-4.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 2693435,
+      "sha256": "80137ecf01a4b0958e81932998027b151b94e5f1583b0942a134f837096ff4cb",
+      "git_blob": "f8f8bd2cc3e7d3763e4a318f821599b6135d9e79",
+      "initial_original_path": "production/generated/127-megascops-albogularis-v5-initial-original.png",
+      "initial_original_blob": "377f853e16295e17374345cf6947424b4d740807",
+      "initial_original_size_bytes": 2878771,
+      "initial_original_sha256": "c1c5e4c7b3c8a11a0cf079020bca6d58f093261af62233ab214ba2d70ea46194",
+      "final_original_path": "production/generated/127-megascops-albogularis-v5-final-original.png",
+      "final_original_blob": "f8f8bd2cc3e7d3763e4a318f821599b6135d9e79",
+      "final_original_size_bytes": 2693435,
+      "final_original_sha256": "80137ecf01a4b0958e81932998027b151b94e5f1583b0942a134f837096ff4cb",
+      "full_color_source_path": "production/generated/127-megascops-albogularis-v5-full-color.png",
+      "full_color_source_blob": "f8f8bd2cc3e7d3763e4a318f821599b6135d9e79",
+      "full_color_source_size_bytes": 2693435,
+      "full_color_source_sha256": "80137ecf01a4b0958e81932998027b151b94e5f1583b0942a134f837096ff4cb",
+      "generated_path": "production/generated/127-megascops-albogularis-v5-generated-master.png",
+      "generated_blob": "f8f8bd2cc3e7d3763e4a318f821599b6135d9e79",
+      "generated_size_bytes": 2693435,
+      "reviewed_path": "production/reviewed/127-megascops-albogularis-v5-reviewed-master.png",
+      "reviewed_blob": "f8f8bd2cc3e7d3763e4a318f821599b6135d9e79",
+      "reviewed_size_bytes": 2693435,
+      "review_crops": [
+        {"path": "production/review-crops/127-megascops-albogularis-v5-adult-male.png", "blob": "c4fef593544bf7cd940e242a21e65eeaf527eb47", "size_bytes": 704047},
+        {"path": "production/review-crops/127-megascops-albogularis-v5-older-juvenile.png", "blob": "614ad2ca1e8bf8b55650bdf7a7702faf950b3612", "size_bytes": 592557},
+        {"path": "production/review-crops/127-megascops-albogularis-v5-adult-female.png", "blob": "eff72a151cd842952835398e6089f7cd64bc51c7", "size_bytes": 657271}
+      ],
+      "archive_note": "V4, initial v5, edited v5 and all three edited role crops were opened. One targeted edit corrected the juvenile wing. One new historical specimen source was indexed and four existing sources were re-read or explicitly reused. Science remains false.",
+      "readback_pending": true,
+      "archive_commit_pending": true,
+      "archived_at": "2026-11-12T02:00:00+08:00"
     }
   ],
-  "updated_at": "2026-11-12T01:30:00+08:00"
+  "updated_at": "2026-11-12T02:00:00+08:00"
 }

@@ -40329,8 +40329,8 @@
       "next_cycle": 4,
       "active_cycle": 4,
       "started_at": "2026-11-11T23:36:00+08:00",
-      "updated_at": "2026-11-12T01:55:00+08:00",
-      "current_stage": "REVIEWED",
+      "updated_at": "2026-11-12T02:00:00+08:00",
+      "current_stage": "ARCHIVED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex-owl-production",
@@ -40338,8 +40338,8 @@
         "batch_id": "20261111T233600+0800",
         "cycle": 4,
         "species_id": 127,
-        "heartbeat_at": "2026-11-12T01:55:00+08:00",
-        "expires_at": "2026-11-12T02:10:00+08:00"
+        "heartbeat_at": "2026-11-12T02:00:00+08:00",
+        "expires_at": "2026-11-12T02:15:00+08:00"
       },
       "active": null,
       "stage": "RESEARCH_READY",
@@ -41162,6 +41162,34 @@
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-12T02:10:00+08:00"
           }
+        },
+        {
+          "batch_id": "20261111T233600+0800",
+          "cycle": 4,
+          "stage": "ARCHIVED",
+          "at": "2026-11-12T02:00:00+08:00",
+          "run_id": "20261112T014000+0800-cycle-4",
+          "species_id": 127,
+          "species": "Megascops albogularis",
+          "credited": false,
+          "evidence": {
+            "archive_commit_pending": true,
+            "concept_path": "owl-pet/design/concepts/127-megascops-albogularis-v5.png",
+            "concept_blob": "f8f8bd2cc3e7d3763e4a318f821599b6135d9e79",
+            "concept_bytes": 2693435,
+            "initial_blob": "377f853e16295e17374345cf6947424b4d740807",
+            "manifest_counts": {
+              "design_image": 808,
+              "design_concepts": 819,
+              "production_image": 798
+            },
+            "review_record": "owl-pet/research/reviews/127-megascops-albogularis-v5-review.md",
+            "research_record": "owl-pet/research/species/127-megascops-albogularis-v5.md",
+            "source_index": "owl-pet/research/SOURCE_INDEX.md",
+            "review_result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-12T02:15:00+08:00"
+          }
         }
       ],
       "in_progress": {
@@ -41169,7 +41197,7 @@
         "species_id": 127,
         "species": "Megascops albogularis",
         "version": 5,
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "run_id": "20261112T014000+0800-cycle-4"
       }
     }
@@ -41180,8 +41208,8 @@
     "batch_id": "20261111T233600+0800",
     "cycle": 4,
     "species_id": 127,
-    "heartbeat_at": "2026-11-12T01:55:00+08:00",
-    "expires_at": "2026-11-12T02:10:00+08:00"
+    "heartbeat_at": "2026-11-12T02:00:00+08:00",
+    "expires_at": "2026-11-12T02:15:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -63390,7 +63418,7 @@
     "cycle": 4,
     "species_id": 127,
     "species": "Megascops albogularis",
-    "stage": "REVIEWED",
+    "stage": "ARCHIVED",
     "run_record": "owl-pet/production/runs/20261112T014000+0800-cycle-4.md"
   }
 }

@@ -41447,27 +41447,27 @@
       "next_cycle": 2,
       "active_cycle": 2,
       "started_at": "2026-11-12T04:31:00+08:00",
-      "updated_at": "2026-11-12T05:44:00+08:00",
-      "current_stage": "ARCHIVED",
-      "ledger_credit_pending": false,
+      "updated_at": "2026-11-12T05:50:00+08:00",
+      "current_stage": "VERIFIED",
+      "ledger_credit_pending": true,
       "lease": {
         "owner": "codex-owl-production",
         "run_id": "20261112T050000+0800-cycle-2",
         "batch_id": "20261112T043100+0800",
         "cycle": 2,
         "species_id": 132,
-        "heartbeat_at": "2026-11-12T05:44:00+08:00",
-        "expires_at": "2026-11-12T05:59:00+08:00"
+        "heartbeat_at": "2026-11-12T05:50:00+08:00",
+        "expires_at": "2026-11-12T06:05:00+08:00"
       },
       "active": {
         "run_id": "20261112T050000+0800-cycle-2",
         "cycle": 2,
         "species_id": 132,
         "species": "Strix davidi",
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "run_record": "owl-pet/production/runs/20261112T050000+0800-cycle-2.md"
       },
-      "stage": "ARCHIVED",
+      "stage": "VERIFIED",
       "completed_count": 1,
       "stage_events": [
         {
@@ -41864,13 +41864,47 @@
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-12T05:59:00+08:00"
           }
+        },
+        {
+          "batch_id": "20261112T043100+0800",
+          "cycle": 2,
+          "stage": "VERIFIED",
+          "at": "2026-11-12T05:50:00+08:00",
+          "run_id": "20261112T050000+0800-cycle-2",
+          "species_id": 132,
+          "species": "Strix davidi",
+          "credited": false,
+          "evidence": {
+            "archive_commit": "efcaf17b9a78e053fa54df79c28258013ffd83ba",
+            "archive_tree": "0e186df599344452b7e50d737cc47186d402829c",
+            "required_paths_verified": 17,
+            "exact_binary_paths_verified": 9,
+            "unique_binary_streams_read_back": 4,
+            "concept_blob": "f46b4833f5669983079a03f6aa710b440bee70ce",
+            "concept_download_url": "https://raw.githubusercontent.com/janeytlin-eng/game-owl-ket/efcaf17b9a78e053fa54df79c28258013ffd83ba/owl-pet/design/concepts/132-strix-davidi-v5.png",
+            "crop_blobs": [
+              "4422cbb39a2e5fe3035b7b0210122c4ea59c99fa",
+              "f18371746a5b38a8515f6539d52649a098ff75b2",
+              "1164feac52231ccb1bb130970497f19ab3e72993"
+            ],
+            "manifest_counts": {
+              "design_image": 812,
+              "design_concept": 824,
+              "production_image": 802
+            },
+            "prompt_archive_verified": true,
+            "verification_result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false,
+            "ledger_credit_pending": true,
+            "lease_expires_at": "2026-11-12T06:05:00+08:00"
+          }
         }
       ],
       "in_progress": {
         "cycle": 2,
         "species_id": 132,
         "species": "Strix davidi",
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "run_record": "owl-pet/production/runs/20261112T050000+0800-cycle-2.md"
       }
     }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T05:44:00+08:00",
+  "updated": "2026-11-12T05:50:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -31094,10 +31094,16 @@
         }
       ],
       "archive_note": "V4, v5 full plate and all three role crops opened. Facial-disc, near-equal adult and approximately-four-week mesoptile boundaries applied. New1/reused5. Uploaded Mikkola unavailable; repository-pinned page only. Science false.",
-      "readback_pending": true,
-      "archive_commit_pending": true,
-      "archived_at": "2026-11-12T05:44:00+08:00"
+      "readback_pending": false,
+      "archive_commit_pending": false,
+      "archived_at": "2026-11-12T05:44:00+08:00",
+      "archive_commit": "efcaf17b9a78e053fa54df79c28258013ffd83ba",
+      "archive_tree": "0e186df599344452b7e50d737cc47186d402829c",
+      "exact_binary_paths_verified": 9,
+      "unique_binary_streams_read_back": 4,
+      "verified_at": "2026-11-12T05:50:00+08:00",
+      "verification_result": "PASS_WITH_LIMITATIONS"
     }
   ],
-  "updated_at": "2026-11-12T05:44:00+08:00"
+  "updated_at": "2026-11-12T05:50:00+08:00"
 }

@@ -25,3 +25,10 @@ ActualnewPNGviewed, noadditionaledit requiredforgrossstage/support: darkfluffyph
 - Added WAT-SACC-937-2022 and WAT-ITIS-686672-2026. The taxonomic split remains disputed; current/old names are *M. watsonii*, *Otus watsonii* and *Ephialtes watsonii*.
 - V3 had near-cloned adults, wire-like texture and an exposed mature juvenile wing. Fresh v4 separated poses and matte texture; edit 1 shortened and down-obscured the young wing. Whole frame plus two crops passed with limitations.
 - Unknowns retained: exact young age, flight, full feather sequence, sex ratio and universal narrow-unit color. Science false. Research: [v4](../../research/species/131-megascops-watsonii-v4.md). Review: [v4](../../research/reviews/131-megascops-watsonii-v4-review.md). Run: [cycle 2](../../production/runs/20261106T225300+0800-cycle-2.md).
+
+## #131 *Megascops watsonii* — v5 research boundary, 2026-11-12
+
+- Freshly re-read the Dantas journal page/abstract and SACC Proposal 937: the complex is genetically structured but lacks a concrete morphology/vocal diagnosis accepted by SACC. “Guiana Shield concept” is therefore a design scope, not a scientific-resolution claim.
+- Reused WA2661782 only for an age/sex-unknown photographed older young. The bird must not be labelled nestling, fledgling or flight-capable; Mikkola's guide says the juvenile is not known.
+- V5 preserves near-equal adults and compact down-obscured juvenile wing, replacing the static frontal young with a cautious sideways head turn and two-foot supported shuffle. No sex-size rule, exact age or flight inference. Science remains false.
+

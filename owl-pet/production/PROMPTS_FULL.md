@@ -754,3 +754,10 @@ Adults: rounded untufted heads, sooty black-brown upperparts, restrained pale fa
 Edit only the center juvenile: replace long layered adult-like remiges with a much shorter compact rounded down-softened immature wing ending high on the body, retaining only a small dark coverts patch and a few short pale bars. Preserve both adults, exact text, exact count, support, lighting and environment. Keep tail short/concealed and both juvenile feet supported. No other change.
 ```
 
+
+
+## #130 *Megascops koepckeae* v5 — 2026-11-12T03:45:00+08:00
+
+```text
+Create a 1536×1024 horizontal scientific concept plate in the repository’s confirmed warm, softly painted 3D natural-history style. Show exactly three complete Koepcke’s Screech-Owls: adult male left, age-unknown fledged juvenile center, adult female right. Exact title “#130 · KOEPCKE’S SCREECH-OWL”, italic “Megascops koepckeae”, and exact role labels. All six feet supported. Loja Ecuador Andean edge, broad mossy Podocarpus-like branch; no universal nest. Adults near-equal, rich brown only as conservative concept, short tufts, yellow eyes, greenish/blue-gray bill/cere, gray dark-edged face, white throat, irregular marks. Juvenile tuftless with white brows, dark face edge, yellow eyes, brown chest, loose gray-white barred residual down and a very small compact formed wing cluster mostly obscured by down; no long mature panel/tail, flight or jump. No subspecies, exact-age or dimorphism claim.
+```

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T23:31:00+08:00",
+  "updated": "2026-11-12",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -31903,7 +31903,97 @@
       "connector_full_binary_stream_readback_supported": false,
       "verified_at": "2026-11-11T23:31:00+08:00",
       "verification_result": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "id": "130-megascops-koepckeae-v5",
+      "species_id": 130,
+      "common_name": "Koepcke’s Screech-Owl",
+      "scientific_name": "Megascops koepckeae",
+      "historical_names": [
+        "Otus choliba koepckei"
+      ],
+      "path": "design/concepts/130-megascops-koepckeae-v5.png",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "prior_versions_retained": true,
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "imagegen_invocations": 1,
+      "status": "V5 preserves v1-v4 and replaces v4's long orderly juvenile wing panel with a compact formed cluster mostly obscured by residual down. Ecuador/Loja is not assigned to nominate; rich brown is a conservative concept choice only. Adults remain near-equal. Exact juvenile age/sex/subspecies, feather chronology, first-flight threshold and diagnostic phenotype remain unknown.",
+      "source_ids": [
+        "KOEP-FJELDSA-2012-P180-191",
+        "KOEP-REO2019-P31",
+        "KOEP-ITIS-686665-2026",
+        "KOEP-MIK2013-222",
+        "KOEP-ALARCON-2023",
+        "KOEP-ORDONEZ-FREILE-2019"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/130-megascops-koepckeae-v5.md",
+      "review_record": "research/reviews/130-megascops-koepckeae-v5-review.md",
+      "run_record": "production/runs/20261112T034200+0800-cycle-6.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 3062019,
+      "sha256": "d92cf9faa755bdbee9455bd097d44931918ef946408fa261ee5a58d8a3f9f4b7",
+      "git_blob": "48cde9965d7f90dd8a12b790fc4658f34baba870",
+      "initial_original_path": "production/generated/130-megascops-koepckeae-v5-initial-original.png",
+      "initial_original_blob": "48cde9965d7f90dd8a12b790fc4658f34baba870",
+      "initial_original_size_bytes": 3062019,
+      "initial_original_sha256": "d92cf9faa755bdbee9455bd097d44931918ef946408fa261ee5a58d8a3f9f4b7",
+      "final_original_path": "production/generated/130-megascops-koepckeae-v5-final-original.png",
+      "final_original_blob": "48cde9965d7f90dd8a12b790fc4658f34baba870",
+      "final_original_size_bytes": 3062019,
+      "final_original_sha256": "d92cf9faa755bdbee9455bd097d44931918ef946408fa261ee5a58d8a3f9f4b7",
+      "full_color_source_path": "production/generated/130-megascops-koepckeae-v5-full-color.png",
+      "full_color_source_blob": "48cde9965d7f90dd8a12b790fc4658f34baba870",
+      "full_color_source_size_bytes": 3062019,
+      "full_color_source_sha256": "d92cf9faa755bdbee9455bd097d44931918ef946408fa261ee5a58d8a3f9f4b7",
+      "generated_path": "production/generated/130-megascops-koepckeae-v5-generated-master.png",
+      "generated_blob": "48cde9965d7f90dd8a12b790fc4658f34baba870",
+      "generated_size_bytes": 3062019,
+      "reviewed_path": "production/reviewed/130-megascops-koepckeae-v5-reviewed-master.png",
+      "reviewed_blob": "48cde9965d7f90dd8a12b790fc4658f34baba870",
+      "reviewed_size_bytes": 3062019,
+      "review_crops": [
+        {
+          "path": "production/review-crops/130-megascops-koepckeae-v5-adult-male.png",
+          "blob": "ede886ced5f986c3908eeb67fee28f9e6c406bb5",
+          "size_bytes": 915347
+        },
+        {
+          "path": "production/review-crops/130-megascops-koepckeae-v5-juvenile.png",
+          "blob": "9c60372d5ade188d0dd55e7b4a53d808c6cc4ff3",
+          "size_bytes": 920279
+        },
+        {
+          "path": "production/review-crops/130-megascops-koepckeae-v5-adult-female.png",
+          "blob": "138dde61d355325fb47df2d5bf341360bc010316",
+          "size_bytes": 857219
+        }
+      ],
+      "archive_note": "V4, v5 full plate and all three role crops were opened. Juvenile wing and subspecies inference corrected. New2/reused4. Uploaded Mikkola unavailable; pinned pages only. Science false.",
+      "readback_pending": true,
+      "archive_commit_pending": true,
+      "archived_at": "2026-11-12T03:58:00+08:00",
+      "archive_commit": null,
+      "archive_tree": null,
+      "exact_readback": false,
+      "required_paths_verified": 0,
+      "exact_binary_paths_verified": 0,
+      "unique_binary_streams_read_back": 0,
+      "verified_at": null,
+      "verification_result": null
     }
   ],
-  "updated_at": "2026-11-11T23:31:00+08:00"
+  "updated_at": "2026-11-12T03:58:00+08:00"
 }

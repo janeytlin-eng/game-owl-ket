@@ -4519,3 +4519,19 @@ Reused/re-read without duplicate IDs: `PSC-KOMAR-STUFKENS-2012` (primary one-eve
 - **Useful facts:** reports 118–275 g; Tasmania-only breeding with partial winter movement; five individuals captured on low shrubs/fence posts at Cape Liptrap; three tagged individuals made overwater flights up to 251.9 km. This supports an adult small-hawk-owl ecology/perch boundary, not a juvenile pose or a breeding-cavity setting.
 - **Limits/credibility/design use:** recent primary adult capture study, high confidence for the described field sample; it cannot resolve sex-size direction, juvenile feathering, age, nest support, or subspecific colour. For #121 v5 it is indexed as active new research but does not override the taxon-specific Olsen–Debus nestling endpoint or justify flight in the juvenile.
 - **Links:** `owl-pet/research/species/121-ninox-leucopsis-v5.md`; planned v5 concept/review/run.
+
+
+## 2026-11-11 — #122 *Otus megalotis* v5 — later-juvenile action boundary
+
+### PSO-WBCP-RICARTE-2020
+- **Stable ID/title:** PSO-WBCP-RICARTE-2020 — “An Owl of a Story in Vista Real Classica”.
+- **Author/institution/date/type:** John Ricarte / Wild Bird Club of the Philippines; published 2020-09-03; serial first-person field/rescue narrative.
+- **URL/accessed:** https://birdwatch.ph/2020/09/03/an-owl-of-a-story-in-vista-real-classica/ ; accessed 2026-11-11.
+- **Sections actually read:** lines 34–135, especially the Apr 22–26 and May 18–21 updates.
+- **Taxon/stage:** Philippine Scops-Owl *Otus megalotis*; two dependent later young found after falling from a mango tree, later one surviving release.
+- **Useful facts:** adults continued feeding; after about a month from discovery the young were described as nearly adult height and were seen stretching wings, jumping and flapping while on a perch; survivor later moved up branches after release.
+- **Design use:** supports a conservative age-unknown later dependent juvenile with larger proportions and a slight supported wing stretch; does not support flight depiction.
+- **Limits/conflicts:** abnormal human-tethered/intervened situation; hatch date, age, sex, health and normal development unknown; one bird died after heat stress. No tether, box, cage or claimed natural nest is reproduced. Moderate confidence for the described individuals’ actions/dependency, low for normal chronology.
+- **Links:** `owl-pet/research/species/122-otus-megalotis-v5.md`; target `owl-pet/design/concepts/122-otus-megalotis-v5.png`.
+
+Reused/re-read without duplicate IDs: `PSO-MIRANDA-2011` (printed pp.444, 446–450), `PSO-JOSEF-2012` (article lines 40–62), `PSO-SANCHEZ-2012`, `PSO-MIK2013-P170`. Uploaded Mikkola guide unavailable for fresh reading. Science remains false.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T02:38:00+08:00",
+  "updated": "2026-11-12",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -31990,7 +31990,12 @@
       "common_name": "White-throated Screech-Owl",
       "version": 5,
       "action": "SCIENCE_REVISION",
-      "previous_versions": [1, 2, 3, 4],
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
       "prior_versions_retained": true,
       "unique_species_increment": 0,
       "revision_increment": 1,
@@ -32034,9 +32039,21 @@
       "reviewed_blob": "f8f8bd2cc3e7d3763e4a318f821599b6135d9e79",
       "reviewed_size_bytes": 2693435,
       "review_crops": [
-        {"path": "production/review-crops/127-megascops-albogularis-v5-adult-male.png", "blob": "c4fef593544bf7cd940e242a21e65eeaf527eb47", "size_bytes": 704047},
-        {"path": "production/review-crops/127-megascops-albogularis-v5-older-juvenile.png", "blob": "614ad2ca1e8bf8b55650bdf7a7702faf950b3612", "size_bytes": 592557},
-        {"path": "production/review-crops/127-megascops-albogularis-v5-adult-female.png", "blob": "eff72a151cd842952835398e6089f7cd64bc51c7", "size_bytes": 657271}
+        {
+          "path": "production/review-crops/127-megascops-albogularis-v5-adult-male.png",
+          "blob": "c4fef593544bf7cd940e242a21e65eeaf527eb47",
+          "size_bytes": 704047
+        },
+        {
+          "path": "production/review-crops/127-megascops-albogularis-v5-older-juvenile.png",
+          "blob": "614ad2ca1e8bf8b55650bdf7a7702faf950b3612",
+          "size_bytes": 592557
+        },
+        {
+          "path": "production/review-crops/127-megascops-albogularis-v5-adult-female.png",
+          "blob": "eff72a151cd842952835398e6089f7cd64bc51c7",
+          "size_bytes": 657271
+        }
       ],
       "archive_note": "V4, initial v5, edited v5 and all three edited role crops were opened. One targeted edit corrected the juvenile wing. One new historical specimen source was indexed and four existing sources were re-read or explicitly reused. Science remains false.",
       "readback_pending": false,
@@ -32053,7 +32070,88 @@
       "immutable_raw_render_verified": true,
       "verified_at": "2026-11-12T02:38:00+08:00",
       "verification_result": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "id": "129-megascops-hoyi-v5",
+      "path": "design/concepts/129-megascops-hoyi-v5.png",
+      "species_id": 129,
+      "scientific_name": "Megascops hoyi",
+      "historical_names": [
+        "Otus hoyi"
+      ],
+      "common_name": "Yungas Screech-Owl",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "prior_versions_retained": true,
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "imagegen_invocations": 2,
+      "status": "V5 preserves v1-v4. Adults remain near-equal because one type pair does not establish a population-wide sex-size rule. A single Chasquivil laurel-cavity record supports the cavity setting and a fledged juvenile, but not universal nest geometry or an exact age. One targeted edit removed the juvenile's unsupported adult-yellow iris claim by making the visible iris dark and non-diagnostic. Exact juvenile age/sex, iris/bill chronology, continuous feather sequence, first-flight threshold and independence remain unknown.",
+      "source_ids": [
+        "HOY-ORTIZ-2009-P11-14",
+        "HOY-KS1989-P4",
+        "HOY-ITIS-686675-2026",
+        "HOY-KOENIG-2000",
+        "HOY-MIK2013-228"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/129-megascops-hoyi-v5.md",
+      "review_record": "research/reviews/129-megascops-hoyi-v5-review.md",
+      "run_record": "production/runs/20261112T024500+0800-cycle-5.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 2817626,
+      "sha256": "39ad4e0c90552eaf81a97b7c556981b7ad18c0c2d0f58a80cc7abbed6710b0ce",
+      "git_blob": "eb568ce25c589b2aa2e08b23752238a7caf2a738",
+      "initial_original_path": "production/generated/129-megascops-hoyi-v5-initial-original.png",
+      "initial_original_blob": "161e4a2f8422b68c4d1671643f65e46a399287d3",
+      "initial_original_size_bytes": 3106212,
+      "initial_original_sha256": "54a0b482866448a1ed251ed57193f1ca8a280dc252070653a66a973f540cd253",
+      "final_original_path": "production/generated/129-megascops-hoyi-v5-final-original.png",
+      "final_original_blob": "eb568ce25c589b2aa2e08b23752238a7caf2a738",
+      "final_original_size_bytes": 2817626,
+      "final_original_sha256": "39ad4e0c90552eaf81a97b7c556981b7ad18c0c2d0f58a80cc7abbed6710b0ce",
+      "full_color_source_path": "production/generated/129-megascops-hoyi-v5-full-color.png",
+      "full_color_source_blob": "eb568ce25c589b2aa2e08b23752238a7caf2a738",
+      "full_color_source_size_bytes": 2817626,
+      "full_color_source_sha256": "39ad4e0c90552eaf81a97b7c556981b7ad18c0c2d0f58a80cc7abbed6710b0ce",
+      "generated_path": "production/generated/129-megascops-hoyi-v5-generated-master.png",
+      "generated_blob": "eb568ce25c589b2aa2e08b23752238a7caf2a738",
+      "generated_size_bytes": 2817626,
+      "reviewed_path": "production/reviewed/129-megascops-hoyi-v5-reviewed-master.png",
+      "reviewed_blob": "eb568ce25c589b2aa2e08b23752238a7caf2a738",
+      "reviewed_size_bytes": 2817626,
+      "review_crops": [
+        {
+          "path": "production/review-crops/129-megascops-hoyi-v5-adult-male.png",
+          "blob": "1fb6d7348c0c43d493af0d24947f4885c82ce9ee",
+          "size_bytes": 970643
+        },
+        {
+          "path": "production/review-crops/129-megascops-hoyi-v5-fledged-juvenile.png",
+          "blob": "8e3f208199b875b4311409e4b5a012e69003f1f4",
+          "size_bytes": 988209
+        },
+        {
+          "path": "production/review-crops/129-megascops-hoyi-v5-adult-female.png",
+          "blob": "7b088609dbfae85429064a2f5499b6124f2ca756",
+          "size_bytes": 866078
+        }
+      ],
+      "archive_note": "V4, v5 initial, edited v5 and all three final role crops were actually opened. One targeted edit corrected the unsupported juvenile iris colour. One new primary field source was indexed and four repository sources were re-read or reused. The uploaded Mikkola guide was unavailable; only the repository-pinned p.228 extract was reused. Science remains false.",
+      "readback_pending": true,
+      "archive_commit_pending": true,
+      "archived_at": "2026-11-12T03:36:00+08:00"
     }
   ],
-  "updated_at": "2026-11-12T02:38:00+08:00"
+  "updated_at": "2026-11-12T03:36:00+08:00"
 }

@@ -19,3 +19,9 @@ Actual v2 view plus fresh Mikkola printed p.228/PDF p.230 text/page view and cur
 ### 129-megascops-hoyi-v4 — 2026-11-06
 
 Preserves v1-v3. Original description printed p.4 and ITIS mapping were newly read/indexed; SIB, König adult field photo and prior Mikkola p.228 fledged-young extraction were reused. Adults stay near-equal with only subtle female fullness; a single type pair is not a universal ratio. The age-unknown fledgling is fluffy and tuftless with softened formed wing/tail and stationary bilateral support. Full and crop review found no edit defect. Exact age, iris chronology, first flight, continuous feather sequence and universal sex/morph pattern remain unknown. PASS_WITH_LIMITATIONS; science false. Research ../../research/species/129-megascops-hoyi-v4.md; review ../../research/reviews/129-megascops-hoyi-v4-review.md; run ../../production/runs/20261106T212300+0800-cycle-6.md.
+
+
+### 129-megascops-hoyi-v5 — 2026-11-12
+
+Preserves v1-v4. Ortiz et al. (2009) printed pp.11–13 was newly read and indexed; the Chasquivil record supports one laurel cavity and two fledged young, not universal nest geometry or exact age. Current *Megascops hoyi* / old *Otus hoyi* mapping and the original brown-morph description were retained. Adults remain near-equal. One targeted edit replaced the juvenile's unsupported adult-yellow iris with a dark non-diagnostic iris under cavity shadow. Full plate and three role crops passed with limitations; exact juvenile age/sex, iris/bill chronology, continuous feather sequence, first flight, independence and population-level sex-size direction remain unknown. `PASS_WITH_LIMITATIONS`; `scientifically_verified=false`.
+[Original](../../design/concepts/129-megascops-hoyi-v5.png) · [Research](../../research/species/129-megascops-hoyi-v5.md) · [Review](../../research/reviews/129-megascops-hoyi-v5-review.md) · [Run](../../production/runs/20261112T024500+0800-cycle-5.md)

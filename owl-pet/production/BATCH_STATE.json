@@ -37751,8 +37751,8 @@
       "next_cycle": 6,
       "active_cycle": 6,
       "started_at": "2026-11-08T04:51:43.588+08:00",
-      "updated_at": "2026-11-11T18:18:20+08:00",
-      "current_stage": "RESEARCH_READY",
+      "updated_at": "2026-11-11T18:31:10+08:00",
+      "current_stage": "IMAGE_GENERATED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex-owl-production",
@@ -37760,15 +37760,15 @@
         "batch_id": "20261108T045200+0800",
         "cycle": 6,
         "species_id": 112,
-        "heartbeat_at": "2026-11-11T18:18:20+08:00",
-        "expires_at": "2026-11-11T18:33:20+08:00"
+        "heartbeat_at": "2026-11-11T18:31:10+08:00",
+        "expires_at": "2026-11-11T18:46:10+08:00"
       },
       "in_progress": {
         "run_id": "20261111T181313+0800-cycle-6",
         "cycle": 6,
         "species_id": 112,
         "species": "Asio abyssinicus",
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "run_record": "owl-pet/production/runs/20261111T181313+0800-cycle-6.md"
       },
       "active": {
@@ -37776,7 +37776,7 @@
         "cycle": 6,
         "species_id": 112,
         "species": "Asio abyssinicus",
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "run_record": "owl-pet/production/runs/20261111T181313+0800-cycle-6.md"
       },
       "stage_events": [
@@ -38728,9 +38728,45 @@
             "lease_expires_at": "2026-11-11T18:33:20+08:00",
             "scientifically_verified": false
           }
+        },
+        {
+          "batch_id": "20261108T045200+0800",
+          "cycle": 6,
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-11T18:31:10+08:00",
+          "run_id": "20261111T181313+0800-cycle-6",
+          "species_id": 112,
+          "species": "Asio abyssinicus",
+          "credited": false,
+          "evidence": {
+            "initial_original": "owl-pet/production/generated/112-asio-abyssinicus-v4-initial-original.png",
+            "edit1": "owl-pet/production/edits/112-asio-abyssinicus-v4-edit1.png",
+            "generated_master": "owl-pet/production/generated/112-asio-abyssinicus-v4-generated-master.png",
+            "initial_blob": "71cdd477480b06469c6f9ca68748b2b1c851864f",
+            "initial_bytes": 3192063,
+            "initial_sha256": "86b5cacf0bd2f7887b062be5d18d0fb04c8b799cb84e19bcae76ad9a51f43da7",
+            "edit1_blob": "0e7faba30db989a0b111f43b275649435937c788",
+            "edit1_bytes": 3014775,
+            "edit1_sha256": "1bb04e0a8ec2854882f5016dea43d5c3635359eb527faf235cbd644da288792f",
+            "final_blob": "68367f2a80dbfa62c366cbbdc41641584e54864d",
+            "final_bytes": 2907558,
+            "final_sha256": "81384a4b51dbc61708dbd0c0ecfbf2ea3bf8f5ffef5a74474741fa680b64a6da",
+            "geometry": "1536x1024",
+            "initial_generation_seconds": 51.4,
+            "edit1_generation_seconds": 47.3,
+            "edit2_generation_seconds": 43.9,
+            "edit_count": 2,
+            "edit_reasons": [
+              "initial juvenile had a large clean adult-like folded wing/remiges",
+              "first edit reduced the wing but retained long hair-like strands; second edit converted them to shorter frayed down clumps"
+            ],
+            "preliminary_inspection": "Initial, edit1 and final plates opened. Final has exact title/labels, exactly three birds, near-equal adults, orange irises, black bills, flexible tufts, broad dark/ochre identity and supported feet. Juvenile wing is compact and mostly buried, tail concealed, down shorter and feather-like rather than long curled hair; full crop review pending.",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-11T18:46:10+08:00"
+          }
         }
       ],
-      "stage": "RESEARCH_READY",
+      "stage": "IMAGE_GENERATED",
       "completed_count": 5
     }
   ],
@@ -38740,8 +38776,8 @@
     "batch_id": "20261108T045200+0800",
     "cycle": 6,
     "species_id": 112,
-    "heartbeat_at": "2026-11-11T18:18:20+08:00",
-    "expires_at": "2026-11-11T18:33:20+08:00"
+    "heartbeat_at": "2026-11-11T18:31:10+08:00",
+    "expires_at": "2026-11-11T18:46:10+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -38876,7 +38912,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-11T18:18:20+08:00",
+  "updated_at": "2026-11-11T18:31:10+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -38891,8 +38927,8 @@
     "batch_id": "20261108T045200+0800",
     "cycle": 6,
     "species_id": 112,
-    "heartbeat_at": "2026-11-11T18:18:20+08:00",
-    "expires_at": "2026-11-11T18:33:20+08:00"
+    "heartbeat_at": "2026-11-11T18:31:10+08:00",
+    "expires_at": "2026-11-11T18:46:10+08:00"
   },
   "last_updated_at": "2026-11-11T18:13:13+08:00",
   "audit_notes": [
@@ -39696,7 +39732,7 @@
     "cycle": 6,
     "species_id": 112,
     "species": "Asio abyssinicus",
-    "stage": "RESEARCH_READY",
+    "stage": "IMAGE_GENERATED",
     "run_record": "owl-pet/production/runs/20261111T181313+0800-cycle-6.md"
   },
   "previous_checkpoint": {
@@ -45471,7 +45507,7 @@
   ],
   "active_batch_id": "20261108T045200+0800",
   "active_cycle": 6,
-  "current_stage": "RESEARCH_READY",
+  "current_stage": "IMAGE_GENERATED",
   "next_cycle": 6,
   "unique_species_count": 176,
   "total_species": 251,
@@ -59043,7 +59079,7 @@
     }
   ],
   "updated": "2026-11-11T18:13:13+08:00",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stage_evidence": {
     "run_record": "owl-pet/production/runs/20261111T181313+0800-cycle-6.md",
     "baseline_main": "6bbeb9408b971fe916843fddd3377a416320f1c3",
@@ -60180,7 +60216,7 @@
     "cycle": 6,
     "species_id": 112,
     "species": "Asio abyssinicus",
-    "stage": "RESEARCH_READY",
+    "stage": "IMAGE_GENERATED",
     "run_record": "owl-pet/production/runs/20261111T181313+0800-cycle-6.md"
   }
 }

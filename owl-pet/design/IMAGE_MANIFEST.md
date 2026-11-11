@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T07:58:00+08:00",
+  "updated": "2026-11-12T08:02:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -31572,17 +31572,17 @@
         {
           "path": "production/review-crops/137-otus-alfredi-v5-adult-male.png",
           "blob": "ce8a9a391c6e99ba042e376da893bc358650c43c",
-          "size_bytes": 734778
+          "size_bytes": 734802
         },
         {
           "path": "production/review-crops/137-otus-alfredi-v5-juvenile-male.png",
           "blob": "0397a2f40f32b59722eef0662055d37a705ce7f3",
-          "size_bytes": 647993
+          "size_bytes": 648018
         },
         {
           "path": "production/review-crops/137-otus-alfredi-v5-adult-female.png",
           "blob": "f7d98a2face842fb20f106d88f3d168c115b1d44",
-          "size_bytes": 701050
+          "size_bytes": 701075
         }
       ],
       "rejected_edits": [
@@ -31594,10 +31594,20 @@
         }
       ],
       "archive_note": "V4, initial v5, rejected overcorrection, accepted corrected v5, three accepted-role crops and contact sheet opened. Primary-source soft-part wording re-read during review; accepted edit changes juvenile eyes only. New0/reused2/unverified lead1; uploaded Mikkola unavailable and no fresh page claim. Science false. Archive verification pending.",
-      "readback_pending": true,
-      "archive_commit_pending": true,
-      "archived_at": "2026-11-12T07:58:00+08:00"
+      "readback_pending": false,
+      "archive_commit_pending": false,
+      "archived_at": "2026-11-12T07:58:00+08:00",
+      "archive_commit": "9e017c2a3296ed75d736f3769a531919c6eff1d9",
+      "archive_tree": "634ea8821bcb8973377a24ec0db2152348375f3e",
+      "tree_readback_exact": true,
+      "required_paths_verified": 20,
+      "exact_binary_paths_verified": 10,
+      "unique_binary_streams_tree_verified": 6,
+      "verified_at": "2026-11-12T08:02:00+08:00",
+      "verification_result": "PASS_WITH_LIMITATIONS",
+      "verification_commit_pending": true,
+      "binary_content_api_note": "Exact path, Git blob SHA and byte size were re-read from the untruncated archive tree for ten binary aliases/six unique streams. Base64 file fetch returned the concept blob SHA."
     }
   ],
-  "updated_at": "2026-11-12T07:58:00+08:00"
+  "updated_at": "2026-11-12T08:02:00+08:00"
 }

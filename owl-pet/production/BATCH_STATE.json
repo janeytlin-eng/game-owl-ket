@@ -37721,8 +37721,8 @@
       "next_cycle": 4,
       "active_cycle": 4,
       "started_at": "2026-11-08T04:51:43.588+08:00",
-      "updated_at": "2026-11-11T17:33:21+08:00",
-      "current_stage": "STARTED",
+      "updated_at": "2026-11-11T17:36:46+08:00",
+      "current_stage": "RESEARCH_READY",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex-owl-production",
@@ -37730,15 +37730,15 @@
         "batch_id": "20261108T045200+0800",
         "cycle": 4,
         "species_id": 108,
-        "heartbeat_at": "2026-11-11T17:33:21+08:00",
-        "expires_at": "2026-11-11T17:48:21+08:00"
+        "heartbeat_at": "2026-11-11T17:36:46+08:00",
+        "expires_at": "2026-11-11T17:51:46+08:00"
       },
       "in_progress": {
         "run_id": "20261111173321+0800-cycle-4",
         "cycle": 4,
         "species_id": 108,
         "species": "Otus rutilus",
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "run_record": "owl-pet/production/runs/20261111173321+0800-cycle-4.md"
       },
       "active": {
@@ -37746,7 +37746,7 @@
         "cycle": 4,
         "species_id": 108,
         "species": "Otus rutilus",
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "run_record": "owl-pet/production/runs/20261111173321+0800-cycle-4.md"
       },
       "stage_events": [
@@ -38262,6 +38262,28 @@
             "lease_expires_at": "2026-11-11T17:48:21+08:00",
             "scientifically_verified": false
           }
+        },
+        {
+          "batch_id": "20261108T045200+0800",
+          "cycle": 4,
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-11T17:36:46+08:00",
+          "run_id": "20261111173321+0800-cycle-4",
+          "species_id": 108,
+          "species": "Otus rutilus",
+          "credited": false,
+          "evidence": {
+            "research_record": "owl-pet/research/species/108-otus-rutilus-v5.md",
+            "source_index": "owl-pet/research/SOURCE_INDEX.md",
+            "new_verified_sources": 1,
+            "reopened_uploaded_guide_pages": "printed 143-144 / PDF 145-146",
+            "reused_or_reread_sources": 5,
+            "corrected_inferences": 3,
+            "design_boundary": "near-equal same-morph adults with only subtle fullness; age-unknown Andasibe juvenile with loose irregular down and no flight/nest claim",
+            "complete_prompt_saved": true,
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-11T17:51:46+08:00"
+          }
         }
       ],
       "stage": "ARCHIVED",
@@ -38274,8 +38296,8 @@
     "batch_id": "20261108T045200+0800",
     "cycle": 4,
     "species_id": 108,
-    "heartbeat_at": "2026-11-11T17:33:21+08:00",
-    "expires_at": "2026-11-11T17:48:21+08:00"
+    "heartbeat_at": "2026-11-11T17:36:46+08:00",
+    "expires_at": "2026-11-11T17:51:46+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -38410,7 +38432,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-11T17:33:21+08:00",
+  "updated_at": "2026-11-11T17:36:46+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -39222,7 +39244,7 @@
     "cycle": 4,
     "species_id": 108,
     "species": "Otus rutilus",
-    "stage": "STARTED",
+    "stage": "RESEARCH_READY",
     "run_record": "owl-pet/production/runs/20261111173321+0800-cycle-4.md"
   },
   "previous_checkpoint": {
@@ -44997,7 +45019,7 @@
   ],
   "active_batch_id": "20261108T045200+0800",
   "active_cycle": null,
-  "current_stage": "STARTED",
+  "current_stage": "RESEARCH_READY",
   "next_cycle": 4,
   "unique_species_count": 176,
   "total_species": 251,
@@ -48952,8 +48974,8 @@
     "next_cycle": 4,
     "active_cycle": 4,
     "started_at": "2026-11-08T04:51:43.588+08:00",
-    "updated_at": "2026-11-11T17:33:21+08:00",
-    "current_stage": "STARTED",
+    "updated_at": "2026-11-11T17:36:46+08:00",
+    "current_stage": "RESEARCH_READY",
     "ledger_credit_pending": false,
     "lease": {
       "owner": "codex-owl-production",
@@ -48961,15 +48983,15 @@
       "batch_id": "20261108T045200+0800",
       "cycle": 4,
       "species_id": 108,
-      "heartbeat_at": "2026-11-11T17:33:21+08:00",
-      "expires_at": "2026-11-11T17:48:21+08:00"
+      "heartbeat_at": "2026-11-11T17:36:46+08:00",
+      "expires_at": "2026-11-11T17:51:46+08:00"
     },
     "in_progress": {
       "run_id": "20261111173321+0800-cycle-4",
       "cycle": 4,
       "species_id": 108,
       "species": "Otus rutilus",
-      "stage": "STARTED",
+      "stage": "RESEARCH_READY",
       "run_record": "owl-pet/production/runs/20261111173321+0800-cycle-4.md"
     },
     "active": {
@@ -48977,7 +48999,7 @@
       "cycle": 4,
       "species_id": 108,
       "species": "Otus rutilus",
-      "stage": "STARTED",
+      "stage": "RESEARCH_READY",
       "run_record": "owl-pet/production/runs/20261111173321+0800-cycle-4.md"
     },
     "stage_events": [
@@ -49492,6 +49514,28 @@
           "prior_version": "owl-pet/design/concepts/108-otus-rutilus-v4.png",
           "lease_expires_at": "2026-11-11T17:48:21+08:00",
           "scientifically_verified": false
+        }
+      },
+      {
+        "batch_id": "20261108T045200+0800",
+        "cycle": 4,
+        "stage": "RESEARCH_READY",
+        "at": "2026-11-11T17:36:46+08:00",
+        "run_id": "20261111173321+0800-cycle-4",
+        "species_id": 108,
+        "species": "Otus rutilus",
+        "credited": false,
+        "evidence": {
+          "research_record": "owl-pet/research/species/108-otus-rutilus-v5.md",
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "new_verified_sources": 1,
+          "reopened_uploaded_guide_pages": "printed 143-144 / PDF 145-146",
+          "reused_or_reread_sources": 5,
+          "corrected_inferences": 3,
+          "design_boundary": "near-equal same-morph adults with only subtle fullness; age-unknown Andasibe juvenile with loose irregular down and no flight/nest claim",
+          "complete_prompt_saved": true,
+          "scientifically_verified": false,
+          "lease_expires_at": "2026-11-11T17:51:46+08:00"
         }
       }
     ],

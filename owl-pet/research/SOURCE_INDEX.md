@@ -4299,3 +4299,20 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - *L. cristata* occurrence/abundance associated with snags; habitat only.
 ### CRI-STORER-1972-METADATA
 - DOI https://doi.org/10.2307/4084227; metadata verified, PDF 403; not used as freshly read plumage evidence.
+
+
+## 2026-11-11 — #108 *Otus rutilus* v5 — reopened guide and primary specimen boundary
+
+### RUT-MIKKOLA-2013-P143-144 — corrected/expanded existing guide record
+- Mikkola, *Owls of the World: A Photographic Guide*, 2nd ed. (2013), printed pp.143–144 / uploaded PDF pp.145–146; page text and images reopened 2026-11-11.
+- Adult facts: 19–22 cm, 85–120 g, very small tufts, yellow eyes, feathered tarsi, three morphs, humid rainforest/brush and shorter tail than Torotoroka. Female average +18 g is a mass direction, not a fixed height ratio.
+- Critical limit: the account says juvenile unknown. It cannot supply age, feather chronology or locomotor ability. Design use is restricted to adults and habitat.
+
+### RUT-BENSON-COLEBROOK-WILLIAMS-1976 — new verified primary specimen record
+- Benson, Colebrook-Robjent & Williams (1976), “A Contribution to the Ornithology of Madagascar,” *Oiseau et R.F.O.* 46:103–134.
+- URL: https://protectedareas.mg/content/documents/95a20108-b580-4f0b-8c45-00bcec5dd791/59df4e079a9d49ac9ddcfc6a5d21633a.pdf
+- Read: original PDF systematic account, parsed lines 825–846; exact subsection journal page not exposed by retrieval.
+- Facts: two males had yellow irides; Sakaraha male 107 g. A 12-specimen western series tended paler/greyer and nine humid-east birds darker/tawnier, but overlap/exceptions were explicit; strongest rufous tendency occurred in central/northern humid east.
+- Limit: predates the current east/west split and supplies no female or juvenile development evidence. Supports a cautious eastern rufous direction only.
+
+Reused without duplicate IDs: `RUT-RASMUSSEN-ETAL-2000`, `RUT-ITIS-202268-2026`, `RUT-VASSEN-2013-ANDASIBE-JUV`, `RUT-CORNELL-ADULT-PHOTOS-2026`. Full prompt/boundaries: `owl-pet/research/species/108-otus-rutilus-v5.md`. Scientific verification remains false.

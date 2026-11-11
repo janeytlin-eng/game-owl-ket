@@ -4644,3 +4644,17 @@ Reused/re-read without duplicate IDs for #130 v5: `KOEP-ITIS-686665-2026`, repos
 - **Decision:** cross-checks `Strix uralensis davidi` as the current name for project #132; does not change the 251-item roster or transfer generic pale Ural Owl traits.
 
 **Freshly re-read / reused without duplicate IDs:** `DAV-SCHERZINGER-2014` (current article page and Fig.11/Table 4 text; pp.54–93, especially pp.68–69), `DAV-ITIS-686975-2026` (lines 42–100), `DAV-SCHERZINGER-FANG-2006`, `DAV-FANG-ETAL-2009` (Ardea 97(4):649, lines 53–133), and repository-pinned `DAV-MIK2013-348` (not newly opened). The approximately-four-week nest-box stage is directly supported; exact hatch date, full feather timetable, first-flight threshold and universal female-larger ratio remain unknown. Full v5 boundary and prompt: `owl-pet/research/species/132-strix-davidi-v5.md`.
+
+
+## 2026-11-12 — #133 *Megascops atricapilla* v5 — active research refresh
+
+### BCSO-MENQ-ANJOS-2015 — primary habitat study
+- W. Menq & L. Anjos, 2015, “Habitat selection by owls in a seasonal semi-deciduous forest in southern Brazil,” *Brazilian Journal of Biology* 75(4 Suppl.1):S143–S149. DOI/URL: https://doi.org/10.1590/1519-6984.07614
+- Accessed 2026-11-12. Primary field/playback habitat study. Full HTML article and PDF pp. S143–S149 read; abstract/methods and published p.146 were used. The study recorded 56 individuals of six owl species at Perobas Biological Reserve and measured canopy height, hollow trees, fallen trees and glades. *M. atricapilla* was not restricted to a single forest structure but was absent from the most open tree-poor point. High confidence for Atlantic-Forest structural context; it does not establish an active nest, sex ratio or juvenile stage. Supports #133 v5 background only.
+
+### BCSO-WIKIAVES-SPECIES-2026 — secondary morphology/breeding cross-check
+- WikiAves, “corujinha-sapo (*Megascops atricapilla*)”, updated 2026-01-23. https://www.wikiaves.com.br/wiki/corujinha-sapo
+- Accessed 2026-11-12. Secondary species page; Characteristics, Reproduction, Habits and Distribution sections read. Reports 22–24 cm, sex-specific mass ranges, variable adult iris, dense-forest association and cavity use. Moderate confidence only: the mass direction is not converted to display height, and cavity text does not make the WA2019052 age-unknown young a nestling or prove the pictured cavity is active. Supports conservative adult/habitat checks for #133 v5.
+
+### Reused source mapping
+- Re-read `BCSO-DANTAS-2021` and `BCSO-WIKIAVES-WA2019052`; retained `BCSO-NATURALIS-TYPES-2023`. Applied to `research/species/133-megascops-atricapilla-v5.md` and v5 review.

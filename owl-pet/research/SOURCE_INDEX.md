@@ -4677,3 +4677,21 @@ Reused/re-read without duplicate IDs for #130 v5: `KOEP-ITIS-686665-2026`, repos
 - **LTSC-ITIS-686677:** current name/common name and *Otus*/*Scops* old-name mapping only.
 - **Access note:** Macaulay ML626150010 direct page was blocked by bot protection; search metadata alone was not treated as verified evidence. Uploaded Mikkola guide was not mounted in this execution; no new page claim was added.
 - **Index change:** new 1; reused/re-read 3; corrected inference boundaries 4 (title hierarchy, adult scale, juvenile anatomy/action, nest-context wording). Scientific status remains false.
+
+
+## 2026-11-12 — #135 *Otus silvicola* v5 — current-name title and transitional-immature boundary
+
+### WSC-AVIBASE-2026 — newly indexed nomenclatural crosswalk
+- **Title / institution / accessed:** “Wallace's Scops Owl — *Otus silvicola*” / Avibase / 2026-11-12.
+- **URL / sections:** https://avibase.bsc-eoc.org/species.jsp?avibaseid=171CE5C6 ; lines 35–94, authority table.
+- **Source type / scope:** taxonomic authority aggregation; current name, protonym, type locality and checklist/common-name mapping.
+- **Evidence:** current *Otus silvicola*; Wallace 1864; protonym *Scops silvicola*; type locality Flores; Wallace's Scops Owl with historical Lesser Sunda Scops-Owl usage.
+- **Limits/design use:** no morphology, development, sex-size or behaviour evidence. Supports title/name crosswalk only. The linked BHL page returned HTTP 403 this run, so the original description was not claimed freshly read.
+- **Design/review link:** `research/species/135-otus-silvicola-v5.md`.
+
+### Reused/re-read stable evidence
+- **WSC-MEES-2006:** primary Flores account, pp.113–115 re-read through Naturalis. Fully feathered transitional type with loose fine barring and a few emerging adult streaks; fledgling specimens have remiges/rectrices basally in sheath. Exact age/flight unknown. Only one adult of each sex; no population ratio licensed.
+- **WSC-MIK2013-183:** pinned p.183 adult diagnosis and explicit “no data” sex-size boundary reused; uploaded guide unavailable for fresh page access.
+- **WSC-ITIS-555386-2026:** current/old-name mapping reused.
+- **WSC-MARSHALL-1978 / SLSO-SANGSTER-2013:** adult plumage and toe-base feathering reused.
+- **Index change:** new1 / reused5 / corrected4 (title hierarchy, role placement, adult pose/scale, immature action/feather boundary). Science remains false.

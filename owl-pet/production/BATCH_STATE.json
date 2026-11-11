@@ -37666,7 +37666,7 @@
     },
     {
       "batch_id": "20261108T045200+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -37746,41 +37746,33 @@
           "run_record": "owl-pet/production/runs/20261111T175057+0800-cycle-5.md",
           "review_result": "PASS_WITH_LIMITATIONS",
           "scientifically_verified": false
+        },
+        {
+          "cycle": 6,
+          "species": "Asio abyssinicus",
+          "species_id": 112,
+          "version": 4,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "commit_sha": "3d465ed6428c94de98b23fe3c17297c0135841ae",
+          "archive_commit": "bb5a65432edc15bcc46f287f3ffddfebebb170e1",
+          "run_record": "owl-pet/production/runs/20261111T181313+0800-cycle-6.md",
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "credited_at": "2026-11-11T19:37:31+08:00",
+          "batch_id": "20261108T045200+0800"
         }
       ],
-      "next_cycle": 6,
-      "active_cycle": 6,
+      "next_cycle": null,
+      "active_cycle": null,
       "started_at": "2026-11-08T04:51:43.588+08:00",
-      "updated_at": "2026-11-11T19:36:19+08:00",
-      "current_stage": "VERIFIED",
-      "ledger_credit_pending": true,
-      "lease": {
-        "owner": "codex-owl-production",
-        "run_id": "20261111T192840+0800-cycle-6-recovery",
-        "batch_id": "20261108T045200+0800",
-        "cycle": 6,
-        "species_id": 112,
-        "heartbeat_at": "2026-11-11T19:36:19+08:00",
-        "expires_at": "2026-11-11T19:51:19+08:00"
-      },
-      "in_progress": {
-        "run_id": "20261111T192840+0800-cycle-6-recovery",
-        "cycle": 6,
-        "species_id": 112,
-        "species": "Asio abyssinicus",
-        "stage": "VERIFIED",
-        "run_record": "owl-pet/production/runs/20261111T181313+0800-cycle-6.md",
-        "recovery_of": "20261111T181313+0800-cycle-6"
-      },
-      "active": {
-        "run_id": "20261111T192840+0800-cycle-6-recovery",
-        "cycle": 6,
-        "species_id": 112,
-        "species": "Asio abyssinicus",
-        "stage": "VERIFIED",
-        "run_record": "owl-pet/production/runs/20261111T181313+0800-cycle-6.md",
-        "recovery_of": "20261111T181313+0800-cycle-6"
-      },
+      "updated_at": "2026-11-11T19:37:31+08:00",
+      "current_stage": "LEDGER_CREDITED",
+      "ledger_credit_pending": false,
+      "lease": null,
+      "in_progress": null,
+      "active": null,
       "stage_events": [
         {
           "batch_id": "20261108T045200+0800",
@@ -38862,21 +38854,38 @@
             "ledger_credit_pending": true,
             "lease_expires_at": "2026-11-11T19:51:19+08:00"
           }
+        },
+        {
+          "batch_id": "20261108T045200+0800",
+          "cycle": 6,
+          "stage": "LEDGER_CREDITED",
+          "at": "2026-11-11T19:37:31+08:00",
+          "run_id": "20261111T192840+0800-cycle-6-recovery",
+          "species_id": 112,
+          "species": "Asio abyssinicus",
+          "credited": true,
+          "evidence": {
+            "verification_commit": "3d465ed6428c94de98b23fe3c17297c0135841ae",
+            "archive_commit": "bb5a65432edc15bcc46f287f3ffddfebebb170e1",
+            "archive_tree": "9f6282f58046100843f81c9e3e4296ba61b7aab6",
+            "run_record": "owl-pet/production/runs/20261111T181313+0800-cycle-6.md",
+            "batch_progress": "6/6",
+            "next_cycle": null,
+            "unique_species_increment": 0,
+            "revision_increment": 1,
+            "unique_species_count": 176,
+            "total_species": 251,
+            "scientifically_verified": false,
+            "batch_status": "COMPLETE"
+          }
         }
       ],
-      "stage": "VERIFIED",
-      "completed_count": 5
+      "stage": "LEDGER_CREDITED",
+      "completed_count": 6,
+      "completed_at": "2026-11-11T19:37:31+08:00"
     }
   ],
-  "lease": {
-    "owner": "codex-owl-production",
-    "run_id": "20261111T192840+0800-cycle-6-recovery",
-    "batch_id": "20261108T045200+0800",
-    "cycle": 6,
-    "species_id": 112,
-    "heartbeat_at": "2026-11-11T19:36:19+08:00",
-    "expires_at": "2026-11-11T19:51:19+08:00"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -39010,7 +39019,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-11T19:36:19+08:00",
+  "updated_at": "2026-11-11T19:37:31+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -39019,16 +39028,8 @@
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6.",
     "2026-10-30T18:12:00+08:00 ledger normalization: historical batch 2026-10-16T0430+0800 already COMPLETE with six preserved completed_cycles; stale next_cycle 7 changed to null. No cycle count or evidence changed."
   ],
-  "active_lease": {
-    "owner": "codex-owl-production",
-    "run_id": "20261111T192840+0800-cycle-6-recovery",
-    "batch_id": "20261108T045200+0800",
-    "cycle": 6,
-    "species_id": 112,
-    "heartbeat_at": "2026-11-11T19:36:19+08:00",
-    "expires_at": "2026-11-11T19:51:19+08:00"
-  },
-  "last_updated_at": "2026-11-11T19:36:19+08:00",
+  "active_lease": null,
+  "last_updated_at": "2026-11-11T19:37:31+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -39825,15 +39826,7 @@
       "credited": false
     }
   ],
-  "in_progress": {
-    "run_id": "20261111T192840+0800-cycle-6-recovery",
-    "cycle": 6,
-    "species_id": 112,
-    "species": "Asio abyssinicus",
-    "stage": "VERIFIED",
-    "run_record": "owl-pet/production/runs/20261111T181313+0800-cycle-6.md",
-    "recovery_of": "20261111T181313+0800-cycle-6"
-  },
+  "in_progress": null,
   "previous_checkpoint": {
     "batch_id": "20261107T140000+0800",
     "cycle": 3,
@@ -45604,10 +45597,10 @@
       }
     }
   ],
-  "active_batch_id": "20261108T045200+0800",
-  "active_cycle": 6,
-  "current_stage": "VERIFIED",
-  "next_cycle": 6,
+  "active_batch_id": null,
+  "active_cycle": null,
+  "current_stage": null,
+  "next_cycle": null,
   "unique_species_count": 176,
   "total_species": 251,
   "stage_events": [
@@ -49760,1210 +49753,8 @@
       }
     }
   ],
-  "last_completed_batch_id": "20261108T023550+0800",
-  "active_batch": {
-    "batch_id": "20261108T045200+0800",
-    "status": "PARTIAL",
-    "target_cycles": 6,
-    "completed_cycles": [
-      {
-        "cycle": 1,
-        "species": "Lophostrix cristata",
-        "species_id": 97,
-        "version": 5,
-        "action": "SCIENCE_REVISION",
-        "unique_species_increment": 0,
-        "revision_increment": 1,
-        "commit_sha": "6e81be91d60bbad92ef2bbc98d4428a03a0a6f62",
-        "archive_commit": "94db1071e7f69002dff410a8c2ea3f4df9314d96",
-        "run_record": "owl-pet/production/runs/20261108T045200+0800-cycle-1.md",
-        "review_result": "PASS_WITH_LIMITATIONS",
-        "scientifically_verified": false,
-        "credited_at": "2026-11-08T05:40:36.411+08:00",
-        "batch_id": "20261108T045200+0800"
-      },
-      {
-        "cycle": 2,
-        "species": "Strix nigrolineata",
-        "species_id": 102,
-        "version": 5,
-        "action": "SCIENCE_REVISION",
-        "unique_species_increment": 0,
-        "revision_increment": 1,
-        "commit_sha": "60ab8d7a2f275e941ebb8fbb8175e28bba62ae46",
-        "archive_commit": "c9413688e93920051247286046c1da70fbbabc7c",
-        "run_record": "owl-pet/production/runs/20261108T054352+0800-cycle-2.md",
-        "review_result": "PASS_WITH_LIMITATIONS",
-        "scientifically_verified": false,
-        "credited_at": "2026-11-11T16:06:17+08:00",
-        "batch_id": "20261108T045200+0800"
-      },
-      {
-        "cycle": 3,
-        "species": "Strix albitarsis",
-        "species_id": 106,
-        "version": 4,
-        "action": "SCIENCE_REVISION",
-        "unique_species_increment": 0,
-        "revision_increment": 1,
-        "commit_sha": "10ace0d7177beb4477978dd48e6838e916557c16",
-        "archive_commit": "3551810adc3f6c7f0af018cfec1c36dec60d65ff",
-        "run_record": "owl-pet/production/runs/20261111T161047+0800-cycle-3.md",
-        "review_result": "PASS_WITH_LIMITATIONS",
-        "scientifically_verified": false,
-        "credited_at": "2026-11-11T16:31:13+08:00",
-        "batch_id": "20261108T045200+0800"
-      },
-      {
-        "cycle": 4,
-        "species": "Otus rutilus",
-        "species_id": 108,
-        "version": 5,
-        "action": "SCIENCE_REVISION",
-        "unique_species_increment": 0,
-        "revision_increment": 1,
-        "commit_sha": "358527af754c9157ee2cc4ba2bcf1534a99da024",
-        "archive_commit": "1f83a109a7723e4a1c4cba74c41a40e7ba77bfe1",
-        "run_record": "owl-pet/production/runs/20261111173321+0800-cycle-4.md",
-        "review_result": "PASS_WITH_LIMITATIONS",
-        "scientifically_verified": false,
-        "credited_at": "2026-11-11T17:50:10+08:00",
-        "batch_id": "20261108T045200+0800"
-      },
-      {
-        "cycle": 5,
-        "species": "Otus cyprius",
-        "species_id": 111,
-        "version": 4,
-        "action": "SCIENCE_REVISION",
-        "unique_species_increment": 0,
-        "revision_increment": 1,
-        "commit_sha": "a3bc02f536dbb90eb13c01ccb9d6deff536b78f3",
-        "archive_commit": "35415e49a60134d70cd0deccb124787c7b33c536",
-        "run_record": "owl-pet/production/runs/20261111T175057+0800-cycle-5.md",
-        "review_result": "PASS_WITH_LIMITATIONS",
-        "scientifically_verified": false
-      }
-    ],
-    "next_cycle": 6,
-    "active_cycle": 6,
-    "started_at": "2026-11-08T04:51:43.588+08:00",
-    "updated_at": "2026-11-11T19:36:19+08:00",
-    "current_stage": "VERIFIED",
-    "ledger_credit_pending": true,
-    "lease": {
-      "owner": "codex-owl-production",
-      "run_id": "20261111T192840+0800-cycle-6-recovery",
-      "batch_id": "20261108T045200+0800",
-      "cycle": 6,
-      "species_id": 112,
-      "heartbeat_at": "2026-11-11T19:36:19+08:00",
-      "expires_at": "2026-11-11T19:51:19+08:00"
-    },
-    "in_progress": {
-      "run_id": "20261111T192840+0800-cycle-6-recovery",
-      "cycle": 6,
-      "species_id": 112,
-      "species": "Asio abyssinicus",
-      "stage": "VERIFIED",
-      "run_record": "owl-pet/production/runs/20261111T181313+0800-cycle-6.md",
-      "recovery_of": "20261111T181313+0800-cycle-6"
-    },
-    "active": {
-      "run_id": "20261111T192840+0800-cycle-6-recovery",
-      "cycle": 6,
-      "species_id": 112,
-      "species": "Asio abyssinicus",
-      "stage": "VERIFIED",
-      "run_record": "owl-pet/production/runs/20261111T181313+0800-cycle-6.md",
-      "recovery_of": "20261111T181313+0800-cycle-6"
-    },
-    "stage_events": [
-      {
-        "batch_id": "20261108T045200+0800",
-        "cycle": 1,
-        "stage": "STARTED",
-        "at": "2026-11-08T04:51:43.588+08:00",
-        "run_id": "20261108T045200+0800-cycle-1",
-        "species_id": 97,
-        "species": "Lophostrix cristata",
-        "credited": false,
-        "evidence": {
-          "run_record": "owl-pet/production/runs/20261108T045200+0800-cycle-1.md",
-          "baseline_main": "9cb84f49e6845ec108ea2225e4ab36fd62c2ac39",
-          "selection_note": "#97 Lophostrix cristata is the next numbered repository-backed science-revision target without a v5 concept after #94–96 were found already archived at v5. Existing v1–v4 remain preserved. V5 will re-check adult identity, sex evidence, juvenile stage, natural support and lowland forest context before generation.",
-          "prior_version": "owl-pet/design/concepts/97-lophostrix-cristata-v4.png",
-          "lease_expires_at": "2026-11-08T05:06:43.588+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "batch_id": "20261108T045200+0800",
-        "cycle": 1,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-08T04:54:05.436+08:00",
-        "run_id": "20261108T045200+0800-cycle-1",
-        "species_id": 97,
-        "species": "Lophostrix cristata",
-        "credited": false,
-        "evidence": {
-          "research_record": "owl-pet/research/species/97-lophostrix-cristata-v5.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "new_verified_sources": 2,
-          "reused_or_reread_sources": 4,
-          "corrected_inferences": 1,
-          "design_boundary": "near-equal adults; supported age-unknown white mesoptile older juvenile; no flight claim",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-08T05:09:05.436+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T045200+0800",
-        "cycle": 1,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-08T04:58:08.329+08:00",
-        "run_id": "20261108T045200+0800-cycle-1",
-        "species_id": 97,
-        "species": "Lophostrix cristata",
-        "credited": false,
-        "evidence": {
-          "initial_original": "owl-pet/production/generated/97-lophostrix-cristata-v5-initial-original.png",
-          "initial_blob": "b5c0e0c7d907f9ccc78eab7e3d96866b93c0507c",
-          "initial_bytes": 3118927,
-          "initial_sha256": "3bb79aaa261b899e081880d7c331c9d9ea7d279e5791547686ac8b39b2023218",
-          "geometry": "1536x1024",
-          "generation_seconds": 166,
-          "edit_required": false,
-          "preliminary_inspection": "Full plate and all three role crops opened. Exact text/count, adult identity, near-equal scale, older white mesoptile juvenile, natural support and snag-rich humid forest pass.",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-08T05:13:08.329+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T045200+0800",
-        "cycle": 1,
-        "stage": "REVIEWED",
-        "at": "2026-11-08T04:58:57.978+08:00",
-        "run_id": "20261108T045200+0800-cycle-1",
-        "species_id": 97,
-        "species": "Lophostrix cristata",
-        "credited": false,
-        "evidence": {
-          "final_original": "owl-pet/production/generated/97-lophostrix-cristata-v5-final-original.png",
-          "final_blob": "b5c0e0c7d907f9ccc78eab7e3d96866b93c0507c",
-          "final_bytes": 3118927,
-          "final_sha256": "3bb79aaa261b899e081880d7c331c9d9ea7d279e5791547686ac8b39b2023218",
-          "edit_count": 0,
-          "imagegen_invocations": 1,
-          "reviewed_path": "owl-pet/production/reviewed/97-lophostrix-cristata-v5-reviewed-master.png",
-          "reviewed_blob": "b5c0e0c7d907f9ccc78eab7e3d96866b93c0507c",
-          "review_record": "owl-pet/research/reviews/97-lophostrix-cristata-v5-review.md",
-          "review_crops": [
-            "owl-pet/production/review-crops/97-lophostrix-cristata-v5-adult-male.png",
-            "owl-pet/production/review-crops/97-lophostrix-cristata-v5-older-juvenile.png",
-            "owl-pet/production/review-crops/97-lophostrix-cristata-v5-adult-female.png"
-          ],
-          "crop_blobs": [
-            "a7c7ad48c90fd25944d990eff657de9b3823c463",
-            "ab0402043550d382707f280f320af871ee63e4e3",
-            "1e3f6dd67658647ab06122c229f651c4be6ee03a"
-          ],
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-08T05:13:57.978+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T045200+0800",
-        "cycle": 1,
-        "stage": "ARCHIVED",
-        "at": "2026-11-08T05:38:09.875+08:00",
-        "run_id": "20261108T045200+0800-cycle-1",
-        "species_id": 97,
-        "species": "Lophostrix cristata",
-        "credited": false,
-        "evidence": {
-          "archive_commit": "94db1071e7f69002dff410a8c2ea3f4df9314d96",
-          "concept_path": "owl-pet/design/concepts/97-lophostrix-cristata-v5.png",
-          "concept_blob": "b5c0e0c7d907f9ccc78eab7e3d96866b93c0507c",
-          "concept_bytes": 3118927,
-          "manifest_counts": {
-            "design_upper": 810,
-            "design_lower": 807,
-            "production": 800
-          },
-          "scientifically_verified": false
-        }
-      },
-      {
-        "batch_id": "20261108T045200+0800",
-        "cycle": 1,
-        "stage": "VERIFIED",
-        "at": "2026-11-08T05:39:28.507+08:00",
-        "run_id": "20261108T045200+0800-cycle-1",
-        "species_id": 97,
-        "species": "Lophostrix cristata",
-        "credited": false,
-        "evidence": {
-          "archive_commit": "94db1071e7f69002dff410a8c2ea3f4df9314d96",
-          "archive_tree": "eee7e38625a0899717b9e53c24b490e1ae827fde",
-          "required_paths_verified": 20,
-          "binary_paths_verified": 9,
-          "exact_blob_sha_and_size_verified": 9,
-          "unique_binary_streams": 4,
-          "tree_entries": 4182,
-          "tree_truncated": false,
-          "manifest_counts": {
-            "design_upper": 810,
-            "design_lower": 807,
-            "production": 800
-          },
-          "verification_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "ledger_credit_pending": true
-        }
-      },
-      {
-        "batch_id": "20261108T045200+0800",
-        "cycle": 1,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-08T05:40:36.411+08:00",
-        "run_id": "20261108T045200+0800-cycle-1",
-        "species_id": 97,
-        "species": "Lophostrix cristata",
-        "credited": true,
-        "evidence": {
-          "verification_commit": "6e81be91d60bbad92ef2bbc98d4428a03a0a6f62",
-          "archive_commit": "94db1071e7f69002dff410a8c2ea3f4df9314d96",
-          "archive_tree": "eee7e38625a0899717b9e53c24b490e1ae827fde",
-          "run_record": "owl-pet/production/runs/20261108T045200+0800-cycle-1.md",
-          "batch_progress": "1/6",
-          "next_cycle": 2,
-          "unique_species_increment": 0,
-          "revision_increment": 1,
-          "unique_species_count": 176,
-          "total_species": 251,
-          "scientifically_verified": false
-        }
-      },
-      {
-        "batch_id": "20261108T045200+0800",
-        "cycle": 2,
-        "stage": "ARCHIVE_TRANSPORT_REPAIR_STARTED",
-        "at": "2026-11-11T15:41:38+08:00",
-        "run_id": "20261108T054352+0800-cycle-2",
-        "species_id": 102,
-        "species": "Strix nigrolineata",
-        "credited": false,
-        "evidence": {
-          "broken_main": "68af421d3ef052542b9b65ec7fece4611e58e6ea",
-          "last_valid_state": "bf5def8327d36a58e5f3689ac7095ee8879489b3",
-          "failure": "large image blobs truncated and JSON manifests invalid after connector transport",
-          "recovery_action": "regenerate from persisted research prompt, visually review, archive with chunk-verified base64, then immutable readback",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-11T15:56:38+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T045200+0800",
-        "cycle": 2,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-11T15:46:25+08:00",
-        "run_id": "20261108T054352+0800-cycle-2",
-        "species_id": 102,
-        "species": "Strix nigrolineata",
-        "credited": false,
-        "evidence": {
-          "recovery": true,
-          "recovery_original": "owl-pet/production/generated/102-strix-nigrolineata-v5-recovery-original.png",
-          "initial_original": "owl-pet/production/generated/102-strix-nigrolineata-v5-initial-original.png",
-          "initial_blob": "f40e7ce4aa7110917dde41e65f963b677bd46822",
-          "initial_bytes": 3092169,
-          "initial_sha256": "04fa9c6c4aec0ea533a5758571735c8ee256a30fdba4d94eb6a9a0dc596646e6",
-          "geometry": "1536x1024",
-          "generation_seconds": 46.4,
-          "recovery_edit_count": 0,
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-11T16:05:14+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T045200+0800",
-        "cycle": 2,
-        "stage": "REVIEWED",
-        "at": "2026-11-11T15:50:14+08:00",
-        "run_id": "20261108T054352+0800-cycle-2",
-        "species_id": 102,
-        "species": "Strix nigrolineata",
-        "credited": false,
-        "evidence": {
-          "recovery": true,
-          "final_original": "owl-pet/production/generated/102-strix-nigrolineata-v5-final-original.png",
-          "final_blob": "f40e7ce4aa7110917dde41e65f963b677bd46822",
-          "final_bytes": 3092169,
-          "final_sha256": "04fa9c6c4aec0ea533a5758571735c8ee256a30fdba4d94eb6a9a0dc596646e6",
-          "reviewed_path": "owl-pet/production/reviewed/102-strix-nigrolineata-v5-reviewed-master.png",
-          "reviewed_blob": "f40e7ce4aa7110917dde41e65f963b677bd46822",
-          "review_record": "owl-pet/research/reviews/102-strix-nigrolineata-v5-review.md",
-          "review_crops": [
-            "owl-pet/production/review-crops/102-strix-nigrolineata-v5-adult-male.png",
-            "owl-pet/production/review-crops/102-strix-nigrolineata-v5-older-juvenile.png",
-            "owl-pet/production/review-crops/102-strix-nigrolineata-v5-adult-female.png"
-          ],
-          "crop_blobs": [
-            "055f2ecccfa8f08691c860335926907ae5c477a9",
-            "cac7c045e74a6cf458945f27e9fb74c32eb78a62",
-            "2191e6074071416a8c2c32cc7b212c6ac4cc4581"
-          ],
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "recovery_imagegen_invocations": 1,
-          "recovery_edit_count": 0,
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-11T16:05:14+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T045200+0800",
-        "cycle": 2,
-        "stage": "ARCHIVED",
-        "at": "2026-11-11T15:55:19+08:00",
-        "run_id": "20261108T054352+0800-cycle-2",
-        "species_id": 102,
-        "species": "Strix nigrolineata",
-        "credited": false,
-        "evidence": {
-          "recovery": true,
-          "archive_commit_pending": true,
-          "manifest_counts": {
-            "design_concept_manifest": 811,
-            "design_concepts_manifest": 808,
-            "production_concept_manifest": 801
-          },
-          "concept_path": "owl-pet/design/concepts/102-strix-nigrolineata-v5.png",
-          "concept_blob": "f40e7ce4aa7110917dde41e65f963b677bd46822",
-          "concept_bytes": 3092169,
-          "recovery_original": "owl-pet/production/generated/102-strix-nigrolineata-v5-recovery-original.png",
-          "review_record": "owl-pet/research/reviews/102-strix-nigrolineata-v5-review.md",
-          "research_record": "owl-pet/research/species/102-strix-nigrolineata-v5.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-11T16:10:19+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T045200+0800",
-        "cycle": 2,
-        "stage": "VERIFIED",
-        "at": "2026-11-11T16:00:14+08:00",
-        "run_id": "20261108T054352+0800-cycle-2",
-        "species_id": 102,
-        "species": "Strix nigrolineata",
-        "credited": false,
-        "evidence": {
-          "archive_commit": "c9413688e93920051247286046c1da70fbbabc7c",
-          "archive_tree": "78023e707f1d0b91da3173a62050509a81b22cde",
-          "archive_tree_entries": 4132,
-          "archive_tree_truncated": false,
-          "required_paths_verified": 24,
-          "exact_binary_paths_verified": 12,
-          "unique_binary_streams_read_back": 4,
-          "manifest_counts": {
-            "design_concept": 811,
-            "design_concepts": 808,
-            "production_concept": 801
-          },
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "ledger_credit_pending": true,
-          "lease_expires_at": "2026-11-11T16:15:14+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T045200+0800",
-        "cycle": 2,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-11T16:06:17+08:00",
-        "run_id": "20261108T054352+0800-cycle-2",
-        "species_id": 102,
-        "species": "Strix nigrolineata",
-        "credited": true,
-        "evidence": {
-          "verification_commit": "60ab8d7a2f275e941ebb8fbb8175e28bba62ae46",
-          "archive_commit": "c9413688e93920051247286046c1da70fbbabc7c",
-          "archive_tree": "78023e707f1d0b91da3173a62050509a81b22cde",
-          "run_record": "owl-pet/production/runs/20261108T054352+0800-cycle-2.md",
-          "batch_progress": "2/6",
-          "next_cycle": 3,
-          "unique_species_increment": 0,
-          "revision_increment": 1,
-          "unique_species_count": 176,
-          "total_species": 251,
-          "scientifically_verified": false
-        }
-      },
-      {
-        "batch_id": "20261108T045200+0800",
-        "cycle": 3,
-        "stage": "STARTED",
-        "at": "2026-11-11T16:10:47+08:00",
-        "run_id": "20261111T161047+0800-cycle-3",
-        "species_id": 106,
-        "species": "Strix albitarsis",
-        "credited": false,
-        "evidence": {
-          "run_record": "owl-pet/production/runs/20261111T161047+0800-cycle-3.md",
-          "baseline_main": "00de89fec69fea5dd716d7160632433350127a61",
-          "selection_note": "#103–105 already have v5-or-newer concepts; #106 is the next numbered repository-backed concept whose newest version is v3. V4 re-checks iris conflict, juvenile stage and day-roost geometry.",
-          "prior_version": "owl-pet/design/concepts/106-strix-albitarsis-v3.png",
-          "lease_expires_at": "2026-11-11T16:25:47+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "batch_id": "20261108T045200+0800",
-        "cycle": 3,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-11T16:10:47+08:00",
-        "run_id": "20261111T161047+0800-cycle-3",
-        "species_id": 106,
-        "species": "Strix albitarsis",
-        "credited": false,
-        "evidence": {
-          "research_record": "owl-pet/research/species/106-strix-albitarsis-v4.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "new_verified_sources": 3,
-          "reused_or_reread_sources": 2,
-          "corrected_inferences": 2,
-          "design_boundary": "near-equal dark-eyed adults; age-unknown yellow-cream-down juvenile fully supported at attached living tree-fern day roost; no nest or flight claim",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-11T16:25:47+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T045200+0800",
-        "cycle": 3,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-11T16:15:08+08:00",
-        "run_id": "20261111T161047+0800-cycle-3",
-        "species_id": 106,
-        "species": "Strix albitarsis",
-        "credited": false,
-        "evidence": {
-          "initial_original": "owl-pet/production/generated/106-strix-albitarsis-v4-initial-original.png",
-          "generated_master": "owl-pet/production/generated/106-strix-albitarsis-v4-generated-master.png",
-          "initial_blob": "efbb9a796ef1796f7c456d420842137a98ed6375",
-          "initial_bytes": 3325888,
-          "initial_sha256": "5e45e5573b8ea0a6f3b6cff9def8d0b5822188ad4d41956924d0265537a189aa",
-          "geometry": "1536x1024",
-          "generation_seconds": 72.4,
-          "edit_required": null,
-          "preliminary_inspection": "Exact title/labels and exactly three supported birds; dark adult irises; near-equal adults; compact downy juvenile at a living tree-fern crown. Crop review pending.",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-11T16:30:08+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T045200+0800",
-        "cycle": 3,
-        "stage": "REVIEWED",
-        "at": "2026-11-11T16:17:55+08:00",
-        "run_id": "20261111T161047+0800-cycle-3",
-        "species_id": 106,
-        "species": "Strix albitarsis",
-        "credited": false,
-        "evidence": {
-          "final_original": "owl-pet/production/generated/106-strix-albitarsis-v4-final-original.png",
-          "final_blob": "efbb9a796ef1796f7c456d420842137a98ed6375",
-          "final_bytes": 3325888,
-          "final_sha256": "5e45e5573b8ea0a6f3b6cff9def8d0b5822188ad4d41956924d0265537a189aa",
-          "edit_count": 0,
-          "imagegen_invocations": 1,
-          "reviewed_path": "owl-pet/production/reviewed/106-strix-albitarsis-v4-reviewed-master.png",
-          "reviewed_blob": "efbb9a796ef1796f7c456d420842137a98ed6375",
-          "review_record": "owl-pet/research/reviews/106-strix-albitarsis-v4-review.md",
-          "review_crops": [
-            "owl-pet/production/review-crops/106-strix-albitarsis-v4-adult-male.png",
-            "owl-pet/production/review-crops/106-strix-albitarsis-v4-downy-juvenile.png",
-            "owl-pet/production/review-crops/106-strix-albitarsis-v4-adult-female.png"
-          ],
-          "crop_blobs": [
-            "b4c395bd44c316ecdf32f6b867378eb604b53c1a",
-            "1b6f1f921fa82e780257b1621d48ffe52f7f5a3d",
-            "ecfb37d58d0023416628843536a7fefd79640757"
-          ],
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-11T16:32:55+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T045200+0800",
-        "cycle": 3,
-        "stage": "ARCHIVED",
-        "at": "2026-11-11T16:21:03+08:00",
-        "run_id": "20261111T161047+0800-cycle-3",
-        "species_id": 106,
-        "species": "Strix albitarsis",
-        "credited": false,
-        "evidence": {
-          "archive_commit_pending": true,
-          "manifest_counts": {
-            "design_concept_manifest": 812,
-            "design_concepts_manifest": 809,
-            "production_concept_manifest": 802
-          },
-          "concept_path": "owl-pet/design/concepts/106-strix-albitarsis-v4.png",
-          "concept_blob": "efbb9a796ef1796f7c456d420842137a98ed6375",
-          "concept_bytes": 3325888,
-          "review_record": "owl-pet/research/reviews/106-strix-albitarsis-v4-review.md",
-          "research_record": "owl-pet/research/species/106-strix-albitarsis-v4.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-11T16:36:03+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T045200+0800",
-        "cycle": 3,
-        "stage": "VERIFIED",
-        "at": "2026-11-11T16:27:40+08:00",
-        "run_id": "20261111T161047+0800-cycle-3",
-        "species_id": 106,
-        "species": "Strix albitarsis",
-        "credited": false,
-        "evidence": {
-          "archive_commit": "3551810adc3f6c7f0af018cfec1c36dec60d65ff",
-          "archive_tree": "644d645e0c2095ce6e2eb92e2318843bdcc9a2c1",
-          "archive_tree_entries": 4209,
-          "archive_tree_truncated": false,
-          "required_paths_verified": 22,
-          "exact_binary_paths_verified": 9,
-          "unique_binary_streams_read_back": 4,
-          "manifest_counts": {
-            "design_concept": 812,
-            "design_concepts": 809,
-            "production_concept": 802
-          },
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "ledger_credit_pending": true,
-          "lease_expires_at": "2026-11-11T16:42:40+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T045200+0800",
-        "cycle": 3,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-11T16:31:13+08:00",
-        "run_id": "20261111T161047+0800-cycle-3",
-        "species_id": 106,
-        "species": "Strix albitarsis",
-        "credited": true,
-        "evidence": {
-          "verification_commit": "10ace0d7177beb4477978dd48e6838e916557c16",
-          "archive_commit": "3551810adc3f6c7f0af018cfec1c36dec60d65ff",
-          "archive_tree": "644d645e0c2095ce6e2eb92e2318843bdcc9a2c1",
-          "run_record": "owl-pet/production/runs/20261111T161047+0800-cycle-3.md",
-          "batch_progress": "3/6",
-          "next_cycle": 4,
-          "unique_species_increment": 0,
-          "revision_increment": 1,
-          "unique_species_count": 176,
-          "total_species": 251,
-          "scientifically_verified": false
-        }
-      },
-      {
-        "batch_id": "20261108T045200+0800",
-        "cycle": 4,
-        "stage": "STARTED",
-        "at": "2026-11-11T17:33:21+08:00",
-        "run_id": "20261111173321+0800-cycle-4",
-        "species_id": 108,
-        "species": "Otus rutilus",
-        "credited": false,
-        "evidence": {
-          "run_record": "owl-pet/production/runs/20261111173321+0800-cycle-4.md",
-          "baseline_main": "89d414cefaccc0ead40311cb82bec8fceae99399",
-          "selection_note": "#108 is the next numbered repository-backed concept after #107 v5; its newest archived version is v4. Direct reinspection of v4 shows residual uniformly curly/woolly juvenile down and overly orderly adult wing markings. V5 will re-check eastern humid-forest identity, sex evidence, the photographed Andasibe juvenile boundary, support and nest claims without overwriting v1–v4.",
-          "prior_version": "owl-pet/design/concepts/108-otus-rutilus-v4.png",
-          "lease_expires_at": "2026-11-11T17:48:21+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "batch_id": "20261108T045200+0800",
-        "cycle": 4,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-11T17:36:46+08:00",
-        "run_id": "20261111173321+0800-cycle-4",
-        "species_id": 108,
-        "species": "Otus rutilus",
-        "credited": false,
-        "evidence": {
-          "research_record": "owl-pet/research/species/108-otus-rutilus-v5.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "new_verified_sources": 1,
-          "reopened_uploaded_guide_pages": "printed 143-144 / PDF 145-146",
-          "reused_or_reread_sources": 5,
-          "corrected_inferences": 3,
-          "design_boundary": "near-equal same-morph adults with only subtle fullness; age-unknown Andasibe juvenile with loose irregular down and no flight/nest claim",
-          "complete_prompt_saved": true,
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-11T17:51:46+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T045200+0800",
-        "cycle": 4,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-11T17:43:00+08:00",
-        "run_id": "20261111173321+0800-cycle-4",
-        "species_id": 108,
-        "species": "Otus rutilus",
-        "credited": false,
-        "evidence": {
-          "initial_original": "owl-pet/production/generated/108-otus-rutilus-v5-initial-original.png",
-          "generated_master": "owl-pet/production/generated/108-otus-rutilus-v5-generated-master.png",
-          "initial_blob": "9aea1cce7e0902b8ced80541c865b7f84440d100",
-          "initial_bytes": 3061334,
-          "initial_sha256": "52a3b280bb83db7f1071309bbbe62033fbf7bf8be6765d9e570aafe0dcb7f143",
-          "geometry": "1536x1024",
-          "generation_seconds": 53.8,
-          "edit_required": false,
-          "preliminary_inspection": "Full plate and four role/support crops opened. Exact title/labels and three birds; adults near-equal and same morph; yellow eyes and feathered tarsi; age-unknown juvenile has loose irregular down, dark mask, pale brow/crown, no mature wing or visible long tail; all six feet fully supported. No edit required.",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-11T17:58:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T045200+0800",
-        "cycle": 4,
-        "stage": "REVIEWED",
-        "at": "2026-11-11T17:44:44+08:00",
-        "run_id": "20261111173321+0800-cycle-4",
-        "species_id": 108,
-        "species": "Otus rutilus",
-        "credited": false,
-        "evidence": {
-          "final_original": "owl-pet/production/generated/108-otus-rutilus-v5-final-original.png",
-          "final_blob": "9aea1cce7e0902b8ced80541c865b7f84440d100",
-          "final_bytes": 3061334,
-          "final_sha256": "52a3b280bb83db7f1071309bbbe62033fbf7bf8be6765d9e570aafe0dcb7f143",
-          "geometry": "1536x1024",
-          "edit_count": 0,
-          "imagegen_invocations": 1,
-          "reviewed_path": "owl-pet/production/reviewed/108-otus-rutilus-v5-reviewed-master.png",
-          "reviewed_blob": "9aea1cce7e0902b8ced80541c865b7f84440d100",
-          "review_record": "owl-pet/research/reviews/108-otus-rutilus-v5-review.md",
-          "review_crops": [
-            "owl-pet/production/review-crops/108-otus-rutilus-v5-adult-male.jpg",
-            "owl-pet/production/review-crops/108-otus-rutilus-v5-juvenile.jpg",
-            "owl-pet/production/review-crops/108-otus-rutilus-v5-adult-female.jpg",
-            "owl-pet/production/review-crops/108-otus-rutilus-v5-support.jpg"
-          ],
-          "crop_blobs": [
-            "46a280d3f00815d3ce0de229da32fa196490f970",
-            "67dbec3ef11c82e733548f686456f98639342492",
-            "81ebbc869badb2e5c75e474ca9a52af99411c68e",
-            "8d445c5f9f11964237c653122d5f3aa53cf0e52b"
-          ],
-          "actual_views": [
-            "full plate",
-            "adult male crop",
-            "juvenile crop",
-            "adult female crop",
-            "six-foot support crop"
-          ],
-          "checks": {
-            "identity": "PASS_WITH_LIMITATIONS",
-            "sex_direction": "PASS_WITH_LIMITATIONS",
-            "juvenile_stage": "PASS_WITH_LIMITATIONS",
-            "wing_development": "PASS",
-            "support": "PASS",
-            "text_labels": "PASS",
-            "habitat": "PASS_WITH_LIMITATIONS",
-            "taxonomy": "PASS"
-          },
-          "unknowns": [
-            "exact juvenile age and sex",
-            "juvenile flight ability and independence",
-            "nest provenance of photographed juvenile",
-            "continuous developmental feather sequence",
-            "adult sex-specific plumage difference beyond subtle fullness"
-          ],
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-11T17:59:44+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T045200+0800",
-        "cycle": 4,
-        "stage": "ARCHIVED",
-        "at": "2026-11-11T17:47:38+08:00",
-        "run_id": "20261111173321+0800-cycle-4",
-        "species_id": 108,
-        "species": "Otus rutilus",
-        "credited": false,
-        "evidence": {
-          "archive_commit_pending": true,
-          "manifest_counts": {
-            "design_concept_manifest": 813,
-            "design_concepts_manifest": 810,
-            "production_concept_manifest": 803
-          },
-          "concept_path": "owl-pet/design/concepts/108-otus-rutilus-v5.png",
-          "concept_blob": "9aea1cce7e0902b8ced80541c865b7f84440d100",
-          "concept_bytes": 3061334,
-          "review_record": "owl-pet/research/reviews/108-otus-rutilus-v5-review.md",
-          "research_record": "owl-pet/research/species/108-otus-rutilus-v5.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-11T18:02:38+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T045200+0800",
-        "cycle": 4,
-        "stage": "VERIFIED",
-        "at": "2026-11-11T17:49:13+08:00",
-        "run_id": "20261111173321+0800-cycle-4",
-        "species_id": 108,
-        "species": "Otus rutilus",
-        "credited": false,
-        "evidence": {
-          "archive_commit": "1f83a109a7723e4a1c4cba74c41a40e7ba77bfe1",
-          "archive_tree": "467ccc5e4592476e1ca468ae8982d398d4fb9c61",
-          "required_paths_verified": 19,
-          "exact_binary_paths_verified": 10,
-          "unique_binary_streams_read_back": 5,
-          "initial_blob": "9aea1cce7e0902b8ced80541c865b7f84440d100",
-          "initial_bytes": 3061334,
-          "concept_blob": "9aea1cce7e0902b8ced80541c865b7f84440d100",
-          "concept_bytes": 3061334,
-          "crop_blobs": [
-            "46a280d3f00815d3ce0de229da32fa196490f970",
-            "67dbec3ef11c82e733548f686456f98639342492",
-            "81ebbc869badb2e5c75e474ca9a52af99411c68e",
-            "8d445c5f9f11964237c653122d5f3aa53cf0e52b"
-          ],
-          "manifest_counts": {
-            "design_concept_manifest": 813,
-            "design_concepts_manifest": 810,
-            "production_concept_manifest": 803
-          },
-          "verification_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "ledger_credit_pending": true,
-          "lease_expires_at": "2026-11-11T18:04:13+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T045200+0800",
-        "cycle": 4,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-11T17:50:10+08:00",
-        "run_id": "20261111173321+0800-cycle-4",
-        "species_id": 108,
-        "species": "Otus rutilus",
-        "credited": true,
-        "evidence": {
-          "verification_commit": "358527af754c9157ee2cc4ba2bcf1534a99da024",
-          "archive_commit": "1f83a109a7723e4a1c4cba74c41a40e7ba77bfe1",
-          "archive_tree": "467ccc5e4592476e1ca468ae8982d398d4fb9c61",
-          "run_record": "owl-pet/production/runs/20261111173321+0800-cycle-4.md",
-          "batch_progress": "4/6",
-          "next_cycle": 5,
-          "unique_species_increment": 0,
-          "revision_increment": 1,
-          "unique_species_count": 176,
-          "total_species": 251,
-          "scientifically_verified": false
-        }
-      },
-      {
-        "batch_id": "20261108T045200+0800",
-        "cycle": 5,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-11T17:50:57+08:00",
-        "run_id": "20261111T175057+0800-cycle-5",
-        "species_id": 111,
-        "species": "Otus cyprius",
-        "credited": false,
-        "evidence": {
-          "run_record": "owl-pet/production/runs/20261111T175057+0800-cycle-5.md",
-          "baseline_main": "bfc3d2dfbb1b763d580ea3df93a3775d3d27e771",
-          "selection_note": "#109 already has v8 and #110 v5; #111 is the next numbered repository-backed target and currently ends at v3. V4 will re-check current taxonomy, Cyprus adult morphology, sex evidence, a defensible juvenile stage, support and Mediterranean breeding habitat while preserving v1-v3.",
-          "prior_version": "owl-pet/design/concepts/111-otus-cyprius-v3.png",
-          "lease_expires_at": "2026-11-11T18:05:57+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "batch_id": "20261108T045200+0800",
-        "cycle": 5,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-11T17:55:17+08:00",
-        "run_id": "20261111T175057+0800-cycle-5",
-        "species_id": 111,
-        "species": "Otus cyprius",
-        "credited": false,
-        "evidence": {
-          "run_record": "owl-pet/production/runs/20261111T175057+0800-cycle-5.md",
-          "research_record": "owl-pet/research/species/111-otus-cyprius-v4.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "source_counts": {
-            "new": 1,
-            "reused": 4,
-            "corrected_boundaries": 5
-          },
-          "mikkola_pages": "printed 122-123 / PDF 124-125",
-          "prompt_persisted": true,
-          "unknowns": [
-            "exact juvenile age",
-            "juvenile sex",
-            "individual flight competence",
-            "independence",
-            "continuous feather chronology"
-          ],
-          "lease_expires_at": "2026-11-11T18:10:17+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "batch_id": "20261108T045200+0800",
-        "cycle": 5,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-11T18:04:43+08:00",
-        "run_id": "20261111T175057+0800-cycle-5",
-        "species_id": 111,
-        "species": "Otus cyprius",
-        "credited": false,
-        "evidence": {
-          "initial_original": "owl-pet/production/generated/111-otus-cyprius-v4-initial-original.png",
-          "generated_master": "owl-pet/production/generated/111-otus-cyprius-v4-generated-master.png",
-          "initial_blob": "e84816c4d800a128460ab4d57cdacb593dfa70b2",
-          "initial_bytes": 3184599,
-          "initial_sha256": "a346a36fee75db3a0b9f1bfc6587361496e81e66805ece068933da51956a0a9f",
-          "final_blob": "41656e4e041059ea6076ba06673ae5eb84c04b32",
-          "final_bytes": 2976479,
-          "final_sha256": "7e69cdee62cfae52a4dbc257b221b156f3d3b7909d751a25d0475587b21e3556",
-          "geometry": "1536x1024",
-          "initial_generation_seconds": 33,
-          "edit_generation_seconds": 48.7,
-          "edit_count": 1,
-          "edit_reason": "Initial adults had overlong ear tufts and long tidy ventral pinstripes; juvenile folded wing/tail read too mature. Evidence-led edit shortened tufts, broke/coarsened adult streak-vermiculation and shortened/softened juvenile wing-tail.",
-          "preliminary_inspection": "Initial and edited full plates plus male/juvenile/female/support crops opened. Edited plate preserves exact title and labels, exactly three birds, adult near-equal height, dark Cyprus-grey adults with larger white spots, yellow eyes and small tufts; fledged juvenile retains residual fluff, short compact wing-tail and begging posture; all six feet visibly grip one continuous olive branch.",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-11T18:19:43+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T045200+0800",
-        "cycle": 5,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-11T18:06:42+08:00",
-        "run_id": "20261111T175057+0800-cycle-5",
-        "species_id": 111,
-        "species": "Otus cyprius",
-        "credited": false,
-        "evidence": {
-          "review_record": "owl-pet/research/reviews/111-otus-cyprius-v4-review.md",
-          "reviewed_master": "owl-pet/production/reviewed/111-otus-cyprius-v4-reviewed-master.png",
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "edit_count": 1,
-          "crops": [
-            "owl-pet/production/review-crops/111-otus-cyprius-v4-adult-male.jpg",
-            "owl-pet/production/review-crops/111-otus-cyprius-v4-juvenile.jpg",
-            "owl-pet/production/review-crops/111-otus-cyprius-v4-adult-female.jpg",
-            "owl-pet/production/review-crops/111-otus-cyprius-v4-support.jpg"
-          ],
-          "crop_blobs": {
-            "adult_male": "4a84545835827baaab8035f4ef6a0a01d1d75085",
-            "juvenile": "76f418b002441fccf44aefcfa60dc3478857a082",
-            "adult_female": "49733bf28285f8393757f77d12839f1c3393670a",
-            "support": "32d17f5febf919e9ea34a5d640635c2e63ece81a"
-          },
-          "self_iteration": "small Otus prompts should cap tuft height; crop review must reject decorative pinstripes and separately assess juvenile wing-tail maturity",
-          "remaining_unknowns": [
-            "exact juvenile age",
-            "juvenile sex",
-            "flight competence",
-            "independence",
-            "continuous feather chronology"
-          ],
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-11T18:21:42+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T045200+0800",
-        "cycle": 5,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-11T18:08:08+08:00",
-        "run_id": "20261111T175057+0800-cycle-5",
-        "species_id": 111,
-        "species": "Otus cyprius",
-        "credited": false,
-        "evidence": {
-          "concept_path": "owl-pet/design/concepts/111-otus-cyprius-v4.png",
-          "concept_blob": "41656e4e041059ea6076ba06673ae5eb84c04b32",
-          "concept_bytes": 2976479,
-          "review_record": "owl-pet/research/reviews/111-otus-cyprius-v4-review.md",
-          "research_record": "owl-pet/research/species/111-otus-cyprius-v4.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "manifest_counts": {
-            "design_concept_manifest": 814,
-            "design_concepts_manifest": 811,
-            "production_concept_manifest": 804
-          },
-          "archive_commit_pending": true,
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-11T18:23:08+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T045200+0800",
-        "cycle": 5,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-11T18:10:33+08:00",
-        "run_id": "20261111T175057+0800-cycle-5",
-        "species_id": 111,
-        "species": "Otus cyprius",
-        "credited": false,
-        "evidence": {
-          "archive_commit": "35415e49a60134d70cd0deccb124787c7b33c536",
-          "archive_tree": "3601204db8778e48f153964124f922dd7813ee72",
-          "required_paths_verified": 18,
-          "exact_binary_paths_verified": 10,
-          "unique_binary_streams_read_back": 6,
-          "manifest_counts": {
-            "design_concept_manifest": 814,
-            "design_concepts_manifest": 811,
-            "production_concept_manifest": 804
-          },
-          "concept_path": "owl-pet/design/concepts/111-otus-cyprius-v4.png",
-          "concept_blob": "41656e4e041059ea6076ba06673ae5eb84c04b32",
-          "concept_bytes": 2976479,
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "ledger_credit_pending": true,
-          "lease_expires_at": "2026-11-11T18:25:33+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T045200+0800",
-        "cycle": 5,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-11T18:11:32+08:00",
-        "run_id": "20261111T175057+0800-cycle-5",
-        "species_id": 111,
-        "species": "Otus cyprius",
-        "credited": true,
-        "evidence": {
-          "verification_commit": "a3bc02f536dbb90eb13c01ccb9d6deff536b78f3",
-          "archive_commit": "35415e49a60134d70cd0deccb124787c7b33c536",
-          "archive_tree": "3601204db8778e48f153964124f922dd7813ee72",
-          "run_record": "owl-pet/production/runs/20261111T175057+0800-cycle-5.md",
-          "batch_progress": "5/6",
-          "next_cycle": 6,
-          "unique_species_increment": 0,
-          "revision_increment": 1,
-          "unique_species_count": 176,
-          "total_species": 251,
-          "scientifically_verified": false
-        }
-      },
-      {
-        "batch_id": "20261108T045200+0800",
-        "cycle": 6,
-        "stage": "STARTED",
-        "at": "2026-11-11T18:13:13+08:00",
-        "run_id": "20261111T181313+0800-cycle-6",
-        "species_id": 112,
-        "species": "Asio abyssinicus",
-        "credited": false,
-        "evidence": {
-          "run_record": "owl-pet/production/runs/20261111T181313+0800-cycle-6.md",
-          "baseline_main": "6bbeb9408b971fe916843fddd3377a416320f1c3",
-          "selection_note": "#111 v4 is credited as cycle 5. #112 Asio abyssinicus is the next numbered repository-backed target and currently ends at v3; v4 will re-check adult ear/eye/facial-disc identity, sex evidence, a defensible juvenile stage, nest/support and Afromontane habitat while preserving v1-v3.",
-          "prior_version": "owl-pet/design/concepts/112-asio-abyssinicus-v3.png",
-          "lease_expires_at": "2026-11-11T18:28:13+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "batch_id": "20261108T045200+0800",
-        "cycle": 6,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-11T18:18:20+08:00",
-        "run_id": "20261111T181313+0800-cycle-6",
-        "species_id": 112,
-        "species": "Asio abyssinicus",
-        "credited": false,
-        "evidence": {
-          "run_record": "owl-pet/production/runs/20261111T181313+0800-cycle-6.md",
-          "research_record": "owl-pet/research/species/112-asio-abyssinicus-v4.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "source_counts": {
-            "new": 1,
-            "reused": 5,
-            "corrected_boundaries": 3
-          },
-          "mikkola_access": "uploaded guide unavailable in current execution; no fresh page claim",
-          "prompt_persisted": true,
-          "unknowns": [
-            "exact juvenile age",
-            "juvenile sex/subspecies",
-            "flight competence",
-            "independence",
-            "wing/tail chronology",
-            "population sex-size direction"
-          ],
-          "lease_expires_at": "2026-11-11T18:33:20+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "batch_id": "20261108T045200+0800",
-        "cycle": 6,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-11T18:31:10+08:00",
-        "run_id": "20261111T181313+0800-cycle-6",
-        "species_id": 112,
-        "species": "Asio abyssinicus",
-        "credited": false,
-        "evidence": {
-          "initial_original": "owl-pet/production/generated/112-asio-abyssinicus-v4-initial-original.png",
-          "edit1": "owl-pet/production/edits/112-asio-abyssinicus-v4-edit1.png",
-          "generated_master": "owl-pet/production/generated/112-asio-abyssinicus-v4-generated-master.png",
-          "initial_blob": "71cdd477480b06469c6f9ca68748b2b1c851864f",
-          "initial_bytes": 3192063,
-          "initial_sha256": "86b5cacf0bd2f7887b062be5d18d0fb04c8b799cb84e19bcae76ad9a51f43da7",
-          "edit1_blob": "0e7faba30db989a0b111f43b275649435937c788",
-          "edit1_bytes": 3014775,
-          "edit1_sha256": "1bb04e0a8ec2854882f5016dea43d5c3635359eb527faf235cbd644da288792f",
-          "final_blob": "68367f2a80dbfa62c366cbbdc41641584e54864d",
-          "final_bytes": 2907558,
-          "final_sha256": "81384a4b51dbc61708dbd0c0ecfbf2ea3bf8f5ffef5a74474741fa680b64a6da",
-          "geometry": "1536x1024",
-          "initial_generation_seconds": 51.4,
-          "edit1_generation_seconds": 47.3,
-          "edit2_generation_seconds": 43.9,
-          "edit_count": 2,
-          "edit_reasons": [
-            "initial juvenile had a large clean adult-like folded wing/remiges",
-            "first edit reduced the wing but retained long hair-like strands; second edit converted them to shorter frayed down clumps"
-          ],
-          "preliminary_inspection": "Initial, edit1 and final plates opened. Final has exact title/labels, exactly three birds, near-equal adults, orange irises, black bills, flexible tufts, broad dark/ochre identity and supported feet. Juvenile wing is compact and mostly buried, tail concealed, down shorter and feather-like rather than long curled hair; full crop review pending.",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-11T18:46:10+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T045200+0800",
-        "cycle": 6,
-        "stage": "REVIEWED",
-        "at": "2026-11-11T18:33:20+08:00",
-        "run_id": "20261111T181313+0800-cycle-6",
-        "species_id": 112,
-        "species": "Asio abyssinicus",
-        "credited": false,
-        "evidence": {
-          "review_record": "owl-pet/research/reviews/112-asio-abyssinicus-v4-review.md",
-          "reviewed_master": "owl-pet/production/reviewed/112-asio-abyssinicus-v4-reviewed-master.png",
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "edit_count": 2,
-          "crops": [
-            "owl-pet/production/review-crops/112-asio-abyssinicus-v4-adult-male.png",
-            "owl-pet/production/review-crops/112-asio-abyssinicus-v4-older-juvenile.png",
-            "owl-pet/production/review-crops/112-asio-abyssinicus-v4-adult-female.png",
-            "owl-pet/production/review-crops/112-asio-abyssinicus-v4-support.png"
-          ],
-          "crop_blobs": {
-            "adult_male": "8365f57996c465989c130e6efcb403d721b04f65",
-            "older_juvenile": "b78a300596451b632b0baaf8c3747cc68dd5ee14",
-            "adult_female": "9bc0e4f7c8c0a5f5d9a556cd3fc821b3dc0c1c1a",
-            "support": "cb7d9fca996e7b6251c5b84418493b4730e80b70"
-          },
-          "self_iteration": "short matte feather-down clumps + broken frayed barbs; forbid long strands/loops; cap developing wing/tail",
-          "remaining_unknowns": [
-            "exact juvenile age",
-            "juvenile sex/subspecies",
-            "flight competence",
-            "independence",
-            "wing/tail chronology",
-            "population sex-size direction",
-            "representativeness of one juvenile photograph"
-          ],
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-11T18:48:20+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T045200+0800",
-        "cycle": 6,
-        "stage": "ARCHIVED",
-        "at": "2026-11-11T19:32:24+08:00",
-        "run_id": "20261111T192840+0800-cycle-6-recovery",
-        "species_id": 112,
-        "species": "Asio abyssinicus",
-        "credited": false,
-        "evidence": {
-          "archive_commit_pending": true,
-          "manifest_counts": {
-            "design_concept_manifest": 815,
-            "design_concepts_manifest": 812,
-            "production_concept_manifest": 805
-          },
-          "concept_path": "owl-pet/design/concepts/112-asio-abyssinicus-v4.png",
-          "concept_blob": "68367f2a80dbfa62c366cbbdc41641584e54864d",
-          "concept_bytes": 2907558,
-          "review_record": "owl-pet/research/reviews/112-asio-abyssinicus-v4-review.md",
-          "research_record": "owl-pet/research/species/112-asio-abyssinicus-v4.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-11T19:47:24+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T045200+0800",
-        "cycle": 6,
-        "stage": "VERIFIED",
-        "at": "2026-11-11T19:36:19+08:00",
-        "run_id": "20261111T192840+0800-cycle-6-recovery",
-        "species_id": 112,
-        "species": "Asio abyssinicus",
-        "credited": false,
-        "evidence": {
-          "archive_commit": "bb5a65432edc15bcc46f287f3ffddfebebb170e1",
-          "archive_tree": "9f6282f58046100843f81c9e3e4296ba61b7aab6",
-          "required_paths_verified": 19,
-          "exact_binary_paths_verified": 11,
-          "unique_binary_streams_read_back": 7,
-          "manifest_counts": {
-            "design_concept_manifest": 815,
-            "design_concepts_manifest": 812,
-            "production_concept_manifest": 805
-          },
-          "concept_path": "owl-pet/design/concepts/112-asio-abyssinicus-v4.png",
-          "concept_blob": "68367f2a80dbfa62c366cbbdc41641584e54864d",
-          "concept_bytes": 2907558,
-          "verification_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "ledger_credit_pending": true,
-          "lease_expires_at": "2026-11-11T19:51:19+08:00"
-        }
-      }
-    ],
-    "stage": "VERIFIED",
-    "completed_count": 5
-  },
+  "last_completed_batch_id": "20261108T045200+0800",
+  "active_batch": null,
   "events": [
     {
       "batch_id": "20261105T183434+0800",
@@ -59153,7 +57944,7 @@
       }
     }
   ],
-  "ledger_credit_pending": true,
+  "ledger_credit_pending": false,
   "last_verified_commit": "358527af754c9157ee2cc4ba2bcf1534a99da024",
   "completed_cycles": [
     {
@@ -59360,10 +58151,26 @@
       "scientifically_verified": false,
       "credited_at": "2026-11-11T16:31:13+08:00",
       "batch_id": "20261108T045200+0800"
+    },
+    {
+      "cycle": 6,
+      "species": "Asio abyssinicus",
+      "species_id": 112,
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "commit_sha": "3d465ed6428c94de98b23fe3c17297c0135841ae",
+      "archive_commit": "bb5a65432edc15bcc46f287f3ffddfebebb170e1",
+      "run_record": "owl-pet/production/runs/20261111T181313+0800-cycle-6.md",
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "scientifically_verified": false,
+      "credited_at": "2026-11-11T19:37:31+08:00",
+      "batch_id": "20261108T045200+0800"
     }
   ],
-  "updated": "2026-11-11T18:13:13+08:00",
-  "stage": "VERIFIED",
+  "updated": "2026-11-11T19:37:31+08:00",
+  "stage": "COMPLETE",
   "stage_evidence": {
     "run_record": "owl-pet/production/runs/20261111T181313+0800-cycle-6.md",
     "baseline_main": "6bbeb9408b971fe916843fddd3377a416320f1c3",
@@ -60495,13 +59302,5 @@
     }
   ],
   "last_archive_commit": "1f83a109a7723e4a1c4cba74c41a40e7ba77bfe1",
-  "active": {
-    "run_id": "20261111T192840+0800-cycle-6-recovery",
-    "cycle": 6,
-    "species_id": 112,
-    "species": "Asio abyssinicus",
-    "stage": "VERIFIED",
-    "run_record": "owl-pet/production/runs/20261111T181313+0800-cycle-6.md",
-    "recovery_of": "20261111T181313+0800-cycle-6"
-  }
+  "active": null
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T00:45:00+08:00",
+  "updated": "2026-11-12T01:25:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -30041,7 +30041,88 @@
       "immutable_raw_render_verified": true,
       "verified_at": "2026-11-12T00:45:00+08:00",
       "verification_result": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "id": "126-strix-hadorami-v4",
+      "path": "design/concepts/126-strix-hadorami-v4.png",
+      "species_id": 126,
+      "scientific_name": "Strix hadorami",
+      "historical_names": [
+        "Strix butleri sensu lato"
+      ],
+      "common_name": "Desert Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3
+      ],
+      "prior_versions_retained": true,
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "imagegen_invocations": 2,
+      "status": "V4 preserves v1-v3 and ties uncertainty directly to the visible label EST. c35-DAY FLEDGLING. One targeted edit shortened and rounded the juvenile folded wing, reduced adult-like orderly barring and restored down interruption. Adults remain near-equal; the young makes only a small supported half-step. Exact hatch date, sex, iris/feather chronology, flight competence and independence remain unknown.",
+      "source_ids": [
+        "DESO-ITIS-1063253-2026",
+        "DESO-BENDOV-2017",
+        "DESO-KIRWAN-2015"
+      ],
+      "unverified_leads": [
+        "Macaulay ML610547030 — access denied; not used as evidence"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/126-strix-hadorami-v4.md",
+      "review_record": "research/reviews/126-strix-hadorami-v4-review.md",
+      "run_record": "production/runs/20261112T005500+0800-cycle-3.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 2707629,
+      "sha256": "83cd3e3cdb71baeb4c812737694916b67b8802e3e1070028fcf6e118a35efa2c",
+      "git_blob": "c7084dde44cd9142b9c744acacd73ee3838d577e",
+      "initial_original_path": "production/generated/126-strix-hadorami-v4-initial-original.png",
+      "initial_original_blob": "3c40750486721e9a320e7461cc5dd1bdb9fd90f4",
+      "initial_original_size_bytes": 3073812,
+      "initial_original_sha256": "f257dae36d9107c0c37a65ad8665b75077a16a2ffb67f17563fc356129f55254",
+      "final_original_path": "production/generated/126-strix-hadorami-v4-final-original.png",
+      "final_original_blob": "c7084dde44cd9142b9c744acacd73ee3838d577e",
+      "final_original_size_bytes": 2707629,
+      "final_original_sha256": "83cd3e3cdb71baeb4c812737694916b67b8802e3e1070028fcf6e118a35efa2c",
+      "full_color_source_path": "production/generated/126-strix-hadorami-v4-full-color.png",
+      "full_color_source_blob": "c7084dde44cd9142b9c744acacd73ee3838d577e",
+      "full_color_source_size_bytes": 2707629,
+      "full_color_source_sha256": "83cd3e3cdb71baeb4c812737694916b67b8802e3e1070028fcf6e118a35efa2c",
+      "generated_path": "production/generated/126-strix-hadorami-v4-generated-master.png",
+      "generated_blob": "c7084dde44cd9142b9c744acacd73ee3838d577e",
+      "generated_size_bytes": 2707629,
+      "reviewed_path": "production/reviewed/126-strix-hadorami-v4-reviewed-master.png",
+      "reviewed_blob": "c7084dde44cd9142b9c744acacd73ee3838d577e",
+      "reviewed_size_bytes": 2707629,
+      "review_crops": [
+        {
+          "path": "production/review-crops/126-strix-hadorami-v4-adult-male.png",
+          "blob": "de5f85f2bf8f0b360198555e2d455cd26dbca7e5",
+          "size_bytes": 868718
+        },
+        {
+          "path": "production/review-crops/126-strix-hadorami-v4-fledgling.png",
+          "blob": "7d53ff7fa3cf6e44095417769b61dcf99614219b",
+          "size_bytes": 792474
+        },
+        {
+          "path": "production/review-crops/126-strix-hadorami-v4-adult-female.png",
+          "blob": "0a822a411ef65467601f51a21e0e84d402382528",
+          "size_bytes": 820307
+        }
+      ],
+      "archive_note": "V3, initial v4, edited v4 and all three role crops were actually opened. One targeted edit corrected the juvenile's overlong orderly adult-like wing. One new taxonomy source was indexed; two primary/taxonomic sources were re-read. Inaccessible Macaulay material remains unverified. Science remains false.",
+      "readback_pending": true,
+      "archive_commit_pending": true,
+      "archived_at": "2026-11-12T01:25:00+08:00"
     }
   ],
-  "updated_at": "2026-11-12T00:45:00+08:00"
+  "updated_at": "2026-11-12T01:25:00+08:00"
 }

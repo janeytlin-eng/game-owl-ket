@@ -38932,8 +38932,8 @@
       "next_cycle": 4,
       "active_cycle": 4,
       "started_at": "2026-11-11T19:38:46+08:00",
-      "updated_at": "2026-11-11T21:31:00+08:00",
-      "current_stage": "RESEARCH_READY",
+      "updated_at": "2026-11-11T21:36:22+08:00",
+      "current_stage": "IMAGE_GENERATED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex-owl-production",
@@ -38941,15 +38941,15 @@
         "batch_id": "20261111T193846+0800",
         "cycle": 4,
         "species_id": 119,
-        "heartbeat_at": "2026-11-11T21:31:00+08:00",
-        "expires_at": "2026-11-11T21:46:00+08:00"
+        "heartbeat_at": "2026-11-11T21:36:22+08:00",
+        "expires_at": "2026-11-11T21:51:22+08:00"
       },
       "in_progress": {
         "run_id": "20261111T205600+0800-cycle-4",
         "cycle": 4,
         "species_id": 119,
         "species": "Megascops centralis",
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "run_record": "owl-pet/production/runs/20261111T205600+0800-cycle-4.md"
       },
       "active": {
@@ -38957,7 +38957,7 @@
         "cycle": 4,
         "species_id": 119,
         "species": "Megascops centralis",
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "run_record": "owl-pet/production/runs/20261111T205600+0800-cycle-4.md"
       },
       "stage_events": [
@@ -39664,9 +39664,31 @@
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-11T21:46:00+08:00"
           }
+        },
+        {
+          "batch_id": "20261111T193846+0800",
+          "cycle": 4,
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-11T21:36:22+08:00",
+          "run_id": "20261111T205600+0800-cycle-4",
+          "species_id": 119,
+          "species": "Megascops centralis",
+          "credited": false,
+          "evidence": {
+            "initial_original": "owl-pet/production/generated/119-megascops-centralis-v5-initial-original.png",
+            "initial_blob": "19923fd3a91f9677a55eed6115c87dbd4827596f",
+            "initial_bytes": 3355983,
+            "initial_sha256": "36edc3074424bceb1646e2b18aac5dd38999e914f115279ea2788e2674c8e19c",
+            "geometry": "1536x1024",
+            "generation_seconds": 55.9,
+            "edit_required": "PENDING_FOCUSED_REVIEW",
+            "preliminary_inspection": "Full plate opened: exact title/subtitle/three labels and exactly three birds; near-equal supported adults; asymmetric poses; older gray mesoptile juvenile with no projecting tail, compact formed wing feathers above the sill, and both feet supported. Focused crops pending.",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-11T21:51:22+08:00"
+          }
         }
       ],
-      "stage": "STARTED",
+      "stage": "IMAGE_GENERATED",
       "completed_count": 3
     }
   ],
@@ -39676,8 +39698,8 @@
     "batch_id": "20261111T193846+0800",
     "cycle": 4,
     "species_id": 119,
-    "heartbeat_at": "2026-11-11T20:52:30.047+08:00",
-    "expires_at": "2026-11-11T21:07:30.047+08:00"
+    "heartbeat_at": "2026-11-11T21:36:22+08:00",
+    "expires_at": "2026-11-11T21:51:22+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -50642,37 +50664,77 @@
     "batch_id": "20261111T193846+0800",
     "status": "PARTIAL",
     "target_cycles": 6,
-    "completed_cycles": [],
-    "next_cycle": 1,
-    "active_cycle": 1,
+    "completed_cycles": [
+      {
+        "cycle": 1,
+        "species": "Otus lempiji",
+        "species_id": 115,
+        "action": "REVISION",
+        "unique_species_increment": 0,
+        "revision_increment": 1,
+        "commit_sha": "252e044260d6693caea8e1bc29fb391e1e06a970",
+        "archive_commit": "50034675453dd556f1492ff9b9eea977484eedac",
+        "run_record": "owl-pet/production/runs/20261111T193846+0800-cycle-1.md",
+        "concept_path": "owl-pet/design/concepts/115-otus-lempiji-v4.png",
+        "review_result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false,
+        "completed_at": "2026-11-11T19:57:30+08:00"
+      },
+      {
+        "cycle": 2,
+        "species": "Margarobyas lawrencii",
+        "species_id": 116,
+        "action": "REVISION",
+        "unique_species_increment": 0,
+        "revision_increment": 1,
+        "commit_sha": "dcb7083e2f2fed15c01a84593964d2b152cced34",
+        "archive_commit": "70dcf13b308a481cef5e45ece44637840c09c57c",
+        "run_record": "owl-pet/production/runs/20261111T195900+0800-cycle-2.md",
+        "completed_at": "2026-11-11T20:40:54.047+08:00"
+      },
+      {
+        "cycle": 3,
+        "species": "Megascops cooperi",
+        "species_id": 118,
+        "action": "REVISION",
+        "unique_species_increment": 0,
+        "revision_increment": 1,
+        "commit_sha": "01abc6d1173554dd0930f83694c4ae10e139fe74",
+        "archive_commit": "03d15e3a182fd2c3a26e0134db2865b9e21f6b46",
+        "run_record": "owl-pet/production/runs/20261111T204400+0800-cycle-3.md",
+        "completed_at": "2026-11-11T20:51:47.150+08:00"
+      }
+    ],
+    "next_cycle": 4,
+    "active_cycle": 4,
     "started_at": "2026-11-11T19:38:46+08:00",
-    "updated_at": "2026-11-11T19:38:46+08:00",
-    "current_stage": "STARTED",
+    "updated_at": "2026-11-11T21:36:22+08:00",
+    "current_stage": "IMAGE_GENERATED",
     "ledger_credit_pending": false,
     "lease": {
       "owner": "codex-owl-production",
-      "run_id": "20261111T193846+0800-cycle-1",
+      "run_id": "20261111T205600+0800-cycle-4",
       "batch_id": "20261111T193846+0800",
-      "cycle": 1,
-      "species_id": 115,
-      "heartbeat_at": "2026-11-11T19:38:46+08:00",
-      "expires_at": "2026-11-11T19:53:46+08:00"
+      "cycle": 4,
+      "species_id": 119,
+      "heartbeat_at": "2026-11-11T21:36:22+08:00",
+      "expires_at": "2026-11-11T21:51:22+08:00"
     },
     "in_progress": {
-      "run_id": "20261111T193846+0800-cycle-1",
-      "cycle": 1,
-      "species_id": 115,
-      "species": "Otus lempiji",
-      "stage": "STARTED",
-      "run_record": "owl-pet/production/runs/20261111T193846+0800-cycle-1.md"
+      "run_id": "20261111T205600+0800-cycle-4",
+      "cycle": 4,
+      "species_id": 119,
+      "species": "Megascops centralis",
+      "stage": "IMAGE_GENERATED",
+      "run_record": "owl-pet/production/runs/20261111T205600+0800-cycle-4.md"
     },
     "active": {
-      "run_id": "20261111T193846+0800-cycle-1",
-      "cycle": 1,
-      "species_id": 115,
-      "species": "Otus lempiji",
-      "stage": "STARTED",
-      "run_record": "owl-pet/production/runs/20261111T193846+0800-cycle-1.md"
+      "run_id": "20261111T205600+0800-cycle-4",
+      "cycle": 4,
+      "species_id": 119,
+      "species": "Megascops centralis",
+      "stage": "IMAGE_GENERATED",
+      "run_record": "owl-pet/production/runs/20261111T205600+0800-cycle-4.md"
     },
     "stage_events": [
       {
@@ -50692,10 +50754,718 @@
           "lease_expires_at": "2026-11-11T19:53:46+08:00",
           "scientifically_verified": false
         }
+      },
+      {
+        "batch_id": "20261111T193846+0800",
+        "cycle": 1,
+        "stage": "RESEARCH_READY",
+        "at": "2026-11-11T19:45:00+08:00",
+        "run_id": "20261111T193846+0800-cycle-1",
+        "species_id": 115,
+        "species": "Otus lempiji",
+        "credited": false,
+        "evidence": {
+          "research_record": "owl-pet/research/species/115-otus-lempiji-v4.md",
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "new_sources": 2,
+          "reused_or_reread_sources": 5,
+          "corrected_boundaries": 1,
+          "uploaded_mikkola_accessible": false,
+          "prior_visual_inspected": true,
+          "complete_prompt_saved": true,
+          "scientifically_verified": false,
+          "lease_expires_at": "2026-11-11T20:00:00+08:00"
+        }
+      },
+      {
+        "batch_id": "20261111T193846+0800",
+        "cycle": 1,
+        "stage": "IMAGE_GENERATED",
+        "at": "2026-11-11T19:48:30+08:00",
+        "run_id": "20261111T193846+0800-cycle-1",
+        "species_id": 115,
+        "species": "Otus lempiji",
+        "credited": false,
+        "evidence": {
+          "initial_original": "owl-pet/production/generated/115-otus-lempiji-v4-initial-original.png",
+          "initial_blob": "0b1c0ac56514531bf3e0868997e57fb86a51c255",
+          "initial_bytes": 2931007,
+          "initial_sha256": "c3c5bcb77e66701687c54e24e93d75f33403164670eda197b5f00ae442d6f888",
+          "geometry": "1536x1024",
+          "initial_generation_seconds": 49,
+          "edit_count": 0,
+          "preliminary_inspection": "Exact title/subtitle/three labels and exactly three birds; near-equal supported adults; older mobile branch-supported open-bill begging juvenile with weak tufts and short tail; focused crop review pending.",
+          "scientifically_verified": false,
+          "lease_expires_at": "2026-11-11T20:03:30+08:00",
+          "archive_commit": "137611ca8cb0fdbd68d1ab87076d8ee936a824ef",
+          "correction": "Initial Git blob confirmed after stage commit; generated-master alias deferred to ARCHIVED."
+        }
+      },
+      {
+        "batch_id": "20261111T193846+0800",
+        "cycle": 1,
+        "stage": "REVIEWED",
+        "at": "2026-11-11T19:50:00+08:00",
+        "run_id": "20261111T193846+0800-cycle-1",
+        "species_id": 115,
+        "species": "Otus lempiji",
+        "credited": false,
+        "evidence": {
+          "review_record": "owl-pet/research/reviews/115-otus-lempiji-v4-review.md",
+          "result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "edit_count": 0,
+          "full_plate_opened": true,
+          "juvenile_crop_opened": true,
+          "adult_support_crop_opened": true,
+          "checks": [
+            "exact title/subtitle and three labels",
+            "exactly three birds",
+            "near-equal adults",
+            "dark eyes",
+            "older open-bill begging juvenile",
+            "formed wing bounded to mobile stage",
+            "both feet of every bird supported"
+          ],
+          "remaining_unknowns": [
+            "exact juvenile age",
+            "sex",
+            "nominate juvenile chronology",
+            "individual flight proficiency",
+            "quantitative sex-size direction",
+            "precise subspecific colour"
+          ],
+          "lease_expires_at": "2026-11-11T20:05:00+08:00"
+        }
+      },
+      {
+        "batch_id": "20261111T193846+0800",
+        "cycle": 1,
+        "stage": "ARCHIVED",
+        "at": "2026-11-11T19:53:00+08:00",
+        "run_id": "20261111T193846+0800-cycle-1",
+        "species_id": 115,
+        "species": "Otus lempiji",
+        "credited": false,
+        "evidence": {
+          "concept_path": "owl-pet/design/concepts/115-otus-lempiji-v4.png",
+          "final_blob": "0b1c0ac56514531bf3e0868997e57fb86a51c255",
+          "final_bytes": 2931007,
+          "sha256": "c3c5bcb77e66701687c54e24e93d75f33403164670eda197b5f00ae442d6f888",
+          "aliases": [
+            "owl-pet/production/generated/115-otus-lempiji-v4-final-original.png",
+            "owl-pet/production/generated/115-otus-lempiji-v4-full-color.png",
+            "owl-pet/production/generated/115-otus-lempiji-v4-generated-master.png",
+            "owl-pet/production/reviewed/115-otus-lempiji-v4-reviewed-master.png"
+          ],
+          "manifest_counts": [
+            816,
+            813,
+            806
+          ],
+          "readback_pending": true,
+          "scientifically_verified": false,
+          "lease_expires_at": "2026-11-11T20:08:00+08:00"
+        }
+      },
+      {
+        "batch_id": "20261111T193846+0800",
+        "cycle": 1,
+        "stage": "VERIFIED",
+        "at": "2026-11-11T19:56:00+08:00",
+        "run_id": "20261111T193846+0800-cycle-1",
+        "species_id": 115,
+        "species": "Otus lempiji",
+        "credited": false,
+        "evidence": {
+          "archive_commit": "50034675453dd556f1492ff9b9eea977484eedac",
+          "archive_tree": "5bcfad6c31202cc71d69fb745290af9cbb9c606b",
+          "required_paths_verified": 14,
+          "exact_binary_paths_verified": 6,
+          "unique_binary_streams_read_back": 1,
+          "manifest_counts": [
+            816,
+            813,
+            806
+          ],
+          "manifest_matches_each": 1,
+          "exact_blob": "0b1c0ac56514531bf3e0868997e57fb86a51c255",
+          "result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "ledger_credit_pending": true,
+          "lease_expires_at": "2026-11-11T20:11:00+08:00"
+        }
+      },
+      {
+        "batch_id": "20261111T193846+0800",
+        "cycle": 1,
+        "stage": "LEDGER_CREDITED",
+        "at": "2026-11-11T19:57:30+08:00",
+        "run_id": "20261111T193846+0800-cycle-1",
+        "species_id": 115,
+        "species": "Otus lempiji",
+        "credited": true,
+        "evidence": {
+          "verification_commit": "252e044260d6693caea8e1bc29fb391e1e06a970",
+          "archive_commit": "50034675453dd556f1492ff9b9eea977484eedac",
+          "run_record": "owl-pet/production/runs/20261111T193846+0800-cycle-1.md",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "batch_completed_cycles": 1,
+          "next_cycle": 2,
+          "scientifically_verified": false
+        }
+      },
+      {
+        "batch_id": "20261111T193846+0800",
+        "cycle": 2,
+        "stage": "STARTED",
+        "at": "2026-11-11T19:59:00+08:00",
+        "run_id": "20261111T195900+0800-cycle-2",
+        "species_id": 116,
+        "species": "Margarobyas lawrencii",
+        "credited": false,
+        "evidence": {
+          "run_record": "owl-pet/production/runs/20261111T195900+0800-cycle-2.md",
+          "baseline_main": "186e48699c30856c1b103f6eb734dbababb085e3",
+          "selection_note": "Cycle 1 #115 v4 credited; #116 is next numbered repository-backed target and currently ends at verified v4.",
+          "prior_version": "owl-pet/design/concepts/116-margarobyas-lawrencii-v4.png",
+          "lease_expires_at": "2026-11-11T20:14:00+08:00",
+          "scientifically_verified": false
+        }
+      },
+      {
+        "batch_id": "20261111T193846+0800",
+        "cycle": 2,
+        "stage": "RESEARCH_READY",
+        "at": "2026-11-11T20:03:00+08:00",
+        "run_id": "20261111T195900+0800-cycle-2",
+        "species_id": 116,
+        "species": "Margarobyas lawrencii",
+        "credited": false,
+        "evidence": {
+          "research_record": "owl-pet/research/species/116-margarobyas-lawrencii-v5.md",
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "new_sources": 1,
+          "reused_or_reread_sources": 6,
+          "corrected_boundaries": 1,
+          "prior_visual_inspected": true,
+          "complete_prompt_saved": true,
+          "uploaded_mikkola_accessible": false,
+          "scientifically_verified": false,
+          "lease_expires_at": "2026-11-11T20:18:00+08:00"
+        }
+      },
+      {
+        "batch_id": "20261111T193846+0800",
+        "cycle": 2,
+        "stage": "LEASE_RESUMED",
+        "at": "2026-11-11T20:31:09.522+08:00",
+        "run_id": "20261111T195900+0800-cycle-2",
+        "species_id": 116,
+        "species": "Margarobyas lawrencii",
+        "credited": false,
+        "evidence": {
+          "resume_from": "RESEARCH_READY",
+          "previous_lease_expired_at": "2026-11-11T20:18:00+08:00",
+          "baseline_main": "06a167a338840dc7b30694b3790e1cd7a2c4fc68",
+          "reason": "Expired lease; no intervening commit; resume persisted research and complete prompt without repeating research.",
+          "lease_expires_at": "2026-11-11T20:46:09.522+08:00",
+          "scientifically_verified": false
+        }
+      },
+      {
+        "batch_id": "20261111T193846+0800",
+        "cycle": 2,
+        "stage": "IMAGE_GENERATED",
+        "at": "2026-11-11T20:33:49.988+08:00",
+        "run_id": "20261111T195900+0800-cycle-2",
+        "species_id": 116,
+        "species": "Margarobyas lawrencii",
+        "credited": false,
+        "evidence": {
+          "initial_original": "owl-pet/production/generated/116-margarobyas-lawrencii-v5-initial-original.png",
+          "initial_blob": "f8ce31e5c19eb567cd9e15ddea5ab66092442afa",
+          "initial_bytes": 2744128,
+          "initial_sha256": "50e2c3070aa8f210af2b68edf84f389afe89a362c14551124c48f8fa7126ca74",
+          "geometry": "1536x1024",
+          "generation_seconds": 49.7,
+          "edit_required": "PENDING_FOCUSED_REVIEW",
+          "preliminary_inspection": "Full plate and three focused role crops opened. Exact title/subtitle/labels, exactly three birds, near-equal supported adults, dark eyes, untufted heads, bare tarsi/toes, cavity setting, and supported older juvenile passed; final review record pending.",
+          "scientifically_verified": false,
+          "lease_expires_at": "2026-11-11T20:48:49.988+08:00",
+          "byte_count_correction": "Corrected from prior off-by-two transcription after stat readback."
+        }
+      },
+      {
+        "batch_id": "20261111T193846+0800",
+        "cycle": 2,
+        "stage": "REVIEWED",
+        "at": "2026-11-11T20:35:50.187+08:00",
+        "run_id": "20261111T195900+0800-cycle-2",
+        "species_id": 116,
+        "species": "Margarobyas lawrencii",
+        "credited": false,
+        "evidence": {
+          "final_original": "owl-pet/production/generated/116-margarobyas-lawrencii-v5-initial-original.png",
+          "final_blob": "f8ce31e5c19eb567cd9e15ddea5ab66092442afa",
+          "final_bytes": 2744128,
+          "final_sha256": "50e2c3070aa8f210af2b68edf84f389afe89a362c14551124c48f8fa7126ca74",
+          "edit_count": 0,
+          "imagegen_invocations": 1,
+          "review_record": "owl-pet/research/reviews/116-margarobyas-lawrencii-v5-review.md",
+          "review_crops": [
+            "owl-pet/production/review-crops/116-margarobyas-lawrencii-v5-adult-male.jpg",
+            "owl-pet/production/review-crops/116-margarobyas-lawrencii-v5-adult-female.jpg",
+            "owl-pet/production/review-crops/116-margarobyas-lawrencii-v5-juvenile.jpg"
+          ],
+          "crop_blobs": [
+            "d61a7163a90e34bfc05177fc72490a2b891de842",
+            "2cbcf8396c2a3db0a053b9d588d105a37cbf53a1",
+            "abb24557a347fe322b3d22d22c99606f069acb97"
+          ],
+          "actual_views": [
+            "full plate",
+            "adult male crop",
+            "adult female crop",
+            "juvenile/cavity crop"
+          ],
+          "checks": {
+            "identity": "PASS_WITH_LIMITATION",
+            "bare_legs_support": "PASS",
+            "sex_direction": "PASS_WITH_LIMITATION",
+            "juvenile_stage": "PASS_WITH_LIMITATIONS",
+            "wing_action": "PASS_WITH_LIMITATIONS",
+            "text_count": "PASS",
+            "habitat": "PASS_WITH_LIMITATION"
+          },
+          "unknowns": [
+            "exact juvenile age and sex",
+            "iris chronology",
+            "continuous feather sequence",
+            "first-flight threshold",
+            "degree of independence",
+            "quantitative adult sex-size direction",
+            "exact individual/subspecific colour variation"
+          ],
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "lease_expires_at": "2026-11-11T20:50:50.187+08:00"
+        }
+      },
+      {
+        "batch_id": "20261111T193846+0800",
+        "cycle": 2,
+        "stage": "ARCHIVED",
+        "at": "2026-11-11T20:38:48.277+08:00",
+        "run_id": "20261111T195900+0800-cycle-2",
+        "species_id": 116,
+        "species": "Margarobyas lawrencii",
+        "credited": false,
+        "evidence": {
+          "concept_path": "owl-pet/design/concepts/116-margarobyas-lawrencii-v5.png",
+          "final_blob": "f8ce31e5c19eb567cd9e15ddea5ab66092442afa",
+          "final_bytes": 2744128,
+          "sha256": "50e2c3070aa8f210af2b68edf84f389afe89a362c14551124c48f8fa7126ca74",
+          "aliases": [
+            "owl-pet/production/generated/116-margarobyas-lawrencii-v5-initial-original.png",
+            "owl-pet/production/generated/116-margarobyas-lawrencii-v5-final-original.png",
+            "owl-pet/production/generated/116-margarobyas-lawrencii-v5-full-color.png",
+            "owl-pet/production/generated/116-margarobyas-lawrencii-v5-generated-master.png",
+            "owl-pet/production/reviewed/116-margarobyas-lawrencii-v5-reviewed-master.png",
+            "owl-pet/design/concepts/116-margarobyas-lawrencii-v5.png"
+          ],
+          "review_crops": 3,
+          "manifests": 3,
+          "manifest_counts": {
+            "design_upper": 817,
+            "design_concepts": 814,
+            "production": 807
+          },
+          "unique_species_count": 176,
+          "total_species": 251,
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "archive_commit_pending": false,
+          "readback_pending": false,
+          "lease_expires_at": "2026-11-11T20:53:48.277+08:00",
+          "archive_commit": "70dcf13b308a481cef5e45ece44637840c09c57c",
+          "archive_tree": "89d5e8cde72b469588eaecee13fc1387f15c3d4b"
+        }
+      },
+      {
+        "batch_id": "20261111T193846+0800",
+        "cycle": 2,
+        "stage": "VERIFIED",
+        "at": "2026-11-11T20:40:09.340+08:00",
+        "run_id": "20261111T195900+0800-cycle-2",
+        "species_id": 116,
+        "species": "Margarobyas lawrencii",
+        "credited": false,
+        "evidence": {
+          "archive_commit": "70dcf13b308a481cef5e45ece44637840c09c57c",
+          "archive_tree": "89d5e8cde72b469588eaecee13fc1387f15c3d4b",
+          "required_paths_verified": 18,
+          "exact_binary_paths_verified": 9,
+          "unique_binary_streams_read_back": 4,
+          "tree_entries": 4271,
+          "tree_truncated": false,
+          "initial_blob": "f8ce31e5c19eb567cd9e15ddea5ab66092442afa",
+          "initial_bytes": 2744128,
+          "concept_blob": "f8ce31e5c19eb567cd9e15ddea5ab66092442afa",
+          "concept_bytes": 2744128,
+          "crop_blobs": [
+            "d61a7163a90e34bfc05177fc72490a2b891de842",
+            "2cbcf8396c2a3db0a053b9d588d105a37cbf53a1",
+            "abb24557a347fe322b3d22d22c99606f069acb97"
+          ],
+          "manifest_counts": {
+            "design_upper": 817,
+            "design_concepts": 814,
+            "production": 807
+          },
+          "verification_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "ledger_credit_pending": true,
+          "lease_expires_at": "2026-11-11T20:55:09.340+08:00"
+        }
+      },
+      {
+        "batch_id": "20261111T193846+0800",
+        "cycle": 2,
+        "stage": "LEDGER_CREDITED",
+        "at": "2026-11-11T20:40:54.047+08:00",
+        "run_id": "20261111T195900+0800-cycle-2",
+        "species_id": 116,
+        "species": "Margarobyas lawrencii",
+        "credited": true,
+        "evidence": {
+          "verification_commit": "dcb7083e2f2fed15c01a84593964d2b152cced34",
+          "archive_commit": "70dcf13b308a481cef5e45ece44637840c09c57c",
+          "archive_tree": "89d5e8cde72b469588eaecee13fc1387f15c3d4b",
+          "run_record": "owl-pet/production/runs/20261111T195900+0800-cycle-2.md",
+          "batch_progress": "2/6",
+          "next_cycle": 3,
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "unique_species_count": 176,
+          "total_species": 251,
+          "scientifically_verified": false
+        }
+      },
+      {
+        "batch_id": "20261111T193846+0800",
+        "cycle": 3,
+        "stage": "STARTED",
+        "at": "2026-11-11T20:41:57.990+08:00",
+        "run_id": "20261111T204400+0800-cycle-3",
+        "species_id": 118,
+        "species": "Megascops cooperi",
+        "credited": false,
+        "evidence": {
+          "run_record": "owl-pet/production/runs/20261111T204400+0800-cycle-3.md",
+          "baseline_main": "d01279b2cb17f571e33a8d7ac27796582822774e",
+          "selection_note": "#117 already has verified v9; #118 is the next numbered repository-backed target and ends at v4 without a dedicated visual review record. V5 will re-read species-specific adult, habitat/nest and juvenile evidence, inspect v4, preserve v1-v4, and avoid unsupported sex-size or juvenile-flight claims.",
+          "prior_version": "owl-pet/design/concepts/118-megascops-cooperi-v4.png",
+          "lease_expires_at": "2026-11-11T20:56:57.990+08:00",
+          "scientifically_verified": false
+        }
+      },
+      {
+        "batch_id": "20261111T193846+0800",
+        "cycle": 3,
+        "stage": "RESEARCH_READY",
+        "at": "2026-11-11T20:45:18.437+08:00",
+        "run_id": "20261111T204400+0800-cycle-3",
+        "species_id": 118,
+        "species": "Megascops cooperi",
+        "credited": false,
+        "evidence": {
+          "research_record": "owl-pet/research/species/118-megascops-cooperi-v5.md",
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "new_verified_sources": 3,
+          "reused_or_reread_sources": 4,
+          "corrected_boundaries": 2,
+          "prior_visual_inspected": true,
+          "uploaded_mikkola_accessible": false,
+          "design_boundary": "near-equal pale adults with fully feathered tarsi and bristled toes; age-unknown older fledgling supported in documented defensive display with softened coverts and no flight claim",
+          "unknowns": [
+            "exact juvenile age and sex",
+            "continuous feather sequence",
+            "first-flight threshold",
+            "degree of independence",
+            "quantitative sex-size ratio",
+            "subspecific detail"
+          ],
+          "lease_expires_at": "2026-11-11T21:00:18.437+08:00",
+          "scientifically_verified": false
+        }
+      },
+      {
+        "batch_id": "20261111T193846+0800",
+        "cycle": 3,
+        "stage": "IMAGE_GENERATED",
+        "at": "2026-11-11T20:47:25.503+08:00",
+        "run_id": "20261111T204400+0800-cycle-3",
+        "species_id": 118,
+        "species": "Megascops cooperi",
+        "credited": false,
+        "evidence": {
+          "initial_original": "owl-pet/production/generated/118-megascops-cooperi-v5-initial-original.png",
+          "initial_blob": "2585d8ab2a9d36f6921e741e2cf95a6abe86e2c2",
+          "initial_bytes": 3456977,
+          "initial_sha256": "f70e2c7b5556e3e27101d0528f8f0290f9b9e38a8f854b0898af6d3099a6b1f2",
+          "geometry": "1536x1024",
+          "generation_seconds": 50.3,
+          "edit_required": "PENDING_FOCUSED_REVIEW",
+          "preliminary_inspection": "Full plate opened. Exact text/count/order, near-equal adults, fully feathered tarsi, bristled toes, two pale wing bands, supported defensive juvenile and cavity/campus-edge setting passed. Focused crop review pending for juvenile flight-feather softness and tail.",
+          "scientifically_verified": false,
+          "lease_expires_at": "2026-11-11T21:02:25.503+08:00"
+        }
+      },
+      {
+        "batch_id": "20261111T193846+0800",
+        "cycle": 3,
+        "stage": "REVIEWED",
+        "at": "2026-11-11T20:48:54.696+08:00",
+        "run_id": "20261111T204400+0800-cycle-3",
+        "species_id": 118,
+        "species": "Megascops cooperi",
+        "credited": false,
+        "evidence": {
+          "final_original": "owl-pet/production/generated/118-megascops-cooperi-v5-initial-original.png",
+          "final_blob": "2585d8ab2a9d36f6921e741e2cf95a6abe86e2c2",
+          "final_bytes": 3456977,
+          "final_sha256": "f70e2c7b5556e3e27101d0528f8f0290f9b9e38a8f854b0898af6d3099a6b1f2",
+          "geometry": "1536x1024",
+          "edit_count": 0,
+          "imagegen_invocations": 1,
+          "review_record": "owl-pet/research/reviews/118-megascops-cooperi-v5-review.md",
+          "review_crops": [
+            "owl-pet/production/review-crops/118-megascops-cooperi-v5-adult-male.jpg",
+            "owl-pet/production/review-crops/118-megascops-cooperi-v5-adult-female.jpg",
+            "owl-pet/production/review-crops/118-megascops-cooperi-v5-juvenile.jpg"
+          ],
+          "crop_blobs": [
+            "8f3c696093969b871a09fce63588423661c852bf",
+            "44a46a1d938d55bebd2ecf35d8af8579b3966335",
+            "85f9eee834f4b4e51625d228cd696097a4b6ccdb"
+          ],
+          "actual_views": [
+            "full plate",
+            "adult male crop",
+            "adult female crop",
+            "juvenile crop"
+          ],
+          "checks": {
+            "identity": "PASS_WITH_LIMITATION",
+            "legs_toes": "PASS",
+            "sex_direction": "PASS_WITH_LIMITATION",
+            "juvenile_action": "PASS_WITH_LIMITATIONS",
+            "text_count_order": "PASS",
+            "habitat": "PASS_WITH_LIMITATION"
+          },
+          "unknowns": [
+            "exact juvenile age and sex",
+            "continuous feather sequence",
+            "first-flight threshold",
+            "degree of independence",
+            "quantitative sex-size ratio",
+            "subspecific detail"
+          ],
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "lease_expires_at": "2026-11-11T21:03:54.696+08:00"
+        }
+      },
+      {
+        "batch_id": "20261111T193846+0800",
+        "cycle": 3,
+        "stage": "ARCHIVED",
+        "at": "2026-11-11T20:49:56.613+08:00",
+        "run_id": "20261111T204400+0800-cycle-3",
+        "species_id": 118,
+        "species": "Megascops cooperi",
+        "credited": false,
+        "evidence": {
+          "concept_path": "owl-pet/design/concepts/118-megascops-cooperi-v5.png",
+          "final_blob": "2585d8ab2a9d36f6921e741e2cf95a6abe86e2c2",
+          "final_bytes": 3456977,
+          "sha256": "f70e2c7b5556e3e27101d0528f8f0290f9b9e38a8f854b0898af6d3099a6b1f2",
+          "aliases": [
+            "owl-pet/production/generated/118-megascops-cooperi-v5-initial-original.png",
+            "owl-pet/production/generated/118-megascops-cooperi-v5-final-original.png",
+            "owl-pet/production/generated/118-megascops-cooperi-v5-full-color.png",
+            "owl-pet/production/generated/118-megascops-cooperi-v5-generated-master.png",
+            "owl-pet/production/reviewed/118-megascops-cooperi-v5-reviewed-master.png",
+            "owl-pet/design/concepts/118-megascops-cooperi-v5.png"
+          ],
+          "review_crops": 3,
+          "manifests": 3,
+          "manifest_counts": {
+            "design_upper": 818,
+            "design_concepts": 815,
+            "production": 808
+          },
+          "unique_species_count": 176,
+          "total_species": 251,
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "archive_commit_pending": false,
+          "readback_pending": false,
+          "lease_expires_at": "2026-11-11T21:04:56.613+08:00",
+          "archive_commit": "03d15e3a182fd2c3a26e0134db2865b9e21f6b46",
+          "archive_tree": "1c383414cfecd386347279e62cb4822e1864a445"
+        }
+      },
+      {
+        "batch_id": "20261111T193846+0800",
+        "cycle": 3,
+        "stage": "VERIFIED",
+        "at": "2026-11-11T20:50:59.967+08:00",
+        "run_id": "20261111T204400+0800-cycle-3",
+        "species_id": 118,
+        "species": "Megascops cooperi",
+        "credited": false,
+        "evidence": {
+          "archive_commit": "03d15e3a182fd2c3a26e0134db2865b9e21f6b46",
+          "archive_tree": "1c383414cfecd386347279e62cb4822e1864a445",
+          "required_paths_verified": 18,
+          "exact_binary_paths_verified": 9,
+          "unique_binary_streams_read_back": 4,
+          "tree_entries": 4283,
+          "tree_truncated": false,
+          "initial_blob": "2585d8ab2a9d36f6921e741e2cf95a6abe86e2c2",
+          "initial_bytes": 3456977,
+          "concept_blob": "2585d8ab2a9d36f6921e741e2cf95a6abe86e2c2",
+          "concept_bytes": 3456977,
+          "crop_blobs": [
+            "8f3c696093969b871a09fce63588423661c852bf",
+            "44a46a1d938d55bebd2ecf35d8af8579b3966335",
+            "85f9eee834f4b4e51625d228cd696097a4b6ccdb"
+          ],
+          "manifest_counts": {
+            "design_upper": 818,
+            "design_concepts": 815,
+            "production": 808
+          },
+          "verification_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "ledger_credit_pending": true,
+          "lease_expires_at": "2026-11-11T21:05:59.967+08:00"
+        }
+      },
+      {
+        "batch_id": "20261111T193846+0800",
+        "cycle": 3,
+        "stage": "LEDGER_CREDITED",
+        "at": "2026-11-11T20:51:47.150+08:00",
+        "run_id": "20261111T204400+0800-cycle-3",
+        "species_id": 118,
+        "species": "Megascops cooperi",
+        "credited": true,
+        "evidence": {
+          "verification_commit": "01abc6d1173554dd0930f83694c4ae10e139fe74",
+          "archive_commit": "03d15e3a182fd2c3a26e0134db2865b9e21f6b46",
+          "archive_tree": "1c383414cfecd386347279e62cb4822e1864a445",
+          "run_record": "owl-pet/production/runs/20261111T204400+0800-cycle-3.md",
+          "batch_progress": "3/6",
+          "next_cycle": 4,
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "unique_species_count": 176,
+          "total_species": 251,
+          "scientifically_verified": false
+        }
+      },
+      {
+        "batch_id": "20261111T193846+0800",
+        "cycle": 4,
+        "stage": "STARTED",
+        "at": "2026-11-11T20:52:30.047+08:00",
+        "run_id": "20261111T205600+0800-cycle-4",
+        "species_id": 119,
+        "species": "Megascops centralis",
+        "credited": false,
+        "evidence": {
+          "run_record": "owl-pet/production/runs/20261111T205600+0800-cycle-4.md",
+          "baseline_main": "e1ea11505b3416d7072ad1cdb4d5e4278c84558b",
+          "selection_note": "#118 v5 credited; #119 is the next numbered repository-backed target and currently ends at v4 PASS_WITH_LIMITATIONS with no dedicated review file.",
+          "prior_version": "owl-pet/design/concepts/119-megascops-centralis-v4.png",
+          "lease_expires_at": "2026-11-11T21:07:30.047+08:00",
+          "scientifically_verified": false
+        }
+      },
+      {
+        "batch_id": "20261111T193846+0800",
+        "cycle": 4,
+        "stage": "LEASE_RESUMED",
+        "at": "2026-11-11T21:27:30+08:00",
+        "run_id": "20261111T205600+0800-cycle-4",
+        "species_id": 119,
+        "species": "Megascops centralis",
+        "credited": false,
+        "evidence": {
+          "resume_from": "STARTED",
+          "previous_lease_expired_at": "2026-11-11T21:07:30.047+08:00",
+          "baseline_main": "0e0d7c91f5ae432cd580783d1fb439b64458b7e3",
+          "reason": "Expired lease; main and run record checked; no intervening production commit. Continue original batch/cycle without duplicate output.",
+          "lease_expires_at": "2026-11-11T21:42:30+08:00",
+          "scientifically_verified": false
+        }
+      },
+      {
+        "batch_id": "20261111T193846+0800",
+        "cycle": 4,
+        "stage": "RESEARCH_READY",
+        "at": "2026-11-11T21:31:00+08:00",
+        "run_id": "20261111T205600+0800-cycle-4",
+        "species_id": 119,
+        "species": "Megascops centralis",
+        "credited": false,
+        "evidence": {
+          "research_record": "owl-pet/research/species/119-megascops-centralis-v5.md",
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "new_indexed_sources": 2,
+          "reused_or_reread_sources": 3,
+          "corrected_boundaries": 1,
+          "prior_visual_inspected": true,
+          "uploaded_mikkola_accessible": false,
+          "complete_prompt_saved": true,
+          "design_boundary": "formed barred remiges but compact above feet/sill, no projecting tail, bilateral support; near-equal adults with natural asymmetric poses and irregular pattern",
+          "scientifically_verified": false,
+          "lease_expires_at": "2026-11-11T21:46:00+08:00"
+        }
+      },
+      {
+        "batch_id": "20261111T193846+0800",
+        "cycle": 4,
+        "stage": "IMAGE_GENERATED",
+        "at": "2026-11-11T21:36:22+08:00",
+        "run_id": "20261111T205600+0800-cycle-4",
+        "species_id": 119,
+        "species": "Megascops centralis",
+        "credited": false,
+        "evidence": {
+          "initial_original": "owl-pet/production/generated/119-megascops-centralis-v5-initial-original.png",
+          "initial_blob": "PENDING_UNTIL_COMMIT",
+          "initial_bytes": 3355983,
+          "initial_sha256": "36edc3074424bceb1646e2b18aac5dd38999e914f115279ea2788e2674c8e19c",
+          "geometry": "1536x1024",
+          "generation_seconds": 55.9,
+          "edit_required": "PENDING_FOCUSED_REVIEW",
+          "preliminary_inspection": "Full plate opened: exact title/subtitle/three labels and exactly three birds; near-equal supported adults; asymmetric poses; older gray mesoptile juvenile with no projecting tail, compact formed wing feathers above the sill, and both feet supported. Focused crops pending.",
+          "scientifically_verified": false,
+          "lease_expires_at": "2026-11-11T21:51:22+08:00"
+        }
       }
     ],
-    "stage": "STARTED",
-    "completed_count": 0
+    "stage": "IMAGE_GENERATED",
+    "completed_count": 3
   },
   "events": [
     {

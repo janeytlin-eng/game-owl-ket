@@ -40345,8 +40345,8 @@
       "next_cycle": 5,
       "active_cycle": 5,
       "started_at": "2026-11-11T23:36:00+08:00",
-      "updated_at": "2026-11-12T02:45:00+08:00",
-      "current_stage": "STARTED",
+      "updated_at": "2026-11-12T02:52:00+08:00",
+      "current_stage": "RESEARCH_READY",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex-owl-production",
@@ -40354,8 +40354,8 @@
         "batch_id": "20261111T233600+0800",
         "cycle": 5,
         "species_id": 129,
-        "heartbeat_at": "2026-11-12T02:45:00+08:00",
-        "expires_at": "2026-11-12T03:00:00+08:00"
+        "heartbeat_at": "2026-11-12T02:52:00+08:00",
+        "expires_at": "2026-11-12T03:07:00+08:00"
       },
       "active": null,
       "stage": "RESEARCH_READY",
@@ -41285,6 +41285,48 @@
             "lease_expires_at": "2026-11-12T03:00:00+08:00",
             "scientifically_verified": false
           }
+        },
+        {
+          "batch_id": "20261111T233600+0800",
+          "cycle": 5,
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-12T02:52:00+08:00",
+          "run_id": "20261112T024500+0800-cycle-5",
+          "species_id": 129,
+          "species": "Megascops hoyi",
+          "credited": false,
+          "evidence": {
+            "research_record": "owl-pet/research/species/129-megascops-hoyi-v5.md",
+            "source_index": "owl-pet/research/SOURCE_INDEX.md",
+            "new_source_ids": [
+              "HOY-ORTIZ-2009-P11-14"
+            ],
+            "reused_source_ids": [
+              "HOY-KS1989-P4",
+              "HOY-ITIS-686675-2026",
+              "HOY-KOENIG-2000",
+              "HOY-MIK2013-228"
+            ],
+            "source_counts": {
+              "new": 1,
+              "reused_or_reread": 4,
+              "unverified_leads": 0,
+              "corrected_boundaries": 2
+            },
+            "design_boundary": "Near-equal brown-morph adults; one age-unknown fledged juvenile with loose residual fluff, no visible ear tufts, formed but soft compact wing/tail, and both feet gripping a natural laurel cavity rim; no flight, exact age, sex or species-wide nest-dimension claim.",
+            "unknowns": [
+              "exact juvenile age and sex",
+              "juvenile iris and bill chronology",
+              "continuous feather sequence",
+              "first-flight and independence timing",
+              "population-level adult sex-size direction",
+              "universality of the recorded tree species, cavity geometry and feather lining"
+            ],
+            "complete_prompt_saved": true,
+            "uploaded_mikkola_accessible": false,
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-12T03:07:00+08:00"
+          }
         }
       ],
       "in_progress": {
@@ -41292,7 +41334,7 @@
         "species_id": 129,
         "species": "Megascops hoyi",
         "version": 5,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "run_id": "20261112T024500+0800-cycle-5"
       }
     }

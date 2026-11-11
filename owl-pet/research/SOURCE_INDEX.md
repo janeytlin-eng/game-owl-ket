@@ -4628,3 +4628,19 @@ Reused/re-read without duplicate IDs for #130 v5: `KOEP-ITIS-686665-2026`, repos
 - **Source facts:** Dantas et al. used 252 specimens and 83 recordings/65 individuals, found no significant morphometric differences among clades and substantial within-clade plumage variation. SACC did not accept the proposed additional species and recorded concerns about incomplete genomic/geographic sampling and absent concrete morphological/vocal diagnoses. WA2661782 supports only an age/sex-unknown fluffy barred young with pale bill and secure perch support. Mikkola explicitly states the juvenile is not known.
 - **Corrections/design support:** keep “Guiana Shield concept” as an explicit repository design scope rather than a claim of universally settled species limits; do not impose a sex-size direction; label the photographed stage `OLDER YOUNG · AGE UNKNOWN`; use a compact down-obscured wing and balanced two-foot shuffle, with no nestling/fledgling/flight claim.
 - **Counts/limits:** new source IDs 0; re-read/reused 4; corrected boundaries 2. Exact age, sex, development timetable, flight threshold, independence, iris chronology, sex-size ratio, colour morph and genetic/vocal assignment remain unknown. Full prompt: `owl-pet/research/species/131-megascops-watsonii-v5.md`. Scientific verification remains false.
+
+
+## 2026-11-12 — #132 *Strix davidi* v5 — current-name cross-check and four-week boundary
+
+### DAV-CLEMENTS-2022-LUMP-2026 — new
+- **Title / institution / date:** Updates & Corrections — October 2022 / Clements Checklist, Cornell Lab of Ornithology / 2022.
+- **URL:** https://www.birds.cornell.edu/clementschecklist/introduction/updateindex/october-2022/updates-corrections-october-2022/
+- **Accessed:** 2026-11-12.
+- **Source type:** official institutional world-checklist update.
+- **Species / stage:** `Strix uralensis davidi`; nomenclature only.
+- **Location actually read:** page 169 treatment for Ural Owl / Pere David's Owl and its references.
+- **Evidence:** the update says plumage and vocalizations broadly overlap with Ural Owl and treats `davidi` as the monotypic Ural Owl (Pere David's) group.
+- **Limits / confidence:** high for the Clements taxonomic treatment; no juvenile-development, adult sex-size or exact visual-diagnostic claim.
+- **Decision:** cross-checks `Strix uralensis davidi` as the current name for project #132; does not change the 251-item roster or transfer generic pale Ural Owl traits.
+
+**Freshly re-read / reused without duplicate IDs:** `DAV-SCHERZINGER-2014` (current article page and Fig.11/Table 4 text; pp.54–93, especially pp.68–69), `DAV-ITIS-686975-2026` (lines 42–100), `DAV-SCHERZINGER-FANG-2006`, `DAV-FANG-ETAL-2009` (Ardea 97(4):649, lines 53–133), and repository-pinned `DAV-MIK2013-348` (not newly opened). The approximately-four-week nest-box stage is directly supported; exact hatch date, full feather timetable, first-flight threshold and universal female-larger ratio remain unknown. Full v5 boundary and prompt: `owl-pet/research/species/132-strix-davidi-v5.md`.

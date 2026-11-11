@@ -829,3 +829,33 @@ Bottom labels under the correct birds: "ADULT MALE" · "OLDER JUVENILE · AGE UN
 Avoid: extra birds; extra, fused or missing feet; floating birds; long adult-regular juvenile wing layers reaching the feet; mature adult facial disc on the juvenile; juvenile flight display; male visibly larger/taller; female visibly smaller; fixed giant female; cloned adult poses; bright-yellow adult eyes; black bill; open grassland; snow; active nest claim; eggs; prey; watermark; logo; misspelled or additional text.
 
 Applied result: one generation, no edit; full plate and three role crops reviewed. V4's overlong adult-regular juvenile wing was replaced by a short rounded formed but down-veiled wing on a bilaterally supported age-unknown older juvenile. PASS_WITH_LIMITATIONS; scientifically_verified=false.
+
+
+## #134 v5 — *Megascops sanctaecatarinae* — batch 20261112T043100+0800 cycle 4/6
+
+### Generation prompt
+
+Create one polished 3:2 horizontal scientific-concept plate in the already established owl-pet style: warm cream parchment background, refined hand-painted natural-history illustration with slightly stylized expressive but anatomically plausible owls, muted southern Atlantic Forest palette, restrained botanical and bark details, soft vignette, elegant dark-brown serif typography, no panel boxes, no badges, no extra text.
+
+Exact header:
+#134 · LONG-TUFTED SCREECH-OWL
+Megascops sanctaecatarinae
+
+Exactly THREE owls and no other birds, left-to-right:
+1. ADULT MALE
+2. OLDER JUVENILE — AGE UNKNOWN
+3. ADULT FEMALE
+
+Adults: near-equal overall height and body mass; do not impose a female-larger rule. Make them individually posed, not mirrored clones. Both are stocky medium screech-owls with broad rounded heads, flexible prominent ear tufts, dark facial-disc border, variable amber-to-brown iris, short pale grey bill, feathered tarsi, brown-grey plumage with coarse dark vertical streaks and a visibly scaly/broken pattern across the breast. The male stands alert three-quarter left on a mossy branch with one tuft slightly lowered; the female stands three-quarter right on a separate bark support with a calmer compressed pose. Do not use ear-tuft length or iris colour as the sole identity cue. Keep their scale almost equal.
+
+Juvenile: source-bounded age-unknown older young at the central lip of a natural tree cavity, upper body and both feet naturally supported and visible only where defensible. Charcoal-grey loose soft mesoptile, darker facial mask, very short emerging tufts, greenish-grey open bill in a quiet food-begging posture. Wings, tail, lower abdomen and hidden foot anatomy remain compact, down-veiled and largely concealed by the cavity rim; no mature flight feathers, no spread wing, no leap, no hovering, no standing unsupported, no claim of fledging or flight. Give it a slightly head-turned posture, distinct from previous centered front-facing juvenile poses.
+
+Environment: one coherent southern Atlantic Forest / Araucaria-edge composition with weathered trunk, cavity lip, moss, lichen, a few riparian leaves and distant humid forest glow. This is habitat context, not a claim that the pictured cavity is an active documented nest. Natural footing and contact shadows for every visible foot.
+
+Typography and count constraints are strict: exact title, exact scientific name, exact three role labels, exactly three owls. No extra chicks, silhouettes, eggs, prey, duplicate heads, detached feet, human objects, maps, measurement rulers or decorative owl icons. Preserve the established visual language of repository concepts #131–#133 v5 while correcting #134 v4's reversed title hierarchy and avoiding cloned adult poses.
+
+### Evidence-driven edit prompt
+
+Edit this existing owl-pet concept plate conservatively. Preserve the entire composition, exact title, scientific name, all three role labels, exactly three birds, both adults, their near-equal scale, every adult foot, background, color, typography, and painted style. Change ONLY the central older juvenile at the tree-cavity lip: raise/thicken the front wooden cavity rim just enough to conceal the juvenile's complete feet, toes, claws, lower abdomen, tail and wing tips. Leave at most a subtle shadow/contact hint or tiny down-covered toe tips; do not show large mature talons. Keep the juvenile securely supported inside the cavity, with loose charcoal-grey mesoptile, dark face, tiny emerging tufts, and a small open greenish-grey bill. Do not add or remove any bird and do not alter any text. The juvenile must not appear to fly, leap, hover or stand unsupported.
+
+Applied result: one generation plus one edit. Initial mature-looking juvenile feet exceeded the direct-photo boundary; edited cavity rim conceals unsupported anatomy. Edited full plate and all three role crops re-opened. PASS_WITH_LIMITATIONS; scientifically_verified=false.

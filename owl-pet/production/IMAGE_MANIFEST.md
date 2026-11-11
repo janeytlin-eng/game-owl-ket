@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T06:00:36+08:00",
+  "updated": "2026-11-12T06:14:41+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -30688,7 +30688,97 @@
       "verification_commit_pending": false,
       "verification_commit": "8d5c4fc0ddd7bb343f0120b1167805a13bad5ba9",
       "ledger_credited_at": "2026-11-12T06:00:36+08:00"
+    },
+    {
+      "id": "134-megascops-sanctaecatarinae-v5",
+      "species_id": 134,
+      "common_name": "Long-tufted Screech-Owl",
+      "scientific_name": "Megascops sanctaecatarinae",
+      "current_name_crosswalk": "Megascops sanctaecatarinae",
+      "historical_names": [
+        "Otus sanctaecatarinae",
+        "Scops sanctaecatarinae"
+      ],
+      "path": "design/concepts/134-megascops-sanctaecatarinae-v5.png",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "prior_versions_retained": true,
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "imagegen_invocations": 2,
+      "status": "V5 preserves v1-v4, corrects the common-name title hierarchy, keeps near-equal non-cloned adults, and confines the age-unknown charcoal-grey older juvenile to a cavity-supported upper-body boundary. One edit concealed unsupported mature-looking juvenile feet. Exact age, hidden anatomy, fledging/flight, iris chronology, quantitative sex-size direction and active nest identity remain unknown.",
+      "source_ids": [
+        "LTSC-PAGANO-2021",
+        "LTSC-KACHIMARECK-2014-WA1527488",
+        "LTSC-ITIS-686677",
+        "LTSC-MENQ-BICHINSKI-2018"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/134-megascops-sanctaecatarinae-v5.md",
+      "review_record": "research/reviews/134-megascops-sanctaecatarinae-v5-review.md",
+      "run_record": "production/runs/20261112T060100+0800-cycle-4.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 3210079,
+      "sha256": "b6a952d1e806dba1ea83999a52660385e4348d08688c40260eea841f8552d211",
+      "git_blob": "ad8674d3d188ce13b3702ede469d1d930e355b7c",
+      "initial_original_path": "production/generated/134-megascops-sanctaecatarinae-v5-initial-original.png",
+      "initial_original_blob": "9e12c584216f6868b98fd6935994c7a086aaffbf",
+      "initial_original_size_bytes": 3500863,
+      "initial_original_sha256": "55a2c86ab423e3629931ea75560ef9cd5b6cdb724c2ec322023151716d1ec93b",
+      "final_original_path": "production/generated/134-megascops-sanctaecatarinae-v5-final-original.png",
+      "final_original_blob": "ad8674d3d188ce13b3702ede469d1d930e355b7c",
+      "final_original_size_bytes": 3210079,
+      "final_original_sha256": "b6a952d1e806dba1ea83999a52660385e4348d08688c40260eea841f8552d211",
+      "full_color_source_path": "production/generated/134-megascops-sanctaecatarinae-v5-full-color.png",
+      "full_color_source_blob": "ad8674d3d188ce13b3702ede469d1d930e355b7c",
+      "full_color_source_size_bytes": 3210079,
+      "full_color_source_sha256": "b6a952d1e806dba1ea83999a52660385e4348d08688c40260eea841f8552d211",
+      "generated_path": "production/generated/134-megascops-sanctaecatarinae-v5-generated-master.png",
+      "generated_blob": "ad8674d3d188ce13b3702ede469d1d930e355b7c",
+      "generated_size_bytes": 3210079,
+      "reviewed_path": "production/reviewed/134-megascops-sanctaecatarinae-v5-reviewed-master.png",
+      "reviewed_blob": "ad8674d3d188ce13b3702ede469d1d930e355b7c",
+      "reviewed_size_bytes": 3210079,
+      "review_crops": [
+        {
+          "path": "production/review-crops/134-megascops-sanctaecatarinae-v5-adult-male.png",
+          "blob": "be7ead85c094259a84048da77a659e44d5f848d9",
+          "size_bytes": 652964
+        },
+        {
+          "path": "production/review-crops/134-megascops-sanctaecatarinae-v5-older-juvenile.png",
+          "blob": "98ffc3bbe120004dc7b35b58bca03bdc228cebd1",
+          "size_bytes": 573691
+        },
+        {
+          "path": "production/review-crops/134-megascops-sanctaecatarinae-v5-adult-female.png",
+          "blob": "e291cc40f416a8810b4ed0b26376538b4b06c99f",
+          "size_bytes": 614958
+        }
+      ],
+      "archive_note": "V4, initial v5, edited v5 and all three final role crops opened. Correct title hierarchy, near-equal adults and cavity-bounded juvenile applied. Initial complete juvenile feet were evidence-exceeding and removed with one edit; edited crop re-opened. New1/reused3. Uploaded Mikkola unavailable; no fresh page claim. Science false. Archive verification pending.",
+      "readback_pending": true,
+      "archive_commit_pending": true,
+      "archived_at": "2026-11-12T06:14:41+08:00",
+      "archive_commit": null,
+      "archive_tree": null,
+      "exact_readback": false,
+      "required_paths_verified": 0,
+      "exact_binary_paths_verified": 0,
+      "unique_binary_streams_read_back": 0,
+      "verified_at": null,
+      "verification_result": null
     }
   ],
-  "updated_at": "2026-11-12T06:00:36+08:00"
+  "updated_at": "2026-11-12T06:14:41+08:00"
 }

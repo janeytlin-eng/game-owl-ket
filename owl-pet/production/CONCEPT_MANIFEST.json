@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T17:49:13+08:00",
+  "updated": "2026-11-11T18:08:08+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -30671,7 +30671,97 @@
       "unique_binary_streams_read_back": 5,
       "verified_at": "2026-11-11T17:49:13+08:00",
       "verification_result": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "id": "111-otus-cyprius-v4",
+      "path": "design/concepts/111-otus-cyprius-v4.png",
+      "species_id": 111,
+      "scientific_name": "Otus cyprius",
+      "historical_names": [
+        "Otus scops cyprius",
+        "Scops cyprius"
+      ],
+      "common_name": "Cyprus Scops Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3
+      ],
+      "prior_versions_retained": true,
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "imagegen_invocations": 2,
+      "status": "V4 preserves v1-v3 and corrects pale warm-grey, tall-tufted, tidy-pinstripe tendencies toward a dark cool Cyprus-grey owl with smaller tufts, broader irregular streaks, coarse vermiculation and larger white spots. Adults remain near-equal. The center bird is an age-unknown photographed-stage fledged juvenile with shorter softer wing-tail and full branch support. Exact age, sex, flight competence, independence and continuous feather chronology remain unknown.",
+      "source_ids": [
+        "CYSO-MIKKOLA-2013-P122-123",
+        "CYSO-FLINT-2015",
+        "CYSO-SOUNDAPPROACH-2013PHOTOS",
+        "CYSO-BIRDLIFE-CYPRUS-2026",
+        "CYSO-IEZEKIEL-ETAL-2021"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/111-otus-cyprius-v4.md",
+      "review_record": "research/reviews/111-otus-cyprius-v4-review.md",
+      "run_record": "production/runs/20261111T175057+0800-cycle-5.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 2976479,
+      "sha256": "7e69cdee62cfae52a4dbc257b221b156f3d3b7909d751a25d0475587b21e3556",
+      "git_blob": "41656e4e041059ea6076ba06673ae5eb84c04b32",
+      "initial_original_path": "production/generated/111-otus-cyprius-v4-initial-original.png",
+      "initial_original_blob": "e84816c4d800a128460ab4d57cdacb593dfa70b2",
+      "initial_original_size_bytes": 3184599,
+      "initial_original_sha256": "a346a36fee75db3a0b9f1bfc6587361496e81e66805ece068933da51956a0a9f",
+      "final_original_path": "production/generated/111-otus-cyprius-v4-final-original.png",
+      "final_original_blob": "41656e4e041059ea6076ba06673ae5eb84c04b32",
+      "final_original_size_bytes": 2976479,
+      "final_original_sha256": "7e69cdee62cfae52a4dbc257b221b156f3d3b7909d751a25d0475587b21e3556",
+      "full_color_source_path": "production/generated/111-otus-cyprius-v4-full-color.png",
+      "full_color_source_blob": "41656e4e041059ea6076ba06673ae5eb84c04b32",
+      "full_color_source_size_bytes": 2976479,
+      "full_color_source_sha256": "7e69cdee62cfae52a4dbc257b221b156f3d3b7909d751a25d0475587b21e3556",
+      "generated_path": "production/generated/111-otus-cyprius-v4-generated-master.png",
+      "generated_blob": "41656e4e041059ea6076ba06673ae5eb84c04b32",
+      "generated_size_bytes": 2976479,
+      "reviewed_path": "production/reviewed/111-otus-cyprius-v4-reviewed-master.png",
+      "reviewed_blob": "41656e4e041059ea6076ba06673ae5eb84c04b32",
+      "reviewed_size_bytes": 2976479,
+      "review_crops": [
+        {
+          "role": "male",
+          "path": "production/review-crops/111-otus-cyprius-v4-adult-male.jpg",
+          "blob": "4a84545835827baaab8035f4ef6a0a01d1d75085",
+          "size_bytes": 204025
+        },
+        {
+          "role": "juvenile",
+          "path": "production/review-crops/111-otus-cyprius-v4-juvenile.jpg",
+          "blob": "76f418b002441fccf44aefcfa60dc3478857a082",
+          "size_bytes": 163667
+        },
+        {
+          "role": "female",
+          "path": "production/review-crops/111-otus-cyprius-v4-adult-female.jpg",
+          "blob": "49733bf28285f8393757f77d12839f1c3393670a",
+          "size_bytes": 178298
+        },
+        {
+          "role": "support",
+          "path": "production/review-crops/111-otus-cyprius-v4-support.jpg",
+          "blob": "32d17f5febf919e9ea34a5d640635c2e63ece81a",
+          "size_bytes": 294706
+        }
+      ],
+      "archive_note": "V4 full plate and four independent role/support crops opened after one evidence-led edit. Mikkola pp.122-123/PDF124-125, Flint 2015, a direct field-photo sequence, BirdLife Cyprus and a 2021 primary nest-box study are indexed. Science remains false.",
+      "readback_pending": true,
+      "archive_commit_pending": true,
+      "archived_at": "2026-11-11T18:08:08+08:00"
     }
   ],
-  "updated_at": "2026-11-11T17:49:13+08:00"
+  "updated_at": "2026-11-11T18:08:08+08:00"
 }

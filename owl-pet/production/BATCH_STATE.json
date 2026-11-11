@@ -41495,8 +41495,8 @@
       "next_cycle": 5,
       "active_cycle": 5,
       "started_at": "2026-11-12T04:31:00+08:00",
-      "updated_at": "2026-11-12T06:27:00+08:00",
-      "current_stage": "REVIEWED",
+      "updated_at": "2026-11-12T06:30:00+08:00",
+      "current_stage": "ARCHIVED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex-owl-production",
@@ -41504,18 +41504,18 @@
         "batch_id": "20261112T043100+0800",
         "cycle": 5,
         "species_id": 135,
-        "heartbeat_at": "2026-11-12T06:27:00+08:00",
-        "expires_at": "2026-11-12T06:42:00+08:00"
+        "heartbeat_at": "2026-11-12T06:30:00+08:00",
+        "expires_at": "2026-11-12T06:45:00+08:00"
       },
       "active": {
         "run_id": "20261112T061900+0800-cycle-5",
         "cycle": 5,
         "species_id": 135,
         "species": "Otus silvicola",
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "run_record": "owl-pet/production/runs/20261112T061900+0800-cycle-5.md"
       },
-      "stage": "REVIEWED",
+      "stage": "ARCHIVED",
       "completed_count": 4,
       "stage_events": [
         {
@@ -42647,6 +42647,34 @@
             "review_result": "PASS_WITH_LIMITATIONS",
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-12T06:42:00+08:00"
+          }
+        },
+        {
+          "batch_id": "20261112T043100+0800",
+          "cycle": 5,
+          "stage": "ARCHIVED",
+          "at": "2026-11-12T06:30:00+08:00",
+          "run_id": "20261112T061900+0800-cycle-5",
+          "species_id": 135,
+          "species": "Otus silvicola",
+          "credited": false,
+          "evidence": {
+            "archive_commit_pending": true,
+            "concept_path": "owl-pet/design/concepts/135-otus-silvicola-v5.png",
+            "concept_blob": "c7139548a091f216646840c678290212c5900531",
+            "concept_bytes": 3328280,
+            "manifest_counts": {
+              "design_image": 815,
+              "design_concept": 827,
+              "production_image": 805
+            },
+            "review_record": "owl-pet/research/reviews/135-otus-silvicola-v5-review.md",
+            "research_record": "owl-pet/research/species/135-otus-silvicola-v5.md",
+            "source_index": "owl-pet/research/SOURCE_INDEX.md",
+            "prompts_full": "owl-pet/production/PROMPTS_FULL.md",
+            "review_result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-12T06:45:00+08:00"
           }
         }
       ],

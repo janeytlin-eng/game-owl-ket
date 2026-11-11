@@ -859,3 +859,52 @@ Typography and count constraints are strict: exact title, exact scientific name,
 Edit this existing owl-pet concept plate conservatively. Preserve the entire composition, exact title, scientific name, all three role labels, exactly three birds, both adults, their near-equal scale, every adult foot, background, color, typography, and painted style. Change ONLY the central older juvenile at the tree-cavity lip: raise/thicken the front wooden cavity rim just enough to conceal the juvenile's complete feet, toes, claws, lower abdomen, tail and wing tips. Leave at most a subtle shadow/contact hint or tiny down-covered toe tips; do not show large mature talons. Keep the juvenile securely supported inside the cavity, with loose charcoal-grey mesoptile, dark face, tiny emerging tufts, and a small open greenish-grey bill. Do not add or remove any bird and do not alter any text. The juvenile must not appear to fly, leap, hover or stand unsupported.
 
 Applied result: one generation plus one edit. Initial mature-looking juvenile feet exceeded the direct-photo boundary; edited cavity rim conceals unsupported anatomy. Edited full plate and all three role crops re-opened. PASS_WITH_LIMITATIONS; scientifically_verified=false.
+
+
+## #135 v5 — *Otus silvicola* — batch 20261112T043100+0800 cycle 5/6
+
+### Generation prompt
+
+```text
+Create one polished 3:2 horizontal scientific-concept plate in the established owl-pet series: warm cream parchment margin, refined hand-painted natural-history illustration with realistic anatomy and restrained stylization, humid Flores forest-ravine atmosphere, mossy branches, soft depth, elegant dark-brown serif typography. No panel boxes and no decorative owl icons.
+
+Exact header:
+#135 · WALLACE'S SCOPS-OWL
+Otus silvicola
+
+Exactly THREE owls and no other birds, left-to-right:
+1. ADULT MALE
+2. TRANSITIONAL IMMATURE — AGE UNKNOWN
+3. ADULT FEMALE
+
+Adults: approximately comparable visible size; do not encode a universal female-larger rule. Same species plumage but clearly different poses, not mirror clones. Large scops-owl proportions, long ear tufts without white inner borders, no pale collar, cold light grey-brown upperparts with darker vermiculation and black herringbone shaft streaks, ochre-white scapular markings, whitish to dull-yellow underparts with sparse bold blackish shaft streaks and irregular wavy cross-bars, dull orange-yellow irises, greyish-horn bill/cere, densely feathered tarsi and toe bases. Male at left upright three-quarter inward with one tuft slightly lowered; female at right in a relaxed side-three-quarter pose on a separate support, near-equal crown height and only pose-based fullness.
+
+Central immature: the evidence-bounded fully feathered transitional type stage described by Mees, not natal down and not a precise-age fledgling. Paler warmer reddish-grey-brown ground, fluffy loose fine barring over head, neck, upper back and most breast, only a few adult dark-streaked feathers emerging on back/breast/abdomen. Formed folded remiges and rectrices are present but soft, shorter-looking and down-veiled; any basal sheath cues are subtle and mostly hidden. Dull dark-amber eye because iris chronology is unknown. Low cautious two-foot crouch on a broad mossy knot, head turned slightly upward; no flight, wing-spread, leap or independence claim.
+
+Environment: one coherent mossy Flores montane/secondary forest ravine with filtered humid light, broadleaf foliage, lichen, a restrained distant cascade and natural branch supports. This is habitat context, not a nest claim. Every visible foot has clear natural support and contact shadow.
+
+Typography and count are strict: exact title, exact scientific name, exact three separate role labels under the correct birds, exactly three owls. No combined role line. No extra chicks, silhouettes, eggs, prey, duplicate heads, fused or detached feet, maps, rulers, logos, watermarks or extra text. Preserve the scientific boundaries from v4 while correcting v4's reversed title hierarchy, combined header labels and near-cloned adult poses.
+```
+
+### Targeted edit attempt 1 — rejected after inspection
+
+```text
+Edit this exact scientific owl concept plate while preserving the parchment design, all typography verbatim, exact title "#135 · WALLACE'S SCOPS-OWL", italic subtitle "Otus silvicola", exactly three owls and the exact bottom labels/order: ADULT MALE; TRANSITIONAL IMMATURE — AGE UNKNOWN; ADULT FEMALE. Keep the Flores montane forest ravine and waterfall.
+
+Make only these zoological corrections:
+1) Both adults must read as Wallace's Scops-Owl, a large scops-owl rather than a miniature eagle-owl: retain the notably long ear tufts and orange-yellow eyes, but soften the overly bold black-and-white contrast. Replace broad white breast/belly fields and conspicuous white scapular patches with cold light grey-brown plumage, fine sparse blackish shaft streaking, delicate crossbars and muted buff-grey mottling. No pale collar. Facial discs should be grey-brown, not bright white. Keep the adults near-equal in apparent size and their distinct left/right poses.
+2) Keep the central bird explicitly as a fully feathered transitional immature of unknown age—not a hatchling and not a proven fledgling. Preserve its paler reddish-grey-brown loose soft plumage, subtle down veiling and formed but soft-looking remiges/rectrices. Reduce its ear tufts slightly relative to the adults. Conceal most of its feet and claws naturally behind the mossy mound/branch rim while still showing a believable two-foot supported crouch; do not imply flight or independent perching.
+3) Maintain natural anatomy, exactly two visible feet per owl at most, no extra talons, no unsupported feet, no new props, no text changes, no additional birds.
+```
+
+### Targeted edit attempt 2 — rejected after inspection
+
+```text
+Use the referenced image as the sole base. Make a restrained in-place retouch only. Preserve its exact 1536×1024 composition, parchment frame, photographic panel height, every existing word, typography and position. Absolutely do not add any new panel, caption, summary, icon, measurement, conservation status, habitat claim, diet claim, behavior claim, or any text whatsoever. The final bottom border must end immediately below the three existing role labels, exactly as in the source.
+
+Keep exactly three owls and the existing title "#135 · WALLACE'S SCOPS-OWL", italic "Otus silvicola", and exact role labels/order. Retouch both adults toward a Wallace's Scops-Owl field-guide treatment: keep their long ear tufts and orange-yellow eyes but darken/grey the broad pale belly areas so the plumage is overall cold light grey-brown with muted buff-grey mottling, fine sparse blackish shaft streaks and delicate crossbars, not bold black-and-white eagle-owl contrast. Remove any impression of a pale collar. Reduce conspicuous white scapular patches. Keep adults near-equal size and their distinct poses.
+Retouch only the central unknown-age transitional immature: keep fully feathered soft loose reddish-grey-brown plumage and formed but soft-looking wings/tail; slightly reduce its ear tufts; raise the mossy mound enough to conceal most toes and claws while still showing a stable two-foot crouch. Do not turn it into a hatchling or claim flight.
+Natural anatomy only, no extra toes/talons, no added birds, no unsupported feet, no other changes.
+```
+
+Both edit outputs were preserved as rejected production evidence; neither became the concept. The initial plate was retained with PASS_WITH_LIMITATIONS.

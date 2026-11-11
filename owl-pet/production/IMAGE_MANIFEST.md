@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T06:17:55+08:00",
+  "updated": "2026-11-12T06:30:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -30781,7 +30781,105 @@
       "verification_commit_pending": false,
       "verification_commit": "08c8e6a6964ee89107e00601e7fda6af0bcfba81",
       "ledger_credited_at": "2026-11-12T06:17:55+08:00"
+    },
+    {
+      "id": "135-otus-silvicola-v5",
+      "species_id": 135,
+      "common_name": "Wallace's Scops-Owl",
+      "scientific_name": "Otus silvicola",
+      "current_name_crosswalk": "Otus silvicola",
+      "historical_names": [
+        "Scops silvicola",
+        "Lesser Sunda Scops-Owl"
+      ],
+      "path": "design/concepts/135-otus-silvicola-v5.png",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "prior_versions_retained": true,
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "imagegen_invocations": 3,
+      "status": "V5 preserves v1-v4, restores current common/scientific title hierarchy, separates the three role labels, keeps near-equal non-cloned adults and anchors the centre bird to Mees's fully feathered transitional stage. Two attempted corrections were rejected after inspection; the initial plate is retained as the least misleading result. Exact immature age/sex, iris chronology, flight ability, continuous feather sequence, literal sheath visibility, population sex-size direction, nest site and specialist calibration of adult contrast/proportions remain unknown.",
+      "source_ids": [
+        "WSC-MEES-2006",
+        "WSC-MIK2013-183",
+        "WSC-ITIS-555386-2026",
+        "WSC-MARSHALL-1978",
+        "SLSO-SANGSTER-2013",
+        "WSC-AVIBASE-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/135-otus-silvicola-v5.md",
+      "review_record": "research/reviews/135-otus-silvicola-v5-review.md",
+      "run_record": "production/runs/20261112T061900+0800-cycle-5.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 3328280,
+      "sha256": "6e9ae2e79c0e8ea262bfe90d239ca82f5f6f1768533f27cd90793dd6970ca3fd",
+      "git_blob": "c7139548a091f216646840c678290212c5900531",
+      "initial_original_path": "production/generated/135-otus-silvicola-v5-initial-original.png",
+      "initial_original_blob": "c7139548a091f216646840c678290212c5900531",
+      "initial_original_size_bytes": 3328280,
+      "initial_original_sha256": "6e9ae2e79c0e8ea262bfe90d239ca82f5f6f1768533f27cd90793dd6970ca3fd",
+      "final_original_path": "production/generated/135-otus-silvicola-v5-final-original.png",
+      "final_original_blob": "c7139548a091f216646840c678290212c5900531",
+      "final_original_size_bytes": 3328280,
+      "final_original_sha256": "6e9ae2e79c0e8ea262bfe90d239ca82f5f6f1768533f27cd90793dd6970ca3fd",
+      "full_color_source_path": "production/generated/135-otus-silvicola-v5-full-color.png",
+      "full_color_source_blob": "c7139548a091f216646840c678290212c5900531",
+      "full_color_source_size_bytes": 3328280,
+      "full_color_source_sha256": "6e9ae2e79c0e8ea262bfe90d239ca82f5f6f1768533f27cd90793dd6970ca3fd",
+      "generated_path": "production/generated/135-otus-silvicola-v5-generated-master.png",
+      "generated_blob": "c7139548a091f216646840c678290212c5900531",
+      "generated_size_bytes": 3328280,
+      "reviewed_path": "production/reviewed/135-otus-silvicola-v5-reviewed-master.png",
+      "reviewed_blob": "c7139548a091f216646840c678290212c5900531",
+      "reviewed_size_bytes": 3328280,
+      "review_crops": [
+        {
+          "path": "production/review-crops/135-otus-silvicola-v5-adult-male.png",
+          "blob": "7016656b5342a856ee2f19c33e8ff8ba6635342b",
+          "size_bytes": 731521
+        },
+        {
+          "path": "production/review-crops/135-otus-silvicola-v5-transitional-immature.png",
+          "blob": "11d189a1bbb6a7fdefce90f1fddef8d03efe63d4",
+          "size_bytes": 745922
+        },
+        {
+          "path": "production/review-crops/135-otus-silvicola-v5-adult-female.png",
+          "blob": "ed53cbef8a9b0dd2b542df762afac452c4066cd2",
+          "size_bytes": 709449
+        }
+      ],
+      "rejected_edits": [
+        {
+          "path": "production/generated/135-otus-silvicola-v5-edit-attempt-1-rejected.png",
+          "blob": "97e4c7a5348de6ef9bb39a0f799fb211aba43c2c",
+          "size_bytes": 3099501,
+          "reason": "Added unverified executive-summary factual panel."
+        },
+        {
+          "path": "production/generated/135-otus-silvicola-v5-edit-attempt-2-rejected.png",
+          "blob": "885b6d20210dde6afc0b848b637b95d33fdbb25f",
+          "size_bytes": 3561579,
+          "reason": "Increased adult contrast and did not conceal immature talons."
+        }
+      ],
+      "archive_note": "V4, initial v5, two rejected edit attempts and three accepted-role crops opened. Initial retained after both edits regressed. New1/reused5; uploaded Mikkola unavailable and no fresh page claim. Science false. Archive verification pending.",
+      "readback_pending": true,
+      "archive_commit_pending": true,
+      "archived_at": "2026-11-12T06:30:00+08:00"
     }
   ],
-  "updated_at": "2026-11-12T06:17:55+08:00"
+  "updated_at": "2026-11-12T06:30:00+08:00"
 }

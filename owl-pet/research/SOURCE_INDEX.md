@@ -4488,3 +4488,22 @@ Reused/re-read without duplicate IDs: `PSC-KOMAR-STUFKENS-2012` (primary one-eve
 - **Limits:** sex unknown; feet mostly hidden; not a tarsal or dimorphism source.
 
 **Run synthesis:** new indexed sources 2; reused/re-read sources 3; corrected design boundary 1. The user-uploaded Mikkola file was unavailable, so only the repository-pinned pp.242–243 record was reused. V5 remains concept calibration, `scientifically_verified=false`. Links: `research/species/119-megascops-centralis-v5.md`, target `design/concepts/119-megascops-centralis-v5.png`.
+
+
+## 2026-11-11 — #120 *Megascops ingens* v5 — institutional copy and age/action boundary correction
+
+### RIS-IKIAM-2022-INGENS-REPO
+- **Stable ID / title:** RIS-IKIAM-2022-INGENS-REPO — “Primer registro del polluelo y nuevos datos del nido del Autillo Rojizo (*Megascops ingens*) … en Zamora Chinchipe, sureste de Ecuador”.
+- **Authors/institution/year/type:** L. Ordóñez-Delgado, F. Ramon Castillo & A. Pineda Díaz; Universidad Regional Amazónica Ikiam Research Commons mirror of *Neotropical Biodiversity* 8(1), 2022; institutional repository landing and article/figure asset.
+- **URL/DOI/accessed:** https://ikiam.researchcommons.org/neotropical-diversity/vol8/iss1/35/ ; https://doi.org/10.1080/23766808.2022.2123729 ; accessed 2026-11-11.
+- **Pages/figures actually read:** repository metadata and downloadable Figure 1 asset listing; full text reread at printed pp.301–304, especially p.302/Fig.1, through the author-uploaded public copy indexed under `RIS-ORDONEZ-2022-LEAD`.
+- **Facts:** confirms the article identity, DOI, authors and institutional affiliations; Figure 1 is explicitly offered as a separate asset. The paper describes the southeast-Ecuador chick on a dead-stump cavity rim in lower-montane evergreen forest edge, with residual white down, beige base, dark face/iris, whitish forehead, gray bill, and considerably developed barred primaries/secondaries/tertials.
+- **Conflict/correction:** the observation/results section estimates 20–30 d, while the discussion later says 25–30 d. Both are estimates from plumage/behaviour, not known hatch age. The observed action was head movement, slight wing opening and bill-clapping; this does not establish flight competence.
+- **Limits/credibility/design use:** primary article metadata is institution-hosted; figure download returned a current 403 to the retrieval service, so no new pixel-level figure claim is made. High confidence for bibliographic identity and text; the visual design uses an age-unknown older nestling on bilateral cavity support, with one slightly lifted formed wing and open bill, never flight.
+- **Links:** `owl-pet/research/species/120-megascops-ingens-v5.md`; planned v5 concept/review/run.
+
+### Reused / corrected mappings for v5
+- Re-read `RIS-ORDONEZ-2022-LEAD` printed pp.301–304/Fig.1 and `RIS-ITIS-686668-2026` / `RIS-ITIS-686872-2026`. ITIS still treats *Megascops ingens* as valid, lists *Scops ingens* as synonym, and treats *Otus ingens* as an invalid subsequent combination mapping to nominate *M. i. ingens*.
+- Reused repository-pinned `RIS-MIKKOLA-2013-P229` (printed p.229 / uploaded PDF p.231) for adult identification only; the uploaded guide was not accessible in this execution, so no fresh page-view claim is made.
+- Correction 1: preserve the paper's explicit formed-remiges exception but reject exact-day labels because its two age ranges conflict.
+- Correction 2: use the documented slight wing opening and bill-clapping as a supported defensive action, without inferring first flight, sustained flight or independence.

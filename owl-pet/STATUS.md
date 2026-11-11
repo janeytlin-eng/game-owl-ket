@@ -4121,3 +4121,8 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` was read back after arch
 - Archive `3551810adc3f6c7f0af018cfec1c36dec60d65ff`; tree `644d645e0c2095ce6e2eb92e2318843bdcc9a2c1` non-truncated with 4,209 entries.
 - Required paths 22/22; exact binary path/blob/size tuples 9/9; four unique image streams.
 - Manifests 812 / 809 / 802 contain #106 v4 exactly once. PASS_WITH_LIMITATIONS; science=false; ledger credit pending.
+
+## 2026-11-11 — #106 v4 batch ledger credit
+
+- Verification `10ace0d7177beb4477978dd48e6838e916557c16` and archive `3551810adc3f6c7f0af018cfec1c36dec60d65ff` read back.
+- Credited cycle 3/6 exactly once; next cycle 4. Coverage 176/251; revision +1; science=false; lease released.

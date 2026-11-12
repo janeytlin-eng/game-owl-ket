@@ -47,8 +47,8 @@ try {
    controls.update();
    renderer.render(scene,camera);
    window.__qa.renderedFrames++;
+   window.__qa.cameraPosition=camera.position.toArray().map(v=>+v.toFixed(3));
    if(window.__qa.loaded && window.__qa.renderedFrames%50===0){
-     window.__qa.cameraPosition=camera.position.toArray().map(v=>+v.toFixed(3));
      window.__qa.glError=gl.getError();
    }
  }

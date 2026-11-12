@@ -1,3 +1,8 @@
+## 2026-11-13 — #174 v4 ledger credited
+
+- Verification `3d158bda7fd1e4a11705581217980a98965c610f` was read back; cycle 1/6 credited once and next_cycle advances to 2.
+- This is a revision, so unique coverage remains 176/251. Lease released; science=false.
+
 ## 2026-11-13 — #174 v4 archive verified
 
 - Read back 18 required paths and all nine PNG path/blob/size tuples from remote main; final and initial SHA-256 values match the reviewed local originals.

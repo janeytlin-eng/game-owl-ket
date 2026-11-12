@@ -113,3 +113,11 @@ When primary sources say a recent fledgling can fly but lands poorly, that evide
 - **Applied:** v4 uses very dark brown adult irides with restrained warm reflections, documents the conflicting material, and remains scientifically unverified. No speculative second edit was made merely to blend contradictory color claims.
 - **Validation:** full plate plus adult and juvenile crops were opened; the result preserves the selected evidence boundary without bright iris discs, clone adults, adult-hard juvenile wings or nest-like geometry.
 - **Reusable rule:** when sources conflict, select the best actually read evidence for the concept, retain the conflict and confidence limit in the record, and never present an aesthetic compromise as a resolved scientific fact.
+
+## 2026-11-12 — “Non-flying but moves among branches” requires a contact-specific pose
+
+- **Problem:** a field report that a young owl moves among branches can be over-expanded into flight, wing-flapping, fledged remiges or an unstable one-foot pose.
+- **Evidence boundary:** Brosset & Erard 1986 p.226 explicitly document about-50-day and other non-flying *Ketupa leucosticta* young moving among branches, and state that the nest was not found; no daily feather sequence is supplied.
+- **Applied:** #168 v4 uses a low supported step with one foot on each connected branch surface, short rounded soft wing, hidden short tail, no airborne gap and no invented nest.
+- **Verified in this asset:** full plate plus dedicated young crop were opened; bilateral support and conservative wing/tail maturity passed without edit.
+- **Reuse rule:** translate locomotion evidence into the least capable evidenced action and specify visible contact geometry; do not infer flight, a nest or a complete age-linked plumage from locomotion alone.

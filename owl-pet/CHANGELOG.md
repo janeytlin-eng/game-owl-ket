@@ -1852,3 +1852,9 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 - 2026-11-12T20:56:10+08:00: #160 *Tyto inexspectata* v4 immutable readback passed archive `85eeb18167b7bf35c68e1bc35804141908596d08` / tree `e3da31f26e3f0d7b2ba3502d7ed493eb8f9053c4`; ledger pending; science=false.
 
 - 2026-11-12T20:58:00+08:00: #160 *Tyto inexspectata* v4 LEDGER_CREDITED after verification `f74eab5e42e173a180894672fed221ee0319baa5`; batch 5/6, next6, lease released; unique176/251; science=false.
+
+
+## 2026-11-12 — #163 *Glaucidium gnoma* v4
+- Added evidence-bounded adult male/female/age-unknown mesoptile plate; preserved v1-v3.
+- Added Deshler 2021 source index entry with current-split caveat; reused repository Mikkola p.375/PDF p.377 transcription.
+- Edited the juvenile wing after inspection; archived initial and final originals plus review crops.

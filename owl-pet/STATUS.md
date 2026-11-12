@@ -1,3 +1,8 @@
+## 2026-11-12 — #163 Mountain Pygmy Owl v4 archived (verification pending)
+
+- Batch 20261112T213600+0800 cycle 2/6. Preserved v1-v3; one juvenile-wing edit; PASS_WITH_LIMITATIONS; science=false.
+- Unique archived species remains 176/251; this is a revision, not a new species.
+
 ## 2026-11-12 — #162 v3 LEDGER_CREDITED — active batch 1/6
 
 Verification [`27465b0fae4cd0cb15434a7892ba225d1533430d`](https://github.com/janeytlin-eng/game-owl-ket/commit/27465b0fae4cd0cb15434a7892ba225d1533430d) was read back after archive [`6bbdd100dd0b2a0f7e0cd2cfdfb5359818e72803`](https://github.com/janeytlin-eng/game-owl-ket/commit/6bbdd100dd0b2a0f7e0cd2cfdfb5359818e72803). Cycle 1 credited once; lease released; next cycle 2. Unique coverage remains 176/251; revision +1; science=false.

@@ -1044,3 +1044,22 @@ Centre older young — AGE UNKNOWN: directly match the 1987 Bougainville bird's 
 
 Exact visible text only: top “#143 · FEARFUL OWL”; italic scientific line “Asio solomonensis”; role labels in order “ADULT MALE” · “OLDER YOUNG — AGE UNKNOWN” · “ADULT FEMALE”. No extra birds, eggs, cavity interior, nest material, prey, buildings, map, ruler, watermark, verification badge, footer or extra text. Avoid adult ear tufts, white scapular shields, bright cartoon orange, pink bare adult tarsi, yellow adult toes, a fixed female-larger ratio, cloned frontal adults, juvenile adult belly streaks, adult-hard layered juvenile remiges, long juvenile tail, unsupported feet or an implied nest.
 ```
+
+
+## #163 Mountain Pygmy Owl — *Glaucidium gnoma* — v4
+Create one polished 1536×1024 landscape scientific concept plate in the already established owl-pet style: warm hand-painted digital natural-history illustration, muted earthy montane pine-oak/conifer palette, soft atmospheric depth, clear cream title typography, three connected habitat vignettes without hard panel borders, anatomically coherent feet and perches, no UI chrome, no watermark.
+
+Exact title at top: “MOUNTAIN PYGMY OWL — Glaucidium gnoma”.
+Exactly three birds, each fully visible and labeled exactly:
+1. ADULT MALE
+2. ADULT FEMALE
+3. AGE-UNKNOWN MESOPTILE
+
+Adult identity: very small, round, earless pygmy owls; yellow adult irises; horn-yellow bill and yellowish-gray cere; narrow pale brows; fine whitish/buff crown speckling; gray-brown to dark brown upperparts with irregular whitish/buff spotting; pale underparts with plain white central throat/lower breast and darker vertical streaking or mottling at sides; short brown-to-rufous tail with five or six narrow pale bars. Adults remain nearly equal in standing height; the female may be only subtly fuller, never a forced large/small contrast. Put the adult pair close together on natural pine-oak branches. Turn one adult partly away while the head remains anatomically plausible so the paired dark nape false-eye patches with pale borders are clearly visible; do not add literal extra eyes.
+
+Young bird: a defensible age-unknown gray mesoptile, not a newly hatched chick and not a miniature adult. Fully supported with both feet on a modest old woodpecker cavity lip; unspotted gray crown, grayer cere, neutral-dark non-diagnostic visible irises, white-gray down remnants around body, short soft developing folded wing, very short or partly hidden tail. No spread wings, no flight, no unsupported standing, no mature spotted wing coverts, no exact age claim.
+
+Environment: continuous montane conifer/pine-oak forest, modest old woodpecker cavity geometry, lichen and bark, restrained depth. Show natural support clearly. Preserve scientific caution: no measured cavity size, no universal nest-tree claim, no quantified sex-size ratio.
+
+### Targeted edit
+Shorten and soften only the mesoptile wing; remove adult-like mature barring and conceal the tail while retaining dark irises, both feet on the cavity lip and non-flight posture. Preserve title, labels, adults, count and environment.

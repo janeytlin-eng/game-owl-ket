@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T22:02:00+08:00",
+  "updated": "2026-11-12T22:18:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -32653,7 +32653,88 @@
       "verification_commit": "27465b0fae4cd0cb15434a7892ba225d1533430d",
       "verification_tree": "ef78550f5a4dc0a1e2aca4ed201ca8e67ec323cc",
       "ledger_credited_at": "2026-11-12T22:02:00+08:00"
+    },
+    {
+      "id": "163-glaucidium-gnoma-v4",
+      "species_id": 163,
+      "scientific_name": "Glaucidium gnoma",
+      "historical_names": [
+        "Glaucidium californicum (historical broad/split-associated usage; not assumed equivalent)"
+      ],
+      "common_name": "Mountain Pygmy Owl",
+      "version": 4,
+      "prior_versions_retained": [
+        1,
+        2,
+        3
+      ],
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "path": "design/concepts/163-glaucidium-gnoma-v4.png",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "status": "V4 preserves v1-v3, keeps adults near-equal rather than forcing a size split, and turns one adult to show the paired nape false-eye feather pattern. The age-unknown gray mesoptile has an unspotted crown, dark non-diagnostic irises, short down-soft folded wing, concealed tail and two-foot cavity-lip support; no exact age or flight claim. One targeted edit softened an initially crisp adult-like juvenile wing. Oregon and California broad-name records remain taxonomically limited; science=false.",
+      "source_ids": [
+        "GNOMA-MIKKOLA-P375-REUSED",
+        "GNOMA-OWLPAGES-2026-REREAD",
+        "GNOMA-DESHLER-2021-NESTING"
+      ],
+      "unverified_leads": [
+        "NPO-MACAULAY-418673981-2008",
+        "NPO-MACAULAY-638416241-2025"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/163-glaucidium-gnoma-v4.md",
+      "review_record": "research/reviews/163-glaucidium-gnoma-v4-review.md",
+      "run_record": "production/runs/20261112T220500+0800-cycle-2.md",
+      "reviewed_at": "2026-11-12T22:13:00+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 3252202,
+      "sha256": "5a4f5fac4306fce58e6b0dd899b357ee8f50097036f0c11a57ac06c79c800b79",
+      "git_blob": "aa5db41c8c479f5ea91565716cc47eb8b284d7b5",
+      "initial_original_path": "production/generated/163-glaucidium-gnoma-v4-initial-original.png",
+      "initial_original_blob": "444cc62e96bc8d66cc702ad66ca3779106f55397",
+      "initial_original_size_bytes": 3472305,
+      "final_original_path": "production/generated/163-glaucidium-gnoma-v4-final-original.png",
+      "final_original_blob": "aa5db41c8c479f5ea91565716cc47eb8b284d7b5",
+      "final_original_size_bytes": 3252202,
+      "full_color_source_path": "production/generated/163-glaucidium-gnoma-v4-full-color.png",
+      "full_color_source_blob": "aa5db41c8c479f5ea91565716cc47eb8b284d7b5",
+      "full_color_source_size_bytes": 3252202,
+      "reviewed_path": "production/reviewed/163-glaucidium-gnoma-v4-reviewed-master.png",
+      "reviewed_blob": "d7f90a2d85901797851e3f7df0d0832037a93c66",
+      "reviewed_size_bytes": 1096723,
+      "review_crops": [
+        {
+          "path": "production/review-crops/163-glaucidium-gnoma-v4-adult-male.png",
+          "blob": "26b90eb130e49230aaef80ff073d8b5981a18e3d",
+          "size_bytes": 849866,
+          "sha256": "1da300001e6c825949f825e88c37e479dc1941e38570ac679ff9871a7b70ef26"
+        },
+        {
+          "path": "production/review-crops/163-glaucidium-gnoma-v4-adult-female.png",
+          "blob": "c740f8b77569294425a937d882c756a07c86fe06",
+          "size_bytes": 807879,
+          "sha256": "5a36a3e4988a139c203718b33c2b92a22881e90c35267ad42a76cd099b8e0551"
+        },
+        {
+          "path": "production/review-crops/163-glaucidium-gnoma-v4-age-unknown-mesoptile.png",
+          "blob": "735f0c9c76384aaa8644af81d01738546c0a2c91",
+          "size_bytes": 786628,
+          "sha256": "c871b1879c6ec64a879548c9355ed8510f251214bc5867b5c4d50af25bd7ec16"
+        }
+      ],
+      "archive_note": "V1-v3 preserved. One new primary nesting paper abstract and four reread/reused sources constrain adult identity and a deliberately age-unknown supported mesoptile. Broad-name Oregon/California records kept as limited context only. Full edited plate plus three crops opened; edit1. Uploaded Mikkola guide not mounted; repository page-verified p.375/PDF p.377 reused only. PASS_WITH_LIMITATIONS; science=false.",
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false,
+      "ledger_credited": false,
+      "batch_id": "20261112T213600+0800",
+      "batch_cycle": 2
     }
   ],
-  "updated_at": "2026-11-12T22:02:00+08:00"
+  "updated_at": "2026-11-12T22:18:00+08:00"
 }

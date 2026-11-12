@@ -1,0 +1,172 @@
+{
+  "static_preflight": "WARN_OR_FAIL",
+  "not_a_visual_or_device_approval": true,
+  "info": {
+    "file": "v27_pale_BLENDED_groom_UNAPPROVED.glb",
+    "bytes": 4583376,
+    "asset_version": "2.0",
+    "extensions_required": [],
+    "extensions_used": [],
+    "materials": 11,
+    "alpha_mode_counts": {
+      "BLEND": 1,
+      "OPAQUE": 10
+    },
+    "animations": 0,
+    "skins": 0,
+    "nodes": 116,
+    "morph_target_meshes": 0,
+    "images": [
+      {
+        "index": 0,
+        "mimeType": "image/png",
+        "decoded": true,
+        "width": 32,
+        "height": 32,
+        "approx_rgba_vram_bytes": 4096
+      },
+      {
+        "index": 1,
+        "mimeType": "image/png",
+        "decoded": true,
+        "width": 32,
+        "height": 32,
+        "approx_rgba_vram_bytes": 4096
+      },
+      {
+        "index": 2,
+        "mimeType": "image/png",
+        "decoded": true,
+        "width": 32,
+        "height": 32,
+        "approx_rgba_vram_bytes": 4096
+      },
+      {
+        "index": 3,
+        "mimeType": "image/png",
+        "decoded": true,
+        "width": 32,
+        "height": 32,
+        "approx_rgba_vram_bytes": 4096
+      },
+      {
+        "index": 4,
+        "mimeType": "image/png",
+        "decoded": true,
+        "width": 32,
+        "height": 32,
+        "approx_rgba_vram_bytes": 4096
+      },
+      {
+        "index": 5,
+        "mimeType": "image/png",
+        "decoded": true,
+        "width": 512,
+        "height": 512,
+        "approx_rgba_vram_bytes": 1048576
+      },
+      {
+        "index": 6,
+        "mimeType": "image/png",
+        "decoded": true,
+        "width": 512,
+        "height": 512,
+        "approx_rgba_vram_bytes": 1048576
+      },
+      {
+        "index": 7,
+        "mimeType": "image/png",
+        "decoded": true,
+        "width": 512,
+        "height": 512,
+        "approx_rgba_vram_bytes": 1048576
+      },
+      {
+        "index": 8,
+        "mimeType": "image/png",
+        "decoded": true,
+        "width": 512,
+        "height": 512,
+        "approx_rgba_vram_bytes": 1048576
+      },
+      {
+        "index": 9,
+        "mimeType": "image/png",
+        "decoded": true,
+        "width": 32,
+        "height": 32,
+        "approx_rgba_vram_bytes": 4096
+      },
+      {
+        "index": 10,
+        "mimeType": "image/png",
+        "decoded": true,
+        "width": 512,
+        "height": 512,
+        "approx_rgba_vram_bytes": 1048576
+      },
+      {
+        "index": 11,
+        "mimeType": "image/png",
+        "decoded": true,
+        "width": 512,
+        "height": 512,
+        "approx_rgba_vram_bytes": 1048576
+      },
+      {
+        "index": 12,
+        "mimeType": "image/png",
+        "decoded": true,
+        "width": 32,
+        "height": 32,
+        "approx_rgba_vram_bytes": 4096
+      },
+      {
+        "index": 13,
+        "mimeType": "image/png",
+        "decoded": true,
+        "width": 96,
+        "height": 192,
+        "approx_rgba_vram_bytes": 73728
+      }
+    ],
+    "approx_texture_rgba_vram_bytes_no_mips": 6393856,
+    "triangle_count": 103736,
+    "mesh_instances": 116,
+    "degenerate_triangles": 448,
+    "aabb_min": [
+      -0.148545,
+      0.012,
+      -0.13949
+    ],
+    "aabb_max": [
+      0.182828,
+      0.386206,
+      0.139679
+    ],
+    "aabb_extent": [
+      0.331373,
+      0.374206,
+      0.279169
+    ]
+  },
+  "issues": [
+    "degenerate_faces_present",
+    "no_animations_for_interactive_pet",
+    "no_skin_or_morph_target_for_bird_deformation"
+  ],
+  "unverified": [
+    "actual_fps_memory_and_shader_support_unverified",
+    "feet_contact_with_eucalyptus_hollow_unverified",
+    "real_phone_webgl_gpu_and_touch_unverified",
+    "transparent_card_depth_order_and_mobile_overdraw_not_tested",
+    "true_face_disc_feather_anatomy_unverified",
+    "visual_similarity_to_172_v3_unverified"
+  ],
+  "targets": {
+    "max_glb_bytes": 5242880,
+    "max_triangles": 120000,
+    "max_texture_dimension": 2048,
+    "max_total_texture_pixels": 2097152
+  }
+}

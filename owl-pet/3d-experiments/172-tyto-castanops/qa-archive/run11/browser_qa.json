@@ -1,0 +1,74 @@
+{
+  "runner": "GitHub Linux Chromium, software SwiftShader, NOT a physical phone",
+  "checkedAt": "2026-11-12T18:16:19.156Z",
+  "cases": [
+    {
+      "name": "desktop_1280x720",
+      "before": {
+        "loaded": true,
+        "renderedFrames": 46,
+        "errors": [],
+        "source": "/candidate.glb",
+        "webglVersion": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "renderer": "WebKit WebGL",
+        "modelMeshes": 116,
+        "triangles": 79736
+      },
+      "after": {
+        "loaded": true,
+        "renderedFrames": 60,
+        "errors": [],
+        "source": "/candidate.glb",
+        "webglVersion": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "renderer": "WebKit WebGL",
+        "modelMeshes": 116,
+        "triangles": 79736,
+        "cameraPosition": [
+          0.182,
+          0.33,
+          0.75
+        ],
+        "glError": 0
+      },
+      "pageErrors": [],
+      "orbit_camera_changed": true,
+      "loaded": true,
+      "frames": 60,
+      "glError": 0
+    },
+    {
+      "name": "emulated_phone_390x844",
+      "before": {
+        "loaded": true,
+        "renderedFrames": 38,
+        "errors": [],
+        "source": "/candidate.glb",
+        "webglVersion": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "renderer": "WebKit WebGL",
+        "modelMeshes": 116,
+        "triangles": 79736
+      },
+      "after": {
+        "loaded": true,
+        "renderedFrames": 50,
+        "errors": [],
+        "source": "/candidate.glb",
+        "webglVersion": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "renderer": "WebKit WebGL",
+        "modelMeshes": 116,
+        "triangles": 79736,
+        "cameraPosition": [
+          0.047,
+          0.367,
+          0.76
+        ],
+        "glError": 0
+      },
+      "pageErrors": [],
+      "orbit_camera_changed": true,
+      "loaded": true,
+      "frames": 50,
+      "glError": 0
+    }
+  ]
+}

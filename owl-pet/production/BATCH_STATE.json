@@ -45303,26 +45303,26 @@
       "next_cycle": 3,
       "active_cycle": 3,
       "started_at": "2026-11-12T15:38:46+08:00",
-      "updated_at": "2026-11-12T16:43:20+08:00",
-      "current_stage": "RESEARCH_READY",
+      "updated_at": "2026-11-12T16:49:31.349+08:00",
+      "current_stage": "IMAGE_GENERATED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex",
         "run_id": "20261112T164238+0800-cycle-3",
         "batch_id": "20261112T153846+0800",
         "cycle": 3,
-        "heartbeat_at": "2026-11-12T16:43:20+08:00",
-        "expires_at": "2026-11-12T16:58:20+08:00"
+        "heartbeat_at": "2026-11-12T16:49:31.349+08:00",
+        "expires_at": "2026-11-12T17:12:31.349+08:00"
       },
       "active": {
         "owner": "codex",
         "run_id": "20261112T164238+0800-cycle-3",
         "batch_id": "20261112T153846+0800",
         "cycle": 3,
-        "heartbeat_at": "2026-11-12T16:42:38+08:00",
-        "expires_at": "2026-11-12T16:58:20+08:00"
+        "heartbeat_at": "2026-11-12T16:49:31.349+08:00",
+        "expires_at": "2026-11-12T17:12:31.349+08:00"
       },
-      "stage": "RESEARCH_READY",
+      "stage": "IMAGE_GENERATED",
       "completed_count": 2,
       "stage_events": [
         {
@@ -45801,6 +45801,27 @@
             "mikkola_access": "unavailable; no fresh page claim",
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-12T16:58:20+08:00"
+          }
+        },
+        {
+          "batch_id": "20261112T153846+0800",
+          "cycle": 3,
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-12T16:49:31.349+08:00",
+          "run_id": "20261112T164238+0800-cycle-3",
+          "species_id": 152,
+          "species": "Uroglaux dimorpha",
+          "credited": false,
+          "evidence": {
+            "initial_original": "owl-pet/production/generated/152-uroglaux-dimorpha-v4-initial-original.png",
+            "initial_blob": "1128dab0b346865f303c1eccef1b1bc45678ff7b",
+            "initial_bytes": 2958362,
+            "initial_sha256": "461852991d74566b3aef49543b8f074934d55400a1530bf131dacd227cf5132d",
+            "geometry": "1536x1024",
+            "generation_seconds": 48,
+            "preliminary_inspection": "full plate opened; exact title/name/count/labels; near-equal small-headed long-tailed adults; downy juvenile white-faced/white-underpart, dark-eyed, compact-winged, tail-concealed and bilaterally supported",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-12T17:12:31.349+08:00"
           }
         }
       ],

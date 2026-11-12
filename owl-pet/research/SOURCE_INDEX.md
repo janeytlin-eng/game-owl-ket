@@ -5040,3 +5040,30 @@ Reused/re-read without duplicate IDs for #130 v5: `KOEP-ITIS-686665-2026`, repos
 - Current/old-name mapping retained: *Scotopelia ussheri* Sharpe, 1871; historical combination *Bubo ussheri*.
 - Still unknown: exact age and hatch date, sex-size direction, continuous feather sequence, first-flight threshold, nest site/material and universality of one juvenile's pattern.
 - Links: `research/species/155-scotopelia-ussheri-v4.md`; run `owl-pet/production/runs/20261112T181053+0800-cycle-6.md`; planned concept `design/concepts/155-scotopelia-ussheri-v4.png`.
+
+
+## 2026-11-12 — #156 *Scotopelia peli* v4 — three-month juvenile calibration
+
+### PEL-MIKKOLA-2013-P304-306
+- **Source:** Heimo Mikkola, *Owls of the World: A Photographic Guide*, 2nd ed., 2013; uploaded user PDF pp.306–308 / printed pp.304–306; read 2026-11-12.
+- **Taxon/stages:** historical *Bubo peli* = current *Scotopelia peli*; adult, downy chick, mesoptile and first full plumage.
+- **Facts:** 51–63 cm, 2055–2325 g; sexes alike in colour, female larger/sometimes paler; no real ear-tufts; blackish-brown eyes; bare straw legs/toes with fishing spicules; white chick; whitish/dull-yellow mesoptile with paler adult-like wing/tail; first full plumage paler and adult-like by about ten months.
+- **Limit/decision:** photographic guide rather than known-age growth series. Supports adult identity and a partly formed, powder-down-softened older juvenile; does not set an exact wild flight threshold or fixed sex display ratio.
+
+### PEL-PRAGUE-ZOO-2024-3MO
+- **Source:** Prague Zoo, “The First Zoo in the World! Pel’s Fishing Owl Bred at Prague Zoo,” 29 Apr 2024, lines 44–60; https://www.zoopraha.cz/en/about-zoo/news/14677-the-first-zoo-in-the-world-pel-s-fishing-owl-bred-at-prague-zoo ; read 2026-11-12.
+- **Stage/facts:** known three-month captive juvenile, light-coloured with remnants of powder down, photographed sitting beside parents after return to an improvised cavity.
+- **Limit/decision:** captive hand-reared individual. Calibrates the v4 juvenile's visible age/stage only; does not support a wild nest, population-wide timing or autonomous flight claim.
+
+### PEL-BUTTIKOFER-1889-P115-116
+- **Source:** J. Büttikofer, “Zoological Researches in Liberia. Fourth List of Birds,” *Notes from the Leyden Museum* XI, 1889, pp.115–116; https://repository.naturalis.nl/pub/509230/NLM1889011002006.pdf ; read 2026-11-12.
+- **Facts:** nestling head uniform white with faint isabelline tinge, especially neck; powerful black bill; maps *S. oustaleti* to *S. peli*.
+- **Limit/decision:** isolated head without age/body/posture data; supports only early head-down and bill colour, not v4 body geometry.
+
+### PEL-BRANFIELD-2013-P123-126
+- **Source:** Andy Branfield, 2013, *Ornithological Observations* 4:123–126; https://journals.uct.ac.za/index.php/BO/article/download/201/242/688 ; pp.123–126 read 2026-11-12.
+- **Facts:** adult shaggy head, poorly developed unbordered facial mask, brown eyes, no ear tufts, black bill/pale base, unfeathered pale legs and riverine forest; large-young call and long dependence context.
+- **Limit/decision:** morphology is partly secondary and the paper is a call note; it cannot define a known-age plumage series.
+
+- **Applied:** [v4 research](species/156-scotopelia-peli-v4.md), planned v4 plate and run `owl-pet/production/runs/20261112T183437+0800-cycle-1.md`.
+- **Unknowns:** exact wild equivalent of the captive three-month stage, iris chronology, continuous feather sequence, first-flight threshold and population-wide sex ratio. Scientific verification remains false.

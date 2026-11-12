@@ -5282,3 +5282,21 @@ Reused/re-read without duplicate IDs for #130 v5: `KOEP-ITIS-686665-2026`, repos
 - Fact: Usambara taxon lumped with Fraser’s Eagle-Owl; western/eastern groups retained; species transferred to *Ketupa*.
 - Design use: one species count, western nominate shown, old-name mapping retained.
 - Limits: taxonomy source, not morphology/development. URL: https://www.birds.cornell.edu/clementschecklist/introduction/updateindex/october-2022/updates-corrections-october-2022/
+
+
+## 2026-11-13 — #169 *Ketupa shelleyi* v4 — posterior-crown and mesoptile correction
+
+### SHEO-BOUET-1961-P619
+- **Title / author / year:** *Oiseaux de l'Afrique tropicale (deuxième partie)* — Georges Bouet — 1961.
+- **Institution / URL / page / accessed:** ORSTOM (IRD) / Librairie Larose; https://horizon.documentation.ird.fr/exl-doc/pleins_textes/divers17-09/43696.pdf ; printed p.619, lines 4907–4912; accessed 2026-11-13.
+- **Source type / applies to:** historical museum synthesis; adult *Ketupa shelleyi* under *Bubo shelleyi* / *Huhua shelleyi*; one sex-indeterminate Paris specimen plus adult sex description.
+- **Facts:** specimen wing 450 mm, tail 242 mm, tarsus 80 mm, bill 57 mm; grey-white bill, slate-grey cere, pale claws with blackish tips, dark iris; adult crown, tufts, mantle, back and wing coverts uniformly blackish chocolate-brown except for a white-feather patch on the posterior crown.
+- **Limits / conflict / confidence:** historical skin-based account; one measured unsexed specimen; does not establish population sex-size direction, living posture or juvenile development. Posterior-crown patch must not be expanded into Fraser-like scapular/coverts patches.
+- **Design / QA use:** adds a small restrained posterior-crown white patch to both adults; preserves near-equal adult scale and triggers location-specific crop review. Links: `research/species/169-ketupa-shelleyi-v4.md`, `design/concepts/169-ketupa-shelleyi-v4.png`.
+
+### Reused/reread for v4
+- `SHEO-TOBIAS-WILLIAMS-2022-P73-79`: adult dark identity, large scale, heavy pale bill, dark eyes/eyelids, narrow flight bars, short tail, mossy forest; no juvenile or sex ratio.
+- `SHEO-KIRSCHEL-ETAL-2022-P221-222`: direct Cameroon observation supports dark eyes, heavy barring and pale eyelids; retained as an eyelid-variation conflict, not averaged into invented pink skin.
+- `SHEO-MIKKOLA-2013-P288`: repository page record only; mesoptile barred brown/white with adult-like remiges/rectrices. V4 corrects v3's adult-hard long wing/tail without denying formed feathers.
+- `SHEO-ITIS-1244711-2026`: current/old-name mapping only.
+- **Index delta:** new verified 1; reused/reread 4; corrected inferences 3 (posterior-crown mark location, mesoptile wing maturity, mesoptile tail exposure). Exact mesoptile age/flight ability, nest, continuous feather chronology and quantified sex dimorphism remain unknown. Scientific verification remains false.

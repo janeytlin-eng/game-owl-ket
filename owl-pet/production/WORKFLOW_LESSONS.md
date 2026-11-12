@@ -130,3 +130,11 @@ When primary sources say a recent fledgling can fly but lands poorly, that evide
 - **Applied:** #169 v4 adds only a small crown patch behind/between the tufts, explicitly forbids white shoulder migration, compacts/softens the mesoptile wing and hides most of the tail while preserving two-foot branch support.
 - **Verified in this asset:** the full plate and three role crops were opened; crown location, absence of white shoulders, compact young wing/tail and support all passed without edit.
 - **Reuse rule:** when evidence names a small feather tract, prompt its anatomical location and inspect both the target tract and common leakage sites; separately review wing and tail maturity even when a source says juvenile feathers are “adult-like”.
+
+
+## 2026-11-13 — mass dimorphism and downy emergence need separate visual translations
+
+- **Problem:** a large male–female mass difference can leak into an exaggerated height ratio, while a report that downy young leave a nest hole can leak into unsupported flight.
+- **Evidence boundary:** Debus 1993 pp.171–172 reports Tasmanian mean masses of 525 g male and 850 g female and a 12.8 dimorphism index; p.187 says young may leave the hole while still downy. Neither passage supplies a body-height ratio, exact young age or first-flight threshold.
+- **Applied:** #172 v4 expresses the adult difference mainly through female body fullness/darker tone with only moderate height difference, and shows the young taking one low two-foot supported step at the hollow lip.
+- **Verified in this asset:** full plate plus three role crops were opened; no giant-height caricature, airborne gap, mature young wing or exposed mature tail was found. Reuse this as a prompt/review rule, not as a universal Tytonidae growth schedule.

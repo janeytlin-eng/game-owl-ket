@@ -47086,18 +47086,18 @@
       "next_cycle": 5,
       "active_cycle": null,
       "started_at": "2026-11-12T21:36:00+08:00",
-      "updated_at": "2026-11-12T22:44:00+08:00",
-      "current_stage": "LEDGER_CREDITED",
-      "stage": "LEDGER_CREDITED",
+      "updated_at": "2026-11-12T22:47:00+08:00",
+      "current_stage": "VERIFIED",
+      "stage": "VERIFIED",
       "completed_count": 4,
-      "ledger_credit_pending": false,
+      "ledger_credit_pending": true,
       "lease": {
         "owner": "codex-work",
         "run_id": "20261112T223037+0800-cycle-5",
         "cycle": 5,
         "acquired_at": "2026-11-12T22:30:37+08:00",
-        "heartbeat_at": "2026-11-12T22:44:00+08:00",
-        "expires_at": "2026-11-12T22:59:00+08:00",
+        "heartbeat_at": "2026-11-12T22:47:00+08:00",
+        "expires_at": "2026-11-12T23:02:00+08:00",
         "species_id": 166,
         "species": "Bubo cinerascens"
       },
@@ -48003,6 +48003,41 @@
             "archive_commit_pending": true,
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-12T22:59:00+08:00"
+          }
+        },
+        {
+          "batch_id": "20261112T213600+0800",
+          "cycle": 5,
+          "stage": "VERIFIED",
+          "at": "2026-11-12T22:47:00+08:00",
+          "run_id": "20261112T223037+0800-cycle-5",
+          "species_id": 166,
+          "species": "Bubo cinerascens",
+          "credited": false,
+          "evidence": {
+            "archive_commit": "71d8f234bb8bce774d80845594d84e2274df28f6",
+            "archive_tree": "a1807393a57a3ebcc8bf278372aad53e7238e9fb",
+            "tree_entries": 4837,
+            "tree_truncated": false,
+            "required_paths_verified": 15,
+            "exact_binary_paths_verified": 8,
+            "unique_binary_streams": 4,
+            "manifest_counts": {
+              "owl-pet/design/concepts/manifest.json": 847,
+              "owl-pet/design/image-manifest.json": 816,
+              "owl-pet/design/manifest.json": 825,
+              "owl-pet/production/image-manifest.json": 803
+            },
+            "manifest_single_entry": {
+              "concepts": 1,
+              "image": 1,
+              "design": 1,
+              "production": 1
+            },
+            "review_result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false,
+            "ledger_credit_pending": true,
+            "lease_expires_at": "2026-11-12T23:02:00+08:00"
           }
         }
       ]

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T00:53:37.448+08:00",
+  "updated": "2026-11-13T01:04:30.000+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -33376,7 +33376,92 @@
       "verification_commit": "5df498ea27c837e38c52c50715cd182768cae93b",
       "verification_tree": "396bb4c9f27bb926f248f50d1f980b5202de81c0",
       "ledger_credited_at": "2026-11-13T00:53:37.448+08:00"
+    },
+    {
+      "id": "171-glaucidium-palmarum-v4",
+      "species_id": 171,
+      "scientific_name": "Glaucidium palmarum",
+      "historical_names": [
+        "Glaucidium minutissimum palmarum (historical broad placement)",
+        "Glaucidium palmarum oberholseri (synonym history)",
+        "Glaucidium palmarum griscomi (synonym history)"
+      ],
+      "common_name": "Colima Pygmy-Owl",
+      "version": 4,
+      "prior_versions_retained": [
+        1,
+        2,
+        3
+      ],
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "path": "design/concepts/171-glaucidium-palmarum-v4.png",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "status": "V4 preserves v1-v3, adds current CONABIO range/habitat and Robbins–Howell specimen/locality checks, keeps both adults near-equal and same-paletted, treats six tail bars as an explicit variation-aware design inference, and uses a supported age-unknown dark-eyed mesoptile with compact soft wing and hidden tail. Exact immature age/sex/flight and universal tail/sex ratios remain unknown; science=false.",
+      "source_ids": [
+        "CPO-NELSON-1901-P46",
+        "CPO-HOWELL-ROBBINS-1995-P17-20",
+        "CPO-BUCHANAN-1964-P104-106",
+        "CPO-MIKKOLA-2013-P385-386",
+        "CPO-ITIS-555451-2026",
+        "CPO-CONABIO-2021-36574",
+        "CPO-ROBBINS-HOWELL-1995-P3-5",
+        "CPO-BITRAN-2018-JUV"
+      ],
+      "unverified_leads": [],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/171-glaucidium-palmarum-v4.md",
+      "review_record": "research/reviews/171-glaucidium-palmarum-v4-review.md",
+      "run_record": "production/runs/20261113T005445+0800-cycle-4.md",
+      "reviewed_at": "2026-11-13T01:02:40+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 3204487,
+      "sha256": "a078913e071110ae73318a04b574ef89fc8957e78002ea524362e6944d701991",
+      "git_blob": "84f8fc9d81e552895a51d6d70c1b9eebed44ee8b",
+      "initial_original_path": "production/generated/171-glaucidium-palmarum-v4-initial-original.png",
+      "initial_original_blob": "84f8fc9d81e552895a51d6d70c1b9eebed44ee8b",
+      "initial_original_size_bytes": 3204487,
+      "final_original_path": "production/generated/171-glaucidium-palmarum-v4-final-original.png",
+      "final_original_blob": "84f8fc9d81e552895a51d6d70c1b9eebed44ee8b",
+      "final_original_size_bytes": 3204487,
+      "full_color_source_path": "production/generated/171-glaucidium-palmarum-v4-full-color.png",
+      "full_color_source_blob": "84f8fc9d81e552895a51d6d70c1b9eebed44ee8b",
+      "full_color_source_size_bytes": 3204487,
+      "reviewed_path": "production/reviewed/171-glaucidium-palmarum-v4-reviewed-master.png",
+      "reviewed_blob": "84f8fc9d81e552895a51d6d70c1b9eebed44ee8b",
+      "reviewed_size_bytes": 3204487,
+      "review_crops": [
+        {
+          "path": "production/review-crops/171-glaucidium-palmarum-v4-adult-male.png",
+          "blob": "3b7d92729410eceedd71a0ae9f718ca77b164732",
+          "size_bytes": 772450,
+          "sha256": "ace486eb50511def4302965091c950c51a1a3cde32f888645298c39218b202fb"
+        },
+        {
+          "path": "production/review-crops/171-glaucidium-palmarum-v4-adult-female.png",
+          "blob": "d56bf33dcb5c9089b5dad1ec467e3b327da6b63a",
+          "size_bytes": 749067,
+          "sha256": "7c6d3c8c21d576f77686d61d305e00fb07125d2db36b58bb724ffd014cf37f17"
+        },
+        {
+          "path": "production/review-crops/171-glaucidium-palmarum-v4-immature.png",
+          "blob": "573da891c912c2b6b356e83a6347c5c2bed1434b",
+          "size_bytes": 732646,
+          "sha256": "532e1be36246331a3acd822b7cd42b196e5382d531fa670e2843d82c3bda4404"
+        }
+      ],
+      "archive_note": "V1-v3 preserved. Two new verified sources and six reread/reused; full plate and three role crops opened; no edit required. Mikkola upload not mounted. PASS_WITH_LIMITATIONS; science=false.",
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false,
+      "ledger_credited": false,
+      "batch_id": "20261112T234106+0800",
+      "batch_cycle": 4
     }
   ],
-  "updated_at": "2026-11-13T00:53:37.448+08:00"
+  "updated_at": "2026-11-13T01:04:30.000+08:00"
 }

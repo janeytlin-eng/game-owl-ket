@@ -131,3 +131,11 @@ undefined
 - **Evidence:** Rasmussen et al. (2012) documents a face-to-face song display with puffed/pulsating white throat and drooped wings, but cannot establish sexual dichromatism; immatures were scarce and excluded.
 - **Applied:** V4 keeps adults near equal, varies only one adult through that documented song-display cue, and retains an age-unknown supported juvenile placeholder. A conflicting secondary search snippet was explicitly quarantined because the PDF could not be read.
 - **Validation:** full plate and three role crops pass; the rule improved pose differentiation without adding sex or nest claims. Science remains false because Camiguin juvenile chronology is unresolved.
+
+
+## 2026-11-12 — Separate mobility evidence from plumage/flight claims (#148)
+
+- **Problem:** a field paper can prove that a juvenile moved through a home range while still leaving exact age, wing development and flight threshold undescribed.
+- **Evidence:** the Cebu Boobook telemetry study explicitly included one juvenile and mapped its nightly movements; it does not describe a feather sequence or say that the bird flew.
+- **Applied change:** use an open-eyed, fully supported sidestep/perch action; keep the wing short, rounded and down-obscured; do not create a spread-wing or airborne pose.
+- **Verified effect:** the full plate and independent juvenile crop preserve support and mobility without visually asserting flight. This rule is now verified for #148 v4 only; future species require their own evidence.

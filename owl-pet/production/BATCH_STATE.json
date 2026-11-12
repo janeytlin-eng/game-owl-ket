@@ -43983,14 +43983,14 @@
       "next_cycle": 5,
       "active_cycle": 5,
       "started_at": "2026-11-12T11:35:00+08:00",
-      "updated_at": "2026-11-12T14:37:00+08:00",
-      "current_stage": "REVIEWED",
+      "updated_at": "2026-11-12T14:43:00+08:00",
+      "current_stage": "ARCHIVED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex",
         "run_id": "20261112T133200+0800-cycle-5",
-        "heartbeat_at": "2026-11-12T14:37:00+08:00",
-        "expires_at": "2026-11-12T14:52:00+08:00"
+        "heartbeat_at": "2026-11-12T14:43:00+08:00",
+        "expires_at": "2026-11-12T14:58:00+08:00"
       },
       "active": {
         "cycle": 5,
@@ -44000,7 +44000,7 @@
         "action": "SCIENCE_REVISION",
         "run_record": "owl-pet/production/runs/20261112T133200+0800-cycle-5.md"
       },
-      "stage": "REVIEWED",
+      "stage": "ARCHIVED",
       "completed_count": 4,
       "stage_events": [
         {
@@ -44938,6 +44938,37 @@
               }
             },
             "lease_expires_at": "2026-11-12T14:52:00+08:00"
+          }
+        },
+        {
+          "batch_id": "20261112T113500+0800",
+          "cycle": 5,
+          "stage": "ARCHIVED",
+          "at": "2026-11-12T14:43:00+08:00",
+          "run_id": "20261112T133200+0800-cycle-5",
+          "species_id": 148,
+          "species": "Ninox rumseyi",
+          "credited": false,
+          "evidence": {
+            "concept": "owl-pet/design/concepts/148-ninox-rumseyi-v4.png",
+            "initial_original": "owl-pet/production/generated/148-ninox-rumseyi-v4-initial-original.png",
+            "final_original": "owl-pet/production/generated/148-ninox-rumseyi-v4-final-original.png",
+            "research_record": "owl-pet/research/species/148-ninox-rumseyi-v4.md",
+            "review_record": "owl-pet/research/reviews/148-ninox-rumseyi-v4-review.md",
+            "run_record": "owl-pet/production/runs/20261112T133200+0800-cycle-5.md",
+            "manifest_counts": {
+              "concepts": 829,
+              "image": 798,
+              "design": 807
+            },
+            "manifest_repair": "restored missing #147 v4 row in design/image-manifest.json",
+            "archive_commit_pending": true,
+            "readback_pending": true,
+            "unique_species": "176/251",
+            "unique_increment": 0,
+            "revision_increment": 1,
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-12T14:58:00+08:00"
           }
         }
       ],
@@ -58888,6 +58919,37 @@
           }
         },
         "lease_expires_at": "2026-11-12T14:52:00+08:00"
+      }
+    },
+    {
+      "batch_id": "20261112T113500+0800",
+      "cycle": 5,
+      "stage": "ARCHIVED",
+      "at": "2026-11-12T14:43:00+08:00",
+      "run_id": "20261112T133200+0800-cycle-5",
+      "species_id": 148,
+      "species": "Ninox rumseyi",
+      "credited": false,
+      "evidence": {
+        "concept": "owl-pet/design/concepts/148-ninox-rumseyi-v4.png",
+        "initial_original": "owl-pet/production/generated/148-ninox-rumseyi-v4-initial-original.png",
+        "final_original": "owl-pet/production/generated/148-ninox-rumseyi-v4-final-original.png",
+        "research_record": "owl-pet/research/species/148-ninox-rumseyi-v4.md",
+        "review_record": "owl-pet/research/reviews/148-ninox-rumseyi-v4-review.md",
+        "run_record": "owl-pet/production/runs/20261112T133200+0800-cycle-5.md",
+        "manifest_counts": {
+          "concepts": 829,
+          "image": 798,
+          "design": 807
+        },
+        "manifest_repair": "restored missing #147 v4 row in design/image-manifest.json",
+        "archive_commit_pending": true,
+        "readback_pending": true,
+        "unique_species": "176/251",
+        "unique_increment": 0,
+        "revision_increment": 1,
+        "scientifically_verified": false,
+        "lease_expires_at": "2026-11-12T14:58:00+08:00"
       }
     }
   ],

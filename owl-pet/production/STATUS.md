@@ -4044,3 +4044,13 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` read back; cycle 1 credi
 
 - Verification `10ace0d7177beb4477978dd48e6838e916557c16` and archive `3551810adc3f6c7f0af018cfec1c36dec60d65ff` read back.
 - Credited cycle 3/6 exactly once; next cycle 4. Coverage 176/251; revision +1; science=false; lease released.
+
+
+## 2026-11-12 14:43 +08 — #148 *Ninox rumseyi* v4 archived, verification pending
+
+- Batch `20261112T113500+0800`, cycle 5/6.
+- Action: science revision; unique species remains **176/251**, revision increment pending verification.
+- Review: **PASS_WITH_LIMITATIONS**, no image edit.
+- Exact juvenile age/plumage sequence/flight threshold and molecular sex confirmation remain unknown.
+- Canonical concept: `design/concepts/148-ninox-rumseyi-v4.png`.
+- Manifest repair: restored the omitted #147 v4 row in `design/image-manifest.json`; prior #147 files remain unchanged.

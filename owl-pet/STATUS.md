@@ -4206,3 +4206,13 @@ Corrected archive [`bf1faf58a55be7ff875fe703caf37fc43844ef8a`](https://github.co
 
 Verification [`b5b701b5292200a8aedab6551c79892714fac04c`](https://github.com/janeytlin-eng/game-owl-ket/commit/b5b701b5292200a8aedab6551c79892714fac04c) was read back after corrected archive [`bf1faf58a55be7ff875fe703caf37fc43844ef8a`](https://github.com/janeytlin-eng/game-owl-ket/commit/bf1faf58a55be7ff875fe703caf37fc43844ef8a). Cycle 1 credited once; lease released; next cycle 2. Unique coverage remains 176/251; revision +1; science=false.
 
+
+
+## 2026-11-12 14:43 +08 — #148 *Ninox rumseyi* v4 archived, verification pending
+
+- Batch `20261112T113500+0800`, cycle 5/6.
+- Action: science revision; unique species remains **176/251**, revision increment pending verification.
+- Review: **PASS_WITH_LIMITATIONS**, no image edit.
+- Exact juvenile age/plumage sequence/flight threshold and molecular sex confirmation remain unknown.
+- Canonical concept: `design/concepts/148-ninox-rumseyi-v4.png`.
+- Manifest repair: restored the omitted #147 v4 row in `design/image-manifest.json`; prior #147 files remain unchanged.

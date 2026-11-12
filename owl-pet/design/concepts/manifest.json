@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T22:29:00+08:00",
+  "updated": "2026-11-12T22:47:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -34827,7 +34827,85 @@
       "verification_commit": "916801b749da67dbb54e77e3bb14911c056a4428",
       "verification_tree": "b39d95064c2365b52121db891a1b85d1f4c61993",
       "ledger_credited_at": "2026-11-12T22:29:00+08:00"
+    },
+    {
+      "id": "165-ninox-punctulata-v4",
+      "species_id": 165,
+      "scientific_name": "Ninox punctulata",
+      "historical_names": [
+        "Noctua punctulata"
+      ],
+      "common_name": "Speckled Boobook",
+      "version": 4,
+      "prior_versions_retained": [
+        1,
+        2,
+        3
+      ],
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "path": "design/concepts/165-ninox-punctulata-v4.png",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "status": "V4 preserves v1-v3, corrects the overly clean-white v3 adult underside by restoring Sharpe 1875's narrow chocolate upper-chest band and patterned brown flanks while retaining a white central field. Adults remain near-equal and dark-eyed because no quantitative sex rule was verified. The age-unknown Buton juvenile remains directly bounded by O’Connell et al. 2022: dark, fluffy, short-winged, hidden-tailed and naturally root-supported; no human, nest, exact-age or flight claim. The MNHN holotype supports old/current name and Sulawesi provenance only; science=false.",
+      "source_ids": [
+        "SPBO-OCONNELL-ETAL-2022-P291-292",
+        "SPBO-SHARPE-1875-P183",
+        "SPBO-MNHN-HOLOTYPE-2010-288"
+      ],
+      "unverified_leads": [],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/165-ninox-punctulata-v4.md",
+      "review_record": "research/reviews/165-ninox-punctulata-v4-review.md",
+      "run_record": "production/runs/20261112T223100+0800-cycle-4.md",
+      "reviewed_at": "2026-11-12T22:43:00+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 3432663,
+      "sha256": "47b5a814a8fca0ba4b1a1e5a0987b07c86cfa8d4274fabf80305e176a334909c",
+      "git_blob": "d24f51c1135d744c0b336a319905176127a0197e",
+      "initial_original_path": "production/generated/165-ninox-punctulata-v4-initial-original.png",
+      "initial_original_blob": "d24f51c1135d744c0b336a319905176127a0197e",
+      "initial_original_size_bytes": 3432663,
+      "final_original_path": "production/generated/165-ninox-punctulata-v4-final-original.png",
+      "final_original_blob": "d24f51c1135d744c0b336a319905176127a0197e",
+      "final_original_size_bytes": 3432663,
+      "full_color_source_path": "production/generated/165-ninox-punctulata-v4-full-color.png",
+      "full_color_source_blob": "d24f51c1135d744c0b336a319905176127a0197e",
+      "full_color_source_size_bytes": 3432663,
+      "reviewed_path": "production/reviewed/165-ninox-punctulata-v4-reviewed-master.png",
+      "reviewed_blob": "1be1ef32d8471f78d5613d852e5937bbce6905de",
+      "reviewed_size_bytes": 1973407,
+      "review_crops": [
+        {
+          "path": "production/review-crops/165-ninox-punctulata-v4-adult-male.png",
+          "blob": "e3b16b92e32de29874786868701c934c9998f29d",
+          "size_bytes": 866746,
+          "sha256": "504e2d6ee16092e19db1e4bd4ce977574188e60860a1d2a8a9c5310276b42dcf"
+        },
+        {
+          "path": "production/review-crops/165-ninox-punctulata-v4-dark-fluffy-juvenile.png",
+          "blob": "91aae8fda6c7487785bf6766d062fb8c6c88c0b8",
+          "size_bytes": 871092,
+          "sha256": "e968abb74177a584cbee31a9546e9c77d73ec8e6d1d0f1450a0d7349704a1e3f"
+        },
+        {
+          "path": "production/review-crops/165-ninox-punctulata-v4-adult-female.png",
+          "blob": "058bdf521a34a066fba457a72317c23017f14825",
+          "size_bytes": 909565,
+          "sha256": "9953a40efdfc0ad79bd05b817cb0ce5300bea933944f665b367fc0835d858e1e"
+        }
+      ],
+      "archive_note": "V1-v3 preserved. Reread O’Connell et al. 2022 pp.291–292/Fig.3A and Sharpe 1875 p.183; added MNHN holotype record. Full plate, three crops and montage opened; edit0. Mikkola upload not mounted. PASS_WITH_LIMITATIONS; science=false.",
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false,
+      "ledger_credited": false,
+      "batch_id": "20261112T213600+0800",
+      "batch_cycle": 4
     }
   ],
-  "updated_at": "2026-11-12T22:29:00+08:00"
+  "updated_at": "2026-11-12T22:47:00+08:00"
 }

@@ -1867,3 +1867,10 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 - Full plate, three role crops and montage opened; edit count 0; PASS_WITH_LIMITATIONS; scientifically verified: false.
 - Unique species remains 176/251; revision increment +1.
 - Research: `research/species/164-strix-hadorami-v4.md`; review: `research/reviews/164-strix-hadorami-v4-review.md`; run: `production/runs/20261112T220600+0800-cycle-3.md`.
+
+
+## 2026-11-12 — #165 *Ninox punctulata* v4 science revision
+
+- Preserved v1–v3; restored the narrow chest band and patterned brown flanks omitted by v3.
+- Retained the directly evidenced age-unknown dark fluffy juvenile with full natural root support; edit0; PASS_WITH_LIMITATIONS; science=false.
+- Unique species remains 176/251; revision +1. Research: `research/species/165-ninox-punctulata-v4.md`; review: `research/reviews/165-ninox-punctulata-v4-review.md`; run: `production/runs/20261112T223100+0800-cycle-4.md`.

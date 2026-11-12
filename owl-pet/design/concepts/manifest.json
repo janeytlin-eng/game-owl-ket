@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T20:07:44+08:00",
+  "updated": "2026-11-12T20:34:05+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -34285,7 +34285,98 @@
       "ledger_credited_at": "2026-11-12T20:07:44+08:00",
       "batch_id": "20261112T183437+0800",
       "batch_cycle": 3
+    },
+    {
+      "id": "159-phodilus-assimilis-v4",
+      "species_id": 159,
+      "scientific_name": "Phodilus assimilis",
+      "historical_names": [
+        "Phodilus badius assimilis",
+        "Phodilus assimilis assimilis"
+      ],
+      "common_name": "Sri Lanka Bay Owl",
+      "version": 4,
+      "prior_versions_retained": [
+        1,
+        2,
+        3
+      ],
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "path": "design/concepts/159-phodilus-assimilis-v4.png",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "status": "V4 refreshes the Sri Lanka Bay Owl with near-equal dark chestnut adults, huge dark eyes, yellowish-horn bills, short pseudo-ear corners only, divided vinaceous-pink V/heart facial discs, dense black/white flecking and strongly barred wings. The age-unknown juvenile remains explicitly conservative: down-dominant, seated low and fully supported inside a rotten vertical hollow, with no mature remiges or tail visible. Hettige 2007 pp.121–124 supports the Sinharaja dead-fishtail-palm hollow and absence of known sexual dichromatism, but not a feather chronology; exact age, flight ability, quantified sex size and stable colour dimorphism remain unknown; science=false.",
+      "source_ids": [
+        "SLBO-CBC-HETTIGE-2007-P121-124",
+        "SLBO-CBC-ADULT-PHOTOS-2006-2007",
+        "SLBO-AVIBASE-HUME-1877-P138",
+        "SLBO-OWLPAGES-2020"
+      ],
+      "unverified_leads": [],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/159-phodilus-assimilis-v4.md",
+      "review_record": "research/reviews/159-phodilus-assimilis-v4-review.md",
+      "run_record": "production/runs/20261112T200845+0800-cycle-4.md",
+      "reviewed_at": "2026-11-12T20:20:15+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 3261164,
+      "sha256": "db94f4d08cd95ec29605ba657db018715f96435564cce65fca57f82d180b2de6",
+      "git_blob": "ea1a7a5c572f8995607eae3f76b9ac2942ec0acb",
+      "initial_original_path": "production/generated/159-phodilus-assimilis-v4-initial-original.png",
+      "initial_original_blob": "ea1a7a5c572f8995607eae3f76b9ac2942ec0acb",
+      "initial_original_size_bytes": 3261164,
+      "final_original_path": "production/generated/159-phodilus-assimilis-v4-final-original.png",
+      "final_original_blob": "ea1a7a5c572f8995607eae3f76b9ac2942ec0acb",
+      "final_original_size_bytes": 3261164,
+      "full_color_source_path": "production/generated/159-phodilus-assimilis-v4-full-color.png",
+      "full_color_source_blob": "ea1a7a5c572f8995607eae3f76b9ac2942ec0acb",
+      "full_color_source_size_bytes": 3261164,
+      "reviewed_path": "production/reviewed/159-phodilus-assimilis-v4-reviewed-master.png",
+      "reviewed_blob": "ea1a7a5c572f8995607eae3f76b9ac2942ec0acb",
+      "reviewed_size_bytes": 3261164,
+      "review_crops": [
+        {
+          "path": "production/review-crops/159-phodilus-assimilis-v4-adult-male.png",
+          "blob": "40d5d7b5826eafd4059f2dc842e7f37610788c75",
+          "size_bytes": 189204,
+          "sha256": "9ccf4b560ca274de57dc5a78d8b51a9ca2b075345792d7ea71317d74e00086ad"
+        },
+        {
+          "path": "production/review-crops/159-phodilus-assimilis-v4-juvenile.png",
+          "blob": "f8f67d3bcac50ae91a2d21bcb9fb447a9ba38b10",
+          "size_bytes": 206500,
+          "sha256": "8d22aa99dd47d0be98b38a440a02b5f9606de6af5c2038780ffbaffb886512f4"
+        },
+        {
+          "path": "production/review-crops/159-phodilus-assimilis-v4-adult-female.png",
+          "blob": "45396730c458b774dd2984247bdcfe58749711c4",
+          "size_bytes": 189789,
+          "sha256": "939c980ba4f77a7588b89e9f23e74c30eb0f08e16f36ca86365b2a522c273d0f"
+        }
+      ],
+      "archive_note": "V1-v3 preserved. Three newly indexed sources and one reread source delimit adult identity, sex uncertainty and the 2007 Sinharaja nest hollow. Full 1536x1024 plate and three connector-safe role crops opened; no edit required. First single-call transfer was detected truncated and superseded before archive by exact 3,261,164-byte blob ea1a7a5.... Mikkola upload was not mounted; no fresh page claim. PASS_WITH_LIMITATIONS; science=false.",
+      "archive_commit_pending": false,
+      "readback_pending": false,
+      "exact_readback": true,
+      "ledger_credited": true,
+      "batch_id": "20261112T183437+0800",
+      "batch_cycle": 4,
+      "archive_commit": "f39953608913c2c158438c2c5da21d20bd0fee7e",
+      "archive_tree": "a70cca90cafa65a7065b7d4a935f16ed1ca46ec4",
+      "verification_commit_pending": false,
+      "verification_tree_pending": false,
+      "exact_binary_paths_verified": 8,
+      "unique_binary_streams_verified": 4,
+      "required_paths_verified": 17,
+      "verified_at": "2026-11-12T20:31:18+08:00",
+      "verification_commit": "6c52484aa702a75636ba809d21e01bb5ff946602",
+      "verification_tree": "b2609fc6b173b0086b53fca2cb7742267d22485a",
+      "ledger_credited_at": "2026-11-12T20:34:05+08:00"
     }
   ],
-  "updated_at": "2026-11-12T20:07:44+08:00"
+  "updated_at": "2026-11-12T20:34:05+08:00"
 }

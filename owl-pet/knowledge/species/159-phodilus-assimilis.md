@@ -47,3 +47,17 @@ The first v3 render had adult-like white-spotted layered feathers on both juveni
 - Git blob: `f9d5d817beb75ded1463c7ac173cc4b4168c6359`
 - SHA-256: `aa25c8a38005df8852d58b200cab6b24de8e7b783ec1ca955d4fa38cd54ee2c0`
 - Run: [2026-10-25T1628+0800-cycle-4.md](../../production/runs/2026-10-25T1628+0800-cycle-4.md)
+
+
+## v4 evidence refresh — 2026-11-12
+
+Freshly read and indexed `SLBO-CBC-HETTIGE-2007-P121-124`, `SLBO-CBC-ADULT-PHOTOS-2006-2007` and `SLBO-AVIBASE-HUME-1877-P138`; `SLBO-OWLPAGES-2020` was reread without duplicating its ID. Hettige's continuous observation places the nest in a vertical hollow at the broken top of a dead fishtail palm about 10 m high at Kudawa/Sinharaja, notes no known sexual dichromatism, and distinguishes short alert pseudo-ear corners from true ear tufts. The source does not provide a chick feather chronology.
+
+The v4 plate therefore keeps adults near equal, dark chestnut, strongly spotted/barred, dark-eyed and yellowish-horn billed, with divided vinaceous-pink V/heart facial discs and only short pseudo-ear corners. The age-unknown chick is down-dominant, seated low with continuous cavity-floor support and no mature remiges or tail visible. Full plate and all three role crops were opened; no image edit was required. Exact age, flight ability, quantitative sex-size direction and stable sex dichromatism remain unknown; `scientifically_verified: false`.
+
+- Image: [159-phodilus-assimilis-v4.png](../../design/concepts/159-phodilus-assimilis-v4.png)
+- Full original: [159-phodilus-assimilis-v4-final-original.png](../../production/generated/159-phodilus-assimilis-v4-final-original.png)
+- Research: [159-phodilus-assimilis-v4.md](../../research/species/159-phodilus-assimilis-v4.md)
+- Review: [159-phodilus-assimilis-v4-review.md](../../research/reviews/159-phodilus-assimilis-v4-review.md)
+- Git blob: `ea1a7a5c572f8995607eae3f76b9ac2942ec0acb`
+- SHA-256: `db94f4d08cd95ec29605ba657db018715f96435564cce65fca57f82d180b2de6`

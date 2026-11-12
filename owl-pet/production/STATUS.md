@@ -4120,3 +4120,10 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` read back; cycle 1 credi
 ## 2026-11-12 #156 *Scotopelia peli* v4 — LEDGER_CREDITED
 - Verification `eeffe59cfea7e01ca7038726c91b79719b0b8988` credited once after archive `fa5435603ec1bff621981bdc7958a58aac5d95fa`.
 - Batch `20261112T183437+0800` is 1/6, next cycle 2, lease released; unique coverage remains 176/251; revision +1; science=false.
+
+
+- 2026-11-12T20:27:40+08:00: #159 *Phodilus assimilis* v4 ARCHIVED pending immutable readback. New3/reread1/corrected3; edit0; full plate and three role crops passed. Exact juvenile chronology and sex metrics remain unknown; unique176/251; science=false.
+
+- 2026-11-12T20:31:18+08:00: #159 v4 VERIFIED at archive `f39953608913c2c158438c2c5da21d20bd0fee7e` / tree `a70cca90cafa65a7065b7d4a935f16ed1ca46ec4`: non-truncated 4,757-entry tree, 17 paths, 8 image aliases across 4 exact streams and manifests 840/809/818 passed; ledger credit pending; science=false.
+
+- 2026-11-12T20:34:05+08:00: #159 *Phodilus assimilis* v4 LEDGER_CREDITED after verification `6c52484aa702a75636ba809d21e01bb5ff946602`; batch 4/6, next cycle 5, lease released; unique176/251; revision +1; science=false. Verified files were restored on top of independent main `4526fb6cbba3f8591830c7e2323e14d9a0858fbe` without force.

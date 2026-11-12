@@ -1824,3 +1824,14 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 - Full plate and three crops reviewed; no edit required; PASS_WITH_LIMITATIONS, scientifically_verified=false.
 
 - 2026-11-12T19:37:08+08:00: #156 *Scotopelia peli* v4 LEDGER_CREDITED after verification `eeffe59cfea7e01ca7038726c91b79719b0b8988`; batch 1/6, next cycle 2, lease released; unique 176/251; revision +1; science=false.
+
+
+## 2026-11-12 — #159 *Phodilus assimilis* v4
+
+- Preserved v1-v3 and archived an evidence-bounded Sri Lanka Bay Owl revision with two adults and a down-dominant, fully cavity-supported age-unknown juvenile.
+- Added three indexed sources, reread one, corrected sex/ear-corner/nest boundaries, and retained unresolved juvenile chronology as unknown.
+- Opened the full plate and three role crops; no edit required. Unique coverage remains 176/251; science=false; immutable readback pending.
+
+- 2026-11-12T20:31:18+08:00: #159 *Phodilus assimilis* v4 immutable readback passed archive `f39953608913c2c158438c2c5da21d20bd0fee7e` / tree `a70cca90cafa65a7065b7d4a935f16ed1ca46ec4`; 17 required paths, eight binary aliases/four streams and manifests 840/809/818 passed; ledger credit pending; science=false.
+
+- 2026-11-12T20:34:05+08:00: #159 *Phodilus assimilis* v4 LEDGER_CREDITED after verification `6c52484aa702a75636ba809d21e01bb5ff946602`; verified files restored on top of independent main `4526fb6cbba3f8591830c7e2323e14d9a0858fbe` without force; batch 4/6, next cycle 5; unique176/251; science=false.

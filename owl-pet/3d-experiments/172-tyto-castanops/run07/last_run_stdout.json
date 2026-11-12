@@ -1,0 +1,67 @@
+{
+  "source": "owl-pet/design/concepts/172-tyto-castanops-v3.png",
+  "source_sha256": "881dec86e0e66ab2ad0781db86a3b719b35e710d2be1a1606d761a9d0908483d",
+  "original_size": [
+    1536,
+    1024
+  ],
+  "target": "rightmost cream AGE-UNKNOWN MESOPTILE; no adults",
+  "crop_bbox_xyxy": [
+    956,
+    268,
+    1424,
+    848
+  ],
+  "crop_dimensions": [
+    468,
+    580
+  ],
+  "foreground_occupancy": 0.62475,
+  "feather_edge_alpha_band_pixels": 14738,
+  "rough_source_landmarks_crop_xy": {
+    "left_eye": [
+      203,
+      154
+    ],
+    "right_eye": [
+      314,
+      158
+    ],
+    "beak_tip": [
+      245,
+      267
+    ],
+    "left_foot": [
+      159,
+      506
+    ],
+    "right_foot": [
+      325,
+      513
+    ]
+  },
+  "limitations": "Automatic GrabCut matte requires visual acceptance; does not reconstruct side/back, age or feather chronology.",
+  "status": "UNAPPROVED REFERENCE ONLY; NOT 3D; NOT MOBILE/WEBGL PASS",
+  "outputs": {
+    "chick_matte_checker_QA.png": {
+      "bytes": 208139,
+      "sha256": "0131f903cbe13e49142301d35769f63630fc3de9f2e964ffe65e79b0229ebea6"
+    },
+    "chick_matte_dark_QA.png": {
+      "bytes": 226226,
+      "sha256": "8477cc6c974730dd373621fc0c7fb22b5db3c7872ce56138686ead8673b2a9a1"
+    },
+    "chick_reference_rgba.png": {
+      "bytes": 367904,
+      "sha256": "73a221247d9c9fca8a1f3064e1e596308db2ca4e3eed8caf53ae35c19a2eda22"
+    },
+    "chick_reference_uncut.png": {
+      "bytes": 326357,
+      "sha256": "864702ebb07db537cc625ceabeee97fbbcc251e93e3866a49102ba2217ebb1f3"
+    },
+    "segmentation_mask.png": {
+      "bytes": 2243,
+      "sha256": "f5daf77e5c470bea01400f821de3527a5e3222b250eab5a2c70c7053cc8a68cf"
+    }
+  }
+}

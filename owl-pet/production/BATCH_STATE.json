@@ -47105,15 +47105,29 @@
         }
       ],
       "next_cycle": 6,
-      "active_cycle": null,
+      "active_cycle": 6,
       "started_at": "2026-11-12T21:36:00+08:00",
-      "updated_at": "2026-11-12T22:49:00+08:00",
-      "current_stage": "LEDGER_CREDITED",
-      "stage": "LEDGER_CREDITED",
+      "updated_at": "2026-11-12T22:51:00+08:00",
+      "current_stage": "STARTED",
+      "stage": "STARTED",
       "completed_count": 5,
       "ledger_credit_pending": false,
-      "lease": null,
-      "active": null,
+      "lease": {
+        "owner": "codex-work",
+        "run_id": "20261112T225100+0800-cycle-6",
+        "cycle": 6,
+        "acquired_at": "2026-11-12T22:51:00+08:00",
+        "heartbeat_at": "2026-11-12T22:51:00+08:00",
+        "expires_at": "2026-11-12T23:06:00+08:00",
+        "species_id": 167,
+        "species": "Ketupa poensis"
+      },
+      "active": {
+        "cycle": 6,
+        "species_id": 167,
+        "species": "Ketupa poensis",
+        "run_id": "20261112T225100+0800-cycle-6"
+      },
       "stage_events": [
         {
           "batch_id": "20261112T213600+0800",
@@ -48071,6 +48085,22 @@
             "total_species": 251,
             "revision_increment": 1,
             "scientifically_verified": false
+          }
+        },
+        {
+          "batch_id": "20261112T213600+0800",
+          "cycle": 6,
+          "stage": "STARTED",
+          "at": "2026-11-12T22:51:00+08:00",
+          "run_id": "20261112T225100+0800-cycle-6",
+          "species_id": 167,
+          "species": "Ketupa poensis",
+          "credited": false,
+          "evidence": {
+            "base_head": "499adbef40c9e56b73350852a8b969b8080f1a02",
+            "lease_expires_at": "2026-11-12T23:06:00+08:00",
+            "next_cycle": 6,
+            "prior_version": "owl-pet/design/concepts/167-ketupa-poensis-v3.png"
           }
         }
       ]

@@ -178,3 +178,10 @@ When primary sources say a recent fledgling can fly but lands poorly, that evide
 - **Applied change:** #177 v4 replaces the generic mesoptile with a documented still-downy, non-flying grey-brown young and short half-grown remiges; no cavity is shown. The initial generated adult-like wing was edited and reopened at native size plus crop.
 - **Validated scope:** visually validated for #177 v4 only. For rare species, search older species monographs in original-language terms for `juvenile`, `poussin`, `jeune`, `rémiges`, `nest` before accepting a modern-guide summary as the developmental evidence ceiling.
 
+
+## 2026-11-13 — a documented juvenile eye option is not an age rule
+
+- **Problem:** #178 v3 muted the juvenile iris as if eye colour tracked age, while the first v4 render also gave the recent fledgling an adult-hard wing.
+- **Evidence boundary:** Currie et al. 2002 pp.16–18 report bright yellow in some fledglings and found no age relationship; Currie et al. 2004 pp.126–130 define a fluffy barred c.8–12-week recent-fledgling category but not a complete feather chronology.
+- **Applied change:** v4 uses the directly observed bright-yellow option without calling it universal, and one edit shortened/softened the juvenile wing while retaining bilateral support.
+- **Verified scope:** edited full plate plus three role crops passed. Reuse the rule only to separate a documented soft-part option from an unsupported age code; it does not establish universal iris or wing development.

@@ -43932,14 +43932,14 @@
       "next_cycle": 2,
       "active_cycle": 2,
       "started_at": "2026-11-12T11:35:00+08:00",
-      "updated_at": "2026-11-12T12:44:00+08:00",
+      "updated_at": "2026-11-12T12:46:00+08:00",
       "current_stage": "IMAGE_GENERATED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex",
         "run_id": "20261112T115800+0800-cycle-2",
-        "heartbeat_at": "2026-11-12T12:44:00+08:00",
-        "expires_at": "2026-11-12T12:59:00+08:00"
+        "heartbeat_at": "2026-11-12T12:46:00+08:00",
+        "expires_at": "2026-11-12T13:01:00+08:00"
       },
       "active": {
         "cycle": 2,
@@ -44222,13 +44222,35 @@
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-12T12:59:00+08:00"
           }
+        },
+        {
+          "batch_id": "20261112T113500+0800",
+          "cycle": 2,
+          "stage": "IMAGE_GENERATED_REPAIRED",
+          "at": "2026-11-12T12:46:00+08:00",
+          "run_id": "20261112T115800+0800-cycle-2",
+          "species_id": 145,
+          "species": "Ninox philippensis",
+          "credited": false,
+          "evidence": {
+            "failed_commit": "62c028d7b939c813d98e84535744abb01e2ca50f",
+            "failed_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+            "failure": "metadata output lacked newline; parsed size became invalid and no chunks were uploaded",
+            "repair": "recreated from intact local PNG using 180000-byte 3-byte-aligned chunks",
+            "initial_blob": "0415f1b80cdcddbcd26feeb5ed48d909b75cb8d3",
+            "initial_bytes": 2639472,
+            "sha256": "2b7ce777739900c191d1c17d3b29ac80c712860d762a9042a7f3956d4d29fb20",
+            "dimensions": "1536x1024",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-12T13:01:00+08:00"
+          }
         }
       ],
       "active_lease": {
         "owner": "codex",
         "run_id": "20261112T115800+0800-cycle-2",
-        "heartbeat_at": "2026-11-12T12:44:00+08:00",
-        "expires_at": "2026-11-12T12:59:00+08:00"
+        "heartbeat_at": "2026-11-12T12:46:00+08:00",
+        "expires_at": "2026-11-12T13:01:00+08:00"
       }
     }
   ],
@@ -44383,8 +44405,8 @@
   "active_lease": {
     "owner": "codex",
     "run_id": "20261112T115800+0800-cycle-2",
-    "heartbeat_at": "2026-11-12T12:44:00+08:00",
-    "expires_at": "2026-11-12T12:59:00+08:00"
+    "heartbeat_at": "2026-11-12T12:46:00+08:00",
+    "expires_at": "2026-11-12T13:01:00+08:00"
   },
   "last_updated_at": "2026-11-12T12:33:00+08:00",
   "audit_notes": [
@@ -57915,6 +57937,28 @@
         "preliminary_inspection": "young iris dark and supported; formed wing compact relative to adults; typography and all three labels legible; detailed crop review pending",
         "scientifically_verified": false,
         "lease_expires_at": "2026-11-12T12:59:00+08:00"
+      }
+    },
+    {
+      "batch_id": "20261112T113500+0800",
+      "cycle": 2,
+      "stage": "IMAGE_GENERATED_REPAIRED",
+      "at": "2026-11-12T12:46:00+08:00",
+      "run_id": "20261112T115800+0800-cycle-2",
+      "species_id": 145,
+      "species": "Ninox philippensis",
+      "credited": false,
+      "evidence": {
+        "failed_commit": "62c028d7b939c813d98e84535744abb01e2ca50f",
+        "failed_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "failure": "metadata output lacked newline; parsed size became invalid and no chunks were uploaded",
+        "repair": "recreated from intact local PNG using 180000-byte 3-byte-aligned chunks",
+        "initial_blob": "0415f1b80cdcddbcd26feeb5ed48d909b75cb8d3",
+        "initial_bytes": 2639472,
+        "sha256": "2b7ce777739900c191d1c17d3b29ac80c712860d762a9042a7f3956d4d29fb20",
+        "dimensions": "1536x1024",
+        "scientifically_verified": false,
+        "lease_expires_at": "2026-11-12T13:01:00+08:00"
       }
     }
   ],

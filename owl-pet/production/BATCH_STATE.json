@@ -48338,16 +48338,16 @@
       "next_cycle": 4,
       "active_cycle": 4,
       "started_at": "2026-11-12T23:41:06+08:00",
-      "updated_at": "2026-11-13T00:54:45.070+08:00",
-      "current_stage": "STARTED",
-      "stage": "STARTED",
+      "updated_at": "2026-11-13T00:58:25.268+08:00",
+      "current_stage": "RESEARCH_READY",
+      "stage": "RESEARCH_READY",
       "completed_count": 3,
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex-work-mode",
         "run_id": "20261113T005445+0800-cycle-4",
-        "heartbeat_at": "2026-11-13T00:54:45.070+08:00",
-        "expires_at": "2026-11-13T01:09:45.070+08:00"
+        "heartbeat_at": "2026-11-13T00:58:25.268+08:00",
+        "expires_at": "2026-11-13T01:13:25.268+08:00"
       },
       "active": {
         "cycle": 4,
@@ -48356,7 +48356,7 @@
         "species": "Glaucidium palmarum",
         "version": 4,
         "action": "SCIENCE_REVISION",
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "run_record": "owl-pet/production/runs/20261113T005445+0800-cycle-4.md"
       },
       "stage_events": [
@@ -48952,6 +48952,29 @@
             "selection_note": "Canonical next numbered science-revision target after #170; existing #171 v1-v3 retained and not double-counted.",
             "lease_expires_at": "2026-11-13T01:09:45.070+08:00",
             "scientifically_verified": false
+          }
+        },
+        {
+          "batch_id": "20261112T234106+0800",
+          "cycle": 4,
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-13T00:58:25.268+08:00",
+          "run_id": "20261113T005445+0800-cycle-4",
+          "species_id": 171,
+          "species": "Glaucidium palmarum",
+          "credited": false,
+          "evidence": {
+            "research_record": "owl-pet/research/species/171-glaucidium-palmarum-v4.md",
+            "source_index": "owl-pet/research/SOURCE_INDEX.md",
+            "new_verified_sources": 2,
+            "reused_or_reread_sources": 6,
+            "unverified_leads": 0,
+            "corrected_inferences": 3,
+            "complete_prompt_saved": true,
+            "design_boundary": "full-colour plate; adults same pale greyish-tawny phenotype and near-equal standing height, female only subtly fuller; age-unknown supported mesoptile with plain grey crown, sparse forehead flecks, compact soft wing and mostly hidden tail; no exact age, flight or nest claim",
+            "mikkola_access": "uploaded guide not mounted; repository pp.385-386 transcription reused only, no fresh page claim",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-13T01:13:25.268+08:00"
           }
         }
       ]

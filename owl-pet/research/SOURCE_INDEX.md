@@ -5317,3 +5317,25 @@ Reused/re-read without duplicate IDs for #130 v5: `KOEP-ITIS-686665-2026`, repos
 - **Limits:** no sex, juvenile, nest or feather chronology.
 
 - Reused: `TPO-LOWERY-NEWMAN-1949-P2-3`, `TPO-UNAM-MZFC-1999`, `TPO-ITIS-555452-2026`, repository `TPO-MIKKOLA-2013-P384` only. Index delta: new verified 2; reused/reread 4; corrected inferences 2 (quantified adult direction, full-colour canonical archive). Science=false.
+
+
+## 2026-11-13 — #171 *Glaucidium palmarum* v4 — distribution cross-check and mesoptile boundary
+
+### CPO-CONABIO-2021-36574 — new institutional range/habitat source
+- **Title / institution / year:** “Tecolote colimense (*Glaucidium palmarum*)” / Enciclovida, CONABIO / 2021.
+- **URL / accessed / type:** https://enciclovida.mx/especies/36574.pdf / 2026-11-13 / institutional species summary.
+- **Page/section read:** PDF lines 1–17; Descripción, Distribución potencial, Vegetación, Categoría de riesgo.
+- **Facts:** Mexican endemic; potential range in northwest, west and southwest Mexico; tropical/subtropical forest; listed as Amenazada under NOM-059.
+- **Limits / design use:** overview, not a morphology or developmental study. Supports a broad western-Mexico habitat frame only; no adult plumage, sex ratio, immature age, flight or nest inference.
+
+### CPO-ROBBINS-HOWELL-1995-P3-5 — new indexed primary appendix read
+- **Title / authors / year:** “A New Species of Pygmy-Owl …” / Mark B. Robbins & Steve N. G. Howell / 1995, *Wilson Bulletin* 107(1):1–6.
+- **URL / accessed:** https://sora.unm.edu/sites/default/files/journals/wilson/v107n01/p0001-p0006.pdf / 2026-11-13.
+- **Species/stage/pages:** adult museum series and locality/vocalization records; pp.3–5 (PDF lines 164–317, 360–380).
+- **Facts:** lists a broad Mexican *G. palmarum* specimen series across Sonora, Sinaloa, Nayarit, Jalisco, Colima, Guerrero, Oaxaca and Morelos; notes records to 1500 m in dry pine-oak woodland. The complex context is specimen-based.
+- **Limits / design use:** no known-age immature series, nest description or flight threshold. Supports western-Mexico/dry-woodland setting and caution against a universal sex-size claim.
+
+### Reused evidence and corrected boundaries
+- Reused/reread **CPO-NELSON-1901-P46**, **CPO-HOWELL-ROBBINS-1995-P17-20**, **CPO-BUCHANAN-1964-P104-106**, **CPO-MIKKOLA-2013-P385-386**, **CPO-ITIS-555451-2026** and bounded **CPO-BITRAN-2018-JUV**.
+- Corrected boundaries: adult sexes remain near-equal in visible height; six tail bars are explicitly an inference within documented variation; immature uses an age-unknown, two-foot-supported mesoptile with compact soft wing and hidden tail. Uploaded Mikkola guide was unavailable, so only the existing page transcription was reused. Science remains false.
+- Linked record: [#171 v4 research](species/171-glaucidium-palmarum-v4.md); target `design/concepts/171-glaucidium-palmarum-v4.png`.

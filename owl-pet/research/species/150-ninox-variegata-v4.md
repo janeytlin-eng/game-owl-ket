@@ -49,4 +49,9 @@ Soft-focus humid New Ireland forest with epiphytes and vines; one continuous nat
 
 One ImageGen invocation produced a 1536×1024 plate. The full plate and independent adult-male, older-juvenile and adult-female crops were opened. Exact title/name/count/labels passed. Adults are near equal, earless and compact; the female rear-three-quarter view exposes short-tail bars. The juvenile is open-eyed with dark non-diagnostic irides, down-softened wing/body, concealed tail and two-foot support. No edit was required. Result **PASS_WITH_LIMITATIONS**; science remains false.
 
-Binary evidence: final/original 2,761,669 bytes, SHA-256 `68e5647e8c8ffd1e0d3562a70fde41f5fe1945f912b91cd2b4a8136e3cbd4ba1`, blob `ff1c0553311360331d5f3010186a91599638027c`; crop blobs `1a7ca8352aca9f80c6ad439487b1a07a66ad7826`, `bec6fc887928b38b766105ce6bc946c3bb2af483`, `2e5bf5f3a15b5d689d6e9310bdec012cf5631c86`.
+Binary evidence: final/original 2,761,669 bytes, SHA-256 `68e5647e8c8ffd1e0d3562a70fde41f5fe1945f912b91cd2b4a8136e3cbd4ba1`, blob `7c407baa91fe8efc0f3668c782a9fe5909542b71`; crop blobs `d4b9f6fdc7486388b15df021c5c56fb07cd6ff1a`, `fea6fcdd8edef2d10f2f7cbb9ba54d032328389c`, `c1e166d27595d8c3c5ce2faf42ecf505a0644846`.
+
+
+## Pre-verification transport repair — 2026-11-12T15:51:27.825+08:00
+
+The first GitHub image blobs were rejected during immutable readback: each remote object was 24–25 bytes longer than its local PNG because the upload path stripped only an `image/png` data-URL prefix while the saver returned `application/octet-stream`. No cycle credit was issued. All four local PNG streams were re-uploaded after removing the generic `data:[mime];base64,` prefix. Their Git blob SHAs now exactly match local `git hash-object`: full `7c407baa91fe8efc0f3668c782a9fe5909542b71`, crops `d4b9f6fdc7486388b15df021c5c56fb07cd6ff1a`, `fea6fcdd8edef2d10f2f7cbb9ba54d032328389c`, `c1e166d27595d8c3c5ce2faf42ecf505a0644846`. The rejected blobs remain recorded in the run event and are not used by any final path.

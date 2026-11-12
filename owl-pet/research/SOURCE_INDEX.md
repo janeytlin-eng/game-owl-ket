@@ -4850,3 +4850,19 @@ Reused/re-read without duplicate IDs for #130 v5: `KOEP-ITIS-686665-2026`, repos
 - The same current species appears in two preserved repository number histories. #145 v4 keeps its own number and versions but reuses the already read `NPH-SHARPE-1875` evidence rather than minting a duplicate source ID.
 - The source describes an age-unknown “Young,” not a calibrated nestling or confirmed flying fledgling. Both number histories must keep exact age, iris colour and action ability unknown unless new evidence is read.
 - Historical Leyte material in `NPH-PARKES-1973-P36-37` remains a pre-split mapping lead, not proof for modern strict Luzon Boobook juvenile appearance.
+
+## MINDBOO-LENEY-1910-P98 — Norwich Castle Museum Mindoro specimen
+
+- **Stable ID:** `MINDBOO-LENEY-1910-P98`
+- **Title:** *Some Additions to the Norwich Castle-Museum in 1909*
+- **Author / institution / year:** Frank Leney; Norwich Castle Museum / Norfolk & Norwich Naturalists' Society; read 1910, volume published 1914
+- **Original URL:** https://norfolknaturalists.org.uk/wp/wp-content/uploads/2017/02/Transactions-1909-10-transactionsofno9190norf_page_005-194.pdf
+- **Accessed:** 2026-11-12
+- **Source type:** primary museum acquisition/provenance note; full PDF read
+- **Taxon / stage:** *Ninox mindorensis*, adult male
+- **Page / section:** printed p.98, “Some Additions to the Norwich Castle-Museum in 1909”
+- **Source fact:** McGregor sent a male shot at Rio Baco, Mindoro, on 12 April 1905; the note places it closest to *N. spilocephalus* and more distantly to *N. philippensis*.
+- **Limits:** no detailed plumage, body measurements, juvenile stage, iris development, behaviour or nest data.
+- **Design use:** adult specimen provenance and historical comparative context only; no juvenile visual inference.
+- **Linked record:** `research/species/146-ninox-mindorensis-v4.md`.
+- **Confidence:** high for the museum record; narrow design applicability.

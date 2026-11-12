@@ -43949,14 +43949,14 @@
       "next_cycle": 3,
       "active_cycle": 3,
       "started_at": "2026-11-12T11:35:00+08:00",
-      "updated_at": "2026-11-12T12:52:00+08:00",
-      "current_stage": "STARTED",
+      "updated_at": "2026-11-12T12:56:00+08:00",
+      "current_stage": "RESEARCH_READY",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex",
         "run_id": "20261112T125200+0800-cycle-3",
-        "heartbeat_at": "2026-11-12T12:52:00+08:00",
-        "expires_at": "2026-11-12T13:07:00+08:00"
+        "heartbeat_at": "2026-11-12T12:56:00+08:00",
+        "expires_at": "2026-11-12T13:11:00+08:00"
       },
       "active": {
         "cycle": 3,
@@ -43966,7 +43966,7 @@
         "action": "SCIENCE_REVISION",
         "run_record": "owl-pet/production/runs/20261112T125200+0800-cycle-3.md"
       },
-      "stage": "STARTED",
+      "stage": "RESEARCH_READY",
       "completed_count": 2,
       "stage_events": [
         {
@@ -44410,13 +44410,37 @@
             "lease_expires_at": "2026-11-12T13:07:00+08:00",
             "scientifically_verified": false
           }
+        },
+        {
+          "batch_id": "20261112T113500+0800",
+          "cycle": 3,
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-12T12:56:00+08:00",
+          "run_id": "20261112T125200+0800-cycle-3",
+          "species_id": 146,
+          "species": "Ninox mindorensis",
+          "credited": false,
+          "evidence": {
+            "research_record": "owl-pet/research/species/146-ninox-mindorensis-v4.md",
+            "source_index": "owl-pet/research/SOURCE_INDEX.md",
+            "new_verified_sources": 1,
+            "reused_or_reread_sources": 4,
+            "unverified_leads_used": 0,
+            "corrected_inferences": 2,
+            "complete_prompt_saved": true,
+            "prior_visual_inspected": true,
+            "design_boundary": "near-equal adults; narrower broken adult bars; no Mindoro juvenile source, so eyes closed/downcast and wing/tail concealed with bilateral support; exact age/iris/flight unknown",
+            "mikkola_access": "upload unavailable; no fresh-page claim",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-12T13:11:00+08:00"
+          }
         }
       ],
       "active_lease": {
         "owner": "codex",
         "run_id": "20261112T125200+0800-cycle-3",
-        "heartbeat_at": "2026-11-12T12:52:00+08:00",
-        "expires_at": "2026-11-12T13:07:00+08:00"
+        "heartbeat_at": "2026-11-12T12:56:00+08:00",
+        "expires_at": "2026-11-12T13:11:00+08:00"
       }
     }
   ],
@@ -44571,8 +44595,8 @@
   "active_lease": {
     "owner": "codex",
     "run_id": "20261112T125200+0800-cycle-3",
-    "heartbeat_at": "2026-11-12T12:52:00+08:00",
-    "expires_at": "2026-11-12T13:07:00+08:00"
+    "heartbeat_at": "2026-11-12T12:56:00+08:00",
+    "expires_at": "2026-11-12T13:11:00+08:00"
   },
   "last_updated_at": "2026-11-12T12:33:00+08:00",
   "audit_notes": [
@@ -58274,6 +58298,30 @@
         "selection_note": "#145 v4 credited cycle2. #146 is the next numbered repository-backed target and currently ends at v3; preserve v1-v3 and re-check Mindoro identity, old-name mapping, adult sex evidence, defensible immature stage, support and Mindoro forest context.",
         "lease_expires_at": "2026-11-12T13:07:00+08:00",
         "scientifically_verified": false
+      }
+    },
+    {
+      "batch_id": "20261112T113500+0800",
+      "cycle": 3,
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-12T12:56:00+08:00",
+      "run_id": "20261112T125200+0800-cycle-3",
+      "species_id": 146,
+      "species": "Ninox mindorensis",
+      "credited": false,
+      "evidence": {
+        "research_record": "owl-pet/research/species/146-ninox-mindorensis-v4.md",
+        "source_index": "owl-pet/research/SOURCE_INDEX.md",
+        "new_verified_sources": 1,
+        "reused_or_reread_sources": 4,
+        "unverified_leads_used": 0,
+        "corrected_inferences": 2,
+        "complete_prompt_saved": true,
+        "prior_visual_inspected": true,
+        "design_boundary": "near-equal adults; narrower broken adult bars; no Mindoro juvenile source, so eyes closed/downcast and wing/tail concealed with bilateral support; exact age/iris/flight unknown",
+        "mikkola_access": "upload unavailable; no fresh-page claim",
+        "scientifically_verified": false,
+        "lease_expires_at": "2026-11-12T13:11:00+08:00"
       }
     }
   ],

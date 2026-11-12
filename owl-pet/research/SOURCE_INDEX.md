@@ -5113,3 +5113,31 @@ Reused/re-read without duplicate IDs for #130 v5: `KOEP-ITIS-686665-2026`, repos
 - `OBO-OBERHOLSER-1924-P302`: sex-unknown adult *abbotti* colour and measurement calibration only.
 - `OBO-MACAULAY-ADULT-GRID-2026`: living adult identity grid, no sex/age.
 - **Index delta:** new verified 2; reused/reread 3; corrected inference 1 (juvenile now tied to a documented down/quill stage). Uploaded Mikkola guide was not mounted for this cycle, so no fresh page claim is made. Scientific verification remains false.
+
+
+## 2026-11-12 — #159 *Phodilus assimilis* v4 — taxonomy, sex and nesting boundary refresh
+
+### SLBO-CBC-HETTIGE-2007-P121-124
+- **Title / author / year:** “Observations of a Nesting Pair of Ceylon Bay Owls *Phodilus assimilis assimilis*”; Uditha Hettige; 2007; *Ceylon Bird Club Notes*, July 2007, pp.121–124.
+- **URL / section / accessed:** https://www.ceylonbirdclub.org/articles-2007-07.php ; full institutional transcription, especially lines 47–70; accessed 2026-11-12.
+- **Source type / applies to:** continuous field observation; Sri Lankan nominate adults, nest site and young-presence timing.
+- **Facts:** the nest was a vertical hollow at the broken top of a dead fishtail palm about 10 m high beside Sinharaja; both adults later roosted outside, suggesting hatched/grown young. The paper says the species lacks true ear tufts, can form short pseudo-ear corners in alert camouflage, and that no sexual dichromatism was known; pair differences may be individual variability.
+- **Limits / decision:** no chick photograph, plumage sequence, exact hatch age, iris chronology, first-flight threshold or quantified sex size. V4 keeps adults near equal and distinct but not sexually patterned, uses only short rounded plumicorn corners, and places a conservative down-dominant age-unknown chick fully supported inside a tall natural cavity.
+
+### SLBO-CBC-ADULT-PHOTOS-2006-2007
+- **Title / institution / dates:** Ceylon Bird Club image records for adult *Phodilus assimilis*; Kudawa, Sinharaja, 20 Jan 2006 and 9 Feb 2007.
+- **URL / section / accessed:** https://www.images.ceylonbirdclub.org/sri-lanka-birds-search-96 ; adult photo metadata, lines 50–126; accessed 2026-11-12.
+- **Source type / applies to:** institution-hosted living-adult photographs and metadata; nominate Sri Lankan population.
+- **Facts:** two adults are independently labelled *P. assimilis* at Kudawa/Sinharaja. These serve as living-adult identity references for the dark compact phenotype and Sinharaja wet-forest setting.
+- **Limits / decision:** sex and age beyond “adult” are not supplied; photographs do not support a male/female colour split or size direction.
+
+### SLBO-AVIBASE-HUME-1877-P138
+- **Title / institution / accessed:** Avibase taxonomic concept and original-description citation for *Phodilus assimilis assimilis*; Birds Canada; accessed 2026-11-12.
+- **URL / page:** https://avibase.bsc-eoc.org/species.jsp?avibaseid=63A7113871AAC88D&lang=EN ; Hume 1877, *Stray Feathers* 5:138, type locality Ceylon.
+- **Source type / applies to:** curated nomenclatural index; current and historical names.
+- **Facts:** current nominate is *Phodilus assimilis assimilis* Hume, 1877; older Clements/Howard and Moore treatments used *Phodilus badius assimilis*.
+- **Limits / decision:** taxonomy only; does not support plumage, sex or development.
+
+### Reused/reread boundary
+- `SLBO-OWLPAGES-2020`: adult V-shaped vinaceous-pink divided disc, dark eye patches, yellowish bill, dark chestnut spotted upperparts, heavy wing/tail barring, pale buff spotted underparts, feathered legs and pale gray-brown toes; tree-hollow nesting and size-disparate November young are secondary synthesis only.
+- **Index delta:** 3 sources newly central-indexed; 1 prior record reread. Juvenile plumage remains undocumented in the read species-specific sources, so v4 does not claim an exact day-age or feather sequence. Uploaded Mikkola guide was not mounted in this cycle; no fresh page claim. Scientific verification remains false.

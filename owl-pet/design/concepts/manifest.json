@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T01:51:00.000+08:00",
+  "updated": "2026-11-13T02:10:00.000+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -35559,7 +35559,91 @@
       "verification_commit": "f1d0cb375eafdc4cf22e52820f1d7189d3df0e0d",
       "verification_tree": "5ae6442f9ea3939ea26f09032018d58909f819d9",
       "ledger_credited_at": "2026-11-13T01:51:00.000+08:00"
+    },
+    {
+      "id": "173-otus-madagascariensis-v4",
+      "species_id": 173,
+      "scientific_name": "Otus madagascariensis",
+      "historical_names": [
+        "Otus rutilus madagascariensis (alternate/lumped treatment)",
+        "Scops madagascariensis (synonym)"
+      ],
+      "common_name": "Torotoroka Scops Owl",
+      "version": 4,
+      "prior_versions_retained": [
+        1,
+        2,
+        3
+      ],
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "path": "design/concepts/173-otus-madagascariensis-v4.png",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "status": "V4 preserves v1-v3 and adds Melo et al. 2022 multilocus evidence to the split/lump conflict without treating taxonomy as a morphology shortcut. Short low tufts, near-equal grey/yellow-brown adults and a low supported age-unknown older immature passed first-generation crop gates; exact age/sex/soft-part/remex chronology/flight and population-wide sex-size ratio remain unknown; science=false.",
+      "source_ids": [
+        "TSO-MELO-ETAL-2022-P1-54",
+        "TSO-RENE-THORSTROM-2009-P87-88",
+        "TSO-FUCHS-ETAL-2007-P408-418",
+        "TSO-ITIS-686657-2025",
+        "TSO-MIKKOLA-2013-P145"
+      ],
+      "unverified_leads": [
+        "TSO-GRANDIDIER-1867-P85-86-LEAD",
+        "TSO-RAMAMONJISOA-2007-THESIS-LEAD"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/173-otus-madagascariensis-v4.md",
+      "review_record": "research/reviews/173-otus-madagascariensis-v4-review.md",
+      "run_record": "production/runs/20261113T015300+0800-cycle-6.md",
+      "reviewed_at": "2026-11-13T02:06:00.000+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 3386466,
+      "sha256": "1cd2dfb37baac0088b536b68ea4a29a667d24c4756a9700ef45c17d62a50b2bf",
+      "git_blob": "88d41ed67f25012ff9d0d1c414512f0e817086e8",
+      "initial_original_path": "production/generated/173-otus-madagascariensis-v4-initial-original.png",
+      "initial_original_blob": "88d41ed67f25012ff9d0d1c414512f0e817086e8",
+      "initial_original_size_bytes": 3386466,
+      "final_original_path": "production/generated/173-otus-madagascariensis-v4-final-original.png",
+      "final_original_blob": "88d41ed67f25012ff9d0d1c414512f0e817086e8",
+      "final_original_size_bytes": 3386466,
+      "full_color_source_path": "production/generated/173-otus-madagascariensis-v4-full-color.png",
+      "full_color_source_blob": "88d41ed67f25012ff9d0d1c414512f0e817086e8",
+      "full_color_source_size_bytes": 3386466,
+      "reviewed_path": "production/reviewed/173-otus-madagascariensis-v4-reviewed-master.png",
+      "reviewed_blob": "88d41ed67f25012ff9d0d1c414512f0e817086e8",
+      "reviewed_size_bytes": 3386466,
+      "review_crops": [
+        {
+          "path": "production/review-crops/173-otus-madagascariensis-v4-adult-male.png",
+          "blob": "b594dc42bc331c8d30e7d79afa7ec6d8b04983f9",
+          "size_bytes": 300974,
+          "sha256": "9821ddfd3d8048e734b1f5acb5bcf40ce43d66b4d9a13ac2292999e9fba3c66d"
+        },
+        {
+          "path": "production/review-crops/173-otus-madagascariensis-v4-older-immature.png",
+          "blob": "8b047ab10a9533fc29857293a6bd7876da452904",
+          "size_bytes": 282360,
+          "sha256": "8afe431d21f8b9d3440e861bc5fe73c2c043299cba14be1d3ea66f002bc65505"
+        },
+        {
+          "path": "production/review-crops/173-otus-madagascariensis-v4-adult-female.png",
+          "blob": "573e53f1e02e91449ca3ffbec550ebb3b11eee79",
+          "size_bytes": 298278,
+          "sha256": "25c97f40823987d19c56f834191b43854062ee2f910275ec98bbf017cf56ee4d"
+        }
+      ],
+      "archive_note": "V1-v3 preserved. One new primary taxonomy paper indexed; four sources reread/reused. Full plate and three role crops opened; no edit required. Mikkola upload unavailable. PASS_WITH_LIMITATIONS; science=false.",
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false,
+      "ledger_credited": false,
+      "batch_id": "20261112T234106+0800",
+      "batch_cycle": 6
     }
   ],
-  "updated_at": "2026-11-13T01:51:00.000+08:00"
+  "updated_at": "2026-11-13T02:10:00.000+08:00"
 }

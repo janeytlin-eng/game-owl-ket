@@ -4087,3 +4087,8 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` read back; cycle 1 credi
 - Batch `20261112T183437+0800`, cycle 1/6; action SCIENCE_REVISION; unique count stays 176/251.
 - Recovered image attached to latest main; full image and three crops reviewed: PASS_WITH_LIMITATIONS, science=false.
 - Exact archive commit/readback pending.
+
+## 2026-11-12 #156 *Scotopelia peli* v4 — VERIFIED
+- Archive: `fa5435603ec1bff621981bdc7958a58aac5d95fa`; tree: `33fa65cbf3c6cd832173de25878e9150465c25c4`.
+- 20 required paths and 9 exact PNG path/blob checks passed; manifests 837/806/815 with one v4 row each.
+- Review: PASS_WITH_LIMITATIONS; science=false; ledger credit pending.

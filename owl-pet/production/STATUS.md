@@ -4131,3 +4131,5 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` read back; cycle 1 credi
 - 2026-11-12T20:53:20+08:00: #160 *Tyto inexspectata* v4 ARCHIVED pending immutable readback. New2/reread3/corrected3; edit0; full plate and three crops passed; unique176/251; science=false.
 
 - 2026-11-12T20:56:10+08:00: #160 v4 VERIFIED at archive `85eeb18167b7bf35c68e1bc35804141908596d08` / tree `e3da31f26e3f0d7b2ba3502d7ed493eb8f9053c4`; 17 paths, 8 image aliases/4 streams and manifests 841/810/819 passed; ledger pending; science=false.
+
+- 2026-11-12T20:58:00+08:00: #160 *Tyto inexspectata* v4 LEDGER_CREDITED after verification `f74eab5e42e173a180894672fed221ee0319baa5`; batch 5/6, next6, lease released; unique176/251; revision +1; science=false.

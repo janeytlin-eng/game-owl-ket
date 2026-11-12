@@ -1,3 +1,7 @@
+### #157 v4 LEDGER_CREDITED — active batch 2/6
+
+Verification `1c8236554580b60dae396ab9f4bf3842f66d2e50` / tree `374e31c87692e7f7a2ad98bb1ee6e1b2245a2398` credited once after archive `49fd35c87e302e8a66bc23882bc82441a3882465`. Next cycle 3; lease released; unique 176/251; revision +1; science=false.
+
 ### #157 *Scotopelia bouvieri* v4 immutable archive VERIFIED — ledger credit pending
 
 Archive `49fd35c87e302e8a66bc23882bc82441a3882465` / tree `e1a2aa97a201b62ad3df35d723e9c6709e8018b9` passed 19 required paths, eight exact binary path/blob tuples, three complete crop streams and manifests 838/807/816. PASS_WITH_LIMITATIONS; science=false; ledger credit pending.

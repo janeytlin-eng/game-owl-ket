@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T09:55:00+08:00",
+  "updated": "2026-11-12T10:55:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -30372,7 +30372,95 @@
         "unique_species": "176/251",
         "scientifically_verified": false
       }
+    },
+    {
+      "id": "141-otus-magicus-v5",
+      "path": "design/concepts/141-otus-magicus-v5.png",
+      "species_id": 141,
+      "scientific_name": "Otus magicus",
+      "historical_names": [
+        "Strix magica",
+        "Scops magicus",
+        "Scops leucospilus"
+      ],
+      "common_name": "Moluccan Scops-Owl",
+      "scope": "Northern-Moluccan leucospilus concept; age-unknown downy young with evidence-bounded developing barred remiges; exact age, iris chronology, flight, nest, sex-size direction and subspecies boundaries unresolved",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "prior_versions_retained": true,
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 0,
+      "imagegen_invocations": 1,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "MAG-FINSCH-1898-P163-172",
+        "MAG-ITIS-555379-2026",
+        "MAG-SHARPE-1875-P70-PLVI",
+        "MAG-MIKKOLA-2013-P189-190"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/141-otus-magicus-v5.md",
+      "review_record": "research/reviews/141-otus-magicus-v5-review.md",
+      "run_record": "production/runs/20261112T103100+0800-cycle-5.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 3174647,
+      "sha256": "b691a825b13eb948e8a5e416fb34a674664910004a936ebdcd8a9befcedec30d",
+      "git_blob": "a58656f8e00d30de8b557de55d44b0c0523a528d",
+      "initial_original_path": "production/generated/141-otus-magicus-v5-initial-original.png",
+      "initial_original_blob": "a58656f8e00d30de8b557de55d44b0c0523a528d",
+      "initial_original_size_bytes": 3174647,
+      "initial_original_sha256": "b691a825b13eb948e8a5e416fb34a674664910004a936ebdcd8a9befcedec30d",
+      "final_original_path": "production/generated/141-otus-magicus-v5-final-original.png",
+      "final_original_blob": "a58656f8e00d30de8b557de55d44b0c0523a528d",
+      "final_original_size_bytes": 3174647,
+      "final_original_sha256": "b691a825b13eb948e8a5e416fb34a674664910004a936ebdcd8a9befcedec30d",
+      "generated_path": "production/generated/141-otus-magicus-v5-generated-master.png",
+      "generated_blob": "a58656f8e00d30de8b557de55d44b0c0523a528d",
+      "generated_size_bytes": 3174647,
+      "full_color_source_path": "production/generated/141-otus-magicus-v5-full-color.png",
+      "full_color_source_blob": "a58656f8e00d30de8b557de55d44b0c0523a528d",
+      "full_color_source_size_bytes": 3174647,
+      "reviewed_path": "production/reviewed/141-otus-magicus-v5-reviewed-master.png",
+      "reviewed_blob": "a58656f8e00d30de8b557de55d44b0c0523a528d",
+      "reviewed_size_bytes": 3174647,
+      "review_crops": [
+        {
+          "path": "production/review-crops/141-otus-magicus-v5-adult-male.png",
+          "blob": "635f158771604cbc501bf3e85162b775418544f1",
+          "size_bytes": 740668,
+          "sha256": "1b5c92e349b5454f0e80bcc6d96bd9df01018e5ae906f3b5a3d068fec81252ad"
+        },
+        {
+          "path": "production/review-crops/141-otus-magicus-v5-downy-young.png",
+          "blob": "e4958f6b6a6275ce0f0d3d98fb745f1ac4c3efcc",
+          "size_bytes": 752657,
+          "sha256": "82b917220cd4a38819028a31cf4621e790d3a450416fc73c0cb7fcca74ce7865"
+        },
+        {
+          "path": "production/review-crops/141-otus-magicus-v5-adult-female.png",
+          "blob": "3302977a1adfb78ece7f29cd57c1ee8fc1d78959",
+          "size_bytes": 737050,
+          "sha256": "d3269b8c6030d1ccdf11db4c5d70407fd3ace24e751fbf9d769295624bb683a3"
+        }
+      ],
+      "archive_note": "V1-v4 retained. New Finsch museum-series evidence supports fine crossbars on developing juvenile remiges and variable tarsal feathering. Full plate and all three crops were opened. A preliminary extra-eye concern was falsified by the female crop; no edit required. Exact age, juvenile iris/flight, nest, sex-size direction and subspecies diagnosis remain unknown. New verified source 1; reread 3; corrected inferences 3. Science false.",
+      "archived_at": "2026-11-12T10:55:00+08:00",
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false
     }
   ],
-  "updated_at": "2026-11-12T09:55:00+08:00"
+  "updated_at": "2026-11-12T10:55:00+08:00"
 }

@@ -4145,3 +4145,14 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` was read back after arch
 
 Verification [`3cf5627127d928160fba9efd1792d8aa143413a8`](https://github.com/janeytlin-eng/game-owl-ket/commit/3cf5627127d928160fba9efd1792d8aa143413a8) was read back after archive [`5527f7c7c528e8659f65732be2eccf36bb1231b6`](https://github.com/janeytlin-eng/game-owl-ket/commit/5527f7c7c528e8659f65732be2eccf36bb1231b6). Cycle 4 credited once; lease released; next cycle 5. Unique coverage remains 176/251; revision +1; science=false.
 
+## 2026-11-12 — #141 Moluccan Scops-Owl — *Otus magicus* v5 ARCHIVED, readback pending
+
+V5科学修订保留v1–v4。新读取Finsch 1898印刷页163–172的94件博物馆标本综述，支持巢羽/绒羽幼鸟的发育翼尾可有细暗横纹，也显示跗跖羽被范围和尾斑数均有变化；因此新图不再把所有幼鸟翼横纹都判作成鸟化，也不使用固定毫米裸露带。整图和三张角色裁切已实际打开：成年雌雄近等尺度、非克隆，中央幼鸟低位且有自然支撑，翼短、部分被绒羽覆盖并有证据支持的细横纹。初看疑似雌鸟多眼，经专门裁切确认只有两眼且远眼受侧角透视；无需编辑。结果 `PASS_WITH_LIMITATIONS`，science=false。
+
+- Concept: `design/concepts/141-otus-magicus-v5.png`
+- Initial/final originals: `production/generated/141-otus-magicus-v5-initial-original.png`, `production/generated/141-otus-magicus-v5-final-original.png`
+- Research/review: `research/species/141-otus-magicus-v5.md`, `research/reviews/141-otus-magicus-v5-review.md`
+- Run: `production/runs/20261112T103100+0800-cycle-5.md`
+- Sources: new verified 1; reread/reused 3; corrected inference 3. Uploaded Mikkola guide unavailable; repository-pinned printed pp.189–190/PDF pp.191–192 only.
+- Unique coverage remains 176/251; revision +1; immutable readback pending.
+

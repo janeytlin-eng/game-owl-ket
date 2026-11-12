@@ -86,3 +86,11 @@ undefined
 - **Applied change:** v5 selects the directly described mesoptile, renders open eyes with a dark/non-diagnostic iris, a compact formed soft wing, short/hidden tail and bilateral branch support, while retaining all missing chronology as unknown.
 - **Verified result:** the full plate and three role crops passed without edit. PASS_WITH_LIMITATIONS; science=false.
 - **Reusable rule:** record why a conservative pose was chosen, and never promote that pose into an observed developmental fact on the next revision. Prefer the best directly described stage, then neutralize only the unsupported feature. Verified here only.
+## 2026-11-12 — #141 *Otus magicus* v5: inspect an apparent defect before editing it
+
+- **Observed risk:** the full plate made the obliquely posed adult female's far eye look like a possible extra-eye artifact; an immediate image edit could have damaged otherwise coherent anatomy and typography.
+- **Evidence:** the dedicated female crop shows exactly two irides aligned across the turned facial disc. Separately, Finsch's 94-specimen series supports variable tarsal feathering and fine crossbars on developing juvenile remiges, but not exact age, flight or one universal pattern count.
+- **Applied change:** no pixel edit was made after the crop falsified the suspected defect. The evidence-level change instead occurred in the prompt: keep a short partly down-veiled barred juvenile wing and variable near-toe tarsal feathering, while withholding exact age, iris and action ability.
+- **Verified result:** full plate plus male, downy-young and female crops pass support, count, label and bounded-plumage checks. `PASS_WITH_LIMITATIONS`; science=false.
+- **Reusable rule:** when a perspective cue resembles duplicated anatomy, inspect a focused native-resolution crop before editing. Record a rejected defect hypothesis explicitly; do not count it as an image revision. Verified here only.
+

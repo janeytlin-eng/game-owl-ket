@@ -1789,3 +1789,6 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 - Added the v4 Maned Owl revision plate while preserving v1-v3.
 - Verified the 1889 original description at printed pp.34–35 and linked it to current *Jubula lettii* / historical *Bubo lettii*.
 - Edited the central older immature once to shorten and soften overly adult-like wing/tail; re-opened the full plate and all three role crops.
+
+
+- 2026-11-12T17:45:50+08:00: #153 *Jubula lettii* v4 LEDGER_CREDITED after verification `9bbf4e41d95d1ef9ebd66673af3edcc45d7b986d`; batch 4/6, next cycle 5, lease released; unique 176/251; revision +1; science=false.

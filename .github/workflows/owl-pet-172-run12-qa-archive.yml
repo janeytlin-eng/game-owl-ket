@@ -78,13 +78,24 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git switch -c owl172-run11-rejected-qa-20261113
+          BRANCH=owl172-run11-rejected-qa-20261113
+          git fetch origin "refs/heads/$BRANCH:refs/remotes/origin/$BRANCH"
+          git switch -C "$BRANCH" "origin/$BRANCH"
           D=owl-pet/3d-experiments/172-tyto-castanops/qa-archive/run11
           mkdir -p "$D"
-          cp -a qa-archived/. "$D/"
-          git add "$D"
-          git commit -m "owl172: archive actual unapproved run11 GLBs Blender views and browser audit"
-          git push origin HEAD:refs/heads/owl172-run11-rejected-qa-20261113
+          # Small separate pushes avoid packing both 4MB binary GLBs into one RPC.
+          for F in manifest.json run11-blender-contact-sheet.jpg v26_stats.json v27_stats.json v26_preflight.json v27_preflight.json browser_qa.json desktop_1280x720.png emulated_phone_390x844.png; do
+            if test -f "qa-archived/$F"; then cp "qa-archived/$F" "$D/"; fi
+          done
+          git add "$D";git commit -m "owl172: persist rejected 3D render and browser QA evidence"
+          git push origin "HEAD:refs/heads/$BRANCH"
+          for F in v26_sparse_MASK_groom_UNAPPROVED.glb v27_pale_BLENDED_groom_UNAPPROVED.glb; do
+            cp "qa-archived/$F" "$D/"
+            git add "$D/$F"
+            git commit -m "owl172: persist rejected 3D model $F"
+            git push origin "HEAD:refs/heads/$BRANCH"
+          done
+          git ls-tree -r HEAD "$D" | tee qa-branch-tree.txt
       - name: Upload archive copy for easy retrieval
         if: always()
         uses: actions/upload-artifact@v4

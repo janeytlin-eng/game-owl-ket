@@ -980,3 +980,19 @@ Center/front-lower — OLDER IMMATURE FEMALE — AGE UNKNOWN: evidence-bounded n
 Right — ADULT FEMALE: near-equal crown height to male and a different calm side-three-quarter pose; same species identity but subtly paler, less extensively rusty-buff breast, narrower dark crown/ear-tuft shaft streaks, and a few somewhat larger round/oval pale median-covert spots as documented in one female specimen. Do not exaggerate these into a different morph or impose a larger body.
 
 Exact visible text only: “#139 · RINJANI SCOPS-OWL”; italic “Otus jolandae”; role labels “ADULT MALE” · “OLDER IMMATURE FEMALE — AGE UNKNOWN” · “ADULT FEMALE”. No extra birds, eggs, nest cavity, prey, human objects, maps, ruler, watermark or extra text. Avoid a tiny fluffy chick, all-over white down, adult female size exaggeration, cloned adult poses, bright white facial disc, pale nuchal collar, huge white scapular shields, mature hard layered wing/tail on the immature, unsupported feet or flight implication.
+
+
+## #140 — Reddish Scops Owl / *Otus rufescens* — v5
+
+```text
+Create one polished 1536×1024 landscape owl electronic-pet concept plate in the repository’s established warm tactile softly modeled 3D storybook / scientific field-guide style. Use the existing #140 v4 plate only as the style/layout reference while correcting the unsupported closed-eye chick inference. Exactly THREE nominate light-morph Reddish Scops Owls (*Otus rufescens*) on one broad, naturally load-bearing mossy branch in humid Southeast Asian lowland evergreen rainforest.
+
+Left — ADULT MALE: tiny compact scops owl with prominent but compact ear tufts; tawny reddish-brown upperparts; sparse irregular light-fulvous spots with dark margins, larger on mantle and wing coverts; ochre primaries with dark bars; yellowish-brown to dull-yellow underparts with sparse small dark-edged spots; cinnamon-buff facial disc; chestnut-brown to amber-brown iris, horn-white bill, pale-buff tarsi feathered nearly to the yellowish toe bases.
+
+Center/front-lower — AGE-UNKNOWN MESOPTILE: clearly smaller/lower, in a quiet fully supported two-foot crouch on moss. Almost uniform rich rufescent-brown soft loose plumage; weak dark facial-disc rim; very vague dark barring strongest only on hindcrown and upper mantle. Compact folded wing and short partly concealed tail, softer and less regularly layered than adults. Eyes open but iris mostly in natural shadow and non-diagnostic; no exact iris colour. No flight pose or independence claim.
+
+Right — ADULT FEMALE: near-equal crown height to male, subtly different head angle and posture, same nominate light-morph identity; do not impose a body-size direction.
+
+Exact visible text only: “#140 · REDDISH SCOPS OWL”; italic “Otus rufescens”; role labels “ADULT MALE” · “AGE-UNKNOWN MESOPTILE” · “ADULT FEMALE”. No extra birds, nest cavity, eggs, prey, buildings, ruler, watermark or extra text. Avoid cloned adults, female-larger exaggeration, saturated *malayensis* palette, regular polka-dot spots, oversized facial discs, yellow adult irises, downy closed-eye chick, adult-hard wing layers on the mesoptile, long juvenile tail, unsupported feet or flight implication.
+
+```

@@ -4358,3 +4358,7 @@ V4 preserves v1-v3. Uploaded Mikkola printed p.135/PDF p.137, Catry et al. habit
 
 Archive [`46cb2125`](https://github.com/janeytlin-eng/game-owl-ket/commit/46cb212584ca721969c7692a03ae8ffb991617f9) / tree `accee29c1339ce0978eddb384b187bb761920d38` passed remote readback: 4,983 entries, `truncated=false`, 20 required paths, nine exact PNG blob/byte checks and four manifests 857/826/835/813 with one v4 record each. `PASS_WITH_LIMITATIONS`; science=false; ledger credit pending.
 
+## 2026-11-13 — #176 v4 LEDGER_CREDITED — active batch 3/6
+
+Verification [`8e35d2dc`](https://github.com/janeytlin-eng/game-owl-ket/commit/8e35d2dcc282cb2ff3ad3404bbebeb020d578dd6) was read back after archive [`46cb2125`](https://github.com/janeytlin-eng/game-owl-ket/commit/46cb212584ca721969c7692a03ae8ffb991617f9). Cycle 3 credited once; lease released; next cycle 4. Unique coverage remains 176/251; revision +1; science=false.
+

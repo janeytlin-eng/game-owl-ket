@@ -1063,3 +1063,22 @@ Environment: continuous montane conifer/pine-oak forest, modest old woodpecker c
 
 ### Targeted edit
 Shorten and soften only the mesoptile wing; remove adult-like mature barring and conceal the tail while retaining dark irises, both feet on the cavity lip and non-flight posture. Preserve title, labels, adults, count and environment.
+
+
+## #164 *Strix hadorami* v4 — 2026-11-12 cycle 3/6
+
+Create a 1536×1024 landscape scientific-educational owl-pet concept plate in the repository’s established tactile, naturalistic high-detail 3D character style, warm restrained desert-dawn light, clean ivory serif typography, no watermark.
+
+Title exactly: “DESERT OWL — Strix hadorami”
+Exactly three whole birds on one continuous broad sandstone nest shelf beside a shallow sheltered cliff crevice:
+1. ADULT MALE
+2. c.25–30-DAY NESTLING
+3. ADULT FEMALE
+
+Adults: round-headed, earless medium Strix; pale sandy-gray facial discs with fine dark rims; warm yellow to brownish-orange irises; gray-blue horn bill and pale cere; sandy ochre-gray upperparts with subdued brown mottling, visible pale scapular row, restrained small pale wing marks, clearly barred remiges and tail; pale buff-white underparts with fine light rufous-brown cross-barring rather than heavy vertical streaking. No pronounced sex-linked plumage. Correct the prior male-larger reading: adult male and female must be almost equal in standing height; female may be only subtly fuller in torso, never a theatrical size gap. Use different natural head turns without changing scale.
+
+Nestling: directly bounded to Ben Dov et al. 2017 plates and chronology, approximately 25–30 days old, open-eyed, standing with both feet fully supported on the broad sandstone shelf. Pale cream-gray mesoptile/down; small emerging rounded wing with short soft developing feathers, not long adult remiges; tail very short or concealed; calm non-flight pose. Do not reconstruct a newborn and do not imply first flight.
+
+Environment: arid Dead Sea–style sandstone wadi, shallow crevice/shelf, sparse desert vegetation, distant dry valley; no lush forest.
+
+Avoid ear tufts, heart-shaped Tyto face, dark adult eyes, exaggerated white facial disc, strongly dimorphic plumage, male larger than female, mature juvenile wings/tail, unsupported juvenile, airborne pose, extra birds/limbs/text, logo or watermark.

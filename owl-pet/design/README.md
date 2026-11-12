@@ -3405,3 +3405,12 @@ Verification follow-up for #201 v3: immutable archive commit `4e0525c59b76a14aeb
 - V3 preserves v1-v2, shows paired nape false-eye patches, keeps adults near-equal, and uses a cavity-supported near-fledged chick from the 2025 first-nest report. One edit removed an adult-like spotted juvenile wing. `PASS_WITH_LIMITATIONS`; science=false; unique remains 176/251; immutable readback pending.
 
 - #163 Mountain Pygmy Owl v4: `concepts/163-glaucidium-gnoma-v4.png` — PASS_WITH_LIMITATIONS; one juvenile-wing edit; science=false.
+
+
+## 2026-11-12 — #164 *Strix hadorami* v4 science revision
+
+- Preserved v1–v3 and corrected v3's male-large reading to near-equal adults with only subtle female fullness.
+- Added a fully supported c.25–30-day open-eyed nestling on a sandstone shelf; no flight claim.
+- Full plate, three role crops and montage opened; edit count 0; PASS_WITH_LIMITATIONS; scientifically verified: false.
+- Unique species remains 176/251; revision increment +1.
+- Research: `research/species/164-strix-hadorami-v4.md`; review: `research/reviews/164-strix-hadorami-v4-review.md`; run: `production/runs/20261112T220600+0800-cycle-3.md`.

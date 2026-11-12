@@ -4304,3 +4304,12 @@ Archive [`ab266ab6`](https://github.com/janeytlin-eng/game-owl-ket/commit/ab266a
 ## 2026-11-12 — #153 v4 LEDGER_CREDITED — batch 4/6
 
 Verification [`9bbf4e41`](https://github.com/janeytlin-eng/game-owl-ket/commit/9bbf4e41d95d1ef9ebd66673af3edcc45d7b986d) was read back after archive [`ab266ab6`](https://github.com/janeytlin-eng/game-owl-ket/commit/ab266ab67fc55f116caeb473400f189db5fe2b9b). Cycle 4 credited once; batch `20261112T153846+0800` is now 4/6, next cycle 5, lease released. Unique coverage remains 176/251; revision +1; science=false.
+
+
+## 2026-11-12 — #164 *Strix hadorami* v4 science revision
+
+- Preserved v1–v3 and corrected v3's male-large reading to near-equal adults with only subtle female fullness.
+- Added a fully supported c.25–30-day open-eyed nestling on a sandstone shelf; no flight claim.
+- Full plate, three role crops and montage opened; edit count 0; PASS_WITH_LIMITATIONS; scientifically verified: false.
+- Unique species remains 176/251; revision increment +1.
+- Research: `research/species/164-strix-hadorami-v4.md`; review: `research/reviews/164-strix-hadorami-v4-review.md`; run: `production/runs/20261112T220600+0800-cycle-3.md`.

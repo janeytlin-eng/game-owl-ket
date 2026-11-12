@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T22:18:00+08:00",
+  "updated": "2026-11-12T22:23:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -32745,7 +32745,85 @@
       "verification_commit": "73845a6528d38e0ace70efb3899720b3f5c4e8d1",
       "verification_tree": "d47915280abc3d0e007d3b60bab7d3cfa9a782dd",
       "ledger_credited_at": "2026-11-12T22:24:00+08:00"
+    },
+    {
+      "id": "164-strix-hadorami-v4",
+      "species_id": 164,
+      "scientific_name": "Strix hadorami",
+      "historical_names": [
+        "Strix butleri (historical broad concept; current split mapped cautiously)"
+      ],
+      "common_name": "Desert Owl",
+      "version": 4,
+      "prior_versions_retained": [
+        1,
+        2,
+        3
+      ],
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "path": "design/concepts/164-strix-hadorami-v4.png",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "status": "V4 preserves v1-v3 and corrects the v3 male-large reading: adults stand near-equal, with only subtle female fullness because published samples do not support a pronounced or universal sex ratio. Both retain pale dark-rimmed facial discs, warm yellow-orange irises, gray-blue bills and fine rufous cross-barring. The centre bird uses Ben Dov et al. 2017's c.25–30-day open-eyed nestling boundary: down-soft body, short formed wing, both feet on the sandstone shelf, and no flight claim. Exact daily feather sequence, universal first-flight timing, quantified sex ratio and ledge material remain unknown; science=false.",
+      "source_ids": [
+        "DESERTOWL-BENDOV-2017",
+        "DESERTOWL-KIRWAN-2015",
+        "DESERTOWL-PUBMED-KIRWAN-2015"
+      ],
+      "unverified_leads": [],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/164-strix-hadorami-v4.md",
+      "review_record": "research/reviews/164-strix-hadorami-v4-review.md",
+      "run_record": "production/runs/20261112T220600+0800-cycle-3.md",
+      "reviewed_at": "2026-11-12T22:18:00+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 3195428,
+      "sha256": "5a6d6fa4141d2527fbc72f56fdfefa922d500a3a78c7b7e134537aae4c4d06dc",
+      "git_blob": "4d2ba565545e37bf92165c96833c0e2b04f54bb5",
+      "initial_original_path": "production/generated/164-strix-hadorami-v4-initial-original.png",
+      "initial_original_blob": "4d2ba565545e37bf92165c96833c0e2b04f54bb5",
+      "initial_original_size_bytes": 3195428,
+      "final_original_path": "production/generated/164-strix-hadorami-v4-final-original.png",
+      "final_original_blob": "4d2ba565545e37bf92165c96833c0e2b04f54bb5",
+      "final_original_size_bytes": 3195428,
+      "full_color_source_path": "production/generated/164-strix-hadorami-v4-full-color.png",
+      "full_color_source_blob": "4d2ba565545e37bf92165c96833c0e2b04f54bb5",
+      "full_color_source_size_bytes": 3195428,
+      "reviewed_path": "production/reviewed/164-strix-hadorami-v4-reviewed-master.png",
+      "reviewed_blob": "12288ad3087779be5244d956f298434a7c39f4fd",
+      "reviewed_size_bytes": 1050579,
+      "review_crops": [
+        {
+          "path": "production/review-crops/164-strix-hadorami-v4-adult-male.png",
+          "blob": "0131ceaf6fb55eeed1d5f6378de073a46087ec1a",
+          "size_bytes": 870104,
+          "sha256": "856524cdc40f16f1cfcc383facb8f836834a031f5d3b6eb4762b5ec886f26633"
+        },
+        {
+          "path": "production/review-crops/164-strix-hadorami-v4-c25-30-day-nestling.png",
+          "blob": "d7aa7219b7feb6f4c52ae07a96ef5c0678682095",
+          "size_bytes": 756330,
+          "sha256": "015fb27b57ea619dc463eb862b32edbdc01b33052760c5a99c82782977206c3e"
+        },
+        {
+          "path": "production/review-crops/164-strix-hadorami-v4-adult-female.png",
+          "blob": "16c5bef21895764ee902b0ef2db0999b1ce3b855",
+          "size_bytes": 733815,
+          "sha256": "57b4dbccb19c5ea5949e004565d513121012d379228659255d3b1c77bd0307c5"
+        }
+      ],
+      "archive_note": "V1-v3 preserved. Ben Dov et al. 2017 pp.298–305/Table 4 and Kirwan et al. 2015 pp.28–50 were reread; PubMed PMID 25660770 was newly indexed. Full plate, three role crops and montage opened; edit0. Uploaded Mikkola guide not mounted; no fresh page claim. PASS_WITH_LIMITATIONS; science=false.",
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false,
+      "ledger_credited": false,
+      "batch_id": "20261112T213600+0800",
+      "batch_cycle": 3
     }
   ],
-  "updated_at": "2026-11-12T22:18:00+08:00"
+  "updated_at": "2026-11-12T22:23:00+08:00"
 }

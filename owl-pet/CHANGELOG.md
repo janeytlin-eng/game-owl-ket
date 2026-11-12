@@ -1858,3 +1858,12 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 - Added evidence-bounded adult male/female/age-unknown mesoptile plate; preserved v1-v3.
 - Added Deshler 2021 source index entry with current-split caveat; reused repository Mikkola p.375/PDF p.377 transcription.
 - Edited the juvenile wing after inspection; archived initial and final originals plus review crops.
+
+
+## 2026-11-12 — #164 *Strix hadorami* v4 science revision
+
+- Preserved v1–v3 and corrected v3's male-large reading to near-equal adults with only subtle female fullness.
+- Added a fully supported c.25–30-day open-eyed nestling on a sandstone shelf; no flight claim.
+- Full plate, three role crops and montage opened; edit count 0; PASS_WITH_LIMITATIONS; scientifically verified: false.
+- Unique species remains 176/251; revision increment +1.
+- Research: `research/species/164-strix-hadorami-v4.md`; review: `research/reviews/164-strix-hadorami-v4-review.md`; run: `production/runs/20261112T220600+0800-cycle-3.md`.

@@ -4914,3 +4914,35 @@ Reused/re-read without duplicate IDs for #130 v5: `KOEP-ITIS-686665-2026`, repos
 - **Limitations / confidence:** tiny historic sample; sexing method and specimen age are not stated; no body mass, total length, plumage comparison, nest or juvenile development. High confidence for the presence of the series and approximate measurements; do not generalize a universal sex-size rule.
 - **Design / review decision supported:** female may be shown only subtly longer-winged / about 3% larger in linear silhouette than the males, without exaggerated bulk. Iris/bill/feet colours are independently repeated specimen-label evidence.
 - **Links:** `research/species/149-ninox-odiosa-v4.md`; `design/concepts/149-ninox-odiosa-v4.png`; `research/reviews/149-ninox-odiosa-v4-review.md`
+
+
+## 2026-11-12 — #150 *Ninox variegata* v4 — institutional specimen and adult-photo refresh
+
+### NIBO-MV-Z44652-2026 — Museums Victoria New Ireland specimen
+- **Stable ID:** `NIBO-MV-Z44652-2026`
+- **Title / institution / date:** Specimen Z44652, Museums Victoria Collections; accessed 2026-11-12.
+- **Original URL:** https://collections.museumsvictoria.com.au/specimens/2498292
+- **Source type:** institutional specimen/provenance record.
+- **Taxon / stage:** *Ninox variegata*; sex unknown; life stage not stated.
+- **Locality / record:** tissue from ANWC B04025, Weitin, New Ireland, Papua New Guinea.
+- **Facts and limits:** independently confirms a modern New Ireland specimen with unknown sex. No plumage, measurements, juvenile chronology, behaviour or nest information is provided.
+- **Design/review use:** supports preserving near-equal adults and refusing a sex-size direction; not a morphology source.
+- **Linked record:** [#150 v4 research](species/150-ninox-variegata-v4.md).
+- **Confidence:** high for specimen identity/provenance; narrow design applicability.
+
+### NIBO-OISEAUX-MOUNT-BONGMUT-2014 — locality-tagged adult photograph
+- **Stable ID:** `NIBO-OISEAUX-MOUNT-BONGMUT-2014`
+- **Title / author / date:** New Ireland Boobook adult photograph page; Lars Petersson; July 2014; accessed 2026-11-12.
+- **Original URL:** https://www.oiseaux.net/photos/lars.petersson/new.ireland.boobook.1.html
+- **Source type:** locality-tagged field photograph hosted by a specialist bird site.
+- **Taxon / stage / locality:** adult *Ninox variegata*, Mount Bongmut, New Ireland Province.
+- **Facts and limits:** visual comparator for compact forest-perching adult form and dark rufous/barred identity. Sex, exact age and developmental chronology are not supplied; image copyright retained and no image copied.
+- **Design/review use:** adult-shape/pattern cross-check only; no dimorphism or juvenile inference.
+- **Linked record:** [#150 v4 research](species/150-ninox-variegata-v4.md).
+- **Confidence:** moderate-high for photographed adult identity/locality; no sex/stage calibration.
+
+### Reused, reread and unverified material
+- Reused/reread: `NIBO-VOISIN-2011-TYPES`, `NIBO-MNHN-2010-278-2026`, `NIBO-AVIBASE-2026`, `NIBO-ITIS-555490`; second syntype MNHN-ZO-2010-279 also reopened.
+- `NIBO-JARDINE-1848-53-LEAD`: a large historical scan surfaced but could not be opened; search-result text remains unverified and is not a design basis.
+- **Index delta:** new verified 2; reused/reread 4 stable IDs plus one second-syntype record; unverified leads 1; corrected design inference 1 (closed eyes were not a source fact).
+- Detailed evidence boundary and full prompt: [#150 v4 research](species/150-ninox-variegata-v4.md). Scientific verification remains false.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T22:53:00+08:00",
+  "updated": "2026-11-12",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -32178,7 +32178,85 @@
       "verification_commit": "3898b4920fa18fec01c34ef105e6ed53e8f6b89f",
       "verification_tree": "a7c4599b1918d2155e8858e87e177bd7454cea65",
       "ledger_credited_at": "2026-11-12T22:53:00+08:00"
+    },
+    {
+      "id": "166-bubo-cinerascens-v4",
+      "species_id": 166,
+      "scientific_name": "Bubo cinerascens",
+      "historical_names": [
+        "Bubo africanus cinerascens"
+      ],
+      "common_name": "Greyish Eagle-Owl",
+      "version": 4,
+      "prior_versions_retained": [
+        1,
+        2,
+        3
+      ],
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "path": "design/concepts/166-bubo-cinerascens-v4.png",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "status": "V4 preserves v1-v3 and applies the directly documented 35–43-day fully feathered greyish young boundary: formed folded wings are retained, but the young remains compact, softer, short-tailed and continuously root-supported with no flight claim. Adults are near-equal because no robust quantitative sex ratio was verified; adult olive/dark eyes and black bill are conservatively anchored by MNHN MO-1977-180. Exact age, juvenile sex, flight threshold, population soft-part variation and root geometry remain unknown; science=false.",
+      "source_ids": [
+        "GREO-BARLOW-2022-FULL",
+        "GREO-MNHN-MO-1977-180",
+        "GREO-MNHN-MO-1942-100"
+      ],
+      "unverified_leads": [],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/166-bubo-cinerascens-v4.md",
+      "review_record": "research/reviews/166-bubo-cinerascens-v4-review.md",
+      "run_record": "production/runs/20261112T223037+0800-cycle-5.md",
+      "reviewed_at": "2026-11-12T22:41:00+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 3626881,
+      "sha256": "e1a42059b4a8dc061fa9d6c7979b5069ebdcd5a8baaa8d60af4b47da204ad697",
+      "git_blob": "771ee5291783620ab374eb5a17b884ba2b5cc6b6",
+      "initial_original_path": "production/generated/166-bubo-cinerascens-v4-initial-original.png",
+      "initial_original_blob": "771ee5291783620ab374eb5a17b884ba2b5cc6b6",
+      "initial_original_size_bytes": 3626881,
+      "final_original_path": "production/generated/166-bubo-cinerascens-v4-final-original.png",
+      "final_original_blob": "771ee5291783620ab374eb5a17b884ba2b5cc6b6",
+      "final_original_size_bytes": 3626881,
+      "full_color_source_path": "production/generated/166-bubo-cinerascens-v4-full-color.png",
+      "full_color_source_blob": "771ee5291783620ab374eb5a17b884ba2b5cc6b6",
+      "full_color_source_size_bytes": 3626881,
+      "reviewed_path": "production/reviewed/166-bubo-cinerascens-v4-reviewed-master.png",
+      "reviewed_blob": "771ee5291783620ab374eb5a17b884ba2b5cc6b6",
+      "reviewed_size_bytes": 3626881,
+      "review_crops": [
+        {
+          "path": "production/review-crops/166-bubo-cinerascens-v4-adult-male.png",
+          "blob": "644259a9bd807b00b571ec85a2a27bddfe609ec2",
+          "size_bytes": 905547,
+          "sha256": "1c558525837c2995765cec7d79881749fb3456c5bae342d6d7c284b65ddd1fff"
+        },
+        {
+          "path": "production/review-crops/166-bubo-cinerascens-v4-adult-female.png",
+          "blob": "dc93a016dde860474bdb98249c1a0827220b9fc7",
+          "size_bytes": 918301,
+          "sha256": "a0c1cacf634522c4edebd6b5ded1c15fea29335c0767eb416d8dd8769dde613e"
+        },
+        {
+          "path": "production/review-crops/166-bubo-cinerascens-v4-young.png",
+          "blob": "d7eb5f59057eedee6ccef9d23a92ed39308c347d",
+          "size_bytes": 924620,
+          "sha256": "1c258ed543338236d2aa32321b455da7fe6801418b27d667d4dceb2476de4a54"
+        }
+      ],
+      "archive_note": "V1-v3 preserved. Barlow et al. 2022 pp.23–27/Table 2/Figs 5–6 reread; two MNHN records newly indexed. Full plate, three crops and montage opened; edit0. Uploaded Mikkola guide not mounted. PASS_WITH_LIMITATIONS; science=false.",
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false,
+      "ledger_credited": false,
+      "batch_id": "20261112T213600+0800",
+      "batch_cycle": 5
     }
   ],
-  "updated_at": "2026-11-12T22:53:00+08:00"
+  "updated_at": "2026-11-12T22:44:00+08:00"
 }

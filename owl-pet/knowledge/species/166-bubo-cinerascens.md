@@ -1,9 +1,9 @@
 # #166 *Bubo cinerascens* — Greyish Eagle-Owl
 
 - Current / historical: *Bubo cinerascens* ⇄ *Bubo africanus cinerascens*.
-- Archived concepts: v1 preserved; v2 science revision at `design/concepts/166-bubo-cinerascens-v2.png`.
-- v2 evidence: Barlow et al. 2022 full text, especially Table 2 and Figs 5–6; MNHN MO-1977-180 adult male field label; Hopkins 2014 immature field image; previously indexed Mikkola p.282/PDF p.284.
-- Decision: neutral open-shade light restores grey-brown identity; center young is the fully feathered greyish 35–43-day stage among exposed roots, with complete but softer/rounder folded wings and short tail. Adults stay near equal in height; female only subtly fuller.
-- Review: full plate and saved young/adult-pattern-feet crops viewed. PASS_WITH_LIMITATIONS. No edit required.
-- Unknown: exact within-range feather chronology, departure-day flight ability, population-wide soft-part variation and quantified sex-size ratio. `scientifically_verified=false`.
-- Research: [v2 card](../../research/species/166-bubo-cinerascens-v2.md) · [run](../../production/runs/20261101T015000+0800-cycle-1.md).
+- Archived concepts: v1–v3 preserved; v4 science revision at `design/concepts/166-bubo-cinerascens-v4.png`.
+- v4 evidence: Barlow et al. 2022 pp.23–27/Table 2/Figs 5–6 plus MNHN MO-1977-180 adult male and MO-1942-100 juvenile female specimen records.
+- Decision: neutral grey-brown near-equal adults; 35–43-day fully feathered greyish young is compact, soft-contoured, short-tailed and root-supported. Formed folded wings do not imply flight.
+- Review: full plate, three crops and montage viewed. PASS_WITH_LIMITATIONS, edit0.
+- Unknown: exact within-range age, juvenile sex, first flight, population soft parts, quantified sex ratio and exact root geometry. `scientifically_verified=false`.
+- Research: [v4 card](../../research/species/166-bubo-cinerascens-v4.md) · [v4 review](../../research/reviews/166-bubo-cinerascens-v4-review.md) · [run](../../production/runs/20261112T223037+0800-cycle-5.md).

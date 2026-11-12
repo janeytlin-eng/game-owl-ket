@@ -4751,3 +4751,11 @@ Reused/re-read without duplicate IDs for #130 v5: `KOEP-ITIS-686665-2026`, repos
 - **JOL-PLOS-FIG1-2008:** adult field photograph in the primary article re-opened; adult identity only.
 - **JOL-MACAULAY-609278583:** page opened but application payload unavailable; unverified lead, not used for a new claim.
 - **Index change:** new 2 stable source entries; reused 2; unverified lead 1; corrected inference boundaries 4 (immature whole-body stage, sex scale, iris/flight, nest). Detailed facts and full prompt: [v5 research](species/139-otus-jolandae-v5.md). Science remains false.
+
+
+## 2026-11-12 — #140 *Otus rufescens* v5 — inference correction and source reread
+
+- **Reused/reread IDs:** RFS-MIKKOLA-2013-P178; RFS-WARAKAGODA-RASMUSSEN-2004-P102; RFS-ITIS-555364-2026.
+- **Actually opened this run:** Warakagoda & Rasmussen original PDF including p.102 mesoptile paragraph; ITIS TSN 555364 current record. Mikkola upload unavailable, so only the repository-preserved printed p.178/PDF p.180 reading is reused.
+- **Corrected inference:** v4 closed eyes were a design device, not an observed developmental fact. V5 uses the directly described age-unknown mesoptile and keeps iris non-diagnostic in shadow. Exact age, sex, iris, flight, dependence and nest remain unknown.
+- **Supports:** [v5 research](species/140-otus-rufescens-v5.md); image and review pending. Scientific verification remains false.

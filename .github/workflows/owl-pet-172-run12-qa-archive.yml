@@ -1,0 +1,95 @@
+name: "Owl #172 independent QA archive from completed run11 (not production)"
+on:
+  push:
+    paths:
+      - "owl-pet/3d-experiments/172-tyto-castanops/run12-trigger.txt"
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  archive-rejected-independent-qa:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Reopen actual prior rendered GLBs and their Blender QA sheets
+        uses: actions/download-artifact@v4
+        with:
+          run-id: 43277434634
+          name: owl172-run11-REJECTABLE-REAL-MESH-GROOM-BROWSER-QA
+          github-token: ${{ github.token }}
+          path: source-qa
+      - name: Build image-retrievable contact sheet and verify archives
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq python3-pil
+          mkdir -p qa-archived
+          python3 - <<'PY'
+          from pathlib import Path
+          import base64, hashlib, json, shutil
+          from PIL import Image, ImageDraw
+          root=Path("source-qa"); dest=Path("qa-archived")
+          files=list(root.rglob("*"))
+          def only(name):
+              x=[p for p in files if p.name==name and p.is_file()]
+              if len(x)!=1:raise RuntimeError(f"Expected one {name}, got {len(x)}")
+              return x[0]
+          variants=["v26_sparse_MASK_groom_UNAPPROVED.glb","v27_pale_BLENDED_groom_UNAPPROVED.glb"]
+          manifest={"approved":False,"physical_phone_test":False,
+                    "source_license_claim":"CC0 Innerscene great horned owl; not a Tyto chick",
+                    "source_run":"https://github.com/janeytlin-eng/game-owl-ket/actions/runs/43277434634",
+                    "models":[]}
+          for name in variants:
+              src=only(name);target=dest/name
+              shutil.copy2(src,target)
+              manifest["models"].append({"name":name,"bytes":target.stat().st_size,
+                  "sha256":hashlib.sha256(target.read_bytes()).hexdigest()})
+          sheet=Image.new("RGB",(720,390),(229,230,230))
+          draw=ImageDraw.Draw(sheet)
+          for row,name in enumerate(["v26_views","v27_views"]):
+              for col,v in enumerate(["front","threequarter","side","rear"]):
+                  matches=[p for p in files if p.name==v+".png" and p.parent.name==name]
+                  if len(matches)!=1:raise RuntimeError(f"Missing original Blender render: {name}/{v}")
+                  with Image.open(matches[0]) as im:
+                      im.thumbnail((180,180),Image.Resampling.LANCZOS)
+                      background=Image.new("RGBA",(180,180),(231,233,234,255))
+                      background.alpha_composite(im.convert("RGBA"),((180-im.width)//2,(180-im.height)//2))
+                      sheet.paste(background.convert("RGB"),(col*180,row*195+15))
+                  draw.text((col*180+6,row*195+1),f"{name[:3]} {v}",fill=(25,33,42))
+          sheet.save(dest/"run11-blender-contact-sheet.jpg",quality=83,optimize=True)
+          raw=(dest/"run11-blender-contact-sheet.jpg").read_bytes()
+          b64=base64.b64encode(raw).decode("ascii")
+          (dest/"run11-blender-contact-sheet.jpg.b64.txt").write_text("\n".join(b64[i:i+120] for i in range(0,len(b64),120)))
+          manifest["contact_sheet_sha256"]=hashlib.sha256(raw).hexdigest()
+          for name in ["v26_stats.json","v27_stats.json","v26_preflight.json","v27_preflight.json"]:
+              try:shutil.copy2(only(name),dest/name)
+              except Exception as e:manifest.setdefault("missing_reports",[]).append(f"{name}: {e}")
+          for name in ["browser_qa.json","desktop_1280x720.png","emulated_phone_390x844.png"]:
+              try:shutil.copy2(only(name),dest/name)
+              except Exception as e:manifest.setdefault("missing_browser_evidence",[]).append(f"{name}: {e}")
+          (dest/"manifest.json").write_text(json.dumps(manifest,indent=2))
+          print(json.dumps(manifest,indent=2))
+          PY
+      - name: Permanently archive isolated rejected QA on its own branch
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c owl172-run11-rejected-qa-20261113
+          D=owl-pet/3d-experiments/172-tyto-castanops/qa-archive/run11
+          mkdir -p "$D"
+          cp -a qa-archived/. "$D/"
+          git add "$D"
+          git commit -m "owl172: archive actual unapproved run11 GLBs Blender views and browser audit"
+          git push origin HEAD:refs/heads/owl172-run11-rejected-qa-20261113
+      - name: Upload archive copy for easy retrieval
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run12-separate-QA-ARCHIVE
+          path: qa-archived/
+          retention-days: 14
+          if-no-files-found: warn

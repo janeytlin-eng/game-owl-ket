@@ -43910,29 +43910,35 @@
       "batch_id": "20261112T113500+0800",
       "status": "PARTIAL",
       "target_cycles": 6,
-      "completed_cycles": [],
-      "next_cycle": 1,
-      "active_cycle": 1,
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species_id": 143,
+          "species": "Asio solomonensis",
+          "version": 4,
+          "action": "SCIENCE_REVISION",
+          "unique_increment": 0,
+          "revision_increment": 1,
+          "commit_sha": "b5b701b5292200a8aedab6551c79892714fac04c",
+          "archive_commit": "bf1faf58a55be7ff875fe703caf37fc43844ef8a",
+          "archive_tree": "9da1283eb07ac34a18b92db410091d764317eb34",
+          "run_record": "owl-pet/production/runs/20261112T113500+0800-cycle-1.md",
+          "concept": "owl-pet/design/concepts/143-asio-solomonensis-v4.png",
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "completed_at": "2026-11-12T11:57:00+08:00"
+        }
+      ],
+      "next_cycle": 2,
+      "active_cycle": null,
       "started_at": "2026-11-12T11:35:00+08:00",
-      "updated_at": "2026-11-12T11:59:00+08:00",
-      "current_stage": "VERIFIED",
-      "ledger_credit_pending": true,
-      "lease": {
-        "owner": "codex",
-        "run_id": "20261112T113500+0800-cycle-1",
-        "heartbeat_at": "2026-11-12T11:59:00+08:00",
-        "expires_at": "2026-11-12T12:14:00+08:00"
-      },
-      "active": {
-        "cycle": 1,
-        "species_id": 143,
-        "species": "Asio solomonensis",
-        "version": 4,
-        "action": "SCIENCE_REVISION",
-        "run_record": "owl-pet/production/runs/20261112T113500+0800-cycle-1.md"
-      },
-      "stage": "VERIFIED",
-      "completed_count": 0,
+      "updated_at": "2026-11-12T11:57:00+08:00",
+      "current_stage": "LEDGER_CREDITED",
+      "ledger_credit_pending": false,
+      "lease": null,
+      "active": null,
+      "stage": "LEDGER_CREDITED",
+      "completed_count": 1,
       "stage_events": [
         {
           "batch_id": "20261112T113500+0800",
@@ -44103,22 +44109,35 @@
             "ledger_credit_pending": true,
             "lease_expires_at": "2026-11-12T12:14:00+08:00"
           }
+        },
+        {
+          "batch_id": "20261112T113500+0800",
+          "cycle": 1,
+          "stage": "LEDGER_CREDITED",
+          "at": "2026-11-12T11:57:00+08:00",
+          "run_id": "20261112T113500+0800-cycle-1",
+          "species_id": 143,
+          "species": "Asio solomonensis",
+          "credited": true,
+          "evidence": {
+            "verification_commit": "b5b701b5292200a8aedab6551c79892714fac04c",
+            "archive_commit": "bf1faf58a55be7ff875fe703caf37fc43844ef8a",
+            "run_record": "owl-pet/production/runs/20261112T113500+0800-cycle-1.md",
+            "concept": "owl-pet/design/concepts/143-asio-solomonensis-v4.png",
+            "review_result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false,
+            "unique_increment": 0,
+            "revision_increment": 1,
+            "unique_species": "176/251",
+            "next_cycle": 2,
+            "lease_released": true
+          }
         }
       ],
-      "active_lease": {
-        "owner": "codex",
-        "run_id": "20261112T113500+0800-cycle-1",
-        "heartbeat_at": "2026-11-12T11:59:00+08:00",
-        "expires_at": "2026-11-12T12:14:00+08:00"
-      }
+      "active_lease": null
     }
   ],
-  "lease": {
-    "owner": "codex",
-    "run_id": "20261112T113500+0800-cycle-1",
-    "heartbeat_at": "2026-11-12T11:59:00+08:00",
-    "expires_at": "2026-11-12T12:14:00+08:00"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -44261,12 +44280,7 @@
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6.",
     "2026-10-30T18:12:00+08:00 ledger normalization: historical batch 2026-10-16T0430+0800 already COMPLETE with six preserved completed_cycles; stale next_cycle 7 changed to null. No cycle count or evidence changed."
   ],
-  "active_lease": {
-    "owner": "codex",
-    "run_id": "20261112T113500+0800-cycle-1",
-    "heartbeat_at": "2026-11-12T11:43:00+08:00",
-    "expires_at": "2026-11-12T11:58:00+08:00"
-  },
+  "active_lease": null,
   "last_updated_at": "2026-11-12T11:43:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
@@ -45064,14 +45078,7 @@
       "credited": false
     }
   ],
-  "in_progress": {
-    "cycle": 1,
-    "species_id": 143,
-    "species": "Asio solomonensis",
-    "version": 4,
-    "stage": "RESEARCH_READY",
-    "run_record": "owl-pet/production/runs/20261112T113500+0800-cycle-1.md"
-  },
+  "in_progress": null,
   "previous_checkpoint": {
     "batch_id": "20261112T043100+0800",
     "cycle": 3,
@@ -51592,8 +51599,8 @@
   ],
   "active_batch_id": "20261112T113500+0800",
   "active_cycle": 1,
-  "current_stage": "VERIFIED",
-  "next_cycle": 1,
+  "current_stage": "LEDGER_CREDITED",
+  "next_cycle": 2,
   "unique_species_count": 176,
   "total_species": 251,
   "stage_events": [
@@ -68761,5 +68768,6 @@
         "lease_expires_at": "2026-11-12T10:04:00+08:00"
       }
     }
-  ]
+  ],
+  "unique_species": 176
 }

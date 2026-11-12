@@ -4202,3 +4202,7 @@ V4科学修订保留v1–v3。重读Loyn & Debus原始幼鸟记录，并新增Wo
 
 Corrected archive [`bf1faf58a55be7ff875fe703caf37fc43844ef8a`](https://github.com/janeytlin-eng/game-owl-ket/commit/bf1faf58a55be7ff875fe703caf37fc43844ef8a) / tree `9da1283eb07ac34a18b92db410091d764317eb34` was fetched back from `main`. All 24 required paths were present; 12 PNG paths matched four exact blobs and byte sizes; the concept locally decodes at 1536×1024 with matching SHA-256. Manifests parse at 825/794/803 and each contains exactly one #143 v4 entry. The earlier short-blob attempt `6a4e3de503b24940b778a71981a39bab1db0a5f4` is recorded as rejected and is not counted. `PASS_WITH_LIMITATIONS`; science=false; unique coverage remains 176/251; cycle credit pending.
 
+## 2026-11-12 — #143 v4 LEDGER_CREDITED — active batch 1/6
+
+Verification [`b5b701b5292200a8aedab6551c79892714fac04c`](https://github.com/janeytlin-eng/game-owl-ket/commit/b5b701b5292200a8aedab6551c79892714fac04c) was read back after corrected archive [`bf1faf58a55be7ff875fe703caf37fc43844ef8a`](https://github.com/janeytlin-eng/game-owl-ket/commit/bf1faf58a55be7ff875fe703caf37fc43844ef8a). Cycle 1 credited once; lease released; next cycle 2. Unique coverage remains 176/251; revision +1; science=false.
+

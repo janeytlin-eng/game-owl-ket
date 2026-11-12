@@ -47081,26 +47081,38 @@
           "completed_at": "2026-11-12T22:53:00+08:00",
           "review_result": "PASS_WITH_LIMITATIONS",
           "scientifically_verified": false
+        },
+        {
+          "cycle": 5,
+          "run_id": "20261112T223037+0800-cycle-5",
+          "species_id": 166,
+          "species": "Bubo cinerascens",
+          "version": 4,
+          "action": "SCIENCE_REVISION",
+          "result": "VERIFIED",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "archive_commit": "71d8f234bb8bce774d80845594d84e2274df28f6",
+          "archive_tree": "a1807393a57a3ebcc8bf278372aad53e7238e9fb",
+          "verification_commit": "9b82b2f60a54864e84ec1a59ed33a79bf49054e0",
+          "verification_tree": "52852508bde5b6e637b797c930d91daac6ed2509",
+          "commit_sha": "9b82b2f60a54864e84ec1a59ed33a79bf49054e0",
+          "run_record": "owl-pet/production/runs/20261112T223037+0800-cycle-5.md",
+          "concept_path": "owl-pet/design/concepts/166-bubo-cinerascens-v4.png",
+          "completed_at": "2026-11-12T22:49:00+08:00",
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 5,
+      "next_cycle": 6,
       "active_cycle": null,
       "started_at": "2026-11-12T21:36:00+08:00",
-      "updated_at": "2026-11-12T22:47:00+08:00",
-      "current_stage": "VERIFIED",
-      "stage": "VERIFIED",
-      "completed_count": 4,
-      "ledger_credit_pending": true,
-      "lease": {
-        "owner": "codex-work",
-        "run_id": "20261112T223037+0800-cycle-5",
-        "cycle": 5,
-        "acquired_at": "2026-11-12T22:30:37+08:00",
-        "heartbeat_at": "2026-11-12T22:47:00+08:00",
-        "expires_at": "2026-11-12T23:02:00+08:00",
-        "species_id": 166,
-        "species": "Bubo cinerascens"
-      },
+      "updated_at": "2026-11-12T22:49:00+08:00",
+      "current_stage": "LEDGER_CREDITED",
+      "stage": "LEDGER_CREDITED",
+      "completed_count": 5,
+      "ledger_credit_pending": false,
+      "lease": null,
       "active": null,
       "stage_events": [
         {
@@ -48039,6 +48051,27 @@
             "ledger_credit_pending": true,
             "lease_expires_at": "2026-11-12T23:02:00+08:00"
           }
+        },
+        {
+          "batch_id": "20261112T213600+0800",
+          "cycle": 5,
+          "stage": "LEDGER_CREDITED",
+          "at": "2026-11-12T22:49:00+08:00",
+          "run_id": "20261112T223037+0800-cycle-5",
+          "species_id": 166,
+          "species": "Bubo cinerascens",
+          "credited": true,
+          "evidence": {
+            "archive_commit": "71d8f234bb8bce774d80845594d84e2274df28f6",
+            "verification_commit": "9b82b2f60a54864e84ec1a59ed33a79bf49054e0",
+            "run_record": "owl-pet/production/runs/20261112T223037+0800-cycle-5.md",
+            "next_cycle": 6,
+            "batch_completed_count": 5,
+            "unique_species_count": 176,
+            "total_species": 251,
+            "revision_increment": 1,
+            "scientifically_verified": false
+          }
         }
       ]
     }
@@ -48177,7 +48210,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-12T22:53:00+08:00",
+  "updated_at": "2026-11-12T22:49:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -75351,36 +75384,36 @@
     }
   ],
   "unique_species": 176,
-  "last_verified_species_id": 165,
-  "last_verified_species": "Ninox punctulata",
+  "last_verified_species_id": 166,
+  "last_verified_species": "Bubo cinerascens",
   "active_species": null,
   "last_completed_cycle": {
-    "cycle": 4,
-    "run_id": "20261112T223100+0800-cycle-4",
-    "species_id": 165,
-    "species": "Ninox punctulata",
+    "cycle": 5,
+    "run_id": "20261112T223037+0800-cycle-5",
+    "species_id": 166,
+    "species": "Bubo cinerascens",
     "version": 4,
     "action": "SCIENCE_REVISION",
     "result": "VERIFIED",
     "unique_species_increment": 0,
     "revision_increment": 1,
-    "archive_commit": "2ee4b2d646ad1cf7f3b78f57e3ef5fcb9a7ce0ce",
-    "archive_tree": "902d42e64088082c7d92b8db9899a0a10cd36c03",
-    "verification_commit": "3898b4920fa18fec01c34ef105e6ed53e8f6b89f",
-    "verification_tree": "a7c4599b1918d2155e8858e87e177bd7454cea65",
-    "commit_sha": "3898b4920fa18fec01c34ef105e6ed53e8f6b89f",
-    "run_record": "owl-pet/production/runs/20261112T223100+0800-cycle-4.md",
-    "concept_path": "owl-pet/design/concepts/165-ninox-punctulata-v4.png",
-    "completed_at": "2026-11-12T22:53:00+08:00",
+    "archive_commit": "71d8f234bb8bce774d80845594d84e2274df28f6",
+    "archive_tree": "a1807393a57a3ebcc8bf278372aad53e7238e9fb",
+    "verification_commit": "9b82b2f60a54864e84ec1a59ed33a79bf49054e0",
+    "verification_tree": "52852508bde5b6e637b797c930d91daac6ed2509",
+    "commit_sha": "9b82b2f60a54864e84ec1a59ed33a79bf49054e0",
+    "run_record": "owl-pet/production/runs/20261112T223037+0800-cycle-5.md",
+    "concept_path": "owl-pet/design/concepts/166-bubo-cinerascens-v4.png",
+    "completed_at": "2026-11-12T22:49:00+08:00",
     "review_result": "PASS_WITH_LIMITATIONS",
     "scientifically_verified": false
   },
   "last_verified": {
-    "species_id": 165,
-    "species": "Ninox punctulata",
+    "species_id": 166,
+    "species": "Bubo cinerascens",
     "version": 4,
-    "archive_commit": "2ee4b2d646ad1cf7f3b78f57e3ef5fcb9a7ce0ce",
-    "verification_commit": "3898b4920fa18fec01c34ef105e6ed53e8f6b89f",
-    "at": "2026-11-12T22:53:00+08:00"
+    "archive_commit": "71d8f234bb8bce774d80845594d84e2274df28f6",
+    "verification_commit": "9b82b2f60a54864e84ec1a59ed33a79bf49054e0",
+    "at": "2026-11-12T22:49:00+08:00"
   }
 }

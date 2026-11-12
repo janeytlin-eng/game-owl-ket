@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T00:02:09+08:00",
+  "updated": "2026-11-13T00:49:13.224+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -31149,7 +31149,90 @@
       "verification_commit": "ea9492f0342ebbe4bbb20fc8d89a721613c7d9ae",
       "verification_tree": "f0b213c600e3c06c4d7ec5f7f3251225de136fa4",
       "ledger_credited_at": "2026-11-13T00:26:38+08:00"
+    },
+    {
+      "id": "170-glaucidium-sanchezi-v4",
+      "species_id": 170,
+      "scientific_name": "Glaucidium sanchezi",
+      "historical_names": [
+        "Glaucidium minutissimum sanchezi"
+      ],
+      "common_name": "Tamaulipas Pygmy-Owl",
+      "version": 4,
+      "prior_versions_retained": [
+        1,
+        2,
+        3
+      ],
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "path": "design/concepts/170-glaucidium-sanchezi-v4.png",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "status": "V4 preserves v1-v3, restores full-colour cloud-forest detail, anchors the female as redder with only a modest wing/fullness direction, and corrects the age-unknown immature from crisp adult-like wing spots to a compact soft diffuse folded wing with dark eyes and hidden short tail. Exact immature age/sex/flight remain unknown; science=false.",
+      "source_ids": [
+        "TPO-HOWELL-ROBBINS-1995-P16-18-T2",
+        "TPO-PUENTE-ETAL-2024-P63-65-F2",
+        "TPO-LOWERY-NEWMAN-1949-P2-3",
+        "TPO-UNAM-MZFC-1999",
+        "TPO-ITIS-555452-2026"
+      ],
+      "unverified_leads": [],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/170-glaucidium-sanchezi-v4.md",
+      "review_record": "research/reviews/170-glaucidium-sanchezi-v4-review.md",
+      "run_record": "production/runs/20261113T003105+0800-cycle-3.md",
+      "reviewed_at": "2026-11-13T00:47:44.480+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 2714358,
+      "sha256": "7fc6b007d44d15bd5246a225162a0cacfcf6e4ca286a72aaa6627ffdbe7b706c",
+      "git_blob": "acdbd7baffed0aab940940dfb6ff1194e7456c46",
+      "initial_original_path": "production/generated/170-glaucidium-sanchezi-v4-initial-original.png",
+      "initial_original_blob": "b8c02b9c0324d9885831d7806a68aa9f0e1c9e49",
+      "initial_original_size_bytes": 3104466,
+      "edit_original_path": "production/generated/170-glaucidium-sanchezi-v4-edit1-original.png",
+      "edit_original_blob": "acdbd7baffed0aab940940dfb6ff1194e7456c46",
+      "edit_original_size_bytes": 2714358,
+      "final_original_path": "production/generated/170-glaucidium-sanchezi-v4-final-original.png",
+      "final_original_blob": "acdbd7baffed0aab940940dfb6ff1194e7456c46",
+      "final_original_size_bytes": 2714358,
+      "full_color_source_path": "production/generated/170-glaucidium-sanchezi-v4-full-color.png",
+      "full_color_source_blob": "acdbd7baffed0aab940940dfb6ff1194e7456c46",
+      "full_color_source_size_bytes": 2714358,
+      "reviewed_path": "production/reviewed/170-glaucidium-sanchezi-v4-reviewed-master.png",
+      "reviewed_blob": "acdbd7baffed0aab940940dfb6ff1194e7456c46",
+      "reviewed_size_bytes": 2714358,
+      "review_crops": [
+        {
+          "path": "production/review-crops/170-glaucidium-sanchezi-v4-adult-male.png",
+          "blob": "7855a0b0477770ce53d2b212fde4338d1a5e4ebb",
+          "size_bytes": 675151,
+          "sha256": "d4315c5992d795be990ba3a5f789182b4f15f6e57a9cb830882fbabeafed1d72"
+        },
+        {
+          "path": "production/review-crops/170-glaucidium-sanchezi-v4-adult-female.png",
+          "blob": "c1c017db2ae064f1c4d41da0d3f913ab668fd62f",
+          "size_bytes": 670462,
+          "sha256": "3263bad495e8be6d577b2622e2d1d018f197a5de2bba91ad42818265d9c985bd"
+        },
+        {
+          "path": "production/review-crops/170-glaucidium-sanchezi-v4-immature.png",
+          "blob": "c6a44127f18ad154af48a479409a240be1e620b5",
+          "size_bytes": 594886,
+          "sha256": "8d31ffe5b67fbde13b17373893ecc36c33387a8c3cec2bc14668a37032689148"
+        }
+      ],
+      "archive_note": "V1-v3 preserved. Two new verified sources, four reread/reused; full plate and three role crops opened. Edit1 removed unsupported adult-hard juvenile spotting. Mikkola upload not mounted. PASS_WITH_LIMITATIONS; science=false.",
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false,
+      "ledger_credited": false,
+      "batch_id": "20261112T234106+0800",
+      "batch_cycle": 3
     }
   ],
-  "updated_at": "2026-11-13T00:02:09+08:00"
+  "updated_at": "2026-11-13T00:49:13.224+08:00"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T08:57:00+08:00",
+  "updated": "2026-11-12T09:02:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -32185,7 +32185,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 0,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "JOL-SANGSTER-ETAL-2013",
         "JOL-ITIS-1063240-2026",
@@ -32225,12 +32225,36 @@
       "female_review_sha256": "9c3ca242e59f7668e97ad4a8992060917183f268071d829d54ee049ccf978a9f",
       "batch_id": "20261112T074300+0800",
       "cycle": 3,
-      "readback_pending": true,
+      "readback_pending": false,
       "archived_at": "2026-11-12T08:57:00+08:00",
-      "exact_readback": false,
+      "exact_readback": true,
       "archive_commit_pending": true,
-      "verification_commit_pending": true
+      "verification_commit_pending": true,
+      "archive_commit": "59ed1de60f7196fd95ed9388e0612da548b20d29",
+      "archive_tree": "13d1fe534587b76dee6fbb229f0a977fc5cd7a42",
+      "verified_at": "2026-11-12T09:02:00+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "archive_commit": "59ed1de60f7196fd95ed9388e0612da548b20d29",
+        "tree_sha": "13d1fe534587b76dee6fbb229f0a977fc5cd7a42",
+        "tree_count": 4503,
+        "tree_truncated": false,
+        "required_paths_verified": 14,
+        "exact_binary_paths_verified": 6,
+        "manifest_counts": {
+          "concepts": 821,
+          "image": 790,
+          "design": 799
+        },
+        "manifest_json_valid": true,
+        "path_blob_readback": true,
+        "raw_original_accessible": true,
+        "local_png_full_decode": true,
+        "sha256_verified": true,
+        "unique_species": "176/251",
+        "scientifically_verified": false
+      }
     }
   ],
-  "updated_at": "2026-11-12T08:57:00+08:00"
+  "updated_at": "2026-11-12T09:02:00+08:00"
 }

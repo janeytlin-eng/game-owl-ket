@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T01:09:20.000+08:00",
+  "updated": "2026-11-13T01:46:00.000+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -35464,7 +35464,92 @@
       "verification_commit": "28d9f091f0423c3e2e5f89cac68196a78461a106",
       "verification_tree": "94b1d731ab76b134948f28e5dacec52d0f2a702f",
       "ledger_credited_at": "2026-11-13T01:09:20.000+08:00"
+    },
+    {
+      "id": "172-tyto-castanops-v4",
+      "species_id": 172,
+      "scientific_name": "Tyto castanops",
+      "historical_names": [
+        "Tyto novaehollandiae castanops (alternate subspecies treatment)",
+        "Strix castanops (protonym)"
+      ],
+      "common_name": "Tasmanian Masked Owl",
+      "version": 4,
+      "prior_versions_retained": [
+        1,
+        2,
+        3
+      ],
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "path": "design/concepts/172-tyto-castanops-v4.png",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "status": "V4 preserves v1-v3 and independent 3D experiments. Debus 1993 adds Tasmanian adult mass/dimorphism evidence and documents that young may leave the hole while still downy; the concept translates mass into female fullness/darker tone with only moderate height difference, and emergence into a low bilateral-supported step rather than flight. Exact young age/sex/iris chronology/first-flight threshold and universal linear-size ratio remain unknown; science=false.",
+      "source_ids": [
+        "TMO-YOUNG-BELL-MOONEY-2021-P13-18",
+        "TMO-ITIS-686716-2026",
+        "TMO-ABSA-2019-P2",
+        "TMO-DEBUS-WOOD-2007-P49-52",
+        "TMO-MIKKOLA-2013-P110",
+        "TMO-AUSMUSEUM-2024",
+        "TMO-DEBUS-1993-P169-172-187"
+      ],
+      "unverified_leads": [
+        "TMO-GOULD-1838-BHL-LEAD"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/172-tyto-castanops-v4.md",
+      "review_record": "research/reviews/172-tyto-castanops-v4-review.md",
+      "run_record": "production/runs/20261113T011100+0800-cycle-5.md",
+      "reviewed_at": "2026-11-13T01:42:00.000+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 3258550,
+      "sha256": "0ff16cec214c962f9eaa07e9598c6b5e0910073c05d76202d47b018976e9f7be",
+      "git_blob": "7b9ce2ece0371973c3176ced531e890b9c2318f5",
+      "initial_original_path": "production/generated/172-tyto-castanops-v4-initial-original.png",
+      "initial_original_blob": "7b9ce2ece0371973c3176ced531e890b9c2318f5",
+      "initial_original_size_bytes": 3258550,
+      "final_original_path": "production/generated/172-tyto-castanops-v4-final-original.png",
+      "final_original_blob": "7b9ce2ece0371973c3176ced531e890b9c2318f5",
+      "final_original_size_bytes": 3258550,
+      "full_color_source_path": "production/generated/172-tyto-castanops-v4-full-color.png",
+      "full_color_source_blob": "7b9ce2ece0371973c3176ced531e890b9c2318f5",
+      "full_color_source_size_bytes": 3258550,
+      "reviewed_path": "production/reviewed/172-tyto-castanops-v4-reviewed-master.png",
+      "reviewed_blob": "7b9ce2ece0371973c3176ced531e890b9c2318f5",
+      "reviewed_size_bytes": 3258550,
+      "review_crops": [
+        {
+          "path": "production/review-crops/172-tyto-castanops-v4-adult-male.png",
+          "blob": "4757a7929f058251caf419598d813de614e6af25",
+          "size_bytes": 298089,
+          "sha256": "037ffea7e412e4bbca66bdad5d9841fd9670ef91dad94bcebd40d689937103d0"
+        },
+        {
+          "path": "production/review-crops/172-tyto-castanops-v4-young.png",
+          "blob": "7e8e7327e3c77704a52774ec110ca2d6717a1400",
+          "size_bytes": 311369,
+          "sha256": "cdc0ae1a4f794a5d1f9de97fcf0a9e734d3d475563268feaa26ac48721af68ef"
+        },
+        {
+          "path": "production/review-crops/172-tyto-castanops-v4-adult-female.png",
+          "blob": "84ea074d91ce553a82a76f137230e26803fa1528",
+          "size_bytes": 368351,
+          "sha256": "c264e77d0673a0fd466e3c76784f624549072001781c8309e87f155656e850a1"
+        }
+      ],
+      "archive_note": "V1-v3 and independent 3D experiments preserved. One new primary paper indexed; three sources reread/reused. Full plate and three role crops opened; no edit required. Mikkola upload not mounted; repository p.110 reading only. PASS_WITH_LIMITATIONS; science=false.",
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false,
+      "ledger_credited": false,
+      "batch_id": "20261112T234106+0800",
+      "batch_cycle": 5
     }
   ],
-  "updated_at": "2026-11-13T01:09:20.000+08:00"
+  "updated_at": "2026-11-13T01:46:00.000+08:00"
 }

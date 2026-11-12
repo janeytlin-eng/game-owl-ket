@@ -1,0 +1,51 @@
+name: "Owl #172 real WebGL explicit-normal glTF QA, NOT a product"
+on:
+  push:
+    paths:
+      - "owl-pet/3d-experiments/172-tyto-castanops/run19-trigger.txt"
+permissions:
+  contents: read
+concurrency:
+  group: owl172-run19-vertex-normals
+  cancel-in-progress: false
+jobs:
+  actual-gltf-normals-and-real-browser:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 24
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build identical organic owl geometry, original vs explicit-normal GLB
+        run: |
+          set -euo pipefail
+          python3 -m venv /tmp/owl172run19
+          /tmp/owl172run19/bin/pip install -q numpy scipy scikit-image trimesh pillow
+          D=owl-pet/3d-experiments/172-tyto-castanops/tools
+          mkdir -p qa-out/models
+          /tmp/owl172run19/bin/python "$D/mesoptile_organic_sculpt_trial_v30.py" qa-out/models/ORIGINAL_missing_NORMAL.glb --resolution 110 --down 2600 --stats qa-out/geometry.json
+          /tmp/owl172run19/bin/python "$D/diagnose_explicit_gltf_normals.py" qa-out/models/ORIGINAL_missing_NORMAL.glb qa-out/models/EXPLICIT_NORMAL_same_geometry.glb | tee qa-out/normal_audit.json
+      - name: Actually render same bird in software WebGL2 lit Three.js, including down
+        run: |
+          set -euo pipefail
+          D=owl-pet/3d-experiments/172-tyto-castanops/tools
+          mkdir -p /tmp/owl172viewer
+          cp "$D/organic_viewer_qa_index.html" /tmp/owl172viewer/index.html
+          cp "$D/organic_viewer_qa_main.js" /tmp/owl172viewer/main.js
+          cp "$D/organic_mobile_webgl_smoke.mjs" /tmp/owl172viewer/mobile_webgl_smoke.mjs
+          cd /tmp/owl172viewer
+          npm init -y >/dev/null
+          npm install --no-save --silent three@0.181 vite@7.2 playwright@1.56
+          npx playwright install chromium
+          npx vite --host 127.0.0.1 --port 4173 > "$GITHUB_WORKSPACE/qa-out/server.log" 2>&1 &
+          sleep 5
+          for label in ORIGINAL_missing_NORMAL EXPLICIT_NORMAL_same_geometry; do
+            cp "$GITHUB_WORKSPACE/qa-out/models/$label.glb" candidate.glb
+            node mobile_webgl_smoke.mjs "$GITHUB_WORKSPACE/qa-out/browser/$label" > "$GITHUB_WORKSPACE/qa-out/$label.log" 2>&1
+          done
+      - name: Archive reproducible real data ONLY, never production
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run19-same-mesh-explicit-glTF-normals-REJECTABLE
+          path: qa-out/
+          if-no-files-found: warn
+          retention-days: 14

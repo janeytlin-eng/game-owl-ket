@@ -47018,29 +47018,39 @@
           "completed_at": "2026-11-12T22:02:00+08:00",
           "review_result": "PASS_WITH_LIMITATIONS",
           "scientifically_verified": false
+        },
+        {
+          "cycle": 2,
+          "run_id": "20261112T220500+0800-cycle-2",
+          "species_id": 163,
+          "species": "Glaucidium gnoma",
+          "version": 4,
+          "action": "SCIENCE_REVISION",
+          "result": "VERIFIED",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "archive_commit": "064a5a9291a83272e53fa7c1a0e5a18aee9de7a3",
+          "archive_tree": "e45eeaa73106d30a5d976bb9cd3d608d5091fbf2",
+          "verification_commit": "73845a6528d38e0ace70efb3899720b3f5c4e8d1",
+          "verification_tree": "d47915280abc3d0e007d3b60bab7d3cfa9a782dd",
+          "commit_sha": "73845a6528d38e0ace70efb3899720b3f5c4e8d1",
+          "run_record": "owl-pet/production/runs/20261112T220500+0800-cycle-2.md",
+          "concept_path": "owl-pet/design/concepts/163-glaucidium-gnoma-v4.png",
+          "completed_at": "2026-11-12T22:24:00+08:00",
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 2,
-      "active_cycle": 2,
+      "next_cycle": 3,
+      "active_cycle": null,
       "started_at": "2026-11-12T21:36:00+08:00",
-      "updated_at": "2026-11-12T22:21:00+08:00",
-      "current_stage": "VERIFIED",
-      "stage": "VERIFIED",
-      "completed_count": 1,
-      "ledger_credit_pending": true,
-      "lease": {
-        "owner": "codex-work-mode",
-        "run_id": "20261112T220500+0800-cycle-2",
-        "heartbeat_at": "2026-11-12T22:21:00+08:00",
-        "expires_at": "2026-11-12T22:36:00+08:00"
-      },
-      "active": {
-        "cycle": 2,
-        "run_id": "20261112T220500+0800-cycle-2",
-        "species_id": 163,
-        "species": "Glaucidium gnoma",
-        "version": 4
-      },
+      "updated_at": "2026-11-12T22:24:00+08:00",
+      "current_stage": "LEDGER_CREDITED",
+      "stage": "LEDGER_CREDITED",
+      "completed_count": 2,
+      "ledger_credit_pending": false,
+      "lease": null,
+      "active": null,
       "stage_events": [
         {
           "batch_id": "20261112T213600+0800",
@@ -47402,16 +47412,32 @@
             "ledger_credit_pending": true,
             "lease_expires_at": "2026-11-12T22:36:00+08:00"
           }
+        },
+        {
+          "batch_id": "20261112T213600+0800",
+          "cycle": 2,
+          "stage": "LEDGER_CREDITED",
+          "at": "2026-11-12T22:24:00+08:00",
+          "run_id": "20261112T220500+0800-cycle-2",
+          "species_id": 163,
+          "species": "Glaucidium gnoma",
+          "credited": true,
+          "evidence": {
+            "archive_commit": "064a5a9291a83272e53fa7c1a0e5a18aee9de7a3",
+            "verification_commit": "73845a6528d38e0ace70efb3899720b3f5c4e8d1",
+            "run_record": "owl-pet/production/runs/20261112T220500+0800-cycle-2.md",
+            "next_cycle": 3,
+            "batch_completed_count": 2,
+            "unique_species_count": 176,
+            "total_species": 251,
+            "revision_increment": 1,
+            "scientifically_verified": false
+          }
         }
       ]
     }
   ],
-  "lease": {
-    "owner": "codex-work-mode",
-    "run_id": "20261112T220500+0800-cycle-2",
-    "heartbeat_at": "2026-11-12T22:21:00+08:00",
-    "expires_at": "2026-11-12T22:36:00+08:00"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",

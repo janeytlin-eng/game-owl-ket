@@ -42897,26 +42897,26 @@
       "next_cycle": 6,
       "active_cycle": 6,
       "started_at": "2026-11-12T07:43:00+08:00",
-      "updated_at": "2026-11-12T11:27:00+08:00",
-      "current_stage": "ARCHIVED",
+      "updated_at": "2026-11-12T11:31:00+08:00",
+      "current_stage": "VERIFIED",
       "ledger_credit_pending": false,
       "completed_count": 5,
       "lease": {
         "owner": "chatgpt-codex",
         "run_id": "20261112T110500+0800-cycle-6",
-        "heartbeat_at": "2026-11-12T11:27:00+08:00",
-        "expires_at": "2026-11-12T11:42:00+08:00"
+        "heartbeat_at": "2026-11-12T11:31:00+08:00",
+        "expires_at": "2026-11-12T11:46:00+08:00"
       },
       "active": {
         "run_id": "20261112T110500+0800-cycle-6",
         "cycle": 6,
         "species_id": 142,
         "species": "Asio grammicus",
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "run_record": "owl-pet/production/runs/20261112T110500+0800-cycle-6.md",
-        "lease_expires_at": "2026-11-12T11:42:00+08:00"
+        "lease_expires_at": "2026-11-12T11:46:00+08:00"
       },
-      "stage": "ARCHIVED",
+      "stage": "VERIFIED",
       "stage_events": [
         {
           "batch_id": "20261112T074300+0800",
@@ -43832,21 +43832,59 @@
             "readback_pending": true,
             "lease_expires_at": "2026-11-12T11:42:00+08:00"
           }
+        },
+        {
+          "batch_id": "20261112T074300+0800",
+          "cycle": 6,
+          "stage": "VERIFIED",
+          "at": "2026-11-12T11:31:00+08:00",
+          "run_id": "20261112T110500+0800-cycle-6",
+          "species_id": 142,
+          "species": "Asio grammicus",
+          "credited": false,
+          "evidence": {
+            "archive_commit": "20a15f3451f79d59d02fd1a16f531962989fb647",
+            "archive_tree": "1f319047b091f01ab9c0aeba3581248e2a8ff2f6",
+            "required_paths_verified": 23,
+            "binary_paths_verified": 12,
+            "exact_blob_sha_and_size_verified": 12,
+            "unique_binary_streams": 4,
+            "tree_entries": 4542,
+            "tree_truncated": false,
+            "concept_blob": "ec674a4f0e6d99844291444ec95b1fa0edd79e17",
+            "concept_bytes": 2922240,
+            "crop_blobs": [
+              "e4cb39ec3f0c440ccc44f6fd89de4d0ac051033b",
+              "afde4be18459d699fa279c5b9cd47b72c4cbef35",
+              "507fd34db1587cf0636739fdaf149aa1a61e74be"
+            ],
+            "manifest_counts": {
+              "concepts": 824,
+              "image": 793,
+              "design": 802
+            },
+            "manifest_json_valid": true,
+            "manifest_exact_blob_readback": true,
+            "verification_result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false,
+            "ledger_credit_pending": true,
+            "lease_expires_at": "2026-11-12T11:46:00+08:00"
+          }
         }
       ],
       "active_lease": {
         "owner": "chatgpt-codex",
         "run_id": "20261112T110500+0800-cycle-6",
-        "heartbeat_at": "2026-11-12T11:27:00+08:00",
-        "expires_at": "2026-11-12T11:42:00+08:00"
+        "heartbeat_at": "2026-11-12T11:31:00+08:00",
+        "expires_at": "2026-11-12T11:46:00+08:00"
       }
     }
   ],
   "lease": {
     "owner": "chatgpt-codex",
     "run_id": "20261112T110500+0800-cycle-6",
-    "heartbeat_at": "2026-11-12T11:27:00+08:00",
-    "expires_at": "2026-11-12T11:42:00+08:00"
+    "heartbeat_at": "2026-11-12T11:31:00+08:00",
+    "expires_at": "2026-11-12T11:46:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -67788,15 +67826,15 @@
       }
     }
   ],
-  "last_archive_commit": "4cc24b93252ea9713d4cfd7f3b11db9d055404d4",
+  "last_archive_commit": "20a15f3451f79d59d02fd1a16f531962989fb647",
   "active": {
     "run_id": "20261112T110500+0800-cycle-6",
     "cycle": 6,
     "species_id": 142,
     "species": "Asio grammicus",
-    "stage": "ARCHIVED",
+    "stage": "VERIFIED",
     "run_record": "owl-pet/production/runs/20261112T110500+0800-cycle-6.md",
-    "lease_expires_at": "2026-11-12T11:42:00+08:00"
+    "lease_expires_at": "2026-11-12T11:46:00+08:00"
   },
   "phase_events": [
     {

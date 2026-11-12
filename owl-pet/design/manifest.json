@@ -30506,7 +30506,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 0,
-      "status": "ARCHIVED_READBACK_PENDING",
+      "status": "VERIFIED",
       "source_ids": [
         "JAM-GOSSE-1847-P19-23",
         "JAM-GOSSE-1849-PLATE-IV",
@@ -30547,9 +30547,33 @@
       ],
       "archive_note": "V1-v3 retained. Gosse's two individual downy-immature observations correct the v3 almost-wingless ball without establishing a universal flight threshold. Full plate and all three role crops were opened; one compact down-veiled formed juvenile wing, near-equal adults and all supports pass. New verified/indexed sources 3; reread 3; unverified lead 1. Science false.",
       "archived_at": "2026-11-12T11:27:00+08:00",
-      "archive_commit_pending": true,
-      "readback_pending": true,
-      "exact_readback": false
+      "archive_commit_pending": false,
+      "readback_pending": false,
+      "exact_readback": true,
+      "archive_commit": "20a15f3451f79d59d02fd1a16f531962989fb647",
+      "archive_tree": "1f319047b091f01ab9c0aeba3581248e2a8ff2f6",
+      "verified_at": "2026-11-12T11:31:00+08:00",
+      "verification_result": "PASS_WITH_LIMITATIONS",
+      "required_paths_verified": 23,
+      "exact_binary_paths_verified": 12,
+      "unique_binary_streams_tree_verified": 4,
+      "readback": {
+        "status": "VERIFIED",
+        "archive_commit": "20a15f3451f79d59d02fd1a16f531962989fb647",
+        "tree_sha": "1f319047b091f01ab9c0aeba3581248e2a8ff2f6",
+        "tree_entries": 4542,
+        "tree_truncated": false,
+        "required_paths_verified": 23,
+        "exact_binary_paths_verified": 12,
+        "manifest_counts": {"concepts": 824, "image": 793, "design": 802},
+        "manifest_json_valid": true,
+        "manifest_exact_blob_readback": true,
+        "path_blob_readback": true,
+        "local_png_full_decode": true,
+        "sha256_verified": true,
+        "unique_species": "176/251",
+        "scientifically_verified": false
+      }
     }
   ],
   "updated_at": "2026-11-12T11:27:00+08:00"

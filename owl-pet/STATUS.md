@@ -4175,3 +4175,7 @@ V4科学修订保留v1–v3，且不把#154旧属名重复项另计物种。Goss
 - Sources: new verified/indexed 3; reread/reused 3; unverified/excluded lead 1.
 - Unique coverage remains 176/251; revision +1; immutable readback pending.
 
+## 2026-11-12 — #142 *Asio grammicus* v4 immutable archive VERIFIED; ledger credit pending
+
+Archive [`20a15f3451f79d59d02fd1a16f531962989fb647`](https://github.com/janeytlin-eng/game-owl-ket/commit/20a15f3451f79d59d02fd1a16f531962989fb647) / tree `1f319047b091f01ab9c0aeba3581248e2a8ff2f6` returned 4,542 non-truncated entries. All 23 required paths are present; twelve PNG paths match four exact blob/byte tuples, including the 2,922,240-byte original stream and three crop streams. Three manifests parse locally at 824/793/802 and their exact blobs match the archive tree. `PASS_WITH_LIMITATIONS`; science=false; unique remains 176/251; cycle credit pending until verification-commit readback.
+

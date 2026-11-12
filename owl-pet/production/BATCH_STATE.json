@@ -45303,26 +45303,26 @@
       "next_cycle": 3,
       "active_cycle": 3,
       "started_at": "2026-11-12T15:38:46+08:00",
-      "updated_at": "2026-11-12T16:49:31.349+08:00",
-      "current_stage": "IMAGE_GENERATED",
+      "updated_at": "2026-11-12T16:50:24.017+08:00",
+      "current_stage": "REVIEWED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex",
         "run_id": "20261112T164238+0800-cycle-3",
         "batch_id": "20261112T153846+0800",
         "cycle": 3,
-        "heartbeat_at": "2026-11-12T16:49:31.349+08:00",
-        "expires_at": "2026-11-12T17:12:31.349+08:00"
+        "heartbeat_at": "2026-11-12T16:50:24.017+08:00",
+        "expires_at": "2026-11-12T17:13:24.017+08:00"
       },
       "active": {
         "owner": "codex",
         "run_id": "20261112T164238+0800-cycle-3",
         "batch_id": "20261112T153846+0800",
         "cycle": 3,
-        "heartbeat_at": "2026-11-12T16:49:31.349+08:00",
-        "expires_at": "2026-11-12T17:12:31.349+08:00"
+        "heartbeat_at": "2026-11-12T16:50:24.017+08:00",
+        "expires_at": "2026-11-12T17:13:24.017+08:00"
       },
-      "stage": "IMAGE_GENERATED",
+      "stage": "REVIEWED",
       "completed_count": 2,
       "stage_events": [
         {
@@ -45822,6 +45822,43 @@
             "preliminary_inspection": "full plate opened; exact title/name/count/labels; near-equal small-headed long-tailed adults; downy juvenile white-faced/white-underpart, dark-eyed, compact-winged, tail-concealed and bilaterally supported",
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-12T17:12:31.349+08:00"
+          }
+        },
+        {
+          "batch_id": "20261112T153846+0800",
+          "cycle": 3,
+          "stage": "REVIEWED",
+          "at": "2026-11-12T16:50:24.017+08:00",
+          "run_id": "20261112T164238+0800-cycle-3",
+          "species_id": 152,
+          "species": "Uroglaux dimorpha",
+          "credited": false,
+          "evidence": {
+            "review_record": "owl-pet/research/reviews/152-uroglaux-dimorpha-v4-review.md",
+            "final_original": "owl-pet/production/generated/152-uroglaux-dimorpha-v4-final-original.png",
+            "final_blob": "1128dab0b346865f303c1eccef1b1bc45678ff7b",
+            "final_bytes": 2958362,
+            "final_sha256": "461852991d74566b3aef49543b8f074934d55400a1530bf131dacd227cf5132d",
+            "review_crops": [
+              "owl-pet/production/review-crops/152-uroglaux-dimorpha-v4-adult-male.png",
+              "owl-pet/production/review-crops/152-uroglaux-dimorpha-v4-downy-juvenile.png",
+              "owl-pet/production/review-crops/152-uroglaux-dimorpha-v4-adult-female.png"
+            ],
+            "crop_blobs": [
+              "3f2b83a4fe277d8fcd6ab91689857b39e8841d7b",
+              "e30f62032b27cb8c5ff237b99deec68917e64b68",
+              "105dcdb8fda2eb109648ffc8efeb78903a0da315"
+            ],
+            "actual_views": [
+              "full 1536x1024",
+              "adult-male crop",
+              "downy-juvenile crop",
+              "adult-female crop"
+            ],
+            "edit_count": 0,
+            "review_result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-12T17:13:24.017+08:00"
           }
         }
       ],

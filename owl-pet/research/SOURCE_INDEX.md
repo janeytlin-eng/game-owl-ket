@@ -1,3 +1,15 @@
+## 2026-11-12 — #164 *Strix hadorami* v4 — taxonomy corroboration and v3 visual correction
+
+### DESERTOWL-PUBMED-KIRWAN-2015
+- Title/authors: “Multiple lines of evidence confirm that Hume's Owl *Strix butleri* … is two species” — Kirwan, Schweizer & Copete, 2015.
+- Stable ID / URL: PubMed PMID 25660770 — https://pubmed.ncbi.nlm.nih.gov/25660770/
+- Accessed: 2026-11-12; source type: authoritative bibliographic abstract.
+- Species/stage: current/historical taxonomy of *Strix hadorami*; adults only.
+- Useful fact: indexed abstract corroborates genetic and morphological evidence for two species-level taxa and description of the widespread former-*butleri* population.
+- Page/section: Abstract; original article pp.28–50.
+- Limits/confidence: high for taxonomic split, but abstract-level; no new juvenile chronology or quantitative sex-ratio fact.
+- Design use: prevent mixing Omani *S. butleri* identity into #164. Linked record: [#164 v4](species/164-strix-hadorami-v4.md).
+
 ## GNOMA-DESHLER-2021-NESTING
 - **Title:** Northern Pygmy-Owl (*Glaucidium gnoma*) nesting ecology in northwestern Oregon
 - **Author / year / type:** John F. Deshler; 2021; peer-reviewed field study

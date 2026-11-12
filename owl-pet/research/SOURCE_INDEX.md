@@ -5232,3 +5232,16 @@ Reused/re-read without duplicate IDs for #130 v5: `KOEP-ITIS-686665-2026`, repos
 - Re-read BLF-CLEMENTS-2026-SPLIT: current *K. blakistoni* is monotypic Hokkaido/insular; continental *K. doerriesi* is separate. Exclude continental white-nape/near-white-tail traits.
 - Reused BLF-MOVIN-2022 only for split support. Adult sex plumage is similar; mass ranges overlap, so female is subtly fuller, not mechanically larger.
 - Mikkola upload was not mounted; no fresh page claim. Scientific verification remains false.
+
+
+## SPBO-MNHN-HOLOTYPE-2010-288
+- **Title:** Holotype *Noctua punctulata* Quoy & Gaimard, 1830 — MNHN-ZO-2010-288
+- **Author/institution:** Muséum national d’Histoire naturelle, Paris
+- **Year/date:** specimen collected before 1829; online catalogue accessed 2026-11-12
+- **URL:** https://science.mnhn.fr/institution/mnhn/collection/zo/item/2010-288
+- **Source type:** museum specimen catalogue / type record
+- **Taxon/stage:** *Ninox punctulata*; holotype; age and sex indeterminate
+- **Actually read:** catalogue identity, initial determination, current-name mapping, origin and determination history; no page number (web record), specimen ID MNHN-ZO-2010-288
+- **Facts:** initial name *Noctua punctulata*; current mapping *Ninox punctulata*; locality Sulawesi; sex and age explicitly indeterminate.
+- **Limits/confidence:** high for specimen identity and name/provenance mapping; does not support sex appearance, size direction, juvenile plumage or development.
+- **Design/QA use:** supports old-name mapping and prevents assigning the indeterminate holotype to an adult sex or age class. Linked: `research/species/165-ninox-punctulata-v4.md`, `design/concepts/165-ninox-punctulata-v4.png`.

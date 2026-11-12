@@ -43981,14 +43981,26 @@
         }
       ],
       "next_cycle": 5,
-      "active_cycle": null,
+      "active_cycle": 5,
       "started_at": "2026-11-12T11:35:00+08:00",
-      "updated_at": "2026-11-12T13:30:00+08:00",
-      "current_stage": "LEDGER_CREDITED",
+      "updated_at": "2026-11-12T13:32:00+08:00",
+      "current_stage": "STARTED",
       "ledger_credit_pending": false,
-      "lease": null,
-      "active": null,
-      "stage": "LEDGER_CREDITED",
+      "lease": {
+        "owner": "codex",
+        "run_id": "20261112T133200+0800-cycle-5",
+        "heartbeat_at": "2026-11-12T13:32:00+08:00",
+        "expires_at": "2026-11-12T13:47:00+08:00"
+      },
+      "active": {
+        "cycle": 5,
+        "species_id": 148,
+        "species": "Ninox rumseyi",
+        "version": 4,
+        "action": "SCIENCE_REVISION",
+        "run_record": "owl-pet/production/runs/20261112T133200+0800-cycle-5.md"
+      },
+      "stage": "STARTED",
       "completed_count": 4,
       "stage_events": [
         {
@@ -44801,6 +44813,24 @@
             "unique_species": "176/251",
             "next_cycle": 5,
             "lease_released": true
+          }
+        },
+        {
+          "batch_id": "20261112T113500+0800",
+          "cycle": 5,
+          "stage": "STARTED",
+          "at": "2026-11-12T13:32:00+08:00",
+          "run_id": "20261112T133200+0800-cycle-5",
+          "species_id": 148,
+          "species": "Ninox rumseyi",
+          "credited": false,
+          "evidence": {
+            "run_record": "owl-pet/production/runs/20261112T133200+0800-cycle-5.md",
+            "baseline_main": "063f22c4964419552d56dcf62fe45fd2224b6afa",
+            "prior_version": "owl-pet/design/concepts/148-ninox-rumseyi-v3.png",
+            "selection_note": "Next numbered repository-backed target. V3 juvenile is closed-eyed/stationary, but the primary field study radio-tracked a field-classified juvenile nightly and mapped a home range; v4 will correct action capacity without inventing plumage chronology.",
+            "lease_expires_at": "2026-11-12T13:47:00+08:00",
+            "scientifically_verified": false
           }
         }
       ],

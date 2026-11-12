@@ -185,3 +185,11 @@ When primary sources say a recent fledgling can fly but lands poorly, that evide
 - **Evidence boundary:** Currie et al. 2002 pp.16–18 report bright yellow in some fledglings and found no age relationship; Currie et al. 2004 pp.126–130 define a fluffy barred c.8–12-week recent-fledgling category but not a complete feather chronology.
 - **Applied change:** v4 uses the directly observed bright-yellow option without calling it universal, and one edit shortened/softened the juvenile wing while retaining bilateral support.
 - **Verified scope:** edited full plate plus three role crops passed. Reuse the rule only to separate a documented soft-part option from an unsupported age code; it does not establish universal iris or wing development.
+
+
+## 2026-11-13 — #179 short distal tarsus boundary
+
+- **Problem:** A generic handbook-style phrase can be over-expanded into “feathered to the toes,” even when a specimen source documents a short bare terminal segment.
+- **Evidence:** Marshall 1978 printed p.19 states the distal c.5 mm of *O. r. mayottensis* is bare.
+- **Applied:** Prompted feathered upper tarsi plus a short visible bare terminal segment, then reopened both adult crops.
+- **Validated:** The v4 image shows the bounded segment without turning the species into a long bare-legged owl. Treat this as species-specific; do not generalize to other scops owls.

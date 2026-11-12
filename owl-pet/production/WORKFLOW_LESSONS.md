@@ -121,3 +121,12 @@ When primary sources say a recent fledgling can fly but lands poorly, that evide
 - **Applied:** #168 v4 uses a low supported step with one foot on each connected branch surface, short rounded soft wing, hidden short tail, no airborne gap and no invented nest.
 - **Verified in this asset:** full plate plus dedicated young crop were opened; bilateral support and conservative wing/tail maturity passed without edit.
 - **Reuse rule:** translate locomotion evidence into the least capable evidenced action and specify visible contact geometry; do not infer flight, a nest or a complete age-linked plumage from locomotion alone.
+
+
+## 2026-11-13 — local diagnostic marks need tract-specific placement checks
+
+- **Problem:** #169 v3 omitted a museum-account posterior-crown white patch while its age-unknown mesoptile still carried a long adult-hard wing and exposed tail.
+- **Evidence boundary:** Bouet 1961 p.619 places the white patch specifically on the posterior crown, not the scapulars; the mesoptile record supports formed remiges/rectrices but not adult-complete proportions or flight.
+- **Applied:** #169 v4 adds only a small crown patch behind/between the tufts, explicitly forbids white shoulder migration, compacts/softens the mesoptile wing and hides most of the tail while preserving two-foot branch support.
+- **Verified in this asset:** the full plate and three role crops were opened; crown location, absence of white shoulders, compact young wing/tail and support all passed without edit.
+- **Reuse rule:** when evidence names a small feather tract, prompt its anatomical location and inspect both the target tract and common leakage sites; separately review wing and tail maturity even when a source says juvenile feathers are “adult-like”.

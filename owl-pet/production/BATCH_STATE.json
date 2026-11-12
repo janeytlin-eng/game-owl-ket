@@ -48296,16 +48296,16 @@
       "next_cycle": 2,
       "active_cycle": 2,
       "started_at": "2026-11-12T23:41:06+08:00",
-      "updated_at": "2026-11-13T00:15:14+08:00",
-      "current_stage": "IMAGE_GENERATED",
-      "stage": "IMAGE_GENERATED",
+      "updated_at": "2026-11-13T00:16:23+08:00",
+      "current_stage": "REVIEWED",
+      "stage": "REVIEWED",
       "completed_count": 1,
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex-work-mode",
         "run_id": "20261113T001020+0800-cycle-2",
-        "heartbeat_at": "2026-11-13T00:15:14+08:00",
-        "expires_at": "2026-11-13T00:30:14+08:00"
+        "heartbeat_at": "2026-11-13T00:16:23+08:00",
+        "expires_at": "2026-11-13T00:31:23+08:00"
       },
       "active": {
         "cycle": 2,
@@ -48314,7 +48314,7 @@
         "species": "Ketupa shelleyi",
         "version": 4,
         "action": "SCIENCE_REVISION",
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "run_record": "owl-pet/production/runs/20261113T001020+0800-cycle-2.md"
       },
       "stage_events": [
@@ -48557,6 +48557,48 @@
             "preliminary_inspection": "exact title/count/labels, adult identity/crown patch/near-equal scale, low two-foot mesoptile crouch, compact wing and short tail fringe pass; full and crop review pending",
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-13T00:30:14+08:00"
+          }
+        },
+        {
+          "batch_id": "20261112T234106+0800",
+          "cycle": 2,
+          "stage": "REVIEWED",
+          "at": "2026-11-13T00:16:23+08:00",
+          "run_id": "20261113T001020+0800-cycle-2",
+          "species_id": 169,
+          "species": "Ketupa shelleyi",
+          "credited": false,
+          "evidence": {
+            "review_record": "owl-pet/research/reviews/169-ketupa-shelleyi-v4-review.md",
+            "result": "PASS_WITH_LIMITATIONS",
+            "edit_count": 0,
+            "final_original": "owl-pet/production/generated/169-ketupa-shelleyi-v4-final-original.png",
+            "final_blob": "9fc2cc039d5097733a5d35d6196d4da198e68112",
+            "reviewed_master": "owl-pet/production/reviewed/169-ketupa-shelleyi-v4-reviewed-master.png",
+            "reviewed_blob": "9fc2cc039d5097733a5d35d6196d4da198e68112",
+            "review_crops": [
+              {
+                "path": "owl-pet/production/review-crops/169-ketupa-shelleyi-v4-adult-male.png",
+                "blob": "26db58ff5b6259a4899fdda38ccdc3ac4baac9f5",
+                "size_bytes": 688136,
+                "sha256": "d3e39fce004efdf2db70f4bb65bca3c7c6ecc798fafc4f99ecf31565a9149b6d"
+              },
+              {
+                "path": "owl-pet/production/review-crops/169-ketupa-shelleyi-v4-mesoptile.png",
+                "blob": "b626cd5bd17b73935f21f0093e4ea5cd9b28cf9a",
+                "size_bytes": 630599,
+                "sha256": "54363e283acb2d1c59aaba4751f2496a74c3810ea88c4b68836b30c987f50747"
+              },
+              {
+                "path": "owl-pet/production/review-crops/169-ketupa-shelleyi-v4-adult-female.png",
+                "blob": "0891f7f7c965c024aa10b82a451e5ecf6a08a685",
+                "size_bytes": 674191,
+                "sha256": "2d9505e99d7a7ec4a6348b6bbcdbb732bfe47b84e9a78afd04b53f4de9c2298c"
+              }
+            ],
+            "inspection": "full 1536x1024 plate and three 512x760 role crops opened; title/count/labels, adult dark identity, posterior-crown patch location, near-equal scale, compact soft mesoptile wing, short mostly hidden tail, six-foot support and no-nest boundary pass",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-13T00:31:23+08:00"
           }
         }
       ]

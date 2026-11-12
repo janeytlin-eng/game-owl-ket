@@ -18,7 +18,7 @@ jobs:
         run: |
           set -euo pipefail
           sudo apt-get update -qq
-          sudo apt-get install -y -qq blender python3-venv
+          sudo apt-get install -y -qq blender python3-numpy python3-venv
           python3 -m venv /tmp/owl172organic
           /tmp/owl172organic/bin/pip install -q --disable-pip-version-check numpy scipy scikit-image trimesh pillow
           blender --version | head -2

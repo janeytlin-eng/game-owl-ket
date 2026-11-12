@@ -5300,3 +5300,20 @@ Reused/re-read without duplicate IDs for #130 v5: `KOEP-ITIS-686665-2026`, repos
 - `SHEO-MIKKOLA-2013-P288`: repository page record only; mesoptile barred brown/white with adult-like remiges/rectrices. V4 corrects v3's adult-hard long wing/tail without denying formed feathers.
 - `SHEO-ITIS-1244711-2026`: current/old-name mapping only.
 - **Index delta:** new verified 1; reused/reread 4; corrected inferences 3 (posterior-crown mark location, mesoptile wing maturity, mesoptile tail exposure). Exact mesoptile age/flight ability, nest, continuous feather chronology and quantified sex dimorphism remain unknown. Scientific verification remains false.
+
+
+## 2026-11-13 — #170 *Glaucidium sanchezi* v4 — adult dimorphism and full-colour correction
+
+### TPO-HOWELL-ROBBINS-1995-P16-18-T2
+- **Source:** S.N.G. Howell & M.B. Robbins, “Species Limits of the Least Pygmy-Owl Complex”, *Wilson Bulletin* 107(1):7–25, 1995; pp.16–18, Table 2; https://sora.unm.edu/sites/default/files/journals/wilson/v107n01/p0007-p0025.pdf ; accessed 2026-11-13.
+- **Type/stage:** comparative specimen/vocal study; adults, 13 *G. sanchezi* specimens.
+- **Facts:** females redder; male wing mean 87.3±1.4 mm (n=6), female 91.0±2.4 (n=5), significant; six pale tail bars, reduced crown flecks, male more olivaceous and female cinnamon/redder; no bold white scapular/wing spots.
+- **Limits/use:** specimen means overlap and do not support categorical female body gigantism; no juvenile development. Supports subtle female folded-wing/fullness direction and evidence-based sex palette.
+
+### TPO-PUENTE-ETAL-2024-P63-65-F2
+- **Source:** M.A. Puente-Zozaya, E.R. Rodríguez-Ruiz & J. Valencia-Herverth, 2024, *Ornitología Neotropical* 35:63–67, DOI 10.58843/ornneo.v35i1.1337; pp.63–65, Fig.2; https://ornneo.ornitologianeotropical.org/index.php/ornneo/article/download/1337/785 ; accessed 2026-11-13.
+- **Type/stage:** primary field record/photo; unsexed living adult, Cuetzalan, Puebla, 7 Mar 2023.
+- **Facts/use:** perched adult in dense humid montane cloud forest at 932 m; tree ferns, oaks, elms and *Liquidambar*; range extension c.130 km south. Supports living-adult/habitat comparator and full-colour cloud-forest scene.
+- **Limits:** no sex, juvenile, nest or feather chronology.
+
+- Reused: `TPO-LOWERY-NEWMAN-1949-P2-3`, `TPO-UNAM-MZFC-1999`, `TPO-ITIS-555452-2026`, repository `TPO-MIKKOLA-2013-P384` only. Index delta: new verified 2; reused/reread 4; corrected inferences 2 (quantified adult direction, full-colour canonical archive). Science=false.

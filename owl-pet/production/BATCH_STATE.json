@@ -48317,16 +48317,16 @@
       "next_cycle": 3,
       "active_cycle": 3,
       "started_at": "2026-11-12T23:41:06+08:00",
-      "updated_at": "2026-11-13T00:31:05+08:00",
-      "current_stage": "STARTED",
-      "stage": "STARTED",
+      "updated_at": "2026-11-13T00:34:00+08:00",
+      "current_stage": "RESEARCH_READY",
+      "stage": "RESEARCH_READY",
       "completed_count": 2,
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex-work-mode",
         "run_id": "20261113T003105+0800-cycle-3",
-        "heartbeat_at": "2026-11-13T00:31:05+08:00",
-        "expires_at": "2026-11-13T00:46:05+08:00"
+        "heartbeat_at": "2026-11-13T00:34:00+08:00",
+        "expires_at": "2026-11-13T00:49:00+08:00"
       },
       "active": {
         "cycle": 3,
@@ -48335,7 +48335,7 @@
         "species": "Glaucidium sanchezi",
         "version": 4,
         "action": "SCIENCE_REVISION",
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "run_record": "owl-pet/production/runs/20261113T003105+0800-cycle-3.md"
       },
       "stage_events": [
@@ -48713,6 +48713,29 @@
             "selection_note": "Canonical next numbered science-revision target after #169; existing #170 v1-v3 retained and not double-counted.",
             "lease_expires_at": "2026-11-13T00:46:05+08:00",
             "scientifically_verified": false
+          }
+        },
+        {
+          "batch_id": "20261112T234106+0800",
+          "cycle": 3,
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-13T00:34:00+08:00",
+          "run_id": "20261113T003105+0800-cycle-3",
+          "species_id": 170,
+          "species": "Glaucidium sanchezi",
+          "credited": false,
+          "evidence": {
+            "research_record": "owl-pet/research/species/170-glaucidium-sanchezi-v4.md",
+            "source_index": "owl-pet/research/SOURCE_INDEX.md",
+            "new_verified_sources": 2,
+            "reused_or_reread_sources": 4,
+            "unverified_leads": 0,
+            "corrected_inferences": 2,
+            "complete_prompt_saved": true,
+            "design_boundary": "full-colour canonical plate; female redder and only subtly longer-winged/full-bodied; compact soft immature with hidden short tail; no exact age or flight claim",
+            "mikkola_access": "uploaded guide not mounted; repository p.384 record reused only",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-13T00:49:00+08:00"
           }
         }
       ]

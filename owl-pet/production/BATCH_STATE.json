@@ -47107,9 +47107,9 @@
       "next_cycle": 6,
       "active_cycle": 6,
       "started_at": "2026-11-12T21:36:00+08:00",
-      "updated_at": "2026-11-12T22:51:00+08:00",
-      "current_stage": "STARTED",
-      "stage": "STARTED",
+      "updated_at": "2026-11-12T22:54:00+08:00",
+      "current_stage": "RESEARCH_READY",
+      "stage": "RESEARCH_READY",
       "completed_count": 5,
       "ledger_credit_pending": false,
       "lease": {
@@ -47117,8 +47117,8 @@
         "run_id": "20261112T225100+0800-cycle-6",
         "cycle": 6,
         "acquired_at": "2026-11-12T22:51:00+08:00",
-        "heartbeat_at": "2026-11-12T22:51:00+08:00",
-        "expires_at": "2026-11-12T23:06:00+08:00",
+        "heartbeat_at": "2026-11-12T22:54:00+08:00",
+        "expires_at": "2026-11-12T23:09:00+08:00",
         "species_id": 167,
         "species": "Ketupa poensis"
       },
@@ -48101,6 +48101,33 @@
             "lease_expires_at": "2026-11-12T23:06:00+08:00",
             "next_cycle": 6,
             "prior_version": "owl-pet/design/concepts/167-ketupa-poensis-v3.png"
+          }
+        },
+        {
+          "batch_id": "20261112T213600+0800",
+          "cycle": 6,
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-12T22:54:00+08:00",
+          "run_id": "20261112T225100+0800-cycle-6",
+          "species_id": 167,
+          "species": "Ketupa poensis",
+          "credited": false,
+          "evidence": {
+            "research_record": "owl-pet/research/species/167-ketupa-poensis-v4.md",
+            "source_ids": [
+              "FREO-SHARPE-1875-P42",
+              "FREO-MNHN-MO-1971-66",
+              "FREO-CLEMENTS-2022-LUMP"
+            ],
+            "source_delta": {
+              "new": 0,
+              "reused": 3,
+              "corrected": 0
+            },
+            "prompt_saved": true,
+            "mikkola_access": "upload not mounted; no fresh page claim",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-12T23:09:00+08:00"
           }
         }
       ]

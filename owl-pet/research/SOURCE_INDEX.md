@@ -5262,3 +5262,17 @@ Reused/re-read without duplicate IDs for #130 v5: `KOEP-ITIS-686665-2026`, repos
 - Facts read: record explicitly labels sex female and age juvenile.
 - Design use: taxonomy/age-class corroboration only.
 - Limits/confidence: no exact age, live colour, feather sequence or flight information. URL: https://science.mnhn.fr/institution/mnhn/collection/zo/item/mo-1942-100
+
+
+### FREO-MNHN-MO-1971-66 (2026-11-12 reread)
+- Institution/title: MNHN-ZO-MO-1971-66, *Bubo poensis poensis* specimen.
+- Type/stage: museum skin; sex unknown; age labelled “juvenile?”. Lamto, Côte d’Ivoire, 1969, 90 m.
+- Design use: West African nominate provenance and explicit age uncertainty for #167 v4.
+- Limits: no exact age, live colour, posture, feather chronology or flight evidence. URL: https://science.mnhn.fr/institution/mnhn/collection/zo/item/mo-1971-66
+
+### FREO-CLEMENTS-2022-LUMP (2026-11-12 reread)
+- Institution: Cornell Lab, Clements Checklist October 2022 updates.
+- Taxa: *Ketupa poensis poensis* and *K. p. vosseleri*; historical *Bubo poensis* / *Bubo vosseleri*.
+- Fact: Usambara taxon lumped with Fraser’s Eagle-Owl; western/eastern groups retained; species transferred to *Ketupa*.
+- Design use: one species count, western nominate shown, old-name mapping retained.
+- Limits: taxonomy source, not morphology/development. URL: https://www.birds.cornell.edu/clementschecklist/introduction/updateindex/october-2022/updates-corrections-october-2022/

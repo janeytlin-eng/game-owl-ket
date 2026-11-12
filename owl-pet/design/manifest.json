@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T14:43:00+08:00",
+  "updated": "2026-11-12T14:47:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -31111,7 +31111,7 @@
       "revision_increment": 1,
       "edit_count": 0,
       "imagegen_invocations": 1,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "CEB-RASMUSSEN-2012-FORKTAIL",
         "CEB-JAKOSALEM-COLLAR-GILL-2012",
@@ -31167,12 +31167,42 @@
       ],
       "archive_note": "V1-v3 retained. Primary description and field study reread. Full plate and three crops viewed; no edit required. Telemetry supports an alert supported sidestep, not flight or exact plumage age. Presumed sex/size direction remains non-genetic. Exact hatchling details remain unknown. Fresh Mikkola upload unavailable.",
       "archived_at": "2026-11-12T14:43:00+08:00",
-      "archive_commit_pending": true,
-      "readback_pending": true,
-      "exact_readback": false,
+      "archive_commit_pending": false,
+      "readback_pending": false,
+      "exact_readback": true,
       "ledger_credited": false,
-      "updated_at": "2026-11-12T14:43:00+08:00"
+      "updated_at": "2026-11-12T14:47:00+08:00",
+      "archive_commit": "12ea53774979241a3a15880dbdbdb7b125d08cac",
+      "archive_tree": "6f1c140c7812607867377f294364b104d973c160",
+      "verified_at": "2026-11-12T14:47:00+08:00",
+      "verification_result": "PASS_WITH_LIMITATIONS",
+      "required_paths_verified": 24,
+      "exact_binary_paths_verified": 12,
+      "unique_binary_streams_tree_verified": 4,
+      "readback": {
+        "status": "VERIFIED",
+        "archive_commit": "12ea53774979241a3a15880dbdbdb7b125d08cac",
+        "tree_sha": "6f1c140c7812607867377f294364b104d973c160",
+        "tree_entries": 4616,
+        "tree_truncated": false,
+        "required_paths_verified": 24,
+        "exact_binary_paths_verified": 12,
+        "manifest_counts": {
+          "concepts": 829,
+          "image": 798,
+          "design": 807
+        },
+        "manifest_json_valid": true,
+        "manifest_exact_blob_readback": true,
+        "path_blob_readback": true,
+        "local_png_full_decode": true,
+        "remote_raw_image_opened": true,
+        "sha256_verified": true,
+        "unique_species": "176/251",
+        "scientifically_verified": false
+      },
+      "verification_commit_pending": true
     }
   ],
-  "updated_at": "2026-11-12T14:43:00+08:00"
+  "updated_at": "2026-11-12T14:47:00+08:00"
 }

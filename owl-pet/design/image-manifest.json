@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T04:42:00+08:00",
+  "updated": "2026-11-13T05:44:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -33318,7 +33318,96 @@
       "verification_tree": "713303a8a5af0d776f7e2a93e27e21e2dd726a34",
       "credited_at": "2026-11-13T04:51:00+08:00",
       "ledger_credited_at": "2026-11-13T04:51:00+08:00"
+    },
+    {
+      "id": "178-otus-insularis-v4",
+      "path": "design/concepts/178-otus-insularis-v4.png",
+      "species_id": 178,
+      "scientific_name": "Otus insularis",
+      "historical_names": [
+        "Gymnoscops insularis",
+        "Seychelles Scops-owl"
+      ],
+      "common_name": "Seychelles Scops Owl",
+      "version": 4,
+      "prior_versions_retained": [
+        1,
+        2,
+        3
+      ],
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "status": "v4 preserves v1-v3 and re-reads Currie et al. 2002 pp.16-18 and Currie et al. 2004 pp.126-130. Female is fuller rather than conspicuously taller; adult colour and eye are not sex-coded. The c.8-12-week recent fledgling uses the documented bright-yellow option without treating it as age-diagnostic, a compact soft wing/tail and full support. One edit removed adult-hard juvenile wing layering. PASS_WITH_LIMITATIONS; exact individual age, iris frequency/chronology, first-flight day, nest lining and reference-bird sex remain unknown; science=false.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "imagegen_invocations": 2,
+      "source_ids": [
+        "SSCO-CURRIE-2002-P16-18",
+        "SSCO-CURRIE-2004-P126-130",
+        "SSCO-COMMONS-BAKKER-2024-453454988",
+        "SSCO-BOW-2020-ADULT-PHOTOS",
+        "SSCO-MIKKOLA-2013-P138",
+        "SSCO-ITIS-202272-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/178-otus-insularis-v4.md",
+      "review_record": "research/reviews/178-otus-insularis-v4-review.md",
+      "run_record": "production/runs/20261113T045400+0800-cycle-5.md",
+      "reviewed_at": "2026-11-13T05:38:00+08:00",
+      "dimensions": "1536x1024",
+      "sha256": "6e08ae32fc524223ad2a1859a01f321c6eef68dfd33d20ed838064e25ff880af",
+      "size_bytes": 2824133,
+      "git_blob": "8053363c41b3b3a357fb35c160efac6f679c44a6",
+      "initial_generated_path": "production/generated/178-otus-insularis-v4-generated-master.png",
+      "initial_original_path": "production/generated/178-otus-insularis-v4-initial-original.png",
+      "initial_generated_blob": "9c2cd8e4ec9497684dedeb4c8065fe95ed81a52d",
+      "initial_generated_sha256": "3b1b8ea85ef8878025ab7673742d261d332585405db06b3847bde6ca79283a4a",
+      "initial_generated_size_bytes": 3087511,
+      "edited_path": "production/generated/178-otus-insularis-v4-edit1-original.png",
+      "edited_blob": "8053363c41b3b3a357fb35c160efac6f679c44a6",
+      "final_original_path": "production/generated/178-otus-insularis-v4-final-original.png",
+      "generated_path": "production/generated/178-otus-insularis-v4-full-color.png",
+      "generated_blob": "8053363c41b3b3a357fb35c160efac6f679c44a6",
+      "generated_sha256": "6e08ae32fc524223ad2a1859a01f321c6eef68dfd33d20ed838064e25ff880af",
+      "generated_size_bytes": 2824133,
+      "reviewed_path": "production/reviewed/178-otus-insularis-v4-reviewed-master.png",
+      "reviewed_blob": "8053363c41b3b3a357fb35c160efac6f679c44a6",
+      "reviewed_sha256": "6e08ae32fc524223ad2a1859a01f321c6eef68dfd33d20ed838064e25ff880af",
+      "reviewed_size_bytes": 2824133,
+      "review_crops": [
+        {
+          "role": "adult_male",
+          "path": "production/review-crops/178-otus-insularis-v4-adult-male.png",
+          "blob": "690f8fbaaf516961e1b3a5ffa1ad2370a590adf2",
+          "sha256": "d63dbdd729e8239602deb8006000b32f55f0a4066284f25c8288074edc817d23",
+          "size_bytes": 723293
+        },
+        {
+          "role": "adult_female",
+          "path": "production/review-crops/178-otus-insularis-v4-adult-female.png",
+          "blob": "64db1524611fcf6c13258a70be04b8d68aeeafc7",
+          "sha256": "9f7729a35a19792f4ba086904ffaba7f34f155bed70e0502c5a6be4e756e0e4f",
+          "size_bytes": 701947
+        },
+        {
+          "role": "recent_fledgling_c8_12_weeks",
+          "path": "production/review-crops/178-otus-insularis-v4-young.png",
+          "blob": "8005c8231d11a21eff2e3ff7e069c5185a72efa5",
+          "sha256": "8aaf26ad4ea6d01575f408f5f3b497cb3beb30a0abbd91528dbb27a67e8e94b4",
+          "size_bytes": 633356
+        }
+      ],
+      "archive_note": "V1-v3 preserved. Two primary sources re-read, four records reused, one inference corrected. Initial and edited plates plus three edited crops opened; one edit corrected juvenile wing maturity. PASS_WITH_LIMITATIONS; science=false.",
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false,
+      "ledger_credited": false,
+      "batch_id": "20261113T022000+0800",
+      "batch_cycle": 5
     }
   ],
-  "updated_at": "2026-11-13T04:42:00+08:00"
+  "updated_at": "2026-11-13T05:44:00+08:00"
 }

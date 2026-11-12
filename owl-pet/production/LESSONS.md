@@ -101,3 +101,11 @@ undefined
 - **Evidence:** Gosse's two downy immature observations show individual variation in immediate movement after disturbance but do not define a universal age or flight threshold; Mikkola and the retained photographic comparator support a down-remnant older juvenile.
 - **Applied rule:** distinguish wing development from action ability. A supported older juvenile may show a compact, soft, partly formed folded wing without being posed flying or assigned a precise flight capacity.
 - **Verification:** full plate plus male, juvenile and female crops passed this rule with no edit. This is verified for #142 v4 only; it is not a universal owl timetable.
+
+## 2026-11-12 — #143 *Asio solomonensis* v4: preserve the documented rescue support without turning it into a nest
+
+- **Observed risk:** a documented older young on a railing can be converted either into an unsupported forest chick or into an invented species-typical nest scene.
+- **Evidence:** Loyn & Debus directly support a lively, long-down older young on a rescue railing with emerging barred dorsal/wing feathers; Woxvold & Novera independently support adult occurrence in Bougainville lower-montane forest. Neither source establishes exact age, flight threshold or a universal nest structure.
+- **Applied change:** use a broad bilateral rail support inside lower-montane forest, label the bird OLDER YOUNG — AGE UNKNOWN, keep only a compact down-veiled barred wing patch, and state that the rail is an art translation of rescue support rather than a nest claim.
+- **Verified result:** the full plate and three focused crops pass support, stage and adult-identity checks without an edit. `PASS_WITH_LIMITATIONS`; science=false.
+- **Reusable rule:** preserve the evidentiary function of a human-made rescue support when it is the best direct stage record, but never promote it into a natural nest or universal life-history fact. Verified here only.

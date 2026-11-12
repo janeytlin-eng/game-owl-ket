@@ -4141,3 +4141,7 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` was read back after arch
 
 - Verification `10ace0d7177beb4477978dd48e6838e916557c16` and archive `3551810adc3f6c7f0af018cfec1c36dec60d65ff` read back.
 - Credited cycle 3/6 exactly once; next cycle 4. Coverage 176/251; revision +1; science=false; lease released.
+## 2026-11-12 — #140 v5 LEDGER_CREDITED — active batch 4/6
+
+Verification [`3cf5627127d928160fba9efd1792d8aa143413a8`](https://github.com/janeytlin-eng/game-owl-ket/commit/3cf5627127d928160fba9efd1792d8aa143413a8) was read back after archive [`5527f7c7c528e8659f65732be2eccf36bb1231b6`](https://github.com/janeytlin-eng/game-owl-ket/commit/5527f7c7c528e8659f65732be2eccf36bb1231b6). Cycle 4 credited once; lease released; next cycle 5. Unique coverage remains 176/251; revision +1; science=false.
+

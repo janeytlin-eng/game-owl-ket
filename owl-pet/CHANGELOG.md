@@ -1,3 +1,8 @@
+## 2026-11-13 — #174 v4 archive verified
+
+- Read back 18 required paths and all nine PNG path/blob/size tuples from remote main; final and initial SHA-256 values match the reviewed local originals.
+- Four manifests parse and contain exactly one #174 v4 record. Ledger credit remains pending; science=false.
+
 ## 2026-11-13 — #174 *Strix sartorii* v4 archived
 
 - Recovered five persistent image blobs after a transient tree-creation failure and attached nine immutable paths without regenerating.

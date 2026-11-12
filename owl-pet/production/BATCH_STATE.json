@@ -49510,16 +49510,16 @@
       "next_cycle": 1,
       "active_cycle": 1,
       "started_at": "2026-11-13T02:20:00+08:00",
-      "updated_at": "2026-11-13T02:30:00+08:00",
-      "current_stage": "ARCHIVED",
-      "stage": "ARCHIVED",
+      "updated_at": "2026-11-13T02:34:00+08:00",
+      "current_stage": "VERIFIED",
+      "stage": "VERIFIED",
       "completed_count": 0,
       "ledger_credit_pending": true,
       "lease": {
         "owner": "codex",
         "run_id": "20261113T022000+0800-cycle-1",
-        "heartbeat_at": "2026-11-13T02:30:00+08:00",
-        "expires_at": "2026-11-13T02:45:00+08:00"
+        "heartbeat_at": "2026-11-13T02:34:00+08:00",
+        "expires_at": "2026-11-13T02:49:00+08:00"
       },
       "active": {
         "cycle": 1,
@@ -49671,6 +49671,42 @@
             "ledger_credit_pending": true,
             "lease_expires_at": "2026-11-13T02:45:00+08:00"
           }
+        },
+        {
+          "batch_id": "20261113T022000+0800",
+          "cycle": 1,
+          "stage": "VERIFIED",
+          "at": "2026-11-13T02:34:00+08:00",
+          "run_id": "20261113T022000+0800-cycle-1",
+          "species_id": 174,
+          "species": "Strix sartorii",
+          "credited": false,
+          "evidence": {
+            "archive_commit": "7200c3528fc4a3f5d23b4b54fbdfa661a1f75c94",
+            "archive_tree": "bea0fa4031715f88ee2324f553f5cef1b0c803c6",
+            "required_paths_verified": 18,
+            "exact_binary_paths_verified": 9,
+            "unique_binary_streams_verified": 5,
+            "tree_entries": 4885,
+            "tree_truncated": false,
+            "concept_blob": "ccaccdb9b001ec26ce2dbd1999aeedaf2741797c",
+            "concept_bytes": 2722314,
+            "concept_sha256": "133db06e967915b91547e55e64466f0e51d8767200dd54ba1cdc9f2af4a97007",
+            "initial_blob": "37215b6359e9198cb6ad23c7fdcc2a72a42694b3",
+            "initial_bytes": 2981056,
+            "initial_sha256": "1aa349401f1f05a2ba44c05821f0faf15f8ea5dada4e8d875c0c68c78f97edb6",
+            "manifest_counts": {
+              "design_concepts": 855,
+              "design_image": 824,
+              "design_manifest": 833,
+              "production_image": 811
+            },
+            "remote_git_full_binary_stream_readback": true,
+            "connector_full_binary_stream_readback": false,
+            "scientifically_verified": false,
+            "ledger_credit_pending": true,
+            "lease_expires_at": "2026-11-13T02:49:00+08:00"
+          }
         }
       ]
     }
@@ -49678,8 +49714,8 @@
   "lease": {
     "owner": "codex",
     "run_id": "20261113T022000+0800-cycle-1",
-    "heartbeat_at": "2026-11-13T02:30:00+08:00",
-    "expires_at": "2026-11-13T02:45:00+08:00"
+    "heartbeat_at": "2026-11-13T02:34:00+08:00",
+    "expires_at": "2026-11-13T02:49:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -49814,7 +49850,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-13T02:30:00+08:00",
+  "updated_at": "2026-11-13T02:34:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -49827,8 +49863,8 @@
   "active_lease": {
     "owner": "codex",
     "run_id": "20261113T022000+0800-cycle-1",
-    "heartbeat_at": "2026-11-13T02:30:00+08:00",
-    "expires_at": "2026-11-13T02:45:00+08:00"
+    "heartbeat_at": "2026-11-13T02:34:00+08:00",
+    "expires_at": "2026-11-13T02:49:00+08:00"
   },
   "last_updated_at": "2026-11-13T02:15:00.000+08:00",
   "audit_notes": [
@@ -57148,7 +57184,7 @@
   ],
   "active_batch_id": "20261113T022000+0800",
   "active_cycle": 1,
-  "current_stage": "ARCHIVED",
+  "current_stage": "VERIFIED",
   "next_cycle": 1,
   "unique_species_count": 176,
   "total_species": 251,
@@ -75487,7 +75523,7 @@
     }
   ],
   "updated": "2026-11-13T01:11:00.000+08:00",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "stage_evidence": {
     "archive_commit": "e901aa6a1e103246270aed728c5564060399faf9",
     "verification_commit": "e2e294b83867b1243fffde8e97002d903b41f9a5",
@@ -76671,7 +76707,7 @@
       }
     }
   ],
-  "last_archive_commit": "d30dcc5d5378f2329df32282dfbbaa66f2a501a6",
+  "last_archive_commit": "7200c3528fc4a3f5d23b4b54fbdfa661a1f75c94",
   "active": null,
   "phase_events": [
     {

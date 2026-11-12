@@ -1,3 +1,7 @@
+## 2026-11-13 — #174 *Strix sartorii* v4 immutable archive VERIFIED; ledger credit pending
+
+Archive [`7200c352`](https://github.com/janeytlin-eng/game-owl-ket/commit/7200c3528fc4a3f5d23b4b54fbdfa661a1f75c94) / tree `bea0fa4031715f88ee2324f553f5cef1b0c803c6` passed remote readback: 18 required paths, nine exact PNG blob/byte checks, five unique full streams, final 1536×1024 decode, and four manifests 855/824/833/811 with one v4 record each. PASS_WITH_LIMITATIONS; science=false; ledger credit pending.
+
 ## 2026-11-13 — #174 *Strix sartorii* v4 ARCHIVED; verification pending
 
 V4 preserves v1–v3, reuses the reviewed edited image, and records a direct flight-capable fledgling without inventing exact age or first-flight timing. One targeted edit softened adult facial target-rings and adult-like juvenile wing rows. All nine image paths and four manifest entries are staged; immutable readback and ledger credit are pending. Unique coverage remains 176/251; science=false.

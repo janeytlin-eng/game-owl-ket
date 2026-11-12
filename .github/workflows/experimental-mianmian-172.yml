@@ -7,6 +7,7 @@ on:
       - .github/workflows/experimental-mianmian-172.yml
       - owl-pet/3d-experiments/172-tyto-castanops/run07/extract_reference.py
       - owl-pet/3d-experiments/172-tyto-castanops/run07/test_rembg_matte.py
+      - owl-pet/3d-experiments/172-tyto-castanops/run07/hybridize_matte.py
   workflow_dispatch:
 permissions:
   contents: write
@@ -47,6 +48,12 @@ jobs:
           python owl-pet/3d-experiments/172-tyto-castanops/run07/test_rembg_matte.py \
             --output-dir owl-pet/3d-experiments/172-tyto-castanops/run07/output \
             | tee owl-pet/3d-experiments/172-tyto-castanops/run07/rembg_stdout.json
+      - name: Compare hybrid head-preserving matte with cleaner feet
+        continue-on-error: true
+        run: |
+          python owl-pet/3d-experiments/172-tyto-castanops/run07/hybridize_matte.py \
+            --output-dir owl-pet/3d-experiments/172-tyto-castanops/run07/output \
+            | tee owl-pet/3d-experiments/172-tyto-castanops/run07/hybrid_stdout.json
       - name: Retain rejected/unchecked reference products in action artifact
         if: always()
         uses: actions/upload-artifact@v4
@@ -56,6 +63,7 @@ jobs:
             owl-pet/3d-experiments/172-tyto-castanops/run07/output/
             owl-pet/3d-experiments/172-tyto-castanops/run07/last_run_stdout.json
             owl-pet/3d-experiments/172-tyto-castanops/run07/rembg_stdout.json
+            owl-pet/3d-experiments/172-tyto-castanops/run07/hybrid_stdout.json
           if-no-files-found: warn
           retention-days: 30
       - name: Commit QA outputs on isolated branch only
@@ -66,10 +74,13 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add owl-pet/3d-experiments/172-tyto-castanops/run07/output \
                   owl-pet/3d-experiments/172-tyto-castanops/run07/last_run_stdout.json \
-                  owl-pet/3d-experiments/172-tyto-castanops/run07/rembg_stdout.json
+                  owl-pet/3d-experiments/172-tyto-castanops/run07/rembg_stdout.json \
+                  owl-pet/3d-experiments/172-tyto-castanops/run07/hybrid_stdout.json
           if git diff --cached --quiet; then
             echo "Reference outputs unchanged."
           else
             git commit -m "experiments(#172): archive unapproved source-driven chick extraction and QA"
+            git fetch origin experiments/mianmian-172-reference-qa
+            git rebase origin/experiments/mianmian-172-reference-qa
             git push origin HEAD:experiments/mianmian-172-reference-qa
           fi

@@ -13,7 +13,10 @@ for(const setting of [
  {name:'desktop_1280x720',viewport:{width:1280,height:720},isMobile:false},
  {name:'emulated_phone_390x844',...devices['iPhone 13'],viewport:{width:390,height:844}}
 ]){
- const ctx=await browser.newContext(setting.isMobile?{...setting}:{viewport:setting.viewport});
+ const ctx=await browser.newContext(setting.isMobile?{
+  viewport:setting.viewport,isMobile:true,hasTouch:true,deviceScaleFactor:2,
+  userAgent:devices['iPhone 13'].userAgent
+ }:{viewport:setting.viewport});
  const page=await ctx.newPage();
  const errors=[];
  page.on('pageerror',e=>errors.push(String(e)));
@@ -21,7 +24,7 @@ for(const setting of [
  let state;
  try{
    await page.goto(address,{waitUntil:'networkidle',timeout:55000});
-   await page.waitForFunction(()=>window.__qa?.loaded||window.__qa?.errors?.length>0,{timeout:55000});
+   await page.waitForFunction(()=>window.__qa?.loaded||window.__qa?.errors?.length>0,null,{timeout:55000});
    await page.waitForTimeout(1200);
    const before=await page.evaluate(()=>structuredClone(window.__qa));
    await page.mouse.move(setting.viewport.width*.35,setting.viewport.height*.45);

@@ -1,3 +1,16 @@
+## GNOMA-DESHLER-2021-NESTING
+- **Title:** Northern Pygmy-Owl (*Glaucidium gnoma*) nesting ecology in northwestern Oregon
+- **Author / year / type:** John F. Deshler; 2021; peer-reviewed field study
+- **Stable source:** DOI 10.1676/1559-4491-132.2.352; *Wilson Journal of Ornithology* 132(2):352–365; abstract also in 2021 Raptor Research Foundation program
+- **URL:** https://doi.org/10.1676/1559-4491-132.2.352
+- **Accessed:** 2026-11-12
+- **Species / stage:** historical broad-name *Glaucidium gnoma*; Oregon breeding attempts, nest cavities and nestling period
+- **Actually read / useful facts:** Abstract reports 71 breeding attempts, 66 nest cavities, mean nestling period 26.4 ± 1.2 d and disproportionate conifer use.
+- **Page / section:** article pp.352–365; abstract
+- **Limits / confidence:** High confidence for the Oregon sample; current Mountain Pygmy Owl split applicability unresolved. Does not support importing exact v4 juvenile age, flight ability, redcedar preference or universal nest geometry.
+- **Design use:** taxonomic caution; age-unknown, cavity-supported non-flying mesoptile; modest illustrative cavity only.
+- **Linked record:** [#163 v4](species/163-glaucidium-gnoma-v4.md); image target `design/concepts/163-glaucidium-gnoma-v4.png`.
+
 
 
 ## 2026-11-12 — #162 *Glaucidium hoskinsii* v3 — nape false-eye and near-fledged wing boundary

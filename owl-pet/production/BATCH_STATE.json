@@ -47023,16 +47023,16 @@
       "next_cycle": 2,
       "active_cycle": 2,
       "started_at": "2026-11-12T21:36:00+08:00",
-      "updated_at": "2026-11-12T22:05:00+08:00",
-      "current_stage": "STARTED",
-      "stage": "STARTED",
+      "updated_at": "2026-11-12T22:08:00+08:00",
+      "current_stage": "RESEARCH_READY",
+      "stage": "RESEARCH_READY",
       "completed_count": 1,
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex-work-mode",
         "run_id": "20261112T220500+0800-cycle-2",
-        "heartbeat_at": "2026-11-12T22:05:00+08:00",
-        "expires_at": "2026-11-12T22:20:00+08:00"
+        "heartbeat_at": "2026-11-12T22:08:00+08:00",
+        "expires_at": "2026-11-12T22:23:00+08:00"
       },
       "active": {
         "cycle": 2,
@@ -47241,6 +47241,29 @@
             "lease_expires_at": "2026-11-12T22:20:00+08:00",
             "scientifically_verified": false
           }
+        },
+        {
+          "batch_id": "20261112T213600+0800",
+          "cycle": 2,
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-12T22:08:00+08:00",
+          "run_id": "20261112T220500+0800-cycle-2",
+          "species_id": 163,
+          "species": "Glaucidium gnoma",
+          "credited": false,
+          "evidence": {
+            "research_record": "owl-pet/research/species/163-glaucidium-gnoma-v4.md",
+            "source_index": "owl-pet/research/SOURCE_INDEX.md",
+            "new_verified_sources": 1,
+            "reused_or_reread_sources": 4,
+            "unverified_leads": 2,
+            "corrected_inferences": 3,
+            "complete_prompt_saved": true,
+            "design_boundary": "near-equal adults; one adult partly turned to expose true nape false-eye patches; age-unknown cavity-supported gray mesoptile with unspotted crown, short soft wing/tail and no flight claim; old broad-name Oregon studies retained only as taxonomically limited context",
+            "mikkola_access": "uploaded guide not mounted; repository page-verified printed p.375/PDF p.377 reused only",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-12T22:23:00+08:00"
+          }
         }
       ]
     }
@@ -47248,8 +47271,8 @@
   "lease": {
     "owner": "codex-work-mode",
     "run_id": "20261112T220500+0800-cycle-2",
-    "heartbeat_at": "2026-11-12T22:05:00+08:00",
-    "expires_at": "2026-11-12T22:20:00+08:00"
+    "heartbeat_at": "2026-11-12T22:08:00+08:00",
+    "expires_at": "2026-11-12T22:23:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",

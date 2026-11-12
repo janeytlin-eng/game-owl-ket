@@ -4345,3 +4345,8 @@ Verification [`9bbf4e41`](https://github.com/janeytlin-eng/game-owl-ket/commit/9
 ## 2026-11-13 — #175 v4 archive verified
 
 Archive [`8646aecf`](https://github.com/janeytlin-eng/game-owl-ket/commit/8646aecf5770ea53ae1379b4b7aea84372f07d44) and its untruncated 4,971-entry tree were re-read. All 20 required paths, 9 binary aliases and 5 unique binary streams matched expected blobs and sizes. Verification is **PASS_WITH_LIMITATIONS**; science=false. Ledger credit is pending.
+
+
+## 2026-11-13 — #175 v4 LEDGER_CREDITED — batch 2/6
+
+Verification [`9fd418fb`](https://github.com/janeytlin-eng/game-owl-ket/commit/9fd418fbcdd5caeba26790807ce01c4aa5d1dddc) was re-read after archive [`8646aecf`](https://github.com/janeytlin-eng/game-owl-ket/commit/8646aecf5770ea53ae1379b4b7aea84372f07d44). Cycle 2 credited once; batch `20261113T022000+0800` is now **2/6**, next cycle 3, lease released. Unique coverage remains **176/251**; revision +1; science=false.

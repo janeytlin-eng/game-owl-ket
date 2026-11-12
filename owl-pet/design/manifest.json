@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T16:51:35.250Z",
+  "updated": "2026-11-13T00:52:42.459+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -33360,13 +33360,20 @@
         }
       ],
       "archive_note": "V1-v3 preserved. Two new verified sources, four reread/reused; full plate and three role crops opened. Edit1 removed unsupported adult-hard juvenile spotting. Mikkola upload not mounted. PASS_WITH_LIMITATIONS; science=false. Archive repair: stripped application/octet-stream data URL prefix after exact-size readback detected +24/+25-byte corruption.",
-      "archive_commit_pending": true,
-      "readback_pending": true,
-      "exact_readback": false,
+      "archive_commit_pending": false,
+      "readback_pending": false,
+      "exact_readback": true,
       "ledger_credited": false,
       "batch_id": "20261112T234106+0800",
-      "batch_cycle": 3
+      "batch_cycle": 3,
+      "archive_commit": "3b4d20ecd5bbdeff2ee23197beefe0a05d27c4c7",
+      "archive_tree": "bc2910234488de131ac737e3ca5f4ec9d2fbb995",
+      "required_paths_verified": 17,
+      "exact_binary_paths_verified": 9,
+      "unique_binary_streams_verified": 5,
+      "verified_at": "2026-11-13T00:52:42.459+08:00",
+      "verification_commit_pending": true
     }
   ],
-  "updated_at": "2026-11-12T16:51:35.250Z"
+  "updated_at": "2026-11-13T00:52:42.459+08:00"
 }

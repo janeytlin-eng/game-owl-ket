@@ -1,0 +1,92 @@
+name: "Owl #172 CC0 reference groom and browser GLB QA (isolated)"
+on:
+  push:
+    paths:
+      - "owl-pet/3d-experiments/172-tyto-castanops/run11-trigger.txt"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: owl-pet-172-run11-groom-qa
+  cancel-in-progress: false
+
+jobs:
+  real-mesh-alpha-groom-and-browser:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Free open-source toolchain
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq blender python3-numpy python3-venv
+          python3 -m venv /tmp/owl172venv
+          /tmp/owl172venv/bin/pip install -q --disable-pip-version-check numpy trimesh pillow
+          blender --version | head -2
+      - name: Obtain exact previously validated public CC0 adult base
+        run: |
+          set -euo pipefail
+          mkdir -p qa-out
+          curl -fLSs --retry 2 --connect-timeout 15 --max-time 180 \
+            "https://files.innerscene.com/library/owl-d696472a/8ecea479b865c7141318/owl.glb" \
+            -o qa-out/source_CC0_ADULT_ONLY.glb
+          sha256sum qa-out/source_CC0_ADULT_ONLY.glb | tee qa-out/source_sha256.txt
+          /tmp/owl172venv/bin/python - <<'PY'
+          import hashlib
+          p='qa-out/source_CC0_ADULT_ONLY.glb'
+          expected='c11c94db20065c6c6f252e768e8c748f22dc69ef9b4e7199110b96de0625c12e'
+          assert hashlib.sha256(open(p,'rb').read()).hexdigest()==expected, 'Upstream asset changed; review provenance'
+          PY
+      - name: Actual CC0 mesh refit and two 3D microdown groom variants
+        run: |
+          set -euo pipefail
+          D=owl-pet/3d-experiments/172-tyto-castanops/tools
+          PY=/tmp/owl172venv/bin/python
+          "$PY" "$D/optimize_glb_textures.py" qa-out/source_CC0_ADULT_ONLY.glb qa-out/adult_optimized_REFERENCE_ONLY.glb 512 > qa-out/optimization.json
+          "$PY" "$D/refit_owl_juvenile_anatomy_experiment.py" qa-out/adult_optimized_REFERENCE_ONLY.glb qa-out/v24_refit_UNAPPROVED.glb > qa-out/refit.txt
+          "$PY" "$D/recolor_reference_trial.py" qa-out/v24_refit_UNAPPROVED.glb qa-out/v25_recolored_UNAPPROVED.glb > qa-out/recolor.txt
+          "$PY" "$D/soft_down_groom_trial.py" qa-out/v24_refit_UNAPPROVED.glb qa-out/v26_sparse_MASK_groom_UNAPPROVED.glb --count 5000 --mode MASK --stats qa-out/v26_stats.json
+          "$PY" "$D/soft_down_groom_trial.py" qa-out/v25_recolored_UNAPPROVED.glb qa-out/v27_pale_BLENDED_groom_UNAPPROVED.glb --count 11000 --mode BLEND --stats qa-out/v27_stats.json
+          "$PY" "$D/audit_glb_mobile.py" qa-out/v26_sparse_MASK_groom_UNAPPROVED.glb qa-out/v26_preflight.json || true
+          "$PY" "$D/audit_glb_mobile.py" qa-out/v27_pale_BLENDED_groom_UNAPPROVED.glb qa-out/v27_preflight.json || true
+          sha256sum qa-out/*.glb > qa-out/glb_sha256.txt
+      - name: Four actual Blender views for EACH unapproved candidate
+        run: |
+          set -euo pipefail
+          D=owl-pet/3d-experiments/172-tyto-castanops/tools
+          mkdir -p qa-out/v26_views qa-out/v27_views
+          blender -b --factory-startup --python "$D/inspect_cc0_blender.py" -- \
+            qa-out/v26_sparse_MASK_groom_UNAPPROVED.glb qa-out/v26_views \
+            > qa-out/v26_blender.log 2>&1
+          blender -b --factory-startup --python "$D/inspect_cc0_blender.py" -- \
+            qa-out/v27_pale_BLENDED_groom_UNAPPROVED.glb qa-out/v27_views \
+            > qa-out/v27_blender.log 2>&1
+          for v in v26 v27; do for view in front threequarter side rear; do test -s qa-out/"${v}_views"/"${view}".png; done; done
+      - name: Real Chromium GPU-software WebGL desktop/mobile-emulation GLB viewer QA
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/owl172web
+          cp qa-out/v26_sparse_MASK_groom_UNAPPROVED.glb /tmp/owl172web/candidate.glb
+          D=owl-pet/3d-experiments/172-tyto-castanops/tools
+          cp "$D/viewer_qa_index.html" /tmp/owl172web/index.html
+          cp "$D/viewer_qa_main.js" /tmp/owl172web/main.js
+          cp "$D/mobile_webgl_smoke.mjs" /tmp/owl172web/mobile_webgl_smoke.mjs
+          cd /tmp/owl172web
+          npm init -y >/dev/null
+          npm install --no-save --silent three@0.181 vite@7.2 playwright@1.56
+          npx playwright install chromium
+          npx vite --host 127.0.0.1 --port 4173 > "$GITHUB_WORKSPACE/qa-out/webserver.log" 2>&1 &
+          sleep 5
+          node mobile_webgl_smoke.mjs "$GITHUB_WORKSPACE/qa-out/browser" \
+            > "$GITHUB_WORKSPACE/qa-out/browser_result.log" 2>&1
+      - name: Always preserve UNAPPROVED evidence; never promote to production
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run11-REJECTABLE-REAL-MESH-GROOM-BROWSER-QA
+          path: qa-out/
+          if-no-files-found: warn
+          retention-days: 14

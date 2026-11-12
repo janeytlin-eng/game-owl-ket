@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T15:20:00+08:00",
+  "updated": "2026-11-12T15:48:26.962+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -30585,7 +30585,101 @@
       "verification_commit": "f9002d96d6f76c2f8856ae228b8458b920e76590",
       "verification_tree": "fd25dd21ac8f73c69962ea8dc8a0cc59825bda8a",
       "ledger_credited_at": "2026-11-12T15:20:00+08:00"
+    },
+    {
+      "id": "150-ninox-variegata-v4",
+      "path": "design/concepts/150-ninox-variegata-v4.png",
+      "species_id": 150,
+      "scientific_name": "Ninox variegata",
+      "historical_names": [
+        "Noctua variegata",
+        "Bismarck Boobook",
+        "Bismarck Hawk-Owl",
+        "Barred Boobook",
+        "Ninox solomonis"
+      ],
+      "common_name": "New Ireland Boobook",
+      "scope": "Humid New Ireland forest concept; near-equal earless dark-rufous adults with barred scapulars/underparts and variable short-tail marks; female rear-three-quarter pose exposes tail bars; open-eyed dark-irised down-softened fully supported age-unknown older juvenile with no flight, exact chronology or nest claim",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3
+      ],
+      "prior_versions_retained": true,
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 0,
+      "imagegen_invocations": 1,
+      "status": "ARCHIVED_READBACK_PENDING",
+      "source_ids": [
+        "NIBO-VOISIN-2011-TYPES",
+        "NIBO-MNHN-2010-278-2026",
+        "NIBO-AVIBASE-2026",
+        "NIBO-ITIS-555490",
+        "NIBO-MV-Z44652-2026",
+        "NIBO-OISEAUX-MOUNT-BONGMUT-2014",
+        "NIBO-JARDINE-1848-53-LEAD"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/150-ninox-variegata-v4.md",
+      "review_record": "research/reviews/150-ninox-variegata-v4-review.md",
+      "run_record": "production/runs/20261112T153846+0800-cycle-1.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2761669,
+      "sha256": "68e5647e8c8ffd1e0d3562a70fde41f5fe1945f912b91cd2b4a8136e3cbd4ba1",
+      "git_blob": "ff1c0553311360331d5f3010186a91599638027c",
+      "initial_original_path": "production/generated/150-ninox-variegata-v4-initial-original.png",
+      "initial_original_blob": "ff1c0553311360331d5f3010186a91599638027c",
+      "initial_original_size_bytes": 2761669,
+      "initial_original_sha256": "68e5647e8c8ffd1e0d3562a70fde41f5fe1945f912b91cd2b4a8136e3cbd4ba1",
+      "final_original_path": "production/generated/150-ninox-variegata-v4-final-original.png",
+      "final_original_blob": "ff1c0553311360331d5f3010186a91599638027c",
+      "final_original_size_bytes": 2761669,
+      "final_original_sha256": "68e5647e8c8ffd1e0d3562a70fde41f5fe1945f912b91cd2b4a8136e3cbd4ba1",
+      "generated_path": "production/generated/150-ninox-variegata-v4-generated-master.png",
+      "generated_blob": "ff1c0553311360331d5f3010186a91599638027c",
+      "generated_size_bytes": 2761669,
+      "full_color_source_path": "production/generated/150-ninox-variegata-v4-full-color.png",
+      "full_color_source_blob": "ff1c0553311360331d5f3010186a91599638027c",
+      "full_color_source_size_bytes": 2761669,
+      "reviewed_path": "production/reviewed/150-ninox-variegata-v4-reviewed-master.png",
+      "reviewed_blob": "ff1c0553311360331d5f3010186a91599638027c",
+      "reviewed_size_bytes": 2761669,
+      "review_crops": [
+        {
+          "path": "production/review-crops/150-ninox-variegata-v4-adult-male.png",
+          "blob": "1a7ca8352aca9f80c6ad439487b1a07a66ad7826",
+          "size_bytes": 695703,
+          "sha256": "83f149512e6b83099c9071ee3830be0a6fd42c8bcde4201d2f429d5568977b47"
+        },
+        {
+          "path": "production/review-crops/150-ninox-variegata-v4-older-juvenile.png",
+          "blob": "bec6fc887928b38b766105ce6bc946c3bb2af483",
+          "size_bytes": 597217,
+          "sha256": "08ddde3acfd2130535e48919987ce103dc36eb0cd6506143a4c8db6f33cebcc2"
+        },
+        {
+          "path": "production/review-crops/150-ninox-variegata-v4-adult-female.png",
+          "blob": "2e5bf5f3a15b5d689d6e9310bdec012cf5631c86",
+          "size_bytes": 630190,
+          "sha256": "e5981bc8e03286433fa3e042f082f87f4a7c0116e9b35ffc6f6f5573429d9e00"
+        }
+      ],
+      "archive_note": "V1-v3 retained. Two new sources were read: a Museums Victoria New Ireland specimen with sex unknown and a locality-tagged adult photograph. V3 closed eyes were corrected as a presentation choice, not a developmental fact. Full plate and three crops opened; no edit required. Sex direction, exact juvenile chronology and nest evidence remain unknown. Fresh Mikkola upload unavailable.",
+      "archived_at": "2026-11-12T15:48:26.962+08:00",
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false,
+      "ledger_credited": false,
+      "updated_at": "2026-11-12T15:48:26.962+08:00"
     }
   ],
-  "updated_at": "2026-11-12T15:20:00+08:00"
+  "updated_at": "2026-11-12T15:48:26.962+08:00"
 }

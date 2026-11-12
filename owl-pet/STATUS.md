@@ -4226,3 +4226,8 @@ Verification [`b5b701b5292200a8aedab6551c79892714fac04c`](https://github.com/jan
 - Unique species remains **176/251**; this is a science revision.
 - Exact juvenile development, specimen sexing method and population-wide size direction remain unknown.
 - Canonical concept: `design/concepts/149-ninox-odiosa-v4.png`.
+
+
+## 2026-11-12 — #150 *Ninox variegata* v4 archived; verification pending
+
+V1–v3 preserved. Two new sources were read; full plate and three role crops were opened. V4 corrects the unsupported implication that closed eyes were developmental evidence, while retaining near-equal adults and an age-unknown fully supported juvenile. No edit was required. Result `PASS_WITH_LIMITATIONS`; science=false; unique coverage remains 176/251; canonical concept: `design/concepts/150-ninox-variegata-v4.png`.

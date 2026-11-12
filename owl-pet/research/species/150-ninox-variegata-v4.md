@@ -44,3 +44,9 @@ Soft-focus humid New Ireland forest with epiphytes and vines; one continuous nat
 - Juvenile age label explicit; open eyes dark/non-diagnostic; down-softened, short mostly hidden wing, concealed tail, two-foot support; no flight or nest claim.
 - All feet anatomically plausible and supported; no extra limbs/fused toes.
 - Scientific verification remains false until sex-linked and developmental evidence exists.
+
+## Actual generation and review — 2026-11-12T15:48:26.962+08:00
+
+One ImageGen invocation produced a 1536×1024 plate. The full plate and independent adult-male, older-juvenile and adult-female crops were opened. Exact title/name/count/labels passed. Adults are near equal, earless and compact; the female rear-three-quarter view exposes short-tail bars. The juvenile is open-eyed with dark non-diagnostic irides, down-softened wing/body, concealed tail and two-foot support. No edit was required. Result **PASS_WITH_LIMITATIONS**; science remains false.
+
+Binary evidence: final/original 2,761,669 bytes, SHA-256 `68e5647e8c8ffd1e0d3562a70fde41f5fe1945f912b91cd2b4a8136e3cbd4ba1`, blob `ff1c0553311360331d5f3010186a91599638027c`; crop blobs `1a7ca8352aca9f80c6ad439487b1a07a66ad7826`, `bec6fc887928b38b766105ce6bc946c3bb2af483`, `2e5bf5f3a15b5d689d6e9310bdec012cf5631c86`.

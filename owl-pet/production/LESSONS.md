@@ -139,3 +139,11 @@ undefined
 - **Evidence:** Gurney’s 1882 table gives both male wings as 7.40 in and the female as 7.60 in; tarsus/toe values overlap and no mass is reported.
 - **Applied change:** female is only subtly longer/larger in linear silhouette (~3%), with no invented plumage difference or bulk.
 - **Verified effect:** full plate and sex-specific crops show a visible but restrained direction. This rule is verified for #149 v4 only and must not be generalized.
+
+
+## 2026-11-12 — Eye state is not a developmental marker unless observed
+
+- **Problem:** repeated closed-eye juvenile poses can silently turn a presentation choice into an apparent stage claim.
+- **Evidence:** #150 *Ninox variegata* had no species-specific juvenile eye-state or iris chronology; the v3 closed-eye pose was not source-backed.
+- **Applied change:** v4 uses open but dark/non-diagnostic eyes, keeps the bird fully supported and explicitly age unknown, and makes no flight/nest claim.
+- **Validation:** full plate and three role crops passed; no adult-like juvenile wing/tail or support defect was observed. This rule is validated for #150 v4 only and should be checked case by case.

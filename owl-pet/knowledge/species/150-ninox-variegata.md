@@ -26,3 +26,14 @@ The first generated juvenile carried adult-like long layered remiges. It was rej
 - v2 keeps adults near equal because no sex-size direction was found, uses subdued amber-yellow within the documented brown/yellow iris variability, and preserves the barred rather than fine-spangled adult pattern direction.
 - First v2 master again produced an adult-like long, white-spotted juvenile wing. One targeted edit removed the crisp spots, shortened/rounded the wing, softened its edge into body down and concealed the tail. Full image and two crops were opened; result `PASS_WITH_LIMITATIONS`, `scientifically_verified=false`.
 - v1 is preserved. Its current remote blob is 786,445 bytes and decodes, but its SHA/size differ from the earlier manifest claim; this is an archive-integrity mismatch, not evidence for overwriting the historical file.
+
+
+## v4 science revision — 2026-11-12
+
+- Image: [150-ninox-variegata-v4.png](../../design/concepts/150-ninox-variegata-v4.png)
+- Research: [150-ninox-variegata-v4.md](../../research/species/150-ninox-variegata-v4.md)
+- Review: [150-ninox-variegata-v4-review.md](../../research/reviews/150-ninox-variegata-v4-review.md)
+- Run: [20261112T153846+0800-cycle-1.md](../../production/runs/20261112T153846+0800-cycle-1.md)
+- New evidence: Museums Victoria Z44652 from Weitin, New Ireland (sex unknown) and a locality-tagged 2014 Mount Bongmut adult photograph page. They support provenance/adult comparison but not dimorphism or juvenile chronology.
+- V3's closed-eye juvenile pose was not an observed developmental fact. V4 uses an open-eyed, dark/non-diagnostic, fully supported age-unknown older juvenile; no flight or nest claim.
+- Full plate and three role crops opened; no edit required; result `PASS_WITH_LIMITATIONS`, `scientifically_verified=false`.

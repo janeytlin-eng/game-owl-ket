@@ -44000,14 +44000,14 @@
       "next_cycle": 6,
       "active_cycle": 6,
       "started_at": "2026-11-12T11:35:00+08:00",
-      "updated_at": "2026-11-12T15:01:00+08:00",
-      "current_stage": "RESEARCH_READY",
+      "updated_at": "2026-11-12T15:05:00+08:00",
+      "current_stage": "IMAGE_GENERATED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex",
         "run_id": "20261112T145500+0800-cycle-6",
-        "heartbeat_at": "2026-11-12T15:01:00+08:00",
-        "expires_at": "2026-11-12T15:16:00+08:00"
+        "heartbeat_at": "2026-11-12T15:05:00+08:00",
+        "expires_at": "2026-11-12T15:20:00+08:00"
       },
       "active": {
         "cycle": 6,
@@ -44017,7 +44017,7 @@
         "action": "SCIENCE_REVISION",
         "run_record": "owl-pet/production/runs/20261112T145500+0800-cycle-6.md"
       },
-      "stage": "RESEARCH_READY",
+      "stage": "IMAGE_GENERATED",
       "completed_count": 5,
       "stage_events": [
         {
@@ -45084,6 +45084,28 @@
             "mikkola_access": "upload unavailable; no fresh-page claim",
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-12T15:16:00+08:00"
+          }
+        },
+        {
+          "batch_id": "20261112T113500+0800",
+          "cycle": 6,
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-12T15:05:00+08:00",
+          "run_id": "20261112T145500+0800-cycle-6",
+          "species_id": 149,
+          "species": "Ninox odiosa",
+          "credited": false,
+          "evidence": {
+            "initial_original": "owl-pet/production/generated/149-ninox-odiosa-v4-initial-original.png",
+            "initial_blob": "da432a0a0f2ab10ac9a0424fe1491235e68b70c6",
+            "initial_bytes": 2929457,
+            "sha256": "a84a4121ceb710a44c063da773e111a261996cf3e17c3b654ccd5227129df2ef",
+            "dimensions": "1536x1024",
+            "generation_seconds": 54.1,
+            "actual_full_plate_view": true,
+            "preliminary_inspection": "exact three birds and labels; juvenile closed-eyed/down-dominant with two-foot support; adult female visibly but not massively larger; detailed crop review pending",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-12T15:20:00+08:00"
           }
         }
       ],
@@ -59163,6 +59185,28 @@
         "mikkola_access": "upload unavailable; no fresh-page claim",
         "scientifically_verified": false,
         "lease_expires_at": "2026-11-12T15:16:00+08:00"
+      }
+    },
+    {
+      "batch_id": "20261112T113500+0800",
+      "cycle": 6,
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-12T15:05:00+08:00",
+      "run_id": "20261112T145500+0800-cycle-6",
+      "species_id": 149,
+      "species": "Ninox odiosa",
+      "credited": false,
+      "evidence": {
+        "initial_original": "owl-pet/production/generated/149-ninox-odiosa-v4-initial-original.png",
+        "initial_blob": "da432a0a0f2ab10ac9a0424fe1491235e68b70c6",
+        "initial_bytes": 2929457,
+        "sha256": "a84a4121ceb710a44c063da773e111a261996cf3e17c3b654ccd5227129df2ef",
+        "dimensions": "1536x1024",
+        "generation_seconds": 54.1,
+        "actual_full_plate_view": true,
+        "preliminary_inspection": "exact three birds and labels; juvenile closed-eyed/down-dominant with two-foot support; adult female visibly but not massively larger; detailed crop review pending",
+        "scientifically_verified": false,
+        "lease_expires_at": "2026-11-12T15:20:00+08:00"
       }
     }
   ],

@@ -36,3 +36,12 @@ The group shows near-equal adult sexes because no reliable sex-specific size or 
 - Targeted edit shortened/rounded the folded wing, softened adult-like layers and reduced the tail while retaining a mobile older immature, orange-toned eye, yellowish feet and two-foot branch grip.
 - Exact age, continuous feather sequence, flight ability and quantified sex difference remain unknown; scientifically_verified=false.
 - Final SHA-256: `5ad8351831dcc2f9c7b7c4168efb292f9e980997c3d073a3c68470cf7a38223a`.
+
+
+## v4 original-description and mobile-immature calibration — 2026-11-12
+
+- The 1889 original description was actually read at printed pp.34–35, upgrading the prior unverified locator. It anchors the rufous body, pearly-gray/white-and-black head details, barred wing/tail, pale shaft-streaked underparts and yellow iris/bill/toes.
+- Adults remain near equal because no reliable sex-size direction or dichromatism evidence was found.
+- ML531449801 supports a mobile older immature with retained white facial feathers, brief flight and perching. V4 preserves this stage and uses one edit to shorten/soften an initially adult-like wing and tail.
+- Full plate plus adult-male, older-immature and adult-female crops were actually opened. PASS_WITH_LIMITATIONS; science=false.
+- Unknown: exact age, earliest down sequence, nest architecture, quantified flight capacity and sex-size/plumage direction.

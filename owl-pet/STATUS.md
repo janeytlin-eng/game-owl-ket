@@ -4269,3 +4269,11 @@ Verification [`f0475f2292574e628c191c59576c83b37f90c6a7`](https://github.com/jan
 - #152 v4 archive readback: commit `3ef0ef2b9526f7c6c921f3855daad08b0507304e`, tree `8193dccf0ce6504423e509ee11a883a32a9299c6`, 4668 non-truncated entries; 9 exact binary paths and all required text paths passed; manifest counts 833 / 802 / 811 with one exact v4 entry each. Ledger credit pending.
 
 - #152 cycle 3 ledger credited at 2026-11-12T16:53:54.655+08:00: verification commit `efbb9c31a3abe5db364adcd9de75b0517e3e9aa0`; batch progress **3/6**; next cycle 4. Unique species remains **176/251**; revision +1.
+
+
+## 2026-11-12 cycle 4/6 — #153 Maned Owl v4 archived
+
+- `Jubula lettii` v4: SCIENCE_REVISION; unique species remains **176/251**; revision +1.
+- The 1889 original description (printed pp.34–35) is now actually read and upgrades the old unverified locator. Adults use near-equal scale; no female-larger rule is asserted.
+- Macaulay ML531449801 supports a white-faced mobile older immature that flew briefly and perched. One edit shortened/softened its adult-like wing and tail; full plate and three crops passed review.
+- **PASS_WITH_LIMITATIONS**, scientifically_verified=false. Exact age, earliest down sequence, nest architecture, quantified flight and sex-size direction remain unknown. Archive verification and ledger credit are pending.

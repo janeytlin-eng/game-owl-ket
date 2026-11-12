@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12",
+  "updated": "2026-11-12T17:43:04+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -33697,7 +33697,94 @@
       "ledger_credited_at": "2026-11-12T16:53:54.655+08:00",
       "verification_commit": "efbb9c31a3abe5db364adcd9de75b0517e3e9aa0",
       "verification_tree": "74a45b5f1d0d6e0d65d1c7b28d5e5f82e8082003"
+    },
+    {
+      "id": "153-jubula-lettii-v4",
+      "path": "design/concepts/153-jubula-lettii-v4.png",
+      "species_id": 153,
+      "scientific_name": "Jubula lettii",
+      "historical_names": [
+        "Bubo lettii",
+        "Bubo letti"
+      ],
+      "common_name": "Maned Owl",
+      "scope": "West/Central African primary evergreen forest wetland-edge concept; near-equal shaggy-maned rufous adults with pearly-gray/white-and-black head details, orange-yellow eyes, pale finely streaked underparts and yellow bare parts; documented mobile older immature with retained white juvenile face, softer shorter wing/tail and bilateral support; no exact-age, nest or sex-size claim",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3
+      ],
+      "prior_versions_retained": true,
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 1,
+      "imagegen_invocations": 2,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "MANED-BUTTIKOFER-1889-P34",
+        "MANED-ITIS-555440-2026",
+        "MANED-ML-531449801-2023"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/153-jubula-lettii-v4.md",
+      "review_record": "research/reviews/153-jubula-lettii-v4-review.md",
+      "run_record": "production/runs/20261112T173032+0800-cycle-4.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2979466,
+      "sha256": "9415f1628d703e23b40b3a543e61da40ea7034747672d5703a0540027493c7ea",
+      "git_blob": "7642b534846dc58424bdd29f9246a05332782f4e",
+      "initial_original_path": "production/generated/153-jubula-lettii-v4-initial-original.png",
+      "initial_original_blob": "ca86026ba4639afa3a0269571a21ca8ec5e10d02",
+      "initial_original_size_bytes": 3133216,
+      "initial_original_sha256": "7ce1c315a5b2a7b30e7dfc29d1e92dc5888e77a3b9e668be0a787aa94607ced0",
+      "final_original_path": "production/generated/153-jubula-lettii-v4-final-original.png",
+      "final_original_blob": "7642b534846dc58424bdd29f9246a05332782f4e",
+      "final_original_size_bytes": 2979466,
+      "final_original_sha256": "9415f1628d703e23b40b3a543e61da40ea7034747672d5703a0540027493c7ea",
+      "generated_path": "production/generated/153-jubula-lettii-v4-generated-master.png",
+      "generated_blob": "7642b534846dc58424bdd29f9246a05332782f4e",
+      "generated_size_bytes": 2979466,
+      "full_color_source_path": "production/generated/153-jubula-lettii-v4-full-color.png",
+      "full_color_source_blob": "7642b534846dc58424bdd29f9246a05332782f4e",
+      "full_color_source_size_bytes": 2979466,
+      "reviewed_path": "production/reviewed/153-jubula-lettii-v4-reviewed-master.png",
+      "reviewed_blob": "7642b534846dc58424bdd29f9246a05332782f4e",
+      "reviewed_size_bytes": 2979466,
+      "review_crops": [
+        {
+          "path": "production/review-crops/153-jubula-lettii-v4-adult-male.png",
+          "blob": "879738b8f6e629810d67eed8931281437878db3d",
+          "size_bytes": 311694,
+          "sha256": "54268a9df04c0064f3a25e367a4c8ab94dc555da14ede4230cdaf3f82c322d01"
+        },
+        {
+          "path": "production/review-crops/153-jubula-lettii-v4-older-immature.png",
+          "blob": "828208f63fccbfec5333a7ed1bdc9990232dbfdc",
+          "size_bytes": 262193,
+          "sha256": "701f37771f7147635178bb6a63f2186d2af247e1b498e377cc17e1d462c0cce8"
+        },
+        {
+          "path": "production/review-crops/153-jubula-lettii-v4-adult-female.png",
+          "blob": "16ba544574618b3add3ed2351359666770599fe3",
+          "size_bytes": 276783,
+          "sha256": "b89b9da7fd21899772676fc8755f5815381bbdc30974ce0eef061f922b052399"
+        }
+      ],
+      "archive_note": "V1-v3 retained. Original 1889 description printed pp.34-35 actually read, upgrading the old unverified locator; ITIS and Macaulay mobile-immature narrative reread. One center-only edit corrected an adult-like immature wing/tail while preserving white juvenile face, open eyes and bilateral support. Exact juvenile age, earliest down sequence, nest architecture, quantified flight and sex-size direction remain unknown. Uploaded Mikkola unavailable; no fresh page claim.",
+      "archived_at": "2026-11-12T17:43:04+08:00",
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false,
+      "ledger_credited": false,
+      "updated_at": "2026-11-12T17:43:04+08:00"
     }
   ],
-  "updated_at": "2026-11-12T16:53:54.655+08:00"
+  "updated_at": "2026-11-12T17:43:04+08:00"
 }

@@ -1091,3 +1091,11 @@ When an age-unknown, down-rich owl juvenile is directly photographed with narrow
 - **Evidence:** Rasmussen et al. 2012 explicitly excluded immatures from diagnoses because data were sparse.
 - **Applied rule:** when the primary description flags sparse immature data, do not borrow another island form’s juvenile markings; use an explicitly age-unknown, down-dominant subject with closed eyes, concealed wing/tail and visible bilateral support.
 - **Verification:** whole plate and two crops were opened; no mature juvenile wing/tail was visible and all six supports remained intact. One-asset validation only.
+
+
+### 2026-11-12 — mobile immature is not an adult feather clone (#153)
+
+- **Problem:** a documented short-flight-capable immature was initially rendered with adult-length, crisply layered wing and tail.
+- **Evidence:** Macaulay ML531449801 records short flight and perching together with retained white juvenile facial feathers; this combination supports mobility but incomplete feather maturity.
+- **Applied:** keep open eyes, two-foot support and alert posture, while shortening/rounding the wing, softening feather organization and shortening the barred tail. Do not regress the bird into a helpless chick.
+- **Verified for this asset:** the edited full plate and three crops were opened; mobility cues and incomplete maturity coexist visibly. This rule is species/stage-bounded, not universal.

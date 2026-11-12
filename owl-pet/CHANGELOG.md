@@ -1782,3 +1782,10 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 - Added a research-backed Papuan Hawk-Owl revision plate with adult male, downy juvenile and adult female; preserved v1-v3.
 - Corrected the ITIS mapping: TSN 555493 is the current valid record; TSN 1063560 is the invalid original-combination *Athene dimorpha* record.
 - Reviewed full plate plus three crops. No edit required; science remains false because exact juvenile age/flight, nest detail and sex-size direction are unresolved.
+
+
+## 2026-11-12 — #153 *Jubula lettii* v4
+
+- Added the v4 Maned Owl revision plate while preserving v1-v3.
+- Verified the 1889 original description at printed pp.34–35 and linked it to current *Jubula lettii* / historical *Bubo lettii*.
+- Edited the central older immature once to shorten and soften overly adult-like wing/tail; re-opened the full plate and all three role crops.

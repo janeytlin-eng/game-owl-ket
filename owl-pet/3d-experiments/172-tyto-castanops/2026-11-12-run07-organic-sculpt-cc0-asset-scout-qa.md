@@ -39,3 +39,7 @@
 ## Decision for next work
 
 Do **not** simply continue SDF tweaking or pushing card density; seek a real, inspectable CC0 anatomical base and transform to a compact down-covered chick with genuinely modeled shoulders, asymmetric tucked wings, heart-disc transition, feather shader/groom and grounded toes. If possible use actual Blender sculpt and a multiview alignment gate. Obtain real browser WebGL validation and durable binary archive before quality approval. **Hold user notification until there is an actually good, accessible sample.**
+
+## Durable reusable QA source (post-report update)
+
+The working **115-line generic VTK four-view raster QA script**, actually executed against v21 with four nonempty renders and JSON mesh metrics, has now been stored and read back in GitHub: [tools/render_glb_four_views.py](tools/render_glb_four_views.py) (commit `41979ec1e55a5f3e734646123b441add2f99c7f2`). Usage: `xvfb-run -a python render_glb_four_views.py model.glb output_dir`. This fixes the lack of a durable *reusable GLB inspection script*, but it does not replace the unarchived v20/v21 generator code, model binaries or real WebGL/browser verification.

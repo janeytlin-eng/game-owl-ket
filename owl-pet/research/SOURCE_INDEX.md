@@ -5426,3 +5426,20 @@ Reused/re-read without duplicate IDs for #130 v5: `KOEP-ITIS-686665-2026`, repos
 ### Reused/reread for v4
 - `CIO-BAIRD-RIDGWAY-1874-P29`, `CIO-EARBIRDING-2015-FLEDGLING`, `CIO-PIEPLOW-ETAL-2020-P221-227`, `CIO-AOS-2021-P263`, `CIO-MEXICANBIRDING-2020-PHOTO`.
 - Index delta: new verified 1; reused/reread 5; corrected inferences 2 (single-female type is not a sex-size comparison; direct flight allows bounded formed juvenile flight feathers but not exact age/first-flight claims). Uploaded Mikkola file unavailable; no new page claim. Science=false.
+
+## 2026-11-13 — #177 *Otus hartlaubi* v4 — primary juvenile plumage and flight-stage calibration
+
+### STSO-NAUROIS-1975-P323-326-327-329
+- **Stable ID:** `STSO-NAUROIS-1975-P323-326-327-329`
+- **Title:** *Le Scops de l'Île de Sao Tomé Otus hartlaubi (Giebel)*
+- **Author / institution:** René de Naurois; Bonner zoologische Beiträge.
+- **Year:** 1975; volume 26, pp.319–355.
+- **Original URL:** https://www.zobodat.at/pdf/Bonner-Zoologische-Beitraege_26_0319-0355.pdf
+- **Accessed:** 2026-11-13.
+- **Source type:** primary field/specimen paper; full PDF directly read.
+- **Taxon / stages:** *Otus hartlaubi* (historical synonym *Athene hartlaubi*); adult male/female, immature, juvenile/chick.
+- **Pages / sections:** printed p.323 collection narrative; pp.326–327 reproduction and adult morphology; pp.328–329 juvenile plumage.
+- **Verified facts:** one 25 October young was captured on the ground while struggling to take flight; two late-November chicks were unable to fly, the younger having remiges only half-grown. Nest not discovered; tree-cavity placement is explicitly an author hypothesis. Adult mean wing 131 mm male / 136 mm female; eyes yellow to slightly orange, cere/bill yellowish with blue-grey tip, toes yellow/ochre, facial disc weak, tufts absent or vestigial. Two juvenile plumages were observed: still-downy deep chestnut with paler belly, or grey-brown upperparts with narrow regular dark bars and paler finely ochre-barred underparts plus white inner-tertial edging.
+- **Design support:** depict a documented non-flying late-November young with downy contour and half-grown remiges; retain stable low support; do not render a nest. Adult female may have only a subtly longer folded wing, not generalized greater body size.
+- **Limitations / conflicts / confidence:** only two juvenile plumage observations; exact age, sex, iris/bill chronology and tail growth are absent. Some specimen sex determinations were impossible due decomposition. High confidence for directly stated traits and stage; body-size dimorphism remains unquantified.
+- **Linked record / version:** [#177 v4 research](species/177-otus-hartlaubi-v4.md); `design/concepts/177-otus-hartlaubi-v4.png` pending generation at this stage.

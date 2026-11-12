@@ -5344,3 +5344,18 @@ Reused/re-read without duplicate IDs for #130 v5: `KOEP-ITIS-686665-2026`, repos
 ## 2026-11-13 — #172 *Tyto castanops* v4 — downy emergence boundary and scale correction
 
 - **TMO-DEBUS-1993-P169-172-187** — S.J.S. Debus 1993, “The Mainland Masked Owl *Tyto novaehollandiae*: a Review,” *Australian Bird Watcher* 15(4):168–191; https://afo.birdlife.org.au/afo/index.php/afo/article/download/768/751 ; full PDF read 2026-11-13. Printed p.169 Plate 24 compares a captive Tasmanian juvenile male with a much larger adult female and shows feathered legs; pp.171–172 report a Tasmanian dimorphism index of 12.8 and cited mean masses 525 g male / 850 g female; p.187 states young may leave the nest hole while still downy and retain ventral down tips for months. **Limits:** chiefly a mainland review; Tasmanian facts synthesize Mooney sources/personal communication; no exact age, continuous castanops feather chronology, flight threshold or universal standing-height ratio. **Design use:** female markedly fuller/heavier but only moderately taller; age-unknown downy young may take one low, bilateral-supported step at the hollow lip, never shown flying. [Research](species/172-tyto-castanops-v4.md).
+
+
+## 2026-11-13 — #173 *Otus madagascariensis* v4 — updated molecular taxonomy conflict
+
+### TSO-MELO-ETAL-2022-P1-54
+- **Stable ID:** TSO-MELO-ETAL-2022-P1-54
+- **Title:** A new species of scops-owl (Aves, Strigiformes, Strigidae, *Otus*) from Príncipe Island (Gulf of Guinea, Africa) and novel insights into the systematic affinities within *Otus*
+- **Authors/institution:** Martim Melo et al.; ZooKeys / participating university and museum institutions
+- **Year/type:** 2022; peer-reviewed primary phylogenetic study
+- **URL/DOI:** https://pmc.ncbi.nlm.nih.gov/articles/PMC9836643/ ; https://doi.org/10.3897/zookeys.1126.87635
+- **Accessed/read:** 2026-11-13; full HTML, especially Table 2 and pp./article lines corresponding to discussion of Malagasy taxa (ZooKeys 1126:1–54; Table 2; Discussion around article lines 717–720)
+- **Taxa/stage:** *Otus madagascariensis* and *O. rutilus*; taxonomy only, no juvenile-stage evidence
+- **Useful facts:** the multilocus dataset includes both Malagasy taxa; the paper reports low divergence within intraspecific range and explicitly retains the conflict between the widely adopted two-species treatment and Fuchs et al. 2007's representative-sampling challenge.
+- **Limits/conflict/confidence:** strong peer-reviewed taxonomy evidence, but it does not resolve the checklist choice, adult sex-size direction, juvenile feather sequence or flight threshold. It must not be used to invent plumage/development.
+- **Design/check use:** keep the repository's *O. madagascariensis* name while listing *O. rutilus madagascariensis* as an alternate treatment; do not treat taxonomy as a morphology shortcut. Linked to `research/species/173-otus-madagascariensis-v4.md`, `design/concepts/173-otus-madagascariensis-v4.png` and its review record.

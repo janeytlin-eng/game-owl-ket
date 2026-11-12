@@ -1,4 +1,8 @@
-## 2026-11-12 — #140 Reddish Scops Owl — *Otus rufescens* v5 ARCHIVED, readback pending
+## 2026-11-12 — #140 *Otus rufescens* v5 immutable archive VERIFIED; ledger credit pending
+
+Archive [`5527f7c7c528e8659f65732be2eccf36bb1231b6`](https://github.com/janeytlin-eng/game-owl-ket/commit/5527f7c7c528e8659f65732be2eccf36bb1231b6) / tree `cbe5a588afcb771304d4504002767e89c19199cd` was fetched back from `main`. Nine PNG paths matched four exact blobs and byte sizes; the concept decoded as 1536×1024 with matching SHA-256. Manifests parsed at 822/791/800 and each contains one #140 v5 entry. `PASS_WITH_LIMITATIONS`; science=false; unique coverage remains 176/251; cycle credit still pending.
+
+## 2026-11-12 — #140 Reddish Scops Owl — *Otus rufescens* v5 ARCHIVED
 
 V5科学修订保留v1–v4，并纠正把v4“闭眼”这一证据管理姿态误当物种幼鸟事实的风险。新图改用原始论文直接描述的年龄未知 mesoptile：近均一浓红褐、面盘暗缘弱、后冠/上背有较模糊斑纹；虹膜保持暗而不诊断，翼短而柔软且已形成，尾短/遮蔽，双足有自然支撑。成年雌雄保持近等尺度，不套用固定雌大雄小。整图及三张角色裁切已实际打开，无需编辑；结果 `PASS_WITH_LIMITATIONS`，science=false。
 

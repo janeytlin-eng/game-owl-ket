@@ -4730,3 +4730,24 @@ Reused/re-read without duplicate IDs for #130 v5: `KOEP-ITIS-686665-2026`, repos
 - **MEN-MIKKOLA-2013-P166-167:** repository-stable prior actual read reused for adult identity and the explicit absence of sexual-size data. Uploaded guide unavailable in this execution; no fresh page claim.
 - **MEN-CHASEN-KLOSS-1926-DOI:** publisher metadata and p.279 citation/protonym opened; full species text not read, so retained as an unverified morphology lead.
 - **Index delta:** new verified 0; reused/re-read 3; unverified lead 1; corrected boundaries 2 (no fixed sex-size direction; formed juvenile wing is stage-supported but exact age/flight is not). Details/full prompt: `research/species/138-otus-mentawi-v5.md`. Science false.
+
+
+## 2026-11-12 — #139 *Otus jolandae* v5 — retained-juvenile-feather correction
+
+### JOL-SANGSTER-ETAL-2013
+- **Title/authors/year/type:** “A New Owl Species of the Genus *Otus* (Aves: Strigidae) from Lombok, Indonesia” / Sangster, King, Verbelen & Trainor / 2013 / peer-reviewed primary original description.
+- **DOI/URL/accessed:** https://doi.org/10.1371/journal.pone.0053712 ; https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0053712 ; 2026-11-12.
+- **Pages/sections:** article pp.1–13; online lines 155–173, 280–354, 374–388; Fig.1 and Fig.S1.
+- **Facts:** adults are dark cinnamon brown above, with warm cinnamon breast contrasting with whitish finely barred belly; golden-yellow iris, dark/brown bill, dull-ochre feet, tarsal feathering to toe bases. One female had paler breast, narrower head streaking and larger pale median-covert spots. Female AMNH 629942 retained scattered white/buffy juvenile crown/nape feathers but was not described as an all-over downy chick. Habitat includes solid, degraded and secondary forest/tree patches from 25–1350 m.
+- **Limits/design:** type series is only seven specimens; individual female differences are not a universal sex-size rule. Exact immature age, iris, feather chronology, flight and nest are unknown. V5 uses a near-adult supported immature with only scattered retained juvenile head feathers.
+
+### JOL-ITIS-1063240-2026
+- **Institution/accessed:** ITIS / 2026-11-12.
+- **URL/sections:** https://itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=1063240&source=to_print ; taxonomy lines 6–30, hierarchy 32–46, references 55–67.
+- **Fact/limit:** current valid *Otus jolandae*, TSN 1063240, Rinjani Scops Owl; taxonomy only.
+
+### Reused and access boundaries
+- **JOL-MIKKOLA-2013-P188:** prior repository read, printed p.188 / uploaded PDF p.190; upload not mounted this execution, no new page claim.
+- **JOL-PLOS-FIG1-2008:** adult field photograph in the primary article re-opened; adult identity only.
+- **JOL-MACAULAY-609278583:** page opened but application payload unavailable; unverified lead, not used for a new claim.
+- **Index change:** new 2 stable source entries; reused 2; unverified lead 1; corrected inference boundaries 4 (immature whole-body stage, sex scale, iris/flight, nest). Detailed facts and full prompt: [v5 research](species/139-otus-jolandae-v5.md). Science remains false.

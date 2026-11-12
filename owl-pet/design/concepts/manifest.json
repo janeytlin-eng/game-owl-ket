@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T14:49:00+08:00",
+  "updated": "2026-11-12T15:14:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -33199,7 +33199,97 @@
       "verification_commit": "521b66573728ac57df13d48dde4acde930255578",
       "verification_tree": "bbd789410d2528325a50af2d2aaa4cdd5327595e",
       "ledger_credited_at": "2026-11-12T14:49:00+08:00"
+    },
+    {
+      "id": "149-ninox-odiosa-v4",
+      "path": "design/concepts/149-ninox-odiosa-v4.png",
+      "species_id": 149,
+      "scientific_name": "Ninox odiosa",
+      "historical_names": [
+        "Russet Hawk-Owl",
+        "New Britain Hawk-Owl",
+        "Spangled Boobook"
+      ],
+      "common_name": "New Britain Boobook",
+      "scope": "Humid New Britain forest concept; compact earless adults with separate white brows, yellow-orange eyes, ash bills, irregular pale scapular marks and predominantly pale narrow-streaked underparts; female only subtly longer/larger from a three-specimen 1882 wing series; closed-eyed down-dominant fully supported age-unknown juvenile with no flight or exact chronology claim",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3
+      ],
+      "prior_versions_retained": true,
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 0,
+      "imagegen_invocations": 1,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "NBBOO-GURNEY-1882-IBIS",
+        "NBBOO-GOULD-SHARPE-1884-TEXT",
+        "NBBOO-IUCN-2018",
+        "NBBOO-COMMONS-MALINOWSKI-2019",
+        "NBBOO-ITIS-555491-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/149-ninox-odiosa-v4.md",
+      "review_record": "research/reviews/149-ninox-odiosa-v4-review.md",
+      "run_record": "production/runs/20261112T145500+0800-cycle-6.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2929457,
+      "sha256": "a84a4121ceb710a44c063da773e111a261996cf3e17c3b654ccd5227129df2ef",
+      "git_blob": "da432a0a0f2ab10ac9a0424fe1491235e68b70c6",
+      "initial_original_path": "production/generated/149-ninox-odiosa-v4-initial-original.png",
+      "initial_original_blob": "da432a0a0f2ab10ac9a0424fe1491235e68b70c6",
+      "initial_original_size_bytes": 2929457,
+      "initial_original_sha256": "a84a4121ceb710a44c063da773e111a261996cf3e17c3b654ccd5227129df2ef",
+      "final_original_path": "production/generated/149-ninox-odiosa-v4-final-original.png",
+      "final_original_blob": "da432a0a0f2ab10ac9a0424fe1491235e68b70c6",
+      "final_original_size_bytes": 2929457,
+      "final_original_sha256": "a84a4121ceb710a44c063da773e111a261996cf3e17c3b654ccd5227129df2ef",
+      "generated_path": "production/generated/149-ninox-odiosa-v4-generated-master.png",
+      "generated_blob": "da432a0a0f2ab10ac9a0424fe1491235e68b70c6",
+      "generated_size_bytes": 2929457,
+      "full_color_source_path": "production/generated/149-ninox-odiosa-v4-full-color.png",
+      "full_color_source_blob": "da432a0a0f2ab10ac9a0424fe1491235e68b70c6",
+      "full_color_source_size_bytes": 2929457,
+      "reviewed_path": "production/reviewed/149-ninox-odiosa-v4-reviewed-master.png",
+      "reviewed_blob": "da432a0a0f2ab10ac9a0424fe1491235e68b70c6",
+      "reviewed_size_bytes": 2929457,
+      "review_crops": [
+        {
+          "path": "production/review-crops/149-ninox-odiosa-v4-adult-male.png",
+          "blob": "e55744ec8c87be8a0c0a20bdbefe8e6fd6f33cb5",
+          "size_bytes": 703287,
+          "sha256": "3d6f24359c042a52c16e93e5fb64baa9104c923489cbe8c3f817c62fa2238128"
+        },
+        {
+          "path": "production/review-crops/149-ninox-odiosa-v4-older-juvenile.png",
+          "blob": "84aff3e4940565d646386028378ad25a681539f7",
+          "size_bytes": 649021,
+          "sha256": "540db89fd2cef84dc4810d7166bd86f09a63571c7437f1d3a370c0ad050d1d81"
+        },
+        {
+          "path": "production/review-crops/149-ninox-odiosa-v4-adult-female.png",
+          "blob": "6ca2b3a634fa7687b8fc49f31050a677f723a2d1",
+          "size_bytes": 696311,
+          "sha256": "4f23bc92db5e8506f3270614b62d4c93cb2fef4f0baebfb8002a88a25693587d"
+        }
+      ],
+      "archive_note": "V1-v3 retained. Newly read 1882 primary specimen series supports only a ~2.7% female-longer wing direction in a three-bird sample. Full plate and three crops viewed; no edit required. Juvenile chronology remains unknown and is depicted conservatively. Fresh Mikkola upload unavailable.",
+      "archived_at": "2026-11-12T15:14:00+08:00",
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false,
+      "ledger_credited": false,
+      "updated_at": "2026-11-12T15:14:00+08:00"
     }
   ],
-  "updated_at": "2026-11-12T14:49:00+08:00"
+  "updated_at": "2026-11-12T15:14:00+08:00"
 }

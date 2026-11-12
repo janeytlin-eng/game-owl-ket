@@ -4216,3 +4216,13 @@ Verification [`b5b701b5292200a8aedab6551c79892714fac04c`](https://github.com/jan
 - Exact juvenile age/plumage sequence/flight threshold and molecular sex confirmation remain unknown.
 - Canonical concept: `design/concepts/148-ninox-rumseyi-v4.png`.
 - Manifest repair: restored the omitted #147 v4 row in `design/image-manifest.json`; prior #147 files remain unchanged.
+
+
+## 2026-11-12 15:14 +08 — #149 *Ninox odiosa* v4 archived, verification pending
+
+- Batch `20261112T113500+0800`, cycle 6/6.
+- New primary evidence: 1882 three-specimen sex-labelled measurements; female wing 7.60 in versus two males at 7.40 in.
+- Review: **PASS_WITH_LIMITATIONS**, no edit.
+- Unique species remains **176/251**; this is a science revision.
+- Exact juvenile development, specimen sexing method and population-wide size direction remain unknown.
+- Canonical concept: `design/concepts/149-ninox-odiosa-v4.png`.

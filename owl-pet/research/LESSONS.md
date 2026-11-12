@@ -139,3 +139,11 @@ undefined
 - **Evidence:** the Cebu Boobook telemetry study explicitly included one juvenile and mapped its nightly movements; it does not describe a feather sequence or say that the bird flew.
 - **Applied change:** use an open-eyed, fully supported sidestep/perch action; keep the wing short, rounded and down-obscured; do not create a spread-wing or airborne pose.
 - **Verified effect:** the full plate and independent juvenile crop preserve support and mobility without visually asserting flight. This rule is now verified for #148 v4 only; future species require their own evidence.
+
+
+## 2026-11-12 — Constrain sex-size direction to the actual specimen series (#149)
+
+- **Problem:** “two males and one female” can support a direction but not a population rule or large body difference.
+- **Evidence:** Gurney’s 1882 table gives both male wings as 7.40 in and the female as 7.60 in; tarsus/toe values overlap and no mass is reported.
+- **Applied change:** female is only subtly longer/larger in linear silhouette (~3%), with no invented plumage difference or bulk.
+- **Verified effect:** full plate and sex-specific crops show a visible but restrained direction. This rule is verified for #149 v4 only and must not be generalized.

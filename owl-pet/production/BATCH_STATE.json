@@ -44000,14 +44000,14 @@
       "next_cycle": 6,
       "active_cycle": 6,
       "started_at": "2026-11-12T11:35:00+08:00",
-      "updated_at": "2026-11-12T15:10:00+08:00",
-      "current_stage": "REVIEWED",
+      "updated_at": "2026-11-12T15:14:00+08:00",
+      "current_stage": "ARCHIVED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex",
         "run_id": "20261112T145500+0800-cycle-6",
-        "heartbeat_at": "2026-11-12T15:10:00+08:00",
-        "expires_at": "2026-11-12T15:25:00+08:00"
+        "heartbeat_at": "2026-11-12T15:14:00+08:00",
+        "expires_at": "2026-11-12T15:29:00+08:00"
       },
       "active": {
         "cycle": 6,
@@ -44017,7 +44017,7 @@
         "action": "SCIENCE_REVISION",
         "run_record": "owl-pet/production/runs/20261112T145500+0800-cycle-6.md"
       },
-      "stage": "REVIEWED",
+      "stage": "ARCHIVED",
       "completed_count": 5,
       "stage_events": [
         {
@@ -45150,6 +45150,36 @@
               }
             },
             "lease_expires_at": "2026-11-12T15:25:00+08:00"
+          }
+        },
+        {
+          "batch_id": "20261112T113500+0800",
+          "cycle": 6,
+          "stage": "ARCHIVED",
+          "at": "2026-11-12T15:14:00+08:00",
+          "run_id": "20261112T145500+0800-cycle-6",
+          "species_id": 149,
+          "species": "Ninox odiosa",
+          "credited": false,
+          "evidence": {
+            "concept": "owl-pet/design/concepts/149-ninox-odiosa-v4.png",
+            "initial_original": "owl-pet/production/generated/149-ninox-odiosa-v4-initial-original.png",
+            "final_original": "owl-pet/production/generated/149-ninox-odiosa-v4-final-original.png",
+            "research_record": "owl-pet/research/species/149-ninox-odiosa-v4.md",
+            "review_record": "owl-pet/research/reviews/149-ninox-odiosa-v4-review.md",
+            "run_record": "owl-pet/production/runs/20261112T145500+0800-cycle-6.md",
+            "manifest_counts": {
+              "concepts": 830,
+              "image": 799,
+              "design": 808
+            },
+            "archive_commit_pending": true,
+            "readback_pending": true,
+            "unique_species": "176/251",
+            "unique_increment": 0,
+            "revision_increment": 1,
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-12T15:29:00+08:00"
           }
         }
       ],
@@ -59295,6 +59325,36 @@
           }
         },
         "lease_expires_at": "2026-11-12T15:25:00+08:00"
+      }
+    },
+    {
+      "batch_id": "20261112T113500+0800",
+      "cycle": 6,
+      "stage": "ARCHIVED",
+      "at": "2026-11-12T15:14:00+08:00",
+      "run_id": "20261112T145500+0800-cycle-6",
+      "species_id": 149,
+      "species": "Ninox odiosa",
+      "credited": false,
+      "evidence": {
+        "concept": "owl-pet/design/concepts/149-ninox-odiosa-v4.png",
+        "initial_original": "owl-pet/production/generated/149-ninox-odiosa-v4-initial-original.png",
+        "final_original": "owl-pet/production/generated/149-ninox-odiosa-v4-final-original.png",
+        "research_record": "owl-pet/research/species/149-ninox-odiosa-v4.md",
+        "review_record": "owl-pet/research/reviews/149-ninox-odiosa-v4-review.md",
+        "run_record": "owl-pet/production/runs/20261112T145500+0800-cycle-6.md",
+        "manifest_counts": {
+          "concepts": 830,
+          "image": 799,
+          "design": 808
+        },
+        "archive_commit_pending": true,
+        "readback_pending": true,
+        "unique_species": "176/251",
+        "unique_increment": 0,
+        "revision_increment": 1,
+        "scientifically_verified": false,
+        "lease_expires_at": "2026-11-12T15:29:00+08:00"
       }
     }
   ],

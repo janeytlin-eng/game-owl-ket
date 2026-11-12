@@ -1,3 +1,7 @@
+### #158 *Phodilus badius* v4 VERIFIED — ledger credit pending
+
+Archive `c599bb697cfdbb8473b5bcd56715c7a76d1ad6bc` / tree `2a1aa175cbdcbb4630cb75a6d2c77762215d2760`: untruncated tree; 20 required paths, 9 binary paths, 4 unique streams and manifests 839/808/817 verified. Full-color source unchanged; three connector-safe review crops matched local bytes exactly. Unique coverage remains 176/251; revision +1; science=false.
+
 ### #158 *Phodilus badius* v4 ARCHIVED — readback pending
 
 Juvenile boundary corrected to Chasen 1936’s pale rufous-buff, down-dominant, half-grown-quill nestling; full plate and three crops opened; no edit. Manifests 839/808/817; unique coverage remains 176/251; revision +1; science=false. Immutable readback and ledger credit pending.

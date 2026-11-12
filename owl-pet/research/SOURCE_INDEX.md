@@ -1,3 +1,22 @@
+## 2026-11-13 — #176 *Otus pembaensis* v4 — direct guide reread and primary habitat evidence
+
+### PESO-CATRY-ETAL-2000-P259-267
+- **Title/authors/year:** “Habitat selection by terrestrial birds on Pemba Island (Tanzania), with particular reference to six endemic taxa” / Paulo Catry et al. / 2000.
+- **Journal/URL:** *Biological Conservation* 95:259–267; https://repositorio.ispa.pt/bitstream/10400.12/2414/1/BC_95_259-267.pdf
+- **Accessed:** 2026-11-13; peer-reviewed primary field study; abstract, study-area and methods sections actually read.
+- **Species/stage:** *O. pembaensis* habitat; no juvenile morphology.
+- **Useful facts:** clove plantations up to 20 m canopy with climbers/dense undergrowth; owl playback censuses after dark; conversion of former clove plantations to open farmland identified as a particular threat.
+- **Limits/confidence:** high for study habitats; does not establish nest, age, sex dimorphism or young plumage.
+- **Design use:** dense clove-agroforest setting, no breeding inference. Linked record: [#176 v4](species/176-otus-pembaensis-v4.md).
+
+### PESO-PEREGRINE-FUND-CURRENT
+- **Title/institution:** “Pemba Scops-owl” / The Peregrine Fund.
+- **URL:** https://peregrinefund.org/explore-raptors-species/owls/pemba-scops-owl
+- **Accessed/type:** 2026-11-13; institutional synthesis actually read.
+- **Useful facts:** dense-foliage woodland/plantation roost context; explicitly notes nesting and breeding biology are poorly known and presumed cavity nesting is unconfirmed.
+- **Limits/confidence:** secondary; no exact juvenile morphology or nest geometry.
+- **Design use:** strengthens the no-nest/no-egg boundary.
+
 ## 2026-11-13 — #175 *Otus ireneae* v4 — uploaded guide reread, current taxonomy and habitat boundary
 
 ### SSO-MIKKOLA-2013-P134

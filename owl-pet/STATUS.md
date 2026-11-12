@@ -1,3 +1,7 @@
+## 2026-11-12 — #151 v4 LEDGER_CREDITED — active batch 2/6
+
+Verification [`87a4846038270ea5f682dc73c24f6bc4cb3b40b8`](https://github.com/janeytlin-eng/game-owl-ket/commit/87a4846038270ea5f682dc73c24f6bc4cb3b40b8) was read back after archive [`f4e3ddf14505f1bccc2cda42796adfc832dfe52b`](https://github.com/janeytlin-eng/game-owl-ket/commit/f4e3ddf14505f1bccc2cda42796adfc832dfe52b). Cycle 2 credited once; lease released; next cycle 3. Unique coverage remains 176/251; revision +1; science=false.
+
 ## 2026-11-12 — #151 *Athene jacquinoti* v4 immutable archive VERIFIED; ledger credit pending
 
 Archive [`f4e3ddf14505f1bccc2cda42796adfc832dfe52b`](https://github.com/janeytlin-eng/game-owl-ket/commit/f4e3ddf14505f1bccc2cda42796adfc832dfe52b) / tree `f9b6ca420d66f44424dd0ebb876b4556e23fd558` was fetched back from `main`. The recursive tree has 4,655 entries and is not truncated. Nine PNG paths match four exact Git blobs and byte sizes; local PNG decoding and SHA-256 passed. The three manifests parse at 832/801/810, contain #151 v4 exactly once and point to the same verified blobs. `PASS_WITH_LIMITATIONS`; science=false; unique coverage remains 176/251; cycle credit pending.

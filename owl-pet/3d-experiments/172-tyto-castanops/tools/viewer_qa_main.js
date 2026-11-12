@@ -34,7 +34,7 @@ try {
    // Fit both axes rather than using the object diagonal as an arbitrary distance.
    const tanV=Math.tan(THREE.MathUtils.degToRad(camera.fov)*0.5);
    const tanH=tanV*camera.aspect;
-   const distance=Math.max(size.y/(2*tanV*0.76),size.z/(2*tanH*0.76))+size.x*0.8;
+   const distance=Math.max(size.y/(2*tanV*0.70),size.z/(2*tanH*0.70))+size.x*0.8;
    camera.position.copy(center).add(new THREE.Vector3(distance,0.09*distance,0.10*distance));
    camera.near=Math.max(.001,distance*0.002);
    camera.far=Math.max(10,distance*20);camera.updateProjectionMatrix();

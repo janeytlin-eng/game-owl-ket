@@ -1042,3 +1042,11 @@ When a direct juvenile photograph shows loose clumps and gaps, prohibit fleece-l
 ### Verified-for-this-case lesson — #151 v4 (application verified by immutable readback)
 
 When a previous juvenile pose (such as closed eyes) was chosen for presentation rather than observed development, treat it as an inference to revisit, not a reusable species fact. For a data-poor island owl, a supported open-eyed age-unknown older juvenile with dark non-diagnostic irides, short down-veiled wing, hidden tail and bilateral support avoids converting pose into chronology. This rule was applied in #151 v4 and passed full/crop visual review; immutable archive readback verified all nine binary paths and three manifest references for this case.
+
+
+### 2026-11-12 — small-head/long-tail and downy-stage rule applied to #152
+
+- **Problem:** owl generation tends to enlarge the head and give a downy juvenile adult remiges/tail.
+- **Evidence:** Beehler & Pratt pp. 373–374 describes *Uroglaux dimorpha* as small-headed and long-tailed and the downy juvenile as white-faced and white-underparted.
+- **Applied:** constrain adult head/tail silhouette; render the juvenile with compact down-soft wing, concealed tail, dark eyes and bilateral low support; withhold exact age, flight and nest claims.
+- **Verified:** full plate and three crops were opened. The intended silhouette, juvenile support and immature wing/tail boundary are visible. This validates the rule for this asset only, not all owl taxa.

@@ -4257,3 +4257,11 @@ Accepted archive [`523bb4a8c66064e12e89587a51e21717df158bad`](https://github.com
 ## 2026-11-12 — #150 v4 LEDGER_CREDITED — batch 1/6
 
 Verification [`f0475f2292574e628c191c59576c83b37f90c6a7`](https://github.com/janeytlin-eng/game-owl-ket/commit/f0475f2292574e628c191c59576c83b37f90c6a7) was read back after accepted archive [`523bb4a8`](https://github.com/janeytlin-eng/game-owl-ket/commit/523bb4a8c66064e12e89587a51e21717df158bad). Cycle 1 credited once; batch `20261112T153846+0800` is now 1/6, next cycle 2, lease released. Unique coverage remains 176/251; revision +1; science=false.
+
+
+## 2026-11-12 cycle 3/6 — #152 Papuan Hawk-Owl v4 archived
+
+- `Uroglaux dimorpha` v4: SCIENCE_REVISION; unique species remains **176/251**; revision +1.
+- Current ITIS valid record corrected to TSN 555493; old combinations preserved. Adults use small-head/long-tail identity without asserting sex-size direction. The downy juvenile uses the directly described white face/underparts and is age-unknown, dark-eyed, compact-winged and fully supported.
+- Actual full image and three crops reviewed; no edit required; **PASS_WITH_LIMITATIONS**, scientifically_verified=false. Exact juvenile age/flight, nest detail and sex-size direction remain unknown.
+- Archive verification and ledger credit are pending in the next persistent stages.

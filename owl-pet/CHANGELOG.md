@@ -1775,3 +1775,10 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 
 
 - 2026-11-12T15:54:59.676+08:00: #150 *Ninox variegata* v4 LEDGER_CREDITED after verification `f0475f2292574e628c191c59576c83b37f90c6a7`; batch 1/6, next cycle 2, lease released; unique 176/251; revision +1; science=false.
+
+
+## 2026-11-12 — #152 Uroglaux dimorpha v4
+
+- Added a research-backed Papuan Hawk-Owl revision plate with adult male, downy juvenile and adult female; preserved v1-v3.
+- Corrected the ITIS mapping: TSN 555493 is the current valid record; TSN 1063560 is the invalid original-combination *Athene dimorpha* record.
+- Reviewed full plate plus three crops. No edit required; science remains false because exact juvenile age/flight, nest detail and sex-size direction are unresolved.

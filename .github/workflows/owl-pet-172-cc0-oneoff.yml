@@ -22,8 +22,9 @@ jobs:
       - name: Prepare zero-cost Blender inspection environment
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y -qq blender
+          sudo apt-get install -y -qq blender python3-numpy
           blender --version | head -3
+          blender -b --python-expr "import sys; print('BLENDER_PYTHON', sys.version); print('BLENDER_SYS_PATH', sys.path); import numpy; print('NUMPY', numpy.__version__)"
       - name: Download and validate CC0 adult-owl candidate
         run: |
           set -euo pipefail

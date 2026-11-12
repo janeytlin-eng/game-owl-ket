@@ -4866,3 +4866,25 @@ Reused/re-read without duplicate IDs for #130 v5: `KOEP-ITIS-686665-2026`, repos
 - **Design use:** adult specimen provenance and historical comparative context only; no juvenile visual inference.
 - **Linked record:** `research/species/146-ninox-mindorensis-v4.md`.
 - **Confidence:** high for the museum record; narrow design applicability.
+
+
+## 2026-11-12 — #147 *Ninox leventisi* v4 — song-display pose and iris/tarsus conflict boundary
+
+### CAMBOO-RASMUSSEN-2012-FORKTAIL — reused, primary description re-read
+- Rasmussen et al. 2012, *Forktail* 28:1–20, printed pp.3, 15–16, 19. Original PDF: https://www.researchgate.net/publication/255964757_Vocal_divergence_and_new_species_in_the_Philippine_Hawk_Owl_Ninox_philippensis_complex
+- Supports large/full lax adult form, long/deep bill, regular crown bars, bold coverts, large white scapulars, white throat, broad irregular warm underpart bars, pale gray/whitish to very pale yellow-green iris, mustard bare parts, thinly bristled tarsi and mostly pale claws with dark tips.
+- The two described types are female and the paper could not analyze sexual dichromatism; no fixed female-larger rule. The documented face-to-face song display (white throat puffed/pulsating, wings drooped) is used only as an adult pose cue, not sex or courtship proof.
+- Immatures were scarce and excluded; general “fluffier and less marked” wording is not a species-specific Camiguin developmental sequence.
+
+### CAMBOO-COMMONS-CHUA-2025 — reused adult photo set
+- Wikimedia Commons category: https://commons.wikimedia.org/wiki/Category:Ninox_leventisi ; accessed 2026-11-12.
+- Adult appearance/context only; no sex or juvenile chronology.
+
+### CAMBOO-BIRDLIFE-2026 — reused current institutional factsheet
+- BirdLife Data Zone: https://datazone.birdlife.org/species/factsheet/camiguin-boobook-ninox-leventisi ; accessed 2026-11-12.
+- Current name/endemic-range/conservation context only; no juvenile or sex-dimorphism claim.
+
+### CAMBOO-PH-REDLIST-2020-LEAD — new unverified conflict lead
+- Philippine Red List institutional PDF: https://www.philippinecockatoo.org/wp-content/uploads/2021/01/Philippine-Red-List-of-Threatened-Wild-Fauna.pdf ; accessed 2026-11-12.
+- The original PDF could not be opened in this run; a search snippet alone claimed yellow eyes and fully feathered tarsi. Page/figure unknown. It conflicts with the primary description and is therefore indexed only as an unverified lead, not verified evidence and not a design basis.
+- Linked record: [#147 v4](species/147-ninox-leventisi-v4.md). Scientific status remains unverified because the juvenile sequence is unknown.

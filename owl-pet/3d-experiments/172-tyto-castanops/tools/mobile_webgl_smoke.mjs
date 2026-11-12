@@ -34,7 +34,10 @@ for(const setting of [
    await page.screenshot({path:`${output}/${setting.name}.png`});
    state={name:setting.name,before,after,pageErrors:errors,
        orbit_camera_changed:JSON.stringify(before.cameraPosition)!==JSON.stringify(after.cameraPosition),
-       loaded:after.loaded,frames:after.renderedFrames,glError:after.glError};
+       loaded:after.loaded,frames:after.renderedFrames,glError:after.glError,
+       initial_full_bird_in_frame:before.framing?.inFrame===true,
+       rotated_full_bird_in_frame:after.framing?.inFrame===true,
+       source_front_verified:after.sourceFront?.startsWith('+X')===true};
  }catch(e){state={name:setting.name,error:String(e),pageErrors:errors};}
  res.cases.push(state);
  await ctx.close();
@@ -42,4 +45,6 @@ for(const setting of [
 await browser.close();
 fs.writeFileSync(`${output}/browser_qa.json`,JSON.stringify(res,null,2));
 console.log(JSON.stringify(res,null,2));
-if(res.cases.some(c=>!c.loaded||c.pageErrors?.length||c.after?.glError)) process.exitCode=2;
+if(res.cases.some(c=>!c.loaded||c.pageErrors?.length||c.after?.glError||
+                     !c.initial_full_bird_in_frame||!c.rotated_full_bird_in_frame||
+                     !c.source_front_verified)) process.exitCode=2;

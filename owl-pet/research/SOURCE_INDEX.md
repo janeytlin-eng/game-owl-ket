@@ -4828,3 +4828,25 @@ Reused/re-read without duplicate IDs for #130 v5: `KOEP-ITIS-686665-2026`, repos
 - `MAG-ITIS-555379-2026`: current valid *Otus magicus*, original/synonym *Strix magica*, and valid *O. m. leucospilus* crosswalk reopened; taxonomy only.
 - `MAG-MIKKOLA-2013-P189-190`: repository-pinned prior read reused; uploaded guide unavailable this execution, so no fresh page claim.
 - **Index delta:** new verified 1; reused/re-read 3; corrected boundaries 3 (juvenile wing pattern, tarsal-feather variability, non-universal adult pattern counts). Detailed source facts, design boundary and complete prompt: `research/species/141-otus-magicus-v5.md`. Scientific verification remains false.
+
+## NPH-PARKES-1973-P36-37 — Parkes 1973 historical Leyte record
+
+- **Stable ID:** `NPH-PARKES-1973-P36-37`
+- **Title:** *Annotated List of the Birds of Leyte Island, Philippines*
+- **Author / institution / year:** Kenneth C. Parkes; Delaware Museum of Natural History / *Nemouria* 11; 1973
+- **Original URL:** https://zenodo.org/records/16489496/files/bhlpart143514.pdf?download=1
+- **Accessed:** 2026-11-12
+- **Source type:** primary museum/distribution account; full PDF read
+- **Taxon / stage:** historical broad `Ninox philippensis philippensis`; adult specimens and a reported but lost nestling male from Leyte
+- **Pages / section:** printed pp.36–37, FAMILY STRIGIDAE, *Ninox philippensis philippensis*
+- **Source fact:** the 1937 adult female and nestling male were no longer extant; later adult Leyte males were compared with Luzon material and measured.
+- **Limits / taxonomy conflict:** pre-dates the modern Philippine hawk-owl split; the lost nestling has no usable plumage, posture or behaviour description. Do not map it to modern strict *N. philippensis* or illustrate its appearance without current island-level evidence.
+- **Design use:** old-name/taxon-history warning only; no juvenile visual feature inferred.
+- **Linked records:** `research/species/145-ninox-philippensis-v4.md`; #125/#145 current-taxon cross-check.
+- **Confidence:** high for the historical record; deliberately not used as a modern-stage morphology source.
+
+## Cross-record correction — #125 / #145 *Ninox philippensis*
+
+- The same current species appears in two preserved repository number histories. #145 v4 keeps its own number and versions but reuses the already read `NPH-SHARPE-1875-P167-168` evidence rather than minting a duplicate source ID.
+- The source describes an age-unknown “Young,” not a calibrated nestling or confirmed flying fledgling. Both number histories must keep exact age, iris colour and action ability unknown unless new evidence is read.
+- Historical Leyte material in `NPH-PARKES-1973-P36-37` remains a pre-split mapping lead, not proof for modern strict Luzon Boobook juvenile appearance.

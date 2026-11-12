@@ -43932,14 +43932,14 @@
       "next_cycle": 2,
       "active_cycle": 2,
       "started_at": "2026-11-12T11:35:00+08:00",
-      "updated_at": "2026-11-12T12:33:00+08:00",
-      "current_stage": "STARTED",
+      "updated_at": "2026-11-12T12:41:00+08:00",
+      "current_stage": "RESEARCH_READY",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex",
         "run_id": "20261112T115800+0800-cycle-2",
-        "heartbeat_at": "2026-11-12T12:33:00+08:00",
-        "expires_at": "2026-11-12T12:48:00+08:00"
+        "heartbeat_at": "2026-11-12T12:41:00+08:00",
+        "expires_at": "2026-11-12T12:56:00+08:00"
       },
       "active": {
         "cycle": 2,
@@ -43949,7 +43949,7 @@
         "action": "SCIENCE_REVISION",
         "run_record": "owl-pet/production/runs/20261112T115800+0800-cycle-2.md"
       },
-      "stage": "STARTED",
+      "stage": "RESEARCH_READY",
       "completed_count": 1,
       "stage_events": [
         {
@@ -44177,13 +44177,36 @@
             "baseline_main": "8c6079ab8fd3d5a4d246cbddeff9c684e91c879f",
             "lease_expires_at": "2026-11-12T12:48:00+08:00"
           }
+        },
+        {
+          "batch_id": "20261112T113500+0800",
+          "cycle": 2,
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-12T12:41:00+08:00",
+          "run_id": "20261112T115800+0800-cycle-2",
+          "species_id": 145,
+          "species": "Ninox philippensis",
+          "credited": false,
+          "evidence": {
+            "research_record": "owl-pet/research/species/145-ninox-philippensis-v4.md",
+            "source_index": "owl-pet/research/SOURCE_INDEX.md",
+            "new_verified_sources": 1,
+            "reused_or_reread_sources": 3,
+            "corrected_inferences": 4,
+            "complete_prompt_saved": true,
+            "prior_visuals_inspected": 2,
+            "design_boundary": "near-equal adults; direct age-unknown young with dark/uncalibrated iris, compact formed quills and supported stationary pose; exact age/sex/flight unknown",
+            "mikkola_access": "upload unavailable; repository-pinned page note reused, no fresh-page claim",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-12T12:56:00+08:00"
+          }
         }
       ],
       "active_lease": {
         "owner": "codex",
         "run_id": "20261112T115800+0800-cycle-2",
-        "heartbeat_at": "2026-11-12T12:33:00+08:00",
-        "expires_at": "2026-11-12T12:48:00+08:00"
+        "heartbeat_at": "2026-11-12T12:41:00+08:00",
+        "expires_at": "2026-11-12T12:56:00+08:00"
       }
     }
   ],
@@ -44338,8 +44361,8 @@
   "active_lease": {
     "owner": "codex",
     "run_id": "20261112T115800+0800-cycle-2",
-    "heartbeat_at": "2026-11-12T12:33:00+08:00",
-    "expires_at": "2026-11-12T12:48:00+08:00"
+    "heartbeat_at": "2026-11-12T12:41:00+08:00",
+    "expires_at": "2026-11-12T12:56:00+08:00"
   },
   "last_updated_at": "2026-11-12T12:33:00+08:00",
   "audit_notes": [
@@ -57825,6 +57848,29 @@
         "reason": "prior lease expired with main unchanged; resumed from STARTED after remote commit and run-record check",
         "baseline_main": "8c6079ab8fd3d5a4d246cbddeff9c684e91c879f",
         "lease_expires_at": "2026-11-12T12:48:00+08:00"
+      }
+    },
+    {
+      "batch_id": "20261112T113500+0800",
+      "cycle": 2,
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-12T12:41:00+08:00",
+      "run_id": "20261112T115800+0800-cycle-2",
+      "species_id": 145,
+      "species": "Ninox philippensis",
+      "credited": false,
+      "evidence": {
+        "research_record": "owl-pet/research/species/145-ninox-philippensis-v4.md",
+        "source_index": "owl-pet/research/SOURCE_INDEX.md",
+        "new_verified_sources": 1,
+        "reused_or_reread_sources": 3,
+        "corrected_inferences": 4,
+        "complete_prompt_saved": true,
+        "prior_visuals_inspected": 2,
+        "design_boundary": "near-equal adults; direct age-unknown young with dark/uncalibrated iris, compact formed quills and supported stationary pose; exact age/sex/flight unknown",
+        "mikkola_access": "upload unavailable; repository-pinned page note reused, no fresh-page claim",
+        "scientifically_verified": false,
+        "lease_expires_at": "2026-11-12T12:56:00+08:00"
       }
     }
   ],

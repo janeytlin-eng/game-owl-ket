@@ -1,3 +1,7 @@
+### #158 v4 LEDGER_CREDITED — active batch 3/6
+
+Verification `917406a7dd5656d6c7a4210b6d1725b85d687d5c` / tree `70d32e1ceebe3f152df7ec58f968ea38b3276736` credited once after corrected archive `c599bb697cfdbb8473b5bcd56715c7a76d1ad6bc`. Next cycle 4; lease released; unique 176/251; revision +1; science=false.
+
 ### #158 *Phodilus badius* v4 VERIFIED — ledger credit pending
 
 Archive `c599bb697cfdbb8473b5bcd56715c7a76d1ad6bc` / tree `2a1aa175cbdcbb4630cb75a6d2c77762215d2760`: untruncated tree; 20 required paths, 9 binary paths, 4 unique streams and manifests 839/808/817 verified. Full-color source unchanged; three connector-safe review crops matched local bytes exactly. Unique coverage remains 176/251; revision +1; science=false.

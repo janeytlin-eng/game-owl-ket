@@ -3479,6 +3479,25 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - New indexed sources: 3; reused repository record: 1. Exact age, sex, first-flight timing, quantitative dimorphism, continuous feather sequence and universal nest geometry remain unknown; `scientifically_verified=false`.
 
 
+## 2026-11-12 — #143 *Asio solomonensis* v4 — Bougainville survey habitat delta and juvenile re-read
+
+### FEO-WOXVOLD-NOVERA-2021-P226
+- **Title/authors/year:** “Avifauna of the Aiope River basin, Kunua District, north-west Bougainville Island” — Iain A. Woxvold & Junior Novera, 2021, *Bulletin of the British Ornithologists’ Club* 141(2):216–239.
+- **Stable ID / URL / access:** DOI https://doi.org/10.25226/bboc.v141i2.2021.a14 ; open PDF https://boc-online.org/bulletins/downloads/bboc.v141i2.2021.a14.pdf ; accessed and read 2026-11-12; peer-reviewed primary field survey.
+- **Locator:** printed p.226, Fig.4b and Fearful Owl species account.
+- **Species/stage:** historical combination *Nesasio solomonensis*; adult/age-unspecified field record and voice.
+- **Facts:** an owl was camera-trapped above Kukupi camp at 1,600 m on 18 April; calls were recorded at 1,440 m on 31 October. The account describes the species as widespread but sparsely distributed in northern-Solomons forest from lowlands to at least 2,000 m.
+- **Limits/conflicts/confidence:** one camera-trap record and one acoustic sequence do not supply adult sex, quantitative size direction, juvenile chronology, nesting detail or locomotor ability. High confidence for location/elevation and direct occurrence; not used to change the 1987 juvenile's stage or rescue-rail context.
+- **Design/check support:** confirms that the species is not restricted to lowland-only scenery and strengthens the humid forest boundary. V4 keeps the 1987 lowland rescue context for the older young and does not depict a nest.
+- **Links:** `owl-pet/research/species/143-asio-solomonensis-v4.md`; target v4 concept and review.
+
+### Re-read/reuse and unresolved lead
+- Re-read **FEO-LOYN-DEBUS-2000-P288-289** in full at printed pp.288–289 and Plate 79; its single age/sex/flight-unknown older young remains the only direct developmental boundary used.
+- Reused **FEO-ITIS-1244693-2026** and **FEO-OWLPAGES-2020** for current/old-name mapping and the adult diagnostic package; no new sex-size claim was added.
+- Hartert's 1901 BOC original-description page was located in BHL search results (vol.12, pp.24–25) but the scanned page returned HTTP 403 in this execution. It is recorded only as an unverified lead and is not used as evidence.
+- New verified/indexed sources: 1; re-read/reused verified records: 3; unverified leads used: 0. Scientific verification remains false.
+
+
 ## 2026-11-07 — #145 *Ninox philippensis* v3 — adult diagnosis, taxon mapping and constrained fledgling reuse
 
 ### LZBO-RASMUSSEN-2012-P13-14

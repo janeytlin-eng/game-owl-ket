@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T18:09:05+08:00",
+  "updated": "2026-11-12T18:24:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -31904,7 +31904,84 @@
       "verification_commit": "8777eec5850fb734c1c8e9afcc9424a8b1492df1",
       "verification_tree": "f2c7e42e75576cbcb2232fac011efee60cb2a529",
       "ledger_credited_at": "2026-11-12T18:09:05+08:00"
+    },
+    {
+      "id": "155-scotopelia-ussheri-v4",
+      "species_id": 155,
+      "scientific_name": "Scotopelia ussheri",
+      "historical_names": [
+        "Bubo ussheri"
+      ],
+      "common_name": "Rufous Fishing Owl",
+      "version": 4,
+      "prior_versions_retained": [
+        1,
+        2,
+        3
+      ],
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "path": "design/concepts/155-scotopelia-ussheri-v4.png",
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "status": "V4 preserves v1-v3 and retains the primary-paper's action-capable older juvenile: smaller, shorter, stubbier, paler and loose-feathered, with formed dusky-barred rufous wings because the observed bird flew. Adults remain near-equal because sex-size direction is unsupported. Dark eyes, no ear tufts, bluish-grey bills/yellow ceres, bare yellow-orange fishing feet, mainly plain/mixed rufous upperparts and fine underpart shaft streaks are retained. Both juvenile feet have separate natural support. Exact age, hatch date, first-flight threshold, nest and sex-size direction remain unknown; science=false.",
+      "source_ids": [
+        "RFO-MONTICELLI-KOROMA-BANNAH-2015-P183-188",
+        "RFO-KOPPETSCH-BOHME-2022-P97-98",
+        "RFO-IUCN-BIRDLIFE-2021-ID-ECOLOGY",
+        "RFO-GBIF-COL-4VY2L-2026"
+      ],
+      "unverified_leads": [
+        "RFO-ATKINSON-KOROMA-RANFT-1994-P67-72-LEAD"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-12--155-v4-research-refresh",
+      "research_record": "research/species/155-scotopelia-ussheri-v4.md",
+      "review_record": "research/reviews/155-scotopelia-ussheri-v4-review.md",
+      "run_record": "production/runs/20261112T181053+0800-cycle-6.md",
+      "reviewed_at": "2026-11-12T18:20:05+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 3073920,
+      "sha256": "f5085e580ba5444e3630d5de7b7cb5f175bd85287138e7b34a9c1e6df77e1e0a",
+      "git_blob": "346f46547f8e88fa182f5e4bb1e9014ea59f5764",
+      "initial_original_path": "production/generated/155-scotopelia-ussheri-v4-initial-original.png",
+      "initial_original_blob": "346f46547f8e88fa182f5e4bb1e9014ea59f5764",
+      "initial_original_size_bytes": 3073920,
+      "final_original_path": "production/generated/155-scotopelia-ussheri-v4-final-original.png",
+      "final_original_blob": "346f46547f8e88fa182f5e4bb1e9014ea59f5764",
+      "final_original_size_bytes": 3073920,
+      "full_color_source_path": "production/generated/155-scotopelia-ussheri-v4-full-color.png",
+      "full_color_source_blob": "346f46547f8e88fa182f5e4bb1e9014ea59f5764",
+      "full_color_source_size_bytes": 3073920,
+      "reviewed_path": "production/reviewed/155-scotopelia-ussheri-v4-reviewed-master.png",
+      "reviewed_blob": "346f46547f8e88fa182f5e4bb1e9014ea59f5764",
+      "reviewed_size_bytes": 3073920,
+      "review_crops": [
+        {
+          "path": "production/review-crops/155-scotopelia-ussheri-v4-adult-male.png",
+          "blob": "95d01b0f73051e8b077061dc292ebd70d1e538f0",
+          "size_bytes": 834219,
+          "sha256": "0ced7c28102b6def970d4cdfa49096adbd8a7ce485f68084fd31282117912651"
+        },
+        {
+          "path": "production/review-crops/155-scotopelia-ussheri-v4-older-juvenile.png",
+          "blob": "982bb844e6b45f98e61930cc71a328418532206b",
+          "size_bytes": 807497,
+          "sha256": "cb189c4d6c37425ed9ce0eb22d03b7f9424e5fd4be56d661b42a552471d972bf"
+        },
+        {
+          "path": "production/review-crops/155-scotopelia-ussheri-v4-adult-female.png",
+          "blob": "b31963e02f1276fa6d8f3089b5af5a65d12c85e3",
+          "size_bytes": 800381,
+          "sha256": "44c818df0b570a74caebcae1dcd802299eb28ca68e03e4c530d1f323fa0298db"
+        }
+      ],
+      "archive_note": "V1-v3 retained. Full plus three crops inspected; no edit required. First imagegen attempt aborted before output and one retry call was malformed; successful generation and all actual errors recorded. Mikkola upload unavailable. Atkinson 1994 body remained access-blocked and is not counted as verified evidence.",
+      "readback_pending": true,
+      "exact_readback": false,
+      "archive_commit_pending": true
     }
   ],
-  "updated_at": "2026-11-12T18:09:05+08:00"
+  "updated_at": "2026-11-12T18:24:00+08:00"
 }

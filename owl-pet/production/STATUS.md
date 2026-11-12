@@ -4064,3 +4064,9 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` read back; cycle 1 credi
 - Unique species remains **176/251**; this is a science revision.
 - Exact juvenile development, specimen sexing method and population-wide size direction remain unknown.
 - Canonical concept: `design/concepts/149-ninox-odiosa-v4.png`.
+
+
+## 2026-11-12 #155 *Scotopelia ussheri* v4 — ARCHIVED, verification pending
+- Batch `20261112T153846+0800`, cycle 6/6; action SCIENCE_REVISION; unique count stays 176/251.
+- Full image and three crops reviewed: PASS_WITH_LIMITATIONS; science=false.
+- Exact archive commit/readback will be recorded after verification.

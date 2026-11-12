@@ -1799,3 +1799,9 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 
 
 - 2026-11-12T17:45:50+08:00: #153 *Jubula lettii* v4 LEDGER_CREDITED after verification `9bbf4e41d95d1ef9ebd66673af3edcc45d7b986d`; batch 4/6, next cycle 5, lease released; unique 176/251; revision +1; science=false.
+
+
+## 2026-11-12 — #155 *Scotopelia ussheri* v4
+- Added evidence-bounded adult male / older juvenile / adult female riverine group plate; retained v1-v3.
+- Reread Monticelli et al. 2015, Koppetsch & Böhme 2022, IUCN/BirdLife 2021 and taxonomic mapping; Atkinson et al. 1994 retained only as an access-blocked lead.
+- Full and three crops reviewed; no edit required; PASS_WITH_LIMITATIONS, scientifically_verified=false.

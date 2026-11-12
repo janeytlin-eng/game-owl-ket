@@ -48268,7 +48268,7 @@
     },
     {
       "batch_id": "20261112T234106+0800",
-      "status": "ACTIVE",
+      "status": "PARTIAL",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -48291,32 +48291,39 @@
           "completed_at": "2026-11-13T00:02:09+08:00",
           "review_result": "PASS_WITH_LIMITATIONS",
           "scientifically_verified": false
+        },
+        {
+          "cycle": 2,
+          "run_id": "20261113T001020+0800-cycle-2",
+          "species_id": 169,
+          "species": "Ketupa shelleyi",
+          "version": 4,
+          "action": "SCIENCE_REVISION",
+          "result": "VERIFIED",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "archive_commit": "a88b948fe703a686b229a7b3fce992c0ee4924e7",
+          "archive_tree": "c6e09da24101b74241a7cd036faa9bcdebd56a28",
+          "verification_commit": "ea9492f0342ebbe4bbb20fc8d89a721613c7d9ae",
+          "verification_tree": "f0b213c600e3c06c4d7ec5f7f3251225de136fa4",
+          "commit_sha": "ea9492f0342ebbe4bbb20fc8d89a721613c7d9ae",
+          "run_record": "owl-pet/production/runs/20261113T001020+0800-cycle-2.md",
+          "concept_path": "owl-pet/design/concepts/169-ketupa-shelleyi-v4.png",
+          "completed_at": "2026-11-13T00:26:38+08:00",
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 2,
-      "active_cycle": 2,
+      "next_cycle": 3,
+      "active_cycle": null,
       "started_at": "2026-11-12T23:41:06+08:00",
-      "updated_at": "2026-11-13T00:24:10+08:00",
-      "current_stage": "VERIFIED",
-      "stage": "VERIFIED",
-      "completed_count": 1,
-      "ledger_credit_pending": true,
-      "lease": {
-        "owner": "codex-work-mode",
-        "run_id": "20261113T001020+0800-cycle-2",
-        "heartbeat_at": "2026-11-13T00:24:10+08:00",
-        "expires_at": "2026-11-13T00:39:10+08:00"
-      },
-      "active": {
-        "cycle": 2,
-        "run_id": "20261113T001020+0800-cycle-2",
-        "species_id": 169,
-        "species": "Ketupa shelleyi",
-        "version": 4,
-        "action": "SCIENCE_REVISION",
-        "stage": "VERIFIED",
-        "run_record": "owl-pet/production/runs/20261113T001020+0800-cycle-2.md"
-      },
+      "updated_at": "2026-11-13T00:26:38+08:00",
+      "current_stage": "LEDGER_CREDITED",
+      "stage": "LEDGER_CREDITED",
+      "completed_count": 2,
+      "ledger_credit_pending": false,
+      "lease": null,
+      "active": null,
       "stage_events": [
         {
           "batch_id": "20261112T234106+0800",
@@ -48655,6 +48662,25 @@
             "verification_commit_pending": true,
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-13T00:39:10+08:00"
+          }
+        },
+        {
+          "batch_id": "20261112T234106+0800",
+          "cycle": 2,
+          "stage": "LEDGER_CREDITED",
+          "at": "2026-11-13T00:26:38+08:00",
+          "run_id": "20261113T001020+0800-cycle-2",
+          "species_id": 169,
+          "species": "Ketupa shelleyi",
+          "credited": true,
+          "evidence": {
+            "archive_commit": "a88b948fe703a686b229a7b3fce992c0ee4924e7",
+            "verification_commit": "ea9492f0342ebbe4bbb20fc8d89a721613c7d9ae",
+            "next_cycle": 3,
+            "unique_species_increment": 0,
+            "revision_increment": 1,
+            "total_species": 251,
+            "unique_species": 176
           }
         }
       ]

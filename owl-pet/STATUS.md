@@ -4340,3 +4340,8 @@ Verification [`9bbf4e41`](https://github.com/janeytlin-eng/game-owl-ket/commit/9
 - Uploaded Mikkola printed p.134/PDF p.136 was directly read: no evidence of sexual size difference; juvenile only broadly resembles adult. V4 therefore uses near-equal adults, a non-sex-linked grey/dark morph direction and a fully supported age-unknown fledgling away from a nest.
 - One edit reduced adult ear-tuft prominence and softened/shortened the juvenile folded wing. Full plate and three crops: **PASS_WITH_LIMITATIONS**; scientifically_verified=false.
 - Remote archive readback and ledger credit are pending.
+
+
+## 2026-11-13 — #175 v4 archive verified
+
+Archive [`8646aecf`](https://github.com/janeytlin-eng/game-owl-ket/commit/8646aecf5770ea53ae1379b4b7aea84372f07d44) and its untruncated 4,971-entry tree were re-read. All 20 required paths, 9 binary aliases and 5 unique binary streams matched expected blobs and sizes. Verification is **PASS_WITH_LIMITATIONS**; science=false. Ledger credit is pending.

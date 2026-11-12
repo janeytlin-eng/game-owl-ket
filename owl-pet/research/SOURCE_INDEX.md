@@ -5245,3 +5245,20 @@ Reused/re-read without duplicate IDs for #130 v5: `KOEP-ITIS-686665-2026`, repos
 - **Facts:** initial name *Noctua punctulata*; current mapping *Ninox punctulata*; locality Sulawesi; sex and age explicitly indeterminate.
 - **Limits/confidence:** high for specimen identity and name/provenance mapping; does not support sex appearance, size direction, juvenile plumage or development.
 - **Design/QA use:** supports old-name mapping and prevents assigning the indeterminate holotype to an adult sex or age class. Linked: `research/species/165-ninox-punctulata-v4.md`, `design/concepts/165-ninox-punctulata-v4.png`.
+
+
+### GREO-MNHN-MO-1977-180
+- Title/institution: *Bubo africanus cinerascens* specimen MNHN-ZO-MO-1977-180, Muséum national d’Histoire naturelle.
+- Date/access: specimen record; accessed 2026-11-12. Type: museum specimen metadata/image.
+- Species/stage: *Bubo cinerascens* (historical *B. africanus cinerascens*), adult male, Ethiopia.
+- Facts read: 500 g; label records olive iris, black bill, brown tarsi.
+- Design use: conservative adult soft-part anchor for #166 v4.
+- Limits/confidence: single preserved specimen/label; no population sex ratio or juvenile inference. URL: https://science.mnhn.fr/institution/mnhn/collection/zo/item/mo-1977-180
+
+### GREO-MNHN-MO-1942-100
+- Title/institution: *Bubo africanus cinerascens* specimen MNHN-ZO-MO-1942-100, Muséum national d’Histoire naturelle.
+- Date/access: accessed 2026-11-12. Type: museum specimen metadata.
+- Species/stage: *Bubo cinerascens*, juvenile female; historical-name mapping.
+- Facts read: record explicitly labels sex female and age juvenile.
+- Design use: taxonomy/age-class corroboration only.
+- Limits/confidence: no exact age, live colour, feather sequence or flight information. URL: https://science.mnhn.fr/institution/mnhn/collection/zo/item/mo-1942-100

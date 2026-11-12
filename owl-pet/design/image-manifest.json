@@ -30923,7 +30923,7 @@
       "archive_commit_pending": false,
       "readback_pending": false,
       "exact_readback": true,
-      "ledger_credited": false,
+      "ledger_credited": true,
       "updated_at": "2026-11-12T16:52:07.554+08:00",
       "archive_commit": "3ef0ef2b9526f7c6c921f3855daad08b0507304e",
       "archive_tree": "8193dccf0ce6504423e509ee11a883a32a9299c6",
@@ -30952,10 +30952,14 @@
         "sha256_verified": true,
         "unique_species": "176/251",
         "scientifically_verified": false,
-        "verification_commit_pending": true
+        "verification_commit_pending": true,
+        "verification_commit": "efbb9c31a3abe5db364adcd9de75b0517e3e9aa0"
       },
-      "verification_commit_pending": true
+      "verification_commit_pending": false,
+      "ledger_credited_at": "2026-11-12T16:53:54.655+08:00",
+      "verification_commit": "efbb9c31a3abe5db364adcd9de75b0517e3e9aa0",
+      "verification_tree": "74a45b5f1d0d6e0d65d1c7b28d5e5f82e8082003"
     }
   ],
-  "updated_at": "2026-11-12T16:53:13.953+08:00"
+  "updated_at": "2026-11-12T16:53:54.655+08:00"
 }

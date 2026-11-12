@@ -48317,7 +48317,7 @@
       "next_cycle": 3,
       "active_cycle": 3,
       "started_at": "2026-11-12T23:41:06+08:00",
-      "updated_at": "2026-11-13T00:49:13.224+08:00",
+      "updated_at": "2026-11-13T00:51:38.307+08:00",
       "current_stage": "ARCHIVED",
       "stage": "ARCHIVED",
       "completed_count": 2,
@@ -48325,8 +48325,8 @@
       "lease": {
         "owner": "codex-work-mode",
         "run_id": "20261113T003105+0800-cycle-3",
-        "heartbeat_at": "2026-11-13T00:49:13.224+08:00",
-        "expires_at": "2026-11-13T01:12:13.224+08:00"
+        "heartbeat_at": "2026-11-13T00:51:38.307+08:00",
+        "expires_at": "2026-11-13T01:14:38.307+08:00"
       },
       "active": {
         "cycle": 3,
@@ -48833,6 +48833,38 @@
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-13T01:12:13.224+08:00"
           }
+        },
+        {
+          "batch_id": "20261112T234106+0800",
+          "cycle": 3,
+          "stage": "ARCHIVED",
+          "at": "2026-11-13T00:51:38.307+08:00",
+          "run_id": "20261113T003105+0800-cycle-3",
+          "species_id": 170,
+          "species": "Glaucidium sanchezi",
+          "credited": false,
+          "evidence": {
+            "repair": true,
+            "reason": "exact-size readback found +24/+25-byte data-URL-prefix corruption from application/octet-stream MIME; rebuilt five unique blobs after stripping everything before first comma",
+            "corrupted_archive_commit": "d7177e0b716058d3e5bd9272f0a1966ff470405b",
+            "correct_initial_blob": "50b3cf8b34f606bfb9928622d969f65703b161d3",
+            "correct_final_blob": "e24208dc7148adcd4c26a5afc34788509ba51993",
+            "correct_crop_blobs": [
+              "afed8cf058b683493cf26d9b043621d3a2675602",
+              "b1dcc9c8e482e685e901ca91804b2eb7914ed8e4",
+              "520bcb0c08fa2c3a260e04d7a2fff87f064960c5"
+            ],
+            "expected_sizes": {
+              "initial": 3104466,
+              "final": 2714358,
+              "adult_male": 675151,
+              "adult_female": 670462,
+              "immature": 594886
+            },
+            "readback_pending": true,
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-13T01:14:38.307+08:00"
+          }
         }
       ]
     }
@@ -48984,10 +49016,10 @@
   "active_lease": {
     "owner": "codex-work-mode",
     "run_id": "20261113T003105+0800-cycle-3",
-    "heartbeat_at": "2026-11-13T00:49:13.224+08:00",
-    "expires_at": "2026-11-13T01:12:13.224+08:00"
+    "heartbeat_at": "2026-11-13T00:51:38.307+08:00",
+    "expires_at": "2026-11-13T01:14:38.307+08:00"
   },
-  "last_updated_at": "2026-11-13T00:49:13.224+08:00",
+  "last_updated_at": "2026-11-13T00:51:38.307+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -51091,7 +51123,7 @@
       "lease_expires_at": "2026-11-07T21:08:00+08:00"
     }
   ],
-  "last_updated": "2026-11-13T00:49:13.224+08:00",
+  "last_updated": "2026-11-13T00:51:38.307+08:00",
   "audit_log": [
     {
       "at": "2026-10-31T18:36:48+08:00",
@@ -74290,7 +74322,7 @@
       "scientifically_verified": false
     }
   ],
-  "updated": "2026-11-13T00:49:13.224+08:00",
+  "updated": "2026-11-13T00:51:38.307+08:00",
   "stage": "ARCHIVED",
   "stage_evidence": {
     "archive_commit": "e901aa6a1e103246270aed728c5564060399faf9",

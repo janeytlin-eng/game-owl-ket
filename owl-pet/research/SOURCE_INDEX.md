@@ -4946,3 +4946,28 @@ Reused/re-read without duplicate IDs for #130 v5: `KOEP-ITIS-686665-2026`, repos
 - `NIBO-JARDINE-1848-53-LEAD`: a large historical scan surfaced but could not be opened; search-result text remains unverified and is not a design basis.
 - **Index delta:** new verified 2; reused/reread 4 stable IDs plus one second-syntype record; unverified leads 1; corrected design inference 1 (closed eyes were not a source fact).
 - Detailed evidence boundary and full prompt: [#150 v4 research](species/150-ninox-variegata-v4.md). Scientific verification remains false.
+
+
+## 2026-11-12 — #151 *Athene jacquinoti* v4 evidence refresh
+
+### WSO-MNHN-RECORD-2010-270
+- **Title/institution/year:** MNHN-ZO-2010-270 *Athene jacquinoti* holotype record; Muséum national d’Histoire naturelle; live catalogue.
+- **URL / accessed / type:** https://science.mnhn.fr/institution/mnhn/collection/zo/item/2010-270 ; accessed 2026-11-12; institutional specimen database.
+- **Applies to:** male holotype, age indeterminate, San Jorge Island, November 1838.
+- **Facts / use:** type, sex, age-indeterminate status, locality and historical determination trail; prevents treating this specimen as juvenile evidence.
+- **Limits / confidence:** high metadata confidence; its displayed “current” *Ninox* determination is historically superseded by the project’s IOC/ITIS *Athene* treatment; no female, living colour or development.
+- **Decision link:** research/species/151-athene-jacquinoti-v4.md; design/concepts/151-athene-jacquinoti-v4.png.
+
+### WSO-MNHN-VOISIN-2011-P26
+- **Title/authors/year:** *List of type specimens of birds…21. Strigiformes*; Claire Voisin & Jean-François Voisin; 2011.
+- **URL / page:** https://publikace.nm.cz/file/e6d69a0d1788f9c0bd61bea0c6af0058/16751/180-2011-02-Voisin-Strigidae.pdf ; printed p.26, Fig.6; accessed 2026-11-12.
+- **Applies to:** male holotype C.G. 2010-270 and historical *Athene taeniata* based on the same specimen.
+- **Facts / use:** original-combination/type-history crosswalk and San Jorge provenance.
+- **Limits / confidence:** authoritative type catalogue but uses 2011 *Ninox* taxonomy; not living morphology, sex dimorphism or juvenile evidence.
+- **Decision link:** research/species/151-athene-jacquinoti-v4.md.
+
+### Reused/reread stable records
+- **WSO-EBIRD-IMAGE-262766631:** actual 900-px living image reopened; adult-like colour/stance only; sex, age and subspecies unspecified.
+- **WSO-MNHN-HOLOTYPE-PHOTO-2026:** adult male pattern only; age indeterminate and damaged eyes.
+- **WSO-BONAPARTE-1850-P42-LEAD:** still unverified original-description locator; no morphology claim.
+- **WSO-ITIS-1063526:** current *Athene jacquinoti* / West Solomons Owl taxonomy, citing IOC v15.1; taxonomy only.

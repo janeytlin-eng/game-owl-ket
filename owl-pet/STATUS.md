@@ -4179,3 +4179,11 @@ V4科学修订保留v1–v3，且不把#154旧属名重复项另计物种。Goss
 
 Archive [`20a15f3451f79d59d02fd1a16f531962989fb647`](https://github.com/janeytlin-eng/game-owl-ket/commit/20a15f3451f79d59d02fd1a16f531962989fb647) / tree `1f319047b091f01ab9c0aeba3581248e2a8ff2f6` returned 4,542 non-truncated entries. All 23 required paths are present; twelve PNG paths match four exact blob/byte tuples, including the 2,922,240-byte original stream and three crop streams. Three manifests parse locally at 824/793/802 and their exact blobs match the archive tree. `PASS_WITH_LIMITATIONS`; science=false; unique remains 176/251; cycle credit pending until verification-commit readback.
 
+## 2026-11-12 — #142 v4 LEDGER_CREDITED — batch complete 6/6
+
+Verification [`75acc5a4bf47fa3fea28ee72507f26269db45282`](https://github.com/janeytlin-eng/game-owl-ket/commit/75acc5a4bf47fa3fea28ee72507f26269db45282) was read back after archive [`20a15f3451f79d59d02fd1a16f531962989fb647`](https://github.com/janeytlin-eng/game-owl-ket/commit/20a15f3451f79d59d02fd1a16f531962989fb647). Cycle 6 is credited exactly once; batch `20261112T074300+0800` is complete 6/6 and its lease is released. Unique coverage remains 176/251; this is revision +1, science=false. No other PARTIAL batch is registered.
+
+## 2026-11-12 — #142 v4 LEDGER_CREDITED — batch COMPLETE 6/6
+
+Verification [`75acc5a4bf47fa3fea28ee72507f26269db45282`](https://github.com/janeytlin-eng/game-owl-ket/commit/75acc5a4bf47fa3fea28ee72507f26269db45282) was read back after archive [`20a15f3451f79d59d02fd1a16f531962989fb647`](https://github.com/janeytlin-eng/game-owl-ket/commit/20a15f3451f79d59d02fd1a16f531962989fb647). Cycle 6 is credited exactly once; batch `20261112T074300+0800` is complete 6/6, leases are released, and no other PARTIAL batch is registered. Unique coverage remains 176/251; this is revision +1 and science=false.
+

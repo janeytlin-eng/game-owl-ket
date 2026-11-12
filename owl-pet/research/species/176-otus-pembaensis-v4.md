@@ -1,8 +1,8 @@
 # #176 Pemba Scops Owl — *Otus pembaensis* — v4 research and generation boundary
 
 - Action: SCIENCE_REVISION; v1–v3 preserved; unique increment 0.
-- Stage: ARCHIVED_PENDING_READBACK
-- Updated: 2026-11-13T04:02:00+08:00
+- Stage: VERIFIED; ledger credit pending
+- Updated: 2026-11-13T04:06:00+08:00
 - Scientific status: false
 
 ## Sources actually read

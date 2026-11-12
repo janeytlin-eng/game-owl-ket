@@ -4354,3 +4354,7 @@ Verification [`9fd418fb`](https://github.com/janeytlin-eng/game-owl-ket/commit/9
 
 V4 preserves v1-v3. Uploaded Mikkola printed p.135/PDF p.137, Catry et al. habitat evidence and institutional uncertainty were applied: near-equal adults, only a subtle male folded-wing cue, and an age-unknown dark-eyed mesoptile with short soft wing and bilateral support. One image edit reduced sharp adult tufts and an adult-like juvenile wing. Nine PNG paths and four current manifests are staged. `PASS_WITH_LIMITATIONS`; science=false; immutable readback and ledger credit pending.
 
+## 2026-11-13 — #176 *Otus pembaensis* v4 immutable archive VERIFIED; ledger credit pending
+
+Archive [`46cb2125`](https://github.com/janeytlin-eng/game-owl-ket/commit/46cb212584ca721969c7692a03ae8ffb991617f9) / tree `accee29c1339ce0978eddb384b187bb761920d38` passed remote readback: 4,983 entries, `truncated=false`, 20 required paths, nine exact PNG blob/byte checks and four manifests 857/826/835/813 with one v4 record each. `PASS_WITH_LIMITATIONS`; science=false; ledger credit pending.
+

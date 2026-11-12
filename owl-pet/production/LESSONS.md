@@ -77,3 +77,12 @@ undefined
 - When the same record documents only slight wing opening and bill-clapping, render a compact partially lifted wing with belly and both feet supported; keep first-flight threshold and independence unknown.
 - If a paper gives different estimated age ranges in its results and discussion (here 20–30 versus 25–30 d), do not collapse them into an exact-age design label.
 - Applied and visually verified for #120 *Megascops ingens* v5 after one edit; broader effectiveness is not claimed.
+
+
+## 2026-11-12 — #140 *Otus rufescens* v5: an evidence-management pose is not a species fact
+
+- **Observed risk:** v4 used a closed-eye downy chick to avoid inventing an unknown juvenile iris, but later reuse could silently turn that cautionary pose into an asserted developmental character.
+- **Evidence:** the reopened primary description supports an age-unknown mesoptile that is almost uniform rich rufescent-brown, with a weak dark facial-disc rim and vague barring strongest on hindcrown/upper mantle; it does not state that the bird's eyes were closed, its iris colour, exact age, flight ability or nest position.
+- **Applied change:** v5 selects the directly described mesoptile, renders open eyes with a dark/non-diagnostic iris, a compact formed soft wing, short/hidden tail and bilateral branch support, while retaining all missing chronology as unknown.
+- **Verified result:** the full plate and three role crops passed without edit. PASS_WITH_LIMITATIONS; science=false.
+- **Reusable rule:** record why a conservative pose was chosen, and never promote that pose into an observed developmental fact on the next revision. Prefer the best directly described stage, then neutralize only the unsupported feature. Verified here only.

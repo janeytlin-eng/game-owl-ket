@@ -1,3 +1,14 @@
+## 2026-11-12 — #140 Reddish Scops Owl — *Otus rufescens* v5 ARCHIVED, readback pending
+
+V5科学修订保留v1–v4，并纠正把v4“闭眼”这一证据管理姿态误当物种幼鸟事实的风险。新图改用原始论文直接描述的年龄未知 mesoptile：近均一浓红褐、面盘暗缘弱、后冠/上背有较模糊斑纹；虹膜保持暗而不诊断，翼短而柔软且已形成，尾短/遮蔽，双足有自然支撑。成年雌雄保持近等尺度，不套用固定雌大雄小。整图及三张角色裁切已实际打开，无需编辑；结果 `PASS_WITH_LIMITATIONS`，science=false。
+
+- Concept: `design/concepts/140-otus-rufescens-v5.png`
+- Initial/final originals: `production/generated/140-otus-rufescens-v5-initial-original.png`, `production/generated/140-otus-rufescens-v5-final-original.png`
+- Research/review: `research/species/140-otus-rufescens-v5.md`, `research/reviews/140-otus-rufescens-v5-review.md`
+- Run: `production/runs/20261112T094200+0800-cycle-4.md`
+- Sources: new stable 0; reread/reused 3; corrected inference 1. Uploaded Mikkola guide unavailable this run; repository-pinned printed p.178/PDF p.180 only.
+- Unique coverage remains 176/251; revision +1; immutable readback pending.
+
 ## 2026-11-08 — #30 v5 LEDGER_CREDITED — active batch 5/6
 
 Verification [`eb2b0ded23e99ef41f237e51af24e0321938aa04`](https://github.com/janeytlin-eng/game-owl-ket/commit/eb2b0ded23e99ef41f237e51af24e0321938aa04) was read back after archive [`39f2f54fd69d96e0317cb4c8209c8fd9742981ab`](https://github.com/janeytlin-eng/game-owl-ket/commit/39f2f54fd69d96e0317cb4c8209c8fd9742981ab). Cycle 5 credited once; lease released; next cycle 6. Unique coverage remains 176/251; revision +1; science=false.

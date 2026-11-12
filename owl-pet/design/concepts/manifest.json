@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T09:02:00+08:00",
+  "updated": "2026-11-12T09:52:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -32254,7 +32254,96 @@
         "unique_species": "176/251",
         "scientifically_verified": false
       }
+    },
+    {
+      "id": "140-otus-rufescens-v5",
+      "path": "design/concepts/140-otus-rufescens-v5.png",
+      "species_id": 140,
+      "scientific_name": "Otus rufescens",
+      "historical_names": [
+        "Strix rufescens"
+      ],
+      "common_name": "Reddish Scops Owl",
+      "scope": "Nominate light-morph concept in wet lowland rainforest; directly described age-unknown mesoptile; exact age, iris, flight, nest position, population sex-size and subspecies diagnosis unresolved",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "prior_versions_retained": true,
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 0,
+      "imagegen_invocations": 1,
+      "status": "ARCHIVED_PENDING_READBACK",
+      "source_ids": [
+        "RFS-WARAKAGODA-RASMUSSEN-2004",
+        "RFS-ITIS-555364-2026",
+        "RFS-MIKKOLA-2013-P178"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/140-otus-rufescens-v5.md",
+      "review_record": "research/reviews/140-otus-rufescens-v5-review.md",
+      "run_record": "production/runs/20261112T094200+0800-cycle-4.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2649446,
+      "sha256": "a5076cf243a80313d508202f80006a2fc53fa47c999a5ec722d15e417b88257e",
+      "git_blob": "d07daf244a5bb03cbe4ffbeadc32ed5675142af1",
+      "initial_original_path": "production/generated/140-otus-rufescens-v5-initial-original.png",
+      "initial_original_blob": "d07daf244a5bb03cbe4ffbeadc32ed5675142af1",
+      "initial_original_size_bytes": 2649446,
+      "initial_original_sha256": "a5076cf243a80313d508202f80006a2fc53fa47c999a5ec722d15e417b88257e",
+      "final_original_path": "production/generated/140-otus-rufescens-v5-final-original.png",
+      "final_original_blob": "d07daf244a5bb03cbe4ffbeadc32ed5675142af1",
+      "final_original_size_bytes": 2649446,
+      "final_original_sha256": "a5076cf243a80313d508202f80006a2fc53fa47c999a5ec722d15e417b88257e",
+      "generated_path": "production/generated/140-otus-rufescens-v5-generated-master.png",
+      "generated_blob": "d07daf244a5bb03cbe4ffbeadc32ed5675142af1",
+      "generated_size_bytes": 2649446,
+      "full_color_source_path": "production/generated/140-otus-rufescens-v5-full-color.png",
+      "full_color_source_blob": "d07daf244a5bb03cbe4ffbeadc32ed5675142af1",
+      "full_color_source_size_bytes": 2649446,
+      "reviewed_path": "production/reviewed/140-otus-rufescens-v5-reviewed-master.png",
+      "reviewed_blob": "d07daf244a5bb03cbe4ffbeadc32ed5675142af1",
+      "reviewed_size_bytes": 2649446,
+      "review_crops": [
+        {
+          "path": "production/review-crops/140-otus-rufescens-v5-adult-male.png",
+          "blob": "2191d4e8701c7f407e7c29df925c3a9a025a764d",
+          "size_bytes": 660358,
+          "sha256": "d2d5014036ef3978b14286af01cc7a89c82bc986b8b1fbedb567901150130adb"
+        },
+        {
+          "path": "production/review-crops/140-otus-rufescens-v5-age-unknown-mesoptile.png",
+          "blob": "6b759460fc4312d2806b6857b2cbeec405428b42",
+          "size_bytes": 622091,
+          "sha256": "b6a6891c1f2989e6467fa08fa38be2eb8e286d6dd39a203d7fc9a1c3e6a377f9"
+        },
+        {
+          "path": "production/review-crops/140-otus-rufescens-v5-adult-female.png",
+          "blob": "e210c24825ff89e46c4f158b5f165da0b05f2061",
+          "size_bytes": 703830,
+          "sha256": "7d5f5f13c269c16890ad41ccf1334befc14f346516cba7de7bc11311f550af02"
+        }
+      ],
+      "archive_note": "V4, v5 full plate and all three final role crops were opened. V5 replaces the evidence-management closed-eye chick with the directly described age-unknown mesoptile. Adults remain near-equal. Exact mesoptile age, sex, iris chronology, flight, nest position and population sex-size remain unknown. New stable sources 0; reread 3; corrected inference 1. Mikkola upload unavailable; repository-pinned p.178/PDF p.180 reading only. Science false.",
+      "archived_at": "2026-11-12T09:55:00+08:00",
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false,
+      "archive_commit": null,
+      "archive_tree": null,
+      "verified_at": null,
+      "verification_result": null
     }
   ],
-  "updated_at": "2026-11-12T09:02:00+08:00"
+  "updated_at": "2026-11-12T09:52:00+08:00"
 }

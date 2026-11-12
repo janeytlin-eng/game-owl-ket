@@ -47086,7 +47086,7 @@
       "next_cycle": 5,
       "active_cycle": null,
       "started_at": "2026-11-12T21:36:00+08:00",
-      "updated_at": "2026-11-12T22:33:00+08:00",
+      "updated_at": "2026-11-12T22:36:00+08:00",
       "current_stage": "LEDGER_CREDITED",
       "stage": "LEDGER_CREDITED",
       "completed_count": 4,
@@ -47096,8 +47096,8 @@
         "run_id": "20261112T223037+0800-cycle-5",
         "cycle": 5,
         "acquired_at": "2026-11-12T22:30:37+08:00",
-        "heartbeat_at": "2026-11-12T22:33:00+08:00",
-        "expires_at": "2026-11-12T22:48:00+08:00",
+        "heartbeat_at": "2026-11-12T22:36:00+08:00",
+        "expires_at": "2026-11-12T22:51:00+08:00",
         "species_id": 166,
         "species": "Bubo cinerascens"
       },
@@ -47924,6 +47924,27 @@
             "mikkola_access": "upload not mounted; no fresh page claim",
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-12T22:48:00+08:00"
+          }
+        },
+        {
+          "batch_id": "20261112T213600+0800",
+          "cycle": 5,
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-12T22:36:00+08:00",
+          "run_id": "20261112T223037+0800-cycle-5",
+          "species_id": 166,
+          "species": "Bubo cinerascens",
+          "credited": false,
+          "evidence": {
+            "initial_original": "owl-pet/production/generated/166-bubo-cinerascens-v4-initial-original.png",
+            "initial_blob": "771ee5291783620ab374eb5a17b884ba2b5cc6b6",
+            "initial_bytes": 3626881,
+            "initial_sha256": "e1a42059b4a8dc061fa9d6c7979b5069ebdcd5a8baaa8d60af4b47da204ad697",
+            "geometry": "1536x1024",
+            "generation_seconds": 49,
+            "preliminary_inspection": "exact title/count/order/labels; near-equal grey-brown adults with short low tufts, dark/olive eyes, black bills, barred flight feathers and supported visible feet; compact softer 35–43-day young fully supported among exposed roots; no flight/nest/human claim; crop review pending",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-12T22:51:00+08:00"
           }
         }
       ]

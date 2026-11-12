@@ -1,0 +1,19 @@
+{
+  "status": "UNAPPROVED 2D single-chick reference, not 3D or a live mobile model",
+  "source": "#172 v3 rightmost bird 1536x1024 repo original",
+  "method": "GrabCut through y=399; smoothstep blend to u2netp by y=487 to remove bark near feet; both eyes retained",
+  "opaque_coverage": 0.59807,
+  "eye_box_alpha_means": [
+    255.0,
+    255.0
+  ],
+  "inputs": {
+    "grabcut": "73a221247d9c9fca8a1f3064e1e596308db2ca4e3eed8caf53ae35c19a2eda22",
+    "u2netp": "ab1a6d52977370965c17a3d719f1ca18b269e318db061791a4fa64912da8fc70"
+  },
+  "outputs": {
+    "hybrid_rgba": "1e5402569fafa9c8954ed6530307cbd27ef68e60681b7a1b20630fef1391c841",
+    "hybrid_QA": "f069e0e144c1957d57202f71da6f39e5f20cd1c10fd37989712f9b5114d824d3"
+  },
+  "limit": "Sides/back are not observed. Do not project frontal details onto unseen rear or treat photo as 3D."
+}

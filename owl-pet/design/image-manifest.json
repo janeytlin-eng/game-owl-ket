@@ -32266,7 +32266,87 @@
       "verification_commit": "9b82b2f60a54864e84ec1a59ed33a79bf49054e0",
       "verification_tree": "52852508bde5b6e637b797c930d91daac6ed2509",
       "ledger_credited_at": "2026-11-12T22:49:00+08:00"
+    },
+    {
+      "id": "167-ketupa-poensis-v4",
+      "species_id": 167,
+      "scientific_name": "Ketupa poensis",
+      "historical_names": [
+        "Bubo poensis",
+        "Bubo poensis poensis",
+        "Bubo vosseleri (current K. p. vosseleri)"
+      ],
+      "common_name": "Fraser's Eagle-Owl",
+      "version": 4,
+      "prior_versions_retained": [
+        1,
+        2,
+        3
+      ],
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "path": "design/concepts/167-ketupa-poensis-v4.png",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "status": "V4 preserves v1-v3 and revalidates western nominate identity/taxonomy. Adults show Sharpe 1875's conspicuous but irregular broken silvery-white scapular patches without a continuous collar, many narrow bars, dark eyes and barred feathered tarsi. Female is only subtly fuller from species-specific evidence. The AGE-UNKNOWN YOUNG follows Sharpe's directly described much lighter tawny-fulvous/whitish narrow-barred plumage and MNHN's explicit juvenile? uncertainty; exact age, sex, living soft parts and flight remain unknown; science=false.",
+      "source_ids": [
+        "FREO-SHARPE-1875-P42",
+        "FREO-MNHN-MO-1971-66",
+        "FREO-CLEMENTS-2022-LUMP"
+      ],
+      "unverified_leads": [],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/167-ketupa-poensis-v4.md",
+      "review_record": "research/reviews/167-ketupa-poensis-v4-review.md",
+      "run_record": "production/runs/20261112T225100+0800-cycle-6.md",
+      "reviewed_at": "2026-11-12T23:03:00+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 3312049,
+      "sha256": "24de15d5ee6f329fa2dc7404376f43cde352a54f173c92da3d32c62260612f8f",
+      "git_blob": "2e3412255d10fa3db63e25f2bc2323344971b3d0",
+      "initial_original_path": "production/generated/167-ketupa-poensis-v4-initial-original.png",
+      "initial_original_blob": "2e3412255d10fa3db63e25f2bc2323344971b3d0",
+      "initial_original_size_bytes": 3312049,
+      "final_original_path": "production/generated/167-ketupa-poensis-v4-final-original.png",
+      "final_original_blob": "2e3412255d10fa3db63e25f2bc2323344971b3d0",
+      "final_original_size_bytes": 3312049,
+      "full_color_source_path": "production/generated/167-ketupa-poensis-v4-full-color.png",
+      "full_color_source_blob": "2e3412255d10fa3db63e25f2bc2323344971b3d0",
+      "full_color_source_size_bytes": 3312049,
+      "reviewed_path": "production/reviewed/167-ketupa-poensis-v4-reviewed-master.png",
+      "reviewed_blob": "2e3412255d10fa3db63e25f2bc2323344971b3d0",
+      "reviewed_size_bytes": 3312049,
+      "review_crops": [
+        {
+          "path": "production/review-crops/167-ketupa-poensis-v4-adult-male.png",
+          "blob": "bc4b342ce19e1b3ba1895d7b0e72a0503a719e63",
+          "size_bytes": 887731,
+          "sha256": "f53ce21448064065aa33318965a3c6781d299b684b1f9a7f38669382da781eda"
+        },
+        {
+          "path": "production/review-crops/167-ketupa-poensis-v4-adult-female.png",
+          "blob": "630790b91dbdf16476ae8837206bac4f09f3cc12",
+          "size_bytes": 874902,
+          "sha256": "ae51a9568683beab5e6e03f66cb98493a0c35a8c66fafd0fccb3fe566326271f"
+        },
+        {
+          "path": "production/review-crops/167-ketupa-poensis-v4-young.png",
+          "blob": "46918a6efef931076b7e75cff9e7069e976aa0ac",
+          "size_bytes": 801646,
+          "sha256": "8a05ab9db3ed8f7042927c1108b575b5689cf4273587fd12b72176f65dc53afa"
+        }
+      ],
+      "archive_note": "V1-v3 preserved. Sharpe 1875 p.42, MNHN MO-1971-66 and Cornell Clements 2022 taxonomy update reread. Full plate, three crops and montage opened; edit0. Mikkola upload not mounted. PASS_WITH_LIMITATIONS; science=false.",
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false,
+      "ledger_credited": false,
+      "batch_id": "20261112T213600+0800",
+      "batch_cycle": 6
     }
   ],
-  "updated_at": "2026-11-12T22:44:00+08:00"
+  "updated_at": "2026-11-12T23:06:00+08:00"
 }

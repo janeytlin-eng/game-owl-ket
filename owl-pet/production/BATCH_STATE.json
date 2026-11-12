@@ -47107,9 +47107,9 @@
       "next_cycle": 6,
       "active_cycle": 6,
       "started_at": "2026-11-12T21:36:00+08:00",
-      "updated_at": "2026-11-12T22:59:00+08:00",
-      "current_stage": "IMAGE_GENERATED",
-      "stage": "IMAGE_GENERATED",
+      "updated_at": "2026-11-12T23:06:00+08:00",
+      "current_stage": "ARCHIVED",
+      "stage": "ARCHIVED",
       "completed_count": 5,
       "ledger_credit_pending": false,
       "lease": {
@@ -47117,8 +47117,8 @@
         "run_id": "20261112T225100+0800-cycle-6",
         "cycle": 6,
         "acquired_at": "2026-11-12T22:51:00+08:00",
-        "heartbeat_at": "2026-11-12T22:59:00+08:00",
-        "expires_at": "2026-11-12T23:14:00+08:00",
+        "heartbeat_at": "2026-11-12T23:06:00+08:00",
+        "expires_at": "2026-11-12T23:21:00+08:00",
         "species_id": 167,
         "species": "Ketupa poensis"
       },
@@ -48149,6 +48149,55 @@
             "preliminary_inspection": "exact title/count/order/labels; adults show conspicuous irregular broken white scapular patches without collar, dark eyes, slate bills, barred tarsi and supported feet; age-unknown young is much paler, softer and supported; crop review completed after persistence",
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-12T23:14:00+08:00"
+          }
+        },
+        {
+          "batch_id": "20261112T213600+0800",
+          "cycle": 6,
+          "stage": "REVIEWED",
+          "at": "2026-11-12T23:03:00+08:00",
+          "run_id": "20261112T225100+0800-cycle-6",
+          "species_id": 167,
+          "species": "Ketupa poensis",
+          "credited": false,
+          "evidence": {
+            "review_record": "owl-pet/research/reviews/167-ketupa-poensis-v4-review.md",
+            "result": "PASS_WITH_LIMITATIONS",
+            "edit_count": 0,
+            "final_blob": "2e3412255d10fa3db63e25f2bc2323344971b3d0",
+            "actual_views": [
+              "full plate 1536x1024",
+              "adult male crop",
+              "adult female crop",
+              "age-unknown young crop",
+              "three-crop montage"
+            ],
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-12T23:21:00+08:00"
+          }
+        },
+        {
+          "batch_id": "20261112T213600+0800",
+          "cycle": 6,
+          "stage": "ARCHIVED",
+          "at": "2026-11-12T23:06:00+08:00",
+          "run_id": "20261112T225100+0800-cycle-6",
+          "species_id": 167,
+          "species": "Ketupa poensis",
+          "credited": false,
+          "evidence": {
+            "concept_path": "owl-pet/design/concepts/167-ketupa-poensis-v4.png",
+            "image_blob": "2e3412255d10fa3db63e25f2bc2323344971b3d0",
+            "image_bytes": 3312049,
+            "manifest_counts": {
+              "owl-pet/design/concepts/manifest.json": 848,
+              "owl-pet/design/image-manifest.json": 817,
+              "owl-pet/design/manifest.json": 826,
+              "owl-pet/production/image-manifest.json": 804
+            },
+            "archive_commit_pending": true,
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-12T23:21:00+08:00"
           }
         }
       ]

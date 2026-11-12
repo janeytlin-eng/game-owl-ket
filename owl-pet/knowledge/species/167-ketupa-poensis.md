@@ -1,7 +1,9 @@
-# #167 *Ketupa poensis* — Fraser’s Eagle-Owl
+# #167 *Ketupa poensis* — Fraser's Eagle-Owl
 
-- Current complex: western *K. p. poensis* + eastern *K. p. vosseleri*; historical *Bubo poensis* / *Bubo vosseleri*. Do not count Usambara separately.
-- v1 800×533 recovery derivative preserved. v2 restores a 1536×1024 western-nominate plate.
-- Center is an age-unknown mesoptile. Complete adult-patterned wing/tail is an explicit Mikkola exception, not a generic juvenile template. Female is fuller/heavier based on species-specific mean mass evidence.
-- Full plate and mesoptile/adult-pattern-feet crops actually viewed: PASS_WITH_LIMITATIONS; no edit required. Exact age, flight ability, continuous feather sequence, nest geometry, living juvenile soft parts and universal palette unknown; science=false.
-- [Research](../../research/species/167-ketupa-poensis-v2.md) · [Run](../../production/runs/20261101T015000+0800-cycle-2.md).
+- Current/historical: *Ketupa poensis* ⇄ *Bubo poensis*; western *K. p. poensis* shown; historical *Bubo vosseleri* = current eastern *K. p. vosseleri*.
+- Archived concepts: v1–v3 preserved; v4 science revision at `design/concepts/167-ketupa-poensis-v4.png`.
+- V4 evidence: Sharpe 1875 p.42, MNHN MO-1971-66 and Cornell Clements October 2022 taxonomy update.
+- Decision: conspicuous irregular silvery shoulder patches without collar; age-unknown much lighter tawny-fulvous/whitish narrow-barred young; exact stage/flight not inferred.
+- Review: full plate, three crops and montage viewed. PASS_WITH_LIMITATIONS, edit0.
+- Unknown: exact young age/sex, living soft parts, flight, continuous feather sequence, quantified sex ratio and nest geometry. `scientifically_verified=false`.
+- Research: [v4 card](../../research/species/167-ketupa-poensis-v4.md) · [v4 review](../../research/reviews/167-ketupa-poensis-v4-review.md) · [run](../../production/runs/20261112T225100+0800-cycle-6.md).

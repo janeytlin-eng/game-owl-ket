@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T13:25:00+08:00",
+  "updated": "2026-11-12T13:28:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -32983,7 +32983,7 @@
       "revision_increment": 1,
       "edit_count": 0,
       "imagegen_invocations": 1,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "CAMBOO-RASMUSSEN-2012-FORKTAIL",
         "CAMBOO-COMMONS-CHUA-2025",
@@ -33040,12 +33040,42 @@
       ],
       "archive_note": "V1-v3 retained. Primary description reread; pale iris/thinly-bristled tarsi override an unread secondary snippet. One adult uses the documented song-display throat/wing cue without sex assignment. Full plate and crops viewed; no edit required. Exact juvenile chronology, sex differences and nest/flight state remain unknown. Fresh Mikkola upload unavailable. Science false.",
       "archived_at": "2026-11-12T13:25:00+08:00",
-      "archive_commit_pending": true,
-      "readback_pending": true,
-      "exact_readback": false,
+      "archive_commit_pending": false,
+      "readback_pending": false,
+      "exact_readback": true,
       "ledger_credited": false,
-      "updated_at": "2026-11-12T13:25:00+08:00"
+      "updated_at": "2026-11-12T13:28:00+08:00",
+      "archive_commit": "c373f691c8ebd34464809ac91742ccf3a7dcf458",
+      "archive_tree": "691fa02e4720827c99c6f320929a911710023886",
+      "verified_at": "2026-11-12T13:28:00+08:00",
+      "verification_result": "PASS_WITH_LIMITATIONS",
+      "required_paths_verified": 21,
+      "exact_binary_paths_verified": 9,
+      "unique_binary_streams_tree_verified": 4,
+      "readback": {
+        "status": "VERIFIED",
+        "archive_commit": "c373f691c8ebd34464809ac91742ccf3a7dcf458",
+        "tree_sha": "691fa02e4720827c99c6f320929a911710023886",
+        "tree_entries": 4601,
+        "tree_truncated": false,
+        "required_paths_verified": 21,
+        "exact_binary_paths_verified": 9,
+        "manifest_counts": {
+          "concepts": 828,
+          "image": 797,
+          "design": 806
+        },
+        "manifest_json_valid": true,
+        "manifest_exact_blob_readback": true,
+        "path_blob_readback": true,
+        "local_png_full_decode": true,
+        "remote_raw_image_opened": true,
+        "sha256_verified": true,
+        "unique_species": "176/251",
+        "scientifically_verified": false
+      },
+      "verification_commit_pending": true
     }
   ],
-  "updated_at": "2026-11-12T13:25:00+08:00"
+  "updated_at": "2026-11-12T13:28:00+08:00"
 }

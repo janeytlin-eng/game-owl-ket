@@ -5067,3 +5067,24 @@ Reused/re-read without duplicate IDs for #130 v5: `KOEP-ITIS-686665-2026`, repos
 
 - **Applied:** [v4 research](species/156-scotopelia-peli-v4.md), planned v4 plate and run `owl-pet/production/runs/20261112T183437+0800-cycle-1.md`.
 - **Unknowns:** exact wild equivalent of the captive three-month stage, iris chronology, continuous feather sequence, first-flight threshold and population-wide sex ratio. Scientific verification remains false.
+
+
+## 2026-11-12 — #157 *Scotopelia bouvieri* v4 — primary adult-pattern correction and c.40-day nest boundary
+
+### VFO-SHARPE-1875-CBM-P11-12
+- **Title / author / year:** *Catalogue of the Birds in the British Museum*, vol. II / R. Bowdler Sharpe / 1875.
+- **URL / page / accessed:** https://wallace-online.org/converted/supplementary/specimens/1875_BMbirds_WSPEC351.2.pdf ; printed pp.11–12, Plate I, OCR lines 628–637; accessed 2026-11-12.
+- **Source type / applies to:** primary historical type description; adult *Scotopelia bouvieri* from Lopé/Ogooué, Gabon.
+- **Facts:** dusky-brown adult above; blackish shaft-lines; dull tawny vermiculations; fulvous shoulder patch; blackish barred flight/tail feathers; tawny-buff underparts broadly streaked black and whitish on chest; horn bill yellowish at base; yellowish legs; dark-horn claws; single adult-skin measurements 17 in total, wing 13, tail 8, tarsus 2.2.
+- **Limits / decision:** one skin of unreported sex; no iris, living posture, sex comparison, juvenile or nest. Corrects v3’s “black vermiculation” wording and uniformly yellow-bill risk; does not license dimorphism.
+- **Links:** research/species/157-scotopelia-bouvieri-v4.md; design/concepts/157-scotopelia-bouvieri-v4.png.
+
+### VFO-BROSSET-ERARD-1986-P63 — reused and actively reread
+- Brosset & Erard, 1986, *Revue d’Écologie* Suppl.3:4–289, DOI https://doi.org/10.3406/revec.1986.5179 ; species account printed p.63 / Persée page https://www.persee.fr/doc/revec_1168-3651_1986_sup_41_3_5179?pageId=T1_87 ; accessed 2026-11-12.
+- Low open branch nests 2.5–3 m above Djoua/Ivindo water held c.40-day young; only a few adult feathers lined the sticks. A young estimated 35 days on 15 Oct still retained juvenile down on 20 Jan, documenting exceptionally prolonged down retention.
+- **Limits / decision:** no detailed feather map, iris chronology, first-flight threshold or adult sex ratio. Supports only a fully nest-supported down-rich c.40-day young and modest open platform.
+
+### Reused comparators and boundaries
+- `VFO-NIKBORROW-2022-IMMATURE`: identified Gabon immature photograph metadata reopened; older-stage comparator only, exact age/sex/flight unknown.
+- `VFO-ITIS-555424-2026`: current taxonomy only.
+- **Index delta:** new verified 1; reused/reread 3; corrected inferences 3 (vermiculation colour, bill colour, nest/juvenile boundary). Uploaded Mikkola guide was not mounted; no fresh page claim. Scientific verification remains false.

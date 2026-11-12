@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T20:58:00+08:00",
+  "updated": "2026-11-12T21:17:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -31729,7 +31729,86 @@
       "verification_commit": "f74eab5e42e173a180894672fed221ee0319baa5",
       "verification_tree": "5d447144fd144533cb50ccd9f67189c4c501308c",
       "ledger_credited_at": "2026-11-12T20:58:00+08:00"
+    },
+    {
+      "id": "161-ketupa-blakistoni-v4",
+      "species_id": 161,
+      "scientific_name": "Ketupa blakistoni",
+      "historical_names": [
+        "Bubo blakistoni"
+      ],
+      "common_name": "Blakiston's Fish-Owl",
+      "version": 4,
+      "prior_versions_retained": [
+        1,
+        2,
+        3
+      ],
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "path": "design/concepts/161-ketupa-blakistoni-v4.png",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "status": "V4 is limited to current Hokkaido/insular Ketupa blakistoni sensu stricto after the 2026 split; continental K. doerriesi white-nape/near-white-tail traits are excluded. Adults share plumage and remain near-equal, with only subtle female fullness because published mass ranges overlap. The centre bird uses a directly captioned approximately 50-day nestling: abundant smoke-grey down, dark developing face, compact formed folded wings, hidden tail and complete cavity-floor support. Female-only incubation 33–38 days and series fledging 48–60 days are recorded, but individual flight ability is not claimed. Exact feather chronology and population-wide sex ratio remain unknown; science=false.",
+      "source_ids": [
+        "BLF-IOC-HAYASHI-2010-BREEDING-ABSTRACT",
+        "BLF-BIRDRESEARCH-HAYASHI-2010-P1-4",
+        "BLF-CLEMENTS-2026-SPLIT",
+        "BLF-MOVIN-2022"
+      ],
+      "unverified_leads": [],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/161-ketupa-blakistoni-v4.md",
+      "review_record": "research/reviews/161-ketupa-blakistoni-v4-review.md",
+      "run_record": "production/runs/20261112T210010+0800-cycle-6.md",
+      "reviewed_at": "2026-11-12T21:14:00+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 3564679,
+      "sha256": "b5d67c881f36f45fac3b7f2c94ba9318c135f2d1e2f31a88d9985ed7627ec489",
+      "git_blob": "375bc85d0285bab8cb2ff347f21dc64261bac489",
+      "initial_original_path": "production/generated/161-ketupa-blakistoni-v4-initial-original.png",
+      "initial_original_blob": "375bc85d0285bab8cb2ff347f21dc64261bac489",
+      "initial_original_size_bytes": 3564679,
+      "final_original_path": "production/generated/161-ketupa-blakistoni-v4-final-original.png",
+      "final_original_blob": "375bc85d0285bab8cb2ff347f21dc64261bac489",
+      "final_original_size_bytes": 3564679,
+      "full_color_source_path": "production/generated/161-ketupa-blakistoni-v4-full-color.png",
+      "full_color_source_blob": "375bc85d0285bab8cb2ff347f21dc64261bac489",
+      "full_color_source_size_bytes": 3564679,
+      "reviewed_path": "production/reviewed/161-ketupa-blakistoni-v4-reviewed-master.png",
+      "reviewed_blob": "375bc85d0285bab8cb2ff347f21dc64261bac489",
+      "reviewed_size_bytes": 3564679,
+      "review_crops": [
+        {
+          "path": "production/review-crops/161-ketupa-blakistoni-v4-adult-male.png",
+          "blob": "13224e87caedec2a5d6ad40c79d1551a7201d91a",
+          "size_bytes": 242481,
+          "sha256": "ea084c8f7d243038a389a308d6c2d029f2e2fc02086182af3001268a137b9f28"
+        },
+        {
+          "path": "production/review-crops/161-ketupa-blakistoni-v4-c50-day-nestling.png",
+          "blob": "4444df967567727cdb1725657ba0f5a96b86b325",
+          "size_bytes": 287833,
+          "sha256": "49bb2142347524c724d80193b396ada0bb024f9d1aa12394512858992bbbe255"
+        },
+        {
+          "path": "production/review-crops/161-ketupa-blakistoni-v4-adult-female.png",
+          "blob": "33fa6e05d2e39496599d762ab8b8a0ef6d9d9936",
+          "size_bytes": 268728,
+          "sha256": "61dda6fd9f1cbc7dbac5c8f70ed40240157a05606ba3407078a533fd774633a3"
+        }
+      ],
+      "archive_note": "V1-v3 preserved. One new primary breeding abstract and three authoritative rereads constrain Hokkaido/insular identity, adult sex treatment and a directly documented approximately 50-day late nestling. Full plate plus three role crops opened; edit0. Mikkola upload not mounted. PASS_WITH_LIMITATIONS; science=false.",
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false,
+      "ledger_credited": false,
+      "batch_id": "20261112T183437+0800",
+      "batch_cycle": 6
     }
   ],
-  "updated_at": "2026-11-12T20:58:00+08:00"
+  "updated_at": "2026-11-12T21:17:00+08:00"
 }

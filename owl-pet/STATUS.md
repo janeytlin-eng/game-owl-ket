@@ -4156,3 +4156,7 @@ V5科学修订保留v1–v4。新读取Finsch 1898印刷页163–172的94件博�
 - Sources: new verified 1; reread/reused 3; corrected inference 3. Uploaded Mikkola guide unavailable; repository-pinned printed pp.189–190/PDF pp.191–192 only.
 - Unique coverage remains 176/251; revision +1; immutable readback pending.
 
+## 2026-11-12 — #141 *Otus magicus* v5 immutable archive VERIFIED; ledger credit pending
+
+Archive [`4cc24b93252ea9713d4cfd7f3b11db9d055404d4`](https://github.com/janeytlin-eng/game-owl-ket/commit/4cc24b93252ea9713d4cfd7f3b11db9d055404d4) / tree `53539bf1dc330805b125ea0f7d720188b4bb453c` was fetched back from `main`. Nine PNG paths matched four exact blobs; the concept decoded locally as 1536×1024 with matching SHA-256. Twenty required paths were read back, including the three manifests at 823/792/801 and the persisted research, prompt, source index, run, status and lesson records. `PASS_WITH_LIMITATIONS`; science=false; unique coverage remains 176/251; cycle credit pending.
+

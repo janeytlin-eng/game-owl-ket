@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T10:55:00+08:00",
+  "updated": "2026-11-12T11:00:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -30400,7 +30400,7 @@
       "revision_increment": 1,
       "edit_count": 0,
       "imagegen_invocations": 1,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "MAG-FINSCH-1898-P163-172",
         "MAG-ITIS-555379-2026",
@@ -30457,10 +30457,36 @@
       ],
       "archive_note": "V1-v4 retained. New Finsch museum-series evidence supports fine crossbars on developing juvenile remiges and variable tarsal feathering. Full plate and all three crops were opened. A preliminary extra-eye concern was falsified by the female crop; no edit required. Exact age, juvenile iris/flight, nest, sex-size direction and subspecies diagnosis remain unknown. New verified source 1; reread 3; corrected inferences 3. Science false.",
       "archived_at": "2026-11-12T10:55:00+08:00",
-      "archive_commit_pending": true,
-      "readback_pending": true,
-      "exact_readback": false
+      "archive_commit_pending": false,
+      "readback_pending": false,
+      "exact_readback": true,
+      "archive_commit": "4cc24b93252ea9713d4cfd7f3b11db9d055404d4",
+      "archive_tree": "53539bf1dc330805b125ea0f7d720188b4bb453c",
+      "verified_at": "2026-11-12T11:00:00+08:00",
+      "verification_result": "PASS_WITH_LIMITATIONS",
+      "required_paths_verified": 20,
+      "exact_binary_paths_verified": 9,
+      "unique_binary_streams_tree_verified": 4,
+      "readback": {
+        "status": "VERIFIED",
+        "archive_commit": "4cc24b93252ea9713d4cfd7f3b11db9d055404d4",
+        "tree_sha": "53539bf1dc330805b125ea0f7d720188b4bb453c",
+        "required_paths_verified": 20,
+        "exact_binary_paths_verified": 9,
+        "manifest_counts": {
+          "concepts": 823,
+          "image": 792,
+          "design": 801
+        },
+        "manifest_json_valid": true,
+        "path_blob_readback": true,
+        "raw_original_accessible": true,
+        "local_png_full_decode": true,
+        "sha256_verified": true,
+        "unique_species": "176/251",
+        "scientifically_verified": false
+      }
     }
   ],
-  "updated_at": "2026-11-12T10:55:00+08:00"
+  "updated_at": "2026-11-12T11:00:00+08:00"
 }

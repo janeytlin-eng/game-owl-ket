@@ -1,0 +1,76 @@
+name: "Owl-pet #172 CC0 texture + juvenile transfer QA (isolated)"
+on:
+  push:
+    paths:
+      - "owl-pet/3d-experiments/172-tyto-castanops/run10-trigger.txt"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: owl-pet-172-run10-transfer
+  cancel-in-progress: false
+
+jobs:
+  adult-reference-to-rejected-juvenile:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install free Python and Blender test tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq blender python3-numpy python3-venv
+          python3 -m venv /tmp/owl172venv
+          /tmp/owl172venv/bin/pip install --disable-pip-version-check numpy trimesh pillow
+          blender --version | head -2
+          blender -b --python-expr "import numpy; print('Blender numpy',numpy.__version__)"
+      - name: Fetch CC0 third-party adult anatomy reference
+        run: |
+          set -euo pipefail
+          mkdir -p qa-out
+          curl -fLSs --retry 2 --connect-timeout 15 --max-time 180 \
+            "https://files.innerscene.com/library/owl-d696472a/8ecea479b865c7141318/owl.glb" \
+            -o qa-out/source_great_horned_owl_CC0_claim.glb
+          test "$(wc -c < qa-out/source_great_horned_owl_CC0_claim.glb)" -gt 1000000
+          sha256sum qa-out/source_great_horned_owl_CC0_claim.glb | tee qa-out/source_sha256.txt
+      - name: Repack texture assets and generate independent UNAPPROVED geometry refit
+        run: |
+          set -euo pipefail
+          D=owl-pet/3d-experiments/172-tyto-castanops/tools
+          PY=/tmp/owl172venv/bin/python
+          "$PY" "$D/optimize_glb_textures.py" \
+            qa-out/source_great_horned_owl_CC0_claim.glb \
+            qa-out/source_adult_textures_optimized_REFERENCE_ONLY.glb \
+            > qa-out/texture_optimization.json
+          "$PY" "$D/refit_owl_juvenile_anatomy_experiment.py" \
+            qa-out/source_adult_textures_optimized_REFERENCE_ONLY.glb \
+            qa-out/v24_rejected_juvenile_transfer_UNAPPROVED.glb \
+            | tee qa-out/refit_stats.txt
+          "$PY" "$D/audit_glb_mobile.py" \
+            qa-out/source_adult_textures_optimized_REFERENCE_ONLY.glb \
+            qa-out/adult_static_preflight.json
+          "$PY" "$D/audit_glb_mobile.py" \
+            qa-out/v24_rejected_juvenile_transfer_UNAPPROVED.glb \
+            qa-out/v24_static_preflight.json
+          sha256sum qa-out/*glb | tee qa-out/all_glb_sha256.txt
+      - name: Actually render v24 at four angles in Blender for rejection decision
+        run: |
+          set -euo pipefail
+          blender -b --factory-startup --python \
+            owl-pet/3d-experiments/172-tyto-castanops/tools/inspect_cc0_blender.py \
+            -- qa-out/v24_rejected_juvenile_transfer_UNAPPROVED.glb qa-out \
+            2>&1 | tee qa-out/v24_blender.log
+          test -s qa-out/front.png
+          test -s qa-out/side.png
+          test -s qa-out/rear.png
+          test -s qa-out/threequarter.png
+      - name: Preserve QA outputs even on failure; never promote to production
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run10-REFERENCE-AND-FAILED-MESH-QA
+          path: qa-out/
+          if-no-files-found: warn
+          retention-days: 14

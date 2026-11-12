@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T15:53:56.987+08:00",
+  "updated": "2026-11-12T15:54:59.676+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -30677,8 +30677,8 @@
       "archive_commit_pending": false,
       "readback_pending": false,
       "exact_readback": true,
-      "ledger_credited": false,
-      "updated_at": "2026-11-12T15:53:56.987+08:00",
+      "ledger_credited": true,
+      "updated_at": "2026-11-12T15:54:59.676+08:00",
       "archive_commit": "523bb4a8c66064e12e89587a51e21717df158bad",
       "archive_tree": "a56b36ecdfb62ca9ecd2765b2b5b465ff813c0cc",
       "verified_at": "2026-11-12T15:53:56.987+08:00",
@@ -30705,10 +30705,14 @@
         "local_png_full_decode": true,
         "sha256_verified": true,
         "unique_species": "176/251",
-        "scientifically_verified": false
+        "scientifically_verified": false,
+        "verification_commit": "f0475f2292574e628c191c59576c83b37f90c6a7"
       },
-      "verification_commit_pending": true
+      "verification_commit_pending": false,
+      "verification_commit": "f0475f2292574e628c191c59576c83b37f90c6a7",
+      "verification_tree": "7ad5a020a96bd83d0417c7ff365a855630681d28",
+      "ledger_credited_at": "2026-11-12T15:54:59.676+08:00"
     }
   ],
-  "updated_at": "2026-11-12T15:53:56.987+08:00"
+  "updated_at": "2026-11-12T15:54:59.676+08:00"
 }

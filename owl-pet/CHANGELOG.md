@@ -1766,3 +1766,6 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 
 
 - 2026-11-12T15:53:56.987+08:00: #150 *Ninox variegata* v4 immutable readback passed accepted archive `523bb4a8c66064e12e89587a51e21717df158bad` / tree `a56b36ecdfb62ca9ecd2765b2b5b465ff813c0cc`: nine exact binary paths, four streams, manifests 831/800/809; ledger pending; science=false.
+
+
+- 2026-11-12T15:54:59.676+08:00: #150 *Ninox variegata* v4 LEDGER_CREDITED after verification `f0475f2292574e628c191c59576c83b37f90c6a7`; batch 1/6, next cycle 2, lease released; unique 176/251; revision +1; science=false.

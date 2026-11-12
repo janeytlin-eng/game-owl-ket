@@ -43932,14 +43932,14 @@
       "next_cycle": 2,
       "active_cycle": 2,
       "started_at": "2026-11-12T11:35:00+08:00",
-      "updated_at": "2026-11-12T12:51:00+08:00",
-      "current_stage": "REVIEWED",
+      "updated_at": "2026-11-12T12:57:00+08:00",
+      "current_stage": "ARCHIVED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex",
         "run_id": "20261112T115800+0800-cycle-2",
-        "heartbeat_at": "2026-11-12T12:51:00+08:00",
-        "expires_at": "2026-11-12T13:06:00+08:00"
+        "heartbeat_at": "2026-11-12T12:57:00+08:00",
+        "expires_at": "2026-11-12T13:12:00+08:00"
       },
       "active": {
         "cycle": 2,
@@ -43949,7 +43949,7 @@
         "action": "SCIENCE_REVISION",
         "run_record": "owl-pet/production/runs/20261112T115800+0800-cycle-2.md"
       },
-      "stage": "REVIEWED",
+      "stage": "ARCHIVED",
       "completed_count": 1,
       "stage_events": [
         {
@@ -44286,13 +44286,43 @@
             },
             "lease_expires_at": "2026-11-12T13:06:00+08:00"
           }
+        },
+        {
+          "batch_id": "20261112T113500+0800",
+          "cycle": 2,
+          "stage": "ARCHIVED",
+          "at": "2026-11-12T12:57:00+08:00",
+          "run_id": "20261112T115800+0800-cycle-2",
+          "species_id": 145,
+          "species": "Ninox philippensis",
+          "credited": false,
+          "evidence": {
+            "concept": "owl-pet/design/concepts/145-ninox-philippensis-v4.png",
+            "initial_original": "owl-pet/production/generated/145-ninox-philippensis-v4-initial-original.png",
+            "final_original": "owl-pet/production/generated/145-ninox-philippensis-v4-final-original.png",
+            "research_record": "owl-pet/research/species/145-ninox-philippensis-v4.md",
+            "review_record": "owl-pet/research/reviews/145-ninox-philippensis-v4-review.md",
+            "run_record": "owl-pet/production/runs/20261112T115800+0800-cycle-2.md",
+            "manifest_counts": {
+              "concepts": 826,
+              "image": 795,
+              "design": 804
+            },
+            "archive_commit_pending": true,
+            "readback_pending": true,
+            "unique_species": "176/251",
+            "unique_increment": 0,
+            "revision_increment": 1,
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-12T13:12:00+08:00"
+          }
         }
       ],
       "active_lease": {
         "owner": "codex",
         "run_id": "20261112T115800+0800-cycle-2",
-        "heartbeat_at": "2026-11-12T12:51:00+08:00",
-        "expires_at": "2026-11-12T13:06:00+08:00"
+        "heartbeat_at": "2026-11-12T12:57:00+08:00",
+        "expires_at": "2026-11-12T13:12:00+08:00"
       }
     }
   ],
@@ -44447,8 +44477,8 @@
   "active_lease": {
     "owner": "codex",
     "run_id": "20261112T115800+0800-cycle-2",
-    "heartbeat_at": "2026-11-12T12:51:00+08:00",
-    "expires_at": "2026-11-12T13:06:00+08:00"
+    "heartbeat_at": "2026-11-12T12:57:00+08:00",
+    "expires_at": "2026-11-12T13:12:00+08:00"
   },
   "last_updated_at": "2026-11-12T12:33:00+08:00",
   "audit_notes": [
@@ -58043,6 +58073,36 @@
           }
         },
         "lease_expires_at": "2026-11-12T13:06:00+08:00"
+      }
+    },
+    {
+      "batch_id": "20261112T113500+0800",
+      "cycle": 2,
+      "stage": "ARCHIVED",
+      "at": "2026-11-12T12:57:00+08:00",
+      "run_id": "20261112T115800+0800-cycle-2",
+      "species_id": 145,
+      "species": "Ninox philippensis",
+      "credited": false,
+      "evidence": {
+        "concept": "owl-pet/design/concepts/145-ninox-philippensis-v4.png",
+        "initial_original": "owl-pet/production/generated/145-ninox-philippensis-v4-initial-original.png",
+        "final_original": "owl-pet/production/generated/145-ninox-philippensis-v4-final-original.png",
+        "research_record": "owl-pet/research/species/145-ninox-philippensis-v4.md",
+        "review_record": "owl-pet/research/reviews/145-ninox-philippensis-v4-review.md",
+        "run_record": "owl-pet/production/runs/20261112T115800+0800-cycle-2.md",
+        "manifest_counts": {
+          "concepts": 826,
+          "image": 795,
+          "design": 804
+        },
+        "archive_commit_pending": true,
+        "readback_pending": true,
+        "unique_species": "176/251",
+        "unique_increment": 0,
+        "revision_increment": 1,
+        "scientifically_verified": false,
+        "lease_expires_at": "2026-11-12T13:12:00+08:00"
       }
     }
   ],

@@ -109,3 +109,10 @@ undefined
 - **Applied change:** use a broad bilateral rail support inside lower-montane forest, label the bird OLDER YOUNG — AGE UNKNOWN, keep only a compact down-veiled barred wing patch, and state that the rail is an art translation of rescue support rather than a nest claim.
 - **Verified result:** the full plate and three focused crops pass support, stage and adult-identity checks without an edit. `PASS_WITH_LIMITATIONS`; science=false.
 - **Reusable rule:** preserve the evidentiary function of a human-made rescue support when it is the best direct stage record, but never promote it into a natural nest or universal life-history fact. Verified here only.
+
+## 2026-11-12 — juvenile evidence boundary from #145
+
+- A pre-split nestling mention without a preserved specimen or description is taxonomy/history evidence, not juvenile morphology evidence.
+- Do not inherit adult iris colour into an age-unknown young bird when the stage source is silent; keep it dark/uncalibrated and record the unknown.
+- A historical note that quills are formed does not license an adult-perfect long wing silhouette: retain compact, rounded, supported posture unless age/action evidence says more.
+- Applied and visually verified on #145 *Ninox philippensis* v4; broader back-check remains a future review task.

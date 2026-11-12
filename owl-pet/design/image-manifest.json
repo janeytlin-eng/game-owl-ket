@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12",
+  "updated": "2026-11-12T12:57:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -29979,7 +29979,94 @@
       "verification_tree": "7148857b77001b0c0f154f86ea72a2f2ffeed660",
       "ledger_credited": true,
       "ledger_credited_at": "2026-11-12T11:57:00+08:00"
+    },
+    {
+      "id": "145-ninox-philippensis-v4",
+      "path": "design/concepts/145-ninox-philippensis-v4.png",
+      "species_id": 145,
+      "scientific_name": "Ninox philippensis",
+      "historical_names": [
+        "Athene philippensis",
+        "Noctua hirsuta philippinensis",
+        "Ninox philippensis philippensis (historical broad usage)"
+      ],
+      "common_name": "Luzon Boobook",
+      "scope": "Luzon evergreen-forest concept; near-equal adults and a directly described age/sex/flight-unknown young with dark uncalibrated iris, rufous-chocolate upperparts, sparse pale scapular/covert marks, compact formed quills and fully supported stationary posture",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3
+      ],
+      "prior_versions_retained": true,
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 0,
+      "imagegen_invocations": 1,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "LZBO-RASMUSSEN-2012-P13-14",
+        "NPH-SHARPE-1875",
+        "NPH-PARKES-1973-P36-37",
+        "LZBO-MIKKOLA-2013-P473"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/145-ninox-philippensis-v4.md",
+      "review_record": "research/reviews/145-ninox-philippensis-v4-review.md",
+      "run_record": "production/runs/20261112T115800+0800-cycle-2.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2639472,
+      "sha256": "2b7ce777739900c191d1c17d3b29ac80c712860d762a9042a7f3956d4d29fb20",
+      "git_blob": "0415f1b80cdcddbcd26feeb5ed48d909b75cb8d3",
+      "initial_original_path": "production/generated/145-ninox-philippensis-v4-initial-original.png",
+      "initial_original_blob": "0415f1b80cdcddbcd26feeb5ed48d909b75cb8d3",
+      "initial_original_size_bytes": 2639472,
+      "initial_original_sha256": "2b7ce777739900c191d1c17d3b29ac80c712860d762a9042a7f3956d4d29fb20",
+      "final_original_path": "production/generated/145-ninox-philippensis-v4-final-original.png",
+      "final_original_blob": "0415f1b80cdcddbcd26feeb5ed48d909b75cb8d3",
+      "final_original_size_bytes": 2639472,
+      "final_original_sha256": "2b7ce777739900c191d1c17d3b29ac80c712860d762a9042a7f3956d4d29fb20",
+      "generated_path": "production/generated/145-ninox-philippensis-v4-generated-master.png",
+      "generated_blob": "0415f1b80cdcddbcd26feeb5ed48d909b75cb8d3",
+      "generated_size_bytes": 2639472,
+      "full_color_source_path": "production/generated/145-ninox-philippensis-v4-full-color.png",
+      "full_color_source_blob": "0415f1b80cdcddbcd26feeb5ed48d909b75cb8d3",
+      "full_color_source_size_bytes": 2639472,
+      "reviewed_path": "production/reviewed/145-ninox-philippensis-v4-reviewed-master.png",
+      "reviewed_blob": "0415f1b80cdcddbcd26feeb5ed48d909b75cb8d3",
+      "reviewed_size_bytes": 2639472,
+      "review_crops": [
+        {
+          "path": "production/review-crops/145-ninox-philippensis-v4-adult-male.png",
+          "blob": "58a608e13b46ac66381756252dcb8c30940d3dfc",
+          "size_bytes": 781645,
+          "sha256": "5c1731e6062f8fb1ca18f6962a4546aad8a73e00a848ac9075ef2be08525438e"
+        },
+        {
+          "path": "production/review-crops/145-ninox-philippensis-v4-young-age-unknown.png",
+          "blob": "33657089ea237f1a8687ac96cff9a00d46b44c2f",
+          "size_bytes": 691720,
+          "sha256": "d6955bd7b205e87878626a95a3c2fe796b68d89133a3859ae85c337efb3b074d"
+        },
+        {
+          "path": "production/review-crops/145-ninox-philippensis-v4-adult-female.png",
+          "blob": "7418bb6699a2d70d460d98f58493bdd2d31b31b2",
+          "size_bytes": 723373,
+          "sha256": "a644e8374b28c23c2c39d3e211f5dec05d345ab22e0b7e6f56702bc0e9afe961"
+        }
+      ],
+      "archive_note": "V1-v3 retained. Rasmussen 2012 and Sharpe 1875 were reopened; Parkes 1973 was added only as a pre-split taxon-history boundary. Full plate and three role crops were opened. V3's adult-yellow young iris and elongated adult-like wing were corrected to a dark uncalibrated iris and compact rounded formed wing. All six feet are supported. Exact young age/sex/flight/modern-split locality and adult population dimorphism remain unknown. Fresh Mikkola upload access unavailable. Science false.",
+      "archived_at": "2026-11-12T12:57:00+08:00",
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false
     }
   ],
-  "updated_at": "2026-11-12T11:57:00+08:00"
+  "updated_at": "2026-11-12T12:57:00+08:00"
 }

@@ -13,7 +13,7 @@
 - Supports compact earless form; small buff/pale supercilium; plain dark auriculars and weak disc; plain brown crown to rump; limited white/pale-buff scapular and outer-covert markings; weak narrow tail bands; pale underparts with longitudinal streaking; yellow iris, pale olive-yellow bill and yellow feet.
 - The pooled measurements do not establish a dependable male:female display ratio. Design inference: adults remain near equal in apparent size.
 
-### NPH-SHARPE-1875-P167-168 — directly described young plumage
+### NPH-SHARPE-1875 — directly described young plumage
 - R. Bowdler Sharpe, *Catalogue of the Birds in the British Museum*, vol. 2, printed pp.167–168; primary historical museum description.
 - The entry headed “Young” describes rufous-chocolate, almost uniform upperparts; a few buffy-white outer-scapular bars; wing coverts uniform like the back; greater-coverts spotted ochraceous or white; dark primary coverts; formed dark quills notched ochraceous/buffy; darker short tail; fawn underparts with broader abdominal streaking.
 - Limits: exact age, sex, locality within the modern split, iris colour and action ability are not supplied. The design therefore uses a stationary age-unknown supported young bird, dark/uncalibrated iris, and no flight or nest claim.

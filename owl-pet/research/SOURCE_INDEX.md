@@ -4847,6 +4847,6 @@ Reused/re-read without duplicate IDs for #130 v5: `KOEP-ITIS-686665-2026`, repos
 
 ## Cross-record correction — #125 / #145 *Ninox philippensis*
 
-- The same current species appears in two preserved repository number histories. #145 v4 keeps its own number and versions but reuses the already read `NPH-SHARPE-1875-P167-168` evidence rather than minting a duplicate source ID.
+- The same current species appears in two preserved repository number histories. #145 v4 keeps its own number and versions but reuses the already read `NPH-SHARPE-1875` evidence rather than minting a duplicate source ID.
 - The source describes an age-unknown “Young,” not a calibrated nestling or confirmed flying fledgling. Both number histories must keep exact age, iris colour and action ability unknown unless new evidence is read.
 - Historical Leyte material in `NPH-PARKES-1973-P36-37` remains a pre-split mapping lead, not proof for modern strict Luzon Boobook juvenile appearance.

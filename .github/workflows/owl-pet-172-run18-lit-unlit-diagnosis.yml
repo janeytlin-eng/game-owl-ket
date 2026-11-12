@@ -1,0 +1,64 @@
+name: "Owl #172 investigate black surface under no-groom (WebGL QA only)"
+on:
+  push:
+    paths:
+      - "owl-pet/3d-experiments/172-tyto-castanops/run18-trigger.txt"
+permissions:
+  contents: read
+concurrency:
+  group: owl172-run18-surface-shader
+  cancel-in-progress: false
+jobs:
+  differential-material-and-lighting:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 24
+    steps:
+      - uses: actions/checkout@v4
+      - name: Actual geometry with groom removed and colour audit
+        run: |
+          set -euo pipefail
+          python3 -m venv /tmp/owl172run18
+          /tmp/owl172run18/bin/pip install -q numpy scipy scikit-image trimesh pillow
+          D=owl-pet/3d-experiments/172-tyto-castanops/tools
+          mkdir -p qa-out/models
+          /tmp/owl172run18/bin/python "$D/mesoptile_organic_sculpt_trial_v30.py" qa-out/base.glb --resolution 110 --down 2600
+          /tmp/owl172run18/bin/python "$D/diagnose_groom_ablation.py" qa-out/base.glb qa-out/models
+      - name: Reuse identical geometry in lit vs independent vertex-colour unlit renderer
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/owl172viewer
+          D=owl-pet/3d-experiments/172-tyto-castanops/tools
+          cp "$D/organic_viewer_qa_index.html" /tmp/owl172viewer/index.html
+          cp "$D/organic_viewer_qa_main.js" /tmp/owl172viewer/main_lit.js
+          cp "$D/organic_mobile_webgl_smoke.mjs" /tmp/owl172viewer/mobile_webgl_smoke.mjs
+          cp qa-out/models/NO_GROOM.glb /tmp/owl172viewer/candidate.glb
+          cd /tmp/owl172viewer
+          npm init -y >/dev/null
+          npm install --no-save --silent three@0.181 vite@7.2 playwright@1.56
+          npx playwright install chromium
+          npx vite --host 127.0.0.1 --port 4173 > "$GITHUB_WORKSPACE/qa-out/server.log" 2>&1 &
+          sleep 5
+          cp main_lit.js main.js
+          node mobile_webgl_smoke.mjs "$GITHUB_WORKSPACE/qa-out/browser/LIT_baseline" > "$GITHUB_WORKSPACE/qa-out/lit_run.log" 2>&1
+          python3 - <<'PY'
+          from pathlib import Path
+          p=Path("main_lit.js")
+          s=p.read_text()
+          original="   scene.add(root);"
+          replacement="""   root.traverse(o=>{if(o.isMesh && o.geometry?.attributes?.color) {
+              o.material=new THREE.MeshBasicMaterial({vertexColors:true,side:THREE.DoubleSide});
+            }}); 
+            scene.add(root);"""
+          assert s.count(original)==1, "Unexpected viewer source; do not silently fake test"
+          Path("main.js").write_text(s.replace(original,replacement))
+          PY
+          node mobile_webgl_smoke.mjs "$GITHUB_WORKSPACE/qa-out/browser/UNLIT_vertexcolour" > "$GITHUB_WORKSPACE/qa-out/unlit_run.log" 2>&1
+          cp main.js "$GITHUB_WORKSPACE/qa-out/unlit_viewer_source.js"
+      - name: Archive diagnostic code, raw pixels and GLB, never ship
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run18-lit-vs-unlit-no-groom-REJECTABLE
+          path: qa-out/
+          if-no-files-found: warn
+          retention-days: 14

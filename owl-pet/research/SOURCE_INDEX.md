@@ -4971,3 +4971,21 @@ Reused/re-read without duplicate IDs for #130 v5: `KOEP-ITIS-686665-2026`, repos
 - **WSO-MNHN-HOLOTYPE-PHOTO-2026:** adult male pattern only; age indeterminate and damaged eyes.
 - **WSO-BONAPARTE-1850-P42-LEAD:** still unverified original-description locator; no morphology claim.
 - **WSO-ITIS-1063526:** current *Athene jacquinoti* / West Solomons Owl taxonomy, citing IOC v15.1; taxonomy only.
+
+
+## 2026-11-12 — #152 *Uroglaux dimorpha* v4 correction
+
+### PHO-ITIS-555493-2026
+- **Title/institution/year:** ITIS Report — *Uroglaux dimorpha*; Integrated Taxonomic Information System; accessed 2026-11-12.
+- **URL:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=555493&source=to_print
+- **Type/applies to:** current taxonomy and nomenclature; all populations.
+- **Facts/use:** TSN 555493 is valid *Uroglaux dimorpha*; *Athene dimorpha* is the original-combination synonym; English names include Papuan Hawk-Owl and Papuan Boobook.
+- **Limits/confidence:** verified standards-met taxonomic record; no morphology, sex, development or ecology.
+- **Correction:** v3 named TSN 1063560 as if it were the accepted-current record. Rereading shows 1063560 is the invalid original-combination record whose valid name is TSN 555493.
+- **Decision link:** research/species/152-uroglaux-dimorpha-v4.md; design/concepts/152-uroglaux-dimorpha-v4.png.
+
+### Reused/reread records
+- **PHO-BEEHLER-PRATT-2016-P373-374:** small-head/long-tail adult and white-face/white-underpart downy juvenile boundary; no exact age/flight.
+- **PHO-BIRDLIFE-2026-ECOLOGY:** lowland/gallery-forest context only.
+- **PHO-MIMIKA-GUIDE-2015-P143:** adult silhouette and habitat context.
+- **PHO-SHANY-1995-P74-UNVERIFIED:** full article still unavailable; no biological claim.

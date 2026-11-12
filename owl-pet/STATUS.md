@@ -1,3 +1,7 @@
+## 2026-11-13 — #178 v4 LEDGER_CREDITED — active batch 5/6
+
+Verification [`b3608e7da72dd5bf2f70b702b36e03d5eacaa69a`](https://github.com/janeytlin-eng/game-owl-ket/commit/b3608e7da72dd5bf2f70b702b36e03d5eacaa69a) was read back after archive [`10d7dabdb8a32d29a241d7c1dfb0ef5dca49b049`](https://github.com/janeytlin-eng/game-owl-ket/commit/10d7dabdb8a32d29a241d7c1dfb0ef5dca49b049). Cycle 5 credited once; lease released; next cycle 6. Unique coverage remains 176/251; revision +1; PASS_WITH_LIMITATIONS; science=false.
+
 ## 2026-11-13 — #174 v4 LEDGER_CREDITED — active batch 1/6
 
 Verification [`3d158bda7fd1e4a11705581217980a98965c610f`](https://github.com/janeytlin-eng/game-owl-ket/commit/3d158bda7fd1e4a11705581217980a98965c610f) was read back after archive [`7200c3528fc4a3f5d23b4b54fbdfa661a1f75c94`](https://github.com/janeytlin-eng/game-owl-ket/commit/7200c3528fc4a3f5d23b4b54fbdfa661a1f75c94). Cycle 1 credited once; lease released; next cycle 2. Unique coverage remains 176/251; revision +1; science=false.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T05:40:35.913+08:00",
+  "updated": "2026-11-13T05:41:40.899+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -33404,7 +33404,7 @@
       "archive_commit_pending": false,
       "readback_pending": false,
       "exact_readback": true,
-      "ledger_credited": false,
+      "ledger_credited": true,
       "batch_id": "20261113T022000+0800",
       "batch_cycle": 5,
       "archive_commit": "10d7dabdb8a32d29a241d7c1dfb0ef5dca49b049",
@@ -33415,8 +33415,12 @@
       "unique_binary_streams_verified": 5,
       "tree_entries": 5026,
       "tree_truncated": false,
-      "verification_commit_pending": true
+      "verification_commit_pending": false,
+      "verification_commit": "b3608e7da72dd5bf2f70b702b36e03d5eacaa69a",
+      "verification_tree": "de03327dc7c64215b65c106407d0a648ea97dc93",
+      "credited_at": "2026-11-13T05:41:40.899+08:00",
+      "ledger_credited_at": "2026-11-13T05:41:40.899+08:00"
     }
   ],
-  "updated_at": "2026-11-13T05:40:35.913+08:00"
+  "updated_at": "2026-11-13T05:41:40.899+08:00"
 }

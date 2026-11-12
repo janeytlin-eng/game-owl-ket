@@ -43978,30 +43978,35 @@
           "review_result": "PASS_WITH_LIMITATIONS",
           "scientifically_verified": false,
           "completed_at": "2026-11-12T13:30:00+08:00"
+        },
+        {
+          "cycle": 5,
+          "species_id": 148,
+          "species": "Ninox rumseyi",
+          "version": 4,
+          "action": "SCIENCE_REVISION",
+          "unique_increment": 0,
+          "revision_increment": 1,
+          "commit_sha": "521b66573728ac57df13d48dde4acde930255578",
+          "archive_commit": "12ea53774979241a3a15880dbdbdb7b125d08cac",
+          "archive_tree": "6f1c140c7812607867377f294364b104d973c160",
+          "run_record": "owl-pet/production/runs/20261112T133200+0800-cycle-5.md",
+          "concept": "owl-pet/design/concepts/148-ninox-rumseyi-v4.png",
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "completed_at": "2026-11-12T14:49:00+08:00"
         }
       ],
-      "next_cycle": 5,
-      "active_cycle": 5,
+      "next_cycle": 6,
+      "active_cycle": null,
       "started_at": "2026-11-12T11:35:00+08:00",
-      "updated_at": "2026-11-12T14:47:00+08:00",
-      "current_stage": "VERIFIED",
-      "ledger_credit_pending": true,
-      "lease": {
-        "owner": "codex",
-        "run_id": "20261112T133200+0800-cycle-5",
-        "heartbeat_at": "2026-11-12T14:47:00+08:00",
-        "expires_at": "2026-11-12T15:02:00+08:00"
-      },
-      "active": {
-        "cycle": 5,
-        "species_id": 148,
-        "species": "Ninox rumseyi",
-        "version": 4,
-        "action": "SCIENCE_REVISION",
-        "run_record": "owl-pet/production/runs/20261112T133200+0800-cycle-5.md"
-      },
-      "stage": "VERIFIED",
-      "completed_count": 4,
+      "updated_at": "2026-11-12T14:49:00+08:00",
+      "current_stage": "LEDGER_CREDITED",
+      "ledger_credit_pending": false,
+      "lease": null,
+      "active": null,
+      "stage": "LEDGER_CREDITED",
+      "completed_count": 5,
       "stage_events": [
         {
           "batch_id": "20261112T113500+0800",
@@ -45003,6 +45008,29 @@
             "unique_species": "176/251",
             "ledger_credit_pending": true,
             "lease_expires_at": "2026-11-12T15:02:00+08:00"
+          }
+        },
+        {
+          "batch_id": "20261112T113500+0800",
+          "cycle": 5,
+          "stage": "LEDGER_CREDITED",
+          "at": "2026-11-12T14:49:00+08:00",
+          "run_id": "20261112T133200+0800-cycle-5",
+          "species_id": 148,
+          "species": "Ninox rumseyi",
+          "credited": true,
+          "evidence": {
+            "verification_commit": "521b66573728ac57df13d48dde4acde930255578",
+            "archive_commit": "12ea53774979241a3a15880dbdbdb7b125d08cac",
+            "run_record": "owl-pet/production/runs/20261112T133200+0800-cycle-5.md",
+            "concept": "owl-pet/design/concepts/148-ninox-rumseyi-v4.png",
+            "review_result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false,
+            "unique_increment": 0,
+            "revision_increment": 1,
+            "unique_species": "176/251",
+            "next_cycle": 6,
+            "lease_released": true
           }
         }
       ],
@@ -59018,6 +59046,29 @@
         "unique_species": "176/251",
         "ledger_credit_pending": true,
         "lease_expires_at": "2026-11-12T15:02:00+08:00"
+      }
+    },
+    {
+      "batch_id": "20261112T113500+0800",
+      "cycle": 5,
+      "stage": "LEDGER_CREDITED",
+      "at": "2026-11-12T14:49:00+08:00",
+      "run_id": "20261112T133200+0800-cycle-5",
+      "species_id": 148,
+      "species": "Ninox rumseyi",
+      "credited": true,
+      "evidence": {
+        "verification_commit": "521b66573728ac57df13d48dde4acde930255578",
+        "archive_commit": "12ea53774979241a3a15880dbdbdb7b125d08cac",
+        "run_record": "owl-pet/production/runs/20261112T133200+0800-cycle-5.md",
+        "concept": "owl-pet/design/concepts/148-ninox-rumseyi-v4.png",
+        "review_result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false,
+        "unique_increment": 0,
+        "revision_increment": 1,
+        "unique_species": "176/251",
+        "next_cycle": 6,
+        "lease_released": true
       }
     }
   ],

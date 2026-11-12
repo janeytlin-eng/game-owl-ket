@@ -1,0 +1,13 @@
+u2netp saliency model; free open-source model, unapproved output
+{
+  "model": "open-source rembg u2netp CPU saliency",
+  "status": "UNAPPROVED reference/matte comparison, NOT a 3D model",
+  "opaque_area_fraction": 0.6172,
+  "agreement_iou_with_grabcut": 0.88979,
+  "source_crop_sha256": "864702ebb07db537cc625ceabeee97fbbcc251e93e3866a49102ba2217ebb1f3",
+  "outputs": {
+    "chick_u2netp_rgba_UNAPPROVED.png": "ab1a6d52977370965c17a3d719f1ca18b269e318db061791a4fa64912da8fc70",
+    "chick_u2netp_checker_QA.png": "d82075f4b27289c8475689146afc338d6751ffcbc1662ecef138f36c9d402a54"
+  },
+  "caveat": "Compare hair edges, facial disc and talons before selecting matte; no single-image result proves 3D side/back anatomy."
+}

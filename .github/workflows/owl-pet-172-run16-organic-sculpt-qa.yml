@@ -1,0 +1,78 @@
+name: "Owl #172 true-organic mesoptile sculpt QA v30 (isolated / NOT APPROVED)"
+on:
+  push:
+    paths:
+      - "owl-pet/3d-experiments/172-tyto-castanops/run16-trigger.txt"
+permissions:
+  contents: read
+concurrency:
+  group: owl172-organic-sculpt-qa
+  cancel-in-progress: false
+jobs:
+  actual-organic-model-and-browser-qa:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 28
+    steps:
+      - uses: actions/checkout@v4
+      - name: Free CPU geometry, PBR, Blender and camera toolchain
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq blender python3-venv
+          python3 -m venv /tmp/owl172organic
+          /tmp/owl172organic/bin/pip install -q --disable-pip-version-check numpy scipy scikit-image trimesh pillow
+          blender --version | head -2
+      - name: Rebuild actual v30 independently from archived source
+        run: |
+          set -euo pipefail
+          mkdir -p qa-out
+          D=owl-pet/3d-experiments/172-tyto-castanops/tools
+          /tmp/owl172organic/bin/python "$D/mesoptile_organic_sculpt_trial_v30.py" \
+             qa-out/v30_Yup_UNAPPROVED.glb --resolution 110 --down 2600 \
+             --stats qa-out/model.json
+          /tmp/owl172organic/bin/python "$D/audit_glb_mobile.py" \
+             qa-out/v30_Yup_UNAPPROVED.glb qa-out/static_audit.json
+          sha256sum qa-out/v30_Yup_UNAPPROVED.glb | tee qa-out/sha256.txt
+          /tmp/owl172organic/bin/python - <<'PY'
+          import json,trimesh
+          s=trimesh.load('qa-out/v30_Yup_UNAPPROVED.glb',force='scene',process=False)
+          body=s.geometry['ORGANIC_CONNECTED_HEAD_BODY_HEART_RELIEF']
+          assert body.is_watertight
+          assert s.bounds[1,1]-s.bounds[0,1]>1.25, 'Y-up glTF axis not correctly exported'
+          n=sum(len(g.faces) for g in s.geometry.values())
+          assert n < 120000, ('triangles over budget',n)
+          print('Validated glTF Y-up, genuine watertight organic head/body, and triangle budget',n)
+          PY
+      - name: Actually import GLB into Blender and render four independent cameras
+        run: |
+          set -euo pipefail
+          D=owl-pet/3d-experiments/172-tyto-castanops/tools
+          mkdir -p qa-out/blender_4views
+          blender -b --factory-startup --python "$D/inspect_cc0_blender.py" -- \
+             qa-out/v30_Yup_UNAPPROVED.glb qa-out/blender_4views \
+             > qa-out/blender_render.log 2>&1
+          for v in front threequarter side rear; do test -s qa-out/blender_4views/"$v".png; done
+      - name: Real software-WebGL2 Chromium GLB loading in two viewport sizes
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/owl172organicview
+          cp qa-out/v30_Yup_UNAPPROVED.glb /tmp/owl172organicview/candidate.glb
+          D=owl-pet/3d-experiments/172-tyto-castanops/tools
+          cp "$D/viewer_qa_index.html" /tmp/owl172organicview/index.html
+          cp "$D/organic_viewer_qa_main.js" /tmp/owl172organicview/main.js
+          cp "$D/organic_mobile_webgl_smoke.mjs" /tmp/owl172organicview/mobile_webgl_smoke.mjs
+          cd /tmp/owl172organicview
+          npm init -y >/dev/null
+          npm install --no-save --silent three@0.181 vite@7.2 playwright@1.56
+          npx playwright install chromium
+          npx vite --host 127.0.0.1 --port 4173 > "$GITHUB_WORKSPACE/qa-out/webserver.log" 2>&1 &
+          sleep 5
+          node mobile_webgl_smoke.mjs "$GITHUB_WORKSPACE/qa-out/browser" > "$GITHUB_WORKSPACE/qa-out/browser_result.log" 2>&1
+      - name: Preserve every real binary, rendered image and failure log, never promote to production
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run16-organic-REJECTABLE-model-renders-browser-QA
+          path: qa-out/
+          if-no-files-found: warn
+          retention-days: 14

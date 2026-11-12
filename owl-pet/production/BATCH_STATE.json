@@ -46992,9 +46992,63 @@
         "lease_expires_at": "2026-11-12T21:19:20+08:00"
       },
       "completed_at": "2026-11-12T21:21:00+08:00"
+    },
+    {
+      "batch_id": "20261112T213600+0800",
+      "status": "PARTIAL",
+      "target_cycles": 6,
+      "completed_cycles": [],
+      "next_cycle": 1,
+      "active_cycle": 1,
+      "started_at": "2026-11-12T21:36:00+08:00",
+      "updated_at": "2026-11-12T21:36:00+08:00",
+      "current_stage": "STARTED",
+      "stage": "STARTED",
+      "completed_count": 0,
+      "ledger_credit_pending": false,
+      "lease": {
+        "owner": "codex-work-mode",
+        "run_id": "20261112T213600+0800-cycle-1",
+        "heartbeat_at": "2026-11-12T21:36:00+08:00",
+        "expires_at": "2026-11-12T21:51:00+08:00"
+      },
+      "active": {
+        "cycle": 1,
+        "run_id": "20261112T213600+0800-cycle-1",
+        "species_id": 162,
+        "species": "Glaucidium hoskinsii",
+        "version": 3,
+        "action": "SCIENCE_REVISION",
+        "stage": "STARTED"
+      },
+      "stage_events": [
+        {
+          "batch_id": "20261112T213600+0800",
+          "cycle": 1,
+          "stage": "STARTED",
+          "at": "2026-11-12T21:36:00+08:00",
+          "run_id": "20261112T213600+0800-cycle-1",
+          "species_id": 162,
+          "species": "Glaucidium hoskinsii",
+          "credited": false,
+          "evidence": {
+            "run_record": "owl-pet/production/runs/20261112T213600+0800-cycle-1.md",
+            "baseline_main": "338d206ee8c890ac3ca433d0c1147d06016115bd",
+            "prior_version": "owl-pet/design/concepts/162-glaucidium-hoskinsii-v2.png",
+            "selection_note": "#162 Glaucidium hoskinsii is the next non-duplicate repository-numbered revision target after credited #161. The other #162 Aegolius acadicus material is a historical numbering collision with canonical #12 and is not counted or regenerated.",
+            "lease_expires_at": "2026-11-12T21:51:00+08:00",
+            "scientifically_verified": false
+          }
+        }
+      ]
     }
   ],
-  "lease": null,
+  "lease": {
+    "owner": "codex-work-mode",
+    "run_id": "20261112T213600+0800-cycle-1",
+    "heartbeat_at": "2026-11-12T21:36:00+08:00",
+    "expires_at": "2026-11-12T21:51:00+08:00"
+  },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -47128,7 +47182,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-12T21:21:00+08:00",
+  "updated_at": "2026-11-12T21:36:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -47937,12 +47991,12 @@
     }
   ],
   "in_progress": {
-    "batch_id": "20261112T183437+0800",
+    "batch_id": "20261112T213600+0800",
     "cycle": 1,
-    "run_id": "20261112T183437+0800-cycle-1",
-    "species_id": 156,
-    "species": "Scotopelia peli",
-    "stage": "IMAGE_GENERATED"
+    "run_id": "20261112T213600+0800-cycle-1",
+    "species_id": 162,
+    "species": "Glaucidium hoskinsii",
+    "stage": "STARTED"
   },
   "previous_checkpoint": {
     "batch_id": "20261112T043100+0800",
@@ -54462,10 +54516,10 @@
       }
     }
   ],
-  "active_batch_id": null,
-  "active_cycle": null,
-  "current_stage": "COMPLETE",
-  "next_cycle": null,
+  "active_batch_id": "20261112T213600+0800",
+  "active_cycle": 1,
+  "current_stage": "STARTED",
+  "next_cycle": 1,
   "unique_species_count": 176,
   "total_species": 251,
   "stage_events": [
@@ -63206,26 +63260,14 @@
   ],
   "last_completed_batch_id": "20261112T183437+0800",
   "active_batch": {
-    "batch_id": "20261112T183437+0800",
+    "batch_id": "20261112T213600+0800",
     "status": "PARTIAL",
     "target_cycles": 6,
     "completed_count": 0,
     "next_cycle": 1,
-    "current_stage": "IMAGE_GENERATED",
-    "stage": "IMAGE_GENERATED",
-    "updated_at": "2026-11-12T20:16:00+08:00",
-    "updated": "2026-11-12T20:16:00+08:00",
-    "stage_evidence": {
-      "initial_original_path": "owl-pet/production/generated/159-phodilus-assimilis-v4-initial-original.png",
-      "git_blob": "425953662c610b9e8c6a3c30c5d8a0c3a4b621b2",
-      "size_bytes": 3261164,
-      "sha256": "db94f4d08cd95ec29605ba657db018715f96435564cce65fca57f82d180b2de6",
-      "dimensions": "1536x1024",
-      "generation_wait_seconds": 126,
-      "edit_count": 0,
-      "lease_expires_at": "2026-11-12T20:31:00+08:00",
-      "scientifically_verified": false
-    }
+    "current_stage": "STARTED",
+    "stage": "STARTED",
+    "updated_at": "2026-11-12T21:36:00+08:00"
   },
   "events": [
     {
@@ -72392,6 +72434,15 @@
         "scientifically_verified": false,
         "lease_expires_at": "2026-11-12T20:26:26+08:00"
       }
+    },
+    {
+      "type": "BATCH_STARTED",
+      "batch_id": "20261112T213600+0800",
+      "cycle": 1,
+      "run_id": "20261112T213600+0800-cycle-1",
+      "species_id": 162,
+      "at": "2026-11-12T21:36:00+08:00",
+      "baseline_main": "338d206ee8c890ac3ca433d0c1147d06016115bd"
     }
   ],
   "ledger_credit_pending": false,
@@ -72426,8 +72477,8 @@
       "scientifically_verified": false
     }
   ],
-  "updated": "2026-11-12T21:21:00+08:00",
-  "stage": "COMPLETE",
+  "updated": "2026-11-12T21:36:00+08:00",
+  "stage": "STARTED",
   "stage_evidence": {
     "research_record": "owl-pet/research/species/159-phodilus-assimilis-v4.md",
     "source_index": "owl-pet/research/SOURCE_INDEX.md",
@@ -73616,7 +73667,15 @@
     }
   ],
   "last_archive_commit": "6b657c84ba1ea2c8dbac9c97586f8ccfe95ef66d",
-  "active": null,
+  "active": {
+    "cycle": 1,
+    "run_id": "20261112T213600+0800-cycle-1",
+    "species_id": 162,
+    "species": "Glaucidium hoskinsii",
+    "version": 3,
+    "action": "SCIENCE_REVISION",
+    "stage": "STARTED"
+  },
   "phase_events": [
     {
       "batch_id": "20261112T043100+0800",
@@ -74275,7 +74334,11 @@
   "unique_species": 176,
   "last_verified_species_id": 161,
   "last_verified_species": "Ketupa blakistoni",
-  "active_species": null,
+  "active_species": {
+    "species_id": 162,
+    "species": "Glaucidium hoskinsii",
+    "version": 3
+  },
   "last_completed_cycle": 6,
   "last_verified": {
     "species_id": 161,

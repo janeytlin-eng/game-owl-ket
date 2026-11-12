@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T02:36:00+08:00",
+  "updated": "2026-11-13",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -31619,7 +31619,96 @@
       "verification_commit": "3d158bda7fd1e4a11705581217980a98965c610f",
       "verification_tree": "9515f3fe60269f18fd7f7713ab48e08379576294",
       "credited_at": "2026-11-13T02:36:00+08:00"
+    },
+    {
+      "id": "175-otus-ireneae-v4",
+      "path": "design/concepts/175-otus-ireneae-v4.png",
+      "species_id": 175,
+      "scientific_name": "Otus ireneae",
+      "historical_names": [
+        "Morden's Scops Owl",
+        "Morden's Owlet"
+      ],
+      "common_name": "Sokoke Scops Owl",
+      "version": 4,
+      "prior_versions_retained": [
+        1,
+        2,
+        3
+      ],
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "status": "v4 preserves v1-v3 and directly rereads Mikkola printed p.134/PDF p.136. Adults remain near-equal because the guide reports no evidence of sexual size difference; grey/dark-brown morph is not sex-linked. Centre age-unknown fledgling is smaller/softer with dark-neutral iris, shortened rounded folded wing, short supported tail and bilateral branch support. One edit reduced sharp adult tufts and adult-like juvenile wing rows. PASS_WITH_LIMITATIONS; exact juvenile iris, age, sex, morph inheritance, feather chronology and flight capability remain unknown; no nest claim; science=false.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "imagegen_invocations": 2,
+      "source_ids": [
+        "SSO-MIKKOLA-2013-P134",
+        "SSO-VIRANI-NJOROGE-GORDON-REPORT",
+        "SSO-IUCN-2025",
+        "SSO-ITIS-202273",
+        "SSO-CAMERON-2002-P30-35",
+        "SSO-VIRANI-1995-P24-27",
+        "SSO-VIRANI-2008-P6-9"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/175-otus-ireneae-v4.md",
+      "review_record": "research/reviews/175-otus-ireneae-v4-review.md",
+      "run_record": "production/runs/20261113T032700+0800-cycle-2.md",
+      "reviewed_at": "2026-11-13T03:41:00+08:00",
+      "dimensions": "1536x1024",
+      "sha256": "a61d8d7eb6ae6fb1026d5002845bc07091b9b1cc0fd08cc2c7e56bcecbc11f2b",
+      "size_bytes": 2632983,
+      "git_blob": "72d0c8a4f201451d1fdbfabb2215cbaa0bcb4761",
+      "initial_generated_path": "production/generated/175-otus-ireneae-v4-initial-original.png",
+      "initial_generated_blob": "cfaca6e09f50d37a29ceef4c287aa99e9005b1e0",
+      "initial_generated_sha256": "b0d477709dc62656866ff3ce85aaa349034dcafb11633c16e12522e0f409eb94",
+      "initial_generated_size_bytes": 2825293,
+      "edited_path": "production/generated/175-otus-ireneae-v4-edit1-original.png",
+      "edited_blob": "72d0c8a4f201451d1fdbfabb2215cbaa0bcb4761",
+      "final_original_path": "production/generated/175-otus-ireneae-v4-final-original.png",
+      "generated_path": "production/generated/175-otus-ireneae-v4-full-color.png",
+      "generated_blob": "72d0c8a4f201451d1fdbfabb2215cbaa0bcb4761",
+      "generated_sha256": "a61d8d7eb6ae6fb1026d5002845bc07091b9b1cc0fd08cc2c7e56bcecbc11f2b",
+      "generated_size_bytes": 2632983,
+      "reviewed_path": "production/reviewed/175-otus-ireneae-v4-reviewed-master.png",
+      "reviewed_blob": "72d0c8a4f201451d1fdbfabb2215cbaa0bcb4761",
+      "reviewed_sha256": "a61d8d7eb6ae6fb1026d5002845bc07091b9b1cc0fd08cc2c7e56bcecbc11f2b",
+      "reviewed_size_bytes": 2632983,
+      "review_crops": [
+        {
+          "role": "adult_male",
+          "path": "production/review-crops/175-otus-ireneae-v4-adult-male.png",
+          "blob": "54e6af8580cadc9fb32b69b4dfc9e8b2f352a205",
+          "sha256": "e7ec814028c54a7d9f5bd7846872869b69faf72d36a5c0b8ae0ea19396db1e02",
+          "size_bytes": 836521
+        },
+        {
+          "role": "fledgling",
+          "path": "production/review-crops/175-otus-ireneae-v4-fledgling.png",
+          "blob": "aad95234a4774a1eb14bd6ee90b676e550ad6f48",
+          "sha256": "5f8a605f6505f868cb628e9dbe5777c11554b03062e08d8cf7a5e7996deb7349",
+          "size_bytes": 747994
+        },
+        {
+          "role": "adult_female",
+          "path": "production/review-crops/175-otus-ireneae-v4-adult-female.png",
+          "blob": "a597300bca5cb2caa57ddef5c8a191031e16a6ea",
+          "sha256": "a6eb8399428e5290034f76fb087ac8b64bc54515d1415fa21ef41ffc4f537621",
+          "size_bytes": 813124
+        }
+      ],
+      "archive_note": "V1-v3 preserved. Uploaded Mikkola p.134/PDF136 directly read; three new stable index entries and five records reused/reread. Full plate and three crops opened; one edit reduced adult tufts and softened/shortened juvenile wing. PASS_WITH_LIMITATIONS; science=false.",
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false,
+      "ledger_credited": false,
+      "batch_id": "20261113T022000+0800",
+      "batch_cycle": 2
     }
   ],
-  "updated_at": "2026-11-13T02:36:00+08:00"
+  "updated_at": "2026-11-13T03:44:00+08:00"
 }

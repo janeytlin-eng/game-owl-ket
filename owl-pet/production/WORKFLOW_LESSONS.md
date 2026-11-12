@@ -155,3 +155,11 @@ When primary sources say a recent fledgling can fly but lands poorly, that evide
 - Validation: edited full plate and three fresh crops were reopened; role count/labels, near-equal adults, support and evidence-bounded fledgling stage passed with limitations.
 - Reusable check: for a flight-capable age-unknown fledgling, do not automatically remove all formed remiges; instead compare feather length, edge softness and pattern crispness against the adults. Treat “unringed face” as a specific anti-target review gate.
 - Archive lesson: a persistent Git blob is recoverable evidence but is not an archived repository file. Do not advance ARCHIVED/VERIFIED until the blob is attached to a main-tree path and read back.
+
+
+### 2026-11-13 — “juvenile resembles adult” is not a licence for adult wing geometry (applied and crop-verified)
+
+- **Problem:** #175 initial generation followed adult resemblance too literally: the juvenile wing rows were too crisp, while adult ear-tufts were exaggerated.
+- **Evidence:** Mikkola printed p.134/PDF p.136 gives small ear-tufts, no evidence of sexual size difference, and only the broad statement that juvenile resembles adult; it does not provide feather chronology or flight ability.
+- **Applied change:** keep adults near-equal, reduce tufts, and render the age-unknown fledgling with a shorter rounded softer folded wing plus bilateral support; do not infer nest or flight.
+- **Verified result:** edit1 full plate and all three crops passed these gates. This is an applied visual rule, not new biological evidence; science remains false.

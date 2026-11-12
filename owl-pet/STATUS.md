@@ -4332,3 +4332,11 @@ Verification [`9bbf4e41`](https://github.com/janeytlin-eng/game-owl-ket/commit/9
 - Preserved v1–v3; restored the narrow chest band and patterned brown flanks omitted by v3.
 - Retained the directly evidenced age-unknown dark fluffy juvenile with full natural root support; edit0; PASS_WITH_LIMITATIONS; science=false.
 - Unique species remains 176/251; revision +1. Research: `research/species/165-ninox-punctulata-v4.md`; review: `research/reviews/165-ninox-punctulata-v4-review.md`; run: `production/runs/20261112T223100+0800-cycle-4.md`.
+
+
+## 2026-11-13 — #175 *Otus ireneae* v4 archived pending verification
+
+- V1–v3 preserved; unique species remains **176/251** and this is one science revision.
+- Uploaded Mikkola printed p.134/PDF p.136 was directly read: no evidence of sexual size difference; juvenile only broadly resembles adult. V4 therefore uses near-equal adults, a non-sex-linked grey/dark morph direction and a fully supported age-unknown fledgling away from a nest.
+- One edit reduced adult ear-tuft prominence and softened/shortened the juvenile folded wing. Full plate and three crops: **PASS_WITH_LIMITATIONS**; scientifically_verified=false.
+- Remote archive readback and ledger credit are pending.

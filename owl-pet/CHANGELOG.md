@@ -1763,3 +1763,6 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 
 
 - 2026-11-12T15:48:26.962+08:00: archived #150 *Ninox variegata* v4 science revision after two new source reads, one generation and full-plus-three-crop review. No edit required; manifests 831/800/809; immutable readback and ledger credit pending; unique 176/251; science=false.
+
+
+- 2026-11-12T15:53:56.987+08:00: #150 *Ninox variegata* v4 immutable readback passed accepted archive `523bb4a8c66064e12e89587a51e21717df158bad` / tree `a56b36ecdfb62ca9ecd2765b2b5b465ff813c0cc`: nine exact binary paths, four streams, manifests 831/800/809; ledger pending; science=false.

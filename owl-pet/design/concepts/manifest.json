@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T15:52:37.395+08:00",
+  "updated": "2026-11-12T15:53:56.987+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -33352,7 +33352,7 @@
       "revision_increment": 1,
       "edit_count": 0,
       "imagegen_invocations": 1,
-      "status": "ARCHIVED_READBACK_PENDING",
+      "status": "VERIFIED",
       "source_ids": [
         "NIBO-VOISIN-2011-TYPES",
         "NIBO-MNHN-2010-278-2026",
@@ -33412,12 +33412,41 @@
       ],
       "archive_note": "V1-v3 retained. Two new sources were read: a Museums Victoria New Ireland specimen with sex unknown and a locality-tagged adult photograph. V3 closed eyes were corrected as a presentation choice, not a developmental fact. Full plate and three crops opened; no edit required. Sex direction, exact juvenile chronology and nest evidence remain unknown. Fresh Mikkola upload unavailable. Manifest blob references corrected before verification.",
       "archived_at": "2026-11-12T15:48:26.962+08:00",
-      "archive_commit_pending": true,
-      "readback_pending": true,
-      "exact_readback": false,
+      "archive_commit_pending": false,
+      "readback_pending": false,
+      "exact_readback": true,
       "ledger_credited": false,
-      "updated_at": "2026-11-12T15:52:37.395+08:00"
+      "updated_at": "2026-11-12T15:53:56.987+08:00",
+      "archive_commit": "523bb4a8c66064e12e89587a51e21717df158bad",
+      "archive_tree": "a56b36ecdfb62ca9ecd2765b2b5b465ff813c0cc",
+      "verified_at": "2026-11-12T15:53:56.987+08:00",
+      "verification_result": "PASS_WITH_LIMITATIONS",
+      "required_paths_verified": 21,
+      "exact_binary_paths_verified": 9,
+      "unique_binary_streams_tree_verified": 4,
+      "readback": {
+        "status": "VERIFIED",
+        "archive_commit": "523bb4a8c66064e12e89587a51e21717df158bad",
+        "tree_sha": "a56b36ecdfb62ca9ecd2765b2b5b465ff813c0cc",
+        "tree_entries": 4643,
+        "tree_truncated": false,
+        "required_paths_verified": 21,
+        "exact_binary_paths_verified": 9,
+        "manifest_counts": {
+          "concepts": 831,
+          "image": 800,
+          "design": 809
+        },
+        "manifest_json_valid": true,
+        "manifest_exact_blob_readback": true,
+        "path_blob_readback": true,
+        "local_png_full_decode": true,
+        "sha256_verified": true,
+        "unique_species": "176/251",
+        "scientifically_verified": false
+      },
+      "verification_commit_pending": true
     }
   ],
-  "updated_at": "2026-11-12T15:52:37.395+08:00"
+  "updated_at": "2026-11-12T15:53:56.987+08:00"
 }

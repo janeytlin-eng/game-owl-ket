@@ -4231,3 +4231,8 @@ Verification [`b5b701b5292200a8aedab6551c79892714fac04c`](https://github.com/jan
 ## 2026-11-12 — #150 *Ninox variegata* v4 archived; verification pending
 
 V1–v3 preserved. Two new sources were read; full plate and three role crops were opened. V4 corrects the unsupported implication that closed eyes were developmental evidence, while retaining near-equal adults and an age-unknown fully supported juvenile. No edit was required. Result `PASS_WITH_LIMITATIONS`; science=false; unique coverage remains 176/251; canonical concept: `design/concepts/150-ninox-variegata-v4.png`.
+
+
+## 2026-11-12 — #150 *Ninox variegata* v4 immutable archive VERIFIED; ledger pending
+
+Accepted archive [`523bb4a8c66064e12e89587a51e21717df158bad`](https://github.com/janeytlin-eng/game-owl-ket/commit/523bb4a8c66064e12e89587a51e21717df158bad) / tree `a56b36ecdfb62ca9ecd2765b2b5b465ff813c0cc` passed exact readback: 9 binary paths, 4 unique PNG streams, manifests 831/800/809 with one #150 v4 entry each. Earlier data-URL transport blobs were rejected and repaired before verification. Result `PASS_WITH_LIMITATIONS`; science=false; unique coverage 176/251.

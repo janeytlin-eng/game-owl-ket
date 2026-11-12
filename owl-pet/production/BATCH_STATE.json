@@ -48312,32 +48312,39 @@
           "completed_at": "2026-11-13T00:26:38+08:00",
           "review_result": "PASS_WITH_LIMITATIONS",
           "scientifically_verified": false
+        },
+        {
+          "cycle": 3,
+          "run_id": "20261113T003105+0800-cycle-3",
+          "species_id": 170,
+          "species": "Glaucidium sanchezi",
+          "version": 4,
+          "action": "SCIENCE_REVISION",
+          "result": "VERIFIED",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "archive_commit": "3b4d20ecd5bbdeff2ee23197beefe0a05d27c4c7",
+          "archive_tree": "bc2910234488de131ac737e3ca5f4ec9d2fbb995",
+          "verification_commit": "5df498ea27c837e38c52c50715cd182768cae93b",
+          "verification_tree": "396bb4c9f27bb926f248f50d1f980b5202de81c0",
+          "commit_sha": "5df498ea27c837e38c52c50715cd182768cae93b",
+          "run_record": "owl-pet/production/runs/20261113T003105+0800-cycle-3.md",
+          "concept_path": "owl-pet/design/concepts/170-glaucidium-sanchezi-v4.png",
+          "completed_at": "2026-11-13T00:53:37.448+08:00",
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 3,
-      "active_cycle": 3,
+      "next_cycle": 4,
+      "active_cycle": null,
       "started_at": "2026-11-12T23:41:06+08:00",
-      "updated_at": "2026-11-13T00:52:42.459+08:00",
-      "current_stage": "VERIFIED",
-      "stage": "VERIFIED",
-      "completed_count": 2,
-      "ledger_credit_pending": true,
-      "lease": {
-        "owner": "codex-work-mode",
-        "run_id": "20261113T003105+0800-cycle-3",
-        "heartbeat_at": "2026-11-13T00:52:42.459+08:00",
-        "expires_at": "2026-11-13T01:15:42.459+08:00"
-      },
-      "active": {
-        "cycle": 3,
-        "run_id": "20261113T003105+0800-cycle-3",
-        "species_id": 170,
-        "species": "Glaucidium sanchezi",
-        "version": 4,
-        "action": "SCIENCE_REVISION",
-        "stage": "VERIFIED",
-        "run_record": "owl-pet/production/runs/20261113T003105+0800-cycle-3.md"
-      },
+      "updated_at": "2026-11-13T00:53:37.448+08:00",
+      "current_stage": "LEDGER_CREDITED",
+      "stage": "LEDGER_CREDITED",
+      "completed_count": 3,
+      "ledger_credit_pending": false,
+      "lease": null,
+      "active": null,
       "stage_events": [
         {
           "batch_id": "20261112T234106+0800",
@@ -48893,6 +48900,27 @@
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-13T01:15:42.459+08:00"
           }
+        },
+        {
+          "batch_id": "20261112T234106+0800",
+          "cycle": 3,
+          "stage": "LEDGER_CREDITED",
+          "at": "2026-11-13T00:53:37.448+08:00",
+          "run_id": "20261113T003105+0800-cycle-3",
+          "species_id": 170,
+          "species": "Glaucidium sanchezi",
+          "credited": true,
+          "evidence": {
+            "archive_commit": "3b4d20ecd5bbdeff2ee23197beefe0a05d27c4c7",
+            "verification_commit": "5df498ea27c837e38c52c50715cd182768cae93b",
+            "next_cycle": 4,
+            "unique_species_increment": 0,
+            "revision_increment": 1,
+            "total_species": 251,
+            "unique_species": 176,
+            "edit_count": 1,
+            "repair_verified": true
+          }
         }
       ]
     }
@@ -49041,13 +49069,8 @@
     "2026-10-30T18:12:00+08:00 ledger normalization: historical batch 2026-10-16T0430+0800 already COMPLETE with six preserved completed_cycles; stale next_cycle 7 changed to null. No cycle count or evidence changed.",
     "2026-11-12T19:28:30+08:00: expired lease for 20261112T183437+0800-cycle-1 reconciled against main 2fa8925; recovered IMAGE_GENERATED evidence remains in orphan commit 85c75cb7 and is not credited; lease renewed to resume cycle 1 without regenerating."
   ],
-  "active_lease": {
-    "owner": "codex-work-mode",
-    "run_id": "20261113T003105+0800-cycle-3",
-    "heartbeat_at": "2026-11-13T00:52:42.459+08:00",
-    "expires_at": "2026-11-13T01:15:42.459+08:00"
-  },
-  "last_updated_at": "2026-11-13T00:52:42.459+08:00",
+  "active_lease": null,
+  "last_updated_at": "2026-11-13T00:53:37.448+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -51151,7 +51174,7 @@
       "lease_expires_at": "2026-11-07T21:08:00+08:00"
     }
   ],
-  "last_updated": "2026-11-13T00:52:42.459+08:00",
+  "last_updated": "2026-11-13T00:53:37.448+08:00",
   "audit_log": [
     {
       "at": "2026-10-31T18:36:48+08:00",
@@ -56364,9 +56387,9 @@
     }
   ],
   "active_batch_id": "20261112T234106+0800",
-  "active_cycle": 3,
-  "current_stage": "VERIFIED",
-  "next_cycle": 3,
+  "active_cycle": null,
+  "current_stage": "LEDGER_CREDITED",
+  "next_cycle": 4,
   "unique_species_count": 176,
   "total_species": 251,
   "stage_events": [
@@ -74325,8 +74348,8 @@
       "next_cycle": 2
     }
   ],
-  "ledger_credit_pending": true,
-  "last_verified_commit": "e2e294b83867b1243fffde8e97002d903b41f9a5",
+  "ledger_credit_pending": false,
+  "last_verified_commit": "5df498ea27c837e38c52c50715cd182768cae93b",
   "completed_cycles": [
     {
       "cycle": 1,
@@ -74350,8 +74373,8 @@
       "scientifically_verified": false
     }
   ],
-  "updated": "2026-11-13T00:52:42.459+08:00",
-  "stage": "VERIFIED",
+  "updated": "2026-11-13T00:53:37.448+08:00",
+  "stage": "LEDGER_CREDITED",
   "stage_evidence": {
     "archive_commit": "e901aa6a1e103246270aed728c5564060399faf9",
     "verification_commit": "e2e294b83867b1243fffde8e97002d903b41f9a5",
@@ -74361,7 +74384,7 @@
     "total_species": 251,
     "unique_species": 176
   },
-  "last_verification_commit": "e2e294b83867b1243fffde8e97002d903b41f9a5",
+  "last_verification_commit": "5df498ea27c837e38c52c50715cd182768cae93b",
   "timestamps": {
     "RESEARCH_READY": "2026-11-08T03:43:01+08:00",
     "IMAGE_GENERATED": "2026-11-08T03:44:43+08:00",
@@ -75536,16 +75559,7 @@
     }
   ],
   "last_archive_commit": "3b4d20ecd5bbdeff2ee23197beefe0a05d27c4c7",
-  "active": {
-    "cycle": 3,
-    "run_id": "20261113T003105+0800-cycle-3",
-    "species_id": 170,
-    "species": "Glaucidium sanchezi",
-    "version": 4,
-    "action": "SCIENCE_REVISION",
-    "stage": "VERIFIED",
-    "run_record": "owl-pet/production/runs/20261113T003105+0800-cycle-3.md"
-  },
+  "active": null,
   "phase_events": [
     {
       "batch_id": "20261112T043100+0800",
@@ -76202,40 +76216,36 @@
     }
   ],
   "unique_species": 176,
-  "last_verified_species_id": 168,
-  "last_verified_species": "Ketupa leucosticta",
-  "active_species": {
+  "last_verified_species_id": 170,
+  "last_verified_species": "Glaucidium sanchezi",
+  "active_species": null,
+  "last_completed_cycle": {
+    "cycle": 3,
+    "run_id": "20261113T003105+0800-cycle-3",
     "species_id": 170,
     "species": "Glaucidium sanchezi",
-    "version": 4
-  },
-  "last_completed_cycle": {
-    "cycle": 1,
-    "run_id": "20261112T234106+0800-cycle-1",
-    "species_id": 168,
-    "species": "Ketupa leucosticta",
     "version": 4,
     "action": "SCIENCE_REVISION",
     "result": "VERIFIED",
     "unique_species_increment": 0,
     "revision_increment": 1,
-    "archive_commit": "e901aa6a1e103246270aed728c5564060399faf9",
-    "archive_tree": "a59dcd1319e9300f19533dce42768af70f24c416",
-    "verification_commit": "e2e294b83867b1243fffde8e97002d903b41f9a5",
-    "verification_tree": "8f306201e13bde0377cb09315b01c5a9f8d55128",
-    "commit_sha": "e2e294b83867b1243fffde8e97002d903b41f9a5",
-    "run_record": "owl-pet/production/runs/20261112T234106+0800-cycle-1.md",
-    "concept_path": "owl-pet/design/concepts/168-ketupa-leucosticta-v4.png",
-    "completed_at": "2026-11-13T00:02:09+08:00",
+    "archive_commit": "3b4d20ecd5bbdeff2ee23197beefe0a05d27c4c7",
+    "archive_tree": "bc2910234488de131ac737e3ca5f4ec9d2fbb995",
+    "verification_commit": "5df498ea27c837e38c52c50715cd182768cae93b",
+    "verification_tree": "396bb4c9f27bb926f248f50d1f980b5202de81c0",
+    "commit_sha": "5df498ea27c837e38c52c50715cd182768cae93b",
+    "run_record": "owl-pet/production/runs/20261113T003105+0800-cycle-3.md",
+    "concept_path": "owl-pet/design/concepts/170-glaucidium-sanchezi-v4.png",
+    "completed_at": "2026-11-13T00:53:37.448+08:00",
     "review_result": "PASS_WITH_LIMITATIONS",
     "scientifically_verified": false
   },
   "last_verified": {
-    "species_id": 167,
-    "species": "Ketupa poensis",
+    "species_id": 170,
+    "species": "Glaucidium sanchezi",
     "version": 4,
-    "archive_commit": "9632c96fcb620ae466906910d2450311279c65a1",
-    "verification_commit": "55724bdff437dd6908d543ec28c1cea7a7343307",
-    "at": "2026-11-12T23:11:00+08:00"
+    "archive_commit": "3b4d20ecd5bbdeff2ee23197beefe0a05d27c4c7",
+    "verification_commit": "5df498ea27c837e38c52c50715cd182768cae93b",
+    "at": "2026-11-13T00:53:37.448+08:00"
   }
 }

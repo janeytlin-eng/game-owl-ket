@@ -94,3 +94,10 @@ undefined
 - **Verified result:** full plate plus male, downy-young and female crops pass support, count, label and bounded-plumage checks. `PASS_WITH_LIMITATIONS`; science=false.
 - **Reusable rule:** when a perspective cue resembles duplicated anatomy, inspect a focused native-resolution crop before editing. Record a rejected defect hypothesis explicitly; do not count it as an image revision. Verified here only.
 
+
+## 2026-11-12 — #142 *Asio grammicus* v4
+
+- **Problem:** correcting v3's adult-hard juvenile wing had over-corrected the bird into an almost wingless uniform down ball.
+- **Evidence:** Gosse's two downy immature observations show individual variation in immediate movement after disturbance but do not define a universal age or flight threshold; Mikkola and the retained photographic comparator support a down-remnant older juvenile.
+- **Applied rule:** distinguish wing development from action ability. A supported older juvenile may show a compact, soft, partly formed folded wing without being posed flying or assigned a precise flight capacity.
+- **Verification:** full plate plus male, juvenile and female crops passed this rule with no edit. This is verified for #142 v4 only; it is not a universal owl timetable.

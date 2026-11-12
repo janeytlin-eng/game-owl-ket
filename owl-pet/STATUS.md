@@ -4187,3 +4187,14 @@ Verification [`75acc5a4bf47fa3fea28ee72507f26269db45282`](https://github.com/jan
 
 Verification [`75acc5a4bf47fa3fea28ee72507f26269db45282`](https://github.com/janeytlin-eng/game-owl-ket/commit/75acc5a4bf47fa3fea28ee72507f26269db45282) was read back after archive [`20a15f3451f79d59d02fd1a16f531962989fb647`](https://github.com/janeytlin-eng/game-owl-ket/commit/20a15f3451f79d59d02fd1a16f531962989fb647). Cycle 6 is credited exactly once; batch `20261112T074300+0800` is complete 6/6, leases are released, and no other PARTIAL batch is registered. Unique coverage remains 176/251; this is revision +1 and science=false.
 
+## 2026-11-12 — #143 Fearful Owl — *Asio solomonensis* v4 ARCHIVED, readback pending
+
+V4科学修订保留v1–v3。重读Loyn & Debus原始幼鸟记录，并新增Woxvold & Novera 2021布干维尔低山林成鸟/鸣声记录。组图采用近等尺度无耳羽成年雌雄，以及一只年龄、性别、飞行能力未知的较大幼鸟：长而无横斑的浅色绒羽、深色面罩、紧凑且被绒羽遮掩的初生横斑翼片，双足站在文献所述救护栏杆的艺术转译上；栏杆不作为巢位主张。整图与三张角色裁图均实际打开，无需编辑；结果 `PASS_WITH_LIMITATIONS`，science=false。
+
+- Concept: `design/concepts/143-asio-solomonensis-v4.png`
+- Initial/final originals: `production/generated/143-asio-solomonensis-v4-initial-original.png`, `production/generated/143-asio-solomonensis-v4-final-original.png`
+- Research/review: `research/species/143-asio-solomonensis-v4.md`, `research/reviews/143-asio-solomonensis-v4-review.md`
+- Run: `production/runs/20261112T113500+0800-cycle-1.md`
+- Sources: new verified 1; reread/reused 3; unverified sources used 0. Uploaded Mikkola guide unavailable; no fresh-page claim.
+- Unique coverage remains 176/251; revision +1; immutable readback pending.
+

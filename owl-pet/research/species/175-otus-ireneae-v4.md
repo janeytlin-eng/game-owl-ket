@@ -39,3 +39,9 @@ Juvenile evidence boundary: portray a documented age-unknown fledgling / recentl
 Environment: dense lowland Cynometra woodland of the Sokoke–Arabuko / East Usambara range, layered small leaves, interlaced woody branches, humid green-brown depth. This is a neutral roost/perch scene away from a nest: no nest cavity, eggs, nest material, prey delivery or family narrative. The three birds can share the branch compositionally without implying a photographed family.
 
 Composition/quality constraints: front three-quarter views, gentle natural individuality in head angle, all heads upright, no severe tilt, no duplicate faces, no anatomical errors, no text other than the exact title and three exact labels, no watermarks.
+
+## Review outcome — 2026-11-13T03:41:00+08:00
+- Edited full plate and all three role crops opened.
+- One targeted edit reduced adult ear-tuft prominence and softened/shortened the juvenile folded wing.
+- Review result: PASS_WITH_LIMITATIONS; details in `research/reviews/175-otus-ireneae-v4-review.md`.
+- Scientific verification remains false because juvenile exact age/iris/feather chronology/flight capability are not established.

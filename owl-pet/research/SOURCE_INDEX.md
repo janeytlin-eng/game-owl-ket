@@ -3418,6 +3418,37 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 **Run synthesis:** six central-index records added (four directly read/re-opened this run; two preserved prior reads), one unverified lead retained but excluded from design. Exact juvenile age/iris/flight/sequence, nest form, and sex-size direction remain unknown; scientific verification remains false.
 
 
+## 2026-11-12 — #142 *Asio grammicus* v4 research delta
+
+### JAM-GOSSE-1847-P19-23 — original description and immature observations
+- **Title / author / year:** *The Birds of Jamaica* / Philip Henry Gosse / 1847.
+- **Stable ID / original access:** Biodiversity Heritage Library title 14540, DOI https://doi.org/10.5962/bhl.title.14540 ; Project Gutenberg full transcription https://www.gutenberg.org/cache/epub/73391/pg73391-images.html ; accessed and read 2026-11-12.
+- **Locator/type:** printed pp.19–23; original species description and field/captive observations; historical primary source.
+- **Species/stage:** original *Ephialtes grammicus*; current *Asio grammicus*; adult male/female and two immature females.
+- **Facts:** printed p.19 supports hazel irides, pale blue-grey bill, dull lead feet, blackish-grey cere, dusky-brown/umber plumage, c.1-inch conical ear tufts, black-edged pale-umber face, fine blackish pencilling, bright-umber breast with wavy mottling/dark shaft dashes, plainer fawn belly/thighs/vent and a fully feathered tarsus. Gosse's female agreed with Robinson's adult male except warm-colour terminology. Printed pp.20–22 record two downy immature females: one flew to a nearby tree after disturbance; another fell from a shaken small tree and lay helpless by day.
+- **Limits/conflict/confidence:** nineteenth-century colour vocabulary and individual anecdotes; the two immatures have no exact age, sex comparison, feather-sequence or standardized flight test. High confidence for the explicitly described visible adult characters and existence of downy immature variation; low for generalizing locomotor ability.
+- **Design/check support:** adults near-equal/same palette; blue-grey bill, dull lead feet, feathered tarsi; an older down-remnant juvenile must not automatically be rendered wingless, but no flight is depicted. Links `research/species/142-asio-grammicus-v4.md` and v4 prompt/review.
+
+### JAM-GOSSE-1849-PLATE-IV — historical adult illustration
+- **Title / author / year:** *Illustrations of the Birds of Jamaica* / Philip Henry Gosse / 1849.
+- **URL / locator / type:** https://www.biodiversitylibrary.org/page/49061937 ; Plate IV, “Ephialtes grammicus,” reference to printed p.19; accessed 2026-11-12; historical primary illustration.
+- **Species/stage:** original *Ephialtes grammicus*; adult illustration.
+- **Value/use:** corroborates the compact eared-owl silhouette, warm umber palette and dark facial framing used in the original account.
+- **Limits:** a single period plate, not a calibrated colour photograph and not juvenile or sex-dimorphism evidence. Used only as an adult silhouette/palette cross-check.
+
+### JAM-PEREGRINE-FUND-2026 — habitat and explicit development unknowns
+- **Institution/title/date:** The Peregrine Fund, Global Raptor Information Network species account “Jamaican Owl”; page accessed 2026-11-12; institutional synthesis, publication date not shown.
+- **URL/sections:** https://peregrinefund.org/explore-raptors-species/owls/jamaican-owl ; “Where they live,” “Nesting” and species-description sections read.
+- **Species/stage:** *Asio grammicus*; adult habitat and generalized breeding summary.
+- **Facts:** associated mainly with lowland open woodland, forest edge, gardens/parks and agricultural areas; nest site summarized as tree cavity or tree fork; the account explicitly states that nestling growth, first-flight age and parental-care details remain unknown.
+- **Limits/use:** secondary institutional synthesis without primary-page locators; it does not support a particular juvenile posture or nest construction. Used to select a leafy Jamaican edge habitat and to preserve development unknowns; no nest is depicted.
+
+### Reuse, correction and uncertainty mapping
+- **Reused/re-read:** `JAM-MIKKOLA-2013-P500-501` (repository-preserved direct page read), `JAM-HOYER-BIRDSEYE` (young-photo comparator) and `JAM-ITIS-1244691-2026` (current/original/old-name mapping).
+- **Excluded lead:** `JAM-SUTTON-1988-JUVENILE-FROG` remains unverified because the underlying note was not recovered; it is not used for age, posture, plumage, food or nest design.
+- **Corrected inference:** v3's almost wingless juvenile is not retained as a scientific stage claim. V4 restores a small soft partly formed wing while keeping exact age, iris chronology, flight threshold, independence, sex-size direction and nest details unknown. Scientific verification remains false.
+
+
 ## 2026-11-07 — #143 *Asio solomonensis* v3 — juvenile source reread and current-name mapping
 
 ### FEO-LOYN-DEBUS-2000-P288-289

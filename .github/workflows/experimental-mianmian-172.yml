@@ -6,6 +6,7 @@ on:
     paths:
       - .github/workflows/experimental-mianmian-172.yml
       - owl-pet/3d-experiments/172-tyto-castanops/run07/extract_reference.py
+      - owl-pet/3d-experiments/172-tyto-castanops/run07/test_rembg_matte.py
   workflow_dispatch:
 permissions:
   contents: write
@@ -30,7 +31,7 @@ jobs:
         with:
           python-version: "3.11"
       - name: Install basic image processing dependencies (no paid models)
-        run: python -m pip install --disable-pip-version-check numpy pillow opencv-python-headless
+        run: python -m pip install --disable-pip-version-check numpy pillow opencv-python-headless rembg onnxruntime
       - name: Verify original and extract rightmost chick crop and matte
         run: |
           set -euo pipefail
@@ -39,6 +40,13 @@ jobs:
             --source owl-pet/design/concepts/172-tyto-castanops-v3.png \
             --out owl-pet/3d-experiments/172-tyto-castanops/run07/output \
             | tee owl-pet/3d-experiments/172-tyto-castanops/run07/last_run_stdout.json
+      - name: Compare optional free CPU saliency matte (no 3D generation)
+        continue-on-error: true
+        timeout-minutes: 7
+        run: |
+          python owl-pet/3d-experiments/172-tyto-castanops/run07/test_rembg_matte.py \
+            --output-dir owl-pet/3d-experiments/172-tyto-castanops/run07/output \
+            | tee owl-pet/3d-experiments/172-tyto-castanops/run07/rembg_stdout.json
       - name: Retain rejected/unchecked reference products in action artifact
         if: always()
         uses: actions/upload-artifact@v4
@@ -47,6 +55,7 @@ jobs:
           path: |
             owl-pet/3d-experiments/172-tyto-castanops/run07/output/
             owl-pet/3d-experiments/172-tyto-castanops/run07/last_run_stdout.json
+            owl-pet/3d-experiments/172-tyto-castanops/run07/rembg_stdout.json
           if-no-files-found: warn
           retention-days: 30
       - name: Commit QA outputs on isolated branch only
@@ -57,6 +66,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add owl-pet/3d-experiments/172-tyto-castanops/run07/output \
                   owl-pet/3d-experiments/172-tyto-castanops/run07/last_run_stdout.json
+                  owl-pet/3d-experiments/172-tyto-castanops/run07/rembg_stdout.json
           if git diff --cached --quiet; then
             echo "Reference outputs unchanged."
           else

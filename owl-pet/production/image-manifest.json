@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T02:15:00.000+08:00",
+  "updated": "2026-11-13T02:30:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -31526,7 +31526,85 @@
       "verification_commit": "c7eb1b50b5f7c7e574521ddf4583483ca493ea82",
       "verification_tree": "1eb53f08620d7439bd43cb3ca86bb5abf995cc55",
       "ledger_credited_at": "2026-11-13T02:15:00.000+08:00"
+    },
+    {
+      "id": "174-strix-sartorii-v4",
+      "path": "design/concepts/174-strix-sartorii-v4.png",
+      "species_id": 174,
+      "scientific_name": "Strix sartorii",
+      "historical_names": [
+        "Strix varia sartorii",
+        "Syrnium sartorii",
+        "Syrnium nebulosum var. Sartorii"
+      ],
+      "common_name": "Cinereous Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "status": "v4 evidence-bounded revision. Deignan 1961 p.157 corrects the USNM type number and confirms the adult female type/locality but is not population-level size evidence. Adults remain near-equal with cold gray-brown upperparts, pale unringed faces, dark eyes, streaked pale underparts and feathered toes. The center bird is an age-unknown directly flight-observed begging fledgling with bounded formed flight feathers and bilateral branch support. Initial facial rings and adult-like fledgling wing rows were softened in one targeted edit. PASS_WITH_LIMITATIONS; exact juvenile age/sex/molt/first-flight threshold, nest details and quantified sex-size direction remain unknown; science=false.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "CIO-DEIGNAN-1961-P157",
+        "CIO-BAIRD-RIDGWAY-1874-P29",
+        "CIO-EARBIRDING-2015-FLEDGLING",
+        "CIO-PIEPLOW-ETAL-2020-P221-227",
+        "CIO-AOS-2021-P263",
+        "CIO-MEXICANBIRDING-2020-PHOTO"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/174-strix-sartorii-v4.md",
+      "run_record": "production/runs/20261113T022000+0800-cycle-1.md",
+      "review_record": "research/reviews/174-strix-sartorii-v4-review.md",
+      "reviewed_at": "2026-11-13T02:35:00+08:00",
+      "dimensions": "1536x1024",
+      "sha256": "133db06e967915b91547e55e64466f0e51d8767200dd54ba1cdc9f2af4a97007",
+      "size_bytes": 2722314,
+      "git_blob": "ccaccdb9b001ec26ce2dbd1999aeedaf2741797c",
+      "initial_generated_path": "production/generated/174-strix-sartorii-v4-initial-original.png",
+      "initial_generated_blob": "37215b6359e9198cb6ad23c7fdcc2a72a42694b3",
+      "initial_generated_sha256": "1aa349401f1f05a2ba44c05821f0faf15f8ea5dada4e8d875c0c68c78f97edb6",
+      "initial_generated_size_bytes": 2981056,
+      "edited_path": "production/generated/174-strix-sartorii-v4-edit1-original.png",
+      "edited_blob": "ccaccdb9b001ec26ce2dbd1999aeedaf2741797c",
+      "final_original_path": "production/generated/174-strix-sartorii-v4-final-original.png",
+      "generated_path": "production/generated/174-strix-sartorii-v4-full-color.png",
+      "generated_blob": "ccaccdb9b001ec26ce2dbd1999aeedaf2741797c",
+      "generated_sha256": "133db06e967915b91547e55e64466f0e51d8767200dd54ba1cdc9f2af4a97007",
+      "generated_size_bytes": 2722314,
+      "reviewed_path": "production/reviewed/174-strix-sartorii-v4-reviewed-master.png",
+      "reviewed_blob": "ccaccdb9b001ec26ce2dbd1999aeedaf2741797c",
+      "reviewed_sha256": "133db06e967915b91547e55e64466f0e51d8767200dd54ba1cdc9f2af4a97007",
+      "reviewed_size_bytes": 2722314,
+      "review_crops": [
+        {
+          "role": "adult_male",
+          "path": "production/review-crops/174-strix-sartorii-v4-adult-male.png",
+          "blob": "629f0797d3cef121d324fae05c157e158439d9c3",
+          "sha256": "67b701a8fb98d6f91dc940a3c0931d8fdbd78e6a35c1c9f7bf33a4970a20d9a3",
+          "size_bytes": 671600
+        },
+        {
+          "role": "fledgling",
+          "path": "production/review-crops/174-strix-sartorii-v4-fledgling.png",
+          "blob": "f8fe7f17a6aec020f3295b920983570374a47f4e",
+          "sha256": "bf62c6b6ed5ababd47b04e63293a0fc0958b5ec5eb910d01b72ef72ea06fe584",
+          "size_bytes": 601470
+        },
+        {
+          "role": "adult_female",
+          "path": "production/review-crops/174-strix-sartorii-v4-adult-female.png",
+          "blob": "0cfbdac92454bdf0a193a20ffac9ec421a01c3f7",
+          "sha256": "3c08472e40a6ec1068b851106d625792c8becc293da0dad36a27b6cd74891e5c",
+          "size_bytes": 629256
+        }
+      ],
+      "archive_commit_pending": true,
+      "readback_pending": true
     }
   ],
-  "updated_at": "2026-11-13T02:15:00.000+08:00"
+  "updated_at": "2026-11-13T02:30:00+08:00"
 }

@@ -1,3 +1,7 @@
+## 2026-11-13 — #174 *Strix sartorii* v4 ARCHIVED; verification pending
+
+V4 preserves v1–v3, reuses the reviewed edited image, and records a direct flight-capable fledgling without inventing exact age or first-flight timing. One targeted edit softened adult facial target-rings and adult-like juvenile wing rows. All nine image paths and four manifest entries are staged; immutable readback and ledger credit are pending. Unique coverage remains 176/251; science=false.
+
 ## 2026-11-12 — #163 Mountain Pygmy Owl v4 archived (verification pending)
 
 - Batch 20261112T213600+0800 cycle 2/6. Preserved v1-v3; one juvenile-wing edit; PASS_WITH_LIMITATIONS; science=false.

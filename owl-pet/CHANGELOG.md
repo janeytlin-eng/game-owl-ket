@@ -1,3 +1,9 @@
+## 2026-11-13 — #174 *Strix sartorii* v4 archived
+
+- Recovered five persistent image blobs after a transient tree-creation failure and attached nine immutable paths without regenerating.
+- Added four manifest entries, preserved v1–v3, and retained PASS_WITH_LIMITATIONS/science=false.
+- Immutable readback and ledger credit remain pending.
+
 ## 2026-11-12 — #162 Baja Pygmy Owl v3 archived, verification pending
 
 - Added a science-revision concept plate for *Glaucidium hoskinsii* while preserving v1-v2 and not counting the duplicate #162 *Aegolius acadicus* collision.

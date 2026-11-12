@@ -4898,3 +4898,19 @@ Reused/re-read without duplicate IDs for #130 v5: `KOEP-ITIS-686665-2026`, repos
 - **Correction:** V3's closed-eyed stationary “older juvenile” is too passive for this individual. V4 may show open eyes and a supported branch-walk/sidestep posture, but the paper does not prove flight or describe plumage/iris chronology.
 - Lines 597–602 support foliage-rich, branch-rich, low-wind habitat and cavity location; the recently hatched juvenile was not described, so no hatchling reconstruction.
 - Linked record: [#148 v4](species/148-ninox-rumseyi-v4.md). Science remains false.
+
+
+### NBBOO-GURNEY-1882-IBIS
+
+- **Title:** “Notes on the Raptorial Birds collected in New Britain”
+- **Author / institution:** J. H. Gurney; specimens collected by Lieut. G. E. Richards; published in *The Ibis*
+- **Year:** 1882
+- **Original URLs:** https://www.biodiversitylibrary.org/page/8609831 ; OCR mirror https://archive.org/download/ibis36brit/ibis36brit_djvu.txt
+- **Accessed:** 2026-11-12
+- **Source type:** primary historic specimen note and sex-labelled measurements
+- **Taxon / stage:** *Ninox odiosa*; two adult males and one adult female collected in New Britain, July 1879
+- **Pages / section:** pp. 131–133, species no. 5; measurement table at p. 133
+- **Facts actually read:** all three labels record yellow iris, drab feet and ash bill. The two males have wing 7.40 in; the female row has wing 7.60 in. Tarsus values are 1.30, 1.40 and 1.40 in; middle toe s.u. 0.90, 1.10 and 1.10 in. The OCR damages sex symbols and renders “7.60” as “7-GO”, so the table was interpreted against the preceding statement “two males and a female” and the three-row order.
+- **Limitations / confidence:** tiny historic sample; sexing method and specimen age are not stated; no body mass, total length, plumage comparison, nest or juvenile development. High confidence for the presence of the series and approximate measurements; do not generalize a universal sex-size rule.
+- **Design / review decision supported:** female may be shown only subtly longer-winged / about 3% larger in linear silhouette than the males, without exaggerated bulk. Iris/bill/feet colours are independently repeated specimen-label evidence.
+- **Links:** `research/species/149-ninox-odiosa-v4.md`; `design/concepts/149-ninox-odiosa-v4.png`; `research/reviews/149-ninox-odiosa-v4-review.md`

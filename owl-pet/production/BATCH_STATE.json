@@ -44000,14 +44000,14 @@
       "next_cycle": 6,
       "active_cycle": 6,
       "started_at": "2026-11-12T11:35:00+08:00",
-      "updated_at": "2026-11-12T14:55:00+08:00",
-      "current_stage": "STARTED",
+      "updated_at": "2026-11-12T15:01:00+08:00",
+      "current_stage": "RESEARCH_READY",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex",
         "run_id": "20261112T145500+0800-cycle-6",
-        "heartbeat_at": "2026-11-12T14:55:00+08:00",
-        "expires_at": "2026-11-12T15:10:00+08:00"
+        "heartbeat_at": "2026-11-12T15:01:00+08:00",
+        "expires_at": "2026-11-12T15:16:00+08:00"
       },
       "active": {
         "cycle": 6,
@@ -44017,7 +44017,7 @@
         "action": "SCIENCE_REVISION",
         "run_record": "owl-pet/production/runs/20261112T145500+0800-cycle-6.md"
       },
-      "stage": "STARTED",
+      "stage": "RESEARCH_READY",
       "completed_count": 5,
       "stage_events": [
         {
@@ -45061,6 +45061,29 @@
             "selection_note": "#149 latest is PASS_WITH_LIMITATIONS v3. A newly located primary 1882 specimen series provides two male and one female measurements, allowing a species-specific subtle female-wing-size direction instead of the prior near-equal placeholder. Preserve v1-v3 and all user confirmations.",
             "lease_expires_at": "2026-11-12T15:10:00+08:00",
             "scientifically_verified": false
+          }
+        },
+        {
+          "batch_id": "20261112T113500+0800",
+          "cycle": 6,
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-12T15:01:00+08:00",
+          "run_id": "20261112T145500+0800-cycle-6",
+          "species_id": 149,
+          "species": "Ninox odiosa",
+          "credited": false,
+          "evidence": {
+            "research_record": "owl-pet/research/species/149-ninox-odiosa-v4.md",
+            "source_index": "owl-pet/research/SOURCE_INDEX.md",
+            "new_verified_sources": 1,
+            "reused_or_reread_sources": 4,
+            "unverified_leads_used": 0,
+            "complete_prompt_saved": true,
+            "prior_visual_inspected": true,
+            "design_boundary": "tiny three-specimen series supports only a subtle ~3% female-longer linear direction; conservative closed-eyed supported age-unknown juvenile; no universal dimorphism or juvenile chronology claim",
+            "mikkola_access": "upload unavailable; no fresh-page claim",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-12T15:16:00+08:00"
           }
         }
       ],
@@ -59117,6 +59140,29 @@
         "selection_note": "#149 latest is PASS_WITH_LIMITATIONS v3. A newly located primary 1882 specimen series provides two male and one female measurements, allowing a species-specific subtle female-wing-size direction instead of the prior near-equal placeholder. Preserve v1-v3 and all user confirmations.",
         "lease_expires_at": "2026-11-12T15:10:00+08:00",
         "scientifically_verified": false
+      }
+    },
+    {
+      "batch_id": "20261112T113500+0800",
+      "cycle": 6,
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-12T15:01:00+08:00",
+      "run_id": "20261112T145500+0800-cycle-6",
+      "species_id": 149,
+      "species": "Ninox odiosa",
+      "credited": false,
+      "evidence": {
+        "research_record": "owl-pet/research/species/149-ninox-odiosa-v4.md",
+        "source_index": "owl-pet/research/SOURCE_INDEX.md",
+        "new_verified_sources": 1,
+        "reused_or_reread_sources": 4,
+        "unverified_leads_used": 0,
+        "complete_prompt_saved": true,
+        "prior_visual_inspected": true,
+        "design_boundary": "tiny three-specimen series supports only a subtle ~3% female-longer linear direction; conservative closed-eyed supported age-unknown juvenile; no universal dimorphism or juvenile chronology claim",
+        "mikkola_access": "upload unavailable; no fresh-page claim",
+        "scientifically_verified": false,
+        "lease_expires_at": "2026-11-12T15:16:00+08:00"
       }
     }
   ],

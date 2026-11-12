@@ -20,7 +20,8 @@ src=np.asarray(source);h,w=src.shape[:2]
 print("u2netp saliency model; free open-source model, unapproved output")
 session=new_session("u2netp")
 raw=remove(source,session=session,only_mask=True)
-mask=np.asarray(Image.open(io.BytesIO(raw)).convert("L"))
+mask_image=raw if isinstance(raw,Image.Image) else Image.open(io.BytesIO(raw))
+mask=np.asarray(mask_image.convert("L"))
 if mask.shape!=(h,w): raise RuntimeError(f"Unexpected saliency output {mask.shape}")
 grabcut=np.asarray(Image.open(o/"segmentation_mask.png").convert("L"))
 # The U2Net output is intentionally not overwritten with GrabCut's mask.

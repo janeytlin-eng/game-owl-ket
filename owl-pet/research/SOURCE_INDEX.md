@@ -5141,3 +5141,27 @@ Reused/re-read without duplicate IDs for #130 v5: `KOEP-ITIS-686665-2026`, repos
 ### Reused/reread boundary
 - `SLBO-OWLPAGES-2020`: adult V-shaped vinaceous-pink divided disc, dark eye patches, yellowish bill, dark chestnut spotted upperparts, heavy wing/tail barring, pale buff spotted underparts, feathered legs and pale gray-brown toes; tree-hollow nesting and size-disparate November young are secondary synthesis only.
 - **Index delta:** 3 sources newly central-indexed; 1 prior record reread. Juvenile plumage remains undocumented in the read species-specific sources, so v4 does not claim an exact day-age or feather sequence. Uploaded Mikkola guide was not mounted in this cycle; no fresh page claim. Scientific verification remains false.
+
+
+## 2026-11-12 — #160 *Tyto inexspectata* v4 — live adult diagnosis and disputed juvenile correction
+
+### MIN-MAURO-DRIJVERS-2000-P180-182
+- **Title/authors/year:** “Minahassa Owl *Tyto inexspectata* at Lore Lindu National Park, Sulawesi, Indonesia in December 1998” — Iwein Mauro & Raf Drijvers; 2000; *Forktail* 16: 180–182.
+- **URL / actually read:** https://static1.squarespace.com/static/5c1a9e03f407b482a158da87/t/5c1fc4c92b6a282c991dfbbb/1545585868722/Mauro-Owl.pdf ; printed pp.180–182, especially pp.180–181; accessed 2026-11-12.
+- **Source type / stage:** primary field observation and sound recording; unsexed adult at c.1,700 m in roadside primary lower-montane forest near Danau Tambing, Lore Lindu; no juvenile.
+- **Facts:** adult compact and stocky, smaller than *T. rosenbergii*, with large rounded head, heart disc, black eyes, short yellowish bill, dark golden-brown upperparts, whitish chest, buff sparsely dark-spotted lowerparts, long fully feathered tarsi and strong brownish-grey feet. The observed disc was dark rusty-brown with broad blackish edge; museum specimens can be pale grey.
+- **Conflict/design use:** p.181 says Fletcher’s claimed breeding/juvenile record clearly referred to *T. rosenbergii*. Use this source for adult identity; reject the juvenile as species evidence. Disc variation is individual, not sex-coded.
+- **Limits/confidence:** high for the living adult and stated conflict; single unsexed adult, no sex ratio, juvenile chronology or nest interior.
+
+### MIN-FLETCHER-1998-P80-81-CONFLICT
+- **Title/author/year:** “A breeding record for Minahassa Owl *Tyto inexspectata* from Dumoga-Bone National Park, Sulawesi, Indonesia” — Brian S. Fletcher; 1998; *Forktail* 14: 80–81.
+- **URL / actually read:** https://static1.squarespace.com/static/5c1a9e03f407b482a158da87/t/5c1f4f97898583352e27a232/1545555865398/Burton-Kingfisher.pdf ; printed pp.80–81; accessed 2026-11-12.
+- **Stage/facts:** an owl interpreted there as a branch-perching juvenile was greyish-white speckled below, browner-winged, calling and scrambling on a high strangler-fig branch.
+- **Conflict:** Mauro & Drijvers 2000 p.181 later attribute this description to *T. rosenbergii*. Retain only as a historical correction; it cannot calibrate the #160 juvenile.
+- **Limits/confidence:** direct account of the observation but rejected species identity; zero weight for *T. inexspectata* juvenile morphology.
+
+### Reuse and boundary
+- Reused MIN-NATURALIS-TYPECAT-2023-P175, MIN-SCHLEGEL-1879-NATURALIS and MIN-COMMONS-GODON-2022-229399656.
+- Adults remain near-equal; quantified sex dimorphism is unknown. Juvenile chronology, iris timing, nest interior and flight threshold remain unknown.
+- V4 uses an explicit age-unknown down-rich older-young inference with short down-veiled wings, hidden tail and continuous support; no flight claim.
+- The user-uploaded Mikkola guide was not mounted; no fresh page claim. Scientific verification remains false.

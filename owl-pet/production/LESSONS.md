@@ -147,3 +147,11 @@ undefined
 - **Evidence:** #150 *Ninox variegata* had no species-specific juvenile eye-state or iris chronology; the v3 closed-eye pose was not source-backed.
 - **Applied change:** v4 uses open but dark/non-diagnostic eyes, keeps the bird fully supported and explicitly age unknown, and makes no flight/nest claim.
 - **Validation:** full plate and three role crops passed; no adult-like juvenile wing/tail or support defect was observed. This rule is validated for #150 v4 only and should be checked case by case.
+
+
+## 2026-11-12 — Documented mature-pattern features in older juveniles
+- **Problem:** an evidence-supported adult-like wing pattern can still cause a juvenile to read as a miniature adult.
+- **Evidence:** #155 *Scotopelia ussheri*, Monticelli et al. 2015 pp.187–188: the juvenile flew and showed virtually adult-like barred wings, yet was smaller, stubbier, paler and loose-feathered.
+- **Rule discovered:** do not delete a directly documented mature-pattern feature merely to look juvenile. Constrain proportions, contour-feather texture, tail length and supported posture instead.
+- **Applied:** #155 v4 used a short/stubby body, loose feather texture, shorter wing/tail and two-level bilateral support while retaining barred remiges.
+- **Validation:** full image plus three crops viewed; the juvenile remained recognizably older-juvenile rather than adult-proportioned. Validation applies only to #155 v4; later species need their own evidence.

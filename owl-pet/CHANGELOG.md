@@ -1810,3 +1810,5 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 - Recovered and archived the evidence-bounded Pel's Fishing Owl v4 plate while preserving v1-v3.
 - Added a documented captive three-month stage based on Mikkola printed pp.304–306 and Prague Zoo; read Büttikofer 1889 and Branfield 2013 for historical mapping and morphology.
 - Full plate and three crops reviewed; no edit required; PASS_WITH_LIMITATIONS, scientifically_verified=false.
+
+- 2026-11-12T19:37:08+08:00: #156 *Scotopelia peli* v4 LEDGER_CREDITED after verification `eeffe59cfea7e01ca7038726c91b79719b0b8988`; batch 1/6, next cycle 2, lease released; unique 176/251; revision +1; science=false.

@@ -4092,3 +4092,7 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` read back; cycle 1 credi
 - Archive: `fa5435603ec1bff621981bdc7958a58aac5d95fa`; tree: `33fa65cbf3c6cd832173de25878e9150465c25c4`.
 - 20 required paths and 9 exact PNG path/blob checks passed; manifests 837/806/815 with one v4 row each.
 - Review: PASS_WITH_LIMITATIONS; science=false; ledger credit pending.
+
+## 2026-11-12 #156 *Scotopelia peli* v4 — LEDGER_CREDITED
+- Verification `eeffe59cfea7e01ca7038726c91b79719b0b8988` credited once after archive `fa5435603ec1bff621981bdc7958a58aac5d95fa`.
+- Batch `20261112T183437+0800` is 1/6, next cycle 2, lease released; unique coverage remains 176/251; revision +1; science=false.

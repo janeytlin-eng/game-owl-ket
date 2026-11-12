@@ -58,7 +58,7 @@ jobs:
           mkdir -p /tmp/owl172organicview
           cp qa-out/v30_Yup_UNAPPROVED.glb /tmp/owl172organicview/candidate.glb
           D=owl-pet/3d-experiments/172-tyto-castanops/tools
-          cp "$D/viewer_qa_index.html" /tmp/owl172organicview/index.html
+          cp "$D/organic_viewer_qa_index.html" /tmp/owl172organicview/index.html
           cp "$D/organic_viewer_qa_main.js" /tmp/owl172organicview/main.js
           cp "$D/organic_mobile_webgl_smoke.mjs" /tmp/owl172organicview/mobile_webgl_smoke.mjs
           cd /tmp/owl172organicview

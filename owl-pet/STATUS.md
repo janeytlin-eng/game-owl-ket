@@ -4160,3 +4160,7 @@ V5科学修订保留v1–v4。新读取Finsch 1898印刷页163–172的94件博�
 
 Archive [`4cc24b93252ea9713d4cfd7f3b11db9d055404d4`](https://github.com/janeytlin-eng/game-owl-ket/commit/4cc24b93252ea9713d4cfd7f3b11db9d055404d4) / tree `53539bf1dc330805b125ea0f7d720188b4bb453c` was fetched back from `main`. Nine PNG paths matched four exact blobs; the concept decoded locally as 1536×1024 with matching SHA-256. Twenty required paths were read back, including the three manifests at 823/792/801 and the persisted research, prompt, source index, run, status and lesson records. `PASS_WITH_LIMITATIONS`; science=false; unique coverage remains 176/251; cycle credit pending.
 
+## 2026-11-12 — #141 v5 LEDGER_CREDITED — active batch 5/6
+
+Verification [`2cb322e3c31f434271713f64b9bb54cc5d066131`](https://github.com/janeytlin-eng/game-owl-ket/commit/2cb322e3c31f434271713f64b9bb54cc5d066131) was read back after archive [`4cc24b93252ea9713d4cfd7f3b11db9d055404d4`](https://github.com/janeytlin-eng/game-owl-ket/commit/4cc24b93252ea9713d4cfd7f3b11db9d055404d4). Cycle 5 is credited exactly once; batch `20261112T074300+0800` is now 5/6 and `next_cycle=6`. Unique coverage remains 176/251; this is revision +1, science=false; lease released.
+

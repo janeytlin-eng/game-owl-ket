@@ -4070,3 +4070,9 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` read back; cycle 1 credi
 - Batch `20261112T153846+0800`, cycle 6/6; action SCIENCE_REVISION; unique count stays 176/251.
 - Full image and three crops reviewed: PASS_WITH_LIMITATIONS; science=false.
 - Exact archive commit/readback will be recorded after verification.
+
+
+## 2026-11-12 #155 *Scotopelia ussheri* v4 — VERIFIED
+- Archive: `63044f8310cc7e6add999de4495b7de8b6fca25a`; tree: `844f540e08fdd8b0ddad29ccbe3f0cb14d54ebeb`.
+- 21/21 required paths and 8/8 exact PNG blob/size checks passed; manifests 836/805/814 with one v4 entry each.
+- Review: PASS_WITH_LIMITATIONS; science=false; ledger credit pending.

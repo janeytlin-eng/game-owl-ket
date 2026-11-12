@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T18:24:00+08:00",
+  "updated": "2026-11-12T18:27:30+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -31233,10 +31233,42 @@
         }
       ],
       "archive_note": "V1-v3 retained. Full plus three crops inspected; no edit required. First imagegen attempt aborted before output and one retry call was malformed; successful generation and all actual errors recorded. Mikkola upload unavailable. Atkinson 1994 body remained access-blocked and is not counted as verified evidence.",
-      "readback_pending": true,
-      "exact_readback": false,
-      "archive_commit_pending": true
+      "readback_pending": false,
+      "exact_readback": true,
+      "archive_commit_pending": false,
+      "archive_commit": "63044f8310cc7e6add999de4495b7de8b6fca25a",
+      "fixed_archive_commit": "63044f8310cc7e6add999de4495b7de8b6fca25a",
+      "archive_tree": "844f540e08fdd8b0ddad29ccbe3f0cb14d54ebeb",
+      "verified_at": "2026-11-12T18:27:30+08:00",
+      "readback": {
+        "status": "VERIFIED_EVIDENCE",
+        "method": "GitHub connector immutable archive-commit recursive tree plus exact path/blob/size checks; three manifests fetched by blob and parsed; local full/crop visual inspection",
+        "commit_sha": "63044f8310cc7e6add999de4495b7de8b6fca25a",
+        "tree_sha": "844f540e08fdd8b0ddad29ccbe3f0cb14d54ebeb",
+        "tree_entries": 4706,
+        "tree_truncated": false,
+        "paths_verified": 21,
+        "binary_assets_verified": 8,
+        "unique_binary_streams": 4,
+        "all_git_blobs_match": true,
+        "concept": {
+          "path": "owl-pet/design/concepts/155-scotopelia-ussheri-v4.png",
+          "blob": "346f46547f8e88fa182f5e4bb1e9014ea59f5764",
+          "bytes": 3073920
+        },
+        "crop_blobs": [
+          "95d01b0f73051e8b077061dc292ebd70d1e538f0",
+          "982bb844e6b45f98e61930cc71a328418532206b",
+          "b31963e02f1276fa6d8f3089b5af5a65d12c85e3"
+        ],
+        "manifest_counts": {
+          "concepts": 836,
+          "image": 805,
+          "design": 814
+        },
+        "manifest_v4_entries_each": 1
+      }
     }
   ],
-  "updated_at": "2026-11-12T18:24:00+08:00"
+  "updated_at": "2026-11-12T18:27:30+08:00"
 }

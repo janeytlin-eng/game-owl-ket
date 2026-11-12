@@ -4366,3 +4366,7 @@ Verification [`8e35d2dc`](https://github.com/janeytlin-eng/game-owl-ket/commit/8
 
 V4 preserves v1-v3. De Naurois (1975) pp.323, 326–329 was directly read and indexed: the selected grey-brown young is still downy, non-flying and has short half-grown remiges; the nest remained unknown. Adults stay near-equal in body scale with only subtle female folded-wing direction. One image edit corrected adult-like juvenile flight feathers and male-large reading. Nine PNG paths and four current manifests are staged. `PASS_WITH_LIMITATIONS`; science=false; immutable readback and ledger credit pending.
 
+## 2026-11-13 — #177 *Otus hartlaubi* v4 immutable archive VERIFIED; ledger credit pending
+
+The first accepted archive exposed truncated large blobs and was not credited. The repaired archive [`50eb7461`](https://github.com/janeytlin-eng/game-owl-ket/commit/50eb7461bce04a0990dc4ae587de4d9b042a2108) / tree `6a034a93dabf3f401b0a7db0fcd0673197e94a2e` passed remote readback: 5,007 entries, `truncated=false`, 20 required paths, nine exact PNG path/byte checks and four complete manifests at 858/827/836/814 with one v4 record each. `PASS_WITH_LIMITATIONS`; science=false; ledger credit pending.
+

@@ -116,3 +116,10 @@ undefined
 - Do not inherit adult iris colour into an age-unknown young bird when the stage source is silent; keep it dark/uncalibrated and record the unknown.
 - A historical note that quills are formed does not license an adult-perfect long wing silhouette: retain compact, rounded, supported posture unless age/action evidence says more.
 - Applied and visually verified on #145 *Ninox philippensis* v4; broader back-check remains a future review task.
+
+### 2026-11-12 — Prevent adjacent-taxon juvenile transfer
+
+- Finding: an “immature” sentence can belong to the next taxon even when adjacent to a target diagnosis.
+- Evidence: Rasmussen et al. (2012) places the explicit immature description under *Ninox spilocephala*, after the complete *N. mindorensis* diagnosis.
+- Applied: #146 v4 excluded that description, kept an age-unknown supported placeholder, and changed only adult markings from Mindoro-specific evidence.
+- Validation: full plate and three role crops passed; science remains false because the juvenile stage is unresolved.

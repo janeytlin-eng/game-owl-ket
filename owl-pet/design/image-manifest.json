@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T12:50:00+08:00",
+  "updated": "2026-11-12T13:01:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -30099,7 +30099,93 @@
       "verification_tree": "4cbc10f930b8e70cf20beb4d446b6841673ae496",
       "ledger_credited": true,
       "ledger_credited_at": "2026-11-12T12:50:00+08:00"
+    },
+    {
+      "id": "146-ninox-mindorensis-v4",
+      "path": "design/concepts/146-ninox-mindorensis-v4.png",
+      "species_id": 146,
+      "scientific_name": "Ninox mindorensis",
+      "historical_names": [
+        "Ninox philippensis mindorensis"
+      ],
+      "common_name": "Mindoro Boobook",
+      "scope": "Mindoro humid-forest concept; near-equal adults with subdued fine broken crown marks, irregular pale scapular patches and extremely fine underpart bars; a deliberately conservative closed/downcast, fully supported juvenile-age-unknown placeholder because no species-specific developmental sequence was recovered",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3
+      ],
+      "prior_versions_retained": true,
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 0,
+      "imagegen_invocations": 1,
+      "status": "ARCHIVED_PENDING_READBACK",
+      "source_ids": [
+        "MINDBOO-RASMUSSEN-2012-P13-14",
+        "MINDBOO-MCGREGOR-1904-P16-17",
+        "MINDBOO-LENEY-1910-P98",
+        "MINDBOO-ITIS-2025",
+        "MINDBOO-CLEMENTS-2013"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/146-ninox-mindorensis-v4.md",
+      "review_record": "research/reviews/146-ninox-mindorensis-v4-review.md",
+      "run_record": "production/runs/20261112T125200+0800-cycle-3.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2599915,
+      "sha256": "6cc3598bac62cb617dc0f7206383416dfba1c527613a33afa61218f15bf28113",
+      "git_blob": "dd2492cffa9aa8f4e719c5095f8521c955344160",
+      "initial_original_path": "production/generated/146-ninox-mindorensis-v4-initial-original.png",
+      "initial_original_blob": "dd2492cffa9aa8f4e719c5095f8521c955344160",
+      "initial_original_size_bytes": 2599915,
+      "initial_original_sha256": "6cc3598bac62cb617dc0f7206383416dfba1c527613a33afa61218f15bf28113",
+      "final_original_path": "production/generated/146-ninox-mindorensis-v4-final-original.png",
+      "final_original_blob": "dd2492cffa9aa8f4e719c5095f8521c955344160",
+      "final_original_size_bytes": 2599915,
+      "final_original_sha256": "6cc3598bac62cb617dc0f7206383416dfba1c527613a33afa61218f15bf28113",
+      "generated_path": "production/generated/146-ninox-mindorensis-v4-generated-master.png",
+      "generated_blob": "dd2492cffa9aa8f4e719c5095f8521c955344160",
+      "generated_size_bytes": 2599915,
+      "full_color_source_path": "production/generated/146-ninox-mindorensis-v4-full-color.png",
+      "full_color_source_blob": "dd2492cffa9aa8f4e719c5095f8521c955344160",
+      "full_color_source_size_bytes": 2599915,
+      "reviewed_path": "production/reviewed/146-ninox-mindorensis-v4-reviewed-master.png",
+      "reviewed_blob": "dd2492cffa9aa8f4e719c5095f8521c955344160",
+      "reviewed_size_bytes": 2599915,
+      "review_crops": [
+        {
+          "path": "production/review-crops/146-ninox-mindorensis-v4-adult-male.png",
+          "blob": "c8c7401f03547be0fac32e3bcede9fb66431395a",
+          "size_bytes": 758217,
+          "sha256": "f79045cece206e7a5991b1768ef634984464c847ab67aae15174cfb13b8c71c4"
+        },
+        {
+          "path": "production/review-crops/146-ninox-mindorensis-v4-juvenile-age-unknown.png",
+          "blob": "d58535581d6a16ca5c5a2360fffbcbcefecf31f2",
+          "size_bytes": 672490,
+          "sha256": "6f2b66c0478fede3eb43b6aff83a2cd6e8f7f910cc74823c78a984ae35bca7d1"
+        },
+        {
+          "path": "production/review-crops/146-ninox-mindorensis-v4-adult-female.png",
+          "blob": "45dbfe264261ea7057f07cf30ee16b818247f79f",
+          "size_bytes": 749638,
+          "sha256": "1afe8cd20afaabdb865826a7625640ead3b12f02ad216f1a077ff1c84935b529"
+        }
+      ],
+      "archive_note": "V1-v3 retained. Primary adult diagnoses were reopened and Leney 1910 p.98 added only as adult museum provenance. The adjacent N. spilocephala immature sentence was explicitly excluded. V3 crown speckling and regular bars were reduced. Full plate and three crops were viewed; no edit required. Exact juvenile age, iris, feather sequence, flight ability and nest microhabitat remain unknown. Fresh Mikkola upload access unavailable. Science false.",
+      "archived_at": "2026-11-12T13:01:00+08:00",
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false
     }
   ],
-  "updated_at": "2026-11-12T12:50:00+08:00"
+  "updated_at": "2026-11-12T13:01:00+08:00"
 }

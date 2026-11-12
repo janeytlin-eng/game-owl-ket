@@ -5029,3 +5029,14 @@ Reused/re-read without duplicate IDs for #130 v5: `KOEP-ITIS-686665-2026`, repos
 - **Facts/use:** dark hazel adult eyes; rufous disc; vermiculated upperparts; shaft-streaked underparts; short barred tail; juvenile paler grey-brown/cinnamon-buff; fledged young call; lowland forest/edge to 600 m.
 - **Limits:** guide summary; exact age, feather chronology, first flight and nest form unknown.
 - **Decision links:** research/species/154-pseudoscops-grammicus-v3.md; review pending.
+
+
+---
+## 2026-11-12 — #155 *Scotopelia ussheri* v4 — active research refresh
+
+- Reused/reread verified sources: `RFO-MONTICELLI-KOROMA-BANNAH-2015-P183-188`, `RFO-KOPPETSCH-BOHME-2022-P97-98`, `RFO-IUCN-BIRDLIFE-2021-ID-ECOLOGY`, `RFO-GBIF-COL-4VY2L-2026`.
+- New verified sources: **0**. New unverified lead: **1** — `RFO-ATKINSON-KOROMA-RANFT-1994-P67-72-LEAD`, *The status, identification and vocalisations of African fishing owls with particular reference to the Rufous Fishing Owl Scotopelia ussheri*, P. W. Atkinson, A. P. Koroma, R. Ranft, S. G. Rowe & R. Wilkinson, 1994, Bulletin of the African Bird Club 1(2):67–72, DOI https://doi.org/10.5962/p.308864, BHL https://www.biodiversitylibrary.org/part/308864, accessed 2026-11-12. BHL metadata was read; article page/PDF returned 403/robots denial, therefore no new morphology/development statement from this source is treated as verified.
+- Reread facts and design limits are recorded in `research/species/155-scotopelia-ussheri-v4.md`: older juvenile smaller/stubbier/paler/loose-feathered and observed flying with dusky-barred rufous wings (Monticelli et al. 2015 pp.185–188, Figs.1,3–5); whitish-down captive juvenile and adult plumage six months later without exact early age or action capacity (Koppetsch & Böhme 2022 pp.97–98, Figs.1–3); orange dark-eyed untufted adult and riverine habitat (IUCN 2021 Identification; Habitat & Ecology).
+- Current/old-name mapping retained: *Scotopelia ussheri* Sharpe, 1871; historical combination *Bubo ussheri*.
+- Still unknown: exact age and hatch date, sex-size direction, continuous feather sequence, first-flight threshold, nest site/material and universality of one juvenile's pattern.
+- Links: `research/species/155-scotopelia-ussheri-v4.md`; run `owl-pet/production/runs/20261112T181053+0800-cycle-6.md`; planned concept `design/concepts/155-scotopelia-ussheri-v4.png`.

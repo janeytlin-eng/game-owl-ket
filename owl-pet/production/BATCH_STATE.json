@@ -47107,9 +47107,9 @@
       "next_cycle": 6,
       "active_cycle": 6,
       "started_at": "2026-11-12T21:36:00+08:00",
-      "updated_at": "2026-11-12T22:54:00+08:00",
-      "current_stage": "RESEARCH_READY",
-      "stage": "RESEARCH_READY",
+      "updated_at": "2026-11-12T22:59:00+08:00",
+      "current_stage": "IMAGE_GENERATED",
+      "stage": "IMAGE_GENERATED",
       "completed_count": 5,
       "ledger_credit_pending": false,
       "lease": {
@@ -47117,8 +47117,8 @@
         "run_id": "20261112T225100+0800-cycle-6",
         "cycle": 6,
         "acquired_at": "2026-11-12T22:51:00+08:00",
-        "heartbeat_at": "2026-11-12T22:54:00+08:00",
-        "expires_at": "2026-11-12T23:09:00+08:00",
+        "heartbeat_at": "2026-11-12T22:59:00+08:00",
+        "expires_at": "2026-11-12T23:14:00+08:00",
         "species_id": 167,
         "species": "Ketupa poensis"
       },
@@ -48128,6 +48128,27 @@
             "mikkola_access": "upload not mounted; no fresh page claim",
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-12T23:09:00+08:00"
+          }
+        },
+        {
+          "batch_id": "20261112T213600+0800",
+          "cycle": 6,
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-12T22:59:00+08:00",
+          "run_id": "20261112T225100+0800-cycle-6",
+          "species_id": 167,
+          "species": "Ketupa poensis",
+          "credited": false,
+          "evidence": {
+            "initial_original": "owl-pet/production/generated/167-ketupa-poensis-v4-initial-original.png",
+            "initial_blob": "2e3412255d10fa3db63e25f2bc2323344971b3d0",
+            "initial_bytes": 3312049,
+            "initial_sha256": "24de15d5ee6f329fa2dc7404376f43cde352a54f173c92da3d32c62260612f8f",
+            "geometry": "1536x1024",
+            "generation_seconds": 45,
+            "preliminary_inspection": "exact title/count/order/labels; adults show conspicuous irregular broken white scapular patches without collar, dark eyes, slate bills, barred tarsi and supported feet; age-unknown young is much paler, softer and supported; crop review completed after persistence",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-12T23:14:00+08:00"
           }
         }
       ]

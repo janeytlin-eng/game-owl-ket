@@ -4989,3 +4989,16 @@ Reused/re-read without duplicate IDs for #130 v5: `KOEP-ITIS-686665-2026`, repos
 - **PHO-BIRDLIFE-2026-ECOLOGY:** lowland/gallery-forest context only.
 - **PHO-MIMIKA-GUIDE-2015-P143:** adult silhouette and habitat context.
 - **PHO-SHANY-1995-P74-UNVERIFIED:** full article still unavailable; no biological claim.
+
+
+## 2026-11-12 — #153 *Jubula lettii* v4 original-description verification
+
+### MANED-BUTTIKOFER-1889-P34
+- **Title / author / year:** “On a new Owl from Liberia”; J. Büttikofer; 1889; *Notes from the Leyden Museum* 11.
+- **URL:** https://upload.wikimedia.org/wikipedia/commons/e/e5/Notes_from_the_Leyden_Museum_%28IA_notesfromleydenm11rijk%29.pdf
+- **Actually read:** printed pp.34–35, PDF text lines 6188–6241; accessed 2026-11-12.
+- **Type / applies to:** original species description; type specimen of historical *Bubo lettii*, current *Jubula lettii*.
+- **Facts / use:** rufous body; pearly-gray forehead/supercilium/chin/upper throat; earthy-brown mane/tufts; black pre-eye feathers; white throat-side feathers black-tipped; rufous tail with seven broad dark bars; rufous/dark-barred wings with large white covert/scapular marks; pale-fulvous underparts with dark shaft streaks; yellow iris, bill and toes; wing 28 cm, tail 15 cm.
+- **Limits / confidence:** primary historical specimen description; high for described type characters, but no living sex comparison or juvenile sequence. The measurements are not a dimorphism direction.
+- **Correction:** supersedes the unverified-text status of `MANED-BUTTIKOFER-1889-P34-LEAD`; the old locator entry remains preserved.
+- **Decision links:** research/species/153-jubula-lettii-v4.md; design/concepts/153-jubula-lettii-v4.png.

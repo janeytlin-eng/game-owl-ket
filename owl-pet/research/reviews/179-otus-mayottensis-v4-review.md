@@ -33,3 +33,8 @@
 ## Remaining limitations
 
 Exact immature age, iris development, flight ability, complete feather sequence, population morph frequency, and represented nest details remain unknown. Therefore the plate is a reviewed concept, not a scientifically verified reconstruction.
+
+
+## Archive transport correction — 2026-11-13T05:57:27.852+08:00
+
+The first archive transport truncated the full plate and adult-male crop because a Base64 command-output cap was hit. Those two Git blobs are superseded and are not evidence. Canonical full image blob is `e047a4014b006e4d462f9b50fea08f21a1c965a3` (3,042,459 bytes, SHA-256 `891f8879695a7ff9d7f215d899e94973c2fb99a1e8ffef2c20802f63d41dee16`); canonical male crop blob is `d222f130e37a654cbf118dd35eab9b7c925609b6` (799,117 bytes, SHA-256 `95d2fe6231bb7f6ffd9403e18a60cc6ca3ee2edc24b6b37ca5a69dc48b8476b7`). Visual conclusions are unchanged; immutable readback still pending.

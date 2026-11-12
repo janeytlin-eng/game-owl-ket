@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T05:52:51.144+08:00",
+  "updated": "2026-11-13T05:57:27.852+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -36201,28 +36201,28 @@
       "dimensions": "1536x1024",
       "sha256": "891f8879695a7ff9d7f215d899e94973c2fb99a1e8ffef2c20802f63d41dee16",
       "size_bytes": 3042459,
-      "git_blob": "3e98850836287bd49794d4ee68bdbba9b02044ae",
+      "git_blob": "e047a4014b006e4d462f9b50fea08f21a1c965a3",
       "initial_generated_path": "production/generated/179-otus-mayottensis-v4-generated-master.png",
       "initial_original_path": "production/generated/179-otus-mayottensis-v4-initial-original.png",
-      "initial_generated_blob": "3e98850836287bd49794d4ee68bdbba9b02044ae",
+      "initial_generated_blob": "e047a4014b006e4d462f9b50fea08f21a1c965a3",
       "initial_generated_sha256": "891f8879695a7ff9d7f215d899e94973c2fb99a1e8ffef2c20802f63d41dee16",
       "initial_generated_size_bytes": 3042459,
       "edited_path": null,
       "edited_blob": null,
       "final_original_path": "production/generated/179-otus-mayottensis-v4-final-original.png",
       "generated_path": "production/generated/179-otus-mayottensis-v4-full-color.png",
-      "generated_blob": "3e98850836287bd49794d4ee68bdbba9b02044ae",
+      "generated_blob": "e047a4014b006e4d462f9b50fea08f21a1c965a3",
       "generated_sha256": "891f8879695a7ff9d7f215d899e94973c2fb99a1e8ffef2c20802f63d41dee16",
       "generated_size_bytes": 3042459,
       "reviewed_path": "production/reviewed/179-otus-mayottensis-v4-reviewed-master.png",
-      "reviewed_blob": "3e98850836287bd49794d4ee68bdbba9b02044ae",
+      "reviewed_blob": "e047a4014b006e4d462f9b50fea08f21a1c965a3",
       "reviewed_sha256": "891f8879695a7ff9d7f215d899e94973c2fb99a1e8ffef2c20802f63d41dee16",
       "reviewed_size_bytes": 3042459,
       "review_crops": [
         {
           "role": "adult_male",
           "path": "production/review-crops/179-otus-mayottensis-v4-adult-male.png",
-          "blob": "09d0e22fe8a1f5aa4cbe73613b48a1e947aba8d2",
+          "blob": "d222f130e37a654cbf118dd35eab9b7c925609b6",
           "sha256": "95d2fe6231bb7f6ffd9403e18a60cc6ca3ee2edc24b6b37ca5a69dc48b8476b7",
           "size_bytes": 799117
         },
@@ -36247,8 +36247,16 @@
       "exact_readback": false,
       "ledger_credited": false,
       "batch_id": "20261113T022000+0800",
-      "batch_cycle": 6
+      "batch_cycle": 6,
+      "archive_transport_repair": {
+        "at": "2026-11-13T05:57:27.852+08:00",
+        "reason": "First connector Base64 extraction was truncated by the command-output cap; canonical full and male-crop blobs were re-uploaded by exact chunk assembly.",
+        "superseded_full_blob": "3e98850836287bd49794d4ee68bdbba9b02044ae",
+        "superseded_male_blob": "09d0e22fe8a1f5aa4cbe73613b48a1e947aba8d2",
+        "canonical_full_blob": "e047a4014b006e4d462f9b50fea08f21a1c965a3",
+        "canonical_male_blob": "d222f130e37a654cbf118dd35eab9b7c925609b6"
+      }
     }
   ],
-  "updated_at": "2026-11-13T05:52:51.144+08:00"
+  "updated_at": "2026-11-13T05:57:27.852+08:00"
 }

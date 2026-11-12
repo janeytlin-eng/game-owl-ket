@@ -5359,3 +5359,19 @@ Reused/re-read without duplicate IDs for #130 v5: `KOEP-ITIS-686665-2026`, repos
 - **Useful facts:** the multilocus dataset includes both Malagasy taxa; the paper reports low divergence within intraspecific range and explicitly retains the conflict between the widely adopted two-species treatment and Fuchs et al. 2007's representative-sampling challenge.
 - **Limits/conflict/confidence:** strong peer-reviewed taxonomy evidence, but it does not resolve the checklist choice, adult sex-size direction, juvenile feather sequence or flight threshold. It must not be used to invent plumage/development.
 - **Design/check use:** keep the repository's *O. madagascariensis* name while listing *O. rutilus madagascariensis* as an alternate treatment; do not treat taxonomy as a morphology shortcut. Linked to `research/species/173-otus-madagascariensis-v4.md`, `design/concepts/173-otus-madagascariensis-v4.png` and its review record.
+
+
+## 2026-11-13 — #174 *Strix sartorii* v4 — type-number cross-check and fledgling boundary
+
+### CIO-DEIGNAN-1961-P157
+- **Stable ID:** CIO-DEIGNAN-1961-P157
+- **Title / author / institution / year:** *Type Specimens of Birds in the United States National Museum* — Herbert G. Deignan — Smithsonian Institution, USNM Bulletin 221 — 1961.
+- **URL / accessed / source type:** https://repository.si.edu/bitstream/handle/10088/10078/USNMB_2211961_unit.pdf?isAllowed=y&sequence=1 ; accessed/read 2026-11-13; institutional type catalogue.
+- **Species / stage / page:** *Strix sartorii* under *Syrnium nebulosum* var. *Sartorii* / *Strix varia sartorii*; adult female type; printed p.157.
+- **Facts read:** correct type number USNM 42131, not 43131; adult female; “Pine region,” Hacienda Mirador, Veracruz; museum entry 5 July 1866; collector Carl C. W. Sartorius; original no.208.
+- **Limits / confidence:** high-confidence type/name/locality record; no living soft parts, male comparison, population sex-size ratio or developmental sequence.
+- **Design / QA use:** correct historical mapping and prevent misuse of a single female type as a sex-size rule. Linked: `research/species/174-strix-sartorii-v4.md`, `design/concepts/174-strix-sartorii-v4.png`.
+
+### Reused/reread for v4
+- `CIO-BAIRD-RIDGWAY-1874-P29`, `CIO-EARBIRDING-2015-FLEDGLING`, `CIO-PIEPLOW-ETAL-2020-P221-227`, `CIO-AOS-2021-P263`, `CIO-MEXICANBIRDING-2020-PHOTO`.
+- Index delta: new verified 1; reused/reread 5; corrected inferences 2 (single-female type is not a sex-size comparison; direct flight allows bounded formed juvenile flight feathers but not exact age/first-flight claims). Uploaded Mikkola file unavailable; no new page claim. Science=false.

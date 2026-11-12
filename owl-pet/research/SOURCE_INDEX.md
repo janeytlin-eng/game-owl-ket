@@ -5002,3 +5002,30 @@ Reused/re-read without duplicate IDs for #130 v5: `KOEP-ITIS-686665-2026`, repos
 - **Limits / confidence:** primary historical specimen description; high for described type characters, but no living sex comparison or juvenile sequence. The measurements are not a dimorphism direction.
 - **Correction:** supersedes the unverified-text status of `MANED-BUTTIKOFER-1889-P34-LEAD`; the old locator entry remains preserved.
 - **Decision links:** research/species/153-jubula-lettii-v4.md; design/concepts/153-jubula-lettii-v4.png.
+
+
+## 2026-11-12 — #154 Jamaican Owl taxonomy and fledged-stage calibration
+
+### JAMOWL-IOC-2026-ASIO
+- **Source:** IOC World Bird List taxonomic update / v15.2; accessed 2026-11-12.
+- **URL:** https://www.worldbirdnames.org/new/updates/taxonomy/
+- **Applies to:** nomenclature.
+- **Fact/use:** current placement is *Asio grammicus*; *Pseudoscops grammicus* is the former monotypic-genus combination. Repository number and filename remain stable, while display taxonomy is corrected.
+- **Limit:** nomenclature only; no morphology or age evidence.
+- **Decision:** research/species/154-pseudoscops-grammicus-v3.md; design/concepts/154-pseudoscops-grammicus-v3.png.
+
+### JAMOWL-GOSSE-1847-P19
+- **Source:** Philip Henry Gosse, *The Birds of Jamaica* (1847), printed p.19 footnote / Dusky Eared-Owl account; accessed 2026-11-12.
+- **URL:** https://archive.org/details/birdsofjamaica00goss
+- **Type/applies to:** original description; adult morphology and historical *Ephialtes grammicus*.
+- **Facts/use:** hazel irides; pale blue-grey bill; lead feet; umber/rufous plumage; finely marked upperparts; conical ear tufts; barred wing/tail; dark shaft streaks; fawn belly; feathered tarsi.
+- **Limits:** historical description; no sex or juvenile-development inference.
+- **Decision links:** research/species/154-pseudoscops-grammicus-v3.md; design/concepts/154-pseudoscops-grammicus-v3.png.
+
+### JAMOWL-LYNX-WESTINDIES-P265
+- **Source:** Lynx Edicions, *Birds of the West Indies* sample, Jamaican Owl account p.265; accessed 2026-11-12.
+- **URL:** https://lynxeds.info/sites/default/files/pdfs/Sample%20pages_Birds%20of%20the%20West%20Indies_Lynx%20Edicions_0.pdf
+- **Applies to:** adult/juvenile diagnosis, fledged-young behaviour, habitat.
+- **Facts/use:** dark hazel adult eyes; rufous disc; vermiculated upperparts; shaft-streaked underparts; short barred tail; juvenile paler grey-brown/cinnamon-buff; fledged young call; lowland forest/edge to 600 m.
+- **Limits:** guide summary; exact age, feather chronology, first flight and nest form unknown.
+- **Decision links:** research/species/154-pseudoscops-grammicus-v3.md; review pending.

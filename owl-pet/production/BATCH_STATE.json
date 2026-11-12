@@ -45331,16 +45331,16 @@
       "next_cycle": 5,
       "active_cycle": 5,
       "started_at": "2026-11-12T15:38:46+08:00",
-      "updated_at": "2026-11-12T17:47:47+08:00",
-      "current_stage": "STARTED",
+      "updated_at": "2026-11-12T17:49:11+08:00",
+      "current_stage": "RESEARCH_READY",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex",
         "run_id": "20261112T174747+0800-cycle-5",
         "batch_id": "20261112T153846+0800",
         "cycle": 5,
-        "heartbeat_at": "2026-11-12T17:47:47+08:00",
-        "expires_at": "2026-11-12T18:02:47+08:00"
+        "heartbeat_at": "2026-11-12T17:49:11+08:00",
+        "expires_at": "2026-11-12T18:04:11+08:00"
       },
       "active": {
         "cycle": 5,
@@ -45352,7 +45352,7 @@
         "run_record": "owl-pet/production/runs/20261112T174747+0800-cycle-5.md",
         "started_at": "2026-11-12T17:47:47+08:00"
       },
-      "stage": "STARTED",
+      "stage": "RESEARCH_READY",
       "completed_count": 4,
       "stage_events": [
         {
@@ -45994,8 +45994,8 @@
     "run_id": "20261112T174747+0800-cycle-5",
     "batch_id": "20261112T153846+0800",
     "cycle": 5,
-    "heartbeat_at": "2026-11-12T17:47:47+08:00",
-    "expires_at": "2026-11-12T18:02:47+08:00"
+    "heartbeat_at": "2026-11-12T17:49:11+08:00",
+    "expires_at": "2026-11-12T18:04:11+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -46130,7 +46130,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-12T17:47:47+08:00",
+  "updated_at": "2026-11-12T17:49:11+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -53471,7 +53471,7 @@
   ],
   "active_batch_id": "20261112T153846+0800",
   "active_cycle": 5,
-  "current_stage": "STARTED",
+  "current_stage": "RESEARCH_READY",
   "next_cycle": 5,
   "unique_species_count": 176,
   "total_species": 251,
@@ -60923,6 +60923,28 @@
         "selection_note": "#153 v4 credited as cycle 4. #154 is the next numbered repository-backed target and currently ends at v2; preserve v1-v2 and re-check repository nomenclature against current/historical combinations, adult diagnosis, sex evidence, defensible juvenile stage/action and Jamaican lowland forest support.",
         "lease_expires_at": "2026-11-12T18:02:47+08:00",
         "scientifically_verified": false
+      }
+    },
+    {
+      "batch_id": "20261112T153846+0800",
+      "cycle": 5,
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-12T17:49:11+08:00",
+      "run_id": "20261112T174747+0800-cycle-5",
+      "species_id": 154,
+      "species": "Asio grammicus",
+      "credited": false,
+      "evidence": {
+        "research_record": "owl-pet/research/species/154-pseudoscops-grammicus-v3.md",
+        "source_index": "owl-pet/research/SOURCE_INDEX.md",
+        "new_verified_sources": 3,
+        "reused_or_reread_sources": 0,
+        "corrected_inferences": 2,
+        "complete_prompt_saved": true,
+        "design_boundary": "near-equal dark-hazel-eyed adults; pale grey-brown/cinnamon-buff fledged juvenile with short soft wing/tail and bilateral support; no exact-age or nest claim",
+        "mikkola_access": "unavailable",
+        "scientifically_verified": false,
+        "lease_expires_at": "2026-11-12T18:04:11+08:00"
       }
     }
   ],
@@ -70000,7 +70022,7 @@
     }
   ],
   "updated": "2026-11-12T15:54:59.676+08:00",
-  "stage": "STARTED",
+  "stage": "RESEARCH_READY",
   "stage_evidence": {
     "research_record": "owl-pet/research/species/143-asio-solomonensis-v4.md",
     "source_index": "owl-pet/research/SOURCE_INDEX.md",

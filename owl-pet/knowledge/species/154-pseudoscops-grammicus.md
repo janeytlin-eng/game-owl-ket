@@ -15,3 +15,12 @@ Adults are near-equal in apparent scale because no measured sex difference was f
 - [v1 PNG](../../design/concepts/154-pseudoscops-grammicus-v1.png)
 - Visual review: exactly three birds, correct labels, adult diagnostics present, all feet supported; no edit required.
 - Status: concept review passed within sources; user confirmation and scientific validation pending.
+
+## v3 science revision — 2026-11-12
+
+- Current display name: *Asio grammicus*; repository legacy and filenames keep *Pseudoscops grammicus*; protonym *Ephialtes grammicus*.
+- Evidence: IOC taxonomy update; Gosse 1847 p.19; Lynx West Indies p.265.
+- Adults: near equal; very dark hazel-brown eyes, rufous black/white-edged facial disc, compact tufts, vermiculated umber upperparts and shaft-streaked cinnamon-fawn underparts.
+- Juvenile: source-supported fledged stage, paler grey-brown/cinnamon-buff, open-eyed and bilaterally supported; one edit shortened/softened initial adult-like wing and tail.
+- Unknown: exact age, iris chronology, first-flight threshold, nest architecture, dependence and quantified sex-size/plumage direction.
+- Records: `research/species/154-pseudoscops-grammicus-v3.md`, `research/reviews/154-pseudoscops-grammicus-v3-review.md`.

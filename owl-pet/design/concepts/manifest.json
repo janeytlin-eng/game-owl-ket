@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T17:43:04+08:00",
+  "updated": "2026-11-12T18:01:30+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -33797,7 +33797,94 @@
       "verification_commit": "9bbf4e41d95d1ef9ebd66673af3edcc45d7b986d",
       "verification_tree": "ed7a808cca28782936af1d583a203bb2df50bdd4",
       "ledger_credited_at": "2026-11-12T17:45:50+08:00"
+    },
+    {
+      "id": "154-pseudoscops-grammicus-v3",
+      "path": "design/concepts/154-pseudoscops-grammicus-v3.png",
+      "species_id": 154,
+      "scientific_name": "Asio grammicus",
+      "repository_name": "Pseudoscops grammicus",
+      "historical_names": [
+        "Pseudoscops grammicus",
+        "Ephialtes grammicus"
+      ],
+      "common_name": "Jamaican Owl",
+      "scope": "Jamaican lowland evergreen/secondary forest-edge concept; near-equal warm umber adults with compact ear tufts, very dark hazel-brown eyes, rufous black/white-edged facial discs, vermiculated upperparts, shaft-streaked cinnamon-fawn underparts and short irregularly barred tails; paler grey-brown/cinnamon-buff fledged juvenile with short soft wing/tail, small irregular tufts and bilateral fork support; no exact-age, nest, first-flight or sex-size claim",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2
+      ],
+      "prior_versions_retained": true,
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 1,
+      "imagegen_invocations": 2,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "JAMOWL-IOC-2026-ASIO",
+        "JAMOWL-GOSSE-1847-P19",
+        "JAMOWL-LYNX-WESTINDIES-P265"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/154-pseudoscops-grammicus-v3.md",
+      "review_record": "research/reviews/154-pseudoscops-grammicus-v3-review.md",
+      "run_record": "production/runs/20261112T174747+0800-cycle-5.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2821963,
+      "sha256": "7860b1f02ff3ca572e10ad728396587cd66762fe1e1e834b14efd4fdeee4eb1c",
+      "git_blob": "458011c4989471328b3242accc0556a8626c0372",
+      "initial_original_path": "production/generated/154-pseudoscops-grammicus-v3-initial-original.png",
+      "initial_original_blob": "a2afd60c7fe1352824712cf9dbd76050373f9174",
+      "initial_original_size_bytes": 2946419,
+      "initial_original_sha256": "9435e8421db965ad5a9f7b3434d6875d02f3a486defecd40b3811334d6875d",
+      "final_original_path": "production/generated/154-pseudoscops-grammicus-v3-final-original.png",
+      "final_original_blob": "458011c4989471328b3242accc0556a8626c0372",
+      "final_original_size_bytes": 2821963,
+      "final_original_sha256": "7860b1f02ff3ca572e10ad728396587cd66762fe1e1e834b14efd4fdeee4eb1c",
+      "generated_path": "production/generated/154-pseudoscops-grammicus-v3-generated-master.png",
+      "generated_blob": "458011c4989471328b3242accc0556a8626c0372",
+      "generated_size_bytes": 2821963,
+      "full_color_source_path": "production/generated/154-pseudoscops-grammicus-v3-full-color.png",
+      "full_color_source_blob": "458011c4989471328b3242accc0556a8626c0372",
+      "full_color_source_size_bytes": 2821963,
+      "reviewed_path": "production/reviewed/154-pseudoscops-grammicus-v3-reviewed-master.png",
+      "reviewed_blob": "458011c4989471328b3242accc0556a8626c0372",
+      "reviewed_size_bytes": 2821963,
+      "review_crops": [
+        {
+          "path": "production/review-crops/154-pseudoscops-grammicus-v3-adult-male.png",
+          "blob": "5646b6f78b110e33679fa6b2ca41c116028d0c80",
+          "size_bytes": 302647,
+          "sha256": "8df24ffaa42273cad118a53f09d2520f344551b0966109e889668d955df607dd"
+        },
+        {
+          "path": "production/review-crops/154-pseudoscops-grammicus-v3-fledged-juvenile.png",
+          "blob": "302da26465779bb56133e70f749352a76e664785",
+          "size_bytes": 249576,
+          "sha256": "5d7933a81c6c3cd2cbfdbabca86fe7e9e2386155dd7963945edcf4f3d53db6a9"
+        },
+        {
+          "path": "production/review-crops/154-pseudoscops-grammicus-v3-adult-female.png",
+          "blob": "7ffe0ca0d34f0d83f705026126e440c10e89b4c9",
+          "size_bytes": 262770,
+          "sha256": "c4c9b038888e76e956c0c8493a7d96f43e543b0fb9e9b057c3a550840d757f21"
+        }
+      ],
+      "archive_note": "V1-v2 retained. Current name corrected to Asio grammicus while repository filename preserves Pseudoscops grammicus. IOC taxonomy, Gosse 1847 p.19 and Lynx West Indies p.265 were actually read. One center-only edit corrected an adult-like juvenile wing/tail while preserving open eyes and bilateral support. Exact juvenile age, iris chronology, first-flight threshold, nest architecture and quantified sex dimorphism remain unknown. Uploaded Mikkola unavailable.",
+      "archived_at": "2026-11-12T18:01:30+08:00",
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false,
+      "ledger_credited": false,
+      "updated_at": "2026-11-12T18:01:30+08:00"
     }
   ],
-  "updated_at": "2026-11-12T17:45:50+08:00"
+  "updated_at": "2026-11-12T18:01:30+08:00"
 }

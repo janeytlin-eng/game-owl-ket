@@ -1,3 +1,10 @@
+## 2026-11-12 — “fledged” is not a license for adult-length crisp wing/tail
+
+- **Observed failure:** the first #154 juvenile carried long, crisp, adult-like folded wing and tail even though the prompt requested a softer fledged stage.
+- **Evidence boundary:** the read source supports a paler fledged juvenile and fledged-young calls, but not exact age or mature remiges.
+- **Applied rule:** inspect wing-tip relative to tail base; require visibly softer coverts and stage-appropriate bilateral support before accepting a fledged juvenile.
+- **Applied and rechecked:** one center-only edit shortened/softened wing and tail; full plate and three crops were reopened and passed. This is one observed success, not yet a globally validated rule.
+
 ## 2026-11-07 — overlapping sexed measurements are not a height multiplier
 
 - **Problem:** sexed museum means can tempt a prompt to impose a uniform “female larger” body ratio.

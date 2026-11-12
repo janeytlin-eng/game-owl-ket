@@ -1,3 +1,7 @@
+## 2026-11-12 — #154 v3 ARCHIVED pending verification — active batch 4/6
+
+#154 Jamaican Owl (*Asio grammicus*; repository legacy *Pseudoscops grammicus*) v3 has research, generated initial, one center-only juvenile correction, edited full/crop review and formal archive staged. The concept remains PASS_WITH_LIMITATIONS and scientifically_verified=false; exact juvenile age, iris chronology, first-flight threshold, nest architecture and quantified sex direction remain unknown. Archive readback and ledger credit are pending.
+
 ## 2026-11-12 — #151 v4 LEDGER_CREDITED — active batch 2/6
 
 Verification [`87a4846038270ea5f682dc73c24f6bc4cb3b40b8`](https://github.com/janeytlin-eng/game-owl-ket/commit/87a4846038270ea5f682dc73c24f6bc4cb3b40b8) was read back after archive [`f4e3ddf14505f1bccc2cda42796adfc832dfe52b`](https://github.com/janeytlin-eng/game-owl-ket/commit/f4e3ddf14505f1bccc2cda42796adfc832dfe52b). Cycle 2 credited once; lease released; next cycle 3. Unique coverage remains 176/251; revision +1; science=false.

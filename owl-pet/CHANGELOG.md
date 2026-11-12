@@ -1,3 +1,10 @@
+## 2026-11-12 — #154 *Asio grammicus* / legacy *Pseudoscops grammicus* v3 archived
+
+- Preserved v1-v2 and corrected display taxonomy to current *Asio grammicus* while retaining repository filenames.
+- Added IOC taxonomy evidence, Gosse 1847 p.19 original-description facts and Lynx West Indies p.265 juvenile/habitat evidence.
+- Generated male / fledged juvenile / female plate. One center-only edit shortened and softened the juvenile wing/tail and reduced tufts; full plate and three role crops were re-opened.
+- Status remains PASS_WITH_LIMITATIONS; exact age, first-flight threshold, nest and sex-size direction remain unknown.
+
 ## 2026-11-12 — #151 *Athene jacquinoti* v4 archived
 
 - Preserved v1-v3; generated and actually reviewed a new adult male / age-unknown older juvenile / adult female plate.

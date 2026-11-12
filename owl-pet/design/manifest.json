@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T05:41:40.899+08:00",
+  "updated": "2026-11-13T05:52:51.144+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -34165,7 +34165,97 @@
       "verification_tree": "de03327dc7c64215b65c106407d0a648ea97dc93",
       "credited_at": "2026-11-13T05:41:40.899+08:00",
       "ledger_credited_at": "2026-11-13T05:41:40.899+08:00"
+    },
+    {
+      "id": "179-otus-mayottensis-v4",
+      "path": "design/concepts/179-otus-mayottensis-v4.png",
+      "species_id": 179,
+      "scientific_name": "Otus mayottensis",
+      "historical_names": [
+        "Otus rutilus mayottensis",
+        "Scops humbloti (nomen nudum)"
+      ],
+      "common_name": "Mayotte Scops Owl",
+      "version": 4,
+      "prior_versions_retained": [
+        1,
+        2,
+        3
+      ],
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "status": "v4 preserves v1-v3 and directly reads Marshall 1978 printed p.19 and Warren 1966 printed p.22. Adults are near-equal and share one conservative blackish-/rufous-brown morph with conspicuous dark shaft streaks. Specimen evidence corrects the old fully feathered-to-toe claim to a short bare distal c.5-mm tarsal segment. The young is only an age-unknown older immature with dark/indeterminate iris, softer fewer-layer wing, hidden short tail and bilateral support. PASS_WITH_LIMITATIONS; exact immature age, iris chronology, flight ability, complete feather sequence, nest details and red-phase frequency remain unknown; science=false.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "imagegen_invocations": 1,
+      "source_ids": [
+        "MAYS-MARSHALL-1978-P19",
+        "MAYS-WARREN-1966-P22",
+        "MAYS-MNHN-VOISIN-2011-P15-16",
+        "MAYS-COMMONS-NONOMANE-2025-ADULT",
+        "MAYS-OISEAUX-BAUER-2008-ADULT",
+        "MAYS-MIKKOLA-2013-P139",
+        "MAYS-ITIS-686656-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/179-otus-mayottensis-v4.md",
+      "review_record": "research/reviews/179-otus-mayottensis-v4-review.md",
+      "run_record": "production/runs/20261113T054310+0800-cycle-6.md",
+      "reviewed_at": "2026-11-13T05:51:09.417+08:00",
+      "dimensions": "1536x1024",
+      "sha256": "891f8879695a7ff9d7f215d899e94973c2fb99a1e8ffef2c20802f63d41dee16",
+      "size_bytes": 3042459,
+      "git_blob": "3e98850836287bd49794d4ee68bdbba9b02044ae",
+      "initial_generated_path": "production/generated/179-otus-mayottensis-v4-generated-master.png",
+      "initial_original_path": "production/generated/179-otus-mayottensis-v4-initial-original.png",
+      "initial_generated_blob": "3e98850836287bd49794d4ee68bdbba9b02044ae",
+      "initial_generated_sha256": "891f8879695a7ff9d7f215d899e94973c2fb99a1e8ffef2c20802f63d41dee16",
+      "initial_generated_size_bytes": 3042459,
+      "edited_path": null,
+      "edited_blob": null,
+      "final_original_path": "production/generated/179-otus-mayottensis-v4-final-original.png",
+      "generated_path": "production/generated/179-otus-mayottensis-v4-full-color.png",
+      "generated_blob": "3e98850836287bd49794d4ee68bdbba9b02044ae",
+      "generated_sha256": "891f8879695a7ff9d7f215d899e94973c2fb99a1e8ffef2c20802f63d41dee16",
+      "generated_size_bytes": 3042459,
+      "reviewed_path": "production/reviewed/179-otus-mayottensis-v4-reviewed-master.png",
+      "reviewed_blob": "3e98850836287bd49794d4ee68bdbba9b02044ae",
+      "reviewed_sha256": "891f8879695a7ff9d7f215d899e94973c2fb99a1e8ffef2c20802f63d41dee16",
+      "reviewed_size_bytes": 3042459,
+      "review_crops": [
+        {
+          "role": "adult_male",
+          "path": "production/review-crops/179-otus-mayottensis-v4-adult-male.png",
+          "blob": "09d0e22fe8a1f5aa4cbe73613b48a1e947aba8d2",
+          "sha256": "95d2fe6231bb7f6ffd9403e18a60cc6ca3ee2edc24b6b37ca5a69dc48b8476b7",
+          "size_bytes": 799117
+        },
+        {
+          "role": "adult_female",
+          "path": "production/review-crops/179-otus-mayottensis-v4-adult-female.png",
+          "blob": "7b31ae1ff99ca7c40944574f9f0ee5f6ff817d5e",
+          "sha256": "693fa7e914216c64d24c7d5c96f8a65508088d30cfab45f7998b0f6e10a143eb",
+          "size_bytes": 760342
+        },
+        {
+          "role": "age_unknown_older_immature",
+          "path": "production/review-crops/179-otus-mayottensis-v4-young.png",
+          "blob": "0542011edd9e9a38af8b546a63e97d06dcd2c118",
+          "sha256": "77cf3100e25c0e3080fdb62cb57b2bd8394d6a5fb84a6888f85da9d45cd87cb5",
+          "size_bytes": 711447
+        }
+      ],
+      "archive_note": "V1-v3 preserved. Two newly read authoritative sources indexed and five records reused/reread. Full plate and three crops opened; no visual defect required an image edit. Species-specific distal-tarsus correction applied and validated. PASS_WITH_LIMITATIONS; science=false.",
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false,
+      "ledger_credited": false,
+      "batch_id": "20261113T022000+0800",
+      "batch_cycle": 6
     }
   ],
-  "updated_at": "2026-11-13T05:41:40.899+08:00"
+  "updated_at": "2026-11-13T05:52:51.144+08:00"
 }

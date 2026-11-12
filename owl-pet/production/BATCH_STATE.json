@@ -45317,16 +45317,16 @@
       "next_cycle": 4,
       "active_cycle": null,
       "started_at": "2026-11-12T15:38:46+08:00",
-      "updated_at": "2026-11-12T17:43:04+08:00",
-      "current_stage": "ARCHIVED",
-      "ledger_credit_pending": false,
+      "updated_at": "2026-11-12T17:44:51+08:00",
+      "current_stage": "VERIFIED",
+      "ledger_credit_pending": true,
       "lease": {
         "owner": "codex",
         "run_id": "20261112T173032+0800-cycle-4",
         "batch_id": "20261112T153846+0800",
         "cycle": 4,
-        "heartbeat_at": "2026-11-12T17:43:04+08:00",
-        "expires_at": "2026-11-12T17:58:04+08:00"
+        "heartbeat_at": "2026-11-12T17:44:51+08:00",
+        "expires_at": "2026-11-12T17:59:51+08:00"
       },
       "active": {
         "cycle": 4,
@@ -45338,7 +45338,7 @@
         "run_record": "owl-pet/production/runs/20261112T173032+0800-cycle-4.md",
         "started_at": "2026-11-12T17:30:32+08:00"
       },
-      "stage": "ARCHIVED",
+      "stage": "VERIFIED",
       "completed_count": 3,
       "stage_events": [
         {
@@ -45980,8 +45980,8 @@
     "run_id": "20261112T173032+0800-cycle-4",
     "batch_id": "20261112T153846+0800",
     "cycle": 4,
-    "heartbeat_at": "2026-11-12T17:43:04+08:00",
-    "expires_at": "2026-11-12T17:58:04+08:00"
+    "heartbeat_at": "2026-11-12T17:44:51+08:00",
+    "expires_at": "2026-11-12T17:59:51+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -46116,7 +46116,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-12T17:43:04+08:00",
+  "updated_at": "2026-11-12T17:44:51+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -53457,7 +53457,7 @@
   ],
   "active_batch_id": "20261112T153846+0800",
   "active_cycle": 4,
-  "current_stage": "ARCHIVED",
+  "current_stage": "VERIFIED",
   "next_cycle": 4,
   "unique_species_count": 176,
   "total_species": 251,
@@ -60831,6 +60831,40 @@
         "archive_commit_pending": true,
         "readback_pending": true,
         "lease_expires_at": "2026-11-12T17:58:04+08:00"
+      }
+    },
+    {
+      "batch_id": "20261112T153846+0800",
+      "cycle": 4,
+      "stage": "VERIFIED",
+      "at": "2026-11-12T17:44:51+08:00",
+      "run_id": "20261112T173032+0800-cycle-4",
+      "species_id": 153,
+      "species": "Jubula lettii",
+      "credited": false,
+      "evidence": {
+        "archive_commit": "ab266ab67fc55f116caeb473400f189db5fe2b9b",
+        "archive_tree": "2ea5f6727f93d0c055ef10924ad36439cdab8198",
+        "tree_entries": 4683,
+        "tree_truncated": false,
+        "required_paths_verified": 21,
+        "exact_binary_paths_verified": 9,
+        "unique_binary_streams_tree_verified": 5,
+        "concept_blob": "7642b534846dc58424bdd29f9246a05332782f4e",
+        "crop_blobs": [
+          "879738b8f6e629810d67eed8931281437878db3d",
+          "828208f63fccbfec5333a7ed1bdc9990232dbfdc",
+          "16ba544574618b3add3ed2351359666770599fe3"
+        ],
+        "manifest_counts": {
+          "concepts": 834,
+          "image": 803,
+          "design": 812
+        },
+        "verification_result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false,
+        "ledger_credit_pending": true,
+        "lease_expires_at": "2026-11-12T17:59:51+08:00"
       }
     }
   ],
@@ -69908,7 +69942,7 @@
     }
   ],
   "updated": "2026-11-12T15:54:59.676+08:00",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "stage_evidence": {
     "research_record": "owl-pet/research/species/143-asio-solomonensis-v4.md",
     "source_index": "owl-pet/research/SOURCE_INDEX.md",

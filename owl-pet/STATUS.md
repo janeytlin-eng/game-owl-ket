@@ -4277,3 +4277,8 @@ Verification [`f0475f2292574e628c191c59576c83b37f90c6a7`](https://github.com/jan
 - The 1889 original description (printed pp.34–35) is now actually read and upgrades the old unverified locator. Adults use near-equal scale; no female-larger rule is asserted.
 - Macaulay ML531449801 supports a white-faced mobile older immature that flew briefly and perched. One edit shortened/softened its adult-like wing and tail; full plate and three crops passed review.
 - **PASS_WITH_LIMITATIONS**, scientifically_verified=false. Exact age, earliest down sequence, nest architecture, quantified flight and sex-size direction remain unknown. Archive verification and ledger credit are pending.
+
+
+## 2026-11-12 cycle 4/6 — #153 v4 archive verified
+
+Archive [`ab266ab6`](https://github.com/janeytlin-eng/game-owl-ket/commit/ab266ab67fc55f116caeb473400f189db5fe2b9b) was re-read with an untruncated 4683-entry tree. All 21 required paths and 9 binary aliases match their expected blobs/sizes; the three manifests parse and point to concept blob `7642b534846dc58424bdd29f9246a05332782f4e`. Verification is PASS_WITH_LIMITATIONS; scientific certification remains false. Ledger credit is still pending.

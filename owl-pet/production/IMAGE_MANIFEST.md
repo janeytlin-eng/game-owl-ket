@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T08:42:00+08:00",
+  "updated": "2026-11-12T08:44:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -31188,9 +31188,11 @@
       "unique_binary_streams_tree_verified": 4,
       "verified_at": "2026-11-12T08:42:00+08:00",
       "verification_result": "PASS_WITH_LIMITATIONS",
-      "verification_commit_pending": true,
-      "binary_content_api_note": "Untruncated recursive tree re-read confirmed all 18 required paths. Nine PNG aliases resolve to four exact Git blobs; all six full-plate aliases are blob 11b28426... at 2,802,243 bytes. github_fetch_file also returned the same concept blob SHA; binary payload text was intentionally omitted by the connector."
+      "verification_commit_pending": false,
+      "binary_content_api_note": "Untruncated recursive tree re-read confirmed all 18 required paths. Nine PNG aliases resolve to four exact Git blobs; all six full-plate aliases are blob 11b28426... at 2,802,243 bytes. github_fetch_file also returned the same concept blob SHA; binary payload text was intentionally omitted by the connector.",
+      "verification_commit": "1c92d456119081a08772dd1893259148f84fe4bc",
+      "ledger_credited_at": "2026-11-12T08:44:00+08:00"
     }
   ],
-  "updated_at": "2026-11-12T08:42:00+08:00"
+  "updated_at": "2026-11-12T08:44:00+08:00"
 }

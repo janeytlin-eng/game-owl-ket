@@ -47086,12 +47086,21 @@
       "next_cycle": 5,
       "active_cycle": null,
       "started_at": "2026-11-12T21:36:00+08:00",
-      "updated_at": "2026-11-12T22:53:00+08:00",
+      "updated_at": "2026-11-12T22:30:37+08:00",
       "current_stage": "LEDGER_CREDITED",
       "stage": "LEDGER_CREDITED",
       "completed_count": 4,
       "ledger_credit_pending": false,
-      "lease": null,
+      "lease": {
+        "owner": "codex-work",
+        "run_id": "20261112T223037+0800-cycle-5",
+        "cycle": 5,
+        "acquired_at": "2026-11-12T22:30:37+08:00",
+        "heartbeat_at": "2026-11-12T22:30:37+08:00",
+        "expires_at": "2026-11-12T22:45:37+08:00",
+        "species_id": 166,
+        "species": "Bubo cinerascens"
+      },
       "active": null,
       "stage_events": [
         {
@@ -47873,6 +47882,21 @@
             "total_species": 251,
             "revision_increment": 1,
             "scientifically_verified": false
+          }
+        },
+        {
+          "batch_id": "20261112T213600+0800",
+          "cycle": 5,
+          "stage": "STARTED",
+          "at": "2026-11-12T22:30:37+08:00",
+          "run_id": "20261112T223037+0800-cycle-5",
+          "species_id": 166,
+          "species": "Bubo cinerascens",
+          "credited": false,
+          "evidence": {
+            "base_head": "7f884eec444fa8eee326d33cd50594ed4e9750e7",
+            "lease_expires_at": "2026-11-12T22:45:37+08:00",
+            "next_cycle": 5
           }
         }
       ]

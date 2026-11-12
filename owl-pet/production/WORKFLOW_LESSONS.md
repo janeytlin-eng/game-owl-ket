@@ -146,3 +146,12 @@ When primary sources say a recent fledgling can fly but lands poorly, that evide
 - **Evidence boundary:** western-form sources support very short low tufts; the immature evidence supports only local uppertail-coverts/rectrix-tip cues, not adult-complete remiges, exact age or flight.
 - **Applied:** #173 v4 states tuft height and compact diffuse immature wing/tail as whole-image prohibitions and requires three role crops before accepting the first render.
 - **Verified in this asset:** the full plate and all three crops passed those gates without an edit. This validates the prompt/check combination for this asset, not a universal *Otus* development schedule.
+
+## 2026-11-13 — #174 `Strix sartorii` v4 (applied, review-validated; archive pending)
+
+- Problem: the first render converted “unringed pale face” into conspicuous target-like facial circles and rendered the directly flight-observed fledgling with crisp adult-style wing rows.
+- Evidence boundary: the 2015 field record supports an age-unknown begging fledgling able to fly out of sight, not a downy nestling or exact first-flight age; it allows formed flight feathers but not adult-like crisp patterning.
+- Applied change: targeted edit softened the adults' facial framing and shortened/softened the fledgling's wing pattern while preserving flight capability and bilateral branch support.
+- Validation: edited full plate and three fresh crops were reopened; role count/labels, near-equal adults, support and evidence-bounded fledgling stage passed with limitations.
+- Reusable check: for a flight-capable age-unknown fledgling, do not automatically remove all formed remiges; instead compare feather length, edge softness and pattern crispness against the adults. Treat “unringed face” as a specific anti-target review gate.
+- Archive lesson: a persistent Git blob is recoverable evidence but is not an archived repository file. Do not advance ARCHIVED/VERIFIED until the blob is attached to a main-tree path and read back.

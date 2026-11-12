@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T08:05:00+08:00",
+  "updated": "2026-11-12T08:37:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -31609,7 +31609,95 @@
       "binary_content_api_note": "Exact path, Git blob SHA and byte size were re-read from the untruncated archive tree for ten binary aliases/six unique streams. Base64 file fetch returned the concept blob SHA.",
       "verification_commit": "ec1c29299ef8f174bd96fbae93530adf2fc04ead",
       "ledger_credited_at": "2026-11-12T08:05:00+08:00"
+    },
+    {
+      "id": "138-otus-mentawi-v5",
+      "species_id": 138,
+      "common_name": "Mentawai Scops-Owl",
+      "scientific_name": "Otus mentawi",
+      "current_name_crosswalk": "Otus mentawi",
+      "historical_names": [
+        "Otus bakkamoena mentawi"
+      ],
+      "path": "design/concepts/138-otus-mentawi-v5.png",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "prior_versions_retained": true,
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "imagegen_invocations": 1,
+      "status": "V5 preserves v1-v4, keeps adults near-equal because no species-specific sex-size data were found, and uses the directly photographed 18–21 May 2017 lower-branch juvenile stage. The juvenile is slightly smaller, pale grey-brown and thin-streaked below, darker above, with reddish-brown face/eyes, pale horn bill/toes and a formed wing extending beyond the short tail. Exact age, continuous-flight ability, independence, population sex-size direction, iris chronology and universal nest details remain unknown.",
+      "source_ids": [
+        "MEN-TAUFIQURRAHMAN-2018-P31-32",
+        "MEN-ITIS-555383-2026",
+        "MEN-MIKKOLA-2013-P166-167",
+        "MEN-CHASEN-KLOSS-1926-DOI"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/138-otus-mentawi-v5.md",
+      "review_record": "research/reviews/138-otus-mentawi-v5-review.md",
+      "run_record": "production/runs/20261112T080700+0800-cycle-2.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 2802243,
+      "sha256": "535a9488355974aaa30613e5eaddda5ea24b48d8b5cbd2a32951bc5a709f76d4",
+      "git_blob": "11b28426a3f6eacd9d03da88babb10cfce57df12",
+      "initial_original_path": "production/generated/138-otus-mentawi-v5-initial-original.png",
+      "initial_original_blob": "11b28426a3f6eacd9d03da88babb10cfce57df12",
+      "initial_original_size_bytes": 2802243,
+      "initial_original_sha256": "535a9488355974aaa30613e5eaddda5ea24b48d8b5cbd2a32951bc5a709f76d4",
+      "final_original_path": "production/generated/138-otus-mentawi-v5-final-original.png",
+      "final_original_blob": "11b28426a3f6eacd9d03da88babb10cfce57df12",
+      "final_original_size_bytes": 2802243,
+      "final_original_sha256": "535a9488355974aaa30613e5eaddda5ea24b48d8b5cbd2a32951bc5a709f76d4",
+      "full_color_source_path": "production/generated/138-otus-mentawi-v5-full-color.png",
+      "full_color_source_blob": "11b28426a3f6eacd9d03da88babb10cfce57df12",
+      "full_color_source_size_bytes": 2802243,
+      "full_color_source_sha256": "535a9488355974aaa30613e5eaddda5ea24b48d8b5cbd2a32951bc5a709f76d4",
+      "generated_path": "production/generated/138-otus-mentawi-v5-generated-master.png",
+      "generated_blob": "11b28426a3f6eacd9d03da88babb10cfce57df12",
+      "generated_size_bytes": 2802243,
+      "reviewed_path": "production/reviewed/138-otus-mentawi-v5-reviewed-master.png",
+      "reviewed_blob": "11b28426a3f6eacd9d03da88babb10cfce57df12",
+      "reviewed_size_bytes": 2802243,
+      "review_crops": [
+        {
+          "path": "production/review-crops/138-otus-mentawi-v5-adult-male.png",
+          "blob": "321ff8045353f578bd9d3ae4eed1fb77cecced75",
+          "size_bytes": 678512
+        },
+        {
+          "path": "production/review-crops/138-otus-mentawi-v5-juvenile.png",
+          "blob": "633e88ddb9707030903589ae86b094562cb276c2",
+          "size_bytes": 671843
+        },
+        {
+          "path": "production/review-crops/138-otus-mentawi-v5-adult-female.png",
+          "blob": "ce3ceaf6d863762c5b3d5ed634e1ab3155eb8684",
+          "size_bytes": 644427
+        }
+      ],
+      "repaired_partial_blobs": [
+        {
+          "blob": "4d27dc5c2dbd8a829f1cef8cb71e568bcfd79fb0",
+          "size_bytes": 786446,
+          "reason": "Prior base64 upload was truncated; never accepted as archive master."
+        }
+      ],
+      "archive_note": "Full plate and three role crops opened. No edit required. The photographed branch-stage juvenile legitimately retains a formed wing beyond the short tail. After lease expiry, the intact local 1536x1024 PNG was re-uploaded in chunks; tree size now matches 2,802,243 bytes and replaces the earlier truncated 786,446-byte blob. New0/reused-re-read3/unverified1/corrected boundaries2; uploaded Mikkola unavailable and only prior indexed pp.166–167 reused. Science false. Archive verification pending.",
+      "readback_pending": true,
+      "archive_commit_pending": true,
+      "archived_at": "2026-11-12T08:37:00+08:00"
     }
   ],
-  "updated_at": "2026-11-12T08:05:00+08:00"
+  "updated_at": "2026-11-12T08:37:00+08:00"
 }

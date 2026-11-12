@@ -48296,16 +48296,16 @@
       "next_cycle": 2,
       "active_cycle": 2,
       "started_at": "2026-11-12T23:41:06+08:00",
-      "updated_at": "2026-11-13T00:11:34+08:00",
-      "current_stage": "RESEARCH_READY",
-      "stage": "RESEARCH_READY",
+      "updated_at": "2026-11-13T00:15:14+08:00",
+      "current_stage": "IMAGE_GENERATED",
+      "stage": "IMAGE_GENERATED",
       "completed_count": 1,
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex-work-mode",
         "run_id": "20261113T001020+0800-cycle-2",
-        "heartbeat_at": "2026-11-13T00:11:34+08:00",
-        "expires_at": "2026-11-13T00:26:34+08:00"
+        "heartbeat_at": "2026-11-13T00:15:14+08:00",
+        "expires_at": "2026-11-13T00:30:14+08:00"
       },
       "active": {
         "cycle": 2,
@@ -48314,7 +48314,7 @@
         "species": "Ketupa shelleyi",
         "version": 4,
         "action": "SCIENCE_REVISION",
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "run_record": "owl-pet/production/runs/20261113T001020+0800-cycle-2.md"
       },
       "stage_events": [
@@ -48536,6 +48536,27 @@
             "mikkola_access": "uploaded guide not mounted; repository p.288 record reused only, no fresh page claim",
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-13T00:26:34+08:00"
+          }
+        },
+        {
+          "batch_id": "20261112T234106+0800",
+          "cycle": 2,
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-13T00:14:47+08:00",
+          "run_id": "20261113T001020+0800-cycle-2",
+          "species_id": 169,
+          "species": "Ketupa shelleyi",
+          "credited": false,
+          "evidence": {
+            "initial_original": "owl-pet/production/generated/169-ketupa-shelleyi-v4-initial-original.png",
+            "initial_blob": "9fc2cc039d5097733a5d35d6196d4da198e68112",
+            "initial_bytes": 2790034,
+            "initial_sha256": "5ba84b2fc0198928ef12db3c8681a0051019862525f6bfba72ed6513a4359d13",
+            "geometry": "1536x1024",
+            "generation_seconds": 47.5,
+            "preliminary_inspection": "exact title/count/labels, adult identity/crown patch/near-equal scale, low two-foot mesoptile crouch, compact wing and short tail fringe pass; full and crop review pending",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-13T00:30:14+08:00"
           }
         }
       ]

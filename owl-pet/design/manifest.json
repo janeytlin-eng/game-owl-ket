@@ -33085,12 +33085,22 @@
         }
       ],
       "archive_note": "V1-v3 preserved. Sharpe 1875 p.42, MNHN MO-1971-66 and Cornell Clements 2022 taxonomy update reread. Full plate, three crops and montage opened; edit0. Mikkola upload not mounted. PASS_WITH_LIMITATIONS; science=false.",
-      "archive_commit_pending": true,
-      "readback_pending": true,
-      "exact_readback": false,
-      "ledger_credited": false,
+      "archive_commit_pending": false,
+      "readback_pending": false,
+      "exact_readback": true,
+      "ledger_credited": true,
       "batch_id": "20261112T213600+0800",
-      "batch_cycle": 6
+      "batch_cycle": 6,
+      "archive_commit": "9632c96fcb620ae466906910d2450311279c65a1",
+      "archive_tree": "c60d3a98e616d7ca9a04e478092b900ccf5d70f3",
+      "required_paths_verified": 15,
+      "exact_binary_paths_verified": 8,
+      "unique_binary_streams_verified": 4,
+      "verified_at": "2026-11-12T23:09:00+08:00",
+      "verification_commit": "55724bdff437dd6908d543ec28c1cea7a7343307",
+      "verification_tree": "5a27189a582a0ac92260a133273a9725a8bba702",
+      "verification_commit_pending": false,
+      "ledger_credited_at": "2026-11-12T23:11:00+08:00"
     }
   ],
   "updated_at": "2026-11-12T23:06:00+08:00"

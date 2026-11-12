@@ -46995,7 +46995,7 @@
     },
     {
       "batch_id": "20261112T213600+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -47102,32 +47102,39 @@
           "completed_at": "2026-11-12T22:49:00+08:00",
           "review_result": "PASS_WITH_LIMITATIONS",
           "scientifically_verified": false
+        },
+        {
+          "cycle": 6,
+          "run_id": "20261112T225100+0800-cycle-6",
+          "species_id": 167,
+          "species": "Ketupa poensis",
+          "version": 4,
+          "action": "SCIENCE_REVISION",
+          "result": "VERIFIED",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "archive_commit": "9632c96fcb620ae466906910d2450311279c65a1",
+          "archive_tree": "c60d3a98e616d7ca9a04e478092b900ccf5d70f3",
+          "verification_commit": "55724bdff437dd6908d543ec28c1cea7a7343307",
+          "verification_tree": "5a27189a582a0ac92260a133273a9725a8bba702",
+          "commit_sha": "55724bdff437dd6908d543ec28c1cea7a7343307",
+          "run_record": "owl-pet/production/runs/20261112T225100+0800-cycle-6.md",
+          "concept_path": "owl-pet/design/concepts/167-ketupa-poensis-v4.png",
+          "completed_at": "2026-11-12T23:11:00+08:00",
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 6,
-      "active_cycle": 6,
+      "next_cycle": null,
+      "active_cycle": null,
       "started_at": "2026-11-12T21:36:00+08:00",
-      "updated_at": "2026-11-12T23:09:00+08:00",
-      "current_stage": "VERIFIED",
-      "stage": "VERIFIED",
-      "completed_count": 5,
-      "ledger_credit_pending": true,
-      "lease": {
-        "owner": "codex-work",
-        "run_id": "20261112T225100+0800-cycle-6",
-        "cycle": 6,
-        "acquired_at": "2026-11-12T22:51:00+08:00",
-        "heartbeat_at": "2026-11-12T23:09:00+08:00",
-        "expires_at": "2026-11-12T23:24:00+08:00",
-        "species_id": 167,
-        "species": "Ketupa poensis"
-      },
-      "active": {
-        "cycle": 6,
-        "species_id": 167,
-        "species": "Ketupa poensis",
-        "run_id": "20261112T225100+0800-cycle-6"
-      },
+      "updated_at": "2026-11-12T23:11:00+08:00",
+      "current_stage": "LEDGER_CREDITED",
+      "stage": "LEDGER_CREDITED",
+      "completed_count": 6,
+      "ledger_credit_pending": false,
+      "lease": null,
+      "active": null,
       "stage_events": [
         {
           "batch_id": "20261112T213600+0800",
@@ -48234,6 +48241,28 @@
             "ledger_credit_pending": true,
             "lease_expires_at": "2026-11-12T23:24:00+08:00"
           }
+        },
+        {
+          "batch_id": "20261112T213600+0800",
+          "cycle": 6,
+          "stage": "LEDGER_CREDITED",
+          "at": "2026-11-12T23:11:00+08:00",
+          "run_id": "20261112T225100+0800-cycle-6",
+          "species_id": 167,
+          "species": "Ketupa poensis",
+          "credited": true,
+          "evidence": {
+            "archive_commit": "9632c96fcb620ae466906910d2450311279c65a1",
+            "verification_commit": "55724bdff437dd6908d543ec28c1cea7a7343307",
+            "run_record": "owl-pet/production/runs/20261112T225100+0800-cycle-6.md",
+            "next_cycle": null,
+            "batch_completed_count": 6,
+            "unique_species_count": 176,
+            "total_species": 251,
+            "revision_increment": 1,
+            "scientifically_verified": false,
+            "batch_status": "COMPLETE"
+          }
         }
       ]
     }
@@ -48372,7 +48401,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-12T22:49:00+08:00",
+  "updated_at": "2026-11-12T23:11:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -75546,36 +75575,36 @@
     }
   ],
   "unique_species": 176,
-  "last_verified_species_id": 166,
-  "last_verified_species": "Bubo cinerascens",
+  "last_verified_species_id": 167,
+  "last_verified_species": "Ketupa poensis",
   "active_species": null,
   "last_completed_cycle": {
-    "cycle": 5,
-    "run_id": "20261112T223037+0800-cycle-5",
-    "species_id": 166,
-    "species": "Bubo cinerascens",
+    "cycle": 6,
+    "run_id": "20261112T225100+0800-cycle-6",
+    "species_id": 167,
+    "species": "Ketupa poensis",
     "version": 4,
     "action": "SCIENCE_REVISION",
     "result": "VERIFIED",
     "unique_species_increment": 0,
     "revision_increment": 1,
-    "archive_commit": "71d8f234bb8bce774d80845594d84e2274df28f6",
-    "archive_tree": "a1807393a57a3ebcc8bf278372aad53e7238e9fb",
-    "verification_commit": "9b82b2f60a54864e84ec1a59ed33a79bf49054e0",
-    "verification_tree": "52852508bde5b6e637b797c930d91daac6ed2509",
-    "commit_sha": "9b82b2f60a54864e84ec1a59ed33a79bf49054e0",
-    "run_record": "owl-pet/production/runs/20261112T223037+0800-cycle-5.md",
-    "concept_path": "owl-pet/design/concepts/166-bubo-cinerascens-v4.png",
-    "completed_at": "2026-11-12T22:49:00+08:00",
+    "archive_commit": "9632c96fcb620ae466906910d2450311279c65a1",
+    "archive_tree": "c60d3a98e616d7ca9a04e478092b900ccf5d70f3",
+    "verification_commit": "55724bdff437dd6908d543ec28c1cea7a7343307",
+    "verification_tree": "5a27189a582a0ac92260a133273a9725a8bba702",
+    "commit_sha": "55724bdff437dd6908d543ec28c1cea7a7343307",
+    "run_record": "owl-pet/production/runs/20261112T225100+0800-cycle-6.md",
+    "concept_path": "owl-pet/design/concepts/167-ketupa-poensis-v4.png",
+    "completed_at": "2026-11-12T23:11:00+08:00",
     "review_result": "PASS_WITH_LIMITATIONS",
     "scientifically_verified": false
   },
   "last_verified": {
-    "species_id": 166,
-    "species": "Bubo cinerascens",
+    "species_id": 167,
+    "species": "Ketupa poensis",
     "version": 4,
-    "archive_commit": "71d8f234bb8bce774d80845594d84e2274df28f6",
-    "verification_commit": "9b82b2f60a54864e84ec1a59ed33a79bf49054e0",
-    "at": "2026-11-12T22:49:00+08:00"
+    "archive_commit": "9632c96fcb620ae466906910d2450311279c65a1",
+    "verification_commit": "55724bdff437dd6908d543ec28c1cea7a7343307",
+    "at": "2026-11-12T23:11:00+08:00"
   }
 }

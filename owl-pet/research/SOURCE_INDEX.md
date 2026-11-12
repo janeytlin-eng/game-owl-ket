@@ -4759,3 +4759,22 @@ Reused/re-read without duplicate IDs for #130 v5: `KOEP-ITIS-686665-2026`, repos
 - **Actually opened this run:** Warakagoda & Rasmussen original PDF including p.102 mesoptile paragraph; ITIS TSN 555364 current record. Mikkola upload unavailable, so only the repository-preserved printed p.178/PDF p.180 reading is reused.
 - **Corrected inference:** v4 closed eyes were a design device, not an observed developmental fact. V5 uses the directly described age-unknown mesoptile and keeps iris non-diagnostic in shadow. Exact age, sex, iris, flight, dependence and nest remain unknown.
 - **Supports:** [v5 research](species/140-otus-rufescens-v5.md); image and review pending. Scientific verification remains false.
+
+
+## 2026-11-12 — #141 *Otus magicus* v5 — museum-series juvenile-wing and tarsal-boundary correction
+
+### MAG-FINSCH-1898-P163-172 — newly indexed primary museum series
+- **Title / author / year:** “Über *Scops magicus* (S. Müll.) und die verwandten Arten” / Otto Finsch / 1898, *Notes from the Leyden Museum* 20:163–180, plates 9–10.
+- **URL / accessed / type:** https://repository.naturalis.nl/pub/508788/NLM1898020002009.pdf ; accessed 2026-11-12; primary comparative museum study.
+- **Pages actually read:** printed pp.163–172, especially pp.163–164 and 170–172.
+- **Species/stages:** 94-specimen *Scops magicus* complex; Batjan/Halmahera `leucospilus`, younger male and downy/nest-plumage young.
+- **Facts:** colour/pattern vary widely and age/sex dependence was not established. Downy young with remiges/rectrices at differing development show fine dark crossbars; remiges may be as distinctly barred as adults. Tarsi are usually feathered near the toe bases but some specimens, including nest-plumage birds, have only the upper approximately two-thirds feathered and the rear surface bare. Tail barring varies too much for a universal exact count.
+- **Limits/conflicts/credibility:** historical prepared series and broad old complex, not a known-age live growth sequence. High for the described specimens; no exact age, iris, flight, dependence, modern population ratio or nest inference.
+- **Design/review decision:** allow a short partly down-veiled developing barred wing without turning the young into a miniature adult; show near-toe tarsal feathering with small irregular exposure, not a precise metric band; avoid exact repeated adult pattern counts.
+- **Links:** `research/species/141-otus-magicus-v5.md`; planned v5 concept/review/run.
+
+### Reused/re-read stable evidence
+- `MAG-SHARPE-1875-P70-PLVI`: pp.70–74 and Plate VI reopened for historical adult-female `leucospilus` pattern and greyish-white cheek/ear-coverts; not treated as a dated development series.
+- `MAG-ITIS-555379-2026`: current valid *Otus magicus*, original/synonym *Strix magica*, and valid *O. m. leucospilus* crosswalk reopened; taxonomy only.
+- `MAG-MIKKOLA-2013-P189-190`: repository-pinned prior read reused; uploaded guide unavailable this execution, so no fresh page claim.
+- **Index delta:** new verified 1; reused/re-read 3; corrected boundaries 3 (juvenile wing pattern, tarsal-feather variability, non-universal adult pattern counts). Detailed source facts, design boundary and complete prompt: `research/species/141-otus-magicus-v5.md`. Scientific verification remains false.

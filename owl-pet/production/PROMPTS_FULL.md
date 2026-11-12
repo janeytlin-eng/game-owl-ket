@@ -42,6 +42,28 @@ Young: AGE-UNKNOWN MESOPTILE, not hatchling and not claimed fledgling. Paler tha
 No nest, cavity, eggs, prey, flight, begging, spread wing, cliff or savanna. Exact young age, iris/wing/tail/flight chronology, nest geometry and robust sex-size ratio remain unknown. Target PASS_WITH_LIMITATIONS; scientifically_verified=false.
 ```
 
+
+## #141 — Moluccan Scops-Owl / *Otus magicus* — v5
+
+```text
+Create one polished 1536×1024 landscape owl electronic-pet concept plate in the repository's established warm tactile softly modeled 3D storybook / scientific field-guide style. Exactly THREE northern-Moluccan leucospilus Moluccan Scops-Owls (*Otus magicus*) on one coherent, naturally load-bearing mossy branch in humid northern-Moluccan forest-edge vegetation. Adult male left, age-unknown downy young center/front-lower, adult female right. Every visible foot and lower-body contact must have natural support.
+
+Exact visible text only:
+“#141 · MOLUCCAN SCOPS-OWL”
+“Otus magicus”
+“ADULT MALE” · “DOWNY YOUNG — AGE UNKNOWN” · “ADULT FEMALE”
+
+Adults: near-equal crown height and body scale; do not impose a female-larger rule. Distinct non-mirrored poses and individually irregular markings. Compact scops-owl proportions, short prominent ear tufts, grey-brown to restrained rufous-brown ground colour, blackish shaft marks and broken vermiculations, greyish-white cheeks/ear coverts, paler belly, a few irregular pale/white outer-scapular and wing-covert marks rather than repeated polka-dot rows, broken barring on flight feathers/tail without an exact band count, yellow irises, pale greyish-black bill/cere, strong feet. Tarsal feathering extends almost to the toe bases but ends irregularly, leaving only a small variable distal exposure; no ruler-like 6–9 mm band.
+
+Center downy young: clearly smaller/lower and not a miniature adult. Loose brown-grey down with fine dark crossbars on head, crown, neck and body. Show one short, partly down-veiled developing folded wing with a few fine dark crossbars: the bars are evidence-supported, but the wing must remain compact and developing, not a long hard adult wing. Tail short and mostly concealed. Eyes open but shaded/dark and non-diagnostic; no iris-colour chronology claim. Low side-on brace with both feet gripping and lower body lightly supported by a broad branch fork. No flight, leap, hovering, independence or exact-age claim.
+
+Scene/backdrop: moss, lichen, wet broad leaves and soft dawn depth in northern-Moluccan lowland/forest-edge vegetation; habitat context only, no active nest claim.
+Style/medium: tactile realistic 3D-maquette / painterly natural-history concept, warm restrained palette, refined anatomy, crisp readable serif typography.
+
+Constraints: exactly three birds; exact title, scientific name and role labels; adults near equal; distinct poses; all supports believable; preserve evidence limits.
+Avoid: extra birds, eggs, prey, cavity, decorative owl icons, maps, rulers, watermark, extra text, female-larger exaggeration, cloned adults, regular white polka dots, exact repeated tail bands, mostly bare adult tarsi, closed juvenile eyes presented as a species fact, yellow juvenile irises, long mature juvenile remiges/tail, flying or unsupported juvenile, detached or fused toes.
+```
+
 ## #176 v3 — *Otus pembaensis* — batch 20261107T143537+0800 cycle 1/6
 
 ### Generation

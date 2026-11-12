@@ -1,0 +1,52 @@
+name: "Owl #172 v30 alpha down material ablation (QA only, NO SHIP)"
+on:
+  push:
+    paths:
+      - "owl-pet/3d-experiments/172-tyto-castanops/run17-trigger.txt"
+permissions:
+  contents: read
+concurrency:
+  group: owl172-run17-material-ablation
+  cancel-in-progress: false
+jobs:
+  real-glb-material-ablation:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 24
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build original sculpt and two real GLB transparency controls
+        run: |
+          set -euo pipefail
+          python3 -m venv /tmp/owl172run17
+          /tmp/owl172run17/bin/pip install -q numpy scipy scikit-image trimesh pillow
+          D=owl-pet/3d-experiments/172-tyto-castanops/tools
+          mkdir -p qa-out/models
+          /tmp/owl172run17/bin/python "$D/mesoptile_organic_sculpt_trial_v30.py" qa-out/base.glb --resolution 110 --down 2600 --stats qa-out/base_stats.json
+          /tmp/owl172run17/bin/python "$D/diagnose_groom_ablation.py" qa-out/base.glb qa-out/models
+      - name: Compare actual GLTFLoader+WebGL2 screenshots for alpha BLEND/MASK/absent
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/owl172viewer
+          D=owl-pet/3d-experiments/172-tyto-castanops/tools
+          cp "$D/organic_viewer_qa_index.html" /tmp/owl172viewer/index.html
+          cp "$D/organic_viewer_qa_main.js" /tmp/owl172viewer/main.js
+          cp "$D/organic_mobile_webgl_smoke.mjs" /tmp/owl172viewer/mobile_webgl_smoke.mjs
+          cd /tmp/owl172viewer
+          npm init -y >/dev/null
+          npm install --no-save --silent three@0.181 vite@7.2 playwright@1.56
+          npx playwright install chromium
+          npx vite --host 127.0.0.1 --port 4173 > "$GITHUB_WORKSPACE/qa-out/server.log" 2>&1 &
+          sleep 5
+          for label in BLEND_original MASK_alpha NO_GROOM; do
+            cp "$GITHUB_WORKSPACE/qa-out/models/$label.glb" candidate.glb
+            mkdir -p "$GITHUB_WORKSPACE/qa-out/browser/$label"
+            node mobile_webgl_smoke.mjs "$GITHUB_WORKSPACE/qa-out/browser/$label" > "$GITHUB_WORKSPACE/qa-out/browser/$label/run.log" 2>&1
+          done
+      - name: Archive real QA binaries and pixels, never modify production
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run17-alpha-ablation-REJECTABLE
+          path: qa-out/
+          if-no-files-found: warn
+          retention-days: 14

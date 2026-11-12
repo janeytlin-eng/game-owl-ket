@@ -44000,14 +44000,14 @@
       "next_cycle": 6,
       "active_cycle": 6,
       "started_at": "2026-11-12T11:35:00+08:00",
-      "updated_at": "2026-11-12T15:05:00+08:00",
-      "current_stage": "IMAGE_GENERATED",
+      "updated_at": "2026-11-12T15:10:00+08:00",
+      "current_stage": "REVIEWED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex",
         "run_id": "20261112T145500+0800-cycle-6",
-        "heartbeat_at": "2026-11-12T15:05:00+08:00",
-        "expires_at": "2026-11-12T15:20:00+08:00"
+        "heartbeat_at": "2026-11-12T15:10:00+08:00",
+        "expires_at": "2026-11-12T15:25:00+08:00"
       },
       "active": {
         "cycle": 6,
@@ -44017,7 +44017,7 @@
         "action": "SCIENCE_REVISION",
         "run_record": "owl-pet/production/runs/20261112T145500+0800-cycle-6.md"
       },
-      "stage": "IMAGE_GENERATED",
+      "stage": "REVIEWED",
       "completed_count": 5,
       "stage_events": [
         {
@@ -45106,6 +45106,50 @@
             "preliminary_inspection": "exact three birds and labels; juvenile closed-eyed/down-dominant with two-foot support; adult female visibly but not massively larger; detailed crop review pending",
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-12T15:20:00+08:00"
+          }
+        },
+        {
+          "batch_id": "20261112T113500+0800",
+          "cycle": 6,
+          "stage": "REVIEWED",
+          "at": "2026-11-12T15:10:00+08:00",
+          "run_id": "20261112T145500+0800-cycle-6",
+          "species_id": 149,
+          "species": "Ninox odiosa",
+          "credited": false,
+          "evidence": {
+            "review": "owl-pet/research/reviews/149-ninox-odiosa-v4-review.md",
+            "result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false,
+            "views_opened": [
+              "full plate",
+              "adult-male crop",
+              "older-juvenile crop",
+              "adult-female crop"
+            ],
+            "edit_count": 0,
+            "final_blob": "da432a0a0f2ab10ac9a0424fe1491235e68b70c6",
+            "crops": {
+              "adult-male": {
+                "blob": "e55744ec8c87be8a0c0a20bdbefe8e6fd6f33cb5",
+                "size": 703287,
+                "sha256": "3d6f24359c042a52c16e93e5fb64baa9104c923489cbe8c3f817c62fa2238128",
+                "path": "owl-pet/production/review-crops/149-ninox-odiosa-v4-adult-male.png"
+              },
+              "older-juvenile": {
+                "blob": "84aff3e4940565d646386028378ad25a681539f7",
+                "size": 649021,
+                "sha256": "540db89fd2cef84dc4810d7166bd86f09a63571c7437f1d3a370c0ad050d1d81",
+                "path": "owl-pet/production/review-crops/149-ninox-odiosa-v4-older-juvenile.png"
+              },
+              "adult-female": {
+                "blob": "6ca2b3a634fa7687b8fc49f31050a677f723a2d1",
+                "size": 696311,
+                "sha256": "4f23bc92db5e8506f3270614b62d4c93cb2fef4f0baebfb8002a88a25693587d",
+                "path": "owl-pet/production/review-crops/149-ninox-odiosa-v4-adult-female.png"
+              }
+            },
+            "lease_expires_at": "2026-11-12T15:25:00+08:00"
           }
         }
       ],
@@ -59207,6 +59251,50 @@
         "preliminary_inspection": "exact three birds and labels; juvenile closed-eyed/down-dominant with two-foot support; adult female visibly but not massively larger; detailed crop review pending",
         "scientifically_verified": false,
         "lease_expires_at": "2026-11-12T15:20:00+08:00"
+      }
+    },
+    {
+      "batch_id": "20261112T113500+0800",
+      "cycle": 6,
+      "stage": "REVIEWED",
+      "at": "2026-11-12T15:10:00+08:00",
+      "run_id": "20261112T145500+0800-cycle-6",
+      "species_id": 149,
+      "species": "Ninox odiosa",
+      "credited": false,
+      "evidence": {
+        "review": "owl-pet/research/reviews/149-ninox-odiosa-v4-review.md",
+        "result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false,
+        "views_opened": [
+          "full plate",
+          "adult-male crop",
+          "older-juvenile crop",
+          "adult-female crop"
+        ],
+        "edit_count": 0,
+        "final_blob": "da432a0a0f2ab10ac9a0424fe1491235e68b70c6",
+        "crops": {
+          "adult-male": {
+            "blob": "e55744ec8c87be8a0c0a20bdbefe8e6fd6f33cb5",
+            "size": 703287,
+            "sha256": "3d6f24359c042a52c16e93e5fb64baa9104c923489cbe8c3f817c62fa2238128",
+            "path": "owl-pet/production/review-crops/149-ninox-odiosa-v4-adult-male.png"
+          },
+          "older-juvenile": {
+            "blob": "84aff3e4940565d646386028378ad25a681539f7",
+            "size": 649021,
+            "sha256": "540db89fd2cef84dc4810d7166bd86f09a63571c7437f1d3a370c0ad050d1d81",
+            "path": "owl-pet/production/review-crops/149-ninox-odiosa-v4-older-juvenile.png"
+          },
+          "adult-female": {
+            "blob": "6ca2b3a634fa7687b8fc49f31050a677f723a2d1",
+            "size": 696311,
+            "sha256": "4f23bc92db5e8506f3270614b62d4c93cb2fef4f0baebfb8002a88a25693587d",
+            "path": "owl-pet/production/review-crops/149-ninox-odiosa-v4-adult-female.png"
+          }
+        },
+        "lease_expires_at": "2026-11-12T15:25:00+08:00"
       }
     }
   ],

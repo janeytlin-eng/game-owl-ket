@@ -32624,7 +32624,7 @@
       "revision_increment": 1,
       "edit_count": 0,
       "imagegen_invocations": 1,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "FEO-LOYN-DEBUS-2000-P288-289",
         "FEO-WOXVOLD-NOVERA-2021-P226",
@@ -32681,10 +32681,39 @@
       ],
       "archive_note": "V1-v3 retained. The primary older-young paper was reread and one new peer-reviewed Bougainville field source was indexed. Full plate and all three role crops were opened; the compact down-veiled barred young wing, near-equal adults, forest context and all supports pass without edit. Rescue rail is explicitly not a nest. Exact young age/sex/flight/sequence, adult population dimorphism and universal nest geometry remain unknown. New verified source 1; reread/reused 3; unverified sources used 0. Science false.",
       "archived_at": "2026-11-12T11:53:00+08:00",
-      "archive_commit_pending": true,
-      "readback_pending": true,
-      "exact_readback": false
+      "archive_commit_pending": false,
+      "readback_pending": false,
+      "exact_readback": true,
+      "archive_commit": "bf1faf58a55be7ff875fe703caf37fc43844ef8a",
+      "archive_tree": "9da1283eb07ac34a18b92db410091d764317eb34",
+      "verified_at": "2026-11-12T11:59:00+08:00",
+      "verification_result": "PASS_WITH_LIMITATIONS",
+      "required_paths_verified": 24,
+      "exact_binary_paths_verified": 12,
+      "unique_binary_streams_tree_verified": 4,
+      "readback": {
+        "status": "VERIFIED",
+        "archive_commit": "bf1faf58a55be7ff875fe703caf37fc43844ef8a",
+        "tree_sha": "9da1283eb07ac34a18b92db410091d764317eb34",
+        "tree_entries": 4557,
+        "tree_truncated": false,
+        "required_paths_verified": 24,
+        "exact_binary_paths_verified": 12,
+        "manifest_counts": {
+          "concepts": 825,
+          "image": 794,
+          "design": 803
+        },
+        "manifest_json_valid": true,
+        "manifest_exact_blob_readback": true,
+        "path_blob_readback": true,
+        "local_png_full_decode": true,
+        "sha256_verified": true,
+        "unique_species": "176/251",
+        "scientifically_verified": false
+      },
+      "verification_commit_pending": true
     }
   ],
-  "updated_at": "2026-11-12T11:53:00+08:00"
+  "updated_at": "2026-11-12T11:59:00+08:00"
 }

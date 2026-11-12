@@ -43914,14 +43914,14 @@
       "next_cycle": 1,
       "active_cycle": 1,
       "started_at": "2026-11-12T11:35:00+08:00",
-      "updated_at": "2026-11-12T11:56:00+08:00",
-      "current_stage": "ARCHIVED",
-      "ledger_credit_pending": false,
+      "updated_at": "2026-11-12T11:59:00+08:00",
+      "current_stage": "VERIFIED",
+      "ledger_credit_pending": true,
       "lease": {
         "owner": "codex",
         "run_id": "20261112T113500+0800-cycle-1",
-        "heartbeat_at": "2026-11-12T11:56:00+08:00",
-        "expires_at": "2026-11-12T12:11:00+08:00"
+        "heartbeat_at": "2026-11-12T11:59:00+08:00",
+        "expires_at": "2026-11-12T12:14:00+08:00"
       },
       "active": {
         "cycle": 1,
@@ -43931,7 +43931,7 @@
         "action": "SCIENCE_REVISION",
         "run_record": "owl-pet/production/runs/20261112T113500+0800-cycle-1.md"
       },
-      "stage": "ARCHIVED",
+      "stage": "VERIFIED",
       "completed_count": 0,
       "stage_events": [
         {
@@ -44069,21 +44069,55 @@
             "female_crop_blob": "cf65693c137db341b171cb70dd211f361b4748a5",
             "archive_commit_pending": true
           }
+        },
+        {
+          "batch_id": "20261112T113500+0800",
+          "cycle": 1,
+          "stage": "VERIFIED",
+          "at": "2026-11-12T11:59:00+08:00",
+          "run_id": "20261112T113500+0800-cycle-1",
+          "species_id": 143,
+          "species": "Asio solomonensis",
+          "credited": false,
+          "evidence": {
+            "archive_commit": "bf1faf58a55be7ff875fe703caf37fc43844ef8a",
+            "archive_tree": "9da1283eb07ac34a18b92db410091d764317eb34",
+            "rejected_archive_commit": "6a4e3de503b24940b778a71981a39bab1db0a5f4",
+            "required_paths_verified": 24,
+            "exact_binary_paths_verified": 12,
+            "unique_binary_streams_tree_verified": 4,
+            "tree_entries": 4557,
+            "tree_truncated": false,
+            "manifest_counts": {
+              "concepts": 825,
+              "image": 794,
+              "design": 803
+            },
+            "manifest_json_valid": true,
+            "full_blob": "272aadeeb89ab051ded13bee451849d7853e9660",
+            "full_size_bytes": 3036404,
+            "sha256_verified": true,
+            "review_result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false,
+            "unique_species": "176/251",
+            "ledger_credit_pending": true,
+            "lease_expires_at": "2026-11-12T12:14:00+08:00"
+          }
         }
       ],
       "active_lease": {
         "owner": "codex",
         "run_id": "20261112T113500+0800-cycle-1",
-        "heartbeat_at": "2026-11-12T11:56:00+08:00",
-        "expires_at": "2026-11-12T12:11:00+08:00"
+        "heartbeat_at": "2026-11-12T11:59:00+08:00",
+        "expires_at": "2026-11-12T12:14:00+08:00"
       }
     }
   ],
   "lease": {
     "owner": "codex",
     "run_id": "20261112T113500+0800-cycle-1",
-    "heartbeat_at": "2026-11-12T11:56:00+08:00",
-    "expires_at": "2026-11-12T12:11:00+08:00"
+    "heartbeat_at": "2026-11-12T11:59:00+08:00",
+    "expires_at": "2026-11-12T12:14:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -51558,7 +51592,7 @@
   ],
   "active_batch_id": "20261112T113500+0800",
   "active_cycle": 1,
-  "current_stage": "ARCHIVED",
+  "current_stage": "VERIFIED",
   "next_cycle": 1,
   "unique_species_count": 176,
   "total_species": 251,

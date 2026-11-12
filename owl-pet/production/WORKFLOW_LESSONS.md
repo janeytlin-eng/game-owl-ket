@@ -138,3 +138,11 @@ When primary sources say a recent fledgling can fly but lands poorly, that evide
 - **Evidence boundary:** Debus 1993 pp.171–172 reports Tasmanian mean masses of 525 g male and 850 g female and a 12.8 dimorphism index; p.187 says young may leave the hole while still downy. Neither passage supplies a body-height ratio, exact young age or first-flight threshold.
 - **Applied:** #172 v4 expresses the adult difference mainly through female body fullness/darker tone with only moderate height difference, and shows the young taking one low two-foot supported step at the hollow lip.
 - **Verified in this asset:** full plate plus three role crops were opened; no giant-height caricature, airborne gap, mature young wing or exposed mature tail was found. Reuse this as a prompt/review rule, not as a universal Tytonidae growth schedule.
+
+
+## 2026-11-13 — recurring morphology defects belong in generation constraints and crop gates
+
+- **Problem:** #173 v3 required an edit because short-tuft evidence leaked into tall theatrical ear tufts and an age-unknown older immature acquired adult-hard wing/tail layering.
+- **Evidence boundary:** western-form sources support very short low tufts; the immature evidence supports only local uppertail-coverts/rectrix-tip cues, not adult-complete remiges, exact age or flight.
+- **Applied:** #173 v4 states tuft height and compact diffuse immature wing/tail as whole-image prohibitions and requires three role crops before accepting the first render.
+- **Verified in this asset:** the full plate and all three crops passed those gates without an edit. This validates the prompt/check combination for this asset, not a universal *Otus* development schedule.

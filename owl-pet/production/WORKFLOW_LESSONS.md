@@ -163,3 +163,11 @@ When primary sources say a recent fledgling can fly but lands poorly, that evide
 - **Evidence:** Mikkola printed p.134/PDF p.136 gives small ear-tufts, no evidence of sexual size difference, and only the broad statement that juvenile resembles adult; it does not provide feather chronology or flight ability.
 - **Applied change:** keep adults near-equal, reduce tufts, and render the age-unknown fledgling with a shorter rounded softer folded wing plus bilateral support; do not infer nest or flight.
 - **Verified result:** edit1 full plate and all three crops passed these gates. This is an applied visual rule, not new biological evidence; science remains false.
+## 2026-11-13 — “mesoptile described” does not license a visible mature wing
+
+**Problem:** #176 v4's first render respected the broad pale mesoptile description but exposed a long, organized adult-like wing.
+
+**Evidence/application:** the directly read guide supports whitish down with vague yellow-brown barring, a white-barred crown and somewhat banded tail, but gives no exact age, flight threshold or feather chronology. The edit therefore shortened and softened the wing, retained a short supported tail and labelled the stage age-unknown.
+
+**Observed validation:** the edited full plate and three subject crops were opened; the wing correction held without adult identity, label, support or habitat drift. Apply this as a review trigger only when the source describes a mesoptile without flight/age evidence; it is not a universal claim about owl development.
+

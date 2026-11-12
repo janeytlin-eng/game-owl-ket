@@ -4350,3 +4350,7 @@ Archive [`8646aecf`](https://github.com/janeytlin-eng/game-owl-ket/commit/8646ae
 ## 2026-11-13 — #175 v4 LEDGER_CREDITED — batch 2/6
 
 Verification [`9fd418fb`](https://github.com/janeytlin-eng/game-owl-ket/commit/9fd418fbcdd5caeba26790807ce01c4aa5d1dddc) was re-read after archive [`8646aecf`](https://github.com/janeytlin-eng/game-owl-ket/commit/8646aecf5770ea53ae1379b4b7aea84372f07d44). Cycle 2 credited once; batch `20261113T022000+0800` is now **2/6**, next cycle 3, lease released. Unique coverage remains **176/251**; revision +1; science=false.
+## 2026-11-13 — #176 *Otus pembaensis* v4 ARCHIVED; verification pending
+
+V4 preserves v1-v3. Uploaded Mikkola printed p.135/PDF p.137, Catry et al. habitat evidence and institutional uncertainty were applied: near-equal adults, only a subtle male folded-wing cue, and an age-unknown dark-eyed mesoptile with short soft wing and bilateral support. One image edit reduced sharp adult tufts and an adult-like juvenile wing. Nine PNG paths and four current manifests are staged. `PASS_WITH_LIMITATIONS`; science=false; immutable readback and ledger credit pending.
+

@@ -44000,14 +44000,14 @@
       "next_cycle": 6,
       "active_cycle": 6,
       "started_at": "2026-11-12T11:35:00+08:00",
-      "updated_at": "2026-11-12T15:14:00+08:00",
-      "current_stage": "ARCHIVED",
-      "ledger_credit_pending": false,
+      "updated_at": "2026-11-12T15:18:00+08:00",
+      "current_stage": "VERIFIED",
+      "ledger_credit_pending": true,
       "lease": {
         "owner": "codex",
         "run_id": "20261112T145500+0800-cycle-6",
-        "heartbeat_at": "2026-11-12T15:14:00+08:00",
-        "expires_at": "2026-11-12T15:29:00+08:00"
+        "heartbeat_at": "2026-11-12T15:18:00+08:00",
+        "expires_at": "2026-11-12T15:33:00+08:00"
       },
       "active": {
         "cycle": 6,
@@ -44017,7 +44017,7 @@
         "action": "SCIENCE_REVISION",
         "run_record": "owl-pet/production/runs/20261112T145500+0800-cycle-6.md"
       },
-      "stage": "ARCHIVED",
+      "stage": "VERIFIED",
       "completed_count": 5,
       "stage_events": [
         {
@@ -45180,6 +45180,40 @@
             "revision_increment": 1,
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-12T15:29:00+08:00"
+          }
+        },
+        {
+          "batch_id": "20261112T113500+0800",
+          "cycle": 6,
+          "stage": "VERIFIED",
+          "at": "2026-11-12T15:18:00+08:00",
+          "run_id": "20261112T145500+0800-cycle-6",
+          "species_id": 149,
+          "species": "Ninox odiosa",
+          "credited": false,
+          "evidence": {
+            "archive_commit": "876d61d4616741a1646bd67a4dd8e406b5ce9075",
+            "archive_tree": "81b4cac5e7f009b31b4ddc2c0a20cb37e39c931f",
+            "required_paths_verified": 24,
+            "exact_binary_paths_verified": 12,
+            "unique_binary_streams_tree_verified": 4,
+            "tree_entries": 4631,
+            "tree_truncated": false,
+            "manifest_counts": {
+              "concepts": 830,
+              "image": 799,
+              "design": 808
+            },
+            "manifest_json_valid": true,
+            "full_blob": "da432a0a0f2ab10ac9a0424fe1491235e68b70c6",
+            "full_size_bytes": 2929457,
+            "sha256_verified": true,
+            "remote_raw_image_opened": true,
+            "review_result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false,
+            "unique_species": "176/251",
+            "ledger_credit_pending": true,
+            "lease_expires_at": "2026-11-12T15:33:00+08:00"
           }
         }
       ],
@@ -59355,6 +59389,40 @@
         "revision_increment": 1,
         "scientifically_verified": false,
         "lease_expires_at": "2026-11-12T15:29:00+08:00"
+      }
+    },
+    {
+      "batch_id": "20261112T113500+0800",
+      "cycle": 6,
+      "stage": "VERIFIED",
+      "at": "2026-11-12T15:18:00+08:00",
+      "run_id": "20261112T145500+0800-cycle-6",
+      "species_id": 149,
+      "species": "Ninox odiosa",
+      "credited": false,
+      "evidence": {
+        "archive_commit": "876d61d4616741a1646bd67a4dd8e406b5ce9075",
+        "archive_tree": "81b4cac5e7f009b31b4ddc2c0a20cb37e39c931f",
+        "required_paths_verified": 24,
+        "exact_binary_paths_verified": 12,
+        "unique_binary_streams_tree_verified": 4,
+        "tree_entries": 4631,
+        "tree_truncated": false,
+        "manifest_counts": {
+          "concepts": 830,
+          "image": 799,
+          "design": 808
+        },
+        "manifest_json_valid": true,
+        "full_blob": "da432a0a0f2ab10ac9a0424fe1491235e68b70c6",
+        "full_size_bytes": 2929457,
+        "sha256_verified": true,
+        "remote_raw_image_opened": true,
+        "review_result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false,
+        "unique_species": "176/251",
+        "ledger_credit_pending": true,
+        "lease_expires_at": "2026-11-12T15:33:00+08:00"
       }
     }
   ],

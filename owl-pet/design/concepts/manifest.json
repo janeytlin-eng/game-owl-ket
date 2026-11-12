@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T15:14:00+08:00",
+  "updated": "2026-11-12T15:18:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -33226,7 +33226,7 @@
       "revision_increment": 1,
       "edit_count": 0,
       "imagegen_invocations": 1,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "NBBOO-GURNEY-1882-IBIS",
         "NBBOO-GOULD-SHARPE-1884-TEXT",
@@ -33284,12 +33284,42 @@
       ],
       "archive_note": "V1-v3 retained. Newly read 1882 primary specimen series supports only a ~2.7% female-longer wing direction in a three-bird sample. Full plate and three crops viewed; no edit required. Juvenile chronology remains unknown and is depicted conservatively. Fresh Mikkola upload unavailable.",
       "archived_at": "2026-11-12T15:14:00+08:00",
-      "archive_commit_pending": true,
-      "readback_pending": true,
-      "exact_readback": false,
+      "archive_commit_pending": false,
+      "readback_pending": false,
+      "exact_readback": true,
       "ledger_credited": false,
-      "updated_at": "2026-11-12T15:14:00+08:00"
+      "updated_at": "2026-11-12T15:18:00+08:00",
+      "archive_commit": "876d61d4616741a1646bd67a4dd8e406b5ce9075",
+      "archive_tree": "81b4cac5e7f009b31b4ddc2c0a20cb37e39c931f",
+      "verified_at": "2026-11-12T15:18:00+08:00",
+      "verification_result": "PASS_WITH_LIMITATIONS",
+      "required_paths_verified": 24,
+      "exact_binary_paths_verified": 12,
+      "unique_binary_streams_tree_verified": 4,
+      "readback": {
+        "status": "VERIFIED",
+        "archive_commit": "876d61d4616741a1646bd67a4dd8e406b5ce9075",
+        "tree_sha": "81b4cac5e7f009b31b4ddc2c0a20cb37e39c931f",
+        "tree_entries": 4631,
+        "tree_truncated": false,
+        "required_paths_verified": 24,
+        "exact_binary_paths_verified": 12,
+        "manifest_counts": {
+          "concepts": 830,
+          "image": 799,
+          "design": 808
+        },
+        "manifest_json_valid": true,
+        "manifest_exact_blob_readback": true,
+        "path_blob_readback": true,
+        "local_png_full_decode": true,
+        "remote_raw_image_opened": true,
+        "sha256_verified": true,
+        "unique_species": "176/251",
+        "scientifically_verified": false
+      },
+      "verification_commit_pending": true
     }
   ],
-  "updated_at": "2026-11-12T15:14:00+08:00"
+  "updated_at": "2026-11-12T15:18:00+08:00"
 }

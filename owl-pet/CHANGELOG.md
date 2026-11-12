@@ -1,3 +1,9 @@
+## 2026-11-12 — #158 *Phodilus badius* v4 archived
+
+- Preserved v1-v3; added Chasen 1936 p.216 and Finsch 1905 p.26 as verified juvenile-stage records.
+- Corrected the juvenile boundary to pale rufous-buff down dominance with half-grown quills, compact supported wing buds and concealed tail in an unlined rotten-tree cavity.
+- Generated one 1536×1024 plate, opened the full image and three crops, and required no edit. PASS_WITH_LIMITATIONS; science=false; immutable readback pending.
+
 ## 2026-11-12 — #157 *Scotopelia bouvieri* v4 archived
 
 - Preserved v1-v3; newly verified Sharpe 1875 pp.11–12/Plate I and reread Brosset & Erard 1986 p.63.

@@ -1,3 +1,7 @@
+### #158 *Phodilus badius* v4 ARCHIVED — readback pending
+
+Juvenile boundary corrected to Chasen 1936’s pale rufous-buff, down-dominant, half-grown-quill nestling; full plate and three crops opened; no edit. Manifests 839/808/817; unique coverage remains 176/251; revision +1; science=false. Immutable readback and ledger credit pending.
+
 ### #157 v4 LEDGER_CREDITED — active batch 2/6
 
 Verification `1c8236554580b60dae396ab9f4bf3842f66d2e50` / tree `374e31c87692e7f7a2ad98bb1ee6e1b2245a2398` credited once after archive `49fd35c87e302e8a66bc23882bc82441a3882465`. Next cycle 3; lease released; unique 176/251; revision +1; science=false.

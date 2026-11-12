@@ -52,3 +52,18 @@ Fresh research read Marcot 1995 pp.5–6, Oberholser 1924 p.302, three Cornell/M
 ### v3 archive transport note
 
 The first binary archive attempt was detected as truncated during Git-tree readback and was not accepted. The committed v3 concept is a reopened full-resolution 1536×1024 indexed-PNG archival derivative used to ensure a complete connector transfer; exact transport sizes/hashes and the failed attempt are recorded in the cycle run. This changes palette precision only, not the reviewed composition or scientific boundary.
+
+
+## v4 revision — 2026-11-12
+
+V4 preserves v1-v3 and replaces the generic age-unknown juvenile boundary with a directly documented museum stage. Chasen 1936, *Treubia* 16(2), printed p.216 describes a 15 June nestling mostly in pale rufous-buff down with quills half-grown. Finsch 1905, *Notes from the Leyden Museum* 26, printed p.26 describes an older barely fledged Nias bird that retained down in places but was already vividly coloured with a delicate salmon tint; that older bird is a comparator, not the v4 stage.
+
+The generated juvenile is therefore seated low inside a natural unlined rotten-tree cavity: down dominates, only short partly opened/half-grown quills appear on compact wing buds, and the tail is concealed. The adult pair remains near-equal because no quantitative sex-size direction was recovered. The full 1536×1024 plate and three 520×720 crops were opened; the v3 adult-like juvenile-wing error did not recur, so no edit was needed.
+
+Exact hatch age, sex, iris chronology, continuous feather sequence, first-flight threshold and quantitative dimorphism remain unknown; scientifically_verified: false.
+
+- Image: [158-phodilus-badius-v4.png](../../design/concepts/158-phodilus-badius-v4.png)
+- Research: [158-phodilus-badius-v4.md](../../research/species/158-phodilus-badius-v4.md)
+- Review: [158-phodilus-badius-v4-review.md](../../research/reviews/158-phodilus-badius-v4-review.md)
+- Git blob: `8c695087434b8a4172457963b9fac68bdececfa2`
+- SHA-256: `d0ca002f7f7bde4c735417cab1da1fb7202350ce5add9339fd939631abc6410e`

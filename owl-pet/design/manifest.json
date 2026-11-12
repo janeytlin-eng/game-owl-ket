@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T19:50:07+08:00",
+  "updated": "2026-11-12T20:00:20+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -32199,7 +32199,87 @@
       "ledger_credited_at": "2026-11-12T19:50:07+08:00",
       "batch_id": "20261112T183437+0800",
       "batch_cycle": 2
+    },
+    {
+      "id": "158-phodilus-badius-v4",
+      "species_id": 158,
+      "scientific_name": "Phodilus badius",
+      "historical_names": [
+        "Photodilus badius",
+        "Phodilus badius abbotti",
+        "Phodilus badius parvus"
+      ],
+      "common_name": "Oriental Bay Owl",
+      "version": 4,
+      "prior_versions_retained": [
+        1,
+        2,
+        3
+      ],
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "path": "design/concepts/158-phodilus-badius-v4.png",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "status": "V4 ties the juvenile to Chasen 1936 p.216: pale rufous-buff down dominant, half-grown quills, short compact wing buds, concealed tail and full support low in an unlined rotten-tree cavity. Finsch 1905 p.26 is retained only as an older barely fledged comparator. Adults have huge dark eyes, split vinaceous-buff V/U discs, chestnut eye zones, extremely short rounded plumicorn corners, pale horn bills, spotted russet/tawny upperparts and ochraceous shaft-marked underparts. Adults remain near-equal because no sex-size direction is quantified. Exact hatch age, sex, feather sequence, iris chronology and first-flight threshold remain unknown; science=false.",
+      "source_ids": [
+        "OBO-CHASEN-1936-TREUBIA-P216",
+        "OBO-FINSCH-1905-NLM-P26",
+        "OBO-USDA-MARCOT-1995-P5-6",
+        "OBO-OBERHOLSER-1924-P302",
+        "OBO-MACAULAY-ADULT-GRID-2026"
+      ],
+      "unverified_leads": [],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/158-phodilus-badius-v4.md",
+      "review_record": "research/reviews/158-phodilus-badius-v4-review.md",
+      "run_record": "production/runs/20261112T195055+0800-cycle-3.md",
+      "reviewed_at": "2026-11-12T19:56:30+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 3257824,
+      "sha256": "d0ca002f7f7bde4c735417cab1da1fb7202350ce5add9339fd939631abc6410e",
+      "git_blob": "8c695087434b8a4172457963b9fac68bdececfa2",
+      "initial_original_path": "production/generated/158-phodilus-badius-v4-initial-original.png",
+      "initial_original_blob": "8c695087434b8a4172457963b9fac68bdececfa2",
+      "initial_original_size_bytes": 3257824,
+      "final_original_path": "production/generated/158-phodilus-badius-v4-final-original.png",
+      "final_original_blob": "8c695087434b8a4172457963b9fac68bdececfa2",
+      "final_original_size_bytes": 3257824,
+      "full_color_source_path": "production/generated/158-phodilus-badius-v4-full-color.png",
+      "full_color_source_blob": "8c695087434b8a4172457963b9fac68bdececfa2",
+      "full_color_source_size_bytes": 3257824,
+      "reviewed_path": "production/reviewed/158-phodilus-badius-v4-reviewed-master.png",
+      "reviewed_blob": "8c695087434b8a4172457963b9fac68bdececfa2",
+      "reviewed_size_bytes": 3257824,
+      "review_crops": [
+        {
+          "path": "production/review-crops/158-phodilus-badius-v4-adult-male.png",
+          "blob": "cb78df2a337702c921c79e68d6af060485363dfd",
+          "size_bytes": 709599,
+          "sha256": "b000fa0a843ba45aa644e93a9291353aaeb707e4479797b205ba55754e66e56f"
+        },
+        {
+          "path": "production/review-crops/158-phodilus-badius-v4-down-half-quill-juvenile.png",
+          "blob": "1000f9e347224b819855ea2929589d05e2e42f85",
+          "size_bytes": 758454,
+          "sha256": "93585d48db39447702e86fea1f2eeb84c2191023edf4e8b36432dcc13377d7a4"
+        },
+        {
+          "path": "production/review-crops/158-phodilus-badius-v4-adult-female.png",
+          "blob": "5697fb71c80bea069273b2cd406eef6702d95323",
+          "size_bytes": 673169,
+          "sha256": "396026b19ca15ed484045055f4399dacf93544ec2d6ed7c439879ce6b2bc2250"
+        }
+      ],
+      "archive_note": "V1-v3 retained. Fresh research read Chasen 1936 p.216 and Finsch 1905 p.26, selecting the earlier documented down/half-grown-quill stage and keeping the older barely fledged stage only as a comparator. Full plate and three role crops opened; no edit required. Uploaded Mikkola guide was not mounted in this cycle; no fresh page claim. PASS_WITH_LIMITATIONS; science=false.",
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false,
+      "ledger_credited": false
     }
   ],
-  "updated_at": "2026-11-12T19:50:07+08:00"
+  "updated_at": "2026-11-12T20:00:20+08:00"
 }

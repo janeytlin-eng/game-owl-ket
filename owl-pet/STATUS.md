@@ -4362,3 +4362,7 @@ Archive [`46cb2125`](https://github.com/janeytlin-eng/game-owl-ket/commit/46cb21
 
 Verification [`8e35d2dc`](https://github.com/janeytlin-eng/game-owl-ket/commit/8e35d2dcc282cb2ff3ad3404bbebeb020d578dd6) was read back after archive [`46cb2125`](https://github.com/janeytlin-eng/game-owl-ket/commit/46cb212584ca721969c7692a03ae8ffb991617f9). Cycle 3 credited once; lease released; next cycle 4. Unique coverage remains 176/251; revision +1; science=false.
 
+## 2026-11-13 — #177 *Otus hartlaubi* v4 ARCHIVED; verification pending
+
+V4 preserves v1-v3. De Naurois (1975) pp.323, 326–329 was directly read and indexed: the selected grey-brown young is still downy, non-flying and has short half-grown remiges; the nest remained unknown. Adults stay near-equal in body scale with only subtle female folded-wing direction. One image edit corrected adult-like juvenile flight feathers and male-large reading. Nine PNG paths and four current manifests are staged. `PASS_WITH_LIMITATIONS`; science=false; immutable readback and ledger credit pending.
+

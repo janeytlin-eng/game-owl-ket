@@ -48296,16 +48296,16 @@
       "next_cycle": 2,
       "active_cycle": 2,
       "started_at": "2026-11-12T23:41:06+08:00",
-      "updated_at": "2026-11-13T00:16:23+08:00",
-      "current_stage": "REVIEWED",
-      "stage": "REVIEWED",
+      "updated_at": "2026-11-13T00:18:57+08:00",
+      "current_stage": "ARCHIVED",
+      "stage": "ARCHIVED",
       "completed_count": 1,
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex-work-mode",
         "run_id": "20261113T001020+0800-cycle-2",
-        "heartbeat_at": "2026-11-13T00:16:23+08:00",
-        "expires_at": "2026-11-13T00:31:23+08:00"
+        "heartbeat_at": "2026-11-13T00:18:57+08:00",
+        "expires_at": "2026-11-13T00:33:57+08:00"
       },
       "active": {
         "cycle": 2,
@@ -48314,7 +48314,7 @@
         "species": "Ketupa shelleyi",
         "version": 4,
         "action": "SCIENCE_REVISION",
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "run_record": "owl-pet/production/runs/20261113T001020+0800-cycle-2.md"
       },
       "stage_events": [
@@ -48599,6 +48599,37 @@
             "inspection": "full 1536x1024 plate and three 512x760 role crops opened; title/count/labels, adult dark identity, posterior-crown patch location, near-equal scale, compact soft mesoptile wing, short mostly hidden tail, six-foot support and no-nest boundary pass",
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-13T00:31:23+08:00"
+          }
+        },
+        {
+          "batch_id": "20261112T234106+0800",
+          "cycle": 2,
+          "stage": "ARCHIVED",
+          "at": "2026-11-13T00:18:57+08:00",
+          "run_id": "20261113T001020+0800-cycle-2",
+          "species_id": 169,
+          "species": "Ketupa shelleyi",
+          "credited": false,
+          "evidence": {
+            "archive_commit_pending": true,
+            "concept_path": "owl-pet/design/concepts/169-ketupa-shelleyi-v4.png",
+            "initial_original": "owl-pet/production/generated/169-ketupa-shelleyi-v4-initial-original.png",
+            "final_original": "owl-pet/production/generated/169-ketupa-shelleyi-v4-final-original.png",
+            "full_color": "owl-pet/production/generated/169-ketupa-shelleyi-v4-full-color.png",
+            "reviewed_master": "owl-pet/production/reviewed/169-ketupa-shelleyi-v4-reviewed-master.png",
+            "research_record": "owl-pet/research/species/169-ketupa-shelleyi-v4.md",
+            "review_record": "owl-pet/research/reviews/169-ketupa-shelleyi-v4-review.md",
+            "source_index": "owl-pet/research/SOURCE_INDEX.md",
+            "manifests": [
+              "owl-pet/design/concepts/manifest.json",
+              "owl-pet/design/image-manifest.json",
+              "owl-pet/design/manifest.json",
+              "owl-pet/production/image-manifest.json"
+            ],
+            "binary_blob": "9fc2cc039d5097733a5d35d6196d4da198e68112",
+            "binary_bytes": 2790034,
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-13T00:33:57+08:00"
           }
         }
       ]

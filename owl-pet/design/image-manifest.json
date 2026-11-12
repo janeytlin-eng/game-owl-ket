@@ -32447,6 +32447,87 @@
       "verification_commit": "e2e294b83867b1243fffde8e97002d903b41f9a5",
       "verification_tree": "8f306201e13bde0377cb09315b01c5a9f8d55128",
       "ledger_credited_at": "2026-11-13T00:02:09+08:00"
+    },
+    {
+      "id": "169-ketupa-shelleyi-v4",
+      "species_id": 169,
+      "scientific_name": "Ketupa shelleyi",
+      "historical_names": [
+        "Bubo shelleyi",
+        "Huhua shelleyi"
+      ],
+      "common_name": "Shelley’s Eagle-Owl",
+      "version": 4,
+      "prior_versions_retained": [
+        1,
+        2,
+        3
+      ],
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "path": "design/concepts/169-ketupa-shelleyi-v4.png",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "status": "V4 preserves v1-v3, adds a small evidence-bound posterior-crown white patch without white-shoulder leakage, and corrects the age-unknown mesoptile to a compact soft formed wing, short mostly hidden tail and two-foot-supported low crouch. Exact age/flight/nest/sex-size remain unknown; science=false.",
+      "source_ids": [
+        "SHEO-BOUET-1961-P619",
+        "SHEO-TOBIAS-WILLIAMS-2022-P73-79",
+        "SHEO-KIRSCHEL-ETAL-2022-P221-222",
+        "SHEO-MIKKOLA-2013-P288",
+        "SHEO-ITIS-1244711-2026"
+      ],
+      "unverified_leads": [],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/169-ketupa-shelleyi-v4.md",
+      "review_record": "research/reviews/169-ketupa-shelleyi-v4-review.md",
+      "run_record": "production/runs/20261113T001020+0800-cycle-2.md",
+      "reviewed_at": "2026-11-13T00:16:23+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 2790034,
+      "sha256": "5ba84b2fc0198928ef12db3c8681a0051019862525f6bfba72ed6513a4359d13",
+      "git_blob": "9fc2cc039d5097733a5d35d6196d4da198e68112",
+      "initial_original_path": "production/generated/169-ketupa-shelleyi-v4-initial-original.png",
+      "initial_original_blob": "9fc2cc039d5097733a5d35d6196d4da198e68112",
+      "initial_original_size_bytes": 2790034,
+      "final_original_path": "production/generated/169-ketupa-shelleyi-v4-final-original.png",
+      "final_original_blob": "9fc2cc039d5097733a5d35d6196d4da198e68112",
+      "final_original_size_bytes": 2790034,
+      "full_color_source_path": "production/generated/169-ketupa-shelleyi-v4-full-color.png",
+      "full_color_source_blob": "9fc2cc039d5097733a5d35d6196d4da198e68112",
+      "full_color_source_size_bytes": 2790034,
+      "reviewed_path": "production/reviewed/169-ketupa-shelleyi-v4-reviewed-master.png",
+      "reviewed_blob": "9fc2cc039d5097733a5d35d6196d4da198e68112",
+      "reviewed_size_bytes": 2790034,
+      "review_crops": [
+        {
+          "path": "production/review-crops/169-ketupa-shelleyi-v4-adult-male.png",
+          "blob": "26db58ff5b6259a4899fdda38ccdc3ac4baac9f5",
+          "size_bytes": 688136,
+          "sha256": "d3e39fce004efdf2db70f4bb65bca3c7c6ecc798fafc4f99ecf31565a9149b6d"
+        },
+        {
+          "path": "production/review-crops/169-ketupa-shelleyi-v4-mesoptile.png",
+          "blob": "b626cd5bd17b73935f21f0093e4ea5cd9b28cf9a",
+          "size_bytes": 630599,
+          "sha256": "54363e283acb2d1c59aaba4751f2496a74c3810ea88c4b68836b30c987f50747"
+        },
+        {
+          "path": "production/review-crops/169-ketupa-shelleyi-v4-adult-female.png",
+          "blob": "0891f7f7c965c024aa10b82a451e5ecf6a08a685",
+          "size_bytes": 674191,
+          "sha256": "2d9505e99d7a7ec4a6348b6bbcdbb732bfe47b84e9a78afd04b53f4de9c2298c"
+        }
+      ],
+      "archive_note": "V1-v3 preserved. New verified source Bouet 1961 p.619; four sources reread/reused. Full plate and three crops opened; edit0. Mikkola upload not mounted. PASS_WITH_LIMITATIONS; science=false.",
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false,
+      "ledger_credited": false,
+      "batch_id": "20261112T234106+0800",
+      "batch_cycle": 2
     }
   ],
   "updated_at": "2026-11-13T00:02:09+08:00"

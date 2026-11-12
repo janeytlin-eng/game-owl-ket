@@ -5165,3 +5165,20 @@ Reused/re-read without duplicate IDs for #130 v5: `KOEP-ITIS-686665-2026`, repos
 - Adults remain near-equal; quantified sex dimorphism is unknown. Juvenile chronology, iris timing, nest interior and flight threshold remain unknown.
 - V4 uses an explicit age-unknown down-rich older-young inference with short down-veiled wings, hidden tail and continuous support; no flight claim.
 - The user-uploaded Mikkola guide was not mounted; no fresh page claim. Scientific verification remains false.
+
+
+## 2026-11-12 — #161 *Ketupa blakistoni* v4 — breeding evidence and current insular scope refresh
+
+### BLF-IOC-HAYASHI-2010-BREEDING-ABSTRACT
+- **Title/author/year:** “Breeding biology of the endangered Blakiston’s fish owl (*Ketupa blakistoni*) in Japan” — Yuko Hayashi; 25th International Ornithological Congress abstracts; 2010.
+- **URL / actually read:** https://ararajuba.org.br/wp-content/uploads/2019/11/Resumos-IOC-2010.pdf ; congress abstract located/read through the indexed PDF; accessed 2026-11-12.
+- **Source type / stage:** primary long-term field study abstract based on marked individuals and continuous family observation in Hokkaido, 1987–2007.
+- **Facts:** breeding attempts occurred annually; clutch size one or two; females alone incubated 33–38 days; 15 of 16 nestlings fledged at 48–60 days. The study does not say each 50-day nestling could already fly.
+- **Design use:** reinforces the documented late-nestling window and female brooding role. Keep the ~50-day bird low at a cavity threshold with support and no flight claim.
+- **Limits/confidence:** high for reported summary statistics, but abstract-only and no continuous feather-tract description or individual flight test.
+
+### Reuse and corrections
+- Re-read BLF-BIRDRESEARCH-HAYASHI-2010-P1-4: 35–38-day incubation, usual 48–60-day fledging, Photo 2 approximately 50 days, large broadleaf cavities, riverine forest and ice-free water.
+- Re-read BLF-CLEMENTS-2026-SPLIT: current *K. blakistoni* is monotypic Hokkaido/insular; continental *K. doerriesi* is separate. Exclude continental white-nape/near-white-tail traits.
+- Reused BLF-MOVIN-2022 only for split support. Adult sex plumage is similar; mass ranges overlap, so female is subtly fuller, not mechanically larger.
+- Mikkola upload was not mounted; no fresh page claim. Scientific verification remains false.

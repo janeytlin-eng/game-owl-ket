@@ -3397,3 +3397,9 @@ Verification follow-up for #201 v3: immutable archive commit `4e0525c59b76a14aeb
 
 - [Concept](concepts/102-strix-nigrolineata-v5.png) · [Research](../research/species/102-strix-nigrolineata-v5.md) · [Review](../research/reviews/102-strix-nigrolineata-v5-review.md) · [Run](../production/runs/20261108T054352+0800-cycle-2.md)
 - V5 preserves v1–v4. One measured Tikal pair supports female fullness and a subtly longer tail but not a fixed standing-height ratio. One juvenile-wing edit removed long adult-like remiges; full plate and three crops passed with limitations. Exact juvenile chronology and population-wide dimorphism remain unknown; science=false; immutable readback pending.
+
+
+## #162 Baja Pygmy Owl — *Glaucidium hoskinsii* — v3
+
+- [Concept](concepts/162-glaucidium-hoskinsii-v3.png) · [Research](../research/species/162-glaucidium-hoskinsii-v3.md) · [Review](../research/reviews/162-glaucidium-hoskinsii-v3-review.md) · [Run](../production/runs/20261112T213600+0800-cycle-1.md)
+- V3 preserves v1-v2, shows paired nape false-eye patches, keeps adults near-equal, and uses a cavity-supported near-fledged chick from the 2025 first-nest report. One edit removed an adult-like spotted juvenile wing. `PASS_WITH_LIMITATIONS`; science=false; unique remains 176/251; immutable readback pending.

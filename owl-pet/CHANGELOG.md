@@ -1,3 +1,9 @@
+## 2026-11-12 — #162 Baja Pygmy Owl v3 archived, verification pending
+
+- Added a science-revision concept plate for *Glaucidium hoskinsii* while preserving v1-v2 and not counting the duplicate #162 *Aegolius acadicus* collision.
+- Read/indexed Flores & Marrón 2025 pp.228–230/Fig.1, Brewster 1888 p.136, an adult synthesis and current/old-name mapping.
+- Applied one juvenile-wing correction and reopened the full plate plus three crops. PASS_WITH_LIMITATIONS; science=false; unique 176/251.
+
 ## 2026-11-12 — #158 *Phodilus badius* v4 archived
 
 - Preserved v1-v3; added Chasen 1936 p.216 and Finsch 1905 p.26 as verified juvenile-stage records.

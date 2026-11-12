@@ -1,3 +1,11 @@
+## 2026-11-12 — #162 *Glaucidium hoskinsii* v3 ARCHIVED — immutable readback pending
+
+V3 preserves v1-v2 and skips the duplicate historical #162 *Aegolius acadicus* numbering collision. The 2025 first-nest paper (pp.228–230/Fig.1) and Brewster's 1888 original male description (p.136) were read. Adults remain near-equal; a turned female exposes the diagnostic nape false-eye patches. One targeted edit replaced the chick's long adult-spotted wing with a short rounded down-veiled wing while retaining dark uncertain irises, hidden tail and complete cavity support. Full plate plus three crops opened. `PASS_WITH_LIMITATIONS`; science=false; unique coverage remains 176/251; archive readback and ledger credit pending.
+
+- Concept: `design/concepts/162-glaucidium-hoskinsii-v3.png`
+- Research/review: `research/species/162-glaucidium-hoskinsii-v3.md`, `research/reviews/162-glaucidium-hoskinsii-v3-review.md`
+- Run: `production/runs/20261112T213600+0800-cycle-1.md`
+
 ## 2026-11-12 — #154 v3 VERIFIED — active batch 4/6
 
 Archive commit `64920d13503a22ad01c106a6958636dce3443ea2` and tree `3c85dcdff0063d75cd865cd443171779362c5b15` passed immutable readback: 21/21 required paths, 9/9 exact PNG blob+size checks, three manifests 835/804/813 with one #154 v3 entry each. Ledger credit remains pending; result PASS_WITH_LIMITATIONS, scientifically_verified=false.

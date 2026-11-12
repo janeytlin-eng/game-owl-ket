@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T11:00:00+08:00",
+  "updated": "2026-11-12T11:27:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -32479,7 +32479,71 @@
         "unique_species": "176/251",
         "scientifically_verified": false
       }
+    },
+    {
+      "id": "142-asio-grammicus-v4",
+      "path": "design/concepts/142-asio-grammicus-v4.png",
+      "species_id": 142,
+      "scientific_name": "Asio grammicus",
+      "historical_names": [
+        "Pseudoscops grammicus",
+        "Ephialtes grammicus"
+      ],
+      "common_name": "Jamaican Owl",
+      "scope": "Jamaica; near-equal warm umber adults and an age-unknown supported older down-remnant juvenile with one compact partly formed folded wing; #154 is a historical old-genus duplicate",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [1, 2, 3],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 0,
+      "status": "ARCHIVED_READBACK_PENDING",
+      "source_ids": [
+        "JAM-GOSSE-1847-P19-23",
+        "JAM-GOSSE-1849-PLATE-IV",
+        "JAM-PEREGRINE-FUND-2026",
+        "JAM-MIKKOLA-2013-P500-501",
+        "JAM-HOYER-BIRDSEYE",
+        "JAM-ITIS-1244691-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/142-asio-grammicus-v4.md",
+      "review_record": "research/reviews/142-asio-grammicus-v4-review.md",
+      "run_record": "production/runs/20261112T110500+0800-cycle-6.md",
+      "dimensions": {"width": 1536, "height": 1024},
+      "size_bytes": 2922240,
+      "sha256": "b6b3e767565a21bf68b58e0c62f10b55a67b354e9045410722804c4fdc9440f4",
+      "git_blob": "ec674a4f0e6d99844291444ec95b1fa0edd79e17",
+      "initial_original_path": "production/generated/142-asio-grammicus-v4-initial-original.png",
+      "initial_original_blob": "ec674a4f0e6d99844291444ec95b1fa0edd79e17",
+      "initial_original_size_bytes": 2922240,
+      "initial_original_sha256": "b6b3e767565a21bf68b58e0c62f10b55a67b354e9045410722804c4fdc9440f4",
+      "final_original_path": "production/generated/142-asio-grammicus-v4-final-original.png",
+      "final_original_blob": "ec674a4f0e6d99844291444ec95b1fa0edd79e17",
+      "final_original_size_bytes": 2922240,
+      "final_original_sha256": "b6b3e767565a21bf68b58e0c62f10b55a67b354e9045410722804c4fdc9440f4",
+      "generated_path": "production/generated/142-asio-grammicus-v4-generated-master.png",
+      "generated_blob": "ec674a4f0e6d99844291444ec95b1fa0edd79e17",
+      "generated_size_bytes": 2922240,
+      "full_color_source_path": "production/generated/142-asio-grammicus-v4-full-color.png",
+      "full_color_source_blob": "ec674a4f0e6d99844291444ec95b1fa0edd79e17",
+      "full_color_source_size_bytes": 2922240,
+      "reviewed_path": "production/reviewed/142-asio-grammicus-v4-reviewed-master.png",
+      "reviewed_blob": "ec674a4f0e6d99844291444ec95b1fa0edd79e17",
+      "reviewed_size_bytes": 2922240,
+      "review_crops": [
+        {"path": "production/review-crops/142-asio-grammicus-v4-adult-male.png", "blob": "e4cb39ec3f0c440ccc44f6fd89de4d0ac051033b", "size_bytes": 740105, "sha256": "0634329e0dcd129931d8208bdcc1bcf962b966c1c558e8e486b154f9a9deda30"},
+        {"path": "production/review-crops/142-asio-grammicus-v4-older-juvenile.png", "blob": "afde4be18459d699fa279c5b9cd47b72c4cbef35", "size_bytes": 786138, "sha256": "a9dc8266afb3cd9a38046f995d4bcbea1b1a30655a3582e1cb72391b08733fef"},
+        {"path": "production/review-crops/142-asio-grammicus-v4-adult-female.png", "blob": "507fd34db1587cf0636739fdaf149aa1a61e74be", "size_bytes": 775384, "sha256": "2e6a51a6c773e9ed10e950e0980f4a1c10ef62219b48a2d251e1f2d1297d537e"}
+      ],
+      "archive_note": "V1-v3 retained. Gosse's two individual downy-immature observations correct the v3 almost-wingless ball without establishing a universal flight threshold. Full plate and all three role crops were opened; one compact down-veiled formed juvenile wing, near-equal adults and all supports pass. New verified/indexed sources 3; reread 3; unverified lead 1. Science false.",
+      "archived_at": "2026-11-12T11:27:00+08:00",
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false
     }
   ],
-  "updated_at": "2026-11-12T11:00:00+08:00"
+  "updated_at": "2026-11-12T11:27:00+08:00"
 }

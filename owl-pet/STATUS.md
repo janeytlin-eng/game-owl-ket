@@ -4164,3 +4164,14 @@ Archive [`4cc24b93252ea9713d4cfd7f3b11db9d055404d4`](https://github.com/janeytli
 
 Verification [`2cb322e3c31f434271713f64b9bb54cc5d066131`](https://github.com/janeytlin-eng/game-owl-ket/commit/2cb322e3c31f434271713f64b9bb54cc5d066131) was read back after archive [`4cc24b93252ea9713d4cfd7f3b11db9d055404d4`](https://github.com/janeytlin-eng/game-owl-ket/commit/4cc24b93252ea9713d4cfd7f3b11db9d055404d4). Cycle 5 is credited exactly once; batch `20261112T074300+0800` is now 5/6 and `next_cycle=6`. Unique coverage remains 176/251; this is revision +1, science=false; lease released.
 
+## 2026-11-12 — #142 Jamaican Owl — *Asio grammicus* v4 ARCHIVED, readback pending
+
+V4科学修订保留v1–v3，且不把#154旧属名重复项另计物种。Gosse 1847印刷页19–23的两只绒羽幼鸟个体记录纠正了v3近乎无翼的均匀绒球：新图恢复一枚短、软、被绒羽遮叠的已形成折翼，但保持双足与腹部树杈支撑，不宣称飞行、精确日龄或独立。成年雌雄近等尺度，深褐虹膜、淡蓝灰喙、暖棕暗纹和羽覆跗跖按证据边界呈现。整图与三个角色裁切均已实际打开，无需编辑；结果 `PASS_WITH_LIMITATIONS`，science=false。
+
+- Concept: `design/concepts/142-asio-grammicus-v4.png`
+- Initial/final originals: `production/generated/142-asio-grammicus-v4-initial-original.png`, `production/generated/142-asio-grammicus-v4-final-original.png`
+- Research/review: `research/species/142-asio-grammicus-v4.md`, `research/reviews/142-asio-grammicus-v4-review.md`
+- Run: `production/runs/20261112T110500+0800-cycle-6.md`
+- Sources: new verified/indexed 3; reread/reused 3; unverified/excluded lead 1.
+- Unique coverage remains 176/251; revision +1; immutable readback pending.
+

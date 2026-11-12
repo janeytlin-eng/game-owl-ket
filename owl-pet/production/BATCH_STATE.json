@@ -43932,14 +43932,14 @@
       "next_cycle": 2,
       "active_cycle": 2,
       "started_at": "2026-11-12T11:35:00+08:00",
-      "updated_at": "2026-11-12T12:46:00+08:00",
-      "current_stage": "IMAGE_GENERATED",
+      "updated_at": "2026-11-12T12:51:00+08:00",
+      "current_stage": "REVIEWED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex",
         "run_id": "20261112T115800+0800-cycle-2",
-        "heartbeat_at": "2026-11-12T12:46:00+08:00",
-        "expires_at": "2026-11-12T13:01:00+08:00"
+        "heartbeat_at": "2026-11-12T12:51:00+08:00",
+        "expires_at": "2026-11-12T13:06:00+08:00"
       },
       "active": {
         "cycle": 2,
@@ -43949,7 +43949,7 @@
         "action": "SCIENCE_REVISION",
         "run_record": "owl-pet/production/runs/20261112T115800+0800-cycle-2.md"
       },
-      "stage": "IMAGE_GENERATED",
+      "stage": "REVIEWED",
       "completed_count": 1,
       "stage_events": [
         {
@@ -44244,13 +44244,55 @@
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-12T13:01:00+08:00"
           }
+        },
+        {
+          "batch_id": "20261112T113500+0800",
+          "cycle": 2,
+          "stage": "REVIEWED",
+          "at": "2026-11-12T12:51:00+08:00",
+          "run_id": "20261112T115800+0800-cycle-2",
+          "species_id": 145,
+          "species": "Ninox philippensis",
+          "credited": false,
+          "evidence": {
+            "review": "owl-pet/research/reviews/145-ninox-philippensis-v4-review.md",
+            "result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false,
+            "views_opened": [
+              "full plate",
+              "adult-male crop",
+              "young-age-unknown crop",
+              "adult-female crop",
+              "three-crop contact sheet"
+            ],
+            "edit_count": 0,
+            "final_blob": "0415f1b80cdcddbcd26feeb5ed48d909b75cb8d3",
+            "crops": {
+              "adult-male": {
+                "blob": "58a608e13b46ac66381756252dcb8c30940d3dfc",
+                "size": 781645,
+                "sha256": "5c1731e6062f8fb1ca18f6962a4546aad8a73e00a848ac9075ef2be08525438e"
+              },
+              "young-age-unknown": {
+                "blob": "33657089ea237f1a8687ac96cff9a00d46b44c2f",
+                "size": 691720,
+                "sha256": "d6955bd7b205e87878626a95a3c2fe796b68d89133a3859ae85c337efb3b074d"
+              },
+              "adult-female": {
+                "blob": "7418bb6699a2d70d460d98f58493bdd2d31b31b2",
+                "size": 723373,
+                "sha256": "a644e8374b28c23c2c39d3e211f5dec05d345ab22e0b7e6f56702bc0e9afe961"
+              }
+            },
+            "lease_expires_at": "2026-11-12T13:06:00+08:00"
+          }
         }
       ],
       "active_lease": {
         "owner": "codex",
         "run_id": "20261112T115800+0800-cycle-2",
-        "heartbeat_at": "2026-11-12T12:46:00+08:00",
-        "expires_at": "2026-11-12T13:01:00+08:00"
+        "heartbeat_at": "2026-11-12T12:51:00+08:00",
+        "expires_at": "2026-11-12T13:06:00+08:00"
       }
     }
   ],
@@ -44405,8 +44447,8 @@
   "active_lease": {
     "owner": "codex",
     "run_id": "20261112T115800+0800-cycle-2",
-    "heartbeat_at": "2026-11-12T12:46:00+08:00",
-    "expires_at": "2026-11-12T13:01:00+08:00"
+    "heartbeat_at": "2026-11-12T12:51:00+08:00",
+    "expires_at": "2026-11-12T13:06:00+08:00"
   },
   "last_updated_at": "2026-11-12T12:33:00+08:00",
   "audit_notes": [
@@ -57959,6 +58001,48 @@
         "dimensions": "1536x1024",
         "scientifically_verified": false,
         "lease_expires_at": "2026-11-12T13:01:00+08:00"
+      }
+    },
+    {
+      "batch_id": "20261112T113500+0800",
+      "cycle": 2,
+      "stage": "REVIEWED",
+      "at": "2026-11-12T12:51:00+08:00",
+      "run_id": "20261112T115800+0800-cycle-2",
+      "species_id": 145,
+      "species": "Ninox philippensis",
+      "credited": false,
+      "evidence": {
+        "review": "owl-pet/research/reviews/145-ninox-philippensis-v4-review.md",
+        "result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false,
+        "views_opened": [
+          "full plate",
+          "adult-male crop",
+          "young-age-unknown crop",
+          "adult-female crop",
+          "three-crop contact sheet"
+        ],
+        "edit_count": 0,
+        "final_blob": "0415f1b80cdcddbcd26feeb5ed48d909b75cb8d3",
+        "crops": {
+          "adult-male": {
+            "blob": "58a608e13b46ac66381756252dcb8c30940d3dfc",
+            "size": 781645,
+            "sha256": "5c1731e6062f8fb1ca18f6962a4546aad8a73e00a848ac9075ef2be08525438e"
+          },
+          "young-age-unknown": {
+            "blob": "33657089ea237f1a8687ac96cff9a00d46b44c2f",
+            "size": 691720,
+            "sha256": "d6955bd7b205e87878626a95a3c2fe796b68d89133a3859ae85c337efb3b074d"
+          },
+          "adult-female": {
+            "blob": "7418bb6699a2d70d460d98f58493bdd2d31b31b2",
+            "size": 723373,
+            "sha256": "a644e8374b28c23c2c39d3e211f5dec05d345ab22e0b7e6f56702bc0e9afe961"
+          }
+        },
+        "lease_expires_at": "2026-11-12T13:06:00+08:00"
       }
     }
   ],

@@ -44017,7 +44017,7 @@
       "next_cycle": null,
       "active_cycle": null,
       "started_at": "2026-11-12T11:35:00+08:00",
-      "updated_at": "2026-11-12T15:20:00+08:00",
+      "updated_at": "2026-11-12T15:22:00+08:00",
       "current_stage": "LEDGER_CREDITED",
       "ledger_credit_pending": false,
       "lease": null,
@@ -45244,23 +45244,30 @@
             "batch_complete": true,
             "lease_released": true
           }
+        },
+        {
+          "batch_id": "20261112T113500+0800",
+          "cycle": 6,
+          "stage": "STALE_LEASE_CLEARED",
+          "at": "2026-11-12T15:22:00+08:00",
+          "run_id": "20261112T145500+0800-cycle-6",
+          "species_id": 149,
+          "species": "Ninox odiosa",
+          "credited": true,
+          "evidence": {
+            "cleared_batch_active_lease_run_id": "20261112T130900+0800-cycle-4",
+            "cleared_root_lease_run_id": "20261112T133200+0800-cycle-5",
+            "reason": "both leases were expired and their cycles are already remotely credited; complete batch must not present an active execution record",
+            "batch_status": "COMPLETE",
+            "completed_count": 6
+          }
         }
       ],
-      "active_lease": {
-        "owner": "codex",
-        "run_id": "20261112T130900+0800-cycle-4",
-        "heartbeat_at": "2026-11-12T13:09:00+08:00",
-        "expires_at": "2026-11-12T13:24:00+08:00"
-      },
+      "active_lease": null,
       "completed_at": "2026-11-12T15:20:00+08:00"
     }
   ],
-  "lease": {
-    "owner": "codex",
-    "run_id": "20261112T133200+0800-cycle-5",
-    "heartbeat_at": "2026-11-12T14:31:00+08:00",
-    "expires_at": "2026-11-12T14:46:00+08:00"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -59478,10 +59485,27 @@
         "batch_complete": true,
         "lease_released": true
       }
+    },
+    {
+      "batch_id": "20261112T113500+0800",
+      "cycle": 6,
+      "stage": "STALE_LEASE_CLEARED",
+      "at": "2026-11-12T15:22:00+08:00",
+      "run_id": "20261112T145500+0800-cycle-6",
+      "species_id": 149,
+      "species": "Ninox odiosa",
+      "credited": true,
+      "evidence": {
+        "cleared_batch_active_lease_run_id": "20261112T130900+0800-cycle-4",
+        "cleared_root_lease_run_id": "20261112T133200+0800-cycle-5",
+        "reason": "both leases were expired and their cycles are already remotely credited; complete batch must not present an active execution record",
+        "batch_status": "COMPLETE",
+        "completed_count": 6
+      }
     }
   ],
   "last_completed_batch_id": "20261112T074300+0800",
-  "active_batch": "20261112T113500+0800",
+  "active_batch": null,
   "events": [
     {
       "batch_id": "20261105T183434+0800",

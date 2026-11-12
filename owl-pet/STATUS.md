@@ -1,3 +1,7 @@
+## 2026-11-13 — #179 v4 LEDGER_CREDITED — batch 20261113T022000+0800 COMPLETE 6/6
+
+Verification [`acc4f6e82389d6840d6051514b240d1c290582a0`](https://github.com/janeytlin-eng/game-owl-ket/commit/acc4f6e82389d6840d6051514b240d1c290582a0) was read back after corrected archive [`1859d05918d1e3e83fff1ef9dba2a5a1672b3e58`](https://github.com/janeytlin-eng/game-owl-ket/commit/1859d05918d1e3e83fff1ef9dba2a5a1672b3e58). Cycle 6 credited once; lease released; this six-cycle batch is closed. Unique coverage remains 176/251 because #179 v4 is a revision; revision +1; PASS_WITH_LIMITATIONS; science=false. The earlier archive transport truncation is preserved in the run record and superseded by the corrected blobs.
+
 ## 2026-11-13 — #178 v4 LEDGER_CREDITED — active batch 5/6
 
 Verification [`b3608e7da72dd5bf2f70b702b36e03d5eacaa69a`](https://github.com/janeytlin-eng/game-owl-ket/commit/b3608e7da72dd5bf2f70b702b36e03d5eacaa69a) was read back after archive [`10d7dabdb8a32d29a241d7c1dfb0ef5dca49b049`](https://github.com/janeytlin-eng/game-owl-ket/commit/10d7dabdb8a32d29a241d7c1dfb0ef5dca49b049). Cycle 5 credited once; lease released; next cycle 6. Unique coverage remains 176/251; revision +1; PASS_WITH_LIMITATIONS; science=false.

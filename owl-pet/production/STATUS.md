@@ -1,3 +1,7 @@
+### #157 *Scotopelia bouvieri* v4 ARCHIVED — readback pending
+
+Primary adult-pattern correction, c.40-day nest boundary, full plate and three role crops are committed. Manifests 838/807/816; unique coverage remains 176/251; revision +1; science=false. Immutable readback and ledger credit pending.
+
 ## 2026-11-07 19:57 +08 — #197 Philippine Scops Owl — *Otus megalotis* v3 VERIFIED
 
 V3科学修订，保留v1/v2且不增加唯一物种。可见标题改用当前主名 Philippine Scops Owl，Luzon Lowland Scops Owl 作为历史/项目别名保留。Miranda 2011 的雌雄翼、尾均值有方向但范围重叠，因此成年雌雄保持近等站立高度，只以轻微折翼/尾轮廓提示，不使用固定雌大雄小倍率。首版幼鸟翼尾偏长偏硬，经一次定向编辑缩短并软化；修订原图、104色审查版和三张裁切均实际打开。结果 PASS_WITH_LIMITATIONS，science=false。

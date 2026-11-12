@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T19:37:08+08:00",
+  "updated": "2026-11-12T19:47:29+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -32108,7 +32108,84 @@
       "verification_commit": "eeffe59cfea7e01ca7038726c91b79719b0b8988",
       "verification_tree": "0a3f2e8f6e2c13960543c849cb0496cf924bb82e",
       "ledger_credited_at": "2026-11-12T19:37:08+08:00"
+    },
+    {
+      "id": "157-scotopelia-bouvieri-v4",
+      "species_id": 157,
+      "scientific_name": "Scotopelia bouvieri",
+      "historical_names": [
+        "Bubo bouvieri"
+      ],
+      "common_name": "Vermiculated Fishing Owl",
+      "version": 4,
+      "prior_versions_retained": [
+        1,
+        2,
+        3
+      ],
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "path": "design/concepts/157-scotopelia-bouvieri-v4.png",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "status": "V4 corrects adult pattern to the primary 1875 description: dull-tawny fine vermiculation over dusky-brown ground with separate black shaft-lines, a fulvous shoulder patch, broad longitudinal under-streaks, horn bills with yellow bases and bare yellow fishing feet. Adults remain near-equal because no sex-size direction is quantified. The centered c.40-day young is down-rich, compact-winged, tail-hidden and fully supported in a sparse open stick platform 2.5–3 m above a Gabon river. Exact feather sequence, iris/bare-part chronology, first-flight threshold, sex measurements and nest-reuse frequency remain unknown; science=false.",
+      "source_ids": [
+        "VFO-SHARPE-1875-CBM-P11-12",
+        "VFO-BROSSET-ERARD-1986-P63",
+        "VFO-NIKBORROW-2022-IMMATURE",
+        "VFO-ITIS-555424-2026"
+      ],
+      "unverified_leads": [],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/157-scotopelia-bouvieri-v4.md",
+      "review_record": "research/reviews/157-scotopelia-bouvieri-v4-review.md",
+      "run_record": "production/runs/20261112T193919+0800-cycle-2.md",
+      "reviewed_at": "2026-11-12T19:47:29+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 2831699,
+      "sha256": "92b16f398fba207ac6b7b305720b634438a987887cefa1335538a1a1eff5a5f3",
+      "git_blob": "f3939ce429180358e82c8867ee7986d7ee4357de",
+      "initial_original_path": "production/generated/157-scotopelia-bouvieri-v4-initial-original.png",
+      "initial_original_blob": "f3939ce429180358e82c8867ee7986d7ee4357de",
+      "initial_original_size_bytes": 2831699,
+      "final_original_path": "production/generated/157-scotopelia-bouvieri-v4-final-original.png",
+      "final_original_blob": "f3939ce429180358e82c8867ee7986d7ee4357de",
+      "final_original_size_bytes": 2831699,
+      "full_color_source_path": "production/generated/157-scotopelia-bouvieri-v4-full-color.png",
+      "full_color_source_blob": "f3939ce429180358e82c8867ee7986d7ee4357de",
+      "full_color_source_size_bytes": 2831699,
+      "reviewed_path": "production/reviewed/157-scotopelia-bouvieri-v4-reviewed-master.png",
+      "reviewed_blob": "f3939ce429180358e82c8867ee7986d7ee4357de",
+      "reviewed_size_bytes": 2831699,
+      "review_crops": [
+        {
+          "path": "production/review-crops/157-scotopelia-bouvieri-v4-adult-male.png",
+          "blob": "a884b88cdf152ad406a81dd1d9dfd5ff08275a17",
+          "size_bytes": 785879,
+          "sha256": "2b7f2befb1d95ab951a0501e3c1dd54df74697b08f99c6e13f5ccf6a8e0464f1"
+        },
+        {
+          "path": "production/review-crops/157-scotopelia-bouvieri-v4-c40-day-juvenile.png",
+          "blob": "b8ac7a07cf4f08ab15fc48a849898f5bc999189c",
+          "size_bytes": 770671,
+          "sha256": "e4bcee29562d57d9ec83d8757d2b4a08f07fcf164eaf31378e708a978866e2c2"
+        },
+        {
+          "path": "production/review-crops/157-scotopelia-bouvieri-v4-adult-female.png",
+          "blob": "d9e3b646c702c14ab399ece8eab73740090ffc49",
+          "size_bytes": 832193,
+          "sha256": "619e0588dfb2bb6b7f54bbb71e28c0cab3527263f9f17aa0c419724fdbe93434"
+        }
+      ],
+      "archive_note": "V1-v3 retained. Fresh external research read the 1875 primary type description and reread the 1986 Gabon breeding account plus an identified immature comparator. Full plate and three role crops opened; no edit required. Uploaded Mikkola guide was not mounted; no fresh page claim. PASS_WITH_LIMITATIONS; science=false.",
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false,
+      "ledger_credited": false
     }
   ],
-  "updated_at": "2026-11-12T18:30:00+08:00"
+  "updated_at": "2026-11-12T19:47:29+08:00"
 }

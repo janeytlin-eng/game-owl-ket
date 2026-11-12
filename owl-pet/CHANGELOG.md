@@ -1,3 +1,9 @@
+## 2026-11-12 — #157 *Scotopelia bouvieri* v4 archived
+
+- Preserved v1-v3; newly verified Sharpe 1875 pp.11–12/Plate I and reread Brosset & Erard 1986 p.63.
+- Corrected adult vermiculation/bill interpretation; retained near-equal adults and a down-rich fully supported c.40-day nest young in a sparse open river platform.
+- Generated one 1536×1024 plate, opened the full image and three crops, and required no edit. PASS_WITH_LIMITATIONS; science=false; immutable readback pending.
+
 ## 2026-11-12 — #154 *Asio grammicus* / legacy *Pseudoscops grammicus* v3 archived
 
 - Preserved v1-v2 and corrected display taxonomy to current *Asio grammicus* while retaining repository filenames.

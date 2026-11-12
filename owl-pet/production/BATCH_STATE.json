@@ -43947,14 +43947,26 @@
         }
       ],
       "next_cycle": 3,
-      "active_cycle": null,
+      "active_cycle": 3,
       "started_at": "2026-11-12T11:35:00+08:00",
-      "updated_at": "2026-11-12T12:50:00+08:00",
-      "current_stage": "LEDGER_CREDITED",
+      "updated_at": "2026-11-12T12:52:00+08:00",
+      "current_stage": "STARTED",
       "ledger_credit_pending": false,
-      "lease": null,
-      "active": null,
-      "stage": "LEDGER_CREDITED",
+      "lease": {
+        "owner": "codex",
+        "run_id": "20261112T125200+0800-cycle-3",
+        "heartbeat_at": "2026-11-12T12:52:00+08:00",
+        "expires_at": "2026-11-12T13:07:00+08:00"
+      },
+      "active": {
+        "cycle": 3,
+        "species_id": 146,
+        "species": "Ninox mindorensis",
+        "version": 4,
+        "action": "SCIENCE_REVISION",
+        "run_record": "owl-pet/production/runs/20261112T125200+0800-cycle-3.md"
+      },
+      "stage": "STARTED",
       "completed_count": 2,
       "stage_events": [
         {
@@ -44380,9 +44392,32 @@
             "next_cycle": 3,
             "lease_released": true
           }
+        },
+        {
+          "batch_id": "20261112T113500+0800",
+          "cycle": 3,
+          "stage": "STARTED",
+          "at": "2026-11-12T12:52:00+08:00",
+          "run_id": "20261112T125200+0800-cycle-3",
+          "species_id": 146,
+          "species": "Ninox mindorensis",
+          "credited": false,
+          "evidence": {
+            "run_record": "owl-pet/production/runs/20261112T125200+0800-cycle-3.md",
+            "baseline_main": "e20eb56d2509349a1c310a8a42555a31883b580c",
+            "prior_version": "owl-pet/design/concepts/146-ninox-mindorensis-v3.png",
+            "selection_note": "#145 v4 credited cycle2. #146 is the next numbered repository-backed target and currently ends at v3; preserve v1-v3 and re-check Mindoro identity, old-name mapping, adult sex evidence, defensible immature stage, support and Mindoro forest context.",
+            "lease_expires_at": "2026-11-12T13:07:00+08:00",
+            "scientifically_verified": false
+          }
         }
       ],
-      "active_lease": null
+      "active_lease": {
+        "owner": "codex",
+        "run_id": "20261112T125200+0800-cycle-3",
+        "heartbeat_at": "2026-11-12T12:52:00+08:00",
+        "expires_at": "2026-11-12T13:07:00+08:00"
+      }
     }
   ],
   "lease": {
@@ -44533,7 +44568,12 @@
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6.",
     "2026-10-30T18:12:00+08:00 ledger normalization: historical batch 2026-10-16T0430+0800 already COMPLETE with six preserved completed_cycles; stale next_cycle 7 changed to null. No cycle count or evidence changed."
   ],
-  "active_lease": null,
+  "active_lease": {
+    "owner": "codex",
+    "run_id": "20261112T125200+0800-cycle-3",
+    "heartbeat_at": "2026-11-12T12:52:00+08:00",
+    "expires_at": "2026-11-12T13:07:00+08:00"
+  },
   "last_updated_at": "2026-11-12T12:33:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
@@ -58216,6 +58256,24 @@
         "batch_progress": "2/6",
         "next_cycle": 3,
         "lease_released": true
+      }
+    },
+    {
+      "batch_id": "20261112T113500+0800",
+      "cycle": 3,
+      "stage": "STARTED",
+      "at": "2026-11-12T12:52:00+08:00",
+      "run_id": "20261112T125200+0800-cycle-3",
+      "species_id": 146,
+      "species": "Ninox mindorensis",
+      "credited": false,
+      "evidence": {
+        "run_record": "owl-pet/production/runs/20261112T125200+0800-cycle-3.md",
+        "baseline_main": "e20eb56d2509349a1c310a8a42555a31883b580c",
+        "prior_version": "owl-pet/design/concepts/146-ninox-mindorensis-v3.png",
+        "selection_note": "#145 v4 credited cycle2. #146 is the next numbered repository-backed target and currently ends at v3; preserve v1-v3 and re-check Mindoro identity, old-name mapping, adult sex evidence, defensible immature stage, support and Mindoro forest context.",
+        "lease_expires_at": "2026-11-12T13:07:00+08:00",
+        "scientifically_verified": false
       }
     }
   ],

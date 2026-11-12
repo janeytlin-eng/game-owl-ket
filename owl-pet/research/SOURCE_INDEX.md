@@ -5088,3 +5088,28 @@ Reused/re-read without duplicate IDs for #130 v5: `KOEP-ITIS-686665-2026`, repos
 - `VFO-NIKBORROW-2022-IMMATURE`: identified Gabon immature photograph metadata reopened; older-stage comparator only, exact age/sex/flight unknown.
 - `VFO-ITIS-555424-2026`: current taxonomy only.
 - **Index delta:** new verified 1; reused/reread 3; corrected inferences 3 (vermiculation colour, bill colour, nest/juvenile boundary). Uploaded Mikkola guide was not mounted; no fresh page claim. Scientific verification remains false.
+
+
+## 2026-11-12 — #158 *Phodilus badius* v4 — juvenile feather-stage correction
+
+### OBO-CHASEN-1936-TREUBIA-P216
+- **Title / author / year:** “The Birds of Billiton Island”; F. N. Chasen; 1936; *Treubia* 16(2).
+- **URL / page / accessed:** https://ejournal.brin.go.id/treubia/article/download/9797/7490/27834 ; printed p.216, PDF lines 305–311; accessed 2026-11-12.
+- **Source type / applies to:** museum-series account; *Phodilus badius* nestling and historical subspecies *P. b. parvus*.
+- **Facts:** a 15 June nestling was mostly in down, with quills half-grown; down was pale rufous-buff. The same page warns that the owl is variable and gives Billiton adult wing measurements under the proposed historical subspecies.
+- **Limits / decision:** isolated specimen with date but no hatch age, sex, posture, iris, tail or flight threshold. V4 uses the directly supported pale rufous-buff, down-dominant/half-grown-quill stage, with full cavity-rim support and no flight claim; measurements are not generalized to the species or sexes.
+- **Links:** research/species/158-phodilus-badius-v4.md; design/concepts/158-phodilus-badius-v4.png.
+
+### OBO-FINSCH-1905-NLM-P26
+- **Title / author / year:** “Vögel der Boenga- und Kajan-Flüsse”; O. Finsch; 1905; *Notes from the Leyden Museum* 26.
+- **URL / page / accessed:** https://repository.naturalis.nl/pub/508421/NLM1905026001001.pdf ; printed p.26, PDF lines 1066–1085; accessed 2026-11-12.
+- **Source type / applies to:** historical museum account; current *Phodilus badius*, then *Photodilus badius*; near-fledged Nias juvenile.
+- **Facts:** a 13 January barely fledged young retained down in places, was already as vividly coloured as adults and already showed a delicate salmon tint on facial veil and underparts; the account also maps historical *Photodilus*/*Phodilus* usage.
+- **Limits / decision:** single locality/specimen and translated historical wording; no exact age, sex, wing/tail sequence or independent flight proof. It is used only as an older-stage comparator. V4 deliberately depicts the better-constrained earlier Chasen nestling, not a generalized near-fledged bird.
+- **Links:** research/species/158-phodilus-badius-v4.md; design/concepts/158-phodilus-badius-v4.png.
+
+### Reused/reread records
+- `OBO-USDA-MARCOT-1995-P5-6`: natural unlined tree/rotten-stump hollow 2–5 m high, short wings, feathered legs; natural history little known.
+- `OBO-OBERHOLSER-1924-P302`: sex-unknown adult *abbotti* colour and measurement calibration only.
+- `OBO-MACAULAY-ADULT-GRID-2026`: living adult identity grid, no sex/age.
+- **Index delta:** new verified 2; reused/reread 3; corrected inference 1 (juvenile now tied to a documented down/quill stage). Uploaded Mikkola guide was not mounted for this cycle, so no fresh page claim is made. Scientific verification remains false.

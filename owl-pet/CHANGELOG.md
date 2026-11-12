@@ -1835,3 +1835,10 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 - 2026-11-12T20:31:18+08:00: #159 *Phodilus assimilis* v4 immutable readback passed archive `f39953608913c2c158438c2c5da21d20bd0fee7e` / tree `a70cca90cafa65a7065b7d4a935f16ed1ca46ec4`; 17 required paths, eight binary aliases/four streams and manifests 840/809/818 passed; ledger credit pending; science=false.
 
 - 2026-11-12T20:34:05+08:00: #159 *Phodilus assimilis* v4 LEDGER_CREDITED after verification `6c52484aa702a75636ba809d21e01bb5ff946602`; verified files restored on top of independent main `4526fb6cbba3f8591830c7e2323e14d9a0858fbe` without force; batch 4/6, next cycle 5; unique176/251; science=false.
+
+
+## 2026-11-12 — #160 *Tyto inexspectata* v4
+
+- Preserved v1-v3 and archived a live-adult-diagnostic revision.
+- Added Mauro & Drijvers 2000 and the Fletcher conflict record; excluded the misidentified juvenile and retained an explicit age-unknown supported juvenile inference.
+- Full plate and three role crops passed without edit. Unique176/251; science=false; readback pending.

@@ -19,3 +19,15 @@
 - Adult sexes stay near-equal because quantitative dimorphism evidence was not found. The centre bird remains an age-unknown older-young design inference because the published visible juvenile identification was questioned.
 - Actual juvenile crop exposed layered adult-like remiges. Edit 1 shortened and down-veiled both wings and concealed the tail; full plate plus juvenile and adult/support crops were reopened.
 - Result: `PASS_WITH_LIMITATIONS`, `scientifically_verified=false`. Exact juvenile age, feather sequence, iris chronology, flight onset, quantified sex-size direction and nest interior remain unknown.
+
+## v4 live-adult diagnostic revision — 2026-11-12
+
+- Mauro & Drijvers 2000 pp.180–181 supplies the direct compact living-adult diagnosis and explicitly rejects Fletcher’s claimed juvenile as *T. rosenbergii*.
+- Adults remain near-equal; dark rusty and paler grey-rust discs are individual variants, not sex-coded. Black eyes, yellowish bill, dark golden upperparts, whitish/buff sparsely spotted underparts, feathered tarsi and supported strong feet are applied.
+- The center bird is an age-unknown down-rich conservative inference with short down-veiled wings, hidden tail and continuous support. Exact juvenile chronology/flight, sex-size direction and nest interior remain unknown.
+- Full plate and three role crops opened; edit0; PASS_WITH_LIMITATIONS; scientifically_verified=false.
+- Image: [160-tyto-inexspectata-v4.png](../../design/concepts/160-tyto-inexspectata-v4.png)
+- Research: [160-tyto-inexspectata-v4.md](../../research/species/160-tyto-inexspectata-v4.md)
+- Review: [160-tyto-inexspectata-v4-review.md](../../research/reviews/160-tyto-inexspectata-v4-review.md)
+- Git blob: `d833693e1dffaa83afd9f588fbc3f9427627baf6`
+- SHA-256: `91157b2ba6578c38882c7839c9e9930d217ccf10d77972ba923e4e4ceb6fd8e1`

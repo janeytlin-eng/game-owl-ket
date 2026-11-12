@@ -4127,3 +4127,5 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` read back; cycle 1 credi
 - 2026-11-12T20:31:18+08:00: #159 v4 VERIFIED at archive `f39953608913c2c158438c2c5da21d20bd0fee7e` / tree `a70cca90cafa65a7065b7d4a935f16ed1ca46ec4`: non-truncated 4,757-entry tree, 17 paths, 8 image aliases across 4 exact streams and manifests 840/809/818 passed; ledger credit pending; science=false.
 
 - 2026-11-12T20:34:05+08:00: #159 *Phodilus assimilis* v4 LEDGER_CREDITED after verification `6c52484aa702a75636ba809d21e01bb5ff946602`; batch 4/6, next cycle 5, lease released; unique176/251; revision +1; science=false. Verified files were restored on top of independent main `4526fb6cbba3f8591830c7e2323e14d9a0858fbe` without force.
+
+- 2026-11-12T20:53:20+08:00: #160 *Tyto inexspectata* v4 ARCHIVED pending immutable readback. New2/reread3/corrected3; edit0; full plate and three crops passed; unique176/251; science=false.

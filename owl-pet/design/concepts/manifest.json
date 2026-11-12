@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T20:34:05+08:00",
+  "updated": "2026-11-12T20:53:20+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -34376,7 +34376,87 @@
       "verification_commit": "6c52484aa702a75636ba809d21e01bb5ff946602",
       "verification_tree": "b2609fc6b173b0086b53fca2cb7742267d22485a",
       "ledger_credited_at": "2026-11-12T20:34:05+08:00"
+    },
+    {
+      "id": "160-tyto-inexspectata-v4",
+      "species_id": 160,
+      "scientific_name": "Tyto inexspectata",
+      "historical_names": [
+        "Strix inexspectata"
+      ],
+      "common_name": "Minahasa Masked-Owl",
+      "version": 4,
+      "prior_versions_retained": [
+        1,
+        2,
+        3
+      ],
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "path": "design/concepts/160-tyto-inexspectata-v4.png",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "status": "V4 uses Mauro & Drijvers 2000 pp.180–181 for a compact stocky living adult: black eyes, short yellowish bill, dark golden-brown upperparts, whitish chest, buff sparsely spotted lowerparts, fully feathered tarsi and strong supported feet. Adults remain near-equal; dark rusty versus paler grey-rust discs are individual variation, not sex. The Fletcher 1998 juvenile is excluded because the later diagnostic paper assigns it to T. rosenbergii. The centre bird is an explicit age-unknown down-rich inference with short down-veiled wings, hidden tail and continuous root support. Exact development, flight state, sex metrics and nest interior remain unknown; science=false.",
+      "source_ids": [
+        "MIN-MAURO-DRIJVERS-2000-P180-182",
+        "MIN-FLETCHER-1998-P80-81-CONFLICT",
+        "MIN-NATURALIS-TYPECAT-2023-P175",
+        "MIN-SCHLEGEL-1879-NATURALIS",
+        "MIN-COMMONS-GODON-2022-229399656"
+      ],
+      "unverified_leads": [],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/160-tyto-inexspectata-v4.md",
+      "review_record": "research/reviews/160-tyto-inexspectata-v4-review.md",
+      "run_record": "production/runs/20261112T203930+0800-cycle-5.md",
+      "reviewed_at": "2026-11-12T20:50:05+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 3211411,
+      "sha256": "91157b2ba6578c38882c7839c9e9930d217ccf10d77972ba923e4e4ceb6fd8e1",
+      "git_blob": "d833693e1dffaa83afd9f588fbc3f9427627baf6",
+      "initial_original_path": "production/generated/160-tyto-inexspectata-v4-initial-original.png",
+      "initial_original_blob": "d833693e1dffaa83afd9f588fbc3f9427627baf6",
+      "initial_original_size_bytes": 3211411,
+      "final_original_path": "production/generated/160-tyto-inexspectata-v4-final-original.png",
+      "final_original_blob": "d833693e1dffaa83afd9f588fbc3f9427627baf6",
+      "final_original_size_bytes": 3211411,
+      "full_color_source_path": "production/generated/160-tyto-inexspectata-v4-full-color.png",
+      "full_color_source_blob": "d833693e1dffaa83afd9f588fbc3f9427627baf6",
+      "full_color_source_size_bytes": 3211411,
+      "reviewed_path": "production/reviewed/160-tyto-inexspectata-v4-reviewed-master.png",
+      "reviewed_blob": "d833693e1dffaa83afd9f588fbc3f9427627baf6",
+      "reviewed_size_bytes": 3211411,
+      "review_crops": [
+        {
+          "path": "production/review-crops/160-tyto-inexspectata-v4-adult-male.png",
+          "blob": "141860d60f4b5df443ee8a6cb44a0a1c02a72d4b",
+          "size_bytes": 184143,
+          "sha256": "46aba4fa6a577540b43e7657016ccdcd93187ad05fc38494e60853d96c6b15b6"
+        },
+        {
+          "path": "production/review-crops/160-tyto-inexspectata-v4-juvenile.png",
+          "blob": "5291f374ed21bfc057907ab9ad1b1e45975b9ccc",
+          "size_bytes": 156126,
+          "sha256": "45d08cad698a82ad5605a88240bb7bd714adb20bb5c6b451d5f64200d1666ee3"
+        },
+        {
+          "path": "production/review-crops/160-tyto-inexspectata-v4-adult-female.png",
+          "blob": "668cbbb6aae729176b9422301bf6052240258f20",
+          "size_bytes": 204895,
+          "sha256": "206dbe957dc4e1ecc93f29014cc38b77ce28e09f7736486fe835e114adbef78d"
+        }
+      ],
+      "archive_note": "V1-v3 preserved. Two new primary/conflict records and three reread sources correct adult identity and reject the misidentified juvenile. Full plate and three role crops opened; edit0. Mikkola upload not mounted. PASS_WITH_LIMITATIONS; science=false.",
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false,
+      "ledger_credited": false,
+      "batch_id": "20261112T183437+0800",
+      "batch_cycle": 5
     }
   ],
-  "updated_at": "2026-11-12T20:34:05+08:00"
+  "updated_at": "2026-11-12T20:53:20+08:00"
 }

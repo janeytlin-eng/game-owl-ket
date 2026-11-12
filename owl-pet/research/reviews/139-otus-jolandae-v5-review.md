@@ -2,7 +2,7 @@
 
 - Reviewed: 2026-11-12T08:51:00+08:00
 - Original: `generated_images/exec-0220f7b7-db71-407b-9e7f-e9c7547eaf52.png`
-- Resolution / bytes / SHA-256: 1536×1024 / 2,927,820 / `033cccc3776889dd5b752a27631da29b11be40d474ea30fb1f0389800d986267`
+- Resolution / bytes / SHA-256: 1536×1024 / 2,997,043 / `033cccc3776889dd5b752a27631da29b11be40d474ea30fb1f0389800d986267`
 - Result: PASS_WITH_LIMITATIONS
 - Scientifically verified: false
 

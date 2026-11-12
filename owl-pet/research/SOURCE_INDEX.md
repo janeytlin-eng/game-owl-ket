@@ -4888,3 +4888,13 @@ Reused/re-read without duplicate IDs for #130 v5: `KOEP-ITIS-686665-2026`, repos
 - Philippine Red List institutional PDF: https://www.philippinecockatoo.org/wp-content/uploads/2021/01/Philippine-Red-List-of-Threatened-Wild-Fauna.pdf ; accessed 2026-11-12.
 - The original PDF could not be opened in this run; a search snippet alone claimed yellow eyes and fully feathered tarsi. Page/figure unknown. It conflicts with the primary description and is therefore indexed only as an unverified lead, not verified evidence and not a design basis.
 - Linked record: [#147 v4](species/147-ninox-leventisi-v4.md). Scientific status remains unverified because the juvenile sequence is unknown.
+
+
+## 2026-11-12 — #148 *Ninox rumseyi* v4 — radio-tracked juvenile corrects a stationary pose
+
+### CEB-JAKOSALEM-COLLAR-GILL-2012 — reused primary field study, actively re-read
+- Jakosalem, Collar & Gill, *Bird Conservation International* 23:360–370, DOI https://doi.org/10.1017/S0959270912000317 ; accessed 2026-11-12.
+- Lines 529–534 and 581–590/Table 3/Fig.3: one field-classified juvenile was fitted with a transmitter, tracked nightly for 3–5 days, had a measurable home range and used small forest patches/adjacent farmland. It measured wing 175 mm, tail 96 mm, mass 118 g, within the female-size range.
+- **Correction:** V3's closed-eyed stationary “older juvenile” is too passive for this individual. V4 may show open eyes and a supported branch-walk/sidestep posture, but the paper does not prove flight or describe plumage/iris chronology.
+- Lines 597–602 support foliage-rich, branch-rich, low-wind habitat and cavity location; the recently hatched juvenile was not described, so no hatchling reconstruction.
+- Linked record: [#148 v4](species/148-ninox-rumseyi-v4.md). Science remains false.

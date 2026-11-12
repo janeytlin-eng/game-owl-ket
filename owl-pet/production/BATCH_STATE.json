@@ -43983,14 +43983,14 @@
       "next_cycle": 5,
       "active_cycle": 5,
       "started_at": "2026-11-12T11:35:00+08:00",
-      "updated_at": "2026-11-12T13:32:00+08:00",
-      "current_stage": "STARTED",
+      "updated_at": "2026-11-12T13:34:00+08:00",
+      "current_stage": "RESEARCH_READY",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex",
         "run_id": "20261112T133200+0800-cycle-5",
-        "heartbeat_at": "2026-11-12T13:32:00+08:00",
-        "expires_at": "2026-11-12T13:47:00+08:00"
+        "heartbeat_at": "2026-11-12T13:34:00+08:00",
+        "expires_at": "2026-11-12T13:49:00+08:00"
       },
       "active": {
         "cycle": 5,
@@ -44000,7 +44000,7 @@
         "action": "SCIENCE_REVISION",
         "run_record": "owl-pet/production/runs/20261112T133200+0800-cycle-5.md"
       },
-      "stage": "STARTED",
+      "stage": "RESEARCH_READY",
       "completed_count": 4,
       "stage_events": [
         {
@@ -44831,6 +44831,29 @@
             "selection_note": "Next numbered repository-backed target. V3 juvenile is closed-eyed/stationary, but the primary field study radio-tracked a field-classified juvenile nightly and mapped a home range; v4 will correct action capacity without inventing plumage chronology.",
             "lease_expires_at": "2026-11-12T13:47:00+08:00",
             "scientifically_verified": false
+          }
+        },
+        {
+          "batch_id": "20261112T113500+0800",
+          "cycle": 5,
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-12T13:34:00+08:00",
+          "run_id": "20261112T133200+0800-cycle-5",
+          "species_id": 148,
+          "species": "Ninox rumseyi",
+          "credited": false,
+          "evidence": {
+            "research_record": "owl-pet/research/species/148-ninox-rumseyi-v4.md",
+            "source_index": "owl-pet/research/SOURCE_INDEX.md",
+            "new_verified_sources": 0,
+            "reused_or_reread_sources": 3,
+            "corrected_inferences": 1,
+            "complete_prompt_saved": true,
+            "prior_visual_inspected": true,
+            "design_boundary": "subtly larger presumed male, smaller brood-patch-assigned presumed female; alert age-unknown older juvenile within female size range, fully supported and mobile-capable from radio-telemetry evidence, with plumage/flight still unknown; no hatchling reconstruction",
+            "mikkola_access": "upload unavailable; no fresh-page claim",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-12T13:49:00+08:00"
           }
         }
       ],

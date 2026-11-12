@@ -171,3 +171,10 @@ When primary sources say a recent fledgling can fly but lands poorly, that evide
 
 **Observed validation:** the edited full plate and three subject crops were opened; the wing correction held without adult identity, label, support or habitat drift. Apply this as a review trigger only when the source describes a mesoptile without flight/age evidence; it is not a universal claim about owl development.
 
+# 2026-11-13 — juvenile evidence may hide in older primary monographs
+
+- **Problem:** a modern guide summary for #177 only supported a generic paler mesoptile, encouraging an age-unknown juvenile and leaving wing maturity unresolved.
+- **Evidence found:** de Naurois (1975) directly describes two juvenile colour phases, a non-flying late-November stage and one younger chick with remiges only half-grown; it also states the nest was not discovered.
+- **Applied change:** #177 v4 replaces the generic mesoptile with a documented still-downy, non-flying grey-brown young and short half-grown remiges; no cavity is shown. The initial generated adult-like wing was edited and reopened at native size plus crop.
+- **Validated scope:** visually validated for #177 v4 only. For rare species, search older species monographs in original-language terms for `juvenile`, `poussin`, `jeune`, `rémiges`, `nest` before accepting a modern-guide summary as the developmental evidence ceiling.
+

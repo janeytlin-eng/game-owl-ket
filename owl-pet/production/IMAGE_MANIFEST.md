@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T08:37:00+08:00",
+  "updated": "2026-11-12T08:42:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -31177,10 +31177,20 @@
         }
       ],
       "archive_note": "Full plate and three role crops opened. No edit required. The photographed branch-stage juvenile legitimately retains a formed wing beyond the short tail. After lease expiry, the intact local 1536x1024 PNG was re-uploaded in chunks; tree size now matches 2,802,243 bytes and replaces the earlier truncated 786,446-byte blob. New0/reused-re-read3/unverified1/corrected boundaries2; uploaded Mikkola unavailable and only prior indexed pp.166–167 reused. Science false. Archive verification pending.",
-      "readback_pending": true,
-      "archive_commit_pending": true,
-      "archived_at": "2026-11-12T08:37:00+08:00"
+      "readback_pending": false,
+      "archive_commit_pending": false,
+      "archived_at": "2026-11-12T08:37:00+08:00",
+      "archive_commit": "87adf5cb2a1b0abb00f0a0d2bf37e85b2fdfdaba",
+      "archive_tree": "b2a82cbd209efdc6989fe3ff0aa0252614697dc0",
+      "tree_readback_exact": true,
+      "required_paths_verified": 18,
+      "exact_binary_paths_verified": 9,
+      "unique_binary_streams_tree_verified": 4,
+      "verified_at": "2026-11-12T08:42:00+08:00",
+      "verification_result": "PASS_WITH_LIMITATIONS",
+      "verification_commit_pending": true,
+      "binary_content_api_note": "Untruncated recursive tree re-read confirmed all 18 required paths. Nine PNG aliases resolve to four exact Git blobs; all six full-plate aliases are blob 11b28426... at 2,802,243 bytes. github_fetch_file also returned the same concept blob SHA; binary payload text was intentionally omitted by the connector."
     }
   ],
-  "updated_at": "2026-11-12T08:37:00+08:00"
+  "updated_at": "2026-11-12T08:42:00+08:00"
 }

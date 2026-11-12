@@ -1,3 +1,7 @@
+### #157 *Scotopelia bouvieri* v4 immutable archive VERIFIED — ledger credit pending
+
+Archive `49fd35c87e302e8a66bc23882bc82441a3882465` / tree `e1a2aa97a201b62ad3df35d723e9c6709e8018b9` passed 19 required paths, eight exact binary path/blob tuples, three complete crop streams and manifests 838/807/816. PASS_WITH_LIMITATIONS; science=false; ledger credit pending.
+
 ### #157 *Scotopelia bouvieri* v4 ARCHIVED — readback pending
 
 Primary adult-pattern correction, c.40-day nest boundary, full plate and three role crops are committed. Manifests 838/807/816; unique coverage remains 176/251; revision +1; science=false. Immutable readback and ledger credit pending.

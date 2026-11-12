@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12",
+  "updated": "2026-11-12T08:57:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -32159,7 +32159,78 @@
       "unique_binary_streams_read_back": 5,
       "verified_at": "2026-11-12T03:39:00+08:00",
       "verification_result": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "id": "139-otus-jolandae-v5",
+      "path": "design/concepts/139-otus-jolandae-v5.png",
+      "species_id": 139,
+      "scientific_name": "Otus jolandae",
+      "historical_names": [
+        "Pisorhina albiventris",
+        "Scops albiventris",
+        "Otus magicus albiventris"
+      ],
+      "common_name": "Rinjani Scops Owl",
+      "scope": "Lombok foothill and secondary forest; near-adult older immature female with only scattered retained juvenile crown/nape feathers; exact age, iris, flight and population sex-size unresolved",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 0,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "JOL-SANGSTER-ETAL-2013",
+        "JOL-ITIS-1063240-2026",
+        "JOL-MIKKOLA-2013-P188",
+        "JOL-PLOS-FIG1-2008"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/139-otus-jolandae-v5.md",
+      "review_record": "research/reviews/139-otus-jolandae-v5-review.md",
+      "run_record": "production/runs/20261112T084600+0800-cycle-3.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2997043,
+      "sha256": "033cccc3776889dd5b752a27631da29b11be40d474ea30fb1f0389800d986267",
+      "git_blob": "f53ab47496715eb86a7bb7e4f13f4ed8b7e72e05",
+      "generated_path": "production/generated/139-otus-jolandae-v5-generated-master.png",
+      "generated_blob": "f53ab47496715eb86a7bb7e4f13f4ed8b7e72e05",
+      "generated_sha256": "033cccc3776889dd5b752a27631da29b11be40d474ea30fb1f0389800d986267",
+      "generated_size_bytes": 2997043,
+      "edit_paths": [],
+      "edit_blobs": [],
+      "reviewed_path": "production/reviewed/139-otus-jolandae-v5-reviewed-master.png",
+      "reviewed_blob": "f53ab47496715eb86a7bb7e4f13f4ed8b7e72e05",
+      "male_review_crop": "production/review-crops/139-otus-jolandae-v5-male.png",
+      "male_review_blob": "146ff2685b9c069c1a403c710be542769aba9698",
+      "male_review_size_bytes": 783084,
+      "male_review_sha256": "3dc02718848f58d0225c8b06549bd005203c798b0233b259d863c22fa6978b36",
+      "juvenile_review_crop": "production/review-crops/139-otus-jolandae-v5-older-immature-female.png",
+      "juvenile_review_blob": "eb1aeefb1f977894421a83659dc0715667ac87c6",
+      "juvenile_review_size_bytes": 687036,
+      "juvenile_review_sha256": "505fcff42ef6920f3f83f3426771612359ae1e90105e8dbc534142e612d94326",
+      "female_review_crop": "production/review-crops/139-otus-jolandae-v5-adult-female.png",
+      "female_review_blob": "5dc334d024d704d46f0be0b67e52ace05ed8d016",
+      "female_review_size_bytes": 720627,
+      "female_review_sha256": "9c3ca242e59f7668e97ad4a8992060917183f268071d829d54ee049ccf978a9f",
+      "batch_id": "20261112T074300+0800",
+      "cycle": 3,
+      "readback_pending": true,
+      "archived_at": "2026-11-12T08:57:00+08:00",
+      "exact_readback": false,
+      "archive_commit_pending": true,
+      "verification_commit_pending": true
     }
   ],
-  "updated_at": "2026-11-12T03:39:00+08:00"
+  "updated_at": "2026-11-12T08:57:00+08:00"
 }

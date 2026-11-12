@@ -1,0 +1,56 @@
+name: "Owl #172 rejected 3D full-bird WebGL framing QA (independent)"
+on:
+  push:
+    paths:
+      - "owl-pet/3d-experiments/172-tyto-castanops/run14-trigger.txt"
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  screenshot-both-variants-with-geometry-aware-camera:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - name: Reopen verified source QA artifact, not an invented model
+        uses: actions/download-artifact@v4
+        with:
+          run-id: 43279493673
+          name: owl172-run12-separate-QA-ARCHIVE
+          github-token: ${{ github.token }}
+          path: old-qa
+      - name: Test actual GLBs on Linux Chromium software WebGL desktop and emulated portrait
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/owl172-browser qa-run14
+          cp owl-pet/3d-experiments/172-tyto-castanops/tools/viewer_qa_index.html /tmp/owl172-browser/index.html
+          cp owl-pet/3d-experiments/172-tyto-castanops/tools/viewer_qa_main.js /tmp/owl172-browser/main.js
+          cp owl-pet/3d-experiments/172-tyto-castanops/tools/mobile_webgl_smoke.mjs /tmp/owl172-browser/mobile_webgl_smoke.mjs
+          cd /tmp/owl172-browser
+          npm init -y >/dev/null
+          npm install --no-save --silent three@0.181 vite@7.2 playwright@1.56
+          npx playwright install chromium
+          npx vite --host 127.0.0.1 --port 4173 > "$GITHUB_WORKSPACE/qa-run14/vite.log" 2>&1 &
+          sleep 5
+          for variant in v26_sparse_MASK_groom_UNAPPROVED v27_pale_BLENDED_groom_UNAPPROVED; do
+            cp "$GITHUB_WORKSPACE/old-qa/$variant.glb" candidate.glb
+            mkdir -p "$GITHUB_WORKSPACE/qa-run14/$variant"
+            set +e
+            node mobile_webgl_smoke.mjs "$GITHUB_WORKSPACE/qa-run14/$variant" > "$GITHUB_WORKSPACE/qa-run14/$variant/browser.log" 2>&1
+            rc=$?
+            set -e
+            echo "$variant exit-code $rc" | tee -a "$GITHUB_WORKSPACE/qa-run14/summary.txt"
+          done
+          test -f "$GITHUB_WORKSPACE/qa-run14/v26_sparse_MASK_groom_UNAPPROVED/browser_qa.json"
+          test -f "$GITHUB_WORKSPACE/qa-run14/v27_pale_BLENDED_groom_UNAPPROVED/browser_qa.json"
+      - name: Always preserve candid actual QA evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run14-framing-WEBGL-BOTH-REJECTED
+          path: qa-run14/
+          retention-days: 14
+          if-no-files-found: warn

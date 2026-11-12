@@ -36,3 +36,11 @@ The recovered v2 final was visually re-inspected. Exactly three labeled birds ar
 - Git blob: `49aaa718e82a0f16a80f62af48527385f4ed5dd8`
 - SHA-256: `ff03472b6af2fc7f910ec355b4453d111ea634e06d2355207ce4da808f131870`
 - scientifically_verified: false
+
+## v4 known-age revision · 2026-11-12
+
+The uploaded Mikkola guide (printed pp.304–306), Prague Zoo's known three-month captive bird, Büttikofer's 1889 nestling material and Branfield's field summary were read and indexed. V4 keeps adults dark-eyed, untufted, ginger-rufous and bare-footed; the female is only subtly fuller/paler. The center bird is explicitly a three-month captive stage with residual powder down, compact paler-patterned folded wing, short tail and bilateral support. Full plate and three crops were opened; no evidence-led edit was required. Wild equivalence, first-flight threshold, iris chronology, continuous feather sequence and quantified population-wide sex-size ratio remain unknown. PASS_WITH_LIMITATIONS; scientifically_verified: false.
+
+- Image: [156-scotopelia-peli-v4.png](../../design/concepts/156-scotopelia-peli-v4.png)
+- Research: [156-scotopelia-peli-v4.md](../../research/species/156-scotopelia-peli-v4.md)
+- Review: [156-scotopelia-peli-v4-review.md](../../research/reviews/156-scotopelia-peli-v4-review.md)

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T18:30:00+08:00",
+  "updated": "2026-11-12T19:34:46+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -34011,6 +34011,85 @@
       "ledger_credited_at": "2026-11-12T18:30:00+08:00",
       "batch_id": "20261112T153846+0800",
       "batch_cycle": 6
+    },
+    {
+      "id": "156-scotopelia-peli-v4",
+      "species_id": 156,
+      "scientific_name": "Scotopelia peli",
+      "historical_names": [
+        "Bubo peli",
+        "Ulula Pelii",
+        "Scotopelia oustaleti"
+      ],
+      "common_name": "Pel's Fishing Owl",
+      "version": 4,
+      "prior_versions_retained": [
+        1,
+        2,
+        3
+      ],
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "path": "design/concepts/156-scotopelia-peli-v4.png",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "status": "V4 uses dark-eyed untufted ginger-rufous adults with bare straw fishing feet; female only subtly fuller/paler. The center bird is the documented captive three-month stage with residual powder down, compact paler patterned folded wing, short tail and bilateral support. Exact wild equivalent, first-flight threshold, iris chronology, continuous feather sequence and quantified population-wide sex-size ratio remain unknown.",
+      "source_ids": [
+        "PEL-MIKKOLA-2013-P304-306",
+        "PEL-PRAGUE-ZOO-2024-3MO",
+        "PEL-BUTTIKOFER-1889-P115-116",
+        "PEL-BRANFIELD-2013-P123-126"
+      ],
+      "unverified_leads": [],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/156-scotopelia-peli-v4.md",
+      "review_record": "research/reviews/156-scotopelia-peli-v4-review.md",
+      "run_record": "production/runs/20261112T183437+0800-cycle-1.md",
+      "reviewed_at": "2026-11-12T19:34:46+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 3406859,
+      "sha256": "5ae8ad6323e0f644bac907f247cbf97e446f5734274bdbad32c2c00c6111e36d",
+      "git_blob": "f1962dfa33709a69e147e32a60eb420028cd25e6",
+      "initial_original_path": "production/generated/156-scotopelia-peli-v4-initial-original.png",
+      "initial_original_blob": "f1962dfa33709a69e147e32a60eb420028cd25e6",
+      "initial_original_size_bytes": 3406859,
+      "final_original_path": "production/generated/156-scotopelia-peli-v4-final-original.png",
+      "final_original_blob": "f1962dfa33709a69e147e32a60eb420028cd25e6",
+      "final_original_size_bytes": 3406859,
+      "full_color_source_path": "production/generated/156-scotopelia-peli-v4-full-color.png",
+      "full_color_source_blob": "f1962dfa33709a69e147e32a60eb420028cd25e6",
+      "full_color_source_size_bytes": 3406859,
+      "reviewed_path": "production/reviewed/156-scotopelia-peli-v4-reviewed-master.png",
+      "reviewed_blob": "f1962dfa33709a69e147e32a60eb420028cd25e6",
+      "reviewed_size_bytes": 3406859,
+      "review_crops": [
+        {
+          "path": "production/review-crops/156-scotopelia-peli-v4-adult-male.png",
+          "blob": "5333c6778e2359d69a9d7b781d8a1c507274994c",
+          "size_bytes": 820071,
+          "sha256": "08e37c524830b9dfe38255d3d2c0e622ccee85a441ab8ee2f1446f0c9ecb381b"
+        },
+        {
+          "path": "production/review-crops/156-scotopelia-peli-v4-three-month-juvenile.png",
+          "blob": "7a7f374cb60099b6b851f9df4dbc8d15ac2bf51d",
+          "size_bytes": 812390,
+          "sha256": "4647850ebfc6f0892f56514b56772e5c52fe611150a1719cddd4cbad9c522ba2"
+        },
+        {
+          "path": "production/review-crops/156-scotopelia-peli-v4-adult-female.png",
+          "blob": "fcb82963a7e418745ab6cb1e83f4d4fb35c65885",
+          "size_bytes": 817294,
+          "sha256": "71126c56deb837fe3155bd435607b9cef3963c756ebbf321a39ef820b28c5686"
+        }
+      ],
+      "archive_note": "V1-v3 retained. Uploaded Mikkola guide pp.304-306 plus three external sources read. Recovered orphan image was attached to latest main, reopened full-size and reviewed in three role crops; no evidence-led edit required. PASS_WITH_LIMITATIONS; science=false.",
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false,
+      "ledger_credited": false
     }
   ],
   "updated_at": "2026-11-12T18:30:00+08:00"

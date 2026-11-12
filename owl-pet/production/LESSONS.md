@@ -155,3 +155,10 @@ undefined
 - **Rule discovered:** do not delete a directly documented mature-pattern feature merely to look juvenile. Constrain proportions, contour-feather texture, tail length and supported posture instead.
 - **Applied:** #155 v4 used a short/stubby body, loose feather texture, shorter wing/tail and two-level bilateral support while retaining barred remiges.
 - **Validation:** full image plus three crops viewed; the juvenile remained recognizably older-juvenile rather than adult-proportioned. Validation applies only to #155 v4; later species need their own evidence.
+
+## 2026-11-12 — Known-age mesoptile can retain patterned wings
+
+- **Problem:** an older down-softened juvenile may be incorrectly rejected merely because its folded wing carries adult-like pattern.
+- **Evidence:** Mikkola's Pel's Fishing Owl account (printed pp.304–306) describes mesoptile wings/tail as adult-like but paler/less reddish; Prague Zoo documents a light three-month bird with powder-down remnants.
+- **Applied:** #156 v4 retains a compact paler-patterned folded wing while shortening the tail, preserving powder down and requiring bilateral branch support and no flight claim.
+- **Validation:** full plate and three role crops were reopened after recovery; the bird remained visibly juvenile and evidence-bounded. This rule is verified only for #156 v4 and must not be generalized without species/stage evidence.

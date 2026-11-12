@@ -1805,3 +1805,8 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 - Added evidence-bounded adult male / older juvenile / adult female riverine group plate; retained v1-v3.
 - Reread Monticelli et al. 2015, Koppetsch & Böhme 2022, IUCN/BirdLife 2021 and taxonomic mapping; Atkinson et al. 1994 retained only as an access-blocked lead.
 - Full and three crops reviewed; no edit required; PASS_WITH_LIMITATIONS, scientifically_verified=false.
+
+## 2026-11-12 — #156 *Scotopelia peli* v4
+- Recovered and archived the evidence-bounded Pel's Fishing Owl v4 plate while preserving v1-v3.
+- Added a documented captive three-month stage based on Mikkola printed pp.304–306 and Prague Zoo; read Büttikofer 1889 and Branfield 2013 for historical mapping and morphology.
+- Full plate and three crops reviewed; no edit required; PASS_WITH_LIMITATIONS, scientifically_verified=false.

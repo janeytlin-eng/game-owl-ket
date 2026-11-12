@@ -4082,3 +4082,8 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` read back; cycle 1 credi
 - Cycle 6 #155 *Scotopelia ussheri* v4 credited with verification commit `4b8ca31c65ca5dccd7a555aaa339fee50d3b6279`.
 - Batch revisions: #150–#155; unique species remains 176/251.
 - No new batch was started by this run.
+
+## 2026-11-12 #156 *Scotopelia peli* v4 — ARCHIVED, verification pending
+- Batch `20261112T183437+0800`, cycle 1/6; action SCIENCE_REVISION; unique count stays 176/251.
+- Recovered image attached to latest main; full image and three crops reviewed: PASS_WITH_LIMITATIONS, science=false.
+- Exact archive commit/readback pending.

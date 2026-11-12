@@ -1,6 +1,6 @@
-## 2026-11-12 — #162 *Glaucidium hoskinsii* v3 immutable archive VERIFIED — ledger credit pending
+## 2026-11-12 — #162 v3 LEDGER_CREDITED — active batch 1/6
 
-Archive [`6bbdd100dd0b2a0f7e0cd2cfdfb5359818e72803`](https://github.com/janeytlin-eng/game-owl-ket/commit/6bbdd100dd0b2a0f7e0cd2cfdfb5359818e72803) / tree `d52574b3ea6163812fd0c6f4e72c5b28e868c8ea` returned 4792 non-truncated entries. 20/20 required paths, 8/8 exact binary path/blob/byte checks and four manifests 843/812/821/799 passed. `PASS_WITH_LIMITATIONS`; science=false; unique 176/251; cycle credit pending.
+Verification [`27465b0fae4cd0cb15434a7892ba225d1533430d`](https://github.com/janeytlin-eng/game-owl-ket/commit/27465b0fae4cd0cb15434a7892ba225d1533430d) was read back after archive [`6bbdd100dd0b2a0f7e0cd2cfdfb5359818e72803`](https://github.com/janeytlin-eng/game-owl-ket/commit/6bbdd100dd0b2a0f7e0cd2cfdfb5359818e72803). Cycle 1 credited once; lease released; next cycle 2. Unique coverage remains 176/251; revision +1; science=false.
 
 ## 2026-11-12 — #154 v3 VERIFIED — active batch 4/6
 

@@ -1,3 +1,7 @@
+## 2026-11-12 — #154 v3 VERIFIED — active batch 4/6
+
+Archive commit `64920d13503a22ad01c106a6958636dce3443ea2` and tree `3c85dcdff0063d75cd865cd443171779362c5b15` passed immutable readback: 21/21 required paths, 9/9 exact PNG blob+size checks, three manifests 835/804/813 with one #154 v3 entry each. Ledger credit remains pending; result PASS_WITH_LIMITATIONS, scientifically_verified=false.
+
 ## 2026-11-12 — #154 v3 ARCHIVED pending verification — active batch 4/6
 
 #154 Jamaican Owl (*Asio grammicus*; repository legacy *Pseudoscops grammicus*) v3 has research, generated initial, one center-only juvenile correction, edited full/crop review and formal archive staged. The concept remains PASS_WITH_LIMITATIONS and scientifically_verified=false; exact juvenile age, iris chronology, first-flight threshold, nest architecture and quantified sex direction remain unknown. Archive readback and ledger credit are pending.

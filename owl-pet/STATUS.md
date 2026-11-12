@@ -4265,3 +4265,5 @@ Verification [`f0475f2292574e628c191c59576c83b37f90c6a7`](https://github.com/jan
 - Current ITIS valid record corrected to TSN 555493; old combinations preserved. Adults use small-head/long-tail identity without asserting sex-size direction. The downy juvenile uses the directly described white face/underparts and is age-unknown, dark-eyed, compact-winged and fully supported.
 - Actual full image and three crops reviewed; no edit required; **PASS_WITH_LIMITATIONS**, scientifically_verified=false. Exact juvenile age/flight, nest detail and sex-size direction remain unknown.
 - Archive verification and ledger credit are pending in the next persistent stages.
+
+- #152 v4 archive readback: commit `3ef0ef2b9526f7c6c921f3855daad08b0507304e`, tree `8193dccf0ce6504423e509ee11a883a32a9299c6`, 4668 non-truncated entries; 9 exact binary paths and all required text paths passed; manifest counts 833 / 802 / 811 with one exact v4 entry each. Ledger credit pending.

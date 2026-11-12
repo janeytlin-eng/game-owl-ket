@@ -1050,3 +1050,5 @@ When a previous juvenile pose (such as closed eyes) was chosen for presentation 
 - **Evidence:** Beehler & Pratt pp. 373–374 describes *Uroglaux dimorpha* as small-headed and long-tailed and the downy juvenile as white-faced and white-underparted.
 - **Applied:** constrain adult head/tail silhouette; render the juvenile with compact down-soft wing, concealed tail, dark eyes and bilateral low support; withhold exact age, flight and nest claims.
 - **Verified:** full plate and three crops were opened. The intended silhouette, juvenile support and immature wing/tail boundary are visible. This validates the rule for this asset only, not all owl taxa.
+
+- #152 archive verification: exact path/blob/byte checks passed for six full-image aliases and three crops; all three JSON manifests parsed and contained one v4 entry. Connector did not need to stream the 2.96 MB image to establish the Git object identity because the remote tree blob and size matched the locally decoded PNG's Git object and SHA-256 evidence.

@@ -1,3 +1,11 @@
+## 2026-11-12 — #151 West Solomons Owl — *Athene jacquinoti* v4 ARCHIVED
+
+V4 preserves v1-v3 and adds a new evidence-bounded trio. Two institutional sources were indexed and four stable records reread. The old-name/current-name conflict is explicit; adults remain near equal because no quantified sex direction exists. V3’s closed-eye juvenile presentation is replaced by an open-eyed, dark-irised age-unknown older juvenile with short down-veiled wing, hidden tail and two-foot support. Full plate and three crops were opened; no edit was needed. `PASS_WITH_LIMITATIONS`; science=false; unique coverage remains 176/251; immutable readback pending.
+
+- Concept: `design/concepts/151-athene-jacquinoti-v4.png`
+- Research/review: `research/species/151-athene-jacquinoti-v4.md`, `research/reviews/151-athene-jacquinoti-v4-review.md`
+- Run: `production/runs/20261112T163134+0800-cycle-2.md`
+
 ## 2026-11-12 — #140 *Otus rufescens* v5 immutable archive VERIFIED; ledger credit pending
 
 Archive [`5527f7c7c528e8659f65732be2eccf36bb1231b6`](https://github.com/janeytlin-eng/game-owl-ket/commit/5527f7c7c528e8659f65732be2eccf36bb1231b6) / tree `cbe5a588afcb771304d4504002767e89c19199cd` was fetched back from `main`. Nine PNG paths matched four exact blobs and byte sizes; the concept decoded as 1536×1024 with matching SHA-256. Manifests parsed at 822/791/800 and each contains one #140 v5 entry. `PASS_WITH_LIMITATIONS`; science=false; unique coverage remains 176/251; cycle credit still pending.

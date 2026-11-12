@@ -24,3 +24,13 @@ The first generated juvenile had long layered adult-like remiges. A targeted edi
 - Current-name crosswalk corrected to *Athene jacquinoti*; historical *Ninox jacquinoti* and junior *Athene taeniata* retained.
 - Adult design uses near-equal sexes and restrained amber-yellow iris range. First image juvenile adult-like spotted wing was actively edited to compact unspotted body-blended wing; full image and juvenile/adult crops re-opened.
 - Result: `PASS_WITH_LIMITATIONS`, `scientifically_verified=false`. Exact juvenile stage/iris/flight, sex-size direction and nest contents remain unknown. v1 preserved with manifest SHA mismatch evidence.
+
+
+## v4 science revision — 2026-11-12
+
+- Current *Athene jacquinoti* is cross-walked to historical *Ninox jacquinoti* and junior *Athene taeniata* using the MNHN live holotype record and Voisin & Voisin (2011) printed p.26.
+- Adult evidence remains one male type plus living age/sex-unspecified imagery; adults therefore stay near equal and no female-larger rule is applied.
+- V3 closed juvenile eyes were a presentation choice. V4 uses an open-eyed, dark-irised age-unknown older juvenile with a short down-veiled wing, concealed tail and bilateral branch support; no exact-age, flight, nest-material or hatchling claim.
+- Full plate and three role crops were opened; no material error required editing. Result: `PASS_WITH_LIMITATIONS`, `scientifically_verified=false`.
+- Image: [151-athene-jacquinoti-v4.png](../../design/concepts/151-athene-jacquinoti-v4.png)
+- Research/review: [v4 research](../../research/species/151-athene-jacquinoti-v4.md), [v4 review](../../research/reviews/151-athene-jacquinoti-v4-review.md)

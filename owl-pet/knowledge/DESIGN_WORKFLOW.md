@@ -1037,3 +1037,8 @@ When a species guide says “juvenile not known” but a regional field photogra
 ### Irregular juvenile down is a crop-level check (validated once on #108 v5, 2026-11-11)
 
 When a direct juvenile photograph shows loose clumps and gaps, prohibit fleece-like curls and open a dedicated juvenile crop after generation. Also prohibit tiled adult covert repetition when real specimens show individually varied markings. Applied to #108 *Otus rutilus* v5: the first generated plate materially reduced the v4 repetition and passed crop review without edit. This is one-asset validation, not a universal species rule; retain stage and source limits.
+
+
+### Verified-for-this-case lesson — #151 v4 (application pending immutable readback)
+
+When a previous juvenile pose (such as closed eyes) was chosen for presentation rather than observed development, treat it as an inference to revisit, not a reusable species fact. For a data-poor island owl, a supported open-eyed age-unknown older juvenile with dark non-diagnostic irides, short down-veiled wing, hidden tail and bilateral support avoids converting pose into chronology. This rule was applied in #151 v4 and passed full/crop visual review; archive readback is still pending at this stage.

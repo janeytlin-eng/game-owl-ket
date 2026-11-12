@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T15:54:59.676+08:00",
+  "updated": "2026-11-12",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -33450,7 +33450,97 @@
       "verification_commit": "f0475f2292574e628c191c59576c83b37f90c6a7",
       "verification_tree": "7ad5a020a96bd83d0417c7ff365a855630681d28",
       "ledger_credited_at": "2026-11-12T15:54:59.676+08:00"
+    },
+    {
+      "id": "151-athene-jacquinoti-v4",
+      "path": "design/concepts/151-athene-jacquinoti-v4.png",
+      "species_id": 151,
+      "scientific_name": "Athene jacquinoti",
+      "historical_names": [
+        "Ninox jacquinoti",
+        "Athene taeniata"
+      ],
+      "common_name": "West Solomons Owl",
+      "scope": "Western Solomon humid-forest concept; near-equal compact earless adults with amber-orange eyes, irregular pale upperpart marks and irregular brown barring over cream underparts; open-eyed dark-irised down-softened fully supported age-unknown older juvenile; exterior cavity cue only",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3
+      ],
+      "prior_versions_retained": true,
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 0,
+      "imagegen_invocations": 1,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "WSO-MNHN-RECORD-2010-270",
+        "WSO-MNHN-VOISIN-2011-P26",
+        "WSO-EBIRD-IMAGE-262766631",
+        "WSO-ITIS-1063526",
+        "WSO-MNHN-HOLOTYPE-PHOTO-2026",
+        "WSO-BONAPARTE-1850-P42-LEAD"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/151-athene-jacquinoti-v4.md",
+      "review_record": "research/reviews/151-athene-jacquinoti-v4-review.md",
+      "run_record": "production/runs/20261112T163134+0800-cycle-2.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 3171901,
+      "sha256": "cc00ff49fcb224945feccbf11efa5f989575b21152384094c049579e3cc327da",
+      "git_blob": "dd4bda0ee607cd2434c6e1d46972b2d8334ea9e1",
+      "initial_original_path": "production/generated/151-athene-jacquinoti-v4-initial-original.png",
+      "initial_original_blob": "dd4bda0ee607cd2434c6e1d46972b2d8334ea9e1",
+      "initial_original_size_bytes": 3171901,
+      "initial_original_sha256": "cc00ff49fcb224945feccbf11efa5f989575b21152384094c049579e3cc327da",
+      "final_original_path": "production/generated/151-athene-jacquinoti-v4-final-original.png",
+      "final_original_blob": "dd4bda0ee607cd2434c6e1d46972b2d8334ea9e1",
+      "final_original_size_bytes": 3171901,
+      "final_original_sha256": "cc00ff49fcb224945feccbf11efa5f989575b21152384094c049579e3cc327da",
+      "generated_path": "production/generated/151-athene-jacquinoti-v4-generated-master.png",
+      "generated_blob": "dd4bda0ee607cd2434c6e1d46972b2d8334ea9e1",
+      "generated_size_bytes": 3171901,
+      "full_color_source_path": "production/generated/151-athene-jacquinoti-v4-full-color.png",
+      "full_color_source_blob": "dd4bda0ee607cd2434c6e1d46972b2d8334ea9e1",
+      "full_color_source_size_bytes": 3171901,
+      "reviewed_path": "production/reviewed/151-athene-jacquinoti-v4-reviewed-master.png",
+      "reviewed_blob": "dd4bda0ee607cd2434c6e1d46972b2d8334ea9e1",
+      "reviewed_size_bytes": 3171901,
+      "review_crops": [
+        {
+          "path": "production/review-crops/151-athene-jacquinoti-v4-adult-male.png",
+          "blob": "7496a00149bbda279f3ff889b09ec63117c5bd7f",
+          "size_bytes": 727626,
+          "sha256": "0fe871429e070ea48ec999ab7664735da8851aefa9bff3e074b3a1d9d0748a2c"
+        },
+        {
+          "path": "production/review-crops/151-athene-jacquinoti-v4-older-juvenile.png",
+          "blob": "80947d289761c863a24d6aeb91a09be966df3e2f",
+          "size_bytes": 772264,
+          "sha256": "f5b9993496817785c940367008c3c309a34ca78affba73495da343085d417a63"
+        },
+        {
+          "path": "production/review-crops/151-athene-jacquinoti-v4-adult-female.png",
+          "blob": "4968020509fdca8674098b80e3622504f90be245",
+          "size_bytes": 767743,
+          "sha256": "37c2e06445978a9a03dd3624652cbd7493dc9e9089aa638216657c06e9a52953"
+        }
+      ],
+      "archive_note": "V1-v3 retained. Two institutional source records newly indexed; four stable records reread. V3 closed eyes corrected as presentation rather than developmental evidence. Full plate and three role crops opened; no edit required. Exact juvenile chronology, dimorphism and nest contents remain unknown. Fresh Mikkola upload unavailable.",
+      "archived_at": "2026-11-12T16:38:14+08:00",
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false,
+      "ledger_credited": false,
+      "updated_at": "2026-11-12T16:38:14+08:00"
     }
   ],
-  "updated_at": "2026-11-12T15:54:59.676+08:00"
+  "updated_at": "2026-11-12T16:38:14+08:00"
 }

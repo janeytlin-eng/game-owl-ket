@@ -1,3 +1,9 @@
+## 2026-11-12 — #151 *Athene jacquinoti* v4 archived
+
+- Preserved v1-v3; generated and actually reviewed a new adult male / age-unknown older juvenile / adult female plate.
+- Added two institutional source-index records and corrected the unsupported closed-eye developmental implication.
+- Added immutable originals, reviewed master, three role crops and three manifest entries; readback pending.
+
 ## 2026-11-08 — #30 v5 ledger credited
 
 - Verification `eb2b0ded23e99ef41f237e51af24e0321938aa04` read back; cycle 5/6 credited once; next cycle 6; unique coverage 176/251; science=false.

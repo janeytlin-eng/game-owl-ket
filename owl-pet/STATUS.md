@@ -4370,3 +4370,7 @@ V4 preserves v1-v3. De Naurois (1975) pp.323, 326–329 was directly read and in
 
 The first accepted archive exposed truncated large blobs and was not credited. The repaired archive [`50eb7461`](https://github.com/janeytlin-eng/game-owl-ket/commit/50eb7461bce04a0990dc4ae587de4d9b042a2108) / tree `6a034a93dabf3f401b0a7db0fcd0673197e94a2e` passed remote readback: 5,007 entries, `truncated=false`, 20 required paths, nine exact PNG path/byte checks and four complete manifests at 858/827/836/814 with one v4 record each. `PASS_WITH_LIMITATIONS`; science=false; ledger credit pending.
 
+## 2026-11-13 — #177 v4 LEDGER_CREDITED — active batch 4/6
+
+Verification [`b4c74081`](https://github.com/janeytlin-eng/game-owl-ket/commit/b4c740816390383fcaa1c6f2cb6da1f3e8ad26e1) was read back after repaired archive [`50eb7461`](https://github.com/janeytlin-eng/game-owl-ket/commit/50eb7461bce04a0990dc4ae587de4d9b042a2108). Cycle 4 credited once; lease released; next cycle 5. Unique coverage remains 176/251; revision +1; science=false.
+

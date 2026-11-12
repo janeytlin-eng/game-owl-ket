@@ -1,5 +1,30 @@
 
 
+## 2026-11-12 — #162 *Glaucidium hoskinsii* v3 — nape false-eye and near-fledged wing boundary
+
+### HOS-FLORES-MARRON-2025-PDF — new stable primary source
+- **Title/authors/year:** “A Nest of the Cape Pygmy-Owl (*Glaucidium gnoma hoskinsii*)” / Osiel Flores & Gerardo Marrón / 2025.
+- **URL/DOI/pages:** https://journal.westernfieldornithologists.org/index.php/westernbirds/article/download/1954/1843/3654 ; DOI 10.21199/WB56.3.7; pp.228–230, Fig.1.
+- **Species/stage:** historical name mapped to current *G. hoskinsii*; adult behaviour and one near-fledged chick.
+- **Facts/design:** first documented nest; 4 m *Washingtonia robusta* cavity at 360 m in Cape Tropical Scrub; chick at cavity 28 May 2023; lizard prey delivery; use an evidence-bounded cavity-supported near-fledged stage.
+- **Limits/confidence:** high for this nest observation; no exact age, sex, iris colour, feather chronology, flight threshold or universal nest claim.
+
+### HOS-BREWSTER-1888-P136 — new stable primary source
+- **Title/author/year:** “On Three Apparently New Subspecies of Mexican Birds” / William Brewster / 1888.
+- **URL/pages/specimens:** https://upload.wikimedia.org/wikipedia/commons/1/11/The_Auk_%28IA_auk51888amer%29.pdf ; *The Auk* 5(2), p.136; three adult males from Sierra de la Laguna.
+- **Facts/design:** smaller/grayer than *californica*; whiter forehead/face; less distinct upperpart spotting; ashy/faded-brown ground, irregular rusty-white spots, pale scapular marks, white underparts with side/throat brown and coarse flank streaks, incomplete pale tail bands.
+- **Limits/confidence:** primary male skin description; does not establish live soft-part colours, female size/colour or juvenile development.
+
+### HOS-OWLPAGES-2020 — newly indexed secondary synthesis, reread
+- **URL/section:** https://www.owlpages.com/owls/species.php?s=1900 ; Description and Size.
+- **Facts/design:** 15–17 cm, yellow adult eyes, greenish-yellow bill, untufted round head, paired pale-bordered nape false eyes, feathered tarsi; female reported heavier/often warmer.
+- **Limits:** no sex-specific sample or measurement; v3 uses near-equal standing height and only a subtle fullness/warmth cue.
+
+### HOS-ITIS-1063257 — new taxonomy mapping
+- **URL:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=1063257
+- **Use:** current valid *Glaucidium hoskinsii*; maps synonym *G. gnoma hoskinsii* used by the 2025 paper. No morphology/development inference.
+
+
 ## 2026-11-11 — #112 *Asio abyssinicus* v4 — juvenile-down texture correction and Dinsho habitat boundary
 
 ### ABY-BMNP-BIRDING-2026 — newly indexed institutional habitat page

@@ -1,0 +1,35 @@
+#131 Megascops watsonii — narrow Guianan conceptv1
+
+
+## #131 Megascops watsonii narrow Guianan unit — accessed2026-10-18
+WAT-DANTAS-2021: SidneiM.Dantas,JasonD.Weckstein,JohnBates,JoicianeN.Oliveira,ThereseA.Catanach,AlexandreAleixo2021 Multi-character taxonomic review...Zootaxa4949:401–444 DOI10.11646/zootaxa.4949.3.1 https://mapress.com/zt/article/download/zootaxa.4949.3.1/43285/46477 actualPDFdownload/readpp402/406–407/427–428. Narrowwatsonii cladeA GuianaShield eastBrancoNegro, oldOtuswatsonii partonly; phenotypicvariation preventsreliableIDfromplumagealone. Sexesnotseparatelyanalysedmostlymale/unsexed: NOT evidencefemaleheight. Oldbroadwatsonii/usta/ater/stangiae notoneundifferentiatedreference. Fig/tableirisdataofstangiaenotwatsonii excluded. Scope251unchanged pendingcompleteversionroster.
+WAT-DAFFONSECA-2017: Anselmod'Affonseca WA2661782 https://en.wikiaves.com.br/2661782&t=s&s=10514&tag=FOTOFILHOTE actualpublicEnglishcaptionandimageclickread/viewed. ManausAM,15Aug2017,published26Aug,Immaturesexundefined, observeroneoftwoyoung. Originalpublicimage https://s3.amazonaws.com/media.wikiaves.com.br/images/1662/2661782g_a7ec03e4312d036bdfcaf3a6f8c5b453.jpg downloaded/viewed. Darkgraybrownfluffybarredbody, darkbrownappearingeye/rimnotcalibrated, palebluegraybill/softpaleeyeedges, foldedwinglargelyhidden, stabletoegripperch. Noexactage/flightproof/nestshape; communityIDregionalcompatiblenarrowGuianannotgenetics/vocalvalidated. PortuguesebareURL403notbypassed, independentlypublicEnglishpageanditsnormalimageclicksucceeded. Copyrightno sourcecopyrepo, summarylinksonly.
+WAT-SCAUP-2024: photographer scaup/iNaturalistphoto467826413,12Nov2024Guyana; Commons https://commons.wikimedia.org/wiki/File:Megascops_watsonii_467826413.jpg actualmetadataandoriginalpixelsviewed. CCBY4.0 https://creativecommons.org/licenses/by/4.0/ . Fullyfeatheredgraybrown/tawnybellydarkshafts/darkbrowniris/graybill; ageandsexnotverified (NOTsexedpair). Usedadultappearancecandidatewithbook, notassertknownadultstage. Noexactcoordinatesreproduced. AnotherCommons524709809actuallyustaBrazilexcludedfromnarrowwatsonii, despitefiletitle; importanttaxonscopeerroravoidance.
+WAT-MIK2013-235: uploadedMikkola2013PDF237/printed235textread: juvenileNOTKNOWN, cannotinvent. Adultlongertufts/finevermiculations/nopalescapularouterwebs/greenishgraybill/featheredtarsibareochretoes; amberorangeyesclaimconflictsGuyananphotodarkappearance andnewnarrowtaxonomy, retainedunknownnotuniversalyellow. Choosephotodocumentedfluffyimmaturegraybrownstagewithdarkappearingeyes; exactpigment/ageunknownsciencefalse. BookwesternYasuni/Peru broadscopepotentialusta notunqualifiedreference. New4IDs,reuse0. [Cycle5](../production/runs/2026-10-18T1258+0800-cycle-5.md). Designroostbranch notinventednest; near-equaladultdisplay notRSDmeasurement.
+
+ActualnewPNGviewed, noadditionaledit requiredforgrossstage/support: darkfluffyphoto-stageyoung/darkappearingiris/palebill/hiddenfoldedwing/notadultwingwhitepatches, adultdustygraybrownupperparts/tawnyshaftedbelly/nopalescapularband andnaturalfootcontacts. Exacteyeplumagetone/age/sexsize stillunknownsciencefalse. External2021narrowtaxon restrictsreference; wholeoldbookrangeNOTadopted. Gen58s,edit0. Fullprompts/stages ../../production/runs/2026-10-18T1258+0800-cycle-5.md . PNG2773496bytes SHA256b091a6ad8f555efcfd20ebf6c0776001bc95d88ff6841476e29d8886b9446999 Gitblobf9a17371e4df24ff7ae2c29b3f326878690fffe7.
+
+
+## #131 *Megascops watsonii* narrow Guiana Shield unit — v3, 2026-10-31
+
+- Taxonomy: current narrow Guiana Shield/east-of-Branco–Negro unit follows WAT-DANTAS-2021; older broad *Otus/Megascops watsonii* usage is only mapped in part and does not authorize transfer of western *usta/stangiae* details.
+- Adult boundary: dark to amber-brown appearing eyes, gray-brown/tawny shafted plumage, no imposed female-larger rule. Adults are drawn at near-equal skeletal height with distinct poses; female only subtly fuller as a layout cue, not a measured dimorphism claim.
+- Young boundary: WAT-DAFFONSECA-2017 supports an age-unknown dark-eyed, fluffy barred older young with pale bill and stable support. V3 keeps residual down, a compact formed folded wing wholly above the feet, concealed tail and bilateral branch grip; exact age, flight threshold and tract chronology are unknown.
+- Habitat: WAT-BARROS-CINTRA-2009 pp.85–96 supports primary terra firme forest context and snag/tree association at Reserva Ducke; it does not support a nest depiction. V3 therefore uses a living mossy forest branch and makes no nest claim.
+- Review: initial v3 wing reached near the feet. One imagegen edit compacted it under down. Whole frame and two crops opened; PASS_WITH_LIMITATIONS; science false. Research: [v3](../../research/species/131-megascops-watsonii-v3.md). Run: [cycle 5](../../production/runs/20261031T181700+0800-cycle-5.md).
+
+
+## #131 *Megascops watsonii* narrow Guiana Shield unit — v4, 2026-11-06
+
+- Re-read uploaded Mikkola PDF p.237 / printed p.235: adults 19–23 cm, sexual size differences not documented, dusty dark gray-brown without white scapular outer webs, amber to brownish-orange eyes, greenish-gray bill; juvenile explicitly unknown.
+- Added WAT-SACC-937-2022 and WAT-ITIS-686672-2026. The taxonomic split remains disputed; current/old names are *M. watsonii*, *Otus watsonii* and *Ephialtes watsonii*.
+- V3 had near-cloned adults, wire-like texture and an exposed mature juvenile wing. Fresh v4 separated poses and matte texture; edit 1 shortened and down-obscured the young wing. Whole frame plus two crops passed with limitations.
+- Unknowns retained: exact young age, flight, full feather sequence, sex ratio and universal narrow-unit color. Science false. Research: [v4](../../research/species/131-megascops-watsonii-v4.md). Review: [v4](../../research/reviews/131-megascops-watsonii-v4-review.md). Run: [cycle 2](../../production/runs/20261106T225300+0800-cycle-2.md).
+
+## #131 *Megascops watsonii* — v5 research boundary, 2026-11-12
+
+- Freshly re-read the Dantas journal page/abstract and SACC Proposal 937: the complex is genetically structured but lacks a concrete morphology/vocal diagnosis accepted by SACC. “Guiana Shield concept” is therefore a design scope, not a scientific-resolution claim.
+- Reused WA2661782 only for an age/sex-unknown photographed older young. The bird must not be labelled nestling, fledgling or flight-capable; Mikkola's guide says the juvenile is not known.
+- V5 preserves near-equal adults and compact down-obscured juvenile wing, replacing the static frontal young with a cautious sideways head turn and two-foot supported shuffle. No sex-size rule, exact age or flight inference. Science remains false.
+- V5 full plate and all three role crops were actually opened. Exact labels, three-bird order, non-mirrored near-equal adults, compact down-obscured young wing, two-foot shuffle and all six supported feet pass. No targeted edit was needed; imagegen invocations 1, edits 0. This validates the pose-variation rule for this image only, not a general developmental claim.
+

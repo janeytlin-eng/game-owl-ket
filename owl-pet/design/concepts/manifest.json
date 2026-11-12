@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12",
+  "updated": "2026-11-12T23:54:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -35094,7 +35094,88 @@
       "verification_tree": "5a27189a582a0ac92260a133273a9725a8bba702",
       "verification_commit_pending": false,
       "ledger_credited_at": "2026-11-12T23:11:00+08:00"
+    },
+    {
+      "id": "168-ketupa-leucosticta-v4",
+      "species_id": 168,
+      "scientific_name": "Ketupa leucosticta",
+      "historical_names": [
+        "Bubo leucostictus",
+        "Huhua leucosticta"
+      ],
+      "common_name": "Akun Eagle-Owl",
+      "version": 4,
+      "prior_versions_retained": [
+        1,
+        2,
+        3
+      ],
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "path": "design/concepts/168-ketupa-leucosticta-v4.png",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "status": "V4 preserves v1-v3 and replaces the static age-unknown young with a primary-field-documented about-50-day non-flying young moving carefully among branches. Bilateral connected-branch support, short soft developing wing, hidden tail and no nest/flight are explicit. Adults remain near-equal with only a restrained limited-series darker-male/warmer-female palette; science=false.",
+      "source_ids": [
+        "AKUN-BROSSET-ERARD-1986-P226",
+        "AKUN-MNHN-MO-1876-2027",
+        "AKUN-NATURALIS-TYPES-2023-P178",
+        "AKUN-SHARPE-1875-P41",
+        "AKUN-SHARPE-BATES-1904-P443"
+      ],
+      "unverified_leads": [],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/168-ketupa-leucosticta-v4.md",
+      "review_record": "research/reviews/168-ketupa-leucosticta-v4-review.md",
+      "run_record": "production/runs/20261112T234106+0800-cycle-1.md",
+      "reviewed_at": "2026-11-12T23:50:50+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 2988614,
+      "sha256": "3b443b4efdece299c48eb9691be3aef66bb163e57cae9d857dfb5ba57fb58115",
+      "git_blob": "4b6289e994d7b25d464d62b317e2af6ebc6d8f70",
+      "initial_original_path": "production/generated/168-ketupa-leucosticta-v4-initial-original.png",
+      "initial_original_blob": "4b6289e994d7b25d464d62b317e2af6ebc6d8f70",
+      "initial_original_size_bytes": 2988614,
+      "final_original_path": "production/generated/168-ketupa-leucosticta-v4-final-original.png",
+      "final_original_blob": "4b6289e994d7b25d464d62b317e2af6ebc6d8f70",
+      "final_original_size_bytes": 2988614,
+      "full_color_source_path": "production/generated/168-ketupa-leucosticta-v4-full-color.png",
+      "full_color_source_blob": "4b6289e994d7b25d464d62b317e2af6ebc6d8f70",
+      "full_color_source_size_bytes": 2988614,
+      "reviewed_path": "production/reviewed/168-ketupa-leucosticta-v4-reviewed-master.png",
+      "reviewed_blob": "4b6289e994d7b25d464d62b317e2af6ebc6d8f70",
+      "reviewed_size_bytes": 2988614,
+      "review_crops": [
+        {
+          "path": "production/review-crops/168-ketupa-leucosticta-v4-adult-male.png",
+          "blob": "c33240f18c902e55f888a2dbb7cf88b7b12347fb",
+          "size_bytes": 721587,
+          "sha256": "d34e2fa2e1965cc7604fd194b536f35b022490211deca826a3b7db78e0a5f74d"
+        },
+        {
+          "path": "production/review-crops/168-ketupa-leucosticta-v4-adult-female.png",
+          "blob": "4856f3e5b950b4948ff7f130c9d6a431a9121071",
+          "size_bytes": 720810,
+          "sha256": "671e80f8e245014179ef67abf84a54d88db9b20571a112aa597ef049f39125bd"
+        },
+        {
+          "path": "production/review-crops/168-ketupa-leucosticta-v4-young.png",
+          "blob": "fd97831b81d72b597ac220a5ac0dc4d01a0084e9",
+          "size_bytes": 690459,
+          "sha256": "bacf59a08e8315eff2e533411f4549ed8acf8713fab1f56c5486029b922fe8d6"
+        }
+      ],
+      "archive_note": "V1-v3 preserved. New primary field evidence: Brosset & Erard 1986 p.226. Full plate and three crops opened; edit0. Mikkola upload not mounted. PASS_WITH_LIMITATIONS; science=false.",
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false,
+      "ledger_credited": false,
+      "batch_id": "20261112T234106+0800",
+      "batch_cycle": 1
     }
   ],
-  "updated_at": "2026-11-12T23:06:00+08:00"
+  "updated_at": "2026-11-12T23:54:00+08:00"
 }

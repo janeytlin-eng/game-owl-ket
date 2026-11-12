@@ -1,0 +1,57 @@
+name: "Owl-pet #172 external CC0 base inspection (one-off)"
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "owl-pet/3d-experiments/172-tyto-castanops/run09-trigger.txt"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: owl-pet-172-cc0-inspection
+  cancel-in-progress: false
+
+jobs:
+  inspect-external-base:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare zero-cost Blender inspection environment
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq blender
+          blender --version | head -3
+      - name: Download and validate CC0 adult-owl candidate
+        run: |
+          set -euo pipefail
+          mkdir -p qa-out
+          curl -fLSs --retry 2 --connect-timeout 15 --max-time 180             "https://files.innerscene.com/library/owl-d696472a/8ecea479b865c7141318/owl.glb"             -o qa-out/external_owl_original_CC0_claim.glb
+          test "$(wc -c < qa-out/external_owl_original_CC0_claim.glb)" -gt 1000000
+          python3 - <<'PY'
+          from pathlib import Path
+          p=Path('qa-out/external_owl_original_CC0_claim.glb')
+          assert p.read_bytes()[:4] == b'glTF', 'Not a GLB'
+          print('GLB_HEADER_OK',p.stat().st_size)
+          PY
+          sha256sum qa-out/external_owl_original_CC0_claim.glb | tee qa-out/original_sha256.txt
+      - name: Import and actually render 4 directions, export mobile LOD
+        run: |
+          set -euo pipefail
+          blender -b --factory-startup --python             owl-pet/3d-experiments/172-tyto-castanops/tools/inspect_cc0_blender.py             -- qa-out/external_owl_original_CC0_claim.glb qa-out             2>&1 | tee qa-out/blender.log
+          test -s qa-out/front.png
+          test -s qa-out/threequarter.png
+          test -s qa-out/side.png
+          test -s qa-out/rear.png
+          test -s qa-out/external_owl_adult_lod_UNAPPROVED.glb
+          sha256sum qa-out/external_owl_adult_lod_UNAPPROVED.glb             | tee qa-out/lod_sha256.txt
+      - name: Archive independent experiment evidence even on failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-cc0-acquisition-qa-NOT-APPROVED
+          path: qa-out/
+          if-no-files-found: warn
+          retention-days: 14

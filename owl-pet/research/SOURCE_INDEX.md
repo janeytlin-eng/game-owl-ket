@@ -1,3 +1,35 @@
+## 2026-11-13 — #175 *Otus ireneae* v4 — uploaded guide reread, current taxonomy and habitat boundary
+
+### SSO-MIKKOLA-2013-P134
+- Title / author / year: *Owls of the World: A Photographic Guide* / Heimo Mikkola / 2013.
+- Stable location: user-uploaded PDF, printed p.134 / PDF p.136; accessed 2026-11-13.
+- Species/stage: adult morphology, broad juvenile statement and habitat.
+- Useful facts: 16–18 cm, 45–55 g, small ear-tufts, three morphs plus intermediates, pale-yellow adult eyes, no evidence of sexual size difference; juvenile said to resemble adult.
+- Limits/confidence: high for guide text; no juvenile age, iris, chronology, flight threshold, nest or sex-linked morph.
+- Design use: near-equal adults; no morph/sex mapping; age-unknown supported fledgling. Linked record: [#175 v4](species/175-otus-ireneae-v4.md).
+
+### SSO-VIRANI-NJOROGE-GORDON-REPORT
+- Title/authors: *Population status of Sokoke Scops Owls Otus ireneae in the Arabuko-Sokoke Forest, Kenya* / Munir Z. Virani, Peter Njoroge & Iain Gordon.
+- URL: https://www.owlpages.info/owls/articles/Sokoke_Scops_Owl.pdf
+- Accessed/type: 2026-11-13; institutional report; pp.2–4 and cover image actually read.
+- Useful facts: Cynometra association and morph variability; photographed individuals are not sex- or age-labelled.
+- Limits/confidence: cannot support sex-linked colour, size dimorphism or a family/juvenile identification.
+- Design use: Cynometra setting and non-sex-linked morph boundary. Linked record: [#175 v4](species/175-otus-ireneae-v4.md).
+
+### SSO-IUCN-2025
+- Title/institution/year: *Otus ireneae* assessment / BirdLife International–IUCN / 2025.
+- DOI: https://doi.org/10.2305/IUCN.UK.2025-1.RLTS.T22688565A179910467.en
+- Accessed: 2026-11-13; current conservation assessment.
+- Useful facts: Endangered; Kenya and Tanzania; 50–400 m.
+- Limits: not a juvenile morphology or sex-difference source. Design use: range/habitat boundary only.
+
+### SSO-ITIS-202273
+- Title/institution: ITIS Standard Report, TSN 202273 / Integrated Taxonomic Information System.
+- URL: https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=202273
+- Accessed: 2026-11-13; taxonomy database.
+- Useful facts: current valid name *Otus ireneae* Ripley, 1966; IOC 15.1 corroboration.
+- Limits: taxonomy only. Design use: current name and older-literature mapping.
+
 ## 2026-11-12 — #164 *Strix hadorami* v4 — taxonomy corroboration and v3 visual correction
 
 ### DESERTOWL-PUBMED-KIRWAN-2015

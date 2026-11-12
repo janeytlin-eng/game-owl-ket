@@ -1,3 +1,7 @@
+## 2026-11-12 — #151 *Athene jacquinoti* v4 immutable archive VERIFIED; ledger credit pending
+
+Archive [`f4e3ddf14505f1bccc2cda42796adfc832dfe52b`](https://github.com/janeytlin-eng/game-owl-ket/commit/f4e3ddf14505f1bccc2cda42796adfc832dfe52b) / tree `f9b6ca420d66f44424dd0ebb876b4556e23fd558` was fetched back from `main`. The recursive tree has 4,655 entries and is not truncated. Nine PNG paths match four exact Git blobs and byte sizes; local PNG decoding and SHA-256 passed. The three manifests parse at 832/801/810, contain #151 v4 exactly once and point to the same verified blobs. `PASS_WITH_LIMITATIONS`; science=false; unique coverage remains 176/251; cycle credit pending.
+
 ## 2026-11-12 — #151 West Solomons Owl — *Athene jacquinoti* v4 ARCHIVED
 
 V4 preserves v1-v3 and adds a new evidence-bounded trio. Two institutional sources were indexed and four stable records reread. The old-name/current-name conflict is explicit; adults remain near equal because no quantified sex direction exists. V3’s closed-eye juvenile presentation is replaced by an open-eyed, dark-irised age-unknown older juvenile with short down-veiled wing, hidden tail and two-foot support. Full plate and three crops were opened; no edit was needed. `PASS_WITH_LIMITATIONS`; science=false; unique coverage remains 176/251; immutable readback pending.

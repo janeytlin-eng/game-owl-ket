@@ -30738,7 +30738,7 @@
       "revision_increment": 1,
       "edit_count": 0,
       "imagegen_invocations": 1,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "WSO-MNHN-RECORD-2010-270",
         "WSO-MNHN-VOISIN-2011-P26",
@@ -30797,12 +30797,41 @@
       ],
       "archive_note": "V1-v3 retained. Two institutional source records newly indexed; four stable records reread. V3 closed eyes corrected as presentation rather than developmental evidence. Full plate and three role crops opened; no edit required. Exact juvenile chronology, dimorphism and nest contents remain unknown. Fresh Mikkola upload unavailable.",
       "archived_at": "2026-11-12T16:38:14+08:00",
-      "archive_commit_pending": true,
-      "readback_pending": true,
-      "exact_readback": false,
+      "archive_commit_pending": false,
+      "readback_pending": false,
+      "exact_readback": true,
       "ledger_credited": false,
-      "updated_at": "2026-11-12T16:38:14+08:00"
+      "updated_at": "2026-11-12T16:38:14+08:00",
+      "archive_commit": "f4e3ddf14505f1bccc2cda42796adfc832dfe52b",
+      "archive_tree": "f9b6ca420d66f44424dd0ebb876b4556e23fd558",
+      "verified_at": "2026-11-12T16:40:32+08:00",
+      "verification_result": "PASS_WITH_LIMITATIONS",
+      "required_paths_verified": 21,
+      "exact_binary_paths_verified": 9,
+      "unique_binary_streams_tree_verified": 4,
+      "readback": {
+        "status": "VERIFIED",
+        "archive_commit": "f4e3ddf14505f1bccc2cda42796adfc832dfe52b",
+        "tree_sha": "f9b6ca420d66f44424dd0ebb876b4556e23fd558",
+        "tree_entries": 4655,
+        "tree_truncated": false,
+        "required_paths_verified": 21,
+        "exact_binary_paths_verified": 9,
+        "manifest_counts": {
+          "concepts": 832,
+          "image": 801,
+          "design": 810
+        },
+        "manifest_json_valid": true,
+        "manifest_exact_blob_readback": true,
+        "path_blob_readback": true,
+        "local_png_full_decode": true,
+        "sha256_verified": true,
+        "unique_species": "176/251",
+        "scientifically_verified": false
+      },
+      "verification_commit_pending": true
     }
   ],
-  "updated_at": "2026-11-12T16:38:14+08:00"
+  "updated_at": "2026-11-12T16:40:32+08:00"
 }

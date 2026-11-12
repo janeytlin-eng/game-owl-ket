@@ -66,6 +66,9 @@ def area_light(name, pos, power, size):
 area_light('Key', center + Vector((span*1.5, -span*2, span*2.1)), 350, span*2)
 area_light('Fill', center + Vector((-span*1.5, span*.3, span*1.3)), 200, span*2)
 world = bpy.context.scene.world
+if world is None:
+    world = bpy.data.worlds.new('QA World')
+    bpy.context.scene.world = world
 world.use_nodes = True
 world.node_tree.nodes['Background'].inputs['Color'].default_value = (.68,.71,.73,1)
 world.node_tree.nodes['Background'].inputs['Strength'].default_value = .8

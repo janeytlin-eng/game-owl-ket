@@ -1,0 +1,133 @@
+name: "Owl #172 Run91 independent real GLB PBR + pixel-gate ablation (ART REJECTED)"
+on:
+  push:
+    branches: [research/owl172-run91-pbr-foreground-validation]
+    paths:
+      - .github/workflows/owl-pet-172-run91-pbr-foreground-qa.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run91_pbr_ablation.py
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run91_blender_qa.py
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run91_pixel_gate.py
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: owl172-run91-pbr-evidence
+  cancel-in-progress: false
+jobs:
+  genuine-glb-blender-threejs-research:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            .github/workflows/owl-pet-172-run91-pbr-foreground-qa.yml
+            owl-pet/3d-experiments/172-tyto-castanops/tools/mesoptile_organic_sculpt_trial_v31.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run91_pbr_ablation.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run91_blender_qa.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run91_pixel_gate.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/organic_viewer_qa_index.html
+            owl-pet/3d-experiments/172-tyto-castanops/tools/organic_viewer_qa_main.js
+            owl-pet/3d-experiments/172-tyto-castanops/tools/organic_mobile_webgl_smoke.mjs
+          sparse-checkout-cone-mode: false
+      - name: "Generate 3 genuinely different GLB material-normal configurations and reimport"
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p qa91
+          python3 -m venv /tmp/owl172run91
+          /tmp/owl172run91/bin/pip install -q numpy scipy scikit-image trimesh pillow
+          D=owl-pet/3d-experiments/172-tyto-castanops/tools
+          /tmp/owl172run91/bin/python "$D/run91_pbr_ablation.py" qa91 --resolution 108 > qa91/build.log 2>&1 || { tail -100 qa91/build.log; exit 31; }
+          cat qa91/build.log
+          /tmp/owl172run91/bin/python - <<'PY'
+          import json,hashlib,pathlib
+          p=pathlib.Path('qa91'); m=json.loads((p/'metrics.json').read_text())
+          assert len(m['variants'])==3 and m['release_approved'] is False
+          assert len(set(x['triangles'] for x in m['variants']))==1
+          assert [(x['body_color_0_in_gltf'],x['body_normal_in_gltf']) for x in m['variants']]==[(True,False),(True,True),(False,True)]
+          for v in m['variants']:
+              x=p/v['glb']
+              assert x.is_file() and hashlib.sha256(x.read_bytes()).hexdigest()==v['sha256']
+          print('REAL_GLB_MATERIAL_NORMAL_ABLATION_ROUNDTRIP_OK_NOT_ART_APPROVED')
+          PY
+      - name: "Install free Blender and render 12 native Cycles views"
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq blender python3-numpy
+          D=owl-pet/3d-experiments/172-tyto-castanops/tools
+          blender -b --factory-startup -t 2 --python-exit-code 42 --python "$D/run91_blender_qa.py" -- qa91 > qa91/blender.log 2>&1 || { tail -120 qa91/blender.log; exit 32; }
+          test "$(find qa91 -maxdepth 1 -name 'run91_*.png' | wc -l)" -eq 12
+      - name: "Three.js lit PBR + normal GLB on Chromium SwiftShader and actual screenshot pixel measurements"
+        shell: bash
+        run: |
+          set -euo pipefail
+          D=owl-pet/3d-experiments/172-tyto-castanops/tools
+          mkdir -p qa91/browser /tmp/owl172run91viewer
+          cp "$D/organic_viewer_qa_index.html" /tmp/owl172run91viewer/index.html
+          cp "$D/organic_viewer_qa_main.js" /tmp/owl172run91viewer/main.js
+          cp "$D/organic_mobile_webgl_smoke.mjs" /tmp/owl172run91viewer/mobile_webgl_smoke.mjs
+          set +e
+          cd /tmp/owl172run91viewer
+          npm init -y >/dev/null
+          npm install --silent --no-save three@0.181 vite@7.2 playwright@1.56 > "$GITHUB_WORKSPACE/qa91/npm.log" 2>&1
+          npm_status=$?
+          if [ "$npm_status" -eq 0 ]; then
+            npx playwright install chromium >> "$GITHUB_WORKSPACE/qa91/npm.log" 2>&1
+            npx vite --host 127.0.0.1 --port 4173 > "$GITHUB_WORKSPACE/qa91/vite.log" 2>&1 &
+            sleep 6
+            for label in source_vertex_colors_implicit_normals source_vertex_colors_explicit_normals flat_cream_pbr_explicit_normals; do
+              cp "$GITHUB_WORKSPACE/qa91/owl172_run91_${label}_ART_REJECTED.glb" candidate.glb
+              node mobile_webgl_smoke.mjs "$GITHUB_WORKSPACE/qa91/browser/${label}" > "$GITHUB_WORKSPACE/qa91/browser_${label}.log" 2>&1
+              echo "${label} smoke_exit=$?" >> "$GITHUB_WORKSPACE/qa91/browser_status.txt"
+            done
+          else
+            echo "Browser dependencies unavailable npm_exit=${npm_status}" > "$GITHUB_WORKSPACE/qa91/browser_status.txt"
+          fi
+          cd "$GITHUB_WORKSPACE"
+          /tmp/owl172run91/bin/python "$D/run91_pixel_gate.py" qa91/browser > qa91/pixel.log 2>&1
+          cat qa91/pixel.log
+          exit 0
+      - name: "Independent provenance, explicit failure status, real checksum manifest"
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p qa91
+          cat > qa91/ART_REJECTED_DO_NOT_PUBLISH.txt <<'TXT'
+          Run91: genuine 3D GLB control variants from prior continuous sculpt,
+          but all are rejected as an artistic juvenile Tasmanian masked owl.
+          Three.js 0 GL errors is NOT a material visibility test; this run
+          explicitly measures rendered screenshot pixel luminance and compares
+          vertex COLOR_0, explicit NORMAL and flat rough PBR controls.
+          A flat cream material may fix brightness while DESTROYING the face:
+          it is NOT a deliverable pet character or a valid heart-disc solution.
+          The underlying bag-like anatomy, needle down, folded wing and foot
+          remain invalid; no physical mobile hardware/GPU/animation/FPS QA.
+          Do not deploy, showcase as finished or modify 251 species production.
+          TXT
+          find qa91 -type f ! -name SHA256SUMS.txt -print0 | sort -z | xargs -0 sha256sum > qa91/SHA256SUMS.txt
+          test -s qa91/SHA256SUMS.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run91-3d-pbr-black-shading-negative-evidence
+          path: qa91/
+          retention-days: 14
+          if-no-files-found: warn
+      - name: "Persist actual binaries, 12 Cycles views, 6 browser captures and negative proof ONLY to research branch"
+        if: success()
+        shell: bash
+        run: |
+          set -euo pipefail
+          dst=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run91-PBR-FOREGROUND-ART-REJECTED
+          mkdir -p "$dst"
+          cp -a qa91/. "$dst/"
+          git config user.name owl172-research-bot
+          git config user.email owl172-research-bot@users.noreply.github.com
+          git add --sparse "$dst"
+          git commit -m "research(owl172): persist Run91 3 real GLBs, Cycles, Three.js and pixel gate negative controls"
+          git push origin HEAD:research/owl172-run91-pbr-foreground-validation

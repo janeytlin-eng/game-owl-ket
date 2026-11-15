@@ -1,0 +1,49 @@
+{
+  "phase": "binary_checked_not_art_approved",
+  "reference_sha256": "881dec86e0e66ab2ad0781db86a3b719b35e710d2be1a1606d761a9d0908483d",
+  "crop_box_plate_xyxy": [
+    970,
+    260,
+    1435,
+    836
+  ],
+  "mask_bbox_crop_xyxy": [
+    0,
+    21,
+    416,
+    576
+  ],
+  "mask_active_coverage": 0.6311417264038232,
+  "source_size": [
+    1536,
+    1024
+  ],
+  "neural_input_sha256": "fa16b3f0643770bbfb950ece907d47266d1684ad8c05ed26304b2847b09c2526",
+  "input_only_rightmost_age_unknown_mesoptile": true,
+  "single_view_side_back_artificially_inferred": true,
+  "segmentation_manual_approval": false,
+  "art_approved": false,
+  "source": "official open source VAST-AI-Research/TripoSR weights stabilityai/TripoSR",
+  "cpu": true,
+  "resolution": 112,
+  "vertices": 15691,
+  "triangles": 31342,
+  "reimport_triangles": 31342,
+  "watertight": true,
+  "euler_number": 20,
+  "glb_bytes": 628380,
+  "glb_sha256": "7bb15375e640d1d2d97a1eb47624ec79879b7da4cf6279d1a190c41489da2918",
+  "seconds": 71.81,
+  "pbr": {
+    "pbr_material_injected": 1,
+    "colored_primitives": 1,
+    "metallic_factor": 0.0,
+    "roughness": 0.95
+  },
+  "glb_file": "owl172_run92_neural_SINGLEVIEW_ART_UNREVIEWED.glb",
+  "original_source": "exact #172 rightmost v3 plate cropped and separately foreground-segmented",
+  "side_back_are_ai_inferred_not_reference_verified": true,
+  "natural_down_fur_not_implemented": true,
+  "real_phone_gpu_not_tested": true,
+  "glb_reimport_audit": true
+}

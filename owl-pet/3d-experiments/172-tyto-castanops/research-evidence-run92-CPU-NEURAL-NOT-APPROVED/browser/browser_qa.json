@@ -1,0 +1,59 @@
+{
+  "renderer": "Chromium SwiftShader software, not Android or iOS hardware",
+  "cases": [
+    {
+      "name": "desktop",
+      "loaded": true,
+      "meshes": 1,
+      "triangles": 31342,
+      "frames": 134,
+      "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "glError": 0,
+      "framing_before": {
+        "left": -0.43491349616624625,
+        "right": 0.39008100909969035,
+        "bottom": -0.6769942154145747,
+        "top": 0.5847914783375755,
+        "inFrame": true
+      },
+      "framing_after": {
+        "left": -0.40752740952570626,
+        "right": 0.47054094622183945,
+        "bottom": -0.8684620416875859,
+        "top": 0.5862421405867764,
+        "inFrame": true
+      },
+      "orbit_changed": true,
+      "errors": [],
+      "sourceFront": "REJECTED: front eye nodes not located at +Z",
+      "important_note": "No scientific side/back verification; +Z eye-node heuristic applies only to prior sculpt and must be disregarded for TripoSR"
+    },
+    {
+      "name": "phone_simulated",
+      "loaded": true,
+      "meshes": 1,
+      "triangles": 31342,
+      "frames": 147,
+      "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "glError": 0,
+      "framing_before": {
+        "left": -0.7084471805181085,
+        "right": 0.630657212563742,
+        "bottom": -0.28496547810117334,
+        "top": 0.2484963174577813,
+        "inFrame": true
+      },
+      "framing_after": {
+        "left": -0.7763111947479255,
+        "right": 0.7984169602765842,
+        "bottom": -0.34577571195014634,
+        "top": 0.29422380637425183,
+        "inFrame": true
+      },
+      "orbit_changed": true,
+      "errors": [],
+      "sourceFront": "REJECTED: front eye nodes not located at +Z",
+      "important_note": "No scientific side/back verification; +Z eye-node heuristic applies only to prior sculpt and must be disregarded for TripoSR"
+    }
+  ]
+}

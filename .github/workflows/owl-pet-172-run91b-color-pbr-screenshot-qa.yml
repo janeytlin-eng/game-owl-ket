@@ -1,0 +1,121 @@
+name: "Owl #172 Run91B vertex-color PBR repair (ART REJECTED)"
+on:
+  push:
+    branches: [research/owl172-run91b-glb-color-pbr-fix]
+    paths:
+      - .github/workflows/owl-pet-172-run91b-color-pbr-screenshot-qa.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run91b_fix_color_pbr.py
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run91b_blender_qa.py
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: owl172-run91b-matte-pbr-archive
+  cancel-in-progress: false
+jobs:
+  real-material-correction-visual-benchmark:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 32
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            .github/workflows/owl-pet-172-run91b-color-pbr-screenshot-qa.yml
+            owl-pet/3d-experiments/172-tyto-castanops/tools/mesoptile_organic_sculpt_trial_v31.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run91b_fix_color_pbr.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run91b_blender_qa.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run91_pixel_gate.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/organic_viewer_qa_index.html
+            owl-pet/3d-experiments/172-tyto-castanops/tools/organic_viewer_qa_main.js
+            owl-pet/3d-experiments/172-tyto-castanops/tools/organic_mobile_webgl_smoke.mjs
+          sparse-checkout-cone-mode: false
+      - name: "Two real same-geometry GLBs; correct glTF default metal=1 without losing COLOR_0"
+        run: |
+          set -euo pipefail
+          mkdir -p qa91b
+          python3 -m venv /tmp/owl172run91b
+          /tmp/owl172run91b/bin/pip install -q numpy scipy scikit-image trimesh pillow
+          D=owl-pet/3d-experiments/172-tyto-castanops/tools
+          /tmp/owl172run91b/bin/python "$D/run91b_fix_color_pbr.py" qa91b --resolution 108 > qa91b/build.log 2>&1 || { tail -100 qa91b/build.log; exit 40; }
+          cat qa91b/build.log
+          /tmp/owl172run91b/bin/python - <<'PY'
+          import json,hashlib,pathlib
+          p=pathlib.Path('qa91b');d=json.loads((p/'metrics.json').read_text())
+          assert len(d['variants'])==2 and d['old_geometry_no_anatomy_fix']
+          assert d['material_repair']['count']>2 and d['material_repair']['vertex_COLOR_0_preserved']
+          assert d['variants'][0]['triangle_count']==d['variants'][1]['triangle_count']
+          for v in d['variants']:
+              f=p/v['glb']; assert f.is_file() and f.stat().st_size>100000
+              assert hashlib.sha256(f.read_bytes()).hexdigest()==v['sha256']
+          print('ACTUAL_GLB_JSON_PBR_REPAIRED_IDENTICAL_GEOMETRY_ART_STILL_REJECTED')
+          PY
+      - name: "8 native Blender Cycles images under identical light"
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq blender python3-numpy
+          D=owl-pet/3d-experiments/172-tyto-castanops/tools
+          blender -b --factory-startup -t 2 --python-exit-code 42 --python "$D/run91b_blender_qa.py" -- qa91b > qa91b/blender.log 2>&1 || { tail -120 qa91b/blender.log; exit 41; }
+          test "$(find qa91b -maxdepth 1 -name 'run91b_*.png' | wc -l)" -eq 8
+      - name: "Real Three.js model screenshots + independent image pixel material validation"
+        run: |
+          set -euo pipefail
+          D=owl-pet/3d-experiments/172-tyto-castanops/tools
+          mkdir -p qa91b/browser /tmp/owl172run91bviewer
+          cp "$D/organic_viewer_qa_index.html" /tmp/owl172run91bviewer/index.html
+          cp "$D/organic_viewer_qa_main.js" /tmp/owl172run91bviewer/main.js
+          cp "$D/organic_mobile_webgl_smoke.mjs" /tmp/owl172run91bviewer/mobile_webgl_smoke.mjs
+          set +e
+          cd /tmp/owl172run91bviewer
+          npm init -y >/dev/null
+          npm install --silent --no-save three@0.181 vite@7.2 playwright@1.56 > "$GITHUB_WORKSPACE/qa91b/npm.log" 2>&1
+          npm_status=$?
+          if [ "$npm_status" -eq 0 ]; then
+            npx playwright install chromium >> "$GITHUB_WORKSPACE/qa91b/npm.log" 2>&1
+            npx vite --host 127.0.0.1 --port 4173 > "$GITHUB_WORKSPACE/qa91b/vite.log" 2>&1 &
+            sleep 6
+            for label in default_metal_implicit vertex_color_matte_pbr_repaired; do
+              cp "$GITHUB_WORKSPACE/qa91b/owl172_run91b_${label}_REJECTED.glb" candidate.glb
+              node mobile_webgl_smoke.mjs "$GITHUB_WORKSPACE/qa91b/browser/${label}" > "$GITHUB_WORKSPACE/qa91b/browser_${label}.log" 2>&1
+              echo "${label} smoke_exit=$?" >> "$GITHUB_WORKSPACE/qa91b/browser_status.txt"
+            done
+          else
+            echo "npm unavailable exit=${npm_status}" > "$GITHUB_WORKSPACE/qa91b/browser_status.txt"
+          fi
+          cd "$GITHUB_WORKSPACE"
+          /tmp/owl172run91b/bin/python "$D/run91_pixel_gate.py" qa91b/browser > qa91b/pixel.log 2>&1
+          cat qa91b/pixel.log
+          exit 0
+      - name: "Unambiguous ART_REJECTED + source, hashes and binary provenance"
+        if: always()
+        run: |
+          mkdir -p qa91b
+          cat > qa91b/ART_REJECTED_DO_NOT_PUBLISH.txt <<'TXT'
+          Run91B strictly material/lighting correction; original and repaired
+          are SAME 3D anatomy. The explicit matte material preserves original
+          COLOR_0 and NORMAL. Repaired brightness is a TECHNICAL pass only.
+          Heart mask, eye, wing, side/rear, cream fluff and feet remain art FAIL.
+          SwiftShader simulated phone viewport is NOT physical phone GPU.
+          No real phone FPS/memory/thermal, PBR animation or touch acceptance.
+          No deployment or change to 251 species pipeline; no paid tool used.
+          TXT
+          find qa91b -type f ! -name SHA256SUMS.txt -print0 | sort -z | xargs -0 sha256sum > qa91b/SHA256SUMS.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run91b-matte-vertex-color-correctness-art-rejected
+          path: qa91b/
+          retention-days: 14
+      - name: "Persist ONLY dedicated research branch evidence"
+        if: success()
+        run: |
+          set -euo pipefail
+          dst=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run91b-MATTE-COLOR-PBR-ART-REJECTED
+          mkdir -p "$dst"
+          cp -a qa91b/. "$dst/"
+          git config user.name owl172-research-bot
+          git config user.email owl172-research-bot@users.noreply.github.com
+          git add --sparse "$dst"
+          git commit -m "research(owl172): Run91B real matte vertex COLOR_0 WebGL verification negative evidence"
+          git push origin HEAD:research/owl172-run91b-glb-color-pbr-fix

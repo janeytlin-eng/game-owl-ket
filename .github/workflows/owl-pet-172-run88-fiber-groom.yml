@@ -2,7 +2,9 @@ name: "Owl #172 Run88 real hair groom experimental NOT APPROVED"
 on:
   push:
     branches: [research/owl172-run88-fiber-native-groom]
-    paths: [.github/workflows/owl-pet-172-run88-fiber-groom.yml]
+    paths:
+      - .github/workflows/owl-pet-172-run88-fiber-groom.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run88_cycles_fiber_groom.py
   workflow_dispatch:
 permissions:
   contents: write

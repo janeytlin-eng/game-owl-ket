@@ -14,11 +14,11 @@ bpy.context.view_layer.cycles.use_denoising=False
 S.render.resolution_x=460; S.render.resolution_y=460
 S.render.resolution_percentage=100
 S.render.image_settings.file_format='PNG'
-S.view_settings.view_transform='Standard';S.view_settings.exposure=-.4
-S.world=bpy.data.worlds.new('Run95 neutral PBR check world')
+S.view_settings.view_transform='Standard';S.view_settings.exposure=-1.5
+S.world=bpy.data.worlds.new('Run95B deliberately lower-power neutral PBR check world')
 S.world.use_nodes=True
 S.world.node_tree.nodes['Background'].inputs['Color'].default_value=(.45,.47,.50,1)
-S.world.node_tree.nodes['Background'].inputs['Strength'].default_value=.7
+S.world.node_tree.nodes['Background'].inputs['Strength'].default_value=.45
 
 def clean():
     bpy.ops.object.select_all(action='SELECT')
@@ -35,9 +35,9 @@ def scene_assets():
     lo,hi=bounds(); c=(lo+hi)/2; ext=max((hi-lo))
     L=[]
     for name,d,e,sz in [
-       ('key',(-1.3,-1.4,1.7),210,1.7),
-       ('fill',(1.7,-.4,1.1),100,2.1),
-       ('rim',(.4,1.1,1.5),170,1.3)]:
+       ('key',(-1.3,-1.4,1.7),12,1.7),
+       ('fill',(1.7,-.4,1.1),6,2.1),
+       ('rim',(.4,1.1,1.5),10,1.3)]:
         pos=c+Vector(d)*ext
         bpy.ops.object.light_add(type='AREA',location=pos)
         o=bpy.context.object;o.name='run95_'+name

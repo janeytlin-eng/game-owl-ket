@@ -1,0 +1,94 @@
+{
+  "status": "ART_UNREVIEWED_NOT_APPROVED",
+  "reference_sha256": "881dec86e0e66ab2ad0781db86a3b719b35e710d2be1a1606d761a9d0908483d",
+  "base_sculpt": "repository v31 organic SDF head/body",
+  "not_a_photogrammetry_scan": true,
+  "not_approved": true,
+  "hardware_mobile_tested": false,
+  "variants": [
+    {
+      "label": "baseline_v31_no_down",
+      "glb": "owl172_run90_baseline_v31_no_down_ART_UNREVIEWED.glb",
+      "sha256": "8305072acf349c765d10e9ac8b6b52be5d8db5f60d5b7573bea355f73a37cfa4",
+      "bytes": 2035464,
+      "triangles": 106112,
+      "mesh_count": 23,
+      "vertex_color_meshes": 23,
+      "base_watertight": true,
+      "photo_projection": {
+        "affected_vertex_count": 0,
+        "max_weight": 0
+      },
+      "alpha_down": false,
+      "release_approved": false
+    },
+    {
+      "label": "reference_projection_no_down",
+      "glb": "owl172_run90_reference_projection_no_down_ART_UNREVIEWED.glb",
+      "sha256": "270704fc43b06351eea60d378e45ddb6f3b2cccefbaa062bbc45879b79667be9",
+      "bytes": 2570344,
+      "triangles": 106112,
+      "mesh_count": 23,
+      "vertex_color_meshes": 23,
+      "base_watertight": true,
+      "photo_projection": {
+        "affected_vertex_count": 16160,
+        "weight_over_0_5": 11600,
+        "max_weight": 0.8700000047683716,
+        "image_projection_uv_rule": {
+          "u": "1186 + 35*clip((Z-.68)/.24) + X*366",
+          "v": "795-(Z-.14)*430"
+        },
+        "color_source": "same source user's v3 three-bird concept; rightmost chick only",
+        "underlying_base_shape_unchanged": true,
+        "side_back_texture_authored": false,
+        "photogrammetric_depth_inferred": false
+      },
+      "alpha_down": false,
+      "release_approved": false
+    },
+    {
+      "label": "reference_projection_alpha_down",
+      "glb": "owl172_run90_reference_projection_alpha_down_ART_UNREVIEWED.glb",
+      "sha256": "6a3e668c55cd7f2beaa2425228c4dced23d3abaf33e24fb8719433379c8e70ae",
+      "bytes": 2940404,
+      "triangles": 113112,
+      "mesh_count": 24,
+      "vertex_color_meshes": 23,
+      "base_watertight": true,
+      "photo_projection": {
+        "affected_vertex_count": 16160,
+        "weight_over_0_5": 11600,
+        "max_weight": 0.8700000047683716,
+        "image_projection_uv_rule": {
+          "u": "1186 + 35*clip((Z-.68)/.24) + X*366",
+          "v": "795-(Z-.14)*430"
+        },
+        "color_source": "same source user's v3 three-bird concept; rightmost chick only",
+        "underlying_base_shape_unchanged": true,
+        "side_back_texture_authored": false,
+        "photogrammetric_depth_inferred": false
+      },
+      "alpha_down": true,
+      "release_approved": false
+    }
+  ],
+  "cycles_render_count": 12,
+  "cycles_renders": [
+    "run90_baseline_v31_no_down_front.png",
+    "run90_baseline_v31_no_down_threequarter.png",
+    "run90_baseline_v31_no_down_strict_side.png",
+    "run90_baseline_v31_no_down_back.png",
+    "run90_reference_projection_no_down_front.png",
+    "run90_reference_projection_no_down_threequarter.png",
+    "run90_reference_projection_no_down_strict_side.png",
+    "run90_reference_projection_no_down_back.png",
+    "run90_reference_projection_alpha_down_front.png",
+    "run90_reference_projection_alpha_down_threequarter.png",
+    "run90_reference_projection_alpha_down_strict_side.png",
+    "run90_reference_projection_alpha_down_back.png"
+  ],
+  "blender_version": "4.0.2",
+  "gpu_render": "CPU_Cycles_not_phone_GPU",
+  "visual_gate": "PENDING_HUMAN_VIEW_INSPECTION_ART_NOT_APPROVED"
+}

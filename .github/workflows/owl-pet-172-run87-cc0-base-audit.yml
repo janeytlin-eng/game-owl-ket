@@ -1,0 +1,97 @@
+name: "Owl #172 Run87 CC0 organic 3D base audit - not pet approved"
+on:
+  push:
+    branches:
+      - research/owl172-run87-cc0-organic-base-audit
+    paths:
+      - .github/workflows/owl-pet-172-run87-cc0-base-audit.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/run87-trigger.txt
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: owl172-run87-cc0-reference
+  cancel-in-progress: true
+jobs:
+  free-asset-anatomy-audit:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 24
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            .github/workflows/owl-pet-172-run87-cc0-base-audit.yml
+            owl-pet/3d-experiments/172-tyto-castanops/
+          sparse-checkout-cone-mode: false
+      - name: Fetch CC0 reference with provenance, without API/payment
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p qa-out
+          printf '%s\n' 'Source page https://www.innerscene.com/tools/library/3d-parts/owl-d696472a' 'Site claims CC0 for its original asset. Recheck attribution and upstream ownership before reuse.' 'Source may be adult, unrelated species, or low quality; this is reference-only.' > qa-out/SOURCE_PROVENANCE_AND_LIMITS.txt
+          curl --fail --location --retry 3 --max-time 180 -A "Mozilla/5.0" \
+            'https://files.innerscene.com/library/owl-d696472a/8ecea479b865c7141318/owl.glb' \
+            --output qa-out/source_owl_innerscene_CC0_REFERENCE_ONLY.glb
+          python3 - <<'PY'
+          import os,struct
+          p='qa-out/source_owl_innerscene_CC0_REFERENCE_ONLY.glb'
+          b=open(p,'rb').read(12)
+          assert b[:4]==b'glTF' and int.from_bytes(b[8:12],'little')==os.path.getsize(p)
+          print('REAL_DOWNLOADED_GLB',os.path.getsize(p))
+          PY
+          sha256sum qa-out/source_owl_innerscene_CC0_REFERENCE_ONLY.glb > qa-out/source.sha256
+      - name: Install actual free Blender
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq blender
+          blender --version | head -3
+      - name: Run genuine topology inspection, eight real Cycles views and GLB roundtrip
+        run: |
+          set -euo pipefail
+          blender -b --factory-startup -t 2 --python \
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run87_cc0_reference_blender_audit.py \
+            -- qa-out/source_owl_innerscene_CC0_REFERENCE_ONLY.glb qa-out \
+            2>&1 | tee qa-out/blender-run87.log
+          test -s qa-out/owl172_run87_cc0_import_roundtrip_NOT_A_PET.glb
+          for i in 00 01 02 03 04 05 06 07; do test -s qa-out/source_view_${i}.png; done
+          python3 - <<'PY'
+          import hashlib,json,pathlib
+          p=pathlib.Path('qa-out')
+          d=json.loads((p/'source_mesh_audit.json').read_text())
+          g=(p/'owl172_run87_cc0_import_roundtrip_NOT_A_PET.glb').read_bytes()
+          assert d['source_total_triangles']>0 and d['roundtrip_mesh_count']>0
+          assert d['reexport_sha256']==hashlib.sha256(g).hexdigest()
+          assert d['source_as_juvenile_approved'] is False
+          print('EVIDENCE_VALID_SOURCE_ONLY_NOT_FINAL_OWL',d['source_total_triangles'])
+          PY
+      - name: Mark all source outputs nonapproved
+        if: always()
+        run: |
+          mkdir -p qa-out
+          cat > qa-out/ART_REJECTED_SOURCE_ONLY.txt <<'TXT'
+          RESEARCH SOURCE ONLY. NOT a Tyto castanops juvenile, not an owl-pet,
+          NOT art-approved. Only after a real multi-angle sculpt, fluffy down,
+          species correction, PBR glTF/phone hardware QA may any pet sample be shown.
+          This source was retrieved solely for non-paid modeling feasibility.
+          TXT
+      - name: Temporary independent evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run87-cc0-source-only-NOT-ART-APPROVED
+          path: qa-out/
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Persist 8-view evidence and GLB only to isolated research branch
+        if: success()
+        run: |
+          set -euo pipefail
+          dst=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run87-CC0-SOURCE-ONLY
+          mkdir -p "$dst"
+          cp qa-out/* "$dst/"
+          git config user.name "owl172-research-bot"
+          git config user.email "owl172-research-bot@users.noreply.github.com"
+          git add "$dst"
+          git commit -m "research(owl172): archive genuine CC0 3D source and Cycles turntable; NOT a juvenile"
+          git push origin HEAD:${{ github.ref_name }}

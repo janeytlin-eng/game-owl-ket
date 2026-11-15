@@ -1,0 +1,116 @@
+name: "Owl #172 Run93 GroomLab FREE engine true 3D feather-groom probe (NO RELEASE)"
+on:
+  push:
+    branches: [research/owl172-run93-groomlab-free-groom-engine-probe]
+    paths:
+      - .github/workflows/owl-pet-172-run93-free-groomlab-probe.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run93_groomlab_free_engine_probe.py
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: owl172-run93-free-engine-no-release
+  cancel-in-progress: false
+jobs:
+  inspect-and-try-real-open-source-feather-groom:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            .github/workflows/owl-pet-172-run93-free-groomlab-probe.yml
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run93_groomlab_free_engine_probe.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/render_glb_four_views.py
+          sparse-checkout-cone-mode: false
+      - name: "Retrieve REAL previously rejected continuous 3D juvenile model, not production assets"
+        run: |
+          set -euo pipefail
+          mkdir -p qa93
+          git fetch --filter=blob:none --depth=1 origin research/owl172-run92-anatomical-juvenile-sculpt-microgroom >qa93/source_fetch.log 2>&1
+          git show FETCH_HEAD:owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run92-ANATOMICAL-JUVENILE-ART-REJECTED/owl172_run92_new_sculpt_soft_tuft_REJECTED.glb >qa93/baseline_run92C_ART_REJECTED.glb
+          echo "6bc98227580d178e5750c6abd8903c31d956172b6afeacf20257dabf661d2d53  qa93/baseline_run92C_ART_REJECTED.glb" | sha256sum -c -
+          git rev-parse HEAD >qa93/research_branch_commit.txt
+      - name: "Explore open-source real groom engine: compile upstream and test helper"
+        run: |
+          set -u
+          sudo apt-get update -qq >qa93/apt.log 2>&1
+          sudo apt-get install -y -qq cmake ninja-build libtbb-dev libimath-dev libopenexr-dev build-essential >>qa93/apt.log 2>&1
+          git clone -q --depth=1 --branch dev https://github.com/thekesslereffect/groomlab.git /tmp/owl172groomlab >qa93/groom_clone.log 2>&1
+          rc=$?
+          if [ "$rc" != 0 ]; then echo "clone_failed=$rc" >qa93/tool_status.txt; exit 0; fi
+          cd /tmp/owl172groomlab
+          git rev-parse HEAD > "$GITHUB_WORKSPACE/qa93/upstream_commit.txt"
+          sed -n '1,25p' LICENSE > "$GITHUB_WORKSPACE/qa93/upstream_license_header.txt"
+          cmake --preset linux-core -DGROOMLAB_BUILD_MAYA=OFF -DGROOMLAB_BUILD_APP=OFF > "$GITHUB_WORKSPACE/qa93/cmake_configure.log" 2>&1
+          rc=$?
+          if [ "$rc" != 0 ]; then
+            echo "configure_failed=$rc" > "$GITHUB_WORKSPACE/qa93/tool_status.txt"
+            tail -90 "$GITHUB_WORKSPACE/qa93/cmake_configure.log"
+            exit 0
+          fi
+          cmake --build --preset linux-core --target groomlab-helper groomlab-cli --parallel 2 > "$GITHUB_WORKSPACE/qa93/cmake_build.log" 2>&1
+          rc=$?
+          echo "build_exit=$rc" > "$GITHUB_WORKSPACE/qa93/tool_status.txt"
+          find build -type f \( -name 'groomlab-helper' -o -name 'groomlab-cli' \) >> "$GITHUB_WORKSPACE/qa93/tool_status.txt"
+          if [ "$rc" != 0 ]; then tail -90 "$GITHUB_WORKSPACE/qa93/cmake_build.log"; fi
+          exit 0
+      - name: "Actual free fur/card geometry generation from previous genuine GLB (failure is evidence)"
+        run: |
+          set -u
+          cd "$GITHUB_WORKSPACE"
+          helper=$(find /tmp/owl172groomlab/build -type f -name groomlab-helper -executable 2>/dev/null | head -1)
+          if [ -z "$helper" ]; then
+            echo "GROOMLAB_HELPER_NOT_BUILT" >qa93/model_tool_blocked.txt
+            exit 0
+          fi
+          python3 -m venv /tmp/owl172run93py
+          /tmp/owl172run93py/bin/pip install -q numpy trimesh pillow fast-simplification >qa93/python_install.log 2>&1
+          rc=$?
+          if [ "$rc" != 0 ]; then echo "PIP_INSTALL_FAILED_$rc" >qa93/model_tool_blocked.txt; exit 0; fi
+          /tmp/owl172run93py/bin/python owl-pet/3d-experiments/172-tyto-castanops/tools/run93_groomlab_free_engine_probe.py \
+            --helper "$helper" \
+            --baseline qa93/baseline_run92C_ART_REJECTED.glb --out qa93 > qa93/engine_probe_stdout.log 2>&1
+          rc=$?
+          echo "probe_exit=$rc" >>qa93/tool_status.txt
+          cat qa93/engine_probe_stdout.log | tail -90
+          if [ -f qa93/owl172_run93_combined_TOOL_PROBE_ART_REJECTED.glb ]; then
+            sudo apt-get install -y -qq xvfb libgl1 >>qa93/apt.log 2>&1
+            /tmp/owl172run93py/bin/pip install -q vtk >>qa93/python_install.log 2>&1
+            xvfb-run -a /tmp/owl172run93py/bin/python owl-pet/3d-experiments/172-tyto-castanops/tools/render_glb_four_views.py \
+              qa93/owl172_run93_combined_TOOL_PROBE_ART_REJECTED.glb qa93/four_views \
+              > qa93/real_3d_render.log 2>&1 || echo "FUR_3D_RENDER_FAILED" >qa93/render_failure.txt
+          fi
+          exit 0
+      - name: "Strictly rejected verdict, cryptographic evidence, NO 251 production change"
+        if: always()
+        run: |
+          mkdir -p qa93
+          cat >qa93/ART_REJECTED_DO_NOT_PUBLISH.txt <<'TXT'
+          This experimental GroomLab engine integration tests a FREE genuine grooming pipeline.
+          Previous sculpt and all newly produced exports are ART_REJECTED, NOT accepted bird art.
+          No depiction shall be published without visual multi-view acceptance and physical phone testing.
+          No subscription or paid GPU/tool credits were purchased. No production changes or deployment.
+          TXT
+          find qa93 -type f ! -name SHA256SUMS.txt -print0 | sort -z | xargs -0 sha256sum >qa93/SHA256SUMS.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run93-groomlab-free-tool-actual-evidence-ART-REJECTED
+          path: qa93/
+          retention-days: 14
+      - name: "Permanently quarantine evidence in independent research branch"
+        if: always()
+        run: |
+          set -euo pipefail
+          dst=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run93-GROOMLAB-TOOL-PROBE-ART-REJECTED
+          mkdir -p "$dst"
+          cp -a qa93/. "$dst/"
+          git config user.name owl172-research-bot
+          git config user.email owl172-research-bot@users.noreply.github.com
+          git add --sparse "$dst"
+          if git diff --cached --quiet; then echo "No new evidence"; else
+            git commit -m "research(owl172): archive actual free GroomLab engine and GLB-groom probe evidence"
+            git push origin HEAD:research/owl172-run93-groomlab-free-groom-engine-probe
+          fi

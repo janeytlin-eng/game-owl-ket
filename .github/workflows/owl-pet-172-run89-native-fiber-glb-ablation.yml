@@ -60,6 +60,7 @@ jobs:
           assert f.is_file() and len(m["paired_native_and_exportable_cycles_views"])==8
           assert m["glb_sha256"]==hashlib.sha256(f.read_bytes()).hexdigest()
           assert m["actual_native_guides_sampled"]>250
+          assert m["original_particle_modifier_explicitly_disabled_for_baked_renders"]
           assert m["baked_mesh_reimport_triangles"]>3000
           assert m["decision"]=="ART_REJECTED_TEST_ONLY" and not m["approved_release"]
           print("REAL_BAKED_FIBER_GLTF_REIMPORT_BUT_ART_REJECTED",m["glb_sha256"])
@@ -68,18 +69,18 @@ jobs:
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: owl172-run89-native-guide-baked-glb-ART-REJECTED
+          name: owl172-run89b-corrected-baked-render-ART-REJECTED
           path: qa89/
           retention-days: 14
       - name: Durable rejected binary archive on isolated research branch only
         if: success()
         run: |
           set -euo pipefail
-          dst=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run89-REAL-HAIR-GLB-ART-REJECTED
+          dst=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run89b-ISOLATED-HAIR-RENDER-ART-REJECTED
           mkdir -p "$dst"
           cp qa89/* "$dst/"
           git config user.name owl172-research-bot
           git config user.email owl172-research-bot@users.noreply.github.com
           git add --sparse "$dst"
-          git commit -m "research(owl172): archive Run89 genuine hair guide GLB bake and negative QA"
+          git commit -m "research(owl172): archive Run89B real vs baked correctly isolated hair render negative QA"
           git push origin HEAD:research/owl172-run89-baked-fiber-glb-ablation

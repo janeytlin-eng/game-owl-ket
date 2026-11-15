@@ -10,6 +10,8 @@ assert len(metrics["variants"])==3
 scene=bpy.context.scene
 scene.render.engine="CYCLES"
 scene.cycles.samples=20
+scene.cycles.use_denoising=False
+bpy.context.view_layer.cycles.use_denoising=False
 scene.render.resolution_x=480
 scene.render.resolution_y=480
 scene.render.resolution_percentage=100

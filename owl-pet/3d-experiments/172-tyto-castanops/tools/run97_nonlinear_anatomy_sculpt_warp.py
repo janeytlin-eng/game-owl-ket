@@ -16,25 +16,24 @@ bpy.ops.object.delete(use_global=False)
 bpy.ops.import_scene.gltf(filepath=source)
 objs=[o for o in bpy.context.scene.objects if o.type=="MESH"]
 assert len(objs)>12, len(objs)
-# Internal coordinates: after GLB import Y up, bird faces -Z as per source
-# mesh source. Preserve the natural tree hollow prop (no scaling to fake fit).
+# IMPORTANT: Blender glTF importer converts glTF Y-up back to Blender Z-up.\n# Original sculpt vertical coordinate is Z, front is negative Y.\n# Preserve natural tree hollow prop (no scaling to fake fit).
 def fld(y,loc=.99,spread=.65):
     return math.exp(-((y-loc)/spread)**2)
 def warp(v):
     x,y,z=v
-    belly=fld(y,1.34,.59)
-    shoulder=fld(y,1.74,.36)
-    h=fld(y,2.43,.46)
+    belly=fld(z,1.34,.59)
+    shoulder=fld(z,1.74,.36)
+    h=fld(z,2.43,.46)
     # More rotund mesoptile compared with previous narrow upright pill:
     # all connected body, coat, toes and bill transform coherently in 3D.
     strength={"mild":.18,"broad":.33}[variant]
     x=x*(1+strength*belly+.045*shoulder-.05*h)
-    z=z*(1+.10*belly)
+    y=y*(1+.10*belly)
     # Lower thorax compresses gently; head crown stays intact.
     s={"mild":.95,"broad":.89}[variant]
-    if .52<y<2.00:
-        t=math.sin(math.pi*(y-.52)/1.48)**2
-        y+=-(1-s)*.34*t
+    if .52<z<2.00:
+        t=math.sin(math.pi*(z-.52)/1.48)**2
+        z+=-(1-s)*.34*t
     return Vector((x,y,z))
 counter=0
 bounds_before=[]

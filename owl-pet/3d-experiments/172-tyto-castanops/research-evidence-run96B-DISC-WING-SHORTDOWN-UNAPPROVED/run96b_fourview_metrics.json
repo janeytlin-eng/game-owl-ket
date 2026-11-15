@@ -1,0 +1,38 @@
+{
+  "render_engine": "Blender 4.x Cycles CPU true GLB import",
+  "imported_mesh_count": 24,
+  "triangles": 220216,
+  "bounds_m": [
+    2.071,
+    1.5634,
+    3.3706
+  ],
+  "renders": [
+    {
+      "view": "front",
+      "file": "run96b_actual_cycles_front.png",
+      "bytes": 352275,
+      "sha256": "498a38ac3eb5c237ebedde228a92c02e82af3b58f46c614ccccb38da04a0f163"
+    },
+    {
+      "view": "threequarter",
+      "file": "run96b_actual_cycles_threequarter.png",
+      "bytes": 349657,
+      "sha256": "86304115fdf8ede3adb1dbb7f0146598c40c5ca4b28f8c179a8084f95647c946"
+    },
+    {
+      "view": "strict_side",
+      "file": "run96b_actual_cycles_strict_side.png",
+      "bytes": 345364,
+      "sha256": "c92c11b323d8e515e7ede047325e91620b9741f8bbebe1aaf47d4e0eee3704a3"
+    },
+    {
+      "view": "rear",
+      "file": "run96b_actual_cycles_rear.png",
+      "bytes": 359111,
+      "sha256": "75925723a2b972d71c006c81158fcdebadafc05eed683a7e1b43e292532ebf02"
+    }
+  ],
+  "aesthetic_verdict": "PENDING_MANUAL_IMAGE_INSPECTION",
+  "real_phone_gpu": false
+}

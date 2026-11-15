@@ -44,7 +44,7 @@ jobs:
           assert m['reimported_mesh_count']>=10 and m['reimported_face_count']>50000
           print('GLB_ROUNDTRIP_HASH_VALIDATED_NONRELEASE',m['reimported_mesh_count'],m['reimported_face_count'])
           PY
-          for angle in front threequarter side back; do test -s qa-out/sculpt85_${angle}.png; done
+          for angle in front threequarter side back; do test -s qa-out/sculpt86_${angle}.png; done
           sha256sum qa-out/owl172_run86_organic_integrated_face_ART_PENDING.glb > qa-out/model.sha256
       - name: Preserve research with strong rejection semantics
         if: always()
@@ -68,7 +68,7 @@ jobs:
           set -euo pipefail
           dst=owl-pet/3d-experiments/172-tyto-castanops/uncertified-binary-run86
           mkdir -p "$dst"
-          cp qa-out/owl172_run86_organic_integrated_face_ART_PENDING.glb qa-out/sculpt85_*.png qa-out/metrics.json qa-out/model.sha256 qa-out/blender_run86.log qa-out/README.txt "$dst/"
+          cp qa-out/owl172_run86_organic_integrated_face_ART_PENDING.glb qa-out/sculpt86_*.png qa-out/metrics.json qa-out/model.sha256 qa-out/blender_run86.log qa-out/README.txt "$dst/"
           git config user.name "owl172-research-bot"
           git config user.email "owl172-research-bot@users.noreply.github.com"
           git add "$dst"

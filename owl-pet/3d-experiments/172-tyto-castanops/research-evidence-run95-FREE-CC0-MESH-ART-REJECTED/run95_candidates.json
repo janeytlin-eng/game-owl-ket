@@ -1,0 +1,88 @@
+{
+  "kind": "Run95 CC0 free public adult/juvenile owl mesh scout",
+  "target": "#172 Tyto castanops v3 RIGHT cream mesoptile",
+  "generation_cost_usd": 0,
+  "user_model_ready": false,
+  "verdict": "ART_REJECTED_PENDING_TRUE_ART_AND_MOBILE_GPU",
+  "api_queries": {
+    "barn owl": {
+      "returned": 30,
+      "source": "https://3dassets.dev/api/v1/assets?q=barn+owl&limit=30"
+    },
+    "masked owl": {
+      "returned": 30,
+      "source": "https://3dassets.dev/api/v1/assets?q=masked+owl&limit=30"
+    },
+    "owlet": {
+      "returned": 0,
+      "source": "https://3dassets.dev/api/v1/assets?q=owlet&limit=30"
+    },
+    "baby owl": {
+      "returned": 13,
+      "source": "https://3dassets.dev/api/v1/assets?q=baby+owl&limit=30"
+    },
+    "owl": {
+      "returned": 4,
+      "source": "https://3dassets.dev/api/v1/assets?q=owl&limit=30"
+    }
+  },
+  "errors": [],
+  "candidate_summaries": [
+    {
+      "slug": "birds-and-reptiles-hd-barn-owl-b51d286f",
+      "name": "Barn owl (Birds and Reptiles HD)",
+      "score": 110,
+      "cdnUrl": "https://cdn.3dassets.dev/assets/28079/v1/model.glb",
+      "license": {
+        "slug": "cc0-1.0",
+        "name": "CC0 1.0 Universal",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "attributionRequired": false
+      },
+      "triangles": null,
+      "description": ""
+    },
+    {
+      "slug": "birds-and-reptiles-hd-snowy-owl-257f670d",
+      "name": "Snowy owl (Birds and Reptiles HD)",
+      "score": 10,
+      "cdnUrl": "https://cdn.3dassets.dev/assets/28080/v1/model.glb",
+      "license": {
+        "slug": "cc0-1.0",
+        "name": "CC0 1.0 Universal",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "attributionRequired": false
+      },
+      "triangles": null,
+      "description": ""
+    }
+  ],
+  "downloaded": [
+    {
+      "slug": "birds-and-reptiles-hd-barn-owl-b51d286f",
+      "display_name": "Barn owl (Birds and Reptiles HD)",
+      "score": 110,
+      "file": "CC0_original_birds-and-reptiles-hd-barn-owl-b51d286f.glb",
+      "bytes": 369708,
+      "sha256": "044dbcfeaf008deff45ff7f227fb0c0dc7e984177a20745345656e1b4b141bc2",
+      "source_url": "https://cdn.3dassets.dev/assets/28079/v1/model.glb",
+      "licence": "CC0 claimed by origin site; independent provenance unverified",
+      "claimed_species": "Barn owl (Birds and Reptiles HD)",
+      "original_art_approved": false,
+      "age_and_taxon_verified": false
+    },
+    {
+      "slug": "birds-and-reptiles-hd-snowy-owl-257f670d",
+      "display_name": "Snowy owl (Birds and Reptiles HD)",
+      "score": 10,
+      "file": "CC0_original_birds-and-reptiles-hd-snowy-owl-257f670d.glb",
+      "bytes": 360464,
+      "sha256": "b5aefa7f13f271e5f441baade9fe4fcdf53a203e58565ecf9c893030361d3c70",
+      "source_url": "https://cdn.3dassets.dev/assets/28080/v1/model.glb",
+      "licence": "CC0 claimed by origin site; independent provenance unverified",
+      "claimed_species": "Snowy owl (Birds and Reptiles HD)",
+      "original_art_approved": false,
+      "age_and_taxon_verified": false
+    }
+  ]
+}

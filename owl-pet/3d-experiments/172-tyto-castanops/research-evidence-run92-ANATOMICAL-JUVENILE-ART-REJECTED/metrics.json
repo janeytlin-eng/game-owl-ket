@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-16",
+  "model": "#172 Tyto castanops v3 right cream juvenile",
+  "verdict": "ART_REJECTED_UNTIL_MULTIVIEW_HUMAN_REVIEW",
+  "user_demo": false,
+  "fresh_implicit_sculpt": true,
+  "previous_pear_sculpt_deformed": false,
+  "physical_phone_tested": false,
+  "previous_reference_side_back_unknown": true,
+  "glTF_COLOR_0_nonmetal_PBR_repair": true,
+  "variants": [
+    {
+      "label": "prior_run91b_repaired_control",
+      "glb": "owl172_run91b_vertex_color_matte_pbr_repaired_REJECTED.glb",
+      "bytes": 2714864,
+      "sha256": "47088e4e5a3c6267bdb01d0cf9e5bdd344e1a6ba4f9d4955cb17a22ed61870c6",
+      "triangle_count": 102744,
+      "mesh_count": 24,
+      "approved": false,
+      "provenance": "Run91B existing rejected GLB"
+    },
+    {
+      "label": "new_sculpt_smooth",
+      "glb": "owl172_run92_new_sculpt_smooth_REJECTED.glb",
+      "bytes": 3241776,
+      "sha256": "a509fab929b38eea86f98f288e7bbf83f7729f5e9248d2f827e35fb5eeaf0562",
+      "triangle_count": 122968,
+      "mesh_count": 24,
+      "down_cards": 1200,
+      "connected_body_watertight": true,
+      "gltf_nonmetal_skin_material_meshes": 23,
+      "physical_phone_test": false,
+      "approved": false
+    },
+    {
+      "label": "new_sculpt_soft_tuft",
+      "glb": "owl172_run92_new_sculpt_soft_tuft_REJECTED.glb",
+      "bytes": 3743388,
+      "sha256": "6bc98227580d178e5750c6abd8903c31d956172b6afeacf20257dabf661d2d53",
+      "triangle_count": 129568,
+      "mesh_count": 24,
+      "down_cards": 4500,
+      "connected_body_watertight": true,
+      "gltf_nonmetal_skin_material_meshes": 23,
+      "physical_phone_test": false,
+      "approved": false
+    }
+  ],
+  "cycles_renders": [
+    "run92_prior_run91b_repaired_control_front.png",
+    "run92_prior_run91b_repaired_control_threequarter.png",
+    "run92_prior_run91b_repaired_control_strict_side.png",
+    "run92_prior_run91b_repaired_control_back.png",
+    "run92_new_sculpt_smooth_front.png",
+    "run92_new_sculpt_smooth_threequarter.png",
+    "run92_new_sculpt_smooth_strict_side.png",
+    "run92_new_sculpt_smooth_back.png",
+    "run92_new_sculpt_soft_tuft_front.png",
+    "run92_new_sculpt_soft_tuft_threequarter.png",
+    "run92_new_sculpt_soft_tuft_strict_side.png",
+    "run92_new_sculpt_soft_tuft_back.png"
+  ],
+  "cycles_render_count": 12,
+  "blender_version": "4.0.2",
+  "visual_verdict": "UNREVIEWED_NOT_APPROVED"
+}

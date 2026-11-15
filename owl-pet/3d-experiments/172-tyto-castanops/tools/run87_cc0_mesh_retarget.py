@@ -25,8 +25,12 @@ for ob in list(meshes):
         bpy.data.objects.remove(ob,do_unlink=True)
 meshes=[o for o in bpy.data.objects if o.type=='MESH']
 assert len(removed)>50
-headbody=[o for o in meshes if 'great horned owl continuous thick body neck' in o.name.lower()]
-assert len(headbody)==1
+# Importer's object names ("Continuous anatomical skin | owl") differ from
+# underlying glTF geometry identifiers. Select by verified source topology.
+headbody=[o for o in meshes if 'continuous anatomical skin' in o.name.lower()]
+if len(headbody)!=1:
+    headbody=sorted(meshes,key=lambda o:len(o.data.polygons),reverse=True)[:1]
+assert len(headbody)==1 and len(headbody[0].data.polygons)>=15000
 
 def morph(p):
     # Original glTF world axes as imported by Blender: +X points toward beak,

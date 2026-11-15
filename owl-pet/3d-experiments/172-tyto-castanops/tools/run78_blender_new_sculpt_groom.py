@@ -58,6 +58,7 @@ for ob in (body,head): ob.select_set(True)
 bpy.context.view_layer.objects.active=body
 bpy.ops.object.join()
 active(body)
+bpy.ops.object.transform_apply(location=True,rotation=True,scale=True)
 body.data.remesh_voxel_size=.027
 bpy.ops.object.voxel_remesh()
 # Smooth, non-axisymmetric sculpt. Body and head must share actual skin topology.
@@ -79,6 +80,10 @@ for vert in body.data.vertices:
 body.name='continuous sculpted juvenile skin (research)'
 body.data.materials.clear();body.data.materials.append(cream)
 for p in body.data.polygons:p.use_smooth=True
+# Triangulate the continuous remeshed owl skin to sample its actual 3D surface for grooming.
+active(body)
+bpy.ops.object.modifier_add(type='TRIANGULATE')
+bpy.ops.object.modifier_apply(modifier=body.modifiers[-1].name)
 
 def meshob(name,verts,faces,material):
     me=bpy.data.meshes.new(name)

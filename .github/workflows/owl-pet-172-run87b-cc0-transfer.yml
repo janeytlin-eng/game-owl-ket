@@ -87,6 +87,6 @@ jobs:
           cp qa87b/owl172_run87b_cc0_anatomy_transfer_ART_REJECTED_PENDING.glb qa87b/transferred_juvenile_*.png qa87b/candidate_metrics.json qa87b/candidate.sha256 qa87b/blender-run87b.log qa87b/NOT_APPROVED.txt "$dst/"
           git config user.name "owl172-research-bot"
           git config user.email "owl172-research-bot@users.noreply.github.com"
-          git add "$dst"
+          git add --sparse "$dst"
           git commit -m "research(owl172): archive actual CC0 mesh retarget attempt, unapproved"
           git push origin HEAD:${{ github.ref_name }}

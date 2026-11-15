@@ -1,0 +1,40 @@
+{
+  "render_engine": "Blender Cycles native true 3D, four independent cameras",
+  "source": "run97_mild_NOT_APPROVED.glb",
+  "import_meshes": 24,
+  "triangles": 220216,
+  "dimensions_m": [
+    2.071,
+    1.5634,
+    3.3721
+  ],
+  "camera_ortho_scale_m": 4.08,
+  "views": [
+    {
+      "view": "front",
+      "file": "run97_mild_cycles_front.png",
+      "bytes": 245879,
+      "sha256": "c29c4b945aa6b12afd75965fd015979921cfc4dea6cfc699451406ae16a887e3"
+    },
+    {
+      "view": "threequarter",
+      "file": "run97_mild_cycles_threequarter.png",
+      "bytes": 243842,
+      "sha256": "b2c92ed2443a7599f869d095f6bf07290df3ee49dc0cf86e23540b8934fe3c51"
+    },
+    {
+      "view": "strict_side",
+      "file": "run97_mild_cycles_strict_side.png",
+      "bytes": 239976,
+      "sha256": "b8444ef18c216478b415b3bff6ef02dde644bda9692af0b5b781346f1f88578e"
+    },
+    {
+      "view": "rear",
+      "file": "run97_mild_cycles_rear.png",
+      "bytes": 250882,
+      "sha256": "5b1d1efed7836f05242e0fe01160350c5a8e501c017db0c4e9e392409c735b03"
+    }
+  ],
+  "aesthetic_acceptance": false,
+  "phone_gpu_tested": false
+}

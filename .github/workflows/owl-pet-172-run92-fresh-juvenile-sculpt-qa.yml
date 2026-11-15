@@ -1,0 +1,129 @@
+name: "Owl #172 Run92 fresh juvenile anatomy & cream tufts (RESEARCH ONLY)"
+on:
+  push:
+    branches: [research/owl172-run92-anatomical-juvenile-sculpt-microgroom]
+    paths:
+      - .github/workflows/owl-pet-172-run92-fresh-juvenile-sculpt-qa.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run92_fresh_anatomy_matte_glb.py
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run92_multiview_cycles.py
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: owl172-run92-new-juvenile-sculpt-no-deploy
+  cancel-in-progress: false
+jobs:
+  genuine-unified-mesh-and-real-viewer-ablation:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 38
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            .github/workflows/owl-pet-172-run92-fresh-juvenile-sculpt-qa.yml
+            owl-pet/3d-experiments/172-tyto-castanops/tools/mesoptile_organic_sculpt_trial_v31.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run92_fresh_anatomy_matte_glb.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run92_multiview_cycles.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run91_pixel_gate.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/organic_viewer_qa_index.html
+            owl-pet/3d-experiments/172-tyto-castanops/tools/organic_viewer_qa_main.js
+            owl-pet/3d-experiments/172-tyto-castanops/tools/organic_mobile_webgl_smoke.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run91b-MATTE-COLOR-PBR-ART-REJECTED/owl172_run91b_vertex_color_matte_pbr_repaired_REJECTED.glb
+          sparse-checkout-cone-mode: false
+      - name: "Generate genuine original connected 3D juvenile sculpt and two alpha-down grooming variants"
+        run: |
+          set -euo pipefail
+          mkdir -p qa92
+          D=owl-pet/3d-experiments/172-tyto-castanops
+          cp "$D/research-evidence-run91b-MATTE-COLOR-PBR-ART-REJECTED/owl172_run91b_vertex_color_matte_pbr_repaired_REJECTED.glb" qa92/
+          python3 -m venv /tmp/owl172run92
+          /tmp/owl172run92/bin/pip install -q numpy scipy scikit-image trimesh pillow
+          /tmp/owl172run92/bin/python "$D/tools/run92_fresh_anatomy_matte_glb.py" qa92 --resolution 116 >qa92/build.log 2>&1 || { tail -120 qa92/build.log; exit 40; }
+          cat qa92/build.log
+          /tmp/owl172run92/bin/python - <<'PY'
+          from pathlib import Path
+          import json,hashlib
+          d=json.loads(Path('qa92/metrics.json').read_text())
+          assert len(d['variants'])==3 and d['fresh_implicit_sculpt'] and not d['physical_phone_tested']
+          assert d['variants'][1]['connected_body_watertight'] and d['variants'][2]['connected_body_watertight']
+          assert d['variants'][2]['down_cards']>d['variants'][1]['down_cards']
+          for v in d['variants']:
+              p=Path('qa92')/v['glb']
+              assert p.is_file() and p.stat().st_size>500000
+              assert hashlib.sha256(p.read_bytes()).hexdigest()==v['sha256']
+          print('THREE_ACTUAL_GLBS_HASH_VERIFIED_REJECTED_UNTIL_ART_REVIEW')
+          PY
+      - name: "12 real Blender Cycles images at same camera and light; independently import genuine GLBs"
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq blender python3-numpy
+          D=owl-pet/3d-experiments/172-tyto-castanops/tools
+          blender -b --factory-startup -t 2 --python-exit-code 42 --python "$D/run92_multiview_cycles.py" -- qa92 >qa92/blender.log 2>&1 || { tail -120 qa92/blender.log; exit 41; }
+          test "$(find qa92 -maxdepth 1 -name 'run92_*.png' | wc -l)" -eq 12
+      - name: "Real Three.js GLB loads and recorded browser screenshots; explicit no real-phone claim"
+        run: |
+          set -euo pipefail
+          D=owl-pet/3d-experiments/172-tyto-castanops/tools
+          mkdir -p qa92/browser /tmp/owl172run92viewer
+          cp "$D/organic_viewer_qa_index.html" /tmp/owl172run92viewer/index.html
+          cp "$D/organic_viewer_qa_main.js" /tmp/owl172run92viewer/main.js
+          cp "$D/organic_mobile_webgl_smoke.mjs" /tmp/owl172run92viewer/mobile_webgl_smoke.mjs
+          set +e
+          cd /tmp/owl172run92viewer
+          npm init -y >/dev/null
+          npm install --silent --no-save three@0.181 vite@7.2 playwright@1.56 > "$GITHUB_WORKSPACE/qa92/npm.log" 2>&1
+          npm_status=$?
+          if [ "$npm_status" -eq 0 ]; then
+            npx playwright install chromium >> "$GITHUB_WORKSPACE/qa92/npm.log" 2>&1
+            npx vite --host 127.0.0.1 --port 4173 > "$GITHUB_WORKSPACE/qa92/vite.log" 2>&1 &
+            sleep 6
+            for label in prior_run91b_repaired_control new_sculpt_smooth new_sculpt_soft_tuft; do
+              if [ "$label" = prior_run91b_repaired_control ]; then
+                cp "$GITHUB_WORKSPACE/qa92/owl172_run91b_vertex_color_matte_pbr_repaired_REJECTED.glb" candidate.glb
+              else
+                cp "$GITHUB_WORKSPACE/qa92/owl172_run92_${label}_REJECTED.glb" candidate.glb
+              fi
+              node mobile_webgl_smoke.mjs "$GITHUB_WORKSPACE/qa92/browser/${label}" > "$GITHUB_WORKSPACE/qa92/browser_${label}.log" 2>&1
+              echo "${label} smoke_exit=$?" >> "$GITHUB_WORKSPACE/qa92/browser_status.txt"
+            done
+          else
+            echo "npm unavailable exit=${npm_status}" > "$GITHUB_WORKSPACE/qa92/browser_status.txt"
+          fi
+          cd "$GITHUB_WORKSPACE"
+          /tmp/owl172run92/bin/python "$D/run91_pixel_gate.py" qa92/browser > qa92/pixel.log 2>&1
+          cat qa92/pixel.log
+          exit 0
+      - name: "Fail-closed art status and binary/image SHA256 evidence"
+        if: always()
+        run: |
+          mkdir -p qa92
+          cat > qa92/ART_REJECTED_DO_NOT_PUBLISH.txt <<'TXT'
+          Run92 new signed-distance unified juvenile head/torso/wing attempt.
+          Engineering renders are not high-fidelity art signoff.
+          All 3D models in this archive remain ART_REJECTED pending actual visual review.
+          Preserve prior Run91B fixed PBR as control, not as an approved owl.
+          Real Android/iOS GPU, mobile FPS, rig/animation and touch are NOT tested.
+          Side and back of original plate are unknown. This is an experiment.
+          This workflow never modifies 251 species production or deploys a pet.
+          TXT
+          find qa92 -type f ! -name SHA256SUMS.txt -print0 | sort -z | xargs -0 sha256sum > qa92/SHA256SUMS.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run92-real-connected-juvenile-sculpt-unapproved
+          path: qa92/
+          retention-days: 14
+      - name: "Permanently archive actual rejected GLB and screenshots only in isolated research branch"
+        if: success()
+        run: |
+          set -euo pipefail
+          dst=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run92-ANATOMICAL-JUVENILE-ART-REJECTED
+          mkdir -p "$dst"
+          cp -a qa92/. "$dst/"
+          git config user.name owl172-research-bot
+          git config user.email owl172-research-bot@users.noreply.github.com
+          git add --sparse "$dst"
+          git commit -m "research(owl172): Run92 actual 3D new sculpt and softness ablation negative evidence"
+          git push origin HEAD:research/owl172-run92-anatomical-juvenile-sculpt-microgroom

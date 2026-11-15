@@ -37,8 +37,8 @@ for mat in bpy.data.materials:
     # modest opacity if present. This tests groom against a non-brown body.
     mix=mat.node_tree.nodes.new('ShaderNodeMixRGB')
     mix.blend_type='MIX'
-    mix.inputs[0].default_value=.90
-    mix.inputs[2].default_value=(.966,.894,.786,1)
+    mix.inputs[0].default_value=.76
+    mix.inputs[2].default_value=(.79,.645,.510,1)
     if links:
         origin=links[0].from_socket
         mat.node_tree.links.remove(links[0])
@@ -69,18 +69,18 @@ for i,weight in enumerate(values):
     group.add([i],weight,'REPLACE')
 hair=bpy.data.materials.new("Run88 natural cream melanin-free down fibers")
 hair.use_nodes=True
-hair.diffuse_color=(.982,.938,.856,1.)
+hair.diffuse_color=(.90,.80,.68,1.)
 nt=hair.node_tree
 nt.nodes.clear()
 output=nt.nodes.new("ShaderNodeOutputMaterial")
 try:
     shader=nt.nodes.new("ShaderNodeBsdfHairPrincipled")
     shader.parametrization='COLOR'
-    shader.inputs['Color'].default_value=(.982,.925,.812,1)
+    shader.inputs['Color'].default_value=(.89,.78,.65,1)
     shader.inputs['Roughness'].default_value=.52
 except Exception:
     shader=nt.nodes.new("ShaderNodeBsdfPrincipled")
-    shader.inputs['Base Color'].default_value=(.982,.925,.812,1)
+    shader.inputs['Base Color'].default_value=(.89,.78,.65,1)
     shader.inputs['Roughness'].default_value=.9
 nt.links.new(shader.outputs['BSDF'],output.inputs['Surface'])
 body.data.materials.append(hair)
@@ -119,14 +119,14 @@ world=scene.world or bpy.data.worlds.new('Run88 softbox')
 scene.world=world
 world.use_nodes=True
 world.node_tree.nodes['Background'].inputs['Color'].default_value=(.30,.32,.34,1)
-world.node_tree.nodes['Background'].inputs['Strength'].default_value=.65
+world.node_tree.nodes['Background'].inputs['Strength'].default_value=.40
 for ob in list(bpy.data.objects):
     if ob.type in {'CAMERA','LIGHT'}:
         bpy.data.objects.remove(ob,do_unlink=True)
 for name,pos,power,size in [
-    ('key',(1.,-1.4,1.3),230,2.2),
-    ('fill',(1.0,1.4,1.0),180,1.8),
-    ('rim',(-.75,.65,1.0),180,1.7)]:
+    ('key',(1.,-1.4,1.3),110,2.2),
+    ('fill',(1.0,1.4,1.0),80,1.8),
+    ('rim',(-.75,.65,1.0),90,1.7)]:
     bpy.ops.object.light_add(type='AREA', location=pos)
     l=bpy.context.object
     l.name=name
@@ -148,7 +148,7 @@ scene.render.resolution_y=540
 scene.render.resolution_percentage=100
 scene.render.image_settings.file_format='PNG'
 scene.view_settings.view_transform='Standard'
-scene.view_settings.exposure=-.3
+scene.view_settings.exposure=-1.05
 views=[
     ('front',(2.0,0,.40)),
     ('threequarter',(1.65,-1.5,.43)),
@@ -180,7 +180,7 @@ blend=os.path.join(out,'owl172_run88_true_cycles_fiber_groom_NOT_WEBGL_APPROVED.
 bpy.ops.wm.save_as_mainfile(filepath=blend)
 assert os.path.getsize(blend)>200000
 metrics={
-'decision':'PENDING_INDEPENDENT_ART_QA_NOT_APPROVED',
+'decision':'PENDING_INDEPENDENT_ART_QA_NOT_APPROVED','phase':'Run88B reduced key/fill/rim light and cream albedo compared with overexposed Run88A',
 'original_model':'Run87B adult horned owl CC0 retarget, wrong taxon/stage',
 'current_technique':'Blender 4 native hair strand/path fibers with child hairs on genuine authored detailed body mesh',
 'blender_version':bpy.app.version_string,'source_meshes':len(meshes),

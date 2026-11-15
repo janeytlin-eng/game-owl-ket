@@ -1,0 +1,62 @@
+{
+  "experiment": "owl172-run93-GroomLab-free-engine-multiview-probe",
+  "status": "ART_REJECTED",
+  "candidate_approved": false,
+  "physical_phone_GPU": false,
+  "original_concept_side_back_verified": false,
+  "stage": "gltf_cards_export",
+  "tool": "thekesslereffect/groomlab dev Apache-2.0 core (license verified in upstream)",
+  "workflow_run": "43756353279",
+  "baseline_sha256": "6bc98227580d178e5750c6abd8903c31d956172b6afeacf20257dabf661d2d53",
+  "baseline_bytes": 3743388,
+  "base_source_geometry": "ORGANIC_CONNECTED_HEAD_BODY_HEART_RELIEF",
+  "base_source_triangles": 103552,
+  "scalp_simplification": "quadric",
+  "scalp_vertices": 1602,
+  "scalp_triangles": 3200,
+  "hello": {
+    "alembic": true,
+    "features": {
+      "authoring": 1,
+      "cardMaps": 1,
+      "photos": 1,
+      "pipeline": 1,
+      "state": 1,
+      "tools": 1
+    },
+    "groomSpace": {
+      "units": "cm",
+      "upAxis": "Y"
+    },
+    "helper": "groomlab-helper",
+    "platform": "linux",
+    "protocol": 1,
+    "sharedMemory": "posix",
+    "version": "0.48.0",
+    "versionNumbers": [
+      0,
+      48,
+      0
+    ]
+  },
+  "session": 1,
+  "scalp_result": {
+    "guidesRerooted": 0,
+    "matchesGroom": true,
+    "points": 1602,
+    "topology": "41faa55cdf40f641",
+    "triangles": 3200
+  },
+  "groom_created": true,
+  "groom_summary": "{'groom': {'flatGuides': 0, 'followScalp': True, 'fps': 24.0, 'hierarchyGuides': 0, 'inputErrors': [], 'nodes': 10, 'notes': [], 'output': 'output', 'scalp': {'colorSets': [], 'points': 1602, 'polygons': 3200, 'rest': False, 'topology': '41faa55cdf40f641', 'triangles': 3200, 'uvs': True}, 'source': '', 'units': 'cm', 'upAxis': 'Y'}, 'guides': 'hierarchy'}",
+  "eval_summary": "{'arrays': {'attributes': {}, 'ids': {'dtype': '<u8', 'offset': 2360064, 'shape': [11132], 'shm': 'groomlab_4633_s1strands_1'}, 'offsets': {'dtype': '<i4', 'offset': 2315520, 'shape': [11133], 'shm': 'groomlab_4633_s1strands_1'}, 'pointCounts': {'dtype': '<i4', 'offset': 2270976, 'shape': [11132], 'shm': 'groomlab_4633_s1strands_1'}, 'positions': {'dtype': '<f4', 'offset': 0, 'shape': [189244, 3], 'shm': 'groomlab_4633_s1strands_1'}, 'widths': {'dtype': '<f4', 'offset': 2449152, 'shape': [189244], 'shm': 'groomlab_4633_s1strands_1'}}, 'attributesAvailable': [{'components': 1, 'name': 'colorB', 'scope': 'strand'}, {'components': 1, 'name': 'colorG', 'scope': 'strand'}, {'components': 1, 'name': 'colorR', 'scope': 'strand'}, {'components': 1, 'name': 'melanin', 'scope': 'strand'}, {'components': 1, 'name': 'melaninRedness', 'scope': 'strand'}, {'components': 2, 'name': 'rootUV', 'scope': 'strand'}, {'components': 3, 'name': 'color', 'scope': 'strand'}], 'changedStrands': None, 'changesBase': 0, 'errors': [], 'following': False, 'look': {'colorBlends': False, 'colorNodes': [{'params': {'affect': 1.0, 'clumpChannel': 'clumpId', 'clumpShare': 0.5, 'color': [0.800000011920929, 0.80000001",
+  "gltf_export_failure": "export: {\"error\": {\"code\": \"state\", \"message\": \"the graph has no Cards node: add one first\"}, \"id\": 6, \"ok\": false}",
+  "save_groom": {
+    "copied": [],
+    "path": "/home/runner/work/game-owl-ket/game-owl-ket/qa93/owl172_run93_UNAPPROVED.groom",
+    "units": "cm",
+    "upAxis": "Y",
+    "warnings": []
+  },
+  "groom_bytes": 266659
+}

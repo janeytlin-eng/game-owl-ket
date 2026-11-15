@@ -18,8 +18,8 @@ bpy.ops.import_scene.gltf(filepath=str(source))
 s=bpy.context.scene
 
 def geometry_report():
-    meshes=[o for o in s.objects if o.type=="MESH"]
-    arms=[o for o in s.objects if o.type=="ARMATURE"]
+    meshes=[o for o in bpy.context.scene.objects if o.type=="MESH"]
+    arms=[o for o in bpy.context.scene.objects if o.type=="ARMATURE"]
     for o in meshes:o.data.calc_loop_triangles()
     triangles=sum(len(o.data.loop_triangles) for o in meshes)
     c=[o.matrix_world@Vector(v) for o in meshes for v in o.bound_box]
@@ -32,7 +32,7 @@ def geometry_report():
       "action_count":len(acts),"actions":acts,
       "bounds_min":lo,"bounds_max":hi,
       "material_count":len(bpy.data.materials),
-      "curve_objects":sum(o.type=="CURVE" for o in s.objects),
+      "curve_objects":sum(o.type=="CURVE" for o in bpy.context.scene.objects),
       "has_natural_down_groom":False, # Manual visual QA required; no assertion from mesh counts
       "not_target_species":True
     }

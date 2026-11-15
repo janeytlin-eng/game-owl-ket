@@ -1,0 +1,102 @@
+{
+  "name": "Run94 genuine GroomLab glTF alpha-mask and calibrated short down PBR",
+  "status": "ART_REJECTED",
+  "accepted": false,
+  "physical_phone_GPU_tested": false,
+  "native_GLTF_PBR": true,
+  "original_reference_side_back_verified": false,
+  "source": {
+    "base_hash": "6bc98227580d178e5750c6abd8903c31d956172b6afeacf20257dabf661d2d53",
+    "hair_hash": "b1aa292c614ad93a819e1985005634433bf24beb02012398aa8f06f922442be6"
+  },
+  "variants": [
+    {
+      "source_tris": 129568,
+      "removed_existing_bad_down": [
+        "soft_alpha_mesoptile_research_groom"
+      ],
+      "groom_triangle_count": 3168,
+      "alpha_mode": "CLIP",
+      "card_material": "owl172_run93_low_Mat",
+      "material_uses_nodes": true,
+      "label": "raw_cards_alpha",
+      "bytes": 3061576,
+      "sha256": "69091ede15696a6ccf7c5d3a53bccf72f656b814cf102ae28bf86ec50c02c40b",
+      "real_glb_roundtrip": true,
+      "triangles": 123736,
+      "renders": [
+        "run94_raw_cards_alpha_front.png",
+        "run94_raw_cards_alpha_threequarter.png",
+        "run94_raw_cards_alpha_side.png",
+        "run94_raw_cards_alpha_rear.png"
+      ],
+      "approved": false
+    },
+    {
+      "source_tris": 129568,
+      "removed_existing_bad_down": [
+        "soft_alpha_mesoptile_research_groom"
+      ],
+      "groom_triangle_count": 3168,
+      "alpha_mode": "CLIP",
+      "card_material": "owl172_run93_low_Mat.002",
+      "material_uses_nodes": true,
+      "calibration": {
+        "component_count": 400,
+        "vertices": 3968,
+        "card_faces": 3168,
+        "scale": 0.22,
+        "facial_cards_minimized": 0,
+        "original_radius_max": 0.17017998289146472,
+        "new_radius_max": 0.03743959623612224,
+        "distance_to_surface_median": 0.498404860496521,
+        "genuine_mesh_repositioned": true
+      },
+      "label": "short_cards_0p22",
+      "bytes": 3062920,
+      "sha256": "c9913e70dd42a41c0568443bf00cb0f9bdd8f72fdedbf3b4fc5d1968f75857cf",
+      "real_glb_roundtrip": true,
+      "triangles": 123736,
+      "renders": [
+        "run94_short_cards_0p22_front.png",
+        "run94_short_cards_0p22_threequarter.png",
+        "run94_short_cards_0p22_side.png",
+        "run94_short_cards_0p22_rear.png"
+      ],
+      "approved": false
+    },
+    {
+      "source_tris": 129568,
+      "removed_existing_bad_down": [
+        "soft_alpha_mesoptile_research_groom"
+      ],
+      "groom_triangle_count": 3168,
+      "alpha_mode": "CLIP",
+      "card_material": "owl172_run93_low_Mat.004",
+      "material_uses_nodes": true,
+      "calibration": {
+        "component_count": 400,
+        "vertices": 3968,
+        "card_faces": 3168,
+        "scale": 0.08,
+        "facial_cards_minimized": 0,
+        "original_radius_max": 0.17017998289146472,
+        "new_radius_max": 0.013614398631317177,
+        "distance_to_surface_median": 0.498404860496521,
+        "genuine_mesh_repositioned": true
+      },
+      "label": "micro_cards_0p08",
+      "bytes": 3068920,
+      "sha256": "d996375b71658444854d369aa7c1db0bcb25c2993fee92ac22fa578c4e679ddf",
+      "real_glb_roundtrip": true,
+      "triangles": 123736,
+      "renders": [
+        "run94_micro_cards_0p08_front.png",
+        "run94_micro_cards_0p08_threequarter.png",
+        "run94_micro_cards_0p08_side.png",
+        "run94_micro_cards_0p08_rear.png"
+      ],
+      "approved": false
+    }
+  ]
+}

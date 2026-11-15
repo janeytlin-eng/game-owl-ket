@@ -1,0 +1,39 @@
+{
+  "original_sha256": "7bb15375e640d1d2d97a1eb47624ec79879b7da4cf6279d1a190c41489da2918",
+  "status": "ART_REJECTED",
+  "original_source": "Run92 genuine CPU TripoSR single-image GLB",
+  "reference_only_front": true,
+  "retained_COLOR_0": true,
+  "same_faces": true,
+  "real_mobile_GPU_tested": false,
+  "variants": [
+    {
+      "label": "explicit_normal_control",
+      "file": "owl172_run92b_explicit_normal_control_ART_REJECTED.glb",
+      "bytes": 816832,
+      "sha256": "df49cefcccb6f72b379400cd07053907040a0ef8adae46638c334143ab379346",
+      "vertices": 15691,
+      "triangles": 31342,
+      "max_vertex_displacement": 0.0,
+      "mean_vertex_displacement": 0.0,
+      "explicit_NORMAL": true,
+      "original_COLOR_0_preserved": true,
+      "watertight": true,
+      "approved": false
+    },
+    {
+      "label": "taubin12_smooth_explicit_normal",
+      "file": "owl172_run92b_taubin12_smooth_explicit_normal_ART_REJECTED.glb",
+      "bytes": 816828,
+      "sha256": "695a0779d1a92db90bf986678e0df7c780c91e3198d69d55477ad15f414e9e9b",
+      "vertices": 15691,
+      "triangles": 31342,
+      "max_vertex_displacement": 0.009041381999850273,
+      "mean_vertex_displacement": 0.003658861620351672,
+      "explicit_NORMAL": true,
+      "original_COLOR_0_preserved": true,
+      "watertight": true,
+      "approved": false
+    }
+  ]
+}

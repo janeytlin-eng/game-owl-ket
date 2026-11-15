@@ -225,6 +225,9 @@ wing_groom=feather_ribbons(outer,340,"wing",.024,.058,.13,.23,[230,218,188])
 scene=trimesh.Scene()
 for name,mesh in objects.items():
     scene.add_geometry(mesh,geom_name=name,node_name=name)
+# Export for glTF/WebGL Y-up: original +Z up -> glTF +Y; original
+# front -Y -> glTF front +Z, matching real orbit/GLTF conventions.
+scene.apply_transform(trimesh.transformations.rotation_matrix(-math.pi/2,[1,0,0]))
 target=OUT/"run96_anatomy_directional_down_NOT_APPROVED.glb"
 # GLB is re-exportable real triangles, no encoded static picture.
 glb=scene.export(file_type="glb")

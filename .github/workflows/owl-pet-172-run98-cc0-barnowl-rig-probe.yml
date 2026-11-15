@@ -1,0 +1,98 @@
+name: owl172 Run98 CC0 barn-owl donor actual 3D art QA (quarantine)
+on:
+  push:
+    branches: [research/owl172-run98-free-rig-source-qa]
+    paths:
+      - .github/workflows/owl-pet-172-run98-cc0-barnowl-rig-probe.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run98_cc0_barnowl_rig_donor_audit.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit-rig:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run98-free-rig-source-qa
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run98_cc0_barnowl_rig_donor_audit.py
+            .github/workflows/owl-pet-172-run98-cc0-barnowl-rig-probe.yml
+      - name: Install locally free open-source Blender and image QA
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y blender python3-numpy python3-pil
+          blender --version | head -n 2
+      - name: Fetch explicitly cataloged CC0-claimed model
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/run98
+          curl -fLSs --retry 3 --connect-timeout 15 --max-time 90 \
+            'https://gobkit.com/freebies/animal013/BarnOwl.glb' -o /tmp/run98/barnowl-original.glb
+          test "$(stat -c%s /tmp/run98/barnowl-original.glb)" -gt 8000
+          python3 - <<'PY'
+          import pathlib,struct
+          b=pathlib.Path('/tmp/run98/barnowl-original.glb').read_bytes()
+          assert b[:4]==b'glTF' and struct.unpack_from('<I',b,8)[0]==len(b),(len(b),b[:16])
+          print('REAL_BINARY_GLB_CHECKED',len(b))
+          PY
+          sha256sum /tmp/run98/barnowl-original.glb
+      - name: Actually import, inspect, render, recolor, export and reimport 3D
+        shell: bash
+        run: |
+          set -eo pipefail
+          DEST="owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run98-FREE-RIG-DONOR-ART_UNAPPROVED"
+          mkdir -p "$DEST"
+          cp /tmp/run98/barnowl-original.glb "$DEST/original_cc0_claim_NOT_APPROVED.glb"
+          SCRIPT="owl-pet/3d-experiments/172-tyto-castanops/tools/run98_cc0_barnowl_rig_donor_audit.py"
+          blender -b --python-exit-code 5 --python "$SCRIPT" -- /tmp/run98/barnowl-original.glb "$DEST" \
+            2>&1 | tee "$DEST/blender_execution.log"
+      - name: Create visual contact sheet, integrity manifest, and mandatory nonrelease warning
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import pathlib,hashlib,json
+          from PIL import Image,ImageDraw
+          p=pathlib.Path("owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run98-FREE-RIG-DONOR-ART_UNAPPROVED")
+          m=json.loads((p/"run98_metrics.json").read_text())
+          rows=["original","warm_material_ablation"]
+          views=["azimuth_0","azimuth_90","azimuth_180","azimuth_270"]
+          sheet=Image.new("RGB",(1720,920),(247,247,247))
+          for i,stage in enumerate(rows):
+              for j,view in enumerate(views):
+                  im=Image.open(p/(stage+"_"+view+".png")).convert("RGB")
+                  sheet.paste(im,(430*j,460*i+24))
+                  ImageDraw.Draw(sheet).text((430*j+12,460*i+4),stage+" "+view,fill=(30,30,30))
+          sheet.save(p/"run98_two_states_four_azimuths_UNAPPROVED.png",optimize=True)
+          (p/"ART_GATE_NOT_PASSED.md").write_text(
+          "# Run98 / quarantine: external animated owl rig *donor* only\n\n"
+          "The free source is advertised as CC0 by its catalog; independent original-artist provenance is not established.\n"
+          "Original: https://gobkit.com/freebies/animal013/BarnOwl.glb\n"
+          "Catalog: https://gobkit.com/api/free (gobkit-animal013-pack / barnowl)\n\n"
+          "Not species Tyto castanops, not a white-down juvenile, no approved sculpt, no real device validation.\n"
+          "The recolored GLB is a deliberately inadequate material-only ablation. NEVER label it a user-approved 3D character.\n"
+          "The only candidate reuse evaluated is rigging/animation technology, conditional on artistic sculpt later.\n"
+          "No costs, production changes, or model release in this run.\n")
+          files=sorted(x for x in p.iterdir() if x.is_file() and x.name!="SHA256SUMS.txt")
+          (p/"SHA256SUMS.txt").write_text("".join(hashlib.sha256(x.read_bytes()).hexdigest()+"  "+x.name+"\n" for x in files))
+          print("ARCHIVE_READY",len(files),m["original_geometry"]["triangles"])
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run98-free-rig-donor-ART_UNAPPROVED
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run98-FREE-RIG-DONOR-ART_UNAPPROVED/
+          retention-days: 30
+      - name: Archive evidence solely on isolated research branch
+        shell: bash
+        run: |
+          set -e
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          DEST="owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run98-FREE-RIG-DONOR-ART_UNAPPROVED"
+          git add --sparse "$DEST"
+          git diff --cached --name-only | grep -v '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run98-' && exit 1 || true
+          git commit -m "research(owl172): archive CC0-claimed rig donor 3D and eight Cycles views, no release"
+          git push origin HEAD:research/owl172-run98-free-rig-source-qa

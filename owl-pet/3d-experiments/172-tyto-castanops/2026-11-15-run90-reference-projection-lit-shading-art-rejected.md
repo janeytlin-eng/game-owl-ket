@@ -1,0 +1,35 @@
+# Run90 — concept-pigment / alpha-down controls on genuine 3D chick sculpt — ART_REJECTED
+
+**Date:** 2026-11-15 Asia/Shanghai. **Verdict:** ART_REJECTED. Do not display as a finished sample, deploy or notify. This technical ablation is not image-to-3D, not a photogrammetry scan and not a professional baby Tyto sculpt. All binaries and visual evidence are isolated on `research/owl172-run90-photo-projection-juvenile-sculpt`.
+
+## Rechecked before actual work
+Read `owl-pet/AGENTS.md`, `README.md`, `prototype/index.html`, `research/species/172-tyto-castanops-v3.md`, actual three-bird concept `design/concepts/172-tyto-castanops-v3.png` and Run17–19 and Run89 notes. Examined Run89B original native-hair front render; it remains a mottled adult horned-owl-shaped bag. Focus is the **rightmost age-unknown cream downy mesoptile**, with an integrated soft heart disc, dark eyes, squat supported body, short wings and hidden tail. Front concept alone does not establish rear/side anatomy.
+
+## Different actual test: reference pigment transfer without pretending it supplies depth
+From existing continuous organic `mesoptile_organic_sculpt_trial_v31.py` (not from spheres or an SVG), created actual three-dimensional 112-resolution smooth-implicit sculpt variants, reprojecting the **same repository's 1536×1024 original concept** pixels **only onto plausible forward-facing body vertices**. Source SHA256 `881dec86e0e66ab2ad0781db86a3b719b35e710d2be1a1606d761a9d0908483d`. This samples known RGB onto real 3D geometry; it does **not** reconstruct 3D or invent lateral plumage. The experimental projected body affected 16,160 surface vertices (11,600 at weight > 0.5) without changing the base mesh. A third control adds **3,500 genuine GLB alpha-mapped feather cards** to compare silhouette.
+
+Actual Python/NumPy/scikit-image/trimesh GLB export and clean independent reimport on free GitHub Actions succeeded:
+- **Baseline with no down:** 2,035,464 bytes, 106,112 triangles, 23 meshes, SHA256 `8305072acf349c765d10e9ac8b6b52be5d8db5f60d5b7573bea355f73a37cfa4`.
+- **Reference pigment, no down:** 2,570,344 bytes, 106,112 triangles, 23 meshes, SHA256 `270704fc43b06351eea60d378e45ddb6f3b2cccefbaa062bbc45879b79667be9`.
+- **Pigment + 3,500 real down cards:** 2,940,404 bytes, 113,112 triangles, 24 meshes, SHA256 `6a3e668c55cd7f2beaa2425228c4dced23d3abaf33e24fb8719433379c8e70ae`.
+The underlying continuous head/body mesh reports watertight under trimesh for all three; this does not imply a convincing animal.
+
+Three variant models each underwent four real Blender 4.0.2 Cycles CPU views (front, three-quarter, strict side, rear), **12 actual PNGs** total, with fixed camera/light strategy and fresh GLB import. In addition, all three genuine GLBs passed desktop 1280×720 + **emulated** 390×844 phone Chromium SwiftShader WebGL2 loads, rotation, framing, +Z face-node orientation and GL error 0: **6 software browser cases**. All original browser screenshots and checks are archived. Import and rasterization success are **not** an aesthetic or physical phone GPU pass.
+
+## Independent visual QA / failure analysis
+Examined original full concept, Run89 native hair and representative Run90 baseline/reference/front/three-quarter/strict-side/back **real Cycles renders and actual Three.js browser screenshots**, not just exported file headers.
+1. The transferred concept pigment yields **no meaningful visible facial-pattern improvement** in the actual Cycles comparison; warm RGB data is technically present in the reimported meshes, but the extremely pale scene/light/material response remains effectively washed out. Do not claim faithful concept texture registration from vertex-weight counts.
+2. The continuous body is a vaguely layered inverted-pear/blob silhouette. Heart facial relief is a hard, high-contrast mask shape, eye orbits look like protruding buttons, folded wings and foot supports are anatomically crude; rear view is a featureless layered cone/barrel and side view lacks Tyto wing structure.
+3. The alpha down cards produce weak pinlike halo fuzz, **not** soft dense creamy juvenile mesoptile. Adding down does not fix underlying incorrect geometry. Rendered tree support is tube-like/rectangular and unconvincing.
+4. Three.js **lit** browser captures show a **near-black body** with some light tan highlights even though the loader, orbit and glGetError checks pass. This corroborates the documented Run17–19 ongoing glTF lit-material/normal/shading defect, not a rendering/art pass. A future machine gate must inspect actual screenshot pixel/lightness and surface appearance rather than accept just `loaded && glError===0`. The current portrait-browser test was SwiftShader software emulation, not a genuine mobile device.
+5. No physical Android/iOS GPU, shader/thermal budget, actual battery/memory/FPS, standard-PBR parity, articulation/animation or tactile pet interaction was measured. None of the variants passes the user's genuine visual quality threshold.
+
+**Conclusion:** Photographically projecting the concept onto the wrong continuous anatomy, like transferring hair from adult owl, cannot repair incorrect chick head, wing, rear or support. The experiment is useful **negative evidence**, not a sample to publish. It also exposed a false-positive in existing technical WebGL smoke (0 GL errors while model is visibly black). Next art iteration should use a truthful young Tyto sculpt with authored side/back and an actually readable PBR lighting rig, then real-phone test.
+
+## Execution / provenance / noninterference
+- On the first workflow attempt, Blender glTF import failed for missing distro `python3-numpy`. Installed it in the free Ubuntu runner. Second attempt failed because distro Blender had no OpenImageDenoiser; explicitly disabled Cycles denoising. Third [Actions run 43733175632](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/43733175632) **SUCCEEDED end-to-end**. No unsuccessful attempts were called art success.
+- Complete durable evidence on dedicated research branch: [Run90 3 GLBs, 12 Cycles renders, 6 browser screenshots, 3 JSON browser reports, scripts/logs and SHA256SUMS](https://github.com/janeytlin-eng/game-owl-ket/tree/research/owl172-run90-photo-projection-juvenile-sculpt/owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run90-PHOTOMETRIC-PROJECTION-NOT-APPROVED). Evidence manifest contains **34 real file checksums**.
+- Free GitHub Actions Ubuntu / apt Blender, Python and Chromium software rendering only; **no paywall, credit spend or new paid services**.
+- Isolated branch vs main changed exclusively `.github/workflows/owl-pet-172-run90-photo-registered-real-glb-qa.yml` and dedicated `owl-pet/3d-experiments/172-tyto-castanops/` source/evidence. This main commit adds **only this audit text**. 251-species production automation, species ledger/manifests, original design reference, the old WebGL cat prototype, root vocabulary game and live deployment were left untouched.
+
+**Release:** REJECTED; **no user notification**, no example link presented as finished art.

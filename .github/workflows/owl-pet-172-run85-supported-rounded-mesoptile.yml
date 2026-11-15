@@ -36,7 +36,15 @@ jobs:
           mkdir -p qa-out
           blender -b --factory-startup -t 2 --python owl-pet/3d-experiments/172-tyto-castanops/tools/run85_blender_gradient_disc.py -- qa-out 2>&1 | tee qa-out/blender_run85.log
           test -s qa-out/owl172_run85_organic_integrated_face_ART_PENDING.glb
-          for angle in front threequarter side back; do test -s qa-out/sculpt84_${angle}.png; done
+          python3 - <<'PY'
+          import json, hashlib, pathlib
+          p=pathlib.Path('qa-out'); g=(p/'owl172_run85_organic_integrated_face_ART_PENDING.glb').read_bytes()
+          m=json.loads((p/'metrics.json').read_text())
+          assert g[:4]==b'glTF' and hashlib.sha256(g).hexdigest()==m['glb_sha256']
+          assert m['reimported_mesh_count']>=10 and m['reimported_face_count']>50000
+          print('GLB_ROUNDTRIP_HASH_VALIDATED_NONRELEASE',m['reimported_mesh_count'],m['reimported_face_count'])
+          PY
+          for angle in front threequarter side back; do test -s qa-out/sculpt85_${angle}.png; done
           sha256sum qa-out/owl172_run85_organic_integrated_face_ART_PENDING.glb > qa-out/model.sha256
       - name: Preserve research with strong rejection semantics
         if: always()
@@ -60,7 +68,7 @@ jobs:
           set -euo pipefail
           dst=owl-pet/3d-experiments/172-tyto-castanops/uncertified-binary-run85
           mkdir -p "$dst"
-          cp qa-out/owl172_run85_organic_integrated_face_ART_PENDING.glb qa-out/sculpt84_*.png qa-out/metrics.json qa-out/model.sha256 qa-out/blender_run85.log qa-out/README.txt "$dst/"
+          cp qa-out/owl172_run85_organic_integrated_face_ART_PENDING.glb qa-out/sculpt85_*.png qa-out/metrics.json qa-out/model.sha256 qa-out/blender_run85.log qa-out/README.txt "$dst/"
           git config user.name "owl172-research-bot"
           git config user.email "owl172-research-bot@users.noreply.github.com"
           git add "$dst"

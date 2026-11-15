@@ -96,7 +96,6 @@ ps.settings.hair_step=5
 ps.settings.use_advanced_hair=True
 ps.settings.emit_from='FACE'
 ps.settings.distribution='RAND'
-ps.settings.hair_length_random=.53
 ps.settings.child_type='INTERPOLATED'
 ps.settings.child_nbr=8
 ps.settings.rendered_child_count=10

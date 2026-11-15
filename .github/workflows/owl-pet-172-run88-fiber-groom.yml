@@ -1,0 +1,90 @@
+name: "Owl #172 Run88 real hair groom experimental NOT APPROVED"
+on:
+  push:
+    branches: [research/owl172-run88-fiber-native-groom]
+    paths: [.github/workflows/owl-pet-172-run88-fiber-groom.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: owl172-run88-real-fiber
+  cancel-in-progress: true
+jobs:
+  sculpt-fibers:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            .github/workflows/owl-pet-172-run88-fiber-groom.yml
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run88_cycles_fiber_groom.py
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run87b-ANATOMY-TRANSFER-UNAPPROVED/owl172_run87b_cc0_anatomy_transfer_ART_REJECTED_PENDING.glb
+          sparse-checkout-cone-mode: false
+      - name: Check source model hash
+        run: |
+          set -euo pipefail
+          mkdir -p qa88
+          src=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run87b-ANATOMY-TRANSFER-UNAPPROVED/owl172_run87b_cc0_anatomy_transfer_ART_REJECTED_PENDING.glb
+          echo 'cbbca8d70d8a8b83639d927096e9302be9d49b8dbae81cd5726cebca753db253  '"$src" | sha256sum -c -
+          test "$(stat -c %s "$src")" -eq 17079204
+      - name: Install open source Blender
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq blender python3-numpy
+          blender --version | head -2
+      - name: Actual Blender hair groom and eight paired multi-view Cycles renders
+        run: |
+          set -euo pipefail
+          src=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run87b-ANATOMY-TRANSFER-UNAPPROVED/owl172_run87b_cc0_anatomy_transfer_ART_REJECTED_PENDING.glb
+          blender -b --factory-startup -t 2 --python owl-pet/3d-experiments/172-tyto-castanops/tools/run88_cycles_fiber_groom.py -- "$src" qa88 2>&1 | tee qa88/blender.log
+          test -s qa88/owl172_run88_true_cycles_fiber_groom_NOT_WEBGL_APPROVED.blend
+          for p in base hair; do
+            for view in front threequarter side back; do
+              test -s "qa88/run88_"$p"_"$view".png"
+            done
+          done
+          python3 - <<'PY'
+          import json,pathlib,hashlib
+          p=pathlib.Path('qa88')
+          s=json.loads((p/'metrics.json').read_text())
+          b=(p/'owl172_run88_true_cycles_fiber_groom_NOT_WEBGL_APPROVED.blend').read_bytes()
+          assert s['blend_sha256']==hashlib.sha256(b).hexdigest()
+          assert s['source_meshes']>40 and s['hair_parent_guides']>=1000 and len(s['renders'])==8
+          assert not s['real_mobile_gpu_pass'] and not s['glb_hair_portable']
+          print('ACTUAL_NATIVE_GROOM_BUT_ART_UNAPPROVED',s['blend_sha256'])
+          PY
+          find qa88 -maxdepth 1 -type f -print0 | sort -z | xargs -0 sha256sum > qa88/SHA256SUMS.txt
+      - name: Explicit hard rejection before actual aesthetic QA
+        if: always()
+        run: |
+          mkdir -p qa88
+          cat > qa88/ART_REJECTED_PENDING_VISUAL.txt <<'TXT'
+          RESEARCH ONLY. This is native Blender hair with real 3D strand geometry,
+          not a GLB-ready/mobile-validated owl-pet. Underlying modified adult owl
+          has incorrect taxon and chick anatomy. No infant accuracy, PBR/GLB
+          strand export, phone WebGL GPU/FPS, animation or deployment verified.
+          Only paired native Cycles pictures support a limited groom experiment.
+          Do not notify or publish a character.
+          TXT
+      - name: Temporary artifact archive
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run88-actual-native-hair-ART-REJECTED
+          path: qa88/
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Durable real blend and eight views in isolated research branch
+        if: success()
+        run: |
+          set -euo pipefail
+          dst=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run88-NATIVE-HAIR-NOT-APPROVED
+          mkdir -p "$dst"
+          cp qa88/* "$dst/"
+          git config user.name owl172-research-bot
+          git config user.email owl172-research-bot@users.noreply.github.com
+          git add --sparse "$dst"
+          git commit -m "research(owl172): archive native Blender hair and eight views; unapproved"
+          git push origin HEAD:research/owl172-run88-fiber-native-groom

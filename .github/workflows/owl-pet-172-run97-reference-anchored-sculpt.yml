@@ -27,7 +27,7 @@ jobs:
       - name: Install free CPU DCC
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y blender python3-pil
+          sudo apt-get install -y blender python3-pil python3-numpy
           blender --version | head -n 2
       - name: Fetch actual Run96B source geometry by immutable commit ref
         shell: bash

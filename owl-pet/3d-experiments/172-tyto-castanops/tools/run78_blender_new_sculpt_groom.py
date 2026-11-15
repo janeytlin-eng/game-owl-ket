@@ -264,6 +264,8 @@ bpy.context.scene.camera=cam
 cam.data.type='ORTHO';cam.data.ortho_scale=2.95
 sc=bpy.context.scene;sc.render.engine='CYCLES'
 sc.cycles.samples=24
+# Ubuntu distro Blender is compiled without Intel OIDN: disable Cycles denoising.
+bpy.context.view_layer.cycles.use_denoising=False
 sc.render.resolution_x=640;sc.render.resolution_y=640;sc.render.resolution_percentage=100
 sc.render.image_settings.file_format='PNG'
 sc.render.film_transparent=False

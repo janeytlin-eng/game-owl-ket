@@ -44,7 +44,7 @@ jobs:
       - name: Install actual free Blender
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y -qq blender
+          sudo apt-get install -y -qq blender python3-numpy
           blender --version | head -3
       - name: Run genuine topology inspection, eight real Cycles views and GLB roundtrip
         run: |

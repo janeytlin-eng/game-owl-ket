@@ -360,7 +360,7 @@ for name,loc in [
 ('back',(0,4.7,2.0))]:
     cam.location=loc
     cam.rotation_euler=(Vector((0,0,1.05))-cam.location).to_track_quat('-Z','Y').to_euler()
-    sc.render.filepath=os.path.join(out,'sculpt82_'+name+'.png')
+    sc.render.filepath=os.path.join(out,'sculpt83_'+name+'.png')
     bpy.ops.render.render(write_still=True)
     print('RENDERED',name,os.path.getsize(sc.render.filepath))
 

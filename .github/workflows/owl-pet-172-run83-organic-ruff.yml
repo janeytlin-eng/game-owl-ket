@@ -36,7 +36,7 @@ jobs:
           mkdir -p qa-out
           blender -b --factory-startup -t 2 --python owl-pet/3d-experiments/172-tyto-castanops/tools/run83_blender_organic_ruff.py -- qa-out 2>&1 | tee qa-out/blender_run83.log
           test -s qa-out/owl172_run83_organic_integrated_face_ART_PENDING.glb
-          for angle in front threequarter side back; do test -s qa-out/sculpt82_${angle}.png; done
+          for angle in front threequarter side back; do test -s qa-out/sculpt83_${angle}.png; done
           sha256sum qa-out/owl172_run83_organic_integrated_face_ART_PENDING.glb > qa-out/model.sha256
       - name: Preserve research with strong rejection semantics
         if: always()
@@ -60,7 +60,7 @@ jobs:
           set -euo pipefail
           dst=owl-pet/3d-experiments/172-tyto-castanops/uncertified-binary-run83
           mkdir -p "$dst"
-          cp qa-out/owl172_run83_organic_integrated_face_ART_PENDING.glb qa-out/sculpt82_*.png qa-out/metrics.json qa-out/model.sha256 qa-out/blender_run83.log qa-out/README.txt "$dst/"
+          cp qa-out/owl172_run83_organic_integrated_face_ART_PENDING.glb qa-out/sculpt83_*.png qa-out/metrics.json qa-out/model.sha256 qa-out/blender_run83.log qa-out/README.txt "$dst/"
           git config user.name "owl172-research-bot"
           git config user.email "owl172-research-bot@users.noreply.github.com"
           git add "$dst"

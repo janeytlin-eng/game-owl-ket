@@ -17,6 +17,8 @@ assert sha(BASE)=='6bc98227580d178e5750c6abd8903c31d956172b6afeacf20257dabf661d2
 assert sha(HAIR)=='b1aa292c614ad93a819e1985005634433bf24beb02012398aa8f06f922442be6'
 S=bpy.context.scene
 S.render.engine='CYCLES';S.cycles.samples=20
+S.cycles.use_denoising=False
+bpy.context.view_layer.cycles.use_denoising=False
 S.render.resolution_x=420; S.render.resolution_y=420
 S.render.resolution_percentage=100;S.render.image_settings.file_format='PNG'
 S.render.film_transparent=False

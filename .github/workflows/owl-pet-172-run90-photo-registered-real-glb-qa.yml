@@ -1,0 +1,130 @@
+name: "Owl #172 Run90 source-concept pigment on real 3D sculpt — RESEARCH ONLY"
+on:
+  push:
+    branches: [research/owl172-run90-photo-projection-juvenile-sculpt]
+    paths:
+      - .github/workflows/owl-pet-172-run90-photo-registered-real-glb-qa.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run90_photo_projection_ablation.py
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run90_blender_multiview_qa.py
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: owl172-run90-evidence
+  cancel-in-progress: false
+jobs:
+  physically-rendered-and-browser-tested-research:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 38
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            .github/workflows/owl-pet-172-run90-photo-registered-real-glb-qa.yml
+            owl-pet/3d-experiments/172-tyto-castanops/tools/mesoptile_organic_sculpt_trial_v31.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run90_photo_projection_ablation.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run90_blender_multiview_qa.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/organic_viewer_qa_index.html
+            owl-pet/3d-experiments/172-tyto-castanops/tools/organic_viewer_qa_main.js
+            owl-pet/3d-experiments/172-tyto-castanops/tools/organic_mobile_webgl_smoke.mjs
+            owl-pet/design/concepts/172-tyto-castanops-v3.png
+          sparse-checkout-cone-mode: false
+      - name: Build ACTUAL reference-ablation GLBs, round-trip and hashes
+        run: |
+          set -euo pipefail
+          mkdir -p qa90
+          python3 -m venv /tmp/owl172run90
+          /tmp/owl172run90/bin/pip install -q numpy scipy scikit-image trimesh pillow
+          D=owl-pet/3d-experiments/172-tyto-castanops/tools
+          /tmp/owl172run90/bin/python "$D/run90_photo_projection_ablation.py" owl-pet/design/concepts/172-tyto-castanops-v3.png qa90 112 > qa90/build.log 2>&1 || { tail -100 qa90/build.log; exit 21; }
+          cat qa90/build.log
+          /tmp/owl172run90/bin/python - <<'PY'
+          import pathlib,json,hashlib
+          p=pathlib.Path('qa90');m=json.loads((p/'metrics.json').read_text())
+          assert len(m['variants'])==3 and m['not_approved']
+          for v in m['variants']:
+              f=p/v['glb']
+              assert f.is_file() and f.stat().st_size>100000
+              assert hashlib.sha256(f.read_bytes()).hexdigest()==v['sha256']
+              assert v['triangles']>10000 and v['vertex_color_meshes']>0
+          assert m['variants'][1]['photo_projection']['affected_vertex_count']>1000
+          print('ACTUAL_VERTEX_COLOR_GLB_ROUNDTRIP_OK_NOT_APPROVED')
+          PY
+      - name: Install free open-source Blender and render 12 real Cycles views
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq blender
+          D=owl-pet/3d-experiments/172-tyto-castanops/tools
+          blender -b --factory-startup -t 2 --python-exit-code 42 --python "$D/run90_blender_multiview_qa.py" -- qa90 > qa90/blender.log 2>&1 || { tail -120 qa90/blender.log; exit 22; }
+          test "$(find qa90 -maxdepth 1 -name 'run90_*.png' | wc -l)" -eq 12
+      - name: Free Chromium SwiftShader WebGL2 smoke, NOT physical mobile
+        run: |
+          mkdir -p qa90/browser
+          D=owl-pet/3d-experiments/172-tyto-castanops/tools
+          mkdir -p /tmp/owl172run90viewer
+          cp "$D/organic_viewer_qa_index.html" /tmp/owl172run90viewer/index.html
+          cp "$D/organic_viewer_qa_main.js" /tmp/owl172run90viewer/main.js
+          cp "$D/organic_mobile_webgl_smoke.mjs" /tmp/owl172run90viewer/mobile_webgl_smoke.mjs
+          set +e
+          cd /tmp/owl172run90viewer
+          npm init -y >/dev/null
+          npm install --silent --no-save three@0.181 vite@7.2 playwright@1.56 > "$GITHUB_WORKSPACE/qa90/npm.log" 2>&1
+          npm_status=$?
+          if [ "$npm_status" -eq 0 ]; then
+            npx playwright install chromium >> "$GITHUB_WORKSPACE/qa90/npm.log" 2>&1
+            npx vite --host 127.0.0.1 --port 4173 > "$GITHUB_WORKSPACE/qa90/vite.log" 2>&1 &
+            sleep 6
+            for label in baseline_v31_no_down reference_projection_no_down reference_projection_alpha_down; do
+              cp "$GITHUB_WORKSPACE/qa90/owl172_run90_${label}_ART_UNREVIEWED.glb" candidate.glb
+              node mobile_webgl_smoke.mjs "$GITHUB_WORKSPACE/qa90/browser/${label}" > "$GITHUB_WORKSPACE/qa90/browser_${label}.log" 2>&1
+              echo "$label smoke_exit=$?" >> "$GITHUB_WORKSPACE/qa90/browser_status.txt"
+            done
+          else
+            echo "Browser dependencies unavailable npm_exit=${npm_status}" > "$GITHUB_WORKSPACE/qa90/browser_status.txt"
+          fi
+          exit 0
+      - name: Provenance / explicit rejection / ZIP and evidence checksum
+        if: always()
+        run: |
+          set -euo pipefail
+          mkdir -p qa90
+          cat > qa90/ART_REJECTED_README.txt <<'TXT'
+          #172 Run90. RESEARCH ONLY. Never deploy or present as accepted owl.
+          Uses the exact previously generated/user-authorized #172 v3 concept
+          as front-projected surface pigment on a genuine independent continuous
+          organic 3D sculpt. This is not geometry reconstructed from an image.
+          Photo projection does NOT establish correct rear/lateral plumage.
+          Source v31 sculpt still has known inaccurate mask, wing and foot anatomy.
+          Real Blender views are evidence to REVIEW, not proof of quality.
+          Browser SwiftShader is not a physical phone GPU, FPS/thermal or touch
+          acceptance test. Release approval is strictly false.
+          TXT
+          python3 - <<'PY'
+          import pathlib,json
+          p=pathlib.Path("qa90");m=json.loads((p/"metrics.json").read_text())
+          assert m["not_approved"] and len(m["variants"])==3
+          assert m["cycles_render_count"]==12
+          print("EXPLICIT_ART_REJECTED",[(v["label"],v["bytes"]) for v in m["variants"]])
+          PY
+          find qa90 -type f ! -name 'SHA256SUMS.txt' -print0 | sort -z | xargs -0 sha256sum > qa90/SHA256SUMS.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run90-real-3d-reference-projection-ART-UNREVIEWED
+          path: qa90/
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Persist binary negative evidence ONLY on isolated branch
+        if: success()
+        run: |
+          set -euo pipefail
+          dst=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run90-PHOTOMETRIC-PROJECTION-NOT-APPROVED
+          mkdir -p "$dst"
+          cp -a qa90/. "$dst/"
+          git config user.name owl172-research-bot
+          git config user.email owl172-research-bot@users.noreply.github.com
+          git add --sparse "$dst"
+          git commit -m "research(owl172): archive Run90 genuine photo-registered GLB and rendering negative controls"
+          git push origin HEAD:research/owl172-run90-photo-projection-juvenile-sculpt

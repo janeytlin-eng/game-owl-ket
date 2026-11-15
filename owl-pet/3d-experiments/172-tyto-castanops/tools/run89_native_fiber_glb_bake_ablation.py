@@ -10,10 +10,22 @@ src,out=sys.argv[sys.argv.index("--")+1:sys.argv.index("--")+3]
 os.makedirs(out,exist_ok=True)
 bpy.ops.wm.open_mainfile(filepath=src)
 body=next(o for o in bpy.data.objects if o.type=="MESH" and o.particle_systems)
+scene=bpy.context.scene
 ps=body.particle_systems[0]
 pm=next(m for m in body.modifiers if m.type=="PARTICLE_SYSTEM")
-scene=bpy.context.scene
-assert ps.settings.type=="HAIR" and len(ps.particles)>1000
+scene.frame_set(scene.frame_current)
+dg=bpy.context.evaluated_depsgraph_get()
+dg.update()
+evaluated_body=body.evaluated_get(dg)
+eval_ps=evaluated_body.particle_systems[0]
+print("RUN89_PSYS_DIAG",ps.settings.type,ps.settings.count,
+      "raw",len(ps.particles),"evaluated",len(eval_ps.particles),
+      "child",len(eval_ps.child_particles),flush=True)
+if len(ps.particles)<1000 and len(eval_ps.particles)>1000:
+    ps=eval_ps
+    body=evaluated_body
+    pm=next(m for m in body.modifiers if m.type=="PARTICLE_SYSTEM")
+assert ps.settings.type=="HAIR" and len(ps.particles)>1000, "No evaluated hair data"
 assert len([o for o in bpy.data.objects if o.type=="MESH"])>40
 bpy.context.view_layer.update()
 

@@ -2,9 +2,9 @@ name: "Owl #172 Run80 isolated Blender juvenile anatomy plus short plush down QA
 on:
   push:
     branches:
-      - research/owl172-run80-juvenile-soft-groom
+      - research/owl172-run80-structural-eye-wing-bark
     paths:
-      - .github/workflows/owl-pet-172-run80-softdown.yml
+      - .github/workflows/owl-pet-172-run80-anatomy.yml
       - owl-pet/3d-experiments/172-tyto-castanops/run80-trigger.txt
   workflow_dispatch:
 permissions:
@@ -37,7 +37,7 @@ jobs:
             --python owl-pet/3d-experiments/172-tyto-castanops/tools/run80_blender_anatomy_correction.py \
             -- qa-out 2>&1 | tee qa-out/blender_run80.log
           test -s qa-out/owl172_run80_wing_eye_hollow_ART_PENDING.glb
-          for angle in front threequarter side back; do test -s "qa-out/sculpt79_${angle}.png"; done
+          for angle in front threequarter side back; do test -s "qa-out/sculpt80_${angle}.png"; done
           sha256sum qa-out/owl172_run80_wing_eye_hollow_ART_PENDING.glb > qa-out/model.sha256
       - name: Preserve diagnostics and explicit no-release marker
         if: always()

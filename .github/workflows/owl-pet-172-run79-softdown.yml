@@ -1,0 +1,59 @@
+name: "Owl #172 Run79 isolated Blender juvenile anatomy plus short plush down QA"
+on:
+  push:
+    branches:
+      - research/owl172-run79-blender-groom
+    paths:
+      - .github/workflows/owl-pet-172-run79-fresh-sculpt.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/run79-trigger.txt
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: owl172-run79-free-sculpt
+  cancel-in-progress: true
+jobs:
+  free-blender-sculpt-qa:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 22
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run79_blender_new_sculpt_groom.py
+          sparse-checkout-cone-mode: false
+      - name: Confirm no-charge public standard runner / install stock Blender
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq blender python3-numpy
+          blender --version | head -3
+      - name: Render genuine fresh 3D sculpt and mesh-filament groom
+        run: |
+          set -euo pipefail
+          mkdir -p qa-out
+          blender -b --factory-startup -t 2 \
+            --python owl-pet/3d-experiments/172-tyto-castanops/tools/run79_blender_new_sculpt_groom.py \
+            -- qa-out 2>&1 | tee qa-out/blender_run79.log
+          test -s qa-out/owl172_run79_new_sculpt_meshgroom_ART_PENDING.glb
+          for angle in front threequarter side back; do test -s "qa-out/sculpt79_${angle}.png"; done
+          sha256sum qa-out/owl172_run79_new_sculpt_meshgroom_ART_PENDING.glb > qa-out/model.sha256
+      - name: Preserve diagnostics and explicit no-release marker
+        if: always()
+        run: |
+          mkdir -p qa-out
+          cat > qa-out/README_ART_REVIEW_REQUIRED.txt <<'TXT'
+          Run79 is an isolated research experiment, not an approved 3D pet.
+          The rendered views require actual visual assessment against the owner concept;
+          passing geometry/Blender renders does not establish quality or mobile GPU compatibility.
+          No release or deployment actions occur here.
+          TXT
+      - name: Upload time-limited research proof, regardless of quality or failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run79-BLENDER-GROOM-RESEARCH-NOT-APPROVED
+          path: qa-out/
+          if-no-files-found: warn
+          retention-days: 14

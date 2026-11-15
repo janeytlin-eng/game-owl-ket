@@ -1,0 +1,93 @@
+{
+  "tool": "Pillow screenshot-centre material luminance, not ART or phone QA",
+  "bright_target_required": "rightmost cream downy chick, not black",
+  "physical_mobile_tested": false,
+  "cases": [
+    {
+      "file": "qa91/browser/flat_cream_pbr_explicit_normals/desktop_1280x720.png",
+      "size": [
+        1280,
+        720
+      ],
+      "roi_luminance_median": 46.45560073852539,
+      "roi_luminance_p95": 185.10601806640625,
+      "roi_nonbg_fraction": 0.32018045112781957,
+      "roi_bright_fraction": 0.3002065162907268,
+      "roi_nonbg_median_luma": 166.76100158691406,
+      "material_readable": true,
+      "note": "rough automatic visibility metric; human view still mandatory"
+    },
+    {
+      "file": "qa91/browser/flat_cream_pbr_explicit_normals/emulated_phone_390x844.png",
+      "size": [
+        780,
+        1688
+      ],
+      "roi_luminance_median": 46.45560073852539,
+      "roi_luminance_p95": 253.8448028564453,
+      "roi_nonbg_fraction": 0.45968438982502074,
+      "roi_bright_fraction": 0.36821093233103874,
+      "roi_nonbg_median_luma": 216.52719116210938,
+      "material_readable": true,
+      "note": "rough automatic visibility metric; human view still mandatory"
+    },
+    {
+      "file": "qa91/browser/source_vertex_colors_explicit_normals/desktop_1280x720.png",
+      "size": [
+        1280,
+        720
+      ],
+      "roi_luminance_median": 46.45560073852539,
+      "roi_luminance_p95": 97.5404052734375,
+      "roi_nonbg_fraction": 0.2948731829573935,
+      "roi_bright_fraction": 0.030873182957393483,
+      "roi_nonbg_median_luma": 0.0,
+      "material_readable": false,
+      "note": "rough automatic visibility metric; human view still mandatory"
+    },
+    {
+      "file": "qa91/browser/source_vertex_colors_explicit_normals/emulated_phone_390x844.png",
+      "size": [
+        780,
+        1688
+      ],
+      "roi_luminance_median": 46.45560073852539,
+      "roi_luminance_p95": 161.01260375976562,
+      "roi_nonbg_fraction": 0.4409927221025663,
+      "roi_bright_fraction": 0.22081732055126202,
+      "roi_nonbg_median_luma": 118.02980041503906,
+      "material_readable": true,
+      "note": "rough automatic visibility metric; human view still mandatory"
+    },
+    {
+      "file": "qa91/browser/source_vertex_colors_implicit_normals/desktop_1280x720.png",
+      "size": [
+        1280,
+        720
+      ],
+      "roi_luminance_median": 46.45560073852539,
+      "roi_luminance_p95": 63.948997497558594,
+      "roi_nonbg_fraction": 0.3089764411027569,
+      "roi_bright_fraction": 0.015727318295739347,
+      "roi_nonbg_median_luma": 0.0,
+      "material_readable": false,
+      "note": "rough automatic visibility metric; human view still mandatory"
+    },
+    {
+      "file": "qa91/browser/source_vertex_colors_implicit_normals/emulated_phone_390x844.png",
+      "size": [
+        780,
+        1688
+      ],
+      "roi_luminance_median": 46.45560073852539,
+      "roi_luminance_p95": 161.84979248046875,
+      "roi_nonbg_fraction": 0.4506383997071948,
+      "roi_bright_fraction": 0.23573067556343877,
+      "roi_nonbg_median_luma": 121.24240112304688,
+      "material_readable": true,
+      "note": "rough automatic visibility metric; human view still mandatory"
+    }
+  ],
+  "evaluated_screenshots": 6,
+  "all_readable": false
+}

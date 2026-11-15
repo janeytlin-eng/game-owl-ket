@@ -1,0 +1,69 @@
+{
+  "research_only": true,
+  "release_approved": false,
+  "hypothesis": "Run90 Three.js 0-error smoke may be black due to COLOR_0 vs normals/PBR material; compare fixed geometry.",
+  "source": "repository v31 continuous organic signed distance sculpt",
+  "source_body_triangles": 83328,
+  "body_volume_positive": true,
+  "body_watertight": true,
+  "same_mesh_geometry_all_variants": true,
+  "variants": [
+    {
+      "label": "source_vertex_colors_implicit_normals",
+      "glb": "owl172_run91_source_vertex_colors_implicit_normals_ART_REJECTED.glb",
+      "bytes": 2050956,
+      "sha256": "0843275b46ae496bbbffdc075606e7e848d73152350b17324a9282f442fc040f",
+      "triangles": 102744,
+      "mesh_count": 24,
+      "body_color_0_in_gltf": true,
+      "body_normal_in_gltf": false,
+      "body_visual_kind_on_reimport": "vertex",
+      "approved": false,
+      "actual_mobile_phone_tested": false
+    },
+    {
+      "label": "source_vertex_colors_explicit_normals",
+      "glb": "owl172_run91_source_vertex_colors_explicit_normals_ART_REJECTED.glb",
+      "bytes": 2714380,
+      "sha256": "7f0b0226e77634b98a782d969123e7cebbeb3feb559d9fe76ff20bd30363b633",
+      "triangles": 102744,
+      "mesh_count": 24,
+      "body_color_0_in_gltf": true,
+      "body_normal_in_gltf": true,
+      "body_visual_kind_on_reimport": "vertex",
+      "approved": false,
+      "actual_mobile_phone_tested": false
+    },
+    {
+      "label": "flat_cream_pbr_explicit_normals",
+      "glb": "owl172_run91_flat_cream_pbr_explicit_normals_ART_REJECTED.glb",
+      "bytes": 2547728,
+      "sha256": "9449c591f85d51955015079c60ff061839ae8330c84d3d288112e18880415469",
+      "triangles": 102744,
+      "mesh_count": 24,
+      "body_color_0_in_gltf": false,
+      "body_normal_in_gltf": true,
+      "body_visual_kind_on_reimport": "texture",
+      "approved": false,
+      "actual_mobile_phone_tested": false
+    }
+  ],
+  "cycles_render_count": 12,
+  "cycles_renders": [
+    "run91_source_vertex_colors_implicit_normals_front.png",
+    "run91_source_vertex_colors_implicit_normals_threequarter.png",
+    "run91_source_vertex_colors_implicit_normals_strict_side.png",
+    "run91_source_vertex_colors_implicit_normals_back.png",
+    "run91_source_vertex_colors_explicit_normals_front.png",
+    "run91_source_vertex_colors_explicit_normals_threequarter.png",
+    "run91_source_vertex_colors_explicit_normals_strict_side.png",
+    "run91_source_vertex_colors_explicit_normals_back.png",
+    "run91_flat_cream_pbr_explicit_normals_front.png",
+    "run91_flat_cream_pbr_explicit_normals_threequarter.png",
+    "run91_flat_cream_pbr_explicit_normals_strict_side.png",
+    "run91_flat_cream_pbr_explicit_normals_back.png"
+  ],
+  "blender_version": "4.0.2",
+  "gpu_render": "CPU_Cycles_not_phone_GPU",
+  "visual_gate": "PENDING_HUMAN_VIEW_INSPECTION_ART_NOT_APPROVED"
+}

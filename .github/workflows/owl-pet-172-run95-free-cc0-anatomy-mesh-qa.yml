@@ -1,0 +1,111 @@
+name: "Owl #172 Run95 free CC0 owl mesh search and real GLB QA (NO RELEASE)"
+on:
+  push:
+    branches: [research/owl172-run95-free-juvenile-source-mesh-evaluation]
+    paths:
+      - .github/workflows/owl-pet-172-run95-free-cc0-anatomy-mesh-qa.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run95_free_cc0_owl_asset_scout.py
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run95_real_mesh_fourviews.py
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: owl172-run95-free-cc0-anatomy-scene-no-release
+  cancel-in-progress: false
+jobs:
+  source-mesh-trial-no-publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            .github/workflows/owl-pet-172-run95-free-cc0-anatomy-mesh-qa.yml
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run95_free_cc0_owl_asset_scout.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run95_real_mesh_fourviews.py
+          sparse-checkout-cone-mode: false
+      - name: "Scout only public, no-payment CC0 model assets (no login/API key)"
+        run: |
+          set -euo pipefail
+          mkdir -p qa95
+          p=owl-pet/3d-experiments/172-tyto-castanops/tools
+          python3 "$p/run95_free_cc0_owl_asset_scout.py" qa95 >qa95/scout_stdout.log 2>&1
+          test -s qa95/run95_candidates.json
+      - name: "Install free Blender for genuine mesh import and Cycles 4-view imaging"
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq >qa95/apt.log 2>&1
+          sudo apt-get install -y -qq blender python3-pil >>qa95/apt.log 2>&1
+          blender --version | head -2 >qa95/blender_version.txt
+      - name: "Render real source meshes, re-tint and re-import separate GLBs"
+        run: |
+          set -euo pipefail
+          p=owl-pet/3d-experiments/172-tyto-castanops/tools
+          blender -b --factory-startup -t 2 --python-exit-code 43 \
+            --python "$p/run95_real_mesh_fourviews.py" -- qa95 >qa95/blender_stdout.log 2>&1 || {
+              tail -100 qa95/blender_stdout.log
+              exit 43
+            }
+          test -s qa95/run95_blender_metrics.json
+      - name: "Make four azimuth native render contact sheets and ensure rejection"
+        if: success()
+        run: |
+          set -euo pipefail
+          /usr/bin/python3 - <<'PY'
+          import json,hashlib
+          from pathlib import Path
+          from PIL import Image,ImageDraw
+          out=Path('qa95')
+          d=json.loads((out/'run95_blender_metrics.json').read_text())
+          assert d['status']=='ART_REJECTED'
+          for c in d['results']:
+              for v in c['variants']:
+                  if v.get('glb'):
+                      p=out/v['glb']
+                      assert p.stat().st_size>1000
+                      assert hashlib.sha256(p.read_bytes()).hexdigest()==v['sha256']
+                  imgs=v.get('renders',[])
+                  assert len(imgs)==4
+                  sheet=Image.new('RGB',(4*460,490),(244,243,238))
+                  for k,f in enumerate(imgs):
+                      im=Image.open(out/f).convert('RGB')
+                      assert im.size==(460,460)
+                      sheet.paste(im,(460*k,27))
+                      ImageDraw.Draw(sheet).text((460*k+8,8),f,fill=(20,20,20))
+                  sheet.save(out/('run95_contact_'+c['slug']+'_'+v['kind']+'_ART_REJECTED.png'))
+          print('TRUE_NATIVE_MULTIVIEW_AND_GLB_CHECKED',len(d['results']))
+          PY
+      - name: "Write independent cryptographic evidence and hard no-publish guard"
+        if: always()
+        run: |
+          set -euo pipefail
+          mkdir -p qa95
+          cat >qa95/ART_REJECTED_DO_NOT_PUBLISH.txt <<'EOF'
+          Run95 research-only CC0 source-mesh experiment. NOT a verified juvenile Tyto castanops.
+          Public CC0 catalog descriptions are not independent attribution/provenance.
+          Anatomy, mesoptile down and facial-disc traits require visual artistic approval.
+          Real physical mobile WebGL2 GPU / animation / thermal test NOT performed.
+          No user demonstration, deployment, paid credits, source plate, or species production changes.
+          EOF
+          find qa95 -type f ! -name SHA256SUMS.txt -print0 | sort -z | xargs -0 sha256sum >qa95/SHA256SUMS.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run95-free-cc0-source-real-GLB-ART-REJECTED
+          path: qa95/
+          retention-days: 14
+      - name: "Permanently archive all REAL evidence on research branch ONLY"
+        if: always()
+        run: |
+          set -euo pipefail
+          dst=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run95-FREE-CC0-MESH-ART-REJECTED
+          mkdir -p "$dst"
+          cp -a qa95/. "$dst/"
+          git config user.name owl172-research-bot
+          git config user.email owl172-research-bot@users.noreply.github.com
+          git add --sparse "$dst"
+          if ! git diff --cached --quiet; then
+             git commit -m "research(owl172): archive real CC0 mesh scouting/render/GLB files and ART_REJECTED gate"
+             git push origin HEAD:research/owl172-run95-free-juvenile-source-mesh-evaluation
+          fi

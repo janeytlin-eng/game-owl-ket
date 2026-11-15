@@ -89,6 +89,39 @@ def main():
             metrics['stage']='groom_evaluation'
             evaluation=g.call('evaluate',session=sid,density=.13)
             metrics['eval_summary']=str(evaluation)[:1200]
+            # Genuine failure diagnosis from Run93A: exporting hair without Cards node
+            # returns state/"the graph has no Cards node". Insert card node and rebake.
+            metrics['stage']='cards_graph_insertion'
+            try:
+                added=g.call('edit_graph',session=sid,op='add_node',type='Cards',
+                             name='owl_cream_down_mobile_cards')
+                metrics['cards_node_added']=str(added)[:800]
+                metrics['cards_connect_from_resample']=str(g.call('edit_graph',
+                    session=sid,op='connect',**{'from':'resample',
+                    'to':'owl_cream_down_mobile_cards','input':'strands'}))[:800]
+                metrics['cards_connect_to_output']=str(g.call('edit_graph',
+                    session=sid,op='connect',**{'from':'owl_cream_down_mobile_cards',
+                    'to':'output','input':'strands'}))[:800]
+                try:
+                    metrics['cream_color_material']=str(g.call('set_param',
+                        session=sid,node='color',param='color',
+                        value=[.94,.88,.75]))[:500]
+                    metrics['cream_color_mode']=str(g.call('set_param',
+                        session=sid,node='color',param='mode',value='color'))[:500]
+                except Exception as e:
+                    metrics['cream_color_warning']=str(e)
+                try:
+                    metrics['cards_preset']=str(g.call('cards_preset',session=sid,lod='mid'))[:1100]
+                except Exception as e:
+                    metrics['cards_preset_warning']=str(e)
+                try:
+                    baked=g.call('bake_cards',session=sid,directory=str(a.out.absolute()),
+                                 name='owl_cream_down_research_cards',resolution=256)
+                    metrics['cards_baked']=str(baked)[:1600]
+                except Exception as e:
+                    metrics['cards_bake_warning']=str(e)
+            except Exception as e:
+                metrics['cards_graph_error']=str(e)
             target=a.out/'owl172_run93_GROOMLAB_MESH_DOWN_ART_REJECTED.glb'
             metrics['stage']='gltf_cards_export'
             try:

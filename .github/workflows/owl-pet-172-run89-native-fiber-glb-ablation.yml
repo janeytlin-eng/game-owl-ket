@@ -37,7 +37,9 @@ jobs:
           sudo apt-get update -qq
           sudo apt-get install -y -qq blender python3-numpy
           src=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run88b-TONEMAPPED-HAIR-NOT-APPROVED/owl172_run88_true_cycles_fiber_groom_NOT_WEBGL_APPROVED.blend
-          blender -b -t 2 --factory-startup --python owl-pet/3d-experiments/172-tyto-castanops/tools/run89_native_fiber_glb_bake_ablation.py -- "$src" qa89 2>&1 | tee qa89/blender.log
+          blender -b -t 2 --factory-startup --python-exit-code 42 --python owl-pet/3d-experiments/172-tyto-castanops/tools/run89_native_fiber_glb_bake_ablation.py -- "$src" qa89 2>&1 | tee qa89/blender.log
+          test -s qa89/metrics.json
+          test -s qa89/owl172_run89_real_guide_baked_GLTF_ART_REJECTED.glb
       - name: Check actual evidence and preserve negative quality gate
         if: always()
         run: |
@@ -50,8 +52,7 @@ jobs:
           GLB baking and Blender rendering do not constitute a quality-approved pet.
           Do not deploy or notify the user with this art.
           TXT
-          if test -f qa89/metrics.json; then
-            python3 - <<'PY'
+          python3 - <<'PY'
           import json,hashlib,pathlib
           p=pathlib.Path("qa89")
           m=json.loads((p/"metrics.json").read_text())
@@ -63,7 +64,6 @@ jobs:
           assert m["decision"]=="ART_REJECTED_TEST_ONLY" and not m["approved_release"]
           print("REAL_BAKED_FIBER_GLTF_REIMPORT_BUT_ART_REJECTED",m["glb_sha256"])
           PY
-          fi
           find qa89 -maxdepth 1 -type f ! -name SHA256SUMS.txt -print0 | sort -z | xargs -0 sha256sum > qa89/SHA256SUMS.txt
       - uses: actions/upload-artifact@v4
         if: always()

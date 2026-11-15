@@ -1,0 +1,110 @@
+name: "Owl #172 Run92B REAL neural-sculpt smoothing and four-view correction — ART REJECTED"
+on:
+  push:
+    branches: [research/owl172-run92-triposr-cpu-baseline]
+    paths:
+      - .github/workflows/owl-pet-172-run92b-neural-smoothing-qa.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run92b_*
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: owl172-run92b-smooth-normals-negative-art
+  cancel-in-progress: false
+jobs:
+  test_real_neural_glb_art:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 38
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            .github/workflows/owl-pet-172-run92b-neural-smoothing-qa.yml
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run92b_smooth_normals.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run92b_blender_eightviews.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run92b_browser_views.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/tools/organic_viewer_qa_index.html
+            owl-pet/3d-experiments/172-tyto-castanops/tools/organic_viewer_qa_main.js
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run92-CPU-NEURAL-NOT-APPROVED/owl172_run92_neural_SINGLEVIEW_ART_UNREVIEWED.glb
+          sparse-checkout-cone-mode: false
+      - name: Initialize research-only fail-closed art gate
+        run: |
+          mkdir -p qa92b
+          cat > qa92b/ART_REJECTED_DO_NOT_PUBLISH.txt <<'TXT'
+          Real TripoSR original source is ONE VIEW. Neither neural surface
+          nor smoothed normal variants qualify as an anatomical 3D owl.
+          No real soft feather groom, verified eyes/disc/wings/feet, or
+          real Android/iOS GPU, rig, animation and FPS acceptance.
+          This branch is a negative art experiment, never a live deployment.
+          TXT
+      - name: Actually create two same-topology 3D GLBs preserving vertex COLOR_0
+        run: |
+          set -euo pipefail
+          python3 -m venv /tmp/owl172-run92b
+          /tmp/owl172-run92b/bin/pip install -q 'numpy==1.26.4' 'trimesh==4.4.1' 'scipy==1.14.1'
+          D=owl-pet/3d-experiments/172-tyto-castanops
+          /tmp/owl172-run92b/bin/python "$D/tools/run92b_smooth_normals.py" qa92b \
+            "$D/research-evidence-run92-CPU-NEURAL-NOT-APPROVED/owl172_run92_neural_SINGLEVIEW_ART_UNREVIEWED.glb" \
+            > qa92b/build.log 2>&1 || { tail -80 qa92b/build.log; exit 41; }
+          cat qa92b/build.log
+          test "$(find qa92b -maxdepth 1 -name '*.glb' | wc -l)" -eq 2
+      - name: Eight real Blender Cycles controlled renders, denoiser explicitly OFF
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -qq -y blender python3-numpy
+          D=owl-pet/3d-experiments/172-tyto-castanops/tools
+          blender -b --factory-startup -t 2 --python-exit-code 42 --python "$D/run92b_blender_eightviews.py" \
+            -- qa92b > qa92b/blender.log 2>&1 || { tail -120 qa92b/blender.log; exit 42; }
+          test "$(find qa92b -maxdepth 1 -name 'run92b_*.png' | wc -l)" -eq 8
+          echo 8_REALLY_RENDERED_NATIVE_CYCLES_VIEWS >> qa92b/EXECUTION_STATUS.txt
+      - name: Actual Three.js WebGL and initial/rotated screenshots, desktop plus simulated phone
+        run: |
+          set -euo pipefail
+          D=owl-pet/3d-experiments/172-tyto-castanops/tools
+          mkdir -p /tmp/owl172-run92b-viewer qa92b/browser
+          cp "$D/organic_viewer_qa_index.html" /tmp/owl172-run92b-viewer/index.html
+          cp "$D/organic_viewer_qa_main.js" /tmp/owl172-run92b-viewer/main.js
+          cp "$D/run92b_browser_views.mjs" /tmp/owl172-run92b-viewer/smoke.mjs
+          cd /tmp/owl172-run92b-viewer
+          npm init -y >/dev/null
+          npm install --silent --no-save three@0.181 vite@7.2 playwright@1.56 > "$GITHUB_WORKSPACE/qa92b/npm.log" 2>&1
+          npx playwright install chromium >> "$GITHUB_WORKSPACE/qa92b/npm.log" 2>&1
+          npx vite --host 127.0.0.1 --port 4173 > "$GITHUB_WORKSPACE/qa92b/vite.log" 2>&1 &
+          sleep 5
+          for variant in explicit_normal_control taubin12_smooth_explicit_normal; do
+            file="$(printf 'owl172_run92b_%s_ART_REJECTED.glb' "$variant")"
+            cp "$GITHUB_WORKSPACE/qa92b/$file" candidate.glb
+            mkdir -p "$GITHUB_WORKSPACE/qa92b/browser/$variant"
+            node smoke.mjs "$GITHUB_WORKSPACE/qa92b/browser/$variant" \
+              > "$GITHUB_WORKSPACE/qa92b/browser_$variant.log" 2>&1 || {
+                tail -80 "$GITHUB_WORKSPACE/qa92b/browser_$variant.log"; exit 43; }
+          done
+          echo 8_REAL_WEBGL_BROWSER_FRAMES_SOFTWARE_ONLY >> "$GITHUB_WORKSPACE/qa92b/EXECUTION_STATUS.txt"
+      - name: Strict negative art tag + independent file SHA256s
+        if: always()
+        run: |
+          mkdir -p qa92b
+          test -f qa92b/EXECUTION_STATUS.txt || echo INCOMPLETE_REAL_RENDER_OR_BROWSER_TEST > qa92b/EXECUTION_STATUS.txt
+          find qa92b -type f ! -name SHA256SUMS.txt -print0 | sort -z | xargs -0 sha256sum > qa92b/SHA256SUMS.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run92b-neural-smoothing-eight-Cycles-plus-WebGL-ART-REJECTED
+          path: qa92b/
+          retention-days: 14
+      - name: Save all evidence in separate research branch location, not production
+        if: always()
+        run: |
+          set -euo pipefail
+          dst=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run92b-NEURAL-ITERATION-ART-REJECTED
+          mkdir -p "$dst"
+          cp -a qa92b/. "$dst/"
+          git config user.name owl172-research-bot
+          git config user.email owl172-research-bot@users.noreply.github.com
+          git add --sparse "$dst"
+          if ! git diff --cached --quiet; then
+            git commit -m "research(owl172): preserve Run92B native eight-view and two GLB geometric normal ablation"
+            git push origin HEAD:research/owl172-run92-triposr-cpu-baseline
+          fi

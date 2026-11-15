@@ -36,7 +36,7 @@ jobs:
         run: |
           set -euo pipefail
           sudo apt-get update -qq >qa95/apt.log 2>&1
-          sudo apt-get install -y -qq blender python3-pil >>qa95/apt.log 2>&1
+          sudo apt-get install -y -qq blender python3-pil python3-numpy >>qa95/apt.log 2>&1
           blender --version | head -2 >qa95/blender_version.txt
       - name: "Render real source meshes, re-tint and re-import separate GLBs"
         run: |

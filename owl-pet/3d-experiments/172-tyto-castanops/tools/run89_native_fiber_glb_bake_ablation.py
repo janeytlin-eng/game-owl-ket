@@ -10,6 +10,8 @@ src,out=sys.argv[sys.argv.index("--")+1:sys.argv.index("--")+3]
 os.makedirs(out,exist_ok=True)
 bpy.ops.wm.open_mainfile(filepath=src)
 body=next(o for o in bpy.data.objects if o.type=="MESH" and o.particle_systems)
+source_body=body
+source_pm=next(m for m in source_body.modifiers if m.type=="PARTICLE_SYSTEM")
 scene=bpy.context.scene
 ps=body.particle_systems[0]
 pm=next(m for m in body.modifiers if m.type=="PARTICLE_SYSTEM")
@@ -109,9 +111,11 @@ center=Vector(tuple((min(p[i] for p in worldpts)+max(p[i] for p in worldpts))/2 
 cams=[("front",(2,0,.4)),("threequarter",(1.65,-1.5,.43)),("side",(0,-2,.37)),("back",(-2,0,.37))]
 rendered=[]
 for native in (True,False):
-    pm.show_render=native
-    pm.show_viewport=native
+    # Change the ORIGINAL persistent emitter modifier, never an evaluated copy.
+    source_pm.show_render=native
+    source_pm.show_viewport=native
     fur.hide_render=native
+    bpy.context.view_layer.update()
     for name,pos in cams:
         scene.camera.location=center+Vector(pos)
         scene.camera.rotation_euler=(center-scene.camera.location).to_track_quat("-Z","Y").to_euler()
@@ -120,9 +124,10 @@ for native in (True,False):
         bpy.ops.render.render(write_still=True)
         assert os.path.getsize(scene.render.filepath)>10000
         rendered.append(fn)
-pm.show_render=False
-pm.show_viewport=False
+source_pm.show_render=False
+source_pm.show_viewport=False
 fur.hide_render=False
+bpy.context.view_layer.update()
 for o in bpy.data.objects: o.select_set(False)
 for o in meshes: o.select_set(True)
 bpy.context.view_layer.objects.active=fur
@@ -146,6 +151,8 @@ metrics={
 "glb_sha256":glb_sha,"reimport_meshes":len(reimported),
 "baked_mesh_reimport_triangles":sum(len(o.data.polygons) for o in fur_reimport),
 "paired_native_and_exportable_cycles_views":rendered,
+"original_particle_modifier_explicitly_disabled_for_baked_renders": True,
+"render_ablation_corrected_from_run89a": True,
 "true_mobile_GPU_test":False,"PBR_parity_test":False,"animation_test":False,
 "species_and_infant_anatomy_quality_pass":False,"approved_release":False,
 "no_payment":True

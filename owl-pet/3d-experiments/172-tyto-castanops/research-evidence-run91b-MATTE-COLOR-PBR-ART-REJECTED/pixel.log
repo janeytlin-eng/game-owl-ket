@@ -1,0 +1,65 @@
+{
+  "tool": "Pillow screenshot-centre material luminance, not ART or phone QA",
+  "bright_target_required": "rightmost cream downy chick, not black",
+  "physical_mobile_tested": false,
+  "cases": [
+    {
+      "file": "qa91b/browser/default_metal_implicit/desktop_1280x720.png",
+      "size": [
+        1280,
+        720
+      ],
+      "roi_luminance_median": 46.45560073852539,
+      "roi_luminance_p95": 46.45560073852539,
+      "roi_nonbg_fraction": 0.32690526315789475,
+      "roi_bright_fraction": 0.008998496240601504,
+      "roi_nonbg_median_luma": 0.0,
+      "material_readable": false,
+      "note": "rough automatic visibility metric; human view still mandatory"
+    },
+    {
+      "file": "qa91b/browser/default_metal_implicit/emulated_phone_390x844.png",
+      "size": [
+        780,
+        1688
+      ],
+      "roi_luminance_median": 46.45560073852539,
+      "roi_luminance_p95": 161.65960693359375,
+      "roi_nonbg_fraction": 0.44548052423385,
+      "roi_bright_fraction": 0.2279009530244802,
+      "roi_nonbg_median_luma": 119.82120513916016,
+      "material_readable": true,
+      "note": "rough automatic visibility metric; human view still mandatory"
+    },
+    {
+      "file": "qa91b/browser/vertex_color_matte_pbr_repaired/desktop_1280x720.png",
+      "size": [
+        1280,
+        720
+      ],
+      "roi_luminance_median": 46.45560073852539,
+      "roi_luminance_p95": 185.82521057128906,
+      "roi_nonbg_fraction": 0.32323609022556393,
+      "roi_bright_fraction": 0.3181754385964912,
+      "roi_nonbg_median_luma": 167.1953887939453,
+      "material_readable": true,
+      "note": "rough automatic visibility metric; human view still mandatory"
+    },
+    {
+      "file": "qa91b/browser/vertex_color_matte_pbr_repaired/emulated_phone_390x844.png",
+      "size": [
+        780,
+        1688
+      ],
+      "roi_luminance_median": 46.45560073852539,
+      "roi_luminance_p95": 253.41160583496094,
+      "roi_nonbg_fraction": 0.4554753156805608,
+      "roi_bright_fraction": 0.44132212790517616,
+      "roi_nonbg_median_luma": 212.17820739746094,
+      "material_readable": true,
+      "note": "rough automatic visibility metric; human view still mandatory"
+    }
+  ],
+  "evaluated_screenshots": 4,
+  "all_readable": false
+}

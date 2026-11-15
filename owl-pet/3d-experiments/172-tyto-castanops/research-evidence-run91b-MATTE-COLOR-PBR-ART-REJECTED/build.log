@@ -1,0 +1,66 @@
+{
+  "task": "Run91B explicit rough nonmetal PBR on original vertex COLOR_0",
+  "status": "ART_REJECTED_UNCONDITIONALLY",
+  "not_user_demo": true,
+  "old_geometry_no_anatomy_fix": true,
+  "source_continuous_sculpt": "v31 original from repository",
+  "material_repair": {
+    "changed_meshes": [
+      "ORGANIC_CONNECTED_HEAD_BODY_HEART_RELIEF",
+      "TEMPORARY_BARK_SUPPORT_RESEARCH_ONLY",
+      "eye_gloss_dark_-1",
+      "eye_pupil_-1",
+      "eye_catchlight_-1",
+      "eye_gloss_dark_1",
+      "eye_pupil_1",
+      "eye_catchlight_1",
+      "ivory_hooked_bill",
+      "tarsus_-1",
+      "toe_-1_0",
+      "claw_-1_0",
+      "toe_-1_1",
+      "claw_-1_1",
+      "toe_-1_2",
+      "claw_-1_2",
+      "tarsus_1",
+      "toe_1_0",
+      "claw_1_0",
+      "toe_1_1",
+      "claw_1_1",
+      "toe_1_2",
+      "claw_1_2"
+    ],
+    "count": 23,
+    "gltf_default_metallic_factor_if_no_material": 1.0,
+    "explicit_repaired_metallic_factor": 0.0,
+    "vertex_COLOR_0_preserved": true,
+    "explicit_NORMAL_preserved": true
+  },
+  "no_physical_phone_test": true,
+  "variants": [
+    {
+      "label": "default_metal_implicit",
+      "glb": "owl172_run91b_default_metal_implicit_REJECTED.glb",
+      "bytes": 2714380,
+      "sha256": "50f718e060de416de6c40189561bd65ef16b524dcc09a86dc0e6f228e40f9582",
+      "triangle_count": 102744,
+      "mesh_count": 24,
+      "body_material": null,
+      "body_color_0": true,
+      "body_normal": true,
+      "approved": false
+    },
+    {
+      "label": "vertex_color_matte_pbr_repaired",
+      "glb": "owl172_run91b_vertex_color_matte_pbr_repaired_REJECTED.glb",
+      "bytes": 2714864,
+      "sha256": "47088e4e5a3c6267bdb01d0cf9e5bdd344e1a6ba4f9d4955cb17a22ed61870c6",
+      "triangle_count": 102744,
+      "mesh_count": 24,
+      "body_material": "RUN91B_REPAIR_COLOR_0_MATTE_PBR_DO_NOT_APPROVE_ART",
+      "body_color_0": true,
+      "body_normal": true,
+      "approved": false
+    }
+  ]
+}

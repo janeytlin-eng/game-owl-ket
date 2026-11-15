@@ -11,13 +11,18 @@ permissions:
   contents: read
 concurrency:
   group: owl172-run78-free-sculpt
-  cancel-in-progress: false
+  cancel-in-progress: true
 jobs:
   free-blender-sculpt-qa:
     runs-on: ubuntu-24.04
     timeout-minutes: 22
     steps:
       - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run78_blender_new_sculpt_groom.py
+          sparse-checkout-cone-mode: false
       - name: Confirm no-charge public standard runner / install stock Blender
         run: |
           set -euo pipefail

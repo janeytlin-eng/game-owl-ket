@@ -1,0 +1,97 @@
+name: "Owl #172 Run94 real GroomLab PBR alpha/card-length QA (NO RELEASE)"
+on:
+  push:
+    branches: [research/owl172-run94-groom-cards-alpha-calibration]
+    paths:
+      - .github/workflows/owl-pet-172-run94-groom-alpha-calibration.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run94_groom_glb_alpha_multiview.py
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: owl172-run94-groom-pbr-alpha-no-release
+  cancel-in-progress: false
+jobs:
+  true-3d-native-alpha-multiview-calibration:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 42
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            .github/workflows/owl-pet-172-run94-groom-alpha-calibration.yml
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run94_groom_glb_alpha_multiview.py
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run93-GROOMLAB-TOOL-PROBE-ART-REJECTED/baseline_run92C_ART_REJECTED.glb
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run93-GROOMLAB-TOOL-PROBE-ART-REJECTED/owl172_run93_GROOMLAB_MESH_DOWN_ART_REJECTED.glb
+          sparse-checkout-cone-mode: false
+      - name: "Check real GLB provenance and install free Blender renderer"
+        run: |
+          set -euo pipefail
+          mkdir -p qa94
+          D=owl-pet/3d-experiments/172-tyto-castanops
+          cp "$D/research-evidence-run93-GROOMLAB-TOOL-PROBE-ART-REJECTED/baseline_run92C_ART_REJECTED.glb" qa94/baseline_run92C_REJECTED.glb
+          cp "$D/research-evidence-run93-GROOMLAB-TOOL-PROBE-ART-REJECTED/owl172_run93_GROOMLAB_MESH_DOWN_ART_REJECTED.glb" qa94/run93_groomlab_export_REJECTED.glb
+          echo '6bc98227580d178e5750c6abd8903c31d956172b6afeacf20257dabf661d2d53  qa94/baseline_run92C_REJECTED.glb' | sha256sum -c -
+          echo 'b1aa292c614ad93a819e1985005634433bf24beb02012398aa8f06f922442be6  qa94/run93_groomlab_export_REJECTED.glb' | sha256sum -c -
+          sudo apt-get update -qq >qa94/apt.log 2>&1
+          sudo apt-get install -y -qq blender python3-numpy python3-pil >>qa94/apt.log 2>&1
+          blender -b --factory-startup -t 2 --python-exit-code 43 \
+            --python "$D/tools/run94_groom_glb_alpha_multiview.py" -- qa94 >qa94/blender.log 2>&1 || { tail -100 qa94/blender.log; exit 43; }
+          test "$(find qa94 -maxdepth 1 -name 'run94_*.png' | wc -l)" -eq 12
+      - name: "Create checked four-azimuth contact sheet and explicit REJECTED quality status"
+        if: success()
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from PIL import Image,ImageDraw
+          from pathlib import Path
+          import hashlib,json
+          p=Path('qa94');d=json.loads((p/'run94_metrics.json').read_text())
+          assert len(d['variants'])==3 and d['status']=='ART_REJECTED'
+          sheet=Image.new('RGB',(420*4,450*3),(242,242,238))
+          for row,v in enumerate(d['variants']):
+              assert v['real_glb_roundtrip'] and v['triangles']>100000
+              f=p/('owl172_run94_'+v['label']+'_UNAPPROVED.glb')
+              assert f.is_file() and hashlib.sha256(f.read_bytes()).hexdigest()==v['sha256']
+              for col,fname in enumerate(v['renders']):
+                  img=Image.open(p/fname).convert('RGB')
+                  assert img.size==(420,420)
+                  sheet.paste(img,(420*col,450*row+25))
+                  ImageDraw.Draw(sheet).text((420*col+10,450*row+8),
+                      v['label']+' '+['front','threequarter','side','rear'][col],fill=(10,10,10))
+          sheet.save(p/'run94_three_scales_four_azimuths_ART_REJECTED.png')
+          print('REAL_3D_TWELVE_CYCLES_RENDERS_AND_GLBS_VERIFIED')
+          PY
+      - name: "Lock negative-only verdict and cryptographic audit before archiving"
+        if: always()
+        run: |
+          set -euo pipefail
+          mkdir -p qa94
+          printf '%s\n' 'Run94 actual Blender Cycles alpha/PBR study, not an approved bird.' \
+            'This study fixes only a renderer/texture-support uncertainty.' \
+            'No independent human visual artistic approval; no real mobile GPU.' \
+            'The previous VTK four-view image cannot validate alpha transparency.' \
+            'No modifications to 251 species production or deployed pet.' \
+            > qa94/ART_REJECTED_DO_NOT_PUBLISH.txt
+          find qa94 -type f ! -name SHA256SUMS.txt -print0 | sort -z | xargs -0 sha256sum >qa94/SHA256SUMS.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run94-real-groom-native-alpha-ART-REJECTED
+          path: qa94/
+          retention-days: 14
+      - name: "Permanently archive real experiment only to independent research branch"
+        if: always()
+        run: |
+          set -euo pipefail
+          dst=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run94-GROOM-ALPHA-CALIBRATION-ART-REJECTED
+          mkdir -p "$dst"
+          cp -a qa94/. "$dst/"
+          git config user.name owl172-research-bot
+          git config user.email owl172-research-bot@users.noreply.github.com
+          git add --sparse "$dst"
+          if ! git diff --cached --quiet; then
+             git commit -m "research(owl172): archive actual native Blender alpha/card calibration GLBs and four views, rejected"
+             git push origin HEAD:research/owl172-run94-groom-cards-alpha-calibration
+          fi

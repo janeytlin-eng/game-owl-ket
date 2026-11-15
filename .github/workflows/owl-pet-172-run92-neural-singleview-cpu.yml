@@ -1,0 +1,147 @@
+name: "Owl #172 Run92 CPU TripoSR REAL mesh research — NOT ART APPROVED"
+on:
+  push:
+    branches: [research/owl172-run92-triposr-cpu-baseline]
+    paths:
+      - .github/workflows/owl-pet-172-run92-neural-singleview-cpu.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run92_*
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: owl172-run92-neural-cpu-isolated-negative-art
+  cancel-in-progress: false
+jobs:
+  open-model-neural-sculpt-baseline:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 58
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            .github/workflows/owl-pet-172-run92-neural-singleview-cpu.yml
+            owl-pet/design/concepts/172-tyto-castanops-v3.png
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run92_neural_cpu.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run92_blender_views.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run92_browser_smoke.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/tools/organic_viewer_qa_index.html
+            owl-pet/3d-experiments/172-tyto-castanops/tools/organic_viewer_qa_main.js
+          sparse-checkout-cone-mode: false
+      - name: Initialize explicit rejected-art research evidence container
+        run: |
+          mkdir -p qa92
+          cat > qa92/ART_REJECTED_DO_NOT_PUBLISH.txt <<'TXT'
+          Run92 has NO image-reviewed or real-phone-validated approved electronic pet.
+          Single frontal source concept does NOT establish side/back owl anatomy.
+          AI inferred volume is NOT a wildlife scan or morphological truth.
+          No natural high-quality down groom or rig yet. Fail closed for art.
+          This isolation experiment never modifies 251-species production.
+          TXT
+          echo "PIPELINE_NOT_YET_COMPLETED_ART_REJECTED" > qa92/EXECUTION_STATUS.txt
+      - name: Install free CPU dependencies and verify official open source model
+        run: |
+          set -euo pipefail
+          python3 -m venv /tmp/owl172-run92-venv
+          source /tmp/owl172-run92-venv/bin/activate
+          python -m pip install -q --upgrade pip setuptools wheel
+          python -m pip install -q torch==2.4.1 torchvision==0.19.1 --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install -q 'numpy==1.26.4' 'Pillow==10.4.0' \
+            'omegaconf==2.3.0' 'einops==0.7.0' 'transformers==4.35.2' \
+            'huggingface-hub==0.25.2' 'trimesh==4.4.1' \
+            'scikit-image==0.24.0' 'scipy==1.14.1' \
+            'rembg==2.0.67' 'onnxruntime==1.19.2'
+          git clone -q --depth 1 https://github.com/VAST-AI-Research/TripoSR.git /tmp/owl172-TripoSR
+          git -C /tmp/owl172-TripoSR rev-parse HEAD > qa92/triposr_code_commit.txt
+          sed -n '1,45p' /tmp/owl172-TripoSR/LICENSE > qa92/triposr_license_excerpt.txt
+          # CPU-only free replacement for torchmcubes GPU extension, using skimage.
+          # This is actual marching cubes, NOT fabricated/pre-made geometric shapes.
+          cat > /tmp/owl172-TripoSR/torchmcubes.py <<'PY'
+          import numpy as np
+          import torch
+          from skimage.measure import marching_cubes as mc
+          def marching_cubes(level, value):
+              a=level.detach().to("cpu").numpy().astype(np.float32)
+              v,f,n,x=mc(a,level=float(value))
+              return torch.from_numpy(v.copy()).float(),torch.from_numpy(f.copy().astype(np.int64))
+          PY
+          source /tmp/owl172-run92-venv/bin/activate
+          PYTHONPATH=/tmp/owl172-TripoSR python -c 'import torch; from tsr.system import TSR; import rembg; print("REAL_CPU_TRIPOSR_READY",torch.__version__)'
+        shell: bash
+      - name: Crop rightmost actual concept and isolate foreground for neural reconstruction
+        run: |
+          set -euo pipefail
+          source /tmp/owl172-run92-venv/bin/activate
+          D=owl-pet/3d-experiments/172-tyto-castanops/tools
+          python "$D/run92_neural_cpu.py" prepare --out qa92 > qa92/prepare.log 2>&1 || { tail -100 qa92/prepare.log; exit 43; }
+          cat qa92/prepare.log
+          test -s qa92/owl172_neural_input.png
+      - name: Actually infer free MIT single-image 3D mesh on CPU; export GLB and independent reimport
+        timeout-minutes: 39
+        run: |
+          set -euo pipefail
+          source /tmp/owl172-run92-venv/bin/activate
+          D=owl-pet/3d-experiments/172-tyto-castanops/tools
+          export PYTHONPATH=/tmp/owl172-TripoSR
+          export HF_HUB_DISABLE_TELEMETRY=1
+          export OMP_NUM_THREADS=2
+          python "$D/run92_neural_cpu.py" infer --out qa92 --resolution 112 > qa92/infer.log 2>&1 || { tail -140 qa92/infer.log; exit 44; }
+          python "$D/run92_neural_cpu.py" audit --out qa92 > qa92/audit.log 2>&1
+          cat qa92/audit.log
+          echo "ACTUAL_NEURAL_GLTF_REIMPORTED_BUT_ART_UNREVIEWED" > qa92/EXECUTION_STATUS.txt
+      - name: Four actual Blender Cycles angles of reconstructed neural model
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq blender python3-numpy
+          D=owl-pet/3d-experiments/172-tyto-castanops/tools
+          blender -b --factory-startup -t 2 --python-exit-code 42 --python "$D/run92_blender_views.py" -- qa92 > qa92/blender.log 2>&1 || { tail -80 qa92/blender.log; exit 45; }
+          test "$(find qa92 -maxdepth 1 -name 'run92_neural_*.png' | wc -l)" -eq 4
+      - name: Real Three.js WebGL2 render on desktop and simulated mobile; physical phone still unverified
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          D=owl-pet/3d-experiments/172-tyto-castanops/tools
+          mkdir -p qa92/browser /tmp/owl172-run92-viewer
+          cp "$D/organic_viewer_qa_index.html" /tmp/owl172-run92-viewer/index.html
+          cp "$D/organic_viewer_qa_main.js" /tmp/owl172-run92-viewer/main.js
+          cp "$D/run92_browser_smoke.mjs" /tmp/owl172-run92-viewer/smoke.mjs
+          cp qa92/owl172_run92_neural_SINGLEVIEW_ART_UNREVIEWED.glb /tmp/owl172-run92-viewer/candidate.glb
+          cd /tmp/owl172-run92-viewer
+          npm init -y >/dev/null
+          npm install --silent --no-save three@0.181 vite@7.2 playwright@1.56 > "$GITHUB_WORKSPACE/qa92/npm.log" 2>&1
+          npx playwright install chromium >> "$GITHUB_WORKSPACE/qa92/npm.log" 2>&1
+          npx vite --host 127.0.0.1 --port 4173 > "$GITHUB_WORKSPACE/qa92/vite.log" 2>&1 &
+          sleep 6
+          node smoke.mjs "$GITHUB_WORKSPACE/qa92/browser" > "$GITHUB_WORKSPACE/qa92/browser.log" 2>&1 || { tail -90 "$GITHUB_WORKSPACE/qa92/browser.log"; exit 46; }
+      - name: Research status and per-file SHA256s, no fake visual release
+        if: always()
+        run: |
+          mkdir -p qa92
+          if [ ! -f qa92/EXECUTION_STATUS.txt ]; then
+            echo 'INCOMPLETE_PIPELINE_ART_REJECTED' > qa92/EXECUTION_STATUS.txt
+          fi
+          printf 'Single input plate original crop. Side/back generated by prior, not grounded. %s\n' \
+            'Unreviewed/rejected even if binary and software-WebGL smoke pass.' > qa92/QUALITY_LIMITS.txt
+          find qa92 -type f ! -name SHA256SUMS.txt -print0 | sort -z | xargs -0 sha256sum > qa92/SHA256SUMS.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run92-CPU-TRIPOSR-singleview-NOT-APPROVED
+          path: qa92/
+          retention-days: 14
+      - name: Persist independent true execution evidence into this research branch, even for failures
+        if: always()
+        run: |
+          set -euo pipefail
+          dst=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run92-CPU-NEURAL-NOT-APPROVED
+          mkdir -p "$dst"
+          cp -a qa92/. "$dst/"
+          git config user.name owl172-research-bot
+          git config user.email owl172-research-bot@users.noreply.github.com
+          git add --sparse "$dst"
+          if ! git diff --cached --quiet; then
+            git commit -m "research(owl172): preserve Run92 real CPU neural baseline and negative-art evidence"
+            git push origin HEAD:research/owl172-run92-triposr-cpu-baseline
+          fi

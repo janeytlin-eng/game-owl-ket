@@ -1,0 +1,68 @@
+name: "Owl #172 Run85 sculpted facial ruff and buried wing juvenile Blender research"
+on:
+  push:
+    branches:
+      - research/owl172-run85-supported-rounded-mesoptile
+    paths:
+      - .github/workflows/owl-pet-172-run85-supported-rounded-mesoptile.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/run85-trigger.txt
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: owl172-run85-research
+  cancel-in-progress: true
+jobs:
+  isolated-free-blender-qa:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 24
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            .github/workflows/owl-pet-172-run85-supported-rounded-mesoptile.yml
+            owl-pet/3d-experiments/172-tyto-castanops/
+          sparse-checkout-cone-mode: false
+      - name: Install free Blender system package
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq blender python3-numpy
+          blender --version | head -3
+      - name: Execute actual Blender modeling, Cycles views and GLB roundtrip
+        run: |
+          set -euo pipefail
+          mkdir -p qa-out
+          blender -b --factory-startup -t 2 --python owl-pet/3d-experiments/172-tyto-castanops/tools/run85_blender_gradient_disc.py -- qa-out 2>&1 | tee qa-out/blender_run85.log
+          test -s qa-out/owl172_run85_organic_integrated_face_ART_PENDING.glb
+          for angle in front threequarter side back; do test -s qa-out/sculpt84_${angle}.png; done
+          sha256sum qa-out/owl172_run85_organic_integrated_face_ART_PENDING.glb > qa-out/model.sha256
+      - name: Preserve research with strong rejection semantics
+        if: always()
+        run: |
+          mkdir -p qa-out
+          cat > qa-out/README.txt <<'TXT'
+          Run85 research output ONLY. NOT ART APPROVED; not released or deployed.
+          The model and views have not passed human/vision acceptance or physical phone WebGL.
+          TXT
+      - name: GitHub Actions 14-day evidence artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run85-real-3d-research-NOT-APPROVED
+          path: qa-out/
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Durable evidence ONLY on research branch, never main
+        if: success()
+        run: |
+          set -euo pipefail
+          dst=owl-pet/3d-experiments/172-tyto-castanops/uncertified-binary-run85
+          mkdir -p "$dst"
+          cp qa-out/owl172_run85_organic_integrated_face_ART_PENDING.glb qa-out/sculpt84_*.png qa-out/metrics.json qa-out/model.sha256 qa-out/blender_run85.log qa-out/README.txt "$dst/"
+          git config user.name "owl172-research-bot"
+          git config user.email "owl172-research-bot@users.noreply.github.com"
+          git add "$dst"
+          git commit -m "research(owl172): archive actual Run85 NOT-APPROVED GLB and 4-view renders"
+          git push origin HEAD:${{ github.ref_name }}

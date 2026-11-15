@@ -1,0 +1,131 @@
+name: "Owl #172 Run96 independent anatomical real 3D native feathers (UNAPPROVED)"
+on:
+  push:
+    branches: [research/owl172-run96-anatomical-feather-tract-native-sculpt]
+    paths:
+      - .github/workflows/owl-pet-172-run96-true-3d-anatomical-feathertract-qa.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run96_anatomical_feathertract_sculpt.py
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run96_blender_fourview_cycles.py
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: owl172-run96-anatomical-fluff-NOT-RELEASE
+  cancel-in-progress: false
+jobs:
+  true-3d-experimental-sculpt-and-qa:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            .github/workflows/owl-pet-172-run96-true-3d-anatomical-feathertract-qa.yml
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run96_anatomical_feathertract_sculpt.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run96_blender_fourview_cycles.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/organic_viewer_qa_index.html
+            owl-pet/3d-experiments/172-tyto-castanops/tools/organic_viewer_qa_main.js
+            owl-pet/3d-experiments/172-tyto-castanops/tools/organic_mobile_webgl_smoke.mjs
+          sparse-checkout-cone-mode: false
+      - name: "Build true native GLB from continuous feather-tract 3D surface"
+        run: |
+          set -euo pipefail
+          mkdir -p qa96
+          python3 -m venv /tmp/owl172run96
+          /tmp/owl172run96/bin/pip install -q numpy scipy scikit-image trimesh pillow
+          p=owl-pet/3d-experiments/172-tyto-castanops/tools
+          /tmp/owl172run96/bin/python "$p/run96_anatomical_feathertract_sculpt.py" qa96 >qa96/sculpt.log 2>&1 || {
+            tail -100 qa96/sculpt.log
+            exit 42
+          }
+          test -s qa96/run96_anatomy_directional_down_NOT_APPROVED.glb
+          /tmp/owl172run96/bin/python - <<'PY'
+          import json,pathlib,hashlib,trimesh
+          p=pathlib.Path("qa96")
+          m=json.loads((p/"run96_metrics.json").read_text())
+          glb=p/m["glb"]
+          assert glb.read_bytes()[:4]==b"glTF"
+          assert hashlib.sha256(glb.read_bytes()).hexdigest()==m["sha256"]
+          s=trimesh.load(glb,force="scene")
+          assert len(s.geometry)==m["parts"]
+          print("REIMPORTED_TRUE_3D",len(s.geometry),m["triangles"],m["bytes"])
+          PY
+      - name: "Install free Blender and produce real native Cycles four-view"
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq >qa96/apt.log 2>&1
+          sudo apt-get install -y -qq blender python3-numpy python3-pil >>qa96/apt.log 2>&1
+          blender --version | head -2 >qa96/blender_version.txt
+          p=owl-pet/3d-experiments/172-tyto-castanops/tools
+          blender -b --factory-startup -t 2 --python-exit-code 43 --python "$p/run96_blender_fourview_cycles.py" -- qa96 >qa96/blender_stdout.log 2>&1 || {
+            tail -100 qa96/blender_stdout.log
+            exit 43
+          }
+          /usr/bin/python3 - <<'PY'
+          from PIL import Image,ImageDraw
+          from pathlib import Path
+          p=Path("qa96")
+          views=["front","threequarter","strict_side","rear"]
+          sheet=Image.new("RGB",(2080,548),(243,239,233))
+          draw=ImageDraw.Draw(sheet)
+          for i,v in enumerate(views):
+              f=p/("run96_actual_cycles_"+v+".png")
+              im=Image.open(f).convert("RGB");assert im.size==(520,520)
+              sheet.paste(im,(i*520,28))
+              draw.text((i*520+8,8),v,fill=(12,20,23))
+          sheet.save(p/"run96_actual_cycles_4view_contact_NOT_APPROVED.png")
+          print("FOUR_REAL_CYCLES_FRAMES")
+          PY
+      - name: "Actual software WebGL2 Chromium (not phone GPU)"
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          p=owl-pet/3d-experiments/172-tyto-castanops/tools
+          mkdir -p qa96/browser /tmp/owl172run96webgl
+          cp "$p/organic_viewer_qa_index.html" /tmp/owl172run96webgl/index.html
+          sed "s/eye_gloss_dark_/black_iris_/g" "$p/organic_viewer_qa_main.js" > /tmp/owl172run96webgl/main.js
+          cp "$p/organic_mobile_webgl_smoke.mjs" /tmp/owl172run96webgl/smoke.mjs
+          cp qa96/run96_anatomy_directional_down_NOT_APPROVED.glb /tmp/owl172run96webgl/candidate.glb
+          cd /tmp/owl172run96webgl
+          npm init -y >/dev/null
+          npm install --no-save --silent three@0.181 vite@7.2 playwright@1.56
+          npx playwright install chromium
+          npx vite --host 127.0.0.1 --port 4173 >"$GITHUB_WORKSPACE/qa96/webgl_vite.log" 2>&1 &
+          sleep 5
+          node smoke.mjs "$GITHUB_WORKSPACE/qa96/browser" >"$GITHUB_WORKSPACE/qa96/webgl_test.log" 2>&1
+      - name: "Record unconditional rejection pending qualified human art and actual phone GPU QA"
+        if: always()
+        run: |
+          set -euo pipefail
+          mkdir -p qa96
+          cat > qa96/ART_GATE_PENDING_DO_NOT_PUBLISH.txt <<'EOF'
+          Run96 is a new real 3D anatomical sculpt / overlapping feather-tract engineering experiment.
+          It is NOT a quality-approved #172 Tyto castanops chick and NOT a release.
+          Renderable glTF, four native views, successful software WebGL (if present) do not
+          establish accepted realistic cream down, integrated heart facial disc, or juvenile anatomy.
+          No physical mobile WebGL2 GPU / FPS / animation / thermal test is provided.
+          No fee-based API used. Only research scripts and evidence may be changed.
+          DO NOT publish model, claim success, modify 251-species pipeline or production demo.
+          EOF
+          find qa96 -type f ! -name SHA256SUMS.txt -print0 | sort -z | xargs -0 sha256sum >qa96/SHA256SUMS.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run96-TRUE3D-UNAPPROVED-evidence
+          path: qa96/
+          retention-days: 14
+      - name: "Persist independent experimental evidence to research branch only"
+        if: always()
+        run: |
+          set -euo pipefail
+          dst=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run96-REAL-ANATOMICAL-FEATHERTRACT-UNAPPROVED
+          mkdir -p "$dst"
+          cp -a qa96/. "$dst/"
+          git config user.name owl172-research-bot
+          git config user.email owl172-research-bot@users.noreply.github.com
+          git add --sparse "$dst"
+          if ! git diff --cached --quiet; then
+            git commit -m "research(owl172): preserve Run96 real native 3D/sculpt/Cycles/WebGL evidence with nonrelease gate"
+            git push origin HEAD:research/owl172-run96-anatomical-feather-tract-native-sculpt
+          fi

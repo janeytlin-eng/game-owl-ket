@@ -4,9 +4,9 @@
   "candidate_approved": false,
   "physical_phone_GPU": false,
   "original_concept_side_back_verified": false,
-  "stage": "gltf_cards_export",
+  "stage": "real_GLBS_written_but_not_art_approved",
   "tool": "thekesslereffect/groomlab dev Apache-2.0 core (license verified in upstream)",
-  "workflow_run": "43756353279",
+  "workflow_run": "43757415884",
   "baseline_sha256": "6bc98227580d178e5750c6abd8903c31d956172b6afeacf20257dabf661d2d53",
   "baseline_bytes": 3743388,
   "base_source_geometry": "ORGANIC_CONNECTED_HEAD_BODY_HEART_RELIEF",
@@ -49,14 +49,44 @@
   },
   "groom_created": true,
   "groom_summary": "{'groom': {'flatGuides': 0, 'followScalp': True, 'fps': 24.0, 'hierarchyGuides': 0, 'inputErrors': [], 'nodes': 10, 'notes': [], 'output': 'output', 'scalp': {'colorSets': [], 'points': 1602, 'polygons': 3200, 'rest': False, 'topology': '41faa55cdf40f641', 'triangles': 3200, 'uvs': True}, 'source': '', 'units': 'cm', 'upAxis': 'Y'}, 'guides': 'hierarchy'}",
-  "eval_summary": "{'arrays': {'attributes': {}, 'ids': {'dtype': '<u8', 'offset': 2360064, 'shape': [11132], 'shm': 'groomlab_4633_s1strands_1'}, 'offsets': {'dtype': '<i4', 'offset': 2315520, 'shape': [11133], 'shm': 'groomlab_4633_s1strands_1'}, 'pointCounts': {'dtype': '<i4', 'offset': 2270976, 'shape': [11132], 'shm': 'groomlab_4633_s1strands_1'}, 'positions': {'dtype': '<f4', 'offset': 0, 'shape': [189244, 3], 'shm': 'groomlab_4633_s1strands_1'}, 'widths': {'dtype': '<f4', 'offset': 2449152, 'shape': [189244], 'shm': 'groomlab_4633_s1strands_1'}}, 'attributesAvailable': [{'components': 1, 'name': 'colorB', 'scope': 'strand'}, {'components': 1, 'name': 'colorG', 'scope': 'strand'}, {'components': 1, 'name': 'colorR', 'scope': 'strand'}, {'components': 1, 'name': 'melanin', 'scope': 'strand'}, {'components': 1, 'name': 'melaninRedness', 'scope': 'strand'}, {'components': 2, 'name': 'rootUV', 'scope': 'strand'}, {'components': 3, 'name': 'color', 'scope': 'strand'}], 'changedStrands': None, 'changesBase': 0, 'errors': [], 'following': False, 'look': {'colorBlends': False, 'colorNodes': [{'params': {'affect': 1.0, 'clumpChannel': 'clumpId', 'clumpShare': 0.5, 'color': [0.800000011920929, 0.80000001",
-  "gltf_export_failure": "export: {\"error\": {\"code\": \"state\", \"message\": \"the graph has no Cards node: add one first\"}, \"id\": 6, \"ok\": false}",
+  "eval_summary": "{'arrays': {'attributes': {}, 'ids': {'dtype': '<u8', 'offset': 2360064, 'shape': [11132], 'shm': 'groomlab_4563_s1strands_1'}, 'offsets': {'dtype': '<i4', 'offset': 2315520, 'shape': [11133], 'shm': 'groomlab_4563_s1strands_1'}, 'pointCounts': {'dtype': '<i4', 'offset': 2270976, 'shape': [11132], 'shm': 'groomlab_4563_s1strands_1'}, 'positions': {'dtype': '<f4', 'offset': 0, 'shape': [189244, 3], 'shm': 'groomlab_4563_s1strands_1'}, 'widths': {'dtype': '<f4', 'offset': 2449152, 'shape': [189244], 'shm': 'groomlab_4563_s1strands_1'}}, 'attributesAvailable': [{'components': 1, 'name': 'colorB', 'scope': 'strand'}, {'components': 1, 'name': 'colorG', 'scope': 'strand'}, {'components': 1, 'name': 'colorR', 'scope': 'strand'}, {'components': 1, 'name': 'melanin', 'scope': 'strand'}, {'components': 1, 'name': 'melaninRedness', 'scope': 'strand'}, {'components': 2, 'name': 'rootUV', 'scope': 'strand'}, {'components': 3, 'name': 'color', 'scope': 'strand'}], 'changedStrands': None, 'changesBase': 0, 'errors': [], 'following': False, 'look': {'colorBlends': False, 'colorNodes': [{'params': {'affect': 1.0, 'clumpChannel': 'clumpId', 'clumpShare': 0.5, 'color': [0.800000011920929, 0.80000001",
+  "cards_node_added": "{'graphError': '', 'name': 'owl_cream_down_mobile_cards'}",
+  "cards_connect_from_resample": "{'graphError': ''}",
+  "cards_connect_to_output": "{'graphError': ''}",
+  "cream_color_material": "{'value': [0.94, 0.88, 0.75]}",
+  "cream_color_mode": "{'value': 'color'}",
+  "cards_preset": "{'nodes': ['owl_cream_down_mobile_cards'], 'params': {'atlasSize': 2048, 'cardsPerClump': 2, 'curvature': 0.3, 'flyawayCards': 0, 'layers': 1, 'maxCards': 468, 'ruffle': 0.3, 'segments': 8, 'variations': 16, 'widthScale': 1.0, 'widthSegments': 2}}",
+  "cards_baked": "{'cards': 468, 'name': 'owl_cream_down_research_cards', 'paths': ['/home/runner/work/game-owl-ket/game-owl-ket/qa93/owl_cream_down_research_cards_Depth.tga', '/home/runner/work/game-owl-ket/game-owl-ket/qa93/owl_cream_down_research_cards_Coverage.tga', '/home/runner/work/game-owl-ket/game-owl-ket/qa93/owl_cream_down_research_cards_Tangent.tga', '/home/runner/work/game-owl-ket/game-owl-ket/qa93/owl_cream_down_research_cards_Attribute.tga', '/home/runner/work/game-owl-ket/game-owl-ket/qa93/owl_cream_down_research_cards_Color.tga', '/home/runner/work/game-owl-ket/game-owl-ket/qa93/owl_cream_down_research_cards_AO.tga', '/home/runner/work/game-owl-ket/game-owl-ket/qa93/owl_cream_down_research_cards_Normal.tga', '/home/runner/work/game-owl-ket/game-owl-ket/qa93/owl_cream_down_research_cards_AO_world.tga', '/home/runner/work/game-owl-ket/game-owl-ket/qa93/owl_cream_down_research_cards_Atlas.json', '/home/runner/work/game-owl-ket/game-owl-ket/qa93/owl_cream_down_research_cards_Preview.png'], 'prefix': '/home/runner/work/game-owl-ket/game-owl-ket/qa93/owl_cream_down_research_cards_', 'preview': '/home/runner/work/game-owl-ket/game-owl-ket/qa93/owl_cream_down_research_cards_Preview.png', 'size': 256, 'textures': 16, 'triangles': 12380}",
+  "export_result": "{'files': ['/home/runner/work/game-owl-ket/game-owl-ket/qa93/owl172_run93_GROOMLAB_MESH_DOWN_ART_REJECTED.glb'], 'meshes': ['owl172_run93_low'], 'warnings': []}",
+  "exported_down_glb": {
+    "bytes": 529228,
+    "sha256": "b1aa292c614ad93a819e1985005634433bf24beb02012398aa8f06f922442be6",
+    "meshes": 1,
+    "triangles": 3168
+  },
+  "combined": {
+    "bytes": 2924936,
+    "sha256": "4e921bbce84bf5ca668a0a98f0ca08351e0ca83ebf543e8f37ad95f583bd98e4",
+    "meshes": 25,
+    "triangles": 132736
+  },
   "save_groom": {
-    "copied": [],
+    "copied": [
+      "/home/runner/work/game-owl-ket/game-owl-ket/qa93/groomlab/owl172_run93_UNAPPROVED/cards/owl172_run93_UNAPPROVED/owl172_run93_UNAPPROVED_Depth.tga",
+      "/home/runner/work/game-owl-ket/game-owl-ket/qa93/groomlab/owl172_run93_UNAPPROVED/cards/owl172_run93_UNAPPROVED/owl172_run93_UNAPPROVED_Coverage.tga",
+      "/home/runner/work/game-owl-ket/game-owl-ket/qa93/groomlab/owl172_run93_UNAPPROVED/cards/owl172_run93_UNAPPROVED/owl172_run93_UNAPPROVED_Tangent.tga",
+      "/home/runner/work/game-owl-ket/game-owl-ket/qa93/groomlab/owl172_run93_UNAPPROVED/cards/owl172_run93_UNAPPROVED/owl172_run93_UNAPPROVED_Attribute.tga",
+      "/home/runner/work/game-owl-ket/game-owl-ket/qa93/groomlab/owl172_run93_UNAPPROVED/cards/owl172_run93_UNAPPROVED/owl172_run93_UNAPPROVED_Color.tga",
+      "/home/runner/work/game-owl-ket/game-owl-ket/qa93/groomlab/owl172_run93_UNAPPROVED/cards/owl172_run93_UNAPPROVED/owl172_run93_UNAPPROVED_AO.tga",
+      "/home/runner/work/game-owl-ket/game-owl-ket/qa93/groomlab/owl172_run93_UNAPPROVED/cards/owl172_run93_UNAPPROVED/owl172_run93_UNAPPROVED_Normal.tga",
+      "/home/runner/work/game-owl-ket/game-owl-ket/qa93/groomlab/owl172_run93_UNAPPROVED/cards/owl172_run93_UNAPPROVED/owl172_run93_UNAPPROVED_AO_world.tga",
+      "/home/runner/work/game-owl-ket/game-owl-ket/qa93/groomlab/owl172_run93_UNAPPROVED/cards/owl172_run93_UNAPPROVED/owl172_run93_UNAPPROVED_Atlas.json",
+      "/home/runner/work/game-owl-ket/game-owl-ket/qa93/groomlab/owl172_run93_UNAPPROVED/cards/owl172_run93_UNAPPROVED/owl172_run93_UNAPPROVED_Preview.png"
+    ],
     "path": "/home/runner/work/game-owl-ket/game-owl-ket/qa93/owl172_run93_UNAPPROVED.groom",
     "units": "cm",
     "upAxis": "Y",
     "warnings": []
   },
-  "groom_bytes": 266659
+  "groom_bytes": 267821
 }

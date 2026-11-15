@@ -1,0 +1,91 @@
+{
+  "status": "ART_REJECTED",
+  "physical_mobile_GPU_tested": false,
+  "render_engine": "Blender Cycles, native 3D, no image faking",
+  "results": [
+    {
+      "slug": "birds-and-reptiles-hd-barn-owl-b51d286f",
+      "source_file": "CC0_original_birds-and-reptiles-hd-barn-owl-b51d286f.glb",
+      "source_sha256": "044dbcfeaf008deff45ff7f227fb0c0dc7e984177a20745345656e1b4b141bc2",
+      "claimed_license": "CC0; provenance independently unverified",
+      "is_a_verified_juvenile": false,
+      "source_mesh_count": 6,
+      "source_triangles": 16972,
+      "variants": [
+        {
+          "kind": "unaltered_3d_source",
+          "renders": [
+            "run95_birds-and-reptiles-hd-barn-owl-b51d286f_original_front.png",
+            "run95_birds-and-reptiles-hd-barn-owl-b51d286f_original_threequarter.png",
+            "run95_birds-and-reptiles-hd-barn-owl-b51d286f_original_strict_side.png",
+            "run95_birds-and-reptiles-hd-barn-owl-b51d286f_original_rear.png"
+          ],
+          "art_approved": false
+        },
+        {
+          "kind": "real_three_dimensional_material_retarget",
+          "glb": "owl172_run95_birds-and-reptiles-hd-barn-owl-b51d286f_cream_ONLY_REJECTED.glb",
+          "bytes": 527088,
+          "sha256": "16e132929c5504b7f30a0e90e06412bffab59e1b3ec2c696b1b0999d5d931eb7",
+          "reimport_triangles": 16972,
+          "round_trip": true,
+          "changed_material_slots": 6,
+          "renders": [
+            "run95_birds-and-reptiles-hd-barn-owl-b51d286f_cream_front.png",
+            "run95_birds-and-reptiles-hd-barn-owl-b51d286f_cream_threequarter.png",
+            "run95_birds-and-reptiles-hd-barn-owl-b51d286f_cream_strict_side.png",
+            "run95_birds-and-reptiles-hd-barn-owl-b51d286f_cream_rear.png"
+          ],
+          "art_approved": false
+        }
+      ],
+      "bounds_m": [
+        0.20599877834320068,
+        0.6072222590446472,
+        0.4006110429763794
+      ]
+    },
+    {
+      "slug": "birds-and-reptiles-hd-snowy-owl-257f670d",
+      "source_file": "CC0_original_birds-and-reptiles-hd-snowy-owl-257f670d.glb",
+      "source_sha256": "b5aefa7f13f271e5f441baade9fe4fcdf53a203e58565ecf9c893030361d3c70",
+      "claimed_license": "CC0; provenance independently unverified",
+      "is_a_verified_juvenile": false,
+      "source_mesh_count": 4,
+      "source_triangles": 16972,
+      "variants": [
+        {
+          "kind": "unaltered_3d_source",
+          "renders": [
+            "run95_birds-and-reptiles-hd-snowy-owl-257f670d_original_front.png",
+            "run95_birds-and-reptiles-hd-snowy-owl-257f670d_original_threequarter.png",
+            "run95_birds-and-reptiles-hd-snowy-owl-257f670d_original_strict_side.png",
+            "run95_birds-and-reptiles-hd-snowy-owl-257f670d_original_rear.png"
+          ],
+          "art_approved": false
+        },
+        {
+          "kind": "real_three_dimensional_material_retarget",
+          "glb": "owl172_run95_birds-and-reptiles-hd-snowy-owl-257f670d_cream_ONLY_REJECTED.glb",
+          "bytes": 520332,
+          "sha256": "4b730698f53442e678ace86d37ecca3f1d51e29ddae5f4e45ad0e2f0c6b10374",
+          "reimport_triangles": 16972,
+          "round_trip": true,
+          "changed_material_slots": 4,
+          "renders": [
+            "run95_birds-and-reptiles-hd-snowy-owl-257f670d_cream_front.png",
+            "run95_birds-and-reptiles-hd-snowy-owl-257f670d_cream_threequarter.png",
+            "run95_birds-and-reptiles-hd-snowy-owl-257f670d_cream_strict_side.png",
+            "run95_birds-and-reptiles-hd-snowy-owl-257f670d_cream_rear.png"
+          ],
+          "art_approved": false
+        }
+      ],
+      "bounds_m": [
+        0.2697927951812744,
+        0.7008880376815796,
+        0.4323786497116089
+      ]
+    }
+  ]
+}

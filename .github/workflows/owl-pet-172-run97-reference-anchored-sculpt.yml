@@ -1,0 +1,109 @@
+name: owl172 run97 reference-anchored native warp (quarantine only)
+on:
+  push:
+    branches:
+      - research/owl172-run97-reference-anchored-sculpt-warp
+    paths:
+      - .github/workflows/owl-pet-172-run97-reference-anchored-sculpt.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run97_nonlinear_anatomy_sculpt_warp.py
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run97_blender_4view.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  real-sculpt-ablation:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run97-reference-anchored-sculpt-warp
+          fetch-depth: 1
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run97_nonlinear_anatomy_sculpt_warp.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run97_blender_4view.py
+            .github/workflows/owl-pet-172-run97-reference-anchored-sculpt.yml
+      - name: Install free CPU DCC
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y blender python3-pil
+          blender --version | head -n 2
+      - name: Fetch actual Run96B source geometry by immutable commit ref
+        shell: bash
+        run: |
+          mkdir -p /tmp/owl172/run97
+          SRC="https://raw.githubusercontent.com/janeytlin-eng/game-owl-ket/fda09fdc455cd04871cc5e98d6974a8898457157/owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run96B-DISC-WING-SHORTDOWN-UNAPPROVED/run96b_anatomy_directional_down_NOT_APPROVED.glb"
+          curl -fL --retry 3 --connect-timeout 15 "$SRC" -o /tmp/owl172/run97/baseline.glb
+          test "$(stat -c%s /tmp/owl172/run97/baseline.glb)" -eq 4483508
+          echo "9d70385786763ff7bdadd740299de6ddb563b2f0902eb6690b1a822b723d6e2f  /tmp/owl172/run97/baseline.glb" | sha256sum -c
+      - name: Real nonrigid mesh sculpt, glTF export and independent GLB re-import
+        shell: bash
+        run: |
+          set -o pipefail
+          SCRIPT="owl-pet/3d-experiments/172-tyto-castanops/tools/run97_nonlinear_anatomy_sculpt_warp.py"
+          DEST="owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run97-SILHOUETTE-ABALATION-ART-REJECTED"
+          mkdir -p "$DEST"
+          blender -b --python-exit-code 5 --python "$SCRIPT" -- /tmp/owl172/run97/baseline.glb "$DEST/run97_mild_NOT_APPROVED.glb" mild 2>&1 | tee "$DEST/warp_mild.log"
+          blender -b --python-exit-code 5 --python "$SCRIPT" -- /tmp/owl172/run97/baseline.glb "$DEST/run97_broad_NOT_APPROVED.glb" broad 2>&1 | tee "$DEST/warp_broad.log"
+          cp /tmp/owl172/run97/baseline.glb "$DEST/run96b_baseline_NOT_APPROVED.glb"
+      - name: Twelve real Blender Cycles perspective-controlled renders
+        shell: bash
+        run: |
+          set -o pipefail
+          RENDER="owl-pet/3d-experiments/172-tyto-castanops/tools/run97_blender_4view.py"
+          DEST="owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run97-SILHOUETTE-ABALATION-ART-REJECTED"
+          for v in run96b_baseline run97_mild run97_broad; do
+            blender -b --python-exit-code 6 --python "$RENDER" -- "$DEST/${v}_NOT_APPROVED.glb" "$DEST" "$v" > "$DEST/render_${v}.log" 2>&1
+            tail -n 2 "$DEST/render_${v}.log"
+          done
+      - name: Render audit contact sheet and 3D geometry integrity evidence
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import pathlib,hashlib,json
+          from PIL import Image, ImageDraw
+          p=pathlib.Path('owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run97-SILHOUETTE-ABALATION-ART-REJECTED')
+          rows=['run96b_baseline','run97_mild','run97_broad']
+          views=['front','threequarter','strict_side','rear']
+          sheet=Image.new('RGB',(420*4,450*3),(248,248,248))
+          for i,row in enumerate(rows):
+            for j,view in enumerate(views):
+              im=Image.open(p/(row+'_cycles_'+view+'.png')).convert('RGB')
+              sheet.paste(im,(420*j,450*i+30))
+              ImageDraw.Draw(sheet).text((420*j+10,450*i+6),row+' : '+view,fill=(25,25,25))
+          sheet.save(p/'run97_multiview_CONTACT_ART_REJECTED.png',optimize=True)
+          lines=[
+              '# Run97 actual native-3D sculpt warp, quarantined / ART_REJECTED',
+              '',
+              'Source: Run96B GLB at immutable commit fda09fdc455cd04871cc5e98d6974a8898457157.',
+              'Two nonlinear geometry deformations of an existing true 3D 220k-triangle GLB, then new GLB export and Blender reimport.',
+              'Three states each rendered from four actual Blender Cycles cameras with fixed camera framing.',
+              'Silhouette broadening tests (mild,broad) are structural ablations, **not** artistic approvals.',
+              'No original user concept, 251 species production, live viewer or deployment were changed.',
+              'No external paid tools. Real mobile hardware/GPU/animation/interaction tests have not been performed.',
+              'Any art promotion or public demo is strictly blocked pending manual multiview review.',
+              '',
+              '## Integrity'
+          ]
+          files=sorted(x for x in p.iterdir() if x.is_file() and x.name!='SHA256SUMS.txt')
+          (p/'SHA256SUMS.txt').write_text(''.join(hashlib.sha256(x.read_bytes()).hexdigest()+'  '+x.name+'\n' for x in files))
+          lines.extend(f'- {x.name} : {x.stat().st_size} bytes' for x in files)
+          (p/'ART_REJECTED_DO_NOT_PUBLISH.md').write_text('\n'.join(lines)+'\n')
+          print('RUN97_RESEARCH_EVIDENCE',len(files),'contact bytes',(p/'run97_multiview_CONTACT_ART_REJECTED.png').stat().st_size)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run97-ART_REJECTED-evidence
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run97-SILHOUETTE-ABALATION-ART-REJECTED/
+          retention-days: 30
+      - name: Commit independent rejected research evidence only
+        shell: bash
+        run: |
+          set -e
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add --sparse owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run97-SILHOUETTE-ABALATION-ART-REJECTED/
+          git diff --cached --name-only | grep -v '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run97-' && exit 1 || true
+          git commit -m "research(owl172): archive run97 rejected nonrigid sculpt and 12 native renders"
+          git push origin HEAD:research/owl172-run97-reference-anchored-sculpt-warp

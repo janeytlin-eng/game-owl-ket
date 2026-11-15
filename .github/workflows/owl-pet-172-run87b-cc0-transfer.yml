@@ -1,0 +1,92 @@
+name: "Owl #172 Run87B CC0 real-mesh juvenile transfer experiment, NOT APPROVED"
+on:
+  push:
+    branches:
+      - research/owl172-run87-cc0-organic-base-audit
+    paths:
+      - .github/workflows/owl-pet-172-run87b-cc0-transfer.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/run87b-trigger.txt
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: owl172-run87b-mesh-transfer
+  cancel-in-progress: true
+jobs:
+  isolated-transfer:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 27
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            .github/workflows/owl-pet-172-run87b-cc0-transfer.yml
+            owl-pet/3d-experiments/172-tyto-castanops/tools/
+          sparse-checkout-cone-mode: false
+      - name: Obtain exactly the same public CC0 model with SHA pin
+        run: |
+          set -euo pipefail
+          mkdir -p qa87b
+          curl --fail --location --retry 3 --max-time 180 \
+            'https://files.innerscene.com/library/owl-d696472a/8ecea479b865c7141318/owl.glb' \
+            --output qa87b/original_CC0_adult_owl.glb
+          echo 'c11c94db20065c6c6f252e768e8c748f22dc69ef9b4e7199110b96de0625c12e  qa87b/original_CC0_adult_owl.glb' | sha256sum -c -
+      - name: Install free Blender and glTF NumPy dependency
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq blender python3-numpy
+          blender --version | head -2
+      - name: Execute real artist-sculpt retarget, Cycles renders, GLB export and import
+        run: |
+          set -euo pipefail
+          blender -b --factory-startup -t 2 --python \
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run87_cc0_mesh_retarget.py \
+            -- qa87b/original_CC0_adult_owl.glb qa87b \
+            2>&1 | tee qa87b/blender-run87b.log
+          test -s qa87b/owl172_run87b_cc0_anatomy_transfer_ART_REJECTED_PENDING.glb
+          for a in front threequarter side back; do test -s qa87b/transferred_juvenile_${a}.png; done
+          python3 - <<'PY'
+          import json,hashlib,pathlib
+          d=pathlib.Path('qa87b')
+          m=json.loads((d/'candidate_metrics.json').read_text())
+          b=(d/'owl172_run87b_cc0_anatomy_transfer_ART_REJECTED_PENDING.glb').read_bytes()
+          assert m['sha256']==hashlib.sha256(b).hexdigest() and b[:4]==b'glTF'
+          assert m['reimport_meshes']>10 and m['raw_blender_faces_before_export']>20000
+          assert m['physical_mobile_gpu_test'] is False
+          print('CANDIDATE_REAL_GLB_STILL_UNAPPROVED',m['sha256'])
+          PY
+          sha256sum qa87b/owl172_run87b_cc0_anatomy_transfer_ART_REJECTED_PENDING.glb > qa87b/candidate.sha256
+      - name: Explicit research-only status
+        if: always()
+        run: |
+          mkdir -p qa87b
+          cat > qa87b/NOT_APPROVED.txt <<'TXT'
+          Run87B is an anatomy and texture-morph feasibility experiment on an
+          existing, adult great-horned owl art model. It is not anatomically
+          verified Tyto castanops or a high-quality age-unknown mesoptile.
+          The adult source is licensed as CC0 on its host but its provenance
+          must be verified. No release, claim of infant accuracy, or deploy.
+          Human review of real 4-sided render, native PBR glTF parity,
+          moving avatar and real mobile GPU have NOT passed.
+          TXT
+      - name: Preserve full 14-day evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run87b-authored-mesh-transfer-CANDIDATE-NOT-APPROVED
+          path: qa87b/
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Durable experiment binary evidence on research branch only
+        if: success()
+        run: |
+          set -euo pipefail
+          dst=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run87b-ANATOMY-TRANSFER-UNAPPROVED
+          mkdir -p "$dst"
+          cp qa87b/owl172_run87b_cc0_anatomy_transfer_ART_REJECTED_PENDING.glb qa87b/transferred_juvenile_*.png qa87b/candidate_metrics.json qa87b/candidate.sha256 qa87b/blender-run87b.log qa87b/NOT_APPROVED.txt "$dst/"
+          git config user.name "owl172-research-bot"
+          git config user.email "owl172-research-bot@users.noreply.github.com"
+          git add "$dst"
+          git commit -m "research(owl172): archive actual CC0 mesh retarget attempt, unapproved"
+          git push origin HEAD:${{ github.ref_name }}

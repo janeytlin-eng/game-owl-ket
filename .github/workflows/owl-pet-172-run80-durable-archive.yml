@@ -33,7 +33,9 @@ jobs:
           set -euo pipefail
           d=owl-pet/3d-experiments/172-tyto-castanops/rejected-binary-run80
           mkdir -p "$d"
-          gh run download 43703078665 --repo janeytlin-eng/game-owl-ket --name owl172-run80-BLENDER-GROOM-RESEARCH-NOT-APPROVED --dir "$d"
+          tmp="$(mktemp -d)"
+          gh run download 43703078665 --repo janeytlin-eng/game-owl-ket --name owl172-run80-BLENDER-GROOM-RESEARCH-NOT-APPROVED --dir "$tmp"
+          cp -f "$tmp"/* "$d"/
           test -s "$d/owl172_run80_wing_eye_hollow_ART_PENDING.glb"
           (cd "$d" && printf '%s  %s\n' a26b3e8d13136f4229d2e07963104bdf0eee9841f813a7333571ae5eac284c3e owl172_run80_wing_eye_hollow_ART_PENDING.glb | sha256sum --check)
           test -s "$d/sculpt80_front.png"

@@ -1,0 +1,59 @@
+name: "Owl172 Run80 rejected research binary archive (no deployment)"
+on:
+  push:
+    branches:
+      - research/owl172-run80-structural-eye-wing-bark
+    paths:
+      - owl-pet/3d-experiments/172-tyto-castanops/run80-archive-trigger.txt
+      - .github/workflows/owl-pet-172-run80-durable-archive.yml
+  workflow_dispatch:
+permissions:
+  actions: read
+  contents: write
+concurrency:
+  group: owl172-run80-durable-rejected-proof
+  cancel-in-progress: false
+jobs:
+  rejected-research-archive:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run80-structural-eye-wing-bark
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops
+          sparse-checkout-cone-mode: true
+      - name: Recover only run80 verified free Blender proof
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          d=owl-pet/3d-experiments/172-tyto-castanops/rejected-binary-run80
+          mkdir -p "$d"
+          gh run download 43703078665 --repo janeytlin-eng/game-owl-ket --name owl172-run80-BLENDER-GROOM-RESEARCH-NOT-APPROVED --dir "$d"
+          test -s "$d/owl172_run80_wing_eye_hollow_ART_PENDING.glb"
+          (cd "$d" && printf '%s  %s\n' a26b3e8d13136f4229d2e07963104bdf0eee9841f813a7333571ae5eac284c3e owl172_run80_wing_eye_hollow_ART_PENDING.glb | sha256sum --check)
+          test -s "$d/sculpt80_front.png"
+          test -s "$d/sculpt80_threequarter.png"
+          test -s "$d/sculpt80_side.png"
+          test -s "$d/sculpt80_back.png"
+          cat > "$d/README_ART_REJECTED.txt" <<'TXT'
+          REJECTED NEGATIVE RESEARCH EVIDENCE. Not a satisfactory electronic pet.
+          Actual Blender 4.0.2 GLB and real 4-view render; not mobile/PBR/art accepted.
+          Model SHA256 a26b3e8d13136f4229d2e07963104bdf0eee9841f813a7333571ae5eac284c3e
+          Main audit: owl-pet/3d-experiments/172-tyto-castanops/2026-11-15-run80-corrected-lateral-wing-hollow-art-rejected.md
+          TXT
+      - name: Commit binary and render evidence to ISOLATED RESEARCH BRANCH ONLY
+        run: |
+          set -euo pipefail
+          git config user.name "owl172-research-archive[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add owl-pet/3d-experiments/172-tyto-castanops/rejected-binary-run80/
+          git diff --cached --stat
+          git diff --cached --quiet || (git commit -m "Archive rejected Run80 real GLB and Blender four-view proof on research branch" && git push origin HEAD:research/owl172-run80-structural-eye-wing-bark)
+      - name: Check archive is not publishable
+        run: |
+          test -f owl-pet/3d-experiments/172-tyto-castanops/rejected-binary-run80/README_ART_REJECTED.txt

@@ -100,6 +100,11 @@ def heart(t):
     hx=16*sin(t)**3/18
     hz=(13*cos(t)-5*cos(2*t)-2*cos(3*t)-cos(4*t))/18
     return .545*hx,1.49+.425*hz
+# Surface-following front contour: make the disk touch real remeshed head/body,
+# instead of a visually detached frontal placard at three-quarter and profile.
+def front_depth(x,z):
+    hit,co,n,idx=body.ray_cast(Vector((x,-3.,z)),Vector((0.,1.,0.)),distance=6.)
+    return co.y if hit else -.33
 verts=[];faces=[];N=160;R=20
 for j in range(R+1):
     r=max(0.0001,j/R)
@@ -107,7 +112,7 @@ for j in range(R+1):
         x,z=heart(2*pi*k/N)
         x*=r;z=1.49+(z-1.49)*r
         # Actual dish-depth: central cheeks inset, heart edge raised
-        y=-.515-.058*r**2+.010*exp(-((z-1.68)/.23)**2)
+        y=front_depth(x,z)-.020-.011*r*r+.010*exp(-((z-1.68)/.23)**2)
         y+=.020*exp(-((abs(x)-.19)/.11)**2-((z-1.54)/.12)**2)
         verts.append((x,y,z))
         if j>0:
@@ -140,27 +145,30 @@ def tube(name, points, radii, material, sides=7):
 ring=[]
 for k in range(161):
     x,z=heart(2*pi*k/160)
-    y=-.585+.004*sin(2*pi*k/13)+.005*sin(2*pi*k/29)
+    y=front_depth(x,z)-.034+.004*sin(2*pi*k/13)+.005*sin(2*pi*k/29)
     ring.append((x,y,z))
 tube('warm sculpted facial edge',ring,.016,brown)
 for row in range(2):
     rr=[]
     for k in range(161):
         x,z=heart(2*pi*k/160)
-        rr.append((x*(1+.02*(row-.5)), -.589-.013*(row+1), z+(row-.5)*.009))
+        xx=x*(1+.02*(row-.5)); zz=z+(row-.5)*.009
+        rr.append((xx,front_depth(xx,zz)-.047-.011*row,zz))
     tube('outer face ruff %d'%row,rr,.006,furm[row])
 
 # Eye sockets and black glossy bird eyes: physically attached to head plane.
 for side in (-1,1):
-    uvball('deep sculpted eye socket',(.218*side,-.577,1.575),(.132,.045,.137),eyeinner,32,18)
-    uvball('warm eyelid',(.218*side,-.626,1.577),(.112,.018,.113),brownlight,32,18)
-    uvball('dark round owl eye',(.218*side,-.658,1.579),(.091,.051,.096),black,40,22)
+    depth=front_depth(.218*side,1.575)
+    uvball('deep sculpted eye socket',(.218*side,depth-.047,1.575),(.132,.045,.137),eyeinner,32,18)
+    uvball('warm eyelid',(.218*side,depth-.084,1.577),(.112,.018,.113),brownlight,32,18)
+    uvball('dark round owl eye',(.218*side,depth-.127,1.579),(.091,.051,.096),black,40,22)
 
 # Tapered downward-curving beak with curved centerline, not a cone.
 beakpts=[];rads=[]
 for i in range(13):
     q=i/12
-    beakpts.append((0, -.638-.070*sin(pi*q)+.041*q,1.496-.237*q))
+    zz=1.496-.237*q
+    beakpts.append((0, front_depth(0,zz)-.078-.070*sin(pi*q)+.026*q,zz))
     rads.append(.065*(1-q)**.75+.002)
 tube('curved ivory hooked beak',beakpts,rads,billmat,12)
 
@@ -255,9 +263,9 @@ def area(name,loc,energy,size):
     o=bpy.context.object;o.name=name;o.data.energy=energy;o.data.shape='DISK';o.data.size=size
     rot=Vector((0,0,1.0))-o.location;o.rotation_euler=rot.to_track_quat('-Z','Y').to_euler()
 for name,loc,energy,size in [
-('cream softbox key',(-3,-3,5),650,4.2),
-('neutral fill',(3,-2,3),380,3.2),
-('rear separation',(0,3,4),620,3.4)]:area(name,loc,energy,size)
+('cream softbox key',(-3,-3,5),380,4.2),
+('neutral fill',(3,-2,3),200,3.2),
+('rear separation',(0,3,4),300,3.4)]:area(name,loc,energy,size)
 bpy.ops.object.camera_add()
 cam=bpy.context.object;cam.name='audit camera'
 bpy.context.scene.camera=cam
@@ -270,6 +278,7 @@ sc.render.resolution_x=640;sc.render.resolution_y=640;sc.render.resolution_perce
 sc.render.image_settings.file_format='PNG'
 sc.render.film_transparent=False
 sc.view_settings.view_transform='Standard'
+sc.view_settings.exposure=-.25
 # modest, controlled no-spin orthographic 4-view QA
 for name,loc in [
 ('front',(0,-4.6,2.1)),
@@ -289,7 +298,7 @@ bpy.ops.export_scene.gltf(filepath=glb,export_format='GLB',export_cameras=False,
 bytesize=os.path.getsize(glb)
 tri=sum(len(ob.data.polygons) for ob in bpy.data.objects if ob.type=='MESH')
 stats={'gate':'ART_PENDING_VISUAL_REVIEW_NOT_APPROVED','blender_version':bpy.app.version_string,
-       'branch':'research/owl172-run78-blender-groom','source':'fresh geometric sculpt, not inherited Run74/Run77 bag',
+       'branch':'research/owl172-run78-blender-groom','source':'fresh geometric sculpt with surface-conformal 3D heart disc, not inherited Run74/Run77 bag',
        'mesoptile_age':'UNKNOWN','model_glb_bytes':bytesize,'triangle_count':tri,
        'filament_guides':kept,'filament_triangles':3*kept,
        'render_views':['front','threequarter','side','back'],

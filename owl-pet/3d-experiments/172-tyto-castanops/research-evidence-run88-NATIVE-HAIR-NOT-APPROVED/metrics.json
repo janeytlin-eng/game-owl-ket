@@ -1,0 +1,46 @@
+{
+  "decision": "PENDING_INDEPENDENT_ART_QA_NOT_APPROVED",
+  "original_model": "Run87B adult horned owl CC0 retarget, wrong taxon/stage",
+  "current_technique": "Blender 4 native hair strand/path fibers with child hairs on genuine authored detailed body mesh",
+  "blender_version": "4.0.2",
+  "source_meshes": 59,
+  "detailed_body_faces": 32000,
+  "hair_parent_guides": 5600,
+  "hair_rendered_children_per_parent": 10,
+  "hair_length_m": 0.013000000268220901,
+  "density_weight_min": 0.0,
+  "density_weight_max": 1.0,
+  "albedo_materials_tinted": [
+    "Authored owl coat",
+    "Dots Stroke",
+    "Keratin and moist nose",
+    "Material",
+    "Original overlapping avian coverts",
+    "Raptor scaled tarsus and foot",
+    "Scaled bare bird foot",
+    "Scaled bare bird foot.001"
+  ],
+  "albedo_materials_skipped": [
+    "Great horned owl golden iris",
+    "Small owl corneal catchlight",
+    "Strongly decurved raptorial upper bill"
+  ],
+  "renders": [
+    "run88_base_front.png",
+    "run88_base_threequarter.png",
+    "run88_base_side.png",
+    "run88_base_back.png",
+    "run88_hair_front.png",
+    "run88_hair_threequarter.png",
+    "run88_hair_side.png",
+    "run88_hair_back.png"
+  ],
+  "blend_file_bytes": 23619180,
+  "blend_sha256": "a0caac8412b60efdcf60c7a96e19416a324193b0ce0b12aa44c2cc16c6d2b9cf",
+  "real_mobile_gpu_pass": false,
+  "glb_hair_portable": false,
+  "visual_qa_pending": true,
+  "no_251_species_changes": true,
+  "asset_source_license_claim": "Innerscene CC0 original, not independently audited",
+  "no_payment": true
+}

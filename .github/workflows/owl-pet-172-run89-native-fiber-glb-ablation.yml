@@ -1,0 +1,85 @@
+name: "Owl #172 Run89 native guide to actual GLB ablation NOT APPROVED"
+on:
+  push:
+    branches: [research/owl172-run89-baked-fiber-glb-ablation]
+    paths:
+      - .github/workflows/owl-pet-172-run89-native-fiber-glb-ablation.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run89_native_fiber_glb_bake_ablation.py
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: owl172-run89-native-hair-bake
+  cancel-in-progress: true
+jobs:
+  genuine-fiber-to-glb-research:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            .github/workflows/owl-pet-172-run89-native-fiber-glb-ablation.yml
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run89_native_fiber_glb_bake_ablation.py
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run88b-TONEMAPPED-HAIR-NOT-APPROVED/owl172_run88_true_cycles_fiber_groom_NOT_WEBGL_APPROVED.blend
+          sparse-checkout-cone-mode: false
+      - name: Exact Run88B real native sculpt and hair source checksum
+        run: |
+          set -euo pipefail
+          mkdir -p qa89
+          src=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run88b-TONEMAPPED-HAIR-NOT-APPROVED/owl172_run88_true_cycles_fiber_groom_NOT_WEBGL_APPROVED.blend
+          echo "12d0fe6bf598fb5f5e0017551ca96a9edfb7c1797f3bfbc2664f19f4ea597ce1  $src" | sha256sum -c -
+          test "$(stat -c %s "$src")" -eq 23619180
+      - name: Free Blender and actual two-mode Cycles + GLB roundtrip
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq blender python3-numpy
+          src=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run88b-TONEMAPPED-HAIR-NOT-APPROVED/owl172_run88_true_cycles_fiber_groom_NOT_WEBGL_APPROVED.blend
+          blender -b -t 2 --factory-startup --python owl-pet/3d-experiments/172-tyto-castanops/tools/run89_native_fiber_glb_bake_ablation.py -- "$src" qa89 2>&1 | tee qa89/blender.log
+      - name: Check actual evidence and preserve negative quality gate
+        if: always()
+        run: |
+          mkdir -p qa89
+          cat > qa89/ART_REJECTED_README.txt <<'TXT'
+          RUN89 IS AN UNAPPROVED TECHNICAL TRANSFER TEST.
+          The source is an adult horned owl altered to approximate a baby Tyto;
+          anatomical correctness, heart-shaped feather disc, true mesoptile groom,
+          original reference matching and mobile hardware WebGL were NOT passed.
+          GLB baking and Blender rendering do not constitute a quality-approved pet.
+          Do not deploy or notify the user with this art.
+          TXT
+          if test -f qa89/metrics.json; then
+            python3 - <<'PY'
+          import json,hashlib,pathlib
+          p=pathlib.Path("qa89")
+          m=json.loads((p/"metrics.json").read_text())
+          f=p/"owl172_run89_real_guide_baked_GLTF_ART_REJECTED.glb"
+          assert f.is_file() and len(m["paired_native_and_exportable_cycles_views"])==8
+          assert m["glb_sha256"]==hashlib.sha256(f.read_bytes()).hexdigest()
+          assert m["actual_native_guides_sampled"]>250
+          assert m["baked_mesh_reimport_triangles"]>3000
+          assert m["decision"]=="ART_REJECTED_TEST_ONLY" and not m["approved_release"]
+          print("REAL_BAKED_FIBER_GLTF_REIMPORT_BUT_ART_REJECTED",m["glb_sha256"])
+          PY
+          fi
+          find qa89 -maxdepth 1 -type f ! -name SHA256SUMS.txt -print0 | sort -z | xargs -0 sha256sum > qa89/SHA256SUMS.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run89-native-guide-baked-glb-ART-REJECTED
+          path: qa89/
+          retention-days: 14
+      - name: Durable rejected binary archive on isolated research branch only
+        if: success()
+        run: |
+          set -euo pipefail
+          dst=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run89-REAL-HAIR-GLB-ART-REJECTED
+          mkdir -p "$dst"
+          cp qa89/* "$dst/"
+          git config user.name owl172-research-bot
+          git config user.email owl172-research-bot@users.noreply.github.com
+          git add --sparse "$dst"
+          git commit -m "research(owl172): archive Run89 genuine hair guide GLB bake and negative QA"
+          git push origin HEAD:research/owl172-run89-baked-fiber-glb-ablation

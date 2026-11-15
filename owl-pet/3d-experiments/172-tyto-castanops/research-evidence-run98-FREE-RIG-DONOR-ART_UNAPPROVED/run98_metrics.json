@@ -1,0 +1,169 @@
+{
+  "status": "PENDING_MANUAL_ART_REVIEW_NOT_APPROVED",
+  "purpose": "Evaluate real CC0-claimed low-poly barn owl as RIG donor only, not as final character",
+  "source_url": "https://gobkit.com/freebies/animal013/BarnOwl.glb",
+  "license_claim": "Provider API lists CC0 1.0; author chain of title not independently verified",
+  "source_sha256": "6219f98a1582cba03bcfa45cdd9971c8e740a56eb2d4c7f873a8a10f28796fdb",
+  "source_bytes": 91784,
+  "original_geometry": {
+    "mesh_count": 2,
+    "triangles": 600,
+    "armature_count": 1,
+    "bone_count": 16,
+    "action_count": 4,
+    "actions": [
+      {
+        "name": "attack_wz4vwj",
+        "frames": [
+          0.0,
+          28.999998092651367
+        ]
+      },
+      {
+        "name": "dead_wz4vwj",
+        "frames": [
+          0.0,
+          28.999998092651367
+        ]
+      },
+      {
+        "name": "idle_wz4vwj",
+        "frames": [
+          0.0,
+          29.0
+        ]
+      },
+      {
+        "name": "walk_wz4vwj",
+        "frames": [
+          0.0,
+          29.000003814697266
+        ]
+      }
+    ],
+    "bounds_min": [
+      -1.7973976135253906,
+      -1.9199998378753662,
+      -1.0
+    ],
+    "bounds_max": [
+      1.7973977327346802,
+      2.149998903274536,
+      4.049998760223389
+    ],
+    "material_count": 3,
+    "curve_objects": 0,
+    "has_natural_down_groom": false,
+    "not_target_species": true
+  },
+  "color_changed_material_slots": 1,
+  "reimport_geometry": {
+    "mesh_count": 2,
+    "triangles": 600,
+    "armature_count": 1,
+    "bone_count": 16,
+    "action_count": 4,
+    "actions": [
+      {
+        "name": "attack_wz4vwj",
+        "frames": [
+          0.0,
+          28.0
+        ]
+      },
+      {
+        "name": "dead_wz4vwj",
+        "frames": [
+          0.0,
+          28.0
+        ]
+      },
+      {
+        "name": "idle_wz4vwj",
+        "frames": [
+          0.0,
+          29.0
+        ]
+      },
+      {
+        "name": "walk_wz4vwj",
+        "frames": [
+          0.0,
+          29.0
+        ]
+      }
+    ],
+    "bounds_min": [
+      -1.7954344749450684,
+      -3.971220016479492,
+      -1.9601504802703857
+    ],
+    "bounds_max": [
+      1.8030649423599243,
+      0.9999999403953552,
+      2.1228585243225098
+    ],
+    "material_count": 1,
+    "curve_objects": 0,
+    "has_natural_down_groom": false,
+    "not_target_species": true
+  },
+  "ablation_glb_sha256": "9f3c6c1a80d6f3e86d304877a8088bb9c13acdc0b93aef4de1a26957b8757877",
+  "ablation_glb_bytes": 98568,
+  "images": [
+    {
+      "stage": "original",
+      "view": "azimuth_0",
+      "bytes": 219817,
+      "sha256": "9448473d6cfb1b1e3eb9466bf210efa1b0c51324e3eb6ed642afff5155bf8767"
+    },
+    {
+      "stage": "original",
+      "view": "azimuth_90",
+      "bytes": 218190,
+      "sha256": "cc2f1d5f309c54a6cf23bb7e6af454e1f150d6e4d746255814dfc0c67fecb825"
+    },
+    {
+      "stage": "original",
+      "view": "azimuth_180",
+      "bytes": 217458,
+      "sha256": "da977f353fe6861efc6192a445d428d08d7268aab252f73418af7038fa86a3cb"
+    },
+    {
+      "stage": "original",
+      "view": "azimuth_270",
+      "bytes": 219088,
+      "sha256": "0e4ac8f2f586628ca60d8b2f44b7c129834fc81bc75ae909edb09acfde4ec63e"
+    },
+    {
+      "stage": "warm_material_ablation",
+      "view": "azimuth_0",
+      "bytes": 208770,
+      "sha256": "320ad0982b3083d9d8f82c412635899284a90e7cfd99b01a1258b0f08ffa36d0"
+    },
+    {
+      "stage": "warm_material_ablation",
+      "view": "azimuth_90",
+      "bytes": 207215,
+      "sha256": "eae68991471a1891740495abb4d6de7c65754839c957e90151f010d5648d0287"
+    },
+    {
+      "stage": "warm_material_ablation",
+      "view": "azimuth_180",
+      "bytes": 207922,
+      "sha256": "eefc6a99cc20b39aa0159bab6bbb338787e2a21a65192d005b2d8798fed9e001"
+    },
+    {
+      "stage": "warm_material_ablation",
+      "view": "azimuth_270",
+      "bytes": 206688,
+      "sha256": "61ed22f087d01d01bc9440b0e576e375a543f7cd70d05658f7bcb545f9682d66"
+    }
+  ],
+  "source_is_not_tyto_castanops": true,
+  "real_phone_gpu": false,
+  "mobile_fps": null,
+  "no_payment": true,
+  "production_unchanged": true,
+  "release_allowed": false
+}

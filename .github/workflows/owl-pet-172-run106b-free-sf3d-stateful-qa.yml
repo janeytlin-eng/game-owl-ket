@@ -1,0 +1,95 @@
+name: owl172 Run106B genuine zero-cost Stable Fast 3D RGBA baby owl mesh ART_UNAPPROVED
+on:
+  push:
+    branches: [research/owl172-run106bb-sf3d-stateful-preprocess]
+    paths:
+      - .github/workflows/owl-pet-172-run106b-free-sf3d-stateful-qa.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run106bb_sf3d_stateful.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  zero-cost-real-textured-mesh:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 36
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run106bb-sf3d-stateful-preprocess
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run103-TRELLIS2-PBR-ART_UNAPPROVED/preprocessed_image.png
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run106bb_sf3d_stateful.py
+            .github/workflows/owl-pet-172-run106b-free-sf3d-stateful-qa.yml
+      - name: Install free client tools (no provider login or paid GPU)
+        run: |
+          set -euo pipefail
+          python3 -m venv /tmp/owl172sf3d
+          /tmp/owl172sf3d/bin/pip install --quiet --disable-pip-version-check Pillow gradio_client
+      - name: Real Stable Fast 3D public ZeroGPU request once, no paid fallback
+        shell: bash
+        timeout-minutes: 17
+        run: |
+          set -eo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run106b-SF3D-RGBA-ART_UNAPPROVED"
+          mkdir -p "$OUT"
+          timeout 840 /tmp/owl172sf3d/bin/python "$ROOT/tools/run106bb_sf3d_stateful.py" \
+             --mode generate --source "$ROOT/research-evidence-run103-TRELLIS2-PBR-ART_UNAPPROVED/preprocessed_image.png" \
+             --out "$OUT" 2>&1 | tee "$OUT/generate_execution.log" || {
+              printf '%s\n' 'Public free endpoint failed or timed out; no GLB claim, no paid fallback' > "$OUT/route_crashed.flag"
+              printf '%s\n' '{"run":"106","outcome":"FREE_ROUTE_FAILED","gate":"ART_UNAPPROVED"}' > "$OUT/emergency_status.json"
+             }
+      - name: Genuine Blender import/export and four Cycles views only if a real GLB exists
+        shell: bash
+        timeout-minutes: 12
+        run: |
+          set -eo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run106b-SF3D-RGBA-ART_UNAPPROVED"
+          if test -s "$OUT/run106b_sf3d_texture_art_unapproved.glb"; then
+            sudo apt-get update -qq
+            sudo apt-get install -y -qq blender python3-numpy
+            blender -b --python-exit-code 5 --python "$ROOT/tools/run106bb_sf3d_stateful.py" -- \
+              --mode render --model "$OUT/run106b_sf3d_texture_art_unapproved.glb" --out "$OUT" \
+               2>&1 | tee "$OUT/render_execution.log" || {
+                printf '%s\n' 'Actual Blender import/render failed; art remains unapproved' > "$OUT/render_failed.flag"
+               }
+          else
+            echo 'No true 3D binary GLB returned; not manufacturing dummy or fake model.'
+          fi
+      - name: Write checksum evidence and explicitly refuse automated art approval
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run106b-SF3D-RGBA-ART_UNAPPROVED"
+          mkdir -p "$OUT"
+          printf '%s\n' 'NEVER PUBLISH. Anatomical & fur artistic review, license, actual phone GPU still required.' > "$OUT/NO_ART_RELEASE.txt"
+          /tmp/owl172sf3d/bin/python "$ROOT/tools/run106bb_sf3d_stateful.py" --mode manifest --out "$OUT" \
+            | tee "$OUT/manifest_execution.log"
+          (cd "$OUT"; sha256sum -c SHA256SUMS.txt | tee checksum_validation.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run106b-real-sf3d-mesh-UNAPPROVED
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run106b-SF3D-RGBA-ART_UNAPPROVED
+          retention-days: 30
+      - name: Independently archive only the Run106B research evidence (never main/deployment)
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run106b-SF3D-RGBA-ART_UNAPPROVED
+          git add --sparse "$OUT"
+          git diff --cached --name-only >/tmp/owl172run106bpaths
+          if grep -v '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run106b-' /tmp/owl172run106bpaths; then
+            echo 'Unexpected staged paths'; exit 2
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m "research(owl172): archive actual free SF3D attempt and four-view evidence ART_UNAPPROVED"
+            git push origin HEAD:research/owl172-run106bb-sf3d-stateful-preprocess
+          fi

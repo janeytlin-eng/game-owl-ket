@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/runner/work/game-owl-ket/game-owl-ket/owl-pet/3d-experiments/172-tyto-castanops/tools/run114_mini_turbo_real_mesh.py", line 69, in generate
+    cli=Client(PROVIDER,verbose=False,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/owl172run114/lib/python3.12/site-packages/gradio_client/client.py", line 199, in __init__
+    self._info = self._get_api_info()
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/owl172run114/lib/python3.12/site-packages/gradio_client/client.py", line 714, in _get_api_info
+    raise ValueError(f"Could not fetch api info for {self.src}: {r.text}")
+ValueError: Could not fetch api info for https://tencent-hunyuan3d-2mini-turbo.hf.space: Internal Server Error

@@ -1,0 +1,27 @@
+{
+  "run": "114",
+  "stage": "input_prepared",
+  "gate": "ART_REJECTED_UNLESS_INDEPENDENT_VISUAL_PASS",
+  "date_utc": "2026-11-16T17:47:01.626199+00:00",
+  "provider": "tencent/Hunyuan3D-2mini-Turbo",
+  "endpoint": "https://huggingface.co/spaces/tencent/Hunyuan3D-2mini-Turbo",
+  "method": "actual public image->native geometry, mini Turbo 0.6B; one call",
+  "input_source": "preprocessed_image.png of same rightmost #172 v3 target",
+  "source_sha256": "945da62e8c27244e144cc877f1150e76be7842cd7a1a57ebd5ca1a801185f68c",
+  "concept_sha256": "881dec86e0e66ab2ad0781db86a3b719b35e710d2be1a1606d761a9d0908483d",
+  "reference_crop_sha256": "f2b9a6d5f4d70afe2afe076b92dbe746a8394f8a30a452645f8c5ba6a27140ae",
+  "input_sha256": "6c66a656f73ee8254b1688a8e572a9f048647053d7552cd8c95c66ae5b4319cb",
+  "input_mask_bbox": [
+    59,
+    0,
+    548,
+    548
+  ],
+  "background": "neutral RGB, native rembg on",
+  "zero_extra_spend": true,
+  "no_api_key_or_token": true,
+  "source_model_license": "Tencent Hunyuan non-commercial",
+  "full_global_use_license_cleared": false,
+  "real_physical_phone_gpu_tested": false,
+  "outcome": "NOT_ATTEMPTED"
+}

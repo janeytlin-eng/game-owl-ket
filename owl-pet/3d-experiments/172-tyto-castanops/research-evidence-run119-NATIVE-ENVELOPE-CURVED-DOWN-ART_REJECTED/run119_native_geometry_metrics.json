@@ -1,0 +1,40 @@
+{
+  "run": "119",
+  "outcome": "ART_REJECTED_pending_independent_multiview_visual_review",
+  "actual_source_sha256": "2893e95965a9c6e6fd3af5779c1ebf3b65a16b6cdaebf7c2f743e047b9fa78de",
+  "original_faces": 40623,
+  "original_vertices": 37475,
+  "posterior_vertices_modified": 22303,
+  "real_mesh_3d_fiber_count": 4700,
+  "baked_fiber_polygons": 56400,
+  "actual_import_meshes": 6,
+  "actual_import_triangles": 154671,
+  "source_dims": [
+    0.705626904964447,
+    0.9611882567405701,
+    0.9750992059707642
+  ],
+  "real_GLb_bytes": 5718480,
+  "real_GLb_sha256": "eb9151cfe16494419b08290280a9ded22140098569f0a64508644eb8fdc978fe",
+  "eye_raycasts": [
+    {
+      "sign": -1,
+      "hit": true,
+      "point": [
+        -0.08268575370311737,
+        -0.40844786167144775,
+        0.21276462078094482
+      ]
+    },
+    {
+      "sign": 1,
+      "hit": true,
+      "point": [
+        0.0838422030210495,
+        -0.4085415005683899,
+        0.21276462078094482
+      ]
+    }
+  ],
+  "all_quality_gates": "NOT APPROVED: real phone GPU, anatomy, fur, bark support, worldwide rights"
+}

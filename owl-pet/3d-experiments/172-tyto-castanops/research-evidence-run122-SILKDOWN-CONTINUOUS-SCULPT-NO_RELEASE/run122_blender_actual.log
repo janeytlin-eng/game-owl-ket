@@ -1,62 +1,14 @@
 Blender 4.0.2
 Traceback (most recent call last):
-  File "/usr/share/blender/scripts/addons/io_scene_gltf2/__init__.py", line 1709, in execute
-    return self.import_gltf2(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/share/blender/scripts/addons/io_scene_gltf2/__init__.py", line 1742, in import_gltf2
-    return self.unit_import(self.filepath, import_settings)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/share/blender/scripts/addons/io_scene_gltf2/__init__.py", line 1747, in unit_import
-    from .blender.imp.gltf2_blender_gltf import BlenderGlTF
-  File "/usr/share/blender/scripts/addons/io_scene_gltf2/blender/imp/gltf2_blender_gltf.py", line 8, in <module>
-    from .gltf2_blender_scene import BlenderScene
-  File "/usr/share/blender/scripts/addons/io_scene_gltf2/blender/imp/gltf2_blender_scene.py", line 7, in <module>
-    from .gltf2_blender_node import BlenderNode
-  File "/usr/share/blender/scripts/addons/io_scene_gltf2/blender/imp/gltf2_blender_node.py", line 10, in <module>
-    from .gltf2_blender_mesh import BlenderMesh
-  File "/usr/share/blender/scripts/addons/io_scene_gltf2/blender/imp/gltf2_blender_mesh.py", line 7, in <module>
-    import numpy as np
-ModuleNotFoundError: No module named 'numpy'
-Traceback (most recent call last):
-  File "/home/runner/work/game-owl-ket/game-owl-ket/owl-pet/3d-experiments/172-tyto-castanops/tools/run122_silkdown_anatomical_mesh_trial.py", line 18, in <module>
-    bpy.ops.import_scene.gltf(filepath=str(src))
-  File "/usr/share/blender/scripts/modules/bpy/ops.py", line 109, in __call__
-    ret = _op_call(self.idname_py(), kw)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-RuntimeError: Error: Python: Traceback (most recent call last):
-  File "/usr/share/blender/scripts/addons/io_scene_gltf2/__init__.py", line 1709, in execute
-    return self.import_gltf2(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/share/blender/scripts/addons/io_scene_gltf2/__init__.py", line 1742, in import_gltf2
-    return self.unit_import(self.filepath, import_settings)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/share/blender/scripts/addons/io_scene_gltf2/__init__.py", line 1747, in unit_import
-    from .blender.imp.gltf2_blender_gltf import BlenderGlTF
-  File "/usr/share/blender/scripts/addons/io_scene_gltf2/blender/imp/gltf2_blender_gltf.py", line 8, in <module>
-    from .gltf2_blender_scene import BlenderScene
-  File "/usr/share/blender/scripts/addons/io_scene_gltf2/blender/imp/gltf2_blender_scene.py", line 7, in <module>
-    from .gltf2_blender_node import BlenderNode
-  File "/usr/share/blender/scripts/addons/io_scene_gltf2/blender/imp/gltf2_blender_node.py", line 10, in <module>
-    from .gltf2_blender_mesh import BlenderMesh
-  File "/usr/share/blender/scripts/addons/io_scene_gltf2/blender/imp/gltf2_blender_mesh.py", line 7, in <module>
-    import numpy as np
-ModuleNotFoundError: No module named 'numpy'
-Location: /usr/share/blender/scripts/modules/bpy/ops.py:109
-
+  File "/home/runner/work/game-owl-ket/game-owl-ket/owl-pet/3d-experiments/172-tyto-castanops/tools/run122_silkdown_anatomical_mesh_trial.py", line 143, in <module>
+    path=root/"run122_continuous_sculpt_silkdown_organic_juvenile_ART_UNAPPROVED.glb"
+         ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: Vector division: Vector must be divided by a float
 
 Error: script failed, file: 'owl-pet/3d-experiments/172-tyto-castanops/tools/run122_silkdown_anatomical_mesh_trial.py', exiting.
-Error: Python: Traceback (most recent call last):
-  File "/usr/share/blender/scripts/addons/io_scene_gltf2/__init__.py", line 1709, in execute
-    return self.import_gltf2(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/share/blender/scripts/addons/io_scene_gltf2/__init__.py", line 1742, in import_gltf2
-    return self.unit_import(self.filepath, import_settings)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/share/blender/scripts/addons/io_scene_gltf2/__init__.py", line 1747, in unit_import
-    from .blender.imp.gltf2_blender_gltf import BlenderGlTF
-  File "/usr/share/blender/scripts/addons/io_scene_gltf2/blender/imp/gltf2_blender_gltf.py", line 8, in <module>
-    from .gltf2_blender_scene import BlenderScene
-  File "/usr/share/blender/scripts/addons/io_scene_gltf2/blender/imp/gltf2_blender_scene.py", line 7, in <module>
-    from .gltf2_blender_node import BlenderNode
-  File "/usr/share/blender/scripts/addons/io_scene_gltf2/blender/imp/gltf2_blende... truncated
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.12s
+RUN122_SOURCE run121_native_continuous_juvenile_organic_sculpt_ART_UNAPPROVED.glb body ONE CONTINUOUS sculpted downy juvenile Tyto body and heart mask vertices 26602 hair ['fine true 3D soft curved mesoptile crossfibers']
+RUN122_HAIR_COUNT 8351 4-quad strands 50106
+
 Blender quit

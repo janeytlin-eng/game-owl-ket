@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/home/runner/work/game-owl-ket/game-owl-ket/owl-pet/3d-experiments/172-tyto-castanops/tools/run116b_instantmesh_stateful_make3d.py", line 124, in main
+    mvs=client.predict(handle_file(str(out/"run116_preprocessed_actual.png")),30,42,api_name="/generate_mvs")
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/owl172_run116/lib/python3.12/site-packages/gradio_client/utils.py", line 1358, in handle_file
+    raise ValueError(
+ValueError: File owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run116B-OFFICIAL-INSTANTMESH-STATEFUL-ART_REJECTED/run116_preprocessed_actual.png does not exist on local filesystem and is not a valid URL.

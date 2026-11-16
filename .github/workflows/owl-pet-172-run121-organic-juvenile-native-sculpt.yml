@@ -1,0 +1,91 @@
+name: owl172 Run121 original continuous organic juvenile sculpt and true microdown (research only)
+on:
+  push:
+    branches: [research/owl172-run121-organic-mesoptile-sculpt-native-fuzz]
+    paths:
+      - .github/workflows/owl-pet-172-run121-organic-juvenile-native-sculpt.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run121_native_organic_mesoptile.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  sculpt-real-glb-native-4-view-no-release:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 38
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run121-organic-mesoptile-sculpt-native-fuzz
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            .github/workflows/owl-pet-172-run121-organic-juvenile-native-sculpt.yml
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run121_native_organic_mesoptile.py
+      - name: Install free native 3D renderer and contact sheet tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq blender python3-numpy python3-pil
+      - name: Actually sculpt original single continuous anatomical body, true curved fur, export and render GLB
+        id: actual_sculpt
+        continue-on-error: true
+        timeout-minutes: 29
+        shell: bash
+        run: |
+          set -o pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run121-ORGANIC-JUVENILE-SCULPT-NO_RELEASE"
+          mkdir -p "$OUT"
+          timeout 1650 blender -b --python-exit-code 7 \
+            --python "$ROOT/tools/run121_native_organic_mesoptile.py" \
+            -- "$OUT" 2>&1 | tee "$OUT/run121_native_Blender_console_real_execution.log"
+      - name: Make contact sheet from four ACTUAL reimported GLB Cycles outputs
+        if: always()
+        shell: bash
+        run: |
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run121-ORGANIC-JUVENILE-SCULPT-NO_RELEASE"
+          mkdir -p "$OUT"
+          python3 - "$OUT" <<'PY'
+          import sys,pathlib
+          from PIL import Image,ImageDraw
+          p=pathlib.Path(sys.argv[1])
+          sheet=Image.new("RGB",(1080,1120),(42,42,44));d=ImageDraw.Draw(sheet)
+          for i,n in enumerate(("front","quarter","side","back")):
+              f=p/("run121_glb_reimport_"+n+"_actual_cycles_ART_REVIEW.png")
+              if not f.is_file():continue
+              im=Image.open(f).convert("RGB")
+              x=(i%2)*540;y=(i//2)*560
+              sheet.paste(im,(x,y+20));d.text((x+15,y+3),n+" (real imported GLB)",fill=(240,240,240))
+          sheet.save(p/"run121_four_actual_GLTF_views_UNAPPROVED_contact.jpg",quality=90)
+          PY
+      - name: Strict no-release, file hashes and fail evidence
+        if: always()
+        run: |
+          set -euo pipefail
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run121-ORGANIC-JUVENILE-SCULPT-NO_RELEASE
+          mkdir -p "$OUT"
+          echo "ART_UNREVIEWED / ART_REJECTED until real 4-side human visual, physical phone WebGL, and source/license QA. No deployment." > "$OUT/NO_RELEASE.flag"
+          (cd "$OUT"; find . -type f ! -name SHA256SUMS.txt ! -name sha_checked.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$OUT"; sha256sum -c SHA256SUMS.txt > sha_checked.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run121-original-organic-mesoptile-sculpt-real-glb-no-release
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run121-ORGANIC-JUVENILE-SCULPT-NO_RELEASE
+          retention-days: 30
+      - name: Commit only dedicated Run121 evidence without any production or deployment changes
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run121-ORGANIC-JUVENILE-SCULPT-NO_RELEASE
+          git add --sparse "$OUT"
+          git diff --cached --name-only > /tmp/run121_only_scope
+          if grep -v '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run121-' /tmp/run121_only_scope; then
+            echo "STOP accidental production scope";exit 9
+          fi
+          if ! git diff --cached --quiet;then
+            git commit -m "research(owl172): actual Run121 free organic juvenile GLB sculpt evidence NO_RELEASE"
+            git push origin HEAD:research/owl172-run121-organic-mesoptile-sculpt-native-fuzz
+          fi

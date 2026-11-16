@@ -1,0 +1,892 @@
+{
+  "named_endpoints": {
+    "/update_foreground_ratio": {
+      "parameters": [
+        {
+          "label": "Foreground Ratio",
+          "parameter_name": "fr",
+          "parameter_has_default": true,
+          "parameter_default": 0.85,
+          "type": {
+            "type": "number",
+            "description": "numeric value between 0.5 and 1.0"
+          },
+          "python_type": {
+            "type": "float",
+            "description": "numeric value between 0.5 and 1.0"
+          },
+          "component": "Slider",
+          "example_input": 0.5
+        }
+      ],
+      "returns": [
+        {
+          "label": "Preview Background Removal",
+          "type": {
+            "properties": {
+              "path": {
+                "title": "Path",
+                "type": "string"
+              },
+              "url": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Url"
+              },
+              "size": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Size"
+              },
+              "orig_name": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Orig Name"
+              },
+              "mime_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Mime Type"
+              },
+              "is_stream": {
+                "default": false,
+                "title": "Is Stream",
+                "type": "boolean"
+              },
+              "meta": {
+                "default": {
+                  "_type": "gradio.FileData"
+                },
+                "title": "Meta",
+                "type": "object"
+              }
+            },
+            "required": [
+              "path"
+            ],
+            "title": "FileData",
+            "type": "object"
+          },
+          "python_type": {
+            "type": "filepath",
+            "description": ""
+          },
+          "component": "Image"
+        }
+      ]
+    },
+    "/lambda": {
+      "parameters": [
+        {
+          "label": "HDR Env Map",
+          "parameter_name": "x",
+          "parameter_has_default": false,
+          "parameter_default": null,
+          "type": {
+            "properties": {
+              "path": {
+                "title": "Path",
+                "type": "string"
+              },
+              "url": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Url"
+              },
+              "size": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Size"
+              },
+              "orig_name": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Orig Name"
+              },
+              "mime_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Mime Type"
+              },
+              "is_stream": {
+                "default": false,
+                "title": "Is Stream",
+                "type": "boolean"
+              },
+              "meta": {
+                "default": {
+                  "_type": "gradio.FileData"
+                },
+                "title": "Meta",
+                "type": "object"
+              }
+            },
+            "required": [
+              "path"
+            ],
+            "title": "FileData",
+            "type": "object"
+          },
+          "python_type": {
+            "type": "filepath",
+            "description": ""
+          },
+          "component": "File",
+          "example_input": {
+            "path": "https://github.com/gradio-app/gradio/raw/main/test/test_files/sample_file.pdf",
+            "meta": {
+              "_type": "gradio.FileData"
+            },
+            "orig_name": "sample_file.pdf",
+            "url": "https://github.com/gradio-app/gradio/raw/main/test/test_files/sample_file.pdf"
+          }
+        }
+      ],
+      "returns": [
+        {
+          "label": "3D Model",
+          "type": {
+            "properties": {
+              "path": {
+                "title": "Path",
+                "type": "string"
+              },
+              "url": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Url"
+              },
+              "size": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Size"
+              },
+              "orig_name": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Orig Name"
+              },
+              "mime_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Mime Type"
+              },
+              "is_stream": {
+                "default": false,
+                "title": "Is Stream",
+                "type": "boolean"
+              },
+              "meta": {
+                "default": {
+                  "_type": "gradio.FileData"
+                },
+                "title": "Meta",
+                "type": "object"
+              }
+            },
+            "required": [
+              "path"
+            ],
+            "title": "FileData",
+            "type": "object"
+          },
+          "python_type": {
+            "type": "filepath",
+            "description": ""
+          },
+          "component": "Litmodel3d"
+        }
+      ]
+    },
+    "/requires_bg_remove": {
+      "parameters": [
+        {
+          "label": "Input Image",
+          "parameter_name": "image",
+          "parameter_has_default": false,
+          "parameter_default": null,
+          "type": {
+            "properties": {
+              "path": {
+                "title": "Path",
+                "type": "string"
+              },
+              "url": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Url"
+              },
+              "size": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Size"
+              },
+              "orig_name": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Orig Name"
+              },
+              "mime_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Mime Type"
+              },
+              "is_stream": {
+                "default": false,
+                "title": "Is Stream",
+                "type": "boolean"
+              },
+              "meta": {
+                "default": {
+                  "_type": "gradio.FileData"
+                },
+                "title": "Meta",
+                "type": "object"
+              }
+            },
+            "required": [
+              "path"
+            ],
+            "title": "FileData",
+            "type": "object"
+          },
+          "python_type": {
+            "type": "filepath",
+            "description": ""
+          },
+          "component": "Image",
+          "example_input": {
+            "path": "https://raw.githubusercontent.com/gradio-app/gradio/main/test/test_files/bus.png",
+            "meta": {
+              "_type": "gradio.FileData"
+            },
+            "orig_name": "bus.png",
+            "url": "https://raw.githubusercontent.com/gradio-app/gradio/main/test/test_files/bus.png"
+          }
+        },
+        {
+          "label": "Foreground Ratio",
+          "parameter_name": "fr",
+          "parameter_has_default": true,
+          "parameter_default": 0.85,
+          "type": {
+            "type": "number",
+            "description": "numeric value between 0.5 and 1.0"
+          },
+          "python_type": {
+            "type": "float",
+            "description": "numeric value between 0.5 and 1.0"
+          },
+          "component": "Slider",
+          "example_input": 0.5
+        }
+      ],
+      "returns": [
+        {
+          "label": "Preview Background Removal",
+          "type": {
+            "properties": {
+              "path": {
+                "title": "Path",
+                "type": "string"
+              },
+              "url": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Url"
+              },
+              "size": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Size"
+              },
+              "orig_name": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Orig Name"
+              },
+              "mime_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Mime Type"
+              },
+              "is_stream": {
+                "default": false,
+                "title": "Is Stream",
+                "type": "boolean"
+              },
+              "meta": {
+                "default": {
+                  "_type": "gradio.FileData"
+                },
+                "title": "Meta",
+                "type": "object"
+              }
+            },
+            "required": [
+              "path"
+            ],
+            "title": "FileData",
+            "type": "object"
+          },
+          "python_type": {
+            "type": "filepath",
+            "description": ""
+          },
+          "component": "Image"
+        },
+        {
+          "label": "3D Model",
+          "type": {
+            "properties": {
+              "path": {
+                "title": "Path",
+                "type": "string"
+              },
+              "url": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Url"
+              },
+              "size": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Size"
+              },
+              "orig_name": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Orig Name"
+              },
+              "mime_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Mime Type"
+              },
+              "is_stream": {
+                "default": false,
+                "title": "Is Stream",
+                "type": "boolean"
+              },
+              "meta": {
+                "default": {
+                  "_type": "gradio.FileData"
+                },
+                "title": "Meta",
+                "type": "object"
+              }
+            },
+            "required": [
+              "path"
+            ],
+            "title": "FileData",
+            "type": "object"
+          },
+          "python_type": {
+            "type": "filepath",
+            "description": ""
+          },
+          "component": "Litmodel3d"
+        }
+      ]
+    },
+    "/run_button": {
+      "parameters": [
+        {
+          "label": "Input Image",
+          "parameter_name": "input_image",
+          "parameter_has_default": false,
+          "parameter_default": null,
+          "type": {
+            "properties": {
+              "path": {
+                "title": "Path",
+                "type": "string"
+              },
+              "url": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Url"
+              },
+              "size": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Size"
+              },
+              "orig_name": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Orig Name"
+              },
+              "mime_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Mime Type"
+              },
+              "is_stream": {
+                "default": false,
+                "title": "Is Stream",
+                "type": "boolean"
+              },
+              "meta": {
+                "default": {
+                  "_type": "gradio.FileData"
+                },
+                "title": "Meta",
+                "type": "object"
+              }
+            },
+            "required": [
+              "path"
+            ],
+            "title": "FileData",
+            "type": "object"
+          },
+          "python_type": {
+            "type": "filepath",
+            "description": ""
+          },
+          "component": "Image",
+          "example_input": {
+            "path": "https://raw.githubusercontent.com/gradio-app/gradio/main/test/test_files/bus.png",
+            "meta": {
+              "_type": "gradio.FileData"
+            },
+            "orig_name": "bus.png",
+            "url": "https://raw.githubusercontent.com/gradio-app/gradio/main/test/test_files/bus.png"
+          }
+        },
+        {
+          "label": "Foreground Ratio",
+          "parameter_name": "foreground_ratio",
+          "parameter_has_default": true,
+          "parameter_default": 0.85,
+          "type": {
+            "type": "number",
+            "description": "numeric value between 0.5 and 1.0"
+          },
+          "python_type": {
+            "type": "float",
+            "description": "numeric value between 0.5 and 1.0"
+          },
+          "component": "Slider",
+          "example_input": 0.5
+        },
+        {
+          "label": "Remeshing",
+          "parameter_name": "remesh_option",
+          "parameter_has_default": true,
+          "parameter_default": "None",
+          "type": {
+            "enum": [
+              "None",
+              "Triangle",
+              "Quad"
+            ],
+            "title": "Radio",
+            "type": "string"
+          },
+          "python_type": {
+            "type": "Literal['None', 'Triangle', 'Quad']",
+            "description": ""
+          },
+          "component": "Radio",
+          "example_input": "None"
+        },
+        {
+          "label": "Target Vertex Count",
+          "parameter_name": "vertex_count",
+          "parameter_has_default": true,
+          "parameter_default": -1,
+          "type": {
+            "type": "number",
+            "description": "numeric value between -1 and 20000"
+          },
+          "python_type": {
+            "type": "float",
+            "description": "numeric value between -1 and 20000"
+          },
+          "component": "Slider",
+          "example_input": -1
+        },
+        {
+          "label": "Texture Size",
+          "parameter_name": "texture_size",
+          "parameter_has_default": true,
+          "parameter_default": 1024,
+          "type": {
+            "type": "number",
+            "description": "numeric value between 512 and 2048"
+          },
+          "python_type": {
+            "type": "float",
+            "description": "numeric value between 512 and 2048"
+          },
+          "component": "Slider",
+          "example_input": 512
+        }
+      ],
+      "returns": [
+        {
+          "label": "Preview Background Removal",
+          "type": {
+            "properties": {
+              "path": {
+                "title": "Path",
+                "type": "string"
+              },
+              "url": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Url"
+              },
+              "size": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Size"
+              },
+              "orig_name": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Orig Name"
+              },
+              "mime_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Mime Type"
+              },
+              "is_stream": {
+                "default": false,
+                "title": "Is Stream",
+                "type": "boolean"
+              },
+              "meta": {
+                "default": {
+                  "_type": "gradio.FileData"
+                },
+                "title": "Meta",
+                "type": "object"
+              }
+            },
+            "required": [
+              "path"
+            ],
+            "title": "FileData",
+            "type": "object"
+          },
+          "python_type": {
+            "type": "filepath",
+            "description": ""
+          },
+          "component": "Image"
+        },
+        {
+          "label": "3D Model",
+          "type": {
+            "properties": {
+              "path": {
+                "title": "Path",
+                "type": "string"
+              },
+              "url": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Url"
+              },
+              "size": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Size"
+              },
+              "orig_name": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Orig Name"
+              },
+              "mime_type": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Mime Type"
+              },
+              "is_stream": {
+                "default": false,
+                "title": "Is Stream",
+                "type": "boolean"
+              },
+              "meta": {
+                "default": {
+                  "_type": "gradio.FileData"
+                },
+                "title": "Meta",
+                "type": "object"
+              }
+            },
+            "required": [
+              "path"
+            ],
+            "title": "FileData",
+            "type": "object"
+          },
+          "python_type": {
+            "type": "filepath",
+            "description": ""
+          },
+          "component": "Litmodel3d"
+        }
+      ]
+    }
+  },
+  "unnamed_endpoints": {}
+}

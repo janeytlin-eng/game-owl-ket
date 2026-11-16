@@ -1,0 +1,88 @@
+name: owl172 Run113 actual CC0 3D anatomy and mobile LOD benchmark (never release)
+on:
+  push:
+    branches:
+      - research/owl172-run113-cc0-real-mesh-mobile-lod-source-audit
+    paths:
+      - .github/workflows/owl-pet-172-run113-free-cc0-3d-source.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run113_real_cc0_owl_anatomy_lod.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  actual-adult-cc0-3d-source-lod-research-ART_REJECTED:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 42
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run113-cc0-real-mesh-mobile-lod-source-audit
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run113_real_cc0_owl_anatomy_lod.py
+            .github/workflows/owl-pet-172-run113-free-cc0-3d-source.yml
+      - name: Retrieve no-charge actual 3D GLB with explicit CC0 and AI origin provenance
+        id: download
+        shell: bash
+        continue-on-error: true
+        timeout-minutes: 5
+        run: |
+          set -euo pipefail
+          ROOT="owl-pet/3d-experiments/172-tyto-castanops"
+          OUT="$ROOT/research-evidence-run113-REAL-CC0-ADULT-LOD-ART_REJECTED"
+          mkdir -p "$OUT" "$RUNNER_TEMP/real_owl_source"
+          curl -fLSs --connect-timeout 18 --max-time 95 --retry 2 'https://grab3d.com/dl/owl/LICENSE.txt' -o "$OUT/SOURCE_LICENSE.txt"
+          curl -fLSs --connect-timeout 18 --max-time 95 --retry 2 'https://grab3d.com/dl/owl/manifest.json' -o "$OUT/SOURCE_MANIFEST.json"
+          curl -fLSs --connect-timeout 18 --max-time 145 --retry 2 'https://grab3d.com/dl/owl/owl-light.glb' -o "$RUNNER_TEMP/real_owl_source/owl-light.glb"
+          grep -q 'CC0 1.0' "$OUT/SOURCE_LICENSE.txt"
+          grep -q 'AI-assisted' "$OUT/SOURCE_LICENSE.txt"
+          printf '%s\n' 'IMPORTANT: claimed CC0 with AI-assisted Meshy origin; globally distributable rights not fully verified. ADULT GREAT HORNED OWL ONLY, NEVER #172 YOUNG TYTO CANDIDATE.' > "$OUT/source_disclosure.txt"
+          wc -c "$RUNNER_TEMP/real_owl_source/owl-light.glb" | tee "$OUT/source_asset_size_log.txt"
+          sha256sum "$RUNNER_TEMP/real_owl_source/owl-light.glb" | tee "$OUT/source_asset_sha256.txt"
+      - name: Install free Blender and operate on actual downloaded textured mesh
+        id: sculpt
+        if: steps.download.outcome == 'success'
+        shell: bash
+        continue-on-error: true
+        timeout-minutes: 28
+        run: |
+          set -eo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq blender
+          ROOT="owl-pet/3d-experiments/172-tyto-castanops"
+          OUT="$ROOT/research-evidence-run113-REAL-CC0-ADULT-LOD-ART_REJECTED"
+          timeout 1000 blender -b --python-exit-code 42 --python "$ROOT/tools/run113_real_cc0_owl_anatomy_lod.py" -- --source "$RUNNER_TEMP/real_owl_source/owl-light.glb" --out "$OUT" --manifest "$OUT/SOURCE_MANIFEST.json" --license "$OUT/SOURCE_LICENSE.txt" 2>&1 | tee "$OUT/actual_blender_import_decimate_render.log"
+      - name: Mark art rejection and generate checked evidence manifest
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT="owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run113-REAL-CC0-ADULT-LOD-ART_REJECTED"
+          mkdir -p "$OUT"
+          printf '%s\n' 'ART_REJECTED: not Tyto castanops or an age-unknown mesoptile. This is a real adult GREAT HORNED OWL CC0 source suitability, Blender topology and LOD test only. Do not publish as an owl-pet role. Global upstream rights, young anatomy, cream down, heart-disc, tree-hollow support and real mobile GPU gates remain unapproved.' > "$OUT/ART_REJECTED.flag"
+          printf 'download=%s\nblender=%s\n' "${{ steps.download.outcome }}" "${{ steps.sculpt.outcome }}" > "$OUT/run113_workflow_outcomes.txt"
+          (cd "$OUT"; find . -type f ! -name SHA256SUMS.txt ! -name SHA256_VALIDATED.txt -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$OUT"; sha256sum -c SHA256SUMS.txt > SHA256_VALIDATED.txt)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run113-REAL-3D-source-LOD-ART_REJECTED
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run113-REAL-CC0-ADULT-LOD-ART_REJECTED
+          retention-days: 30
+      - name: Commit only isolated #172 research evidence
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          OUT="owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run113-REAL-CC0-ADULT-LOD-ART_REJECTED"
+          git add --sparse "$OUT"
+          git diff --cached --name-only > /tmp/run113_changed_paths.txt
+          if grep -v '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run113-' /tmp/run113_changed_paths.txt; then
+            echo 'Refuse non-research path modification'; exit 9
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m "research(owl172): archive actual Run113 CC0 3D source and LOD benchmark ART_REJECTED"
+            git push origin HEAD:research/owl172-run113-cc0-real-mesh-mobile-lod-source-audit
+          fi

@@ -1,0 +1,90 @@
+name: owl172 Run115B real neural cream chick GLB browser WebGL2 technical gate
+on:
+  push:
+    branches: [research/owl172-run114-mini-turbo-cream-native]
+    paths:
+      - .github/workflows/owl-pet-172-run115b-native-chick-webgl2-qa.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run115b_true_juvenile_webgl_qa.mjs
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  actual-neural-chick-software-browser-no-physical-phone:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 26
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run114-mini-turbo-cream-native
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run115-REAL-HUNYUAN-EYE-SOFTDOWN-ART_REJECTED/run115_eyes_plus_softdown_ART_UNAPPROVED.glb
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run111_viewer.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run111_viewer_qa.html
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run115b_true_juvenile_webgl_qa.mjs
+            .github/workflows/owl-pet-172-run115b-native-chick-webgl2-qa.yml
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Real Run115 GLB is reloaded by Three.js in simulated phone and desktop viewport
+        id: browser
+        timeout-minutes: 19
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -eo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$GITHUB_WORKSPACE/$ROOT/research-evidence-run115B-ACTUAL-SOFTWARE-WEBGL-ART_REJECTED"
+          SRC="$GITHUB_WORKSPACE/$ROOT/research-evidence-run115-REAL-HUNYUAN-EYE-SOFTDOWN-ART_REJECTED/run115_eyes_plus_softdown_ART_UNAPPROVED.glb"
+          WEB="$RUNNER_TEMP/owl172_run115b_webgl"
+          mkdir -p "$OUT" "$WEB"
+          echo '17ad9eb3ba51a12b563cbdeea6ce42baf376263daa7083c9aeac0c8910a76dd7  '"$SRC" | sha256sum -c
+          cp "$SRC" "$WEB/candidate.glb"
+          cp "$ROOT/tools/run111_viewer_qa.html" "$WEB/index.html"
+          sed -i 's/Run111/Run115 genuine new neural chick/g; s/ART UNAPPROVED/ART REJECTED \\u2014 research only/g' "$WEB/index.html"
+          cp "$ROOT/tools/run111_viewer.mjs" "$WEB/run111_viewer.mjs"
+          sed -i 's/real Run111 GLB/real Run115 new neural GLB/g' "$WEB/run111_viewer.mjs"
+          cp "$ROOT/tools/run115b_true_juvenile_webgl_qa.mjs" "$WEB/qa.mjs"
+          cd "$WEB"
+          npm init -y >/dev/null
+          npm install -q --no-fund --no-audit playwright@1.52.0 three@0.174.0
+          npx playwright install --with-deps chromium
+          python3 -m http.server 4173 --bind 127.0.0.1 > "$OUT/server.log" 2>&1 &
+          server_pid=$!
+          trap 'kill "$server_pid" 2>/dev/null || true' EXIT
+          sleep 2
+          node "$WEB/qa.mjs" "$OUT" 2>&1 | tee "$OUT/run115b_browser.log"
+      - name: SHA and no-release gate
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run115B-ACTUAL-SOFTWARE-WEBGL-ART_REJECTED
+          mkdir -p "$OUT"
+          echo 'ART_REJECTED: SwiftShader simulated phone is not physical phone GPU; side/back down, feet-on-hollow and global rights still fail' > "$OUT/ART_REJECTED.flag"
+          echo 'browser_step=${{ steps.browser.outcome }}' > "$OUT/technical_browser_outcome.txt"
+          (cd "$OUT"; find . -type f ! -name SHA256SUMS.txt ! -name sha_checked.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$OUT"; sha256sum -c SHA256SUMS.txt > sha_checked.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run115B-real-juvenile-software-GLTF-WebGL-ART_REJECTED
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run115B-ACTUAL-SOFTWARE-WEBGL-ART_REJECTED
+          retention-days: 30
+      - name: Archive independent technical browser evidence ONLY
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run115B-ACTUAL-SOFTWARE-WEBGL-ART_REJECTED
+          git add --sparse "$OUT"
+          git diff --cached --name-only > /tmp/run115b_files.txt
+          if grep -v '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run115B-' /tmp/run115b_files.txt; then
+            echo 'Out-of-scope content blocked'; exit 8
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m "research(owl172): archive actual Run115B GLB mobile viewport software WebGL2 evidence, ART_REJECTED"
+            git push origin HEAD:research/owl172-run114-mini-turbo-cream-native
+          fi

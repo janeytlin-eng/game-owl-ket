@@ -1,0 +1,122 @@
+name: owl172 Run103 free MIT TRELLIS2 PBR juvenile research probe (no release)
+on:
+  push:
+    branches:
+      - research/owl172-run103-free-trellis2-pbr-juvenile-probe
+    paths:
+      - .github/workflows/owl-pet-172-run103-free-trellis2-pbr.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run103_free_trellis2_pbr_probe.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  zero-dollar-true-neural-3d-pbr:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 42
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run103-free-trellis2-pbr-juvenile-probe
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run99-HUNYUAN-ZEROGPU-ART_UNAPPROVED/rightmost_mesoptile_input.jpg
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run103_free_trellis2_pbr_probe.py
+            .github/workflows/owl-pet-172-run103-free-trellis2-pbr.yml
+      - name: Verify existing #172 input + Python syntax
+        shell: bash
+        run: |
+          set -euo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          test -s "$ROOT/research-evidence-run99-HUNYUAN-ZEROGPU-ART_UNAPPROVED/rightmost_mesoptile_input.jpg"
+          python3 -m py_compile "$ROOT/tools/run103_free_trellis2_pbr_probe.py"
+          sha256sum "$ROOT/research-evidence-run99-HUNYUAN-ZEROGPU-ART_UNAPPROVED/rightmost_mesoptile_input.jpg"
+      - name: Install free Gradio client; no paid inference provider or credits
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 -m venv /tmp/owl172-run103
+          /tmp/owl172-run103/bin/pip install --quiet --disable-pip-version-check Pillow 'gradio_client>=1.8,<3'
+      - name: Request genuine image-to-textured-3D and extract GLB from official Microsoft ZeroGPU
+        shell: bash
+        timeout-minutes: 27
+        run: |
+          set -o pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run103-TRELLIS2-PBR-ART_UNAPPROVED"
+          mkdir -p "$OUT"
+          timeout 1510 /tmp/owl172-run103/bin/python "$ROOT/tools/run103_free_trellis2_pbr_probe.py" generate > "$OUT/actual_zero_gpu_request.log" 2>&1 || {
+            status=$?
+            echo "Request timeout/crash exit=$status, no paid fallback; no asset accepted" | tee "$OUT/request_failure.txt"
+          }
+          tail -c 5000 "$OUT/actual_zero_gpu_request.log" || true
+      - name: If real GLB exists, do physical Blender native 3D import and Cycles four-angle renders
+        shell: bash
+        timeout-minutes: 10
+        run: |
+          set -o pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run103-TRELLIS2-PBR-ART_UNAPPROVED"
+          if test -s "$OUT/run103_original_trellis2_pbr_NOT_APPROVED.glb"; then
+            sudo apt-get update -qq
+            sudo apt-get install -y -qq blender python3-numpy
+            blender -b --python-exit-code 7 --python "$ROOT/tools/run103_free_trellis2_pbr_probe.py" -- render > "$OUT/native_blender_cycles_execution.log" 2>&1 || {
+              echo "Real model rendering failed; art gate stays unapproved" > "$OUT/native_render_failed.txt"
+            }
+            tail -c 3000 "$OUT/native_blender_cycles_execution.log" || true
+          else
+            echo "No real GLB returned from zero-cost provider, no synthetic substitute" > "$OUT/no_render_without_real_model.txt"
+          fi
+      - name: Rejection manifest, provenance, hashes, security boundaries
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run103-TRELLIS2-PBR-ART_UNAPPROVED
+          mkdir -p "$OUT"
+          cat > "$OUT/ART_REJECTED_PENDING_REVIEW.md" <<'EOF'
+          # Run103 #172 Tyto castanops v3, rightmost cream mesoptile — RESEARCH ONLY
+          
+          The original rightmost chick crop was supplied to the **public zero-cost**
+          microsoft/TRELLIS.2 ZeroGPU Space, a different PBR geometry+texture model
+          from prior Hunyuan3D. This is a technical research attempt, NOT art approval.
+          The user requires true cream layered down, broad heart face, awake dark eyes,
+          age-unknown compact chick, believable sides/back, grounded two feet on a wide
+          eucalyptus hollow, and real phone WebGL performance. No technical success
+          alone meets these gates. An absent native GLB is a blocked free experiment,
+          not an acceptable proxy. Do not release any model without independent art,
+          rights, native mobile GPU and provenance review. No Tencent source mesh is
+          incorporated into this run's inference input, only the original concept crop;
+          TRELLIS.2 code is MIT, not proof of all source image/output rights.
+          
+          Experimental artifacts are quarantined on a separate research branch.
+          Do not edit the 251-species pipeline, existing pet, original plate or deployment.
+          No paid services, paid inference credits, purchases or subscriptions authorized.
+          EOF
+          (
+            cd "$OUT"
+            find . -type f -not -name SHA256SUMS.txt -not -name checksum_validation.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt
+            sha256sum -c SHA256SUMS.txt > checksum_validation.log
+            echo "RUN103_EVIDENCE_CHECKSUMS_OK $(wc -l < SHA256SUMS.txt)"
+          )
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run103-trellis2-pbr-true3d-zero-dollar-ART_UNAPPROVED
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run103-TRELLIS2-PBR-ART_UNAPPROVED/
+          retention-days: 30
+      - name: Commit only isolated #172 Run103 evidence; no production changes
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run103-TRELLIS2-PBR-ART_UNAPPROVED
+          git add --sparse "$OUT"
+          git diff --cached --name-only > /tmp/owl172_run103_staged
+          if grep -v '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run103-' /tmp/owl172_run103_staged; then
+            echo 'UNSAFE STAGED PATH'; exit 2
+          fi
+          git diff --cached --quiet && exit 0
+          git commit -m "research(owl172): archive free TRELLIS2 true-PBR generation probe, ART_UNAPPROVED"
+          git push origin HEAD:research/owl172-run103-free-trellis2-pbr-juvenile-probe

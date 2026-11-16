@@ -1,0 +1,34 @@
+# Run103 + Run104 — free 3D source exploration and genuine CPU mesh — **ART_REJECTED**
+
+**Date: 2026-11-16 (Asia/Shanghai).** #172 *Tyto castanops* v3 rightmost cream second-down chick. **Research-only; no deployable or user-showable character.**
+
+## Preflight actually completed
+Reopened `owl-pet/AGENTS.md`, README, `research/species/172-tyto-castanops-v3.md`, Run92C and Run102/102B negative audits and existing branch assets. Verified the current pet prototype is still an unrelated **cat** WebGL prototype. Opened the original rightmost 580×804 image and then the officially foreground-preprocessed 512×512 cutout: a plump cream downy chick with **open black eyes, broad heart-shaped face, short buried wings, large supported feet**, on a wide tree hollow. Original concept is front-biased; exact side/back, age, nest contents and sex remain unknown.
+
+## Run103 — actual free PBR neural service attempted
+A separate independent branch `research/owl172-run103-free-trellis2-pbr-juvenile-probe` was created from the Run102B research baseline. Actual automated GitHub Actions runs:
+- [Run103 attempt 1](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/43805593014): successfully installed the official public Microsoft TRELLIS.2 Gradio client, queried the **seven live API endpoints**, attempted preprocessing and generation; the publicly accessible unauthenticated ZeroGPU quota blocked both.
+- Fixed the script to the **actual API schema** (one public HTML output from `/image_to_3d`, internal `gr.State` is implicit; exactly two public parameters for `/extract_glb`).
+- [Run103 attempt 2](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/43805808661): **successfully obtained and visually inspected the genuine 512×512 foreground-preprocessed baby owl cutout**, from the original rightmost plate; actual 3D inference returned `AppError: You have exceeded your ZeroGPU quota (120s requested vs. 178s left). Try again in 23:59:55. Authenticate with a Hugging Face token for more quota`. No quota workarounds, payments or invented GLBs. The postprocessing and render were explicitly skipped when no true source GLB existed. Kept server schema, error traceback, two runs, cutout, integrity checks and `ART_REJECTED_PENDING_REVIEW.md` as independent evidence.
+
+This is a **temporary no-credit API route**, not evidence that TRELLIS.2 geometry is inherently incapable. Public MIT code license is **not** unconditional license of input concept image or outputs: check rights before any release.
+
+## Run104 — real open-source CPU model, native GLB and four native views
+New research-only branch `research/owl172-run104-clean-foreground-triposr-cpu` reused **only** the resulting genuine owl cutout as the input to prior independently successful free CPU TripoSR. Instead of restoring the original woody background, neutral-matted the actual detached foreground, added bounding margin, and actually ran TripoSR CPU inference with skimage marching cubes at resolution 112. The machine produced a **true watertight triangle mesh** and native GLB, not SVG, a billboard or ellipsoid placeholders.
+
+- Real GLB: `owl172_run104_neural_SINGLEVIEW_ART_UNREVIEWED.glb`; **668,148 bytes**, **16,684 vertices**, **33,332 triangles**, **33,332 independently reimported triangles**, source check `SHA256` from final validated metrics `ace77d09c1c1331f9f7cfb699315608c48e9909f5570a80ff8925168f40df505`. PBR vertex-color material repair: `metallicFactor=0`, roughness 0.95.
+- For comparison, previous original Run92 TripoSR CPU crop produced only 31,342 triangles and was already aesthetically rejected.
+- First free Actions attempt [Run104 initial](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/43806100813) **did produce** a genuine 33,332-triangle GLB and passed binary reimport, but apt-installed Blender 4.0.2 failed rendering because it lacks OpenImageDenoiser. Corrected all view-layer denoising flags instead of pretending the renders existed.
+- Second attempt [Run104 successful](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/43806487914): CPU inference, true GLB export/reimport and **four genuine Cycles camera views** all completed; checksum validation reported **all 16 evidence files OK**. Native angle files are `run104_neural_front_assumed.png`, `run104_neural_threequarter_assumed.png`, `run104_neural_strict_side_assumed.png`, `run104_neural_back_assumed.png`. They were all directly opened and reviewed after the Actions run. Artifacts, build scripts, logs and metrics are independently committed on the **isolated Run104 research branch** under `research-evidence-run104-CLEAN-FOREGROUND-CPU-ART_UNAPPROVED/`.
+
+## Actual visual assessment (NOT inferred from a build green check)
+**Unambiguous ART_REJECTED.** All four native renderings show a small crumpled/stippled **rock/cocoon shaped mass** against flat gray background. They **do not resemble a fledgling owl**. It loses all reference proportions, face-mask symmetry and bright, distinct open eyes. Side/quarter/back degenerate into anonymous speckled blobs with sharp little spikes; there is no discernible wing plane, fluffy natural down, supported toes or broad hollow. The object's likely erroneous orientation further hinders view recognition, but even a correction cannot restore missing face/wing anatomy. The input segmentation materially improved, but it did not rescue TripoSR's object-level reconstruction. The modest increase from 31,342 to 33,332 triangles is **not an art improvement**; polygon count cannot pass the visual gate. **Do not link this GLB as a sample.**
+
+No physical iOS or Android GPU, multi-touch, frame-time, memory, morph animation, thermal/battery or mobile WebGL benchmark was run, because the model cannot pass the fundamental **visual/anatomical gate**. No real side/back source reference proves the model's inferred view is biologically correct.
+
+## Isolation and future technical direction
+Confirmed `Run104 vs Run103` branch differences (21 paths) remain **only** inside `owl-pet/3d-experiments/172-tyto-castanops/` and dedicated `.github/workflows/owl-pet-172-` files. Neither alters the 251 species pipeline, root word game, original plate, prototype or deployed site. The evidence folder carries an explicit no-release marker. Both free routes cost **$0**: GitHub free workflows, MIT TripoSR on CPU and an unauthenticated public ZeroGPU provider; **no paid account token**.
+
+The honest next viable technical path is a **genuinely art-directed, anatomically sculpted and licensed juvenile source** (or nontrivial multiview-trained diffusion when a free quota is available), with layered down and separate accurate facial-disc/wing/leg details. More smoothing or neutral matte input alone is not a meaningful quality step. Licensing, multi-angle biological reference and real-phone performance remain explicit release gates.
+
+**Final status: ART_REJECTED / RESEARCH ARCHIVED ONLY / NEVER RELEASED.**

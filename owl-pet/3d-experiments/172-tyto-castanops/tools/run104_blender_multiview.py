@@ -33,6 +33,10 @@ bpy.ops.object.camera_add()
 cam=bpy.context.object;bpy.context.scene.camera=cam;cam.data.type='ORTHO';cam.data.ortho_scale=radius*2.25
 scene=bpy.context.scene;scene.render.engine='CYCLES'
 scene.cycles.samples=18
+# Ubuntu apt Blender 4.0 has no OIDN: disable all view-layer denoising explicitly.
+scene.cycles.use_denoising=False
+for layer in scene.view_layers:
+    layer.cycles.use_denoising=False
 scene.render.resolution_x=640;scene.render.resolution_y=640;scene.render.resolution_percentage=100
 scene.render.image_settings.file_format='PNG'
 scene.render.film_transparent=False

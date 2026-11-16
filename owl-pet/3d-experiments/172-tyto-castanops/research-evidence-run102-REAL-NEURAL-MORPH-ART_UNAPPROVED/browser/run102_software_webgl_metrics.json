@@ -1,0 +1,74 @@
+{
+  "source": "GitHub Actions Chromium software SwiftShader",
+  "physical_phone_gpu_test": false,
+  "actual_touch_test": false,
+  "art_gate": "UNAPPROVED",
+  "cases": [
+    {
+      "name": "desktop_1280x720",
+      "loaded": true,
+      "webglVersion": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "renderer": "WebKit WebGL",
+      "clipCount": 1,
+      "morphValues": [
+        0.7338,
+        0.8889
+      ],
+      "morphAnimationDynamic": true,
+      "morphChangeRange": 0.9926,
+      "renderedFrames": 146,
+      "renderingCalls": 1,
+      "initialFraming": {
+        "left": -0.24938488857371807,
+        "right": 0.24938488857371807,
+        "bottom": -0.5670565975756148,
+        "top": 0.5481588195847251,
+        "inFrame": true
+      },
+      "afterOrbitFraming": {
+        "left": -0.32136158948020505,
+        "right": 0.34903950981896037,
+        "bottom": -0.5605896378072917,
+        "top": 0.5829562675389633,
+        "inFrame": true
+      },
+      "orbitCameraChanged": true,
+      "glError": 0,
+      "pageErrors": [],
+      "applicationErrors": []
+    },
+    {
+      "name": "simulated_phone_390x844",
+      "loaded": true,
+      "webglVersion": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "renderer": "WebKit WebGL",
+      "clipCount": 1,
+      "morphValues": [
+        0.5668,
+        0.8396
+      ],
+      "morphAnimationDynamic": true,
+      "morphChangeRange": 0.9943,
+      "renderedFrames": 135,
+      "renderingCalls": 1,
+      "initialFraming": {
+        "left": -0.5792158622218373,
+        "right": 0.5792158622218373,
+        "bottom": -0.34136422732618704,
+        "top": 0.3334302054426451,
+        "inFrame": true
+      },
+      "afterOrbitFraming": {
+        "left": -0.7514826258411546,
+        "right": 0.8221287374069136,
+        "bottom": -0.33582497059664845,
+        "top": 0.35734630340451295,
+        "inFrame": true
+      },
+      "orbitCameraChanged": true,
+      "glError": 0,
+      "pageErrors": [],
+      "applicationErrors": []
+    }
+  ]
+}

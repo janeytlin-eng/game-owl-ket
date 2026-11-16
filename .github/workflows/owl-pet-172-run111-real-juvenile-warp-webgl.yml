@@ -1,0 +1,124 @@
+name: owl172 Run111 genuine neural juvenile ratio warp and software WebGL QA - NOT APPROVED
+on:
+  push:
+    branches: [research/owl172-run111-juvenile-silhouette-warp-webgl-qa]
+    paths:
+      - .github/workflows/owl-pet-172-run111-real-juvenile-warp-webgl.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run111_*
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  no-cost-actual-neural-mesh-morph:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 44
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run111-juvenile-silhouette-warp-webgl-qa
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run110-NEURAL-EYES-SOFTDOWN-ART_UNAPPROVED/run110_eyes_plus_softdown_ART_UNAPPROVED.glb
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run111_true_neural_juvenile_deformation.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run111_viewer.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run111_software_webgl_qa.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run111_viewer_qa.html
+            .github/workflows/owl-pet-172-run111-real-juvenile-warp-webgl.yml
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Verify actual source and install no-charge native Blender
+        shell: bash
+        run: |
+          set -euo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          SRC="$ROOT/research-evidence-run110-NEURAL-EYES-SOFTDOWN-ART_UNAPPROVED/run110_eyes_plus_softdown_ART_UNAPPROVED.glb"
+          echo "604217f513c6e04f8f7d29ba17a418836a33fafe6d6e8fe3b5571b21da09a7c6  $SRC" | sha256sum -c
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq blender python3-pil
+      - name: Real existing mesh deformation, two exported GLB, re-import and eight Cycles views
+        shell: bash
+        id: blender
+        continue-on-error: true
+        timeout-minutes: 24
+        run: |
+          set -eo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          SRC="$ROOT/research-evidence-run110-NEURAL-EYES-SOFTDOWN-ART_UNAPPROVED/run110_eyes_plus_softdown_ART_UNAPPROVED.glb"
+          OUT="$ROOT/research-evidence-run111-JUVENILE-NONRIGID-MORPH-ART_UNAPPROVED"
+          mkdir -p "$OUT"
+          timeout 1280 blender -b --python-exit-code 42 --python "$ROOT/tools/run111_true_neural_juvenile_deformation.py" -- --source "$SRC" --out "$OUT" 2>&1 | tee "$OUT/actual_blender_run111.log"
+          python3 - "$OUT" <<'PY'
+          from PIL import Image,ImageDraw
+          from pathlib import Path
+          import sys
+          d=Path(sys.argv[1])
+          for v in ['juvenile_compact_20','juvenile_broadface_34']:
+              src=[d/f'run111_{v}_{n}_cycles_UNAPPROVED.png' for n in ['front','quarter','side','back']]
+              assert all(f.is_file() for f in src)
+              out=Image.new('RGB',(880,880),(238,238,233))
+              draw=ImageDraw.Draw(out)
+              for i,f in enumerate(src):
+                  out.paste(Image.open(f).convert('RGB'),(i%2*440,i//2*440))
+                  draw.text((i%2*440+8,i//2*440+8),f.stem.split('_')[-3],fill=(0,0,0))
+              out.save(d/f'run111_{v}_four_real_3d_views_UNAPPROVED.jpg',quality=88)
+          PY
+      - name: Open actual warped 3D GLB via Chromium WebGL2 (software only)
+        shell: bash
+        id: browser
+        if: steps.blender.outcome == 'success'
+        continue-on-error: true
+        timeout-minutes: 16
+        run: |
+          set -euo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$GITHUB_WORKSPACE/$ROOT/research-evidence-run111-JUVENILE-NONRIGID-MORPH-ART_UNAPPROVED"
+          WEB="$RUNNER_TEMP/owl172_run111_browser"
+          mkdir -p "$WEB" "$OUT/browser"
+          cp "$ROOT/tools/run111_viewer_qa.html" "$WEB/index.html"
+          cp "$ROOT/tools/run111_viewer.mjs" "$WEB/run111_viewer.mjs"
+          cp "$ROOT/tools/run111_software_webgl_qa.mjs" "$WEB/qa.mjs"
+          cp "$OUT/run111_juvenile_broadface_34_ART_UNAPPROVED.glb" "$WEB/candidate.glb"
+          cd "$WEB"
+          npm init -y >/dev/null
+          npm install --no-fund --no-audit playwright@1.52.0 three@0.174.0
+          npx playwright install --with-deps chromium
+          python3 -m http.server 4173 --bind 127.0.0.1 > "$OUT/browser/http_server.log" 2>&1 &
+          SERVER_PID=$!
+          trap 'kill "$SERVER_PID" 2>/dev/null || true' EXIT
+          sleep 2
+          node "$WEB/qa.mjs" "$OUT/browser" 2>&1 | tee "$OUT/browser/real_glb_browser_run111.log"
+      - name: Immutable negative gate, every-file checksums, and metadata
+        shell: bash
+        if: always()
+        run: |
+          set -euo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run111-JUVENILE-NONRIGID-MORPH-ART_UNAPPROVED"
+          mkdir -p "$OUT"
+          printf '%s\n' 'ART_REJECTED / NO RELEASE. This tests a previously unapproved Hunyuan neural mesh, by nonrigid vertex warps; visual juvenile correctness, cream second-down, supported feet and real phone GPU NOT established. Tencent source distribution rights NOT cleared. Do not deploy or call this a finished owl.' > "$OUT/ART_REJECTED.flag"
+          printf '%s\n' "Blender step: ${{ steps.blender.outcome }}" "Browser step: ${{ steps.browser.outcome }}" > "$OUT/steps.txt"
+          (cd "$OUT"; find . -type f ! -name SHA256SUMS.txt ! -name checksum_validation.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$OUT"; sha256sum -c SHA256SUMS.txt > checksum_validation.log)
+          cat "$OUT/steps.txt"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run111-real-mesh-warp-software-webgl-ART_UNAPPROVED
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run111-JUVENILE-NONRIGID-MORPH-ART_UNAPPROVED
+          retention-days: 30
+      - name: Persist quarantine only; never modify species-production or release
+        shell: bash
+        if: always()
+        run: |
+          set -euo pipefail
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run111-JUVENILE-NONRIGID-MORPH-ART_UNAPPROVED
+          git add --sparse "$OUT"
+          git diff --cached --name-only > /tmp/owl172_run111_staged.txt
+          if grep -v '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run111-' /tmp/owl172_run111_staged.txt; then exit 4; fi
+          if ! git diff --cached --quiet; then
+            git commit -m "research(owl172): archive real mesh juvenile warp and browser evidence; ART_REJECTED"
+            git push origin HEAD:research/owl172-run111-juvenile-silhouette-warp-webgl-qa
+          fi

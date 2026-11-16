@@ -1,0 +1,78 @@
+name: owl172 Run115 real Run114C neural mesh posterior sculpt socket eyes and soft microdown
+on:
+  push:
+    branches: [research/owl172-run114-mini-turbo-cream-native]
+    paths:
+      - .github/workflows/owl-pet-172-run115-actual-neural-juvenile-eye-groom.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run115_true_neural_juvenile_eye_groom.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  retouch-existing-genuine-3d-not-spheres-proxy:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 44
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run114-mini-turbo-cream-native
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/run114c_neural_source_ART_UNAPPROVED.glb
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run115_true_neural_juvenile_eye_groom.py
+            .github/workflows/owl-pet-172-run115-actual-neural-juvenile-eye-groom.yml
+      - name: Install no-charge actual Blender renderer and numpy
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq blender python3-numpy python3-pil
+      - name: Real new native neural mesh morph, surface eye placement and two groom ablations with 8 native Cycles views
+        timeout-minutes: 31
+        shell: bash
+        run: |
+          set -eo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run115-REAL-HUNYUAN-EYE-SOFTDOWN-ART_REJECTED"
+          SRC="$ROOT/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/run114c_neural_source_ART_UNAPPROVED.glb"
+          mkdir -p "$OUT"
+          echo '7d7659a861a4444a4d898649e74942b7a1fcd6a6ca7e98f52f0f60ca5033be19' > /tmp/owl172_expected_sha
+          test "$(sha256sum "$SRC" | cut -d' ' -f1)" = "$(cat /tmp/owl172_expected_sha)"
+          timeout 1770 blender -b --python-exit-code 4 \
+            --python "$ROOT/tools/run115_true_neural_juvenile_eye_groom.py" -- \
+            --source "$SRC" --out "$OUT" 2>&1 | tee "$OUT/run115_blender.log" || {
+              echo 'RUN115 Blender retouch failed; no visual approval' > "$OUT/sculpt_failed.flag"
+            }
+      - name: Integrity and rejection evidence always
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run115-REAL-HUNYUAN-EYE-SOFTDOWN-ART_REJECTED
+          mkdir -p "$OUT"
+          echo 'ART_REJECTED pending face/eye anatomy, natural down, real side/rear, tree hollow support, native-phone GPU and worldwide rights' > "$OUT/ART_REJECTED.flag"
+          (cd "$OUT"; find . -type f ! -name SHA256SUMS.txt ! -name sha_checked.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$OUT"; sha256sum -c SHA256SUMS.txt | tee sha_checked.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run115-real-native-neural-eye-softdown-ART_REJECTED
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run115-REAL-HUNYUAN-EYE-SOFTDOWN-ART_REJECTED
+          retention-days: 30
+      - name: Git archive research-only material NOT 251 species pipeline
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run115-REAL-HUNYUAN-EYE-SOFTDOWN-ART_REJECTED
+          git add --sparse "$OUT"
+          git diff --cached --name-only > /tmp/run115_files.txt
+          if grep -v '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run115-' /tmp/run115_files.txt; then
+            echo 'Out-of-scope modification blocked'; exit 8
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m "research(owl172): actual Run115 true mesh retouch two groom variants and native four angles"
+            git push origin HEAD:research/owl172-run114-mini-turbo-cream-native
+          fi

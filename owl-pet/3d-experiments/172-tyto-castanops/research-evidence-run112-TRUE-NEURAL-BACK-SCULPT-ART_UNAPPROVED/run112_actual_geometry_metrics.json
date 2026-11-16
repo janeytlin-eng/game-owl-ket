@@ -1,0 +1,62 @@
+{
+  "experiment": "Run112 actual existing 3D neural anatomy + posterior microrelief ablation",
+  "tool": "Blender 4.0.2",
+  "source_sha256": "c755adfdea0d54e8de5588d72593009162d799ec2a97dec2026cc1efe613a886",
+  "source_art_approved": false,
+  "source_global_rights_cleared": false,
+  "actual_phone_gpu_tested": false,
+  "method": "continuous transformations of native neural surface and weighted posterior smoothing, not primitive replacement",
+  "automatic_art_acceptance": false,
+  "variants": [
+    {
+      "name": "balanced_28",
+      "back_compress": 0.28,
+      "face_expansion": 0.22,
+      "posterior_smooth_factor": 0.34,
+      "posterior_smooth_iterations": 5,
+      "weighted_posterior_vertices": 8099,
+      "moved_original_mesh_vertices": 86510,
+      "source_triangles": 127262,
+      "reimported_real_triangles": 127262,
+      "reimported_meshes": 8,
+      "bounds_main_before": [
+        1.732791781425476,
+        1.776759386062622,
+        1.7566807270050049
+      ],
+      "bounds_main_after": [
+        1.8115568161010742,
+        1.776759386062622,
+        1.7785022258758545
+      ],
+      "file_bytes": 3512848,
+      "file_sha256": "aa7fb3fbf7e0083bbe97872cedf4558ad21b0c9cb9af1f405ef22c5e0fba57f3",
+      "native_cycles_views": 4
+    },
+    {
+      "name": "strong_44",
+      "back_compress": 0.44,
+      "face_expansion": 0.35,
+      "posterior_smooth_factor": 0.48,
+      "posterior_smooth_iterations": 11,
+      "weighted_posterior_vertices": 7711,
+      "moved_original_mesh_vertices": 86585,
+      "source_triangles": 127262,
+      "reimported_real_triangles": 127262,
+      "reimported_meshes": 8,
+      "bounds_main_before": [
+        1.732791781425476,
+        1.776759386062622,
+        1.7566807270050049
+      ],
+      "bounds_main_after": [
+        1.8902273178100586,
+        1.776759386062622,
+        1.7913967370986938
+      ],
+      "file_bytes": 3512992,
+      "file_sha256": "338627d60d22733dd38bb3630be3cae024aecfaf5bc579762d506a612915d08d",
+      "native_cycles_views": 4
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+name: owl172 Run114C one-shot free Hunyuan3D native mesh bounded read transport
+on:
+  push:
+    branches: [research/owl172-run114-mini-turbo-cream-native]
+    paths:
+      - .github/workflows/owl-pet-172-run114c-bounded-hunyuan-native-qa.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run114c_neutral_matte_bounded_transport.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  real-cream-juvenile-3d-shape-probe:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run114-mini-turbo-cream-native
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run103-TRELLIS2-PBR-ART_UNAPPROVED/preprocessed_image.png
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run114c_neutral_matte_bounded_transport.py
+            .github/workflows/owl-pet-172-run114c-bounded-hunyuan-native-qa.yml
+      - name: Install free Gradio client, not a paid provider
+        run: |
+          set -euo pipefail
+          python3 -m venv /tmp/owl172run114c
+          /tmp/owl172run114c/bin/pip install -q Pillow gradio_client
+      - name: One actual no-key no-cost native model request with bounded config timeout
+        timeout-minutes: 24
+        shell: bash
+        run: |
+          set -eo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED"
+          mkdir -p "$OUT"
+          timeout 1160 /tmp/owl172run114c/bin/python "$ROOT/tools/run114c_neutral_matte_bounded_transport.py" \
+            --mode generate \
+            --source "$ROOT/research-evidence-run103-TRELLIS2-PBR-ART_UNAPPROVED/preprocessed_image.png" \
+            --out "$OUT" 2>&1 | tee "$OUT/run114c_generation.log" || {
+              echo 'Real provider call crashed/timed out: no true geometry claim' > "$OUT/generation_failed.flag"
+            }
+      - name: Native Blender four views ONLY if actual provider GLB exists
+        timeout-minutes: 14
+        shell: bash
+        run: |
+          set -eo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED"
+          if test -s "$OUT/run114c_neural_source_ART_UNAPPROVED.glb"; then
+            sudo apt-get update -qq
+            sudo apt-get install -y -qq blender python3-numpy
+            blender -b --python-exit-code 5 --python "$ROOT/tools/run114c_neutral_matte_bounded_transport.py" -- \
+              --mode render --model "$OUT/run114c_neural_source_ART_UNAPPROVED.glb" \
+              --out "$OUT" 2>&1 | tee "$OUT/run114c_blender.log" || {
+                echo 'Real native Blender rendering failed; no art release' > "$OUT/render_failed.flag"
+              }
+          else
+            echo 'No returned actual GLB: not generating false or placeholder 3D geometry.'
+          fi
+      - name: Explicitly rejected geometry/no geometry evidence integrity
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED"
+          mkdir -p "$OUT"
+          echo 'ART_REJECTED until human-reviewed four true sides, down, hollow, mobile GPU and global license' > "$OUT/ART_REJECTED.flag"
+          /tmp/owl172run114c/bin/python "$ROOT/tools/run114c_neutral_matte_bounded_transport.py" --mode manifest --out "$OUT" > "$OUT/manifest_output.log"
+          (cd "$OUT"; sha256sum -c SHA256SUMS.txt | tee checksum_validated.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run114C-free-actual-neural-native-ART_REJECTED
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED
+          retention-days: 30
+      - name: Independently commit isolated evidence only, never production
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED
+          git add --sparse "$OUT"
+          git diff --cached --name-only > /tmp/run114c_changes.txt
+          if grep -v '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-' /tmp/run114c_changes.txt; then
+            echo 'Forbidden non-isolated modifications'; exit 8
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m "research(owl172): archive actual bounded one-shot native free geometry, no art clearance"
+            git push origin HEAD:research/owl172-run114-mini-turbo-cream-native
+          fi

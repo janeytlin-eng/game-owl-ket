@@ -1,0 +1,89 @@
+name: owl172 Run113B actual CC0 adult 3D mobile-viewpoint WebGL2 QA (ART_REJECTED)
+on:
+  push:
+    branches: [research/owl172-run113-cc0-real-mesh-mobile-lod-source-audit]
+    paths:
+      - .github/workflows/owl-pet-172-run113b-real-cc0-webgl-qa.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run113b_cc0_adult_lod_webgl_qa.mjs
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  actual-adult-source-GLB-software-webgl-only:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run113-cc0-real-mesh-mobile-lod-source-audit
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run113-REAL-CC0-ADULT-LOD-ART_REJECTED/run113_cc0_adult_anatomy_LOD_NOT_A_JUVENILE_ART_REJECTED.glb
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run111_viewer_qa.html
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run111_viewer.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run113b_cc0_adult_lod_webgl_qa.mjs
+            .github/workflows/owl-pet-172-run113b-real-cc0-webgl-qa.yml
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Open real 91k decimated adult CC0 GLB in desktop and simulated phone WebGL2
+        id: browser
+        continue-on-error: true
+        timeout-minutes: 19
+        shell: bash
+        run: |
+          set -euo pipefail
+          ROOT="owl-pet/3d-experiments/172-tyto-castanops"
+          SRC="$GITHUB_WORKSPACE/$ROOT/research-evidence-run113-REAL-CC0-ADULT-LOD-ART_REJECTED/run113_cc0_adult_anatomy_LOD_NOT_A_JUVENILE_ART_REJECTED.glb"
+          OUT="$GITHUB_WORKSPACE/$ROOT/research-evidence-run113B-CC0-ADULT-WEBGL-ART_REJECTED"
+          WEB="$RUNNER_TEMP/owl172_run113b_qa"
+          mkdir -p "$WEB" "$OUT"
+          echo "66eae3597240b9c02e7b27be57c7f5b7556ff8d68d30cdc43fea83d184832f17  $SRC" | sha256sum -c
+          cp "$SRC" "$WEB/candidate.glb"
+          cp "$ROOT/tools/run111_viewer_qa.html" "$WEB/index.html"
+          sed -i 's/Run111 research only/Run113B CC0 adult benchmark only/g; s/Real GLB • experimental • ART UNAPPROVED/REAL ADULT GREAT HORNED OWL • NOT JUVENILE TYTO • ART REJECTED/g' "$WEB/index.html"
+          cp "$ROOT/tools/run111_viewer.mjs" "$WEB/run111_viewer.mjs"
+          sed -i 's/real Run111 GLB/real CC0 adult source LOD GLB/g' "$WEB/run111_viewer.mjs"
+          cd "$WEB"
+          npm init -y >/dev/null
+          npm install --no-fund --no-audit playwright@1.52.0 three@0.174.0
+          npx playwright install --with-deps chromium
+          python3 -m http.server 4173 --bind 127.0.0.1 > "$OUT/server.log" 2>&1 &
+          pid=$!
+          trap 'kill "$pid" 2>/dev/null || true' EXIT
+          sleep 2
+          node "$GITHUB_WORKSPACE/$ROOT/tools/run113b_cc0_adult_lod_webgl_qa.mjs" "$OUT" 2>&1 | tee "$OUT/actual_software_webgl.log"
+      - name: Explicit strict art rejection and checksums
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT="owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run113B-CC0-ADULT-WEBGL-ART_REJECTED"
+          mkdir -p "$OUT"
+          printf '%s\n' 'ART_REJECTED: browser loading an adult CC0 great horned owl is NOT a target mesoptile. Software simulated phone is not physical mobile GPU, no licensed final delivery, no correct Tyto face/down/juvenile proportions/tree support.' > "$OUT/ART_REJECTED.flag"
+          echo "browser=${{ steps.browser.outcome }}" > "$OUT/run113b_workflow_outcome.txt"
+          (cd "$OUT"; find . -type f ! -name SHA256SUMS.txt ! -name SHA256_VALIDATED.txt -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$OUT"; sha256sum -c SHA256SUMS.txt > SHA256_VALIDATED.txt)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run113B-REAL-CC0-ADULT-LOD-WEBGL-ART_REJECTED
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run113B-CC0-ADULT-WEBGL-ART_REJECTED
+          retention-days: 30
+      - name: Commit isolated browser evidence only
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          OUT="owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run113B-CC0-ADULT-WEBGL-ART_REJECTED"
+          git add --sparse "$OUT"
+          git diff --cached --name-only > /tmp/run113b_paths.txt
+          if grep -v '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run113B-' /tmp/run113b_paths.txt; then
+            echo 'Non-quarantined modification forbidden'; exit 8
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m "research(owl172): archive Run113B real adult CC0 mesh WebGL2 QA, ART_REJECTED"
+            git push origin HEAD:research/owl172-run113-cc0-real-mesh-mobile-lod-source-audit
+          fi

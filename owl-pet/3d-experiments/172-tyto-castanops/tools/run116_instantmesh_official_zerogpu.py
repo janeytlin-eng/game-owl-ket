@@ -14,7 +14,7 @@ import traceback
 from datetime import datetime, timezone
 
 SPACE = "TencentARC/InstantMesh"
-EXPECTED_INPUT_SHA256 = "6c66a656f73ee8254b1688a8e572a9f048647053d7552cd8c95c66ae5b4319cb"
+EXPECTED_INPUT_SHA256 = "5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9"
 
 def sha(p):
     return hashlib.sha256(Path(p).read_bytes()).hexdigest()

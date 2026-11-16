@@ -1,0 +1,84 @@
+{
+  "experiment": "Run100/neutral neural-source topology ablation",
+  "source_sha256": "eb95158d8a40fc869caef310a70af7e42f5731061725e2a1754aded0e7a8d683",
+  "source_geometry": {
+    "triangles": 696834,
+    "vertices": 348101,
+    "dimensions": [
+      1.555345,
+      1.956217,
+      1.912015
+    ]
+  },
+  "source_type": "real Hunyuan3D-2 ZeroGPU single-view generated GLB",
+  "not_a_released_asset": true,
+  "target_reference": "#172 Tyto castanops v3 rightmost cream owl mesoptile",
+  "art_gate": "ART_UNAPPROVED",
+  "source_license": "Tencent Hunyuan3D-2 Community License (review required; territory restrictions)",
+  "phone_webgl_verified": false,
+  "surface_repair_variants": [
+    {
+      "variant": "smooth_80k",
+      "goal": 80000,
+      "operation": "six gentle mesh smoothing passes before true decimation",
+      "after_topology_repair": {
+        "triangles": 696834,
+        "vertices": 348101,
+        "dimensions": [
+          1.545105,
+          1.953559,
+          1.908545
+        ]
+      },
+      "before_export": {
+        "triangles": 80000,
+        "vertices": 39684,
+        "dimensions": [
+          1.543446,
+          1.953841,
+          1.908178
+        ]
+      },
+      "file_bytes": 1433708,
+      "sha256": "60feb7a5e4f4c67a020e3457e7ffbfb52f6fbe3e75f115b970030c00b20cd35d",
+      "roundtrip_tris": 79988,
+      "roundtrip_meshes": 1,
+      "roundtrip_materials": [
+        "run100_cream_nonmetal_roughness_093.001"
+      ],
+      "status": "REAL_GLB_AND_4_VIEWS_REVIEW_NEEDED"
+    },
+    {
+      "variant": "voxel_55k",
+      "goal": 55000,
+      "voxel_size_units": 0.027387038707733156,
+      "operation": "physical voxel topology consolidation + 3 smooth passes before decimation",
+      "after_topology_repair": {
+        "triangles": 43240,
+        "vertices": 21622,
+        "dimensions": [
+          1.502809,
+          1.940502,
+          1.878072
+        ]
+      },
+      "before_export": {
+        "triangles": 43240,
+        "vertices": 21622,
+        "dimensions": [
+          1.502809,
+          1.940502,
+          1.878072
+        ]
+      },
+      "file_bytes": 779732,
+      "sha256": "5fc2eb81f4896a5c1ca9583ac555755029a65a133d4f83dbffe6bd73c627c931",
+      "roundtrip_tris": 43240,
+      "roundtrip_meshes": 1,
+      "roundtrip_materials": [
+        "run100_cream_nonmetal_roughness_093.002"
+      ],
+      "status": "REAL_GLB_AND_4_VIEWS_REVIEW_NEEDED"
+    }
+  ]
+}

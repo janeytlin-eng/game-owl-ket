@@ -1,0 +1,33 @@
+Client.predict() Usage Info
+---------------------------
+Named API endpoints: 4
+
+ - predict(input_image, api_name="/check_input_image") -> 
+    Parameters:
+     - [Image] input_image: dict(path: str | None (Path to a local file), url: str | None (Publicly available url or base64 encoded image), size: int | None (Size of image in bytes), orig_name: str | None (Original filename), mime_type: str | None (mime type of image), is_stream: bool (Can always be set to False), meta: dict(str, Any)) (required)  (For input, either path or url must be provided. For output, path is always provided.) 
+    Returns:
+     - None
+
+ - predict(input_image, do_remove_background, api_name="/preprocess") -> processed_image
+    Parameters:
+     - [Image] input_image: dict(path: str | None (Path to a local file), url: str | None (Publicly available url or base64 encoded image), size: int | None (Size of image in bytes), orig_name: str | None (Original filename), mime_type: str | None (mime type of image), is_stream: bool (Can always be set to False), meta: dict(str, Any)) (required)  (For input, either path or url must be provided. For output, path is always provided.) 
+     - [Checkbox] do_remove_background: bool (not required, defaults to:   True)  
+    Returns:
+     - [Image] processed_image: dict(path: str | None (Path to a local file), url: str | None (Publicly available url or base64 encoded image), size: int | None (Size of image in bytes), orig_name: str | None (Original filename), mime_type: str | None (mime type of image), is_stream: bool (Can always be set to False), meta: dict(str, Any)) 
+
+ - predict(input_image, sample_steps, sample_seed, api_name="/generate_mvs") -> generated_multiviews
+    Parameters:
+     - [Image] input_image: dict(path: str | None (Path to a local file), url: str | None (Publicly available url or base64 encoded image), size: int | None (Size of image in bytes), orig_name: str | None (Original filename), mime_type: str | None (mime type of image), is_stream: bool (Can always be set to False), meta: dict(str, Any)) (required)  (For input, either path or url must be provided. For output, path is always provided.) 
+     - [Slider] sample_steps: float (not required, defaults to:   75)  
+     - [Number] sample_seed: int (not required, defaults to:   42)  
+    Returns:
+     - [Image] generated_multiviews: dict(path: str | None (Path to a local file), url: str | None (Publicly available url or base64 encoded image), size: int | None (Size of image in bytes), orig_name: str | None (Original filename), mime_type: str | None (mime type of image), is_stream: bool (Can always be set to False), meta: dict(str, Any)) 
+
+ - predict(api_name="/make3d") -> (output_model_obj_format, output_model_glb_format)
+    Parameters:
+     - None
+    Returns:
+     - [Model3d] output_model_obj_format: filepath 
+     - [Model3d] output_model_glb_format: filepath 
+
+RUN116C_AUDIT {"run": "116C", "probe": "InstantMesh official actual multi-view→mesh ZeroGPU", "source_repo": "janeytlin-eng/game-owl-ket", "input_path": "owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png", "provider": "https://huggingface.co/spaces/TencentARC/InstantMesh", "provider_license_claim": "Apache-2.0 (code/weights); result distribution separately unverified", "auth_token_used": false, "paid_charge_authorized": false, "free_public_guest": true, "created_utc": "2026-11-16T18:42:47.973971+00:00", "desired_stage": "generate real multiview images and true GLB", "stage": "true GLB validated; native Blender still required", "output": "TRUE_GLTF_GLb_UNAPPROVED", "art_gate": "ART_REJECTED", "mobile_physical_gpu_test": false, "previous_main_blocker": "Hunyuan neural mesh backside scales and elongated rear", "input_sha256": "5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9", "input_dimensions": [512, 512], "input_mode": "RGB", "named_endpoints": ["/check_input_image", "/generate_mvs", "/make3d", "/preprocess"], "preprocess_seconds": 12.629, "multi_view_seconds": 9.398, "live_api_returns": "single preview image; six-view latent stored in session gr.State", "mesh_reconstruction_seconds": 7.783, "actual_glb_sha256": "301eac019c88d51122403450bdd03b5a228d9dcbbfd3484532918438a2863344", "actual_glb_bytes": 1609676}

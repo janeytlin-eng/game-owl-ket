@@ -1,0 +1,73 @@
+{
+  "same_binary_model": true,
+  "software_browser_only": true,
+  "no_art_approval": true,
+  "comparisons": {
+    "desktop_1280x720": {
+      "before": {
+        "image": "desktop_1280x720_native_animated_glb.png",
+        "size": [
+          1280,
+          720
+        ],
+        "subject_pixels": 68743,
+        "near_white_pct": 0.372,
+        "mean_subject_rgb": [
+          213.65,
+          206.0,
+          188.82
+        ],
+        "sha256": "389d32a378ab8a34494f65ec000cf2feab1de693a0bdec8fd031c8a9957b718e"
+      },
+      "after": {
+        "image": "desktop_1280x720_native_animated_glb.png",
+        "size": [
+          1280,
+          720
+        ],
+        "subject_pixels": 41072,
+        "near_white_pct": 0.623,
+        "mean_subject_rgb": [
+          161.73,
+          148.77,
+          131.22
+        ],
+        "sha256": "ce7d40cc4f83c59342fc74d0f1a30d9be013903e41025a01e2d118be89e91c07"
+      },
+      "near_white_percent_point_delta": 0.251
+    },
+    "simulated_phone_390x844": {
+      "before": {
+        "image": "simulated_phone_390x844_native_animated_glb.png",
+        "size": [
+          780,
+          1688
+        ],
+        "subject_pixels": 153180,
+        "near_white_pct": 0.977,
+        "mean_subject_rgb": [
+          212.01,
+          204.56,
+          187.9
+        ],
+        "sha256": "545282a644c2650a7b0aae9b208fef82df416b0a9682549c4f4ff1658b329541"
+      },
+      "after": {
+        "image": "simulated_phone_390x844_native_animated_glb.png",
+        "size": [
+          780,
+          1688
+        ],
+        "subject_pixels": 89677,
+        "near_white_pct": 1.669,
+        "mean_subject_rgb": [
+          162.08,
+          149.38,
+          132.18
+        ],
+        "sha256": "abc2dec16956f19193f917f353921639d3d47974bd0d024b0ba5bec7b078177d"
+      },
+      "near_white_percent_point_delta": 0.692
+    }
+  }
+}

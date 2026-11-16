@@ -1,0 +1,74 @@
+{
+  "source": "GitHub Actions Chromium software SwiftShader",
+  "physical_phone_gpu_test": false,
+  "actual_touch_test": false,
+  "art_gate": "UNAPPROVED",
+  "cases": [
+    {
+      "name": "desktop_1280x720",
+      "loaded": true,
+      "webglVersion": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "renderer": "WebKit WebGL",
+      "clipCount": 1,
+      "morphValues": [
+        0.0713,
+        0.0192
+      ],
+      "morphAnimationDynamic": true,
+      "morphChangeRange": 0.999,
+      "renderedFrames": 124,
+      "renderingCalls": 1,
+      "initialFraming": {
+        "left": -0.24938488857371807,
+        "right": 0.24938488857371807,
+        "bottom": -0.5670565975756148,
+        "top": 0.5481588195847251,
+        "inFrame": true
+      },
+      "afterOrbitFraming": {
+        "left": -0.29241845878566614,
+        "right": 0.33959684803861256,
+        "bottom": -0.5517681735603056,
+        "top": 0.5672983382955906,
+        "inFrame": true
+      },
+      "orbitCameraChanged": true,
+      "glError": 0,
+      "pageErrors": [],
+      "applicationErrors": []
+    },
+    {
+      "name": "simulated_phone_390x844",
+      "loaded": true,
+      "webglVersion": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "renderer": "WebKit WebGL",
+      "clipCount": 1,
+      "morphValues": [
+        0.1701,
+        0.0719
+      ],
+      "morphAnimationDynamic": true,
+      "morphChangeRange": 0.9931,
+      "renderedFrames": 118,
+      "renderingCalls": 1,
+      "initialFraming": {
+        "left": -0.5792158622218373,
+        "right": 0.5792158622218373,
+        "bottom": -0.34136422732618704,
+        "top": 0.3334302054426451,
+        "inFrame": true
+      },
+      "afterOrbitFraming": {
+        "left": -0.749689658630165,
+        "right": 0.8210015142868082,
+        "bottom": -0.3359476662544293,
+        "top": 0.3571663470994068,
+        "inFrame": true
+      },
+      "orbitCameraChanged": true,
+      "glError": 0,
+      "pageErrors": [],
+      "applicationErrors": []
+    }
+  ]
+}

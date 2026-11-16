@@ -1,0 +1,95 @@
+name: owl172 Run117 free TRELLIS quota-reset real 3D trial ART_REJECTED
+on:
+  push:
+    branches: [research/owl172-run117-free-trellis-quota-retry]
+    paths:
+      - .github/workflows/owl-pet-172-run117-free-trellis-qa.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run117_trellis_session_preprocess.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  one-real-free-trellis-sample-with-failure-evidence:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 42
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run117-free-trellis-quota-retry
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            .github/workflows/owl-pet-172-run117-free-trellis-qa.yml
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run117_trellis_session_preprocess.py
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run103-TRELLIS2-PBR-ART_UNAPPROVED/preprocessed_image.png
+      - name: Install only no-cost client libraries
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 -m venv /tmp/owl172run117
+          /tmp/owl172run117/bin/pip install -q --disable-pip-version-check Pillow gradio_client
+      - name: Real free TRELLIS stateful inference one attempt, never pay or bypass quota
+        shell: bash
+        timeout-minutes: 24
+        run: |
+          set -eo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run117-FREE-TRELLIS-QUOTA-RECHECK-ART_REJECTED"
+          mkdir -p "$OUT"
+          timeout 1200 /tmp/owl172run117/bin/python "$ROOT/tools/run117_trellis_session_preprocess.py" \
+            --mode generate --source "$ROOT/research-evidence-run103-TRELLIS2-PBR-ART_UNAPPROVED/preprocessed_image.png" \
+            --out "$OUT" 2>&1 | tee "$OUT/generate_execution.log" || {
+              echo 'Actual external free route crashed or timed out; no fake model or paid fallback.' > "$OUT/free_route_interrupted.flag"
+            }
+      - name: Blender actual four-view Cycles and roundtrip only if a valid remote GLB exists
+        shell: bash
+        timeout-minutes: 13
+        run: |
+          set -eo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run117-FREE-TRELLIS-QUOTA-RECHECK-ART_REJECTED"
+          if test -s "$OUT/run117_trellis_art_unapproved.glb"; then
+            sudo apt-get update -qq
+            sudo apt-get install -y -qq blender python3-numpy
+            timeout 600 blender -b --python-exit-code 5 --python "$ROOT/tools/run117_trellis_session_preprocess.py" -- \
+               --mode render --model "$OUT/run117_trellis_art_unapproved.glb" --out "$OUT" \
+               2>&1 | tee "$OUT/render_execution.log" || {
+                echo 'Actual Blender failed, ART_REJECTED.' > "$OUT/render_failed.flag"
+               }
+          else
+            echo 'NO NATIVE REAL 3D GLB: genuine Blender render deliberately skipped' > "$OUT/render_skipped.flag"
+          fi
+      - name: Immutable manifest, hard no release, SHA256 verification
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run117-FREE-TRELLIS-QUOTA-RECHECK-ART_REJECTED"
+          mkdir -p "$OUT"
+          printf '%s\n' 'ART_REJECTED by default. No demonstrated four-view anatomy, soft cream down, supported eucalypt lip, true phone GPU nor global license clearance. No publication.' > "$OUT/NO_RELEASE.flag"
+          /tmp/owl172run117/bin/python "$ROOT/tools/run117_trellis_session_preprocess.py" --mode manifest --out "$OUT" \
+            2>&1 | tee "$OUT/manifest_execution.log" || true
+          if test -f "$OUT/SHA256SUMS.txt"; then (cd "$OUT"; sha256sum -c SHA256SUMS.txt | tee checksum_validation.log); fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run117-trellis-live-free-research-only
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run117-FREE-TRELLIS-QUOTA-RECHECK-ART_REJECTED
+          retention-days: 30
+      - name: Archive independently, never modify original owl game or 251-species pipeline
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run117-FREE-TRELLIS-QUOTA-RECHECK-ART_REJECTED
+          git add --sparse "$OUT"
+          git diff --cached --name-only >/tmp/owl172run117scope.txt
+          if grep -v '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run117-' /tmp/owl172run117scope.txt; then
+            echo 'Out-of-scope staged file found'; exit 9
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m 'research(owl172): archive actual free TRELLIS retry, never release unreviewed art'
+            git push origin HEAD:research/owl172-run117-free-trellis-quota-retry
+          fi

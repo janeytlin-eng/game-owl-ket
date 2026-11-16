@@ -1,0 +1,93 @@
+name: owl172 Run114 actual free Hunyuan3D mini Turbo geometry native four-view ART_REJECTED
+on:
+  push:
+    branches: [research/owl172-run114-mini-turbo-cream-native]
+    paths:
+      - .github/workflows/owl-pet-172-run114-mini-turbo-native-real-3d.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run114_mini_turbo_real_mesh.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  actual-zero-charge-3d-mesh-or-traceable-rejection:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run114-mini-turbo-cream-native
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/design/concepts/172-tyto-castanops-v3.png
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run103-TRELLIS2-PBR-ART_UNAPPROVED/preprocessed_image.png
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run114_mini_turbo_real_mesh.py
+            .github/workflows/owl-pet-172-run114-mini-turbo-native-real-3d.yml
+      - name: Install no-charge client, no model API key
+        run: |
+          set -euo pipefail
+          python3 -m venv /tmp/owl172run114
+          /tmp/owl172run114/bin/pip install -q Pillow gradio_client
+      - name: Real one-shot free ZeroGPU mini Turbo neural image to shape
+        timeout-minutes: 22
+        shell: bash
+        run: |
+          set -eo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run114-MINI-TURBO-TRUE-MESH-ART_REJECTED"
+          mkdir -p "$OUT"
+          timeout 1160 /tmp/owl172run114/bin/python "$ROOT/tools/run114_mini_turbo_real_mesh.py" \
+            --mode generate \
+            --source "$ROOT/research-evidence-run103-TRELLIS2-PBR-ART_UNAPPROVED/preprocessed_image.png" \
+            --concept owl-pet/design/concepts/172-tyto-castanops-v3.png \
+            --out "$OUT" 2>&1 | tee "$OUT/run114_generator.log" || {
+              printf '%s\n' 'Generation script crashed or timed out; no claim of a 3D model.' > "$OUT/generator_crashed.flag"
+            }
+      - name: Native Blender true 3D import and four directional Cycles renders
+        timeout-minutes: 14
+        shell: bash
+        run: |
+          set -eo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run114-MINI-TURBO-TRUE-MESH-ART_REJECTED"
+          if test -s "$OUT/run114_true_3d_geometry_UNAPPROVED.glb"; then
+            sudo apt-get update -qq
+            sudo apt-get install -y -qq blender python3-numpy
+            blender -b --python-exit-code 4 --python "$ROOT/tools/run114_mini_turbo_real_mesh.py" -- \
+              --mode render --model "$OUT/run114_true_3d_geometry_UNAPPROVED.glb" \
+              --out "$OUT" 2>&1 | tee "$OUT/run114_blender.log" || {
+                printf '%s\n' 'Actual imported native 3D renderer failed: DO NOT RELEASE' > "$OUT/renderer_failed.flag"
+              }
+          else
+            echo 'No GLB; not rendering a fake rotation or procedural substitute.'
+          fi
+      - name: Immutable research evidence and checksum audit
+        if: always()
+        run: |
+          set -euo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run114-MINI-TURBO-TRUE-MESH-ART_REJECTED"
+          mkdir -p "$OUT"
+          /tmp/owl172run114/bin/python "$ROOT/tools/run114_mini_turbo_real_mesh.py" --mode manifest --out "$OUT"
+          (cd "$OUT"; sha256sum -c SHA256SUMS.txt | tee sha_check.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run114-actual-mini-turbo-geometry-ART_REJECTED
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114-MINI-TURBO-TRUE-MESH-ART_REJECTED
+          retention-days: 30
+      - name: Archive ONLY independent run114 research evidence, never production
+        if: always()
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114-MINI-TURBO-TRUE-MESH-ART_REJECTED
+          git add --sparse "$OUT"
+          git diff --cached --name-only > /tmp/changed_run114.txt
+          if grep -v '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114-' /tmp/changed_run114.txt; then
+            echo 'Forbidden non-isolated file detected'; exit 8
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m "research(owl172): archive Run114 actual ZeroGPU mini Turbo result and native-art gate"
+            git push origin HEAD:research/owl172-run114-mini-turbo-cream-native
+          fi

@@ -1,0 +1,89 @@
+name: owl172 Run105 foreground-isolated real Hunyuan3D ZeroGPU study (ART UNAPPROVED)
+on:
+  push:
+    branches: [research/owl172-run105-foreground-hunyuan-reconstruction]
+    paths:
+      - .github/workflows/owl-pet-172-run105-foreground-hunyuan-probe.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run105_foreground_hunyuan_probe.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  zero-dollar-real-3d-probe:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 32
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run105-foreground-hunyuan-reconstruction
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run103-TRELLIS2-PBR-ART_UNAPPROVED/preprocessed_image.png
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run105_foreground_hunyuan_probe.py
+            .github/workflows/owl-pet-172-run105-foreground-hunyuan-probe.yml
+      - name: Install free Gradio client in disposable virtualenv
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 -m venv /tmp/owl172-run105-venv
+          /tmp/owl172-run105-venv/bin/pip install --quiet --disable-pip-version-check Pillow gradio_client
+      - name: Make a real free ZeroGPU image-to-3D request; record blocked state instead of paying
+        shell: bash
+        timeout-minutes: 20
+        run: |
+          set -eo pipefail
+          DEST="owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run105-FOREGROUND-HUNYUAN-ART_UNAPPROVED"
+          mkdir -p "$DEST"
+          SCRIPT="owl-pet/3d-experiments/172-tyto-castanops/tools/run105_foreground_hunyuan_probe.py"
+          timeout 1020 /tmp/owl172-run105-venv/bin/python "$SCRIPT" --mode generate \
+            --source "owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run103-TRELLIS2-PBR-ART_UNAPPROVED/preprocessed_image.png" --out "$DEST" \
+            2>&1 | tee "$DEST/free_space_execution.log" || {
+               CODE=$?
+               echo "Free public source terminated or timed out, exit=$CODE; NO CHARGED FALLBACK" | tee "$DEST/timeout_or_crash.txt"
+               printf '%s\n' '{"outcome":"FREE_ROUTE_TIMED_OUT_OR_CRASHED","gate":"ART_UNAPPROVED","paid_fallback":false}' > "$DEST/run105_emergency_status.json"
+            }
+      - name: Physically re-import and render 4 views if free true GLB exists
+        shell: bash
+        run: |
+          set -eo pipefail
+          DEST="owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run105-FOREGROUND-HUNYUAN-ART_UNAPPROVED"
+          SCRIPT="owl-pet/3d-experiments/172-tyto-castanops/tools/run105_foreground_hunyuan_probe.py"
+          if test -s "$DEST/run105_neural_source_ART_UNAPPROVED.glb"; then
+            sudo apt-get update -qq
+            sudo apt-get install -y -qq blender python3-numpy
+            blender -b --python-exit-code 5 --python "$SCRIPT" -- --mode render \
+              --model "$DEST/run105_neural_source_ART_UNAPPROVED.glb" --out "$DEST" \
+              2>&1 | tee "$DEST/native_blender_cycles_execution.log" || {
+                 echo "Blender render/reimport failed; no model approved" > "$DEST/render_failed.txt"
+              }
+          else
+            echo "No real GLB from free public endpoint; skip render. No false-positive model."
+          fi
+      - name: Audit files, create contact for independent image inspection, integrity and rejection manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          DEST="owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run105-FOREGROUND-HUNYUAN-ART_UNAPPROVED"
+          /tmp/owl172-run105-venv/bin/python "owl-pet/3d-experiments/172-tyto-castanops/tools/run105_foreground_hunyuan_probe.py" \
+            --mode manifest --out "$DEST" | tee "$DEST/manifest_output.log"
+          cd "$DEST"
+          sha256sum -c SHA256SUMS.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run105-zero-dollar-neural-ART_UNAPPROVED
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run105-FOREGROUND-HUNYUAN-ART_UNAPPROVED/
+          retention-days: 30
+      - name: Push only isolated research evidence to its existing branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          DEST="owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run105-FOREGROUND-HUNYUAN-ART_UNAPPROVED"
+          git add --sparse "$DEST"
+          git diff --cached --name-only > /tmp/run105-staged.txt
+          if grep -v '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run105-' /tmp/run105-staged.txt; then
+             echo 'Unpermitted path in staged evidence' && exit 1
+          fi
+          git commit -m "research(owl172): archive actual free public neural 3D trial and art-nonrelease evidence"
+          git push origin HEAD:research/owl172-run105-foreground-hunyuan-reconstruction

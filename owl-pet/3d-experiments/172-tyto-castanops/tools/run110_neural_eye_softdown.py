@@ -69,7 +69,7 @@ for sign in (-1,1):
     x=center.x + sign*dims.x*0.105
     z=lo.z+dims.z*0.683
     origin=Vector((x,lo.y-size*0.55,z))
-    hit,location,normal,face_idx,hit_obj,mat=bpy.context.scene.ray_cast(bpy.context.view_layer,origin,Vector((0,1,0)),distance=size*4)
+    hit,location,normal,face_idx,hit_obj,mat=bpy.context.scene.ray_cast(bpy.context.evaluated_depsgraph_get(),origin,Vector((0,1,0)),distance=size*4)
     eye_info.append({"side":sign,"hit":bool(hit),"ray":[x,z],"surface":list(location) if hit else None})
     if not hit or hit_obj!=obj: continue
     radius=size*0.055

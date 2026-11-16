@@ -27,7 +27,7 @@ jobs:
       - name: Install free native modeling and image tools
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y -qq blender python3-pil
+          sudo apt-get install -y -qq blender python3-pil python3-numpy
       - name: Generate actual 3D GLB, re-import, render four native views
         id: sculpt
         continue-on-error: true

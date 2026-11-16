@@ -1,0 +1,115 @@
+name: owl172 Run101 genuine mesh eye-disc recess and face-color research-only QA
+on:
+  push:
+    branches: [research/owl172-run101-face-eye-paint-ablation]
+    paths:
+      - .github/workflows/owl-pet-172-run101-eye-mesh-ablation.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run101_real_neural_eye_surface_ablation.py
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run101_blender_native_multiview.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  real-neural-mesh-and-blender-art-review-evidence:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run101-face-eye-paint-ablation
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run100-REAL-NEURAL-TOPOLOGY-ART_UNAPPROVED/run100_smooth_80k_ART_UNAPPROVED.glb
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run99-HUNYUAN-ZEROGPU-ART_UNAPPROVED/rightmost_mesoptile_input.jpg
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run101_real_neural_eye_surface_ablation.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run101_blender_native_multiview.py
+            .github/workflows/owl-pet-172-run101-eye-mesh-ablation.yml
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install free offline Python mesh tools and native Blender
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install 'numpy<3' 'trimesh>=4.0,<5' pillow
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq blender
+          blender --version | head -1
+      - name: Edit actual 80k neural mesh eye socket surface; real GLB exports and roundtrips
+        shell: bash
+        run: |
+          set -euo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run101-REAL-EYE-SCULPT-ART_UNAPPROVED"
+          mkdir -p "$OUT"
+          python "$ROOT/tools/run101_real_neural_eye_surface_ablation.py" \
+            "$ROOT/research-evidence-run100-REAL-NEURAL-TOPOLOGY-ART_UNAPPROVED/run100_smooth_80k_ART_UNAPPROVED.glb" \
+            "$ROOT/research-evidence-run99-HUNYUAN-ZEROGPU-ART_UNAPPROVED/rightmost_mesoptile_input.jpg" \
+            "$OUT" | tee "$OUT/native_geometry_execution.log"
+      - name: Native Blender physical camera multiview of both true 3D GLBs
+        shell: bash
+        run: |
+          set -euo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run101-REAL-EYE-SCULPT-ART_UNAPPROVED"
+          for v in A B; do
+            if [ "$v" = A ]; then
+              IN="$OUT/run101A_native_eye_recess_color_ART_UNAPPROVED.glb"
+            else
+              IN="$OUT/run101B_orig_face_project_ART_UNAPPROVED.glb"
+            fi
+            mkdir -p "$OUT/view_$v"
+            blender -b --python-exit-code 7 \
+              --python "$ROOT/tools/run101_blender_native_multiview.py" \
+              -- "$IN" "$OUT/view_$v" 2>&1 | tee "$OUT/view_$v/blender_run.log"
+          done
+      - name: Build contacts from eight genuine Cycles angles with no synthetic 2D proxy
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from PIL import Image,ImageDraw
+          import pathlib
+          p=pathlib.Path("owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run101-REAL-EYE-SCULPT-ART_UNAPPROVED")
+          for variant in "AB":
+              sheet=Image.new("RGB",(896,896),(43,43,43))
+              draw=ImageDraw.Draw(sheet)
+              for i,angle in enumerate(("front","quarter","side","back")):
+                  f=p/("view_"+variant)/(angle+"_native_cycles.png")
+                  if not f.is_file():raise FileNotFoundError(f)
+                  im=Image.open(f).convert("RGB")
+                  if im.size!=(448,448):raise ValueError(str(im.size))
+                  sheet.paste(im,((i%2)*448,(i//2)*448))
+                  draw.text(((i%2)*448+9,(i//2)*448+9),angle,fill=(255,255,255))
+              sheet.save(p/("run101"+variant+"_native_four_real_views_ART_UNAPPROVED.jpg"),quality=86)
+          PY
+      - name: Hash every recorded 3D and render artifact and explicitly keep unapproved
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run101-REAL-EYE-SCULPT-ART_UNAPPROVED
+          (
+           cd "$OUT"
+           find . -type f -not -name SHA256SUMS.txt -not -name checksum_validation.log -print0 | sort -z | xargs -0 sha256sum > SHA256SUMS.txt
+           sha256sum -c SHA256SUMS.txt > checksum_validation.log
+           echo "RUN101_EVIDENCE_CHECKSUMS_OK $(wc -l < SHA256SUMS.txt)"
+          )
+      - uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run101-real-neural-eye-face-ART_UNAPPROVED
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run101-REAL-EYE-SCULPT-ART_UNAPPROVED/
+          retention-days: 30
+      - name: Commit ONLY quarantined #172 3D evidence; no main/species/live changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run101-REAL-EYE-SCULPT-ART_UNAPPROVED
+          git add --sparse "$OUT"
+          git diff --cached --name-only > /tmp/run101_staged.txt
+          if grep -v '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run101-' /tmp/run101_staged.txt; then
+            echo 'Unsafe staged path'; exit 2
+          fi
+          git commit -m "research(owl172): quarantine two real eye-surface GLBs and Blender visual evidence"
+          git push origin HEAD:research/owl172-run101-face-eye-paint-ablation

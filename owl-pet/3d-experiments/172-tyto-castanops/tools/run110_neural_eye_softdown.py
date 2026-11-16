@@ -41,6 +41,17 @@ bpy.ops.object.modifier_apply(modifier=mod.name)
 mod=obj.modifiers.new("taubin_like_soft_relief_smooth","SMOOTH")
 mod.factor=0.43;mod.iterations=5
 bpy.ops.object.modifier_apply(modifier=mod.name)
+# Explicitly rebuild a clean real polygon mesh. Neural source's glTF custom attributes
+# become stale after decimation: Blender 4 exporter otherwise silently drops all base faces.
+# This copies ALL actual edited polygon coordinates, never substitutes a primitive.
+raw=obj.data
+new=bpy.data.meshes.new("clean_reconstructed_existing_neural_topology")
+new.from_pydata([tuple(v.co) for v in raw.vertices],[],
+                [tuple(poly.vertices) for poly in raw.polygons])
+new.update()
+assert len(new.polygons)>50000
+obj.data=new
+if raw.users==0:bpy.data.meshes.remove(raw)
 for p in obj.data.polygons:p.use_smooth=True
 
 def material(name,color,roughness=0.89,alpha=1.0):

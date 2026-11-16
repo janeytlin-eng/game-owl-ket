@@ -1,0 +1,108 @@
+name: owl172 Run102 true neural-mesh morph animation and software WebGL research QA
+on:
+  push:
+    branches: [research/owl172-run102-neural-morph-pet-animation-webgl]
+    paths:
+      - .github/workflows/owl-pet-172-run102-neural-morph-webgl.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run102_real_juvenile_morph.py
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run102_viewer_qa.html
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run102_viewer.mjs
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run102_webgl_motion_qa.mjs
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  real-mesh-animation-research-only:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run102-neural-morph-pet-animation-webgl
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run100-REAL-NEURAL-TOPOLOGY-ART_UNAPPROVED/run100_smooth_80k_ART_UNAPPROVED.glb
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run102_real_juvenile_morph.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run102_viewer_qa.html
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run102_viewer.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run102_webgl_motion_qa.mjs
+            .github/workflows/owl-pet-172-run102-neural-morph-webgl.yml
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install free Blender with glTF and local dependencies
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq blender python3-numpy
+          blender --version | head -1
+          node --version
+      - name: Actual 3D mesh morph, GLB shape-key animation roundtrip, four native Cycles views
+        shell: bash
+        run: |
+          set -euo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run102-REAL-NEURAL-MORPH-ART_UNAPPROVED"
+          mkdir -p "$OUT"
+          blender -b --python-exit-code 8 \
+            --python "$ROOT/tools/run102_real_juvenile_morph.py" \
+            -- "$ROOT/research-evidence-run100-REAL-NEURAL-TOPOLOGY-ART_UNAPPROVED/run100_smooth_80k_ART_UNAPPROVED.glb" "$OUT" \
+            2>&1 | tee "$OUT/blender_real_morph_animation.log"
+      - name: Live software WebGL2 motion and framing QA (NOT a physical smartphone)
+        shell: bash
+        run: |
+          set -euo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$GITHUB_WORKSPACE/$ROOT/research-evidence-run102-REAL-NEURAL-MORPH-ART_UNAPPROVED"
+          WEBROOT="$RUNNER_TEMP/owl172_run102_browser"
+          mkdir -p "$WEBROOT" "$OUT/browser"
+          cp "$ROOT/tools/run102_viewer_qa.html" "$WEBROOT/index.html"
+          cp "$ROOT/tools/run102_viewer.mjs" "$WEBROOT/run102_viewer.mjs"
+          cp "$ROOT/tools/run102_webgl_motion_qa.mjs" "$WEBROOT/qa.mjs"
+          cp "$OUT/run102_real_neural_morph_loop_ART_UNAPPROVED.glb" "$WEBROOT/candidate.glb"
+          cd "$WEBROOT"
+          npm init -y >/dev/null
+          npm install --no-fund --no-audit playwright@1.52.0 three@0.174.0
+          npx playwright install --with-deps chromium
+          python3 -m http.server 4173 --bind 127.0.0.1 > "$OUT/browser/http_server.log" 2>&1 &
+          SERVER_PID=$!
+          trap 'kill "$SERVER_PID" 2>/dev/null || true' EXIT
+          sleep 2
+          node "$WEBROOT/qa.mjs" "$OUT/browser" 2>&1 | tee "$OUT/browser/browser_execution.log"
+      - name: Hash evidence, assert exact no-release record
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run102-REAL-NEURAL-MORPH-ART_UNAPPROVED
+          mkdir -p "$OUT"
+          echo 'ART_UNAPPROVED: real animation probe only; not suitable for release; no actual phone GPU approval' > "$OUT/NO_RELEASE.flag"
+          (
+            cd "$OUT"
+            find . -type f -not -name SHA256SUMS.txt -not -name checksum_validation.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt
+            sha256sum -c SHA256SUMS.txt > checksum_validation.log
+            echo "RUN102_EVIDENCE_CHECKSUMS_OK $(wc -l < SHA256SUMS.txt)"
+          )
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run102-true-neural-morph-mobile-ART_UNAPPROVED
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run102-REAL-NEURAL-MORPH-ART_UNAPPROVED/
+          retention-days: 30
+      - name: Quarantine only this #172 research artifact and verify safe paths
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run102-REAL-NEURAL-MORPH-ART_UNAPPROVED
+          git add --sparse "$OUT"
+          git diff --cached --name-only > /tmp/only_run102_staged.txt
+          if grep -v '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run102-' /tmp/only_run102_staged.txt; then
+            echo "Unsafe path detected"; exit 2
+          fi
+          git diff --cached --quiet && exit 0
+          git commit -m "research(owl172): quarantine animated neural mesh + WebGL QA, UNAPPROVED"
+          git push origin HEAD:research/owl172-run102-neural-morph-pet-animation-webgl

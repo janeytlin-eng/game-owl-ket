@@ -55,6 +55,17 @@ def copy_as(value, dest, required_suffix=""):
         raise RuntimeError("Returned file is missing/tiny: "+str(dest))
     return dest
 
+def image_as_png(value,dest):
+    from PIL import Image
+    src=get_path(value)
+    if not src:
+        raise RuntimeError("No returned accessible image for "+str(dest)+": "+str(value)[:600])
+    with Image.open(src) as im:
+        im.convert("RGBA").save(dest,format="PNG")
+    if dest.stat().st_size<5000:
+        raise RuntimeError("Provider returned a tiny or blank image: "+str(dest))
+    return dest
+
 def main(source,out):
     out=Path(out);out.mkdir(parents=True,exist_ok=True)
     status=dict(run="116",probe="InstantMesh official actual multi-view→mesh ZeroGPU",
@@ -106,7 +117,7 @@ def main(source,out):
         status["stage"]="provider preprocess request"
         before=time.monotonic()
         prep=client.predict(handle_file(str(copy)),True,api_name="/preprocess")
-        copy_as(prep,out/"run116_preprocessed_actual.png",required_suffix=".png")
+        image_as_png(prep,out/"run116_preprocessed_actual.png")
         status["preprocess_seconds"]=round(time.monotonic()-before,3)
         status["stage"]="real multi-view diffusion inference"
         before=time.monotonic()
@@ -114,9 +125,9 @@ def main(source,out):
         status["multi_view_seconds"]=round(time.monotonic()-before,3)
         if not isinstance(mvs,(tuple,list)) or len(mvs)<1:
             raise RuntimeError("Multiview returned unrecognized shape: "+str(mvs)[:1000])
-        copy_as(mvs[0],out/"run116_multi_view_actual.png",required_suffix=".png")
+        image_as_png(mvs[0],out/"run116_multi_view_actual.png")
         if len(mvs)>1:
-            copy_as(mvs[1],out/"run116_multi_view_grid_actual.png",required_suffix=".png")
+            image_as_png(mvs[1],out/"run116_multi_view_grid_actual.png")
         status["stage"]="actual sparse-view reconstruction to polygon mesh"
         before=time.monotonic()
         recon=client.predict(handle_file(str(out/"run116_multi_view_actual.png")),api_name="/make3d")

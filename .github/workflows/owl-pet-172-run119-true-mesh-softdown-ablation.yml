@@ -1,0 +1,91 @@
+name: owl172 Run119 actual TRELLIS neural polygon sculpt native 3D down four view rejection audit
+on:
+  push:
+    branches: [research/owl172-run119-native-envelope-softdown-ablation]
+    paths:
+      - .github/workflows/owl-pet-172-run119-true-mesh-softdown-ablation.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run119_native_envelope_fibers.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  render-real-mesh-no-art-approval:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run119-native-envelope-softdown-ablation
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run117-FREE-TRELLIS-QUOTA-RECHECK-ART_REJECTED/run117_trellis_art_unapproved.glb
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run119_native_envelope_fibers.py
+            .github/workflows/owl-pet-172-run119-true-mesh-softdown-ablation.yml
+      - name: Install free native Blender and image inspection dependencies
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq blender python3-numpy python3-pil
+      - name: Run actual 3D native source-mesh sculpt and curved-fiber geometry and four Cycles views
+        id: sculpt
+        timeout-minutes: 30
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -eo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run119-NATIVE-ENVELOPE-CURVED-DOWN-ART_REJECTED"
+          SRC="$ROOT/research-evidence-run117-FREE-TRELLIS-QUOTA-RECHECK-ART_REJECTED/run117_trellis_art_unapproved.glb"
+          mkdir -p "$OUT"
+          test "$(sha256sum "$SRC" | cut -d' ' -f1)" = "2893e95965a9c6e6fd3af5779c1ebf3b65a16b6cdaebf7c2f743e047b9fa78de"
+          timeout 1700 blender -b --python-exit-code 4 --python "$ROOT/tools/run119_native_envelope_fibers.py" -- --source "$SRC" --out "$OUT" \
+            2>&1 | tee "$OUT/run119_blender_execution.log"
+          python3 - "$OUT" <<'PY'
+          import sys,pathlib
+          from PIL import Image,ImageDraw
+          out=pathlib.Path(sys.argv[1]); pics=[]
+          for name in ('front','quarter','side','back'):
+              p=out/f'run119_{name}_actual_cycles_ART_UNAPPROVED.png'
+              im=Image.open(p).convert('RGB')
+              pics.append((name,im))
+          sheet=Image.new('RGB',(960,1000),(50,50,50));d=ImageDraw.Draw(sheet)
+          for i,(name,im) in enumerate(pics):
+              x=(i%2)*480;y=(i//2)*500
+              sheet.paste(im,(x,y+20));d.text((x+10,y+4),name,fill=(245,245,245))
+          sheet.save(out/'run119_native_4_view_research_only.jpg',quality=90)
+          PY
+      - name: Explicit no release and file checksums
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run119-NATIVE-ENVELOPE-CURVED-DOWN-ART_REJECTED
+          mkdir -p "$OUT"
+          echo 'NO_RELEASE - ART_REJECTED until independent original-image four-view comparison confirms juvenile heart, cream soft down, compact side/back, shortened wings, supported feet, actual mobile GPU, and worldwide source/model license. Passing Blender is not art approval.' > "$OUT/NO_RELEASE.flag"
+          echo 'Run119 executed; see actual Blender log' > "$OUT/technical_outcome.txt"
+          (cd "$OUT"; find . -type f ! -name SHA256SUMS.txt ! -name sha_checked.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$OUT"; sha256sum -c SHA256SUMS.txt > sha_checked.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run119-independent-native-mesh-not-approved
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run119-NATIVE-ENVELOPE-CURVED-DOWN-ART_REJECTED
+          retention-days: 30
+      - name: Git archive isolated evidence only, never main or species production
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run119-NATIVE-ENVELOPE-CURVED-DOWN-ART_REJECTED
+          git add --sparse "$OUT"
+          git diff --cached --name-only > /tmp/owl172_run119_scope.txt
+          if grep -v '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run119-' /tmp/owl172_run119_scope.txt; then
+            echo 'STOP: out-of-scope modification'; exit 8
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m 'research(owl172): actual Run119 3D envelope/down evidence, keep ART_REJECTED'
+            git push origin HEAD:research/owl172-run119-native-envelope-softdown-ablation
+          fi

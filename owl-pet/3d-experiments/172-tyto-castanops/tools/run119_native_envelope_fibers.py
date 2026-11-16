@@ -179,6 +179,8 @@ assert triangles>original_faces,"Mesh geometry vanished on export"
 for m in reimports:bpy.data.objects.remove(m,do_unlink=True)
 # Native multiview cycles on exactly the exported 3D composition.
 scene=bpy.context.scene;scene.render.engine="CYCLES";scene.cycles.samples=22
+scene.cycles.use_denoising=False
+for _layer in scene.view_layers: _layer.cycles.use_denoising=False
 scene.render.resolution_x=480;scene.render.resolution_y=480
 scene.render.resolution_percentage=100
 scene.render.image_settings.file_format="PNG"

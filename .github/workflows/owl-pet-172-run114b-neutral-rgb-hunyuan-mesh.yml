@@ -1,0 +1,92 @@
+name: owl172 Run114B retry unresolved no-charge Hunyuan RGB-matte actual geometry
+on:
+  push:
+    branches: [research/owl172-run114-mini-turbo-cream-native]
+    paths:
+      - .github/workflows/owl-pet-172-run114b-neutral-rgb-hunyuan-mesh.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  existing-corrected-neutral-matte-experiment:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run114-mini-turbo-cream-native
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run103-TRELLIS2-PBR-ART_UNAPPROVED/preprocessed_image.png
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run105b_neutral_matte_hunyuan_probe.py
+            .github/workflows/owl-pet-172-run114b-neutral-rgb-hunyuan-mesh.yml
+      - name: No-cost public model API client only
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 -m venv /tmp/owl172run114b
+          /tmp/owl172run114b/bin/pip install -q Pillow gradio_client
+      - name: Actual original juvenile cream alpha-matte RGB image to real 3D
+        timeout-minutes: 23
+        shell: bash
+        run: |
+          set -eo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run114B-NEUTRAL-RGB-REAL-HUNYUAN-ART_REJECTED"
+          mkdir -p "$OUT"
+          timeout 1150 /tmp/owl172run114b/bin/python "$ROOT/tools/run105b_neutral_matte_hunyuan_probe.py" \
+            --mode generate \
+            --source "$ROOT/research-evidence-run103-TRELLIS2-PBR-ART_UNAPPROVED/preprocessed_image.png" \
+            --out "$OUT" 2>&1 | tee "$OUT/run114b_generation.log" || {
+              echo 'Actual public route was unavailable/timed out; no model claim' > "$OUT/generation_crashed.flag"
+            }
+      - name: Blender real geometry only, no fake turntable
+        timeout-minutes: 14
+        shell: bash
+        run: |
+          set -eo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run114B-NEUTRAL-RGB-REAL-HUNYUAN-ART_REJECTED"
+          if test -s "$OUT/run105b_neural_source_ART_UNAPPROVED.glb"; then
+            sudo apt-get update -qq
+            sudo apt-get install -y -qq blender python3-numpy
+            blender -b --python-exit-code 4 --python "$ROOT/tools/run105b_neutral_matte_hunyuan_probe.py" -- \
+              --mode render --model "$OUT/run105b_neural_source_ART_UNAPPROVED.glb" --out "$OUT" \
+              2>&1 | tee "$OUT/run114b_blender.log" || {
+                echo 'Actual native Blender render failed; no art clearance' > "$OUT/render_failed.flag"
+              }
+          fi
+      - name: Audit all evidence checksums
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run114B-NEUTRAL-RGB-REAL-HUNYUAN-ART_REJECTED"
+          mkdir -p "$OUT"
+          echo 'ART_REJECTED until true four-angle visual/rights/physical-phone review, no production' > "$OUT/ART_REJECTED.flag"
+          /tmp/owl172run114b/bin/python "$ROOT/tools/run105b_neutral_matte_hunyuan_probe.py" --mode manifest --out "$OUT" | tee "$OUT/manifest.log"
+          (cd "$OUT"; sha256sum -c SHA256SUMS.txt > sha_checked.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run114B-existing-Hunyuan-RGB-matte-unblocked-check-ART_REJECTED
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114B-NEUTRAL-RGB-REAL-HUNYUAN-ART_REJECTED
+          retention-days: 30
+      - name: Commit only quarantined study evidence
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114B-NEUTRAL-RGB-REAL-HUNYUAN-ART_REJECTED
+          git add --sparse "$OUT"
+          git diff --cached --name-only >/tmp/run114b_paths
+          if grep -v '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114B-' /tmp/run114b_paths; then
+            echo 'Out-of-scope path modified'; exit 8
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m "research(owl172): archive actual Run114B no-cost neural RGB-matte test"
+            git push origin HEAD:research/owl172-run114-mini-turbo-cream-native
+          fi

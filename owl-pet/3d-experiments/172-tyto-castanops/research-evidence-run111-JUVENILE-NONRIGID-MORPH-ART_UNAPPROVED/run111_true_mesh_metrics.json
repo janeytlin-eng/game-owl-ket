@@ -1,0 +1,57 @@
+{
+  "source": {
+    "sha256": "604217f513c6e04f8f7d29ba17a418836a33fafe6d6e8fe3b5571b21da09a7c6",
+    "meshes": 8,
+    "triangles": 127262
+  },
+  "blender": "4.0.2",
+  "method": "continuous nonrigid deformation of real neural mesh, all attached face-eye-fiber topology preserved",
+  "research_only": true,
+  "art_status": "ART_UNAPPROVED_REQUIRES_INDEPENDENT_VISUAL_REVIEW",
+  "source_license_global_clearance": false,
+  "real_phone_gpu_tested": false,
+  "variants": [
+    {
+      "variant": "juvenile_compact_20",
+      "width_spread": 0.2,
+      "vertices": 104380,
+      "polygons": 127262,
+      "reimport_meshes": 8,
+      "reimport_polygons": 127262,
+      "bytes": 3508148,
+      "sha256": "3b7b426f8cc1037f24948e9c0945e8b55877bc0ee5f95c55555b56fb9c5a529b",
+      "body_bounds_before": [
+        1.5402226448059082,
+        1.947627067565918,
+        1.8980882167816162
+      ],
+      "body_bounds_after": [
+        1.6767735481262207,
+        1.776759386062622,
+        1.7566807270050049
+      ],
+      "views": 4
+    },
+    {
+      "variant": "juvenile_broadface_34",
+      "width_spread": 0.34,
+      "vertices": 104380,
+      "polygons": 127262,
+      "reimport_meshes": 8,
+      "reimport_polygons": 127262,
+      "bytes": 3508232,
+      "sha256": "c755adfdea0d54e8de5588d72593009162d799ec2a97dec2026cc1efe613a886",
+      "body_bounds_before": [
+        1.5402226448059082,
+        1.947627067565918,
+        1.8980882167816162
+      ],
+      "body_bounds_after": [
+        1.732791781425476,
+        1.776759386062622,
+        1.7566807270050049
+      ],
+      "views": 4
+    }
+  ]
+}

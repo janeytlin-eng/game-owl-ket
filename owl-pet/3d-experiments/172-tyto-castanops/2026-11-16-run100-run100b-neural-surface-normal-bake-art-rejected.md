@@ -31,7 +31,7 @@ To test recovery of high-frequency detail without restoring damaging heavy shell
 ## Independent evidence and explicit remaining blockers
 
 Research branch: \`research/owl172-run100-neural-surface-topology-repair\`. Quarantined output folders:
-- \`research-evidence-run100-REAL-NEURAL-TOPOLOGY-ART_UNAPPROVED/\` — original control, both real GLBs, 12 PNGs, three contact sheets, Blender log, JSON and SHA256 manifest; all 19 listed artifacts verified by GitHub workflow SHA256 check.
+- \`research-evidence-run100-REAL-NEURAL-TOPOLOGY-ART_UNAPPROVED/\` — original control, both real GLBs, 12 PNGs, three contact sheets, Blender log, JSON and SHA256 manifest; all 20 listed artifacts verified by GitHub workflow SHA256 check.
 - \`research-evidence-run100B-NATIVE-NORMAL-BAKE-ART_UNAPPROVED/\` — real baked-normal GLB and PNG, 4 native Cycles views, JPEG contact, Blender log, JSON and 10-file manifest; archive and remote readback verified.
 
 **Quality gates still missing:** (1) open-eyed, natural 3D heart-shaped facial disc and bill, (2) genuine soft layered ivory down rather than an etched/voxel sculpture, (3) short wing buried in plumage and physically credible side/back, (4) supported feet/belly and old eucalyptus hollow lip, (5) a tested interactive rig, (6) real smartphone/WebGL GPU load, touch and frame pacing (only asset byte/triangle sizes and Blender roundtrip were established), (7) reviewed worldwide licensing. The original reference is a single mostly frontal design image; it cannot validate imagined rear anatomy.

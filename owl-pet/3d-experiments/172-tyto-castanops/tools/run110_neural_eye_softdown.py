@@ -195,6 +195,14 @@ for variant in ("eyes_only","eyes_plus_softdown"):
     bpy.ops.object.select_all(action="DESELECT")
     for o in [obj]+objects_added+([groom_obj] if variant=="eyes_plus_softdown" else []):o.select_set(True)
     bpy.context.view_layer.objects.active=obj
+    # Blender 4.0 mesh exporter bug: geometry may remain invalid after from_pydata/modifier
+    # until a genuine edit/object mode rebuild. This is not geometry replacement.
+    bpy.context.view_layer.objects.active=obj
+    bpy.ops.object.mode_set(mode="EDIT")
+    bpy.ops.object.mode_set(mode="OBJECT")
+    obj.data.validate(clean_customdata=True)
+    obj.data.update()
+    assert len(obj.data.loop_triangles)>50000
     bpy.ops.export_scene.gltf(filepath=str(dest),export_format="GLB",use_selection=True,export_materials="EXPORT")
     assert dest.read_bytes()[:4]==b"glTF"
     before=set(bpy.data.objects)

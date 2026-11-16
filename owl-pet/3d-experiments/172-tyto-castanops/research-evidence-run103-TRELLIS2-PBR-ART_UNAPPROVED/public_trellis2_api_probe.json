@@ -1,0 +1,56 @@
+{
+  "endpoints": {
+    "/start_session": {
+      "parameters": [],
+      "return_count": 0
+    },
+    "/preprocess_image": {
+      "parameters": [
+        "Image Prompt"
+      ],
+      "return_count": 1
+    },
+    "/get_seed": {
+      "parameters": [
+        "Randomize Seed",
+        "Seed"
+      ],
+      "return_count": 1
+    },
+    "/lambda": {
+      "parameters": [],
+      "return_count": 0
+    },
+    "/image_to_3d": {
+      "parameters": [
+        "Image Prompt",
+        "Seed",
+        "Resolution",
+        "Guidance Strength",
+        "Guidance Rescale",
+        "Sampling Steps",
+        "Rescale T",
+        "Guidance Strength",
+        "Guidance Rescale",
+        "Sampling Steps",
+        "Rescale T",
+        "Guidance Strength",
+        "Guidance Rescale",
+        "Sampling Steps",
+        "Rescale T"
+      ],
+      "return_count": 1
+    },
+    "/lambda_1": {
+      "parameters": [],
+      "return_count": 0
+    },
+    "/extract_glb": {
+      "parameters": [
+        "Decimation Target",
+        "Texture Size"
+      ],
+      "return_count": 2
+    }
+  }
+}

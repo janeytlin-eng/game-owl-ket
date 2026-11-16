@@ -1,0 +1,35 @@
+{
+  "experiment": "Official Microsoft TRELLIS.2 ZeroGPU texture+geometry image-to-3D",
+  "source": "owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run99-HUNYUAN-ZEROGPU-ART_UNAPPROVED/rightmost_mesoptile_input.jpg",
+  "source_sha256": "16bd50ed15f3fb12b00a98d2dd4214e84f724b6206dd72d8d8c9962fbdab0096",
+  "source_size": [
+    580,
+    804
+  ],
+  "provider": "microsoft/TRELLIS.2",
+  "provider_public_zero_gpu": true,
+  "no_extra_paid_credits": true,
+  "paid_fallback": false,
+  "unapproved": true,
+  "full_pbr_required": true,
+  "physical_phone_gpu_tested": false,
+  "source_plate_license_requires_project_review": true,
+  "started_utc": "2026-11-16T04:41:38Z",
+  "named_endpoints": [
+    "/start_session",
+    "/preprocess_image",
+    "/get_seed",
+    "/lambda",
+    "/image_to_3d",
+    "/lambda_1",
+    "/extract_glb"
+  ],
+  "preprocess": "FAILED_using_source_crop",
+  "preprocess_error": "AppError('You have exceeded your ZeroGPU runs limit. Authenticate with a Hugging Face token for more quota - https://huggingface.co/settings/tokens')",
+  "generate_endpoint": "/image_to_3d",
+  "seed": 172,
+  "resolution": "512",
+  "outcome": "NO_GLB_FREE_ROUTE_BLOCKED_OR_FAILED",
+  "error": "AppError: You have exceeded your ZeroGPU quota (120s requested vs. 0s left). Try again in 0:00:00. Authenticate with a Hugging Face token for more quota - https://huggingface.co/settings/tokens",
+  "finished_utc": "2026-11-16T04:41:39Z"
+}

@@ -1,0 +1,90 @@
+name: owl172 Run116D real InstantMesh mesh desktop-and-phone-sized WebGL2 technical QA
+on:
+  push:
+    branches: [research/owl172-run116-instantmesh-official-zero]
+    paths:
+      - .github/workflows/owl-pet-172-run116d-actual-instantmesh-webgl2-qa.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run116d_actual_instantmesh_webgl_qa.mjs
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  physically-real-mesh-simulated-browser-not-native-mobile:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run116-instantmesh-official-zero
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run116C-OFFICIAL-INSTANTMESH-STATEFUL-ART_REJECTED/run116c_instantmesh_actual_ART_UNAPPROVED.glb
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run111_viewer.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run111_viewer_qa.html
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run116d_actual_instantmesh_webgl_qa.mjs
+            .github/workflows/owl-pet-172-run116d-actual-instantmesh-webgl2-qa.yml
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Load SHA-locked actual free InstantMesh neural GLB in two viewport sizes
+        id: browser
+        timeout-minutes: 18
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -eo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$GITHUB_WORKSPACE/$ROOT/research-evidence-run116D-REAL-INSTANTMESH-BROWSER-ART_REJECTED"
+          SRC="$GITHUB_WORKSPACE/$ROOT/research-evidence-run116C-OFFICIAL-INSTANTMESH-STATEFUL-ART_REJECTED/run116c_instantmesh_actual_ART_UNAPPROVED.glb"
+          WEB="$RUNNER_TEMP/owl172_run116d_webgl"
+          mkdir -p "$OUT" "$WEB"
+          echo '301eac019c88d51122403450bdd03b5a228d9dcbbfd3484532918438a2863344  '"$SRC" | sha256sum -c
+          cp "$SRC" "$WEB/candidate.glb"
+          cp "$ROOT/tools/run111_viewer_qa.html" "$WEB/index.html"
+          sed -i 's/Run111/Run116C REAL InstantMesh/g; s/ART UNAPPROVED/ART REJECTED (research only)/g' "$WEB/index.html"
+          cp "$ROOT/tools/run111_viewer.mjs" "$WEB/run111_viewer.mjs"
+          sed -i 's/real Run111 GLB/real Run116C official InstantMesh GLB/g' "$WEB/run111_viewer.mjs"
+          cp "$ROOT/tools/run116d_actual_instantmesh_webgl_qa.mjs" "$WEB/qa.mjs"
+          cd "$WEB"
+          npm init -y >/dev/null
+          npm install -q --no-fund --no-audit playwright@1.52.0 three@0.174.0
+          npx playwright install --with-deps chromium
+          python3 -m http.server 4173 --bind 127.0.0.1 > "$OUT/server.log" 2>&1 &
+          server_pid=$!
+          trap 'kill "$server_pid" 2>/dev/null || true' EXIT
+          sleep 2
+          node "$WEB/qa.mjs" "$OUT" 2>&1 | tee "$OUT/run116d_browser.log"
+      - name: Retain strict art rejection and checksums
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run116D-REAL-INSTANTMESH-BROWSER-ART_REJECTED
+          mkdir -p "$OUT"
+          echo 'ART_REJECTED: cannot infer juvenile anatomy from GLB import or SwiftShader webgl. Screen simulations do not test physical Android/iOS GPU, mobile touch/heat/battery, natural down or licensing.' > "$OUT/NO_RELEASE.flag"
+          echo 'browser_step=${{ steps.browser.outcome }}' > "$OUT/technical_browser_outcome.txt"
+          (cd "$OUT"; find . -type f ! -name SHA256SUMS.txt ! -name sha_checked.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$OUT"; sha256sum -c SHA256SUMS.txt > sha_checked.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run116D-actual-neural-browser-not-art-approved
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run116D-REAL-INSTANTMESH-BROWSER-ART_REJECTED
+          retention-days: 30
+      - name: Commit isolated browser QA evidence
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run116D-REAL-INSTANTMESH-BROWSER-ART_REJECTED
+          git add --sparse "$OUT"
+          git diff --cached --name-only > /tmp/owl172_run116d_scope.txt
+          if grep -v '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run116D-' /tmp/owl172_run116d_scope.txt; then
+            echo 'STOP: out-of-scope modifications'; exit 8
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m 'research(owl172): archive actual InstantMesh GLB Chromium technical QA, ART_REJECTED'
+            git push origin HEAD:research/owl172-run116-instantmesh-official-zero
+          fi

@@ -1,0 +1,60 @@
+{
+  "source_sha256": "eb95158d8a40fc869caef310a70af7e42f5731061725e2a1754aded0e7a8d683",
+  "source_original_vertices": 348101,
+  "source_original_faces": 696834,
+  "mutated_base_vertices": 52184,
+  "mutated_base_triangles": 104990,
+  "genuine_surface_sampled_tufts": 2500,
+  "feather_card_vertices": 30000,
+  "feather_card_faces": 20000,
+  "physical_eye_socket_raycast": [
+    {
+      "side": -1,
+      "hit": true,
+      "ray": [
+        -0.17478965997695922,
+        0.3255206111669542
+      ],
+      "surface": [
+        -0.1747896671295166,
+        -0.7633049488067627,
+        0.3255206048488617
+      ]
+    },
+    {
+      "side": 1,
+      "hit": true,
+      "ray": [
+        0.1518327522277832,
+        0.3255206111669542
+      ],
+      "surface": [
+        0.15183275938034058,
+        -0.8284235000610352,
+        0.3255206048488617
+      ]
+    }
+  ],
+  "model_variants": [
+    {
+      "name": "run110_eyes_only_ART_UNAPPROVED.glb",
+      "size_bytes": 1964588,
+      "sha256": "7a9c899527b4df0dc676a1084d40685106f1a34ac238bb1efbf1496b12dfe0a0",
+      "native_reimport_meshes": 7,
+      "native_reimport_polygons": 107262
+    },
+    {
+      "name": "run110_eyes_plus_softdown_ART_UNAPPROVED.glb",
+      "size_bytes": 3292496,
+      "sha256": "604217f513c6e04f8f7d29ba17a418836a33fafe6d6e8fe3b5571b21da09a7c6",
+      "native_reimport_meshes": 8,
+      "native_reimport_polygons": 127262
+    }
+  ],
+  "render_views": 8,
+  "tool": "Blender 4.0.2",
+  "artist_gate": "ART_REJECTED_PENDING_REVIEW",
+  "real_mobile_gpu_tested": false,
+  "licenses_cleared": false,
+  "no_extra_payment": true
+}

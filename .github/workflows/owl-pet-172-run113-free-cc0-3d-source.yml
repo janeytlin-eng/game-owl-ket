@@ -48,7 +48,7 @@ jobs:
         run: |
           set -eo pipefail
           sudo apt-get update -qq
-          sudo apt-get install -y -qq blender
+          sudo apt-get install -y -qq blender python3-numpy python3-pil
           ROOT="owl-pet/3d-experiments/172-tyto-castanops"
           OUT="$ROOT/research-evidence-run113-REAL-CC0-ADULT-LOD-ART_REJECTED"
           timeout 1000 blender -b --python-exit-code 42 --python "$ROOT/tools/run113_real_cc0_owl_anatomy_lod.py" -- --source "$RUNNER_TEMP/real_owl_source/owl-light.glb" --out "$OUT" --manifest "$OUT/SOURCE_MANIFEST.json" --license "$OUT/SOURCE_LICENSE.txt" 2>&1 | tee "$OUT/actual_blender_import_decimate_render.log"

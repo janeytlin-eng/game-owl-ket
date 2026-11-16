@@ -191,7 +191,7 @@ def manifest(args):
     for glb in p.glob("*.glb"):
         b=glb.read_bytes()
         print("GLB_INTEGRITY",glb.name,len(b),b[:4],struct.unpack_from("<I",b,8)[0])
-    files=sorted(x for x in p.iterdir() if x.is_file() and x.name!="SHA256SUMS.txt")
+    files=sorted(x for x in p.iterdir() if x.is_file() and x.name not in ("SHA256SUMS.txt","manifest_output.log"))
     (p/"SHA256SUMS.txt").write_text("".join(sha256(x)+"  "+x.name+"\n" for x in files))
     print("RUN99_ARCHIVED",len(files),flush=True)
 
@@ -201,5 +201,5 @@ if __name__=="__main__":
     parser.add_argument("--source",default="")
     parser.add_argument("--out",required=True)
     parser.add_argument("--model",default="")
-    args=parser.parse_args()
+    args=parser.parse_args(sys.argv[sys.argv.index("--")+1:] if "--" in sys.argv else None)
     dict(generate=generate,render=render,manifest=manifest)[args.mode](args)

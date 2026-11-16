@@ -35,7 +35,7 @@ jobs:
           SRC="$ROOT/research-evidence-run110-NEURAL-EYES-SOFTDOWN-ART_UNAPPROVED/run110_eyes_plus_softdown_ART_UNAPPROVED.glb"
           echo "604217f513c6e04f8f7d29ba17a418836a33fafe6d6e8fe3b5571b21da09a7c6  $SRC" | sha256sum -c
           sudo apt-get update -qq
-          sudo apt-get install -y -qq blender python3-pil
+          sudo apt-get install -y -qq blender python3-numpy python3-pil
       - name: Real existing mesh deformation, two exported GLB, re-import and eight Cycles views
         shell: bash
         id: blender

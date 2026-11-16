@@ -1,0 +1,94 @@
+name: owl172 Run116 official InstantMesh real multi-view neural-to-GLB no-charge study
+on:
+  push:
+    branches: [research/owl172-run116-instantmesh-official-zero]
+    paths:
+      - .github/workflows/owl-pet-172-run116-official-instantmesh-zero.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run116_instantmesh_official_zerogpu.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  actual-source-real-neural-geometry-or-record-a-blocker:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 46
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run116-instantmesh-official-zero
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            .github/workflows/owl-pet-172-run116-official-instantmesh-zero.yml
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run116_instantmesh_official_zerogpu.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run114c_neutral_matte_bounded_transport.py
+      - name: Install official public Gradio Python client without billed provider
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 -m venv /tmp/owl172_run116
+          /tmp/owl172_run116/bin/pip install -q --disable-pip-version-check Pillow gradio_client
+      - name: Call real official public InstantMesh image-to-multiview-to-true-GLB exactly once
+        shell: bash
+        timeout-minutes: 29
+        run: |
+          set -eo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run116-OFFICIAL-INSTANTMESH-ZEROGPU-ART_REJECTED"
+          SRC="$ROOT/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png"
+          mkdir -p "$OUT"
+          timeout 1600 /tmp/owl172_run116/bin/python "$ROOT/tools/run116_instantmesh_official_zerogpu.py" --source "$SRC" --out "$OUT" 2>&1 | tee "$OUT/run116_live_provider.log" || {
+            echo 'Attempt ended abnormally or exceeded bounded timeout; no output art approved' > "$OUT/provider_interrupted.flag"
+          }
+      - name: True Blender 4-view native Cycles ONLY after independently valid provider 3D binary
+        shell: bash
+        timeout-minutes: 13
+        run: |
+          set -eo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run116-OFFICIAL-INSTANTMESH-ZEROGPU-ART_REJECTED"
+          GLB="$OUT/run116_instantmesh_actual_ART_UNAPPROVED.glb"
+          if test -s "$GLB" && grep -q TRUE_GLTF_GLb_UNAPPROVED "$OUT/run116_status.json"; then
+            sudo apt-get update -qq
+            sudo apt-get install -y -qq blender python3-numpy python3-pil
+            timeout 660 blender -b --python-exit-code 7 --python "$ROOT/tools/run114c_neutral_matte_bounded_transport.py" -- \
+              --mode render --model "$GLB" --out "$OUT" 2>&1 | tee "$OUT/run116_actual_blender.log" || {
+                echo 'Actual model exists but Blender four-view processing failed' > "$OUT/native_blender_failed.flag"
+              }
+            /tmp/owl172_run116/bin/python "$ROOT/tools/run114c_neutral_matte_bounded_transport.py" --mode manifest --out "$OUT" > "$OUT/run116_contact_manifest.log" || true
+          else
+            echo 'NO REAL PROVIDER GLB; skipping Blender entirely. No mock assets.' | tee "$OUT/render_skipped.log"
+          fi
+      - name: Record QA gate and SHA256 evidence integrity even if no free quota
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run116-OFFICIAL-INSTANTMESH-ZEROGPU-ART_REJECTED
+          mkdir -p "$OUT"
+          echo 'ART_REJECTED: exact #172 v3 rightmost chick art gate not established. Desktop WebGL and native mobile GPU untested. No licensing sign-off, no production release.' > "$OUT/NO_RELEASE.flag"
+          (cd "$OUT"; find . -type f ! -name SHA256SUMS.txt ! -name sha_checked.log ! -name run116_contact_manifest.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$OUT"; sha256sum -c SHA256SUMS.txt | tee sha_checked.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run116-new-actual-InstantMesh-ZeroGPU-ART_REJECTED
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run116-OFFICIAL-INSTANTMESH-ZEROGPU-ART_REJECTED
+          retention-days: 30
+      - name: Independently archive evidence strictly under Run116 only
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run116-OFFICIAL-INSTANTMESH-ZEROGPU-ART_REJECTED
+          git add --sparse "$OUT"
+          git diff --cached --name-only > /tmp/owl172_run116_scope.txt
+          if grep -v '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run116-' /tmp/owl172_run116_scope.txt; then
+            echo 'STOP: outside #172 isolated evidence scope'; exit 8
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m 'research(owl172): archive actual official free InstantMesh neural trial, no art release'
+            git push origin HEAD:research/owl172-run116-instantmesh-official-zero
+          fi

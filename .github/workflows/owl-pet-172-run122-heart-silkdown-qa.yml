@@ -1,0 +1,125 @@
+name: owl172 Run122 real silkdown anatomy sculpt and reimport Cycles QA
+on:
+  push:
+    branches: [research/owl172-run122-heart-integrated-silkdown-sculpt-gate]
+    paths:
+      - .github/workflows/owl-pet-172-run122-heart-silkdown-qa.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run122_silkdown_anatomical_mesh_trial.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  run122-actual-mesh-views-and-webgl:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 48
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run122-heart-integrated-silkdown-sculpt-gate
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            .github/workflows/owl-pet-172-run122-heart-silkdown-qa.yml
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run122_silkdown_anatomical_mesh_trial.py
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run121-ORGANIC-JUVENILE-SCULPT-NO_RELEASE/run121_native_continuous_juvenile_organic_sculpt_ART_UNAPPROVED.glb
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run111_viewer.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run111_viewer_qa.html
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run118_real_trellis_webgl_qa.mjs
+      - name: Install free native modeling and image tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq blender python3-pil
+      - name: Generate actual 3D GLB, re-import, render four native views
+        id: sculpt
+        continue-on-error: true
+        timeout-minutes: 29
+        shell: bash
+        run: |
+          set -o pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          SRC="$ROOT/research-evidence-run121-ORGANIC-JUVENILE-SCULPT-NO_RELEASE/run121_native_continuous_juvenile_organic_sculpt_ART_UNAPPROVED.glb"
+          OUT="$ROOT/research-evidence-run122-SILKDOWN-CONTINUOUS-SCULPT-NO_RELEASE"
+          mkdir -p "$OUT"
+          echo "f04fd9b65371aecaa63c42f7245b30053a0156504096bbeae52107f451a64370  $SRC" | sha256sum -c | tee "$OUT/run122_source_sha_verified.txt"
+          timeout 1600 blender -b --python-exit-code 7 --python "$ROOT/tools/run122_silkdown_anatomical_mesh_trial.py" -- "$OUT" "$SRC" 2>&1 | tee "$OUT/run122_blender_actual.log"
+      - name: Four actual exported GLB views contact image
+        if: always()
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from PIL import Image,ImageDraw
+          from pathlib import Path
+          p=Path("owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run122-SILKDOWN-CONTINUOUS-SCULPT-NO_RELEASE")
+          p.mkdir(parents=True,exist_ok=True)
+          im=Image.new("RGB",(1040,1080),(35,36,39));d=ImageDraw.Draw(im)
+          for k,name in enumerate(["front","quarter","side","back"]):
+              f=p/f"run122_reimported_glb_{name}_actual_cycles_ART_REVIEW.png"
+              if not f.exists():continue
+              img=Image.open(f).convert("RGB");x=(k%2)*520;y=(k//2)*540
+              im.paste(img,(x,y+20));d.text((x+12,y+3),name+" real GLB reimport",fill=(230,230,230))
+          im.save(p/"run122_four_native_views_no_art_approval.jpg",quality=92)
+          PY
+      - uses: actions/setup-node@v4
+        if: steps.sculpt.outcome == 'success'
+        with:
+          node-version: '20'
+      - name: Load actual 3D GLB in software WebGL2 desktop and phone viewport
+        if: steps.sculpt.outcome == 'success'
+        id: browser
+        timeout-minutes: 12
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -eo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$GITHUB_WORKSPACE/$ROOT/research-evidence-run122-SILKDOWN-CONTINUOUS-SCULPT-NO_RELEASE"
+          WEB="$RUNNER_TEMP/run122-webgl"
+          mkdir -p "$WEB"
+          cp "$OUT/run122_continuous_sculpt_silkdown_organic_juvenile_ART_UNAPPROVED.glb" "$WEB/candidate.glb"
+          cp "$ROOT/tools/run111_viewer_qa.html" "$WEB/index.html"
+          cp "$ROOT/tools/run111_viewer.mjs" "$WEB/run111_viewer.mjs"
+          cp "$ROOT/tools/run118_real_trellis_webgl_qa.mjs" "$WEB/qa.mjs"
+          sed -i 's/Run111/Run122/g' "$WEB/index.html" "$WEB/run111_viewer.mjs"
+          sed -i 's/Run117/Run122/g; s/run117/run122/g; s/run118_software_webgl_qa/run122_software_webgl_qa/g' "$WEB/qa.mjs"
+          cd "$WEB"
+          npm init -y >/dev/null
+          npm install -q --no-fund --no-audit playwright@1.52.0 three@0.174.0
+          npx playwright install --with-deps chromium
+          python3 -m http.server 4173 --bind 127.0.0.1 > "$OUT/run122_server.log" 2>&1 &
+          server=$!
+          trap 'kill "$server" 2>/dev/null || true' EXIT
+          sleep 2
+          node "$WEB/qa.mjs" "$OUT" 2>&1 | tee "$OUT/run122_webgl_console_actual.log"
+      - name: Strict NO_RELEASE and SHA manifest
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run122-SILKDOWN-CONTINUOUS-SCULPT-NO_RELEASE
+          mkdir -p "$OUT"
+          echo "ART_UNAPPROVED / NO_RELEASE. Technical mesh rendering and desktop simulated phone viewport are not art approval, real physical phone GPU validation or global redistribution approval." > "$OUT/NO_RELEASE.flag"
+          echo "sculpt=${{ steps.sculpt.outcome }}; browser=${{ steps.browser.outcome }}" > "$OUT/run122_step_outcomes.txt"
+          (cd "$OUT"; find . -type f ! -name SHA256SUMS.txt ! -name sha_checked.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$OUT"; sha256sum -c SHA256SUMS.txt > sha_checked.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run122-real-silkdown-continuous-mesh-NO-RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run122-SILKDOWN-CONTINUOUS-SCULPT-NO_RELEASE
+          retention-days: 30
+      - name: Commit research-only evidence, never species production pipeline
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run122-SILKDOWN-CONTINUOUS-SCULPT-NO_RELEASE
+          git add --sparse "$OUT"
+          git diff --cached --name-only > /tmp/run122_scope.txt
+          if grep -v '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run122-' /tmp/run122_scope.txt; then
+            echo "STOP out-of-scope changes";exit 8
+          fi
+          if ! git diff --cached --quiet;then
+            git commit -m "research(owl172): real Run122 free sculpt, GLB and WebGL evidence NO_RELEASE"
+            git push origin HEAD:research/owl172-run122-heart-integrated-silkdown-sculpt-gate
+          fi

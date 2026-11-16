@@ -1,0 +1,125 @@
+name: owl172 Run102B calibrated lighting on real animated glTF, software WebGL comparison
+on:
+  push:
+    branches: [research/owl172-run102b-real-morph-webgl-lighting]
+    paths:
+      - .github/workflows/owl-pet-172-run102b-webgl-lighting-calibration.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run102_viewer.mjs
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  true-model-srgb-tone-mapping-software-qa:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run102b-real-morph-webgl-lighting
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run102_viewer_qa.html
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run102_viewer.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run102_webgl_motion_qa.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run102-REAL-NEURAL-MORPH-ART_UNAPPROVED/run102_real_neural_morph_loop_ART_UNAPPROVED.glb
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run102-REAL-NEURAL-MORPH-ART_UNAPPROVED/browser/desktop_1280x720_native_animated_glb.png
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run102-REAL-NEURAL-MORPH-ART_UNAPPROVED/browser/simulated_phone_390x844_native_animated_glb.png
+            .github/workflows/owl-pet-172-run102b-webgl-lighting-calibration.yml
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Reopen exact published research GLB (never deploy)
+        shell: bash
+        run: |
+          set -euo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run102B-WEBGL-LIGHT-CALIBRATION-ART_UNAPPROVED"
+          mkdir -p "$OUT"
+          sha256sum "$ROOT/research-evidence-run102-REAL-NEURAL-MORPH-ART_UNAPPROVED/run102_real_neural_morph_loop_ART_UNAPPROVED.glb"
+          test "$(sha256sum "$ROOT/research-evidence-run102-REAL-NEURAL-MORPH-ART_UNAPPROVED/run102_real_neural_morph_loop_ART_UNAPPROVED.glb" | cut -d' ' -f1)" = "70805cb82f54d730d1851ef73a787e0e0dcb4531ef149cb45eaca959fc2feaae"
+      - name: Browser real animated GLB after PBR light calibration (desktop and phone-size viewport)
+        shell: bash
+        run: |
+          set -euo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$GITHUB_WORKSPACE/$ROOT/research-evidence-run102B-WEBGL-LIGHT-CALIBRATION-ART_UNAPPROVED"
+          WEBROOT="$RUNNER_TEMP/owl172_run102b_browser"
+          mkdir -p "$WEBROOT" "$OUT/browser"
+          cp "$ROOT/tools/run102_viewer_qa.html" "$WEBROOT/index.html"
+          cp "$ROOT/tools/run102_viewer.mjs" "$WEBROOT/run102_viewer.mjs"
+          cp "$ROOT/tools/run102_webgl_motion_qa.mjs" "$WEBROOT/qa.mjs"
+          cp "$ROOT/research-evidence-run102-REAL-NEURAL-MORPH-ART_UNAPPROVED/run102_real_neural_morph_loop_ART_UNAPPROVED.glb" "$WEBROOT/candidate.glb"
+          cd "$WEBROOT"
+          npm init -y >/dev/null
+          npm install --no-fund --no-audit playwright@1.52.0 three@0.174.0
+          npx playwright install --with-deps chromium
+          python3 -m http.server 4173 --bind 127.0.0.1 > "$OUT/browser/http_server.log" 2>&1 &
+          SERVER_PID=$!
+          trap 'kill "$SERVER_PID" 2>/dev/null || true' EXIT
+          sleep 2
+          node "$WEBROOT/qa.mjs" "$OUT/browser" 2>&1 | tee "$OUT/browser/browser_execution.log"
+      - name: Compare actual RGB saturation with unchanged animated 3D baseline screenshots
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 -m pip install --user pillow
+          python3 - <<'PY'
+          from PIL import Image
+          import json,pathlib,hashlib
+          root=pathlib.Path('owl-pet/3d-experiments/172-tyto-castanops')
+          old=root/'research-evidence-run102-REAL-NEURAL-MORPH-ART_UNAPPROVED/browser'
+          out=root/'research-evidence-run102B-WEBGL-LIGHT-CALIBRATION-ART_UNAPPROVED'
+          out.mkdir(parents=True,exist_ok=True)
+          def stats(p):
+              im=Image.open(p).convert('RGB')
+              pix=list(im.getdata())
+              # Background is dark navy; high RGB mask separates true bird pixels.
+              subject=[v for v in pix if min(v)>100 and max(v)>120]
+              return {'image':p.name,'size':list(im.size),'subject_pixels':len(subject),
+                  'near_white_pct':round(100*sum(min(v)>245 for v in subject)/max(1,len(subject)),3),
+                  'mean_subject_rgb':list(round(sum(v[j] for v in subject)/max(1,len(subject)),2) for j in range(3)),
+                  'sha256':hashlib.sha256(p.read_bytes()).hexdigest()}
+          rows={}
+          for key in ['desktop_1280x720','simulated_phone_390x844']:
+              name=key+'_native_animated_glb.png'
+              a=stats(old/name);b=stats(out/'browser'/name)
+              rows[key]={'before':a,'after':b,'near_white_percent_point_delta':round(b['near_white_pct']-a['near_white_pct'],3)}
+          report={'same_binary_model':True,'software_browser_only':True,
+             'no_art_approval':True,'comparisons':rows}
+          (out/'run102b_actual_pixel_comparison.json').write_text(json.dumps(report,indent=2))
+          print(json.dumps(report,indent=2))
+          PY
+      - name: Explicitly reject and checksum research-only evidence
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run102B-WEBGL-LIGHT-CALIBRATION-ART_UNAPPROVED
+          mkdir -p "$OUT"
+          printf '%s\n' 'NO RELEASE: original unapproved hard-shell neural bird. Lighting only, unchanged true animated GLB. Never infer mobile GPU certification or art acceptance.' > "$OUT/ART_REJECTED.flag"
+          (
+            cd "$OUT"
+            find . -type f -not -name SHA256SUMS.txt -not -name checksum_validation.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt
+            sha256sum -c SHA256SUMS.txt > checksum_validation.log
+          )
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run102b-calibrated-true-morph-browser-ART_UNAPPROVED
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run102B-WEBGL-LIGHT-CALIBRATION-ART_UNAPPROVED/
+          retention-days: 30
+      - name: Commit only Run102B quarantined evidence
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run102B-WEBGL-LIGHT-CALIBRATION-ART_UNAPPROVED
+          git add --sparse "$OUT"
+          git diff --cached --name-only > /tmp/run102b_paths.txt
+          if grep -v '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run102B-' /tmp/run102b_paths.txt; then exit 2; fi
+          git diff --cached --quiet && exit 0
+          git commit -m "research(owl172): archive real GLB WebGL lighting pixel A/B, ART_REJECTED"
+          git push origin HEAD:research/owl172-run102b-real-morph-webgl-lighting

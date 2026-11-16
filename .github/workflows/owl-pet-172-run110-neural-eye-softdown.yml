@@ -1,0 +1,103 @@
+name: owl172 Run110 genuine neural eye surface and softdown GLB ART_UNAPPROVED
+on:
+  push:
+    branches: [research/owl172-run110-neural-eyes-softdown-free-blender]
+    paths:
+      - .github/workflows/owl-pet-172-run110-neural-eye-softdown.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run110_neural_eye_softdown.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  no-charge-actual-blender-retouch-evidence:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 42
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run110-neural-eyes-softdown-free-blender
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run99-HUNYUAN-ZEROGPU-ART_UNAPPROVED/run99_neural_source_ART_UNAPPROVED.glb
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run110_neural_eye_softdown.py
+            .github/workflows/owl-pet-172-run110-neural-eye-softdown.yml
+      - name: Check genuine source and install offline open-source Blender
+        shell: bash
+        run: |
+          set -euo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          SRC="$ROOT/research-evidence-run99-HUNYUAN-ZEROGPU-ART_UNAPPROVED/run99_neural_source_ART_UNAPPROVED.glb"
+          echo "eb95158d8a40fc869caef310a70af7e42f5731061725e2a1754aded0e7a8d683  $SRC" | sha256sum -c
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq blender python3-numpy python3-pil
+      - name: Real 3D mesh edits and independently reimported GLBs with eight native Blender renders
+        shell: bash
+        timeout-minutes: 26
+        run: |
+          set -eo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run110-NEURAL-EYES-SOFTDOWN-ART_UNAPPROVED"
+          SRC="$ROOT/research-evidence-run99-HUNYUAN-ZEROGPU-ART_UNAPPROVED/run99_neural_source_ART_UNAPPROVED.glb"
+          mkdir -p "$OUT"
+          timeout 1460 blender -b --python-exit-code 42 --python "$ROOT/tools/run110_neural_eye_softdown.py" -- \
+            --source "$SRC" --out "$OUT" 2>&1 | tee "$OUT/actual_blender_execution.log" || {
+              echo "Real 3D experiment failed. No art release." > "$OUT/FAILED.txt"
+              exit 1
+            }
+          python3 - "$OUT" <<'PY'
+          import pathlib,sys
+          from PIL import Image,ImageDraw
+          p=pathlib.Path(sys.argv[1])
+          for variant in ['eyes_only','eyes_plus_softdown']:
+              views=['front','quarter','side','back']
+              sources=[p/f'run110_{variant}_{v}_native_cycles_UNAPPROVED.png' for v in views]
+              assert all(v.is_file() for v in sources)
+              canvas=Image.new('RGB',(860,860),(241,239,233))
+              for i,f in enumerate(sources):
+                  im=Image.open(f).convert('RGB')
+                  canvas.paste(im,((i%2)*430,(i//2)*430))
+                  ImageDraw.Draw(canvas).text(((i%2)*430+10,(i//2)*430+10),views[i],fill=(0,0,0))
+              canvas.save(p/f'run110_{variant}_four_views_ART_UNAPPROVED.jpg',quality=82)
+              print('REAL_NATIVE_RENDER_CONTACT',variant)
+          PY
+      - name: Evidence integrity and mandatory negative release gate
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run110-NEURAL-EYES-SOFTDOWN-ART_UNAPPROVED"
+          mkdir -p "$OUT"
+          printf '%s\n' 'NO ART RELEASE: face shape, true open eyes, cream soft down, side/back, real phone WebGL and license require independent review. This is not an approved pet or 251-species production asset.' > "$OUT/ART_UNAPPROVED.txt"
+          (cd "$OUT"; find . -maxdepth 1 -type f ! -name SHA256SUMS.txt ! -name checksum_validation.log -printf '%f\n' | sort | while read -r f; do sha256sum "$f"; done > SHA256SUMS.txt)
+          (cd "$OUT"; sha256sum -c SHA256SUMS.txt | tee checksum_validation.log)
+          python3 - "$OUT" <<'PY'
+          import pathlib,sys
+          p=pathlib.Path(sys.argv[1])
+          for f in p.glob('*four_views_ART_UNAPPROVED.jpg'):
+              import base64
+              print('BEGIN_RUN110_'+f.stem.upper()+'_BASE64')
+              print(base64.b64encode(f.read_bytes()).decode())
+              print('END_RUN110_'+f.stem.upper()+'_BASE64')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run110-two-true-GLB-native-views-ART_UNAPPROVED
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run110-NEURAL-EYES-SOFTDOWN-ART_UNAPPROVED
+          retention-days: 30
+      - name: Commit only quarantined research evidence; never touch production
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run110-NEURAL-EYES-SOFTDOWN-ART_UNAPPROVED
+          git add --sparse "$OUT"
+          git diff --cached --name-only >/tmp/run110paths
+          if grep -v '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run110-' /tmp/run110paths; then exit 4; fi
+          if ! git diff --cached --quiet; then
+            git commit -m "research(owl172): archive true 3D eye and softdown trial; remain ART_UNAPPROVED"
+            git push origin HEAD:research/owl172-run110-neural-eyes-softdown-free-blender
+          fi

@@ -1,0 +1,97 @@
+name: owl172 Run100B real neural high-to-low normal bake and 4-angle QA
+on:
+  push:
+    branches: [research/owl172-run100-neural-surface-topology-repair]
+    paths:
+      - .github/workflows/owl-pet-172-run100b-real-normal-bake.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run100b_neural_normal_transfer.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  real-3d-native-normal-texture:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run100-neural-surface-topology-repair
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run99-HUNYUAN-ZEROGPU-ART_UNAPPROVED/run99_neural_source_ART_UNAPPROVED.glb
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run100-REAL-NEURAL-TOPOLOGY-ART_UNAPPROVED/run100_smooth_80k_ART_UNAPPROVED.glb
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run100b_neural_normal_transfer.py
+            .github/workflows/owl-pet-172-run100b-real-normal-bake.yml
+      - name: Install free native 3D baking software
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq blender python3-numpy python3-pil
+          blender --version | head -1
+      - name: Execute actual Blender high-poly to low-poly UV tangent normal bake and real GLB render
+        shell: bash
+        run: |
+          set -euo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          HI="$ROOT/research-evidence-run99-HUNYUAN-ZEROGPU-ART_UNAPPROVED/run99_neural_source_ART_UNAPPROVED.glb"
+          LOW="$ROOT/research-evidence-run100-REAL-NEURAL-TOPOLOGY-ART_UNAPPROVED/run100_smooth_80k_ART_UNAPPROVED.glb"
+          DEST="$ROOT/research-evidence-run100B-NATIVE-NORMAL-BAKE-ART_UNAPPROVED"
+          mkdir -p "$DEST"
+          echo 'eb95158d8a40fc869caef310a70af7e42f5731061725e2a1754aded0e7a8d683  '"$HI" | sha256sum -c -
+          echo '60feb7a5e4f4c67a020e3457e7ffbfb52f6fbe3e75f115b970030c00b20cd35d  '"$LOW" | sha256sum -c -
+          blender -b --python-exit-code 7 --python "$ROOT/tools/run100b_neural_normal_transfer.py" \
+             -- "$HI" "$LOW" "$DEST" 2>&1 | tee "$DEST/native_blender_bake.log"
+      - name: Build reviewable contact from four actual native Cycles images
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from PIL import Image,ImageDraw
+          import pathlib,base64,io
+          p=pathlib.Path("owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run100B-NATIVE-NORMAL-BAKE-ART_UNAPPROVED")
+          names=["front","quarter","side","back"]
+          files=[p/("run100b_"+x+"_native_cycles_UNAPPROVED.png") for x in names]
+          if not all(x.exists() for x in files):raise RuntimeError("Missing actual native views")
+          sheet=Image.new("RGB",(896,896),(247,246,238))
+          for i,f in enumerate(files):
+              sheet.paste(Image.open(f).convert("RGB"),((i%2)*448,(i//2)*448))
+              ImageDraw.Draw(sheet).text(((i%2)*448+12,(i//2)*448+12),names[i],fill="#26241c")
+          jpeg=p/"run100b_native_four_views_ART_UNAPPROVED.jpg"
+          sheet.save(jpeg,quality=83,optimize=True)
+          sheet.thumbnail((700,700))
+          bio=io.BytesIO();sheet.save(bio,format="JPEG",quality=68,optimize=True)
+          print("BEGIN_RUN100B_CONTACT_BASE64",flush=True)
+          print(base64.b64encode(bio.getvalue()).decode("ascii"),flush=True)
+          print("END_RUN100B_CONTACT_BASE64",flush=True)
+          PY
+      - name: Verify exact evidence integrity before commit
+        shell: bash
+        run: |
+          set -euo pipefail
+          DEST=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run100B-NATIVE-NORMAL-BAKE-ART_UNAPPROVED
+          (
+            cd "$DEST"
+            find . -type f -not -name 'SHA256SUMS.txt' -not -name 'checksum_validation.log' -print0 | sort -z | xargs -0 sha256sum > SHA256SUMS.txt
+            sha256sum -c SHA256SUMS.txt > checksum_validation.log
+            echo "RUN100B_CHECKSUMS_OK $(wc -l < SHA256SUMS.txt)"
+          )
+      - uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run100B-native-neural-bake-ART_UNAPPROVED
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run100B-NATIVE-NORMAL-BAKE-ART_UNAPPROVED/
+          retention-days: 30
+      - name: Archive isolated research evidence without changing 251 species pipeline
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          DEST=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run100B-NATIVE-NORMAL-BAKE-ART_UNAPPROVED
+          git add --sparse "$DEST"
+          git diff --cached --name-only > /tmp/run100b-staged.txt
+          if grep -v '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run100B-' /tmp/run100b-staged.txt; then
+             echo "Unsafe path change blocked";exit 2
+          fi
+          git commit -m "research(owl172): quarantine real native 3D neural normal bake and 4-view QA"
+          git push origin HEAD:research/owl172-run100-neural-surface-topology-repair

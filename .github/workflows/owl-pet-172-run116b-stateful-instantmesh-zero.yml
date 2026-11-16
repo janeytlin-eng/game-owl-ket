@@ -1,7 +1,7 @@
 name: owl172 Run116B official InstantMesh real multi-view neural-to-GLB no-charge study
 on:
   push:
-    branches: [research/owl172-run116B-instantmesh-official-zero]
+    branches: [research/owl172-run116-instantmesh-official-zero]
     paths:
       - .github/workflows/owl-pet-172-run116b-stateful-instantmesh-zero.yml
       - owl-pet/3d-experiments/172-tyto-castanops/tools/run116b_instantmesh_stateful_make3d.py
@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: research/owl172-run116B-instantmesh-official-zero
+          ref: research/owl172-run116-instantmesh-official-zero
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             .github/workflows/owl-pet-172-run116b-stateful-instantmesh-zero.yml
@@ -90,5 +90,5 @@ jobs:
           fi
           if ! git diff --cached --quiet; then
             git commit -m 'research(owl172): archive actual official free InstantMesh neural trial, no art release'
-            git push origin HEAD:research/owl172-run116B-instantmesh-official-zero
+            git push origin HEAD:research/owl172-run116-instantmesh-official-zero
           fi

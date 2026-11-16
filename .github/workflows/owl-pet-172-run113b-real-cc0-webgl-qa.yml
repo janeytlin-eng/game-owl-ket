@@ -44,6 +44,7 @@ jobs:
           sed -i 's/Run111 research only/Run113B CC0 adult benchmark only/g; s/Real GLB • experimental • ART UNAPPROVED/REAL ADULT GREAT HORNED OWL • NOT JUVENILE TYTO • ART REJECTED/g' "$WEB/index.html"
           cp "$ROOT/tools/run111_viewer.mjs" "$WEB/run111_viewer.mjs"
           sed -i 's/real Run111 GLB/real CC0 adult source LOD GLB/g' "$WEB/run111_viewer.mjs"
+          cp "$ROOT/tools/run113b_cc0_adult_lod_webgl_qa.mjs" "$WEB/qa.mjs"
           cd "$WEB"
           npm init -y >/dev/null
           npm install --no-fund --no-audit playwright@1.52.0 three@0.174.0
@@ -52,7 +53,7 @@ jobs:
           pid=$!
           trap 'kill "$pid" 2>/dev/null || true' EXIT
           sleep 2
-          node "$GITHUB_WORKSPACE/$ROOT/tools/run113b_cc0_adult_lod_webgl_qa.mjs" "$OUT" 2>&1 | tee "$OUT/actual_software_webgl.log"
+          node "$WEB/qa.mjs" "$OUT" 2>&1 | tee "$OUT/actual_software_webgl.log"
       - name: Explicit strict art rejection and checksums
         if: always()
         shell: bash

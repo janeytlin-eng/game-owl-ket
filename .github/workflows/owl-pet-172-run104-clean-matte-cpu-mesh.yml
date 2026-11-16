@@ -1,0 +1,124 @@
+name: owl172 Run104 real CPU TripoSR on clean juvenile alpha crop, art unapproved
+on:
+  push:
+    branches: [research/owl172-run104-clean-foreground-triposr-cpu]
+    paths:
+      - .github/workflows/owl-pet-172-run104-clean-matte-cpu-mesh.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run104_clean_mask_triposr_cpu.py
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run104_blender_multiview.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  clean-foreground-independent-3d-cpu:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 56
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run104-clean-foreground-triposr-cpu
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run103-TRELLIS2-PBR-ART_UNAPPROVED/preprocessed_image.png
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run104_clean_mask_triposr_cpu.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run104_blender_multiview.py
+            .github/workflows/owl-pet-172-run104-clean-matte-cpu-mesh.yml
+      - name: Verify source asset and native Python syntax
+        shell: bash
+        run: |
+          set -euo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          test -s "$ROOT/research-evidence-run103-TRELLIS2-PBR-ART_UNAPPROVED/preprocessed_image.png"
+          python3 -m py_compile "$ROOT/tools/run104_clean_mask_triposr_cpu.py" "$ROOT/tools/run104_blender_multiview.py"
+      - name: Install free CPU inference dependencies and open source TripoSR
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 -m venv /tmp/owl172-run104
+          . /tmp/owl172-run104/bin/activate
+          python -m pip install -q --upgrade pip setuptools wheel
+          python -m pip install -q torch==2.4.1 torchvision==0.19.1 --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install -q 'numpy==1.26.4' 'Pillow==10.4.0' 'omegaconf==2.3.0' 'einops==0.7.0' 'transformers==4.35.2' 'huggingface-hub==0.25.2' 'trimesh==4.4.1' 'scikit-image==0.24.0' 'scipy==1.14.1' 'rembg==2.0.67' 'onnxruntime==1.19.2'
+          git clone -q --depth 1 https://github.com/VAST-AI-Research/TripoSR.git /tmp/owl172-TripoSR
+          mkdir -p owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run104-CLEAN-FOREGROUND-CPU-ART_UNAPPROVED
+          git -C /tmp/owl172-TripoSR rev-parse HEAD > owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run104-CLEAN-FOREGROUND-CPU-ART_UNAPPROVED/triposr_code_commit.txt
+          cat > /tmp/owl172-TripoSR/torchmcubes.py <<'PY'
+          import numpy as np
+          import torch
+          from skimage.measure import marching_cubes as mc
+          def marching_cubes(level,value):
+              a=level.detach().to("cpu").numpy().astype(np.float32)
+              v,f,n,x=mc(a,level=float(value))
+              return torch.from_numpy(v.copy()).float(),torch.from_numpy(f.copy().astype(np.int64))
+          PY
+          PYTHONPATH=/tmp/owl172-TripoSR python -c 'import torch;from tsr.system import TSR;print("RUN104_TRUE_CPU_MODEL_AVAILABLE",torch.__version__)'
+      - name: Build honest clean chick input and generate real TripoSR mesh, never a 2D stand-in
+        shell: bash
+        timeout-minutes: 23
+        run: |
+          set -eo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run104-CLEAN-FOREGROUND-CPU-ART_UNAPPROVED"
+          mkdir -p "$OUT"
+          . /tmp/owl172-run104/bin/activate
+          export PYTHONPATH=/tmp/owl172-TripoSR HF_HUB_DISABLE_TELEMETRY=1 OMP_NUM_THREADS=2
+          SCRIPT="$ROOT/tools/run104_clean_mask_triposr_cpu.py"
+          python "$SCRIPT" prepare --out "$OUT" > "$OUT/prepare.log" 2>&1
+          python "$SCRIPT" infer --out "$OUT" --resolution 112 > "$OUT/infer.log" 2>&1
+          python "$SCRIPT" audit --out "$OUT" > "$OUT/audit.log" 2>&1
+          cat "$OUT/audit.log"
+      - name: True Blender reimport and physical four-camera Cycles images
+        shell: bash
+        timeout-minutes: 12
+        run: |
+          set -euo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run104-CLEAN-FOREGROUND-CPU-ART_UNAPPROVED"
+          if test -s "$OUT/owl172_run104_neural_SINGLEVIEW_ART_UNREVIEWED.glb"; then
+            sudo apt-get update -qq
+            sudo apt-get install -y -qq blender python3-numpy
+            blender -b -t 2 --python-exit-code 5 --python "$ROOT/tools/run104_blender_multiview.py" -- "$OUT" > "$OUT/blender_execution.log" 2>&1
+            echo '4 native rendered camera views' > "$OUT/native_render_pass.txt"
+          fi
+      - name: Explicit no-release status and verify evidence integrity
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run104-CLEAN-FOREGROUND-CPU-ART_UNAPPROVED
+          mkdir -p "$OUT"
+          cat > "$OUT/ART_UNAPPROVED.txt" <<'EOF'
+          RESEARCH ONLY #172 rightmost cream v3 mesoptile, CLEAN MATTE CPU reconstruction.
+          The existing native TripoSR image-to-mesh model was rerun with the actual
+          independently-foreground-isolated source from Run103, instead of the noisy
+          previous single-photo crop. True geometry is not acceptable just because
+          export/import passes. Reject until independently inspected for heart face,
+          open dark eyes, short fluffy juvenile body, plausible side/back, grounded
+          feet on wide hollow, physically tested phone WebGL and rights. No payment
+          or production edits; all art defaults REJECTED.
+          EOF
+          (
+            cd "$OUT"
+            find . -type f -not -name SHA256SUMS.txt -not -name checksum_validation.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt
+            sha256sum -c SHA256SUMS.txt > checksum_validation.log
+          )
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run104-clean-reference-cpu-real-mesh-ART_UNAPPROVED
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run104-CLEAN-FOREGROUND-CPU-ART_UNAPPROVED/
+          retention-days: 30
+      - name: Archive research only; never touch 251 species production or prototype
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run104-CLEAN-FOREGROUND-CPU-ART_UNAPPROVED
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --sparse "$OUT"
+          git diff --cached --name-only > /tmp/run104_paths
+          if grep -v '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run104-' /tmp/run104_paths; then exit 2; fi
+          git diff --cached --quiet && exit 0
+          git commit -m "research(owl172): isolate real CPU clean-matte 3D experiment ART_UNAPPROVED"
+          git push origin HEAD:research/owl172-run104-clean-foreground-triposr-cpu

@@ -1,0 +1,37 @@
+{
+  "run": "105B",
+  "gate": "ART_UNAPPROVED",
+  "source_repo": "janeytlin-eng/game-owl-ket",
+  "source_path": "owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run103-TRELLIS2-PBR-ART_UNAPPROVED/preprocessed_image.png",
+  "source_image_size": [
+    548,
+    548
+  ],
+  "crop_box": [
+    59,
+    0,
+    548,
+    548
+  ],
+  "crop_size": [
+    512,
+    512
+  ],
+  "date_utc": "2026-11-16T17:48:32.538957+00:00",
+  "no_extra_charge": true,
+  "provider": "https://huggingface.co/spaces/tencent/Hunyuan3D-2",
+  "provider_mode": "public ZeroGPU; no auth token; geometry-only; no paid fallback",
+  "previous_negative_controls": [
+    "Run99 original background image neural mesh",
+    "Run104 clean matte CPU TripoSR failed"
+  ],
+  "outcome": "FREE_ROUTE_BLOCKED_OR_FAILED_NO_MODEL",
+  "segmented_foreground": true,
+  "source_black_bg_not_raw_concept": true,
+  "source_coverage": 0.776611328125,
+  "neutral_rgb_background": true,
+  "provider_rembg": true,
+  "release_license_not_cleared": true,
+  "error_type": "ReadTimeout",
+  "error_message": "The read operation timed out"
+}

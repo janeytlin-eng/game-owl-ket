@@ -1,0 +1,103 @@
+name: owl172 Run100 genuine neural surface repair and multiview visual gate
+on:
+  push:
+    branches: [research/owl172-run100-neural-surface-topology-repair]
+    paths:
+      - .github/workflows/owl-pet-172-run100-neural-surface-repair.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run100_neural_surface_topology_repair.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  physical-topology-and-native-art-qa:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 36
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run100-neural-surface-topology-repair
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run99-HUNYUAN-ZEROGPU-ART_UNAPPROVED/run99_neural_source_ART_UNAPPROVED.glb
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run100_neural_surface_topology_repair.py
+            .github/workflows/owl-pet-172-run100-neural-surface-repair.yml
+      - name: Install no-charge actual Blender native 3D renderer
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq blender python3-numpy python3-pil
+          blender --version | head -1
+      - name: Execute two physical neural-mesh topology repairs, GLB roundtrips, and 12 Cycles views
+        shell: bash
+        run: |
+          set -euo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          SOURCE="$ROOT/research-evidence-run99-HUNYUAN-ZEROGPU-ART_UNAPPROVED/run99_neural_source_ART_UNAPPROVED.glb"
+          DEST="$ROOT/research-evidence-run100-REAL-NEURAL-TOPOLOGY-ART_UNAPPROVED"
+          mkdir -p "$DEST"
+          echo 'eb95158d8a40fc869caef310a70af7e42f5731061725e2a1754aded0e7a8d683  '"$SOURCE" | sha256sum -c -
+          blender -b --python-exit-code 6 \
+            --python "$ROOT/tools/run100_neural_surface_topology_repair.py" -- "$SOURCE" "$DEST" \
+            2>&1 | tee "$DEST/blender_native_surface_repair.log"
+      - name: Build real rendered 4-view comparison contacts and log small independent JPEG evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import pathlib,base64,io
+          from PIL import Image,ImageDraw
+          root=pathlib.Path("owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run100-REAL-NEURAL-TOPOLOGY-ART_UNAPPROVED")
+          for prefix in ("source_raw","smooth_80k_roundtrip","voxel_55k_roundtrip"):
+              files=[root/(prefix+"_"+view+"_cycles.png") for view in ("front","quarter","side","back")]
+              if not all(p.is_file() for p in files):
+                  print("RUN100_CONTACT_INCOMPLETE",prefix,[p.name for p in files if not p.exists()],flush=True)
+                  continue
+              canvas=Image.new("RGB",(896,896),(250,247,240))
+              draw=ImageDraw.Draw(canvas)
+              for i,p in enumerate(files):
+                  im=Image.open(p).convert("RGB")
+                  canvas.paste(im,((i%2)*448,(i//2)*448))
+                  draw.text((10+(i%2)*448,10+(i//2)*448),("front","quarter","side","back")[i],fill=(15,22,20))
+              path=root/(prefix+"_four_real_views_ART_UNAPPROVED.jpg")
+              canvas.save(path,format="JPEG",quality=80,optimize=True)
+              thumb=canvas.copy()
+              thumb.thumbnail((700,700))
+              blob=io.BytesIO()
+              thumb.save(blob,format="JPEG",quality=68,optimize=True)
+              print("BEGIN_RUN100_CONTACT_"+prefix.upper()+"_BASE64",flush=True)
+              print(base64.b64encode(blob.getvalue()).decode("ascii"),flush=True)
+              print("END_RUN100_CONTACT_"+prefix.upper()+"_BASE64",flush=True)
+              print("RUN100_CONTACT_FILE",path.name,path.stat().st_size,flush=True)
+          PY
+      - name: Integrity manifest and explicit rejection until an independent visual gate
+        shell: bash
+        run: |
+          set -euo pipefail
+          DEST=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run100-REAL-NEURAL-TOPOLOGY-ART_UNAPPROVED
+          (
+             cd "$DEST"
+             find . -type f -not -name SHA256SUMS.txt -not -name checksum_validation.log -print0 | sort -z | xargs -0 sha256sum > SHA256SUMS.txt
+             sha256sum -c SHA256SUMS.txt > /tmp/run100-checks.log
+             cp /tmp/run100-checks.log checksum_validation.log
+             echo "Run100_INTEGRITY_PASS $(wc -l < SHA256SUMS.txt) files"
+          )
+      - uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run100-real-3D-neural-topology-ART_UNAPPROVED
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run100-REAL-NEURAL-TOPOLOGY-ART_UNAPPROVED/
+          retention-days: 30
+      - name: Archive evidence only to this isolated #172 research branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          DEST=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run100-REAL-NEURAL-TOPOLOGY-ART_UNAPPROVED
+          git add --sparse "$DEST"
+          git diff --cached --name-only > /tmp/owl172-run100-staged.txt
+          if grep -v '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run100-' /tmp/owl172-run100-staged.txt; then
+            echo "Unsafe staged change outside Run100 evidence"; exit 2
+          fi
+          git commit -m "research(owl172): archive real neural topology repair GLBs and multiview rejects"
+          git push origin HEAD:research/owl172-run100-neural-surface-topology-repair

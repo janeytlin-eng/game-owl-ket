@@ -87,9 +87,11 @@ def run_generate():
         report["seed"]=172
         report["resolution"]="512"
         result=client.predict(*params,api_name=gen)
-        if not isinstance(result,(list,tuple)) or len(result)<2:
-            raise RuntimeError("Generated output does not contain state and real turntable preview")
-        state, preview=result[0],result[1]
+        # Gradio exposes the preview but holds gr.State server-side in this client's session.
+        # API audit on 2026-11-16 confirmed /image_to_3d has exactly ONE public return.
+        preview=result[-1] if isinstance(result,(tuple,list)) else result
+        if not isinstance(preview,str) or "previewer" not in preview:
+            raise RuntimeError("Generate did not return the expected actual 3D turntable preview")
         report["generate"]="SUCCESS"
         if isinstance(preview,str):
             imgs=re.findall(r'src="(data:image/(?:png|jpeg);base64,[^"]+)"',preview)
@@ -102,7 +104,8 @@ def run_generate():
         save(report,"run103_status.json")
         extract=ep("extract_glb")
         report["extract_endpoint"]=extract
-        extracted=client.predict(state,100000,1024,api_name=extract)
+        # /extract_glb has exactly TWO public parameters. Internal gr.State is implicit.
+        extracted=client.predict(100000,1024,api_name=extract)
         p=locate(extracted)
         if p is None:raise RuntimeError("Extract returned no local .glb path; cannot claim a model")
         dest=OUT/"run103_original_trellis2_pbr_NOT_APPROVED.glb"

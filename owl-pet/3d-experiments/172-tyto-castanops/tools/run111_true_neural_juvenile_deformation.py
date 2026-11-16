@@ -101,7 +101,9 @@ def freeze_geometry(o,broad):
 variants=[]
 for label,spread in [('juvenile_compact_20',.20),('juvenile_broadface_34',.34)]:
     # Reopen untouched prior GLB for each controlled ablation.
-    bpy.ops.object.select_all(action='SELECT')
+    bpy.ops.object.select_all(action='DESELECT')
+    for transient in list(bpy.context.scene.objects):
+        if transient.type in {'MESH','EMPTY'}:transient.select_set(True)
     bpy.ops.object.delete(use_global=False)
     bpy.ops.import_scene.gltf(filepath=str(source))
     parts=[o for o in bpy.context.scene.objects if o.type=='MESH']
@@ -125,8 +127,7 @@ for label,spread in [('juvenile_compact_20',.20),('juvenile_broadface_34',.34)]:
     assert r_faces>=faces*.995,(faces,r_faces)
     for o in newly:bpy.data.objects.remove(o,do_unlink=True)
     # Object-relative four camera views of the actual mutated 3D surface.
-    bound=[o.matrix_world@v.co for o in parts for v in o.data.vertices if o.name==body.name]
-    # Imported body may have generic name, so use biggest mesh after reimport.
+    # Recompute actual silhouette extent from the largest input-body mesh.
     largest=max(parts,key=lambda o:len(o.data.polygons))
     pts=[largest.matrix_world@v.co for v in largest.data.vertices]
     low=Vector([min(p[i] for p in pts) for i in range(3)])

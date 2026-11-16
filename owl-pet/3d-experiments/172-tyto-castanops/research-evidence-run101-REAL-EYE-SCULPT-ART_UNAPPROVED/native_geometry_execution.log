@@ -1,0 +1,33 @@
+{
+  "source": "run100_smooth_80k_ART_UNAPPROVED.glb",
+  "source_sha256": "60feb7a5e4f4c67a020e3457e7ffbfb52f6fbe3e75f115b970030c00b20cd35d",
+  "right_crop": "rightmost_mesoptile_input.jpg",
+  "source_original_neural_geometry": true,
+  "eye_surface_raypicked": true,
+  "displaced_vertices": 154,
+  "displacement_max_normalized_units": 0.017824265232763557,
+  "variants": [
+    {
+      "glb": "run101A_native_eye_recess_color_ART_UNAPPROVED.glb",
+      "bytes": 1595928,
+      "sha256": "9e1e097a4c0bff85539001f79c8f664e2294e5e3b45281e4dc2bb88338e4274c",
+      "triangles": 79988,
+      "vertices": 39684,
+      "glb_roundtrip": true,
+      "color0": true
+    },
+    {
+      "glb": "run101B_orig_face_project_ART_UNAPPROVED.glb",
+      "bytes": 1595928,
+      "sha256": "3945c5b565e274fb3051cc6dfc709226c61e0783ef171ef6778247b4a0265b5e",
+      "triangles": 79988,
+      "vertices": 39684,
+      "glb_roundtrip": true,
+      "color0": true
+    }
+  ],
+  "pass_art_gate": false,
+  "phone_gpu_tested": false,
+  "cost_usd": 0,
+  "licensing": "Tencent Hunyuan3D-2 Community License: non-CC0 restricted"
+}

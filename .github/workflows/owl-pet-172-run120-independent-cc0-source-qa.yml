@@ -1,0 +1,105 @@
+name: owl172 Run120 independent public CC0-claim owl real-mesh QA (research-only)
+on:
+  push:
+    branches: [research/owl172-run120-cc0-independent-tyto-source-qa]
+    paths:
+      - .github/workflows/owl-pet-172-run120-independent-cc0-source-qa.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run120_artist_owl_source_qa.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  actual-artist-source-3d-benchmark-not-release:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run120-cc0-independent-tyto-source-qa
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run120_artist_owl_source_qa.py
+            .github/workflows/owl-pet-172-run120-independent-cc0-source-qa.yml
+      - name: Install freely available Blender/PIL, not a paid model service
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq blender python3-numpy python3-pil
+      - name: Attempt real authorized public CC0-claim source download and native 4-view import/render/LOD
+        id: real_mesh
+        continue-on-error: true
+        timeout-minutes: 27
+        shell: bash
+        run: |
+          set -eo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run120-INDEPENDENT-CC0-CLAIM-SOURCE-ART_REJECTED"
+          mkdir -p "$OUT"
+          URL=https://www.innerscene.com/api/library/owl-d696472a/download
+          printf '%s\n' "Provider public CC0 claim (NOT independently cleared): https://www.innerscene.com/tools/library/3d-parts/owl-d696472a" \
+            "Source downloaded only using public on-page Download GLB link." \
+            "No claim it is a Tyto castanops chick. No payment, source reuse or release approval." > "$OUT/provider_terms_and_rights_LIMITED.txt"
+          printf '%s\n' "$URL" > "$OUT/public_download_endpoint.txt"
+          if ! curl -fLsS --connect-timeout 20 --max-time 240 --retry 2 --retry-delay 5 \
+            -D "$OUT/download_response_headers.txt" "$URL" -o /tmp/independent_owl_run120.glb \
+            2> "$OUT/download_curl_stderr.log"; then
+            echo "DOWNLOAD_FAILED_NO_MODEL_NO_APPROVAL" > "$OUT/download_result.txt"
+            exit 10
+          fi
+          file /tmp/independent_owl_run120.glb > "$OUT/source_file_signature.txt"
+          sha256sum /tmp/independent_owl_run120.glb > "$OUT/source_sha256.txt"
+          python3 - <<'PY'
+          from pathlib import Path
+          b=Path('/tmp/independent_owl_run120.glb').read_bytes()
+          print("real downloaded bytes:",len(b),"magic:",b[:4])
+          assert b[:4]==b'glTF' and len(b)>200000,"The public URL did not yield a real glTF mesh"
+          PY
+          timeout 1220 blender -b --python-exit-code 7 \
+            --python "$ROOT/tools/run120_artist_owl_source_qa.py" \
+            -- /tmp/independent_owl_run120.glb "$OUT" \
+            2>&1 | tee "$OUT/run120_native_blender_execution.log"
+          python3 - "$OUT" <<'PY'
+          import sys,pathlib
+          from PIL import Image,ImageDraw
+          out=pathlib.Path(sys.argv[1]);sheet=Image.new('RGB',(960,1000),(45,45,45))
+          d=ImageDraw.Draw(sheet)
+          for i,name in enumerate(('front','quarter','side','back')):
+              p=out/f'run120_source_{name}_real_cycles_RESEARCH_ONLY.png'
+              im=Image.open(p).convert('RGB')
+              x=(i%2)*480;y=(i//2)*500
+              sheet.paste(im,(x,y+20));d.text((x+10,y+4),name,fill=(255,255,255))
+          sheet.save(out/'run120_4_real_views_ART_NOT_APPROVED.jpg',quality=90)
+          PY
+          echo "GLB_IMPORTED_4_NATIVE_VIEWS_AND_REAL_LOD_BUT_ART_NOT_APPROVED" > "$OUT/download_result.txt"
+      - name: Strict rejection, hashes and negative evidence even if failed
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run120-INDEPENDENT-CC0-CLAIM-SOURCE-ART_REJECTED
+          mkdir -p "$OUT"
+          echo "ART_REJECTED NO_RELEASE. Independent artist/source original rights and actual downy juvenile morphology not certified. Real Android/iOS WebGL GPU not tested." > "$OUT/NO_RELEASE.flag"
+          (cd "$OUT"; find . -type f ! -name SHA256SUMS.txt ! -name sha_checked.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$OUT"; sha256sum -c SHA256SUMS.txt > sha_checked.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run120-real-source-anatomy-qa-no-release
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run120-INDEPENDENT-CC0-CLAIM-SOURCE-ART_REJECTED
+          retention-days: 30
+      - name: Git commit independent Run120 evidence, never 251-species production
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run120-INDEPENDENT-CC0-CLAIM-SOURCE-ART_REJECTED
+          git add --sparse "$OUT"
+          git diff --cached --name-only > /tmp/only_owl172_run120_scope
+          if grep -v '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run120-' /tmp/only_owl172_run120_scope; then
+            echo "STOP scope violation";exit 9
+          fi
+          if ! git diff --cached --quiet;then
+            git commit -m "research(owl172): actual Run120 independent free-source/mesh QA evidence ART_REJECTED"
+            git push origin HEAD:research/owl172-run120-cc0-independent-tyto-source-qa
+          fi

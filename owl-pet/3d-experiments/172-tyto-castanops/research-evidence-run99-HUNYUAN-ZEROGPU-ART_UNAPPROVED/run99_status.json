@@ -1,0 +1,36 @@
+{
+  "run": "99",
+  "gate": "ART_UNAPPROVED",
+  "source_repo": "janeytlin-eng/game-owl-ket",
+  "source_path": "owl-pet/design/concepts/172-tyto-castanops-v3.png",
+  "source_image_size": [
+    1536,
+    1024
+  ],
+  "crop_box": [
+    945,
+    179,
+    1525,
+    983
+  ],
+  "crop_size": [
+    580,
+    804
+  ],
+  "date_utc": "2026-11-16T01:37:46.426515+00:00",
+  "no_extra_charge": true,
+  "provider": "https://huggingface.co/spaces/tencent/Hunyuan3D-2",
+  "provider_mode": "public ZeroGPU; no auth token; geometry-only; no paid fallback",
+  "previous_negative_controls": [
+    "Run92/92B TripoSR CPU",
+    "Run96B native SDF anatomy",
+    "Run98 free low-poly rig donor"
+  ],
+  "outcome": "TRUE_GLB_GENERATED_UNAPPROVED",
+  "api_visible": true,
+  "elapsed_seconds": 9.26,
+  "result_types": "<class 'tuple'>",
+  "result_brief": "({'value': '/tmp/gradio/eb95158d8a40fc869caef310a70af7e42f5731061725e2a1754aded0e7a8d683/white_mesh.glb', '__type__': 'update'}, '\\n        <div style=\\'height: 650; width: 100%;\\'>\\n        <iframe src=\"/static/4af0c88a-f8a1-4093-af7c-7021cfe4ab1f/white_mesh.html\" height=\"650\" width=\"100%\" frameborder=\"0\"></iframe>\\n        </div>\\n    ', {'model': {'shapegen': 'tencent/Hunyuan3D-2/hunyuan3d-dit-v2-0', 'texgen': 'tencent/Hunyuan3D-2'}, 'params': {'caption': None, 'steps': 30, 'guidance_scale': 5.0, 'seed': 172, 'octree_resolution': 256, 'check_box_rembg': True, 'num_chunks': 8000}, 'number_of_faces': 1179598, 'number_of_vertices': 348101, 'time': {'remove background': 1.0832421779632568, 'shape generation': 5.999642372131348, 'export to trimesh': 0.19979310035705566, 'total': 7.285290718078613}}, 172)",
+  "source_glb_bytes": 18333652,
+  "source_glb_sha256": "eb95158d8a40fc869caef310a70af7e42f5731061725e2a1754aded0e7a8d683"
+}

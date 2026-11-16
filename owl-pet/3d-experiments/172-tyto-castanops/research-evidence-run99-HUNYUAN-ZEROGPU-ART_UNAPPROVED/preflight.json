@@ -1,0 +1,30 @@
+{
+  "run": "99",
+  "gate": "ART_UNAPPROVED",
+  "source_repo": "janeytlin-eng/game-owl-ket",
+  "source_path": "owl-pet/design/concepts/172-tyto-castanops-v3.png",
+  "source_image_size": [
+    1536,
+    1024
+  ],
+  "crop_box": [
+    945,
+    179,
+    1525,
+    983
+  ],
+  "crop_size": [
+    580,
+    804
+  ],
+  "date_utc": "2026-11-16T01:37:46.426515+00:00",
+  "no_extra_charge": true,
+  "provider": "https://huggingface.co/spaces/tencent/Hunyuan3D-2",
+  "provider_mode": "public ZeroGPU; no auth token; geometry-only; no paid fallback",
+  "previous_negative_controls": [
+    "Run92/92B TripoSR CPU",
+    "Run96B native SDF anatomy",
+    "Run98 free low-poly rig donor"
+  ],
+  "outcome": "NOT_ATTEMPTED"
+}

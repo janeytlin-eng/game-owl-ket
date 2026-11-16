@@ -1,4 +1,4 @@
 Traceback (most recent call last):
-  File "/home/runner/work/game-owl-ket/game-owl-ket/owl-pet/3d-experiments/172-tyto-castanops/tools/run116_instantmesh_official_zerogpu.py", line 86, in main
-    raise RuntimeError("Canonical Run114C RGB input SHA mismatch; do not generate from unrelated owl.")
-RuntimeError: Canonical Run114C RGB input SHA mismatch; do not generate from unrelated owl.
+  File "/home/runner/work/game-owl-ket/game-owl-ket/owl-pet/3d-experiments/172-tyto-castanops/tools/run116_instantmesh_official_zerogpu.py", line 127, in main
+    raise RuntimeError("Multiview returned unrecognized shape: "+str(mvs)[:1000])
+RuntimeError: Multiview returned unrecognized shape: /tmp/gradio/49d87bd690aea03356a65878a524d3c463738baf662889b1a08a85db07326b7e/image.webp

@@ -8,14 +8,27 @@
   "auth_token_used": false,
   "paid_charge_authorized": false,
   "free_public_guest": true,
-  "created_utc": "2026-11-16T18:38:01.828213+00:00",
+  "created_utc": "2026-11-16T18:38:55.363969+00:00",
   "desired_stage": "generate real multiview images and true GLB",
-  "stage": "initial",
+  "stage": "real multi-view diffusion inference",
   "output": "NO_USABLE_GLTF_MODEL",
   "art_gate": "ART_REJECTED",
   "mobile_physical_gpu_test": false,
   "previous_main_blocker": "Hunyuan neural mesh backside scales and elongated rear",
   "input_sha256": "5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9",
+  "input_dimensions": [
+    512,
+    512
+  ],
+  "input_mode": "RGB",
+  "named_endpoints": [
+    "/check_input_image",
+    "/generate_mvs",
+    "/make3d",
+    "/preprocess"
+  ],
+  "preprocess_seconds": 4.035,
+  "multi_view_seconds": 4.672,
   "error_type": "RuntimeError",
-  "error_message": "Canonical Run114C RGB input SHA mismatch; do not generate from unrelated owl."
+  "error_message": "Multiview returned unrecognized shape: /tmp/gradio/49d87bd690aea03356a65878a524d3c463738baf662889b1a08a85db07326b7e/image.webp"
 }

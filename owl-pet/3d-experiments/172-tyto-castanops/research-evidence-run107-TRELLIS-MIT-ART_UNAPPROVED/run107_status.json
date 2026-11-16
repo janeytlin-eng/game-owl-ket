@@ -1,0 +1,45 @@
+{
+  "run": "107",
+  "gate": "ART_UNAPPROVED",
+  "date_utc": "2026-11-16T07:29:23.388316+00:00",
+  "source": "owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run103-TRELLIS2-PBR-ART_UNAPPROVED/preprocessed_image.png",
+  "same_owl_v3_rightmost": true,
+  "input_sha256": "e439928a9ef08d3be266106cb5f2766b6f5a9f2c414d44e8da55ba81732153b8",
+  "input_dims": [
+    548,
+    548
+  ],
+  "alpha_bbox": [
+    59,
+    0,
+    548,
+    548
+  ],
+  "alpha_coverage_64": 0.5556640625,
+  "provider": "trellis-community/TRELLIS",
+  "public_space": "https://huggingface.co/spaces/trellis-community/TRELLIS",
+  "provider_license": "TRELLIS official weights/code MIT; original owl project concept rights and output use to be checked",
+  "no_extra_payment": true,
+  "api_token_used": false,
+  "requested_total_generations": 1,
+  "status": "FREE_PUBLIC_ROUTE_BLOCKED_OR_FAILED",
+  "actual_phone_gpu_tested": false,
+  "visual_review_required": true,
+  "global_release_cleared": false,
+  "named_endpoints": [
+    "/start_session",
+    "/lambda",
+    "/lambda_1",
+    "/preprocess_image",
+    "/preprocess_images",
+    "/get_seed",
+    "/generate_and_extract_glb",
+    "/lambda_2",
+    "/lambda_3",
+    "/extract_gaussian",
+    "/lambda_4",
+    "/lambda_5"
+  ],
+  "error_type": "RuntimeError",
+  "error": "Public TRELLIS demo missing required native mesh generation/extraction APIs"
+}

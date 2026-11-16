@@ -14,7 +14,7 @@
   "full_pbr_required": true,
   "physical_phone_gpu_tested": false,
   "source_plate_license_requires_project_review": true,
-  "started_utc": "2026-11-16T04:41:38Z",
+  "started_utc": "2026-11-16T04:43:49Z",
   "named_endpoints": [
     "/start_session",
     "/preprocess_image",
@@ -24,12 +24,11 @@
     "/lambda_1",
     "/extract_glb"
   ],
-  "preprocess": "FAILED_using_source_crop",
-  "preprocess_error": "AppError('You have exceeded your ZeroGPU runs limit. Authenticate with a Hugging Face token for more quota - https://huggingface.co/settings/tokens')",
+  "preprocess": "SUCCESS",
   "generate_endpoint": "/image_to_3d",
   "seed": 172,
   "resolution": "512",
   "outcome": "NO_GLB_FREE_ROUTE_BLOCKED_OR_FAILED",
-  "error": "AppError: You have exceeded your ZeroGPU quota (120s requested vs. 0s left). Try again in 0:00:00. Authenticate with a Hugging Face token for more quota - https://huggingface.co/settings/tokens",
-  "finished_utc": "2026-11-16T04:41:39Z"
+  "error": "AppError: You have exceeded your ZeroGPU quota (120s requested vs. 178s left). Try again in 23:59:55. Authenticate with a Hugging Face token for more quota - https://huggingface.co/settings/tokens",
+  "finished_utc": "2026-11-16T04:43:56Z"
 }

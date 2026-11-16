@@ -21,4 +21,4 @@ Traceback (most recent call last):
                   ^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/tmp/owl172-run103/lib/python3.12/site-packages/gradio_client/client.py", line 1356, in _predict
     raise AppError(message=message, **result)
-gradio_client.exceptions.AppError: You have exceeded your ZeroGPU quota (120s requested vs. 0s left). Try again in 0:00:00. Authenticate with a Hugging Face token for more quota - https://huggingface.co/settings/tokens
+gradio_client.exceptions.AppError: You have exceeded your ZeroGPU quota (120s requested vs. 178s left). Try again in 23:59:55. Authenticate with a Hugging Face token for more quota - https://huggingface.co/settings/tokens

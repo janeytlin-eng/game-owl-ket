@@ -1,0 +1,126 @@
+name: owl172 Run112 real neural posterior sculpt experiment - ART NOT APPROVED
+on:
+  push:
+    branches: [research/owl172-run112-posterior-microrelief-sculpt-ablation]
+    paths:
+      - .github/workflows/owl-pet-172-run112-true-mesh-microrelief.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run112_*
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  native-mesh-sculpt-ablation-research-only:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 52
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run112-posterior-microrelief-sculpt-ablation
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run111-JUVENILE-NONRIGID-MORPH-ART_UNAPPROVED/run111_juvenile_broadface_34_ART_UNAPPROVED.glb
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run112_existing_neural_mesh_anatomy_surface.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run111_viewer_qa.html
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run111_viewer.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run111_software_webgl_qa.mjs
+            .github/workflows/owl-pet-172-run112-true-mesh-microrelief.yml
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Verify inherited real neural mesh and install no-charge Blender
+        shell: bash
+        run: |
+          set -euo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          SRC="$ROOT/research-evidence-run111-JUVENILE-NONRIGID-MORPH-ART_UNAPPROVED/run111_juvenile_broadface_34_ART_UNAPPROVED.glb"
+          echo "c755adfdea0d54e8de5588d72593009162d799ec2a97dec2026cc1efe613a886  $SRC" | sha256sum -c
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq blender python3-numpy python3-pil
+      - name: Deform native mesh, export two true GLBs, fresh reimport, render eight native views
+        id: native
+        shell: bash
+        continue-on-error: true
+        timeout-minutes: 26
+        run: |
+          set -eo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          SRC="$ROOT/research-evidence-run111-JUVENILE-NONRIGID-MORPH-ART_UNAPPROVED/run111_juvenile_broadface_34_ART_UNAPPROVED.glb"
+          OUT="$ROOT/research-evidence-run112-TRUE-NEURAL-BACK-SCULPT-ART_UNAPPROVED"
+          mkdir -p "$OUT"
+          timeout 1380 blender -b --python-exit-code 42 --python "$ROOT/tools/run112_existing_neural_mesh_anatomy_surface.py" -- --source "$SRC" --out "$OUT" 2>&1 | tee "$OUT/run112_actual_native_blender.log"
+          python3 - "$OUT" <<'PY'
+          from PIL import Image,ImageDraw
+          from pathlib import Path
+          import sys
+          d=Path(sys.argv[1])
+          for v in ('balanced_28','strong_44'):
+              fs=[d/f'run112_{v}_{a}_REAL_CYCLES_UNAPPROVED.png'
+                  for a in ('front','quarter','side','back')]
+              assert all(f.exists() for f in fs),str(fs)
+              out=Image.new('RGB',(880,880),(224,225,221))
+              draw=ImageDraw.Draw(out)
+              for i,f in enumerate(fs):
+                  out.paste(Image.open(f).convert('RGB'),(i%2*440,i//2*440))
+                  draw.text((i%2*440+8,i//2*440+10),
+                       ('front','quarter','side','back')[i],fill=(0,0,0))
+              out.save(d/f'run112_{v}_four_REAL_3D_views_UNAPPROVED.jpg',quality=91)
+          PY
+      - name: Load actual candidate GLB in Chromium browser and simulated phone WebGL
+        id: browser
+        shell: bash
+        if: steps.native.outcome == 'success'
+        continue-on-error: true
+        timeout-minutes: 18
+        run: |
+          set -euo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$GITHUB_WORKSPACE/$ROOT/research-evidence-run112-TRUE-NEURAL-BACK-SCULPT-ART_UNAPPROVED"
+          WEB="$RUNNER_TEMP/owl172_run112_browser"
+          mkdir -p "$WEB" "$OUT/browser"
+          cp "$ROOT/tools/run111_viewer_qa.html" "$WEB/index.html"
+          cp "$ROOT/tools/run111_viewer.mjs" "$WEB/run111_viewer.mjs"
+          cp "$ROOT/tools/run111_software_webgl_qa.mjs" "$WEB/qa.mjs"
+          cp "$OUT/run112_balanced_28_real_neural_sculpt_ART_UNAPPROVED.glb" "$WEB/candidate.glb"
+          cd "$WEB"
+          npm init -y >/dev/null
+          npm install --no-fund --no-audit playwright@1.52.0 three@0.174.0
+          npx playwright install --with-deps chromium
+          python3 -m http.server 4173 --bind 127.0.0.1 > "$OUT/browser/server.log" 2>&1 &
+          pid=$!
+          trap 'kill "$pid" 2>/dev/null || true' EXIT
+          sleep 2
+          node "$WEB/qa.mjs" "$OUT/browser" 2>&1 | tee "$OUT/browser/run112_actual_software_browser.log"
+          mv "$OUT/browser/run111_software_webgl_qa.json" "$OUT/browser/run112_software_webgl_qa.json"
+      - name: Explicit art rejection, status, SHA256 manifest
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run112-TRUE-NEURAL-BACK-SCULPT-ART_UNAPPROVED"
+          mkdir -p "$OUT"
+          printf '%s\n' 'ART_REJECTED: no finished or licensed juvenile. Existing neural surface experiment only. Facial disc, down, short wing, bark support, real physical phone GPU quality gates remain unproven, global Hunyuan source rights uncleared.' > "$OUT/ART_REJECTED.flag"
+          find "$OUT" -maxdepth 2 -type f | sort > "$OUT/actual_files_present.txt"
+          (cd "$OUT"; find . -type f ! -name SHA256SUMS.txt ! -name checksum_validation.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$OUT"; sha256sum -c SHA256SUMS.txt > checksum_validation.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run112-actual-native-posterior-sculpt-ART_UNAPPROVED
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run112-TRUE-NEURAL-BACK-SCULPT-ART_UNAPPROVED
+          retention-days: 30
+      - name: Persist only quarantined Run112 evidence, never species production
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run112-TRUE-NEURAL-BACK-SCULPT-ART_UNAPPROVED
+          git add --sparse "$OUT"
+          git diff --cached --name-only > /tmp/only_run112.txt
+          if grep -v '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run112-' /tmp/only_run112.txt; then exit 4; fi
+          if ! git diff --cached --quiet; then
+            git commit -m "research(owl172): archive Run112 actual 3D sculpt evidence, strictly ART_REJECTED"
+            git push origin HEAD:research/owl172-run112-posterior-microrelief-sculpt-ablation
+          fi

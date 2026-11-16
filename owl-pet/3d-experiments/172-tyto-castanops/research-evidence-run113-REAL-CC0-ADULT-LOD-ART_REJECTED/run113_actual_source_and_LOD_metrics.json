@@ -1,0 +1,72 @@
+{
+  "run": "113",
+  "result": "ART_REJECTED",
+  "source_url": "https://grab3d.com/dl/owl/owl-light.glb",
+  "license_url": "https://grab3d.com/dl/owl/LICENSE.txt",
+  "manifest_url": "https://grab3d.com/dl/owl/manifest.json",
+  "source_license_claim": "CC0 1.0; origin AI-assisted Meshy claimed by distributor; upstream rights not separately verified",
+  "source_subject": "ADULT great horned owl with ear tufts; NOT Tyto castanops juvenile",
+  "source_glb_bytes": 13356032,
+  "source_sha256": "fdcd83d53a5346eac8259a861614f5adae46ce7ad11e33919d05dd1bcd52aaba",
+  "native_blender": "4.0.2",
+  "original_triangle_count": 399999,
+  "original_mesh_parts": 1,
+  "original_materials": 1,
+  "original_texture_images": [
+    {
+      "name": "Image_0",
+      "w": 1024,
+      "h": 1024
+    },
+    {
+      "name": "Image_1",
+      "w": 1024,
+      "h": 1024
+    },
+    {
+      "name": "Viewer Node",
+      "w": 256,
+      "h": 256
+    }
+  ],
+  "original_bounds_m": [
+    [
+      -0.14416591823101044,
+      -0.16050899028778076,
+      -6.8178710534994025e-06
+    ],
+    [
+      0.1442011147737503,
+      0.16049928963184357,
+      0.5500150918960571
+    ]
+  ],
+  "lod_triangle_count": 91999,
+  "lod_glb_bytes": 4155740,
+  "lod_sha256": "66eae3597240b9c02e7b27be57c7f5b7556ff8d68d30cdc43fea83d184832f17",
+  "lod_reimport_triangles": 91999,
+  "lod_mesh_parts": 1,
+  "part_reductions": [
+    {
+      "object": "owl",
+      "triangles_before": 399999,
+      "triangles_after": 91999
+    }
+  ],
+  "native_cycles_render_source": [
+    "run113_cc0_adult_source_orbit000_ACTUAL_3D.png",
+    "run113_cc0_adult_source_orbit090_ACTUAL_3D.png",
+    "run113_cc0_adult_source_orbit180_ACTUAL_3D.png",
+    "run113_cc0_adult_source_orbit270_ACTUAL_3D.png"
+  ],
+  "native_cycles_render_lod": [
+    "run113_cc0_adult_lod_orbit000_ACTUAL_3D.png",
+    "run113_cc0_adult_lod_orbit090_ACTUAL_3D.png",
+    "run113_cc0_adult_lod_orbit180_ACTUAL_3D.png",
+    "run113_cc0_adult_lod_orbit270_ACTUAL_3D.png"
+  ],
+  "actual_phone_gpu_tested": false,
+  "art_approved": false,
+  "why_rejected": "Wrong species/age/morphology: adult horned owl ear tufts, adult full wing/tail, no cream mesoptile down, no Tyto heart facial disc or eucalypt hollow support. Source is benchmark only; no design claims.",
+  "next": "Use evidence to assess a truly juvenile Tyto rights-cleared sculpture, not as a final pet or production asset."
+}

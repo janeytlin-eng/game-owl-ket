@@ -1,0 +1,97 @@
+name: owl172 Run99B free real neural-mesh 3D cream PBR mobile LOD art quarantine
+on:
+  push:
+    branches: [research/owl172-run99-free-hunyuan-neural-geometry-probe]
+    paths:
+      - .github/workflows/owl-pet-172-run99b-cream-pbr-lod-qa.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run99b_free_neural_cream_lod.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  physical-glb-lod-and-native-render:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run99-free-hunyuan-neural-geometry-probe
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run99-HUNYUAN-ZEROGPU-ART_UNAPPROVED/run99_neural_source_ART_UNAPPROVED.glb
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run99b_free_neural_cream_lod.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run99_free_hunyuan_neural_probe.py
+            .github/workflows/owl-pet-172-run99b-cream-pbr-lod-qa.yml
+      - name: Install free Blender and image tools
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq blender python3-numpy python3-pil
+          blender --version | head -n 1
+      - name: Generate real 3D PBR LODs with independent reimport geometry checks
+        shell: bash
+        run: |
+          set -euo pipefail
+          SOURCE="owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run99-HUNYUAN-ZEROGPU-ART_UNAPPROVED/run99_neural_source_ART_UNAPPROVED.glb"
+          DEST="owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run99B-CREAM-PBR-LOD-ART_UNAPPROVED"
+          mkdir -p "$DEST"
+          SCRIPT="owl-pet/3d-experiments/172-tyto-castanops/tools/run99b_free_neural_cream_lod.py"
+          blender -b --python-exit-code 6 --python "$SCRIPT" -- "$SOURCE" "$DEST" \
+            2>&1 | tee "$DEST/blender_lod_realmesh_execution.log"
+      - name: Actually Cycles-render two original mesh LODs from four angles each, not just screenshots
+        shell: bash
+        run: |
+          set -euo pipefail
+          DEST="owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run99B-CREAM-PBR-LOD-ART_UNAPPROVED"
+          SCRIPT="owl-pet/3d-experiments/172-tyto-castanops/tools/run99_free_hunyuan_neural_probe.py"
+          for faces in 72000 32000; do
+            mkdir -p "$DEST/view_$faces"
+            blender -b --python-exit-code 6 --python "$SCRIPT" -- \
+              --mode render --model "$DEST/run99b_cream_"$faces"_ART_UNAPPROVED.glb" \
+              --out "$DEST/view_$faces" 2>&1 | tee "$DEST/view_$faces/native_cycles_execution.log"
+          done
+      - name: Create native four-view contacts, archive hashes and mandatory art reject
+        shell: bash
+        run: |
+          set -euo pipefail
+          DEST="owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run99B-CREAM-PBR-LOD-ART_UNAPPROVED"
+          SCRIPT="owl-pet/3d-experiments/172-tyto-castanops/tools/run99_free_hunyuan_neural_probe.py"
+          for faces in 72000 32000; do
+            python3 "$SCRIPT" --mode manifest --out "$DEST/view_$faces" | tee "$DEST/contact_$faces.log"
+          done
+          cat > "$DEST/ART_GATE_NOT_PASSED.md" <<'EOF'
+          # Run99B: REAL 3D, cream nonmetal PBR, two tested geometry LODs — ART_UNAPPROVED
+
+          Source is actual Run99 Hunyuan3D-2 geometry generated via no-token anonymous public ZeroGPU.
+          Decimation modifies the source 3D mesh, not a 2D billboard, flat SVG or primitives.
+          Original one-image source cannot ground rear anatomy; no expert juvenile plumage groom,
+          physically supported broad eucalyptus hollow, rig/animation, actual mobile WebGL GPU FPS,
+          mobile quality or texture baking has passed. Neutral cream untextured PBR alone is NOT realistic fluff.
+          All outputs quarantined, never release as a pet. No expenditure / no production or base prototype changes.
+          EOF
+          (
+            cd "$DEST"
+            find . -type f -not -name 'SHA256SUMS.txt' -not -name 'archive_checksum.log' -print0 \
+              | sort -z | xargs -0 sha256sum > SHA256SUMS.txt
+            sha256sum -c SHA256SUMS.txt | tee archive_checksum.log
+          )
+      - uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run99B-real-neural-cream-mobile-LOD-ART_UNAPPROVED
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run99B-CREAM-PBR-LOD-ART_UNAPPROVED/
+          retention-days: 30
+      - name: Archive original evidence strictly to independent #172 research branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          DEST="owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run99B-CREAM-PBR-LOD-ART_UNAPPROVED"
+          git add --sparse "$DEST"
+          git diff --cached --name-only > /tmp/run99b-staged.txt
+          if grep -v '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run99B-' /tmp/run99b-staged.txt; then
+            echo 'Unsafe path change blocked'; exit 1
+          fi
+          git commit -m "research(owl172): archive authentic neural mesh mobile LOD PBR and native 8-view rejects"
+          git push origin HEAD:research/owl172-run99-free-hunyuan-neural-geometry-probe

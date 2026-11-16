@@ -81,7 +81,7 @@ for sample in range(10800):
     tan=d.cross(Vector((0,0,1)))
     if tan.length<.08:tan=d.cross(Vector((0,1,0)))
     tan.normalize();tan2=d.cross(tan).normalized()
-    root=q-n*.0025
+    fiber_root=q-n*.0025
     radius=random.uniform(.00052,.00122)
     mat_idx=random.choices(range(len(downmats)),weights=[4,7,10,9,8][:len(downmats)])[0]
     for cross in (tan,tan2):
@@ -89,7 +89,7 @@ for sample in range(10800):
         for j in range(4):
             u=j/3
             bend=tan2*(.006*sin(pi*u)*random.uniform(.80,1.15))
-            center=root+d*(L*u)+bend+Vector((0,0,-.004*u*u))
+            center=fiber_root+d*(L*u)+bend+Vector((0,0,-.004*u*u))
             width=radius*(1-u)**.75 + .00006
             ids.extend((len(vlist),len(vlist)+1))
             vlist.extend((tuple(center-cross*width),tuple(center+cross*width)))

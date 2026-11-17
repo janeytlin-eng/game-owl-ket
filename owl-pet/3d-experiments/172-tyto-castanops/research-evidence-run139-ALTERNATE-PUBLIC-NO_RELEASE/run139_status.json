@@ -18,21 +18,58 @@
     {
       "name": "3dvalley",
       "url": "https://3dvalley.com/tools/create/image-to-3d",
-      "status": "NO_GENERATE_BUTTON",
+      "status": "REAL_GLTF_QUARANTINED_FOR_ART_RIGHTS_QA",
       "screenshots": [
         "run139_3dvalley_initial.png",
         "run139_3dvalley_final.png"
       ],
-      "network": [],
+      "network": [
+        {
+          "url": "https://upsampler-trellis-2.hf.space/gradio_api/file=/tmp/gradio/trellis2-1794911885400.glb",
+          "status": 200,
+          "content_type": "application/octet-stream"
+        }
+      ],
       "actual_public_ui": true,
       "fees_paid": 0,
       "auth_bypassed": false,
-      "generation_clicked": false,
+      "generation_clicked": true,
       "title": "Free AI 3D model generator: image to 3D, no sign-up required | 3D Valley",
       "file_inputs": 1,
-      "ended_utc": "2026-11-17T10:35:56Z"
+      "chosen_button": "Make 3D model",
+      "initial_async_click_or_no_immediate_download": "Page.expect_download: Timeout 5000ms exceeded while waiting for event \"download\"\n=========================== logs ===========================\nwaiting for event \"download\"\n============================================================",
+      "candidates": [
+        {
+          "bytes": 9983448,
+          "sha256": "9a154c9e3aeebb34ebcd6f209760e1d9e21e2f544f2b690dae406d9c8bf878e8",
+          "triangles": 192765,
+          "meshes": 1,
+          "nodes": 2,
+          "images": 2,
+          "textures": 2,
+          "materials": 1,
+          "animations": 0,
+          "known_rejected_sha": false,
+          "glb_header_valid": true
+        }
+      ],
+      "ended_utc": "2026-11-17T10:38:23Z"
     }
   ],
-  "glb_saved": false,
-  "free_provider_research": true
+  "glb_saved": true,
+  "free_provider_research": true,
+  "chosen_glb": {
+    "bytes": 9983448,
+    "sha256": "9a154c9e3aeebb34ebcd6f209760e1d9e21e2f544f2b690dae406d9c8bf878e8",
+    "triangles": 192765,
+    "meshes": 1,
+    "nodes": 2,
+    "images": 2,
+    "textures": 2,
+    "materials": 1,
+    "animations": 0,
+    "known_rejected_sha": false,
+    "glb_header_valid": true
+  },
+  "chosen_provider": "3dvalley"
 }

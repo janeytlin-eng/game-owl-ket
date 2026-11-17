@@ -1,0 +1,89 @@
+name: owl172 Run123 genuine artist-sculpt source access and anatomy gate NO_RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run123-artist-juvenile-source-availability
+    paths:
+      - .github/workflows/owl-pet-172-run123-artist-juvenile-source-probe.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run123_artist_sculpt_source_probe.py
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run123_render_downloaded_glb.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  check-actual-free-artist-juvenile-source:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run123-artist-juvenile-source-availability
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            .github/workflows/owl-pet-172-run123-artist-juvenile-source-probe.yml
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run123_artist_sculpt_source_probe.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run123_render_downloaded_glb.py
+      - name: Perform real zero-payment source requests and inspect magic bytes
+        id: probe
+        continue-on-error: true
+        timeout-minutes: 9
+        shell: bash
+        run: |
+          set -euo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run123-ARTIST-SOURCE-REAL-PROBE-NO_RELEASE"
+          mkdir -p "$OUT"
+          python3 "$ROOT/tools/run123_artist_sculpt_source_probe.py" "$OUT" 2>&1 | tee "$OUT/run123_real_network_probe.log"
+      - name: Real Blender reimport and four-angle rendered QA, only for an acquired GLB
+        id: render
+        continue-on-error: true
+        timeout-minutes: 8
+        shell: bash
+        run: |
+          set -euo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run123-ARTIST-SOURCE-REAL-PROBE-NO_RELEASE"
+          mkdir -p "$OUT"
+          shopt -s nullglob
+          files=("$OUT"/*.glb)
+          if (( ${#files[@]} == 0 )); then
+            echo "NO_GLB_ACQUIRED: do not pretend an API JSON page or a primitive mesh is a model" | tee "$OUT/run123_blender_not_run_reason.txt"
+            exit 0
+          fi
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq blender
+          blender -b --python-exit-code 7 --python "$ROOT/tools/run123_render_downloaded_glb.py" -- "${files[0]}" "$OUT" 2>&1 | tee "$OUT/run123_real_blender_reimport.log"
+      - name: Preserve negative results and complete independent integrity manifest
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run123-ARTIST-SOURCE-REAL-PROBE-NO_RELEASE
+          mkdir -p "$OUT"
+          echo "ART_UNREVIEWED / NO_RELEASE. A metadata page is not a mesh, a successful download is not art approval, and a simulated phone is not physical hardware." > "$OUT/NO_RELEASE.flag"
+          printf "probe=%s\nrender=%s\n" "${{ steps.probe.outcome }}" "${{ steps.render.outcome }}" > "$OUT/run123_steps.txt"
+          (cd "$OUT" && find . -type f ! -name SHA256SUMS.txt ! -name sha_checked.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$OUT" && sha256sum -c SHA256SUMS.txt > sha_checked.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run123-real-source-access-NO-RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run123-ARTIST-SOURCE-REAL-PROBE-NO_RELEASE
+          retention-days: 30
+      - name: Archive strictly isolated factual evidence, not model production
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run123-ARTIST-SOURCE-REAL-PROBE-NO_RELEASE
+          git add --sparse "$OUT"
+          git diff --cached --name-only > /tmp/run123_scope.txt
+          if grep -v '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run123-' /tmp/run123_scope.txt; then
+            echo "Scope violation - STOP";exit 8
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m "research(owl172): Run123 actual free juvenile artist asset access evidence NO_RELEASE"
+            git push origin HEAD:research/owl172-run123-artist-juvenile-source-availability
+          fi

@@ -4,8 +4,9 @@ Native head/body voxel remesh, broad 3D heart mask, open dark eyes, compact fold
 feathered tarsi, hollow rim support, thousands of individually curved tiny feather fibres.
 Not a 2D/SVG substitute. No third-party model or paid generator was used.
 
-Run in isolated GitHub Actions on Ubuntu with actual Blender and four camera renders.
-Evidence and exact outputs are in research-evidence-run153-ORIGINAL-SCULPT-NO_RELEASE/.
+Attempted in isolated GitHub Actions using actual native Blender; the execution
+log and four-view evidence (when present) determine whether rendering succeeded.
+Evidence is under research-evidence-run153-ORIGINAL-SCULPT-NO_RELEASE/.
 Editable .blend and GLB binaries are quarantined in GitHub Actions artifacts only.
 
 **Status: ART_UNREVIEWED / NO_RELEASE.** An exported test GLB does not include the

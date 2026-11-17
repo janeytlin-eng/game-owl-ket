@@ -1,0 +1,161 @@
+name: owl172 Run146 two official free neural image-to-3d source-locked experiments NO_RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run146-quota-reset-two-official-neural-sources
+    paths:
+      - .github/workflows/owl-pet-172-run146-official-free-neural-pair.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run146_pixal_zero_gpu.py
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run146_trellis_zero_gpu.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  two-source-real-neural-3d-quarantine:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 42
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run146-quota-reset-two-official-neural-sources
+          fetch-depth: 0
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run117-FREE-TRELLIS-QUOTA-RECHECK-ART_REJECTED/rightmost_baby_owl_512_rgba.png
+            owl-pet/3d-experiments/172-tyto-castanops/known_rejected_asset_sha256_registry.json
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run146_pixal_zero_gpu.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run146_trellis_zero_gpu.py
+            .github/workflows/owl-pet-172-run146-official-free-neural-pair.yml
+      - name: Verify original juvenile provenance, compile two real provider clients
+        id: preflight
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run146P-PIXAL3D-ZEROGPU-NO_RELEASE"
+          T="$R/research-evidence-run146T-TRELLIS2-ZEROGPU-NO_RELEASE"
+          mkdir -p "$O" "$T"
+          echo 'e439928a9ef08d3be266106cb5f2766b6f5a9f2c414d44e8da55ba81732153b8  '"$R/research-evidence-run117-FREE-TRELLIS-QUOTA-RECHECK-ART_REJECTED/rightmost_baby_owl_512_rgba.png" | sha256sum -c - | tee "$O/run146_preflight_source_sha256.txt"
+          cp "$O/run146_preflight_source_sha256.txt" "$T/"
+          python3 -m py_compile "$R/tools/run146_pixal_zero_gpu.py" "$R/tools/run146_trellis_zero_gpu.py"
+          python3 -m pip install --break-system-packages -q 'Pillow>=10.3' 'gradio_client>=1.0,<2.0' httpx
+      - name: Pixal3D official ZeroGPU free image to real 3D (exactly one inference)
+        id: pixal
+        continue-on-error: true
+        timeout-minutes: 14
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run146P-PIXAL3D-ZEROGPU-NO_RELEASE"
+          python3 "$R/tools/run146_pixal_zero_gpu.py" generate 2>&1 | tee "$O/run146p_actual_provider.log"
+          test -s "$O/run146p_status.json"
+      - name: Microsoft TRELLIS.2 official ZeroGPU free image to real 3D (exactly one inference)
+        id: trellis
+        if: always() && steps.preflight.outcome == 'success'
+        continue-on-error: true
+        timeout-minutes: 14
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          T="$R/research-evidence-run146T-TRELLIS2-ZEROGPU-NO_RELEASE"
+          python3 "$R/tools/run146_trellis_zero_gpu.py" generate 2>&1 | tee "$T/run146t_actual_provider.log"
+          test -s "$T/run146t_status.json"
+      - name: Four native Cycles views ONLY for genuine new nonduplicate GLB
+        id: native
+        if: always()
+        continue-on-error: true
+        timeout-minutes: 10
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run146P-PIXAL3D-ZEROGPU-NO_RELEASE"
+          T="$R/research-evidence-run146T-TRELLIS2-ZEROGPU-NO_RELEASE"
+          python3 - <<'PY'
+          from pathlib import Path
+          import json,hashlib
+          r=Path("owl-pet/3d-experiments/172-tyto-castanops")
+          reject={x["sha256"] for x in json.loads((r/"known_rejected_asset_sha256_registry.json").read_text())["known_rejected_source_glbs"]}
+          for name,folder,glb in [
+             ("Pixal3D",r/"research-evidence-run146P-PIXAL3D-ZEROGPU-NO_RELEASE","run146p_pixal3d_original_NATIVE_RESEARCH_ONLY.glb"),
+             ("TRELLIS.2",r/"research-evidence-run146T-TRELLIS2-ZEROGPU-NO_RELEASE","run146t_trellis2_original_NATIVE_RESEARCH_ONLY.glb")]:
+            p=folder/glb; d={"provider":name,"real_glb_present":p.is_file(),"prior_rejected_hash":None,"eligible_native_review":False}
+            if p.is_file():
+               h=hashlib.sha256(p.read_bytes()).hexdigest();d["sha256"]=h
+               d["prior_rejected_hash"]=h in reject;d["eligible_native_review"]=h not in reject and p.stat().st_size>1024
+            (folder/"run146_duplicate_gate.json").write_text(json.dumps(d,indent=2)+"\n")
+            print(name,d,flush=True)
+          PY
+          ready=0
+          for x in "$O/run146_duplicate_gate.json" "$T/run146_duplicate_gate.json"; do
+            if python3 -c "import json,sys;exit(0 if json.load(open(sys.argv[1]))['eligible_native_review'] else 1)" "$x";then ready=1;fi
+          done
+          if [ "$ready" -eq 0 ]; then
+            echo 'NO_NEW_NATIVE_MESH: Blender and phone simulations appropriately skipped' | tee "$O/run146_native_skipped.txt" "$T/run146_native_skipped.txt"
+            exit 0
+          fi
+          sudo apt-get update -qq && sudo apt-get install -y blender python3-numpy
+          for variant in pixal trellis;do
+            if [ "$variant" = pixal ]; then
+              F="$O";SCRIPT="$R/tools/run146_pixal_zero_gpu.py";prefix=run146p
+            else
+              F="$T";SCRIPT="$R/tools/run146_trellis_zero_gpu.py";prefix=run146t
+            fi
+            if ! python3 -c "import json,sys;exit(0 if json.load(open(sys.argv[1]))['eligible_native_review'] else 1)" "$F/run146_duplicate_gate.json";then continue;fi
+            blender -b -t 2 -P "$SCRIPT" -- render 2>&1 | tee "$F/${prefix}_actual_blender_cycles.log"
+            PREFIX="$prefix" FOLDER="$F" python3 - <<'PY'
+          from PIL import Image,ImageDraw
+          from pathlib import Path
+          import os
+          o=Path(os.environ["FOLDER"]);prefix=os.environ["PREFIX"]
+          views=("front","quarter","side","back")
+          shots=[o/f"{prefix}_{s}_ACTUAL_CYCLES_UNAPPROVED.png" for s in views]
+          assert all(p.is_file() and p.stat().st_size>0 for p in shots), "not four native views"
+          sheet=Image.new("RGB",(960,960),(237,237,237));d=ImageDraw.Draw(sheet)
+          for i,(v,p) in enumerate(zip(views,shots)):
+             pic=Image.open(p).convert("RGB").resize((480,480))
+             xy=(i%2*480,i//2*480);sheet.paste(pic,xy)
+             d.text((xy[0]+12,xy[1]+13),v,fill=(0,0,0))
+          sheet.save(o/f"{prefix}_fourview_UNAPPROVED.jpg",quality=90)
+          PY
+          done
+      - name: Strict SHA256/NO_RELEASE evidence audit
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          for folder in research-evidence-run146P-PIXAL3D-ZEROGPU-NO_RELEASE research-evidence-run146T-TRELLIS2-ZEROGPU-NO_RELEASE;do
+            O="$R/$folder";mkdir -p "$O"
+            printf 'NO_RELEASE. Model is unreviewed research; commercial redistribution rights, soft down, juvenile 360-degree morphology and real physical phone WebGL remain NOT APPROVED. Do not publish either provider GLB.\n' > "$O/NO_RELEASE.flag"
+            printf 'pixal=%s\ntrellis=%s\nnative=%s\n' "${{ steps.pixal.outcome }}" "${{ steps.trellis.outcome }}" "${{ steps.native.outcome }}" > "$O/run146_steps.txt"
+            (cd "$O" && find . -type f ! -name SHA256SUMS.txt ! -name checksum_verification.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+            (cd "$O" && sha256sum -c SHA256SUMS.txt > checksum_verification.log)
+            test -s "$O/SHA256SUMS.txt"
+          done
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run146-official-zero-fee-3d-evidence-NO_RELEASE
+          path: |
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run146P-PIXAL3D-ZEROGPU-NO_RELEASE
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run146T-TRELLIS2-ZEROGPU-NO_RELEASE
+          retention-days: 30
+      - name: Commit only nonbinary #172 experiment evidence to isolated branch
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          git add --sparse "$R/research-evidence-run146P-PIXAL3D-ZEROGPU-NO_RELEASE" "$R/research-evidence-run146T-TRELLIS2-ZEROGPU-NO_RELEASE"
+          git restore --staged -- "$R"/research-evidence-run146*/*.glb 2>/dev/null || true
+          git diff --cached --name-only > /tmp/changed_paths
+          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run146[PT]-' /tmp/changed_paths;then echo SCOPE_VIOLATION;exit 9;fi
+          if ! git diff --cached --quiet;then
+            git commit -m "research(owl172): archive Run146 real official free neural generation evidence NO_RELEASE"
+            git push origin HEAD:research/owl172-run146-quota-reset-two-official-neural-sources
+          fi

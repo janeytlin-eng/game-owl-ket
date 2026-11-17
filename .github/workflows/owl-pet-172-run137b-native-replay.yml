@@ -1,0 +1,94 @@
+name: owl172 Run137B real GLB native replay no denoise ART_REJECTED
+on:
+  push:
+    branches:
+      - research/owl172-run137b-native-replay-no-denoise
+    paths:
+      - .github/workflows/owl-pet-172-run137b-native-replay.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run137b_replay_native_cycles.py
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  native-qa-no-release:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 22
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run137b-native-replay-no-denoise
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run137b_replay_native_cycles.py
+            .github/workflows/owl-pet-172-run137b-native-replay.yml
+      - uses: actions/download-artifact@v4
+        with:
+          name: owl172-run137-free-public-native-RESEARCH-NO_RELEASE
+          repository: janeytlin-eng/game-owl-ket
+          run-id: 44058467326
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          path: /tmp/owl137_original
+      - name: Render four true 3D viewpoints in Blender with denoiser disabled
+        id: native
+        continue-on-error: true
+        timeout-minutes: 13
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run137b-NATIVE-REPLAY-ART_REJECTED-NO_RELEASE"
+          mkdir -p "$O"
+          python3 -m py_compile "$R/tools/run137b_replay_native_cycles.py"
+          sha256sum /tmp/owl137_original/run137_verified_raw_provider_RESEARCH_ONLY.glb | tee "$O/run137b_actual_source_sha256.txt"
+          echo 'b65fe7ca77aee54806792f473f15282000a5adc1f3798283a83c1b9bc928630d  /tmp/owl137_original/run137_verified_raw_provider_RESEARCH_ONLY.glb' | sha256sum -c
+          sudo apt-get update -qq
+          sudo apt-get install -y blender python3-numpy
+          blender --version | head -3 | tee "$O/run137b_blender_version.txt"
+          blender -b -t 2 -P "$R/tools/run137b_replay_native_cycles.py" 2>&1 | tee "$O/run137b_native_cycles.log"
+          python3 - <<'PY'
+          from PIL import Image, ImageDraw
+          from pathlib import Path
+          O=Path('owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run137b-NATIVE-REPLAY-ART_REJECTED-NO_RELEASE')
+          order=('front','quarter','side','back')
+          shot=[O/('run137b_native_'+s+'_UNAPPROVED.png') for s in order]
+          assert all(s.is_file() for s in shot), "Actual Cycles render missing"
+          picture=Image.new('RGB',(1100,1100),(238,238,238))
+          for i,(name,p) in enumerate(zip(order,shot)):
+            picture.paste(Image.open(p).convert('RGB'),((i%2)*550,(i//2)*550))
+            ImageDraw.Draw(picture).text(((i%2)*550+15,(i//2)*550+15),name,fill=(0,0,0))
+          picture.save(O/'run137b_four_actual_native_views_UNAPPROVED.jpg',quality=87)
+          print("Four true viewpoints generated, no user approval")
+          PY
+      - name: Quarantine, manifest and evidence checksums
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run137b-NATIVE-REPLAY-ART_REJECTED-NO_RELEASE
+          mkdir -p "$O"
+          echo 'NO_RELEASE: visual arts, mobile WebGL and third-party output rights unapproved. Never publish raw GLB.' > "$O/NO_RELEASE.flag"
+          printf 'native_step_outcome=%s\n' '${{ steps.native.outcome }}' > "$O/steps.txt"
+          (cd "$O" && find . -type f ! -name SHA256SUMS.txt ! -name checksum_verification.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$O" && sha256sum -c SHA256SUMS.txt > checksum_verification.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run137b-real-blender-replay-ART_REJECTED-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run137b-NATIVE-REPLAY-ART_REJECTED-NO_RELEASE
+          retention-days: 30
+      - name: Archive isolated rendering evidence only
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run137b-NATIVE-REPLAY-ART_REJECTED-NO_RELEASE
+          git add --sparse "$O"
+          git diff --cached --name-only > /tmp/owl137b_paths
+          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run137b-' /tmp/owl137b_paths; then echo SCOPE_VIOLATION; exit 9; fi
+          if ! git diff --cached --quiet; then
+            git commit -m 'research(owl172): archive true four-view Run137B native Blender replay, reject for art'
+            git push origin HEAD:research/owl172-run137b-native-replay-no-denoise
+          fi

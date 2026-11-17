@@ -1,0 +1,11 @@
+Blender 4.0.2
+Traceback (most recent call last):
+  File "/home/runner/work/game-owl-ket/game-owl-ket/owl-pet/3d-experiments/172-tyto-castanops/tools/run153_original_sculpt_groom.py", line 52, in <module>
+    metaball(0,-.055,1.02,.88,(.79,.68,1.03))  # spherical, compact, crouched torso
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/game-owl-ket/game-owl-ket/owl-pet/3d-experiments/172-tyto-castanops/tools/run153_original_sculpt_groom.py", line 50, in metaball
+    el=mb.elements.new("ELLIPSOID"); el.co=(x,y,z); el.radius=r
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: MetaBallElements.new(): required parameter "type" to be a keyword argument!
+
+Blender quit

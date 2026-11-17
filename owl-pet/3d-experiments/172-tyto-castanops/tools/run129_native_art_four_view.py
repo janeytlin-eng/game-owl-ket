@@ -26,7 +26,9 @@ scene.render.resolution_x=540;scene.render.resolution_y=540
 scene.render.resolution_percentage=100
 scene.render.image_settings.file_format="PNG"
 scene.render.film_transparent=False
+if scene.world is None: scene.world=bpy.data.worlds.new("Run129NeutralStudio")
 scene.world.color=(0.28,0.28,0.28)
+scene.view_layers[0].cycles.use_denoising=False
 # Four neutral area-light views; do not alter the imported source geometry.
 def area(name,loc,power,size):
     bpy.ops.object.light_add(type="AREA", location=loc)

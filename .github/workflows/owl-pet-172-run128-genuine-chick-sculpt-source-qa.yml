@@ -1,0 +1,78 @@
+name: owl172 Run128 real creator-listed juvenile sculpt no-cost download gate
+on:
+  push:
+    branches:
+      - research/owl172-run128-true-juvenile-sculpt-official-access
+    paths:
+      - .github/workflows/owl-pet-172-run128-genuine-chick-sculpt-source-qa.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run128_actual_baby_owl_sculpt_access.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  independent-juvenile-model-access:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run128-true-juvenile-sculpt-official-access
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run128_actual_baby_owl_sculpt_access.py
+            .github/workflows/owl-pet-172-run128-genuine-chick-sculpt-source-qa.yml
+      - name: Install real Chromium browser
+        id: browser
+        continue-on-error: true
+        timeout-minutes: 7
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 -m pip install --break-system-packages playwright==1.56.0
+          python3 -m playwright install --with-deps chromium
+      - name: Navigate creators actual free-asset listing and test authorized free download without login
+        id: probe
+        if: steps.browser.outcome == 'success'
+        continue-on-error: true
+        timeout-minutes: 6
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run128-REAL-JUVENILE-ARTIST-SOURCE-NO_RELEASE"
+          mkdir -p "$O"
+          python3 "$R/tools/run128_actual_baby_owl_sculpt_access.py" "$O" 2>&1 | tee "$O/run128_actual_browser.log"
+      - name: Preserve access evidence and independent SHA256 validation
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run128-REAL-JUVENILE-ARTIST-SOURCE-NO_RELEASE
+          mkdir -p "$O"
+          printf 'Evidence collection on Run128 research branch; check run128_actual_browser.log for source verdict.\n' > "$O/steps.txt"
+          test -f "$O/NO_RELEASE.flag" || echo 'NO_RELEASE: browser setup/source probe failed; no model verification.' > "$O/NO_RELEASE.flag"
+          (cd "$O" && find . -type f ! -name SHA256SUMS.txt ! -name sha_checked.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$O" && sha256sum -c SHA256SUMS.txt > sha_checked.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run128-genuine-juvenile-sculpt-source-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run128-REAL-JUVENILE-ARTIST-SOURCE-NO_RELEASE
+          retention-days: 30
+      - name: Commit only #172 new research evidence, no deployment or original model changes
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run128-REAL-JUVENILE-ARTIST-SOURCE-NO_RELEASE
+          git add --sparse "$O"
+          git diff --cached --name-only > /tmp/owl172-run128-only.txt
+          if grep -v '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run128-' /tmp/owl172-run128-only.txt; then
+            echo 'SCOPE VIOLATION, not committing'; exit 9
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m "research(owl172): archive Run128 actual juvenile artist free-source access and legal gate"
+            git push origin HEAD:research/owl172-run128-true-juvenile-sculpt-official-access
+          fi

@@ -1,0 +1,75 @@
+<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Run140 #172 Actual Binary GLB Local QA - NO RELEASE</title>
+<style>html,body{margin:0;padding:0;width:100%;height:100%;overflow:hidden;background:#bab7b1}canvas{width:100%;height:100%;display:block}#status{position:absolute;top:8px;left:8px;font:12px monospace;background:#fff9;padding:8px;max-width:80%;pointer-events:none}</style>
+<canvas id="canvas"></canvas><div id="status">Research only. Not a released character.</div>
+<script type="importmap">{"imports":{"three":"/node_modules/three/build/three.module.js","three/addons/":"/node_modules/three/examples/jsm/"}}</script>
+<script type="module">
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+const params=new URLSearchParams(location.search), source=params.get('model')||'run139_original_RESEARCH_ONLY.glb';
+window.__qa={ready:false,error:null,source:source,draws:0,frameTimes:[]};
+try{
+const canvas=document.getElementById('canvas');
+const renderer=new THREE.WebGLRenderer({canvas:canvas,antialias:false,preserveDrawingBuffer:true,powerPreference:'low-power'});
+const mobileWidth=Math.min(innerWidth,900);
+renderer.setPixelRatio(Math.min(devicePixelRatio||1,1.5));renderer.setSize(innerWidth,innerHeight);
+renderer.setClearColor(0xc9c8c3,1);
+renderer.outputColorSpace=THREE.SRGBColorSpace;
+const scene=new THREE.Scene();
+scene.background=new THREE.Color(0xc9c8c3);
+scene.add(new THREE.AmbientLight(0xffffff,1.6));
+const light=new THREE.DirectionalLight(0xffffff,2.0);light.position.set(-2,4,6);scene.add(light);
+const second=new THREE.DirectionalLight(0xffffff,0.7);second.position.set(3,1,-4);scene.add(second);
+const camera=new THREE.PerspectiveCamera(42,innerWidth/innerHeight,.001,100);
+window.addEventListener('error',e=>window.__qa.error=String(e.message));
+const gl=renderer.getContext(),isGL2=gl instanceof WebGL2RenderingContext;
+window.__qa.webgl2=Boolean(isGL2);
+window.__qa.renderer=gl.getParameter(gl.RENDERER);
+window.__qa.vendor=gl.getParameter(gl.VENDOR);
+const gltf=await new GLTFLoader().loadAsync(source);
+const obj=gltf.scene;const pivot=new THREE.Group();scene.add(pivot);pivot.add(obj);
+const box=new THREE.Box3().setFromObject(obj);
+const size=new THREE.Vector3();box.getSize(size);
+const center=new THREE.Vector3();box.getCenter(center);
+obj.position.sub(center);
+const span=Math.max(size.x,size.y,size.z);
+const viewSize=Math.max(span,0.1);
+camera.position.set(0,viewSize*.08,Math.max(viewSize*2.3,viewSize*.70/(Math.tan(THREE.MathUtils.degToRad(camera.fov/2))*Math.min(1,camera.aspect))));
+camera.lookAt(0,0,0);
+camera.near=viewSize*.01;camera.far=viewSize*30;camera.updateProjectionMatrix();
+let materialSet=new Set(),mapSet=new Set(),meshes=0;
+obj.traverse(o=>{
+ if(o.isMesh){
+    meshes+=1;
+    const a=Array.isArray(o.material)?o.material:[o.material];
+    a.filter(Boolean).forEach(m=>{materialSet.add(m.uuid);if(m.map)mapSet.add(m.map.uuid);});
+ }
+});
+window.__qa.model={meshes:meshes,materials:materialSet.size,colorMaps:mapSet.size,
+  animations:gltf.animations.length,bbox:size.toArray()};
+let last=performance.now();
+function frame(now){
+ const delta=now-last;last=now;
+ if(window.__qa.frameTimes.length<160)window.__qa.frameTimes.push(delta);
+ pivot.rotation.y=(params.get('back')==='1'?Math.PI:0);
+ renderer.render(scene,camera);
+ if(window.__qa.draws===8) {
+  pivot.updateMatrixWorld(true); camera.updateMatrixWorld(true);
+  const bb=new THREE.Box3().setFromObject(pivot);
+  const x0=bb.min.x,x1=bb.max.x,y0=bb.min.y,y1=bb.max.y,z0=bb.min.z,z1=bb.max.z;
+  const corners=[];
+  for(const x of [x0,x1])for(const y of [y0,y1])for(const z of [z0,z1])corners.push(new THREE.Vector3(x,y,z).project(camera));
+  const minx=Math.min(...corners.map(v=>v.x)),maxx=Math.max(...corners.map(v=>v.x));
+  const miny=Math.min(...corners.map(v=>v.y)),maxy=Math.max(...corners.map(v=>v.y));
+  window.__qa.frustum_ndc_aabb={minx,maxx,miny,maxy};
+  window.__qa.frustum_bbox_fits=Boolean(minx>-.97&&maxx<.97&&miny>-.97&&maxy<.97);
+ }
+ window.__qa.draws++;
+ window.__qa.triangles=renderer.info.render.triangles;
+ requestAnimationFrame(frame);
+}
+window.__qa.ready=true;
+document.getElementById('status').innerText='Research-only real 3D · NO_RELEASE · '+source;
+requestAnimationFrame(frame);
+}catch(e){window.__qa.error=String(e&&e.stack||e);document.getElementById('status').innerText=window.__qa.error;}
+</script>

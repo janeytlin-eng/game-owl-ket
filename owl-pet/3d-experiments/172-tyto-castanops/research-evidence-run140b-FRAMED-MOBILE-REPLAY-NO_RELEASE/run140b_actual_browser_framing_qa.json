@@ -1,0 +1,226 @@
+{
+  "source_sha256": "9a154c9e3aeebb34ebcd6f209760e1d9e21e2f544f2b690dae406d9c8bf878e8",
+  "source_bytes": 9983448,
+  "QA_NOT_ART_APPROVAL": true,
+  "physical_mobile_tested": false,
+  "simulated_mobile_only": true,
+  "third_party_rights_unverified": true,
+  "variants": [
+    {
+      "variant": "run139_original_RESEARCH_ONLY.glb",
+      "profile": "mobile390",
+      "source_hash": "9a154c9e3aeebb34ebcd6f209760e1d9e21e2f544f2b690dae406d9c8bf878e8",
+      "ready": true,
+      "error": null,
+      "source": "run139_original_RESEARCH_ONLY.glb",
+      "draws": 67,
+      "webgl2": true,
+      "renderer": "WebKit WebGL",
+      "vendor": "WebKit",
+      "model": {
+        "meshes": 1,
+        "materials": 1,
+        "colorMaps": 1,
+        "animations": 0,
+        "bbox": [
+          0.45766824996098876,
+          0.475094273686409,
+          0.7001332938671112
+        ]
+      },
+      "triangles": 192765,
+      "frustum_ndc_aabb": {
+        "minx": -0.5355868554717911,
+        "maxx": 0.535586855471791,
+        "miny": -0.2634773526710504,
+        "maxy": 0.24918393301926656
+      },
+      "frustum_bbox_fits": true,
+      "console_page_errors": [],
+      "screenshot": "run140b_run139_original_RESEARCH_ONLY_mobile390_ACTUAL_WEBGL.png",
+      "frame_ms_median_software": 16.699999999999818,
+      "frame_ms_p95_software": 83.30000000000001,
+      "passed_software_gl_render": true
+    },
+    {
+      "variant": "run139_original_RESEARCH_ONLY.glb",
+      "profile": "desktop1280",
+      "source_hash": "9a154c9e3aeebb34ebcd6f209760e1d9e21e2f544f2b690dae406d9c8bf878e8",
+      "ready": true,
+      "error": null,
+      "source": "run139_original_RESEARCH_ONLY.glb",
+      "draws": 30,
+      "webgl2": true,
+      "renderer": "WebKit WebGL",
+      "vendor": "WebKit",
+      "model": {
+        "meshes": 1,
+        "materials": 1,
+        "colorMaps": 1,
+        "animations": 0,
+        "bbox": [
+          0.45766824996098876,
+          0.475094273686409,
+          0.7001332938671112
+        ]
+      },
+      "triangles": 192765,
+      "frustum_ndc_aabb": {
+        "minx": -0.2675818608021024,
+        "maxx": 0.2675818608021024,
+        "miny": -0.5120636704243947,
+        "maxy": 0.46821858801686783
+      },
+      "frustum_bbox_fits": true,
+      "console_page_errors": [],
+      "screenshot": "run140b_run139_original_RESEARCH_ONLY_desktop1280_ACTUAL_WEBGL.png",
+      "frame_ms_median_software": 16.699999999999932,
+      "frame_ms_p95_software": 83.30000000000001,
+      "passed_software_gl_render": true
+    },
+    {
+      "variant": "run140_lod25_TEXTURED_RESEARCH_ONLY.glb",
+      "profile": "mobile390",
+      "source_hash": "6a39340f48b0d83b31a6b1147f341121648430dd15537151bac72acbba48ee50",
+      "ready": true,
+      "error": null,
+      "source": "run140_lod25_TEXTURED_RESEARCH_ONLY.glb",
+      "draws": 95,
+      "webgl2": true,
+      "renderer": "WebKit WebGL",
+      "vendor": "WebKit",
+      "model": {
+        "meshes": 1,
+        "materials": 1,
+        "colorMaps": 1,
+        "animations": 0,
+        "bbox": [
+          0.4631140995770693,
+          0.4756776988506317,
+          0.700371727347374
+        ]
+      },
+      "triangles": 48191,
+      "frustum_ndc_aabb": {
+        "minx": -0.5417763246608136,
+        "maxx": 0.5417763246608136,
+        "miny": -0.2637038539495018,
+        "maxy": 0.2494122496128407
+      },
+      "frustum_bbox_fits": true,
+      "console_page_errors": [],
+      "screenshot": "run140b_run140_lod25_TEXTURED_RESEARCH_ONLY_mobile390_ACTUAL_WEBGL.png",
+      "frame_ms_median_software": 16.699999999999932,
+      "frame_ms_p95_software": 66.60000000000036,
+      "passed_software_gl_render": true
+    },
+    {
+      "variant": "run140_lod25_TEXTURED_RESEARCH_ONLY.glb",
+      "profile": "desktop1280",
+      "source_hash": "6a39340f48b0d83b31a6b1147f341121648430dd15537151bac72acbba48ee50",
+      "ready": true,
+      "error": null,
+      "source": "run140_lod25_TEXTURED_RESEARCH_ONLY.glb",
+      "draws": 93,
+      "webgl2": true,
+      "renderer": "WebKit WebGL",
+      "vendor": "WebKit",
+      "model": {
+        "meshes": 1,
+        "materials": 1,
+        "colorMaps": 1,
+        "animations": 0,
+        "bbox": [
+          0.4631140995770693,
+          0.4756776988506317,
+          0.700371727347374
+        ]
+      },
+      "triangles": 48191,
+      "frustum_ndc_aabb": {
+        "minx": -0.27067525278505405,
+        "maxx": 0.27067525278505405,
+        "miny": -0.5124928471481504,
+        "maxy": 0.4686591563159015
+      },
+      "frustum_bbox_fits": true,
+      "console_page_errors": [],
+      "screenshot": "run140b_run140_lod25_TEXTURED_RESEARCH_ONLY_desktop1280_ACTUAL_WEBGL.png",
+      "frame_ms_median_software": 16.69999999999999,
+      "frame_ms_p95_software": 66.59999999999991,
+      "passed_software_gl_render": true
+    },
+    {
+      "variant": "run140_lod12_TEXTURED_RESEARCH_ONLY.glb",
+      "profile": "mobile390",
+      "source_hash": "f9e5371e77a497a5e74458f97b0bad48a5592aa7919e079d602a26bd9966dc08",
+      "ready": true,
+      "error": null,
+      "source": "run140_lod12_TEXTURED_RESEARCH_ONLY.glb",
+      "draws": 121,
+      "webgl2": true,
+      "renderer": "WebKit WebGL",
+      "vendor": "WebKit",
+      "model": {
+        "meshes": 1,
+        "materials": 1,
+        "colorMaps": 1,
+        "animations": 0,
+        "bbox": [
+          0.4616754222661257,
+          0.48512503504753113,
+          0.6968080848455429
+        ]
+      },
+      "triangles": 23131,
+      "frustum_ndc_aabb": {
+        "minx": -0.5428826811743821,
+        "maxx": 0.5428826811743821,
+        "miny": -0.2701114996306251,
+        "maxy": 0.2558719196115349
+      },
+      "frustum_bbox_fits": true,
+      "console_page_errors": [],
+      "screenshot": "run140b_run140_lod12_TEXTURED_RESEARCH_ONLY_mobile390_ACTUAL_WEBGL.png",
+      "frame_ms_median_software": 16.700000000000045,
+      "frame_ms_p95_software": 50.09999999999991,
+      "passed_software_gl_render": true
+    },
+    {
+      "variant": "run140_lod12_TEXTURED_RESEARCH_ONLY.glb",
+      "profile": "desktop1280",
+      "source_hash": "f9e5371e77a497a5e74458f97b0bad48a5592aa7919e079d602a26bd9966dc08",
+      "ready": true,
+      "error": null,
+      "source": "run140_lod12_TEXTURED_RESEARCH_ONLY.glb",
+      "draws": 116,
+      "webgl2": true,
+      "renderer": "WebKit WebGL",
+      "vendor": "WebKit",
+      "model": {
+        "meshes": 1,
+        "materials": 1,
+        "colorMaps": 1,
+        "animations": 0,
+        "bbox": [
+          0.4616754222661257,
+          0.48512503504753113,
+          0.6968080848455429
+        ]
+      },
+      "triangles": 23131,
+      "frustum_ndc_aabb": {
+        "minx": -0.2712592519072711,
+        "maxx": 0.2712592519072711,
+        "miny": -0.5246326900684328,
+        "maxy": 0.48112546604924933
+      },
+      "frustum_bbox_fits": true,
+      "console_page_errors": [],
+      "screenshot": "run140b_run140_lod12_TEXTURED_RESEARCH_ONLY_desktop1280_ACTUAL_WEBGL.png",
+      "frame_ms_median_software": 16.700000000000045,
+      "frame_ms_p95_software": 66.59999999999997,
+      "passed_software_gl_render": true
+    }
+  ]
+}

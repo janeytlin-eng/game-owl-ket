@@ -27,6 +27,10 @@ jobs:
           mkdir -p /tmp/owl172_run153
           export OWL153_OUT=/tmp/owl172_run153
           timeout 1400s blender -b -t 2 --python owl-pet/3d-experiments/172-tyto-castanops/tools/run153_original_sculpt_groom.py 2>&1 | tee /tmp/owl172_run153/blender_actual.log
+          if grep -q "Traceback (most recent call last)" /tmp/owl172_run153/blender_actual.log; then echo "Blender script exception detected"; exit 1; fi
+          test -s /tmp/owl172_run153/run153_status.json
+          test -s /tmp/owl172_run153/front_actual_cycles.png
+          test -s /tmp/owl172_run153/back_actual_cycles.png
       - name: Produce actual contact proof and truthful report
         if: always()
         shell: bash
@@ -67,8 +71,9 @@ jobs:
           feathered tarsi, hollow rim support, thousands of individually curved tiny feather fibres.
           Not a 2D/SVG substitute. No third-party model or paid generator was used.
 
-          Run in isolated GitHub Actions on Ubuntu with actual Blender and four camera renders.
-          Evidence and exact outputs are in research-evidence-run153-ORIGINAL-SCULPT-NO_RELEASE/.
+          Attempted in isolated GitHub Actions using actual native Blender; the execution
+          log and four-view evidence (when present) determine whether rendering succeeded.
+          Evidence is under research-evidence-run153-ORIGINAL-SCULPT-NO_RELEASE/.
           Editable .blend and GLB binaries are quarantined in GitHub Actions artifacts only.
 
           **Status: ART_UNREVIEWED / NO_RELEASE.** An exported test GLB does not include the

@@ -56,6 +56,21 @@
           "run": 140
         }
       ]
+    },
+    {
+      "sha256": "2c5b18e38c3d2087a7698a651c1f2f6e04a3322ee48d645f50703f09fbb9d332",
+      "size_bytes": 10939568,
+      "source": "3dvalley.com/tools/create/image-to-3d public no-fee TRELLIS.2 Standard from pinned #172 rightmost source, 1024px Lanczos/unsharp/color-ablation variant",
+      "first_checked_run": 142,
+      "real_glb": true,
+      "triangles": 193152,
+      "meshes": 1,
+      "texture_images": 2,
+      "materials": 1,
+      "animations": 0,
+      "art_decision": "ART_REJECTED",
+      "grounds": "Native four-view actual Blender review: eye openings narrow/closed despite source open eyes; dark mottled/scaly instead of soft cream down; visible long flight-feather wing and tail in profile and back; claws unsupported; no tree hollow lip; 1024px preprocessing did not fix structural single-view inference. Source redistribution and real-phone GPU unverified.",
+      "reference": "2026-11-17-run142-upscaled-source-actual-pbr-fourview-ART_REJECTED-NO_RELEASE.md"
     }
   ],
   "instructions": "Before a new download, consult previous run records and this hash index. Once bytes are fetched compare sha256; if matching a rejected source, skip Blender/rig/WebGL/art release and log source identity. Publisher CC0 claims are not independently proven rights."

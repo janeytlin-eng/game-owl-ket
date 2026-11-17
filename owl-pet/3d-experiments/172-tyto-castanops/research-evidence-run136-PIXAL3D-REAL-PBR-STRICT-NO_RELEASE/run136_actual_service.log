@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/runner/work/game-owl-ket/game-owl-ket/owl-pet/3d-experiments/172-tyto-castanops/tools/run136_pixal3d_single_free_native_attempt.py", line 151, in <module>
+    if sys.argv[-1]=="generate":generate()
+                                ^^^^^^^^^^
+  File "/home/runner/work/game-owl-ket/game-owl-ket/owl-pet/3d-experiments/172-tyto-castanops/tools/run136_pixal3d_single_free_native_attempt.py", line 52, in generate
+    assert SOURCE.is_file(), "Original reference crop absent"
+           ^^^^^^^^^^^^^^^^
+AssertionError: Original reference crop absent

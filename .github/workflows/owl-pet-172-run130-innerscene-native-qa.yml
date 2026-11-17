@@ -1,0 +1,97 @@
+name: owl172 Run130 public 3D owl CC0 direct binary + native visual quality gate
+on:
+  push:
+    branches:
+      - research/owl172-run130-innerscene-cc0-mesh-native-art-qa
+    paths:
+      - .github/workflows/owl-pet-172-run130-innerscene-native-qa.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run130_innerscene_actual_cc0_source.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  actual-cc0-owl-binary-native-qa:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 22
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run130-innerscene-cc0-mesh-native-art-qa
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run130_innerscene_actual_cc0_source.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run129_native_art_four_view.py
+            .github/workflows/owl-pet-172-run130-innerscene-native-qa.yml
+      - name: Actually fetch official free 3D binary and validate GLB header
+        id: fetch
+        continue-on-error: true
+        timeout-minutes: 4
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run130-innerscene-actual-CC0-source-ART_UNREVIEWED-NO_RELEASE"
+          mkdir -p "$O"
+          python3 -m py_compile "$R/tools/run130_innerscene_actual_cc0_source.py"
+          python3 "$R/tools/run130_innerscene_actual_cc0_source.py" "$O" 2>&1 | tee "$O/run130_source_actual.log"
+      - name: Install actual Blender and required numpy for native glTF import
+        if: steps.fetch.outcome == 'success'
+        id: setup
+        continue-on-error: true
+        timeout-minutes: 5
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run130-innerscene-actual-CC0-source-ART_UNREVIEWED-NO_RELEASE"
+          if [ ! -f "$O/run130_Innerscene_CC0_owl_SOURCE_ONLY.glb" ]; then echo NO_SOURCE_GLB | tee "$O/no_source.txt"; exit 0; fi
+          sudo apt-get update -qq
+          sudo apt-get install -y blender python3-numpy
+          blender --version | head -2 | tee "$O/run130_blender_version.txt"
+      - name: Import real GLB and render 4 native angles without falsely claiming juvenile sculpt
+        if: steps.setup.outcome == 'success'
+        id: native
+        continue-on-error: true
+        timeout-minutes: 10
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run130-innerscene-actual-CC0-source-ART_UNREVIEWED-NO_RELEASE"
+          if [ ! -f "$O/run130_Innerscene_CC0_owl_SOURCE_ONLY.glb" ]; then echo NO_REAL_GLB | tee "$O/native_skipped.txt"; exit 0; fi
+          sed -e 's/run129_/run130_/g' -e 's/cycles.samples=18/cycles.samples=12/' -e 's/resolution_x=540/resolution_x=480/' -e 's/resolution_y=540/resolution_y=480/' "$R/tools/run129_native_art_four_view.py" > /tmp/run130_native_four_angles.py
+          blender -b -t 2 -P /tmp/run130_native_four_angles.py -- "$O/run130_Innerscene_CC0_owl_SOURCE_ONLY.glb" "$O" 2>&1 | tee "$O/run130_blender_actual.log"
+          test "$(find "$O" -maxdepth 1 -name 'run130_*.png' | wc -l)" -eq 4
+      - name: Strict NO_RELEASE and independent SHA256 verification; omit all original binary
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run130-innerscene-actual-CC0-source-ART_UNREVIEWED-NO_RELEASE
+          mkdir -p "$O"
+          test -f "$O/NO_RELEASE.flag" || printf "NO_RELEASE: source probe failed.\n" > "$O/NO_RELEASE.flag"
+          printf 'source_step=%s\nsetup_step=%s\nnative_step=%s\n' "${{ steps.fetch.outcome }}" "${{ steps.setup.outcome }}" "${{ steps.native.outcome }}" > "$O/run130_steps.txt"
+          rm -f "$O/run130_Innerscene_CC0_owl_SOURCE_ONLY.glb"
+          (cd "$O" && find . -type f ! -name SHA256SUMS.txt ! -name sha_checked.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$O" && sha256sum -c SHA256SUMS.txt > sha_checked.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run130-innerscene-real-3D-art-gate-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run130-innerscene-actual-CC0-source-ART_UNREVIEWED-NO_RELEASE
+          retention-days: 30
+      - name: Commit only scoped real evidence to isolated Run130 branch
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run130-innerscene-actual-CC0-source-ART_UNREVIEWED-NO_RELEASE
+          git add --sparse "$O"
+          git diff --cached --name-only > /tmp/run130_scope.txt
+          if grep -v '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run130-' /tmp/run130_scope.txt; then echo SCOPE_VIOLATION; exit 9; fi
+          if ! git diff --cached --quiet; then
+            git commit -m "research(owl172): archive actual Run130 GLB source and native four angle evidence as NO_RELEASE"
+            git push origin HEAD:research/owl172-run130-innerscene-cc0-mesh-native-art-qa
+          fi

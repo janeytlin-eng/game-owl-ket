@@ -1,0 +1,40 @@
+{
+  "/preprocess": {
+    "parameter_names": [
+      "image"
+    ],
+    "returns": 1
+  },
+  "/generate_3d": {
+    "parameter_names": [
+      "image",
+      "seed",
+      "resolution",
+      "ss_guidance_strength",
+      "ss_guidance_rescale",
+      "ss_sampling_steps",
+      "ss_rescale_t",
+      "shape_slat_guidance_strength",
+      "shape_slat_guidance_rescale",
+      "shape_slat_sampling_steps",
+      "shape_slat_rescale_t",
+      "tex_slat_guidance_strength",
+      "tex_slat_guidance_rescale",
+      "tex_slat_sampling_steps",
+      "tex_slat_rescale_t",
+      "manual_fov",
+      "fov_unit",
+      "session_id"
+    ],
+    "returns": 1
+  },
+  "/extract_glb_api": {
+    "parameter_names": [
+      "state_path",
+      "decimation_target",
+      "texture_size",
+      "session_id"
+    ],
+    "returns": 1
+  }
+}

@@ -1,0 +1,96 @@
+name: owl172 Run141 actual native PBR anatomy eye/wing ablation strict NO_RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run141-pbr-native-eye-wing-sculpt
+    paths:
+      - .github/workflows/owl-pet-172-run141-native-pbr-anatomy-ablation.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run141_native_anatomy_eye_ablation.py
+  workflow_dispatch:
+permissions:
+  actions: read
+  contents: write
+jobs:
+  native-pbr-eye-wing-real-no-release:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 26
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run141-pbr-native-eye-wing-sculpt
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            .github/workflows/owl-pet-172-run141-native-pbr-anatomy-ablation.yml
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run141_native_anatomy_eye_ablation.py
+      - name: Obtain exact quarantined Run140 real neural source, not a proxy
+        uses: actions/download-artifact@v4
+        with:
+          name: owl172-run140-real-textured-lod-software-webgl-NO_RELEASE
+          run-id: 44067284027
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/run141_source_archive
+      - name: Actually deform original 192765 triangle PBR GLB and render 12 true native views
+        id: native
+        continue-on-error: true
+        timeout-minutes: 16
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run141-NATIVE-PBR-EYE-WING-NO_RELEASE"
+          mkdir -p "$O"
+          cp "${{ runner.temp }}/run141_source_archive/run139_original_RESEARCH_ONLY.glb" "$O/run139_original_RESEARCH_ONLY.glb"
+          echo '9a154c9e3aeebb34ebcd6f209760e1d9e21e2f544f2b690dae406d9c8bf878e8  '"$O/run139_original_RESEARCH_ONLY.glb" | sha256sum -c
+          python3 -m py_compile "$R/tools/run141_native_anatomy_eye_ablation.py"
+          sudo apt-get update -qq
+          sudo apt-get install -y blender python3-numpy python3-pil
+          blender -b -t 2 -P "$R/tools/run141_native_anatomy_eye_ablation.py" 2>&1 | tee "$O/run141_ACTUAL_blender_native.log"
+          python3 - <<'PY'
+          from PIL import Image,ImageDraw
+          from pathlib import Path
+          o=Path("owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run141-NATIVE-PBR-EYE-WING-NO_RELEASE")
+          tags=["source","native_tuck_only","native_tuck_eyes"]
+          dirs=["front","quarter","side","back"]
+          canvas=Image.new("RGB",(460*3,460*4),(212,212,212));draw=ImageDraw.Draw(canvas)
+          for c,tag in enumerate(tags):
+              for r,angle in enumerate(dirs):
+                  im=Image.open(o/f"run141_{tag}_{angle}_ACTUAL_CYCLES_NO_RELEASE.png").convert("RGB")
+                  canvas.paste(im,(c*460,r*460))
+                  draw.text((c*460+9,r*460+10),tag+" / "+angle,fill=(0,0,0))
+          canvas.save(o/"run141_actual_native_three_way_four_view_QUALITY_UNREVIEWED.jpg",quality=91)
+          PY
+      - name: NO_RELEASE audit, source verification, hashes
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run141-NATIVE-PBR-EYE-WING-NO_RELEASE
+          mkdir -p "$O"
+          printf 'native=%s\n' "${{ steps.native.outcome }}" > "$O/run141_steps.txt"
+          echo 'NO_RELEASE: Experimental anatomical edit on authentic Run139 neural 3D. Art not approved, source redistribution rights not cleared, no physical-phone-GPU test. DO NOT DEPLOY.' > "$O/NO_RELEASE.flag"
+          (cd "$O" && find . -type f ! -name SHA256SUMS.txt ! -name checksum_verification.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$O" && sha256sum -c SHA256SUMS.txt > checksum_verification.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run141-real-native-PBR-anatomy-sculpt-QUARANTINED-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run141-NATIVE-PBR-EYE-WING-NO_RELEASE
+          retention-days: 30
+      - name: Independently archive nonbinary-only Run141 evidence on dedicated branch
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run141-NATIVE-PBR-EYE-WING-NO_RELEASE
+          git add --sparse "$O"
+          git restore --staged -- "$O"/*.glb 2>/dev/null || true
+          git diff --cached --name-only > /tmp/run141_changed_paths
+          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run141-' /tmp/run141_changed_paths; then
+            echo 'SCOPE_VIOLATION - No production changes permitted'; exit 9
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m 'research(owl172): archive actual Run141 native PBR morphology/eye comparison without releasing third-party model'
+            git push origin HEAD:research/owl172-run141-pbr-native-eye-wing-sculpt
+          fi

@@ -1,0 +1,103 @@
+{
+  "tier": "full",
+  "before_strands": 11400,
+  "input_curve_objects": [
+    "head mesoptile down cream",
+    "body second down ivory",
+    "underwing shade filaments",
+    "delicate mask fringe"
+  ],
+  "keep_modulus": 1,
+  "input": {
+    "blend": {
+      "bytes": 7042832,
+      "sha256": "b448a3f39f49827a7f21e286202e31913caf20f25d0460f7dc4d6dc1fdf27073"
+    }
+  },
+  "curve_conversions": [
+    {
+      "name": "Run154 TRUE CURVE TO MESH head mesoptile down cream",
+      "strands": 3500,
+      "triangles": 126000
+    },
+    {
+      "name": "Run154 TRUE CURVE TO MESH body second down ivory",
+      "strands": 5300,
+      "triangles": 190800
+    },
+    {
+      "name": "Run154 TRUE CURVE TO MESH underwing shade filaments",
+      "strands": 1400,
+      "triangles": 50400
+    },
+    {
+      "name": "Run154 TRUE CURVE TO MESH delicate mask fringe",
+      "strands": 1200,
+      "triangles": 28800
+    }
+  ],
+  "retained_strands": 11400,
+  "converted_hair_triangles": 396000,
+  "glb": {
+    "bytes": 15582880,
+    "sha256": "c0b7a76eee8d232c56b019bebb45507155a08deced8b63ca7e562f75a3895f56"
+  },
+  "source_mesh_objects": 28,
+  "source_triangles": 456420,
+  "roundtrip_meshes": 28,
+  "roundtrip_triangles": 456420,
+  "roundtrip_hair_meshes": [
+    {
+      "name": "Run154 TRUE CURVE TO MESH head mesoptile down cream",
+      "triangles": 126000
+    },
+    {
+      "name": "Run154 TRUE CURVE TO MESH body second down ivory",
+      "triangles": 190800
+    },
+    {
+      "name": "Run154 TRUE CURVE TO MESH underwing shade filaments",
+      "triangles": 50400
+    },
+    {
+      "name": "Run154 TRUE CURVE TO MESH delicate mask fringe",
+      "triangles": 28800
+    }
+  ],
+  "roundtrip_hair_triangles": 396000,
+  "actual_render_from_reimport": [
+    {
+      "view": "front",
+      "image": {
+        "bytes": 187986,
+        "sha256": "0ad6e69646bcf46e0aa9ebb05d861074a319136570700a57079f972549f3f06b"
+      },
+      "name": "full_front_ACTUAL_REIMPORT_NO_RELEASE.png"
+    },
+    {
+      "view": "quarter",
+      "image": {
+        "bytes": 188937,
+        "sha256": "3f8ab725e044057632d6fc3c9946a069ad151ffc32712bdec641e2bfbeba72ea"
+      },
+      "name": "full_quarter_ACTUAL_REIMPORT_NO_RELEASE.png"
+    },
+    {
+      "view": "side",
+      "image": {
+        "bytes": 191097,
+        "sha256": "af811fc25ffc1549eeb58eedb80ec8232b1fcd20870a257c434030101533d838"
+      },
+      "name": "full_side_ACTUAL_REIMPORT_NO_RELEASE.png"
+    },
+    {
+      "view": "back",
+      "image": {
+        "bytes": 187480,
+        "sha256": "57ff5b03286e1c20507f8e2a3fe9e7446fe4cab113e55502fea525535c4f6fb4"
+      },
+      "name": "full_back_ACTUAL_REIMPORT_NO_RELEASE.png"
+    }
+  ],
+  "seconds": 6.85
+}

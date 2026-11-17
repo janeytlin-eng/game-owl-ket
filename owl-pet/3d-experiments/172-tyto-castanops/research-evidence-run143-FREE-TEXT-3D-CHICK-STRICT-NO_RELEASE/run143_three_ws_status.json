@@ -1,0 +1,23 @@
+{
+  "source": "https://three.ws/3d",
+  "fee": "free draft only, no key or payment",
+  "prompt": "One realistic juvenile masked barn owl chick, compact crouching baby with thick airy cream-white second-down fluff over the entire rounded body. Broad soft integrated heart-shaped facial disc with subtle warm-buff rim, two clearly OPEN round dark brown-black eyes and tiny pale curved bill. Very short juvenile wings entirely hidden in dense down, tail entirely hidden, no ear tufts, no layered long flight feathers, feet tucked close and weight resting low. Three-quarter front view, faithful natural owl anatomy, detailed physically soft feathers, plain studio background, one bird only, not a wooden toy or figurine.",
+  "provider": "three.ws keyless free draft; do not use paid tier",
+  "requests": [
+    {
+      "url": "https://three.ws/api/3d/generate",
+      "status_code": 200,
+      "content_type": "application/json; charset=utf-8",
+      "body": "{\"status\":\"pending\",\"job\":\"f1.eyJwIjoiZ2NwIiwiayI6bnVsbCwidCI6ImV5SnRiMlJsSWpvaWRISmxiR3hwY3lJc0luUmhjMnRKWkNJNklqbGhaV1kzTW1WbUxURmxNbVl0TkdZME1TMDRaVGxpTFRjNU16azROR1l6WTJJM1pTSXNJbUpoYzJWVmNtd2lPaUpvZEhSd2N6b3ZMMjF2WkdWc0xYUnlaV3hzYVhNdGJIQTJOREpyTTJ0d1lTMTFZeTVoTG5KMWJpNWhjSEFpTENKeVpYTjFiSFJMWlhraU9pSnlaWE4xYkhSZloyTnpYM1Z5YkNKOSJ9.wbG33SMDiExuBeGVRoUpzEBU0fz_6I2JryPqpwpdyJU\",\"poll\":\"/api/3d/generate?job=f1.eyJwIjoiZ2NwIiwiayI6bnVsbCwidCI6ImV5SnRiMlJsSWpvaWRISmxiR3hwY3lJc0luUmhjMnRKWkNJNklqbGhaV1kzTW1WbUxURmxNbVl0TkdZME1TMDRaVGxpTFRjNU16azROR1l6WTJJM1pTSXNJbUpoYzJWVmNtd2lPaUpvZEhSd2N6b3ZMMjF2WkdWc0xYUnlaV3hzYVhNdGJIQTJOREpyTTJ0d1lTMTFZeTVoTG5KMWJpNWhjSEFpTENKeVpYTjFiSFJMWlhraU9pSnlaWE4xYkhSZloyTnpYM1Z5YkNKOSJ9.wbG33SMDiExuBeGVRoUpzEBU0fz_6I2JryPqpwpdyJU&title=One%20realistic%20juvenile%20masked%20barn%20owl%20chick%2C%20compact%20crouching%20baby%20with%20thick%20\",\"retryAfter\":9,\"etaSeconds\":36,\"creationId\":\"262900ac-e3b1-47f7-982e-ae115c14b662\",\"format\":\"glb\",\"tier\":\"draft\",\"free\":true,\"upgrade\":{\"message\":\"This is the free draft tier (NVIDIA NIM TRELLIS): single-subject, draft-fidelity geometry, no rigging. For higher polygon budgets + PBR textures use paid Forge Pro; for animation-ready rigged characters use Rigged Avatars.\",\"forgePro\":\"/api/x402/forge\",\"riggedAvatars\":\"/api/forge?action=rig\",\"docs\":\"/docs/3d-api\"}}",
+      "duration": 44.85
+    },
+    {
+      "url": "https://three.ws/api/3d/generate?job=f1.eyJwIjoiZ2NwIiwiayI6bnVsbCwidCI6ImV5SnRiMlJsSWpvaWRISmxiR3hwY3lJc0luUmhjMnRKWkNJNklqbGhaV1kzTW1WbUxURmxNbVl0TkdZME1TMDRaVGxpTFRjNU16azROR1l6WTJJM1pTSXNJbUpoYzJWVmNtd2lPaUpvZEhSd2N6b3ZMMjF2WkdWc0xYUnlaV3hzYVhNdGJIQTJOREpyTTJ0d1lTMTFZeTVoTG5K",
+      "status_code": 200,
+      "body": "{\"status\":\"error\",\"job\":\"f1.eyJwIjoiZ2NwIiwiayI6bnVsbCwidCI6ImV5SnRiMlJsSWpvaWRISmxiR3hwY3lJc0luUmhjMnRKWkNJNklqbGhaV1kzTW1WbUxURmxNbVl0TkdZME1TMDRaVGxpTFRjNU16azROR1l6WTJJM1pTSXNJbUpoYzJWVmNtd2lPaUpvZEhSd2N6b3ZMMjF2WkdWc0xYUnlaV3hzYVhNdGJIQTJOREpyTTJ0d1lTMTFZeTVoTG5KMWJpNWhjSEFpTENKeVpYTjFiSFJMWlhraU9pSnlaWE4xYkhSZloyTnpYM1Z5YkNKOSJ9.wbG33SMDiExuBeGVRoUpzEBU0fz_6I2JryPqpwpdyJU\",\"error\":\"3D generation hit a snag, please try again.\",\"free\":true,\"upgrade\":{\"message\":\"This is the free draft tier (NVIDIA NIM TRELLIS): single-subject, draft-fidelity geometry, no rigging. For higher polygon budgets + PBR textures use paid Forge Pro; for animation-ready rigged characters use Rigged Avatars.\",\"forgePro\":\"/api/x402/forge\",\"riggedAvatars\":\"/api/forge?action=rig\",\"docs\":\"/docs/3d-api\"}}",
+      "attempt": 0
+    }
+  ],
+  "status": "STARTED",
+  "end_utc": "2026-11-17T14:00:15Z"
+}

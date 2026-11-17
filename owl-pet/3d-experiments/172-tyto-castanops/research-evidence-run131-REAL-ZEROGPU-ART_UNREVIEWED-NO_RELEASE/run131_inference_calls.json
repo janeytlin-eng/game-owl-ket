@@ -1,0 +1,12 @@
+[
+  {
+    "preprocess": "ok",
+    "response_type": "tuple",
+    "preview": "({'visible': True, 'value': '/tmp/gradio/10bee5ae5bd2284f4c5082c6a7996fe0260156a4a629ff033ef9667793498fb9/image.webp', '__type__': 'update'}, {'visible': False, '__type__': 'update'})"
+  },
+  {
+    "inference": "error",
+    "type": "AppError",
+    "error": "The upstream Gradio app has raised an exception but has not enabled verbose error reporting. To enable, set show_error=True in launch()."
+  }
+]

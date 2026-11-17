@@ -1,0 +1,73 @@
+{
+  "run": "131",
+  "utc_started": "2026-11-17T06:45:40.351431+00:00",
+  "source": "https://raw.githubusercontent.com/janeytlin-eng/game-owl-ket/main/owl-pet/design/concepts/172-tyto-castanops-v3.png",
+  "model_space": "stabilityai/stable-fast-3d",
+  "rights": "research-only provisional: model community license is revenue conditioned; no permission to distribute inferred",
+  "charge_authorized": false,
+  "external_paid_calls": 0,
+  "physical_phone_gpu_verified": false,
+  "art_decision": "ART_UNREVIEWED",
+  "release": "NO_RELEASE",
+  "source_http": {
+    "status": 200,
+    "bytes": 737545,
+    "content_type": "image/png"
+  },
+  "source_sha256": "881dec86e0e66ab2ad0781db86a3b719b35e710d2be1a1606d761a9d0908483d",
+  "full_image_size": [
+    1536,
+    1024
+  ],
+  "crop_box": [
+    970,
+    260,
+    1435,
+    836
+  ],
+  "source_verify": {
+    "status": "success",
+    "seconds": 0.195
+  },
+  "segmentation_bbox": [
+    0,
+    12,
+    432,
+    576
+  ],
+  "mask_nonzero_fraction": 0.62251,
+  "input_png_bytes": 271449,
+  "background_segmentation": {
+    "status": "success",
+    "seconds": 28.088
+  },
+  "gradio_endpoints": [
+    "/update_foreground_ratio",
+    "/lambda",
+    "/requires_bg_remove",
+    "/run_button"
+  ],
+  "public_space_api_inspect": {
+    "status": "success",
+    "seconds": 0.422
+  },
+  "client_call": {
+    "preprocess": "requires_bg_remove",
+    "mesh": "run_button",
+    "scope": "one inference at most"
+  },
+  "inference_parameter_names": [
+    "input_image",
+    "foreground_ratio",
+    "remesh_option",
+    "vertex_count",
+    "texture_size"
+  ],
+  "free_neural_mesh_inference": {
+    "status": "failed",
+    "seconds": 0.465,
+    "exception_type": "AppError",
+    "error": "The upstream Gradio app has raised an exception but has not enabled verbose error reporting. To enable, set show_error=True in launch().",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/game-owl-ket/game-owl-ket/owl-pet/3d-experiments/172-tyto-castanops/tools/run131_zero_gpu_sf3d_actual_probe.py\", line 33, in stage\n    result=action()\n           ^^^^^^^^\n  File \"/home/runner/work/game-owl-ket/game-owl-ket/owl-pet/3d-experiments/172-tyto-castanops/tools/run131_zero_gpu_sf3d_actual_probe.py\", line 167, in <lambda>\n    file=stage(\"free_neural_mesh_inference\",lambda:attempt_predict(cli,inp))\n                                                   ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/game-owl-ket/game-owl-ket/owl-pet/3d-experiments/172-tyto-castanops/tools/run131_zero_gpu_sf3d_actual_probe.py\", line 134, in attempt_predict\n    response=cli.predict(*positional,api_name=\"/run_button\")\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/.local/lib/python3.12/site-packages/gradio_client/client.py\", line 513, in predict\n    ).result()\n      ^^^^^^^^\n  File \"/home/runner/.local/lib/python3.12/site-packages/gradio_client/client.py\", line 1622, in result\n    return super().result(timeout=timeout)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/concurrent/futures/_base.py\", line 456, in result\n    return self.__get_result()\n           ^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/concurrent/futures/_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"/usr/lib/python3.12/concurrent/futures/thread.py\", line 58, in run\n    result = self.fn(*self.args, **self.kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/.local/lib/python3.12/site-packages/gradio_client/client.py\", line 1226, in _inner\n    predictions = _predict(*data, **kwargs)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/.local/lib/python3.12/site-packages/gradio_client/client.py\", line 1340, in _predict\n    raise AppError(\ngradio_client.exceptions.AppError: The upstream Gradio app has raised an exception but has not enabled verbose error reporting. To enable, set show_error=True in launch().\n"
+  }
+}

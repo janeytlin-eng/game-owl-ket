@@ -1,0 +1,74 @@
+Downloading data from 'https://github.com/danielgatis/rembg/releases/download/v0.0.0/u2netp.onnx' to file '/home/runner/.rembg/models/u2netp/u2netp.onnx'.
+  0%|                                              | 0.00/4.57M [00:00<?, ?B/s]  0%|                                              | 0.00/4.57M [00:00<?, ?B/s]100%|█████████████████████████████████████| 4.57M/4.57M [00:00<00:00, 37.0GB/s]
+/home/runner/work/game-owl-ket/game-owl-ket/owl-pet/3d-experiments/172-tyto-castanops/tools/run131_zero_gpu_sf3d_actual_probe.py:78: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  RESULT["mask_nonzero_fraction"]=round(sum(v for v in mask.getdata())/(255.0*mask.width*mask.height),5)
+Client.predict() Usage Info
+---------------------------
+Named API endpoints: 4
+
+ - predict(fr, api_name="/update_foreground_ratio") -> preview_background_removal
+    Parameters:
+     - [Slider] fr: float (not required, defaults to:   0.85)  (numeric value between 0.5 and 1.0) 
+    Returns:
+     - [Image] preview_background_removal: filepath 
+
+ - predict(x, api_name="/lambda") -> 3d_model
+    Parameters:
+     - [File] x: filepath (required)  
+    Returns:
+     - [Litmodel3d] 3d_model: filepath 
+
+ - predict(image, fr, api_name="/requires_bg_remove") -> (preview_background_removal, 3d_model)
+    Parameters:
+     - [Image] image: filepath (required)  
+     - [Slider] fr: float (not required, defaults to:   0.85)  (numeric value between 0.5 and 1.0) 
+    Returns:
+     - [Image] preview_background_removal: filepath 
+     - [Litmodel3d] 3d_model: filepath 
+
+ - predict(input_image, foreground_ratio, remesh_option, vertex_count, texture_size, api_name="/run_button") -> (preview_background_removal, 3d_model)
+    Parameters:
+     - [Image] input_image: filepath (required)  
+     - [Slider] foreground_ratio: float (not required, defaults to:   0.85)  (numeric value between 0.5 and 1.0) 
+     - [Radio] remesh_option: Literal['None', 'Triangle', 'Quad'] (not required, defaults to:   None)  
+     - [Slider] vertex_count: float (not required, defaults to:   -1)  (numeric value between -1 and 20000) 
+     - [Slider] texture_size: float (not required, defaults to:   1024)  (numeric value between 512 and 2048) 
+    Returns:
+     - [Image] preview_background_removal: filepath 
+     - [Litmodel3d] 3d_model: filepath 
+
+Client.predict() Usage Info
+---------------------------
+Named API endpoints: 4
+
+ - predict(fr, api_name="/update_foreground_ratio") -> preview_background_removal
+    Parameters:
+     - [Slider] fr: float (not required, defaults to:   0.85)  (numeric value between 0.5 and 1.0) 
+    Returns:
+     - [Image] preview_background_removal: filepath 
+
+ - predict(x, api_name="/lambda") -> 3d_model
+    Parameters:
+     - [File] x: filepath (required)  
+    Returns:
+     - [Litmodel3d] 3d_model: filepath 
+
+ - predict(image, fr, api_name="/requires_bg_remove") -> (preview_background_removal, 3d_model)
+    Parameters:
+     - [Image] image: filepath (required)  
+     - [Slider] fr: float (not required, defaults to:   0.85)  (numeric value between 0.5 and 1.0) 
+    Returns:
+     - [Image] preview_background_removal: filepath 
+     - [Litmodel3d] 3d_model: filepath 
+
+ - predict(input_image, foreground_ratio, remesh_option, vertex_count, texture_size, api_name="/run_button") -> (preview_background_removal, 3d_model)
+    Parameters:
+     - [Image] input_image: filepath (required)  
+     - [Slider] foreground_ratio: float (not required, defaults to:   0.85)  (numeric value between 0.5 and 1.0) 
+     - [Radio] remesh_option: Literal['None', 'Triangle', 'Quad'] (not required, defaults to:   None)  
+     - [Slider] vertex_count: float (not required, defaults to:   -1)  (numeric value between -1 and 20000) 
+     - [Slider] texture_size: float (not required, defaults to:   1024)  (numeric value between 512 and 2048) 
+    Returns:
+     - [Image] preview_background_removal: filepath 
+     - [Litmodel3d] 3d_model: filepath 
+

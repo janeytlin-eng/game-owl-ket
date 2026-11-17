@@ -1,0 +1,130 @@
+{
+  "run": 129,
+  "date_utc": "2026-11-17T04:52:05.905854+00:00",
+  "task": "#172 Tyto castanops v3 right-side cream mesoptile",
+  "sources": {
+    "catalog": {
+      "url": "https://gobkit.com/api/free",
+      "status": 200,
+      "final_host": "gobkit.com",
+      "type": "application/json; charset=utf-8",
+      "bytes": 587631,
+      "sha256": "77d692f168288b1e0e32dd5f8f83891ce37c4b3ce0bbe344da5d81eae9bac764",
+      "truncated": false
+    },
+    "community": {
+      "url": "https://gobkit.com/api/community",
+      "status": 200,
+      "final_host": "gobkit.com",
+      "type": "application/json; charset=utf-8",
+      "bytes": 20927,
+      "sha256": "cb92061982f43292c64c43cfcd6ada7e11c4e783e8f08f39f98067bf243e4c02",
+      "truncated": false
+    },
+    "juvenile_eagle": {
+      "url": "https://gaitkit.com/asset/eaglet",
+      "status": 200,
+      "final_host": "gaitkit.com",
+      "type": "text/html",
+      "bytes": 32808,
+      "sha256": "56b2fa5dd0d5fdc5bdc715080fc1c6625390573ccb82175c89bfd0121592b7c4",
+      "truncated": false,
+      "publisher_pro_label": true,
+      "decision": "METADATA_ONLY_NOT_TARGET_SPECIES_NO_PAYMENT"
+    },
+    "pixabay_chick": {
+      "url": "https://pixabay.com/3d-models/chick-bird-animal-yellow-cute-816/",
+      "error": "HTTP Error 403: Forbidden",
+      "outcome": "REQUEST_FAILED"
+    }
+  },
+  "candidate": [
+    {
+      "catalog_id": "owl",
+      "source_url": "https://gobkit.com/freebies/animalB/Owl.glb",
+      "source_meta": {
+        "status": 200,
+        "final_host": "gobkit.com",
+        "type": "model/gltf-binary",
+        "bytes": 156676,
+        "sha256": "339a2eafd291fe1c2352d93d0755ca10a1c34d0b83b560a91cdca73053db3685",
+        "truncated": false
+      },
+      "licence_claim": "CC0 1.0 (public domain) — free for any use, commercial or personal, no attribution required.",
+      "claimed_low_poly": true,
+      "release": "NO_RELEASE",
+      "geometry": {
+        "magic": "glTF",
+        "size_bytes": 156676,
+        "version": 2,
+        "declared_length": 156676,
+        "valid_glb": true,
+        "asset": {
+          "version": "2.0",
+          "generator": "Gobkit",
+          "copyright": "CC0-1.0 — https://creativecommons.org/publicdomain/zero/1.0/",
+          "extras": {
+            "@context": "https://schema.org",
+            "@type": "3DModel",
+            "name": "Owl",
+            "description": "Free CC0 game-ready .glb from the Gobkit free 3D asset library: hand-authored low-poly models, rigged and animated, one material and one draw call. No account and no API key.",
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "isAccessibleForFree": true,
+            "encodingFormat": "model/gltf-binary",
+            "url": "https://gobkit.com/freebies",
+            "isPartOf": {
+              "@id": "https://gobkit.com/freebies#dataset"
+            },
+            "creator": {
+              "@id": "https://gobkit.com/#organization"
+            },
+            "publisher": "Gobkit / Alsomind Tech Co., Ltd.",
+            "sameAs": "https://gobkit.com/api/free",
+            "workflow": "Find your game type at Summer Engine → build the core loop with Rosebud AI → generate a 360° skybox with Midjourney → add BGM with Udio AI."
+          }
+        },
+        "mesh_count": 1,
+        "skins": 1,
+        "materials": 1,
+        "textures": 1,
+        "images": 1,
+        "animation_names": [
+          "idle",
+          "attack",
+          "dead",
+          "walk"
+        ],
+        "mesh_names": [
+          "Owl"
+        ],
+        "triangles_all_meshes": 310,
+        "non_triangle_primitives": 0
+      },
+      "file_path": "owl_gobkit_CC0_technical_donor_ONLY.glb"
+    }
+  ],
+  "art_gate": "ART_UNREVIEWED",
+  "release": "NO_RELEASE",
+  "extra_payment_usd": 0,
+  "boundary": "No 251-species production edits; no paid downloads or logins",
+  "catalog_summary": {
+    "declared": 397,
+    "pack_count": 37,
+    "model_count": 397,
+    "owl_matches": []
+  },
+  "community_keys": [
+    "ok",
+    "status_filter",
+    "usage",
+    "sort",
+    "count",
+    "items",
+    "next_cursor",
+    "docs"
+  ],
+  "community_summary": {
+    "count": 24,
+    "owl_matches": []
+  }
+}

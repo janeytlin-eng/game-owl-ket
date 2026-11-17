@@ -1,4 +1,4 @@
-name: owl172 Run124B actual VN3 EN-ZH artist license PDF extraction NO_RELEASE
+name: owl172 Run124B actual VN3 JA-EN-ZH artist license PDF extraction NO_RELEASE
 on:
   push:
     branches: [research/owl172-run124-booth-juvenile-terms-access-check]
@@ -20,6 +20,7 @@ jobs:
           sparse-checkout: |
             .github/workflows/owl-pet-172-run124b-vn3-license-clauses.yml
             owl-pet/3d-experiments/172-tyto-castanops/tools/run124b_vn3_terms_actual_clause_extract.py
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run124-BOOTH-JUVENILE-RIGHTS-NO_RELEASE/booth_vn3_ja_terms_terms.pdf
             owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run124-BOOTH-JUVENILE-RIGHTS-NO_RELEASE/booth_vn3_en_terms_terms.pdf
             owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run124-BOOTH-JUVENILE-RIGHTS-NO_RELEASE/booth_vn3_zh_terms_terms.pdf
       - name: Check actually downloaded PDF files and extract restricted EN/ZH license clauses
@@ -35,7 +36,7 @@ jobs:
           INPUT="$ROOT/research-evidence-run124-BOOTH-JUVENILE-RIGHTS-NO_RELEASE"
           OUT="$ROOT/research-evidence-run124b-VN3-ACTUAL-TERMS-NO_RELEASE"
           mkdir -p "$OUT"
-          for k in en zh; do
+          for k in ja en zh; do
             test -s "$INPUT/booth_vn3_${k}_terms_terms.pdf"
             file "$INPUT/booth_vn3_${k}_terms_terms.pdf"
             pdfinfo "$INPUT/booth_vn3_${k}_terms_terms.pdf" | grep -E '^Pages:|^File size:'

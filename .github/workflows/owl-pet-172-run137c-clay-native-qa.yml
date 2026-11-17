@@ -2,9 +2,9 @@ name: owl172 Run137C real GLB native clay diagnostic art-gate NO_RELEASE
 on:
   push:
     branches:
-      - research/owl172-run137c-native-replay-no-denoise
+      - research/owl172-run137c-contrast-native-clay-qa
     paths:
-      - .github/workflows/owl-pet-172-run137c-native-replay.yml
+      - .github/workflows/owl-pet-172-run137c-clay-native-qa.yml
       - owl-pet/3d-experiments/172-tyto-castanops/tools/run137c_clay_native_qa.py
   workflow_dispatch:
 permissions:
@@ -17,11 +17,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: research/owl172-run137c-native-replay-no-denoise
+          ref: research/owl172-run137c-contrast-native-clay-qa
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             owl-pet/3d-experiments/172-tyto-castanops/tools/run137c_clay_native_qa.py
-            .github/workflows/owl-pet-172-run137c-native-replay.yml
+            .github/workflows/owl-pet-172-run137c-clay-native-qa.yml
       - uses: actions/download-artifact@v4
         with:
           name: owl172-run137-free-public-native-RESEARCH-NO_RELEASE
@@ -91,5 +91,5 @@ jobs:
           if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run137c-' /tmp/owl137b_paths; then echo SCOPE_VIOLATION; exit 9; fi
           if ! git diff --cached --quiet; then
             git commit -m 'research(owl172): archive true four-view Run137C native Blender replay, reject for art'
-            git push origin HEAD:research/owl172-run137c-native-replay-no-denoise
+            git push origin HEAD:research/owl172-run137c-contrast-native-clay-qa
           fi

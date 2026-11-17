@@ -98,6 +98,22 @@
       "art_decision": "ART_REJECTED",
       "grounds": "Actual Blender source and true vertex-space re-proportioned ablation four-view art review: adult Tyto alba donor is visually juvenile-inappropriate. Tall pointed ear/fins, tiny eyes, no integrated broad heart-shaped disc, smooth hard/no airy cream down, extremely long stiff adult wings and visible tail, long bare unsupported legs, no eucalypt hollow. Altering adult mesh proportions does not repair structural anatomy. Phone GPU and distribution rights not independently verified.",
       "reference": "2026-11-18-run149-real-cc0-donor-mesh-native-fourview-ART_REJECTED-NO_RELEASE.md"
+    },
+    {
+      "sha256": "f05ad553ebf00a495a4f1593ca2a1949a277ad98ecdd334cb4a75d7283bbec76",
+      "size_bytes": 11489420,
+      "source": "3dvalley.com/tools/create/image-to-3d free daily TRELLIS.2 Standard, rightmost #172 v3 alpha-cropped 1024px source (Run151); inspected again in Run152",
+      "first_checked_run": 151,
+      "also_checked_run": 152,
+      "real_glb": true,
+      "triangles": 195160,
+      "meshes": 1,
+      "texture_images": 2,
+      "materials": 1,
+      "animations": 0,
+      "art_decision": "ART_REJECTED",
+      "grounds": "Corrected true +Y anatomical front/quarter/side/-Y back eight native Cycles render review, Run152: despite recognizable Tyto heart mask, eyes too narrow and recessed, cream plumage riddled with coarse grey/brown hard/scaly texture, large mature-looking wings and tail-like rear silhouette, exposed unsupported talons and no hollow. Single global PBR cream-lift ablation washed pupils grey without fixing wing/back structure or producing natural down; no mobile GPU test. Quarantine, do not publish.",
+      "reference": "2026-11-18-run152-anatomical-camera-real-PBR-ART_REJECTED-NO_RELEASE.md"
     }
   ],
   "instructions": "Before a new download, consult previous run records and this hash index. Once bytes are fetched compare sha256; if matching a rejected source, skip Blender/rig/WebGL/art release and log source identity. Publisher CC0 claims are not independently proven rights."

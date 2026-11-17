@@ -1,0 +1,107 @@
+name: owl172 Run136B one-shot source-locked PIXAL3D native extraction strict NO_RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run136bb-pixal3d-corrected-source
+    paths:
+      - .github/workflows/owl-pet-172-run136b-pixal3d-corrected-native.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run136b_pixal3d_corrected_source.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  actual-3d-not-approved:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 38
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run136bb-pixal3d-corrected-source
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run117-FREE-TRELLIS-QUOTA-RECHECK-ART_REJECTED/rightmost_baby_owl_512_rgba.png
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run136b_pixal3d_corrected_source.py
+            .github/workflows/owl-pet-172-run136b-pixal3d-corrected-native.yml
+      - name: Actual official Pixal3D public ZeroGPU call at zero monetary spend
+        id: generated
+        continue-on-error: true
+        timeout-minutes: 24
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run136b-PIXAL3D-REAL-PBR-STRICT-NO_RELEASE"
+          mkdir -p "$O"
+          python3 -m py_compile "$R/tools/run136b_pixal3d_corrected_source.py"
+          python3 -m pip install --break-system-packages -q 'Pillow>=10.3' 'gradio_client>=1.0,<2.0' httpx
+          python3 "$R/tools/run136b_pixal3d_corrected_source.py" generate 2>&1 | tee "$O/run136b_actual_service.log"
+          test -s "$O/run136b_status.json"
+      - name: Real Blender native 0, 45, 90, 180-degree views only for a real GLB
+        id: rendered
+        if: always()
+        continue-on-error: true
+        timeout-minutes: 10
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run136b-PIXAL3D-REAL-PBR-STRICT-NO_RELEASE"
+          mkdir -p "$O"
+          if [ ! -s "$O/run136b_pixal3d_original_NATIVE_RESEARCH_ONLY.glb" ]; then
+            echo 'NO_ACTUAL_BINARY_GLB: Blender render deliberately skipped' | tee "$O/run136b_native_skipped.txt"
+            exit 0
+          fi
+          sudo apt-get update -qq
+          sudo apt-get install -y blender python3-numpy
+          blender --version | head -2 | tee "$O/run136b_blender_version.txt"
+          blender -b -t 2 -P "$R/tools/run136b_pixal3d_corrected_source.py" -- render 2>&1 | tee "$O/run136b_native_cycles.log"
+          python3 - <<'PY'
+          from PIL import Image,ImageDraw
+          from pathlib import Path
+          o=Path('owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run136b-PIXAL3D-REAL-PBR-STRICT-NO_RELEASE')
+          views=('front','quarter','side','back')
+          files=[o/('run136b_'+v+'_ACTUAL_CYCLES_UNAPPROVED.png') for v in views]
+          assert all(p.is_file() for p in files)
+          sheet=Image.new('RGB',(960,960),(237,237,236))
+          for i,(view,p) in enumerate(zip(views,files)):
+              pic=Image.open(p).convert('RGB')
+              sheet.paste(pic,((i%2)*480,(i//2)*480))
+              ImageDraw.Draw(sheet).text(((i%2)*480+15,(i//2)*480+12),view,fill=(0,0,0))
+          sheet.save(o/'run136b_native_four_views_UNAPPROVED.jpg',quality=82)
+          print("ACTUAL_FOUR_VIEW_CONTACT_SAVED")
+          PY
+      - name: Strict quarantine, SHA256 evidence and research scope
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run136b-PIXAL3D-REAL-PBR-STRICT-NO_RELEASE
+          mkdir -p "$O"
+          printf 'NO_RELEASE: machine-generated geometry may be artistically wrong; nothing is a user-facing pet. Require four-view human art review, rights, and physical mobile GPU before promoting.\n' > "$O/NO_RELEASE.flag"
+          printf 'generate=%s\nnative=%s\n' "${{ steps.generated.outcome }}" "${{ steps.rendered.outcome }}" > "$O/run136b_steps.txt"
+          (cd "$O" && find . -type f ! -name SHA256SUMS.txt ! -name checksum_verification.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$O" && sha256sum -c SHA256SUMS.txt > checksum_verification.log)
+          test -s "$O/SHA256SUMS.txt"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run136b-trellis2-actual-research-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run136b-PIXAL3D-REAL-PBR-STRICT-NO_RELEASE
+          retention-days: 30
+      - name: Scope-limited independent evidence commit, never update production
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run136b-PIXAL3D-REAL-PBR-STRICT-NO_RELEASE
+          git add --sparse "$O"
+          git diff --cached --name-only > /tmp/owl132_paths
+          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run136b-' /tmp/owl132_paths; then
+            echo SCOPE_VIOLATION; exit 9
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m 'research(owl172): archive Run136B genuine free PIXAL3D inference evidence under strict no-release'
+            git push origin HEAD:research/owl172-run136bb-pixal3d-corrected-source
+          fi

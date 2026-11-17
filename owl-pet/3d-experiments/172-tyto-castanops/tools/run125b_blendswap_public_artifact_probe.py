@@ -29,13 +29,13 @@ def request(url,limit=3000000):
  except urllib.error.HTTPError as exc:
   rec.update(status=exc.code,final_url=exc.geturl(),content_type=exc.headers.get("Content-Type",""),error="HTTPError");body=exc.read(100000)
  except Exception as exc:rec.update(status=None,error=type(exc).__name__+": "+str(exc)[:200],final_url=url)
- rec.update(bytes_read=len(body),read_sha256=hashlib.sha256(body).hexdigest(),magic="BLEND" if body[:7]==b"BLENDER" else "ZIP" if body[:4]==b"PK\\x03\\x04" else "GLB" if body[:4]==b"glTF" else "HTML" if b"<html" in body[:1000].lower() or b"<!doctype" in body[:1000].lower() else "OTHER",is_model_binary=False)
+ rec.update(bytes_read=len(body),read_sha256=hashlib.sha256(body).hexdigest(),magic="BLEND" if body[:7]==b"BLENDER" else "ZIP" if body[:4]==b"PK\x03\x04" else "GLB" if body[:4]==b"glTF" else "HTML" if b"<html" in body[:1000].lower() or b"<!doctype" in body[:1000].lower() else "OTHER",is_model_binary=False)
  rec["is_model_binary"]=rec["magic"] in ("BLEND","ZIP","GLB")
  return rec,body
 base,body=request(HOME,1500000);p=Parser()
 if body:p.feed(body.decode("utf-8","replace"))
 links=[{**x,"url":urllib.parse.urljoin(HOME,x["href"])} for x in p.links]
-candidate=[x for x in links if re.search(r"download|\\.blend|\\.zip|\\.glb|\\.fbx",x["text"]+" "+x["href"]+" "+x["classes"]+" "+x["id"],re.I)]
+candidate=[x for x in links if re.search(r"download|\.blend|\.zip|\.glb|\.fbx",x["text"]+" "+x["href"]+" "+x["classes"]+" "+x["id"],re.I)]
 safe=[]
 for x in candidate:
  u=urllib.parse.urlparse(x["url"])

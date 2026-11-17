@@ -2,7 +2,7 @@ name: owl172 Run136B one-shot source-locked PIXAL3D native extraction strict NO_
 on:
   push:
     branches:
-      - research/owl172-run136bb-pixal3d-corrected-source
+      - research/owl172-run136b-pixal3d-corrected-source
     paths:
       - .github/workflows/owl-pet-172-run136b-pixal3d-corrected-native.yml
       - owl-pet/3d-experiments/172-tyto-castanops/tools/run136b_pixal3d_corrected_source.py
@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: research/owl172-run136bb-pixal3d-corrected-source
+          ref: research/owl172-run136b-pixal3d-corrected-source
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run117-FREE-TRELLIS-QUOTA-RECHECK-ART_REJECTED/rightmost_baby_owl_512_rgba.png
@@ -103,5 +103,5 @@ jobs:
           fi
           if ! git diff --cached --quiet; then
             git commit -m 'research(owl172): archive Run136B genuine free PIXAL3D inference evidence under strict no-release'
-            git push origin HEAD:research/owl172-run136bb-pixal3d-corrected-source
+            git push origin HEAD:research/owl172-run136b-pixal3d-corrected-source
           fi

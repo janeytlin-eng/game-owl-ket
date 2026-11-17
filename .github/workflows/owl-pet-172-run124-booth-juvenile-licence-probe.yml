@@ -1,0 +1,67 @@
+name: owl172 Run124 actual zero-cost downy Barn Owl source and VN3 license check
+on:
+  push:
+    branches: [research/owl172-run124-booth-juvenile-terms-access-check]
+    paths:
+      - .github/workflows/owl-pet-172-run124-booth-juvenile-licence-probe.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run124_booth_juvenile_source_rights_probe.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  booth-juvenile-source-rights-actual-probe:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 13
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run124-booth-juvenile-terms-access-check
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            .github/workflows/owl-pet-172-run124-booth-juvenile-licence-probe.yml
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run124_booth_juvenile_source_rights_probe.py
+      - name: Actually request listed free baby owl and public licence, without login or payment
+        id: probe
+        timeout-minutes: 6
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -eo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run124-BOOTH-JUVENILE-RIGHTS-NO_RELEASE"
+          mkdir -p "$OUT"
+          python3 "$ROOT/tools/run124_booth_juvenile_source_rights_probe.py" "$OUT" 2>&1 | tee "$OUT/run124_real_source_http.log"
+      - name: Rights safe NO_RELEASE archive integrity
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run124-BOOTH-JUVENILE-RIGHTS-NO_RELEASE
+          mkdir -p "$OUT"
+          printf 'probe=%s; actual_asset_rights_not_cleared=YES; NO_RELEASE=YES\n' "${{ steps.probe.outcome }}" > "$OUT/run124_steps.txt"
+          echo "NO_RELEASE: never distribute source model or derivatives without explicit license." > "$OUT/NO_RELEASE.flag"
+          (cd "$OUT" && find . -type f ! -name SHA256SUMS.txt ! -name sha_checked.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$OUT" && sha256sum -c SHA256SUMS.txt > sha_checked.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run124-artist-chick-access-rights-only-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run124-BOOTH-JUVENILE-RIGHTS-NO_RELEASE
+          retention-days: 30
+      - name: Research-only commit, no deployed asset, no 251 species pipeline changes
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run124-BOOTH-JUVENILE-RIGHTS-NO_RELEASE
+          git add --sparse "$OUT"
+          git diff --cached --name-only > /tmp/only172run124.txt
+          if grep -v '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run124-' /tmp/only172run124.txt; then
+            echo "Unexpected staged path";exit 8
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m "research(owl172): Run124 real artist chick access and VN3 rights gate NO_RELEASE"
+            git push origin HEAD:research/owl172-run124-booth-juvenile-terms-access-check
+          fi

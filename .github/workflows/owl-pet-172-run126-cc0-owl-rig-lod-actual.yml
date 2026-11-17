@@ -1,0 +1,76 @@
+name: owl172 Run126 real no-cost CC0 owl GLB rig LOD source/geometry QA
+on:
+  push:
+    branches:
+      - research/owl172-run126-cc0-owl-rig-lod-access
+    paths:
+      - .github/workflows/owl-pet-172-run126-cc0-owl-rig-lod-actual.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run126_cc0_owl_rig_lod_download.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  independent-source-access:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run126-cc0-owl-rig-lod-access
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run126_cc0_owl_rig_lod_download.py
+            .github/workflows/owl-pet-172-run126-cc0-owl-rig-lod-actual.yml
+      - name: Install real browser, not image surrogate
+        id: browser
+        continue-on-error: true
+        timeout-minutes: 7
+        run: |
+          python3 -m pip install --break-system-packages playwright==1.56.0
+          python3 -m playwright install --with-deps chromium
+      - name: Click only publisher's $0 official route and inspect actual GLB bytes
+        id: probe
+        if: steps.browser.outcome == 'success'
+        continue-on-error: true
+        timeout-minutes: 6
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run126-CC0-OWL-RIG-ONLY-NO_RELEASE"
+          mkdir -p "$O"
+          python3 "$R/tools/run126_cc0_owl_rig_lod_download.py" "$O" 2>&1 | tee "$O/run126_true_browser_download.log"
+      - name: Preserve negative results, classify source license and SHA256
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run126-CC0-OWL-RIG-ONLY-NO_RELEASE
+          mkdir -p "$O"
+          printf 'browser_install=%s\nprobe=%s\n' "${{ steps.browser.outcome }}" "${{ steps.probe.outcome }}" > "$O/step_outcomes.txt"
+          test -e "$O/NO_RELEASE.flag" || echo 'NO_RELEASE: source setup failed; no actual asset claim.' > "$O/NO_RELEASE.flag"
+          (cd "$O" && find . -type f ! -name SHA256SUMS.txt ! -name sha_checked.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$O" && sha256sum -c SHA256SUMS.txt > sha_checked.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run126-real-cc0-rig-source-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run126-CC0-OWL-RIG-ONLY-NO_RELEASE
+          retention-days: 30
+      - name: Commit independent evidence ONLY, do not affect existing production
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run126-CC0-OWL-RIG-ONLY-NO_RELEASE
+          git add --sparse "$O"
+          git diff --cached --name-only > /tmp/only-run126.txt
+          if grep -v '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run126-' /tmp/only-run126.txt; then
+            echo 'SCOPE VIOLATION. REFUSE COMMIT'; exit 9
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m "research(owl172): preserve Run126 actual CC0 owl rig source QA NO_RELEASE"
+            git push origin HEAD:research/owl172-run126-cc0-owl-rig-lod-access
+          fi

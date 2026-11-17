@@ -1,0 +1,77 @@
+name: owl172 Run124B actual VN3 EN-ZH artist license PDF extraction NO_RELEASE
+on:
+  push:
+    branches: [research/owl172-run124-booth-juvenile-terms-access-check]
+    paths:
+      - .github/workflows/owl-pet-172-run124b-vn3-license-clauses.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run124b_vn3_terms_actual_clause_extract.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  read-actual-vn3-terms:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run124-booth-juvenile-terms-access-check
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            .github/workflows/owl-pet-172-run124b-vn3-license-clauses.yml
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run124b_vn3_terms_actual_clause_extract.py
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run124-BOOTH-JUVENILE-RIGHTS-NO_RELEASE/booth_vn3_en_terms_terms.pdf
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run124-BOOTH-JUVENILE-RIGHTS-NO_RELEASE/booth_vn3_zh_terms_terms.pdf
+      - name: Check actually downloaded PDF files and extract restricted EN/ZH license clauses
+        id: audit
+        timeout-minutes: 4
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          INPUT="$ROOT/research-evidence-run124-BOOTH-JUVENILE-RIGHTS-NO_RELEASE"
+          OUT="$ROOT/research-evidence-run124b-VN3-ACTUAL-TERMS-NO_RELEASE"
+          mkdir -p "$OUT"
+          for k in en zh; do
+            test -s "$INPUT/booth_vn3_${k}_terms_terms.pdf"
+            file "$INPUT/booth_vn3_${k}_terms_terms.pdf"
+            pdfinfo "$INPUT/booth_vn3_${k}_terms_terms.pdf" | grep -E '^Pages:|^File size:'
+          done
+          python3 "$ROOT/tools/run124b_vn3_terms_actual_clause_extract.py" "$OUT" "$INPUT" 2>&1 | tee "$OUT/run124b_actual_pdftotext.log"
+      - name: NO_RELEASE strict evidence SHA manifest
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run124b-VN3-ACTUAL-TERMS-NO_RELEASE
+          mkdir -p "$OUT"
+          echo "NO_RELEASE: no model acquired and source-license rights not approved" > "$OUT/NO_RELEASE.flag"
+          echo "audit=${{ steps.audit.outcome }}" > "$OUT/run124b_steps.txt"
+          (cd "$OUT"; find . -type f ! -name SHA256SUMS.txt ! -name sha_checked.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$OUT"; sha256sum -c SHA256SUMS.txt > sha_checked.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run124b-vn3-actual-public-terms-NO-RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run124b-VN3-ACTUAL-TERMS-NO_RELEASE
+          retention-days: 30
+      - name: Commit only independent source-rights research evidence
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run124b-VN3-ACTUAL-TERMS-NO_RELEASE
+          git add --sparse "$OUT"
+          git diff --cached --name-only > /tmp/run124b_changed.txt
+          if grep -v '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run124b-' /tmp/run124b_changed.txt; then
+             exit 8
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m "research(owl172): actual public VN3 bilingual terms audit NO_RELEASE"
+            git push origin HEAD:research/owl172-run124-booth-juvenile-terms-access-check
+          fi

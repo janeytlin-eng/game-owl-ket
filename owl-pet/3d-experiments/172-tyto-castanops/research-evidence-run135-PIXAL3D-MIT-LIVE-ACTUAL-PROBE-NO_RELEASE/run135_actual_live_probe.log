@@ -1,0 +1,43 @@
+Client.predict() Usage Info
+---------------------------
+Named API endpoints: 3
+
+ - predict(image, api_name="/preprocess") -> 1st
+    Parameters:
+     - [Api] image: filepath (required)  
+    Returns:
+     - [Api] 1st: filepath 
+
+ - predict(image, seed, resolution, ss_guidance_strength, ss_guidance_rescale, ss_sampling_steps, ss_rescale_t, shape_slat_guidance_strength, shape_slat_guidance_rescale, shape_slat_sampling_steps, shape_slat_rescale_t, tex_slat_guidance_strength, tex_slat_guidance_rescale, tex_slat_sampling_steps, tex_slat_rescale_t, manual_fov, fov_unit, session_id, api_name="/generate_3d") -> 1st
+    Parameters:
+     - [Api] image: filepath (required)  
+     - [Api] seed: int (required)  
+     - [Api] resolution: int (required)  
+     - [Api] ss_guidance_strength: float (not required, defaults to:   7.5)  
+     - [Api] ss_guidance_rescale: float (not required, defaults to:   0.7)  
+     - [Api] ss_sampling_steps: int (not required, defaults to:   12)  
+     - [Api] ss_rescale_t: float (not required, defaults to:   5.0)  
+     - [Api] shape_slat_guidance_strength: float (not required, defaults to:   7.5)  
+     - [Api] shape_slat_guidance_rescale: float (not required, defaults to:   0.5)  
+     - [Api] shape_slat_sampling_steps: int (not required, defaults to:   12)  
+     - [Api] shape_slat_rescale_t: float (not required, defaults to:   3.0)  
+     - [Api] tex_slat_guidance_strength: float (not required, defaults to:   1.0)  
+     - [Api] tex_slat_guidance_rescale: float (not required, defaults to:   0.0)  
+     - [Api] tex_slat_sampling_steps: int (not required, defaults to:   12)  
+     - [Api] tex_slat_rescale_t: float (not required, defaults to:   3.0)  
+     - [Api] manual_fov: float (not required, defaults to:   -1.0)  
+     - [Api] fov_unit: str (not required, defaults to:   deg)  
+     - [Api] session_id: str (not required, defaults to:   )  
+    Returns:
+     - [Api] 1st: dict(str, Any) 
+
+ - predict(state_path, decimation_target, texture_size, session_id, api_name="/extract_glb_api") -> 1st
+    Parameters:
+     - [Api] state_path: str (required)  
+     - [Api] decimation_target: int (required)  
+     - [Api] texture_size: int (required)  
+     - [Api] session_id: str (not required, defaults to:   )  
+    Returns:
+     - [Api] 1st: filepath 
+
+RUN135 {"run": 135, "date": "2026-11-17T09:25:09Z", "service": "TencentARC/Pixal3D", "paid": false, "token_used": false, "GPU_inference": false, "GLB_obtained": false, "license": "MIT project claim; third-party rights not audited; NO_RELEASE", "stage": "schema_recorded", "art": "UNREVIEWED", "release": "NO_RELEASE", "source_sha256": "e439928a9ef08d3be266106cb5f2766b6f5a9f2c414d44e8da55ba81732153b8", "endpoints": ["/preprocess", "/generate_3d", "/extract_glb_api"], "candidate_generation_endpoints": ["/generate_3d"], "finished": "2026-11-17T09:25:10Z"}

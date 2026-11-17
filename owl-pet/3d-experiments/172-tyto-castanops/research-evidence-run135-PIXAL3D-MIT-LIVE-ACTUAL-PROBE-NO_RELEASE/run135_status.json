@@ -1,0 +1,23 @@
+{
+  "run": 135,
+  "date": "2026-11-17T09:25:09Z",
+  "service": "TencentARC/Pixal3D",
+  "paid": false,
+  "token_used": false,
+  "GPU_inference": false,
+  "GLB_obtained": false,
+  "license": "MIT project claim; third-party rights not audited; NO_RELEASE",
+  "stage": "schema_recorded",
+  "art": "UNREVIEWED",
+  "release": "NO_RELEASE",
+  "source_sha256": "e439928a9ef08d3be266106cb5f2766b6f5a9f2c414d44e8da55ba81732153b8",
+  "endpoints": [
+    "/preprocess",
+    "/generate_3d",
+    "/extract_glb_api"
+  ],
+  "candidate_generation_endpoints": [
+    "/generate_3d"
+  ],
+  "finished": "2026-11-17T09:25:10Z"
+}

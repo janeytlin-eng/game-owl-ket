@@ -1,0 +1,674 @@
+{
+  "/preprocess": {
+    "kind": "named_endpoints",
+    "parameters": [
+      {
+        "label": "1st",
+        "parameter_name": "image",
+        "parameter_has_default": false,
+        "parameter_default": null,
+        "type": {
+          "type": "object",
+          "properties": {
+            "path": {
+              "type": "string"
+            },
+            "url": {
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "size": {
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "orig_name": {
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "mime_type": {
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "is_stream": {
+              "type": "boolean"
+            },
+            "meta": {
+              "type": "object",
+              "properties": {
+                "_type": {
+                  "const": "gradio.FileData"
+                }
+              },
+              "required": [
+                "_type"
+              ]
+            }
+          },
+          "required": [
+            "path",
+            "url",
+            "size",
+            "orig_name",
+            "mime_type",
+            "is_stream",
+            "meta"
+          ]
+        },
+        "python_type": {
+          "type": "filepath",
+          "description": ""
+        },
+        "component": "Api",
+        "example_input": "..."
+      }
+    ],
+    "returns": [
+      {
+        "label": "1st",
+        "type": {
+          "type": "object",
+          "properties": {
+            "path": {
+              "type": "string"
+            },
+            "url": {
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "size": {
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "orig_name": {
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "mime_type": {
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "is_stream": {
+              "type": "boolean"
+            },
+            "meta": {
+              "type": "object",
+              "properties": {
+                "_type": {
+                  "const": "gradio.FileData"
+                }
+              },
+              "required": [
+                "_type"
+              ]
+            }
+          },
+          "required": [
+            "path",
+            "url",
+            "size",
+            "orig_name",
+            "mime_type",
+            "is_stream",
+            "meta"
+          ]
+        },
+        "python_type": {
+          "type": "filepath",
+          "description": ""
+        },
+        "component": "Api"
+      }
+    ]
+  },
+  "/generate_3d": {
+    "kind": "named_endpoints",
+    "parameters": [
+      {
+        "label": "1st",
+        "parameter_name": "image",
+        "parameter_has_default": false,
+        "parameter_default": null,
+        "type": {
+          "type": "object",
+          "properties": {
+            "path": {
+              "type": "string"
+            },
+            "url": {
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "size": {
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "orig_name": {
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "mime_type": {
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "is_stream": {
+              "type": "boolean"
+            },
+            "meta": {
+              "type": "object",
+              "properties": {
+                "_type": {
+                  "const": "gradio.FileData"
+                }
+              },
+              "required": [
+                "_type"
+              ]
+            }
+          },
+          "required": [
+            "path",
+            "url",
+            "size",
+            "orig_name",
+            "mime_type",
+            "is_stream",
+            "meta"
+          ]
+        },
+        "python_type": {
+          "type": "filepath",
+          "description": ""
+        },
+        "component": "Api",
+        "example_input": "..."
+      },
+      {
+        "label": "2nd",
+        "parameter_name": "seed",
+        "parameter_has_default": false,
+        "parameter_default": null,
+        "type": {
+          "type": "integer"
+        },
+        "python_type": {
+          "type": "int",
+          "description": ""
+        },
+        "component": "Api",
+        "example_input": "..."
+      },
+      {
+        "label": "3rd",
+        "parameter_name": "resolution",
+        "parameter_has_default": false,
+        "parameter_default": null,
+        "type": {
+          "type": "integer"
+        },
+        "python_type": {
+          "type": "int",
+          "description": ""
+        },
+        "component": "Api",
+        "example_input": "..."
+      },
+      {
+        "label": "4th",
+        "parameter_name": "ss_guidance_strength",
+        "parameter_has_default": true,
+        "parameter_default": 7.5,
+        "type": {
+          "type": "number"
+        },
+        "python_type": {
+          "type": "float",
+          "description": ""
+        },
+        "component": "Api",
+        "example_input": 7.5
+      },
+      {
+        "label": "5th",
+        "parameter_name": "ss_guidance_rescale",
+        "parameter_has_default": true,
+        "parameter_default": 0.7,
+        "type": {
+          "type": "number"
+        },
+        "python_type": {
+          "type": "float",
+          "description": ""
+        },
+        "component": "Api",
+        "example_input": 0.7
+      },
+      {
+        "label": "6th",
+        "parameter_name": "ss_sampling_steps",
+        "parameter_has_default": true,
+        "parameter_default": 12,
+        "type": {
+          "type": "integer"
+        },
+        "python_type": {
+          "type": "int",
+          "description": ""
+        },
+        "component": "Api",
+        "example_input": 12
+      },
+      {
+        "label": "7th",
+        "parameter_name": "ss_rescale_t",
+        "parameter_has_default": true,
+        "parameter_default": 5.0,
+        "type": {
+          "type": "number"
+        },
+        "python_type": {
+          "type": "float",
+          "description": ""
+        },
+        "component": "Api",
+        "example_input": 5.0
+      },
+      {
+        "label": "8th",
+        "parameter_name": "shape_slat_guidance_strength",
+        "parameter_has_default": true,
+        "parameter_default": 7.5,
+        "type": {
+          "type": "number"
+        },
+        "python_type": {
+          "type": "float",
+          "description": ""
+        },
+        "component": "Api",
+        "example_input": 7.5
+      },
+      {
+        "label": "9th",
+        "parameter_name": "shape_slat_guidance_rescale",
+        "parameter_has_default": true,
+        "parameter_default": 0.5,
+        "type": {
+          "type": "number"
+        },
+        "python_type": {
+          "type": "float",
+          "description": ""
+        },
+        "component": "Api",
+        "example_input": 0.5
+      },
+      {
+        "label": "10th",
+        "parameter_name": "shape_slat_sampling_steps",
+        "parameter_has_default": true,
+        "parameter_default": 12,
+        "type": {
+          "type": "integer"
+        },
+        "python_type": {
+          "type": "int",
+          "description": ""
+        },
+        "component": "Api",
+        "example_input": 12
+      },
+      {
+        "label": "11th",
+        "parameter_name": "shape_slat_rescale_t",
+        "parameter_has_default": true,
+        "parameter_default": 3.0,
+        "type": {
+          "type": "number"
+        },
+        "python_type": {
+          "type": "float",
+          "description": ""
+        },
+        "component": "Api",
+        "example_input": 3.0
+      },
+      {
+        "label": "12th",
+        "parameter_name": "tex_slat_guidance_strength",
+        "parameter_has_default": true,
+        "parameter_default": 1.0,
+        "type": {
+          "type": "number"
+        },
+        "python_type": {
+          "type": "float",
+          "description": ""
+        },
+        "component": "Api",
+        "example_input": 1.0
+      },
+      {
+        "label": "13th",
+        "parameter_name": "tex_slat_guidance_rescale",
+        "parameter_has_default": true,
+        "parameter_default": 0.0,
+        "type": {
+          "type": "number"
+        },
+        "python_type": {
+          "type": "float",
+          "description": ""
+        },
+        "component": "Api",
+        "example_input": 0.0
+      },
+      {
+        "label": "14th",
+        "parameter_name": "tex_slat_sampling_steps",
+        "parameter_has_default": true,
+        "parameter_default": 12,
+        "type": {
+          "type": "integer"
+        },
+        "python_type": {
+          "type": "int",
+          "description": ""
+        },
+        "component": "Api",
+        "example_input": 12
+      },
+      {
+        "label": "15th",
+        "parameter_name": "tex_slat_rescale_t",
+        "parameter_has_default": true,
+        "parameter_default": 3.0,
+        "type": {
+          "type": "number"
+        },
+        "python_type": {
+          "type": "float",
+          "description": ""
+        },
+        "component": "Api",
+        "example_input": 3.0
+      },
+      {
+        "label": "16th",
+        "parameter_name": "manual_fov",
+        "parameter_has_default": true,
+        "parameter_default": -1.0,
+        "type": {
+          "type": "number"
+        },
+        "python_type": {
+          "type": "float",
+          "description": ""
+        },
+        "component": "Api",
+        "example_input": -1.0
+      },
+      {
+        "label": "17th",
+        "parameter_name": "fov_unit",
+        "parameter_has_default": true,
+        "parameter_default": "deg",
+        "type": {
+          "type": "string"
+        },
+        "python_type": {
+          "type": "str",
+          "description": ""
+        },
+        "component": "Api",
+        "example_input": "deg"
+      },
+      {
+        "label": "18th",
+        "parameter_name": "session_id",
+        "parameter_has_default": true,
+        "parameter_default": "",
+        "type": {
+          "type": "string"
+        },
+        "python_type": {
+          "type": "str",
+          "description": ""
+        },
+        "component": "Api",
+        "example_input": ""
+      }
+    ],
+    "returns": [
+      {
+        "label": "1st",
+        "type": {
+          "type": "object",
+          "additionalProperties": {}
+        },
+        "python_type": {
+          "type": "dict(str, Any)",
+          "description": ""
+        },
+        "component": "Api"
+      }
+    ]
+  },
+  "/extract_glb_api": {
+    "kind": "named_endpoints",
+    "parameters": [
+      {
+        "label": "1st",
+        "parameter_name": "state_path",
+        "parameter_has_default": false,
+        "parameter_default": null,
+        "type": {
+          "type": "string"
+        },
+        "python_type": {
+          "type": "str",
+          "description": ""
+        },
+        "component": "Api",
+        "example_input": "..."
+      },
+      {
+        "label": "2nd",
+        "parameter_name": "decimation_target",
+        "parameter_has_default": false,
+        "parameter_default": null,
+        "type": {
+          "type": "integer"
+        },
+        "python_type": {
+          "type": "int",
+          "description": ""
+        },
+        "component": "Api",
+        "example_input": "..."
+      },
+      {
+        "label": "3rd",
+        "parameter_name": "texture_size",
+        "parameter_has_default": false,
+        "parameter_default": null,
+        "type": {
+          "type": "integer"
+        },
+        "python_type": {
+          "type": "int",
+          "description": ""
+        },
+        "component": "Api",
+        "example_input": "..."
+      },
+      {
+        "label": "4th",
+        "parameter_name": "session_id",
+        "parameter_has_default": true,
+        "parameter_default": "",
+        "type": {
+          "type": "string"
+        },
+        "python_type": {
+          "type": "str",
+          "description": ""
+        },
+        "component": "Api",
+        "example_input": ""
+      }
+    ],
+    "returns": [
+      {
+        "label": "1st",
+        "type": {
+          "type": "object",
+          "properties": {
+            "path": {
+              "type": "string"
+            },
+            "url": {
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "size": {
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "orig_name": {
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "mime_type": {
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "is_stream": {
+              "type": "boolean"
+            },
+            "meta": {
+              "type": "object",
+              "properties": {
+                "_type": {
+                  "const": "gradio.FileData"
+                }
+              },
+              "required": [
+                "_type"
+              ]
+            }
+          },
+          "required": [
+            "path",
+            "url",
+            "size",
+            "orig_name",
+            "mime_type",
+            "is_stream",
+            "meta"
+          ]
+        },
+        "python_type": {
+          "type": "filepath",
+          "description": ""
+        },
+        "component": "Api"
+      }
+    ]
+  }
+}

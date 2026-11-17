@@ -56,8 +56,9 @@ def call(name, url, *, expect_mesh=False):
                         if name.startswith("polyhaven") and isinstance(obj,dict):
                             # Preserve a compact, *valid* catalog-derived match set, not a truncated JSON blob.
                             matches={k:{"name":v.get("name",""),"type":v.get("type","")} for k,v in obj.items()
-                                if isinstance(v,dict) and any(s in (k+" "+str(v.get("name",""))).lower()
-                                for s in ("owl","owlet","bird","chick","nestling","feather"))}
+                                if isinstance(v,dict) and re.search(
+                                r"(?<![a-z])(owl|owlet|bird|chick|nestling|feather)(?![a-z])",
+                                (k+" "+str(v.get("name",""))).lower())}
                             record["catalog_total"]=len(obj)
                             record["matched_model_names"]=matches
                             (out/"polyhaven_species_relevance.json").write_text(json.dumps(matches,indent=2,ensure_ascii=False))

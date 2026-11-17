@@ -1,0 +1,362 @@
+{
+  "/start_session": {
+    "params": [],
+    "returns": 0
+  },
+  "/preprocess_image": {
+    "params": [
+      {
+        "label": "Image Prompt",
+        "component": "Image",
+        "type": {
+          "properties": {
+            "path": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Path to a local file",
+              "title": "Path"
+            },
+            "url": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Publicly available url or base64 encoded image",
+              "title": "Url"
+            },
+            "size": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Size of image in bytes",
+              "title": "Size"
+            },
+            "orig_name": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Original filename",
+              "title": "Orig Name"
+            },
+            "mime_type": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "mime type of image",
+              "title": "Mime Type"
+            },
+            "is_stream": {
+              "default": false,
+              "description": "Can always be set to False",
+              "title": "Is Stream",
+              "type": "boolean"
+            },
+            "meta": {
+              "additionalProperties": true,
+              "default": {
+                "_type": "gradio.FileData"
+              },
+              "title": "Meta",
+              "type": "object"
+            }
+          },
+          "title": "ImageData",
+          "type": "object",
+          "additional_description": "For input, either path or url must be provided. For output, path is always provided."
+        }
+      }
+    ],
+    "returns": 1
+  },
+  "/get_seed": {
+    "params": [
+      {
+        "label": "Randomize Seed",
+        "component": "Checkbox",
+        "type": {
+          "type": "boolean"
+        }
+      },
+      {
+        "label": "Seed",
+        "component": "Slider",
+        "type": {
+          "type": "number",
+          "description": "numeric value between 0 and 2147483647"
+        }
+      }
+    ],
+    "returns": 1
+  },
+  "/lambda": {
+    "params": [],
+    "returns": 0
+  },
+  "/image_to_3d": {
+    "params": [
+      {
+        "label": "Image Prompt",
+        "component": "Image",
+        "type": {
+          "properties": {
+            "path": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Path to a local file",
+              "title": "Path"
+            },
+            "url": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Publicly available url or base64 encoded image",
+              "title": "Url"
+            },
+            "size": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Size of image in bytes",
+              "title": "Size"
+            },
+            "orig_name": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Original filename",
+              "title": "Orig Name"
+            },
+            "mime_type": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "mime type of image",
+              "title": "Mime Type"
+            },
+            "is_stream": {
+              "default": false,
+              "description": "Can always be set to False",
+              "title": "Is Stream",
+              "type": "boolean"
+            },
+            "meta": {
+              "additionalProperties": true,
+              "default": {
+                "_type": "gradio.FileData"
+              },
+              "title": "Meta",
+              "type": "object"
+            }
+          },
+          "title": "ImageData",
+          "type": "object",
+          "additional_description": "For input, either path or url must be provided. For output, path is always provided."
+        }
+      },
+      {
+        "label": "Seed",
+        "component": "Slider",
+        "type": {
+          "type": "number",
+          "description": "numeric value between 0 and 2147483647"
+        }
+      },
+      {
+        "label": "Resolution",
+        "component": "Radio",
+        "type": {
+          "enum": [
+            "512",
+            "1024",
+            "1536"
+          ],
+          "title": "Radio",
+          "type": "string"
+        }
+      },
+      {
+        "label": "Guidance Strength",
+        "component": "Slider",
+        "type": {
+          "type": "number",
+          "description": "numeric value between 1.0 and 10.0"
+        }
+      },
+      {
+        "label": "Guidance Rescale",
+        "component": "Slider",
+        "type": {
+          "type": "number",
+          "description": "numeric value between 0.0 and 1.0"
+        }
+      },
+      {
+        "label": "Sampling Steps",
+        "component": "Slider",
+        "type": {
+          "type": "number",
+          "description": "numeric value between 1 and 50"
+        }
+      },
+      {
+        "label": "Rescale T",
+        "component": "Slider",
+        "type": {
+          "type": "number",
+          "description": "numeric value between 1.0 and 6.0"
+        }
+      },
+      {
+        "label": "Guidance Strength",
+        "component": "Slider",
+        "type": {
+          "type": "number",
+          "description": "numeric value between 1.0 and 10.0"
+        }
+      },
+      {
+        "label": "Guidance Rescale",
+        "component": "Slider",
+        "type": {
+          "type": "number",
+          "description": "numeric value between 0.0 and 1.0"
+        }
+      },
+      {
+        "label": "Sampling Steps",
+        "component": "Slider",
+        "type": {
+          "type": "number",
+          "description": "numeric value between 1 and 50"
+        }
+      },
+      {
+        "label": "Rescale T",
+        "component": "Slider",
+        "type": {
+          "type": "number",
+          "description": "numeric value between 1.0 and 6.0"
+        }
+      },
+      {
+        "label": "Guidance Strength",
+        "component": "Slider",
+        "type": {
+          "type": "number",
+          "description": "numeric value between 1.0 and 10.0"
+        }
+      },
+      {
+        "label": "Guidance Rescale",
+        "component": "Slider",
+        "type": {
+          "type": "number",
+          "description": "numeric value between 0.0 and 1.0"
+        }
+      },
+      {
+        "label": "Sampling Steps",
+        "component": "Slider",
+        "type": {
+          "type": "number",
+          "description": "numeric value between 1 and 50"
+        }
+      },
+      {
+        "label": "Rescale T",
+        "component": "Slider",
+        "type": {
+          "type": "number",
+          "description": "numeric value between 1.0 and 6.0"
+        }
+      }
+    ],
+    "returns": 1
+  },
+  "/lambda_1": {
+    "params": [],
+    "returns": 0
+  },
+  "/extract_glb": {
+    "params": [
+      {
+        "label": "Decimation Target",
+        "component": "Slider",
+        "type": {
+          "type": "number",
+          "description": "numeric value between 100000 and 500000"
+        }
+      },
+      {
+        "label": "Texture Size",
+        "component": "Slider",
+        "type": {
+          "type": "number",
+          "description": "numeric value between 1024 and 4096"
+        }
+      }
+    ],
+    "returns": 2
+  }
+}

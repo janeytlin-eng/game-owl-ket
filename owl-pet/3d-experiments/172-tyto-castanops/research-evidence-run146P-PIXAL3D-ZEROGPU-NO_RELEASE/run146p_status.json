@@ -1,0 +1,26 @@
+{
+  "run": "146P",
+  "date": "2026-11-17T16:56:18Z",
+  "provider": "TencentARC/Pixal3D",
+  "original_source_sha256": "e439928a9ef08d3be266106cb5f2766b6f5a9f2c414d44e8da55ba81732153b8",
+  "original_source": "owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run117-FREE-TRELLIS-QUOTA-RECHECK-ART_REJECTED/rightmost_baby_owl_512_rgba.png",
+  "input_px": [
+    512,
+    512
+  ],
+  "client_version": "1.14.0",
+  "inference_calls_permitted": 1,
+  "actual_gpu_inference_completed": false,
+  "provider_claim_license": "MIT; third-party assets and output rights not audited",
+  "no_payment": true,
+  "no_tokens": true,
+  "license_cleared": false,
+  "art_approved": false,
+  "physical_mobile_gpu_tested": false,
+  "result": "NO_GLB",
+  "release": "NO_RELEASE",
+  "stage": "generate_3d",
+  "error": "AppError: You have exceeded your ZeroGPU quota (120s requested vs. 0s left). Try again in 0:00:00. Authenticate with a Hugging Face token for more quota - https://huggingface.co/settings/tokens",
+  "traceback_file": "run146p_failure_traceback.txt",
+  "finished": "2026-11-17T16:56:19Z"
+}

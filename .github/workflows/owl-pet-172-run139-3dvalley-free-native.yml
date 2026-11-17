@@ -2,7 +2,7 @@ name: owl172 Run139 free 3dvalley public browser GLB strict art quarantine
 on:
   push:
     branches:
-      - research/owl172-run139-alternate-no-fee-web-3d
+      - research/owl172-run139-3dvalley-actual-free-trellis2
     paths:
       - .github/workflows/owl-pet-172-run139-3dvalley-free-native.yml
       - owl-pet/3d-experiments/172-tyto-castanops/tools/run139_3dvalley_real_free.py
@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: research/owl172-run139-alternate-no-fee-web-3d
+          ref: research/owl172-run139-3dvalley-actual-free-trellis2
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run117-FREE-TRELLIS-QUOTA-RECHECK-ART_REJECTED/rightmost_baby_owl_512_rgba.png
@@ -96,5 +96,5 @@ jobs:
           if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run139-' /tmp/changed_paths; then echo SCOPE_VIOLATION; exit 9; fi
           if ! git diff --cached --quiet; then
             git commit -m "research(owl172): archive Run139 actual public no-fee 3D attempts without releasing models"
-            git push origin HEAD:research/owl172-run139-alternate-no-fee-web-3d
+            git push origin HEAD:research/owl172-run139-3dvalley-actual-free-trellis2
           fi

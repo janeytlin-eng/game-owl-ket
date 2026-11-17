@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scope": "#172 Tyto castanops v3 independent 3D research only; fingerprints are negative quality gates, not licensing decisions",
-  "updated_utc": "2026-11-17",
+  "updated_utc": "2026-11-18",
   "known_rejected_source_glbs": [
     {
       "sha256": "c11c94db20065c6c6f252e768e8c748f22dc69ef9b4e7199110b96de0625c12e",
@@ -86,6 +86,18 @@
       "art_decision": "ART_REJECTED",
       "grounds": "Actual Blender four-view and actual public Three.js viewer show a faceted degenerate wedge fan/scaly shell; no owl facial disc, eyes, beak, distinct limbs, natural cream down, crouched anatomy or hollow support. May be a bad fallback/synthetic placeholder, not proven prompt-conditioned reconstruction. No valid publish rights or physical mobile test.",
       "reference": "2026-11-17-run144-two-new-free-public-browser-source-actual-native-ART_REJECTED-NO_RELEASE.md"
+    },
+    {
+      "sha256": "044dbcfeaf008deff45ff7f227fb0c0dc7e984177a20745345656e1b4b141bc2",
+      "size_bytes": 369708,
+      "source": "https://cdn.3dassets.dev/assets/28079/v1/model.glb (3dassets.dev Birds and Reptiles HD barn owl, publisher-claimed CC0)",
+      "first_checked_run": 149,
+      "real_glb": true,
+      "meshes": 6,
+      "triangles": 16972,
+      "art_decision": "ART_REJECTED",
+      "grounds": "Actual Blender source and true vertex-space re-proportioned ablation four-view art review: adult Tyto alba donor is visually juvenile-inappropriate. Tall pointed ear/fins, tiny eyes, no integrated broad heart-shaped disc, smooth hard/no airy cream down, extremely long stiff adult wings and visible tail, long bare unsupported legs, no eucalypt hollow. Altering adult mesh proportions does not repair structural anatomy. Phone GPU and distribution rights not independently verified.",
+      "reference": "2026-11-18-run149-real-cc0-donor-mesh-native-fourview-ART_REJECTED-NO_RELEASE.md"
     }
   ],
   "instructions": "Before a new download, consult previous run records and this hash index. Once bytes are fetched compare sha256; if matching a rejected source, skip Blender/rig/WebGL/art release and log source identity. Publisher CC0 claims are not independently proven rights."

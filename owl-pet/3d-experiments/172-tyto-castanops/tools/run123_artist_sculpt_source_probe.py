@@ -37,7 +37,7 @@ def call(name, url, *, expect_mesh=False):
                 record["classification"]="real_glb_downloaded_candidate_NOT_ART_APPROVED"
                 path=out/(re.sub(r"[^a-z0-9-]+","-",name.lower())+".glb")
                 path.write_bytes(body); record["local_file"]=path.name
-            elif body.startswith(b"PK\\x03\\x04"):
+            elif body.startswith(b"PK\x03\x04"):
                 record["classification"]="zip_downloaded_requiring_license_and_format_review"
                 path=out/(re.sub(r"[^a-z0-9-]+","-",name.lower())+".zip")
                 path.write_bytes(body);record["local_file"]=path.name

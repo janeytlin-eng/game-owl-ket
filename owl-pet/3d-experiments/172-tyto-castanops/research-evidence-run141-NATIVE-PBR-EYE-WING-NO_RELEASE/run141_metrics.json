@@ -1,0 +1,117 @@
+{
+  "experiment": "Run141 #172 native actual PBR geometry",
+  "input_sha256": "9a154c9e3aeebb34ebcd6f209760e1d9e21e2f544f2b690dae406d9c8bf878e8",
+  "original_source": "Run139 3DValley TRELLIS.2 free public output",
+  "license_cleared": false,
+  "art_approved": false,
+  "physical_mobile_tested": false,
+  "release": "NO_RELEASE",
+  "variants": [
+    {
+      "variant": "native_tuck_only",
+      "real_native_original_sha": "9a154c9e3aeebb34ebcd6f209760e1d9e21e2f544f2b690dae406d9c8bf878e8",
+      "continuous_sculpt": {
+        "input_bbox": [
+          0.4576682448387146,
+          0.7001333236694336,
+          0.4750942587852478
+        ],
+        "native_vertices_moved": 219071,
+        "mean_vertex_displacement": 0.017545437448677658,
+        "max_vertex_displacement": 0.10813992431970855,
+        "post_bbox": [
+          0.4728078842163086,
+          0.5895266532897949,
+          0.4719042181968689
+        ]
+      },
+      "glb_name": "run141_native_tuck_only_RESEARCH_ONLY.glb",
+      "bytes": 10001892,
+      "sha256": "769ad302ae6e88a2aa1a963447b36890cc84664cea854c53933efde8e3fc74be",
+      "native_polygons": 192765,
+      "reimport_polygons": 192765,
+      "reimport_mesh_count": 1,
+      "real_cycles_views": [
+        "run141_native_tuck_only_front_ACTUAL_CYCLES_NO_RELEASE.png",
+        "run141_native_tuck_only_quarter_ACTUAL_CYCLES_NO_RELEASE.png",
+        "run141_native_tuck_only_side_ACTUAL_CYCLES_NO_RELEASE.png",
+        "run141_native_tuck_only_back_ACTUAL_CYCLES_NO_RELEASE.png"
+      ]
+    },
+    {
+      "variant": "native_tuck_eyes",
+      "real_native_original_sha": "9a154c9e3aeebb34ebcd6f209760e1d9e21e2f544f2b690dae406d9c8bf878e8",
+      "continuous_sculpt": {
+        "input_bbox": [
+          0.4576682448387146,
+          0.7001333236694336,
+          0.4750942587852478
+        ],
+        "native_vertices_moved": 219071,
+        "mean_vertex_displacement": 0.017545437448677658,
+        "max_vertex_displacement": 0.10813992431970855,
+        "post_bbox": [
+          0.4728078842163086,
+          0.5895266532897949,
+          0.4719042181968689
+        ]
+      },
+      "eye_surface_ablation": [
+        {
+          "side": -1,
+          "status": "NATIVE_SURFACE_HIT",
+          "face_index": 82993,
+          "hit_world": [
+            -0.28149354457855225,
+            -0.3366178870201111,
+            0.14992192387580872
+          ],
+          "zt": 0.79,
+          "xt": 0.12,
+          "eye_mesh_polygons": 288
+        },
+        {
+          "side": 1,
+          "status": "NATIVE_SURFACE_HIT",
+          "face_index": 109433,
+          "hit_world": [
+            -0.16801965236663818,
+            -0.3256205916404724,
+            0.14992192387580872
+          ],
+          "zt": 0.79,
+          "xt": 0.12,
+          "eye_mesh_polygons": 288
+        }
+      ],
+      "glb_name": "run141_native_tuck_eyes_RESEARCH_ONLY.glb",
+      "bytes": 10030948,
+      "sha256": "aa5d57babda5239528bb981efe05490f4b070cbd9b43e0c1a6c8d79fb0f9961b",
+      "native_polygons": 193341,
+      "reimport_polygons": 193821,
+      "reimport_mesh_count": 3,
+      "real_cycles_views": [
+        "run141_native_tuck_eyes_front_ACTUAL_CYCLES_NO_RELEASE.png",
+        "run141_native_tuck_eyes_quarter_ACTUAL_CYCLES_NO_RELEASE.png",
+        "run141_native_tuck_eyes_side_ACTUAL_CYCLES_NO_RELEASE.png",
+        "run141_native_tuck_eyes_back_ACTUAL_CYCLES_NO_RELEASE.png"
+      ]
+    }
+  ],
+  "blender": "4.0.2",
+  "original": {
+    "mesh_faces": 192765,
+    "bbox": [
+      0.4576682448387146,
+      0.7001333236694336,
+      0.4750942587852478
+    ],
+    "sha256": "9a154c9e3aeebb34ebcd6f209760e1d9e21e2f544f2b690dae406d9c8bf878e8",
+    "original_views": [
+      "run141_source_front_ACTUAL_CYCLES_NO_RELEASE.png",
+      "run141_source_quarter_ACTUAL_CYCLES_NO_RELEASE.png",
+      "run141_source_side_ACTUAL_CYCLES_NO_RELEASE.png",
+      "run141_source_back_ACTUAL_CYCLES_NO_RELEASE.png"
+    ]
+  }
+}

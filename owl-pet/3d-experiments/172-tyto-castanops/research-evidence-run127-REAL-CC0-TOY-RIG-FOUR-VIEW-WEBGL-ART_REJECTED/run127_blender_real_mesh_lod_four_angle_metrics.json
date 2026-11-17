@@ -1,0 +1,80 @@
+{
+  "run": "127",
+  "date": "2026-11-17",
+  "model": "actual Vuena CC0 owl from itch.io free zip",
+  "source_url": "https://vuena.itch.io/blocky-pets-free",
+  "source_bytes": 850320,
+  "source_sha256": "a22017221687458f37b76991719cb80243b5f04554ae57f07503139f988add3f",
+  "blender_version": "4.0.2",
+  "meshes": [
+    {
+      "mesh": "owl_LOD0",
+      "vertices": 4742,
+      "polygons": 7884,
+      "triangles": 7884,
+      "visible_before": true,
+      "material_count": 1
+    },
+    {
+      "mesh": "owl_LOD1",
+      "vertices": 1817,
+      "polygons": 2700,
+      "triangles": 2700,
+      "visible_before": true,
+      "material_count": 1
+    },
+    {
+      "mesh": "Icosphere",
+      "vertices": 42,
+      "polygons": 80,
+      "triangles": 80,
+      "visible_before": true,
+      "material_count": 0
+    }
+  ],
+  "lod0_names": [
+    "owl_LOD0"
+  ],
+  "lod1_names": [
+    "owl_LOD1"
+  ],
+  "skeleton_objects": [
+    "owl"
+  ],
+  "blender_actions": [
+    "attack_owl",
+    "call_owl",
+    "death_owl",
+    "eat_owl",
+    "fly_owl",
+    "hit_owl",
+    "idle_alt_owl",
+    "idle_owl",
+    "jump_owl",
+    "sit_owl",
+    "sleep_owl",
+    "walk_owl"
+  ],
+  "source_materials": [
+    "Dots Stroke",
+    "Material",
+    "owl_mat"
+  ],
+  "main_view_bounds_unverified_units": [
+    0.4665045738220215,
+    0.36203527450561523,
+    0.6366875767707825
+  ],
+  "rendered_native_views": [
+    "front",
+    "quarter",
+    "side",
+    "back"
+  ],
+  "rendering_method": "real GLB import Cycles 24 samples, four true orbital views, LOD1 hidden to prevent duplicate LOD ghosting",
+  "art_result": "ART_REJECTED: blocky low-poly toy owl is NOT cream downy age-unknown Tyto castanops; no anatomically faithful heart disc, down, short folded wings or eucalypt hollow",
+  "mobile_phone_gpu": "NOT TESTED, SwiftShader software browser only if browser step passes",
+  "license": "Official creator listing and free ZIP license claim CC0, upstream originality not independently proven",
+  "payment_usd": 0,
+  "release": false
+}

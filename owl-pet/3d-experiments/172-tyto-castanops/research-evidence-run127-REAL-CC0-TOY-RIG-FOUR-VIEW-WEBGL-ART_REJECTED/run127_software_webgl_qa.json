@@ -1,0 +1,61 @@
+{
+  "engine": "Chromium SwiftShader software WebGL2; not actual phone GPU",
+  "model": "actual Vuena CC0 lowpoly owl 3D donor only",
+  "physicalPhoneTest": false,
+  "results": [
+    {
+      "name": "desktop",
+      "loaded": true,
+      "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "renderer": "WebKit WebGL",
+      "meshes": 2,
+      "triangles": 10584,
+      "frames": 105,
+      "beforeFrame": {
+        "left": -0.24290665818745336,
+        "right": 0.24290665818745333,
+        "bottom": -0.591281077117753,
+        "top": 0.5838272325048193,
+        "inFrame": true
+      },
+      "afterFrame": {
+        "left": -0.2429979601275983,
+        "right": 0.2746136697532358,
+        "bottom": -0.5927566812022276,
+        "top": 0.6561889821244787,
+        "inFrame": true
+      },
+      "orbitMoved": true,
+      "glError": 0,
+      "pageErrors": [],
+      "appErrors": []
+    },
+    {
+      "name": "simulated_phone",
+      "loaded": true,
+      "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "renderer": "WebKit WebGL",
+      "meshes": 2,
+      "triangles": 10584,
+      "frames": 107,
+      "beforeFrame": {
+        "left": -0.5928948958311073,
+        "right": 0.5928948958311073,
+        "bottom": -0.37525140059280865,
+        "top": 0.3716114770472905,
+        "inFrame": true
+      },
+      "afterFrame": {
+        "left": -0.6958924443706198,
+        "right": 0.7130468509248146,
+        "bottom": -0.3633245391746877,
+        "top": 0.4068174964930839,
+        "inFrame": true
+      },
+      "orbitMoved": true,
+      "glError": 0,
+      "pageErrors": [],
+      "appErrors": []
+    }
+  ]
+}

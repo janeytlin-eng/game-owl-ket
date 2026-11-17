@@ -6,7 +6,7 @@ publication of provider output. Original source crop pinned by SHA256; upload de
 import sys,os,json,hashlib,pathlib,shutil,traceback,struct,time,math,re
 R=pathlib.Path("owl-pet/3d-experiments/172-tyto-castanops")
 SRC=R/"research-evidence-run117-FREE-TRELLIS-QUOTA-RECHECK-ART_REJECTED/rightmost_baby_owl_512_rgba.png"
-O=R/"research-evidence-run142-ALTERNATE-PUBLIC-NO_RELEASE"
+O=R/"research-evidence-run142-UPSCALED-PBR-RESET-NO_RELEASE"
 O.mkdir(parents=True,exist_ok=True)
 PIN="e439928a9ef08d3be266106cb5f2766b6f5a9f2c414d44e8da55ba81732153b8"
 REJECTED={

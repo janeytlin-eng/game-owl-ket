@@ -1,0 +1,120 @@
+name: owl172 Run148 independent no-fee neural web 3D native quarantine
+on:
+  push:
+    branches:
+      - research/owl172-run148-two-untried-neural-web-models
+    paths:
+      - .github/workflows/owl-pet-172-run148-new-neural-no-fee.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run148_two_untried_neural_web.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  run148-new-real-neural-research-no-release:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run148-two-untried-neural-web-models
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run117-FREE-TRELLIS-QUOTA-RECHECK-ART_REJECTED/rightmost_baby_owl_512_rgba.png
+            owl-pet/3d-experiments/172-tyto-castanops/known_rejected_asset_sha256_registry.json
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run148_two_untried_neural_web.py
+            owl-pet/AGENTS.md
+            owl-pet/README.md
+            owl-pet/research/species/172-tyto-castanops-v3.md
+            owl-pet/prototype/index.html
+            owl-pet/3d-experiments/172-tyto-castanops/2026-11-18-run147-four-free-ui-source-audit-NO_RELEASE.md
+      - name: Verify previous research, genuine rightmost source and source syntax
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run148-TWO-UNTRIED-NEURAL-WEB-NO_RELEASE"
+          mkdir -p "$O"
+          test -s owl-pet/AGENTS.md
+          test -s owl-pet/README.md
+          test -s owl-pet/prototype/index.html
+          test -s owl-pet/research/species/172-tyto-castanops-v3.md
+          test -s "$R/2026-11-18-run147-four-free-ui-source-audit-NO_RELEASE.md"
+          test -s "$R/known_rejected_asset_sha256_registry.json"
+          echo "e439928a9ef08d3be266106cb5f2766b6f5a9f2c414d44e8da55ba81732153b8  $R/research-evidence-run117-FREE-TRELLIS-QUOTA-RECHECK-ART_REJECTED/rightmost_baby_owl_512_rgba.png" | sha256sum -c - | tee "$O/run148_verified_pinned_image.txt"
+          python3 -m py_compile "$R/tools/run148_two_untried_neural_web.py"
+          python3 -c 'import json; from pathlib import Path; json.loads(Path("owl-pet/3d-experiments/172-tyto-castanops/known_rejected_asset_sha256_registry.json").read_text())'
+          printf 'ART_UNREVIEWED / NO_RELEASE; target #172 rightmost age-unknown mesoptile; no payment; never auto-publish.\n' > "$O/run148_preflight.txt"
+      - name: Actually test two independent advertised free neural image-to-3D sites
+        continue-on-error: true
+        timeout-minutes: 20
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run148-TWO-UNTRIED-NEURAL-WEB-NO_RELEASE"
+          python3 -m pip install --break-system-packages -q 'playwright>=1.48,<2' 'Pillow>=10'
+          python3 -m playwright install --with-deps chromium
+          python3 "$R/tools/run148_two_untried_neural_web.py" browse 2>&1 | tee "$O/run148_actual_neural_web.log"
+      - name: Render actual native GLB in Blender four views only when downloaded and nonduplicate
+        if: always()
+        continue-on-error: true
+        timeout-minutes: 8
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run148-TWO-UNTRIED-NEURAL-WEB-NO_RELEASE"
+          mkdir -p "$O"
+          if [ ! -s "$O/run148_original_RESEARCH_ONLY.glb" ]; then
+            printf 'No independent valid new GLB; actual Blender four-view not performed.\n' | tee "$O/run148_native_skipped.txt"
+            exit 0
+          fi
+          sudo apt-get update -qq
+          sudo apt-get install -y blender python3-numpy
+          blender -b -t 2 -P "$R/tools/run148_two_untried_neural_web.py" -- render 2>&1 | tee "$O/run148_actual_blender_fourview.log"
+          python3 - <<'PY'
+          from pathlib import Path
+          from PIL import Image,ImageDraw
+          o=Path("owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run148-TWO-UNTRIED-NEURAL-WEB-NO_RELEASE")
+          ss=[o/f"run148_{v}_ACTUAL_CYCLES_UNAPPROVED.png" for v in ("front","quarter","side","back")]
+          assert all(p.is_file() and p.stat().st_size>1000 for p in ss)
+          canvas=Image.new("RGB",(1000,1000),(237,237,237));d=ImageDraw.Draw(canvas)
+          for i,p in enumerate(ss):
+            tile=Image.open(p).convert("RGB").resize((500,500))
+            xy=(i%2*500,i//2*500);canvas.paste(tile,xy)
+            d.text((xy[0]+16,xy[1]+16),p.stem.split("_")[1],fill=(0,0,0))
+          canvas.save(o/"run148_native_four_views_UNAPPROVED.jpg",quality=86)
+          PY
+      - name: Enforce quarantine, verify checksums, save precise evidence
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run148-TWO-UNTRIED-NEURAL-WEB-NO_RELEASE
+          mkdir -p "$O"
+          printf 'NO_RELEASE: not a vetted art asset, not rights-cleared, not physical-mobile-tested; never publish third-party GLB.\n' > "$O/NO_RELEASE.flag"
+          (cd "$O" && find . -type f ! -name SHA256SUMS.txt ! -name checksum_verification.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$O" && sha256sum -c SHA256SUMS.txt > checksum_verification.log)
+          test -s "$O/SHA256SUMS.txt"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run148-new-neural-real-source-quarantine-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run148-TWO-UNTRIED-NEURAL-WEB-NO_RELEASE
+          retention-days: 30
+      - name: Archive nonbinary experimental evidence to isolated branch only
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run148-TWO-UNTRIED-NEURAL-WEB-NO_RELEASE
+          git add --sparse "$O"
+          git restore --staged -- "$O"/*.glb 2>/dev/null || true
+          git diff --cached --name-only > /tmp/changed_paths
+          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run148-' /tmp/changed_paths; then echo SCOPE_VIOLATION; exit 9; fi
+          if ! git diff --cached --quiet; then
+            git commit -m "research(owl172): archive Run148 actual two-site neural results with strict NO_RELEASE"
+            git push origin HEAD:research/owl172-run148-two-untried-neural-web-models
+          fi

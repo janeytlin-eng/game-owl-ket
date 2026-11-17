@@ -1,7 +1,7 @@
 Traceback (most recent call last):
-  File "/home/runner/work/game-owl-ket/game-owl-ket/owl-pet/3d-experiments/172-tyto-castanops/tools/run132_trellis2_actual_pbr_reset.py", line 100, in generate
-    extracted=client.predict(80000,1024,api_name="/extract_glb")
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/game-owl-ket/game-owl-ket/owl-pet/3d-experiments/172-tyto-castanops/tools/run132_trellis2_actual_pbr_reset.py", line 93, in generate
+    preview=client.predict(*gen_args,api_name="/image_to_3d")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/.local/lib/python3.12/site-packages/gradio_client/client.py", line 513, in predict
     ).result()
       ^^^^^^^^
@@ -21,4 +21,4 @@ Traceback (most recent call last):
                   ^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/.local/lib/python3.12/site-packages/gradio_client/client.py", line 1346, in _predict
     raise AppError(message=message, **result)
-gradio_client.exceptions.AppError: Value 80000 is less than minimum value 100000.
+gradio_client.exceptions.AppError: You have exceeded your ZeroGPU quota (120s requested vs. 0s left). Try again in 0:00:00. Authenticate with a Hugging Face token for more quota - https://huggingface.co/settings/tokens

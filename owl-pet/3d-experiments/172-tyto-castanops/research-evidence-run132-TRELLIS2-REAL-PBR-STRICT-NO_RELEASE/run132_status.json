@@ -1,6 +1,6 @@
 {
   "run": 132,
-  "date_utc": "2026-11-17T08:18:35Z",
+  "date_utc": "2026-11-17T08:19:34Z",
   "source": "owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run117-FREE-TRELLIS-QUOTA-RECHECK-ART_REJECTED/rightmost_baby_owl_512_rgba.png",
   "source_sha256": "e439928a9ef08d3be266106cb5f2766b6f5a9f2c414d44e8da55ba81732153b8",
   "source_dimensions": [
@@ -17,7 +17,7 @@
   "actual_hardware_mobile_tested": false,
   "art_approved": false,
   "release": "NO_RELEASE",
-  "stage": "extract_glb",
+  "stage": "image_to_3d",
   "result": "NO_GLB",
   "client_version": "1.14.0",
   "endpoints": [
@@ -29,10 +29,7 @@
     "/lambda_1",
     "/extract_glb"
   ],
-  "inference_seconds": 18.49,
-  "preview_type": "str",
-  "preview_present": true,
-  "error": "AppError: Value 80000 is less than minimum value 100000.",
+  "error": "AppError: You have exceeded your ZeroGPU quota (120s requested vs. 0s left). Try again in 0:00:00. Authenticate with a Hugging Face token for more quota - https://huggingface.co/settings/tokens",
   "traceback_file": "run132_failure_traceback.txt",
-  "finished_utc": "2026-11-17T08:18:55Z"
+  "finished_utc": "2026-11-17T08:19:36Z"
 }

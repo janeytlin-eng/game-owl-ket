@@ -1,0 +1,40 @@
+{
+  "run": 152,
+  "input_sha256": "f05ad553ebf00a495a4f1593ca2a1949a277ad98ecdd334cb4a75d7283bbec76",
+  "source_run": 151,
+  "scene_meshes": 1,
+  "polygons": 195159,
+  "bounds": [
+    0.6246270537376404,
+    0.9919341802597046,
+    0.7647217512130737
+  ],
+  "blender": "4.0.2",
+  "orientation_note": "Run151 front photograph showed back at world -Y; corrected anatomical front camera at +Y",
+  "four_view_angles": {
+    "front": "+Y",
+    "quarter": "+Y,+X",
+    "strict_side": "+X",
+    "back": "-Y"
+  },
+  "experiment": "Original PBR versus shader-only cream surface lift: no geometry modification and no assertion GLB export will preserve that shader",
+  "baseline_actual_files": [
+    "run152_original_front_ACTUAL_CYCLES_UNAPPROVED.png",
+    "run152_original_quarter_ACTUAL_CYCLES_UNAPPROVED.png",
+    "run152_original_side_ACTUAL_CYCLES_UNAPPROVED.png",
+    "run152_original_back_ACTUAL_CYCLES_UNAPPROVED.png"
+  ],
+  "pbr_touched_materials": [
+    "Material_0"
+  ],
+  "toned_actual_files": [
+    "run152_toned_front_ACTUAL_CYCLES_UNAPPROVED.png",
+    "run152_toned_quarter_ACTUAL_CYCLES_UNAPPROVED.png",
+    "run152_toned_side_ACTUAL_CYCLES_UNAPPROVED.png",
+    "run152_toned_back_ACTUAL_CYCLES_UNAPPROVED.png"
+  ],
+  "all_eight_native_renders_present": true,
+  "release_decision": "ART_UNREVIEWED / NO_RELEASE",
+  "physical_phone_gpu_test": false,
+  "redistribution_rights_cleared": false
+}

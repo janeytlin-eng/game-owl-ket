@@ -1,0 +1,138 @@
+name: owl172 Run154 real groom GLB transport quarantine - NO_RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run154-hair-native-glb-roundtrip
+    paths:
+      - .github/workflows/owl-pet-172-run154-real-hair-glb.yml
+permissions:
+  contents: write
+  actions: read
+jobs:
+  native-hair-export:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install free Blender CPU and Pillow
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y blender python3-pil python3-numpy
+          blender --version
+      - name: Retrieve exact quarantined Run153 original Blender project
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/owl172_run154 /tmp/owl172_run153_source
+          gh run download 44183510767 -R janeytlin-eng/game-owl-ket -n owl172-run153-native-sculpt-INTERNAL-NO_RELEASE -D /tmp/owl172_run153_source
+          source_file="$(find /tmp/owl172_run153_source -name 'run153_original_sculpt_groom_UNAPPROVED.blend' -type f -print -quit)"
+          test -n "$source_file"
+          echo "b448a3f39f49827a7f21e286202e31913caf20f25d0460f7dc4d6dc1fdf27073  $source_file" | sha256sum -c -
+          echo "OWL154_BLEND=$source_file" >> "$GITHUB_ENV"
+          echo "OWL154_OUT=/tmp/owl172_run154" >> "$GITHUB_ENV"
+          echo "Source verified: $source_file"
+      - name: ACTUAL Blender curve-to-mesh glTF GLB 2 LOD exports and reimport + 8 views
+        shell: bash
+        run: |
+          set -euo pipefail
+          timeout 1500s blender -b -t 2 --python-exit-code 42 --python owl-pet/3d-experiments/172-tyto-castanops/tools/run154_real_curve_mesh_glb.py > /tmp/owl172_run154/blender_run154.log 2>&1 || {
+            tail -100 /tmp/owl172_run154/blender_run154.log; exit 1;
+          }
+          grep -q "RUN154_COMPLETE_NO_RELEASE" /tmp/owl172_run154/blender_run154.log
+          test -s /tmp/owl172_run154/full_measured.json
+          test -s /tmp/owl172_run154/lod3_measured.json
+          test -s /tmp/owl172_run154/run154_summary.json
+          python3 - <<'PY'
+          import json,os
+          root='/tmp/owl172_run154'
+          d=json.load(open(root+'/run154_summary.json'))
+          assert len(d['results'])==2
+          for s in d['results']:
+              assert s['roundtrip_hair_triangles']>0
+              assert s['roundtrip_hair_triangles']==s['converted_hair_triangles']
+              assert len(s['actual_render_from_reimport'])==4
+          assert d['art_acceptance']=='UNREVIEWED_NO_RELEASE'
+          print('TWO REAL GLB ROUNTRIPS VERIFIED (not art approval)')
+          PY
+      - name: Archive actual evidence separately (with failure evidence)
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          dest=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run154-REAL-GLB-HAIR-NO_RELEASE
+          mkdir -p "$dest"
+          python3 - <<'PY'
+          import os,glob,hashlib,json,shutil
+          from PIL import Image, ImageDraw
+          src='/tmp/owl172_run154'
+          dest='owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run154-REAL-GLB-HAIR-NO_RELEASE'
+          for pat in ['blender_run154.log','RUN154_ERROR.txt','NO_RELEASE.txt','run154_summary.json','full_measured.json','lod3_measured.json']:
+              p=os.path.join(src,pat)
+              if os.path.isfile(p):shutil.copy2(p,os.path.join(dest,pat))
+          n=['front','quarter','side','back'];tiers=['full','lod3']
+          paths=[os.path.join(src,t+'_'+v+'_ACTUAL_REIMPORT_NO_RELEASE.png') for t in tiers for v in n]
+          if all(os.path.isfile(p) for p in paths):
+              sheet=Image.new('RGB',(4*360,2*390),'#c8c9c7');draw=ImageDraw.Draw(sheet)
+              for i,p in enumerate(paths):
+                  col=i%4;row=i//4
+                  sheet.paste(Image.open(p).convert('RGB'),(col*360,row*390+25))
+                  draw.text((col*360+10,row*390+7),tiers[row]+' '+n[col]+' REAL GLB UNAPPROVED',fill='#272727')
+              sheet.save(os.path.join(dest,'run154_actual_glb_fourview_pair_UNAPPROVED.jpg'),quality=88)
+          sums={}
+          for p in glob.glob(dest+'/*'):
+              if os.path.isfile(p) and not p.endswith('sha256_manifest.json'):
+                  with open(p,'rb') as f:blob=f.read()
+                  sums[os.path.basename(p)]={'bytes':len(blob),'sha256':hashlib.sha256(blob).hexdigest()}
+          with open(os.path.join(dest,'sha256_manifest.json'),'w') as f:json.dump(sums,f,indent=2)
+          print("Actual research evidence:",json.dumps(sums))
+          PY
+          cat > owl-pet/3d-experiments/172-tyto-castanops/2026-11-18-run154-real-glb-groom-transport-NO_RELEASE.md <<'MD'
+          # Run154 native curved groom into actual GLB — unpublished test
+          Reuses the exact SHA256-verified original **Run153** unapproved .blend, not a new
+          photorealistic young owl. Converts the REAL native fibre curves to mesh
+          geometry (two LOD densities), exports GLB, then reloads each GLB into fresh
+          Blender scene and renders 4 native Cycles views each. Script and measurements
+          determine whether actual execution succeeded. Full run log, JSON files and
+          any actually generated contact sheet live in research-evidence-run154-REAL-GLB-HAIR-NO_RELEASE/.
+          Full binary models and render frames are private research artifacts only.
+
+          The underlying Run153 stylized sculpt was already art rejected: detached eye
+          and face elements, sparse spiky fibres, weak profile/back and poor hollow.
+          Exporting hair geometry is a *technical* portability experiment, NOT an
+          improvement to the juvenile's anatomy or a visual quality pass.
+          Do not show this as an acceptable sample, deploy it, infer a phone WebGL
+          result, or claim a rig/animation or a professionally groomed finished pet.
+          No mobile device was tested, no extra tool payment made.
+
+          Status: **TECHNICAL_UNREVIEWED / ART_REJECTED_SOURCE / NO_RELEASE**.
+          Changes confined to #172 independent research branch and its dedicated
+          workflow. The 251-species pipeline, main branch, existing prototype,
+          concept images and published site are untouched.
+          MD
+      - name: Quarantine full native GLBs and actual render frames
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run154-genuine-curved-hair-glb-INTERNAL-NO_RELEASE
+          path: /tmp/owl172_run154/
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Commit evidence only, no GLB to product or git history
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run154-REAL-GLB-HAIR-NO_RELEASE/ \
+            owl-pet/3d-experiments/172-tyto-castanops/2026-11-18-run154-real-glb-groom-transport-NO_RELEASE.md
+          git diff --cached --name-only | tee /tmp/run154-changed.txt
+          if grep -Ei '\\.(glb|blend|fbx|obj|zip)$' /tmp/run154-changed.txt; then
+            echo "PROHIBITED BINARY IN RESEARCH GIT"; exit 1
+          fi
+          if [ -s /tmp/run154-changed.txt ]; then
+            git commit -m "research(owl172): archive real Run154 GLB hair transfer and truthful NO_RELEASE state"
+            git push origin HEAD:research/owl172-run154-hair-native-glb-roundtrip
+          fi

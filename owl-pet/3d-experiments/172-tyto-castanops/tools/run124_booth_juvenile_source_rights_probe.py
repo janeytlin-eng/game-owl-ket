@@ -69,6 +69,7 @@ probe("booth_artist_zero_yen_download_action",
 # VN3 Japanese/English/Chinese independent license. Publicly viewable vs.
 # free model license grants are not interchangeable.
 for language,google_id in [
+ ("ja","1yPx28jJUy_1Hl9AYd53zKhj-45CtMx9X"),
  ("en","1nx3UjuJAnlyRTc5g02Wpxi6UMSqeZSeq"),
  ("zh","1BrlF8LW9Cwy9OvRCpiKp5VIcrxEjnEes")
 ]:

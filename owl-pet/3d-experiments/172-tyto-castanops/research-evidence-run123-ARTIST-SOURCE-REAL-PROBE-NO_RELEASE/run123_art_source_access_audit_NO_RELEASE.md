@@ -1,6 +1,6 @@
 # #172 Run123 independent real artist-sculpt source acquisition audit
 
-Run date: 2026-11-17T00:45:30.467554+00:00; **NO_RELEASE / ART_UNREVIEWED / no payment**.
+Run date: 2026-11-17T00:46:29.068167+00:00; **NO_RELEASE / ART_UNREVIEWED / no payment**.
 
 Before this trial, the repository's Run122 four-angle Cycles/WebGL results and the original rightmost chick requirements were reread. The latest Run122 is a real 6 MB GLB but aesthetically rejected due flat mask, protruding eyes, snowball body, absent wing and glittering fur. Repeating the same procedural edits cannot satisfy the art gate.
 
@@ -14,6 +14,9 @@ This run performed real HTTP GETs against legitimate official source endpoints. 
 | sketchfab_museum_tyto_official_download | 401 | http_access_blocked_or_not_found | HTTP Error 401: Unauthorized |
 | sketchfab_juvenile_catalog | 200 | json_metadata_not_mesh | public metadata / response log |
 | sketchfab_owlet_catalog | 200 | json_metadata_not_mesh | public metadata / response log |
+| sketchfab_barn_owl_catalog | 200 | json_metadata_not_mesh | public metadata / response log |
+| sketchfab_baby_owl_catalog | 200 | json_metadata_not_mesh | public metadata / response log |
+| sketchfab_tyto_castanops_catalog | 200 | json_metadata_not_mesh | public metadata / response log |
 | polyhaven_CC0_artist_model_catalog | 200 | json_metadata_not_mesh | public metadata / response log |
 
 The CGTrader baby-owl sculpt is a genuinely separate **artist-made juvenile** candidate, but a public web listing or thumbnail cannot be counted as a downloaded, visual-validated and distributable GLB. The Sketchfab CC0 Tyto source is a real museum taxidermy adult; anatomical genus fit does not override age/surface mismatch. API metadata is not itself geometry.

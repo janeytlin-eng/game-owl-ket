@@ -97,7 +97,7 @@ def generate():
         (OUT/"run132_preview_response_excerpt.txt").write_text(str(preview)[:2000])
         if not preview:raise RuntimeError("No native preview or state after inference")
         result["stage"]="extract_glb";save(result,"run132_status.json")
-        extracted=client.predict(80000,1024,api_name="/extract_glb")
+        extracted=client.predict(100000,1024,api_name="/extract_glb")
         found=find_glb(extracted)
         (OUT/"run132_extract_response_excerpt.txt").write_text(str(extracted)[:2000])
         if found is None:raise RuntimeError("No genuine GLB file returned by provider")

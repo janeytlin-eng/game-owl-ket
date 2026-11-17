@@ -10,6 +10,7 @@ Run124 used actual Python HTTP GET from GitHub Actions, following standard publi
 |---|---:|---|---|
 | booth_artist_right_juvenile_listing | 200 | html_page_not_model | https://booth.pm/ja/items/6643539 |
 | booth_artist_zero_yen_download_action | 200 | login_required_not_download | https://booth.pm/users/sign_in |
+| booth_vn3_ja_terms | 200 | public_terms_pdf | https://drive.usercontent.google.com/download?id=1yPx28jJUy_1Hl9AYd53zKhj-45CtMx9X&export=download |
 | booth_vn3_en_terms | 200 | public_terms_pdf | https://drive.usercontent.google.com/download?id=1nx3UjuJAnlyRTc5g02Wpxi6UMSqeZSeq&export=download |
 | booth_vn3_zh_terms | 200 | public_terms_pdf | https://drive.usercontent.google.com/download?id=1BrlF8LW9Cwy9OvRCpiKp5VIcrxEjnEes&export=download |
 | blendswap_CC0_filmed_feathers_owl_listing | 200 | html_page_not_model | https://blendswap.com/blend/7951 |

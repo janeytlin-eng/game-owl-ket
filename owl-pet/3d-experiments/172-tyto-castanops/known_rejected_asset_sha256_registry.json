@@ -26,6 +26,36 @@
       "art_decision": "ART_REJECTED",
       "grounds": "Hard-edged orange-brown low-poly toy owl, eyes/beak/wings/feet fail target",
       "reference": "2026-11-17-run129-no-fee-cc0-real-glb-four-view-ART_REJECTED-NO_RELEASE.md"
+    },
+    {
+      "sha256": "9a154c9e3aeebb34ebcd6f209760e1d9e21e2f544f2b690dae406d9c8bf878e8",
+      "size_bytes": 9983448,
+      "source": "3dvalley.com/tools/create/image-to-3d public free TRELLIS.2 Standard",
+      "first_checked_run": 139,
+      "also_checked_run": 140,
+      "real_glb": true,
+      "triangles": 192765,
+      "meshes": 1,
+      "texture_images": 2,
+      "materials": 1,
+      "animations": 0,
+      "art_decision": "ART_REJECTED",
+      "grounds": "White textured owl materially better than Run137 but target-mismatched: half-lidded eyes, prominent adult remiges and visible pointed tail, dirty/scaly speckled back, unsupported exposed claws, absent hollow; rights and real mobile GPU unverified",
+      "reference": "2026-11-17-run138-run139-no-fee-native-pbr-ART_REJECTED-NO_RELEASE.md",
+      "derived_rejected_lods": [
+        {
+          "sha256": "6a39340f48b0d83b31a6b1147f341121648430dd15537151bac72acbba48ee50",
+          "triangles": 48191,
+          "bytes": 3379508,
+          "run": 140
+        },
+        {
+          "sha256": "f9e5371e77a497a5e74458f97b0bad48a5592aa7919e079d602a26bd9966dc08",
+          "triangles": 23131,
+          "bytes": 1872512,
+          "run": 140
+        }
+      ]
     }
   ],
   "instructions": "Before a new download, consult previous run records and this hash index. Once bytes are fetched compare sha256; if matching a rejected source, skip Blender/rig/WebGL/art release and log source identity. Publisher CC0 claims are not independently proven rights."

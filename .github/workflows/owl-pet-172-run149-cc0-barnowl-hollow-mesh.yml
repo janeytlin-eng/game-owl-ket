@@ -1,0 +1,119 @@
+name: owl172 Run149 real CC0 barn owl native PBR mesh and geometry research NO_RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run149-cc0-anatomy-hollow-native-ablation
+    paths:
+      - .github/workflows/owl-pet-172-run149-cc0-barnowl-hollow-mesh.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run149_cc0_barnowl_hollow.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  run149-real-3d-mesh-test:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 32
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run149-cc0-anatomy-hollow-native-ablation
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/AGENTS.md
+            owl-pet/README.md
+            owl-pet/research/species/172-tyto-castanops-v3.md
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run149_cc0_barnowl_hollow.py
+            .github/workflows/owl-pet-172-run149-cc0-barnowl-hollow-mesh.yml
+      - name: Read current target and source boundaries
+        shell: bash
+        run: |
+          set -euo pipefail
+          grep -q 'AGE-UNKNOWN MESOPTILE' owl-pet/research/species/172-tyto-castanops-v3.md
+          grep -q '不修改根目录词汇游戏' owl-pet/AGENTS.md
+          python3 -m py_compile owl-pet/3d-experiments/172-tyto-castanops/tools/run149_cc0_barnowl_hollow.py
+      - name: Actual free official source asset fetch and sha256
+        continue-on-error: true
+        timeout-minutes: 4
+        shell: bash
+        run: |
+          set -o pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run149-BARNOWL-HOLLOW-TRUE-CC0-MESH-NO_RELEASE"
+          mkdir -p "$O"
+          python3 "$R/tools/run149_cc0_barnowl_hollow.py" fetch 2>&1 | tee "$O/run149_actual_download.log"
+      - name: Genuine Blender4 Cycles four-side test of source and 3D mesh modification
+        if: always()
+        continue-on-error: true
+        timeout-minutes: 17
+        shell: bash
+        run: |
+          set -o pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run149-BARNOWL-HOLLOW-TRUE-CC0-MESH-NO_RELEASE"
+          mkdir -p "$O"
+          if [ ! -s "$O/run149_CC0_owl_ORIGINAL_RESEARCH_ONLY.glb" ];then
+            echo 'NO_VALID_NATIVE_GLTF: no Blender/source art claims' | tee "$O/run149_native_skipped.txt"
+            exit 0
+          fi
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq blender python3-numpy python3-pil
+          timeout 900 blender -b -t 2 --python-exit-code 7 \
+            -P "$R/tools/run149_cc0_barnowl_hollow.py" -- render \
+            2>&1 | tee "$O/run149_actual_blender.log"
+      - name: Build contact sheets only when all four true native stills exist
+        if: always()
+        continue-on-error: true
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from PIL import Image,ImageDraw
+          out=Path('owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run149-BARNOWL-HOLLOW-TRUE-CC0-MESH-NO_RELEASE')
+          out.mkdir(parents=True,exist_ok=True)
+          for prefix in ['run149_source','run149_ablation']:
+              names=['front','quarter','side','back']
+              imgs=[out/f'{prefix}_{name}_ACTUAL_CYCLES_UNAPPROVED.png' for name in names]
+              if not all(x.is_file() for x in imgs):
+                  (out/f'{prefix}_missing_views.txt').write_text('No complete four-view native evidence. Do not infer visual accept.')
+                  continue
+              sheet=Image.new('RGB',(960,1000),(237,237,238));d=ImageDraw.Draw(sheet)
+              for i,(name,path) in enumerate(zip(names,imgs)):
+                  x=(i%2)*480;y=(i//2)*500
+                  sheet.paste(Image.open(path).convert('RGB').resize((480,480)),(x,y+20))
+                  d.text((x+14,y+3),name+' (native GLB)',fill=(0,0,0))
+              sheet.save(out/f'{prefix}_four_REAL_views_UNAPPROVED.jpg',quality=87)
+          PY
+      - name: Always checksum files and enforce NO_RELEASE
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run149-BARNOWL-HOLLOW-TRUE-CC0-MESH-NO_RELEASE
+          mkdir -p "$O"
+          echo 'ART_UNREVIEWED / NO_RELEASE: this is an adult Tyto alba mesh and a generic hollow donor, NOT approved juvenile Tyto castanops. No phone GPU acceptance or paid tool usage.' > "$O/NO_RELEASE.flag"
+          (cd "$O"; find . -type f ! -name SHA256SUMS.txt ! -name checksum_verification.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$O"; sha256sum -c SHA256SUMS.txt > checksum_verification.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run149-real-cc0-native-mesh-source-ablation-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run149-BARNOWL-HOLLOW-TRUE-CC0-MESH-NO_RELEASE
+          retention-days: 30
+      - name: Archive only Run149 evidence; never publish/commit third-party GLBs
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run149-BARNOWL-HOLLOW-TRUE-CC0-MESH-NO_RELEASE
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add --sparse "$O"
+          git diff --cached --name-only | grep -E '\.glb$' | xargs -r git restore --staged --
+          git diff --cached --name-only > /tmp/run149-scope
+          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run149-' /tmp/run149-scope;then
+            echo 'SCOPE VIOLATION';exit 16
+          fi
+          if ! git diff --cached --quiet;then
+            git commit -m 'research(owl172): archive actual CC0 Run149 Blender evidence NO_RELEASE'
+            git push origin HEAD:research/owl172-run149-cc0-anatomy-hollow-native-ablation
+          fi

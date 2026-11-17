@@ -71,6 +71,21 @@
       "art_decision": "ART_REJECTED",
       "grounds": "Native four-view actual Blender review: eye openings narrow/closed despite source open eyes; dark mottled/scaly instead of soft cream down; visible long flight-feather wing and tail in profile and back; claws unsupported; no tree hollow lip; 1024px preprocessing did not fix structural single-view inference. Source redistribution and real-phone GPU unverified.",
       "reference": "2026-11-17-run142-upscaled-source-actual-pbr-fourview-ART_REJECTED-NO_RELEASE.md"
+    },
+    {
+      "sha256": "1e86303f2cf5879ced269e90f81969744cfc0b0d3c18b8c188beefdd67aaa09b",
+      "size_bytes": 106600,
+      "source": "https://2d-to-3d-model.vercel.app/ public browser generate/upload/download fallback (Run144); exact provenance beyond viewer unverified",
+      "first_checked_run": 144,
+      "real_glb": true,
+      "triangles": 6660,
+      "meshes": 1,
+      "texture_images": 0,
+      "materials": 0,
+      "animations": 0,
+      "art_decision": "ART_REJECTED",
+      "grounds": "Actual Blender four-view and actual public Three.js viewer show a faceted degenerate wedge fan/scaly shell; no owl facial disc, eyes, beak, distinct limbs, natural cream down, crouched anatomy or hollow support. May be a bad fallback/synthetic placeholder, not proven prompt-conditioned reconstruction. No valid publish rights or physical mobile test.",
+      "reference": "2026-11-17-run144-two-new-free-public-browser-source-actual-native-ART_REJECTED-NO_RELEASE.md"
     }
   ],
   "instructions": "Before a new download, consult previous run records and this hash index. Once bytes are fetched compare sha256; if matching a rejected source, skip Blender/rig/WebGL/art release and log source identity. Publisher CC0 claims are not independently proven rights."

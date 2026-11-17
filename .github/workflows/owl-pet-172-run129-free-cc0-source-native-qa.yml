@@ -1,0 +1,99 @@
+name: owl172 Run129 independently sourced free CC0 GLB actual native four-view QA
+on:
+  push:
+    branches:
+      - research/owl172-run129-open-cc0-source-actual-geometry-gate
+    paths:
+      - .github/workflows/owl-pet-172-run129-free-cc0-source-native-qa.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run129_no_fee_cc0_geometry_source.py
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run129_native_art_four_view.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  actual-public-model-and-art-qa:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run129-open-cc0-source-actual-geometry-gate
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run129_no_fee_cc0_geometry_source.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run129_native_art_four_view.py
+            .github/workflows/owl-pet-172-run129-free-cc0-source-native-qa.yml
+      - name: Verify Python syntax, then actually fetch public free catalogue and inspect binary GLB
+        id: source
+        continue-on-error: true
+        timeout-minutes: 5
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run129-REAL-PUBLIC-CC0-GLB-ART_UNREVIEWED-NO_RELEASE"
+          mkdir -p "$O"
+          python3 -m py_compile "$R/tools/run129_no_fee_cc0_geometry_source.py"
+          python3 "$R/tools/run129_no_fee_cc0_geometry_source.py" "$O" 2>&1 | tee "$O/run129_actual_source.log"
+      - name: Install real Blender on free runner (only when legitimate binary GLB obtained)
+        id: blender
+        if: steps.source.outcome == 'success'
+        continue-on-error: true
+        timeout-minutes: 5
+        shell: bash
+        run: |
+          set -euo pipefail
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run129-REAL-PUBLIC-CC0-GLB-ART_UNREVIEWED-NO_RELEASE
+          if [ ! -f "$O/owl_gobkit_CC0_technical_donor_ONLY.glb" ]; then echo "NO_REAL_GLB_AVAILABLE, no fake Blender results"; exit 0; fi
+          sudo apt-get update -qq
+          sudo apt-get install -y blender
+          blender --version | head -2 | tee "$O/run129_blender_version.txt"
+      - name: Actually import genuine GLB and render 0/45/90/180 degree CPU views
+        id: native
+        if: steps.blender.outcome == 'success'
+        continue-on-error: true
+        timeout-minutes: 6
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run129-REAL-PUBLIC-CC0-GLB-ART_UNREVIEWED-NO_RELEASE"
+          if [ ! -f "$O/owl_gobkit_CC0_technical_donor_ONLY.glb" ]; then echo "NO_REAL_GLB; rendering correctly skipped" | tee "$O/native_skipped.txt"; exit 0; fi
+          blender -b -t 2 -P "$R/tools/run129_native_art_four_view.py" -- "$O/owl_gobkit_CC0_technical_donor_ONLY.glb" "$O" 2>&1 | tee "$O/run129_actual_native_blender.log"
+          test "$(find "$O" -maxdepth 1 -name 'run129_*.png' | wc -l)" -eq 4
+      - name: Preserve negative gate and source metrics, never publish third-party GLB
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run129-REAL-PUBLIC-CC0-GLB-ART_UNREVIEWED-NO_RELEASE
+          mkdir -p "$O"
+          test -f "$O/NO_RELEASE.flag" || printf 'NO_RELEASE: source probe failed, no model verified.\n' > "$O/NO_RELEASE.flag"
+          printf 'source_step=%s\nblender_setup_step=%s\nnative_render_step=%s\n' "${{ steps.source.outcome }}" "${{ steps.blender.outcome }}" "${{ steps.native.outcome }}" > "$O/run129_steps.txt"
+          # Unverified external-license bytes are never committed, uploaded or shipped.
+          rm -f "$O/owl_gobkit_CC0_technical_donor_ONLY.glb"
+          (cd "$O" && find . -type f ! -name SHA256SUMS.txt ! -name sha_checked.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$O" && sha256sum -c SHA256SUMS.txt > sha_checked.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run129-public-catalogue-native-four-view-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run129-REAL-PUBLIC-CC0-GLB-ART_UNREVIEWED-NO_RELEASE
+          retention-days: 30
+      - name: Commit only isolated Run129 actual evidence, never 251-species production, source GLB, or deploy
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run129-REAL-PUBLIC-CC0-GLB-ART_UNREVIEWED-NO_RELEASE
+          git add --sparse "$O"
+          git diff --cached --name-only > /tmp/owl172-run129-scope.txt
+          if grep -v '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run129-' /tmp/owl172-run129-scope.txt; then
+            echo 'SCOPE VIOLATION; abort'; exit 9
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m "research(owl172): archive Run129 actual free-source and native mesh QA with NO_RELEASE"
+            git push origin HEAD:research/owl172-run129-open-cc0-source-actual-geometry-gate
+          fi

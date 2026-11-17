@@ -12,7 +12,9 @@ PIN="e439928a9ef08d3be266106cb5f2766b6f5a9f2c414d44e8da55ba81732153b8"
 REJECTED={
  "c11c94db20065c6c6f252e768e8c748f22dc69ef9b4e7199110b96de0625c12e",
  "339a2eafd291fe1c2352d93d0755ca10a1c34d0b83b560a91cdca73053db3685",
- "b65fe7ca77aee54806792f473f15282000a5adc1f3798283a83c1b9bc928630d",\n "9a154c9e3aeebb34ebcd6f209760e1d9e21e2f544f2b690dae406d9c8bf878e8",\n "1e86303f2cf5879ced269e90f81969744cfc0b0d3c18b8c188beefdd67aaa09b",
+ "b65fe7ca77aee54806792f473f15282000a5adc1f3798283a83c1b9bc928630d",
+ "9a154c9e3aeebb34ebcd6f209760e1d9e21e2f544f2b690dae406d9c8bf878e8",
+ "1e86303f2cf5879ced269e90f81969744cfc0b0d3c18b8c188beefdd67aaa09b",
 }
 def sha(p):return hashlib.sha256(pathlib.Path(p).read_bytes()).hexdigest()
 def save(name,obj):(O/name).write_text(json.dumps(obj,ensure_ascii=False,indent=2,default=str)+"\n")

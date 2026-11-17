@@ -38,7 +38,7 @@ def gltf_info(p):
 
 PROVIDERS=[
  dict(name="3dvalley",url="https://3dvalley.com/tools/create/image-to-3d",
-      buttons=["Generate 3D","Generate model","Generate","Create 3D"]),
+      buttons=["Make 3D model","Generate 3D","Generate model","Generate","Create 3D"]),
 ]
 
 def browse():

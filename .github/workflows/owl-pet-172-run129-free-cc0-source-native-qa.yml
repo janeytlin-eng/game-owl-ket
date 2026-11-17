@@ -46,7 +46,7 @@ jobs:
           O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run129-REAL-PUBLIC-CC0-GLB-ART_UNREVIEWED-NO_RELEASE
           if [ ! -f "$O/owl_gobkit_CC0_technical_donor_ONLY.glb" ]; then echo "NO_REAL_GLB_AVAILABLE, no fake Blender results"; exit 0; fi
           sudo apt-get update -qq
-          sudo apt-get install -y blender
+          sudo apt-get install -y blender python3-numpy
           blender --version | head -2 | tee "$O/run129_blender_version.txt"
       - name: Actually import genuine GLB and render 0/45/90/180 degree CPU views
         id: native

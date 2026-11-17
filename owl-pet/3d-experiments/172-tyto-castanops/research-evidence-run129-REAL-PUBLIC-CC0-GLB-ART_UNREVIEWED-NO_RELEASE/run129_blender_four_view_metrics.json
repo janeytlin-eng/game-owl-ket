@@ -1,0 +1,58 @@
+{
+  "source_glb": "owl_gobkit_CC0_technical_donor_ONLY.glb",
+  "object_count": 2,
+  "mesh_objects": [
+    {
+      "name": "Owl",
+      "vertices": 670,
+      "faces": 310
+    },
+    {
+      "name": "Icosphere",
+      "vertices": 42,
+      "faces": 80
+    }
+  ],
+  "total_faces": 390,
+  "materials": [
+    "lambert1"
+  ],
+  "bounds_min": [
+    -1.8893574476242065,
+    -1.923522710800171,
+    -1.0
+  ],
+  "bounds_max": [
+    1.8893576860427856,
+    1.9838870763778687,
+    3.653982639312744
+  ],
+  "size": [
+    3.778715133666992,
+    3.90740966796875,
+    4.653982639312744
+  ],
+  "render_engine": "CYCLES_CPU",
+  "render_samples": 18,
+  "views": [
+    {
+      "angle_degrees": 0,
+      "file": "run129_front_nominal.png"
+    },
+    {
+      "angle_degrees": 45,
+      "file": "run129_front_45deg.png"
+    },
+    {
+      "angle_degrees": 90,
+      "file": "run129_side_90deg.png"
+    },
+    {
+      "angle_degrees": 180,
+      "file": "run129_back_180deg.png"
+    }
+  ],
+  "art_gate": "ART_UNREVIEWED",
+  "release": "NO_RELEASE",
+  "caution": "Angles are nominal rotations and do not prove that the mesh is an anatomic owl chick."
+}

@@ -47,9 +47,9 @@ def uv(name, loc, scale, mat, seg=40, rings=24):
 mb=bpy.data.metaballs.new("mesoptile anatomical volume"); mb.resolution=.035; mb.render_resolution=.024
 ob=bpy.data.objects.new("Anatomical sculpt initial volume",mb); scene.collection.objects.link(ob)
 def metaball(x,y,z,r,scale):
-    el=mb.elements.new("ELLIPSOID"); el.co=(x,y,z); el.radius=r
+    el=mb.elements.new(type="ELLIPSOID"); el.co=(x,y,z); el.radius=r
     el.size_x,el.size_y,el.size_z=scale
-metaball(0,-.055,1.02,.88,(.79,.68,1.03))  # spherical, compact, crouched torso
+metaball(0,-.055,1.15,.75,(.87,.78,.85))  # spherical, compact, crouched torso
 metaball(0,.065,1.70,.70,(.81,.74,.77))    # disproportionately large head
 metaball(-.42,-.10,.94,.44,(.58,.51,.94))   # down-buried short folded wing
 metaball(.42,-.10,.94,.44,(.58,.51,.94))
@@ -161,7 +161,7 @@ def groom(name, count, center, radius, mat, minl, maxl, exclude_face=False, seed
     return accepted
 # Deliberately not spiky adult flight-feather surfaces; tiny, soft dense down.
 f1=groom("head mesoptile down cream",3500,(0,.065,1.70),(.55,.50,.50),fluff,.018,.052,True,1)
-f2=groom("body second down ivory",5300,(0,-.055,1.02),(.68,.58,.72),fluff,.028,.064,False,2)
+f2=groom("body second down ivory",5300,(0,-.055,1.15),(.66,.56,.66),fluff,.028,.064,False,2)
 f3=groom("underwing shade filaments",1400,(0,-.045,.91),(.72,.56,.48),fluff2,.018,.040,False,3)
 # facial fringe arranged as layered hairs around the heart contour
 cr=bpy.data.curves.new("individual heart rim down filaments","CURVE")
@@ -214,7 +214,7 @@ bpy.ops.wm.save_as_mainfile(filepath=os.path.join(OUT,"run153_original_sculpt_gr
 # Export only mesh volumes, not curves, not cameras/lights, tree omitted.
 bpy.ops.object.select_all(action="DESELECT")
 models=[o for o in bpy.data.objects if o.type=="MESH" and (
- "mesoptile" in o.name or "wing volume" in o.name or "disc" in o.name or
+ "mesoptile" in o.name or "juvenile clay sculpt" in o.name or "wing volume" in o.name or "disc" in o.name or
  "eye " in o.name or "socket" in o.name or "beak" in o.name or "bill" in o.name or
  "tarsus" in o.name or "digit" in o.name)]
 for o in models:o.select_set(True)

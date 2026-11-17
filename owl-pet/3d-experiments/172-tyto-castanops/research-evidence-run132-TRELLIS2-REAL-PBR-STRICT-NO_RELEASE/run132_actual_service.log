@@ -1,0 +1,64 @@
+Client.predict() Usage Info
+---------------------------
+Named API endpoints: 7
+
+ - predict(api_name="/start_session") -> 
+    Parameters:
+     - None
+    Returns:
+     - None
+
+ - predict(input, api_name="/preprocess_image") -> image_prompt
+    Parameters:
+     - [Image] input: dict(path: str | None (Path to a local file), url: str | None (Publicly available url or base64 encoded image), size: int | None (Size of image in bytes), orig_name: str | None (Original filename), mime_type: str | None (mime type of image), is_stream: bool (Can always be set to False), meta: dict(str, Any)) (required)  (For input, either path or url must be provided. For output, path is always provided.) 
+    Returns:
+     - [Image] image_prompt: dict(path: str | None (Path to a local file), url: str | None (Publicly available url or base64 encoded image), size: int | None (Size of image in bytes), orig_name: str | None (Original filename), mime_type: str | None (mime type of image), is_stream: bool (Can always be set to False), meta: dict(str, Any)) 
+
+ - predict(randomize_seed, seed, api_name="/get_seed") -> seed
+    Parameters:
+     - [Checkbox] randomize_seed: bool (not required, defaults to:   True)  
+     - [Slider] seed: float (not required, defaults to:   0)  
+    Returns:
+     - [Slider] seed: float (numeric value between 0 and 2147483647) 
+
+ - predict(api_name="/lambda") -> 
+    Parameters:
+     - None
+    Returns:
+     - None
+
+ - predict(image, seed, resolution, ss_guidance_strength, ss_guidance_rescale, ss_sampling_steps, ss_rescale_t, shape_slat_guidance_strength, shape_slat_guidance_rescale, shape_slat_sampling_steps, shape_slat_rescale_t, tex_slat_guidance_strength, tex_slat_guidance_rescale, tex_slat_sampling_steps, tex_slat_rescale_t, api_name="/image_to_3d") -> 3d_asset_preview
+    Parameters:
+     - [Image] image: dict(path: str | None (Path to a local file), url: str | None (Publicly available url or base64 encoded image), size: int | None (Size of image in bytes), orig_name: str | None (Original filename), mime_type: str | None (mime type of image), is_stream: bool (Can always be set to False), meta: dict(str, Any)) (required)  (For input, either path or url must be provided. For output, path is always provided.) 
+     - [Slider] seed: float (not required, defaults to:   0)  
+     - [Radio] resolution: Literal['512', '1024', '1536'] (not required, defaults to:   1024)  
+     - [Slider] ss_guidance_strength: float (not required, defaults to:   7.5)  
+     - [Slider] ss_guidance_rescale: float (not required, defaults to:   0.7)  
+     - [Slider] ss_sampling_steps: float (not required, defaults to:   12)  
+     - [Slider] ss_rescale_t: float (not required, defaults to:   5.0)  
+     - [Slider] shape_slat_guidance_strength: float (not required, defaults to:   7.5)  
+     - [Slider] shape_slat_guidance_rescale: float (not required, defaults to:   0.5)  
+     - [Slider] shape_slat_sampling_steps: float (not required, defaults to:   12)  
+     - [Slider] shape_slat_rescale_t: float (not required, defaults to:   3.0)  
+     - [Slider] tex_slat_guidance_strength: float (not required, defaults to:   1.0)  
+     - [Slider] tex_slat_guidance_rescale: float (not required, defaults to:   0.0)  
+     - [Slider] tex_slat_sampling_steps: float (not required, defaults to:   12)  
+     - [Slider] tex_slat_rescale_t: float (not required, defaults to:   3.0)  
+    Returns:
+     - [Html] 3d_asset_preview: str 
+
+ - predict(api_name="/lambda_1") -> 
+    Parameters:
+     - None
+    Returns:
+     - None
+
+ - predict(decimation_target, texture_size, api_name="/extract_glb") -> (extracted_glb, download_glb)
+    Parameters:
+     - [Slider] decimation_target: float (not required, defaults to:   300000)  
+     - [Slider] texture_size: float (not required, defaults to:   2048)  
+    Returns:
+     - [Model3d] extracted_glb: filepath 
+     - [Downloadbutton] download_glb: filepath 
+
+RUN132_RESULT {"run": 132, "date_utc": "2026-11-17T08:18:35Z", "source": "owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run117-FREE-TRELLIS-QUOTA-RECHECK-ART_REJECTED/rightmost_baby_owl_512_rgba.png", "source_sha256": "e439928a9ef08d3be266106cb5f2766b6f5a9f2c414d44e8da55ba81732153b8", "source_dimensions": [512, 512], "provider": "microsoft/TRELLIS.2", "model_license_claim": "MIT; verify downstream rights before any release", "actual_public_token_used": false, "paid_endpoints_allowed": false, "max_inference_calls": 1, "previous_run103": "no mesh, unauthenticated ZeroGPU quota; waited for a later date", "previous_run131": "SF3D upstream AppError; no mesh", "actual_hardware_mobile_tested": false, "art_approved": false, "release": "NO_RELEASE", "stage": "extract_glb", "result": "NO_GLB", "client_version": "1.14.0", "endpoints": ["/start_session", "/preprocess_image", "/get_seed", "/lambda", "/image_to_3d", "/lambda_1", "/extract_glb"], "inference_seconds": 18.49, "preview_type": "str", "preview_present": true, "error": "AppError: Value 80000 is less than minimum value 100000.", "traceback_file": "run132_failure_traceback.txt", "finished_utc": "2026-11-17T08:18:55Z"}

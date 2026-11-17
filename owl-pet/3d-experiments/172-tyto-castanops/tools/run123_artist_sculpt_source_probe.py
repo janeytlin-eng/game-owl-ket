@@ -53,8 +53,16 @@ def call(name, url, *, expect_mesh=False):
                         record["json_keys"]=sorted(obj.keys())[:25]
                         for key in ("uid","name","downloadable","license","detail","error","message"):
                             if key in obj: record["json_"+key]=str(obj[key])[:240]
-                        if name.startswith("sketchfab_") or name.startswith("polyhaven"):
-                            (out/(name+"_public_metadata.json")).write_text(json.dumps(obj,ensure_ascii=False,indent=2)[:180000],encoding="utf-8")
+                        if name.startswith("polyhaven") and isinstance(obj,dict):
+                            # Preserve a compact, *valid* catalog-derived match set, not a truncated JSON blob.
+                            matches={k:{"name":v.get("name",""),"type":v.get("type","")} for k,v in obj.items()
+                                if isinstance(v,dict) and any(s in (k+" "+str(v.get("name",""))).lower()
+                                for s in ("owl","owlet","bird","chick","nestling","feather"))}
+                            record["catalog_total"]=len(obj)
+                            record["matched_model_names"]=matches
+                            (out/"polyhaven_species_relevance.json").write_text(json.dumps(matches,indent=2,ensure_ascii=False))
+                        elif name.startswith("sketchfab_"):
+                            (out/(name+"_public_metadata.json")).write_text(json.dumps(obj,ensure_ascii=False,indent=2),encoding="utf-8")
                 except Exception as exc:
                     record["json_parse_error"]=str(exc)
             else:
@@ -97,21 +105,18 @@ call("sketchfab_juvenile_catalog",
  "https://api.sketchfab.com/v3/search?type=models&q=barn%20owl%20chick&downloadable=true&count=20")
 call("sketchfab_owlet_catalog",
  "https://api.sketchfab.com/v3/search?type=models&q=owlet&downloadable=true&count=20")
+call("sketchfab_barn_owl_catalog",
+ "https://api.sketchfab.com/v3/search?type=models&q=barn%20owl&downloadable=true&count=20")
+call("sketchfab_baby_owl_catalog",
+ "https://api.sketchfab.com/v3/search?type=models&q=baby%20owl&downloadable=true&count=20")
+call("sketchfab_tyto_castanops_catalog",
+ "https://api.sketchfab.com/v3/search?type=models&q=tyto%20castanops&downloadable=true&count=20")
 
 # Source D: truly independent, no-login and clear-license artist asset catalogue.
 # Poly Haven is curated handcrafted CC0; catalog filtering tests whether
 # a matching owl/owlet/sculpt actually exists, not just whether API responds.
 ph=call("polyhaven_CC0_artist_model_catalog","https://api.polyhaven.com/assets?t=models")
-try:
-    p=out/"polyhaven_CC0_artist_model_catalog_public_metadata.json"
-    if p.exists():
-        obj=json.loads(p.read_text())
-        match={k:str(v.get("name","")) for k,v in obj.items()
-               if any(s in (k+" "+str(v.get("name",""))).lower() for s in
-               ("owl","owlet","bird","chick","nestling","feather"))}
-        (out/"polyhaven_species_relevance.json").write_text(json.dumps(match,indent=2,ensure_ascii=False))
-        ph["matched_model_names"]=match
-except Exception as exc: ph["catalog_filter_error"]=str(exc)
+
 
 candidate_meshes=[x for x in results if x.get("classification","").startswith(("real_glb_downloaded","real_blend_downloaded","zip_downloaded"))]
 summary={

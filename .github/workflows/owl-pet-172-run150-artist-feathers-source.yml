@@ -1,0 +1,124 @@
+name: owl172 Run150 free CC0 artist-feather source native QA NO_RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run150-cc0-artist-feathers-source-audit
+    paths:
+      - .github/workflows/owl-pet-172-run150-artist-feathers-source.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run150_artist_groom_probe.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  run150-real-art-asset-probe:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run150-cc0-artist-feathers-source-audit
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/AGENTS.md
+            owl-pet/README.md
+            owl-pet/research/species/172-tyto-castanops-v3.md
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run150_artist_groom_probe.py
+            .github/workflows/owl-pet-172-run150-artist-feathers-source.yml
+      - name: Preflight identity and script validation
+        shell: bash
+        run: |
+          set -euo pipefail
+          grep -q 'AGE-UNKNOWN MESOPTILE' owl-pet/research/species/172-tyto-castanops-v3.md
+          grep -q '不修改根目录词汇游戏' owl-pet/AGENTS.md
+          python3 -m py_compile owl-pet/3d-experiments/172-tyto-castanops/tools/run150_artist_groom_probe.py
+      - name: Set up actual zero-pay browser asset source probes
+        timeout-minutes: 11
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -o pipefail
+          python3 -m pip install --user -q requests beautifulsoup4 pillow playwright==1.56.0
+          python3 -m playwright install --with-deps chromium
+      - name: Actually visit source pages, navigate anonymous download routes, preserve outcome
+        timeout-minutes: 8
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -o pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run150-ARTIST-CC0-GROOM-SOURCE-NO_RELEASE"
+          mkdir -p "$O"
+          python3 "$R/tools/run150_artist_groom_probe.py" 2>&1 | tee "$O/run150_source_actual_execution.log"
+      - name: Actually import GLB and render in Blender if an honestly valid one was obtained
+        if: always()
+        timeout-minutes: 12
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -o pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run150-ARTIST-CC0-GROOM-SOURCE-NO_RELEASE"
+          mkdir -p "$O"
+          if ! find "$O" -name '*UNAPPROVED_SOURCE_ONLY.glb' | grep -q .; then
+            echo 'No valid native GLB from anonymous legal sources; no Blender render claims' | tee "$O/run150_blender_NO_MODEL.txt"
+            exit 0
+          fi
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq blender python3-numpy python3-pil
+          timeout 600 blender -b -t 2 --python-exit-code 7 -P "$R/tools/run150_artist_groom_probe.py" -- render 2>&1 | tee "$O/run150_genuine_native_blender.log"
+      - name: Make real contact sheet only if all actual render files exist
+        if: always()
+        continue-on-error: true
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from PIL import Image,ImageDraw
+          O=Path('owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run150-ARTIST-CC0-GROOM-SOURCE-NO_RELEASE')
+          O.mkdir(parents=True,exist_ok=True)
+          angles=[0,45,90,180]
+          paths=[O/f'run150_native_azimuth_{n:03d}_UNREVIEWED.png' for n in angles]
+          if all(p.exists() for p in paths):
+              im=Image.new('RGB',(896,940),(239,238,236));d=ImageDraw.Draw(im)
+              for i,(a,p) in enumerate(zip(angles,paths)):
+                  x=(i%2)*448;y=(i//2)*470
+                  im.paste(Image.open(p).convert('RGB'),(x,y+22))
+                  d.text((x+13,y+4),f'world azimuth {a} (not anatomy)',fill=(0,0,0))
+              im.save(O/'run150_REAL_NATIVE_four_azimuths_UNREVIEWED.jpg',quality=86)
+          else:
+              (O/'run150_fourview_NOT_CONFIRMED.txt').write_text('Missing at least one true Blender render; no four-view QA claim.')
+          PY
+      - name: Enforce NO_RELEASE with signed evidence checksums
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run150-ARTIST-CC0-GROOM-SOURCE-NO_RELEASE
+          mkdir -p "$O"
+          echo 'ART_UNREVIEWED / NO_RELEASE: no approved #172 juvenile, no rights-cleared commercial asset, no real phone GPU proof. $0 spent.' > "$O/NO_RELEASE.flag"
+          (cd "$O"; find . -type f ! -name SHA256SUMS.txt ! -name checksum_verification.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$O"; sha256sum -c SHA256SUMS.txt > checksum_verification.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run150-free-artist-groom-actual-source-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run150-ARTIST-CC0-GROOM-SOURCE-NO_RELEASE
+          retention-days: 30
+      - name: Independently archive nonbinary Run150 evidence, no third-party model release
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run150-ARTIST-CC0-GROOM-SOURCE-NO_RELEASE
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add --sparse "$O"
+          git diff --cached --name-only | grep -E '\.(glb|blend|fbx|obj|zip)$' | xargs -r git restore --staged --
+          git diff --cached --name-only >/tmp/run150-scope
+          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run150-' /tmp/run150-scope;then
+            echo 'SCOPE VIOLATION';exit 16
+          fi
+          if ! git diff --cached --quiet;then
+            git commit -m 'research(owl172): preserve real Run150 artist feather source gate NO_RELEASE'
+            git push origin HEAD:research/owl172-run150-cc0-artist-feathers-source-audit
+          fi

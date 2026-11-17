@@ -1,0 +1,109 @@
+name: owl172 Run143 experimental free textual juvenile 3D true-source four-angle NO_RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run143-free-text-neural-reconstruction
+    paths:
+      - .github/workflows/owl-pet-172-run143-free-text-neural-3d.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run143_free_text_neural_3d.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  free-text-morphology-actual-3d:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 31
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run143-free-text-neural-reconstruction
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/AGENTS.md
+            owl-pet/README.md
+            owl-pet/research/species/172-tyto-castanops-v3.md
+            owl-pet/3d-experiments/172-tyto-castanops/2026-11-17-run142-upscaled-source-actual-pbr-fourview-ART_REJECTED-NO_RELEASE.md
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run143_free_text_neural_3d.py
+            .github/workflows/owl-pet-172-run143-free-text-neural-3d.yml
+      - name: Verify preflight, actual zero-cost public text-to-3D routes
+        continue-on-error: true
+        timeout-minutes: 19
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run143-FREE-TEXT-3D-CHICK-STRICT-NO_RELEASE"
+          mkdir -p "$O"
+          cat owl-pet/AGENTS.md owl-pet/README.md owl-pet/research/species/172-tyto-castanops-v3.md > /dev/null
+          test -s "$R/2026-11-17-run142-upscaled-source-actual-pbr-fourview-ART_REJECTED-NO_RELEASE.md"
+          python3 -m py_compile "$R/tools/run143_free_text_neural_3d.py"
+          python3 -m pip install --break-system-packages -q "requests>=2.31" "playwright>=1.48,<2" "Pillow>=10"
+          python3 -m playwright install --with-deps chromium
+          python3 "$R/tools/run143_free_text_neural_3d.py" probe 2>&1 | tee "$O/run143_public_generation_actual.log"
+      - name: Import real non-rejected GLBs and render actual native Cycles four views
+        if: always()
+        continue-on-error: true
+        timeout-minutes: 8
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run143-FREE-TEXT-3D-CHICK-STRICT-NO_RELEASE"
+          if [ ! -s "$O/run143_three_ws_unapproved.glb" ] && [ ! -s "$O/run143_valley_unapproved.glb" ]; then
+            echo "NO_GENUINE_GLTF: no 3D model to Blender-review, no invented renders" | tee "$O/run143_no_model_skip.txt"
+            exit 0
+          fi
+          sudo apt-get update -qq
+          sudo apt-get install -y blender python3-numpy
+          blender -b -t 2 --python-exit-code 42 -P "$R/tools/run143_free_text_neural_3d.py" -- render 2>&1 | tee "$O/run143_native_blender_actual.log"
+          python3 - <<'PY'
+          from PIL import Image,ImageDraw
+          from pathlib import Path
+          o=Path('owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run143-FREE-TEXT-3D-CHICK-STRICT-NO_RELEASE')
+          for name in ('three_ws','valley'):
+              shots=[o/f'run143_{name}_{v}_NATIVE_UNAPPROVED.png' for v in ('front','quarter','side','back')]
+              if not all(x.is_file() for x in shots):
+                  print(name,'not all four native images found; no acceptance')
+                  continue
+              canvas=Image.new('RGB',(1000,1000),(239,239,239));d=ImageDraw.Draw(canvas)
+              for i,shot in enumerate(shots):
+                  x,y=i%2*500,i//2*500
+                  im=Image.open(shot).convert('RGB').resize((500,500))
+                  canvas.paste(im,(x,y))
+                  d.text((x+16,y+20),('front','quarter','side','back')[i],fill=(0,0,0))
+              canvas.save(o/f'run143_{name}_four_native_views_NO_RELEASE.jpg',quality=90)
+              print('ACTUAL_NATIVE_CONTACT',name)
+          PY
+      - name: Integrity evidence gate, forbid all public product releases
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run143-FREE-TEXT-3D-CHICK-STRICT-NO_RELEASE
+          mkdir -p "$O"
+          printf 'ART_UNREVIEWED: NO_RELEASE. Distinct free text-to-3D morphology ablation; not source-plate faithful or rights/mobile/art reviewed. Never deploy or call usable until separately approved.\n' > "$O/NO_RELEASE.flag"
+          (cd "$O" && find . -type f ! -name SHA256SUMS.txt ! -name checksum_verification.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$O" && sha256sum -c SHA256SUMS.txt > checksum_verification.log)
+          test -s "$O/SHA256SUMS.txt"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run143-free-text-3d-genuine-experiment-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run143-FREE-TEXT-3D-CHICK-STRICT-NO_RELEASE
+          retention-days: 30
+      - name: Archive text/log/screenshot evidence on isolated research branch only
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run143-FREE-TEXT-3D-CHICK-STRICT-NO_RELEASE
+          git add --sparse "$O"
+          git restore --staged -- "$O"/*.glb 2>/dev/null || true
+          git diff --cached --name-only > /tmp/owl143_scope
+          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run143-' /tmp/owl143_scope; then echo SCOPE_VIOLATION;exit 9; fi
+          if ! git diff --cached --quiet; then
+            git commit -m "research(owl172): archive Run143 actual free text-to-3D attempts, no unapproved GLB release"
+            git push origin HEAD:research/owl172-run143-free-text-neural-reconstruction
+          fi

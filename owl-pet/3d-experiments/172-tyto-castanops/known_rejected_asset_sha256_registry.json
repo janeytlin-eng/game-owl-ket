@@ -114,6 +114,29 @@
       "art_decision": "ART_REJECTED",
       "grounds": "Corrected true +Y anatomical front/quarter/side/-Y back eight native Cycles render review, Run152: despite recognizable Tyto heart mask, eyes too narrow and recessed, cream plumage riddled with coarse grey/brown hard/scaly texture, large mature-looking wings and tail-like rear silhouette, exposed unsupported talons and no hollow. Single global PBR cream-lift ablation washed pupils grey without fixing wing/back structure or producing natural down; no mobile GPU test. Quarantine, do not publish.",
       "reference": "2026-11-18-run152-anatomical-camera-real-PBR-ART_REJECTED-NO_RELEASE.md"
+    },
+    {
+      "sha256": "c0b7a76eee8d232c56b019bebb45507155a08deced8b63ca7e562f75a3895f56",
+      "size_bytes": 15582880,
+      "source": "Run154 originally authored Run153 Blender sculpt, real native 11,400 curved strands converted to mesh inside GLB (internal experiment, not external source)",
+      "first_checked_run": 154,
+      "real_glb": true,
+      "meshes": 28,
+      "triangles": 456420,
+      "texture_images": 0,
+      "animations": 0,
+      "art_decision": "ART_REJECTED",
+      "grounds": "Original source art already rejected; actual 2x4 independent GLB reimport four-view review found protruding cartoon eyes, facial disc floating off face in strict profile, white bean-shaped side, bald back, spiky hard hair and smooth cylinder pedestal. 396,000 fur triangles/15.6 MB and no mobile GPU test; true fur portability is a technical pass only.",
+      "reference": "2026-11-18-run154-real-glb-groom-transport-NO_RELEASE.md",
+      "derived_rejected_lods": [
+        {
+          "sha256": "78c1c7f0a995b7104921a69f9915e0845d35abaca80aa29a9f4276126e639b31",
+          "triangles": 192456,
+          "bytes": 5468680,
+          "run": 154,
+          "grounds": "LOD retains 3,801 strands, thinner visibly sparse spike halo and same detached facial anatomy, still ART_REJECTED."
+        }
+      ]
     }
   ],
   "instructions": "Before a new download, consult previous run records and this hash index. Once bytes are fetched compare sha256; if matching a rejected source, skip Blender/rig/WebGL/art release and log source identity. Publisher CC0 claims are not independently proven rights."

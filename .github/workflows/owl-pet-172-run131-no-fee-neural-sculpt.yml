@@ -1,0 +1,94 @@
+name: owl172 Run131 actual free ZeroGPU image-to-3D hypothesis, strict NO_RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run131-hf-zero-gpu-real-image-to-mesh
+    paths:
+      - .github/workflows/owl-pet-172-run131-no-fee-neural-sculpt.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run131_zero_gpu_sf3d_actual_probe.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  actual-free-neural-geometry:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 33
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run131-hf-zero-gpu-real-image-to-mesh
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run131_zero_gpu_sf3d_actual_probe.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run129_native_art_four_view.py
+            .github/workflows/owl-pet-172-run131-no-fee-neural-sculpt.yml
+      - name: No-fee prerequisites, actual source crop and one public ZeroGPU neural mesh attempt
+        id: neural
+        continue-on-error: true
+        timeout-minutes: 21
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run131-REAL-ZEROGPU-ART_UNREVIEWED-NO_RELEASE"
+          mkdir -p "$O"
+          python3 -m py_compile "$R/tools/run131_zero_gpu_sf3d_actual_probe.py"
+          python3 -m pip install --break-system-packages -q 'Pillow>=10.4' requests 'gradio_client>=1.0,<2.0' 'rembg>=2.0,<3.0' onnxruntime trimesh
+          python3 "$R/tools/run131_zero_gpu_sf3d_actual_probe.py" "$O" 2>&1 | tee "$O/run131_client_actual.log"
+          test -f "$O/run131_result.json"
+      - name: Native Blender orbit from real neural GLB, only if an actual binary was returned
+        id: native
+        if: always()
+        continue-on-error: true
+        timeout-minutes: 9
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run131-REAL-ZEROGPU-ART_UNREVIEWED-NO_RELEASE"
+          mkdir -p "$O"
+          if [ ! -s "$O/run131_zero_gpu_SOURCE_RESEARCH_ONLY.glb" ]; then
+            echo "NO_ACTUAL_GLB; honest native-render skip" | tee "$O/run131_native_skipped.txt"
+            exit 0
+          fi
+          sudo apt-get update -qq
+          sudo apt-get install -y blender python3-numpy
+          blender --version | head -2 | tee "$O/run131_blender_version.txt"
+          sed 's/run129_/run131_/g' "$R/tools/run129_native_art_four_view.py" > /tmp/run131_native_four_view.py
+          blender -b -t 2 -P /tmp/run131_native_four_view.py -- "$O/run131_zero_gpu_SOURCE_RESEARCH_ONLY.glb" "$O" 2>&1 | tee "$O/run131_blender_native.log"
+          test "$(find "$O" -maxdepth 1 -name 'run131_*.png' | grep -E '(front|rear|back|side|45|angle)' | wc -l)" -ge 4
+      - name: Research-only NO_RELEASE, content integrity and external-source quarantine
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run131-REAL-ZEROGPU-ART_UNREVIEWED-NO_RELEASE
+          mkdir -p "$O"
+          printf 'NO_RELEASE: neither ZeroGPU response nor real GLB nor Blender screenshots can automatically pass the original rightmost juvenile four-view / fur / mobile / rights gate.\n' > "$O/NO_RELEASE.flag"
+          printf 'neural_step=%s\nnative_step=%s\n' "${{ steps.neural.outcome }}" "${{ steps.native.outcome }}" > "$O/run131_steps.txt"
+          rm -f "$O/run131_zero_gpu_SOURCE_RESEARCH_ONLY.glb"
+          (cd "$O" && find . -type f ! -name SHA256SUMS.txt ! -name sha_checked.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$O" && sha256sum -c SHA256SUMS.txt > sha_checked.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run131-actual-zero-gpu-research-evidence-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run131-REAL-ZEROGPU-ART_UNREVIEWED-NO_RELEASE
+          retention-days: 30
+      - name: Independently archive only Run131 evidence; no changes to 251-species production
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run131-REAL-ZEROGPU-ART_UNREVIEWED-NO_RELEASE
+          git add --sparse "$O"
+          git diff --cached --name-only > /tmp/run131_diff_scope.txt
+          if grep -v '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run131-' /tmp/run131_diff_scope.txt; then
+            echo SCOPE_VIOLATION; exit 9
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m "research(owl172): archive Run131 real unauthenticated neural-source probe and strict NO_RELEASE evidence"
+            git push origin HEAD:research/owl172-run131-hf-zero-gpu-real-image-to-mesh
+          fi

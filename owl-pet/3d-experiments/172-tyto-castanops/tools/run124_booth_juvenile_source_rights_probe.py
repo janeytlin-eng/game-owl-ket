@@ -33,7 +33,7 @@ def probe(name,url,*,expected=None):
             rec["type"]="public_terms_pdf"
             # Store only the license PDF, not the author's 3D work. User wants auditable rights.
             (out/(name+"_terms.pdf")).write_bytes(content)
-        elif content.startswith(b"PK\\x03\\x04"):
+        elif content.startswith(b"PK\x03\x04"):
             rec["type"]="real_3d_zip_candidate_in_memory_UNVERIFIED_RIGHTS"
             with zipfile.ZipFile(io.BytesIO(content)) as z:
                 rec["zip_members"]=[{"name":i.filename,"size":i.file_size} for i in z.infolist()[:60]]

@@ -8,11 +8,11 @@ Run124 used actual Python HTTP GET from GitHub Actions, following standard publi
 
 | URL purpose | HTTP | Observed resource type | Final URL |
 |---|---:|---|---|
-| booth_artist_right_juvenile_listing | 200 | login_required_not_download | https://booth.pm/ja/items/6643539 |
+| booth_artist_right_juvenile_listing | 200 | html_page_not_model | https://booth.pm/ja/items/6643539 |
 | booth_artist_zero_yen_download_action | 200 | login_required_not_download | https://booth.pm/users/sign_in |
 | booth_vn3_en_terms | 200 | public_terms_pdf | https://drive.usercontent.google.com/download?id=1nx3UjuJAnlyRTc5g02Wpxi6UMSqeZSeq&export=download |
 | booth_vn3_zh_terms | 200 | public_terms_pdf | https://drive.usercontent.google.com/download?id=1BrlF8LW9Cwy9OvRCpiKp5VIcrxEjnEes&export=download |
-| blendswap_CC0_filmed_feathers_owl_listing | 200 | login_required_not_download | https://blendswap.com/blend/7951 |
+| blendswap_CC0_filmed_feathers_owl_listing | 200 | html_page_not_model | https://blendswap.com/blend/7951 |
 | blendswap_baby_owl_catalog | 200 | html_page_not_model | https://blendswap.com/3d/owl |
 
 Actual model bytes accessible legitimately in memory: **0**; none are committed, exported, or shown as a sample. The public ¥0 listing is not proof of an unconditional anonymous download or a redistribution license.

@@ -1,0 +1,106 @@
+name: owl172 Run153 original juvenile sculpt and groom - NO_RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run153-original-mesoptile-sculpt-groom
+    paths:
+      - .github/workflows/owl-pet-172-run153-original-mesoptile-sculpt.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  sculpt:
+    name: Native Blender original 3D groom four-view evidence
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install free CPU Blender + Python PIL
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y blender python3-numpy python3-pil
+          blender --version
+      - name: Actually build fresh sculpt, groom, native four-view renders
+        shell: bash
+        run: |
+          set -o pipefail
+          mkdir -p /tmp/owl172_run153
+          export OWL153_OUT=/tmp/owl172_run153
+          timeout 1400s blender -b -t 2 --python owl-pet/3d-experiments/172-tyto-castanops/tools/run153_original_sculpt_groom.py 2>&1 | tee /tmp/owl172_run153/blender_actual.log
+      - name: Produce actual contact proof and truthful report
+        if: always()
+        shell: bash
+        run: |
+          mkdir -p owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run153-ORIGINAL-SCULPT-NO_RELEASE
+          python3 - <<'PY'
+          import os,hashlib,json
+          from PIL import Image,ImageDraw
+          o='/tmp/owl172_run153'
+          dest='owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run153-ORIGINAL-SCULPT-NO_RELEASE'
+          names=['front','quarter','strict_side','back']
+          imgs=[os.path.join(o,n+'_actual_cycles.png') for n in names]
+          if all(map(os.path.exists,imgs)):
+              sheet=Image.new('RGB',(960,1020),'#d7d5cd')
+              for i,(n,p) in enumerate(zip(names,imgs)):
+                  im=Image.open(p).convert('RGB').resize((480,480))
+                  x=(i%2)*480;y=(i//2)*510
+                  sheet.paste(im,(x,y+26))
+                  ImageDraw.Draw(sheet).text((x+15,y+7),n+' - unapproved native Cycles',fill='#29251e')
+              sheet.save(os.path.join(dest,'run153_actual_four_views_UNAPPROVED.jpg'),quality=90)
+          for name in ['run153_status.json','NO_RELEASE.txt','blender_actual.log']:
+              p=os.path.join(o,name)
+              if os.path.isfile(p):
+                  open(os.path.join(dest,name),'wb').write(open(p,'rb').read())
+          output={}
+          for root,dirs,files in os.walk(dest):
+              for name in files:
+                  if name=='sha256_manifest.json':continue
+                  p=os.path.join(root,name)
+                  output[name]={'sha256':hashlib.sha256(open(p,'rb').read()).hexdigest(),'bytes':os.path.getsize(p)}
+          open(os.path.join(dest,'sha256_manifest.json'),'w').write(json.dumps(output,indent=2))
+          print('Evidence files:',json.dumps(output))
+          PY
+          cat > owl-pet/3d-experiments/172-tyto-castanops/2026-11-18-run153-original-sculpt-groom-NO_RELEASE.md <<'MD'
+          # Run153 — original anatomical mesoptile sculpt and short-down groom, no reused donor meshes
+          Experimental fresh Blender mesh authored in tools/run153_original_sculpt_groom.py.
+          Native head/body voxel remesh, broad 3D heart mask, open dark eyes, compact folded wings,
+          feathered tarsi, hollow rim support, thousands of individually curved tiny feather fibres.
+          Not a 2D/SVG substitute. No third-party model or paid generator was used.
+
+          Run in isolated GitHub Actions on Ubuntu with actual Blender and four camera renders.
+          Evidence and exact outputs are in research-evidence-run153-ORIGINAL-SCULPT-NO_RELEASE/.
+          Editable .blend and GLB binaries are quarantined in GitHub Actions artifacts only.
+
+          **Status: ART_UNREVIEWED / NO_RELEASE.** An exported test GLB does not include the
+          Blender hair-curve groom. There is no credible mobile-ready furry character, no
+          on-phone WebGL measurement, no final professional art acceptance. Do not show as an
+          approved #172 prototype. Need inspect true four-view and develop physically valid
+          low-overdraw fur cards or baked down for export before any further acceptance.
+
+          main, the 251-species production flow, existing owl-pet prototype and site
+          deployment remain untouched. External paid tools: none; additional fee: zero.
+          MD
+      - name: Quarantine editable Blender source and mesh-only GLB (no product release)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run153-native-sculpt-INTERNAL-NO_RELEASE
+          path: /tmp/owl172_run153/
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Commit independent evidence ONLY (no binary model)
+        if: always()
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run153-ORIGINAL-SCULPT-NO_RELEASE/ \
+                  owl-pet/3d-experiments/172-tyto-castanops/2026-11-18-run153-original-sculpt-groom-NO_RELEASE.md
+          git diff --cached --name-only | tee /tmp/changed_run153.txt
+          if grep -Ei '\.(glb|blend|obj|fbx|zip)$' /tmp/changed_run153.txt; then
+            echo "FAILED: prohibited binary in git stage"; exit 1
+          fi
+          if [ -s /tmp/changed_run153.txt ]; then
+            git commit -m "research(owl172): archive actual Run153 native sculpt-groom evidence without publishing model"
+            git push origin HEAD:research/owl172-run153-original-mesoptile-sculpt-groom
+          fi

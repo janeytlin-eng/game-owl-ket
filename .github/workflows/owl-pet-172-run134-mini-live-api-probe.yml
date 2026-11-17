@@ -1,0 +1,66 @@
+name: owl172 Run134 no-cost Hunyuan mini live API and rights probe no release
+on:
+  push:
+    branches:
+      - research/owl172-run134-free-hunyuan-mini-live-api-probe
+    paths:
+      - .github/workflows/owl-pet-172-run134-mini-live-api-probe.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run134_hunyuan_mini_live_probe.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  alternative-provider-live-probe:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run134-free-hunyuan-mini-live-api-probe
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run117-FREE-TRELLIS-QUOTA-RECHECK-ART_REJECTED/rightmost_baby_owl_512_rgba.png
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run134_hunyuan_mini_live_probe.py
+            .github/workflows/owl-pet-172-run134-mini-live-api-probe.yml
+      - name: Call the live free Gradio service for schema without using GPU
+        shell: bash
+        timeout-minutes: 10
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run134-HUNYUAN-MINI-TURBO-ACTUAL-PROBE-NO_RELEASE"
+          mkdir -p "$O"
+          python3 -m py_compile "$R/tools/run134_hunyuan_mini_live_probe.py"
+          python3 -m pip install -q --break-system-packages 'Pillow>=10.3' 'gradio_client==1.14.0'
+          python3 "$R/tools/run134_hunyuan_mini_live_probe.py" 2>&1 | tee "$O/run134_actual_live_probe.log"
+          test -s "$O/run134_status.json"
+      - name: Independent evidence SHA256 verification
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run134-HUNYUAN-MINI-TURBO-ACTUAL-PROBE-NO_RELEASE
+          mkdir -p "$O"
+          (cd "$O" && find . -type f ! -name SHA256SUMS.txt ! -name checksum_verification.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$O" && sha256sum -c SHA256SUMS.txt > checksum_verification.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run134-no-fee-live-alternative-schema-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run134-HUNYUAN-MINI-TURBO-ACTUAL-PROBE-NO_RELEASE
+          retention-days: 30
+      - name: Commit only experiment evidence (not any production asset)
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run134-HUNYUAN-MINI-TURBO-ACTUAL-PROBE-NO_RELEASE
+          git add --sparse "$O"
+          git diff --cached --name-only >/tmp/owl134_paths
+          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run134-' /tmp/owl134_paths; then exit 9; fi
+          if ! git diff --cached --quiet; then
+            git commit -m 'research(owl172): archive actual Hunyuan mini free API/rights probe evidence'
+            git push origin HEAD:research/owl172-run134-free-hunyuan-mini-live-api-probe
+          fi

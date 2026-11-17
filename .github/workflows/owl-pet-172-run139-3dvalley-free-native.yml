@@ -1,0 +1,100 @@
+name: owl172 Run139 free 3dvalley public browser GLB strict art quarantine
+on:
+  push:
+    branches:
+      - research/owl172-run139-alternate-no-fee-web-3d
+    paths:
+      - .github/workflows/owl-pet-172-run139-3dvalley-free-native.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run139_3dvalley_real_free.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  3dvalley-real-no-release:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 28
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run139-alternate-no-fee-web-3d
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run117-FREE-TRELLIS-QUOTA-RECHECK-ART_REJECTED/rightmost_baby_owl_512_rgba.png
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run139_3dvalley_real_free.py
+            .github/workflows/owl-pet-172-run139-3dvalley-free-native.yml
+      - name: Genuine zero-fee public browser generation attempts
+        continue-on-error: true
+        timeout-minutes: 16
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run139-ALTERNATE-PUBLIC-NO_RELEASE"
+          mkdir -p "$O"
+          python3 -m py_compile "$R/tools/run139_3dvalley_real_free.py"
+          python3 -m pip install --break-system-packages -q 'playwright>=1.48,<2' 'Pillow>=10'
+          python3 -m playwright install --with-deps chromium
+          python3 "$R/tools/run139_3dvalley_real_free.py" browse 2>&1 | tee "$O/run139_actual_browser.log"
+      - name: Four-angle genuine native Blender art gate only if valid GLB
+        if: always()
+        continue-on-error: true
+        timeout-minutes: 7
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run139-ALTERNATE-PUBLIC-NO_RELEASE"
+          if [ ! -s "$O/run139_original_RESEARCH_ONLY.glb" ]; then
+            echo 'NO_VALID_BINARY_GLTF: native art test skipped; no fabricated sample' | tee "$O/run139_native_skipped.txt"
+            exit 0
+          fi
+          sudo apt-get update -qq
+          sudo apt-get install -y blender python3-numpy
+          blender -b -t 2 -P "$R/tools/run139_3dvalley_real_free.py" -- render 2>&1 | tee "$O/run139_actual_blender.log"
+          python3 - <<'PY'
+          from PIL import Image,ImageDraw
+          from pathlib import Path
+          o=Path("owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run139-ALTERNATE-PUBLIC-NO_RELEASE")
+          shots=[o/("run139_"+s+"_ACTUAL_CYCLES_UNAPPROVED.png") for s in ("front","quarter","side","back")]
+          assert all(p.is_file() for p in shots),"Missing genuine native view"
+          canvas=Image.new("RGB",(1000,1000),(237,237,237))
+          d=ImageDraw.Draw(canvas)
+          for i,p in enumerate(shots):
+            img=Image.open(p).convert("RGB").resize((500,500))
+            xy=((i%2)*500,(i//2)*500);canvas.paste(img,xy)
+            d.text((xy[0]+15,xy[1]+16),("front","quarter","side","back")[i],fill=(0,0,0))
+          canvas.save(o/"run139_native_four_views_UNAPPROVED.jpg",quality=87)
+          PY
+      - name: Cryptographic audit and enforce NO_RELEASE
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run139-ALTERNATE-PUBLIC-NO_RELEASE
+          mkdir -p "$O"
+          printf 'NO_RELEASE: no art approval, redistribution approval, or physical phone GPU approval. No third-party GLB publication.\n' > "$O/NO_RELEASE.flag"
+          (cd "$O" && find . -type f ! -name SHA256SUMS.txt ! -name checksum_verification.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$O" && sha256sum -c SHA256SUMS.txt > checksum_verification.log)
+          test -s "$O/SHA256SUMS.txt"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run139-alternate-real-no-fee-RESEARCH-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run139-ALTERNATE-PUBLIC-NO_RELEASE
+          retention-days: 30
+      - name: Archive nonbinary evidence to experimental branch only
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run139-ALTERNATE-PUBLIC-NO_RELEASE
+          git add --sparse "$O"
+          git restore --staged -- "$O"/*.glb 2>/dev/null || true
+          git diff --cached --name-only > /tmp/changed_paths
+          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run139-' /tmp/changed_paths; then echo SCOPE_VIOLATION; exit 9; fi
+          if ! git diff --cached --quiet; then
+            git commit -m "research(owl172): archive Run139 actual public no-fee 3D attempts without releasing models"
+            git push origin HEAD:research/owl172-run139-alternate-no-fee-web-3d
+          fi

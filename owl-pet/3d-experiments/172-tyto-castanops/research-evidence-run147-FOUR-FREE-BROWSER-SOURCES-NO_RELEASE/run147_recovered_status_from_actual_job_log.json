@@ -1,0 +1,96 @@
+{
+  "run": 147,
+  "source": "owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run117-FREE-TRELLIS-QUOTA-RECHECK-ART_REJECTED/rightmost_baby_owl_512_rgba.png",
+  "source_sha256": "e439928a9ef08d3be266106cb5f2766b6f5a9f2c414d44e8da55ba81732153b8",
+  "source_actual_dims": [
+    512,
+    512
+  ],
+  "species": "Tyto castanops v3, rightmost age-unknown cream mesoptile",
+  "prior_run143": "three.ws upstream failure; Run144 public 6660-triangle untextured result ART_REJECTED",
+  "exact_mode": "free public browser controls only",
+  "extra_payment": 0,
+  "license_verified": false,
+  "physical_mobile_tested": false,
+  "art_approved": false,
+  "status": "NO_RELEASE",
+  "results": [
+    {
+      "name": "hi3d_pro",
+      "url": "https://hi3d.pro/",
+      "status": "NO_VISIBLE_PUBLIC_FILE_INPUT",
+      "screenshots": [
+        "run147_hi3d_pro_initial.png",
+        "run147_hi3d_pro_final.png"
+      ],
+      "network": [],
+      "actual_public_ui": true,
+      "fees_paid": 0,
+      "auth_bypassed": false,
+      "generation_clicked": false,
+      "title": "Just a moment...",
+      "file_inputs": 0,
+      "ended_utc": "2026-11-17T16:58:27Z"
+    },
+    {
+      "name": "upsampler_sf3d",
+      "url": "https://upsampler.com/free-image-to-3d-no-signup",
+      "status": "PUBLIC_UI_REQUEST_FINISHED_NO_VALID_GLB",
+      "screenshots": [
+        "run147_upsampler_sf3d_initial.png",
+        "run147_upsampler_sf3d_final.png"
+      ],
+      "network": [],
+      "actual_public_ui": true,
+      "fees_paid": 0,
+      "auth_bypassed": false,
+      "generation_clicked": true,
+      "title": "Free AI Image to 3D Converter, No Sign-Up No Watermark | Upsampler",
+      "file_inputs": 1,
+      "chosen_button": "Convert to 3D",
+      "initial_async_click_or_no_immediate_download": "Page.expect_download: Timeout 5000ms exceeded while waiting for event \"download\"\n=========================== logs ===========================\nwaiting for event \"download\"\n============================================================",
+      "ended_utc": "2026-11-17T17:01:16Z"
+    },
+    {
+      "name": "image_to_3d_app",
+      "url": "https://image-to-3d.app/",
+      "status": "ACTUAL_PUBLIC_BROWSER_ERROR",
+      "screenshots": [],
+      "network": [],
+      "actual_public_ui": true,
+      "fees_paid": 0,
+      "auth_bypassed": false,
+      "generation_clicked": false,
+      "error": "Traceback (most recent call last):\n  File \"/home/runner/work/game-owl-ket/game-owl-ket/owl-pet/3d-experiments/172-tyto-castanops/tools/run147_free_new_hosted_browser.py\", line 90, in browse\n    page.screenshot(path=str(b),timeout=25000)\n  File \"/home/runner/.local/lib/python3.12/site-packages/playwright/sync_api/_generated.py\", line 20272, in screenshot\n    self._sync(\n  File \"/home/runner/.local/lib/python3.12/site-packages/playwright/_impl/_sync_base.py\", line 124, in _sync\n    return task.result()\n           ^^^^^^^^^^^^^\n  File \"/home/runner/.local/lib/python3.12/site-packages/playwright/_impl/page.py\", line 1056, in screenshot\n    result = await self._channel.screenshot(\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nplaywright._impl._errors.TimeoutError: Page.screenshot: Timeout 25000ms exceeded.\nCall log:\n  - taking page screenshot\n  - waiting for fonts to load...\n  - fonts loaded\n\n",
+      "final_capture_error": "Page.screenshot: Timeout 20000ms exceeded.\nCall log:\n  - taking page screenshot\n",
+      "ended_utc": "2026-11-17T17:02:07Z"
+    },
+    {
+      "name": "hyper3d_site",
+      "url": "https://hyper3d.site/en",
+      "status": "NO_VISIBLE_PUBLIC_FILE_INPUT",
+      "screenshots": [
+        "run147_hyper3d_site_initial.png",
+        "run147_hyper3d_site_final.png"
+      ],
+      "network": [],
+      "actual_public_ui": true,
+      "fees_paid": 0,
+      "auth_bypassed": false,
+      "generation_clicked": false,
+      "title": "Just a moment...",
+      "file_inputs": 0,
+      "ended_utc": "2026-11-17T17:02:33Z"
+    }
+  ],
+  "glb_saved": false,
+  "free_provider_research": true,
+  "evidence_recovery": {
+    "origin": "GitHub Actions job 134209912294, run 44131613674",
+    "why": "Run147 script output folder inherited NEW-FREE-SOURCES name whereas workflow collected FOUR-FREE-BROWSER-SOURCES; runtime screenshots not retained in 5-file artifact",
+    "classification": "RECOVERED_LOG_JSON_NOT_ORIGINAL_RUNTIME_JSON",
+    "screenshots_available": false,
+    "actual_script_executed": true,
+    "extra_charge": 0
+  }
+}

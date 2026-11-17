@@ -78,8 +78,8 @@ for tag,url in SOURCE.items():
                "lowPoly":m.get("lowPoly"),"license":m.get("license")} for m in rows if
                  re.search(r"\\b(owl|owlet|owls|barn[ -]?owl|chick)\\b",(m.get("id","")+" "+m.get("name","")).lower())][:40]}
       for m in rows:
-        if (m.get("id","").lower()=="owl" or m.get("name","").lower()=="owl") and
-           m.get("url","").startswith("https://gobkit.com/"):
+        if ((m.get("id","").lower()=="owl" or m.get("name","").lower()=="owl") and
+            m.get("url","").startswith("https://gobkit.com/")):
           url=m["url"];detail,b=get(url,MAX_MODEL)
           item={"catalog_id":m.get("id"),"source_url":url,"source_meta":detail,
                 "licence_claim":m.get("license"),"claimed_low_poly":m.get("lowPoly"),

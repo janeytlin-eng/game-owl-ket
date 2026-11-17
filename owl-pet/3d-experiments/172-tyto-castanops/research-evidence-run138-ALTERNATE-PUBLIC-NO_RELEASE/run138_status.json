@@ -1,0 +1,61 @@
+{
+  "run": 138,
+  "source": "owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run117-FREE-TRELLIS-QUOTA-RECHECK-ART_REJECTED/rightmost_baby_owl_512_rgba.png",
+  "source_sha256": "e439928a9ef08d3be266106cb5f2766b6f5a9f2c414d44e8da55ba81732153b8",
+  "source_actual_dims": [
+    512,
+    512
+  ],
+  "species": "Tyto castanops v3, rightmost age-unknown cream mesoptile",
+  "prior_run137": "real 20k triangle grey untextured GLB art rejected",
+  "exact_mode": "free public browser controls only",
+  "extra_payment": 0,
+  "license_verified": false,
+  "physical_mobile_tested": false,
+  "art_approved": false,
+  "status": "NO_RELEASE",
+  "results": [
+    {
+      "name": "upsampler",
+      "url": "https://upsampler.com/free-image-to-3d-no-signup",
+      "status": "PUBLIC_UI_REQUEST_FINISHED_NO_VALID_GLB",
+      "screenshots": [
+        "run138_upsampler_initial.png",
+        "run138_upsampler_final.png"
+      ],
+      "network": [],
+      "actual_public_ui": true,
+      "fees_paid": 0,
+      "auth_bypassed": false,
+      "generation_clicked": true,
+      "title": "Free AI Image to 3D Converter, No Sign-Up No Watermark | Upsampler",
+      "file_inputs": 1,
+      "chosen_button": "Convert to 3D",
+      "initial_async_click_or_no_immediate_download": "Page.expect_download: Timeout 5000ms exceeded while waiting for event \"download\"\n=========================== logs ===========================\nwaiting for event \"download\"\n============================================================",
+      "ended_utc": "2026-11-17T10:37:14Z"
+    },
+    {
+      "name": "image-to-3d",
+      "url": "https://image-to-3d.app/",
+      "status": "ACTUAL_PUBLIC_BROWSER_ERROR",
+      "screenshots": [],
+      "network": [
+        {
+          "url": "https://files.image-to-3d.app/models/preview.glb",
+          "status": 200,
+          "content_type": "model/gltf-binary"
+        }
+      ],
+      "actual_public_ui": true,
+      "fees_paid": 0,
+      "auth_bypassed": false,
+      "generation_clicked": false,
+      "network_hook_error": "Response.body: Protocol error (Network.getResponseBody): Request content was evicted from inspector cache\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation.",
+      "error": "Traceback (most recent call last):\n  File \"/home/runner/work/game-owl-ket/game-owl-ket/owl-pet/3d-experiments/172-tyto-castanops/tools/run138_alternate_free_3d.py\", line 85, in browse\n    page.screenshot(path=str(b),timeout=25000)\n  File \"/home/runner/.local/lib/python3.12/site-packages/playwright/sync_api/_generated.py\", line 20272, in screenshot\n    self._sync(\n  File \"/home/runner/.local/lib/python3.12/site-packages/playwright/_impl/_sync_base.py\", line 124, in _sync\n    return task.result()\n           ^^^^^^^^^^^^^\n  File \"/home/runner/.local/lib/python3.12/site-packages/playwright/_impl/page.py\", line 1056, in screenshot\n    result = await self._channel.screenshot(\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nplaywright._impl._errors.TimeoutError: Page.screenshot: Timeout 25000ms exceeded.\nCall log:\n  - taking page screenshot\n  - waiting for fonts to load...\n  - fonts loaded\n\n",
+      "final_capture_error": "Page.screenshot: Timeout 20000ms exceeded.\nCall log:\n  - taking page screenshot\n  - waiting for fonts to load...\n",
+      "ended_utc": "2026-11-17T10:38:03Z"
+    }
+  ],
+  "glb_saved": false,
+  "free_provider_research": true
+}

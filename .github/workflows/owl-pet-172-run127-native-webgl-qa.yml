@@ -1,0 +1,119 @@
+name: owl172 Run127 actual CC0 rig four-view and WebGL art rejection
+on:
+  push:
+    branches: [research/owl172-run126-cc0-owl-rig-lod-access]
+    paths:
+      - .github/workflows/owl-pet-172-run127-native-webgl-qa.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run127_real_cc0_owl_four_view_qa.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  native-multiview-and-webgl:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run126-cc0-owl-rig-lod-access
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            .github/workflows/owl-pet-172-run127-native-webgl-qa.yml
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run127_real_cc0_owl_four_view_qa.py
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run126c-CC0-OWL-RIG-ONLY-NO_RELEASE/source_cc0_owl_0.glb
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run111_viewer.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run111_viewer_qa.html
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run118_real_trellis_webgl_qa.mjs
+      - name: Install Blender no-fee native tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq blender python3-pil python3-numpy
+      - name: Actual 3D source SHA, Blender import and real Cycles orbital render
+        id: sculpt
+        continue-on-error: true
+        timeout-minutes: 18
+        shell: bash
+        run: |
+          set -euo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          SRC="owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run126c-CC0-OWL-RIG-ONLY-NO_RELEASE/source_cc0_owl_0.glb"
+          OUT="$ROOT/research-evidence-run127-REAL-CC0-TOY-RIG-FOUR-VIEW-WEBGL-ART_REJECTED"
+          mkdir -p "$OUT"
+          echo 'a22017221687458f37b76991719cb80243b5f04554ae57f07503139f988add3f  '"$SRC" | sha256sum -c | tee "$OUT/source_sha_verified.txt"
+          timeout 950 blender -b --python-exit-code 7 --python "$ROOT/tools/run127_real_cc0_owl_four_view_qa.py" -- "$SRC" "$OUT" 2>&1 | tee "$OUT/run127_native_cycles.log"
+          python3 - "$OUT" <<'PY'
+          from pathlib import Path
+          import sys
+          from PIL import Image,ImageDraw
+          p=Path(sys.argv[1]); im=Image.new("RGB",(1040,1080),(38,38,42));d=ImageDraw.Draw(im)
+          for i,name in enumerate(("front","quarter","side","back")):
+            f=p/("run127_"+name+"_real_cycles_NOT_ART_APPROVED.png")
+            src=Image.open(f).convert("RGB")
+            x=(i%2)*520;y=(i//2)*540
+            im.paste(src,(x,y+20));d.text((x+10,y+3),name+" REAL source ART_REJECTED",fill=(240,240,240))
+          im.save(p/"run127_real_four_view_contact_ONLY.jpg",quality=92)
+          PY
+      - uses: actions/setup-node@v4
+        if: steps.sculpt.outcome == 'success'
+        with:
+          node-version: '20'
+      - name: Actual Three.js desktop and simulated phone GLB WebGL2 technical test
+        id: browser
+        if: steps.sculpt.outcome == 'success'
+        continue-on-error: true
+        timeout-minutes: 14
+        shell: bash
+        run: |
+          set -euo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$GITHUB_WORKSPACE/$ROOT/research-evidence-run127-REAL-CC0-TOY-RIG-FOUR-VIEW-WEBGL-ART_REJECTED"
+          WEB="$RUNNER_TEMP/cc0_owl_run127_webgl"
+          mkdir -p "$WEB"
+          cp "$GITHUB_WORKSPACE/owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run126c-CC0-OWL-RIG-ONLY-NO_RELEASE/source_cc0_owl_0.glb" "$WEB/candidate.glb"
+          cp "$ROOT/tools/run111_viewer.mjs" "$WEB/run111_viewer.mjs"
+          cp "$ROOT/tools/run111_viewer_qa.html" "$WEB/index.html"
+          cp "$ROOT/tools/run118_real_trellis_webgl_qa.mjs" "$WEB/qa.mjs"
+          sed -i 's/real Run111 GLB/real Vuena CC0 lowpoly owl rig/g' "$WEB/run111_viewer.mjs"
+          sed -i 's/new genuine Run117 TRELLIS GLB/actual Vuena CC0 lowpoly owl 3D donor only/g; s/real_run117/real_run127/g; s/run118_software_webgl_qa/run127_software_webgl_qa/g' "$WEB/qa.mjs"
+          cd "$WEB"
+          npm init -y >/dev/null
+          npm install -q --no-fund --no-audit playwright@1.52.0 three@0.174.0
+          npx playwright install --with-deps chromium
+          python3 -m http.server 4173 --bind 127.0.0.1 > "$OUT/web_server.log" 2>&1 &
+          server=$!
+          trap 'kill "$server" 2>/dev/null || true' EXIT
+          sleep 2
+          node "$WEB/qa.mjs" "$OUT" 2>&1 | tee "$OUT/run127_software_webgl.log"
+      - name: NO RELEASE checksum manifest
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run127-REAL-CC0-TOY-RIG-FOUR-VIEW-WEBGL-ART_REJECTED
+          mkdir -p "$OUT"
+          echo 'ART_REJECTED NO_RELEASE: original CC0 model is rigged low-poly toy owl, not cream downy heart-faced juvenile Tyto castanops. Browser phone viewport is not a physical-phone GPU test. No payment.' > "$OUT/NO_RELEASE.flag"
+          (cd "$OUT"; find . -type f ! -name SHA256SUMS.txt ! -name sha_checked.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$OUT"; sha256sum -c SHA256SUMS.txt > sha_checked.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run127-real-3d-cc0-owl-four-view-WEBGL-ART_REJECTED
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run127-REAL-CC0-TOY-RIG-FOUR-VIEW-WEBGL-ART_REJECTED
+          retention-days: 30
+      - name: Archive isolated evidence only, no 251-species changes
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run127-REAL-CC0-TOY-RIG-FOUR-VIEW-WEBGL-ART_REJECTED
+          git add --sparse "$OUT"
+          git diff --cached --name-only > /tmp/run127_scope.txt
+          if grep -v '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run127-' /tmp/run127_scope.txt; then
+            echo 'Scope violation'; exit 9
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m 'research(owl172): archive true CC0 owl four-view and browser technical QA ART_REJECTED'
+            git push origin HEAD:research/owl172-run126-cc0-owl-rig-lod-access
+          fi

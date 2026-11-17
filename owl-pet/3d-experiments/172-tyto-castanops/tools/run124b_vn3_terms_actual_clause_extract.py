@@ -10,7 +10,7 @@ out=Path(sys.argv[1]);repo=Path(sys.argv[2]);out.mkdir(parents=True,exist_ok=Tru
 pat=re.compile(r"redistribut|re.?distrib|distribut|modify|modificat|commercial|3d data|copyright|licen[cs]|public|third party|third-party|prohibit|permit|resell|resale|source file|prohibit|使用|转让|转载|再分发|二次分发|商用|商业|修改|改造|许可|禁止|販売|再配布",re.I)
 words=["redistribution","modification","commercial use","license","禁止","商业","修改","转让","再分发","分发"]
 data=[]
-for key in ("en","zh"):
+for key in ("ja","en","zh"):
  p=repo/f"booth_vn3_{key}_terms_terms.pdf"
  item={"locale":key,"source_pdf_sha256":hashlib.sha256(p.read_bytes()).hexdigest(),"source_bytes":p.stat().st_size}
  with tempfile.TemporaryDirectory() as t:
@@ -34,6 +34,7 @@ audit={
  "date_utc":datetime.datetime.now(datetime.timezone.utc).isoformat(),
  "referent":"actual public VN3 terms, author geana booth Menhukurou free 3D juvenile",
  "license_sources":{
+  "ja":"https://drive.google.com/file/d/1yPx28jJUy_1Hl9AYd53zKhj-45CtMx9X/view",
   "en":"https://drive.google.com/file/d/1nx3UjuJAnlyRTc5g02Wpxi6UMSqeZSeq/view",
   "zh":"https://drive.google.com/file/d/1BrlF8LW9Cwy9OvRCpiKp5VIcrxEjnEes/view",
  },

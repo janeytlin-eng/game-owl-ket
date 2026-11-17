@@ -1,0 +1,68 @@
+name: owl172 Run125B actual public baby owl sculpt official download access
+on:
+  push:
+    branches:
+      - research/owl172-run125-juvenile-artist-source-blenderkit-blendswap
+    paths:
+      - .github/workflows/owl-pet-172-run125b-blendswap-official-direct-check.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run125b_blendswap_public_artifact_probe.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  test-official-artist-access:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run125-juvenile-artist-source-blenderkit-blendswap
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run125b_blendswap_public_artifact_probe.py
+            .github/workflows/owl-pet-172-run125b-blendswap-official-direct-check.yml
+      - name: Real official public artist download access (never bypass login or pay)
+        id: access
+        continue-on-error: true
+        timeout-minutes: 6
+        shell: bash
+        run: |
+          set -euo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run125b-BLENDSWAP-REAL-LINKS-NO_RELEASE"
+          mkdir -p "$OUT"
+          python3 "$ROOT/tools/run125b_blendswap_public_artifact_probe.py" "$OUT" 2>&1 | tee "$OUT/run125b_real_access.log"
+      - name: Preserve actual results and checksums
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run125b-BLENDSWAP-REAL-LINKS-NO_RELEASE
+          mkdir -p "$OUT"
+          echo "access_step=${{ steps.access.outcome }}" > "$OUT/steps.txt"
+          test -e "$OUT/NO_RELEASE.flag" || echo 'ART_UNREVIEWED NO_RELEASE; public direct-link check incomplete.' > "$OUT/NO_RELEASE.flag"
+          (cd "$OUT" && find . -type f ! -name SHA256SUMS.txt ! -name sha_checked.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$OUT" && sha256sum -c SHA256SUMS.txt > sha_checked.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run125b-artist-model-actual-access-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run125b-BLENDSWAP-REAL-LINKS-NO_RELEASE
+          retention-days: 30
+      - name: Strictly isolated evidence archive
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run125b-BLENDSWAP-REAL-LINKS-NO_RELEASE
+          git add --sparse "$OUT"
+          git diff --cached --name-only >/tmp/run125b.txt
+          if grep -v '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run125b-' /tmp/run125b.txt; then
+             echo 'path scope violation';exit 8
+          fi
+          if ! git diff --cached --quiet; then
+             git commit -m "research(owl172): archive Run125B official artist asset access NO_RELEASE"
+             git push origin HEAD:research/owl172-run125-juvenile-artist-source-blenderkit-blendswap
+          fi

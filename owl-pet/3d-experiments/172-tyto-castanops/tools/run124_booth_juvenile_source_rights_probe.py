@@ -45,7 +45,7 @@ def probe(name,url,*,expected=None):
             page=content.decode("utf-8","replace")
             title=re.search(r"<title[^>]*>(.*?)</title>",page,flags=re.I|re.S)
             rec["page_title"]=html.unescape(re.sub(r"<[^>]+>","",title.group(1))).strip() if title else None
-            if "sign_in" in resp.url or re.search(r"(sign in|ログイン|ログインして)",page,re.I):
+            if "/users/sign_in" in resp.url or "/users/sign_up" in resp.url:
                 rec["type"]="login_required_not_download"
             elif "<html" in page.lower() or "<!doctype" in page.lower():
                 rec["type"]="html_page_not_model"

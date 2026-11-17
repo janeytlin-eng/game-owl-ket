@@ -2,7 +2,7 @@ name: owl172 Run126B real no-cost CC0 owl GLB rig LOD source/geometry QA
 on:
   push:
     branches:
-      - research/owl172-run126b-cc0-owl-rig-lod-access
+      - research/owl172-run126-cc0-owl-rig-lod-access
     paths:
       - .github/workflows/owl-pet-172-run126b-cc0-owl-rig-navigation.yml
       - owl-pet/3d-experiments/172-tyto-castanops/tools/run126b_cc0_owl_rig_lod_navigation.py
@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: research/owl172-run126b-cc0-owl-rig-lod-access
+          ref: research/owl172-run126-cc0-owl-rig-lod-access
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             owl-pet/3d-experiments/172-tyto-castanops/tools/run126b_cc0_owl_rig_lod_navigation.py
@@ -72,5 +72,5 @@ jobs:
           fi
           if ! git diff --cached --quiet; then
             git commit -m "research(owl172): preserve Run126B actual CC0 owl rig source QA NO_RELEASE"
-            git push origin HEAD:research/owl172-run126b-cc0-owl-rig-lod-access
+            git push origin HEAD:research/owl172-run126-cc0-owl-rig-lod-access
           fi

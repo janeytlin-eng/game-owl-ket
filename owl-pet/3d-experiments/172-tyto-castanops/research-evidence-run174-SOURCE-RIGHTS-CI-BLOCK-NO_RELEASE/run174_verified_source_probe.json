@@ -1,0 +1,55 @@
+{
+  "run": "Run174",
+  "date_utc": "2026-11-18",
+  "task": "#172 Tyto castanops v3 rightmost age-unknown mesoptile",
+  "branch": "research/owl172-run174-cooldown-text3d-and-juvenile-source-gate",
+  "source_ref_sha256": "5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9",
+  "previous_run_173": {
+    "status": "UPSTREAM_ERROR",
+    "new_glb": 0,
+    "run_url": "https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44261985698"
+  },
+  "independent_source_checks": [
+    {
+      "url": "https://gaitkit.com/asset/eaglet",
+      "observation": "Current official detailed asset listing marks Eaglet GLB Pro, not free. Juvenile golden eagle (not Tyto), 5384 triangles, no licensed file acquired.",
+      "access": "metadata_ONLY",
+      "asset_download": false
+    },
+    {
+      "url": "https://gaitkit.com/kits/birds-and-sea-life",
+      "observation": "Current official kit listing says one free specimen is tropical fish; owl is Pro. Avoid incorrect free search snippet.",
+      "access": "metadata_ONLY",
+      "asset_download": false
+    },
+    {
+      "url": "https://gaitkit.com/license",
+      "observation": "Official 2026-10-21 license permits commercial project incorporation but forbids redistribution of standalone specimen asset files, changed or not.",
+      "access": "metadata_ONLY",
+      "asset_download": false
+    }
+  ],
+  "local_runtime_checks": {
+    "method": "Python socket.getaddrinfo",
+    "result": "DNS resolution failed for three.ws, gaitkit.com, github.com and huggingface.co (gaierror temporary failure).",
+    "external_inference_calls": 0
+  },
+  "external_fal": {
+    "result": "Model catalog search required user interaction; unavailable in this non-interactive run. No generation requested; no expense."
+  },
+  "github_actions": {
+    "run_174_triggered": false,
+    "observed_runs_for_branch": 0,
+    "branch_files_committed": true,
+    "native_compute": "NOT_EXECUTED"
+  },
+  "result": {
+    "new_3d_models": 0,
+    "actual_native_multiview": "NOT_EXECUTED",
+    "phone_webgl_gpu": "NOT_TESTED",
+    "art": "NOT_REVIEWED",
+    "release": false,
+    "extra_paid_usd": 0
+  },
+  "next_allowed_execution": "Only execute isolated zero-fee workflow when a legitimate runner becomes available; no candidate is published absent side/back and mobile QA."
+}

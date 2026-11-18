@@ -1,0 +1,124 @@
+name: owl172 Run178 real image-conditioned GLB mobile viewport software WebGL QA NO_RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run178-free-browser-webgl-native-qa
+    paths:
+      - .github/workflows/owl-pet-172-run178-webgl-software-qa.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run178_*
+permissions:
+  contents: write
+jobs:
+  actual-threejs-mobile-size-webgl:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run178-free-browser-webgl-native-qa
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/AGENTS.md
+            owl-pet/README.md
+            owl-pet/prototype/index.html
+            owl-pet/research/species/172-tyto-castanops-v3.md
+            owl-pet/3d-experiments/172-tyto-castanops/known_rejected_asset_sha256_registry.json
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run178_mobile_browser_native_glb.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run178_viewer.html
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install only free browser/test dependencies
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run178-REAL-WEBGL-SOFTWARE-NO_RELEASE"
+          mkdir -p "$O"
+          npm install --no-save --no-package-lock --ignore-scripts --no-audit --no-fund three@0.179.1 playwright@1.55.0 > "$O/npm_install.log" 2>&1
+          npx playwright install chromium > "$O/browser_install.log" 2>&1
+      - name: Execute actual native GLB Chromium WebGL on phone-size viewport
+        continue-on-error: true
+        timeout-minutes: 11
+        shell: bash
+        run: |
+          set -o pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run178-REAL-WEBGL-SOFTWARE-NO_RELEASE"
+          timeout 610s node "$R/tools/run178_mobile_browser_native_glb.mjs" 2>&1 | tee "$O/run178_actual_execution.log"
+      - name: Independent 7-view QA raster sheet, immutable evidence checks and explicit NO_RELEASE audit
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install --quiet pillow
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image,ImageDraw
+          import hashlib,json
+          root=Path("owl-pet/3d-experiments/172-tyto-castanops")
+          out=root/"research-evidence-run178-REAL-WEBGL-SOFTWARE-NO_RELEASE"
+          out.mkdir(parents=True,exist_ok=True)
+          metrics=json.loads((out/"run178_metrics.json").read_text()) if (out/"run178_metrics.json").exists() else {}
+          imgs=sorted(out.glob("run178_axis_*_MOBILE_EMULATED_UNREVIEWED.png"))
+          if imgs:
+            w,h=390,425
+            sheet=Image.new("RGB",(w*4,h*2),(236,234,232))
+            draw=ImageDraw.Draw(sheet)
+            for i,f in enumerate(imgs):
+              x,y=(i%4)*w,(i//4)*h
+              im=Image.open(f).convert("RGB").resize((w,w))
+              sheet.paste(im,(x,y+28))
+              draw.text((x+10,y+8),f.name.replace("run178_","").replace("_MOBILE_EMULATED_UNREVIEWED.png",""),fill=(25,25,25))
+            sheet.save(out/"run178_real_software_webgl_sevenview_UNREVIEWED.png")
+          (out/"NO_RELEASE.flag").write_text("NO_RELEASE: visual quality UNREVIEWED, physical phone GPU NOT_TESTED, no added fees.\n")
+          manifest={}
+          for f in sorted(out.iterdir()):
+            if f.is_file() and f.name!="run178_sha256_manifest.json":
+              manifest[f.name]={"bytes":f.stat().st_size,"sha256":hashlib.sha256(f.read_bytes()).hexdigest()}
+          (out/"run178_sha256_manifest.json").write_text(json.dumps(manifest,indent=2))
+          assert all(hashlib.sha256((out/k).read_bytes()).hexdigest()==v["sha256"] for k,v in manifest.items())
+          lines=["# Run178 — independent real GLB Chromium WebGL mobile-size QA",
+           "",
+           "**NO_RELEASE / ART_UNREVIEWED**. The candidate is the real free image-conditioned Run175 GLB, not a generated dummy or known rejected mesh.",
+           "",
+           "Preflight: owl-pet README/AGENTS, v3 rightmost cream down target, and SHA256 rejection registry. Reference SHA256 5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9.",
+           "Original neural GLB SHA256 c56c1a1c0159e11a140f587f12ad4c84b49fdb38b9b3142078f3de9d75f46e99; download verified only if recorded by runtime.",
+           "",
+           "Actual execution: **"+str(metrics.get("status","NOT_COMPLETED"))+"**. Browser response: "+str(metrics.get("browser","NOT_AVAILABLE"))[:1800]+".",
+           "Real capture count: **"+str(len(imgs))+"** Chromium/Three.js axis screenshots; orientation has NOT been anatomically calibrated.",
+           "Only emulated 390px smartphone viewport with software GPU; **NOT** physical smartphone WebGL/performance acceptance.",
+           "Art gates not passed: cream fluffy down, continuous heart face, juvenile side/back anatomy, concealed wings/tail, supported feet, tree hollow, usable mobile performance.",
+           "Extra paid tools: zero. No changes to main, prototype, other owl species, 251-species pipeline or deployment.",
+           "",
+           "Evidence and original candidate GLB (if downloaded) retained in the separate 30-day Actions artifact; binary NOT committed to git. All evidence SHA256-verified. **NO_RELEASE**."]
+          (root/"2026-11-18-run178-chromium-mobile-native-glb-NO_RELEASE.md").write_text("\n".join(lines)+"\n")
+          print("RUN178_AUDIT",metrics.get("status","NOT_COMPLETED"),"images",len(imgs),"manifest_items",len(manifest))
+          PY
+      - name: Isolated immutable original neural GLB and browser capture artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run178-genuine-threejs-mobile-software-webgl-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run178-REAL-WEBGL-SOFTWARE-NO_RELEASE/
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Archive independent QA only, no binary model commits
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run178-REAL-WEBGL-SOFTWARE-NO_RELEASE"
+          git add --sparse "$R/2026-11-18-run178-chromium-mobile-native-glb-NO_RELEASE.md"
+          find "$O" -maxdepth 1 -type f \( -name '*.json' -o -name '*.png' -o -name '*.txt' -o -name '*.log' -o -name '*.flag' \) -print0 | xargs -0 -r git add --sparse --
+          git diff --cached --name-only > /tmp/run178_staged_paths.txt
+          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/' /tmp/run178_staged_paths.txt; then exit 90; fi
+          if grep -Ei '\.(glb|blend|zip|fbx|obj|bin)$' /tmp/run178_staged_paths.txt; then exit 91; fi
+          if [ -s /tmp/run178_staged_paths.txt ]; then
+            git commit -m "research(owl172): archive actual browser WebGL GLB QA, no release"
+            git push origin HEAD:research/owl172-run178-free-browser-webgl-native-qa
+          fi

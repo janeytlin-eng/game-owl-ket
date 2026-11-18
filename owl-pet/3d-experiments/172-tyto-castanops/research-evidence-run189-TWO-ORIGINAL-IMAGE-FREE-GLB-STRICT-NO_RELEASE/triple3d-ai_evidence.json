@@ -1,0 +1,633 @@
+{
+  "name": "triple3d-ai",
+  "url": "https://triple3d.ai/image-to-3d",
+  "phase": "generation_control_unavailable",
+  "submitted": false,
+  "upload_success": true,
+  "events": [
+    {
+      "at_sec": 314.7,
+      "event": "file_input_count",
+      "count": 1
+    },
+    {
+      "at_sec": 317.2,
+      "event": "target_photo_uploaded",
+      "sha256": "5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9"
+    },
+    {
+      "at_sec": 318.3,
+      "event": "button_state_captured",
+      "count": 3
+    },
+    {
+      "at_sec": 318.3,
+      "event": "live_generation_candidates",
+      "count": 0
+    }
+  ],
+  "http": [
+    {
+      "url": "https://triple3d.ai/image-to-3d",
+      "status": 200,
+      "method": "GET",
+      "kind": "document"
+    },
+    {
+      "url": "https://triple3d.ai/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+      "status": 200,
+      "method": "GET",
+      "kind": "script"
+    },
+    {
+      "url": "https://triple3d.ai/_next/static/chunks/0xul0df6x3zir.css",
+      "status": 200,
+      "method": "GET",
+      "kind": "stylesheet"
+    },
+    {
+      "url": "https://triple3d.ai/_next/static/chunks/347p6b3a2uxhv.css",
+      "status": 200,
+      "method": "GET",
+      "kind": "stylesheet"
+    },
+    {
+      "url": "https://triple3d.ai/_next/static/chunks/456dy96xqkyv1.css",
+      "status": 200,
+      "method": "GET",
+      "kind": "stylesheet"
+    },
+    {
+      "url": "https://triple3d.ai/_next/static/chunks/3704y0l4y2cvz.js",
+      "status": 200,
+      "method": "GET",
+      "kind": "script"
+    },
+    {
+      "url": "https://triple3d.ai/_next/static/chunks/0hacusamr-zf3.js",
+      "status": 200,
+      "method": "GET",
+      "kind": "script"
+    },
+    {
+      "url": "https://triple3d.ai/_next/static/media/feb57b2dc8f29018-s.p.28uqmbric7ahc.woff2",
+      "status": 200,
+      "method": "GET",
+      "kind": "font"
+    },
+    {
+      "url": "https://triple3d.ai/_next/static/chunks/3tpagg51wl7eg.js",
+      "status": 200,
+      "method": "GET",
+      "kind": "script"
+    },
+    {
+      "url": "https://triple3d.ai/_next/static/chunks/3n3yvff_6qsfw.js",
+      "status": 200,
+      "method": "GET",
+      "kind": "script"
+    },
+    {
+      "url": "https://triple3d.ai/_next/static/chunks/19rhlcx2srev9.css",
+      "status": 200,
+      "method": "GET",
+      "kind": "stylesheet"
+    },
+    {
+      "url": "https://triple3d.ai/_next/static/chunks/turbopack-32yu0chlmoe65.js",
+      "status": 200,
+      "method": "GET",
+      "kind": "script"
+    },
+    {
+      "url": "https://triple3d.ai/_next/static/chunks/1wogiu6h4v-6r.js",
+      "status": 200,
+      "method": "GET",
+      "kind": "script"
+    },
+    {
+      "url": "https://triple3d.ai/_next/static/chunks/3d4x77kf26jnh.js",
+      "status": 200,
+      "method": "GET",
+      "kind": "script"
+    },
+    {
+      "url": "https://triple3d.ai/_next/static/chunks/21lgjopipevwy.js",
+      "status": 200,
+      "method": "GET",
+      "kind": "script"
+    },
+    {
+      "url": "https://triple3d.ai/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2",
+      "status": 200,
+      "method": "GET",
+      "kind": "font"
+    },
+    {
+      "url": "https://triple3d.ai/_next/static/chunks/0aysn28rphym9.js",
+      "status": 200,
+      "method": "GET",
+      "kind": "script"
+    },
+    {
+      "url": "https://triple3d.ai/_next/static/chunks/00831zmk4qz5c.js",
+      "status": 200,
+      "method": "GET",
+      "kind": "script"
+    },
+    {
+      "url": "https://triple3d.ai/_next/static/chunks/11koxf5ghieq3.js",
+      "status": 200,
+      "method": "GET",
+      "kind": "script"
+    },
+    {
+      "url": "https://triple3d.ai/_next/static/chunks/19m45fz010zo-.js",
+      "status": 200,
+      "method": "GET",
+      "kind": "script"
+    },
+    {
+      "url": "https://triple3d.ai/brand-icon.svg",
+      "status": 200,
+      "method": "GET",
+      "kind": "image"
+    },
+    {
+      "url": "https://triple3d.ai/_next/static/media/f6e935c0fe614b33-s.1aw3uryss1ckf.woff2",
+      "status": 200,
+      "method": "GET",
+      "kind": "font"
+    },
+    {
+      "url": "https://triple3d.ai/_next/static/media/73cf0422bddbbf1c-s.2ojysco0y33d4.woff2",
+      "status": 200,
+      "method": "GET",
+      "kind": "font"
+    },
+    {
+      "url": "https://triple3d.ai/_next/static/media/b694238d00eb3ad0-s.42qepegdrz5fc.woff2",
+      "status": 200,
+      "method": "GET",
+      "kind": "font"
+    },
+    {
+      "url": "https://triple3d.ai/_next/static/media/cf8014318d346492-s.3v_qb9sormkcp.woff2",
+      "status": 200,
+      "method": "GET",
+      "kind": "font"
+    },
+    {
+      "url": "https://triple3d.ai/_next/static/media/824424f377f3d56c-s.166ktjzreemj9.woff2",
+      "status": 200,
+      "method": "GET",
+      "kind": "font"
+    },
+    {
+      "url": "https://triple3d.ai/_next/static/media/f329f75816a7464a-s.055x1ewn917lj.woff2",
+      "status": 200,
+      "method": "GET",
+      "kind": "font"
+    },
+    {
+      "url": "https://triple3d.ai/triple3d/upload-icon.png",
+      "status": 200,
+      "method": "GET",
+      "kind": "image"
+    },
+    {
+      "url": "https://triple3d.ai/cdn-cgi/rum",
+      "status": 204,
+      "method": "POST",
+      "kind": "xhr"
+    },
+    {
+      "url": "https://triple3d.ai/api/analytics/events",
+      "status": 202,
+      "method": "POST",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/zh/image-to-3d",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/dashboard/create",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/free-tools",
+      "status": 404,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/free-tools/obj-to-stl",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/free-tools/png-to-stl",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/blog",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/free-tools/glb-to-stl",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/_next/static/chunks/3tkqy7szmu68m.css",
+      "status": 200,
+      "method": "GET",
+      "kind": "stylesheet"
+    },
+    {
+      "url": "https://triple3d.ai/free-tools/image-to-stl",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/free-tools/obj-viewer",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/free-tools/glb-viewer",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/free-tools/3mf-to-stl",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/dashboard/create",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/free-tools/stl-viewer",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/dashboard/create",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/dashboard/create",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/dashboard/create",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/dashboard/create",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/dashboard/create",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/dashboard/create",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/dashboard/create",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/_next/static/chunks/2ni1hz34-mc6d.js",
+      "status": 200,
+      "method": "GET",
+      "kind": "script"
+    },
+    {
+      "url": "https://triple3d.ai/_next/static/chunks/31q5ms3igl-9r.js",
+      "status": 200,
+      "method": "GET",
+      "kind": "script"
+    },
+    {
+      "url": "https://triple3d.ai/_next/static/chunks/145vacwkuqgq2.js",
+      "status": 200,
+      "method": "GET",
+      "kind": "script"
+    },
+    {
+      "url": "https://triple3d.ai/zh/image-to-3d",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/zh/image-to-3d",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/_next/static/chunks/0b3hfgs9pnruf.js",
+      "status": 200,
+      "method": "GET",
+      "kind": "script"
+    },
+    {
+      "url": "https://triple3d.ai/_next/static/chunks/2bdbdv5vroqo7.js",
+      "status": 200,
+      "method": "GET",
+      "kind": "script"
+    },
+    {
+      "url": "https://triple3d.ai/_next/static/chunks/3h7fri1jeq4qn.js",
+      "status": 200,
+      "method": "GET",
+      "kind": "script"
+    },
+    {
+      "url": "https://triple3d.ai/_next/static/chunks/3a9re7gqpo0lo.js",
+      "status": 200,
+      "method": "GET",
+      "kind": "script"
+    },
+    {
+      "url": "https://triple3d.ai/_next/static/chunks/0e0d1bp3a300u.js",
+      "status": 200,
+      "method": "GET",
+      "kind": "script"
+    },
+    {
+      "url": "https://triple3d.ai/zh/image-to-3d",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/_next/static/chunks/1w1vy6j5c7reu.js",
+      "status": 200,
+      "method": "GET",
+      "kind": "script"
+    },
+    {
+      "url": "https://triple3d.ai/_next/static/chunks/0jaw0c_dhj7nv.js",
+      "status": 200,
+      "method": "GET",
+      "kind": "script"
+    },
+    {
+      "url": "https://triple3d.ai/image-to-3d",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/zh/image-to-3d",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/image-to-3d",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/zh/image-to-3d",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/blog",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/free-tools/glb-to-stl",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/free-tools/glb-to-stl",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/image-to-3d",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/free-tools/glb-to-stl",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/free-tools/glb-to-stl",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/free-tools/obj-to-stl",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/free-tools/obj-to-stl",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/free-tools/obj-to-stl",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/_next/static/chunks/1y1nlf0tinetn.js",
+      "status": 200,
+      "method": "GET",
+      "kind": "script"
+    },
+    {
+      "url": "https://triple3d.ai/_next/static/chunks/2w9djlr59swyr.js",
+      "status": 200,
+      "method": "GET",
+      "kind": "script"
+    },
+    {
+      "url": "https://triple3d.ai/free-tools/png-to-stl",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/free-tools/png-to-stl",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/free-tools/3mf-to-stl",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/free-tools/png-to-stl",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/free-tools/3mf-to-stl",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/free-tools/3mf-to-stl",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/free-tools/image-to-stl",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/free-tools/image-to-stl",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/free-tools/image-to-stl",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/free-tools/glb-viewer",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/free-tools/glb-viewer",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/free-tools/glb-viewer",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/free-tools/obj-viewer",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/free-tools/obj-viewer",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/free-tools/obj-viewer",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/free-tools/stl-viewer",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/free-tools/stl-viewer",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    },
+    {
+      "url": "https://triple3d.ai/free-tools/stl-viewer",
+      "status": 200,
+      "method": "GET",
+      "kind": "fetch"
+    }
+  ],
+  "new_glb": [],
+  "free_only": true
+}

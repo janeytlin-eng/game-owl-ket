@@ -5,6 +5,7 @@ on:
       - research/owl172-run173-threews-free-text-neural-source-gate
     paths:
       - .github/workflows/owl-pet-172-run173-threews-free-text-3d.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run173_threews_free_text.py
 permissions:
   contents: write
 jobs:

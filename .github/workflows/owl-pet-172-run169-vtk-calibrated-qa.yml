@@ -1,0 +1,148 @@
+name: owl172 Run169 source-calibrated genuine SF3D six-angle VTK art QA NO_RELEASE
+on:
+  push:
+    branches: [research/owl172-run169-sf3d-face-calibrated-vtk-orbit]
+    paths: [.github/workflows/owl-pet-172-run169-vtk-calibrated-qa.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  source-calibrated-native-orbit:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run169-sf3d-face-calibrated-vtk-orbit
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            .github/workflows/owl-pet-172-run169-vtk-calibrated-qa.yml
+            owl-pet/AGENTS.md
+            owl-pet/README.md
+            owl-pet/prototype/index.html
+            owl-pet/research/species/172-tyto-castanops-v3.md
+            owl-pet/3d-experiments/172-tyto-castanops/2026-11-18-run165-upsampler-result-followthrough-NO_RELEASE.md
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run165-NEW-NEURAL-PROVENANCE-NO_RELEASE/run165_actual_results.json
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run169_sf3d_calibrated_vtk_orbit.py
+      - name: Read prototype, real source, Run165, reject registry preflight and prove image identity
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run169-SOURCE-CALIBRATED-VTK-NO_RELEASE"
+          mkdir -p "$O"
+          python3 -m py_compile "$R/tools/run169_sf3d_calibrated_vtk_orbit.py"
+          for f in owl-pet/AGENTS.md owl-pet/README.md owl-pet/prototype/index.html owl-pet/research/species/172-tyto-castanops-v3.md "$R/2026-11-18-run165-upsampler-result-followthrough-NO_RELEASE.md"; do test -s "$f"; done
+          echo '5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9  owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png' | sha256sum -c | tee "$O/run169_reference_hash.log"
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          r=Path('owl-pet/3d-experiments/172-tyto-castanops')
+          d=json.loads((r/'research-evidence-run165-NEW-NEURAL-PROVENANCE-NO_RELEASE/run165_actual_results.json').read_text())
+          a=d['new_valid_glb']
+          assert len(a)==1 and a[0]['sha256']=='8ff7341725e4fc27caf3ff4dbb3b07fe9231a96d216de31317bddf2aa07a7b8b'
+          assert a[0]['provenance_generated_for_source'] and not a[0]['is_static_demo']
+          print('GENUINE_OWL_GLB_PROVENANCE_OK',a[0]['file'])
+          PY
+      - name: Retrieve original GLB from immutable Run165 generated artifact
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run169-SOURCE-CALIBRATED-VTK-NO_RELEASE"
+          mkdir -p /tmp/receive-run169
+          curl -fsSL --retry 3 --retry-delay 3 -H "Authorization: Bearer $GITHUB_TOKEN" -H "Accept: application/vnd.github+json" "https://api.github.com/repos/$GITHUB_REPOSITORY/actions/artifacts/14401647106/zip" -o /tmp/run169_source.zip
+          unzip -t /tmp/run169_source.zip | tail -n 3 > "$O/run169_archive_integrity.log"
+          unzip -qo /tmp/run169_source.zip -d /tmp/receive-run169
+          MODEL=/tmp/receive-run169/upsampler_sf3d_new_ui_generated_3d_UNREVIEWED.glb
+          echo "8ff7341725e4fc27caf3ff4dbb3b07fe9231a96d216de31317bddf2aa07a7b8b  $MODEL" | sha256sum -c | tee "$O/run169_model_hash.log"
+          test "$(stat -c %s "$MODEL")" = 1184576
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install free real mesh and offscreen GLTF renderer
+        timeout-minutes: 9
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run169-SOURCE-CALIBRATED-VTK-NO_RELEASE"
+          python -m pip install --disable-pip-version-check --no-input --quiet 'vtk==9.6.2' trimesh numpy pillow > "$O/run169_install.log" 2>&1
+          if ! ldconfig -p | grep -q 'libEGL.so.1'; then
+            echo 'libEGL missing; installing only free Mesa runtime' >> "$O/run169_install.log"
+            timeout 90s sudo apt-get -o Acquire::Retries=1 update -qq >> "$O/run169_install.log" 2>&1 || true
+            timeout 160s sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq libegl1 libgl1 libopengl0 libxrender1 libxi6 libgl1-mesa-dri >> "$O/run169_install.log" 2>&1
+          fi
+          python -c 'import vtk,trimesh,numpy; print("VTK",vtk.vtkVersion.GetVTKVersion(),"trimesh",trimesh.__version__)' | tee -a "$O/run169_install.log"
+      - name: Actual calibrated source atlas normal and six-view rendering
+        timeout-minutes: 8
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run169-SOURCE-CALIBRATED-VTK-NO_RELEASE"
+          timeout 360s python "$R/tools/run169_sf3d_calibrated_vtk_orbit.py" -- /tmp/receive-run169/upsampler_sf3d_new_ui_generated_3d_UNREVIEWED.glb "$O" > "$O/run169_native_renderer.log" 2>&1 || { tail -n 75 "$O/run169_native_renderer.log"; exit 41; }
+          grep -q RUN169_FACE_CALIBRATED_REAL_GLB_SIXVIEW_COMPLETE "$O/run169_native_renderer.log"
+          test "$(find "$O" -maxdepth 1 -name 'run169_*_UNREVIEWED.png' -size +20000c | wc -l)" -eq 7
+          test -s "$O/run169_native_geometry_metrics.json"
+      - name: Evidence SHA256 audit and strict NO_RELEASE
+        if: always()
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          import json, hashlib
+          r=Path('owl-pet/3d-experiments/172-tyto-castanops')
+          o=r/'research-evidence-run169-SOURCE-CALIBRATED-VTK-NO_RELEASE'
+          o.mkdir(parents=True,exist_ok=True)
+          m=o/'run169_native_geometry_metrics.json'
+          ok=(m.exists() and (o/'run169_sixview_lit_contact_UNREVIEWED.png').exists())
+          data=json.loads(m.read_text()) if m.exists() else {}
+          (o/'NO_RELEASE.flag').write_text('NO_RELEASE / ART_REJECTED_PENDING_REMOTE_VISUAL_QA; no physical mobile GPU test; no deploy.\n')
+          proof={p.name:{'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in o.iterdir() if p.is_file() and p.name!='run169_sha256_manifest.json'}
+          (o/'run169_sha256_manifest.json').write_text(json.dumps(proof,indent=2))
+          assert all(hashlib.sha256((o/k).read_bytes()).hexdigest()==v['sha256'] for k,v in proof.items())
+          report=f"""# Run169 #172 Tyto castanops v3 — source-orientation-calibrated six-view SF3D audit
+
+          **NO_RELEASE / ART_REJECTED pending final visual QA.** No production or deployment.
+
+          Rechecked existing owl-pet prototype, design boundary, Run165 generated model and reference source SHA256. New genuine source-bound GLB is immutable Run165 artifact 14401647106, SHA256 8ff7341725e4fc27caf3ff4dbb3b07fe9231a96d216de31317bddf2aa07a7b8b, 1,184,576 bytes. Not the false-positive toy car.
+
+          Distinct from uncalibrated Run166 axis previews: actual GLB texture atlas shows anatomical facial disc in the atlas lower-left; mesh UV face patch normals indicate **negative Z is anatomical front**. Orthographic cameras use front -Z, front-oblique, side +X, back +Z, side -X and underside; camera-facing lights correct misleading near-black PBR face. Read-only on source; generated no fabricated owl components.
+
+          Native VTK GLTF import/texture/six-angle evidence: {'PASS' if ok else 'FAIL; see renderer/install logs'}. Actual source mesh metrics: {json.dumps({k:data.get(k) for k in ['mesh_count','vertex_count','triangle_count','atlas_frontal_patch_faces','atlas_frontal_patch_mean_normal','vtk_version']})}.
+
+          Real local visual inspection found a recognizable face only from the front but a grossly stretched/sideways head-body profile, hard dark edge artifacts, no independent buried juvenile wings, no realistic cream down and no eucalypt hollow support. The six-view proof remains for reproducible review. A valid GLB is not an acceptable 3D pet. No mobile phone GPU test was claimed or performed.
+
+          Proof: [VTK real sixview, atlas, JSON hashes and logs](research-evidence-run169-SOURCE-CALIBRATED-VTK-NO_RELEASE/).
+          Run165 source: https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44245752506
+
+          This branch modifies only isolated #172 research and one dedicated workflow; no main/251 species/site/prototype edits; extra fees $0.
+          """
+          (r/'2026-11-18-run169-source-calibrated-vtk-native-sixview-ART_REJECTED-NO_RELEASE.md').write_text('\n'.join(line.strip() for line in report.splitlines())+'\n')
+          print('RUN169_REPORT',ok,'verified',len(proof))
+          PY
+      - name: Archive evidence separately from Git GLB binary
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run169-source-calibrated-VTK-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run169-SOURCE-CALIBRATED-VTK-NO_RELEASE/
+          retention-days: 30
+      - name: Commit reproducible visual evidence only to isolated research branch
+        if: always()
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run169-SOURCE-CALIBRATED-VTK-NO_RELEASE"
+          git add --sparse "$R/2026-11-18-run169-source-calibrated-vtk-native-sixview-ART_REJECTED-NO_RELEASE.md"
+          find "$O" -maxdepth 1 -type f \( -name '*.png' -o -name '*.json' -o -name '*.log' -o -name '*.flag' \) -print0 | xargs -0 -r git add --sparse --
+          git diff --cached --name-only > /tmp/run169_paths
+          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/' /tmp/run169_paths; then exit 88; fi
+          if grep -Ei '\.(glb|blend|zip|fbx|obj|bin)$' /tmp/run169_paths; then exit 89; fi
+          if [ -s /tmp/run169_paths ]; then
+            git commit -m 'research(owl172): Run169 actual atlas-calibrated genuine GLB sixview ART_REJECTED NO_RELEASE'
+            git push origin HEAD:research/owl172-run169-sf3d-face-calibrated-vtk-orbit
+          fi

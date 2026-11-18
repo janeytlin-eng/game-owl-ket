@@ -1,0 +1,292 @@
+{
+  "run": 165,
+  "utc": "2026-11-18T05:39:52.563569+00:00",
+  "canonical_source_sha256": "5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9",
+  "source": "owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png",
+  "last_work": "Run161 incorrectly labelled the site-supplied toy-car sample GLB as a new owl: proven by /samples/toy-car-generated.glb, filename toy-car-generated.glb, sha256 e6ac576ae9b4641ae2afd84345fc94eaa7ce1b78a44b1c7e36bd8841c5d078c0. This run preserves the verified static-demo exclusion and tests Upsampler Stable Fast 3D, following its live Gradio queue through the visible See result screen and GLB export with visible upload and generate controls.",
+  "constraints": "Public visible UI only; no access bypass; no account; $0 additional payment",
+  "new_valid_glb": [
+    {
+      "file": "upsampler_sf3d_new_ui_generated_3d_UNREVIEWED.glb",
+      "bytes": 1184576,
+      "sha256": "8ff7341725e4fc27caf3ff4dbb3b07fe9231a96d216de31317bddf2aa07a7b8b",
+      "valid_glb_v2": true,
+      "version": 2,
+      "declared_bytes": 1184576,
+      "meshes": 1,
+      "materials": 1,
+      "images": 2,
+      "suggested_name": "model-1794980427704.glb",
+      "known_rejected": false,
+      "is_static_demo": false,
+      "provenance_generated_for_source": true
+    }
+  ],
+  "providers": {
+    "upsampler_sf3d": {
+      "public_url": "https://upsampler.com/free-image-to-3d-no-signup",
+      "started_utc": "2026-11-18T05:39:52.936785+00:00",
+      "actions": [
+        "Uploaded checksum-confirmed rightmost cream chick using visible site's browser file input",
+        "Clicked public generation control: Convert to 3D",
+        "Clicked visible 'See result' after source-bound Gradio generation"
+      ],
+      "sampled_responses": [
+        {
+          "host": "upsampler.com",
+          "path": "/free-image-to-3d-no-signup",
+          "status": 200,
+          "content_type": "text/html; charset=utf-8"
+        },
+        {
+          "host": "upsampler.com",
+          "path": "/_next/static/chunks/app/(marketing)/(free-tools)/free-image-to-3d-no-signup/page-1a21c8029b87dd3b.js",
+          "status": 200,
+          "content_type": "application/javascript; charset=UTF-8"
+        },
+        {
+          "host": "upsampler.com",
+          "path": "/api/auth/session",
+          "status": 200,
+          "content_type": "application/json"
+        },
+        {
+          "host": "upsampler.com",
+          "path": "/api/hf/token",
+          "status": 200,
+          "content_type": "application/json"
+        },
+        {
+          "host": "upsampler.com",
+          "path": "/api/auth/session",
+          "status": 200,
+          "content_type": "application/json"
+        },
+        {
+          "host": "upsampler.com",
+          "path": "/free-image-to-3d-no-signup",
+          "status": 200,
+          "content_type": "text/x-component"
+        },
+        {
+          "host": "upsampler-stable-fast-3d.hf.space",
+          "path": "/gradio_api/info",
+          "status": 200,
+          "content_type": "application/json"
+        },
+        {
+          "host": "upsampler-stable-fast-3d.hf.space",
+          "path": "/gradio_api/upload",
+          "status": 200,
+          "content_type": "application/json"
+        },
+        {
+          "host": "upsampler-stable-fast-3d.hf.space",
+          "path": "/gradio_api/queue/join",
+          "status": 200,
+          "content_type": "application/json"
+        },
+        {
+          "host": "upsampler-stable-fast-3d.hf.space",
+          "path": "/gradio_api/queue/data",
+          "status": 200,
+          "content_type": "text/event-stream; charset=utf-8"
+        },
+        {
+          "host": "upsampler-stable-fast-3d.hf.space",
+          "path": "/gradio_api/file=/tmp/gradio/8d759237a9ffc75e2a2ce98747d6dea4c5b14c3bebf6221e902f61e71a90084b/tmp_q41_q9b.glb",
+          "status": 200,
+          "content_type": "application/octet-stream"
+        },
+        {
+          "host": "upsampler-stable-fast-3d.hf.space",
+          "path": "/gradio_api/file=/tmp/gradio/8d759237a9ffc75e2a2ce98747d6dea4c5b14c3bebf6221e902f61e71a90084b/tmp_q41_q9b.glb",
+          "status": 200,
+          "content_type": "application/octet-stream"
+        }
+      ],
+      "download_attempts": [
+        {
+          "bytes": 1184576,
+          "sha256": "8ff7341725e4fc27caf3ff4dbb3b07fe9231a96d216de31317bddf2aa07a7b8b",
+          "valid_glb_v2": true,
+          "version": 2,
+          "declared_bytes": 1184576,
+          "meshes": 1,
+          "materials": 1,
+          "images": 2,
+          "suggested_name": "model-1794980427704.glb",
+          "known_rejected": false,
+          "is_static_demo": false,
+          "provenance_generated_for_source": true
+        }
+      ],
+      "screenshots": [],
+      "initial_http": 200,
+      "initial_url_host": "upsampler.com",
+      "title": "Free AI Image to 3D Converter, No Sign-Up No Watermark | Upsampler",
+      "body_initial": "X VSR\n·\nMUSE IMAGE\n·\nNANO BANANA 2\n·\nNANO BANANA 2.1\n·\nGPT IMAGE 2\n·\nGPT IMAGE 2.5 FLARE\n·\nGPT IMAGE 2.5 SUNBURST\n·\nGROK IMAGINE IMAGE 2\n·\nNANO BANANA 2 LITE\n·\nNANO BANANA PRO\n·\nSEEDREAM 4\n·\nSEEDREAM 5 PRO\n·\nGPT IMAGE 1.5\n·\nFLUX 3\n·\nQWEN IMAGE 3\n·\nQWEN IMAGE 2 PRO\n·\nGROK IMAGINE IMAGE\n·\nP-IMAGE IDEOGRAM\n·\nKREA 2\n·\nKREA 3\n·\nMAI IMAGE 2.5\n·\nNANO BANANA\n·\nIMAGEN 4\n·\nSEEDREAM 3\n·\nSEEDREAM 4.5\n·\nSEEDREAM 5 FLASH\n·\nSEEDREAM 5 LITE\n·\nFLUX 2 KLEIN\n·\nFLUX 2 PRO\n·\nFLUX 2 MAX\n·\nFLUX 3 KLEIN\n·\nZ IMAGE TURBO\n·\nQWEN IMAGE 2\n·\nRECRAFT V4.1\n·\nIDEOGRAM V4\n·\nIMAGEN 3\n·\nFLUX KONTEXT PRO\n·\nFLUX KONTEXT MAX\n·\nQWEN IMAGE\n·\nRECRAFT V4\n·\nIDEOGRAM V3\n·\nFLUX SCHNELL\n·\nFLUX 1.1 PRO\n·\nWAN 2.2\n·\nRECRAFT V3\n·\nP IMAGE UPSCALE\n·\nSEED VR 2\n·\nFLUX\n·\nSTABLE DIFFUSION\n·\nGAN\n·\nFLUX FILL PRO\n·\nQWEN EDIT 2511\n·\nQWEN EDIT\n·\nFLUX KONTEXT FAST\n·\nMINIMAX H3 MAX TURBO\n·\nMINIMAX H3\n·\nGROK IMAGINE VIDEO 1.5\n·\nSEEDANCE 2\n·\nSEEDANCE 2.5\n·\nWAN 3.0\n·\nGROK IMAGINE VIDEO\n·\nSEEDANCE 1 PRO\n·\nSEEDANCE 1.5 PRO\n·\nSEEDANCE 2 MINI\n·\nWAN 2.7\n·\nKLING 3.0\n·\nKLING 2.5 PRO\n·\nVEO 3.1\n·\nLTX 2.5 FAST\n·\nP-VIDEO 2\n·\nP-VIDEO 2 PRO\n·\nP-VIDEO\n·\nRUNWAY GEN 4.5\n·\nP-VIDEO 2 DRAFT\n·\nWAN 2.2 14B PRO\n·\nP-VIDEO DRAFT\n·\nLTX 2.5\n·\nSEEDVR 2\n·\nFLASHVSR\n·\nRTX VSR\n·\n01 · IMAGE GENERATION\nGenerate Images in 4K\n\nTurn a prompt or a reference image into anything from photoreal shots to illustration. Pick the size before you generate, up to 4K on every model.\n\nPowered by 44 AI models\nMuse Image\nNano Banana 2\nNano Banana 2.1\nGPT Image 2\nGPT Image 2.5 Flare\nGPT Image 2.5 Sunburst\n+38 more\nMore image generation examples\n02 · IMAGE EDITING\nEdit Images at Full Resolution\n\nChange anything with a text prompt and get the result back at your photo's full size. Mask an area to redo only that part, extend the frame, remove backgrounds or objects, and add new elements.\n\nPowered by 33 AI models\nMuse Image\nNano Banana 2.1\nSeedream 5 Pro\nGPT Image 2\nGPT Image 2.5 Flare\nGPT Image 2.5 Sunburst\n+27 more\nBefore\nAfter\nMore image editing examples\n03 · IMAGE UPSCALING\nUpscale Images to 100 MP\n\nAdd real detail as you enlarge. Let the AI invent fine texture with a creativity slider, or stay true to the original with sharpening, deblurring, and noise reduction.\n\nPowered by 6 AI models\nP Image Upscale\nKrea 2\nSeed VR 2\nFlux\nStable Diffusion\nGAN\nBefore\nAfter\nMore image upscaling examples\n04 · VIDEO GENERATION\nGenerate Videos in Full HD\n\nCreate clips from a prompt or bring a still image to life. Choose the resolution and frame rate up front, up to 1080p at 60 FPS.\n\nPowered by 23 AI models\nMiniMax H3 Max Turbo\nMiniMax H3\nGrok Imagine Video 1.5\nSeedance 2\nSeedance 2.5\nWan 3.0\n+17 more\nMore video generation examples\n05 · VIDEO UPSCALING\nUpscale Videos to 4K\n\nSharpen edges, textures, and on-screen text frame by frame, with stable motion. Add frame interpolation for smooth playback at up to 60 FPS.\n\nPowered by 5 AI models\nLTX 2.5\nSeedVR 2\nFlashVSR\nGAN\nRTX VSR\nBefore\nAfter\nMore video upscaling examples\nHow a single image becomes a 3D model\n\nThis tool turns one ordinary photo into a full 3D object. The Stable Fast 3D model was trained on huge collections of objects paired with the images that depict them, so it has learned how shapes, surfaces, and materials relate to the pixels of a single view. When you upload an image, the model estimates the underlying geometry, the depth that the flat photo only hints at, and the texture that wraps around the surface. It then assembles those estimates into a watertight mesh and bakes the color and detail from your photo onto it. The output is a standard GLB file, a compact, self-contained format that carries the mesh and its texture together, ready to open in almost any 3D program.\n\nWhat you can do with the GLB\n\nA GLB drops cleanly into the tools artists and developers already use, which makes it a practical starting point rather than a novelty. Game makers import these models as props and background assets in engines like Unity, Unreal, and Blender. AR and VR builders place them in scenes for phones, headsets, and the web, where GLB and its glTF sibling are the native interchange format. Because the mesh is solid, you can prepare it for 3D printing, and product teams use the models for quick visualization, spinnable web previews, and pitch decks. For anyone iterating on a concept, generating a rough 3D version in a minute is a fast way to prototype an idea before committing real modeling time to it. If you only need per-pixel depth rather than a full mesh, the free depth map generator produces that fr",
+      "frame_count": 1,
+      "frames": [
+        {
+          "host": "upsampler.com",
+          "path": "/free-image-to-3d-no-signup"
+        }
+      ],
+      "upload_frame": {
+        "host": "upsampler.com",
+        "path": "/free-image-to-3d-no-signup"
+      },
+      "body_after_upload": "and the web, where GLB and its glTF sibling are the native interchange format. Because the mesh is solid, you can prepare it for 3D printing, and product teams use the models for quick visualization, spinnable web previews, and pitch decks. For anyone iterating on a concept, generating a rough 3D version in a minute is a fast way to prototype an idea before committing real modeling time to it. If you only need per-pixel depth rather than a full mesh, the free depth map generator produces that from the same kind of photo.\n\nWhat makes a good input\n\nThe quality of the model follows the quality of the photo, and a few simple choices make a clear difference. Use a clear, isolated subject that fills most of the frame, ideally a single object rather than a busy scene, so the model knows exactly what to reconstruct. Even, diffuse lighting helps it read the true shape, since harsh shadows and strong highlights can be mistaken for geometry. A plain or uncluttered background keeps stray detail out of the mesh. Photos taken roughly straight on, with the whole object visible and in focus, give the model the most to work with and produce the cleanest result.\n\nLimits to expect\n\nIt helps to know what one photo can and cannot deliver. A single image only shows one viewpoint, so everything the camera could not see, especially the back and far sides, is inferred rather than observed. The model makes a reasonable guess from what it has learned, but those hidden areas will be smoother and less faithful than the side facing the camera. For that reason results are best with simple, well-lit, clearly defined objects, and weaker with thin structures, transparent or reflective surfaces, and scenes containing several overlapping things. Treat the output as a strong first draft: great for prototyping, previews, and experimentation, and a solid base to refine in a dedicated 3D editor when you need a production-final asset. To see how your subject might look from those hidden sides before converting, the free multiple angles tool generates new viewpoints of the same subject. When you need cleaner geometry and sharper textures than a fast single-pass model can give, the free image to 3D generator on 3D Valley produces higher-detail models, also without an account.\n\nFrequently Asked Questions\nHow can I convert an image to 3D for free and without signing up?\nI've reached my limit of free conversions. What can I do?\nIs there a watermark on the 3D model?\nWhat file types are supported?\nIs it safe to upload my images?\nCan I use what I generate commercially?\nCan I generate NSFW or explicit content?\nLegal\nTerms of Service\nPrivacy Policy\nRefund Policy\nContact Us\nReport Abuse\nResources\nBlog\nModel Comparisons\nOther\nUpscaling API\nUse-Cases\nFree Tools\n\nWe use cookies\n\nWe use cookies to ensure you get the best experience on our website. For more information on how we use cookies, please see our privacy policy.\n\nBy clicking Accept, you agree to our use of cookies.\n\nLearn more.\nAccept\nDecline",
+      "controls_after_upload": [
+        "",
+        "Premium Tools",
+        "",
+        "Convert to 3D",
+        "BEFORE\nAFTER\nHouse game asset\nTry it",
+        "BEFORE\nAFTER\nDragon game asset\nTry it",
+        "Share",
+        "Feedback",
+        "gongbi cranes over gold silk\nIMAGE GENERATE\n44 models\nView Models",
+        "IMAGE UPSCALE\n6 models\nView Models",
+        "make the raincoat blue\nIMAGE EDIT\n33 models\nView Models",
+        "sprinting on the moon\nVIDEO GENERATE\n23 models\nView Models",
+        "VIDEO UPSCALE\n5 models\nView Models",
+        "Powered by 44 AI models\nMuse Image\nNano Banana 2\nNano Banana 2.1\nGPT I",
+        "More info",
+        "More image generation examples",
+        "Powered by 33 AI models\nMuse Image\nNano Banana 2.1\nSeedream 5 Pro\nGPT ",
+        "More info",
+        "",
+        "More image editing examples",
+        "Powered by 6 AI models\nP Image Upscale\nKrea 2\nSeed VR 2\nFlux\nStable Di",
+        "More info",
+        "",
+        "More image upscaling examples",
+        "Powered by 23 AI models\nMiniMax H3 Max Turbo\nMiniMax H3\nGrok Imagine V",
+        "More info",
+        "More video generation examples",
+        "Powered by 5 AI models\nLTX 2.5\nSeedVR 2\nFlashVSR\nGAN\nRTX VSR",
+        "More info",
+        "",
+        "More video upscaling examples",
+        "How can I convert an image to 3D for free and without signing up?",
+        "I've reached my limit of free conversions. What can I do?",
+        "Is there a watermark on the 3D model?",
+        "What file types are supported?",
+        "Is it safe to upload my images?",
+        "Can I use what I generate commercially?",
+        "Can I generate NSFW or explicit content?",
+        "Accept",
+        "Decline"
+      ],
+      "generation_control": "Convert to 3D",
+      "observations": [
+        {
+          "poll": 0,
+          "main_body": " photo into a full 3D object. The Stable Fast 3D model was trained on huge collections of objects paired with the images that depict them, so it has learned how shapes, surfaces, and materials relate to the pixels of a single view. When you upload an image, the model estimates the underlying geometry, the depth that the flat photo only hints at, and the texture that wraps around the surface. It then assembles those estimates into a watertight mesh and bakes the color and detail from your photo onto it. The output is a standard GLB file, a compact, self-contained format that carries the mesh and its texture together, ready to open in almost any 3D program.\n\nWhat you can do with the GLB\n\nA GLB drops cleanly into the tools artists and developers already use, which makes it a practical starting point rather than a novelty. Game makers import these models as props and background assets in engines like Unity, Unreal, and Blender. AR and VR builders place them in scenes for phones, headsets, and the web, where GLB and its glTF sibling are the native interchange format. Because the mesh is solid, you can prepare it for 3D printing, and product teams use the models for quick visualization, spinnable web previews, and pitch decks. For anyone iterating on a concept, generating a rough 3D version in a minute is a fast way to prototype an idea before committing real modeling time to it. If you only need per-pixel depth rather than a full mesh, the free depth map generator produces that from the same kind of photo.\n\nWhat makes a good input\n\nThe quality of the model follows the quality of the photo, and a few simple choices make a clear difference. Use a clear, isolated subject that fills most of the frame, ideally a single object rather than a busy scene, so the model knows exactly what to reconstruct. Even, diffuse lighting helps it read the true shape, since harsh shadows and strong highlights can be mistaken for geometry. A plain or uncluttered background keeps stray detail out of the mesh. Photos taken roughly straight on, with the whole object visible and in focus, give the model the most to work with and produce the cleanest result.\n\nLimits to expect\n\nIt helps to know what one photo can and cannot deliver. A single image only shows one viewpoint, so everything the camera could not see, especially the back and far sides, is inferred rather than observed. The model makes a reasonable guess from what it has learned, but those hidden areas will be smoother and less faithful than the side facing the camera. For that reason results are best with simple, well-lit, clearly defined objects, and weaker with thin structures, transparent or reflective surfaces, and scenes containing several overlapping things. Treat the output as a strong first draft: great for prototyping, previews, and experimentation, and a solid base to refine in a dedicated 3D editor when you need a production-final asset. To see how your subject might look from those hidden sides before converting, the free multiple angles tool generates new viewpoints of the same subject. When you need cleaner geometry and sharper textures than a fast single-pass model can give, the free image to 3D generator on 3D Valley produces higher-detail models, also without an account.\n\nFrequently Asked Questions\nHow can I convert an image to 3D for free and without signing up?\nI've reached my limit of free conversions. What can I do?\nIs there a watermark on the 3D model?\nWhat file types are supported?\nIs it safe to upload my images?\nCan I use what I generate commercially?\nCan I generate NSFW or explicit content?\nLegal\nTerms of Service\nPrivacy Policy\nRefund Policy\nContact Us\nReport Abuse\nResources\nBlog\nModel Comparisons\nOther\nUpscaling API\nUse-Cases\nFree Tools\n\nWe use cookies\n\nWe use cookies to ensure you get the best experience on our website. For more information on how we use cookies, please see our privacy policy.\n\nBy clicking Accept, you agree to our use of cookies.\n\nLearn more.\nAccept\nDecline",
+          "frame_body": "om the same kind of photo.\n\nWhat makes a good input\n\nThe quality of the model follows the quality of the photo, and a few simple choices make a clear difference. Use a clear, isolated subject that fills most of the frame, ideally a single object rather than a busy scene, so the model knows exactly what to reconstruct. Even, diffuse lighting helps it read the true shape, since harsh shadows and strong highlights can be mistaken for geometry. A plain or uncluttered background keeps stray detail out of the mesh. Photos taken roughly straight on, with the whole object visible and in focus, give the model the most to work with and produce the cleanest result.\n\nLimits to expect\n\nIt helps to know what one photo can and cannot deliver. A single image only shows one viewpoint, so everything the camera could not see, especially the back and far sides, is inferred rather than observed. The model makes a reasonable guess from what it has learned, but those hidden areas will be smoother and less faithful than the side facing the camera. For that reason results are best with simple, well-lit, clearly defined objects, and weaker with thin structures, transparent or reflective surfaces, and scenes containing several overlapping things. Treat the output as a strong first draft: great for prototyping, previews, and experimentation, and a solid base to refine in a dedicated 3D editor when you need a production-final asset. To see how your subject might look from those hidden sides before converting, the free multiple angles tool generates new viewpoints of the same subject. When you need cleaner geometry and sharper textures than a fast single-pass model can give, the free image to 3D generator on 3D Valley produces higher-detail models, also without an account.\n\nFrequently Asked Questions\nHow can I convert an image to 3D for free and without signing up?\nI've reached my limit of free conversions. What can I do?\nIs there a watermark on the 3D model?\nWhat file types are supported?\nIs it safe to upload my images?\nCan I use what I generate commercially?\nCan I generate NSFW or explicit content?\nLegal\nTerms of Service\nPrivacy Policy\nRefund Policy\nContact Us\nReport Abuse\nResources\nBlog\nModel Comparisons\nOther\nUpscaling API\nUse-Cases\nFree Tools\n\nWe use cookies\n\nWe use cookies to ensure you get the best experience on our website. For more information on how we use cookies, please see our privacy policy.\n\nBy clicking Accept, you agree to our use of cookies.\n\nLearn more.\nAccept\nDecline",
+          "frame_buttons": [
+            "",
+            "Premium Tools",
+            "See result",
+            "Share",
+            "Feedback",
+            "gongbi cranes over gold silk\nIMAGE GENERATE\n44 models\nView Models",
+            "IMAGE UPSCALE\n6 models\nView Models",
+            "make the raincoat blue\nIMAGE EDIT\n33 models\nView Models",
+            "sprinting on the moon\nVIDEO GENERATE\n23 models\nView Models",
+            "VIDEO UPSCALE\n5 models\nView Models",
+            "Powered by 44 AI models\nMuse Image\nNano Banana 2\nNano Banana 2.1\nGPT I",
+            "More info",
+            "More image generation examples",
+            "Powered by 33 AI models\nMuse Image\nNano Banana 2.1\nSeedream 5 Pro\nGPT ",
+            "More info",
+            "",
+            "More image editing examples",
+            "Powered by 6 AI models\nP Image Upscale\nKrea 2\nSeed VR 2\nFlux\nStable Di",
+            "More info",
+            "",
+            "More image upscaling examples",
+            "Powered by 23 AI models\nMiniMax H3 Max Turbo\nMiniMax H3\nGrok Imagine V",
+            "More info",
+            "More video generation examples",
+            "Powered by 5 AI models\nLTX 2.5\nSeedVR 2\nFlashVSR\nGAN\nRTX VSR",
+            "More info",
+            "",
+            "More video upscaling examples",
+            "How can I convert an image to 3D for free and without signing up?",
+            "I've reached my limit of free conversions. What can I do?",
+            "Is there a watermark on the 3D model?",
+            "What file types are supported?",
+            "Is it safe to upload my images?",
+            "Can I use what I generate commercially?",
+            "Can I generate NSFW or explicit content?",
+            "Accept",
+            "Decline"
+          ]
+        }
+      ],
+      "queue_result_ready_at_poll": 0,
+      "see_result_visible": true,
+      "result_ui_body": "\n·\nQWEN IMAGE 2\n·\nRECRAFT V4.1\n·\nIDEOGRAM V4\n·\nIMAGEN 3\n·\nFLUX KONTEXT PRO\n·\nFLUX KONTEXT MAX\n·\nQWEN IMAGE\n·\nRECRAFT V4\n·\nIDEOGRAM V3\n·\nFLUX SCHNELL\n·\nFLUX 1.1 PRO\n·\nWAN 2.2\n·\nRECRAFT V3\n·\nP IMAGE UPSCALE\n·\nSEED VR 2\n·\nFLUX\n·\nSTABLE DIFFUSION\n·\nGAN\n·\nFLUX FILL PRO\n·\nQWEN EDIT 2511\n·\nQWEN EDIT\n·\nFLUX KONTEXT FAST\n·\nMINIMAX H3 MAX TURBO\n·\nMINIMAX H3\n·\nGROK IMAGINE VIDEO 1.5\n·\nSEEDANCE 2\n·\nSEEDANCE 2.5\n·\nWAN 3.0\n·\nGROK IMAGINE VIDEO\n·\nSEEDANCE 1 PRO\n·\nSEEDANCE 1.5 PRO\n·\nSEEDANCE 2 MINI\n·\nWAN 2.7\n·\nKLING 3.0\n·\nKLING 2.5 PRO\n·\nVEO 3.1\n·\nLTX 2.5 FAST\n·\nP-VIDEO 2\n·\nP-VIDEO 2 PRO\n·\nP-VIDEO\n·\nRUNWAY GEN 4.5\n·\nP-VIDEO 2 DRAFT\n·\nWAN 2.2 14B PRO\n·\nP-VIDEO DRAFT\n·\nLTX 2.5\n·\nSEEDVR 2\n·\nFLASHVSR\n·\nRTX VSR\n·\n01 · IMAGE GENERATION\nGenerate Images in 4K\n\nTurn a prompt or a reference image into anything from photoreal shots to illustration. Pick the size before you generate, up to 4K on every model.\n\nPowered by 44 AI models\nMuse Image\nNano Banana 2\nNano Banana 2.1\nGPT Image 2\nGPT Image 2.5 Flare\nGPT Image 2.5 Sunburst\n+38 more\nMore image generation examples\n02 · IMAGE EDITING\nEdit Images at Full Resolution\n\nChange anything with a text prompt and get the result back at your photo's full size. Mask an area to redo only that part, extend the frame, remove backgrounds or objects, and add new elements.\n\nPowered by 33 AI models\nMuse Image\nNano Banana 2.1\nSeedream 5 Pro\nGPT Image 2\nGPT Image 2.5 Flare\nGPT Image 2.5 Sunburst\n+27 more\nBefore\nAfter\nMore image editing examples\n03 · IMAGE UPSCALING\nUpscale Images to 100 MP\n\nAdd real detail as you enlarge. Let the AI invent fine texture with a creativity slider, or stay true to the original with sharpening, deblurring, and noise reduction.\n\nPowered by 6 AI models\nP Image Upscale\nKrea 2\nSeed VR 2\nFlux\nStable Diffusion\nGAN\nBefore\nAfter\nMore image upscaling examples\n04 · VIDEO GENERATION\nGenerate Videos in Full HD\n\nCreate clips from a prompt or bring a still image to life. Choose the resolution and frame rate up front, up to 1080p at 60 FPS.\n\nPowered by 23 AI models\nMiniMax H3 Max Turbo\nMiniMax H3\nGrok Imagine Video 1.5\nSeedance 2\nSeedance 2.5\nWan 3.0\n+17 more\nMore video generation examples\n05 · VIDEO UPSCALING\nUpscale Videos to 4K\n\nSharpen edges, textures, and on-screen text frame by frame, with stable motion. Add frame interpolation for smooth playback at up to 60 FPS.\n\nPowered by 5 AI models\nLTX 2.5\nSeedVR 2\nFlashVSR\nGAN\nRTX VSR\nBefore\nAfter\nMore video upscaling examples\nHow a single image becomes a 3D model\n\nThis tool turns one ordinary photo into a full 3D object. The Stable Fast 3D model was trained on huge collections of objects paired with the images that depict them, so it has learned how shapes, surfaces, and materials relate to the pixels of a single view. When you upload an image, the model estimates the underlying geometry, the depth that the flat photo only hints at, and the texture that wraps around the surface. It then assembles those estimates into a watertight mesh and bakes the color and detail from your photo onto it. The output is a standard GLB file, a compact, self-contained format that carries the mesh and its texture together, ready to open in almost any 3D program.\n\nWhat you can do with the GLB\n\nA GLB drops cleanly into the tools artists and developers already use, which makes it a practical starting point rather than a novelty. Game makers import these models as props and background assets in engines like Unity, Unreal, and Blender. AR and VR builders place them in scenes for phones, headsets, and the web, where GLB and its glTF sibling are the native interchange format. Because the mesh is solid, you can prepare it for 3D printing, and product teams use the models for quick visualization, spinnable web previews, and pitch decks. For anyone iterating on a concept, generating a rough 3D version in a minute is a fast way to prototype an idea before committing real modeling time to it. If you only need per-pixel depth rather than a full mesh, the free depth map generator produces that from the same kind of photo.\n\nWhat makes a good input\n\nThe quality of the model follows the quality of the photo, and a few simple choices make a clear difference. Use a clear, isolated subject that fills most of the frame, ideally a single object rather than a busy scene, so the model knows exactly what to reconstruct. Even, diffuse lighting helps it read the true shape, since harsh shadows and strong highlights can be mistaken for geometry. A plain or uncluttered background keeps stray detail out of the mesh. Photos taken roughly straight on, with the whole object visible and in focus, give the model the most to work with and produce the cleanest result.\n\nLimits to expect\n\nIt helps to know what one photo can and cannot deliver. A single image only shows one viewpoint, so everything the camera could not see, especially the back and far sides, is inferred rather than observed. The model makes a reasonable guess from what it has learned, but those hidden areas will be smoother and less faithful than the side facing the camera. For that reason results are best with simple, well-lit, clearly defined objects, and weaker with thin structures, transparent or reflective surfaces, and scenes containing several overlapping things. Treat the output as a strong first draft: great for prototyping, previews, and experimentation, and a solid base to refine in a dedicated 3D editor when you need a production-final asset. To see how your subject might look from those hidden sides before converting, the free multiple angles tool generates new viewpoints of the same subject. When you need cleaner geometry and sharper textures than a fast single-pass model can give, the free image to 3D generator on 3D Valley produces higher-detail models, also without an account.\n\nFrequently Asked Questions\nHow can I convert an image to 3D for free and without signing up?\nI've reached my limit of free conversions. What can I do?\nIs there a watermark on the 3D model?\nWhat file types are supported?\nIs it safe to upload my images?\nCan I use what I generate commercially?\nCan I generate NSFW or explicit content?\nLegal\nTerms of Service\nPrivacy Policy\nRefund Policy\nContact Us\nReport Abuse\nResources\nBlog\nModel Comparisons\nOther\nUpscaling API\nUse-Cases\nFree Tools\n\nWe use cookies\n\nWe use cookies to ensure you get the best experience on our website. For more information on how we use cookies, please see our privacy policy.\n\nBy clicking Accept, you agree to our use of cookies.\n\nLearn more.\nAccept\nDecline",
+      "result_ui_pages": [
+        {
+          "host": "upsampler.com",
+          "path": "/free-image-to-3d-no-signup"
+        }
+      ],
+      "body_final": " Images to 100 MP\n\nAdd real detail as you enlarge. Let the AI invent fine texture with a creativity slider, or stay true to the original with sharpening, deblurring, and noise reduction.\n\nPowered by 6 AI models\nP Image Upscale\nKrea 2\nSeed VR 2\nFlux\nStable Diffusion\nGAN\nBefore\nAfter\nMore image upscaling examples\n04 · VIDEO GENERATION\nGenerate Videos in Full HD\n\nCreate clips from a prompt or bring a still image to life. Choose the resolution and frame rate up front, up to 1080p at 60 FPS.\n\nPowered by 23 AI models\nMiniMax H3 Max Turbo\nMiniMax H3\nGrok Imagine Video 1.5\nSeedance 2\nSeedance 2.5\nWan 3.0\n+17 more\nMore video generation examples\n05 · VIDEO UPSCALING\nUpscale Videos to 4K\n\nSharpen edges, textures, and on-screen text frame by frame, with stable motion. Add frame interpolation for smooth playback at up to 60 FPS.\n\nPowered by 5 AI models\nLTX 2.5\nSeedVR 2\nFlashVSR\nGAN\nRTX VSR\nBefore\nAfter\nMore video upscaling examples\nHow a single image becomes a 3D model\n\nThis tool turns one ordinary photo into a full 3D object. The Stable Fast 3D model was trained on huge collections of objects paired with the images that depict them, so it has learned how shapes, surfaces, and materials relate to the pixels of a single view. When you upload an image, the model estimates the underlying geometry, the depth that the flat photo only hints at, and the texture that wraps around the surface. It then assembles those estimates into a watertight mesh and bakes the color and detail from your photo onto it. The output is a standard GLB file, a compact, self-contained format that carries the mesh and its texture together, ready to open in almost any 3D program.\n\nWhat you can do with the GLB\n\nA GLB drops cleanly into the tools artists and developers already use, which makes it a practical starting point rather than a novelty. Game makers import these models as props and background assets in engines like Unity, Unreal, and Blender. AR and VR builders place them in scenes for phones, headsets, and the web, where GLB and its glTF sibling are the native interchange format. Because the mesh is solid, you can prepare it for 3D printing, and product teams use the models for quick visualization, spinnable web previews, and pitch decks. For anyone iterating on a concept, generating a rough 3D version in a minute is a fast way to prototype an idea before committing real modeling time to it. If you only need per-pixel depth rather than a full mesh, the free depth map generator produces that from the same kind of photo.\n\nWhat makes a good input\n\nThe quality of the model follows the quality of the photo, and a few simple choices make a clear difference. Use a clear, isolated subject that fills most of the frame, ideally a single object rather than a busy scene, so the model knows exactly what to reconstruct. Even, diffuse lighting helps it read the true shape, since harsh shadows and strong highlights can be mistaken for geometry. A plain or uncluttered background keeps stray detail out of the mesh. Photos taken roughly straight on, with the whole object visible and in focus, give the model the most to work with and produce the cleanest result.\n\nLimits to expect\n\nIt helps to know what one photo can and cannot deliver. A single image only shows one viewpoint, so everything the camera could not see, especially the back and far sides, is inferred rather than observed. The model makes a reasonable guess from what it has learned, but those hidden areas will be smoother and less faithful than the side facing the camera. For that reason results are best with simple, well-lit, clearly defined objects, and weaker with thin structures, transparent or reflective surfaces, and scenes containing several overlapping things. Treat the output as a strong first draft: great for prototyping, previews, and experimentation, and a solid base to refine in a dedicated 3D editor when you need a production-final asset. To see how your subject might look from those hidden sides before converting, the free multiple angles tool generates new viewpoints of the same subject. When you need cleaner geometry and sharper textures than a fast single-pass model can give, the free image to 3D generator on 3D Valley produces higher-detail models, also without an account.\n\nFrequently Asked Questions\nHow can I convert an image to 3D for free and without signing up?\nI've reached my limit of free conversions. What can I do?\nIs there a watermark on the 3D model?\nWhat file types are supported?\nIs it safe to upload my images?\nCan I use what I generate commercially?\nCan I generate NSFW or explicit content?\nLegal\nTerms of Service\nPrivacy Policy\nRefund Policy\nContact Us\nReport Abuse\nResources\nBlog\nModel Comparisons\nOther\nUpscaling API\nUse-Cases\nFree Tools\n\nWe use cookies\n\nWe use cookies to ensure you get the best experience on our website. For more information on how we use cookies, please see our privacy policy.\n\nBy clicking Accept, you agree to our use of cookies.\n\nLearn more.\nAccept\nDecline",
+      "frame_body_final": " Images to 100 MP\n\nAdd real detail as you enlarge. Let the AI invent fine texture with a creativity slider, or stay true to the original with sharpening, deblurring, and noise reduction.\n\nPowered by 6 AI models\nP Image Upscale\nKrea 2\nSeed VR 2\nFlux\nStable Diffusion\nGAN\nBefore\nAfter\nMore image upscaling examples\n04 · VIDEO GENERATION\nGenerate Videos in Full HD\n\nCreate clips from a prompt or bring a still image to life. Choose the resolution and frame rate up front, up to 1080p at 60 FPS.\n\nPowered by 23 AI models\nMiniMax H3 Max Turbo\nMiniMax H3\nGrok Imagine Video 1.5\nSeedance 2\nSeedance 2.5\nWan 3.0\n+17 more\nMore video generation examples\n05 · VIDEO UPSCALING\nUpscale Videos to 4K\n\nSharpen edges, textures, and on-screen text frame by frame, with stable motion. Add frame interpolation for smooth playback at up to 60 FPS.\n\nPowered by 5 AI models\nLTX 2.5\nSeedVR 2\nFlashVSR\nGAN\nRTX VSR\nBefore\nAfter\nMore video upscaling examples\nHow a single image becomes a 3D model\n\nThis tool turns one ordinary photo into a full 3D object. The Stable Fast 3D model was trained on huge collections of objects paired with the images that depict them, so it has learned how shapes, surfaces, and materials relate to the pixels of a single view. When you upload an image, the model estimates the underlying geometry, the depth that the flat photo only hints at, and the texture that wraps around the surface. It then assembles those estimates into a watertight mesh and bakes the color and detail from your photo onto it. The output is a standard GLB file, a compact, self-contained format that carries the mesh and its texture together, ready to open in almost any 3D program.\n\nWhat you can do with the GLB\n\nA GLB drops cleanly into the tools artists and developers already use, which makes it a practical starting point rather than a novelty. Game makers import these models as props and background assets in engines like Unity, Unreal, and Blender. AR and VR builders place them in scenes for phones, headsets, and the web, where GLB and its glTF sibling are the native interchange format. Because the mesh is solid, you can prepare it for 3D printing, and product teams use the models for quick visualization, spinnable web previews, and pitch decks. For anyone iterating on a concept, generating a rough 3D version in a minute is a fast way to prototype an idea before committing real modeling time to it. If you only need per-pixel depth rather than a full mesh, the free depth map generator produces that from the same kind of photo.\n\nWhat makes a good input\n\nThe quality of the model follows the quality of the photo, and a few simple choices make a clear difference. Use a clear, isolated subject that fills most of the frame, ideally a single object rather than a busy scene, so the model knows exactly what to reconstruct. Even, diffuse lighting helps it read the true shape, since harsh shadows and strong highlights can be mistaken for geometry. A plain or uncluttered background keeps stray detail out of the mesh. Photos taken roughly straight on, with the whole object visible and in focus, give the model the most to work with and produce the cleanest result.\n\nLimits to expect\n\nIt helps to know what one photo can and cannot deliver. A single image only shows one viewpoint, so everything the camera could not see, especially the back and far sides, is inferred rather than observed. The model makes a reasonable guess from what it has learned, but those hidden areas will be smoother and less faithful than the side facing the camera. For that reason results are best with simple, well-lit, clearly defined objects, and weaker with thin structures, transparent or reflective surfaces, and scenes containing several overlapping things. Treat the output as a strong first draft: great for prototyping, previews, and experimentation, and a solid base to refine in a dedicated 3D editor when you need a production-final asset. To see how your subject might look from those hidden sides before converting, the free multiple angles tool generates new viewpoints of the same subject. When you need cleaner geometry and sharper textures than a fast single-pass model can give, the free image to 3D generator on 3D Valley produces higher-detail models, also without an account.\n\nFrequently Asked Questions\nHow can I convert an image to 3D for free and without signing up?\nI've reached my limit of free conversions. What can I do?\nIs there a watermark on the 3D model?\nWhat file types are supported?\nIs it safe to upload my images?\nCan I use what I generate commercially?\nCan I generate NSFW or explicit content?\nLegal\nTerms of Service\nPrivacy Policy\nRefund Policy\nContact Us\nReport Abuse\nResources\nBlog\nModel Comparisons\nOther\nUpscaling API\nUse-Cases\nFree Tools\n\nWe use cookies\n\nWe use cookies to ensure you get the best experience on our website. For more information on how we use cookies, please see our privacy policy.\n\nBy clicking Accept, you agree to our use of cookies.\n\nLearn more.\nAccept\nDecline",
+      "controls_final": [
+        "",
+        "Premium Tools",
+        "Recenter",
+        "Download GLB",
+        "Start over",
+        "Explore premium tools",
+        "Share",
+        "Feedback",
+        "gongbi cranes over gold silk\nIMAGE GENERATE\n44 models\nView Models",
+        "IMAGE UPSCALE\n6 models\nView Models",
+        "make the raincoat blue\nIMAGE EDIT\n33 models\nView Models",
+        "sprinting on the moon\nVIDEO GENERATE\n23 models\nView Models",
+        "VIDEO UPSCALE\n5 models\nView Models",
+        "Powered by 44 AI models\nMuse Image\nNano Banana 2\nNano Banana 2.1\nGPT I",
+        "More info",
+        "More image generation examples",
+        "Powered by 33 AI models\nMuse Image\nNano Banana 2.1\nSeedream 5 Pro\nGPT ",
+        "More info",
+        "",
+        "More image editing examples",
+        "Powered by 6 AI models\nP Image Upscale\nKrea 2\nSeed VR 2\nFlux\nStable Di",
+        "More info",
+        "",
+        "More image upscaling examples",
+        "Powered by 23 AI models\nMiniMax H3 Max Turbo\nMiniMax H3\nGrok Imagine V",
+        "More info",
+        "More video generation examples",
+        "Powered by 5 AI models\nLTX 2.5\nSeedVR 2\nFlashVSR\nGAN\nRTX VSR",
+        "More info",
+        "",
+        "More video upscaling examples",
+        "How can I convert an image to 3D for free and without signing up?",
+        "I've reached my limit of free conversions. What can I do?",
+        "Is there a watermark on the 3D model?",
+        "What file types are supported?",
+        "Is it safe to upload my images?",
+        "Can I use what I generate commercially?",
+        "Can I generate NSFW or explicit content?",
+        "Accept",
+        "Decline",
+        ""
+      ],
+      "clicked_generation": true,
+      "status": "NEW_VALID_NATIVE_GLB_UNREVIEWED",
+      "finished_utc": "2026-11-18T05:40:27.721097+00:00"
+    }
+  },
+  "art": "UNREVIEWED",
+  "phone_webgl": "NOT_TESTED",
+  "release": false
+}

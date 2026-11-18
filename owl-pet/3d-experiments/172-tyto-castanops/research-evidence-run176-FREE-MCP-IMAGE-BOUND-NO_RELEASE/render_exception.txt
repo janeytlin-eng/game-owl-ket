@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/home/runner/work/game-owl-ket/game-owl-ket/owl-pet/3d-experiments/172-tyto-castanops/tools/run176_resume_existing_free_mcp_job.py", line 192, in capture_model
+    make_native_sheet(filename)
+  File "/home/runner/work/game-owl-ket/game-owl-ket/owl-pet/3d-experiments/172-tyto-castanops/tools/run176_resume_existing_free_mcp_job.py", line 115, in make_native_sheet
+    assert num>0 and max(abs(x) for x in bounds)<1e8
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

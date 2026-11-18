@@ -2,7 +2,7 @@ name: owl172 Run171 3dai genuine white-mesh native source QA NO_RELEASE
 on:
   push:
     branches: [research/owl172-run171-3dai-white-native-generation]
-    paths: [.github/workflows/owl-pet-172-run171-free-neural-native-qa.yml]
+    paths: [.github/workflows/owl-pet-172-run171-3dai-white-native-qa.yml]
   workflow_dispatch:
 permissions:
   contents: write
@@ -16,7 +16,7 @@ jobs:
           ref: research/owl172-run171-3dai-white-native-generation
           sparse-checkout-cone-mode: false
           sparse-checkout: |
-            .github/workflows/owl-pet-172-run171-free-neural-native-qa.yml
+            .github/workflows/owl-pet-172-run171-3dai-white-native-qa.yml
             owl-pet/AGENTS.md
             owl-pet/README.md
             owl-pet/prototype/index.html

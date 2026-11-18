@@ -1,0 +1,102 @@
+{
+  "utc": "2026-11-18T14:28:59.682176+00:00",
+  "provider": "3dassets.dev",
+  "terms": [
+    "baby owl",
+    "owlet",
+    "owl chick",
+    "juvenile owl",
+    "barn owl chick",
+    "nestling owl"
+  ],
+  "reference_expected_sha256": "5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9",
+  "reference_actual_sha256": "5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9",
+  "preflight": {
+    "owl-pet/AGENTS.md": {
+      "exists": true,
+      "bytes": 687
+    },
+    "owl-pet/README.md": {
+      "exists": true,
+      "bytes": 1581
+    },
+    "owl-pet/prototype/index.html": {
+      "exists": true,
+      "bytes": 15441
+    },
+    "owl-pet/research/species/172-tyto-castanops-v3.md": {
+      "exists": true,
+      "bytes": 5154
+    },
+    "owl-pet/3d-experiments/172-tyto-castanops/2026-11-18-run186-dom-submission-verified-no-new-glb-NO_RELEASE.md": {
+      "exists": true,
+      "bytes": 4765
+    },
+    "owl-pet/3d-experiments/172-tyto-castanops/known_rejected_asset_sha256_registry.json": {
+      "exists": true,
+      "bytes": 12207
+    }
+  },
+  "requests": [
+    {
+      "q": "baby owl",
+      "url": "https://3dassets.dev/api/v1/assets?q=baby+owl&limit=30",
+      "http": 200,
+      "mime": "application/json",
+      "captured_bytes": 47180,
+      "sha256": "b9dbeb4a36558359b862f5cd9b7abc532e3988cd8d71d9ba0be45d1b42417d13",
+      "row_count": 13
+    },
+    {
+      "q": "owlet",
+      "url": "https://3dassets.dev/api/v1/assets?q=owlet&limit=30",
+      "http": 200,
+      "mime": "application/json",
+      "captured_bytes": 56,
+      "sha256": "609d3fbd012d5219e8db0fa9b62fccc43146bb6ddfa3d55f6a49c00eeeaccaf2",
+      "row_count": 0
+    },
+    {
+      "q": "owl chick",
+      "url": "https://3dassets.dev/api/v1/assets?q=owl+chick&limit=30",
+      "http": 200,
+      "mime": "application/json",
+      "captured_bytes": 35823,
+      "sha256": "f38b07bf03bb51988bca0882642f043eef075a69c3b218c13274612d193bcd37",
+      "row_count": 11
+    },
+    {
+      "q": "juvenile owl",
+      "url": "https://3dassets.dev/api/v1/assets?q=juvenile+owl&limit=30",
+      "http": 200,
+      "mime": "application/json",
+      "captured_bytes": 58823,
+      "sha256": "7b03fe65cc903eb7847e4b00395454358b35a70a0838c071ce2af9648d69e8b9",
+      "row_count": 18
+    },
+    {
+      "q": "barn owl chick",
+      "url": "https://3dassets.dev/api/v1/assets?q=barn+owl+chick&limit=30",
+      "http": 200,
+      "mime": "application/json",
+      "captured_bytes": 107397,
+      "sha256": "5a7edf19cf44b530af49fffa79962aa2d9e86f3361cf6cc731f5b3169c0fa9db",
+      "row_count": 30
+    },
+    {
+      "q": "nestling owl",
+      "url": "https://3dassets.dev/api/v1/assets?q=nestling+owl&limit=30",
+      "http": 200,
+      "mime": "application/json",
+      "captured_bytes": 97714,
+      "sha256": "160b060f95eda2883f7cdbdd11f49dba5a02afe7c35b24da0dfb1bf70f401d96",
+      "row_count": 30
+    }
+  ],
+  "assets_discovered": [],
+  "downloads": [],
+  "release": false,
+  "physical_mobile_gpu_tested": false,
+  "extra_spend_usd": 0,
+  "known_rejected_sha_count": 11
+}

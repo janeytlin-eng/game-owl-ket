@@ -1,0 +1,193 @@
+name: owl172 Run172 official TripoSG free geometry native fourview NO_RELEASE
+on:
+  push:
+    branches: [research/owl172-run172-triposg-official-zerogpu-native]
+    paths: [.github/workflows/owl-pet-172-run172-triposg-native-qa.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  isolated-true-3d-test:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 33
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run172-triposg-official-zerogpu-native
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            .github/workflows/owl-pet-172-run172-triposg-native-qa.yml
+            owl-pet/AGENTS.md
+            owl-pet/README.md
+            owl-pet/prototype/index.html
+            owl-pet/research/species/172-tyto-castanops-v3.md
+            owl-pet/3d-experiments/172-tyto-castanops/known_rejected_asset_sha256_registry.json
+            owl-pet/3d-experiments/172-tyto-castanops/2026-11-18-run169-source-calibrated-vtk-native-sixview-ART_REJECTED-NO_RELEASE.md
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run172_official_triposg.py
+      - name: Confirm project context, rejected prior art, source and code
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run172-TRIPOSG-OFFICIAL-NO_RELEASE"
+          mkdir -p "$O"
+          for x in owl-pet/AGENTS.md owl-pet/README.md owl-pet/prototype/index.html owl-pet/research/species/172-tyto-castanops-v3.md; do test -s "$x"; done
+          grep -q ART_REJECTED "$R/2026-11-18-run169-source-calibrated-vtk-native-sixview-ART_REJECTED-NO_RELEASE.md"
+          python3 -m json.tool "$R/known_rejected_asset_sha256_registry.json" >/dev/null
+          python3 -m py_compile "$R/tools/run172_official_triposg.py"
+          echo "5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9  $R/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png" | sha256sum -c | tee "$O/source_sha256.log"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install no-fee official Gradio client and real mesh renderer
+        timeout-minutes: 8
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run172-TRIPOSG-OFFICIAL-NO_RELEASE"
+          python -m pip install --disable-pip-version-check -q 'gradio_client==2.7.2' trimesh pillow numpy 'vtk==9.6.2' > "$O/install.log" 2>&1
+          python -c "from gradio_client import Client; print('Gradio client loaded')" >> "$O/install.log" 2>&1
+          python -c 'import trimesh, vtk; print(trimesh.__version__,vtk.vtkVersion.GetVTKVersion())' | tee -a "$O/install.log"
+      - name: Actual source-bound public official TripoSG ZeroGPU inference and native export
+        timeout-minutes: 16
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -o pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run172-TRIPOSG-OFFICIAL-NO_RELEASE"
+          timeout 900s python -u "$R/tools/run172_official_triposg.py" 2>&1 | tee "$O/run172_browser.log"
+      - name: Reimport any genuinely generated GLB and render four actual 3D angles
+        if: always()
+        timeout-minutes: 5
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run172-TRIPOSG-OFFICIAL-NO_RELEASE"
+          if ! find "$O" -maxdepth 1 -name '*UNREVIEWED.glb' -size +65000c | grep -q .; then
+            echo 'No new generated GLB: native render and phone GPU QA not performed' > "$O/native_render_not_run.txt"
+            exit 0
+          fi
+          cat > /tmp/real_run172_orbit.py <<'PY'
+          import json,hashlib,sys
+          from pathlib import Path
+          import numpy as np
+          import trimesh,vtk
+          from PIL import Image,ImageDraw
+          out=Path(sys.argv[1]);report=[]
+          for path in sorted(out.glob('*UNREVIEWED.glb')):
+              scene=trimesh.load(str(path),force='scene')
+              tri=sum(len(g.faces) for g in scene.geometry.values() if hasattr(g,'faces'))
+              assert tri>=600
+              win=vtk.vtkRenderWindow();win.SetOffScreenRendering(1);win.SetSize(512,512)
+              imp=vtk.vtkGLTFImporter();imp.SetRenderWindow(win);imp.SetFileName(str(path));imp.Update()
+              ren=imp.GetRenderer();ren.SetBackground(.19,.2,.23);ren.ResetCamera()
+              actors=ren.GetActors();actors.InitTraversal()
+              bbox=[1e9,-1e9,1e9,-1e9,1e9,-1e9];num=0
+              while True:
+                  actor=actors.GetNextActor()
+                  if actor is None:break
+                  b=actor.GetBounds()
+                  if b:
+                      for j in range(3):
+                          bbox[2*j]=min(bbox[2*j],b[2*j])
+                          bbox[2*j+1]=max(bbox[2*j+1],b[2*j+1])
+                  actor.GetProperty().SetAmbient(.6)
+                  num+=1
+              assert num
+              center=np.array([(bbox[2*j]+bbox[2*j+1])/2 for j in range(3)])
+              span=max(bbox[2*j+1]-bbox[2*j] for j in range(3))
+              cam=ren.GetActiveCamera();cam.ParallelProjectionOn();cam.SetParallelScale(span*.8)
+              ren.RemoveAllLights();lamp=vtk.vtkLight();lamp.SetLightTypeToSceneLight();ren.AddLight(lamp)
+              images=[]
+              for label,pos in [('negativeZ',(0,.1,-1)),('positiveX',(1,.1,0)),('positiveZ',(0,.1,1)),('negativeX',(-1,.1,0))]:
+                  v=np.array(pos);v=v/np.linalg.norm(v)
+                  cam.SetPosition(*(center+v*span*3));cam.SetFocalPoint(*center);cam.SetViewUp(0,1,0)
+                  ren.ResetCameraClippingRange()
+                  lamp.SetPosition(*(center+v*span*2));lamp.SetFocalPoint(*center);lamp.SetIntensity(1.8)
+                  win.Render()
+                  grab=vtk.vtkWindowToImageFilter();grab.SetInput(win);grab.ReadFrontBufferOff();grab.Update()
+                  dest=out/(path.stem+'_'+label+'_actual3d_UNREVIEWED.png')
+                  write=vtk.vtkPNGWriter();write.SetFileName(str(dest));write.SetInputConnection(grab.GetOutputPort());write.Write()
+                  assert dest.stat().st_size>4000
+                  images.append(dest)
+              win.Finalize()
+              contact=Image.new('RGB',(1024,1024),'white')
+              for i,im in enumerate(images):
+                  contact.paste(Image.open(im).convert('RGB'),((i%2)*512,(i//2)*512))
+              contact.save(out/(path.stem+'_four_angles_UNREVIEWED.png'))
+              report.append({'file':path.name,'sha256':hashlib.sha256(path.read_bytes()).hexdigest(),'triangles':tri,
+                             'actors':num,'axes':'uncalibrated x/z; cannot label anatomical front/back',
+                             'art':'UNREVIEWED','mobile_GPU':'NOT_TESTED'})
+          (out/'native_4view_metrics.json').write_text(json.dumps(report,indent=2))
+          print('ACTUAL_GLTF_REIMPORT_FOUR_VIEWS',len(report))
+          PY
+          timeout 260s python /tmp/real_run172_orbit.py "$O" > "$O/native_4view_render.log" 2>&1 || { cat "$O/native_4view_render.log"; exit 1; }
+      - name: Truth-gated audit and SHA256 integrity
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          import json,hashlib
+          r=Path('owl-pet/3d-experiments/172-tyto-castanops')
+          o=r/'research-evidence-run172-TRIPOSG-OFFICIAL-NO_RELEASE'
+          o.mkdir(parents=True,exist_ok=True)
+          state=o/'run172_actual_results.json'
+          d=json.loads(state.read_text()) if state.is_file() else {}
+          providers={k:v.get('state','UNKNOWN') for k,v in d.get('providers',{}).items()}
+          glbs=d.get('new_valid_glb',[])
+          qa=o/'native_4view_metrics.json'
+          native=json.loads(qa.read_text()) if qa.exists() else []
+          (o/'NO_RELEASE.flag').write_text('NO_RELEASE / ART_UNREVIEWED: no art approval, no phone GPU test, no payment, no deployment.\n')
+          manifest={p.name:{'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()}
+                   for p in sorted(o.iterdir()) if p.is_file() and p.name!='run172_sha256_manifest.json'}
+          (o/'run172_sha256_manifest.json').write_text(json.dumps(manifest,indent=2))
+          assert all(hashlib.sha256((o/k).read_bytes()).hexdigest()==v['sha256'] for k,v in manifest.items())
+          (r/'2026-11-18-run172-anonymous-free-neural-native-NO_RELEASE.md').write_text(
+              '# Run172 #172 Tyto castanops v3: real free neural image-to-3D experiment\n\n'
+              '**NO_RELEASE / ART_UNREVIEWED; zero purchases.** Rechecked owl-pet AGENTS, README, prototype, v3 juvenile research boundary, Run169 art rejection and known rejected asset registry. '
+              'Exact rightmost cream owlet input SHA256: 5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9.\n\n'
+              'Actually used the official public VAST-AI/TripoSG Hugging Face Gradio API with the SHA-verified rightmost owlet input and a single free shape-generation request; if quota or provider blocked the inference, this is recorded as no model. '
+              'No login, payment, private API, security verification bypass or unrelated site demo models allowed.\n\n'
+              'Observed outcomes: '+json.dumps(providers,ensure_ascii=False)+'\n\n'
+              'Verified new native GLBs (format and source provenance only): '+str(len(glbs))+'. '
+              'Actual native multiview renders performed: '+str(len(native))+'. '
+              'Any GLB remains unreviewed for real soft cream down, heart facial disc, juvenile body proportions, side/back continuity and cavity support. '
+              'View axes are not assumed anatomical; real phone GPU WebGL never inferred. '
+              'Proof: research-evidence-run172-TRIPOSG-OFFICIAL-NO_RELEASE/ including official public API metadata, raw outcome JSON, PNG 3D renders if available, logs and SHA256 manifest. '
+              'Evidence file count: '+str(len(manifest))+'.\n\n'
+              'Scope: dedicated #172 isolated branch and workflow only, no modifications to main, 251-species production, existing WebGL prototype, or deployment. Further action: qualify genuinely new source then independent artistic and real phone GPU gate before any release.\n')
+          print('RUN172_AUDIT',providers,'GLB',len(glbs),'NATIVE_RENDER',len(native),'EVIDENCE',len(manifest))
+          PY
+      - name: Archive true-source non-released assets as isolated artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run172-triposg-official-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run172-TRIPOSG-OFFICIAL-NO_RELEASE/
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Commit only #172 audit and true evidence to isolated branch
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run172-TRIPOSG-OFFICIAL-NO_RELEASE"
+          git add --sparse "$R/2026-11-18-run172-anonymous-free-neural-native-NO_RELEASE.md"
+          find "$O" -maxdepth 1 -type f \( -name '*.json' -o -name '*.png' -o -name '*.log' -o -name '*.txt' -o -name '*.flag' \) -print0 | xargs -0 -r git add --sparse --
+          git diff --cached --name-only > /tmp/run172_staged
+          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/' /tmp/run172_staged; then exit 90; fi
+          if grep -Ei '\.(glb|blend|zip|fbx|obj|bin)$' /tmp/run172_staged; then exit 91; fi
+          if [ -s /tmp/run172_staged ]; then
+            git commit -m 'research(owl172): archive actual Run172 free neural NO_RELEASE'
+            git push origin HEAD:research/owl172-run172-triposg-official-zerogpu-native
+          fi

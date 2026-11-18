@@ -1,0 +1,126 @@
+name: owl172 Run177 actual free Blender native neural juvenile seven-axis QA NO_RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run177-blender-neural-image-true-sixview-qa
+    paths:
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run177_blender_native_owl_review.py
+permissions:
+  contents: write
+jobs:
+  native-Blender-six-axis:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 27
+    env:
+      LIBGL_ALWAYS_SOFTWARE: '1'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run177-blender-neural-image-true-sixview-qa
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/AGENTS.md
+            owl-pet/README.md
+            owl-pet/prototype/index.html
+            owl-pet/research/species/172-tyto-castanops-v3.md
+            owl-pet/3d-experiments/172-tyto-castanops/known_rejected_asset_sha256_registry.json
+            owl-pet/3d-experiments/172-tyto-castanops/2026-11-18-run169-source-calibrated-vtk-native-sixview-ART_REJECTED-NO_RELEASE.md
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run177_blender_native_owl_review.py
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Preflight reference and rejected hashes, install free Blender
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run177-BLENDER-REAL-NEURAL-SIXVIEW-NO_RELEASE"
+          mkdir -p "$O"
+          echo "5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9  $R/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png" | sha256sum -c | tee "$O/run177_input_hash.log"
+          python -m json.tool "$R/known_rejected_asset_sha256_registry.json" >/dev/null
+          sudo apt-get update -qq >"$O/apt_update.log" 2>&1
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq blender >"$O/apt_blender_install.log" 2>&1
+          blender --version | head -3 | tee "$O/blender_version.txt"
+          python -m pip install -q --disable-pip-version-check pillow >"$O/pillow_install.log" 2>&1
+      - name: REAL mesh Blender GLTF import, seven-axis textured render, no fake geometry
+        timeout-minutes: 13
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -o pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run177-BLENDER-REAL-NEURAL-SIXVIEW-NO_RELEASE"
+          timeout 720s blender -b --factory-startup --python "$R/tools/run177_blender_native_owl_review.py" 2>&1 | tee "$O/run177_actual_blender.log"
+      - name: Independent actual raster sheet and no-release evidence audit
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          from PIL import Image,ImageDraw
+          import hashlib,json
+          r=Path("owl-pet/3d-experiments/172-tyto-castanops")
+          o=r/"research-evidence-run177-BLENDER-REAL-NEURAL-SIXVIEW-NO_RELEASE"
+          o.mkdir(exist_ok=True,parents=True)
+          images=sorted(o.glob("run177_axis_*_UNREVIEWED.png"))
+          # Contact sheet is real Blender rendered images only, never synthesized mockup.
+          if images:
+            sheet=Image.new("RGB",(4*440,2*476),(233,233,233))
+            d=ImageDraw.Draw(sheet)
+            for i,p in enumerate(images[:8]):
+              x=(i%4)*440;y=(i//4)*476
+              im=Image.open(p).convert("RGB").resize((440,440))
+              sheet.paste(im,(x,y+30))
+              d.text((x+8,y+9),p.name.replace("run177_","").replace("_UNREVIEWED.png",""),fill=(20,20,20))
+            sheet.save(o/"run177_blender_real_sevenview_contact_UNREVIEWED.png")
+          status=json.loads((o/"run177_metrics.json").read_text()) if (o/"run177_metrics.json").exists() else {}
+          (o/"NO_RELEASE.flag").write_text("NO_RELEASE: seven native views are not art-accepted; physical phone GPU is NOT_TESTED; zero payments.\n")
+          m={p.name:{"bytes":p.stat().st_size,"sha256":hashlib.sha256(p.read_bytes()).hexdigest()}
+            for p in sorted(o.iterdir()) if p.is_file() and p.name!="run177_sha256_manifest.json"}
+          (o/"run177_sha256_manifest.json").write_text(json.dumps(m,indent=2))
+          assert all(hashlib.sha256((o/k).read_bytes()).hexdigest()==v["sha256"] for k,v in m.items())
+          lines=[
+            "# Run177 #172 — real neural image-conditioned GLB re-imported with free Blender",
+            "",
+            "**NO_RELEASE / ART_UNREVIEWED**. No main/prototype/251-species production updates.",
+            "",
+            "Preflight: AGENTS, README, prior VTK sixview rejection (Run169), v3 target source crop and prior rejected SHA registry. Only the actual 3D candidate from the Run175 image-conditioned free MCP generation (collected Run176) is downloaded. No new inference or paid service. SHA256 original GLB must equal c56c1a1c0159e11a140f587f12ad4c84b49fdb38b9b3142078f3de9d75f46e99. No toy geometry, SVG or substitute assets.",
+            "",
+            "Actual result: **"+status.get("status","NOT_EXECUTED")+"**. Blender re-import: **"+status.get("import","NOT_COMPLETED")+"**. Mesh triangle count: **"+str(status.get("triangle_count","UNVERIFIED"))+"**. Render contact sheet: **"+str(len(images))+" actual axis images**.",
+            "",
+            "Six axes are geometry-coordinate views, NOT anatomically calibrated unless reviewed. Real mobile GPU and WebGL **NOT TESTED**. Cream down, integrated face, credible round body/side/back, concealed wings/tail, natural hollow support still require inspection. No automatic art approval.",
+            "",
+            "Research only; original v3 reference and 251-species work undisturbed; extra fees $0; all machine evidence sha256 checked. GLB only in separately retained 30-day research artifact (never git history); PNG, logs, JSON and audit text on isolated branch. **NO_RELEASE**."
+          ]
+          (r/"2026-11-18-run177-blender-original-neural-sevenview-NO_RELEASE.md").write_text("\n".join(lines)+"\n")
+          print("RUN177_AUDIT",status.get("status","NOT_EXECUTED"),"IMAGES",len(images),"HASHES",len(m))
+          PY
+      - name: Keep full original GLB + renders isolated as immutable evidence artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run177-actual-blender-native-sevenview-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run177-BLENDER-REAL-NEURAL-SIXVIEW-NO_RELEASE/
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Commit only independent #172 QA JSON, raster and audit text, never binaries
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run177-BLENDER-REAL-NEURAL-SIXVIEW-NO_RELEASE"
+          git add --sparse "$R/2026-11-18-run177-blender-original-neural-sevenview-NO_RELEASE.md"
+          find "$O" -maxdepth 1 -type f \( -name '*.json' -o -name '*.png' -o -name '*.txt' -o -name '*.log' -o -name '*.flag' \) -print0 | xargs -0 -r git add --sparse --
+          git diff --cached --name-only >/tmp/run177_staged.txt
+          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/' /tmp/run177_staged.txt; then exit 90; fi
+          if grep -Ei '\.(glb|blend|zip|fbx|obj|bin)$' /tmp/run177_staged.txt; then exit 91; fi
+          if [ -s /tmp/run177_staged.txt ]; then
+            git commit -m 'research(owl172): archive real native neural Blender seven-axis inspection NO_RELEASE'
+            git push origin HEAD:research/owl172-run177-blender-neural-image-true-sixview-qa
+          fi

@@ -12,7 +12,7 @@ O.mkdir(parents=True, exist_ok=True)
 REF = R / "research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png"
 EXPECTED = "5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9"
 sha = lambda b: hashlib.sha256(b).hexdigest()
-report = {"run":185, "timestamp":datetime.datetime.now(datetime.timezone.utc).isoformat(),
+report = {"run":186, "timestamp":datetime.datetime.now(datetime.timezone.utc).isoformat(),
           "verified_source_sha":None, "preflight":{}, "providers":{},
           "no_extra_spend":True, "physical_phone_gpu":"NOT_TESTED",
           "art_quality":"UNREVIEWED", "release":"NO_RELEASE"}
@@ -98,9 +98,12 @@ def probe(browser,slug,url):
             # Run185's role accessible-name regex returned no candidates despite
             # original Run184 DOM enumerating the actual button.
             # Direct real DOM button text has 'Fast & Private'; no hero CTA does.
-            candidates=page.locator("button").filter(has_text=re.compile(r"Fast\\s*&\\s*Private",re.I))
+            candidates=page.locator("button").filter(has_text=re.compile(r"Fast\s*&\s*Private",re.I))
         else:
             candidates=page.get_by_role("button",name=re.compile(r"generate",re.I))
+        # Audit actual DOM before clicking a real generation button (not marketing CTA).
+        record["all_buttons_dom"]=page.locator("button").evaluate_all(
+            "(xs) => xs.slice(0,80).map(x => ({text:(x.innerText||'').slice(0,180),disabled:x.disabled,html:x.outerHTML.slice(0,450)}))")
         record["generate_buttons"]=[]
         for i in range(min(candidates.count(),12)):
             b=candidates.nth(i)

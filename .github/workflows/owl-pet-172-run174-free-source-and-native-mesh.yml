@@ -4,7 +4,7 @@ on:
     branches:
       - research/owl172-run174-cooldown-text3d-and-juvenile-source-gate
     paths:
-      - .github/workflows/owl-pet-172-run174-threews-free-text-3d.yml
+      - .github/workflows/owl-pet-172-run174-free-source-and-native-mesh.yml
       - owl-pet/3d-experiments/172-tyto-castanops/tools/run174_fresh_free_native_and_source_gate.py
 permissions:
   contents: write
@@ -21,7 +21,7 @@ jobs:
           ref: research/owl172-run174-cooldown-text3d-and-juvenile-source-gate
           sparse-checkout-cone-mode: false
           sparse-checkout: |
-            .github/workflows/owl-pet-172-run174-threews-free-text-3d.yml
+            .github/workflows/owl-pet-172-run174-free-source-and-native-mesh.yml
             owl-pet/AGENTS.md
             owl-pet/README.md
             owl-pet/prototype/index.html

@@ -1,0 +1,52 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<style>html,body{margin:0;background:#e5e3df}canvas{display:block}</style>
+<script type="importmap">{"imports":{"three":"/vendor/three/build/three.module.js","three/addons/":"/vendor/three/examples/jsm/"}}</script></head><body><script type="module">
+import * as THREE from "three";
+import {GLTFLoader} from "three/addons/loaders/GLTFLoader.js";
+const scene=new THREE.Scene();
+scene.background=new THREE.Color(0xe5e3df);
+const camera=new THREE.PerspectiveCamera(32,1,.01,100000);
+const renderer=new THREE.WebGLRenderer({antialias:true,preserveDrawingBuffer:true,powerPreference:"low-power"});
+renderer.setSize(390,390);
+renderer.setPixelRatio(Math.min(2,window.devicePixelRatio||1));
+renderer.outputColorSpace=THREE.SRGBColorSpace;
+renderer.toneMapping=THREE.ACESFilmicToneMapping;
+document.body.appendChild(renderer.domElement);
+scene.add(new THREE.HemisphereLight(0xffffff,0x85817d,2.3));
+const key=new THREE.DirectionalLight(0xffffff,2.6);key.position.set(-3,6,5);scene.add(key);
+const back=new THREE.DirectionalLight(0xfff2e4,1.7);back.position.set(5,3,-4);scene.add(back);
+window.qa={status:"LOADING"};
+const loader=new GLTFLoader();
+loader.load("/model.glb",gltf=>{
+ const model=gltf.scene;scene.add(model);
+ model.updateMatrixWorld(true);
+ const bounds=new THREE.Box3().setFromObject(model);
+ const size=bounds.getSize(new THREE.Vector3());
+ const center=bounds.getCenter(new THREE.Vector3());
+ const extent=Math.max(size.x,size.y,size.z);
+ const rendererGL=renderer.getContext();
+ const dbg=rendererGL.getExtension("WEBGL_debug_renderer_info");
+ const vendor=dbg?rendererGL.getParameter(dbg.UNMASKED_VENDOR_WEBGL):rendererGL.getParameter(rendererGL.VENDOR);
+ const gpu=dbg?rendererGL.getParameter(dbg.UNMASKED_RENDERER_WEBGL):rendererGL.getParameter(rendererGL.RENDERER);
+ let nmesh=0, ntri=0, nmat=0, ntex=0;
+ model.traverse(obj=>{if(obj.isMesh){
+ nmesh++;const g=obj.geometry;const index=g.index;
+ ntri+=index?index.count/3:g.attributes.position.count/3;
+ const ms=Array.isArray(obj.material)?obj.material:[obj.material];nmat+=ms.length;
+ for(const m of ms){if(m&&m.map)ntex++;}
+ }});
+ window.qa={status:"READY",mesh_count:nmesh,geometry_triangles:Math.round(ntri),materials:nmat,
+ texture_maps:ntex,renderer:gpu,vendor,webgl2:renderer.capabilities.isWebGL2,
+ bbox:[size.x,size.y,size.z],extent,view:async(x,y,z)=>{
+  const offset=new THREE.Vector3(x,y,z).normalize().multiplyScalar(extent*3.5);
+  camera.position.copy(center).add(offset);
+  camera.up.set(0,1,0);camera.lookAt(center);
+  camera.near=Math.max(extent*.01,.001);camera.far=extent*12;
+  camera.updateProjectionMatrix();
+  renderer.render(scene,camera);
+  await new Promise(resolve=>requestAnimationFrame(()=>{renderer.render(scene,camera);resolve();}));
+  return {triangles_drawn:renderer.info.render.triangles,frame_calls:renderer.info.render.calls,
+    context_lost:rendererGL.isContextLost()};
+ }};
+},undefined,error=>{window.qa={status:"GLTF_LOAD_ERROR",error:String(error)};});
+</script></body></html>

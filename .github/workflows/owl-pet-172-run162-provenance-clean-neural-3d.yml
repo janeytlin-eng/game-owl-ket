@@ -5,6 +5,7 @@ on:
       - research/owl172-run162-provenance-clean-neural-3d
     paths:
       - .github/workflows/owl-pet-172-run162-provenance-clean-neural-3d.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run162_public_neural_provenance.py
   workflow_dispatch:
 permissions:
   contents: write
@@ -39,6 +40,7 @@ jobs:
           mkdir -p "$O"
           for f in owl-pet/AGENTS.md owl-pet/README.md owl-pet/prototype/index.html owl-pet/research/species/172-tyto-castanops-v3.md "$R/2026-11-18-run161-pic2mesh-native-fourview-actual-NO_RELEASE.md"; do test -s "$f"; done
           python3 -m py_compile "$R/tools/run162_public_neural_provenance.py"
+          grep -q 'OUT = ROOT / "research-evidence-run162-NEW-NEURAL-PROVENANCE-NO_RELEASE"' "$R/tools/run162_public_neural_provenance.py"
           python3 -m json.tool "$R/known_rejected_asset_sha256_registry.json" >/dev/null
           echo '5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9  owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png' | sha256sum -c | tee "$O/source_sha256.log"
           python3 - <<'PY' | tee "$O/prior_false_positive_test.log"
@@ -65,6 +67,7 @@ jobs:
           python3 -m pip install --break-system-packages -q 'playwright>=1.48,<2'
           python3 -m playwright install --with-deps chromium
           timeout 990s python3 -u "$R/tools/run162_public_neural_provenance.py" 2>&1 | tee "$O/run162_public_browser.log"
+          test -s "$O/run162_actual_results.json"
       - name: Re-import legitimate freshly generated model and render four actual angles if present
         if: always()
         shell: bash

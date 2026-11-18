@@ -61,6 +61,8 @@ jobs:
           set -euo pipefail
           R=owl-pet/3d-experiments/172-tyto-castanops
           O="$R/research-evidence-run191-WHITE-MESH-SEVENVIEW-ART_REJECTED-NO_RELEASE"
+          sudo apt-get update -qq > "$O/apt_update.log" 2>&1
+          sudo apt-get install -y -qq libosmesa6 libegl1 libgl1 > "$O/apt_install_mesa.log" 2>&1
           python -m pip install -q vtk==9.6.2 trimesh==4.10.0 pillow==12.0.0 > "$O/pip_install_vtk.log" 2>&1
       - name: Actually render 7 full 3D side back underside camera views
         timeout-minutes: 4
@@ -68,7 +70,7 @@ jobs:
           set -o pipefail
           R=owl-pet/3d-experiments/172-tyto-castanops
           O="$R/research-evidence-run191-WHITE-MESH-SEVENVIEW-ART_REJECTED-NO_RELEASE"
-          timeout 200s python -u "$R/tools/run191_real_native_glb_vtk_multiview.py" 2>&1 | tee "$O/run191_actual_native_renderer.log"
+          VTK_DEFAULT_OPENGL_WINDOW=vtkOSOpenGLRenderWindow timeout 200s python -u "$R/tools/run191_real_native_glb_vtk_multiview.py" 2>&1 | tee "$O/run191_actual_native_renderer.log"
       - name: Archive visual rejection and exact native evidence without release
         if: always()
         run: |

@@ -61,7 +61,7 @@ jobs:
           test -n "$MODEL"
           echo "8ff7341725e4fc27caf3ff4dbb3b07fe9231a96d216de31317bddf2aa07a7b8b  $MODEL" | sha256sum -c | tee "$O/run166_glb_hash.log"
           cp "$MODEL" "$O/run166_sf3d_source_UNREVIEWED.glb"
-      - name: Blender actual native five-angle import and rendering
+      - name: Blender CPU Cycles five-angle import and rendering
         timeout-minutes: 11
         run: |
           set -euo pipefail
@@ -71,10 +71,10 @@ jobs:
           if command -v blender >/dev/null 2>&1; then
             echo "Blender already on hosted runner" | tee -a "$O/run166_install.log"
           else
-            timeout 165s sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq blender python3-numpy >> "$O/run166_install.log" 2>&1 || {
+            timeout 165s sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq blender python3-numpy libegl1 libgl1 libopengl0 libxrender1 libxi6 >> "$O/run166_install.log" 2>&1 || {
               echo "Initial cached-index install failed; bounded apt update fallback" | tee -a "$O/run166_install.log"
               timeout 85s sudo apt-get -o Acquire::Retries=1 -o Acquire::http::Timeout=10 update -qq >> "$O/run166_install.log" 2>&1 || true
-              timeout 190s sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq blender python3-numpy >> "$O/run166_install.log" 2>&1
+              timeout 190s sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq blender python3-numpy libegl1 libgl1 libopengl0 libxrender1 libxi6 >> "$O/run166_install.log" 2>&1
             }
           fi
           command -v blender | tee -a "$O/run166_install.log"
@@ -102,7 +102,7 @@ jobs:
           report = '# Run166 — SF3D source-bound native GLB four-direction audit\n\n'
           report += '**NO_RELEASE / ART_UNREVIEWED.** No approved owl, no deployment, no actual phone GPU verification.\n\n'
           report += 'Rechecked original prototype, AGENTS, species #172 v3, Run165 evidence and target source SHA256 5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9.\n\n'
-          report += 'Actual new prior generated SF3D asset from Run165 immutable Actions artifact 14401647106. Expected SHA256 8ff7341725e4fc27caf3ff4dbb3b07fe9231a96d216de31317bddf2aa07a7b8b; not the previous toy-car sample. Fixed Blender world=None bug in an independent full five-angle replay. The native GLB remains in isolated Actions artifact, NOT Git history.\n\n'
+          report += 'Actual new prior generated SF3D asset from Run165 immutable Actions artifact 14401647106. Expected SHA256 8ff7341725e4fc27caf3ff4dbb3b07fe9231a96d216de31317bddf2aa07a7b8b; not the previous toy-car sample. Fixed Blender world=None and missing libEGL in two earlier attempts; switching headless render to CPU Cycles with explicit GL dependencies. The native GLB remains in isolated Actions artifact, NOT Git history.\n\n'
           report += 'Blender native validation: '+('SUCCESS' if ok else 'FAILURE (see Blender step/install log; Blender log may be absent when apt times out)')+'. Metrics: '+json.dumps({k:data.get(k) for k in ['mesh_count','vertex_count','face_count','triangulated_face_estimate','materials_count','texture_images','bounds']},ensure_ascii=False)+'.\n\n'
           report += 'Angles are objective local axes +Y, +Y/+X 45°, +X, -Y and -X. They are NOT labelled anatomical front/back without orientation registration. Rendering or GLB format validity is not artistic acceptance. Cream down, continuous facial disc, short wings, hollow-lip support and side/back consistency still need visual review. Physical mobile WebGL still NOT TESTED.\n\n'
           report += 'No payments; no edits to main, 251-species production, existing prototype or site.\n\n'

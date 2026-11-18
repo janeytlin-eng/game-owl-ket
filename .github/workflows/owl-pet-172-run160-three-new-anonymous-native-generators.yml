@@ -25,7 +25,7 @@ jobs:
             owl-pet/research/species/172-tyto-castanops-v3.md
             owl-pet/3d-experiments/172-tyto-castanops/known_rejected_asset_sha256_registry.json
             owl-pet/3d-experiments/172-tyto-castanops/2026-11-18-run157-sculptly-upload-state-native-preview-audit-NO_RELEASE.md
-            owl-pet/3d-experiments/172-tyto-castanops/2026-11-18-run159-three-new-public-generators-actual-NO_RELEASE.md
+            owl-pet/3d-experiments/172-tyto-castanops/2026-11-18-run159-two-corrected-generation-controls-actual-NO_RELEASE.md
             owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png
             owl-pet/3d-experiments/172-tyto-castanops/tools/run157_blender_orbit_if_native.py
             owl-pet/3d-experiments/172-tyto-castanops/tools/run160_three_new_anonymous_native_generators.py
@@ -41,7 +41,7 @@ jobs:
           test -s owl-pet/prototype/index.html
           test -s owl-pet/research/species/172-tyto-castanops-v3.md
           test -s "$R/2026-11-18-run157-sculptly-upload-state-native-preview-audit-NO_RELEASE.md"
-          test -s "$R/2026-11-18-run159-three-new-public-generators-actual-NO_RELEASE.md"
+          test -s "$R/2026-11-18-run159-two-corrected-generation-controls-actual-NO_RELEASE.md"
           python3 -m py_compile "$R/tools/run160_three_new_anonymous_native_generators.py"
           python3 -m json.tool "$R/known_rejected_asset_sha256_registry.json" >/dev/null
           echo '5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9  owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png' | sha256sum -c | tee "$O/run160_source_sha256.log"

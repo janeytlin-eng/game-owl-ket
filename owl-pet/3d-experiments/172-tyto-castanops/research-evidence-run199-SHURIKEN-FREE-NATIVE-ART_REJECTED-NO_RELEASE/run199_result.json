@@ -1,0 +1,131 @@
+{
+  "run": 199,
+  "utc": "2026-11-18T22:25:13.775067+00:00",
+  "target": "172 Tyto castanops v3 rightmost age-unknown cream mesoptile",
+  "source_url": "https://shuriken.studio/models/characters/arctic-fox-and-snowy-owl",
+  "license_url": "https://shuriken.studio/legal/models",
+  "download_url": "https://shuriken.studio/models/download/30ef3435-cec4-4cec-9c93-90f501ac5b06",
+  "total_paid_usd": 0,
+  "native_glb_acquired": true,
+  "source_is_target_species": false,
+  "source_has_target_morphology": false,
+  "candidate_art_approved": false,
+  "physical_mobile_gpu_approved": false,
+  "no_release": true,
+  "result": "REAL_GLTF_ACQUIRED_BUT_ART_REJECTED_GENERIC_ADULT_SNOWY_OWL_AND_FOX",
+  "network": [
+    {
+      "url": "https://shuriken.studio/models/characters/arctic-fox-and-snowy-owl",
+      "status": 200,
+      "final_url": "https://shuriken.studio/models/characters/arctic-fox-and-snowy-owl",
+      "content_type": "text/html; charset=utf-8",
+      "content_length": null,
+      "body_bytes": 116705,
+      "body_sha256": "9bbdd2cd7ac54713cbe151fbe9afbc9462ee582d9bea70f579a459d8808e370a"
+    },
+    {
+      "url": "https://shuriken.studio/legal/models",
+      "status": 200,
+      "final_url": "https://shuriken.studio/legal/models",
+      "content_type": "text/html; charset=utf-8",
+      "content_length": null,
+      "body_bytes": 67442,
+      "body_sha256": "e3d0d0ab5c168dd8706347eae570fa940bb3dc161545b22c0c2bbd113dd5efd2"
+    },
+    {
+      "url": "https://shuriken.studio/models/download/30ef3435-cec4-4cec-9c93-90f501ac5b06",
+      "status": 200,
+      "final_url": "https://media.shuriken.studio/library/arctic-fox-and-snowy-owl/a7812aa5d1f4/arctic-fox-and-snowy-owl.glb",
+      "content_type": "model/gltf-binary",
+      "content_length": "256580",
+      "body_bytes": 256580,
+      "body_sha256": "a7812aa5d1f43e9c7c4969c564faba20b27481acc200b7138e02c6f8c8c43bb4"
+    }
+  ],
+  "errors": [],
+  "license_readable": true,
+  "licence_excludes_reposting_source_files": false,
+  "native_http_status": 200,
+  "glb_bytes": 256580,
+  "glb_sha256": "a7812aa5d1f43e9c7c4969c564faba20b27481acc200b7138e02c6f8c8c43bb4",
+  "geometry": {
+    "mesh_count": 22,
+    "triangles": 3054,
+    "vertices": 8262,
+    "bounds": [
+      [
+        -2.7866008281707764,
+        0.0,
+        -1.0726627111434937
+      ],
+      [
+        3.3342013359069824,
+        2.933840785175562,
+        1.0602304935455322
+      ]
+    ],
+    "geometry_names": [
+      "f_head",
+      "f_head_1",
+      "f_head_2",
+      "Fox_Tail_t.001",
+      "Fox_Tail_t.001_1",
+      "f_body",
+      "f_body_1",
+      "o_head",
+      "o_head_1",
+      "o_head_2",
+      "o_head_3",
+      "o_wingL",
+      "o_wingL_1",
+      "o_wingR",
+      "o_wingR_1",
+      "o_body",
+      "o_body_1",
+      "s_stump",
+      "s_stump_1",
+      "s_stump_2",
+      "s_stump_3",
+      "s_stump_4"
+    ],
+    "material_names": [
+      "Snow",
+      "Rubber",
+      "Cream",
+      "Snow",
+      "Cream",
+      "Snow",
+      "Cream",
+      "Snow",
+      "Cream",
+      "EyeYellow",
+      "Rubber",
+      "Snow",
+      "Rubber",
+      "Snow",
+      "Rubber",
+      "Snow",
+      "Rubber",
+      "WoodDark",
+      "Snow",
+      "Ice",
+      "Stone",
+      "FoliageDark"
+    ]
+  },
+  "native_render": {
+    "renderer": "VTK 9.6.2 real imported original GLB",
+    "rendered_seven_views": true,
+    "views": [
+      "run199_NATIVE_front.png",
+      "run199_NATIVE_right.png",
+      "run199_NATIVE_back.png",
+      "run199_NATIVE_left.png",
+      "run199_NATIVE_top.png",
+      "run199_NATIVE_bottom.png",
+      "run199_NATIVE_quarter.png"
+    ],
+    "binary_sha256": "a7812aa5d1f43e9c7c4969c564faba20b27481acc200b7138e02c6f8c8c43bb4",
+    "original_binary_not_redistributed": true
+  }
+}

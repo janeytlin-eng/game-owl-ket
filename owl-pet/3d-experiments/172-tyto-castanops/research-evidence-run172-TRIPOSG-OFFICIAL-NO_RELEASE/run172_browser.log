@@ -1,0 +1,59 @@
+Client.predict() Usage Info
+---------------------------
+Named API endpoints: 6
+
+ - predict(image, api_name="/run_segmentation") -> segmentation_result
+    Parameters:
+     - [Image] image: dict(path: str | None (Path to a local file), url: str | None (Publicly available url or base64 encoded image), size: int | None (Size of image in bytes), orig_name: str | None (Original filename), mime_type: str | None (mime type of image), is_stream: bool (Can always be set to False), meta: dict(str, Any)) (required)  (For input, either path or url must be provided. For output, path is always provided.) 
+    Returns:
+     - [Image] segmentation_result: dict(path: str | None (Path to a local file), url: str | None (Publicly available url or base64 encoded image), size: int | None (Size of image in bytes), orig_name: str | None (Original filename), mime_type: str | None (mime type of image), is_stream: bool (Can always be set to False), meta: dict(str, Any)) 
+
+ - predict(randomize_seed, seed, api_name="/get_random_seed") -> seed
+    Parameters:
+     - [Checkbox] randomize_seed: bool (not required, defaults to:   True)  
+     - [Slider] seed: float (not required, defaults to:   0)  
+    Returns:
+     - [Slider] seed: float (numeric value between 0 and 2147483647) 
+
+ - predict(image, seed, num_inference_steps, guidance_scale, simplify, target_face_num, api_name="/image_to_3d") -> generated_glb
+    Parameters:
+     - [Image] image: dict(path: str | None (Path to a local file), url: str | None (Publicly available url or base64 encoded image), size: int | None (Size of image in bytes), orig_name: str | None (Original filename), mime_type: str | None (mime type of image), is_stream: bool (Can always be set to False), meta: dict(str, Any)) (required)  (For input, either path or url must be provided. For output, path is always provided.) 
+     - [Slider] seed: float (not required, defaults to:   0)  
+     - [Slider] num_inference_steps: float (not required, defaults to:   50)  
+     - [Slider] guidance_scale: float (not required, defaults to:   7.0)  
+     - [Checkbox] simplify: bool (not required, defaults to:   True)  
+     - [Slider] target_face_num: float (not required, defaults to:   100000)  
+    Returns:
+     - [Model3d] generated_glb: filepath 
+
+ - predict(api_name="/lambda") -> 
+    Parameters:
+     - None
+    Returns:
+     - None
+
+ - predict(image, mesh_path, seed, api_name="/run_texture") -> textured_glb
+    Parameters:
+     - [Image] image: dict(path: str | None (Path to a local file), url: str | None (Publicly available url or base64 encoded image), size: int | None (Size of image in bytes), orig_name: str | None (Original filename), mime_type: str | None (mime type of image), is_stream: bool (Can always be set to False), meta: dict(str, Any)) (required)  (For input, either path or url must be provided. For output, path is always provided.) 
+     - [Model3d] mesh_path: filepath (required)  (The FileData class is a subclass of the GradioModel class that represents a file object within a Gradio interface. It is used to store file data and metadata when a file is uploaded.
+
+Attributes:
+    path: The server file path where the file is stored.
+    url: The normalized server URL pointing to the file.
+    size: The size of the file in bytes.
+    orig_name: The original filename before upload.
+    mime_type: The MIME type of the file.
+    is_stream: Indicates whether the file is a stream.
+    meta: Additional metadata used internally (should not be changed).) 
+     - [Slider] seed: float (not required, defaults to:   0)  
+    Returns:
+     - [Model3d] textured_glb: filepath 
+
+ - predict(api_name="/start_session") -> 
+    Parameters:
+     - None
+    Returns:
+     - None
+
+RUN172_PUBLIC_ERROR AppError('You have exceeded your ZeroGPU quota (90s requested vs. 0s left). Try again in 0:00:00. Authenticate with a Hugging Face token for more quota - https://huggingface.co/settings/tokens')
+RUN172_FINAL PUBLIC_SPACE_ERROR_OR_QUOTA FRESH_GLB 0

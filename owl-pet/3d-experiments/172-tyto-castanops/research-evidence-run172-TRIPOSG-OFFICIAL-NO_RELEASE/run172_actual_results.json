@@ -1,0 +1,72 @@
+{
+  "run": 172,
+  "utc_start": "2026-11-18T07:15:27.363677+00:00",
+  "provider": "VAST-AI/TripoSG official public Hugging Face ZeroGPU",
+  "provider_url": "https://huggingface.co/spaces/VAST-AI/TripoSG",
+  "source_sha256": "5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9",
+  "providers": {
+    "official_triposg": {
+      "state": "PUBLIC_SPACE_ERROR_OR_QUOTA",
+      "discovered_endpoints": [
+        {
+          "api_name": "/load_example_input",
+          "fn_index": 0,
+          "is_continuous": null
+        },
+        {
+          "api_name": "/load_example",
+          "fn_index": 1,
+          "is_continuous": null
+        },
+        {
+          "api_name": "/run_segmentation",
+          "fn_index": 2,
+          "is_continuous": null
+        },
+        {
+          "api_name": "/get_random_seed",
+          "fn_index": 3,
+          "is_continuous": null
+        },
+        {
+          "api_name": "/image_to_3d",
+          "fn_index": 4,
+          "is_continuous": null
+        },
+        {
+          "api_name": "/lambda",
+          "fn_index": 5,
+          "is_continuous": null
+        },
+        {
+          "api_name": "/run_texture",
+          "fn_index": 6,
+          "is_continuous": null
+        },
+        {
+          "api_name": "/start_session",
+          "fn_index": 7,
+          "is_continuous": null
+        },
+        {
+          "api_name": "/end_session",
+          "fn_index": 8,
+          "is_continuous": null
+        }
+      ],
+      "segmentation": "PUBLIC_SEGMENTATION_ERROR",
+      "segmentation_error": "AppError('You have exceeded your ZeroGPU quota (60s requested vs. 0s left). Try again in 0:00:00. Authenticate with a Hugging Face token for more quota - https://huggingface.co/settings/tokens')",
+      "error": "AppError('You have exceeded your ZeroGPU quota (90s requested vs. 0s left). Try again in 0:00:00. Authenticate with a Hugging Face token for more quota - https://huggingface.co/settings/tokens')"
+    }
+  },
+  "new_valid_glb": [],
+  "release": false,
+  "art": "UNREVIEWED",
+  "physical_mobile_GPU_tested": false,
+  "payment": 0,
+  "source_image_size": [
+    512,
+    512
+  ],
+  "utc_end": "2026-11-18T07:15:28.288615+00:00"
+}

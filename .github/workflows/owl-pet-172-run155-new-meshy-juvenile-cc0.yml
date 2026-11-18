@@ -1,0 +1,163 @@
+name: owl172 Run155 NEW CC0 juvenile true model source probe - quarantined
+on:
+  push:
+    branches:
+      - research/owl172-run155-cc0-meshy-real-asset-probe
+    paths:
+      - .github/workflows/owl-pet-172-run155-new-meshy-juvenile-cc0.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  public-art-juvenile-acquisition:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run155-cc0-meshy-real-asset-probe
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            .github/workflows/owl-pet-172-run155-new-meshy-juvenile-cc0.yml
+            owl-pet/AGENTS.md
+            owl-pet/README.md
+            owl-pet/prototype/index.html
+            owl-pet/research/species/172-tyto-castanops-v3.md
+            owl-pet/3d-experiments/172-tyto-castanops/known_rejected_asset_sha256_registry.json
+            owl-pet/3d-experiments/172-tyto-castanops/2026-11-18-run154-real-glb-groom-transport-NO_RELEASE.md
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run155_public_cc0_juvenile_probe.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run155_blender_public_model_4orbit.py
+      - name: Verify real repository project boundaries and source syntax
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run155-MESHY-CC0-JUVENILE-NO_RELEASE"
+          mkdir -p "$O"
+          for f in owl-pet/AGENTS.md owl-pet/README.md owl-pet/prototype/index.html \
+             owl-pet/research/species/172-tyto-castanops-v3.md \
+             "$R/2026-11-18-run154-real-glb-groom-transport-NO_RELEASE.md" \
+             "$R/known_rejected_asset_sha256_registry.json"; do test -s "$f"; done
+          python3 -m py_compile "$R/tools/run155_public_cc0_juvenile_probe.py" "$R/tools/run155_blender_public_model_4orbit.py"
+          python3 -m json.tool "$R/known_rejected_asset_sha256_registry.json" >/dev/null
+          printf 'Run155 NEW real source attempt; no main, product, or paid API; NO_RELEASE.\n' > "$O/run155_preflight.txt"
+      - name: Really browse TWO NEW public CC0 juvenile 3D sources and try legal no-login download
+        continue-on-error: true
+        timeout-minutes: 17
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run155-MESHY-CC0-JUVENILE-NO_RELEASE"
+          python3 -m pip install --break-system-packages -q "requests>=2.31,<3" "playwright>=1.48,<2"
+          python3 -m playwright install --with-deps chromium
+          python3 "$R/tools/run155_public_cc0_juvenile_probe.py" 2>&1 | tee "$O/run155_actual_browser_execution.log"
+      - name: If an actual new public downloadable GLB exists, do REAL Blender import and four orbits
+        if: always()
+        continue-on-error: true
+        timeout-minutes: 10
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run155-MESHY-CC0-JUVENILE-NO_RELEASE"
+          if ! find "$O" -maxdepth 1 -name '*_genuine_3d_SOURCE_UNAPPROVED.glb' -size +100c | grep -q .; then
+             echo 'NO REAL NEW GLB: Blender NOT RUN, neither four views nor WebGL claimed' | tee "$O/run155_blender_not_run.txt"
+             exit 0
+          fi
+          sudo apt-get update -qq
+          sudo apt-get install -y blender python3-pil python3-numpy
+          timeout 500s blender -b -t 2 --python-exit-code 44 --python "$R/tools/run155_blender_public_model_4orbit.py" > "$O/run155_blender_real.log" 2>&1 || {
+             tail -60 "$O/run155_blender_real.log"; exit 1;
+          }
+          grep -q 'RUN155_NATIVE_REAL_ORBITS_NO_RELEASE' "$O/run155_blender_real.log"
+          python3 - <<'PY'
+          from PIL import Image,ImageDraw
+          from pathlib import Path
+          O=Path('owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run155-MESHY-CC0-JUVENILE-NO_RELEASE')
+          imgs=[O/f'run155_true_glb_orbit_{i:03}_NO_RELEASE.png' for i in [0,45,90,180]]
+          assert all(x.exists() and x.stat().st_size>1000 for x in imgs)
+          canvas=Image.new('RGB',(960,1000),'#e5e5e2')
+          d=ImageDraw.Draw(canvas)
+          for ix,img in enumerate(imgs):
+              x=(ix%2)*480;y=(ix//2)*500
+              canvas.paste(Image.open(img).convert('RGB'),(x,y+20))
+              d.text((x+8,y+4),f'{[0,45,90,180][ix]}deg UNCALIBRATED; NOT APPROVED',fill=(30,30,30))
+          canvas.save(O/'run155_actual_four_orbits_UNREVIEWED.jpg',quality=85)
+          PY
+      - name: Quarantine, tamper-check and draft truthful outcome
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run155-MESHY-CC0-JUVENILE-NO_RELEASE"
+          mkdir -p "$O"
+          printf 'NO_RELEASE. New CC0 community 3D assets require valid downloadable bytes, side/back art review, rights confirmation and real mobile WebGL testing before release. Paid generation prohibited.\n' > "$O/NO_RELEASE.flag"
+          python3 - <<'PY'
+          import pathlib,hashlib,json
+          O=pathlib.Path("owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run155-MESHY-CC0-JUVENILE-NO_RELEASE")
+          paths=sorted(p for p in O.iterdir() if p.is_file() and p.name!='sha256_manifest.json')
+          sums={p.name:{"sha256":hashlib.sha256(p.read_bytes()).hexdigest(),"bytes":p.stat().st_size} for p in paths}
+          (O/'sha256_manifest.json').write_text(json.dumps(sums,indent=2))
+          for name,meta in sums.items():
+              assert hashlib.sha256((O/name).read_bytes()).hexdigest()==meta['sha256']
+          print('SHA256_EVIDENCE_VALIDATED',len(sums))
+          PY
+          cat > "$R/2026-11-18-run155-actual-free-cc0-juvenile-model-source-probe-NO_RELEASE.md" <<'MD'
+          # Run155 — new public CC0 juvenile 3D acquisition route, isolated and NO_RELEASE
+          The exact #172 target is the *rightmost* cream mesoptile in v3, with a broad
+          integrated heart disc, dark embedded eyes, concealed wing and tail, credible
+          side/back anatomy, physical perch and genuinely soft feather/down rendition.
+          Run154 was rejected: fibre export succeeded technically but eye sockets,
+          face, side/back and groom remained anatomically unfit.
+
+          This run newly tests published Meshy community 3D candidates:
+          (1) "Sunlit Owlet" dedicated public model page,
+          (2) "Heart-faced Barn Owl" on the public heartshape catalogue page.
+          Actual URL, public HTTP, browser views, visible download UI, access blockers,
+          and any correctly acquired glTF/GLB bytes are recorded in the evidence JSON.
+          Advertised CC0 is treated as a source claim, not independent rights approval.
+          No login, CAPTCHA bypass, purchase or provider fee. No CGTrader no-AI model.
+
+          If a real new downloadable GLB exists, an isolated Blender four-orbit
+          reimport is attempted; angle values are NOT anatomical orientation labels.
+          A successful browser page, 2D preview, valid file header, or CI green mark
+          does not equal an approved owl or phone WebGL pass. Rejected/unreviewed source
+          files and any true render frames are quarantined in action artifacts only;
+          never in main, 251-species production, or published prototype.
+
+          **FINAL STATUS: ART_UNREVIEWED / NO_RELEASE, pending actual art review
+          and physical mobile WebGL qualification.** See actual JSON/browser evidence.
+          MD
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run155-new-cc0-meshy-juvenile-research-INTERNAL-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run155-MESHY-CC0-JUVENILE-NO_RELEASE/
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Commit only text/checksum/screenshots to new research branch
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run155-MESHY-CC0-JUVENILE-NO_RELEASE"
+          git add --sparse "$R/2026-11-18-run155-actual-free-cc0-juvenile-model-source-probe-NO_RELEASE.md"
+          find "$O" -type f \( -name '*.json' -o -name '*.txt' -o -name '*.log' \
+                -o -name '*.png' -o -name '*.jpg' -o -name '*.flag' \) \
+                -print0 | xargs -0 -r git add --sparse --
+          git diff --cached --name-only > /tmp/owl155_staged.txt
+          if grep -Ei '\.(glb|blend|zip|fbx|obj)$' /tmp/owl155_staged.txt; then
+             echo 'REJECT: prohibited binary staged'; exit 9
+          fi
+          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/' /tmp/owl155_staged.txt; then
+             echo 'REJECT: out-of-scope file staged'; exit 9
+          fi
+          if [ -s /tmp/owl155_staged.txt ]; then
+            git commit -m 'research(owl172): archive actual Run155 new juvenile CC0 public-source evidence NO_RELEASE'
+            git push origin HEAD:research/owl172-run155-cc0-meshy-real-asset-probe
+          fi

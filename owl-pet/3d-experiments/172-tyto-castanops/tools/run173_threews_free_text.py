@@ -181,6 +181,17 @@ def main():
                 headers={"Accept":"application/json"},timeout=120)
     body=record("generation_submit",resp)
     STATE["submit_http"]=resp.status_code
+    if resp.status_code==429:
+        delay=int(resp.headers.get("retry-after") or body.get("retry_after") or 10)
+        STATE["first_rate_limit_retry_after_seconds"]=delay
+        save()
+        if 1<=delay<=30:
+            time.sleep(delay)
+            # One strictly documented rate-limit retry; no account or IP rotation.
+            resp=s.post(API+"/api/3d/generate",json={"prompt":PROMPT,"format":"glb"},
+                        headers={"Accept":"application/json"},timeout=120)
+            body=record("generation_submit_retry_once",resp)
+            STATE["retry_submit_http"]=resp.status_code
     if resp.status_code!=200:
         STATE["status"]="PROVIDER_HTTP_"+str(resp.status_code);return
     deadline=time.monotonic()+320

@@ -2,7 +2,7 @@ name: owl172 Run157 corrected Sculptly asynchronous upload probe - isolated NO_R
 on:
   push:
     branches:
-      - research/owl172-run157-two-anonymous-native-preview-qa
+      - research/owl172-run157-sculptly-upload-state-native-preview
     paths:
       - .github/workflows/owl-pet-172-run157-sculptly-upload-state-native-preview.yml
   workflow_dispatch:
@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: research/owl172-run157-two-anonymous-native-preview-qa
+          ref: research/owl172-run157-sculptly-upload-state-native-preview
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             .github/workflows/owl-pet-172-run157-sculptly-upload-state-native-preview.yml
@@ -146,5 +146,5 @@ jobs:
           if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/' /tmp/run157_staged_paths.txt; then echo 'OUT OF SCOPE'; exit 8; fi
           if [ -s /tmp/run157_staged_paths.txt ]; then
              git commit -m 'research(owl172): archive actual Run157 free 3D browser evidence NO_RELEASE'
-             git push origin HEAD:research/owl172-run157-two-anonymous-native-preview-qa
+             git push origin HEAD:research/owl172-run157-sculptly-upload-state-native-preview
           fi

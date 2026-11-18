@@ -1,0 +1,5 @@
+{
+  "http": 200,
+  "content_type": "application/json; charset=utf-8",
+  "response": "{\"jsonrpc\":\"2.0\",\"id\":4,\"result\":{\"content\":[{\"type\":\"text\",\"text\":\"Generation is taking longer than expected. Please try again. The job itself keeps running: call get_job again in about 10s.\"}],\"structuredContent\":{\"error\":true,\"message\":\"Generation is taking longer than expected. Please try again. The job itself keeps running: call get_job again in about 10s.\",\"status\":\"unknown\",\"job_id\":\"f1.eyJwIjoiZ2NwIiwiayI6bnVsbCwidCI6ImV5SnRiMlJsSWpvaWRISmxiR3hwY3lJc0luUmhjMnRKWkNJNklqQmpaRFExWTJGaUxXRTFPVE10TkRjNVlTMDVZemcxTFdJek5UaGhPVEUzWWprMk1pSXNJbUpoYzJWVmNtd2lPaUpvZEhSd2N6b3ZMMjF2WkdWc0xYUnlaV3hzYVhNdGJIQTJOREpyTTJ0d1lTMTFZeTVoTG5KMWJpNWhjSEFpTENKeVpYTjFiSFJMWlhraU9pSnlaWE4xYkhSZloyTnpYM1Z5YkNKOSJ9.rkh7DcKMMJn08hEtDspmlhJS2QIqVpNBRuNli_x-Xj4\",\"reason\":\"check_failed\",\"remedy\":\"The job itself keeps running: call get_job again in about 10s.\",\"retryable\":true,\"retry_after\":10},\"isError\":true}}"
+}

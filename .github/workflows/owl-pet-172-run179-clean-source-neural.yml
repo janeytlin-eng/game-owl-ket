@@ -1,0 +1,108 @@
+name: owl172 Run179 actual new clean-background image-conditioned free 3D neural NO_RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run179-clean-background-neural-rebuild
+    paths:
+      - .github/workflows/owl-pet-172-run179-clean-source-neural.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run179_bg_cleanup_fresh_neural_mesh.py
+permissions:
+  contents: write
+jobs:
+  actual-clean-reference-to-new-native-GLB:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run179-clean-background-neural-rebuild
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/AGENTS.md
+            owl-pet/README.md
+            owl-pet/prototype/index.html
+            owl-pet/research/species/172-tyto-castanops-v3.md
+            owl-pet/3d-experiments/172-tyto-castanops/known_rejected_asset_sha256_registry.json
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run179_bg_cleanup_fresh_neural_mesh.py
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install exclusively free image processing and native GLB geometry readers
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run179-CLEAN-BG-NEW-NEURAL-NO_RELEASE"
+          mkdir -p "$O"
+          python -m pip install --quiet --disable-pip-version-check requests pillow trimesh numpy > "$O/install.log" 2>&1
+      - name: Publish precisely SHA-verified cleaned crop to independent research branch and request fresh image-bound GLB
+        continue-on-error: true
+        timeout-minutes: 12
+        shell: bash
+        run: |
+          set -o pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run179-CLEAN-BG-NEW-NEURAL-NO_RELEASE"
+          timeout 680s python "$R/tools/run179_bg_cleanup_fresh_neural_mesh.py" 2>&1 | tee "$O/run179_actual.log"
+      - name: Truthful independent no-release audit and SHA256 evidence
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib,json
+          R=Path("owl-pet/3d-experiments/172-tyto-castanops")
+          O=R/"research-evidence-run179-CLEAN-BG-NEW-NEURAL-NO_RELEASE"
+          O.mkdir(exist_ok=True,parents=True)
+          metrics=json.loads((O/"run179_results.json").read_text()) if (O/"run179_results.json").exists() else {}
+          (O/"NO_RELEASE.flag").write_text("NO_RELEASE; any new neural model needs actual multiview art and physical mobile GPU acceptance; $0 extra costs.\n")
+          manifest={p.name:{"bytes":p.stat().st_size,"sha256":hashlib.sha256(p.read_bytes()).hexdigest()}
+            for p in O.iterdir() if p.is_file() and p.name!="sha256_manifest.json"}
+          (O/"sha256_manifest.json").write_text(json.dumps(manifest,indent=2))
+          assert all(hashlib.sha256((O/name).read_bytes()).hexdigest()==v["sha256"] for name,v in manifest.items())
+          lines=["# Run179 — genuine new free neural GLB from original v3 reference with exterior black-background cleanup",
+            "", "**NO_RELEASE / ART_UNREVIEWED.** No deployment and no main/251-species updates.",
+            "",
+            "Prior Run178 real mobile-sized WebGL seven-axis art rejection: source-bound Run175 mesh had large adult feather wings, scaled crust instead of soft down, an open dark underside, unsupported feet and no hollow lip. Avoid its rejected SHA.",
+            "This run uses only the original #172 v3 rightmost source crop, flood-fills connected exterior black pixels with uniform offwhite while preserving bird details; the corrected image must be committed and downloaded by SHA256 before new image-conditioned inference.",
+            "Only official free/no-key three.ws MCP studio mesh_forge and (on success) free look_at_model. No x402, paid credits, account switching or fake geometry.",
+            "",
+            "Actual run status: **"+str(metrics.get("status","NOT_EXECUTED"))+"**.",
+            "Remote cleaned image verified: **"+str(metrics.get("remote_reference_verified",False))+"**.",
+            "Fresh native GLB count: **"+str(metrics.get("new_glb_count",0))+"**.",
+            "New candidate metadata: "+str(metrics.get("candidate","NOT_RETURNED"))[:1400]+".",
+            "",
+            "Nothing is art-approved until original native multi-angle images demonstrate a continuous cream-down juvenile Tyto with proper developed mask, round side/back, buried wings, concealed tail, supported feet and eucalypt hollow. Physical mobile WebGL remains **NOT_TESTED**.",
+            "All outputs and network status hashed; binaries retained only in 30-day isolated GitHub Actions artifact, never added to git.",
+            "**NO_RELEASE**."]
+          (R/"2026-11-18-run179-clean-bg-fresh-image-conditioned-NO_RELEASE.md").write_text("\n".join(lines)+"\n")
+          print("RUN179_AUDIT",metrics.get("status","NOT_EXECUTED"),"glbs",metrics.get("new_glb_count",0),"files",len(manifest))
+          PY
+      - name: Retain true GLB and research evidence isolated for 30 days
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run179-fresh-clean-source-free-neural-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run179-CLEAN-BG-NEW-NEURAL-NO_RELEASE/
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Commit audit and source PNG only in isolated #172 branch, no GLB binary
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run179-CLEAN-BG-NEW-NEURAL-NO_RELEASE"
+          git add --sparse "$R/2026-11-18-run179-clean-bg-fresh-image-conditioned-NO_RELEASE.md"
+          find "$O" -maxdepth 1 -type f \( -name '*.json' -o -name '*.png' -o -name '*.txt' -o -name '*.log' -o -name '*.flag' \) -print0 | xargs -0 -r git add --sparse --
+          git diff --cached --name-only >/tmp/run179_paths.txt
+          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/' /tmp/run179_paths.txt; then exit 90; fi
+          if grep -Ei '\.(glb|blend|zip|fbx|obj|bin)$' /tmp/run179_paths.txt; then exit 91; fi
+          if [ -s /tmp/run179_paths.txt ]; then
+            git commit -m "research(owl172): archive independent new image-to-3D no-release evidence"
+            git push origin HEAD:research/owl172-run179-clean-background-neural-rebuild
+          fi

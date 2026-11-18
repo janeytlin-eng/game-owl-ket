@@ -1,0 +1,5 @@
+HTTP: 429
+URL: https://three.ws/api/3d/generate
+HEADERS: {"retry-after": "10", "content-type": "application/json; charset=utf-8", "server": "Google Frontend"}
+
+{"error":"rate_limited","message":"The 3D generator is busy right now. Try again in a few seconds.","retry_after":10}

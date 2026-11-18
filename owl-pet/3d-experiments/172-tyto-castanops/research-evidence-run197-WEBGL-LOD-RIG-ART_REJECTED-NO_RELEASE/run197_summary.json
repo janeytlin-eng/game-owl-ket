@@ -1,0 +1,56 @@
+{
+  "run": 197,
+  "source_run": 195,
+  "baseline_run": 196,
+  "art_rejected": true,
+  "no_release": true,
+  "extra_payment_usd": 0,
+  "real_phone_test": false,
+  "low": {
+    "status": "CHROMIUM_WEBGL_RIG_MOTION_VERIFIED_DONOR_ART_REJECTED",
+    "lod": {
+      "mode": "low",
+      "visibleTriangles": 2700,
+      "allTriangles": 10584,
+      "sourceMeshNames": [
+        "owl_LOD0",
+        "owl_LOD1"
+      ],
+      "selectedMeshName": "owl_LOD1",
+      "drawnMeshes": 1
+    },
+    "drawcalls": 1,
+    "triangles": 2700,
+    "skinned_motion": true,
+    "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "screenshot_count": 11
+  },
+  "high": {
+    "status": "CHROMIUM_WEBGL_RIG_MOTION_VERIFIED_DONOR_ART_REJECTED",
+    "lod": {
+      "mode": "high",
+      "visibleTriangles": 7884,
+      "allTriangles": 10584,
+      "sourceMeshNames": [
+        "owl_LOD0",
+        "owl_LOD1"
+      ],
+      "selectedMeshName": "owl_LOD0",
+      "drawnMeshes": 1
+    },
+    "drawcalls": 1,
+    "triangles": 7884,
+    "skinned_motion": true,
+    "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "screenshot_count": 11
+  },
+  "run196_baseline": {
+    "drawcalls": 2,
+    "triangles": 10584
+  },
+  "all_tests_pass": true,
+  "status": "NATIVE_WEBGL_LOD_SWITCH_VERIFIED_STILL_ART_REJECTED",
+  "limitation": "Only the visible Three.js skinned mesh was switched; GLB still stores both LOD meshes and has NOT been size-optimized; SwiftShader is not real phone hardware"
+}

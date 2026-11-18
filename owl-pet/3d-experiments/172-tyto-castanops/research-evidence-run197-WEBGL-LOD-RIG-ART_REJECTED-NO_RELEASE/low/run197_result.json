@@ -1,0 +1,317 @@
+{
+  "run": 197,
+  "status": "CHROMIUM_WEBGL_RIG_MOTION_VERIFIED_DONOR_ART_REJECTED",
+  "actual_physical_phone": false,
+  "source_run": 195,
+  "artist_accepted": false,
+  "production_change": false,
+  "no_release": true,
+  "extra_payment_usd": 0,
+  "reference_sha256_expected": "5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9",
+  "donor_sha256_expected": "a22017221687458f37b76991719cb80243b5f04554ae57f07503139f988add3f",
+  "preflight": {
+    "source_glb_bytes": 850320,
+    "source_glb_sha256": "a22017221687458f37b76991719cb80243b5f04554ae57f07503139f988add3f",
+    "target_reference_sha256": "5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9"
+  },
+  "browser": {
+    "ready": true,
+    "viewport": [
+      390,
+      844
+    ],
+    "dpr": 2,
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/141.0.7390.37 Safari/537.36",
+    "webglVersion": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "clips": [
+      {
+        "name": "idle",
+        "duration": 2,
+        "tracks": 39
+      },
+      {
+        "name": "idle_alt",
+        "duration": 2.6666667461395264,
+        "tracks": 39
+      },
+      {
+        "name": "walk",
+        "duration": 0.800000011920929,
+        "tracks": 39
+      },
+      {
+        "name": "fly",
+        "duration": 0.6666666865348816,
+        "tracks": 39
+      },
+      {
+        "name": "jump",
+        "duration": 1,
+        "tracks": 39
+      },
+      {
+        "name": "eat",
+        "duration": 1.600000023841858,
+        "tracks": 39
+      },
+      {
+        "name": "sit",
+        "duration": 2,
+        "tracks": 39
+      },
+      {
+        "name": "sleep",
+        "duration": 3,
+        "tracks": 39
+      },
+      {
+        "name": "attack",
+        "duration": 1,
+        "tracks": 39
+      },
+      {
+        "name": "call",
+        "duration": 1.3333333730697632,
+        "tracks": 39
+      },
+      {
+        "name": "hit",
+        "duration": 0.6000000238418579,
+        "tracks": 39
+      },
+      {
+        "name": "death",
+        "duration": 1.3333333730697632,
+        "tracks": 39
+      }
+    ],
+    "meshCount": 2,
+    "skinnedMeshCount": 2,
+    "visibleSkinnedMeshCount": 1,
+    "lodChoice": {
+      "mode": "low",
+      "visibleTriangles": 2700,
+      "allTriangles": 10584,
+      "sourceMeshNames": [
+        "owl_LOD0",
+        "owl_LOD1"
+      ],
+      "selectedMeshName": "owl_LOD1",
+      "drawnMeshes": 1
+    },
+    "boneCounts": [
+      13,
+      13
+    ],
+    "bbox": {
+      "center": [
+        -3.3387800316142524e-08,
+        0.31724381119347395,
+        -0.006004363332106272
+      ],
+      "size": [
+        0.46650456223561965,
+        0.63668764426292,
+        0.3620869037571143
+      ]
+    },
+    "gpu": {
+      "geometries": 1,
+      "textures": 4
+    },
+    "isMobileEmulation": true
+  },
+  "animation_samples": {
+    "idle": {
+      "duration": 2,
+      "tracks": 39,
+      "sampled_vertices": 8,
+      "max_vertex_motion_world_units": 0.037497333238511774,
+      "mean_vertex_motion_world_units": 0.00862082021665614,
+      "per_phase_render_stats": [
+        {
+          "triangles": 2700,
+          "drawcalls": 1
+        },
+        {
+          "triangles": 2700,
+          "drawcalls": 1
+        },
+        {
+          "triangles": 2700,
+          "drawcalls": 1
+        },
+        {
+          "triangles": 2700,
+          "drawcalls": 1
+        }
+      ]
+    },
+    "walk": {
+      "duration": 0.800000011920929,
+      "tracks": 39,
+      "sampled_vertices": 8,
+      "max_vertex_motion_world_units": 0.033149600299249474,
+      "mean_vertex_motion_world_units": 0.01590645910086417,
+      "per_phase_render_stats": [
+        {
+          "triangles": 2700,
+          "drawcalls": 1
+        },
+        {
+          "triangles": 2700,
+          "drawcalls": 1
+        },
+        {
+          "triangles": 2700,
+          "drawcalls": 1
+        },
+        {
+          "triangles": 2700,
+          "drawcalls": 1
+        }
+      ]
+    },
+    "fly": {
+      "duration": 0.6666666865348816,
+      "tracks": 39,
+      "sampled_vertices": 8,
+      "max_vertex_motion_world_units": 0.028991641899002572,
+      "mean_vertex_motion_world_units": 0.013131136764140785,
+      "per_phase_render_stats": [
+        {
+          "triangles": 2700,
+          "drawcalls": 1
+        },
+        {
+          "triangles": 2700,
+          "drawcalls": 1
+        },
+        {
+          "triangles": 2700,
+          "drawcalls": 1
+        },
+        {
+          "triangles": 2700,
+          "drawcalls": 1
+        }
+      ]
+    },
+    "sleep": {
+      "duration": 3,
+      "tracks": 39,
+      "sampled_vertices": 8,
+      "max_vertex_motion_world_units": 0.027316721984894172,
+      "mean_vertex_motion_world_units": 0.009020689929408585,
+      "per_phase_render_stats": [
+        {
+          "triangles": 2700,
+          "drawcalls": 1
+        },
+        {
+          "triangles": 2700,
+          "drawcalls": 1
+        },
+        {
+          "triangles": 2700,
+          "drawcalls": 1
+        },
+        {
+          "triangles": 2700,
+          "drawcalls": 1
+        }
+      ]
+    },
+    "call": {
+      "duration": 1.3333333730697632,
+      "tracks": 39,
+      "sampled_vertices": 8,
+      "max_vertex_motion_world_units": 0.14926117948080136,
+      "mean_vertex_motion_world_units": 0.08162683304751332,
+      "per_phase_render_stats": [
+        {
+          "triangles": 2700,
+          "drawcalls": 1
+        },
+        {
+          "triangles": 2700,
+          "drawcalls": 1
+        },
+        {
+          "triangles": 2700,
+          "drawcalls": 1
+        },
+        {
+          "triangles": 2700,
+          "drawcalls": 1
+        }
+      ]
+    },
+    "sit": {
+      "duration": 2,
+      "tracks": 39,
+      "sampled_vertices": 8,
+      "max_vertex_motion_world_units": 0.0338823700469728,
+      "mean_vertex_motion_world_units": 0.009398211571074913,
+      "per_phase_render_stats": [
+        {
+          "triangles": 2700,
+          "drawcalls": 1
+        },
+        {
+          "triangles": 2700,
+          "drawcalls": 1
+        },
+        {
+          "triangles": 2700,
+          "drawcalls": 1
+        },
+        {
+          "triangles": 2700,
+          "drawcalls": 1
+        }
+      ]
+    }
+  },
+  "benchmark": {
+    "frameIntervalMs": [
+      16.699999999999818,
+      16.699999999999818,
+      16.600000000000364,
+      16.699999999999818,
+      16.699999999999818,
+      16.699999999999818,
+      16.699999999999818,
+      16.5,
+      16.700000000000728,
+      16.699999999999818,
+      16.699999999999818,
+      16.600000000000364,
+      16.699999999999818,
+      16.599999999999454,
+      16.700000000000728,
+      16.699999999999818,
+      16.599999999999454,
+      16.700000000000728,
+      16.599999999999454,
+      16.800000000000182,
+      16.600000000000364,
+      16.699999999999818,
+      16.599999999999454,
+      16.800000000000182,
+      16.600000000000364,
+      16.599999999999454,
+      16.700000000000728
+    ],
+    "frames": 27,
+    "rendererCalls": 1,
+    "warning": "Chromium SwiftShader software GPU and emulated viewport; NOT phone GPU performance"
+  },
+  "glb_loaded_in_real_webgl": true,
+  "skinning_verified": true,
+  "not_phone_validation": "Emulated 390x844 touch Chromium via SwiftShader CPU renderer, not Android/iOS real GPU",
+  "variant": "low",
+  "baseline_run": 196,
+  "does_not_modify_glb_or_prove_phone_performance": true
+}

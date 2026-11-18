@@ -1,0 +1,74 @@
+{
+  "run": 195,
+  "source": "https://vuena.itch.io/blocky-pets-free",
+  "second_source": "https://blendswap.com/blend/7951",
+  "price_paid_usd": 0,
+  "reference_sha256_expected": "5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9",
+  "accepted_as_character": false,
+  "mobile_physical_gpu_test": false,
+  "status": "REAL_NATIVE_OWL_DONOR_ACQUIRED_ART_REJECTED",
+  "source_claim": "CC0 sample owl, rigged, toy-style, NOT a Tasmanian masked owl nestling",
+  "reference": {
+    "file": "rightmost_mesoptile_input.png",
+    "bytes": 224688,
+    "sha256": "5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9"
+  },
+  "source_preflight_checked": true,
+  "blendswap_http": {
+    "status": 403,
+    "content_type": "text/html; charset=UTF-8",
+    "final_host": "blendswap.com",
+    "bytes": 5316,
+    "public_download_proven": false
+  },
+  "license_text_seen": true,
+  "page_has_free_zip_name": true,
+  "candidate_download_links": 2,
+  "free_zip_acquired": true,
+  "native_glb": [
+    {
+      "bytes": 850320,
+      "sha256": "a22017221687458f37b76991719cb80243b5f04554ae57f07503139f988add3f",
+      "mesh_count": 2,
+      "node_count": 16,
+      "material_count": 1,
+      "texture_count": 2,
+      "animation_count": 12,
+      "animation_names": [
+        "idle",
+        "idle_alt",
+        "walk",
+        "fly",
+        "jump",
+        "eat",
+        "sit",
+        "sleep",
+        "attack",
+        "call",
+        "hit",
+        "death"
+      ],
+      "skin_count": 1,
+      "triangle_indices_or_unindexed_primitives": 2,
+      "loaded_meshes": 2,
+      "triangles": 10584,
+      "vertices": 6559,
+      "bounds": [
+        [
+          -0.23325225710868835,
+          -0.0010999999940395355,
+          -0.1870478391647339
+        ],
+        [
+          0.23325225710868835,
+          0.6355876326560974,
+          0.175039142370224
+        ]
+      ],
+      "zip_entry": "GLB/animal_owl.glb",
+      "prior_rejected_binary": false
+    }
+  ],
+  "art_verdict": "ART_REJECTED: source explicitly describes stylized low-poly designer toy owl, not cream down Tyto castanops mesoptile; no true feather sculpt, mask or backed anatomy qualification",
+  "mobile_verdict": "UNTESTED on physical phone; LOD existence alone not GPU verification"
+}

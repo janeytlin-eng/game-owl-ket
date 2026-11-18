@@ -1,9 +1,30 @@
 {
   "run": 195,
-  "source_glbs": [],
-  "seven_native_views_success": false,
+  "source_glbs": [
+    "run195_OWL_0.glb"
+  ],
+  "seven_native_views_success": true,
   "render_kind": "vtkGLTFImporter actual binary material rendering",
   "art_pass": false,
   "physical_mobile_gpu_verified": false,
-  "native_skip": "NO_NEW_VALID_GLB_TO_RENDER"
+  "native_source_sha256": "a22017221687458f37b76991719cb80243b5f04554ae57f07503139f988add3f",
+  "bounds": [
+    -0.23325225710868835,
+    0.23325225710868835,
+    -0.0010999999940395355,
+    0.6355876326560974,
+    -0.1870478391647339,
+    0.175039142370224
+  ],
+  "imported_props": 2,
+  "views": [
+    "run195_TRUE_NATIVE_front.png",
+    "run195_TRUE_NATIVE_side_right.png",
+    "run195_TRUE_NATIVE_back.png",
+    "run195_TRUE_NATIVE_side_left.png",
+    "run195_TRUE_NATIVE_top.png",
+    "run195_TRUE_NATIVE_bottom.png",
+    "run195_TRUE_NATIVE_quarter.png"
+  ],
+  "vtk_version": "9.6.2"
 }

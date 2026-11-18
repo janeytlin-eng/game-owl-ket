@@ -56,7 +56,7 @@ def record(kind, response):
 def preflight():
     for rel in ["owl-pet/AGENTS.md", "owl-pet/README.md", "owl-pet/prototype/index.html",
                 "owl-pet/research/species/172-tyto-castanops-v3.md"]:
-        assert (ROOT.parent.parent / rel).is_file(), "missing preflight: " + rel
+        assert (ROOT.parents[2] / rel).is_file(), "missing preflight: " + rel
     assert SOURCE.is_file() and KNOWN.is_file(), "missing target image / registry"
     sha = hashlib.sha256(SOURCE.read_bytes()).hexdigest()
     assert sha == EXPECTED, "reference image content mismatch"

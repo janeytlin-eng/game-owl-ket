@@ -169,6 +169,22 @@
       "art_decision": "ART_REJECTED",
       "grounds": "Independently visually reviewed real Chrome Three.js/SwiftShader 7-axis screenshot sheet in Run178: one coherent heart-mask face but eyes half-lidded/stern and mask visibly protruding; crusty rigid/scaly grey-brown surfaces rather than dense silky cream juvenile down; large adult-like layered rigid wings and sharp pointed tail protrude in profile and back; exposed talons lack eucalypt hollow support; underside view is a dark open/broken shell with severe geometry defects. One texture, 10.84MB, 90,618 triangles. Browser 390x844 emulation rendered successfully but actual phone GPU and mobile FPS not tested. ART_REJECTED; never present as accepted high-quality pet.",
       "reference": "2026-11-18-run178-independent-art-review-ART_REJECTED-NO_RELEASE.md"
+    },
+    {
+      "sha256": "809e2110faec1301072c99f08a3caf440e9fd30692c7dd8c5e80bf109b9f8c48",
+      "size_bytes": 470660,
+      "source": "three.ws free MCP Studio mesh_forge Run180, source-bound #172 v3 rightmost crop with verified connected-exterior black-background cleanup; 2026-11-18",
+      "first_checked_run": 180,
+      "also_checked_run": 181,
+      "real_glb": true,
+      "mesh_count": 1,
+      "triangles": 26016,
+      "materials": 1,
+      "texture_maps": 0,
+      "art_decision": "ART_REJECTED",
+      "grounds": "Run181 direct 390x844 simulated mobile Chromium Three.js WebGL 7-axis art inspection: untextured clay-white, eyes dark colour wholly missing, face is flat and overprojected, rigid long adult feather wings and pointed tail, rough spiky plates instead of soft down, open hollow underside and unsupported exposed feet, no eucalypt hollow. Real phone GPU not tested. 26K triangles WebGL rendered, but anatomical/art gates failed. No customer-facing demo.",
+      "reference": "2026-11-18-run181-independent-sevenaxis-art-review-ART_REJECTED-NO_RELEASE.md",
+      "run181_workflow_url": "https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44289277183"
     }
   ],
   "instructions": "Before a new download, consult previous run records and this hash index. Once bytes are fetched compare sha256; if matching a rejected source, skip Blender/rig/WebGL/art release and log source identity. Publisher CC0 claims are not independently proven rights."

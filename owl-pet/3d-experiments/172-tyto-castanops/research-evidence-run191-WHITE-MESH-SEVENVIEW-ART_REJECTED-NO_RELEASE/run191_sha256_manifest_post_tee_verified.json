@@ -1,0 +1,91 @@
+{
+  "kind": "run191-post-tee-evidence-manifest-correction",
+  "run_id": 44349636178,
+  "artifact_id": 14446639781,
+  "correction_reason": "The original Python script wrote its hash manifest before the parent shell tee process flushed its terminal output. The original artifact preserves that intermediate manifest, whose only mismatch was the growing run191_actual_native_renderer.log. This separately archived manifest was reconciled against the immutable downloaded 30-day Actions ZIP after job completion; the original was NOT overwritten.",
+  "original_log_record": {
+    "bytes": 355,
+    "sha256": "a5d6d9f2bf3e4049046de5e627e975dc4a99283291a86daca35d5120efb16fe9"
+  },
+  "final_log_record": {
+    "bytes": 530,
+    "sha256": "55447d9240e0c41f821e6b96486f1f2b2d88ecbe3ec450970a6a7f18a9279e99"
+  },
+  "files": {
+    "NO_RELEASE.flag": {
+      "bytes": 166,
+      "sha256": "28bf92301a0b0f3b87f9b5a407b65c10ad4422a6d03a8bf65fa2f5d39624c080"
+    },
+    "actual_source_mesh_sha256.txt": {
+      "bytes": 232,
+      "sha256": "782aea143cf9230872f75e82155f65850cf4a753734cb54e6c9d12f6a34723ae"
+    },
+    "apt_install_mesa.log": {
+      "bytes": 2555,
+      "sha256": "318ea53e2d499849013c0ff220679f2d90bad71fb86b6391fb94029de7bd8e8c"
+    },
+    "apt_update.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "pip_install_vtk.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "preflight_sha256.txt": {
+      "bytes": 694,
+      "sha256": "fb89a362645e147ff60718575596c408da28e601c109dc7f70f14852c18940d5"
+    },
+    "run190_paint-3d-dev_actual_new_source_QUARANTINED.glb": {
+      "bytes": 174692,
+      "sha256": "6c71558189df19947f1492faf8ecb9ed74bf5c2844cff200ea486f19f2e6a836"
+    },
+    "run191_REAL_NATIVE_SEVENVIEW_CONTACT.png": {
+      "bytes": 480286,
+      "sha256": "ccc6f9c6dfc81fba41574603270e9ec3a34a3c5236b2f4c88ed309d4286beca1"
+    },
+    "run191_REAL_back_negZ.png": {
+      "bytes": 93186,
+      "sha256": "061bc3fb5487a707f51fd2a4bb623a8667db9202725ef0bb9857070b871fa443"
+    },
+    "run191_REAL_front_posZ.png": {
+      "bytes": 48989,
+      "sha256": "65de6c72b47d82343d00e968dd6db0149743536082f2168be51217e10bca79d9"
+    },
+    "run191_REAL_quarter.png": {
+      "bytes": 58949,
+      "sha256": "692f0a4878f8d07128b8ebf1507bd52ece59095f92dd2f67c7c9a27f445a4b6d"
+    },
+    "run191_REAL_side_negX.png": {
+      "bytes": 63933,
+      "sha256": "35c994f1010750b72d1949fa69c204fea40ba7e2d9cca3cdf39ee609478bdd2d"
+    },
+    "run191_REAL_side_posX.png": {
+      "bytes": 83011,
+      "sha256": "040edd27e40b3016e5782936df9bd378998f45d942c2c9d8e256dcb33ae2821e"
+    },
+    "run191_REAL_top_posY.png": {
+      "bytes": 74015,
+      "sha256": "ebaaa24b2bf31e93e92428c4d7eb0b18d3cf00ccf81d1953b0ec5e1bdb36992a"
+    },
+    "run191_REAL_underside_negY.png": {
+      "bytes": 52594,
+      "sha256": "19ab6398302741f4850901fbeffe9c51c07bd0c0e4065f39b7ba10555679d612"
+    },
+    "run191_actual_native_renderer.log": {
+      "bytes": 530,
+      "sha256": "55447d9240e0c41f821e6b96486f1f2b2d88ecbe3ec450970a6a7f18a9279e99"
+    },
+    "run191_native_metrics.json": {
+      "bytes": 1536,
+      "sha256": "79e27e821982662abdc05369c8ed29b3ddcde76b7e0924cf1af6690fdaaf068a"
+    },
+    "source_reference_sha256.txt": {
+      "bytes": 196,
+      "sha256": "03c7e3e2a7a5f2fa68e002b399349f5b301bb76ff92ef3097bca907ecb513e90"
+    }
+  },
+  "total_verified_files": 18,
+  "mismatch_count_after_repair": 0,
+  "release": false
+}

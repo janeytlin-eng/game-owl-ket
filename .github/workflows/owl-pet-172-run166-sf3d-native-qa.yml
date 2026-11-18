@@ -1,0 +1,126 @@
+name: owl172 Run166 verify Run165 genuine SF3D GLB, Blender orbit QA NO_RELEASE
+on:
+  push:
+    branches: [research/owl172-run166-sf3d-native-qa-fix]
+    paths: [.github/workflows/owl-pet-172-run166-sf3d-native-qa.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  real-native-review:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run166-sf3d-native-qa-fix
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            .github/workflows/owl-pet-172-run166-sf3d-native-qa.yml
+            owl-pet/AGENTS.md
+            owl-pet/README.md
+            owl-pet/prototype/index.html
+            owl-pet/research/species/172-tyto-castanops-v3.md
+            owl-pet/3d-experiments/172-tyto-castanops/known_rejected_asset_sha256_registry.json
+            owl-pet/3d-experiments/172-tyto-castanops/2026-11-18-run165-upsampler-result-followthrough-NO_RELEASE.md
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run165-NEW-NEURAL-PROVENANCE-NO_RELEASE/run165_actual_results.json
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run166_native_sf3d_orbit.py
+      - name: Preflight real owl and new model provenance
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run166-SF3D-NATIVE-ORBIT-NO_RELEASE"
+          mkdir -p "$O"
+          for f in owl-pet/AGENTS.md owl-pet/README.md owl-pet/prototype/index.html owl-pet/research/species/172-tyto-castanops-v3.md "$R/2026-11-18-run165-upsampler-result-followthrough-NO_RELEASE.md"; do test -s "$f"; done
+          python3 -m py_compile "$R/tools/run166_native_sf3d_orbit.py"
+          echo '5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9  owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png' | sha256sum -c | tee "$O/run166_source_hash.log"
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          r=Path('owl-pet/3d-experiments/172-tyto-castanops')
+          d=json.loads((r/'research-evidence-run165-NEW-NEURAL-PROVENANCE-NO_RELEASE/run165_actual_results.json').read_text())
+          n=d['new_valid_glb']
+          assert len(n)==1 and n[0]['sha256']=='8ff7341725e4fc27caf3ff4dbb3b07fe9231a96d216de31317bddf2aa07a7b8b'
+          assert n[0]['provenance_generated_for_source'] and not n[0]['is_static_demo']
+          print('SOURCE_PROVENANCE_VERIFIED',n[0]['file'])
+          PY
+      - name: Download exact previous genuine GLB from retained Actions artifact
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run166-SF3D-NATIVE-ORBIT-NO_RELEASE"
+          mkdir -p /tmp/run166_retrieved
+          curl -fsSL --retry 3 --retry-delay 3 -H "Authorization: Bearer $GITHUB_TOKEN" -H "Accept: application/vnd.github+json" "https://api.github.com/repos/$GITHUB_REPOSITORY/actions/artifacts/14401647106/zip" -o /tmp/run166_run165_artifact.zip
+          unzip -t /tmp/run166_run165_artifact.zip | tail -n 3 | tee "$O/run166_zip_integrity.log"
+          unzip -qo /tmp/run166_run165_artifact.zip -d /tmp/run166_retrieved
+          MODEL="$(find /tmp/run166_retrieved -type f -name 'upsampler_sf3d_new_ui_generated_3d_UNREVIEWED.glb' -print -quit)"
+          test -n "$MODEL"
+          echo "8ff7341725e4fc27caf3ff4dbb3b07fe9231a96d216de31317bddf2aa07a7b8b  $MODEL" | sha256sum -c | tee "$O/run166_glb_hash.log"
+          cp "$MODEL" "$O/run166_sf3d_source_UNREVIEWED.glb"
+      - name: Blender actual native five-angle import and rendering
+        timeout-minutes: 11
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run166-SF3D-NATIVE-ORBIT-NO_RELEASE"
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq blender python3-numpy
+          timeout 490s blender -b -t 2 --python-exit-code 33 --python "$R/tools/run166_native_sf3d_orbit.py" -- "$O/run166_sf3d_source_UNREVIEWED.glb" "$O" > "$O/run166_actual_blender.log" 2>&1 || { tail -n 75 "$O/run166_actual_blender.log"; exit 41; }
+          grep -q RUN166_NATIVE_FOUR_AXIS_RENDER_COMPLETE "$O/run166_actual_blender.log"
+          test "$(find "$O" -maxdepth 1 -name 'run166_sf3d_*_UNREVIEWED.png' -size +10000c | wc -l)" -eq 5
+      - name: Self-check evidence hashes and NO_RELEASE audit
+        if: always()
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json,hashlib
+          from pathlib import Path
+          r=Path('owl-pet/3d-experiments/172-tyto-castanops')
+          o=r/'research-evidence-run166-SF3D-NATIVE-ORBIT-NO_RELEASE'
+          o.mkdir(parents=True,exist_ok=True)
+          metric=o/'run166_blender_native_metrics.json'
+          ok=metric.is_file()
+          data=json.loads(metric.read_text()) if ok else {}
+          (o/'NO_RELEASE.flag').write_text('NO_RELEASE. Real GLB is not visual approval or physical mobile GPU validation.\n')
+          mf={f.name:{'bytes':f.stat().st_size,'sha256':hashlib.sha256(f.read_bytes()).hexdigest()} for f in o.iterdir() if f.is_file() and f.name!='run166_sha256_manifest.json'}
+          (o/'run166_sha256_manifest.json').write_text(json.dumps(mf,indent=2))
+          assert all(hashlib.sha256((o/k).read_bytes()).hexdigest()==v['sha256'] for k,v in mf.items())
+          report = '# Run166 — SF3D source-bound native GLB four-direction audit\n\n'
+          report += '**NO_RELEASE / ART_UNREVIEWED.** No approved owl, no deployment, no actual phone GPU verification.\n\n'
+          report += 'Rechecked original prototype, AGENTS, species #172 v3, Run165 evidence and target source SHA256 5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9.\n\n'
+          report += 'Actual new prior generated SF3D asset from Run165 immutable Actions artifact 14401647106. Expected SHA256 8ff7341725e4fc27caf3ff4dbb3b07fe9231a96d216de31317bddf2aa07a7b8b; not the previous toy-car sample. Fixed Blender world=None bug in an independent full five-angle replay. The native GLB remains in isolated Actions artifact, NOT Git history.\n\n'
+          report += 'Blender native validation: '+('SUCCESS' if ok else 'FAILURE (see Blender log)')+'. Metrics: '+json.dumps({k:data.get(k) for k in ['mesh_count','vertex_count','face_count','triangulated_face_estimate','materials_count','texture_images','bounds']},ensure_ascii=False)+'.\n\n'
+          report += 'Angles are objective local axes +Y, +Y/+X 45°, +X, -Y and -X. They are NOT labelled anatomical front/back without orientation registration. Rendering or GLB format validity is not artistic acceptance. Cream down, continuous facial disc, short wings, hollow-lip support and side/back consistency still need visual review. Physical mobile WebGL still NOT TESTED.\n\n'
+          report += 'No payments; no edits to main, 251-species production, existing prototype or site.\n\n'
+          report += 'Evidence: [five-angle Blender renders and integrity logs](research-evidence-run166-SF3D-NATIVE-ORBIT-NO_RELEASE/). Run165 source: https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44245752506\n'
+          (r/'2026-11-18-run166-sf3d-native-orbit-fix-NO_RELEASE.md').write_text(report)
+          print('RUN166_AUDIT',ok,'verified_primary_items',len(mf))
+          PY
+      - name: Preserve original binary separately from Git history
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run166-SF3D-native-five-orbits-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run166-SF3D-NATIVE-ORBIT-NO_RELEASE/
+          retention-days: 30
+      - name: Commit only isolated evidence and report
+        if: always()
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run166-SF3D-NATIVE-ORBIT-NO_RELEASE"
+          git add --sparse "$R/2026-11-18-run166-sf3d-native-orbit-fix-NO_RELEASE.md"
+          find "$O" -maxdepth 1 -type f \( -name '*.png' -o -name '*.json' -o -name '*.log' -o -name '*.flag' \) -print0 | xargs -0 -r git add --sparse --
+          git diff --cached --name-only > /tmp/run166_paths
+          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/' /tmp/run166_paths; then exit 88; fi
+          if grep -Ei '\.(glb|blend|zip|fbx|obj|bin)$' /tmp/run166_paths; then exit 89; fi
+          if [ -s /tmp/run166_paths ]; then
+            git commit -m 'research(owl172): Run166 SF3D actual native Blender five-angle QA NO_RELEASE'
+            git push origin HEAD:research/owl172-run166-sf3d-native-qa-fix
+          fi

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scope": "#172 Tyto castanops v3 independent 3D research only; fingerprints are negative quality gates, not licensing decisions",
-  "updated_utc": "2026-11-18T19:45:00Z",
+  "updated_utc": "2026-11-18T22:26:00Z",
   "known_rejected_source_glbs": [
     {
       "sha256": "c11c94db20065c6c6f252e768e8c748f22dc69ef9b4e7199110b96de0625c12e",
@@ -238,6 +238,21 @@
       "grounds": "Run195b actual public no-charge CC0 ZIP downloaded and original GLB parsed/imported. Seven real VTK 9.6.2 orthographic views visual-inspected. Brown smooth toy adult-like owl, two triangular ear tufts, round white-ring eyes instead of continuous heart mask, hard protruding wing plates/tail stub, no cream fluffy second-down, long thin unsupported feet, no eucalypt hollow lip. 13-bone skeleton, 12 animations and two real LODs are technically legitimate but do not pass owl-pet age-unknown Tyto castanops v3 mesoptile art. No real phone WebGL GPU test. Do not publish, recolor as quality fix, or compare again as new art.",
       "reference": "2026-11-19-run195-real-free-cc0-rigged-owl-native-sevenview-ART_REJECTED-NO_RELEASE.md",
       "run195_workflow_url": "https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44383285372"
+    },
+    {
+      "sha256": "a7812aa5d1f43e9c7c4969c564faba20b27481acc200b7138e02c6f8c8c43bb4",
+      "size_bytes": 256580,
+      "source": "https://shuriken.studio/models/download/30ef3435-cec4-4cec-9c93-90f501ac5b06",
+      "publisher": "Shuriken Studio - Arctic Fox & Snowy Owl kit",
+      "first_checked_run": 199,
+      "real_glb": true,
+      "mesh_count": 22,
+      "triangles": 3054,
+      "source_license": "Free-model project use and modification permitted; original model-file standalone redistribution not permitted",
+      "art_decision": "ART_REJECTED",
+      "grounds": "VTK 9.6.2 real seven views independently inspected: scene includes fox and adult-like low-poly snowy owl with round yellow eyes, hard flat wings and spotted body, no continuous Tyto heart facial disc or cream juvenile second down, no supported eucalyptus hollow. Wrong age/species and multi-subject kit.",
+      "artifact_id": 14475789383,
+      "reference": "2026-11-19-run199b-native-sevenview-human-reviewed-ART_REJECTED-NO_RELEASE.md"
     }
   ],
   "instructions": "Before a new download, consult previous run records and this hash index. Once bytes are fetched compare sha256; if matching a rejected source, skip Blender/rig/WebGL/art release and log source identity. Publisher CC0 claims are not independently proven rights."

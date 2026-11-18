@@ -4,7 +4,7 @@ on:
     branches:
       - research/owl172-run163-fresh-anonymous-3d-maker-probe
     paths:
-      - .github/workflows/owl-pet-172-run163-provenance-clean-neural-3d.yml
+      - .github/workflows/owl-pet-172-run163-two-public-makers.yml
       - owl-pet/3d-experiments/172-tyto-castanops/tools/run163_public_3d_makers.py
   workflow_dispatch:
 permissions:
@@ -19,7 +19,7 @@ jobs:
           ref: research/owl172-run163-fresh-anonymous-3d-maker-probe
           sparse-checkout-cone-mode: false
           sparse-checkout: |
-            .github/workflows/owl-pet-172-run163-provenance-clean-neural-3d.yml
+            .github/workflows/owl-pet-172-run163-two-public-makers.yml
             owl-pet/AGENTS.md
             owl-pet/README.md
             owl-pet/prototype/index.html

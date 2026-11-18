@@ -1,0 +1,154 @@
+name: owl172 Run182 genuine no-fee high-detail CC0 source Blender four-axis truth gate NO_RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run182-new-cc0-high-detail-mesh-native-validation
+    paths:
+      - .github/workflows/owl-pet-172-run182-cc0-highdetail-real-source.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run182_*
+permissions:
+  contents: write
+jobs:
+  real-source-native-donor-gate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 28
+    env:
+      LIBGL_ALWAYS_SOFTWARE: '1'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run182-new-cc0-high-detail-mesh-native-validation
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/AGENTS.md
+            owl-pet/README.md
+            owl-pet/STATUS.md
+            owl-pet/prototype/index.html
+            owl-pet/research/species/172-tyto-castanops-v3.md
+            owl-pet/3d-experiments/172-tyto-castanops/known_rejected_asset_sha256_registry.json
+            owl-pet/3d-experiments/172-tyto-castanops/2026-11-18-run181-independent-sevenaxis-art-review-ART_REJECTED-NO_RELEASE.md
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run182_cc0_highdetail_source_probe.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run182_blender_highdetail_native_review.py
+      - name: Preflight and install no-fee native geometry tools
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run182-HIGHDETAIL-CC0-SOURCE-NO_RELEASE"
+          mkdir -p "$O"
+          test -s owl-pet/prototype/index.html
+          python3 -m json.tool "$R/known_rejected_asset_sha256_registry.json" >/dev/null
+          python3 -m py_compile "$R/tools/run182_cc0_highdetail_source_probe.py" "$R/tools/run182_blender_highdetail_native_review.py"
+          echo '5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9  owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png' | sha256sum -c | tee "$O/run182_reference_hash.log"
+          sudo apt-get update -qq > "$O/apt_update.log" 2>&1
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq blender python3-numpy > "$O/blender_install.log" 2>&1
+          blender --version | head -3 | tee "$O/blender_version.txt"
+          python3 -m pip install -q --break-system-packages pillow > "$O/pillow_install.log" 2>&1
+      - name: Actually download and inspect new real CC0 GLB + licensing evidence
+        shell: bash
+        timeout-minutes: 5
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run182-HIGHDETAIL-CC0-SOURCE-NO_RELEASE"
+          timeout 270s python3 -u "$R/tools/run182_cc0_highdetail_source_probe.py" 2>&1 | tee "$O/run182_real_source_fetch.log"
+      - name: Blender native import and four camera-axis visual review, if real GLB
+        shell: bash
+        timeout-minutes: 12
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run182-HIGHDETAIL-CC0-SOURCE-NO_RELEASE"
+          if ! test -s "$O/grab3d_adult_horned_owl_light_UNAPPROVED.glb"; then
+            echo 'NO_GLB_OBTAINED; native Blender NOT_RUN' | tee "$O/run182_blender_NOT_RUN.txt"
+            exit 0
+          fi
+          export PYTHONPATH="/usr/lib/python3/dist-packages:${PYTHONPATH:-}"
+          timeout 660s blender -b -t 2 --python-exit-code 40 --python "$R/tools/run182_blender_highdetail_native_review.py" 2>&1 | tee "$O/run182_actual_native_blender.log"
+      - name: Collect real view contact sheet, sha256 original artifact, independent source-quality rejection
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run182-HIGHDETAIL-CC0-SOURCE-NO_RELEASE"
+          mkdir -p "$O"
+          python3 - <<'PY'
+          import json,hashlib
+          from pathlib import Path
+          r=Path("owl-pet/3d-experiments/172-tyto-castanops")
+          o=r/"research-evidence-run182-HIGHDETAIL-CC0-SOURCE-NO_RELEASE"
+          source=json.loads((o/"run182_metrics.json").read_text()) if (o/"run182_metrics.json").exists() else {"status":"NOT_COMPLETED"}
+          native=json.loads((o/"run182_blender_metrics.json").read_text()) if (o/"run182_blender_metrics.json").exists() else {"status":"NOT_RUN"}
+          imgs=sorted(o.glob("run182_axis_*_GENUINE_NATIVE_ADULT_NOT_TYTO.png"))
+          if imgs:
+           try:
+            from PIL import Image,ImageDraw
+            w=384
+            sheet=Image.new("RGB",(w*4,w+32),(239,239,239))
+            d=ImageDraw.Draw(sheet)
+            for i,im_path in enumerate(imgs[:4]):
+             im=Image.open(im_path).convert("RGB").resize((w,w))
+             sheet.paste(im,(i*w,32))
+             d.text((i*w+6,9),im_path.stem.replace("run182_","").replace("_GENUINE_NATIVE_ADULT_NOT_TYTO",""),fill=(20,20,20))
+            sheet.save(o/"run182_REAL_ADULT_CC0_four_axis_UNAPPROVED.png")
+           except Exception as e:(o/"run182_sheet_error.txt").write_text(str(e))
+          (o/"NO_RELEASE.flag").write_text("NO_RELEASE / ART_REJECTED AS DIRECT TARGET: high-detail horned adult is not a Tyto castanops cream mesoptile. Real phone GPU not tested; $0.\n")
+          m={}
+          for f in sorted(o.iterdir()):
+           if f.is_file() and f.name!="run182_sha256_manifest.json":
+            m[f.name]={"bytes":f.stat().st_size,"sha256":hashlib.sha256(f.read_bytes()).hexdigest()}
+          (o/"run182_sha256_manifest.json").write_text(json.dumps(m,indent=2))
+          assert all(hashlib.sha256((o/k).read_bytes()).hexdigest()==v["sha256"] for k,v in m.items())
+          report=[
+            "# Run182 — new free high-detail CC0 donor source, actual GLB/native Blender gate",
+            "","**NO_RELEASE / DONOR_NOT_TARGET / ART_REJECTED as #172 young.**",
+            "","Preflight re-read the existing owl-pet prototype, 172 v3 design boundary, Run181 failed neural visual review and known-rejected SHA registry.",
+            "Source: https://grab3d.com/models/animals/owl/ ; claimed CC0: https://grab3d.com/dl/owl/LICENSE.txt (AI-assisted Meshy source disclosed by author).",
+            "Distinct newly inspected candidate: https://grab3d.com/dl/owl/owl-light.glb",
+            "Source website expressly labels this a **great horned adult owl**, not Tasmanian masked owl juvenile. Do not use as original #172 baby mesh or release.",
+            "","Actual downloaded-source status: **"+str(source.get("status"))+"**.",
+            "Source original byte count: "+str(source.get("download_bytes","UNAVAILABLE"))+"; SHA256: "+str(source.get("download_sha256","UNAVAILABLE"))+".",
+            "Source license actually checked: "+str(source.get("claimed_cc0","UNAVAILABLE"))+"; source AI-assisted disclosure: "+str(source.get("source_ai_assisted","UNAVAILABLE"))+".",
+            "Source GLB parsed model metrics: "+json.dumps(source.get("gltf",{}))+".",
+            "Real native Blender GLB import and render: **"+str(native.get("status"))+"**.",
+            "Imported triangles: "+str(native.get("triangles","NOT_VERIFIED"))+"; true source orbit renders: "+str(len(imgs))+".",
+            "Only mesh viability and actual source checks, not transformation into target, art approval or physical phone WebGL.",
+            "","Reason for rejecting as direct target: adult great-horned ear tufts, wrong species, mature layered feathers and silhouette; no naturally integrated cream-down Tyto heart disc, crouched compact young or hollow-lip support. Source appearance should be reassessed in real images if rendered.",
+            "No SVG/toy substitution or pretend GLB. Zero purchases. Main, 251 species process, prototype and deployment untouched.",
+            "Original GLB/BLEND retained exclusively in 30-day isolated workflow artifact; not committed to Git.",
+            "Original SHA256 evidence manifest: research-evidence-run182-HIGHDETAIL-CC0-SOURCE-NO_RELEASE/run182_sha256_manifest.json.",
+          ]
+          (r/"2026-11-18-run182-new-highdetail-cc0-source-native-ART_REJECTED-NO_RELEASE.md").write_text("\n".join(report)+"\n")
+          print("RUN182_FINAL",source.get("status"),native.get("status"),"real_png_count",len(imgs),"sha_count",len(m),flush=True)
+          PY
+      - name: Archive unmodified real GLB/BLEND and true raster evidence separately (never release)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run182-high-detail-real-cc0-adult-mesh-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run182-HIGHDETAIL-CC0-SOURCE-NO_RELEASE/
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Archive #172 research QA only, exclude GLB and Blender binaries
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run182-HIGHDETAIL-CC0-SOURCE-NO_RELEASE"
+          git add --sparse "$R/2026-11-18-run182-new-highdetail-cc0-source-native-ART_REJECTED-NO_RELEASE.md"
+          find "$O" -maxdepth 1 -type f \( -name '*.json' -o -name '*.png' -o -name '*.txt' -o -name '*.log' -o -name '*.flag' \) -print0 | xargs -0 -r git add --sparse --
+          git diff --cached --name-only > /tmp/run182_staged_paths.txt
+          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/' /tmp/run182_staged_paths.txt; then exit 90; fi
+          if grep -Ei '\.(glb|blend|zip|fbx|obj|bin)$' /tmp/run182_staged_paths.txt; then exit 91; fi
+          if [ -s /tmp/run182_staged_paths.txt ]; then
+            git commit -m "research(owl172): record actual external CC0 donor GLB native QA rejection"
+            git push origin HEAD:research/owl172-run182-new-cc0-high-detail-mesh-native-validation
+          fi

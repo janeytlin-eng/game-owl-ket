@@ -1,0 +1,124 @@
+name: owl172 Run191 actual Run190 source GLB native 7-camera render art gate NO_RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run191-real-white-mesh-vtk-sevenview-art-reject
+    paths:
+      - .github/workflows/owl-pet-172-run191-original-native-vtk-sevenview-no-release.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run191_real_native_glb_vtk_multiview.py
+permissions:
+  contents: write
+  actions: read
+jobs:
+  original-glb-geometry-native-art-gate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 13
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run191-real-white-mesh-vtk-sevenview-art-reject
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/AGENTS.md
+            owl-pet/README.md
+            owl-pet/prototype/index.html
+            owl-pet/research/species/172-tyto-castanops-v3.md
+            owl-pet/3d-experiments/172-tyto-castanops/known_rejected_asset_sha256_registry.json
+            owl-pet/3d-experiments/172-tyto-castanops/2026-11-19-run190-source-bound-free-native-NO_RELEASE.md
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run191_real_native_glb_vtk_multiview.py
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Source and design preflight; no altered 251 species workflow
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run191-WHITE-MESH-SEVENVIEW-ART_REJECTED-NO_RELEASE"
+          mkdir -p "$O"
+          for file in owl-pet/AGENTS.md owl-pet/README.md owl-pet/prototype/index.html owl-pet/research/species/172-tyto-castanops-v3.md "$R/known_rejected_asset_sha256_registry.json" "$R/2026-11-19-run190-source-bound-free-native-NO_RELEASE.md"; do
+            test -s "$file" && sha256sum "$file" >> "$O/preflight_sha256.txt"
+          done
+          sha256sum "$R/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png" | tee "$O/source_reference_sha256.txt"
+          grep -q '^5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9 ' "$O/source_reference_sha256.txt"
+          python -m py_compile "$R/tools/run191_real_native_glb_vtk_multiview.py"
+      - name: Restore exact Run190 native source-bound GLB, not marketing demo
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run191-WHITE-MESH-SEVENVIEW-ART_REJECTED-NO_RELEASE"
+          gh run download 44347490822 -n owl172-run190-fresh-public-native-attempt-NO_RELEASE -R janeytlin-eng/game-owl-ket -D "$O"
+          p="$O/run190_paint-3d-dev_actual_new_source_QUARANTINED.glb"
+          test -s "$p"
+          sha256sum "$p" | tee "$O/actual_source_mesh_sha256.txt"
+          grep -q '^6c71558189df19947f1492faf8ecb9ed74bf5c2844cff200ea486f19f2e6a836 ' "$O/actual_source_mesh_sha256.txt"
+      - name: Install independent free native VTK Trimesh geometry renderer
+        timeout-minutes: 5
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run191-WHITE-MESH-SEVENVIEW-ART_REJECTED-NO_RELEASE"
+          python -m pip install -q vtk==9.6.2 trimesh==4.10.0 pillow==12.0.0 > "$O/pip_install_vtk.log" 2>&1
+      - name: Actually render 7 full 3D side back underside camera views
+        timeout-minutes: 4
+        run: |
+          set -o pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run191-WHITE-MESH-SEVENVIEW-ART_REJECTED-NO_RELEASE"
+          timeout 200s python -u "$R/tools/run191_real_native_glb_vtk_multiview.py" 2>&1 | tee "$O/run191_actual_native_renderer.log"
+      - name: Archive visual rejection and exact native evidence without release
+        if: always()
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          from datetime import datetime,timezone
+          root=Path('owl-pet/3d-experiments/172-tyto-castanops')
+          o=root/'research-evidence-run191-WHITE-MESH-SEVENVIEW-ART_REJECTED-NO_RELEASE'
+          m=o/'run191_native_metrics.json'
+          stats=json.loads(m.read_text()) if m.exists() else {}
+          text=[
+            '# Run191 — independently re-rendered original Run190 Hunyuan white mesh',
+            '',
+            '**ART_REJECTED / NO_RELEASE / NO_PHYSICAL_MOBILE_GPU_TEST.**',
+            '',
+            'UTC evidence: '+datetime.now(timezone.utc).isoformat(),
+            'Verified image input SHA256 5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9 and exact Run190 source-generated GLB SHA256 6c71558189df19947f1492faf8ecb9ed74bf5c2844cff200ea486f19f2e6a836; restored from Run190 immutable Actions artifact, not a sample asset.',
+            'Run190 source generation really completed through the free Paint-3D.dev embedded frogleo-image-to-3d.hf.space Hunyuan Shape GPU UI; GLB is native geometry, 174,692 bytes, no textures and no materials, not a production-ready textured character.',
+            'Independent native VTK mesh re-import and 7 orthographic camera views: '+str(stats.get('status','UNAVAILABLE'))+'; '+str(stats.get('triangles','UNKNOWN'))+' source triangles, '+str(stats.get('vertices','UNKNOWN'))+' vertices; 7 PNG rasters and one contact sheet if successful, retained in isolated workflow artifact.',
+            '',
+            'Visual review of these exact bytes (local native VTK rendering before CI reproduction): recognizable but shallow heart outline; missing dark pupils and cream fibre/shading, uniformly monochrome smooth front face; stiff adult-like layered wing panels, elongated wedge rear and spiky plate-like back rather than fluffy rounded second-down juvenile; exposed talons unsupported on any eucalyptus hollow lip. Neither credible down microstructure nor mature-aware hidden wings/tail and coherent side/back passes. Do not post a demo.',
+            'Even a technically watertight mesh or software WebGL display is not equivalent to a good 3D art model, and no physical iPhone/Android GPU was tested.',
+            'Zero paid tools. Artifact and local checks are quarantined. No changes to main/production workflow, existing owl-pet prototype or deployment.',
+            '',
+            '**FINAL ART_REJECTED / NO_RELEASE.**'
+          ]
+          (root/'2026-11-19-run191-original-native-sevenview-ART_REJECTED-NO_RELEASE.md').write_text('\n'.join(text)+'\n')
+          PY
+      - name: Store original native mesh and actual 7-view PNG evidence for 30 days
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run191-actual-native-sevenview-ART_REJECTED
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run191-WHITE-MESH-SEVENVIEW-ART_REJECTED-NO_RELEASE/
+          retention-days: 30
+      - name: Commit only audit text; keep model and PNG quarantined
+        if: always()
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run191-WHITE-MESH-SEVENVIEW-ART_REJECTED-NO_RELEASE"
+          git add --sparse "$R/2026-11-19-run191-original-native-sevenview-ART_REJECTED-NO_RELEASE.md"
+          find "$O" -maxdepth 1 -type f \( -name '*.json' -o -name '*.txt' -o -name '*.log' -o -name '*.flag' \) -print0 | xargs -0 -r git add --sparse --
+          git diff --cached --name-only > /tmp/run191_staged
+          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/' /tmp/run191_staged; then exit 80; fi
+          if grep -Ei '\.(glb|blend|obj|fbx|png|zip|webp|jpg)$' /tmp/run191_staged; then exit 81; fi
+          if [ -s /tmp/run191_staged ]; then
+            git commit -m 'research(owl172): native seven-view visual QA rejects source-bound shape without textures'
+            git push origin HEAD:research/owl172-run191-real-white-mesh-vtk-sevenview-art-reject
+          fi

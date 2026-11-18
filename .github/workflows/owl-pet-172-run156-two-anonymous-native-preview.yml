@@ -1,0 +1,148 @@
+name: owl172 Run156 two public native 3D UI tests - isolated NO_RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run156-two-anonymous-native-preview-qa
+    paths:
+      - .github/workflows/owl-pet-172-run156-two-anonymous-native-preview.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  actual-free-native-3d-probe:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run156-two-anonymous-native-preview-qa
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            .github/workflows/owl-pet-172-run156-two-anonymous-native-preview.yml
+            owl-pet/AGENTS.md
+            owl-pet/README.md
+            owl-pet/prototype/index.html
+            owl-pet/research/species/172-tyto-castanops-v3.md
+            owl-pet/3d-experiments/172-tyto-castanops/known_rejected_asset_sha256_registry.json
+            owl-pet/3d-experiments/172-tyto-castanops/2026-11-18-run154-real-glb-groom-transport-NO_RELEASE.md
+            owl-pet/3d-experiments/172-tyto-castanops/2026-11-18-run155-actual-free-cc0-juvenile-model-source-probe-NO_RELEASE.md
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run156_two_public_live_3d_ui.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run156_blender_orbit_if_native.py
+      - name: Verify exact canonical image, species and repository boundaries
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run156-TWO-ANONYMOUS-3D-NO_RELEASE"
+          mkdir -p "$O"
+          test -s owl-pet/AGENTS.md
+          test -s owl-pet/README.md
+          test -s owl-pet/prototype/index.html
+          test -s owl-pet/research/species/172-tyto-castanops-v3.md
+          test -s "$R/2026-11-18-run154-real-glb-groom-transport-NO_RELEASE.md"
+          test -s "$R/2026-11-18-run155-actual-free-cc0-juvenile-model-source-probe-NO_RELEASE.md"
+          python3 -m py_compile "$R/tools/run156_two_public_live_3d_ui.py" "$R/tools/run156_blender_orbit_if_native.py"
+          python3 -m json.tool "$R/known_rejected_asset_sha256_registry.json" >/dev/null
+          echo '5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9  owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png' | sha256sum -c | tee "$O/run156_exact_source_sha256.log"
+      - name: Actually use free public generators with real browser
+        shell: bash
+        continue-on-error: true
+        timeout-minutes: 22
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run156-TWO-ANONYMOUS-3D-NO_RELEASE"
+          python3 -m pip install --break-system-packages -q 'playwright>=1.48,<2'
+          python3 -m playwright install --with-deps chromium
+          timeout 1000s python3 -u "$R/tools/run156_two_public_live_3d_ui.py" 2>&1 | tee "$O/run156_real_browser_execution.log"
+      - name: Only if actually generated GLB exists - native Blender genuine four orbit
+        if: always()
+        shell: bash
+        continue-on-error: true
+        timeout-minutes: 10
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run156-TWO-ANONYMOUS-3D-NO_RELEASE"
+          if ! find "$O" -maxdepth 1 -type f -name '*_new_ui_generated_3d_UNREVIEWED.glb' -size +100c | grep -q .; then
+             echo 'NO ACTUAL NEW GENERATED GLB; Blender not run; no 3D, art or phone pass claimed.' | tee "$O/run156_blender_not_run.txt"
+             exit 0
+          fi
+          sudo apt-get update -qq
+          sudo apt-get install -y blender python3-numpy
+          timeout 480s blender -b -t 2 --python-exit-code 33 --python "$R/tools/run156_blender_orbit_if_native.py" > "$O/run156_real_blender.log" 2>&1
+          grep -q 'RUN156_REAL_BLENDER_4_ORBITS_NO_RELEASE' "$O/run156_real_blender.log"
+      - name: Hash all real evidence and make truthful preliminary audit
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run156-TWO-ANONYMOUS-3D-NO_RELEASE"
+          mkdir -p "$O"
+          echo 'NO_RELEASE. No user-facing sample unless independent art four-view, legitimate rights, and real phone WebGL all pass.' > "$O/NO_RELEASE.flag"
+          python3 - <<'PY'
+          import pathlib,hashlib,json,datetime
+          R=pathlib.Path('owl-pet/3d-experiments/172-tyto-castanops')
+          O=R/'research-evidence-run156-TWO-ANONYMOUS-3D-NO_RELEASE'
+          j=O/'run156_actual_results.json'
+          obj=json.loads(j.read_text()) if j.exists() else {}
+          states={key:r.get('status','UNKNOWN') for key,r in obj.get('providers',{}).items()}
+          count=len(obj.get('real_new_valid_glb',[]))
+          files=sorted(p for p in O.iterdir() if p.is_file() and p.name!='sha256_manifest.json')
+          hashes={p.name:{'sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'bytes':p.stat().st_size} for p in files}
+          (O/'sha256_manifest.json').write_text(json.dumps(hashes,indent=2))
+          for name,meta in hashes.items():
+              assert hashlib.sha256((O/name).read_bytes()).hexdigest()==meta['sha256']
+          audit=R/'2026-11-18-run156-two-public-generation-preview-source-audit-NO_RELEASE.md'
+          audit.write_text(
+          '# #172 Tyto castanops v3 Run156 — actual no-fee native 3D source experiment\n\n'
+          '**FINAL: ART_UNREVIEWED / NO_RELEASE**. No visual acceptance asserted, no public distribution, no paid use.\n\n'
+          'Before testing: checked owl-pet original prototype, AGENTS/README, v3 scientific bounds, '
+          'Run154 real groom rejection, Run155 new-source Cloudflare denial and the rejected GLB SHA registry. '
+          'The exact rightmost cream mesoptile PNG is SHA256-locked to 5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9. '
+          'Art standard: compact cream-down chick, integrated heart facial disc, embedded open dark eyes, short concealed wings/tail, believable side/back and supported feet at mature eucalypt hollow. No exact age assertion.\n\n'
+          'This actual GitHub Actions run used Playwright Chromium to upload the correct image to '
+          '[Sculptly 3D public free first-model preview](https://sculptly3d.com/image-to-3d-model-free) '
+          '(anonymous generation allows preview but download requires account), and retried '
+          '[ImageTo3D public no-signup workbench](https://image-to-3d.app/) '
+          '(free preview license not established for use in the product). '
+          'No login, credit-card, paid provider, access control circumvention or API bypass.\n\n'
+          '**Actual recorded browser states:** '+json.dumps(states,ensure_ascii=False)+'\n\n'
+          '**New correctly generated valid GLBs downloaded:** '+str(count)+'. '
+          'Only actual UI-generated GLBs can trigger native Blender import/four orbit. '
+          'Neither a preloaded demo nor a viewer screenshot proves native 3D, and an actual GLB alone does not prove owl anatomy. '
+          'See [individual screenshot/log/JSON evidence](research-evidence-run156-TWO-ANONYMOUS-3D-NO_RELEASE/) '
+          'and SHA256 manifest with '+str(len(hashes))+' checked primary files (manifest excluded). '
+          'Model bytes, if any, remain 30-day quarantined workflow artifacts and are not Git-committed. '
+          'No actual phone hardware or GPU was accessed, and no mobile WebGL pass is claimed.\n\n'
+          'Research branch only: dedicated Run156 workflow and #172 experiments; do not merge into main or edit 251-species producer, original prototype, design or live site. Added provider payment: $0.\n'
+          )
+          print('RUN156_EVIDENCE_SHA256_OK',len(hashes),'STATUS',states,'GLBS',count)
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run156-free-anonymous-native-3d-qa-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run156-TWO-ANONYMOUS-3D-NO_RELEASE/
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Commit only quarantined audit text and screenshots, never 3D binaries
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run156-TWO-ANONYMOUS-3D-NO_RELEASE"
+          git add --sparse "$R/2026-11-18-run156-two-public-generation-preview-source-audit-NO_RELEASE.md"
+          find "$O" -type f \( -name '*.json' -o -name '*.txt' -o -name '*.log' -o -name '*.png' -o -name '*.jpg' -o -name '*.flag' \) -print0 | xargs -0 -r git add --sparse --
+          git diff --cached --name-only >/tmp/run156_staged_paths.txt
+          if grep -Ei '\.(glb|blend|zip|fbx|obj|bin)$' /tmp/run156_staged_paths.txt; then echo 'PROHIBITED MODEL COMMIT'; exit 7; fi
+          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/' /tmp/run156_staged_paths.txt; then echo 'OUT OF SCOPE'; exit 8; fi
+          if [ -s /tmp/run156_staged_paths.txt ]; then
+             git commit -m 'research(owl172): archive actual Run156 free 3D browser evidence NO_RELEASE'
+             git push origin HEAD:research/owl172-run156-two-anonymous-native-preview-qa
+          fi

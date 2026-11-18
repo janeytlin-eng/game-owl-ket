@@ -36,3 +36,7 @@ Measured: one mesh, 2,274 vertices, 6,000 triangles; one connected component; tr
 **Rights and mobile QA:** Free generation does not itself establish rights to redistribute GLB. No verified publisher redistribution license and no real physical mobile WebGL/GPU rendering and FPS QA. No end-user sample released. New fingerprint added to #172 rejected native asset registry to avoid wasting future iterations; do not recolor, re-skin, or export this rejected topology as a production asset.
 
 **FINAL ART_REJECTED / NO_RELEASE.**
+
+## Follow-up: independent GitHub Actions reproduction, Run193b
+
+Actual free Mesa-backed VTK 9.6.2 succeeded in separate [Run193b](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44356825397); all seven original-byte native 3D camera PNGs plus one contact montage and source GLB are retained in 30-day original artifact ID `14452901922`, SHA256 manifest archived in the research branch. Original run193b final status text incorrectly says failed because it counted eight PNGs including the contact sheet, rather than exactly seven individual camera files. See [Run193b correction audit](2026-11-19-run193b-ci-sevenview-verified-status-correction-ART_REJECTED-NO_RELEASE.md). Art remains **ART_REJECTED / NO_RELEASE**; no physical smartphone GPU test.

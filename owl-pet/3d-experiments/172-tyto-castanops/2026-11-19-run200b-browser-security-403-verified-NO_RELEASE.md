@@ -1,0 +1,15 @@
+# Run200b — independent transport/security interpretation and evidence correction (NO_RELEASE)
+
+**Verified outcome: BOTH_SOURCES_HTTP_403 / NO_ORIGINAL_IMAGE_SUBMISSION / NO_NEW_NATIVE_GLB / NO_RELEASE.**
+
+Date: 2026-11-19 (Asia/Shanghai), machine evidence in [Run200](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44421324496), completed successfully as an auditing job, **not** as a successful 3D generation.
+
+The preflight actually accessed the `owl-pet` README and AGENTS, existing cat WebGL prototype, #172 Tyto castanops v3 design boundary, Run199b rejection audit, negative GLB registry, and pinned rightmost reference image. The **local source file** SHA256 was checked as `5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9`. This is a **local integrity check, not evidence of an upload**; the automated audit's phrase "actual original-source upload SHA256" is misleading and is explicitly corrected here.
+
+Real Chromium tried `https://3daistudio.pro/`: an HTTP 307 was followed by **403** HTML and an actual `/cdn-cgi/challenge-platform/` JavaScript verification route. Subsequent DOM inspection found no usable Image-to-3D tab, input or enabled generate button because the intended service was not accessible. Run200's `NO_FILE_INPUT` and `NO_ENABLED_GENERATE_BUTTON` are consequences of the **security-gated HTTP 403** response; not evidence that the legitimate interactive app lacks those controls. No upload was made and no generation job was submitted. No CAPTCHA was solved or bypassed.
+
+Real Chromium separately visited ArtistFrog's `https://www.cgtrader.com/free-3d-models/animal/bird/free-baby-owl-sculpt`. It returned **HTTP 403** before the marketplace model page or authorized download could be inspected. Public search excerpts describe a 2020 free baby owl *sculpt* with 236,060 polygons and a royalty-free (no AI) license, but these **external publisher claims were not confirmed by actual model acquisition**, and the renderer/artist quality gate is unassessed. The automated fields `contains_free:false`, `contains_no_ai_licence:false`, `needs_login_or_checkout:false` are all **unobservable due to blocked page**, not authoritative findings about the marketplace's actual licensing, cost or access restrictions. No purchase, login circumvent or raw asset redistribution occurred.
+
+Evidence: `research-evidence-run200-NEW-ANONYMOUS-IMAGE-TO-3D-NO_RELEASE/run200_results.json`, five genuine screenshots, HTTP path/status history, logs, original reference/preflight checksums, and reproducible SHA256 manifest in the isolated [30-day action artifact](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44421324496). All source/model GLB generation, native topology analysis, seven-view VTK art review, animations, and real mobile WebGL QA are **NOT_EXECUTED** for lack of a new model.
+
+No change to `main`, the separate 251-species production process, prior prototype, deployment or the established hard art gates. No additional expenditure. **NO_RELEASE**; do not notify user with an invented playable sample.

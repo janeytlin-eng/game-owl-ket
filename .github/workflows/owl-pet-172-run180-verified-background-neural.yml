@@ -4,7 +4,7 @@ on:
     branches:
       - research/owl172-run180-verified-background-clean-fresh-mesoptile
     paths:
-      - .github/workflows/owl-pet-172-run180-clean-source-neural.yml
+      - .github/workflows/owl-pet-172-run180-verified-background-neural.yml
       - owl-pet/3d-experiments/172-tyto-castanops/tools/run180_bg_cleanup_fresh_neural_mesh.py
 permissions:
   contents: write

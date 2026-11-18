@@ -54,7 +54,7 @@ jobs:
           sudo apt-get update -qq > "$O/apt_update.log" 2>&1
           sudo apt-get install -y -qq libosmesa6 libegl1 libgl1 > "$O/apt_install_mesa.log" 2>&1
           python -m pip install -q playwright==1.56.0 requests==2.32.5 trimesh==4.10.0 vtk==9.6.2 pillow==12.0.0 numpy > "$O/pip_install.log" 2>&1
-          python -m playwright install --with-deps chromium > "$O/browser_install.log" 2>&1
+          python -m playwright install chromium > "$O/browser_install.log" 2>&1
       - name: Actually browse zero-cost CC0 rigged asset, download legal free ZIP and inspect native GLB
         shell: bash
         timeout-minutes: 5

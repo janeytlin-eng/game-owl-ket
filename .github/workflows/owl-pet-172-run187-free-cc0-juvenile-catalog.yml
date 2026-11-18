@@ -1,0 +1,109 @@
+name: owl172 Run187 new CC0 juvenile native GLB access and structure gate NO_RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run187-free-cc0-juvenile-catalog-native-source
+    paths:
+      - .github/workflows/owl-pet-172-run187-free-cc0-juvenile-catalog.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run187_free_cc0_juvenile_catalog_probe.py
+permissions:
+  contents: write
+jobs:
+  actual-cc0-juvenile-source-check:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run187-free-cc0-juvenile-catalog-native-source
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/AGENTS.md
+            owl-pet/README.md
+            owl-pet/prototype/index.html
+            owl-pet/research/species/172-tyto-castanops-v3.md
+            owl-pet/3d-experiments/172-tyto-castanops/known_rejected_asset_sha256_registry.json
+            owl-pet/3d-experiments/172-tyto-castanops/2026-11-18-run186-dom-submission-verified-no-new-glb-NO_RELEASE.md
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run187_free_cc0_juvenile_catalog_probe.py
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify source and execute actual free read-only juvenile asset discovery and GLB validation
+        shell: bash
+        timeout-minutes: 6
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run187-CC0-JUVENILE-CATALOG-NO_RELEASE"
+          mkdir -p "$O"
+          python -m py_compile "$R/tools/run187_free_cc0_juvenile_catalog_probe.py"
+          python -u "$R/tools/run187_free_cc0_juvenile_catalog_probe.py" 2>&1 | tee "$O/run187_execution.log"
+      - name: Persist independently verified evidence hashes and honest no-release audit
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import datetime,hashlib,json,pathlib
+          r=pathlib.Path('owl-pet/3d-experiments/172-tyto-castanops')
+          o=r/'research-evidence-run187-CC0-JUVENILE-CATALOG-NO_RELEASE'
+          o.mkdir(parents=True,exist_ok=True)
+          result=json.loads((o/'run187_results.json').read_text()) if (o/'run187_results.json').exists() else {}
+          (o/'NO_RELEASE.flag').write_text('NO_RELEASE: no art-pass or real mobile-device QA; no paid external inference.\n')
+          m={str(p.relative_to(o)):{'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()}
+              for p in sorted(o.iterdir()) if p.is_file() and p.name!='run187_sha256_manifest.json'}
+          (o/'run187_sha256_manifest.json').write_text(json.dumps(m,indent=2)+'\n')
+          assert all(hashlib.sha256((o/name).read_bytes()).hexdigest()==meta['sha256'] for name,meta in m.items())
+          downloads=result.get('downloads',[])
+          status='NO_MATCHING_NATIVE_ASSET' if not downloads else 'REAL_ASSETS_UNREVIEWED'
+          lines=[
+           '# Run187 — fresh no-fee CC0 juvenile owl native 3D asset source audit',
+           '',
+           '**NO_RELEASE / ART_UNAPPROVED / PHYSICAL_MOBILE_UNTESTED.**',
+           '',
+           'Source-bound read-before-run: owl-pet/AGENTS.md, README.md, existing WebGL cat prototype, #172 v3 research specification, Run186 audit, real rightmost mesoptile PNG hash and known rejected GLB fingerprints.',
+           'Reference expected SHA256: 5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9.',
+           'Reference actual SHA256: '+str(result.get('reference_actual_sha256','NOT_CHECKED'))+'.',
+           '',
+           'Investigated the independent public [3DAssets.dev CC0 library](https://3dassets.dev/docs) through its official read-only JSON API, using a bounded six-phrase juvenile-owl query (never a bulk scrape), plus exact detail and CDN GLB downloads only for matching candidates with CC0 metadata. This is an actual network source discovery and binary glTF check, not a generated 3D model.',
+           'Actual HTTP request records: '+json.dumps([{'q':x.get('q'),'http':x.get('http'),'rows':x.get('row_count')} for x in result.get('requests',[])],ensure_ascii=False)+'.',
+           'Actual juvenile asset matches: '+str(len(result.get('assets_discovered',[])))+'.',
+           'Actual conditional downloads: '+json.dumps([{k:d.get(k) for k in ('id','http','bytes','sha256','status','geometry','art_gate')} for d in downloads],ensure_ascii=False,default=str)+'.',
+           'Source outcome: '+status+'. Binary GLB is only admitted into isolated 30-day Actions artifact, never committed/released as a pet. Mesh count or CC0 label cannot establish quality; anything potentially relevant still needs actual front/side/back native raster checks and distinct close-up fluffy cream down, faithful eye/disc, compact juvenile silhouette, closed supported underside and hollow support.',
+           '',
+           'Do not claim mobile GPU performance based on a desktop loader. No generated accepted GLB; no image/SVG or primitive stand-in substituted. Extra fees/paid credits: $0.',
+           'See research-evidence-run187-CC0-JUVENILE-CATALOG-NO_RELEASE/run187_results.json, raw HTTP response bodies, logs, and independent SHA256 manifest.',
+           'No changes to main, production workflow for 251 species, prior WebGL pet prototype, existing concept plate or deployed site.',
+           '',
+           '**FINAL NO_RELEASE.**'
+          ]
+          (r/'2026-11-18-run187-actual-cc0-juvenile-native-source-NO_RELEASE.md').write_text('\n'.join(lines)+'\n')
+          print('RUN187_EVIDENCE_SHA256_OK',len(m),'STATUS',status,flush=True)
+          PY
+      - name: Archive actual responses and any newly obtained unaccepted GLB privately as 30 day Actions artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run187-cc0-juvenile-native-source-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run187-CC0-JUVENILE-CATALOG-NO_RELEASE/
+          retention-days: 30
+      - name: Commit only research logs and audit, never an unreviewed mesh or production files
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run187-CC0-JUVENILE-CATALOG-NO_RELEASE"
+          git add --sparse "$R/2026-11-18-run187-actual-cc0-juvenile-native-source-NO_RELEASE.md"
+          find "$O" -maxdepth 1 -type f \( -name '*.txt' -o -name '*.log' -o -name '*.json' -o -name '*.response' -o -name '*.flag' \) -print0 | xargs -0 -r git add --sparse --
+          git diff --cached --name-only >/tmp/run187_changed_paths.txt
+          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/' /tmp/run187_changed_paths.txt; then exit 90; fi
+          if grep -Ei '\.(glb|fbx|blend|obj|zip|bin|png)$' /tmp/run187_changed_paths.txt; then exit 91; fi
+          if [ -s /tmp/run187_changed_paths.txt ]; then
+            git commit -m 'research(owl172): audit new free CC0 juvenile native model evidence no release'
+            git push origin HEAD:research/owl172-run187-free-cc0-juvenile-catalog-native-source
+          fi

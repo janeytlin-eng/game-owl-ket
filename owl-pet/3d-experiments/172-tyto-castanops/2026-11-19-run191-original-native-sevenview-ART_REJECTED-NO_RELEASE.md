@@ -2,7 +2,7 @@
 
 **ART_REJECTED / NO_RELEASE / NO_PHYSICAL_MOBILE_GPU_TEST.**
 
-UTC evidence: 2026-11-18T16:35:34.648569+00:00
+UTC evidence: 2026-11-18T16:37:55.996265+00:00
 Verified image input SHA256 5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9 and exact Run190 source-generated GLB SHA256 6c71558189df19947f1492faf8ecb9ed74bf5c2844cff200ea486f19f2e6a836; restored from Run190 immutable Actions artifact, not a sample asset.
 Run190 source generation really completed through the free Paint-3D.dev embedded frogleo-image-to-3d.hf.space Hunyuan Shape GPU UI; GLB is native geometry, 174,692 bytes, no textures and no materials, not a production-ready textured character.
 Independent native VTK mesh re-import and 7 orthographic camera views: UNAVAILABLE; UNKNOWN source triangles, UNKNOWN vertices; 7 PNG rasters and one contact sheet if successful, retained in isolated workflow artifact.

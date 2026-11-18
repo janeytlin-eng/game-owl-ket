@@ -24,9 +24,9 @@ EXPECTED_SHA = "5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9
 REGISTRY = BASE / "known_rejected_asset_sha256_registry.json"
 SITES = [
   {"name":"upsampler-free-sf3d", "url":"https://upsampler.com/free-image-to-3d-no-signup",
-   "generate":r"^(Convert to 3D|Generate 3D Model|Generate 3D|Generate|Create 3D)(?:\\b|$)"},
+   "generate":r"^(Convert to 3D|Generate 3D Model|Generate 3D|Generate|Create 3D)(?:\b|$)"},
   {"name":"vercel-open-2d3d", "url":"https://2d-to-3d-model.vercel.app/",
-   "generate":r"^(Generate 3D Model|Generate 3D|Generate|Convert|Create)(?:\\b|$)"},
+   "generate":r"^(Generate 3D Model|Generate 3D|Generate|Convert|Create)(?:\b|$)"},
 ]
 def utc():
     return datetime.now(timezone.utc).isoformat()

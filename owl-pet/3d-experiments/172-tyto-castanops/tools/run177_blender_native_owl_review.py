@@ -12,7 +12,7 @@ import os
 import traceback
 from pathlib import Path
 from mathutils import Vector
-import requests
+import urllib.request
 
 BASE=Path(__file__).resolve().parent.parent
 OUT=BASE/"research-evidence-run177-BLENDER-REAL-NEURAL-SIXVIEW-NO_RELEASE"
@@ -39,14 +39,17 @@ def run():
     assert EXPECTED_SHA not in previous, "Previously rejected mesh must not be repeated"
     STATE["preflight"]="PASS"
     save()
-    import requests
-    response=requests.get(SOURCE_URL,timeout=(15,150),stream=True)
-    STATE["source_get_http"]=response.status_code
-    assert response.status_code==200
+    request=urllib.request.Request(SOURCE_URL,headers={
+        "User-Agent":"Mozilla/5.0 (compatible; Owl172Run177Audit)",
+        "Accept":"application/octet-stream"})
     glb=OUT/"run177_neural_image_bound_UNREVIEWED.glb"
     n=0
-    with glb.open("wb") as f:
-        for chunk in response.iter_content(1048576):
+    with urllib.request.urlopen(request,timeout=180) as response, glb.open("wb") as f:
+        STATE["source_get_http"]=response.status
+        assert response.status==200
+        while True:
+            chunk=response.read(1048576)
+            if not chunk:break
             n+=len(chunk)
             assert n<32*1024*1024,"excessive_glb_size"
             f.write(chunk)
@@ -81,7 +84,8 @@ def run():
     scene=bpy.context.scene
     scene.render.engine="CYCLES"
     scene.cycles.samples=16
-    scene.cycles.use_denoising=True
+    try: scene.cycles.use_denoising=True
+    except AttributeError: pass
     scene.render.resolution_x=440
     scene.render.resolution_y=440
     scene.render.resolution_percentage=100
@@ -94,7 +98,8 @@ def run():
     background.inputs["Color"].default_value=(0.22,0.24,0.28,1)
     background.inputs["Strength"].default_value=.75
     scene.view_settings.view_transform="Standard"
-    scene.view_settings.look="Medium High Contrast" if "Medium High Contrast" in ["Medium High Contrast"] else "Medium High Contrast"
+    try: scene.view_settings.look="Medium High Contrast"
+    except TypeError: scene.view_settings.look="Medium High Contrast"
 
     def area(name, vector, power, size):
         data=bpy.data.lights.new(name=name,type="AREA")
@@ -126,7 +131,6 @@ def run():
         ("axis_negZ",(0,.1,-1)),
     ]
     images=[]
-    from PIL import Image,ImageDraw,ImageFont
     for label,direction in views:
         offset=Vector(direction).normalized()*extent*3
         camera.location=center+offset
@@ -138,13 +142,9 @@ def run():
         p=Path(scene.render.filepath)
         assert p.stat().st_size>3000, "empty_render"
         images.append((label,p))
-    composite=Image.new("RGB",(4*440,2*480),(226,228,230))
-    drawer=ImageDraw.Draw(composite)
-    for i,(name,p) in enumerate(images):
-        x=(i%4)*440;y=(i//4)*480
-        composite.paste(Image.open(p).convert("RGB"),(x,y+36))
-        drawer.text((x+9,y+12),name+" (uncalibrated axis)",fill=(24,24,24))
-    composite.save(OUT/"run177_blender_actual_glb_seven_axes_UNREVIEWED.png")
+    for label,p in images:
+        assert p.exists() and p.stat().st_size>3000
+    STATE["render_images_without_contact_sheet"]=[p.name for _,p in images]
     STATE["native_qa"]={"render_engine":"Blender "+bpy.app.version_string+" Cycles",
         "views":len(images),"resolution":"440x440","image_files":[p.name for _,p in images],
         "technical":"PASS","art":"UNREVIEWED"}

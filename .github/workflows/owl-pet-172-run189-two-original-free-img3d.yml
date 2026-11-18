@@ -1,0 +1,132 @@
+name: owl172 Run189 two independent no-fee original-photo image-to-3D native tests NO_RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run189-two-free-original-photo-img3d
+    paths:
+      - .github/workflows/owl-pet-172-run189-two-original-free-img3d.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run189_two_original_photo_free_browser.py
+permissions:
+  contents: write
+jobs:
+  two-real-free-owl-sources:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run189-two-free-original-photo-img3d
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/AGENTS.md
+            owl-pet/README.md
+            owl-pet/prototype/index.html
+            owl-pet/research/species/172-tyto-castanops-v3.md
+            owl-pet/3d-experiments/172-tyto-castanops/known_rejected_asset_sha256_registry.json
+            owl-pet/3d-experiments/172-tyto-castanops/2026-11-18-run187-actual-cc0-juvenile-native-source-NO_RELEASE.md
+            owl-pet/3d-experiments/172-tyto-castanops/2026-11-18-run188-3dai-textured-real-native-NO_RELEASE.md
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run189_two_original_photo_free_browser.py
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Preflight inspect true existing prototype, designs, rejected fingerprints
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run189-TWO-ORIGINAL-IMAGE-FREE-GLB-STRICT-NO_RELEASE"
+          mkdir -p "$O"
+          for f in owl-pet/AGENTS.md owl-pet/README.md owl-pet/prototype/index.html owl-pet/research/species/172-tyto-castanops-v3.md "$R/known_rejected_asset_sha256_registry.json" "$R/2026-11-18-run187-actual-cc0-juvenile-native-source-NO_RELEASE.md" "$R/2026-11-18-run188-3dai-textured-real-native-NO_RELEASE.md"; do
+            test -s "$f"
+            echo "$f $(sha256sum "$f")" >>"$O/preflight_read_hashes.txt"
+          done
+          sha256sum "$R/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png" | tee "$O/source_sha256.txt"
+          grep -q '^5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9 ' "$O/source_sha256.txt"
+          python -m py_compile "$R/tools/run189_two_original_photo_free_browser.py"
+      - name: Install free local Chromium browser
+        timeout-minutes: 4
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run189-TWO-ORIGINAL-IMAGE-FREE-GLB-STRICT-NO_RELEASE"
+          python -m pip install -q playwright==1.55.0 >"$O/pip_install.log" 2>&1
+          python -m playwright install chromium >"$O/chromium_install.log" 2>&1
+      - name: Actually upload target photo and attempt two new free source-bound native generations
+        continue-on-error: true
+        timeout-minutes: 8
+        shell: bash
+        run: |
+          set -o pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run189-TWO-ORIGINAL-IMAGE-FREE-GLB-STRICT-NO_RELEASE"
+          timeout 460s python -u "$R/tools/run189_two_original_photo_free_browser.py" 2>&1 | tee "$O/run189_actual_browser.log"
+      - name: Native GLB parse and independent integrity QA, always no release
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from datetime import datetime,timezone
+          from pathlib import Path
+          import hashlib,json,struct
+          r=Path('owl-pet/3d-experiments/172-tyto-castanops')
+          o=r/'research-evidence-run189-TWO-ORIGINAL-IMAGE-FREE-GLB-STRICT-NO_RELEASE'
+          o.mkdir(exist_ok=True,parents=True)
+          data=json.loads((o/'run189_results.json').read_text()) if (o/'run189_results.json').exists() else {}
+          meshes=[]
+          for f in sorted(o.glob('*.glb')):
+              bb=f.read_bytes()
+              valid=len(bb)>20 and bb[:4]==b'glTF' and struct.unpack_from('<I',bb,4)[0]==2 and struct.unpack_from('<I',bb,8)[0]==len(bb)
+              meshes.append({'file':f.name,'size':len(bb),'sha256':hashlib.sha256(bb).hexdigest(),'valid_glb_header':valid})
+          (o/'run189_native_header_checks.json').write_text(json.dumps(meshes,indent=2)+'\n')
+          (o/'NO_RELEASE.flag').write_text('No accepted character, no art six-view/rights/real phone GPU gate. No paid tool.\n')
+          manifests={p.name:{'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in sorted(o.iterdir()) if p.is_file() and p.name!='run189_sha256_manifest.json'}
+          (o/'run189_sha256_manifest.json').write_text(json.dumps(manifests,indent=2)+'\n')
+          for n,v in manifests.items():assert hashlib.sha256((o/n).read_bytes()).hexdigest()==v['sha256']
+          sites=data.get('sites',[])
+          lines=[
+            '# Run189 — two independent free native image-to-3D UI attempts',
+            '',
+            '**NO_RELEASE / ART_NOT_APPROVED / PHYSICAL_MOBILE_UNTESTED.**',
+            '',
+            'UTC audit: '+datetime.now(timezone.utc).isoformat()+'.',
+            'Preflight actually read owl-pet AGENTS/README, original cat WebGL prototype, #172 Tyto castanops v3 specification, Run187/188 audits and SHA256 rejected registry. Exact source photo hash: '+str(data.get('photo_sha256','NO_RESULT'))+'. Expected 5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9.',
+            'Independent free sources actually targeted: https://image-to-3d.app/ and https://triple3d.ai/image-to-3d. Never paid or bypassed anti-bot, credentials, credits or rate limits.',
+            'Source-bound browser results: '+json.dumps([{'site':x.get('name'),'phase':x.get('phase'),'upload':x.get('upload_success'),'submitted':x.get('submitted'),'native_result':x.get('new_glb',[]),'error':x.get('exception','')} for x in sites],ensure_ascii=False)+'.',
+            'New valid-quarantined GLBs: '+str(len(meshes))+'. Files if any are restricted to isolated 30-day GitHub Actions artifacts, not public or product releases.',
+            'Full original Chromium screenshots, DOM snapshots, HTTP statuses, actual outcomes, SHA256 manifests and unaccepted binary files if any are in the run artifact.',
+            'Native assets would still require original image fidelity, organic cream-down texture, proper heart facial disc, accurate juvenile round cranium, anatomically consistent lateral/posterior views and bottom/foot support, verified game-use licence, and actual mobile-phone WebGL GPU QA. No generated picture, stock preview, simple mesh or marketing animation is accepted as an owl pet.',
+            'No changes to main, the 251-species production workflow, owl-pet prototype or deployed site. Extra charge: USD 0.',
+            '',
+            '**FINAL NO_RELEASE.**'
+          ]
+          (r/'2026-11-18-run189-two-actual-free-image-to-3d-native-NO_RELEASE.md').write_text('\n'.join(lines)+'\n')
+          print('RUN189_HASH_OK',len(manifests),'NATIVE_GLB',len(meshes),flush=True)
+          PY
+      - name: Archive original evidence and unreviewed native files for 30 days
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run189-two-new-free-real-native-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run189-TWO-ORIGINAL-IMAGE-FREE-GLB-STRICT-NO_RELEASE/
+          retention-days: 30
+      - name: Commit only #172 audit and textual evidence, never unaccepted model
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run189-TWO-ORIGINAL-IMAGE-FREE-GLB-STRICT-NO_RELEASE"
+          git add --sparse "$R/2026-11-18-run189-two-actual-free-image-to-3d-native-NO_RELEASE.md"
+          find "$O" -maxdepth 1 -type f \( -name '*.txt' -o -name '*.log' -o -name '*.json' -o -name '*.flag' \) -print0 | xargs -0 -r git add --sparse --
+          git diff --cached --name-only > /tmp/run189_paths.txt
+          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/' /tmp/run189_paths.txt; then exit 90; fi
+          if grep -Ei '\.(glb|fbx|blend|obj|zip|bin|png|webp)$' /tmp/run189_paths.txt; then exit 91; fi
+          if [ -s /tmp/run189_paths.txt ]; then
+            git commit -m 'research(owl172): archive verified free original-photo image-to-3d browser outcomes no release'
+            git push origin HEAD:research/owl172-run189-two-free-original-photo-img3d
+          fi

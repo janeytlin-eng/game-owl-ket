@@ -1,0 +1,45 @@
+{
+  "run": 198,
+  "source": "https://hyper3d.site/en",
+  "cost_paid_usd": 0,
+  "no_login": true,
+  "challenge_bypass": false,
+  "source_image_sha256": "5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9",
+  "result": "BLOCKED_HTTP_OR_SECURITY_CHALLENGE",
+  "upload": false,
+  "submission": false,
+  "new_valid_glb": false,
+  "art_approved": false,
+  "real_phone_gpu_approved": false,
+  "no_release": true,
+  "status_samples": [
+    {
+      "t": 1795035415.0,
+      "text": "start: hyper3d.site\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nRay ID: a5c9e245fad231df\nPerformance and Security by Cloudflare\nPrivacy"
+    }
+  ],
+  "network_samples": [
+    {
+      "status": 403,
+      "url": "https://hyper3d.site/en",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "status": 200,
+      "url": "https://challenges.cloudflare.com/turnstile/v0/b/f8df4d4a0cd6/api.js?onload=_1a80194979c96a79b03204eb&render=explicit",
+      "content_type": "application/javascript; charset=UTF-8"
+    },
+    {
+      "status": 401,
+      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/pat/a5c9e24868465332/1795035408924/601e9e9ebca7306a47d5623a4ef737f26e12b75762e97459c3d3fea377d8a372/CuBZUCEP3Q5PNuf7ynbIwgfDISHT6Rv7o3w-OJBRQcUPrDLIBI2zImT05_T3_-5cn5oW6SLUVwBxgdye0FP5K",
+      "content_type": "text/plain; charset=utf-8"
+    }
+  ],
+  "errors": [],
+  "binary_candidates": [],
+  "browser_screenshots": [
+    "run198_start.png"
+  ],
+  "initial_http_status": 403,
+  "title": "Just a moment..."
+}

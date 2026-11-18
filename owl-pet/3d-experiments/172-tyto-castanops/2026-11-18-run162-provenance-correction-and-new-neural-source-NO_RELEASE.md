@@ -8,8 +8,8 @@ Preflight reread original owl-pet AGENTS, README, cat WebGL prototype, Tyto cast
 
 **Actual new sources visited and tested via Chromium:** [3DAI Studio](https://3dai.dev/en) and [Img3D](https://img3d.org/). Only visible public upload, generation and download widgets are used; no hidden endpoints, authentication circumvention, card or API credits.
 
-**Provider states:** {}
+**Provider states:** {"3daidev": "GENERATION_OR_PROVIDER_ERROR_NO_VALID_GLBS", "img3d": "GENERATION_OR_PROVIDER_ERROR_NO_VALID_GLBS"}
 
-**Fresh, non-demo, format-checked exported GLBs:** 0. A native file is not a quality pass. Blender reimport/render is conditional on a legitimate downloaded GLB; phone GPU WebGL is never inferred from desktop Chromium. No SVG or simple geometric assembly presented as artistic output. Evidence: [browser logs/screenshots, JSON metadata, checksum manifest](research-evidence-run162-NEW-NEURAL-PROVENANCE-NO_RELEASE/). Primary evidence files verified: 5.
+**Fresh, non-demo, format-checked exported GLBs:** 0. A native file is not a quality pass. Blender reimport/render is conditional on a legitimate downloaded GLB; phone GPU WebGL is never inferred from desktop Chromium. No SVG or simple geometric assembly presented as artistic output. Evidence: [browser logs/screenshots, JSON metadata, checksum manifest](research-evidence-run162-NEW-NEURAL-PROVENANCE-NO_RELEASE/). Primary evidence files verified: 21.
 
 Changes isolated to a research branch, this #172 directory, and the dedicated workflow. No changes to main, 251-species producer, original prototype, site or existing deployment. Extra charges: $0.

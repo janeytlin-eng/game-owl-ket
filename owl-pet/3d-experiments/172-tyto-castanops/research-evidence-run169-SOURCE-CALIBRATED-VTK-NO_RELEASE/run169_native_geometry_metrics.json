@@ -1,0 +1,73 @@
+{
+  "run": 169,
+  "source": "upsampler_sf3d_new_ui_generated_3d_UNREVIEWED.glb",
+  "source_sha256": "8ff7341725e4fc27caf3ff4dbb3b07fe9231a96d216de31317bddf2aa07a7b8b",
+  "source_bytes": 1184576,
+  "mesh_count": 1,
+  "vertex_count": 18366,
+  "triangle_count": 29984,
+  "uv": true,
+  "atlas_size": [
+    1024,
+    1024
+  ],
+  "atlas_frontal_patch_faces": 5899,
+  "atlas_frontal_patch_mean_normal": [
+    -0.1442623476178416,
+    -0.3139727386588456,
+    -0.9384079573612178
+  ],
+  "orientation_note": "Front identified by source atlas UV patch and mesh normal; -Z faces camera; +Y upright",
+  "native_format": "GLB 2; actual 3D mesh, NOT SVG",
+  "mobile_physical_gpu": "NOT_TESTED",
+  "release": false,
+  "art_decision": "UNREVIEWED_PENDING_RENDER_INSPECTION",
+  "rendered_views": [
+    {
+      "name": "front_negZ",
+      "file": "run169_front_negZ_UNREVIEWED.png",
+      "bytes": 336020,
+      "sha256": "371cec27cc10e43da5428b1a5ba5cb878d90d12d31ff2583dbbd8aebd9ac7515"
+    },
+    {
+      "name": "front_oblique_posX_negZ",
+      "file": "run169_front_oblique_posX_negZ_UNREVIEWED.png",
+      "bytes": 339550,
+      "sha256": "422773a85dbd907d36e4786e643374c76163eb6a79edbac1e2915556a0a5e25c"
+    },
+    {
+      "name": "side_posX",
+      "file": "run169_side_posX_UNREVIEWED.png",
+      "bytes": 323690,
+      "sha256": "886f8d140e9ae72603675386168dcedc34d5dca0b7a77cd8a65abd248def8542"
+    },
+    {
+      "name": "back_posZ",
+      "file": "run169_back_posZ_UNREVIEWED.png",
+      "bytes": 317609,
+      "sha256": "10e574013cde85e63b2f232dfa309e4380d43c56dadb28c032c3250bf1a542ca"
+    },
+    {
+      "name": "side_negX",
+      "file": "run169_side_negX_UNREVIEWED.png",
+      "bytes": 316165,
+      "sha256": "17085dfc3b255d01cc175028d9a9a302ef1b7b37374664ffca5ff6a5145f8db6"
+    },
+    {
+      "name": "underside_negY",
+      "file": "run169_underside_negY_UNREVIEWED.png",
+      "bytes": 326876,
+      "sha256": "9f8b9609cce521221fb2d3429afcd281754e61feb758212afb9f6a8b256e1df8"
+    }
+  ],
+  "vtk_version": "9.6.2",
+  "actor_count": 1,
+  "bounds": [
+    -0.37560510635375977,
+    0.3520251512527466,
+    -0.4039559066295624,
+    0.418407678604126,
+    -0.370800256729126,
+    0.355745792388916
+  ]
+}

@@ -1,0 +1,141 @@
+name: owl172 Run184 new zero-spend real image-conditioned 3D UI GLB & native WebGL NO_RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run184-two-free-true-image-to3d-native-ui
+    paths:
+      - .github/workflows/owl-pet-172-run184-real-free-image-to3d-ui.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run184_*
+permissions:
+  contents: write
+jobs:
+  actual-free-image-to-3d-two-web-interfaces:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 22
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run184-two-free-true-image-to3d-native-ui
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/AGENTS.md
+            owl-pet/README.md
+            owl-pet/prototype/index.html
+            owl-pet/research/species/172-tyto-castanops-v3.md
+            owl-pet/3d-experiments/172-tyto-castanops/known_rejected_asset_sha256_registry.json
+            owl-pet/3d-experiments/172-tyto-castanops/2026-11-18-run181-independent-sevenaxis-art-review-ART_REJECTED-NO_RELEASE.md
+            owl-pet/3d-experiments/172-tyto-castanops/2026-11-18-run182-new-highdetail-cc0-source-native-ART_REJECTED-NO_RELEASE.md
+            owl-pet/3d-experiments/172-tyto-castanops/2026-11-18-run183-real-free-juvenile-source-transport-NO_RELEASE.md
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run178_viewer.html
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run184_two_free_image3d_ui_probe.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run184_optional_native_webgl_orbit.py
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install only no-fee automated browser & actual GLB renderer
+        timeout-minutes: 6
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run184-TWO-NEW-REAL-IMAGE3D-UI-NO_RELEASE"
+          mkdir -p "$O"
+          python -m py_compile "$R/tools/run184_two_free_image3d_ui_probe.py" "$R/tools/run184_optional_native_webgl_orbit.py"
+          python -m pip install -q --disable-pip-version-check playwright==1.55.0 > "$O/run184_pip_install.log" 2>&1
+          python -m playwright install chromium > "$O/run184_chromium_install.log" 2>&1
+          mkdir -p /tmp/run184-three
+          (cd /tmp/run184-three && npm install --no-save --no-package-lock --ignore-scripts --no-fund --no-audit three@0.179.1) > "$O/run184_three_install.log" 2>&1
+      - name: Actually upload SHA-verified owl image to two distinct free native 3D generator UIs
+        timeout-minutes: 13
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -o pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run184-TWO-NEW-REAL-IMAGE3D-UI-NO_RELEASE"
+          timeout 760s python -u "$R/tools/run184_two_free_image3d_ui_probe.py" 2>&1 | tee "$O/run184_actual_native_browser.log"
+      - name: Conditional real GLB Three.js native seven-axis WebGL captures
+        if: always()
+        continue-on-error: true
+        timeout-minutes: 3
+        shell: bash
+        run: |
+          set -o pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run184-TWO-NEW-REAL-IMAGE3D-UI-NO_RELEASE"
+          if ! find "$O" -maxdepth 1 -type f -name '*_new_UI_generated_UNREVIEWED.glb' -size +100c | grep -q .; then
+            echo 'No new actual native generated GLB; Three.js render NOT RUN.' | tee "$O/run184_threejs_not_run.txt"
+          else
+            timeout 150s python -u "$R/tools/run184_optional_native_webgl_orbit.py" 2>&1 | tee "$O/run184_actual_sevenaxis_webgl.log"
+          fi
+      - name: Strict evidence SHA256, actual outcome and no-release audit
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import hashlib,json,pathlib,datetime
+          R=pathlib.Path("owl-pet/3d-experiments/172-tyto-castanops")
+          O=R/"research-evidence-run184-TWO-NEW-REAL-IMAGE3D-UI-NO_RELEASE"
+          O.mkdir(exist_ok=True,parents=True)
+          report=json.loads((O/"run184_results.json").read_text()) if (O/"run184_results.json").exists() else {}
+          (O/"NO_RELEASE.flag").write_text("Run184 NO_RELEASE: not art accepted, no physical smartphone GPU, no paid tools.\n")
+          manifest={p.name:{"bytes":p.stat().st_size,"sha256":hashlib.sha256(p.read_bytes()).hexdigest()}
+              for p in sorted(O.iterdir()) if p.is_file() and p.name!="run184_sha256_manifest.json"}
+          (O/"run184_sha256_manifest.json").write_text(json.dumps(manifest,indent=2)+"\n")
+          assert all(hashlib.sha256((O/k).read_bytes()).hexdigest()==v["sha256"] for k,v in manifest.items())
+          providers=report.get("providers",{})
+          states={k:v.get("output","NO_RESULT") for k,v in providers.items()}
+          n=report.get("valid_glb_count",0)
+          webgl=json.loads((O/"run184_real_native_webgl_summary.json").read_text()) if (O/"run184_real_native_webgl_summary.json").exists() else {}
+          lines=[
+           "# Run184 — two new free public image-conditioned GLB generators, actual browser testing",
+           "",
+           "**NO_RELEASE / ART_UNREVIEWED / NOT PHYSICAL MOBILE-ACCEPTED.**",
+           "",
+           "Preflight: owl-pet README, AGENTS and original WebGL prototype, #172 v3 cream downed rightmost mesoptile design, Run181 independently rejected 7-axis neural GLB, Run182 Blender apt install cancellation, Run183 free-source download block, known rejected GLB SHA registry.",
+           "Real original rightmost PNG SHA256: "+str(report.get("verified_source_sha","NOT_VERIFIED"))+" (expected 5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9).",
+           "",
+           "Compared two previously untested image-upload generators, [Trellis2.dev](https://trellis2.dev/) (advertised no account or fee and textured GLB) and [3DAI Studio](https://3dai.dev/en) (advertised free image-to-3D, textured/Hunyuan output and downloadable GLB). Marketing claims are not proof that generation or download succeeded.",
+           "Actual browser generated outcomes: "+json.dumps(states,ensure_ascii=False)+".",
+           "New source-bound, parseable GLB count: "+str(n)+". Exact machine results are in run184_results.json and the provider state JSON, actual screenshots, HTTP response metadata and independent SHA256 manifest.",
+           "Only downloaded real UI-generated GLB passes the provenance gate; sample/demo models and screenshots do not. Any GLB remains an unaccepted candidate in the isolated 30-day workflow artifact, never published as a completed owl.",
+           "Conditional real Three.js loaded results from downloaded actual GLB: "+json.dumps({k:{"loader":v.get("loader",{}).get("status","NOT_LOADED"),"orbit_images":len(v.get("views",{}))} for k,v in webgl.items()},ensure_ascii=False)+".",
+           "",
+           "Art requirement remains unmet until reviewed real multiview visibly shows thick soft cream mesoptile down, anatomically continuous heart-shaped disc with open dark eyes, compact crouching juvenile profile and back, concealed tail and down-buried wings, supported feet and eucalyptus hollow lip. WebGL in a simulated phone viewport is NOT actual phone hardware, GPU FPS or battery certification.",
+           "No paid credits, subscriptions, accounts, protection bypass or expensive installs. Entire change isolated to #172 experiments and dedicated workflow; main, all 251-species production, existing pet prototype and deployment untouched.",
+           "",
+           "**FINAL NO_RELEASE.**"
+          ]
+          (R/"2026-11-18-run184-new-free-real-image3d-browser-native-NO_RELEASE.md").write_text("\n".join(lines)+"\n")
+          print("RUN184_EVIDENCE_HASH_OK",len(manifest),"providers",states,"native_glb",n,flush=True)
+          PY
+      - name: Preserve real UI evidence, unaccepted native GLB if any, isolated 30 day
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run184-two-no-fee-image3d-actual-qa-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run184-TWO-NEW-REAL-IMAGE3D-UI-NO_RELEASE/
+          retention-days: 30
+      - name: Commit just #172 audit screenshots JSON and logs, never unaccepted model
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run184-TWO-NEW-REAL-IMAGE3D-UI-NO_RELEASE"
+          git add --sparse "$R/2026-11-18-run184-new-free-real-image3d-browser-native-NO_RELEASE.md"
+          find "$O" -maxdepth 1 -type f \( -name '*.txt' -o -name '*.log' -o -name '*.json' -o -name '*.png' -o -name '*.flag' \) -print0 | xargs -0 -r git add --sparse --
+          git diff --cached --name-only >/tmp/changed_run184_paths.txt
+          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/' /tmp/changed_run184_paths.txt; then exit 90; fi
+          if grep -Ei '\.(glb|fbx|blend|obj|zip|bin)$' /tmp/changed_run184_paths.txt; then exit 91; fi
+          if [ -s /tmp/changed_run184_paths.txt ]; then
+            git commit -m 'research(owl172): archive real free image-conditioned UI probe and native QA no release'
+            git push origin HEAD:research/owl172-run184-two-free-true-image-to3d-native-ui
+          fi

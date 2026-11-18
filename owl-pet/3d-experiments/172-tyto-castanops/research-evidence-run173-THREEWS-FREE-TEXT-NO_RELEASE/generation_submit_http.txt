@@ -1,5 +1,5 @@
-HTTP: 429
+HTTP: 200
 URL: https://three.ws/api/3d/generate
-HEADERS: {"retry-after": "10", "content-type": "application/json; charset=utf-8", "server": "Google Frontend"}
+HEADERS: {"retry-after": "9", "content-type": "application/json; charset=utf-8", "server": "Google Frontend"}
 
-{"error":"rate_limited","message":"The 3D generator is busy right now. Try again in a few seconds.","retry_after":10}
+{"status":"pending","job":"f1.eyJwIjoiZ2NwIiwiayI6bnVsbCwidCI6ImV5SnRiMlJsSWpvaWRISmxiR3hwY3lJc0luUmhjMnRKWkNJNklqYzNOelZpTWpVM0xXRmpPVFV0TkRKaE1DMWhZVFUxTFRSbU1USmtNRFE0Tm1VMVlpSXNJbUpoYzJWVmNtd2lPaUpvZEhSd2N6b3ZMMjF2WkdWc0xYUnlaV3hzYVhNdGJIQTJOREpyTTJ0d1lTMTFZeTVoTG5KMWJpNWhjSEFpTENKeVpYTjFiSFJMWlhraU9pSnlaWE4xYkhSZloyTnpYM1Z5YkNKOSJ9.M0GWd0UAkqVc1bRoYf7DQTYkddYV3fNNDiuDxs3nqsE","poll":"/api/3d/generate?job=f1.eyJwIjoiZ2NwIiwiayI6bnVsbCwidCI6ImV5SnRiMlJsSWpvaWRISmxiR3hwY3lJc0luUmhjMnRKWkNJNklqYzNOelZpTWpVM0xXRmpPVFV0TkRKaE1DMWhZVFUxTFRSbU1USmtNRFE0Tm1VMVlpSXNJbUpoYzJWVmNtd2lPaUpvZEhSd2N6b3ZMMjF2WkdWc0xYUnlaV3hzYVhNdGJIQTJOREpyTTJ0d1lTMTFZeTVoTG5KMWJpNWhjSEFpTENKeVpYTjFiSFJMWlhraU9pSnlaWE4xYkhSZloyTnpYM1Z5YkNKOSJ9.M0GWd0UAkqVc1bRoYf7DQTYkddYV3fNNDiuDxs3nqsE&title=A%20single%20realistic%20three-dimensional%20sculptural%20character%20of%20a%20very%20young%20Tasman","retryAfter":9,"etaSeconds":36,"creationId":"551c61b1-6c35-48d6-b1f4-45beeebc5c92","format":"glb","tier":"draft","free":true,"upgrade":{"message":"This is the free draft tier (NVIDIA NIM TRELLIS): single-subject, draft-fidelity geometry, no rigging. For higher polygon budgets + PBR textures use paid Forge Pro; for animation-ready rigged characters use Rigged Avatars.","forgePro":"/api/x402/forge","riggedAvatars":"/api/forge?action=rig","docs":"/docs/3d-api"}}

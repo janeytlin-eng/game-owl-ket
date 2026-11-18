@@ -6,10 +6,10 @@ Rechecked owl-pet AGENTS.md, README.md, WebGL prototype, Tyto castanops v3 right
 
 Actual new provider: https://three.ws/docs/3d-api . Consulted advertised free keyless API and submitted ONLY one request to the free text-to-3D endpoint POST /api/3d/generate. Never contacted paid Forge, rigging or x402, never paid. This route is deliberately TEXT-TO-3D, not a reconstruction from the target reference PNG; even a generated GLB cannot be labeled the original rightmost character.
 
-Actual provider/run status: **PROVIDER_HTTP_429**.
+Actual provider/run status: **UPSTREAM_ERROR**.
 Verified new native substantial GLBs: **0**. Actual native VTK renderer: **NOT_EXECUTED**. Phone GPU/WebGL physical device: **NOT TESTED**. Scientific/art acceptance: **NOT PASSED**. Additional spending: **$0**.
 
-Live HTTP responses, source checks, execution logs, structured result JSON, native GLB metrics and multi-axis PNG evidence if successful, NO_RELEASE marker and verified SHA256 manifest archived under research-evidence-run173-THREEWS-FREE-TEXT-NO_RELEASE. Evidence items: 8. Any native GLB remains only in quarantined 30-day GitHub Actions artifact, NOT committed or deployed.
+Live HTTP responses, source checks, execution logs, structured result JSON, native GLB metrics and multi-axis PNG evidence if successful, NO_RELEASE marker and verified SHA256 manifest archived under research-evidence-run173-THREEWS-FREE-TEXT-NO_RELEASE. Evidence items: 9. Any native GLB remains only in quarantined 30-day GitHub Actions artifact, NOT committed or deployed.
 
 No approximation with SVG, primitive toy geometry, rejected adult owl or false target-image provenance counts as success. Further gate: true natural cream down, integrated heart disc, accurate side and back, short hidden wings, concealed tail, hollow lip, legal provenance, mobile WebGL. Incomplete means NO_RELEASE.
 

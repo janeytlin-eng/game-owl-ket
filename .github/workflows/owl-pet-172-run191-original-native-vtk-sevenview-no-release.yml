@@ -49,7 +49,8 @@ jobs:
           set -euo pipefail
           R=owl-pet/3d-experiments/172-tyto-castanops
           O="$R/research-evidence-run191-WHITE-MESH-SEVENVIEW-ART_REJECTED-NO_RELEASE"
-          gh run download 44347490822 -n owl172-run190-fresh-public-native-attempt-NO_RELEASE -R janeytlin-eng/game-owl-ket -D "$O"
+          gh run download 44347490822 -n owl172-run190-fresh-public-native-attempt-NO_RELEASE -R janeytlin-eng/game-owl-ket -D "$O/upstream_run190"
+          cp "$O/upstream_run190/run190_paint-3d-dev_actual_new_source_QUARANTINED.glb" "$O/run190_paint-3d-dev_actual_new_source_QUARANTINED.glb"
           p="$O/run190_paint-3d-dev_actual_new_source_QUARANTINED.glb"
           test -s "$p"
           sha256sum "$p" | tee "$O/actual_source_mesh_sha256.txt"

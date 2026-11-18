@@ -1,0 +1,125 @@
+name: owl172 Run196 real Three.js WebGL rig donor evidence NO_RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run196-verified-browser-skinning-probe-no-release
+    paths:
+      - .github/workflows/owl-pet-172-run196-real-webgl-animation-donor-no-release.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run196_real_threejs_mobile_emulation_skinning.py
+permissions:
+  contents: write
+  actions: read
+jobs:
+  actual-threejs-mobile-viewport-emulated-no-release:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run196-verified-browser-skinning-probe-no-release
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/README.md
+            owl-pet/AGENTS.md
+            owl-pet/prototype/index.html
+            owl-pet/research/species/172-tyto-castanops-v3.md
+            owl-pet/3d-experiments/172-tyto-castanops/known_rejected_asset_sha256_registry.json
+            owl-pet/3d-experiments/172-tyto-castanops/2026-11-19-run195-real-free-cc0-rigged-owl-native-sevenview-ART_REJECTED-NO_RELEASE.md
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run196_real_threejs_mobile_emulation_skinning.py
+      - uses: actions/download-artifact@v4
+        with:
+          name: owl172-run195-free-CC0-native-rig-donor-NO_RELEASE
+          repository: janeytlin-eng/game-owl-ket
+          run-id: 44383285372
+          github-token: ${{ github.token }}
+          path: /tmp/run196-source
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify original free CC0 donor and science/photo gates without acquiring new assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run196-REAL-WEBGL-RIG-ART_REJECTED-NO_RELEASE"
+          mkdir -p "$OUT"
+          test -s /tmp/run196-source/run195_OWL_0.glb
+          test -s "$ROOT/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png"
+          test -s "$ROOT/known_rejected_asset_sha256_registry.json"
+          test -s "$ROOT/2026-11-19-run195-real-free-cc0-rigged-owl-native-sevenview-ART_REJECTED-NO_RELEASE.md"
+          sha256sum /tmp/run196-source/run195_OWL_0.glb | tee "$OUT/donor_sha256.txt"
+          grep -q '^a22017221687458f37b76991719cb80243b5f04554ae57f07503139f988add3f ' "$OUT/donor_sha256.txt"
+          sha256sum "$ROOT/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png" | tee "$OUT/target_sha256.txt"
+          grep -q '^5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9 ' "$OUT/target_sha256.txt"
+          python -m py_compile "$ROOT/tools/run196_real_threejs_mobile_emulation_skinning.py"
+          printf 'Source original CC0 sample ZIP: Run195 actions 44383285372, raw SHA above; NOT TARGET ART.\n' > "$OUT/source_provenance.txt"
+      - name: Install independently pinned free browser and real WebGL viewer tools
+        timeout-minutes: 6
+        shell: bash
+        run: |
+          set -euo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run196-REAL-WEBGL-RIG-ART_REJECTED-NO_RELEASE"
+          sudo apt-get update -qq > "$OUT/apt_update.log" 2>&1
+          sudo apt-get install -y -qq libosmesa6 libegl1 libgl1 > "$OUT/apt_mesa.log" 2>&1
+          python -m pip install -q playwright==1.56.0 > "$OUT/pip_install.log" 2>&1
+          python -m playwright install chromium > "$OUT/chromium_install.log" 2>&1
+          npm install --no-audit --no-fund --prefix /tmp/owl196-js three@0.181.2 > "$OUT/npm_three_install.log" 2>&1
+          node -p "require('/tmp/owl196-js/node_modules/three/package.json').version" > "$OUT/three_version.txt"
+      - name: Actually load GLB, render 390x844 touch viewport, sample skinned animations and capture WebGL
+        timeout-minutes: 5
+        shell: bash
+        run: |
+          set -o pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          OUT="$ROOT/research-evidence-run196-REAL-WEBGL-RIG-ART_REJECTED-NO_RELEASE"
+          timeout 260s python -u "$ROOT/tools/run196_real_threejs_mobile_emulation_skinning.py" \
+            --input /tmp/run196-source/run195_OWL_0.glb \
+            --modules /tmp/owl196-js/node_modules \
+            --out "$OUT" 2>&1 | tee "$OUT/actual_webgl_console.log"
+      - name: Make immutable SHA256 evidence with explicit art reject, no real-phone claim
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json,hashlib
+          from pathlib import Path
+          o=Path('owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run196-REAL-WEBGL-RIG-ART_REJECTED-NO_RELEASE')
+          o.mkdir(parents=True,exist_ok=True)
+          (o/'NO_RELEASE.flag').write_text('Run196: ART_REJECTED / NOT PHONE GPU / REJECTED DONOR ONLY / DO NOT PUBLISH\n')
+          raw=o/'run196_result.json'
+          if raw.exists():
+              a=json.loads(raw.read_text())
+              print('ACTUAL_BROWER_RESULT',a.get('status'),'SKINNING',a.get('skinning_verified'))
+          else:
+              (o/'run196_no_result.txt').write_text('No successful browser metadata; inspect workflow logs. NO_RELEASE\n')
+          d={p.name:{'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in sorted(o.iterdir()) if p.is_file() and p.name!='run196_evidence_sha256_manifest.json'}
+          (o/'run196_evidence_sha256_manifest.json').write_text(json.dumps(d,indent=2)+'\n')
+          assert all(hashlib.sha256((o/n).read_bytes()).hexdigest()==v['sha256'] for n,v in d.items())
+          print('RUN196_EVIDENCE_COUNT',len(d),'SCREENSHOTS',len(list(o.glob('run196_TRUE_WEBGL_*.png'))),'NO_RELEASE')
+          PY
+      - name: Quarantine real browser original visual evidence (no app publishing)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run196-real-threejs-webgl-emulation-ART_REJECTED-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run196-REAL-WEBGL-RIG-ART_REJECTED-NO_RELEASE/
+          retention-days: 30
+      - name: Commit only checked metadata in separate #172 research branch
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run196-REAL-WEBGL-RIG-ART_REJECTED-NO_RELEASE
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          find "$OUT" -maxdepth 1 -type f \( -name '*.json' -o -name '*.txt' -o -name '*.log' -o -name '*.flag' \) -print0 | xargs -0 -r git add --sparse --
+          git diff --cached --name-only > /tmp/owl196_paths
+          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/' /tmp/owl196_paths; then exit 80; fi
+          if grep -Ei '\.(glb|blend|obj|fbx|png|zip|webp|jpg|html)$' /tmp/owl196_paths; then exit 81; fi
+          if test -s /tmp/owl196_paths; then
+            git commit -m 'research(owl172): archive Run196 actual browser skinning checks NO_RELEASE'
+            git push origin HEAD:research/owl172-run196-verified-browser-skinning-probe-no-release
+          fi

@@ -137,6 +137,23 @@
           "grounds": "LOD retains 3,801 strands, thinner visibly sparse spike halo and same detached facial anatomy, still ART_REJECTED."
         }
       ]
+    },
+    {
+      "sha256": "8ff7341725e4fc27caf3ff4dbb3b07fe9231a96d216de31317bddf2aa07a7b8b",
+      "size_bytes": 1184576,
+      "source": "Upsampler public Stable Fast 3D free image-to-3D generator, user-targeted #172 v3 cream juvenile source input in Run165, native generated GLB independently source-verified and rendered Run169",
+      "first_checked_run": 169,
+      "first_generated_run": 165,
+      "real_glb": true,
+      "triangles": 29984,
+      "meshes": 1,
+      "texture_images": 2,
+      "materials": 1,
+      "animations": 0,
+      "art_decision": "ART_REJECTED",
+      "grounds": "Run169 genuine source-bound GLB SHA256 verified, face orientation discovered via base-color atlas UV patch and real per-face normals; 6 independent VTK 9.6.2 glTF import/re-lit native views: front has recognizable heart mask and dark eyes but profile forms pointed wedge/long rigid body, severe dark hard texture seams, back lacks an anatomically coherent buried juvenile wing structure, no fluffy mesoptile down, feet unsupported without eucalyptus hollow lip. Actual physical mobile WebGL untested because artistic gate failed. Format correctness not release quality.",
+      "reference": "2026-11-18-run169-source-calibrated-vtk-native-sixview-ART_REJECTED-NO_RELEASE.md",
+      "run169_workflow_url": "https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44252479962"
     }
   ],
   "instructions": "Before a new download, consult previous run records and this hash index. Once bytes are fetched compare sha256; if matching a rejected source, skip Blender/rig/WebGL/art release and log source identity. Publisher CC0 claims are not independently proven rights."

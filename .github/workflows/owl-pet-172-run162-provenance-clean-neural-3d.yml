@@ -1,0 +1,169 @@
+name: owl172 Run162 two free generators + source-provenance gate NO_RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run162-provenance-clean-neural-3d
+    paths:
+      - .github/workflows/owl-pet-172-run162-provenance-clean-neural-3d.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  genuine-image-to-mesh-probe:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 32
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run162-provenance-clean-neural-3d
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            .github/workflows/owl-pet-172-run162-provenance-clean-neural-3d.yml
+            owl-pet/AGENTS.md
+            owl-pet/README.md
+            owl-pet/prototype/index.html
+            owl-pet/research/species/172-tyto-castanops-v3.md
+            owl-pet/3d-experiments/172-tyto-castanops/known_rejected_asset_sha256_registry.json
+            owl-pet/3d-experiments/172-tyto-castanops/2026-11-18-run157-sculptly-upload-state-native-preview-audit-NO_RELEASE.md
+            owl-pet/3d-experiments/172-tyto-castanops/2026-11-18-run161-pic2mesh-native-fourview-actual-NO_RELEASE.md
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run161-PIC2MESH-NATIVE-FOURVIEW-NO_RELEASE/run161_actual_results.json
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run157_blender_orbit_if_native.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run162_public_neural_provenance.py
+      - name: Check existing prototype research exact reference and reject static toy-car demo
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run162-NEW-NEURAL-PROVENANCE-NO_RELEASE"
+          mkdir -p "$O"
+          for f in owl-pet/AGENTS.md owl-pet/README.md owl-pet/prototype/index.html owl-pet/research/species/172-tyto-castanops-v3.md "$R/2026-11-18-run161-pic2mesh-native-fourview-actual-NO_RELEASE.md"; do test -s "$f"; done
+          python3 -m py_compile "$R/tools/run162_public_neural_provenance.py"
+          python3 -m json.tool "$R/known_rejected_asset_sha256_registry.json" >/dev/null
+          echo '5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9  owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png' | sha256sum -c | tee "$O/source_sha256.log"
+          python3 - <<'PY' | tee "$O/prior_false_positive_test.log"
+          import json
+          from pathlib import Path
+          r=Path('owl-pet/3d-experiments/172-tyto-castanops')
+          previous=json.loads((r/'research-evidence-run161-PIC2MESH-NATIVE-FOURVIEW-NO_RELEASE/run161_actual_results.json').read_text())
+          glbs=previous['new_valid_glb']
+          sample_sha='e6ac576ae9b4641ae2afd84345fc94eaa7ce1b78a44b1c7e36bd8841c5d078c0'
+          assert len(glbs)==1 and glbs[0]['sha256']==sample_sha
+          assert 'toy-car' in glbs[0]['suggested_name']
+          events=previous['providers']['pic2mesh']['sampled_responses']
+          assert any('/samples/toy-car-generated.glb' in item['path'] for item in events)
+          print('RUN161_CLAIM_CORRECTED: static sample toy car; genuine owl GLBs = 0')
+          PY
+      - name: Actually visit two fresh free image-to-3D generators through public visible UI
+        timeout-minutes: 17
+        shell: bash
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run162-NEW-NEURAL-PROVENANCE-NO_RELEASE"
+          python3 -m pip install --break-system-packages -q 'playwright>=1.48,<2'
+          python3 -m playwright install --with-deps chromium
+          timeout 990s python3 -u "$R/tools/run162_public_neural_provenance.py" 2>&1 | tee "$O/run162_public_browser.log"
+      - name: Re-import legitimate freshly generated model and render four actual angles if present
+        if: always()
+        shell: bash
+        continue-on-error: true
+        timeout-minutes: 10
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run162-NEW-NEURAL-PROVENANCE-NO_RELEASE"
+          if ! find "$O" -maxdepth 1 -type f -name '*_new_ui_generated_3d_UNREVIEWED.glb' -size +100c | grep -q .; then
+            echo 'NO GENUINE EXPORT; no Blender orbit or mobile WebGL claim' | tee "$O/native_render_not_run.txt"
+            exit 0
+          fi
+          sudo apt-get update -qq
+          sudo apt-get install -y blender python3-numpy
+          python3 - <<'PY'
+          from pathlib import Path
+          r=Path('owl-pet/3d-experiments/172-tyto-castanops')
+          src=(r/'tools/run157_blender_orbit_if_native.py').read_text()
+          src=src.replace('research-evidence-run157-SCULPTLY-LIVE-UPLOAD-NO_RELEASE','research-evidence-run162-NEW-NEURAL-PROVENANCE-NO_RELEASE')
+          src=src.replace('RUN157_REAL_BLENDER_4_ORBITS_NO_RELEASE','RUN162_REAL_BLENDER_4_ORBITS_NO_RELEASE')
+          (r/'tools/run162_temp_native_orbit.py').write_text(src)
+          PY
+          timeout 460s blender -b -t 2 --python-exit-code 33 --python "$R/tools/run162_temp_native_orbit.py" > "$O/blender_import_render.log" 2>&1
+          grep -q RUN162_REAL_BLENDER_4_ORBITS_NO_RELEASE "$O/blender_import_render.log"
+      - name: Independent evidence manifest truthful correction and NO_RELEASE report
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          import json,hashlib,datetime
+          r=Path('owl-pet/3d-experiments/172-tyto-castanops')
+          o=r/'research-evidence-run162-NEW-NEURAL-PROVENANCE-NO_RELEASE'
+          o.mkdir(parents=True,exist_ok=True)
+          state=o/'run162_actual_results.json'
+          data=json.loads(state.read_text()) if state.exists() else {}
+          providers={k:v.get('status','UNKNOWN') for k,v in data.get('providers',{}).items()}
+          native=data.get('new_valid_glb',[])
+          (o/'NO_RELEASE.flag').write_text('NO_RELEASE; requires non-demo native GLB, four-view art pass and actual phone WebGL. Zero purchases.\n')
+          manifest={}
+          for f in sorted(o.iterdir()):
+              if f.is_file() and f.name!='sha256_manifest.json':
+                  manifest[f.name]={'bytes':f.stat().st_size,'sha256':hashlib.sha256(f.read_bytes()).hexdigest()}
+          (o/'sha256_manifest.json').write_text(json.dumps(manifest,indent=2,ensure_ascii=False))
+          assert all(hashlib.sha256((o/k).read_bytes()).hexdigest()==v['sha256'] for k,v in manifest.items())
+          report=r/'2026-11-18-run162-provenance-correction-and-new-neural-source-NO_RELEASE.md'
+          report.write_text(
+             '# #172 Tyto castanops v3 Run162 — actual free neural source test + native provenance correction\n\n'
+             '**NO_RELEASE / ART_UNREVIEWED. No accepted 3D owl pet, no new deployment.**\n\n'
+             'Preflight reread original owl-pet AGENTS, README, cat WebGL prototype, Tyto castanops v3 age-unknown mesoptile bounds and Run161 status. '
+             'Source exact rightmost cream chick SHA256: `5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9`.\n\n'
+             '**Critical source provenance correction:** Run160 and Run161 claim one newly generated 4,600,544 byte GLB from Pic2Mesh. '
+             'The Run161 JSON actually identifies `/samples/toy-car-generated.glb`, downloaded as `toy-car-generated.glb`, '
+             'SHA256 `e6ac576ae9b4641ae2afd84345fc94eaa7ce1b78a44b1c7e36bd8841c5d078c0`. '
+             'This was the website\'s static toy-car sample, **not** generation for our owl. The old valid_glb_v2=True '
+             'merely confirmed GLB format. Correct genuine new owl output across those two runs to **zero**. '
+             'Run162 has an enforced static-demo filename/URL/hash veto and requires a real clicked public generate control. '
+             'The targeted source-provenance regression assertion passed in GitHub Actions.\n\n'
+             '**Actual new sources visited and tested via Chromium:** '
+             '[3DAI Studio](https://3dai.dev/en) and [Img3D](https://img3d.org/). '
+             'Only visible public upload, generation and download widgets are used; no hidden endpoints, authentication circumvention, card or API credits.\n\n'
+             '**Provider states:** '+json.dumps(providers,ensure_ascii=False)+'\n\n'
+             '**Fresh, non-demo, format-checked exported GLBs:** '+str(len(native))+
+             '. A native file is not a quality pass. Blender reimport/render is conditional on a legitimate downloaded GLB; '
+             'phone GPU WebGL is never inferred from desktop Chromium. '
+             'No SVG or simple geometric assembly presented as artistic output. '
+             'Evidence: [browser logs/screenshots, JSON metadata, checksum manifest]'
+             '(research-evidence-run162-NEW-NEURAL-PROVENANCE-NO_RELEASE/). '
+             'Primary evidence files verified: '+str(len(manifest))+'.\n\n'
+             'Changes isolated to a research branch, this #172 directory, and the dedicated workflow. '
+             'No changes to main, 251-species producer, original prototype, site or existing deployment. Extra charges: $0.\n'
+          )
+          print('RUN162_EVIDENCE_CHECKED',len(manifest),'PROVIDERS',providers,'GLB',len(native))
+          PY
+      - name: Quarantine non-released files as GitHub Actions artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run162-new-free-sources-and-provenance-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run162-NEW-NEURAL-PROVENANCE-NO_RELEASE/
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Commit only #172 textual audit and evidence to this isolated branch
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run162-NEW-NEURAL-PROVENANCE-NO_RELEASE"
+          git add --sparse "$R/2026-11-18-run162-provenance-correction-and-new-neural-source-NO_RELEASE.md"
+          find "$O" -type f \( -name '*.json' -o -name '*.txt' -o -name '*.log' -o -name '*.png' -o -name '*.flag' \) -print0 | xargs -0 -r git add --sparse --
+          git diff --cached --name-only > /tmp/owl162_paths.txt
+          if grep -Ei '\.(glb|blend|zip|fbx|obj|bin)$' /tmp/owl162_paths.txt; then echo 'ERROR binary attempted staging'; exit 9; fi
+          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/' /tmp/owl162_paths.txt; then echo 'ERROR outside #172 scope'; exit 10; fi
+          if [ -s /tmp/owl162_paths.txt ]; then
+            git commit -m 'research(owl172): preserve corrected demo provenance and Run162 free source evidence NO_RELEASE'
+            git push origin HEAD:research/owl172-run162-provenance-clean-neural-3d
+          fi

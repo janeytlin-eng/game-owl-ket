@@ -50,7 +50,7 @@ def validate(path):
     import trimesh
     data=path.read_bytes()
     sha=hashlib.sha256(data).hexdigest()
-    rejected=set(re.findall(r"\\b[a-fA-F0-9]{64}\\b",KNOWN.read_text()))
+    rejected=set(re.findall(r"\b[a-fA-F0-9]{64}\b",KNOWN.read_text()))
     info={"sha256":sha,"bytes":len(data)}
     if sha in rejected: return {**info,"valid":False,"reason":"known rejected fingerprint"}
     if len(data)<65000 or data[:4]!=b"glTF":

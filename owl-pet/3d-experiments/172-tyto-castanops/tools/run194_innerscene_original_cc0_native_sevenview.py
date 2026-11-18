@@ -112,7 +112,7 @@ if status=="ORIGINAL_GLB_DOWNLOADED_NOT_ART_APPROVED":
         meshes=scene.dump(concatenate=False)
         if not isinstance(meshes,list):meshes=[meshes]
         meshes=[m for m in meshes if isinstance(m,trimesh.Trimesh) and len(m.faces)]
-        bounds=np.array([np.vstack((m.bounds for m in meshes)).min(axis=0),np.vstack((m.bounds for m in meshes)).max(axis=0)])
+        bounds=np.array([np.vstack([m.bounds for m in meshes]).min(axis=0),np.vstack((m.bounds for m in meshes)).max(axis=0)])
         center=bounds.mean(axis=0)
         extent=float((bounds[1]-bounds[0]).max())
         report["geometry"]["world_extents"]=(bounds[1]-bounds[0]).tolist()

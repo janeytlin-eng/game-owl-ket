@@ -1,0 +1,866 @@
+{
+  "name": "paint-3d-dev",
+  "url": "https://paint-3d.dev/",
+  "started": "2026-11-18T16:28:06.719448+00:00",
+  "phase": "submitted_free",
+  "frames": [
+    {
+      "url": "https://paint-3d.dev/",
+      "file_inputs": 0,
+      "buttons": 14,
+      "text": "Paint 3D\n3D Generator\nFeatures\nFAQ\nEnglish\nFree\n✨ Free AI image-to-3D — upload any image, get a 3D model\nCreate 3D Content Online with Paint 3D\n\nPaint 3D turns any image into a detailed 3D model. Upload a photo, generate in seconds, download a GLB file ready for games, 3D printing, or product visualization.\nFree. No signup. No install.\n\nTry Paint 3D Free\nPaint 3D — Image to 3D Generator\n\nUpload an image, generate a 3D model, download the GLB file. First generation may take 30 to 60 seconds while the GPU warms up.\n\nSee What Paint 3D Can Create\n\nPaint 3D reads the shape, color, and texture of an"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/",
+      "file_inputs": 1,
+      "buttons": 27,
+      "text": "AI 3D Model Generator\n\nOur Image-to-3D Generator transforms your 2D photos into stunning, AI generated 3D models—ready for games, AR/VR, or 3D printing. Our AI 3D Modeling is based on Hunyuan 2.0. Check more in imgto3d.ai.\n\nImage Prompt\nImage\nDrop Image Here\n- or -\nClick to Upload\nGenerate Shape\nAdvanced Options\n▼\nGenerated Mesh\n\nNo mesh here.\n\nDownload\nObj Path\nGlb Path\nImage Examples\nExamples\nPages:\n1\n2\n3\n4\nUse via API\n·\nBuilt with Gradio"
+    }
+  ],
+  "events": [
+    {
+      "t_sec": 11.6,
+      "event": "loaded",
+      "url": "https://paint-3d.dev/",
+      "title": "Paint 3D | Free AI 3D Generator Online, No Download"
+    },
+    {
+      "t_sec": 12.1,
+      "event": "image_file_inputs",
+      "count": 1
+    },
+    {
+      "t_sec": 12.1,
+      "event": "uploaded_exact_owned_v3_rightmost",
+      "sha256": "5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9",
+      "frame": "https://frogleo-image-to-3d.hf.space/"
+    },
+    {
+      "t_sec": 16.2,
+      "event": "real_generate_controls",
+      "count": 1
+    },
+    {
+      "t_sec": 16.2,
+      "event": "clicking_actual_free_generate",
+      "text": "Generate Shape",
+      "frame": "https://frogleo-image-to-3d.hf.space/"
+    },
+    {
+      "t_sec": 24.2,
+      "event": "poll",
+      "step": 1,
+      "tail": "for games, AR/VR, or 3D printing. Our AI 3D Modeling is based on Hunyuan 2.0. Check more in imgto3d.ai. Image Prompt Image Generate Shape Advanced Options ▼ Generated Mesh processing | 7.9/13.9s No mesh here. Download processing | 7.9/13.9s Obj Path processing | 7.9/13.9s Glb Path Image Examples Examples Pages: 1 2 3 4 Use via API · Built with Gradio Info Waiting for a GPU to become available ×"
+    },
+    {
+      "t_sec": 31.8,
+      "event": "poll",
+      "step": 2,
+      "tail": "r games, AR/VR, or 3D printing. Our AI 3D Modeling is based on Hunyuan 2.0. Check more in imgto3d.ai. Image Prompt Image Generate Shape Advanced Options ▼ Generated Mesh 15.4/13.9s Starting - 0.0% No mesh here. Download 15.4/13.9s Starting - 0.0% Obj Path 15.4/13.9s Starting - 0.0% Glb Path Image Examples Examples Pages: 1 2 3 4 Use via API · Built with Gradio Info Successfully acquired a GPU ×"
+    },
+    {
+      "t_sec": 39.3,
+      "event": "poll",
+      "step": 3,
+      "tail": "AI 3D Modeling is based on Hunyuan 2.0. Check more in imgto3d.ai. Image Prompt Image Generate Shape Advanced Options ▼ Generated Mesh 22.9/13.9s Reducing mesh faces - 60.0% No mesh here. Download 22.9/13.9s Reducing mesh faces - 60.0% Obj Path 22.9/13.9s Reducing mesh faces - 60.0% Glb Path Image Examples Examples Pages: 1 2 3 4 Use via API · Built with Gradio Info Successfully acquired a GPU ×"
+    },
+    {
+      "t_sec": 45.0,
+      "event": "actual_native_response",
+      "outcome": "native_source_bound_unreviewed",
+      "sha256": "6c71558189df19947f1492faf8ecb9ed74bf5c2844cff200ea486f19f2e6a836",
+      "bytes": 174692,
+      "origin": "https://frogleo-image-to-3d.hf.space/static/7b0e1aec-1a3e-4458-ba0f-c148921dbcdf/white_mesh.glb/",
+      "mesh_manifest": {
+        "meshes": 1,
+        "primitives": 1,
+        "textures": 0,
+        "materials": 0,
+        "nodes": 2
+      }
+    },
+    {
+      "t_sec": 46.8,
+      "event": "poll",
+      "step": 4,
+      "tail": "f Service AI 3D Model Generator Our Image-to-3D Generator transforms your 2D photos into stunning, AI generated 3D models—ready for games, AR/VR, or 3D printing. Our AI 3D Modeling is based on Hunyuan 2.0. Check more in imgto3d.ai. Image Prompt Image Generate Shape Advanced Options ▼ Generated Mesh Download Obj Path Glb Path Image Examples Examples Pages: 1 2 3 4 Use via API · Built with Gradio"
+    }
+  ],
+  "http": [
+    {
+      "url": "https://paint-3d.dev/",
+      "status": 200,
+      "method": "GET",
+      "resource": "document"
+    },
+    {
+      "url": "https://paint-3d.dev/_next/static/css/846d5a427dd3dec4.css",
+      "status": 200,
+      "method": "GET",
+      "resource": "stylesheet"
+    },
+    {
+      "url": "https://paint-3d.dev/imgs/features/paint-3d-image-to-3d-overview.webp",
+      "status": 200,
+      "method": "GET",
+      "resource": "image"
+    },
+    {
+      "url": "https://paint-3d.dev/_next/static/chunks/436c66b3-399e6d242a2988ea.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://paint-3d.dev/logo.png",
+      "status": 200,
+      "method": "GET",
+      "resource": "image"
+    },
+    {
+      "url": "https://paint-3d.dev/_next/static/css/2d8af717375d8d43.css",
+      "status": 200,
+      "method": "GET",
+      "resource": "stylesheet"
+    },
+    {
+      "url": "https://paint-3d.dev/_next/static/chunks/app/layout-958bdeb76c7f2c6a.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://paint-3d.dev/_next/static/chunks/712d2a0e-744a50bb2a03f4d8.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://paint-3d.dev/_next/static/chunks/771-7f55f93e3dba0531.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://paint-3d.dev/_next/static/chunks/webpack-5c341db935655989.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://paint-3d.dev/_next/static/chunks/110-b05440187a453e39.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://paint-3d.dev/_next/static/chunks/7548a3f2-2f56450f623f29d5.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://paint-3d.dev/_next/static/chunks/c06491d2-4149e56c1ed13be5.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://paint-3d.dev/_next/static/media/e4af272ccee01ff0-s.p.woff2",
+      "status": 200,
+      "method": "GET",
+      "resource": "font"
+    },
+    {
+      "url": "https://paint-3d.dev/_next/static/chunks/app/%5Blocale%5D/layout-4874edaecc960a99.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://paint-3d.dev/_next/static/chunks/765-fe7688daa3e1316f.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://paint-3d.dev/_next/static/chunks/330-cf9a270e2e2855a4.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://paint-3d.dev/_next/static/css/d8f3ac3fd0f18636.css",
+      "status": 200,
+      "method": "GET",
+      "resource": "stylesheet"
+    },
+    {
+      "url": "https://paint-3d.dev/_next/static/css/827658ac991ae42e.css",
+      "status": 200,
+      "method": "GET",
+      "resource": "stylesheet"
+    },
+    {
+      "url": "https://paint-3d.dev/_next/static/chunks/app/%5Blocale%5D/(landing)/page-ae7450dc8f822a2b.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://paint-3d.dev/_next/static/chunks/main-app-033596c803bc8869.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://paint-3d.dev/_next/static/chunks/230-51ba16cd419a1f1d.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://paint-3d.dev/_next/image",
+      "status": 200,
+      "method": "GET",
+      "resource": "image"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/",
+      "status": 200,
+      "method": "GET",
+      "resource": "document"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/index-BOW2xVAS.css",
+      "status": 200,
+      "method": "GET",
+      "resource": "stylesheet"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/index-BQPjLIsY.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/svelte/svelte.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Index-BEyjvDG_.css",
+      "status": 200,
+      "method": "GET",
+      "resource": "stylesheet"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Index-DB1XLvMK.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://paint-3d.dev/cdn-cgi/rum",
+      "status": 204,
+      "method": "POST",
+      "resource": "xhr"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/index-BOW2xVAS.css",
+      "status": 200,
+      "method": "GET",
+      "resource": "stylesheet"
+    },
+    {
+      "url": "https://huggingface.co/api/spaces/by-subdomain/frogleo-image-to-3d",
+      "status": 200,
+      "method": "GET",
+      "resource": "fetch"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Button-CTZL5Nos.css",
+      "status": 200,
+      "method": "GET",
+      "resource": "stylesheet"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Button-BIUaXfcG.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/theme.css",
+      "status": 200,
+      "method": "GET",
+      "resource": "stylesheet"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Blocks-yLdzXwzS.css",
+      "status": 200,
+      "method": "GET",
+      "resource": "stylesheet"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Blocks-CyfcXtBq.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2",
+      "status": 200,
+      "method": "GET",
+      "resource": "stylesheet"
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2",
+      "status": 200,
+      "method": "GET",
+      "resource": "stylesheet"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/sourcesanspro/v24/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2",
+      "status": 200,
+      "method": "GET",
+      "resource": "font"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Example-FbnSQP03.css",
+      "status": 200,
+      "method": "GET",
+      "resource": "stylesheet"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Index-Xv8ZQETB.css",
+      "status": 200,
+      "method": "GET",
+      "resource": "stylesheet"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Index-CptIZeFZ.css",
+      "status": 200,
+      "method": "GET",
+      "resource": "stylesheet"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Index-C43SQM_O.css",
+      "status": 200,
+      "method": "GET",
+      "resource": "stylesheet"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Index-BK-zC9ir.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Copy-B6RcHnoK.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Check-CZUQOzJl.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Index.svelte_svelte_type_style_lang-OwOFPfLe.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/prism-python-BTLCWl-V.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/ImagePreview-DlqNSi_R.css",
+      "status": 200,
+      "method": "GET",
+      "resource": "stylesheet"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Image-B8dFOee4.css",
+      "status": 200,
+      "method": "GET",
+      "resource": "stylesheet"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Index-CJeiS5ET.css",
+      "status": 200,
+      "method": "GET",
+      "resource": "stylesheet"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/ImageUploader-r0sXxVKa.css",
+      "status": 200,
+      "method": "GET",
+      "resource": "stylesheet"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Example-DikqVAPo.css",
+      "status": 200,
+      "method": "GET",
+      "resource": "stylesheet"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Index-BicZ6NTU.css",
+      "status": 200,
+      "method": "GET",
+      "resource": "stylesheet"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/ModifyUpload-C849vsWf.css",
+      "status": 200,
+      "method": "GET",
+      "resource": "stylesheet"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Example.svelte_svelte_type_style_lang-DXGdiQV3.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Example-Ig2aUhUe.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Download-DVtk-Jv3.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/BlockLabel-BlSr62f_.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Index-DesKBBmJ.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/ImagePreview-BpvYwBpC.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/UploadText-CCg0GCB-.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Index-B0JJ6p9c.css",
+      "status": 200,
+      "method": "GET",
+      "resource": "stylesheet"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Index-BTCbxfal.css",
+      "status": 200,
+      "method": "GET",
+      "resource": "stylesheet"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Index-D9JcTZE7.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Index-tcNSQSor.css",
+      "status": 200,
+      "method": "GET",
+      "resource": "stylesheet"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Example-Cj3ii62O.css",
+      "status": 200,
+      "method": "GET",
+      "resource": "stylesheet"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Index-C5NYahSl.css",
+      "status": 200,
+      "method": "GET",
+      "resource": "stylesheet"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/ShareButton-DRfMJDgB.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Info-CrBVEpWV.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Empty-BgF7sXBn.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Textbox-D8IAzrZj.css",
+      "status": 200,
+      "method": "GET",
+      "resource": "stylesheet"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Index-D3f6Hf9S.css",
+      "status": 200,
+      "method": "GET",
+      "resource": "stylesheet"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/BlockTitle-CXNngU7y.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Image-Bsh8Umrh.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Minimize-X5PPawdt.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Index-BUc4SVJJ.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Code-DGNrTu_I.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/utils-Gtzs_Zla.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Index-QJJ51qFF.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Index-DRonTktv.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Index-DDCF2BFd.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Image-CJc3fwmN.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/file-url-SIRImsEF.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Example-CSVraJnq.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Upload-Cp8Go_XF.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Index-CuoXAbPt.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/SelectSource-C3FIO9My.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Index-CEDCRqJB.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Index-CSD8SlVL.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Index-qbjg5-4V.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Example-C7XUkkid.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Textbox-BxQ_qaNA.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/DownloadLink-CHpWw1Ex.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Index-Tmzj9QOr.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/DropdownArrow-B_jYsAai.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Upload-1-QDTAlg.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/ImageUploader-Dh2I3hM7.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/assets/Index-BEKHNubq.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/file=/tmp/gradio/3dbbff31a72949c8f125e1598fbb4c7d9e6459dfa5e5280a0eb581c0ca608815/1008.png",
+      "status": 200,
+      "method": "GET",
+      "resource": "image"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/file=/tmp/gradio/66305f50ddd7d90e521d718952c702b9fb71c30efe6970d39d918f6dbf5b6ec3/1029.png",
+      "status": 200,
+      "method": "GET",
+      "resource": "image"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/file=/tmp/gradio/d9d43eae5cc61c872bc01d480de4e8954da352743d81f9329345d96e052ee2ac/1111.png",
+      "status": 200,
+      "method": "GET",
+      "resource": "image"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/file=/tmp/gradio/58b926e26c0026df16378e214fb046e63dd0edceacb0f8db8005d9ed3f86949a/075.png",
+      "status": 200,
+      "method": "GET",
+      "resource": "image"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/file=/tmp/gradio/60abb50511ed23cf3432497dcae628b2efb56ec7a100b5c18fb4a0ac497617cc/101.png",
+      "status": 200,
+      "method": "GET",
+      "resource": "image"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/file=/tmp/gradio/df4284dabd513c4826d1cda8ad2dc6687ee4c30229d41c3d631749329175c90c/1022.png",
+      "status": 200,
+      "method": "GET",
+      "resource": "image"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/file=/tmp/gradio/95e6a4428192731671218e9a63a37c182ebdd2d916f862dbbaed1b6595fd6bf3/1135.png",
+      "status": 200,
+      "method": "GET",
+      "resource": "image"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/file=/tmp/gradio/09cc96314115f1786047576e7f8c2da3b79b2c45add1c257476f3f0967856e81/1128.png",
+      "status": 200,
+      "method": "GET",
+      "resource": "image"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/file=/tmp/gradio/b8cdb334f8603e4dc2b61abbb4c225fe17597195e4a0540c644742643a5b0afd/1037.png",
+      "status": 200,
+      "method": "GET",
+      "resource": "image"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/file=/tmp/gradio/63dfa62dc5a19a1a3bd2df1d1589644f98dea501a4b31cb02a71679d0c74a0e7/052.png",
+      "status": 200,
+      "method": "GET",
+      "resource": "image"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/file=/tmp/gradio/d5da714682417e8a9df71e9bdcf409f3ad045f07e20a16a62dbfd48c4cbe7278/1079.png",
+      "status": 200,
+      "method": "GET",
+      "resource": "image"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/file=/tmp/gradio/afc0a4ee17882291aacedb6b2a6b1ca0e24912a3dc566efdb4d4c3400bc002e2/073.png",
+      "status": 200,
+      "method": "GET",
+      "resource": "image"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/file=/tmp/gradio/6d08caba0671ffee9a683c5b3ca101b272cec71d3eb9e93b6e8d2b65ddd417fc/004.png",
+      "status": 200,
+      "method": "GET",
+      "resource": "image"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/file=/tmp/gradio/145a64a2e0afa2ea2c14940a780c74ba7427a3f2ce7ae815c730b68c859565a8/1123.png",
+      "status": 200,
+      "method": "GET",
+      "resource": "image"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/file=/tmp/gradio/37ffc62ae54489a600f6dc4a22c3cde642426bd9d940e63ac7a0da79d06409ac/1180.png",
+      "status": 200,
+      "method": "GET",
+      "resource": "image"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/file=/tmp/gradio/24d1ae7ccc5797acb87d17b2965a2b45a459054ffb44c106d41c91d6b358edd0/1148.png",
+      "status": 200,
+      "method": "GET",
+      "resource": "image"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/file=/tmp/gradio/c37b96e362d925be05925a307d02a6f2af0fe74dccee4a8679d97ad5a872d63e/1146.png",
+      "status": 200,
+      "method": "GET",
+      "resource": "image"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/file=/tmp/gradio/1b74a7f8abc13c7cf13177e1704cfaa5bcc6c7448cbf56a0fecb2b0082abf3c5/1154.png",
+      "status": 200,
+      "method": "GET",
+      "resource": "image"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/upload_progress",
+      "status": 200,
+      "method": "GET",
+      "resource": "fetch"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/upload",
+      "status": 200,
+      "method": "POST",
+      "resource": "fetch"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/file=/tmp/gradio/5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9/rightmost_mesoptile_input.png",
+      "status": 200,
+      "method": "GET",
+      "resource": "image"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/queue/join",
+      "status": 200,
+      "method": "POST",
+      "resource": "fetch"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/queue/data",
+      "status": 200,
+      "method": "GET",
+      "resource": "fetch"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/static/7b0e1aec-1a3e-4458-ba0f-c148921dbcdf/white_mesh.html",
+      "status": 200,
+      "method": "GET",
+      "resource": "document"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/@google/model-viewer@3.1.1/dist/model-viewer.min.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://frogleo-image-to-3d.hf.space/static/7b0e1aec-1a3e-4458-ba0f-c148921dbcdf/white_mesh.glb/",
+      "status": 200,
+      "method": "GET",
+      "resource": "fetch"
+    }
+  ],
+  "submitted": true,
+  "source_uploaded": true,
+  "verified_new_glb": [
+    {
+      "outcome": "native_source_bound_unreviewed",
+      "sha256": "6c71558189df19947f1492faf8ecb9ed74bf5c2844cff200ea486f19f2e6a836",
+      "bytes": 174692,
+      "origin": "https://frogleo-image-to-3d.hf.space/static/7b0e1aec-1a3e-4458-ba0f-c148921dbcdf/white_mesh.glb/",
+      "mesh_manifest": {
+        "meshes": 1,
+        "primitives": 1,
+        "textures": 0,
+        "materials": 0,
+        "nodes": 2
+      }
+    }
+  ],
+  "issues": [],
+  "ended": "2026-11-18T16:28:53.798882+00:00"
+}

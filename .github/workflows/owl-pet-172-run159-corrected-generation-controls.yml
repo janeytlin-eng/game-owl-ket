@@ -114,7 +114,7 @@ jobs:
              'clicks permitted public generation controls, polls for about 132 s and attempts '
              'user-visible GLB export without login or gate bypass. Two sources with real, verified controls: '
              '[Paint 3D](https://paint-3d.dev/) and [Hy3D](https://hy3d.dev/). '
-             '[3D AI Maker](https://3daimaker.com/). Their advertised availability '
+             'Their advertised availability '
              'does not guarantee real output.\n\n'
              '**Observed result per source:** '+json.dumps(providers,ensure_ascii=False)+'\n\n'
              '**Native newly exported, GLB-header-and-mesh checked assets:** '+str(len(glbs))+'. '

@@ -154,6 +154,21 @@
       "grounds": "Run169 genuine source-bound GLB SHA256 verified, face orientation discovered via base-color atlas UV patch and real per-face normals; 6 independent VTK 9.6.2 glTF import/re-lit native views: front has recognizable heart mask and dark eyes but profile forms pointed wedge/long rigid body, severe dark hard texture seams, back lacks an anatomically coherent buried juvenile wing structure, no fluffy mesoptile down, feet unsupported without eucalyptus hollow lip. Actual physical mobile WebGL untested because artistic gate failed. Format correctness not release quality.",
       "reference": "2026-11-18-run169-source-calibrated-vtk-native-sixview-ART_REJECTED-NO_RELEASE.md",
       "run169_workflow_url": "https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44252479962"
+    },
+    {
+      "sha256": "c56c1a1c0159e11a140f587f12ad4c84b49fdb38b9b3142078f3de9d75f46e99",
+      "size_bytes": 10840896,
+      "source": "three.ws public free MCP Studio mesh_forge Run175, original #172 Tyto castanops v3 rightmost cream owl image-conditioned GLB, recovered Run176 and browser-rendered Run178",
+      "first_checked_run": 175,
+      "also_checked_run": 178,
+      "real_glb": true,
+      "mesh_count": 1,
+      "triangles": 90618,
+      "materials": 1,
+      "texture_maps": 1,
+      "art_decision": "ART_REJECTED",
+      "grounds": "Independently visually reviewed real Chrome Three.js/SwiftShader 7-axis screenshot sheet in Run178: one coherent heart-mask face but eyes half-lidded/stern and mask visibly protruding; crusty rigid/scaly grey-brown surfaces rather than dense silky cream juvenile down; large adult-like layered rigid wings and sharp pointed tail protrude in profile and back; exposed talons lack eucalypt hollow support; underside view is a dark open/broken shell with severe geometry defects. One texture, 10.84MB, 90,618 triangles. Browser 390x844 emulation rendered successfully but actual phone GPU and mobile FPS not tested. ART_REJECTED; never present as accepted high-quality pet.",
+      "reference": "2026-11-18-run178-independent-art-review-ART_REJECTED-NO_RELEASE.md"
     }
   ],
   "instructions": "Before a new download, consult previous run records and this hash index. Once bytes are fetched compare sha256; if matching a rejected source, skip Blender/rig/WebGL/art release and log source identity. Publisher CC0 claims are not independently proven rights."

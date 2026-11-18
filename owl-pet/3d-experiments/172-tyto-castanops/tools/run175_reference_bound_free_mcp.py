@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Run175: one real no-fee image-conditioned three.ws MCP studio mesh, audit only.
 
+Run174 confirmed another free text-only three.ws upstream error (no GLB); this
+run instead uses the real rightmost reference crop through an image-bound tool.
 Never use payment endpoints, alternate quota identities, screenshots of a viewer
 as a GLB, or previous rejected meshes. The output is UNREVIEWED by construction.
 """

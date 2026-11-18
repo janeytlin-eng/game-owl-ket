@@ -1,0 +1,42 @@
+{
+  "run": 174,
+  "started_utc": "2026-11-18T09:49:32.674378+00:00",
+  "method": "single free three.ws POST /api/3d/generate after prior upstream failure; independent Gaitkit juvenile source licensing gate",
+  "generation": "text_to_3d_ONLY_NOT_SOURCE_IMAGE_BOUND",
+  "prompt": "A single professional, highly detailed, organic three-dimensional sculptural character of a very young Tasmanian masked owl (Tyto castanops), age-unknown fluffy mesoptile nestling. Rounded compact crouched chick with thick soft creamy ivory-white down everywhere, a broad continuous heart-shaped facial disc, two large open dark glossy eyes recessed naturally in the face, small pale beak, no ear tufts, very short wings almost hidden under down, no visible tail, two feet tucked naturally underneath. Complete anatomical side and rear silhouette, organic feather texture rather than spikes, no adult wing feathers, no plastic toy seams. One isolated full-body subject, neutral lighting, centered.",
+  "reference_sha256": "5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9",
+  "free_only": true,
+  "payment": 0,
+  "status": "UPSTREAM_ERROR",
+  "new_valid_glb": [],
+  "release": false,
+  "art": "UNREVIEWED",
+  "physical_mobile_GPU": "NOT_TESTED",
+  "preflight": "PASS",
+  "juvenile_source_probe": {
+    "juvenile_catalogue": {
+      "source": "https://gaitkit.com/asset/eaglet",
+      "http": 200,
+      "marked_pro": true,
+      "contains_eaglet": true,
+      "contains_no_asset_redistribution": false,
+      "kind": "catalogue_metadata_only_NOT_a_3D_file"
+    },
+    "asset_license": {
+      "source": "https://gaitkit.com/license",
+      "http": 200,
+      "marked_pro": false,
+      "contains_eaglet": false,
+      "contains_no_asset_redistribution": true,
+      "kind": "catalogue_metadata_only_NOT_a_3D_file"
+    }
+  },
+  "juvenile_source_decision": "NOT_TARGET_TYTO_AND_PRO_GATED_DO_NOT_DOWNLOAD",
+  "catalogue_http": 200,
+  "submit_http": 200,
+  "last_response_status": "error",
+  "polls": 1,
+  "poll_http": 200,
+  "provider_error": "3D generation hit a snag, please try again.",
+  "completed_utc": "2026-11-18T09:50:24.397323+00:00"
+}

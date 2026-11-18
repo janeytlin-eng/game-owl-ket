@@ -1,0 +1,118 @@
+name: owl172 Run193b exact-source native 7-camera render and art rejection NO_RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run193-two-public-zerocharge-native-gates
+    paths:
+      - .github/workflows/owl-pet-172-run193b-independent-native-sevenview-no-release.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run193b_actual_native_glb_vtk_multiview.py
+permissions:
+  contents: write
+  actions: read
+jobs:
+  verified-native-sevenview:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run193-two-public-zerocharge-native-gates
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/AGENTS.md
+            owl-pet/README.md
+            owl-pet/prototype/index.html
+            owl-pet/research/species/172-tyto-castanops-v3.md
+            owl-pet/3d-experiments/172-tyto-castanops/known_rejected_asset_sha256_registry.json
+            owl-pet/3d-experiments/172-tyto-castanops/2026-11-19-run193-source-bound-sevenview-ART_REJECTED-NO_RELEASE.md
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run193b_actual_native_glb_vtk_multiview.py
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Preflight exact original #172 reference, design, registry and previous visual audit
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run193b-EXACT-GLB-SEVENVIEW-ART_REJECTED-NO_RELEASE"
+          mkdir -p "$O"
+          for f in owl-pet/AGENTS.md owl-pet/README.md owl-pet/prototype/index.html owl-pet/research/species/172-tyto-castanops-v3.md "$R/known_rejected_asset_sha256_registry.json" "$R/2026-11-19-run193-source-bound-sevenview-ART_REJECTED-NO_RELEASE.md"; do
+            test -s "$f" && sha256sum "$f" >> "$O/preflight_sha256.txt"
+          done
+          sha256sum "$R/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png" | tee "$O/source_sha256.txt"
+          grep -q '^5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9 ' "$O/source_sha256.txt"
+          python -m py_compile "$R/tools/run193b_actual_native_glb_vtk_multiview.py"
+      - name: Restore verified original generated GLB from Run193, no marketing demo
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run193b-EXACT-GLB-SEVENVIEW-ART_REJECTED-NO_RELEASE"
+          gh run download 44354245933 -n owl172-run193-fresh-public-native-attempt-NO_RELEASE -R janeytlin-eng/game-owl-ket -D "$O/upstream_run193"
+          cp "$O/upstream_run193/run193_vercel-open-2d3d_actual_new_source_QUARANTINED.glb" "$O/run193_vercel-open-2d3d_actual_new_source_QUARANTINED.glb"
+          sha256sum "$O/run193_vercel-open-2d3d_actual_new_source_QUARANTINED.glb" | tee "$O/native_source_sha256.txt"
+          grep -q '^0975dbc508f4ba5998a1590aeda99abfb22a0a9ab35c6b71fabf665fefdebe32 ' "$O/native_source_sha256.txt"
+      - name: Install free Mesa headless native renderer, actual VTK 9.6.2 and trimesh
+        timeout-minutes: 6
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run193b-EXACT-GLB-SEVENVIEW-ART_REJECTED-NO_RELEASE"
+          sudo apt-get update -qq > "$O/apt_update.log" 2>&1
+          sudo apt-get install -y -qq libosmesa6 libegl1 libgl1 > "$O/apt_install_mesa.log" 2>&1
+          python -m pip install -q vtk==9.6.2 trimesh==4.10.0 pillow==12.0.0 > "$O/pip_install_native.log" 2>&1
+      - name: Truly import original GLB and render 7 orthographic cameras
+        timeout-minutes: 4
+        shell: bash
+        run: |
+          set -o pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run193b-EXACT-GLB-SEVENVIEW-ART_REJECTED-NO_RELEASE"
+          VTK_DEFAULT_OPENGL_WINDOW=vtkOSOpenGLRenderWindow timeout 200s python -u "$R/tools/run193b_actual_native_glb_vtk_multiview.py" 2>&1 | tee "$O/actual_render.log"
+      - name: Explicit no-release verdict and SHA256 manifest
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import hashlib,json
+          from pathlib import Path
+          o=Path('owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run193b-EXACT-GLB-SEVENVIEW-ART_REJECTED-NO_RELEASE')
+          o.mkdir(parents=True,exist_ok=True)
+          imgs=list(o.glob('run193b_REAL_*.png'))
+          status='REAL_NATIVE_SEVENVIEW_REPRODUCED' if len(imgs)==7 and (o/'run193b_native_metrics.json').exists() else 'NATIVE_CI_FAILED_UNPROVEN'
+          (o/'run193b_final_status.txt').write_text(status+' / ART_REJECTED / NO_RELEASE / PHYSICAL_MOBILE_UNTESTED\n')
+          (o/'NO_RELEASE.flag').write_text('NOT A QUALIFIED BABY OWL. Do not publish or integrate.\n')
+          mf={f.name:dict(bytes=f.stat().st_size,sha256=hashlib.sha256(f.read_bytes()).hexdigest()) for f in sorted(o.iterdir()) if f.is_file() and f.name!='run193b_evidence_manifest.json'}
+          (o/'run193b_evidence_manifest.json').write_text(json.dumps(mf,indent=2)+'\n')
+          assert all(hashlib.sha256((o/k).read_bytes()).hexdigest()==v['sha256'] for k,v in mf.items())
+          print('RUN193B',status,'IMAGES',len(imgs),'FILES',len(mf))
+          PY
+      - name: Save original GLB and 7 true native view images in isolated 30-day artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run193b-actual-native-sevenview-ART_REJECTED-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run193b-EXACT-GLB-SEVENVIEW-ART_REJECTED-NO_RELEASE/
+          retention-days: 30
+      - name: Save only provenance, metrics and SHA256 hashes to isolated branch
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run193b-EXACT-GLB-SEVENVIEW-ART_REJECTED-NO_RELEASE"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          find "$O" -maxdepth 1 -type f \( -name '*.json' -o -name '*.txt' -o -name '*.log' -o -name '*.flag' \) -print0 | xargs -0 -r git add --sparse --
+          git diff --cached --name-only > /tmp/run193b_paths
+          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/' /tmp/run193b_paths; then exit 80; fi
+          if grep -Ei '\.(glb|blend|obj|fbx|png|zip|webp|jpg)$' /tmp/run193b_paths; then exit 81; fi
+          if [ -s /tmp/run193b_paths ]; then
+            git commit -m 'research(owl172): archive true native GLB seven-view evidence ART_REJECTED NO_RELEASE'
+            git push origin HEAD:research/owl172-run193-two-public-zerocharge-native-gates
+          fi

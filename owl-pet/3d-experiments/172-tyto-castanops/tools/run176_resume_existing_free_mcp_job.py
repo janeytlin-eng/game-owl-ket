@@ -195,7 +195,7 @@ def capture_model(result,session):
         (OUT/"render_exception.txt").write_text(traceback.format_exc())
         STATE["status"]="GLB_VALID_RENDER_FAILED"
 def main():
-    """Resume the exact image-conditioned job from Run175. Zero new generations."""
+    """Resume the exact image-conditioned job from Run175, polling correctly after retryable unknown. Zero new generations."""
     preflight()
     source_record=ROOT/"research-evidence-run175-FREE-MCP-IMAGE-BOUND-NO_RELEASE"/"mcp_mesh_forge_one.json"
     assert source_record.is_file(), "Run175 first response must be recovered before polling"

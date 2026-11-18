@@ -1,0 +1,21 @@
+{
+  "run": 177,
+  "source": "Run175 image-bound three.ws mesh, Run176 recovered GLB",
+  "source_glb_url": "https://three.ws/cdn/forge/anon/083fb94e-8cc3-46c7-8f97-d6f699554654.glb",
+  "expected_glb_sha256": "c56c1a1c0159e11a140f587f12ad4c84b49fdb38b9b3142078f3de9d75f46e99",
+  "source_ref_sha256": "5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9",
+  "model_provenance": "image-conditioned free MCP, NOT text-only",
+  "additional_payments_usd": 0,
+  "art": "UNREVIEWED",
+  "release": false,
+  "mobile_phone_gpu": "NOT_TESTED",
+  "preflight": "PASS",
+  "source_get_http": 200,
+  "glb": {
+    "sha256": "c56c1a1c0159e11a140f587f12ad4c84b49fdb38b9b3142078f3de9d75f46e99",
+    "bytes": 10840896
+  },
+  "verified_glb": true,
+  "status": "BLENDER_NATIVE_QA_ERROR",
+  "exception": "RuntimeError('Error: Python: Traceback (most recent call last):\\n  File \"/usr/share/blender/scripts/addons/io_scene_gltf2/__init__.py\", line 1709, in execute\\n    return self.import_gltf2(context)\\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \"/usr/share/blender/scripts/addons/io_scene_gltf2/__init__.py\", line 1742, in import_gltf2\\n    return self.unit_import(self.filepath, import_settings)\\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \"/usr/share/blender/scripts/addons/io_scene_gltf2/__init__.py\", line 1747, in unit_import\\n    from .blender.imp.gltf2_blender_gltf import BlenderGlTF\\n  File \"/usr/share/blender/scripts/addons/io_scene_gltf2/blender/imp/gltf2_blender_gltf.py\", line 8, in <module>\\n    from .gltf2_blender_scene import BlenderScene\\n  File \"/usr/share/blender/scripts/addons/io_scene_gltf2/blender/imp/gltf2_blender_scene.py\", line 7, in <module>\\n    from .gltf2_blender_node import BlenderNode\\n  File \"/usr/share/blender/scripts/addons/io_scene_gltf2/blender/imp/gltf2_blender_node.py\", line 10, in <module>\\n    from .gltf2_blender_mesh import BlenderMesh\\n  File \"/usr/share/blender/scripts/addons/io_scene_gltf2/blender/imp/gltf2_blender_mesh.py\", line 7, in <module>\\n    import numpy as np\\nModuleNotFoundError: No module named \\'numpy\\'\\nLocation: /usr/share/blender/scripts/modules/bpy/ops.py:109\\n')"
+}

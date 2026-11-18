@@ -15,7 +15,7 @@ OUT.mkdir(parents=True,exist_ok=True)
 SRC=ROOT/"research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png"
 SHA="5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9"
 REJ=ROOT/"known_rejected_asset_sha256_registry.json"
-BRANCH="research/owl172-run180-clean-background-neural-rebuild"
+BRANCH="research/owl172-run180-verified-background-clean-fresh-mesoptile"
 REPO="janeytlin-eng/game-owl-ket"
 MCP="https://three.ws/api/mcp-studio"
 CLEAN=OUT/"run180_rightmost_contiguous_background_replaced.png"

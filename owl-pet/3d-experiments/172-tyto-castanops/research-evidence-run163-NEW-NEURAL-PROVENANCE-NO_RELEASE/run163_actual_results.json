@@ -1,0 +1,130 @@
+{
+  "run": 163,
+  "utc": "2026-11-18T04:16:48.212139+00:00",
+  "canonical_source_sha256": "5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9",
+  "source": "owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png",
+  "last_work": "Run161 incorrectly labelled the site-supplied toy-car sample GLB as a new owl: proven by /samples/toy-car-generated.glb, filename toy-car-generated.glb, sha256 e6ac576ae9b4641ae2afd84345fc94eaa7ce1b78a44b1c7e36bd8841c5d078c0. This run preserves the verified static-demo exclusion and tests two other publicly advertised image-to-3D services with visible upload and generate controls.",
+  "constraints": "Public visible UI only; no access bypass; no account; $0 additional payment",
+  "new_valid_glb": [],
+  "providers": {
+    "3daimaker": {
+      "public_url": "https://3daimaker.com/",
+      "started_utc": "2026-11-18T04:16:49.981177+00:00",
+      "actions": [],
+      "sampled_responses": [
+        {
+          "host": "challenges.cloudflare.com",
+          "path": "/turnstile/v0/b/f8df4d4a0cd6/api.js",
+          "status": 200,
+          "content_type": "application/javascript; charset=UTF-8"
+        },
+        {
+          "host": null,
+          "path": "https://3daimaker.com/13378f33-8bb2-4955-ab68-d304657cf784",
+          "status": 200,
+          "content_type": "text/javascript"
+        }
+      ],
+      "download_attempts": [],
+      "screenshots": [],
+      "initial_http": 403,
+      "initial_url_host": "3daimaker.com",
+      "title": "Just a moment...",
+      "body_initial": "3daimaker.com\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nRay ID: a5c4297989b44211\nPerformance and Security by Cloudflare\nPrivacy",
+      "status": "ACCESS_CHALLENGE_NOT_BYPASSED",
+      "finished_utc": "2026-11-18T04:16:56.824898+00:00"
+    },
+    "make3dai": {
+      "public_url": "https://www.make3dai.com/",
+      "started_utc": "2026-11-18T04:16:56.838901+00:00",
+      "actions": [],
+      "sampled_responses": [
+        {
+          "host": "resource.text3d.ai",
+          "path": "/3d_images/20260708/00030295403038682.png",
+          "status": 200,
+          "content_type": "image/png"
+        },
+        {
+          "host": "resource.text3d.ai",
+          "path": "/3d_images/20260708/00060183601780204.png",
+          "status": 200,
+          "content_type": "image/png"
+        },
+        {
+          "host": "resource.text3d.ai",
+          "path": "/3d_images/20260708/00110198404178657.png",
+          "status": 200,
+          "content_type": "image/png"
+        },
+        {
+          "host": "resource.text3d.ai",
+          "path": "/3d_images/20260708/00010169319591488.png",
+          "status": 200,
+          "content_type": "image/png"
+        },
+        {
+          "host": "resource.text3d.ai",
+          "path": "/3d_images/20260708/00000106521949379.png",
+          "status": 200,
+          "content_type": "image/png"
+        },
+        {
+          "host": "resource.text3d.ai",
+          "path": "/3d_images/20260708/00100135177628251.png",
+          "status": 200,
+          "content_type": "image/png"
+        },
+        {
+          "host": "resource.text3d.ai",
+          "path": "/3d_images/20260708/00100336962737146.png",
+          "status": 200,
+          "content_type": "image/png"
+        },
+        {
+          "host": "resource.text3d.ai",
+          "path": "/3d_images/20260708/00110198194251657.png",
+          "status": 200,
+          "content_type": "image/png"
+        },
+        {
+          "host": "www.make3dai.com",
+          "path": "/style/logo_make3dai_2.png",
+          "status": 200,
+          "content_type": "image/png"
+        },
+        {
+          "host": "resource.text3d.ai",
+          "path": "/3d_images/example/aircraft-v1.png",
+          "status": 200,
+          "content_type": "image/png"
+        },
+        {
+          "host": "resource.text3d.ai",
+          "path": "/3d_images/example/aircraft-v4.png",
+          "status": 200,
+          "content_type": "image/png"
+        }
+      ],
+      "download_attempts": [],
+      "screenshots": [],
+      "initial_http": 200,
+      "initial_url_host": "www.make3dai.com",
+      "title": "Free AI 3D Model Maker Online | Make3DAI.com",
+      "body_initial": " texture”\nCharacter prompt\n\nMake a friendly mascot or toy-like character.\n\n“a cute robot mascot with rounded body, big eyes, short arms, glossy plastic material, friendly look”\nProduct prompt\n\nMake a product concept with real material detail.\n\n“a modern wireless speaker with soft corners, fabric texture, black rubber base, studio product design”\n3D printing prompt\n\nMake a collectible with a clean printable form.\n\n“a small dragon figurine on a circular base, sculpted collectible style, clean printable shape”\nAR object prompt\n\nMake a clean object for AR and web 3D.\n\n“a simple modern chair with fabric cushion, wooden legs, clean geometry, realistic material”\nToy prompt\n\nMake a playful, rounded model for toy concepts.\n\n“a colorful cartoon animal toy with smooth rounded shapes, soft plastic material, kid-friendly style”\nEnvironment prompt\n\nMake a scene object for fantasy or game worlds.\n\n“a cozy wooden cabin with snowy roof, glowing windows, stylized fantasy game asset”\nE-commerce prompt\n\nMake a premium product-style visual asset.\n\n“a premium perfume bottle with transparent glass, gold cap, elegant label, clean product render style”\nMAKER TOOLKIT\nImprove the 3D models you make\n\nThe first model is only the start. Make3D AI includes practical tools to render, texture, repair, convert, remesh, segment, and prepare the 3D models you make for real use.\n\nAI 3D Render Generator\nMake clean render images for previews, product shots, thumbnails, portfolios, and asset pages.\nAI 3D Texture Generator\nMake new textures or improve plain models with prompt-based texture generation.\n3D Model Converter\nConvert your model into GLB, OBJ, FBX, STL, PLY, USDZ, or 3MF for any tool or platform.\n3D Model Repair Tool\nFix holes, broken mesh areas, non-manifold edges, and export issues before printing or download.\n3D Remeshing Tool\nMake cleaner topology for editing, performance, game engines, and production workflows.\n3D Model Volume Calculator\nEstimate model volume and surface area for 3D printing, material planning, and cost estimates.\n3D Model Segmentation Tool\nSplit complex models into editable parts for materials, animation prep, or workflow control.\nTexture Baking Tool\nBake materials and texture detail into optimized maps for web, games, AR, and real-time use.\nMAKER WORKFLOWS\nMake 3D models for the projects you already have\n\nWhether you are building a game, testing a product idea, preparing a classroom project, or making content for a store, Make3D AI gives you a usable 3D starting point faster.\n\nIndie game projects\n\nMake props, characters, pickups, weapons, vehicles, buildings, and environment pieces for game prototypes.\n\n3D printing ideas\n\nMake STL and 3MF models for hobby printing, classroom projects, miniatures, toys, and early prototypes.\n\nProduct mockups\n\nMake rough 3D concepts for hardware ideas, packaging, accessories, decorative objects, and product visuals.\n\nAR & web 3D\n\nMake lightweight 3D objects for AR previews, interactive pages, website embeds, and immersive product displays.\n\nSchool & STEM projects\n\nMake visual learning objects, printable classroom models, science project assets, and hands-on educational content.\n\nMarketing & content\n\nMake 3D visuals for ads, product pages, launch campaigns, thumbnails, social media, and brand storytelling.\n\nWHY MAKE3D AI\nAn AI 3D maker built for getting things made\n\nMake3DAI.com is designed for creators who want to move from idea to usable 3D model without learning complex modeling software first.\n\nMade for beginners\n\nStart making 3D models without Blender, CAD, sculpting, UV mapping, or professional 3D experience.\n\nMade for useful output\n\nMake real, downloadable 3D files you can open and edit — not just flat images of 3D-looking objects.\n\nMade for many inputs\n\nMake from text, a single image, or multiview references depending on what you already have to work with.\n\nMade for projects\n\nMake assets for games, printing, AR, product concepts, education, e-commerce, and creative content.\n\nMade for editing\n\nUse tools for texture, repair, remesh, conversion, rendering, segmentation, and volume right after you make a model.\n\nMade for export\n\nDownload practical formats like GLB, OBJ, FBX, STL, PLY, USDZ, and 3MF for any pipeline.\n\nEXPORT FORMATS\nExport the 3D models you make\n\nMake3DAI.com makes downloadable 3D files for web, games, AR, animation, 3D printing, and design. Choose the format your next tool expects, or convert between them anytime.\n\nGLB\nFor web 3D viewers, online previews, AR objects, and e",
+      "frame_count": 1,
+      "frames": [
+        {
+          "host": "www.make3dai.com",
+          "path": "/"
+        }
+      ],
+      "status": "NO_PUBLIC_FILE_INPUT_ON_LIVE_PAGE",
+      "body_at_failure": " product displays.\n\nSchool & STEM projects\n\nMake visual learning objects, printable classroom models, science project assets, and hands-on educational content.\n\nMarketing & content\n\nMake 3D visuals for ads, product pages, launch campaigns, thumbnails, social media, and brand storytelling.\n\nWHY MAKE3D AI\nAn AI 3D maker built for getting things made\n\nMake3DAI.com is designed for creators who want to move from idea to usable 3D model without learning complex modeling software first.\n\nMade for beginners\n\nStart making 3D models without Blender, CAD, sculpting, UV mapping, or professional 3D experience.\n\nMade for useful output\n\nMake real, downloadable 3D files you can open and edit — not just flat images of 3D-looking objects.\n\nMade for many inputs\n\nMake from text, a single image, or multiview references depending on what you already have to work with.\n\nMade for projects\n\nMake assets for games, printing, AR, product concepts, education, e-commerce, and creative content.\n\nMade for editing\n\nUse tools for texture, repair, remesh, conversion, rendering, segmentation, and volume right after you make a model.\n\nMade for export\n\nDownload practical formats like GLB, OBJ, FBX, STL, PLY, USDZ, and 3MF for any pipeline.\n\nEXPORT FORMATS\nExport the 3D models you make\n\nMake3DAI.com makes downloadable 3D files for web, games, AR, animation, 3D printing, and design. Choose the format your next tool expects, or convert between them anytime.\n\nGLB\nFor web 3D viewers, online previews, AR objects, and embedded 3D experiences.\nOBJ\nA widely supported 3D mesh format for editing, exchange, and compatibility.\nFBX\nFor game engines, animation workflows, Unity, Unreal, and 3D production tools.\nSTL\nThe common format for 3D printing, slicers, prototypes, and maker projects.\nPLY\nFor geometry, per-vertex color, scanning, research, and detailed model data.\nUSDZ\nApple AR format for iOS, Safari, AR Quick Look, and mobile product previews.\n3MF\nModern 3D printing format for color, materials, and print-ready model data.\nFAQ\nMake3DAI.com — frequently asked questions\n\nCommon questions about Make3D AI, the AI 3D maker workflow, supported formats, pricing, and the 3D models you make.\n\nWhat is Make3DAI.com?\nWhat is an AI 3D maker?\nHow do I make 3D models with AI on Make3DAI.com?\nCan I make 3D models with AI for free?\nCan I make a 3D model from text?\nCan I make a 3D model from an image?\nWhat can I make with Make3D AI?\nCan I make 3D printing models?\nWhat 3D file formats can I export from Make3DAI.com?\nDo I need 3D modeling experience to make 3D models?\nHow is an AI 3D maker different from a normal 3D generator?\nHow long does it take to make a 3D model?\nCan Make3D AI make game-ready or print-ready models?\nCan I make textures or improve a plain 3D model?\nCan I use the 3D models I make commercially?\nWhat happens if a 3D generation fails?\nWho is Make3DAI.com for?\nSTART MAKING\nMake your first 3D model with AI\n\nUse Make3DAI.com to turn a prompt, image, or multiview reference into a downloadable 3D model. Start with free credits and make assets for games, products, 3D printing, AR, e-commerce, education, and creative projects.\n\nStart Making 3D Models\nMake 3D models from text or images • Free plan available • Export GLB, OBJ, FBX, STL and more\nMake3DAI.com\n\nMake3DAI.com is an AI 3D maker that turns text prompts and images into downloadable 3D models for games, product design, 3D printing, AR, e-commerce, and creative projects.\n\nMAKE3DAI.COM\nPricing\nHelp Center\nPrivacy Policy\nTerms of Service\nRefund Policy\n3D Commercial License\nV4.0 Model\n3D TOOLS\nMake 3D\nPicture to 3D\n3D Maker AI\n3D File Compressor\nMultiple pictures to 3D\nLANGUAGE\nالعربية\nČeština\nDansk\nDeutsch\nEnglish\nEnglish\nEspañol\nEesti\nSuomi\nFilipino\nFrançais\nעברית\nMagyar\nBahasa Indonesia\nItaliano\n日本語\n한국어\nBahasa Melayu\nNederlands\nNorsk\nPolski\nPortuguês\nRomână\nРусский\nSlovenščina\nSlovenčina\nSvenska\nTürkçe\nTiếng Việt\n中文（简体）\n中文（繁體）\n© 2026 Make3DAI.com — AI 3D Maker. All rights reserved.\nMake3DAI.com · Make3D AI · make 3D models with AI",
+      "finished_utc": "2026-11-18T04:17:31.251990+00:00"
+    }
+  },
+  "art": "UNREVIEWED",
+  "phone_webgl": "NOT_TESTED",
+  "release": false
+}

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Independent TRUE 3D six-axis Blender visual QA of Run175/176 image-bound GLB.
 
+Re-uses the exact verified Run175/176 image-generated 90,618-triangle file.
 No generation, no paid service, no primitive substitute. Candidate NO_RELEASE
 unless art and real phone WebGL are both independently accepted.
 """

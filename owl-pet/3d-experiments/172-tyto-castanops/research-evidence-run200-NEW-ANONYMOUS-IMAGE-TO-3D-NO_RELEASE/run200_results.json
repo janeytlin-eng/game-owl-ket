@@ -1,0 +1,87 @@
+{
+  "run": 200,
+  "timestamp_utc": "2026-11-18T23:32:33.719577+00:00",
+  "reference_sha256": "5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9",
+  "provider": "https://3daistudio.pro/",
+  "secondary": "https://www.cgtrader.com/free-3d-models/animal/bird/free-baby-owl-sculpt",
+  "new_glb": false,
+  "no_release": true,
+  "art_pass": false,
+  "physical_mobile_gpu_pass": false,
+  "no_extra_payment": true,
+  "events": [
+    {
+      "t": 2.5,
+      "event": "STUDIO_GOTO_HTTP 403"
+    },
+    {
+      "t": 5.6,
+      "event": "NO_IMAGE_TAB_BUTTON"
+    },
+    {
+      "t": 7.0,
+      "event": "NO_FILE_INPUT"
+    },
+    {
+      "t": 9.0,
+      "event": "NO_ENABLED_GENERATE_BUTTON"
+    },
+    {
+      "t": 9.1,
+      "event": "ARTIST_SCULPT_HTTP 403"
+    },
+    {
+      "t": 11.2,
+      "event": "ARTIST_SCULPT_SOURCE_VISITED_NO_PAID_OR_LOGIN_BYPASS"
+    }
+  ],
+  "errors": [],
+  "network": [
+    {
+      "host": "3daistudio.pro",
+      "path": "/",
+      "status": 307,
+      "type": ""
+    },
+    {
+      "host": "3daistudio.pro",
+      "path": "/",
+      "status": 403,
+      "type": "text/html; charset=UTF-8"
+    },
+    {
+      "host": "3daistudio.pro",
+      "path": "/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1",
+      "status": 200,
+      "type": "application/javascript; charset=UTF-8"
+    },
+    {
+      "host": "3daistudio.pro",
+      "path": "/cdn-cgi/challenge-platform/h/b/fo/1318466565:1795040426:sJjN8kH6rmc3MuUpOc4FbV-HMwJTvVorYUJEVSpyqg8/a5cac67e3f740f80/1f",
+      "status": 200,
+      "type": "text/plain; charset=UTF-8"
+    },
+    {
+      "host": "www.cgtrader.com",
+      "path": "/free-3d-models/animal/bird/free-baby-owl-sculpt",
+      "status": 403,
+      "type": "text/html"
+    }
+  ],
+  "screenshots": [
+    "01_studio_initial.png",
+    "02_image_tab.png",
+    "03_after_upload.png",
+    "05_studio_final.png",
+    "06_artist_baby_owl_sculpt.png"
+  ],
+  "artist_sculpt_summary": {
+    "source": "ArtistFrog Free Baby Owl Sculpt (2020)",
+    "contains_free": false,
+    "contains_no_ai_licence": false,
+    "needs_login_or_checkout": false,
+    "button_labels": [],
+    "preview_only_not_art_approved": true
+  },
+  "final_status": "NO_NEW_TARGET_GLTF_NO_RELEASE"
+}

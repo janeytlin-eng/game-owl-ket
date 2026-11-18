@@ -1,0 +1,13 @@
+# Run199b — independent actual seven-view visual review and license parse correction (NO_RELEASE)
+
+**Verdict: REAL_GLTF_NATIVE_SEVEN_VIEW_VERIFIED / NON_TARGET_MULTISUBJECT_ASSET / ART_REJECTED / NO_RELEASE.**
+
+Run199 actual GitHub Actions: https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44411287623 (original 30-day artifact ID `14475789383`, file `run199_REAL_SEVENVIEW_CONTACT.png`).
+
+The actual 256,580-byte original publisher GLB (SHA256 `a7812aa5d1f43e9c7c4969c564faba20b27481acc200b7138e02c6f8c8c43bb4`) was imported in Trimesh and rendered with VTK 9.6.2 from seven genuine cameras. The downloaded artifact ZIP was opened independently; its 19-file SHA256 manifest was checked against all extracted bytes and **all 19 matched**. The original seven-view contact PNG is 257,911 bytes, SHA256 `79697374288111ef0c7fe16b98616e0d84d56957a787ef8852233969d7afa856`.
+
+**Actual image review, not inferred from filenames:** The contact shows two separate small animal sculptures in the same scene, a pointed-ear arctic fox to the left and a white **adult-like snowy owl perched on a simple stump** to the right. Front shows **round bright yellow eyes** and discrete dark body spots (not the required dark-eyed continuous heart-shaped facial disc). Right/left views show simple hard protruding flat wing plates. Rear and top have no dense soft creamy second down, no convincing juvenile compact rear anatomy; neither animal sits with belly and feet supported by a broad mature eucalyptus hollow. The top and bottom confirm both scene subjects and distinct supports rather than a single source-bound target chick. There is no target `Tyto castanops` mesoptile sculpt hiding in the pack. The reference rightmost v3 image SHA256 remains `5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9`.
+
+**License audit correction:** Run199 result JSON's `licence_excludes_reposting_source_files=false` is a parser **false negative**, not permission to redistribute. The fetched real HTML contains `Don&#x27;t sell or share the model files themselves`; the detector had searched for unescaped `don't sell or share`. The current publisher's https://shuriken.studio/legal/models license forbids separate redistribution of the source GLB. The runner's original binary was held transiently in `/tmp` and deleted; no source GLB is committed or included in the artifact. This explanatory correction preserves the original immutable machine output rather than rewriting it after the run.
+
+No fake conversion of this adult cartoon to a baby by recoloring, no physical phone GPU QA, no user-facing sample, no changes to `main`, the 251-species workflow or old cat prototype, no additional payment. **NO_RELEASE.**

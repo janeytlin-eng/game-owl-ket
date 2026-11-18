@@ -1,0 +1,115 @@
+name: owl172 Run167 recovered SF3D GLB fourview with EGL NO_RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run167-sf3d-gl-egl-fourview-repair
+    paths:
+      - .github/workflows/owl-pet-172-run167-sf3d-native-fourview-egl.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run167_sf3d_native_fourview.py
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  native-fourview:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run167-sf3d-gl-egl-fourview-repair
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            .github/workflows/owl-pet-172-run167-sf3d-native-fourview-egl.yml
+            owl-pet/AGENTS.md
+            owl-pet/README.md
+            owl-pet/prototype/index.html
+            owl-pet/research/species/172-tyto-castanops-v3.md
+            owl-pet/3d-experiments/172-tyto-castanops/known_rejected_asset_sha256_registry.json
+            owl-pet/3d-experiments/172-tyto-castanops/2026-11-18-run165-upsampler-result-followthrough-NO_RELEASE.md
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run167_sf3d_native_fourview.py
+      - name: Retrieve actual Run165 independently generated GLB from quarantined artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: owl172-run165-new-free-sources-and-provenance-NO_RELEASE
+          run-id: 44245752506
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          repository: janeytlin-eng/game-owl-ket
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run167-SF3D-NATIVE-FOURVIEW-NO_RELEASE
+      - name: Verify model provenance, model SHA256 and isolated scope
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run167-SF3D-NATIVE-FOURVIEW-NO_RELEASE"
+          test -s "$R/2026-11-18-run165-upsampler-result-followthrough-NO_RELEASE.md"
+          test -s "owl-pet/prototype/index.html"
+          python3 -m json.tool "$R/known_rejected_asset_sha256_registry.json" >/dev/null
+          echo '8ff7341725e4fc27caf3ff4dbb3b07fe9231a96d216de31317bddf2aa07a7b8b  '"$O/upsampler_sf3d_new_ui_generated_3d_UNREVIEWED.glb" | sha256sum -c | tee "$O/reimport_source_SHA256.log"
+      - name: Actually reimport native GLB and render front quarter side back
+        shell: bash
+        timeout-minutes: 13
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run167-SF3D-NATIVE-FOURVIEW-NO_RELEASE"
+          sudo apt-get update -qq
+          sudo apt-get install -y blender python3-numpy libegl1 libgl1 libgl1-mesa-dri libgles2 libxrender1 libxi6 libxkbcommon0
+          timeout 640s blender -b -t 2 --python-exit-code 33 --python "$R/tools/run167_sf3d_native_fourview.py" 2>&1 | tee "$O/blender_fourview.log"
+          grep -q RUN167_REAL_BLENDER_4_ORBITS_NO_RELEASE "$O/blender_fourview.log"
+          test "$(find "$O" -maxdepth 1 -name '*_UNREVIEWED.png' | wc -l)" -ge 4
+      - name: SHA manifest and honest independent NO_RELEASE pre-review
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import pathlib,hashlib,json,datetime
+          r=pathlib.Path('owl-pet/3d-experiments/172-tyto-castanops')
+          o=r/'research-evidence-run167-SF3D-NATIVE-FOURVIEW-NO_RELEASE'
+          o.mkdir(parents=True,exist_ok=True)
+          glb=o/'upsampler_sf3d_new_ui_generated_3d_UNREVIEWED.glb'
+          imgs=sorted(o.glob('*_UNREVIEWED.png'))
+          metrics=list(o.glob('*_blender_metrics.json'))
+          render=(len(imgs)==4 and len(metrics)==1 and glb.exists())
+          (o/'NO_RELEASE.flag').write_text('NO_RELEASE: genuine generated GLB, four view art review mandatory, phone GPU WebGL NOT_TESTED, zero added costs.\n')
+          manifest={p.name:{'size_bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in sorted(o.iterdir()) if p.is_file() and p.name!='sha256_manifest.json'}
+          (o/'sha256_manifest.json').write_text(json.dumps(manifest,indent=2))
+          assert all(hashlib.sha256((o/k).read_bytes()).hexdigest()==v['sha256'] for k,v in manifest.items())
+          msg=('# #172 Tyto castanops v3 Run167 — actual Run165 source-bound generated SF3D GLB Blender native QA\n\n'
+               '**NO_RELEASE / ART_UNREVIEWED until visually inspected.**\n\n'
+               'Source original reference SHA256 5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9.\n'
+               'Actual freshly generated (not demo) GLB from Run165 Upsampler Stable Fast 3D public upload and See result/Download GLB, sha256 8ff7341725e4fc27caf3ff4dbb3b07fe9231a96d216de31317bddf2aa07a7b8b, 1,184,576 bytes.\n'
+               'This run reuses the immutable quarantined Run165 artifact, does not call inference or purchase credits.\n'
+               'Native Run165 Blender world=None bug addressed; Run166 diagnosed missing libEGL.so.1; added Linux EGL/Mesa libraries in this isolated run.\n'
+               'Native fourview render: '+('OUTPUT_GENERATED_UNREVIEWED' if render else 'FAILED_OR_INCOMPLETE')+'; files '+str([p.name for p in imgs])+'.\n'
+               'Actual mobile phone WebGL not tested; render is not art approval, no release/deployment.\n'
+               'Evidence: [checksum manifest and quarantined native model](research-evidence-run167-SF3D-NATIVE-FOURVIEW-NO_RELEASE/).\n'
+               'Changes isolated to #172 research and dedicated workflow; no edits to main/251-species production/prototype. Extra payment USD 0.\n')
+          (r/'2026-11-18-run167-sf3d-native-fourview-egl-NO_RELEASE.md').write_text(msg)
+          print('RUN167_SUMMARY',json.dumps({'model_checked':glb.exists(),'native_fourview_generated':render,'images':len(imgs),'evidence_count':len(manifest)}))
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run167-sf3d-real-fourviews-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run167-SF3D-NATIVE-FOURVIEW-NO_RELEASE
+          retention-days: 30
+      - name: Commit only #172 textual, image and checksum evidence to isolated research branch
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run167-SF3D-NATIVE-FOURVIEW-NO_RELEASE"
+          git add --sparse "$R/2026-11-18-run167-sf3d-native-fourview-egl-NO_RELEASE.md"
+          find "$O" -maxdepth 1 -type f \( -name '*.json' -o -name '*.log' -o -name '*.png' -o -name '*.txt' -o -name '*.flag' \) -print0 | xargs -0 -r git add --sparse --
+          git diff --cached --name-only > /tmp/run167_paths.txt
+          if grep -Ei '\.(glb|blend|zip|fbx|obj|bin)$' /tmp/run167_paths.txt; then echo 'Forbidden binary staged'; exit 9; fi
+          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/' /tmp/run167_paths.txt; then echo 'Out of scope'; exit 10; fi
+          if [ -s /tmp/run167_paths.txt ]; then
+            git commit -m 'research(owl172): Run167 genuine SF3D native Blender QA evidence NO_RELEASE'
+            git push origin HEAD:research/owl172-run167-sf3d-gl-egl-fourview-repair
+          fi

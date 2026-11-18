@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scope": "#172 Tyto castanops v3 independent 3D research only; fingerprints are negative quality gates, not licensing decisions",
-  "updated_utc": "2026-11-18T16:43:25Z",
+  "updated_utc": "2026-11-18T17:12:00Z",
   "known_rejected_source_glbs": [
     {
       "sha256": "c11c94db20065c6c6f252e768e8c748f22dc69ef9b4e7199110b96de0625c12e",
@@ -203,6 +203,22 @@
       "reference": "2026-11-19-run191-original-native-sevenview-ART_REJECTED-NO_RELEASE.md",
       "run190_workflow_url": "https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44347490822",
       "run191_workflow_url": "https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44349636178"
+    },
+    {
+      "sha256": "0975dbc508f4ba5998a1590aeda99abfb22a0a9ab35c6b71fabf665fefdebe32",
+      "size_bytes": 100168,
+      "source": "https://2d-to-3d-model.vercel.app/ public no-fee browser input-upload, Generate 3D Model with TripoSR and Download GLB (Run193, original #172 rightmost reference SHA256 5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9)",
+      "first_checked_run": 193,
+      "real_glb": true,
+      "meshes": 1,
+      "vertices": 2274,
+      "triangles": 6000,
+      "materials": 0,
+      "texture_maps": 0,
+      "art_decision": "ART_REJECTED",
+      "grounds": "Independent local real VTK 9.6.2 seven orthographic camera views of exact source-bound GLB restored from Run193 Actions artifact: no dark pupils or eyes, only angular folded concave heart-mask, solid smooth white clay lacking natural cream down, oversized hard adult-looking side wings, asymmetric pointed wedge sides and heavily jagged black/spiky posterior surface, talons unsupported with no eucalyptus hollow. Watertight topology but Euler characteristic -726. This is genuine native geometry yet not a visually acceptable owlet. No textures/UV/PBR, publisher export rights unverified, no physical phone WebGL test. Initial Run193 GitHub runner seven-view failed due missing EGL/OSMesa; independent local EGL VTK rendered seven views; re-run in fixed native CI if needed.",
+      "reference": "2026-11-19-run193-source-bound-sevenview-ART_REJECTED-NO_RELEASE.md",
+      "run193_workflow_url": "https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44354245933"
     }
   ],
   "instructions": "Before a new download, consult previous run records and this hash index. Once bytes are fetched compare sha256; if matching a rejected source, skip Blender/rig/WebGL/art release and log source identity. Publisher CC0 claims are not independently proven rights."

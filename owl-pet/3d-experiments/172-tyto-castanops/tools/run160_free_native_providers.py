@@ -17,7 +17,7 @@ from urllib.parse import urlsplit
 from playwright.sync_api import sync_playwright
 
 ROOT = pathlib.Path("owl-pet/3d-experiments/172-tyto-castanops")
-OUT = ROOT / "research-evidence-run160-TWO-CORRECTED-BUTTONS-NO_RELEASE"
+OUT = ROOT / "research-evidence-run160-THREE-ANONYMOUS-GENERATORS-NO_RELEASE"
 OUT.mkdir(parents=True, exist_ok=True)
 SOURCE = ROOT / "research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png"
 SOURCE_SHA = "5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9"

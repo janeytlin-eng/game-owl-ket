@@ -1,0 +1,131 @@
+name: owl172 Run199 authentic free native GLB and license negative art gate NO_RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run199-free-native-juvenile-source-licence-gate
+    paths:
+      - .github/workflows/owl-pet-172-run199-free-native-licence-gate.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run199_original_free_snowy_owl_native_gate.py
+permissions:
+  contents: write
+jobs:
+  original-real-free-model-source-native-sevenview-gate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run199-free-native-juvenile-source-licence-gate
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/README.md
+            owl-pet/AGENTS.md
+            owl-pet/prototype/index.html
+            owl-pet/research/species/172-tyto-castanops-v3.md
+            owl-pet/3d-experiments/172-tyto-castanops/known_rejected_asset_sha256_registry.json
+            owl-pet/3d-experiments/172-tyto-castanops/2026-11-19-run198-hyper3d-actual-free-browser-native-NO_RELEASE.md
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run199_original_free_snowy_owl_native_gate.py
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Preflight original target SHA256, prototype, rejection registry and prior Run198
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run199-SHURIKEN-FREE-NATIVE-ART_REJECTED-NO_RELEASE"
+          mkdir -p "$O"
+          for f in owl-pet/AGENTS.md owl-pet/README.md owl-pet/prototype/index.html owl-pet/research/species/172-tyto-castanops-v3.md "$R/known_rejected_asset_sha256_registry.json" "$R/2026-11-19-run198-hyper3d-actual-free-browser-native-NO_RELEASE.md"; do
+            test -s "$f"
+            sha256sum "$f" >> "$O/preflight_sha256.txt"
+          done
+          sha256sum "$R/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png" | tee "$O/reference_sha256.txt"
+          grep -q '^5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9 ' "$O/reference_sha256.txt"
+          python -m py_compile "$R/tools/run199_original_free_snowy_owl_native_gate.py"
+      - name: Install free real glTF mesh inspector and native offscreen renderer
+        timeout-minutes: 9
+        shell: bash
+        run: |
+          set -euo pipefail
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run199-SHURIKEN-FREE-NATIVE-ART_REJECTED-NO_RELEASE
+          sudo apt-get update -qq > "$O/apt_update.log" 2>&1
+          sudo apt-get install -y -qq libosmesa6 libegl1 libgl1 > "$O/mesa_install.log" 2>&1
+          python -m pip install -q requests==2.32.5 trimesh==4.10.0 numpy==2.2.6 vtk==9.6.2 pillow==12.0.0 > "$O/pip_install.log" 2>&1
+      - name: Actually check license, retrieve unmodified no-account GLB, import and render seven native views
+        timeout-minutes: 6
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -o pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run199-SHURIKEN-FREE-NATIVE-ART_REJECTED-NO_RELEASE"
+          VTK_DEFAULT_OPENGL_WINDOW=vtkOSOpenGLRenderWindow timeout 335s python -u "$R/tools/run199_original_free_snowy_owl_native_gate.py" 2>&1 | tee "$O/actual_transport_native_render.log"
+      - name: Create honest NO_RELEASE research audit, hash list and enforce no binary redistribution
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import datetime,hashlib,json
+          r=Path("owl-pet/3d-experiments/172-tyto-castanops")
+          o=r/"research-evidence-run199-SHURIKEN-FREE-NATIVE-ART_REJECTED-NO_RELEASE"
+          o.mkdir(parents=True,exist_ok=True)
+          (o/"NO_RELEASE.flag").write_text("ART_REJECTED_OR_BLOCKED / TARGET_NOT_TYTO_JUVENILE / PHYSICAL_PHONE_GPU_NOT_CHECKED / NO_RELEASE\n")
+          p=o/"run199_result.json"
+          d=json.loads(p.read_text()) if p.is_file() else {"result":"NOT_EXECUTED_OR_FAILED_BEFORE_RESULT","native_glb_acquired":False}
+          nv=d.get("native_render",{})
+          text=[
+            "# Run199 — actual zero-charge CC-style free model source; native 3D negative-art gate",
+            "",
+            "**Result: "+str(d.get("result"))+" / ORIGINAL_GLTF="+str(d.get("native_glb_acquired"))+" / REAL_NATIVE_SEVEN_VIEWS="+str(nv.get("rendered_seven_views",False))+" / TARGET_ART_REJECTED / NO_RELEASE.**",
+            "",
+            "UTC: "+datetime.datetime.now(datetime.timezone.utc).isoformat()+".",
+            "Before this test read owl-pet AGENTS/README, original WebGL cat prototype, #172 v3 age-unknown mesoptile scientific/design boundary, Run198 unsuccessful Cloudflare-source audit, negative GLB hash registry and verified rightmost image SHA256 5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9.",
+            "Primary publisher: https://shuriken.studio/models/characters/arctic-fox-and-snowy-owl . Current free-model license: https://shuriken.studio/legal/models . Original no-fee download attempt: https://shuriken.studio/models/download/30ef3435-cec4-4cec-9c93-90f501ac5b06 .",
+            "The offered pack itself is an adult cartoon snowy owl and arctic fox, documented by the publisher as low-poly. It is NOT the target #172 rightmost cream-white down-covered *Tyto castanops* chick. Even if true GLB downloads and native views pass, **the character is ART_REJECTED by species, age, face, natural down, wings, rear silhouette and hollow support**. This experiment validates independent native source transport, not approval of this art for #172.",
+            "Source original GLB acquirable: "+str(d.get("native_glb_acquired"))+". Recorded SHA256: "+str(d.get("glb_sha256"))+". Original bytes: "+str(d.get("glb_bytes"))+". Native mesh analysis: "+json.dumps(d.get("geometry",{}),ensure_ascii=False)+".",
+            "Actual publisher responses and recorded HTTP status: "+json.dumps(d.get("network",[]),ensure_ascii=False)+".",
+            "Independent VTK renderer results: "+json.dumps(nv,ensure_ascii=False)+".",
+            "Errors or observed limitations: "+json.dumps(d.get("errors",[]),ensure_ascii=False)+".",
+            "The publisher's free-model license allows projects but forbids separate sharing of original standalone model files; the actual downloaded GLB, if available, was kept only in transient /tmp on the Actions runner and deleted, never included in the public Git repository or artifact. Seven genuine native render images and original license/source response excerpts may be stored in a 30-day quarantined artifact for auditing.",
+            "No original #172 sculpt was produced here; no fake SVG/procedural animal, no recolor-as-baby claim, no rerun of previously rejected GLB, and no physical mobile GPU validation. The original quality gates still apply: authentic creamy thick soft second down, continuous heart-shaped dark-eyed disc, compact young proportion, down-buried wings, concealed tail, supported feet on senescent eucalypt hollow, consistent side/back, legally usable GLB, animations, actual smartphone WebGL.",
+            "No changes to main, 251-species artwork production, old cat WebGL prototype or deployment. Additional expenditure USD 0.",
+            "",
+            "**NO_RELEASE.**"
+          ]
+          audit=r/"2026-11-19-run199-real-free-native-glb-source-quality-NO_RELEASE.md"
+          audit.write_text("\n".join(text)+"\n")
+          assert not list(o.rglob("*.glb")) and not list(o.rglob("*.zip"))
+          mf={str(f.relative_to(o)):{"size":f.stat().st_size,"sha256":hashlib.sha256(f.read_bytes()).hexdigest()} for f in sorted(o.rglob("*")) if f.is_file() and f.name!="run199_sha256_manifest.json"}
+          (o/"run199_sha256_manifest.json").write_text(json.dumps(mf,indent=2,ensure_ascii=False)+"\n")
+          assert all(hashlib.sha256((o/k).read_bytes()).hexdigest()==v["sha256"] for k,v in mf.items())
+          print("AUDIT_NO_RELEASE ORIGINAL_GLTF",d.get("native_glb_acquired"),"VERIFIED_FILES",len(mf),"REAL_VIEWS",nv.get("rendered_seven_views"))
+          PY
+      - name: Archive checked source and actual VTK views, never raw third-party model
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run199-zero-fee-native-transport-art-rejected-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run199-SHURIKEN-FREE-NATIVE-ART_REJECTED-NO_RELEASE/
+          retention-days: 30
+      - name: Commit research evidence only on isolated branch, never prototype or production
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run199-SHURIKEN-FREE-NATIVE-ART_REJECTED-NO_RELEASE"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          audit="$R/2026-11-19-run199-real-free-native-glb-source-quality-NO_RELEASE.md"
+          if test -s "$audit"; then git add --sparse "$audit"; fi
+          find "$O" -maxdepth 1 -type f \( -name '*.json' -o -name '*.txt' -o -name '*.log' -o -name '*.flag' \) -print0 | xargs -0 -r git add --sparse --
+          git diff --cached --name-only > /tmp/run199_changed
+          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/' /tmp/run199_changed; then exit 80; fi
+          if grep -Ei '\.(glb|fbx|blend|obj|zip|png|jpg|webp|html)$' /tmp/run199_changed; then exit 81; fi
+          if test -s /tmp/run199_changed; then
+            git commit -m "research(owl172): archive Run199 actual free-source GLB and sevenview negative art gate NO_RELEASE"
+            git push origin HEAD:research/owl172-run199-free-native-juvenile-source-licence-gate
+          fi

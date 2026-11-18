@@ -1,0 +1,64 @@
+{
+  "run": 183,
+  "timestamp_utc": "2026-11-18T12:16:36.666757+00:00",
+  "art_decision": "NO_RELEASE",
+  "physical_mobile_gpu": "NOT_TESTED",
+  "real_model_of_target": "NOT_OBTAINED",
+  "paid_spend_usd": 0,
+  "sources": [
+    {
+      "label": "grab3d_cc0_license",
+      "url": "https://grab3d.com/dl/owl/LICENSE.txt",
+      "max_bytes": 131072,
+      "result": "NETWORK_ERROR",
+      "error": "URLError(TimeoutError('_ssl.c:983: The handshake operation timed out'))"
+    },
+    {
+      "label": "cgtrader_free_baby_owl_sculpt",
+      "url": "https://www.cgtrader.com/free-3d-models/animal/bird/free-baby-owl-sculpt",
+      "max_bytes": 550000,
+      "http_status": 202,
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.cgtrader.com/free-3d-models/animal/bird/free-baby-owl-sculpt",
+      "advertised_bytes": "0",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "oversize": false,
+      "result": "HTTP_RECEIVED",
+      "is_html": false,
+      "page_signals": {
+        "Free Baby Owl Sculpt": false,
+        "Royalty Free License": false,
+        "no AI": false,
+        "Download": false,
+        "Full Plan": false,
+        "Baby Owl Animated": false,
+        "Sign in": false,
+        "Log in": false
+      },
+      "direct_model_binary": false
+    },
+    {
+      "label": "blenderkit_baby_barn_owl_animated",
+      "url": "https://www.blenderkit.com/asset-gallery-detail/af064619-74d4-496f-bdde-bdc742e08824/",
+      "max_bytes": 550000,
+      "result": "HTTP_ERROR",
+      "http_status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "preflight": {
+    "AGENTS": true,
+    "README": true,
+    "prototype": true,
+    "design": true,
+    "Run181": true,
+    "Run182": true,
+    "registry": true,
+    "reference": true
+  },
+  "reference_sha256": "5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9",
+  "rejected_registry_count": 11,
+  "grab3d_transport_skipped": "LICENSE_CANNOT_BE_INDEPENDENTLY_VERIFIED",
+  "conclusion": "NO_RELEASE_NO_ART_PASS"
+}

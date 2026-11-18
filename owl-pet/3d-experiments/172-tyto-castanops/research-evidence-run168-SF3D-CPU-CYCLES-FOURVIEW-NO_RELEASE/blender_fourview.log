@@ -1,0 +1,12 @@
+Blender 4.0.2
+Traceback (most recent call last):
+  File "/home/runner/work/game-owl-ket/game-owl-ket/owl-pet/3d-experiments/172-tyto-castanops/tools/run168_sf3d_cpu_cycles_fourview.py", line 18, in <module>
+    sc=bpy.context.scene;sc.render.engine="BLENDER_CYCLES";sc.cycles.device="CPU";sc.cycles.samples=12;sc.render.resolution_x=448;sc.render.resolution_y=448;sc.render.resolution_percentage=100
+                         ^^^^^^^^^^^^^^^^
+TypeError: bpy_struct: item.attr = val: enum "BLENDER_CYCLES" not found in ('BLENDER_EEVEE', 'BLENDER_WORKBENCH', 'CYCLES')
+
+Error: script failed, file: 'owl-pet/3d-experiments/172-tyto-castanops/tools/run168_sf3d_cpu_cycles_fourview.py', exiting.
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.07s
+
+Blender quit

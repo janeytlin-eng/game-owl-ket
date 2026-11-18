@@ -1,6 +1,3 @@
 /home/runner/work/game-owl-ket/game-owl-ket/owl-pet/3d-experiments/172-tyto-castanops/tools/run191_real_native_glb_vtk_multiview.py:45: DeprecationWarning: Call to deprecated method SetCells. (Use ImportLegacyFormat or SetData instead.) -- Deprecated since version 9.6.0.
   cells.SetCells(len(mesh.faces),numpy_to_vtkIdTypeArray(faces.ravel(),deep=True))
-2026-11-18 16:37:55.145 (   0.507s) [    7F41DD888B80]vtkXOpenGLRenderWindow.:1460  WARN| bad X server connection. DISPLAY=
-2026-11-18 16:37:55.146 (   0.508s) [    7F41DD888B80]vtkOpenGLRenderWindow.c:645   WARN| Failed to load EGL! Please install the EGL library from your distribution's package manager.
-2026-11-18 16:37:55.146 (   0.509s) [    7F41DD888B80]vtkOSOpenGLRenderWindow:149   WARN| libOSMesa not found. It appears that OSMesa is not installed in your system. Please install the OSMesa library from your distribution's package manager.
-timeout: the monitored command dumped core
+RUN191_NATIVE_7VIEW_CREATED {"model_sha": "6c71558189df19947f1492faf8ecb9ed74bf5c2844cff200ea486f19f2e6a836", "triangles": 10000, "views": 7, "files": 18, "NO_RELEASE": true}

@@ -44,6 +44,9 @@ jobs:
           sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq blender >"$O/apt_blender_install.log" 2>&1
           blender --version | head -3 | tee "$O/blender_version.txt"
           python -m pip install -q --disable-pip-version-check pillow >"$O/pillow_install.log" 2>&1
+          # apt Blender's embedded Python lacks numpy, required by its glTF importer.
+          blender -b --python-expr "import sys; print('BLENDER_PYTHON_VERSION',sys.version)" > "$O/blender_python_version.log" 2>&1
+          python -m pip install -q --disable-pip-version-check --target /tmp/owl_bpy_numpy 'numpy==1.26.4' > "$O/numpy_install.log" 2>&1
       - name: REAL mesh Blender GLTF import, seven-axis textured render, no fake geometry
         timeout-minutes: 13
         continue-on-error: true
@@ -52,6 +55,7 @@ jobs:
           set -o pipefail
           R=owl-pet/3d-experiments/172-tyto-castanops
           O="$R/research-evidence-run177-BLENDER-REAL-NEURAL-SIXVIEW-NO_RELEASE"
+          export PYTHONPATH="/tmp/owl_bpy_numpy:${PYTHONPATH:-}"
           timeout 720s blender -b --factory-startup --python "$R/tools/run177_blender_native_owl_review.py" 2>&1 | tee "$O/run177_actual_blender.log"
       - name: Independent actual raster sheet and no-release evidence audit
         if: always()

@@ -1,0 +1,14 @@
+# Run194 — verified source deduplication in an actual free native GLB acquisition (NO_RELEASE)
+
+**Status: EXACT_ALREADY_REJECTED_ASSET / NO_NEW_ART / NO_RELEASE / EXTRA_PAYMENT_USD_0.**
+
+- UTC execution: 2026-11-18 17:55. Actual isolated [GitHub Actions Run194](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44363874342), successful execution of source check and SHA-based rejection gate.
+- Before source fetch, independently checked existing `owl-pet` prototype and README/AGENTS, original #172 v3 design file, exact rightmost cream mesoptile reference SHA256 `5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9`, Run193b seven-view rejection and negative-fingerprint registry.
+- Newly executed public HTTP license/source and original GLB transport for https://www.innerscene.com/tools/library/3d-parts/owl-d696472a. HTML 200 contained publisher's CC0 and redistribution claims; authorized publicly available binary fetch HTTP 200 from `files.innerscene.com`. The native binary passed structural GLB v2/header/JSON checks.
+- **Crucial finding: exact duplicate**. Original 20,671,040-byte GLB SHA256 `c11c94db20065c6c6f252e768e8c748f22dc69ef9b4e7199110b96de0625c12e`, 129 glTF meshes, 12 materials and 17 textures, *matches the existing Run120/Run130 rejected GLB fingerprint*. The model was an adult **great horned owl** with ear tufts, mature wings and tail, non-heart-shaped facial disc and unsupported feet; not a plausible age-unknown Tyto castanops cream-down mesoptile.
+- The deduplication gate correctly **refused** to treat this public asset as a new model, refused any claimed seven-view review or mobile WebGL test, and did **not** publish the original binary or images. This is an actual tested failure/avoidance, not a new asset or a visual success.
+- 12 original evidence files (HTTP response digest, complete source QA JSON, preflight hashes, execution/install logs, NO_RELEASE flags and SHA256 manifests) are archived. Actions artifact `owl172-run194-original-cc0-native-source-NO_RELEASE` ID `14454323964`, 30 days. Commit metadata-only evidence is under `research-evidence-run194-INNERSCENE-CC0-NATIVE-NO_RELEASE/`; no binary copy committed.
+- Source registry has this URL **and** SHA already. Future source discovery must dedupe on canonical URL before network transfer, not just after hashing; this run identified avoidable duplicate-source bandwidth. No new GLB was generated.
+- Compared against Run193 research branch: all Run194 diff paths are only #172 experiment tools/evidence and a dedicated workflow. Main, 251-species production, current prototype and deployment unchanged. No paid tools used, no interactive access bypass.
+
+**Exit gate**: Genuine source acquisition successful but source is an already-rejected adult owl; no new model, no visually acceptable baby owl, no physical smartphone WebGL validation. **NO_RELEASE**.

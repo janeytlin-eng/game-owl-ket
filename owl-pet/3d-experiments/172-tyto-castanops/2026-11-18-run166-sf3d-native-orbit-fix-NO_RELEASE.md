@@ -6,7 +6,7 @@ Rechecked original prototype, AGENTS, species #172 v3, Run165 evidence and targe
 
 Actual new prior generated SF3D asset from Run165 immutable Actions artifact 14401647106. Expected SHA256 8ff7341725e4fc27caf3ff4dbb3b07fe9231a96d216de31317bddf2aa07a7b8b; not the previous toy-car sample. Fixed Blender world=None bug in an independent full five-angle replay. The native GLB remains in isolated Actions artifact, NOT Git history.
 
-Blender native validation: FAILURE (see Blender log). Metrics: {"mesh_count": null, "vertex_count": null, "face_count": null, "triangulated_face_estimate": null, "materials_count": null, "texture_images": null, "bounds": null}.
+Blender native validation: FAILURE (see Blender step/install log; Blender log may be absent when apt times out). Metrics: {"mesh_count": null, "vertex_count": null, "face_count": null, "triangulated_face_estimate": null, "materials_count": null, "texture_images": null, "bounds": null}.
 
 Angles are objective local axes +Y, +Y/+X 45°, +X, -Y and -X. They are NOT labelled anatomical front/back without orientation registration. Rendering or GLB format validity is not artistic acceptance. Cream down, continuous facial disc, short wings, hollow-lip support and side/back consistency still need visual review. Physical mobile WebGL still NOT TESTED.
 

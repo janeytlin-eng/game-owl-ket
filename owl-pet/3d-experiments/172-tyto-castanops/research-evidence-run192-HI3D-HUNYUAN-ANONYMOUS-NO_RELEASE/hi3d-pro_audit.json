@@ -1,0 +1,82 @@
+{
+  "name": "hi3d-pro",
+  "url": "https://hi3d.pro/",
+  "started": "2026-11-18T16:55:15.896704+00:00",
+  "phase": "generator_unavailable_no_image_uploader",
+  "frames": [
+    {
+      "url": "https://hi3d.pro/",
+      "file_inputs": 0,
+      "buttons": 0,
+      "text": "hi3d.pro\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nRay ID: a5c880785b3b730f\nPerformance and Security by Cloudflare\nPrivacy"
+    },
+    {
+      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/av0/rch/w9ynf/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto",
+      "file_inputs": 0,
+      "buttons": 0,
+      "text": ""
+    }
+  ],
+  "events": [
+    {
+      "t_sec": 11.1,
+      "event": "loaded",
+      "url": "https://hi3d.pro/",
+      "title": "Just a moment..."
+    },
+    {
+      "t_sec": 11.2,
+      "event": "image_file_inputs",
+      "count": 0
+    }
+  ],
+  "http": [
+    {
+      "url": "https://hi3d.pro/",
+      "status": 307,
+      "method": "GET",
+      "resource": "document"
+    },
+    {
+      "url": "https://hi3d.pro/",
+      "status": 403,
+      "method": "GET",
+      "resource": "document"
+    },
+    {
+      "url": "https://hi3d.pro/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://challenges.cloudflare.com/turnstile/v0/b/f8df4d4a0cd6/api.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://hi3d.pro/cdn-cgi/challenge-platform/h/b/fo/545855621:1795018836:-luBYd99M_yhqoTk2vrzxj4-QT70E4MS6wSKRxjZIFE/a5c880785b3b730f/AVdSoY7UiQZCNq8TVuTLLC9e5DciLF71Q03fFgSK0bs-1795020916-1.2.1.1-Oi0qgXjPOPV7eF1abuEzxHMv",
+      "status": 200,
+      "method": "POST",
+      "resource": "xhr"
+    },
+    {
+      "url": "blob:https://hi3d.pro/b84c249b-6b04-47ac-b53e-5389f31ce5ca",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "blob:https://challenges.cloudflare.com/85228db1-1c0d-4716-aa95-73de10c334a7",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    }
+  ],
+  "submitted": false,
+  "source_uploaded": false,
+  "verified_new_glb": [],
+  "issues": [],
+  "ended": "2026-11-18T16:55:26.735025+00:00"
+}

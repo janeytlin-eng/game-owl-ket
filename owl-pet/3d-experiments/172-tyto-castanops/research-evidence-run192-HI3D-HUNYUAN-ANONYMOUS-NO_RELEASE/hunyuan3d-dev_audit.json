@@ -1,0 +1,82 @@
+{
+  "name": "hunyuan3d-dev",
+  "url": "https://hunyuan3d.dev/en",
+  "started": "2026-11-18T16:55:26.742077+00:00",
+  "phase": "generator_unavailable_no_image_uploader",
+  "frames": [
+    {
+      "url": "https://hunyuan3d.dev/en",
+      "file_inputs": 0,
+      "buttons": 0,
+      "text": "hunyuan3d.dev\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nRay ID: a5c880bb0d8ed434\nPerformance and Security by Cloudflare\nPrivacy"
+    },
+    {
+      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/av0/rch/ybeq8/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto",
+      "file_inputs": 0,
+      "buttons": 0,
+      "text": ""
+    }
+  ],
+  "events": [
+    {
+      "t_sec": 21.8,
+      "event": "loaded",
+      "url": "https://hunyuan3d.dev/en",
+      "title": "Just a moment..."
+    },
+    {
+      "t_sec": 21.9,
+      "event": "image_file_inputs",
+      "count": 0
+    }
+  ],
+  "http": [
+    {
+      "url": "https://hunyuan3d.dev/en",
+      "status": 307,
+      "method": "GET",
+      "resource": "document"
+    },
+    {
+      "url": "https://hunyuan3d.dev/en",
+      "status": 403,
+      "method": "GET",
+      "resource": "document"
+    },
+    {
+      "url": "https://hunyuan3d.dev/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://challenges.cloudflare.com/turnstile/v0/b/f8df4d4a0cd6/api.js",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://hunyuan3d.dev/cdn-cgi/challenge-platform/h/b/fo/545855621:1795018836:-luBYd99M_yhqoTk2vrzxj4-QT70E4MS6wSKRxjZIFE/a5c880bb0d8ed434/_3dcd0gfs9bQDmRHQB7X5jL5maf4HN_iNh5aZwZJ3SU-1795020927-1.2.1.1-Df2sEoUlibi3U2bp0XK",
+      "status": 200,
+      "method": "POST",
+      "resource": "xhr"
+    },
+    {
+      "url": "blob:https://hunyuan3d.dev/59c1b75e-943b-4f98-9bb7-ba7ec5aebab9",
+      "status": 200,
+      "method": "GET",
+      "resource": "script"
+    },
+    {
+      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/pat/a5c880c14a219a5a/1795020928661/0a3e9407d22524f06bc5e1cd29361310d2edf10940bf238554c5f1523b4776ed/Cj22qdT_GvGlPcxrBXdBNtJBE7Cj-r0gApWOs5W-_hfoRgbybIZUZMA",
+      "status": 401,
+      "method": "GET",
+      "resource": "fetch"
+    }
+  ],
+  "submitted": false,
+  "source_uploaded": false,
+  "verified_new_glb": [],
+  "issues": [],
+  "ended": "2026-11-18T16:55:37.452391+00:00"
+}

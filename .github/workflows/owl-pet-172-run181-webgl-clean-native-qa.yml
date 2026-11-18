@@ -2,7 +2,7 @@ name: owl172 Run181 real image-conditioned GLB mobile viewport software WebGL QA
 on:
   push:
     branches:
-      - research/owl172-run181-free-browser-webgl-native-qa
+      - research/owl172-run181-new-clean-image-glb-chromium-sevenview
     paths:
       - .github/workflows/owl-pet-172-run181-webgl-clean-native-qa.yml
       - owl-pet/3d-experiments/172-tyto-castanops/tools/run181_*
@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: research/owl172-run181-free-browser-webgl-native-qa
+          ref: research/owl172-run181-new-clean-image-glb-chromium-sevenview
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             owl-pet/AGENTS.md
@@ -121,5 +121,5 @@ jobs:
           if grep -Ei '\.(glb|blend|zip|fbx|obj|bin)$' /tmp/run181_staged_paths.txt; then exit 91; fi
           if [ -s /tmp/run181_staged_paths.txt ]; then
             git commit -m "research(owl172): archive actual browser WebGL GLB QA, no release"
-            git push origin HEAD:research/owl172-run181-free-browser-webgl-native-qa
+            git push origin HEAD:research/owl172-run181-new-clean-image-glb-chromium-sevenview
           fi

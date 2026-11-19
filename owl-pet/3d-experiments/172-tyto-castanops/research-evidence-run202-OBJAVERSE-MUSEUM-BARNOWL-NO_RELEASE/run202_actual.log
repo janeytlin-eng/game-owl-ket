@@ -1,0 +1,14 @@
+Validated owl-pet existing cat prototype, v3 design, Run201d, negative SHA register and exact pinned rightmost owl image
+Public Sketchfab metadata HTTP200 read (read-only, no unauthorized download API)
+Official objaverse.load_objects([known_exact_Sketchfab_UID]) started; no auth or paid service
+Downloaded 1 / 1 objects
+Downloaded 43225496 bytes valid GLB magic SHA256=6412ffd575360397bd90d391d3d4c23397f225945cdef3ec5727bfd91504cd44
+True native trimesh import passed {"unique_meshes": 12, "triangles": 261966, "vertices": 756317, "bounds": [[-0.21720988916396777, -0.0012066762488420564, -0.34814716438032167], [0.2152903544988547, 0.5628321491639525, 0.11197058167116936]], "material_kinds": ["PBRMaterial"]}
+2026-11-19 00:50:22.660 (   4.595s) [    7F1B8924EB80]    vtkGLTFImporter.cxx:559    ERR| vtkGLTFImporter (0x55aa48813230): Error loading model metadata
+Traceback (most recent call last):
+  File "/home/runner/work/game-owl-ket/game-owl-ket/owl-pet/3d-experiments/172-tyto-castanops/tools/run202_objaverse_heartface_native.py", line 102, in <module>
+    if bb[0]>bb[1]:raise RuntimeError("No imported VTK props")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: No imported VTK props
+
+RUN202 FINAL NO_NEW_MODEL_NO_RELEASE EVIDENCE_FILE_COUNT 9

@@ -35,7 +35,7 @@ jobs:
         if: always()
         shell: bash
         env:
-          GH_RESEARCH_TOKEN: \${{ github.token }}
+          GH_RESEARCH_TOKEN: ${{ github.token }}
         run: |
           git config user.name 'owl172-research-bot'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'

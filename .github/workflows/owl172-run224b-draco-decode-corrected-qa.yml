@@ -1,0 +1,46 @@
+name: "#172 Run224b mandatory Draco decode true GLB nonzero-geometry QA NO_RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run224-museum-3d-lod-material-qualification-no-release
+    paths:
+      - '.github/workflows/owl172-run224b-draco-decode-corrected-qa.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run224b_draco_decode_corrected_3d_qa.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  research-only:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install true geometry tools and production grade glTF-Transform Draco decoder at no paid cost
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends xvfb libgl1-mesa-dri libglx-mesa0
+          python3 -m pip install --disable-pip-version-check requests numpy pillow trimesh vtk
+          npm install --global @gltf-transform/cli@4.5.1
+          gltf-transform --version
+      - name: Actually download three compressed adult reference scans, decode, independently import and render only if bounds nonzero
+        run: |
+          xvfb-run -a python3 owl-pet/3d-experiments/172-tyto-castanops/run224b_draco_decode_corrected_3d_qa.py
+      - name: Preserve raw compressed GLBs, decoded GLBs, measured failure and camera evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run224b-native-draco-decoded-real-scene-qa-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/run224b-evidence/
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Commit independent correction report and negatives on isolated research branch only
+        if: always()
+        run: |
+          git config user.name 'owl172-research-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f owl-pet/3d-experiments/172-tyto-castanops/run224b-evidence/run224b_report.json 2>/dev/null || true
+          git add -f owl-pet/3d-experiments/172-tyto-castanops/run224b-evidence/run224b_draco_decoded_12views_ADULT_NOT_APPROVED.png 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m 'audit(owl172): native decoded glTF actual nonzero bounds strict negative QA'
+            git push origin HEAD:research/owl172-run224-museum-3d-lod-material-qualification-no-release || echo 'RESEARCH_PUSH_UNAVAILABLE: artifact is retained temporarily'
+          fi

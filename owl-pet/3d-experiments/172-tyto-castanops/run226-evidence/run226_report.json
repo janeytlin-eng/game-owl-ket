@@ -1,0 +1,162 @@
+{
+  "run": 226,
+  "created_utc": "2026-11-19T21:15:04.953052+00:00",
+  "source": {
+    "archive": "Zenodo 21379215 / Virtual Museums of Malopolska",
+    "filename": "0e65de5934db4f0eae02835ba7227dcc_normalized_optimized-0.250.glb",
+    "license_claim": "CC0 on Zenodo archive (adult Barn Owl Tyto alba)",
+    "expected_bytes": 2185576,
+    "url": "https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc_normalized_optimized-0.250.glb/content",
+    "http": 200,
+    "downloaded": {
+      "bytes": 2185576,
+      "sha256": "97b886248ea11483094a7290f27a97e373752f92f73f6ff585190e3d612d743a"
+    },
+    "draco_decoder": {
+      "rc": 0,
+      "log": "warn: Decoded KHR_draco_mesh_compression. Further compression will be lossy.\ninfo: run226_museum_adult_draco_original_ONLY.glb (2.19 MB) → run226_museum_adult_native_decoded_ONLY.glb (2.49 MB)\n"
+    },
+    "decoded_sha": {
+      "bytes": 2486016,
+      "sha256": "c9a62d8bbac9631f7f56315319592db06fe75ec5b23b40e5c027e8a0d2690026"
+    },
+    "actual_native_geometry": {
+      "mesh_count": 1,
+      "triangles": 9096,
+      "vertex_count": 10400,
+      "bounds": [
+        [
+          -0.21624,
+          -0.00087,
+          -0.34748
+        ],
+        [
+          0.21385,
+          0.56197,
+          0.11123
+        ]
+      ],
+      "span": [
+        0.43009,
+        0.56284,
+        0.45871
+      ]
+    }
+  },
+  "subject": "#172 Tyto castanops v3 rightmost cream mesoptile",
+  "methods": "Adult genuine 3D scan followed by two novel continuous spatial deformation fields, no primitive replacement",
+  "license_note": "Source is museum adult Tyto alba, not species-correct or age-correct character",
+  "release": "NO_RELEASE",
+  "art_review": "PENDING_MANUAL_REJECT_BY_DEFAULT",
+  "real_phone_webgl": "NOT_TESTED",
+  "paid_usd": 0,
+  "variants": {},
+  "errors": [
+    {
+      "stage": "variant_compact",
+      "error": "KeyError('compact')",
+      "trace": "Traceback (most recent call last):\n  File \"/home/runner/work/game-owl-ket/game-owl-ket/owl-pet/3d-experiments/172-tyto-castanops/run226_scanned_tyto_nonrigid_juvenile_sculpt_trial.py\", line 200, in <module>\n    DATA[\"variants\"][name].update({\"params\":params,\"file\":out.name,\n    ~~~~~~~~~~~~~~~~^^^^^^\nKeyError: 'compact'\n"
+    },
+    {
+      "stage": "variant_crouched",
+      "error": "KeyError('crouched')",
+      "trace": "Traceback (most recent call last):\n  File \"/home/runner/work/game-owl-ket/game-owl-ket/owl-pet/3d-experiments/172-tyto-castanops/run226_scanned_tyto_nonrigid_juvenile_sculpt_trial.py\", line 200, in <module>\n    DATA[\"variants\"][name].update({\"params\":params,\"file\":out.name,\n    ~~~~~~~~~~~~~~~~^^^^^^\nKeyError: 'crouched'\n"
+    }
+  ],
+  "files": {
+    "run226_crouched_azimuth180.png": {
+      "bytes": 36329,
+      "sha256": "4d7450d4b167c6b11f341abc172e607ebf5630ed2822cb6bb2aa5276c5e38189"
+    },
+    "run226_crouched_azimuth0.png": {
+      "bytes": 51695,
+      "sha256": "e9462770d8fd2ee2666deb8e392a754bcfaa6761247209dd9254c0ba6765fe4d"
+    },
+    "run226_crouched_azimuth90.png": {
+      "bytes": 33941,
+      "sha256": "d3f1f67ca5cac438d03e0ca28939d6d745c3fd014034c6599374637267185959"
+    },
+    "run226_compact_azimuth0.png": {
+      "bytes": 53039,
+      "sha256": "8119988bc942decce0ba4abe89f429e3fff58cb717eb9512ec859830c5b974df"
+    },
+    "run226_compact_native_tex_0.png": {
+      "bytes": 4927305,
+      "sha256": "100b81ca4ad5efcf923fc6c1346b90a7e4044e148da033d32a20ab7efa2cbc4e"
+    },
+    "run226_crouched_azimuth135.png": {
+      "bytes": 39814,
+      "sha256": "903fb17e62f8a7a4be877e05ad57e563c209d761e1d1b04f1fd651f8021f7513"
+    },
+    "run226_museum_adult_draco_original_ONLY.glb": {
+      "bytes": 2185576,
+      "sha256": "97b886248ea11483094a7290f27a97e373752f92f73f6ff585190e3d612d743a"
+    },
+    "run226_crouched_native_tex_0.png": {
+      "bytes": 4927305,
+      "sha256": "100b81ca4ad5efcf923fc6c1346b90a7e4044e148da033d32a20ab7efa2cbc4e"
+    },
+    "run226_compact_azimuth135.png": {
+      "bytes": 45710,
+      "sha256": "7772858afe1d291b414fb2f40727ffd4dfbddd984aedfd3542e5988940172a7f"
+    },
+    "run226_crouched_azimuth225.png": {
+      "bytes": 39660,
+      "sha256": "162988c4e92f87e760192517d4ba2e8c4634830a6ad2b96cd31d1bc886398a6f"
+    },
+    "run226_compact_REAL_SCAN_DEFORMED_ART_UNAPPROVED.glb": {
+      "bytes": 13919628,
+      "sha256": "58831a5838f60bfd43f8bcd47ca3f207c92cd0303be554c9e00a0ee33a9082ab"
+    },
+    "run226_crouched_REAL_SCAN_DEFORMED_ART_UNAPPROVED.glb": {
+      "bytes": 13919628,
+      "sha256": "19e155478de1c206a9691f86a359f09575bbfe9472382af9742dc20d689da68d"
+    },
+    "run226_crouched_azimuth270.png": {
+      "bytes": 32623,
+      "sha256": "51f31adda7661c88bd3e84e9882e3beac9fce5fbe167758b89932408c08eccbc"
+    },
+    "run226_compact_azimuth180.png": {
+      "bytes": 36608,
+      "sha256": "a5693e2fffa688d5bc138a60cf083de23485e65a5525d6e1647e4f70394539b3"
+    },
+    "run226_compact_azimuth45.png": {
+      "bytes": 52757,
+      "sha256": "3e22d7cf7c0fdb8792d23873cf1200e482709b96dea419afa8e234c2fb4fe701"
+    },
+    "run226_compact_azimuth270.png": {
+      "bytes": 42813,
+      "sha256": "30a2c0aaaf7074aa05a52ab95400db409447e7153f442bc94364593dbf17c3c4"
+    },
+    "run226_crouched_azimuth45.png": {
+      "bytes": 48242,
+      "sha256": "cb03b7b55d08dee5b367284c5b712117ac8c5a8aa2666723b24c3672b6b963f4"
+    },
+    "run226_reference_CROP_ONLY_2D.png": {
+      "bytes": 297445,
+      "sha256": "85a9e50d58ea49ee10e690a835be1d756602b2232d5d77c563fe98dcf2080b06"
+    },
+    "run226_museum_adult_native_decoded_ONLY.glb": {
+      "bytes": 2486016,
+      "sha256": "c9a62d8bbac9631f7f56315319592db06fe75ec5b23b40e5c027e8a0d2690026"
+    },
+    "run226_true3d_nonrigid_donor_14views_NOT_APPROVED.png": {
+      "bytes": 607396,
+      "sha256": "f0d76b72f57bde642885ceaaba494596cf0dac878a87ac883d8b7eacc329789d"
+    },
+    "run226_compact_azimuth90.png": {
+      "bytes": 44206,
+      "sha256": "f140254ad46117ca33133bf8f2da59db1e30b008b9420c332a0464944da6a3a7"
+    },
+    "run226_compact_azimuth225.png": {
+      "bytes": 42971,
+      "sha256": "28ea61d00fb4b904f9486a258b608dc37c3c5e640a9da108565df9ce0561dbe5"
+    }
+  },
+  "reference": {
+    "bytes": 737545,
+    "sha256": "881dec86e0e66ab2ad0781db86a3b719b35e710d2be1a1606d761a9d0908483d"
+  },
+  "result": "TWO_NATIVE_SCAN_MORPHS_GLBS_AND_FOURTEEN_VIEWS_ART_UNAPPROVED_NO_RELEASE",
+  "finished_utc": "2026-11-19T21:15:19.991414+00:00"
+}

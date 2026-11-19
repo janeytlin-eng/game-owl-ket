@@ -15,6 +15,8 @@ jobs:
     timeout-minutes: 18
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
       - name: Install only free native build dependencies
         run: |
           sudo apt-get update -qq
@@ -32,11 +34,13 @@ jobs:
       - name: Persist only diagnostic text to isolated research branch
         if: always()
         shell: bash
+        env:
+          GH_RESEARCH_TOKEN: \${{ github.token }}
         run: |
           git config user.name 'owl172-research-bot'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add owl-pet/3d-experiments/172-tyto-castanops/run217-evidence/ || true
           if ! git diff --cached --quiet; then
             git commit -m 'research(#172): record Run217 actual native groom trial and failures'
-            git push origin HEAD:research/owl172-run217-free-groomlab-native-tool-qualification-no-release || echo 'PUSH_FAILED; raw artifact remains independent proof'
+            git -c http.extraheader=\"AUTHORIZATION: basic $(printf 'x-access-token:%s' \"$GH_RESEARCH_TOKEN\" | base64 -w0)\" push origin HEAD:research/owl172-run217-free-groomlab-native-tool-qualification-no-release || echo 'PUSH_FAILED; raw artifact remains independent proof'
           fi

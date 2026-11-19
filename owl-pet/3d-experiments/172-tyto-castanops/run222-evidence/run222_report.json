@@ -1,0 +1,89 @@
+{
+  "run": 222,
+  "target": "#172 Tyto castanops v3 rightmost cream mesoptile",
+  "source_pack": "https://3dassets.dev/api/v1/packs/birds-and-reptiles-hd",
+  "source_license_claim": "CC0 1.0, 3DAssets.dev",
+  "material": "Adult barn owl anatomical donor, NOT accepted juvenile",
+  "additional_paid_usd": 0,
+  "release": "NO_RELEASE",
+  "art": "NOT_ACCEPTED",
+  "mobile_hardware": "NOT_TESTED",
+  "main_changed": false,
+  "production_changed": false,
+  "started_utc": "2026-11-19T16:57:09.027504+00:00",
+  "checks": {
+    "reference": {
+      "bytes": 737545,
+      "sha256": "881dec86e0e66ab2ad0781db86a3b719b35e710d2be1a1606d761a9d0908483d"
+    },
+    "manifest_status": 200,
+    "candidate_options": [
+      [
+        "barn owl (birds and reptiles hd) birds-and-reptiles-hd-barn-owl-b51d286f",
+        "https://cdn.3dassets.dev/assets/28079/v1/model.glb"
+      ]
+    ],
+    "donor_url": "https://cdn.3dassets.dev/assets/28079/v1/model.glb",
+    "download_http": {
+      "code": 200,
+      "type": "model/gltf-binary",
+      "final_url": "https://cdn.3dassets.dev/assets/28079/v1/model.glb"
+    },
+    "donor_stats": {
+      "mesh_count": 6,
+      "triangles": 16972,
+      "vertices": 12503,
+      "bounds": [
+        [
+          -3374.9812,
+          -6563.211,
+          -9922.6574
+        ],
+        [
+          3374.9812,
+          6563.6116,
+          9922.6559
+        ]
+      ]
+    },
+    "morph_stats": {
+      "mesh_count": 6,
+      "triangles": 16972,
+      "vertices": 12503,
+      "bounds": [
+        [
+          -3374.9812,
+          -6563.2109,
+          -9922.6572
+        ],
+        [
+          3374.9812,
+          4725.8564,
+          9922.6562
+        ]
+      ]
+    }
+  },
+  "files": {
+    "CC0_barn_owl_ADULT_original.glb": {
+      "bytes": 369708,
+      "sha256": "044dbcfeaf008deff45ff7f227fb0c0dc7e984177a20745345656e1b4b141bc2"
+    },
+    "run222_real3d_adult_donor_morph_UNAPPROVED.glb": {
+      "bytes": 627356,
+      "sha256": "6586d2bcd0ecd29e534373333cb318f30f464b989720f5ec9625547b72bb2b32"
+    },
+    "official_v3_rightmost_reference.png": {
+      "bytes": 297445,
+      "sha256": "85a9e50d58ea49ee10e690a835be1d756602b2232d5d77c563fe98dcf2080b06"
+    },
+    "run222_source_manifest.json": {
+      "bytes": 268357,
+      "sha256": "f52fdbb217d458d90f64aceed8f6ac8623c50719aab8cc78ebc90aa44845c9d0"
+    }
+  },
+  "status": "FAILED_NO_RELEASE",
+  "error": "RuntimeError('VTK no actors')",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/game-owl-ket/game-owl-ket/owl-pet/3d-experiments/172-tyto-castanops/run222_cc0_tyto_adult_donor_morph_qa.py\", line 119, in <module>\n    REPORT['checks']['donor_7view']=render(original,'donor')\n                                    ~~~~~~^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/game-owl-ket/game-owl-ket/owl-pet/3d-experiments/172-tyto-castanops/run222_cc0_tyto_adult_donor_morph_qa.py\", line 77, in render\n    if ren is None or ren.GetActors().GetNumberOfItems()==0:raise RuntimeError('VTK no actors')\n                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: VTK no actors\n",
+  "finished_utc": "2026-11-19T16:57:15.779780+00:00"
+}

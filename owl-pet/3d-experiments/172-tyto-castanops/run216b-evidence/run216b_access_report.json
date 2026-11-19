@@ -1,0 +1,29 @@
+{
+  "experiment": "Run216b Gaitkit officially documented direct code module accessibility",
+  "utc": "2026-11-19T13:47:10.649459+00:00",
+  "published_snippet": "import { createAsset } from 'https://gaitkit.com/cdn/eaglet.mjs'",
+  "paid_fallback": false,
+  "charged_usd": 0,
+  "art_gate": "NOT_PASSED",
+  "release": "NO_RELEASE",
+  "checks": [
+    {
+      "url": "https://gaitkit.com/cdn/eaglet.mjs",
+      "http_status": 402,
+      "error": "HTTP access restriction; no retry or bypass"
+    },
+    {
+      "url": "https://gaitkit.com/cdn/eaglet-params.json",
+      "status": 200,
+      "content_type": "application/json",
+      "length": 1442,
+      "sha256": "553aa0c087b162f03093b17afdd53d42963c50ef507c8438ba281ede4dea02f1",
+      "top_level_keys": [
+        "params",
+        "presets",
+        "night"
+      ]
+    }
+  ],
+  "status": "PUBLIC_MODULE_NOT_RETRIEVABLE_NO_RELEASE"
+}

@@ -1,0 +1,68 @@
+name: owl172 Run206 real free keyless TRELLIS draft GLB and seven native views NO_RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run206-threews-keyless-native-no-release
+    paths:
+      - .github/workflows/owl-pet-172-run206-threews-keyless-native.yml
+permissions:
+  contents: write
+jobs:
+  real-free-sourcebound-native:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 24
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run206-threews-keyless-native-no-release
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/AGENTS.md
+            owl-pet/README.md
+            owl-pet/STATUS.md
+            owl-pet/prototype/index.html
+            owl-pet/research/species/172-tyto-castanops-v3.md
+            owl-pet/3d-experiments/172-tyto-castanops/known_rejected_asset_sha256_registry.json
+            owl-pet/3d-experiments/172-tyto-castanops/2026-11-19-run205b-independent-matte-native-sevenview-human-audit-ART_REJECTED-NO_RELEASE.md
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png
+            owl-pet/3d-experiments/172-tyto-castanops/run206_threews_free_native_gate.py
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install only free native GLB importer and CPU renderer
+        shell: bash
+        timeout-minutes: 7
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libgl1 libegl1 libosmesa6
+          python -m pip install -q 'numpy<2' requests Pillow trimesh==4.4.9 vtk==9.6.2
+      - name: Submit exactly one free keyless draft generation and validate native GLB
+        shell: bash
+        timeout-minutes: 15
+        run: |
+          export VTK_DEFAULT_OPENGL_WINDOW=vtkOSOpenGLRenderWindow
+          export LIBGL_ALWAYS_SOFTWARE=1
+          python owl-pet/3d-experiments/172-tyto-castanops/run206_threews_free_native_gate.py
+      - name: Store real response/GLB/renders only in expiring isolated research ZIP; never deploy
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: research-evidence-run206-keyless-trellis-raw-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run206-THREEWS-KEYLESS-TEXT3D-NO_RELEASE/
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Commit lightweight response receipts and evidence manifest only to isolated branch
+        if: always()
+        shell: bash
+        run: |
+          git config user.name 'owl172-research-bot'
+          git config user.email 'owl172-research-bot@users.noreply.github.com'
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          E="$R/research-evidence-run206-THREEWS-KEYLESS-TEXT3D-NO_RELEASE"
+          for f in "$R/2026-11-19-run206-threews-keyless-text3d-sourcebound-NO_RELEASE.md" "$E/preflight.json" "$E/status.json" "$E/manifest.json" "$E/submit_response.json" "$E/native_glb_metrics.json" "$E/traceback.txt"; do
+            if test -f "$f"; then git add --sparse "$f"; fi
+          done
+          if ! git diff --cached --quiet; then
+            git commit -m "Run206 preserve actual keyless GLB experiment gate receipts; NO_RELEASE"
+            git push origin HEAD:research/owl172-run206-threews-keyless-native-no-release
+          fi

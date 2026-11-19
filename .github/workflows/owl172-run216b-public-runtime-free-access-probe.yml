@@ -1,0 +1,36 @@
+name: Owl172 Run216b public documented module no-cost access audit
+on:
+  push:
+    branches: [research/owl172-run216-free-rigged-juvenile-native-geometry-audit]
+    paths: ['.github/workflows/owl172-run216b-public-runtime-free-access-probe.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  noauth_public_runtime_probe:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Actually request published module URLs without login or payment
+        run: python3 owl-pet/3d-experiments/172-tyto-castanops/run216b_public_documented_module_probe.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run216b-free-asset-public-route-probe-NO_RELEASE
+          retention-days: 30
+          path: owl-pet/3d-experiments/172-tyto-castanops/run216b-evidence/
+      - name: Commit read-only measured audit to isolated branch safely
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          dir=owl-pet/3d-experiments/172-tyto-castanops/run216b-evidence
+          test -f "$dir/run216b_access_report.json" || exit 0
+          git config user.name "owl172-research-bot"
+          git config user.email "owl172-research-bot@users.noreply.github.com"
+          git add "$dir/run216b_access_report.json" "$dir/run216b_access_report.md"
+          git commit -m "research(owl172): Run216b zero-cost public module access evidence NO_RELEASE"
+          git fetch origin research/owl172-run216-free-rigged-juvenile-native-geometry-audit
+          git rebase origin/research/owl172-run216-free-rigged-juvenile-native-geometry-audit
+          git push origin HEAD:research/owl172-run216-free-rigged-juvenile-native-geometry-audit

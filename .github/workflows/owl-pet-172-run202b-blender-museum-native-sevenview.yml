@@ -1,0 +1,131 @@
+name: owl172 Run202b genuinely imported CC0 museum barn owl Blender sevenview NO_RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run202b-blender-museum-native-sevenview
+    paths:
+      - .github/workflows/owl-pet-172-run202b-blender-museum-native-sevenview.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run202b_blender_museum_real_native_sevenview.py
+permissions:
+  contents: write
+  actions: read
+jobs:
+  genuine-archived-museum-glb-blender-multiview:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 27
+    env:
+      LIBGL_ALWAYS_SOFTWARE: '1'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run202b-blender-museum-native-sevenview
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/AGENTS.md
+            owl-pet/README.md
+            owl-pet/prototype/index.html
+            owl-pet/research/species/172-tyto-castanops-v3.md
+            owl-pet/3d-experiments/172-tyto-castanops/known_rejected_asset_sha256_registry.json
+            owl-pet/3d-experiments/172-tyto-castanops/2026-11-19-run202-objaverse-museum-open-barnowl-native-NO_RELEASE.md
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run202b_blender_museum_real_native_sevenview.py
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Recover exact Run202 verified native CC0 museum source from immutable GitHub artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: owl172-run202-real-objaverse-museum-native-NO_RELEASE
+          run-id: 44431569680
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run202b-MUSEUM-BARNOWL-BLENDER-NO_RELEASE
+      - name: Exact source, target and prior evidence preflight, install no-fee Blender
+        shell: bash
+        timeout-minutes: 9
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run202b-MUSEUM-BARNOWL-BLENDER-NO_RELEASE"
+          test -s "$R/2026-11-19-run202-objaverse-museum-open-barnowl-native-NO_RELEASE.md"
+          for f in owl-pet/AGENTS.md owl-pet/README.md owl-pet/prototype/index.html owl-pet/research/species/172-tyto-castanops-v3.md "$R/known_rejected_asset_sha256_registry.json"; do test -s "$f"; sha256sum "$f" >> "$O/preflight_sha256.txt"; done
+          echo "5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9  $R/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png" | sha256sum -c | tee "$O/input_photo_hash.txt"
+          echo "6412ffd575360397bd90d391d3d4c23397f225945cdef3ec5727bfd91504cd44  $O/run202_original_museum_CC0_taxidermy.glb" | sha256sum -c | tee "$O/real_native_source_sha256.txt"
+          python -m py_compile "$R/tools/run202b_blender_museum_real_native_sevenview.py"
+          sudo apt-get update -qq >"$O/apt_update.log" 2>&1
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq blender >"$O/apt_blender_install.log" 2>&1
+          blender --version | head -3 > "$O/blender_version.txt"
+          python -m pip install -q --disable-pip-version-check pillow >"$O/pillow_install.log" 2>&1
+          python -m pip install -q --disable-pip-version-check --target /tmp/owl202b_bpy_numpy 'numpy==1.26.4' > "$O/numpy_install.log" 2>&1
+      - name: Render exactly archived real mesh, textured Blender Cycles seven physical camera viewpoints
+        shell: bash
+        timeout-minutes: 13
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run202b-MUSEUM-BARNOWL-BLENDER-NO_RELEASE"
+          export PYTHONPATH="/tmp/owl202b_bpy_numpy:${PYTHONPATH:-}"
+          timeout 720s blender -b --factory-startup --python "$R/tools/run202b_blender_museum_real_native_sevenview.py" 2>&1 | tee "$O/run202b_actual_blender.log"
+      - name: Independently assemble genuine rendered contact and archive any blocker without claiming approval
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image,ImageDraw
+          import hashlib,json,datetime
+          r=Path("owl-pet/3d-experiments/172-tyto-castanops")
+          o=r/"research-evidence-run202b-MUSEUM-BARNOWL-BLENDER-NO_RELEASE"
+          o.mkdir(exist_ok=True,parents=True)
+          imgs=sorted(o.glob("run202b_axis_*_UNREVIEWED.png"))
+          if imgs:
+              sheet=Image.new("RGB",(4*420,2*466),(235,235,235))
+              d=ImageDraw.Draw(sheet)
+              for i,p in enumerate(imgs[:8]):
+                  x=(i%4)*420;y=(i//4)*466
+                  im=Image.open(p).convert("RGB").resize((420,420))
+                  sheet.paste(im,(x,y+26))
+                  d.text((x+9,y+7),p.stem.replace("run202b_",""),fill=(22,22,22))
+              sheet.save(o/"run202b_true_blender_sevenview_contact_UNREVIEWED.png")
+          metrics=json.loads((o/"run202b_metrics.json").read_text()) if (o/"run202b_metrics.json").is_file() else {"status":"BLENDER_NOT_EXECUTED"}
+          (o/"NO_RELEASE.flag").write_text("NO_RELEASE: valid CC0 adult Tyto museum specimen donor is NOT the age-unknown cream fluffy juvenile, no physical mobile GPU tested.\n")
+          m={f.name:{"bytes":f.stat().st_size,"sha256":hashlib.sha256(f.read_bytes()).hexdigest()} for f in o.iterdir() if f.is_file() and f.name not in ("run202_original_museum_CC0_taxidermy.glb","run202b_sha256_manifest.json")}
+          (o/"run202b_sha256_manifest.json").write_text(json.dumps(m,indent=2,ensure_ascii=False)+"\n")
+          assert all(hashlib.sha256((o/k).read_bytes()).hexdigest()==v["sha256"] for k,v in m.items())
+          report=r/"2026-11-19-run202b-real-cc0-museum-blender-native-sevenview-NO_RELEASE.md"
+          report.write_text("# Run202b independent real Blender art/geometry gate for CC0 Barn owl museum scan\n\n"+
+            "UTC "+datetime.datetime.now(datetime.timezone.utc).isoformat()+"\n\n"+
+            "**NO_RELEASE**. Run202 had already acquired a genuinely new 43,225,496-byte 261,966-triangle GLB from the official Objaverse 1.0 mirror (Sketchfab original UID 0e65de5934db4f0eae02835ba7227dcc), SHA256 6412ffd575360397bd90d391d3d4c23397f225945cdef3ec5727bfd91504cd44, original API actually returned CC0. Its initial state JSON erroneously said NO_NEW_MODEL after a **VTK import failure**; corrected factual interpretation: **NEW_REAL_NATIVE_GLB_ACQUIRED / VTK_IMPORT_FAILED**, not no new model.\n\n"+
+            "This Run202b reuses EXACT original SHA256 bytes from the immutable [Run202 GitHub Actions artifact](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44431569680), independently re-imports native GLB in free Blender; no duplicate source hunt or alternative fake geometry. No source GLB committed to Git.\n\n"+
+            "Blender status: "+str(metrics.get("status","BLENDER_NOT_EXECUTED"))+"; original triangles "+str(metrics.get("triangle_count","UNVERIFIED"))+"; genuine rendered views "+str(len(imgs))+".\n\n"+
+            "Real art gate remains **NOT ACCEPTED** regardless of transport: an adult taxidermy is not the target juvenile, lacks thick cream second down, down-buried tiny wings/tail and eucalypt hollow support. Seven camera outputs, even if successful, cannot establish true physical mobile WebGL GPU performance. No money spent, no main/251-species production, prior prototype or deployment changes. NO_RELEASE.\n")
+          print("RUN202B",metrics.get("status"),"NATIVE_VIEWS",len(imgs),"MANIFEST",len(m),"NO_RELEASE")
+          PY
+      - name: Retain original GLB and full actual renders in isolated 30-day archive
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run202b-real-native-museum-blender-7view-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run202b-MUSEUM-BARNOWL-BLENDER-NO_RELEASE/
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Commit research-only camera raster and real SHA audits, never GLB or existing prototype
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run202b-MUSEUM-BARNOWL-BLENDER-NO_RELEASE"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --sparse "$R/2026-11-19-run202b-real-cc0-museum-blender-native-sevenview-NO_RELEASE.md"
+          find "$O" -maxdepth 1 -type f \( -name '*.json' -o -name '*.png' -o -name '*.txt' -o -name '*.log' -o -name '*.flag' \) -print0 | xargs -0 -r git add --sparse --
+          git diff --cached --name-only >/tmp/owl202b_staged.txt
+          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/' /tmp/owl202b_staged.txt; then exit 80; fi
+          if grep -Ei '\.(glb|obj|fbx|blend|zip|jpg|webp)$' /tmp/owl202b_staged.txt; then exit 81; fi
+          if test -s /tmp/owl202b_staged.txt; then
+            git commit -m 'research(owl172): archive exact CC0 museum donor true Blender sevenview and honest QA NO_RELEASE'
+            git push origin HEAD:research/owl172-run202b-blender-museum-native-sevenview
+          fi

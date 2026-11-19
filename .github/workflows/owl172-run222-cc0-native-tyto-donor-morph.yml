@@ -1,0 +1,44 @@
+name: '#172 Run222 free CC0 Tyto adult donor real 3D morph + native 14 views (NO_RELEASE)'
+on:
+  push:
+    branches:
+      - research/owl172-run222-cc0-tyto-donor-real-glb-morph-no-release
+    paths:
+      - '.github/workflows/owl172-run222-cc0-native-tyto-donor-morph.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run222_cc0_tyto_adult_donor_morph_qa.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  research-only:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install free native geometry and independent render tooling
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends xvfb libgl1-mesa-dri libglx-mesa0
+          python3 -m pip install --disable-pip-version-check numpy requests trimesh vtk pillow
+      - name: Actually retrieve candidate and produce a true native GLB plus 14 real camera views
+        run: |
+          xvfb-run -a python3 owl-pet/3d-experiments/172-tyto-castanops/run222_cc0_tyto_adult_donor_morph_qa.py
+      - name: Preserve independent primary-source and negative QA archive, never release as character
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run222-original-free-adult-donor-juvenile-morph-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/run222-evidence/
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Persist measured diagnostics and contact sheet only to isolated research branch
+        if: always()
+        run: |
+          git config user.name 'owl172-research-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          test ! -f owl-pet/3d-experiments/172-tyto-castanops/run222-evidence/run222_report.json || git add owl-pet/3d-experiments/172-tyto-castanops/run222-evidence/run222_report.json
+          test ! -f owl-pet/3d-experiments/172-tyto-castanops/run222-evidence/run222_actual_14view_comparison_NOT_APPROVED.png || git add owl-pet/3d-experiments/172-tyto-castanops/run222-evidence/run222_actual_14view_comparison_NOT_APPROVED.png
+          if ! git diff --cached --quiet; then
+            git commit -m 'audit(owl172): real free Tyto donor/morph GLB native fourteen-view technical results NO RELEASE'
+            git push origin HEAD:research/owl172-run222-cc0-tyto-donor-real-glb-morph-no-release || echo 'PUSH_UNAVAILABLE original workflow artifact retained'
+          fi

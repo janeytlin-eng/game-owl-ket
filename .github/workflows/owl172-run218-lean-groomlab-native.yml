@@ -1,0 +1,41 @@
+name: '#172 Run218 independent free lean GroomLab native CLI smoke'
+on:
+  push:
+    branches:
+      - research/owl172-run218-narrow-release-cli-groomlab-actual-trial
+    paths:
+      - '.github/workflows/owl172-run218-lean-groomlab-native.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run218_lean_groomlab_cli.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  source-groom-independent-tool-qualification:
+    runs-on: ubuntu-latest
+    timeout-minutes: 22
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install open-source build dependencies only
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends cmake ninja-build build-essential libtbb-dev
+      - name: Actual source-pinned release CLI compile and runtime smoke
+        run: python3 owl-pet/3d-experiments/172-tyto-castanops/run218_lean_groomlab_cli.py
+      - name: Archive immutable trial diagnostics independently
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run218-actual-native-cli-build-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/run218-evidence/
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Record trial evidence in this research branch only
+        if: always()
+        run: |
+          git config user.name 'owl172-research-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add owl-pet/3d-experiments/172-tyto-castanops/run218-evidence/ || true
+          if ! git diff --cached --quiet; then
+            git commit -m 'research(#172): preserve run218 actual tool attempt diagnostics NO_RELEASE'
+            git push origin HEAD:research/owl172-run218-narrow-release-cli-groomlab-actual-trial || echo 'RESEARCH_PUSH_FAILED; see artifact'
+          fi

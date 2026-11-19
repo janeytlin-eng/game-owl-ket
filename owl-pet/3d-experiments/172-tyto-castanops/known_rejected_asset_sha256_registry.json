@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scope": "#172 Tyto castanops v3 independent 3D research only; fingerprints are negative quality gates, not licensing decisions",
-  "updated_utc": "2026-11-19T01:21:00Z",
+  "updated_utc": "2026-11-19T03:10:00Z",
   "known_rejected_source_glbs": [
     {
       "sha256": "c11c94db20065c6c6f252e768e8c748f22dc69ef9b4e7199110b96de0625c12e",
@@ -273,6 +273,18 @@
       "run202_url": "https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44435529902",
       "run202b_url": "https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44435952123",
       "artifact_id": 14487913180
+    },
+    {
+      "sha256": "64d18c70d2b6d4ca53b885a3dbf7a7610076c99b84f23e7af20a9488ee9981a6",
+      "size_bytes": 726044,
+      "source": "Run204b original #172 v3 rightmost pinned PNG, locally inferred on no-charge GitHub Actions CPU by official open-source VAST-AI-Research/TripoSR; original source crop sha256 5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9",
+      "first_checked_run": 204,
+      "real_glb": true,
+      "mesh_count": 1,
+      "triangles": 36212,
+      "art_decision": "ART_REJECTED",
+      "grounds": "True native GLB with 7 VTK + independently reimported 12-angle VTK EGL multi-views; side/back collapse into dark grey-black wrinkled hard-scaled oval/bulb, deformed frontal Tyto heart mask and dark hollow eyes, protruding floating feet/claw artifacts, not cream airy down, no eucalypt hollow support. World-axis views do not correspond to anatomical up; no physical phone WebGL, no valid publication art.",
+      "reference": "2026-11-19-run204c-independent-native-sevenview-twelve-orbit-ART_REJECTED-NO_RELEASE.md"
     }
   ],
   "instructions": "Before a new download, consult previous run records and this hash index. Once bytes are fetched compare sha256; if matching a rejected source, skip Blender/rig/WebGL/art release and log source identity. Publisher CC0 claims are not independently proven rights."

@@ -10,7 +10,7 @@
   "mobile_hardware": "NOT_TESTED",
   "main_changed": false,
   "production_changed": false,
-  "started_utc": "2026-11-19T16:57:09.027504+00:00",
+  "started_utc": "2026-11-19T17:00:59.450318+00:00",
   "checks": {
     "reference": {
       "bytes": 737545,
@@ -62,28 +62,90 @@
           9922.6562
         ]
       ]
-    }
+    },
+    "vtk_independent_triangle_draw_donor": 16972,
+    "donor_7view": 7,
+    "vtk_independent_triangle_draw_morph": 16972,
+    "morph_7view": 7
   },
   "files": {
-    "CC0_barn_owl_ADULT_original.glb": {
-      "bytes": 369708,
-      "sha256": "044dbcfeaf008deff45ff7f227fb0c0dc7e984177a20745345656e1b4b141bc2"
-    },
     "run222_real3d_adult_donor_morph_UNAPPROVED.glb": {
       "bytes": 627356,
       "sha256": "6586d2bcd0ecd29e534373333cb318f30f464b989720f5ec9625547b72bb2b32"
     },
-    "official_v3_rightmost_reference.png": {
-      "bytes": 297445,
-      "sha256": "85a9e50d58ea49ee10e690a835be1d756602b2232d5d77c563fe98dcf2080b06"
+    "donor_left.png": {
+      "bytes": 28554,
+      "sha256": "edbceb7bb21ca9fd94e50bebec914091823a8d1800557b3910136f522d55d796"
+    },
+    "donor_bottom.png": {
+      "bytes": 32611,
+      "sha256": "0c1b57b72f7137e9d59f45a2cd8a9721efb1f5ab98a1492c07bcb2cdfd3def29"
+    },
+    "morph_bottom.png": {
+      "bytes": 33625,
+      "sha256": "048cf4fc389aff5413de5d2672e6449eb63e97d731d55328ad6b0055b7fb6a53"
+    },
+    "morph_right.png": {
+      "bytes": 26745,
+      "sha256": "394f826aa2e6cea88e7e24f73e91965c36eec7b39ee6188395aa153bece18546"
+    },
+    "morph_left.png": {
+      "bytes": 26317,
+      "sha256": "a750b6e5a8964be4fa50b647f9212a9f46b047921c1e48ec36346fc01fd82256"
+    },
+    "donor_right.png": {
+      "bytes": 28779,
+      "sha256": "d87f2dda891e62ff1ab41dae034f00ac9172d9990ab28caec78f0d0662110f2a"
+    },
+    "donor_quarter.png": {
+      "bytes": 31742,
+      "sha256": "adfa74029d06e31ccbe99a5d5afad3418d4091427d5646784310a21b18238fe6"
+    },
+    "morph_top.png": {
+      "bytes": 28918,
+      "sha256": "43bb828a2693a7b0883ebec2cd67fbcce9f5914336fafad3f128ff75ad33de23"
     },
     "run222_source_manifest.json": {
       "bytes": 268357,
       "sha256": "f52fdbb217d458d90f64aceed8f6ac8623c50719aab8cc78ebc90aa44845c9d0"
+    },
+    "donor_top.png": {
+      "bytes": 29286,
+      "sha256": "b71abb3490f485b857548f2c77682618375f150267353895206991295bcb518e"
+    },
+    "run222_actual_14view_comparison_NOT_APPROVED.png": {
+      "bytes": 384694,
+      "sha256": "24a339361b33a8de48e9f15722d021cfddff53feb9cff47651ce0dcbaa50b5ae"
+    },
+    "donor_front.png": {
+      "bytes": 23638,
+      "sha256": "999d5d284065b0e45b3db857324e2c295bf12e44da8e7b1bcf3703e15e481f84"
+    },
+    "morph_quarter.png": {
+      "bytes": 29130,
+      "sha256": "a40cf22445dfd7a8794e02a99ad40d43c2234e0ce7e1ed8499f33403fe58fcea"
+    },
+    "donor_back.png": {
+      "bytes": 23142,
+      "sha256": "d019646dd16e5f44bd1ebd8c9e3d3c8f071404288037d08a17945bcd57431ebc"
+    },
+    "CC0_barn_owl_ADULT_original.glb": {
+      "bytes": 369708,
+      "sha256": "044dbcfeaf008deff45ff7f227fb0c0dc7e984177a20745345656e1b4b141bc2"
+    },
+    "morph_back.png": {
+      "bytes": 21381,
+      "sha256": "77c97bbf3d42569408ef39e23e50d7d4e3e173d8ff6ab39b8cbe2f2014d7a2fa"
+    },
+    "morph_front.png": {
+      "bytes": 21617,
+      "sha256": "d67dc3b5ee4b4a910f40821d757019d02a3452e2104da5f42dee1262127d8f08"
+    },
+    "official_v3_rightmost_reference.png": {
+      "bytes": 297445,
+      "sha256": "85a9e50d58ea49ee10e690a835be1d756602b2232d5d77c563fe98dcf2080b06"
     }
   },
-  "status": "FAILED_NO_RELEASE",
-  "error": "RuntimeError('VTK no actors')",
-  "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/game-owl-ket/game-owl-ket/owl-pet/3d-experiments/172-tyto-castanops/run222_cc0_tyto_adult_donor_morph_qa.py\", line 119, in <module>\n    REPORT['checks']['donor_7view']=render(original,'donor')\n                                    ~~~~~~^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/game-owl-ket/game-owl-ket/owl-pet/3d-experiments/172-tyto-castanops/run222_cc0_tyto_adult_donor_morph_qa.py\", line 77, in render\n    if ren is None or ren.GetActors().GetNumberOfItems()==0:raise RuntimeError('VTK no actors')\n                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: VTK no actors\n",
-  "finished_utc": "2026-11-19T16:57:15.779780+00:00"
+  "status": "ACTUAL_NATIVE_TYTO_DONOR_MORPH_14VIEWS_TECH_ONLY_ART_UNAPPROVED",
+  "finished_utc": "2026-11-19T17:01:05.043054+00:00"
 }

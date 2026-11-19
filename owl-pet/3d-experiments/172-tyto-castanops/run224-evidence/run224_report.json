@@ -1,0 +1,454 @@
+{
+  "run": 224,
+  "date_utc": "2026-11-19T18:54:00.214729+00:00",
+  "goal": "Compare archive-provided native museum scan LODs and glTF PBR integrity for eventual mobile donor study",
+  "source_record": "https://zenodo.org/records/21379215",
+  "source_license_claim": "Zenodo metadata cc-zero; provenance claim only; separate legal check before redistribution",
+  "source_species": "adult Tyto alba taxidermy, NOT Tyto castanops mesoptile",
+  "target": "#172 rightmost cream down age-unknown mesoptile; natural heart disc and 360 juvenile silhouette",
+  "release": "NO_RELEASE",
+  "art": "ADULT_REFERENCE_REJECTED_FOR_JUVENILE",
+  "real_phone_webgl": "NOT_TESTED",
+  "paid_usd": 0,
+  "main_production_modified": false,
+  "models": {
+    "original": {
+      "source_filename": "0e65de5934db4f0eae02835ba7227dcc.glb",
+      "expected_bytes": 43225496,
+      "source": {
+        "url": "https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc.glb/content",
+        "http": 200,
+        "content_type": "application/octet-stream, application/octet-stream",
+        "redirect": "https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc.glb/content",
+        "integrity": {
+          "bytes": 43225496,
+          "sha256": "6412ffd575360397bd90d391d3d4c23397f225945cdef3ec5727bfd91504cd44"
+        }
+      },
+      "gltf": {
+        "version": 2,
+        "meshes": 12,
+        "nodes": 14,
+        "scenes": 1,
+        "materials": 1,
+        "images": 4,
+        "texture_count": 4,
+        "extensions_used": [
+          "KHR_materials_pbrSpecularGlossiness"
+        ],
+        "extensions_required": [
+          "KHR_materials_pbrSpecularGlossiness"
+        ],
+        "primitive_count": 12,
+        "accessor_vertices": 1512634,
+        "pbr_basecolor_maps": 0,
+        "images_embedded": 4,
+        "image_mime_types": [
+          "image/jpeg",
+          "image/png",
+          "image/png",
+          "image/png"
+        ],
+        "file_length_verified": true
+      },
+      "import": "TRUE_3D_RENDERED",
+      "native_scene": {
+        "meshes": 12,
+        "faces": 261966,
+        "vertices": 756317,
+        "bounds": [
+          [
+            -0.21721,
+            -0.00121,
+            -0.34815
+          ],
+          [
+            0.21529,
+            0.56283,
+            0.11197
+          ]
+        ],
+        "estimated_up_axis": 1,
+        "texture_actors_vtk": 12,
+        "vertex_color_actors": 0,
+        "rendering_warning": "VTK not a fully glTF PBR-authentic viewer; camera axes are NOT anatomical labels"
+      },
+      "views": 4
+    },
+    "optimized": {
+      "source_filename": "0e65de5934db4f0eae02835ba7227dcc_normalized_optimized.glb",
+      "expected_bytes": 5603344,
+      "source": {
+        "url": "https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc_normalized_optimized.glb/content",
+        "http": 200,
+        "content_type": "application/octet-stream, application/octet-stream",
+        "redirect": "https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc_normalized_optimized.glb/content",
+        "integrity": {
+          "bytes": 5603344,
+          "sha256": "3fff5130cfad17cc1fcf312819019bad75782f4f01708d18696e100d643691cb"
+        }
+      },
+      "gltf": {
+        "version": 2,
+        "meshes": 1,
+        "nodes": 1,
+        "scenes": 1,
+        "materials": 1,
+        "images": 3,
+        "texture_count": 3,
+        "extensions_used": [
+          "KHR_draco_mesh_compression"
+        ],
+        "extensions_required": [
+          "KHR_draco_mesh_compression"
+        ],
+        "primitive_count": 1,
+        "accessor_vertices": 48072,
+        "pbr_basecolor_maps": 1,
+        "images_embedded": 3,
+        "image_mime_types": [
+          "image/jpeg",
+          "image/png",
+          "image/jpeg"
+        ],
+        "file_length_verified": true
+      },
+      "import": "TRUE_3D_RENDERED",
+      "native_scene": {
+        "meshes": 1,
+        "faces": 30412,
+        "vertices": 24036,
+        "bounds": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "estimated_up_axis": 0,
+        "texture_actors_vtk": 1,
+        "vertex_color_actors": 0,
+        "rendering_warning": "VTK not a fully glTF PBR-authentic viewer; camera axes are NOT anatomical labels"
+      },
+      "views": 4
+    },
+    "optimized_025": {
+      "source_filename": "0e65de5934db4f0eae02835ba7227dcc_normalized_optimized-0.250.glb",
+      "expected_bytes": 2185576,
+      "source": {
+        "url": "https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc_normalized_optimized-0.250.glb/content",
+        "http": 200,
+        "content_type": "application/octet-stream, application/octet-stream",
+        "redirect": "https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc_normalized_optimized-0.250.glb/content",
+        "integrity": {
+          "bytes": 2185576,
+          "sha256": "97b886248ea11483094a7290f27a97e373752f92f73f6ff585190e3d612d743a"
+        }
+      },
+      "gltf": {
+        "version": 2,
+        "meshes": 1,
+        "nodes": 1,
+        "scenes": 1,
+        "materials": 1,
+        "images": 3,
+        "texture_count": 3,
+        "extensions_used": [
+          "KHR_draco_mesh_compression"
+        ],
+        "extensions_required": [
+          "KHR_draco_mesh_compression"
+        ],
+        "primitive_count": 1,
+        "accessor_vertices": 20800,
+        "pbr_basecolor_maps": 1,
+        "images_embedded": 3,
+        "image_mime_types": [
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg"
+        ],
+        "file_length_verified": true
+      },
+      "import": "TRUE_3D_RENDERED",
+      "native_scene": {
+        "meshes": 1,
+        "faces": 9096,
+        "vertices": 10400,
+        "bounds": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "estimated_up_axis": 0,
+        "texture_actors_vtk": 1,
+        "vertex_color_actors": 0,
+        "rendering_warning": "VTK not a fully glTF PBR-authentic viewer; camera axes are NOT anatomical labels"
+      },
+      "views": 4
+    },
+    "normalized_010": {
+      "source_filename": "0e65de5934db4f0eae02835ba7227dcc_normalized-0.100.glb",
+      "expected_bytes": 1634244,
+      "source": {
+        "url": "https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc_normalized-0.100.glb/content",
+        "http": 200,
+        "content_type": "application/octet-stream, application/octet-stream",
+        "redirect": "https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc_normalized-0.100.glb/content",
+        "integrity": {
+          "bytes": 1634244,
+          "sha256": "8d5b2c0baa5dc3be8471bbedbd2ca0fe86feb0d26fc546a378b0b9dc04377b3c"
+        }
+      },
+      "gltf": {
+        "version": 2,
+        "meshes": 1,
+        "nodes": 2,
+        "scenes": 1,
+        "materials": 1,
+        "images": 4,
+        "texture_count": 5,
+        "extensions_used": [
+          "KHR_draco_mesh_compression",
+          "KHR_materials_specular",
+          "KHR_materials_ior"
+        ],
+        "extensions_required": [
+          "KHR_draco_mesh_compression"
+        ],
+        "primitive_count": 1,
+        "accessor_vertices": 46422,
+        "pbr_basecolor_maps": 1,
+        "images_embedded": 4,
+        "image_mime_types": [
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg",
+          "image/jpeg"
+        ],
+        "file_length_verified": true
+      },
+      "import": "TRUE_3D_RENDERED",
+      "native_scene": {
+        "meshes": 1,
+        "faces": 26192,
+        "vertices": 23211,
+        "bounds": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "estimated_up_axis": 0,
+        "texture_actors_vtk": 1,
+        "vertex_color_actors": 0,
+        "rendering_warning": "VTK not a fully glTF PBR-authentic viewer; camera axes are NOT anatomical labels"
+      },
+      "views": 4
+    }
+  },
+  "comparison": {
+    "optimized": {
+      "silhouette_iou_4views": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_iou": 0.0,
+      "relative_bytes": 0.1296,
+      "caveat": "crude camera-normalized silhouette proxy, NOT a 3D anatomy or texture-quality endorsement"
+    },
+    "optimized_025": {
+      "silhouette_iou_4views": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_iou": 0.0,
+      "relative_bytes": 0.0506,
+      "caveat": "crude camera-normalized silhouette proxy, NOT a 3D anatomy or texture-quality endorsement"
+    },
+    "normalized_010": {
+      "silhouette_iou_4views": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_iou": 0.0,
+      "relative_bytes": 0.0378,
+      "caveat": "crude camera-normalized silhouette proxy, NOT a 3D anatomy or texture-quality endorsement"
+    }
+  },
+  "files": {
+    "run224_original_tex_10.png": {
+      "bytes": 2149073,
+      "sha256": "4bb6388ff0579c717b0532d7e641371042ab4175e53855769d6f25deb7a62b52"
+    },
+    "run224_optimized_camera_180.png": {
+      "bytes": 1455,
+      "sha256": "7696f506a1b7464ec025d69fe3524766a918abea77dae2f535a4d927880b8117"
+    },
+    "run224_normalized_010_camera_180.png": {
+      "bytes": 1455,
+      "sha256": "7696f506a1b7464ec025d69fe3524766a918abea77dae2f535a4d927880b8117"
+    },
+    "run224_original_tex_3.png": {
+      "bytes": 2149073,
+      "sha256": "4bb6388ff0579c717b0532d7e641371042ab4175e53855769d6f25deb7a62b52"
+    },
+    "run224_optimized_025_ADULT_DONOR_NOT_APPROVED.glb": {
+      "bytes": 2185576,
+      "sha256": "97b886248ea11483094a7290f27a97e373752f92f73f6ff585190e3d612d743a"
+    },
+    "run224_original_ADULT_DONOR_NOT_APPROVED.glb": {
+      "bytes": 43225496,
+      "sha256": "6412ffd575360397bd90d391d3d4c23397f225945cdef3ec5727bfd91504cd44"
+    },
+    "run224_original_tex_7.png": {
+      "bytes": 2149073,
+      "sha256": "4bb6388ff0579c717b0532d7e641371042ab4175e53855769d6f25deb7a62b52"
+    },
+    "run224_original_camera_180.png": {
+      "bytes": 59510,
+      "sha256": "6731f3b677d9f6ba9163dfb1c3ca5988d714bfe8ea8c9ecf52e408a67274bd3c"
+    },
+    "run224_normalized_010_camera_0.png": {
+      "bytes": 1455,
+      "sha256": "7696f506a1b7464ec025d69fe3524766a918abea77dae2f535a4d927880b8117"
+    },
+    "run224_optimized_025_camera_90.png": {
+      "bytes": 1455,
+      "sha256": "7696f506a1b7464ec025d69fe3524766a918abea77dae2f535a4d927880b8117"
+    },
+    "run224_original_tex_1.png": {
+      "bytes": 2149073,
+      "sha256": "4bb6388ff0579c717b0532d7e641371042ab4175e53855769d6f25deb7a62b52"
+    },
+    "run224_original_tex_6.png": {
+      "bytes": 2149073,
+      "sha256": "4bb6388ff0579c717b0532d7e641371042ab4175e53855769d6f25deb7a62b52"
+    },
+    "run224_original_tex_11.png": {
+      "bytes": 2149073,
+      "sha256": "4bb6388ff0579c717b0532d7e641371042ab4175e53855769d6f25deb7a62b52"
+    },
+    "run224_normalized_010_ADULT_DONOR_NOT_APPROVED.glb": {
+      "bytes": 1634244,
+      "sha256": "8d5b2c0baa5dc3be8471bbedbd2ca0fe86feb0d26fc546a378b0b9dc04377b3c"
+    },
+    "run224_original_tex_2.png": {
+      "bytes": 2149073,
+      "sha256": "4bb6388ff0579c717b0532d7e641371042ab4175e53855769d6f25deb7a62b52"
+    },
+    "run224_original_tex_8.png": {
+      "bytes": 2149073,
+      "sha256": "4bb6388ff0579c717b0532d7e641371042ab4175e53855769d6f25deb7a62b52"
+    },
+    "run224_optimized_025_camera_180.png": {
+      "bytes": 1455,
+      "sha256": "7696f506a1b7464ec025d69fe3524766a918abea77dae2f535a4d927880b8117"
+    },
+    "run224_original_tex_4.png": {
+      "bytes": 2149073,
+      "sha256": "4bb6388ff0579c717b0532d7e641371042ab4175e53855769d6f25deb7a62b52"
+    },
+    "run224_original_tex_9.png": {
+      "bytes": 2149073,
+      "sha256": "4bb6388ff0579c717b0532d7e641371042ab4175e53855769d6f25deb7a62b52"
+    },
+    "run224_original_camera_270.png": {
+      "bytes": 61193,
+      "sha256": "89eeb1e201c55c1e301b3c93cffa16d494c93e9cd81881047418e81528f4818c"
+    },
+    "run224_normalized_010_tex_0.png": {
+      "bytes": 2031899,
+      "sha256": "1f889bf05ee6d8cc603e5adf5d0876f486295f42a9b2dea9716d3f9ec6182b4e"
+    },
+    "run224_normalized_010_camera_90.png": {
+      "bytes": 1455,
+      "sha256": "7696f506a1b7464ec025d69fe3524766a918abea77dae2f535a4d927880b8117"
+    },
+    "run224_optimized_camera_0.png": {
+      "bytes": 1455,
+      "sha256": "7696f506a1b7464ec025d69fe3524766a918abea77dae2f535a4d927880b8117"
+    },
+    "run224_optimized_tex_0.png": {
+      "bytes": 4927305,
+      "sha256": "100b81ca4ad5efcf923fc6c1346b90a7e4044e148da033d32a20ab7efa2cbc4e"
+    },
+    "run224_optimized_025_camera_270.png": {
+      "bytes": 1455,
+      "sha256": "7696f506a1b7464ec025d69fe3524766a918abea77dae2f535a4d927880b8117"
+    },
+    "run224_original_camera_0.png": {
+      "bytes": 59436,
+      "sha256": "e36d03f5c3ba48a4077b3d8dc58e9c150a053656c43224742b2f930ecce3c0a7"
+    },
+    "run224_normalized_010_camera_270.png": {
+      "bytes": 1455,
+      "sha256": "7696f506a1b7464ec025d69fe3524766a918abea77dae2f535a4d927880b8117"
+    },
+    "run224_original_tex_0.png": {
+      "bytes": 2149073,
+      "sha256": "4bb6388ff0579c717b0532d7e641371042ab4175e53855769d6f25deb7a62b52"
+    },
+    "run224_optimized_camera_270.png": {
+      "bytes": 1455,
+      "sha256": "7696f506a1b7464ec025d69fe3524766a918abea77dae2f535a4d927880b8117"
+    },
+    "run224_original_tex_5.png": {
+      "bytes": 2149073,
+      "sha256": "4bb6388ff0579c717b0532d7e641371042ab4175e53855769d6f25deb7a62b52"
+    },
+    "run224_original_camera_90.png": {
+      "bytes": 62817,
+      "sha256": "023b8699044e90e17a22a7fef4c7dd19ceb0ccc9d1662431ab9d609e518a0e0b"
+    },
+    "run224_optimized_025_tex_0.png": {
+      "bytes": 4927305,
+      "sha256": "100b81ca4ad5efcf923fc6c1346b90a7e4044e148da033d32a20ab7efa2cbc4e"
+    },
+    "run224_optimized_025_camera_0.png": {
+      "bytes": 1455,
+      "sha256": "7696f506a1b7464ec025d69fe3524766a918abea77dae2f535a4d927880b8117"
+    },
+    "run224_optimized_camera_90.png": {
+      "bytes": 1455,
+      "sha256": "7696f506a1b7464ec025d69fe3524766a918abea77dae2f535a4d927880b8117"
+    },
+    "run224_four_LoDs_16view_ADULT_NOT_APPROVED.png": {
+      "bytes": 264074,
+      "sha256": "17d97117c28da94e7bd5d70eb97abff88128870061ff176d96f6883f3e8692bf"
+    },
+    "run224_optimized_ADULT_DONOR_NOT_APPROVED.glb": {
+      "bytes": 5603344,
+      "sha256": "3fff5130cfad17cc1fcf312819019bad75782f4f01708d18696e100d643691cb"
+    }
+  },
+  "target_reference": {
+    "bytes": 737545,
+    "sha256": "881dec86e0e66ab2ad0781db86a3b719b35e710d2be1a1606d761a9d0908483d"
+  },
+  "outcome": "ADULT_DONOR_TECHNIQUE_ONLY_ART_REJECTED_NO_RELEASE"
+}

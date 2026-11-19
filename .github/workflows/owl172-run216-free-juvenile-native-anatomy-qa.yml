@@ -49,6 +49,6 @@ jobs:
           fi
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "research(owl172): Run216 actual native source GLB anatomy result ART_REJECTED NO_RELEASE"
-          git fetch origin "\${{ github.ref_name }}"
-          git rebase "origin/\${{ github.ref_name }}"
-          git push origin "HEAD:\${{ github.ref_name }}"
+          git fetch origin "${{ github.ref_name }}"
+          git rebase "origin/${{ github.ref_name }}"
+          git push origin "HEAD:${{ github.ref_name }}"

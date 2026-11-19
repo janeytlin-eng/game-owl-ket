@@ -1,9 +1,9 @@
 name: '#172 Run220 actual free native groom trial (technical wolf, NO RELEASE)'
 on:
   push:
-    branches: [research/owl172-run220-groomlab-real-fur-demo-tech-only-no-release]
+    branches: [research/owl172-run220-groomlab-full-native-mcp-fur-technical-qa]
     paths:
-      - '.github/workflows/owl172-run220-groomlab-native-fur-test.yml'
+      - '.github/workflows/owl172-run220-groomlab-native-mcp-fur-test.yml'
       - 'owl-pet/3d-experiments/172-tyto-castanops/run220_groomlab_actual_fur_mcp_trial.py'
   workflow_dispatch:
 permissions:
@@ -36,5 +36,5 @@ jobs:
           find owl-pet/3d-experiments/172-tyto-castanops/run220-evidence -type f ! -name '*.groom' ! -name '*.png' ! -name '*.usda' -print0 | xargs -0 -r git add --
           if ! git diff --cached --quiet; then
             git commit -m 'research(#172): record real groom source and technical evidence without pet promotion'
-            git push origin HEAD:research/owl172-run220-groomlab-real-fur-demo-tech-only-no-release || echo 'TEXT_PUSH_UNAVAILABLE; original artifact retained'
+            git push origin HEAD:research/owl172-run220-groomlab-full-native-mcp-fur-technical-qa || echo 'TEXT_PUSH_UNAVAILABLE; original artifact retained'
           fi

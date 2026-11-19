@@ -1,0 +1,70 @@
+name: owl172 Run207 genuine no-charge source-image Hunyuan UI browser + native GLB gate NO_RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run207-hy3d-public-free-image-native-no-release
+    paths:
+      - .github/workflows/owl-pet-172-run207-hy3d-public-free-native-ui.yml
+permissions:
+  contents: write
+jobs:
+  verify-free-image-to-native-mesh:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 21
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run207-hy3d-public-free-image-native-no-release
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/AGENTS.md
+            owl-pet/README.md
+            owl-pet/STATUS.md
+            owl-pet/prototype/index.html
+            owl-pet/research/species/172-tyto-castanops-v3.md
+            owl-pet/3d-experiments/172-tyto-castanops/known_rejected_asset_sha256_registry.json
+            owl-pet/3d-experiments/172-tyto-castanops/2026-11-19-run206b-shortprompt-independent-original-artifact-NO_RELEASE.md
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png
+            owl-pet/3d-experiments/172-tyto-castanops/run207_hy3d_public_browser_native_gate.py
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install free Chromium automation and native GLB import/render
+        timeout-minutes: 7
+        shell: bash
+        run: |
+          mkdir -p owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run207-HY3D-PUBLIC-UI-NO_RELEASE
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libegl1 libgl1 libosmesa6
+          python -m pip install -q 'numpy<2' Pillow playwright==1.56.0 trimesh==4.4.9 vtk==9.6.2
+          python -m playwright install chromium --with-deps
+      - name: Actually open free generator and submit original source through browser; inspect native mesh when returned
+        timeout-minutes: 10
+        shell: bash
+        run: |
+          export LIBGL_ALWAYS_SOFTWARE=1
+          export VTK_DEFAULT_OPENGL_WINDOW=vtkOSOpenGLRenderWindow
+          python owl-pet/3d-experiments/172-tyto-castanops/run207_hy3d_public_browser_native_gate.py
+      - name: Preserve real evidence nonpublicly without releasing any model
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run207-original-ui-glb-sevenview-evidence-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run207-HY3D-PUBLIC-UI-NO_RELEASE/
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Independently archive lightweight status and checksums on research branch only
+        if: always()
+        shell: bash
+        run: |
+          git config user.name 'owl172-research-bot'
+          git config user.email 'owl172-research-bot@users.noreply.github.com'
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          E="$R/research-evidence-run207-HY3D-PUBLIC-UI-NO_RELEASE"
+          for f in "$R/2026-11-19-run207-public-hunyuan-image-conditioned-browser-NO_RELEASE.md" "$E/preflight.json" "$E/status.json" "$E/manifest.json" "$E/native_mesh_metrics.json" "$E/network_response_summary.json" "$E/exception_trace.txt" "$E/render_error.txt"; do
+            if test -f "$f"; then git add --sparse -f "$f"; fi
+          done
+          if ! git diff --cached --quiet; then
+            git commit -m "Run207 preserve real public free native-browser result receipts and SHA NO_RELEASE"
+            git push origin HEAD:research/owl172-run207-hy3d-public-free-image-native-no-release
+          fi

@@ -11,26 +11,21 @@ import requests
 from PIL import Image, ImageDraw
 
 ROOT = Path("owl-pet/3d-experiments/172-tyto-castanops")
-OUT = ROOT / "research-evidence-run206-THREEWS-KEYLESS-TEXT3D-NO_RELEASE"
+OUT = ROOT / "research-evidence-run206b-SHORTPROMPT-THREEWS-NO_RELEASE"
 SRC = ROOT / "research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png"
 SHA_SRC = "5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9"
-PROMPT = ("Single realistic 3D animal sculpture of a crouching juvenile Tasmanian masked owl "
-          "(Tyto castanops) with thick airy cream-white soft second-down fluff. Wide gently "
-          "continuous recessed heart-shaped facial disc integrated into the fluffy head, "
-          "two deep dark glossy eyes, small pale hooked bill. Very round fluffy juvenile "
-          "proportions, tiny tucked wings almost invisible in its down, completely hidden tail. "
-          "Belly and both feet rest naturally on a broad old eucalyptus tree-hollow lip. "
-          "Soft ivory and warm buff, realistic natural fluffy feather surface, complete "
-          "credible volume from every angle; no long flight feathers, no horns, no "
-          "plush toy fabric, no stylized polygonal facets, no extraneous animals, "
-          "no studio pedestal, no text.")
+PROMPT = ("Photorealistic baby barn owl, a small round crouching cream-white feathered owlet, "
+          "with naturally integrated heart-shaped facial disk and big glossy dark eyes. "
+          "Thick soft fluffy down across the whole head and body, folded tiny hidden wings, "
+          "very short hidden tail, feet resting on a broad tree hollow. "
+          "Natural realistic animal anatomy seen from all sides, high detail 3D model.")
 DOCS = [
  "owl-pet/AGENTS.md", "owl-pet/README.md", "owl-pet/STATUS.md",
  "owl-pet/prototype/index.html", "owl-pet/research/species/172-tyto-castanops-v3.md",
  str(ROOT / "known_rejected_asset_sha256_registry.json"),
  str(ROOT / "2026-11-19-run205b-independent-matte-native-sevenview-human-audit-ART_REJECTED-NO_RELEASE.md")
 ]
-STATE = {"run": 206, "utc_start": datetime.now(timezone.utc).isoformat(),
+STATE = {"run": "206b", "utc_start": datetime.now(timezone.utc).isoformat(),
          "source": "three.ws public keyless free draft POST /api/3d/generate",
          "method": "TEXT_TO_3D_NOT_SOURCE_IMAGE_CONDITIONED",
          "billing": "none; never retries 402", "cost_usd": 0,
@@ -209,7 +204,7 @@ def archive():
             b=p.read_bytes()
             inv[str(p.relative_to(OUT))]={"bytes":len(b),"sha256":sha(b)}
     dump(OUT/"manifest.json",inv)
-    text="# Run206: independent free/keyless TRELLIS draft GLB experiment\n\n"
+    text="# Run206b: second free/keyless TRELLIS attempt after service-error Run206, shorter prompt\n\n"
     text+="Preflight: owl-pet, #172 v3, earlier Run205 art rejection and rejected asset registry.\n"
     text+="Source reference SHA256: "+SHA_SRC+" (locally verified only; not uploaded to three.ws).\n"
     text+="Free provider: https://three.ws/3d ; exact POST /api/3d/generate, no keys or payments.\n"
@@ -218,7 +213,7 @@ def archive():
     text+="Result URLs, all 7 real VTK views, response receipts, exact hash evidence retained only in isolated expiring Actions artifact.\n"
     text+="No final human art judgement implied by successful GLB transport; no physical smartphone GPU acceptance.\n"
     text+="**NO_RELEASE, no deployment, no existing pet prototype or 251-species workflow changes.**\n"
-    (ROOT/"2026-11-19-run206-threews-keyless-text3d-sourcebound-NO_RELEASE.md").write_text(text)
+    (ROOT/"2026-11-19-run206b-threews-keyless-shortprompt-NO_RELEASE.md").write_text(text)
 
 def main():
     OUT.mkdir(parents=True,exist_ok=True)

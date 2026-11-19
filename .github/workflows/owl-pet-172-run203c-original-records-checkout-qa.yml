@@ -1,0 +1,269 @@
+name: owl172 Run203c corrected source checkout actual owl juveniles NO_RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run203-objaverse-free-juvenile-asset-search
+    paths:
+      - .github/workflows/owl-pet-172-run203c-original-records-checkout-qa.yml
+permissions:
+  contents: write
+jobs:
+  no-charge-juvenile-source-qa:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 22
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run203-objaverse-free-juvenile-asset-search
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/README.md
+            owl-pet/AGENTS.md
+            owl-pet/prototype/index.html
+            owl-pet/research/species/172-tyto-castanops-v3.md
+            owl-pet/3d-experiments/172-tyto-castanops/known_rejected_asset_sha256_registry.json
+            owl-pet/3d-experiments/172-tyto-castanops/2026-11-19-run202c-human-sevenview-audit-ART_REJECTED-NO_RELEASE.md
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run203-OBJAVERSE-FREE-JUVENILE-NO_RELEASE/owl_candidates.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Free metadata and true glTF inspection dependencies
+        shell: bash
+        run: |
+          set -e
+          python -m pip install -q requests==2.32.3 trimesh==4.10.0 numpy==2.2.6 pillow==12.0.0 vtk==9.6.2
+          sudo apt-get update -qq >/dev/null 2>&1
+          sudo apt-get install -qq -y libegl1 libgl1 libosmesa6 >/dev/null 2>&1
+      - name: Execute native search across open artist metadata and quarantine new native candidate GLBs
+        timeout-minutes: 16
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -o pipefail
+          cat > /tmp/owl172run203c.py <<'PY'
+          import concurrent.futures as cf
+          import gzip,hashlib,json,os,re,requests,subprocess,sys,time,traceback
+          from pathlib import Path
+          R=Path("owl-pet/3d-experiments/172-tyto-castanops")
+          O=R/"research-evidence-run203c-OBJAVERSE-FREE-JUVENILE-NO_RELEASE"
+          O.mkdir(exist_ok=True)
+          S={"shards_read":0,"records_read":0,"matches":0,"new_glbs":0,
+             "rendered_sevenviews":0,"physical_phone_gpu":False,"art_approved":False,"release":False}
+          def sha(b):return hashlib.sha256(b).hexdigest()
+          def persist():(O/"status.json").write_text(json.dumps(S,indent=2,ensure_ascii=False)+"\n")
+          def preflight():
+            paths=["owl-pet/AGENTS.md","owl-pet/README.md","owl-pet/prototype/index.html",
+              "owl-pet/research/species/172-tyto-castanops-v3.md",
+              str(R/"known_rejected_asset_sha256_registry.json"),
+              str(R/"2026-11-19-run202c-human-sevenview-audit-ART_REJECTED-NO_RELEASE.md")]
+            proof={}
+            for p in paths:
+              b=Path(p).read_bytes();assert len(b)>50
+              proof[p]={"bytes":len(b),"sha256":sha(b)}
+            image=R/"research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png"
+            h=sha(image.read_bytes());assert h=="5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9"
+            proof[str(image)]={"sha256":h}
+            (O/"preflight.json").write_text(json.dumps(proof,indent=2)+"\n")
+            reg=json.loads((R/"known_rejected_asset_sha256_registry.json").read_text())
+            known=set()
+            for x in reg["known_rejected_source_glbs"]:
+              known.add(x["sha256"].lower())
+              for z in x.get("derived_rejected_lods",[]):known.add(z["sha256"].lower())
+            return known
+          def candidate(a,i):
+            if not isinstance(a,dict):return
+            name=str(a.get("name") or "");name_l=name.lower()
+            desc=re.sub("<[^>]*>"," ",str(a.get("description") or ""))[:500]
+            tags=" ".join(x.get("name","") if isinstance(x,dict) else str(x) for x in (a.get("tags") or []))
+            q=(name+" "+desc+" "+tags).lower()
+            if not any(w in q for w in ["owl","owlet","tyto","chouette"]):return
+            if re.search(r"\b(statue|pendant|keychain|clock|chess|vase|poster|mask|helmet|skeleton|ornament|logo|mug)\b",name_l):return
+            if a.get("license") not in ["by","by-sa","cc0","zero"]:return
+            if not a.get("isDownloadable",True):return
+            arc=(a.get("archives") or {}).get("glb") or {}
+            size=int(arc.get("size") or 0);tris=int(arc.get("faceCount") or a.get("faceCount") or 0)
+            if size<1000 or size>38000000 or tris<100:return
+            juvenile=bool(re.search(r"\b(baby|chick|juvenile|nestling|owlet|fledgling|young|fluffy|downy)\b",q))
+            score=(30 if juvenile else 0)+(25 if any(w in name_l for w in ["owl","owlet","tyto"]) else 0)
+            score+=(20 if re.search(r"\b(baby|chick|juvenile|nestling|owlet|fledgling)\b",name_l) else 0)
+            score+=(16 if "barn owl" in q or "tyto" in q else 0)
+            score+=min(10,tris//5000)+min(8,(arc.get("textureCount") or 0)*2)
+            return {"uid":a.get("uid"),"shard":i,"name":name,"description":desc,"tags":tags[:200],
+               "score":score,"juvenile":juvenile,"license":a.get("license"),
+               "size":size,"triangles":tris,"textures":arc.get("textureCount"),
+               "publisher_url":a.get("viewerUrl"),"animations":a.get("animationCount")}
+          def scan(i):
+            url="https://huggingface.co/datasets/allenai/objaverse/resolve/main/metadata/000-%03d.json.gz"%i
+            error=""
+            for n in range(2):
+              try:
+                resp=requests.get(url,timeout=(12,45),headers={"User-Agent":"owl172-nonpaid-203"})
+                if resp.status_code!=200:raise RuntimeError("HTTP %s"%resp.status_code)
+                data=json.loads(gzip.decompress(resp.content))
+                hits=[x for a in data.values() if (x:=candidate(a,i))]
+                return {"shard":i,"records":len(data),"bytes":len(resp.content),"sha256":sha(resp.content),"hits":hits}
+              except Exception as e:error=repr(e);time.sleep(.2)
+            return {"shard":i,"error":error,"hits":[]}
+          def render(path,label):
+            import vtk,numpy as np
+            from PIL import Image,ImageDraw
+            vtk.vtkObject.GlobalWarningDisplayOff()
+            o=O/label;o.mkdir(exist_ok=True)
+            win=vtk.vtkRenderWindow();win.SetOffScreenRendering(1);win.SetSize(540,540)
+            imp=vtk.vtkGLTFImporter();imp.SetFileName(str(path));imp.SetRenderWindow(win);imp.Update()
+            ren=win.GetRenderers().GetFirstRenderer()
+            if ren is None:raise RuntimeError("no VTK renderer")
+            ren.SetBackground(.87,.87,.84)
+            bb=ren.ComputeVisiblePropBounds()
+            c=np.array([(bb[0]+bb[1])/2,(bb[2]+bb[3])/2,(bb[4]+bb[5])/2])
+            d=max(bb[1]-bb[0],bb[3]-bb[2],bb[5]-bb[4])
+            if not (np.isfinite(d) and d>0):raise RuntimeError("bad glTF bounds")
+            views={"front":([0,0,1],[0,1,0]),"back":([0,0,-1],[0,1,0]),
+              "left":([-1,0,0],[0,1,0]),"right":([1,0,0],[0,1,0]),
+              "top":([0,1,0],[0,0,-1]),"bottom":([0,-1,0],[0,0,1]),
+              "quarter":([.7,.25,1],[0,1,0])}
+            ims=[]
+            for name,(v,up) in views.items():
+              v=np.array(v,float);v/=np.linalg.norm(v)
+              cam=ren.GetActiveCamera();cam.SetFocalPoint(*c);cam.SetPosition(*(c+d*2.3*v))
+              cam.SetViewUp(*up);cam.ParallelProjectionOn();cam.SetParallelScale(d*.7)
+              ren.ResetCameraClippingRange();win.Render()
+              filt=vtk.vtkWindowToImageFilter();filt.SetInput(win);filt.ReadFrontBufferOff();filt.Update()
+              f=o/("native_"+name+".png")
+              writer=vtk.vtkPNGWriter();writer.SetFileName(str(f));writer.SetInputConnection(filt.GetOutputPort());writer.Write()
+              assert f.stat().st_size>1000
+              ims.append((name,Image.open(f).convert("RGB").copy()))
+            contact=Image.new("RGB",(2160,1150),(245,245,243));draw=ImageDraw.Draw(contact)
+            for j,(name,im) in enumerate(ims):
+              x=j%4*540;y=j//4*575
+              draw.text((x+12,y+9),name,fill=(0,0,0));contact.paste(im,(x,y+30))
+            contact.save(o/"native_contact.png")
+            (o/"camera_warning.txt").write_text("World-axis angles NOT artist-anatomy calibrated; seven renders are not art acceptance.\n")
+          def acquire(c,known):
+            import trimesh
+            uid=c["uid"];out=dict(c);out["new_glb"]=False
+            url="https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-%03d/%s.glb"%(c["shard"],uid)
+            out["source"]=url
+            try:
+              if uid=="19c989a6681145bc999c332699eb852e":
+                out["skipped"]="Run202 exact adult Tyto duplicate";return out
+              res=requests.get(url,timeout=(15,110),headers={"User-Agent":"owl172-nonpaid-203"})
+              out["http"]=res.status_code;out["bytes"]=len(res.content)
+              if res.status_code!=200 or res.content[:4]!=b"glTF":raise RuntimeError("GLB not returned")
+              h=sha(res.content);out["sha256"]=h
+              if h in known:out["skipped"]="already rejected exact SHA";return out
+              file=O/("candidate_"+uid+".glb");file.write_bytes(res.content)
+              scene=trimesh.load(str(file),force="scene",process=False)
+              out["meshes"]=len(scene.geometry);out["native_triangles"]=sum(len(z.faces) for z in scene.geometry.values() if hasattr(z,"faces"))
+              out["new_glb"]=True
+              env=dict(os.environ,VTK_DEFAULT_OPENGL_WINDOW="vtkOSOpenGLRenderWindow",LIBGL_ALWAYS_SOFTWARE="1")
+              proc=subprocess.run([sys.executable,__file__,"--render",str(file),uid],
+               timeout=160,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,text=True,env=env)
+              (O/("render_log_"+uid+".txt")).write_text(proc.stdout)
+              out["render_returncode"]=proc.returncode
+              out["sevenview"]=proc.returncode==0 and (O/uid/"native_contact.png").exists()
+            except Exception as e:out["error"]=repr(e)
+            return out
+          def main():
+            if len(sys.argv)>1 and sys.argv[1]=="--render":render(Path(sys.argv[2]),sys.argv[3]);return
+            known=preflight();print("VERIFIED preflight and rejected hashes:",len(known),flush=True)
+            # Run203 source parsed all 798,759 annotations; it erroneously matched
+            # the substring "owl" inside "bowl" and "bowling". Preserve original
+            # evidence unchanged, audit/repair with word boundary and title gate.
+            prior=R/"research-evidence-run203-OBJAVERSE-FREE-JUVENILE-NO_RELEASE/owl_candidates.json"
+            source=prior.read_bytes()
+            S["source_candidates_sha256"]=sha(source)
+            candidates=json.loads(source)
+            def real_owl(h):
+              name=str(h.get("name") or "").lower()
+              return bool(re.search(r"\b(?:owl|owls|owlet|owlets|tyto|chouette|chouettes)\b",name))
+            all_hits=[h for h in candidates if real_owl(h)]
+            for h in all_hits:
+              n=(h.get("name") or "").lower()
+              q=(n+" "+str(h.get("description") or "")+" "+str(h.get("tags") or "")).lower()
+              h["corrected_score"]=(180 if re.search(r"\b(?:baby|chick|juvenile|nestling|fledgling|young|owlet|fluffy|downy)\b",n) else 0)
+              h["corrected_score"]+=(65 if "barn owl" in q or "tyto" in q else 0)
+              h["corrected_score"]+=(25 if "owl" in n else 0)
+              h["corrected_score"]+=min(15,int(h.get("triangles") or 0)//4000)
+              h["corrected_score"]+=min(10,int(h.get("textures") or 0)*2)
+              h["corrected_juvenile"]=bool(re.search(r"\b(?:baby|chick|juvenile|nestling|fledgling|young|owlet|fluffy|downy)\b",n+" "+str(h.get("description") or "").lower()))
+            all_hits.sort(key=lambda h:h["corrected_score"],reverse=True)
+            S["shards_read"]=160
+            S["records_read"]=798759
+            S["source_filtered_wrong_substrings"]=len(candidates)-len(all_hits)
+            S["matches"]=len(all_hits)
+            S["metadata_errors"]=0
+            (O/"true_owl_word_candidates.json").write_text(json.dumps(all_hits,indent=2,ensure_ascii=False)+"\n")
+            short=[h for h in all_hits if h["corrected_juvenile"]][:3]
+            print("CORRECTION removed",S["source_filtered_wrong_substrings"],
+              "false owl-substrings; true owl names",len(all_hits),"juvenile shortlist",len(short),flush=True)
+            S["selected"]=[x["uid"] for x in short]
+            trials=[]
+            for c in short:
+              tr=acquire(c,known);trials.append(tr)
+              print("TRIAL",tr["uid"],"native",tr.get("new_glb"),"sevenview",tr.get("sevenview"),"issue",tr.get("error",tr.get("skipped")),flush=True)
+              persist()
+            (O/"native_trials.json").write_text(json.dumps(trials,indent=2,ensure_ascii=False)+"\n")
+            S["new_glbs"]=sum(bool(x.get("new_glb")) for x in trials)
+            S["rendered_sevenviews"]=sum(bool(x.get("sevenview")) for x in trials)
+            S["metadata_errors"]=sum("error" in x for x in rows)
+            S["final_status"]="UNREVIEWED_NATIVE_CANDIDATE_NO_RELEASE" if S["new_glbs"] else "NO_ACCEPTABLE_NATIVE_CANDIDATE_NO_RELEASE"
+            persist()
+            lines=["# Run203c — corrected real owl-word juvenile search / NO_RELEASE","",
+             "Result: "+S["final_status"],"",
+             "CORRECTION TO RUN203: original matcher accepted the substring owl in bowl/bowling; those three previously downloaded GLBs are NON-OWL, rejected as source matches. This run uses strict word boundaries in the model title; original data, errors and hashes preserved unchanged.",
+             "Verified README, AGENTS, legacy pet prototype, v3 science, Run202c adult donor rejection, existing exact negative fingerprints and canonical right-side image SHA256 5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9.",
+             "Run203 actually scanned %d/160 metadata shards and %d source records. Run203b re-filtered its SHA256-pinned candidate list using exact owl words in the TITLE, yielding %d genuine owl-name candidates. The original broad substring matcher incorrectly accepted bowl and bowling, so its 3 non-owl GLBs must NOT be reused."%(S["shards_read"],S["records_read"],S["matches"]),
+             "Juvenile shortlist: "+json.dumps([{"uid":x["uid"],"name":x["name"],"license":x["license"],"publisher":x["publisher_url"]} for x in short],ensure_ascii=False),
+             "Actual native GLB download/import/render results: "+json.dumps([{k:x.get(k) for k in ["uid","sha256","bytes","http","meshes","native_triangles","sevenview","error","skipped"]} for x in trials],ensure_ascii=False),
+             "",
+             "Asset-level licensing was filtered to permissive CC metadata, but original author terms not independently verified. Seven native world-axis renders are not calibrated 3D juvenile art QA. No fake geometric substitute, no physical mobile GPU acceptance, no art approval or app release. No money spent; binaries and native rendering evidence retained only in expiring independent research artifact, not in production/main. Do not use any discovered asset until original licensing and visual review.",
+             "",
+             "**NO_RELEASE.**"]
+            (R/"2026-11-19-run203c-corrected-owl-only-native-catalog-NO_RELEASE.md").write_text("\n".join(lines)+"\n")
+          if __name__=="__main__":
+            try:main()
+            except Exception as e:
+              if len(sys.argv)>1 and sys.argv[1]=="--render":traceback.print_exc();sys.exit(2)
+              S["final_status"]="SETUP_OR_SOURCE_BLOCK_NO_RELEASE";S["error"]=repr(e);persist()
+              (O/"failure_trace.txt").write_text(traceback.format_exc())
+            finally:
+              if not (len(sys.argv)>1 and sys.argv[1]=="--render"):
+                manifest={}
+                for f in O.rglob("*"):
+                  if f.is_file() and f.name!="manifest.json":
+                    manifest[str(f.relative_to(O))]={"sha256":sha(f.read_bytes()),"bytes":f.stat().st_size}
+                (O/"manifest.json").write_text(json.dumps(manifest,indent=2)+"\n")
+                assert all(sha((O/k).read_bytes())==v["sha256"] for k,v in manifest.items())
+                print("EVIDENCE verified",len(manifest),flush=True)
+          PY
+          timeout 860s python -u /tmp/owl172run203c.py 2>&1 | tee /tmp/owl172run203c.log
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          mkdir -p "$R/research-evidence-run203c-OBJAVERSE-FREE-JUVENILE-NO_RELEASE"
+          cp /tmp/owl172run203c.log "$R/research-evidence-run203c-OBJAVERSE-FREE-JUVENILE-NO_RELEASE/console.log"
+      - name: Archive actual source and inspection records separately
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run203c-true-owl-juvenile-original-glb-native-QA-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run203c-OBJAVERSE-FREE-JUVENILE-NO_RELEASE/
+          retention-days: 14
+      - name: Commit only isolated textual evidence and audit
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run203c-OBJAVERSE-FREE-JUVENILE-NO_RELEASE"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          test ! -f "$R/2026-11-19-run203c-corrected-owl-only-native-catalog-NO_RELEASE.md" || git add --sparse "$R/2026-11-19-run203c-corrected-owl-only-native-catalog-NO_RELEASE.md"
+          find "$O" -maxdepth 1 -type f \( -name '*.json' -o -name '*.txt' -o -name '*.log' \) -print0 | xargs -0 -r git add --sparse --
+          git diff --cached --name-only >/tmp/owl172run203-changes
+          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/' /tmp/owl172run203-changes; then exit 91; fi
+          if grep -Ei '\.(glb|png|jpg|jpeg|fbx|blend|zip|webp)$' /tmp/owl172run203-changes; then exit 92; fi
+          if test -s /tmp/owl172run203-changes; then
+            git commit -m "research(owl172): archive Run203 no-charge source bound native evidence NO_RELEASE"
+            git push origin HEAD:research/owl172-run203-objaverse-free-juvenile-asset-search
+          fi

@@ -1,0 +1,123 @@
+name: owl172 Run202b real public artist Tyto GLB native sevenview NO_RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run202b-tyto-vtk-mesa-recovery
+    paths:
+      - .github/workflows/owl-pet-172-run202b-tyto-native-mesa-recovery-no-release.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run202b_public_pheno_tyto_native.py
+permissions:
+  contents: write
+jobs:
+  public-tyto-artist-original-native-qa:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 23
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run202b-tyto-vtk-mesa-recovery
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/README.md
+            owl-pet/AGENTS.md
+            owl-pet/prototype/index.html
+            owl-pet/research/species/172-tyto-castanops-v3.md
+            owl-pet/3d-experiments/172-tyto-castanops/known_rejected_asset_sha256_registry.json
+            owl-pet/3d-experiments/172-tyto-castanops/2026-11-19-run201d-hf-zerogpu-quota-original-source-correction-NO_RELEASE.md
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run202b_public_pheno_tyto_native.py
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify pinned source script and install free native inspection
+        timeout-minutes: 10
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run202b-PUBLIC-TYTO-MESA-RECOVERY-NO_RELEASE"
+          mkdir -p "$O"
+          python -m py_compile "$R/tools/run202b_public_pheno_tyto_native.py"
+          # Run202 acquired exact original and passed trimesh, but VTK C++ crashed.
+          # Prior verified Run193b/195 native sevenviews require Mesa OSMesa/EGL.
+          sudo apt-get update -qq > "$O/apt_update.log" 2>&1
+          sudo apt-get install -y -qq libosmesa6 libegl1 libgl1 > "$O/apt_install_mesa.log" 2>&1
+          python -m pip install --disable-pip-version-check -q "requests==2.32.3" "trimesh==4.10.0" "numpy==2.2.6" "pillow==12.0.0" "vtk==9.6.2" > "$O/pip_install.log" 2>&1
+          python -m pip freeze | grep -Ei 'vtk|trimesh|requests|numpy|pillow' > "$O/software.txt"
+      - name: Execute real remote original 3D asset fetch, verify pinned hash and render native seven views
+        timeout-minutes: 9
+        continue-on-error: true
+        env:
+          VTK_DEFAULT_OPENGL_WINDOW: vtkOSOpenGLRenderWindow
+          LIBGL_ALWAYS_SOFTWARE: '1'
+        shell: bash
+        run: |
+          set -o pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run202b-PUBLIC-TYTO-MESA-RECOVERY-NO_RELEASE"
+          timeout 490s python -u "$R/tools/run202b_public_pheno_tyto_native.py" 2>&1 | tee "$O/run202b_actual_execution.log"
+      - name: Audit and integrity manifest, explicit no release
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import hashlib,json
+          from pathlib import Path
+          r=Path("owl-pet/3d-experiments/172-tyto-castanops")
+          o=r/"research-evidence-run202b-PUBLIC-TYTO-MESA-RECOVERY-NO_RELEASE"
+          o.mkdir(parents=True,exist_ok=True)
+          p=o/"run202_status.json"
+          status=json.loads(p.read_text()) if p.exists() else {"final_status":"SETUP_FAILURE_NO_SOURCE_TRIAL","errors":["NO_RUN_STATUS"]}
+          (o/"NO_RELEASE.flag").write_text("NO_RELEASE: no approved juvenile, actual physical mobile GPU not tested.\n")
+          audit=r/"2026-11-19-run202b-tyto-native-mesa-correction-NO_RELEASE.md"
+          lines=[
+           "# Run202b — actual original Tyto artist GLB source-bound native gate",
+           "**"+str(status.get("final_status"))+" / ART_UNAPPROVED / NO_PHYSICAL_PHONE_GPU_QA / NO_RELEASE**",
+           "",
+           "Preflight: AGENTS, README, legacy cat WebGL prototype, Tyto castanops v3 science/designed rightmost age-unknown cream mesoptile reference SHA256 5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9, Run201d, existing rejected hash registry. Prior 201d failed because public ZeroGPU anonymous quota exhausted; do not retry the same inference quota.",
+           "",
+           "New artist-origin source: Innovation Studio, [Common Barn Owl](https://sketchfab.com/3d-models/common-barn-owl-19c989a6681145bc999c332699eb852e), UID 19c989a6681145bc999c332699eb852e. Model and CC BY 4.0 attributed by independent [PhenoVoxel Archive](https://github.com/canopico-world/PhenoVoxel-Archive/blob/main/model-assets.json) and [asset license table](https://github.com/canopico-world/PhenoVoxel-Archive/blob/main/ASSET-LICENSES.md). Independent originating rights verification is not claimed. The actual source is a **different species, adult Tyto alba**, not the juvenile Tasmanian masked owl. This experiment is source and technical donor feasibility only, not a candidate art approval.",
+           "",
+           "Real source URL: "+str(status.get("source")),
+           "HTTP: "+str(status.get("source_http"))+", bytes: "+str(status.get("native_bytes",status.get("response_bytes")))+", pinned SHA256 expected 29531600a1f221f6fbb8dded12cee4ceea4251b28bd678c494d947dc4c3fc3aa, observed "+str(status.get("native_sha256"))+".",
+           "Independent trimesh geometry: "+json.dumps(status.get("geometry"),ensure_ascii=False),
+           "Real native VTK seven-view rendered: "+str(status.get("sevenview"))+"; actor count "+str(status.get("vtk_actors")),
+           "Events: "+json.dumps(status.get("events"),ensure_ascii=False),
+           "Errors: "+json.dumps(status.get("errors"),ensure_ascii=False),
+           "",
+           "A true native adult 3D donor, even with valid hash and several camera PNGs, **does not** pass cream-white organic down, continuous juvenile heart face, short down-buried wings, anatomically plausible side/back, hollow lip and supported feet. No 7-camera aesthetic acceptance of target character and no physical mobile phone GPU test. Original source binary and render PNGs kept only in quarantined 30-day Actions artifact, never committed or deployed. No extra payment. No alterations to main/251-species production/existing prototype/deployment.",
+           "",
+           "**NO_RELEASE.**"
+          ]
+          audit.write_text("\n".join(lines)+"\n")
+          manifest={str(f.relative_to(o)):{"bytes":f.stat().st_size,"sha256":hashlib.sha256(f.read_bytes()).hexdigest()} for f in o.rglob("*") if f.is_file() and f.name!="run202b_sha256_manifest.json"}
+          (o/"run202b_sha256_manifest.json").write_text(json.dumps(manifest,indent=2,ensure_ascii=False)+"\n")
+          assert all(hashlib.sha256((o/k).read_bytes()).hexdigest()==v["sha256"] for k,v in manifest.items())
+          print("RUN202B",status.get("final_status"),"verified_evidence",len(manifest),"NO_RELEASE")
+          PY
+      - name: Archive original source, true renders, HTTP and SHA evidence privately 30 days
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run202b-public-original-Tyto-mesa-sevenview-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run202b-PUBLIC-TYTO-MESA-RECOVERY-NO_RELEASE/
+          retention-days: 30
+      - name: Commit only isolated text research, never binary or source assets
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run202b-PUBLIC-TYTO-MESA-RECOVERY-NO_RELEASE"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --sparse "$R/2026-11-19-run202b-tyto-native-mesa-correction-NO_RELEASE.md"
+          find "$O" -maxdepth 1 -type f \( -name '*.json' -o -name '*.txt' -o -name '*.log' -o -name '*.flag' \) -print0 | xargs -0 -r git add --sparse --
+          git diff --cached --name-only > /tmp/owl172run202_changes
+          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/' /tmp/owl172run202_changes; then exit 80; fi
+          if grep -Ei '\.(glb|png|jpg|jpeg|blend|fbx|zip|webp|obj)$' /tmp/owl172run202_changes; then exit 81; fi
+          if test -s /tmp/owl172run202_changes; then
+            git commit -m "research(owl172): archive Run202b independent artist Tyto original native QA NO_RELEASE"
+            git push origin HEAD:research/owl172-run202b-tyto-vtk-mesa-recovery
+          fi

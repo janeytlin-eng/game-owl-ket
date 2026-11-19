@@ -186,6 +186,17 @@ def main():
     data["gradio_api_names"]=sorted(set(endpoint_names))
     (OUT/"public_endpoints.txt").write_text("\n".join(data["gradio_api_names"])+"\n")
     event("public_endpoints_discovered",endpoints=data["gradio_api_names"])
+    # The publisher's app.py requires the per-session directory created by
+    # demo.load(start_session); plain API calls do not automatically trigger
+    # the browser's load event, and image_to_3d saves sample.mp4 in that dir.
+    if "/start_session" in data["gradio_api_names"]:
+        try:
+            client.predict(api_name="/start_session")
+            event("remote_source_session_initialized")
+        except Exception as exc:
+            data["errors"].append("remote_start_session: "+repr(exc))
+            data["final_status"]="REMOTE_SESSION_INIT_FAILURE_NO_RELEASE"
+            return
     exact=[n for n in data["gradio_api_names"] if n.strip("/")=="image_to_3d"]
     if not exact:
         data["final_status"]="NO_PUBLIC_SOURCEBOUND_IMAGE_TO_3D_API_NO_RELEASE"

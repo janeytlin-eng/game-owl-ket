@@ -1,0 +1,35 @@
+# Run222 — free actual CC0 barn owl 3D donor, genuine geometry morph, fourteen views: ART_REJECTED / NO_RELEASE
+
+**Executed 2026-11-19 16:57–17:01 UTC (2026-11-20 00:57–01:01 Asia/Shanghai).** Subject: #172 *Tyto castanops* v3 rightmost **age-unknown cream mesoptile**. This independent technical experiment is **NOT an accepted electronic-pet model**, and the free source is an **adult barn owl donor**, not a Tasmanian masked owl juvenile. Extra paid spend **$0**.
+
+## Preflight and preservation boundary
+
+Re-read `owl-pet/AGENTS.md`, `owl-pet/README.md`, `owl-pet/STATUS.md`, `owl-pet/research/species/172-tyto-castanops-v3.md`, Run211, Run210 and Run221 audits plus Run221's verified real GroomLab `feathers_down` experiment. The existing WebGL prototype remains a **cat**, not an owl. Main production remains **176/251 unique species**; no production run, main file, manifest, prototype, deployment or site was altered. Verified unchanged reference `owl-pet/design/concepts/172-tyto-castanops-v3.png`: **737545 bytes**, SHA256 `881dec86e0e66ab2ad0781db86a3b719b35e710d2be1a1606d761a9d0908483d`. Extracted reference target crop `[950,255,1440,850]`.
+
+## Distinct free true-native-3D path and actual real executions
+
+Found a public pack-level manifest `https://3dassets.dev/api/v1/packs/birds-and-reptiles-hd`, which returned HTTP 200 and listed a named **Barn Owl (Birds and Reptiles HD)** candidate. Original native source `https://cdn.3dassets.dev/assets/28079/v1/model.glb` returned **HTTP 200, content type model/gltf-binary**; the source website advertises CC0 1.0. CC0 attribution remains a publisher declaration, not independent legal certification.
+
+Actual downloaded GLB: **369708 bytes**, SHA256 `044dbcfeaf008deff45ff7f227fb0c0dc7e984177a20745345656e1b4b141bc2`, parsed successfully by Trimesh with **6 geometries / 16972 triangles / 12503 vertices**, not SVG or a fake screenshot. To test whether an adult donor could be a sculpt foundation, actually modified copies of all original triangle meshes in 3D (progressive head-area width adjustment, z-depth adjustment and vertical compression); wrote a **new** native GLB, **627356 bytes**, SHA256 `6586d2bcd0ecd29e534373333cb318f30f464b989720f5ec9625547b72bb2b32`, re-imported as **6 geometries / 16972 triangles / 12503 vertices**. This morph is only a controlled *donor suitability test* and **not** an artist-grade juvenile sculpt, and it adds no down feathers.
+
+First real GitHub Actions attempt reached donor download and native GLB reimport, but the VTK glTF importer returned no render actors (`RuntimeError('VTK no actors')`); the first run was honestly marked `FAILED_NO_RELEASE`. The source script was then corrected on the isolated branch: it now imports original GLB triangles with Trimesh, constructs true triangle meshes/real 3D scene actors in VTK, and takes seven distinct actual camera views for **each** source and modified mesh (front, back, left, right, quarter, top, bottom), not perspective-shifted 2D art. The second actual run completed both **7 + 7 native views**, accounting for all **16972 triangle faces per scene**. Successful report started `2026-11-19T17:00:59Z`, finished `17:01:05Z`, and status `ACTUAL_NATIVE_TYTO_DONOR_MORPH_14VIEWS_TECH_ONLY_ART_UNAPPROVED`.
+
+### Independent actual screenshot inspection — strict negative art gate
+
+Opened the persisted original **14-view contact sheet** as an image. **ART_REJECTED** for both versions. The source geometry reads visually as a bizarre CAD/mechanical bird: bulky circular/head components and hollow hoops, extremely long stiff wing and tail elements, rigid tube-like front and back. The side/rear silhouettes are **especially anatomically implausible**. The small geometric head morph is visually negligible and fails to form a naturally integrated Tyto heart-shaped disc and dark eyes. There are **no natural cream fluffy mesoptile feather regions**, no down-buried short wings and hidden tail, no juvenile crouch, no broad hollow lip and no coherent back feather anatomy. The native VTK fallback preview is grayscale / vertex-colour-only and does **not** faithfully reproduce all source PBR textures, so the grey shade alone is *not* a scientific proof of original material color; nevertheless the visible mesh structure decisively fails the 360-degree juvenile morphology requirements independent of texture. Source bounding coordinates are approximately ±10000 and have **unverified scene scale**, another mobile integration risk.
+
+Do not use the donor as #172 accepted sample, do not call this juvenility, and do not conflate successful native geometry/import/render with finished artwork. **No smartphone hardware/WebGL context test was run; no mobile FPS, memory, LOD or material acceptance can be claimed.**
+
+## Verifiable isolated evidence
+
+- [Actual 14 independent native 3D views (donor row and morph row; ART REJECTED)](run222-evidence/run222_actual_14view_comparison_NOT_APPROVED.png). Original generated PNG: **384694 bytes**, SHA256 `24a339361b33a8de48e9f15722d021cfddff53feb9cff47651ce0dcbaa50b5ae`. The image was actually opened and inspected.
+- [Measured execution report, byte/sha256 checks, original GLB/morph GLB identities, and all fourteen individually hashed views](run222-evidence/run222_report.json), actual `SUCCESSFUL_NATIVE_14VIEW_TECH_ONLY` interpretation with explicit `ART_UNAPPROVED` status.
+- [Reproducible real GLB downloader/morph/render source](run222_cc0_tyto_adult_donor_morph_qa.py).
+- [Isolated research-only GitHub Actions job](../../../../.github/workflows/owl172-run222-cc0-native-tyto-donor-morph.yml) (check repository root path directly if relative resolver differs).
+- The original and modified GLB binaries and all fourteen PNGs were placed in a 30-day `actions/upload-artifact` workflow archive by the research-only job, **but a post-upload direct zip download/hash readback was not performed in this audit**. Accordingly the binaries are **not** claimed independently durable or published. This markdown plus report + contact sheet + scripts are committed on the isolated GitHub research branch.
+
+**Experiment commits:** original script `076191b46b307e74880778545b2a4a1b53f0908b`, dedicated workflow `101b2236a1aaec4b6e3674680872b7e671b0caab`, native VTK correction `3b6b2049d38bb6c74bdbe16421a9cd297a01886c`. The independent branch starts from Run221 and changes only `owl-pet/3d-experiments/172-tyto-castanops/` and one dedicated `.github/workflows/owl172-run222-...` workflow. **No extra paid credits, no source or app release.**
+
+## Decision / next high-value direction
+
+**TRUE_SOURCE_GLB_AND_NATIVE_MORPH_TECH_PASS / 14_REAL_3D_CAMERA_VIEWS / REJECTED_3D_ANATOMY / NO_CREAM_DOWN / NO_PHONE_WEBGL / NO_RELEASE / NO_NOTIFICATION.** This distinct free asset donor cannot be rescued by another simple texture pass or head scale. Future work should prioritize a real, legally accessible **premium juvenile Tyto sculpt base** and coherent feather-region guides, then apply the Run221 verified open-source GroomLab down-feather technique and finally bake/test an actual phone-capable GLB. The present accepted count is **zero**.

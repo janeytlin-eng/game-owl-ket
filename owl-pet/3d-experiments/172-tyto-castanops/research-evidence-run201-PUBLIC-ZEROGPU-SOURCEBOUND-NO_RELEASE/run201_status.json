@@ -1,0 +1,235 @@
+{
+  "space": "linoyts/sketch-to-3d",
+  "app": "https://linoyts-sketch-to-3d.hf.space",
+  "input_path": "owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png",
+  "reference_sha256_expected": "5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9",
+  "reference_sha256_actual": "5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9",
+  "source_upload": false,
+  "public_app_config_http": 200,
+  "public_app_config_api": [
+    {
+      "api_name": "load_example_input",
+      "id": 0,
+      "inputs": [
+        60
+      ]
+    },
+    {
+      "api_name": "load_example",
+      "id": 1,
+      "inputs": [
+        60
+      ]
+    },
+    {
+      "api_name": "load_example_input_1",
+      "id": 2,
+      "inputs": [
+        62
+      ]
+    },
+    {
+      "api_name": "load_example_1",
+      "id": 3,
+      "inputs": [
+        62
+      ]
+    },
+    {
+      "api_name": "start_session",
+      "id": 4,
+      "inputs": []
+    },
+    {
+      "api_name": "end_session",
+      "id": 5,
+      "inputs": []
+    },
+    {
+      "api_name": "lambda",
+      "id": 6,
+      "inputs": []
+    },
+    {
+      "api_name": "reset_canvas",
+      "id": 7,
+      "inputs": []
+    },
+    {
+      "api_name": "get_seed",
+      "id": 8,
+      "inputs": [
+        22,
+        21
+      ]
+    },
+    {
+      "api_name": "preprocess_image",
+      "id": 9,
+      "inputs": [
+        5,
+        10,
+        15,
+        11,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "api_name": "preprocess_images",
+      "id": 10,
+      "inputs": [
+        38
+      ]
+    },
+    {
+      "api_name": "get_seed_1",
+      "id": 11,
+      "inputs": [
+        22,
+        21
+      ]
+    },
+    {
+      "api_name": "image_to_3d",
+      "id": 12,
+      "inputs": [
+        51,
+        38,
+        56,
+        21,
+        25,
+        26,
+        30,
+        31,
+        33
+      ]
+    },
+    {
+      "api_name": "lambda_1",
+      "id": 13,
+      "inputs": []
+    },
+    {
+      "api_name": "lambda_2",
+      "id": 14,
+      "inputs": []
+    },
+    {
+      "api_name": "extract_glb",
+      "id": 15,
+      "inputs": [
+        58,
+        41,
+        42
+      ]
+    },
+    {
+      "api_name": "lambda_3",
+      "id": 16,
+      "inputs": []
+    },
+    {
+      "api_name": "extract_gaussian",
+      "id": 17,
+      "inputs": [
+        58
+      ]
+    },
+    {
+      "api_name": "lambda_4",
+      "id": 18,
+      "inputs": []
+    },
+    {
+      "api_name": "lambda_5",
+      "id": 19,
+      "inputs": []
+    }
+  ],
+  "gradio_api_names": [
+    "/end_session",
+    "/extract_gaussian",
+    "/extract_glb",
+    "/get_seed",
+    "/get_seed_1",
+    "/image_to_3d",
+    "/lambda",
+    "/lambda_1",
+    "/lambda_2",
+    "/lambda_3",
+    "/lambda_4",
+    "/lambda_5",
+    "/load_example",
+    "/load_example_1",
+    "/load_example_input",
+    "/load_example_input_1",
+    "/preprocess_image",
+    "/preprocess_images",
+    "/reset_canvas",
+    "/start_session"
+  ],
+  "inference_submitted": true,
+  "inference_completed": false,
+  "extract_submitted": false,
+  "new_native_glb": false,
+  "geometry": {},
+  "sevenview": false,
+  "art_approved": false,
+  "physical_mobile_gpu_tested": false,
+  "no_extra_paid_service": true,
+  "final_status": "REMOTE_INFERENCE_ERROR_NO_RELEASE",
+  "events": [
+    {
+      "step": "source_integrity_confirmed",
+      "time_utc": "2026-11-19T00:22:26.284816+00:00",
+      "sha256": "5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9"
+    },
+    {
+      "step": "public_config_request",
+      "time_utc": "2026-11-19T00:22:26.683554+00:00",
+      "http_status": 200,
+      "content_type": "application/json"
+    },
+    {
+      "step": "public_endpoints_discovered",
+      "time_utc": "2026-11-19T00:22:27.902940+00:00",
+      "endpoints": [
+        "/end_session",
+        "/extract_gaussian",
+        "/extract_glb",
+        "/get_seed",
+        "/get_seed_1",
+        "/image_to_3d",
+        "/lambda",
+        "/lambda_1",
+        "/lambda_2",
+        "/lambda_3",
+        "/lambda_4",
+        "/lambda_5",
+        "/load_example",
+        "/load_example_1",
+        "/load_example_input",
+        "/load_example_input_1",
+        "/preprocess_image",
+        "/preprocess_images",
+        "/reset_canvas",
+        "/start_session"
+      ]
+    },
+    {
+      "step": "submitting_original_image_to_public_zero_gpu",
+      "time_utc": "2026-11-19T00:22:27.903800+00:00",
+      "endpoint": "/image_to_3d"
+    },
+    {
+      "step": "actual_inference_job_submitted",
+      "time_utc": "2026-11-19T00:22:27.904834+00:00",
+      "endpoint": "/image_to_3d"
+    }
+  ],
+  "errors": [
+    "inference: AppError(\"Value: 12 (type: <class 'int'>) is not in the list of choices: ['stochastic', 'multidiffusion']\")"
+  ]
+}

@@ -1,0 +1,66 @@
+name: "#172 Run227 true local CPU TripoSR juvenile native GLB + seven-camera research NO_RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run227-local-cpu-triposr-true3d-no-release
+    paths:
+      - '.github/workflows/owl172-run227-local-free-triposr-cpu-3d.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  cpu-reconstruction-isolated-research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      HF_HUB_DISABLE_TELEMETRY: '1'
+      HF_HUB_DISABLE_XET: '1'
+      HF_HOME: ${{ runner.temp }}/owl172-run227-hf-cache
+      RUN227_TRIPOSR_ROOT: ${{ runner.temp }}/TripoSR
+      OMP_NUM_THREADS: '2'
+      MKL_NUM_THREADS: '2'
+    steps:
+      - name: Checkout independently isolated research branch (never main)
+        uses: actions/checkout@v4
+      - name: Install Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install CPU-only PyTorch without paid inference or cloud GPU credits
+        run: |
+          python -m pip install -q --upgrade pip setuptools wheel
+          python -m pip install --disable-pip-version-check --index-url https://download.pytorch.org/whl/cpu "torch==2.5.1" "torchvision==0.20.1"
+      - name: Install open source image processing, neural model and real 3D rendering dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends xvfb libgl1-mesa-dri libglx-mesa0 libosmesa6
+          python -m pip install --disable-pip-version-check "numpy==1.26.4" "pillow==10.4.0" "opencv-python-headless==4.10.0.84" "scipy==1.14.1" "scikit-image==0.24.0" "trimesh==4.4.9" "vtk==9.3.1" "omegaconf==2.3.0" "einops==0.7.0" "transformers==4.35.2" "huggingface-hub==0.25.2" "imageio==2.36.0"
+          python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/run227_official_triposr_local_cpu_young_true3d.py
+      - name: Fetch open-source TripoSR code and verify upstream MIT license
+        run: |
+          git clone --depth 1 https://github.com/VAST-AI-Research/TripoSR.git "${RUN227_TRIPOSR_ROOT}"
+          (cd "${RUN227_TRIPOSR_ROOT}" && git rev-parse HEAD)
+          test -s "${RUN227_TRIPOSR_ROOT}/LICENSE"
+          grep -qi 'MIT License' "${RUN227_TRIPOSR_ROOT}/LICENSE"
+      - name: ACTUALLY reconstruct the source young on free CPU and render seven native 3D camera views
+        run: |
+          xvfb-run -a timeout 1550s python -u owl-pet/3d-experiments/172-tyto-castanops/run227_official_triposr_local_cpu_young_true3d.py
+      - name: Independently archive all actual native GLB, seven camera renders and failure evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run227-local-mit-triposr-native-3d-art-unapproved-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/run227-evidence/
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Commit machine-generated diagnostic metadata only to research branch
+        if: always()
+        run: |
+          git config user.name 'owl172-research-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f owl-pet/3d-experiments/172-tyto-castanops/run227-evidence/run227_report.json 2>/dev/null || true
+          git add -f owl-pet/3d-experiments/172-tyto-castanops/run227-evidence/run227_status.md 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m 'audit(owl172): record actual Run227 local TripoSR CPU evidence, never release unapproved art'
+            git push origin HEAD:research/owl172-run227-local-cpu-triposr-true3d-no-release || echo 'diagnostic push unavailable, Actions artifact remains evidence'
+          fi

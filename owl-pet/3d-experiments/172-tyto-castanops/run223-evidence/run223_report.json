@@ -1,0 +1,68 @@
+{
+  "run": 223,
+  "started_utc": "2026-11-19T18:28:48.370432+00:00",
+  "target": "#172 Tyto castanops v3 rightmost cream, age-unknown mesoptile",
+  "goal": "Find an authentic existing CC0 photo-scanned Tyto base; test REAL GLB if licensed and accessible",
+  "preceding_run": "Run222 rejected mechanical adult barn owl, 14 native views",
+  "release": "NO_RELEASE",
+  "art": "NOT_APPROVED",
+  "phone_hardware": "NOT_TESTED",
+  "additional_paid_usd": 0,
+  "main_modified": false,
+  "production_modified": false,
+  "sources": [
+    {
+      "url": "https://zenodo.org/api/records?q=0e65de5934db4f0eae02835ba7227dcc&size=30",
+      "http": 400,
+      "bytes": 207,
+      "content_type": "application/json"
+    },
+    {
+      "url": "https://zenodo.org/api/records?q=%22Barn+owl%22&size=30",
+      "http": 400,
+      "bytes": 207,
+      "content_type": "application/json"
+    },
+    {
+      "url": "https://zenodo.org/api/records?q=%22Tyto+alba%22&size=30",
+      "http": 400,
+      "bytes": 207,
+      "content_type": "application/json"
+    },
+    {
+      "url": "https://huggingface.co/api/datasets/MikeTrizna/smithsonian-open-access-3d/parquet/metadata/train",
+      "http": 200,
+      "bytes": 1311,
+      "content_type": "application/json; charset=utf-8"
+    }
+  ],
+  "checks": {
+    "target_reference": {
+      "bytes": 737545,
+      "sha256": "881dec86e0e66ab2ad0781db86a3b719b35e710d2be1a1606d761a9d0908483d"
+    },
+    "preflight": {
+      "README": "owl-pet/README.md",
+      "spec": "owl-pet/research/species/172-tyto-castanops-v3.md",
+      "prev": "2026-11-20-run222...ART_REJECTED",
+      "main_production": "UNCHANGED (176/251 at main snapshot)"
+    },
+    "zenodo_0e65de5934db4f0eae02835ba7227dcc": {
+      "error": "HTTPError('400 Client Error: BAD REQUEST for url: https://zenodo.org/api/records?q=0e65de5934db4f0eae02835ba7227dcc&size=30')"
+    },
+    "zenodo_\"Barn owl\"": {
+      "error": "HTTPError('400 Client Error: BAD REQUEST for url: https://zenodo.org/api/records?q=%22Barn+owl%22&size=30')"
+    },
+    "zenodo_\"Tyto alba\"": {
+      "error": "HTTPError('400 Client Error: BAD REQUEST for url: https://zenodo.org/api/records?q=%22Tyto+alba%22&size=30')"
+    },
+    "smithsonian_parquet_files": 12,
+    "smithsonian": {
+      "error": "RuntimeError('metadata cap 60MB reached')"
+    }
+  },
+  "files": {},
+  "candidates": [],
+  "status": "NO_ACCESSIBLE_ARCHIVED_CC0_TYTO_GLB_IDENTIFIED_NO_RELEASE",
+  "finished_utc": "2026-11-19T18:28:50.315731+00:00"
+}

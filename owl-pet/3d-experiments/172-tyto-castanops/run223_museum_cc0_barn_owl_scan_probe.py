@@ -38,13 +38,19 @@ def zenodo_probe():
     desc=re.sub('<[^>]*>',' ',str(m.get('description','')))
     text=(title+' '+desc).lower()
     if not any(x in text for x in ('barn owl','tyto alba','0e65de5934db4f0eae02835ba7227dcc')):continue
-    lid=m.get('license') or {}
-    license_name=str(lid.get('id',lid) if isinstance(lid,dict) else lid)
+    lid=m.get('license') or m.get('rights') or {}
+    if isinstance(lid,list):license_name=' '.join(str(x.get('id',x) if isinstance(x,dict) else x) for x in lid)
+    else:license_name=str(lid.get('id',lid) if isinstance(lid,dict) else lid)
     fs=[]
-    for f in item.get('files',[]):
-     name=str(f.get('key',''))
+    entries=item.get('files',[])
+    if isinstance(entries,dict):
+     entries=entries.get('entries',{})
+     entries=list(entries.values()) if isinstance(entries,dict) else entries
+    for f in entries:
+     if not isinstance(f,dict):continue
+     name=str(f.get('key') or f.get('filename') or '')
      if name.lower().endswith('.glb'):
-      url=f.get('links',{}).get('self') or f.get('links',{}).get('download')
+      url=f.get('links',{}).get('content') or f.get('links',{}).get('self') or f.get('links',{}).get('download')
       if url:fs.append({'name':name,'url':url,'size':f.get('size')})
     c={'source':'Zenodo Objaverse archival mirror','record_id':item.get('id'),
        'title':title,'license':license_name,'matched_uid':('0e65de5934db4f0eae02835ba7227dcc' in text),
@@ -87,6 +93,14 @@ def smithsonian_probe():
   R['checks']['smithsonian']={'rows_checked':total,'metadata_bytes':total_bytes,
        'owl_matches':len(matches),'matches':matches[:25],
        'scan_only':'Does not imply juvenile or body scan availability'}
+  exact=[m for m in matches if ('tyto' in m['scientific_name'].lower() or 'barn owl' in m['title'].lower())
+        and m['mesh_url'].startswith('https://') and 'cc0' in m['license'].lower()]
+  R['checks']['smithsonian_exact_model_candidates']=exact[:10]
+  if exact:
+   R['smithsonian_candidate']={'source':'Smithsonian Open Access genuine CC0 3D scan',
+     'title':exact[0]['title'],'license':'CC0 metadata',
+     'glbs':[{'name':'smithsonian_3d_scan.glb','url':exact[0]['mesh_url']}],
+     'url':exact[0]['record_link']}
  except Exception as e:
   R['checks']['smithsonian']={'error':repr(e)}
 def download(c):

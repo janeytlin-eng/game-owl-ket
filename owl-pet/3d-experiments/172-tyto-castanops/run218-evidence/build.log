@@ -1,0 +1,224 @@
+[1/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/brush_catalog.cpp.o
+[2/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/brush_alpha.cpp.o
+[3/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/pin_morph.cpp.o
+[4/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/camera_solve.cpp.o
+[5/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/card_separation.cpp.o
+[6/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/color_patterns.cpp.o
+[7/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/cards.cpp.o
+[8/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/brush.cpp.o
+[9/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/card_bake.cpp.o
+[10/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/card_atlas.cpp.o
+[11/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/card_feathers.cpp.o
+/home/runner/work/_temp/owl172-run218-groomlab/engine/core/src/card_feathers.cpp: In function ‘groomlab::CardMesh::Card groomlab::{anonymous}::makeFeatherCard(const FeatherShape&, const std::vector<long unsigned int>&, const FeatherLayout&, float, bool, int, const groomlab::CardSettings&, const groomlab::ScalpMesh*)’:
+/home/runner/work/_temp/owl172-run218-groomlab/engine/core/src/card_feathers.cpp:492:10: warning: variable ‘sampleDense’ set but not used [-Wunused-but-set-variable]
+  492 |     auto sampleDense = [&](const std::vector<Vec3f>& edge, float along) {
+      |          ^~~~~~~~~~~
+[12/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/card_blocks.cpp.o
+[13/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/retriangulate.cpp.o
+[14/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/asset_files.cpp.o
+[15/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/root_tubes.cpp.o
+[16/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/root_tube_tool.cpp.o
+[17/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/control_keys.cpp.o
+[18/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/root_subdivision.cpp.o
+/home/runner/work/_temp/owl172-run218-groomlab/engine/core/src/root_subdivision.cpp:346:7: warning: ‘groomlab::Vec3f groomlab::{anonymous}::turn(const groomlab::Vec3f&, const groomlab::Vec3f&, const groomlab::Vec3f&)’ defined but not used [-Wunused-function]
+  346 | Vec3f turn(const Vec3f& vec, const Vec3f& a0, const Vec3f& b0) {
+      |       ^~~~
+[19/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/engine_meshes.cpp.o
+[20/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/engine_cards.cpp.o
+[21/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/fbx_writer.cpp.o
+[22/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/groom_package.cpp.o
+[23/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/card_files.cpp.o
+[24/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/hair_color.cpp.o
+[25/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/card_presets.cpp.o
+[26/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/renderman_look.cpp.o
+[27/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/curve.cpp.o
+[28/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/card_maps.cpp.o
+[29/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/distance_field.cpp.o
+[30/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/display_overlays.cpp.o
+[31/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/drive_guides.cpp.o
+[32/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/display.cpp.o
+[33/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/export_view.cpp.o
+[34/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/strand_lod.cpp.o
+[35/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/feathers.cpp.o
+[36/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/expression.cpp.o
+[37/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/frame_time.cpp.o
+[38/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/frames.cpp.o
+[39/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/field.cpp.o
+[40/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/gltf_writer.cpp.o
+[41/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/groom.cpp.o
+[42/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/async_evaluation.cpp.o
+[43/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/graph.cpp.o
+[44/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/attributes.cpp.o
+[45/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/graph_io.cpp.o
+[46/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/groom_file.cpp.o
+[47/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/groom_session.cpp.o
+[48/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/graph_controls.cpp.o
+[49/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/graph_pins.cpp.o
+[50/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/graph_inserts.cpp.o
+[51/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/graph_edit.cpp.o
+/home/runner/work/_temp/owl172-run218-groomlab/engine/core/src/graph_edit.cpp: In member function ‘bool groomlab::GraphEdit::upgradeNode(const std::string&)’:
+/home/runner/work/_temp/owl172-run218-groomlab/engine/core/src/graph_edit.cpp:601:31: warning: possibly dangling reference to a temporary [-Wdangling-reference]
+  601 |         const nlohmann::json& spec = operatorSpec(n.value("type", std::string()));
+      |                               ^~~~
+/home/runner/work/_temp/owl172-run218-groomlab/engine/core/src/graph_edit.cpp:601:58: note: ‘std::__cxx11::basic_string<char>’ temporary created here
+  601 |         const nlohmann::json& spec = operatorSpec(n.value("type", std::string()));
+      |                                                   ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+[52/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/graph_compound.cpp.o
+[53/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/guide_selection.cpp.o
+[54/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/length_key_tool.cpp.o
+[55/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/guide_set.cpp.o
+[56/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/length_field.cpp.o
+[57/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/instances.cpp.o
+[58/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/node_catalog.cpp.o
+[59/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/tube.cpp.o
+/home/runner/work/_temp/owl172-run218-groomlab/engine/core/src/tube.cpp: In member function ‘groomlab::TubeBlendPoint groomlab::TubeProfile::blendPoint(float, float) const’:
+/home/runner/work/_temp/owl172-run218-groomlab/engine/core/src/tube.cpp:396:24: warning: possibly dangling reference to a temporary [-Wdangling-reference]
+  396 |     const TubeOutline& root = tubeShapeOutline(rootShape());
+      |                        ^~~~
+/home/runner/work/_temp/owl172-run218-groomlab/engine/core/src/tube.cpp:396:57: note: ‘groomlab::TubeShapeRef’ temporary created here
+  396 |     const TubeOutline& root = tubeShapeOutline(rootShape());
+      |                                                ~~~~~~~~~^~
+/home/runner/work/_temp/owl172-run218-groomlab/engine/core/src/tube.cpp: In member function ‘groomlab::SectionPoint groomlab::TubeProfile::unblend(float, float, float) const’:
+/home/runner/work/_temp/owl172-run218-groomlab/engine/core/src/tube.cpp:416:24: warning: possibly dangling reference to a temporary [-Wdangling-reference]
+  416 |     const TubeOutline& root = tubeShapeOutline(rootShape());
+      |                        ^~~~
+/home/runner/work/_temp/owl172-run218-groomlab/engine/core/src/tube.cpp:416:57: note: ‘groomlab::TubeShapeRef’ temporary created here
+  416 |     const TubeOutline& root = tubeShapeOutline(rootShape());
+      |                                                ~~~~~~~~~^~
+/home/runner/work/_temp/owl172-run218-groomlab/engine/core/src/tube.cpp:417:24: warning: possibly dangling reference to a temporary [-Wdangling-reference]
+  417 |     const TubeOutline& mid = tubeShapeOutline(midShape ? *midShape : rootShape());
+      |                        ^~~
+/home/runner/work/_temp/owl172-run218-groomlab/engine/core/src/tube.cpp:417:56: note: ‘const groomlab::TubeShapeRef’ temporary created here
+  417 |     const TubeOutline& mid = tubeShapeOutline(midShape ? *midShape : rootShape());
+      |                                               ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/runner/work/_temp/owl172-run218-groomlab/engine/core/src/tube.cpp:418:24: warning: possibly dangling reference to a temporary [-Wdangling-reference]
+  418 |     const TubeOutline& tip = tubeShapeOutline(tipShape ? *tipShape : rootShape());
+      |                        ^~~
+/home/runner/work/_temp/owl172-run218-groomlab/engine/core/src/tube.cpp:418:56: note: ‘const groomlab::TubeShapeRef’ temporary created here
+  418 |     const TubeOutline& tip = tubeShapeOutline(tipShape ? *tipShape : rootShape());
+      |                                               ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+[60/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/noise.cpp.o
+[61/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/guide_hierarchy.cpp.o
+[62/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/look/look_run.cpp.o
+[63/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/look/look_engine_cpu.cpp.o
+[64/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/look/look_cpu.cpp.o
+[65/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/look/look_engine.cpp.o
+/home/runner/work/_temp/owl172-run218-groomlab/engine/core/src/look/look_engine.cpp: In member function ‘void groomlab::gpu::LookEngine::run(const groomlab::gpu::LookRun&, bool, const groomlab::gpu::LookTargets&)’:
+/home/runner/work/_temp/owl172-run218-groomlab/engine/core/src/look/look_engine.cpp:2186:16: warning: enumeration value ‘Merge’ not handled in switch [-Wswitch]
+ 2186 |         switch (p.stage.kind) {
+      |                ^
+/home/runner/work/_temp/owl172-run218-groomlab/engine/core/src/look/look_engine.cpp:2186:16: warning: enumeration value ‘Cull’ not handled in switch [-Wswitch]
+/home/runner/work/_temp/owl172-run218-groomlab/engine/core/src/look/look_engine.cpp:2186:16: warning: enumeration value ‘Split’ not handled in switch [-Wswitch]
+/home/runner/work/_temp/owl172-run218-groomlab/engine/core/src/look/look_engine.cpp:2186:16: warning: enumeration value ‘Mirror’ not handled in switch [-Wswitch]
+[66/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/look/look_stage_params.cpp.o
+[67/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/node_common.cpp.o
+[68/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/node_library.cpp.o
+[69/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/look/generated/look_kernels_cpu.cpp.o
+[70/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/transfer_markers_edit.cpp.o
+[71/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/parts.cpp.o
+[72/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/param_conditions.cpp.o
+[73/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/paths.cpp.o
+[74/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/shortcuts.cpp.o
+[75/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/transfer.cpp.o
+[76/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/png.cpp.o
+[77/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/point_index.cpp.o
+[78/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/ramp.cpp.o
+[79/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/ptex.cpp.o
+[80/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/reference_edit.cpp.o
+[81/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/reference_guides.cpp.o
+[82/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/reference_look.cpp.o
+[83/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/render_overrides.cpp.o
+[84/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/reference_orientation.cpp.o
+[85/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/scalp_history.cpp.o
+[86/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/presets.cpp.o
+/home/runner/work/_temp/owl172-run218-groomlab/engine/core/src/presets.cpp:843:16: warning: identifier ‘requires’ is a keyword in C++20 [-Wc++20-compat]
+  843 |     const auto requires = data.find("requires");
+      |                ^~~~~~~~
+[87/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/scalp_mesh.cpp.o
+[88/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/scalp_pieces.cpp.o
+[89/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/subdivision.cpp.o
+[90/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/follicle_map.cpp.o
+[91/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/scale_maps.cpp.o
+[92/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/scalp_paint.cpp.o
+[93/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/scalp_maps.cpp.o
+[94/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/script.cpp.o
+[95/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/view_projection.cpp.o
+[96/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/scales.cpp.o
+[97/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/semver.cpp.o
+[98/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/schema.cpp.o
+[99/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/lod.cpp.o
+[100/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/simulation.cpp.o
+/home/runner/work/_temp/owl172-run218-groomlab/engine/core/src/simulation.cpp:86:7: warning: ‘float groomlab::{anonymous}::halfAngleOver(float, float)’ defined but not used [-Wunused-function]
+   86 | float halfAngleOver(float s, float c) {
+      |       ^~~~~~~~~~~~~
+/home/runner/work/_temp/owl172-run218-groomlab/engine/core/src/simulation.cpp:52:7: warning: ‘groomlab::Vec3f groomlab::{anonymous}::thirdAxis(const Quat&)’ defined but not used [-Wunused-function]
+   52 | Vec3f thirdAxis(const Quat& q) {
+      |       ^~~~~~~~~
+[101/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/correctives.cpp.o
+[102/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/sculpt.cpp.o
+[103/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/flow.cpp.o
+[104/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/strand_geometry.cpp.o
+[105/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/preview_core.cpp.o
+[106/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/process_caches.cpp.o
+[107/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/follow_scalp.cpp.o
+[108/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/surface_paths.cpp.o
+[109/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/strand_set.cpp.o
+[110/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/scalp_mirror.cpp.o
+[111/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/stroke_tools.cpp.o
+[112/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/texture.cpp.o
+[113/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/stroke.cpp.o
+[114/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/vrscene_writer.cpp.o
+[115/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/usd_writer.cpp.o
+[116/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/deform_ops.cpp.o
+[117/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/compound.cpp.o
+[118/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/script_op.cpp.o
+[119/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/extra_ops.cpp.o
+[120/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/braid_op.cpp.o
+[121/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/interpolate.cpp.o
+/home/runner/work/_temp/owl172-run218-groomlab/engine/core/src/operators/interpolate.cpp:390:6: warning: ‘void groomlab::{anonymous}::segmentLengths(const float*, const float*, const float*, std::size_t, float*)’ defined but not used [-Wunused-function]
+  390 | void segmentLengths(const float* x, const float* y, const float* z, std::size_t n, float* len) {
+      |      ^~~~~~~~~~~~~~
+[122/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/cinematic_ops.cpp.o
+[123/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/plume_op.cpp.o
+[124/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/feather_ops.cpp.o
+[125/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/incremental.cpp.o
+[126/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/color_ops.cpp.o
+[127/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/field_ops.cpp.o
+[128/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/instance_op.cpp.o
+[129/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/curl_op.cpp.o
+[130/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/mesh_cut_op.cpp.o
+[131/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/look_ops.cpp.o
+/home/runner/work/_temp/owl172-run218-groomlab/engine/core/src/operators/look_ops.cpp:103:7: warning: ‘groomlab::Frame groomlab::{anonymous}::frameBetween(const groomlab::Frame&, const groomlab::Frame&, float)’ defined but not used [-Wunused-function]
+  103 | Frame frameBetween(const Frame& a, const Frame& b, float f) {
+      |       ^~~~~~~~~~~~
+/home/runner/work/_temp/owl172-run218-groomlab/engine/core/src/operators/look_ops.cpp:85:7: warning: ‘groomlab::Vec3f groomlab::{anonymous}::frameSeed(const groomlab::Vec3f&, const groomlab::Vec3f&, const groomlab::Vec3f&)’ defined but not used [-Wunused-function]
+   85 | Vec3f frameSeed(const Vec3f& normal, const Vec3f& first, const Vec3f& second) {
+      |       ^~~~~~~~~
+[132/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/motion_ops.cpp.o
+[133/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/mirror_op.cpp.o
+[134/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/registry.cpp.o
+[135/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/render_data_op.cpp.o
+[136/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/neighbor_ops.cpp.o
+[137/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/reference_op.cpp.o
+[138/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/sculpt_op.cpp.o
+[139/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/scatter.cpp.o
+[140/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/self_collide_op.cpp.o
+[141/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/shape_ops.cpp.o
+[142/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/simulate_op.cpp.o
+[143/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/to_mesh_op.cpp.o
+[144/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/sources.cpp.o
+[145/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/static_op.cpp.o
+[146/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/transform_ops.cpp.o
+[147/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/wet_op.cpp.o
+[148/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/group_op.cpp.o
+[149/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/hair_grid.cpp.o
+[150/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/drive_guides_op.cpp.o
+[151/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/spectrum_op.cpp.o
+[152/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/subdivide_op.cpp.o
+[153/156] Building CXX object engine/core/CMakeFiles/groomlab_core.dir/src/parallel_tbb.cpp.o
+[154/156] Building CXX object engine/cli/CMakeFiles/groomlab-cli.dir/main.cpp.o
+/home/runner/work/_temp/owl172-run218-groomlab/engine/cli/main.cpp:55:6: warning: ‘bool {anonymous}::endsWith(const std::string&, const std::string&)’ defined but not used [-Wunused-function]
+   55 | bool endsWith(const std::string& s, const std::string& suffix) {
+      |      ^~~~~~~~
+[155/156] Linking CXX static library engine/core/libgroomlab_core.a
+[156/156] Linking CXX executable engine/cli/groomlab-cli

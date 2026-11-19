@@ -1,0 +1,149 @@
+{
+  "run": 218,
+  "subject": "#172 Tyto castanops v3 rightmost cream mesoptile",
+  "scope": "native free groom engine qualification, not character model",
+  "upstream": "https://github.com/thekesslereffect/groomlab.git",
+  "upstream_pin": "5e81163e3520e14e99f001c41c441f85a186daf9",
+  "paid_spend_usd": 0,
+  "release": "NO_RELEASE",
+  "new_tyto_model": false,
+  "art_gate": "NOT_PASSED",
+  "phone_hardware_webgl": "NOT_TESTED",
+  "steps": {
+    "environment": {
+      "cmd": [
+        "bash",
+        "-lc",
+        "cmake --version; ninja --version; c++ --version | head -1; nproc; free -h"
+      ],
+      "cwd": "/home/runner/work/game-owl-ket/game-owl-ket",
+      "code": 0,
+      "error": null,
+      "seconds": 1.32,
+      "log_bytes": 343,
+      "log_sha256": "51471a475cccfa0fc8d4c83a4a76556428e06322b38f184b3abd1ce78b1aabb4",
+      "last_3000_bytes": "cmake version 4.4.5\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).\n1.13.2\nc++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0\n4\n               total        used        free      shared  buff/cache   available\nMem:            15Gi       1.2Gi       4.4Gi        47Mi        10Gi        14Gi\nSwap:          3.0Gi          0B       3.0Gi\n"
+    },
+    "clone": {
+      "cmd": [
+        "git",
+        "clone",
+        "--depth",
+        "1",
+        "--branch",
+        "dev",
+        "https://github.com/thekesslereffect/groomlab.git",
+        "/home/runner/work/_temp/owl172-run218-groomlab"
+      ],
+      "cwd": "/home/runner/work/game-owl-ket/game-owl-ket",
+      "code": 0,
+      "error": null,
+      "seconds": 3.32,
+      "log_bytes": 65,
+      "log_sha256": "aebe0c392d91455d4dbf75a9c5eea822268f1ed82fc0bc3672039ec0cec7fcf2",
+      "last_3000_bytes": "Cloning into '/home/runner/work/_temp/owl172-run218-groomlab'...\n"
+    },
+    "pin_checkout": {
+      "cmd": [
+        "git",
+        "checkout",
+        "--detach",
+        "5e81163e3520e14e99f001c41c441f85a186daf9"
+      ],
+      "cwd": "/home/runner/work/_temp/owl172-run218-groomlab",
+      "code": 0,
+      "error": null,
+      "seconds": 0.16,
+      "log_bytes": 130,
+      "log_sha256": "dd5e47ebd6b3cdc8dbb2b8272541e2d983bcc066968a13dd72ee34ccaf79183e",
+      "last_3000_bytes": "HEAD is now at 5e81163 Merge PR #88: Subdivide roots by a painted density; root tubes on the root shape at every level (#85, #86)\n"
+    },
+    "configure": {
+      "cmd": [
+        "cmake",
+        "-S",
+        "/home/runner/work/_temp/owl172-run218-groomlab",
+        "-B",
+        "/home/runner/work/_temp/owl172-run218-groomlab/build/lean-cli",
+        "-G",
+        "Ninja",
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DCMAKE_CXX_FLAGS_RELEASE=-O1 -DNDEBUG",
+        "-DCMAKE_C_FLAGS_RELEASE=-O1 -DNDEBUG",
+        "-DGROOMLAB_BUILD_TESTS=OFF",
+        "-DGROOMLAB_BUILD_PYTHON=OFF",
+        "-DGROOMLAB_BUILD_ALEMBIC=OFF",
+        "-DGROOMLAB_BUILD_CAPI=OFF",
+        "-DGROOMLAB_BUILD_BLENDER_HELPER=OFF",
+        "-DGROOMLAB_BUILD_ARNOLD=OFF",
+        "-DGROOMLAB_BUILD_PROCEDURAL=OFF",
+        "-DGROOMLAB_BUILD_RENDERMAN=OFF",
+        "-DGROOMLAB_BUILD_MAYA=OFF"
+      ],
+      "cwd": "/home/runner/work/_temp/owl172-run218-groomlab",
+      "code": 0,
+      "error": null,
+      "seconds": 2.42,
+      "log_bytes": 884,
+      "log_sha256": "8c9764d54c9e91178366686a3b723ef79f5dfc3111e135853417773844d25a36",
+      "last_3000_bytes": "-- The CXX compiler identification is GNU 15.2.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /usr/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- TBB: package 2022.3.0\n-- Using the multi-header code from /home/runner/work/_temp/owl172-run218-groomlab/build/lean-cli/_deps/nlohmann_json-src/include/\n-- Stored nlohmann_json's sources in /home/runner/.cache/groomlab-deps/fetch/nlohmann_json-3.11.3\n-- GPU look preview (engine/gpu): Windows only for now, left out with its tests (groomlab_gpu_tests)\n-- Configuring done (2.3s)\n-- Generating done (0.0s)\nCMake Warning (unused-cli):\n  Manually-specified variables were not used by the project:\n\n    CMAKE_C_FLAGS_RELEASE\n\n\n-- Build files have been written to: /home/runner/work/_temp/owl172-run218-groomlab/build/lean-cli\n"
+    },
+    "build": {
+      "cmd": [
+        "cmake",
+        "--build",
+        "/home/runner/work/_temp/owl172-run218-groomlab/build/lean-cli",
+        "--target",
+        "groomlab-cli",
+        "--parallel",
+        "3"
+      ],
+      "cwd": "/home/runner/work/_temp/owl172-run218-groomlab",
+      "code": 0,
+      "error": null,
+      "seconds": 145.62,
+      "log_bytes": 23410,
+      "log_sha256": "d46e2bc2d2cbb05a158357829cf48dcf1770edece0f1cf8c90efe004bb388188",
+      "last_3000_bytes": "eSeed(const Vec3f& normal, const Vec3f& first, const Vec3f& second) {\n      |       ^~~~~~~~~\n[132/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/motion_ops.cpp.o\n[133/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/mirror_op.cpp.o\n[134/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/registry.cpp.o\n[135/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/render_data_op.cpp.o\n[136/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/neighbor_ops.cpp.o\n[137/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/reference_op.cpp.o\n[138/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/sculpt_op.cpp.o\n[139/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/scatter.cpp.o\n[140/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/self_collide_op.cpp.o\n[141/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/shape_ops.cpp.o\n[142/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/simulate_op.cpp.o\n[143/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/to_mesh_op.cpp.o\n[144/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/sources.cpp.o\n[145/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/static_op.cpp.o\n[146/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/transform_ops.cpp.o\n[147/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/wet_op.cpp.o\n[148/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/group_op.cpp.o\n[149/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/hair_grid.cpp.o\n[150/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/drive_guides_op.cpp.o\n[151/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/spectrum_op.cpp.o\n[152/156] Building CXX object engine/core/CMakeFiles/groomlab_core_objects.dir/src/operators/subdivide_op.cpp.o\n[153/156] Building CXX object engine/core/CMakeFiles/groomlab_core.dir/src/parallel_tbb.cpp.o\n[154/156] Building CXX object engine/cli/CMakeFiles/groomlab-cli.dir/main.cpp.o\n/home/runner/work/_temp/owl172-run218-groomlab/engine/cli/main.cpp:55:6: warning: ‘bool {anonymous}::endsWith(const std::string&, const std::string&)’ defined but not used [-Wunused-function]\n   55 | bool endsWith(const std::string& s, const std::string& suffix) {\n      |      ^~~~~~~~\n[155/156] Linking CXX static library engine/core/libgroomlab_core.a\n[156/156] Linking CXX executable engine/cli/groomlab-cli\n"
+    },
+    "cli_version": {
+      "cmd": [
+        "/home/runner/work/_temp/owl172-run218-groomlab/build/lean-cli/engine/cli/groomlab-cli",
+        "--version"
+      ],
+      "cwd": "/home/runner/work/_temp/owl172-run218-groomlab",
+      "code": 0,
+      "error": null,
+      "seconds": 0.0,
+      "log_bytes": 42,
+      "log_sha256": "af740820b97354bd6f7f652b9c4a5dfedb39e248180e7392fd5d371aaca3bd01",
+      "last_3000_bytes": "groomlab-cli 0.49.1 (TBB on, Alembic off)\n"
+    },
+    "cli_operators": {
+      "cmd": [
+        "/home/runner/work/_temp/owl172-run218-groomlab/build/lean-cli/engine/cli/groomlab-cli",
+        "--list-operators"
+      ],
+      "cwd": "/home/runner/work/_temp/owl172-run218-groomlab",
+      "code": 0,
+      "error": null,
+      "seconds": 0.0,
+      "log_bytes": 583,
+      "log_sha256": "4321dcf1804cc1d54533676a836e06ac85093caa8f581c208dcc818ea2acd3c1",
+      "last_3000_bytes": "Attribute\nBands\nBend\nBlend\nBlendNeighbors\nBraid\nCards\nClump\nCollide\nColliderMesh\nColorLayers\nCompound\nControl\nCull\nCurl\nCurve\nDirection\nDisplace\nDriveGuides\nExpression\nFeatherColor\nFieldCombine\nFieldNoise\nFieldRemap\nFlow\nFlyaway\nGravity\nGroup\nGuides\nHairColor\nInput\nInstance\nInterpolate\nJiggle\nLayers\nLength\nMap\nMerge\nMeshCut\nMirror\nNoise\nOutput\nPart\nPlume\nPropagate\nReference\nRenderData\nResample\nRestoreLength\nScales\nScalp\nScatter\nScript\nSculpt\nSelfCollide\nSimulate\nSmooth\nSpectrum\nSplit\nStatic\nSubdivide\nSwitch\nTangle\nToGuides\nToMesh\nToStrands\nTransform\nTwist\nValue\nWet\nWidth\nWind\n"
+    }
+  },
+  "created_utc": "2026-11-19T15:55:49.497734+00:00",
+  "reference": {
+    "path": "owl-pet/design/concepts/172-tyto-castanops-v3.png",
+    "bytes": 737545,
+    "sha256": "881dec86e0e66ab2ad0781db86a3b719b35e710d2be1a1606d761a9d0908483d",
+    "valid": true
+  },
+  "native_cli_binaries": [
+    "build/lean-cli/engine/cli/groomlab-cli"
+  ],
+  "native_groom_samples": [],
+  "status": "NATIVE_CLI_SMOKE_PASS_NO_OWL",
+  "finished_utc": "2026-11-19T15:58:22.348649+00:00"
+}

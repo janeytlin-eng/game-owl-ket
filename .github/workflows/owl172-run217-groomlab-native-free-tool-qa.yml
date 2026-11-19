@@ -42,5 +42,5 @@ jobs:
           git add owl-pet/3d-experiments/172-tyto-castanops/run217-evidence/ || true
           if ! git diff --cached --quiet; then
             git commit -m 'research(#172): record Run217 actual native groom trial and failures'
-            git -c http.extraheader=\"AUTHORIZATION: basic $(printf 'x-access-token:%s' \"$GH_RESEARCH_TOKEN\" | base64 -w0)\" push origin HEAD:research/owl172-run217-free-groomlab-native-tool-qualification-no-release || echo 'PUSH_FAILED; raw artifact remains independent proof'
+            git -c http.extraheader="AUTHORIZATION: basic $(printf 'x-access-token:%s' "$GH_RESEARCH_TOKEN" | base64 -w0)" push origin HEAD:research/owl172-run217-free-groomlab-native-tool-qualification-no-release || echo 'PUSH_FAILED; raw artifact remains independent proof'
           fi

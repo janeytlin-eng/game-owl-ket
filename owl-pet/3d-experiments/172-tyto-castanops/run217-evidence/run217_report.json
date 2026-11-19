@@ -1,0 +1,93 @@
+{
+  "experiment": "run217-free-artist-grade-groom-tool-qualification",
+  "date_utc": "2026-11-19T15:29:01.945703+00:00",
+  "subject": "#172 Tyto castanops v3 rightmost cream mesoptile",
+  "release": "NO_RELEASE",
+  "art_gate": "NOT_PASSED",
+  "phone_webgl_gate": "NOT_TESTED",
+  "paid_spend_usd": 0,
+  "upstream": "https://github.com/thekesslereffect/groomlab.git",
+  "steps": {
+    "environment": {
+      "cmd": [
+        "bash",
+        "-lc",
+        "cmake --version; c++ --version | head -1; git --version"
+      ],
+      "cwd": "/home/runner/work/game-owl-ket/game-owl-ket",
+      "timeout_s": 20,
+      "return_code": 0,
+      "duration_s": 3.64,
+      "log_tail": "cmake version 4.5.0\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).\nc++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0\ngit version 2.56.1\n"
+    },
+    "clone": {
+      "cmd": [
+        "git",
+        "clone",
+        "--filter=blob:none",
+        "--depth=1",
+        "--branch=dev",
+        "https://github.com/thekesslereffect/groomlab.git",
+        "/home/runner/work/_temp/owl172-run217-groomlab-src"
+      ],
+      "cwd": "/home/runner/work/game-owl-ket/game-owl-ket",
+      "timeout_s": 180,
+      "return_code": 0,
+      "duration_s": 6.8,
+      "log_tail": " (479/1916)\nUpdating files:  26% (499/1916)\nUpdating files:  27% (518/1916)\nUpdating files:  28% (537/1916)\nUpdating files:  29% (556/1916)\nUpdating files:  30% (575/1916)\nUpdating files:  31% (594/1916)\nUpdating files:  32% (614/1916)\nUpdating files:  33% (633/1916)\nUpdating files:  34% (652/1916)\nUpdating files:  35% (671/1916)\nUpdating files:  36% (690/1916)\nUpdating files:  37% (709/1916)\nUpdating files:  38% (729/1916)\nUpdating files:  39% (748/1916)\nUpdating files:  40% (767/1916)\nUpdating files:  41% (786/1916)\nUpdating files:  42% (805/1916)\nUpdating files:  43% (824/1916)\nUpdating files:  44% (844/1916)\nUpdating files:  45% (863/1916)\nUpdating files:  46% (882/1916)\nUpdating files:  47% (901/1916)\nUpdating files:  48% (920/1916)\nUpdating files:  49% (939/1916)\nUpdating files:  50% (958/1916)\nUpdating files:  51% (978/1916)\nUpdating files:  52% (997/1916)\nUpdating files:  53% (1016/1916)\nUpdating files:  54% (1035/1916)\nUpdating files:  55% (1054/1916)\nUpdating files:  56% (1073/1916)\nUpdating files:  57% (1093/1916)\nUpdating files:  58% (1112/1916)\nUpdating files:  59% (1131/1916)\nUpdating files:  60% (1150/1916)\nUpdating files:  61% (1169/1916)\nUpdating files:  62% (1188/1916)\nUpdating files:  63% (1208/1916)\nUpdating files:  64% (1227/1916)\nUpdating files:  65% (1246/1916)\nUpdating files:  66% (1265/1916)\nUpdating files:  67% (1284/1916)\nUpdating files:  68% (1303/1916)\nUpdating files:  69% (1323/1916)\nUpdating files:  70% (1342/1916)\nUpdating files:  71% (1361/1916)\nUpdating files:  72% (1380/1916)\nUpdating files:  73% (1399/1916)\nUpdating files:  74% (1418/1916)\nUpdating files:  75% (1437/1916)\nUpdating files:  76% (1457/1916)\nUpdating files:  77% (1476/1916)\nUpdating files:  78% (1495/1916)\nUpdating files:  79% (1514/1916)\nUpdating files:  80% (1533/1916)\nUpdating files:  81% (1552/1916)\nUpdating files:  82% (1572/1916)\nUpdating files:  83% (1591/1916)\nUpdating files:  84% (1610/1916)\nUpdating files:  85% (1629/1916)\nUpdating files:  86% (1648/1916)\nUpdating files:  87% (1667/1916)\nUpdating files:  88% (1687/1916)\nUpdating files:  89% (1706/1916)\nUpdating files:  90% (1725/1916)\nUpdating files:  91% (1744/1916)\nUpdating files:  92% (1763/1916)\nUpdating files:  93% (1782/1916)\nUpdating files:  94% (1802/1916)\nUpdating files:  95% (1821/1916)\nUpdating files:  96% (1840/1916)\nUpdating files:  97% (1859/1916)\nUpdating files:  98% (1878/1916)\nUpdating files:  99% (1897/1916)\nUpdating files: 100% (1916/1916)\nUpdating files: 100% (1916/1916), done.\n"
+    },
+    "upstream_commit": {
+      "cmd": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "cwd": "/home/runner/work/_temp/owl172-run217-groomlab-src",
+      "timeout_s": 12,
+      "return_code": 0,
+      "duration_s": 0.0,
+      "log_tail": "5e81163e3520e14e99f001c41c441f85a186daf9\n"
+    },
+    "cmake_configure": {
+      "cmd": [
+        "cmake",
+        "--preset",
+        "linux-core"
+      ],
+      "cwd": "/home/runner/work/_temp/owl172-run217-groomlab-src",
+      "timeout_s": 380,
+      "return_code": 0,
+      "duration_s": 13.19,
+      "log_tail": "s /home/runner/work/_temp/owl172-run217-groomlab-src/install/linux-core\n-- Found package Imath\n\n   * Alembic Configuration              ===\n   * USE_ARNOLD                         OFF\n   * USE_BINARIES                       OFF\n   * USE_EXAMPLES                       OFF\n   * USE_HDF5                           OFF\n   * USE_MAYA                           OFF\n   * USE_PRMAN                          OFF\n   * USE_PYALEMBIC                      OFF\n   * USE_STATIC_BOOST                   OFF\n   * USE_STATIC_HDF5                    OFF\n   * USE_TESTS                          OFF\n   * ALEMBIC_ILMBASE_LINK_STATIC        OFF\n   * ALEMBIC_SHARED_LIBS                OFF\n   * ALEMBIC_DEBUG_WARNINGS_AS_ERRORS   OFF\n   * PYALEMBIC_PYTHON_MAJOR             3\n   * DOCS_PATH                          OFF\n-- Stored Imath's sources in /home/runner/.cache/groomlab-deps/fetch/Imath-v3.1.12\n-- Stored Alembic's sources in /home/runner/.cache/groomlab-deps/fetch/Alembic-1.8.8\n-- Found Python: /usr/bin/python3.14 (found version \"3.14.4\") found components: Interpreter Development.Module\nCMake Warning (deprecated) at build/linux-core/_deps/pybind11-src/CMakeLists.txt:13 (cmake_minimum_required):\n  Compatibility with CMake < 3.10 will be removed from a future version of\n  CMake.\n\n  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n  to tell CMake that the project requires at least <min> but has been updated\n  to work with policies introduced by <max> or earlier.\nThis warning is for project developers.  Use -Wno-author or -Wno-deprecated\nto suppress it.\n\n-- pybind11 v2.13.6 \n-- Performing Test HAS_FLTO\n-- Performing Test HAS_FLTO - Success\n-- Stored pybind11's sources in /home/runner/.cache/groomlab-deps/fetch/pybind11-v2.13.6\n-- groomlab_core Python: /usr/bin/python3.14 (3.14.4)\n-- No Arnold SDK (GROOMLAB_ARNOLD_SDK, MTOA_LOCATION): the Arnold procedural is left out\n-- Stored googletest's sources in /home/runner/.cache/groomlab-deps/fetch/googletest-v1.15.2\n-- blender.helper: no Python 3 with numpy (set GROOMLAB_BLENDER_PYTHON): the test is left out\n-- blender.addon: no Blender found (set GROOMLAB_BLENDER_EXE): the add-on tests are left out\n-- Configuring done (13.0s)\nCMake Warning:\n  Value of CMAKE_SYSTEM_PROCESSOR contained a newline; truncating\n\n\n-- Generating done (0.1s)\nCMake Warning:\n  Value of CMAKE_SYSTEM_PROCESSOR contained a newline; truncating\n\n\n-- Build files have been written to: /home/runner/work/_temp/owl172-run217-groomlab-src/build/linux-core\n"
+    },
+    "cli_build": {
+      "cmd": [
+        "cmake",
+        "--build",
+        "--preset",
+        "linux-core",
+        "--target",
+        "groomlab-cli",
+        "--parallel",
+        "2"
+      ],
+      "cwd": "/home/runner/work/_temp/owl172-run217-groomlab-src",
+      "timeout_s": 470,
+      "error": "TimeoutExpired(['cmake', '--build', '--preset', 'linux-core', '--target', 'groomlab-cli', '--parallel', '2'], 470)",
+      "duration_s": 470.0,
+      "log_tail": "Command '['cmake', '--build', '--preset', 'linux-core', '--target', 'groomlab-cli', '--parallel', '2']' timed out after 470 seconds"
+    }
+  },
+  "reference": {
+    "path": "owl-pet/design/concepts/172-tyto-castanops-v3.png",
+    "bytes": 737545,
+    "sha256": "881dec86e0e66ab2ad0781db86a3b719b35e710d2be1a1606d761a9d0908483d",
+    "matches_expected": true
+  },
+  "license": {
+    "license_file_found": true,
+    "apache_2_string_present": true
+  },
+  "status": "GROOMLAB_CLI_BUILD_FAILED",
+  "date_finished_utc": "2026-11-19T15:37:15.582748+00:00"
+}

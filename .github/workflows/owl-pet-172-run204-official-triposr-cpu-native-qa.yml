@@ -1,4 +1,4 @@
-name: owl172 Run204 official TripoSR free CPU native source-bound NO_RELEASE
+name: owl172 Run204b corrected TripoSR CPU backend build and evidence gate NO_RELEASE
 on:
   push:
     branches:
@@ -47,9 +47,10 @@ jobs:
             echo "torch install status=$?"
             python -m pip install -q 'numpy<2' 'setuptools<81' omegaconf==2.3.0 Pillow==10.1.0 einops==0.7.0 transformers==4.35.0 trimesh==4.0.5 'rembg==2.0.59' huggingface-hub imageio xatlas==0.0.9 moderngl==5.10.0 vtk==9.6.2
             echo "requirements install status=$?"
+            python -m pip install -q scikit-build-core ninja pybind11
             python -m pip install -q --no-build-isolation 'git+https://github.com/tatsy/torchmcubes.git'
             echo "torchmcubes install status=$?"
-            python -c 'import torch,tsr,rembg,torchmcubes,trimesh,vtk;print("imports",torch.__version__,torch.cuda.is_available())' 2>&1
+            PYTHONPATH=/tmp/TripoSR python -c 'import torch,tsr,rembg,torchmcubes,trimesh,vtk;print("imports",torch.__version__,torch.cuda.is_available())' 2>&1
             echo "final imports status=$?"
           } 2>&1 | tee "$E/install.log"
           exit 0
@@ -77,7 +78,7 @@ jobs:
           R=owl-pet/3d-experiments/172-tyto-castanops
           E="$R/research-evidence-run204-TRIPOSR-CPU-NATIVE-NO_RELEASE"
           for f in "$R/2026-11-19-run204-triposr-cpu-sourcebound-NO_RELEASE.md" "$E/status.json" "$E/preflight.json" "$E/manifest.json" "$E/native_mesh_inspection.json" "$E/inference_console.log" "$E/exception_trace.txt" "$E/install.log"; do
-            if test -f "$f"; then git add "$f"; fi
+            if test -f "$f"; then git add --sparse "$f"; fi
           done
           if ! git diff --cached --quiet; then
             git commit -m "Run204 isolated true CPU image-to-native-model gate evidence; NO_RELEASE"

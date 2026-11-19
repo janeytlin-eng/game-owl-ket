@@ -1,0 +1,40 @@
+name: '#172 Run220 actual free native groom trial (technical wolf, NO RELEASE)'
+on:
+  push:
+    branches: [research/owl172-run220-groomlab-real-fur-demo-tech-only-no-release]
+    paths:
+      - '.github/workflows/owl172-run220-groomlab-native-fur-test.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run220_groomlab_actual_fur_mcp_trial.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  independent-actual-groom-tech-only:
+    runs-on: ubuntu-latest
+    timeout-minutes: 29
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install free C++ compilation dependencies only
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends cmake ninja-build build-essential libtbb-dev
+      - name: Actually compile groom engine and evaluate a sample real native fur groom
+        run: python3 owl-pet/3d-experiments/172-tyto-castanops/run220_groomlab_actual_fur_mcp_trial.py
+      - name: Archive original native groom and technical pictures, NOT an owl
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run220-real-native-groom-technical-wolf-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/run220-evidence/
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Persist diagnostic text only on isolated experiment branch
+        if: always()
+        run: |
+          git config user.name 'owl172-research-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          find owl-pet/3d-experiments/172-tyto-castanops/run220-evidence -type f ! -name '*.groom' ! -name '*.png' ! -name '*.usda' -print0 | xargs -0 -r git add --
+          if ! git diff --cached --quiet; then
+            git commit -m 'research(#172): record real groom source and technical evidence without pet promotion'
+            git push origin HEAD:research/owl172-run220-groomlab-real-fur-demo-tech-only-no-release || echo 'TEXT_PUSH_UNAVAILABLE; original artifact retained'
+          fi

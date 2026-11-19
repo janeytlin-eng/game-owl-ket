@@ -3,9 +3,9 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - "research/owl172-run226b-scanned-tyto-local-anatomical-morph-no-release"
+      - "research/owl172-run226-scanned-tyto-local-anatomical-morph-no-release"
     paths:
-      - ".github/workflows/owl172-run226b-museum-scan-anatomical-morph-actual-3d-qa.yml"
+      - ".github/workflows/owl172-run226b-corrected-native-frame-and-21view.yml"
       - "owl-pet/3d-experiments/172-tyto-castanops/run226b_native_corrected_anatomical_frame_qa.py"
 permissions:
   contents: write
@@ -61,6 +61,6 @@ jobs:
             echo "No actual report generated. No evidence commit."
           else
             git commit -m "research(#172): archive Run226b native geometry measurements and visually unapproved angles"
-            git push origin "HEAD:research/owl172-run226b-scanned-tyto-local-anatomical-morph-no-release"
+            git push origin "HEAD:research/owl172-run226-scanned-tyto-local-anatomical-morph-no-release"
           fi
           git status --short

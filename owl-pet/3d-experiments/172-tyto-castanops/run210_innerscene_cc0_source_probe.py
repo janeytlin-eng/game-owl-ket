@@ -17,6 +17,18 @@ def digest(p):
  with open(p,"rb") as f:
   for x in iter(lambda:f.read(1024*1024),b""):h.update(x)
  return h.hexdigest()
+# Reference is verified from the exact existing v3 plate in repository checkout.
+plate=pathlib.Path("owl-pet/design/concepts/172-tyto-castanops-v3.png")
+if plate.exists():
+ s["reference_image_available"]=True
+ s["reference_plate_blob_sha256"]=digest(plate)
+ ref=Image.open(plate).convert("RGB")
+ s["reference_plate_dimensions"]=list(ref.size)
+ bounds=(950,255,1440,850)
+ s["reference_crop_xyxy"]=list(bounds)
+ ref.crop(bounds).save(OUT/"v3_rightmost_young_reference_crop.png")
+else:
+ s["reference_image_available"]=False
 try:
  with requests.get(SRC,stream=True,timeout=(25,150),headers={"User-Agent":"Mozilla/5.0 (model provenance research)"}) as r:
   s["http"]=r.status_code;s["resolved_url"]=r.url;s["type"]=r.headers.get("Content-Type","");r.raise_for_status()
@@ -58,6 +70,12 @@ try:
    writer.SetFileName(str(p));writer.SetInputConnection(w.GetOutputPort());writer.Write()
    x=(i%4)*600;y=(i//4)*635;contact.paste(Image.open(p).convert("RGB"),(x,y+35))
    draw.text((x+15,y+12),name,fill=(32,32,32))
+  if (OUT/"v3_rightmost_young_reference_crop.png").exists():
+   ref=Image.open(OUT/"v3_rightmost_young_reference_crop.png").convert("RGB")
+   ref.thumbnail((560,570))
+   xx=3*600+(600-ref.width)//2; yy=635+35+(600-ref.height)//2
+   contact.paste(ref,(xx,yy))
+   draw.text((3*600+15,635+12),"v3 RIGHTMOST DESIGN REFERENCE (NOT MESH)",fill=(32,32,32))
   contact.save(OUT/"run210_sevenview_contact.png")
   s["vtk_views"]=len(axes);s["native_render_completed"]=True
  except Exception:
@@ -74,7 +92,7 @@ manifest={p.name:{"bytes":p.stat().st_size,"sha256":digest(p)} for p in OUT.iter
  " (claims CC0; 2026-10-21); test endpoint "+SRC+".\n\n"
  "Actual result JSON:\n\n"+json.dumps(s,indent=2,ensure_ascii=False)+
  "\n\nRaw source binary, seven native camera images when successful, and hashes are in short-retention "
- "workflow artifacts, NOT production. The rightmost original plate crop was not accessible here; "
+ "workflow artifacts, NOT production. The rightmost existing v3 plate/crop is SHA256 verified and included as a distinct reference tile where available; "
  "source style/morphology cannot be deemed conformant by automated GLB structure. "
  "No smartphone/GPU acceptance, no extra paid service, no production changes.\n")
 print(json.dumps(s,indent=2,ensure_ascii=False),flush=True)

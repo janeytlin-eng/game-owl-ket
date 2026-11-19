@@ -29,13 +29,13 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install "numpy<2.3" trimesh vtk pillow requests scipy
           npm install --global @gltf-transform/cli
-          python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/run226b_scanned_tyto_nonrigid_juvenile_sculpt_trial.py
+          python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/run226b_native_corrected_anatomical_frame_qa.py
           gltf-transform --version
       - name: Actually download real CC0 adult scan, decode, deform, export two GLBs and render 21 independent native views
         id: probe
         continue-on-error: true
         run: |
-          xvfb-run -a python -u owl-pet/3d-experiments/172-tyto-castanops/run226b_scanned_tyto_nonrigid_juvenile_sculpt_trial.py
+          xvfb-run -a python -u owl-pet/3d-experiments/172-tyto-castanops/run226b_native_corrected_anatomical_frame_qa.py
           cat owl-pet/3d-experiments/172-tyto-castanops/run226b-evidence/run226b_report.json | python -c 'import sys,json; q=json.load(sys.stdin); print("Actual scientific and geometry QA:",q["result"],"states:",list(q["variants"]))'
       - name: Upload original native evidence separately from production
         if: always()

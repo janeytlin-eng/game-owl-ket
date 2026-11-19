@@ -70,13 +70,44 @@ def morph(sc):
   g.vertices=v;out.add_geometry(g,geom_name='adult_anatomy_morph_'+str(i))
  return out
 def render(file,prefix):
+ """Actual 3D camera views from genuine GLB triangles. VTK GLTFImporter cannot
+ parse this source's scene nodes; independently import with trimesh then draw
+ every native triangle and sampled vertex colour in VTK. No screenshot fakery.
+ """
  import vtk
- win=vtk.vtkRenderWindow();win.SetOffScreenRendering(1);win.SetSize(480,480)
- imp=vtk.vtkGLTFImporter();imp.SetFileName(str(file));imp.SetRenderWindow(win);imp.Update()
- ren=win.GetRenderers().GetFirstRenderer()
- if ren is None or ren.GetActors().GetNumberOfItems()==0:raise RuntimeError('VTK no actors')
- b=ren.ComputeVisiblePropBounds()
- center=np.array([(b[2*i]+b[2*i+1])/2 for i in range(3)])
+ from vtk.util.numpy_support import numpy_to_vtk,numpy_to_vtkIdTypeArray
+ sc=trimesh.load(file,force='scene',process=False)
+ parts=sc.dump()
+ if isinstance(parts,trimesh.Trimesh):parts=[parts]
+ ren=vtk.vtkRenderer();win=vtk.vtkRenderWindow()
+ win.SetOffScreenRendering(1);win.SetSize(480,480);win.AddRenderer(ren)
+ total=0
+ for g in parts:
+  if not isinstance(g,trimesh.Trimesh) or not len(g.faces):continue
+  pts=vtk.vtkPoints();pts.SetData(numpy_to_vtk(np.asarray(g.vertices,dtype=np.float64),deep=True))
+  pd=vtk.vtkPolyData();pd.SetPoints(pts)
+  faces=np.asarray(g.faces,dtype=np.int64)
+  ff=np.column_stack((np.full(len(faces),3,dtype=np.int64),faces)).ravel()
+  polys=vtk.vtkCellArray();polys.SetCells(len(faces),numpy_to_vtkIdTypeArray(ff,deep=True))
+  pd.SetPolys(polys)
+  try:
+   vc=np.asarray(g.visual.to_color().vertex_colors)
+   if len(vc)==len(g.vertices):
+    ca=numpy_to_vtk(vc[:,:3].astype(np.uint8),deep=True,array_type=vtk.VTK_UNSIGNED_CHAR)
+    ca.SetName('OriginalVertexColor');pd.GetPointData().SetScalars(ca)
+  except Exception:pass
+  normals=vtk.vtkPolyDataNormals();normals.SetInputData(pd)
+  normals.SplittingOff();normals.ConsistencyOn();normals.Update()
+  mapper=vtk.vtkPolyDataMapper();mapper.SetInputConnection(normals.GetOutputPort())
+  mapper.SetColorModeToDirectScalars()
+  actor=vtk.vtkActor();actor.SetMapper(mapper)
+  actor.GetProperty().SetInterpolationToPhong()
+  ren.AddActor(actor);total+=len(faces)
+ if ren.GetActors().GetNumberOfItems()==0:raise RuntimeError('no 3D actors after independent trimesh import')
+ REPORT['checks']['vtk_independent_triangle_draw_'+prefix]=total
+ bounds=ren.ComputeVisiblePropBounds()
+ if not all(np.isfinite(v) for v in bounds):raise RuntimeError('nonfinite VTK bounds')
+ b=bounds;center=np.array([(b[2*i]+b[2*i+1])/2 for i in range(3)])
  sz=max(b[2*i+1]-b[2*i] for i in range(3))
  views={'front':(0,0,1,0,1,0),'back':(0,0,-1,0,1,0),'left':(-1,0,0,0,1,0),
   'right':(1,0,0,0,1,0),'quarter':(.7,.2,.7,0,1,0),
@@ -89,7 +120,7 @@ def render(file,prefix):
   fl=vtk.vtkWindowToImageFilter();fl.SetInput(win);fl.Update()
   p=OUT/(prefix+'_'+name+'.png')
   writer=vtk.vtkPNGWriter();writer.SetFileName(str(p));writer.SetInputConnection(fl.GetOutputPort());writer.Write()
-  if p.stat().st_size<500:raise RuntimeError('empty view '+name)
+  if p.stat().st_size<500:raise RuntimeError('empty native 3D view '+name)
  return len(views)
 def sheet():
  names=['front','quarter','right','back','left','top','bottom']

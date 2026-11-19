@@ -1,4 +1,4 @@
-name: owl172 Run206 real free keyless TRELLIS draft GLB and seven native views NO_RELEASE
+name: owl172 Run206b short-prompt free TRELLIS retry after server error NO_RELEASE
 on:
   push:
     branches:
@@ -47,8 +47,8 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: research-evidence-run206-keyless-trellis-raw-NO_RELEASE
-          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run206-THREEWS-KEYLESS-TEXT3D-NO_RELEASE/
+          name: research-evidence-run206b-shortprompt-raw-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run206b-SHORTPROMPT-THREEWS-NO_RELEASE/
           retention-days: 14
           if-no-files-found: warn
       - name: Commit lightweight response receipts and evidence manifest only to isolated branch
@@ -58,11 +58,11 @@ jobs:
           git config user.name 'owl172-research-bot'
           git config user.email 'owl172-research-bot@users.noreply.github.com'
           R=owl-pet/3d-experiments/172-tyto-castanops
-          E="$R/research-evidence-run206-THREEWS-KEYLESS-TEXT3D-NO_RELEASE"
-          for f in "$R/2026-11-19-run206-threews-keyless-text3d-sourcebound-NO_RELEASE.md" "$E/preflight.json" "$E/status.json" "$E/manifest.json" "$E/submit_response.json" "$E/native_glb_metrics.json" "$E/traceback.txt"; do
+          E="$R/research-evidence-run206b-SHORTPROMPT-THREEWS-NO_RELEASE"
+          for f in "$R/2026-11-19-run206b-threews-keyless-shortprompt-NO_RELEASE.md" "$E/preflight.json" "$E/status.json" "$E/manifest.json" "$E/submit_response.json" "$E/native_glb_metrics.json" "$E/traceback.txt"; do
             if test -f "$f"; then git add --sparse "$f"; fi
           done
           if ! git diff --cached --quiet; then
-            git commit -m "Run206 preserve actual keyless GLB experiment gate receipts; NO_RELEASE"
+            git commit -m "Run206b preserve shorter-prompt response receipts and evidence SHA, NO_RELEASE"
             git push origin HEAD:research/owl172-run206-threews-keyless-native-no-release
           fi

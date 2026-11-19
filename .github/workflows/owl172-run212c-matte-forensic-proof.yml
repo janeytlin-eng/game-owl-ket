@@ -1,0 +1,62 @@
+name: Owl172 Run212c isolated alpha forensic proof
+on:
+  push:
+    branches:
+      - research/owl172-run212-official-sf3d-single-stage-free-qa
+    paths:
+      - '.github/workflows/owl172-run212c-matte-forensic-proof.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  eye_matte_forensics:
+    runs-on: ubuntu-24.04
+    name: Exact-source alpha repair and visual evidence only NO_RELEASE
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Download the immutable Run212 failure artifact (not generated model)
+        uses: actions/download-artifact@v4
+        with:
+          name: owl172-run212-official-sf3d-UNAPPROVED-evidence
+          run-id: 44514080844
+          repository: janeytlin-eng/game-owl-ket
+          github-token: ${{ github.token }}
+          path: /tmp/owl172_original_run212
+      - name: Install small free forensic CPU stack
+        run: python -m pip install -q pillow numpy opencv-python-headless
+      - name: Actually restore original RGB pupils via data-derived alpha only
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          from zipfile import ZipFile
+          directory=Path('/tmp/owl172_original_run212')
+          assert (directory/'source_rightmost_grabcut_rgba.png').exists(),directory
+          with ZipFile('/tmp/run212_qa_input_archive.zip','w') as zipout:
+              for path in directory.iterdir():
+                  if path.is_file():zipout.write(path,arcname=path.name)
+          PY
+          python owl-pet/3d-experiments/172-tyto-castanops/run212c_repair_reference_alpha_forensic.py /tmp/run212_qa_input_archive.zip /tmp/owl172_run212c_forensic_proof
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          p=Path('/tmp/owl172_run212c_forensic_proof')
+          j=json.loads((p/'run212c_report.json').read_text())
+          assert j['status']=='REFERENCE_ALPHA_FIXED_NO_3D'
+          assert j['restored_alpha_pixels']==1215,j
+          assert j['output_fixed_png_sha256']=='7216a7d311408eb0ccb4853397c0233a9da0c7af7881bf58595fef1112c09812',j
+          assert (p/'matte_BEFORE_AFTER_QA_UNAPPROVED.png').exists()
+          PY
+      - name: Retain verifiable forensic before-and-after images; do not release owl
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run212c-original-RGB-eye-matte-proof-NO_3D_NO_RELEASE
+          retention-days: 30
+          path: /tmp/owl172_run212c_forensic_proof/
+          if-no-files-found: error

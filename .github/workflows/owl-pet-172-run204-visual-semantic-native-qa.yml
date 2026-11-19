@@ -1,0 +1,265 @@
+name: owl172 Run204 public thumbnail visual triage and native GLB review NO_RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run204-visual-semantic-candidate-qa
+    paths:
+      - .github/workflows/owl-pet-172-run204-visual-semantic-native-qa.yml
+permissions:
+  contents: write
+jobs:
+  visual-owl-triage:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 26
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run204-visual-semantic-candidate-qa
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/README.md
+            owl-pet/AGENTS.md
+            owl-pet/prototype/index.html
+            owl-pet/research/species/172-tyto-castanops-v3.md
+            owl-pet/3d-experiments/172-tyto-castanops/known_rejected_asset_sha256_registry.json
+            owl-pet/3d-experiments/172-tyto-castanops/2026-11-19-run203d-independent-semantic-correction-NO_RELEASE.md
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run203c-OBJAVERSE-FREE-JUVENILE-NO_RELEASE/true_owl_word_candidates.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install free native preview/render tools
+        run: |
+          set -e
+          python -m pip install -q requests==2.32.3 pillow==12.0.0 numpy==2.2.6 trimesh==4.10.0 vtk==9.6.2
+          sudo apt-get update -qq >/dev/null 2>&1
+          sudo apt-get install -qq -y libegl1 libgl1 libosmesa6 >/dev/null 2>&1
+      - name: Real independent visual preview and native 3D experiment
+        shell: bash
+        timeout-minutes: 20
+        run: |
+          set -o pipefail
+          cat > /tmp/owl172run204.py <<'PY'
+          import concurrent.futures as cf,hashlib,io,json,os,re,requests,subprocess,sys,time,traceback
+          from pathlib import Path
+          from PIL import Image,ImageDraw
+          import numpy as np
+          R=Path("owl-pet/3d-experiments/172-tyto-castanops")
+          O=R/"research-evidence-run204-VISUAL-NATIVE-NO_RELEASE"
+          O.mkdir(exist_ok=True)
+          S={"run":"204","source":"Run203c title-word-corrected 241 candidate manifest",
+            "final_status":"IN_PROGRESS_NO_RELEASE","new_glb":0,"sevenviews":0,
+            "physical_phone_gpu":False,"art_approved":False,"release":False,"paid_services":False}
+          def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+          def dump(p,v):Path(p).write_text(json.dumps(v,indent=2,ensure_ascii=False)+"\n")
+          def preflight():
+            ps=["owl-pet/README.md","owl-pet/AGENTS.md","owl-pet/prototype/index.html",
+             "owl-pet/research/species/172-tyto-castanops-v3.md",
+             str(R/"known_rejected_asset_sha256_registry.json"),
+             str(R/"2026-11-19-run203d-independent-semantic-correction-NO_RELEASE.md"),
+             str(R/"research-evidence-run203c-OBJAVERSE-FREE-JUVENILE-NO_RELEASE/true_owl_word_candidates.json")]
+            chk={p:{"bytes":Path(p).stat().st_size,"sha256":sha(p)} for p in ps}
+            src=R/"research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png"
+            assert sha(src)=="5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9"
+            chk[str(src)]={"sha256":sha(src)}
+            dump(O/"preflight.json",chk)
+            reg=json.loads((R/"known_rejected_asset_sha256_registry.json").read_text())
+            known={a["sha256"].lower() for a in reg["known_rejected_source_glbs"]}
+            for a in reg["known_rejected_source_glbs"]:
+              known.update(x["sha256"].lower() for x in a.get("derived_rejected_lods",[]))
+            return known
+          def score_meta(h):
+            name=(h.get("name") or "").lower()
+            desc=(h.get("description") or "").lower()
+            if re.search(r"\b(skull|skeleton|bone|wing|pendant|necklace|keychain|clock|lamp|mug|ornament|mask|statue|bowl|chess|ship|brick|pot|car|coin|sign|badge|rock|papercraft|ghost town)\b",name):return -1000
+            if any(x in name for x in ["harry potter","pokemon","house","robot","lego","plush","artwork","totem"]):return -1000
+            score=0
+            score+=80 if re.search(r"\b(barn owl|masked owl|tyto)\b",name) else 0
+            score+=35 if re.search(r"\b(owl|owlet|owls|tyto)\b",name) else -100
+            score+=12 if re.search(r"\b(realistic|cute|bird|feather|snow|white|fluffy)\b",name+" "+desc) else 0
+            score+=min(12,int(h.get("textures") or 0)*2)
+            score+=min(12,int(h.get("triangles") or 0)//6000)
+            return score
+          def get_preview(h):
+            uid=h["uid"]; info={k:h.get(k) for k in ["uid","shard","name","description","license","triangles","size","publisher_url"]}
+            try:
+              r=requests.get("https://sketchfab.com/oembed",params={"url":"https://sketchfab.com/models/"+uid},
+                headers={"User-Agent":"Mozilla/5.0 owl172-nonpaid-visual-qa"},timeout=(10,24))
+              info["oembed_http"]=r.status_code
+              if r.status_code!=200:raise RuntimeError("oembed HTTP "+str(r.status_code))
+              j=r.json();url=j.get("thumbnail_url")
+              if not url:raise RuntimeError("no thumbnail_url")
+              info["thumbnail_url"]=url
+              t=requests.get(url,timeout=(10,25),headers={"User-Agent":"Mozilla/5.0 owl172-nonpaid-visual-qa"})
+              info["image_http"]=t.status_code
+              if t.status_code!=200 or len(t.content)<900:raise RuntimeError("preview not an image")
+              im=Image.open(io.BytesIO(t.content)).convert("RGB")
+              im.thumbnail((300,260))
+              im.save(O/("preview_"+uid+".jpg"),quality=82)
+              # Very weak visual triage; NOT art acceptance, not an ML classifier.
+              ar=np.asarray(im.resize((128,128)),dtype=np.float32)
+              center=ar[18:113,18:113]
+              nearcream=(center[:,:,0]>155)&(center[:,:,1]>148)&(center[:,:,2]>125)
+              light=(center.mean(2)>145)
+              contrast=np.std(center,axis=(0,1)).mean()
+              info["cream_fraction"]=round(float(np.mean(nearcream)),3)
+              info["light_fraction"]=round(float(np.mean(light)),3)
+              info["contrast"]=round(float(contrast),2)
+              info["heuristic_score"]=float(score_meta(h)) + 22*info["cream_fraction"] + min(8,contrast/8)
+            except Exception as e:info["error"]=repr(e)
+            return info
+          def render(path,uid):
+            import vtk
+            vtk.vtkObject.GlobalWarningDisplayOff()
+            out=O/("native_"+uid);out.mkdir(exist_ok=True)
+            win=vtk.vtkRenderWindow();win.SetOffScreenRendering(1);win.SetSize(480,480)
+            imp=vtk.vtkGLTFImporter();imp.SetFileName(str(path));imp.SetRenderWindow(win);imp.Update()
+            ren=win.GetRenderers().GetFirstRenderer()
+            if ren is None:raise RuntimeError("no renderer")
+            ren.SetBackground(.91,.90,.88)
+            bounds=ren.ComputeVisiblePropBounds()
+            c=np.array([(bounds[0]+bounds[1])/2,(bounds[2]+bounds[3])/2,(bounds[4]+bounds[5])/2])
+            d=max(bounds[1]-bounds[0],bounds[3]-bounds[2],bounds[5]-bounds[4])
+            if not (np.isfinite(d) and d>0):raise RuntimeError("invalid native geometry bounds")
+            views={"front":([0,0,1],[0,1,0]),"back":([0,0,-1],[0,1,0]),
+              "left":([-1,0,0],[0,1,0]),"right":([1,0,0],[0,1,0]),
+              "top":([0,1,0],[0,0,-1]),"bottom":([0,-1,0],[0,0,1]),
+              "quarter":([.7,.25,1],[0,1,0])}
+            ims=[]
+            for label,(v,up) in views.items():
+              v=np.array(v,dtype=float);v/=np.linalg.norm(v)
+              cam=ren.GetActiveCamera();cam.SetFocalPoint(*c);cam.SetPosition(*(c+2.25*d*v))
+              cam.SetViewUp(*up);cam.ParallelProjectionOn();cam.SetParallelScale(.72*d)
+              ren.ResetCameraClippingRange();win.Render()
+              flt=vtk.vtkWindowToImageFilter();flt.SetInput(win);flt.ReadFrontBufferOff();flt.Update()
+              p=out/(label+".png");w=vtk.vtkPNGWriter();w.SetFileName(str(p));w.SetInputConnection(flt.GetOutputPort());w.Write()
+              assert p.stat().st_size>900
+              ims.append((label,Image.open(p).convert("RGB").copy()))
+            contact=Image.new("RGB",(1920,1030),(243,243,243));draw=ImageDraw.Draw(contact)
+            for ix,(label,img) in enumerate(ims):
+              x=(ix%4)*480;y=(ix//4)*510
+              draw.text((x+12,y+7),label,fill=(12,12,12));contact.paste(img,(x,y+25))
+            contact.save(out/"contact.png")
+            (out/"WARNING.txt").write_text("Real GLB world-axis VTK render, NOT artist-anatomy-registered. Not art approval, no physical phone GPU.\n")
+          def acquire(h,known):
+            import trimesh
+            uid=h["uid"];result={"uid":uid,"name":h["name"],"new_asset":False,"art_approved":False}
+            if uid in ["19c989a6681145bc999c332699eb852e","48f0ccac1e5d4431ba9e03ad8ad0d589____"]:
+              result["skipped"]="prior adult source or impossible uid";return result
+            url=f"https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-{int(h['shard']):03d}/{uid}.glb"
+            result["source_url"]=url
+            try:
+              resp=requests.get(url,timeout=(15,90))
+              result["http"]=resp.status_code;result["bytes"]=len(resp.content)
+              if resp.status_code!=200 or resp.content[:4]!=b"glTF":raise RuntimeError("not true GLB")
+              key=hashlib.sha256(resp.content).hexdigest();result["sha256"]=key
+              if key in known:
+                result["skipped"]="exact known rejected SHA";return result
+              p=O/("quarantine_"+uid+".glb");p.write_bytes(resp.content)
+              model=trimesh.load(p,force="scene",process=False)
+              result["native_mesh_count"]=len(model.geometry)
+              result["native_triangles"]=sum(len(g.faces) for g in model.geometry.values() if hasattr(g,"faces"))
+              result["new_asset"]=True
+              env=dict(os.environ,VTK_DEFAULT_OPENGL_WINDOW="vtkOSOpenGLRenderWindow",LIBGL_ALWAYS_SOFTWARE="1")
+              child=subprocess.run([sys.executable,__file__,"--render",str(p),uid],
+                capture_output=True,text=True,timeout=170,env=env)
+              (O/("render_log_"+uid+".txt")).write_text(child.stdout+"\n"+child.stderr)
+              result["render_returncode"]=child.returncode
+              result["sevenviews"]=child.returncode==0 and (O/("native_"+uid)/"contact.png").exists()
+            except Exception as e:result["error"]=repr(e)
+            return result
+          def main():
+            if len(sys.argv)>1 and sys.argv[1]=="--render":
+              render(Path(sys.argv[2]),sys.argv[3]);return
+            try:
+              known=preflight()
+              candidates=json.loads((R/"research-evidence-run203c-OBJAVERSE-FREE-JUVENILE-NO_RELEASE/true_owl_word_candidates.json").read_text())
+              assert len(candidates)==241
+              xs=sorted((c for c in candidates if score_meta(c)>=20),
+                key=lambda c:(score_meta(c),int(c.get("triangles") or 0)),reverse=True)
+              chosen=xs[:65]
+              S["filtered_candidate_count"]=len(xs);S["preview_attempt_count"]=len(chosen)
+              print("PREVIEW begin",len(chosen),"of",len(candidates),flush=True)
+              with cf.ThreadPoolExecutor(max_workers=5) as pool:
+                probes=list(pool.map(get_preview,chosen))
+              S["preview_success"]=sum("thumbnail_url" in x and "error" not in x for x in probes)
+              S["preview_errors"]=len(probes)-S["preview_success"]
+              print("PREVIEW successful",S["preview_success"],"errors",S["preview_errors"],flush=True)
+              ranked=sorted((x for x in probes if "heuristic_score" in x),
+                key=lambda v:v["heuristic_score"],reverse=True)
+              dump(O/"preview_probes.json",probes)
+              contact=Image.new("RGB",(1800,((min(30,len(ranked))+4)//5)*300),(243,243,242))
+              draw=ImageDraw.Draw(contact)
+              for ix,q in enumerate(ranked[:30]):
+                thumb=Image.open(O/("preview_"+q["uid"]+".jpg")).convert("RGB");thumb.thumbnail((330,250))
+                x=(ix%5)*360;y=(ix//5)*300
+                contact.paste(thumb,(x,y+20))
+                draw.text((x+8,y+3),str(ix+1)+" "+q["name"][:35],fill=(12,12,12))
+                draw.text((x+8,y+275),"score "+str(round(q["heuristic_score"],1))+" / "+q["uid"][:8],fill=(24,24,24))
+              contact.save(O/"visual_preview_contact.jpg",quality=87)
+              S["top_preview_names"]=[q["name"] for q in ranked[:12]]
+              # Search two distinct visually cream/bright but genuine higher-detail artists.
+              # This heuristic is NOT an art classifier; further human review mandatory.
+              ids={q["uid"] for q in ranked[:15]}
+              trial_candidates=[h for h in xs if h["uid"] in ids and 1500<=int(h.get("triangles") or 0)<=160000 and int(h.get("size") or 0)<25000000]
+              trial_candidates.sort(key=lambda h: next(q["heuristic_score"] for q in ranked if q["uid"]==h["uid"]),reverse=True)
+              trials=[]
+              for h in trial_candidates[:2]:
+                r=acquire(h,known);trials.append(r)
+                print("NATIVE",r,flush=True)
+              dump(O/"native_trials.json",trials)
+              S["new_glb"]=sum(r.get("new_asset",False) for r in trials)
+              S["sevenviews"]=sum(r.get("sevenviews",False) for r in trials)
+              S["final_status"]="NATIVE_ART_UNREVIEWED_NO_RELEASE" if S["new_glb"] else "NO_NEW_NATIVE_ASSET_NO_RELEASE"
+            except Exception as e:
+              S["final_status"]="REAL_TRIAL_ERROR_NO_RELEASE";S["error"]=repr(e)
+              (O/"failure_trace.txt").write_text(traceback.format_exc())
+            finally:
+              dump(O/"status.json",S)
+              lines=["# Run204 — independent free owl preview visual-semantic triage / NO_RELEASE","",
+                "This run re-read README/AGENTS, existing WebGL prototype, v3 age-unknown mesoptile bounds, Run203d semantic correction, canonical source image and negative SHA registry. Prior Run203 scanned 798,759 records; Run204 uses its *actual corrected* 241-record list, avoiding repeated broad metadata download.",
+                "Actual preview requests: "+str(S.get("preview_attempt_count",0))+
+                 "; success: "+str(S.get("preview_success",0))+"; failures: "+str(S.get("preview_errors",0))+
+                 "; screened real owl titles: "+str(S.get("filtered_candidate_count",0))+".",
+                "Top visual references (unreviewed): "+repr(S.get("top_preview_names",[])),
+                "Actual native GLB attempts: "+str(S["new_glb"])+
+                 "; successful independent native seven-views: "+str(S["sevenviews"])+".",
+                "Note: thumbnail-color/richness ranking is a *weak discovery heuristic*, not verified juvenile recognition; world-axis VTK renders are not anatomy-calibrated. No output passes full cream second-down, integrated heart mask, hidden juvenile wings/tail, supported eucalypt hollow and physical phone WebGL gates without a separate human art review. No use of commercial assets without verified rights, no payment, no main/251-species/prototype/deploy change. Original GLBs and third-party previews quarantined to expiring Actions artifact; text/hash evidence only committed.",
+                "**Final status: "+S["final_status"]+" / NO_RELEASE / NO_NOTIFICATION.**"]
+              (R/"2026-11-19-run204-public-preview-native-triage-NO_RELEASE.md").write_text("\n\n".join(lines)+"\n")
+              manifest={}
+              for f in O.rglob("*"):
+                if f.is_file() and f.name!="manifest.json":
+                  manifest[str(f.relative_to(O))]={"sha256":sha(f),"bytes":f.stat().st_size}
+              dump(O/"manifest.json",manifest)
+              assert all(sha(O/k)==v["sha256"] for k,v in manifest.items())
+              print("DONE",S["final_status"],"evidence",len(manifest),flush=True)
+          if __name__=="__main__":main()
+          PY
+          python -u /tmp/owl172run204.py 2>&1 | tee /tmp/owl172run204.log
+          cp /tmp/owl172run204.log owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run204-VISUAL-NATIVE-NO_RELEASE/console.log
+      - name: Archive full real GLBs, thumbnails, native views and checksums only in isolated artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run204-original-public-preview-and-native-7view-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run204-VISUAL-NATIVE-NO_RELEASE/
+          retention-days: 14
+      - name: Commit only scoped text audit
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run204-VISUAL-NATIVE-NO_RELEASE"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          test ! -f "$R/2026-11-19-run204-public-preview-native-triage-NO_RELEASE.md" || git add --sparse "$R/2026-11-19-run204-public-preview-native-triage-NO_RELEASE.md"
+          find "$O" -maxdepth 1 -type f \( -name '*.json' -o -name '*.txt' -o -name '*.log' \) -print0 | xargs -0 -r git add --sparse --
+          git diff --cached --name-only >/tmp/run204files
+          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/' /tmp/run204files; then exit 91; fi
+          if grep -Ei '\.(glb|png|jpg|jpeg|fbx|blend|zip|webp)$' /tmp/run204files; then exit 92; fi
+          if test -s /tmp/run204files; then
+            git commit -m "research(owl172): Run204 visual-native source evidence NO_RELEASE"
+            git push origin HEAD:research/owl172-run204-visual-semantic-candidate-qa
+          fi

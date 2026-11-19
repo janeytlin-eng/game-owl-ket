@@ -1,0 +1,31 @@
+name: '#172 Run217 zero-charge GroomLab native-groom tool qualification'
+on:
+  push:
+    branches:
+      - research/owl172-run217-free-groomlab-native-tool-qualification-no-release
+    paths:
+      - '.github/workflows/owl172-run217-groomlab-native-free-tool-qa.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run217_free_groomlab_cli_probe.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  actual-native-groom-tool-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install only free native build dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends cmake ninja-build libtbb-dev build-essential
+      - name: Execute actual isolated GroomLab CLI clone configure build and inspection
+        run: python3 owl-pet/3d-experiments/172-tyto-castanops/run217_free_groomlab_cli_probe.py
+      - name: Archive exact diagnostics irrespective of success
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run217-free-groomlab-qualification-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/run217-evidence/
+          if-no-files-found: warn
+          retention-days: 30

@@ -11,8 +11,19 @@ Actual result JSON:
   "source_page": "https://www.innerscene.com/tools/library/3d-parts/owl-d696472a",
   "src": "https://www.innerscene.com/api/library/owl-d696472a/download",
   "paid_usd": 0,
-  "reference_image_available": false,
-  "timestamp_utc": "2026-11-19T09:01:50.429502+00:00",
+  "reference_image_available": true,
+  "timestamp_utc": "2026-11-19T09:07:55.460031+00:00",
+  "reference_plate_blob_sha256": "881dec86e0e66ab2ad0781db86a3b719b35e710d2be1a1606d761a9d0908483d",
+  "reference_plate_dimensions": [
+    1536,
+    1024
+  ],
+  "reference_crop_xyxy": [
+    950,
+    255,
+    1440,
+    850
+  ],
   "http": 200,
   "resolved_url": "https://files.innerscene.com/library/owl-d696472a/8ecea479b865c7141318/owl.glb",
   "type": "application/octet-stream",
@@ -172,4 +183,4 @@ Actual result JSON:
   "art_decision": "NOT ACCEPTED: strict mesoptile morphology, true quality, side/back and mobile still need independent human inspection"
 }
 
-Raw source binary, seven native camera images when successful, and hashes are in short-retention workflow artifacts, NOT production. The rightmost original plate crop was not accessible here; source style/morphology cannot be deemed conformant by automated GLB structure. No smartphone/GPU acceptance, no extra paid service, no production changes.
+Raw source binary, seven native camera images when successful, and hashes are in short-retention workflow artifacts, NOT production. The rightmost existing v3 plate/crop is SHA256 verified and included as a distinct reference tile where available; source style/morphology cannot be deemed conformant by automated GLB structure. No smartphone/GPU acceptance, no extra paid service, no production changes.

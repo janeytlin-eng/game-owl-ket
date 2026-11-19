@@ -4,7 +4,7 @@
   "input_path": "owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png",
   "reference_sha256_expected": "5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9",
   "reference_sha256_actual": "5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9",
-  "source_upload": false,
+  "source_upload": "ATTEMPTED_VIA_PUBLIC_GRADIO_CLIENT_UNCONFIRMED",
   "public_app_config_http": 200,
   "public_app_config_api": [
     {
@@ -183,18 +183,18 @@
   "events": [
     {
       "step": "source_integrity_confirmed",
-      "time_utc": "2026-11-19T00:22:26.284816+00:00",
+      "time_utc": "2026-11-19T00:30:04.184441+00:00",
       "sha256": "5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9"
     },
     {
       "step": "public_config_request",
-      "time_utc": "2026-11-19T00:22:26.683554+00:00",
+      "time_utc": "2026-11-19T00:30:04.288986+00:00",
       "http_status": 200,
       "content_type": "application/json"
     },
     {
       "step": "public_endpoints_discovered",
-      "time_utc": "2026-11-19T00:22:27.902940+00:00",
+      "time_utc": "2026-11-19T00:30:06.098811+00:00",
       "endpoints": [
         "/end_session",
         "/extract_gaussian",
@@ -220,16 +220,16 @@
     },
     {
       "step": "submitting_original_image_to_public_zero_gpu",
-      "time_utc": "2026-11-19T00:22:27.903800+00:00",
+      "time_utc": "2026-11-19T00:30:06.099615+00:00",
       "endpoint": "/image_to_3d"
     },
     {
       "step": "actual_inference_job_submitted",
-      "time_utc": "2026-11-19T00:22:27.904834+00:00",
+      "time_utc": "2026-11-19T00:30:06.100817+00:00",
       "endpoint": "/image_to_3d"
     }
   ],
   "errors": [
-    "inference: AppError(\"Value: 12 (type: <class 'int'>) is not in the list of choices: ['stochastic', 'multidiffusion']\")"
+    "inference: AppError('FileNotFoundError')"
   ]
 }

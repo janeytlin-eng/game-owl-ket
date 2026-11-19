@@ -1,0 +1,72 @@
+{
+  "name": "get_graph",
+  "arguments": {
+    "groom": "museum_adult_down_b"
+  },
+  "duration_s": 0.0,
+  "result": {
+    "groom": "museum_adult_down_b",
+    "nodes": [
+      {
+        "name": "scalp",
+        "type": "Scalp"
+      },
+      {
+        "name": "guides",
+        "type": "Guides"
+      },
+      {
+        "inputs": {
+          "scalp": "scalp"
+        },
+        "name": "shafts",
+        "params": {
+          "density": 0.02525351173617232,
+          "follicleRadius": 0.8442583465576171,
+          "length": 16.885166931152344,
+          "previewAll": true,
+          "seed": 11
+        },
+        "type": "Scatter"
+      },
+      {
+        "inputs": {
+          "guides": "guides",
+          "scalp": "scalp",
+          "strands": "shafts"
+        },
+        "name": "shaftShapes",
+        "params": {
+          "curlLength": 112.56777954101562
+        },
+        "type": "Interpolate"
+      },
+      {
+        "definition": {
+          "nodes": [
+            "shafts (Input)",
+            "short (Length)",
+            "propagate (Propagate)",
+            "fluff (Curl)",
+            "frizzNoise (Noise)",
+            "width (Width)"
+          ]
+        },
+        "inputs": {
+          "shafts": "shaftShapes"
+        },
+        "name": "downFeather",
+        "type": "Compound"
+      },
+      {
+        "inputs": {
+          "strands": "downFeather"
+        },
+        "name": "output",
+        "type": "Output"
+      }
+    ],
+    "note": "params lists only values that differ from the node's defaults (describe_node shows them all).",
+    "output": "output"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "evaluate",
+  "arguments": {
+    "groom": "museum_adult_down_b",
+    "density": 0.065
+  },
+  "duration_s": 0.02,
+  "result": {
+    "bounds": {
+      "max": [
+        19.2459,
+        34.757,
+        26.5657
+      ],
+      "min": [
+        -22.3632,
+        -35.3724,
+        -17.8962
+      ]
+    },
+    "density": 0.06499999761581421,
+    "errors": [],
+    "frame": 1.0,
+    "groom": "museum_adult_down_b",
+    "guides": 0,
+    "ms": 18,
+    "nodeMs": {
+      "downFeather": 17.6,
+      "downFeather/fluff": 11.4,
+      "downFeather/frizzNoise": 2.8,
+      "downFeather/propagate": 1.2,
+      "downFeather/short": 0.1,
+      "downFeather/width": 2.1,
+      "guides": 0.0,
+      "output": 0.0,
+      "scalp": 0.0,
+      "shaftShapes": 0.0,
+      "shafts": 0.1
+    },
+    "notes": {
+      "downFeather": "fluff: added points to 2731 strands too few a turn for the tolerance (more Resample segments keep the GPU preview)",
+      "downFeather/fluff": "added points to 2731 strands too few a turn for the tolerance (more Resample segments keep the GPU preview)",
+      "shaftShapes": "no guides: place some with the guide tools; the strands keep their incoming shape"
+    },
+    "points": 51198,
+    "strands": 2958
+  }
+}

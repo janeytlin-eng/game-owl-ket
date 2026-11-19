@@ -1,0 +1,58 @@
+{
+  "name": "new_groom",
+  "arguments": {
+    "name": "museum_adult_down_a",
+    "mesh": "museum_adult_largest_original_scan_mesh_SCALP_ONLY.obj",
+    "preset": "feathers_down"
+  },
+  "duration_s": 0.1,
+  "result": {
+    "groom": "museum_adult_down_a",
+    "mesh": "museum_adult_largest_original_scan_mesh_SCALP_ONLY.obj",
+    "preset": {
+      "mode": "replace",
+      "preset": "feathers_down",
+      "title": "Down feathers"
+    },
+    "scalp": {
+      "max": [
+        21.5045,
+        28.1419,
+        22.9354
+      ],
+      "min": [
+        -21.5045,
+        -28.1419,
+        -22.9354
+      ],
+      "points": 10400,
+      "triangles": 9096,
+      "units": "cm",
+      "upAxis": "Y"
+    },
+    "summary": {
+      "bounds": {
+        "max": [
+          19.2459,
+          34.757,
+          26.5657
+        ],
+        "min": [
+          -22.3632,
+          -35.3724,
+          -17.8962
+        ]
+      },
+      "errors": [],
+      "guides": 0,
+      "ms": 20,
+      "notes": {
+        "downFeather": "fluff: added points to 2731 strands too few a turn for the tolerance (more Resample segments keep the GPU preview)",
+        "downFeather/fluff": "added points to 2731 strands too few a turn for the tolerance (more Resample segments keep the GPU preview)",
+        "shaftShapes": "no guides: place some with the guide tools; the strands keep their incoming shape"
+      },
+      "points": 51198,
+      "strands": 2958
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "run": "202b",
+  "date_utc": "2026-11-19T01:19:28.629859+00:00",
+  "source": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-081/19c989a6681145bc999c332699eb852e.glb",
+  "publisher": "Innovation Studio / Common Barn Owl / Sketchfab UID 19c989a6681145bc999c332699eb852e",
+  "license_claim": "CC BY 4.0 as registered in independent PhenoVoxel Archive model-assets.json and source licensing table; independently confirm before any distribution",
+  "target": "Tyto castanops v3 AGE-UNKNOWN MESOPTILE RIGHTMOST CREAM SECOND DOWN",
+  "expected_sha256": "29531600a1f221f6fbb8dded12cee4ceea4251b28bd678c494d947dc4c3fc3aa",
+  "source_http": 200,
+  "new_native_glb": true,
+  "sevenview": true,
+  "physical_phone_gpu": false,
+  "art_approved": false,
+  "final_status": "REAL_ADULT_TYTO_ARTIST_GLB_QUARANTINED_NO_JUVENILE_ART_QA_NO_RELEASE",
+  "errors": [],
+  "events": [
+    "preflight owl-pet/README.md 4b086ed6e083015b5673c53759562f5cf0eac7919f29612191ed976e7d4187e6",
+    "preflight owl-pet/AGENTS.md 2f0f1b1f1aa64f222eeb9008d5b753f6b1fa7e70e5083b14d5f866f2a0ee1be6",
+    "preflight owl-pet/prototype/index.html 4ac543b1e9d990240947d895533270fb4629e3557a85f7757fd857a855b4161d",
+    "preflight owl-pet/research/species/172-tyto-castanops-v3.md 5656def2c943a527753018ac7efa03a6ee58408491c7e1f319b2e7e44872022f",
+    "preflight owl-pet/3d-experiments/172-tyto-castanops/known_rejected_asset_sha256_registry.json 22a6affe01126718d812eda06152b889f5fe1d898f056f07ba4a15727af7457b",
+    "preflight owl-pet/3d-experiments/172-tyto-castanops/2026-11-19-run201d-hf-zerogpu-quota-original-source-correction-NO_RELEASE.md d99f085f98af2a0c7474636b3484215c8c5f718054239581116f541591e50bd4",
+    "download HTTP 200 len=1690152 mime=model/gltf-binary",
+    "TRIMESH_IMPORTED {\"meshes\": 1, \"vertices\": 25998, \"faces\": 29314, \"material_count\": 1, \"bounds\": [[-0.08673968483954417, -0.07980734051604113, -0.12033176749117615], [0.10493149541251338, 0.2951212443386295, 0.0979718494928019]], \"scaling\": 0.4743055494811652}",
+    "rendered front size=74436",
+    "rendered right size=74520",
+    "rendered back size=59263",
+    "rendered left size=68543",
+    "rendered top size=43040",
+    "rendered bottom size=44189",
+    "rendered quarter size=74877",
+    "native sevenview True"
+  ],
+  "reference_sha256": "5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9",
+  "license_record": {
+    "publisher": "Innovation Studio",
+    "work": "Common Barn Owl",
+    "source": "https://sketchfab.com/3d-models/common-barn-owl-19c989a6681145bc999c332699eb852e",
+    "secondary_documentation": "https://github.com/canopico-world/PhenoVoxel-Archive/blob/main/ASSET-LICENSES.md",
+    "license": "CC BY 4.0 per secondary archive; original source rights not independently revalidated"
+  },
+  "resolved_host": "us.aws.cdn.hf.co",
+  "response_mime": "model/gltf-binary",
+  "response_bytes": 1690152,
+  "native_sha256": "29531600a1f221f6fbb8dded12cee4ceea4251b28bd678c494d947dc4c3fc3aa",
+  "native_bytes": 1690152,
+  "geometry": {
+    "meshes": 1,
+    "vertices": 25998,
+    "faces": 29314,
+    "material_count": 1,
+    "bounds": [
+      [
+        -0.08673968483954417,
+        -0.07980734051604113,
+        -0.12033176749117615
+      ],
+      [
+        0.10493149541251338,
+        0.2951212443386295,
+        0.0979718494928019
+      ]
+    ],
+    "scaling": 0.4743055494811652
+  },
+  "vtk_actors": 1
+}

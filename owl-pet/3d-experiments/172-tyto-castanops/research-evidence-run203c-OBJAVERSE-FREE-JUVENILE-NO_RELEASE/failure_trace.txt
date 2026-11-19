@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/tmp/owl172run203c.py", line 182, in <module>
+    try:main()
+        ^^^^^^
+  File "/tmp/owl172run203c.py", line 166, in main
+    S["metadata_errors"]=sum("error" in x for x in rows)
+                                                   ^^^^
+NameError: name 'rows' is not defined

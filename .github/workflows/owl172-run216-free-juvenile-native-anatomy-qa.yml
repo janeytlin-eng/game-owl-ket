@@ -1,0 +1,54 @@
+name: Owl172 Run216 free 3D juvenile source anatomy audit NO_RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run216-free-rigged-juvenile-native-geometry-audit
+    paths:
+      - '.github/workflows/owl172-run216-free-juvenile-native-anatomy-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  native_free_juvenile_feasibility:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install real GLB importer and offline 3D renderer
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y xvfb libgl1-mesa-dri libgl1
+          python -m pip install -q trimesh pillow numpy vtk
+      - name: Real free published GLB retrieval, glTF rig inspection and seven-view visual comparison
+        run: xvfb-run -a python owl-pet/3d-experiments/172-tyto-castanops/run216_free_juvenile_base_native_eval.py
+      - name: Research evidence only never production or user release
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run216-native-juvenile-base-source-ART_REJECTED-NO_RELEASE
+          retention-days: 30
+          if-no-files-found: warn
+          path: owl-pet/3d-experiments/172-tyto-castanops/run216-evidence/
+      - name: Persist audit data and independently viewable screenshot in isolated research branch
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          dir=owl-pet/3d-experiments/172-tyto-castanops/run216-evidence
+          test -f "$dir/run216_report.json" || exit 0
+          git config user.name "owl172-research-bot"
+          git config user.email "owl172-research-bot@users.noreply.github.com"
+          git add "$dir/run216_report.json" "$dir/run216_report.md"
+          if test -f "$dir/Run216_seven_native_views_vs_target_ART_REJECTED.png"; then
+            git add "$dir/Run216_seven_native_views_vs_target_ART_REJECTED.png"
+          fi
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "research(owl172): Run216 actual native source GLB anatomy result ART_REJECTED NO_RELEASE"
+          git fetch origin "\${{ github.ref_name }}"
+          git rebase "origin/\${{ github.ref_name }}"
+          git push origin "HEAD:\${{ github.ref_name }}"

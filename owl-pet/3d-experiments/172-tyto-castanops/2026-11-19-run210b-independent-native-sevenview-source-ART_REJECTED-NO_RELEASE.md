@@ -1,0 +1,28 @@
+# Run210b — independent actual GLB seven-view/source-reference audit — ART_REJECTED / NO_RELEASE
+
+**2026-11-19 · #172 Tyto castanops v3 · rightmost cream down mesoptile.** Zero additional paid spend. No changes to production.
+
+## Preflight
+Read owl-pet/AGENTS.md, owl-pet/README.md, owl-pet/STATUS.md, owl-pet/research/species/172-tyto-castanops-v3.md, the existing unsatisfactory cat-only owl-pet/prototype/index.html, and Run208/Run209 reject/technical results. The target is *not* an arbitrary adult owl: it must have actual sculpted cream second down, naturally integrated heart-shaped Tyto disc, dark eyes, compact down-buried wings, concealed tail, squat juvenile silhouette and full tree-hollow support. Exact age unknown; science=false. The 251-species workflow is untouched.
+
+## New asset source actually obtained
+- Publisher page: https://www.innerscene.com/tools/library/3d-parts/owl-d696472a (states CC0/public-domain, catalog date 2026-10-21). Source is a generic *Owl* rather than a documented castanops juvenile. License claim attributed to publisher, not independently authenticated original authorship.
+- Actual download via an isolated GitHub Actions job: HTTP **200** from https://www.innerscene.com/api/library/owl-d696472a/download (redirected to files.innerscene.com) with native `glTF` magic, **20,671,040 bytes**, original GLB SHA256 **c11c94db20065c6c6f252e768e8c748f22dc69ef9b4e7199110b96de0625c12e**.
+- Independent Trimesh import: **129 mesh geometries, 38,545 vertices, 62,592 triangles**, texture-type materials. VTK native GLTF importer created **129 visible actors**, then generated **seven distinct spatial camera PNGs** (positive/negative X, Y, Z, quarter). These labels describe geometric axes, not assumed animal orientation.
+- Initial Run210 executed model download, import and 7 renders but did not include the target crop in the review sheet. Run210b then actually re-executed with checkout reference plate `owl-pet/design/concepts/172-tyto-castanops-v3.png`, 1536×1024, computed original plate SHA256 **881dec86e0e66ab2ad0781db86a3b719b35e710d2be1a1606d761a9d0908483d**, and extracted rightmost young crop XYXY **(950,255,1440,850)**. This corrects the earlier run's missing-reference limitation; no claim of photographic or anatomical science validation.
+- Run210b rendered seven native views again and committed a **real image comparison** to the isolated research branch at [seven-view and exact v3 young reference](2026-11-19-run210-source-sevenview-reference-UNAPPROVED.png). The GLB is not a canvas picture, SVG or parametric geometry substitution. Original GLB, 7 native camera PNGs and hash manifest were uploaded to a 30-day Actions artifact (not GitHub permanent binary archive). Reproducible source code is [run210_innerscene_cc0_source_probe.py](run210_innerscene_cc0_source_probe.py).
+
+## Actual human visual comparison (not automated quality promotion)
+**Explicitly ART_REJECTED.** I opened the original v3 plate and the native seven-view montage side by side. The source owl is dark brown/grey, tall and narrow, with **prominent ear tufts**, yellow round irises, a small dark forward hooked bill, flat pale oval chest patch, visually narrow round head, long layered adult wing feathers and a large fanned tail. Its legs/feet stand unsupported on an invisible ground. Its front has **no heart-shaped Tyto facial disc**, and its back is a generic dense scaly patterned cylinder with adult feathers. Side, rear and axial views genuinely exist but expose an entirely different age and owl body plan. In the target crop, the young is a squat cream fluffy chick with a broad integrated heart mask, dark eyes, extremely short down-veiled wings, hidden tail, and both feet on the wide tree-hollow lip.
+
+The visual gap is morphological, not merely palette or a renderer-lighting issue. Simple recoloring, removing ear tufts or pasting the concept crop on front cannot solve head mass, juvenile wing, plume, beak, eye surround, rear down, feet support and consistent volume. Innerscene CC0 asset **must not be promoted** as `#172` juvenile or confused with a valid premium 3D electronic pet. No additional geometry modification was performed: this is a **new real-source asset suitability experiment**, not a completed v3 model.
+
+## Technical and archive boundary
+Native GLB import and VTK seven-view software rendering **passed**; genuine mobile WebGL2 hardware tests, animation, rigging, final normal/PBR groom and phone performance **not run**. 20.7 MB input and 62,592 triangles do not themselves establish a mobile-ready model.
+
+The repeatable probe and source-page license reference plus the seven-view proof PNG are held in this new research branch. The source binary resides only in a temporary 30-day GitHub Actions artifact; do not claim permanent GLB preservation. The original exact SHA256 above is entered as a refusal fingerprint to prevent endless retry of this inappropriate adult/eared model.
+
+**Decision: SOURCE_REAL_GLTF_AND_NATIVE_7VIEW_PASS / ART_REJECTED / NO_MOBILE_GPU_GATE / NO_RELEASE / NO_NOTIFICATION.** Continue looking for legitimately usable high-quality *young Tyto* geometry with truly natural cream mesoptile and consistent rear/side anatomy; do not patch this species-incompatible source.
+
+## Strict isolation
+Both Run210 and Run210b are isolated research branches based on the verified Run209 research history. The only writes are new #172 experiment source/audit/preview artifacts and independent GitHub Actions workflow files. No changes to main, 251-species production, design manifests, existing cat prototype or deployment. Cost: **USD 0**.

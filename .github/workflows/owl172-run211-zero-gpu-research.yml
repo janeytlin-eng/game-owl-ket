@@ -1,0 +1,54 @@
+name: Owl172 Run211 isolated zero-cost TRELLIS.2 research
+on:
+  push:
+    branches:
+      - research/owl172-run211-hf-trellis2-zero-gpu-evaluation
+    paths:
+      - '.github/workflows/owl172-run211-zero-gpu-research.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run211_hf_zero_gpu_trellis2_probe.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  source_reconstruction_trial:
+    name: Official public ZeroGPU native GLB trial / NO_RELEASE
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install free CPU parsing and GLTF audit dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y xvfb libgl1-mesa-dri libgl1
+          python -m pip install -q --upgrade pip
+          python -m pip install -q gradio_client opencv-python-headless pillow numpy trimesh vtk
+      - name: Execute one public ZeroGPU generation attempt and preserve strict negative outcomes
+        run: |
+          xvfb-run -a python owl-pet/3d-experiments/172-tyto-castanops/run211_hf_zero_gpu_trellis2_probe.py
+      - name: Archive immutable experiment inputs, error trace and unapproved binary if produced
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run211-source-zero-gpu-evidence-NO_RELEASE
+          retention-days: 30
+          if-no-files-found: warn
+          path: owl-pet/3d-experiments/172-tyto-castanops/run211-evidence/
+      - name: Commit text report only to isolated research branch, never main or production
+        if: always()
+        shell: bash
+        run: |
+          set -eu
+          dir=owl-pet/3d-experiments/172-tyto-castanops/run211-evidence
+          test -f "$dir/run211_report.json" || exit 0
+          git config user.name "owl172-research-bot"
+          git config user.email "owl172-research-bot@users.noreply.github.com"
+          git add "$dir/run211_report.json" "$dir/run211_report.md"
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "research(owl172): Run211 official zero GPU execution report NO_RELEASE"
+          git push origin "HEAD:${{ github.ref_name }}"

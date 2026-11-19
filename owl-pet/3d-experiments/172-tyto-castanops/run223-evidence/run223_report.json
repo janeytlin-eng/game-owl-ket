@@ -1,6 +1,6 @@
 {
   "run": 223,
-  "started_utc": "2026-11-19T18:28:48.370432+00:00",
+  "started_utc": "2026-11-19T18:35:47.011404+00:00",
   "target": "#172 Tyto castanops v3 rightmost cream, age-unknown mesoptile",
   "goal": "Find an authentic existing CC0 photo-scanned Tyto base; test REAL GLB if licensed and accessible",
   "preceding_run": "Run222 rejected mechanical adult barn owl, 14 native views",
@@ -12,21 +12,21 @@
   "production_modified": false,
   "sources": [
     {
-      "url": "https://zenodo.org/api/records?q=0e65de5934db4f0eae02835ba7227dcc&size=30",
-      "http": 400,
-      "bytes": 207,
+      "url": "https://zenodo.org/api/records?q=0e65de5934db4f0eae02835ba7227dcc&size=20",
+      "http": 200,
+      "bytes": 458,
       "content_type": "application/json"
     },
     {
-      "url": "https://zenodo.org/api/records?q=%22Barn+owl%22&size=30",
-      "http": 400,
-      "bytes": 207,
+      "url": "https://zenodo.org/api/records?q=%22Barn+owl%22&size=20",
+      "http": 200,
+      "bytes": 143889,
       "content_type": "application/json"
     },
     {
-      "url": "https://zenodo.org/api/records?q=%22Tyto+alba%22&size=30",
-      "http": 400,
-      "bytes": 207,
+      "url": "https://zenodo.org/api/records?q=%22Tyto+alba%22&size=20",
+      "http": 200,
+      "bytes": 140500,
       "content_type": "application/json"
     },
     {
@@ -48,21 +48,438 @@
       "main_production": "UNCHANGED (176/251 at main snapshot)"
     },
     "zenodo_0e65de5934db4f0eae02835ba7227dcc": {
-      "error": "HTTPError('400 Client Error: BAD REQUEST for url: https://zenodo.org/api/records?q=0e65de5934db4f0eae02835ba7227dcc&size=30')"
+      "returned": 0,
+      "total": 0
     },
     "zenodo_\"Barn owl\"": {
-      "error": "HTTPError('400 Client Error: BAD REQUEST for url: https://zenodo.org/api/records?q=%22Barn+owl%22&size=30')"
+      "returned": 20,
+      "total": 414
     },
     "zenodo_\"Tyto alba\"": {
-      "error": "HTTPError('400 Client Error: BAD REQUEST for url: https://zenodo.org/api/records?q=%22Tyto+alba%22&size=30')"
+      "returned": 20,
+      "total": 418
     },
     "smithsonian_parquet_files": 12,
+    "smithsonian_size_cap_reached": 189630086,
     "smithsonian": {
-      "error": "RuntimeError('metadata cap 60MB reached')"
-    }
+      "rows_checked": 1500,
+      "metadata_bytes": 189630086,
+      "owl_matches": 0,
+      "matches": [],
+      "scan_only": "Does not imply juvenile or body scan availability"
+    },
+    "smithsonian_exact_model_candidates": []
   },
   "files": {},
-  "candidates": [],
-  "status": "NO_ACCESSIBLE_ARCHIVED_CC0_TYTO_GLB_IDENTIFIED_NO_RELEASE",
-  "finished_utc": "2026-11-19T18:28:50.315731+00:00"
+  "candidates": [
+    {
+      "source": "Zenodo Objaverse archival mirror",
+      "record_id": 968590,
+      "title": "Figure 1 from: Colihueque N, Gantz A, Rau JR, Parraguez M (2015) Genetic divergence analysis of the Common Barn Owl Tyto alba (Scopoli, 1769) and the Short-eared Owl Asio flammeus (Pontoppidan, 1763) from southern Chile using COI sequence. ZooKeys 534: 135-146. https://doi.org/10.3897/zookeys.534.5953",
+      "license": "cc-by-4.0",
+      "matched_uid": false,
+      "museum": false,
+      "glbs": [],
+      "url": null
+    },
+    {
+      "source": "Zenodo Objaverse archival mirror",
+      "record_id": 13446661,
+      "title": "Barn Owl (Tyto alba) Predation on Big Brown Bats (Eptesicus fuscus) in Pennsylvania",
+      "license": "{}",
+      "matched_uid": false,
+      "museum": false,
+      "glbs": [],
+      "url": null
+    },
+    {
+      "source": "Zenodo Objaverse archival mirror",
+      "record_id": 10400013,
+      "title": "Conserving Owl for Eco-friendly Rodent Management",
+      "license": "cc-by-4.0",
+      "matched_uid": false,
+      "museum": false,
+      "glbs": [],
+      "url": null
+    },
+    {
+      "source": "Zenodo Objaverse archival mirror",
+      "record_id": 4995321,
+      "title": "Data from: Baseline and stress-induced corticosterone levels are heritable and genetically correlated in a barn owl population",
+      "license": "cc-zero",
+      "matched_uid": false,
+      "museum": false,
+      "glbs": [],
+      "url": null
+    },
+    {
+      "source": "Zenodo Objaverse archival mirror",
+      "record_id": 21379215,
+      "title": "Barn owl",
+      "license": "cc-zero",
+      "matched_uid": false,
+      "museum": true,
+      "glbs": [
+        {
+          "name": "0e65de5934db4f0eae02835ba7227dcc_normalized_optimized.glb",
+          "url": "https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc_normalized_optimized.glb/content",
+          "size": 5603344
+        },
+        {
+          "name": "0e65de5934db4f0eae02835ba7227dcc_normalized-0.500.glb",
+          "url": "https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc_normalized-0.500.glb/content",
+          "size": 2067940
+        },
+        {
+          "name": "0e65de5934db4f0eae02835ba7227dcc_normalized_optimized-0.250.glb",
+          "url": "https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc_normalized_optimized-0.250.glb/content",
+          "size": 2185576
+        },
+        {
+          "name": "0e65de5934db4f0eae02835ba7227dcc.glb",
+          "url": "https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc.glb/content",
+          "size": 43225496
+        },
+        {
+          "name": "0e65de5934db4f0eae02835ba7227dcc_normalized-0.100.glb",
+          "url": "https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc_normalized-0.100.glb/content",
+          "size": 1634244
+        },
+        {
+          "name": "0e65de5934db4f0eae02835ba7227dcc_normalized_compressed.glb",
+          "url": "https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc_normalized_compressed.glb/content",
+          "size": 9380988
+        },
+        {
+          "name": "0e65de5934db4f0eae02835ba7227dcc_normalized-0.250.glb",
+          "url": "https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc_normalized-0.250.glb/content",
+          "size": 1812772
+        },
+        {
+          "name": "0e65de5934db4f0eae02835ba7227dcc_normalized_optimized-0.500.glb",
+          "url": "https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc_normalized_optimized-0.500.glb/content",
+          "size": 2216404
+        },
+        {
+          "name": "0e65de5934db4f0eae02835ba7227dcc_normalized_optimized-0.100.glb",
+          "url": "https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc_normalized_optimized-0.100.glb/content",
+          "size": 2185384
+        },
+        {
+          "name": "0e65de5934db4f0eae02835ba7227dcc_normalized.glb",
+          "url": "https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc_normalized.glb/content",
+          "size": 41993672
+        }
+      ],
+      "url": null
+    },
+    {
+      "source": "Zenodo Objaverse archival mirror",
+      "record_id": 16559045,
+      "title": "The molecular raw data of barn owl microbal diversity",
+      "license": "cc-by-4.0",
+      "matched_uid": false,
+      "museum": false,
+      "glbs": [],
+      "url": null
+    },
+    {
+      "source": "Zenodo Objaverse archival mirror",
+      "record_id": 13477577,
+      "title": "Prey selection by barn owls in relation to small-mammal community and population structure in a Sahelian agro-ecosystem",
+      "license": "{}",
+      "matched_uid": false,
+      "museum": false,
+      "glbs": [],
+      "url": null
+    },
+    {
+      "source": "Zenodo Objaverse archival mirror",
+      "record_id": 15121325,
+      "title": "Talpa davidiana",
+      "license": "cc-zero",
+      "matched_uid": false,
+      "museum": false,
+      "glbs": [],
+      "url": null
+    },
+    {
+      "source": "Zenodo Objaverse archival mirror",
+      "record_id": 19105575,
+      "title": "Figure 1 from: Petrov R, Valchev A, Klisurova H (2025) Abundance of food leads to triple clutching of Eurasian eagle-owls (Bubo bubo) and barn owls (Tyto alba) in captivity in Bulgaria. Biodiversity Data Journal 13: e161110. https://doi.org/10.3897/BDJ.13.e161110",
+      "license": "cc-by-4.0",
+      "matched_uid": false,
+      "museum": false,
+      "glbs": [],
+      "url": null
+    },
+    {
+      "source": "Zenodo Objaverse archival mirror",
+      "record_id": 578992,
+      "title": "Genetic divergence analysis of the Common Barn Owl Tyto alba (Scopoli, 1769) and the Short-eared Owl Asio flammeus (Pontoppidan, 1763) from southern Chile using COI sequence",
+      "license": "cc-by-4.0",
+      "matched_uid": false,
+      "museum": false,
+      "glbs": [],
+      "url": null
+    },
+    {
+      "source": "Zenodo Objaverse archival mirror",
+      "record_id": 13982583,
+      "title": "Downstream data for recombination inferrence in the barn owl (Tyto alba)",
+      "license": "cc-by-4.0",
+      "matched_uid": false,
+      "museum": false,
+      "glbs": [],
+      "url": null
+    },
+    {
+      "source": "Zenodo Objaverse archival mirror",
+      "record_id": 3856835,
+      "title": "Tyto furcata",
+      "license": "cc-zero",
+      "matched_uid": false,
+      "museum": false,
+      "glbs": [],
+      "url": null
+    },
+    {
+      "source": "Zenodo Objaverse archival mirror",
+      "record_id": 20290445,
+      "title": "Figure 1 in The provenance of an exceptionally early specimen of Cape Verde Barn Owl Tyto alba detorta E. Hartert, 1913",
+      "license": "cc-by-4.0",
+      "matched_uid": false,
+      "museum": false,
+      "glbs": [],
+      "url": null
+    },
+    {
+      "source": "Zenodo Objaverse archival mirror",
+      "record_id": 10377820,
+      "title": "Proctophyllodes troncatus Robin 1877",
+      "license": "cc-zero",
+      "matched_uid": false,
+      "museum": false,
+      "glbs": [],
+      "url": null
+    },
+    {
+      "source": "Zenodo Objaverse archival mirror",
+      "record_id": 13191190,
+      "title": "Seasonal variation of small mammals in the diet of the barn owl (Tyto alba) in the Drinos River valley, southern Albania",
+      "license": "cc-by-4.0",
+      "matched_uid": false,
+      "museum": false,
+      "glbs": [],
+      "url": null
+    },
+    {
+      "source": "Zenodo Objaverse archival mirror",
+      "record_id": 17900651,
+      "title": "Fauna małych ssaków z miejscowości Skała i Minoga w sąsiedztwie Ojcowskiego Parku Narodowego na podstawie analizy osteologicznej szczątków z wypluwek płomykówki Tyto alba",
+      "license": "cc-by-4.0",
+      "matched_uid": false,
+      "museum": false,
+      "glbs": [],
+      "url": null
+    },
+    {
+      "source": "Zenodo Objaverse archival mirror",
+      "record_id": 13201872,
+      "title": "Diet of Barn Owl Tyto alba in Central South Bulgaria as influenced by landscape structure",
+      "license": "cc-by-4.0",
+      "matched_uid": false,
+      "museum": false,
+      "glbs": [],
+      "url": null
+    },
+    {
+      "source": "Zenodo Objaverse archival mirror",
+      "record_id": 16816118,
+      "title": "Fig. 8. A. Barn Owl, B in Avifauna and its interactions with the plants at Botanical Survey of India, Arid Zone Regional Centre, Jodhpur, Rajasthan, India",
+      "license": "cc-by-4.0",
+      "matched_uid": false,
+      "museum": false,
+      "glbs": [],
+      "url": null
+    },
+    {
+      "source": "Zenodo Objaverse archival mirror",
+      "record_id": 16469097,
+      "title": "Barn Owl in Manitoba",
+      "license": "cc-by-nc-sa-3.0",
+      "matched_uid": false,
+      "museum": false,
+      "glbs": [],
+      "url": null
+    },
+    {
+      "source": "Zenodo Objaverse archival mirror",
+      "record_id": 4995321,
+      "title": "Data from: Baseline and stress-induced corticosterone levels are heritable and genetically correlated in a barn owl population",
+      "license": "cc-zero",
+      "matched_uid": false,
+      "museum": false,
+      "glbs": [],
+      "url": null
+    },
+    {
+      "source": "Zenodo Objaverse archival mirror",
+      "record_id": 5016625,
+      "title": "Data from: Lack of evidence for selection favouring MHC haplotypes that combine high functional diversity",
+      "license": "cc-zero",
+      "matched_uid": false,
+      "museum": false,
+      "glbs": [],
+      "url": null
+    },
+    {
+      "source": "Zenodo Objaverse archival mirror",
+      "record_id": 19172127,
+      "title": "FIGURE 2 in Morphological assessment of the Common Barn Owl Tyto alba (Strigiformes: Tytonidae) supports three species",
+      "license": "notspecified",
+      "matched_uid": false,
+      "museum": false,
+      "glbs": [],
+      "url": null
+    },
+    {
+      "source": "Zenodo Objaverse archival mirror",
+      "record_id": 10302910,
+      "title": "Tyto alba",
+      "license": "cc-by-nc-sa-2.0",
+      "matched_uid": false,
+      "museum": false,
+      "glbs": [
+        {
+          "name": "57eebfd5d3e34dd8a008f6762660b358.glb",
+          "url": "https://zenodo.org/api/records/10302910/files/57eebfd5d3e34dd8a008f6762660b358.glb/content",
+          "size": 18101264
+        }
+      ],
+      "url": null
+    },
+    {
+      "source": "Zenodo Objaverse archival mirror",
+      "record_id": 21478610,
+      "title": "Tyto alba",
+      "license": "cc-zero",
+      "matched_uid": false,
+      "museum": false,
+      "glbs": [],
+      "url": null
+    },
+    {
+      "source": "Zenodo Objaverse archival mirror",
+      "record_id": 5465461,
+      "title": "Tyto alba",
+      "license": "cc-zero",
+      "matched_uid": false,
+      "museum": false,
+      "glbs": [],
+      "url": null
+    },
+    {
+      "source": "Zenodo Objaverse archival mirror",
+      "record_id": 21344217,
+      "title": "Tyto alba",
+      "license": "cc-zero",
+      "matched_uid": false,
+      "museum": false,
+      "glbs": [],
+      "url": null
+    },
+    {
+      "source": "Zenodo Objaverse archival mirror",
+      "record_id": 7193364,
+      "title": "The analysis of the diet composition of the barn owl Tyto alba (Scopoli, 1769) from the region of Brzeg, Opolskie Voivodeship (Poland)",
+      "license": "cc-by-4.0",
+      "matched_uid": false,
+      "museum": false,
+      "glbs": [],
+      "url": null
+    },
+    {
+      "source": "Zenodo Objaverse archival mirror",
+      "record_id": 13446661,
+      "title": "Barn Owl (Tyto alba) Predation on Big Brown Bats (Eptesicus fuscus) in Pennsylvania",
+      "license": "{}",
+      "matched_uid": false,
+      "museum": false,
+      "glbs": [],
+      "url": null
+    },
+    {
+      "source": "Zenodo Objaverse archival mirror",
+      "record_id": 13201872,
+      "title": "Diet of Barn Owl Tyto alba in Central South Bulgaria as influenced by landscape structure",
+      "license": "cc-by-4.0",
+      "matched_uid": false,
+      "museum": false,
+      "glbs": [],
+      "url": null
+    },
+    {
+      "source": "Zenodo Objaverse archival mirror",
+      "record_id": 15749388,
+      "title": "Figura 4 in TAFONOMÍA DE CONTENIDOS DIS PERSOS DE EGAGRÓPILAS DE Tyto alba EN UN A MBIENTE SERRANO",
+      "license": "cc-by-4.0",
+      "matched_uid": false,
+      "museum": false,
+      "glbs": [],
+      "url": null
+    },
+    {
+      "source": "Zenodo Objaverse archival mirror",
+      "record_id": 15749390,
+      "title": "Figura 5 in TAFONOMÍA DE CONTENIDOS DIS PERSOS DE EGAGRÓPILAS DE Tyto alba EN UN A MBIENTE SERRANO",
+      "license": "cc-by-4.0",
+      "matched_uid": false,
+      "museum": false,
+      "glbs": [],
+      "url": null
+    },
+    {
+      "source": "Zenodo Objaverse archival mirror",
+      "record_id": 20290445,
+      "title": "Figure 1 in The provenance of an exceptionally early specimen of Cape Verde Barn Owl Tyto alba detorta E. Hartert, 1913",
+      "license": "cc-by-4.0",
+      "matched_uid": false,
+      "museum": false,
+      "glbs": [],
+      "url": null
+    },
+    {
+      "source": "Zenodo Objaverse archival mirror",
+      "record_id": 14221006,
+      "title": "Tyto alba subsp. tuidara",
+      "license": "cc-zero",
+      "matched_uid": false,
+      "museum": false,
+      "glbs": [],
+      "url": null
+    },
+    {
+      "source": "Zenodo Objaverse archival mirror",
+      "record_id": 15749380,
+      "title": "TAFONOMÍA DE CONTENIDOS DIS PERSOS DE EGAGRÓPILAS DE Tyto alba EN UN A MBIENTE SERRANO",
+      "license": "cc-by-4.0",
+      "matched_uid": false,
+      "museum": false,
+      "glbs": [],
+      "url": null
+    },
+    {
+      "source": "Zenodo Objaverse archival mirror",
+      "record_id": 20290448,
+      "title": "Figure 2 in The provenance of an exceptionally early specimen of Cape Verde Barn Owl Tyto alba detorta E. Hartert, 1913",
+      "license": "cc-by-4.0",
+      "matched_uid": false,
+      "museum": false,
+      "glbs": [],
+      "url": null
+    }
+  ],
+  "status": "NO_MATCHING_DOWNLOADABLE_CC0_TYTO_SCAN_FOUND_NO_RELEASE",
+  "finished_utc": "2026-11-19T18:35:57.558594+00:00"
 }

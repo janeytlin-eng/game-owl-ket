@@ -1,0 +1,105 @@
+name: owl172 Run202 real Objaverse museum CC0 barn owl native gate NO_RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run202-objaverse-cc0-barnowl-native-qa
+    paths:
+      - .github/workflows/owl-pet-172-run202-objaverse-museum-native-qa.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run202_objaverse_heartface_native.py
+permissions:
+  contents: write
+jobs:
+  free-museum-barn-owl-native-mesh-art-gate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 22
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run202-objaverse-cc0-barnowl-native-qa
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/AGENTS.md
+            owl-pet/README.md
+            owl-pet/prototype/index.html
+            owl-pet/research/species/172-tyto-castanops-v3.md
+            owl-pet/3d-experiments/172-tyto-castanops/known_rejected_asset_sha256_registry.json
+            owl-pet/3d-experiments/172-tyto-castanops/2026-11-19-run201d-hf-zerogpu-quota-original-source-correction-NO_RELEASE.md
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run202_objaverse_heartface_native.py
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate source and install only free model-loading and true 3D rendering dependencies
+        timeout-minutes: 8
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run202-OBJAVERSE-MUSEUM-BARNOWL-NO_RELEASE"
+          mkdir -p "$O"
+          python -m py_compile "$R/tools/run202_objaverse_heartface_native.py"
+          sudo apt-get update -qq > "$O/apt-update.log" 2>&1
+          sudo apt-get install -y -qq libosmesa6 libegl1 libgl1-mesa-dri >> "$O/apt-update.log" 2>&1
+          python -m pip install -q --disable-pip-version-check objaverse trimesh==4.10.0 vtk==9.6.0 Pillow==12.0.0 requests==2.32.3 > "$O/pip-install.log" 2>&1
+          python -m pip freeze | grep -Ei 'objaverse|vtk|trimesh|pillow|requests' > "$O/installed_versions.txt"
+      - name: Actually download exact museum original GLB from free Objaverse and test native seven views
+        shell: bash
+        timeout-minutes: 11
+        continue-on-error: true
+        env:
+          VTK_DEFAULT_OPENGL_WINDOW: vtkOSOpenGLRenderWindow
+          HF_HUB_DISABLE_TELEMETRY: '1'
+        run: |
+          set -o pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run202-OBJAVERSE-MUSEUM-BARNOWL-NO_RELEASE"
+          timeout 620s python -u "$R/tools/run202_objaverse_heartface_native.py" 2>&1 | tee "$O/run202_actual.log"
+      - name: Fallback explicit no-release audit when actual command could not finish
+        if: always()
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib,json
+          r=Path('owl-pet/3d-experiments/172-tyto-castanops')
+          o=r/'research-evidence-run202-OBJAVERSE-MUSEUM-BARNOWL-NO_RELEASE'
+          o.mkdir(parents=True,exist_ok=True)
+          p=o/'run202_status.json'
+          if not p.exists():
+            p.write_text(json.dumps({'run':202,'final_status':'RUNNER_INSTALL_TIMEOUT_OR_EARLY_FAILURE_NO_RELEASE','new_native_glb':False,'independent_art_approval':False,'actual_physical_phone_gpu':False},indent=2)+'\n')
+          audit=r/'2026-11-19-run202-objaverse-museum-open-barnowl-native-NO_RELEASE.md'
+          if not audit.exists():audit.write_text('# Run202 failed before source evaluation\n\nCheck original CI log and installer log. No new asset accepted; no payment. NO_RELEASE.\n')
+          (o/'NO_RELEASE.flag').write_text('Source is an adult specimen and never accepted as #172 v3 juvenile. No physical phone GPU QA. NO_RELEASE.\n')
+          evidence={str(f.relative_to(o)):{'bytes':f.stat().st_size,'sha256':hashlib.sha256(f.read_bytes()).hexdigest()} for f in o.rglob('*') if f.is_file() and f.name not in ('run202_original_museum_CC0_taxidermy.glb','run202_sha256_manifest.json')}
+          (o/'run202_sha256_manifest.json').write_text(json.dumps(evidence,indent=2)+'\n')
+          assert all(hashlib.sha256((o/k).read_bytes()).hexdigest()==v['sha256'] for k,v in evidence.items())
+          print('RUN202 EVIDENCE',len(evidence),'NO_RELEASE')
+          PY
+      - name: Save immutable source, 7 genuine 3D render views and logs for 30 days
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run202-real-objaverse-museum-native-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run202-OBJAVERSE-MUSEUM-BARNOWL-NO_RELEASE/
+          retention-days: 30
+      - name: Commit research-only audit and 7-view contact; never source GLB or main
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run202-OBJAVERSE-MUSEUM-BARNOWL-NO_RELEASE"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --sparse "$R/2026-11-19-run202-objaverse-museum-open-barnowl-native-NO_RELEASE.md"
+          find "$O" -maxdepth 1 -type f \( -name '*.json' -o -name '*.txt' -o -name '*.log' -o -name '*.flag' \) -print0 | xargs -0 -r git add --sparse --
+          if test -s "$O/run202_native_sevenview_contact.png"; then
+             git add --sparse "$O/run202_native_sevenview_contact.png"
+          fi
+          git diff --cached --name-only > /tmp/owl202_changes
+          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/' /tmp/owl202_changes; then exit 80; fi
+          if grep -Ei '\.(glb|obj|fbx|blend|zip|jpe?g|webp)$' /tmp/owl202_changes; then exit 81; fi
+          if test -s /tmp/owl202_changes; then
+            git commit -m "research(owl172): archive Run202 authentic museum barn owl GLB QA NO_RELEASE"
+            git push origin HEAD:research/owl172-run202-objaverse-cc0-barnowl-native-qa
+          fi

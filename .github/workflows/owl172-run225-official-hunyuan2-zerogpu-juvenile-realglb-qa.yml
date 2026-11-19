@@ -1,0 +1,45 @@
+name: "#172 Run225 official free Hunyuan3D-2 real juvenile texturing QA NO_RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run225-hunyuan-zero-gpu-real-juvenile-glb-qa-no-release
+    paths:
+      - '.github/workflows/owl172-run225-official-hunyuan2-zerogpu-juvenile-realglb-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  research-only-no-release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install free 3D and transparent RGBA segmentation tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends xvfb libgl1-mesa-dri libglx-mesa0
+          python3 -m pip install --disable-pip-version-check "numpy<2.3" pillow "opencv-python-headless<4.12" trimesh vtk gradio_client requests
+          python3 -m py_compile owl-pet/3d-experiments/172-tyto-castanops/run225_hunyuan2_official_zerogpu_juvenile_qa.py
+      - name: Execute exactly one unauthenticated official free ZeroGPU generation request and strict true 3D seven-camera QA
+        run: |
+          xvfb-run -a python3 owl-pet/3d-experiments/172-tyto-castanops/run225_hunyuan2_official_zerogpu_juvenile_qa.py
+      - name: Preserve raw honest GLB and all failure/visual evidence independently for 30 days
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run225-official-zero-gpu-juvenile-qa-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/run225-evidence/
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Commit machine-readable diagnostic but NEVER unapproved binary or production assets
+        if: always()
+        run: |
+          git config user.name 'owl172-research-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f owl-pet/3d-experiments/172-tyto-castanops/run225-evidence/run225_report.json 2>/dev/null || true
+          git add -f owl-pet/3d-experiments/172-tyto-castanops/run225-evidence/run225_report.md 2>/dev/null || true
+          git add -f owl-pet/3d-experiments/172-tyto-castanops/run225-evidence/run225_seven_3d_views_UNREVIEWED_NO_RELEASE.png 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m 'audit(owl172): Run225 real public Hunyuan3D trial and unapproved visual evidence'
+            git push origin HEAD:research/owl172-run225-hunyuan-zero-gpu-real-juvenile-glb-qa-no-release || echo 'PUSH_UNAVAILABLE: evidence retained as temporary artifact'
+          fi

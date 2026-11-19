@@ -1,0 +1,131 @@
+name: owl172 Run201 real free ZeroGPU original image native GLB gate
+on:
+  push:
+    branches:
+      - research/owl172-run201-free-hf-sourcebound-trial
+    paths:
+      - .github/workflows/owl-pet-172-run201-free-zerogpu-true-glb.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run201_public_zero_gpu_trellis.py
+permissions:
+  contents: write
+jobs:
+  real-public-original-image-to-native-3d:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 19
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run201-free-hf-sourcebound-trial
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/AGENTS.md
+            owl-pet/README.md
+            owl-pet/prototype/index.html
+            owl-pet/research/species/172-tyto-castanops-v3.md
+            owl-pet/3d-experiments/172-tyto-castanops/known_rejected_asset_sha256_registry.json
+            owl-pet/3d-experiments/172-tyto-castanops/2026-11-19-run200b-browser-security-403-verified-NO_RELEASE.md
+            owl-pet/3d-experiments/172-tyto-castanops/2026-11-19-run196-run197-real-threejs-skinned-lod-ART_REJECTED-NO_RELEASE.md
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run201_public_zero_gpu_trellis.py
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Preflight existing prototype, v3 design, run history, rejected assets and original reference
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run201-PUBLIC-ZEROGPU-SOURCEBOUND-NO_RELEASE"
+          mkdir -p "$O"
+          for f in owl-pet/AGENTS.md owl-pet/README.md owl-pet/prototype/index.html owl-pet/research/species/172-tyto-castanops-v3.md "$R/known_rejected_asset_sha256_registry.json" "$R/2026-11-19-run200b-browser-security-403-verified-NO_RELEASE.md" "$R/2026-11-19-run196-run197-real-threejs-skinned-lod-ART_REJECTED-NO_RELEASE.md"; do
+            test -s "$f"
+            sha256sum "$f" >> "$O/preflight_sha256.txt"
+          done
+          sha256sum "$R/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png" > "$O/reference_sha256.txt"
+          grep -q '^5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9 ' "$O/reference_sha256.txt"
+          python -m py_compile "$R/tools/run201_public_zero_gpu_trellis.py"
+      - name: Install open source Gradio client and genuine native geometry QA
+        timeout-minutes: 5
+        shell: bash
+        run: |
+          set -euo pipefail
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run201-PUBLIC-ZEROGPU-SOURCEBOUND-NO_RELEASE
+          sudo apt-get update -qq > "$O/apt_install.log" 2>&1
+          sudo apt-get install -y -qq libosmesa6 libegl1 libgl1 >> "$O/apt_install.log" 2>&1
+          python -m pip install -q gradio_client==1.13.3 requests==2.32.3 trimesh==4.10.0 numpy==2.2.6 pillow==12.0.0 vtk==9.6.2 > "$O/pip_install.log" 2>&1
+          python -m pip freeze | grep -Ei 'gradio.client|trimesh|vtk|numpy|pillow|requests' > "$O/installed_software.txt"
+      - name: Actually send pinned original image to public no-fee ZeroGPU and inspect any true new GLB
+        timeout-minutes: 9
+        continue-on-error: true
+        shell: bash
+        env:
+          VTK_DEFAULT_OPENGL_WINDOW: vtkOSOpenGLRenderWindow
+          HF_HUB_DISABLE_TELEMETRY: '1'
+          GRADIO_ANALYTICS_ENABLED: 'False'
+        run: |
+          set -o pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run201-PUBLIC-ZEROGPU-SOURCEBOUND-NO_RELEASE"
+          timeout 490s python -u "$R/tools/run201_public_zero_gpu_trellis.py" 2>&1 | tee "$O/run201_actual_execution.log"
+      - name: Build no-release audit and verify SHA256 of genuine evidence
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib,json,datetime
+          r=Path('owl-pet/3d-experiments/172-tyto-castanops')
+          o=r/'research-evidence-run201-PUBLIC-ZEROGPU-SOURCEBOUND-NO_RELEASE'
+          o.mkdir(parents=True,exist_ok=True)
+          p=o/'run201_status.json'
+          d=json.loads(p.read_text()) if p.exists() else {'final_status':'RUNNER_SETUP_OR_TIMEOUT_NO_RELEASE','errors':['NO_STATUS_JSON']}
+          (o/'NO_RELEASE.flag').write_text('NO_RELEASE: no independent juvenile visual acceptance or physical phone GPU QA.\n')
+          audit=r/'2026-11-19-run201-public-zero-gpu-original-image-native-NO_RELEASE.md'
+          lines=[
+            '# Run201 actual free ZeroGPU original-image 3D experimental gate',
+            'UTC: '+datetime.datetime.now(datetime.timezone.utc).isoformat(),
+            'Final: '+str(d.get('final_status'))+' / NO_ART_APPROVAL / NO_PHYSICAL_PHONE_GPU_QA / NO_RELEASE',
+            'Preflight: repo AGENTS, README, original cat WebGL prototype, Tyto castanops v3 science and target, Run196-197 and Run200b reports, known rejected GLB registry, exact original rightmost v3 image SHA256 5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9.',
+            'Source: https://huggingface.co/spaces/linoyts/sketch-to-3d public ZeroGPU TRELLIS image-to-3D, true hosted generation and GLB extraction attempted only through exposed public Gradio API without login, payment or bypass. Uptime and no-extra-charge claims do not imply access or success.',
+            'Live config HTTP: '+str(d.get('public_app_config_http'))+'; exposed API: '+json.dumps(d.get('gradio_api_names',[])),
+            'Source image uploaded: '+str(d.get('source_upload'))+'; inference submitted: '+str(d.get('inference_submitted'))+'; inference completed: '+str(d.get('inference_completed'))+'; extraction submitted: '+str(d.get('extract_submitted')),
+            'New native GLB: '+str(d.get('new_native_glb'))+'; hash: '+str(d.get('native_sha256'))+'; bytes: '+str(d.get('native_bytes'))+'; geometry '+json.dumps(d.get('geometry',{}))+'; seven actual VTK geometry views: '+str(d.get('sevenview')),
+            'Event history: '+json.dumps(d.get('events',[]),ensure_ascii=False),
+            'Observed blocks: '+json.dumps(d.get('errors',[]),ensure_ascii=False),
+            'All true GLBs, even when native mesh and untextured seven diagnostic views are valid, stay rejected until independent textured-art acceptance: continuous heart disc, natural cream second down, dark eyes, juvenile compact wings and tail, rear and side anatomy, tree hollow support. Software viewport is not real mobile GPU.',
+            'No real source GLB redistributed or committed. No SVG or simple geometry substitutions. No external payment. No main, 251 species, live prototype or deployment changes.',
+            'NO_RELEASE.'
+          ]
+          audit.write_text('\n\n'.join(lines)+'\n')
+          checks={str(f.relative_to(o)):{'bytes':f.stat().st_size,'sha256':hashlib.sha256(f.read_bytes()).hexdigest()} for f in o.rglob('*') if f.is_file() and f.name!='run201_sha256_manifest.json'}
+          (o/'run201_sha256_manifest.json').write_text(json.dumps(checks,indent=2,ensure_ascii=False)+'\n')
+          assert all(hashlib.sha256((o/k).read_bytes()).hexdigest()==v['sha256'] for k,v in checks.items())
+          assert not list(o.rglob('*.glb'))
+          print('RUN201',d.get('final_status'),'EVIDENCE_FILE_COUNT',len(checks),'NO_RELEASE')
+          PY
+      - name: Preserve original audit evidence isolated for 30 days without raw GLB redistribution
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run201-real-public-zeroGPU-native-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run201-PUBLIC-ZEROGPU-SOURCEBOUND-NO_RELEASE/
+          retention-days: 30
+      - name: Commit research-only results with strict path guard
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run201-PUBLIC-ZEROGPU-SOURCEBOUND-NO_RELEASE"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --sparse "$R/2026-11-19-run201-public-zero-gpu-original-image-native-NO_RELEASE.md"
+          find "$O" -maxdepth 1 -type f \( -name '*.json' -o -name '*.txt' -o -name '*.log' -o -name '*.flag' \) -print0 | xargs -0 -r git add --sparse --
+          git diff --cached --name-only > /tmp/changed_paths
+          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/' /tmp/changed_paths; then exit 80; fi
+          if grep -Ei '\.(png|glb|obj|fbx|blend|zip|jpg|webp)$' /tmp/changed_paths; then exit 81; fi
+          if test -s /tmp/changed_paths; then
+            git commit -m "research(owl172): archive Run201 actual free public ZeroGPU native generation gate NO_RELEASE"
+            git push origin HEAD:research/owl172-run201-free-hf-sourcebound-trial
+          fi

@@ -1,6 +1,6 @@
 # Run201 actual free ZeroGPU original-image 3D experimental gate
 
-UTC: 2026-11-19T00:30:22.186200+00:00
+UTC: 2026-11-19T00:31:47.716563+00:00
 
 Final: REMOTE_INFERENCE_ERROR_NO_RELEASE / NO_ART_APPROVAL / NO_PHYSICAL_PHONE_GPU_QA / NO_RELEASE
 
@@ -14,9 +14,9 @@ Source image uploaded: ATTEMPTED_VIA_PUBLIC_GRADIO_CLIENT_UNCONFIRMED; inference
 
 New native GLB: False; hash: None; bytes: None; geometry {}; seven actual VTK geometry views: False
 
-Event history: [{"step": "source_integrity_confirmed", "time_utc": "2026-11-19T00:30:04.184441+00:00", "sha256": "5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9"}, {"step": "public_config_request", "time_utc": "2026-11-19T00:30:04.288986+00:00", "http_status": 200, "content_type": "application/json"}, {"step": "public_endpoints_discovered", "time_utc": "2026-11-19T00:30:06.098811+00:00", "endpoints": ["/end_session", "/extract_gaussian", "/extract_glb", "/get_seed", "/get_seed_1", "/image_to_3d", "/lambda", "/lambda_1", "/lambda_2", "/lambda_3", "/lambda_4", "/lambda_5", "/load_example", "/load_example_1", "/load_example_input", "/load_example_input_1", "/preprocess_image", "/preprocess_images", "/reset_canvas", "/start_session"]}, {"step": "submitting_original_image_to_public_zero_gpu", "time_utc": "2026-11-19T00:30:06.099615+00:00", "endpoint": "/image_to_3d"}, {"step": "actual_inference_job_submitted", "time_utc": "2026-11-19T00:30:06.100817+00:00", "endpoint": "/image_to_3d"}]
+Event history: [{"step": "source_integrity_confirmed", "time_utc": "2026-11-19T00:31:42.794638+00:00", "sha256": "5a52dfcb228a5048a66679d0d09c1b48e191d54cebbd9291bf99b18df03155d9"}, {"step": "public_config_request", "time_utc": "2026-11-19T00:31:42.863053+00:00", "http_status": 200, "content_type": "application/json"}, {"step": "public_endpoints_discovered", "time_utc": "2026-11-19T00:31:43.445192+00:00", "endpoints": ["/end_session", "/extract_gaussian", "/extract_glb", "/get_seed", "/get_seed_1", "/image_to_3d", "/lambda", "/lambda_1", "/lambda_2", "/lambda_3", "/lambda_4", "/lambda_5", "/load_example", "/load_example_1", "/load_example_input", "/load_example_input_1", "/preprocess_image", "/preprocess_images", "/reset_canvas", "/start_session"]}, {"step": "remote_source_session_initialized", "time_utc": "2026-11-19T00:31:43.631336+00:00"}, {"step": "submitting_original_image_to_public_zero_gpu", "time_utc": "2026-11-19T00:31:43.631941+00:00", "endpoint": "/image_to_3d"}, {"step": "actual_inference_job_submitted", "time_utc": "2026-11-19T00:31:43.632497+00:00", "endpoint": "/image_to_3d"}]
 
-Observed blocks: ["inference: AppError('FileNotFoundError')"]
+Observed blocks: ["inference: AppError('You have exceeded your ZeroGPU quota (90s requested vs. 0s left). Try again in 0:00:00. Authenticate with a Hugging Face token for more quota - https://huggingface.co/settings/tokens')"]
 
 All true GLBs, even when native mesh and untextured seven diagnostic views are valid, stay rejected until independent textured-art acceptance: continuous heart disc, natural cream second down, dark eyes, juvenile compact wings and tail, rear and side anatomy, tree hollow support. Software viewport is not real mobile GPU.
 

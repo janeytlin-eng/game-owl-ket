@@ -1,0 +1,64 @@
+name: owl172 Run207c recover real public free owlet GLB from browser preview NO_RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run207-hy3d-public-free-image-native-no-release
+    paths:
+      - .github/workflows/owl-pet-172-run207c-capture-native-viewer.yml
+permissions:
+  contents: write
+jobs:
+  true-native-model-capture:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run207-hy3d-public-free-image-native-no-release
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/AGENTS.md
+            owl-pet/README.md
+            owl-pet/STATUS.md
+            owl-pet/prototype/index.html
+            owl-pet/research/species/172-tyto-castanops-v3.md
+            owl-pet/3d-experiments/172-tyto-castanops/known_rejected_asset_sha256_registry.json
+            owl-pet/3d-experiments/172-tyto-castanops/2026-11-19-run206b-shortprompt-independent-original-artifact-NO_RELEASE.md
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png
+            owl-pet/3d-experiments/172-tyto-castanops/run207_hy3d_public_browser_native_gate.py
+            owl-pet/3d-experiments/172-tyto-castanops/run207c_capture_real_native_public_ui.py
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install free pip wheels and browser without slow optional apt fonts
+        timeout-minutes: 5
+        run: |
+          python -m pip install -q 'numpy<2' Pillow requests playwright==1.56.0 trimesh==4.4.9 vtk==9.6.2
+          python -m playwright install chromium
+      - name: Submit exactly one still-free image-to-3D request and recover real GLB from viewer
+        timeout-minutes: 9
+        run: |
+          export LIBGL_ALWAYS_SOFTWARE=1
+          export VTK_DEFAULT_OPENGL_WINDOW=vtkOSOpenGLRenderWindow
+          python owl-pet/3d-experiments/172-tyto-castanops/run207c_capture_real_native_public_ui.py
+      - name: Preserve original GLB/video/browser evidence in isolated expiring artifact; never deploy
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run207c-native-free-model-original-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run207c-HY3D-GLB-CAPTURE-NO_RELEASE/
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Archive small technical receipts only, not third-party model
+        if: always()
+        run: |
+          git config user.name 'owl172-research-bot'
+          git config user.email 'owl172-research-bot@users.noreply.github.com'
+          E=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run207c-HY3D-GLB-CAPTURE-NO_RELEASE
+          for f in "$E/status.json" "$E/preflight.json" "$E/manifest.json" "$E/native_metrics.json" "$E/exception.txt" "$E/render_trace.txt"; do
+            if test -f "$f"; then git add --sparse -f "$f"; fi
+          done
+          if ! git diff --cached --quiet; then
+            git commit -m "Run207c preserve genuine native model capture metrics and evidence manifests NO_RELEASE"
+            git push origin HEAD:research/owl172-run207-hy3d-public-free-image-native-no-release
+          fi

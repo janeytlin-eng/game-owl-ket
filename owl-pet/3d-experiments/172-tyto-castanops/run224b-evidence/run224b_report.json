@@ -1,0 +1,255 @@
+{
+  "run": "224b",
+  "utc": "2026-11-19T19:00:16.663483+00:00",
+  "correction_of": "Run224 native scene import appeared to succeed but Draco-required geometry had all-zero bounds. Blank screenshots != successful 3D rendering.",
+  "source": "Zenodo museum CC0-claimed archived adult Tyto alba scan, record 21379215",
+  "target": "#172 Tyto castanops age-unknown cream down mesoptile; archive adult is not a substitute",
+  "no_extra_paid_usd": 0,
+  "main_production_modified": false,
+  "release": "NO_RELEASE",
+  "phone_webgl": "NOT_TESTED",
+  "cases": {
+    "optimized": {
+      "archive_filename": "0e65de5934db4f0eae02835ba7227dcc_normalized_optimized.glb",
+      "expected_bytes": 5603344,
+      "http": 200,
+      "source": {
+        "bytes": 5603344,
+        "sha256": "3fff5130cfad17cc1fcf312819019bad75782f4f01708d18696e100d643691cb"
+      },
+      "source_glb": {
+        "extensions_required": [
+          "KHR_draco_mesh_compression"
+        ],
+        "faces_accessor": 30412,
+        "materials": 1,
+        "meshes": 1
+      },
+      "decode_cli": {
+        "return_code": 0,
+        "output_tail": "warn: Decoded KHR_draco_mesh_compression. Further compression will be lossy.\ninfo: run224b_optimized_draco_ARCHIVE_ADULT_ONLY.glb (5.6 MB) → run224b_optimized_decoded_REAL_UNCOMPRESSED_ADULT_ONLY.glb (6.38 MB)\n"
+      },
+      "decoded": {
+        "bytes": 6380156,
+        "sha256": "4865f48828adb93cef4f5ec07002adc1a61855a80adb286f781a227fca89430f"
+      },
+      "decoded_glb": {
+        "extensions_required": [],
+        "faces_accessor": 30412,
+        "materials": 1,
+        "meshes": 1
+      },
+      "valid_nonzero_geometry": {
+        "num_meshes": 1,
+        "faces": 30412,
+        "vertices": 24036,
+        "bbox_dimensions": [
+          0.4308,
+          0.56346,
+          0.45928
+        ],
+        "zero_vertex_fraction": 0.0
+      },
+      "render": {
+        "views": 4,
+        "native_texture_actors": 1,
+        "orientation_verified": false,
+        "note": "VTK still approximates PBR; this is adult archive material not juvenile"
+      },
+      "state": "VALID_NONZERO_NATIVE_TRIANGLES_RENDERED"
+    },
+    "optimized_025": {
+      "archive_filename": "0e65de5934db4f0eae02835ba7227dcc_normalized_optimized-0.250.glb",
+      "expected_bytes": 2185576,
+      "http": 200,
+      "source": {
+        "bytes": 2185576,
+        "sha256": "97b886248ea11483094a7290f27a97e373752f92f73f6ff585190e3d612d743a"
+      },
+      "source_glb": {
+        "extensions_required": [
+          "KHR_draco_mesh_compression"
+        ],
+        "faces_accessor": 9096,
+        "materials": 1,
+        "meshes": 1
+      },
+      "decode_cli": {
+        "return_code": 0,
+        "output_tail": "warn: Decoded KHR_draco_mesh_compression. Further compression will be lossy.\ninfo: run224b_optimized_025_draco_ARCHIVE_ADULT_ONLY.glb (2.19 MB) → run224b_optimized_025_decoded_REAL_UNCOMPRESSED_ADULT_ONLY.glb (2.49 MB)\n"
+      },
+      "decoded": {
+        "bytes": 2486016,
+        "sha256": "c9a62d8bbac9631f7f56315319592db06fe75ec5b23b40e5c027e8a0d2690026"
+      },
+      "decoded_glb": {
+        "extensions_required": [],
+        "faces_accessor": 9096,
+        "materials": 1,
+        "meshes": 1
+      },
+      "valid_nonzero_geometry": {
+        "num_meshes": 1,
+        "faces": 9096,
+        "vertices": 10400,
+        "bbox_dimensions": [
+          0.43009,
+          0.56284,
+          0.45871
+        ],
+        "zero_vertex_fraction": 0.0
+      },
+      "render": {
+        "views": 4,
+        "native_texture_actors": 1,
+        "orientation_verified": false,
+        "note": "VTK still approximates PBR; this is adult archive material not juvenile"
+      },
+      "state": "VALID_NONZERO_NATIVE_TRIANGLES_RENDERED"
+    },
+    "normalized_010": {
+      "archive_filename": "0e65de5934db4f0eae02835ba7227dcc_normalized-0.100.glb",
+      "expected_bytes": 1634244,
+      "http": 200,
+      "source": {
+        "bytes": 1634244,
+        "sha256": "8d5b2c0baa5dc3be8471bbedbd2ca0fe86feb0d26fc546a378b0b9dc04377b3c"
+      },
+      "source_glb": {
+        "extensions_required": [
+          "KHR_draco_mesh_compression"
+        ],
+        "faces_accessor": 26192,
+        "materials": 1,
+        "meshes": 1
+      },
+      "decode_cli": {
+        "return_code": 0,
+        "output_tail": "warn: Decoded KHR_draco_mesh_compression. Further compression will be lossy.\ninfo: run224b_normalized_010_draco_ARCHIVE_ADULT_ONLY.glb (1.63 MB) → run224b_normalized_010_decoded_REAL_UNCOMPRESSED_ADULT_ONLY.glb (2.35 MB)\n"
+      },
+      "decoded": {
+        "bytes": 2350412,
+        "sha256": "42223dac3d4d69b88176f20246cecde2c158dea6445880e52635a0237560dd7e"
+      },
+      "decoded_glb": {
+        "extensions_required": [],
+        "faces_accessor": 26192,
+        "materials": 1,
+        "meshes": 1
+      },
+      "valid_nonzero_geometry": {
+        "num_meshes": 1,
+        "faces": 26192,
+        "vertices": 23211,
+        "bbox_dimensions": [
+          0.43183,
+          0.5639,
+          0.45985
+        ],
+        "zero_vertex_fraction": 0.0
+      },
+      "render": {
+        "views": 4,
+        "native_texture_actors": 1,
+        "orientation_verified": false,
+        "note": "VTK still approximates PBR; this is adult archive material not juvenile"
+      },
+      "state": "VALID_NONZERO_NATIVE_TRIANGLES_RENDERED"
+    }
+  },
+  "files": {
+    "run224b_optimized_texture_0.png": {
+      "bytes": 4927305,
+      "sha256": "100b81ca4ad5efcf923fc6c1346b90a7e4044e148da033d32a20ab7efa2cbc4e"
+    },
+    "run224b_normalized_010_deg0.png": {
+      "bytes": 54595,
+      "sha256": "497b2dd78e2ddc7b984b9ea90d92d6cca200cd514f97feb2649c3a9111b7fc90"
+    },
+    "run224b_optimized_025_draco_ARCHIVE_ADULT_ONLY.glb": {
+      "bytes": 2185576,
+      "sha256": "97b886248ea11483094a7290f27a97e373752f92f73f6ff585190e3d612d743a"
+    },
+    "run224b_normalized_010_decoded_REAL_UNCOMPRESSED_ADULT_ONLY.glb": {
+      "bytes": 2350412,
+      "sha256": "42223dac3d4d69b88176f20246cecde2c158dea6445880e52635a0237560dd7e"
+    },
+    "run224b_optimized_025_texture_0.png": {
+      "bytes": 4927305,
+      "sha256": "100b81ca4ad5efcf923fc6c1346b90a7e4044e148da033d32a20ab7efa2cbc4e"
+    },
+    "run224b_normalized_010_deg180.png": {
+      "bytes": 55062,
+      "sha256": "f51771f83da4cbd1490952c797cc13b559bc83dfa483b7a0c64fb3939acb571a"
+    },
+    "run224b_optimized_025_deg180.png": {
+      "bytes": 52730,
+      "sha256": "533806070693eb117d4052d973adae83b42a9ad965961e38def45d2b2204ab80"
+    },
+    "run224b_optimized_025_deg0.png": {
+      "bytes": 51720,
+      "sha256": "9ed1b4477196c141c00da0ecb723bcae3e80c5666fb16b4e81e51335e1ea94cc"
+    },
+    "run224b_optimized_025_deg90.png": {
+      "bytes": 54771,
+      "sha256": "e079ba74a5514255ea485814834845494e76bd2401d1987ab9c41433fcc74e3e"
+    },
+    "run224b_optimized_deg0.png": {
+      "bytes": 52411,
+      "sha256": "a9366ae5548dd69e5e313131bd9f848b6c4cb9b6113f677cdb725a824cfcbbd7"
+    },
+    "run224b_draco_decoded_12views_ADULT_NOT_APPROVED.png": {
+      "bytes": 655442,
+      "sha256": "a573df994532753afd8be850d9a8224a84f33ef1ca0443eb802fccaf30488da2"
+    },
+    "run224b_optimized_draco_ARCHIVE_ADULT_ONLY.glb": {
+      "bytes": 5603344,
+      "sha256": "3fff5130cfad17cc1fcf312819019bad75782f4f01708d18696e100d643691cb"
+    },
+    "run224b_normalized_010_texture_0.png": {
+      "bytes": 2031899,
+      "sha256": "1f889bf05ee6d8cc603e5adf5d0876f486295f42a9b2dea9716d3f9ec6182b4e"
+    },
+    "run224b_optimized_025_decoded_REAL_UNCOMPRESSED_ADULT_ONLY.glb": {
+      "bytes": 2486016,
+      "sha256": "c9a62d8bbac9631f7f56315319592db06fe75ec5b23b40e5c027e8a0d2690026"
+    },
+    "run224b_optimized_decoded_REAL_UNCOMPRESSED_ADULT_ONLY.glb": {
+      "bytes": 6380156,
+      "sha256": "4865f48828adb93cef4f5ec07002adc1a61855a80adb286f781a227fca89430f"
+    },
+    "run224b_normalized_010_deg90.png": {
+      "bytes": 57777,
+      "sha256": "d47c59b0ddf0a38661be60d6d18a3469f6af5b7220f812119b87c0d2b7354bbe"
+    },
+    "run224b_optimized_deg270.png": {
+      "bytes": 54803,
+      "sha256": "6070909ac17c2f2541115f398356bb4e67612c8542576f379d48bcac22be7985"
+    },
+    "run224b_normalized_010_draco_ARCHIVE_ADULT_ONLY.glb": {
+      "bytes": 1634244,
+      "sha256": "8d5b2c0baa5dc3be8471bbedbd2ca0fe86feb0d26fc546a378b0b9dc04377b3c"
+    },
+    "run224b_optimized_deg90.png": {
+      "bytes": 55405,
+      "sha256": "6db5c43bcd8ce293d0290d2de88056527f2b23245f1c7c54a6f61507ba698be2"
+    },
+    "run224b_normalized_010_deg270.png": {
+      "bytes": 56678,
+      "sha256": "3ebb5787cbb0d5f9a99d2b07f532112027f310b087af88ef69d80e8027da2f62"
+    },
+    "run224b_optimized_deg180.png": {
+      "bytes": 53450,
+      "sha256": "beece42bc233626b5e649d1c8621d6572a0bac3f845316d71ba91df6d0a3dc12"
+    },
+    "run224b_optimized_025_deg270.png": {
+      "bytes": 54221,
+      "sha256": "7cce268717474096319c20e112cd7e46935b366d0b32cd750216670f9075a293"
+    }
+  },
+  "reference": {
+    "bytes": 737545,
+    "sha256": "881dec86e0e66ab2ad0781db86a3b719b35e710d2be1a1606d761a9d0908483d"
+  },
+  "result": "DRACO_DECODE_AND_NONZERO_GEOMETRY_QUALIFICATION_COMPLETE_ART_REJECTED_NO_RELEASE"
+}

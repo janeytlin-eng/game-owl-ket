@@ -22,13 +22,14 @@ def request_json(url,params=None,timeout=30):
  res=S.get(url,params=params,timeout=(15,timeout))
  R['sources'].append({'url':res.url,'http':res.status_code,'bytes':len(res.content),
                       'content_type':res.headers.get('Content-Type','')})
+ if not res.ok: R['sources'][-1]['error_body']=res.text[:500]
  res.raise_for_status()
  return res.json()
 def zenodo_probe():
  found=[]
  for q in ('0e65de5934db4f0eae02835ba7227dcc','"Barn owl"','"Tyto alba"'):
   try:
-   data=request_json('https://zenodo.org/api/records',params={'q':q,'size':30},timeout=40)
+   data=request_json('https://zenodo.org/api/records',params={'q':q,'size':20},timeout=40)
    items=data.get('hits',{}).get('hits',[])
    R['checks']['zenodo_'+q]={'returned':len(items),'total':data.get('hits',{}).get('total')}
    for item in items:
@@ -66,12 +67,14 @@ def smithsonian_probe():
   if not isinstance(links,list) or not links:
    R['checks']['smithsonian']={'error':'no metadata Parquet files returned'};return
   total=0; matches=[]; total_bytes=0
-  for url in links[:8]:
+  for url in links[:12]:
    rr=S.get(url,timeout=(20,80))
    total_bytes+=len(rr.content)
    if rr.status_code!=200:raise RuntimeError('HF parquet HTTP '+str(rr.status_code))
-   if total_bytes>60000000:raise RuntimeError('metadata cap 60MB reached')
-   df=pd.read_parquet(io.BytesIO(rr.content));total+=len(df)
+   if total_bytes>160000000:
+    R['checks']['smithsonian_size_cap_reached']=total_bytes
+    break
+   df=pd.read_parquet(io.BytesIO(rr.content),columns=['title','package_title','scientific_name','object_type','topic','mesh_url','license','record_link']);total+=len(df)
    cols=[c for c in ('title','package_title','scientific_name','object_type','topic') if c in df.columns]
    for _,row in df.iterrows():
     val=' '.join(str(row[c]) for c in cols).lower()
@@ -190,13 +193,18 @@ try:
    'prev':'2026-11-20-run222...ART_REJECTED','main_production':'UNCHANGED (176/251 at main snapshot)'}
  matches=zenodo_probe()
  smithsonian_probe()
+ if not matches and R.get('smithsonian_candidate'):
+  matches=[R['smithsonian_candidate']]
  if matches:
   R['checks']['chosen_archival_candidate']=matches[0]
   p=download(matches[0])
   render(p)
   R['status']='REAL_NATIVE_CC0_3D_SCAN_RENDERED_ADULT_DONOR_ONLY_ART_UNAPPROVED_NO_RELEASE'
  else:
-  R['status']='NO_ACCESSIBLE_ARCHIVED_CC0_TYTO_GLB_IDENTIFIED_NO_RELEASE'
+  if any('error' in R['checks'].get('zenodo_'+q,{}) for q in ('0e65de5934db4f0eae02835ba7227dcc','"Barn owl"','"Tyto alba"')) and 'error' in R['checks'].get('smithsonian',{}):
+   R['status']='ARCHIVE_QUERIES_INCONCLUSIVE_NO_RELEASE'
+  else:
+   R['status']='NO_MATCHING_DOWNLOADABLE_CC0_TYTO_SCAN_FOUND_NO_RELEASE'
 except Exception as exc:
  R['status']='FAILED_WITH_DIAGNOSTICS_NO_RELEASE'
  R['error']=repr(exc)

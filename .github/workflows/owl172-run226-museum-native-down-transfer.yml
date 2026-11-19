@@ -1,0 +1,44 @@
+name: '#172 Run226 museum adult Tyto native down transfer (actual free CLI; NO RELEASE)'
+on:
+  push:
+    branches: [research/owl172-run226-museum-native-down-transfer-no-release]
+    paths:
+      - '.github/workflows/owl172-run226-museum-native-down-transfer.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run226_museum_native_down_transfer.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  museum-native-groom-research-only:
+    runs-on: ubuntu-latest
+    timeout-minutes: 38
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install unmetered public open-source mesh and groom tooling
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends cmake ninja-build build-essential libtbb-dev
+          python3 -m pip install --user --disable-pip-version-check numpy trimesh requests pillow
+          npm install --global @gltf-transform/cli@4.5.1
+      - name: Actual Khronos Draco decode, scanned adult Tyto scalp, GroomLab feather groom, native 5-camera audit
+        run: |
+          python3 owl-pet/3d-experiments/172-tyto-castanops/run226_museum_native_down_transfer.py
+      - name: Preserve real source, geometry, native groom, USD curves and diagnostic previews in temporary research artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run226-real-museum-adult-down-transfer-ART_REJECTED-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/run226-evidence/
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Commit permanent small diagnostic report and preview ONLY on isolated study branch
+        if: always()
+        run: |
+          git config user.name 'owl172-research-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          find owl-pet/3d-experiments/172-tyto-castanops/run226-evidence -type f \
+            \( -name '*.json' -o -name '*.md' -o -name '*.png' \) -print0 | xargs -0 -r git add --
+          if ! git diff --cached --quiet; then
+            git commit -m 'research(#172): preserve real museum donor native-groom QA; ART_REJECTED NO_RELEASE'
+            git push origin HEAD:research/owl172-run226-museum-native-down-transfer-no-release || echo 'PUSH_FAILED; artifacts available, no release'
+          fi

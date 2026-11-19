@@ -1,6 +1,6 @@
 {
   "run": 223,
-  "started_utc": "2026-11-19T18:35:47.011404+00:00",
+  "started_utc": "2026-11-19T18:39:44.501533+00:00",
   "target": "#172 Tyto castanops v3 rightmost cream, age-unknown mesoptile",
   "goal": "Find an authentic existing CC0 photo-scanned Tyto base; test REAL GLB if licensed and accessible",
   "preceding_run": "Run222 rejected mechanical adult barn owl, 14 native views",
@@ -26,14 +26,8 @@
     {
       "url": "https://zenodo.org/api/records?q=%22Tyto+alba%22&size=20",
       "http": 200,
-      "bytes": 140500,
+      "bytes": 137472,
       "content_type": "application/json"
-    },
-    {
-      "url": "https://huggingface.co/api/datasets/MikeTrizna/smithsonian-open-access-3d/parquet/metadata/train",
-      "http": 200,
-      "bytes": 1311,
-      "content_type": "application/json; charset=utf-8"
     }
   ],
   "checks": {
@@ -59,18 +53,145 @@
       "returned": 20,
       "total": 418
     },
-    "smithsonian_parquet_files": 12,
-    "smithsonian_size_cap_reached": 189630086,
-    "smithsonian": {
-      "rows_checked": 1500,
-      "metadata_bytes": 189630086,
-      "owl_matches": 0,
-      "matches": [],
-      "scan_only": "Does not imply juvenile or body scan availability"
+    "smithsonian": "Not scanned again: an exact legitimately CC0 museum Barn owl scan donor was already located; avoid unnecessary 180MB metadata transfer.",
+    "chosen_archival_candidate": {
+      "source": "Zenodo Objaverse archival mirror",
+      "record_id": 21379215,
+      "title": "Barn owl",
+      "license": "cc-zero",
+      "matched_uid": false,
+      "museum": true,
+      "glbs": [
+        {
+          "name": "0e65de5934db4f0eae02835ba7227dcc.glb",
+          "url": "https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc.glb/content",
+          "size": 43225496
+        },
+        {
+          "name": "0e65de5934db4f0eae02835ba7227dcc_normalized_optimized.glb",
+          "url": "https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc_normalized_optimized.glb/content",
+          "size": 5603344
+        },
+        {
+          "name": "0e65de5934db4f0eae02835ba7227dcc_normalized_optimized-0.250.glb",
+          "url": "https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc_normalized_optimized-0.250.glb/content",
+          "size": 2185576
+        },
+        {
+          "name": "0e65de5934db4f0eae02835ba7227dcc_normalized_optimized-0.500.glb",
+          "url": "https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc_normalized_optimized-0.500.glb/content",
+          "size": 2216404
+        },
+        {
+          "name": "0e65de5934db4f0eae02835ba7227dcc_normalized_optimized-0.100.glb",
+          "url": "https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc_normalized_optimized-0.100.glb/content",
+          "size": 2185384
+        },
+        {
+          "name": "0e65de5934db4f0eae02835ba7227dcc_normalized-0.500.glb",
+          "url": "https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc_normalized-0.500.glb/content",
+          "size": 2067940
+        },
+        {
+          "name": "0e65de5934db4f0eae02835ba7227dcc_normalized-0.100.glb",
+          "url": "https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc_normalized-0.100.glb/content",
+          "size": 1634244
+        },
+        {
+          "name": "0e65de5934db4f0eae02835ba7227dcc_normalized_compressed.glb",
+          "url": "https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc_normalized_compressed.glb/content",
+          "size": 9380988
+        },
+        {
+          "name": "0e65de5934db4f0eae02835ba7227dcc_normalized-0.250.glb",
+          "url": "https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc_normalized-0.250.glb/content",
+          "size": 1812772
+        },
+        {
+          "name": "0e65de5934db4f0eae02835ba7227dcc_normalized.glb",
+          "url": "https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc_normalized.glb/content",
+          "size": 41993672
+        }
+      ],
+      "url": null
     },
-    "smithsonian_exact_model_candidates": []
+    "source_download_http": {
+      "code": 200,
+      "mime": "application/octet-stream, application/octet-stream",
+      "url": "https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc.glb/content"
+    },
+    "native_GLTF_mesh": {
+      "geometries": 12,
+      "faces": 261966,
+      "vertices": 756317,
+      "original_bounds": [
+        [
+          -0.21720988916396777,
+          -0.0012066762488420564,
+          -0.34814716438032167
+        ],
+        [
+          0.2152903544988547,
+          0.5628321491639525,
+          0.11197058167116936
+        ]
+      ]
+    },
+    "native_renderer": {
+      "triangles_submitted": 261966,
+      "image_textured_actors": 0,
+      "actors": 12,
+      "warning": "VTK may not match original glTF PBR roughness/normal maps"
+    },
+    "view_orientation": {
+      "estimated_up_axis": 1,
+      "dims": [
+        0.43250024366282247,
+        0.5640388254127946,
+        0.46011774605149103
+      ],
+      "not_a_verified_anatomical_front": true
+    },
+    "actual_views": 7
   },
-  "files": {},
+  "files": {
+    "run223_azimuth_300.png": {
+      "bytes": 54200,
+      "sha256": "13f0ae48bee64f522613d231cae876f06d8de3e9672f3b98b1eed5e757d3a4f6"
+    },
+    "run223_museum_CC0_candidate_ORIGINAL_NOT_APPROVED.glb": {
+      "bytes": 43225496,
+      "sha256": "6412ffd575360397bd90d391d3d4c23397f225945cdef3ec5727bfd91504cd44"
+    },
+    "run223_azimuth_250.png": {
+      "bytes": 54686,
+      "sha256": "7dca1b7df97136be853a7b187045fa503d2a8051f01c09a2e1bfbdd46810acf5"
+    },
+    "run223_azimuth_50.png": {
+      "bytes": 52749,
+      "sha256": "7ce9fd9d4b84cd52ea60fbb69e3a1751fffd9f37a2292335d17ed8e00506727c"
+    },
+    "run223_azimuth_0.png": {
+      "bytes": 54646,
+      "sha256": "38c7222d7512975f701f3e8e88ca6e55cb37f3f3cf3302baa58134f64be3e57d"
+    },
+    "run223_museum_7views_NOT_APPROVED.png": {
+      "bytes": 384287,
+      "sha256": "f99ba0a1be029f7056f86740e313e9d4a8e76ea4812886bfb27e6ecc8ca4ce30"
+    },
+    "run223_azimuth_100.png": {
+      "bytes": 56561,
+      "sha256": "b23b9ced80dfb3732c3a50b8448fc7fe0ef2f864402ba1a998afbad601b3ffec"
+    },
+    "run223_azimuth_200.png": {
+      "bytes": 51472,
+      "sha256": "46e777da6d563bcfe18822707889298cca7dcdef35c594874637178fdff320ec"
+    },
+    "run223_azimuth_150.png": {
+      "bytes": 56595,
+      "sha256": "42fb96c109238db9b1d2b4d5c82ab4be7a30b1f6a7083ca2bb872bdd62e89ed3"
+    }
+  },
   "candidates": [
     {
       "source": "Zenodo Objaverse archival mirror",
@@ -121,14 +242,14 @@
       "museum": true,
       "glbs": [
         {
+          "name": "0e65de5934db4f0eae02835ba7227dcc.glb",
+          "url": "https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc.glb/content",
+          "size": 43225496
+        },
+        {
           "name": "0e65de5934db4f0eae02835ba7227dcc_normalized_optimized.glb",
           "url": "https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc_normalized_optimized.glb/content",
           "size": 5603344
-        },
-        {
-          "name": "0e65de5934db4f0eae02835ba7227dcc_normalized-0.500.glb",
-          "url": "https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc_normalized-0.500.glb/content",
-          "size": 2067940
         },
         {
           "name": "0e65de5934db4f0eae02835ba7227dcc_normalized_optimized-0.250.glb",
@@ -136,9 +257,19 @@
           "size": 2185576
         },
         {
-          "name": "0e65de5934db4f0eae02835ba7227dcc.glb",
-          "url": "https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc.glb/content",
-          "size": 43225496
+          "name": "0e65de5934db4f0eae02835ba7227dcc_normalized_optimized-0.500.glb",
+          "url": "https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc_normalized_optimized-0.500.glb/content",
+          "size": 2216404
+        },
+        {
+          "name": "0e65de5934db4f0eae02835ba7227dcc_normalized_optimized-0.100.glb",
+          "url": "https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc_normalized_optimized-0.100.glb/content",
+          "size": 2185384
+        },
+        {
+          "name": "0e65de5934db4f0eae02835ba7227dcc_normalized-0.500.glb",
+          "url": "https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc_normalized-0.500.glb/content",
+          "size": 2067940
         },
         {
           "name": "0e65de5934db4f0eae02835ba7227dcc_normalized-0.100.glb",
@@ -154,16 +285,6 @@
           "name": "0e65de5934db4f0eae02835ba7227dcc_normalized-0.250.glb",
           "url": "https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc_normalized-0.250.glb/content",
           "size": 1812772
-        },
-        {
-          "name": "0e65de5934db4f0eae02835ba7227dcc_normalized_optimized-0.500.glb",
-          "url": "https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc_normalized_optimized-0.500.glb/content",
-          "size": 2216404
-        },
-        {
-          "name": "0e65de5934db4f0eae02835ba7227dcc_normalized_optimized-0.100.glb",
-          "url": "https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc_normalized_optimized-0.100.glb/content",
-          "size": 2185384
         },
         {
           "name": "0e65de5934db4f0eae02835ba7227dcc_normalized.glb",
@@ -345,6 +466,26 @@
     },
     {
       "source": "Zenodo Objaverse archival mirror",
+      "record_id": 5465461,
+      "title": "Tyto alba",
+      "license": "cc-zero",
+      "matched_uid": false,
+      "museum": false,
+      "glbs": [],
+      "url": null
+    },
+    {
+      "source": "Zenodo Objaverse archival mirror",
+      "record_id": 21344217,
+      "title": "Tyto alba",
+      "license": "cc-zero",
+      "matched_uid": false,
+      "museum": false,
+      "glbs": [],
+      "url": null
+    },
+    {
+      "source": "Zenodo Objaverse archival mirror",
       "record_id": 10302910,
       "title": "Tyto alba",
       "license": "cc-by-nc-sa-2.0",
@@ -362,26 +503,6 @@
     {
       "source": "Zenodo Objaverse archival mirror",
       "record_id": 21478610,
-      "title": "Tyto alba",
-      "license": "cc-zero",
-      "matched_uid": false,
-      "museum": false,
-      "glbs": [],
-      "url": null
-    },
-    {
-      "source": "Zenodo Objaverse archival mirror",
-      "record_id": 5465461,
-      "title": "Tyto alba",
-      "license": "cc-zero",
-      "matched_uid": false,
-      "museum": false,
-      "glbs": [],
-      "url": null
-    },
-    {
-      "source": "Zenodo Objaverse archival mirror",
-      "record_id": 21344217,
       "title": "Tyto alba",
       "license": "cc-zero",
       "matched_uid": false,
@@ -480,6 +601,6 @@
       "url": null
     }
   ],
-  "status": "NO_MATCHING_DOWNLOADABLE_CC0_TYTO_SCAN_FOUND_NO_RELEASE",
-  "finished_utc": "2026-11-19T18:35:57.558594+00:00"
+  "status": "REAL_NATIVE_CC0_3D_SCAN_RENDERED_ADULT_DONOR_ONLY_ART_UNAPPROVED_NO_RELEASE",
+  "finished_utc": "2026-11-19T18:40:21.471964+00:00"
 }

@@ -50,9 +50,10 @@ jobs:
         run: |
           set -euo pipefail
           O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run201-PUBLIC-ZEROGPU-SOURCEBOUND-NO_RELEASE
-          sudo apt-get update -qq > "$O/apt_install.log" 2>&1
-          sudo apt-get install -y -qq libosmesa6 libegl1 libgl1 >> "$O/apt_install.log" 2>&1
-          python -m pip install -q gradio_client==1.13.3 requests==2.32.3 trimesh==4.10.0 numpy==2.2.6 pillow==12.0.0 vtk==9.6.2 > "$O/pip_install.log" 2>&1
+          # Run201c transport test: previous apt/VTK combined setup hit 5-minute timeout.
+          # Lightweight live public Gradio inference is the current gate; optional
+          # native seven-view rendering remains gated by the separate vtk package.
+          python -m pip install --disable-pip-version-check -q gradio_client==1.13.3 requests==2.32.3 trimesh==4.10.0 numpy==2.2.6 pillow==12.0.0 > "$O/pip_install.log" 2>&1
           python -m pip freeze | grep -Ei 'gradio.client|trimesh|vtk|numpy|pillow|requests' > "$O/installed_software.txt"
       - name: Actually send pinned original image to public no-fee ZeroGPU and inspect any true new GLB
         timeout-minutes: 9

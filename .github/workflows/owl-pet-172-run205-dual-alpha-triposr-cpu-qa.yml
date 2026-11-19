@@ -1,0 +1,86 @@
+name: owl172 Run205 dual matte actual TripoSR CPU model experiment NO_RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run205-two-tone-alpha-triposr-cpu
+    paths:
+      - .github/workflows/owl-pet-172-run205-dual-alpha-triposr-cpu-qa.yml
+permissions:
+  contents: write
+jobs:
+  source-bound-native-cpu:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 54
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run205-two-tone-alpha-triposr-cpu
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/AGENTS.md
+            owl-pet/README.md
+            owl-pet/STATUS.md
+            owl-pet/prototype/index.html
+            owl-pet/research/species/172-tyto-castanops-v3.md
+            owl-pet/3d-experiments/172-tyto-castanops/known_rejected_asset_sha256_registry.json
+            owl-pet/3d-experiments/172-tyto-castanops/2026-11-19-run204c-independent-native-sevenview-twelve-orbit-ART_REJECTED-NO_RELEASE.md
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png
+            owl-pet/3d-experiments/172-tyto-castanops/run205_alpha_cpu_gate.py
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install truly local open-source 3D CPU model and native render tools; retain setup errors
+        shell: bash
+        timeout-minutes: 17
+        run: |
+          set +e
+          E=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run205-MATTED-TRIPOSR-CPU-NO_RELEASE
+          mkdir -p "$E"
+          {
+            echo "Run205 real MIT image-to-3D CPU preflight"
+            git clone --depth 1 https://github.com/VAST-AI-Research/TripoSR.git /tmp/TripoSR
+            echo "git status=$?"
+            git -C /tmp/TripoSR rev-parse HEAD || true
+            sudo apt-get update -qq
+            sudo apt-get install -qq -y libegl1 libgl1 libosmesa6 build-essential cmake
+            python -m pip install -q --index-url https://download.pytorch.org/whl/cpu torch==2.3.1 torchvision==0.18.1
+            echo "torch install status=$?"
+            python -m pip install -q 'numpy<2' 'setuptools<81' omegaconf==2.3.0 Pillow==10.1.0 einops==0.7.0 transformers==4.35.0 trimesh==4.0.5 'rembg==2.0.59' huggingface-hub imageio xatlas==0.0.9 moderngl==5.10.0 vtk==9.6.2
+            echo "requirements install status=$?"
+            python -m pip install -q 'opencv-python-headless==4.10.0.84' scikit-build-core ninja pybind11
+            python -m pip install -q --no-build-isolation 'git+https://github.com/tatsy/torchmcubes.git'
+            echo "torchmcubes install status=$?"
+            PYTHONPATH=/tmp/TripoSR python -c 'import torch,tsr,rembg,torchmcubes,trimesh,vtk;print("imports",torch.__version__,torch.cuda.is_available())' 2>&1
+            echo "final imports status=$?"
+          } 2>&1 | tee "$E/install.log"
+          exit 0
+      - name: Execute actual 3D inference, import native GLB, verify SHA and seven world-axis renders
+        timeout-minutes: 37
+        shell: bash
+        run: |
+          export VTK_DEFAULT_OPENGL_WINDOW=vtkOSOpenGLRenderWindow
+          export LIBGL_ALWAYS_SOFTWARE=1
+          python owl-pet/3d-experiments/172-tyto-castanops/run205_alpha_cpu_gate.py
+      - name: Archive original model only as nonpublic research evidence; never deploy
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: research-evidence-run205-two-mattes-cpu-native-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run205-MATTED-TRIPOSR-CPU-NO_RELEASE/
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Commit lightweight negative/technical audit only on isolated research branch
+        if: always()
+        shell: bash
+        run: |
+          git config user.name 'owl172-research-bot'
+          git config user.email 'owl172-research-bot@users.noreply.github.com'
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          E="$R/research-evidence-run205-MATTED-TRIPOSR-CPU-NO_RELEASE"
+          for f in "$R/2026-11-19-run205-dual-background-alpha-sourcebound-NO_RELEASE.md" "$E/status.json" "$E/preflight.json" "$E/manifest.json" "$E/native_mesh_inspection.json" "$E/inference_console.log" "$E/exception_trace.txt" "$E/install.log"; do
+            if test -f "$f"; then git add --sparse "$f"; fi
+          done
+          if ! git diff --cached --quiet; then
+            git commit -m "Run205 isolated true CPU image-to-native-model gate evidence; NO_RELEASE"
+            git push origin HEAD:research/owl172-run205-two-tone-alpha-triposr-cpu
+          fi

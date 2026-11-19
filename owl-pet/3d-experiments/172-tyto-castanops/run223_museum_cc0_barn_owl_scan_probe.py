@@ -60,8 +60,15 @@ def zenodo_probe():
   except Exception as e:
    R['checks']['zenodo_'+q]={'error':repr(e)}
  R['candidates']=found[:35]
- accepted=[c for c in found if c['glbs'] and 'cc0' in c['license'].lower()]
- accepted.sort(key=lambda c:(c['matched_uid'],c['museum'],len(c['glbs'])),reverse=True)
+ # Zenodo calls Creative Commons Zero 'cc-zero', not 'cc0'. Both denote CC0.
+ accepted=[c for c in found if c['glbs'] and
+           any(x in c['license'].lower() for x in ('cc0','cc-zero'))]
+ accepted.sort(key=lambda c:(c['title'].strip().lower()=='barn owl',
+                              c['matched_uid'],c['museum'],len(c['glbs'])),reverse=True)
+ for c in accepted:
+  # Prefer the original full-resolution scan over derived decimations for anatomy QA.
+  c['glbs'].sort(key=lambda g:(g['name'].lower()=='0e65de5934db4f0eae02835ba7227dcc.glb',
+                                'normalized_optimized' in g['name'].lower()),reverse=True)
  return accepted
 def smithsonian_probe():
  """Metadata scan. Never fetch 22GB full dataset; check scientific_name/title for Tyto."""
@@ -206,7 +213,10 @@ try:
  R['checks']['preflight']={'README':'owl-pet/README.md','spec':'owl-pet/research/species/172-tyto-castanops-v3.md',
    'prev':'2026-11-20-run222...ART_REJECTED','main_production':'UNCHANGED (176/251 at main snapshot)'}
  matches=zenodo_probe()
- smithsonian_probe()
+ if matches:
+  R['checks']['smithsonian']='Not scanned again: an exact legitimately CC0 museum Barn owl scan donor was already located; avoid unnecessary 180MB metadata transfer.'
+ else:
+  smithsonian_probe()
  if not matches and R.get('smithsonian_candidate'):
   matches=[R['smithsonian_candidate']]
  if matches:

@@ -1,0 +1,54 @@
+name: Owl172 Run212 isolated official SF3D PBR zero-cost trial
+on:
+  push:
+    branches:
+      - research/owl172-run212-official-sf3d-single-stage-free-qa
+    paths:
+      - '.github/workflows/owl172-run212-sf3d-free-native-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  run212_sf3d:
+    name: Native one-stage free SF3D GLB attempt, art remains unapproved
+    runs-on: ubuntu-24.04
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Set up CPU GLB verification and VTK software renderer
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y xvfb libgl1-mesa-dri libgl1
+          python -m pip install -q gradio_client opencv-python-headless pillow numpy trimesh vtk
+      - name: Execute one official public free inference, record refusal or real native asset
+        run: |
+          xvfb-run -a python owl-pet/3d-experiments/172-tyto-castanops/run212_sf3d_single_stage_zero_gpu_probe.py
+      - name: Isolated model/input/render evidence (never release without art QA)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run212-official-sf3d-UNAPPROVED-evidence
+          retention-days: 30
+          if-no-files-found: warn
+          path: owl-pet/3d-experiments/172-tyto-castanops/run212-evidence/
+      - name: Commit text-only execution report with fast-forward-safe isolated retry
+        if: always()
+        shell: bash
+        run: |
+          set -eu
+          dir=owl-pet/3d-experiments/172-tyto-castanops/run212-evidence
+          test -f "$dir/run212_report.json" || exit 0
+          git config user.name "owl172-research-bot"
+          git config user.email "owl172-research-bot@users.noreply.github.com"
+          git add "$dir/run212_report.json" "$dir/run212_report.md"
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "research(owl172): Run212 official free native-GLB execution report NO_RELEASE"
+          git fetch origin "${{ github.ref_name }}"
+          git rebase "origin/${{ github.ref_name }}"
+          git push origin "HEAD:${{ github.ref_name }}"

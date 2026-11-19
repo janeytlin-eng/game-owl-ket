@@ -1,0 +1,68 @@
+name: "#172 Run228 official no-fee local CPU Hunyuan3D-2mini real mesh feasibility NO_RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run228-free-official-hunyuan-mini-cpu-quality-gate-no-release
+    paths:
+      - '.github/workflows/owl172-run228-official-hunyuan-mini-localcpu.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run228_official_hunyuan3dmini_localcpu_juvenile_trial.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  official-native-free-cpu-shape-not-release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    env:
+      OMP_NUM_THREADS: '3'
+      MKL_NUM_THREADS: '3'
+      HF_HOME: /tmp/owl172-run228-HF
+      HF_HUB_DISABLE_TELEMETRY: '1'
+      HF_HUB_DISABLE_XET: '1'
+      RUN228_HY3D_ROOT: /tmp/Hunyuan3D-2
+    steps:
+      - name: Checkout isolated research only
+        uses: actions/checkout@v4
+      - name: Install Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install CPU-only torch from official index and true mesh rendering tools
+        run: |
+          set -eux
+          python -m pip install --upgrade pip
+          python -m pip install --index-url https://download.pytorch.org/whl/cpu "torch==2.5.1" "torchvision==0.20.1"
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends xvfb libgl1-mesa-dri libglx-mesa0 libosmesa6
+          python -m pip install "numpy==1.26.4" "pillow==10.4.0" "opencv-python-headless==4.10.0.84" "scipy==1.14.1" "scikit-image==0.24.0" "trimesh==4.4.9" "vtk==9.3.1" "diffusers==0.32.2" "transformers==4.44.2" "accelerate==1.2.1" "huggingface-hub==0.27.1" "omegaconf==2.3.0" "einops==0.8.0" "safetensors==0.4.5" "pymeshlab" "pygltflib" "xatlas" "pyyaml" "tqdm"
+          python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/run228_official_hunyuan3dmini_localcpu_juvenile_trial.py
+      - name: Fetch Tencent official source and preserve noncommercial license boundary
+        run: |
+          set -eux
+          git clone --depth 1 https://github.com/Tencent-Hunyuan/Hunyuan3D-2.git "${RUN228_HY3D_ROOT}"
+          (cd "${RUN228_HY3D_ROOT}" && git rev-parse HEAD)
+          test -s "${RUN228_HY3D_ROOT}/LICENSE"
+          grep -Ei 'Tencent|NON.COMMERCIAL|Community License' "${RUN228_HY3D_ROOT}/LICENSE" | head -8 || true
+      - name: ACTUALLY run official 0.6B diffusion shape model on zero-additional-fee CPU with full failure audit
+        run: |
+          xvfb-run -a timeout 2250s python -u owl-pet/3d-experiments/172-tyto-castanops/run228_official_hunyuan3dmini_localcpu_juvenile_trial.py
+      - name: Archive the actual machine GLB and seven-camera PNGs or failure reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run228-official-hunyuan3dmini-CPU-evidence-no-art-approval-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/run228-evidence/
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Preserve machine diagnostics only in this research branch
+        if: always()
+        run: |
+          git config user.name owl172-research-bot
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f owl-pet/3d-experiments/172-tyto-castanops/run228-evidence/run228_report.json 2>/dev/null || true
+          git add -f owl-pet/3d-experiments/172-tyto-castanops/run228-evidence/run228_status.md 2>/dev/null || true
+          git add -f owl-pet/3d-experiments/172-tyto-castanops/run228-evidence/run228_OFFICIAL_REAL_7AXIAL_MESH_QA_NOT_APPROVED.png 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m 'audit(owl172): save actual Hunyuan3D mini CPU trial diagnostics, no release'
+            git push origin HEAD:research/owl172-run228-free-official-hunyuan-mini-cpu-quality-gate-no-release || echo 'push disabled: Actions ZIP remains available'
+          fi

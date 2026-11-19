@@ -1,0 +1,85 @@
+{
+  "run": "Run225",
+  "date_utc": "2026-11-19T20:41:12.420219+00:00",
+  "target": "#172 Tyto castanops v3 RIGHTMOST cream down age-unknown mesoptile",
+  "model": "tencent/Hunyuan3D-2",
+  "upstream": "https://huggingface.co/spaces/tencent/Hunyuan3D-2",
+  "reference_crop_xyxy": [
+    950,
+    255,
+    1440,
+    850
+  ],
+  "status": "NO_NEW_VERIFIED_GLB_NO_RELEASE",
+  "output_release": "NO_RELEASE",
+  "paid_requests": 0,
+  "hf_token_used": false,
+  "actual_mobile_gpu_test": false,
+  "art_review": "PENDING_HUMAN_VISUAL_INSPECTION_NEVER_AUTO_ACCEPT",
+  "constraints": [
+    "true spatial 3D",
+    "heart face integrated into head",
+    "cream second down",
+    "young crouched proportions",
+    "short down buried wings",
+    "hidden tail",
+    "both feet on broad hollow lip",
+    "consistent back and sides",
+    "phone WebGL budget"
+  ],
+  "source_sha": "881dec86e0e66ab2ad0781db86a3b719b35e710d2be1a1606d761a9d0908483d",
+  "restored_eye_holes": [
+    {
+      "bbox": [
+        217,
+        153,
+        32,
+        28
+      ],
+      "pixels": 676
+    },
+    {
+      "bbox": [
+        309,
+        152,
+        24,
+        27
+      ],
+      "pixels": 539
+    }
+  ],
+  "alpha_ratio": 0.5516926770708284,
+  "input_sha": "7216a7d311408eb0ccb4853397c0233a9da0c7af7881bf58595fef1112c09812",
+  "api_endpoints": {
+    "0": "/load_example",
+    "1": "/load_example_1",
+    "2": "/load_example_2",
+    "3": "/lambda",
+    "4": "/lambda_1",
+    "5": "/shape_generation",
+    "6": "/lambda_2",
+    "7": "/lambda_3",
+    "8": "/generation_all",
+    "9": "/lambda_4",
+    "10": "/lambda_5",
+    "11": "/on_gen_mode_change",
+    "12": "/on_decode_mode_change",
+    "13": "/lambda_6",
+    "14": "/on_export_click"
+  },
+  "submitted": true,
+  "remote_endpoint": "/generation_all",
+  "error": "'You have exceeded your ZeroGPU runs limit. Authenticate with a Hugging Face token for more quota - https://huggingface.co/settings/tokens'",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/game-owl-ket/game-owl-ket/owl-pet/3d-experiments/172-tyto-castanops/run225_hunyuan2_official_zerogpu_juvenile_qa.py\", line 180, in main\n    result=job.result(timeout=500)\n  File \"/home/runner/.local/lib/python3.14/site-packages/gradio_client/client.py\", line 1707, in result\n    return super().result(timeout=timeout)\n           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.14/concurrent/futures/_base.py\", line 450, in result\n    return self.__get_result()\n           ~~~~~~~~~~~~~~~~~^^\n  File \"/usr/lib/python3.14/concurrent/futures/_base.py\", line 395, in __get_result\n    raise self._exception\n  File \"/usr/lib/python3.14/concurrent/futures/thread.py\", line 86, in run\n    result = ctx.run(self.task)\n  File \"/usr/lib/python3.14/concurrent/futures/thread.py\", line 73, in run\n    return fn(*args, **kwargs)\n  File \"/home/runner/.local/lib/python3.14/site-packages/gradio_client/client.py\", line 1233, in _inner\n    predictions = _predict(*data, **kwargs)\n  File \"/home/runner/.local/lib/python3.14/site-packages/gradio_client/client.py\", line 1356, in _predict\n    raise AppError(message=message, **result)\ngradio_client.exceptions.AppError: 'You have exceeded your ZeroGPU runs limit. Authenticate with a Hugging Face token for more quota - https://huggingface.co/settings/tokens'\n",
+  "runtime_seconds": 5.43,
+  "evidence_files": {
+    "run225_canonical_young_RGBA_restored_eyes.png": {
+      "bytes": 317289,
+      "sha256": "7216a7d311408eb0ccb4853397c0233a9da0c7af7881bf58595fef1112c09812"
+    },
+    "run225_exact_young_crop.png": {
+      "bytes": 297445,
+      "sha256": "85a9e50d58ea49ee10e690a835be1d756602b2232d5d77c563fe98dcf2080b06"
+    }
+  }
+}

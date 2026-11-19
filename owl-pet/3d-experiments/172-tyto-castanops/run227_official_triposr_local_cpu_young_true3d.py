@@ -147,17 +147,20 @@ def seven_cameras(model_path):
     assert np.isfinite(b).all() and np.all(b[1::2]>b[::2])
     center=(b[::2]+b[1::2])/2
     span=max(b[1::2]-b[::2])
-    specs=[("front",(0,0,3)),("back",(0,0,-3)),
-           ("left",(-3,0,0)),("right",(3,0,0)),
-           ("front_threequarter",(2,.55,2)),("top",(0,3,.2)),
-           ("bottom",(0,-3,.5))]
+    # TRIPOSR OFFICIAL CONVENTION: x back, y right, z up;
+    # previous Run227 seven-camera montage used incorrect front/top axes.
+    # Corrected Run227b: image-facing camera = -X, back = +X, top = +Z.
+    specs=[("front",(-3,0,0)),("back",(3,0,0)),
+           ("left",(0,-3,0)),("right",(0,3,0)),
+           ("front_threequarter",(-2,2,.4)),("top",(0,0,3)),
+           ("bottom",(0,0,-3))]
     panel=Image.new("RGB",(4*320,2*350),(244,245,246))
     pen=ImageDraw.Draw(panel); records=[]
     for index,(name,vector) in enumerate(specs):
         cam=ren.GetActiveCamera();cam.ParallelProjectionOn()
         cam.SetFocalPoint(*center)
         cam.SetPosition(*(center+span*np.array(vector)))
-        cam.SetViewUp(*( (0,0,1) if name=="top" else (0,1,0) ))
+        cam.SetViewUp(*( (0,1,0) if name in ("top","bottom") else (0,0,1) ))
         cam.SetParallelScale(span*.8)
         ren.ResetCameraClippingRange()
         win.Render()
@@ -174,7 +177,7 @@ def seven_cameras(model_path):
     panel.save(OUT/"run227_TRIPOSR_SEVEN_TRUE3D_CAMERAS_NOT_APPROVED.png")
     win.Finalize()
     R["seven_camera_evidence"]=records
-    R["technical_status"]="REAL_GLTF_IMPORT_AND_SEVEN_NATIVE_CAMERA_RENDER_PASS"
+    R["technical_status"]="REAL_GLTF_IMPORT_AND_SEVEN_NATIVE_CAMERA_RENDER_PASS_CORRECT_Z_UP"
     R["art_gate"]="NOT_APPROVED_UNTIL_VISUAL_COMPARISON"
     R["release"]="NO_RELEASE"
 

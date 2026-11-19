@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run212: evaluate official Microsoft TRELLIS.2 public ZeroGPU Space, no paid API.
+"""Run212: evaluate official Stability AI Stable Fast 3D public ZeroGPU Space, no paid API.
 RESEARCH ONLY. Never mark 3D as accepted automatically.
 """
 import json, hashlib, traceback, shutil, time, os
@@ -54,6 +54,19 @@ def make_input():
   candidate=max(range(1,n),key=lambda i:stats[i,cv2.CC_STAT_AREA])
   alpha=(labels==candidate).astype(np.uint8)*255
  alpha=cv2.morphologyEx(alpha,cv2.MORPH_CLOSE,np.ones((5,5),np.uint8))
+ # IMPORTANT: GrabCut misclassifies two DARK PUPILS as background!
+ # Keep the original RGB intact and fill only small enclosed transparent
+ # regions. This corrects Run211/Run212 eye-loss source-matte defect.
+ inv=cv2.bitwise_not(alpha)
+ cc,cc_labels,cc_stats,_=cv2.connectedComponentsWithStats(inv)
+ holes=[]
+ for j in range(1,cc):
+  x,y,rw,rh,area=map(int,cc_stats[j])
+  inner=x>0 and y>0 and x+rw<w and y+rh<h
+  if inner and area<.02*(w*h):
+   alpha[cc_labels==j]=255
+   holes.append({"bbox_xywh":[x,y,rw,rh],"pixels":area})
+ report["restored_enclosed_mask_holes"]=holes
  # Ensure output is not an almost empty / all-opaque segmentation.
  ratio=float(np.count_nonzero(alpha))/alpha.size
  report["input_matte_nonzero_ratio"]=ratio

@@ -1,0 +1,30 @@
+{
+  "run": 204,
+  "utc": "2026-11-19T03:06:48.207070+00:00",
+  "model": "VAST-AI-Research/TripoSR",
+  "device": "GitHub-hosted CPU",
+  "extra_payment": 0,
+  "new_native_glb": true,
+  "sevenview_rendered": true,
+  "art_approved": false,
+  "physical_phone_gpu": false,
+  "release": false,
+  "command": [
+    "/opt/hostedtoolcache/Python/3.11.18/x64/bin/python",
+    "/tmp/TripoSR/run.py",
+    "/home/runner/work/game-owl-ket/game-owl-ket/owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run114C-RGB-BOUNDED-NATIVE-ART_REJECTED/rightmost_mesoptile_input.png",
+    "--device",
+    "cpu",
+    "--mc-resolution",
+    "128",
+    "--chunk-size",
+    "1024",
+    "--model-save-format",
+    "glb",
+    "--output-dir",
+    "/home/runner/work/game-owl-ket/game-owl-ket/owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run204-TRIPOSR-CPU-NATIVE-NO_RELEASE/inference"
+  ],
+  "exit_code": 0,
+  "inference_seconds": 52.34,
+  "gate": "NATIVE_GLTF_SEVENVIEW_UNREVIEWED"
+}

@@ -1,6 +1,6 @@
 {
   "experiment": "Run227",
-  "created_utc": "2026-11-19T22:09:19.636756+00:00",
+  "created_utc": "2026-11-19T22:17:55.406108+00:00",
   "target": "Tyto castanops v3 RIGHT young cream mesoptile only",
   "method": "official MIT Stability AI / Tripo AI TripoSR, local CPU, no ZeroGPU/API",
   "weights": "https://huggingface.co/stabilityai/TripoSR",
@@ -15,15 +15,15 @@
   "phases": {
     "canonical_two_dimensional_source": {
       "ok": true,
-      "seconds": 3.34
+      "seconds": 4.4
     },
     "official_model_cpu_and_marching_cubes": {
       "ok": true,
-      "seconds": 17.22
+      "seconds": 35.59
     },
     "seven_real_three_dimensional_mesh_cameras": {
       "ok": true,
-      "seconds": 6.6
+      "seconds": 5.79
     }
   },
   "reference": {
@@ -79,87 +79,91 @@
     ],
     "hash": {
       "bytes": 398620,
-      "sha256": "2f78612240534d3d6e3f3bb3aca4daa667441b392914a01f5a52a3670d7e7169"
+      "sha256": "1a1f8bfd7f81e0ac980d924dace146d4dff0fe97a35ba8a6c106fc71a702933f"
     },
     "vertex_colors": true
   },
   "seven_camera_evidence": [
     {
       "camera": "front",
-      "foreground_pixels": 60315,
+      "foreground_pixels": 27612,
       "file": "run227_TRUE_MESH_front_NOT_APPROVED.png"
     },
     {
       "camera": "back",
-      "foreground_pixels": 60465,
+      "foreground_pixels": 27468,
       "file": "run227_TRUE_MESH_back_NOT_APPROVED.png"
     },
     {
       "camera": "left",
-      "foreground_pixels": 27615,
+      "foreground_pixels": 34151,
       "file": "run227_TRUE_MESH_left_NOT_APPROVED.png"
     },
     {
       "camera": "right",
-      "foreground_pixels": 27468,
+      "foreground_pixels": 34119,
       "file": "run227_TRUE_MESH_right_NOT_APPROVED.png"
     },
     {
       "camera": "front_threequarter",
-      "foreground_pixels": 48476,
+      "foreground_pixels": 38147,
       "file": "run227_TRUE_MESH_front_threequarter_NOT_APPROVED.png"
     },
     {
       "camera": "top",
-      "foreground_pixels": 35879,
+      "foreground_pixels": 60315,
       "file": "run227_TRUE_MESH_top_NOT_APPROVED.png"
     },
     {
       "camera": "bottom",
-      "foreground_pixels": 29933,
+      "foreground_pixels": 60465,
       "file": "run227_TRUE_MESH_bottom_NOT_APPROVED.png"
     }
   ],
-  "technical_status": "REAL_GLTF_IMPORT_AND_SEVEN_NATIVE_CAMERA_RENDER_PASS",
+  "technical_status": "REAL_GLTF_IMPORT_AND_SEVEN_NATIVE_CAMERA_RENDER_PASS_CORRECT_Z_UP",
   "status": "NATIVE_3D_READY_FOR_VISUAL_REJECTION_OR_REVIEW_NO_RELEASE",
-  "elapsed_seconds": 28.84,
-  "ended_utc": "2026-11-19T22:09:48.479427+00:00",
+  "elapsed_seconds": 47.84,
+  "ended_utc": "2026-11-19T22:18:43.250201+00:00",
   "files": {
     "run227_TRIPOSR_CPU_native_REAL3D_ART_UNAPPROVED.glb": {
       "bytes": 398620,
-      "sha256": "2f78612240534d3d6e3f3bb3aca4daa667441b392914a01f5a52a3670d7e7169"
+      "sha256": "1a1f8bfd7f81e0ac980d924dace146d4dff0fe97a35ba8a6c106fc71a702933f"
     },
     "run227_TRIPOSR_SEVEN_TRUE3D_CAMERAS_NOT_APPROVED.png": {
-      "bytes": 257027,
-      "sha256": "949a2b7aa999d3564f30c50ab193bfccd7ab09f211b0ba9d0455466b1faaae97"
+      "bytes": 249070,
+      "sha256": "b5b4c1553e3b4be063e8851ed628a66ee1c8d76cb7bb56b69b65c3d355aa6337"
     },
     "run227_TRUE_MESH_back_NOT_APPROVED.png": {
-      "bytes": 108926,
-      "sha256": "e28d8426d73ce8b39a81e5ef3a2fcc785de08fe82540b8707a564e9f02cbc926"
+      "bytes": 60171,
+      "sha256": "1c15fa97510f0ddb33aaa4b116e9b96cbd9b23740d1ca71f56747e6e170ed22d"
     },
     "run227_TRUE_MESH_bottom_NOT_APPROVED.png": {
-      "bytes": 57898,
-      "sha256": "836ee82d3b6ad26317e5402c60971e60a949fbc856509c0d9d346a248c483078"
+      "bytes": 108942,
+      "sha256": "1aa57f88e4a71ba993de72a29d3bf296dbfff6028d1bbc0178e99a91f0b3df5e"
     },
     "run227_TRUE_MESH_front_NOT_APPROVED.png": {
-      "bytes": 103190,
-      "sha256": "40ef83c25ae74ac135341f1daf366b4c7a5894b024d47b020d067f014451fb4e"
+      "bytes": 49588,
+      "sha256": "74e8dd7c8e61c013f8c8d2d4b8248469f6bbbfa3c67136ebce1bf61518fe55e9"
     },
     "run227_TRUE_MESH_front_threequarter_NOT_APPROVED.png": {
-      "bytes": 92497,
-      "sha256": "74f52568b414c20e5489894c10f95c24b85b8e75035864ccbe7f603a34579810"
+      "bytes": 74671,
+      "sha256": "a1ecbe1895d2a27002c55ba2b31c0766f33f27889b347e374426a827504a1ab0"
     },
     "run227_TRUE_MESH_left_NOT_APPROVED.png": {
-      "bytes": 50209,
-      "sha256": "36bf7c84823fe8795fab682ccb33c7e169f25b9798f5efe3195727b13a0022ed"
+      "bytes": 62625,
+      "sha256": "780e6258535b7c9d5efb2769c2916f24c6855eb234b54afad2b603bccb99268e"
     },
     "run227_TRUE_MESH_right_NOT_APPROVED.png": {
-      "bytes": 60060,
-      "sha256": "be39010dce60c0c6ddf7799c43a3395389878b5d68fb388e8ed58d32b47a5f5d"
+      "bytes": 65110,
+      "sha256": "ea0008c8214235394cb9d731f6a1d08af762ae5fc3bb61de0dcb63f536729935"
     },
     "run227_TRUE_MESH_top_NOT_APPROVED.png": {
-      "bytes": 68158,
-      "sha256": "cd16f7eec800eebe3918a0fde3b3da92e5c7d44961bf72a5ace336afcb038574"
+      "bytes": 103154,
+      "sha256": "810a12f1332adfa5b3904dbf8dedfb1a45ca7dddf8f43c88df391522b749d4bb"
+    },
+    "run227_status.md": {
+      "bytes": 383,
+      "sha256": "7ca7f044380b34fac1ae037347adbc43e8a255ebe62c597122992186a82b9ef6"
     },
     "run227_validated_young_neutral_input_2D_ONLY.png": {
       "bytes": 231971,

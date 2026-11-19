@@ -1,0 +1,44 @@
+name: '#172 Run223 CC0 museum Tyto scan acquisition + native seven-view QA NO_RELEASE'
+on:
+  push:
+    branches:
+      - research/owl172-run223-museum-tyto-scan-free-model-forensics-no-release
+    paths:
+      - '.github/workflows/owl172-run223-museum-tyto-scan-research.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run223_museum_cc0_barn_owl_scan_probe.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  research-only:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install no-fee public-archive forensics and true 3D rendering tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends xvfb libgl1-mesa-dri libglx-mesa0
+          python3 -m pip install --disable-pip-version-check requests pillow numpy trimesh vtk pyarrow pandas
+      - name: Query actual public archive indexes, download legitimate CC0 donor if available, render original 3D
+        run: |
+          xvfb-run -a python3 owl-pet/3d-experiments/172-tyto-castanops/run223_museum_cc0_barn_owl_scan_probe.py
+      - name: Preserve raw download and negative evidence separately, never as pet release
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run223-CC0-museum-scan-actual-research-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/run223-evidence/
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Commit only measured JSON and visual negatives to isolated branch
+        if: always()
+        run: |
+          git config user.name 'owl172-research-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f owl-pet/3d-experiments/172-tyto-castanops/run223-evidence/run223_report.json 2>/dev/null || true
+          git add -f owl-pet/3d-experiments/172-tyto-castanops/run223-evidence/run223_museum_7views_NOT_APPROVED.png 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m 'audit(owl172): independently measured museum scan archive attempt NO RELEASE'
+            git push origin HEAD:research/owl172-run223-museum-tyto-scan-free-model-forensics-no-release || echo 'PUSH_UNAVAILABLE workflow artifact still retained'
+          fi

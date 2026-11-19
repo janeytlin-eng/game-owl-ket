@@ -105,7 +105,7 @@ jobs:
               info["cream_fraction"]=round(float(np.mean(nearcream)),3)
               info["light_fraction"]=round(float(np.mean(light)),3)
               info["contrast"]=round(float(contrast),2)
-              info["heuristic_score"]=float(score_meta(h)) + 22*info["cream_fraction"] + min(8,contrast/8)
+              info["heuristic_score"]=float(float(score_meta(h)) + 22*info["cream_fraction"] + min(8,float(contrast)/8))
             except Exception as e:info["error"]=repr(e)
             return info
           def render(path,uid):

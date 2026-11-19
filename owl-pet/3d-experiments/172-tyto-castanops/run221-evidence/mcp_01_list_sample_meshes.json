@@ -1,0 +1,33 @@
+{
+  "tool": "list_sample_meshes",
+  "arguments": {},
+  "seconds": 0.0,
+  "result": {
+    "isError": false,
+    "parsed": {
+      "hint": "new_groom takes a sample by name as its mesh.",
+      "meshes": [
+        {
+          "description": "Buddy, a cartoon character's body (CC BY 4.0), about 57 units tall, Y-up, facing +Z; the Maya/Blender samples also ship it rigged.",
+          "file": "buddy.obj",
+          "name": "buddy"
+        },
+        {
+          "description": "Manny, a human head (CC BY 4.0), about 34 units tall, Y-up, facing +Z: for hair.",
+          "file": "manny_head.obj",
+          "name": "manny"
+        },
+        {
+          "description": "Nika, a human head (CC BY 4.0), about 25 units tall, Y-up, facing +Z: for hair.",
+          "file": "nika_head.obj",
+          "name": "nika"
+        },
+        {
+          "description": "A wolf's body, Y-up: for fur.",
+          "file": "wolf.obj",
+          "name": "wolf"
+        }
+      ]
+    }
+  }
+}

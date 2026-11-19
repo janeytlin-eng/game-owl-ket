@@ -1,0 +1,61 @@
+{
+  "tool": "new_groom",
+  "arguments": {
+    "name": "real_wolf_downfeathers_tech_only",
+    "mesh": "wolf",
+    "preset": "feathers_down"
+  },
+  "seconds": 0.07,
+  "result": {
+    "isError": false,
+    "parsed": {
+      "groom": "real_wolf_downfeathers_tech_only",
+      "mesh": "wolf (sample)",
+      "preset": {
+        "mode": "replace",
+        "preset": "feathers_down",
+        "title": "Down feathers"
+      },
+      "scalp": {
+        "max": [
+          19.4543,
+          99.5762,
+          34.8153
+        ],
+        "min": [
+          -19.4543,
+          -0.1132,
+          -74.8601
+        ],
+        "points": 8604,
+        "triangles": 16414,
+        "units": "cm",
+        "upAxis": "Y"
+      },
+      "summary": {
+        "bounds": {
+          "max": [
+            27.3147,
+            102.4767,
+            38.9084
+          ],
+          "min": [
+            -29.5649,
+            -13.9915,
+            -76.6637
+          ]
+        },
+        "errors": [],
+        "guides": 0,
+        "ms": 11,
+        "notes": {
+          "downFeather": "fluff: added points to 2267 strands too few a turn for the tolerance (more Resample segments keep the GPU preview)",
+          "downFeather/fluff": "added points to 2267 strands too few a turn for the tolerance (more Resample segments keep the GPU preview)",
+          "shaftShapes": "no guides: place some with the guide tools; the strands keep their incoming shape"
+        },
+        "points": 42316,
+        "strands": 2436
+      }
+    }
+  }
+}

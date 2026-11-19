@@ -1,0 +1,51 @@
+{
+  "tool": "evaluate",
+  "arguments": {
+    "groom": "real_wolf_downfeathers_tech_only",
+    "density": 0.05
+  },
+  "seconds": 0.01,
+  "result": {
+    "isError": false,
+    "parsed": {
+      "bounds": {
+        "max": [
+          27.3147,
+          102.4767,
+          38.9084
+        ],
+        "min": [
+          -29.5649,
+          -13.9915,
+          -76.6637
+        ]
+      },
+      "density": 0.05000000074505806,
+      "errors": [],
+      "frame": 1.0,
+      "groom": "real_wolf_downfeathers_tech_only",
+      "guides": 0,
+      "ms": 11,
+      "nodeMs": {
+        "downFeather": 10.8,
+        "downFeather/fluff": 7.0,
+        "downFeather/frizzNoise": 1.7,
+        "downFeather/propagate": 0.9,
+        "downFeather/short": 0.1,
+        "downFeather/width": 1.2,
+        "guides": 0.0,
+        "output": 0.0,
+        "scalp": 0.0,
+        "shaftShapes": 0.0,
+        "shafts": 0.1
+      },
+      "notes": {
+        "downFeather": "fluff: added points to 2267 strands too few a turn for the tolerance (more Resample segments keep the GPU preview)",
+        "downFeather/fluff": "added points to 2267 strands too few a turn for the tolerance (more Resample segments keep the GPU preview)",
+        "shaftShapes": "no guides: place some with the guide tools; the strands keep their incoming shape"
+      },
+      "points": 42316,
+      "strands": 2436
+    }
+  }
+}

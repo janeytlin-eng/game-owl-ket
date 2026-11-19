@@ -1,0 +1,283 @@
+{
+  "tool": "list_presets",
+  "arguments": {},
+  "seconds": 0.0,
+  "result": {
+    "isError": false,
+    "parsed": {
+      "hint": "new_groom or apply_preset take a preset by name.",
+      "presets": [
+        {
+          "category": "Fur",
+          "description": "Wild-type banded fur like a wolf's or a hare's, made on a wolf-sized body: each hair dark at the root, a pale band, then a black tip (HairColor's tip, a Bands node's band), lying along painted arrows.",
+          "name": "agouti_fur",
+          "title": "Agouti fur"
+        },
+        {
+          "category": "Techniques",
+          "description": "Sleek hair that turns into curls as you animate one slider on the groom (a Control drives a Blend between two branches).",
+          "name": "blend_two_looks",
+          "title": "Blend two looks"
+        },
+        {
+          "category": "Braids",
+          "description": "Box braids all over the head with nothing to draw first: Braid picks one braid per patch of scalp, about 2.6 cm apart however big the head, plaits each to a sealed end (end bound) and gathers every strand into the nearest.",
+          "name": "braids",
+          "title": "Box braids"
+        },
+        {
+          "category": "Braids",
+          "description": "Box braids with beads and cuffs near the tips. The braid's ties tighten it (cinch) and its ties output feeds an Instance node's along input, which puts the built-in bead and cuff meshes round each tie, as thick as the braid there (fitWidth). Swap the prototype for meshes of your own: rings round a bore of radius 0.5, up +Y from 0 to 1.",
+          "name": "braids_beaded",
+          "title": "Beaded box braids"
+        },
+        {
+          "category": "Braids",
+          "description": "Draw the rows from the hairline back (the Draw tool, into the braids group). Each row picks up the hair on either side as it goes (feed), every crossing taking in a band from its own side, the rows parting halfway between them; past feedUntil they leave the head and hang as braids, a bead at each end. region: how far a row reaches (half the gap between rows, or a little more).",
+          "name": "braids_cornrows",
+          "title": "Cornrows"
+        },
+        {
+          "category": "Braids",
+          "description": "Box braids tied off near the end (a hair tie on each: the built-in groomlab:hairTie), the ends below curling. The Braid writes braidTail per point (0 in the braid, 1 at the tip): the Curl's radius mapped by it curls the ends alone. Clump or Noise after the Braid with affect $braidTail would shape them the same way.",
+          "name": "braids_curly_ends",
+          "title": "Box braids, curly ends"
+        },
+        {
+          "category": "Braids",
+          "description": "Draw one path from where the ponytail sits down the back. All the hair within region of its start sweeps over the scalp into it and is braided in a fishtail (sections: strips a side), tied at the base and the end. Change style for a three-strand ponytail.",
+          "name": "braids_fishtail_ponytail",
+          "title": "Fishtail ponytail"
+        },
+        {
+          "category": "Braids",
+          "description": "Draw one path from the top of the head down the back and off the nape. The braid picks up the hair from both sides as it goes down the head (feed, as far as region reaches), raised off the scalp; past feedUntil it hangs free, tied off with a gathered tuft below. Dutch on: a Dutch braid, raised higher.",
+          "name": "braids_french",
+          "title": "French braid"
+        },
+        {
+          "category": "Braids",
+          "description": "Draw one path from where the braid starts (the nape, behind an ear) down over a shoulder or the back. All the hair within region of its start goes into a loose three-strand braid: pulled apart by hand (pancake), with sections of hair looping out of the braid and back (loops, loopSize), the ends gathered loosely.",
+          "name": "braids_loose",
+          "title": "Loose braid"
+        },
+        {
+          "category": "Braids",
+          "description": "Box twists all over the head: Braid's rope style, two plies twisted round each other (sections: 3 for three-strand twists; dutch twists the other way), to a sealed end.",
+          "name": "braids_twists",
+          "title": "Two-strand twists"
+        },
+        {
+          "category": "Add-ons",
+          "description": "Turns whatever look it is added to into textured hair cards for a game engine.",
+          "name": "cards_mid",
+          "title": "Cards Mid"
+        },
+        {
+          "category": "Hair",
+          "description": "Hero hair for close-ups: clumps around the guides, locked a little, inside bigger locks that wave as one; length and width varied per strand, frizz toward the tips, a few stray hairs, kept off the scalp.",
+          "name": "cinematic_hair",
+          "title": "Cinematic hair"
+        },
+        {
+          "category": "Fur",
+          "description": "Short, dense fur for a whole animal (made on a wolf-sized body): it lies along the direction arrows you paint (Flow), gathers into soft tufts about a centimetre across and lightens toward the tips.",
+          "name": "creature_fur",
+          "title": "Creature fur"
+        },
+        {
+          "category": "Hair",
+          "description": "Springy ringlets: strands gathered into small clumps that curl together (Curl with clump coherence), each ringlet its own size and phase, a little frizz on a few strands.",
+          "name": "curly",
+          "title": "Curly"
+        },
+        {
+          "category": "Scales",
+          "description": "Overlapping green dragon scales, bigger along the back and broad shields on the belly.",
+          "name": "dragon_scales",
+          "title": "Dragon scales"
+        },
+        {
+          "category": "Motion",
+          "description": "Shoulder-length hair that swings and settles as the head moves when you play the timeline.",
+          "name": "everyday_sim",
+          "title": "Everyday simulated hair"
+        },
+        {
+          "category": "Techniques",
+          "description": "Hair that is longer on the crown and shorter underneath, shaped by small formulas you can edit.",
+          "name": "expression_driven",
+          "title": "Expression-driven"
+        },
+        {
+          "category": "Feathers",
+          "description": "Body feathers whose base turns into soft fluff, like a chick's.",
+          "name": "feathers_afterfeather",
+          "title": "Feathers with an afterfeather"
+        },
+        {
+          "category": "Feathers",
+          "description": "Feathers with white bars, a green sheen and a downy base.",
+          "name": "feathers_barred",
+          "title": "Barred feathers"
+        },
+        {
+          "category": "Feathers",
+          "description": "Body feathers lying smoothly on the skin.",
+          "name": "feathers_contour",
+          "title": "Contour feathers"
+        },
+        {
+          "category": "Feathers",
+          "description": "Soft, fluffy down feathers, like a duckling's.",
+          "name": "feathers_down",
+          "title": "Down feathers"
+        },
+        {
+          "category": "Feathers",
+          "description": "Golden feathers with a shimmering eye spot near the tip, like a peacock's.",
+          "name": "feathers_eye_spot",
+          "title": "Eye-spot feathers"
+        },
+        {
+          "category": "Feathers",
+          "description": "Long, stiff flight feathers for wings and tails.",
+          "name": "feathers_flight",
+          "title": "Flight feathers"
+        },
+        {
+          "category": "Feathers",
+          "description": "Dark feathers that shimmer from green to blue as they turn, like a magpie's.",
+          "name": "feathers_iridescent",
+          "title": "Iridescent feathers"
+        },
+        {
+          "category": "Feathers",
+          "description": "Brown feathers with pale spots and a white downy base, like an owl's.",
+          "name": "feathers_spotted",
+          "title": "Spotted feathers"
+        },
+        {
+          "category": "Fur",
+          "description": "Short coat that follows painted direction arrows everywhere, and your guides (clumped) where you paint the guideAreas map white, for longer hair or tufts (a ruff, a mane, ear tufts). The map starts black, all fur: paint it white in Groom Tools > Paint where the guides should take over.",
+          "name": "flow_with_guides",
+          "title": "Flow with guide tufts"
+        },
+        {
+          "category": "Add-ons",
+          "description": "Adds a few stray hairs that catch the light to whatever look it is added to.",
+          "name": "flyaways",
+          "title": "Flyaways"
+        },
+        {
+          "category": "Add-ons",
+          "description": "Roughens part of the hair so it looks lived-in rather than freshly combed.",
+          "name": "frizz",
+          "title": "Frizz"
+        },
+        {
+          "category": "Games",
+          "description": "Hair turned into textured cards for a game engine.",
+          "name": "game_cards",
+          "title": "Game cards"
+        },
+        {
+          "category": "Add-ons",
+          "description": "Makes hair hang naturally under its own weight.",
+          "name": "gravity",
+          "title": "Gravity"
+        },
+        {
+          "category": "Hair",
+          "description": "A natural head of hair from your guides: strands scattered and shaped by the guides, gathered into soft clumps, a little noise, brown color and tapered tips. The start of most hair grooms.",
+          "name": "hair_basics",
+          "title": "Hair basics"
+        },
+        {
+          "category": "Feathers",
+          "description": "One flight feather per guide you draw, for wings and tails: the feathers guide group starts empty and the Draw tool draws into it, so every guide drawn from the skin is a feather.",
+          "name": "hand_placed_feathers",
+          "title": "Flight feathers (hand-placed)"
+        },
+        {
+          "category": "Feathers",
+          "description": "Contour feathers laid over one another like roof tiles and off the body (Plume).",
+          "name": "layered_feathers",
+          "title": "Layered feathers"
+        },
+        {
+          "category": "Techniques",
+          "description": "Hair built in two layers merged together: a base, and a few longer, wavier strands on top packed in a reusable Compound node with its own sliders; a Switch picks the full look or a light one for layout.",
+          "name": "merge_layers",
+          "title": "Layers, compounds and switches"
+        },
+        {
+          "category": "Techniques",
+          "description": "Paint one map to control where the hair clumps, where it frizzes and how long it grows.",
+          "name": "painted_maps",
+          "title": "Painted maps"
+        },
+        {
+          "category": "Hair",
+          "description": "Hair that parts cleanly along a line you draw on the scalp (Draw Part): guides and clumps never blend across it, and the Part node opens it a little.",
+          "name": "parted_style",
+          "title": "Parted hair"
+        },
+        {
+          "category": "Scales",
+          "description": "Scales that point along the direction arrows you paint.",
+          "name": "scales_from_flow",
+          "title": "Scales from flow"
+        },
+        {
+          "category": "Scales",
+          "description": "Scales that turn to follow the guides you place and comb.",
+          "name": "scales_from_guides",
+          "title": "Scales from guides"
+        },
+        {
+          "category": "Scales",
+          "description": "Spikes or quills that sweep and bend with your guides.",
+          "name": "swept_spikes",
+          "title": "Swept spikes"
+        },
+        {
+          "category": "Hair",
+          "description": "Stylized locks shaped as a whole (anime, cartoon): strands fill each guide's tube and stay inside it to the tip, soft clumps follow the tubes, a little noise, tapered tips. Hair grows only on the guides' tubes (Scatter's guide radius). Place guides, then shape their tubes with the Tube brush (width, flatness, twist) and pick a shape in its Tubes panel.",
+          "name": "tube_locks",
+          "title": "Tube locks (anime)"
+        },
+        {
+          "category": "Add-ons",
+          "description": "Recolors any hair with a picked root color (here a skin tone) that blends to white tips, each strand a little lighter or darker and its tip starting at its own place. Set color and tipColor to any two colors.",
+          "name": "two_tone_tips",
+          "title": "Two-tone tips"
+        },
+        {
+          "category": "Techniques",
+          "description": "Leaves along curling vines, each bent along its vine (Instance deform alongStrand).",
+          "name": "vine_leaves",
+          "title": "Vine leaves"
+        },
+        {
+          "category": "Add-ons",
+          "description": "Makes any hair look wet, dark and stuck together: small clumps near the root merging into bigger ones toward the tip.",
+          "name": "wet",
+          "title": "Wet"
+        },
+        {
+          "category": "Fur",
+          "description": "Dense, crimped white fleece (made on a sheep-sized body): fibres gathered into soft locks, a picked off-white (HairColor's color mode, so no pigment browns it) with a little brightness variation and clean white tips.",
+          "name": "white_wool",
+          "title": "White wool"
+        },
+        {
+          "category": "Motion",
+          "description": "Hair that blows in the wind and bounces when the head moves, with no simulation to run.",
+          "name": "wind_and_jiggle",
+          "title": "Wind and jiggle"
+        }
+      ]
+    }
+  }
+}

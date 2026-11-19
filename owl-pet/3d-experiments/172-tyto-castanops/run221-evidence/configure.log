@@ -1,0 +1,57 @@
+-- The CXX compiler identification is GNU 15.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- TBB: package 2022.3.0
+-- Using the multi-header code from /home/runner/work/_temp/owl172-run221-groomlab/build/lean-cli/_deps/nlohmann_json-src/include/
+-- Stored nlohmann_json's sources in /home/runner/.cache/groomlab-deps/fetch/nlohmann_json-3.11.3
+-- GPU look preview (engine/gpu): Windows only for now, left out with its tests (groomlab_gpu_tests)
+-- The C compiler identification is GNU 15.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Imath is configuring as a cmake sub project
+-- Configure Imath 3.1.12, library API version: 29.11.0
+-- Imath pkg-config generation disabled
+-- Looking for sin in m
+-- Looking for sin in m - found
+-- CMAKE SYSTEM NAME: Linux
+-- The install dir is /usr/local
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Found package Imath
+
+   * Alembic Configuration              ===
+   * USE_ARNOLD                         OFF
+   * USE_BINARIES                       OFF
+   * USE_EXAMPLES                       OFF
+   * USE_HDF5                           OFF
+   * USE_MAYA                           OFF
+   * USE_PRMAN                          OFF
+   * USE_PYALEMBIC                      OFF
+   * USE_STATIC_BOOST                   OFF
+   * USE_STATIC_HDF5                    OFF
+   * USE_TESTS                          OFF
+   * ALEMBIC_ILMBASE_LINK_STATIC        OFF
+   * ALEMBIC_SHARED_LIBS                OFF
+   * ALEMBIC_DEBUG_WARNINGS_AS_ERRORS   OFF
+   * PYALEMBIC_PYTHON_MAJOR             3
+   * DOCS_PATH                          OFF
+-- Stored Imath's sources in /home/runner/.cache/groomlab-deps/fetch/Imath-v3.1.12
+-- Stored Alembic's sources in /home/runner/.cache/groomlab-deps/fetch/Alembic-1.8.8
+-- Configuring done (4.2s)
+CMake Warning:
+  Value of CMAKE_SYSTEM_PROCESSOR contained a newline; truncating
+
+
+-- Generating done (0.0s)
+CMake Warning:
+  Value of CMAKE_SYSTEM_PROCESSOR contained a newline; truncating
+
+
+-- Build files have been written to: /home/runner/work/_temp/owl172-run221-groomlab/build/lean-cli

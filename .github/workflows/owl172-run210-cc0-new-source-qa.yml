@@ -38,7 +38,11 @@ jobs:
           set -e
           git config user.name "owl172-research-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if test -s /tmp/owl172-run210-evidence/run210_sevenview_contact.png; then
+            cp /tmp/owl172-run210-evidence/run210_sevenview_contact.png owl-pet/3d-experiments/172-tyto-castanops/2026-11-19-run210-source-sevenview-reference-UNAPPROVED.png
+          fi
           git add owl-pet/3d-experiments/172-tyto-castanops/2026-11-19-run210-new-cc0-source-native-probe-UNREVIEWED-NO_RELEASE.md || true
+          git add owl-pet/3d-experiments/172-tyto-castanops/2026-11-19-run210-source-sevenview-reference-UNAPPROVED.png || true
           if ! git diff --cached --quiet; then
             git commit -m "audit(owl172): Run210 independent real CC0 source download/render results - NO_RELEASE"
             git push origin HEAD:research/owl172-run210-new-cc0-glb-source-native-audit

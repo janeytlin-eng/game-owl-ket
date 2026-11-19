@@ -1,0 +1,581 @@
+{
+  "experiment": "run220-groomlab-open-source-real-fur-runtime",
+  "run": 220,
+  "subject": "#172 Tyto castanops v3 cream juvenile (technical tool qualification only)",
+  "actual_groom_subject": "GroomLab example wolf (NOT AN OWL)",
+  "example_mesh_credit": "Wolf by Nick Rutlinh (GroomLab), CC BY 4.0",
+  "source": "https://github.com/thekesslereffect/groomlab",
+  "upstream_commit": "5e81163e3520e14e99f001c41c441f85a186daf9",
+  "additional_paid_spend_usd": 0,
+  "production_changed": false,
+  "character_sample_accepted": false,
+  "art": "NOT_PASSED",
+  "phone_hardware_webgl": "NOT_TESTED",
+  "release": "NO_RELEASE",
+  "steps": {
+    "clone": {
+      "code": 0,
+      "error": null,
+      "seconds": 3.12,
+      "bytes": 65,
+      "sha256": "e4bce45ecbb967a9560be150ab21a9cab23f5de7ae6c3be843360931531fe8e3",
+      "tail": "Cloning into '/home/runner/work/_temp/owl172-run220-groomlab'...\n"
+    },
+    "pin": {
+      "code": 0,
+      "error": null,
+      "seconds": 0.36,
+      "bytes": 130,
+      "sha256": "dd5e47ebd6b3cdc8dbb2b8272541e2d983bcc066968a13dd72ee34ccaf79183e",
+      "tail": "HEAD is now at 5e81163 Merge PR #88: Subdivide roots by a painted density; root tubes on the root shape at every level (#85, #86)\n"
+    },
+    "configure": {
+      "code": 0,
+      "error": null,
+      "seconds": 6.33,
+      "bytes": 2451,
+      "sha256": "e941f942e67f13668b458651e3988a79c530ddad9f14a66ccb82446bbccf40ca",
+      "tail": " /home/runner/.cache/groomlab-deps/fetch/nlohmann_json-3.11.3\n-- GPU look preview (engine/gpu): Windows only for now, left out with its tests (groomlab_gpu_tests)\n-- The C compiler identification is GNU 15.2.0\n-- Detecting C compiler ABI info\n-- Detecting C compiler ABI info - done\n-- Check for working C compiler: /usr/bin/cc - skipped\n-- Detecting C compile features\n-- Detecting C compile features - done\n-- Imath is configuring as a cmake sub project\n-- Configure Imath 3.1.12, library API version: 29.11.0\n-- Imath pkg-config generation disabled\n-- Looking for sin in m\n-- Looking for sin in m - found\n-- CMAKE SYSTEM NAME: Linux\n-- The install dir is /usr/local\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n-- Found Threads: TRUE\n-- Found package Imath\n\n   * Alembic Configuration              ===\n   * USE_ARNOLD                         OFF\n   * USE_BINARIES                       OFF\n   * USE_EXAMPLES                       OFF\n   * USE_HDF5                           OFF\n   * USE_MAYA                           OFF\n   * USE_PRMAN                          OFF\n   * USE_PYALEMBIC                      OFF\n   * USE_STATIC_BOOST                   OFF\n   * USE_STATIC_HDF5                    OFF\n   * USE_TESTS                          OFF\n   * ALEMBIC_ILMBASE_LINK_STATIC        OFF\n   * ALEMBIC_SHARED_LIBS                OFF\n   * ALEMBIC_DEBUG_WARNINGS_AS_ERRORS   OFF\n   * PYALEMBIC_PYTHON_MAJOR             3\n   * DOCS_PATH                          OFF\n-- Stored Imath's sources in /home/runner/.cache/groomlab-deps/fetch/Imath-v3.1.12\n-- Stored Alembic's sources in /home/runner/.cache/groomlab-deps/fetch/Alembic-1.8.8\n-- Configuring done (5.7s)\nCMake Warning:\n  Value of CMAKE_SYSTEM_PROCESSOR contained a newline; truncating\n\n\n-- Generating done (0.1s)\nCMake Warning:\n  Value of CMAKE_SYSTEM_PROCESSOR contained a newline; truncating\n\n\n-- Build files have been written to: /home/runner/work/_temp/owl172-run220-groomlab/build/lean-cli\n"
+    },
+    "build": {
+      "code": 0,
+      "error": null,
+      "seconds": 323.39,
+      "bytes": 36557,
+      "sha256": "3f11707869b363c9cc7f2b021a689fd7131d2edadb9edff0ed336ded326ca1b4",
+      "tail": "akeFiles/Alembic.dir/Ogawa/OArchive.cpp.o\n[259/280] Building CXX object _deps/alembic-build/lib/Alembic/CMakeFiles/Alembic.dir/Ogawa/IStreams.cpp.o\n[260/280] Building CXX object _deps/alembic-build/lib/Alembic/CMakeFiles/Alembic.dir/Ogawa/OData.cpp.o\n[261/280] Building CXX object _deps/alembic-build/lib/Alembic/CMakeFiles/Alembic.dir/Ogawa/OGroup.cpp.o\n[262/280] Linking CXX static library engine/core/libgroomlab_core.a\n[263/280] Building CXX object _deps/alembic-build/lib/Alembic/CMakeFiles/Alembic.dir/Ogawa/OStream.cpp.o\n[264/280] Building CXX object engine/io/CMakeFiles/groomlab_alembic.dir/src/engine_export.cpp.o\n[265/280] Building CXX object engine/io/CMakeFiles/groomlab_alembic.dir/src/alembic_mesh.cpp.o\n[266/280] Building CXX object engine/io/CMakeFiles/groomlab_alembic.dir/src/import_curves_op.cpp.o\n[267/280] Building CXX object engine/io/CMakeFiles/groomlab_alembic.dir/src/groom_scene.cpp.o\n[268/280] Building CXX object engine/io/CMakeFiles/groomlab_alembic.dir/src/guide_cache_op.cpp.o\n[269/280] Linking CXX static library _deps/alembic-build/lib/Alembic/libAlembic.a\n[270/280] Building CXX object engine/io/CMakeFiles/groomlab_alembic.dir/src/sim_cache.cpp.o\n[271/280] Building CXX object engine/io/CMakeFiles/groomlab_alembic.dir/src/alembic_io.cpp.o\n[272/280] Linking CXX static library engine/io/libgroomlab_alembic.a\n[273/280] Building CXX object engine/cli/CMakeFiles/groomlab-cli.dir/main.cpp.o\n[274/280] Building CXX object engine/cli/CMakeFiles/groomlab-cli.dir/cli_export.cpp.o\n[275/280] Building CXX object engine/cli/CMakeFiles/groomlab-cli.dir/mcp_groom.cpp.o\n[276/280] Building CXX object engine/cli/CMakeFiles/groomlab-cli.dir/mesh_files.cpp.o\n[277/280] Building CXX object engine/cli/CMakeFiles/groomlab-cli.dir/mcp_server.cpp.o\n[278/280] Building CXX object engine/cli/CMakeFiles/groomlab-cli.dir/preview_render.cpp.o\n[279/280] Building CXX object engine/cli/CMakeFiles/groomlab-cli.dir/mcp_tools.cpp.o\n[280/280] Linking CXX executable engine/cli/groomlab-cli\n"
+    },
+    "version": {
+      "code": 0,
+      "error": null,
+      "seconds": 0.0,
+      "bytes": 41,
+      "sha256": "8e93214552e490520ce9c5a918d0d3512bdd4d13616534965c5a18185f5bbd4a",
+      "tail": "groomlab-cli 0.49.1 (TBB on, Alembic on)\n"
+    }
+  },
+  "files": {
+    "run220_real_wolf_fur_tech_ONLY.groom": {
+      "bytes": 1301147,
+      "sha256": "50a7dfd1d928d3eb2d77b308cc2678bd421491d19dada696d576ab00ef6986e9"
+    },
+    "run220_fur_fiveview_technical_ONLY.png": {
+      "bytes": 273172,
+      "sha256": "a0272f75f3191050be491c9cd0e3eaeb928cd25b3ea620866215e875de37a648"
+    },
+    "run220_wolf_technical_fur.usda": {
+      "bytes": 5865702,
+      "sha256": "d3b0e3a42771dbb27497f2116a65b69976b0e81df262b25cfd060717d0967042"
+    }
+  },
+  "reference": {
+    "bytes": 737545,
+    "sha256": "881dec86e0e66ab2ad0781db86a3b719b35e710d2be1a1606d761a9d0908483d"
+  },
+  "mcp": [
+    {
+      "tool": "list_sample_meshes",
+      "arguments": {},
+      "seconds": 0.0,
+      "result": {
+        "isError": false,
+        "parsed": {
+          "hint": "new_groom takes a sample by name as its mesh.",
+          "meshes": [
+            {
+              "description": "Buddy, a cartoon character's body (CC BY 4.0), about 57 units tall, Y-up, facing +Z; the Maya/Blender samples also ship it rigged.",
+              "file": "buddy.obj",
+              "name": "buddy"
+            },
+            {
+              "description": "Manny, a human head (CC BY 4.0), about 34 units tall, Y-up, facing +Z: for hair.",
+              "file": "manny_head.obj",
+              "name": "manny"
+            },
+            {
+              "description": "Nika, a human head (CC BY 4.0), about 25 units tall, Y-up, facing +Z: for hair.",
+              "file": "nika_head.obj",
+              "name": "nika"
+            },
+            {
+              "description": "A wolf's body, Y-up: for fur.",
+              "file": "wolf.obj",
+              "name": "wolf"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "tool": "list_presets",
+      "arguments": {},
+      "seconds": 0.0,
+      "result": {
+        "isError": false,
+        "parsed": {
+          "hint": "new_groom or apply_preset take a preset by name.",
+          "presets": [
+            {
+              "category": "Fur",
+              "description": "Wild-type banded fur like a wolf's or a hare's, made on a wolf-sized body: each hair dark at the root, a pale band, then a black tip (HairColor's tip, a Bands node's band), lying along painted arrows.",
+              "name": "agouti_fur",
+              "title": "Agouti fur"
+            },
+            {
+              "category": "Techniques",
+              "description": "Sleek hair that turns into curls as you animate one slider on the groom (a Control drives a Blend between two branches).",
+              "name": "blend_two_looks",
+              "title": "Blend two looks"
+            },
+            {
+              "category": "Braids",
+              "description": "Box braids all over the head with nothing to draw first: Braid picks one braid per patch of scalp, about 2.6 cm apart however big the head, plaits each to a sealed end (end bound) and gathers every strand into the nearest.",
+              "name": "braids",
+              "title": "Box braids"
+            },
+            {
+              "category": "Braids",
+              "description": "Box braids with beads and cuffs near the tips. The braid's ties tighten it (cinch) and its ties output feeds an Instance node's along input, which puts the built-in bead and cuff meshes round each tie, as thick as the braid there (fitWidth). Swap the prototype for meshes of your own: rings round a bore of radius 0.5, up +Y from 0 to 1.",
+              "name": "braids_beaded",
+              "title": "Beaded box braids"
+            },
+            {
+              "category": "Braids",
+              "description": "Draw the rows from the hairline back (the Draw tool, into the braids group). Each row picks up the hair on either side as it goes (feed), every crossing taking in a band from its own side, the rows parting halfway between them; past feedUntil they leave the head and hang as braids, a bead at each end. region: how far a row reaches (half the gap between rows, or a little more).",
+              "name": "braids_cornrows",
+              "title": "Cornrows"
+            },
+            {
+              "category": "Braids",
+              "description": "Box braids tied off near the end (a hair tie on each: the built-in groomlab:hairTie), the ends below curling. The Braid writes braidTail per point (0 in the braid, 1 at the tip): the Curl's radius mapped by it curls the ends alone. Clump or Noise after the Braid with affect $braidTail would shape them the same way.",
+              "name": "braids_curly_ends",
+              "title": "Box braids, curly ends"
+            },
+            {
+              "category": "Braids",
+              "description": "Draw one path from where the ponytail sits down the back. All the hair within region of its start sweeps over the scalp into it and is braided in a fishtail (sections: strips a side), tied at the base and the end. Change style for a three-strand ponytail.",
+              "name": "braids_fishtail_ponytail",
+              "title": "Fishtail ponytail"
+            },
+            {
+              "category": "Braids",
+              "description": "Draw one path from the top of the head down the back and off the nape. The braid picks up the hair from both sides as it goes down the head (feed, as far as region reaches), raised off the scalp; past feedUntil it hangs free, tied off with a gathered tuft below. Dutch on: a Dutch braid, raised higher.",
+              "name": "braids_french",
+              "title": "French braid"
+            },
+            {
+              "category": "Braids",
+              "description": "Draw one path from where the braid starts (the nape, behind an ear) down over a shoulder or the back. All the hair within region of its start goes into a loose three-strand braid: pulled apart by hand (pancake), with sections of hair looping out of the braid and back (loops, loopSize), the ends gathered loosely.",
+              "name": "braids_loose",
+              "title": "Loose braid"
+            },
+            {
+              "category": "Braids",
+              "description": "Box twists all over the head: Braid's rope style, two plies twisted round each other (sections: 3 for three-strand twists; dutch twists the other way), to a sealed end.",
+              "name": "braids_twists",
+              "title": "Two-strand twists"
+            },
+            {
+              "category": "Add-ons",
+              "description": "Turns whatever look it is added to into textured hair cards for a game engine.",
+              "name": "cards_mid",
+              "title": "Cards Mid"
+            },
+            {
+              "category": "Hair",
+              "description": "Hero hair for close-ups: clumps around the guides, locked a little, inside bigger locks that wave as one; length and width varied per strand, frizz toward the tips, a few stray hairs, kept off the scalp.",
+              "name": "cinematic_hair",
+              "title": "Cinematic hair"
+            },
+            {
+              "category": "Fur",
+              "description": "Short, dense fur for a whole animal (made on a wolf-sized body): it lies along the direction arrows you paint (Flow), gathers into soft tufts about a centimetre across and lightens toward the tips.",
+              "name": "creature_fur",
+              "title": "Creature fur"
+            },
+            {
+              "category": "Hair",
+              "description": "Springy ringlets: strands gathered into small clumps that curl together (Curl with clump coherence), each ringlet its own size and phase, a little frizz on a few strands.",
+              "name": "curly",
+              "title": "Curly"
+            },
+            {
+              "category": "Scales",
+              "description": "Overlapping green dragon scales, bigger along the back and broad shields on the belly.",
+              "name": "dragon_scales",
+              "title": "Dragon scales"
+            },
+            {
+              "category": "Motion",
+              "description": "Shoulder-length hair that swings and settles as the head moves when you play the timeline.",
+              "name": "everyday_sim",
+              "title": "Everyday simulated hair"
+            },
+            {
+              "category": "Techniques",
+              "description": "Hair that is longer on the crown and shorter underneath, shaped by small formulas you can edit.",
+              "name": "expression_driven",
+              "title": "Expression-driven"
+            },
+            {
+              "category": "Feathers",
+              "description": "Body feathers whose base turns into soft fluff, like a chick's.",
+              "name": "feathers_afterfeather",
+              "title": "Feathers with an afterfeather"
+            },
+            {
+              "category": "Feathers",
+              "description": "Feathers with white bars, a green sheen and a downy base.",
+              "name": "feathers_barred",
+              "title": "Barred feathers"
+            },
+            {
+              "category": "Feathers",
+              "description": "Body feathers lying smoothly on the skin.",
+              "name": "feathers_contour",
+              "title": "Contour feathers"
+            },
+            {
+              "category": "Feathers",
+              "description": "Soft, fluffy down feathers, like a duckling's.",
+              "name": "feathers_down",
+              "title": "Down feathers"
+            },
+            {
+              "category": "Feathers",
+              "description": "Golden feathers with a shimmering eye spot near the tip, like a peacock's.",
+              "name": "feathers_eye_spot",
+              "title": "Eye-spot feathers"
+            },
+            {
+              "category": "Feathers",
+              "description": "Long, stiff flight feathers for wings and tails.",
+              "name": "feathers_flight",
+              "title": "Flight feathers"
+            },
+            {
+              "category": "Feathers",
+              "description": "Dark feathers that shimmer from green to blue as they turn, like a magpie's.",
+              "name": "feathers_iridescent",
+              "title": "Iridescent feathers"
+            },
+            {
+              "category": "Feathers",
+              "description": "Brown feathers with pale spots and a white downy base, like an owl's.",
+              "name": "feathers_spotted",
+              "title": "Spotted feathers"
+            },
+            {
+              "category": "Fur",
+              "description": "Short coat that follows painted direction arrows everywhere, and your guides (clumped) where you paint the guideAreas map white, for longer hair or tufts (a ruff, a mane, ear tufts). The map starts black, all fur: paint it white in Groom Tools > Paint where the guides should take over.",
+              "name": "flow_with_guides",
+              "title": "Flow with guide tufts"
+            },
+            {
+              "category": "Add-ons",
+              "description": "Adds a few stray hairs that catch the light to whatever look it is added to.",
+              "name": "flyaways",
+              "title": "Flyaways"
+            },
+            {
+              "category": "Add-ons",
+              "description": "Roughens part of the hair so it looks lived-in rather than freshly combed.",
+              "name": "frizz",
+              "title": "Frizz"
+            },
+            {
+              "category": "Games",
+              "description": "Hair turned into textured cards for a game engine.",
+              "name": "game_cards",
+              "title": "Game cards"
+            },
+            {
+              "category": "Add-ons",
+              "description": "Makes hair hang naturally under its own weight.",
+              "name": "gravity",
+              "title": "Gravity"
+            },
+            {
+              "category": "Hair",
+              "description": "A natural head of hair from your guides: strands scattered and shaped by the guides, gathered into soft clumps, a little noise, brown color and tapered tips. The start of most hair grooms.",
+              "name": "hair_basics",
+              "title": "Hair basics"
+            },
+            {
+              "category": "Feathers",
+              "description": "One flight feather per guide you draw, for wings and tails: the feathers guide group starts empty and the Draw tool draws into it, so every guide drawn from the skin is a feather.",
+              "name": "hand_placed_feathers",
+              "title": "Flight feathers (hand-placed)"
+            },
+            {
+              "category": "Feathers",
+              "description": "Contour feathers laid over one another like roof tiles and off the body (Plume).",
+              "name": "layered_feathers",
+              "title": "Layered feathers"
+            },
+            {
+              "category": "Techniques",
+              "description": "Hair built in two layers merged together: a base, and a few longer, wavier strands on top packed in a reusable Compound node with its own sliders; a Switch picks the full look or a light one for layout.",
+              "name": "merge_layers",
+              "title": "Layers, compounds and switches"
+            },
+            {
+              "category": "Techniques",
+              "description": "Paint one map to control where the hair clumps, where it frizzes and how long it grows.",
+              "name": "painted_maps",
+              "title": "Painted maps"
+            },
+            {
+              "category": "Hair",
+              "description": "Hair that parts cleanly along a line you draw on the scalp (Draw Part): guides and clumps never blend across it, and the Part node opens it a little.",
+              "name": "parted_style",
+              "title": "Parted hair"
+            },
+            {
+              "category": "Scales",
+              "description": "Scales that point along the direction arrows you paint.",
+              "name": "scales_from_flow",
+              "title": "Scales from flow"
+            },
+            {
+              "category": "Scales",
+              "description": "Scales that turn to follow the guides you place and comb.",
+              "name": "scales_from_guides",
+              "title": "Scales from guides"
+            },
+            {
+              "category": "Scales",
+              "description": "Spikes or quills that sweep and bend with your guides.",
+              "name": "swept_spikes",
+              "title": "Swept spikes"
+            },
+            {
+              "category": "Hair",
+              "description": "Stylized locks shaped as a whole (anime, cartoon): strands fill each guide's tube and stay inside it to the tip, soft clumps follow the tubes, a little noise, tapered tips. Hair grows only on the guides' tubes (Scatter's guide radius). Place guides, then shape their tubes with the Tube brush (width, flatness, twist) and pick a shape in its Tubes panel.",
+              "name": "tube_locks",
+              "title": "Tube locks (anime)"
+            },
+            {
+              "category": "Add-ons",
+              "description": "Recolors any hair with a picked root color (here a skin tone) that blends to white tips, each strand a little lighter or darker and its tip starting at its own place. Set color and tipColor to any two colors.",
+              "name": "two_tone_tips",
+              "title": "Two-tone tips"
+            },
+            {
+              "category": "Techniques",
+              "description": "Leaves along curling vines, each bent along its vine (Instance deform alongStrand).",
+              "name": "vine_leaves",
+              "title": "Vine leaves"
+            },
+            {
+              "category": "Add-ons",
+              "description": "Makes any hair look wet, dark and stuck together: small clumps near the root merging into bigger ones toward the tip.",
+              "name": "wet",
+              "title": "Wet"
+            },
+            {
+              "category": "Fur",
+              "description": "Dense, crimped white fleece (made on a sheep-sized body): fibres gathered into soft locks, a picked off-white (HairColor's color mode, so no pigment browns it) with a little brightness variation and clean white tips.",
+              "name": "white_wool",
+              "title": "White wool"
+            },
+            {
+              "category": "Motion",
+              "description": "Hair that blows in the wind and bounces when the head moves, with no simulation to run.",
+              "name": "wind_and_jiggle",
+              "title": "Wind and jiggle"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "tool": "new_groom",
+      "arguments": {
+        "name": "real_wolf_fur_tech_only",
+        "mesh": "wolf",
+        "preset": "agouti_fur"
+      },
+      "seconds": 1.71,
+      "result": {
+        "isError": false,
+        "parsed": {
+          "groom": "real_wolf_fur_tech_only",
+          "mesh": "wolf (sample)",
+          "preset": {
+            "mode": "replace",
+            "preset": "agouti_fur",
+            "title": "Agouti fur"
+          },
+          "scalp": {
+            "max": [
+              19.4543,
+              99.5762,
+              34.8153
+            ],
+            "min": [
+              -19.4543,
+              -0.1132,
+              -74.8601
+            ],
+            "points": 8604,
+            "triangles": 16414,
+            "units": "cm",
+            "upAxis": "Y"
+          },
+          "summary": {
+            "bounds": {
+              "max": [
+                21.1103,
+                101.4636,
+                36.3658
+              ],
+              "min": [
+                -20.3172,
+                -2.6928,
+                -76.1081
+              ]
+            },
+            "errors": [],
+            "guides": 0,
+            "ms": 1652,
+            "notes": {
+              "flow": "no flow arrows: lay some with the Flow tool (Groom Tools > Create > Flow); strands lie along their own direction"
+            },
+            "points": 2495979,
+            "strands": 277331
+          }
+        }
+      }
+    },
+    {
+      "tool": "evaluate",
+      "arguments": {
+        "groom": "real_wolf_fur_tech_only",
+        "density": 0.03
+      },
+      "seconds": 0.11,
+      "result": {
+        "isError": false,
+        "parsed": {
+          "bounds": {
+            "max": [
+              19.7899,
+              101.4636,
+              36.1074
+            ],
+            "min": [
+              -19.8477,
+              -2.4035,
+              -74.0029
+            ]
+          },
+          "density": 0.029999999329447746,
+          "errors": [],
+          "frame": 1.0,
+          "groom": "real_wolf_fur_tech_only",
+          "guides": 0,
+          "ms": 113,
+          "nodeMs": {
+            "color": 1.0,
+            "colorBands": 0.7,
+            "flow": 30.7,
+            "length": 4.3,
+            "noise": 3.7,
+            "output": 0.0,
+            "resample": 0.0,
+            "scalp": 0.0,
+            "scatter": 2.2,
+            "tufts": 50.8,
+            "width": 3.2
+          },
+          "notes": {
+            "flow": "no flow arrows: lay some with the Flow tool (Groom Tools > Create > Flow); strands lie along their own direction"
+          },
+          "points": 74484,
+          "strands": 8276
+        }
+      }
+    },
+    {
+      "tool": "save_groom",
+      "arguments": {
+        "groom": "real_wolf_fur_tech_only",
+        "path": "run220_real_wolf_fur_tech_ONLY.groom"
+      },
+      "seconds": 0.03,
+      "result": {
+        "isError": false,
+        "parsed": {
+          "bytes": 1301147,
+          "groom": "real_wolf_fur_tech_only",
+          "path": "run220_real_wolf_fur_tech_ONLY.groom"
+        }
+      }
+    },
+    {
+      "tool": "render_preview",
+      "arguments": {
+        "groom": "real_wolf_fur_tech_only",
+        "views": [
+          "front",
+          "side",
+          "back",
+          "three_quarter",
+          "top"
+        ],
+        "size": 1024,
+        "max_strands": 10000,
+        "density": 0.02,
+        "save_to": "run220_fur_fiveview_technical_ONLY.png"
+      },
+      "seconds": 0.19,
+      "result": {
+        "isError": false,
+        "parsed": {
+          "columns": 3,
+          "groom": "real_wolf_fur_tech_only",
+          "height": 682,
+          "saved": "run220_fur_fiveview_technical_ONLY.png",
+          "strands": 5539,
+          "strandsDrawn": 5539,
+          "views": [
+            "front",
+            "side",
+            "back",
+            "three_quarter",
+            "top"
+          ],
+          "width": 1023
+        }
+      }
+    },
+    {
+      "tool": "export",
+      "arguments": {
+        "groom": "real_wolf_fur_tech_only",
+        "path": "run220_wolf_technical_fur.usda",
+        "density": 0.02
+      },
+      "seconds": 0.02,
+      "result": {
+        "isError": false,
+        "parsed": {
+          "format": "usd",
+          "frames": 1,
+          "groom": "real_wolf_fur_tech_only",
+          "ms": 23,
+          "path": "run220_wolf_technical_fur.usda",
+          "strandsPerFrame": 5539
+        }
+      }
+    }
+  ],
+  "chosen_preset": "agouti_fur",
+  "native_groom_evaluation_success": true,
+  "saved_native_groom_success": true,
+  "fiveview_technical_preview_success": true,
+  "native_usd_curves_export_success": true,
+  "status": "REAL_GROOM_WITH_TECHNICAL_PREVIEW_NO_OWL",
+  "finished_utc": "2026-11-19T16:20:34.471831+00:00"
+}

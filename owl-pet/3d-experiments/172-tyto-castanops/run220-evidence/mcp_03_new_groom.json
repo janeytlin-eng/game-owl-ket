@@ -1,0 +1,59 @@
+{
+  "tool": "new_groom",
+  "arguments": {
+    "name": "real_wolf_fur_tech_only",
+    "mesh": "wolf",
+    "preset": "agouti_fur"
+  },
+  "seconds": 1.71,
+  "result": {
+    "isError": false,
+    "parsed": {
+      "groom": "real_wolf_fur_tech_only",
+      "mesh": "wolf (sample)",
+      "preset": {
+        "mode": "replace",
+        "preset": "agouti_fur",
+        "title": "Agouti fur"
+      },
+      "scalp": {
+        "max": [
+          19.4543,
+          99.5762,
+          34.8153
+        ],
+        "min": [
+          -19.4543,
+          -0.1132,
+          -74.8601
+        ],
+        "points": 8604,
+        "triangles": 16414,
+        "units": "cm",
+        "upAxis": "Y"
+      },
+      "summary": {
+        "bounds": {
+          "max": [
+            21.1103,
+            101.4636,
+            36.3658
+          ],
+          "min": [
+            -20.3172,
+            -2.6928,
+            -76.1081
+          ]
+        },
+        "errors": [],
+        "guides": 0,
+        "ms": 1652,
+        "notes": {
+          "flow": "no flow arrows: lay some with the Flow tool (Groom Tools > Create > Flow); strands lie along their own direction"
+        },
+        "points": 2495979,
+        "strands": 277331
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "tool": "render_preview",
+  "arguments": {
+    "groom": "real_wolf_fur_tech_only",
+    "views": [
+      "front",
+      "side",
+      "back",
+      "three_quarter",
+      "top"
+    ],
+    "size": 1024,
+    "max_strands": 10000,
+    "density": 0.02,
+    "save_to": "run220_fur_fiveview_technical_ONLY.png"
+  },
+  "seconds": 0.19,
+  "result": {
+    "isError": false,
+    "parsed": {
+      "columns": 3,
+      "groom": "real_wolf_fur_tech_only",
+      "height": 682,
+      "saved": "run220_fur_fiveview_technical_ONLY.png",
+      "strands": 5539,
+      "strandsDrawn": 5539,
+      "views": [
+        "front",
+        "side",
+        "back",
+        "three_quarter",
+        "top"
+      ],
+      "width": 1023
+    }
+  }
+}

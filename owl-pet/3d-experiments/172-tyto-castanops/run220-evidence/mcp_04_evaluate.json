@@ -1,0 +1,49 @@
+{
+  "tool": "evaluate",
+  "arguments": {
+    "groom": "real_wolf_fur_tech_only",
+    "density": 0.03
+  },
+  "seconds": 0.11,
+  "result": {
+    "isError": false,
+    "parsed": {
+      "bounds": {
+        "max": [
+          19.7899,
+          101.4636,
+          36.1074
+        ],
+        "min": [
+          -19.8477,
+          -2.4035,
+          -74.0029
+        ]
+      },
+      "density": 0.029999999329447746,
+      "errors": [],
+      "frame": 1.0,
+      "groom": "real_wolf_fur_tech_only",
+      "guides": 0,
+      "ms": 113,
+      "nodeMs": {
+        "color": 1.0,
+        "colorBands": 0.7,
+        "flow": 30.7,
+        "length": 4.3,
+        "noise": 3.7,
+        "output": 0.0,
+        "resample": 0.0,
+        "scalp": 0.0,
+        "scatter": 2.2,
+        "tufts": 50.8,
+        "width": 3.2
+      },
+      "notes": {
+        "flow": "no flow arrows: lay some with the Flow tool (Groom Tools > Create > Flow); strands lie along their own direction"
+      },
+      "points": 74484,
+      "strands": 8276
+    }
+  }
+}

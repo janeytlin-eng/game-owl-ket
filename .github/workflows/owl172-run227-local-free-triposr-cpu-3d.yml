@@ -5,6 +5,7 @@ on:
       - research/owl172-run227-local-cpu-triposr-true3d-no-release
     paths:
       - '.github/workflows/owl172-run227-local-free-triposr-cpu-3d.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run227_official_triposr_local_cpu_young_true3d.py'
   workflow_dispatch:
 permissions:
   contents: write
@@ -60,6 +61,7 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add -f owl-pet/3d-experiments/172-tyto-castanops/run227-evidence/run227_report.json 2>/dev/null || true
           git add -f owl-pet/3d-experiments/172-tyto-castanops/run227-evidence/run227_status.md 2>/dev/null || true
+          git add -f owl-pet/3d-experiments/172-tyto-castanops/run227-evidence/run227_TRIPOSR_SEVEN_TRUE3D_CAMERAS_NOT_APPROVED.png 2>/dev/null || true
           if ! git diff --cached --quiet; then
             git commit -m 'audit(owl172): record actual Run227 local TripoSR CPU evidence, never release unapproved art'
             git push origin HEAD:research/owl172-run227-local-cpu-triposr-true3d-no-release || echo 'diagnostic push unavailable, Actions artifact remains evidence'

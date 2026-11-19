@@ -64,8 +64,9 @@ def infer(img):
  def make():
   pipe=Hunyuan3DDiTFlowMatchingPipeline.from_pretrained(
    "tencent/Hunyuan3D-2mini",subfolder="hunyuan3d-dit-v2-mini",
-   use_safetensors=True,device="cpu",dtype=torch.float32,variant="fp32")
+   use_safetensors=True,device="cpu",dtype=torch.bfloat16,variant="fp16")
   R["model_loaded"]=True
+  R["weights_format"]="official model.fp16.safetensors, CPU bfloat16 attempted for memory ceiling"
   # 20 diffusion steps at CPU, intermediate geometry; never silently approve this.
   with torch.no_grad():
    model_out=pipe(image=img,num_inference_steps=20,

@@ -1,9 +1,9 @@
 name: '#172 Run221 actual free native down-feather preset trial (technical wolf, NO RELEASE)'
 on:
   push:
-    branches: [research/owl172-run221-groomlab-full-native-mcp-fur-technical-qa]
+    branches: [research/owl172-run221-real-native-down-feathers-preset-trial-no-release]
     paths:
-      - '.github/workflows/owl172-run221-groomlab-native-mcp-fur-test.yml'
+      - '.github/workflows/owl172-run221-groomlab-native-downfeather-test.yml'
       - 'owl-pet/3d-experiments/172-tyto-castanops/run221_groomlab_down_feathers_native_mcp_trial.py'
   workflow_dispatch:
 permissions:
@@ -18,8 +18,8 @@ jobs:
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y --no-install-recommends cmake ninja-build build-essential libtbb-dev
-      - name: Actually compile groom engine and evaluate a sample real native fur groom
-        run: python3 owl-pet/3d-experiments/172-tyto-castanops/run221_groomlab_actual_fur_mcp_trial.py
+      - name: Actually compile groom engine and evaluate a real down-feather preset on an independent example mesh
+        run: python3 owl-pet/3d-experiments/172-tyto-castanops/run221_groomlab_down_feathers_native_mcp_trial.py
       - name: Archive original native groom and technical pictures, NOT an owl
         if: always()
         uses: actions/upload-artifact@v4
@@ -36,5 +36,5 @@ jobs:
           find owl-pet/3d-experiments/172-tyto-castanops/run221-evidence -type f ! -name '*.groom' ! -name '*.png' ! -name '*.usda' -print0 | xargs -0 -r git add --
           if ! git diff --cached --quiet; then
             git commit -m 'research(#172): record real groom source and technical evidence without pet promotion'
-            git push origin HEAD:research/owl172-run221-groomlab-full-native-mcp-fur-technical-qa || echo 'TEXT_PUSH_UNAVAILABLE; original artifact retained'
+            git push origin HEAD:research/owl172-run221-real-native-down-feathers-preset-trial-no-release || echo 'TEXT_PUSH_UNAVAILABLE; original artifact retained'
           fi

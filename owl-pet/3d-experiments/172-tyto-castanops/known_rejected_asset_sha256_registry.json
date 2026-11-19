@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scope": "#172 Tyto castanops v3 independent 3D research only; fingerprints are negative quality gates, not licensing decisions",
-  "updated_utc": "2026-11-18T22:26:00Z",
+  "updated_utc": "2026-11-19T01:21:00Z",
   "known_rejected_source_glbs": [
     {
       "sha256": "c11c94db20065c6c6f252e768e8c748f22dc69ef9b4e7199110b96de0625c12e",
@@ -253,6 +253,26 @@
       "grounds": "VTK 9.6.2 real seven views independently inspected: scene includes fox and adult-like low-poly snowy owl with round yellow eyes, hard flat wings and spotted body, no continuous Tyto heart facial disc or cream juvenile second down, no supported eucalyptus hollow. Wrong age/species and multi-subject kit.",
       "artifact_id": 14475789383,
       "reference": "2026-11-19-run199b-native-sevenview-human-reviewed-ART_REJECTED-NO_RELEASE.md"
+    },
+    {
+      "sha256": "29531600a1f221f6fbb8dded12cee4ceea4251b28bd678c494d947dc4c3fc3aa",
+      "size_bytes": 1690152,
+      "source": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-081/19c989a6681145bc999c332699eb852e.glb",
+      "publisher": "Innovation Studio / Common Barn Owl (adult Tyto alba), secondary PhenoVoxel Archive source",
+      "first_checked_run": 202,
+      "verified_render_run": "202b",
+      "real_glb": true,
+      "meshes": 1,
+      "vertices": 25998,
+      "triangles": 29314,
+      "materials": 1,
+      "source_license": "CC BY 4.0 claimed in secondary PhenoVoxel attribution; original publisher grant not independently revalidated",
+      "art_decision": "ART_REJECTED_AS_172_MESOPTILE_ADULT_TYTO_DIFFERENT_TAXON",
+      "grounds": "Original binary HTTP 200 and exact pinned SHA256 verified; independent trimesh 1 mesh/29,314 triangles and seven genuine VTK 9.6.2 source-textured camera renders, contact sheet downloaded, opened and reviewed. Visually an adult grey-brown Tyto alba with mature hard long folded wings, pointed exposed tail, long slender legs on narrow wooden stump. No cream second-down fluffy age-unknown Tyto castanops chick, no juvenile-rounded wing-hidden body or eucalypt hollow lip. Uncalibrated world camera labels. Not curable by recolor/scale; no physical smartphone WebGL test.",
+      "reference": "2026-11-19-run202c-human-sevenview-audit-ART_REJECTED-NO_RELEASE.md",
+      "run202_url": "https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44435529902",
+      "run202b_url": "https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44435952123",
+      "artifact_id": 14487913180
     }
   ],
   "instructions": "Before a new download, consult previous run records and this hash index. Once bytes are fetched compare sha256; if matching a rejected source, skip Blender/rig/WebGL/art release and log source identity. Publisher CC0 claims are not independently proven rights."

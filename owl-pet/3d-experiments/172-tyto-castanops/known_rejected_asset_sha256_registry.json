@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scope": "#172 Tyto castanops v3 independent 3D research only; fingerprints are negative quality gates, not licensing decisions",
-  "updated_utc": "2026-11-19T01:21:00Z",
+  "updated_utc": "2026-11-19T03:31:14Z",
   "known_rejected_source_glbs": [
     {
       "sha256": "c11c94db20065c6c6f252e768e8c748f22dc69ef9b4e7199110b96de0625c12e",
@@ -273,6 +273,32 @@
       "run202_url": "https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44435529902",
       "run202b_url": "https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44435952123",
       "artifact_id": 14487913180
+    },
+    {
+      "sha256": "4c1e69a08e7b21e702679f6642743034dbbd5f69722f4125e8183b21e41ffafb",
+      "size_bytes": 5299724,
+      "source": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-116/48f0ccac1e5d4431ba9e03ad8ad0d589.glb",
+      "publisher": "Sketchfab Barn Owl Barny (University Project)",
+      "first_checked_run": 204,
+      "real_glb": true,
+      "mesh_count": 3,
+      "triangles": 76036,
+      "art_decision": "ART_REJECTED",
+      "grounds": "Actual seven-view adult smooth rigid tan-brown owl, mature hard wings, pointed tail, exposed feet on thin branch; no dense cream mesoptile down or broad hollow support.",
+      "reference": "2026-11-19-run204b-independent-sevenview-human-audit-ART_REJECTED-NO_RELEASE.md"
+    },
+    {
+      "sha256": "84c4c21d051d142aada0d74eca565e5a477c160c5e8ca2abd68bc5fccd632495",
+      "size_bytes": 132848,
+      "source": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-097/5a70a2bb74204b61b493d846dddb6fda.glb",
+      "publisher": "Sketchfab Barn Owl from Poly by Google",
+      "first_checked_run": 204,
+      "real_glb": true,
+      "mesh_count": 1,
+      "triangles": 1682,
+      "art_decision": "ART_REJECTED",
+      "grounds": "Seven-view gray untextured coarse low-poly owl, faceted elongated head/wings/tail, no fluff, visually unconvincing eyes and unsupported legs.",
+      "reference": "2026-11-19-run204b-independent-sevenview-human-audit-ART_REJECTED-NO_RELEASE.md"
     }
   ],
   "instructions": "Before a new download, consult previous run records and this hash index. Once bytes are fetched compare sha256; if matching a rejected source, skip Blender/rig/WebGL/art release and log source identity. Publisher CC0 claims are not independently proven rights."

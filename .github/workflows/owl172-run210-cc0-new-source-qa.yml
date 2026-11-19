@@ -1,0 +1,45 @@
+name: owl172-run210-isolated-cc0-asset-test
+on:
+  push:
+    branches:
+      - research/owl172-run210-new-cc0-glb-source-native-audit
+    paths:
+      - .github/workflows/owl172-run210-cc0-new-source-qa.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  source-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Install free runtime dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq xvfb libgl1-mesa-dri libglx-mesa0
+          python -m pip install --disable-pip-version-check requests numpy trimesh vtk pillow
+      - name: Actually download inspect and render public CC0 owl candidate
+        run: |
+          xvfb-run -a python owl-pet/3d-experiments/172-tyto-castanops/run210_innerscene_cc0_source_probe.py
+      - name: Archive original source and proof - never publish as approved character
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run210-raw-cc0-source-sevenview-NO_RELEASE
+          path: /tmp/owl172-run210-evidence/
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Commit limited Run210 evidence markdown only, not model
+        if: always()
+        run: |
+          set -e
+          git config user.name "owl172-research-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add owl-pet/3d-experiments/172-tyto-castanops/2026-11-19-run210-new-cc0-source-native-probe-UNREVIEWED-NO_RELEASE.md || true
+          if ! git diff --cached --quiet; then
+            git commit -m "audit(owl172): Run210 independent real CC0 source download/render results - NO_RELEASE"
+            git push origin HEAD:research/owl172-run210-new-cc0-glb-source-native-audit
+          fi

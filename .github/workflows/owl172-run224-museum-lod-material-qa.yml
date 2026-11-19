@@ -1,0 +1,44 @@
+name: "#172 Run224 free museum Tyto glTF LOD and genuine camera QA NO_RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run224-museum-3d-lod-material-qualification-no-release
+    paths:
+      - '.github/workflows/owl172-run224-museum-lod-material-qa.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run224_museum_scan_lod_material_qa.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  research-only:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install zero-fee native glTF and off-screen 3D tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends xvfb libgl1-mesa-dri libglx-mesa0
+          python3 -m pip install --disable-pip-version-check requests numpy pillow trimesh vtk
+      - name: Fetch all four public CC0 adult scans, parse glTF, re-import and actually render 16 native 3D cameras
+        run: |
+          xvfb-run -a python3 owl-pet/3d-experiments/172-tyto-castanops/run224_museum_scan_lod_material_qa.py
+      - name: Preserve original binary, camera PNG and all failure diagnostics as independent temporary evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run224-museum-adult-native-four-lod-material-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/run224-evidence/
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Persist only reports and negative-view contact sheet in isolated research branch
+        if: always()
+        run: |
+          git config user.name 'owl172-research-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f owl-pet/3d-experiments/172-tyto-castanops/run224-evidence/run224_report.json 2>/dev/null || true
+          git add -f owl-pet/3d-experiments/172-tyto-castanops/run224-evidence/run224_four_LoDs_16view_ADULT_NOT_APPROVED.png 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m 'audit(owl172): archive real Tyto adult scan LOD and 16view negative QA'
+            git push origin HEAD:research/owl172-run224-museum-3d-lod-material-qualification-no-release || echo 'RESEARCH_PUSH_UNAVAILABLE: workflow temporary artifact remains'
+          fi

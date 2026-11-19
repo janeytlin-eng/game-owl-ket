@@ -1,0 +1,47 @@
+{
+  "experiment": "Run212c original-asset image alpha semantic QA",
+  "source": "Run211 independently downloaded GitHub Actions artifact 14518503130, and Run212 14525665731 matched same image hash",
+  "original_zip_sha256": "18720fd90b1ffdabc3a242cb32e68a7638f543fa2f12fa825b0aa4738413a7fb",
+  "run212_zip_sha256": "16eb7d6a4e548a24f718c2c89b3386056e2a5c436148fdeb341688dee239af7c",
+  "original_mask_sha256": "fcb3527dae6fa9aee4428d9c76ee803106a4be313a9f2ae40047465e84fa8819",
+  "foreground_alpha_before": 0.5475252958326188,
+  "foreground_alpha_after": 0.5516926770708284,
+  "restored_original_rgb_pixels": 1215,
+  "holes": [
+    {
+      "bbox_xywh": [
+        217,
+        153,
+        32,
+        28
+      ],
+      "pixels": 676,
+      "mean_rgb": [
+        33.21,
+        25.99,
+        17.21
+      ]
+    },
+    {
+      "bbox_xywh": [
+        309,
+        152,
+        24,
+        27
+      ],
+      "pixels": 539,
+      "mean_rgb": [
+        37.34,
+        27.77,
+        17.75
+      ]
+    }
+  ],
+  "corrected_rgba_png_sha256": "7216a7d311408eb0ccb4853397c0233a9da0c7af7881bf58595fef1112c09812",
+  "comparison_png_sha256": "f68be722c7cd2a2fe100e01f398fee2f0f1817359566677ae05a6766591add5c",
+  "output_preservation": "RGB source data unchanged; only enclosed alpha holes filled; image generated locally, not uploaded as GitHub binary",
+  "art_gate": "NOT_TESTED",
+  "glb": "NOT_GENERATED",
+  "mobile": "NOT_TESTED",
+  "status": "INPUT_REPAIR_ONLY_NO_RELEASE"
+}

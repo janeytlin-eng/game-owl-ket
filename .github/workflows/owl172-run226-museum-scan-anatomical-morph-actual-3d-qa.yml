@@ -1,0 +1,66 @@
+name: "owl172 Run226 actual scanned native non-rigid morphology QA — no release"
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "research/owl172-run226-scanned-tyto-local-anatomical-morph-no-release"
+    paths:
+      - ".github/workflows/owl172-run226-museum-scan-anatomical-morph-actual-3d-qa.yml"
+      - "owl-pet/3d-experiments/172-tyto-castanops/run226_scanned_tyto_nonrigid_juvenile_sculpt_trial.py"
+permissions:
+  contents: write
+jobs:
+  true-native-scanned-morph-trial:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - name: Checkout independent study branch only
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install free open-source 3D and true render tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y xvfb libgl1 libegl1 libxrender1 libxext6
+          python -m pip install --upgrade pip
+          python -m pip install "numpy<2.3" trimesh vtk pillow requests scipy
+          npm install --global @gltf-transform/cli
+          python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/run226_scanned_tyto_nonrigid_juvenile_sculpt_trial.py
+          gltf-transform --version
+      - name: Actually download real CC0 adult scan, decode, deform, export two GLBs and render 14 independent native views
+        id: probe
+        continue-on-error: true
+        run: |
+          xvfb-run -a python -u owl-pet/3d-experiments/172-tyto-castanops/run226_scanned_tyto_nonrigid_juvenile_sculpt_trial.py
+          cat owl-pet/3d-experiments/172-tyto-castanops/run226-evidence/run226_report.json | python -c 'import sys,json; q=json.load(sys.stdin); print("Actual scientific and geometry QA:",q["result"],"states:",list(q["variants"]))'
+      - name: Upload original native evidence separately from production
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run226-native-geometry-and-actual-cameras-NOT_APPROVED
+          path: owl-pet/3d-experiments/172-tyto-castanops/run226-evidence/
+          if-no-files-found: warn
+          retention-days: 30
+          compression-level: 6
+      - name: Commit only source metadata and visual review evidence to isolated research branch
+        if: always()
+        run: |
+          set -e
+          d=owl-pet/3d-experiments/172-tyto-castanops/run226-evidence
+          git config user.name "owl172-research-bot"
+          git config user.email "owl172-research-bot@users.noreply.github.com"
+          git add "$d/run226_report.json" || true
+          for f in "$d"/*NOT_APPROVED.png "$d"/run226_reference_CROP_ONLY_2D.png; do
+            [ ! -f "$f" ] || git add "$f"
+          done
+          if git diff --cached --quiet; then
+            echo "No actual report generated. No evidence commit."
+          else
+            git commit -m "research(#172): archive Run226 native geometry measurements and visually unapproved angles"
+            git push origin "HEAD:research/owl172-run226-scanned-tyto-local-anatomical-morph-no-release"
+          fi
+          git status --short

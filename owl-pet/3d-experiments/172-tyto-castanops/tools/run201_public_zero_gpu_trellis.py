@@ -196,8 +196,9 @@ def main():
     endpoint=exact[0]
     event("submitting_original_image_to_public_zero_gpu",endpoint=endpoint)
     try:
-        job=client.submit(pair, [], False, 42, 7.5, 12, 3.0, 12, "stochastic", api_name=endpoint)
+        job=client.submit(pair, [], 42, 7.5, 12, 3.0, 12, "stochastic", api_name=endpoint)
         data["inference_submitted"]=True
+        data["source_upload"]="ATTEMPTED_VIA_PUBLIC_GRADIO_CLIENT_UNCONFIRMED"
         event("actual_inference_job_submitted",endpoint=endpoint)
     except Exception as exc:
         data["errors"].append("submit: "+repr(exc))

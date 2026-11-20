@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Run250b: exact native glTF reorientation preserving neural vertices, colors and topology.
-ShapeStudio/TripoSR Z-up, Y-front => project Three.js Y-up, Z-front.
+ShapeStudio/TripoSR Z-up, X-front => project Three.js Y-up, Z-front.
 Not a new art generation, not a release. No primitive assembly.
 """
 import argparse
@@ -11,7 +11,7 @@ from pathlib import Path
 import numpy as np
 
 SOURCE_SHA='4cfa289e44bf12453442143113d1574f30b0b7445c98b2ac7a2c408aca770098'
-MATRIX=[[-1,0,0],[0,0,1],[0,1,0]]
+MATRIX=[[0,1,0],[0,0,1],[1,0,0]]
 
 def sha(p):
     return hashlib.sha256(Path(p).read_bytes()).hexdigest()
@@ -61,7 +61,7 @@ def rotate(src,dst,outdir):
     assert bytes(buf[off_c:off_c+len(c)*12])==colorbytes
     a_pos['min']=q.min(axis=0).astype(float).tolist()
     a_pos['max']=q.max(axis=0).astype(float).tolist()
-    j['asset'].setdefault('extras',{})['owl172Run250bOrientation']='Native neural GLB, transform (-x,z,y) for Y-up, Z-front; research-only'
+    j['asset'].setdefault('extras',{})['owl172Run250bOrientation']='Native neural GLB, transform (y,z,x) for Y-up, Z-front; research-only'
     js=pad4(json.dumps(j,separators=(',',':')).encode(),b' ')
     binary=pad4(bytes(buf),b'\x00')
     result=struct.pack('<III',0x46546c67,2,12+8+len(js)+8+len(binary))
@@ -86,7 +86,7 @@ def rotate(src,dst,outdir):
       'mesh_count':len(check.geometry),'vertices':len(q),'triangles':len(new_mesh.faces),
       'preserved_triangle_indices':True,'preserved_original_color_bytes':True,
       'native_3d':True,'z_up_to_y_up':True,
-      'source_axis':'TripoSR Z up +Y front','project_axis':'Three.js Y up +Z front',
+      'source_axis':'TripoSR Z up +X front','project_axis':'Three.js Y up +Z front',
       'original_bounds':original.bounds.round(5).tolist(),
       'oriented_bounds':check.bounds.round(5).tolist(),
       'plumulaceous_feather_quality':'UNREVIEWED',

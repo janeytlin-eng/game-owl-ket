@@ -1,0 +1,156 @@
+name: "#172 Run250 independent MIT TripoSR neural mesoptile CPU reconstruction — NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run250-mit-triposr-cpu-neural-rebuild-no-release
+    paths:
+      - '.github/workflows/owl172-run250-free-mit-triposr-cpu-neural-rebuild.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  authentic-new-neural-mesoptile:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 55
+    env:
+      HF_HUB_DISABLE_TELEMETRY: '1'
+      SHAPESTUDIO_DATA_DIR: ${{ github.workspace }}/.run250-shapestudio-data
+      OMP_NUM_THREADS: '4'
+      MKL_NUM_THREADS: '4'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Prepare original right-hand #172 v3 cream-down mesoptile, provenance and crop
+        run: |
+          python -m pip install "Pillow==11.1.0" "numpy==2.2.6" "trimesh==4.9.0"
+          python owl-pet/3d-experiments/172-tyto-castanops/run250_new_neural_cpu_source_and_audit.py prepare \
+            --source owl-pet/design/concepts/172-tyto-castanops-v3.png \
+            --outdir owl-pet/3d-experiments/172-tyto-castanops/run250-evidence
+
+      - name: Install and inspect open-source CPU image-to-3D engine (no paid external quota)
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install "torch==2.6.0+cpu" --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install "git+https://github.com/senacula/senacula-shapestudio.git@8cac3b3a3dbd076b772a169b8d9ac6438e1eae39"
+          shapestudio --version
+          shapestudio doctor
+          shapestudio plan --tier standard --preset balanced --json
+
+      - name: Download MIT TripoSR + Apache IS-Net weights for free and verify SHA-256
+        run: |
+          shapestudio download-model triposr --yes
+          shapestudio download-model isnet-general-use --yes
+          shapestudio doctor --verify
+
+      - name: Run a NEW neural single-image 3D inference, not another adult-remige warp
+        run: |
+          set -euxo pipefail
+          EVID=owl-pet/3d-experiments/172-tyto-castanops/run250-evidence
+          timeout 1800s shapestudio reconstruct "$EVID/run250_v3_right_mesoptile_input_UNMASKED_RESEARCH.png" \
+            --tier standard --preset balanced --threads 4 --foreground 0.82 --out "$EVID"
+          find "$EVID" -maxdepth 1 -type f -printf '%p %s bytes\n'
+          GLB="$(find "$EVID" -maxdepth 1 -type f -name '*.glb' | head -1)"
+          test -n "$GLB"
+          mv "$GLB" "$EVID/run250_TRUE_NEURAL_TRIPOSR_MIT_RESEARCH_ART_UNAPPROVED_NO_RELEASE.glb"
+          python owl-pet/3d-experiments/172-tyto-castanops/run250_new_neural_cpu_source_and_audit.py audit \
+            --glb "$EVID/run250_TRUE_NEURAL_TRIPOSR_MIT_RESEARCH_ART_UNAPPROVED_NO_RELEASE.glb" --outdir "$EVID"
+
+      - name: Install offline-capable Three.js WebGL2 QA and screenshot dependencies
+        run: |
+          npm install --no-save --no-package-lock three@0.181.2 playwright@1.56.1
+          npx playwright install --with-deps chromium
+
+      - name: Inspect new neural GLB from seven independent camera poses in real Chromium
+        run: |
+          set -euxo pipefail
+          BASE=owl-pet/3d-experiments/172-tyto-castanops
+          EVID="$BASE/run250-evidence"
+          cp "$BASE/run237_browser_viewer_RESEARCH_ONLY.html" "$BASE/run250_browser_viewer_RESEARCH_ONLY.html"
+          cp "$BASE/run237_real_browser_webgl_smoke.mjs" "$BASE/run250_browser_webgl_smoke.mjs"
+          python - <<'PY'
+          from pathlib import Path
+          base=Path('owl-pet/3d-experiments/172-tyto-castanops')
+          v=base/'run250_browser_viewer_RESEARCH_ONLY.html'
+          src=v.read_text()
+          assert 'meshCount<2' in src
+          v.write_text(src.replace('meshCount<2','meshCount<1'))
+          q=base/'run250_browser_webgl_smoke.mjs'
+          src=q.read_text()
+          assert "run237_browser_viewer_RESEARCH_ONLY.html" in src
+          assert "report.browser.model?.meshCount>=2" in src
+          assert "report.browser.model?.triangles>=80000" in src
+          assert "report.browser.model?.alphaMaskedMaterials >= 1" in src
+          src=src.replace("run237_browser_viewer_RESEARCH_ONLY.html", "run250_browser_viewer_RESEARCH_ONLY.html")
+          src=src.replace("report.browser.model?.meshCount>=2","report.browser.model?.meshCount>=1")
+          src=src.replace("report.browser.model?.triangles>=80000","report.browser.model?.triangles>=5000")
+          src=src.replace("true_alpha_down: report.browser.model?.alphaMaskedMaterials >= 1", "alpha_down_pending_groom: true")
+          q.write_text(src)
+          PY
+          export OWL172_RUN_LABEL="Run250_true_neural_MIT_TripoSR_CPU_RESEARCH_ONLY"
+          export OWL172_GLB_INPUT="$PWD/$EVID/run250_TRUE_NEURAL_TRIPOSR_MIT_RESEARCH_ART_UNAPPROVED_NO_RELEASE.glb"
+          export OWL172_QA_DIR="$PWD/$EVID/browser"
+          export OWL172_EXPECTED_SHA="$(python -c "import json;print(json.load(open('$EVID/run250_neural_machine_report.json'))['sha256'])")"
+          mkdir -p "$OWL172_QA_DIR"
+          xvfb-run -a timeout 380s node "$BASE/run250_browser_webgl_smoke.mjs"
+
+      - name: Verify seven Chromium frame hashes and record research-only contact image
+        if: always()
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image,ImageDraw
+          import json,hashlib
+          base=Path('owl-pet/3d-experiments/172-tyto-castanops/run250-evidence')
+          report=base/'browser'/'run237_machine_report.json'
+          if not report.exists(): print('Browser QA did not run; NOT VERIFIED, NO_RELEASE'); quit()
+          data=json.loads(report.read_text())
+          names=['front','left','threequarter','right','back','top','bottom']
+          sheet=Image.new('RGB',(1400,820),(231,233,237)); draw=ImageDraw.Draw(sheet)
+          for i,name in enumerate(names):
+              img=base/'browser'/('run237_'+name+'_WEBGL_RESEARCH_NOT_APPROVED.png')
+              assert img.exists()
+              match=[v for v in data['views'] if v['name']==name]
+              assert len(match)==1
+              assert hashlib.sha256(img.read_bytes()).hexdigest()==match[0]['screenshot']['sha256']
+              x=(i%4)*350; y=(i//4)*410
+              sheet.paste(Image.open(img).convert('RGB').resize((344,344)),(x+3,y+42))
+              draw.text((x+5,y+8),'RUN250 '+name+' — UNAPPROVED NEURAL STUDY',fill=(20,20,20))
+          out=base/'run250_TRUE_NEURAL_7VIEW_BROWSER_ART_UNAPPROVED_NO_RELEASE.png'
+          sheet.save(out)
+          (base/'run250_final_integrity.json').write_text(json.dumps({
+              'run':'Run250','browser_status':data['status'],
+              'seven_true_camera_screens_sha_verified':True,
+              'sha256_7view_contact':hashlib.sha256(out.read_bytes()).hexdigest(),
+              'art_approved':False,'phone_gpu':'UNTESTED','release':'NO_RELEASE'},indent=2)+'\n')
+          PY
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run250-new-MIT-neural-CPU-sevenview-RESEARCH-NO-RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/run250-evidence/
+          retention-days: 30
+          if-no-files-found: warn
+
+      - name: Preserve reproducible provenance, machine evidence, and browser contact only
+        if: always()
+        run: |
+          set -e
+          git config user.name owl172-research-bot
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          EVID=owl-pet/3d-experiments/172-tyto-castanops/run250-evidence
+          git add -f "$EVID"/*.json "$EVID"/*UNMASKED_RESEARCH.png 2>/dev/null || true
+          git add -f "$EVID"/run250_TRUE_NEURAL_7VIEW_BROWSER_ART_UNAPPROVED_NO_RELEASE.png 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "audit(owl172): record attempted MIT neural rebuild and software 3D views NO_RELEASE"
+            git pull --rebase origin research/owl172-run250-mit-triposr-cpu-neural-rebuild-no-release
+            git push origin HEAD:research/owl172-run250-mit-triposr-cpu-neural-rebuild-no-release
+          fi

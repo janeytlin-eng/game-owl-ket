@@ -23,7 +23,7 @@ jobs:
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y --no-install-recommends xvfb libgl1-mesa-dri libglx-mesa0 libosmesa6
-          python -m pip install "numpy==1.26.4" "Pillow==10.4.0" "trimesh==4.4.9" "vtk==9.3.1"
+          python -m pip install "numpy==1.26.4" "Pillow==10.4.0" "trimesh==4.4.9" "vtk==9.3.1" "scipy==1.14.1"
           python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/run236_real_neural_eye_wispy_down_no_release.py
       - name: Obtain only verified original Run235 neural juvenile GLB (not a synthetic bird)
         env:

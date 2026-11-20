@@ -2,7 +2,7 @@ name: "#172 Run249 true neural juvenile anatomical wing fairing A/B — RESEARCH
 on:
   push:
     branches:
-      - research/owl172-run249-juvenile-sculpt-clean-groom-no-release
+      - research/owl172-run249-rear-remige-ablation-art-reject-no-release
     paths:
       - '.github/workflows/owl172-run249-neural-shortwing-ablation-webgl.yml'
   workflow_dispatch:
@@ -34,11 +34,11 @@ jobs:
           SRC=owl-pet/3d-experiments/172-tyto-castanops/run248-source
           mkdir -p "$SRC"
           gh run download 44763474018 -R janeytlin-eng/game-owl-ket -n owl172-run248-true-neural-anatomy-AB-fourteenview-RESEARCH-NO-RELEASE -D "$SRC"
-          echo '247d820538920735783072a204686fcf2f02ddb3ce1958a5472895a3ed7c1845  owl-pet/3d-experiments/172-tyto-castanops/run248-source/run246-evidence/run246_A_real_neural_owl_YUP_horizontal_ledge_RESEARCH_ART_UNAPPROVED.glb' | sha256sum -c -
+          echo '247d820538920735783072a204686fcf2f02ddb3ce1958a5472895a3ed7c1845  owl-pet/3d-experiments/172-tyto-castanops/run248-source/run248-evidence/run248_A_true_neural_juvenile_selective_wing_sculpt_RESEARCH_NO_RELEASE.glb' | sha256sum -c -
       - name: Sculpt actual native GLBs and validate real vertex topology
         run: |
           python owl-pet/3d-experiments/172-tyto-castanops/run249_neural_rear_remige_shortwing.py \
-            --source owl-pet/3d-experiments/172-tyto-castanops/run248-source/run246-evidence/run246_A_real_neural_owl_YUP_horizontal_ledge_RESEARCH_ART_UNAPPROVED.glb \
+            --source owl-pet/3d-experiments/172-tyto-castanops/run248-source/run248-evidence/run248_A_true_neural_juvenile_selective_wing_sculpt_RESEARCH_NO_RELEASE.glb \
             --outdir owl-pet/3d-experiments/172-tyto-castanops/run249-evidence
       - name: Load both real 3D GLBs in Chromium WebGL2 and take 14 camera views
         run: |
@@ -103,6 +103,6 @@ jobs:
           git add -f "$EVID"/run249_AB_14_actual_WebGL2_views_ART_UNAPPROVED_NO_RELEASE.png 2>/dev/null || true
           if ! git diff --cached --quiet; then
             git commit -m "audit(owl172): Run249 genuine neural two-variant sculpt and fourteen-view technical QA NO_RELEASE"
-            git pull --rebase origin research/owl172-run249-juvenile-sculpt-clean-groom-no-release
-            git push origin HEAD:research/owl172-run249-juvenile-sculpt-clean-groom-no-release
+            git pull --rebase origin research/owl172-run249-rear-remige-ablation-art-reject-no-release
+            git push origin HEAD:research/owl172-run249-rear-remige-ablation-art-reject-no-release
           fi

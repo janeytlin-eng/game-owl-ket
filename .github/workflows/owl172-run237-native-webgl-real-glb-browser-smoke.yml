@@ -1,0 +1,60 @@
+name: "#172 Run237 actual Chromium WebGL2 native GLB load, ART REJECTED, NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run237-native-webgl-playwright-real3d-smoke-no-release
+    paths:
+      - '.github/workflows/owl172-run237-native-webgl-real-glb-browser-smoke.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run237_real_browser_webgl_smoke.mjs'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run237_browser_viewer_RESEARCH_ONLY.html'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  native-webgl-browser-test-is-not-phone-approval:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install no-fee browser loader and WebGL test toolchain
+        run: |
+          npm install --no-save --no-package-lock three@0.181.2 playwright@1.56.1
+          npx playwright install --with-deps chromium
+          node --check owl-pet/3d-experiments/172-tyto-castanops/run237_real_browser_webgl_smoke.mjs
+      - name: Recover the exact true neural Run236 GLB, verify SHA256 before use
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p owl-pet/3d-experiments/172-tyto-castanops/run237-source
+          gh run download 44689453387 -R janeytlin-eng/game-owl-ket \
+            -n owl172-run236-true-neural-eye-down-art-unapproved-NO-RELEASE \
+            -D owl-pet/3d-experiments/172-tyto-castanops/run237-source
+          echo '4a4a1b22048734d2926b1e27066dd76f125b4575554b305fd28b3233db300d33  owl-pet/3d-experiments/172-tyto-castanops/run237-source/run236_real_neural_eye_softdown_STUDY_ART_REJECTED_NO_RELEASE.glb' | sha256sum -c -
+      - name: Open actual textured 3D owl in Chromium WebGL2 and render seven views
+        run: |
+          xvfb-run -a timeout 430s node owl-pet/3d-experiments/172-tyto-castanops/run237_real_browser_webgl_smoke.mjs
+      - name: Archive actual browser evidence (never deploy or publish pet)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run237-webgl2-browser-not-phone-ART_UNAPPROVED-NO_RELEASE
+          path: |
+            owl-pet/3d-experiments/172-tyto-castanops/run237-evidence/
+            owl-pet/3d-experiments/172-tyto-castanops/run237_browser_viewer_RESEARCH_ONLY.html
+            owl-pet/3d-experiments/172-tyto-castanops/run237_real_browser_webgl_smoke.mjs
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Commit machine evidence independently without touching production
+        if: always()
+        run: |
+          git config user.name owl172-research-bot
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f owl-pet/3d-experiments/172-tyto-castanops/run237-evidence/run237_machine_report.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m 'audit(owl172): persist Run237 native browser WebGL gate, no phone or art approval'
+            git push origin HEAD:research/owl172-run237-native-webgl-playwright-real3d-smoke-no-release || echo 'Evidence remains in GitHub Actions artifact'
+          fi

@@ -106,3 +106,5 @@ jobs:
             git pull --rebase origin research/owl172-run244-neural-implicit-surface-wing-fairing-art-reject-no-release
             git push origin HEAD:research/owl172-run244-neural-implicit-surface-wing-fairing-art-reject-no-release
           fi
+
+# Run244b: re-run on verified triangle graph displacement smoothing; zero inversions required.

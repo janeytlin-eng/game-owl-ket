@@ -1,0 +1,61 @@
+{
+  "run": "Run252",
+  "source_sha256": "cd1513ac0822eef25bb56f9f8d08d244cac64d209ea8c92333693d287c926eb6",
+  "source_licence": "original research mesh; no external donor",
+  "source_kind": "actual native Hunyuan learned 3D GLB",
+  "y_up": true,
+  "objective": "nonrigid silhouette control; reject when new hump or adult wing persists",
+  "physical_phone_gpu": "UNTESTED",
+  "extra_paid_usd": 0,
+  "art_approved": false,
+  "release": "NO_RELEASE",
+  "variants": {
+    "C": {
+      "meshes": 9,
+      "triangles": 85009,
+      "learned_core_triangles": 34000,
+      "learned_core_volume": 1.3169727590358302,
+      "core_inverted_triangles": 0,
+      "eye_pupil_dark_material": true,
+      "posterior_z_min": -0.3447284293174744,
+      "max_learned_vertex_delta": 0.23189050765776922,
+      "altered_core_vertex_count": 11142,
+      "file": "run252_C_real_neural_silhouette_GLb_ART_UNAPPROVED_NO_RELEASE.glb",
+      "bytes": 4035000,
+      "sha256": "65446c4c93da72c51e3fe69e6a652fadaab4ea4d556e8ba23ad1c2678a87c01f",
+      "status": "TRUE_NATIVE_MESH_PASS_ART_PENDING",
+      "art_approved": false,
+      "renderer": "browser QA required; not validated here"
+    },
+    "D": {
+      "meshes": 9,
+      "triangles": 85009,
+      "learned_core_triangles": 34000,
+      "learned_core_volume": 1.2453366477936434,
+      "core_inverted_triangles": 0,
+      "eye_pupil_dark_material": true,
+      "posterior_z_min": -0.2747284293174744,
+      "max_learned_vertex_delta": 0.30225977134900384,
+      "altered_core_vertex_count": 11486,
+      "file": "run252_D_real_neural_silhouette_GLb_ART_UNAPPROVED_NO_RELEASE.glb",
+      "bytes": 4034984,
+      "sha256": "d4e39ae4243fe9bbef4e34659959fbd2a07e60dc8f376d7ccfa2c1e43aa5b2ef",
+      "status": "TRUE_NATIVE_MESH_PASS_ART_PENDING",
+      "art_approved": false,
+      "renderer": "browser QA required; not validated here"
+    },
+    "E_REJECT_FLIP": {
+      "meshes": 9,
+      "triangles": 85009,
+      "learned_core_triangles": 34000,
+      "learned_core_volume": 1.17579555580822,
+      "core_inverted_triangles": 2,
+      "eye_pupil_dark_material": true,
+      "posterior_z_min": -0.2603384125438838,
+      "max_learned_vertex_delta": 0.37310469248317973,
+      "altered_core_vertex_count": 11786,
+      "status": "GEOMETRY_REJECTED",
+      "art_approved": false
+    }
+  }
+}

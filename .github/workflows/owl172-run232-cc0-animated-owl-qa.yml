@@ -11,7 +11,7 @@ permissions:
   contents: write
 jobs:
   free-public-cc0-donor-experiment-no-release:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 24
     steps:
       - uses: actions/checkout@v4

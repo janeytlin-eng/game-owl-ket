@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>#172 Native WebGL2 Runtime QA (Not Approved, Not for Public Deployment)</title>
+<style>
+* { box-sizing: border-box; }
+body { margin:0; font-family:system-ui,sans-serif; background:#e7e9ed; }
+#stage { display:block; width:640px; height:640px; }
+#warning { color:#5c221e; padding:8px 12px; font-size:13px; }
+</style>
+<script type="importmap">
+{
+  "imports": {
+    "three": "/node_modules/three/build/three.module.js",
+    "three/addons/": "/node_modules/three/examples/jsm/"
+  }
+}
+</script>
+</head>
+<body>
+<canvas id="stage" width="640" height="640"></canvas>
+<div id="warning">RESEARCH ONLY — ART_REJECTED / NOT PHONE-VERIFIED / NO RELEASE</div>
+<script type="module">
+import * as THREE from 'three';
+import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
+
+window.__qa={status:'loading'};
+try {
+  const canvas=document.getElementById('stage');
+  const renderer=new THREE.WebGLRenderer({
+    canvas, antialias:false, alpha:false, preserveDrawingBuffer:true, powerPreference:'low-power'
+  });
+  renderer.setSize(640,640,false);
+  renderer.setPixelRatio(1);
+  renderer.setClearColor(0xe7e9ed,1);
+  renderer.outputColorSpace=THREE.SRGBColorSpace;
+  renderer.toneMapping=THREE.ACESFilmicToneMapping;
+  renderer.toneMappingExposure=1.2;
+  const gl=renderer.getContext();
+  const ext=gl.getExtension('WEBGL_debug_renderer_info');
+  const rendererInfo={
+    isWebGL2:gl instanceof WebGL2RenderingContext,
+    version:gl.getParameter(gl.VERSION),
+    glsl:gl.getParameter(gl.SHADING_LANGUAGE_VERSION),
+    gpu:ext ? gl.getParameter(ext.UNMASKED_RENDERER_WEBGL) : 'redacted',
+    maxTextureSize:gl.getParameter(gl.MAX_TEXTURE_SIZE),
+    maxVaryingVectors:gl.getParameter(gl.MAX_VARYING_VECTORS)
+  };
+  const scene=new THREE.Scene();
+  const camera=new THREE.PerspectiveCamera(36,1,0.01,1000);
+  scene.add(new THREE.HemisphereLight(0xffffff,0x847c75,2.4));
+  const sunlight=new THREE.DirectionalLight(0xffeee0,2.4);
+  sunlight.position.set(3,6,7);scene.add(sunlight);
+  const fill=new THREE.DirectionalLight(0xc7d9f8,1.2);
+  fill.position.set(-6,1,-4);scene.add(fill);
+
+  const gltf=await new GLTFLoader().loadAsync('/model.glb');
+  const owl=gltf.scene;scene.add(owl);
+  const bounds=new THREE.Box3().setFromObject(owl);
+  if(bounds.isEmpty())throw Error('Empty GLTF scene');
+  const center=bounds.getCenter(new THREE.Vector3());
+  const size=bounds.getSize(new THREE.Vector3());
+  const span=Math.max(size.x,size.y,size.z);
+  let meshCount=0,triangles=0,missingNormals=0,alphaMaskedMaterials=0,
+      texturedMaterials=0,positionsFinite=true,materialsCount=0;
+  owl.traverse(o=>{
+    if(!o.isMesh)return;
+    meshCount++;
+    const geo=o.geometry;
+    const pos=geo.getAttribute('position');
+    if(!pos || pos.count<3){positionsFinite=false;return;}
+    for(let i=0;i<pos.array.length;i++){if(!Number.isFinite(pos.array[i])){positionsFinite=false;break;}}
+    triangles+=(geo.index ? geo.index.count : pos.count)/3;
+    if(!geo.getAttribute('normal'))missingNormals++;
+    const mats=Array.isArray(o.material)?o.material:[o.material];
+    for(const m of mats){
+      materialsCount++;
+      if(m.alphaTest>0)alphaMaskedMaterials++;
+      if(m.map)texturedMaterials++;
+      m.side=THREE.DoubleSide;
+    }
+  });
+  const modelInfo={meshCount,triangles,missingNormals,alphaMaskedMaterials,
+    texturedMaterials,materialsCount,positionsFinite,
+    bounds:[size.x,size.y,size.z]};
+  if(!positionsFinite||meshCount<2)throw Error('Invalid mesh geometry');
+  function setView(name) {
+    const dirs={
+      front:[0,0,1],left:[-1,0,0],threequarter:[1,0,1],
+      right:[1,0,0],back:[0,0,-1],top:[0,1,0],bottom:[0,-1,0]
+    };
+    if(!dirs[name])throw Error('Unknown camera '+name);
+    const direction=new THREE.Vector3(...dirs[name]).normalize();
+    const distance=span*3.45;
+    camera.position.copy(center).addScaledVector(direction,distance);
+    camera.up.set(0,0,(name==='top'||name==='bottom')?1:0);
+    if(name!=='top' && name!=='bottom')camera.up.set(0,1,0);
+    camera.lookAt(center);
+    camera.updateProjectionMatrix();
+    renderer.render(scene,camera);
+    const width=640,height=640;
+    const pix=new Uint8Array(width*height*4);
+    gl.readPixels(0,0,width,height,gl.RGBA,gl.UNSIGNED_BYTE,pix);
+    let fg=0,sampled=0,background=0;
+    const colors=new Set();
+    for(let i=0;i<width*height;i+=23) {
+      const j=i*4;
+      const r=pix[j],g=pix[j+1],b=pix[j+2];
+      const isFG=Math.abs(r-231)+Math.abs(g-233)+Math.abs(b-237)>45;
+      if(isFG){fg++;colors.add((r>>4)*256+(g>>4)*16+(b>>4));}
+      else background++;
+      sampled++;
+    }
+    return {view:name,foregroundFraction:fg/sampled,
+      distinctSampleColors:colors.size,
+      sampleCount:sampled, backgroundSamples:background,
+      webglError:gl.getError()};
+  }
+  function benchmark(n=100) {
+    const times=[];
+    setView('front');
+    for(let i=0;i<n;i++){
+      const t0=performance.now();
+      renderer.render(scene,camera);
+      gl.finish();
+      times.push(performance.now()-t0);
+    }
+    times.sort((a,b)=>a-b);
+    return {driver:'desktop-headless-software-only_not_mobile',
+      frames:n,p50_render_and_finish_ms:times[Math.floor(n*.5)],
+      p95_render_and_finish_ms:times[Math.floor(n*.95)]};
+  }
+  window.__qa={status:'ready',rendererInfo,modelInfo,setView,benchmark};
+  setView('front');
+} catch(e) {
+  window.__qa={status:'failure',error:String(e.stack||e)};
+  console.error(e);
+}
+</script>
+</body>
+</html>

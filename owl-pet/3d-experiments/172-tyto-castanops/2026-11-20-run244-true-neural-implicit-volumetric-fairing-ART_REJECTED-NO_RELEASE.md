@@ -39,3 +39,17 @@ This distinct failed route is useful: local volumetric fairing with preservation
 ### Final remote verification
 
 Pending the current actual GitHub Actions job and original artifact readback. Do not mark remote WebGL pass or original artifact verified based on workflow creation alone.
+
+## Initial Run244 remote evidence and newly discovered geometry QA regression
+
+The first [real remote Run244](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44724537054) completed every stage, including authentic input SHA, generated and re-imported E/F native GLBs, 14 separate **Chromium Three.js WebGL2** views (SwiftShader software renderer), PNG digest checks, 30-day artifact upload and isolated branch research image/report commit. Original [artifact 14622963477](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44724537054/artifacts/14622963477), ZIP 6,114,466 bytes, independently downloaded and ZIP CRC checked: SHA256 `4fc5d883162946ea8e487dba477468128addd4cf30e629ac1383290efd7553c6`. Reopened its full real browser 14-view contact, still **ART_REJECTED**: adult-type wing and tail, incomplete down, upright body, absent tree-hollow support. Remote E/F GLB SHA256: `183aea507c86aefb6250d4acc12ba94135d5c28005fa1e090207255e6c0b0d3b` / `7a610c43a47871dff92d8abc041974fbd03325ca96354a221c978011d8faf2ea` respectively, both 3,831,092 bytes, **NOT** the local platform-dependent binary SHA values above. Browser software PASS is a technical loader/pass, not art or phone validation.
+
+An additional independent local triangle-normal audit found a **serious geometry-quality regression missed by the initial loader smoke test**: E had 80 and F had 87 original learned-core triangles whose normal directions were reversed by discontinuous nearest implicit-surface vertex projections. They were non-degenerate but *folded*, so the first remote GLBs remain explicitly **geometry REJECTED** too; no release.
+
+### Run244b corrective iteration
+
+Implemented real learned-mesh **32-iteration graph-Laplacian smoothing of the volumetric displacement field** on original native 3D triangle adjacency, with fixed head/eye lock, and added a hard geometric quality gate that fails if any learned-core triangle inverts. This is a genuine 3D mesh-processing fix, not a new low-grade assembled owl.
+
+Recomputed both native GLBs locally, independently reopened them, and examined another 12 VTK source/E/F viewpoints. Both now have **ZERO learned-core inverted triangles** (down from 80/87); E max movement 0.03308 units / 793 core vertices moved more than .01, F max 0.06427 units / 4,325 moved. The two corrected local GLBs still have 8 actual meshes and 86,867 actual triangles with intact original eyes, colors, UVs and fur. Local corrected SHA256 E: `19274685ed19bb4c61b36a55b09048649a3db5c691aff2d75b1fe33831abf1ee`, F: `35a8d320169944e894e8b0dbbc4161041091a6d4bcb0670f91a128ec2ba15370`. The new 12-view local contact was physically opened; it still unmistakably shows the adult wing profile and poor juvenile down. **Technical geometry regression fixed locally; ART_REJECTED persists**.
+
+The corrected [Run244b remote job](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44725561312) has genuinely started from a new workflow push. Its original native GLBs and WebGL2 data must be reviewed after completion before remote b claims. 30-day artifacts are evidence, never finished character releases. USD 0; unchanged main/251-species production.

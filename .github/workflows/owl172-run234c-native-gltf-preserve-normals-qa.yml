@@ -1,0 +1,68 @@
+name: "#172 Run234c true glTF PBR normal preserved 2048/1024/512 — NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run234-museum-cream-material-real-3d-qa-no-release
+    paths:
+      - '.github/workflows/owl172-run234c-native-gltf-preserve-normals-qa.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run234c_native_gltf_PBR_mesh_normals_preserving.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  proper-museum-gltf-pbr-research-only:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Free CPU dependencies Khronos Draco and real spatial camera rendering
+        run: |
+          set -eux
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends xvfb libgl1-mesa-dri libglx-mesa0 libosmesa6
+          python -m pip install --quiet "numpy==1.26.4" "pillow==10.4.0" "trimesh==4.4.9" "vtk==9.3.1" "scipy==1.14.1" "scikit-image==0.24.0" "requests==2.32.3"
+          npm install --no-save @gltf-transform/cli@4.5.1
+      - name: Actual CC0-labelled museum source download and decode; expected SHA required
+        run: |
+          set -eu
+          D=owl-pet/3d-experiments/172-tyto-castanops/run234-evidence
+          mkdir -p "$D"
+          python - <<'PY'
+          import pathlib,hashlib,requests
+          p=pathlib.Path('owl-pet/3d-experiments/172-tyto-castanops/run234-evidence/donor_draco_adult.glb')
+          u='https://zenodo.org/api/records/21379215/files/0e65de5934db4f0eae02835ba7227dcc_normalized_optimized.glb/content'
+          r=requests.get(u,timeout=(30,150));r.raise_for_status()
+          assert len(r.content)==5603344
+          assert hashlib.sha256(r.content).hexdigest()=='3fff5130cfad17cc1fcf312819019bad75782f4f01708d18696e100d643691cb'
+          p.write_bytes(r.content)
+          PY
+          ./node_modules/.bin/gltf-transform copy "$D/donor_draco_adult.glb" "$D/donor_uncompressed_adult.glb"
+          python - <<'PY'
+          import pathlib,hashlib
+          p=pathlib.Path('owl-pet/3d-experiments/172-tyto-castanops/run234-evidence/donor_uncompressed_adult.glb')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()=='4865f48828adb93cef4f5ec07002adc1a61855a80adb286f781a227fca89430f'
+          PY
+      - name: ACTUALLY generate three genuine photogrammetry GLBs with normals and 14 3D camera renders
+        run: |
+          xvfb-run -a python -u owl-pet/3d-experiments/172-tyto-castanops/run234c_native_gltf_PBR_mesh_normals_preserving.py
+          python - <<'PY'
+          import pathlib,json
+          d=pathlib.Path('owl-pet/3d-experiments/172-tyto-castanops/run234c-evidence')
+          r=json.loads((d/'run234c_machine_report.json').read_text())
+          assert r['status']=='THREE_REAL_NATIVE_GLB_NORMALS_PRESERVED_TWO_SEVEN_VIEW_TESTS_ART_REJECTED_NO_RELEASE'
+          assert len(list(d.glob('run234c_NATIVE_mesh_preserved_*px_ADULT_ART_REJECTED.glb')))==3
+          print({k:v['glb_bytes'] for k,v in r['cases'].items()})
+          PY
+      - name: Archive true GLB, cameras and machine data for independent audit (not a release)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run234c-native-gltf-preserved-normals-three-LODs-14views-NO_RELEASE
+          path: |
+            owl-pet/3d-experiments/172-tyto-castanops/run234c-evidence
+            owl-pet/3d-experiments/172-tyto-castanops/run234c_native_gltf_PBR_mesh_normals_preserving.py
+          retention-days: 30
+          if-no-files-found: warn

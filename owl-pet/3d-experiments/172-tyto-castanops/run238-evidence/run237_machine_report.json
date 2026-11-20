@@ -5,7 +5,7 @@
   "phone_webgl": "UNTESTED",
   "experiment": "Chromium Playwright WebGL2 software-driver native Three.js GLTFLoader smoke",
   "extra_paid_usd": 0,
-  "timestamp_utc": "2026-11-20T07:10:14.957Z",
+  "timestamp_utc": "2026-11-20T07:15:23.491Z",
   "source": {
     "bytes": 3698236,
     "sha256": "8a16b6b664fd6280372e85d4aba7429a659097363cd582269fc861cc825bdc7d"
@@ -41,10 +41,10 @@
     {
       "name": "front",
       "view": "front",
-      "foregroundFraction": 0.08007187377168848,
-      "distinctSampleColors": 49,
+      "foregroundFraction": 0.10943904767252513,
+      "distinctSampleColors": 51,
       "sampleCount": 17809,
-      "backgroundSamples": 16383,
+      "backgroundSamples": 15860,
       "webglError": 0,
       "screenshot": {
         "bytes": 71252,
@@ -54,10 +54,10 @@
     {
       "name": "left",
       "view": "left",
-      "foregroundFraction": 0.06974001909147061,
-      "distinctSampleColors": 31,
+      "foregroundFraction": 0.11241507103150093,
+      "distinctSampleColors": 33,
       "sampleCount": 17809,
-      "backgroundSamples": 16567,
+      "backgroundSamples": 15807,
       "webglError": 0,
       "screenshot": {
         "bytes": 53990,
@@ -67,10 +67,10 @@
     {
       "name": "threequarter",
       "view": "threequarter",
-      "foregroundFraction": 0.06592172497052053,
-      "distinctSampleColors": 40,
+      "foregroundFraction": 0.10556460216744343,
+      "distinctSampleColors": 41,
       "sampleCount": 17809,
-      "backgroundSamples": 16635,
+      "backgroundSamples": 15929,
       "webglError": 0,
       "screenshot": {
         "bytes": 65504,
@@ -80,10 +80,10 @@
     {
       "name": "right",
       "view": "right",
-      "foregroundFraction": 0.0744567353585266,
-      "distinctSampleColors": 31,
+      "foregroundFraction": 0.10702453815486551,
+      "distinctSampleColors": 33,
       "sampleCount": 17809,
-      "backgroundSamples": 16483,
+      "backgroundSamples": 15903,
       "webglError": 0,
       "screenshot": {
         "bytes": 59314,
@@ -93,10 +93,10 @@
     {
       "name": "back",
       "view": "back",
-      "foregroundFraction": 0.09399741703632994,
-      "distinctSampleColors": 22,
+      "foregroundFraction": 0.12443146723566736,
+      "distinctSampleColors": 25,
       "sampleCount": 17809,
-      "backgroundSamples": 16135,
+      "backgroundSamples": 15593,
       "webglError": 0,
       "screenshot": {
         "bytes": 52088,
@@ -106,10 +106,10 @@
     {
       "name": "top",
       "view": "top",
-      "foregroundFraction": 0.01987758998259307,
-      "distinctSampleColors": 7,
+      "foregroundFraction": 0.05879049918580493,
+      "distinctSampleColors": 10,
       "sampleCount": 17809,
-      "backgroundSamples": 17455,
+      "backgroundSamples": 16762,
       "webglError": 0,
       "screenshot": {
         "bytes": 39115,
@@ -119,10 +119,10 @@
     {
       "name": "bottom",
       "view": "bottom",
-      "foregroundFraction": 0.10152170250996687,
+      "foregroundFraction": 0.1016340052782301,
       "distinctSampleColors": 26,
       "sampleCount": 17809,
-      "backgroundSamples": 16001,
+      "backgroundSamples": 15999,
       "webglError": 0,
       "screenshot": {
         "bytes": 61347,
@@ -133,30 +133,30 @@
   "software_benchmark": {
     "driver": "desktop-headless-software-only_not_mobile",
     "frames": 100,
-    "p50_render_and_finish_ms": 0.20000000001164153,
-    "p95_render_and_finish_ms": 1.1000000000058208
+    "p50_render_and_finish_ms": 0.10000000000582077,
+    "p95_render_and_finish_ms": 1.8999999999941792
   },
-  "browserErrors": [
-    "requestfailed: http://127.0.0.1:35899/model.glb net::ERR_ABORTED"
-  ],
+  "browserErrors": [],
   "console": [
     {
       "type": "warning",
-      "text": "[.WebGL-0x1fd40013ce00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      "text": "[.WebGL-0x209400111a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
     },
     {
       "type": "warning",
-      "text": "[.WebGL-0x1fd40013ce00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      "text": "[.WebGL-0x209400111a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
     },
     {
       "type": "warning",
-      "text": "[.WebGL-0x1fd40013ce00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      "text": "[.WebGL-0x209400111a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
     },
     {
       "type": "warning",
-      "text": "[.WebGL-0x1fd40013ce00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      "text": "[.WebGL-0x209400111a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
     }
   ],
+  "abortedModelRequestsAfterSuccessfulLoad": [],
+  "fatalBrowserErrors": [],
   "gates": {
     "native_glb_sha": true,
     "webgl2": true,
@@ -166,8 +166,8 @@
     "nonmetallic_pbr_shading": true,
     "true_alpha_down": true,
     "seven_distinct_webgl_views": true,
-    "nonblank_pixel_checks": false,
-    "no_browser_error": false
+    "nonblank_pixel_checks": true,
+    "no_fatal_browser_error": true
   },
-  "status": "NATIVE_WEBGL2_SOFTWARE_SMOKE_FAIL_ART_REJECTED_NO_RELEASE"
+  "status": "NATIVE_WEBGL2_SOFTWARE_SMOKE_PASS_ART_REJECTED_PHONE_UNTESTED_NO_RELEASE"
 }

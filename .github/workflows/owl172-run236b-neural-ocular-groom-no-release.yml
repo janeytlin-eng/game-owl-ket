@@ -1,0 +1,69 @@
+name: "#172 Run236b neural ocular detail + second-down sculpt QA — NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run236-ocular-surface-groom-geometry-tech-no-release
+    paths:
+      - '.github/workflows/owl172-run236b-neural-ocular-groom-no-release.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run236b_organic_eye_softdown_trial.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  art-rejected-original-neural-mesh-eyes-and-native-down:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install free CPU geometry and spatial renderer, no paid services
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends xvfb libgl1-mesa-dri libglx-mesa0 libosmesa6
+          python -m pip install --upgrade pip
+          python -m pip install 'numpy==1.26.4' 'pillow==10.4.0' 'trimesh==4.4.9' 'vtk==9.3.1' 'scipy==1.14.1'
+          python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/run236b_organic_eye_softdown_trial.py
+      - name: Fetch actual previously rejected native neural GLB from Run235
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p owl-pet/3d-experiments/172-tyto-castanops/run236-evidence
+          gh run download 44678315762 -R janeytlin-eng/game-owl-ket \
+            -n owl172-run235-actual-3d-mesoptile-textured-groom-ART_REJECTED-NO_RELEASE \
+            -D owl-pet/3d-experiments/172-tyto-castanops/run236-evidence
+          sha256sum owl-pet/3d-experiments/172-tyto-castanops/run236-evidence/run235_real_neural_cream_3d_microdown_ART_REJECTED_NO_RELEASE.glb
+      - name: Actually retouch native 3D organic geometry and render seven independent cameras
+        run: |
+          xvfb-run -a timeout 1000s python -u owl-pet/3d-experiments/172-tyto-castanops/run236b_organic_eye_softdown_trial.py
+          python - <<'PY'
+          import json
+          p='owl-pet/3d-experiments/172-tyto-castanops/run236-evidence/run236b_report.json'
+          x=json.load(open(p))
+          assert x['status']=='TRUE_3D_TECH_PASS_ART_REJECTED_NO_RELEASE'
+          assert x['neural_core_faces']==46856 and x['down_faces']==21600
+          assert len(x['views'])==7 and len(set(v['sha256'] for v in x['views']))==7
+          assert x['phone_webgl']=='UNTESTED'
+          PY
+      - name: Preserve original binary GLB, seven real views and validation report as temporary negative evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run236b-native-neural-ocular-softdown-ART_REJECTED-NO_RELEASE
+          path: |
+            owl-pet/3d-experiments/172-tyto-castanops/run236-evidence/run236b_*
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Keep small failure report and negative contact sheet in isolated branch
+        if: always()
+        run: |
+          git config user.name owl172-research-bot
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f owl-pet/3d-experiments/172-tyto-castanops/run236-evidence/run236b_report.json 2>/dev/null || true
+          git add -f owl-pet/3d-experiments/172-tyto-castanops/run236-evidence/run236b_seven_real3D_views_ART_REJECTED_NO_RELEASE.png 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m 'audit(owl172): preserve Run236b authentic 3D rejection and seven camera evidence'
+            git push origin HEAD:research/owl172-run236-ocular-surface-groom-geometry-tech-no-release || echo 'isolated branch archive push unavailable; binary artifact retained'
+          fi

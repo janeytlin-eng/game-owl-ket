@@ -67,3 +67,5 @@ jobs:
             git commit -m 'audit(owl172): preserve Run236b authentic 3D rejection and seven camera evidence'
             git push origin HEAD:research/owl172-run236-ocular-surface-groom-geometry-tech-no-release || echo 'isolated branch archive push unavailable; binary artifact retained'
           fi
+
+# Run236b audit replay after branch audit race; retain negative QA only.

@@ -109,7 +109,7 @@ try {
     for(let i=0;i<width*height;i+=23) {
       const j=i*4;
       const r=pix[j],g=pix[j+1],b=pix[j+2];
-      const isFG=Math.abs(r-231)+Math.abs(g-233)+Math.abs(b-237)>45;
+      const isFG=Math.abs(r-231)+Math.abs(g-233)+Math.abs(b-237)>20;
       if(isFG){fg++;colors.add((r>>4)*256+(g>>4)*16+(b>>4));}
       else background++;
       sampled++;

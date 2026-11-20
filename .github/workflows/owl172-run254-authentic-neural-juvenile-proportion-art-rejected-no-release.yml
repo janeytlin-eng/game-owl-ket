@@ -1,0 +1,134 @@
+name: "#172 Run254 authentic neural juvenile proportion 14-view study — ART_REJECTED NO_RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run254-neural-juvenile-proportion-reference-anchored-art-rejected-no-release
+    paths:
+      - '.github/workflows/owl172-run254-authentic-neural-juvenile-proportion-art-rejected-no-release.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  native-neural-child-proportions-no-release:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install free original native-mesh and browser tools
+        run: |
+          python -m pip install "numpy==2.3.5" "trimesh==4.11.1" "scipy==1.16.3" "Pillow==12.3.0"
+          npm install --no-save --no-package-lock three@0.181.2 playwright@1.56.1
+          npx playwright install --with-deps chromium
+          python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/run254_reference_anchored_anatomic_broadening.py
+      - name: Recover user-project original authentic Hunyuan owl from immutable previous research
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          SRC=owl-pet/3d-experiments/172-tyto-castanops/run254-source
+          mkdir -p "$SRC"
+          gh run download 44798375236 -R janeytlin-eng/game-owl-ket -n owl172-run251-neural-ocular-PBR-posterior-volume-AB-14views-NO_RELEASE -D "$SRC"
+          echo 'cd1513ac0822eef25bb56f9f8d08d244cac64d209ea8c92333693d287c926eb6  owl-pet/3d-experiments/172-tyto-castanops/run254-source/run251-evidence/run251_A_authentic_neural_owl_eye_repair_tail_surgery_NO_RELEASE.glb' | sha256sum -c -
+      - name: Actually regenerate two continuous 3D neural owl variants, validate GLB
+        run: |
+          python owl-pet/3d-experiments/172-tyto-castanops/run254_reference_anchored_anatomic_broadening.py \
+            --source owl-pet/3d-experiments/172-tyto-castanops/run254-source/run251-evidence/run251_A_authentic_neural_owl_eye_repair_tail_surgery_NO_RELEASE.glb \
+            --outdir owl-pet/3d-experiments/172-tyto-castanops/run254-evidence
+      - name: Seven actual Chromium GLTFLoader/WebGL2 spatial cameras per native variant
+        run: |
+          set -euo pipefail
+          EVID=owl-pet/3d-experiments/172-tyto-castanops/run254-evidence
+          for V in A B; do
+            export OWL172_RUN_LABEL="Run254_${V}_authentic_neural_no_release"
+            export OWL172_QA_DIR="$PWD/$EVID/browser_${V}"
+            export OWL172_GLB_INPUT="$PWD/$EVID/run254_${V}_authentic_neural_juvenile_proportion_test_ART_UNAPPROVED_NO_RELEASE.glb"
+            export OWL172_EXPECTED_SHA="$(python -c "import json; r=json.load(open('$EVID/run254_geometry_report.json'));print(r['variants']['$V']['sha256'])")"
+            mkdir -p "$OWL172_QA_DIR"
+            xvfb-run -a timeout 340s node owl-pet/3d-experiments/172-tyto-castanops/run237_real_browser_webgl_smoke.mjs
+          done
+      - name: Independently check gates, SHA screenshots, seven-view angles; make reference comparison
+        if: always()
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image,ImageDraw
+          import json,hashlib
+          root=Path('owl-pet/3d-experiments/172-tyto-castanops/run254-evidence')
+          root.mkdir(exist_ok=True,parents=True)
+          cameras=['front','left','threequarter','right','back','top','bottom']
+          summary={'run':'Run254','art_approved':False,'release':'NO_RELEASE','phone_gpu':'UNTESTED','variants':{}}
+          frames=[]
+          for v in ('A','B'):
+              rp=root/('browser_'+v)/'run237_machine_report.json'
+              if not rp.exists():
+                  summary['variants'][v]={'status':'MISSING_REPORT'}
+                  continue
+              r=json.loads(rp.read_text())
+              gates=r.get('gates',{})
+              assert len(gates)==10 and all(gates.values()),(v,gates)
+              summary['variants'][v]={'status':r.get('status'),'gates':gates,'renderer':r.get('browser',{}).get('renderer',{})}
+              hashes=set()
+              for view in cameras:
+                  p=rp.parent/('run237_'+view+'_WEBGL_RESEARCH_NOT_APPROVED.png')
+                  found=[q for q in r.get('views',[]) if q.get('name')==view]
+                  assert p.exists() and len(found)==1,(v,view)
+                  digest=hashlib.sha256(p.read_bytes()).hexdigest()
+                  assert digest==found[0]['screenshot']['sha256'],(v,view)
+                  hashes.add(digest)
+                  frames.append((v,view,Image.open(p).convert('RGB')))
+              assert len(hashes)==7,(v,'duplicate camera')
+          if len(frames)==14:
+              sheet=Image.new('RGB',(1380,1480),(236,238,241))
+              draw=ImageDraw.Draw(sheet)
+              for i,(v,view,im) in enumerate(frames):
+                  x=(i%4)*345;y=(i//4)*370
+                  sheet.paste(im.resize((337,337)),(x+3,y+29))
+                  draw.text((x+5,y+8),'Run254 '+v+' '+view+' ART_UNAPPROVED',fill=(16,16,16))
+              dest=root/'run254_AB_14_ACTUAL_WEBGL2_VIEWS_ART_UNAPPROVED.png'
+              sheet.save(dest)
+              summary['contact_sha256']=hashlib.sha256(dest.read_bytes()).hexdigest()
+              source=Image.open('owl-pet/3d-experiments/172-tyto-castanops/run254-source/run251-evidence/browser_A/run237_front_WEBGL_RESEARCH_NOT_APPROVED.png').convert('RGB')
+              ref=Image.open('owl-pet/design/concepts/172-tyto-castanops-v3.png').convert('RGB').crop((950,280,1430,820))
+              comparison=Image.new('RGB',(1440,420),(240,240,240))
+              d=ImageDraw.Draw(comparison)
+              panels=[('Original v3 target / IMAGE ONLY',ref),('Original learned Hunyuan source',source)]
+              for v in ('A','B'):
+                  panels.append(('Run254 '+v+' native WebGL2', next(im for tv,view,im in frames if tv==v and view=='front')))
+              for j,(label,im) in enumerate(panels):
+                  comparison.paste(im.resize((345,375)),(j*360+7,38))
+                  d.text((j*360+9,8),label,fill=(0,0,0))
+              comparison.save(root/'run254_TARGET_SOURCE_AB_FRONT_COMPARISON_ART_UNAPPROVED.png')
+          (root/'run254_webgl_report.json').write_text(json.dumps(summary,indent=2)+'\n')
+          print(json.dumps(summary,indent=2))
+          assert len(frames)==14,'browser evidence incomplete'
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run254-native-neural-juvenile-proportions-AB-14views-ART-UNAPPROVED-NO-RELEASE
+          path: |
+            owl-pet/3d-experiments/172-tyto-castanops/run254-evidence/
+            owl-pet/3d-experiments/172-tyto-castanops/run254_reference_anchored_anatomic_broadening.py
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Persist independent machine audit and unreleased browser comparisons only
+        if: always()
+        run: |
+          git config user.name owl172-research-bot
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          EVID=owl-pet/3d-experiments/172-tyto-castanops/run254-evidence
+          git add -f "$EVID"/*.json 2>/dev/null || true
+          git add -f "$EVID"/run254_AB_14_ACTUAL_WEBGL2_VIEWS_ART_UNAPPROVED.png 2>/dev/null || true
+          git add -f "$EVID"/run254_TARGET_SOURCE_AB_FRONT_COMPARISON_ART_UNAPPROVED.png 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "audit(owl172): Run254 native neural 14view browser ART_UNAPPROVED NO_RELEASE"
+            git pull --rebase origin research/owl172-run254-neural-juvenile-proportion-reference-anchored-art-rejected-no-release
+            git push origin HEAD:research/owl172-run254-neural-juvenile-proportion-reference-anchored-art-rejected-no-release
+          fi

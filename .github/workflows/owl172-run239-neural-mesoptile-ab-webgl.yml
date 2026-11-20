@@ -1,0 +1,110 @@
+name: "#172 Run239 real neural mesoptile A/B WebGL QA — NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run239-neural-mesoptile-silhouette-ab-no-release
+    paths:
+      - '.github/workflows/owl172-run239-neural-mesoptile-ab-webgl.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  genuine-neural-mesh-a-b:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install free 3D and WebGL test dependencies
+        run: |
+          python -m pip install "numpy==2.2.6" "trimesh==4.9.0" "Pillow==10.4.0"
+          npm install --no-save --no-package-lock three@0.181.2 playwright@1.56.1
+          npx playwright install --with-deps chromium
+          python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/run239_neural_silhouette_ab_trial.py
+      - name: Retrieve pinned real Run238 Hunyuan neural 3D (not a toy primitive)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p owl-pet/3d-experiments/172-tyto-castanops/run239-source
+          gh run download 44693279336 -R janeytlin-eng/game-owl-ket \
+            -n owl172-run238-corrected-real3d-nonmetal-PBR-WEBGL2-ART_REJECTED-NO_RELEASE \
+            -D owl-pet/3d-experiments/172-tyto-castanops/run239-source
+          echo '8a16b6b664fd6280372e85d4aba7429a659097363cd582269fc861cc825bdc7d  owl-pet/3d-experiments/172-tyto-castanops/run239-source/run238-evidence/run238_real_juvenile_core_nonmetal_PBR_NATIVE_3D_ART_REJECTED_NO_RELEASE.glb' | sha256sum -c -
+      - name: Generate two real neural body and surface-down 3D variants
+        run: |
+          python owl-pet/3d-experiments/172-tyto-castanops/run239_neural_silhouette_ab_trial.py \
+            --source owl-pet/3d-experiments/172-tyto-castanops/run239-source/run238-evidence/run238_real_juvenile_core_nonmetal_PBR_NATIVE_3D_ART_REJECTED_NO_RELEASE.glb \
+            --outdir owl-pet/3d-experiments/172-tyto-castanops/run239-evidence
+      - name: Independently load A/B in Chromium WebGL2 and render 14 real camera views
+        run: |
+          EVID=owl-pet/3d-experiments/172-tyto-castanops/run239-evidence
+          for NAME in A B; do
+            export OWL172_RUN_LABEL="Run239_$NAME"
+            export OWL172_QA_DIR="$PWD/$EVID/$NAME"
+            export OWL172_GLB_INPUT="$PWD/$EVID/run239_variant${NAME}_true_neural_mesoptile_ART_REJECTED_NO_RELEASE.glb"
+            export OWL172_EXPECTED_SHA="$(python -c "import json;print(json.load(open('$EVID/run239_machine_report.json'))['variants']['$NAME']['sha256'])")"
+            mkdir -p "$OWL172_QA_DIR"
+            xvfb-run -a timeout 300s node owl-pet/3d-experiments/172-tyto-castanops/run237_real_browser_webgl_smoke.mjs
+          done
+      - name: Compose and audit screenshots from real browser, not screenshots of 2D source
+        if: always()
+        run: |
+          python - <<'PY'
+          import json,hashlib
+          from pathlib import Path
+          from PIL import Image,ImageDraw
+          p=Path("owl-pet/3d-experiments/172-tyto-castanops/run239-evidence")
+          p.mkdir(parents=True,exist_ok=True)
+          out={"run":"Run239","release":"NO_RELEASE","art_pass":False,"phone_webgl":"UNTESTED"}
+          angles=["front","left","threequarter","right","back","top","bottom"]
+          images=[]
+          for v in ("A","B"):
+              q=p/v/"run237_machine_report.json"
+              if not q.exists():out[v]="NO_COMPLETE_WEBGL_EVIDENCE";continue
+              r=json.loads(q.read_text());out[v]={"status":r["status"],"gpu":r.get("browser",{}).get("renderer",{}).get("gpu"),"gates":r.get("gates")}
+              for angle in angles:
+                  src=p/v/f"run237_{angle}_WEBGL_RESEARCH_NOT_APPROVED.png"
+                  if not src.exists():continue
+                  expected=next((x["screenshot"]["sha256"] for x in r.get("views",[]) if x["name"]==angle),None)
+                  assert hashlib.sha256(src.read_bytes()).hexdigest()==expected
+                  images.append((v,angle,Image.open(src).convert("RGB")))
+          if len(images)==14:
+              sheet=Image.new("RGB",(4*324,4*349),(234,235,239));draw=ImageDraw.Draw(sheet)
+              for i,(v,angle,im) in enumerate(images):
+                  x=(i%4)*324;y=(i//4)*349
+                  sheet.paste(im.resize((316,316)),(x+4,y+23))
+                  draw.text((x+7,y+5),v+" "+angle+" actual WebGL2",fill=(30,37,47))
+              path=p/"run239_AB_14_true_WEBGL2_views_ART_REJECTED_NO_RELEASE.png"
+              sheet.save(path)
+              out["contact"]={"bytes":path.stat().st_size,"sha256":hashlib.sha256(path.read_bytes()).hexdigest()}
+          out["status"]="ART_REJECTED_NO_RELEASE_RESEARCH_ONLY"
+          (p/"run239_webgl_comparison.json").write_text(json.dumps(out,indent=2)+"\n")
+          print(json.dumps(out,indent=2))
+          PY
+      - name: Archive full original binary native models and screenshot evidence for 30 days
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run239-genuine-3d-A-B-14view-ART_REJECTED-NO-RELEASE
+          path: |
+            owl-pet/3d-experiments/172-tyto-castanops/run239-evidence/
+            owl-pet/3d-experiments/172-tyto-castanops/run239_neural_silhouette_ab_trial.py
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Persist only QA JSON and montage to independent research branch
+        if: always()
+        run: |
+          git config user.name owl172-research-bot
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f owl-pet/3d-experiments/172-tyto-castanops/run239-evidence/*.json 2>/dev/null || true
+          git add -f owl-pet/3d-experiments/172-tyto-castanops/run239-evidence/run239_AB_14_true_WEBGL2_views_ART_REJECTED_NO_RELEASE.png 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m 'audit(owl172): true 3D mesoptile silhouettes and browser screenshots, still NO_RELEASE'
+            git push origin HEAD:research/owl172-run239-neural-mesoptile-silhouette-ab-no-release || echo 'Evidence only in Actions artifact'
+          fi

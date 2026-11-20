@@ -33,7 +33,7 @@ jobs:
         run: |
           mkdir -p owl-pet/3d-experiments/172-tyto-castanops/run243-source
           gh run download 44705566289 -R janeytlin-eng/game-owl-ket \
-            -n owl172-run242-true-neural-juvenile-sculpt-A-B-webgl-RESEARCH-NO-RELEASE \
+            -n owl172-run242-real-neural-wing-down-A-B-genuine-WebGL-NO-RELEASE \
             -D owl-pet/3d-experiments/172-tyto-castanops/run243-source
           echo 'ef60639bbba95a0e876ac427b277fa500063b9ce05d9b9c8bae5811a5c0518d1  owl-pet/3d-experiments/172-tyto-castanops/run243-source/run242-evidence/run242_variantA_native_neural_juvenile_down_ART_UNAPPROVED_NO_RELEASE.glb' | sha256sum -c -
       - name: Actually resculpt continuous learned rear wing and tail without replacement
@@ -41,7 +41,7 @@ jobs:
           python owl-pet/3d-experiments/172-tyto-castanops/run243_genuine_neural_juvenile_rear_anatomy_ab.py \
             --source owl-pet/3d-experiments/172-tyto-castanops/run243-source/run242-evidence/run242_variantA_native_neural_juvenile_down_ART_UNAPPROVED_NO_RELEASE.glb \
             --outdir owl-pet/3d-experiments/172-tyto-castanops/run243-evidence
-      - name: Real Chromium WebGL2 seven spatial cameras for A and B; strict fail on smoke regression
+      - name: Real Chromium WebGL2 seven spatial cameras for C and D; strict fail on smoke regression
         run: |
           EVID=owl-pet/3d-experiments/172-tyto-castanops/run243-evidence
           for NAME in C D; do

@@ -1,0 +1,104 @@
+name: "#172 Run245b authentic neural owl + explicit PBR normals organic hollow — RESEARCH NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run245b-organic-true3d-eucalypt-hollow-no-release
+    paths:
+      - '.github/workflows/owl172-run245b-organic-hollow-pbr-native-webgl.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  native-hollow-qa:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install free native mesh and real-browser QA
+        run: |
+          python -m pip install "numpy==2.2.6" "scipy==1.15.3" "scikit-image==0.25.2" "trimesh==4.9.0" "Pillow==10.4.0"
+          npm install --no-save --no-package-lock three@0.181.2 playwright@1.56.1
+          npx playwright install --with-deps chromium
+          python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/run245b_organic_hollow_pbr_and_vertex_normals.py
+      - name: Download real prior Hunyuan geometry from pinned Actions archive
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p owl-pet/3d-experiments/172-tyto-castanops/run245b-source
+          gh run download 44725561312 -R janeytlin-eng/game-owl-ket -n owl172-run244-implicit-3D-EF-real-14view-RESEARCH-NO-RELEASE -D owl-pet/3d-experiments/172-tyto-castanops/run245b-source
+          echo '19274685ed19bb4c61b36a55b09048649a3db5c691aff2d75b1fe33831abf1ee  owl-pet/3d-experiments/172-tyto-castanops/run245b-source/run244-evidence/run244_E_real_neural_implicit_clad_ART_UNAPPROVED_NO_RELEASE.glb' | sha256sum -c -
+      - name: Actually sculpt true organic hollow 3D volume and re-import whole native GLB
+        run: |
+          python owl-pet/3d-experiments/172-tyto-castanops/run245b_organic_hollow_pbr_and_vertex_normals.py --source owl-pet/3d-experiments/172-tyto-castanops/run245b-source/run244-evidence/run244_E_real_neural_implicit_clad_ART_UNAPPROVED_NO_RELEASE.glb --outdir owl-pet/3d-experiments/172-tyto-castanops/run245b-evidence
+      - name: Load native GLB in genuine Chromium Three.js WebGL2, render 7 separate views
+        run: |
+          EVID=owl-pet/3d-experiments/172-tyto-castanops/run245b-evidence
+          export OWL172_RUN_LABEL=Run245b_organic_hollow_RESEARCH_ONLY
+          export OWL172_QA_DIR="$PWD/$EVID/browser"
+          export OWL172_GLB_INPUT="$PWD/$EVID/run245b_native_neural_owl_with_nonmetallic_organic_hollow_RESEARCH_ART_UNAPPROVED.glb"
+          export OWL172_EXPECTED_SHA="$(python -c "import json;print(json.load(open('$EVID/run245b_machine_report.json'))['output_sha256'])")"
+          mkdir -p "$OWL172_QA_DIR"
+          xvfb-run -a timeout 330s node owl-pet/3d-experiments/172-tyto-castanops/run237_real_browser_webgl_smoke.mjs
+      - name: Assemble research-only genuine seven-view contact and hash verify
+        if: always()
+        run: |
+          python - <<'PY'
+          import hashlib,json
+          from pathlib import Path
+          from PIL import Image,ImageDraw
+          p=Path("owl-pet/3d-experiments/172-tyto-castanops/run245b-evidence")
+          report=p/"browser"/"run237_machine_report.json"
+          data=json.loads(report.read_text()) if report.exists() else {}
+          names=["front","left","threequarter","right","back","top","bottom"]
+          views=[]
+          for name in names:
+              f=p/"browser"/("run237_"+name+"_WEBGL_RESEARCH_NOT_APPROVED.png")
+              record=[v for v in data.get("views",[]) if v.get("name")==name]
+              if f.exists() and len(record)==1:
+                  assert hashlib.sha256(f.read_bytes()).hexdigest()==record[0]["screenshot"]["sha256"]
+                  views.append((name,Image.open(f).convert("RGB")))
+          qa={"run":"Run245b","release":"NO_RELEASE","art_approved":False,
+              "phone_gpu":"UNTESTED","render_count":len(views),
+              "browser_status":data.get("status","UNAVAILABLE")}
+          if len(views)==7:
+              sheet=Image.new("RGB",(1360,1020),(236,238,241))
+              draw=ImageDraw.Draw(sheet)
+              for i,(name,pic) in enumerate(views):
+                  x=(i%4)*340;y=(i//4)*510
+                  sheet.paste(pic.resize((332,332)),(x+4,y+30))
+                  draw.text((x+8,y+8),"Run245b "+name+" WebGL2 RESEARCH",fill=(25,31,38))
+              path=p/"run245b_7view_actual_WebGL2_RESEARCH_ART_REJECTED.png"
+              sheet.save(path)
+              qa["contact_sha256"]=hashlib.sha256(path.read_bytes()).hexdigest()
+          (p/"run245b_webgl_summary.json").write_text(json.dumps(qa,indent=2)+"\n")
+          print(json.dumps(qa,indent=2))
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run245b-true3d-eucalypt-hollow-7view-RESEARCH-NO-RELEASE
+          path: |
+            owl-pet/3d-experiments/172-tyto-castanops/run245b-evidence/
+            owl-pet/3d-experiments/172-tyto-castanops/run245b_organic_hollow_pbr_and_vertex_normals.py
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Commit machine evidence but never publish the model
+        if: always()
+        run: |
+          git config user.name owl172-research-bot
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          EVID=owl-pet/3d-experiments/172-tyto-castanops/run245b-evidence
+          git add -f "$EVID"/*.json 2>/dev/null || true
+          git add -f "$EVID"/run245b_7view_actual_WebGL2_RESEARCH_ART_REJECTED.png 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m 'audit(owl172): Run245b 3D hollow machine and true browser evidence NO RELEASE'
+            git pull --rebase origin research/owl172-run245b-organic-true3d-eucalypt-hollow-no-release
+            git push origin HEAD:research/owl172-run245b-organic-true3d-eucalypt-hollow-no-release
+          fi

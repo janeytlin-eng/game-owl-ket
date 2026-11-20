@@ -5,7 +5,87 @@
   "art_pass": false,
   "phone_webgl": "UNTESTED",
   "additional_paid_usd": 0,
-  "status": "FAILURE_NO_RELEASE",
-  "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/game-owl-ket/game-owl-ket/owl-pet/3d-experiments/172-tyto-castanops/run236_real_neural_eye_wispy_down_no_release.py\", line 156, in <module>\n    try:main()\n        ^^^^^^\n  File \"/home/runner/work/game-owl-ket/game-owl-ket/owl-pet/3d-experiments/172-tyto-castanops/run236_real_neural_eye_wispy_down_no_release.py\", line 90, in main\n    outglb.write_bytes(trimesh.exchange.gltf.export_glb(scene,include_normals=True))\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/trimesh/exchange/gltf.py\", line 204, in export_glb\n    tree, buffer_items = _create_gltf_structure(\n                         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/trimesh/exchange/gltf.py\", line 714, in _create_gltf_structure\n    _append_mesh(\n  File \"/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/trimesh/exchange/gltf.py\", line 937, in _append_mesh\n    normals = util.unitize(mesh.vertex_normals)\n                           ^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/trimesh/caching.py\", line 139, in get_cached\n    value = function(*args, **kwargs)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/trimesh/base.py\", line 495, in vertex_normals\n    assert hasattr(self.faces_sparse, \"dot\")\n                   ^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/trimesh/caching.py\", line 139, in get_cached\n    value = function(*args, **kwargs)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/trimesh/base.py\", line 351, in faces_sparse\n    return geometry.index_sparse(columns=len(self.vertices), indices=self.faces)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/trimesh/geometry.py\", line 462, in index_sparse\n    matrix = scipy.sparse.coo_matrix((data, (row, col)), shape=shape, dtype=data.dtype)\n             ^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/trimesh/exceptions.py\", line 30, in __getattribute__\n    raise super().__getattribute__(\"exception\")\n  File \"/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/trimesh/geometry.py\", line 8, in <module>\n    import scipy.sparse\nModuleNotFoundError: No module named 'scipy'\n",
-  "seconds": 0.05
+  "source": {
+    "name": "run235_real_neural_cream_3d_microdown_ART_REJECTED_NO_RELEASE.glb",
+    "bytes": 2356548,
+    "sha256": "97a2df9235310bea850f2a61db15b7930e90e1b9404bc9170cc98706c181dea2"
+  },
+  "model": {
+    "name": "run236_real_neural_eye_softdown_STUDY_ART_REJECTED_NO_RELEASE.glb",
+    "bytes": 3697964,
+    "sha256": "4a4a1b22048734d2926b1e27066dd76f125b4575554b305fd28b3233db300d33"
+  },
+  "mesh": {
+    "core_triangles": 46856,
+    "down_triangles": 36651,
+    "source_surface_following_tufts": 12217,
+    "eye_detail_triangles": 3360,
+    "all_real_3d_triangles": 86867,
+    "geometry_count": 8
+  },
+  "contact": {
+    "name": "run236_sevenview_eye_wispy_down_ART_REJECTED_NO_RELEASE.png",
+    "bytes": 645443,
+    "sha256": "191751971033ccea476d3cd532864da0f51c885bf96dd313c6a967090d180bbc"
+  },
+  "views": [
+    {
+      "view": "front",
+      "foreground_pixels": 59808,
+      "name": "run236_real_3d_front_ART_REJECTED.png",
+      "bytes": 170655,
+      "sha256": "fd9782900e82e7ce108380520cf327d030ac2012fef173c58be82424c5a15cc6"
+    },
+    {
+      "view": "left",
+      "foreground_pixels": 39382,
+      "name": "run236_real_3d_left_ART_REJECTED.png",
+      "bytes": 152040,
+      "sha256": "bbb2f7d9698e68c70530952be7dd5b5dbe932fae8fd7851c3601e5cbcb6cdf4a"
+    },
+    {
+      "view": "threequarter",
+      "foreground_pixels": 51181,
+      "name": "run236_real_3d_threequarter_ART_REJECTED.png",
+      "bytes": 165446,
+      "sha256": "b0d74b7c380ae39faf9cfeadc3f1c948b8ee3e06ade12ef71488accbbf10ac1a"
+    },
+    {
+      "view": "right",
+      "foreground_pixels": 37844,
+      "name": "run236_real_3d_right_ART_REJECTED.png",
+      "bytes": 149348,
+      "sha256": "f9654e62b4aede175f344bffdfd39e00ffe6e146a44246db51b756211eb8d07e"
+    },
+    {
+      "view": "back",
+      "foreground_pixels": 37038,
+      "name": "run236_real_3d_back_ART_REJECTED.png",
+      "bytes": 153259,
+      "sha256": "80a2bef53593956456c853dac6a51941c29a2c2468d113c74c01bbc511d578a8"
+    },
+    {
+      "view": "top",
+      "foreground_pixels": 52558,
+      "name": "run236_real_3d_top_ART_REJECTED.png",
+      "bytes": 158496,
+      "sha256": "8bc10b52ba37261f3d717dce595e186612d41aee264fc28464d11774d898c668"
+    },
+    {
+      "view": "bottom",
+      "foreground_pixels": 27193,
+      "name": "run236_real_3d_bottom_ART_REJECTED.png",
+      "bytes": 102403,
+      "sha256": "235d9482b9fbac9c2f09c7d7b6a7c710d0253d34cc0c07086777e7153e999bcf"
+    }
+  ],
+  "status": "TRUE_NEURAL_3D_GLB_SEVEN_VIEWS_ART_UNAPPROVED",
+  "art_reasons": [
+    "eyes still simplified spherical details",
+    "adult-like wing ridge and body shape",
+    "soft wisps still below premium second-down fidelity",
+    "no physically reviewed broad eucalyptus hollow",
+    "no physical phone WebGL/GPU measurements"
+  ],
+  "seconds": 6.71
 }

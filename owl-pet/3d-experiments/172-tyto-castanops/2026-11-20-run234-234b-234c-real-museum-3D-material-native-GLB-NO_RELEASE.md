@@ -44,3 +44,20 @@ Using the corrected actual scene-transform camera system, performed **seven nati
 **ART_REJECTED / NO_RELEASE / PHONE_WEBGL_UNTESTED.** Real photo-derived adult geometry, CIELAB recoloring, normal preservation and correct GLB export do not create genuine baby 360° anatomy or fluffy second-down. A professional, true juvenile heart-disc/short-wing/concealed-tail/hollow-footed sculpt plus believable groom is still the gating need. Further adult-mesh color tweaks have diminishing returns. Mobile target performance must be checked on actual phone WebGL only after the art passes.
 
 All work is confined to independent `research/owl172-run234-museum-cream-material-real-3d-qa-no-release` branch: standalone experiment scripts and dedicated GitHub Actions; no changes to `main`, 251-species pipeline, existing WebGL cat prototype or deployment. No paid generation, subscription or unauthorized private asset access.
+
+
+## Run234c remote execution / independent ZIP readback — VERIFIED after initial audit
+
+**Live [GitHub Actions Run234c](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44671103661) completed SUCCESS**, all checks including actual source checksum, real native GLB generation, 14 independent VTK cameras and artifact upload passed. **Green CI means technical geometry and archive only, NOT art acceptance.**
+
+Downloaded the actual 20,332,592-byte GitHub Actions artifact ZIP and independently checked its complete SHA256 `a9b31afc84fe2b815d28ac2aef52e984d7f79fc84a1f9fb9730440ff921f75ad`, ZIP integrity (22 entries, no CRC corruption), machine JSON, and real binary contents of all three remotely generated GLBs. Separate temporary artifact [14601030123](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44671103661/artifacts/14601030123), 30-day research retention.
+
+Exact REMOTE results, different binary SHA from the independent local experiment because metadata serialization varies:
+- 2048-px diffuse: **6,011,308 bytes**; SHA256 `f471a37bc171699e002cbbfaac08898889a3d4489444cc26977148c871f3e037`.
+- 1024-px diffuse: **5,720,608 bytes**; SHA256 `a590d7357b850cd92c725d3eb4c5eccb755d6705e1085174032e89856c45c84e`.
+- 512-px diffuse: **5,610,516 bytes**; SHA256 `398c7dc6d654b54aea7cbaefc7937d9cc054ab7a838b2270ecfc433e96943d19`.
+- Remote fourteen-view contact sheet 257,918 bytes, SHA256 `da8a495209e52fd3c734b3453b296a21908cbecfa5544bef29e5d95fe1912c43`.
+
+A second independent, programmatic GLB v2 inspection on the **downloaded remote bytes**, not merely the CI report, confirmed for all three models: **30,412 triangles, 24,036 POSITION vertices, 24,036 NORMAL vertices, valid finite 3D vertex normals, valid UV, exactly 3 retained PBR textures and 5 glTF buffer views**. Real GLB magic and byte length matched and Trimesh scene import succeeded. I then actually opened the 14-view sheet: still whitewashed adult owl with long adult flight wings/tail, hard surface, exposed legs/perch, NO downy nestling, NO natural hollow lip. Unambiguously **ART REJECTED / NO RELEASE / PHONE WEBGL UNTESTED**.
+
+Run233 official diffusion CPU experiment remains separately in progress at this final audit, with no independently verified generated GLB yet; its later status must be checked independently and should never be inferred from these adult donor successes.

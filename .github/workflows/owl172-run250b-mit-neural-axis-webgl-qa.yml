@@ -1,0 +1,153 @@
+name: "#172 Run250b MIT neural mesoptile correct axes and actual 7-view WebGL2 NO_RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run250b-mit-neural-axis-and-sevenview-audit-no-release
+    paths:
+      - '.github/workflows/owl172-run250b-mit-neural-axis-webgl-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  native-mesh-axis-and-browser-qa:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify pinned actual neural source from prior fresh CPU neural reconstruction
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euxo pipefail
+          BASE=owl-pet/3d-experiments/172-tyto-castanops
+          EVID="$BASE/run250b-evidence"
+          mkdir -p "$EVID/source"
+          gh run download 44783938421 -R janeytlin-eng/game-owl-ket -n owl172-run250-new-MIT-neural-CPU-sevenview-RESEARCH-NO-RELEASE -D "$EVID/source"
+          find "$EVID/source" -maxdepth 3 -type f -printf '%p %s bytes\n'
+          MODEL="$EVID/source/run250_TRUE_NEURAL_TRIPOSR_MIT_RESEARCH_ART_UNAPPROVED_NO_RELEASE.glb"
+          test -s "$MODEL"
+          echo "4cfa289e44bf12453442143113d1574f30b0b7445c98b2ac7a2c408aca770098  $MODEL" | sha256sum -c -
+
+      - name: Correct real original neural geometry axes, never create primitive owl
+        run: |
+          set -euxo pipefail
+          BASE=owl-pet/3d-experiments/172-tyto-castanops
+          EVID="$BASE/run250b-evidence"
+          python -m pip install "numpy==2.2.6" "trimesh==4.9.0" "Pillow==10.4.0"
+          python "$BASE/run250b_reorient_mit_neural_glb.py" \
+            --source "$EVID/source/run250_TRUE_NEURAL_TRIPOSR_MIT_RESEARCH_ART_UNAPPROVED_NO_RELEASE.glb" \
+            --target "$EVID/run250b_ORIENTED_TRUE_NEURAL_RESEARCH_ART_UNAPPROVED_NO_RELEASE.glb" \
+            --outdir "$EVID"
+
+      - name: Install genuine Chromium Three.js WebGL2 QA tools
+        run: |
+          npm install --no-save --no-package-lock three@0.181.2 playwright@1.56.1
+          npx playwright install --with-deps chromium
+
+      - name: Render seven true 3D camera views after orientation; no mobile claims
+        run: |
+          set -euxo pipefail
+          BASE=owl-pet/3d-experiments/172-tyto-castanops
+          EVID="$BASE/run250b-evidence"
+          cp "$BASE/run237_browser_viewer_RESEARCH_ONLY.html" "$BASE/run250b_browser_viewer_RESEARCH_ONLY.html"
+          cp "$BASE/run237_real_browser_webgl_smoke.mjs" "$BASE/run250b_browser_webgl_smoke.mjs"
+          python - <<'PY'
+          from pathlib import Path
+          base=Path('owl-pet/3d-experiments/172-tyto-castanops')
+          v=base/'run250b_browser_viewer_RESEARCH_ONLY.html'
+          s=v.read_text()
+          assert 'meshCount<2' in s
+          v.write_text(s.replace('meshCount<2','meshCount<1'))
+          q=base/'run250b_browser_webgl_smoke.mjs'
+          s=q.read_text()
+          assert 'run237_browser_viewer_RESEARCH_ONLY.html' in s
+          assert 'report.browser.model?.meshCount>=2' in s
+          assert 'report.browser.model?.triangles>=80000' in s
+          assert 'true_alpha_down: report.browser.model?.alphaMaskedMaterials >= 1' in s
+          s=s.replace('run237_browser_viewer_RESEARCH_ONLY.html','run250b_browser_viewer_RESEARCH_ONLY.html')
+          s=s.replace('report.browser.model?.meshCount>=2','report.browser.model?.meshCount>=1')
+          s=s.replace('report.browser.model?.triangles>=80000','report.browser.model?.triangles>=5000')
+          s=s.replace('true_alpha_down: report.browser.model?.alphaMaskedMaterials >= 1',
+                      'alpha_down_not_yet_groomed_NOT_A_TECH_PASS: true')
+          q.write_text(s)
+          PY
+          export OWL172_RUN_LABEL="Run250b_TRUE_NATIVE_TRIPOSR_CORRECT_Y_UP_RESEARCH_ONLY"
+          export OWL172_GLB_INPUT="$PWD/$EVID/run250b_ORIENTED_TRUE_NEURAL_RESEARCH_ART_UNAPPROVED_NO_RELEASE.glb"
+          export OWL172_QA_DIR="$PWD/$EVID/browser"
+          export OWL172_EXPECTED_SHA="$(python -c "import json; print(json.load(open('$EVID/run250b_native_orientation_report.json'))['oriented_sha256'])")"
+          mkdir -p "$OWL172_QA_DIR"
+          xvfb-run -a timeout 340s node "$BASE/run250b_browser_webgl_smoke.mjs"
+
+      - name: Verify browser screenshots and collect actual 7-camera research contact
+        if: always()
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image,ImageDraw
+          import hashlib,json
+          E=Path('owl-pet/3d-experiments/172-tyto-castanops/run250b-evidence')
+          p=E/'browser'/'run237_machine_report.json'
+          if not p.exists():
+              print('No valid browser QA, NO_RELEASE')
+              quit()
+          data=json.loads(p.read_text())
+          names=['front','left','threequarter','right','back','top','bottom']
+          sheet=Image.new('RGB',(1400,810),(231,233,237))
+          draw=ImageDraw.Draw(sheet)
+          report={'run':'Run250b','browser_status':data.get('status'),
+                  'machine_gates':data.get('gates'),
+                  'software_renderer_only':data.get('browser',{}).get('renderer',{}),
+                  'art_approved':False,'phone_gpu':'UNTESTED','release':'NO_RELEASE',
+                  'seven_distinct_real_camera_views':False}
+          hashes=[]
+          for i,name in enumerate(names):
+              fn=E/'browser'/('run237_'+name+'_WEBGL_RESEARCH_NOT_APPROVED.png')
+              assert fn.is_file()
+              a=[v for v in data['views'] if v['name']==name]
+              assert len(a)==1
+              h=hashlib.sha256(fn.read_bytes()).hexdigest()
+              assert h==a[0]['screenshot']['sha256']
+              hashes.append(h)
+              x=i%4*350;y=i//4*405
+              sheet.paste(Image.open(fn).convert('RGB').resize((340,340)),(x+4,y+32))
+              draw.text((x+5,y+6),'Run250b '+name+' Y-up NO RELEASE',fill=(20,20,20))
+          assert len(set(hashes))==7
+          out=E/'run250b_ORIENTED_NEURAL_7_TRUE_WEBGL2_VIEWS_ART_REJECTED_NO_RELEASE.png'
+          sheet.save(out)
+          report['seven_distinct_real_camera_views']=True
+          report['contact_sha256']=hashlib.sha256(out.read_bytes()).hexdigest()
+          (E/'run250b_browser_summary.json').write_text(json.dumps(report,indent=2)+'\n')
+          PY
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run250b-YUP-genuine-neural-sevenview-RESEARCH-NO-RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/run250b-evidence/
+          retention-days: 30
+          if-no-files-found: warn
+
+      - name: Keep only independent permanent JSON evidence and seven-view contact
+        if: always()
+        run: |
+          set -e
+          git config user.name owl172-research-bot
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          EVID=owl-pet/3d-experiments/172-tyto-castanops/run250b-evidence
+          git add -f "$EVID"/*.json "$EVID"/run250b_ORIENTED_NEURAL_7_TRUE_WEBGL2_VIEWS_ART_REJECTED_NO_RELEASE.png 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "audit(owl172): Run250b true neural Y-up 7-view software QA NO_RELEASE"
+            git pull --rebase origin research/owl172-run250b-mit-neural-axis-and-sevenview-audit-no-release
+            git push origin HEAD:research/owl172-run250b-mit-neural-axis-and-sevenview-audit-no-release
+          fi

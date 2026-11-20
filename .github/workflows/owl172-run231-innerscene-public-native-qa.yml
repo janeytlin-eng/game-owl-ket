@@ -1,0 +1,52 @@
+name: "#172 Run231 CC0 generic owl native GLB 7-view qualification — NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run231-innerscene-cc0-true3d-candidate-qa-no-release
+    paths:
+      - .github/workflows/owl172-run231-innerscene-public-native-qa.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/run231_public_cc0_native_owl_model_qa.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  native-3d-public-donor-qualification-no-release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Set up zero-fee native GLB inspection and actual offscreen 3D rendering
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends xvfb libgl1-mesa-dri libglx-mesa0
+          python -m pip install --quiet "numpy==1.26.4" "trimesh==4.4.9" "requests==2.32.3" "vtk==9.3.1" "pillow==10.4.0"
+          npm install --global --silent @gltf-transform/cli
+      - name: Verify executable syntax and run real public native GLB acquisition + 7 actual spatial cameras
+        run: |
+          python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/run231_public_cc0_native_owl_model_qa.py
+          xvfb-run -a python -u owl-pet/3d-experiments/172-tyto-castanops/run231_public_cc0_native_owl_model_qa.py
+      - name: Persist actual machine report in isolated branch, never main
+        if: always()
+        continue-on-error: true
+        run: |
+          D=owl-pet/3d-experiments/172-tyto-castanops/run231-evidence
+          if test -s "$D/run231_machine_report.json"; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add -f "$D/run231_machine_report.json"
+            git diff --cached --quiet || git commit -m "research(owl172): archive Run231 actual public GLB 3D machine QA — NO RELEASE"
+            git push origin HEAD:"$GITHUB_REF_NAME"
+          fi
+      - name: Archive original source and all actual 3D camera evidence — no asset release
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run231-real-3d-candidate-ART_UNAPPROVED-NO_RELEASE
+          path: |
+            owl-pet/3d-experiments/172-tyto-castanops/run231-evidence/
+            owl-pet/3d-experiments/172-tyto-castanops/run231_public_cc0_native_owl_model_qa.py
+          retention-days: 30
+          if-no-files-found: warn

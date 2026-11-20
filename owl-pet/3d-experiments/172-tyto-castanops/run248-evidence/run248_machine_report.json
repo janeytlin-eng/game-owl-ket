@@ -1,0 +1,108 @@
+{
+  "run": "Run248",
+  "source_sha256": "7864afc8a220c7edfa069f4d5bf2498db0fe0810c7e917a0451fc8201f22312b",
+  "purpose": "anatomical selective wing tuck + real mesh local fairing",
+  "status": "TECH_RESEARCH_NOT_ART_VERIFIED",
+  "art_approved": false,
+  "release": "NO_RELEASE",
+  "phone_gpu": "UNTESTED",
+  "extra_paid_usd": 0,
+  "variants": {
+    "A": {
+      "version": "A",
+      "params": {
+        "tuck_x": 0.065,
+        "wing_lift": 0.11,
+        "rear_in": 0.105,
+        "belly_x": 0.07
+      },
+      "correction": 1.0,
+      "inverted_triangles": 0,
+      "max_vertex_change": 0.11481135541245471,
+      "changed_vertices_gt_0p01": 11802,
+      "face_protected_max_shift": 5.2519367877756906e-05,
+      "core_bounds_before": [
+        [
+          -0.6911,
+          -0.8103,
+          -0.5841
+        ],
+        [
+          0.6472,
+          0.9873,
+          0.8628
+        ]
+      ],
+      "core_bounds_after": [
+        [
+          -0.6779,
+          -0.8103,
+          -0.5841
+        ],
+        [
+          0.6336,
+          0.9873,
+          0.8628
+        ]
+      ],
+      "glb": "run248_A_true_neural_juvenile_selective_wing_sculpt_RESEARCH_NO_RELEASE.glb",
+      "glb_bytes": 4946016,
+      "glb_sha256": "247d820538920735783072a204686fcf2f02ddb3ce1958a5472895a3ed7c1845",
+      "scene_meshes": 9,
+      "scene_triangles": 131835,
+      "source_owl_true_neural": true,
+      "old_fur_root_transferred": true,
+      "art_approved": false,
+      "phone_gpu": "UNTESTED",
+      "release": "NO_RELEASE"
+    },
+    "B": {
+      "version": "B",
+      "params": {
+        "tuck_x": 0.1,
+        "wing_lift": 0.17,
+        "rear_in": 0.155,
+        "belly_x": 0.105
+      },
+      "correction": 1.0,
+      "inverted_triangles": 0,
+      "max_vertex_change": 0.17097768615229256,
+      "changed_vertices_gt_0p01": 12824,
+      "face_protected_max_shift": 7.877905181657985e-05,
+      "core_bounds_before": [
+        [
+          -0.6911,
+          -0.8103,
+          -0.5841
+        ],
+        [
+          0.6472,
+          0.9873,
+          0.8628
+        ]
+      ],
+      "core_bounds_after": [
+        [
+          -0.6844,
+          -0.8103,
+          -0.5841
+        ],
+        [
+          0.6556,
+          0.9873,
+          0.8628
+        ]
+      ],
+      "glb": "run248_B_true_neural_juvenile_selective_wing_sculpt_RESEARCH_NO_RELEASE.glb",
+      "glb_bytes": 4946016,
+      "glb_sha256": "59ab2a0d098613c812297ce640334f5833bdff7761073f75a5776360acfd3222",
+      "scene_meshes": 9,
+      "scene_triangles": 131835,
+      "source_owl_true_neural": true,
+      "old_fur_root_transferred": true,
+      "art_approved": false,
+      "phone_gpu": "UNTESTED",
+      "release": "NO_RELEASE"
+    }
+  }
+}

@@ -1,0 +1,122 @@
+name: "#172 Run253 genuine neural SDF rear sculpt 14-view research — NO_RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run253-native-sdf-juvenile-back-resculpt-negative-control-no-release
+    paths:
+      - '.github/workflows/owl172-run253-native-sdf-juvenile-rear-resculpt-webgl-no-release.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  real-neural-sdf-juvenile-rear-negative-control:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install no-fee real native mesh and browser QA tools
+        run: |
+          python -m pip install "numpy==2.3.5" "trimesh==4.11.1" "scipy==1.16.3" "scikit-image==0.25.2" "Pillow==12.3.0"
+          npm install --no-save --no-package-lock three@0.181.2 playwright@1.56.1
+          npx playwright install --with-deps chromium
+          python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/run253_sdf_juvenile_back_sculpt.py
+      - name: Recover SHA-pinned original learned 3D GLB with corrected dark PBR eyes
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          SRC=owl-pet/3d-experiments/172-tyto-castanops/run253-source
+          mkdir -p "$SRC"
+          gh run download 44798375236 -R janeytlin-eng/game-owl-ket -n owl172-run251-neural-ocular-PBR-posterior-volume-AB-14views-NO_RELEASE -D "$SRC"
+          echo 'cd1513ac0822eef25bb56f9f8d08d244cac64d209ea8c92333693d287c926eb6  owl-pet/3d-experiments/172-tyto-castanops/run253-source/run251-evidence/run251_A_authentic_neural_owl_eye_repair_tail_surgery_NO_RELEASE.glb' | sha256sum -c -
+      - name: Execute native learned 3D signed-distance posterior resculpt A/B
+        run: |
+          python owl-pet/3d-experiments/172-tyto-castanops/run253_sdf_juvenile_back_sculpt.py \
+            --source owl-pet/3d-experiments/172-tyto-castanops/run253-source/run251-evidence/run251_A_authentic_neural_owl_eye_repair_tail_surgery_NO_RELEASE.glb \
+            --outdir owl-pet/3d-experiments/172-tyto-castanops/run253-evidence
+      - name: Render actual seven Chromium GLTFLoader WebGL2 spatial cameras per native GLB
+        run: |
+          set -euo pipefail
+          EVID=owl-pet/3d-experiments/172-tyto-castanops/run253-evidence
+          for V in A B; do
+            export OWL172_RUN_LABEL="Run253_${V}_authentic_neural_3d_NO_RELEASE"
+            export OWL172_QA_DIR="$PWD/$EVID/browser_${V}"
+            export OWL172_GLB_INPUT="$PWD/$EVID/run253_${V}_native_neural_juvenile_posterior_resculpt_ART_UNAPPROVED_NO_RELEASE.glb"
+            export OWL172_EXPECTED_SHA="$(python -c "import json; r=json.load(open('$EVID/run253_geometry_report.json'));print(r['variants']['$V']['sha256'])")"
+            mkdir -p "$OWL172_QA_DIR"
+            xvfb-run -a timeout 340s node owl-pet/3d-experiments/172-tyto-castanops/run237_real_browser_webgl_smoke.mjs
+          done
+      - name: Independently check screenshot SHA, all ten technical gates, 14 views, preserve NO_RELEASE
+        if: always()
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image,ImageDraw
+          import json,hashlib
+          root=Path('owl-pet/3d-experiments/172-tyto-castanops/run253-evidence')
+          root.mkdir(exist_ok=True,parents=True)
+          cameras=['front','left','threequarter','right','back','top','bottom']
+          summary={'run':'Run253','art_approved':False,'release':'NO_RELEASE','phone_gpu':'UNTESTED','variants':{}}
+          frames=[]
+          for v in ('A','B'):
+              rp=root/('browser_'+v)/'run237_machine_report.json'
+              if not rp.exists():
+                  summary['variants'][v]={'status':'MISSING_REPORT'}
+                  continue
+              r=json.loads(rp.read_text())
+              gates=r.get('gates',{})
+              assert len(gates)==10 and all(gates.values()),(v,gates)
+              summary['variants'][v]={'status':r.get('status'),'gates':gates,'renderer':r.get('browser',{}).get('renderer',{})}
+              hashes=set()
+              for view in cameras:
+                  p=rp.parent/('run237_'+view+'_WEBGL_RESEARCH_NOT_APPROVED.png')
+                  found=[q for q in r.get('views',[]) if q.get('name')==view]
+                  assert p.exists() and len(found)==1,(v,view)
+                  digest=hashlib.sha256(p.read_bytes()).hexdigest()
+                  assert digest==found[0]['screenshot']['sha256'],(v,view)
+                  hashes.add(digest)
+                  frames.append((v,view,Image.open(p).convert('RGB')))
+              assert len(hashes)==7,(v,'duplicate camera')
+          if len(frames)==14:
+              sheet=Image.new('RGB',(1380,1480),(236,238,241))
+              draw=ImageDraw.Draw(sheet)
+              for i,(v,view,im) in enumerate(frames):
+                  x=(i%4)*345;y=(i//4)*370
+                  sheet.paste(im.resize((337,337)),(x+3,y+29))
+                  draw.text((x+5,y+8),'Run253 '+v+' '+view+' ART_UNAPPROVED',fill=(16,16,16))
+              dest=root/'run253_AB_14_ACTUAL_WEBGL2_VIEWS_ART_UNAPPROVED.png'
+              sheet.save(dest)
+              summary['contact_sha256']=hashlib.sha256(dest.read_bytes()).hexdigest()
+          (root/'run253_webgl_report.json').write_text(json.dumps(summary,indent=2)+'\n')
+          print(json.dumps(summary,indent=2))
+          assert len(frames)==14,'browser evidence incomplete'
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run253-native-neural-implicit-rear-resculpt-AB-14views-ART-UNAPPROVED-NO-RELEASE
+          path: |
+            owl-pet/3d-experiments/172-tyto-castanops/run253-evidence/
+            owl-pet/3d-experiments/172-tyto-castanops/run253_sdf_juvenile_back_sculpt.py
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Persist only dedicated research reports / art-reject browser contact
+        if: always()
+        run: |
+          git config user.name owl172-research-bot
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          EVID=owl-pet/3d-experiments/172-tyto-castanops/run253-evidence
+          git add -f "$EVID"/*.json 2>/dev/null || true
+          git add -f "$EVID"/run253_AB_14_ACTUAL_WEBGL2_VIEWS_ART_UNAPPROVED.png 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "audit(owl172): Run253 14-view authentic-neural SDF ART_UNAPPROVED NO_RELEASE"
+            git pull --rebase origin research/owl172-run253-native-sdf-juvenile-back-resculpt-negative-control-no-release
+            git push origin HEAD:research/owl172-run253-native-sdf-juvenile-back-resculpt-negative-control-no-release
+          fi

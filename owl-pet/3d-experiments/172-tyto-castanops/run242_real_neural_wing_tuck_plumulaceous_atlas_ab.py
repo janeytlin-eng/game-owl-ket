@@ -19,7 +19,7 @@ def parse(raw):
     assert t==b"JSON"
     doc=json.loads(raw[20:20+n])
     bl,typ=struct.unpack_from("<I4s",raw,20+n)
-    assert typ==b"BIN\\x00" and 28+n+bl==len(raw)
+    assert typ==b"BIN\x00" and 28+n+bl==len(raw)
     return doc,bytearray(raw[28+n:])
 def pack(doc,buf):
     doc["buffers"][0]["byteLength"]=len(buf)
@@ -28,7 +28,7 @@ def pack(doc,buf):
     assert len(buf)%4==0
     return (struct.pack("<4sII",b"glTF",2,28+len(raw)+len(buf))
       +struct.pack("<I4s",len(raw),b"JSON")+raw
-      +struct.pack("<I4s",len(buf),b"BIN\\x00")+buf)
+      +struct.pack("<I4s",len(buf),b"BIN\x00")+buf)
 def smoothstep(a,b,x):
     x=np.clip((x-a)/(b-a),0,1)
     return x*x*(3-2*x)
@@ -45,7 +45,7 @@ def resculpt(v,p):
     q[:,0]-=np.sign(x)*p["foldwing_inward"]*wing
     # Pull the long learned wing/root backwards silhouette forward into the
     # young body, keeping the face and low toes in their learned positions.
-    rear=smoothstep(-.05,-.72,z) if False else (1-smoothstep(-.72,-.05,z))
+    rear=1-smoothstep(-.72,-.05,z)
     lower=np.exp(-((y+.26)/.49)**4)
     q[:,2]+=p["rear_retraction"]*rear*lower*foot_lock*chest_lock
     # Make a full soft juvenile rump instead of a rigid pointed wing end.
@@ -136,9 +136,9 @@ def replace_fur_png(doc,buf,pic):
     assert image.get("mimeType")=="image/png" and "bufferView" in image
     data=io.BytesIO();pic.save(data,format="PNG",optimize=True)
     blob=data.getvalue()
-    buf+=b"\\x00"*((-len(buf))%4)
+    buf+=b"\x00"*((-len(buf))%4)
     start=len(buf);buf.extend(blob)
-    buf+=b"\\x00"*((-len(buf))%4)
+    buf+=b"\x00"*((-len(buf))%4)
     viewid=len(doc["bufferViews"])
     doc["bufferViews"].append({"buffer":0,"byteOffset":start,"byteLength":len(blob)})
     image["bufferView"]=viewid

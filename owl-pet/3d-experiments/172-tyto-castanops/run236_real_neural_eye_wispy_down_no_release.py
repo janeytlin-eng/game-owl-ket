@@ -86,7 +86,8 @@ def main():
  scene.add_geometry(ribbon,geom_name="real_3d_surface_following_wispy_down")
  for i,part in enumerate(eye_parts):scene.add_geometry(part,geom_name="sculpt_anatomical_eye_detail_"+str(i))
  outglb=OUT/"run236_real_neural_eye_softdown_STUDY_ART_REJECTED_NO_RELEASE.glb"
- scene.export(outglb)
+ # Explicit real surface normals for smooth WebGL PBR, not only VTK studio renders.
+ outglb.write_bytes(trimesh.exchange.gltf.export_glb(scene,include_normals=True))
  opened=trimesh.load(outglb,force="scene")
  assert outglb.read_bytes()[:4]==b"glTF" and len(opened.geometry)==8
  assert all(np.isfinite(m.vertices).all() and np.ptp(m.vertices,axis=0).max()>.01 for m in opened.geometry.values())

@@ -72,7 +72,26 @@ def variant(raw,pitch,sigma,threshold,name,outdir):
     blend*=1-smooth(.46,.68,z)
     blend=np.clip(blend*1.12,0,.94)
     delta=np.clip((candidate[ids]-original)*blend[:,None],-.2,.2)
-    pts[:]=original+delta.astype(np.float32)
+    # New: nearest implicit-vertex projection is discontinuous at small triangle
+    # scales. Graph-Laplacian FAIR THE DISPLACEMENT on original learned triangle
+    # adjacency to prevent folded/inverted real 3D faces. No primitive rebuilt.
+    i,j,k=faces.T
+    edges_from=np.concatenate([i,j,j,k,k,i])
+    edges_to=np.concatenate([j,i,k,j,i,k])
+    degree=np.bincount(edges_from,minlength=len(original)).astype(float)
+    for _ in range(32):
+        average=np.zeros_like(delta)
+        np.add.at(average,edges_from,delta[edges_to])
+        average/=np.maximum(degree[:,None],1)
+        delta=.46*delta+.54*average
+    delta[(original[:,2]>.68)&(original[:,1]>.37)]=0
+    newpoints=original+delta
+    oldtr=original[faces];newtr=newpoints[faces]
+    n0=np.cross(oldtr[:,1]-oldtr[:,0],oldtr[:,2]-oldtr[:,0])
+    n1=np.cross(newtr[:,1]-newtr[:,0],newtr[:,2]-newtr[:,0])
+    inverted=int(np.count_nonzero(np.einsum("ij,ij->i",n0,n1)<0))
+    assert inverted==0,("inverted learned 3D core faces",inverted)
+    pts[:]=newpoints.astype(np.float32)
     recalc_normals(doc,buf,0)
     # Retarget original genuine feather cards by interpolated learned-core displacement.
     down=doc["meshes"][1]["primitives"][0]
@@ -115,6 +134,7 @@ def variant(raw,pitch,sigma,threshold,name,outdir):
                 max_surface_down_retarget=float(np.linalg.norm(furshift,axis=1).max()),
                 voxel_grid=list(map(int,occupancy.shape)),sigma_voxels=sigma,
                 threshold=threshold,execution_seconds=round(time.time()-started,2),
+                inverted_learned_core_triangles=inverted,
                 six_eye_meshes_exact_preserved=True,vertex_colors_and_uv_preserved=True)
 def main():
     a=argparse.ArgumentParser()

@@ -43,7 +43,7 @@ jobs:
           set -euo pipefail
           EVID=owl-pet/3d-experiments/172-tyto-castanops/run250-evidence
           for V in A B; do
-            export OWL172_RUN_LABEL="Run250_$V_real_mesh_RESEARCH_ONLY"
+            export OWL172_RUN_LABEL="Run250_"$V"_real_mesh_RESEARCH_ONLY"
             export OWL172_QA_DIR="$PWD/$EVID/browser_$V"
             export OWL172_GLB_INPUT="$PWD/$EVID/run250_"$V"_genuine_neural_wing_surface_inpaint_NO_RELEASE.glb"
             export OWL172_EXPECTED_SHA="$(python -c "import json; j=json.load(open('$EVID/run250_geometry_report.json')); print(j['variants']['$V']['sha256'])")"

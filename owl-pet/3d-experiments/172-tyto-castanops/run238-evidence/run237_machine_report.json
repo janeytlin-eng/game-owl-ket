@@ -1,0 +1,173 @@
+{
+  "run": "Run238",
+  "release": "NO_RELEASE",
+  "art_pass": false,
+  "phone_webgl": "UNTESTED",
+  "experiment": "Chromium Playwright WebGL2 software-driver native Three.js GLTFLoader smoke",
+  "extra_paid_usd": 0,
+  "timestamp_utc": "2026-11-20T07:10:14.957Z",
+  "source": {
+    "bytes": 3698236,
+    "sha256": "8a16b6b664fd6280372e85d4aba7429a659097363cd582269fc861cc825bdc7d"
+  },
+  "browser": {
+    "status": "ready",
+    "error": null,
+    "renderer": {
+      "isWebGL2": true,
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "glsl": "WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)",
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+      "maxTextureSize": 8192,
+      "maxVaryingVectors": 31
+    },
+    "model": {
+      "meshCount": 8,
+      "triangles": 86867,
+      "missingNormals": 0,
+      "alphaMaskedMaterials": 1,
+      "texturedMaterials": 1,
+      "materialsCount": 8,
+      "maxMetalness": 0,
+      "positionsFinite": true,
+      "bounds": [
+        1.6316715478897095,
+        1.9876023530960083,
+        1.671451985836029
+      ]
+    }
+  },
+  "views": [
+    {
+      "name": "front",
+      "view": "front",
+      "foregroundFraction": 0.08007187377168848,
+      "distinctSampleColors": 49,
+      "sampleCount": 17809,
+      "backgroundSamples": 16383,
+      "webglError": 0,
+      "screenshot": {
+        "bytes": 71252,
+        "sha256": "2fbb90ba8e1d237af1fe4f5526aebc15ef6340b4dfe1df3400292f92f5c3a665"
+      }
+    },
+    {
+      "name": "left",
+      "view": "left",
+      "foregroundFraction": 0.06974001909147061,
+      "distinctSampleColors": 31,
+      "sampleCount": 17809,
+      "backgroundSamples": 16567,
+      "webglError": 0,
+      "screenshot": {
+        "bytes": 53990,
+        "sha256": "e628f05be50c89d9ce514aaca23560ad80a38f6515ad23139e735daadb86a4fd"
+      }
+    },
+    {
+      "name": "threequarter",
+      "view": "threequarter",
+      "foregroundFraction": 0.06592172497052053,
+      "distinctSampleColors": 40,
+      "sampleCount": 17809,
+      "backgroundSamples": 16635,
+      "webglError": 0,
+      "screenshot": {
+        "bytes": 65504,
+        "sha256": "e3f5083699b8c2a0019dc95328b6c65d8733366692744805d7945f7b8e2299dd"
+      }
+    },
+    {
+      "name": "right",
+      "view": "right",
+      "foregroundFraction": 0.0744567353585266,
+      "distinctSampleColors": 31,
+      "sampleCount": 17809,
+      "backgroundSamples": 16483,
+      "webglError": 0,
+      "screenshot": {
+        "bytes": 59314,
+        "sha256": "284717549b6ebe970b2441ce6f37b42f891464ae507c25b977ad22c8270a330f"
+      }
+    },
+    {
+      "name": "back",
+      "view": "back",
+      "foregroundFraction": 0.09399741703632994,
+      "distinctSampleColors": 22,
+      "sampleCount": 17809,
+      "backgroundSamples": 16135,
+      "webglError": 0,
+      "screenshot": {
+        "bytes": 52088,
+        "sha256": "0d9c4ec63a6b02dc8b114e247eb120c23a78c470e22d0f5b6c9c5e95d858d5f5"
+      }
+    },
+    {
+      "name": "top",
+      "view": "top",
+      "foregroundFraction": 0.01987758998259307,
+      "distinctSampleColors": 7,
+      "sampleCount": 17809,
+      "backgroundSamples": 17455,
+      "webglError": 0,
+      "screenshot": {
+        "bytes": 39115,
+        "sha256": "df22a24e27687592c59d53632f8d71d5ff26a9bd6be361f9afc7abd8038d6cb6"
+      }
+    },
+    {
+      "name": "bottom",
+      "view": "bottom",
+      "foregroundFraction": 0.10152170250996687,
+      "distinctSampleColors": 26,
+      "sampleCount": 17809,
+      "backgroundSamples": 16001,
+      "webglError": 0,
+      "screenshot": {
+        "bytes": 61347,
+        "sha256": "3eb2baed695d3907c993a94702410c22b3979b167399ff53cba37405e5dbce39"
+      }
+    }
+  ],
+  "software_benchmark": {
+    "driver": "desktop-headless-software-only_not_mobile",
+    "frames": 100,
+    "p50_render_and_finish_ms": 0.20000000001164153,
+    "p95_render_and_finish_ms": 1.1000000000058208
+  },
+  "browserErrors": [
+    "requestfailed: http://127.0.0.1:35899/model.glb net::ERR_ABORTED"
+  ],
+  "console": [
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x1fd40013ce00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x1fd40013ce00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x1fd40013ce00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x1fd40013ce00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+    }
+  ],
+  "gates": {
+    "native_glb_sha": true,
+    "webgl2": true,
+    "real_mesh_count": true,
+    "real_triangles": true,
+    "normal_attributes": true,
+    "nonmetallic_pbr_shading": true,
+    "true_alpha_down": true,
+    "seven_distinct_webgl_views": true,
+    "nonblank_pixel_checks": false,
+    "no_browser_error": false
+  },
+  "status": "NATIVE_WEBGL2_SOFTWARE_SMOKE_FAIL_ART_REJECTED_NO_RELEASE"
+}

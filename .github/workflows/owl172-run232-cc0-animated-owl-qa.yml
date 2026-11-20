@@ -28,7 +28,8 @@ jobs:
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y --no-install-recommends xvfb libgl1-mesa-dri libglx-mesa0
-          python -m pip install --quiet "numpy==1.26.4" "trimesh==4.4.9" "requests==2.32.3" "vtk==9.3.1" "pillow==10.4.0" "beautifulsoup4==4.12.3"
+          python -m pip install --quiet "numpy==1.26.4" "trimesh==4.4.9" "requests==2.32.3" "vtk==9.3.1" "pillow==10.4.0" "beautifulsoup4==4.12.3" "playwright==1.56.0"
+          python -m playwright install chromium
       - name: Execute public guest-only asset acquisition, strict GLB and multi-view quality gates
         run: |
           python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/run232_cc0_animated_owl_guest_native_qa.py
@@ -41,7 +42,7 @@ jobs:
           if test -s "$D/run232_machine_report.json"; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add -f "$D/run232_machine_report.json"
+            git add --sparse -f "$D/run232_machine_report.json"
             git diff --cached --quiet || git commit -m "research(owl172): archive actual Run232 source probe and model QA — NO RELEASE"
             git push origin HEAD:"$GITHUB_REF_NAME"
           fi

@@ -1,0 +1,108 @@
+name: "#172 Run248 true neural juvenile anatomical wing fairing A/B — RESEARCH NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run248-juvenile-sculpt-clean-groom-no-release
+    paths:
+      - '.github/workflows/owl172-run248-genuine-neural-selective-wing-sculpt-webgl.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  real-3d-anatomical-study:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install free true 3D mesh and browser verification tools
+        run: |
+          python -m pip install "numpy==2.2.6" "scipy==1.15.3" "trimesh==4.9.0" "Pillow==10.4.0"
+          npm install --no-save --no-package-lock three@0.181.2 playwright@1.56.1
+          npx playwright install --with-deps chromium
+          python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/run248_neural_juvenile_anatomy_selective_fairing.py
+      - name: Retrieve original true neural owl + support from SHA-pinned source
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          SRC=owl-pet/3d-experiments/172-tyto-castanops/run248-source
+          mkdir -p "$SRC"
+          gh run download 44743011827 -R janeytlin-eng/game-owl-ket -n owl172-run246-YUP-true3d-horizontal-ledge-AB-fourteenview-RESEARCH-NO-RELEASE -D "$SRC"
+          echo '7864afc8a220c7edfa069f4d5bf2498db0fe0810c7e917a0451fc8201f22312b  owl-pet/3d-experiments/172-tyto-castanops/run248-source/run246-evidence/run246_A_real_neural_owl_YUP_horizontal_ledge_RESEARCH_ART_UNAPPROVED.glb' | sha256sum -c -
+      - name: Sculpt actual native GLBs and validate real vertex topology
+        run: |
+          python owl-pet/3d-experiments/172-tyto-castanops/run248_neural_juvenile_anatomy_selective_fairing.py \
+            --source owl-pet/3d-experiments/172-tyto-castanops/run248-source/run246-evidence/run246_A_real_neural_owl_YUP_horizontal_ledge_RESEARCH_ART_UNAPPROVED.glb \
+            --outdir owl-pet/3d-experiments/172-tyto-castanops/run248-evidence
+      - name: Load both real 3D GLBs in Chromium WebGL2 and take 14 camera views
+        run: |
+          set -e
+          EVID=owl-pet/3d-experiments/172-tyto-castanops/run248-evidence
+          for V in A B; do
+            export OWL172_RUN_LABEL="Run248_$V_real_neural_juvenile_RESEARCH_ONLY"
+            export OWL172_QA_DIR="$PWD/$EVID/browser_$V"
+            export OWL172_GLB_INPUT="$PWD/$EVID/run248_$V_true_neural_juvenile_selective_wing_sculpt_RESEARCH_NO_RELEASE.glb"
+            export OWL172_EXPECTED_SHA="$(python -c "import json; j=json.load(open('$EVID/run248_machine_report.json')); print(j['variants']['$V']['glb_sha256'])")"
+            mkdir -p "$OWL172_QA_DIR"
+            xvfb-run -a timeout 340s node owl-pet/3d-experiments/172-tyto-castanops/run237_real_browser_webgl_smoke.mjs
+          done
+      - name: Verify actual browser PNG hashes and prepare 14-view art-reject contact
+        if: always()
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image,ImageDraw
+          import hashlib,json
+          base=Path("owl-pet/3d-experiments/172-tyto-castanops/run248-evidence")
+          names=["front","left","threequarter","right","back","top","bottom"]
+          entries=[]; summary={"run":"Run248","art_approved":False,"phone_gpu":"UNTESTED","release":"NO_RELEASE","variants":{}}
+          for v in "AB":
+              sub=base/("browser_"+v); p=sub/"run237_machine_report.json"
+              if not p.exists(): summary["variants"][v]={"status":"MISSING"};continue
+              data=json.loads(p.read_text())
+              summary["variants"][v]={"status":data.get("status"),"gates":data.get("gates"),"driver":data.get("browser",{}).get("renderer",{})}
+              for name in names:
+                  f=sub/("run237_"+name+"_WEBGL_RESEARCH_NOT_APPROVED.png")
+                  matches=[x for x in data.get("views",[]) if x.get("name")==name]
+                  assert f.exists() and len(matches)==1
+                  assert hashlib.sha256(f.read_bytes()).hexdigest()==matches[0]["screenshot"]["sha256"]
+                  entries.append((v,name,Image.open(f).convert("RGB")))
+          if len(entries)==14:
+              sheet=Image.new("RGB",(1380,1480),(234,237,241));draw=ImageDraw.Draw(sheet)
+              for i,(v,name,im) in enumerate(entries):
+                  x=(i%4)*345;y=(i//4)*370
+                  sheet.paste(im.resize((337,337)),(x+3,y+29))
+                  draw.text((x+5,y+8),"Run248 "+v+" "+name+" RESEARCH NO_RELEASE",fill=(20,20,20))
+              p=base/"run248_AB_14_actual_WebGL2_views_ART_UNAPPROVED_NO_RELEASE.png"
+              sheet.save(p);summary["contact_sha256"]=hashlib.sha256(p.read_bytes()).hexdigest()
+          (base/"run248_webgl_summary.json").write_text(json.dumps(summary,indent=2)+"\n")
+          print(json.dumps(summary,indent=2))
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run248-true-neural-anatomy-AB-fourteenview-RESEARCH-NO-RELEASE
+          path: |
+            owl-pet/3d-experiments/172-tyto-castanops/run248-evidence/
+            owl-pet/3d-experiments/172-tyto-castanops/run248_neural_juvenile_anatomy_selective_fairing.py
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Preserve only independent research reports and art-QA images
+        if: always()
+        run: |
+          git config user.name owl172-research-bot
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          EVID=owl-pet/3d-experiments/172-tyto-castanops/run248-evidence
+          git add -f "$EVID"/*.json 2>/dev/null || true
+          git add -f "$EVID"/run248_AB_14_actual_WebGL2_views_ART_UNAPPROVED_NO_RELEASE.png 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "audit(owl172): Run248 genuine neural two-variant sculpt and fourteen-view technical QA NO_RELEASE"
+            git pull --rebase origin research/owl172-run248-juvenile-sculpt-clean-groom-no-release
+            git push origin HEAD:research/owl172-run248-juvenile-sculpt-clean-groom-no-release
+          fi

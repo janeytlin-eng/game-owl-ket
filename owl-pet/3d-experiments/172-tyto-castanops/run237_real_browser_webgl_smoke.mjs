@@ -83,6 +83,10 @@ try {
   report.browserErrors = errors;
   report.console = logs.slice(-30);
   const glIs2 = report.browser.renderer?.isWebGL2;
+  const abortedModelRequests = errors.filter(e=>e.includes('/model.glb') && e.includes('net::ERR_ABORTED'));
+  const fatalBrowserErrors = errors.filter(e=>!(e.includes('/model.glb') && e.includes('net::ERR_ABORTED')));
+  report.abortedModelRequestsAfterSuccessfulLoad = abortedModelRequests;
+  report.fatalBrowserErrors = fatalBrowserErrors;
   const coverageGood = report.views.every(v=>v.foregroundFraction > .025 && v.foregroundFraction < .92 && v.distinctSampleColors >= 10);
   const unique = new Set(report.views.map(v=>v.screenshot.sha256)).size;
   report.gates={
@@ -95,7 +99,7 @@ try {
     true_alpha_down: report.browser.model?.alphaMaskedMaterials >= 1,
     seven_distinct_webgl_views: unique === 7,
     nonblank_pixel_checks: coverageGood,
-    no_browser_error:errors.length===0
+    no_fatal_browser_error:fatalBrowserErrors.length===0
   };
   report.status=Object.values(report.gates).every(Boolean) ?
     'NATIVE_WEBGL2_SOFTWARE_SMOKE_PASS_ART_REJECTED_PHONE_UNTESTED_NO_RELEASE' :

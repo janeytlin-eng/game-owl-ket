@@ -1,0 +1,64 @@
+name: "#172 Run236c native WebGL-facing normals and PBR material probe — NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run236-ocular-surface-groom-geometry-tech-no-release
+    paths:
+      - '.github/workflows/owl172-run236c-webgl-pbr-normals-no-release.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run236c_mobile_pbr_normals.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  genuine-neural-3d-pbr-normal-encoding-no-release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install free glTF and geometry validation tools
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install 'numpy==1.26.4' 'trimesh==4.4.9' 'pillow==10.4.0'
+          python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/run236c_mobile_pbr_normals.py
+      - name: Fetch verified unmodified Run236b GLB from previous actual trial
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p owl-pet/3d-experiments/172-tyto-castanops/run236c-evidence
+          gh run download 44685198355 -R janeytlin-eng/game-owl-ket \
+            -n owl172-run236b-native-neural-ocular-softdown-ART_REJECTED-NO_RELEASE \
+            -D owl-pet/3d-experiments/172-tyto-castanops/run236c-evidence
+          sha256sum owl-pet/3d-experiments/172-tyto-castanops/run236c-evidence/run236b_true3D_eyes_down_ART_REJECTED_NO_RELEASE.glb
+      - name: Actually generate standard glTF2 vertex normal / PBR material GLB and verify reimport
+        run: |
+          python -u owl-pet/3d-experiments/172-tyto-castanops/run236c_mobile_pbr_normals.py
+          python - <<'PY'
+          import json
+          r=json.load(open('owl-pet/3d-experiments/172-tyto-castanops/run236c-evidence/run236c_native_PBR_validation.json'))
+          assert r['status']=='TRUE_3D_TECH_PASS_ART_REJECTED_NO_RELEASE'
+          assert r['true_3d_triangles']==69736 and r['normal_accessors']==4 and r['pbr_materials']==4
+          assert r['phone_webgl']=='UNTESTED'
+          PY
+      - name: Temporary binary PBR source evidence — NOT PLAYER FACING
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run236c-true3d-pbr-normals-ART_REJECTED-NO_RELEASE
+          path: |
+            owl-pet/3d-experiments/172-tyto-castanops/run236c-evidence/run236c_*
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Persist negative material validation report in research branch only
+        if: always()
+        run: |
+          git config user.name owl172-research-bot
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f owl-pet/3d-experiments/172-tyto-castanops/run236c-evidence/run236c_native_PBR_validation.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m 'audit(owl172): preserve native vertex-normal glTF PBR validation, art reject'
+            git push origin HEAD:research/owl172-run236-ocular-surface-groom-geometry-tech-no-release || echo 'branch race: artifact remains independently preserved'
+          fi

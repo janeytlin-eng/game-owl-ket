@@ -1,0 +1,26 @@
+{
+  "run": "Run250",
+  "source": "owl-pet/design/concepts/172-tyto-castanops-v3.png",
+  "source_sha256": "881dec86e0e66ab2ad0781db86a3b719b35e710d2be1a1606d761a9d0908483d",
+  "full_plate_px": [
+    1536,
+    1024
+  ],
+  "crop_box_xyxy": [
+    1000,
+    95,
+    1526,
+    879
+  ],
+  "input_file": "run250_v3_right_mesoptile_input_UNMASKED_RESEARCH.png",
+  "input_sha256": "06909524071e4cc523f55fc0d5fb4099a93fd6ad44cc7251800a92adc454fd27",
+  "input_px": [
+    638,
+    896
+  ],
+  "selection_note": "v3 far-right owl plus some original scenery; automatic IS-Net background segmentation may leave bark; do not claim isolated subject without visual review",
+  "purpose": "new MIT TripoSR neural base, rather than further warping adult remiges",
+  "art_approved": false,
+  "physical_phone_gpu": "UNTESTED",
+  "release": "NO_RELEASE"
+}

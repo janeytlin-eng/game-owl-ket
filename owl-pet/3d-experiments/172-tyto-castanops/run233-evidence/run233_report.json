@@ -1,0 +1,180 @@
+{
+  "run": "Run233",
+  "timestamp_utc": "2026-11-20T03:40:29.187123+00:00",
+  "intent": "Tyto castanops v3 rightmost cream mesoptile: investigate new official diffusion 3D base",
+  "source": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2",
+  "weights": "tencent/Hunyuan3D-2mini",
+  "weights_license": "tencent-hunyuan-community",
+  "inference": "local GitHub Actions CPU; no SaaS or external paid API",
+  "model": "official 0.6B generative Hunyuan3D DiT, not TripoSR or synthetic primitives",
+  "zero_additional_paid_usd": 0,
+  "status": "ACTUAL_NATIVE_GLB_AND_SEVEN_MESH_VIEWS_CREATED_ART_UNREVIEWED_NO_RELEASE",
+  "release": "NO_RELEASE",
+  "approved": false,
+  "actual_phone_webgl_tested": false,
+  "art_gate": "NOT_APPROVED_PENDING_REAL_7VIEW_VISUAL_QA",
+  "steps": {
+    "VERIFY_V3_AND_RESTORE_EYES": {
+      "ok": true,
+      "seconds": 3.5
+    },
+    "OFFICIAL_0_6B_MODEL_CPU_SHAPE_INFERENCE": {
+      "ok": true,
+      "seconds": 1612.0
+    },
+    "RENDER_SEVEN_REAL_SPATIAL_MESH_VIEWS": {
+      "ok": true,
+      "seconds": 6.98
+    }
+  },
+  "canonical_original": {
+    "bytes": 737545,
+    "sha256": "881dec86e0e66ab2ad0781db86a3b719b35e710d2be1a1606d761a9d0908483d"
+  },
+  "source_crop": {
+    "bytes": 324803,
+    "sha256": "df6403266687be43268423461c4daf0672be88f4111db2f822b28c604e28d0d0",
+    "bbox": [
+      44,
+      27,
+      438,
+      551
+    ],
+    "pupil_holes": [
+      {
+        "bbox": [
+          217,
+          153,
+          32,
+          28
+        ],
+        "pixels": 676
+      },
+      {
+        "bbox": [
+          309,
+          152,
+          24,
+          27
+        ],
+        "pixels": 539
+      }
+    ]
+  },
+  "model_loaded": true,
+  "weights_format": "official 0.6B mini Turbo fp16 weights, CPU bfloat16",
+  "native_mesh": {
+    "official_variant": "mini-turbo",
+    "inference_steps": 5,
+    "GLB": {
+      "bytes": 4962588,
+      "sha256": "0e6eedf3ff0b95269555c590c34e996fdc584986d2912f589d817c6ba3b6a02c"
+    },
+    "triangle_count": 275630,
+    "vertex_count": 137851,
+    "XYZ_nonzero_spans": [
+      1.55446,
+      1.98789,
+      1.7174
+    ],
+    "texturing": "not attempted, reject geometry before paint"
+  },
+  "seven_spatial_camera_views": [
+    {
+      "axis_camera": "minusX",
+      "foreground_pixels": 45278,
+      "unique_rgb": 662,
+      "sha256": "086b5057cc9f99ce61f7a1dbcf067d7041c1058c4947c9e3f7842cc34083f8bc",
+      "file": "run233_REAL_MESH_minusX_ART_UNAPPROVED.png"
+    },
+    {
+      "axis_camera": "plusX",
+      "foreground_pixels": 45666,
+      "unique_rgb": 664,
+      "sha256": "50561f64f1569cc14f534e648c0eb3d62b4e5d52c5dce1f9aa12a6128cedc056",
+      "file": "run233_REAL_MESH_plusX_ART_UNAPPROVED.png"
+    },
+    {
+      "axis_camera": "minusY",
+      "foreground_pixels": 32559,
+      "unique_rgb": 665,
+      "sha256": "56668b98cc4202092ac82f53c381fa355c2d0ec64dab9d8ecd770b1bbf365be4",
+      "file": "run233_REAL_MESH_minusY_ART_UNAPPROVED.png"
+    },
+    {
+      "axis_camera": "plusY",
+      "foreground_pixels": 39061,
+      "unique_rgb": 661,
+      "sha256": "57162a0a154f0e5f7b292d6af7bfb6cc1b239ee2d0cc28acdcf0f785426c19ef",
+      "file": "run233_REAL_MESH_plusY_ART_UNAPPROVED.png"
+    },
+    {
+      "axis_camera": "plusZ",
+      "foreground_pixels": 48368,
+      "unique_rgb": 666,
+      "sha256": "55fb51b2b761eda3386ed3ccacdaa79cf32a0b1b11098ccd0b5928a199ac6a8d",
+      "file": "run233_REAL_MESH_plusZ_ART_UNAPPROVED.png"
+    },
+    {
+      "axis_camera": "minusZ",
+      "foreground_pixels": 49102,
+      "unique_rgb": 658,
+      "sha256": "698ebee47bcbad81dd062f9315eda3ae8bba31297d955465cf9a93c2bc93eb29",
+      "file": "run233_REAL_MESH_minusZ_ART_UNAPPROVED.png"
+    },
+    {
+      "axis_camera": "oblique",
+      "foreground_pixels": 51039,
+      "unique_rgb": 662,
+      "sha256": "53d59c24ddde9d3b72da317525b3fda1804bca457a409155c84e2849046f90c3",
+      "file": "run233_REAL_MESH_oblique_ART_UNAPPROVED.png"
+    }
+  ],
+  "contact_sheet": {
+    "bytes": 401946,
+    "sha256": "749b7b3caa502bd9ba0eb27b74222e3a64db476688b8bd416f4d08186aae4b6e"
+  },
+  "runtime_seconds": 1625.08,
+  "files": {
+    "run233_REAL_MESH_minusX_ART_UNAPPROVED.png": {
+      "bytes": 97097,
+      "sha256": "086b5057cc9f99ce61f7a1dbcf067d7041c1058c4947c9e3f7842cc34083f8bc"
+    },
+    "run233_REAL_MESH_minusY_ART_UNAPPROVED.png": {
+      "bytes": 78867,
+      "sha256": "56668b98cc4202092ac82f53c381fa355c2d0ec64dab9d8ecd770b1bbf365be4"
+    },
+    "run233_REAL_MESH_minusZ_ART_UNAPPROVED.png": {
+      "bytes": 103137,
+      "sha256": "698ebee47bcbad81dd062f9315eda3ae8bba31297d955465cf9a93c2bc93eb29"
+    },
+    "run233_REAL_MESH_oblique_ART_UNAPPROVED.png": {
+      "bytes": 106820,
+      "sha256": "53d59c24ddde9d3b72da317525b3fda1804bca457a409155c84e2849046f90c3"
+    },
+    "run233_REAL_MESH_plusX_ART_UNAPPROVED.png": {
+      "bytes": 96468,
+      "sha256": "50561f64f1569cc14f534e648c0eb3d62b4e5d52c5dce1f9aa12a6128cedc056"
+    },
+    "run233_REAL_MESH_plusY_ART_UNAPPROVED.png": {
+      "bytes": 90326,
+      "sha256": "57162a0a154f0e5f7b292d6af7bfb6cc1b239ee2d0cc28acdcf0f785426c19ef"
+    },
+    "run233_REAL_MESH_plusZ_ART_UNAPPROVED.png": {
+      "bytes": 95798,
+      "sha256": "55fb51b2b761eda3386ed3ccacdaa79cf32a0b1b11098ccd0b5928a199ac6a8d"
+    },
+    "run233_TURBO_REAL_7AXIAL_MESH_QA_NOT_APPROVED.png": {
+      "bytes": 401946,
+      "sha256": "749b7b3caa502bd9ba0eb27b74222e3a64db476688b8bd416f4d08186aae4b6e"
+    },
+    "run233_owl_pupils_restored_2D_input_only.png": {
+      "bytes": 324803,
+      "sha256": "df6403266687be43268423461c4daf0672be88f4111db2f822b28c604e28d0d0"
+    },
+    "run233_real_official_Hunyuan3Dmini_CPU_SHAPE_ART_NOT_APPROVED.glb": {
+      "bytes": 4962588,
+      "sha256": "0e6eedf3ff0b95269555c590c34e996fdc584986d2912f589d817c6ba3b6a02c"
+    }
+  }
+}

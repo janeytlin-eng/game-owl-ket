@@ -64,7 +64,7 @@ try {
   const size=bounds.getSize(new THREE.Vector3());
   const span=Math.max(size.x,size.y,size.z);
   let meshCount=0,triangles=0,missingNormals=0,alphaMaskedMaterials=0,
-      texturedMaterials=0,positionsFinite=true,materialsCount=0;
+      texturedMaterials=0,positionsFinite=true,materialsCount=0,maxMetalness=0;
   owl.traverse(o=>{
     if(!o.isMesh)return;
     meshCount++;
@@ -77,13 +77,14 @@ try {
     const mats=Array.isArray(o.material)?o.material:[o.material];
     for(const m of mats){
       materialsCount++;
+      maxMetalness=Math.max(maxMetalness,Number(m.metalness??1));
       if(m.alphaTest>0)alphaMaskedMaterials++;
       if(m.map)texturedMaterials++;
       m.side=THREE.DoubleSide;
     }
   });
   const modelInfo={meshCount,triangles,missingNormals,alphaMaskedMaterials,
-    texturedMaterials,materialsCount,positionsFinite,
+    texturedMaterials,materialsCount,maxMetalness,positionsFinite,
     bounds:[size.x,size.y,size.z]};
   if(!positionsFinite||meshCount<2)throw Error('Invalid mesh geometry');
   function setView(name) {

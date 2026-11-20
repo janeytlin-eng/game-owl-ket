@@ -91,6 +91,7 @@ try {
     real_mesh_count: report.browser.model?.meshCount>=2,
     real_triangles: report.browser.model?.triangles>=80000,
     normal_attributes: report.browser.model?.missingNormals === 0,
+    nonmetallic_pbr_shading: report.browser.model?.maxMetalness <= 0.01,
     true_alpha_down: report.browser.model?.alphaMaskedMaterials >= 1,
     seven_distinct_webgl_views: unique === 7,
     nonblank_pixel_checks: coverageGood,

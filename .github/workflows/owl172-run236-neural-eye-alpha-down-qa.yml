@@ -1,0 +1,69 @@
+name: "#172 Run236 real neural 3D eye + alpha-down experiment — NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run236-neural-eye-softgroom-real3d-no-release
+    paths:
+      - '.github/workflows/owl172-run236-neural-eye-alpha-down-qa.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run236_real_neural_eye_wispy_down_no_release.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  real-3d-neural-eye-soft-down-art-gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install free CPU 3D QA dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends xvfb libgl1-mesa-dri libglx-mesa0 libosmesa6
+          python -m pip install "numpy==1.26.4" "Pillow==10.4.0" "trimesh==4.4.9" "vtk==9.3.1"
+          python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/run236_real_neural_eye_wispy_down_no_release.py
+      - name: Obtain only verified original Run235 neural juvenile GLB (not a synthetic bird)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p owl-pet/3d-experiments/172-tyto-castanops/run236-source
+          gh run download 44678315762 -R janeytlin-eng/game-owl-ket \
+            -n owl172-run235-actual-3d-mesoptile-textured-groom-ART_REJECTED-NO_RELEASE \
+            -D owl-pet/3d-experiments/172-tyto-castanops/run236-source
+          echo '97a2df9235310bea850f2a61db15b7930e90e1b9404bc9170cc98706c181dea2  owl-pet/3d-experiments/172-tyto-castanops/run236-source/run235_real_neural_cream_3d_microdown_ART_REJECTED_NO_RELEASE.glb' | sha256sum -c -
+      - name: Execute actual native 3D GLB transformation and seven distinct real camera views
+        env:
+          RUN236_SOURCE: ${{ github.workspace }}/owl-pet/3d-experiments/172-tyto-castanops/run236-source/run235_real_neural_cream_3d_microdown_ART_REJECTED_NO_RELEASE.glb
+        run: |
+          xvfb-run -a timeout 1000s python -u owl-pet/3d-experiments/172-tyto-castanops/run236_real_neural_eye_wispy_down_no_release.py
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('owl-pet/3d-experiments/172-tyto-castanops/run236-evidence/run236_machine_report.json')
+          r=json.loads(p.read_text())
+          assert r['status']=='TRUE_NEURAL_3D_GLB_SEVEN_VIEWS_ART_UNAPPROVED',r
+          assert r['release']=='NO_RELEASE' and r['art_pass'] is False
+          assert len(r['views'])==7
+          PY
+      - name: Upload true GLB, actual seven camera views and negative QA
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run236-true-neural-eye-down-art-unapproved-NO-RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/run236-evidence/
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Keep audited machine report and contact sheet on isolated research branch
+        if: always()
+        run: |
+          git config user.name owl172-research-bot
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f owl-pet/3d-experiments/172-tyto-castanops/run236-evidence/run236_machine_report.json 2>/dev/null || true
+          git add -f owl-pet/3d-experiments/172-tyto-castanops/run236-evidence/run236_sevenview_eye_wispy_down_ART_REJECTED_NO_RELEASE.png 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m 'audit(owl172): store Run236 actual 3D multi-view negative evidence, NO_RELEASE'
+            git push origin HEAD:research/owl172-run236-neural-eye-softgroom-real3d-no-release || echo 'Research artifact remains accessible through Actions'
+          fi

@@ -19,6 +19,25 @@
       "no_fatal_browser_error": true
     }
   },
-  "B": "NO_COMPLETE_WEBGL_EVIDENCE",
+  "B": {
+    "status": "NATIVE_WEBGL2_SOFTWARE_SMOKE_PASS_ART_REJECTED_PHONE_UNTESTED_NO_RELEASE",
+    "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "gates": {
+      "native_glb_sha": true,
+      "webgl2": true,
+      "real_mesh_count": true,
+      "real_triangles": true,
+      "normal_attributes": true,
+      "nonmetallic_pbr_shading": true,
+      "true_alpha_down": true,
+      "seven_distinct_webgl_views": true,
+      "nonblank_pixel_checks": true,
+      "no_fatal_browser_error": true
+    }
+  },
+  "contact": {
+    "bytes": 255512,
+    "sha256": "afbf1c7cb39fabc8cac68bcba9af547ba2a7c928f7f788cef2e912d4d4bdfb36"
+  },
   "status": "ART_REJECTED_NO_RELEASE_RESEARCH_ONLY"
 }

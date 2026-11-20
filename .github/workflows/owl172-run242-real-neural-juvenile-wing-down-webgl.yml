@@ -1,0 +1,116 @@
+name: "#172 Run242 native learned juvenile wing-tuck + plumulaceous down A/B genuine WebGL — NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run242-juvenile-wing-tuck-plumulaceous-down-no-release
+    paths:
+      - '.github/workflows/owl172-run242-real-neural-juvenile-wing-down-webgl.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  neural-body-wing-down:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 36
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install free open-source native GLB mesh and actual browser tooling
+        run: |
+          python -m pip install "numpy==2.2.6" "trimesh==4.9.0" "Pillow==10.4.0"
+          npm install --no-save --no-package-lock three@0.181.2 playwright@1.56.1
+          npx playwright install --with-deps chromium
+          python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/run242_real_neural_wing_tuck_plumulaceous_atlas_ab.py
+      - name: Read pinned Run241 B authentic neural source and SHA gate
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p owl-pet/3d-experiments/172-tyto-castanops/run242-source
+          gh run download 44703755992 -R janeytlin-eng/game-owl-ket \
+            -n owl172-run241-true-neural-juvenile-sculpt-A-B-webgl-RESEARCH-NO-RELEASE \
+            -D owl-pet/3d-experiments/172-tyto-castanops/run242-source
+          echo '480b69f0ad296cc91ee6fac521d688cb60510065e9b16d005a629878473c1981  owl-pet/3d-experiments/172-tyto-castanops/run242-source/run241-evidence/run241_variantB_true_neural_squat_mesoptile_ART_REJECTED_NO_RELEASE.glb' | sha256sum -c -
+      - name: Actually resculpt continuous learned wing/tail and rebuild forked organic second-down alpha PNG
+        run: |
+          python owl-pet/3d-experiments/172-tyto-castanops/run242_real_neural_wing_tuck_plumulaceous_atlas_ab.py \
+            --source owl-pet/3d-experiments/172-tyto-castanops/run242-source/run241-evidence/run241_variantB_true_neural_squat_mesoptile_ART_REJECTED_NO_RELEASE.glb \
+            --outdir owl-pet/3d-experiments/172-tyto-castanops/run242-evidence
+      - name: Real Chromium WebGL2 seven spatial cameras for A and B; strict fail on smoke regression
+        run: |
+          EVID=owl-pet/3d-experiments/172-tyto-castanops/run242-evidence
+          for NAME in A B; do
+            export OWL172_RUN_LABEL="Run242_$NAME"
+            export OWL172_QA_DIR="$PWD/$EVID/$NAME"
+            export OWL172_GLB_INPUT="$PWD/$EVID/run242_variant${NAME}_native_neural_juvenile_down_ART_UNAPPROVED_NO_RELEASE.glb"
+            export OWL172_EXPECTED_SHA="$(python -c "import json;print(json.load(open('$EVID/run242_machine_report.json'))['variants']['$NAME']['sha256'])")"
+            mkdir -p "$OWL172_QA_DIR"
+            xvfb-run -a timeout 300s node owl-pet/3d-experiments/172-tyto-castanops/run237_real_browser_webgl_smoke.mjs
+          done
+      - name: Verify actual 14 browser screenshots and create independently checkable research contact
+        if: always()
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json,hashlib
+          from PIL import Image,ImageDraw
+          p=Path("owl-pet/3d-experiments/172-tyto-castanops/run242-evidence")
+          p.mkdir(parents=True,exist_ok=True)
+          names=["front","left","threequarter","right","back","top","bottom"]
+          result={"run":"Run242","release":"NO_RELEASE","art_pass":False,"physical_phone_gpu":"UNTESTED","variants":{}}
+          screenshots=[]
+          for v in "AB":
+              file=p/v/"run237_machine_report.json"
+              if not file.exists():
+                  result["variants"][v]={"status":"NO_BROWSER_REPORT"};continue
+              data=json.loads(file.read_text())
+              result["variants"][v]={"status":data["status"],"gates":data.get("gates",{}),
+                  "gpu":data.get("browser",{}).get("renderer",{}).get("gpu")}
+              for name in names:
+                  f=p/v/("run237_"+name+"_WEBGL_RESEARCH_NOT_APPROVED.png")
+                  if not f.exists():continue
+                  matches=[s for s in data.get("views",[]) if s["name"]==name]
+                  assert len(matches)==1
+                  assert hashlib.sha256(f.read_bytes()).hexdigest()==matches[0]["screenshot"]["sha256"]
+                  screenshots.append((v,name,Image.open(f).convert("RGB")))
+          if len(screenshots)==14:
+              image=Image.new("RGB",(1296,1396),(231,234,238))
+              d=ImageDraw.Draw(image)
+              for n,(v,name,im) in enumerate(screenshots):
+                  x=(n%4)*324;y=(n//4)*349
+                  image.paste(im.resize((316,316)),(x+4,y+23))
+                  d.text((x+6,y+5),v+" "+name+" true WebGL",fill=(25,33,44))
+              target=p/"run242_neural_juvenile_wing_down_AB_14_REAL_WEBGL_ART_NOT_APPROVED_NO_RELEASE.png"
+              image.save(target)
+              result["contact"]={"bytes":target.stat().st_size,
+                "sha256":hashlib.sha256(target.read_bytes()).hexdigest()}
+          result["status"]="REAL_BROWSER_ART_REVIEW_REQUIRED_NO_RELEASE" if len(screenshots)==14 else "BROWSER_EVIDENCE_INCOMPLETE_NO_RELEASE"
+          (p/"run242_webgl_report.json").write_text(json.dumps(result,indent=2)+"\n")
+          print(json.dumps(result,indent=2))
+          PY
+      - name: Archive authentic GLBs, original RGBA down PNG and every browser frame
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run242-real-neural-wing-down-A-B-genuine-WebGL-NO-RELEASE
+          path: |
+            owl-pet/3d-experiments/172-tyto-castanops/run242-evidence/
+            owl-pet/3d-experiments/172-tyto-castanops/run242_real_neural_wing_tuck_plumulaceous_atlas_ab.py
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Save nonbinary checkable reports and browser montage on isolated research branch
+        if: always()
+        run: |
+          git config user.name owl172-research-bot
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f owl-pet/3d-experiments/172-tyto-castanops/run242-evidence/*.json 2>/dev/null || true
+          git add -f owl-pet/3d-experiments/172-tyto-castanops/run242-evidence/run242_neural_juvenile_wing_down_AB_14_REAL_WEBGL_ART_NOT_APPROVED_NO_RELEASE.png 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m 'audit(owl172): genuine native neural wing/down AB GLB and true WebGL screenshots NO RELEASE'
+            git push origin HEAD:research/owl172-run242-juvenile-wing-tuck-plumulaceous-down-no-release || echo 'Research evidence retained in temporary Actions artifact'
+          fi

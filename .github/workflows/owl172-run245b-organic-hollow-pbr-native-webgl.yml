@@ -99,6 +99,6 @@ jobs:
           git add -f "$EVID"/run245b_7view_actual_WebGL2_RESEARCH_ART_REJECTED.png 2>/dev/null || true
           if ! git diff --cached --quiet; then
             git commit -m 'audit(owl172): Run245b 3D hollow machine and true browser evidence NO RELEASE'
-            git pull --rebase origin research/owl172-run245b-organic-true3d-eucalypt-hollow-no-release
-            git push origin HEAD:research/owl172-run245b-organic-true3d-eucalypt-hollow-no-release
+            git pull --rebase origin research/owl172-run245-organic-true3d-eucalypt-hollow-no-release
+            git push origin HEAD:research/owl172-run245-organic-true3d-eucalypt-hollow-no-release
           fi

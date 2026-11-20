@@ -1,0 +1,117 @@
+name: "#172 Run240 native neural down atlas + eye PBR WebGL A/B (NO RELEASE)"
+on:
+  push:
+    branches:
+      - research/owl172-run240-neural-softdown-fourcell-ocular-pbr-no-release
+    paths:
+      - '.github/workflows/owl172-run240-neural-down-ocular-pbr-webgl.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  real-neural-3d-soft-down-and-eye:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install no-extra-fee real GLB and browser dependencies
+        run: |
+          python -m pip install "numpy==2.2.6" "trimesh==4.9.0" "Pillow==10.4.0"
+          npm install --no-save --no-package-lock three@0.181.2 playwright@1.56.1
+          npx playwright install --with-deps chromium
+          python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/run240_native_organic_down_ocular_pbr_ab.py
+      - name: Verify immutable Run239 B real neural 3D source before any editing
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p owl-pet/3d-experiments/172-tyto-castanops/run240-source
+          gh run download 44697170865 -R janeytlin-eng/game-owl-ket \
+            -n owl172-run239-genuine-3d-A-B-14view-ART_REJECTED-NO-RELEASE \
+            -D owl-pet/3d-experiments/172-tyto-castanops/run240-source
+          echo '84348c034e39287fe9a7a9d4054c46951d7543f06f1a304d63a623057de9beee  owl-pet/3d-experiments/172-tyto-castanops/run240-source/run239-evidence/run239_variantB_true_neural_mesoptile_ART_REJECTED_NO_RELEASE.glb' | sha256sum -c -
+      - name: Actually create two new embedded-texture native neural GLBs and verify unchanged learned geometry
+        run: |
+          python owl-pet/3d-experiments/172-tyto-castanops/run240_native_organic_down_ocular_pbr_ab.py \
+            --source owl-pet/3d-experiments/172-tyto-castanops/run240-source/run239-evidence/run239_variantB_true_neural_mesoptile_ART_REJECTED_NO_RELEASE.glb \
+            --outdir owl-pet/3d-experiments/172-tyto-castanops/run240-evidence
+      - name: Load both new actual GLBs in Chromium software WebGL2 with seven real cameras
+        run: |
+          EVID=owl-pet/3d-experiments/172-tyto-castanops/run240-evidence
+          for NAME in A B; do
+            export OWL172_RUN_LABEL="Run240_$NAME"
+            export OWL172_QA_DIR="$PWD/$EVID/$NAME"
+            export OWL172_GLB_INPUT="$PWD/$EVID/run240_variant${NAME}_TRUE_NEURAL_3D_DOWN_EYE_PBR_ART_REJECTED_NO_RELEASE.glb"
+            export OWL172_EXPECTED_SHA="$(python -c "import json;print(json.load(open('$EVID/run240_machine_report.json'))['variants']['$NAME']['sha256'])")"
+            mkdir -p "$OWL172_QA_DIR"
+            if ! xvfb-run -a timeout 300s node owl-pet/3d-experiments/172-tyto-castanops/run237_real_browser_webgl_smoke.mjs; then
+              echo "Research-only WebGL2 gate failure for $NAME is NOT art approval or release"
+            fi
+          done
+      - name: Preserve independent machine check and native-browser A/B montage
+        if: always()
+        run: |
+          python - <<'PY'
+          from PIL import Image,ImageDraw
+          import json,hashlib
+          from pathlib import Path
+          p=Path("owl-pet/3d-experiments/172-tyto-castanops/run240-evidence")
+          p.mkdir(parents=True,exist_ok=True)
+          out={"run":"Run240","release":"NO_RELEASE","art_pass":False,"physical_mobile_gpu":"UNTESTED","software_browsers":{}}
+          views=['front','left','threequarter','right','back','top','bottom']
+          pictures=[]
+          for variant in "AB":
+              report=p/variant/"run237_machine_report.json"
+              if not report.exists():
+                  out["software_browsers"][variant]={"status":"MISSING_BROSWER_EVIDENCE"};continue
+              r=json.loads(report.read_text())
+              out["software_browsers"][variant]={"status":r["status"],"gates":r.get("gates",{}),
+                  "gpu":r.get("browser",{}).get("renderer",{}).get("gpu"),
+                  "software_benchmark":r.get("software_benchmark",{})}
+              for name in views:
+                  pic=p/variant/("run237_"+name+"_WEBGL_RESEARCH_NOT_APPROVED.png")
+                  if not pic.exists():continue
+                  expected=next((z["screenshot"]["sha256"] for z in r.get("views",[]) if z["name"]==name),None)
+                  assert hashlib.sha256(pic.read_bytes()).hexdigest()==expected
+                  pictures.append((variant,name,Image.open(pic).convert("RGB")))
+          if len(pictures)==14:
+              sheet=Image.new("RGB",(1296,1396),(233,236,240))
+              draw=ImageDraw.Draw(sheet)
+              for i,(variant,name,img) in enumerate(pictures):
+                  x=(i%4)*324;y=(i//4)*349
+                  sheet.paste(img.resize((316,316)),(x+4,y+23))
+                  draw.text((x+7,y+5),variant+" "+name+" real WebGL2",fill=(30,37,47))
+              target=p/"run240_real_neural_14trueWEBGL_views_ART_REJECTED_NO_RELEASE.png"
+              sheet.save(target)
+              out["montage"]={"bytes":target.stat().st_size,"sha256":hashlib.sha256(target.read_bytes()).hexdigest()}
+          out["status"]="RESEARCH_ART_UNAPPROVED_NO_RELEASE"
+          (p/"run240_webgl_comparison.json").write_text(json.dumps(out,indent=2)+"\n")
+          print(json.dumps(out,indent=2))
+          PY
+      - name: Keep actual GLBs alpha atlases and authentic screenshots as raw evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run240-real-neural-fourcell-down-eyePBR-AB-NO-RELEASE
+          path: |
+            owl-pet/3d-experiments/172-tyto-castanops/run240-evidence/
+            owl-pet/3d-experiments/172-tyto-castanops/run240_native_organic_down_ocular_pbr_ab.py
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Persist only machine reports and montage on isolated research branch
+        if: always()
+        run: |
+          git config user.name owl172-research-bot
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f owl-pet/3d-experiments/172-tyto-castanops/run240-evidence/*.json 2>/dev/null || true
+          git add -f owl-pet/3d-experiments/172-tyto-castanops/run240-evidence/run240_real_neural_14trueWEBGL_views_ART_REJECTED_NO_RELEASE.png 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m 'audit(owl172): real native down atlas ocular PBR A/B WebGL2 research NO_RELEASE'
+            git push origin HEAD:research/owl172-run240-neural-softdown-fourcell-ocular-pbr-no-release || echo 'Evidence kept in Actions artifact only'
+          fi

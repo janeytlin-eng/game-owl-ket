@@ -27,6 +27,7 @@ jobs:
           npm install --no-save --no-package-lock three@0.181.2 playwright@1.56.1
           npx playwright install --with-deps chromium
           python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/run250_native_mesoptile_reconstruction.py
+          python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/run250_neural_color_transfer.py
       - name: Retrieve SHA-verified real neural Run248 Hunyuan sculpt (not an image)
         env:
           GH_TOKEN: ${{ github.token }}
@@ -99,6 +100,7 @@ jobs:
           path: |
             owl-pet/3d-experiments/172-tyto-castanops/run250-evidence/
             owl-pet/3d-experiments/172-tyto-castanops/run250_native_mesoptile_reconstruction.py
+            owl-pet/3d-experiments/172-tyto-castanops/run250_neural_color_transfer.py
           retention-days: 30
           if-no-files-found: warn
       - name: Preserve only scoped study reports and 14 REAL viewpoint picture
@@ -114,3 +116,5 @@ jobs:
             git pull --rebase origin research/owl172-run250-volumetric-mesoptile-retopology-LOD-no-release
             git push origin HEAD:research/owl172-run250-volumetric-mesoptile-retopology-LOD-no-release
           fi
+
+# Corrective COLOR_0 transfer: native original neural surface RGB must survive retopology. No art approval.

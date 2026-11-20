@@ -111,6 +111,7 @@ jobs:
           git add -f owl-pet/3d-experiments/172-tyto-castanops/run243-evidence/*.json 2>/dev/null || true
           git add -f owl-pet/3d-experiments/172-tyto-castanops/run243-evidence/run243_CD_14_ACTUAL_WEBGL2_VIEWS_ART_UNAPPROVED_NO_RELEASE.png 2>/dev/null || true
           if ! git diff --cached --quiet; then
-            git commit -m 'audit(owl172): genuine native neural wing/down AB GLB and true WebGL screenshots NO RELEASE'
-            git push origin HEAD:research/owl172-run243-neural-rear-wing-tuck-true3d-art-reject-no-release || echo 'Research evidence retained in temporary Actions artifact'
+            git commit -m 'audit(owl172): genuine neural rear sculpt C/D GLB and true WebGL screenshots NO RELEASE'
+            git pull --rebase origin research/owl172-run243-neural-rear-wing-tuck-true3d-art-reject-no-release
+            git push origin HEAD:research/owl172-run243-neural-rear-wing-tuck-true3d-art-reject-no-release
           fi

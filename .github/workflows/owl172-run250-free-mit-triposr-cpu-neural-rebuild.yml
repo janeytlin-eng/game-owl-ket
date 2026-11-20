@@ -21,6 +21,11 @@ jobs:
       MKL_NUM_THREADS: '4'
     steps:
       - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            owl-pet/design/concepts/172-tyto-castanops-v3.png
+            owl-pet/3d-experiments/172-tyto-castanops
+          sparse-checkout-cone-mode: false
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'

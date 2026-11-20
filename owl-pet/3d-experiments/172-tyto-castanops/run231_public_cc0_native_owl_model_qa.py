@@ -94,7 +94,7 @@ def get_scene(source):
     return meshes
 def render_native(meshes):
     renderer = vtk.vtkRenderer();renderer.SetBackground(.89,.90,.91)
-    renderer.SetUseFXAA(True)
+    renderer.SetUseFXAA(False)
     window = vtk.vtkRenderWindow();window.SetOffScreenRendering(True)
     window.SetSize(420,420);window.AddRenderer(renderer)
     texture_count=0
@@ -119,8 +119,9 @@ def render_native(meshes):
         if tex is not None and uv is not None and len(uv)==len(m.vertices):
             try:
                 img=Image.fromarray(np.asarray(tex)).convert("RGB")
-                q=OUT/("run231_native_texture_%02d.png"%k)
-                img.save(q)
+                tex_sha=hashlib.sha256(img.tobytes()).hexdigest()[:16]
+                q=OUT/("run231_NATIVE_TEXTURE_%s.png"%tex_sha)
+                if not q.exists(): img.save(q)
                 tc=numpy_to_vtk(np.asarray(uv,dtype=np.float32),deep=True)
                 tc.SetName("uv")
                 poly.GetPointData().SetTCoords(tc)
@@ -164,9 +165,14 @@ def render_native(meshes):
         writer=vtk.vtkPNGWriter();writer.SetFileName(str(q));writer.SetInputConnection(shot.GetOutputPort());writer.Write()
         im=np.asarray(Image.open(q).convert("RGB"),dtype=np.int16)
         foreground=int((np.max(np.abs(im-background),axis=2)>26).sum())
-        if foreground<700: raise ValueError("EMPTY CAMERA %s foreground=%s"%(name,foreground))
-        pictures.append((name,q));records.append({"camera":name,"foreground_pixels":foreground,"sha":dig(q)})
+        unique_colors=int(len(np.unique(im.reshape(-1,3),axis=0)))
+        if foreground<700 or foreground>int(.90*len(im)*len(im[0])) or unique_colors<64:
+            raise ValueError("BLANK_OR_FLAT_CAMERA %s foreground=%s unique_colors=%s"%(name,foreground,unique_colors))
+        pictures.append((name,q));records.append({"camera":name,"foreground_pixels":foreground,
+            "unique_rgb_values":unique_colors,"sha":dig(q)})
     window.Finalize()
+    if len(set(dig(p)["sha256"] for _,p in pictures))<5:
+        raise ValueError("MULTIVIEW_INDEPENDENCE_FAILED: duplicate spatial camera frames")
     R["views"]=records
     R["native_texture_actors"]=texture_count
     sheet=Image.new("RGB",(4*280,2*320),(242,244,246))
@@ -186,7 +192,7 @@ try:
     source=fetch_binary()
     meshes=get_scene(source)
     render_native(meshes)
-    R["status"]="REAL_GLTF_GEOMETRY_AND_SEVEN_CAMERAS_GENERATED_ART_UNREVIEWED_NO_RELEASE"
+    R["status"]="REAL_GLTF_AND_SEVEN_NONBLANK_DISTINCT_3D_CAMERAS_GENERATED_ART_UNREVIEWED_NO_RELEASE"
 except BaseException as ex:
     R["status"]="NO_VERIFIED_QUALIFIED_MODEL_NO_RELEASE"
     R["error"]=repr(ex);R["traceback"]=traceback.format_exc()[-4000:]

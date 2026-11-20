@@ -1,10 +1,11 @@
-name: "#172 Run250b MIT neural mesoptile correct axes and actual 7-view WebGL2 NO_RELEASE"
+name: "#172 Run250c MIT neural mesoptile visually corrected X-front to Z-front seven-view NO_RELEASE"
 on:
   push:
     branches:
       - research/owl172-run250b-mit-neural-axis-and-sevenview-audit-no-release
     paths:
       - '.github/workflows/owl172-run250b-mit-neural-axis-webgl-qa.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run250b_reorient_mit_neural_glb.py'
   workflow_dispatch:
 permissions:
   contents: write

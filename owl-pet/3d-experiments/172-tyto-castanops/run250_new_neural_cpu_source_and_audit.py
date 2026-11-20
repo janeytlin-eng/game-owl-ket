@@ -20,10 +20,10 @@ def prepare(source, out):
         image=im.convert("RGB")
     w,h=image.size
     assert (w,h)==(1536,1024), f"Unexpected #172 v3 plate: {w}x{h}; crop needs visual review"
-    # Last bird only; crop avoids the adult male/female and the upper plate title.
+    # Last bird only; visually checked original plate: subject spans approx x956..1360 and y289..842; adult female and bottom captions excluded.
     # No synthetic 2D bird geometry is introduced. Background separation is
     # delegated to an independent free IS-Net segmentation model.
-    box=(1000,95,1526,879)
+    box=(956,250,1435,880)
     crop=image.crop(box)
     # A modest neutral border avoids touching feathers at the crop boundaries.
     canvas=Image.new("RGB",(crop.width+112,crop.height+112),(127,127,127))

@@ -1,0 +1,46 @@
+{
+  "run": "Run240",
+  "release": "NO_RELEASE",
+  "art_pass": false,
+  "phone_webgl": "UNTESTED",
+  "paid_usd": 0,
+  "source_sha256": "84348c034e39287fe9a7a9d4054c46951d7543f06f1a304d63a623057de9beee",
+  "method": "actual neural GLB, 4-cell distinct fine down atlas and wet-eye nonmetal PBR; no owl geometry fabrication",
+  "variants": {
+    "A": {
+      "file": "run240_variantA_TRUE_NEURAL_3D_DOWN_EYE_PBR_ART_REJECTED_NO_RELEASE.glb",
+      "bytes": 3749284,
+      "sha256": "9e0c096be65310444d69ec46de7ab03e3c4c346aa549547f07223bdd4a0dee78",
+      "triangle_count": 86867,
+      "real_surface_following_tufts": 12217,
+      "original_alpha_png_bytes": 13128,
+      "new_alpha_png_bytes": 50523,
+      "four_distinct_wisp_cells": true,
+      "ocular_roughness": {
+        "iris": 0.23,
+        "pupil": 0.16,
+        "glint": 0.28
+      },
+      "alpha_cutoff": 0.13,
+      "no_neural_geometry_replacement": true
+    },
+    "B": {
+      "file": "run240_variantB_TRUE_NEURAL_3D_DOWN_EYE_PBR_ART_REJECTED_NO_RELEASE.glb",
+      "bytes": 3754384,
+      "sha256": "71cc6ad479479008d79f7eaa0dd375aedd46d691ae1c493d949f9fcb5a9bb121",
+      "triangle_count": 86867,
+      "real_surface_following_tufts": 12217,
+      "original_alpha_png_bytes": 13128,
+      "new_alpha_png_bytes": 55623,
+      "four_distinct_wisp_cells": true,
+      "ocular_roughness": {
+        "iris": 0.23,
+        "pupil": 0.16,
+        "glint": 0.28
+      },
+      "alpha_cutoff": 0.1,
+      "no_neural_geometry_replacement": true
+    }
+  },
+  "status": "NATIVE_GLBS_BUILT_PENDING_ACTUAL_BROWSER_ART_QA_NO_RELEASE"
+}

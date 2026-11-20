@@ -1,0 +1,57 @@
+{
+  "run": "Run240",
+  "release": "NO_RELEASE",
+  "art_pass": false,
+  "physical_mobile_gpu": "UNTESTED",
+  "software_browsers": {
+    "A": {
+      "status": "NATIVE_WEBGL2_SOFTWARE_SMOKE_PASS_ART_REJECTED_PHONE_UNTESTED_NO_RELEASE",
+      "gates": {
+        "native_glb_sha": true,
+        "webgl2": true,
+        "real_mesh_count": true,
+        "real_triangles": true,
+        "normal_attributes": true,
+        "nonmetallic_pbr_shading": true,
+        "true_alpha_down": true,
+        "seven_distinct_webgl_views": true,
+        "nonblank_pixel_checks": true,
+        "no_fatal_browser_error": true
+      },
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+      "software_benchmark": {
+        "driver": "desktop-headless-software-only_not_mobile",
+        "frames": 100,
+        "p50_render_and_finish_ms": 0.1000000000349246,
+        "p95_render_and_finish_ms": 1.099999999976717
+      }
+    },
+    "B": {
+      "status": "NATIVE_WEBGL2_SOFTWARE_SMOKE_PASS_ART_REJECTED_PHONE_UNTESTED_NO_RELEASE",
+      "gates": {
+        "native_glb_sha": true,
+        "webgl2": true,
+        "real_mesh_count": true,
+        "real_triangles": true,
+        "normal_attributes": true,
+        "nonmetallic_pbr_shading": true,
+        "true_alpha_down": true,
+        "seven_distinct_webgl_views": true,
+        "nonblank_pixel_checks": true,
+        "no_fatal_browser_error": true
+      },
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+      "software_benchmark": {
+        "driver": "desktop-headless-software-only_not_mobile",
+        "frames": 100,
+        "p50_render_and_finish_ms": 0.09999999997671694,
+        "p95_render_and_finish_ms": 0.3999999999650754
+      }
+    }
+  },
+  "montage": {
+    "bytes": 273494,
+    "sha256": "18110e2ab23a5a5aa99a3dffeb6bca21ac2a70d449923984565298ae622c077f"
+  },
+  "status": "RESEARCH_ART_UNAPPROVED_NO_RELEASE"
+}

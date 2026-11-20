@@ -88,8 +88,8 @@ def free_browser_guest():
    for node in page.locator("a, button").all():
     label=node.inner_text(timeout=1000).strip()[:110]
     href=node.get_attribute("href") or ""
-    if re.search("download|free sample|cute pets.*CC0|\\.zip\\b|\\.glb\\b",label+" "+href,re.I):
-     if not re.search("starter|\\$4|\\$5|checkout|purchase|upgrade|pay|login",label+" "+href,re.I):
+    if re.search("download|free sample|cute pets.*CC0|\.zip\b|\.glb\b",label+" "+href,re.I):
+     if not re.search("starter|\$4|\$5|checkout|purchase|upgrade|pay|login",label+" "+href,re.I):
       choices.append((node,label,href))
    events.append({"step":"free_file_candidates","count":len(choices),
       "choices":[{"text":label,"href":href} for _,label,href in choices[:20]]})
@@ -100,7 +100,7 @@ def free_browser_guest():
      dest=OUT/"run232_OFFICIAL_GUEST_FREE_SAMPLE_UNAPPROVED.zip"
      downloaded.save_as(str(dest))
      raw=dest.read_bytes()
-     if raw[:4]==b"PK\\x03\\x04":
+     if raw[:4]==b"PK\x03\x04":
       R["browser_free_guest"]={"clicked":label,"suggested_filename":downloaded.suggested_filename,
           "file":digest(dest),"events":events}
       return dest

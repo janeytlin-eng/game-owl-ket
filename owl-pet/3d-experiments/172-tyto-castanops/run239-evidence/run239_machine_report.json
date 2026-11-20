@@ -1,0 +1,45 @@
+{
+  "run": "Run239",
+  "release": "NO_RELEASE",
+  "art_pass": false,
+  "phone_webgl": "UNTESTED",
+  "cost_usd": 0,
+  "method": "real native learned neural owl mesh & fur buffer nonrigid retarget; no geometrical owl primitive or SVG",
+  "source": {
+    "bytes": 3698236,
+    "sha256": "8a16b6b664fd6280372e85d4aba7429a659097363cd582269fc861cc825bdc7d"
+  },
+  "variants": {
+    "A": {
+      "parameters": {
+        "rear_shift": 0.16,
+        "wing_tuck": 0.06,
+        "belly_narrow": 0.05,
+        "squat": 0.65
+      },
+      "file": "run239_variantA_true_neural_mesoptile_ART_REJECTED_NO_RELEASE.glb",
+      "bytes": 3698232,
+      "sha256": "563a6637b5afc8eb77b01cc80b2db9d28dd38cdfbc392bdb9dde5c42978611ed",
+      "real_meshes": 8,
+      "real_triangles": 86867,
+      "max_true_core_xyz_shift": 0.14187,
+      "max_true_3d_down_shift": 0.15416
+    },
+    "B": {
+      "parameters": {
+        "rear_shift": 0.28,
+        "wing_tuck": 0.105,
+        "belly_narrow": 0.085,
+        "squat": 1.0
+      },
+      "file": "run239_variantB_true_neural_mesoptile_ART_REJECTED_NO_RELEASE.glb",
+      "bytes": 3698236,
+      "sha256": "84348c034e39287fe9a7a9d4054c46951d7543f06f1a304d63a623057de9beee",
+      "real_meshes": 8,
+      "real_triangles": 86867,
+      "max_true_core_xyz_shift": 0.24748,
+      "max_true_3d_down_shift": 0.2689
+    }
+  },
+  "status": "TWO_REIMPORTED_NATIVE_DIFFUSION_3D_AB_VARIANTS_NO_ART_APPROVAL_NO_RELEASE"
+}

@@ -1,0 +1,24 @@
+{
+  "run": "Run239",
+  "release": "NO_RELEASE",
+  "art_pass": false,
+  "phone_webgl": "UNTESTED",
+  "A": {
+    "status": "NATIVE_WEBGL2_SOFTWARE_SMOKE_FAIL_ART_REJECTED_NO_RELEASE",
+    "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "gates": {
+      "native_glb_sha": true,
+      "webgl2": true,
+      "real_mesh_count": true,
+      "real_triangles": true,
+      "normal_attributes": true,
+      "nonmetallic_pbr_shading": true,
+      "true_alpha_down": true,
+      "seven_distinct_webgl_views": true,
+      "nonblank_pixel_checks": false,
+      "no_fatal_browser_error": true
+    }
+  },
+  "B": "NO_COMPLETE_WEBGL_EVIDENCE",
+  "status": "ART_REJECTED_NO_RELEASE_RESEARCH_ONLY"
+}

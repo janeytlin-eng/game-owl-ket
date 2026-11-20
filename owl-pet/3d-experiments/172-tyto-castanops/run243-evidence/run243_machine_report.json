@@ -1,0 +1,71 @@
+{
+  "run": "Run243",
+  "status": "TWO_TRUE_NEURAL_GLBS_CREATED_PENDING_BROWSER_ART_REVIEW",
+  "source_sha256": "ef60639bbba95a0e876ac427b277fa500063b9ce05d9b9c8bae5811a5c0518d1",
+  "art_approved": false,
+  "release": "NO_RELEASE",
+  "phone_webgl": "NOT_TESTED",
+  "external_paid_usd": 0,
+  "variants": {
+    "C": {
+      "file": "run243_variantC_genuine_neural_rump_tail_ART_REJECTED_NO_RELEASE.glb",
+      "sha256": "e97a843849726e0e385797d44c53a7e584ce9aed6ba090d33b9da8e776333a52",
+      "bytes": 3831092,
+      "genuine_neural_mesh_count": 8,
+      "real_triangles": 86867,
+      "all_original_eye_geometry_and_UVs_preserved": true,
+      "parameters": {
+        "tail_lift": 0.18,
+        "tail_retract": 0.2,
+        "wing_fold_up": 0.1,
+        "wing_fold_forward": 0.1,
+        "rump_fullness": 0.035,
+        "cheek_volume": 0.022,
+        "wing_smoothing": 0.72
+      },
+      "deformation": {
+        "0": {
+          "max_change_scene_units": 0.23749402994182048,
+          "moved_vertices_gt_0p02": 4222,
+          "rear_mask_vertices_gt_0p45": 966,
+          "local_taubin_max_change": 0.005253733391009369
+        },
+        "1": {
+          "max_change_scene_units": 0.24644229523003136,
+          "moved_vertices_gt_0p02": 18007,
+          "rear_mask_vertices_gt_0p45": 4698
+        }
+      }
+    },
+    "D": {
+      "file": "run243_variantD_genuine_neural_rump_tail_ART_REJECTED_NO_RELEASE.glb",
+      "sha256": "3c3fb6fe37c3841c911f056d35dedb2f385d1ab1578ffb8be701b420b0fd8190",
+      "bytes": 3831096,
+      "genuine_neural_mesh_count": 8,
+      "real_triangles": 86867,
+      "all_original_eye_geometry_and_UVs_preserved": true,
+      "parameters": {
+        "tail_lift": 0.31,
+        "tail_retract": 0.28,
+        "wing_fold_up": 0.16,
+        "wing_fold_forward": 0.16,
+        "rump_fullness": 0.05,
+        "cheek_volume": 0.03,
+        "wing_smoothing": 1.0
+      },
+      "deformation": {
+        "0": {
+          "max_change_scene_units": 0.3676141132670419,
+          "moved_vertices_gt_0p02": 4576,
+          "rear_mask_vertices_gt_0p45": 966,
+          "local_taubin_max_change": 0.007751607719657163
+        },
+        "1": {
+          "max_change_scene_units": 0.38150329474983696,
+          "moved_vertices_gt_0p02": 19440,
+          "rear_mask_vertices_gt_0p45": 4698
+        }
+      }
+    }
+  }
+}

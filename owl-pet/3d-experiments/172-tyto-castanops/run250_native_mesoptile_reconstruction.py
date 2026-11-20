@@ -12,6 +12,7 @@ import vtk
 from PIL import Image
 from scipy.spatial import cKDTree
 from skimage.measure import marching_cubes
+from run250_neural_color_transfer import pin_neural_colors
 from vtk.util.numpy_support import numpy_to_vtk,numpy_to_vtkIdTypeArray,vtk_to_numpy
 
 SOURCE_SHA="247d820538920735783072a204686fcf2f02ddb3ce1958a5472895a3ed7c1845"
@@ -142,6 +143,7 @@ def run(source,outdir):
         scene.add_geometry(bark,geom_name=BARK,node_name=BARK)
         output=outdir/f"run250_{name}_native_neural_volumetric_juvenile_rebuild_LOD_RESEARCH_NO_RELEASE.glb"
         output.write_bytes(scene.export(file_type="glb",include_normals=True))
+        color_report=pin_neural_colors(source,output,native.vertices,newcore.vertices)
         loaded=trimesh.load(output,force="scene")
         assert len(loaded.geometry)==9
         assert len(loaded.geometry[CORE].faces)==len(newcore.faces)
@@ -163,6 +165,7 @@ def run(source,outdir):
           "bounds":np.round(loaded.bounds,4).tolist(),
           "bark_texture_sha256":hashfile(tex),
           "glb_filename":output.name,"glb_bytes":output.stat().st_size,
+          "neural_vertex_rgb_source_transfer":color_report,
           "glb_sha256":hashfile(output),"art_approved":False,
           "physical_phone_gpu":"UNTESTED","release":"NO_RELEASE"}
     (outdir/"run250_machine_report.json").write_text(json.dumps(report,indent=2)+"\n")

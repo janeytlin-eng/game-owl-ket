@@ -15,15 +15,15 @@ import { createHash } from 'node:crypto';
 
 const repoRoot = process.cwd();
 const rel = 'owl-pet/3d-experiments/172-tyto-castanops';
-const input = resolve(repoRoot, rel, 'run237-source', 'run236_real_neural_eye_softdown_STUDY_ART_REJECTED_NO_RELEASE.glb');
-const evidence = resolve(repoRoot, rel, 'run237-evidence');
+const input = process.env.OWL172_GLB_INPUT ? resolve(process.env.OWL172_GLB_INPUT) : resolve(repoRoot, rel, 'run237-source', 'run236_real_neural_eye_softdown_STUDY_ART_REJECTED_NO_RELEASE.glb');
+const evidence = process.env.OWL172_QA_DIR ? resolve(process.env.OWL172_QA_DIR) : resolve(repoRoot, rel, 'run237-evidence');
 const viewer = resolve(repoRoot, rel, 'run237_browser_viewer_RESEARCH_ONLY.html');
-const expected = '4a4a1b22048734d2926b1e27066dd76f125b4575554b305fd28b3233db300d33';
+const expected = process.env.OWL172_EXPECTED_SHA || '4a4a1b22048734d2926b1e27066dd76f125b4575554b305fd28b3233db300d33';
 mkdirSync(evidence, { recursive: true });
 const sha256 = buf => createHash('sha256').update(buf).digest('hex');
 const fileRecord = path => ({bytes:statSync(path).size, sha256:sha256(readFileSync(path))});
 const report = {
-  run: 'Run237', release:'NO_RELEASE', art_pass:false, phone_webgl:'UNTESTED',
+  run: process.env.OWL172_RUN_LABEL || 'Run237', release:'NO_RELEASE', art_pass:false, phone_webgl:'UNTESTED',
   experiment:'Chromium Playwright WebGL2 software-driver native Three.js GLTFLoader smoke',
   extra_paid_usd:0, timestamp_utc:new Date().toISOString()
 };

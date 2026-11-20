@@ -1,0 +1,130 @@
+{
+  "run": "Run246",
+  "cause_corrected": "Run245 treated Z as vertical although WebGL viewer uses Y up",
+  "source_sha256": "19274685ed19bb4c61b36a55b09048649a3db5c691aff2d75b1fe33831abf1ee",
+  "design_reference": "#172 v3 rightmost age-unknown cream mesoptile",
+  "research_only": true,
+  "extra_paid_usd": 0,
+  "tests": [
+    {
+      "axes": "X=left-right, Y=vertical, Z=front-back",
+      "variant": "A",
+      "core_bounds": [
+        [
+          -0.6911,
+          -0.8103,
+          -0.5841
+        ],
+        [
+          0.6472,
+          0.9873,
+          0.8628
+        ]
+      ],
+      "core_spread": [
+        1.3383,
+        1.7976,
+        1.4469
+      ],
+      "measured_core_lower_y_quantile_0p004": -0.7952198469638825,
+      "support_surface_target_y": -0.7520773904323578,
+      "grid": [
+        100,
+        29,
+        93
+      ],
+      "vertices": 22486,
+      "triangles": 44968,
+      "watertight": true,
+      "support_bounds": [
+        [
+          -1.1833,
+          -1.2153,
+          -0.9426
+        ],
+        [
+          1.1262,
+          -0.7245,
+          1.2212
+        ]
+      ],
+      "support_y_top_minus_core_y_min": 0.08581844663619997,
+      "core_height": 1.797602355480194,
+      "low_y_core_points": 1408,
+      "low_y_near_support_fraction_0p1_units": 1.0,
+      "minimum_distance_to_support": 0.001980314993653939,
+      "core_mesh_preserved": true,
+      "core_face_count": 46856,
+      "source_hunyuan_true_3d_preserved": true,
+      "scene_meshes": 9,
+      "scene_triangles": 131835,
+      "file": "run246_A_real_neural_owl_YUP_horizontal_ledge_RESEARCH_ART_UNAPPROVED.glb",
+      "bytes": 4945972,
+      "sha256": "7864afc8a220c7edfa069f4d5bf2498db0fe0810c7e917a0451fc8201f22312b",
+      "art_approved": false,
+      "phone_gpu": "UNTESTED",
+      "release": "NO_RELEASE"
+    },
+    {
+      "axes": "X=left-right, Y=vertical, Z=front-back",
+      "variant": "B",
+      "core_bounds": [
+        [
+          -0.6911,
+          -0.8103,
+          -0.5841
+        ],
+        [
+          0.6472,
+          0.9873,
+          0.8628
+        ]
+      ],
+      "core_spread": [
+        1.3383,
+        1.7976,
+        1.4469
+      ],
+      "measured_core_lower_y_quantile_0p004": -0.7952198469638825,
+      "support_surface_target_y": -0.7520773904323578,
+      "grid": [
+        106,
+        30,
+        102
+      ],
+      "vertices": 26154,
+      "triangles": 52304,
+      "watertight": true,
+      "support_bounds": [
+        [
+          -1.2607,
+          -1.2424,
+          -1.0637
+        ],
+        [
+          1.2288,
+          -0.7229,
+          1.3396
+        ]
+      ],
+      "support_y_top_minus_core_y_min": 0.0873853077888489,
+      "core_height": 1.797602355480194,
+      "low_y_core_points": 1408,
+      "low_y_near_support_fraction_0p1_units": 0.9822443181818182,
+      "minimum_distance_to_support": 0.00838796812762001,
+      "core_mesh_preserved": true,
+      "core_face_count": 46856,
+      "source_hunyuan_true_3d_preserved": true,
+      "scene_meshes": 9,
+      "scene_triangles": 139171,
+      "file": "run246_B_real_neural_owl_YUP_horizontal_ledge_RESEARCH_ART_UNAPPROVED.glb",
+      "bytes": 5136712,
+      "sha256": "91492e695f03c54eb5339886c47793d930c1cc5d7a514e7d60ce6c1644ac9747",
+      "art_approved": false,
+      "phone_gpu": "UNTESTED",
+      "release": "NO_RELEASE"
+    }
+  ],
+  "no_release": true,
+  "quality_status": "UNREVIEWED_PENDING_ACTUAL_SEVEN_VIEW_ART_AUDIT"
+}

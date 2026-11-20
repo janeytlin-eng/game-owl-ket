@@ -1,0 +1,40 @@
+{
+  "A": {
+    "browser_status": "NATIVE_WEBGL2_SOFTWARE_SMOKE_PASS_ART_REJECTED_PHONE_UNTESTED_NO_RELEASE",
+    "views": 7,
+    "actual_software_gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "gates": {
+      "native_glb_sha": true,
+      "webgl2": true,
+      "real_mesh_count": true,
+      "real_triangles": true,
+      "normal_attributes": true,
+      "nonmetallic_pbr_shading": true,
+      "true_alpha_down": true,
+      "seven_distinct_webgl_views": true,
+      "nonblank_pixel_checks": true,
+      "no_fatal_browser_error": true
+    }
+  },
+  "B": {
+    "browser_status": "NATIVE_WEBGL2_SOFTWARE_SMOKE_PASS_ART_REJECTED_PHONE_UNTESTED_NO_RELEASE",
+    "views": 7,
+    "actual_software_gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "gates": {
+      "native_glb_sha": true,
+      "webgl2": true,
+      "real_mesh_count": true,
+      "real_triangles": true,
+      "normal_attributes": true,
+      "nonmetallic_pbr_shading": true,
+      "true_alpha_down": true,
+      "seven_distinct_webgl_views": true,
+      "nonblank_pixel_checks": true,
+      "no_fatal_browser_error": true
+    }
+  },
+  "contact_sha256": "a647364655e7b650c957ff0d8462b16b4013efb9edfbb031a194ad2ea4a15a2e",
+  "art_approved": false,
+  "phone_gpu": "UNTESTED",
+  "release": "NO_RELEASE"
+}

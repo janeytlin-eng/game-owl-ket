@@ -1,0 +1,108 @@
+name: "#172 Run244 true neural implicit surface E/F and seven-view WebGL2 — NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run244-neural-implicit-surface-wing-fairing-art-reject-no-release
+    paths:
+      - '.github/workflows/owl172-run244-neural-implicit-mesh-webgl.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  neural-implicit-qa:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 38
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install no-fee open native-mesh and browser tools
+        run: |
+          python -m pip install "numpy==2.2.6" "scipy==1.15.3" "scikit-image==0.25.2" "trimesh==4.9.0" "Pillow==10.4.0"
+          npm install --no-save --no-package-lock three@0.181.2 playwright@1.56.1
+          npx playwright install --with-deps chromium
+          python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/run244_implicit_true3d_wing_fairing.py
+      - name: Fetch and authenticate pinned existing real neural GLB
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p owl-pet/3d-experiments/172-tyto-castanops/run244-source
+          gh run download 44705566289 -R janeytlin-eng/game-owl-ket -n owl172-run242-real-neural-wing-down-A-B-genuine-WebGL-NO-RELEASE -D owl-pet/3d-experiments/172-tyto-castanops/run244-source
+          echo 'ef60639bbba95a0e876ac427b277fa500063b9ce05d9b9c8bae5811a5c0518d1  owl-pet/3d-experiments/172-tyto-castanops/run244-source/run242-evidence/run242_variantA_native_neural_juvenile_down_ART_UNAPPROVED_NO_RELEASE.glb' | sha256sum -c -
+      - name: Actually compute new 3D implicit volumetric wing surfaces and reimport two GLBs
+        run: |
+          python owl-pet/3d-experiments/172-tyto-castanops/run244_implicit_true3d_wing_fairing.py --source owl-pet/3d-experiments/172-tyto-castanops/run244-source/run242-evidence/run242_variantA_native_neural_juvenile_down_ART_UNAPPROVED_NO_RELEASE.glb --outdir owl-pet/3d-experiments/172-tyto-castanops/run244-evidence
+      - name: Seven camera actual Chromium Three.js WebGL2 QA for each 3D candidate
+        run: |
+          EVID=owl-pet/3d-experiments/172-tyto-castanops/run244-evidence
+          for v in E F; do
+            export OWL172_RUN_LABEL="Run244_$v"
+            export OWL172_QA_DIR="$PWD/$EVID/$v"
+            export OWL172_GLB_INPUT="$PWD/$EVID/run244_$v"_real_neural_implicit_clad_ART_UNAPPROVED_NO_RELEASE.glb
+            export OWL172_EXPECTED_SHA="$(python -c "import json;print(json.load(open('$EVID/run244_machine_report.json'))['variants']['$v']['sha256'])")"
+            mkdir -p "$OWL172_QA_DIR"
+            xvfb-run -a timeout 300s node owl-pet/3d-experiments/172-tyto-castanops/run237_real_browser_webgl_smoke.mjs
+          done
+      - name: Make research-only 14-view image and verify real screenshot digests
+        if: always()
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image,ImageDraw
+          import hashlib,json
+          p=Path('owl-pet/3d-experiments/172-tyto-castanops/run244-evidence')
+          p.mkdir(parents=True,exist_ok=True)
+          names=['front','left','threequarter','right','back','top','bottom']
+          report={'run':'Run244','release':'NO_RELEASE','art_approved':False,'physical_phone_gpu':'UNTESTED','variants':{}}
+          images=[]
+          for v in 'EF':
+              f=p/v/'run237_machine_report.json'
+              if not f.exists():report['variants'][v]={'status':'MISSING_WEBGL_REPORT'};continue
+              data=json.loads(f.read_text())
+              report['variants'][v]={'status':data.get('status'),'gates':data.get('gates'),'gpu':data.get('browser',{}).get('renderer',{}).get('gpu')}
+              for name in names:
+                  source=p/v/('run237_'+name+'_WEBGL_RESEARCH_NOT_APPROVED.png')
+                  matched=[x for x in data.get('views',[]) if x['name']==name]
+                  if source.exists() and len(matched)==1:
+                      assert hashlib.sha256(source.read_bytes()).hexdigest()==matched[0]['screenshot']['sha256']
+                      images.append((v,name,Image.open(source).convert('RGB')))
+          if len(images)==14:
+              sheet=Image.new('RGB',(1296,1396),(233,235,239))
+              pen=ImageDraw.Draw(sheet)
+              for i,(v,name,pic) in enumerate(images):
+                  x=i%4*324;y=i//4*349
+                  sheet.paste(pic.resize((316,316)),(x+4,y+23))
+                  pen.text((x+6,y+5),v+' '+name+' actual WebGL2',fill=(23,31,40))
+              image=p/'run244_EF_14_true_WebGL2_views_ART_REJECTED_NO_RELEASE.png'
+              sheet.save(image)
+              report['contact']={'bytes':image.stat().st_size,'sha256':hashlib.sha256(image.read_bytes()).hexdigest()}
+          report['status']='14_REAL_WEBGL_VIEWS_PENDING_ART_APPROVAL_NO_RELEASE' if len(images)==14 else 'INCOMPLETE_WEBGL_NO_RELEASE'
+          (p/'run244_webgl_report.json').write_text(json.dumps(report,indent=2)+'\n')
+          print(json.dumps(report,indent=2))
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run244-implicit-3D-EF-real-14view-RESEARCH-NO-RELEASE
+          path: |
+            owl-pet/3d-experiments/172-tyto-castanops/run244-evidence/
+            owl-pet/3d-experiments/172-tyto-castanops/run244_implicit_true3d_wing_fairing.py
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Commit real machine evidence and contact image to isolated branch
+        if: always()
+        run: |
+          git config user.name owl172-research-bot
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f owl-pet/3d-experiments/172-tyto-castanops/run244-evidence/*.json 2>/dev/null || true
+          git add -f owl-pet/3d-experiments/172-tyto-castanops/run244-evidence/run244_EF_14_true_WebGL2_views_ART_REJECTED_NO_RELEASE.png 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m 'audit(owl172): Run244 true neural implicit mesh WebGL2 evidence NO RELEASE'
+            git pull --rebase origin research/owl172-run244-neural-implicit-surface-wing-fairing-art-reject-no-release
+            git push origin HEAD:research/owl172-run244-neural-implicit-surface-wing-fairing-art-reject-no-release
+          fi

@@ -46,8 +46,8 @@ jobs:
           EVID=owl-pet/3d-experiments/172-tyto-castanops/run248-evidence
           for V in A B; do
             export OWL172_RUN_LABEL="Run248_$V_real_neural_juvenile_RESEARCH_ONLY"
-            export OWL172_QA_DIR="$PWD/$EVID/browser_$V"
-            export OWL172_GLB_INPUT="$PWD/$EVID/run248_$V_true_neural_juvenile_selective_wing_sculpt_RESEARCH_NO_RELEASE.glb"
+            export OWL172_QA_DIR="$PWD/$EVID/browser_${V}"
+            export OWL172_GLB_INPUT="$PWD/$EVID/run248_${V}_true_neural_juvenile_selective_wing_sculpt_RESEARCH_NO_RELEASE.glb"
             export OWL172_EXPECTED_SHA="$(python -c "import json; j=json.load(open('$EVID/run248_machine_report.json')); print(j['variants']['$V']['glb_sha256'])")"
             mkdir -p "$OWL172_QA_DIR"
             xvfb-run -a timeout 340s node owl-pet/3d-experiments/172-tyto-castanops/run237_real_browser_webgl_smoke.mjs

@@ -67,7 +67,53 @@ def fetch_free():
    R["public_download"]={"link":link,"meta":meta,"sha":digest(dest)}
    return dest
   except Exception as e:R.setdefault("attempts",[]).append({"link":link,"error":repr(e)})
- raise RuntimeError("NO_PUBLIC_DIRECT_FREE_NATIVE_FILE_EXPOSED; no paid/login workaround")
+ # The official product offers a browser-only "No thanks" guest link. Try that UI transparently.
+ return free_browser_guest()
+def free_browser_guest():
+ from playwright.sync_api import sync_playwright
+ events=[]
+ with sync_playwright() as p:
+  browser=p.chromium.launch(headless=True,args=["--no-sandbox"])
+  context=browser.new_context(accept_downloads=True)
+  page=context.new_page()
+  try:
+   page.goto(URL+"/purchase",wait_until="domcontentloaded",timeout=35000)
+   events.append({"step":"purchase_public","url":page.url,"title":page.title()})
+   free=page.get_by_text("No thanks, just take me to the downloads")
+   if not free.count():raise RuntimeError("PUBLIC_NO_THANKS_LINK_NOT_RENDERED")
+   free.first.click(timeout=15000)
+   page.wait_for_timeout(1500)
+   events.append({"step":"free_guest_clicked","url":page.url,"title":page.title()})
+   choices=[]
+   for node in page.locator("a, button").all():
+    label=node.inner_text(timeout=1000).strip()[:110]
+    href=node.get_attribute("href") or ""
+    if re.search("download|free sample|cute pets.*CC0|\\.zip\\b|\\.glb\\b",label+" "+href,re.I):
+     if not re.search("starter|\\$4|\\$5|checkout|purchase|upgrade|pay|login",label+" "+href,re.I):
+      choices.append((node,label,href))
+   events.append({"step":"free_file_candidates","count":len(choices),
+      "choices":[{"text":label,"href":href} for _,label,href in choices[:20]]})
+   for node,label,href in choices[:12]:
+    try:
+     with page.expect_download(timeout=14000) as info: node.click(timeout=9000)
+     downloaded=info.value
+     dest=OUT/"run232_OFFICIAL_GUEST_FREE_SAMPLE_UNAPPROVED.zip"
+     downloaded.save_as(str(dest))
+     raw=dest.read_bytes()
+     if raw[:4]==b"PK\\x03\\x04":
+      R["browser_free_guest"]={"clicked":label,"suggested_filename":downloaded.suggested_filename,
+          "file":digest(dest),"events":events}
+      return dest
+     if raw[:4]==b"glTF":
+      other=dest.with_suffix(".glb");dest.rename(other)
+      R["browser_free_guest"]={"clicked":label,"file":digest(other),"events":events}
+      return other
+     events.append({"step":"not_zip_or_glb","clicked":label,"bytes":len(raw)})
+    except Exception as e:events.append({"step":"guest_download_attempt_failed","clicked":label,"error":repr(e)})
+   raise RuntimeError("BROWSER_OFFICIAL_FREE_GUEST_NO_NATIVE_DOWNLOAD")
+  finally:
+   R["browser_guest_events"]=events
+   browser.close()
 def find_owl(pack):
  if pack.suffix==".glb":return pack
  with zipfile.ZipFile(pack) as z:

@@ -1,0 +1,28 @@
+# #172 Tyto castanops v3 — Run254: reference-anchored, authentic neural 3D juvenile-proportion experiment
+
+**2026-11-21 Shanghai / RESEARCH ONLY / LOCAL ART_REJECTED / PHONE_UNTESTED / NO_RELEASE.**
+
+## Independent preflight and baseline
+
+Re-read `owl-pet/AGENTS.md`, `owl-pet/README.md`, existing kitten prototype information, previous Run251/252/253 sculpt exporters and audit, and the source identity from prior evidence. Re-opened actual repository concept `owl-pet/design/concepts/172-tyto-castanops-v3.png` and compared its **rightmost age-unknown cream-white down-covered chick** to authentic **Run251 A seven-view Chromium render**. The concept has broad low-set downy chest, soft heart facial disc, substantial dark eyes, fully hidden short wing and tail, and natural large weathered eucalypt tree hollow under both feet. No biological age/sex claims inferred from the image.
+
+Actual immutable Run251 A artifact [#14658854894](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44798375236/artifacts/14658854894) was downloaded and independently checked locally. ZIP **7,144,988 bytes**, SHA256 **`f0f078c6a1b08f96f19ce6f9abb7df6990a48c274a919ffcb1a8e9f1c8da8b73`**; extracted original Hunyuan-native eye-repaired 3D GLB **4,035,000 bytes**, pinned SHA256 **`cd1513ac0822eef25bb56f9f8d08d244cac64d209ea8c92333693d287c926eb6`**. It has 9 real meshes/85,009 triangles, the original watertight learned Hunyuan core (34,000 triangles) and 61,085 actual source down vertices, PBR-correct dark pupils and existing support (flawed biscuit-like structure). Original source front is a tall narrow owl, with long tapering feathered posterior in true left/right camera views. All front, side, rear viewpoints are geometrically real; no sprites.
+
+## Actual no-fee local experiment
+
+A **new smooth spatial deformation field** was implemented on original learned 3D core and independently on surface-following 3D down. This differs from Run253's posterior signed-distance planar clipping: this round's hypothesis is that preserving the continuous learned volume and **widening belly/chest** first (with gently tucked rear and controlled neck shortening) may improve infant proportions while retaining the original natural body curvature. Eye meshes and tree unchanged; no primitive components assembled. Native learned core topology and material retained.
+
+Executed with local NumPy/Trimesh; both real GLBs re-imported and checked for valid vertices, dark PBR pupil, watertight positive volume, and **zero flipped core triangles** against the original. Local VTK renderer actually produced and visually inspected **15 independent true 3D views** (source/A/B × front/left/threequarter/right/back).
+
+* **A / moderate**: authentic 9 meshes / 85,009 triangles / 4,034,996 bytes / SHA256 `496dc3089a6014e66c1e49a70e1fd038b7ccb6d7c701be3a0b6dd4ec4b083810`. Core volume 1.82417 compared to baseline 1.53921; **12,426 genuine neural vertices** moved by >0.01; maximum displacement 0.21153; 0 flipped core triangles.
+* **B / stronger**: 9 meshes / 85,009 triangles / 4,034,996 bytes / SHA256 `6758ff6b0eafc44aa5a2bee53ac70956a0e8f6fd41382d7cc219fa97dfe4e98c`. Core volume 1.90747; **12,818 genuine neural vertices** moved by >0.01; maximum displacement 0.27474; 0 flipped core triangles.
+
+**Local visual verdict: ART_REJECTED for BOTH.** Widening does produce a more compact front silhouette than the Run251 original, but it does **not** produce a believable child owl. New front can appear overly barrel- or mushroom-shaped; sides still show an adult-style downward tapering wing/posterior; rear is smooth/featureless and lacks naturally oriented layered mesoptile down. Face ring remains over-hard, sparse flat-looking fur persists, and the platform is still an artificial biscuit-like tree-slice rather than the v3 eucalypt hollow. Stronger B exaggerates the barrel form. Neither version should become a new art baseline. This negative control cautions against repeatedly solving poor 3D infant anatomy through affine warps.
+
+## Remote reproduction, artifact verification and decision gate
+
+The dedicated Run254 workflow (separate research branch) is intended to recover the SHA-pinned original Run251 GLB from actual GitHub Actions artifact, independently regenerate these A/B real GLBs, and render seven genuine spatial camera angles per variant via Chromium Three.js GLTFLoader/WebGL2. A browser QA pass is **technical only**; visual art remains rejected even if QA is green. Remote verdict and raw ZIP hashes must be appended only after the workflow actually finishes and binary evidence is read back.
+
+Final acceptance still requires credible infant 360° short-wing anatomy, fine natural down without hard spikes/cards, natural soft face, plausible old eucalyptus hollow and **physical Android/iPhone WebGL GPU/interaction/FPS/memory/thermal testing**. ANGLE SwiftShader is software GPU and cannot substitute for handset validation.
+
+**No fee or model credits spent. No modifications to main, 251-species manufacturing, the old cat prototype, deployment or root vocabulary game. No release.**

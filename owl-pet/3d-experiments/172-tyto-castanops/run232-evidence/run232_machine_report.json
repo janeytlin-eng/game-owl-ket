@@ -1,0 +1,54 @@
+{
+  "run": 232,
+  "date_utc": "2026-11-20T03:32:49.735633+00:00",
+  "candidate": "Vuena published FREE CC0 owl with 13 animations + mobile LOD; toy-style, not Tyto juvenile",
+  "target": "#172 Tyto castanops v3 RIGHTMOST CREAM MESOPTILE",
+  "art_approved": false,
+  "released": false,
+  "phone_webgl": "NOT_TESTED",
+  "extra_paid_usd": 0,
+  "source_page": "https://vuena.itch.io/blocky-pets-free",
+  "license_claim": "CC0 publicly advertised, not independently audited",
+  "status": "NO_NEW_QUALIFIED_NATIVE_OWL_NO_RELEASE",
+  "reference": {
+    "bytes": 737545,
+    "sha256": "881dec86e0e66ab2ad0781db86a3b719b35e710d2be1a1606d761a9d0908483d"
+  },
+  "public_pages": [
+    {
+      "url": "https://vuena.itch.io/blocky-pets-free",
+      "error": "RuntimeError('HTTP_429 at https://vuena.itch.io/blocky-pets-free')"
+    },
+    {
+      "url": "https://vuena.itch.io/blocky-pets-free/purchase",
+      "response": {
+        "http": 200,
+        "url": "https://vuena.itch.io/blocky-pets-free/purchase",
+        "content_type": "text/html",
+        "bytes": 12512
+      },
+      "free_guest_text": true,
+      "title": "Download Cute Pets FREE Sample - Cat, Fox, Owl (CC0, Rigged + Animated, GLB/FBX) by Vuena - itch.io"
+    },
+    {
+      "url": "https://vuena.itch.io/blocky-pets-free/download",
+      "error": "RuntimeError('HTTP_404 at https://vuena.itch.io/blocky-pets-free/download')"
+    }
+  ],
+  "public_guest_links": [
+    {
+      "href": "https://vuena.itch.io/blocky-pets-free",
+      "label": "Cute Pets FREE Sample - Cat, Fox, Owl (CC0, Rigged + Animated, GLB/FBX)"
+    }
+  ],
+  "browser_guest_events": [
+    {
+      "step": "purchase_public",
+      "url": "https://vuena.itch.io/blocky-pets-free/purchase",
+      "title": "429 Too Many Requests"
+    }
+  ],
+  "error": "RuntimeError('PUBLIC_NO_THANKS_LINK_NOT_RENDERED')",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/game-owl-ket/game-owl-ket/owl-pet/3d-experiments/172-tyto-castanops/run232_cc0_animated_owl_guest_native_qa.py\", line 196, in <module>\n    native=find_owl(fetch_free());meshes=verify_model(native);views(meshes)\n                    ^^^^^^^^^^^^\n  File \"/home/runner/work/game-owl-ket/game-owl-ket/owl-pet/3d-experiments/172-tyto-castanops/run232_cc0_animated_owl_guest_native_qa.py\", line 71, in fetch_free\n    return free_browser_guest()\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/game-owl-ket/game-owl-ket/owl-pet/3d-experiments/172-tyto-castanops/run232_cc0_animated_owl_guest_native_qa.py\", line 83, in free_browser_guest\n    if not free.count():raise RuntimeError(\"PUBLIC_NO_THANKS_LINK_NOT_RENDERED\")\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: PUBLIC_NO_THANKS_LINK_NOT_RENDERED\n",
+  "files": {}
+}

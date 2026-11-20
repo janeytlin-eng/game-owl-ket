@@ -1,0 +1,43 @@
+{
+  "run": "Run241",
+  "release": "NO_RELEASE",
+  "art_pass": false,
+  "physical_phone_gpu": "UNTESTED",
+  "A": {
+    "status": "NATIVE_WEBGL2_SOFTWARE_SMOKE_PASS_ART_REJECTED_PHONE_UNTESTED_NO_RELEASE",
+    "gates": {
+      "native_glb_sha": true,
+      "webgl2": true,
+      "real_mesh_count": true,
+      "real_triangles": true,
+      "normal_attributes": true,
+      "nonmetallic_pbr_shading": true,
+      "true_alpha_down": true,
+      "seven_distinct_webgl_views": true,
+      "nonblank_pixel_checks": true,
+      "no_fatal_browser_error": true
+    },
+    "driver": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)"
+  },
+  "B": {
+    "status": "NATIVE_WEBGL2_SOFTWARE_SMOKE_PASS_ART_REJECTED_PHONE_UNTESTED_NO_RELEASE",
+    "gates": {
+      "native_glb_sha": true,
+      "webgl2": true,
+      "real_mesh_count": true,
+      "real_triangles": true,
+      "normal_attributes": true,
+      "nonmetallic_pbr_shading": true,
+      "true_alpha_down": true,
+      "seven_distinct_webgl_views": true,
+      "nonblank_pixel_checks": true,
+      "no_fatal_browser_error": true
+    },
+    "driver": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)"
+  },
+  "contact": {
+    "bytes": 294106,
+    "sha256": "a1b23440cb5170eaa0c680b2893152a267e3189c7c6305747e90bca3661ef045"
+  },
+  "status": "ART_REJECTED_PENDING_HUMAN_REVIEW_NO_RELEASE"
+}

@@ -1,0 +1,52 @@
+{
+  "run": "Run241",
+  "release": "NO_RELEASE",
+  "art_pass": false,
+  "physical_phone_webgl": "UNTESTED",
+  "extra_paid_usd": 0,
+  "source_sha256": "71cc6ad479479008d79f7eaa0dd375aedd46d691ae1c493d949f9fcb5a9bb121",
+  "method": "real neural sculpt body compression, local foldwing smoothing and concealed tail on native POSITION/NORMAL, preserve learned mesh and textured fur",
+  "variants": {
+    "A": {
+      "file": "run241_variantA_true_neural_squat_mesoptile_ART_REJECTED_NO_RELEASE.glb",
+      "bytes": 3754380,
+      "sha256": "2a7b5ada2d51537dec26462365523ecd0f63c1a053c2d7af2d6687789b6c43d8",
+      "parameters": {
+        "compact_y": 0.12,
+        "body_breadth": 0.17,
+        "hide_tail": 0.13,
+        "wing_soften": 0.25
+      },
+      "native_learned_meshes": 8,
+      "real_3d_triangles": 86867,
+      "nonrigid_real_3d_changes": {
+        "actual_core_foldwing_softening": 0.00982,
+        "actual_mesh_0_warp": 0.13897,
+        "actual_mesh_1_warp": 0.14398
+      },
+      "learned_owl_eyes_unchanged": true,
+      "true_alpha_down_uv_and_png_unchanged": true
+    },
+    "B": {
+      "file": "run241_variantB_true_neural_squat_mesoptile_ART_REJECTED_NO_RELEASE.glb",
+      "bytes": 3754380,
+      "sha256": "480b69f0ad296cc91ee6fac521d688cb60510065e9b16d005a629878473c1981",
+      "parameters": {
+        "compact_y": 0.19,
+        "body_breadth": 0.26,
+        "hide_tail": 0.23,
+        "wing_soften": 0.4
+      },
+      "native_learned_meshes": 8,
+      "real_3d_triangles": 86867,
+      "nonrigid_real_3d_changes": {
+        "actual_core_foldwing_softening": 0.01561,
+        "actual_mesh_0_warp": 0.23312,
+        "actual_mesh_1_warp": 0.2423
+      },
+      "learned_owl_eyes_unchanged": true,
+      "true_alpha_down_uv_and_png_unchanged": true
+    }
+  },
+  "status": "TWO_NATIVE_3D_SCULPT_VARIANTS_GENERATED_ART_PENDING_NO_RELEASE"
+}

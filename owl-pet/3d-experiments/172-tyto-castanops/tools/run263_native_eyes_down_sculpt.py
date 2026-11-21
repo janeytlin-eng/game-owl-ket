@@ -80,7 +80,7 @@ for name,g in (("authentic_neural_body",body),("left_iris",eye(-1)),("right_iris
     R=np.eye(4);R[:3,:3]=np.array([[1,0,0],[0,0,1],[0,-1,0]])
     g.apply_transform(R);s.add_geometry(g,geom_name=name)
 out=P/"run263_RESEARCH_NATIVE_ART_REJECTED_NO_RELEASE.glb"
-out.write_bytes(s.export(file_type="glb"))
+out.write_bytes(s.export(file_type="glb",include_normals=True))
 check=trimesh.load(out,force="scene")
 assert len(check.geometry)==4
 report={"source_sha256":PIN,"source_triangles":20000,

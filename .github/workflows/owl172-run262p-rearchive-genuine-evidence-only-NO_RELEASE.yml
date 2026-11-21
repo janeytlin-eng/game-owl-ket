@@ -1,0 +1,91 @@
+name: owl172 Run262p artifact rearchive without provider calls NO_RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run262p-rearchive-actual-evidence-no-release
+    paths:
+      - .github/workflows/owl172-run262p-rearchive-genuine-evidence-only-NO_RELEASE.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  evidence-only-restore:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run262p-rearchive-actual-evidence-no-release
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/
+            .github/workflows/owl172-run262p-rearchive-genuine-evidence-only-NO_RELEASE.yml
+      - name: Retrieve genuine original Run262p failed-push artifact; DO NOT regenerate or spend
+        uses: actions/download-artifact@v4
+        with:
+          name: owl172-run262p-actual-2-free-textured-GLB-providers-NO_RELEASE
+          run-id: 44871777303
+          github-token: ${{ github.token }}
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run262p-REAL-TEXTURED-FREE-BROWSER-NO_RELEASE
+      - name: Independently verify source-bounded artifacts and preserve authenticated-site outcome
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run262p-REAL-TEXTURED-FREE-BROWSER-NO_RELEASE"
+          test -s "$O/run262p_aggregate_report.json"
+          test -s "$O/supavoxel/final_actual_browser.png"
+          (cd "$O" && sha256sum -c SHA256SUMS.txt)
+          python3 - <<'PY'
+          import json,pathlib
+          r=pathlib.Path('owl-pet/3d-experiments/172-tyto-castanops')
+          o=r/'research-evidence-run262p-REAL-TEXTURED-FREE-BROWSER-NO_RELEASE'
+          d=json.loads((o/'run262p_aggregate_report.json').read_text())
+          assert d['source_sha256']=='e439928a9ef08d3be266106cb5f2766b6f5a9f2c414d44e8da55ba81732153b8'
+          trials=d['provider_trials']
+          assert len(trials)==1 and trials[0]['provider']=='supavoxel'
+          assert trials[0]['upload_success'] and trials[0]['provider_submit']
+          assert not trials[0]['GLB_received']
+          actual=(o/'supavoxel/final_visible.txt').read_text()
+          assert 'Sign in with Google' in actual and 'to continue to supavoxel.com' in actual
+          note=[
+           '# Run262p actual free SupaVoxel correction: OAuth gate, no GLB, NO_RELEASE',
+           '',
+           '**2026-11-21. Final: UPLOAD_CONFIRMED / FREE_GENERATE_CLICKED / REDIRECT_TO_GOOGLE_SIGNIN / NO_NEW_GLB / ART_UNREVIEWED / PHONE_UNTESTED / RIGHTS_UNCLEARED / NO_RELEASE.**',
+           '',
+           'Previous Run262 [evidence](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44871496985) initially misclassified the real active Start Creating button as an access gate due to an overly broad phrase match in "No credit card required". Run262p actually corrected that guard and clicked the legitimate button on https://supavoxel.com/ without logging in, purchasing credits, or bypassing challenges.',
+           '',
+           'Source: #172 Tyto castanops v3 far-right original 512x512 cream downy chick, SHA256 `e439928a9ef08d3be266106cb5f2766b6f5a9f2c414d44e8da55ba81732153b8`.',
+           '',
+           'The real Chromium page accepted the uploaded source and enabled the green Start Creating control; the button was clicked once. In the final browser page the actual visible text includes **"Sign in with Google"** and **"to continue to supavoxel.com"**. Screenshot `supavoxel/final_actual_browser.png` provides the visual proof. The initial machine status `NO_NATIVE_GLB_WITHIN_BOUNDED_WINDOW` is factually true about absence of binary but *incomplete about the cause*: the provider requires interactive Google OAuth. No actual completed 3D job or native GLB was returned in the 261.4s bounded window.',
+           '',
+           'GitHub Actions for this experiment: https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44871777303. All generation/browser, verification and raw-artifact upload steps completed; the final commit/push step alone failed because a parallel research-note commit advanced the same branch, creating a non-fast-forward push rejection. This rearchive workflow recovers the **original 16-member evidence ZIP** using Actions artifact run-id and checks its SHA256 manifest, and does **not** recontact a third-party model provider.',
+           '',
+           'Original provider evidence artifact ID 14694361798, ZIP length 2,674,656 bytes, SHA256 `0e263055387aa34035bec0c299ce8c1ff707b76803665e94d7ad61ac98f6e2e5`; independently downloaded and checked: **16/16 CRC, 14/14 manifest SHA256**. Raw screenshots, exact source UI states, audit flags, and report preserved. Software WebGL and physical mobile GPU were intentionally NOT run: there was no genuine GLB.',
+           '',
+           'Run262 image-to-3d.app separately had the explicit **"Sign in to upload and generate"** overlay despite advertising anonymous previews, so did not start a source-bound job either. This is a real-world access restriction, not evidence of finished textured models.',
+           '',
+           'Comparing provider marketing pages with actual runtime shows that free preview claims do not guarantee account-free GLB export; the separate SupaVoxel /image-to-3d terms say free models are untextured with Google sign-in, textured requires paid tier. No account or credit plan was purchased; **additional paid cost USD 0**.',
+           '',
+           '**No visual art can be accepted. Need an actually generated juvenile-specific physically coherent mesh, cream volumetric down, dark open eyes, short folded wings and two feet on real old eucalyptus hollow, plus real device GPU and rights clearance. Main, kitten WebGL prototype, 251-species production and deployment stay untouched.**',
+           '',
+           '**NO_RELEASE.**']
+          (r/'2026-11-21-run262-262p-free-real-provider-ui-final-OAUTH_GATE-NO_GLB-NO_RELEASE.md').write_text('\n'.join(note)+'\n')
+          print('RUN262P_ARCHIVE_INTEGRITY_SUCCESS',len(trials))
+          PY
+      - name: Write only audited 172 research results to independent branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run262p-REAL-TEXTURED-FREE-BROWSER-NO_RELEASE"
+          git add --sparse "$R/2026-11-21-run262-262p-free-real-provider-ui-final-OAUTH_GATE-NO_GLB-NO_RELEASE.md"
+          find "$O" -type f ! -name '*.glb' ! -name '*.zip' ! -name '*.bin' -print0 | xargs -0 -r git add --sparse --
+          git diff --cached --name-only > /tmp/only_172
+          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/' /tmp/only_172; then exit 91; fi
+          if grep -Ei '\.(glb|fbx|blend|obj|bin|zip)$' /tmp/only_172; then exit 92; fi
+          git diff --cached --quiet || git commit -m 'research(owl172): rearchive proven Run262p Google OAuth gate and evidence without second generation'
+          git push origin HEAD:research/owl172-run262p-rearchive-actual-evidence-no-release

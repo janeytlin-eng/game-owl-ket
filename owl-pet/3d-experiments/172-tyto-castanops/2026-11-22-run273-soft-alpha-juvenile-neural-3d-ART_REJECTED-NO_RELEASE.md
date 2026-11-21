@@ -1,0 +1,38 @@
+# #172 *Tyto castanops* v3 — Run273 genuine 3D juvenile rear-lift + alpha-soft down-card ablations — ART_REJECTED / NO_RELEASE
+
+**Date:** 2026-11-22 (Asia/Shanghai). **Scope:** research-only isolated branch, NOT a released electronic pet, no main/251-species production/cat prototype/deployment modifications. **Upstream:** original Hunyuan3D-2mini derived neural GLB is **NONCOMMERCIAL**; no third-party paid API calls, no credits purchased.
+
+## Preflight, pinned original and previous art rejection
+
+Re-read `owl-pet/AGENTS.md`, README, STATUS, existing WebGL cat prototype description, [Run271](2026-11-21-run271-run271p-native-juvenile-profile-PBR-ART_REJECTED-NO_RELEASE.md), and [Run272](2026-11-21-run272-authentic-neural-microdown-ablation-browser-ART_REJECTED-NO_RELEASE.md). Independently recovered the [actual Run271p source artifact](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44918354692/artifacts/14712826229); ZIP SHA256 `568f85a5f02a2eb977537a24b266740dcd36dcfb6b208366e3a290907fb1269b`. Reopened actual genuine single-component, watertight 66,596-vertex / 133,268-triangle Hunyuan neural base SHA256 `da21a63c0ec7dbdb8da920896599eb7cafd62fcf94de2e25bae016dd218724ea`. Separately recovered [Run265b corrected rightmost juvenile reference](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44886196646/artifacts/14699737765), ZIP SHA256 `0e0125972a1bb1e1a9ac964469cf999860e5d3717bebd2122f7173332c7397c9`, and opened the real 512px chick source. Reference has a small organic heart face, dark eyes, soft cream/beige mesoptile volume, *very short* feather-veiled folded wings, large rounded lower body and naturally supported feet. Earlier Run272 opaque geometric hairs were crystalline/frost-like; increasing them from 9k to 26k failed the art gate.
+
+## Experiment and true original 3D evidence
+
+Implemented [run273_soft_alpha_juvenile_real3d_ablation.py](tools/run273_soft_alpha_juvenile_real3d_ablation.py) with free NumPy, SciPy, Trimesh, VTK and Pillow. Instead of more *opaque, stiff* feathers, tried two actual 3D feather-card densities with tapered cross-sections, a four-station per-vertex *transparency gradient*, matte glTF `alphaMode: BLEND`, and a smooth continuous lower-rear lift to reduce the adult-like tail wedge. Both variants preserve the **original watertight continuous Hunyuan neural topology** as the 133,268-face body; body and down are separate spatial 3D meshes, not SVG/2D rotation/spheres. Added body-only smooth posterior deformation with facial features protected; no invented eucalyptus cavity geometry or fake full-body texture painting.
+
+Local algorithm prototype was actually executed on the pinned GLB, generated **two actual GLBs and 12 VTK spatial camera images**. A separate image-morphology test aligned the original repaired juvenile reference mask with each front-render silhouette: original Run271 front IoU **0.8607** versus local Run273 2500 **0.8423** and 5000 **0.8439**. This is a **limited local silhouette-only diagnostic**, *not* a reliable art score or a numerical comparison to the slightly different final remote script; importantly, apparent extra frontal fullness did **not** improve that geometric 2D mask measure.
+
+## Remote independent GitHub Actions execution and binary audit
+
+[Run273 actual GitHub Actions](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44928602614) completed successfully, actually restoring the SHA-pinned noncommercial 3D body, generating/re-importing two genuine native GLBs, completing **12 distinct VTK spatial views**, and running **7 genuine Chromium / Three.js GLTFLoader / WebGL2 views** for the 2500-tuft version. 10/10 *software* browser gates passed, **no missing normal attributes**, two distinct meshes (original body and 3D down), both `COLOR_0` and `NORMAL` attributes, `OPAQUE` body and `BLEND` down materials verified. This is authentic software WebGL2 using ANGLE SwiftShader, **not actual iPhone/Android GPU profiling**, and no real phone quality claim is made.
+
+Remote native model outputs (independently re-imported as actual 3D meshes):
+
+| Variant | GLB bytes | SHA256 | Native triangles | Browser |
+| --- | ---: | --- | ---: | --- |
+| 2,500 translucent down tufts | 4,946,784 | `cbd69f773fb011c1e2f1fa5097477680c7a99473f65aa4907684d5f698233bef` | 133,268 body + 30,000 down = **163,268** | **7 real Chromium WebGL2 views, 10/10 software technical gates** |
+| 5,000 translucent down tufts | 6,426,784 | `497f3b3c450a76574f6c4bca61a65881d7d6b4ca2bfef5c2fbd6d01d861fd556` | 133,268 body + 60,000 down = **193,268** | **NOT browser tested**; six VTK views & GLB re-import only |
+
+The [original Run273 evidence ZIP — RESEARCH ONLY](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44928602614/artifacts/14716254893) was **actually downloaded and independently checked**, **11,747,628 bytes**, SHA256 `46cb68b859b8f5c5c18ddcd1008a2b54807e0f526f93017874e8f04fc48917e0` matching GitHub published digest, **31/31 ZIP entries pass CRC**, **29/29 SHA256SUMS entries match**. Both full GLBs were re-imported, face counts and actual alpha/normal/material glTF declarations verified, and true browser screenshots visually examined. ZIP retention currently reported through **2026-12-21**, not a perpetual public asset archive.
+
+## Actual multi-view visual inspection — unequivocal ART_REJECTED
+
+Opened the **remote Chromium front and side** images and the **remote 5,000-tuft six-view contact sheet**. The translucent-down method reduced the 9k opaque frost-spike density and substantially reduced file size versus Run272; but in actual WebGL the feathers appear as sparse fine scratch marks (almost invisible), **not dense, layered, exceptionally soft cream mesoptile**. The front face remains a round rigid adult barn-owl face plate with *washed-out iris/eye shading*, not the small natural heart-shaped juvenile target. Side and three-quarter angles remain elongated, slanted adult-style, with an overly long rigid visible folded wing; rear surface remains crusty with a lower-tail artifact, legs/claws oversized and no old eucalyptus hollow or convincing two-foot support. The more aggressive 5000-tuft variant has the same fundamental anatomy faults in actual VTK views, and is 6.43MB/193k triangles before mobile overdraw. **Both ART_REJECTED; neither is a new accepted baseline; no sample is suitable to send as a finished character.**
+
+## Mobile/WebGL/licensing and exact scope
+
+`TRUE_NATIVE_3D_PASS / VTK_12_VIEWS_PASS / 2.5K_CHROMIUM_WEBGL2_SOFTWARE_PASS / ART_REJECTED / 5K_BROWSER_UNTESTED / PHONE_HARDWARE_UNTESTED / RIGHTS_NONCOMMERCIAL / NO_RELEASE`.
+
+No device Android/iPhone test of startup, memory, touch, GPU/thermal/FPS or mobile *blended-transparency overdraw* was performed. The 10/10 browser technical gates are **not artistic** gates. Hunyuan rights do **not** authorize production/commercial redistribution. Do not upload the research GLBs into the public 251-species concept archive or change any production task, cat prototype or deployment. No paid generation services were used.
+
+**Lesson from this real negative control:** replacing opaque stiff 3D bristles with 2,500–5,000 alpha-soft cards improves triangle/bytes efficiency but **does not solve real down-density or the underlying juvenile anatomy**; simplistic rear warp can even worsen a frontal mask score. Next worthwhile route requires a true juvenile-specific sculpt/source and professionally groomed, *baked* phone-suitable feathers with independent multi-angle art review, a physically credible eucalyptus hollow/foot contact, commercial asset rights and real-device WebGL measurements. Retain strict NO_RELEASE.

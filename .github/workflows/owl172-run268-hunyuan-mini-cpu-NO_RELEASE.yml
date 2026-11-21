@@ -1,0 +1,124 @@
+name: owl172 Run268 genuine Hunyuan3D-2mini open-weights CPU attempt (NO RELEASE)
+on:
+  push:
+    branches:
+      - research/owl172-run268-hunyuan-mini-cpu-noncommercial-feasibility-NO_RELEASE
+    paths:
+      - .github/workflows/owl172-run268-hunyuan-mini-cpu-NO_RELEASE.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run268_hunyuan2mini_cpu_native.py
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  independent-neural-juvenile-source-to-3d:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 58
+    env:
+      R: owl-pet/3d-experiments/172-tyto-castanops
+      OUTPUT: owl-pet/3d-experiments/172-tyto-castanops/research-run268-NO_RELEASE
+      OMP_NUM_THREADS: '2'
+      MKL_NUM_THREADS: '2'
+      OPENBLAS_NUM_THREADS: '2'
+      TOKENIZERS_PARALLELISM: 'false'
+      HF_HUB_DISABLE_TELEMETRY: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run268_hunyuan2mini_cpu_native.py
+      - name: Fetch previous original verified #172 juvenile input, not a new synthetic image
+        id: source
+        continue-on-error: true
+        uses: actions/download-artifact@v4
+        with:
+          name: owl172-run265b-MASKED-background-MIT-TripoSR-CPU-NO_RELEASE
+          run-id: 44886196646
+          github-token: ${{ github.token }}
+          path: /tmp/run265b-input
+      - uses: actions/setup-python@v5
+        if: steps.source.outcome == 'success'
+        with:
+          python-version: '3.10'
+      - name: Validate source, record zero-payment environment, and pin upstream commit
+        id: prep
+        if: steps.source.outcome == 'success'
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          mkdir -p "$OUTPUT"
+          sha256sum /tmp/run265b-input/run265b_black_rectangle_MASKED_rgba.png | tee "$OUTPUT/input-sha256.txt"
+          test "$(sha256sum /tmp/run265b-input/run265b_black_rectangle_MASKED_rgba.png | cut -d' ' -f1)" = 9413b2b017001462f330fead80dd261100235975878b937c952d25984aba4540
+          git clone --depth 1 https://github.com/Tencent-Hunyuan/Hunyuan3D-2.git /tmp/Hunyuan3D-2
+          git -C /tmp/Hunyuan3D-2 rev-parse HEAD | tee "$OUTPUT/upstream-commit.txt"
+          { python -VV; free -h; df -h /; } | tee "$OUTPUT/runner-environment.txt"
+          python -m py_compile "$R/tools/run268_hunyuan2mini_cpu_native.py"
+      - name: Install entirely local CPU inference stack, no paid external endpoint
+        id: install
+        if: steps.prep.outcome == 'success'
+        continue-on-error: true
+        timeout-minutes: 18
+        run: |
+          set -euo pipefail
+          python -m pip install --upgrade pip setuptools wheel
+          python -m pip install torch==2.4.1 torchvision==0.19.1 --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install 'numpy<2' 'Pillow==10.4.0' 'diffusers==0.31.0' 'transformers==4.44.2' 'huggingface-hub==0.25.2' 'accelerate==0.34.2' 'omegaconf==2.3.0' 'einops==0.8.0' 'trimesh==4.5.3' 'scikit-image==0.24.0' 'pymeshlab==2023.12.post2' 'pygltflib==1.16.3' 'xatlas==0.0.9' 'safetensors==0.4.5' 'opencv-python-headless==4.10.0.84' 'vtk==9.3.1' 'PyYAML==6.0.2'
+          python -m pip install -e /tmp/Hunyuan3D-2 --no-deps
+          python - <<'PY'
+          import torch,hy3dgen.shapegen,trimesh,vtk
+          assert not torch.cuda.is_available()
+          print('READY CPU',torch.__version__,trimesh.__version__,vtk.vtkVersion.GetVTKVersion())
+          PY
+      - name: Attempt a true independent neural generation of 3D geometry using the rightmost chick
+        id: inference
+        if: steps.install.outcome == 'success'
+        continue-on-error: true
+        timeout-minutes: 33
+        run: |
+          set -euo pipefail
+          export OWL172_OUTPUT="$PWD/$OUTPUT"
+          export UPSTREAM_COMMIT="$(cat "$OUTPUT/upstream-commit.txt")"
+          xvfb-run -a timeout 1850s python -u "$R/tools/run268_hunyuan2mini_cpu_native.py" /tmp/run265b-input/run265b_black_rectangle_MASKED_rgba.png 2>&1 | tee "$OUTPUT/inference-and-render.log"
+      - name: Conditional real glTF geometry validation, not cosmetic pass
+        id: verify
+        if: steps.inference.outcome == 'success'
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import trimesh,json,hashlib
+          out=Path('owl-pet/3d-experiments/172-tyto-castanops/research-run268-NO_RELEASE')
+          path=out/'hunyuan_mini_cpu_native_UNREVIEWED_NO_RELEASE.glb'
+          b=path.read_bytes()
+          assert b[:4]==b'glTF' and len(b)>1000
+          s=trimesh.load(path,force='scene')
+          n=sum(len(m.faces) for m in s.geometry.values())
+          assert n>1000
+          views=list(out.glob('view_*_NATIVE_UNREVIEWED.png'))
+          assert len(views)==6
+          print('VALID_REAL_GLTF',len(b),n,len(views),'SHA256',hashlib.sha256(b).hexdigest())
+          PY
+      - name: Collect signed raw artifacts, always NO_RELEASE and never change production branches
+        if: always()
+        run: |
+          mkdir -p "$OUTPUT"
+          cat > "$OUTPUT/NO_RELEASE.flag" <<EOF
+          #172 rightmost juvenile Hunyuan3D-2mini CPU research-only
+          source=${{ steps.source.outcome }}
+          prep=${{ steps.prep.outcome }}
+          install=${{ steps.install.outcome }}
+          inference=${{ steps.inference.outcome }}
+          native_mesh_verify=${{ steps.verify.outcome }}
+          ART_UNREVIEWED / WEBGL_UNTESTED / PHONE_UNTESTED / RIGHTS_UNCLEARED / NO_RELEASE
+          Tencent Hunyuan noncommercial license: no shipping or public sample.
+          EOF
+          (cd "$OUTPUT" && find . -type f ! -name SHA256SUMS.txt ! -name SHA256_CHECK.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$OUTPUT" && sha256sum -c SHA256SUMS.txt > SHA256_CHECK.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run268-ORIGINAL-juvenile-HUNYUAN2MINI-CPU-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-run268-NO_RELEASE
+          retention-days: 30

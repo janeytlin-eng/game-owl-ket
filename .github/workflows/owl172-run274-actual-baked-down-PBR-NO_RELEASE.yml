@@ -1,0 +1,113 @@
+name: owl172 Run274 true 3D baked PBR down A/B research NO RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run274-baked-down-pbr-native-mesh-NO_RELEASE
+    paths:
+      - .github/workflows/owl172-run274-actual-baked-down-PBR-NO_RELEASE.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run274_actual_baked_microdown_3d_pbr.py
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  real-mesh-microdown-no-release:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    env:
+      OUT: owl-pet/3d-experiments/172-tyto-castanops/research-run274-NO_RELEASE
+      OWL172_INPUT: /tmp/run271/run271_gentle_native_organic_sculpt_RESEARCH_NO_RELEASE.glb
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '2'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run274_actual_baked_microdown_3d_pbr.py
+            owl-pet/3d-experiments/172-tyto-castanops/run256_actual_browser_7view_qa.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run256_real_threejs_viewer_RESEARCH_NO_RELEASE.html
+      - name: Restore previous genuine noncommercial neural mesh from Run271p
+        uses: actions/download-artifact@v4
+        with:
+          name: owl172-run271-organic-juvenile-two-GLBs-12views-ART_REJECTED-NO_RELEASE
+          run-id: 44918354692
+          github-token: ${{ github.token }}
+          path: /tmp/run271
+      - name: Independently pin the genuine source 3D GLB
+        run: |
+          echo 'da21a63c0ec7dbdb8da920896599eb7cafd62fcf94de2e25bae016dd218724ea  /tmp/run271/run271_gentle_native_organic_sculpt_RESEARCH_NO_RELEASE.glb' | sha256sum -c -
+      - name: Install only free research tooling
+        run: |
+          python -m pip install 'numpy==1.26.4' 'trimesh==4.5.3' 'networkx==3.4.2' 'scipy==1.14.1' 'vtk==9.3.1' 'Pillow==10.4.0'
+          python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/tools/run274_actual_baked_microdown_3d_pbr.py
+      - name: Generate two native GLBs with embedded PBR micro-down maps and 12 real spatial views
+        id: build
+        timeout-minutes: 13
+        run: |
+          set -euo pipefail
+          export OWL172_OUTPUT="$PWD/$OUT"
+          xvfb-run -a python -u owl-pet/3d-experiments/172-tyto-castanops/tools/run274_actual_baked_microdown_3d_pbr.py 2>&1 | tee /tmp/run274_build.log
+          cp /tmp/run274_build.log "$OUT/execution.log"
+      - name: Independent glTF2 and 12-image byte check
+        id: verify
+        timeout-minutes: 3
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json,hashlib,struct,trimesh
+          from pathlib import Path
+          p=Path('owl-pet/3d-experiments/172-tyto-castanops/research-run274-NO_RELEASE')
+          r=json.loads((p/'machine-report.json').read_text())
+          h=lambda f:hashlib.sha256(f.read_bytes()).hexdigest()
+          assert r['source_sha256']=='da21a63c0ec7dbdb8da920896599eb7cafd62fcf94de2e25bae016dd218724ea'
+          for name in ('fine','coarse'):
+              a=r['variants'][name];f=p/a['glb']; b=f.read_bytes()
+              assert b[:4]==b'glTF' and len(b)==a['bytes'] and h(f)==a['sha256']
+              j=json.loads(b[20:20+struct.unpack_from('<I',b,12)[0]])
+              pr=j['meshes'][0]['primitives'][0]
+              assert {'POSITION','NORMAL','COLOR_0','TEXCOORD_0'} <= set(pr['attributes'])
+              assert j['accessors'][pr['attributes']['COLOR_0']]['normalized'] is True
+              assert 'normalTexture' in j['materials'][0]['__class__'] if False else 'normalTexture' in j['materials'][0]
+              assert len(j['images'])==2 and all(i['mimeType']=='image/png' for i in j['images'])
+              assert j['materials'][0]['pbrMetallicRoughness']['metallicFactor']==0
+              m=trimesh.load(f,force='scene')
+              assert sum(len(g.faces) for g in m.geometry.values())==133268
+              assert a['uv_seam_duplicate_vertices']>0
+              assert len(set(a['six_spatial_pbr_views'].values()))==6
+              for view,sh in a['six_spatial_pbr_views'].items():
+                  assert h(p/f'{name}_{view}.png')==sh
+          print('RUN274_REAL_3D_TWO_PBR_GLB_12_DISTINCT_SPATIAL_VIEWS_STRUCTURAL_PASS / ART_NOT_GRADED / NO_RELEASE')
+          PY
+      - name: Real Chromium Three.js GLTFLoader WebGL2 software visual check, fine only
+        id: browser
+        timeout-minutes: 15
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          npm install --no-save --no-package-lock three@0.181.2 playwright@1.56.1
+          npx playwright install --with-deps chromium
+          export OWL172_GLB_INPUT="$PWD/$OUT/fine_TRUE3D_BAKED_DOWN_NO_RELEASE.glb"
+          export OWL172_QA_DIR="$PWD/$OUT/browser_fine"
+          export OWL172_EXPECTED_SHA="$(sha256sum "$OWL172_GLB_INPUT" | cut -d' ' -f1)"
+          export OWL172_RUN_LABEL=run274_baked_pbr_microdown_REAL3D_NONCOMMERCIAL_NO_RELEASE
+          mkdir -p "$OWL172_QA_DIR"
+          xvfb-run -a timeout 380s node owl-pet/3d-experiments/172-tyto-castanops/run256_actual_browser_7view_qa.mjs 2>&1 | tee "$OUT/browser_execution.log"
+      - name: Make research-only SHA256 manifest, always retain failures
+        if: always()
+        run: |
+          mkdir -p "$OUT"
+          cat > "$OUT/CI_STATUS.flag" <<EOF
+          native_generation=${{ steps.build.outcome }}
+          independent_binary_12views=${{ steps.verify.outcome }}
+          chromium_webgl2_fine=${{ steps.browser.outcome }}
+          ART_UNREVIEWED / HUNYUAN_NONCOMMERCIAL / PHONE_HARDWARE_UNTESTED / NO_RELEASE
+          EOF
+          (cd "$OUT" && find . -type f ! -name SHA256SUMS.txt ! -name SHA256_CHECK.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$OUT" && sha256sum -c SHA256SUMS.txt > SHA256_CHECK.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run274-real-baked-PBR-2GLB-12views-WebGL2-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-run274-NO_RELEASE
+          retention-days: 30

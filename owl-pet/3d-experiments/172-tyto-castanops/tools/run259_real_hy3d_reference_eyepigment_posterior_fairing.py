@@ -157,6 +157,7 @@ def real_views(record):
     ext=max(upper-lower)
     scene=bpy.context.scene
     scene.render.engine="CYCLES";scene.cycles.samples=16
+    scene.view_layers[0].cycles.use_denoising=False
     scene.render.resolution_x=450;scene.render.resolution_y=450
     scene.render.resolution_percentage=100
     scene.render.film_transparent=False

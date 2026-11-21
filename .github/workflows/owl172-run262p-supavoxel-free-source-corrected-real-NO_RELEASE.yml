@@ -2,10 +2,10 @@ name: owl172 Run262p actual corrected zero-fee SupaVoxel source-bound native GLB
 on:
   push:
     branches:
-      - research/owl172-run262pp-supavoxel-verified-upload-real-no-release
+      - research/owl172-run262p-supavoxel-verified-upload-real-no-release
     paths:
-      - .github/workflows/owl172-run262p-two-free-textured-providers-real-native-NO_RELEASE.yml
-      - owl-pet/3d-experiments/172-tyto-castanops/tools/run262pp_supavoxel_verified_free_native.py
+      - .github/workflows/owl172-run262p-supavoxel-free-source-corrected-real-NO_RELEASE.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run262p_supavoxel_verified_free_native.py
   workflow_dispatch:
 permissions:
   contents: write
@@ -16,14 +16,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: research/owl172-run262pp-supavoxel-verified-upload-real-no-release
+          ref: research/owl172-run262p-supavoxel-verified-upload-real-no-release
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run117-FREE-TRELLIS-QUOTA-RECHECK-ART_REJECTED/rightmost_baby_owl_512_rgba.png
-            owl-pet/3d-experiments/172-tyto-castanops/tools/run262pp_supavoxel_verified_free_native.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run262p_supavoxel_verified_free_native.py
             owl-pet/3d-experiments/172-tyto-castanops/run256_actual_browser_7view_qa.mjs
             owl-pet/3d-experiments/172-tyto-castanops/run256_real_threejs_viewer_RESEARCH_NO_RELEASE.html
-            .github/workflows/owl172-run262p-two-free-textured-providers-real-native-NO_RELEASE.yml
+            .github/workflows/owl172-run262p-supavoxel-free-source-corrected-real-NO_RELEASE.yml
       - name: Truly visit one independent no-account source-bound free browser GLB provider, submit only legitimate free controls
         continue-on-error: true
         timeout-minutes: 21
@@ -31,12 +31,12 @@ jobs:
         run: |
           set -euo pipefail
           R=owl-pet/3d-experiments/172-tyto-castanops
-          O="$R/research-evidence-run262pp-REAL-TEXTURED-FREE-BROWSER-NO_RELEASE"
+          O="$R/research-evidence-run262p-REAL-TEXTURED-FREE-BROWSER-NO_RELEASE"
           mkdir -p "$O"
-          python3 -m py_compile "$R/tools/run262pp_supavoxel_verified_free_native.py"
+          python3 -m py_compile "$R/tools/run262p_supavoxel_verified_free_native.py"
           python3 -m pip install --break-system-packages -q pillow playwright==1.56.0
           python3 -m playwright install --with-deps chromium
-          xvfb-run -a timeout 1040s python3 -u "$R/tools/run262pp_supavoxel_verified_free_native.py" 2>&1 | tee "$O/run262pp_actual_browser.log"
+          xvfb-run -a timeout 1040s python3 -u "$R/tools/run262p_supavoxel_verified_free_native.py" 2>&1 | tee "$O/run262p_actual_browser.log"
       - name: Actual 3D GLTFLoader seven-camera verification only for nontrivial GLBs
         if: always()
         continue-on-error: true
@@ -45,7 +45,7 @@ jobs:
         run: |
           set -uo pipefail
           R=owl-pet/3d-experiments/172-tyto-castanops
-          O="$R/research-evidence-run262pp-REAL-TEXTURED-FREE-BROWSER-NO_RELEASE"
+          O="$R/research-evidence-run262p-REAL-TEXTURED-FREE-BROWSER-NO_RELEASE"
           mkdir -p "$O"
           files=()
           for M in "$O"/image_to_3d_app/*.glb "$O"/supavoxel/*.glb; do
@@ -60,7 +60,7 @@ jobs:
           idx=0
           for M in "${files[@]}"; do
             idx=$((idx+1))
-            export OWL172_RUN_LABEL="run262pp_verified_native_$idx"
+            export OWL172_RUN_LABEL="run262p_verified_native_$idx"
             export OWL172_GLB_INPUT="$PWD/$M"
             export OWL172_QA_DIR="$PWD/$O/webgl2_native_$idx"
             export OWL172_EXPECTED_SHA="$(sha256sum "$M" | cut -d' ' -f1)"
@@ -73,7 +73,7 @@ jobs:
         run: |
           set -euo pipefail
           R=owl-pet/3d-experiments/172-tyto-castanops
-          O="$R/research-evidence-run262pp-REAL-TEXTURED-FREE-BROWSER-NO_RELEASE"
+          O="$R/research-evidence-run262p-REAL-TEXTURED-FREE-BROWSER-NO_RELEASE"
           mkdir -p "$O"
           cat > "$O/NO_RELEASE.flag" <<'TXT'
           NO_RELEASE. Research-only actual native 3D generation/source experiment. No artistic approval, redistribution clearance or genuine Android/iPhone GPU approval. Never promote a binary merely because it loaded into Three.js. No payment, signup, CAPTCHA bypass or replacement for the 251 species pipeline.
@@ -81,8 +81,8 @@ jobs:
           python3 - <<'PY'
           import json,pathlib,hashlib,datetime
           r=pathlib.Path('owl-pet/3d-experiments/172-tyto-castanops')
-          o=r/'research-evidence-run262pp-REAL-TEXTURED-FREE-BROWSER-NO_RELEASE'
-          p=o/'run262pp_aggregate_report.json'
+          o=r/'research-evidence-run262p-REAL-TEXTURED-FREE-BROWSER-NO_RELEASE'
+          p=o/'run262p_aggregate_report.json'
           d=json.loads(p.read_text()) if p.exists() else {}
           providers=d.get('provider_trials',[])
           lines=['# Run262p actual SupaVoxel one-provider textured native owl chick research, 2026-11-21',
@@ -110,7 +110,7 @@ jobs:
           summary={ 'run':262,'actual_providers':providers,'technical_webgl_performed':any(o.glob('webgl2_native_*/**/*.png')),
                     'approved_art':False,'phone_tested':False,'extra_payment_usd':0,
                     'release':'NO_RELEASE'}
-          (o/'run262pp_final_machine_decision.json').write_text(json.dumps(summary,indent=2,ensure_ascii=False,default=str)+'\n')
+          (o/'run262p_final_machine_decision.json').write_text(json.dumps(summary,indent=2,ensure_ascii=False,default=str)+'\n')
           PY
           (cd "$O"; find . -type f ! -name SHA256SUMS.txt ! -name checksum_verification.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
           (cd "$O"; sha256sum -c SHA256SUMS.txt > checksum_verification.log)
@@ -118,7 +118,7 @@ jobs:
         if: always()
         with:
           name: owl172-run262p-actual-2-free-textured-GLB-providers-NO_RELEASE
-          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run262pp-REAL-TEXTURED-FREE-BROWSER-NO_RELEASE/
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run262p-REAL-TEXTURED-FREE-BROWSER-NO_RELEASE/
           retention-days: 30
       - name: Commit scoped nonbinary evidence and audit only, no public model
         if: always()
@@ -128,17 +128,17 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           R=owl-pet/3d-experiments/172-tyto-castanops
-          O="$R/research-evidence-run262pp-REAL-TEXTURED-FREE-BROWSER-NO_RELEASE"
+          O="$R/research-evidence-run262p-REAL-TEXTURED-FREE-BROWSER-NO_RELEASE"
           git add --sparse "$R/2026-11-21-run262p-two-actual-free-textured-native-provider-attempts-NO_RELEASE.md"
           find "$O" -type f ! -name '*.glb' ! -name '*.zip' ! -name '*.bin' -print0 | xargs -0 -r git add --sparse --
-          git diff --cached --name-only > /tmp/run262pp_scope.txt
-          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/' /tmp/run262pp_scope.txt; then
+          git diff --cached --name-only > /tmp/run262p_scope.txt
+          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/' /tmp/run262p_scope.txt; then
             echo SCOPE_VIOLATION; exit 17
           fi
-          if grep -Ei '\.(glb|blend|zip|obj|fbx|bin)$' /tmp/run262pp_scope.txt; then
+          if grep -Ei '\.(glb|blend|zip|obj|fbx|bin)$' /tmp/run262p_scope.txt; then
             echo UNREVIEWED_BINARY_VIOLATION; exit 18
           fi
           if ! git diff --cached --quiet; then
             git commit -m 'research(owl172): Run262p actual free textured source evidence and fail-closed art gate'
-            git push origin HEAD:research/owl172-run262pp-supavoxel-verified-upload-real-no-release
+            git push origin HEAD:research/owl172-run262p-supavoxel-verified-upload-real-no-release
           fi

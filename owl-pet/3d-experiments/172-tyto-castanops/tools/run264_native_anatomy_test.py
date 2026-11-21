@@ -71,7 +71,7 @@ for sx in (-.205,.205):
  for i in range(R):
   for j in range(N):
    a=i*N+j;b=i*N+(j+1)%N;c=(i+1)*N+j;d=(i+1)*N+(j+1)%N
-   ff.extend(((a,b,d),(a,d,c)))
+   ff.extend(((a,d,b),(a,c,d)))  # positive-Z front face winding: verified by actual Chromium WebGL2, not only VTK
  em=trimesh.Trimesh(vertices=vv,faces=ff,process=False)
  em.visual.vertex_colors=np.asarray(cols,dtype=np.uint8)
  iris.append(em)

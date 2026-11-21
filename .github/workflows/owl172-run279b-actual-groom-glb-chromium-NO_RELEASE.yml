@@ -1,0 +1,82 @@
+name: owl172 Run279b actual WebGL2 Blender hair glTF mobile viewport NO RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run279-hair-gltf-surface-transfer-NO_RELEASE
+    paths:
+      - '.github/workflows/owl172-run279b-actual-groom-glb-chromium-NO_RELEASE.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run279b_actual_groom_glb_390x780_webgl2_NO_RELEASE.mjs'
+  workflow_dispatch:
+permissions:
+  actions: read
+  contents: read
+jobs:
+  browser_research:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    env:
+      OUT: owl172-run279b-browser-NO_RELEASE
+      OWL172_GLB_INPUT: ${{ github.workspace }}/owl172-run279b-browser-NO_RELEASE/run279_real_particle_hair_mesh_lod_RESEARCH_NO_RELEASE.glb
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/run279b_actual_groom_glb_390x780_webgl2_NO_RELEASE.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run277_true_animated_3d_webgl2_viewer_RESEARCH_NO_RELEASE.html
+      - name: Get actual Run279 Blender-hair-geometry model, never a stand-in
+        id: donor
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: owl172-run279-real-blender-hair-glTF-geometry-4views-NO_RELEASE
+          run-id: 44957716797
+          github-token: ${{ github.token }}
+          path: owl172-run279b-browser-NO_RELEASE
+      - name: Verify original mobile model and install open source browser test tools
+        id: browser_setup
+        continue-on-error: true
+        if: steps.donor.outcome == 'success'
+        run: |
+          set -euo pipefail
+          echo '8eb64c09a58f673c793c31e348f41854b5d4fb13c649afcef36d1a23129e12db  owl172-run279b-browser-NO_RELEASE/run279_real_particle_hair_mesh_lod_RESEARCH_NO_RELEASE.glb' | sha256sum -c -
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq xvfb libgl1 libegl1 >/dev/null
+          npm install --no-save --no-package-lock three@0.181.2 playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Actual ThreeJS GLTFLoader seven distinct WebGL2 viewpoints at 390x780
+        id: inspect
+        continue-on-error: true
+        if: steps.browser_setup.outcome == 'success'
+        timeout-minutes: 12
+        run: |
+          set -euo pipefail
+          export OWL172_BROWSER_DIR="$PWD/$OUT/browser_390x780"
+          export OWL172_SHA256="8eb64c09a58f673c793c31e348f41854b5d4fb13c649afcef36d1a23129e12db"
+          mkdir -p "$OWL172_BROWSER_DIR"
+          xvfb-run -a timeout 420s node owl-pet/3d-experiments/172-tyto-castanops/run279b_actual_groom_glb_390x780_webgl2_NO_RELEASE.mjs 2>&1 | tee "$OUT/webgl2_actual_chromium_execution.log"
+      - name: Always preserve original evidence, error status, hashes
+        if: always()
+        run: |
+          mkdir -p "$OUT"
+          cat > "$OUT/BROWSER_STATUS.flag" <<EOF
+          previous_native_groom_glb=${{ steps.donor.outcome }}
+          actual_browser_dependencies=${{ steps.browser_setup.outcome }}
+          actual_390x780_webgl2_gltfloader=${{ steps.inspect.outcome }}
+          SOFTWARE_RENDERER_ONLY / ORIGINAL_ART_REJECTED / NO_PHYSICAL_PHONE_GPU / NONCOMMERCIAL / NO_RELEASE
+          EOF
+          (cd "$OUT" && find . -type f ! -name SHA256SUMS.txt ! -name SHA256_VERIFY.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$OUT" && sha256sum -c SHA256SUMS.txt > SHA256_VERIFY.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run279b-real-browser-390x780-groom-glb-NO_RELEASE
+          path: owl172-run279b-browser-NO_RELEASE/
+          retention-days: 21
+          if-no-files-found: warn
+      - name: Fail closed after archive
+        if: always()
+        run: |
+          grep -qx 'previous_native_groom_glb=success' "$OUT/BROWSER_STATUS.flag"
+          grep -qx 'actual_browser_dependencies=success' "$OUT/BROWSER_STATUS.flag"
+          grep -qx 'actual_390x780_webgl2_gltfloader=success' "$OUT/BROWSER_STATUS.flag"

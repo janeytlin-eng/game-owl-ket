@@ -1,0 +1,17 @@
+{
+  "source": "https://three.ws/3d",
+  "fee": "free draft only, no key or payment",
+  "prompt": "One realistic juvenile masked barn owl chick, compact crouching baby with thick airy cream-white second-down fluff over the entire rounded body. Broad soft integrated heart-shaped facial disc with subtle warm-buff rim, two clearly OPEN round dark brown-black eyes and tiny pale curved bill. Very short juvenile wings entirely hidden in dense down, tail entirely hidden, no ear tufts, no layered long flight feathers, feet tucked close and weight resting low. Three-quarter front view, faithful natural owl anatomy, detailed physically soft feathers, plain studio background, one bird only, not a wooden toy or figurine.",
+  "provider": "three.ws keyless free draft; do not use paid tier",
+  "requests": [
+    {
+      "url": "https://three.ws/api/3d/generate",
+      "status_code": 401,
+      "content_type": "application/json; charset=utf-8",
+      "body": "{\"error\":\"sign_in_required\",\"message\":\"Sign in to make a 3D model. A three.ws account is free.\",\"sign_in_url\":\"/login\",\"api_keys_url\":\"/dashboard/api-keys\"}",
+      "duration": 0.16
+    }
+  ],
+  "status": "FREE_API_REJECTED",
+  "end_utc": "2026-11-21T01:20:16Z"
+}

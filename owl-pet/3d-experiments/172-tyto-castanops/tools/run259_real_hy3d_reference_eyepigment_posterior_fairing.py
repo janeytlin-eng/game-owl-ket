@@ -90,13 +90,22 @@ def geometry_and_material(name,do_fair):
             # Individual vertex normal: true 3D front-facing geometry only.
             n=vert.normal
             frontal=clamp((-n.y-.08)/.62)
-            u=clamp((p.x-lower.x)/max(extent.x,1e-6))
+            u=clamp((p.x-lower.x)/max(extent.x,1e-6)+.105)
             v=clamp((p.z-lower.z)/max(extent.z,1e-6))
             rgba=interp(u,v)
             frontal*=clamp((rgba[3]-.18)/.55)
             if frontal>.3:front_count+=1
             cream=(.80+.055*math.sin(3.3*p.z),.773+.040*math.sin(3.0*p.x),.687+.020*math.sin(2.7*p.y))
             rawrgb=tuple(clamp((1-frontal)*cream[k]+frontal*rgba[k]) for k in range(3))
+            # Eye-pigment-only experiment on the real concave neural surface (no fake spheres).
+            # Independent placement is provisional: exact eyeball/anatomy not validated.
+            front_surface=clamp((-p.y-.06)/.38)
+            for cx in (-.205,.195):
+                radius=math.sqrt(((p.x-cx)/.092)**2+((p.z-.45)/.095)**2)
+                interior=math.exp(-1.5*radius*radius)*front_surface
+                amber=max(0.,math.exp(-2.2*(radius-1.35)**2)-.13)*front_surface*.40
+                rawrgb=tuple(clamp(rawrgb[k]*(1.-.94*interior)+(.038,.026,.019)[k]*.94*interior+
+                            amber*(.13,.078,.024)[k]) for k in range(3))
             if min(rawrgb)<.22:dark_count+=1
             # Image pixels and material color values are linear in Blender image buffers.
             attr.data[li].color=(*rawrgb,1.0)
@@ -151,6 +160,7 @@ def real_views(record):
     scene.render.resolution_x=450;scene.render.resolution_y=450
     scene.render.resolution_percentage=100
     scene.render.film_transparent=False
+    scene.world=bpy.data.worlds.new("Run259 neutral actual geometry")
     scene.world.color=(.50,.50,.50)
     def light(pos,power):
         data=bpy.data.lights.new("Run259 light","AREA")

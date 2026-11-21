@@ -187,7 +187,7 @@ report=dict(run=259,run_started_utc=time.strftime("%Y-%m-%dT%H:%M:%SZ",time.gmti
     original_reference=REF.name,input_provider_real_glb_sha256=PIN,
     source_model_triangles=20000,variants=results,
     geometry_artifact_only=True,physical_mobile_GPU_tested=False,
-    color_from_source_is_not_3D_down=False,
+    color_from_source_is_not_3D_down=True,
     art_approved=False,release="NO_RELEASE",
     note="Source color projection cannot invent physical down. Rear smoothing cannot create natural anatomically correct chick wings. Independent visual review mandatory.")
 (O/"run259_real_3d_machine_report.json").write_text(json.dumps(report,indent=2,ensure_ascii=False)+"\n")

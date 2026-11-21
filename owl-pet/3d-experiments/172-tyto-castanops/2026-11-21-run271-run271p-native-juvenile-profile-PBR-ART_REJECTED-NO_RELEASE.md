@@ -4,7 +4,7 @@
 
 ## Before producing anything: source, project and failure review
 
-Read [owl-pet/AGENTS.md](../../../AGENTS.md), [README](../../../README.md), [STATUS](../../../STATUS.md), existing cat WebGL prototype description, and the Run270 art rejection. Recovered the actual [Run270 source artifact](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44914000728/artifacts/14710478257), **2,452,679 bytes**, SHA256 **e113c72453bd57c2082f11b012d44aac06f678d6c7515f199e92c0590ab13670**, ZIP CRC good. Pinned the genuine single continuous Hunyuan GLB SHA256 **d90960a228b8de1f9479318200fa0b031a599bd3720103fbe2c51c05703721f2**, 66,596 vertices / 133,268 connected triangle faces, watertight. Independently re-opened all six original VTK views.
+Read [owl-pet/AGENTS.md](../../AGENTS.md), [README](../../README.md), [STATUS](../../STATUS.md), existing cat WebGL prototype description, and the Run270 art rejection. Recovered the actual [Run270 source artifact](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44914000728/artifacts/14710478257), **2,452,679 bytes**, SHA256 **e113c72453bd57c2082f11b012d44aac06f678d6c7515f199e92c0590ab13670**, ZIP CRC good. Pinned the genuine single continuous Hunyuan GLB SHA256 **d90960a228b8de1f9479318200fa0b031a599bd3720103fbe2c51c05703721f2**, 66,596 vertices / 133,268 connected triangle faces, watertight. Independently re-opened all six original VTK views.
 
 Recovered and opened actual [Run265b clean original source reference](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44886196646/artifacts/14699737765), specifically the 512px rightmost cream-white chick with dense soft down, rounded cheeks/chest, heart-shaped face, large dark eyes, very short folded wings and two feet. No reference substitution.
 

@@ -8,7 +8,7 @@ import {createHash} from 'node:crypto';
 
 const model=resolve(process.env.OWL172_GLB_INPUT||'');
 const evidence=resolve(process.env.OWL172_QA_DIR||'run276-browser-evidence');
-const viewer=resolve('owl-pet/3d-experiments/172-tyto-castanops/run276_real_threejs_viewer_RESEARCH_NO_RELEASE.html');
+const viewer=resolve('owl-pet/3d-experiments/172-tyto-castanops/run256_real_threejs_viewer_RESEARCH_NO_RELEASE.html');
 const expected=process.env.OWL172_EXPECTED_SHA;
 const name=process.env.OWL172_RUN_LABEL||'Run276';
 mkdirSync(evidence,{recursive:true});

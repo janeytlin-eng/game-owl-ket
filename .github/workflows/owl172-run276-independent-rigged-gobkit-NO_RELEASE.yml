@@ -1,0 +1,95 @@
+name: owl172 Run276 artist rigged CC0 GLB donors - isolated NO RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run276-gobkit-artist-rigged-barnowl-chick-NO_RELEASE
+    paths:
+      - '.github/workflows/owl172-run276-independent-rigged-gobkit-NO_RELEASE.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/tools/run276_animated_barnowl_juvenile_donor_audit.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  research:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    env:
+      OWL172_OUTPUT: ${{ github.workspace }}/owl172-run276-evidence
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install free native 3D analysis and render packages
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libgl1 libegl1 libxrender1 libx11-6 libxext6 xvfb >/dev/null
+          python -m pip install --disable-pip-version-check numpy scipy pillow trimesh vtk
+          python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/tools/run276_animated_barnowl_juvenile_donor_audit.py
+      - name: Fetch four real artist GLBs, analyze rigs, render 24 spatial views
+        id: acquire
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          xvfb-run -a python -u owl-pet/3d-experiments/172-tyto-castanops/tools/run276_animated_barnowl_juvenile_donor_audit.py
+      - name: Verify actual binary native GLB and independent rig or animation data
+        id: verify
+        if: always()
+        continue-on-error: true
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib,json,struct,trimesh
+          d=Path("owl172-run276-evidence")
+          report=json.loads((d/"machine-report.json").read_text())
+          success=0
+          for name,rec in report["sources"].items():
+              if rec["status"].startswith("REAL_3D_RIG_SOURCE"):
+                  raw=(d/(name+".glb")).read_bytes()
+                  assert raw[:4]==b"glTF" and struct.unpack_from("<I",raw,8)[0]==len(raw)
+                  assert hashlib.sha256(raw).hexdigest()==rec["sha256"]
+                  scene=trimesh.load(d/(name+".glb"),force="scene")
+                  assert sum(len(g.faces) for g in scene.geometry.values() if hasattr(g,"faces"))==rec["geometry"]["triangles"]
+                  assert len(set(v["sha256"] for v in rec["actual_renders"]["views"].values()))==6
+                  assert rec["rig_audit"]["animation_clip_count"]>=1 and rec["rig_audit"]["skinned_primitives"]>=1
+                  print(name,rec["geometry"]["triangles"],rec["rig_audit"]["joint_counts"],rec["rig_audit"]["animation_clip_count"])
+                  success+=1
+          assert success>=1, "No usable true animated GLB was obtained; do not report success"
+          for line in (d/"SHA256SUMS.txt").read_text().splitlines():
+              sha,p=line.split("  ",1)
+              assert hashlib.sha256((d/p).read_bytes()).hexdigest()==sha,p
+          print("ACTUAL_NATURAL_RIGGED_MODEL_SOURCE_COUNT",success)
+          PY
+      - name: True Three.js GLTFLoader + WebGL2 seven views in 390x780 phone-like viewport (not real phone)
+        id: browser
+        if: steps.verify.outcome == 'success'
+        continue-on-error: true
+        timeout-minutes: 14
+        run: |
+          set -euo pipefail
+          npm install --no-save --no-package-lock three@0.181.2 playwright@1.56.1
+          npx playwright install --with-deps chromium
+          export OWL172_GLB_INPUT="$PWD/owl172-run276-evidence/gobkit_barnowl_rigged_cc0.glb"
+          export OWL172_QA_DIR="$PWD/owl172-run276-evidence/threejs_barnowl_actual_webgl"
+          export OWL172_EXPECTED_SHA="$(sha256sum "$OWL172_GLB_INPUT" | cut -d' ' -f1)"
+          export OWL172_RUN_LABEL=run276_artist_barnowl_animated_model_RESEARCH_UNREVIEWED_NO_RELEASE
+          xvfb-run -a timeout 450s node owl-pet/3d-experiments/172-tyto-castanops/run256_actual_browser_7view_qa.mjs
+      - name: Preservation and outcomes
+        if: always()
+        run: |
+          mkdir -p owl172-run276-evidence
+          cat > owl172-run276-evidence/CI_STATUS.flag <<EOF
+          acquire=${{ steps.acquire.outcome }}
+          verify=${{ steps.verify.outcome }}
+          browser=${{ steps.browser.outcome }}
+          ART_UNREVIEWED / PHONE_HARDWARE_UNTESTED / THIRD_PARTY_LICENSE_PROVENANCE_PENDING / NO_RELEASE
+          EOF
+          (cd owl172-run276-evidence && find . -type f ! -name FINAL_SHA256SUMS.txt -print0 | sort -z | xargs -0 -r sha256sum > FINAL_SHA256SUMS.txt)
+          (cd owl172-run276-evidence && sha256sum -c FINAL_SHA256SUMS.txt)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run276-gobkit-four-rigged-real-GLBs-spatial-webgl-NO_RELEASE
+          path: owl172-run276-evidence/
+          retention-days: 21
+          if-no-files-found: warn

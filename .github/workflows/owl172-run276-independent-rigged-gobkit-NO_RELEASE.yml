@@ -17,6 +17,12 @@ jobs:
       OWL172_OUTPUT: ${{ github.workspace }}/owl172-run276-evidence
     steps:
       - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run276_animated_barnowl_juvenile_donor_audit.py
+            owl-pet/3d-experiments/172-tyto-castanops/run256_actual_browser_7view_qa.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run256_real_threejs_viewer_RESEARCH_NO_RELEASE.html
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'

@@ -1,0 +1,88 @@
+name: "#172 Run256p quantized CC0 native mesh import repair, 21 true WebGL2 views NO_RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run256-cc0-neural-hollow-habitat-source-screen-no-release
+    paths:
+      - '.github/workflows/owl172-run256p-KHR-mesh-quantization-repair-no-release.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  native-quantization-repair:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install free 3D/browser dependencies
+        run: |
+          python -m pip install "numpy==2.3.5" "trimesh==4.11.1" "Pillow==12.3.0" "scipy==1.16.3"
+          npm install --no-save --no-package-lock three@0.181.2 playwright@1.56.1
+          npx playwright install --with-deps chromium
+          python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/run256p_correct_KHR_mesh_quantization_source_import.py
+      - name: Download SHA-pinned original Hunyuan native 3D body
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          mkdir -p "$ROOT/run256p-source"
+          gh run download 44798375236 -R janeytlin-eng/game-owl-ket -n owl172-run251-neural-ocular-PBR-posterior-volume-AB-14views-NO_RELEASE -D "$ROOT/run256p-source"
+          echo 'cd1513ac0822eef25bb56f9f8d08d244cac64d209ea8c92333693d287c926eb6  owl-pet/3d-experiments/172-tyto-castanops/run256p-source/run251-evidence/run251_A_authentic_neural_owl_eye_repair_tail_surgery_NO_RELEASE.glb' | sha256sum -c -
+      - name: Actually fix normalized INT16 POSITION and UINT16 UV from CC0 source before node transform baking
+        run: |
+          set -euo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          python "$ROOT/run256p_correct_KHR_mesh_quantization_source_import.py" --source "$ROOT/run256p-source/run251-evidence/run251_A_authentic_neural_owl_eye_repair_tail_surgery_NO_RELEASE.glb" --output "$ROOT/run256p-evidence"
+      - name: Render 21 real Three.js GLTFLoader WebGL2 directions from corrected native GLBs
+        run: |
+          set -euo pipefail
+          ROOT=owl-pet/3d-experiments/172-tyto-castanops
+          for V in A B C; do
+            case "$V" in
+              A) NAME=run256_A_original_neural_control_NO_RELEASE.glb ;;
+              B) NAME=run256_B_authentic_neural_owl_CC0_hollow_research_NO_RELEASE.glb ;;
+              C) NAME=run256_C_CC0_ADULT_barn_owl_anatomy_NEGATIVE_CONTROL_NO_RELEASE.glb ;;
+            esac
+            export OWL172_RUN_LABEL="run256p_$V"
+            export OWL172_QA_DIR="$PWD/$ROOT/run256p-evidence/browser_$V"
+            export OWL172_GLB_INPUT="$PWD/$ROOT/run256p-evidence/$NAME"
+            export OWL172_EXPECTED_SHA="$(python -c "import json;print(json.load(open('$ROOT/run256p-evidence/run256p_geometry_report.json'))['variants']['$V']['sha256'])")"
+            mkdir -p "$OWL172_QA_DIR"
+            xvfb-run -a timeout 280s node "$ROOT/run256_actual_browser_7view_qa.mjs"
+          done
+      - name: Hash-verify 21 actual screenshots and make separate corrected-quantization art comparison
+        if: always()
+        run: |
+          python owl-pet/3d-experiments/172-tyto-castanops/run256p_audit_21_actual_browser_contacts.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run256p-KHR-normalized-CC0-native-ABC-21-views-ART-REJECTED-NO-RELEASE
+          path: |
+            owl-pet/3d-experiments/172-tyto-castanops/run256p-evidence/
+            owl-pet/3d-experiments/172-tyto-castanops/run256p_correct_KHR_mesh_quantization_source_import.py
+            owl-pet/3d-experiments/172-tyto-castanops/run256p_audit_21_actual_browser_contacts.py
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Preserve only Run256p research audit, never production paths or deployment
+        if: always()
+        run: |
+          set -euo pipefail
+          EVID=owl-pet/3d-experiments/172-tyto-castanops/run256p-evidence
+          git config user.name owl172-research-bot
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f "$EVID"/*.json 2>/dev/null || true
+          git add -f "$EVID"/run256p_*ART_UNAPPROVED.png 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "audit(owl172): Run256p corrected native GLB art screening, NO_RELEASE"
+            git pull --rebase origin research/owl172-run256-cc0-neural-hollow-habitat-source-screen-no-release
+            git push origin HEAD:research/owl172-run256-cc0-neural-hollow-habitat-source-screen-no-release
+          fi

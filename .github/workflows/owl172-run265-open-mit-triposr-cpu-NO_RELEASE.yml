@@ -31,6 +31,10 @@ jobs:
           run-id: 44868485142
           github-token: ${{ github.token }}
           path: /tmp/run261-pinned-reference
+      - uses: actions/setup-python@v5
+        if: steps.input.outcome == 'success'
+        with:
+          python-version: '3.10'
       - name: Verify input SHA256 and prepare actual RGB neural input
         id: prepare
         if: steps.input.outcome == 'success'
@@ -44,6 +48,7 @@ jobs:
           cp /tmp/run261-pinned-reference/run261_framed_real_rightmost_768_RGBA.png "$O/"
           test "$(sha256sum "$O/run261_original_source_512_RGBA.png" | cut -d' ' -f1)" = e439928a9ef08d3be266106cb5f2766b6f5a9f2c414d44e8da55ba81732153b8
           test "$(sha256sum "$O/run261_framed_real_rightmost_768_RGBA.png" | cut -d' ' -f1)" = 5d50035ff2add0957b9078b83cb3f8cf309c96a13742673aa23de9bcb63c667b
+          python3 -m pip install Pillow==10.1.0
           python3 - <<'PY'
           from PIL import Image
           from pathlib import Path
@@ -54,10 +59,6 @@ jobs:
           bg.convert('RGB').resize((512,512),Image.Resampling.LANCZOS).save(root/'run265_juvenile_reference_rgb_512.png')
           PY
           sha256sum "$O"/run26*.png | tee "$O/source_hashes.txt"
-      - uses: actions/setup-python@v5
-        if: steps.prepare.outcome == 'success'
-        with:
-          python-version: '3.10'
       - name: Actually install independent MIT TripoSR CPU path and its mesh dependencies
         id: deps
         if: steps.prepare.outcome == 'success'

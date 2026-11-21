@@ -1,0 +1,103 @@
+name: owl172 Run277 gated free baby owl sources and real rig animation browser QA NO RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run277-free-juvenile-access-animated-browser-qa-NO_RELEASE
+    paths:
+      - '.github/workflows/owl172-run277-free-baby-source-and-animation-browser-NO_RELEASE.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/tools/run277_source_access_probe.py'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run277_true_animated_3d_webgl2_viewer_RESEARCH_NO_RELEASE.html'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run277_actual_animation_chromium_390x780_NO_RELEASE.mjs'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  research:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    env:
+      OWL172_OUTPUT: ${{ github.workspace }}/owl172-run277-evidence
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run277_source_access_probe.py
+            owl-pet/3d-experiments/172-tyto-castanops/run277_true_animated_3d_webgl2_viewer_RESEARCH_NO_RELEASE.html
+            owl-pet/3d-experiments/172-tyto-castanops/run277_actual_animation_chromium_390x780_NO_RELEASE.mjs
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Real public HTTP probes (no authentication/no purchase)
+        id: source
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/tools/run277_source_access_probe.py
+          python -u owl-pet/3d-experiments/172-tyto-castanops/tools/run277_source_access_probe.py
+      - name: Acquire authentic public rigged GLB technical negative control
+        id: model
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import urllib.request,struct,json,hashlib
+          out=Path("owl172-run277-evidence");out.mkdir(exist_ok=True)
+          url="https://gobkit.com/freebies/animal013/BarnOwl.glb"
+          p=out/"lowpoly_barnowl_real_animated_GLTF_SOURCE_ART_REJECTED.glb"
+          req=urllib.request.Request(url,headers={"User-Agent":"owl172-run277-authentic-GLB-technical-negative-control"})
+          with urllib.request.urlopen(req,timeout=90) as r:
+              raw=r.read(20_000_000)
+          assert 0<len(raw)<20_000_000 and raw[:4]==b"glTF", "NOT_REAL_GLB"
+          assert struct.unpack_from("<I",raw,8)[0]==len(raw), "GLB_LENGTH_MISMATCH"
+          n=struct.unpack_from("<I",raw,12)[0]
+          gltf=json.loads(raw[20:20+n])
+          assert len(gltf.get("skins",[]))>=1 and len(gltf.get("animations",[]))>=2
+          p.write_bytes(raw)
+          record={"url":url,"sha256":hashlib.sha256(raw).hexdigest(),"bytes":len(raw),
+           "skins":len(gltf["skins"]),"clips":[a.get("name") for a in gltf["animations"]],
+           "art":"ART_REJECTED_NATIVE_LOW_POLY_TECHNICAL_CONTROL_ONLY"}
+          (out/"source-real-glb.json").write_text(json.dumps(record,indent=2)+"\n")
+          print(record)
+          PY
+      - name: Render actual skin animation and spatial views in real WebGL2 with 390x780 fit
+        id: browser
+        continue-on-error: true
+        if: steps.model.outcome == 'success'
+        timeout-minutes: 15
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq xvfb libgl1 libegl1 >/dev/null
+          npm install --no-save --no-package-lock three@0.181.2 playwright@1.56.1
+          npx playwright install --with-deps chromium
+          export OWL172_GLB_INPUT="$PWD/owl172-run277-evidence/lowpoly_barnowl_real_animated_GLTF_SOURCE_ART_REJECTED.glb"
+          export OWL172_QA_DIR="$PWD/owl172-run277-evidence/actual-browser"
+          export OWL172_EXPECTED_SHA="$(sha256sum "$OWL172_GLB_INPUT" | cut -d' ' -f1)"
+          xvfb-run -a timeout 480s node owl-pet/3d-experiments/172-tyto-castanops/run277_actual_animation_chromium_390x780_NO_RELEASE.mjs 2>&1 | tee owl172-run277-evidence/browser-execution.log
+      - name: Archive complete evidence and verify hashes before declaring status
+        if: always()
+        run: |
+          mkdir -p owl172-run277-evidence
+          cat > owl172-run277-evidence/CI_STATUS.flag <<EOF
+          source=${{ steps.source.outcome }}
+          native_model=${{ steps.model.outcome }}
+          real_browser_animation=${{ steps.browser.outcome }}
+          RESEARCH_ONLY / GOBKIT_LOW_POLY_ART_REJECTED / PHONE_GPU_UNTESTED / NO_RELEASE
+          EOF
+          (cd owl172-run277-evidence && find . -type f ! -name SHA256SUMS.txt -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd owl172-run277-evidence && sha256sum -c SHA256SUMS.txt)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run277-real-source-access-and-animated-webgl2-ART_REJECTED-NO_RELEASE
+          path: owl172-run277-evidence/
+          retention-days: 21
+          if-no-files-found: warn
+      - name: Fail closed only after upload for any technical error
+        if: always()
+        run: |
+          grep -qx 'source=success' owl172-run277-evidence/CI_STATUS.flag
+          grep -qx 'native_model=success' owl172-run277-evidence/CI_STATUS.flag
+          grep -qx 'real_browser_animation=success' owl172-run277-evidence/CI_STATUS.flag

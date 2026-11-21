@@ -24,7 +24,6 @@ jobs:
             owl-pet/3d-experiments/172-tyto-castanops/tools/run276_animated_barnowl_juvenile_donor_audit.py
             owl-pet/3d-experiments/172-tyto-castanops/run276_actual_browser_rigged_lowpoly_negative_control.mjs
             owl-pet/3d-experiments/172-tyto-castanops/run256_real_threejs_viewer_RESEARCH_NO_RELEASE.html
-            owl-pet/3d-experiments/172-tyto-castanops/run276_actual_browser_rigged_lowpoly_negative_control.mjs
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
@@ -82,7 +81,7 @@ jobs:
           export OWL172_QA_DIR="$PWD/owl172-run276-evidence/threejs_barnowl_actual_webgl"
           export OWL172_EXPECTED_SHA="$(sha256sum "$OWL172_GLB_INPUT" | cut -d' ' -f1)"
           export OWL172_RUN_LABEL=run276_artist_barnowl_animated_model_RESEARCH_UNREVIEWED_NO_RELEASE
-          xvfb-run -a timeout 450s node owl-pet/3d-experiments/172-tyto-castanops/run256_actual_browser_7view_qa.mjs
+          xvfb-run -a timeout 450s node owl-pet/3d-experiments/172-tyto-castanops/run276_actual_browser_rigged_lowpoly_negative_control.mjs 2>&1 | tee owl172-run276-evidence/browser-execution.log
       - name: Preservation and outcomes
         if: always()
         run: |
@@ -91,7 +90,7 @@ jobs:
           acquire=${{ steps.acquire.outcome }}
           verify=${{ steps.verify.outcome }}
           browser=${{ steps.browser.outcome }}
-          ART_UNREVIEWED / PHONE_HARDWARE_UNTESTED / THIRD_PARTY_LICENSE_PROVENANCE_PENDING / NO_RELEASE
+          ART_REJECTED_LOW_POLY / PHONE_HARDWARE_UNTESTED / THIRD_PARTY_LICENSE_PROVENANCE_PENDING / NO_RELEASE
           EOF
           (cd owl172-run276-evidence && find . -type f ! -name FINAL_SHA256SUMS.txt -print0 | sort -z | xargs -0 -r sha256sum > FINAL_SHA256SUMS.txt)
           (cd owl172-run276-evidence && sha256sum -c FINAL_SHA256SUMS.txt)
@@ -102,3 +101,9 @@ jobs:
           path: owl172-run276-evidence/
           retention-days: 21
           if-no-files-found: warn
+      - name: Flag research tool failures after preserving all evidence
+        if: always()
+        run: |
+          grep -qx 'acquire=success' owl172-run276-evidence/CI_STATUS.flag
+          grep -qx 'verify=success' owl172-run276-evidence/CI_STATUS.flag
+          grep -qx 'browser=success' owl172-run276-evidence/CI_STATUS.flag

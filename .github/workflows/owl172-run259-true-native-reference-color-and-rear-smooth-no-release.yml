@@ -1,0 +1,110 @@
+name: owl172 Run259 real 3d pigment and rear fairing NO_RELEASE
+on:
+  push:
+    branches: [research/owl172-run259-juvenile-neural-reference-color-back-relief-no-release]
+    paths:
+      - .github/workflows/owl172-run259-true-native-reference-color-and-rear-smooth-no-release.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run259_real_hy3d_reference_eyepigment_posterior_fairing.py
+permissions:
+  contents: write
+  actions: read
+jobs:
+  native-3d-actual-qa:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 43
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run259-juvenile-neural-reference-color-back-relief-no-release
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run117-FREE-TRELLIS-QUOTA-RECHECK-ART_REJECTED/rightmost_baby_owl_512_rgba.png
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run259_real_hy3d_reference_eyepigment_posterior_fairing.py
+            owl-pet/3d-experiments/172-tyto-castanops/run256_actual_browser_7view_qa.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run256_real_threejs_viewer_RESEARCH_NO_RELEASE.html
+            .github/workflows/owl172-run259-true-native-reference-color-and-rear-smooth-no-release.yml
+      - uses: actions/download-artifact@v4
+        with:
+          name: owl172-run258p-actual-native-blender-webgl2-NO_RELEASE
+          run-id: 44851897332
+          github-token: ${{ github.token }}
+          path: /tmp/source-run258p
+      - name: True 20k native mesh source verified; Blender real geometry and eight different angles
+        continue-on-error: true
+        timeout-minutes: 18
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run259-REAL-HY3D-PROJECTED-PIGMENT-POSTERIOR-ART_UNAPPROVED"
+          mkdir -p "$O"
+          S=/tmp/source-run258p/run258p_REAL_NATIVE_NORMAL_REPAIR_ART_UNAPPROVED.glb
+          test "$(sha256sum "$S"|cut -d' ' -f1)" = "4b74b8d045b50ad2075ccf262647824e06d1d51e440c7634c864651800a5541e"
+          cp "$S" "$O/run259_from_run258p_actual_native.glb"
+          sha256sum "$S" > "$O/source_verified.txt"
+          test "$(sha256sum "$R/research-evidence-run117-FREE-TRELLIS-QUOTA-RECHECK-ART_REJECTED/rightmost_baby_owl_512_rgba.png"|cut -d' ' -f1)" = "e439928a9ef08d3be266106cb5f2766b6f5a9f2c414d44e8da55ba81732153b8"
+          python3 -m py_compile "$R/tools/run259_real_hy3d_reference_eyepigment_posterior_fairing.py"
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq blender python3-numpy python3-pil
+          blender -b -t 2 -P "$R/tools/run259_real_hy3d_reference_eyepigment_posterior_fairing.py" 2>&1 | tee "$O/blender_full.log"
+          python3 - <<'PY'
+          from PIL import Image,ImageDraw
+          from pathlib import Path
+          o=Path('owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run259-REAL-HY3D-PROJECTED-PIGMENT-POSTERIOR-ART_UNAPPROVED')
+          sheet=Image.new('RGB',(900,1800),(235,236,235))
+          for i,var in enumerate(['A_reference_only','B_posterior_smooth']):
+            for j,v in enumerate(['front','quarter','side','back']):
+              pic=Image.open(o/('run259_'+var+'_'+v+'_REAL_BLENDER_ART_UNAPPROVED.png')).convert('RGB')
+              x=(j%2)*450;y=i*900+(j//2)*450
+              sheet.paste(pic,(x,y));ImageDraw.Draw(sheet).text((x+10,y+10),var+' '+v,fill=(0,0,0))
+          sheet.save(o/'run259_8_ACTUAL_NATIVE_BLENDER_VIEWS_ART_UNAPPROVED.jpg',quality=86)
+          PY
+      - name: Actual Chromium ThreeJS native WebGL2 seven angles each, not 2D rotation
+        if: always()
+        continue-on-error: true
+        timeout-minutes: 13
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run259-REAL-HY3D-PROJECTED-PIGMENT-POSTERIOR-ART_UNAPPROVED"
+          if [ ! -s "$O/run259_A_reference_only_TRUE_NATIVE_REF_COLOR_ART_UNAPPROVED.glb" ]; then echo "NO_NATIVE_OUTPUT_SKIP" | tee "$O/webgl_skipped.txt";exit 0;fi
+          npm install --no-save --no-package-lock three@0.181.2 playwright@1.56.1
+          npx playwright install --with-deps chromium
+          for name in A_reference_only B_posterior_smooth; do
+            M="$O/run259_"$name"_TRUE_NATIVE_REF_COLOR_ART_UNAPPROVED.glb"
+            if [ ! -s "$M" ]; then echo "MISSING_$name" >> "$O/webgl_skipped.txt";continue;fi
+            export OWL172_RUN_LABEL="$name"
+            export OWL172_GLB_INPUT="$PWD/$M"
+            export OWL172_QA_DIR="$PWD/$O/webgl2_"$name
+            export OWL172_EXPECTED_SHA="$(sha256sum "$M"|cut -d' ' -f1)"
+            mkdir -p "$OWL172_QA_DIR"
+            xvfb-run -a timeout 250s node "$R/run256_actual_browser_7view_qa.mjs" 2>&1 | tee "$O/webgl_$name.log"
+          done
+      - name: Checksum archive; no approved art; zero additional fee
+        if: always()
+        run: |
+          set -euo pipefail
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run259-REAL-HY3D-PROJECTED-PIGMENT-POSTERIOR-ART_UNAPPROVED
+          mkdir -p "$O"
+          echo "NO_RELEASE / ART_UNAPPROVED / PHYSICAL_PHONE_UNTESTED / RIGHTS_UNCLEARED / no external payment" > "$O/NO_RELEASE.flag"
+          (cd "$O";find . -type f ! -name SHA256SUMS.txt ! -name checksum_verification.log -print0|sort -z|xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$O";sha256sum -c SHA256SUMS.txt > checksum_verification.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run259-native-real-pigment-rear-sculpt-ART_UNAPPROVED-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run259-REAL-HY3D-PROJECTED-PIGMENT-POSTERIOR-ART_UNAPPROVED
+          retention-days: 30
+      - name: Commit only actual evidence / logs, exclude native models
+        if: always()
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run259-REAL-HY3D-PROJECTED-PIGMENT-POSTERIOR-ART_UNAPPROVED
+          find "$O" -type f ! -name '*.glb' ! -name '*.zip' -print0 | xargs -0 -r git add --sparse --
+          git diff --cached --name-only > /tmp/owl172_run259_scope.txt
+          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run259-' /tmp/owl172_run259_scope.txt;then echo SCOPE_VIOLATION;exit 10;fi
+          if ! git diff --cached --quiet;then
+            git commit -m 'research(owl172): archive Run259 actual 3D evidence NO_RELEASE'
+            git push origin HEAD:research/owl172-run259-juvenile-neural-reference-color-back-relief-no-release
+          fi

@@ -1,0 +1,197 @@
+{
+  "run": "256",
+  "name": "run261_real_alpha_native",
+  "art_approved": false,
+  "release": "NO_RELEASE",
+  "phone_hardware": "UNTESTED",
+  "paid_usd": 0,
+  "views": [
+    {
+      "view": "front",
+      "pose": {
+        "name": "front",
+        "camera": [
+          -0.027541786432266235,
+          -0.026564717292785645,
+          5.096101707220078
+        ],
+        "center": [
+          -0.027541786432266235,
+          -0.026564717292785645,
+          -0.005528837442398071
+        ]
+      },
+      "file": {
+        "bytes": 110850,
+        "sha256": "1f58e32f4b35638170777b8459b3f1344053714502ff4dcc77e2e5b832674e61"
+      }
+    },
+    {
+      "view": "left",
+      "pose": {
+        "name": "left",
+        "camera": [
+          -5.129172331094742,
+          -0.026564717292785645,
+          -0.005528837442398071
+        ],
+        "center": [
+          -0.027541786432266235,
+          -0.026564717292785645,
+          -0.005528837442398071
+        ]
+      },
+      "file": {
+        "bytes": 139913,
+        "sha256": "9d0a5a46117f727dda645897ec461bd771db095f2517e4f31d2488624c84c686"
+      }
+    },
+    {
+      "view": "threequarter",
+      "pose": {
+        "name": "threequarter",
+        "camera": [
+          2.89364336572622,
+          0.84979082835476,
+          4.084130375579482
+        ],
+        "center": [
+          -0.027541786432266235,
+          -0.026564717292785645,
+          -0.005528837442398071
+        ]
+      },
+      "file": {
+        "bytes": 110108,
+        "sha256": "6f7e8fb2fb5331ee7a36da589bf7c009cb95887500424b044dbd9606838bb2b8"
+      }
+    },
+    {
+      "view": "right",
+      "pose": {
+        "name": "right",
+        "camera": [
+          5.07408875823021,
+          -0.026564717292785645,
+          -0.005528837442398071
+        ],
+        "center": [
+          -0.027541786432266235,
+          -0.026564717292785645,
+          -0.005528837442398071
+        ]
+      },
+      "file": {
+        "bytes": 163951,
+        "sha256": "b358fdbcb940e4484a40809fb3e1c3725b69a159dcb92b1e207b9b05d9a897c3"
+      }
+    },
+    {
+      "view": "back",
+      "pose": {
+        "name": "back",
+        "camera": [
+          -0.027541786432266235,
+          -0.026564717292785645,
+          -5.107159382104874
+        ],
+        "center": [
+          -0.027541786432266235,
+          -0.026564717292785645,
+          -0.005528837442398071
+        ]
+      },
+      "file": {
+        "bytes": 189148,
+        "sha256": "ae5f68f3deaa975694aab2a33eaf4c0fc25546f91750a60a31a8d455af2b0400"
+      }
+    },
+    {
+      "view": "top",
+      "pose": {
+        "name": "top",
+        "camera": [
+          0.22690441845136822,
+          5.0623593803799025,
+          0.24891736744123638
+        ],
+        "center": [
+          -0.027541786432266235,
+          -0.026564717292785645,
+          -0.005528837442398071
+        ]
+      },
+      "file": {
+        "bytes": 140806,
+        "sha256": "ef812959ad8e652085c518924ee80c2fba5021d0c21ffd3cf3ce7b2ecc7fa716"
+      }
+    },
+    {
+      "view": "bottom",
+      "pose": {
+        "name": "bottom",
+        "camera": [
+          0.22690441845136822,
+          -5.115488814965474,
+          0.24891736744123638
+        ],
+        "center": [
+          -0.027541786432266235,
+          -0.026564717292785645,
+          -0.005528837442398071
+        ]
+      },
+      "file": {
+        "bytes": 89858,
+        "sha256": "7f70823fe86d749cb5ada4a3b8c4e744325eef546aa62f5e7a4250e28a35f6c9"
+      }
+    }
+  ],
+  "gates": {
+    "signed_native_binary": true,
+    "real_threejs_gltfloader": true,
+    "chromium_webgl2": true,
+    "authentic_meshes": true,
+    "nontrivial_real_triangles": true,
+    "normal_attributes": false,
+    "seven_spatial_views": true,
+    "distinct_screenshots": true,
+    "valid_aabb": true,
+    "no_page_errors": true
+  },
+  "started": "2026-11-21T04:58:13.193Z",
+  "input": {
+    "bytes": 360356,
+    "sha256": "318a4c76986aca0f453fd1a07b60a103f0864656e0f60167b42c4995932e31df"
+  },
+  "browser": {
+    "status": "ready",
+    "stats": {
+      "source": "actual Three.js GLTFLoader (real 3D)",
+      "meshCount": 1,
+      "triangles": 20000,
+      "missingNormals": 1,
+      "materials": 1,
+      "textured": 0,
+      "bounds": [
+        -0.8306037783622742,
+        -1.0076475143432617,
+        -0.858001708984375,
+        0.7755202054977417,
+        0.9545180797576904,
+        0.8469440340995789
+      ],
+      "renderer": "WebKit WebGL",
+      "unmaskedRenderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+      "isWebGL2": true,
+      "size": [
+        1.6061239838600159,
+        1.9621655941009521,
+        1.7049457430839539
+      ]
+    }
+  },
+  "errors": [],
+  "status": "NATIVE_WEBGL2_SOFTWARE_FAIL_NO_RELEASE",
+  "finished": "2026-11-21T04:58:14.714Z"
+}

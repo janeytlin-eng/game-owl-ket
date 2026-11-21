@@ -1,0 +1,160 @@
+name: owl172 Run278 Blender genuine particle down and legal juvenile source gates NO RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run278-blender-real-hair-and-free-juvenile-source-NO_RELEASE
+    paths:
+      - '.github/workflows/owl172-run278-blender-native-hair-juvenile-source-NO_RELEASE.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/tools/run278_blender_native_particle_down_groom_NORELEASE.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  isolated_research:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 48
+    env:
+      OUT: owl172-run278-evidence-NO_RELEASE
+      OWL172_GLB_INPUT: /tmp/owl172-old/run271_gentle_native_organic_sculpt_RESEARCH_NO_RELEASE.glb
+      OMP_NUM_THREADS: '2'
+      OPENBLAS_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run278_blender_native_particle_down_groom_NORELEASE.py
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Probe genuine free donor delivery; never login/pay/bypass
+        id: donor
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          mkdir -p "$OUT"
+          python - <<'PY'
+          import json,urllib.request,urllib.error,time,os
+          from pathlib import Path
+          resources=[
+            ("Gaitkit_eaglet_claimed_free_but_page_labels_Pro","https://gaitkit.com/cdn/eaglet.glb"),
+            ("Vuena_CC0_owl_pack_PUBLIC_PAGE_only","https://vuena.itch.io/blocky-pets-free"),
+            ("BlendSwap_CC0_furred_owl_REQUIRES_ACCOUNT","https://blendswap.com/blend/7951"),
+            ("CGTrader_free_animated_baby_owl_noAI","https://www.cgtrader.com/free-3d-models/character/man/baby-owl-animated-black")
+          ]
+          records=[]
+          for title,url in resources:
+            item={"source":title,"url":url,"request":"unauthenticated GET, byte-limited, no purchases, no login"}
+            try:
+              req=urllib.request.Request(url,headers={"User-Agent":"owl172-run278-nocharge-asset-access-research/1.0"})
+              with urllib.request.urlopen(req,timeout=25) as resp:
+                part=resp.read(128)
+                item.update(status=resp.status,final_url=resp.url,content_type=resp.headers.get('content-type'),byte_prefix_hex=part[:20].hex(),response_claim_glb=part[:4]==b'glTF')
+            except urllib.error.HTTPError as e:
+              item.update(status=e.code,error="HTTPError",final_url=e.url)
+            except Exception as e:
+              item.update(error=repr(e))
+            records.append(item)
+          target=Path(os.environ["OUT"])/"free-juvenile-access-probe.json"
+          target.write_text(json.dumps(records,indent=2)+"\n")
+          print(json.dumps(records,indent=2))
+          PY
+      - name: Recover and authenticate real Hunyuan source neural GLB from Run271p
+        id: model
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: owl172-run271-organic-juvenile-two-GLBs-12views-ART_REJECTED-NO_RELEASE
+          run-id: 44918354692
+          github-token: ${{ github.token }}
+          path: /tmp/owl172-old
+      - name: Pin input and install genuine Blender open source toolchain
+        id: blender_setup
+        if: steps.model.outcome == 'success'
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          echo 'da21a63c0ec7dbdb8da920896599eb7cafd62fcf94de2e25bae016dd218724ea  /tmp/owl172-old/run271_gentle_native_organic_sculpt_RESEARCH_NO_RELEASE.glb' | sha256sum -c -
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq blender xvfb >/tmp/owl172-blender-apt.log 2>&1 || { tail -80 /tmp/owl172-blender-apt.log; exit 1; }
+          blender -b --factory-startup --python-expr 'import bpy; print("BLENDER_OPEN_SOURCE_VERSION",bpy.app.version_string)'
+          python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/tools/run278_blender_native_particle_down_groom_NORELEASE.py
+      - name: Build actual Blender groom, save .blend, render four real Cycles spatial views, attempt glTF export
+        id: groom
+        continue-on-error: true
+        if: steps.blender_setup.outcome == 'success'
+        timeout-minutes: 26
+        run: |
+          set -euo pipefail
+          mkdir -p "$OUT"
+          export OWL172_OUT="$PWD/$OUT"
+          xvfb-run -a timeout 1400s blender -b -t 3 --factory-startup --python owl-pet/3d-experiments/172-tyto-castanops/tools/run278_blender_native_particle_down_groom_NORELEASE.py 2>&1 | tee "$OUT/blender-real-execution.log"
+      - name: Independently inspect actual exported GLB primitive counts and 4 renderer frames
+        id: inspect
+        continue-on-error: true
+        if: steps.groom.outcome == 'success'
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image
+          import json,struct,hashlib
+          p=Path("owl172-run278-evidence-NO_RELEASE")
+          j=json.loads((p/"machine-report.json").read_text())
+          imgs=j["rendered"]
+          assert len(imgs)==4 and len(set(x["sha256"] for x in imgs))==4
+          for im in imgs:
+            f=p/im["name"]
+            assert hashlib.sha256(f.read_bytes()).hexdigest()==im["sha256"]
+            with Image.open(f) as a: a.verify()
+          b=(p/"run278_glb_export_from_real_hair_scene_UNVALIDATED_NORELEASE.glb").read_bytes()
+          assert b[:4]==b"glTF" and struct.unpack_from("<I",b,8)[0]==len(b)
+          n=struct.unpack_from("<I",b,12)[0]
+          gltf=json.loads(b[20:20+n])
+          prims=[prim for m in gltf.get("meshes",[]) for prim in m["primitives"]]
+          tri=0
+          for prim in prims:
+            if "indices" in prim:
+              acc=gltf["accessors"][prim["indices"]]
+              tri+=acc["count"]//3 if prim.get("mode",4)==4 else 0
+          result={"glb_primitive_count":len(prims),"exported_triangles":tri,
+                  "source_largest_mesh_faces":j["native_glb"]["largest_mesh_faces"],
+                  "blender_hair_parents":j["groom"]["parents"],
+                  "blender_hair_render_children":j["groom"]["render_children"],
+                  "gltf_particle_hair_appears_absent":tri<j["native_glb"]["largest_mesh_faces"]+10000,
+                  "rendered_views":len(imgs),
+                  "note":"Exporter cannot be declared mobile-ready without exported hair geometry and visual WebGL parity; old source noncommercial; art not reviewed",
+                  "conclusion":"TECHNICAL_RESEARCH_ONLY_NO_RELEASE"}
+          (p/"independent-export-qa.json").write_text(json.dumps(result,indent=2)+"\n")
+          print(result)
+          PY
+        shell: bash
+      - name: Always record failure states, file SHA256 manifest, preserve original evidence
+        if: always()
+        run: |
+          mkdir -p "$OUT"
+          cat > "$OUT/CI_STATUS.flag" <<EOF
+          free_donor_http_probe=${{ steps.donor.outcome }}
+          source_neural_model=${{ steps.model.outcome }}
+          native_blender_install=${{ steps.blender_setup.outcome }}
+          real_blender_hair_render_and_glb=${{ steps.groom.outcome }}
+          independent_export_and_4views=${{ steps.inspect.outcome }}
+          ART_UNREVIEWED / HUNYUAN_NONCOMMERCIAL / PHONE_UNTESTED / NO_RELEASE
+          EOF
+          (cd "$OUT" && find . -type f ! -name SHA256SUMS.txt ! -name SHA256_VERIFY.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$OUT" && sha256sum -c SHA256SUMS.txt > SHA256_VERIFY.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run278-blender-real-hair-scene-four-views-export-NO_RELEASE
+          path: owl172-run278-evidence-NO_RELEASE/
+          retention-days: 21
+          if-no-files-found: warn
+      - name: Fail closed AFTER preserving research artifacts
+        if: always()
+        run: |
+          grep -qx 'source_neural_model=success' "$OUT/CI_STATUS.flag"
+          grep -qx 'native_blender_install=success' "$OUT/CI_STATUS.flag"
+          grep -qx 'real_blender_hair_render_and_glb=success' "$OUT/CI_STATUS.flag"
+          grep -qx 'independent_export_and_4views=success' "$OUT/CI_STATUS.flag"

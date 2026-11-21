@@ -1,0 +1,162 @@
+{
+  "run": "256",
+  "purpose": "true_native_CC0_hollow_environment_and_external_anatomy_negative_control",
+  "research_only": true,
+  "art_approved": false,
+  "release": "NO_RELEASE",
+  "phone_hardware": "UNTESTED",
+  "extra_paid_usd": 0,
+  "source_hunyuan_sha256": "cd1513ac0822eef25bb56f9f8d08d244cac64d209ea8c92333693d287c926eb6",
+  "upstream": "Run251_A learned Hunyuan model, six repaired 3D eye meshes, real 3D down",
+  "source_links": {
+    "cc0_barn_owl_adult": {
+      "url": "https://cdn.3dassets.dev/assets/28079/v1/model.glb",
+      "page": "https://3dassets.dev/assets/birds-and-reptiles-hd-barn-owl-b51d286f",
+      "license": "CC0 1.0",
+      "adult_not_chick": true
+    },
+    "cc0_hollow_tree": {
+      "url": "https://cdn.3dassets.dev/assets/28115/v1/model.glb",
+      "page": "https://3dassets.dev/assets/birds-and-reptiles-hd-tree-stump-with-hollow-5ad1c3f4",
+      "license": "CC0 1.0",
+      "species": "unverified_generic_tree_not_claimed_eucalyptus"
+    }
+  },
+  "downloaded": {
+    "cc0_barn_owl_adult": {
+      "bytes": 369708,
+      "sha256": "044dbcfeaf008deff45ff7f227fb0c0dc7e984177a20745345656e1b4b141bc2",
+      "url": "https://cdn.3dassets.dev/assets/28079/v1/model.glb",
+      "page": "https://3dassets.dev/assets/birds-and-reptiles-hd-barn-owl-b51d286f",
+      "license": "CC0 1.0",
+      "meshes": 6,
+      "triangles": 16972,
+      "bounds": [
+        [
+          -3374.98118,
+          -6563.21099,
+          -9922.65743
+        ],
+        [
+          3374.98118,
+          6563.61161,
+          9922.65586
+        ]
+      ]
+    },
+    "cc0_hollow_tree": {
+      "bytes": 125636,
+      "sha256": "3bc6ccb7ef14e7f72b2f0182e42053c5492f1d5277d5f84e6af131f60b05c5b1",
+      "url": "https://cdn.3dassets.dev/assets/28115/v1/model.glb",
+      "page": "https://3dassets.dev/assets/birds-and-reptiles-hd-tree-stump-with-hollow-5ad1c3f4",
+      "license": "CC0 1.0",
+      "meshes": 4,
+      "triangles": 3479,
+      "bounds": [
+        [
+          -19231.59379,
+          -11601.13702,
+          -20128.45798
+        ],
+        [
+          19231.59379,
+          11601.84508,
+          20128.45798
+        ]
+      ]
+    }
+  },
+  "variants": {
+    "A": {
+      "bytes": 4035000,
+      "sha256": "78adeb7d8452231bbb98ec52f6536f4211445b719a3a600506aae76559c7a04e",
+      "mesh_instances": 9,
+      "triangles": 85009,
+      "bounds": [
+        [
+          -1.18337,
+          -1.2154,
+          -0.94267
+        ],
+        [
+          1.12512,
+          0.98,
+          1.22124
+        ]
+      ],
+      "filename": "run256_A_original_neural_control_NO_RELEASE.glb",
+      "native_glb_reimport": true,
+      "art_approved": false,
+      "phone_gpu": "UNTESTED"
+    },
+    "B": {
+      "bytes": 4473160,
+      "sha256": "67970b628aa848dd104a3b837792c9671c356bda839efef50cde4feb5c396914",
+      "mesh_instances": 12,
+      "triangles": 77490,
+      "bounds": [
+        [
+          -1.20672,
+          -1.70396,
+          -2.1156
+        ],
+        [
+          1.15653,
+          0.98,
+          0.90843
+        ]
+      ],
+      "filename": "run256_B_authentic_neural_owl_CC0_hollow_research_NO_RELEASE.glb",
+      "native_glb_reimport": true,
+      "art_approved": false,
+      "phone_gpu": "UNTESTED",
+      "tree_scale": 6.144186133890581e-05,
+      "tree_center": [
+        -0.0251,
+        -0.27832,
+        -0.87887
+      ],
+      "tree_top_relative_to_owl_feet": 0.5392816364765167,
+      "no_claim_actual_eucalyptus": true,
+      "clearance_policy": "independent_placement_not_physical_collision_solved",
+      "original_biscuit_support_removed": [
+        "run246_authentic_Y_UP_horizontal_eucalypt_bark_ledge_A"
+      ],
+      "preserved_hunyuan_faces": 34000,
+      "preserved_original_groom_faces": 36651
+    },
+    "C": {
+      "bytes": 1709624,
+      "sha256": "2f74e233f8ffb3c8522c74274a07ec911c89cff3396e0dde273b3a495e845248",
+      "mesh_instances": 10,
+      "triangles": 20451,
+      "bounds": [
+        [
+          -0.7343,
+          -1.17569,
+          -2.28622
+        ],
+        [
+          0.68411,
+          0.91709,
+          1.41313
+        ]
+      ],
+      "filename": "run256_C_CC0_ADULT_barn_owl_anatomy_NEGATIVE_CONTROL_NO_RELEASE.glb",
+      "native_glb_reimport": true,
+      "art_approved": false,
+      "phone_gpu": "UNTESTED",
+      "tree_scale": 3.687718247246759e-05,
+      "tree_center": [
+        -0.0251,
+        -0.32003,
+        -1.54394
+      ],
+      "tree_top_relative_to_owl_feet": 0.43466099900007255,
+      "no_claim_actual_eucalyptus": true,
+      "clearance_policy": "adult_only_negative_control",
+      "adult_not_chick": true,
+      "not_hunyuan": true
+    }
+  }
+}

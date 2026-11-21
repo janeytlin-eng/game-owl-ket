@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>#172 Run277 native animated GLB technical reference — ART REJECTED / NO RELEASE</title>
+<style>html,body{margin:0;padding:0;background:#e8e7e4;overflow:hidden;width:100%;height:100%}
+#stage{display:block;width:100vw;height:100vh;touch-action:none}</style>
+<script type="importmap">{"imports":{"three":"/node_modules/three/build/three.module.js","three/addons/":"/node_modules/three/examples/jsm/"}}</script>
+</head><body><canvas id="stage"></canvas>
+<script type="module">
+import * as THREE from "three";
+import {GLTFLoader} from "three/addons/loaders/GLTFLoader.js";
+window.__qa={status:"loading"};
+try {
+ const canvas=document.getElementById("stage");
+ const width=390,height=780;
+ canvas.width=width;canvas.height=height;
+ const gl=canvas.getContext("webgl2",{antialias:true,preserveDrawingBuffer:true});
+ if(!gl)throw Error("Real WebGL2 context unavailable");
+ const renderer=new THREE.WebGLRenderer({canvas,context:gl,antialias:true,alpha:false});
+ renderer.setSize(width,height,false);renderer.setPixelRatio(1);
+ renderer.outputColorSpace=THREE.SRGBColorSpace;
+ renderer.toneMapping=THREE.ACESFilmicToneMapping;
+ renderer.toneMappingExposure=1.0;
+ const scene=new THREE.Scene();
+ scene.background=new THREE.Color(0xe7e6e1);
+ scene.add(new THREE.HemisphereLight(0xffffff,0x9c9a94,2.1));
+ const light=new THREE.DirectionalLight(0xfff7eb,2.0);light.position.set(2,5,5);scene.add(light);
+ const fill=new THREE.DirectionalLight(0xe5efff,0.65);fill.position.set(-4,2,-2);scene.add(fill);
+ const gltf=await new GLTFLoader().loadAsync("/model.glb");
+ const root=gltf.scene;scene.add(root);
+ const mixer=new THREE.AnimationMixer(root);
+ const clips=gltf.animations;
+ const camera=new THREE.PerspectiveCamera(33,width/height,0.01,1000);
+ const views={
+  front:[0,0,1],threequarter:[0.6,0.25,1],right:[1,0,0],
+  back:[0,0,-1],left:[-1,0,0],top:[0.05,1,0.05],bottom:[0.05,-1,0.05]
+ };
+ let lastClip=null;
+ const bones=[];
+ root.traverse(n=>{if(n.isBone)bones.push(n)});
+ let meshCount=0,triangles=0,missingNormals=0,skinMeshes=0;
+ root.traverse(n=>{if(n.isMesh){
+  meshCount++;if(n.isSkinnedMesh)skinMeshes++;
+  const g=n.geometry;triangles+=(g.index?g.index.count:g.attributes.position.count)/3;
+  if(!g.attributes.normal)missingNormals++;
+ }});
+ function projectedBounds(box){
+  const mn=box.min,mx=box.max;
+  let ex=0,ey=0;
+  for(const x of [mn.x,mx.x])for(const y of [mn.y,mx.y])for(const z of [mn.z,mx.z]){
+   const p=new THREE.Vector3(x,y,z).project(camera);
+   ex=Math.max(ex,Math.abs(p.x));ey=Math.max(ey,Math.abs(p.y));
+  }
+  return {x:ex,y:ey,within_90pct:ex<0.90&&ey<0.90};
+ }
+ function view(name){
+  const axis=views[name];if(!axis)throw Error("view not found: "+name);
+  root.updateMatrixWorld(true);
+  const box=new THREE.Box3().setFromObject(root);
+  const ctr=box.getCenter(new THREE.Vector3()),sz=box.getSize(new THREE.Vector3());
+  const extent=Math.max(sz.x,sz.y,sz.z,0.001);
+  const dir=new THREE.Vector3(...axis).normalize();
+  camera.up.set(0,Math.abs(dir.y)>0.9?0:1,Math.abs(dir.y)>0.9?-1:0);
+  let dist=extent*2.8,pr;
+  for(let i=0;i<25;i++){
+   camera.position.copy(ctr).addScaledVector(dir,dist);
+   camera.lookAt(ctr);camera.updateProjectionMatrix();camera.updateMatrixWorld();
+   pr=projectedBounds(box);
+   if(pr.within_90pct)break;
+   dist*=1.18;
+  }
+  renderer.render(scene,camera);
+  return {view:name,projection:pr,camera_distance:dist,
+   model_bounds:box.min.toArray().concat(box.max.toArray()),
+   actual_canvas:[canvas.width,canvas.height],
+   css_canvas:[canvas.getBoundingClientRect().width,canvas.getBoundingClientRect().height]};
+ }
+ function finger(){
+  root.updateMatrixWorld(true);
+  return bones.map(b=>({name:b.name,matrix:b.matrixWorld.elements.map(x=>Number(x.toFixed(6)))}));
+ }
+ function clipAt(name,t){
+  const clip=clips.find(x=>x.name===name);
+  if(!clip)throw Error("missing clip "+name);
+  mixer.stopAllAction();mixer.setTime(0);
+  const act=mixer.clipAction(clip);act.reset().play();
+  mixer.update(Math.min(Math.max(0,t),Math.max(0,clip.duration-0.00001)));
+  root.updateMatrixWorld(true);
+  const r=view("front");
+  return {...r,clip:name,duration:clip.duration,t,joints:finger()};
+ }
+ const stat={
+  source:"Three.js GLTFLoader of authentic downloaded native GLB",
+  isWebGL2:renderer.capabilities.isWebGL2,renderer:gl.getParameter(gl.RENDERER),
+  meshCount,triangles,missingNormals,skinMeshes,
+  bones:bones.length,animations:clips.map(x=>({name:x.name,duration:x.duration,tracks:x.tracks.length})),
+  viewport:[width,height]
+ };
+ window.__qa={status:"ready",stats:stat,view,clipAt};
+ clipAt(clips.some(x=>x.name==="idle")?"idle":clips[0].name,0);
+} catch(e){window.__qa={status:"error",error:String(e?.stack||e)};console.error(e)}
+</script></body></html>

@@ -1,0 +1,140 @@
+name: owl172 Run279 real Blender hair trajectories to native glTF mesh NO RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run279-hair-gltf-surface-transfer-NO_RELEASE
+    paths:
+      - 'owl-pet/3d-experiments/172-tyto-castanops/tools/run279_actual_blender_particle_paths_to_gltf_mesh_NORELEASE.py'
+      - '.github/workflows/owl172-run279-real-blender-hair-paths-to-gltf-NO_RELEASE.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  actual_glb_transfer_research:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    env:
+      OUT: owl172-run279-research-NO_RELEASE
+      OWL172_BLEND_INPUT: /tmp/owl172-run278/run278_real_blender_hair_groom_research_NORELEASE.blend
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '2'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run279_actual_blender_particle_paths_to_gltf_mesh_NORELEASE.py
+      - name: Retrieve authentic previous Blender groom, not a dummy procedural owl
+        id: donor
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: owl172-run278-blender-real-hair-scene-four-views-export-NO_RELEASE
+          run-id: 44952705438
+          github-token: ${{ github.token }}
+          path: /tmp/owl172-run278
+      - name: Independently authenticate .blend source and install free Blender
+        id: tools
+        if: steps.donor.outcome == 'success'
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          echo '2bcdadbc65cf197b1f07f52ab9c3406752098abd86a808848f6ed5deecfa1907  /tmp/owl172-run278/run278_real_blender_hair_groom_research_NORELEASE.blend' | sha256sum -c -
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq blender xvfb python3-numpy >/tmp/apt-blender.log 2>&1 || { tail -80 /tmp/apt-blender.log; exit 1; }
+          export PYTHONPATH='/usr/lib/python3/dist-packages'
+          blender -b --factory-startup --python-expr 'import bpy,numpy; print("RUN279 Blender",bpy.app.version_string,"NumPy",numpy.__version__)'
+          python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/tools/run279_actual_blender_particle_paths_to_gltf_mesh_NORELEASE.py
+      - name: Execute genuine Blender particle-trajectory to native triangle glTF export and 4 spatial render views
+        id: build
+        if: steps.tools.outcome == 'success'
+        continue-on-error: true
+        timeout-minutes: 23
+        run: |
+          set -euo pipefail
+          mkdir -p "$OUT"
+          export OWL172_OUT="$PWD/$OUT"
+          export PYTHONPATH='/usr/lib/python3/dist-packages'
+          xvfb-run -a timeout 1250s blender -b -t 3 --factory-startup --python owl-pet/3d-experiments/172-tyto-castanops/tools/run279_actual_blender_particle_paths_to_gltf_mesh_NORELEASE.py 2>&1 | tee "$OUT/run279_blender_full_execution.log"
+          python - <<'PY'
+          import json,os
+          j=json.load(open(os.environ['OUT']+'/run279_machine_report.json'))
+          assert j['status'].startswith('ACTUAL_GLTF_GROOM_MESH_EXPORTED_AND_RENDERED'),j['status']
+          assert len(j['native_rendered_views'])==4
+          PY
+      - name: Independently inspect exported binary glTF hair geometry and raster views
+        id: inspect
+        if: steps.build.outcome == 'success'
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          python -m pip install 'Pillow==10.4.0' 'trimesh==4.4.9'
+          python - <<'PY'
+          import json,struct,hashlib,os
+          from pathlib import Path
+          import trimesh
+          from PIL import Image
+          d=Path(os.environ['OUT'])
+          j=json.loads((d/'run279_machine_report.json').read_text())
+          rep={'run':279,'status':'UNVERIFIED','source':'ACTUAL_BLENDER_HAIR_GROOM',
+               'phone_GPU':'UNTESTED','art':'UNREVIEWED_NO_RELEASE','rights':'NONCOMMERCIAL'}
+          for name in ['full','mobile_candidate']:
+            expected=j['mesh_exports'][name]
+            p=d/expected['file'];b=p.read_bytes()
+            assert hashlib.sha256(b).hexdigest()==expected['sha256']
+            assert b[:4]==b'glTF' and struct.unpack_from('<I',b,8)[0]==len(b)
+            n=struct.unpack_from('<I',b,12)[0];gltf=json.loads(b[20:20+n])
+            m=gltf.get('meshes',[])
+            primitives=[p0 for mesh in m for p0 in mesh['primitives']]
+            counts=[gltf['accessors'][x['indices']]['count']//3 for x in primitives if 'indices' in x]
+            assert len(primitives)>=2, 'Missing separate real groom geometry'
+            total=sum(counts)
+            assert total > expected['body_faces']+3000, 'Hair triangles absent in native GLB!'
+            assert abs(total-(expected['fur_faces']+expected['body_faces']))<1000
+            s=trimesh.load(p,force='scene')
+            real_tri=sum(len(mm.faces) for mm in s.geometry.values())
+            assert abs(real_tri-total)<1000
+            rep[name]={'file':expected['file'],'bytes':len(b),
+                       'sha256':hashlib.sha256(b).hexdigest(),
+                       'real_glb_tris':total,'trimesh_faces':real_tri,
+                       'mesh_count':len(m),'primitives':len(primitives)}
+          assert rep['mobile_candidate']['real_glb_tris']<rep['full']['real_glb_tris']
+          imgs=j['native_rendered_views']
+          assert len(imgs)==4
+          for x in imgs:
+            p=d/x['file'];assert hashlib.sha256(p.read_bytes()).hexdigest()==x['sha256']
+            with Image.open(p) as im: im.verify()
+          assert len(set(x['sha256'] for x in imgs))==4
+          rep['spatial_images']=len(imgs)
+          rep['status']='TRUE_PARTICLE_HAIR_PATH_GLTF_MESH_TECHNICAL_PASS_ART_NOT_ACCEPTED_NO_RELEASE'
+          (d/'run279_independent_native_glb_qa.json').write_text(json.dumps(rep,indent=2)+'\n')
+          print(json.dumps(rep,indent=2))
+          PY
+      - name: Always preserve evidence, failures, hashes, strict NO RELEASE flags
+        if: always()
+        run: |
+          mkdir -p "$OUT"
+          cat > "$OUT/CI_STATUS.flag" <<EOF
+          authentic_previous_groom=${{ steps.donor.outcome }}
+          free_blender_environment=${{ steps.tools.outcome }}
+          actual_blender_build_and_render=${{ steps.build.outcome }}
+          independent_glb_triangles_and_images=${{ steps.inspect.outcome }}
+          ART_UNREVIEWED / MOBILE_PHONE_UNTESTED / NONCOMMERCIAL / NO_RELEASE
+          EOF
+          (cd "$OUT" && find . -type f ! -name SHA256SUMS.txt ! -name SHA256_VERIFY.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$OUT" && sha256sum -c SHA256SUMS.txt > SHA256_VERIFY.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run279-real-blender-hair-glTF-geometry-4views-NO_RELEASE
+          path: owl172-run279-research-NO_RELEASE/
+          retention-days: 21
+          if-no-files-found: warn
+      - name: Fail closed after archiving
+        if: always()
+        run: |
+          grep -qx 'authentic_previous_groom=success' "$OUT/CI_STATUS.flag"
+          grep -qx 'free_blender_environment=success' "$OUT/CI_STATUS.flag"
+          grep -qx 'actual_blender_build_and_render=success' "$OUT/CI_STATUS.flag"
+          grep -qx 'independent_glb_triangles_and_images=success' "$OUT/CI_STATUS.flag"

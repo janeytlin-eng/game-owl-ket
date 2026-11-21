@@ -72,7 +72,7 @@ def render_views(mesh):
         cam/=np.linalg.norm(cam)
         camera.SetPosition(*(center+cam*r))
         camera.SetFocalPoint(*center)
-        camera.SetViewUp(0,0,1 if abs(cam[2])<.8 else 0)
+        camera.SetViewUp(*( (0,0,1) if abs(cam[2])<.8 else (0,1,0) ))
         camera.SetClippingRange(.01,100)
         ren.ResetCameraClippingRange()
         rw.Render()

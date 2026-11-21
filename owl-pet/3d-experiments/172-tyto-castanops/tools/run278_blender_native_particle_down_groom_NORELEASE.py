@@ -71,6 +71,11 @@ try:
     scene.render.engine="CYCLES"
     scene.cycles.device="CPU"
     scene.cycles.samples=6
+    # Ubuntu Blender package ships Cycles without OpenImageDenoiser; disable explicitly.
+    scene.cycles.use_denoising=False
+    for layer in scene.view_layers:
+      if hasattr(layer,'cycles'):
+        layer.cycles.use_denoising=False
     scene.render.resolution_x=440
     scene.render.resolution_y=440
     scene.render.resolution_percentage=100

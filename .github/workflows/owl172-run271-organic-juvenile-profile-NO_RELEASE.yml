@@ -1,0 +1,93 @@
+name: owl172 Run271 genuine connected juvenile back-profile A/B (NO RELEASE)
+on:
+  push:
+    branches:
+      - research/owl172-run271-continuous-organic-juvenile-back-profile-NO_RELEASE
+    paths:
+      - .github/workflows/owl172-run271-organic-juvenile-profile-NO_RELEASE.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run271_juvenile_back_proportion_ablation.py
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  ablation:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 24
+    env:
+      OUT: owl-pet/3d-experiments/172-tyto-castanops/research-run271-NO_RELEASE
+      OWL172_INPUT: /tmp/run270/run270_native_neural_cream_eyes_RESEARCH_ART_UNREVIEWED_NO_RELEASE.glb
+      OMP_NUM_THREADS: '2'
+      OPENBLAS_NUM_THREADS: '2'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run271_juvenile_back_proportion_ablation.py
+      - name: Restore verified native 3D GLB from Run270 without paying generator
+        uses: actions/download-artifact@v4
+        with:
+          name: owl172-run270-native-neural-eye-cream-6views-NO_RELEASE
+          run-id: 44914000728
+          github-token: ${{ github.token }}
+          path: /tmp/run270
+      - name: Install free native 3D and headless rendering dependencies
+        run: |
+          set -euo pipefail
+          python -m pip install 'numpy==1.26.4' 'trimesh==4.5.3' 'networkx==3.4.2' 'scipy==1.14.1' 'vtk==9.3.1' 'Pillow==10.4.0'
+      - name: Run actual independent 2x genuine 3D sculpt and 12 spatial-camera renders
+        timeout-minutes: 12
+        run: |
+          set -euo pipefail
+          export OWL172_OUTPUT="$PWD/$OUT"
+          xvfb-run -a python -u owl-pet/3d-experiments/172-tyto-castanops/tools/run271_juvenile_back_proportion_ablation.py | tee /tmp/run271_execution.log
+          cp /tmp/run271_execution.log "$OUT/execution.log"
+      - name: Independently reopen 2 GLBs and verify 12 different renders
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib,trimesh,json
+          folder=Path('owl-pet/3d-experiments/172-tyto-castanops/research-run271-NO_RELEASE')
+          r=json.loads((folder/'machine-report.json').read_text())
+          def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+          for kind in ('gentle','round'):
+            a=r['variants'][kind]
+            p=folder/('run271_'+kind+'_native_organic_sculpt_RESEARCH_NO_RELEASE.glb')
+            assert p.read_bytes()[:4]==b'glTF' and sha(p)==a['glb_sha256']
+            m=trimesh.load(p,force='mesh')
+            assert m.is_watertight and len(m.faces)==133268 and len(m.vertices)==66596
+            assert len(set(a['views'].values()))==6
+            for name,h in a['views'].items(): assert sha(folder/(kind+'_'+name+'.png'))==h
+          assert r['variants']['gentle']['glb_sha256']!=r['variants']['round']['glb_sha256']
+          print('BOTH_CONNECTED_NATIVE_GLBS_12_REAL_VIEWS_PASS; ART_REJECTED_NO_RELEASE')
+          PY
+      - name: Generate actually rendered source-versus-A-versus-B visual QA contact sheet
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from PIL import Image,ImageDraw
+          from pathlib import Path
+          o=Path('owl-pet/3d-experiments/172-tyto-castanops/research-run271-NO_RELEASE')
+          c=Image.new('RGB',(1600,1200),(239,239,239));d=ImageDraw.Draw(c)
+          for row,variant in enumerate(('source','gentle','round')):
+            for col,view in enumerate(('front','threequarter','right','back')):
+              p=Path('/tmp/run270')/('view_'+view+'.png') if variant=='source' else o/(variant+'_'+view+'.png')
+              im=Image.open(p).convert('RGB');im.thumbnail((385,375))
+              x=col*400+8;y=row*400+20;c.paste(im,(x,y));d.text((x,y-17),variant+' '+view,fill=(20,20,20))
+          c.save(o/'ACTUAL_12_IMAGE_SIDE_BY_SIDE_QA.png')
+          PY
+      - name: Keep no-release status and all SHA256 evidence even after error
+        if: always()
+        run: |
+          mkdir -p "$OUT"
+          printf 'RESEARCH ONLY: ART_REJECTED / HUNYUAN_NONCOMMERCIAL / WEBGL_UNTESTED / PHONE_UNTESTED / NO_RELEASE\n' > "$OUT/CI_STATUS.flag"
+          (cd "$OUT" && find . -type f ! -name SHA256SUMS.txt ! -name SHA256_CHECK.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$OUT" && sha256sum -c SHA256SUMS.txt > SHA256_CHECK.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run271-organic-juvenile-two-GLBs-12views-ART_REJECTED-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-run271-NO_RELEASE
+          retention-days: 30

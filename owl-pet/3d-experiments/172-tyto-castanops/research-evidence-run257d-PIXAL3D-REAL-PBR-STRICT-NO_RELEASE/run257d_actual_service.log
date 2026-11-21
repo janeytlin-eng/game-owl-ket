@@ -1,0 +1,43 @@
+Client.predict() Usage Info
+---------------------------
+Named API endpoints: 3
+
+ - predict(image, api_name="/preprocess") -> 1st
+    Parameters:
+     - [Api] image: filepath (required)  
+    Returns:
+     - [Api] 1st: filepath 
+
+ - predict(image, seed, resolution, ss_guidance_strength, ss_guidance_rescale, ss_sampling_steps, ss_rescale_t, shape_slat_guidance_strength, shape_slat_guidance_rescale, shape_slat_sampling_steps, shape_slat_rescale_t, tex_slat_guidance_strength, tex_slat_guidance_rescale, tex_slat_sampling_steps, tex_slat_rescale_t, manual_fov, fov_unit, session_id, api_name="/generate_3d") -> 1st
+    Parameters:
+     - [Api] image: filepath (required)  
+     - [Api] seed: int (required)  
+     - [Api] resolution: int (required)  
+     - [Api] ss_guidance_strength: float (not required, defaults to:   7.5)  
+     - [Api] ss_guidance_rescale: float (not required, defaults to:   0.7)  
+     - [Api] ss_sampling_steps: int (not required, defaults to:   12)  
+     - [Api] ss_rescale_t: float (not required, defaults to:   5.0)  
+     - [Api] shape_slat_guidance_strength: float (not required, defaults to:   7.5)  
+     - [Api] shape_slat_guidance_rescale: float (not required, defaults to:   0.5)  
+     - [Api] shape_slat_sampling_steps: int (not required, defaults to:   12)  
+     - [Api] shape_slat_rescale_t: float (not required, defaults to:   3.0)  
+     - [Api] tex_slat_guidance_strength: float (not required, defaults to:   1.0)  
+     - [Api] tex_slat_guidance_rescale: float (not required, defaults to:   0.0)  
+     - [Api] tex_slat_sampling_steps: int (not required, defaults to:   12)  
+     - [Api] tex_slat_rescale_t: float (not required, defaults to:   3.0)  
+     - [Api] manual_fov: float (not required, defaults to:   -1.0)  
+     - [Api] fov_unit: str (not required, defaults to:   deg)  
+     - [Api] session_id: str (not required, defaults to:   )  
+    Returns:
+     - [Api] 1st: dict(str, Any) 
+
+ - predict(state_path, decimation_target, texture_size, session_id, api_name="/extract_glb_api") -> 1st
+    Parameters:
+     - [Api] state_path: str (required)  
+     - [Api] decimation_target: int (required)  
+     - [Api] texture_size: int (required)  
+     - [Api] session_id: str (not required, defaults to:   )  
+    Returns:
+     - [Api] 1st: filepath 
+
+RUN257_RESULT {"run": "257d", "date": "2026-11-21T01:21:51Z", "provider": "TencentARC/Pixal3D", "original_source_sha256": "e439928a9ef08d3be266106cb5f2766b6f5a9f2c414d44e8da55ba81732153b8", "original_source": "owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run117-FREE-TRELLIS-QUOTA-RECHECK-ART_REJECTED/rightmost_baby_owl_512_rgba.png", "input_px": [512, 512], "client_version": "1.14.0", "inference_calls_permitted": 1, "actual_gpu_inference_completed": false, "research_iteration": "2026-11-21_preprocess_and_supported_1024_resolution_after_ValueError", "provider_claim_license": "MIT; third-party assets and output rights not audited", "no_payment": true, "no_tokens": true, "license_cleared": false, "art_approved": false, "physical_mobile_gpu_tested": false, "result": "NO_GLB", "release": "NO_RELEASE", "stage": "generate_3d", "preprocess_image": {"sha256": "4677f08e97f31528710677a9a7ca234165dd73112488b79b70773c0275470de7", "size": [476, 476], "mode": "RGB"}, "error": "AppError: You have exceeded your ZeroGPU quota (120s requested vs. 177s left). Try again in 23:59:55. Authenticate with a Hugging Face token for more quota - https://huggingface.co/settings/tokens", "traceback_file": "run257d_failure_traceback.txt", "finished": "2026-11-21T01:21:56Z"}

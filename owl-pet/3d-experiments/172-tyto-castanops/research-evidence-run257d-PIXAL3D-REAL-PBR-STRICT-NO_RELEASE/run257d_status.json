@@ -1,0 +1,35 @@
+{
+  "run": "257d",
+  "date": "2026-11-21T01:21:51Z",
+  "provider": "TencentARC/Pixal3D",
+  "original_source_sha256": "e439928a9ef08d3be266106cb5f2766b6f5a9f2c414d44e8da55ba81732153b8",
+  "original_source": "owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run117-FREE-TRELLIS-QUOTA-RECHECK-ART_REJECTED/rightmost_baby_owl_512_rgba.png",
+  "input_px": [
+    512,
+    512
+  ],
+  "client_version": "1.14.0",
+  "inference_calls_permitted": 1,
+  "actual_gpu_inference_completed": false,
+  "research_iteration": "2026-11-21_preprocess_and_supported_1024_resolution_after_ValueError",
+  "provider_claim_license": "MIT; third-party assets and output rights not audited",
+  "no_payment": true,
+  "no_tokens": true,
+  "license_cleared": false,
+  "art_approved": false,
+  "physical_mobile_gpu_tested": false,
+  "result": "NO_GLB",
+  "release": "NO_RELEASE",
+  "stage": "generate_3d",
+  "preprocess_image": {
+    "sha256": "4677f08e97f31528710677a9a7ca234165dd73112488b79b70773c0275470de7",
+    "size": [
+      476,
+      476
+    ],
+    "mode": "RGB"
+  },
+  "error": "AppError: You have exceeded your ZeroGPU quota (120s requested vs. 177s left). Try again in 23:59:55. Authenticate with a Hugging Face token for more quota - https://huggingface.co/settings/tokens",
+  "traceback_file": "run257d_failure_traceback.txt",
+  "finished": "2026-11-21T01:21:56Z"
+}

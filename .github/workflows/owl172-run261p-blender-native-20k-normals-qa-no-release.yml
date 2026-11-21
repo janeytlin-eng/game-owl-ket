@@ -27,10 +27,10 @@ jobs:
       - name: Retrieve exact Run261 already-generated real GLB without another generation or fee
         uses: actions/download-artifact@v4
         with:
-          name: owl172-run258-hy3d-actual-free-neural-native-NO_RELEASE
+          name: owl172-run261-real-free-native-alpha-framing-NO_RELEASE
           run-id: 44868485142
           github-token: ${{ github.token }}
-          path: /tmp/run258-verified
+          path: /tmp/run261-verified
       - name: True Blender import normal fix roundtrip and four native camera views
         id: native
         continue-on-error: true
@@ -41,13 +41,13 @@ jobs:
           R=owl-pet/3d-experiments/172-tyto-castanops
           O="$R/research-evidence-run261p-ALPHA-FRAMED-NATIVE-REPAIR-NO_RELEASE"
           mkdir -p "$O"
-          INPUT=/tmp/run258-verified/run258_original_NATIVE_PROVIDER_RESEARCH_ONLY.glb
+          INPUT=/tmp/run261-verified/run261_real_provider_NATIVE_ART_UNAPPROVED.glb
           sha256sum "$INPUT" | tee "$O/run261p_actual_original_sha.txt"
           test "$(sha256sum "$INPUT" | cut -d' ' -f1)" = "318a4c76986aca0f453fd1a07b60a103f0864656e0f60167b42c4995932e31df"
           cp "$INPUT" "$O/run261p_original_from_actual_run261_RESEARCH_ONLY.glb"
           python3 -m py_compile "$R/tools/run261p_verified_normal_repair_fourview.py"
           sudo apt-get update -qq
-          sudo apt-get install -y blender python3-numpy
+          sudo apt-get install -y blender python3-numpy python3-pil
           blender -b -t 2 -P "$R/tools/run261p_verified_normal_repair_fourview.py" 2>&1 | tee "$O/run261p_actual_blender.log"
           python3 - <<'PY'
           from PIL import Image,ImageDraw

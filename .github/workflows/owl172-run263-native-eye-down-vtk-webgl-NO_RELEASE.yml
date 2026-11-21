@@ -1,0 +1,106 @@
+name: owl172 Run263 isolated native ocular and microdown 3D rejected-asset QA
+on:
+  push:
+    branches:
+      - research/owl172-run263-native-ocular-conformal-down-negative-control-no-release
+    paths:
+      - .github/workflows/owl172-run263-native-eye-down-vtk-webgl-NO_RELEASE.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run263_native_eyes_down_sculpt.py
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run263_vtk_eightview.py
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  true-neural-negative-control:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 37
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run263-native-ocular-conformal-down-negative-control-no-release
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run263_native_eyes_down_sculpt.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run263_vtk_eightview.py
+            owl-pet/3d-experiments/172-tyto-castanops/run256_actual_browser_7view_qa.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run256_real_threejs_viewer_RESEARCH_NO_RELEASE.html
+            .github/workflows/owl172-run263-native-eye-down-vtk-webgl-NO_RELEASE.yml
+      - name: Recover real pinned Run261p neural GLB without any extra paid generation
+        uses: actions/download-artifact@v4
+        with:
+          name: owl172-run261p-actual-native-blender-webgl2-NO_RELEASE
+          run-id: 44868715251
+          github-token: ${{ github.token }}
+          path: /tmp/run261p-source
+      - name: Actually sculpt source-preserving native eye membranes and real curved down mesh
+        id: sculpt
+        continue-on-error: true
+        timeout-minutes: 12
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run263-REAL-NATIVE-OCULAR-DOWN-NO_RELEASE"
+          mkdir -p "$O"
+          SOURCE=/tmp/run261p-source/run261p_REAL_NATIVE_NORMAL_REPAIR_ART_UNAPPROVED.glb
+          sha256sum "$SOURCE" | tee "$O/run263_source_SHA256.txt"
+          test "$(sha256sum "$SOURCE" | cut -d' ' -f1)" = 'e3c33c70a8a1136a7548d22d2a272e9c5c254e773959b7705d5261ed0fec4535'
+          cp "$SOURCE" "$O/run263_verified_source_RESEARCH_ONLY.glb"
+          python3 -m pip install --no-cache-dir --break-system-packages numpy scipy trimesh Pillow vtk
+          python3 -m py_compile "$R/tools/run263_native_eyes_down_sculpt.py"
+          python3 "$R/tools/run263_native_eyes_down_sculpt.py" "$SOURCE" "$O" | tee "$O/run263_native_sculpt.log"
+          python3 - <<'PY'
+          import pathlib,json
+          R=pathlib.Path('owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run263-REAL-NATIVE-OCULAR-DOWN-NO_RELEASE')
+          x=json.loads((R/'run263_machine_report.json').read_text())
+          assert x['native_triangles']>20000 and x['native_meshes']==4 and x['release']=='NO_RELEASE'
+          PY
+      - name: Eight independent native VTK camera views with correct glTF Y-up coordinate transform
+        if: always()
+        continue-on-error: true
+        timeout-minutes: 10
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run263-REAL-NATIVE-OCULAR-DOWN-NO_RELEASE"
+          SOURCE="$O/run263_verified_source_RESEARCH_ONLY.glb"
+          CANDIDATE="$O/run263_RESEARCH_NATIVE_ART_REJECTED_NO_RELEASE.glb"
+          if [ ! -s "$CANDIDATE" ]; then echo NO_GLB_SKIP_REAL_CAMERA_QA; exit 0; fi
+          xvfb-run -a timeout 480s python3 "$R/tools/run263_vtk_eightview.py" "$SOURCE" "$CANDIDATE" "$O" 2>&1 | tee "$O/run263_actual_vtk_eightview.log"
+      - name: Actual Chromium Three.js native GLTFLoader WebGL2 QA for rejected candidate
+        if: always()
+        continue-on-error: true
+        timeout-minutes: 12
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run263-REAL-NATIVE-OCULAR-DOWN-NO_RELEASE"
+          CANDIDATE="$O/run263_RESEARCH_NATIVE_ART_REJECTED_NO_RELEASE.glb"
+          if [ ! -s "$CANDIDATE" ]; then echo NO_GLB_SKIP_REAL_BROWSER; exit 0; fi
+          npm install --no-save --no-package-lock three@0.181.2 playwright@1.56.1
+          npx playwright install --with-deps chromium
+          export OWL172_RUN_LABEL=run263_eyes_down_REJECTED
+          export OWL172_GLB_INPUT="$PWD/$CANDIDATE"
+          export OWL172_QA_DIR="$PWD/$O/real_chromium_webgl2"
+          export OWL172_EXPECTED_SHA="$(sha256sum "$CANDIDATE" | cut -d' ' -f1)"
+          mkdir -p "$OWL172_QA_DIR"
+          xvfb-run -a timeout 390s node "$R/run256_actual_browser_7view_qa.mjs" 2>&1 | tee "$O/run263_actual_browser_7view.log"
+      - name: No-release flag and machine evidence checksum manifest
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run263-REAL-NATIVE-OCULAR-DOWN-NO_RELEASE
+          mkdir -p "$O"
+          printf 'ART_REJECTED, PHONE_GPU_UNTESTED, PROVIDER_RIGHTS_UNCLEARED, NO_RELEASE\n' > "$O/NO_RELEASE.flag"
+          (cd "$O" && find . -type f ! -name SHA256SUMS.txt ! -name checksum_verification.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$O" && sha256sum -c SHA256SUMS.txt > checksum_verification.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run263-authentic-native-eye-microdown-rejected-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run263-REAL-NATIVE-OCULAR-DOWN-NO_RELEASE
+          retention-days: 30

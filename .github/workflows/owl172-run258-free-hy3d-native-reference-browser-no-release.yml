@@ -1,0 +1,130 @@
+name: owl172 Run258 genuine free hy3d native research NO_RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run258-free-hy3d-native-source-browser-no-release
+    paths:
+      - .github/workflows/owl172-run258-free-hy3d-native-reference-browser-no-release.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run258_hy3d_free_public_real_native_browser.py
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run258_native_four_view_art_qa.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  genuine-no-fee-3d-evidence:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 43
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run258-free-hy3d-native-source-browser-no-release
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run117-FREE-TRELLIS-QUOTA-RECHECK-ART_REJECTED/rightmost_baby_owl_512_rgba.png
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run258_hy3d_free_public_real_native_browser.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run258_native_four_view_art_qa.py
+            owl-pet/3d-experiments/172-tyto-castanops/run256_actual_browser_7view_qa.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run256_real_threejs_viewer_RESEARCH_NO_RELEASE.html
+            .github/workflows/owl172-run258-free-hy3d-native-reference-browser-no-release.yml
+      - name: Run actual free browser AI 3D generation with original rightmost mesoptile
+        id: source
+        continue-on-error: true
+        timeout-minutes: 18
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run258-HY3D-FREE-ACTUAL-BROWSER-NO_RELEASE"
+          mkdir -p "$O"
+          python3 -m py_compile "$R/tools/run258_hy3d_free_public_real_native_browser.py" "$R/tools/run258_native_four_view_art_qa.py"
+          python3 -m pip install --break-system-packages -q pillow 'playwright==1.56.0'
+          python3 -m playwright install --with-deps chromium
+          xvfb-run -a timeout 830s python3 "$R/tools/run258_hy3d_free_public_real_native_browser.py" browse 2>&1 | tee "$O/run258_actual_source_browser.log"
+      - name: Real four-camera native Blender cycles only if original provider produced valid GLB
+        id: native
+        if: always()
+        timeout-minutes: 9
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run258-HY3D-FREE-ACTUAL-BROWSER-NO_RELEASE"
+          M="$O/run258_original_NATIVE_PROVIDER_RESEARCH_ONLY.glb"
+          mkdir -p "$O"
+          if [ ! -s "$M" ]; then
+            echo 'NO_PROVEN_NEW_GLB: real Blender render SKIPPED' | tee "$O/run258_blender_skipped.txt"
+            exit 0
+          fi
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq blender
+          blender -b -t 2 -P "$R/tools/run258_native_four_view_art_qa.py" 2>&1 | tee "$O/run258_actual_blender.log"
+          python3 - <<'PY'
+          from PIL import Image,ImageDraw
+          from pathlib import Path
+          o=Path('owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run258-HY3D-FREE-ACTUAL-BROWSER-NO_RELEASE')
+          views=['front','threequarter','side','back']
+          sheet=Image.new('RGB',(920,920),(236,236,235))
+          for i,v in enumerate(views):
+              p=o/('run258_'+v+'_ACTUAL_CYCLES_ART_UNREVIEWED.png')
+              im=Image.open(p).convert('RGB')
+              sheet.paste(im,((i%2)*460,(i//2)*460))
+              ImageDraw.Draw(sheet).text(((i%2)*460+15,(i//2)*460+12),v,fill=(0,0,0))
+          sheet.save(o/'run258_ACTUAL_NATIVE_FOUR_VIEW_ART_UNREVIEWED.jpg',quality=85)
+          PY
+      - name: True 7-angle Chromium WebGL2 GLTFLoader only if a proven new native GLB exists
+        if: always()
+        continue-on-error: true
+        timeout-minutes: 9
+        shell: bash
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run258-HY3D-FREE-ACTUAL-BROWSER-NO_RELEASE"
+          M="$O/run258_original_NATIVE_PROVIDER_RESEARCH_ONLY.glb"
+          if [ ! -s "$M" ]; then
+            echo 'NO_PROVEN_NEW_GLB: real WebGL2 seven views SKIPPED' | tee "$O/run258_webgl_skipped.txt"
+            exit 0
+          fi
+          npm install --no-save --no-package-lock three@0.181.2 playwright@1.56.1
+          npx playwright install --with-deps chromium
+          export OWL172_RUN_LABEL=run258_real_hy3d_native_research
+          export OWL172_GLB_INPUT="$PWD/$M"
+          export OWL172_QA_DIR="$PWD/$O/run258_actual_webgl2"
+          export OWL172_EXPECTED_SHA="$(python3 -c "import json;print(json.load(open('$O/run258_status.json'))['verified_glb']['sha256'])")"
+          mkdir -p "$OWL172_QA_DIR"
+          xvfb-run -a timeout 240s node "$R/run256_actual_browser_7view_qa.mjs" 2>&1 | tee "$O/run258_actual_webgl2.log"
+      - name: Strict checksummed quarantine (green workflow is NOT art approval)
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run258-HY3D-FREE-ACTUAL-BROWSER-NO_RELEASE
+          mkdir -p "$O"
+          printf 'NO_RELEASE. Source rights and provider-generated output rights not cleared; 360 art acceptance and actual phone GPU performance unverified. Never claim 2D upload as 3D success.\n' > "$O/NO_RELEASE.flag"
+          (cd "$O" && find . -type f ! -name SHA256SUMS.txt ! -name checksum_verification.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$O" && sha256sum -c SHA256SUMS.txt > checksum_verification.log)
+          test -s "$O/SHA256SUMS.txt"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run258-hy3d-actual-free-neural-native-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run258-HY3D-FREE-ACTUAL-BROWSER-NO_RELEASE
+          retention-days: 30
+      - name: Commit only independent research logs/views; never publish raw provider GLB
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run258-HY3D-FREE-ACTUAL-BROWSER-NO_RELEASE
+          find "$O" -type f ! -name '*.glb' ! -name '*.zip' -print0 | xargs -0 -r git add --sparse --
+          git diff --cached --name-only > /tmp/owl172_run258_paths.txt
+          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run258-' /tmp/owl172_run258_paths.txt; then
+            echo 'SCOPE_VIOLATION'; exit 9
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m 'research(owl172): archive Run258 actual free provider/native-art outcome, NO_RELEASE'
+            git push origin HEAD:research/owl172-run258-free-hy3d-native-source-browser-no-release
+          fi

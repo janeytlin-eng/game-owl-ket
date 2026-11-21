@@ -1,0 +1,127 @@
+{
+  "run": "256p",
+  "art_approved": false,
+  "release": "NO_RELEASE",
+  "phone_gpu": "UNTESTED",
+  "variants": {
+    "A": {
+      "status": "NATIVE_WEBGL2_SOFTWARE_PASS_ART_REJECTED_PHONE_UNTESTED_NO_RELEASE",
+      "gates": {
+        "signed_native_binary": true,
+        "real_threejs_gltfloader": true,
+        "chromium_webgl2": true,
+        "authentic_meshes": true,
+        "nontrivial_real_triangles": true,
+        "normal_attributes": true,
+        "seven_spatial_views": true,
+        "distinct_screenshots": true,
+        "valid_aabb": true,
+        "no_page_errors": true
+      },
+      "model": {
+        "source": "actual Three.js GLTFLoader (real 3D)",
+        "meshCount": 9,
+        "triangles": 85009,
+        "missingNormals": 0,
+        "materials": 9,
+        "textured": 2,
+        "bounds": [
+          -1.1833699941635132,
+          -1.2154030799865723,
+          -0.9426701068878174,
+          1.1251230239868164,
+          0.9800025820732117,
+          1.221238613128662
+        ],
+        "renderer": "WebKit WebGL",
+        "unmaskedRenderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+        "isWebGL2": true,
+        "size": [
+          2.3084930181503296,
+          2.195405662059784,
+          2.1639087200164795
+        ]
+      }
+    },
+    "B": {
+      "status": "NATIVE_WEBGL2_SOFTWARE_PASS_ART_REJECTED_PHONE_UNTESTED_NO_RELEASE",
+      "gates": {
+        "signed_native_binary": true,
+        "real_threejs_gltfloader": true,
+        "chromium_webgl2": true,
+        "authentic_meshes": true,
+        "nontrivial_real_triangles": true,
+        "normal_attributes": true,
+        "seven_spatial_views": true,
+        "distinct_screenshots": true,
+        "valid_aabb": true,
+        "no_page_errors": true
+      },
+      "model": {
+        "source": "actual Three.js GLTFLoader (real 3D)",
+        "meshCount": 12,
+        "triangles": 77490,
+        "missingNormals": 0,
+        "materials": 12,
+        "textured": 5,
+        "bounds": [
+          -1.2067227363586426,
+          -1.7039556503295898,
+          -2.1156017780303955,
+          1.1565271615982056,
+          0.9800025820732117,
+          0.9084274768829346
+        ],
+        "renderer": "WebKit WebGL",
+        "unmaskedRenderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+        "isWebGL2": true,
+        "size": [
+          2.363249897956848,
+          2.6839582324028015,
+          3.02402925491333
+        ]
+      }
+    },
+    "C": {
+      "status": "NATIVE_WEBGL2_SOFTWARE_PASS_ART_REJECTED_PHONE_UNTESTED_NO_RELEASE",
+      "gates": {
+        "signed_native_binary": true,
+        "real_threejs_gltfloader": true,
+        "chromium_webgl2": true,
+        "authentic_meshes": true,
+        "nontrivial_real_triangles": true,
+        "normal_attributes": true,
+        "seven_spatial_views": true,
+        "distinct_screenshots": true,
+        "valid_aabb": true,
+        "no_page_errors": true
+      },
+      "model": {
+        "source": "actual Three.js GLTFLoader (real 3D)",
+        "meshCount": 10,
+        "triangles": 20451,
+        "missingNormals": 0,
+        "materials": 10,
+        "textured": 8,
+        "bounds": [
+          -0.7343047261238098,
+          -1.175686240196228,
+          -2.2906205654144287,
+          0.6841092109680176,
+          0.9170863628387451,
+          1.4164094924926758
+        ],
+        "renderer": "WebKit WebGL",
+        "unmaskedRenderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+        "isWebGL2": true,
+        "size": [
+          1.4184139370918274,
+          2.092772603034973,
+          3.7070300579071045
+        ]
+      }
+    }
+  },
+  "software_webgl2": "PASS_21_SPATIAL_VIEWS",
+  "montage_sha256": "e25564fd8c38a25ef19a919fe15444aafcc156453a908d706afdd81197a05cb7"
+}

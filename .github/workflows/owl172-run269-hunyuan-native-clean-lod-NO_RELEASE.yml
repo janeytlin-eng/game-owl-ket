@@ -44,7 +44,7 @@ jobs:
         continue-on-error: true
         run: |
           set -euo pipefail
-          python -m pip install 'numpy==1.26.4' 'trimesh==4.5.3' 'vtk==9.3.1' 'Pillow==10.4.0'
+          python -m pip install 'numpy==1.26.4' 'trimesh==4.5.3' 'networkx==3.4.2' 'vtk==9.3.1' 'Pillow==10.4.0'
       - name: Really regenerate native GLB variants and render twelve physical cameras
         id: sculpt
         if: steps.install.outcome == 'success'

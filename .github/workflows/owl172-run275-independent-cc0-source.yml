@@ -1,0 +1,52 @@
+name: owl172 Run275 professional CC0 GLB source audit - research ONLY
+on:
+  push:
+    branches:
+      - research/owl172-run275-professional-cc0-source-feasibility-NO_RELEASE
+    paths:
+      - '.github/workflows/owl172-run275-independent-cc0-source.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/tools/run275_professional_cc0_native_source_audit.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  research-not-release:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install free 3D asset analysis and offscreen-rendering tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libgl1 libegl1 libxrender1 libx11-6 libxext6 xvfb >/dev/null
+          python -m pip install --disable-pip-version-check numpy scipy pillow trimesh vtk
+      - name: Actually download, verify, and render independent CC0 assets
+        env:
+          OWL172_OUTPUT: ${{ github.workspace }}/owl172-run275-evidence
+        run: |
+          xvfb-run -a python owl-pet/3d-experiments/172-tyto-castanops/tools/run275_professional_cc0_native_source_audit.py
+      - name: Actual evidence check, fail closed on empty outputs
+        run: |
+          python - <<'PY'
+          import json, pathlib, hashlib
+          p=pathlib.Path("owl172-run275-evidence")
+          d=json.loads((p/"machine-report.json").read_text())
+          print(json.dumps({k:{"status":v["status"],"triangles":v.get("geometry",{}).get("triangles"),"error":v.get("error")} for k,v in d["sources"].items()},indent=2))
+          assert d["release"] is False
+          assert any(v["status"]=="REAL_3D_ACQUIRED_AND_MULTIVIEW_RENDERED_NOT_ACCEPTED" for v in d["sources"].values()), "No successful real-GLB professional source evaluation"
+          for line in (p/"SHA256SUMS.txt").read_text().splitlines():
+            sha,name=line.split("  ",1)
+            assert hashlib.sha256((p/name).read_bytes()).hexdigest()==sha, name
+          print("All real evidence hash checks passed")
+          PY
+      - name: Archive isolated NO_RELEASE evidence, including actual source GLBs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run275-cc0-real-assets-research-NO_RELEASE
+          path: owl172-run275-evidence/
+          retention-days: 10
+          if-no-files-found: warn

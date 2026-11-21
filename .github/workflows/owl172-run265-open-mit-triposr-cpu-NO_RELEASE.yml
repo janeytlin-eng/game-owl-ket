@@ -75,6 +75,7 @@ jobs:
           python -m pip install -U pip setuptools wheel
           python -m pip install torch==2.3.1 --index-url https://download.pytorch.org/whl/cpu
           python -m pip install 'numpy<2' 'omegaconf==2.3.0' 'Pillow==10.1.0' 'einops==0.7.0' 'transformers==4.37.2' 'trimesh==4.0.5' 'huggingface-hub==0.25.2' 'rembg==2.0.58' 'imageio[ffmpeg]' 'xatlas==0.0.9' 'moderngl==5.10.0' 'vtk==9.3.1'
+          python -m pip install scikit-build-core ninja cmake pybind11
           python -m pip install --no-build-isolation git+https://github.com/tatsy/torchmcubes.git
           python - <<'PY'
           import torch,numpy,torchmcubes,transformers,tsr

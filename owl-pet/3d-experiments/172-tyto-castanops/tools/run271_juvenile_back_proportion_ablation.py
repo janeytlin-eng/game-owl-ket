@@ -39,6 +39,23 @@ def sculpt(kind):
  v[:,0]+=x*(.025 if kind=='gentle' else .045)*chest
  m=trimesh.Trimesh(vertices=v,faces=faces,process=False);m.visual.vertex_colors=colors;m.fix_normals()
  return m
+
+def mobile_pbr(tree):
+ tree['materials']=[{'name':'Owl172-Matte-Ivory-NONCOMMERCIAL-Research','pbrMetallicRoughness':{'baseColorFactor':[1,1,1,1],'metallicFactor':0.0,'roughnessFactor':1.0},'doubleSided':False,'alphaMode':'OPAQUE'}]
+ for gm in tree['meshes']:
+  for pr in gm['primitives']: pr['material']=0
+
+def check_gltf_mobile_material(path):
+ import struct
+ raw=path.read_bytes();jlen=struct.unpack_from('<I',raw,12)[0];j=json.loads(raw[20:20+jlen])
+ for gm in j['meshes']:
+  for pr in gm['primitives']:
+   assert set(('POSITION','NORMAL','COLOR_0')).issubset(pr['attributes'])
+   assert pr['material']==0
+ assert j['materials'][0]['pbrMetallicRoughness']['metallicFactor']==0.0
+ assert j['materials'][0]['pbrMetallicRoughness']['roughnessFactor']==1.0
+ return {'normal':True,'vertex_color':True,'matte_nonmetal_pbr':True}
+
 def render(mesh,name,d):
  v=mesh.vertices;p=poly(v,mesh.faces)
  arr=numpy_to_vtk(mesh.visual.vertex_colors.astype(np.uint8),deep=True,array_type=vtk.VTK_UNSIGNED_CHAR);arr.SetNumberOfComponents(4);arr.SetName('Colors');p.GetPointData().SetScalars(arr)
@@ -57,12 +74,12 @@ angles={'front':(0,0,1),'threequarter':(.7,0,1),'right':(1,0,0),'back':(0,0,-1),
 report={'run':271,'upstream_glb_sha256':SHA,'rights':'HUNYUAN_NONCOMMERCIAL','variants':{},'webgl':'NOT_TESTED','phone':'NOT_TESTED','release':False}
 for kind in ['gentle','round']:
  start=time.time();m=sculpt(kind);path=OUT/('run271_'+kind+'_native_organic_sculpt_RESEARCH_NO_RELEASE.glb')
- m.export(path);re=trimesh.load(path,force='mesh')
+ path.write_bytes(trimesh.exchange.gltf.export_glb(m,include_normals=True,tree_postprocessor=mobile_pbr));re=trimesh.load(path,force='mesh')
  assert len(re.faces)==133268 and re.is_watertight
  shift=np.linalg.norm(m.vertices-v0,axis=1)
  views={n:render(m,kind+'_'+n,d) for n,d in angles.items()}
  assert len(set(views.values()))==6
- report['variants'][kind]={'glb_sha256':sha(path),'bytes':path.stat().st_size,'triangles':len(re.faces),'watertight':True,'moved_over_001':int((shift>.001).sum()),'max_shift':float(shift.max()),'front_eye_vertex_shift_max':float(shift[(v0[:,2]>.66)&(v0[:,1]>.26)].max()),'views':views,'elapsed_sec':round(time.time()-start,2)}
+ report['variants'][kind]={'glb_sha256':sha(path),'bytes':path.stat().st_size,'triangles':len(re.faces),'watertight':True,'pbr':check_gltf_mobile_material(path),'moved_over_001':int((shift>.001).sum()),'max_shift':float(shift.max()),'front_eye_vertex_shift_max':float(shift[(v0[:,2]>.66)&(v0[:,1]>.26)].max()),'views':views,'elapsed_sec':round(time.time()-start,2)}
  print('RUN271',kind,json.dumps(report['variants'][kind]),flush=True)
 (OUT/'machine-report.json').write_text(json.dumps(report,indent=2))
 (OUT/'NO_RELEASE.flag').write_text('ORGANIC REAL 3D RESEARCH; ART_REJECTED; HUNYUAN_NONCOMMERCIAL; WEBGL_NOT_TESTED; PHONE_NOT_TESTED; NO_RELEASE\n')

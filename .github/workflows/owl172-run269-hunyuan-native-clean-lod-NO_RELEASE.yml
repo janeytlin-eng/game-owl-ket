@@ -1,0 +1,100 @@
+name: owl172 Run269 clean native neural component and LOD test (NO RELEASE)
+on:
+  push:
+    branches:
+      - research/owl172-run269-hunyuan-island-prune-mobile-lod-NO_RELEASE
+    paths:
+      - .github/workflows/owl172-run269-hunyuan-native-clean-lod-NO_RELEASE.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run269_back_surface_cleanup.py
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  isolate-neural-shape-and-test-geometry:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    env:
+      OUTPUT: owl-pet/3d-experiments/172-tyto-castanops/research-run269-NO_RELEASE
+      SOURCE: /tmp/run268-evidence/hunyuan_mini_cpu_native_UNREVIEWED_NO_RELEASE.glb
+      OMP_NUM_THREADS: '2'
+      OPENBLAS_NUM_THREADS: '2'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run269_back_surface_cleanup.py
+      - name: Restore verified existing neural model without calling paid generators
+        id: source
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: owl172-run268-ORIGINAL-juvenile-HUNYUAN2MINI-CPU-NO_RELEASE
+          run-id: 44904352532
+          github-token: ${{ github.token }}
+          path: /tmp/run268-evidence
+      - uses: actions/setup-python@v5
+        if: steps.source.outcome == 'success'
+        with:
+          python-version: '3.10'
+      - name: Install free offline geometry and VTK tools
+        id: install
+        if: steps.source.outcome == 'success'
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          python -m pip install 'numpy==1.26.4' 'trimesh==4.5.3' 'vtk==9.3.1' 'Pillow==10.4.0'
+      - name: Really regenerate native GLB variants and render twelve physical cameras
+        id: sculpt
+        if: steps.install.outcome == 'success'
+        continue-on-error: true
+        timeout-minutes: 15
+        run: |
+          set -euo pipefail
+          export OWL172_INPUT="$SOURCE"
+          export OWL172_OUTPUT="$PWD/$OUTPUT"
+          xvfb-run -a python -u owl-pet/3d-experiments/172-tyto-castanops/tools/run269_back_surface_cleanup.py 2>&1 | tee /tmp/run269.log
+          cp /tmp/run269.log "$OUTPUT/run269-execution.log"
+      - name: Independent native GLB binary load, front/back integrity and original hash gate
+        id: verify
+        if: steps.sculpt.outcome == 'success'
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import trimesh,hashlib,json
+          from pathlib import Path
+          p=Path('owl-pet/3d-experiments/172-tyto-castanops/research-run269-NO_RELEASE')
+          report=json.loads((p/'machine-report.json').read_text())
+          assert report['removed_components'] >= 100
+          assert report['largest_component_watertight'] is True
+          for name,v in report['versions'].items():
+            path=p/name
+            assert path.read_bytes()[:4]==b'glTF'
+            assert hashlib.sha256(path.read_bytes()).hexdigest()==v['sha256']
+            s=trimesh.load(path,force='scene')
+            assert sum(len(x.faces) for x in s.geometry.values())>=50000
+            print('VERIFIED_REAL_NATIVE_3D',name,v)
+          assert report['distinct_view_image_digests']==12
+          PY
+      - name: Preserve all evidence and terminal NO_RELEASE marker
+        if: always()
+        run: |
+          mkdir -p "$OUTPUT"
+          cat > "$OUTPUT/NO_RELEASE.flag" <<EOF
+          #172 3D neural experiment only; the face is blank and rear crust is not down.
+          source=${{ steps.source.outcome }}
+          install=${{ steps.install.outcome }}
+          sculpt=${{ steps.sculpt.outcome }}
+          native_verify=${{ steps.verify.outcome }}
+          ART_REJECTED / PHONE_HARDWARE_UNTESTED / RIGHTS_UNCLEARED / NO_RELEASE
+          EOF
+          (cd "$OUTPUT" && find . -type f ! -name SHA256SUMS.txt ! -name SHA256_CHECK.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$OUTPUT" && sha256sum -c SHA256SUMS.txt > SHA256_CHECK.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run269-neural-back-clean-smooth-mobile-LOD-ART_REJECTED-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-run269-NO_RELEASE
+          retention-days: 30

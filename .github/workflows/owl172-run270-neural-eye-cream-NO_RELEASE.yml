@@ -1,0 +1,107 @@
+name: owl172 Run270 neural cream face and juvenile sculpt (NO RELEASE)
+on:
+  push:
+    branches:
+      - research/owl172-run270-eye-depth-cream-sculpt-negative-control-no-release
+    paths:
+      - .github/workflows/owl172-run270-neural-eye-cream-NO_RELEASE.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run270_juvenile_face_down_pivot.py
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  isolated-real-native-3d:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    env:
+      OUTPUT: owl-pet/3d-experiments/172-tyto-castanops/research-run270-NO_RELEASE
+      OWL172_INPUT: /tmp/run269/run269_island_pruned_back_smooth_TRUE3D_ART_REJECTED_NO_RELEASE.glb
+      OWL172_REFERENCE: /tmp/run265b/run265b_black_rectangle_MASKED_rgba.png
+      OMP_NUM_THREADS: '2'
+      OPENBLAS_NUM_THREADS: '2'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run270_juvenile_face_down_pivot.py
+      - name: Restore previously verified real neural mesh from Run269 (no generator quota)
+        id: source
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: owl172-run269-neural-back-clean-smooth-mobile-LOD-ART_REJECTED-NO_RELEASE
+          run-id: 44906327130
+          github-token: ${{ github.token }}
+          path: /tmp/run269
+      - name: Restore previously verified original chick reference (no paid asset tool)
+        id: reference
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: owl172-run265b-MASKED-background-MIT-TripoSR-CPU-NO_RELEASE
+          run-id: 44886196646
+          github-token: ${{ github.token }}
+          path: /tmp/run265b
+      - uses: actions/setup-python@v5
+        if: steps.source.outcome == 'success' && steps.reference.outcome == 'success'
+        with:
+          python-version: '3.10'
+      - name: Install free native geometry, scientific and headless rendering tools
+        id: install
+        if: steps.source.outcome == 'success' && steps.reference.outcome == 'success'
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          python -m pip install 'numpy==1.26.4' 'trimesh==4.5.3' 'networkx==3.4.2' 'scipy==1.14.1' 'vtk==9.3.1' 'Pillow==10.4.0'
+      - name: Actually sculpt, shade, export and render native 3D owl from six directions
+        id: model
+        if: steps.install.outcome == 'success'
+        continue-on-error: true
+        timeout-minutes: 15
+        run: |
+          set -euo pipefail
+          export OWL172_OUTPUT="$PWD/$OUTPUT"
+          xvfb-run -a python -u owl-pet/3d-experiments/172-tyto-castanops/tools/run270_juvenile_face_down_pivot.py 2>&1 | tee /tmp/run270.log
+          cp /tmp/run270.log "$OUTPUT/execution.log"
+      - name: Independent validate exact GLB and six distinct spatial renderings
+        id: verify
+        if: steps.model.outcome == 'success'
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import json,hashlib,trimesh
+          folder=Path('owl-pet/3d-experiments/172-tyto-castanops/research-run270-NO_RELEASE')
+          r=json.loads((folder/'machine-report.json').read_text())
+          p=folder/r['glb'];b=p.read_bytes()
+          assert b[:4]==b'glTF' and hashlib.sha256(b).hexdigest()==r['glb_sha256']
+          m=trimesh.load(p,force='mesh')
+          assert len(m.faces)==133268 and m.is_watertight
+          assert len(set(r['views'].values()))==6
+          for view,d in r['views'].items():
+            assert hashlib.sha256((folder/('view_'+view+'.png')).read_bytes()).hexdigest()==d
+          print('VERIFIED_GLTF_SIX_SPATIAL_VIEWS_NONCOMMERCIAL_NO_RELEASE',r['glb_sha256'])
+          PY
+      - name: Preserve actual status and SHA256 evidence regardless of generator result
+        if: always()
+        run: |
+          mkdir -p "$OUTPUT"
+          cat > "$OUTPUT/CI_STATUS.flag" <<EOF
+          run270_source=${{ steps.source.outcome }}
+          run270_reference=${{ steps.reference.outcome }}
+          run270_install=${{ steps.install.outcome }}
+          run270_model=${{ steps.model.outcome }}
+          run270_binary_verify=${{ steps.verify.outcome }}
+          RESEARCH ONLY / ART_UNREVIEWED / PHONE_UNTESTED / NONCOMMERCIAL / NO_RELEASE
+          EOF
+          (cd "$OUTPUT" && find . -type f ! -name SHA256SUMS.txt ! -name SHA256_CHECK.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$OUTPUT" && sha256sum -c SHA256SUMS.txt > SHA256_CHECK.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run270-native-neural-eye-cream-6views-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-run270-NO_RELEASE
+          retention-days: 30

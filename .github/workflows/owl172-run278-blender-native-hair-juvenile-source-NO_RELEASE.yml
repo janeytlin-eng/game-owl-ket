@@ -78,7 +78,9 @@ jobs:
           echo 'da21a63c0ec7dbdb8da920896599eb7cafd62fcf94de2e25bae016dd218724ea  /tmp/owl172-old/run271_gentle_native_organic_sculpt_RESEARCH_NO_RELEASE.glb' | sha256sum -c -
           sudo apt-get update -qq
           sudo apt-get install -y -qq blender xvfb >/tmp/owl172-blender-apt.log 2>&1 || { tail -80 /tmp/owl172-blender-apt.log; exit 1; }
-          blender -b --factory-startup --python-expr 'import bpy; print("BLENDER_OPEN_SOURCE_VERSION",bpy.app.version_string)'
+          python -m pip install 'numpy==1.26.4' 'Pillow==10.4.0'
+          export PYTHONPATH="$(python -c 'import site;print(site.getsitepackages()[0])')"
+          blender -b --factory-startup --python-expr 'import bpy,numpy; print("BLENDER_OPEN_SOURCE_VERSION",bpy.app.version_string,"NUMPY",numpy.__version__)'
           python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/tools/run278_blender_native_particle_down_groom_NORELEASE.py
       - name: Build actual Blender groom, save .blend, render four real Cycles spatial views, attempt glTF export
         id: groom
@@ -89,7 +91,14 @@ jobs:
           set -euo pipefail
           mkdir -p "$OUT"
           export OWL172_OUT="$PWD/$OUT"
+          export PYTHONPATH="$(python -c 'import site;print(site.getsitepackages()[0])')"
           xvfb-run -a timeout 1400s blender -b -t 3 --factory-startup --python owl-pet/3d-experiments/172-tyto-castanops/tools/run278_blender_native_particle_down_groom_NORELEASE.py 2>&1 | tee "$OUT/blender-real-execution.log"
+          python - <<'PY'
+          import json
+          j=json.load(open("owl172-run278-evidence-NO_RELEASE/machine-report.json"))
+          assert j["status"]=="RENDER_AND_EXPORT_COMPLETED_REVIEW_REQUIRED_NO_RELEASE",j["status"]
+          assert len(j.get("rendered",[]))==4
+          PY
       - name: Independently inspect actual exported GLB primitive counts and 4 renderer frames
         id: inspect
         continue-on-error: true

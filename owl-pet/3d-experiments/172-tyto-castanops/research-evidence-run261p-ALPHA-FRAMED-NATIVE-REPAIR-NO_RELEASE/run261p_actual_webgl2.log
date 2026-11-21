@@ -1,0 +1,40 @@
+{
+  "name": "run261p_native_fixed_normals",
+  "status": "NATIVE_WEBGL2_SOFTWARE_PASS_ART_REJECTED_PHONE_UNTESTED_NO_RELEASE",
+  "gates": {
+    "signed_native_binary": true,
+    "real_threejs_gltfloader": true,
+    "chromium_webgl2": true,
+    "authentic_meshes": true,
+    "nontrivial_real_triangles": true,
+    "normal_attributes": true,
+    "seven_spatial_views": true,
+    "distinct_screenshots": true,
+    "valid_aabb": true,
+    "no_page_errors": true
+  },
+  "model": {
+    "source": "actual Three.js GLTFLoader (real 3D)",
+    "meshCount": 1,
+    "triangles": 20000,
+    "missingNormals": 0,
+    "materials": 1,
+    "textured": 0,
+    "bounds": [
+      -0.8306037783622742,
+      -1.0076475143432617,
+      -0.858001708984375,
+      0.7755202054977417,
+      0.9545180797576904,
+      0.8469440340995789
+    ],
+    "renderer": "WebKit WebGL",
+    "unmaskedRenderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "isWebGL2": true,
+    "size": [
+      1.6061239838600159,
+      1.9621655941009521,
+      1.7049457430839539
+    ]
+  }
+}

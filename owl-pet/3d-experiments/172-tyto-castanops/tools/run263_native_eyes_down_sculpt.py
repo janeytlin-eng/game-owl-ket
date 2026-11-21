@@ -52,7 +52,7 @@ def eye(sign):
     for i in range(R):
         for j in range(N):
             a=i*N+j;b=i*N+(j+1)%N;cc=(i+1)*N+j;d=(i+1)*N+(j+1)%N
-            faces.extend(((a,b,d),(a,d,cc)))
+            faces.extend(((a,d,b),(a,cc,d)))
     e=trimesh.Trimesh(vertices=verts,faces=faces,process=False)
     e.visual.vertex_colors=np.asarray(colors,dtype=np.uint8)
     return e

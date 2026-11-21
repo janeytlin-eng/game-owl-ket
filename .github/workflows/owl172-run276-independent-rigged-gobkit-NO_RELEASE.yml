@@ -21,8 +21,9 @@ jobs:
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             owl-pet/3d-experiments/172-tyto-castanops/tools/run276_animated_barnowl_juvenile_donor_audit.py
-            owl-pet/3d-experiments/172-tyto-castanops/run256_actual_browser_7view_qa.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run276_actual_browser_rigged_lowpoly_negative_control.mjs
             owl-pet/3d-experiments/172-tyto-castanops/run256_real_threejs_viewer_RESEARCH_NO_RELEASE.html
+            owl-pet/3d-experiments/172-tyto-castanops/run276_actual_browser_rigged_lowpoly_negative_control.mjs
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
@@ -50,7 +51,7 @@ jobs:
           report=json.loads((d/"machine-report.json").read_text())
           success=0
           for name,rec in report["sources"].items():
-              if rec["status"].startswith("REAL_3D_RIG_SOURCE"):
+              if rec["status"].startswith("REAL_NATIVE_SKINNED_"):
                   raw=(d/(name+".glb")).read_bytes()
                   assert raw[:4]==b"glTF" and struct.unpack_from("<I",raw,8)[0]==len(raw)
                   assert hashlib.sha256(raw).hexdigest()==rec["sha256"]
@@ -58,9 +59,10 @@ jobs:
                   assert sum(len(g.faces) for g in scene.geometry.values() if hasattr(g,"faces"))==rec["geometry"]["triangles"]
                   assert len(set(v["sha256"] for v in rec["actual_renders"]["views"].values()))==6
                   assert rec["rig_audit"]["animation_clip_count"]>=1 and rec["rig_audit"]["skinned_primitives"]>=1
+                  assert rec["geometry"]["triangles"]>=100, "Not even minimal authentic mesh"
                   print(name,rec["geometry"]["triangles"],rec["rig_audit"]["joint_counts"],rec["rig_audit"]["animation_clip_count"])
                   success+=1
-          assert success>=1, "No usable true animated GLB was obtained; do not report success"
+          assert success>=1, "No genuine skinned animated GLB was obtained; do not report technical success"
           for line in (d/"SHA256SUMS.txt").read_text().splitlines():
               sha,p=line.split("  ",1)
               assert hashlib.sha256((d/p).read_bytes()).hexdigest()==sha,p
@@ -68,7 +70,7 @@ jobs:
           PY
       - name: True Three.js GLTFLoader + WebGL2 seven views in 390x780 phone-like viewport (not real phone)
         id: browser
-        if: steps.verify.outcome == 'success'
+        if: always() && steps.verify.outcome == 'success'
         continue-on-error: true
         timeout-minutes: 14
         run: |
@@ -95,7 +97,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: owl172-run276-gobkit-four-rigged-real-GLBs-spatial-webgl-NO_RELEASE
+          name: owl172-run276-gobkit-lowpoly-rigged-art-rejected-24views-webgl-NO_RELEASE
           path: owl172-run276-evidence/
           retention-days: 21
           if-no-files-found: warn

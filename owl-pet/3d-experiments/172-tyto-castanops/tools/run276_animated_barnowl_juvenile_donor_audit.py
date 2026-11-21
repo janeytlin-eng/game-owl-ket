@@ -134,8 +134,8 @@ def animation_skin_audit(gltf):
             "actual_skeleton_evaluation_in_webgl":"PENDING browser QA",
             "real_animation_in_mobile_hardware":"UNTESTED"}
 
-report={"run":275,"date":"2026-11-22","research_only":True,"release":False,
- "art":"UNREVIEWED","phone_hardware":"UNTESTED","license_provenance_needs_further_review":True,
+report={"run":276,"date":"2026-11-22","research_only":True,"release":False,
+ "art":"LOW_POLYGON_COUNT_AUTOMATED_REJECTION_NOT_VISUAL_APPROVAL","phone_hardware":"UNTESTED","license_provenance_needs_further_review":True,
  "sources":{},"rigged_candidate_quality":"UNREVIEWED"}
 for label,meta in SOURCES.items():
     item={"source":meta}
@@ -158,9 +158,9 @@ for label,meta in SOURCES.items():
           "triangles":int(sum(len(g.faces) for g in scene.geometry.values() if hasattr(g,"faces"))),
           "bounds":np.asarray(scene.bounds).tolist(),
           "finite":bool(np.isfinite(scene.bounds).all())}
-        if item["geometry"]["triangles"]<1000: raise RuntimeError("not sufficiently detailed for source QA")
+        item["art_density_gate"] = ("AUTO_REJECT_TOO_FEW_TRIANGLES_NOT_FUZZY_CHICK" if item["geometry"]["triangles"]<1000 else "UNREVIEWED_NEEDS_VISUAL")
         item["actual_renders"]=render(path,label,scene)
-        item["status"]="REAL_3D_RIG_SOURCE_ACQUIRED_MULTIVIEW_RENDERED_ART_UNREVIEWED_NO_RELEASE"
+        item["status"]="REAL_NATIVE_SKINNED_MULTIVIEW_LOW_POLY_ART_REJECTED_NO_RELEASE" if item["geometry"]["triangles"]<1000 else "REAL_NATIVE_SKINNED_MULTIVIEW_ART_UNREVIEWED_NO_RELEASE"
     except Exception as e:
         item["status"]="BLOCKED_OR_INVALID"
         item["error"]=type(e).__name__+": "+str(e)

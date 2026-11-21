@@ -45,7 +45,6 @@ try:
     settings.use_emit_random=True
     settings.distribution="JIT"
     settings.child_type="INTERPOLATED"
-    settings.child_nbr=5
     settings.rendered_child_count=7
     settings.clump_factor=0.10
     settings.roughness_1=diagonal*0.008

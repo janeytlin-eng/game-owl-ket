@@ -1,0 +1,82 @@
+name: owl172 Run260 free PBR image to native 3D research NO_RELEASE
+on:
+  push:
+    branches: [research/owl172-run260-free-pbr-provider-native-reconstruction-no-release]
+    paths:
+      - .github/workflows/owl172-run260-free-pbr-provider-no-release.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run260_free_pbr_native_provider_probe.mjs
+permissions:
+  contents: write
+jobs:
+  actual-free-provider-probe:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run260-free-pbr-provider-native-reconstruction-no-release
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run117-FREE-TRELLIS-QUOTA-RECHECK-ART_REJECTED/rightmost_baby_owl_512_rgba.png
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run260_free_pbr_native_provider_probe.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run256_actual_browser_7view_qa.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run256_real_threejs_viewer_RESEARCH_NO_RELEASE.html
+            .github/workflows/owl172-run260-free-pbr-provider-no-release.yml
+      - name: Actual free image-conditioned generation attempt in browser
+        continue-on-error: true
+        timeout-minutes: 17
+        run: |
+          set -euo pipefail
+          npm install --no-save --no-package-lock playwright@1.56.1 three@0.181.2
+          npx playwright install --with-deps chromium
+          xvfb-run -a timeout 810s node owl-pet/3d-experiments/172-tyto-castanops/tools/run260_free_pbr_native_provider_probe.mjs | tee /tmp/run260_real_provider.log
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run260-FREE-PBR-PROVIDER-ART_UNAPPROVED-NO_RELEASE
+          mkdir -p "$O"
+          cp /tmp/run260_real_provider.log "$O/run260_actual_runner_stdout.log"
+      - name: True 7-angle 3D WebGL2 QA only if native GLB really returned
+        if: always()
+        continue-on-error: true
+        timeout-minutes: 12
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run260-FREE-PBR-PROVIDER-ART_UNAPPROVED-NO_RELEASE"
+          mkdir -p "$O"
+          M="$O/run260_FREE_PBR_PROBE_NATIVE_ART_UNAPPROVED.glb"
+          if [ ! -s "$M" ]; then echo "NO_NEW_NATIVE_GLB; no WebGL2 or art passes may be claimed" | tee "$O/webgl_not_run_NO_GLB.txt"; exit 0; fi
+          test "$(head -c4 "$M")" = glTF
+          export OWL172_RUN_LABEL=run260_PBR_actual
+          export OWL172_GLB_INPUT="$PWD/$M"
+          export OWL172_QA_DIR="$PWD/$O/run260_actual_webgl2_7views"
+          export OWL172_EXPECTED_SHA="$(sha256sum "$M" | cut -d' ' -f1)"
+          mkdir -p "$OWL172_QA_DIR"
+          xvfb-run -a timeout 250s node "$R/run256_actual_browser_7view_qa.mjs" 2>&1 | tee "$O/run260_webgl_real_log.txt"
+      - name: Archive independently verifiable checksums and explicit NO_RELEASE
+        if: always()
+        run: |
+          set -euo pipefail
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run260-FREE-PBR-PROVIDER-ART_UNAPPROVED-NO_RELEASE
+          mkdir -p "$O"
+          echo "NO_RELEASE ART_UNAPPROVED PHONE_UNTESTED RIGHTS_UNCLEARED ZERO_ADDITIONAL_PAYMENT" > "$O/NO_RELEASE.flag"
+          (cd "$O";find . -type f ! -name SHA256SUMS.txt ! -name checksum_verification.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$O";sha256sum -c SHA256SUMS.txt > checksum_verification.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run260-real-free-PBR-provider-research-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run260-FREE-PBR-PROVIDER-ART_UNAPPROVED-NO_RELEASE
+          retention-days: 30
+      - name: Commit independent research evidence only; raw GLB quarantined
+        if: always()
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run260-FREE-PBR-PROVIDER-ART_UNAPPROVED-NO_RELEASE
+          find "$O" -type f ! -name '*.glb' ! -name '*.zip' -print0 | xargs -0 -r git add --sparse --
+          git diff --cached --name-only > /tmp/owl172_run260_scope.txt
+          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run260-' /tmp/owl172_run260_scope.txt; then echo SCOPE_VIOLATION;exit 10;fi
+          if ! git diff --cached --quiet; then
+            git commit -m 'research(owl172): Run260 actual free PBR provider browser evidence NO_RELEASE'
+            git push origin HEAD:research/owl172-run260-free-pbr-provider-native-reconstruction-no-release
+          fi

@@ -32,3 +32,9 @@ This is a genuine **new neural foundation engine**, not another round of additiv
 Tencent Hunyuan source explicitly declares a non-commercial license. Therefore **even a visually excellent experimental output is NOT authorized for production release** without appropriate clearance. No actual Android/iPhone GPU, FPS, heat, memory or touchscreen test has been performed. Existing WebGL2 software checks from older runs do not transfer automatically to a new model; **Run268 WebGL remains UNTESTED**.
 
 Only #172-specific research Python, isolated workflow and this audit have been changed on a research branch. No change to `main`, 251-species production, source concept images, vocabulary game, existing cat WebGL prototype or deployment. **ART_UNREVIEWED / WEBGL_UNTESTED / PHONE_UNTESTED / RIGHTS_UNCLEARED / NO_RELEASE.**
+
+## Independent binary reproducibility check of inherited evidence
+
+After fetching the original ZIP, independently recomputed its archive SHA256 as `0e0125972a1bb1e1a9ac964469cf999860e5d3717bebd2122f7173332c7397c9`, matching GitHub. Validated **33/33 ZIP members by CRC** and **31/31 archived SHA256SUMS entries**, no mismatches. The baseline GLB and source image were independently decoded in the local container.
+
+The local VTK silhouette benchmark additionally generated six genuine axis-projection PNG masks, a normalized reference alpha mask, an executed Python QA script and structured JSON metrics. Packaged them into a separate **research-only** 10-member ZIP; CRC check passed, SHA256 `d4d0cb973acc8f31a405861954a13cde5b6a758b6e34900685def578ba960f22` (18,372 bytes). This ZIP is in the ephemeral working container, **not** represented as a durable GitHub or Library upload. All durable experimental instructions, results and known limitations are recorded here; new neural raw artifacts, if the job produces any, are collected separately by the Actions workflow.

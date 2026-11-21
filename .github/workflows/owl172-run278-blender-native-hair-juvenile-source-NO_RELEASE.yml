@@ -77,9 +77,9 @@ jobs:
           set -euo pipefail
           echo 'da21a63c0ec7dbdb8da920896599eb7cafd62fcf94de2e25bae016dd218724ea  /tmp/owl172-old/run271_gentle_native_organic_sculpt_RESEARCH_NO_RELEASE.glb' | sha256sum -c -
           sudo apt-get update -qq
-          sudo apt-get install -y -qq blender xvfb >/tmp/owl172-blender-apt.log 2>&1 || { tail -80 /tmp/owl172-blender-apt.log; exit 1; }
-          python -m pip install 'numpy==1.26.4' 'Pillow==10.4.0'
-          export PYTHONPATH="$(python -c 'import site;print(site.getsitepackages()[0])')"
+          sudo apt-get install -y -qq blender xvfb python3-numpy >/tmp/owl172-blender-apt.log 2>&1 || { tail -80 /tmp/owl172-blender-apt.log; exit 1; }
+          python -m pip install 'Pillow==10.4.0'
+          export PYTHONPATH='/usr/lib/python3/dist-packages'
           blender -b --factory-startup --python-expr 'import bpy,numpy; print("BLENDER_OPEN_SOURCE_VERSION",bpy.app.version_string,"NUMPY",numpy.__version__)'
           python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/tools/run278_blender_native_particle_down_groom_NORELEASE.py
       - name: Build actual Blender groom, save .blend, render four real Cycles spatial views, attempt glTF export
@@ -91,7 +91,7 @@ jobs:
           set -euo pipefail
           mkdir -p "$OUT"
           export OWL172_OUT="$PWD/$OUT"
-          export PYTHONPATH="$(python -c 'import site;print(site.getsitepackages()[0])')"
+          export PYTHONPATH='/usr/lib/python3/dist-packages'
           xvfb-run -a timeout 1400s blender -b -t 3 --factory-startup --python owl-pet/3d-experiments/172-tyto-castanops/tools/run278_blender_native_particle_down_groom_NORELEASE.py 2>&1 | tee "$OUT/blender-real-execution.log"
           python - <<'PY'
           import json

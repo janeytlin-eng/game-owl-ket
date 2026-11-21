@@ -1,0 +1,40 @@
+{
+  "name": "run258_real_hy3d_native_research",
+  "status": "NATIVE_WEBGL2_SOFTWARE_FAIL_NO_RELEASE",
+  "gates": {
+    "signed_native_binary": true,
+    "real_threejs_gltfloader": true,
+    "chromium_webgl2": true,
+    "authentic_meshes": true,
+    "nontrivial_real_triangles": true,
+    "normal_attributes": false,
+    "seven_spatial_views": true,
+    "distinct_screenshots": true,
+    "valid_aabb": true,
+    "no_page_errors": true
+  },
+  "model": {
+    "source": "actual Three.js GLTFLoader (real 3D)",
+    "meshCount": 1,
+    "triangles": 20000,
+    "missingNormals": 1,
+    "materials": 1,
+    "textured": 0,
+    "bounds": [
+      -0.8009161949157715,
+      -0.9961994290351868,
+      -0.9432076215744019,
+      0.7702720165252686,
+      0.9594855904579163,
+      0.946901798248291
+    ],
+    "renderer": "WebKit WebGL",
+    "unmaskedRenderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "isWebGL2": true,
+    "size": [
+      1.57118821144104,
+      1.955685019493103,
+      1.8901094198226929
+    ]
+  }
+}

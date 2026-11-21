@@ -1,0 +1,126 @@
+name: owl172 Run261 zero-fee alpha-framed juvenile native research NO_RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run261-transparent-framing-hy3d-free-native-no-release
+    paths:
+      - .github/workflows/owl172-run261-alpha-framed-free-native-no-release.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run261_free_hy3d_framing_native.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  actual-juvenile-three-dimensional-research:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 43
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/owl172-run261-transparent-framing-hy3d-free-native-no-release
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run117-FREE-TRELLIS-QUOTA-RECHECK-ART_REJECTED/rightmost_baby_owl_512_rgba.png
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run261_free_hy3d_framing_native.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run258_native_four_view_art_qa.py
+            owl-pet/3d-experiments/172-tyto-castanops/run256_actual_browser_7view_qa.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run256_real_threejs_viewer_RESEARCH_NO_RELEASE.html
+            .github/workflows/owl172-run261-alpha-framed-free-native-no-release.yml
+      - name: Actual free browser image to GLB attempt (one submit maximum)
+        continue-on-error: true
+        timeout-minutes: 17
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run261-REAL-TRANSPARENT-ALPHA-FRAMING-NO_RELEASE"
+          mkdir -p "$O"
+          python3 -m py_compile "$R/tools/run261_free_hy3d_framing_native.py"
+          python3 -m pip install --break-system-packages -q pillow 'playwright==1.56.0'
+          python3 -m playwright install --with-deps chromium
+          xvfb-run -a timeout 830s python3 "$R/tools/run261_free_hy3d_framing_native.py" 2>&1 | tee "$O/run261_actual_generation.log"
+      - name: Real native Blender multi-view, only if new GLB exists
+        if: always()
+        continue-on-error: true
+        timeout-minutes: 10
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run261-REAL-TRANSPARENT-ALPHA-FRAMING-NO_RELEASE"
+          M="$O/run261_real_provider_NATIVE_ART_UNAPPROVED.glb"
+          mkdir -p "$O"
+          if [ ! -s "$M" ]; then echo 'NO_NEW_NATIVE_GLB: Blender actual four-view skipped' | tee "$O/run261_blender_skipped.txt"; exit 0; fi
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq blender
+          python3 - <<'PY'
+          from pathlib import Path
+          r=Path('owl-pet/3d-experiments/172-tyto-castanops')
+          s=(r/'tools/run258_native_four_view_art_qa.py').read_text()
+          s=s.replace('run258','run261')
+          s=s.replace('research-evidence-run261-HY3D-FREE-ACTUAL-BROWSER-NO_RELEASE','research-evidence-run261-REAL-TRANSPARENT-ALPHA-FRAMING-NO_RELEASE')
+          s=s.replace('run261_original_NATIVE_PROVIDER_RESEARCH_ONLY.glb','run261_real_provider_NATIVE_ART_UNAPPROVED.glb')
+          s=s.replace('run261_status.json','run261_machine_report.json')
+          (r/'tools/run261_TMP_native_four_view.py').write_text(s)
+          PY
+          blender -b -t 2 -P "$R/tools/run261_TMP_native_four_view.py" 2>&1 | tee "$O/run261_actual_blender.log"
+          python3 - <<'PY'
+          from PIL import Image,ImageDraw
+          from pathlib import Path
+          o=Path('owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run261-REAL-TRANSPARENT-ALPHA-FRAMING-NO_RELEASE')
+          vs=['front','threequarter','side','back']
+          sheet=Image.new('RGB',(920,920),(235,234,231))
+          for i,v in enumerate(vs):
+              p=o/('run261_'+v+'_ACTUAL_CYCLES_ART_UNREVIEWED.png')
+              im=Image.open(p).convert('RGB')
+              sheet.paste(im,((i%2)*460,(i//2)*460))
+              ImageDraw.Draw(sheet).text(((i%2)*460+12,(i//2)*460+12),v,fill=(10,10,10))
+          sheet.save(o/'run261_ACTUAL_BLENDER_NATIVE_FOUR_VIEWS_ART_UNREVIEWED.jpg',quality=86)
+          PY
+      - name: True seven-angle Chromium WebGL2 GLTFLoader QA only if real GLB
+        if: always()
+        continue-on-error: true
+        timeout-minutes: 9
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-evidence-run261-REAL-TRANSPARENT-ALPHA-FRAMING-NO_RELEASE"
+          M="$O/run261_real_provider_NATIVE_ART_UNAPPROVED.glb"
+          mkdir -p "$O"
+          if [ ! -s "$M" ]; then echo 'NO_NEW_NATIVE_GLB: WebGL2 true-geometry test skipped' | tee "$O/run261_webgl_skipped.txt"; exit 0; fi
+          npm install --no-save --no-package-lock three@0.181.2 playwright@1.56.1
+          npx playwright install --with-deps chromium
+          export OWL172_RUN_LABEL=run261_real_alpha_native
+          export OWL172_GLB_INPUT="$PWD/$M"
+          export OWL172_QA_DIR="$PWD/$O/run261_actual_webgl2"
+          export OWL172_EXPECTED_SHA="$(sha256sum "$M" | cut -d' ' -f1)"
+          mkdir -p "$OWL172_QA_DIR"
+          xvfb-run -a timeout 240s node "$R/run256_actual_browser_7view_qa.mjs" 2>&1 | tee "$O/run261_actual_webgl2.log"
+      - name: Quarantine with checksums and explicit no release
+        if: always()
+        run: |
+          set -euo pipefail
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run261-REAL-TRANSPARENT-ALPHA-FRAMING-NO_RELEASE
+          mkdir -p "$O"
+          printf 'NO_RELEASE: independent reference pre-processing and provider trial only. Art is not approved. No physical phone GPU QA. Provider usage/redistribution rights are not cleared. Additional payment USD 0.\n' > "$O/NO_RELEASE.flag"
+          (cd "$O";find . -type f ! -name SHA256SUMS.txt ! -name checksum_verification.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$O";sha256sum -c SHA256SUMS.txt > checksum_verification.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run261-real-free-native-alpha-framing-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run261-REAL-TRANSPARENT-ALPHA-FRAMING-NO_RELEASE
+          retention-days: 30
+      - name: Commit only Run261 dedicated research evidence (exclude third-party GLB)
+        if: always()
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run261-REAL-TRANSPARENT-ALPHA-FRAMING-NO_RELEASE
+          find "$O" -type f ! -name '*.glb' ! -name '*.zip' -print0 | xargs -0 -r git add --sparse --
+          git diff --cached --name-only > /tmp/run261_scope.txt
+          if grep -Ev '^owl-pet/3d-experiments/172-tyto-castanops/research-evidence-run261-' /tmp/run261_scope.txt; then
+            echo SCOPE_VIOLATION;exit 11
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m 'research(owl172): Run261 actual free 3D source evidence and art gate NO_RELEASE'
+            git push origin HEAD:research/owl172-run261-transparent-framing-hy3d-free-native-no-release
+          fi

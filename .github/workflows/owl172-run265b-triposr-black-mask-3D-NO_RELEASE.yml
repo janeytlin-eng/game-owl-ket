@@ -1,0 +1,182 @@
+name: owl172 Run265b remove mistaken black background then authentic MIT TripoSR CPU 3D NO_RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run265b-triposr-mask-black-backdrop-real-juvenile-no-release
+    paths:
+      - .github/workflows/owl172-run265b-triposr-black-mask-3D-NO_RELEASE.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run265_mit_triposr_native_validation.py
+      - owl-pet/3d-experiments/172-tyto-castanops/tools/run265b_mask_black_backdrop.py
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  original-juvenile-cpu-neural-triposr:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run265_mit_triposr_native_validation.py
+            owl-pet/3d-experiments/172-tyto-castanops/tools/run265b_mask_black_backdrop.py
+            owl-pet/3d-experiments/172-tyto-castanops/run256_actual_browser_7view_qa.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run256_real_threejs_viewer_RESEARCH_NO_RELEASE.html
+      - name: Download previously generated original rightmost chick image from pinned independent run
+        id: input
+        continue-on-error: true
+        uses: actions/download-artifact@v4
+        with:
+          name: owl172-run261-real-free-native-alpha-framing-NO_RELEASE
+          run-id: 44868485142
+          github-token: ${{ github.token }}
+          path: /tmp/run261-pinned-reference
+      - uses: actions/setup-python@v5
+        if: steps.input.outcome == 'success'
+        with:
+          python-version: '3.10'
+      - name: Verify input SHA256 and prepare actual RGB neural input
+        id: prepare
+        if: steps.input.outcome == 'success'
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-run265b-MASKED-TRIPOSR-CPU-NO_RELEASE"
+          mkdir -p "$O"
+          cp /tmp/run261-pinned-reference/run261_original_source_512_RGBA.png "$O/"
+          cp /tmp/run261-pinned-reference/run261_framed_real_rightmost_768_RGBA.png "$O/"
+          test "$(sha256sum "$O/run261_original_source_512_RGBA.png" | cut -d' ' -f1)" = e439928a9ef08d3be266106cb5f2766b6f5a9f2c414d44e8da55ba81732153b8
+          test "$(sha256sum "$O/run261_framed_real_rightmost_768_RGBA.png" | cut -d' ' -f1)" = 5d50035ff2add0957b9078b83cb3f8cf309c96a13742673aa23de9bcb63c667b
+          python3 -m pip install Pillow==10.1.0
+          python3 -m pip install 'numpy<2'
+          python3 "$R/tools/run265b_mask_black_backdrop.py" "$O/run261_original_source_512_RGBA.png" "$O"
+          sha256sum "$O"/run26*.png | tee "$O/source_hashes.txt"
+      - name: Actually install independent MIT TripoSR CPU path and its mesh dependencies
+        id: deps
+        if: steps.prepare.outcome == 'success'
+        continue-on-error: true
+        timeout-minutes: 18
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-run265b-MASKED-TRIPOSR-CPU-NO_RELEASE"
+          mkdir -p "$O"
+          { python -VV; df -h /; free -h; } | tee "$O/runner_env.txt"
+          git clone --depth 1 https://github.com/VAST-AI-Research/TripoSR.git /tmp/TripoSR
+          git -C /tmp/TripoSR rev-parse HEAD | tee "$O/triposr_upstream_commit.txt"
+          python -m pip install -U pip setuptools wheel
+          python -m pip install torch==2.3.1 --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install 'numpy<2' 'omegaconf==2.3.0' 'Pillow==10.1.0' 'einops==0.7.0' 'transformers==4.37.2' 'trimesh==4.0.5' 'huggingface-hub==0.25.2' 'rembg==2.0.58' 'imageio[ffmpeg]' 'xatlas==0.0.9' 'moderngl==5.10.0' 'vtk==9.3.1'
+          python -m pip install scikit-build-core ninja cmake pybind11
+          python -m pip install --no-build-isolation git+https://github.com/tatsy/torchmcubes.git
+          python - <<'PY'
+          import torch,numpy,torchmcubes,transformers,tsr
+          print('TORCH_CPU',torch.__version__,torch.cuda.is_available())
+          PY
+        env:
+          PYTHONPATH: /tmp/TripoSR
+      - name: Actually acquire and verify original MIT model weights, not a third-party paid endpoint
+        id: weights
+        if: steps.deps.outcome == 'success'
+        continue-on-error: true
+        timeout-minutes: 17
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-run265b-MASKED-TRIPOSR-CPU-NO_RELEASE"
+          python - <<'PY'
+          import hashlib,pathlib,os
+          from huggingface_hub import hf_hub_download
+          o=pathlib.Path('owl-pet/3d-experiments/172-tyto-castanops/research-run265b-MASKED-TRIPOSR-CPU-NO_RELEASE')
+          f=hf_hub_download(repo_id='stabilityai/TripoSR',filename='model.ckpt')
+          h=hashlib.sha256()
+          with open(f,'rb') as x:
+           for b in iter(lambda:x.read(4*1024*1024),b''):h.update(b)
+          assert h.hexdigest()=='429e2c6b22a0923967459de24d67f05962b235f79cde6b032aa7ed2ffcd970ee',h.hexdigest()
+          hf_hub_download(repo_id='stabilityai/TripoSR',filename='config.yaml')
+          (o/'model_verified.txt').write_text('TripoSR model.ckpt sha256 '+h.hexdigest()+'\n')
+          print('verified official MIT model 1.68 GB',h.hexdigest())
+          PY
+      - name: Execute actual new neural image-to-3D mesh generation on CPU
+        id: inference
+        if: steps.weights.outcome == 'success'
+        continue-on-error: true
+        timeout-minutes: 20
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-run265b-MASKED-TRIPOSR-CPU-NO_RELEASE"
+          mkdir -p "$O/triposr/0"
+          export OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2 MKL_NUM_THREADS=2
+          timeout 1100s python /tmp/TripoSR/run.py "$O/run265b_reference_gray_rgb.png" --device cpu --no-remove-bg --mc-resolution 128 --chunk-size 4096 --model-save-format glb --output-dir "$O/triposr" 2>&1 | tee "$O/run265b_true_cpu_inference.log"
+          test -s "$O/triposr/0/mesh.glb"
+          test "$(head -c 4 "$O/triposr/0/mesh.glb")" = glTF
+          cp "$O/triposr/0/mesh.glb" "$O/triposr/0/mesh_original_NO_NORMALS.glb"
+          python3 - <<'PY'
+          import pathlib,trimesh,hashlib,json
+          p=pathlib.Path('owl-pet/3d-experiments/172-tyto-castanops/research-run265b-MASKED-TRIPOSR-CPU-NO_RELEASE/triposr/0/mesh.glb')
+          orig=p.read_bytes()
+          sc=trimesh.load(p,force='scene')
+          for m in sc.geometry.values():
+           m.fix_normals()
+           _=m.vertex_normals
+          fixed=sc.export(file_type='glb',include_normals=True)
+          assert fixed[:4]==b'glTF'
+          p.write_bytes(fixed)
+          print(json.dumps({'original_glb_sha256':hashlib.sha256(orig).hexdigest(),'webgl_normal_repaired_sha256':hashlib.sha256(fixed).hexdigest(),'mesh_faces':sum(len(m.faces) for m in sc.geometry.values())},indent=2),flush=True)
+          PY
+      - name: Real native mesh verification and five actual camera renders
+        id: render
+        if: steps.inference.outcome == 'success'
+        continue-on-error: true
+        timeout-minutes: 7
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-run265b-MASKED-TRIPOSR-CPU-NO_RELEASE"
+          xvfb-run -a timeout 380s python "$R/tools/run265_mit_triposr_native_validation.py" "$O" 2>&1 | tee "$O/run265_actual_real3D_views.log"
+      - name: Real Chromium Three.js WebGL2 seven spatial view test
+        id: webgl
+        if: steps.render.outcome == 'success'
+        continue-on-error: true
+        timeout-minutes: 9
+        run: |
+          set -euo pipefail
+          R=owl-pet/3d-experiments/172-tyto-castanops
+          O="$R/research-run265b-MASKED-TRIPOSR-CPU-NO_RELEASE"
+          npm install --no-save --no-package-lock three@0.181.2 playwright@1.56.1
+          npx playwright install --with-deps chromium
+          export OWL172_GLB_INPUT="$PWD/$O/triposr/0/mesh.glb"
+          export OWL172_QA_DIR="$PWD/$O/webgl2_real7views"
+          export OWL172_EXPECTED_SHA="$(sha256sum "$OWL172_GLB_INPUT" | cut -d' ' -f1)"
+          export OWL172_RUN_LABEL=run265b_masked_MIT_TRIPOSR_RESEARCH_UNAPPROVED
+          mkdir -p "$OWL172_QA_DIR"
+          xvfb-run -a timeout 420s node "$R/run256_actual_browser_7view_qa.mjs" 2>&1 | tee "$O/run265_true_webgl2.log"
+      - name: Always record actual outcomes and SHA256 evidence, no fake model or release
+        if: always()
+        run: |
+          set -euo pipefail
+          O=owl-pet/3d-experiments/172-tyto-castanops/research-run265b-MASKED-TRIPOSR-CPU-NO_RELEASE
+          mkdir -p "$O"
+          cat > "$O/NO_RELEASE.flag" <<EOF
+          #172 MIT CPU black rectangle masking ablation experiment
+          source_download=${{ steps.input.outcome }}
+          input_verified=${{ steps.prepare.outcome }}
+          dependencies=${{ steps.deps.outcome }}
+          official_weights=${{ steps.weights.outcome }}
+          neural_inference=${{ steps.inference.outcome }}
+          real_mesh_views=${{ steps.render.outcome }}
+          software_webgl2=${{ steps.webgl.outcome }}
+          ART_UNREVIEWED; PHONE_UNTESTED; NO_RELEASE
+          EOF
+          (cd "$O" && find . -type f ! -name SHA256SUMS.txt ! -name checksum_verification.log -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$O" && sha256sum -c SHA256SUMS.txt > checksum_verification.log)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run265b-MASKED-background-MIT-TripoSR-CPU-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/research-run265b-MASKED-TRIPOSR-CPU-NO_RELEASE
+          retention-days: 30

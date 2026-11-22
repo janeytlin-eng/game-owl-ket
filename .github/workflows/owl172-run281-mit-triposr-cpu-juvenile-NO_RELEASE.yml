@@ -1,0 +1,128 @@
+name: owl172 Run281 MIT TripoSR CPU juvenile true mesh - RESEARCH NO RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run281-open-triposr-cpu-young-owl-NO_RELEASE
+    paths:
+      - .github/workflows/owl172-run281-mit-triposr-cpu-juvenile-NO_RELEASE.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/run281_triposr_cpu_juvenile_reference_NO_RELEASE.py
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  genuine_juvenile_image_to_3d_experiment:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 75
+    env:
+      OUT: owl172-run281-mit-triposr-cpu-RESEARCH-NO_RELEASE
+      PYTHONUNBUFFERED: "1"
+      OMP_NUM_THREADS: "4"
+      MKL_NUM_THREADS: "4"
+      HF_HUB_DISABLE_TELEMETRY: "1"
+      HF_HUB_ENABLE_HF_TRANSFER: "0"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/design/concepts/172-tyto-castanops-v3.png
+            owl-pet/3d-experiments/172-tyto-castanops/run281_triposr_cpu_juvenile_reference_NO_RELEASE.py
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+      - name: Prepare authentic rightmost owlet input and document resource limits
+        id: input
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          mkdir -p "$OUT"
+          free -h | tee "$OUT/runner_memory.txt"
+          python -m pip install --disable-pip-version-check "numpy<2" Pillow "opencv-python-headless<4.12"
+          python owl-pet/3d-experiments/172-tyto-castanops/run281_triposr_cpu_juvenile_reference_NO_RELEASE.py prep \
+            owl-pet/design/concepts/172-tyto-castanops-v3.png "$OUT/juvenile_rightmost_masked_512_RESEARCH.png" \
+            2>&1 | tee "$OUT/input_masking.log"
+          test -s "$OUT/juvenile_rightmost_masked_512_RESEARCH.png"
+          touch "$OUT/input.success"
+      - name: Install genuine MIT TripoSR engine for CPU without paid external tools
+        id: setup
+        if: steps.input.outcome == 'success'
+        continue-on-error: true
+        timeout-minutes: 19
+        run: |
+          set -euo pipefail
+          git clone --depth 1 https://github.com/VAST-AI-Research/TripoSR.git thirdparty_triposr
+          git -C thirdparty_triposr rev-parse HEAD | tee "$OUT/triposr_source_commit.txt"
+          python -m pip install --disable-pip-version-check torch==2.4.1 --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install --disable-pip-version-check \
+            "numpy<2" "Pillow==10.1.0" "omegaconf==2.3.0" "einops==0.7.0" \
+            "transformers==4.35.0" "trimesh==4.0.5" "huggingface-hub<1" \
+            "xatlas==0.0.9" "moderngl==5.10.0" "rembg" \
+            "scikit-image" "opencv-python-headless<4.12" "vtk"
+          python -m pip install --disable-pip-version-check \
+            git+https://github.com/tatsy/torchmcubes.git
+          python - <<'PY' | tee "$OUT/triposr_engine_preflight.log"
+          import torch,importlib,shutil
+          print("torch",torch.__version__,"CUDA",torch.cuda.is_available())
+          for n in ["trimesh","torchmcubes","rembg","omegaconf","xatlas","vtk","transformers"]:
+              m=importlib.import_module(n)
+              print(n,"IMPORTED",getattr(m,"__version__","unknown"))
+          print("disk free",shutil.disk_usage(".").free)
+          PY
+          touch "$OUT/setup.success"
+      - name: Run actual model weights on rightmost chick reference - never fake mesh
+        id: infer
+        if: steps.setup.outcome == 'success'
+        continue-on-error: true
+        timeout-minutes: 43
+        run: |
+          set -euo pipefail
+          cd thirdparty_triposr
+          python run.py "../$OUT/juvenile_rightmost_masked_512_RESEARCH.png" \
+            --device cpu --no-remove-bg \
+            --chunk-size 4096 --mc-resolution 192 \
+            --model-save-format glb --output-dir "../$OUT/triposr_actual_inference" \
+            2>&1 | tee "../$OUT/real_triposr_CPU_inference.log"
+          cd ..
+          test -s "$OUT/triposr_actual_inference/0/mesh.glb"
+          cp "$OUT/triposr_actual_inference/0/mesh.glb" "$OUT/REAL_TRIPOSR_JUVENILE_UNREVIEWED_NO_RELEASE.glb"
+          touch "$OUT/infer.success"
+      - name: Import true GLB and render six different 3D camera directions
+        id: qa
+        if: steps.infer.outcome == 'success'
+        continue-on-error: true
+        timeout-minutes: 9
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libgl1 libegl1 xvfb >/dev/null
+          xvfb-run -a python owl-pet/3d-experiments/172-tyto-castanops/run281_triposr_cpu_juvenile_reference_NO_RELEASE.py qa \
+            "$OUT/REAL_TRIPOSR_JUVENILE_UNREVIEWED_NO_RELEASE.glb" "$OUT" \
+            2>&1 | tee "$OUT/real_glb_spatial_QA.log"
+          test -s "$OUT/six_true_camera_directions_REVIEW.png"
+          touch "$OUT/qa.success"
+      - name: Always archive raw evidence and failure diagnostics, never release
+        if: always()
+        run: |
+          set -euo pipefail
+          mkdir -p "$OUT"
+          for n in input setup infer qa; do
+            if test -f "$OUT/$n.success"; then echo "$n=success"; else echo "$n=failed-or-skipped"; fi
+          done > "$OUT/STEP_STATUS_NO_RELEASE.txt"
+          echo 'ART_NOT_APPROVED / PHONE_UNTESTED / NO_RELEASE' >> "$OUT/STEP_STATUS_NO_RELEASE.txt"
+          cp owl-pet/3d-experiments/172-tyto-castanops/run281_triposr_cpu_juvenile_reference_NO_RELEASE.py \
+             "$OUT/implementation_source_RESEARCH.py"
+          (cd "$OUT" && find . -type f ! -name SHA256SUMS.txt ! -name SHA256_VERIFY.txt -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$OUT" && sha256sum -c SHA256SUMS.txt > SHA256_VERIFY.txt)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run281-MIT-TripoSR-actual-CPU-juvenile-RESEARCH-NO_RELEASE
+          path: owl172-run281-mit-triposr-cpu-RESEARCH-NO_RELEASE/
+          retention-days: 14
+          if-no-files-found: error
+      - name: Fail closed on absent real pretrained mesh or missing six-view QA
+        if: always()
+        run: |
+          set -euo pipefail
+          for n in input setup infer qa; do test -f "$OUT/$n.success"; done
+          test -s "$OUT/REAL_TRIPOSR_JUVENILE_UNREVIEWED_NO_RELEASE.glb"

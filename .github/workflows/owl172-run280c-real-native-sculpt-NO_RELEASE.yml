@@ -1,0 +1,91 @@
+name: owl172 Run280c real native 3D sculpt and cream down QA - NEVER RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run280-local-sculpt-plume-qa-NO_RELEASE
+    paths:
+      - '.github/workflows/owl172-run280c-real-native-sculpt-NO_RELEASE.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run280c_native_juvenile_down_ci_NO_RELEASE.py'
+  workflow_dispatch:
+permissions:
+  actions: read
+  contents: read
+jobs:
+  independent_native_sculpt_qa:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    env:
+      OUT: owl172-run280c-real3d-research-NORELEASE
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/run280c_native_juvenile_down_ci_NO_RELEASE.py
+      - name: Obtain actual previous editable source-derived GLB, no synthetic replacement
+        id: source
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: owl172-run279b-real-browser-390x780-groom-glb-NO_RELEASE
+          run-id: 44957944731
+          github-token: ${{ github.token }}
+          path: prior_run279b
+      - name: Set up free open-source native 3D renderer
+        id: setup
+        continue-on-error: true
+        if: steps.source.outcome == 'success'
+        run: |
+          set -euo pipefail
+          echo '8eb64c09a58f673c793c31e348f41854b5d4fb13c649afcef36d1a23129e12db  prior_run279b/run279_real_particle_hair_mesh_lod_RESEARCH_NO_RELEASE.glb' | sha256sum -c -
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libgl1 libegl1 xvfb >/dev/null
+          python -m pip install --disable-pip-version-check numpy scipy trimesh vtk pillow
+      - name: Independently re-create real edited GLBs and spatial 3D views
+        id: build
+        if: steps.setup.outcome == 'success'
+        continue-on-error: true
+        timeout-minutes: 13
+        run: |
+          set -euo pipefail
+          mkdir -p "$OUT"
+          xvfb-run -a python owl-pet/3d-experiments/172-tyto-castanops/run280c_native_juvenile_down_ci_NO_RELEASE.py \
+            prior_run279b/run279_real_particle_hair_mesh_lod_RESEARCH_NO_RELEASE.glb "$OUT" \
+            2>&1 | tee "$OUT/full_native_build_and_render.log"
+          python - <<'PY'
+          import json,pathlib
+          p=pathlib.Path('owl172-run280c-real3d-research-NORELEASE')
+          j=json.loads((p/'QA_REJECTED.json').read_text())
+          assert j['deformed_body_watertight'] and j['source_watertight']
+          assert j['files']['anatomy']['triangles']==55972
+          assert j['files']['down']['triangles']==65172
+          assert len(list(p.glob('*.png')))==18
+          print('PASS - 3 native glTF mesh imports and 18 real 3D renders, ART_REJECTED')
+          PY
+      - name: Always archive evidence even on research failure
+        if: always()
+        run: |
+          set -euo pipefail
+          mkdir -p "$OUT"
+          cp owl-pet/3d-experiments/172-tyto-castanops/run280c_native_juvenile_down_ci_NO_RELEASE.py "$OUT/independent_source_code.py"
+          cat > "$OUT/STATUS_NO_RELEASE.txt" <<EOF
+          source_artifact=${{ steps.source.outcome }}
+          dependencies=${{ steps.setup.outcome }}
+          actual_native_mesh_and_views=${{ steps.build.outcome }}
+          ART_REJECTED / PHONE_UNTESTED / HUNYUAN_NONCOMMERCIAL / NO_RELEASE
+          EOF
+          (cd "$OUT" && find . -type f ! -name SHA256SUMS.txt ! -name SHA256_VERIFY.txt -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$OUT" && sha256sum -c SHA256SUMS.txt > SHA256_VERIFY.txt)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run280c-native-juvenile-plume-NO_RELEASE
+          path: owl172-run280c-real3d-research-NORELEASE/
+          retention-days: 21
+          if-no-files-found: warn
+      - name: Fail closed on any unperformed 3D test
+        if: always()
+        run: |
+          grep -qx 'source_artifact=success' "$OUT/STATUS_NO_RELEASE.txt"
+          grep -qx 'dependencies=success' "$OUT/STATUS_NO_RELEASE.txt"
+          grep -qx 'actual_native_mesh_and_views=success' "$OUT/STATUS_NO_RELEASE.txt"

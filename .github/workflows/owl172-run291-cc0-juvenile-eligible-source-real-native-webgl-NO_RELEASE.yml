@@ -1,0 +1,108 @@
+name: "#172 Run291 zero-cost true native barn owl + hollow source/WebGL QA - NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run291-cc0-juvenile-donor-source-gate-NO_RELEASE
+    paths:
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run291_cc0_barnowl_hollow_native_source_QA_NO_RELEASE.py'
+      - '.github/workflows/owl172-run291-cc0-juvenile-eligible-source-real-native-webgl-NO_RELEASE.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  actually_get_and_inspect_no_fee_original_glb:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 28
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/design/concepts/172-tyto-castanops-v3.png
+            owl-pet/3d-experiments/172-tyto-castanops/run291_cc0_barnowl_hollow_native_source_QA_NO_RELEASE.py
+            owl-pet/3d-experiments/172-tyto-castanops/run290_real_browser_glb_test_NO_RELEASE.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run290_browser_viewer_NO_RELEASE.html
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install only free non-billed local inspection tools
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install --quiet trimesh==4.10.1 numpy pillow
+          npm install --no-save --no-audit --no-fund three@0.170.0 playwright-core@1.58.2 pngjs@7.0.0
+      - name: Actually retrieve provider manifest and original GLBs; no fake model on denial
+        shell: bash
+        timeout-minutes: 10
+        env:
+          OWL291_OUT: owl172-run291-evidence
+        run: |
+          set -o pipefail
+          python -u owl-pet/3d-experiments/172-tyto-castanops/run291_cc0_barnowl_hollow_native_source_QA_NO_RELEASE.py 2>&1 | tee run291-source-execution.log
+          cp run291-source-execution.log owl172-run291-evidence/run291-source-execution.log
+      - name: Browser test only the actual received native mesh(es), emulated 390x780 SwiftShader
+        shell: bash
+        timeout-minutes: 12
+        env:
+          CHROME_BIN: /usr/bin/google-chrome
+          LIBGL_ALWAYS_SOFTWARE: '1'
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          files=(owl172-run291-evidence/*_SOURCE_ONLY_NOT_JUVENILE_NO_RELEASE.glb)
+          if [ ${#files[@]} -gt 0 ]; then
+            node owl-pet/3d-experiments/172-tyto-castanops/run290_real_browser_glb_test_NO_RELEASE.mjs "${files[@]}" 2>&1 | tee run291-browser-execution.log || true
+            mkdir -p owl172-run291-evidence/browser
+            cp owl172-run290-evidence/* owl172-run291-evidence/browser/ 2>/dev/null || true
+            mv run291-browser-execution.log owl172-run291-evidence/browser/
+          else
+            echo 'No real native GLB downloaded: WebGL camera proof intentionally NOT fabricated' > owl172-run291-evidence/WEBGL_SKIPPED_NO_SOURCE.flag
+          fi
+      - name: Make visual side-by-side original v3 rightmost target against actual browser captures
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image,ImageDraw,ImageOps
+          import json,hashlib
+          o=Path('owl172-run291-evidence');o.mkdir(exist_ok=True)
+          ref=Path('owl-pet/design/concepts/172-tyto-castanops-v3.png')
+          if ref.is_file():
+              im=Image.open(ref).convert('RGB')
+              crop=im.crop((int(im.width*2/3),0,im.width,im.height))
+              crop.save(o/'rightmost_reference_v3_UNCHANGED_CROP.png')
+          shots=sorted((o/'browser').glob('model*.png'))
+          if shots and ref.is_file():
+              tilew,tileh=360,570
+              samples=[(p.name,Image.open(p).convert('RGB')) for p in shots]
+              items=[('ORIGINAL REFERENCE - RIGHTMOST',crop)]+samples
+              sheet=Image.new('RGB',(3*tilew,((len(items)+2)//3)*tileh),'#e9e7e2')
+              draw=ImageDraw.Draw(sheet)
+              for i,(name,img) in enumerate(items):
+                  col,row=i%3,i//3
+                  img.thumbnail((tilew-14,tileh-32))
+                  x=col*tilew+(tilew-img.width)//2;y=row*tileh+25
+                  sheet.paste(img,(x,y))
+                  draw.text((col*tilew+8,row*tileh+8),name,fill='#232323')
+              sheet.save(o/'actual_spatial_browser_vs_rightmost_reference_COMPARISON_NO_RELEASE.jpg',quality=89)
+          allfiles=sorted(p for p in o.rglob('*') if p.is_file() and p.name!='SHA256SUMS.txt')
+          lines=[]
+          for p in allfiles:
+              lines.append(hashlib.sha256(p.read_bytes()).hexdigest()+'  '+str(p.relative_to(o)))
+          (o/'SHA256SUMS.txt').write_text('\n'.join(lines)+'\n')
+          print('Evidence entries SHA256:',len(lines),'actual-browser-images:',len(shots))
+          PY
+          (cd owl172-run291-evidence && sha256sum -c SHA256SUMS.txt)
+      - name: Archive strictly as independent research evidence, not product/demo
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run291-free-CC0-native-source-real-browser-ART_UNAPPROVED-NO_RELEASE
+          path: owl172-run291-evidence/
+          if-no-files-found: warn
+          retention-days: 14

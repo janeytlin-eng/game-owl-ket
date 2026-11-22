@@ -15,6 +15,10 @@ jobs:
     steps:
       - name: Checkout independent research branch, no deployment
         uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/run286_free_highdetail_owl_donor_native_qa_NO_RELEASE.py
+          sparse-checkout-cone-mode: false
       - name: Setup Python 3.11
         uses: actions/setup-python@v5
         with:

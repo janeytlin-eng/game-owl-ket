@@ -1,0 +1,143 @@
+name: "#172 Run287b CC0 museum Tyto true texturing and 6 camera audit — NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run287-cc0-real-barnowl-museum-scan-NO_RELEASE
+    paths:
+      - ".github/workflows/owl172-run287b-museum-native-texture-six-cameras-NO_RELEASE.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  true_mesh_and_texture_views:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            owl-pet/AGENTS.md
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install open-source geometry / texture / software renderer
+        run: |
+          set -euo pipefail
+          python -m pip install --disable-pip-version-check trimesh requests numpy pillow vtk
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq xvfb libegl1 libgl1 >/dev/null
+      - name: Pin museum 3D binary by SHA256; corrected real triangulated textured six-camera render
+        env:
+          LIBGL_ALWAYS_SOFTWARE: "1"
+        run: |
+          set -euo pipefail
+          xvfb-run -a python - <<'PY'
+          import requests,trimesh,vtk,numpy as np,pathlib,json,hashlib
+          from PIL import Image,ImageDraw
+          from vtk.util.numpy_support import numpy_to_vtk,numpy_to_vtkIdTypeArray
+          O=pathlib.Path("owl-pet/3d-experiments/172-tyto-castanops/run287b_evidence")
+          O.mkdir(parents=True,exist_ok=True)
+          U="https://doc.ayootech.com/galeri/model/0e65de5934db4f0eae02835ba7227dcc.glb"
+          W="6412ffd575360397bd90d391d3d4c23397f225945cdef3ec5727bfd91504cd44"
+          raw=requests.get(U,timeout=130).content
+          sha=hashlib.sha256(raw).hexdigest()
+          if sha!=W or raw[:4]!=b"glTF":raise RuntimeError("museum native binary provenance / glTF magic mismatch")
+          file=O/"original_museum_ADULT_REFERENCE_ONLY_NO_RELEASE.glb";file.write_bytes(raw)
+          sc=trimesh.load(file,force="scene",process=False)
+          meshes=sc.dump(concatenate=False)
+          renderer=vtk.vtkRenderer();window=vtk.vtkRenderWindow()
+          window.SetOffScreenRendering(1);window.SetSize(480,480);window.AddRenderer(renderer)
+          details=[]
+          for i,m in enumerate(meshes):
+            if not len(m.faces):continue
+            v=np.ascontiguousarray(m.vertices,dtype=np.float32)
+            f=np.ascontiguousarray(m.faces,dtype=np.int64)
+            pd=vtk.vtkPolyData();pts=vtk.vtkPoints();pts.SetData(numpy_to_vtk(v,deep=True));pd.SetPoints(pts)
+            offs=np.arange(0,(len(f)+1)*3,3,dtype=np.int64)
+            cells=vtk.vtkCellArray()
+            cells.SetData(numpy_to_vtkIdTypeArray(offs,deep=True),numpy_to_vtkIdTypeArray(f.flatten(),deep=True))
+            pd.SetPolys(cells)
+            tex=getattr(getattr(m.visual,"material",None),"baseColorTexture",None)
+            uv=getattr(m.visual,"uv",None)
+            if tex is not None and uv is not None:
+              img=np.asarray(tex.convert("RGB"));h,w=img.shape[:2]
+              uu=((np.asarray(uv)[:,0]%1)*(w-1)).astype(np.int64)
+              vv=((1-np.asarray(uv)[:,1]%1)*(h-1)).astype(np.int64)
+              colors=np.ascontiguousarray(img[np.clip(vv,0,h-1),np.clip(uu,0,w-1)],dtype=np.uint8)
+            else:
+              colors=np.full((len(v),3),210,dtype=np.uint8)
+            scalar=numpy_to_vtk(colors,deep=True,array_type=vtk.VTK_UNSIGNED_CHAR)
+            scalar.SetNumberOfComponents(3);scalar.SetName("TextureSampledRGB")
+            pd.GetPointData().SetScalars(scalar)
+            mapper=vtk.vtkPolyDataMapper()
+            mapper.SetInputData(pd);mapper.ScalarVisibilityOn();mapper.SetScalarModeToUsePointData()
+            mapper.SetColorModeToDirectScalars()
+            actor=vtk.vtkActor();actor.SetMapper(mapper)
+            actor.GetProperty().SetInterpolationToPhong()
+            actor.GetProperty().SetDiffuse(.75);actor.GetProperty().SetAmbient(.28);actor.GetProperty().SetSpecular(.1)
+            renderer.AddActor(actor)
+            details.append({"mesh":i,"triangles":int(len(f)),"vertices":int(len(v)),
+                            "has_base_texture":bool(tex is not None),"tex_size":list(tex.size) if tex is not None else None})
+          if not details:raise RuntimeError("no real transformed meshes")
+          l=vtk.vtkLight();l.SetLightTypeToSceneLight();l.SetPosition(-2,3,4);l.SetFocalPoint(0,.3,0);l.SetIntensity(.8);renderer.AddLight(l)
+          l2=vtk.vtkLight();l2.SetLightTypeToSceneLight();l2.SetPosition(2,2,-3);l2.SetFocalPoint(0,.3,0);l2.SetIntensity(.4);renderer.AddLight(l2)
+          renderer.SetBackground(.95,.93,.89)
+          b=renderer.ComputeVisiblePropBounds()
+          if b[0]>b[1]:raise RuntimeError("VTK native actor bounds are empty, not valid render")
+          c=np.array([(b[0]+b[1])/2,(b[2]+b[3])/2,(b[4]+b[5])/2])
+          dia=max(b[1]-b[0],b[3]-b[2],b[5]-b[4])
+          cam=renderer.GetActiveCamera();cam.SetViewAngle(33)
+          images=[];checks=[]
+          for name,axis,up in [("front_posZ",(0,0,1),(0,1,0)),("oblique",(0.8,.1,.8),(0,1,0)),
+                               ("right",(1,0,0),(0,1,0)),("back",(0,0,-1),(0,1,0)),
+                               ("left",(-1,0,0),(0,1,0)),("top",(0,1,0),(0,0,-1))]:
+            cam.SetPosition(*(c+dia*2.7*np.array(axis)))
+            cam.SetFocalPoint(*c);cam.SetViewUp(*up)
+            renderer.ResetCameraClippingRange();window.Render()
+            filt=vtk.vtkWindowToImageFilter();filt.SetInput(window)
+            filt.SetInputBufferTypeToRGB();filt.ReadFrontBufferOff();filt.Update()
+            pn=O/(name+".png");w=vtk.vtkPNGWriter()
+            w.SetFileName(str(pn));w.SetInputConnection(filt.GetOutputPort());w.Write()
+            image=Image.open(pn).convert("RGB");ary=np.asarray(image,dtype=np.int16)
+            # An entirely blank shot has no geometrical subject and must fail closed.
+            bg=np.asarray([242,237,227])
+            different=float(np.mean(np.max(np.abs(ary-bg[None,None,:]),axis=2)>45))
+            chk=hashlib.sha256(pn.read_bytes()).hexdigest()
+            checks.append({"name":name,"image_sha256":chk,"foreground_fraction_gt45":different,
+                           "file_bytes":pn.stat().st_size})
+            if different<.008:raise RuntimeError("blank camera frame "+name+" (subject absent)")
+            images.append((name,image))
+          if len(set(row["image_sha256"] for row in checks))!=6:raise RuntimeError("duplicate view")
+          contact=Image.new("RGB",(1440,1002),(245,239,230));dr=ImageDraw.Draw(contact)
+          for i,(name,img) in enumerate(images):
+            x=(i%3)*480;y=(i//3)*501;contact.paste(img,(x,y));dr.text((x+12,y+482),name,fill=(42,39,30))
+          contact.save(O/"ACTUAL_6_NATIVE_CAMERA_VIEWS_ADULT_REFERENCE_ONLY.png")
+          report={"run":"287b","source":U,"original_sha256":W,"source_bytes":len(raw),
+             "source_primary":"https://sketchfab.com/3d-models/barn-owl-0e65de5934db4f0eae02835ba7227dcc",
+             "license":"Public original page claims CC0; secondary mirror source binary from matching model ID; authenticity not independently certified",
+             "mesh_count":len(details),"triangles":sum(x["triangles"] for x in details),"vertices":sum(x["vertices"] for x in details),
+             "mesh_details":details,"render":"VTK true 3D mesh through Trimesh import and texture sampling (not native VTK glTF importer)",
+             "original_importer_bug":"Run287 VTK GLTFImporter silently created zero actors; blank views rejected; corrected manually",
+             "six_distinct_nonblank_camera_views":checks,"actual_bounds":list(b),
+             "art":"ART_REJECTED: physical adult Tyto owl taxidermy and mounted branch, not cream fluffy juvenile; no usable young plumage or faithful child anatomy",
+             "mobile":"UNTESTED","release":False,"paid_usd":0}
+          (O/"run287b_verified_native_report.json").write_text(json.dumps(report,ensure_ascii=False,indent=2))
+          sums=[]
+          for p in sorted(O.iterdir()):
+            if p.name=="SHA256SUMS.txt" or not p.is_file():continue
+            sums.append(hashlib.sha256(p.read_bytes()).hexdigest()+"  "+p.name)
+          (O/"SHA256SUMS.txt").write_text("\n".join(sums)+"\n")
+          (O/"NO_RELEASE.txt").write_text("TRUE_NATIVE_TEXTURED_3D_SIX_VIEWS / ADULT_MUSEUM_REFERENCE_ONLY / ART_REJECTED / MOBILE_UNTESTED / NO_RELEASE\n")
+          print(json.dumps({"triangles":report["triangles"],"mesh_count":len(details),
+            "six_true_views":[{"name":x["name"],"foreground_fraction":x["foreground_fraction_gt45"]} for x in checks],
+            "status":report["art"]},ensure_ascii=False))
+          PY
+      - name: Archive rejected anatomical reference, all nonblank views and hashes
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run287b-actual-native-Tyto-adult-museum-RESEARCH-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/run287b_evidence/
+          retention-days: 14
+          if-no-files-found: error

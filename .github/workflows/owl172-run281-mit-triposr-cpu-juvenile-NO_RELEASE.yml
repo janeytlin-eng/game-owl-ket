@@ -77,6 +77,7 @@ jobs:
         timeout-minutes: 43
         run: |
           set -euo pipefail
+          mkdir -p "$OUT/triposr_actual_inference/0"
           cd thirdparty_triposr
           python run.py "../$OUT/juvenile_rightmost_masked_512_RESEARCH.png" \
             --device cpu --no-remove-bg \

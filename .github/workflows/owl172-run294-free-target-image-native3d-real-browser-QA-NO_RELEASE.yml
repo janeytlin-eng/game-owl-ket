@@ -1,0 +1,130 @@
+name: "#172 Run294 original rightmost chick real zero-dollar native 3D + WebGL2 research - NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run294-free-target-image-native3d-real-browser-QA-NO_RELEASE
+    paths:
+      - '.github/workflows/owl172-run294-free-target-image-native3d-real-browser-QA-NO_RELEASE.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run294_target_image_real_native_glb_capture_NO_RELEASE.mjs'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  real_original_reference_glb_capture_unapproved:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/design/concepts/172-tyto-castanops-v3.png
+            owl-pet/3d-experiments/172-tyto-castanops/run294_target_image_real_native_glb_capture_NO_RELEASE.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run292_real_browser_glb_test_NO_RELEASE.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run292_browser_viewer_uncropped_NO_RELEASE.html
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Crop actual already-user-owned rightmost v3 young concept, not the adults
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install -q Pillow trimesh numpy
+          python - <<'PY'
+          from PIL import Image,ImageDraw
+          from pathlib import Path
+          p=Path('owl-pet/design/concepts/172-tyto-castanops-v3.png')
+          if not p.exists(): raise RuntimeError('Original target concept absent')
+          im=Image.open(p).convert('RGB')
+          w,h=im.size
+          target=im.crop((w*2//3, 0, w, h))
+          target.save('target-owl172-rightmost-crop.png')
+          Path('owl172-run294-evidence').mkdir(exist_ok=True)
+          target.save('owl172-run294-evidence/00-REFERENCE-CROP-user-original.png')
+          print('Original',im.size,'rightmost',target.size)
+          PY
+      - name: Actually generate no-money source model, capture GLB2 response bytes, archive only as research
+        shell: bash
+        timeout-minutes: 11
+        env:
+          CHROME_BIN: /usr/bin/google-chrome
+        run: |
+          set -euo pipefail
+          npm install --no-save --no-audit --no-fund playwright-core@1.58.2 three@0.170.0 pngjs@7.0.0
+          node --check owl-pet/3d-experiments/172-tyto-castanops/run294_target_image_real_native_glb_capture_NO_RELEASE.mjs
+          node owl-pet/3d-experiments/172-tyto-castanops/run294_target_image_real_native_glb_capture_NO_RELEASE.mjs 2>&1 | tee run294-generation-log.txt
+          cp run294-generation-log.txt owl172-run294-evidence/
+      - name: Actual GLB geometry and browser WebGL2 three spatial angles (never success by screenshot alone)
+        if: always()
+        shell: bash
+        env:
+          CHROME_BIN: /usr/bin/google-chrome
+        run: |
+          set -euo pipefail
+          MODEL='owl172-run294-evidence/output-target-UNAPPROVED-native.glb'
+          if [ -f "$MODEL" ]; then
+            python - <<'PY'
+          import json,trimesh,hashlib
+          from pathlib import Path
+          p=Path('owl172-run294-evidence/output-target-UNAPPROVED-native.glb')
+          out=Path('owl172-run294-evidence')
+          try:
+              m=trimesh.load(p,force='scene')
+              meshes=list(m.geometry.values())
+              qa={'glb_bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest(),
+                  'meshes':len(meshes),'triangles':int(sum(len(x.faces) for x in meshes)),
+                  'vertices':int(sum(len(x.vertices) for x in meshes)),
+                  'has_texture':any(getattr(x.visual,'kind',None)=='texture' for x in meshes),
+                  'art_approved':False,'rights_cleared':False,'physical_phone_tested':False,'no_release':True}
+          except Exception as e: qa={'error':str(e),'no_release':True}
+          (out/'actual_geometry_report.json').write_text(json.dumps(qa,indent=2))
+          print(qa)
+          PY
+            node owl-pet/3d-experiments/172-tyto-castanops/run292_real_browser_glb_test_NO_RELEASE.mjs "$MODEL" > owl172-run294-evidence/webgl-browser-log.txt 2>&1 || echo 'WEBGL2_RENDER_REJECTED_OR_FAILED' > owl172-run294-evidence/WEBGL2_NOT_PASS.flag
+            mkdir -p owl172-run294-evidence/three_actual_browser_angles
+            cp owl172-run292-browser-evidence/* owl172-run294-evidence/three_actual_browser_angles/ || true
+          else
+            echo 'Source did not return a native GLB; browser geometry not verified' > owl172-run294-evidence/NO_NATIVE_GLB.flag
+          fi
+      - name: Create strict no-release gate, contact sheet and SHA256 proof
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from PIL import Image,ImageDraw
+          from pathlib import Path
+          import json,hashlib
+          d=Path('owl172-run294-evidence');d.mkdir(exist_ok=True)
+          im_paths=[d/'00-REFERENCE-CROP-user-original.png']+sorted((d/'three_actual_browser_angles').glob('model*.png'))
+          existing=[p for p in im_paths if p.exists()]
+          if existing:
+              W,H=380,520
+              c=Image.new('RGB',(W*len(existing),H),(237,230,221))
+              draw=ImageDraw.Draw(c)
+              for i,p in enumerate(existing):
+                  im=Image.open(p).convert('RGB'); im.thumbnail((W-15,H-55))
+                  c.paste(im,(i*W+(W-im.width)//2,50))
+                  draw.text((i*W+8,12),p.name,fill=(30,30,30))
+              c.save(d/'REAL-REFERENCE-vs-TRUE-3D-ANGLE-contact-sheet-NO_RELEASE.jpg',quality=92)
+          (d/'FINAL_GATE_NO_RELEASE.json').write_text(json.dumps({'target':172,'true_actual_user_concept':True,
+            'art_review_status':'PENDING_INDEPENDENT_VISUAL_REVIEW_NOT_APPROVED',
+            'rights_cleared':False,'mobile_physical_verified':False,'publish':False},indent=2))
+          lines=[]
+          for p in sorted(d.rglob('*')):
+              if p.is_file() and p.name!='SHA256SUMS.txt':
+                  lines.append(hashlib.sha256(p.read_bytes()).hexdigest()+'  '+str(p.relative_to(d)))
+          (d/'SHA256SUMS.txt').write_text('\n'.join(lines)+'\n')
+          print('evidence checksums',len(lines))
+          PY
+          (cd owl172-run294-evidence && sha256sum -c SHA256SUMS.txt)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run294-ACTUAL-concept-native3d-research-ART_UNREVIEWED-RIGHTS_HOLD-NO_RELEASE
+          path: owl172-run294-evidence/
+          if-no-files-found: warn
+          retention-days: 14

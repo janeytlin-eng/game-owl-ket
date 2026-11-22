@@ -1,0 +1,119 @@
+name: "owl172 Run307 one free textured retry and CC0 real mesh anatomy reference NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run307-one-free-retry-cc0-anatomy-audit-NO_RELEASE
+    paths:
+      - '.github/workflows/owl172-run307-actual-free-retry-cc0-asset-NO_RELEASE.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run307_cc0_anatomy_qa_NO_RELEASE.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  actual_experiment:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/design/concepts/172-tyto-castanops-v3.png
+            owl-pet/3d-experiments/172-tyto-castanops/run295_real_reference_cutout_preprocess_ONLY_NO_RELEASE.py
+            owl-pet/3d-experiments/172-tyto-castanops/run305_two_zero_payment_native_textured_sites_NO_RELEASE.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run292_real_browser_glb_test_NO_RELEASE.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run292_browser_viewer_uncropped_NO_RELEASE.html
+            owl-pet/3d-experiments/172-tyto-castanops/run307_cc0_anatomy_qa_NO_RELEASE.py
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Restore original 172 rightmost chick crop with exact reproducibility guard
+        run: |
+          set -euo pipefail
+          python -m pip install -q Pillow numpy opencv-python-headless trimesh
+          python owl-pet/3d-experiments/172-tyto-castanops/run295_real_reference_cutout_preprocess_ONLY_NO_RELEASE.py >run307-preprocess.log
+          cp owl172-run295-evidence/young-isolated-white-background-input-NO_3D.png target-owl172-isolated-WHITE.png
+          test "$(sha256sum target-owl172-isolated-WHITE.png | awk '{print $1}')" = 6ec346e5b02411f9509fd364db748c23a58075aeec461ef7424adcc4d893bc77
+          mkdir -p owl172-run307-evidence/reference
+          cp target-owl172-isolated-WHITE.png owl172-run307-evidence/reference/
+          cp run307-preprocess.log owl172-run307-evidence/
+      - name: Actually download and reload free CC0 full-surface adult owl reference (not a juvenile)
+        timeout-minutes: 5
+        run: |
+          python owl-pet/3d-experiments/172-tyto-castanops/run307_cc0_anatomy_qa_NO_RELEASE.py | tee owl172-run307-evidence/adult-anatomy-stdout.txt
+      - name: Browser test one ordinary $0 textured 3D retry, no login/payment/challenge bypass
+        timeout-minutes: 9
+        env:
+          CHROME_BIN: /usr/bin/google-chrome
+        run: |
+          npm install --no-save --no-audit --no-fund playwright-core@1.58.2 three@0.170.0 pngjs@7.0.0
+          node --check owl-pet/3d-experiments/172-tyto-castanops/run305_two_zero_payment_native_textured_sites_NO_RELEASE.mjs
+          node owl-pet/3d-experiments/172-tyto-castanops/run305_two_zero_payment_native_textured_sites_NO_RELEASE.mjs | tee owl172-run307-evidence/free-provider-stdout.txt
+          if test -d owl172-run305-evidence; then
+            mkdir -p owl172-run307-evidence/provider-retry
+            cp -r owl172-run305-evidence/. owl172-run307-evidence/provider-retry/
+          fi
+      - name: Independently reload GLBs and exercise actual Three.js WebGL2 when possible
+        if: always()
+        timeout-minutes: 4
+        env:
+          CHROME_BIN: /usr/bin/google-chrome
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json,hashlib,trimesh
+          p=Path('owl172-run307-evidence');p.mkdir(exist_ok=True)
+          rows=[]
+          for f in p.rglob('*.glb'):
+              d={'path':str(f),'bytes':f.stat().st_size,'sha256':hashlib.sha256(f.read_bytes()).hexdigest()}
+              try:
+                  scene=trimesh.load(f,force='scene')
+                  d.update(triangles=sum(len(m.faces) for m in scene.geometry.values()),meshes=len(scene.geometry))
+              except Exception as e: d['error']=str(e)
+              d['is_approved_chick']=False
+              rows.append(d)
+          (p/'native-model-checks.json').write_text(json.dumps(rows,indent=2))
+          print('actual independent GLB reimports',rows)
+          PY
+          for f in owl172-run307-evidence/provider-retry/*/native-real-ART_NOT_APPROVED.glb; do
+            if test -f "$f"; then
+              node owl-pet/3d-experiments/172-tyto-castanops/run292_real_browser_glb_test_NO_RELEASE.mjs "$f" >"$(dirname "$f")/real-browser-stdout.txt" 2>&1 || echo WEBGL2_HOLD >"$(dirname "$f")/WEBGL2_HOLD.flag"
+              if test -d owl172-run292-browser-evidence; then
+                mkdir -p "$(dirname "$f")/real-webgl2-views"
+                cp -r owl172-run292-browser-evidence/. "$(dirname "$f")/real-webgl2-views/"
+              fi
+            fi
+          done
+          # The adult source is reference-only; even successful browser loading is never chick approval.
+      - name: Strict no-release decision with independently checkable evidence hashes
+        if: always()
+        run: |
+          set -euo pipefail
+          mkdir -p owl172-run307-evidence
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib,json,datetime
+          p=Path('owl172-run307-evidence')
+          assets=list(p.rglob('*.glb'))
+          generated=list(p.glob('provider-retry/*/native-real-ART_NOT_APPROVED.glb'))
+          state={'run':307,'generated_native_glbs':len(generated),'all_native_glbs_including_adult_reference':len(assets),
+                 'art_approved':False,'rights_cleared_for_generated_model':False,
+                 'physical_phone_tested':False,'external_extra_payment_usd':0,
+                 'release_allowed':False,'recorded_utc':datetime.datetime.now(datetime.timezone.utc).isoformat()}
+          (p/'STRICT_NO_RELEASE.json').write_text(json.dumps(state,indent=2))
+          hashes=[hashlib.sha256(f.read_bytes()).hexdigest()+'  '+str(f.relative_to(p))
+                  for f in sorted(p.rglob('*')) if f.is_file() and f.name!='SHA256SUMS.txt']
+          (p/'SHA256SUMS.txt').write_text('\n'.join(hashes)+'\n')
+          print(state,'evidence_files',len(hashes))
+          PY
+          (cd owl172-run307-evidence && sha256sum -c SHA256SUMS.txt)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run307-real-free-and-cc0-anatomy-research-NO_RELEASE
+          path: owl172-run307-evidence/
+          retention-days: 14
+          if-no-files-found: warn

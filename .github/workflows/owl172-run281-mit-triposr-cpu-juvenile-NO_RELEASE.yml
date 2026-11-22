@@ -58,7 +58,8 @@ jobs:
             "transformers==4.35.0" "trimesh==4.0.5" "huggingface-hub<1" \
             "xatlas==0.0.9" "moderngl==5.10.0" "rembg" \
             "scikit-image" "opencv-python-headless<4.12" "vtk"
-          python -m pip install --disable-pip-version-check \
+          python -m pip install --disable-pip-version-check scikit-build-core cmake ninja pybind11
+          python -m pip install --disable-pip-version-check --no-build-isolation \
             git+https://github.com/tatsy/torchmcubes.git
           python - <<'PY' | tee "$OUT/triposr_engine_preflight.log"
           import torch,importlib,shutil

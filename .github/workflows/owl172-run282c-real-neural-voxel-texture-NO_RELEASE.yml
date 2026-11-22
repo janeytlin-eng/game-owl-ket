@@ -1,0 +1,94 @@
+name: owl172 Run282c authentic neural volumetric retopology - research NO RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run282c-genuine-neural-voxel-reto-gltf-NO_RELEASE
+    paths:
+      - .github/workflows/owl172-run282c-real-neural-voxel-texture-NO_RELEASE.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/run282c_neural_volumetric_3d_ablation_NO_RELEASE.py
+  workflow_dispatch:
+permissions:
+  actions: read
+  contents: read
+jobs:
+  true3d_voxel_ablation:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    env:
+      OUT: owl172-run282c-true-neural-3d-evidence-NO_RELEASE
+      P: owl-pet/3d-experiments/172-tyto-castanops
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/run281_triposr_cpu_juvenile_reference_NO_RELEASE.py
+            owl-pet/3d-experiments/172-tyto-castanops/run282c_neural_volumetric_3d_ablation_NO_RELEASE.py
+      - name: Retrieve exact two previously generated authentic research inputs
+        id: prior_mesh
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: owl172-run281b-two-actual-TripoSR-meshes-12-views-NORELEASE
+          run-id: 44969878468
+          github-token: ${{ github.token }}
+          path: prior_mesh
+      - name: Retrieve original rightmost juvenile image (no substitute)
+        id: prior_image
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: owl172-run281-MIT-TripoSR-actual-CPU-juvenile-RESEARCH-NO_RELEASE
+          run-id: 44969217094
+          github-token: ${{ github.token }}
+          path: prior_image
+      - name: Real neural volumetric surface experiment, GLB import and 12 true spatial views
+        id: generate
+        if: steps.prior_mesh.outcome == 'success' && steps.prior_image.outcome == 'success'
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          mkdir -p "$OUT"
+          echo '46f22943806075ec749d96f1bafa630fee256a02e6048839c428101fc9c12e12  prior_mesh/upright_taubin10_cream_TRUE3D_NO_RELEASE.glb' | sha256sum -c -
+          echo '8eee63bf0b8650c390d4c4bba6a07a0c2dd05dd7fc2e90e00a896ec3ab51c641  prior_image/juvenile_rightmost_masked_512_RESEARCH.png' | sha256sum -c -
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libgl1 libegl1 xvfb >/dev/null
+          python -m pip install --disable-pip-version-check 'numpy<2' trimesh vtk scipy scikit-image pillow
+          xvfb-run -a python "$P/run282c_neural_volumetric_3d_ablation_NO_RELEASE.py" \
+            prior_mesh/upright_taubin10_cream_TRUE3D_NO_RELEASE.glb \
+            prior_image/juvenile_rightmost_masked_512_RESEARCH.png "$OUT" \
+            2>&1 | tee "$OUT/real_native_volumetric_QA.log"
+          python - <<'PY'
+          import json,pathlib
+          out=pathlib.Path('owl172-run282c-true-neural-3d-evidence-NO_RELEASE')
+          d=json.loads((out/'run282c_native_volumetric_gltf_QA.json').read_text())
+          assert len(d['variants'])==2
+          assert all(v['true_3D'] and v['watertight'] and v['texture'] and v['six_spatial_camera_images']==6 for v in d['variants'].values())
+          assert len(list(out.rglob('axis_*.png')))==12
+          print('Both native textured 3D GLBs and 12 true camera images validated; NOT art approved')
+          PY
+          touch "$OUT/reimport_and_views.success"
+      - name: Archive exact original source, QA and failures without release
+        if: always()
+        run: |
+          set -euo pipefail
+          mkdir -p "$OUT"
+          printf 'mesh=%s\nimage=%s\ngeneration=%s\nART_UNAPPROVED / PHONE_UNTESTED / NO_RELEASE\n' \
+            '${{ steps.prior_mesh.outcome }}' '${{ steps.prior_image.outcome }}' '${{ steps.generate.outcome }}' > "$OUT/STATUS_NO_RELEASE.txt"
+          cp "$P/run282c_neural_volumetric_3d_ablation_NO_RELEASE.py" "$OUT/implementation_source.py"
+          (cd "$OUT" && find . -type f ! -name SHA256SUMS.txt ! -name SHA256_VERIFY.txt -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$OUT" && sha256sum -c SHA256SUMS.txt > SHA256_VERIFY.txt)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run282c-two-real-volumetric-gltf-12-spatial-views-NORELEASE
+          path: owl172-run282c-true-neural-3d-evidence-NO_RELEASE/
+          retention-days: 14
+          if-no-files-found: error
+      - name: Final fail-closed gate
+        if: always()
+        run: |
+          grep -qx 'mesh=success' "$OUT/STATUS_NO_RELEASE.txt"
+          grep -qx 'image=success' "$OUT/STATUS_NO_RELEASE.txt"
+          grep -qx 'generation=success' "$OUT/STATUS_NO_RELEASE.txt"
+          test -f "$OUT/reimport_and_views.success"

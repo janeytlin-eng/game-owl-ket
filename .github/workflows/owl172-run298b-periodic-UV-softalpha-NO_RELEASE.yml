@@ -1,0 +1,104 @@
+name: "#172 Run298b continuous native UV + alpha down / real browser QA - NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run298b-periodic-UV-softalpha-real-mesh-NO_RELEASE
+    paths:
+      - '.github/workflows/owl172-run298b-periodic-UV-softalpha-NO_RELEASE.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  independent_no_release_rebuild_and_webgl:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/run298b_exact_source_NO_RELEASE.tar.gz.b64
+            owl-pet/3d-experiments/172-tyto-castanops/run292_real_browser_glb_test_NO_RELEASE.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run292_browser_viewer_uncropped_NO_RELEASE.html
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Rehydrate exact separately archived source and verify gzip SHA
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p owl172-run298b-scripts owl172-run298b-evidence
+          base64 -d owl-pet/3d-experiments/172-tyto-castanops/run298b_exact_source_NO_RELEASE.tar.gz.b64 > owl172-run298b-scripts/source.tar.gz
+          echo 'bc47db5fc233a2818009e9e65800bc75260d08e7eef05fdb492864bfee310a4e  owl172-run298b-scripts/source.tar.gz' | sha256sum -c -
+          tar xzf owl172-run298b-scripts/source.tar.gz -C owl172-run298b-scripts
+          test -s owl172-run298b-scripts/run298b_softwhite_experiment_NO_RELEASE.py
+      - name: Download previous verified source GLB and source atlas — no payments
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p owl172-run297-upstream
+          gh run download 45035737644 -R janeytlin-eng/game-owl-ket -n owl172-run297-two-real-glb-real-chrome-NO_RELEASE -D owl172-run297-upstream
+          echo 'd1f8ab4b3bb8791dfaf2d38b5f0dfd216e35ab8513097ecfdc213ae6706669dc  owl172-run297-upstream/run297b-real-owl-UV-fur-UNAPPROVED.glb' | sha256sum -c -
+          echo '257b6259ef674961760b7b1a6a9bfb092b8f9ffba2a994fc35838b1ea55aaf5  owl172-run297-upstream/run297b-UV-bake-ATLAS.png' | sha256sum -c -
+      - name: Generate actual native GLB and six true VTK spatial views
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install -q numpy scipy Pillow trimesh vtk
+          sudo apt-get update -qq && sudo apt-get install -y -qq xvfb libgl1 >/dev/null
+          python owl172-run298b-scripts/run298b_softwhite_experiment_NO_RELEASE.py \
+            --source-glb owl172-run297-upstream/run297b-real-owl-UV-fur-UNAPPROVED.glb \
+            --source-atlas owl172-run297-upstream/run297b-UV-bake-ATLAS.png \
+            --out owl172-run298b-evidence --cards 5500 \
+            | tee owl172-run298b-evidence/generation-log.txt
+          test -s owl172-run298b-evidence/run298b-seamless-down-NO_RELEASE.glb
+          xvfb-run -a python owl172-run298b-scripts/run298_render_local.py \
+            owl172-run298b-evidence/run298b-seamless-down-NO_RELEASE.glb \
+            owl172-run298b-evidence/vtk-six-views \
+            | tee owl172-run298b-evidence/vtk-log.txt
+      - name: Real Chromium SwiftShader WebGL2 and uncropped spatial views
+        shell: bash
+        env:
+          CHROME_BIN: /usr/bin/google-chrome
+        run: |
+          set -euo pipefail
+          npm install --no-save --no-audit --no-fund playwright-core@1.58.2 three@0.170.0 pngjs@7.0.0
+          node owl-pet/3d-experiments/172-tyto-castanops/run292_real_browser_glb_test_NO_RELEASE.mjs \
+            owl172-run297-upstream/run297b-real-owl-UV-fur-UNAPPROVED.glb \
+            owl172-run298b-evidence/run298b-seamless-down-NO_RELEASE.glb \
+            | tee owl172-run298b-evidence/browser-log.txt
+          cp -r owl172-run292-browser-evidence owl172-run298b-evidence/chromium-390x780
+      - name: Strict integrity with permanent NO_RELEASE label
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib,json
+          root=Path('owl172-run298b-evidence');root.mkdir(exist_ok=True)
+          gate={'real_native_mesh_experiment':True,'art_approved':False,'source_rights_cleared':False,
+                'physical_phone_tested':False,'release_allowed':False,
+                'warning':'Chromium software GPU/6 cameras are NOT proof of juvenile anatomy, plush down or phone performance.'}
+          (root/'NO_RELEASE_QUALITY_GATE.json').write_text(json.dumps(gate,indent=2))
+          lines=[]
+          for f in sorted(root.rglob('*')):
+              if f.is_file() and f.name!='SHA256SUMS.txt':
+                  lines.append(hashlib.sha256(f.read_bytes()).hexdigest()+'  '+str(f.relative_to(root)))
+          (root/'SHA256SUMS.txt').write_text('\n'.join(lines)+'\n')
+          print('hashed',len(lines))
+          PY
+          (cd owl172-run298b-evidence && sha256sum -c SHA256SUMS.txt)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run298b-real-native-cylindrical-alpha-chrome-NO_RELEASE
+          path: owl172-run298b-evidence/
+          retention-days: 14
+          if-no-files-found: warn

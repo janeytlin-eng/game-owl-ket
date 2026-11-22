@@ -88,6 +88,11 @@ for i, m in enumerate(meshes):
         rgb=np.asarray(tex.convert("RGB"), dtype=np.uint8)
         H,W=rgb.shape[:2]
         coords=np.asarray(uv,dtype=float)
+        # KHR_mesh_quantization: normalized UNSIGNED_SHORT UV values (0..65535).
+        # Trimesh exposes raw quantized floats; dequantize before texture sampling.
+        if np.max(coords)>2 and np.max(coords)<=65535:
+            coords=coords/65535.0
+            quantized_uv_mesh_count += 1
         uu=np.clip(((coords[:,0]%1)*(W-1)).astype(np.int64),0,W-1)
         vv=np.clip(((1-coords[:,1]%1)*(H-1)).astype(np.int64),0,H-1)
         colors=np.ascontiguousarray(rgb[vv,uu],dtype=np.uint8)
@@ -190,7 +195,7 @@ report={
   "paid_spend_usd":0,"release":False
 }
 (OUT/"run288_report.json").write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n")
-(OUT/"NO_RELEASE.txt").write_text("ACTUAL_NATIVE_TEXTURED_LOD / ART_REJECTED / PHONE_UNTESTED / SOURCE_RIGHTS_UNCERTAIN / NO_RELEASE\n")
+(OUT/"NO_RELEASE.txt").write_text("ACTUAL_NATIVE_TEXTURED_COMPACT_NOT_GEOMETRIC_LOD / ART_REJECTED / PHONE_UNTESTED / SOURCE_RIGHTS_UNCERTAIN / NO_RELEASE\n")
 # Omit the already pinned, previous-run original 43MB from the new archive.
 original.unlink()
 sums=[]

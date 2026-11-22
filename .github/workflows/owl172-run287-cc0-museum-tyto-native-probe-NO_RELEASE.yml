@@ -1,0 +1,153 @@
+name: "#172 Run287 genuine Tyto museum CC0 native GLB provenance and 6-view — NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run287-cc0-real-barnowl-museum-scan-NO_RELEASE
+    paths:
+      - ".github/workflows/owl172-run287-cc0-museum-tyto-native-probe-NO_RELEASE.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  museum_source_qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 22
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            owl-pet/AGENTS.md
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install zero-fee source inspection and true 3D rendering tools
+        run: |
+          set -euo pipefail
+          python -m pip install --disable-pip-version-check requests beautifulsoup4 numpy pillow trimesh vtk
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq xvfb libegl1 libgl1 > /dev/null
+      - name: Probe actual public CC0 museum Barn owl GLB; render only if real binary acquired
+        env:
+          LIBGL_ALWAYS_SOFTWARE: "1"
+        run: |
+          set -euo pipefail
+          xvfb-run -a python - <<'PY'
+          import requests,re,json,hashlib,os,sys,pathlib,zipfile,datetime
+          from urllib.parse import urljoin,urlparse
+          from bs4 import BeautifulSoup
+          import trimesh,numpy as np
+          from PIL import Image,ImageDraw
+          import vtk
+          E=pathlib.Path("owl-pet/3d-experiments/172-tyto-castanops/run287_evidence")
+          E.mkdir(parents=True,exist_ok=True)
+          URL="https://doc.ayootech.com/galeri"
+          PRIMARY="https://sketchfab.com/3d-models/barn-owl-0e65de5934db4f0eae02835ba7227dcc"
+          R={"run":"287","date_utc":datetime.datetime.now(datetime.timezone.utc).isoformat(),
+             "target":"#172 Tyto castanops v3 rightmost fluffy juvenile",
+             "source":"Virtual Museums of Malopolska barn owl museum taxidermy scan (adult; anatomy reference only)",
+             "primary_cc0_claim":PRIMARY,"mirror":URL,"attempted":[],
+             "rights":"Original Sketchfab page states CC0; mirror provenance / binary identity unverified",
+             "art":"ART_REJECTED_UNLESS_REVIEWED","mobile":"UNTESTED","release":False,"paid_usd":0}
+          S=requests.Session();S.headers["User-Agent"]="Mozilla/5.0 owl172-cc0-research-NoRelease/1.0"
+          try:
+            response=S.get(URL,timeout=35);response.raise_for_status()
+            html=response.text;R["mirror_http"]={"status":response.status_code,"chars":len(html),"sha256":hashlib.sha256(response.content).hexdigest()}
+            (E/"mirror_page_source.html").write_text(html[:700000],encoding="utf-8")
+            soup=BeautifulSoup(html,"html.parser")
+            nodes=soup.find_all(string=lambda v:bool(v) and v.strip().lower()=="barn owl")
+            R["exact_title_nodes"]=len(nodes)
+            pool=[];selections=[]
+            for node in nodes:
+              p=node.parent
+              for depth in range(7):
+                if p is None:break
+                links=[{"text":a.get_text(" ",strip=True)[:100],"href":a.get("href"),"download":a.get("download")}
+                       for a in p.find_all("a",href=True)[:30]]
+                dats={k:str(v)[:300] for k,v in p.attrs.items() if k.startswith("data-")}
+                selections.append({"depth":depth,"node_tag":p.name,"attrs":dats,"links":links,"html_excerpt":str(p)[:4000]})
+                for a in p.find_all("a",href=True):
+                  href=urljoin(URL,a["href"]);caption=a.get_text(" ",strip=True).lower()
+                  if "sketchfab.com" not in urlparse(href).netloc and ("download" in caption or ".glb" in href.lower() or "unduh" in caption):
+                    pool.append(href)
+                p=p.parent
+            R["dom_selection"]=selections[:16]
+            R["raw_contexts"]=re.findall(r".{0,500}Barn owl.{0,1600}",html,flags=re.I|re.S)[:5]
+            for m in R["raw_contexts"]:
+              for u in re.findall(r'(?:https?://|/)[^\s"\x27<>]+(?:\.glb|\.zip)(?:\?[^\s"\x27<>]+)?',m,re.I):
+                pool.append(urljoin(URL,u))
+            candidates=list(dict.fromkeys(pool))
+            R["candidate_urls"]=candidates[:30]
+            (E/"source_probe.json").write_text(json.dumps(R,indent=2,ensure_ascii=False))
+            real=None
+            for u in candidates[:9]:
+              entry={"url":u}
+              try:
+                if "sketchfab.com" in urlparse(u).netloc:continue
+                resp=S.get(u,timeout=100,stream=True,allow_redirects=True)
+                entry["status"]=resp.status_code;entry["content_type"]=resp.headers.get("content-type","")
+                chunks=[];size=0
+                for chunk in resp.iter_content(1024*1024):
+                  chunks.append(chunk);size+=len(chunk)
+                  if size>75000000:raise RuntimeError("greater than 75MB asset limit")
+                raw=b"".join(chunks);entry["bytes"]=len(raw)
+                entry["magic"]=raw[:4].decode("ascii","replace")
+                entry["sha256"]=hashlib.sha256(raw).hexdigest()
+                if raw[:4]==b"glTF":
+                  real=raw;R["downloaded_from"]=u;break
+                if raw[:2]==b"PK":
+                  try:
+                    z=zipfile.ZipFile(__import__("io").BytesIO(raw))
+                    glbs=[x for x in z.namelist() if x.lower().endswith(".glb")]
+                    if glbs:
+                      obj=z.read(glbs[0])
+                      if obj[:4]==b"glTF":real=obj;R["downloaded_from"]=u+" inside ZIP";break
+                  except Exception as e:entry["zip_error"]=str(e)[:160]
+              except Exception as exc:entry["error"]=str(exc)[:230]
+              finally:R["attempted"].append(entry)
+            if real is None:
+              R["outcome"]="SOURCE_NOT_ACQUIRED";R["reason"]="no verifiable publicly downloadable GLB in source page; no auth bypass"
+            else:
+              model=E/"museum_barn_owl_ADULT_REFERENCE_ONLY_NO_RELEASE.glb";model.write_bytes(real)
+              scene=trimesh.load(model,force="scene",process=False)
+              meshes=[m for m in scene.geometry.values() if isinstance(m,trimesh.Trimesh)]
+              count=sum(len(m.faces) for m in meshes)
+              R["native_geometry"]={"triangles":count,"meshes":len(meshes),
+                "vertices":sum(len(m.vertices) for m in meshes),"bounds":np.asarray(scene.bounds).tolist(),
+                "bytes":len(real),"sha256":hashlib.sha256(real).hexdigest()}
+              if count<5000:raise RuntimeError("not a high quality true mesh")
+              renderer=vtk.vtkRenderer();window=vtk.vtkRenderWindow()
+              window.SetOffScreenRendering(1);window.SetSize(450,450);window.AddRenderer(renderer)
+              importer=vtk.vtkGLTFImporter();importer.SetFileName(str(model));importer.SetRenderWindow(window);importer.Update()
+              b=renderer.ComputeVisiblePropBounds();c=np.array([(b[0]+b[1])/2,(b[2]+b[3])/2,(b[4]+b[5])/2]);d=max(b[1]-b[0],b[3]-b[2],b[5]-b[4])*2.4
+              renderer.SetBackground(.94,.93,.90);cam=renderer.GetActiveCamera();cam.SetViewAngle(29)
+              vv=[]
+              for name,axis,up in [("posZ",(0,0,1),(0,1,0)),("quarter",(0.8,.1,.8),(0,1,0)),("posX",(1,0,0),(0,1,0)),
+                 ("negZ",(0,0,-1),(0,1,0)),("negX",(-1,0,0),(0,1,0)),("top",(0,1,0),(0,0,-1))]:
+                cam.SetPosition(*(c+d*np.asarray(axis)));cam.SetFocalPoint(*c);cam.SetViewUp(*up);cam.SetClippingRange(.01,100*d)
+                window.Render();w=vtk.vtkWindowToImageFilter();w.SetInput(window);w.SetInputBufferTypeToRGB();w.ReadFrontBufferOff();w.Update()
+                pn=E/(name+".png");pw=vtk.vtkPNGWriter();pw.SetFileName(str(pn));pw.SetInputConnection(w.GetOutputPort());pw.Write()
+                vv.append((name,Image.open(pn).convert("RGB")))
+              image=Image.new("RGB",(1350,950),"#eee9e3");draw=ImageDraw.Draw(image)
+              for i,(name,img) in enumerate(vv):
+                x=(i%3)*450;y=(i//3)*475;image.paste(img,(x,y));draw.text((x+12,y+453),name,fill=(50,42,32))
+              image.save(E/"native_six_true_views_REVIEW.png")
+              R["outcome"]="TRUE_NATIVE_3D_SIX_VIEWS_RESEARCH_ONLY"
+              R["art"]="ART_REJECTED: adult museum specimen is not rightmost cream juvenile; no down grooming or mobile rig"
+          except Exception as exc:
+            R["outcome"]="PROBE_EXCEPTION";R["error"]=type(exc).__name__+": "+str(exc)[:450]
+          finally:
+            (E/"run287_report.json").write_text(json.dumps(R,indent=2,ensure_ascii=False))
+            names=sorted(p for p in E.iterdir() if p.is_file() and p.name!="SHA256SUMS.txt")
+            (E/"SHA256SUMS.txt").write_text("".join(hashlib.sha256(p.read_bytes()).hexdigest()+"  "+p.name+"\n" for p in names))
+            (E/"NO_RELEASE.txt").write_text(R["outcome"]+" / ART_REJECTED / MOBILE_UNTESTED / NO_RELEASE\n")
+            print(json.dumps({k:R.get(k) for k in ["outcome","native_geometry","candidate_urls","error","reason"]},ensure_ascii=False))
+          PY
+      - name: Always archive actual source probe and real GLB if acquired; never release
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run287-real-museum-barn-owl-probe-RESEARCH-NO_RELEASE
+          path: owl-pet/3d-experiments/172-tyto-castanops/run287_evidence/
+          retention-days: 14
+          if-no-files-found: error

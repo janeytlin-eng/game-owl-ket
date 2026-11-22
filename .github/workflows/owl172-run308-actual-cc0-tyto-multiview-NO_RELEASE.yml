@@ -1,0 +1,109 @@
+name: "owl172 Run308 real textured CC0 Tyto anatomy and hollow multiview NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run308-real-cc0-tyto-multiview-asset-gate-NO_RELEASE
+    paths:
+      - '.github/workflows/owl172-run308-actual-cc0-tyto-multiview-NO_RELEASE.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run308_actual_cc0_tyto_base_fetch_NO_RELEASE.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  real_asset_test:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/design/concepts/172-tyto-castanops-v3.png
+            owl-pet/3d-experiments/172-tyto-castanops/run295_real_reference_cutout_preprocess_ONLY_NO_RELEASE.py
+            owl-pet/3d-experiments/172-tyto-castanops/run292_real_browser_glb_test_NO_RELEASE.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run292_browser_viewer_uncropped_NO_RELEASE.html
+            owl-pet/3d-experiments/172-tyto-castanops/run308_actual_cc0_tyto_base_fetch_NO_RELEASE.py
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Restore immutable original rightmost chick reference
+        run: |
+          set -euo pipefail
+          python -m pip install -q Pillow numpy opencv-python-headless trimesh
+          python owl-pet/3d-experiments/172-tyto-castanops/run295_real_reference_cutout_preprocess_ONLY_NO_RELEASE.py >run308-reference-build.log
+          test "$(sha256sum owl172-run295-evidence/young-isolated-white-background-input-NO_3D.png | awk '{print $1}')" = 6ec346e5b02411f9509fd364db748c23a58075aeec461ef7424adcc4d893bc77
+          mkdir -p owl172-run308-evidence/reference
+          cp owl172-run295-evidence/young-isolated-white-background-input-NO_3D.png owl172-run308-evidence/reference/
+          cp run308-reference-build.log owl172-run308-evidence/
+      - name: Actually fetch original native real-mesh textured CC0-advertised Tyto and hollow sources
+        timeout-minutes: 4
+        run: |
+          set -euo pipefail
+          python owl-pet/3d-experiments/172-tyto-castanops/run308_actual_cc0_tyto_base_fetch_NO_RELEASE.py | tee owl172-run308-evidence/source-stdout.txt
+      - name: Actually render front right back in 390x780 Chromium WebGL2 for each real GLB
+        timeout-minutes: 5
+        env:
+          CHROME_BIN: /usr/bin/google-chrome
+        run: |
+          set -euo pipefail
+          npm install --no-save --no-audit --no-fund playwright-core@1.58.2 three@0.170.0 pngjs@7.0.0
+          for src in owl172-run308-evidence/*-ORIGINAL_CC0_NOT_172_JUVENILE.glb; do
+            if test -f "$src"; then
+              label="$(basename "$src" | sed 's/-ORIGINAL.*//')"
+              mkdir -p "owl172-run308-evidence/multiview-$label"
+              if node owl-pet/3d-experiments/172-tyto-castanops/run292_real_browser_glb_test_NO_RELEASE.mjs "$src" >"owl172-run308-evidence/multiview-$label/browser-stdout.txt" 2>&1; then
+                echo pass >"owl172-run308-evidence/multiview-$label/WEBGL2_PASS_BUT_NOT_CHICK.flag"
+              else
+                echo fail >"owl172-run308-evidence/multiview-$label/WEBGL2_HOLD.flag"
+              fi
+              if test -d owl172-run292-browser-evidence; then
+                cp -r owl172-run292-browser-evidence/. "owl172-run308-evidence/multiview-$label/"
+                rm -rf owl172-run292-browser-evidence
+              fi
+            fi
+          done
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image,ImageDraw
+          p=Path('owl172-run308-evidence')
+          for views in p.glob('multiview-*'):
+              imgs=[views/('model1_'+k+'.png') for k in ('front','right','back')]
+              if not all(x.exists() for x in imgs):continue
+              out=Image.new('RGB',(390*3,780),(239,232,220))
+              for i,f in enumerate(imgs):
+                  im=Image.open(f).convert('RGB');out.paste(im,(i*390,0))
+              out.save(views/'three-spatial-views-AUDIT_NOT_RELEASE.png')
+          PY
+      - name: Manifest/hash/strict veto, no user-visible promotion
+        if: always()
+        run: |
+          set -euo pipefail
+          mkdir -p owl172-run308-evidence
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib,json,datetime
+          p=Path('owl172-run308-evidence')
+          models=list(p.glob('*-ORIGINAL_CC0_NOT_172_JUVENILE.glb'))
+          views=list(p.glob('multiview-*/model1_front.png'))
+          out={'run':308,'native_asset_sources':len(models),'webgl2_front_images':len(views),
+               'adult_reference_only':True,'target_juvenile_models':0,
+               'groomed_cream_down_pass':False,'target_juvenile_anatomy_pass':False,
+               'real_phone_tested':False,'supplier_claims_cc0_independent_rights_review_pending':True,
+               'paid_usd':0,'art_approved':False,'release_allowed':False}
+          (p/'STRICT_NO_RELEASE.json').write_text(json.dumps(out,indent=2))
+          lines=[hashlib.sha256(f.read_bytes()).hexdigest()+'  '+str(f.relative_to(p))
+              for f in sorted(p.rglob('*')) if f.is_file() and f.name!='SHA256SUMS.txt']
+          (p/'SHA256SUMS.txt').write_text('\n'.join(lines)+'\n')
+          print('RUN308:',out,'evidence files',len(lines))
+          PY
+          (cd owl172-run308-evidence && sha256sum -c SHA256SUMS.txt)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run308-real-tyto-adult-and-hollow-3d-research-NO_RELEASE
+          path: owl172-run308-evidence/
+          retention-days: 14
+          if-no-files-found: warn

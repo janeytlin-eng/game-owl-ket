@@ -86,7 +86,7 @@ async function test(site){
   for(let i=0;i<Math.min(await buttons.count(),80);i++){
     const b=buttons.nth(i);const t=(await b.innerText().catch(()=>''))?.trim()||'';
     // Avoid the enabled hero navigation "Generate 3D Free"; choose actual submit button.
-    if(!/^(GENERATE\s*Fast|Generate My 3D Model|Generate 3D Model)$/i.test(t))continue;
+    if(!/^(GENERATE\s*Fast|Generate My 3D Model|Generate 3D Model)/i.test(t))continue;
     if(/buy|credit|pay|premium|subscribe|pro/i.test(t))continue;
     if(!await b.isVisible().catch(()=>false)||!await b.isEnabled().catch(()=>false))continue;
     chosen={i,text:t.slice(0,110)};break;

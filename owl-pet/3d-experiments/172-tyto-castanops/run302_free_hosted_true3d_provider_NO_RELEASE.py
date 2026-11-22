@@ -135,7 +135,7 @@ try:
     if not choice:raise RuntimeError("no compatible documented hosted free tool found")
     R["selection"]=choice
     R["image_conditioned"]=choice=="mesh_forge"
-    event("generation_selected",name=choice,image_conditioned=R["image_conditioned"],
+    event("generation_selected",tool=choice,image_conditioned=R["image_conditioned"],
           arg_keys=list(args),no_credentials=True)
     result=call("tools/call",{"name":choice,"arguments":args},ident=5,timeout=260)
     R["normal_free_submissions"]=1

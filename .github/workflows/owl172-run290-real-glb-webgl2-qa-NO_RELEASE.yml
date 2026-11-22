@@ -1,0 +1,74 @@
+name: "#172 Run290 actual 3D browser Three.js WebGL2 QA — NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run290-juvenile-and-adult-real-webgl2-gate-NO_RELEASE
+    paths:
+      - '.github/workflows/owl172-run290-real-glb-webgl2-qa-NO_RELEASE.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run290_real_browser_glb_test_NO_RELEASE.mjs'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run290_browser_viewer_NO_RELEASE.html'
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  real_glb_browser_technical_only:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/run290_real_browser_glb_test_NO_RELEASE.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run290_browser_viewer_NO_RELEASE.html
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install free browser loader tools
+        run: |
+          set -euo pipefail
+          npm install --no-save --no-audit --no-fund three@0.170.0 playwright-core@1.58.2 pngjs@7.0.0
+          command -v google-chrome || command -v chromium || true
+      - name: Download actual historical juvenile and adult native GLB artifacts via GitHub token
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p run290-input/juvenile run290-input/adult
+          gh run download 44969878468 -R janeytlin-eng/game-owl-ket -n owl172-run281b-two-actual-TripoSR-meshes-12-views-NORELEASE -D run290-input/juvenile
+          gh run download 45007983178 -R janeytlin-eng/game-owl-ket -n owl172-run289-NATIVE-LOD-TECH-ART-REJECTED-NO_RELEASE -D run290-input/adult
+          find run290-input -iname '*.glb' -exec ls -lh {} \;
+          python - <<'PY'
+          import glob,hashlib
+          juvenile=glob.glob('run290-input/juvenile/**/*.glb',recursive=True)
+          adult=glob.glob('run290-input/adult/**/*.glb',recursive=True)
+          assert juvenile and adult, 'Missing real native GLB input'
+          sha='1ba0df06ef23bf66e95198007c075bb878b3c3bb321069edefe1da4561bfcce7'
+          assert any(hashlib.sha256(open(p,'rb').read()).hexdigest()==sha for p in adult), 'Adult native LOD SHA pin mismatch'
+          print('Verified candidates:',len(juvenile),'juvenile,',len(adult),'adult')
+          PY
+      - name: Actual 390x780 Chromium GLTFLoader WebGL2 and three 3D camera captures
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          CHROME_BIN: /usr/bin/google-chrome
+        run: |
+          set -euo pipefail
+          node --check owl-pet/3d-experiments/172-tyto-castanops/run290_real_browser_glb_test_NO_RELEASE.mjs
+          juvenile="$(find run290-input/juvenile -iname '*.glb' | sort | head -1)"
+          adult="$(find run290-input/adult -iname '*.glb' | sort | head -1)"
+          test -f "$juvenile"
+          test -f "$adult"
+          node owl-pet/3d-experiments/172-tyto-castanops/run290_real_browser_glb_test_NO_RELEASE.mjs "$juvenile" "$adult" 2>&1 | tee run290-execution.log
+          cp run290-execution.log owl172-run290-evidence/run290-execution.log
+          (cd owl172-run290-evidence && sha256sum run290-execution.log >> SHA256SUMS.txt && sha256sum -c SHA256SUMS.txt)
+      - name: Always retain negative and positive technical evidence; do NOT publish juvenile
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run290-actual-browser-WebGL2-TECH-ART-REJECTED-NO_RELEASE
+          path: |
+            owl172-run290-evidence/
+            run290-execution.log
+          retention-days: 21
+          if-no-files-found: warn

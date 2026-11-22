@@ -84,5 +84,5 @@ finally{
  const lines=fs.readdirSync(out).sort().filter(n=>n!=='SHA256SUMS.txt').map(n=>
  sha(fs.readFileSync(path.join(out,n)))+'  '+n);
  fs.writeFileSync(path.join(out,'SHA256SUMS.txt'),lines.join('\n')+'\n');
- console.log('RUN294',report.final_gate,'files',lines.length,'cost',$='0 USD');
+ console.log('RUN294',report.final_gate,'files',lines.length,'cost','0 USD');
 }

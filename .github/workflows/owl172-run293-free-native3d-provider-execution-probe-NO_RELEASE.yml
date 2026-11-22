@@ -1,0 +1,73 @@
+name: "#172 Run293 free native-3D service real browser execution probe - NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run293-free-native3d-provider-execution-probe-NO_RELEASE
+    paths:
+      - '.github/workflows/owl172-run293-free-native3d-provider-execution-probe-NO_RELEASE.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run293_free_native3d_browser_probe_NO_RELEASE.mjs'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  anonymous_zero_dollar_native_glb_probe:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/run293_free_native3d_browser_probe_NO_RELEASE.mjs
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Prepare explicit synthetic probe image, NOT user concept art
+        run: |
+          set -euo pipefail
+          pip install -q pillow
+          python - <<'PY'
+          from PIL import Image,ImageDraw,ImageFilter
+          im=Image.new('RGB',(320,320),(246,246,246))
+          d=ImageDraw.Draw(im)
+          d.ellipse((100,135,220,285),fill=(242,236,221))
+          d.ellipse((95,52,225,182),fill=(242,237,223))
+          d.polygon([(101,80),(160,107),(219,80),(205,141),(160,171),(115,141)],fill=(241,229,205))
+          d.ellipse((123,112,141,130),fill=(25,25,25))
+          d.ellipse((179,112,197,130),fill=(25,25,25))
+          d.polygon([(157,129),(167,129),(162,141)],fill=(195,158,132))
+          im=im.filter(ImageFilter.GaussianBlur(.55))
+          im.save('synthetic_owl_test.png')
+          PY
+      - name: Run only no-login no-credit normal browser interaction once
+        shell: bash
+        env:
+          CHROME_BIN: /usr/bin/google-chrome
+        run: |
+          set -euo pipefail
+          npm install --no-save --no-audit --no-fund playwright-core@1.58.2
+          node --check owl-pet/3d-experiments/172-tyto-castanops/run293_free_native3d_browser_probe_NO_RELEASE.mjs
+          node owl-pet/3d-experiments/172-tyto-castanops/run293_free_native3d_browser_probe_NO_RELEASE.mjs 2>&1 | tee run293-log.txt
+          cp run293-log.txt owl172-run293-evidence/
+          (cd owl172-run293-evidence && sha256sum run293-log.txt >> SHA256SUMS.txt && sha256sum -c SHA256SUMS.txt)
+      - name: Force hold on art or rights; no unreviewed GLB permitted
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p owl172-run293-evidence
+          if find owl172-run293-evidence -type f \( -iname '*.glb' -o -iname '*.fbx' -o -iname '*.obj' \) | grep -q .; then
+            echo 'Uncleared third-party mesh found in artifact! Refusing.' >&2
+            exit 1
+          fi
+          echo 'ART_UNREVIEWED / RIGHTS_UNVERIFIED / NO_PHONE / NO_RELEASE' > owl172-run293-evidence/FINAL_HOLD.flag
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run293-single-anonymous-3d-service-probe-ART_UNREVIEWED-NO_RELEASE
+          path: owl172-run293-evidence/
+          retention-days: 14
+          if-no-files-found: warn

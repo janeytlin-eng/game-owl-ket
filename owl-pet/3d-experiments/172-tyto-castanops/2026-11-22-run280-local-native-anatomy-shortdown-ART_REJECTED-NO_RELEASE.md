@@ -17,8 +17,8 @@ Used offline NumPy, Trimesh, VTK and Pillow on the authentic body. Extracted ori
 | version | native triangles | meshes | file bytes | SHA256 |
 |---|---:|---:|---:|---|
 | control (hair removed) | 55,972 | 1 | 1,008,048 | `bb337d1b905d0404412f8e844ffb00fdce423d1aefbb50e76bf24260bf328ad2` |
-| anatomy deformation only | 55,972 | 1 | 1,119,860 | `[see local QA report]` |
-| anatomy + short cream 3D down | 65,172 | 2 | 1,525,444 | `[see local QA report]` |
+| anatomy deformation only | 55,972 | 1 | 1,119,860 | `03ebc8b8e674e48a2a32aa4a6b7bcf12265596403f4fe38bd6cb842af9fa2863` |
+| anatomy + short cream 3D down | 65,172 | 2 | 1,525,444 | `9e592601f6a45e9a3163df7c80fd5ea0a9dccedcea8db7080df0eec7190d84b4` |
 
 All variants were **actually rendered from front, three-quarter, right, back, left, and top spatial camera positions** using VTK glTF import, yielding **18 distinct native 3D view files** and a 3×6 review montage. The updated sculpture's rearmost depth bound advanced by **0.23749 glTF units** relative to the original, proving real geometry changed. Original colours restored as warm cream with naturally brown facial-disc shading; no false RGB remained. This is local workstation rendering, **not** a Chromium/WebGL2 nor physical-phone test.
 
@@ -28,7 +28,7 @@ Local evidence ZIP: `/mnt/data/owl172-run280-genuine3d-qa-NO_RELEASE.zip`, **4,9
 
 Opened corrected montage and full-resolution front, side, and back. Compared with source and the reference target. Rear wedge modestly shortened and cream/brown colouring preserved. But the shape remains an **adult upright shell**, face too hard with an over-defined disc, folded wings rigid and too long, talons exaggerated, rear coat still unlayered. Short tapered plumes improve coverage over Run279's porcupine bristles but read as **salt-and-pepper carved flecks** at 512px, not dense warm soft infant down. No eucalyptus hollow, animation, pet interface, or physical phone GPU test. Original donor's Hunyuan noncommercial provenance is unresolved. **ART_REJECTED / NO_RELEASE.**
 
-Free-tool research additionally found [GroomLab](https://github.com/thekesslereffect/groomlab), a free Apache-2.0 groom system with claimed hair/feather cards, baking and glTF export, and [Mesh Hair Generator](https://github.com/Greg-Aster/Blender-Generate-Hair-as-Mesh-add-on), a Blender hair-to-mesh add-on. Neither was installed nor verified in this run; no unearned claim about quality or compatibility. They are future candidate tool evaluations, not accomplished source assets. **No paid tools or credits consumed.**
+Source-controlled [Run280c independent reproduction workflow](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44968054567) was launched with the same donor SHA256 and its own reproducibility program. Outcome must be confirmed from GitHub Actions before it can be cited as a pass.\n\nFree-tool research additionally found [GroomLab](https://github.com/thekesslereffect/groomlab), a free Apache-2.0 groom system with claimed hair/feather cards, baking and glTF export, and [Mesh Hair Generator](https://github.com/Greg-Aster/Blender-Generate-Hair-as-Mesh-add-on), a Blender hair-to-mesh add-on. Neither was installed nor verified in this run; no unearned claim about quality or compatibility. They are future candidate tool evaluations, not accomplished source assets. **No paid tools or credits consumed.**
 
 ## Isolation / status
 

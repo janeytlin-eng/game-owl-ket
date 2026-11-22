@@ -1,0 +1,91 @@
+name: "#172 Run284 independent organic sculpt and alpha-down — RESEARCH NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run284-independent-organic-alpha-down-ART_REJECTED-NO_RELEASE
+    paths:
+      - .github/workflows/owl172-run284-organic-sculpt-alpha-down-NO_RELEASE.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/run284_independent_organic_alpha_down_NO_RELEASE.py
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  native_3d_qa:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    env:
+      SRC: owl-pet/3d-experiments/172-tyto-castanops
+      OUT: owl172-run284-NATIVE3D-ART_REJECTED-NO_RELEASE
+    steps:
+      - name: Checkout isolated research source
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/run281_triposr_cpu_juvenile_reference_NO_RELEASE.py
+            owl-pet/3d-experiments/172-tyto-castanops/run284_independent_organic_alpha_down_NO_RELEASE.py
+      - name: Fetch pinned original owlet reference
+        id: upstream
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: owl172-run283-two-authentic-neural-GLB-12-views-RESEARCH-NO_RELEASE
+          run-id: 44978752673
+          github-token: ${{ github.token }}
+          path: upstream
+      - name: Actually sculpt export and render two native GLBs
+        id: sculpt
+        if: steps.upstream.outcome == 'success'
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          mkdir -p "$OUT"
+          echo '8eee63bf0b8650c390d4c4bba6a07a0c2dd05dd7fc2e90e00a896ec3ab51c641  upstream/reference_512_from_original_atlas_RESEARCH.png' | sha256sum -c -
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libegl1 libgl1 xvfb >/dev/null
+          python -m pip install --disable-pip-version-check 'numpy<2' scipy scikit-image trimesh pillow matplotlib vtk
+          xvfb-run -a python "$SRC/run284_independent_organic_alpha_down_NO_RELEASE.py" upstream/reference_512_from_original_atlas_RESEARCH.png "$OUT" 2>&1 | tee "$OUT/native_sculpt_execution.log"
+          for id in organic_base organic_alpha; do
+            model="$OUT/run284_$id"_RESEARCH_NO_RELEASE.glb
+            xvfb-run -a python "$SRC/run281_triposr_cpu_juvenile_reference_NO_RELEASE.py" qa "$model" "$OUT/$id"_six_views 2>&1 | tee -a "$OUT/native_render_execution.log"
+          done
+          python - <<'PY'
+          from pathlib import Path
+          import json,trimesh
+          out=Path('owl172-run284-NATIVE3D-ART_REJECTED-NO_RELEASE')
+          d=json.loads((out/'run284_machine_report.json').read_text())
+          assert set(d['versions'])=={'organic_base','organic_alpha'}
+          assert len(list(out.rglob('axis_*.png')))==12
+          assert d['versions']['organic_alpha']['real_triangles']>d['versions']['organic_base']['real_triangles']
+          for name in d['versions']:
+            f=out/f'run284_{name}_RESEARCH_NO_RELEASE.glb'
+            s=trimesh.load(f,force='scene')
+            assert len(s.geometry)>20
+          print('True native 3D technical pipeline, NOT art acceptance or phone validation')
+          PY
+          touch "$OUT/model_and_views.success"
+      - name: Write immutable evidence hash manifest, explicitly reject art
+        if: always()
+        run: |
+          set -euo pipefail
+          mkdir -p "$OUT"
+          printf 'source_download=%s\nreal_sculpt=%s\nART_NOT_APPROVED / PHYSICAL_PHONE_UNTESTED / NO_RELEASE\n' '${{ steps.upstream.outcome }}' '${{ steps.sculpt.outcome }}' > "$OUT/STATUS_NO_RELEASE.txt"
+          cp "$SRC/run284_independent_organic_alpha_down_NO_RELEASE.py" "$OUT/implementation_source.py"
+          (cd "$OUT"; find . -type f ! -name SHA256SUMS.txt ! -name SHA256_VERIFY.txt -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$OUT"; sha256sum -c SHA256SUMS.txt > SHA256_VERIFY.txt)
+      - name: Archive actual research materials separately
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run284-independent-organic-alpha-down-realGLB-RESEARCH-NO_RELEASE
+          path: owl172-run284-NATIVE3D-ART_REJECTED-NO_RELEASE/
+          retention-days: 14
+          if-no-files-found: error
+      - name: Fail closed if essential tests did not execute
+        if: always()
+        run: |
+          set -euo pipefail
+          grep -qx 'source_download=success' "$OUT/STATUS_NO_RELEASE.txt"
+          grep -qx 'real_sculpt=success' "$OUT/STATUS_NO_RELEASE.txt"
+          test -f "$OUT/model_and_views.success"

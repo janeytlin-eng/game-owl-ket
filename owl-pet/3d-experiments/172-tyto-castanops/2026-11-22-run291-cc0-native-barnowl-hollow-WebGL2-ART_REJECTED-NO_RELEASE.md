@@ -1,0 +1,39 @@
+# #172 *Tyto castanops* v3 — Run291 independently acquired free native owl + hollow sources, browser checked, ART_REJECTED / NO_RELEASE
+
+**Date:** 2026-11-22, Asia/Shanghai. **Final status:** `TWO_REAL_SOURCE_GLBS_DOWNLOADED / TWO_NATIVE_GLTF_WEBGL2_PASS / SIX_REAL_BROWSER_VIEWS_PASS / ART_REJECTED / PHYSICAL_PHONE_UNTESTED / RIGHTS_CHAIN_UNVERIFIED / NO_RELEASE`.
+
+## Target, required protections, starting point
+
+Before this experiment reread `owl-pet/AGENTS.md`, `README.md`, `STATUS.md`, original kitten WebGL prototype, existing design source `design/concepts/172-tyto-castanops-v3.png` and Run290's Chromium/SwiftShader rejection. The target is **the rightmost cream-white, fluffy, heart-faced young *Tyto castanops* in the eucalyptus hollow**. Earlier Runs281–290 tested poor rocky juvenile neural 3D / adult museum 3D and technical LOD/WebGL; none was art-approved. Not an invitation to recolour an adult taxidermy model.
+
+Run291 instead actually probed a previously untried **free** catalog, retrieved two independently authored-by-provider genuine native triangulated GLBs, and tested both in the browser. This is a donor-source quality gate, NOT the creation of a new high-quality chick. All work is isolated in `research/owl172-run291-cc0-juvenile-donor-source-gate-NO_RELEASE`; main, 251-species production flow, concept/master design, kitten prototype and deployments are unmodified. No billed tool, paid asset, fabricated SVG/geometry or payment authorization used.
+
+## Actually obtained source binaries
+
+Source pack: https://3dassets.dev/packs/birds-and-reptiles-hd — provider machine manifest https://3dassets.dev/api/v1/packs/birds-and-reptiles-hd (HTTP200; 212,699 bytes; SHA256 `746343eaa15d01ec4357a087f2f2a44dbdca7b48c84369f127b87120eaf886e2`). Manifest explicitly lists two separately downloadable assets, with CDN URLs, CC0-1.0 declared by the site, and AI-generation disclosed. This is a **site-provided license assertion**, not independently established chain of authorship or image/input rights.
+
+1. [Barn owl published asset](https://3dassets.dev/assets/birds-and-reptiles-hd-barn-owl-b51d286f), actual original https://cdn.3dassets.dev/assets/28079/v1/model.glb — HTTP200 `glTF`, **369,708 bytes**, SHA256 `044dbcfeaf008deff45ff7f227fb0c0dc7e984177a20745345656e1b4b141bc2`; independent Trimesh native roundtrip: **6 meshes, 16,972 actual triangles, 12,503 vertices, 6 materials, 4 UV meshes**. No rig or animation. This is a stylized **adult-looking static barn owl**, not the rightmost *Tyto castanops* mesoptile.
+
+2. [Tree stump with hollow published asset](https://3dassets.dev/assets/birds-and-reptiles-hd-tree-stump-with-hollow-5ad1c3f4), actual original https://cdn.3dassets.dev/assets/28115/v1/model.glb — HTTP200 `glTF`, **125,636 bytes**, SHA256 `3bc6ccb7ef14e7f72b2f0182e42053c5492f1d5277d5f84e6af131f60b05c5b1`; independent Trimesh native roundtrip: **4 meshes, 3,479 actual triangles, 2,217 vertices, 4 materials, 4 UV meshes**. Stylized upright cut tree stump, not a botanically believable living old eucalyptus cavity.
+
+**Quantization caveat:** a naïve Trimesh bounds calculation produced coordinates thousands of units wide for both GLBs; these are misleading under the imported `KHR_mesh_quantization` transforms. **The actual GLTFLoader scene bounds are correct**: owl XYZ extents about `0.206 × 0.401 × 0.607` m, stump `1.174 × 0.708 × 1.229` m, agreeing with provider manifest. Never use raw pre-transform bounds to certify scale/camera framing.
+
+## Real browser and reproducibility evidence
+
+[Actual GitHub Actions execution #45014223297](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/45014223297) passed all steps on an isolated runner; code paths:
+- `run291_cc0_barnowl_hollow_native_source_QA_NO_RELEASE.py`: real HTTPS manifest/catalog candidate lookup, source GLB download, glTF magic and size guard, actual Python Trimesh 3D import and dimension records, SHA256 reporting.
+- `.github/workflows/owl172-run291-cc0-juvenile-eligible-source-real-native-webgl-NO_RELEASE.yml`: no-billing install, actual source, browser validation and isolated artifact, original v3 rightmost reference comparison.
+- Reused the actual `run290_real_browser_glb_test_NO_RELEASE.mjs` and `run290_browser_viewer_NO_RELEASE.html` Three.js `GLTFLoader` / WebGL2 Chromium workflow from Run290, **not a synthetic 2D turntable**. Renderer is `ANGLE SwiftShader` software GPU, 390×780 mobile-emulated viewport.
+
+Both original source GLBs actually loaded in Chromium **WebGL2**, with front / right / back camera positions and six **independent nonempty actual 3D screenshots**. Owl front/right/back visible foreground approx **32.249% / 46.036% / 26.641%**; tree front/right/back approx **47.646% / 45.932% / 45.217%**; every angle's image hash differs. The owl reported one noncritical browser-console HTTP404 (resource unspecified), with no GLB loader failure; tree had none. Browser test proves only rendering in **desktop software emulation**; no physical Android/iOS/WebGPU, mobile FPS, heat, memory, touch, blink/groom physics, animation or sustained load check.
+
+The independent [original Run291 evidence ZIP](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/45014223297/artifacts/14751302165) was actually downloaded into a separate inspection container. **1,670,951 bytes**, SHA256 **`afbeba1ed1b21d63ddbcb12404d569280d59c87c16a0b889f19fe9ca8a0cf821`**, matching GitHub artifact digest. **18/18 ZIP members CRC valid; 16/16 internal SHA256 file checks valid.** Contains both actual GLBs, raw catalog manifest, metadata, 6 browser PNGs, browser report, source/console logs, reference crop, side-by-side actual screenshot contact sheet, explicit no-release marker. Artifact expires **2026-12-06**; it is not a permanent shipped or hosted electronic-pet GLB.
+
+## Independent actual visual inspection — ART_REJECTED
+
+Opened the contact sheet of **actual Chromium screenshots** against the original rightmost v3 juvenile image, not just run logs:
+- **Owl:** frontal face is a smooth white, almost circular **hard plate** with two black button eyes, small yellow irises, an exaggerated yellow pointed beak, conspicuous artificial triangular feather tufts, and beige block-like rounded belly; neither a plausible heart-shaped cupped juvenile face nor cream-white short diffuse down. Side reveals crude solid oblong wing slabs without natural feather layering; backside shows stiff parallel upward strips, not coherent young Tyto plumage; legs/claws are exposed and elongated. Visible 3D existence does not imply anatomically right 3D.
+- **Tree:** appears as a stylized **freshly cut stump**, polygonal exposed roots and a black round portal on one vertical face; no credible weathered old living eucalyptus wood rim/lip or a surface where baby chick naturally grips two feet.
+- No integrated character perched in the old hollow, no infant proportions matching reference, no believable soft plumage, no eyes with life, no credible wing and foot anatomy, no actual mobile device QA. It would violate the user's explicit prohibition to present these low-quality sources as a release candidate. Even though owl and stump are separate genuinely imported GLBs, they must **NOT** be passed off as a combined high-quality professional pet.
+
+**Final:** `NATIVE_ASSET_ACQUISITION_PASS / REAL_BROWSER_GLTF2_TECH_PASS / SIX_VIEW_VISUAL_ART_FAIL / ORIGINAL_RIGHTMOST_JUVENILE_UNBUILT / RIGHTS_NOT_CLEARED / PHONE_UNTESTED / NO_RELEASE`. This experiment establishes no-cost GLB discovery and actual native browser QA, but confirms that machine-advertised “realistic/CC0/heart-shaped” marketplace descriptions are insufficient for the specific downy owl. Next viable path still demands a genuine artist-sculpted infant Tyto base with back/side morphology, quality groom and accurate old eucalyptus hollow before mobile validation. **No user-facing pet sample should be published.**

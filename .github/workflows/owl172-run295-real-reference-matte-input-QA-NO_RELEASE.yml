@@ -1,0 +1,48 @@
+name: "#172 Run295 actual chick pixel-preserving isolated image-to-3D input - NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run295-neural-matte-isolate-actual-owl-concept-NO_RELEASE
+    paths:
+      - '.github/workflows/owl172-run295-real-reference-matte-input-QA-NO_RELEASE.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run295_real_reference_cutout_preprocess_ONLY_NO_RELEASE.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  exact_source_neural_matte_for_future_native_3d:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/design/concepts/172-tyto-castanops-v3.png
+            owl-pet/3d-experiments/172-tyto-castanops/run295_real_reference_cutout_preprocess_ONLY_NO_RELEASE.py
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Real GrabCut source-pixel isolating #172 young without generative invention
+        shell: bash
+        run: |
+          set -euo pipefail
+          pip install -q Pillow numpy opencv-python-headless
+          python owl-pet/3d-experiments/172-tyto-castanops/run295_real_reference_cutout_preprocess_ONLY_NO_RELEASE.py | tee run295-log.txt
+          cp run295-log.txt owl172-run295-evidence/
+          cd owl172-run295-evidence
+          sha256sum run295-log.txt >> SHA256SUMS.txt
+          sha256sum -c SHA256SUMS.txt
+      - name: Strict research-only hold (not a model!)
+        if: always()
+        shell: bash
+        run: |
+          mkdir -p owl172-run295-evidence
+          echo 'REFERENCE_MATTING_ONLY / ZERO_3D_MODEL / ART_NOT_APPROVED / NO_RELEASE' > owl172-run295-evidence/NO_3D_HOLD.flag
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run295-REAL-juvenile-source-pixel-alpha-for-future-3D-NO_3D_NO_RELEASE
+          path: owl172-run295-evidence/
+          retention-days: 14
+          if-no-files-found: warn

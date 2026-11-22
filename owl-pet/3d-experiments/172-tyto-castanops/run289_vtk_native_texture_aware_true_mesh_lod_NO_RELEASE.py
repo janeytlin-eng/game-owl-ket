@@ -42,12 +42,12 @@ def poly(m):
     return obj
 
 def decomp(obj,m):
-    verts=np.asarray(vtk_to_numpy(obj.GetPoints().GetData()),dtype=np.float64)
-    faces=vtk_to_numpy(obj.GetPolys().GetConnectivityArray()).reshape(-1,3)
+    verts=np.array(vtk_to_numpy(obj.GetPoints().GetData()),dtype=np.float64,copy=True)
+    faces=np.array(vtk_to_numpy(obj.GetPolys().GetConnectivityArray()),dtype=np.int64,copy=True).reshape(-1,3)
     UV=obj.GetPointData().GetTCoords()
     if UV is not None:
         visual=trimesh.visual.texture.TextureVisuals(
-            uv=np.asarray(vtk_to_numpy(UV),dtype=np.float32),material=m.visual.material)
+            uv=np.array(vtk_to_numpy(UV),dtype=np.float32,copy=True),material=m.visual.material)
     else:
         visual=trimesh.visual.ColorVisuals(
             vertex_colors=np.tile([211,194,172,255],(len(verts),1)))
@@ -72,10 +72,12 @@ for i,m in enumerate(original):
 output=trimesh.Scene()
 for i,m in enumerate(result):output.add_geometry(m,node_name='real_decimated_part_'+str(i))
 lodpath=OUT/'adult_barn_owl_ACTUAL_TEXTURED_GEOMETRIC_LOD_NOT_JUVENILE_NO_RELEASE.glb'
+print('BEFORE_EXPORT_BOUNDS',output.bounds.tolist(),flush=True)
 lodpath.write_bytes(output.export(file_type='glb'))
 reimported_scene=trimesh.load(lodpath,force='scene',process=False)
 loaded=reimported_scene.dump(concatenate=False)
 source_bounds=source.bounds;lod_bounds=reimported_scene.bounds
+print('AFTER_EXPORT_BOUNDS',lod_bounds.tolist(),flush=True)
 span=np.max(source_bounds[1]-source_bounds[0])
 if np.max(abs(lod_bounds-source_bounds))>span*.13:
     raise RuntimeError('VISUAL_GEOMETRY_INVALID: outlier bounds far beyond source museum mesh: '+str(lod_bounds.tolist()))

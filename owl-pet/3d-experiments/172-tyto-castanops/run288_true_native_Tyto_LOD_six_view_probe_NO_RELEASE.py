@@ -34,7 +34,7 @@ cmd = [
     "gltf-transform", "optimize", str(original), str(optimized),
     "--compress", "quantize", "--texture-compress", "false",
     "--simplify", "true", "--simplify-ratio", "0.42",
-    "--simplify-error", "0.002"
+    "--simplify-error", "0.15"
 ]
 with (OUT / "gltf_transform_execution.log").open("w") as log:
     subprocess.run(cmd, check=True, stdout=log, stderr=subprocess.STDOUT)
@@ -56,7 +56,7 @@ def inspect(p):
 
 old_sc, old_mesh, old = inspect(original)
 new_sc, meshes, new = inspect(optimized)
-if not (0 < new["triangles"] < old["triangles"] and
+if not (0 < new["triangles"] < old["triangles"] * 0.75 and
         0 < new["bytes"] < old["bytes"] and
         new["baseColorTexture_meshes"] >= 1):
     raise RuntimeError("LOD failed: geometry, file size or actual PBR texture lost")

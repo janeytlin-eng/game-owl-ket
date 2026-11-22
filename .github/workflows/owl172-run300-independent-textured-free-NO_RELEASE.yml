@@ -1,0 +1,108 @@
+name: "#172 Run300 independent free textured native GLB art gate - RESEARCH NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run300-textured-free-independent-provider-NO_RELEASE
+    paths:
+      - '.github/workflows/owl172-run300-independent-textured-free-NO_RELEASE.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run300_independent_textured_free_generative_glb_NO_RELEASE.mjs'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  independent_zero_paid_real_native_glb_evidence:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/design/concepts/172-tyto-castanops-v3.png
+            owl-pet/3d-experiments/172-tyto-castanops/run295_real_reference_cutout_preprocess_ONLY_NO_RELEASE.py
+            owl-pet/3d-experiments/172-tyto-castanops/run300_independent_textured_free_generative_glb_NO_RELEASE.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run292_real_browser_glb_test_NO_RELEASE.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run292_browser_viewer_uncropped_NO_RELEASE.html
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Restore exact user-project v3 mesoptile RGB pixels and independently verify source
+        run: |
+          set -euo pipefail
+          python -m pip install -q Pillow numpy opencv-python-headless trimesh
+          python owl-pet/3d-experiments/172-tyto-castanops/run295_real_reference_cutout_preprocess_ONLY_NO_RELEASE.py | tee run300-original-source.txt
+          cp owl172-run295-evidence/young-isolated-white-background-input-NO_3D.png target-owl172-isolated-WHITE.png
+          test "$(sha256sum target-owl172-isolated-WHITE.png | cut -d' ' -f1)" = 6ec346e5b02411f9509fd364db748c23a58075aeec461ef7424adcc4d893bc77
+          mkdir -p owl172-run300-evidence/reference
+          cp owl172-run295-evidence/young-REAL-PHOTO-PIXELS-transparent-input-NO_3D.png owl172-run300-evidence/reference/
+          cp owl172-run295-evidence/young-isolated-white-background-input-NO_3D.png owl172-run300-evidence/reference/
+          cp owl172-run295-evidence/run295_matte_QA.json owl172-run300-evidence/reference/
+      - name: Single normal free textured geometry plus surface synthesis attempt
+        timeout-minutes: 12
+        env:
+          CHROME_BIN: /usr/bin/google-chrome
+        run: |
+          set -euo pipefail
+          npm install --no-save --no-audit --no-fund playwright-core@1.58.2 three@0.170.0 pngjs@7.0.0
+          node --check owl-pet/3d-experiments/172-tyto-castanops/run300_independent_textured_free_generative_glb_NO_RELEASE.mjs
+          node owl-pet/3d-experiments/172-tyto-castanops/run300_independent_textured_free_generative_glb_NO_RELEASE.mjs | tee owl172-run300-evidence/browser_generation_log.txt
+      - name: GLB independent Trimesh reopen and actual 3-space Chromium WebGL2 only if model exists
+        if: always()
+        env:
+          CHROME_BIN: /usr/bin/google-chrome
+        run: |
+          mkdir -p owl172-run300-evidence
+          python - <<'PY'
+          import hashlib, json
+          from pathlib import Path
+          import trimesh
+          o=Path('owl172-run300-evidence')
+          f=o/'run300-native-reference-generated-RESEARCH_ONLY_NOT_APPROVED.glb'
+          report={'model_exists':f.is_file(),'art_approved':False,'rights_cleared':False,'phone_tested':False,'release_allowed':False}
+          if f.is_file():
+            try:
+              s=trimesh.load(f,force='scene')
+              meshes=list(s.geometry.values())
+              report.update(bytes=f.stat().st_size,sha256=hashlib.sha256(f.read_bytes()).hexdigest(),
+                geometry_count=len(meshes),triangles=sum(len(m.faces) for m in meshes),
+                visual_kinds=[m.visual.kind for m in meshes],
+                textured_mesh_count=sum(m.visual.kind=='texture' for m in meshes))
+              assert report['triangles']>1000, 'not a meaningful triangle mesh'
+            except Exception as e: report['native_reimport_error']=str(e)
+          (o/'independent_trimesh_gate.json').write_text(json.dumps(report,indent=2))
+          print(report)
+          PY
+          test -f owl172-run300-evidence/run300-native-reference-generated-RESEARCH_ONLY_NOT_APPROVED.glb || exit 0
+          node owl-pet/3d-experiments/172-tyto-castanops/run292_real_browser_glb_test_NO_RELEASE.mjs owl172-run300-evidence/run300-native-reference-generated-RESEARCH_ONLY_NOT_APPROVED.glb >owl172-run300-evidence/three_view_browser_log.txt 2>&1 || echo WEBGL2_NOT_PASSED > owl172-run300-evidence/WEBGL2_HOLD.flag
+          test ! -d owl172-run292-browser-evidence || cp -r owl172-run292-browser-evidence owl172-run300-evidence/browser_views
+      - name: Collect exact checksums and mandatory NO_RELEASE regardless of generation
+        if: always()
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import json,hashlib
+          o=Path('owl172-run300-evidence');o.mkdir(exist_ok=True)
+          native=o/'run300-native-reference-generated-RESEARCH_ONLY_NOT_APPROVED.glb'
+          test={'native_file_exists':native.exists(),'human_art_review_pass':False,
+                'independent_provider_rights_cleared':False,'physical_Android_iPhone_pass':False,
+                'release_allowed':False,'paid_usd':0,'final':'NO_RELEASE'}
+          (o/'STRICT_HUMAN_ART_RIGHTS_PHONE_HOLD.json').write_text(json.dumps(test,indent=2))
+          sums=[]
+          for f in sorted(o.rglob('*')):
+            if f.is_file() and f.name!='SHA256SUMS.txt':
+              sums.append(hashlib.sha256(f.read_bytes()).hexdigest()+'  '+str(f.relative_to(o)))
+          (o/'SHA256SUMS.txt').write_text('\n'.join(sums)+'\n')
+          print('verifiable files',len(sums),'native_exists',native.exists())
+          PY
+          (cd owl172-run300-evidence && sha256sum -c SHA256SUMS.txt)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run300-independent-free-textured-native3d-RESEARCH_NO_RELEASE
+          path: owl172-run300-evidence/
+          retention-days: 14
+          if-no-files-found: warn

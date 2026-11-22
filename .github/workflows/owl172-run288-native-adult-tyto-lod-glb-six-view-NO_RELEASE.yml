@@ -1,0 +1,54 @@
+name: "#172 Run288 actual native Tyto GLB geometry LOD and six-angle QA - NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run288-art-provenance-and-game-lod-NO_RELEASE
+    paths:
+      - '.github/workflows/owl172-run288-native-adult-tyto-lod-glb-six-view-NO_RELEASE.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run288_true_native_Tyto_LOD_six_view_probe_NO_RELEASE.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  native_lod_render:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 28
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/run288_true_native_Tyto_LOD_six_view_probe_NO_RELEASE.py
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install genuinely free open-source glTF and real 3D render tools
+        run: |
+          set -euo pipefail
+          python -m pip install --disable-pip-version-check numpy trimesh requests vtk pillow
+          npm install --no-save --no-package-lock @gltf-transform/cli@4.5.1
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq xvfb libegl1 libgl1 >/dev/null
+      - name: Optimize pinned source's actual native geometry and render six true cameras
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          OWL172_OUTPUT: owl172-run288-evidence
+        run: |
+          set -euo pipefail
+          export PATH="$PWD/node_modules/.bin:$PATH"
+          xvfb-run -a timeout 900s python owl-pet/3d-experiments/172-tyto-castanops/run288_true_native_Tyto_LOD_six_view_probe_NO_RELEASE.py 2>&1 | tee run288-execution.log
+          cp run288-execution.log owl172-run288-evidence/run288-execution.log
+          ( cd owl172-run288-evidence && sha256sum run288-execution.log >> SHA256SUMS.txt && sha256sum -c SHA256SUMS.txt )
+      - name: Always archive research evidence separate from 251-species production
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run288-native-adult-Tyto-mobile-LOD-ART-REJECTED-NO_RELEASE
+          path: |
+            owl172-run288-evidence/
+            run288-execution.log
+          retention-days: 21
+          if-no-files-found: warn

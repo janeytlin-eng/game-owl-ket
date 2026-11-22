@@ -58,7 +58,7 @@ jobs:
           assert abs(qa['root_front_after_m']+.008)<.002, qa
           assert len(list(d.rglob('axis_*.png')))==12, len(list(d.rglob('axis_*.png')))
           for v in ['original_control','beak_embedded']:
-              f=d/f'run285_${v}_RESEARCH_NO_RELEASE.glb'
+              f=d/f'run285_{v}_RESEARCH_NO_RELEASE.glb'
               assert sum(len(m.faces) for m in trimesh.load(f,force='scene').geometry.values())>150000
           print('GEOMETRY_REPAIR_PASS — DOES NOT IMPLY ART_PASS')
           PY

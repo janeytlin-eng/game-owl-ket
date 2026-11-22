@@ -20,7 +20,7 @@ Executed using free Python NumPy, SciPy, scikit-image, Trimesh, PIL, VTK with a 
 
 | Output | Real mesh vertices | Real triangles | GLB bytes | SHA256 | Watertight |
 |---|---:|---:|---:|---|---|
-| sigma 1.5 | 67,944 | 135,884 | 4,083,424 | `[local] see attached QA` | yes |
+| sigma 1.5 | 67,944 | 135,884 | 4,083,424 | `00997ef58d115b21d067173e1ab3c1898d8cde01a2c277d848d73cfd8dd31c50` | yes |
 | sigma 3.0 | 64,614 | 129,224 | 3,896,944 | `a31b2b6ec21713dde992ad944b2398ab285258839dc6d30349d5bfcf20ec6b70` | yes |
 
 Local independently generated evidence ZIP: **5,753,463 bytes**, SHA256 `05fa3f47e2c129c9586bf0305ae4e3a95a807a33387b0473228c471a6fefb2a2`, **22 entries**, ZIP CRC passed and **21/21** SHA256 member hashes matched. Contains both actual GLBs, source-backed texture, both six-view sets, QA JSON, and standalone manual visual-review note. The GitHub Actions re-execution may have different GLB hashes if package/library versions differ; do **not** equate local and remote files without checking.
@@ -43,3 +43,20 @@ Triggered a real independent [GitHub Actions Run282c](https://github.com/janeytl
 **ART_REJECTED / MOBILE_GPU_UNTESTED / RIGHTS_NOT_CLEARED / NO_RELEASE**. Neither iPhone nor Android GPU, memory, frame rate, overheating, touch or animation has been tested. TripoSR's MIT code/weights alone do not establish independent rights to the concept's source imagery. No external paid credits or paid services used.
 
 Future work must solve actual juvenile three-dimensional sculpture, heart-shaped raised disc, real folded-wing silhouette and back feather tracts **before** surface fur/UV polish; a professionally sculpted young owl with groomable down or reliable additional side/back references is needed. Do not promote this archive, its attractive front projection, or any technical GLB pass to a product demo.
+
+## Run282c remote GitHub Actions fully completed and independently reverified
+
+**Actual independent execution:** [GitHub Actions #44975310956](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44975310956), original successful run at `b6cd836ec9434c5f24e273b1263d116aaef4c18f`, all workflow steps completed successfully including source download, provenance SHA check, free CPU native modeling, twelve VTK spatial views, artifact upload and fail-closed gate.
+
+**Evidence artifact:** [Run282c #14735970352](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44975310956/artifacts/14735970352), repository metadata size **5,796,105 bytes**, SHA256 `287d31b956ea738a7a1c2ee487dea9923470fae1d56a9e6f358e35600e827348`, expires **2026-12-06 02:17:23 UTC**. This is a temporary research archive, not a released/approved sample.
+
+Downloaded the actual GitHub artifact back into an independent analysis environment. **26/26 ZIP members CRC-passed; 24/24 individual archived SHA256 sums matched**; original execution status states `mesh=success`, `image=success`, `generation=success`. Both native GLBs were **independently reimported from the downloaded remote archive**, confirming true mesh topology, watertightness and embedded texture. The remote versions differ modestly from local builds because of different numerical/package-version behavior; never imply byte identity.
+
+| Independently generated GitHub GLB | Vertices | Triangles | Bytes | SHA256 |
+|---|---:|---:|---:|---|
+| level-set sigma=1.5 | 67,924 | 135,844 | 4,082,276 | `d1088daa89cdc0c8e085600283c69103688c6fd7562a3a7d82f74a07f0fc083f` |
+| level-set sigma=3.0 | 64,586 | 129,168 | 3,895,344 | `5eb3064d07495bfdc120ee6a420671c0bce07c118bdad31123c88d5113e10e88` |
+
+**Actual opened remote six-view image and independent art decision:** both remain severely below the original rightmost cream-down owlet design. The sigma 3.0 shape is smoother and technically valid but resembles an artificial pebble or molded shell, loses natural feather layers, retains front/rear paint seams, has distorted wings/feet and no realistic owl side/back anatomy. **ART_REJECTED / NO_RELEASE**, irrespective of machine assertions. No real phone GPU test.
+
+This audit and the original code are retained on a strictly segregated research branch. The GitHub Actions artifact has independent model bytes and view frames as a short-term audit trail, not a permanent model asset.

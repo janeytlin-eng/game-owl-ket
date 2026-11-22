@@ -1,0 +1,55 @@
+name: "#172 Run286 CC0 high-detail 3D donor acquisition and true 6-view research — NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run286-free-highdetail-donor-native-qa-NO_RELEASE
+    paths:
+      - ".github/workflows/owl172-run286-free-highdetail-native-donor-NO_RELEASE.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source_and_native_qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout independent research branch, no deployment
+        uses: actions/checkout@v4
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install free native GLB and VTK rendering libraries
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install numpy pillow trimesh vtk
+      - name: Actually acquire high-detail GLB, inspect native geometry and render six cameras
+        env:
+          OWL286_OUTPUT: owl-pet/3d-experiments/172-tyto-castanops/run286_evidence
+          LIBGL_ALWAYS_SOFTWARE: "1"
+          PYOPENGL_PLATFORM: egl
+        run: |
+          python owl-pet/3d-experiments/172-tyto-castanops/run286_free_highdetail_owl_donor_native_qa_NO_RELEASE.py 2>&1 | tee /tmp/owl172-run286.log
+          mkdir -p owl-pet/3d-experiments/172-tyto-castanops/run286_evidence
+          cp /tmp/owl172-run286.log owl-pet/3d-experiments/172-tyto-castanops/run286_evidence/actual_execution.log
+      - name: Record machine outcome and fail closed on missing report
+        if: always()
+        run: |
+          python - <<'PY'
+          import pathlib, json
+          p=pathlib.Path("owl-pet/3d-experiments/172-tyto-castanops/run286_evidence/run286_report.json")
+          if not p.exists(): raise SystemExit("Missing actual source probe report, cannot claim success")
+          j=json.loads(p.read_text())
+          print("actual_source_result",j.get("download",{}).get("light_glb"))
+          print("actual_geometry",j.get("geometry"))
+          print("NO_RELEASE",j["release"] is False)
+          assert j["release"] is False
+          PY
+      - name: Archive independent actual sources, geometry checks and true views only
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run286-highdetail-donor-NO_RELEASE-RESEARCH
+          path: owl-pet/3d-experiments/172-tyto-castanops/run286_evidence/
+          retention-days: 14
+          if-no-files-found: error

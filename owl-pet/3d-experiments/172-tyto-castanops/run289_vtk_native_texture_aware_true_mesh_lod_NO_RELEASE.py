@@ -73,7 +73,12 @@ output=trimesh.Scene()
 for i,m in enumerate(result):output.add_geometry(m,node_name='real_decimated_part_'+str(i))
 lodpath=OUT/'adult_barn_owl_ACTUAL_TEXTURED_GEOMETRIC_LOD_NOT_JUVENILE_NO_RELEASE.glb'
 lodpath.write_bytes(output.export(file_type='glb'))
-loaded=trimesh.load(lodpath,force='scene',process=False).dump(concatenate=False)
+reimported_scene=trimesh.load(lodpath,force='scene',process=False)
+loaded=reimported_scene.dump(concatenate=False)
+source_bounds=source.bounds;lod_bounds=reimported_scene.bounds
+span=np.max(source_bounds[1]-source_bounds[0])
+if np.max(abs(lod_bounds-source_bounds))>span*.13:
+    raise RuntimeError('VISUAL_GEOMETRY_INVALID: outlier bounds far beyond source museum mesh: '+str(lod_bounds.tolist()))
 oldtris=sum(len(m.faces) for m in original);newtris=sum(len(m.faces) for m in loaded)
 if not loaded or newtris>oldtris*.5:
     raise RuntimeError('True geometry LOD did not achieve >50% triangles removed')
@@ -141,6 +146,10 @@ def six(label,meshes):
 
 source_views=six('adult_original',original)
 lod_views=six('adult_geometric_lod',loaded)
+front_original=source_views['views'][0]['foreground']
+front_lod=lod_views['views'][0]['foreground']
+if not .65 < front_lod / front_original < 1.35:
+    raise RuntimeError('VISUAL_SILHOUETTE_INVALID: front-occupancy changed '+str(front_lod/front_original))
 report={'date':'2026-11-22','run':'289','target':'#172 Tyto castanops v3 rightmost fluffy cream-white juvenile',
  'purpose':'UV-aware QUADRIC TRUE GEOMETRIC LOD test on an anatomically real ADULT reference ONLY',
  'primary':'https://sketchfab.com/3d-models/barn-owl-0e65de5934db4f0eae02835ba7227dcc',

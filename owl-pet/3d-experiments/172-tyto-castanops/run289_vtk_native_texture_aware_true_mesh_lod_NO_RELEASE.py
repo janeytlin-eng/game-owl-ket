@@ -66,8 +66,18 @@ for i,m in enumerate(original):
         raise RuntimeError('Mesh part erased: '+str(i))
     if obj.GetPointData().GetTCoords() is not None and reduced.GetPointData().GetTCoords() is None:
         raise RuntimeError('Source UVs were lost in mesh '+str(i))
-    mesh=decomp(reduced,m);result.append(mesh)
-    parts.append({'mesh':i,'before':before,'after':len(mesh.faces),'has_uv':getattr(mesh.visual,'uv',None) is not None})
+    mesh=decomp(reduced,m)
+    src_bounds=m.bounds
+    part_bounds=mesh.bounds
+    # A high-resolution specimen should not grow spikes or move into outer space.
+    # Check every mesh independently; do not hide malformed geometry behind green CI.
+    scale=max(np.max(source.bounds[1]-source.bounds[0]),.00001)
+    outlier=float(np.max(np.abs(src_bounds-part_bounds))/scale)
+    fallback=outlier>.04
+    print('PART_BOUNDS_QA',i,'before',src_bounds.tolist(),'after',part_bounds.tolist(),'delta',outlier,'fallback',fallback,flush=True)
+    if fallback:mesh=m.copy()
+    result.append(mesh)
+    parts.append({'mesh':i,'before':before,'after':len(mesh.faces),'has_uv':getattr(mesh.visual,'uv',None) is not None,'bad_quadric_bounds_fallback':fallback,'error_normalized':outlier})
 
 output=trimesh.Scene()
 for i,m in enumerate(result):output.add_geometry(m,node_name='real_decimated_part_'+str(i))

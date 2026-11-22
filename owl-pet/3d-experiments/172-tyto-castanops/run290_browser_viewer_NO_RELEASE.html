@@ -1,0 +1,42 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>#172 native 3D browser research only, not release</title>
+<script type="importmap">{"imports":{"three":"/node_modules/three/build/three.module.js"}}</script>
+<style>html,body{margin:0;background:#ede6dd}canvas{width:390px;height:780px;display:block;touch-action:none}</style></head><body><canvas id="view"></canvas>
+<script type="module">
+import * as THREE from 'three';
+import {GLTFLoader} from '/node_modules/three/examples/jsm/loaders/GLTFLoader.js';
+window.__owlStatus='loading';window.__owlError='';
+try{
+ const renderer=new THREE.WebGLRenderer({canvas:document.querySelector('#view'),antialias:false,powerPreference:'low-power'});
+ renderer.setSize(390,780,false);renderer.setPixelRatio(1);renderer.outputColorSpace=THREE.SRGBColorSpace;
+ const gl=renderer.getContext();
+ if(!(gl instanceof WebGL2RenderingContext))throw Error('WebGL2 context unavailable');
+ const ext=gl.getExtension('WEBGL_debug_renderer_info');
+ const gpu=ext?gl.getParameter(ext.UNMASKED_RENDERER_WEBGL):gl.getParameter(gl.RENDERER);
+ const scene=new THREE.Scene();scene.background=new THREE.Color('#ede6dd');
+ scene.add(new THREE.AmbientLight(0xffffff,1.6));
+ const key=new THREE.DirectionalLight(0xfff4e7,2.0);key.position.set(2,3,5);scene.add(key);
+ const fill=new THREE.DirectionalLight(0xdbe9ff,1.4);fill.position.set(-3,1,-2);scene.add(fill);
+ const camera=new THREE.PerspectiveCamera(35,390/780,.001,1000);
+ const gltf=await new GLTFLoader().loadAsync('/model.glb');
+ scene.add(gltf.scene);
+ const box=new THREE.Box3().setFromObject(gltf.scene);
+ if(box.isEmpty())throw Error('Empty GLB');
+ const center=box.getCenter(new THREE.Vector3());
+ const radius=Math.max(box.getBoundingSphere(new THREE.Sphere()).radius,.01);
+ let meshes=0,triangles=0,uv=0,materials=0;
+ gltf.scene.traverse(o=>{if(o.isMesh){
+  meshes++;const g=o.geometry;triangles+=(g.index?g.index.count:g.attributes.position.count)/3;
+  materials+=Array.isArray(o.material)?o.material.length:1;
+  if(g.attributes.uv)uv++;
+ }});
+ if(triangles<500||meshes<1)throw Error('GLB has no substantial 3D surface');
+ window.__setView=which=>{
+  const direction=which==='right'?[1,.08,0]:which==='back'?[0,.08,-1]:[0,.08,1];
+  camera.position.set(center.x+radius*2.65*direction[0],center.y+radius*2.65*direction[1],center.z+radius*2.65*direction[2]);
+  camera.up.set(0,1,0);camera.lookAt(center);camera.updateProjectionMatrix();renderer.render(scene,camera);
+ };
+ window.__stats={gpu,webgl2:true,meshes,triangles,uvMeshCount:uv,materials,bounds:[box.min.toArray(),box.max.toArray()],threeRevision:THREE.REVISION};
+ window.__setView('front');window.__owlStatus='ready';
+}catch(e){window.__owlStatus='error';window.__owlError=String(e?.stack||e);}
+</script></body></html>

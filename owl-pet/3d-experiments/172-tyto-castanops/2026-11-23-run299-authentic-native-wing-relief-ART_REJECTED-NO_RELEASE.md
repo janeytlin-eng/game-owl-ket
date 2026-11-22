@@ -41,3 +41,7 @@ Actual locally assembled research-only ZIP: **`owl172_run299_LOCAL_ONLY_REJECTED
 Main branch, original #172 concept, 251-species production ledger/process, kitten WebGL prototype, existing deployed site, and paid resources **unchanged**. Do not publish samples. 
 
 **NEXT:** stop incremental warping of this defective 3D base. Seek a licensed high-quality genuine infant-specific 3D sculpt with real naturally folded small wings and fuzzy down geometry/material from front and side/back reference. Verify source rights, then test WebGL2 and finally physical Android/iPhone. Keep `ART_REJECTED / RIGHTS_HOLD / MOBILE_UNTESTED / NO_RELEASE` until all criteria are met.
+
+## Persistent archive attempt (independently checked)
+
+After creating and integrity-checking the **29/29 CRC-valid** local research ZIP, explicitly attempted persistent ChatGPT Library storage via ordered `create_folder('/Research/Owl172/Run299')` and `upload('/Research/Owl172/Run299/owl172_run299_LOCAL_ONLY_REJECTED_evidence.zip')`. **Both returned `AccessDeny`**. Thus no persistent binary archive was created in Library. The isolated GitHub branch saves the executable sculpt source/workflow and full audit, and the local research ZIP was actually assembled and tested, but it must not be represented as a permanently hosted image/GLB/sample. The next run must verify its own binary inputs again, rather than assuming the transient working folder persists.

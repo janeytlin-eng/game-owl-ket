@@ -1,0 +1,80 @@
+name: "#172 Run283 authentic neural PBR feather tracts — RESEARCH NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run283-surface-tracts-native-pbr-NO_RELEASE
+    paths:
+      - .github/workflows/owl172-run283-authentic-feather-vane-PBR-NO_RELEASE.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/run283_authentic_neural_surface_feather_tracts_NO_RELEASE.py
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  real_3d_tracts:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    env:
+      SRC: owl-pet/3d-experiments/172-tyto-castanops
+      OUT: owl172-run283-NATIVE3D-ART_REJECTED-NO_RELEASE
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/run281_triposr_cpu_juvenile_reference_NO_RELEASE.py
+            owl-pet/3d-experiments/172-tyto-castanops/run283_authentic_neural_surface_feather_tracts_NO_RELEASE.py
+      - name: Fetch exact previous native 3D source and original concept atlas
+        id: upstream
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: owl172-run282c-two-real-volumetric-gltf-12-spatial-views-NORELEASE
+          run-id: 44975310956
+          github-token: ${{ github.token }}
+          path: upstream
+      - name: Rebuild two real GLBs and 12 native 3D camera views
+        id: sculpt
+        if: steps.upstream.outcome == 'success'
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          mkdir -p "$OUT"
+          echo "5eb3064d07495bfdc120ee6a420671c0bce07c118bdad31123c88d5113e10e88  upstream/neural_levelset_sigma_3.0_REAL3D_NO_RELEASE.glb" | sha256sum -c -
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libegl1 libgl1 xvfb >/dev/null
+          python -m pip install --disable-pip-version-check 'numpy<2' 'trimesh>=4.8' vtk scipy pillow
+          xvfb-run -a python "$SRC/run283_authentic_neural_surface_feather_tracts_NO_RELEASE.py"             upstream/neural_levelset_sigma_3.0_REAL3D_NO_RELEASE.glb             upstream/original_front_neutral_back_atlas_RESEARCH.png             "$OUT" 2>&1 | tee "$OUT/native_3d_execution.log"
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          out=Path('owl172-run283-NATIVE3D-ART_REJECTED-NO_RELEASE')
+          d=json.loads((out/'run283_validation.json').read_text())
+          assert len(d['variants'])==2
+          assert all(v['color0_pass'] and v['explicit_matte_PBR_pass'] and v['six_true_spatial_views']==6 for v in d['variants'].values())
+          assert len(list(out.rglob('axis_*.png')))==12
+          print('Two genuine GLBs and 12 true camera views; NOT an art pass')
+          PY
+          touch "$OUT/model_and_views.success"
+      - name: Archive failure/success evidence separately from all product workflows
+        if: always()
+        run: |
+          set -euo pipefail
+          mkdir -p "$OUT"
+          printf 'source_download=%s\nreal_sculpt=%s\nART_UNAPPROVED / MOBILE_GPU_NOT_TESTED / NO_RELEASE\n'             '${{ steps.upstream.outcome }}' '${{ steps.sculpt.outcome }}' > "$OUT/STATUS_NO_RELEASE.txt"
+          cp "$SRC/run283_authentic_neural_surface_feather_tracts_NO_RELEASE.py" "$OUT/implementation_source.py"
+          (cd "$OUT"; find . -type f ! -name SHA256SUMS.txt ! -name SHA256_VERIFY.txt -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$OUT"; sha256sum -c SHA256SUMS.txt > SHA256_VERIFY.txt)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run283-two-authentic-neural-GLB-12-views-RESEARCH-NO_RELEASE
+          path: owl172-run283-NATIVE3D-ART_REJECTED-NO_RELEASE/
+          retention-days: 14
+          if-no-files-found: error
+      - name: Fail closed on any missing prerequisite or incomplete result
+        if: always()
+        run: |
+          grep -qx 'source_download=success' "$OUT/STATUS_NO_RELEASE.txt"
+          grep -qx 'real_sculpt=success' "$OUT/STATUS_NO_RELEASE.txt"
+          test -f "$OUT/model_and_views.success"

@@ -73,14 +73,20 @@ async function test(site){
   for(let i=0;i<Math.min(3,s.inputs.length);i++){
     await page.locator('input[type=file]').nth(i).setInputFiles(SRC);
     await sleep(2600);s=await snap('02-input-'+i);
-    if(s.inputs.some(f=>f.names.includes(SRC))){out.source_uploaded=true;break}
+    // React recreates/clears its hidden native input after reading the image.
+    // The enabled live generation control AND rendered image preview are evidence.
+    const persistent=s.inputs.some(f=>f.names.includes(SRC));
+    const formEnabled=s.buttons.some(b=>/^GENERATE\s*Fast/i.test(b.text)&&!b.disabled);
+    if(persistent||formEnabled){out.source_uploaded=true;
+      ev('source-preview-accepted',{persistent_native_filename:persistent,form_enabled:formEnabled});break}
   }
   if(!out.source_uploaded)throw Error('Image not actually accepted in file input');
   if(gate(s.body))throw Error('Quota/login/challenge shown after actual file upload');
   let chosen=null;const buttons=page.locator('button');
   for(let i=0;i<Math.min(await buttons.count(),80);i++){
     const b=buttons.nth(i);const t=(await b.innerText().catch(()=>''))?.trim()||'';
-    if(!/^(generate(?:\s+(?:my\s+)?3d(?:\s+model)?)?|generate\s+fast)/i.test(t))continue;
+    // Avoid the enabled hero navigation "Generate 3D Free"; choose actual submit button.
+    if(!/^(GENERATE\s*Fast|Generate My 3D Model|Generate 3D Model)$/i.test(t))continue;
     if(/buy|credit|pay|premium|subscribe|pro/i.test(t))continue;
     if(!await b.isVisible().catch(()=>false)||!await b.isEnabled().catch(()=>false))continue;
     chosen={i,text:t.slice(0,110)};break;

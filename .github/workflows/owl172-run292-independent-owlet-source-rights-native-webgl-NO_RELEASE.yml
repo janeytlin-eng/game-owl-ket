@@ -1,0 +1,116 @@
+name: "#172 Run292 independent actual owlet native GLB rights and six-view QA - NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run292-independent-young-owl-native-source-rights-gate-NO_RELEASE
+    paths:
+      - '.github/workflows/owl172-run292-independent-owlet-source-rights-native-webgl-NO_RELEASE.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run292_external_owlet_3d_rights_and_anatomy_QA_NO_RELEASE.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  native_owlet_candidate_research_only_no_redistribution:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/design/concepts/172-tyto-castanops-v3.png
+            owl-pet/3d-experiments/172-tyto-castanops/run292_external_owlet_3d_rights_and_anatomy_QA_NO_RELEASE.py
+            owl-pet/3d-experiments/172-tyto-castanops/run290_real_browser_glb_test_NO_RELEASE.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run290_browser_viewer_NO_RELEASE.html
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install only non-billed geometry/browser tools
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install --quiet trimesh==4.10.1 numpy pillow
+          npm install --no-save --no-audit --no-fund three@0.170.0 playwright-core@1.58.2 pngjs@7.0.0
+      - name: Actually download new native GLBs under no-redistribution restriction and inspect triangles
+        shell: bash
+        run: |
+          set -o pipefail
+          python -u owl-pet/3d-experiments/172-tyto-castanops/run292_external_owlet_3d_rights_and_anatomy_QA_NO_RELEASE.py 2>&1 | tee source-log.txt
+          cp source-log.txt owl172-run292-evidence/
+      - name: Real six-view Three.js WebGL2 browser inspection, no GLB release
+        shell: bash
+        timeout-minutes: 10
+        env:
+          CHROME_BIN: /usr/bin/google-chrome
+          LIBGL_ALWAYS_SOFTWARE: '1'
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          models=(owl172-run292-PRIVATE_UNLICENSED_INPUTS/*.glb)
+          if [ ${#models[@]} -gt 0 ]; then
+            node owl-pet/3d-experiments/172-tyto-castanops/run290_real_browser_glb_test_NO_RELEASE.mjs "${models[@]}" 2>&1 | tee browser-log.txt || true
+            mkdir -p owl172-run292-evidence/real_webgl2_preview
+            cp owl172-run290-evidence/*.png owl172-run292-evidence/real_webgl2_preview/ 2>/dev/null || true
+            cp owl172-run290-evidence/report.json owl172-run292-evidence/real_webgl2_preview/ 2>/dev/null || true
+            mv browser-log.txt owl172-run292-evidence/
+          else
+            echo 'No native GLB. Browser rendering deliberately skipped.' > owl172-run292-evidence/WEBGL_NOT_TESTED.flag
+          fi
+      - name: Compare actual reference and render previews, fail closed on absence
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import hashlib,json
+          from pathlib import Path
+          from PIL import Image,ImageDraw
+          out=Path('owl172-run292-evidence');out.mkdir(exist_ok=True)
+          ref=Path('owl-pet/design/concepts/172-tyto-castanops-v3.png')
+          preview=sorted((out/'real_webgl2_preview').glob('model*.png'))
+          if ref.exists() and preview:
+              im=Image.open(ref).convert('RGB')
+              right=im.crop((im.width*2//3,0,im.width,im.height))
+              items=[('TARGET #172 RIGHTMOST',right)]+[(p.name,Image.open(p).convert('RGB')) for p in preview]
+              W,H=350,490
+              canvas=Image.new('RGB',(W*3,H*((len(items)+2)//3)),(234,231,224))
+              d=ImageDraw.Draw(canvas)
+              for i,(name,view) in enumerate(items):
+                  view.thumbnail((W-12,H-34))
+                  x=(i%3)*W+(W-view.width)//2;y=(i//3)*H+28
+                  canvas.paste(view,(x,y))
+                  d.text(((i%3)*W+8,(i//3)*H+7),name,fill=(20,20,20))
+              canvas.save(out/'TARGET_VS_ACTUAL_SIX_NATIVE_VIEWS_RIGHTS_HOLD_NO_RELEASE.jpg',quality=87)
+          qa={'real_browser_views_observed':len(preview),'rights_cleared':False,'art_accepted':False,
+              'mobile_physical':False,'approved_public_asset':False,'evidence_only':True,
+              'reference_image_present':ref.exists()}
+          (out/'final_gate.json').write_text(json.dumps(qa,indent=2))
+          lines=[]
+          for p in sorted(out.rglob('*')):
+              if p.is_file() and p.name!='SHA256SUMS.txt':
+                  lines.append(hashlib.sha256(p.read_bytes()).hexdigest()+'  '+str(p.relative_to(out)))
+          (out/'SHA256SUMS.txt').write_text('\n'.join(lines)+'\n')
+          print('SHA256 entries',len(lines),'true browser PNGs',len(preview))
+          PY
+          (cd owl172-run292-evidence && sha256sum -c SHA256SUMS.txt)
+      - name: Destroy ephemeral source GLB binaries before research artifact upload
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf owl172-run292-PRIVATE_UNLICENSED_INPUTS owl172-run290-evidence
+          if find owl172-run292-evidence -type f \( -name '*.glb' -o -name '*.blend' -o -name '*.fbx' \) | grep -q .; then
+            echo 'Refuse to archive third-party model source.' >&2
+            exit 1
+          fi
+      - name: Archive only native geometry QA metadata, actual screen proof and explicit rights rejection
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run292-native-owlet-third-party-RIGHTS_HOLD-ART_UNAPPROVED-NO_RELEASE
+          path: owl172-run292-evidence/
+          if-no-files-found: warn
+          retention-days: 14

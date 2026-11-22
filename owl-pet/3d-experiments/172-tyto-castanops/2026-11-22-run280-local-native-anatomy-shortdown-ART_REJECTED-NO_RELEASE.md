@@ -30,6 +30,23 @@ Opened corrected montage and full-resolution front, side, and back. Compared wit
 
 Source-controlled [Run280c independent reproduction workflow](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44968054567) was launched with the same donor SHA256 and its own reproducibility program. Outcome must be confirmed from GitHub Actions before it can be cited as a pass.\n\nFree-tool research additionally found [GroomLab](https://github.com/thekesslereffect/groomlab), a free Apache-2.0 groom system with claimed hair/feather cards, baking and glTF export, and [Mesh Hair Generator](https://github.com/Greg-Aster/Blender-Generate-Hair-as-Mesh-add-on), a Blender hair-to-mesh add-on. Neither was installed nor verified in this run; no unearned claim about quality or compatibility. They are future candidate tool evaluations, not accomplished source assets. **No paid tools or credits consumed.**
 
+
+## Run280c — independent remote GitHub Actions reproduction and binary archive (verified)
+
+Actual [GitHub Actions execution](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44968054567) **completed successfully** on 2026-11-22 at 00:45 UTC. It independently fetched and SHA256-verified the same genuine prior neural glTF donor `8eb64c09a58f673c793c31e348f41854b5d4fb13c649afcef36d1a23129e12db`, installed free native 3D tooling, executed the separately committed source [run280c_native_juvenile_down_ci_NO_RELEASE.py](https://github.com/janeytlin-eng/game-owl-ket/blob/research/owl172-run280-local-sculpt-plume-qa-NO_RELEASE/owl-pet/3d-experiments/172-tyto-castanops/run280c_native_juvenile_down_ci_NO_RELEASE.py), genuinely exported/reimported **3 native GLBs**, and rendered **18 genuinely different spatial views**. Job's source/download, free dependencies, build/render, evidence archiving, upload and fail-closed gates all succeeded. It does NOT contain software WebGL2 or physical-phone QA; this is a native VTK render/GLB compatibility test only.
+
+| Remote independently regenerated variant | Meshes | Real triangles | Bytes | SHA256 |
+|---|---:|---:|---:|---|
+| control without former bristles | 1 | 55,972 | 1,008,012 | `49968ff889a81914a180aec5b19980c58644ad6dc74c0cb54b648b4666366417` |
+| reshaped continuous anatomy | 1 | 55,972 | 1,119,824 | `9f6884f79def45992565127e2e89bbdb5d04804b51119e2e925031e8bfbf714e` |
+| reshaped anatomy plus 4,600 cream 3D plumes | 2 | 65,172 | 1,525,416 | `08902f505c126415a05296788274f07f0d149866d35ab4e38fdc659966cf6a78` |
+
+**Remote evidence**: [Run280c original temporary GitHub Actions artifact](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/44968054567/artifacts/14732227739). Independently downloaded to the analysis container and checked against the digest reported by GitHub: exact ZIP **3,740,838 bytes**, SHA256 `a34ddf19222fe5df9741d1a4d2375f6daa0511837c311875a159cc83e98d4230`; **27/27 ZIP entries valid, 25/25 in-archive SHA256 matches, all three native GLBs re-imported and counted**. Contains actual 18 native VTK PNG frames, independent program source, GLB triplet, QA JSON, execution log, SHA256 manifest and `ART_REJECTED / NO_RELEASE` flag. Retention expiry currently **2026-12-13 00:45 UTC**, not a permanent product release.
+
+I reopened the **remote original** 18 views, not just local trial shots. Remote appearance replicates the local negative result: a slightly shorter rear and additional tiny off-white flecks; the fundamental adult body and rigid wings are unchanged, facial disc hard, rear not downy, talons too large and hollow missing. This independent postflight confirms **ART_REJECTED**. Remote SHA256 differs from the local export because Run280c is a separately committed reconstruction, NOT a byte-identical repack of the local artifact; they are two independently executed research trials sharing the verified source donor. Thus it would be incorrect to cite the remote ZIP as byte-for-byte storage of the local `/mnt/data` ZIP.
+
+**No mobile browser acceptance, no physical phone tests, no commercial rights clearance, and no released pet character.** No extra payment. All research additions are confined to the new research branch; no production files changed.
+
 ## Isolation / status
 
 This research branch was independently created from the Run279 research branch. No updates to `main`, 251-species concept production, manifests, small-cat prototype, reference plate, or deployment. No user-facing asset. Further shape tweaking on the same adult donor is no substitute for a legally usable dedicated juvenile sculpt with artist-directed feather grooming.

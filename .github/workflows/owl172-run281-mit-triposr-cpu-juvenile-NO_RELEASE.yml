@@ -56,7 +56,7 @@ jobs:
           python -m pip install --disable-pip-version-check \
             "numpy<2" "Pillow==10.1.0" "omegaconf==2.3.0" "einops==0.7.0" \
             "transformers==4.35.0" "trimesh==4.0.5" "huggingface-hub<1" \
-            "xatlas==0.0.9" "moderngl==5.10.0" "rembg" \
+            "xatlas==0.0.9" "moderngl==5.10.0" "rembg" "onnxruntime>=1.18,<1.25" \
             "scikit-image" "opencv-python-headless<4.12" "vtk"
           python -m pip install --disable-pip-version-check scikit-build-core cmake ninja pybind11
           python -m pip install --disable-pip-version-check --no-build-isolation \

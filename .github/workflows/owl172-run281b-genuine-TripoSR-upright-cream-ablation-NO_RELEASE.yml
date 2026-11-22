@@ -1,0 +1,80 @@
+name: owl172 Run281b genuine MIT mesh upright and cream ablation - NO RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run281-open-triposr-cpu-young-owl-NO_RELEASE
+    paths:
+      - .github/workflows/owl172-run281b-genuine-TripoSR-upright-cream-ablation-NO_RELEASE.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/run281b_upright_softcoat_3d_ablation_NO_RELEASE.py
+  workflow_dispatch:
+permissions:
+  actions: read
+  contents: read
+jobs:
+  sixview_tworealmeshes:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    env:
+      OUT: owl172-run281b-upright-softcoat-research-NO_RELEASE
+      P: owl-pet/3d-experiments/172-tyto-castanops
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/run281_triposr_cpu_juvenile_reference_NO_RELEASE.py
+            owl-pet/3d-experiments/172-tyto-castanops/run281b_upright_softcoat_3d_ablation_NO_RELEASE.py
+      - name: Download exactly verified genuine pretrained source model, never surrogate
+        uses: actions/download-artifact@v4
+        id: source
+        continue-on-error: true
+        with:
+          name: owl172-run281-MIT-TripoSR-actual-CPU-juvenile-RESEARCH-NO_RELEASE
+          run-id: 44969217094
+          github-token: ${{ github.token }}
+          path: prior_run281
+      - name: Free native geometry, VTK and six-view software rendering
+        id: generate
+        if: steps.source.outcome == 'success'
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          mkdir -p "$OUT"
+          echo 'be513cd814ef2255101d05f7688c436ed51b669191bb4e91b2a2621c19b79117  prior_run281/REAL_TRIPOSR_JUVENILE_UNREVIEWED_NO_RELEASE.glb' | sha256sum -c -
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libgl1 libegl1 xvfb >/dev/null
+          python -m pip install --disable-pip-version-check "numpy<2" trimesh vtk pillow scipy
+          xvfb-run -a python "$P/run281b_upright_softcoat_3d_ablation_NO_RELEASE.py" \
+            prior_run281/REAL_TRIPOSR_JUVENILE_UNREVIEWED_NO_RELEASE.glb "$OUT" \
+            2>&1 | tee "$OUT/actual_native_geometry_render.log"
+          python - <<'PY'
+          import pathlib,json
+          p=pathlib.Path('owl172-run281b-upright-softcoat-research-NO_RELEASE')
+          j=json.loads((p/'run281b_native_transform_ablation_QA.json').read_text())
+          assert all(x["faces"]==103084 for x in j["variant_files"].values())
+          assert len(list(p.rglob('axis_*.png')))==12
+          print('Actual native 3D two-model 12-camera quality-control PASSED; art not approved')
+          PY
+          touch "$OUT/native12.success"
+      - name: Archive failures and sources without release
+        if: always()
+        run: |
+          set -euo pipefail
+          mkdir -p "$OUT"
+          printf 'source=%s\nnative_generation=%s\nART_UNAPPROVED / NO_PHONE_TEST / NO_RELEASE\n' '${{ steps.source.outcome }}' '${{ steps.generate.outcome }}' > "$OUT/STATUS_NO_RELEASE.txt"
+          cp "$P/run281b_upright_softcoat_3d_ablation_NO_RELEASE.py" "$OUT/native_postprocess_source.py"
+          (cd "$OUT" && find . -type f ! -name SHA256SUMS.txt ! -name SHA256_VERIFY.txt -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$OUT" && sha256sum -c SHA256SUMS.txt > SHA256_VERIFY.txt)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run281b-two-actual-TripoSR-meshes-12-views-NORELEASE
+          path: owl172-run281b-upright-softcoat-research-NO_RELEASE/
+          retention-days: 14
+          if-no-files-found: error
+      - name: Fail closed unless both actual spatial models and 12 views exist
+        if: always()
+        run: |
+          grep -qx 'source=success' "$OUT/STATUS_NO_RELEASE.txt"
+          grep -qx 'native_generation=success' "$OUT/STATUS_NO_RELEASE.txt"
+          test -s "$OUT/native12.success"

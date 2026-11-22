@@ -1,0 +1,113 @@
+name: "#172 Run285 true 3D beak contact experiment — RESEARCH NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run285-native-beak-contact-diagnostic-NO_RELEASE
+    paths:
+      - .github/workflows/owl172-run285-native-beak-contact-NO_RELEASE.yml
+      - owl-pet/3d-experiments/172-tyto-castanops/run285_native_beak_contact_diagnostic_NO_RELEASE.py
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  native_beak_contact:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    env:
+      SRC: owl-pet/3d-experiments/172-tyto-castanops
+      OUT: owl172-run285-native-beak-contact-RESEARCH-NO_RELEASE
+    steps:
+      - name: Checkout research branch only
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/run281_triposr_cpu_juvenile_reference_NO_RELEASE.py
+            owl-pet/3d-experiments/172-tyto-castanops/run285_native_beak_contact_diagnostic_NO_RELEASE.py
+      - name: Get pinned successful Run284 real GLB artifact
+        id: upstream
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: owl172-run284-independent-organic-alpha-down-realGLB-RESEARCH-NO_RELEASE
+          run-id: 44982798516
+          github-token: ${{ github.token }}
+          path: upstream
+      - name: Actually revise and render true native GLB from front and sides
+        id: model
+        if: steps.upstream.outcome == 'success'
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          mkdir -p "$OUT"
+          echo '6bb3dce65140483cf88d5499b3dcb7334d06338976216c03a498b60bdee593af  upstream/run284_organic_base_RESEARCH_NO_RELEASE.glb' | sha256sum -c -
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq xvfb libgl1 libegl1 >/dev/null
+          python -m pip install --disable-pip-version-check 'numpy<2' scipy trimesh pillow matplotlib vtk
+          xvfb-run -a python "$SRC/run285_native_beak_contact_diagnostic_NO_RELEASE.py" upstream/run284_organic_base_RESEARCH_NO_RELEASE.glb "$OUT" 2>&1 | tee "$OUT/run285_model.log"
+          for variant in original_control beak_embedded; do
+            xvfb-run -a python "$SRC/run281_triposr_cpu_juvenile_reference_NO_RELEASE.py" qa "$OUT/run285_${variant}_RESEARCH_NO_RELEASE.glb" "$OUT/${variant}_six_views" 2>&1 | tee -a "$OUT/run285_vtk.log"
+          done
+          python - <<'PY'
+          from pathlib import Path
+          import json, trimesh
+          d=Path('owl172-run285-native-beak-contact-RESEARCH-NO_RELEASE')
+          qa=json.loads((d/'run285_machine_report.json').read_text())
+          assert qa['root_front_before_m'] > 0.04, qa
+          assert abs(qa['root_front_after_m']+.008)<.002, qa
+          assert len(list(d.rglob('axis_*.png')))==12, len(list(d.rglob('axis_*.png')))
+          for v in ['original_control','beak_embedded']:
+              f=d/f'run285_${v}_RESEARCH_NO_RELEASE.glb'
+              assert sum(len(m.faces) for m in trimesh.load(f,force='scene').geometry.values())>150000
+          print('GEOMETRY_REPAIR_PASS — DOES NOT IMPLY ART_PASS')
+          PY
+          touch "$OUT/true_3d_qa.success"
+      - name: Document free artist-asset access without purchasing or bypassing login
+        if: always()
+        continue-on-error: true
+        run: |
+          mkdir -p "$OUT"
+          python - <<'PY'
+          import urllib.request, json
+          from pathlib import Path
+          urls={
+          'BlendSwap_CC0_artist_rig':'https://blendswap.com/blend/7951',
+          'CGTrader_free_juvenile_sculpt':'https://www.cgtrader.com/free-3d-models/animal/bird/free-baby-owl-sculpt',
+          'Museum_CC0_barn_owl':'https://muzea.malopolska.pl/en/objects-list/2394'
+          }
+          result={}
+          for label,url in urls.items():
+              req=urllib.request.Request(url,headers={'User-Agent':'owl172-research/1.0'})
+              try:
+                  with urllib.request.urlopen(req,timeout=15) as r:
+                      head=r.read(4096)
+                      result[label]={'url':url,'status':r.status,'content_type':r.headers.get('Content-Type'),'first_bytes':head[:100].decode('utf-8','replace'),'glb_verified':head[:4]==b'glTF'}
+              except Exception as e: result[label]={'url':url,'error':str(e)[:350],'glb_verified':False}
+          Path('owl172-run285-native-beak-contact-RESEARCH-NO_RELEASE/source-access.json').write_text(json.dumps(result,indent=2))
+          print(json.dumps(result,indent=2))
+          PY
+      - name: Hash and record all actual outputs and statuses
+        if: always()
+        run: |
+          set -euo pipefail
+          mkdir -p "$OUT"
+          printf 'upstream=%s\nmodel=%s\nART_UNAPPROVED / PHONE_UNTESTED / NO_RELEASE\n' '${{ steps.upstream.outcome }}' '${{ steps.model.outcome }}' > "$OUT/STATUS_NO_RELEASE.txt"
+          cp "$SRC/run285_native_beak_contact_diagnostic_NO_RELEASE.py" "$OUT/implementation_source.py"
+          (cd "$OUT"; find . -type f ! -name SHA256SUMS.txt ! -name SHA256_VERIFY.txt -print0 | sort -z | xargs -0 -r sha256sum > SHA256SUMS.txt)
+          (cd "$OUT"; sha256sum -c SHA256SUMS.txt > SHA256_VERIFY.txt)
+      - name: Upload isolated research evidence; NEVER release as product
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run285-native-beak-contact-ART_UNREVIEWED-NO_RELEASE
+          path: owl172-run285-native-beak-contact-RESEARCH-NO_RELEASE/
+          retention-days: 14
+          if-no-files-found: error
+      - name: Fail closed if authentic-model experiment failed
+        if: always()
+        run: |
+          set -euo pipefail
+          grep -qx 'upstream=success' "$OUT/STATUS_NO_RELEASE.txt"
+          grep -qx 'model=success' "$OUT/STATUS_NO_RELEASE.txt"
+          test -f "$OUT/true_3d_qa.success"

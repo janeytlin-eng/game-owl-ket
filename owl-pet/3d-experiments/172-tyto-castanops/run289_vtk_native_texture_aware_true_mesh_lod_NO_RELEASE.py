@@ -36,7 +36,7 @@ def poly(m):
     uv=getattr(m.visual,'uv',None)
     if uv is not None and len(uv)==len(pts):
         uv=np.asarray(uv,dtype=np.float32)
-        if 2<uv.max()<=65535: uv=uv/65535.0
+        if 100<uv.max()<=65535 and np.allclose(uv,np.rint(uv)): uv=uv/65535.0
         t=numpy_to_vtk(np.ascontiguousarray(uv),deep=True)
         t.SetName('UV0');t.SetNumberOfComponents(2);obj.GetPointData().SetTCoords(t)
     return obj
@@ -94,8 +94,9 @@ def six(label,meshes):
         if uv is not None and tex is not None:
             rgb=np.asarray(tex.convert('RGB'),dtype=np.uint8);h,w=rgb.shape[:2]
             uv=np.asarray(uv,dtype=float)
-            if 2<uv.max()<=65535:uv=uv/65535.
-            if uv.min()<-.01 or uv.max()>1.05:raise RuntimeError('Invalid normalized UV in '+label)
+            if 100<uv.max()<=65535 and np.allclose(uv,np.rint(uv)):uv=uv/65535.
+            print('UV_RANGES',label,i,float(np.nanmin(uv)),float(np.nanmax(uv)),flush=True)
+            if not np.isfinite(uv).all() or np.max(np.abs(uv))>16:raise RuntimeError('Nonfinite/extreme texture UV in '+label)
             u=np.clip((np.mod(uv[:,0],1)*(w-1)).astype(int),0,w-1)
             v=np.clip(((1-np.mod(uv[:,1],1))*(h-1)).astype(int),0,h-1)
             colors=np.ascontiguousarray(rgb[v,u],dtype=np.uint8)

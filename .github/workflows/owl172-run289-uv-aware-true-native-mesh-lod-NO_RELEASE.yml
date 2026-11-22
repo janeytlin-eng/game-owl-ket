@@ -1,0 +1,49 @@
+name: "#172 Run289 real UV-preserving GLB geometric LOD comparison - ART REJECTED NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run289-uv-preserving-true-native-lod-NO_RELEASE
+    paths:
+      - '.github/workflows/owl172-run289-uv-aware-true-native-mesh-lod-NO_RELEASE.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run289_vtk_native_texture_aware_true_mesh_lod_NO_RELEASE.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  actual_native_triangles_and_six_cameras:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 32
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/run289_vtk_native_texture_aware_true_mesh_lod_NO_RELEASE.py
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install zero-fee real mesh and 3D software renderer
+        run: |
+          set -euo pipefail
+          python -m pip install --disable-pip-version-check numpy scipy trimesh requests vtk pillow
+          sudo apt-get update -qq
+          sudo apt-get install -qq -y xvfb libegl1 libgl1 > /dev/null
+      - name: Actual textured source to native GLB VTK quadric LOD and 12 spatial camera views
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          OWL172_OUTPUT: owl172-run289-evidence
+        run: |
+          set -euo pipefail
+          xvfb-run -a timeout 1200s python owl-pet/3d-experiments/172-tyto-castanops/run289_vtk_native_texture_aware_true_mesh_lod_NO_RELEASE.py 2>&1 | tee run289-execution.log
+          cp run289-execution.log owl172-run289-evidence/run289-execution.log
+          (cd owl172-run289-evidence && sha256sum run289-execution.log >> SHA256SUMS.txt && sha256sum -c SHA256SUMS.txt)
+      - name: Preserve result and failures independently; never publish chick
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run289-NATIVE-LOD-TECH-ART-REJECTED-NO_RELEASE
+          path: |
+            owl172-run289-evidence/
+            run289-execution.log
+          retention-days: 21
+          if-no-files-found: warn

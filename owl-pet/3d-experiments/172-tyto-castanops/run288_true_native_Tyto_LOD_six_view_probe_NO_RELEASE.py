@@ -26,7 +26,7 @@ raw = r.content
 assert raw[:4] == b"glTF" and sha(raw) == PINNED, "Invalid museum original: no unpinned inputs"
 original = OUT / "reference_museum_adult_NO_RELEASE.glb"
 original.write_bytes(raw)
-optimized = OUT / "adult_donor_mobile_lod_ART_REJECTED_NO_RELEASE.glb"
+optimized = OUT / "adult_donor_COMPACT_NOT_REAL_LOD_ART_REJECTED_NO_RELEASE.glb"
 
 # Geometry-only simplification and standard quantization: keep glTF material textures.
 # Avoid meshopt/Draco extension here, so unextended GLTFLoader can parse it.
@@ -34,7 +34,7 @@ cmd = [
     "gltf-transform", "optimize", str(original), str(optimized),
     "--compress", "quantize", "--texture-compress", "false",
     "--simplify", "true", "--simplify-ratio", "0.42",
-    "--simplify-error", "0.15"
+    "--simplify-error", "0.002"
 ]
 with (OUT / "gltf_transform_execution.log").open("w") as log:
     subprocess.run(cmd, check=True, stdout=log, stderr=subprocess.STDOUT)
@@ -56,16 +56,18 @@ def inspect(p):
 
 old_sc, old_mesh, old = inspect(original)
 new_sc, meshes, new = inspect(optimized)
-if not (0 < new["triangles"] < old["triangles"] * 0.75 and
+if not (0 < new["triangles"] <= old["triangles"] and
         0 < new["bytes"] < old["bytes"] and
         new["baseColorTexture_meshes"] >= 1):
-    raise RuntimeError("LOD failed: geometry, file size or actual PBR texture lost")
+    raise RuntimeError("GLB compact transport failed: missing geometry, reduced bytes or PBR texture")
 
 renderer = vtk.vtkRenderer()
 window = vtk.vtkRenderWindow()
 window.SetOffScreenRendering(True)
 window.SetSize(440, 440)
 window.AddRenderer(renderer)
+quantized_uv_mesh_count = 0
+texture_color_std = []
 for i, m in enumerate(meshes):
     if not len(m.faces):
         continue
@@ -89,6 +91,10 @@ for i, m in enumerate(meshes):
         uu=np.clip(((coords[:,0]%1)*(W-1)).astype(np.int64),0,W-1)
         vv=np.clip(((1-coords[:,1]%1)*(H-1)).astype(np.int64),0,H-1)
         colors=np.ascontiguousarray(rgb[vv,uu],dtype=np.uint8)
+        rgb_std=np.std(colors.astype(np.float32),axis=0)
+        texture_color_std.append(rgb_std.tolist())
+        if np.mean(rgb_std)<12:
+            raise RuntimeError("UV quantization decode/render texture collapse: painted pattern disappeared")
     else:
         col=getattr(getattr(m.visual,"material",None),"baseColorFactor",[.86,.79,.71,1])
         colors=np.tile(np.asarray(col[:3],dtype=float)*255,(len(v),1)).astype(np.uint8)
@@ -170,8 +176,14 @@ report={
   "source":"original adult Tyto alba museum scan from source model ID 0e65de5934db4f0eae02835ba7227dcc",
   "primary":"https://sketchfab.com/3d-models/barn-owl-0e65de5934db4f0eae02835ba7227dcc",
   "license":"primary page CC0 claim; third-party mirror binary identity not certified",
-  "original":old,"lod":new,"six_real_3D_cameras":views,
-  "technical":"Genuine native triangulated textured glTF geometry reduced with open-source glTF-Transform; no 2D illusion",
+  "original":old,"compacted_without_real_LOD":new,
+  "bytes_reduction_fraction":1-new["bytes"]/old["bytes"],
+  "triangle_reduction_fraction":1-new["triangles"]/old["triangles"],
+  "not_real_geometry_LOD": new["triangles"]>0.75*old["triangles"],
+  "quantized_uv_restored_mesh_count":quantized_uv_mesh_count,
+  "sampled_RGB_stdev":texture_color_std,
+  "six_real_3D_cameras":views,
+  "technical":"Genuine native triangulated glTF, smaller binary from quantization/structure, but geometry simplification ineffective (NOT REAL TRIANGLE LOD). VTK UV dequantization preserves original texture pattern. Not mobile ready.",
   "art":"ART_REJECTED: adult Tyto alba skeleton, mature wing/tail; no cream-white juvenile plush groom, no old eucalyptus cavity",
   "phone":"NOT_TESTED: software VTK six-camera rendering is not mobile WebGL",
   "rights":"UNVERIFIED_SOURCE_CHAIN / research only",
@@ -186,5 +198,5 @@ for p in sorted(OUT.iterdir()):
     if p.is_file() and p.name!="SHA256SUMS.txt":
         sums.append(sha(p.read_bytes())+"  "+p.name)
 (OUT/"SHA256SUMS.txt").write_text("\n".join(sums)+"\n")
-print(json.dumps({"gate":"TRUE_NATIVE_3D_MOBILE_FORMAT_LOD_PASS_BUT_ART_REJECTED_NO_RELEASE",
+print(json.dumps({"gate":"TRUE_NATIVE_TEXTURED_GLTF_BYTE_COMPACT_PASS_BUT_GEOMETRIC_LOD_FAIL_ART_REJECTED_NO_RELEASE",
 "original":old,"lod":new,"cameras":views,"evidence":str(OUT)},ensure_ascii=False))

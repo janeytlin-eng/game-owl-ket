@@ -20,8 +20,8 @@ jobs:
           sparse-checkout: |
             owl-pet/design/concepts/172-tyto-castanops-v3.png
             owl-pet/3d-experiments/172-tyto-castanops/run292_external_owlet_3d_rights_and_anatomy_QA_NO_RELEASE.py
-            owl-pet/3d-experiments/172-tyto-castanops/run290_real_browser_glb_test_NO_RELEASE.mjs
-            owl-pet/3d-experiments/172-tyto-castanops/run290_browser_viewer_NO_RELEASE.html
+            owl-pet/3d-experiments/172-tyto-castanops/run292_real_browser_glb_test_NO_RELEASE.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run292_browser_viewer_uncropped_NO_RELEASE.html
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
@@ -51,10 +51,10 @@ jobs:
           shopt -s nullglob
           models=(owl172-run292-PRIVATE_UNLICENSED_INPUTS/*.glb)
           if [ ${#models[@]} -gt 0 ]; then
-            node owl-pet/3d-experiments/172-tyto-castanops/run290_real_browser_glb_test_NO_RELEASE.mjs "${models[@]}" 2>&1 | tee browser-log.txt || true
+            node owl-pet/3d-experiments/172-tyto-castanops/run292_real_browser_glb_test_NO_RELEASE.mjs "${models[@]}" 2>&1 | tee browser-log.txt || true
             mkdir -p owl172-run292-evidence/real_webgl2_preview
-            cp owl172-run290-evidence/*.png owl172-run292-evidence/real_webgl2_preview/ 2>/dev/null || true
-            cp owl172-run290-evidence/report.json owl172-run292-evidence/real_webgl2_preview/ 2>/dev/null || true
+            cp owl172-run292-browser-evidence/*.png owl172-run292-evidence/real_webgl2_preview/ 2>/dev/null || true
+            cp owl172-run292-browser-evidence/report.json owl172-run292-evidence/real_webgl2_preview/ 2>/dev/null || true
             mv browser-log.txt owl172-run292-evidence/
           else
             echo 'No native GLB. Browser rendering deliberately skipped.' > owl172-run292-evidence/WEBGL_NOT_TESTED.flag
@@ -101,7 +101,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          rm -rf owl172-run292-PRIVATE_UNLICENSED_INPUTS owl172-run290-evidence
+          rm -rf owl172-run292-PRIVATE_UNLICENSED_INPUTS owl172-run292-browser-evidence
           if find owl172-run292-evidence -type f \( -name '*.glb' -o -name '*.blend' -o -name '*.fbx' \) | grep -q .; then
             echo 'Refuse to archive third-party model source.' >&2
             exit 1

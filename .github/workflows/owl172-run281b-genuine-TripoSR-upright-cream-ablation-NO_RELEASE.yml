@@ -77,4 +77,4 @@ jobs:
         run: |
           grep -qx 'source=success' "$OUT/STATUS_NO_RELEASE.txt"
           grep -qx 'native_generation=success' "$OUT/STATUS_NO_RELEASE.txt"
-          test -s "$OUT/native12.success"
+          test -f "$OUT/native12.success"

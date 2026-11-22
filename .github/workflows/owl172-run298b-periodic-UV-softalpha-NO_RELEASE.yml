@@ -45,7 +45,7 @@ jobs:
           mkdir -p owl172-run297-upstream
           gh run download 45035737644 -R janeytlin-eng/game-owl-ket -n owl172-run297-two-real-glb-real-chrome-NO_RELEASE -D owl172-run297-upstream
           echo 'd1f8ab4b3bb8791dfaf2d38b5f0dfd216e35ab8513097ecfdc213ae6706669dc  owl172-run297-upstream/run297b-real-owl-UV-fur-UNAPPROVED.glb' | sha256sum -c -
-          echo '257b6259ef674961760b7b1a6a9bfb092b8f9ffba2a994fc35838b1ea55aaf5  owl172-run297-upstream/run297b-UV-bake-ATLAS.png' | sha256sum -c -
+          echo '257b6259ef674961760b7b1a6a9b9fb092b8f9ffba2a994fc35838b1ea55aaf5  owl172-run297-upstream/run297b-UV-bake-ATLAS.png' | sha256sum -c -
       - name: Generate actual native GLB and six true VTK spatial views
         shell: bash
         run: |

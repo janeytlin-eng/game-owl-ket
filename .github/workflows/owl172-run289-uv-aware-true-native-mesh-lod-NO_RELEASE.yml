@@ -25,7 +25,7 @@ jobs:
       - name: Install zero-fee real mesh and 3D software renderer
         run: |
           set -euo pipefail
-          python -m pip install --disable-pip-version-check numpy scipy trimesh requests vtk pillow
+          python -m pip install --disable-pip-version-check numpy==2.3.5 scipy trimesh==4.11.1 requests vtk==9.6.2 pillow
           sudo apt-get update -qq
           sudo apt-get install -qq -y xvfb libegl1 libgl1 > /dev/null
       - name: Actual textured source to native GLB VTK quadric LOD and 12 spatial camera views

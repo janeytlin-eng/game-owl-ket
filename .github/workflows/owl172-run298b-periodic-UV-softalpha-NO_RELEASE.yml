@@ -19,6 +19,7 @@ jobs:
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             owl-pet/3d-experiments/172-tyto-castanops/run298b_exact_source_NO_RELEASE.tar.gz.b64
+            owl-pet/3d-experiments/172-tyto-castanops/run298c_correct_glb_albedo_orientation_NO_RELEASE.py
             owl-pet/3d-experiments/172-tyto-castanops/run292_real_browser_glb_test_NO_RELEASE.mjs
             owl-pet/3d-experiments/172-tyto-castanops/run292_browser_viewer_uncropped_NO_RELEASE.html
       - uses: actions/setup-python@v5
@@ -58,8 +59,20 @@ jobs:
             --out owl172-run298b-evidence --cards 5500 \
             | tee owl172-run298b-evidence/generation-log.txt
           test -s owl172-run298b-evidence/run298b-seamless-down-NO_RELEASE.glb
-          xvfb-run -a python owl172-run298b-scripts/run298_render_local.py \
+          python owl-pet/3d-experiments/172-tyto-castanops/run298c_correct_glb_albedo_orientation_NO_RELEASE.py \
             owl172-run298b-evidence/run298b-seamless-down-NO_RELEASE.glb \
+            owl172-run298b-evidence/run298c-browser-albedo-fixed-NO_RELEASE.glb \
+            | tee owl172-run298b-evidence/run298c-patch-log.txt
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('owl172-run298b-scripts/run298_render_local.py');s=p.read_text()
+          before='im=np.ascontiguousarray(im);h,w=im.shape[:2]'
+          after='im=np.ascontiguousarray(np.flipud(im));h,w=im.shape[:2]'
+          assert before in s
+          p.write_text(s.replace(before,after))
+          PY
+          xvfb-run -a python owl172-run298b-scripts/run298_render_local.py \
+            owl172-run298b-evidence/run298c-browser-albedo-fixed-NO_RELEASE.glb \
             owl172-run298b-evidence/vtk-six-views \
             | tee owl172-run298b-evidence/vtk-log.txt
       - name: Real Chromium SwiftShader WebGL2 and uncropped spatial views
@@ -70,8 +83,8 @@ jobs:
           set -euo pipefail
           npm install --no-save --no-audit --no-fund playwright-core@1.58.2 three@0.170.0 pngjs@7.0.0
           node owl-pet/3d-experiments/172-tyto-castanops/run292_real_browser_glb_test_NO_RELEASE.mjs \
-            owl172-run297-upstream/run297b-real-owl-UV-fur-UNAPPROVED.glb \
             owl172-run298b-evidence/run298b-seamless-down-NO_RELEASE.glb \
+            owl172-run298b-evidence/run298c-browser-albedo-fixed-NO_RELEASE.glb \
             | tee owl172-run298b-evidence/browser-log.txt
           cp -r owl172-run292-browser-evidence owl172-run298b-evidence/chromium-390x780
       - name: Strict integrity with permanent NO_RELEASE label

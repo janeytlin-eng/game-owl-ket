@@ -1,0 +1,27 @@
+# #172 Tyto castanops v3 — Run300: independent zero-extra-paid textured 3D provider experiment — NO RELEASE
+
+**2026-11-23 Shanghai | RESEARCH ONLY | SECOND_FREE_PROVIDER_TEST_CODE_ARCHIVED / LOCAL_PROVIDER_BLOCKED / REMOTE_RESULT_UNVERIFIED / NO_NATIVE_3D_RESULT_THIS_RUN / NO_RELEASE**
+
+## Required preflight
+
+Reread owl-pet/AGENTS.md, README.md, STATUS.md, the existing cat WebGL prototype notes, the #172 v3 science/design profile, Run299 complete audit and its previous Run296–298 research lineage. Keep original #172 v3 three-bird plate and rightmost cream-white downy young as source. No change to main, the 251-species concept pipeline, production ledger, original design, cat prototype or site.
+
+Run296 captured a real but UNTEXTURED 20k-triangle native chick GLB; Run297–299 fixed some material orientation but failed due to rigid pointy rear anatomy, absent natural folded wings, inadequate fine fluffy down, detached foot support. Continuous warp made anatomy worse. Do not repeat it as an improvement.
+
+## Real tool tests and experimental code
+
+- Independently fetched the public [3DAI Studio](https://3dai.dev/en) page, 2026-11-23. It advertises a no-signup free option, a selectable Generate textured 3D output, Standard quality and Hunyuan Paint full-surface synthesis, not front-only image projection. Its marketing does NOT verify output quality, license or availability. This is a DIFFERENT no-extra-pay candidate from prior white_mesh.glb route.
+- Created an executable, isolated [Run300 Playwright browser experiment](https://github.com/janeytlin-eng/game-owl-ket/blob/research/owl172-run300-textured-free-independent-provider-NO_RELEASE/owl-pet/3d-experiments/172-tyto-castanops/run300_independent_textured_free_generative_glb_NO_RELEASE.mjs). Uses original #172 source exact-pixel GrabCut 392x580 white input, verifies zero-payment page and actual TEXTURED button, uses at most one ordinary generation submission, and aborts on rate limits/payment notices. Captures GLB only on real glTF2 magic, byte-length and valid POSITION geometry, and counts real embedded textures/images/materials. Cannot label white mesh a fully textured result.
+- Created a separate [Run300 GitHub Actions test](https://github.com/janeytlin-eng/game-owl-ket/blob/research/owl172-run300-textured-free-independent-provider-NO_RELEASE/.github/workflows/owl172-run300-independent-textured-free-NO_RELEASE.yml) to reconstruct the original source locally and verify the pinned original-pixel white-image SHA256 6ec346e5b02411f9509fd364db748c23a58075aeec461ef7424adcc4d893bc77. It attempts normal free textured model generation, independent Trimesh reopen, and real 390x780 Chromium WebGL2 3-camera inspection ONLY if a native GLB is present. Whether or not it succeeds, it writes NO_RELEASE status and SHA256 research evidence; no source is transferred to main. Unlike Run299, this does not retrieve previous research artifact via the GitHub token that failed with HTTP 401.
+- Actually launched local Chromium with Playwright and tried to navigate to the new provider URL. The environment returned **net::ERR_BLOCKED_BY_ADMINISTRATOR** before a source upload. Local WebGL2 on 390x780 pages was separately tested with two SwiftShader/ANGLE launch flag configurations; both returned **available=false**. The sandbox has CPU Trimesh/VTK/OpenCV/PyTorch but no CUDA, Blender executable or bpy; a pip index attempt for bpy failed DNS. These are REAL tested environment obstacles, not hypothetical plans.
+- Read back Run300 JavaScript source via the GitHub connector: blob SHA **8f8f932f5863eb40b6ea633ec660167f1bec5963**, 7,908 characters. Independent V8 parser check after stripping the shebang and module imports **PASSED**. The new GitHub workflow was pushed on its isolated branch. The available connected read action only enumerates PR-triggered runs and returned no runs for its push commit. Therefore **a successful remote execution, new native GLB, new WebGL2 screenshots and ZIP integrity are NOT verified**. Do not cite any unverified run ID or nonexistent GLB link.
+
+## Free asset and rights boundary
+
+Checked the CGTrader Free Baby Owl Sculpt listing: free to download but explicitly marked No AI; excluded from AI model conditioning. The Blendswap CC0 animated owl is an old adult/owl model and its page returned HTTP 403, so no native bytes acquired. Pic2Mesh publicly says generation paused owing to unavailable GPU capacity. A connected fal image-to-3D route requested unavailable interactive account authorization and no generation/billing was undertaken. No extra fees or credits purchased: **$0**.
+
+## Acceptance and next verifiable experiment
+
+Do not notify or release any character from source code, page screenshots, a pending remote push or a technically loadable but unsuitable model. Required evidence includes an actually downloaded new native GLB with full body texture; independently reopened geometry; actual browser front/right/back screenshots visually checked for creamy down, soft heart face, short wings, plump nonwedge side/back and two-foot hollow support; and a separately verified redistribution rights chain. Real Android/iPhone GPU, FPS, RAM, touch and heat still not tested.
+
+**FINAL: NO_NEW_APPROVED_MODEL / RIGHTS_HOLD / PHONE_UNTESTED / NO_RELEASE.** This audit records an executed local negative probe and a committed independent no-extra-paid remote test, not an accepted 3D sample.

@@ -1,0 +1,105 @@
+name: "owl172 Run306 zero-extra-pay texture backend and new free-workbench NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run306-texture-backend-recheck-new-free-workbench-NO_RELEASE
+    paths:
+      - '.github/workflows/owl172-run306-zero-fee-provider-tests-NO_RELEASE.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run306_texture_backend_and_free_trial_NO_RELEASE.mjs'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  research_only:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/design/concepts/172-tyto-castanops-v3.png
+            owl-pet/3d-experiments/172-tyto-castanops/run295_real_reference_cutout_preprocess_ONLY_NO_RELEASE.py
+            owl-pet/3d-experiments/172-tyto-castanops/run306_texture_backend_and_free_trial_NO_RELEASE.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run292_real_browser_glb_test_NO_RELEASE.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run292_browser_viewer_uncropped_NO_RELEASE.html
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Regenerate original rightmost age-unknown mesoptile image input
+        run: |
+          set -euo pipefail
+          python -m pip install -q Pillow numpy opencv-python-headless trimesh
+          python owl-pet/3d-experiments/172-tyto-castanops/run295_real_reference_cutout_preprocess_ONLY_NO_RELEASE.py >run306-reference-build.log
+          cp owl172-run295-evidence/young-isolated-white-background-input-NO_3D.png target-owl172-isolated-WHITE.png
+          test "$(sha256sum target-owl172-isolated-WHITE.png | cut -d' ' -f1)" = 6ec346e5b02411f9509fd364db748c23a58075aeec461ef7424adcc4d893bc77
+          mkdir -p owl172-run306-evidence/reference
+          cp target-owl172-isolated-WHITE.png owl172-run306-evidence/reference/
+          cp run306-reference-build.log owl172-run306-evidence/
+      - name: Actually probe two ordinary free public providers, no paid or anti-bot workaround
+        timeout-minutes: 11
+        env:
+          CHROME_BIN: /usr/bin/google-chrome
+        run: |
+          npm install --no-save --no-audit --no-fund playwright-core@1.58.2 three@0.170.0 pngjs@7.0.0
+          node --check owl-pet/3d-experiments/172-tyto-castanops/run306_texture_backend_and_free_trial_NO_RELEASE.mjs
+          node owl-pet/3d-experiments/172-tyto-castanops/run306_texture_backend_and_free_trial_NO_RELEASE.mjs | tee owl172-run306-evidence/browser-stdout.txt
+      - name: Verify captured native geometry, run actual WebGL if there is any GLB
+        if: always()
+        timeout-minutes: 4
+        env:
+          CHROME_BIN: /usr/bin/google-chrome
+        run: |
+          mkdir -p owl172-run306-evidence
+          python - <<'PY'
+          import json,trimesh,hashlib
+          from pathlib import Path
+          root=Path("owl172-run306-evidence"); r=[]
+          for f in root.glob("*/generated-native-unapproved.glb"):
+            d={'file':str(f),'bytes':f.stat().st_size,'sha256':hashlib.sha256(f.read_bytes()).hexdigest()}
+            try:
+              s=trimesh.load(f,force="scene"); d['triangles']=sum(len(m.faces) for m in s.geometry.values());d['meshes']=len(s.geometry)
+              d['visuals']=[m.visual.kind for m in s.geometry.values()]
+              assert d['triangles']>1000
+            except Exception as e:d['error']=str(e)
+            r.append(d)
+          (root/'independent-native-mesh-check.json').write_text(json.dumps(r,indent=2))
+          print('verified-model-structures',r)
+          PY
+          for f in owl172-run306-evidence/*/generated-native-unapproved.glb; do
+            if test -f "$f"; then
+              node owl-pet/3d-experiments/172-tyto-castanops/run292_real_browser_glb_test_NO_RELEASE.mjs "$f" >"$(dirname "$f")/webgl2-stdout.txt" 2>&1 || echo WEBGL2_HOLD >"$(dirname "$f")/WEBGL2_HOLD.flag"
+              if test -d owl172-run292-browser-evidence; then
+                mkdir -p "$(dirname "$f")/real-webgl2-views"
+                cp -r owl172-run292-browser-evidence/. "$(dirname "$f")/real-webgl2-views/"
+              fi
+            fi
+          done
+      - name: Strict rejection metadata and evidence hashes
+        if: always()
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import json,hashlib
+          p=Path('owl172-run306-evidence');p.mkdir(exist_ok=True)
+          models=list(p.glob('*/generated-native-unapproved.glb'))
+          (p/'STRICT_NO_RELEASE.json').write_text(json.dumps({
+            'native_candidates':len(models),'art_approved':False,'rights_cleared':False,
+            'physical_phone_tested':False,'extra_paid_usd':0,'release_allowed':False},indent=2))
+          lines=[hashlib.sha256(f.read_bytes()).hexdigest()+'  '+str(f.relative_to(p))
+                 for f in sorted(p.rglob('*')) if f.is_file() and f.name!='SHA256SUMS.txt']
+          (p/'SHA256SUMS.txt').write_text('\n'.join(lines)+'\n')
+          print('Evidence files:',len(lines),'native candidates:',len(models))
+          PY
+          (cd owl172-run306-evidence && sha256sum -c SHA256SUMS.txt)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run306-free-native-textured-research-NO_RELEASE
+          path: owl172-run306-evidence/
+          retention-days: 14
+          if-no-files-found: warn

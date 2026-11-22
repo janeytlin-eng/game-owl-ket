@@ -65,7 +65,7 @@ def add(m,c,name):
  m.visual=ColorVisuals(mesh=m,vertex_colors=np.tile(np.array([*c,255],dtype=np.uint8),(len(m.vertices),1)))
  scene.add_geometry(m,geom_name=name)
 def front_z(px,py):
- depths=np.linspace(.54,.10,181); pts=np.array([(px-xx[0])/(xx[1]-xx[0]),(py-yy[0])/(yy[1]-yy[0]),(depths-zz[0])/(zz[1]-zz[0])])
+ depths=np.linspace(.54,.10,181); pts=np.vstack([np.full(len(depths),(px-xx[0])/(xx[1]-xx[0])),np.full(len(depths),(py-yy[0])/(yy[1]-yy[0])),(depths-zz[0])/(zz[1]-zz[0])])
  val=map_coordinates(F,pts,order=1,mode='nearest')
  idx=np.where(val<0)[0]
  return depths[idx[0]] if len(idx) else .32

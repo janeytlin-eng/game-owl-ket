@@ -38,7 +38,10 @@ def poly(m):
         uv=np.asarray(uv,dtype=np.float32)
         if 100<uv.max()<=65535 and np.allclose(uv,np.rint(uv)): uv=uv/65535.0
         t=numpy_to_vtk(np.ascontiguousarray(uv),deep=True)
-        t.SetName('UV0');t.SetNumberOfComponents(2);obj.GetPointData().SetTCoords(t)
+        t.SetNumberOfComponents(2);obj.GetPointData().SetTCoords(t)
+        # VTK 9.6 QuadricDecimation unexpectedly corrupts POSITIONS when the source
+        # TCoords vtkDataArray has a custom name (UV0). Leave it unnamed here.
+        # Reproduced on matching local and GitHub VTK versions; fail-closed bounds QA above.
     return obj
 
 def decomp(obj,m):

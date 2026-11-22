@@ -1,0 +1,134 @@
+name: "#172 Run296 actual isolated cream-chick free native GLB plus real browser QA - NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run296-clean-chick-source-real-free-image3d-NO_RELEASE
+    paths:
+      - '.github/workflows/owl172-run296-clean-source-native-free-3d-NO_RELEASE.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run296_clean_reference_real_free_native3d_QA_NO_RELEASE.mjs'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  actual_pixel_source_and_true_native_3d_gate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 17
+    steps:
+      - name: Check out only #172 protected source and already-existing QA scripts
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/design/concepts/172-tyto-castanops-v3.png
+            owl-pet/3d-experiments/172-tyto-castanops/run295_real_reference_cutout_preprocess_ONLY_NO_RELEASE.py
+            owl-pet/3d-experiments/172-tyto-castanops/run296_clean_reference_real_free_native3d_QA_NO_RELEASE.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run292_real_browser_glb_test_NO_RELEASE.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run292_browser_viewer_uncropped_NO_RELEASE.html
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Compute real exact pixel-derived young rightmost subject with free OpenCV
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install -q Pillow numpy opencv-python-headless trimesh
+          python owl-pet/3d-experiments/172-tyto-castanops/run295_real_reference_cutout_preprocess_ONLY_NO_RELEASE.py | tee run296-source-log.txt
+          mkdir -p owl172-run296-evidence/input-provenance
+          cp owl172-run295-evidence/* owl172-run296-evidence/input-provenance/
+          cp owl172-run295-evidence/young-isolated-white-background-input-NO_3D.png target-owl172-isolated-WHITE.png
+          sha256sum target-owl172-isolated-WHITE.png
+      - name: Exactly ONE no-money clean reference real image-to-native3D browser generation
+        shell: bash
+        timeout-minutes: 11
+        env:
+          CHROME_BIN: /usr/bin/google-chrome
+        run: |
+          set -euo pipefail
+          npm install --no-save --no-audit --no-fund playwright-core@1.58.2 three@0.170.0 pngjs@7.0.0
+          node --check owl-pet/3d-experiments/172-tyto-castanops/run296_clean_reference_real_free_native3d_QA_NO_RELEASE.mjs
+          node owl-pet/3d-experiments/172-tyto-castanops/run296_clean_reference_real_free_native3d_QA_NO_RELEASE.mjs | tee run296-generation-log.txt
+          cp run296-generation-log.txt owl172-run296-evidence/
+      - name: Reimport native GLB and check three actual Chrome WebGL2 spatial views if any
+        if: always()
+        shell: bash
+        env:
+          CHROME_BIN: /usr/bin/google-chrome
+        run: |
+          set -euo pipefail
+          mkdir -p owl172-run296-evidence
+          MODEL='owl172-run296-evidence/actual-chick-clean-input-native-UNAPPROVED.glb'
+          if [ -s "$MODEL" ]; then
+            python - <<'PY'
+          import json,hashlib
+          from pathlib import Path
+          import trimesh
+          m=Path('owl172-run296-evidence/actual-chick-clean-input-native-UNAPPROVED.glb')
+          r={'bytes':m.stat().st_size,'sha256':hashlib.sha256(m.read_bytes()).hexdigest(),
+             'source':'Run295 exact reference image (white-bg)','release_allowed':False}
+          try:
+            s=trimesh.load(m,force='scene')
+            r.update(mesh_count=len(s.geometry),triangles=sum(len(x.faces) for x in s.geometry.values()),
+              vertices=sum(len(x.vertices) for x in s.geometry.values()),
+              has_texture=any(getattr(x.visual,'kind',None)=='texture' for x in s.geometry.values()))
+          except Exception as e:r['geometry_error']=str(e)
+          Path('owl172-run296-evidence/native_glb_reimport_QA.json').write_text(json.dumps(r,indent=2))
+          print(r)
+          PY
+            node owl-pet/3d-experiments/172-tyto-castanops/run292_real_browser_glb_test_NO_RELEASE.mjs "$MODEL" > owl172-run296-evidence/real_WebGL2_log.txt 2>&1 || echo 'WEBGL2_NOT_PASSED' > owl172-run296-evidence/WEBGL2_HOLD.flag
+            if [ -d owl172-run292-browser-evidence ]; then
+              cp -r owl172-run292-browser-evidence owl172-run296-evidence/real-three-view-WebGL2
+            fi
+          else
+            echo 'ACTUAL_NATIVE_GLB_ABSENT / provider quota or generation failure / no fabricated model' > owl172-run296-evidence/NO_NATIVE_GLB_HOLD.flag
+          fi
+      - name: Make source-versus-actual-view contact sheet, strict hold and checksum proof
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json,hashlib
+          from pathlib import Path
+          from PIL import Image,ImageDraw
+          O=Path('owl172-run296-evidence');O.mkdir(exist_ok=True)
+          input_ref=O/'input-provenance/young-isolated-white-background-input-NO_3D.png'
+          shots=sorted((O/'real-three-view-WebGL2').glob('model*.png'))
+          paths=([input_ref] if input_ref.exists() else [])+shots
+          if paths:
+            W,H=390,560
+            sheet=Image.new('RGB',(W*len(paths),H),(237,230,221))
+            draw=ImageDraw.Draw(sheet)
+            for i,p in enumerate(paths):
+              im=Image.open(p).convert('RGB');im.thumbnail((W-22,H-55))
+              sheet.paste(im,(W*i+(W-im.width)//2,48))
+              draw.text((W*i+7,12),p.name[:47],fill=(30,30,30))
+            sheet.save(O/'ACTUAL-source-vs-native-browser-views-NO_RELEASE.jpg',quality=90)
+          model=O/'actual-chick-clean-input-native-UNAPPROVED.glb'
+          report=json.loads((O/'run296_service_report.json').read_text()) if (O/'run296_service_report.json').exists() else {}
+          acceptance={'target':'#172 Tyto castanops v3 actual rightmost mesoptile',
+           'image_source_matte_from_original_reference':input_ref.exists(),
+           'actual_native_glb_captured':model.exists(),
+           'real_webgl_three_view_test_invoked':bool(shots),
+           'browser_technology_verified':bool(shots) and not (O/'WEBGL2_HOLD.flag').exists(),
+           'art_approved':False,'rights_cleared':False,'physical_phone_tested':False,
+           'release_allowed':False,'provider_quota_blocked':report.get('quota_blocked',False),
+           'note':'No binary technical pass substitutes for human side/rear feather anatomy approval.'}
+          (O/'STRICT_ART_RIGHTS_PHONE_NO_RELEASE.json').write_text(json.dumps(acceptance,indent=2))
+          checks=[]
+          for p in sorted(O.rglob('*')):
+            if p.is_file() and p.name!='SHA256SUMS.txt':
+              checks.append(hashlib.sha256(p.read_bytes()).hexdigest()+'  '+str(p.relative_to(O)))
+          (O/'SHA256SUMS.txt').write_text('\n'.join(checks)+'\n')
+          print(json.dumps(acceptance,indent=2),'sha256_count',len(checks))
+          PY
+          (cd owl172-run296-evidence && sha256sum -c SHA256SUMS.txt)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run296-user-real-cream-juvenile-source-free-native3d-NO_RELEASE
+          path: owl172-run296-evidence/
+          retention-days: 14
+          if-no-files-found: warn

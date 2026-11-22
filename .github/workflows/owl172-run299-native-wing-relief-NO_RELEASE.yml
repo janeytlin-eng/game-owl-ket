@@ -1,0 +1,82 @@
+name: "#172 Run299 native neural wing/rear sculpt visual negative-control - NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run299-native-wing-relief-negative-control-NO_RELEASE
+    paths:
+      - '.github/workflows/owl172-run299-native-wing-relief-NO_RELEASE.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  independent_3d_negative_control:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/run299_native_wing_rear_sculpt_NO_RELEASE.py
+            owl-pet/3d-experiments/172-tyto-castanops/run292_real_browser_glb_test_NO_RELEASE.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run292_browser_viewer_uncropped_NO_RELEASE.html
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Obtain exact Run298c original research GLB, immutable SHA gate
+        env:
+          GH_TOKEN: \${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p owl172-run299-source owl172-run299-evidence
+          gh run download 45044206747 -R janeytlin-eng/game-owl-ket \
+            -n owl172-run298b-real-native-cylindrical-alpha-chrome-NO_RELEASE \
+            -D owl172-run299-source
+          cp owl172-run299-source/run298c-browser-albedo-fixed-NO_RELEASE.glb owl172-run299-evidence/
+          echo 'bdf58cdcb8b859fbdfd83745bc2d0ee4d842f2fc7b89a8edc91d5215b6e5487f  owl172-run299-evidence/run298c-browser-albedo-fixed-NO_RELEASE.glb' | sha256sum -c -
+      - name: Actually deform original native neural mesh (no new simple primitives)
+        run: |
+          set -euo pipefail
+          python -m pip install -q numpy scipy Pillow trimesh
+          python owl-pet/3d-experiments/172-tyto-castanops/run299_native_wing_rear_sculpt_NO_RELEASE.py \
+            --src owl172-run299-evidence/run298c-browser-albedo-fixed-NO_RELEASE.glb \
+            --outdir owl172-run299-evidence \
+            | tee owl172-run299-evidence/native-geometry-log.txt
+      - name: Actual Three.js Chromium WebGL2 three cameras per native GLB
+        run: |
+          set -euo pipefail
+          npm install --no-save --no-audit --no-fund playwright-core@1.58.2 three@0.170.0 pngjs@7.0.0
+          node owl-pet/3d-experiments/172-tyto-castanops/run292_real_browser_glb_test_NO_RELEASE.mjs \
+            owl172-run299-evidence/run299_A_continuous_neural_wing-relief_ART_REJECTED_NO_RELEASE.glb \
+            owl172-run299-evidence/run299_B_continuous_neural_wing-relief_ART_REJECTED_NO_RELEASE.glb \
+            | tee owl172-run299-evidence/webgl-browser-log.txt
+          cp -r owl172-run292-browser-evidence owl172-run299-evidence/chromium-390x780
+      - name: Explicit art and rights rejection, research file checksum manifest
+        if: always()
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json, hashlib
+          from pathlib import Path
+          p=Path('owl172-run299-evidence');p.mkdir(exist_ok=True)
+          report={'run':'Run299','source':'Run298c native neural true GLB','visual_criteria':'cream fluffy chick, heart face, compact round side/back, young folded wings, owl feet on eucalyptus hollow',
+          'candidate_art_status':'ART_REJECTED','reason':'Continuous deformation and relieved wings cannot supply missing juvenile anatomy; elongated tail/toe support and down remain invalid',
+          'actual_physical_android_iphone_tested':False,'rights_cleared':False,'release_allowed':False,'external_spend_usd':0,
+          'browser_swiftshader_is_real_phone':False}
+          (p/'NO_RELEASE_QUALITY_GATE.json').write_text(json.dumps(report,indent=2))
+          entries=[q for q in sorted(p.rglob('*')) if q.is_file() and q.name!='SHA256SUMS.txt']
+          (p/'SHA256SUMS.txt').write_text('\n'.join(hashlib.sha256(q.read_bytes()).hexdigest()+'  '+str(q.relative_to(p)) for q in entries)+'\n')
+          print('hashed',len(entries),'files')
+          PY
+          (cd owl172-run299-evidence && sha256sum -c SHA256SUMS.txt)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run299-real-native-wing-relief-negative-3d-NO_RELEASE
+          path: owl172-run299-evidence/
+          retention-days: 14
+          if-no-files-found: warn

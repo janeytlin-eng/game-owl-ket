@@ -29,10 +29,18 @@ try{
   await page.waitForTimeout(1800);
   await page.screenshot({path:path.join(E,'02-uploaded.png')});
   const buttons=page.getByRole('button',{name:/generate/i});let chosen=-1;
-  for(let i=0;i<await buttons.count();i++)if(await buttons.nth(i).isVisible()&&await buttons.nth(i).isEnabled()){chosen=i;break;}
-  report.generate_button_count=await buttons.count();report.enabled_button_found=chosen>=0;
-  if(chosen<0)throw Error('No enabled free generate button');
-  report.generation_attempted=true;
+  const candidates=[];
+  for(let i=0;i<await buttons.count();i++){
+    const b=buttons.nth(i);candidates.push({i,label:(await b.innerText()).trim().slice(0,220),
+      visible:await b.isVisible(),enabled:await b.isEnabled()});
+  }
+  report.button_candidates=candidates;
+  // CRITICAL: the first "Generate 3D Free" is a navigation CTA, not the actual submit action!
+  const actual=candidates.find(c=>c.visible&&c.enabled&&/Fast\s*&\s*Private|~50s/i.test(c.label));
+  if(actual)chosen=actual.i;
+  report.generate_button_count=await buttons.count();report.enabled_actual_submit_found=chosen>=0;
+  if(chosen<0)throw Error('No enabled ACTUAL submit button (never click a navigation CTA)');
+  report.generation_attempted=true;report.chosen_submit_label=actual.label;
   await buttons.nth(chosen).click({timeout:12000});
   const start=Date.now();
   for(let i=0;i<20;i++){
@@ -47,7 +55,7 @@ try{
   }
   report.elapsed_seconds=Math.round((Date.now()-start)/1000);
   report.final_body=(await page.locator('body').innerText()).slice(-1200);
-  await page.screenshot({path:path.join(E,'03-result.png')});
+  await page.screenshot({path:path.join(E,'03-result.png'),fullPage:true});
   for(const p of downloads){
     const b=fs.readFileSync(p);const qa={bytes:b.length,sha256:crypto.createHash('sha256').update(b).digest('hex')};
     try{

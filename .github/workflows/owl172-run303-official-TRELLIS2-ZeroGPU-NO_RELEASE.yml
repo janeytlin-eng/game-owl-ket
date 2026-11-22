@@ -1,0 +1,103 @@
+name: "owl172 Run303 official TRELLIS2 ZeroGPU native3D NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run303-official-TRELLIS2-zeroGPU-native-3d-NO_RELEASE
+    paths:
+      - '.github/workflows/owl172-run303-official-TRELLIS2-ZeroGPU-NO_RELEASE.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run303_zeroGPU_official_trellis2_NO_RELEASE.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  no_auth_zerogpu_true_image_to_3d_research:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/design/concepts/172-tyto-castanops-v3.png
+            owl-pet/3d-experiments/172-tyto-castanops/run295_real_reference_cutout_preprocess_ONLY_NO_RELEASE.py
+            owl-pet/3d-experiments/172-tyto-castanops/run303_zeroGPU_official_trellis2_NO_RELEASE.py
+            owl-pet/3d-experiments/172-tyto-castanops/run292_real_browser_glb_test_NO_RELEASE.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run292_browser_viewer_uncropped_NO_RELEASE.html
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Regenerate exact #172 v3 rightmost chick crop and verify source pixels
+        run: |
+          set -euo pipefail
+          python -m pip install -q Pillow numpy opencv-python-headless trimesh
+          python owl-pet/3d-experiments/172-tyto-castanops/run295_real_reference_cutout_preprocess_ONLY_NO_RELEASE.py | tee run303-source-log.txt
+          cp owl172-run295-evidence/young-isolated-white-background-input-NO_3D.png target-owl172-isolated-WHITE.png
+          test "$(sha256sum target-owl172-isolated-WHITE.png | cut -d' ' -f1)" = 6ec346e5b02411f9509fd364db748c23a58075aeec461ef7424adcc4d893bc77
+          mkdir -p owl172-run303-evidence/reference
+          cp target-owl172-isolated-WHITE.png owl172-run303-evidence/reference/
+          cp run303-source-log.txt owl172-run303-evidence/
+      - name: Execute one normal free official TRELLIS.2 ZeroGPU demo request if truly callable
+        timeout-minutes: 12
+        run: |
+          python -m pip install -q gradio_client huggingface_hub requests
+          python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/run303_zeroGPU_official_trellis2_NO_RELEASE.py
+          python owl-pet/3d-experiments/172-tyto-castanops/run303_zeroGPU_official_trellis2_NO_RELEASE.py | tee owl172-run303-evidence/zeroGPU-stdout.txt
+      - name: Independently reopen true native model and test Chromium WebGL2 only if it exists
+        if: always()
+        env:
+          CHROME_BIN: /usr/bin/google-chrome
+        run: |
+          mkdir -p owl172-run303-evidence
+          python - <<'PY'
+          import json,hashlib
+          from pathlib import Path
+          p=Path('owl172-run303-evidence');f=p/'run303-TRELLIS2-native-NOT_APPROVED.glb'
+          r={'native_exists':f.exists(),'art_approved':False,'rights_cleared':False,
+            'physical_phone_tested':False,'release_allowed':False}
+          if f.exists():
+              try:
+                  import trimesh
+                  s=trimesh.load(f,force='scene')
+                  m=list(s.geometry.values())
+                  r.update(bytes=f.stat().st_size,sha256=hashlib.sha256(f.read_bytes()).hexdigest(),
+                     triangles=sum(len(x.faces) for x in m),geometries=len(m),
+                     materials=[x.visual.kind for x in m])
+                  assert r['triangles']>1000
+              except Exception as e:r['native_error']=str(e)
+          (p/'independent_native_GLTF2_gate.json').write_text(json.dumps(r,indent=2))
+          print(r)
+          PY
+          if test -f owl172-run303-evidence/run303-TRELLIS2-native-NOT_APPROVED.glb; then
+             npm install --no-save --no-audit --no-fund playwright-core@1.58.2 three@0.170.0 pngjs@7.0.0
+             node owl-pet/3d-experiments/172-tyto-castanops/run292_real_browser_glb_test_NO_RELEASE.mjs owl172-run303-evidence/run303-TRELLIS2-native-NOT_APPROVED.glb >owl172-run303-evidence/browser-WebGL2-log.txt 2>&1 || echo "WEBGL2_HOLD" >owl172-run303-evidence/WEBGL2_HOLD.flag
+             if test -d owl172-run292-browser-evidence; then cp -r owl172-run292-browser-evidence owl172-run303-evidence/browser_views; fi
+          fi
+      - name: Independently hash every actual output and enforce no release
+        if: always()
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import json,hashlib
+          p=Path('owl172-run303-evidence');p.mkdir(exist_ok=True)
+          f=p/'run303-TRELLIS2-native-NOT_APPROVED.glb'
+          (p/'STRICT_NO_RELEASE.json').write_text(json.dumps({
+            'model_exists':f.exists(),'human_art_approved':False,
+            'source_rights_cleared':False,'physical_phone_tested':False,
+            'release_allowed':False,'payment_usd':0,'final':'NO_RELEASE'},indent=2))
+          items=[hashlib.sha256(q.read_bytes()).hexdigest()+'  '+str(q.relative_to(p))
+            for q in sorted(p.rglob('*')) if q.is_file() and q.name!='SHA256SUMS.txt']
+          (p/'SHA256SUMS.txt').write_text('\n'.join(items)+'\n')
+          print('evidence_items',len(items),'native_glb',f.exists())
+          PY
+          (cd owl172-run303-evidence && sha256sum -c SHA256SUMS.txt)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run303-actual-zeroGPU-native3d-RESEARCH-NO_RELEASE
+          path: owl172-run303-evidence/
+          retention-days: 14
+          if-no-files-found: warn

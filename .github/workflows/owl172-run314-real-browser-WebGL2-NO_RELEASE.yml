@@ -77,6 +77,17 @@ jobs:
             assert len(s.geometry)>=27 and tris>80000,(v,len(s.geometry),tris)
             print('NATIVE',v,len(b),hashlib.sha256(b).hexdigest(),len(s.geometry),tris)
           PY
+      - name: Verify corrected original Y-up / Z-front true-anatomical camera code
+        run: |
+          python - <<'PY'
+          import hashlib,pathlib
+          f=pathlib.Path('owl-pet/3d-experiments/172-tyto-castanops/run314-chromium-WebGL2-A-B-research-NO_RELEASE.py')
+          t=f.read_text()
+          assert 'camera.up.set(0,1,0)' in t and 'camera.position.set(Math.sin(a)*dist,dist*.20,Math.cos(a)*dist)' in t
+          h=hashlib.sha256(f.read_bytes()).hexdigest()
+          assert h=='b4a8b108a927a5fcde35afdb4b072a85aec6484852a933dd5175654b068ef4e6',h
+          print('Correct anatomical camera orientation and source SHA verified',h)
+          PY
       - name: Actual Chromium WebGL2 loader and six different spatial angles
         shell: bash
         env:

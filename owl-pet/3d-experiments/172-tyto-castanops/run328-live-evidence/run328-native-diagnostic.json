@@ -1,0 +1,88 @@
+{
+  "run": "328",
+  "asset": "Grab3D CC0 great horned owl LIGHT GLB, AI-assisted",
+  "requested_url": "https://grab3d.com/dl/owl/owl-light.glb",
+  "target": "#172 Tyto castanops v3 RIGHTMOST cream-down age-unknown mesoptile",
+  "source_taxon_mismatch": "Bubo virginianus-like adult great horned owl with ear tufts; NEVER target",
+  "free_only": true,
+  "money_spent_usd": 0,
+  "model_verified": true,
+  "webgl2_pass": false,
+  "physical_phone": "UNTESTED",
+  "art_approved": false,
+  "rights_approved_for_product": false,
+  "release": false,
+  "result": "ADULT_NATIVE_GLB_VERIFIED_ART_NOT_APPROVED",
+  "license_get": {
+    "status": 200,
+    "content_type": "text/plain; charset=UTF-8",
+    "final_url": "https://grab3d.com/dl/owl/LICENSE.txt"
+  },
+  "manifest_get": {
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://grab3d.com/dl/owl/manifest.json"
+  },
+  "publisher_license": "CC0-1.0",
+  "publisher_origin": {
+    "method": "ai-assisted",
+    "detail": "Base mesh and textures generated with an AI image-to-3D tool (Meshy), then cleaned up, scaled, textured and checked in Blender.",
+    "ai_content": true
+  },
+  "download_http": {
+    "status": 200,
+    "content_type": "model/gltf-binary",
+    "final_url": "https://grab3d.com/dl/owl/owl-light.glb"
+  },
+  "source_received_bytes": 13356032,
+  "source_sha256": "fdcd83d53a5346eac8259a861614f5adae46ce7ad11e33919d05dd1bcd52aaba",
+  "glb_json_summary": {
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "textures": 2,
+    "images": 2,
+    "accessors": 4,
+    "extensionsUsed": []
+  },
+  "mesh_geometry": {
+    "geometry_count": 1,
+    "total_triangles": 399999,
+    "uv_geometry_count": 1,
+    "scene_bounds": [
+      [
+        -0.14416591823101044,
+        -6.8178710534994025e-06,
+        -0.16049928963184357
+      ],
+      [
+        0.1442011147737503,
+        0.5500150918960571,
+        0.16050899028778076
+      ]
+    ],
+    "geometry": [
+      {
+        "name": "owl",
+        "vertices": 256172,
+        "triangles": 399999,
+        "uv": true,
+        "material_type": "PBRMaterial",
+        "bounds": [
+          [
+            -0.14416591823101044,
+            -6.8178710534994025e-06,
+            -0.16049928963184357
+          ],
+          [
+            0.1442011147737503,
+            0.5500150918960571,
+            0.16050899028778076
+          ]
+        ]
+      }
+    ]
+  },
+  "independent_mesh_conclusion": "Real textured native triangle mesh; no assertion of individually sculpted feathers or chick suitability; must inspect all views. High triangle count alone does not establish down.",
+  "elapsed_seconds": 4.78
+}

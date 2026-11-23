@@ -1,0 +1,110 @@
+name: "owl172 Run310 real zero-pay young Tyto/owlet artist-native source trials — NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run310-free-young-tyto-artist-access-gate-NO_RELEASE
+    paths:
+      - '.github/workflows/owl172-run310-free-juvenile-artist-native-access-NO_RELEASE.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run310_real_free_juvenile_artist_asset_access_NO_RELEASE.mjs'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify_public_free_native_sources:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/design/concepts/172-tyto-castanops-v3.png
+            owl-pet/3d-experiments/172-tyto-castanops/run295_real_reference_cutout_preprocess_ONLY_NO_RELEASE.py
+            owl-pet/3d-experiments/172-tyto-castanops/run310_real_free_juvenile_artist_asset_access_NO_RELEASE.mjs
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Verify immutable original #172 v3 far-right cream chick
+        run: |
+          set -eu
+          python -m pip install -q numpy Pillow opencv-python-headless trimesh
+          python owl-pet/3d-experiments/172-tyto-castanops/run295_real_reference_cutout_preprocess_ONLY_NO_RELEASE.py > source-extract.log
+          test "$(sha256sum owl172-run295-evidence/young-isolated-white-background-input-NO_3D.png | cut -d' ' -f1)" = 6ec346e5b02411f9509fd364db748c23a58075aeec461ef7424adcc4d893bc77
+          mkdir -p owl172-run310-evidence/reference
+          cp owl172-run295-evidence/young-isolated-white-background-input-NO_3D.png owl172-run310-evidence/reference/original-rightmost-juvenile-reference.png
+          cp source-extract.log owl172-run310-evidence/
+      - name: Real Chromium public Free Download access trials, no login or payment
+        timeout-minutes: 10
+        env:
+          CHROME_BIN: /usr/bin/google-chrome
+        run: |
+          node --check owl-pet/3d-experiments/172-tyto-castanops/run310_real_free_juvenile_artist_asset_access_NO_RELEASE.mjs
+          npm install --no-save --no-audit --no-fund playwright-core@1.58.2
+          node owl-pet/3d-experiments/172-tyto-castanops/run310_real_free_juvenile_artist_asset_access_NO_RELEASE.mjs | tee owl172-run310-browser-stdout.log
+      - name: Independently inspect any acquired native bytes without promoting art
+        if: always()
+        run: |
+          set -eu
+          mkdir -p owl172-run310-evidence
+          python - <<'PY'
+          from pathlib import Path
+          import json,hashlib,zipfile,struct
+          p=Path('owl172-run310-evidence')
+          arr=[]
+          for f in p.iterdir():
+            if not f.is_file() or f.suffix.lower() not in ('.zip','.blend','.fbx','.obj','.glb'):
+              continue
+            b=f.read_bytes()
+            d={'filename':f.name,'size':len(b),'sha256':hashlib.sha256(b).hexdigest()}
+            if b[:4]==b'glTF':
+              d['native_glb_v2']=len(b)>=12 and struct.unpack('<I',b[4:8])[0]==2 and struct.unpack('<I',b[8:12])[0]==len(b)
+              if d['native_glb_v2']:
+                try:
+                  import trimesh
+                  sc=trimesh.load(str(f),force='scene',process=False)
+                  d['geometry_count']=len(sc.geometry)
+                  d['triangles']=sum(len(g.faces) for g in sc.geometry.values())
+                except Exception as exc:d['import_error']=str(exc)
+            elif zipfile.is_zipfile(f):
+              with zipfile.ZipFile(f) as z:
+                d['zip_entries']=z.namelist()[:80]
+                d['zip_crc_error']=str(z.testzip())
+                d['contains_native_model']=any(x.lower().endswith(('.blend','.obj','.fbx','.glb')) for x in z.namelist())
+            else:
+              d['format_identification']='NOT_DEMONSTRATED'
+            d['art_accepted']=False;d['right_to_use_independently_cleared']=False
+            arr.append(d)
+          (p/'run310-native-asset-binary-inspection-NO_RELEASE.json').write_text(json.dumps(arr,indent=2))
+          print(json.dumps(arr,indent=2))
+          PY
+      - name: Archive independent immutable hashes and strict no-release gate
+        if: always()
+        run: |
+          set -eu
+          mkdir -p owl172-run310-evidence
+          cp owl172-run310-browser-stdout.log owl172-run310-evidence/ 2>/dev/null || :
+          python - <<'PY'
+          import json,hashlib
+          from pathlib import Path
+          p=Path('owl172-run310-evidence')
+          x={'run':310,'original_reference_not_modified':True,'production_251_species_not_modified':True,
+             'zero_paid_external_usd':0,'no_account_created':True,
+             'native_3d_junior_model_visual_approved':False,'heart_disc_approved':False,
+             'cream_down_approved':False,'short_wings_right_back_consistent':False,
+             'rights_cleared':False,'physical_mobile_webgl_tested':False,'NO_RELEASE':True}
+          (p/'STRICT_NO_RELEASE.json').write_text(json.dumps(x,indent=2))
+          lines=[hashlib.sha256(f.read_bytes()).hexdigest()+'  '+str(f.relative_to(p))
+                 for f in sorted(p.rglob('*')) if f.is_file() and f.name!='SHA256SUMS.txt']
+          (p/'SHA256SUMS.txt').write_text('\n'.join(lines)+'\n')
+          PY
+          (cd owl172-run310-evidence && sha256sum -c SHA256SUMS.txt)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run310-real-free-young-owl-artist-native-access-NO_RELEASE
+          path: owl172-run310-evidence/
+          retention-days: 14
+          if-no-files-found: warn

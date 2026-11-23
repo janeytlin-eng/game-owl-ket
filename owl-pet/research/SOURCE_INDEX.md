@@ -6141,3 +6141,7 @@ JAM-MIK2013-500-501 freshuploadedPDF502–503; JamaicanOwlgreyishbrownbackversus
 
 ### 2026-11-24 #141v6 fine downy crown bars
 ReusedMAG-FINSCH-1898-P163-172 actualoriginalprinted170–172read,Batjan/Halmaherayoungfinecrossbars/developingbarredquills; retainednoterasedremiges. New0/reused3(bookandtaxonomypriorrecordnotfreshread). MetadataURL/stagelimits/fullprompt [#141v6](species/141-otus-magicus-v6.md), actualimageoutcomepending. Sciencefalse.
+
+
+### 2026-11-24 #222v2 documented head-winding variant and gap corrections
+ReusedNSUM-OLSEN-TROST-MYERS-2009-P10-11(originalbodyreread) andNSUM-MIKKOLA-2013-P493(uploadPDF495read), plusNSUM-OLSEN-2002-P225-230/NSUM-ITIS-686698 priorrecordsnotfreshbody. Fourexistingrecordreferences;sharedbooknotnewdocument. Targetednewgaprecords NOSC-HUME-DAVISON-1874-SF2-P153-154, NOSC-WALDEN-1874-IBIS-P129, WSFO-BIRDSEYE343-AGE-2026; actualURLs/bodies/pages/stagelimits/attributionuncertaintyanddecisions [#222v2](species/222-ninox-sumbaensis-v2.md). New3/reused4,nonewjuvenileevidenceforobscura/sagittatus; donottransferadjacentageparagraphs. Actualimagepending,sciencefalse.

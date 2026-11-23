@@ -1,0 +1,98 @@
+name: "Owl172 Run323 persist independent real GLB visual rejection evidence only – NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run323-hunyuan21-multi-host-public-real-native-NO_RELEASE
+    paths:
+      - '.github/workflows/owl172-run323-persist-real-3d-visual-evidence-NO_RELEASE.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  persist-authentic-art-rejection-evidence:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            .github/workflows/owl172-run323-persist-real-3d-visual-evidence-NO_RELEASE.yml
+            owl-pet/3d-experiments/172-tyto-castanops/run323-live-evidence
+      - name: Download existing original Run323 artifact, no new provider job
+        uses: actions/download-artifact@v4
+        with:
+          name: owl172-run323-genuine-public-Hunyuan21-provider-evidence-NO_RELEASE
+          run-id: 45184880638
+          github-token: \${{ secrets.GITHUB_TOKEN }}
+          path: run323-extracted
+      - name: Verify original native GLB and eight WebGL2 views, persist research-only visual record
+        run: |
+          set -euo pipefail
+          python -m pip install -q pillow
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image,ImageDraw
+          import json,hashlib
+          base=Path('run323-extracted/owl172-run323-evidence')
+          out=Path('owl-pet/3d-experiments/172-tyto-castanops/run323-live-evidence')
+          out.mkdir(parents=True,exist_ok=True)
+          glb=base/'tencent-official-hunyuan21_ACTUAL-UNREVIEWED-NO_RELEASE.glb'
+          assert glb.exists() and glb.stat().st_size==4443892
+          assert hashlib.sha256(glb.read_bytes()).hexdigest()=='c411d2247bbc8c6d1081066bc899df78664fe8d10fba7eae41d23dce8901e1d5'
+          q=base/'tencent-official-hunyuan21_ACTUAL-UNREVIEWED-NO_RELEASE-WebGL2'
+          browser=json.loads((q/'browser-report.json').read_text())
+          assert browser['technicallyLoaded'] and browser['browser']['stats']['triangles']==247018
+          assert browser['browser']['stats']['uvMeshes']==0
+          assert len(browser['views'])==8 and len(set(x['sha256'] for x in browser['views']))==8
+          sheet=Image.new('RGB',(4*260,2*520),(237,231,223))
+          draw=ImageDraw.Draw(sheet)
+          for i,angle in enumerate([0,45,90,135,180,225,270,315]):
+              fp=q/('yaw_%03d.png'%angle)
+              im=Image.open(fp).convert('RGB')
+              expected=browser['views'][i]
+              assert expected['yaw']==angle and hashlib.sha256(fp.read_bytes()).hexdigest()==expected['sha256']
+              im.thumbnail((252,480))
+              x=(i%4)*260;y=(i//4)*520
+              sheet.paste(im,(x,y+25))
+              draw.text((x+7,y+5),f'Actual WebGL2 yaw {angle}',fill=(40,30,30))
+          sheet.save(out/'run323-TRUE-8view-ART_REJECTED-NO_RELEASE.jpg',quality=91,optimize=True)
+          providers=['tencent-official-hunyuan21','mfurkanyener-hunyuan3d','dylanebert-hunyuan21']
+          ui=Image.new('RGB',(3*450,3*355),(237,231,223))
+          d=ImageDraw.Draw(ui)
+          for row,name in enumerate(providers):
+              for col,stage in enumerate(['initial','uploaded','final']):
+                  fp=base/(name+'_'+stage+'.png')
+                  im=Image.open(fp).convert('RGB')
+                  im.thumbnail((445,325))
+                  x=col*450;y=row*355
+                  ui.paste(im,(x,y+25))
+                  d.text((x+5,y+3),name+' '+stage,fill=(25,25,25))
+          ui.save(out/'run323-three-hosts-actual-public-UI-evidence.jpg',quality=88,optimize=True)
+          info=json.loads((base/'report.json').read_text())
+          final={'run':'323','source':'actual original 45184880638 research artifact 14823398197',
+              'source_native_GLb_sha256':'c411d2247bbc8c6d1081066bc899df78664fe8d10fba7eae41d23dce8901e1d5',
+              'source_native_GLb_bytes':4443892,'source_native_triangles':247018,'source_native_uv_meshes':0,
+              'webgl2_eight_orbit_views_valid':True,'rendering':'Chromium software GPU, 390x780 emulated viewport',
+              'actual_model_art':'REJECTED: narrow side silhouette, shell/slab-like back, no natural feather-built heart mask, no true fluffy wings or mesoptile volume',
+              'model_rights':'HOLD: Tencent community license not approved for product',
+              'physical_phone':'UNTESTED','release':False,'paid_usd':0,'species_production_untouched':True,
+              'providers':[{'name':x['name'],'generation_clicked':x['generation_clicked'],'upload':x['uploaded_reference'],
+                  'status':x['status'],'native_glb':x.get('native_model',None)} for x in info['providers']]}
+          (out/'run323-verification-and-art-rejection.json').write_text(json.dumps(final,indent=2,ensure_ascii=False)+'\n')
+          (out/'STRICT_NO_RELEASE.txt').write_text('Research-only evidence, GLB model is ART_REJECTED. Do not deploy/merge; no physical phone/rights clearance. NO_RELEASE.\n')
+          files=sorted(p for p in out.iterdir() if p.is_file() and p.name!='SHA256SUMS.txt')
+          (out/'SHA256SUMS.txt').write_text('\n'.join(hashlib.sha256(p.read_bytes()).hexdigest()+'  '+p.name for p in files)+'\n')
+          print(json.dumps({'new_glb_proven':1,'true_webgl_views':8,'art':'REJECTED','files':len(files),'commit_native_glb':False,'release':False}))
+          PY
+          (cd owl-pet/3d-experiments/172-tyto-castanops/run323-live-evidence && sha256sum -c SHA256SUMS.txt)
+      - name: Commit limited visual/rejection evidence only to isolated research branch
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --sparse owl-pet/3d-experiments/172-tyto-castanops/run323-live-evidence
+          git diff --cached --quiet && exit 0
+          git commit -m "research(#172): persist Run323 real Hunyuan native eight-view ART_REJECTED evidence, NO_RELEASE"
+          git push origin HEAD:research/owl172-run323-hunyuan21-multi-host-public-real-native-NO_RELEASE

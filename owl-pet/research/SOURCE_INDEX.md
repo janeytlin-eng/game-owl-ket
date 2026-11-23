@@ -5923,3 +5923,13 @@ Access2026-11-23. No species number assigned, no unique increment. Current/oldna
 Next: retrieve actual immature specimen image/original field developmental material, or select another evidence-ready missing species under same cycle4. Do not invent nataldown/flight/nestlining, no prompt or generated asset yet.
 
 [Research](species/otus-mayottensis-20261123T143039Z-deferred.md). No image/version or completed-cycle credit.
+
+
+## 20261123T1526Z cycle4
+# #87 Bubo ascalaphus v7, cycle4 continuation
+Access2026-11-23; sciencefalse; revision no new species. Retain v1–v6. Fresh v6 viewed: abrupt ruler-like chest/lower-bar transition, remaining issue explicitly recorded in v6review. Revise texture continuity without restoring forbidden dark lower shafts.
+Sources reused: ASC-ALSHEIKHLY-MIKKOLA-MOUSAVI-2020 (Al-Sheikhly, Mikkola & Mousavi2020), original https://jnhm.uobaghdad.edu.iq/index.php/BINHM/article/download/473/317/1258 actually reread p221/Table1/identification: streaks upper breast only; fine lower rufous bars; female wing direction but overlapping measurements, not height ratio. ASC-MIK2013-272, uploaded Mikkola2013 printed272/PDF274 freshly read: same zone separation, poorly formed juvenile tufts, feathered tarsi/toes. Printed mass1900–2300g not reconciled with other sources and not used for scale; no borrowed quantitative mass. ASC-ALSHEIKHLY-2012-SANDGROUSE reused prior v5/v6 p72 c40 estimated chick boundary; not freshly opened this cycle.
+New ASC-SOUNDAPPROACH-2015-PHARAOH: MagnusRobb&TheSoundApproach, UndiscoveredOwls2015 specieschapter https://books.soundapproach.co.uk/species/pharaoh-eagle-owl/ actually read captioned Morocco nests/fledged juveniles CD3-25/26 and identificationparagraph. Upper breast streaks diagnostic vs restunderparts; field caption nest Mar30 and beggingfledglings June15 are different-stage evidence, do not date Iraqillustratedc40bird by them. Primary field account with differentlocality: use broad IDcrosscheck, no photoidentical featherstage assumption.
+Design inference: break ruler edge and mathematically regular belly stripes into fine irregular feather-following rufous crossmarks; preserve upper breast drops/orange-yellowiris/darkbill/shorttufts, near-equaladults with modestfemale fullness. Juvenile c40 is sourceestimate, no flightclaim, bothfeet rockyledge. Clifforigin source hunterreport, not direct nestlingin-situ ageproof. Nestlining not added. Precise feathergeometry/age/standingheight ratio unresolved. Finalvisualreview pending.
+
+[Research](species/87-bubo-ascalaphus-v7.md) · [Image](../design/concepts/87-bubo-ascalaphus-v7.png) · [Review](reviews/87-bubo-ascalaphus-v7-review.md)

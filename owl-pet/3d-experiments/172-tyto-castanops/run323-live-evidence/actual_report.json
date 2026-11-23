@@ -1,6 +1,6 @@
 {
-  "run": 323,
-  "started_utc": "2026-11-23T12:39:41Z",
+  "run": "323b",
+  "started_utc": "2026-11-23T12:41:55Z",
   "goal": "#172 Tyto castanops v3 rightmost cream-white age-unknown mesoptile chick",
   "source_original": "owl-pet/design/concepts/172-tyto-castanops-v3.png",
   "paid_usd": 0,
@@ -13,19 +13,19 @@
   "native_glb": null,
   "providers": [
     {
-      "provider": "3dai_dev_textured",
+      "provider": "3dai_dev_geometry",
       "source_url": "https://3dai.dev/en",
-      "intent": "Dedicated free textured 3D public web interface; one input, one attempt",
-      "status": "NO_ENABLED_FREE_GENERATE_CONTROL",
+      "intent": "Service shows texture unavailable; attempt genuinely enabled free white native mesh, not a finished owl",
+      "status": "SERVER_OR_MODEL_FAILURE",
       "payment_usd": 0,
       "webgl_unverified": true,
       "http_initial": 200,
       "title": "Free AI 3D Model Generator from Images | 3DAI Studio",
       "initial_text": "3D\n3DAI Studio\nEN\n中文\n日本語\n한국어\nDE\nGPU online\n0\nqueued\nFREE IMAGE TO 3D · NO SIGN-UP\nFree AI 3D\nmodel generator.\n\nUpload one image or multiple views and create a 3D model on a dedicated RTX GPU for free.\nPreview online and export a web-ready GLB.\n\nFree to use\nNo sign-up\nInstant GLB preview\nSingle image\nEasiest\nMulti-view\nBetter detail\nCoin precision\nText fidelity\nEasiest\nSingle image\n\nUpload one subject image and let AI infer hidden angles.\n\nSubject image\nRequired\nDrop an image or choose a file\nClick to upload\nOutput\nTextured\nTexture service starting\nUnavailable\nWhite mesh\nClean geometry only, generated faster\nGeometry\nTextured mode creates geometry first, then Hunyuan Paint generates a complete surface texture instead of projecting the source onto the back.\nGeneration quality\nQuick preview\nAbout 1–2 min\nStandard\nRecommended\nFine detail\nTakes longer\nRandom seed\nRemove background\nCleaner subject silhouette\nGenerate white 3D mesh\n\nUpload a subject image to begin\n\nResult\nYour 3D model will appear here\n\nRotate, zoom and download the GLB when it is ready.\n\nStandard quality usually takes a few minutes\nDrag to rotate · Scroll to zoom\n© 2026 3DAI Studio\nImages and models are deleted automatically after 24 hours\nAI estimates areas that are not visible in the source image",
-      "initial_screenshot": "3dai_dev_textured_open.png",
+      "initial_screenshot": "3dai_dev_geometry_open.png",
       "actual_file_inputs": 1,
       "after_upload_text": "3D\n3DAI Studio\nEN\n中文\n日本語\n한국어\nDE\nGPU online\n0\nqueued\nFREE IMAGE TO 3D · NO SIGN-UP\nFree AI 3D\nmodel generator.\n\nUpload one image or multiple views and create a 3D model on a dedicated RTX GPU for free.\nPreview online and export a web-ready GLB.\n\nFree to use\nNo sign-up\nInstant GLB preview\nSingle image\nEasiest\nMulti-view\nBetter detail\nCoin precision\nText fidelity\nEasiest\nSingle image\n\nUpload one subject image and let AI infer hidden angles.\n\nSubject image\nRequired\nyoung-REAL-PHOTO-PIXELS-transparent-input-NO_3D.png\nClick to replace\nOutput\nTextured\nTexture service starting\nUnavailable\nWhite mesh\nClean geometry only, generated faster\nGeometry\nTextured mode creates geometry first, then Hunyuan Paint generates a complete surface texture instead of projecting the source onto the back.\nGeneration quality\nQuick preview\nAbout 1–2 min\nStandard\nRecommended\nFine detail\nTakes longer\nRandom seed\nRemove background\nCleaner subject silhouette\nGenerate white 3D mesh\nResult\nYour 3D model will appear here\n\nRotate, zoom and download the GLB when it is ready.\n\nStandard quality usually takes a few minutes\nDrag to rotate · Scroll to zoom\n© 2026 3DAI Studio\nImages and models are deleted automatically after 24 hours\nAI estimates areas that are not visible in the source image",
-      "after_upload_screenshot": "3dai_dev_textured_upload.png",
+      "after_upload_screenshot": "3dai_dev_geometry_upload.png",
       "actual_buttons": [
         {
           "i": 0,
@@ -58,36 +58,485 @@
           "enabled": true
         }
       ],
+      "generation_button": "Generate white 3D mesh",
+      "clicked_generation": true,
+      "generation_started_utc": "2026-11-23T12:42:07Z",
+      "samples": [
+        {
+          "elapsed": 6.5,
+          "text": "3D 3DAI Studio EN 中文 日本語 한국어 DE GPU online 0 queued FREE IMAGE TO 3D · NO SIGN-UP Free AI 3D model generator. Upload one image or multiple views and create a 3D model on a dedicated RTX GPU for free. Preview online and export a web-ready GLB. Free to use No sign-up Instant GLB preview Single image Easiest Multi-view Better detail Coin precision Text fidelity Easiest Single image Upload one subject image and let AI infer hidden angles. Subject image Required young-REAL-PHOTO-PIXELS-transparent-input-NO_3D.png Click to replace Output Textured Tex"
+        },
+        {
+          "elapsed": 13.0,
+          "text": "3D 3DAI Studio EN 中文 日本語 한국어 DE GPU online 1 queued FREE IMAGE TO 3D · NO SIGN-UP Free AI 3D model generator. Upload one image or multiple views and create a 3D model on a dedicated RTX GPU for free. Preview online and export a web-ready GLB. Free to use No sign-up Instant GLB preview Single image Easiest Multi-view Better detail Coin precision Text fidelity Easiest Single image Upload one subject image and let AI infer hidden angles. Subject image Required young-REAL-PHOTO-PIXELS-transparent-input-NO_3D.png Click to replace Output Textured Tex"
+        },
+        {
+          "elapsed": 19.5,
+          "text": "3D 3DAI Studio EN 中文 日本語 한국어 DE GPU online 0 queued FREE IMAGE TO 3D · NO SIGN-UP Free AI 3D model generator. Upload one image or multiple views and create a 3D model on a dedicated RTX GPU for free. Preview online and export a web-ready GLB. Free to use No sign-up Instant GLB preview Single image Easiest Multi-view Better detail Coin precision Text fidelity Easiest Single image Upload one subject image and let AI infer hidden angles. Subject image Required young-REAL-PHOTO-PIXELS-transparent-input-NO_3D.png Click to replace Output Textured Tex"
+        }
+      ],
+      "final_text": "3D\n3DAI Studio\nEN\n中文\n日本語\n한국어\nDE\nGPU online\n0\nqueued\nFREE IMAGE TO 3D · NO SIGN-UP\nFree AI 3D\nmodel generator.\n\nUpload one image or multiple views and create a 3D model on a dedicated RTX GPU for free.\nPreview online and export a web-ready GLB.\n\nFree to use\nNo sign-up\nInstant GLB preview\nSingle image\nEasiest\nMulti-view\nBetter detail\nCoin precision\nText fidelity\nEasiest\nSingle image\n\nUpload one subject image and let AI infer hidden angles.\n\nSubject image\nRequired\nyoung-REAL-PHOTO-PIXELS-transparent-input-NO_3D.png\nClick to replace\nOutput\nTextured\nTexture service starting\nUnavailable\nWhite mesh\nClean geometry only, generated faster\nGeometry\nTextured mode creates geometry first, then Hunyuan Paint generates a complete surface texture instead of projecting the source onto the back.\nGeneration quality\nQuick preview\nAbout 1–2 min\nStandard\nRecommended\nFine detail\nTakes longer\nRandom seed\nRemove background\nCleaner subject silhouette\nGenerate white 3D mesh\nResult\nYour 3D model will appear here\n\nRotate, zoom and download the GLB when it is ready.\n\nStandard quality usually takes a few minutes\nDrag to rotate · Scroll to zoom\nGeneration failed. Try another image or setting.\n×\n© 2026 3DAI Studio\nImages and models are deleted automatically after 24 hours\nAI estimates areas that are not visible in the source image",
+      "after_generation_screenshot": "screenshot failed: Page.screenshot: Timeout 15000ms exceeded.\nCall log:\n  - taking page screenshot\n  - waiting for fonts to load...\n  - fonts loaded\n",
       "observed_glb_responses": [],
       "browser_downloads": [],
       "final_public_model_links": []
     },
     {
-      "provider": "3daimaker_com",
-      "source_url": "https://3daimaker.com/",
-      "intent": "Advertised public free GLB generator; verify actual generation",
-      "status": "HTTP_NOT_200",
+      "provider": "trellis2_dev",
+      "source_url": "https://trellis2.dev/",
+      "intent": "Independent public no-signup Trellis2 textured GLB generator; not the earlier ZeroGPU official quota",
+      "status": "NO_NATIVE_GLB_IN_OBSERVED_WINDOW",
       "payment_usd": 0,
       "webgl_unverified": true,
-      "http_initial": 403,
-      "title": "Just a moment...",
-      "initial_text": "3daimaker.com\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nRay ID: a5f03d3ebe865120\nPerformance and Security by Cloudflare\nPrivacy",
-      "initial_screenshot": "3daimaker_com_open.png",
+      "http_initial": 200,
+      "title": "Trellis 2 | Free AI Image to 3D Generator - No Signup",
+      "initial_text": "Trellis 2\nGenerator\nFeatures\nFAQ\nEnglish\nFree\nThe image to 3D generator is live — create your first model in one minute\nTrellis 2 - Free AI Image to 3D Generator\n\nDrop in an image and get back a textured 3D model you can download right away.\nNothing to install, no account, no watermark.\n\nGenerate 3D Free\nTrellis 2 Image to 3D\n\nAI-powered image to 3D — upload an image, get a textured 3D result instantly.\n\nImage to 3D\nAI Image Editor\nAdd Your Image\nDrag & drop your image here, or click to browse\nFace Count\n5K\n10K\n20K\n30K\n40K\n\n→\n\nYour 3D model will appear here.\n\nGENERATE\nFast & Private 3D in ~50s. No sign-up, 100% free.\n\nUpload an image first to start generating.\n\nGenerate this 3D model\nWhat Trellis 2 Does With One Image\n\nTrellis 2 reads a single image, rebuilds its shape and surface, and delivers a download-ready 3D model — usually in well under a minute.\n\nOne Image Is Enough\nA product image, a character drawing, a toy on your desk — the AI needs just one clear image to reconstruct the full 3D shape.\nTextures Included\nThe mesh arrives with color and surface detail already applied, so it looks right the moment you open it in a viewer or engine.\nZero Setup, Zero Cost\nEverything runs in the browser tab you already have open. No installs, no registration wall, no charge to download your result.\nYour Images Stay Private\nUploads go straight to the AI for processing and are deleted right after. Nothing you submit is stored or shared.\nWhy Creators Pick Trellis 2\n\nModeling an object by hand can eat an afternoon. This generator gets you a usable 3D asset before your coffee cools.\n\nFree Without the Catch\nNo trial countdown, no credit meter, no watermark stamped on your work. The generator is free to use and free to download from.\nAssets You Can Actually Ship\nAny Device With a Browser\nGenerate this 3D model\nHow to Use Trellis 2\n\nThree steps from flat image to 3D model:\n\n1\n1. Add an Image\n\nDrag a PNG, JPG, or WebP into the upload box. A single object against a clean background gives the best 3D result.\n\n2\n2. Let the AI Work\n\nThe AI analyzes the image, rebuilds geometry, and bakes the textures. Watch the 3D preview appear in the viewer.\n\n3\n3. Grab the GLB\n\nSpin the model around",
+      "initial_screenshot": "trellis2_dev_open.png",
+      "actual_file_inputs": 1,
+      "after_upload_text": "Trellis 2\nGenerator\nFeatures\nFAQ\nEnglish\nFree\nThe image to 3D generator is live — create your first model in one minute\nTrellis 2 - Free AI Image to 3D Generator\n\nDrop in an image and get back a textured 3D model you can download right away.\nNothing to install, no account, no watermark.\n\nGenerate 3D Free\nTrellis 2 Image to 3D\n\nAI-powered image to 3D — upload an image, get a textured 3D result instantly.\n\nImage to 3D\nAI Image Editor\nFace Count\n5K\n10K\n20K\n30K\n40K\n\n→\n\nYour 3D model will appear here.\n\nGENERATE\nFast & Private 3D in ~50s. No sign-up, 100% free.\nGenerate this 3D model\nWhat Trellis 2 Does With One Image\n\nTrellis 2 reads a single image, rebuilds its shape and surface, and delivers a download-ready 3D model — usually in well under a minute.\n\nOne Image Is Enough\nA product image, a character drawing, a toy on your desk — the AI needs just one clear image to reconstruct the full 3D shape.\nTextures Included\nThe mesh arrives with color and surface detail already applied, so it looks right the moment you open it in a viewer or engine.\nZero Setup, Zero Cost\nEverything runs in the browser tab you already have open. No installs, no registration wall, no charge to download your result.\nYour Images Stay Private\nUploads go straight to the AI for processing and are deleted right after. Nothing you submit is stored or shared.\nWhy Creators Pick Trellis 2\n\nModeling an object by hand can eat an afternoon. This generator gets you a usable 3D asset before your coffee cools.\n\nFree Without the Catch\nNo trial countdown, no credit meter, no watermark stamped on your work. The generator is free to use and free to download from.\nAssets You Can Actually Ship\nAny Device With a Browser\nGenerate this 3D model\nHow to Use Trellis 2\n\nThree steps from flat image to 3D model:\n\n1\n1. Add an Image\n\nDrag a PNG, JPG, or WebP into the upload box. A single object against a clean background gives the best 3D result.\n\n2\n2. Let the AI Work\n\nThe AI analyzes the image, rebuilds geometry, and bakes the textures. Watch the 3D preview appear in the viewer.\n\n3\n3. Grab the GLB\n\nSpin the model around, check it from every angle, then download the GLB file for your game, print, or product page.\n\nInside the Trellis 2 Generator\n\nThe details that make this generator more than a quick demo.\n\nTrue 3D Reconstruction\n\nThe model infers the unseen sides of your object and builds real geometry — not a flat card with a depth trick.\n\nAdjustable Face Count\n\nPick 5K, 10K, 20K, 30K, or 40K faces per mesh. Keep polygons low for games and AR, or go high for print-quality surfaces.\n\nFast Turnaround\n\nA warmed-up run ty",
+      "after_upload_screenshot": "trellis2_dev_upload.png",
+      "actual_buttons": [
+        {
+          "i": 0,
+          "name": "English",
+          "enabled": true
+        },
+        {
+          "i": 1,
+          "name": "Generate 3D Free",
+          "enabled": true
+        },
+        {
+          "i": 2,
+          "name": "Add Your Image",
+          "enabled": true
+        },
+        {
+          "i": 3,
+          "name": "Sample input: cartoon baby dragon",
+          "enabled": true
+        },
+        {
+          "i": 4,
+          "name": "Sample input: classical marble bust",
+          "enabled": true
+        },
+        {
+          "i": 5,
+          "name": "Sample input: carved Halloween pumpkin",
+          "enabled": true
+        },
+        {
+          "i": 6,
+          "name": "Sample input: stone cottage with blue roof",
+          "enabled": true
+        },
+        {
+          "i": 7,
+          "name": "5K",
+          "enabled": true
+        },
+        {
+          "i": 8,
+          "name": "10K",
+          "enabled": true
+        },
+        {
+          "i": 9,
+          "name": "20K",
+          "enabled": true
+        },
+        {
+          "i": 10,
+          "name": "30K",
+          "enabled": true
+        },
+        {
+          "i": 11,
+          "name": "40K",
+          "enabled": true
+        },
+        {
+          "i": 12,
+          "name": "GENERATE\nFast & Private 3D in ~50s. No sign-up, 100% free.",
+          "enabled": true
+        },
+        {
+          "i": 13,
+          "name": "Generate this 3D model",
+          "enabled": true
+        },
+        {
+          "i": 14,
+          "name": "Free Without the Catch",
+          "enabled": false
+        },
+        {
+          "i": 15,
+          "name": "Assets You Can Actually Ship",
+          "enabled": true
+        },
+        {
+          "i": 16,
+          "name": "Any Device With a Browser",
+          "enabled": true
+        },
+        {
+          "i": 17,
+          "name": "Generate this 3D model",
+          "enabled": true
+        },
+        {
+          "i": 18,
+          "name": "What is Trellis 2?",
+          "enabled": true
+        },
+        {
+          "i": 19,
+          "name": "Is Trellis 2 really free?",
+          "enabled": true
+        },
+        {
+          "i": 20,
+          "name": "Which images work best with Trellis 2?",
+          "enabled": true
+        },
+        {
+          "i": 21,
+          "name": "What file format does Trellis 2 export?",
+          "enabled": true
+        },
+        {
+          "i": 22,
+          "name": "How fast is Trellis 2?",
+          "enabled": true
+        },
+        {
+          "i": 23,
+          "name": "Does Trellis 2 store my uploaded images?",
+          "enabled": true
+        }
+      ],
+      "generation_button": "Generate 3D Free",
+      "clicked_generation": true,
+      "generation_started_utc": "2026-11-23T12:42:57Z",
+      "samples": [
+        {
+          "elapsed": 13.0,
+          "text": "Trellis 2 Generator Features FAQ English Free The image to 3D generator is live — create your first model in one minute Trellis 2 - Free AI Image to 3D Generator Drop in an image and get back a textured 3D model you can download right away. Nothing to install, no account, no watermark. Generate 3D Free Trellis 2 Image to 3D AI-powered image to 3D — upload an image, get a textured 3D result instantly. Image to 3D AI Image Editor Face Count 5K 10K 20K 30K 40K → Your 3D model will appear here. GENERATE Fast & Private 3D in ~50s. No sign-up, 100% f"
+        },
+        {
+          "elapsed": 19.5,
+          "text": "Trellis 2 Generator Features FAQ English Free The image to 3D generator is live — create your first model in one minute Trellis 2 - Free AI Image to 3D Generator Drop in an image and get back a textured 3D model you can download right away. Nothing to install, no account, no watermark. Generate 3D Free Trellis 2 Image to 3D AI-powered image to 3D — upload an image, get a textured 3D result instantly. Image to 3D AI Image Editor Face Count 5K 10K 20K 30K 40K → Your 3D model will appear here. GENERATE Fast & Private 3D in ~50s. No sign-up, 100% f"
+        },
+        {
+          "elapsed": 26.0,
+          "text": "Trellis 2 Generator Features FAQ English Free The image to 3D generator is live — create your first model in one minute Trellis 2 - Free AI Image to 3D Generator Drop in an image and get back a textured 3D model you can download right away. Nothing to install, no account, no watermark. Generate 3D Free Trellis 2 Image to 3D AI-powered image to 3D — upload an image, get a textured 3D result instantly. Image to 3D AI Image Editor Face Count 5K 10K 20K 30K 40K → Your 3D model will appear here. GENERATE Fast & Private 3D in ~50s. No sign-up, 100% f"
+        },
+        {
+          "elapsed": 32.5,
+          "text": "Trellis 2 Generator Features FAQ English Free The image to 3D generator is live — create your first model in one minute Trellis 2 - Free AI Image to 3D Generator Drop in an image and get back a textured 3D model you can download right away. Nothing to install, no account, no watermark. Generate 3D Free Trellis 2 Image to 3D AI-powered image to 3D — upload an image, get a textured 3D result instantly. Image to 3D AI Image Editor Face Count 5K 10K 20K 30K 40K → Your 3D model will appear here. GENERATE Fast & Private 3D in ~50s. No sign-up, 100% f"
+        },
+        {
+          "elapsed": 39.0,
+          "text": "Trellis 2 Generator Features FAQ English Free The image to 3D generator is live — create your first model in one minute Trellis 2 - Free AI Image to 3D Generator Drop in an image and get back a textured 3D model you can download right away. Nothing to install, no account, no watermark. Generate 3D Free Trellis 2 Image to 3D AI-powered image to 3D — upload an image, get a textured 3D result instantly. Image to 3D AI Image Editor Face Count 5K 10K 20K 30K 40K → Your 3D model will appear here. GENERATE Fast & Private 3D in ~50s. No sign-up, 100% f"
+        },
+        {
+          "elapsed": 45.6,
+          "text": "Trellis 2 Generator Features FAQ English Free The image to 3D generator is live — create your first model in one minute Trellis 2 - Free AI Image to 3D Generator Drop in an image and get back a textured 3D model you can download right away. Nothing to install, no account, no watermark. Generate 3D Free Trellis 2 Image to 3D AI-powered image to 3D — upload an image, get a textured 3D result instantly. Image to 3D AI Image Editor Face Count 5K 10K 20K 30K 40K → Your 3D model will appear here. GENERATE Fast & Private 3D in ~50s. No sign-up, 100% f"
+        },
+        {
+          "elapsed": 52.1,
+          "text": "Trellis 2 Generator Features FAQ English Free The image to 3D generator is live — create your first model in one minute Trellis 2 - Free AI Image to 3D Generator Drop in an image and get back a textured 3D model you can download right away. Nothing to install, no account, no watermark. Generate 3D Free Trellis 2 Image to 3D AI-powered image to 3D — upload an image, get a textured 3D result instantly. Image to 3D AI Image Editor Face Count 5K 10K 20K 30K 40K → Your 3D model will appear here. GENERATE Fast & Private 3D in ~50s. No sign-up, 100% f"
+        },
+        {
+          "elapsed": 58.6,
+          "text": "Trellis 2 Generator Features FAQ English Free The image to 3D generator is live — create your first model in one minute Trellis 2 - Free AI Image to 3D Generator Drop in an image and get back a textured 3D model you can download right away. Nothing to install, no account, no watermark. Generate 3D Free Trellis 2 Image to 3D AI-powered image to 3D — upload an image, get a textured 3D result instantly. Image to 3D AI Image Editor Face Count 5K 10K 20K 30K 40K → Your 3D model will appear here. GENERATE Fast & Private 3D in ~50s. No sign-up, 100% f"
+        },
+        {
+          "elapsed": 65.1,
+          "text": "Trellis 2 Generator Features FAQ English Free The image to 3D generator is live — create your first model in one minute Trellis 2 - Free AI Image to 3D Generator Drop in an image and get back a textured 3D model you can download right away. Nothing to install, no account, no watermark. Generate 3D Free Trellis 2 Image to 3D AI-powered image to 3D — upload an image, get a textured 3D result instantly. Image to 3D AI Image Editor Face Count 5K 10K 20K 30K 40K → Your 3D model will appear here. GENERATE Fast & Private 3D in ~50s. No sign-up, 100% f"
+        },
+        {
+          "elapsed": 71.6,
+          "text": "Trellis 2 Generator Features FAQ English Free The image to 3D generator is live — create your first model in one minute Trellis 2 - Free AI Image to 3D Generator Drop in an image and get back a textured 3D model you can download right away. Nothing to install, no account, no watermark. Generate 3D Free Trellis 2 Image to 3D AI-powered image to 3D — upload an image, get a textured 3D result instantly. Image to 3D AI Image Editor Face Count 5K 10K 20K 30K 40K → Your 3D model will appear here. GENERATE Fast & Private 3D in ~50s. No sign-up, 100% f"
+        },
+        {
+          "elapsed": 78.1,
+          "text": "Trellis 2 Generator Features FAQ English Free The image to 3D generator is live — create your first model in one minute Trellis 2 - Free AI Image to 3D Generator Drop in an image and get back a textured 3D model you can download right away. Nothing to install, no account, no watermark. Generate 3D Free Trellis 2 Image to 3D AI-powered image to 3D — upload an image, get a textured 3D result instantly. Image to 3D AI Image Editor Face Count 5K 10K 20K 30K 40K → Your 3D model will appear here. GENERATE Fast & Private 3D in ~50s. No sign-up, 100% f"
+        },
+        {
+          "elapsed": 84.6,
+          "text": "Trellis 2 Generator Features FAQ English Free The image to 3D generator is live — create your first model in one minute Trellis 2 - Free AI Image to 3D Generator Drop in an image and get back a textured 3D model you can download right away. Nothing to install, no account, no watermark. Generate 3D Free Trellis 2 Image to 3D AI-powered image to 3D — upload an image, get a textured 3D result instantly. Image to 3D AI Image Editor Face Count 5K 10K 20K 30K 40K → Your 3D model will appear here. GENERATE Fast & Private 3D in ~50s. No sign-up, 100% f"
+        },
+        {
+          "elapsed": 91.1,
+          "text": "Trellis 2 Generator Features FAQ English Free The image to 3D generator is live — create your first model in one minute Trellis 2 - Free AI Image to 3D Generator Drop in an image and get back a textured 3D model you can download right away. Nothing to install, no account, no watermark. Generate 3D Free Trellis 2 Image to 3D AI-powered image to 3D — upload an image, get a textured 3D result instantly. Image to 3D AI Image Editor Face Count 5K 10K 20K 30K 40K → Your 3D model will appear here. GENERATE Fast & Private 3D in ~50s. No sign-up, 100% f"
+        },
+        {
+          "elapsed": 97.6,
+          "text": "Trellis 2 Generator Features FAQ English Free The image to 3D generator is live — create your first model in one minute Trellis 2 - Free AI Image to 3D Generator Drop in an image and get back a textured 3D model you can download right away. Nothing to install, no account, no watermark. Generate 3D Free Trellis 2 Image to 3D AI-powered image to 3D — upload an image, get a textured 3D result instantly. Image to 3D AI Image Editor Face Count 5K 10K 20K 30K 40K → Your 3D model will appear here. GENERATE Fast & Private 3D in ~50s. No sign-up, 100% f"
+        },
+        {
+          "elapsed": 104.1,
+          "text": "Trellis 2 Generator Features FAQ English Free The image to 3D generator is live — create your first model in one minute Trellis 2 - Free AI Image to 3D Generator Drop in an image and get back a textured 3D model you can download right away. Nothing to install, no account, no watermark. Generate 3D Free Trellis 2 Image to 3D AI-powered image to 3D — upload an image, get a textured 3D result instantly. Image to 3D AI Image Editor Face Count 5K 10K 20K 30K 40K → Your 3D model will appear here. GENERATE Fast & Private 3D in ~50s. No sign-up, 100% f"
+        },
+        {
+          "elapsed": 110.6,
+          "text": "Trellis 2 Generator Features FAQ English Free The image to 3D generator is live — create your first model in one minute Trellis 2 - Free AI Image to 3D Generator Drop in an image and get back a textured 3D model you can download right away. Nothing to install, no account, no watermark. Generate 3D Free Trellis 2 Image to 3D AI-powered image to 3D — upload an image, get a textured 3D result instantly. Image to 3D AI Image Editor Face Count 5K 10K 20K 30K 40K → Your 3D model will appear here. GENERATE Fast & Private 3D in ~50s. No sign-up, 100% f"
+        },
+        {
+          "elapsed": 117.1,
+          "text": "Trellis 2 Generator Features FAQ English Free The image to 3D generator is live — create your first model in one minute Trellis 2 - Free AI Image to 3D Generator Drop in an image and get back a textured 3D model you can download right away. Nothing to install, no account, no watermark. Generate 3D Free Trellis 2 Image to 3D AI-powered image to 3D — upload an image, get a textured 3D result instantly. Image to 3D AI Image Editor Face Count 5K 10K 20K 30K 40K → Your 3D model will appear here. GENERATE Fast & Private 3D in ~50s. No sign-up, 100% f"
+        },
+        {
+          "elapsed": 123.7,
+          "text": "Trellis 2 Generator Features FAQ English Free The image to 3D generator is live — create your first model in one minute Trellis 2 - Free AI Image to 3D Generator Drop in an image and get back a textured 3D model you can download right away. Nothing to install, no account, no watermark. Generate 3D Free Trellis 2 Image to 3D AI-powered image to 3D — upload an image, get a textured 3D result instantly. Image to 3D AI Image Editor Face Count 5K 10K 20K 30K 40K → Your 3D model will appear here. GENERATE Fast & Private 3D in ~50s. No sign-up, 100% f"
+        },
+        {
+          "elapsed": 130.2,
+          "text": "Trellis 2 Generator Features FAQ English Free The image to 3D generator is live — create your first model in one minute Trellis 2 - Free AI Image to 3D Generator Drop in an image and get back a textured 3D model you can download right away. Nothing to install, no account, no watermark. Generate 3D Free Trellis 2 Image to 3D AI-powered image to 3D — upload an image, get a textured 3D result instantly. Image to 3D AI Image Editor Face Count 5K 10K 20K 30K 40K → Your 3D model will appear here. GENERATE Fast & Private 3D in ~50s. No sign-up, 100% f"
+        },
+        {
+          "elapsed": 136.7,
+          "text": "Trellis 2 Generator Features FAQ English Free The image to 3D generator is live — create your first model in one minute Trellis 2 - Free AI Image to 3D Generator Drop in an image and get back a textured 3D model you can download right away. Nothing to install, no account, no watermark. Generate 3D Free Trellis 2 Image to 3D AI-powered image to 3D — upload an image, get a textured 3D result instantly. Image to 3D AI Image Editor Face Count 5K 10K 20K 30K 40K → Your 3D model will appear here. GENERATE Fast & Private 3D in ~50s. No sign-up, 100% f"
+        },
+        {
+          "elapsed": 143.2,
+          "text": "Trellis 2 Generator Features FAQ English Free The image to 3D generator is live — create your first model in one minute Trellis 2 - Free AI Image to 3D Generator Drop in an image and get back a textured 3D model you can download right away. Nothing to install, no account, no watermark. Generate 3D Free Trellis 2 Image to 3D AI-powered image to 3D — upload an image, get a textured 3D result instantly. Image to 3D AI Image Editor Face Count 5K 10K 20K 30K 40K → Your 3D model will appear here. GENERATE Fast & Private 3D in ~50s. No sign-up, 100% f"
+        },
+        {
+          "elapsed": 149.7,
+          "text": "Trellis 2 Generator Features FAQ English Free The image to 3D generator is live — create your first model in one minute Trellis 2 - Free AI Image to 3D Generator Drop in an image and get back a textured 3D model you can download right away. Nothing to install, no account, no watermark. Generate 3D Free Trellis 2 Image to 3D AI-powered image to 3D — upload an image, get a textured 3D result instantly. Image to 3D AI Image Editor Face Count 5K 10K 20K 30K 40K → Your 3D model will appear here. GENERATE Fast & Private 3D in ~50s. No sign-up, 100% f"
+        },
+        {
+          "elapsed": 156.2,
+          "text": "Trellis 2 Generator Features FAQ English Free The image to 3D generator is live — create your first model in one minute Trellis 2 - Free AI Image to 3D Generator Drop in an image and get back a textured 3D model you can download right away. Nothing to install, no account, no watermark. Generate 3D Free Trellis 2 Image to 3D AI-powered image to 3D — upload an image, get a textured 3D result instantly. Image to 3D AI Image Editor Face Count 5K 10K 20K 30K 40K → Your 3D model will appear here. GENERATE Fast & Private 3D in ~50s. No sign-up, 100% f"
+        },
+        {
+          "elapsed": 162.7,
+          "text": "Trellis 2 Generator Features FAQ English Free The image to 3D generator is live — create your first model in one minute Trellis 2 - Free AI Image to 3D Generator Drop in an image and get back a textured 3D model you can download right away. Nothing to install, no account, no watermark. Generate 3D Free Trellis 2 Image to 3D AI-powered image to 3D — upload an image, get a textured 3D result instantly. Image to 3D AI Image Editor Face Count 5K 10K 20K 30K 40K → Your 3D model will appear here. GENERATE Fast & Private 3D in ~50s. No sign-up, 100% f"
+        }
+      ],
+      "final_text": "Drag a PNG, JPG, or WebP into the upload box. A single object against a clean background gives the best 3D result.\n\n2\n2. Let the AI Work\n\nThe AI analyzes the image, rebuilds geometry, and bakes the textures. Watch the 3D preview appear in the viewer.\n\n3\n3. Grab the GLB\n\nSpin the model around, check it from every angle, then download the GLB file for your game, print, or product page.\n\nInside the Trellis 2 Generator\n\nThe details that make this generator more than a quick demo.\n\nTrue 3D Reconstruction\n\nThe model infers the unseen sides of your object and builds real geometry — not a flat card with a depth trick.\n\nAdjustable Face Count\n\nPick 5K, 10K, 20K, 30K, or 40K faces per mesh. Keep polygons low for games and AR, or go high for print-quality surfaces.\n\nFast Turnaround\n\nA warmed-up run typically lands in 15–60 seconds. Only the first generation of the day may need a couple of minutes to wake the engine.\n\nStandard GLB Export\n\nGLB opens everywhere: Blender, Unity, Unreal, Three.js, iOS Quick Look, and most slicers for 3D printing.\n\nBuilt-In AI Image Editor\n\nA second tab lets you edit images with text prompts — restyle, relight, or clean up an image before turning it into 3D.\n\nLive 3D Preview\n\nRotate and zoom the generated model right on the page, so you know exactly what you're downloading before you click.\n\nImage to 3D at a Glance\n\nBuilt for speed, priced at zero.\n\n15–60s Typical Generation Time\n15–60s\n\nTypical Generation Time\n\n5K–40K Selectable Mesh Faces\n5K–40K\n\nSelectable Mesh Faces\n\n$0 Cost Per Model\n$0\n\nCost Per Model\n\nWhat People Make With Trellis 2\nGenerate this 3D model\nE-Commerce Product Views\nOne catalog image becomes an interactive 3D model shoppers can spin — no photography rig, no 3D artist on retainer\nGenerate this 3D model\nGame & AR Prototyping\nFeed in concept art and get placeholder-to-final assets for engines and AR scenes in minutes instead of days\nGenerate this 3D model\n3D Printing Projects\nUpload an image of an object, generate the mesh with Trellis 2, and send the file to your slicer the same evening\nFrequently Asked Questions\n\nQuick answers about how Trellis 2 works and what it costs (nothing).\n\nWhat is Trellis 2?\nIs Trellis 2 really free?\nWhich images work best with Trellis 2?\nWhat file format does Trellis 2 export?\nHow fast is Trellis 2?\nDoes Trellis 2 store my uploaded images?\n\nTurn Your Next Image Into 3D\n\nFree and ready — your first 3D model is about a minute away.\n\nStart With Trellis 2\nTrellis 2\n\nTrellis 2 is a free AI image to 3D generator. One image in, one textured 3D model out — no account, no watermark, no cost.\n\nTool\nTrellis 2 Generator\nAbout\nFeatures\nFAQ\n© 2026 Trellis 2, All rights reserved\nPrivacy Policy\nTerms of Se",
+      "after_generation_screenshot": "trellis2_dev_after.png",
       "observed_glb_responses": [],
       "browser_downloads": [],
       "final_public_model_links": []
     },
     {
-      "provider": "hunyuan3d_dev",
-      "source_url": "https://hunyuan3d.dev/en",
-      "intent": "Claimed public no-cost texture-capable Hunyuan 3D host; verify output",
-      "status": "HTTP_NOT_200",
+      "provider": "hy3d_dev",
+      "source_url": "https://hy3d.dev/",
+      "intent": "Independent no-login Hunyuan3D geometry-only GLB fallback, not a complete textured product",
+      "status": "NO_NATIVE_GLB_IN_OBSERVED_WINDOW",
       "payment_usd": 0,
       "webgl_unverified": true,
-      "http_initial": 403,
-      "title": "Just a moment...",
-      "initial_text": "hunyuan3d.dev\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nRay ID: a5f03d59ca24102a\nPerformance and Security by Cloudflare\nPrivacy",
-      "initial_screenshot": "hunyuan3d_dev_open.png",
+      "http_initial": 200,
+      "title": "Hunyuan 3D | Free AI Image to 3D Generator - No Signup",
+      "initial_text": "Hy3D\nGenerator\nFeatures\nFAQ\nEnglish\nFree\nOpen-source Hunyuan 3D generation — try it free, no account needed\nHunyuan 3D: Free Open-Source Image-to-3D AI\n\nUpload an image. Hunyuan 3D turns it into an untextured 3D model.\nNo software. No signup. Just results.\n\nTry Hunyuan 3D Free\nHunyuan 3D-2.1\n\nAI-powered image to 3D — upload a photo, get an untextured 3D model.\n\nImage to 3D\nAI Image Editor\nAdd Your Image\nDrag & drop your picture here, or click to browse\nFace Count\n5K\n10K\n20K\n30K\n40K\n\n→\n\nYour 3D model will appear here.\n\nGENERATE\nFast & Private 3D in ~50s. No sign-up, 100% free.\n\nUpload an image first to start generating.\n\nSee What Hunyuan 3D Can Do\n\nUpload a single 2D image and Hunyuan 3D transforms it into an untextured 3D model you can download.\n\nFrom Photo to 3D in Seconds\nUpload a product photo, character sketch, or object image — Hunyuan 3D generates its 3D geometry.\nUntextured 3D Output\nEach result is an untextured 3D mesh. Download the GLB to view it or add textures and materials in your 3D editor.\nNo Barriers, No Hassle\nNo account required. No watermarks. No payment needed. Open the page, upload your image, and download your 3D result.\nOpen-Source & Transparent\nBuilt on Hunyuan3D, an open-source model by Tencent. The AI runs on secure infrastructure — your uploads are processed and deleted immediately.\nWhy Users Choose Hunyuan 3D\n\nCreating 3D models used to require expensive software and weeks of manual work. With Hunyuan 3D, it takes one image and a few seconds.\n\nFree, 3 Times a Day\nNo hidden pricing or credit packs. Generate up to 3 free 3D models a day with Hunyuan 3D.\nProduction-Ready Results\nRuns in Your Browser\nUse Hunyuan 3D in 3 Simple Steps\n\nHunyuan 3D turns your flat images into untextured 3D models. Here's how:\n\n1\nUpload Your Image\n\nDrag and drop or click to select any image — product photos, character art, objects, or sketches.\n\n2\nHunyuan 3D Builds Your 3D Model\n\nThe AI analyzes your image and constructs a 3D mesh with geometry and surface detail, without textures.\n\n3\nDownload & Use\n\nDownload the GLB file and use it in game engines, 3D printers, AR/VR apps, or e-commerce product pages.\n\nThe Technology Behind Hunyuan 3D\n\nA closer look at what ma",
+      "initial_screenshot": "hy3d_dev_open.png",
+      "actual_file_inputs": 1,
+      "after_upload_text": "Hy3D\nGenerator\nFeatures\nFAQ\nEnglish\nFree\nOpen-source Hunyuan 3D generation — try it free, no account needed\nHunyuan 3D: Free Open-Source Image-to-3D AI\n\nUpload an image. Hunyuan 3D turns it into an untextured 3D model.\nNo software. No signup. Just results.\n\nTry Hunyuan 3D Free\nHunyuan 3D-2.1\n\nAI-powered image to 3D — upload a photo, get an untextured 3D model.\n\nImage to 3D\nAI Image Editor\nFace Count\n5K\n10K\n20K\n30K\n40K\n\n→\n\nYour 3D model will appear here.\n\nGENERATE\nFast & Private 3D in ~50s. No sign-up, 100% free.\nSee What Hunyuan 3D Can Do\n\nUpload a single 2D image and Hunyuan 3D transforms it into an untextured 3D model you can download.\n\nFrom Photo to 3D in Seconds\nUpload a product photo, character sketch, or object image — Hunyuan 3D generates its 3D geometry.\nUntextured 3D Output\nEach result is an untextured 3D mesh. Download the GLB to view it or add textures and materials in your 3D editor.\nNo Barriers, No Hassle\nNo account required. No watermarks. No payment needed. Open the page, upload your image, and download your 3D result.\nOpen-Source & Transparent\nBuilt on Hunyuan3D, an open-source model by Tencent. The AI runs on secure infrastructure — your uploads are processed and deleted immediately.\nWhy Users Choose Hunyuan 3D\n\nCreating 3D models used to require expensive software and weeks of manual work. With Hunyuan 3D, it takes one image and a few seconds.\n\nFree, 3 Times a Day\nNo hidden pricing or credit packs. Generate up to 3 free 3D models a day with Hunyuan 3D.\nProduction-Ready Results\nRuns in Your Browser\nUse Hunyuan 3D in 3 Simple Steps\n\nHunyuan 3D turns your flat images into untextured 3D models. Here's how:\n\n1\nUpload Your Image\n\nDrag and drop or click to select any image — product photos, character art, objects, or sketches.\n\n2\nHunyuan 3D Builds Your 3D Model\n\nThe AI analyzes your image and constructs a 3D mesh with geometry and surface detail, without textures.\n\n3\nDownload & Use\n\nDownload the GLB file and use it in game engines, 3D printers, AR/VR apps, or e-commerce product pages.\n\nThe Technology Behind Hunyuan 3D\n\nA closer look at what makes Hunyuan 3D generate high-quality 3D results from a single image.\n\nAI Image-to-3D Engine\n\nHunyuan 3D reconstructs 3D geometry from a single 2D image.\n\nUntextured Mesh Output\n\nOutputs contain geometry without textures. Download the GLB for viewing or further editing in a 3D tool.\n\nGeneration Time\n\nOne model generates at a time, with room for 3 waiting tasks. Generation time depends on the queue and service startup.\n\nGLB Format Export\n\nHunyuan 3D exports in GLB — the universal standard supported by all m",
+      "after_upload_screenshot": "hy3d_dev_upload.png",
+      "actual_buttons": [
+        {
+          "i": 0,
+          "name": "English",
+          "enabled": true
+        },
+        {
+          "i": 1,
+          "name": "Try Hunyuan 3D Free",
+          "enabled": true
+        },
+        {
+          "i": 2,
+          "name": "Add Your Image",
+          "enabled": true
+        },
+        {
+          "i": 3,
+          "name": "Sample input: cartoon baby dragon",
+          "enabled": true
+        },
+        {
+          "i": 4,
+          "name": "Sample input: classical marble bust",
+          "enabled": true
+        },
+        {
+          "i": 5,
+          "name": "Sample input: carved Halloween pumpkin",
+          "enabled": true
+        },
+        {
+          "i": 6,
+          "name": "Sample input: stone cottage with blue roof",
+          "enabled": true
+        },
+        {
+          "i": 7,
+          "name": "5K",
+          "enabled": true
+        },
+        {
+          "i": 8,
+          "name": "10K",
+          "enabled": true
+        },
+        {
+          "i": 9,
+          "name": "20K",
+          "enabled": true
+        },
+        {
+          "i": 10,
+          "name": "30K",
+          "enabled": true
+        },
+        {
+          "i": 11,
+          "name": "40K",
+          "enabled": true
+        },
+        {
+          "i": 12,
+          "name": "GENERATE\nFast & Private 3D in ~50s. No sign-up, 100% free.",
+          "enabled": true
+        },
+        {
+          "i": 13,
+          "name": "Free, 3 Times a Day",
+          "enabled": false
+        },
+        {
+          "i": 14,
+          "name": "Production-Ready Results",
+          "enabled": true
+        },
+        {
+          "i": 15,
+          "name": "Runs in Your Browser",
+          "enabled": true
+        },
+        {
+          "i": 16,
+          "name": "What is Hunyuan 3D?",
+          "enabled": true
+        },
+        {
+          "i": 17,
+          "name": "Is Hunyuan 3D really free?",
+          "enabled": true
+        },
+        {
+          "i": 18,
+          "name": "What image formats can I upload?",
+          "enabled": true
+        },
+        {
+          "i": 19,
+          "name": "What 3D format does Hunyuan 3D export?",
+          "enabled": true
+        },
+        {
+          "i": 20,
+          "name": "How long does generation take?",
+          "enabled": true
+        },
+        {
+          "i": 21,
+          "name": "What happens to my uploaded images?",
+          "enabled": true
+        }
+      ],
+      "generation_button": "GENERATE\nFast & Private 3D in ~50s. No sign-up, 100% free.",
+      "clicked_generation": true,
+      "generation_started_utc": "2026-11-23T12:45:54Z",
+      "samples": [
+        {
+          "elapsed": 6.5,
+          "text": "Hy3D Generator Features FAQ English Free Open-source Hunyuan 3D generation — try it free, no account needed Hunyuan 3D: Free Open-Source Image-to-3D AI Upload an image. Hunyuan 3D turns it into an untextured 3D model. No software. No signup. Just results. Try Hunyuan 3D Free Hunyuan 3D-2.1 AI-powered image to 3D — upload a photo, get an untextured 3D model. Image to 3D AI Image Editor Image to 3D is processing. You can prepare the other tool, but only one generation can run at a time. Face Count 5K 10K 20K 30K 40K → 0% 0% · Starting… GENERATING"
+        },
+        {
+          "elapsed": 13.0,
+          "text": "Hy3D Generator Features FAQ English Free Open-source Hunyuan 3D generation — try it free, no account needed Hunyuan 3D: Free Open-Source Image-to-3D AI Upload an image. Hunyuan 3D turns it into an untextured 3D model. No software. No signup. Just results. Try Hunyuan 3D Free Hunyuan 3D-2.1 AI-powered image to 3D — upload a photo, get an untextured 3D model. Image to 3D AI Image Editor Image to 3D is processing. You can prepare the other tool, but only one generation can run at a time. Face Count 5K 10K 20K 30K 40K → 50% 50% · Optimizing mesh GE"
+        },
+        {
+          "elapsed": 19.5,
+          "text": "Hy3D Generator Features FAQ English Free Open-source Hunyuan 3D generation — try it free, no account needed Hunyuan 3D: Free Open-Source Image-to-3D AI Upload an image. Hunyuan 3D turns it into an untextured 3D model. No software. No signup. Just results. Try Hunyuan 3D Free Hunyuan 3D-2.1 AI-powered image to 3D — upload a photo, get an untextured 3D model. Image to 3D AI Image Editor Image to 3D is processing. You can prepare the other tool, but only one generation can run at a time. Face Count 5K 10K 20K 30K 40K → 60% 60% · Reducing mesh face"
+        },
+        {
+          "elapsed": 31.1,
+          "text": "body_read_error=Locator.inner_text: Timeout 5000ms exceeded. Call log: - waiting for locator(\"body\") "
+        },
+        {
+          "elapsed": 52.5,
+          "text": "Hy3D Generator Features FAQ English Free Open-source Hunyuan 3D generation — try it free, no account needed Hunyuan 3D: Free Open-Source Image-to-3D AI Upload an image. Hunyuan 3D turns it into an untextured 3D model. No software. No signup. Just results. Try Hunyuan 3D Free Hunyuan 3D-2.1 AI-powered image to 3D — upload a photo, get an untextured 3D model. Image to 3D AI Image Editor Face Count 5K 10K 20K 30K 40K → GENERATE Fast & Private 3D in ~50s. No sign-up, 100% free. 2 of 3 free 3D runs left today. See What Hunyuan 3D Can Do Upload a sin"
+        },
+        {
+          "elapsed": 59.0,
+          "text": "Hy3D Generator Features FAQ English Free Open-source Hunyuan 3D generation — try it free, no account needed Hunyuan 3D: Free Open-Source Image-to-3D AI Upload an image. Hunyuan 3D turns it into an untextured 3D model. No software. No signup. Just results. Try Hunyuan 3D Free Hunyuan 3D-2.1 AI-powered image to 3D — upload a photo, get an untextured 3D model. Image to 3D AI Image Editor Face Count 5K 10K 20K 30K 40K → GENERATE Fast & Private 3D in ~50s. No sign-up, 100% free. 2 of 3 free 3D runs left today. See What Hunyuan 3D Can Do Upload a sin"
+        },
+        {
+          "elapsed": 65.5,
+          "text": "Hy3D Generator Features FAQ English Free Open-source Hunyuan 3D generation — try it free, no account needed Hunyuan 3D: Free Open-Source Image-to-3D AI Upload an image. Hunyuan 3D turns it into an untextured 3D model. No software. No signup. Just results. Try Hunyuan 3D Free Hunyuan 3D-2.1 AI-powered image to 3D — upload a photo, get an untextured 3D model. Image to 3D AI Image Editor Face Count 5K 10K 20K 30K 40K → GENERATE Fast & Private 3D in ~50s. No sign-up, 100% free. 2 of 3 free 3D runs left today. See What Hunyuan 3D Can Do Upload a sin"
+        },
+        {
+          "elapsed": 72.0,
+          "text": "Hy3D Generator Features FAQ English Free Open-source Hunyuan 3D generation — try it free, no account needed Hunyuan 3D: Free Open-Source Image-to-3D AI Upload an image. Hunyuan 3D turns it into an untextured 3D model. No software. No signup. Just results. Try Hunyuan 3D Free Hunyuan 3D-2.1 AI-powered image to 3D — upload a photo, get an untextured 3D model. Image to 3D AI Image Editor Face Count 5K 10K 20K 30K 40K → GENERATE Fast & Private 3D in ~50s. No sign-up, 100% free. 2 of 3 free 3D runs left today. See What Hunyuan 3D Can Do Upload a sin"
+        },
+        {
+          "elapsed": 78.5,
+          "text": "Hy3D Generator Features FAQ English Free Open-source Hunyuan 3D generation — try it free, no account needed Hunyuan 3D: Free Open-Source Image-to-3D AI Upload an image. Hunyuan 3D turns it into an untextured 3D model. No software. No signup. Just results. Try Hunyuan 3D Free Hunyuan 3D-2.1 AI-powered image to 3D — upload a photo, get an untextured 3D model. Image to 3D AI Image Editor Face Count 5K 10K 20K 30K 40K → GENERATE Fast & Private 3D in ~50s. No sign-up, 100% free. 2 of 3 free 3D runs left today. See What Hunyuan 3D Can Do Upload a sin"
+        },
+        {
+          "elapsed": 85.1,
+          "text": "Hy3D Generator Features FAQ English Free Open-source Hunyuan 3D generation — try it free, no account needed Hunyuan 3D: Free Open-Source Image-to-3D AI Upload an image. Hunyuan 3D turns it into an untextured 3D model. No software. No signup. Just results. Try Hunyuan 3D Free Hunyuan 3D-2.1 AI-powered image to 3D — upload a photo, get an untextured 3D model. Image to 3D AI Image Editor Face Count 5K 10K 20K 30K 40K → GENERATE Fast & Private 3D in ~50s. No sign-up, 100% free. 2 of 3 free 3D runs left today. See What Hunyuan 3D Can Do Upload a sin"
+        },
+        {
+          "elapsed": 91.6,
+          "text": "Hy3D Generator Features FAQ English Free Open-source Hunyuan 3D generation — try it free, no account needed Hunyuan 3D: Free Open-Source Image-to-3D AI Upload an image. Hunyuan 3D turns it into an untextured 3D model. No software. No signup. Just results. Try Hunyuan 3D Free Hunyuan 3D-2.1 AI-powered image to 3D — upload a photo, get an untextured 3D model. Image to 3D AI Image Editor Face Count 5K 10K 20K 30K 40K → GENERATE Fast & Private 3D in ~50s. No sign-up, 100% free. 2 of 3 free 3D runs left today. See What Hunyuan 3D Can Do Upload a sin"
+        },
+        {
+          "elapsed": 98.1,
+          "text": "Hy3D Generator Features FAQ English Free Open-source Hunyuan 3D generation — try it free, no account needed Hunyuan 3D: Free Open-Source Image-to-3D AI Upload an image. Hunyuan 3D turns it into an untextured 3D model. No software. No signup. Just results. Try Hunyuan 3D Free Hunyuan 3D-2.1 AI-powered image to 3D — upload a photo, get an untextured 3D model. Image to 3D AI Image Editor Face Count 5K 10K 20K 30K 40K → GENERATE Fast & Private 3D in ~50s. No sign-up, 100% free. 2 of 3 free 3D runs left today. See What Hunyuan 3D Can Do Upload a sin"
+        },
+        {
+          "elapsed": 104.6,
+          "text": "Hy3D Generator Features FAQ English Free Open-source Hunyuan 3D generation — try it free, no account needed Hunyuan 3D: Free Open-Source Image-to-3D AI Upload an image. Hunyuan 3D turns it into an untextured 3D model. No software. No signup. Just results. Try Hunyuan 3D Free Hunyuan 3D-2.1 AI-powered image to 3D — upload a photo, get an untextured 3D model. Image to 3D AI Image Editor Face Count 5K 10K 20K 30K 40K → GENERATE Fast & Private 3D in ~50s. No sign-up, 100% free. 2 of 3 free 3D runs left today. See What Hunyuan 3D Can Do Upload a sin"
+        },
+        {
+          "elapsed": 111.1,
+          "text": "Hy3D Generator Features FAQ English Free Open-source Hunyuan 3D generation — try it free, no account needed Hunyuan 3D: Free Open-Source Image-to-3D AI Upload an image. Hunyuan 3D turns it into an untextured 3D model. No software. No signup. Just results. Try Hunyuan 3D Free Hunyuan 3D-2.1 AI-powered image to 3D — upload a photo, get an untextured 3D model. Image to 3D AI Image Editor Face Count 5K 10K 20K 30K 40K → GENERATE Fast & Private 3D in ~50s. No sign-up, 100% free. 2 of 3 free 3D runs left today. See What Hunyuan 3D Can Do Upload a sin"
+        },
+        {
+          "elapsed": 117.6,
+          "text": "Hy3D Generator Features FAQ English Free Open-source Hunyuan 3D generation — try it free, no account needed Hunyuan 3D: Free Open-Source Image-to-3D AI Upload an image. Hunyuan 3D turns it into an untextured 3D model. No software. No signup. Just results. Try Hunyuan 3D Free Hunyuan 3D-2.1 AI-powered image to 3D — upload a photo, get an untextured 3D model. Image to 3D AI Image Editor Face Count 5K 10K 20K 30K 40K → GENERATE Fast & Private 3D in ~50s. No sign-up, 100% free. 2 of 3 free 3D runs left today. See What Hunyuan 3D Can Do Upload a sin"
+        },
+        {
+          "elapsed": 124.1,
+          "text": "Hy3D Generator Features FAQ English Free Open-source Hunyuan 3D generation — try it free, no account needed Hunyuan 3D: Free Open-Source Image-to-3D AI Upload an image. Hunyuan 3D turns it into an untextured 3D model. No software. No signup. Just results. Try Hunyuan 3D Free Hunyuan 3D-2.1 AI-powered image to 3D — upload a photo, get an untextured 3D model. Image to 3D AI Image Editor Face Count 5K 10K 20K 30K 40K → GENERATE Fast & Private 3D in ~50s. No sign-up, 100% free. 2 of 3 free 3D runs left today. See What Hunyuan 3D Can Do Upload a sin"
+        },
+        {
+          "elapsed": 130.7,
+          "text": "Hy3D Generator Features FAQ English Free Open-source Hunyuan 3D generation — try it free, no account needed Hunyuan 3D: Free Open-Source Image-to-3D AI Upload an image. Hunyuan 3D turns it into an untextured 3D model. No software. No signup. Just results. Try Hunyuan 3D Free Hunyuan 3D-2.1 AI-powered image to 3D — upload a photo, get an untextured 3D model. Image to 3D AI Image Editor Face Count 5K 10K 20K 30K 40K → GENERATE Fast & Private 3D in ~50s. No sign-up, 100% free. 2 of 3 free 3D runs left today. See What Hunyuan 3D Can Do Upload a sin"
+        },
+        {
+          "elapsed": 137.2,
+          "text": "Hy3D Generator Features FAQ English Free Open-source Hunyuan 3D generation — try it free, no account needed Hunyuan 3D: Free Open-Source Image-to-3D AI Upload an image. Hunyuan 3D turns it into an untextured 3D model. No software. No signup. Just results. Try Hunyuan 3D Free Hunyuan 3D-2.1 AI-powered image to 3D — upload a photo, get an untextured 3D model. Image to 3D AI Image Editor Face Count 5K 10K 20K 30K 40K → GENERATE Fast & Private 3D in ~50s. No sign-up, 100% free. 2 of 3 free 3D runs left today. See What Hunyuan 3D Can Do Upload a sin"
+        },
+        {
+          "elapsed": 143.7,
+          "text": "Hy3D Generator Features FAQ English Free Open-source Hunyuan 3D generation — try it free, no account needed Hunyuan 3D: Free Open-Source Image-to-3D AI Upload an image. Hunyuan 3D turns it into an untextured 3D model. No software. No signup. Just results. Try Hunyuan 3D Free Hunyuan 3D-2.1 AI-powered image to 3D — upload a photo, get an untextured 3D model. Image to 3D AI Image Editor Face Count 5K 10K 20K 30K 40K → GENERATE Fast & Private 3D in ~50s. No sign-up, 100% free. 2 of 3 free 3D runs left today. See What Hunyuan 3D Can Do Upload a sin"
+        },
+        {
+          "elapsed": 150.2,
+          "text": "Hy3D Generator Features FAQ English Free Open-source Hunyuan 3D generation — try it free, no account needed Hunyuan 3D: Free Open-Source Image-to-3D AI Upload an image. Hunyuan 3D turns it into an untextured 3D model. No software. No signup. Just results. Try Hunyuan 3D Free Hunyuan 3D-2.1 AI-powered image to 3D — upload a photo, get an untextured 3D model. Image to 3D AI Image Editor Face Count 5K 10K 20K 30K 40K → GENERATE Fast & Private 3D in ~50s. No sign-up, 100% free. 2 of 3 free 3D runs left today. See What Hunyuan 3D Can Do Upload a sin"
+        }
+      ],
+      "final_text": "ults\nRuns in Your Browser\nUse Hunyuan 3D in 3 Simple Steps\n\nHunyuan 3D turns your flat images into untextured 3D models. Here's how:\n\n1\nUpload Your Image\n\nDrag and drop or click to select any image — product photos, character art, objects, or sketches.\n\n2\nHunyuan 3D Builds Your 3D Model\n\nThe AI analyzes your image and constructs a 3D mesh with geometry and surface detail, without textures.\n\n3\nDownload & Use\n\nDownload the GLB file and use it in game engines, 3D printers, AR/VR apps, or e-commerce product pages.\n\nThe Technology Behind Hunyuan 3D\n\nA closer look at what makes Hunyuan 3D generate high-quality 3D results from a single image.\n\nAI Image-to-3D Engine\n\nHunyuan 3D reconstructs 3D geometry from a single 2D image.\n\nUntextured Mesh Output\n\nOutputs contain geometry without textures. Download the GLB for viewing or further editing in a 3D tool.\n\nGeneration Time\n\nOne model generates at a time, with room for 3 waiting tasks. Generation time depends on the queue and service startup.\n\nGLB Format Export\n\nHunyuan 3D exports in GLB — the universal standard supported by all major 3D platforms, game engines, and AR/VR frameworks.\n\n3 Free Generations a Day\n\nUse Hunyuan 3D up to 3 times a day per network address. The allowance resets at 00:00 UTC.\n\nDesktop, Tablet & Mobile\n\nFully responsive interface that works on any device. Turn product photos into 3D assets right on your phone.\n\nHunyuan 3D by the Numbers\n\nAn open-source AI trusted by creators worldwide.\n\nOpen Source Hunyuan3D Model\nOpen Source\n\nHunyuan3D Model\n\n< 60s Average Generation Time\n< 60s\n\nAverage Generation Time\n\nGLB Universal 3D Format\nGLB\n\nUniversal 3D Format\n\nReal Results from Hunyuan 3D\nProduct Photo to 3D\nUpload a product image and get an untextured 3D model for viewing and further editing\nGame-Ready 3D Assets\nTurn concept art or reference photos into game-ready 3D assets for simulations or virtual environments\n3D Print from Any Photo\nConvert a photo of any object into a printable 3D file you can send straight to a 3D printer\nFrequently Asked Questions\n\nEverything you need to know about Hunyuan 3D — features, pricing (it's free), and how it works.\n\nWhat is Hunyuan 3D?\nIs Hunyuan 3D really free?\nWhat image formats can I upload?\nWhat 3D format does Hunyuan 3D export?\nHow long does generation take?\nWhat happens to my uploaded images?\n\nReady to Try Hunyuan 3D?\n\nFree, open-source, no signup. Create your first 3D model in under 60 seconds.\n\nTry Hunyuan 3D Free\nHy3D\n\nHy3D is a free Hunyuan 3D generator. Transform a 2D image into an untextured 3D model — powered by Hunyuan3D. No account needed.\n\nTool\nHunyuan 3D Generator\nAbout\nFeatures\nFAQ\n© 2026 Hy3D, All rights reserved\nPrivacy Policy\nTerms of Service",
+      "after_generation_screenshot": "hy3d_dev_after.png",
       "observed_glb_responses": [],
       "browser_downloads": [],
       "final_public_model_links": []
@@ -95,5 +544,5 @@
   ],
   "reference_png_sha256": "37e2b3c96da31c558f511ee172b43bec4c721186a074327ec6cb791c9d2c5ed8",
   "reference_white_sha256": "6ec346e5b02411f9509fd364db748c23a58075aeec461ef7424adcc4d893bc77",
-  "finished_utc": "2026-11-23T12:40:01Z"
+  "finished_utc": "2026-11-23T12:48:29Z"
 }

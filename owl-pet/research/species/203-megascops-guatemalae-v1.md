@@ -22,3 +22,6 @@ Jesús Pérez/Ghelen Mera/Deysi Gallegos/Ruth Partida/Evelin Amador/Óscar Aguad
 Denis Lepage/Birds Canada, Avibase nominate account,current2026 taxonomy versions (access2026-11-23). https://avibase.bsc-eoc.org/species.jsp?avibaseid=0754F212A61231BE . Original-description/geographic-range sections read: protonym Scops guatemalae,Sharpe1875 Cat.Birds.Brit.Mus.2p112pl9,typeGuatemala; nominate SE Mexico mountains toHonduras. Secondary taxonomy index; original1875plate not newly read; no juvenile/sex evidence. Supports locality gate/old-name mapping only. Related#203 study/image-v1.
 
 Supplement: 2 newly read sources; 3 pre-existing species sources reused. Retain conservative mesoptile, no age/flight claim.
+
+## Actual production outcome
+One initial +one targeted edit; reviewed full and3crops, PASS_WITH_LIMITATIONS/sciencefalse. [Review](../reviews/203-megascops-guatemalae-v1-review.md). Original images retained; metadata/readback pending at this archive.

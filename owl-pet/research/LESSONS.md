@@ -147,3 +147,6 @@ undefined
 - **Evidence:** Gurney’s 1882 table gives both male wings as 7.40 in and the female as 7.60 in; tarsus/toe values overlap and no mass is reported.
 - **Applied change:** female is only subtly longer/larger in linear silhouette (~3%), with no invented plumage difference or bulk.
 - **Verified effect:** full plate and sex-specific crops show a visible but restrained direction. This rule is verified for #149 v4 only and must not be generalized.
+
+## 2026-11-23 #203 — adult remiges recur in mesoptile
+Initial #203 again exposed long crisp adult primaries despite soft-wing wording (also observed #202). Applied endpoint-constrained short rounded down-veiled wing edit; full and young crop rechecked, long remiges removed. Rule applied and edit validated in #203; prevention in subsequent first-generation image remains untested. Do not suppress all formed feathering or call unknown-age mesoptile a hatchling. [Review](reviews/203-megascops-guatemalae-v1-review.md).

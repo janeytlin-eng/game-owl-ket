@@ -33699,9 +33699,9 @@
       ],
       "common_name": "Ferruginous Pygmy Owl (ridgwayi group)",
       "version": 1,
-      "action": "NEW_SPECIES_CONCEPT",
-      "unique_species_increment": 1,
-      "revision_increment": 0,
+      "action": "ADDITIONAL_SUBSPECIES_CONCEPT",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
       "status": "#205 initial female direction correct but exaggerated; one edit reduced scale. Short-wing rule only partly prevented adult-like panels: juvenile crisp scapular row leaked. Added explicit diffuse juvenile scapular markings; edited+crop verified. Current Glaucidium brasilianum absorbs historical ridgwayi, counted once. Exact juvenile age/iris/flight/local sex ratio unknown.",
       "scientifically_verified": false,
       "concept_checked": true,
@@ -33737,7 +33737,14 @@
       "archive_tree": "13d07f052d0045687dfa5545f00391b2bf8875af",
       "verification_commit": "2e2ae71da05d9dadd812e9aba253c6a4af5feb81",
       "exact_readback": true,
-      "credited_at": "2026-11-23T05:52:22.737Z"
+      "credited_at": "2026-11-23T05:52:22.737Z",
+      "previous_credit": {
+        "action": "NEW_SPECIES_CONCEPT",
+        "unique_species_increment": 1,
+        "corrected_at": "2026-11-23T06:30:01.017Z"
+      },
+      "canonical_species_id": 25,
+      "count_correction": "Same species as#25;newsubspeciespresentation,noadditionalunique."
     },
     {
       "id": "206-glaucidium-castanopterum-v1",

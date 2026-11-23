@@ -5495,3 +5495,18 @@ Allaccess2026-11-23;4newsourceIDs,reused0.
 Adultnear-equalscale,noinventedsexratio. Fledglingdulleradult-likeknown;eye/billchronology,exactage,flight/feathersequence,sexandtailgrowthunknown. Compactcontourcoveredfoldedwing/settledcrouch designchoices,notageclaim. Nofabricatednest. Avoids #205juvenilewhiteadultspotrowleakbyexplicitconstraint. Sciencefalse.
 
 [#206 study](species/206-glaucidium-castanopterum-v1.md),[review](reviews/206-glaucidium-castanopterum-v1-review.md).
+
+## #207 Tyto multipunctata /Tyto tenebricosa multipunctata — ageing/sex/morphology/taxonomy
+### TMLT-MIKKOLA-2013-P113
+HeimoMikkola2013,Owls oftheWorld2nded,user-uploadedguide,printed113/PDF115. Access2026-11-23,completepagetextread. Tyto multipunctataNEQueensland;sooty/silvergreywithwhiteupperpartdots,paleventralchevrons,blackeyes,palehornbill,shorttail;femaleheavier. Immatureadult-likebutgreyouterface;earlydownsootygrey. Secondaryguide;noexactage/iris/flightchronology. Supportsolderimmature,notinventedhatchling. Uploadedfile file_000000008aec81fba7c3d87f51b3b9f3,samebookasexistingpage-specificentries.
+### TMLT-ABSA-2019-P1
+J.W.Hardy/AustralianBirdStudyAssociation,March2019,BirdintheHand2nded,LesserSootyOwlprofile,p1:Morphometrics/Ageing/Sexing. https://absa.asn.au/wp-content/uploads/2019/09/Lesser-Sooty-Owl-1.pdf . Access2026-11-23,entirepageactualread. Juvenilesleaveinn nearlyadult-likejuvenileplumagewithlittledown,maybedarker;freebirdsaredifficulttoage. Femaleslarger,oftenpalerface/underparts;male/femalewing226–245/253–264mm,mass330–410/500–600g. Do notconvertmassintodisplayedlinearheight. AustralianregionaltreatmentlumpsasT.tenebricosamultipunctata,contrastsITISsplit. CompiledHANZABguide,notindividualgrowthseries. Supportsfullyfeatheredage-unknownfledglingandmodestfemale-largerdirection;notprecisedayorfixedcolourforalljuveniles.
+### TMLT-ITIS-555349
+ITISacceptedtaxonrecordcitingIOC15.1(2025),currentpage https://itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=555349&source=to_print . Access2026-11-23,taxonomyandreferencesread. ValidTyto multipunctata;Tyto tenebricosa multipunctatasynonym. Taxonomyonly,notjuvenileevidence;ABSAregionalalternativelumpretained,nomandatoryglobal251countchange.
+### TMLT-OWLPAGES-2020
+DeaneLewis2020-09-27,LesserSootyOwl https://www.owlpages.com/owls/species.php?s=230 . Access2026-11-23,Description/Habits/Breeding/Habitatread. Paleouterface/darkeyearea,silverfleckedgreybody,palechevronventrum,greytoes;rainforest/weteucalyptroost,largelivingtreehollownests. Broadapprox3monthfledgingclaimnotusedasindividualage;“indistinguishable”juvenilesovergeneralizesABSApossiblecolour/guidegreyouterface,retainconflict. Secondarysynthesis;nofabricatedhollowdimensions/lining.
+
+Related[study](species/207-tyto-multipunctata-v1.md),[review](reviews/207-tyto-multipunctata-v1-review.md).4newstableIDs;bookidentityreused,nootherreadindexentryduplicated.
+
+## 2026-11-23 correction #205/#25
+Glaucidium brasilianum ridgwayi(#205)andG.b.cactorum(#25)sharecurrent species. #205 adds subspecies presentation,0unique-species credit;allimagesandoriginalrecordsretained. SourcesGBRI-ITIS-687036andexistingCFPOspeciesrecordsupportmapping. Earliernameparserexcludedthree-partscientificfilename;newauditmatcheswholeversion-suffixedstemthenreducesverifiedscientificnametogenus+species. Notnew biologicalsource.

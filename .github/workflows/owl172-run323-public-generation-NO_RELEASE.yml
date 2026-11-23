@@ -1,0 +1,109 @@
+name: "Owl #172 Run323 real no-fee image-to-3D sources NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run323-public-textured-generator-actual-attempt-NO_RELEASE
+    paths:
+      - .github/workflows/owl172-run323-public-generation-NO_RELEASE.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  actual-no-pay-public-native-model-trial:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/design/concepts/172-tyto-castanops-v3.png
+            owl-pet/3d-experiments/172-tyto-castanops/run295_real_reference_cutout_preprocess_ONLY_NO_RELEASE.py
+            owl-pet/3d-experiments/172-tyto-castanops/run323_public_native_3d_providers_NO_RELEASE.py
+            owl-pet/3d-experiments/172-tyto-castanops/run322_native_orbit_chromium_NO_RELEASE.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run322_native_orbit_research_NO_RELEASE.html
+            .github/workflows/owl172-run323-public-generation-NO_RELEASE.yml
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install actual browser and native geometry tools without additional payment
+        run: |
+          set -euo pipefail
+          python -m pip install -q numpy pillow opencv-python-headless playwright trimesh
+          python -m playwright install --with-deps chromium
+          python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/run295_real_reference_cutout_preprocess_ONLY_NO_RELEASE.py owl-pet/3d-experiments/172-tyto-castanops/run323_public_native_3d_providers_NO_RELEASE.py
+      - name: Rebuild unchanged original rightmost #172 chick image
+        run: |
+          set -euo pipefail
+          python owl-pet/3d-experiments/172-tyto-castanops/run295_real_reference_cutout_preprocess_ONLY_NO_RELEASE.py | tee run323_crop.stdout.log
+          printf '6ec346e5b02411f9509fd364db748c23a58075aeec461ef7424adcc4d893bc77  owl172-run295-evidence/young-isolated-white-background-input-NO_3D.png\n' | sha256sum -c
+      - name: Actually upload input to new public 3D UI and request free generation
+        run: |
+          set -euo pipefail
+          python owl-pet/3d-experiments/172-tyto-castanops/run323_public_native_3d_providers_NO_RELEASE.py | tee run323_providers.stdout.log
+      - name: Actual eight native mesh angles in Chromium WebGL2, only if source exists
+        run: |
+          set -euo pipefail
+          GLB=$(find owl172-run323-evidence -maxdepth 1 -name '*__UNREVIEWED_NO_RELEASE.glb' -type f | head -1)
+          if [ -z "$GLB" ]; then echo 'No genuine GLB; no WebGL claim'; exit 0; fi
+          npm install --no-audit --no-fund --no-save playwright-core@1.58.2 three@0.170.0 pngjs@7.0.0
+          CHROME_BIN=/usr/bin/google-chrome node owl-pet/3d-experiments/172-tyto-castanops/run322_native_orbit_chromium_NO_RELEASE.mjs "$GLB" owl172-run323-evidence/webgl2 | tee owl172-run323-evidence/webgl2_stdout.log
+      - name: Package actual evidence and per-file integrity manifest
+        if: always()
+        run: |
+          python - <<'PY'
+          import hashlib,json
+          from pathlib import Path
+          from PIL import Image,ImageDraw
+          d=Path('owl172-run323-evidence');d.mkdir(exist_ok=True)
+          pics=sorted((d/'webgl2').glob('yaw_*.png')) if (d/'webgl2').exists() else []
+          if pics:
+              sheet=Image.new('RGB',(920,980),(236,231,223));pen=ImageDraw.Draw(sheet)
+              for i,path in enumerate(pics):
+                  im=Image.open(path).convert('RGB').resize((230,460));x=(i%4)*230;y=(i//4)*490
+                  sheet.paste(im,(x,y+20));pen.text((x+8,y+5),path.stem,fill=(25,25,25))
+              sheet.save(d/'run323-native-real-WebGL2-eight-view-montage.jpg',quality=89,optimize=True)
+          report=json.loads((d/'actual_report.json').read_text()) if (d/'actual_report.json').exists() else {}
+          state={'run':323,'real_native_glb':report.get('native_glb'),'actual_webgl_views':len(pics),'ART_APPROVED':False,'PHONE_TESTED':False,'RIGHTS_CLEARED':False,'NO_RELEASE':True,'additional_payment_usd':0}
+          (d/'final_state.json').write_text(json.dumps(state,indent=2))
+          (d/'STRICT_NO_RELEASE.txt').write_text('3D model acquisition alone never constitutes product success. No art approval, rights or actual phone QA; strictly NO_RELEASE.\n')
+          files=sorted(f for f in d.rglob('*') if f.is_file() and f.name not in ('file_hashes.json','SHA256SUMS.txt'))
+          entries=[{'path':str(f.relative_to(d)),'sha256':hashlib.sha256(f.read_bytes()).hexdigest(),'bytes':f.stat().st_size} for f in files]
+          (d/'file_hashes.json').write_text(json.dumps(entries,indent=2))
+          (d/'SHA256SUMS.txt').write_text('\n'.join(z['sha256']+'  '+z['path'] for z in entries)+'\n')
+          print(json.dumps(state,indent=2))
+          PY
+          (cd owl172-run323-evidence && sha256sum -c SHA256SUMS.txt)
+      - name: Persist limited diagnostics on the independent branch only
+        if: always()
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          SOURCE=owl172-run323-evidence
+          DEST=owl-pet/3d-experiments/172-tyto-castanops/run323-live-evidence
+          mkdir -p "$DEST"
+          for FILE in actual_report.json final_state.json file_hashes.json run323-native-real-WebGL2-eight-view-montage.jpg STRICT_NO_RELEASE.txt; do
+            if [ -f "$SOURCE/$FILE" ]; then cp "$SOURCE/$FILE" "$DEST/$FILE"; fi
+          done
+          for FILE in "$SOURCE"/*_open.png "$SOURCE"/*_upload.png "$SOURCE"/*_after.png "$SOURCE"/*_exception.png; do
+            if [ -f "$FILE" ]; then cp "$FILE" "$DEST/"; fi
+          done
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --sparse "$DEST"
+          if ! git diff --cached --quiet; then
+            git commit -m "research(#172): preserve Run323 real free source diagnostics NO_RELEASE"
+            git push origin HEAD:research/owl172-run323-public-textured-generator-actual-attempt-NO_RELEASE
+          fi
+      - name: Keep temporary raw GLBs/screenshots for independent art inspection
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run323-public-generator-real-evidence-NO_RELEASE
+          path: |
+            owl172-run323-evidence/
+            owl172-run295-evidence/run295_matte_QA.json
+            run323_crop.stdout.log
+            run323_providers.stdout.log
+          retention-days: 14
+          if-no-files-found: warn

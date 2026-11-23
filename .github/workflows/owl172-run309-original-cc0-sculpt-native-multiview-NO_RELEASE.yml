@@ -1,4 +1,4 @@
-name: "owl172 Run309 original-CC0 organic-sculpt candidate real native GLB WebGL2 art gate NO RELEASE"
+name: "owl172 Run309b axis-corrected original CC0 organic-sculpt candidate real native GLB WebGL2 art gate NO RELEASE"
 on:
   push:
     branches:
@@ -6,6 +6,8 @@ on:
     paths:
       - '.github/workflows/owl172-run309-original-cc0-sculpt-native-multiview-NO_RELEASE.yml'
       - 'owl-pet/3d-experiments/172-tyto-castanops/run309_original_cc0_sculpt_native_source_and_rights_NO_RELEASE.py'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run309b_semantic_axes_owl_viewer_NO_RELEASE.html'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run309b_real_anatomical_front_right_back_WEBGL_QA_NO_RELEASE.mjs'
   workflow_dispatch:
 permissions:
   contents: read
@@ -20,8 +22,8 @@ jobs:
           sparse-checkout: |
             owl-pet/design/concepts/172-tyto-castanops-v3.png
             owl-pet/3d-experiments/172-tyto-castanops/run295_real_reference_cutout_preprocess_ONLY_NO_RELEASE.py
-            owl-pet/3d-experiments/172-tyto-castanops/run292_real_browser_glb_test_NO_RELEASE.mjs
-            owl-pet/3d-experiments/172-tyto-castanops/run292_browser_viewer_uncropped_NO_RELEASE.html
+            owl-pet/3d-experiments/172-tyto-castanops/run309b_real_anatomical_front_right_back_WEBGL_QA_NO_RELEASE.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run309b_semantic_axes_owl_viewer_NO_RELEASE.html
             owl-pet/3d-experiments/172-tyto-castanops/run309_original_cc0_sculpt_native_source_and_rights_NO_RELEASE.py
       - uses: actions/setup-python@v5
         with:
@@ -52,7 +54,7 @@ jobs:
           src=owl172-run309-evidence/innerscene-owl-ORIGINAL_CC0_CLAIM_NON_JUVENILE.glb
           if test -s "$src"; then
             npm install --no-save --no-audit --no-fund playwright-core@1.58.2 three@0.170.0 pngjs@7.0.0
-            node owl-pet/3d-experiments/172-tyto-castanops/run292_real_browser_glb_test_NO_RELEASE.mjs "$src" >owl172-run309-evidence/multiview/browser-stdout.txt 2>&1 || true
+            node owl-pet/3d-experiments/172-tyto-castanops/run309b_real_anatomical_front_right_back_WEBGL_QA_NO_RELEASE.mjs "$src" >owl172-run309-evidence/multiview/browser-stdout.txt 2>&1 || true
             if test -d owl172-run292-browser-evidence; then
               cp -r owl172-run292-browser-evidence/. owl172-run309-evidence/multiview/
             fi

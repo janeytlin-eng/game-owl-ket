@@ -137,7 +137,8 @@ try:
                         break
                     except Exception as e:result.setdefault("direct_download_errors",[]).append(repr(e))
             # Also confirm phone-sized page UI / WebGL2 environment (NOT a physical phone).
-            phone=context.new_page(viewport={"width":390,"height":780})
+            phone=context.new_page()
+            phone.set_viewport_size({"width":390,"height":780})
             try:
                 phone.goto(URL,wait_until="domcontentloaded",timeout=45000)
                 phone.wait_for_timeout(1700)

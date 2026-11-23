@@ -6121,3 +6121,7 @@ Reuse WTSO-SIBUNDOY-2013-P142 and WTSO-MIK2013-249, actualbodiesread; correctcol
 
 ### 2026-11-24 #135v6 transitional feather map
 ReusedWSC-MEES-2006 originalinstitutionalPDF printed113–115 actuallyread, WSC-MIK2013-183 uploadedPDF185 actuallyread, WSC-ITIS-555386-2026 priornomenclaturerecordnotfreshbody. New0/reused3; morphologydecisioncorrected1. CurrentnameOtussilvicola/oldScopssilvicola; topicjuvenilefullyfeatheredtransition/finebars/fewadultstreaks, notnataldown. SourcebibliographyURLs/pages/limits/fullprompt andversionmapping [#135v6](species/135-otus-silvicola-v6.md); preservehistoricHartertdownyclaimascorrectedbyMees/Cowles1988. No guessedage/flight/nest,sciencefalse.
+
+
+### 2026-11-24 #136v6 retained first-year down colour
+CIN-FITZPATRICK-ONEILL-1986 actualprintedpp2–5reread; CIN-MIK2013-232 actualuploadedPDF234 (existingbook,newpagescope), CIN-ITIS-686670-2026 citedpriornotfreshbody. New0/reused3. Alltenprimaryspecimensinclfirstyearhavecinnamonbuffundercoat,notgreywhitebodydown; firstyearnearadultwithpalerheavierbarredretainedfeathers,exactage/flightunknown. SourceURLs/bibliography/specimenID/stage/limits+fullprompt [#136v6](species/136-megascops-petersoni-v6.md). Shapeandpose retained;colourcorrectionpendingoutputreview,sciencefalse.

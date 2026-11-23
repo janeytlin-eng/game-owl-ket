@@ -25,7 +25,7 @@ jobs:
         with:
           name: owl172-run314-down-groom-AB-REJECTED-NO_RELEASE
           run-id: 45114275944
-          github-token: \${{ github.token }}
+          github-token: ${{ github.token }}
           path: research
       - name: Verify actual GLB byte size, format, and SHA256
         shell: bash

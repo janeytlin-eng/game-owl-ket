@@ -1900,3 +1900,7 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 ## 2026-11-23 #208 Ninox affinis v1 VERIFIED
 Coverage180/251 by current taxon-name de-duplication (192 numbered IDs, 12 duplicate-pair reductions). Batch20261123T072659Z1/6,next2. New1/revision0. Archive1fd6dfe81e92d66e5f9edf75e73919fe8171fb33;verification81e872d175af2b742f36a9100b94977c25eefa24. One imagegen edit/full+3role crop montage rechecked;concept PASS_WITH_LIMITATIONS,sciencefalse. Remote original PNG/hash/bytes verified;5new sources persisted. Bill colour conflict, sex-size, young precise age/iris/flight/nest unknown. [Original](design/concepts/208-ninox-affinis-v1.png),[review](research/reviews/208-ninox-affinis-v1-review.md),[run](production/runs/20261123T072659Z-cycle-1.md). All251 production notcomplete/notpaused.
 
+
+## 2026-11-23 #209 Glaucidium minutissimum v1 VERIFIED
+Coverage181/251 by taxon-name deduplication. Batch20261123T072659Z 2/6,next3. New1/revision0;archive4e8225b2d5b2a64a39518039b8138e13727518f3;verification85e5586b01f78c84e935ba8e6cb6370bab8a990e. Full+3role crop montage actuallyviewed;edits2;PASS_WITH_LIMITATIONS/sciencefalse. RemotePNG/hash verified;research sourceindex persisted. [Original](design/concepts/209-glaucidium-minutissimum-v1.png),[review](research/reviews/209-glaucidium-minutissimum-v1-review.md),[run](production/runs/20261123T072659Z-cycle-2.md). Full251notcomplete/notpaused.
+

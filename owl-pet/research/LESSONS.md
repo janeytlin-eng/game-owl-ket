@@ -225,3 +225,7 @@ Problem: initialyounglongadult-likewing leakedfromstyle despitecompactprompt. Ev
 ## 220-tyto-rosenbergii-v1 actual iteration
 Primarydevelopmentpaperoverrides2013'unknown'onlywithinphoto+studyscope. ActualFig5Cusedliveuprightdownystage; A–Bdeadposesexcluded, 8weekfledgedstatementnotassignedtoFig5. Source-dependentstagepromptpreventedadultwingleak220initial(actualfull+3rolecropchecked,zeroedits), efficacyonlythisimage. Retrospective219photoformedwingretainedandnocontradiction—do notapplyallwhiteTytoyoungruletoPalau. Nestwoodproven,decorativeliningnotinvented.
 [Review](reviews/220-tyto-rosenbergii-v1-review.md) · [Run](../production/runs/20261123T113345Z-cycle-2.md)
+
+## 221-ninox-meeki-v1 actual iteration
+221initialagainorganizedyounglongwing despiteolderjuvenalboundedprompt. Targetedit1shortenedcontour/softenedbladesbutexplicitlypreservedwhitishcovertbars(describedyoungnotadultmistake); full+3rolecroprecheckverifiedthatnarrowtarget. Sexdirectionconflictunevidencedresolvedneutraldisplaynotclaimedbiologicalequality. Compared219photoformedwingand220downystage—rulemustbindspecies+stage; notuniversalwingerasure. Exactyoungage/sex/colourstillpending.
+[Review](reviews/221-ninox-meeki-v1-review.md) · [Run](../production/runs/20261123T113345Z-cycle-3.md)

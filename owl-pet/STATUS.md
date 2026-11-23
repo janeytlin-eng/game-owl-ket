@@ -1,3 +1,6 @@
+## 2026-11-23T20:35:17.652Z PARTIAL 接续1轮，当前批次3/6
+归档205/251，新增0，修订#137v6；科学校准false。第4轮遇实际工具输出上限，1张查看图片被丢弃，未出图/未计完成；下一子轮仍原批次4/6。无其他未完批次，未停止全任务。[原图与提交证据入口](production/batches/20261123T1933Z-review.md)。
+
 ## 2026-11-23T19:56:04.525Z #235/#236 new concepts archived, verificationinprogress
 Unique203→205/251 after2newtaxa; #235verified, #236remoteverificationpending. No newuserconfirmation or scientificpass. [Currentbatch](production/runs/20261123T1933Z-cycle-2.md).
 

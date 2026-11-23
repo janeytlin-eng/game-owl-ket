@@ -1,3 +1,6 @@
+## 2026-11-23 — #207 Lesser Sooty Owl v1 VERIFIED; batch complete across invocations
+Coverage179/251 by repository taxon-name de-duplication; earlier181/179 snapshots superseded by#25/#205 correction before#207(+1). Full251authorityrosterpending. Batch20261123T043309Z6/6COMPLETE;thisresumecompleted1cycleonly,not6. NootherPARTIALbatch,leasecleared. Archive6cc110f559184aa188cd7b20ca94d0d82551c94f;verification40e85c6727ee610d1c2b0963e89c5de4e42a28b4. Original2791295bytes/SHA256/PNG1536x1024 downloadedandverified,full+3cropsviewed,1edit,sciencefalse/PASS_WITH_LIMITATIONS. [Original](design/concepts/207-tyto-multipunctata-v1.png),[review](research/reviews/207-tyto-multipunctata-v1-review.md),[run](production/runs/20261123T043309Z-cycle-6.md). Nextproductionstartsnewbatch1/6afterlateststate/duplicatecheck;all251tasknotcomplete/notpaused.
+
 # 猫头鹰3D电子宠物
 
 本目录是独立电子宠物项目，原仓库根目录的猫头鹰词汇游戏保留。

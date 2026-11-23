@@ -34581,11 +34581,16 @@
       "final_original_path": "production/generated/207-tyto-multipunctata-v1-final-original.png",
       "edited_path": "production/generated/207-tyto-multipunctata-v1-edit1-original.png",
       "reviewed_path": "production/reviewed/207-tyto-multipunctata-v1-reviewed-master.png",
-      "archive_commit_pending": true,
-      "readback_pending": true,
-      "ledger_credited": false,
+      "archive_commit_pending": false,
+      "readback_pending": false,
+      "ledger_credited": true,
       "batch_id": "20261123T043309Z",
-      "batch_cycle": 6
+      "batch_cycle": 6,
+      "archive_commit": "6cc110f559184aa188cd7b20ca94d0d82551c94f",
+      "archive_tree": "5988f51fc45038665a59c2f112f59f991a294321",
+      "verification_commit": "40e85c6727ee610d1c2b0963e89c5de4e42a28b4",
+      "exact_readback": true,
+      "credited_at": "2026-11-23T06:35:17.778Z"
     }
   ],
   "updated_at": "2026-11-23T04:42:06.499Z"

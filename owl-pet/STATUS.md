@@ -1,3 +1,6 @@
+## 2026-11-23 — #207 Lesser Sooty Owl v1 VERIFIED; batch complete across invocations
+Coverage179/251 by repository taxon-name de-duplication; earlier181/179 snapshots superseded by#25/#205 correction before#207(+1). Full251authorityrosterpending. Batch20261123T043309Z6/6COMPLETE;thisresumecompleted1cycleonly,not6. NootherPARTIALbatch,leasecleared. Archive6cc110f559184aa188cd7b20ca94d0d82551c94f;verification40e85c6727ee610d1c2b0963e89c5de4e42a28b4. Original2791295bytes/SHA256/PNG1536x1024 downloadedandverified,full+3cropsviewed,1edit,sciencefalse/PASS_WITH_LIMITATIONS. [Original](design/concepts/207-tyto-multipunctata-v1.png),[review](research/reviews/207-tyto-multipunctata-v1-review.md),[run](production/runs/20261123T043309Z-cycle-6.md). Nextproductionstartsnewbatch1/6afterlateststate/duplicatecheck;all251tasknotcomplete/notpaused.
+
 ## 2026-11-23 #206 Glaucidium castanopterum VERIFIED
 Batch20261123T043309Z 5/6,next6. New1,revision0;archiveb6327c792050973a1948f9d7645a7595875d1ed5;verificationd8bda1cf566fc87c9dbe28778f012e36433a9209. Full+3crops checked;PASS_WITH_LIMITATIONS/sciencefalse. Strictnameaudit179/251;legacy181 notverifiedstrictunique.
 

@@ -5954,3 +5954,13 @@ Reused MOR-NZBO-2025: Seaton&Hyde2013updated2025 https://www.nzbirdsonline.org.n
 Design: narrowly adjustthree bills to visible subduedslate/bluishgreybaseandcere+darkcuttingedgesandtip; finecolourremainsprovisional. Retain forest/treeforksupport/yellowfeet/yellowiris/immaturestage/wing andbodypattern. Addconceptpendingfooter. Feathertimeline/billlighting/precisesexratio unknown. Rule individualpopulation subsectionmustbechecked beforebarepartcolourtransfer; morphology correction visuallyreviewpending.
 
 [Research](species/74-ninox-novaeseelandiae-v6.md) · [Image](../design/concepts/74-ninox-novaeseelandiae-v6.png) · [Review](reviews/74-ninox-novaeseelandiae-v6-review.md)
+
+
+## 20261123T1526Z 缺图候选分页与本批闭环
+# 20261123T1526Z missing-species preflight evidence audit
+Read existing Mayotte deferredfile and retained next-cycle research; did not regenerate a guessed young. No new number assigned or speciescount credited.
+Uploaded Mikkola2013 actually read: printed176/PDF178 Palawan Otusfuliginosus, juvenile notdescribed/no sexsizedata; printed187/PDF189 Otusmindorensis(notNinoxmindorensis146), juvenile notdescribed/no sexsizedata; printed177/PDF179 Otussagittatus, juvenilenotdescribed; printed171/PDF173 Otuseveretti, juvenileundescribed, femaleheavierqualitativeguide. These are extra page scopes of SAMEsharedbook, not fournewdocuments. Adultcolour/habitat retainedinoriginalpages; no invented nataldown or sexratios applied.
+Searches includedcurrentandoldnames Scopsfuliginosa, Otusfuliginosusyoung/juvenile, O.mindorensisjuvenile, O.sagittatusyoung, ArabianScopsOwljuvenile. Searchhitsclaiming typejuvenile (Palawan) were secondary and not originalread; not accepted developmental evidence. Search snippets adjacent species descriptions explicitly not used: JStage1954 Ninoxperversa young is #232ochracea, NOT squamipila young; fieldguide nearby juvenileparagraphs not transferred to Otusfuliginosus/mindorensis. Fresh primary ITISfuliginosus lookup appeared in search results only, taxonomy remains candidate, not new verifiedsourceentry here.
+Original descriptor Sharpe1888 Ibis197 for fuliginosus and Lewis1998Mayotte article remain retrievalleads, not stageproof. Rather than invent young, this resume addressed3 specifically observed outstanding calibrationissues in existingplates. Continue active discovery for remaining49; no claimthat all49lackevidence. No final251reviewcomplete.
+
+[本次三张修订图及逐项科学边界](../production/batches/20261123T143039Z-completed-review.md)。本轮新增独立文献2、实际重读已索引资料6；同书分页不算多份独立来源。未把未读搜索线索当核验事实。

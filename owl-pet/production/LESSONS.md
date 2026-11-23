@@ -168,3 +168,8 @@ undefined
 
 Problem: modern secondary phrase 'juvenile similaradult' would erase directly described barred down and dark juvenile eyes. Evidence: Hartert1898p126. Applied: primary-stage colour/barring and dark eyes in prompt; viewedresult preserves them. This validates visual application only. Adult#117/#141 relatedplates not automatically affected; their juvenile source mustbe checked independently. No globaltransfer of this species' iris chronology.
 
+
+
+## 20261123T1640Z-cycle-2 Megascops hoyi
+
+Problem: a researchedconcept cantravelwithoutsidecar andreadascalibratedbiologywhennoimagefooter. Evidence: actualv4lackedstatus; researchsayssciencefalseandyoungbarepartscalibrationunknown. Change: visiblependingfooter+specificunknownnote, preservingevidencedstage. Review: bothactuallyreadonv5, notablanketqualityclaim. Backcheckcontactsheetfound#215–218lackfooter; queueannotationrevisiononly, do not countasnewscienceornewspecies. #220/#221alreadyhavefooter—do notregenerateforit. Sourcebodyreuse isnotnewliteraturediscovery.

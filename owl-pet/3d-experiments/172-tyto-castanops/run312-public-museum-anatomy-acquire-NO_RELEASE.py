@@ -42,7 +42,7 @@ try:
     for c in cards:
         for l in c["links"]:
             h=l.get("href")
-            if h and ("Unduh" in (l.get("text") or "") or re.search(r"\\.glb(?:[?#]|$)",h,re.I) or l.get("download") is not None):
+            if h and ("Unduh" in (l.get("text") or "") or ".glb" in h.lower() or l.get("download") is not None):
                 url=urllib.parse.urljoin(PAGE,h)
                 if url.startswith("https://") and url not in links:
                     links.append(url)

@@ -193,3 +193,7 @@ When primary sources say a recent fledgling can fly but lands poorly, that evide
 - **Evidence:** Marshall 1978 printed p.19 states the distal c.5 mm of *O. r. mayottensis* is bare.
 - **Applied:** Prompted feathered upper tarsi plus a short visible bare terminal segment, then reopened both adult crops.
 - **Validated:** The v4 image shows the bounded segment without turning the species into a long bare-legged owl. Treat this as species-specific; do not generalize to other scops owls.
+
+
+## 2026-11-23 — #202 older-young formed-wing / crown isolation
+Observed initial image: older immature acquired long hard remige tiers and adult crowns acquired many white shafts from the style reference. Primary1878p359 permits formed juvenile unbarred wing/tail with residual grey down; guide2013p484 says adult crown plain dark with some white forehead. Applied one edit to compact/soften the wing and confine white bristles to forehead, while matching adult standing scale to guide's slight female-fuller direction. Edited full and three crops actually opened and passed with limitations; this is visual verification for #202 only, not universal feather removal or sex-ratio science. Retrospective comparison limited to initial202 and previously viewed #179 style reference; other species not revalidated. Complete251 roster absent is now explicitly recorded; avoid endless revisions and prioritize deduplicated unarchived species. Historical scratch prune prevented local #25/fd9d70d recovery; existing main assets preserved.

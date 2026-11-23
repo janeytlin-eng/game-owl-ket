@@ -1,3 +1,6 @@
+## 2026-11-23
+- Resume original production/report tasks on user instruction. Add #202 Ninox theomacha v1 trio with original/edit/crop evidence, source index and review. Preserve all prior versions and IDs. Scientific false; verification/credit pending.
+
 ## 2026-11-13 — #174 v4 ledger credited
 
 - Verification `3d158bda7fd1e4a11705581217980a98965c610f` was read back; cycle 1/6 credited once and next_cycle advances to 2.

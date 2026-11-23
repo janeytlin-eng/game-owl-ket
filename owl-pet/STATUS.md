@@ -1,3 +1,6 @@
+## 2026-11-23 — #202 Papuan Boobook v1 ARCHIVED; verification pending
+New unique species candidate, scientific_name Ninox theomacha, no existing main concept/name match; next unused ID202. Full research, uploaded guide p484, primary p359, live photograph p45, one edit and full/crop review recorded. Five new sources indexed. Unique coverage176/251 until verified credit. Complete251-item roster still needs fixed-version reconciliation. Batch 20261123T043309Z, cycle1/6. Original tasks resumed; no changes to other tasks.
+
 ## 2026-11-13 — #179 v4 LEDGER_CREDITED — batch 20261113T022000+0800 COMPLETE 6/6
 
 Verification [`acc4f6e82389d6840d6051514b240d1c290582a0`](https://github.com/janeytlin-eng/game-owl-ket/commit/acc4f6e82389d6840d6051514b240d1c290582a0) was read back after corrected archive [`1859d05918d1e3e83fff1ef9dba2a5a1672b3e58`](https://github.com/janeytlin-eng/game-owl-ket/commit/1859d05918d1e3e83fff1ef9dba2a5a1672b3e58). Cycle 6 credited once; lease released; this six-cycle batch is closed. Unique coverage remains 176/251 because #179 v4 is a revision; revision +1; PASS_WITH_LIMITATIONS; science=false. The earlier archive transport truncation is preserved in the run record and superseded by the corrected blobs.

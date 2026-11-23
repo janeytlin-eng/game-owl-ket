@@ -21,3 +21,5 @@ Habitat: shaded New Guinea rainforest edge with diffuse green foliage and a broa
 Text verbatim: upper plaque "202 PAPUAN BOOBOOK" and italic "Ninox theomacha". Lower plaques "ADULT MALE", "ADULT FEMALE", "AGE-UNKNOWN OLDER IMMATURE". Exactly three full visible bodies with correct two legs each, natural gripping support, no extras, no heart-shaped barn-owl disc, no ear-tufts. Concept art, not claimed scientific validation.
 ## Review / archive
 Pending actual generation and inspection. scientifically_verified=false.
+
+Generated and reviewed 2026-11-23T04:42:06.499Z: one targeted edit; full and three crops opened; PASS_WITH_LIMITATIONS. See ../reviews/202-ninox-theomacha-v1-review.md for issues/evidence/correction/recheck. Exact age, live young iris/bill, flight, nest and quantified dimorphism remain unknown. Stage ARCHIVED pending readback.

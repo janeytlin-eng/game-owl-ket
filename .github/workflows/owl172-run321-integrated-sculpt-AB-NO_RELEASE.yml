@@ -1,0 +1,105 @@
+name: "Owl172 Run321 native integrated-sculpt relief A/B NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run321-integrated-sculpt-relief-AB-ART_REJECTED-NO_RELEASE
+    paths:
+      - '.github/workflows/owl172-run321-integrated-sculpt-AB-NO_RELEASE.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run321_anatomical_surface_relief_NO_RELEASE.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  real-native-sculpt-negative-art-research:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/run321_anatomical_surface_relief_NO_RELEASE.py
+            owl-pet/3d-experiments/172-tyto-castanops/run317b_semantic_three_view_native_GLb_NO_RELEASE.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run317b_semantic-front-negZ_viewer_NO_RELEASE.html
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install free 3D/VTK tools and check source code syntax
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq xvfb libgl1 libglu1-mesa libosmesa6 libegl1
+          python -m pip install -q numpy scipy pillow trimesh vtk
+          python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/run321_anatomical_surface_relief_NO_RELEASE.py
+      - name: Retrieve Run317 exact source GLB from earlier same-repo artifact
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          mkdir -p owl172-run321-evidence
+          curl --fail --location --retry 2 --silent --show-error \
+            --header "Authorization: Bearer ${GH_TOKEN}" \
+            --header "Accept: application/vnd.github+json" \
+            --header "X-GitHub-Api-Version: 2022-11-28" \
+            https://api.github.com/repos/janeytlin-eng/game-owl-ket/actions/artifacts/14795923598/zip \
+            -o /tmp/owl172-run317-source.zip
+          unzip -j /tmp/owl172-run317-source.zip 'stability-SF3D-TyTo172-REAL_UNREVIEWED_NO_RELEASE.glb' -d owl172-run321-evidence
+          test "$(sha256sum owl172-run321-evidence/stability-SF3D-TyTo172-REAL_UNREVIEWED_NO_RELEASE.glb | cut -d' ' -f1)" = c4637faf90b3308123342517b43aabc4b3b197cec8aa62ad80976f173cbe20be
+      - name: Actual native integrated mesh sculpt + twelve true 3D spatial views
+        run: |
+          set -euo pipefail
+          xvfb-run -a python owl-pet/3d-experiments/172-tyto-castanops/run321_anatomical_surface_relief_NO_RELEASE.py \
+            --input owl172-run321-evidence/stability-SF3D-TyTo172-REAL_UNREVIEWED_NO_RELEASE.glb \
+            --out owl172-run321-evidence | tee owl172-run321-evidence/actual_execution.log
+          python - <<'PY'
+          import json,trimesh
+          from pathlib import Path
+          d=Path('owl172-run321-evidence')
+          m=json.loads((d/'run321-geometry-report.json').read_text())
+          assert len(list(d.glob('run321-*.png')))==12
+          assert len(list(d.glob('run321-*.glb')))==2
+          assert m['source_triangles']==27372
+          assert m['variants']['B']['max_vertex_displacement_m']>.06
+          for label in ('A','B'):
+              g=trimesh.load(d/f'run321-{label}-integrated-sculpt-ART_UNREVIEWED_NO_RELEASE.glb',force='scene')
+              assert sum(len(x.faces) for x in g.geometry.values())==27372
+          PY
+      - name: True Chromium SwiftShader WebGL2 three-view test (not a real phone)
+        run: |
+          set -euo pipefail
+          npm install --no-audit --no-fund --no-save playwright-core@1.58.2 three@0.170.0 pngjs@7.0.0
+          CHROME_BIN=/usr/bin/google-chrome node owl-pet/3d-experiments/172-tyto-castanops/run317b_semantic_three_view_native_GLb_NO_RELEASE.mjs \
+            owl172-run321-evidence/run321-A-integrated-sculpt-ART_UNREVIEWED_NO_RELEASE.glb \
+            owl172-run321-evidence/run321-B-integrated-sculpt-ART_UNREVIEWED_NO_RELEASE.glb \
+            | tee owl172-run321-evidence/chromium_webgl2_stdout.log
+          cp -r owl172-run317b-browser-evidence owl172-run321-evidence/real_chromium_webgl2
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          r=json.loads(Path('owl172-run321-evidence/real_chromium_webgl2/report.json').read_text())
+          assert len(r['inputs'])==2
+          assert all(x.get('pass') and x['browser']['stats']['webgl2'] and len(x['views'])==3 for x in r['inputs'])
+          PY
+      - name: Evidence integrity and strict art rejection / no release
+        if: always()
+        run: |
+          python - <<'PY'
+          import hashlib,json
+          from pathlib import Path
+          d=Path('owl172-run321-evidence');d.mkdir(exist_ok=True)
+          (d/'STRICT_NO_RELEASE.txt').write_text('REAL native mesh sculpt A/B; visual inspection required. Art NOT APPROVED. Rights hold. Physical phone UNTESTED. NO_RELEASE.\n')
+          paths=sorted(p for p in d.rglob('*') if p.is_file() and p.name not in ('SHA256SUMS.txt','file_hashes.json'))
+          rows=[{'path':str(p.relative_to(d)),'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in paths]
+          (d/'file_hashes.json').write_text(json.dumps(rows,indent=2))
+          (d/'SHA256SUMS.txt').write_text('\n'.join(r['sha256']+'  '+r['path'] for r in rows)+'\n')
+          PY
+          (cd owl172-run321-evidence && sha256sum -c SHA256SUMS.txt)
+      - name: Upload isolated negative research only (never deploy)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run321-integrated-sculpt-ART_REJECTED-NO_RELEASE
+          path: owl172-run321-evidence/
+          retention-days: 14
+          if-no-files-found: warn

@@ -1,0 +1,54 @@
+name: Owl #172 Run323 free native chick rig sources — research only NO_RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run323-juvenile-native-free-rig-source-access-NO_RELEASE
+    paths:
+      - '.github/workflows/owl172-run323-native-chick-rig-source-NO_RELEASE.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run323_native_chick_rig_access_NO_RELEASE.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspect-free-sources:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compile actual source (no premium service calls)
+        run: python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/run323_native_chick_rig_access_NO_RELEASE.py
+      - name: Install free public software
+        run: |
+          python -m pip install --quiet playwright==1.56.0
+          python -m playwright install --with-deps chromium
+          npm install --no-save --no-audit --no-fund three@0.170.0
+      - name: Real public free-download flow and 3-view Chromium WebGL2 diagnostic
+        id: probe
+        continue-on-error: true
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: |
+          python owl-pet/3d-experiments/172-tyto-castanops/run323_native_chick_rig_access_NO_RELEASE.py
+      - name: Record immutable source fingerprints and NO_RELEASE
+        if: always()
+        run: |
+          mkdir -p run323-output
+          python - <<'PY'
+          import pathlib,hashlib,json
+          p=pathlib.Path('run323-output')
+          data={}
+          for f in sorted(p.rglob('*')):
+              if f.is_file() and f.name!='SHA256-MANIFEST.json':
+                  data[f.relative_to(p).as_posix()]={'bytes':f.stat().st_size,'sha256':hashlib.sha256(f.read_bytes()).hexdigest()}
+          (p/'SHA256-MANIFEST.json').write_text(json.dumps(data,indent=2))
+          (p/'NO_RELEASE.txt').write_text('ART NOT APPROVED. Source access/rig test only. Never publish as #172 pet. No physical phone verification.\n')
+          print('evidence_files=',len(data))
+          print('glb_files=',sum(x.endswith('.glb') for x in data))
+          PY
+      - name: Upload technical evidence only (NOT the product)
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: run323-juvenile-source-real-browser-NO_RELEASE
+          path: run323-output/
+          retention-days: 14

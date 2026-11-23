@@ -1,0 +1,70 @@
+{
+  "run": "323",
+  "target": "#172 Tyto castanops v3 rightmost age-unknown cream mesoptile",
+  "no_release": true,
+  "extra_paid_usd": 0,
+  "sources": {},
+  "quality_gate": "ART_REJECTED",
+  "physical_phone_test": false,
+  "experiment": "Run323c immutable native CC0 rig baseline owl-specific real Chromium WebGL2",
+  "replay_original_artifact": {
+    "source_run_id": 45180513360,
+    "source_artifact_id": 14821411655,
+    "owl_glb_sha256": "12b0d7ff039b60b58ea4dd0ebcf07242c5f2c3d1ba0dc0935b94aa5a954a8bbc",
+    "owl_glb_bytes": 862440,
+    "license": "CC0 Popyca free sample, verified LICENSE.txt inside archived source",
+    "art_rejected": true
+  },
+  "webgl2": {
+    "captures": [
+      {
+        "model": "source_animal_owl.glb",
+        "view": "front",
+        "webgl2": true,
+        "status": "loaded",
+        "meshCount": 2,
+        "animationCount": 13,
+        "dims": [
+          0.46650456223561965,
+          0.63668764426292,
+          0.3620869037571143
+        ],
+        "yaw": 0,
+        "glError": 0
+      },
+      {
+        "model": "source_animal_owl.glb",
+        "view": "right",
+        "webgl2": true,
+        "status": "loaded",
+        "meshCount": 2,
+        "animationCount": 13,
+        "dims": [
+          0.46650456223561965,
+          0.63668764426292,
+          0.3620869037571143
+        ],
+        "yaw": 1.5707963268,
+        "glError": 0
+      },
+      {
+        "model": "source_animal_owl.glb",
+        "view": "rear",
+        "webgl2": true,
+        "status": "loaded",
+        "meshCount": 2,
+        "animationCount": 13,
+        "dims": [
+          0.46650456223561965,
+          0.63668764426292,
+          0.3620869037571143
+        ],
+        "yaw": 3.1415926536,
+        "glError": 0
+      }
+    ],
+    "errors": [],
+    "note": "390x780 desktop Chromium SwiftShader simulated phone; physical phone not tested"
+  },
+  "conclusion": "Genuine animated/rigged owl native GLB has been viewed, but designer-toy with no heart face or down: ART_REJECTED, NO_RELEASE; physical phone not tested"
+}

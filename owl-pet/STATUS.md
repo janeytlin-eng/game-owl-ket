@@ -1,5 +1,5 @@
-## 2026-11-23 — #202 Papuan Boobook v1 ARCHIVED; verification pending
-New unique species candidate, scientific_name Ninox theomacha, no existing main concept/name match; next unused ID202. Full research, uploaded guide p484, primary p359, live photograph p45, one edit and full/crop review recorded. Five new sources indexed. Unique coverage176/251 until verified credit. Complete251-item roster still needs fixed-version reconciliation. Batch 20261123T043309Z, cycle1/6. Original tasks resumed; no changes to other tasks.
+## 2026-11-23 — #202 Ninox theomacha v1 VERIFIED and credited
+New unique species+1:177/251; revision+0. Archive 771e3ed9c19de0edb0ed3e88ca4d68a43ba51548; verification 35c5974d8e72996caccae56824b4629110710fd1. Remote original downloaded/decoded and hash matched; four manifests each one entry; sciencefalse/PASS_WITH_LIMITATIONS. Batch 20261123T043309Z1/6 PARTIAL,next_cycle2,lease released. All original task requirements retained after resumption. Full fixed251 roster still pending reconciliation; no global taxonomy count change asserted.
 
 ## 2026-11-13 — #179 v4 LEDGER_CREDITED — batch 20261113T022000+0800 COMPLETE 6/6
 

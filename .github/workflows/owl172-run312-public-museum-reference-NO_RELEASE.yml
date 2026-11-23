@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   museum-native-reference-only:
@@ -58,6 +58,30 @@ jobs:
               "browser_webgl2":"NOT_TESTED","physical_phone":"NOT_TESTED",
               "release":False,"additional_payment_usd":0},indent=2))
           PY
+      - name: Preserve actual runner result as immutable-ish branch audit (JSON only, no binary/production)
+        if: always()
+        shell: bash
+        env:
+          OWL_RESEARCH_OUT: /tmp/owl172_run312_evidence
+        run: |
+          set -e
+          test "$GITHUB_REF_NAME" = "research/owl172-run312-museum-cc0-barn-owl-feather-reference-NO_RELEASE"
+          mkdir -p owl-pet/3d-experiments/172-tyto-castanops
+          python - <<'PY'
+          import json,os,pathlib
+          src=pathlib.Path(os.environ['OWL_RESEARCH_OUT'])/'source_diagnostic.json'
+          data=json.loads(src.read_text()) if src.exists() else {'status':'RUNNER_NO_DIAGNOSTIC','release':False}
+          data['release']=False
+          data['runner_id']=os.environ.get('GITHUB_RUN_ID')
+          dst=pathlib.Path('owl-pet/3d-experiments/172-tyto-castanops/run312-actual-runner-result-NO_RELEASE.json')
+          dst.write_text(json.dumps(data,indent=2,ensure_ascii=False)+'\\n')
+          PY
+          git config user.name "owl172-research-bot"
+          git config user.email "owl172-research-bot@users.noreply.github.com"
+          git add owl-pet/3d-experiments/172-tyto-castanops/run312-actual-runner-result-NO_RELEASE.json
+          git commit -m "research(#172): persist Run312 actual source access result - NO RELEASE" || true
+          git push origin "HEAD:refs/heads/research/owl172-run312-museum-cc0-barn-owl-feather-reference-NO_RELEASE"
+
       - name: Archive independent research only (no production/deploy)
         if: always()
         uses: actions/upload-artifact@v4

@@ -1,3 +1,6 @@
+## #225 Otus socotranus v1 VERIFIED 2026-11-23T13:10:45.703Z
+Coverage196/251; batch20261123T130430Z1/6,next2. Archivee9801abcd5f2db89caf707aa2e0df89fa628fad2;verification728618bf6266bc1b3f1c58e0411474ce5431ce0a. New1/edits1/sciencefalse. [Image](design/concepts/225-otus-socotranus-v1.png).
+
 ## 05-strix-aluco-v5 VERIFIED 2026-11-23T12:53:09.456Z
 Coverage195/251;batch20261123T113345Z 6/6. Archive88b752d6af298122dc5863de8266508c13f65d8a;verificationea08ad1c27760ed7639d4c9f80494d6ad8a00604. PASS_WITH_LIMITATIONS/sciencefalse.
 

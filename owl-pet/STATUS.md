@@ -1,3 +1,6 @@
+## 2026-11-23 #204 Glaucidium sjostedti VERIFIED
+Batch20261123T043309Z 3/6,next4. New1,revision0;archivea1d780423c69a35e12f2d18956d7170a7105466d;verification07a3eaa94ebc0dc24c989cf814afddf0f10ad583. Full+3crops checked;PASS_WITH_LIMITATIONS/sciencefalse. Strictnameaudit177/251;legacy179 notverifiedstrictunique.
+
 ## 2026-11-23 — #203 Middle American Screech Owl v1 verified
 Cycle2/6 batch20261123T043309Z, next3. New1,revision0; archive6b82991b24983021c4b329bab7b93665adadcddc;verification06196eea0f0e21622344b2dbc92f60322dca69f1. Original downloaded/hash/decode PASS; full+3crops reviewed; one juvenile-wing edit;sciencefalse/PASS_WITH_LIMITATIONS. Legacy178 count is not strict unique: taxon-name audit176/251, canonical251 roster reconciliation pending. [Original](design/concepts/203-megascops-guatemalae-v1.png),[review](research/reviews/203-megascops-guatemalae-v1-review.md).
 

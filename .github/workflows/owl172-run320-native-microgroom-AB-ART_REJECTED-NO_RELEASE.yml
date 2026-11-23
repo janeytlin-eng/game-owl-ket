@@ -1,0 +1,88 @@
+name: "Owl172 Run320 genuine native microgroom A/B NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run320-native-microgroom-ab-ART_REJECTED-NO_RELEASE
+    paths:
+      - '.github/workflows/owl172-run320-native-microgroom-AB-ART_REJECTED-NO_RELEASE.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run320_reproducible_native_microgroom_AB_NO_RELEASE.py'
+  workflow_dispatch:
+permissions:
+  actions: read
+  contents: read
+jobs:
+  genuine-3d-negative-research:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/run320_reproducible_native_microgroom_AB_NO_RELEASE.py
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install free native mesh and software 3D renderer dependencies
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq xvfb libgl1 libglu1-mesa libosmesa6 libegl1
+          python -m pip install -q numpy scipy pillow trimesh vtk
+          python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/run320_reproducible_native_microgroom_AB_NO_RELEASE.py
+      - name: Fetch exact original Run317 artifact (no new generation, no fees)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          mkdir -p owl172-run320-evidence
+          curl --fail --location --retry 2 --silent --show-error \
+            --header "Authorization: Bearer ${GH_TOKEN}" \
+            --header "Accept: application/vnd.github+json" \
+            --header "X-GitHub-Api-Version: 2022-11-28" \
+            https://api.github.com/repos/janeytlin-eng/game-owl-ket/actions/artifacts/14795923598/zip \
+            -o /tmp/owl172-run317-source.zip
+          unzip -j /tmp/owl172-run317-source.zip 'stability-SF3D-TyTo172-REAL_UNREVIEWED_NO_RELEASE.glb' -d owl172-run320-evidence
+          test "$(sha256sum owl172-run320-evidence/stability-SF3D-TyTo172-REAL_UNREVIEWED_NO_RELEASE.glb | cut -d' ' -f1)" = c4637faf90b3308123342517b43aabc4b3b197cec8aa62ad80976f173cbe20be
+      - name: Rebuild real native GLB A/B, software render front/right/back and reject both
+        run: |
+          set -euo pipefail
+          xvfb-run -a python owl-pet/3d-experiments/172-tyto-castanops/run320_reproducible_native_microgroom_AB_NO_RELEASE.py \
+            --output-dir owl172-run320-evidence | tee owl172-run320-evidence/actual_execution.log
+          python - <<'PY'
+          from pathlib import Path
+          import trimesh
+          root=Path('owl172-run320-evidence')
+          for key,n in [('A',37772),('B',60572)]:
+              p=root/f'run320-{key}-microgroom-ART_REJECTED_NO_RELEASE.glb'
+              scene=trimesh.load(p,force='scene')
+              ntri=sum(len(g.faces) for g in scene.geometry.values())
+              assert ntri==n,(key,ntri)
+              assert len(scene.geometry)==2
+              assert any(g.visual.kind=='texture' for g in scene.geometry.values())
+              assert any(g.visual.kind=='vertex' for g in scene.geometry.values())
+          assert len(list(root.glob('run320-*.png')))==9
+          PY
+      - name: Evidence SHA256 and hard NO RELEASE label
+        if: always()
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib,json
+          p=Path('owl172-run320-evidence');p.mkdir(exist_ok=True)
+          (p/'STRICT_NO_RELEASE.txt').write_text('Native geometry experiments only. Both ART_REJECTED; no physical phone WebGL verification; no licensed product release.\n')
+          paths=sorted(x for x in p.glob('*') if x.is_file() and x.name not in {'SHA256SUMS.txt','file_hashes.json'})
+          data=[{'path':x.name,'bytes':x.stat().st_size,'sha256':hashlib.sha256(x.read_bytes()).hexdigest()} for x in paths]
+          (p/'file_hashes.json').write_text(json.dumps(data,indent=2))
+          (p/'SHA256SUMS.txt').write_text('\n'.join(x['sha256']+'  '+x['path'] for x in data)+'\n')
+          print('Archived files',len(data))
+          PY
+          (cd owl172-run320-evidence && sha256sum -c SHA256SUMS.txt)
+      - name: Store research artifact only, never deploy
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run320-native-microgroom-ART_REJECTED-NO_RELEASE
+          path: owl172-run320-evidence/
+          retention-days: 14
+          if-no-files-found: warn

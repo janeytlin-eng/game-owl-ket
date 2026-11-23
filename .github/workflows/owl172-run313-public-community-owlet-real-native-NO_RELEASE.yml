@@ -1,0 +1,99 @@
+name: owl172 Run313 public Meshy juvenile native GLB access and browser QA — NO RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run313-meshy-juvenile-community-real-download-NO_RELEASE
+    paths:
+      - '.github/workflows/owl172-run313-public-community-owlet-real-native-NO_RELEASE.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  source-native-gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 24
+    steps:
+      - name: Sparse checkout research script only
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/run313-public-meshy-owlet-download-gate-NO_RELEASE.py
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install only free browser / model import tools
+        run: |
+          pip install --disable-pip-version-check --no-cache-dir playwright requests trimesh numpy
+          python -m playwright install --with-deps chromium
+      - name: Compile source before real execution
+        run: python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/run313-public-meshy-owlet-download-gate-NO_RELEASE.py
+      - name: Actually load public juvenile model page, click normal public download and verify GLB if available
+        env:
+          OWL_RESEARCH_OUT: /tmp/owl172_run313_evidence
+        shell: bash
+        run: |
+          mkdir -p "$OWL_RESEARCH_OUT"
+          set -o pipefail
+          python owl-pet/3d-experiments/172-tyto-castanops/run313-public-meshy-owlet-download-gate-NO_RELEASE.py 2>&1 | tee "$OWL_RESEARCH_OUT/execution.log"
+          cp owl-pet/3d-experiments/172-tyto-castanops/run313-public-meshy-owlet-download-gate-NO_RELEASE.py "$OWL_RESEARCH_OUT/reproducible_acquisition.py"
+      - name: Verify evidence and irrevocable NO RELEASE art gate
+        if: always()
+        env:
+          OWL_RESEARCH_OUT: /tmp/owl172_run313_evidence
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json,hashlib,pathlib,os
+          p=pathlib.Path(os.environ["OWL_RESEARCH_OUT"])
+          f=p/"source_diagnostic.json"
+          if f.exists():
+              d=json.loads(f.read_text())
+          else:
+              d={"download":"SCRIPT_FAILED_BEFORE_EVIDENCE","release":False,"payment_usd":0}
+          assert d["release"] is False and d["payment_usd"] == 0
+          if d.get("model"):
+              m=p/d["model"]
+              assert m.exists() and m.read_bytes()[:4] == b"glTF"
+              assert d["download_sha256"] == hashlib.sha256(m.read_bytes()).hexdigest()
+          result={"run":"313","access":d.get("access"),"download":d.get("download"),
+             "model_sha256":d.get("download_sha256"),"new_native_glb_acquired":bool(d.get("model")),
+             "geometry_qa":bool(d.get("model_geometry")),"art":"NOT_APPROVED",
+             "rights":"NOT_CLEARED_FOR_DERIVED_PRODUCT","webgl2":"NOT_VALIDATED_FOR_MODEL",
+             "physical_phone":"NOT_TESTED","release":False,"additional_payment_usd":0}
+          (p/"evidence_gate.json").write_text(json.dumps(result,indent=2))
+          print(json.dumps(result,indent=2))
+          PY
+      - name: Persist actual runner diagnosis in dedicated research branch (no model/production)
+        if: always()
+        shell: bash
+        env:
+          OWL_RESEARCH_OUT: /tmp/owl172_run313_evidence
+        run: |
+          set -e
+          test "$GITHUB_REF_NAME" = "research/owl172-run313-meshy-juvenile-community-real-download-NO_RELEASE"
+          mkdir -p owl-pet/3d-experiments/172-tyto-castanops
+          python - <<'PY'
+          import json,os,pathlib
+          p=pathlib.Path(os.environ["OWL_RESEARCH_OUT"])
+          src=p/"source_diagnostic.json"
+          obj=json.loads(src.read_text()) if src.exists() else {"access":"RUNNER_FAILED","release":False}
+          obj["release"]=False
+          obj["runner_id"]=os.environ.get("GITHUB_RUN_ID")
+          (pathlib.Path("owl-pet/3d-experiments/172-tyto-castanops")/"run313-actual-runner-result-NO_RELEASE.json").write_text(json.dumps(obj,indent=2,ensure_ascii=False)+"\n")
+          PY
+          git config user.name "owl172-research-bot"
+          git config user.email "owl172-research-bot@users.noreply.github.com"
+          git add --sparse owl-pet/3d-experiments/172-tyto-castanops/run313-actual-runner-result-NO_RELEASE.json
+          git commit -m "research(#172): preserve Run313 actual browser source result - NO RELEASE" || true
+          git fetch origin "$GITHUB_REF_NAME"
+          git rebase FETCH_HEAD
+          git push origin "HEAD:refs/heads/research/owl172-run313-meshy-juvenile-community-real-download-NO_RELEASE"
+      - name: Archive independent source/browser/model evidence only
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run313-community-real-native-access-NO_RELEASE
+          path: /tmp/owl172_run313_evidence
+          retention-days: 14
+          if-no-files-found: warn

@@ -115,7 +115,7 @@ try:
             snap(page,'rightmost_chick_uploaded.png')
             if re.search('sign in|log in|authentication required|quota exceeded',report['post_upload_text'],re.I):
                 report['account_or_quota_warning']=True
-            generate=page.get_by_role('button',name=re.compile(r'^(Gen Shape|Gen Textured Shape|Generate Shape|Generate 3D|Generate))
+            generate=page.get_by_role('button',name=re.compile(r'^(Gen Shape|Gen Textured Shape|Generate Shape|Generate 3D|Generate)$',re.I))
             for i in range(generate.count()):
                 if generate.nth(i).is_visible() and generate.nth(i).is_enabled():
                     report['clicked_button']=generate.nth(i).inner_text()[:120]

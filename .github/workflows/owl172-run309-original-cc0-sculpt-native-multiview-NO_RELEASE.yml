@@ -1,0 +1,107 @@
+name: "owl172 Run309 original-CC0 organic-sculpt candidate real native GLB WebGL2 art gate NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run309-original-CC0-artist-native-sculpt-multiview-NO_RELEASE
+    paths:
+      - '.github/workflows/owl172-run309-original-cc0-sculpt-native-multiview-NO_RELEASE.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run309_original_cc0_sculpt_native_source_and_rights_NO_RELEASE.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  actual_original_asset:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/design/concepts/172-tyto-castanops-v3.png
+            owl-pet/3d-experiments/172-tyto-castanops/run295_real_reference_cutout_preprocess_ONLY_NO_RELEASE.py
+            owl-pet/3d-experiments/172-tyto-castanops/run292_real_browser_glb_test_NO_RELEASE.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run292_browser_viewer_uncropped_NO_RELEASE.html
+            owl-pet/3d-experiments/172-tyto-castanops/run309_original_cc0_sculpt_native_source_and_rights_NO_RELEASE.py
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify original far-right chick concept from main branch
+        run: |
+          set -eu
+          python -m pip install -q Pillow numpy opencv-python-headless trimesh requests
+          python owl-pet/3d-experiments/172-tyto-castanops/run295_real_reference_cutout_preprocess_ONLY_NO_RELEASE.py >run309-source-extract.log
+          test "$(sha256sum owl172-run295-evidence/young-isolated-white-background-input-NO_3D.png | cut -d' ' -f1)" = 6ec346e5b02411f9509fd364db748c23a58075aeec461ef7424adcc4d893bc77
+          mkdir -p owl172-run309-evidence/reference
+          cp owl172-run295-evidence/young-isolated-white-background-input-NO_3D.png owl172-run309-evidence/reference/
+          cp run309-source-extract.log owl172-run309-evidence/
+      - name: Actually fetch original-publisher CC0-labelled native candidate and reimport
+        timeout-minutes: 5
+        run: |
+          python owl-pet/3d-experiments/172-tyto-castanops/run309_original_cc0_sculpt_native_source_and_rights_NO_RELEASE.py | tee owl172-run309-evidence/source-stdout.txt
+      - name: Render true spatial front/right/back in desktop Chromium WebGL2 (tech test only)
+        timeout-minutes: 6
+        env:
+          CHROME_BIN: /usr/bin/google-chrome
+        run: |
+          set -eu
+          mkdir -p owl172-run309-evidence/multiview
+          src=owl172-run309-evidence/innerscene-owl-ORIGINAL_CC0_CLAIM_NON_JUVENILE.glb
+          if test -s "$src"; then
+            npm install --no-save --no-audit --no-fund playwright-core@1.58.2 three@0.170.0 pngjs@7.0.0
+            node owl-pet/3d-experiments/172-tyto-castanops/run292_real_browser_glb_test_NO_RELEASE.mjs "$src" >owl172-run309-evidence/multiview/browser-stdout.txt 2>&1 || true
+            if test -d owl172-run292-browser-evidence; then
+              cp -r owl172-run292-browser-evidence/. owl172-run309-evidence/multiview/
+            fi
+            python - <<'PY'
+          from pathlib import Path
+          from PIL import Image
+          p=Path('owl172-run309-evidence/multiview')
+          f=[p/('model1_'+x+'.png') for x in ['front','right','back']]
+          if all(x.is_file() for x in f):
+              result=Image.new('RGB',(1170,780),(238,233,224))
+              for i,x in enumerate(f):
+                  im=Image.open(x).convert('RGB')
+                  result.paste(im,(390*i,0))
+              result.save(p/'three_views_CANDIDATE_NOT_APPROVED.png')
+          PY
+          else
+            echo "NO_NATIVE_GLB_NO_WEBGL_EVALUATION" >owl172-run309-evidence/multiview/UNAVAILABLE.txt
+          fi
+      - name: Immutable SHA256 evidence & absolute no-release decision
+        if: always()
+        run: |
+          mkdir -p owl172-run309-evidence
+          python - <<'PY'
+          import json,hashlib
+          from pathlib import Path
+          p=Path('owl172-run309-evidence')
+          v=p/'multiview'
+          images=[str(x.relative_to(p)) for x in v.glob('model1_*.png')]
+          status={'run':309,'real_spatial_webgl_screenshots':len(images),
+                  'reference_rightmost_chick_not_replaced':True,
+                  'artist_grade_juvenile_anatomy_approved':False,
+                  'natural_cream_white_down_approved':False,
+                  'heart_mask_proportion_approved':False,
+                  'coherent_side_back_approved':False,
+                  'genuine_mobile_hardware_tested':False,
+                  'third_party_rights_independently_cleared':False,
+                  'paid_amount_usd':0,'no_release':True,
+                  'screenshots':images}
+          (p/'STRICT_NO_RELEASE.json').write_text(json.dumps(status,indent=2))
+          lines=[hashlib.sha256(f.read_bytes()).hexdigest()+'  '+str(f.relative_to(p))
+                 for f in sorted(p.rglob('*')) if f.is_file() and f.name!='SHA256SUMS.txt']
+          (p/'SHA256SUMS.txt').write_text('\n'.join(lines)+'\n')
+          print(status)
+          PY
+          (cd owl172-run309-evidence && sha256sum -c SHA256SUMS.txt)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run309-genuine-original-native-sculpt-cc0-candidate-NO_RELEASE
+          path: owl172-run309-evidence/
+          retention-days: 14
+          if-no-files-found: warn

@@ -6137,3 +6137,7 @@ FEO-LOYN-DEBUS-2000-P288-289 originalbodyfreshlyread, new0/reused3(priorbook+tax
 
 ### 2026-11-24 #142v5 dorsal-palette correction
 JAM-MIK2013-500-501 freshuploadedPDF502–503; JamaicanOwlgreyishbrownbackversuscinnamonbuffremainder,noscapswhite. ExpertsecondaryNicoleBouglouancardactualbodyread https://www.oiseaux-birds.com/card-jamaican-owl.html , undated, accesses2026-11-24; synthesisnotindependentgrowthresearch. PriorGossebodyNOTfreshread(HTML/find503;coveronlyplaintext),no fabricatedprimaryread. Stablemetadata/limits/completeprompt andimagescope [#142v5](species/142-asio-grammicus-v5.md). Newsource1/reused3,pendingreview/sciencefalse.
+
+
+### 2026-11-24 #141v6 fine downy crown bars
+ReusedMAG-FINSCH-1898-P163-172 actualoriginalprinted170–172read,Batjan/Halmaherayoungfinecrossbars/developingbarredquills; retainednoterasedremiges. New0/reused3(bookandtaxonomypriorrecordnotfreshread). MetadataURL/stagelimits/fullprompt [#141v6](species/141-otus-magicus-v6.md), actualimageoutcomepending. Sciencefalse.

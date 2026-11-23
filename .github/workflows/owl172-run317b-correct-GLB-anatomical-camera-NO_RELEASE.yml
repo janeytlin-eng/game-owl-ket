@@ -25,7 +25,7 @@ jobs:
         with:
           name: owl172-run317-actual-SF3D-native-real-webgl-RESEARCH-NO_RELEASE
           run-id: 45127141518
-          github-token: \${{ github.token }}
+          github-token: ${{ github.token }}
           path: owl172-run317b-input
       - name: Verify unchanged source bytes before semantic camera test
         shell: bash

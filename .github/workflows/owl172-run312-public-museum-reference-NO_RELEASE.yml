@@ -1,0 +1,68 @@
+name: owl172 Run312 public museum Tyto alba source & true-GLB audit — NO RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run312-museum-cc0-barn-owl-feather-reference-NO_RELEASE
+    paths:
+      - '.github/workflows/owl172-run312-public-museum-reference-NO_RELEASE.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  museum-native-reference-only:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Sparse checkout dedicated experiment only
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/run312-public-museum-anatomy-acquire-NO_RELEASE.py
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Free Python public page and native geometry analyzers
+        run: |
+          pip install --disable-pip-version-check --no-cache-dir requests beautifulsoup4 trimesh numpy pillow playwright
+          python -m playwright install --with-deps chromium
+      - name: Actually inspect public museum model mirror, click normal public link if necessary
+        shell: bash
+        env:
+          OWL_RESEARCH_OUT: /tmp/owl172_run312_evidence
+        run: |
+          mkdir -p "$OWL_RESEARCH_OUT"
+          set -o pipefail
+          python owl-pet/3d-experiments/172-tyto-castanops/run312-public-museum-anatomy-acquire-NO_RELEASE.py 2>&1 | tee "$OWL_RESEARCH_OUT/execution.log"
+          cp owl-pet/3d-experiments/172-tyto-castanops/run312-public-museum-anatomy-acquire-NO_RELEASE.py "$OWL_RESEARCH_OUT/reproducible_acquisition.py"
+      - name: Validate research status / integrity, never claim art passed
+        shell: bash
+        env:
+          OWL_RESEARCH_OUT: /tmp/owl172_run312_evidence
+        run: |
+          python - <<'PY'
+          import hashlib,json,os,pathlib
+          p=pathlib.Path(os.environ["OWL_RESEARCH_OUT"])
+          q=json.loads((p/"source_diagnostic.json").read_text())
+          assert q["release"] is False and q["payment_usd"]==0
+          f=p/"museum_tyto_alba_CC0_CLAIM_REFERENCE_ONLY.glb"
+          if f.exists():
+              assert f.read_bytes()[:4]==b'glTF'
+              assert q["model"]["sha256"]==hashlib.sha256(f.read_bytes()).hexdigest()
+          print("Run312 research gate:",q["status"],"native reference bytes:",f.stat().st_size if f.exists() else 0)
+          (p/"evidence_gate.json").write_text(json.dumps({
+              "status":q["status"],"genuine_glb":f.exists(),"model_sha256":q.get("model",{}).get("sha256"),
+              "target_juvenile_art":"NOT_APPROVED","rights":"UPSTREAM_RECHECK_REQUIRED",
+              "browser_webgl2":"NOT_TESTED","physical_phone":"NOT_TESTED",
+              "release":False,"additional_payment_usd":0},indent=2))
+          PY
+      - name: Archive independent research only (no production/deploy)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run312-public-museum-anatomy-NO_RELEASE
+          path: /tmp/owl172_run312_evidence
+          retention-days: 14
+          if-no-files-found: warn

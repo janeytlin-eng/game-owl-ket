@@ -5897,3 +5897,9 @@ Adults near-equal height, matching fine tawny cryptic feather patterns; dark bil
 Do not apply universal short-wing downball correction to an independently photographed flying juvenile. Compare body fluff and formed remiges separately. Visually validate this output only; no biological approval.
 
 Related image: [233 v1](../design/concepts/233-bubo-milesi-v1.png); [review](reviews/233-bubo-milesi-v1-review.md).
+
+
+## 20261123 cycle2 #87 v6 source recheck
+# #87 v6 evidence-led revision
+Access2026-11-23. Reused ASC-ALSHEIKHLY-MIKKOLA-MOUSAVI-2020 original publisher PDF https://jnhm.uobaghdad.edu.iq/index.php/BINHM/article/download/473/317/1258 actually opened field-identification p221/Table1: sparse fine lower bars; upper breast streaks; wings overlap despite female-longer mean. Reused ASC-ALSHEIKHLY-2012-SANDGROUSE https://osme.org/wp-content/uploads/2019/10/I_Al-Sheikhly_Sandgrouse34-1-compr.pdf p72: age is estimated via personal communication; newly developing pale flight feathers; cliff hole reported by hunter. Distinguish direct market observation and secondhand nest-origin account. Old Bubo bubo ascalaphus search synonym. No new source IDs: reused2, corrected certainty of stage/nest provenance. Observed v5 vertical streaks extend too low on female sides, wings overly regular in young. Edit only adults lower breast/flank streaks; keep legitimate fine rufous horizontal bars and known developing juvenile flight feathers (no total wing erasure). Add explicit concept-sciencepending footer. Precise juvenile age/flight threshold unknown. v1–v5 and confirmations preserved. sciencefalse.
+[Research](species/87-bubo-ascalaphus-v6.md) · [image](../design/concepts/87-bubo-ascalaphus-v6.png)

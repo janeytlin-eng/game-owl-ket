@@ -1,0 +1,7 @@
+# #211 Megascops roboratus actual review
+Actually viewed initial/edited full image and final3rolecropmontage. Adultshortearpoints/coolgrey-brownmorph/blackishfineshaftstreaks+crosstexture/whiteedgedscapularrowandcrownfringepresent; fringe/hindneckextentpartlyhiddenbyfrontpose, pending science. Near-equaladultheightwithfemaleonlyslightlyfuller, nospecificratio. Yellowadultiris/greyolivebill. Younginitialcapovermarked, oneeditremovedstrongcapmarkings whilekeepingdensefineunderpartbars/paleoliveyelloweyes andshortsofttuckedwings. Crouchedrootforksupport/bothfeetsecure, no adultlongprimarypanel, no nest/flightclaim. Youngpreciseage/bill/flightunknown, tuftontogenyunknownsoonlysmallsoftpointsdesigninference. Drywoodlandandcactuscontext appropriate. Guideyoungfactsapplynominateconcept; currenttwo-subspecies scope/oldname differences explicitlyindexed. PASS_WITH_LIMITATIONS/sciencefalse; no userconfirmation implied.
+
+Metadata {"dimensions":"1536x1024","size_bytes":3270979,"sha256":"52c5e8fa3af6a588c342fb65b203cde006cb537244e2ee9d68146a8c55225b64","git_blob":"1512819540ccecffffa13f28a4338fc7255181e6"}
+Sources MROB-MIKKOLA-2013-P224, MROB-ITIS-686664, MROB-PEREGRINEFUND-WEB, MROB-PERUAVES-WEB, MROB-HEKSTRA-1982-P58
+Nominate grey-brown morph; currenttwo-subspecies scope vs oldmonotypicguide. Juvenilemesoptile denseventralbars/lessmarkedcap/paleoliveyellowiris directlyguide-described; preciseage/flightunknown. Female slightlylargersaidbutratio notmeasured; onlysubtlefullness.
+ConceptChecked=true;scientifically_verified=false.

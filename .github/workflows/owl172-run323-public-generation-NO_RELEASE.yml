@@ -1,4 +1,4 @@
-name: "Owl #172 Run323 real no-fee image-to-3D sources NO RELEASE"
+name: "Owl #172 Run323b actual enabled free 3D mesh providers NO RELEASE"
 on:
   push:
     branches:
@@ -99,7 +99,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: owl172-run323-public-generator-real-evidence-NO_RELEASE
+          name: owl172-run323b-public-generator-real-evidence-NO_RELEASE
           path: |
             owl172-run323-evidence/
             owl172-run295-evidence/run295_matte_QA.json

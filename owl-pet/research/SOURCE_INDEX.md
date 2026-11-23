@@ -5964,3 +5964,19 @@ Searches includedcurrentandoldnames Scopsfuliginosa, Otusfuliginosusyoung/juveni
 Original descriptor Sharpe1888 Ibis197 for fuliginosus and Lewis1998Mayotte article remain retrievalleads, not stageproof. Rather than invent young, this resume addressed3 specifically observed outstanding calibrationissues in existingplates. Continue active discovery for remaining49; no claimthat all49lackevidence. No final251reviewcomplete.
 
 [本次三张修订图及逐项科学边界](../production/batches/20261123T143039Z-completed-review.md)。本轮新增独立文献2、实际重读已索引资料6；同书分页不算多份独立来源。未把未读搜索线索当核验事实。
+
+
+## 20261123T1640Z / Otus sulaensis #234
+
+- SULA-HARTERT-1898: Ernst Hartert, List of a collection of birds made in the Sula Islands by William Doherty, Novitates Zoologicae5(2):125–136, p126 species4. DOI10.5962/bhl.part.1648; https://biostor.org/reference/104583 ; full public-domain scan https://archive.org/download/biostor-104583/biostor-104583.pdf . Downloaded3001937 bytes, parsed and visually read PDFp2/printed126, including nestling paragraph. Adult male MangoleOct1897 orange iris, blackish bill, ochre lower mandible/cere, dirtyyellowishwhite feet; darkrufousbrown upperparts shaftstreaked/mottled; white outer scapulars. Nestling SulaBesi explicitly described pale buffbrown down numerous darkbrown crossbars, deepbrown iris, pale dulllead bill, dullwhitishtestaceous feet; tarsus half bare. No exact age, wingsequence, flight ability or nestsite given. Individual historical specimen scope, not universalstagechronology.
+- MIKKOLA-2013 shared uploaded book, printed192/PDF194 read this run: adult small rounded tufts, yelloworange iris, bare lower tarsus, lowland/secondary/swamp forest, no sex-size data; juvenile 'said similaradult' is broad secondary summary, conflicts with directly described downy specimen. Prefer specific primary stage rather than copying adult plumage. Island-range summary excludes historicalSulaBesi locality; retain locality conflict, specimen identification not independently genomically confirmed.
+- SULA-ITIS-1063241: ITIS, current report read2026-11-24, https://itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=1063241&source=to_print . Nomenclature/rank/References supports current Otus sulaensis, old Pisorhina sulaensis and Otus magicus sulaensis, IOC15.1/Clements2021/HBW2022 scopes. No change to project's251 total asserted.
+
+## Design inference, explicitly not facts
+Near-equal adult display because sex direction unknown. Low settled young on broad wood is a conservative presentation support, not sourced nestsite or perching ability. No cavity/eggs/nestmaterial depicted; nestsite unknown. Exact down feather tract counts, developmental age, fledging threshold and population sexratio unknown. A preserved specimen is not a living posture reference; anatomical/feather rendering remains concept calibration pending.
+
+## Failed/rejected retrieval
+WallacePDF403 local and web screenshot failure; BHL403; original resolved via BioStor→Archive fullPDF. Marshall1978 local file HTML, rejected. Adjacent Accipiter sulaensis paragraph deliberately excluded. Active external discovery also read Bishop&vanBalen2023 p38–39 Biak account (30MBPDF downloaded): adult/tallforest evidence only, no juvenile description, Biak deferred. MuseumsVictoriaZ51565 tissue lacks age; Kuroda1954 hypogramma 'younger?' uncertain and nextspeciesochracea juveniledescription not transferred. Mikkola printed454/468/469/488/479/140/142/190/489: nine rare species juvenile undefined; no invented hatchlings.
+
+
+[Species and prompt](species/234-otus-sulaensis-v1.md) · [concept](../design/concepts/234-otus-sulaensis-v1.png) · [review](reviews/234-otus-sulaensis-v1-review.md)

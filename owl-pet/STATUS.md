@@ -1,3 +1,6 @@
+## 2026-11-23T14:44:37.516Z PARTIAL batch3/6; coverage202/251
+This invocation completed3 cycles: new#233v1, revised#87v6/#88v6. Allsciencefalse. Samebatch20261123T143039Z nextcycle4, remaining3; no other incompletebatch. [Originals/research/reviews/commits](production/batches/20261123T143039Z-review.md). No all-speciescompletion; productionnotpaused.
+
 ## 2026-11-23 本次完成6轮，批次6/6
 
 新增#225、#226、#228、#229、#230、#232，共6种，归档去重195→201/251；旧图修订0，本批定向编辑3次。6组均概念通过但待科学校准；无新增用户确认。其他未完批次0，下一子轮下一批1/6，须重新核对main与lease。尚余50种及全批科学审查，生产任务未暂停。[六张原图、检查与真实提交证据](production/batches/20261123T130430Z-review.md)。

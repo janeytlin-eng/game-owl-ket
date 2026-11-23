@@ -1,3 +1,6 @@
+## 2026-11-23T13:41:06.789Z 232-ninox-ochracea-v1 VERIFIED
+Coverage201/251; batch20261123T130430Z 6/6. Archive2432cfeeb3ae19fb8ac8b485e3453451d4c18029;verification1526d7ff244e999faf73d7410219908cdfe76301. PASS_WITH_LIMITATIONS/sciencefalse. [Original](design/concepts/232-ninox-ochracea-v1.png), [review](research/reviews/232-ninox-ochracea-v1-review.md). All251notcomplete.
+
 ## 2026-11-23T13:35:23.744Z 230-taenioptynx-sylvaticus-v1 VERIFIED
 Coverage200/251; batch20261123T130430Z 5/6. Archive64f481954ade1f3b3dfa3ff9129c76ad1b666902;verificationafb57d56d42f597fcae4f20da91bc2ff7c5fef96. PASS_WITH_LIMITATIONS/sciencefalse. [Original](design/concepts/230-taenioptynx-sylvaticus-v1.png), [review](research/reviews/230-taenioptynx-sylvaticus-v1-review.md). All251notcomplete.
 

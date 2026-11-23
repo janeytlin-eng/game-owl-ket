@@ -1,0 +1,107 @@
+name: "Owl #172 Run325 free textured image-to-native-3D actual browser QA NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run325-textured-free-image3d-real-ui-NO_RELEASE
+    paths:
+      - .github/workflows/owl172-run325-free-textured-native-ui-NO_RELEASE.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  only-free-public-normal-ui:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 24
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/design/concepts/172-tyto-castanops-v3.png
+            owl-pet/3d-experiments/172-tyto-castanops/run295_real_reference_cutout_preprocess_ONLY_NO_RELEASE.py
+            owl-pet/3d-experiments/172-tyto-castanops/run325_free_textured_image3d_real_browser_NO_RELEASE.py
+            owl-pet/3d-experiments/172-tyto-castanops/run322_native_orbit_chromium_NO_RELEASE.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run322_native_orbit_research_NO_RELEASE.html
+            .github/workflows/owl172-run325-free-textured-native-ui-NO_RELEASE.yml
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install free Python/browser 3D tools, verify script syntax
+        run: |
+          set -euo pipefail
+          python -m pip install -q numpy pillow opencv-python-headless playwright trimesh
+          python -m playwright install --with-deps chromium
+          python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/run325_free_textured_image3d_real_browser_NO_RELEASE.py
+      - name: Reconstruct exact original rightmost Tyto castanops v3 reference
+        run: |
+          set -euo pipefail
+          python owl-pet/3d-experiments/172-tyto-castanops/run295_real_reference_cutout_preprocess_ONLY_NO_RELEASE.py | tee run325_crop.log
+          printf '6ec346e5b02411f9509fd364db748c23a58075aeec461ef7424adcc4d893bc77  owl172-run295-evidence/young-isolated-white-background-input-NO_3D.png\n' | sha256sum -c
+      - name: Actually try public free PBR image-to-3D browser forms, never buy credits
+        run: |
+          set -euo pipefail
+          python owl-pet/3d-experiments/172-tyto-castanops/run325_free_textured_image3d_real_browser_NO_RELEASE.py | tee run325_actual_free_browser.log
+      - name: Verify any genuinely newly generated native GLB in real Chromium WebGL2
+        run: |
+          set -euo pipefail
+          GLB=$(find owl172-run325-evidence -maxdepth 1 -name '*actual_target_candidate_NO_RELEASE.glb' -type f | head -1)
+          if [ -z "$GLB" ]; then echo 'No new target GLB; no fake native WebGL2 or model claim'; exit 0; fi
+          npm install --no-audit --no-fund --no-save playwright-core@1.58.2 three@0.170.0 pngjs@7.0.0
+          CHROME_BIN=/usr/bin/google-chrome node owl-pet/3d-experiments/172-tyto-castanops/run322_native_orbit_chromium_NO_RELEASE.mjs "$GLB" owl172-run325-evidence/webgl2 | tee owl172-run325-evidence/actual_webgl2.log
+      - name: Produce independent verifiable evidence manifest and art-review contact sheet
+        if: always()
+        run: |
+          python - <<'PY'
+          import hashlib,json
+          from pathlib import Path
+          from PIL import Image, ImageDraw
+          p=Path('owl172-run325-evidence');p.mkdir(exist_ok=True)
+          ims=sorted((p/'webgl2').glob('yaw_*.png')) if (p/'webgl2').exists() else []
+          if ims:
+              out=Image.new('RGB',(920,980),(238,233,228));d=ImageDraw.Draw(out)
+              for i,f in enumerate(ims):
+                  x=(i%4)*230;y=(i//4)*490
+                  out.paste(Image.open(f).convert('RGB').resize((230,460)),(x,y+20))
+                  d.text((x+6,y+5),f.stem,fill=(28,28,28))
+              out.save(p/'run325-eight-true-webgl2-views-UNREVIEWED.jpg',quality=92,optimize=True)
+          r=json.loads((p/'actual_run325.json').read_text()) if (p/'actual_run325.json').exists() else {}
+          state={'run':325,'status':r.get('status','INCOMPLETE'),'models':r.get('real_generated_models',[]),
+             'actual_webgl2_views':len(ims),'art_approved':False,'rights_cleared':False,
+             'physical_phone_tested':False,'release':False,'external_spending_usd':0}
+          (p/'final_state.json').write_text(json.dumps(state,indent=2)+'\n')
+          fs=sorted(f for f in p.rglob('*') if f.is_file() and f.name not in ('file_hashes.json','SHA256SUMS.txt'))
+          manifest=[{'path':str(f.relative_to(p)),'sha256':hashlib.sha256(f.read_bytes()).hexdigest(),'bytes':f.stat().st_size} for f in fs]
+          (p/'file_hashes.json').write_text(json.dumps(manifest,indent=2)+'\n')
+          (p/'SHA256SUMS.txt').write_text('\n'.join(x['sha256']+'  '+x['path'] for x in manifest)+'\n')
+          print(json.dumps(state,indent=2))
+          PY
+          (cd owl172-run325-evidence && sha256sum -c SHA256SUMS.txt)
+      - name: Archive only independent #172 diagnostics on isolated branch
+        if: always()
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          SRC=owl172-run325-evidence
+          DEST=owl-pet/3d-experiments/172-tyto-castanops/run325-live-evidence
+          mkdir -p "$DEST"
+          for f in actual_run325.json final_state.json file_hashes.json STRICT_NO_RELEASE.txt run325-eight-true-webgl2-views-UNREVIEWED.jpg hi3d_pro_pbr_01_home.png hi3d_pro_pbr_02_upload.png hi3d_pro_pbr_03_start.png hi3d_pro_pbr_04_result.png hi3d_pro_pbr_error.png hunyuan3d_dev_textured_01_home.png hunyuan3d_dev_textured_02_upload.png hunyuan3d_dev_textured_03_start.png hunyuan3d_dev_textured_04_result.png hunyuan3d_dev_textured_error.png; do
+            [ ! -f "$SRC/$f" ] || cp "$SRC/$f" "$DEST/$f"
+          done
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --sparse "$DEST"
+          if ! git diff --cached --quiet; then
+            git commit -m "research(#172): archive Run325 actual free textured 3D provider evidence, no release"
+            git push origin HEAD:research/owl172-run325-textured-free-image3d-real-ui-NO_RELEASE
+          fi
+      - name: Temporarily retain full native binaries and evidence for audit, NO RELEASE
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run325-actual-free-PBR-3D-UI-NO_RELEASE
+          path: |
+            owl172-run325-evidence/
+            run325_crop.log
+            run325_actual_free_browser.log
+          retention-days: 14
+          if-no-files-found: warn

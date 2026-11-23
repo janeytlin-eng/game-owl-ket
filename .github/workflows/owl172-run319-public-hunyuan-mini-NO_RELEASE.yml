@@ -1,0 +1,88 @@
+name: "Owl172 Run319 real Hunyuan3D-2mini-Turbo free trial NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run319-hunyuan-mini-turbo-public-free-3d-NO_RELEASE
+    paths:
+      - '.github/workflows/owl172-run319-public-hunyuan-mini-NO_RELEASE.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  native3d-research-only:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/design/concepts/172-tyto-castanops-v3.png
+            owl-pet/3d-experiments/172-tyto-castanops/run295_real_reference_cutout_preprocess_ONLY_NO_RELEASE.py
+            owl-pet/3d-experiments/172-tyto-castanops/run319_hunyuan_mini_turbo_PUBLIC_UI_NATIVE_3D_NO_RELEASE.py
+            owl-pet/3d-experiments/172-tyto-castanops/run317b_semantic_three_view_native_GLb_NO_RELEASE.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run317b_semantic-front-negZ_viewer_NO_RELEASE.html
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install free open-source dependencies
+        run: |
+          set -euo pipefail
+          python -m pip install -q pillow numpy opencv-python-headless trimesh playwright
+          python -m playwright install --with-deps chromium
+          python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/run319_hunyuan_mini_turbo_PUBLIC_UI_NATIVE_3D_NO_RELEASE.py
+      - name: Reconstruct exact approved target reference without editing source
+        run: |
+          set -euo pipefail
+          python owl-pet/3d-experiments/172-tyto-castanops/run295_real_reference_cutout_preprocess_ONLY_NO_RELEASE.py > reference_preprocess.log
+          test "$(sha256sum owl172-run295-evidence/young-isolated-white-background-input-NO_3D.png | cut -d' ' -f1)" = 6ec346e5b02411f9509fd364db748c23a58075aeec461ef7424adcc4d893bc77
+          test "$(sha256sum owl172-run295-evidence/young-REAL-PHOTO-PIXELS-transparent-input-NO_3D.png | cut -d' ' -f1)" = 37e2b3c96da31c558f511ee172b43bec4c721186a074327ec6cb791c9d2c5ed8
+          mkdir -p owl172-run319-evidence
+          cp reference_preprocess.log owl172-run319-evidence/
+          cp owl172-run295-evidence/young-isolated-white-background-input-NO_3D.png owl172-run319-evidence/reference_chick_white.png
+      - name: Real public Hunyuan mini Turbo upload / generation / native export attempt
+        timeout-minutes: 8
+        run: |
+          set -o pipefail
+          python owl-pet/3d-experiments/172-tyto-castanops/run319_hunyuan_mini_turbo_PUBLIC_UI_NATIVE_3D_NO_RELEASE.py | tee owl172-run319-evidence/provider_stdout.txt
+      - name: Real native model in Chromium WebGL2 three-view only if downloaded
+        if: always()
+        timeout-minutes: 5
+        run: |
+          set -u
+          for f in owl172-run319-evidence/*ORIGINAL-UNREVIEWED-NO_RELEASE.glb; do
+            if test -s "$f"; then
+              npm install --no-save --no-audit --no-fund playwright-core@1.58.2 three@0.170.0 pngjs@7.0.0
+              node owl-pet/3d-experiments/172-tyto-castanops/run317b_semantic_three_view_native_GLb_NO_RELEASE.mjs "$f" > owl172-run319-evidence/webgl_stdout.txt 2>&1 || echo TECH_QA_HOLD > owl172-run319-evidence/TECH_QA_HOLD.txt
+              if test -d owl172-run317b-browser-evidence; then
+                mkdir -p owl172-run319-evidence/real_browser_webgl2
+                cp -r owl172-run317b-browser-evidence/. owl172-run319-evidence/real_browser_webgl2/
+              fi
+            fi
+          done
+      - name: Explicit audit and hashes
+        if: always()
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib,json
+          d=Path('owl172-run319-evidence');d.mkdir(exist_ok=True)
+          (d/'STRICT_NO_RELEASE.txt').write_text('NO_RELEASE. Public UI test, not art or rights approval, not physical phone evidence.\n')
+          paths=sorted(p for p in d.rglob('*') if p.is_file() and p.name not in ['SHA256SUMS.txt','file_hashes.json'])
+          listing=[{'path':str(p.relative_to(d)),'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in paths]
+          (d/'file_hashes.json').write_text(json.dumps(listing,indent=2))
+          (d/'SHA256SUMS.txt').write_text('\n'.join(x['sha256']+'  '+x['path'] for x in listing)+'\n')
+          print('evidence_count',len(listing),'native_glb_count',len(list(d.glob('*.glb'))))
+          PY
+          (cd owl172-run319-evidence && sha256sum -c SHA256SUMS.txt)
+      - name: Research evidence artifact (strict no release)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run319-hunyuan-mini-native-research-NO_RELEASE
+          path: owl172-run319-evidence/
+          retention-days: 14
+          if-no-files-found: warn

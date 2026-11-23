@@ -244,3 +244,6 @@ Problem discovered by retrospective actual#05v4review: largelybarepink/scalytoes
 
 ## #225 SocotraScopsOwl actualiteration
 Adulttuftsharpcornersfromstyle removedbyoneedit; fulland3rolecropsrechecked. JuvenileactualPlate16formedwingnotremovedlikeunsupportedadultpanel, stage-specificruleonly. Guideunknownresolvedbyactualprimaryphoto, notnewborninvention. SocotraadultbaretoesnotTawnyfeatheredtoe. Promptfuturepreventionuntested; scientificcalibrationpending.
+
+## #226 actualiteration
+Plainmesoptilebelly/barredbackdoesnotjustifyadultspottedhardremiges. Initialjuvenilefailed, edit1removedadultpanelandspots, full+3cropsverifyvisualchange. Exactjuvenilefeatherchronology/softpartsstillunknown; sciencefalse. Appliedspecificrulefor#226only; #225primaryPlate16formedwingretainedcorrectly, do notblindlysoftenallolderyoung. Futurepromptpreventionuntested.

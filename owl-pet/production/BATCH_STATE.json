@@ -51266,9 +51266,20 @@
           "commit_sha": "728618bf6266bc1b3f1c58e0411474ce5431ce0a",
           "run_record": "owl-pet/production/runs/20261123T130430Z-cycle-1.md",
           "verified_at": "2026-11-23T13:10:45.661Z"
+        },
+        {
+          "cycle": 2,
+          "species_id": 226,
+          "scientific_name": "Otus icterorhynchus",
+          "action": "NEW_SPECIES_CONCEPT",
+          "unique_species_increment": 1,
+          "archive_commit": "8327f15b42028d05046459ff4a17360997165d2a",
+          "commit_sha": "e55a6aa34c7e886b62b674eff9008817d29c8a91",
+          "run_record": "owl-pet/production/runs/20261123T130430Z-cycle-2.md",
+          "verified_at": "2026-11-23T13:18:30.070Z"
         }
       ],
-      "next_cycle": 2,
+      "next_cycle": 3,
       "started_at": "2026-11-23T13:04:30.265Z"
     }
   ],
@@ -51431,12 +51442,7 @@
       }
     }
   ],
-  "active_lease": {
-    "owner": "codex-owl-20261123T130430Z",
-    "run_id": "20261123T130430Z-cycle-2",
-    "heartbeat_at": "2026-11-23T13:18:22.844Z",
-    "expires_at": "2026-11-23T13:33:22.845Z"
-  },
+  "active_lease": null,
   "last_updated_at": "2026-11-13T06:00:16.398+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
@@ -80732,6 +80738,6 @@
   "active_species": null,
   "last_completed_cycle": 6,
   "last_verified": "2026-11-13T05:41:40.899+08:00",
-  "unique_species_count_recomputed": 196,
+  "unique_species_count_recomputed": 197,
   "unique_species_count_recomputed_basis": "2026-11-23 immutable main tree:909versioned conceptPNG/JPG paths/198rawnamekeys→195 after3 existing alias/subspecies mappings; canonical251 authority reconciliation pending; no new mauritanica credit."
 }

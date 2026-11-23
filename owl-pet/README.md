@@ -1,3 +1,6 @@
+## 2026-11-23 本批次补齐6/6 · 本次3轮
+当前归档去重195/251（本次193→195，新增#222/#223，修订#05v5）。完整251及集中科学审查未完成，未暂停生产。 [六轮原图/证据入口](production/batches/20261123T113345Z-review.md) · [账本](production/BATCH_STATE.json)。版本不重复计物种，科学校准待完成。
+
 
 ## 221-ninox-meeki-v1 VERIFIED 2026-11-23T11:53:50.878Z
 Coverage193/251. Batch20261123T113345Z 3/6. Archive2f469b3975c65c52dec22c3f917ea122c29f4e3d; verification9a8d4fc1df70d544e749ae3c56ffc0f7a31d08f9. New1; edits1. Actualfull/cropreview andremoteoriginalhash/decodeverified. PASS_WITH_LIMITATIONS/sciencefalse. [Original](design/concepts/221-ninox-meeki-v1.png), [review](research/reviews/221-ninox-meeki-v1-review.md). All251notcomplete.

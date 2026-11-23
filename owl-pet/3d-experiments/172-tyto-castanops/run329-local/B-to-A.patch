@@ -1,0 +1,45 @@
+--- sculpt.py
++++ sculpt-a.py
+@@ -18,12 +18,11 @@
+  f=blend(f,ell(s*.35,-.12,.70,.245,.29,.415),.15)
+  f=blend(f,ell(s*.23,.055,.24,.19,.21,.26),.10)
+ # two bands of irregular sculpted volume, not hair planes
+-n=gaussian_filter(rng.normal(size=f.shape).astype('float32'),1.25); n/=n.std()
+-n2=gaussian_filter(rng.normal(size=f.shape).astype('float32'),3.8); n2/=n2.std()
+-f=f+.0035*n+.005*n2
++n=(np.sin(x*41+y*17+z*33)*np.sin(y*39-z*19)+.48*np.sin(x*89-y*63+z*57)*np.sin(z*73+x*19))
++f=f+.009*n
+ v,fa,_,_=marching_cubes(f.astype('float32'),0,spacing=(step,step,step)); v+=np.array([xs[0],ys[0],zs[0]])
+ body=trimesh.Trimesh(v,fa,process=True); trimesh.repair.fix_normals(body)
+-shade=np.clip(.6+.10*rng.normal(size=len(v)),0,1)
++shade=(np.sin(v[:,0]*19+v[:,2]*27)*np.cos(v[:,1]*24)+1)*.5
+ base=np.array([222,202,174]); rgb=np.clip(base+shade[:,None]*np.array([24,30,37]),0,255)
+ body.visual.vertex_colors=np.column_stack((rgb,np.full(len(v),255))).astype('uint8')
+ # Facial surface is a hand-authored heart boundary with radial feather relief and orbital hollows.
+@@ -42,7 +41,7 @@
+  orbit=np.exp(-((np.abs(X)-.145)/.088)**2-((Z-1.285)/.088)**2)
+  Y=.446-.105*r**1.7-.038*orbit+.028*np.exp(-(X/.062)**2)*np.exp(-((Z-1.21)/.17)**2)
+  t=np.arange(N)*2*np.pi/N
+- Y+=.0012*np.sin(t*47+r*13)*r+.006*np.exp(-((r-.94)/.035)**2)
++ Y+=.0038*np.sin(t*47+r*13)*r+.006*np.exp(-((r-.94)/.035)**2)
+  fv.extend(np.column_stack((X,Y,Z)))
+  rim=np.exp(-((r-.93)/.058)**2); streak=(np.sin(t*47+r*13)+1)*.5
+  col=np.array([233,218,192])[None,:]-rim*np.array([69,76,73])[None,:]-orbit[:,None]*np.array([58,63,62])+streak[:,None]*np.array([13,13,11])
+@@ -57,7 +56,7 @@
+ pts,ids=trimesh.sample.sample_surface(body,10500,seed=172329); ns=body.face_normals[ids]
+ keep=~((pts[:,1]>.18)&(pts[:,2]>.92)&(np.abs(pts[:,0])<.385))
+ pts,ns=pts[keep],ns[keep]; tangent=np.tile([0.,-.15,-1.],(len(pts),1));tangent-=ns*(tangent*ns).sum(1)[:,None];tangent/=np.maximum(np.linalg.norm(tangent,axis=1)[:,None],1e-6)
+-side=np.cross(ns,tangent); L=rng.uniform(.027,.088,len(pts)); W=rng.uniform(.0012,.004,len(pts)); tip=pts+ns*L[:,None]*.68+tangent*L[:,None]*.75
++side=np.cross(ns,tangent); L=rng.uniform(.025,.076,len(pts)); W=rng.uniform(.002,.006,len(pts)); tip=pts+ns*L[:,None]*.68+tangent*L[:,None]*.75
+ mid=pts+ns*L[:,None]*.55+tangent*L[:,None]*.2
+ vv=np.stack([pts-ns*.004,mid+side*W[:,None],mid+ns*W[:,None],mid-side*W[:,None],tip],axis=1).reshape(-1,3)
+ ff=np.array([[0,1,2],[0,2,3],[0,3,1],[1,4,2],[2,4,3],[3,4,1]])[None,:,:]+5*np.arange(len(pts))[:,None,None]
+@@ -67,7 +66,7 @@
+  m=trimesh.creation.icosphere(subdivisions=3);m.vertices=m.vertices*np.array(s)+c;return colored(m,col)
+ parts={'body':body,'face':face,'down':down}
+ for s in [-1,1]:
+- parts[f'eye{s}']=egg([s*.145,.427,1.285],[.055,.036,.059],[31,23,17]);parts[f'iris{s}']=egg([s*.145,.452,1.285],[.040,.012,.043],[14,12,10]);parts[f'glint{s}']=egg([s*.145-.015,.463,1.303],[.008,.004,.009],[225,222,207])
++ parts[f'eye{s}']=egg([s*.145,.427,1.285],[.065,.043,.069],[31,23,17]);parts[f'iris{s}']=egg([s*.145,.463,1.285],[.045,.013,.048],[14,12,10]);parts[f'glint{s}']=egg([s*.145-.015,.475,1.305],[.008,.004,.009],[225,222,207])
+ # Beak loft: tapered hook with real cross-sections (not cone). Feet intentionally not resolved in this experiment.
+ def loft(name,sections,color):
+  verts=[];faces=[];K=24

@@ -115,7 +115,48 @@ try:
             snap(page,'rightmost_chick_uploaded.png')
             if re.search('sign in|log in|authentication required|quota exceeded',report['post_upload_text'],re.I):
                 report['account_or_quota_warning']=True
-            generate=page.get_by_role('button',name=re.compile('Generate Shape|Generate 3D|Generate',re.I))
+            generate=page.get_by_role('button',name=re.compile(r'^(Gen Shape|Gen Textured Shape|Generate Shape|Generate 3D|Generate))
+            for i in range(generate.count()):
+                if generate.nth(i).is_visible() and generate.nth(i).is_enabled():
+                    report['clicked_button']=generate.nth(i).inner_text()[:120]
+                    generate.nth(i).click(timeout=13000)
+                    report['generation_clicked']=True
+                    break
+            if not report['generation_clicked']:raise RuntimeError('NO_ENABLED_PUBLIC_GENERATE_BUTTON')
+            report['status']='PUBLIC_GENERATION_CLICKED';persist()
+            started=time.monotonic()
+            while time.monotonic()-started<210:
+                page.wait_for_timeout(9000)
+                txt=body(page)
+                report['observations'].append({'seconds':int(time.monotonic()-started),'body_tail':re.sub(r'\s+',' ',txt)[-580:],
+                    'real_file_links':len(candidate_urls(page))})
+                if get_native_from_observed(page):
+                    report['status']='GENUINE_NATIVE_GLB_ACQUIRED_UNREVIEWED'
+                    break
+                if re.search('quota exceeded|exceeded your ZeroGPU|insufficient quota|no GPU available|unauthorized|error while generating|runtime error|not enough credits',txt,re.I):
+                    report['status']='PROVIDER_QUOTA_OR_RUNTIME_ERROR'
+                    break
+            if not report['valid_native_glb'] and report['status']=='PUBLIC_GENERATION_CLICKED':
+                report['status']='PUBLIC_GENERATION_NO_NATIVE_GLB'
+            report['final_body']=body(page)[-3000:]
+            report['final_controls']=controls(page)
+            snap(page,'final_public_UI.png')
+        finally:
+            persist(); page.close();browser.close()
+except Exception as e:
+    report['error']=repr(e)
+    report['traceback']=traceback.format_exc()[-1600:]
+    if not report['valid_native_glb']:report['status']='PUBLIC_UI_BLOCKED_OR_TEST_ERROR'
+finally:
+    (OUT/'STRICT_NO_RELEASE.txt').write_text(
+      'Research only; 3D can be art-unacceptable. No release until soft down, heart face, side/back, '
+      'feet, legal rights and physical phone WebGL validated.\n',encoding='utf8')
+    report['finished_utc']=time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime())
+    persist()
+    print(json.dumps({'status':report['status'],'initial_http':report.get('initial_http'),
+      'generation_clicked':report['generation_clicked'],'native_glb':report.get('native_glb'),
+      'error':report.get('error')},ensure_ascii=False,indent=2))
+,re.I))
             for i in range(generate.count()):
                 if generate.nth(i).is_visible() and generate.nth(i).is_enabled():
                     report['clicked_button']=generate.nth(i).inner_text()[:120]

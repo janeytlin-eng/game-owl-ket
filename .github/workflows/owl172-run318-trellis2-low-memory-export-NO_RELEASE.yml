@@ -1,0 +1,87 @@
+name: "Owl172 Run318 actual official TRELLIS2 512/100k/1024 extraction - NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run318-official-trellis2-low-memory-extract-NO_RELEASE
+    paths:
+      - '.github/workflows/owl172-run318-trellis2-low-memory-export-NO_RELEASE.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  isolated-real-low-memory-attempt:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/design/concepts/172-tyto-castanops-v3.png
+            owl-pet/3d-experiments/172-tyto-castanops/run295_real_reference_cutout_preprocess_ONLY_NO_RELEASE.py
+            owl-pet/3d-experiments/172-tyto-castanops/run318_trellis2_low_resource_glb_extraction_NO_RELEASE.py
+            owl-pet/3d-experiments/172-tyto-castanops/run317b_semantic_three_view_native_GLb_NO_RELEASE.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run317b_semantic-front-negZ_viewer_NO_RELEASE.html
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install only no-fee open-source UI and 3D test dependencies
+        run: |
+          set -euo pipefail
+          python -m pip install -q --disable-pip-version-check pillow numpy opencv-python-headless trimesh playwright
+          python -m playwright install --with-deps chromium
+          python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/run318_trellis2_low_resource_glb_extraction_NO_RELEASE.py
+      - name: Rebuild untouched original concept rightmost mesoptile reference
+        run: |
+          set -euo pipefail
+          python owl-pet/3d-experiments/172-tyto-castanops/run295_real_reference_cutout_preprocess_ONLY_NO_RELEASE.py | tee reference.log
+          test "$(sha256sum owl172-run295-evidence/young-isolated-white-background-input-NO_3D.png | cut -d' ' -f1)" = 6ec346e5b02411f9509fd364db748c23a58075aeec461ef7424adcc4d893bc77
+          mkdir -p owl172-run318-evidence/reference
+          cp -r owl172-run295-evidence/. owl172-run318-evidence/reference/
+      - name: Actual official TRELLIS.2 public UI generation/extraction at reduced memory
+        timeout-minutes: 12
+        run: |
+          set -o pipefail
+          python owl-pet/3d-experiments/172-tyto-castanops/run318_trellis2_low_resource_glb_extraction_NO_RELEASE.py | tee owl172-run318-evidence/real_provider_stdout.txt
+      - name: Genuine browser WebGL2 three-view QA if model was really exported
+        if: always()
+        timeout-minutes: 5
+        run: |
+          set -uo pipefail
+          for f in owl172-run318-evidence/*UNREVIEWED-NO_RELEASE.glb; do
+            if test -s "$f"; then
+              npm install --no-save --no-audit --no-fund playwright-core@1.58.2 three@0.170.0 pngjs@7.0.0
+              node owl-pet/3d-experiments/172-tyto-castanops/run317b_semantic_three_view_native_GLb_NO_RELEASE.mjs "$f" > owl172-run318-evidence/real_webgl2_stdout.txt 2>&1 || echo 'WEBGL2_HOLD' > owl172-run318-evidence/webgl2_hold.txt
+              if test -d owl172-run317b-browser-evidence; then
+                mkdir -p owl172-run318-evidence/chromium_webgl2
+                cp -r owl172-run317b-browser-evidence/. owl172-run318-evidence/chromium_webgl2/
+              fi
+            fi
+          done
+      - name: Strict no-release and independently hash actual collected evidence
+        if: always()
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib,json
+          out=Path('owl172-run318-evidence');out.mkdir(exist_ok=True)
+          (out/'STRICT_NO_RELEASE.txt').write_text('Research only. No product claim until natural sculpt, face, wings, down, feet, multi-angle art, license, physical-phone QA ALL pass. NO_RELEASE.\n')
+          contents=sorted(p for p in out.rglob('*') if p.is_file() and p.name not in ('file_hashes.json','SHA256SUMS.txt'))
+          d=[{'path':str(p.relative_to(out)),'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in contents]
+          (out/'file_hashes.json').write_text(json.dumps(d,indent=2)+'\n')
+          (out/'SHA256SUMS.txt').write_text('\n'.join(x['sha256']+'  '+x['path'] for x in d)+'\n')
+          print('REAL_EVIDENCE_FILES',len(d),'NATIVE_GLBS',len(list(out.glob('*.glb'))))
+          PY
+          (cd owl172-run318-evidence && sha256sum -c SHA256SUMS.txt)
+      - name: Upload only independent isolated research evidence, temporary
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run318-official-low-memory-neural-extract-NO_RELEASE
+          path: owl172-run318-evidence/
+          retention-days: 14
+          if-no-files-found: warn

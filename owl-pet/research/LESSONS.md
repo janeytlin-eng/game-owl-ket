@@ -253,3 +253,6 @@ Guide-describeddarkolderjuvenilemustnotinheritadultwhitecrownandboldface. Edit1r
 
 ## 229-athene-malaitae-v1 actualiteration
 #229adultdarkirisappliedafteractualphoto, checkedfull/crop; #228yellowirisretainedcorrectlyforotherspecies. Juvenilemorecrossbarspatternactuallyvisible; guideadultlikeolderfeatheredstagepreserved, no blanketremigesremoval. Exactwinglength/flightunknownrequiresfutureprimarysource; no scientificallyvalidatedimprovementclaim.
+
+## 230-taenioptynx-sylvaticus-v1 actualiteration
+OldbroadG.brodieifemale+10gclaimcannotbeappliedtoseparatedSunda; currentsexneutralpromptactuallyapplied. Whitecollarverifiedvisibleincenteradultcrop. Primaryyoungphotosupportsformedwingandgape/headturn; unlike#226doNOTshortenallwings. Actual#226/#228/#229reviewsreusedforpattern-riskcomparison: stagesdiffer; no retroactiveblanketcorrection. PreciseSundasexsize/ageunknown; futurepreventionnotclaimedvalidated.

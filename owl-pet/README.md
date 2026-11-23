@@ -1,3 +1,6 @@
+## 2026-11-23T13:35:23.744Z 230-taenioptynx-sylvaticus-v1 VERIFIED
+Coverage200/251; batch20261123T130430Z 5/6. Archive64f481954ade1f3b3dfa3ff9129c76ad1b666902;verificationafb57d56d42f597fcae4f20da91bc2ff7c5fef96. PASS_WITH_LIMITATIONS/sciencefalse. [Original](design/concepts/230-taenioptynx-sylvaticus-v1.png), [review](research/reviews/230-taenioptynx-sylvaticus-v1-review.md). All251notcomplete.
+
 ## 2026-11-23T13:29:59.165Z 229-athene-malaitae-v1 VERIFIED
 Coverage199/251; batch20261123T130430Z 4/6. Archivec02136fa80acd3ff5475f7176ea07ab04c71cc4d;verificationf938596edd27c5616e44500aef40cd47166ba5f4. PASS_WITH_LIMITATIONS/sciencefalse. [Original](design/concepts/229-athene-malaitae-v1.png), [review](research/reviews/229-athene-malaitae-v1-review.md). All251notcomplete.
 

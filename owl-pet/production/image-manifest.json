@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T05:51:36.411Z",
+  "updated": "2026-11-23T05:57:14.860Z",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -32349,6 +32349,52 @@
       "verification_commit": "2e2ae71da05d9dadd812e9aba253c6a4af5feb81",
       "exact_readback": true,
       "credited_at": "2026-11-23T05:52:22.737Z"
+    },
+    {
+      "id": "206-glaucidium-castanopterum-v1",
+      "path": "design/concepts/206-glaucidium-castanopterum-v1.png",
+      "species_id": 206,
+      "scientific_name": "Glaucidium castanopterum",
+      "historical_names": [
+        "Taenioglaux castanoptera",
+        "Strix castanoptera"
+      ],
+      "common_name": "Javan Owlet",
+      "version": 1,
+      "action": "NEW_SPECIES_CONCEPT",
+      "unique_species_increment": 1,
+      "revision_increment": 0,
+      "status": "#206 young correctly duller and no adult-white scapular line in first image; long hard wing and crisp crown still required edit. Edited/full+cropchecked: softer rounded contour-covered wing and dull crown,olderfledgling bodyplan retained. Extra taxonomy plaque line removed. Near-equal adults because no size data. Precise young age/iris/flight/nest unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "imagegen_invocations": 2,
+      "source_ids": [
+        "GCAS-MIKKOLA-2013-P407",
+        "GCAS-ITIS-555462",
+        "GCAS-UMAM-2023-FIG5",
+        "GCAS-BECKING-2009-P35"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/206-glaucidium-castanopterum-v1.md",
+      "review_record": "research/reviews/206-glaucidium-castanopterum-v1-review.md",
+      "run_record": "production/runs/20261123T043309Z-cycle-5.md",
+      "reviewed_at": "2026-11-23T05:57:14.860Z",
+      "dimensions": "1536x1024",
+      "sha256": "767293d7842418fe249c62582366683ed8d4797e7e334bc7893cda1f46c6d317",
+      "size_bytes": 2752049,
+      "git_blob": "d8b20176a1758232ec3519e384dedd3159845df3",
+      "initial_original_path": "production/generated/206-glaucidium-castanopterum-v1-initial-original.png",
+      "initial_generated_blob": "2591e2b245b64ba722dda2880abea67fdb8e9d40",
+      "final_original_path": "production/generated/206-glaucidium-castanopterum-v1-final-original.png",
+      "edited_path": "production/generated/206-glaucidium-castanopterum-v1-edit1-original.png",
+      "reviewed_path": "production/reviewed/206-glaucidium-castanopterum-v1-reviewed-master.png",
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "ledger_credited": false,
+      "batch_id": "20261123T043309Z",
+      "batch_cycle": 5
     }
   ],
   "updated_at": "2026-11-23T04:42:06.499Z"

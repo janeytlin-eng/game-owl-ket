@@ -221,3 +221,7 @@ Problem/evidence: Rand1950p4adultmaleWHITEbreast versusrufousheadmustberegion-sp
 ## 219-otus-podarginus-v1 actual iteration
 Problem: initialyounglongadult-likewing leakedfromstyle despitecompactprompt. EvidenceEtpisonphoto hasformedbutcompactwing, Yamashina1938downlikebody. Edit1shortenedwing/reducedorganizationwhilepreservinglegitimateformedfeathers. Full+rolecropactualrecheck passedboundedconcept; feathermapunresolved. This doesnotvalidatealljuvenileshortwingrule; retrospective#216fullyfledgedwing legitimatelyretained. Nextpromptsstatewinglengthandtextureseparately; efficacyonlyverifiedfor219.
 [Review](reviews/219-otus-podarginus-v1-review.md) · [Run](../production/runs/20261123T113345Z-cycle-1.md)
+
+## 220-tyto-rosenbergii-v1 actual iteration
+Primarydevelopmentpaperoverrides2013'unknown'onlywithinphoto+studyscope. ActualFig5Cusedliveuprightdownystage; A–Bdeadposesexcluded, 8weekfledgedstatementnotassignedtoFig5. Source-dependentstagepromptpreventedadultwingleak220initial(actualfull+3rolecropchecked,zeroedits), efficacyonlythisimage. Retrospective219photoformedwingretainedandnocontradiction—do notapplyallwhiteTytoyoungruletoPalau. Nestwoodproven,decorativeliningnotinvented.
+[Review](reviews/220-tyto-rosenbergii-v1-review.md) · [Run](../production/runs/20261123T113345Z-cycle-2.md)

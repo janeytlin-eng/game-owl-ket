@@ -1,4 +1,8 @@
 
+## 220-tyto-rosenbergii-v1 VERIFIED 2026-11-23T11:46:59.292Z
+Coverage192/251. Batch20261123T113345Z 2/6. Archiveb72b31cfa6ae00b07be140a1099c8ee422d8f3e4; verification8f25335bc88cd008842cc6ebb88e12ad53880cfd. New1; edits0. Actualfull/cropreview andremoteoriginalhash/decodeverified. PASS_WITH_LIMITATIONS/sciencefalse. [Original](design/concepts/220-tyto-rosenbergii-v1.png), [review](research/reviews/220-tyto-rosenbergii-v1-review.md). All251notcomplete.
+
+
 ## 219-otus-podarginus-v1 VERIFIED 2026-11-23T11:39:34.993Z
 Coverage191/251. Batch20261123T113345Z 1/6. Archive46aa032c8a932b8610ae3b83ae670d2cc5bcb8bb; verification56883f51b56d642f81ab6fe28c0da97323f17b0b. New1; edits1. Actualfull/cropreview andremoteoriginalhash/decodeverified. PASS_WITH_LIMITATIONS/sciencefalse. [Original](design/concepts/219-otus-podarginus-v1.png), [review](research/reviews/219-otus-podarginus-v1-review.md). All251notcomplete.
 

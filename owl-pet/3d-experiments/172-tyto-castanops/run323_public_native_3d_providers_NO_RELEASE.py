@@ -14,14 +14,14 @@ WHITE = pathlib.Path("owl172-run295-evidence/young-isolated-white-background-inp
 O = pathlib.Path("owl172-run323-evidence"); O.mkdir(exist_ok=True)
 EXPECTED_WHITE_SHA="6ec346e5b02411f9509fd364db748c23a58075aeec461ef7424adcc4d893bc77"
 SITES=[
- {"id":"3dai_dev_textured","url":"https://3dai.dev/en","button":r"Generate textured 3D","max_seconds":165,
-  "intent":"Dedicated free textured 3D public web interface; one input, one attempt"},
- {"id":"3daimaker_com","url":"https://3daimaker.com/","button":r"Generate 3D Model","max_seconds":140,
-  "intent":"Advertised public free GLB generator; verify actual generation"},
- {"id":"hunyuan3d_dev","url":"https://hunyuan3d.dev/en","button":r"Generate My 3D Model","max_seconds":140,
-  "intent":"Claimed public no-cost texture-capable Hunyuan 3D host; verify output"},
+ {"id":"3dai_dev_geometry","url":"https://3dai.dev/en","button":r"Generate white 3D mesh","max_seconds":165,
+  "intent":"Service shows texture unavailable; attempt genuinely enabled free white native mesh, not a finished owl"},
+ {"id":"trellis2_dev","url":"https://trellis2.dev/","button":r"GENERATE","max_seconds":160,
+  "intent":"Independent public no-signup Trellis2 textured GLB generator; not the earlier ZeroGPU official quota"},
+ {"id":"hy3d_dev","url":"https://hy3d.dev/","button":r"GENERATE","max_seconds":150,
+  "intent":"Independent no-login Hunyuan3D geometry-only GLB fallback, not a complete textured product"},
 ]
-report={"run":323,"started_utc":time.strftime("%Y-%m-%dT%H:%M:%SZ",time.gmtime()),
+report={"run":"323b","started_utc":time.strftime("%Y-%m-%dT%H:%M:%SZ",time.gmtime()),
  "goal":"#172 Tyto castanops v3 rightmost cream-white age-unknown mesoptile chick",
  "source_original":"owl-pet/design/concepts/172-tyto-castanops-v3.png",
  "paid_usd":0,"accounts_created":False,"captcha_bypassed":False,

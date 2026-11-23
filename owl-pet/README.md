@@ -1,4 +1,7 @@
 
+## 217-otus-longicornis-v1 VERIFIED 2026-11-23T10:33:10.369Z
+Coverage189/251. Batch20261123T092806Z 5/6. Archive85e7cc014128671554660c0771bfbe36dcf4cac6;verificationadfe355a0ff302f25e96d24e81c18116cea22930. Actualedit/view andremotePNGhash/decodeverified;PASS_WITH_LIMITATIONS/sciencefalse. [Original](design/concepts/217-otus-longicornis-v1.png),[review](research/reviews/217-otus-longicornis-v1-review.md). All251notcomplete.
+
 ## 2026-11-23 #216 Otus thilohoffmanni 216-otus-thilohoffmanni-v1 VERIFIED
 Coverage188/251; batch20261123T092806Z 4/6. New1/revision0. Archive27735915fa09a39542c7ef4c57d310b3e3bfecce;verification495d80aca4faccbdf113752f809121018754fbdd. Actualimageedit/view, immutableoriginalhash/decodeverified. PASS_WITH_LIMITATIONS/sciencefalse. [Original](design/concepts/216-otus-thilohoffmanni-v1.png),[review](research/reviews/216-otus-thilohoffmanni-v1-review.md),[run](production/runs/20261123T092806Z-cycle-4.md). All251notcomplete.
 

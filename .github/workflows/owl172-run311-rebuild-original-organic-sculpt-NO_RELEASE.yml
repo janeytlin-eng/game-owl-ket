@@ -16,8 +16,12 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
-      - name: Check out isolated research branch
+      - name: Check out ONLY narrow original sculpt source (3.6GB main repo excluded)
         uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/run311b-original-continuous-sculpt-python-gzip-base64.md
 
       - name: Set up Python
         uses: actions/setup-python@v5

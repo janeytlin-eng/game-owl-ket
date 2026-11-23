@@ -1,0 +1,81 @@
+name: Owl172 Run314 native GLB Chromium WebGL2 A-B research — NO RELEASE
+on:
+  push:
+    branches:
+      - research/owl172-run314-curved-down-feather-card-AB-REJECTED-NO_RELEASE
+    paths:
+      - '.github/workflows/owl172-run314-real-browser-WebGL2-NO_RELEASE.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  isolated-browser-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Sparse checkout browser test only
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/run314-chromium-WebGL2-A-B-research-NO_RELEASE.py
+      - name: Fetch actual A/B GLBs from previous verified research run
+        uses: actions/download-artifact@v4
+        with:
+          name: owl172-run314-down-groom-AB-REJECTED-NO_RELEASE
+          run-id: 45114275944
+          github-token: \${{ github.token }}
+          path: research
+      - name: Verify actual GLB byte size, format, and SHA256
+        shell: bash
+        run: |
+          python - <<'PY'
+          import pathlib,hashlib,struct
+          data={'A':('run314_curved_down_6500_RESEARCH_ONLY_NO_RELEASE.glb',3166340,'3cd02cf3f51b5bff6df679d578a122d23fcee1f493e3fb3e4bd009071df1c53e'),
+                'B':('run314_curved_down_14000_RESEARCH_ONLY_NO_RELEASE.glb',4906580,'a47bf48ce232631b4298adb2c2dc48a519624f60baec8ae600f0a8ae3e401991')}
+          for variant,(name,size,sha) in data.items():
+            f=pathlib.Path('research')/variant/name
+            b=f.read_bytes()
+            assert b[:4]==b'glTF' and len(b)==size and struct.unpack_from('<I',b,8)[0]==size
+            assert hashlib.sha256(b).hexdigest()==sha,variant
+            print('VERIFIED genuine native GLB',variant,len(b),sha)
+          PY
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install free browser and Three.js
+        shell: bash
+        run: |
+          python -m pip install --disable-pip-version-check --no-cache-dir playwright
+          python -m playwright install --with-deps chromium
+          npm init -y
+          npm install --no-audit --no-fund three@0.180.0
+      - name: Actual Chromium WebGL2 loads, six independent 3D camera angles
+        env:
+          OWL314_BROWSER_OUT: /tmp/owl172_run314_browser
+          OWL314_HOST: http://127.0.0.1:8765
+        shell: bash
+        run: |
+          python - <<'PY'
+          import ast,pathlib
+          p=pathlib.Path('owl-pet/3d-experiments/172-tyto-castanops/run314-chromium-WebGL2-A-B-research-NO_RELEASE.py')
+          src=ast.parse(p.read_text())
+          n=next(n.value for n in src.body if isinstance(n,ast.Assign) and any(isinstance(t,ast.Name) and t.id=='HTML' for t in n.targets))
+          pathlib.Path('run314_view.html').write_text(ast.literal_eval(n))
+          PY
+          python -m http.server 8765 --bind 127.0.0.1 >/tmp/remote_server.log 2>&1 &
+          sleep 2
+          set -o pipefail
+          python owl-pet/3d-experiments/172-tyto-castanops/run314-chromium-WebGL2-A-B-research-NO_RELEASE.py | tee /tmp/browser_execution.log
+          cp /tmp/browser_execution.log /tmp/owl172_run314_browser/browser_execution.log
+          cp /tmp/remote_server.log /tmp/owl172_run314_browser/http_server.log
+      - name: Preserve only independent NO_RELEASE evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run314-browser-A-B-real-WebGL2-ART_REJECTED-NO_RELEASE
+          path: /tmp/owl172_run314_browser
+          retention-days: 14
+          if-no-files-found: warn

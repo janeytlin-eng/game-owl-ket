@@ -1,3 +1,7 @@
+
+## 2026-11-23 #213 Glaucidium tephronotum v1 VERIFIED
+Coverage185/251, new1/revision0. Batch20261123T092806Z1/6. Archive70904e313f65c1860ed10b820c1876d4d69a4599;verification11b174d841490a3d5f0efc0ae8efd2129d4746a1. Full/crops actualreview andoneedit; originalremoteexacthashdecodeverified. ConceptPASS_WITH_LIMITATIONS/sciencefalse; olderjuvenileage/subspecies/sexratio notcalibrated. [Original](design/concepts/213-glaucidium-tephronotum-v1.png),[Review](research/reviews/213-glaucidium-tephronotum-v1-review.md). All251notcomplete.
+
 ## 2026-11-23 #208 Ninox affinis 208-ninox-affinis-v2 VERIFIED
 Coverage184/251. Batch20261123T072659Z 6/6;new0/revision1. Archive34cf311e45b26b34e94f4c0e695924bf0a61a869;verification726eac3783737e777a2e64c766312e35ba3015d7. Actualfull+3rolecropreview, oneedit,remoteoriginalhash/decode verified. ConceptPASS_WITH_LIMITATIONS/sciencefalse. [Original](design/concepts/208-ninox-affinis-v2.png),[review](research/reviews/208-ninox-affinis-v2-review.md),[run](production/runs/20261123T072659Z-cycle-6.md). All251notcomplete.
 

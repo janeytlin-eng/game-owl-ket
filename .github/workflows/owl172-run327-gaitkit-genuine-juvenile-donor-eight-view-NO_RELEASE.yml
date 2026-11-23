@@ -115,7 +115,7 @@ jobs:
             run327-download.log
           retention-days: 14
           if-no-files-found: warn
-      - name: Gate: do not confuse workflow success with artistic approval
+      - name: "Gate - do not confuse workflow success with artistic approval"
         if: always()
         run: |
           python - <<'PY'

@@ -6125,3 +6125,7 @@ ReusedWSC-MEES-2006 originalinstitutionalPDF printed113–115 actuallyread, WSC-
 
 ### 2026-11-24 #136v6 retained first-year down colour
 CIN-FITZPATRICK-ONEILL-1986 actualprintedpp2–5reread; CIN-MIK2013-232 actualuploadedPDF234 (existingbook,newpagescope), CIN-ITIS-686670-2026 citedpriornotfreshbody. New0/reused3. Alltenprimaryspecimensinclfirstyearhavecinnamonbuffundercoat,notgreywhitebodydown; firstyearnearadultwithpalerheavierbarredretainedfeathers,exactage/flightunknown. SourceURLs/bibliography/specimenID/stage/limits+fullprompt [#136v6](species/136-megascops-petersoni-v6.md). Shapeandpose retained;colourcorrectionpendingoutputreview,sciencefalse.
+
+
+### 2026-11-24 #143v5 documented groundwalking variant
+ReusedFEO-LOYN-DEBUS-2000-P288-289 originaltext pp288–289 actuallyreopened; FEO-MIK2013-499 uploadedPDF501read; FEO-ITIS-1244693-2026 priornamecrosswalkretained. New0/reused3. Actualwalking/bouncingground/perchingrail observed, age/sex/flightunknown; illustrativegroundstepdesignnotliteralphotoreconstruction. Sourcebibliography/URLs/stageconflict(guideomitsknownprimaryyoung),supportboundaryandprompt [#143v5](species/143-asio-solomonensis-v5.md). No newplumageerrorestablishedinv4; intentionallybehaviourdesignrevisiontofulfillposevariety. HTTP403localPDFandundeliveredwebscreenshotexplicit,notfakephotoread. Sciencefalse.

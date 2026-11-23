@@ -1,0 +1,9 @@
+# #127 Megascops albogularis v6 review
+REVIEWED2026-11-23T21:48:28.489Z; full1536x1024+400x500youngcropopened. Oneimagegeneditfromv5; alloldversionsretained.
+- Adultshoulder: alignedwhiterow suppressed tosubduedirregularwarmmottling; whitethroat retained. Roundedtuftlesshead, darkfuscousupperparts, orangeeyesandmutedgreygreenbill coherent.
+- Mesoptile: palegrey/buffwhite replacesgoldencinnamon; finehorizontalbars nowovercrown/mantle/body, orbitaldisc/bristlesvisible, no adultshaftstreaks. Wingcompact/soft partlydowncovered, notlongadultlayers.
+- Scale: nearlyequaladultstandingheight, nofixedsexmassorheightratioclaim. Guidefemaleheavier qualitativekeptinresearch.
+- Support/action: exactly3birds, bilateralfootgrip each, branchcontinuous; youngslightleanstationary. Noegg/nest/flight claim. Cloudforestfits.
+- Typography#127androlesfit; centralstagechangedtoMESOPTILEAGEUNKNOWN toalignselectedfeatherstage.
+Limitations: juvenileiris/billcolourdevelopment/subspecies/exactage/flightthreshold/nestunknown; renderedcolourisuncalibratedreconstruction. Adultdetails variationpossible. PASS_WITH_LIMITATIONS/scientifically_verified=false, no newuserapproval. No additionaleditjustifiedbyactualinspection.
+Lessonappliedandvisuallysupported: separatelyauditadultshoulderrow andjuvenilegroundcolourratherthanacceptgenericowlpattern. Thissingleimageimprovementdoesnotvalidateallimages. DeferredO.everettinotcounted. Re-auditnextbatchrequiresitsownsourcecomparison.

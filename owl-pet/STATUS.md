@@ -1,3 +1,6 @@
+## 222-ninox-sumbaensis-v1 VERIFIED 2026-11-23T12:34:19.022Z
+Coverage194/251;batch20261123T113345Z 4/6. Archive8fd86d33a892adfb10529c59513afdfef6770aa9;verification383058928893aa0c5bba6527fec9b90c0e9f5ea6. PASS_WITH_LIMITATIONS/sciencefalse.
+
 
 ## 221-ninox-meeki-v1 VERIFIED 2026-11-23T11:53:50.878Z
 Coverage193/251. Batch20261123T113345Z 3/6. Archive2f469b3975c65c52dec22c3f917ea122c29f4e3d; verification9a8d4fc1df70d544e749ae3c56ffc0f7a31d08f9. New1; edits1. Actualfull/cropreview andremoteoriginalhash/decodeverified. PASS_WITH_LIMITATIONS/sciencefalse. [Original](design/concepts/221-ninox-meeki-v1.png), [review](research/reviews/221-ninox-meeki-v1-review.md). All251notcomplete.

@@ -229,3 +229,7 @@ Primarydevelopmentpaperoverrides2013'unknown'onlywithinphoto+studyscope. ActualF
 ## 221-ninox-meeki-v1 actual iteration
 221initialagainorganizedyounglongwing despiteolderjuvenalboundedprompt. Targetedit1shortenedcontour/softenedbladesbutexplicitlypreservedwhitishcovertbars(describedyoungnotadultmistake); full+3rolecroprecheckverifiedthatnarrowtarget. Sexdirectionconflictunevidencedresolvedneutraldisplaynotclaimedbiologicalequality. Compared219photoformedwingand220downystage—rulemustbindspecies+stage; notuniversalwingerasure. Exactyoungage/sex/colourstillpending.
 [Review](reviews/221-ninox-meeki-v1-review.md) · [Run](../production/runs/20261123T113345Z-cycle-3.md)
+
+## 222-ninox-sumbaensis-v1
+Recoveryreuseddurableinitial/prompt, oneeditshortenedoverorganizedwingwhilepreservinglegitimatefledgedfeathers; actualfull/3rolecroprecheckpassedboundedconcept. New2009sourceconfirmsmobilebeggingstagebutsame2001observationnotindependent. Do nottransferN.rudolfisexdirectiondiscussionorspeciesspecific#221whitecovertbars. Promptapplicationverifiedforthisimageonly, exactage/geometryunknown.
+[Review](reviews/222-ninox-sumbaensis-v1-review.md)

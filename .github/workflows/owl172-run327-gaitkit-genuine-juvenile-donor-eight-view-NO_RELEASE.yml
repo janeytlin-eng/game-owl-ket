@@ -101,7 +101,7 @@ jobs:
           cp -f owl172-run327-evidence/run327-actual-8view-WebGL2-JUVENILE-DONOR-NOT-OWL.jpg "$E/" || true
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- "$E"
+          git add --sparse -f -- "$E"
           if ! git diff --cached --quiet; then
             git commit -m "research(#172 run327): archive real juvenile donor evidence with NO_RELEASE"
             git push origin HEAD:research/owl172-run327-no-fee-true-juvenile-donor-geometry-QA-NO_RELEASE
@@ -124,4 +124,6 @@ jobs:
           s=json.load(open(p))
           assert s['model_of_target'] is False and s['art_approved'] is False and s['release'] is False
           print('NO_RELEASE and wrong-species gate enforced')
+          if s['native_source_step'] != 'success' or not s.get('actual_webgl2_load') or len(s.get('actual_views',[])) != 8:
+            raise SystemExit('RUN327_DIAGNOSTIC_NOT_MODEL_SUCCESS: genuine source or actual browser 8-view unavailable; archive retained')
           PY

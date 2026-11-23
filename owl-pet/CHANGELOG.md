@@ -1896,3 +1896,7 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 - Preserved v1–v3; restored the narrow chest band and patterned brown flanks omitted by v3.
 - Retained the directly evidenced age-unknown dark fluffy juvenile with full natural root support; edit0; PASS_WITH_LIMITATIONS; science=false.
 - Unique species remains 176/251; revision +1. Research: `research/species/165-ninox-punctulata-v4.md`; review: `research/reviews/165-ninox-punctulata-v4-review.md`; run: `production/runs/20261112T223100+0800-cycle-4.md`.
+
+## 2026-11-23 #208 Ninox affinis v1 VERIFIED
+Coverage180/251 by current taxon-name de-duplication (192 numbered IDs, 12 duplicate-pair reductions). Batch20261123T072659Z1/6,next2. New1/revision0. Archive1fd6dfe81e92d66e5f9edf75e73919fe8171fb33;verification81e872d175af2b742f36a9100b94977c25eefa24. One imagegen edit/full+3role crop montage rechecked;concept PASS_WITH_LIMITATIONS,sciencefalse. Remote original PNG/hash/bytes verified;5new sources persisted. Bill colour conflict, sex-size, young precise age/iris/flight/nest unknown. [Original](design/concepts/208-ninox-affinis-v1.png),[review](research/reviews/208-ninox-affinis-v1-review.md),[run](production/runs/20261123T072659Z-cycle-1.md). All251 production notcomplete/notpaused.
+

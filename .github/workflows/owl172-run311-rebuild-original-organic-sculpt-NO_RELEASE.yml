@@ -1,0 +1,97 @@
+name: owl172 Run311b original organic sculpt reproduction and six 3D angles — STRICT NO RELEASE
+
+on:
+  push:
+    branches:
+      - research/owl172-run311-original-organic-sculpt-sixview-ART_REJECTED-NO_RELEASE
+    paths:
+      - '.github/workflows/owl172-run311-rebuild-original-organic-sculpt-NO_RELEASE.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  standalone-art-rejected-research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out isolated research branch
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install zero-paid original 3D and software rendering dependencies
+        run: |
+          python -m pip install --disable-pip-version-check --no-cache-dir numpy scipy scikit-image trimesh vtk pillow
+
+      - name: Restore exact audited Python sculpt source
+        shell: bash
+        run: |
+          python - <<'PY'
+          import re,base64,gzip,hashlib,pathlib
+          path=pathlib.Path('owl-pet/3d-experiments/172-tyto-castanops/run311b-original-continuous-sculpt-python-gzip-base64.md')
+          src=path.read_text()
+          m=re.search(r'```base64\s+([A-Za-z0-9+/=\s]+?)\s+```',src,re.S)
+          if not m: raise SystemExit('FAIL: source transport not found')
+          py=gzip.decompress(base64.b64decode(''.join(m.group(1).split())))
+          digest=hashlib.sha256(py).hexdigest()
+          print('Source bytes',len(py),'sha256',digest)
+          if len(py)!=13008 or digest!='9e630af2b50b86709cbbf878a41b6e8a8beb45de97c1453902f98699aa56ecf5':
+            raise SystemExit('FAIL: source SHA/size mismatch')
+          pathlib.Path('sculpt_run311b.py').write_bytes(py)
+          PY
+          python -m py_compile sculpt_run311b.py
+
+      - name: Actually generate native GLB and six software 3D views
+        shell: bash
+        env:
+          OWL_OUT: /tmp/owl172_run311b_evidence
+        run: |
+          mkdir -p "$OWL_OUT"
+          set -o pipefail
+          python sculpt_run311b.py 2>&1 | tee "$OWL_OUT/execution.log"
+          cp sculpt_run311b.py "$OWL_OUT/reproduced_source.py"
+
+      - name: Independently re-import and gate native evidence (NOT art acceptance)
+        shell: bash
+        env:
+          OWL_OUT: /tmp/owl172_run311b_evidence
+        run: |
+          python - <<'PY'
+          import os,json,hashlib,pathlib
+          import trimesh
+          from PIL import Image
+          root=pathlib.Path(os.environ['OWL_OUT'])
+          p=root/'owl172_run311b_original_sculpt_RESEARCH_ONLY.glb'
+          assert p.stat().st_size>100_000,'no native GLB'
+          s=trimesh.load(str(p),force='scene',process=False)
+          t=sum(len(x.faces) for x in s.geometry.values())
+          assert len(s.geometry)>1 and t>10000,(len(s.geometry),t)
+          ims=[]
+          for label in ['front','front_3q','right','back_3q','back','left']:
+            f=root/f'view_{label}.png'
+            with Image.open(f) as im: assert im.size==(600,700),im.size
+            ims.append(hashlib.sha256(f.read_bytes()).hexdigest())
+          assert len(set(ims))==6,'camera views identical'
+          report={'status':'NATIVE_GLB_PASS_SIX_3D_VIEWS_PASS_ART_REJECTED_NO_RELEASE',
+            'sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'bytes':p.stat().st_size,
+            'geometry_groups':len(s.geometry),'triangle_count':t,'six_unique_3d_views':True,
+            'browser_webgl2':'NOT_TESTED','physical_phone':'NOT_TESTED',
+            'soft_down_realism':'REJECTED','heart_disc_professional_sculpt':'REJECTED',
+            'asset_provenance':'original continuous organic sculpt, no donor mesh','spend_usd':0,'release':False}
+          (root/'remote_evidence_gate.json').write_text(json.dumps(report,indent=2))
+          print(json.dumps(report,indent=2))
+          PY
+
+      - name: Archive research only; no deployment or production write
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run311b-original-sculpt-ART_REJECTED-NO_RELEASE
+          path: /tmp/owl172_run311b_evidence
+          retention-days: 14
+          if-no-files-found: warn

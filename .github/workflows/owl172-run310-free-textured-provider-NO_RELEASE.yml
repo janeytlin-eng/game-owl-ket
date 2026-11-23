@@ -1,0 +1,116 @@
+name: "owl172 Run310 real free Paint3D native texture generation attempt STRICT NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run310-paint3d-free-textured-real-browser-NO_RELEASE
+    paths:
+      - '.github/workflows/owl172-run310-free-textured-provider-NO_RELEASE.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run310_paint3d_actual_free_textured_generation_NO_RELEASE.mjs'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  independent_research_only:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 19
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/design/concepts/172-tyto-castanops-v3.png
+            owl-pet/3d-experiments/172-tyto-castanops/run295_real_reference_cutout_preprocess_ONLY_NO_RELEASE.py
+            owl-pet/3d-experiments/172-tyto-castanops/run310_paint3d_actual_free_textured_generation_NO_RELEASE.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run292_real_browser_glb_test_NO_RELEASE.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run292_browser_viewer_uncropped_NO_RELEASE.html
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Strict original target reconstruction and SHA verification
+        run: |
+          set -euo pipefail
+          python -m pip install -q Pillow numpy opencv-python-headless trimesh
+          python owl-pet/3d-experiments/172-tyto-castanops/run295_real_reference_cutout_preprocess_ONLY_NO_RELEASE.py > run310-source-log.txt
+          cp owl172-run295-evidence/young-isolated-white-background-input-NO_3D.png owl172-rightmost-mesoptile-source.png
+          test "$(sha256sum owl172-rightmost-mesoptile-source.png | cut -d' ' -f1)" = 6ec346e5b02411f9509fd364db748c23a58075aeec461ef7424adcc4d893bc77
+          mkdir -p owl172-run310-evidence/reference
+          cp owl172-rightmost-mesoptile-source.png owl172-run310-evidence/reference/
+          cp run310-source-log.txt owl172-run310-evidence/
+      - name: Actual no-payment browser upload and normal provider generation
+        env:
+          CHROME_BIN: /usr/bin/google-chrome
+        timeout-minutes: 11
+        run: |
+          set -euo pipefail
+          npm install --no-save --no-audit --no-fund playwright-core@1.58.2 three@0.170.0 pngjs@7.0.0
+          node --check owl-pet/3d-experiments/172-tyto-castanops/run310_paint3d_actual_free_textured_generation_NO_RELEASE.mjs
+          node owl-pet/3d-experiments/172-tyto-castanops/run310_paint3d_actual_free_textured_generation_NO_RELEASE.mjs | tee owl172-run310-evidence/browser-stdout.txt
+      - name: Independent original native GLB validation and three-camera smoke test, only if acquired
+        if: always()
+        timeout-minutes: 5
+        env:
+          CHROME_BIN: /usr/bin/google-chrome
+        run: |
+          mkdir -p owl172-run310-evidence
+          python - <<'PY'
+          import hashlib,json,struct
+          from pathlib import Path
+          p=Path('owl172-run310-evidence')
+          r={'run':310,'native_models':[],'art_pass':False,'source_rights_cleared':False,
+             'physical_mobile_webgl_pass':False,'additional_paid_usd':0,'release':False}
+          for f in p.rglob('native-UNAPPROVED-source.glb'):
+              out={'path':str(f),'bytes':f.stat().st_size,'sha256':hashlib.sha256(f.read_bytes()).hexdigest()}
+              try:
+                  import trimesh
+                  with f.open('rb') as b:
+                      header=b.read(12)
+                  assert header[:4]==b'glTF' and struct.unpack('<II',header[4:])==(2,f.stat().st_size)
+                  scene=trimesh.load(f,force='scene',process=False)
+                  out['geometry_count']=len(scene.geometry)
+                  out['triangles']=sum(len(mesh.faces) for mesh in scene.geometry.values())
+                  out['visual_kinds']=[mesh.visual.kind for mesh in scene.geometry.values()]
+                  out['nonempty_geometry']=out['triangles']>1000
+              except Exception as ex:
+                  out['validation_error']=str(ex)
+              r['native_models'].append(out)
+          (p/'independent_model_gate.json').write_text(json.dumps(r,indent=2))
+          print(json.dumps(r,indent=2))
+          PY
+          src=owl172-run310-evidence/paint-3d-dev/native-UNAPPROVED-source.glb
+          if test -s "$src" && test -d node_modules; then
+            node owl-pet/3d-experiments/172-tyto-castanops/run292_real_browser_glb_test_NO_RELEASE.mjs "$src" >owl172-run310-evidence/tech-browser-qa.txt 2>&1 || echo "WEBGL2_HOLD" >owl172-run310-evidence/WEBGL2_HOLD.flag
+            if test -d owl172-run292-browser-evidence; then
+              mkdir -p owl172-run310-evidence/tech-browser
+              cp -r owl172-run292-browser-evidence/. owl172-run310-evidence/tech-browser/
+            fi
+          fi
+      - name: Immutable evidence integrity and explicit art rejection until independently reviewed
+        if: always()
+        run: |
+          mkdir -p owl172-run310-evidence
+          python - <<'PY'
+          import hashlib,json
+          from pathlib import Path
+          p=Path('owl172-run310-evidence')
+          docs=list(p.rglob('native-UNAPPROVED-source.glb'))
+          v={'run':310,'actual_native_glb_count':len(docs),'separate_branch':True,
+             'art_approved':False,'natural_down_approved':False,'side_back_anatomy_approved':False,
+             'character_rights_verified':False,'physical_phone_tested':False,
+             'additional_paid_usd':0,'release':False}
+          (p/'STRICT_NO_RELEASE.json').write_text(json.dumps(v,indent=2))
+          hashes=[hashlib.sha256(f.read_bytes()).hexdigest()+'  '+str(f.relative_to(p))
+                   for f in sorted(p.rglob('*')) if f.is_file() and f.name!='SHA256SUMS.txt']
+          (p/'SHA256SUMS.txt').write_text('\n'.join(hashes)+'\n')
+          print('Evidence files:',len(hashes),'Native models:',len(docs))
+          PY
+          (cd owl172-run310-evidence && sha256sum -c SHA256SUMS.txt)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run310-actual-zero-extra-paid-3D-provider-investigation-NO_RELEASE
+          path: owl172-run310-evidence/
+          retention-days: 14
+          if-no-files-found: warn

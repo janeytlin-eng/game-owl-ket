@@ -1,3 +1,6 @@
+## 2026-11-23T13:25:39.034Z 228-athene-granti-v1 VERIFIED
+Coverage198/251; batch20261123T130430Z 3/6. Archive84a7799a92304c8081dc0684fc6f4d616c0f24e1;verificationffe2555d88ea8a5e03f1c05ac93103cca0cb0a8b. PASS_WITH_LIMITATIONS/sciencefalse. [Original](design/concepts/228-athene-granti-v1.png), [review](research/reviews/228-athene-granti-v1-review.md). All251notcomplete.
+
 ## 2026-11-23 本批次补齐6/6 · 本次3轮
 当前归档去重195/251（本次193→195，新增#222/#223，修订#05v5）。完整251及集中科学审查未完成，未暂停生产。 [六轮原图/证据入口](production/batches/20261123T113345Z-review.md) · [账本](production/BATCH_STATE.json)。版本不重复计物种，科学校准待完成。
 

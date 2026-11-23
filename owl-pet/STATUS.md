@@ -1,3 +1,6 @@
+## 2026-11-23T13:25:39.034Z 228-athene-granti-v1 VERIFIED
+Coverage198/251; batch20261123T130430Z 3/6. Archive84a7799a92304c8081dc0684fc6f4d616c0f24e1;verificationffe2555d88ea8a5e03f1c05ac93103cca0cb0a8b. PASS_WITH_LIMITATIONS/sciencefalse. [Original](design/concepts/228-athene-granti-v1.png), [review](research/reviews/228-athene-granti-v1-review.md). All251notcomplete.
+
 ## #225 Otus socotranus v1 VERIFIED 2026-11-23T13:10:45.703Z
 Coverage196/251; batch20261123T130430Z1/6,next2. Archivee9801abcd5f2db89caf707aa2e0df89fa628fad2;verification728618bf6266bc1b3f1c58e0411474ce5431ce0a. New1/edits1/sciencefalse. [Image](design/concepts/225-otus-socotranus-v1.png).
 

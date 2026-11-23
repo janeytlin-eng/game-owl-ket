@@ -1904,3 +1904,7 @@ Coverage180/251 by current taxon-name de-duplication (192 numbered IDs, 12 dupli
 ## 2026-11-23 #209 Glaucidium minutissimum v1 VERIFIED
 Coverage181/251 by taxon-name deduplication. Batch20261123T072659Z 2/6,next3. New1/revision0;archive4e8225b2d5b2a64a39518039b8138e13727518f3;verification85e5586b01f78c84e935ba8e6cb6370bab8a990e. Full+3role crop montage actuallyviewed;edits2;PASS_WITH_LIMITATIONS/sciencefalse. RemotePNG/hash verified;research sourceindex persisted. [Original](design/concepts/209-glaucidium-minutissimum-v1.png),[review](research/reviews/209-glaucidium-minutissimum-v1-review.md),[run](production/runs/20261123T072659Z-cycle-2.md). Full251notcomplete/notpaused.
 
+
+## 2026-11-23 #210 Athene superciliaris v1 VERIFIED
+Coverage182/251 by taxon-name deduplication. Batch20261123T072659Z 3/6,next4. New1/revision0;archive0311d5ae53986fed6841350040dd26643e6aa3be;verification0c2efd0b3367419bbbdb16132b6742a0bbd76d28. Full+3role crop montage actuallyviewed;edits1;PASS_WITH_LIMITATIONS/sciencefalse. RemotePNG/hash verified;research sourceindex persisted. [Original](design/concepts/210-athene-superciliaris-v1.png),[review](research/reviews/210-athene-superciliaris-v1-review.md),[run](production/runs/20261123T072659Z-cycle-3.md). Full251notcomplete/notpaused.
+

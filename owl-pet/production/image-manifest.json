@@ -32596,11 +32596,16 @@
       "initial_generated_blob": "aff480eaa7456923194838e4b60d9b8b85c7915b",
       "final_original_path": "production/generated/210-athene-superciliaris-v1-final-original.png",
       "reviewed_path": "production/reviewed/210-athene-superciliaris-v1-reviewed-master.png",
-      "archive_commit_pending": true,
-      "readback_pending": true,
-      "ledger_credited": false,
+      "archive_commit_pending": false,
+      "readback_pending": false,
+      "ledger_credited": true,
       "batch_id": "20261123T072659Z",
-      "batch_cycle": 3
+      "batch_cycle": 3,
+      "archive_commit": "0311d5ae53986fed6841350040dd26643e6aa3be",
+      "archive_tree": "03932abd19d3dea9c900193b5505d889bf95dbdb",
+      "exact_readback": true,
+      "verification_commit": "0c2efd0b3367419bbbdb16132b6742a0bbd76d28",
+      "credited_at": "2026-11-23T07:51:59.208Z"
     }
   ],
   "updated_at": "2026-11-23T07:51:17.191Z"

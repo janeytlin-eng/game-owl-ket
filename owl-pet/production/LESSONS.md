@@ -181,3 +181,7 @@ Observed4exportedplates215–218 lackedvisiblepending-scientificstatus while sid
 
 ## 20261123T1830Z #203 annotation audit
 Problem: external juvenile observations can belong to another subspecies even when species synonyms match. ITIS686674 and Perez-Martinez2021 confirm CostaRica vermiculatus context; existing203 is nominate. Applied no colour transfer; explicit nominate/juvenile-colour uncertainty note plus scientific-pending footer. Actual full/youngcrop verified labels/support and no actionable morphology drift. Validated annotation readability on203 only; biology remains unknown. Earlier215–218 already labelled, not regenerated.
+
+
+## 20261123T1830Z actual six-cycle audit
+#204 primary1904p106 independently supports narrower/fewer juvenilebreastbars but sourceconflict remains. First edit introduced longhardyoungwing; correctiveedit/nativecrop verified boundedcompactwing. Do not call fieldrecord tentativeyoung or museum singleseries universalstage. ITISsynonym preventsnew-species doublecount. #207 ABSAolderjuvenileformedwing retained. Fiveannotation-only revisions improve exporteduncertainty labels, not biology. New missing-speciesproduction stillprimarygoal; closeboundedannotationqueue and do not repeat alreadylabelledplates. Primaryoldpapernewpage is not newdocument; indexdedupcorrected. Actual ruleefficacy limited to reviewed6plates; no globalclaim.

@@ -1908,3 +1908,7 @@ Coverage181/251 by taxon-name deduplication. Batch20261123T072659Z 2/6,next3. Ne
 ## 2026-11-23 #210 Athene superciliaris v1 VERIFIED
 Coverage182/251 by taxon-name deduplication. Batch20261123T072659Z 3/6,next4. New1/revision0;archive0311d5ae53986fed6841350040dd26643e6aa3be;verification0c2efd0b3367419bbbdb16132b6742a0bbd76d28. Full+3role crop montage actuallyviewed;edits1;PASS_WITH_LIMITATIONS/sciencefalse. RemotePNG/hash verified;research sourceindex persisted. [Original](design/concepts/210-athene-superciliaris-v1.png),[review](research/reviews/210-athene-superciliaris-v1-review.md),[run](production/runs/20261123T072659Z-cycle-3.md). Full251notcomplete/notpaused.
 
+
+## 2026-11-23 #211 Megascops roboratus v1 VERIFIED
+Coverage183/251 by taxon-name deduplication. Batch20261123T072659Z 4/6,next5. New1/revision0;archivefdd62cb40f50afd820d00520b0995bcad3522a3b;verificationdcfac0e69d1d42b9f3271a7fa42840b96ec213cf. Full+3role crop montage actuallyviewed;edits1;PASS_WITH_LIMITATIONS/sciencefalse. RemotePNG/hash verified;research sourceindex persisted. [Original](design/concepts/211-megascops-roboratus-v1.png),[review](research/reviews/211-megascops-roboratus-v1-review.md),[run](production/runs/20261123T072659Z-cycle-4.md). Full251notcomplete/notpaused.
+

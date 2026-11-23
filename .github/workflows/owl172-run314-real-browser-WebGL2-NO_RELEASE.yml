@@ -8,70 +8,95 @@ on:
   workflow_dispatch:
 permissions:
   contents: read
-  actions: read
 jobs:
   isolated-browser-test:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
     steps:
-      - name: Sparse checkout browser test only
+      - name: Narrow source checkout without the large production repo
         uses: actions/checkout@v4
         with:
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             owl-pet/3d-experiments/172-tyto-castanops/run314-chromium-WebGL2-A-B-research-NO_RELEASE.py
-      - name: Fetch actual A/B GLBs from previous verified research run
-        uses: actions/download-artifact@v4
-        with:
-          name: owl172-run314-down-groom-AB-REJECTED-NO_RELEASE
-          run-id: 45114275944
-          github-token: ${{ github.token }}
-          path: research
-      - name: Verify actual GLB byte size, format, and SHA256
-        shell: bash
-        run: |
-          python - <<'PY'
-          import pathlib,hashlib,struct
-          data={'A':('run314_curved_down_6500_RESEARCH_ONLY_NO_RELEASE.glb',3166340,'3cd02cf3f51b5bff6df679d578a122d23fcee1f493e3fb3e4bd009071df1c53e'),
-                'B':('run314_curved_down_14000_RESEARCH_ONLY_NO_RELEASE.glb',4906580,'a47bf48ce232631b4298adb2c2dc48a519624f60baec8ae600f0a8ae3e401991')}
-          for variant,(name,size,sha) in data.items():
-            f=pathlib.Path('research')/variant/name
-            b=f.read_bytes()
-            assert b[:4]==b'glTF' and len(b)==size and struct.unpack_from('<I',b,8)[0]==size
-            assert hashlib.sha256(b).hexdigest()==sha,variant
-            print('VERIFIED genuine native GLB',variant,len(b),sha)
-          PY
-      - name: Python
+            owl-pet/3d-experiments/172-tyto-castanops/run311b-original-continuous-sculpt-python-gzip-base64.md
+            owl-pet/3d-experiments/172-tyto-castanops/run314-exact-curved-down-card-source-gzip-base64.md
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Install free browser and Three.js
+      - name: Install zero paid modeler, VTK virtual display, Chromium, and Three.js
         shell: bash
         run: |
-          python -m pip install --disable-pip-version-check --no-cache-dir playwright
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libosmesa6 libegl1 libgl1-mesa-dri xvfb
+          python -m pip install --disable-pip-version-check --no-cache-dir numpy scipy scikit-image trimesh vtk pillow playwright
           python -m playwright install --with-deps chromium
           npm init -y
           npm install --no-audit --no-fund three@0.180.0
-      - name: Actual Chromium WebGL2 loads, six independent 3D camera angles
+      - name: Recover previously audited exact original source and SHA gate
+        shell: bash
+        run: |
+          python - <<'PY'
+          import pathlib,re,gzip,base64,hashlib
+          folder=pathlib.Path('owl-pet/3d-experiments/172-tyto-castanops')
+          jobs=[('run311b-original-continuous-sculpt-python-gzip-base64.md','sculpt_run311b.py',13008,'9e630af2b50b86709cbbf878a41b6e8a8beb45de97c1453902f98699aa56ecf5'),
+                ('run314-exact-curved-down-card-source-gzip-base64.md','groom_A.py',5656,'e4b46fa8a178146dabfd6145a4a565aab3e95bd37a394e8e340b8ae195c51e9c')]
+          for md,py,sz,sha in jobs:
+            m=re.search(r'(?s)\x60\x60\x60base64\s+([A-Za-z0-9+/=\s]+?)\s+\x60\x60\x60',(folder/md).read_text())
+            assert m,md
+            b=gzip.decompress(base64.b64decode(''.join(m.group(1).split())))
+            assert len(b)==sz and hashlib.sha256(b).hexdigest()==sha,md
+            pathlib.Path(py).write_bytes(b)
+            print('Verified exact original source',py,sz,sha)
+          PY
+          python -m py_compile sculpt_run311b.py groom_A.py
+      - name: Actually reproduce original rejected 3D mesh and both newly groomed research GLBs
+        shell: bash
+        env:
+          OWL_OUT: /tmp/owl172_run314_browser_base
+        run: |
+          set -o pipefail
+          mkdir -p "$OWL_OUT" research/A research/B
+          xvfb-run -a -s "-screen 0 1280x1024x24" python sculpt_run311b.py 2>&1 | tee /tmp/rebuild.log
+          python groom_A.py --src "$OWL_OUT/owl172_run311b_original_sculpt_RESEARCH_ONLY.glb" --count 6500 --out research/A | tee /tmp/groomA.log
+          cp groom_A.py groom_B.py
+          sed -i 's/length_factor=.026, width_factor=.0035/length_factor=.05, width_factor=.007/' groom_B.py
+          sed -i 's/np.clip(a\*178/np.clip(a*230/' groom_B.py
+          python groom_B.py --src "$OWL_OUT/owl172_run311b_original_sculpt_RESEARCH_ONLY.glb" --count 14000 --out research/B | tee /tmp/groomB.log
+      - name: Independently reimport both genuine GLBs before Chromium
+        shell: bash
+        run: |
+          python - <<'PY'
+          import pathlib,hashlib,trimesh
+          for v,count in [('A',6500),('B',14000)]:
+            f=pathlib.Path('research')/v/f'run314_curved_down_{count}_RESEARCH_ONLY_NO_RELEASE.glb'
+            b=f.read_bytes();assert b[:4]==b'glTF' and len(b)>1000000
+            s=trimesh.load(f,force='scene',process=False)
+            tris=sum(len(g.faces) for g in s.geometry.values())
+            assert len(s.geometry)>=27 and tris>80000,(v,len(s.geometry),tris)
+            print('NATIVE',v,len(b),hashlib.sha256(b).hexdigest(),len(s.geometry),tris)
+          PY
+      - name: Actual Chromium WebGL2 loader and six different spatial angles
+        shell: bash
         env:
           OWL314_BROWSER_OUT: /tmp/owl172_run314_browser
           OWL314_HOST: http://127.0.0.1:8765
-        shell: bash
         run: |
           python - <<'PY'
           import ast,pathlib
           p=pathlib.Path('owl-pet/3d-experiments/172-tyto-castanops/run314-chromium-WebGL2-A-B-research-NO_RELEASE.py')
-          src=ast.parse(p.read_text())
-          n=next(n.value for n in src.body if isinstance(n,ast.Assign) and any(isinstance(t,ast.Name) and t.id=='HTML' for t in n.targets))
+          m=ast.parse(p.read_text())
+          n=next(x.value for x in m.body if isinstance(x,ast.Assign) and any(isinstance(t,ast.Name) and t.id=='HTML' for t in x.targets))
           pathlib.Path('run314_view.html').write_text(ast.literal_eval(n))
           PY
-          python -m http.server 8765 --bind 127.0.0.1 >/tmp/remote_server.log 2>&1 &
+          python -m http.server 8765 --bind 127.0.0.1 >/tmp/http_server.log 2>&1 &
           sleep 2
           set -o pipefail
           python owl-pet/3d-experiments/172-tyto-castanops/run314-chromium-WebGL2-A-B-research-NO_RELEASE.py | tee /tmp/browser_execution.log
           cp /tmp/browser_execution.log /tmp/owl172_run314_browser/browser_execution.log
-          cp /tmp/remote_server.log /tmp/owl172_run314_browser/http_server.log
-      - name: Preserve only independent NO_RELEASE evidence
+          cp /tmp/http_server.log /tmp/owl172_run314_browser/http_server.log
+      - name: Archive only non-released browser research screenshots and actual diagnostics
         if: always()
         uses: actions/upload-artifact@v4
         with:

@@ -5,6 +5,7 @@ on:
       - research/owl172-run319-hunyuan-mini-turbo-public-free-3d-NO_RELEASE
     paths:
       - '.github/workflows/owl172-run319-public-hunyuan-mini-NO_RELEASE.yml'
+      - 'owl-pet/3d-experiments/172-tyto-castanops/run319_hunyuan_mini_turbo_PUBLIC_UI_NATIVE_3D_NO_RELEASE.py'
   workflow_dispatch:
 permissions:
   contents: read

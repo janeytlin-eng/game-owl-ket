@@ -44,7 +44,7 @@ try{
      const body=(await page.locator('body').innerText({timeout:10000}).catch(()=>''))||'';
      item.visible_text_excerpt=body.replace(/\s+/g,' ').slice(0,1400);
      const lower=body.toLowerCase(),lowerurl=page.url().toLowerCase();
-     item.sign_in_gate=/sign in to download|log in to download|login to download|sign in|create account/.test(lower)||/sign_in|login/.test(lowerurl);
+     item.sign_in_gate=/sign in to download|log in to download|login to download|sign in to upload|create account to download/.test(lower)||/sign_in|login/.test(lowerurl);
      item.pro_gate=(s.id==='gaitkit-eaglet'&&/pro download/i.test(body));
      item.catalogue_free_label=/free|無料|¥\s*0/.test(lower);
      item.claimed_young_stage=/baby|chick|雛|ヒナ|kid|sculpt/.test(lower);
@@ -92,7 +92,7 @@ try{
              await page.waitForTimeout(2000);
              item.after_click_url=page.url();
              const text=await page.locator('body').innerText().catch(()=>'');
-             item.after_click_sign_in=/sign in|sign up|login|log in|ログイン|アカウント/.test(text.toLowerCase())||/sign_in|login/i.test(page.url());
+             item.after_click_sign_in=/sign.?in to download|sign.?up to download|log.?in to download|to download.+sign.?in/i.test(text)||/sign_in|login|\/users\/sign_in/i.test(page.url());
              item.after_click_preview=text.replace(/\s+/g,' ').slice(0,900);
            }
            if(!item.downloaded_native_asset && page.url()===before && !item.after_click_sign_in)item.free_click_no_download=true;
@@ -111,12 +111,12 @@ try{
  }
 }finally{
  if(browser)await browser.close();
- const files=fs.readdirSync(out).filter(x=>!x.endsWith('.json')&&!x.endsWith('SHA256SUMS.txt'));
+ const files=fs.readdirSync(out).filter(x=>fs.statSync(path.join(out,x)).isFile()&&!x.endsWith('.json')&&!x.endsWith('SHA256SUMS.txt'));
  report.saved_evidence_files=files;
  report.native_asset_count=report.sources.filter(s=>s.downloaded_native_asset).length;
  report.quality_gate='NO NEW MODEL IS ART APPROVED; any actual binary must be inspected separately in native 3D from 3 directions, and rights and mobile WebGL independently tested';
  fs.writeFileSync(path.join(out,'run310-source-access-results-NO_RELEASE.json'),JSON.stringify(report,null,2));
- const sums=fs.readdirSync(out).filter(f=>f!=='SHA256SUMS.txt').sort()
+ const sums=fs.readdirSync(out).filter(f=>fs.statSync(path.join(out,f)).isFile()&&f!=='SHA256SUMS.txt').sort()
    .map(f=>sha(fs.readFileSync(path.join(out,f)))+'  '+f).join('\n')+'\n';
  fs.writeFileSync(path.join(out,'SHA256SUMS.txt'),sums);
  console.log(JSON.stringify(report,null,2));

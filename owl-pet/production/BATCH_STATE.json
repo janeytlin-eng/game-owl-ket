@@ -51346,9 +51346,16 @@
           "commit_sha": "a2542d05bf512f3e2c3506c613a7ac1bf9533a92",
           "run_record": "owl-pet/production/runs/20261123T143039Z-cycle-2.md",
           "verified_at": "2026-11-23T14:39:13.996Z"
+        },
+        {
+          "cycle": 3,
+          "species": "Bubo capensis",
+          "commit_sha": "fa885bf596da8c6fa45eed0f2a426491f6bfc6a5",
+          "run_record": "owl-pet/production/runs/20261123T143039Z-cycle-3.md",
+          "verified_at": "2026-11-23T14:42:13.310Z"
         }
       ],
-      "next_cycle": 3,
+      "next_cycle": 4,
       "started_at": "2026-11-23T14:30:39.626Z"
     }
   ],
@@ -51514,8 +51521,8 @@
   "active_lease": {
     "owner": "owl-prototype-production",
     "run_id": "20261123T143039Z",
-    "heartbeat_at": "2026-11-23T14:39:13.996Z",
-    "expires_at": "2026-11-23T14:54:13.996Z"
+    "heartbeat_at": "2026-11-23T14:42:13.310Z",
+    "expires_at": "2026-11-23T14:57:13.310Z"
   },
   "last_updated_at": "2026-11-13T06:00:16.398+08:00",
   "audit_notes": [
@@ -58900,9 +58907,9 @@
     }
   ],
   "active_batch_id": "20261123T143039Z",
-  "active_cycle": 3,
+  "active_cycle": 4,
   "current_stage": "STARTED",
-  "next_cycle": 3,
+  "next_cycle": 4,
   "unique_species_count": 202,
   "total_species": 251,
   "stage_events": [

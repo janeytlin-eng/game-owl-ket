@@ -5980,3 +5980,23 @@ WallacePDF403 local and web screenshot failure; BHL403; original resolved via Bi
 
 
 [Species and prompt](species/234-otus-sulaensis-v1.md) · [concept](../design/concepts/234-otus-sulaensis-v1.png) · [review](reviews/234-otus-sulaensis-v1-review.md)
+
+
+## 20261123T1640Z-cycle-2 / Megascops hoyi v5 and missing-species discovery
+
+- HOY-MIK2013-228 shared uploaded Mikkola2013 printed228/PDF230 actually read this run. Fledged young resemblesadult but fluffy/no visible tufts; no exact age, juvenile eye/bill chronology or flight threshold given. Adult brightyellow eyes/greenyellowbill versus original graygreen diagnosis retained as colour variation/wording uncertainty. Female heavier qualitativeaverage doesnotdefineheight ratio. Habitat montaneYungas epiphytes.
+- HOY-ITIS-686675-2026 re-opened actual nomenclature/reference fields: https://itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=686675&source=to_print ; institutional taxonomicreport referencesIOC15.1/Clements2021; currentM.hoyi = Otushoyi, nameonly.
+- Prior v4 research read frommain; primary HOY-KS1989-P4 and adultphoto HOY-KOENIG-2000 are repository evidence reused by citation, NOT primary bodies newly read this run. No new developmental inference added.
+
+## Actual finding / design boundary
+Viewed full v4 and compared species/stageguide. Juvenile fluff/tuftlessness and formedwing fit broad fledgedstage; no pixel morphology error established. Existing image has NO scientificstatus footer and juvenile shares adult-like iris/bill colour despite these not stage-calibrated. Apply visible uncertainty annotation and conceptpending footer; retain colours as unverified reconstruction. This is annotation revision, NOT a claim to resolve juvenile biology. Near-equal adult presentation preserved; source-specific sexmass/height distinction retained. No nest shown or inferred. Pose supported, exactage/flightunknown.
+
+## Deferred discovery this cycle, actual retrieval
+PAL-SHARPE-1888: R.B.Sharpe, On a Collection of Birds from the Island of Palawan, Ibis5ser6:193–204 DOI10.1111/j.1474-919x.1888.tb07734.x. ActualfullpublicdomainPDF downloaded5138750bytes https://archive.org/download/biostor-288202/biostor-288202.pdf ; scanPDFp5/printed197 visuallyread. Scopsfuliginosa diagnosis darkbrown/vermiculation/rufousauricularregion, obsoletepaleheadbands; DOESNOTstate juvenile orJuly. Secondaryclaimtypejuvenile not promoted toreadprimaryfact. OldadultSyrniumparagraphabove excluded. Palawan pendingyoung evidence.
+BIAK-BISHOP-2023: Bishop&vanBalen2023 BBOC143(1):3–62 DOI10.25226/bboc.v143i1.2023.a2 actualfullPDF textp38–39 read https://boc-online.org/bulletins/downloads/BBOC1431-PDFa.pdf ; adultfigure11/habitat status only, no juvenile. No image morphologyclaimwithoutview.
+LOWERY-PEREGRINE-2020: PeregrineFund, LongwhiskeredOwlet undated institutionalprofile with2020references, https://peregrinefund.org/explore-raptors-species/owls/long-whiskered-owlet actualNestEggsYoungsection explicitlyunknown breedingbiology. No young invented.
+Reused Lok/Lee/Lim2009 NUS https://lkcnhm.nus.edu.sg/wp-content/uploads/sites/11/app/uploads/2017/06/2009nis31-38.pdf actualtextp31–35: historicalcnephaeustaxon disputed; ITISsearchleadnowO.lettiacnephaeus, not new speciescredit. Samepaper alreadyused#190; no newIDduplicate.
+Otherbookpage reads: printed164/128/169/93/100/106/165/197/185/196/198/394/89/90/94: juvenileunknown for most; broad'similarbarnowl' not enough for rare neonataldetail. Closedeyeunknown iris notproofstage. Otusmirus/mindorensis/eberetti originalscan leads noactualbodydue403. Andaman2024PandiMSc thesis https://www.avccollege.net/AQAR-2024/CriterionI/project-evidence-1.3.4/WLB-Project.pdf webtimeout, bothwwwnonwwwHTTP503; unverifiedlead not stagebasis. GutenbergMcGregor1909 timeout/503. Numerouslocal failures are source-specific, GitHub remainsavailable; no claimedplatformlimit.
+
+
+[Research/prompt](species/129-megascops-hoyi-v5.md) · [image](../design/concepts/129-megascops-hoyi-v5.png) · [review](reviews/129-megascops-hoyi-v5-review.md)

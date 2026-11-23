@@ -51179,8 +51179,20 @@
       "batch_id": "20261123T113345Z",
       "status": "PARTIAL",
       "target_cycles": 6,
-      "completed_cycles": [],
-      "next_cycle": 1,
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species_id": 219,
+          "scientific_name": "Otus podarginus",
+          "action": "NEW_SPECIES_CONCEPT",
+          "unique_species_increment": 1,
+          "commit_sha": "56883f51b56d642f81ab6fe28c0da97323f17b0b",
+          "archive_commit": "46aa032c8a932b8610ae3b83ae670d2cc5bcb8bb",
+          "run_record": "owl-pet/production/runs/20261123T113345Z-cycle-1.md",
+          "verified_at": "2026-11-23T11:39:42.689Z"
+        }
+      ],
+      "next_cycle": 2,
       "started_at": "2026-11-23T11:33:45.541Z"
     }
   ],
@@ -51318,7 +51330,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-23T11:39:35.796Z",
+  "updated_at": "2026-11-23T11:39:42.689Z",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -51343,12 +51355,7 @@
       }
     }
   ],
-  "active_lease": {
-    "owner": "codex-owl-production",
-    "run_id": "20261123T113345Z-cycle-1",
-    "heartbeat_at": "2026-11-23T11:39:35.796Z",
-    "expires_at": "2026-11-23T11:54:35.796Z"
-  },
+  "active_lease": null,
   "last_updated_at": "2026-11-13T06:00:16.398+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
@@ -58723,9 +58730,9 @@
   ],
   "active_batch_id": "20261123T113345Z",
   "active_cycle": 1,
-  "current_stage": "VERIFIED",
-  "next_cycle": 7,
-  "unique_species_count": 190,
+  "current_stage": "LEDGER_CREDITED",
+  "next_cycle": 2,
+  "unique_species_count": 191,
   "total_species": 251,
   "stage_events": [
     {
@@ -80255,6 +80262,6 @@
   },
   "last_completed_cycle": 6,
   "last_verified": "2026-11-13T05:41:40.899+08:00",
-  "unique_species_count_recomputed": 190,
+  "unique_species_count_recomputed": 191,
   "unique_species_count_recomputed_basis": "Manifest numbered taxon-name de-dup audit; fixed251 canonical reconciliation pending"
 }

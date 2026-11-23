@@ -1,0 +1,106 @@
+name: "Owl #172 Run324 real Hy3D output/native export diagnosis NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run324-hy3d-visible-preview-native-extract-NO_RELEASE
+    paths:
+      - .github/workflows/owl172-run324-hy3d-visible-native-NO_RELEASE.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  single-legal-free-ui-source:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/design/concepts/172-tyto-castanops-v3.png
+            owl-pet/3d-experiments/172-tyto-castanops/run295_real_reference_cutout_preprocess_ONLY_NO_RELEASE.py
+            owl-pet/3d-experiments/172-tyto-castanops/run324_hy3d_real_public_browser_result_NO_RELEASE.py
+            owl-pet/3d-experiments/172-tyto-castanops/run322_native_orbit_chromium_NO_RELEASE.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run322_native_orbit_research_NO_RELEASE.html
+            .github/workflows/owl172-run324-hy3d-visible-native-NO_RELEASE.yml
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install free real-browser and native mesh inspection tools
+        run: |
+          set -euo pipefail
+          python -m pip install -q numpy pillow opencv-python-headless playwright trimesh
+          python -m playwright install --with-deps chromium
+          python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/run324_hy3d_real_public_browser_result_NO_RELEASE.py
+      - name: Recreate exact rightmost original owl input and verify unchanged SHA
+        run: |
+          set -euo pipefail
+          python owl-pet/3d-experiments/172-tyto-castanops/run295_real_reference_cutout_preprocess_ONLY_NO_RELEASE.py | tee run324_crop.log
+          printf '6ec346e5b02411f9509fd364db748c23a58075aeec461ef7424adcc4d893bc77  owl172-run295-evidence/young-isolated-white-background-input-NO_3D.png\n' | sha256sum -c
+      - name: Actually generate public free 3D preview and test legitimate native export
+        run: |
+          set -euo pipefail
+          python owl-pet/3d-experiments/172-tyto-castanops/run324_hy3d_real_public_browser_result_NO_RELEASE.py | tee run324_actual_browser.log
+      - name: Actual Chromium WebGL2 real native 8 views only if genuine GLB exists
+        run: |
+          set -euo pipefail
+          GLB=owl172-run324-evidence/hy3d_native_actual_UNREVIEWED_NO_RELEASE.glb
+          if [ ! -f "$GLB" ]; then echo 'No native GLB; no technical WebGL or art claim'; exit 0; fi
+          npm install --no-audit --no-fund --no-save playwright-core@1.58.2 three@0.170.0 pngjs@7.0.0
+          CHROME_BIN=/usr/bin/google-chrome node owl-pet/3d-experiments/172-tyto-castanops/run322_native_orbit_chromium_NO_RELEASE.mjs "$GLB" owl172-run324-evidence/webgl2 | tee owl172-run324-evidence/actual_webgl.log
+      - name: Produce verified diagnostic manifest and visual montage
+        if: always()
+        run: |
+          python - <<'PY'
+          import hashlib,json
+          from pathlib import Path
+          from PIL import Image,ImageDraw
+          p=Path('owl172-run324-evidence');p.mkdir(exist_ok=True)
+          ims=sorted((p/'webgl2').glob('yaw_*.png')) if (p/'webgl2').exists() else []
+          if ims:
+              sheet=Image.new('RGB',(920,980),(236,231,223));d=ImageDraw.Draw(sheet)
+              for i,img in enumerate(ims):
+                  x=(i%4)*230;y=(i//4)*490
+                  sheet.paste(Image.open(img).convert('RGB').resize((230,460)),(x,y+20))
+                  d.text((x+8,y+5),img.stem,fill=(22,22,22))
+              sheet.save(p/'run324-native-webgl8-review.jpg',quality=90,optimize=True)
+          r=json.loads((p/'actual_run324.json').read_text()) if (p/'actual_run324.json').exists() else {}
+          state={'run':324,'native':r.get('real_native_glb'),'webgl2_views':len(ims),'actual_result':r.get('status'),'art_approved':False,'physical_phone':False,'rights_cleared':False,'release':False,'paid_usd':0}
+          (p/'final_state.json').write_text(json.dumps(state,indent=2))
+          fs=sorted(f for f in p.rglob('*') if f.is_file() and f.name not in ('file_hashes.json','SHA256SUMS.txt'))
+          data=[{'path':str(f.relative_to(p)),'sha256':hashlib.sha256(f.read_bytes()).hexdigest(),'bytes':f.stat().st_size} for f in fs]
+          (p/'file_hashes.json').write_text(json.dumps(data,indent=2))
+          (p/'SHA256SUMS.txt').write_text('\n'.join(d['sha256']+'  '+d['path'] for d in data)+'\n')
+          print(json.dumps(state,indent=2))
+          PY
+          (cd owl172-run324-evidence && sha256sum -c SHA256SUMS.txt)
+      - name: Persist only independent #172 diagnostics and actual visual montage to separate branch
+        if: always()
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          SRC=owl172-run324-evidence
+          DEST=owl-pet/3d-experiments/172-tyto-castanops/run324-live-evidence
+          mkdir -p "$DEST"
+          for f in actual_run324.json actual_ui_network_metadata.json final_state.json file_hashes.json run324-native-webgl8-review.jpg hy3d_actual_final_result.png hy3d_initial.png hy3d_upload.png hy3d_during_preview.png STRICT_NO_RELEASE.txt; do
+            if [ -f "$SRC/$f" ]; then cp "$SRC/$f" "$DEST/$f"; fi
+          done
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --sparse "$DEST"
+          if ! git diff --cached --quiet; then
+            git commit -m "research(#172): preserve Run324 actual Hy3D native evidence, no release"
+            git push origin HEAD:research/owl172-run324-hy3d-visible-preview-native-extract-NO_RELEASE
+          fi
+      - name: Retain raw real native outputs and browser evidence temporarily
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run324-hy3d-real-3d-native-analysis-NO_RELEASE
+          path: |
+            owl172-run324-evidence/
+            owl172-run295-evidence/run295_matte_QA.json
+            run324_crop.log
+            run324_actual_browser.log
+          retention-days: 14
+          if-no-files-found: warn

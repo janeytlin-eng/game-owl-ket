@@ -1,3 +1,6 @@
+## 2026-11-23 #208 Ninox affinis 208-ninox-affinis-v2 VERIFIED
+Coverage184/251. Batch20261123T072659Z 6/6;new0/revision1. Archive34cf311e45b26b34e94f4c0e695924bf0a61a869;verification726eac3783737e777a2e64c766312e35ba3015d7. Actualfull+3rolecropreview, oneedit,remoteoriginalhash/decode verified. ConceptPASS_WITH_LIMITATIONS/sciencefalse. [Original](design/concepts/208-ninox-affinis-v2.png),[review](research/reviews/208-ninox-affinis-v2-review.md),[run](production/runs/20261123T072659Z-cycle-6.md). All251notcomplete.
+
 ## 2026-11-23 #212 Megascops seductus 212-megascops-seductus-v1 VERIFIED
 Coverage184/251. Batch20261123T072659Z 5/6;new1/revision0. Archivefea05e4d9ace40a2c5978c06f68152dc67b1f3a2;verificationf38066e9af7f82c4f765fc5b3113e61e3b741b41. Actualfull+3rolecropreview, oneedit,remoteoriginalhash/decode verified. ConceptPASS_WITH_LIMITATIONS/sciencefalse. [Original](design/concepts/212-megascops-seductus-v1.png),[review](research/reviews/212-megascops-seductus-v1-review.md),[run](production/runs/20261123T072659Z-cycle-5.md). All251notcomplete.
 

@@ -1,0 +1,39 @@
+# #172 *Tyto castanops* v3 — Run328: actual CC0 native owl feather/anatomy source, eight-view WebGL2, ART_REJECTED / NO_RELEASE
+
+**Date:** 2026-11-24 Asia/Shanghai. **Verdict:** NATIVE_SOURCE_DOWNLOADED / GLB_PARSED / CHROMIUM_WEBGL2_8_VIEW_VERIFIED / ART_REJECTED / RIGHTS_REVIEW_OPEN / PHYSICAL_PHONE_UNTESTED / NO_RELEASE.
+
+## Preflight: actual current repo and exact subject
+
+Read current main \`owl-pet/AGENTS.md\`, \`README.md\`, \`STATUS.md\`, \`research/species/172-tyto-castanops-v3.md\`, \`research/reviews/172-tyto-castanops-v3-review.md\` and Run327's real HTTP402 audit. The separate 251-species production snapshot remains **203/251 unique species** (48 remaining) and is not part of this experiment. The existing kitten WebGL prototype is **not** a #172 owl character.
+
+The fixed #172 design is the v3 **rightmost, age-unknown cream-down mesoptile**: a Tasmanian masked owl \`Tyto castanops\` with an organically feather-built heart facial disc, dark eyes, cream-white thick soft down, squat/chubby chick morphology, wings nearly buried in down, concealed tail and both feet supported by a senescent eucalypt hollow lip. Exact chick age is not claimed. The original 1536×1024 three-bird concept **cannot be treated as evidence for 3D side/back anatomy**; science=false.
+
+Earlier Run320 micro-groom and Run321 shoulderback deformation of the previous neural GLB failed the silhouette/art tests. Run326 rigged native barn owl was adult. Run327's juvenile eagle donor download returned HTTP402; no GLB was obtained. This experiment deliberately tests a previously untried high-resolution, explicitly public CC0 **adult donor**, *not* a new finished young *Tyto*.
+
+## Actual publicly sourced no-cost native 3D evaluation
+
+Public original [Grab3D owl model page](https://grab3d.com/models/animals/owl/) labels the model a **great horned owl**, with ear tufts, yellow eyes, patterned mature flight feathers, protruding tail, mature legs/claws. Its [original CC0 license declaration](https://grab3d.com/dl/owl/LICENSE.txt) and [publisher manifest](https://grab3d.com/dl/owl/manifest.json) were independently fetched with real HTTP200. The original file is openly declared **AI-assisted (Meshy base, Blender cleanup)**; this is a publisher licensing/provenance statement, not independently verified upstream training rights or automatic commercial product clearance.
+
+Created dedicated real-run source analysis [run328_cc0_feather_topology_NO_RELEASE.py](run328_cc0_feather_topology_NO_RELEASE.py) and its dedicated [GitHub Actions workflow](../../../.github/workflows/owl172-run328-cc0-feather-topology-NO_RELEASE.yml) on branch \`research/owl172-run328-grab3d-cc0-feather-topology-webgl-NO_RELEASE\`. Reused previously validated native WebGL2 orbit harness **without changing** its real Three.js GLTFLoader/software WebGL semantics. The actual run [#45236728134](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/45236728134) completed **success** (technical research workflow only).
+
+The runner actually retrieved the untouched **light** native model from \`https://grab3d.com/dl/owl/owl-light.glb\` (HTTP **200**, \`model/gltf-binary\`); checked against the publisher manifest's exact byte size, checked valid glTF2 header/declaration and parsed the glTF JSON and Trimesh scene. Results:
+
+- **13,356,032 bytes**, SHA256 **\`fdcd83d53a5346eac8259a861614f5adae46ce7ad11e33919d05dd1bcd52aaba\`**.
+- **399,999 actual 3D triangles**, **256,172 vertices**, one real native polygon mesh, one PBR material, one UV mesh, two embedded textures; bounds approximately **0.288×0.550×0.321 m** in file axes.
+- This is genuinely a textured 3D object, not a flat SVG, 2D billboard, demonstration GLB or fabricated download. However, a 399,999-triangle single mesh **does not prove individually modeled fine second down, correct chick anatomy, or efficient mobile runtime**.
+
+Actual Chromium with Three.js/GLTFLoader and SwiftShader WebGL2 rendered **eight independently different** yaw views (0,45,90,135,180,225,270,315) at a 390×780 phone-shaped viewport. [The real eight-view contact sheet](run328-live-evidence/run328-eight-native-WebGL2-adult-donor-rejected.jpg) was **opened and visually inspected**, not just inferred from a successful CI status. The camera-yaw orientation in this harness has the model's frontal view near yaw180; yaw0 is the back view. Native GLB load and viewport WebGL2 **technically passed**; **physical** iPhone/Android GPU, frame time, heat, memory, multi-pet scene and touch interactions were **not** tested.
+
+## Independent eight-view art verdict: REJECTED
+
+The real images clearly show an **adult great horned owl** with a pair of tall ear tufts, large yellow eyes, round (not heart) owl disc, strong adult hooked beak, mottled brown mature feathers, protruding tail, large adult folded flight wing layers and tall exposed gripping legs. The opposite side/back are genuinely modeled and the PBR pattern has some useful adult wing/mantle visual detail, but **none of this supplies the required cream thick mesoptile down or correct juvenile proportions**. There is no tiny, down-hidden short *Tyto* wing, childlike full body, natural heart-feather facial disc, concealed tail or verified foot support on a tree hollow. Zoomed texture detail and an expensive mesh count do not fix taxonomy and age. It is **a useful adult 3D negative control / anatomy illustration only**, not a basis for recoloring into the user-requested baby. Verdict **ART_REJECTED**. **No target chick GLB produced.**
+
+The technical donor remains heavy for mobile: the lightweight download alone contains 400k triangles / 13.36MB, and one software-browser load at emulated phone viewport does not establish reasonable actual mobile WebGL performance. Publishing it as a cotton-white pet would be a false claim.
+
+## Archival proof, traceability, and strict isolation
+
+[Run328 real native diagnostics](run328-live-evidence/run328-native-diagnostic.json) and [final state](run328-live-evidence/run328-final-state.json) were saved and remotely reread: \`native_mesh_verified=true\`, \`browser_webgl2_technically_loaded=true\`, \`actual_3d_views=8\`, \`art_verdict=ART_REJECTED_FOR_TARGET\`, \`release=false\`; original model's exact SHA is documented. The [evidence file SHA256 ledger](run328-live-evidence/file_hashes.json) includes the eight different PNGs and contact sheet SHA: **\`c82dc20304442c6bc8035a6ae59bdece943aeec8f204c9448e84778a07ad6224\`**. Original model, browser screenshots, native parser report, publisher LICENSE/manifest and file hash verification live in the temporary [full evidence artifact #14850536602](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/45236728134/artifacts/14850536602) (GitHub reports ZIP **10,193,224 bytes**, digest \`sha256:276a25793496242d1f3c52c0ddf87928263ba2262096cb244b9e0878329d67f0\`, expiry **2026-12-07**). ZIP was not independently extracted in the current chat runtime, so do **not** claim its internal files independently tested outside the successful runner-side SHA256 check.
+
+Only the two dedicated Run328 code/workflow files and isolated bounded research evidence plus this audit are added on a research branch. No writes to main, 251-species production manifests, original #172 concept, kitten prototype or deployment; **no external paid service, payment, registration or paywall bypass**.
+
+**Gate status:** actual new native target chick GLBs **0**; real new candidate donor GLBs **1 (wrong adult species/age, rejected)**; native WebGL2 study views **8**; user-deliverable samples **0**; phone performance **UNTESTED**; commercial rights review **OPEN**; **NO_RELEASE / NO_USER_NOTIFICATION**. For further work prioritize a legally available age-correct *Tyto* professional organic sculpt with a real separated feather face, bulky second down, credible short hidden wing/back and tree-hollow foot support rather than more adult donors or smooth neural shells.

@@ -177,3 +177,7 @@ Problem: a researchedconcept cantravelwithoutsidecar andreadascalibratedbiologyw
 
 ## 20261123T1640Z resumed annotation audit
 Observed4exportedplates215–218 lackedvisiblepending-scientificstatus while sidecarswerefalse. Appliedfooteronly andviewedfull/nativecrop, retainedallunknownnotes/support/stages; toolslightlyrerenderstextures so checkallbirdsaftertextedit. Validatedreadabilityandinvariantsforthese4only, notbiologicalcalibration. #129existingarchive recovery avoidsduplicateimagegeneration. Rejected216darkclawhypothesisafterivoryclawview; nochangejustforchange. Do not turnsource-reusecounts into newdocuments; uploadedguide4pages=1book. Missing-speciesqueue remainsprimarydevelopmentresearchpriority afterboundedannotationqueueclosed.
+
+
+## 20261123T1830Z #203 annotation audit
+Problem: external juvenile observations can belong to another subspecies even when species synonyms match. ITIS686674 and Perez-Martinez2021 confirm CostaRica vermiculatus context; existing203 is nominate. Applied no colour transfer; explicit nominate/juvenile-colour uncertainty note plus scientific-pending footer. Actual full/youngcrop verified labels/support and no actionable morphology drift. Validated annotation readability on203 only; biology remains unknown. Earlier215–218 already labelled, not regenerated.

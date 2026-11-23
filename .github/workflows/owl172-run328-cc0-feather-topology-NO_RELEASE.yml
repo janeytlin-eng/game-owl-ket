@@ -1,0 +1,134 @@
+name: "Owl172 Run328 free CC0 native feather-topology and WebGL2 QA NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run328-grab3d-cc0-feather-topology-webgl-NO_RELEASE
+    paths:
+      - .github/workflows/owl172-run328-cc0-feather-topology-NO_RELEASE.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  native-source-study:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/run328_cc0_feather_topology_NO_RELEASE.py
+            owl-pet/3d-experiments/172-tyto-castanops/run322_native_orbit_research_NO_RELEASE.html
+            owl-pet/3d-experiments/172-tyto-castanops/run322_native_orbit_chromium_NO_RELEASE.mjs
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install open source native geometry tools and syntax-check code
+        run: |
+          set -euo pipefail
+          python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/run328_cc0_feather_topology_NO_RELEASE.py
+          python -m pip install -q requests numpy trimesh pillow
+      - name: Actual free source GLB download and independent real mesh validation
+        run: |
+          set -euo pipefail
+          python owl-pet/3d-experiments/172-tyto-castanops/run328_cc0_feather_topology_NO_RELEASE.py --out owl172-run328-evidence | tee owl172-run328_stdout.log
+      - name: Actual native GLB Chromium Three.js WebGL2 eight-angle visual probe if GLB exists
+        run: |
+          set -euo pipefail
+          MODEL=owl172-run328-evidence/adult-great-horned-owl-light-CC0-SOURCE_ONLY-NO_RELEASE.glb
+          if test -f "$MODEL"; then
+            npm install --no-audit --no-fund --no-save playwright-core@1.58.2 three@0.170.0 pngjs@7.0.0
+            CHROME_BIN=/usr/bin/google-chrome node owl-pet/3d-experiments/172-tyto-castanops/run322_native_orbit_chromium_NO_RELEASE.mjs \
+              "$MODEL" owl172-run328-evidence/webgl2 | tee owl172-run328-evidence/chromium_stdout.log
+          else
+            echo "No actual GLB; not attempting browser or fabricating renders"
+          fi
+      - name: Eight-angle contact sheet, explicit wrong-species reject and checksum ledger
+        if: always()
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import hashlib,json
+          from pathlib import Path
+          from PIL import Image,ImageDraw
+          p=Path('owl172-run328-evidence');p.mkdir(exist_ok=True)
+          nf=p/'run328-native-diagnostic.json'
+          diag=json.loads(nf.read_text()) if nf.is_file() else {}
+          br=p/'webgl2'/'browser-report.json'
+          browser=json.loads(br.read_text()) if br.is_file() else {}
+          pics=sorted((p/'webgl2').glob('yaw_*.png')) if (p/'webgl2').is_dir() else []
+          if len(pics)==8:
+              sheet=Image.new('RGB',(920,1000),(237,231,223))
+              d=ImageDraw.Draw(sheet)
+              for i,f in enumerate(pics):
+                  with Image.open(f) as im:
+                      x=i%4*230;y=i//4*500
+                      sheet.paste(im.convert('RGB').resize((230,460)),(x,y+24))
+                      d.text((x+9,y+5),f.stem,fill=(20,20,20))
+              sheet.save(p/'run328-eight-native-WebGL2-adult-donor-rejected.jpg',quality=87,optimize=True)
+          result={
+            'run':328,'source':diag.get('requested_url'),
+            'source_bytes':diag.get('source_received_bytes',0),
+            'source_sha256':diag.get('source_sha256'),
+            'native_mesh_verified':diag.get('model_verified',False),
+            'browser_webgl2_technically_loaded':browser.get('technicallyLoaded',False),
+            'actual_3d_views':len(pics),
+            'identity':'ADULT GREAT HORNED OWL, NOT #172 TYTO MESOPTILE',
+            'art_verdict':'ART_REJECTED_FOR_TARGET',
+            'license':'Publisher CC0 declaration, AI-assisted provenance; no product approval',
+            'physical_phone':'UNTESTED','release':False,'paid_usd':0,
+            '251_species_production_untouched':True}
+          (p/'run328-final-state.json').write_text(json.dumps(result,indent=2))
+          (p/'STRICT_NO_RELEASE.txt').write_text(
+              'Research only. Wrong species and age: adult horned owl. Not the cream mesoptile. ART_REJECTED. NO_RELEASE.\n')
+          files=sorted(f for f in p.rglob('*') if f.is_file() and f.name not in ('file_hashes.json','SHA256SUMS.txt'))
+          hashes=[{'path':str(f.relative_to(p)),'bytes':f.stat().st_size,
+                   'sha256':hashlib.sha256(f.read_bytes()).hexdigest()} for f in files]
+          (p/'file_hashes.json').write_text(json.dumps(hashes,indent=2))
+          (p/'SHA256SUMS.txt').write_text(''.join(h['sha256']+'  '+h['path']+'\n' for h in hashes))
+          print(json.dumps(result,indent=2));print('evidence_count',len(hashes))
+          PY
+          (cd owl172-run328-evidence && sha256sum -c SHA256SUMS.txt)
+      - name: Commit bounded source diagnostic and eight-view art rejection to isolated research branch
+        if: always()
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          SRC=owl172-run328-evidence
+          DST=owl-pet/3d-experiments/172-tyto-castanops/run328-live-evidence
+          mkdir -p "$DST"
+          for F in run328-native-diagnostic.json run328-final-state.json file_hashes.json STRICT_NO_RELEASE.txt run328-eight-native-WebGL2-adult-donor-rejected.jpg; do
+            if test -f "$SRC/$F"; then cp "$SRC/$F" "$DST/$F"; fi
+          done
+          test -f "$DST/run328-final-state.json"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --sparse -f "$DST"
+          if ! git diff --cached --quiet; then
+            git commit -m "research(#172): persist Run328 real native geometry and WebGL2 evidence, ART_REJECTED NO_RELEASE"
+            git push origin HEAD:research/owl172-run328-grab3d-cc0-feather-topology-webgl-NO_RELEASE
+          fi
+      - name: Upload full real GLB and views as temporary research evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run328-CC0-adult-donor-NO_RELEASE
+          path: |
+            owl172-run328-evidence/
+            owl172-run328_stdout.log
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Strict result gate, no false-positive GLB or WebGL report
+        if: always()
+        run: |
+          python - <<'PY'
+          import json,sys
+          from pathlib import Path
+          p=Path('owl172-run328-evidence/run328-final-state.json')
+          if not p.is_file():sys.exit('NO_RELEASE: final-state not found')
+          a=json.loads(p.read_text())
+          if not(a['native_mesh_verified'] and a['browser_webgl2_technically_loaded'] and a['actual_3d_views']==8):
+              sys.exit('NO_RELEASE: native model or browser proof absent; tech gate FAILED')
+          assert a['art_verdict']=='ART_REJECTED_FOR_TARGET' and not a['release']
+          print('Real native GLB + eight WebGL views verified, but WRONG ADULT OWL. ART_REJECTED/NO_RELEASE')
+          PY

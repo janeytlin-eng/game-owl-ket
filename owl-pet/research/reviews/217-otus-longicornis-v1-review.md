@@ -1,0 +1,2 @@
+# Actualreview
+Initialfull and editedfull plus youngcrop actuallyviewed. Hardparallelwingpanelremoved, nowshortsoftgreybarredcovertsendingabovebelly; greyhead/back cooler. Closedeyes/sleepingheadtilt/twofeetbranchcontact retained. Adultnear-equalbody/femalesubtlyfuller, goldeneyes/dullgreenbill/whitebrow-throat/whitebellywithdarkrustfragmentedpattern/partialbarepinklegs retained. Age/juvenileiris/flight/nest/sexratio andexactcolourcontrast uncalibrated, no scientificpass. PASS_WITH_LIMITATIONS/sciencefalse. Edit effectivevisuallyhere, promptpreventionnotproved.

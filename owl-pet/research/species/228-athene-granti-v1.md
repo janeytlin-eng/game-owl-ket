@@ -9,3 +9,6 @@ Accessed2026-11-23. CurrentGuadalcanalOwl; oldNinoxgranti/Ninoxjacquinotigranti,
 Near-equaladults;guideolderjuvenilealreadybarredwings/tail, retainedformedbutcompactfeathersNOTuniversaldownball. Plain darkbody+faintpaleunderbarsmustnotcopyadultbroadbrownonwhiteventrum. Closedyoungeyes/branchsupportavoidunprovedirisandflightclaims. Crouchsideonwithfeetgripbroadfork, notnewborn. Juvenilebill/toesadult-likeprovisional,notsciencepass. Noexactday/maturewinglengthclaimed. Noindependentyoungphotoafterold/currentname juvenilequeries; guideonlystage, unknownfinefeatherchronology. Futureprimaryphotoauditrequired.
 ## Iteration rule
 #226adultpanelcouldberemovedbasedunknownchronology; thisguideexplicitwhitewing/tailbarsmeansdoNOTeraseallwingbars. Retainjuvenileidentitydistinctfromadultbelly. Appliesonlythisboundedolderstage, futurepromptimprovementuntested.
+
+## 2026-11-23 书目补正
+AGRA-BIRDQUEST-2023-P7 作者原标未知；现实际读取PDF第1页署名，作者Pete Morris，行程8July–4August2023。历史未核验说明保留，现补齐，物种证据不变。

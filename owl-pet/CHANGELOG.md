@@ -1,3 +1,7 @@
+## 2026-11-23 本次完成6轮，批次6/6
+
+新增#225、#226、#228、#229、#230、#232，共6种，归档去重195→201/251；旧图修订0，本批定向编辑3次。6组均概念通过但待科学校准；无新增用户确认。其他未完批次0，下一子轮下一批1/6，须重新核对main与lease。尚余50种及全批科学审查，生产任务未暂停。[六张原图、检查与真实提交证据](production/batches/20261123T130430Z-review.md)。
+
 ## 2026-11-23 — #207 Lesser Sooty Owl v1 VERIFIED; batch complete across invocations
 Coverage179/251 by repository taxon-name de-duplication; earlier181/179 snapshots superseded by#25/#205 correction before#207(+1). Full251authorityrosterpending. Batch20261123T043309Z6/6COMPLETE;thisresumecompleted1cycleonly,not6. NootherPARTIALbatch,leasecleared. Archive6cc110f559184aa188cd7b20ca94d0d82551c94f;verification40e85c6727ee610d1c2b0963e89c5de4e42a28b4. Original2791295bytes/SHA256/PNG1536x1024 downloadedandverified,full+3cropsviewed,1edit,sciencefalse/PASS_WITH_LIMITATIONS. [Original](design/concepts/207-tyto-multipunctata-v1.png),[review](research/reviews/207-tyto-multipunctata-v1-review.md),[run](production/runs/20261123T043309Z-cycle-6.md). Nextproductionstartsnewbatch1/6afterlateststate/duplicatecheck;all251tasknotcomplete/notpaused.
 

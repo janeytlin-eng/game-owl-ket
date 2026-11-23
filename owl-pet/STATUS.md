@@ -1,3 +1,7 @@
+## 2026-11-23 本次完成6轮，批次6/6
+
+新增#225、#226、#228、#229、#230、#232，共6种，归档去重195→201/251；旧图修订0，本批定向编辑3次。6组均概念通过但待科学校准；无新增用户确认。其他未完批次0，下一子轮下一批1/6，须重新核对main与lease。尚余50种及全批科学审查，生产任务未暂停。[六张原图、检查与真实提交证据](production/batches/20261123T130430Z-review.md)。
+
 ## 2026-11-23T13:41:06.789Z 232-ninox-ochracea-v1 VERIFIED
 Coverage201/251; batch20261123T130430Z 6/6. Archive2432cfeeb3ae19fb8ac8b485e3453451d4c18029;verification1526d7ff244e999faf73d7410219908cdfe76301. PASS_WITH_LIMITATIONS/sciencefalse. [Original](design/concepts/232-ninox-ochracea-v1.png), [review](research/reviews/232-ninox-ochracea-v1-review.md). All251notcomplete.
 

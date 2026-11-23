@@ -1,3 +1,7 @@
+## 2026-11-23 新增6物种组图，195→201/251
+
+[本批六张原图与校准边界](../production/batches/20261123T130430Z-review.md)。#225/#226/#228/#229/#230/#232均v1，3次生成后定向编辑已复查，science=false。旧版本及用户确认不变。#227/#231研究暂缓未计完成。
+
 ## 2026-11-08 — #30 *Glaucidium cuculoides* v5 ledger credited
 
 Verification `eb2b0ded23e99ef41f237e51af24e0321938aa04` read back; cycle 5/6 credited once; next cycle 6. Unique coverage remains 176/251; science=false.

@@ -1,0 +1,317 @@
+{
+  "batch": "20261123T130430Z",
+  "new_species": 6,
+  "unique_species_before": 195,
+  "unique_species_after": 201,
+  "total_species": 251,
+  "completed_in_this_invocation": 6,
+  "current_batch_completed": 6,
+  "other_incomplete_batches": [],
+  "new_evidence_entries": 31,
+  "new_external_source_records": 23,
+  "reused_book_page_scopes": 8,
+  "bibliographic_corrections": 2,
+  "concept_edits": 3,
+  "science_verified_new": 0,
+  "unknown_young_candidates": [
+    227,
+    231
+  ],
+  "next_cycle": "new batch cycle 1 after main recheck",
+  "timing": [
+    {
+      "cycle": 1,
+      "started": "2026-11-23T13:04:30.306Z",
+      "research_ready": "2026-11-23T13:06:21.277Z",
+      "image_generated_checkpoint": "2026-11-23T13:07:47.138Z",
+      "reviewed": "2026-11-23T13:09:27.012Z",
+      "archived": "2026-11-23T13:09:35.948Z",
+      "verified": "2026-11-23T13:10:37.854Z"
+    },
+    {
+      "cycle": 2,
+      "started": "2026-11-23T13:10:56.025Z",
+      "research_ready": "2026-11-23T13:15:00.492Z",
+      "image_generated_checkpoint": "2026-11-23T13:15:57.546Z",
+      "reviewed": "2026-11-23T13:17:23.435Z",
+      "archived": "2026-11-23T13:17:44.370Z",
+      "verified": "2026-11-23T13:18:22.844Z"
+    },
+    {
+      "cycle": 3,
+      "started": "2026-11-23T13:19:28.030Z",
+      "research_ready": "2026-11-23T13:21:47.751Z",
+      "image_generated_checkpoint": "2026-11-23T13:23:15.038Z",
+      "reviewed": "2026-11-23T13:25:03.426Z",
+      "archived": "2026-11-23T13:25:10.486Z",
+      "verified": "2026-11-23T13:25:31.917Z"
+    },
+    {
+      "cycle": 4,
+      "started": "2026-11-23T13:25:59.753Z",
+      "research_ready": "2026-11-23T13:27:39.267Z",
+      "image_generated_checkpoint": "2026-11-23T13:28:52.944Z",
+      "reviewed": "2026-11-23T13:29:18.082Z",
+      "archived": "2026-11-23T13:29:25.780Z",
+      "verified": "2026-11-23T13:29:51.630Z"
+    },
+    {
+      "cycle": 5,
+      "started": "2026-11-23T13:30:24.285Z",
+      "research_ready": "2026-11-23T13:32:49.587Z",
+      "image_generated_checkpoint": "2026-11-23T13:34:16.177Z",
+      "reviewed": "2026-11-23T13:34:47.813Z",
+      "archived": "2026-11-23T13:34:53.945Z",
+      "verified": "2026-11-23T13:35:15.558Z"
+    },
+    {
+      "cycle": 6,
+      "started": "2026-11-23T13:35:44.418Z",
+      "research_ready": "2026-11-23T13:38:29.746Z",
+      "image_generated_checkpoint": "2026-11-23T13:39:55.524Z",
+      "reviewed": "2026-11-23T13:40:30.228Z",
+      "archived": "2026-11-23T13:40:38.048Z",
+      "verified": "2026-11-23T13:40:58.730Z"
+    }
+  ],
+  "closed_at": "2026-11-23T13:46:22.846Z",
+  "originals": [
+    {
+      "id": "225-otus-socotranus-v1",
+      "species_id": 225,
+      "scientific_name": "Otus socotranus",
+      "version": 1,
+      "path": "design/concepts/225-otus-socotranus-v1.png",
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "source_ids": [
+        "OSOC-MIKKOLA-2013-P132",
+        "OSOC-PORTER-SULEIMAN-2013-P65-66",
+        "OSOC-ITIS-1063239"
+      ],
+      "run_record": "owl-pet/production/runs/20261123T130430Z-cycle-1.md",
+      "research_record": "research/species/225-otus-socotranus-v1.md",
+      "review_record": "research/reviews/225-otus-socotranus-v1-review.md",
+      "batch_id": "20261123T130430Z",
+      "batch_cycle": 1,
+      "unique_species_increment": 1,
+      "git_blob": "5fd39930b451b35637327d42b684af62ff18faf7",
+      "bytes": 2678907,
+      "sha256": "0c6aeadace0125e6a525d4491211633423637babfb76e9b12cd2e940fa1df0e2",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "226-otus-icterorhynchus-v1",
+      "species_id": 226,
+      "scientific_name": "Otus icterorhynchus",
+      "version": 1,
+      "path": "design/concepts/226-otus-icterorhynchus-v1.png",
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "source_ids": [
+        "OICT-MIKKOLA-2013-P133",
+        "OICT-DIJKSTRA-2011-ABC16993",
+        "OICT-ITIS-555365",
+        "OICT-RAP40-P162"
+      ],
+      "run_record": "owl-pet/production/runs/20261123T130430Z-cycle-2.md",
+      "research_record": "research/species/226-otus-icterorhynchus-v1.md",
+      "review_record": "research/reviews/226-otus-icterorhynchus-v1-review.md",
+      "batch_id": "20261123T130430Z",
+      "batch_cycle": 2,
+      "unique_species_increment": 1,
+      "git_blob": "228ba4cf162d5ea1e5fa8624c8ecdf2a21492748",
+      "bytes": 2704601,
+      "sha256": "c6ebd3a29419585d28a24323c3fe221f38f9b7c8771a7a672f3e49e4ed643fa1",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "228-athene-granti-v1",
+      "species_id": 228,
+      "scientific_name": "Athene granti",
+      "version": 1,
+      "path": "design/concepts/228-athene-granti-v1.png",
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "source_ids": [
+        "AGRA-MIKKOLA-2013-P482",
+        "AGRA-ITIS-1244682",
+        "AGRA-GIERSBERGEN-2024-PAVA366810",
+        "AGRA-BIRDQUEST-2023-P7"
+      ],
+      "run_record": "owl-pet/production/runs/20261123T130430Z-cycle-3.md",
+      "research_record": "research/species/228-athene-granti-v1.md",
+      "review_record": "research/reviews/228-athene-granti-v1-review.md",
+      "batch_id": "20261123T130430Z",
+      "batch_cycle": 3,
+      "unique_species_increment": 1,
+      "git_blob": "6673086f23b4d80c57ef22500523ccb18cae3ad6",
+      "bytes": 2719307,
+      "sha256": "4baf677f38d0f2774e41b69b3aab368c2640bae8969e84549f8980569431a455",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "229-athene-malaitae-v1",
+      "species_id": 229,
+      "scientific_name": "Athene malaitae",
+      "version": 1,
+      "path": "design/concepts/229-athene-malaitae-v1.png",
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "source_ids": [
+        "AMAL-MIKKOLA-2013-P483",
+        "AMAL-CALLAGHAN-2019-P1130",
+        "AMAL-ITIS-1244683",
+        "AMAL-GIERSBERGEN-2024-PAVA366606"
+      ],
+      "run_record": "owl-pet/production/runs/20261123T130430Z-cycle-4.md",
+      "research_record": "research/species/229-athene-malaitae-v1.md",
+      "review_record": "research/reviews/229-athene-malaitae-v1-review.md",
+      "batch_id": "20261123T130430Z",
+      "batch_cycle": 4,
+      "unique_species_increment": 1,
+      "git_blob": "fe07483db009ff1cd754963e5f9cd99e6325cec0",
+      "bytes": 2831177,
+      "sha256": "c37197f72a681d4d681ee16eee97057164543561097cb0c1a835632462e9f0f7",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "230-taenioptynx-sylvaticus-v1",
+      "species_id": 230,
+      "scientific_name": "Taenioptynx sylvaticus",
+      "version": 1,
+      "path": "design/concepts/230-taenioptynx-sylvaticus-v1.png",
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "source_ids": [
+        "TSYL-KWAN-2025-KERINCI-JUV",
+        "TSYL-GWEE-2019",
+        "TSYL-ITIS-1244680",
+        "TSYL-MIKKOLA-2013-P370",
+        "TSYL-MORRIS-BQ-SUNDA11"
+      ],
+      "run_record": "owl-pet/production/runs/20261123T130430Z-cycle-5.md",
+      "research_record": "research/species/230-taenioptynx-sylvaticus-v1.md",
+      "review_record": "research/reviews/230-taenioptynx-sylvaticus-v1-review.md",
+      "batch_id": "20261123T130430Z",
+      "batch_cycle": 5,
+      "unique_species_increment": 1,
+      "git_blob": "c4f960fbee7ba9800476200e9ca5b9a05d54c215",
+      "bytes": 2825630,
+      "sha256": "7161c6f81b1f2e343552d52e6c3e636c33cbeea640fd65856717a65e688d9b93",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "232-ninox-ochracea-v1",
+      "species_id": 232,
+      "scientific_name": "Ninox ochracea",
+      "version": 1,
+      "path": "design/concepts/232-ninox-ochracea-v1.png",
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "source_ids": [
+        "NOCH-KURODA-1954-P166",
+        "NOCH-MADIKA-2011-P98",
+        "NOCH-MIKKOLA-2013-P480",
+        "NOCH-ITIS-555485",
+        "NOCH-GIERSBERGEN-2016-PAVA278477"
+      ],
+      "run_record": "owl-pet/production/runs/20261123T130430Z-cycle-6.md",
+      "research_record": "research/species/232-ninox-ochracea-v1.md",
+      "review_record": "research/reviews/232-ninox-ochracea-v1-review.md",
+      "batch_id": "20261123T130430Z",
+      "batch_cycle": 6,
+      "unique_species_increment": 1,
+      "git_blob": "0f854c4375a1f279086a2ddab808d420a307bf64",
+      "bytes": 2670043,
+      "sha256": "476f3cda4bc0d94f23ce9c34894ff4bab6b7c3e83492c5ce0d124242a8634827",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ],
+  "completed_cycles": [
+    {
+      "cycle": 1,
+      "species_id": 225,
+      "scientific_name": "Otus socotranus",
+      "action": "NEW_SPECIES_CONCEPT",
+      "unique_species_increment": 1,
+      "archive_commit": "e9801abcd5f2db89caf707aa2e0df89fa628fad2",
+      "commit_sha": "728618bf6266bc1b3f1c58e0411474ce5431ce0a",
+      "run_record": "owl-pet/production/runs/20261123T130430Z-cycle-1.md",
+      "verified_at": "2026-11-23T13:10:45.661Z"
+    },
+    {
+      "cycle": 2,
+      "species_id": 226,
+      "scientific_name": "Otus icterorhynchus",
+      "action": "NEW_SPECIES_CONCEPT",
+      "unique_species_increment": 1,
+      "archive_commit": "8327f15b42028d05046459ff4a17360997165d2a",
+      "commit_sha": "e55a6aa34c7e886b62b674eff9008817d29c8a91",
+      "run_record": "owl-pet/production/runs/20261123T130430Z-cycle-2.md",
+      "verified_at": "2026-11-23T13:18:30.070Z"
+    },
+    {
+      "cycle": 3,
+      "species_id": 228,
+      "scientific_name": "Athene granti",
+      "action": "NEW_SPECIES_CONCEPT",
+      "unique_species_increment": 1,
+      "archive_commit": "84a7799a92304c8081dc0684fc6f4d616c0f24e1",
+      "commit_sha": "ffe2555d88ea8a5e03f1c05ac93103cca0cb0a8b",
+      "run_record": "owl-pet/production/runs/20261123T130430Z-cycle-3.md",
+      "verified_at": "2026-11-23T13:25:38.956Z"
+    },
+    {
+      "cycle": 4,
+      "species_id": 229,
+      "scientific_name": "Athene malaitae",
+      "action": "NEW_SPECIES_CONCEPT",
+      "unique_species_increment": 1,
+      "archive_commit": "c02136fa80acd3ff5475f7176ea07ab04c71cc4d",
+      "commit_sha": "f938596edd27c5616e44500aef40cd47166ba5f4",
+      "run_record": "owl-pet/production/runs/20261123T130430Z-cycle-4.md",
+      "verified_at": "2026-11-23T13:29:59.124Z"
+    },
+    {
+      "cycle": 5,
+      "species_id": 230,
+      "scientific_name": "Taenioptynx sylvaticus",
+      "action": "NEW_SPECIES_CONCEPT",
+      "unique_species_increment": 1,
+      "archive_commit": "64f481954ade1f3b3dfa3ff9129c76ad1b666902",
+      "commit_sha": "afb57d56d42f597fcae4f20da91bc2ff7c5fef96",
+      "run_record": "owl-pet/production/runs/20261123T130430Z-cycle-5.md",
+      "verified_at": "2026-11-23T13:35:23.703Z"
+    },
+    {
+      "cycle": 6,
+      "species_id": 232,
+      "scientific_name": "Ninox ochracea",
+      "action": "NEW_SPECIES_CONCEPT",
+      "unique_species_increment": 1,
+      "archive_commit": "2432cfeeb3ae19fb8ac8b485e3453451d4c18029",
+      "commit_sha": "1526d7ff244e999faf73d7410219908cdfe76301",
+      "run_record": "owl-pet/production/runs/20261123T130430Z-cycle-6.md",
+      "verified_at": "2026-11-23T13:41:06.747Z"
+    }
+  ]
+}

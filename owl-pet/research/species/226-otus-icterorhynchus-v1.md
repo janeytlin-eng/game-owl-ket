@@ -9,3 +9,7 @@ Accessed2026-11-23. Scope nominateWestAfricancontext, oldScopsicterorhynchus, Ci
 Neutraladultscalenostandingratio; olderjuvenileplainventrum/barredbackbasedguideonly. Closedeyesandlowfullysupportedforkposeavoidunknowniris/locomotion; notproof of age orsleepbehavior. Juvenilebillcolour provisionaladult-likeguidewordingnotdirectphoto, markunknownfinebareparts. Primarysearcholdname/mesoptileaddednoindependentyoungsource; no newborn invented. Nestmaterialsunknownomitted.
 ## Selfiteration
 #225retainedformedwingbecausephotographed; herewingchronologyunknownso avoidcrispadultpanels. Do notuniversallycutalljuvenilewings; selectedstageandactualevidencematter. Sourcebodypatternmustseparatelyscopedtoadultspotvsjuvenileplainbelly; futurepromptpreventionuntested.
+
+
+## 2026-11-23 本批收尾校正（保留前文历史）
+`OICT-RAP40-P162` 的出版年应为 **2006**，不是前文暂记2005。版权页PDF第4页Suggested citation已实际读取；全书编者Heather E. Wright、Jennifer McCullough、Leeanne E. Alonso、Mamadou Saliou Diallo；鸟类第5章作者Ron Demey与Hugo J. Rainey，英文篇章始于印刷159页。物种栖息地事实不变，不能据此增添幼鸟资料。

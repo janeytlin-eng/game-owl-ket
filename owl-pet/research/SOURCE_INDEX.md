@@ -5861,3 +5861,24 @@ Access2026-11-23. CurrentOchre-belliedBoobook; oldNoctuaochracea/Ninoxperversa. 
 Olderjuveniledescribedbybothprimaries, NOTnewborn: adult-likesilky/fluffier,paler/dullerbelow, whitewingmarks, modestformedclosedwing. Preciseage/flight/juvenileiris/billchronologyunknown. Closeeyesandmodestheadtiltdownonwidefork, feetandbellysupport; notclaimdocumentedpreening. Adultmale/femalesharepalette, maleonlysubtlyfullerwithinnear-equaldisplayifvisible; guidefemaleusuallysmaller, do notgenericfemale-large. Nohistoricsexcolourruleforced. Lowerbelliesplainochre/buffnotboldwhitechevronsfromunidentifiedNinox2011images. Nestunknownomitted. No independentverifiedjuvenilephoto, primarydescriptiononly; remainsconceptpendingcalibration.
 ## Problem/evidence/decision
 GuidejuvenileunknownrecheckedearlierliteraturewitholdnameN.perversa. Twoactualprimarydescriptionsprovideolderplumageboundarywithoutnewborninvention. Kurodalimitedsexcolourcontrastsnotupgradedtouniversals; sourceconflict/limits retained. CheckotherSunda/Malaitacurrentimagesnotapplytheirbellybars/eyesrule.
+
+
+## 2026-11-23 本批收尾校正（保留前文历史）
+`OICT-RAP40-P162` 的出版年应为 **2006**，不是前文暂记2005。版权页PDF第4页Suggested citation已实际读取；全书编者Heather E. Wright、Jennifer McCullough、Leeanne E. Alonso、Mamadou Saliou Diallo；鸟类第5章作者Ron Demey与Hugo J. Rainey，英文篇章始于印刷159页。物种栖息地事实不变，不能据此增添幼鸟资料。
+`AGRA-BIRDQUEST-2023-P7` 作者为 **Pete Morris**，原PDF第1页署名已实际读取；行程2023-07-08至08-04。前文作者未核验状态在此补齐，物种观察证据不变。
+
+
+## 20261123T130430Z 科学名—主题—来源ID—图像版本映射
+
+新增31条证据定位（生产25、暂缓6），其中外部来源记录23、复用同本图鉴分页8；图鉴分页ID是同一文献的定位别名，不算独立新文献。书目更正2项见下。各项访问日期2026-11-23；旧名、阶段、局限见研究记录。
+
+| 规范学名 | 主题/阶段 | 来源ID | 研究、图片与检查 |
+|---|---|---|---|
+| *Otus socotranus* | 形态、性别边界、较大幼鸟、环境、分类 | OSOC-MIKKOLA-2013-P132 / OSOC-PORTER-SULEIMAN-2013-P65-66 / OSOC-ITIS-1063239 | [研究](species/225-otus-socotranus-v1.md) · [原图](../design/concepts/225-otus-socotranus-v1.png) · [检查](reviews/225-otus-socotranus-v1-review.md) |
+| *Otus icterorhynchus* | 形态、性别边界、较大幼鸟、环境、分类 | OICT-MIKKOLA-2013-P133 / OICT-DIJKSTRA-2011-ABC16993 / OICT-ITIS-555365 / OICT-RAP40-P162 | [研究](species/226-otus-icterorhynchus-v1.md) · [原图](../design/concepts/226-otus-icterorhynchus-v1.png) · [检查](reviews/226-otus-icterorhynchus-v1-review.md) |
+| *Athene granti* | 形态、性别边界、较大幼鸟、环境、分类 | AGRA-MIKKOLA-2013-P482 / AGRA-ITIS-1244682 / AGRA-GIERSBERGEN-2024-PAVA366810 / AGRA-BIRDQUEST-2023-P7 | [研究](species/228-athene-granti-v1.md) · [原图](../design/concepts/228-athene-granti-v1.png) · [检查](reviews/228-athene-granti-v1-review.md) |
+| *Athene malaitae* | 形态、性别边界、较大幼鸟、环境、分类 | AMAL-MIKKOLA-2013-P483 / AMAL-CALLAGHAN-2019-P1130 / AMAL-ITIS-1244683 / AMAL-GIERSBERGEN-2024-PAVA366606 | [研究](species/229-athene-malaitae-v1.md) · [原图](../design/concepts/229-athene-malaitae-v1.png) · [检查](reviews/229-athene-malaitae-v1-review.md) |
+| *Taenioptynx sylvaticus* | 形态、性别边界、较大幼鸟、环境、分类 | TSYL-KWAN-2025-KERINCI-JUV / TSYL-GWEE-2019 / TSYL-ITIS-1244680 / TSYL-MIKKOLA-2013-P370 / TSYL-MORRIS-BQ-SUNDA11 | [研究](species/230-taenioptynx-sylvaticus-v1.md) · [原图](../design/concepts/230-taenioptynx-sylvaticus-v1.png) · [检查](reviews/230-taenioptynx-sylvaticus-v1-review.md) |
+| *Ninox ochracea* | 形态、性别边界、较大幼鸟、环境、分类 | NOCH-KURODA-1954-P166 / NOCH-MADIKA-2011-P98 / NOCH-MIKKOLA-2013-P480 / NOCH-ITIS-555485 / NOCH-GIERSBERGEN-2016-PAVA278477 | [研究](species/232-ninox-ochracea-v1.md) · [原图](../design/concepts/232-ninox-ochracea-v1.png) · [检查](reviews/232-ninox-ochracea-v1-review.md) |
+| *Otus capnodes* | 成鸟形态/环境；幼鸟未知、暂缓 | OCAP-MIKKOLA-2013-P141 / OCAP-SAFFORD-1993 / OCAP-GREEN-2015 / OCAP-ITIS-686654 | [保留研究](species/227-otus-capnodes-deferred.md)，无图、不计完成 |
+| *Ninox forbesi* | 成鸟/旧名；幼鸟未知、暂缓 | NFOR-MIKKOLA-2013-P490 / NFOR-ITIS-1063271 | [保留研究](species/231-ninox-forbesi-deferred.md)，无图、不计完成 |

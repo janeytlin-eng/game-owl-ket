@@ -6022,3 +6022,7 @@ Reused existing source IDs from [v1](species/218-otus-nigrorum-v1.md); source ac
 No new independent sources; no scientificapproval. [v2 research/fullprompt](species/218-otus-nigrorum-v2.md) · [image](../design/concepts/218-otus-nigrorum-v2.png) · [review](reviews/218-otus-nigrorum-v2-review.md).
 
 本子轮校正：提示准备时误填的DOI已撤回；PDF正文无可读DOI，保留机构原文URL，不将未核实标识写作事实。来源更正1项，非新增文献。
+
+
+## Final source crosscheck 2026-11-23T17:41:44.943Z
+Uploaded Mikkola2013 nativefile libfile_fde3_f-916e2244186c81918fe5a0716884b8c9_7a934266b8748191824cde4d0af03f29 accessible and actually reread this invocation: #215 printed182/PDF184, #216 printed180/PDF182, #217 printed186/PDF188, #218 printed173/PDF175. Direct juvenileparagraphs confirm retainedstage boundaries. This reread followed imageverification; no new biological inference or pixelchange required. Samebook1source not4newdocuments. Miranda2011 Table2 printed446 reread: nigrorum male wing134.75/tarsus23.2 versusfemale148.33/21.73 mm; bodymass/standingheightnotgiven, retainboundeddisplay. DOIunknown entry removed, no fabricatedidentifier.

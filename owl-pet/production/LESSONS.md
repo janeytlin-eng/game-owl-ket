@@ -173,3 +173,7 @@ Problem: modern secondary phrase 'juvenile similaradult' would erase directly de
 ## 20261123T1640Z-cycle-2 Megascops hoyi
 
 Problem: a researchedconcept cantravelwithoutsidecar andreadascalibratedbiologywhennoimagefooter. Evidence: actualv4lackedstatus; researchsayssciencefalseandyoungbarepartscalibrationunknown. Change: visiblependingfooter+specificunknownnote, preservingevidencedstage. Review: bothactuallyreadonv5, notablanketqualityclaim. Backcheckcontactsheetfound#215–218lackfooter; queueannotationrevisiononly, do not countasnewscienceornewspecies. #220/#221alreadyhavefooter—do notregenerateforit. Sourcebodyreuse isnotnewliteraturediscovery.
+
+
+## 20261123T1640Z resumed annotation audit
+Observed4exportedplates215–218 lackedvisiblepending-scientificstatus while sidecarswerefalse. Appliedfooteronly andviewedfull/nativecrop, retainedallunknownnotes/support/stages; toolslightlyrerenderstextures so checkallbirdsaftertextedit. Validatedreadabilityandinvariantsforthese4only, notbiologicalcalibration. #129existingarchive recovery avoidsduplicateimagegeneration. Rejected216darkclawhypothesisafterivoryclawview; nochangejustforchange. Do not turnsource-reusecounts into newdocuments; uploadedguide4pages=1book. Missing-speciesqueue remainsprimarydevelopmentresearchpriority afterboundedannotationqueueclosed.

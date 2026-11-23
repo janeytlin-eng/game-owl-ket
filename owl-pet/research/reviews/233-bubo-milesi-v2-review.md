@@ -1,0 +1,5 @@
+# Actualreview 233-bubo-milesi-v2
+PASS_WITH_LIMITATIONS; scientifically_verified:false; no new userapproval.
+Edited full1536x1024 plate and tight juvenile head crop actually viewed against original2018juvenilephoto. Crown bright adultlike pale speckling reduced; subtle transverse gray/tawny head marks now dominate. Tiny flat tufts, yellow eyes/dark bill, juvenile loose barred body and formed folded wing/tail unchanged. Both adults retained fine tawny markings/near-equal scale; no change of foot support/text/wadi. Warm palette is artistic lighting and not calibrated sourcecolour. Fine head-feather geometry/precise juvenile age still unknown; local visual objective met, no independent scientific signoff. SamepaperFig4 Otus scops excluded as juvenile reference, no cave-nest assumption. v1retained; one directed edit; zero extra post-output edits.
+Generation 2026-11-23T15:32:23.998Z→2026-11-23T15:33:04.373Z; reviewed 2026-11-23T15:33:37.370Z; one imagegen edit/revision, no extra edit after this accepted output.
+{"bytes":2805907,"sha256":"c89414a5452d9dfd9d9849e85a4a19474d0375a996a05ad83904140df2edeeee","dimensions":[1536,1024]}

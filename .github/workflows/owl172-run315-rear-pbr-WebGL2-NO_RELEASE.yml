@@ -1,0 +1,106 @@
+name: Owl172 Run315 real native rear PBR baseline-vs-matte-vs-unlit WebGL2 - NO RELEASE
+
+on:
+  push:
+    branches:
+      - research/owl172-run315-rear-pbr-control-NO_RELEASE
+    paths:
+      - '.github/workflows/owl172-run315-rear-pbr-WebGL2-NO_RELEASE.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  independent-rear-shading-experiment:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout only #172 independent research code
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/run311b-original-continuous-sculpt-python-gzip-base64.md
+            owl-pet/3d-experiments/172-tyto-castanops/run314-exact-curved-down-card-source-gzip-base64.md
+            owl-pet/3d-experiments/172-tyto-castanops/run315-glb-pbr-rear-controlled-actual-NO_RELEASE.py
+      - name: Setup free Python, software 3D renderer and browser
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install open-source, no-credit tools only
+        shell: bash
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libosmesa6 libegl1 libgl1-mesa-dri xvfb
+          python -m pip install --disable-pip-version-check --no-cache-dir numpy scipy scikit-image trimesh vtk pillow playwright
+          python -m playwright install --with-deps chromium
+          npm init -y
+          npm install --no-audit --no-fund three@0.180.0
+      - name: Recover original two audited model source files byte-for-byte
+        shell: bash
+        run: |
+          python - <<'PY'
+          import re,gzip,base64,pathlib,hashlib
+          root=pathlib.Path('owl-pet/3d-experiments/172-tyto-castanops')
+          source=[('run311b-original-continuous-sculpt-python-gzip-base64.md',
+                 'sculpt_run311b.py',13008,'9e630af2b50b86709cbbf878a41b6e8a8beb45de97c1453902f98699aa56ecf5'),
+                  ('run314-exact-curved-down-card-source-gzip-base64.md',
+                 'groom_A.py',5656,'e4b46fa8a178146dabfd6145a4a565aab3e95bd37a394e8e340b8ae195c51e9c')]
+          for src,target,size,sha in source:
+            match=re.search(r'(?s)```base64\s+([A-Za-z0-9+/=\s]+?)\s+```',(root/src).read_text())
+            assert match,src
+            blob=gzip.decompress(base64.b64decode(''.join(match.group(1).split())))
+            assert len(blob)==size and hashlib.sha256(blob).hexdigest()==sha,src
+            pathlib.Path(target).write_bytes(blob)
+            print('AUDITED_ORIGINAL_SOURCE_OK',target,sha)
+          PY
+          python -m py_compile sculpt_run311b.py groom_A.py owl-pet/3d-experiments/172-tyto-castanops/run315-glb-pbr-rear-controlled-actual-NO_RELEASE.py
+      - name: Rebuild exact previously rejected authentic native 3D scene, not a mockup
+        shell: bash
+        env:
+          OWL_OUT: /tmp/owl172_run315_base
+        run: |
+          mkdir -p "$OWL_OUT" research/A /tmp/owl172_run315
+          xvfb-run -a -s "-screen 0 1280x1024x24" python sculpt_run311b.py > /tmp/owl172_run315/base_build.log 2>&1
+          test -s "$OWL_OUT/owl172_run311b_original_sculpt_RESEARCH_ONLY.glb"
+          python groom_A.py --src "$OWL_OUT/owl172_run311b_original_sculpt_RESEARCH_ONLY.glb" --count 6500 --out research/A > /tmp/owl172_run315/down_build.log 2>&1
+          test -s research/A/run314_curved_down_6500_RESEARCH_ONLY_NO_RELEASE.glb
+      - name: Actual GLB material audit, baseline-vs-matte-vs-unlit binary controls and reimports
+        shell: bash
+        env:
+          OWL315_OUT: /tmp/owl172_run315
+        run: |
+          python owl-pet/3d-experiments/172-tyto-castanops/run315-glb-pbr-rear-controlled-actual-NO_RELEASE.py produce | tee /tmp/owl172_run315/binary_qa_stdout.log
+          ln -s /tmp/owl172_run315/models models
+      - name: Real 390x780 Chromium WebGL2 twelve angle captures and pixel metrics
+        shell: bash
+        env:
+          OWL315_OUT: /tmp/owl172_run315
+        run: |
+          python owl-pet/3d-experiments/172-tyto-castanops/run315-glb-pbr-rear-controlled-actual-NO_RELEASE.py browser | tee /tmp/owl172_run315/browser_qa_stdout.log
+      - name: Preserve source files and immutable no-release research summary
+        if: always()
+        shell: bash
+        run: |
+          cp owl-pet/3d-experiments/172-tyto-castanops/run315-glb-pbr-rear-controlled-actual-NO_RELEASE.py /tmp/owl172_run315/ || true
+          printf '%s\n' 'Original #172 v3 rightmost art baseline rejected; no candidate for user release.' 'This job can pass technically while still failing visual/physical phone quality.' > /tmp/owl172_run315/NO_RELEASE.txt
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib,json
+          p=Path('/tmp/owl172_run315')
+          record={}
+          for f in sorted(p.rglob('*')):
+            if f.is_file() and not f.is_symlink():
+              record[str(f.relative_to(p))]={'sha256':hashlib.sha256(f.read_bytes()).hexdigest(),'bytes':f.stat().st_size}
+          (p/'file_hashes.json').write_text(json.dumps(record,indent=2)+'\n')
+          print('Actual proof files',len(record))
+          PY
+      - name: Upload research evidence only, never production models
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run315-rear-shading-controlled-REJECTED-NO_RELEASE
+          path: /tmp/owl172_run315
+          retention-days: 14
+          if-no-files-found: warn

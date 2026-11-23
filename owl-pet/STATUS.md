@@ -1,3 +1,6 @@
+## 2026-11-23 — #203 Middle American Screech Owl v1 verified
+Cycle2/6 batch20261123T043309Z, next3. New1,revision0; archive6b82991b24983021c4b329bab7b93665adadcddc;verification06196eea0f0e21622344b2dbc92f60322dca69f1. Original downloaded/hash/decode PASS; full+3crops reviewed; one juvenile-wing edit;sciencefalse/PASS_WITH_LIMITATIONS. Legacy178 count is not strict unique: taxon-name audit176/251, canonical251 roster reconciliation pending. [Original](design/concepts/203-megascops-guatemalae-v1.png),[review](research/reviews/203-megascops-guatemalae-v1-review.md).
+
 ## 2026-11-23 — #202 Ninox theomacha v1 VERIFIED and credited
 New unique species+1:177/251; revision+0. Archive 771e3ed9c19de0edb0ed3e88ca4d68a43ba51548; verification 35c5974d8e72996caccae56824b4629110710fd1. Remote original downloaded/decoded and hash matched; four manifests each one entry; sciencefalse/PASS_WITH_LIMITATIONS. Batch 20261123T043309Z1/6 PARTIAL,next_cycle2,lease released. All original task requirements retained after resumption. Full fixed251 roster still pending reconciliation; no global taxonomy count change asserted.
 

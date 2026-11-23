@@ -1,6 +1,6 @@
 # #172 Tyto castanops v3 rightmost cream downy chick — Run320 genuine native GLB microgroom A/B
 
-**2026-11-23 (Shanghai)** — status: **REAL_NATIVE_3D_A_B_VERIFIED / SOURCE_TEXTURES_PRESERVED / THREE_VIEW_VTK_QA / ART_REJECTED / MOBILE_WEBGL_NOT_TESTED / RIGHTS_HOLD / STRICT_NO_RELEASE**.
+**2026-11-23 (Shanghai)** — status: **REAL_NATIVE_3D_A_B_VERIFIED / SOURCE_TEXTURES_PRESERVED / THREE_VIEW_VTK_QA / CHROMIUM_WEBGL2_TECH_PASS / ART_REJECTED / PHYSICAL_PHONE_UNTESTED / RIGHTS_HOLD / STRICT_NO_RELEASE**.
 
 ## Existing project & last attempts reviewed first
 
@@ -40,3 +40,17 @@ Actually opened all views. A 2,600 fibers: the surface gets a slightly more vari
 ### Next meaningful gate
 
 No more simple feather-density A/B. Acquire or create high-quality true juvenile artistic sculpt with anatomically integrated heart-shaped feather disc, proper short wings/shoulders, feather volume and believable hollow foot contact; preserve real front/right/back shape under actual mobile WebGL, resolve rights, and only then consider a user-facing playable sample.
+
+## Remote actual Chromium WebGL2 final independent QA — corrected Run320
+
+- First [native-only Run320](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/45155982645) generated geometry but predates explicit PBR safeguard. [Run320 after PBR](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/45156160415) actually generated both meshes and views but had a **research QA assertion bug**: after adding explicit PBR, Trimesh describes vertex-colored fiber geometry as `visual.kind=texture` rather than `vertex`. The actual GLB still includes `COLOR_0` and the correct material. The mis-specified assertion caused failure; it was corrected to inspect the real glTF `COLOR_0` attribute and matte material.
+- [Corrected native QA Run320](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/45156370581) passed. Next, the [**final Run320 real browser test**](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/45156522086) actually rebuilt both assets from exact source and used Chromium, Three.js GLTFLoader and SwiftShader WebGL2 in **390×780 simulated phone viewport**, with actual physically distinct correct **-Z front, +X anatomical right and +Z back** view screenshots for both variants.
+- The final Run320 [original raw evidence artifact #14807833766](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/45156522086/artifacts/14807833766) was independently downloaded and opened, ZIP **9,289,065 bytes**, SHA256 `d4eec6f9eaa99b7e2fe1d94535ebee56b8cba9fe7fad02c1154d72ddd86d0137`; **28/28 ZIP CRC entries passed**, **25/25 top-level and nested evidence manifest hashes plus byte lengths passed**. Contains source original GLB, two new native GLBs, nine actual VTK three-view images, an A/B montage, six real WebGL2 browser screenshots, browser diagnostics and strict NO_RELEASE marker. GitHub artifact expected expiry **2026-12-07 10:30 UTC**.
+- Remote GLB hashes (different from local byte serialization, geometries/face counts same):
+  - **A:** 3,323,736 bytes; SHA256 `c3bd5541cfbb68f58661bda698016a8831a9b9fd59ca7d295b247d446730ed76`, two meshes, **37,772** triangles.
+  - **B:** 4,554,940 bytes; SHA256 `b6cec9922cb8293378a56dcb3b97ed16b679009d03bbce082bcbac0afc76d900`, two meshes, **60,572** triangles.
+  - Correctly parsed glTF: original UV mesh retains two source embedded textures; new fiber mesh has actual `COLOR_0` vertex-color attribute; explicit **metallic=0, roughness=1, doubleSided=true** on fiber primitive; not the prior default-metallic rear-black material.
+- Actual browser results: **both models loaded, WebGL2 status READY, 2 meshes, 2 materials**. Each has three distinct screenshots with nonempty object silhouettes; occupancy A front/right/back **20.134% / 16.561% / 18.769%**, B **19.935% / 15.939% / 17.343%**. Browser A logged one static-resource 404, though the actual model loaded and rendered; B had no recorded console errors. These are **software-GPU browser technical results**, *not* a physical Android or iPhone frame-time / memory / touch verification.
+- I actually opened the six browser screenshots side by side. Both variants show **visible fine light scratch/speckle texture on side/rear, but still almost identical smooth inflated silhouette**. A is scarcely different from original except speckling; B increases speckles across the back without establishing organically soft plumulaceous down, tucked wings, proper feather tracts, believable rear anatomy or supported eucalypt-hollow feet. Neither can pass professional art gate. Browser color is no longer black on the back, but soft feathers still do not read convincingly. **ART_REJECTED / NO_RELEASE** unchanged. No claim of art improvement equivalent to quality acceptance.
+
+This addendum records **actual completed work and independent checked evidence**, not a promised future task. The software experiment and remote artifacts are separately archived on this research branch/Actions; the binary evidence is transient, while source/audit are committed. No external fees.

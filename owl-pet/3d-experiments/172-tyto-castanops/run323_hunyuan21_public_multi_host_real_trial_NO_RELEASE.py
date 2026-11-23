@@ -72,7 +72,7 @@ def main():
      'production_251_untouched':True,'release':False,'providers':[],'native_models':0}
   dump(OUT/'report.json',report)
   with sync_playwright() as pw:
-    browser=pw.chromium.launch(headless=True,args=['--no-sandbox','--disable-dev-shm-usage',
+    browser=pw.chromium.launch(executable_path='/usr/bin/google-chrome',headless=True,args=['--no-sandbox','--disable-dev-shm-usage',
       '--enable-unsafe-swiftshader','--use-gl=angle','--use-angle=swiftshader'])
     for name,site in SITES:
       rec={'name':name,'url':site,'status':'PENDING','generation_clicked':False,

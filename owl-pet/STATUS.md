@@ -1,3 +1,6 @@
+## 2026-11-23 #205 Glaucidium brasilianum VERIFIED
+Batch20261123T043309Z 4/6,next5. New1,revision0;archive3b61b8da652f967bc0d179d5abd56b9914d80e6d;verification2e2ae71da05d9dadd812e9aba253c6a4af5feb81. Full+3crops checked;PASS_WITH_LIMITATIONS/sciencefalse. Strictnameaudit178/251;legacy180 notverifiedstrictunique.
+
 ## 2026-11-23 #204 Glaucidium sjostedti VERIFIED
 Batch20261123T043309Z 3/6,next4. New1,revision0;archivea1d780423c69a35e12f2d18956d7170a7105466d;verification07a3eaa94ebc0dc24c989cf814afddf0f10ad583. Full+3crops checked;PASS_WITH_LIMITATIONS/sciencefalse. Strictnameaudit177/251;legacy179 notverifiedstrictunique.
 

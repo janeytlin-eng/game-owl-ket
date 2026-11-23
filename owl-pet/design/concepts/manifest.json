@@ -37325,6 +37325,40 @@
       "verification_commit": "88b9b4ecd565dc8f17d11fc59549a53f18051957",
       "exact_readback": true,
       "ledger_credited": true
+    },
+    {
+      "id": "05-strix-aluco-v5",
+      "path": "design/concepts/05-strix-aluco-v5.png",
+      "species_id": 5,
+      "scientific_name": "Strix aluco",
+      "common_name": "Tawny Owl",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "source_ids": [
+        "TAO-MIKKOLA-2013-P315",
+        "TAO-BOT-OWLET",
+        "TAO-BTO-FACTS",
+        "TAX-EBIRD-2025-MAURITANICA-LUMP"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/05-strix-aluco-v5.md",
+      "review_record": "research/reviews/05-strix-aluco-v5-review.md",
+      "run_record": "owl-pet/production/runs/20261123T113345Z-cycle-6.md",
+      "edit_count": 2,
+      "bytes": 2621054,
+      "sha256": "d2f2dcabd7082fa07c6a54b45d3e8e80eb0dea67590753c2085762cc7f0fa011",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "git_blob": "2ff7a6e2b12143305fc2519e0cbb308ad23d3137",
+      "batch_id": "20261123T113345Z",
+      "batch_cycle": 6,
+      "readback_pending": true
     }
   ],
   "updated_at": "2026-11-23T11:53:27.824Z"

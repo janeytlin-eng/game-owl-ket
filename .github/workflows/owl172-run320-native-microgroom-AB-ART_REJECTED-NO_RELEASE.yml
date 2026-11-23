@@ -51,7 +51,7 @@ jobs:
             --output-dir owl172-run320-evidence | tee owl172-run320-evidence/actual_execution.log
           python - <<'PY'
           from pathlib import Path
-          import trimesh
+          import trimesh,json,struct
           root=Path('owl172-run320-evidence')
           for key,n in [('A',37772),('B',60572)]:
               p=root/f'run320-{key}-microgroom-ART_REJECTED_NO_RELEASE.glb'
@@ -60,7 +60,16 @@ jobs:
               assert ntri==n,(key,ntri)
               assert len(scene.geometry)==2
               assert any(g.visual.kind=='texture' for g in scene.geometry.values())
-              assert any(g.visual.kind=='vertex' for g in scene.geometry.values())
+              # PBR material on a vertex-COLOR_0 mesh is reported as TextureVisuals by trimesh;
+              # validate actual glTF attribute and material instead of stale visual.kind.
+              b=p.read_bytes()
+              jl=struct.unpack_from('<I',b,12)[0]
+              doc=json.loads(b[20:20+jl])
+              assert any('COLOR_0' in prim['attributes'] for mesh in doc['meshes'] for prim in mesh['primitives'])
+              assert any(mat.get('name')=='mesoptile_nonmetallic_soft_matte'
+                         and mat['pbrMetallicRoughness']['metallicFactor']==0
+                         and mat.get('doubleSided') is True
+                         for mat in doc['materials'])
           assert len(list(root.glob('run320-*.png')))==9
           PY
       - name: Evidence SHA256 and hard NO RELEASE label

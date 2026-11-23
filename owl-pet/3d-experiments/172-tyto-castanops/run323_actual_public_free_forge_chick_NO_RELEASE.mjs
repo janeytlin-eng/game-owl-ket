@@ -34,6 +34,13 @@ function checkNative(buf){
   material_count:j.materials?.length||0,image_count:j.images?.length||0};
 }
 function saveGLB(buf,url,source){
+ // A legitimate GLB from the website's marketing/demo is NOT a requested
+ // juvenile generation. Gate capture on real normal-form submission.
+ if(report.generation_attempts!==1 ||
+    /robotexpressive|demo|samples?|examples?|landing|avatars?\//i.test(String(url))){
+   step('passive-site-GLB-ignored-NOT-a-generated-chick',{url:String(url).slice(0,200),source});
+   return;
+ }
  if(report.generated_native_glb)return;
  try {
   const meta=checkNative(buf),p=path.join(OUT,'run323-public-free-NATIVE-RESEARCH-ART_UNAPPROVED.glb');
@@ -82,8 +89,19 @@ try{
  if(/generator not configured|no 3d engine is reachable/i.test(s.text))throw Error('Provider explicitly says generator unconfigured');
  // Activate the normal "From photos" UI. Never open protected URLs or private APIs.
  let toggle=page.getByRole('button',{name:/From photos/i});
- if(await toggle.count()){await toggle.first().click();await page.waitForTimeout(1100);}
+ if(await toggle.count()){
+   step('photo-tab-before',{markup:(await toggle.first().evaluate(e=>e.outerHTML).catch(()=>'' )).slice(0,900)});
+   await toggle.first().click();
+   await page.waitForTimeout(1600);
+   step('photo-tab-after',{markup:(await toggle.first().evaluate(e=>e.outerHTML).catch(()=>'' )).slice(0,900)});
+ }
  s=await snap(page,'02-photo-ui');
+ report.visible_form_state=s.text.slice(0,1300);
+ if(/Describe the object to generate[\\s\\S]{0,200}Name one object/.test(s.text)){
+   step('photo-tab-failed-to-switch',{visible_text:s.text.slice(0,900)});
+   // do not set hidden photo inputs belonging to inactive components.
+   throw Error('Public UI remained in DESCRIBE IT mode after From photos tab click');
+ }
  if(!s.files.length)throw Error('No public normal image input in hydrated photo UI');
  // Select a free engine in normal public UI, if it has one.
  if(/TripoSG/i.test(s.text)){
@@ -102,6 +120,7 @@ try{
  if(!put)throw Error('Ordinary image file selection was not possible');
  await page.waitForTimeout(7000);
  s=await snap(page,'03-after-source-upload');
+ step('upload-observed-state',{visible_text:s.text.slice(0,1800),trailing_buttons:s.buttons.slice(-15)});
  const hasPreview=s.files.some(x=>x.count>0)||s.pictures.some(x=>/blob:|data:image/i.test(x.src))||
   /\b1 of 1 views\b|\b1 of \d views\b|photo.*added|image.*uploaded|remove image/i.test(s.text);
  if(!hasPreview)throw Error('Upload not established: no accepted preview or retained filename; stop before generation');

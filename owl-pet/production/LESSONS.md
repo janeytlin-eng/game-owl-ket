@@ -189,3 +189,7 @@ Problem: external juvenile observations can belong to another subspecies even wh
 
 ## 20261123T1933Z cycle1 #235 actual edit
 Problem: Socotra style reference leaked its bold pale scapular stripe and hard young remiges into Arabian bird. Bates1936p19/1937p150 support earthy older juvenile with down remnants and weaker shafts; photographed Arabian adults support subdued scapular areas. Applied isolated identity/wing correction and viewed full plus youngcrop. Final softened short formed wing/fragmented buff scapularflecks passed bounded check. Reused style must explicitly exclude donor anatomy; validated only #235. An adjacent catalogue 'youngfemale' belonged another taxon and was rejected; correct pamelae holotype is adultfemale. No general sex-size/flight rule inferred.
+
+
+## 20261123T1933Z cycle2 #236
+Observed bright unsupportedyoungbill and crisp adult-hard lower wing panel. Primary2012 supports qualitative older-young irregular ventralstreaking, not barepartcolour/timeline. Targetededit used mutednon-diagnostic bill and soft contourveil over a retained formedwing. Full/nativecrop verified improvement only for236. A tempting nearby 'especially youngbirds' sentence belongs reyi, NOT spilonota; sectionboundary checked before selecting missingreyi. #235differentstage/reference mustnotinheritthisspecies' pattern. Unknowns remain explicit, not scientificpass.

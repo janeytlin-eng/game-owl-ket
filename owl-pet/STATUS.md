@@ -1,3 +1,6 @@
+## 2026-11-23T19:56:04.525Z #235/#236 new concepts archived, verificationinprogress
+Unique203→205/251 after2newtaxa; #235verified, #236remoteverificationpending. No newuserconfirmation or scientificpass. [Currentbatch](production/runs/20261123T1933Z-cycle-2.md).
+
 ## 2026-11-24 本次6轮完成
 新增0种，修订6组：#204v2幼鸟羽纹与翼形修订；#203/#206/#209/#202/#207v2为证据边界标识修订。仍203/251，剩余48；科学通过新增0。其他未完批次0，下一子轮新批次1/6。 [编号原图与提交入口](production/batches/20261123T1830Z-completed-review.md)。全任务未完成，未暂停。
 

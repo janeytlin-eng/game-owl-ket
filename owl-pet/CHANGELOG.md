@@ -1,3 +1,6 @@
+## 2026-11-24 20261123T1933Z firsttwo newconcepts
+Added #235 Otus pamelae v1 and #236 Ninox reyi v1 originals, actual initial+edited review, primary page-specificresearch and index. Each1targetededit; userconfirmationspreserved; sciencefalse. #235verified fcc6694f47e6c2d7f273013dc3273e5d408529c2; #236verificationpendingthiscommit.
+
 ## 2026-11-24 本次6轮完成
 新增0种，修订6组：#204v2幼鸟羽纹与翼形修订；#203/#206/#209/#202/#207v2为证据边界标识修订。仍203/251，剩余48；科学通过新增0。其他未完批次0，下一子轮新批次1/6。 [编号原图与提交入口](production/batches/20261123T1830Z-completed-review.md)。全任务未完成，未暂停。
 

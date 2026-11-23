@@ -162,3 +162,6 @@ Wing-endpoint constraint applied before generation: #204 initial young had short
 
 ## 2026-11-23 #207 — do not generalize heavy down to fully feathered fledglings
 ABSA2019p1 says nearlycompletejuvenileplumage/littleremainingdown. Initial#207excesscurlydownfailed;oneeditreplacedwithdarkgreycontourfeathers,full+3cropsrechecked. Stage-specificdown/pattern/wingconstraintsneedindependentchecks. Appliededitworked;firstgenerationpreventionuntested. Earlier#203/#205/#206weredifferentdescribedstages,noautomaticuniversalrollback. Nameparsermustmatchwholeversionstemincludingthree-partsubspecies: #25/#205samecurrentGbrasilianum,creditcorrectedwithoutdeletinghistory.
+
+## 2026-11-23 #208 applied mesoptile wing correction
+Initial#208 retained long mature remiges despite soft-wing prompt. One actual imagegen edit replaced them with short rounded contour-covered wing, full+3role crop montage rechecked. Stage-specific prompt alone again insufficient; edited correction effective in this image only. Crown markings remain conspicuous concept stylization; bill colour conflict and unknown sex-size/young age/flight/nest are not science-passed. [Review](reviews/208-ninox-affinis-v1-review.md).

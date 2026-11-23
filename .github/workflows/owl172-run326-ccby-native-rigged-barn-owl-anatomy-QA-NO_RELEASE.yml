@@ -93,7 +93,7 @@ jobs:
               b=p/poses[1]/('yaw_%03d.png'%yaw)
               if a.exists() and b.exists():
                   hist=ImageChops.difference(Image.open(a).convert('RGB'),Image.open(b).convert('RGB')).convert('L').histogram()
-                  pairs.append(dict(yaw_deg=y,pixels_changed_over_25_pct=round(100*sum(hist[26:])/sum(hist),4)))
+                  pairs.append(dict(yaw_deg=yaw,pixels_changed_over_25_pct=round(100*sum(hist[26:])/sum(hist),4)))
           states={}
           for pose in poses:
               f=p/pose/'browser-report.json'

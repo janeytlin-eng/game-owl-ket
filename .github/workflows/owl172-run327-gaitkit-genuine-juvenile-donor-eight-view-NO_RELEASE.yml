@@ -1,0 +1,127 @@
+name: "Owl172 Run327 free juvenile 3D donor native geometry plus 8-view WebGL2 NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run327-no-fee-true-juvenile-donor-geometry-QA-NO_RELEASE
+    paths:
+      - .github/workflows/owl172-run327-gaitkit-genuine-juvenile-donor-eight-view-NO_RELEASE.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  isolated-juvenile-source-QA:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/run327_free_true_juvenile_anatomy_donor_NO_RELEASE.py
+            owl-pet/3d-experiments/172-tyto-castanops/run322_native_orbit_chromium_NO_RELEASE.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run322_native_orbit_research_NO_RELEASE.html
+            .github/workflows/owl172-run327-gaitkit-genuine-juvenile-donor-eight-view-NO_RELEASE.yml
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Actual public juvenile native GLB download, license page and roundtrip audit
+        id: source
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          python -m pip install -q requests trimesh numpy pillow
+          python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/run327_free_true_juvenile_anatomy_donor_NO_RELEASE.py
+          python -u owl-pet/3d-experiments/172-tyto-castanops/run327_free_true_juvenile_anatomy_donor_NO_RELEASE.py owl172-run327-evidence | tee run327-download.log
+      - name: True WebGL2 eight spatial views, 390x780 mobile-shaped viewport
+        id: render
+        continue-on-error: true
+        if: steps.source.outcome == 'success'
+        run: |
+          set -o pipefail
+          npm install --no-audit --no-fund --no-save playwright-core@1.58.2 three@0.170.0 pngjs@7.0.0
+          MODEL=owl172-run327-evidence/gaitkit_eaglet_juvenile_anatomy_comparison_NOT_AN_OWL_NO_RELEASE.glb
+          CHROME_BIN=/usr/bin/google-chrome node owl-pet/3d-experiments/172-tyto-castanops/run322_native_orbit_chromium_NO_RELEASE.mjs "$MODEL" owl172-run327-evidence/real-webgl2 | tee owl172-run327-evidence/real-browser.log
+      - name: Genuine evidence contact sheet, all source SHA256, conservative status
+        if: always()
+        run: |
+          python - <<'PY'
+          import hashlib,json
+          from pathlib import Path
+          p=Path('owl172-run327-evidence');p.mkdir(exist_ok=True)
+          browser=p/'real-webgl2/browser-report.json'
+          status={'run':327,'native_source_step':'${{ steps.source.outcome }}',
+            'native_browser_step':'${{ steps.render.outcome }}',
+            'target':'#172 Tyto castanops v3 rightmost chick',
+            'candidate':'golden eaglet, not an owl',
+            'model_of_target':False,'art_approved':False,'release':False,
+            'phone_emulated_not_real':True,'extra_paid_usd':0}
+          if browser.exists():
+            b=json.loads(browser.read_text())
+            status['actual_webgl2_load']=b.get('technicallyLoaded',False)
+            status['actual_views']=[x.get('yaw') for x in b.get('views',[])]
+            status['browser_errors']=b.get('consoleErrors',[])+([b.get('error')] if b.get('error') else [])
+          else:
+            status['actual_webgl2_load']=False;status['actual_views']=[]
+          try:
+            from PIL import Image,ImageDraw
+            poses=sorted((p/'real-webgl2').glob('yaw_*.png'))
+            if len(poses)==8:
+              board=Image.new('RGB',(4*224,2*480),(238,232,226))
+              d=ImageDraw.Draw(board)
+              for i,f in enumerate(poses):
+                im=Image.open(f).convert('RGB')
+                im.thumbnail((224,458))
+                x=(i%4)*224;y=(i//4)*480
+                board.paste(im,(x+(224-im.width)//2,y+20))
+                d.text((x+5,y+3),f.stem+' | REAL 3D',fill=(40,35,35))
+              board.save(p/'run327-actual-8view-WebGL2-JUVENILE-DONOR-NOT-OWL.jpg',quality=86,optimize=True)
+              status['actual_eight_view_contact_sheet']=True
+          except Exception as e:status['contact_sheet_error']=repr(e)
+          (p/'run327_status.json').write_text(json.dumps(status,indent=2)+'\n')
+          for f in p.rglob('*.glb'):
+            assert f.read_bytes()[:4]==b'glTF'
+          files=sorted(f for f in p.rglob('*') if f.is_file() and f.name!='SHA256SUMS.txt')
+          (p/'SHA256SUMS.txt').write_text(''.join(
+            hashlib.sha256(f.read_bytes()).hexdigest()+'  '+str(f.relative_to(p))+'\n' for f in files))
+          print(json.dumps(status,indent=2))
+          PY
+          cd owl172-run327-evidence
+          sha256sum -c SHA256SUMS.txt
+      - name: Save only evidence images and reports in isolated research branch, never main
+        if: always()
+        continue-on-error: true
+        run: |
+          set -e
+          E=owl-pet/3d-experiments/172-tyto-castanops/run327-live-evidence
+          mkdir -p "$E"
+          cp -f owl172-run327-evidence/source_native_report.json "$E/" || true
+          cp -f owl172-run327-evidence/run327_status.json "$E/" || true
+          cp -f owl172-run327-evidence/NO_RELEASE.txt "$E/" || true
+          cp -f owl172-run327-evidence/run327-actual-8view-WebGL2-JUVENILE-DONOR-NOT-OWL.jpg "$E/" || true
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- "$E"
+          if ! git diff --cached --quiet; then
+            git commit -m "research(#172 run327): archive real juvenile donor evidence with NO_RELEASE"
+            git push origin HEAD:research/owl172-run327-no-fee-true-juvenile-donor-geometry-QA-NO_RELEASE
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owl172-run327-genuine-eaglet-native-3D-QA-NOT-AN-OWL-NO_RELEASE
+          path: |
+            owl172-run327-evidence/
+            run327-download.log
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Gate: do not confuse workflow success with artistic approval
+        if: always()
+        run: |
+          python - <<'PY'
+          import json
+          p='owl172-run327-evidence/run327_status.json'
+          s=json.load(open(p))
+          assert s['model_of_target'] is False and s['art_approved'] is False and s['release'] is False
+          print('NO_RELEASE and wrong-species gate enforced')
+          PY

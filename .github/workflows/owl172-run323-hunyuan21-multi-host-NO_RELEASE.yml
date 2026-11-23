@@ -32,7 +32,7 @@ jobs:
         run: |
           set -euo pipefail
           python -m pip install -q pillow numpy opencv-python-headless trimesh playwright
-          python -m playwright install --with-deps chromium
+          /usr/bin/google-chrome --version  # preinstalled on ubuntu-24.04; avoids long browser install
           python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/run323_hunyuan21_public_multi_host_real_trial_NO_RELEASE.py
       - name: Recreate and hash-check original rightmost cream mesoptile chick reference
         run: |

@@ -1,4 +1,7 @@
 
+## 218-otus-nigrorum-v1 VERIFIED 2026-11-23T10:40:19.333Z
+Coverage190/251. Batch20261123T092806Z 6/6. Archivee954dcf5bcaa7af1b4a52f3d88d918b614ee60f6;verificationc2e8e0022b942018b94a956f6aee8ce46dc89fae. Actualedit/view andremotePNGhash/decodeverified;PASS_WITH_LIMITATIONS/sciencefalse. [Original](design/concepts/218-otus-nigrorum-v1.png),[review](research/reviews/218-otus-nigrorum-v1-review.md). All251notcomplete.
+
 ## 217-otus-longicornis-v1 VERIFIED 2026-11-23T10:33:10.369Z
 Coverage189/251. Batch20261123T092806Z 5/6. Archive85e7cc014128671554660c0771bfbe36dcf4cac6;verificationadfe355a0ff302f25e96d24e81c18116cea22930. Actualedit/view andremotePNGhash/decodeverified;PASS_WITH_LIMITATIONS/sciencefalse. [Original](design/concepts/217-otus-longicornis-v1.png),[review](research/reviews/217-otus-longicornis-v1-review.md). All251notcomplete.
 

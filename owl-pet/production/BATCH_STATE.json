@@ -51339,9 +51339,16 @@
           "commit_sha": "fbd728bf7ed4d740ed89ab8760732b3dd5dc3dfb",
           "run_record": "owl-pet/production/runs/20261123T143039Z-cycle-1.md",
           "verified_at": "2026-11-23T14:36:35.076Z"
+        },
+        {
+          "cycle": 2,
+          "species": "Bubo ascalaphus",
+          "commit_sha": "a2542d05bf512f3e2c3506c613a7ac1bf9533a92",
+          "run_record": "owl-pet/production/runs/20261123T143039Z-cycle-2.md",
+          "verified_at": "2026-11-23T14:39:13.996Z"
         }
       ],
-      "next_cycle": 2,
+      "next_cycle": 3,
       "started_at": "2026-11-23T14:30:39.626Z"
     }
   ],
@@ -51507,8 +51514,8 @@
   "active_lease": {
     "owner": "owl-prototype-production",
     "run_id": "20261123T143039Z",
-    "heartbeat_at": "2026-11-23T14:36:35.076Z",
-    "expires_at": "2026-11-23T14:51:35.076Z"
+    "heartbeat_at": "2026-11-23T14:39:13.996Z",
+    "expires_at": "2026-11-23T14:54:13.996Z"
   },
   "last_updated_at": "2026-11-13T06:00:16.398+08:00",
   "audit_notes": [
@@ -58893,9 +58900,9 @@
     }
   ],
   "active_batch_id": "20261123T143039Z",
-  "active_cycle": 2,
+  "active_cycle": 3,
   "current_stage": "STARTED",
-  "next_cycle": 2,
+  "next_cycle": 3,
   "unique_species_count": 202,
   "total_species": 251,
   "stage_events": [

@@ -6105,3 +6105,7 @@ Exacttext top "235 ARABIAN SCOPS OWL"; italic "Otus pamelae". Rolelabels "ADULT 
 
 ## 236 Ninox reyi — 20261123T1933Z cycle2
 NREY-RASMUSSEN-2012-P17, NREY-ITIS1063269, reused MIKKOLA2013 printed479/PDF481. [Full stable IDs, bibliographic metadata, URLs, page scopes, stage limits and designmapping](species/236-ninox-reyi-v1.md). Paper already indexed: new pagescope, not a new paper. Newtaxonomyreport1,reuseddocuments2; allsciencefalse. [Image](../design/concepts/236-ninox-reyi-v1.png), [review](reviews/236-ninox-reyi-v1-review.md).
+
+
+## owl-pet/production/runs/20261123T1933Z-cycle-3-resume20261123T2027Z.md #137v6
+Reused FLO-WIDODO-1999 printed15–18,21–22 Tables1–2 and MIKKOLA2013 printed184/PDF186 (actuallyread). Newdocs0,reused2,designcorrection1. Primarycaptureyear1994 supersedes guide1995; baretarsalquarter/third conflict unresolved. [Fullsourcefacts/limits/prompt](species/137-otus-alfredi-v6.md), [image](../design/concepts/137-otus-alfredi-v6.png), [review](reviews/137-otus-alfredi-v6-review.md). Failedcollari/alius/umbra retrieval and occludedGcost video do not establishyoungphenotype.

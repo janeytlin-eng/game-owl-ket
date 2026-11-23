@@ -1,0 +1,127 @@
+name: Owl172 Run314 research-only curved cream down A/B native GLB, six-view and WebGL2 - NO RELEASE
+
+on:
+  push:
+    branches:
+      - research/owl172-run314-curved-down-feather-card-AB-REJECTED-NO_RELEASE
+    paths:
+      - '.github/workflows/owl172-run314-curved-down-groom-AB-NO_RELEASE.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  research-only-unapproved:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Sparse checkout only isolated Run311b/Run314 research source
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/run311b-original-continuous-sculpt-python-gzip-base64.md
+            owl-pet/3d-experiments/172-tyto-castanops/run314-exact-curved-down-card-source-gzip-base64.md
+      - name: Configure Python free modeling and true 3D renderer
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install zero-cost local libraries and X screen
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libosmesa6 libegl1 libgl1-mesa-dri xvfb
+          python -m pip install --disable-pip-version-check --no-cache-dir numpy scipy scikit-image trimesh vtk pillow
+      - name: Restore and independently verify exact source SHAs
+        shell: bash
+        run: |
+          python - <<'PY'
+          import re,gzip,base64,pathlib,hashlib
+          folder=pathlib.Path('owl-pet/3d-experiments/172-tyto-castanops')
+          jobs=[
+          ('run311b-original-continuous-sculpt-python-gzip-base64.md','sculpt_run311b.py',13008,'9e630af2b50b86709cbbf878a41b6e8a8beb45de97c1453902f98699aa56ecf5'),
+          ('run314-exact-curved-down-card-source-gzip-base64.md','groom_run314_A.py',5656,'e4b46fa8a178146dabfd6145a4a565aab3e95bd37a394e8e340b8ae195c51e9c')]
+          for md,filename,size,digest in jobs:
+            s=(folder/md).read_text()
+            m=re.search(r'\x60\x60\x60base64\s+([A-Za-z0-9+/=\s]+?)\s+\x60\x60\x60',s,re.S)
+            assert m,filename
+            b=gzip.decompress(base64.b64decode(''.join(m.group(1).split())))
+            assert len(b)==size and hashlib.sha256(b).hexdigest()==digest,(filename,len(b),hashlib.sha256(b).hexdigest())
+            pathlib.Path(filename).write_bytes(b)
+            print(filename,len(b),digest)
+          PY
+          python -m py_compile sculpt_run311b.py groom_run314_A.py
+      - name: Actually reproduce old rejected organic body for neutral controlled groom
+        shell: bash
+        env:
+          OWL_OUT: /tmp/owl172_run314_original
+        run: |
+          mkdir -p "$OWL_OUT" /tmp/owl172_run314_ab
+          set -o pipefail
+          xvfb-run -a -s "-screen 0 1280x1024x24" python sculpt_run311b.py 2>&1 | tee /tmp/owl172_run314_ab/base_reproduction.log
+          test -s "$OWL_OUT/owl172_run311b_original_sculpt_RESEARCH_ONLY.glb"
+      - name: Produce two real native glTF research variants, without using paid providers
+        shell: bash
+        run: |
+          python groom_run314_A.py --src /tmp/owl172_run314_original/owl172_run311b_original_sculpt_RESEARCH_ONLY.glb --count 6500 --out /tmp/owl172_run314_ab/A | tee /tmp/owl172_run314_ab/A_execution.json
+          cp groom_run314_A.py groom_run314_B.py
+          sed -i 's/length_factor=.026, width_factor=.0035/length_factor=.05, width_factor=.007/' groom_run314_B.py
+          sed -i 's/np.clip(a\*178/np.clip(a*230/' groom_run314_B.py
+          python groom_run314_B.py --src /tmp/owl172_run314_original/owl172_run311b_original_sculpt_RESEARCH_ONLY.glb --count 14000 --out /tmp/owl172_run314_ab/B | tee /tmp/owl172_run314_ab/B_execution.json
+          cp groom_run314_A.py groom_run314_B.py /tmp/owl172_run314_ab/
+          python - <<'PY'
+          import trimesh,glob,json,pathlib
+          p=pathlib.Path('/tmp/owl172_run314_ab')
+          for variant in ['A','B']:
+            f=next((p/variant).glob('*.glb'))
+            s=trimesh.load(f,force='scene',process=False)
+            tri=sum(len(m.faces) for m in s.geometry.values())
+            assert len(s.geometry)>2 and tri>60000,(variant,len(s.geometry),tri)
+            print('real GLB reimport',variant,'meshes',len(s.geometry),'tris',tri)
+          PY
+      - name: Render actual 3D angle evidence (not a phone or approved art)
+        shell: bash
+        run: |
+          cat > /tmp/owl172_run314_ab/render.py <<'PY'
+          import sys,pathlib,vtk
+          p=pathlib.Path(sys.argv[1]);out=pathlib.Path(sys.argv[2]);out.mkdir(parents=True,exist_ok=True)
+          for label,az in [('axis0',0),('axis90',90),('axis180',180)]:
+            win=vtk.vtkRenderWindow();win.SetOffScreenRendering(1);win.SetSize(640,720)
+            ren=vtk.vtkRenderer();ren.SetBackground(.12,.13,.15);win.AddRenderer(ren)
+            imp=vtk.vtkGLTFImporter();imp.SetFileName(str(p));imp.SetRenderWindow(win);imp.Update()
+            ren.ResetCamera();cam=ren.GetActiveCamera();cam.Azimuth(az);cam.Zoom(.92)
+            win.Render();flt=vtk.vtkWindowToImageFilter();flt.SetInput(win);flt.Update()
+            wr=vtk.vtkPNGWriter();wr.SetFileName(str(out/f'{label}.png'));wr.SetInputConnection(flt.GetOutputPort());wr.Write()
+            print(label,'actors',ren.GetActors().GetNumberOfItems())
+          PY
+          set -o pipefail
+          for a in A B; do
+            f=$(find "/tmp/owl172_run314_ab/$a" -maxdepth 1 -name "*.glb" | head -n 1)
+            xvfb-run -a -s "-screen 0 1280x1024x24" python /tmp/owl172_run314_ab/render.py "$f" "/tmp/owl172_run314_ab/$a/render" 2>&1 | tee "/tmp/owl172_run314_ab/$a/render.log"
+          done
+      - name: Strict research evidence and no-release gate
+        if: always()
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json,pathlib,hashlib
+          from PIL import Image
+          root=pathlib.Path('/tmp/owl172_run314_ab')
+          evidence={'run':'314','target':'#172 v3 rightmost age-unknown mesoptile','research_only':True,'release':False,'art_approved':False,'physical_phone':'NOT_TESTED','webgl2':'NOT_TESTED_THIS_RUN','extra_spend_usd':0,'original_sculpt_art':'PREVIOUSLY_REJECTED'}
+          for v in ('A','B'):
+            p=root/v
+            models=list(p.glob('*.glb'));ims=list((p/'render').glob('*.png'))
+            evidence[v]={'models':[{ 'file':x.name,'bytes':x.stat().st_size,'sha256':hashlib.sha256(x.read_bytes()).hexdigest()} for x in models],
+                         'views':[{ 'file':x.name,'bytes':x.stat().st_size,'sha256':hashlib.sha256(x.read_bytes()).hexdigest()} for x in ims]}
+          (root/'evidence_gate.json').write_text(json.dumps(evidence,indent=2))
+          (root/'NO_RELEASE.txt').write_text('Art not approved: Run311b base rejected; curved down cards do not make an accepted chick. Research binaries only. No deploy.\n')
+          print(json.dumps(evidence,indent=2))
+          PY
+      - name: Save ONLY temporary independent research evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run314-down-groom-AB-REJECTED-NO_RELEASE
+          path: /tmp/owl172_run314_ab
+          if-no-files-found: warn
+          retention-days: 14

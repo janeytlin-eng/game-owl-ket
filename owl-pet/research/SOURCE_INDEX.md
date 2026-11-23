@@ -5632,3 +5632,7 @@ OLON-REDLIST-LEAD: PhilippineRedListpp56 snippet https://www.biodiversity.ph/wp-
 MontaneLuzonforest, noactualcavitynestshownbecauseunverified; noO.megalotisjuvenilephotos transferred (searchhitsMountData wereOTHERspecies). Adultnear-equalheight/femalejustsubtlyfullerperweakguidequalitativeclaim, notexaggeration. Golden-yelloweyecompatibleguideorangeyellow/photo yellow, colournotcalibrated. Greysoftmesoptilebrownclosehorizontalbars,darkerhead/back,roundhead/compactsoftwings(noadultremiges). Youngsleeping/seatedheadrestinglightlytowardshoulder,eyelidsclosed(noinventedjuvenileiris), bellyandbothfeet supported broadlowfork. Sleep poseanatomicaldesigninference notstageageevidence. No flights/nestmaterial/eggs/newborn. Notalteringotherconceptsbecauseeye/sexrulesarelocal; allsciencefalse.
 
 [Research](species/217-otus-longicornis-v1.md),[review](reviews/217-otus-longicornis-v1-review.md),[image](../design/concepts/217-otus-longicornis-v1.png).
+
+
+### #217 recovery research recheck 2026-11-23T10:30Z
+Reused OLON-MIKKOLA-2013-P186, OLON-DEMEULEMEESTER-PHOTO1103, OLON-ITIS-555371 (3 IDs), new0/corrected0. Reread originalphotopage andcurrentITISname/synonym/referencefields, nochange. No unviewedDENRyoungphoto used. Recoverpriorgeneratedfile, no duplicate generation. [Research](species/217-otus-longicornis-v1.md).

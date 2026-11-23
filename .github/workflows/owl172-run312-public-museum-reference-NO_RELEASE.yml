@@ -74,7 +74,7 @@ jobs:
           data['release']=False
           data['runner_id']=os.environ.get('GITHUB_RUN_ID')
           dst=pathlib.Path('owl-pet/3d-experiments/172-tyto-castanops/run312-actual-runner-result-NO_RELEASE.json')
-          dst.write_text(json.dumps(data,indent=2,ensure_ascii=False)+'\\n')
+          dst.write_text(json.dumps(data,indent=2,ensure_ascii=False)+'\n')
           PY
           git config user.name "owl172-research-bot"
           git config user.email "owl172-research-bot@users.noreply.github.com"

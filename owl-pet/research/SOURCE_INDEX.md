@@ -6129,3 +6129,7 @@ CIN-FITZPATRICK-ONEILL-1986 actualprintedpp2–5reread; CIN-MIK2013-232 actualup
 
 ### 2026-11-24 #143v5 documented groundwalking variant
 ReusedFEO-LOYN-DEBUS-2000-P288-289 originaltext pp288–289 actuallyreopened; FEO-MIK2013-499 uploadedPDF501read; FEO-ITIS-1244693-2026 priornamecrosswalkretained. New0/reused3. Actualwalking/bouncingground/perchingrail observed, age/sex/flightunknown; illustrativegroundstepdesignnotliteralphotoreconstruction. Sourcebibliography/URLs/stageconflict(guideomitsknownprimaryyoung),supportboundaryandprompt [#143v5](species/143-asio-solomonensis-v5.md). No newplumageerrorestablishedinv4; intentionallybehaviourdesignrevisiontofulfillposevariety. HTTP403localPDFandundeliveredwebscreenshotexplicit,notfakephotoread. Sciencefalse.
+
+
+### 2026-11-24 #143v5 recovery actualcheck
+FEO-LOYN-DEBUS-2000-P288-289 originalbodyfreshlyread, new0/reused3(priorbook+taxonomyrecordnotfreshbody); stablemetadata/fullprompt preserved [research](species/143-asio-solomonensis-v5.md). Groundwalkingabilitynotflight,unbarredlongventraldownandemergingbarredwing; actualfullrecoveredimageviewed andsupportchecked. [Recoveryrun](../production/runs/20261123T2154Z-cycle2-resume2229Z.md), [image](../design/concepts/143-asio-solomonensis-v5.png). No inventednewmorphologydefect,no sciencepass.

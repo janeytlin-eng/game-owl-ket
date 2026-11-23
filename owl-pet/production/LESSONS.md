@@ -193,3 +193,7 @@ Problem: Socotra style reference leaked its bold pale scapular stripe and hard y
 
 ## 20261123T1933Z cycle2 #236
 Observed bright unsupportedyoungbill and crisp adult-hard lower wing panel. Primary2012 supports qualitative older-young irregular ventralstreaking, not barepartcolour/timeline. Targetededit used mutednon-diagnostic bill and soft contourveil over a retained formedwing. Full/nativecrop verified improvement only for236. A tempting nearby 'especially youngbirds' sentence belongs reyi, NOT spilonota; sectionboundary checked before selecting missingreyi. #235differentstage/reference mustnotinheritthisspecies' pattern. Unknowns remain explicit, not scientificpass.
+
+
+## 20261123T1933Z cycle3 #137v6
+Problem: v5young retained adultlikepale patternedbelly. Evidence FLO-WIDODO1999p21 andguide184 supportnearuniformpalerrufousresidualdown; Table2 specificallysupportsorangeyellowyoungbill. Editcorrectedventralpattern/downcoveragewhile retainingformedwing/tailbands andknownbill. Full/nativeyoungcropverified; notuniversalwingban. Backcheck#235/#236alreadyuseownprimaryyoungrecords and mutedunknownbill; do not transfer137knownbilloruniformrufous tothose taxa. Only137v6effectvalidated.

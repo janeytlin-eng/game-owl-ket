@@ -4,7 +4,7 @@ Source: Run317 original GitHub Actions artifact 14795923598;
 extract stability-SF3D-TyTo172-REAL_UNREVIEWED_NO_RELEASE.glb alongside this script
 or put it in --output-dir. No paid services. Requires numpy, trimesh, vtk, Pillow, Xvfb.
 """
-import os,sys,json,hashlib,argparse
+import os,sys,json,hashlib,argparse,struct
 from pathlib import Path
 import numpy as np
 import trimesh
@@ -65,6 +65,36 @@ def fiber_mesh(n_fibers,seed):
     vertexcols[:,4:6,:3]=np.clip(vertexcols[:,4:6,:3].astype(float)*1.03,0,255).astype(np.uint8)
     return trimesh.Trimesh(vertices=L,faces=fs,vertex_colors=vertexcols.reshape(-1,4),process=False)
 
+def fix_vertex_color_pbr(glb):
+    """Assign explicitly nonmetallic double-sided PBR to vertex-colored native microfibre geometry.
+
+    Otherwise glTF without material defaults to metallic=1 and looks black from the rear.
+    Preserve all original texture images and model geometry byte-for-byte.
+    """
+    assert glb[:4]==b'glTF'
+    jl=struct.unpack_from('<I',glb,12)[0]
+    js=json.loads(glb[20:20+jl].decode('utf-8'))
+    matte_i=len(js.setdefault('materials',[]))
+    js['materials'].append({
+        'name':'mesoptile_nonmetallic_soft_matte',
+        'pbrMetallicRoughness':{
+            'baseColorFactor':[1,1,1,1],
+            'metallicFactor':0.,'roughnessFactor':1.},
+        'doubleSided':True,'alphaMode':'OPAQUE'})
+    corrected=0
+    for mesh in js['meshes']:
+        for prim in mesh['primitives']:
+            if 'material' not in prim and 'COLOR_0' in prim.get('attributes',{}):
+                prim['material']=matte_i
+                corrected+=1
+    assert corrected>=1,'No vertex-colored microfibre primitive found'
+    jsb=json.dumps(js,separators=(',',':')).encode('utf-8')
+    jsb+=b' '*((-len(jsb))%4)
+    rest=glb[20+jl:]
+    result=b'glTF'+struct.pack('<II',2,12+8+len(jsb)+len(rest))+struct.pack('<I4s',len(jsb),b'JSON')+jsb+rest
+    assert len(result)==struct.unpack_from('<I',result,8)[0]
+    return result
+
 def vtkmesh(mesh,rgb):
     p=vtk.vtkPolyData();pts=vtk.vtkPoints()
     pts.SetData(numpy_to_vtk(np.asarray(mesh.vertices,dtype=np.float32),deep=True));p.SetPoints(pts)
@@ -109,7 +139,7 @@ for k,count in [('A',2600),('B',8300)]:
     s=trimesh.Scene();s.add_geometry(base,geom_name='original_native_textured_SF3D')
     s.add_geometry(hair,geom_name=f'physical_mesoptile_microfibres_{k}')
     path=root/f'run320-{k}-microgroom-ART_REJECTED_NO_RELEASE.glb'
-    blob=trimesh.exchange.gltf.export_glb(s,include_normals=True)
+    blob=fix_vertex_color_pbr(trimesh.exchange.gltf.export_glb(s,include_normals=True))
     path.write_bytes(blob)
     s2=trimesh.load(path,force='scene')
     for v in ['front','right','back']:render(v,hair,root/f'run320-{k}-{v}.png')

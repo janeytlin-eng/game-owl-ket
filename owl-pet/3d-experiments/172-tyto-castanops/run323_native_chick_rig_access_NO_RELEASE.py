@@ -186,7 +186,7 @@ def main():
         browser=p.chromium.launch(headless=True,args=["--enable-unsafe-swiftshader","--use-gl=angle","--use-angle=swiftshader","--enable-webgl"])
         check_booth(browser);check_itch(browser)
         models=inspect_zip()
-        browser_webgl(browser,models[:2])
+        browser_webgl(browser,[m for m in models if "owl" in m.name.lower()][:2])
         browser.close()
     REPORT["conclusion"]="Technology/rights source only; baby Tyto castanops anatomy, down, support, side/back and physical phone not validated. NO_RELEASE."
     dump()

@@ -1,0 +1,32 @@
+# #172 *Tyto castanops* v3 rightmost downy chick — Run319 real free Hunyuan3D public UI trial
+
+**Date:** 2026-11-23, Asia/Shanghai. **Strict final:** `PUBLIC_PROVIDER_HTTP_500 / PUBLIC_UI_NOT_LOADED / NO_NEW_NATIVE_GLB / ART_NOT_ASSESSED / RIGHTS_HOLD / PHYSICAL_PHONE_UNTESTED / NO_RELEASE`.
+
+## Inspected existing project before new attempt
+
+- Re-read `owl-pet/AGENTS.md`, `owl-pet/README.md`, first current `STATUS.md` entries, `owl-pet/research/species/172-tyto-castanops-v3.md`, `owl-pet/research/reviews/172-tyto-castanops-v3-review.md`, and independent [Run318 audit](https://github.com/janeytlin-eng/game-owl-ket/blob/research/owl172-run318-official-trellis2-low-memory-extract-NO_RELEASE/owl-pet/3d-experiments/172-tyto-castanops/2026-11-23-run318-trellis2-low-resource-zeroGPU-quota-NO_RELEASE.md).
+- Preserve original [v3 concept plate](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/design/concepts/172-tyto-castanops-v3.png), **RIGHTMOST age-unknown cream second-down / mesoptile**, NOT adult owls. Target: natural feathered heart-shaped facial disc, dark eyes, compact/full young proportions, down-hidden short wings, no exposed tail, anatomically consistent back and sides, believable supported feet on old eucalypt hollow. Species developmental details remain uncertain.
+- Previous [Run317b](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/45127524893) true textured GLB has better frontal resemblance but smooth side/back and missing true cream feather volume. Previous Run318 Microsoft TRELLIS.2 lower-cost free UI returned ZeroGPU quota 0; do not hammer quota-limited server.
+
+## Different no-additional-fee provider actually investigated
+
+- New public source: [Tencent Hunyuan3D-2mini-Turbo Space](https://huggingface.co/spaces/tencent/Hunyuan3D-2mini-Turbo), actual hosted browser UI `https://tencent-hunyuan3d-2mini-turbo.hf.space/`. Public repository exposes `Gen Shape` / `Gen Textured Shape` controls and model export support. This was **not** an accepted geometry file.
+- Real automation: [run319_hunyuan_mini_turbo_PUBLIC_UI_NATIVE_3D_NO_RELEASE.py](run319_hunyuan_mini_turbo_PUBLIC_UI_NATIVE_3D_NO_RELEASE.py) and [isolated workflow](https://github.com/janeytlin-eng/game-owl-ket/blob/research/owl172-run319-hunyuan-mini-turbo-public-free-3d-NO_RELEASE/.github/workflows/owl172-run319-public-hunyuan-mini-NO_RELEASE.yml). Chromium would only upload the actual source and click a visible public button if HTTP 200 and controls existed; model files accepted only from real browser network/DOM URLs, with native GLB header and Trimesh mesh verification. Real Chromium WebGL2 three-view was gated on genuine downloaded GLB.
+- Reconstructed original rightmost reference, preserving plate bytes. Transparent reference SHA256 `37e2b3c96da31c558f511ee172b43bec4c721186a074327ec6cb791c9d2c5ed8`; white background reference SHA256 `6ec346e5b02411f9509fd364db748c23a58075aeec461ef7424adcc4d893bc77` both checked in CI.
+
+## Real executions, mistakes and corrected final evidence
+
+1. [First actual Run319 #45140978161](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/45140978161): all research steps ran, **HTTP 500**, browser screenshot showed `Internal Server Error` and no UI. Zero uploads, zero generation clicks, zero GLB. First archive [#14802101922](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/45140978161/artifacts/14802101922) independently opened/CRC-verified (188,710 bytes; SHA256 `db34c1b5438cd00d0848bb985b14320c2645c3e4ad81fa06e5e265048af75bf6`).
+2. [Second #45141096861](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/45141096861) and [intermediate #45141391812](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/45141391812): source-control edit introduced a Python syntax error (unclosed regexp string and an accidental duplicate script tail). Both failed Python compile **before** conducting provider experiment. These are engineering errors, not findings about service or model. Repaired source and re-triggered.
+3. [**Final corrected actual Run319 #45141426726**](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/45141426726): Python compile, source extraction, hash checks, genuine Playwright/Chromium visit, evidence generation, SHA manifest and upload all completed. Browser independently returned `HTTP 500` and body **`Internal Server Error`**. Captured image was actually opened and inspected: near-empty white page reading “Internal Server Error”, **no file input, no Generate button**. Correctly stopped before upload/generation (not a failed image inference or artistic result).
+4. [Final original evidence ZIP **#14802880591**](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/45141426726/artifacts/14802880591), independently downloaded/read: **188,709 bytes**, SHA256 `64b04526273bb554f4470a09786790f1bdd9348691531f3d671ce4f45c9f99e0`, 9/9 ZIP CRC entries valid, 7/7 manifest files match size and SHA256. Contains true browser screenshot, `result.json`, original reference, provider stdout, network observations, strict NO_RELEASE status and evidence manifest. Temporary Actions artifact, not permanent model delivery.
+
+## Result, legal limits, next evidence gate
+
+- **Acquired new native GLB files = 0; clicked Generate = false; front/right/back model views = 0.** The public website's HTTP 500 is a live hosted-service/access problem; no evidence about model artistic quality or whether generation is free when restored.
+- License **NOT cleared**: official [Hunyuan 3D 2.0 Community License](https://huggingface.co/spaces/tencent/Hunyuan3D-2mini-Turbo/blob/main/LICENSE) includes scope, region and other conditions; the hosted UI's existence does not grant product rights. No accounts, authentication, payment or access-control circumvention used.
+- No new wins for true soft cream volumetric down, real bird facial morphology, short wings, back and feet, browser WebGL2 native model, or physical mobile performance.
+- If service recovers, evaluate **only actual native 3D output** using correct anatomy axes and full model views; if not, prioritize legally reusable professional juvenile sculpt/groom rather than more plastic shell recolors.
+- **No changes to main, the 251-species imagery workflow, the v3 plate, kitten WebGL prototype or live deployment.** Research isolated on `research/owl172-run319-hunyuan-mini-turbo-public-free-3d-NO_RELEASE`. No external payment. No viewer/pet release and no art approval.
+
+**Final verdict: STRICT NO_RELEASE.**

@@ -1,4 +1,7 @@
 
+## 2026-11-23 #216 Otus thilohoffmanni 216-otus-thilohoffmanni-v1 VERIFIED
+Coverage188/251; batch20261123T092806Z 4/6. New1/revision0. Archive27735915fa09a39542c7ef4c57d310b3e3bfecce;verification495d80aca4faccbdf113752f809121018754fbdd. Actualimageedit/view, immutableoriginalhash/decodeverified. PASS_WITH_LIMITATIONS/sciencefalse. [Original](design/concepts/216-otus-thilohoffmanni-v1.png),[review](research/reviews/216-otus-thilohoffmanni-v1-review.md),[run](production/runs/20261123T092806Z-cycle-4.md). All251notcomplete.
+
 ## 2026-11-23 #215 Otus angelinae 215-otus-angelinae-v1 VERIFIED
 Coverage187/251; batch20261123T092806Z 3/6. New1/revision0. Archivec9a30aae6ea132f4fee27ca13d3d90a813163ccc;verificationc37b7bafa0794c45c3fb84a8d1ef9814e3267369. Actualimageedit/view, immutableoriginalhash/decodeverified. PASS_WITH_LIMITATIONS/sciencefalse. [Original](design/concepts/215-otus-angelinae-v1.png),[review](research/reviews/215-otus-angelinae-v1-review.md),[run](production/runs/20261123T092806Z-cycle-3.md). All251notcomplete.
 

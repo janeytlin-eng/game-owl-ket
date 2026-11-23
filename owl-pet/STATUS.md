@@ -1,3 +1,6 @@
+## 2026-11-23 #212 Megascops seductus 212-megascops-seductus-v1 VERIFIED
+Coverage184/251. Batch20261123T072659Z 5/6;new1/revision0. Archivefea05e4d9ace40a2c5978c06f68152dc67b1f3a2;verificationf38066e9af7f82c4f765fc5b3113e61e3b741b41. Actualfull+3rolecropreview, oneedit,remoteoriginalhash/decode verified. ConceptPASS_WITH_LIMITATIONS/sciencefalse. [Original](design/concepts/212-megascops-seductus-v1.png),[review](research/reviews/212-megascops-seductus-v1-review.md),[run](production/runs/20261123T072659Z-cycle-5.md). All251notcomplete.
+
 ## 2026-11-23 #211 Megascops roboratus v1 VERIFIED
 Coverage183/251 by taxon-name deduplication. Batch20261123T072659Z 4/6,next5. New1/revision0;archivefdd62cb40f50afd820d00520b0995bcad3522a3b;verificationdcfac0e69d1d42b9f3271a7fa42840b96ec213cf. Full+3role crop montage actuallyviewed;edits1;PASS_WITH_LIMITATIONS/sciencefalse. RemotePNG/hash verified;research sourceindex persisted. [Original](design/concepts/211-megascops-roboratus-v1.png),[review](research/reviews/211-megascops-roboratus-v1-review.md),[run](production/runs/20261123T072659Z-cycle-4.md). Full251notcomplete/notpaused.
 

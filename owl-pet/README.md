@@ -1,3 +1,6 @@
+## 2026-11-23 #212 Megascops seductus 212-megascops-seductus-v1 VERIFIED
+Coverage184/251. Batch20261123T072659Z 5/6;new1/revision0. Archivefea05e4d9ace40a2c5978c06f68152dc67b1f3a2;verificationf38066e9af7f82c4f765fc5b3113e61e3b741b41. Actualfull+3rolecropreview, oneedit,remoteoriginalhash/decode verified. ConceptPASS_WITH_LIMITATIONS/sciencefalse. [Original](design/concepts/212-megascops-seductus-v1.png),[review](research/reviews/212-megascops-seductus-v1-review.md),[run](production/runs/20261123T072659Z-cycle-5.md). All251notcomplete.
+
 ## 2026-11-23 #208 Ninox affinis v1 VERIFIED
 Coverage180/251 by current taxon-name de-duplication (192 numbered IDs, 12 duplicate-pair reductions). Batch20261123T072659Z1/6,next2. New1/revision0. Archive1fd6dfe81e92d66e5f9edf75e73919fe8171fb33;verification81e872d175af2b742f36a9100b94977c25eefa24. One imagegen edit/full+3role crop montage rechecked;concept PASS_WITH_LIMITATIONS,sciencefalse. Remote original PNG/hash/bytes verified;5new sources persisted. Bill colour conflict, sex-size, young precise age/iris/flight/nest unknown. [Original](design/concepts/208-ninox-affinis-v1.png),[review](research/reviews/208-ninox-affinis-v1-review.md),[run](production/runs/20261123T072659Z-cycle-1.md). All251 production notcomplete/notpaused.
 

@@ -6145,3 +6145,7 @@ ReusedMAG-FINSCH-1898-P163-172 actualoriginalprinted170–172read,Batjan/Halmahe
 
 ### 2026-11-24 #222v2 documented head-winding variant and gap corrections
 ReusedNSUM-OLSEN-TROST-MYERS-2009-P10-11(originalbodyreread) andNSUM-MIKKOLA-2013-P493(uploadPDF495read), plusNSUM-OLSEN-2002-P225-230/NSUM-ITIS-686698 priorrecordsnotfreshbody. Fourexistingrecordreferences;sharedbooknotnewdocument. Targetednewgaprecords NOSC-HUME-DAVISON-1874-SF2-P153-154, NOSC-WALDEN-1874-IBIS-P129, WSFO-BIRDSEYE343-AGE-2026; actualURLs/bodies/pages/stagelimits/attributionuncertaintyanddecisions [#222v2](species/222-ninox-sumbaensis-v2.md). New3/reused4,nonewjuvenileevidenceforobscura/sagittatus; donottransferadjacentageparagraphs. Actualimagepending,sciencefalse.
+
+
+## 20261123T2154Z cycle6: Otus insularis #178 v5 / Ninox burhani gap
+NBUR-INDRAWAN-SOMADIKARTA-2004-P160-170 新来源1；SSCO-CURRIE-ETAL-2004-P123-137、SSCO-MIKKOLA-2013-P138、SSCO-CURRIE-ETAL-2002-P16-18 复用3（前两项本次重读，2002出版社403，沿用旧核对）。[完整元数据、URL、页码、物种/阶段、事实/推断/限制及提示](species/178-otus-insularis-v5.md)。NBUR原文两个成年雄，三只野鸟不代表有幼鸟；不得套用Ninox属幼羽。#178仅补画面科学状态，不重计物种。[原图](../design/concepts/178-otus-insularis-v5.png) / [复查](reviews/178-otus-insularis-v5-review.md)。访问2026-11-24北京时间。

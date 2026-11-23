@@ -50,6 +50,11 @@ jobs:
           PY
           python -m py_compile sculpt_run311b.py
 
+      - name: Install actual headless VTK OpenGL/EGL or OSMesa software rasterizer
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libosmesa6 libegl1 libgl1-mesa-dri xvfb
+
       - name: Actually generate native GLB and six software 3D views
         shell: bash
         env:
@@ -57,7 +62,7 @@ jobs:
         run: |
           mkdir -p "$OWL_OUT"
           set -o pipefail
-          python sculpt_run311b.py 2>&1 | tee "$OWL_OUT/execution.log"
+          xvfb-run -a -s "-screen 0 1280x1024x24" python sculpt_run311b.py 2>&1 | tee "$OWL_OUT/execution.log"
           cp sculpt_run311b.py "$OWL_OUT/reproduced_source.py"
 
       - name: Independently re-import and gate native evidence (NOT art acceptance)

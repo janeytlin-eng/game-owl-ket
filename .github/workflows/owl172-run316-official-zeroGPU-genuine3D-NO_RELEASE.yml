@@ -1,0 +1,82 @@
+name: "Owl172 Run316 official free ZeroGPU REAL source try - NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run316-official-ZeroGPU-native-3D-no-pay-NO_RELEASE
+    paths:
+      - '.github/workflows/owl172-run316-official-zeroGPU-genuine3D-NO_RELEASE.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  independent-official-free-3d-attempt:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 26
+    steps:
+      - name: Sparse checkout only #172 reference and isolated research tools
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/design/concepts/172-tyto-castanops-v3.png
+            owl-pet/3d-experiments/172-tyto-castanops/run295_real_reference_cutout_preprocess_ONLY_NO_RELEASE.py
+            owl-pet/3d-experiments/172-tyto-castanops/run316-official-free-textured-3d-real-browser-NO_RELEASE.py
+            owl-pet/3d-experiments/172-tyto-castanops/run292_real_browser_glb_test_NO_RELEASE.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run292_browser_viewer_uncropped_NO_RELEASE.html
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install free tools for authentic reference and browser tests
+        run: |
+          set -euo pipefail
+          python -m pip install --disable-pip-version-check -q Pillow numpy opencv-python-headless trimesh playwright
+          python -m playwright install --with-deps chromium
+          python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/run316-official-free-textured-3d-real-browser-NO_RELEASE.py
+      - name: Rebuild authentic ORIGINAL rightmost chick reference; verify exact previous SHA
+        run: |
+          set -euo pipefail
+          python owl-pet/3d-experiments/172-tyto-castanops/run295_real_reference_cutout_preprocess_ONLY_NO_RELEASE.py | tee reference_rebuild.log
+          test "$(sha256sum owl172-run295-evidence/young-isolated-white-background-input-NO_3D.png | cut -d' ' -f1)" = 6ec346e5b02411f9509fd364db748c23a58075aeec461ef7424adcc4d893bc77
+          cp -r owl172-run295-evidence owl172-run316-evidence/reference
+      - name: Actual public no-payment UI upload and native 3D generation attempts
+        timeout-minutes: 18
+        run: |
+          python owl-pet/3d-experiments/172-tyto-castanops/run316-official-free-textured-3d-real-browser-NO_RELEASE.py | tee owl172-run316-evidence/actual-provider-stdout.log
+      - name: Real model WebGL2 QA only when real native GLB was actually delivered
+        if: always()
+        timeout-minutes: 5
+        run: |
+          set -uo pipefail
+          npm install --no-save --no-fund --no-audit playwright-core@1.58.2 three@0.170.0 pngjs@7.0.0
+          for f in owl172-run316-evidence/*_unreviewed_native.glb; do
+            if test -s "$f"; then
+              node owl-pet/3d-experiments/172-tyto-castanops/run292_real_browser_glb_test_NO_RELEASE.mjs "$f" >owl172-run316-evidence/real-webgl2-stdout.log 2>&1 || echo "WEBGL2_NOT_PASSED" >owl172-run316-evidence/WEBGL2_HOLD.txt
+              if test -d owl172-run292-browser-evidence; then
+                cp -r owl172-run292-browser-evidence owl172-run316-evidence/real-webgl2-screenshots
+              fi
+            fi
+          done
+      - name: Independently hash original evidence and enforce hard no-release
+        if: always()
+        run: |
+          python - <<'PY'
+          import hashlib,json
+          from pathlib import Path
+          p=Path('owl172-run316-evidence');p.mkdir(exist_ok=True)
+          (p/'STRICT_NO_RELEASE.txt').write_text(
+            'No product release until genuine 3D shape, believable down, natural heart disc, juvenile wings, full side/back, correct feet, rights and real-phone WebGL QA ALL pass.\n')
+          paths=sorted(f for f in p.rglob('*') if f.is_file() and f.name!='SHA256SUMS.txt')
+          data=[{'file':str(f.relative_to(p)),'bytes':f.stat().st_size,'sha256':hashlib.sha256(f.read_bytes()).hexdigest()} for f in paths]
+          (p/'file_hashes.json').write_text(json.dumps(data,indent=2))
+          (p/'SHA256SUMS.txt').write_text('\n'.join(x['sha256']+'  '+x['file'] for x in data)+'\n')
+          print('INDEPENDENT_RESEARCH_EVIDENCE_FILES',len(data),'GLB_FILES',len(list(p.glob('*.glb'))))
+          PY
+          (cd owl172-run316-evidence && sha256sum -c SHA256SUMS.txt)
+      - name: Archive only independent research evidence (time limited)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run316-official-zeroGPU-real-provider-NO_RELEASE
+          path: owl172-run316-evidence/
+          retention-days: 14
+          if-no-files-found: warn

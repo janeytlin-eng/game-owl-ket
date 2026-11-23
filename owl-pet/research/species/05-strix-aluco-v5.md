@@ -1,0 +1,14 @@
+# #05 Strix aluco v5 — toe feathering correction
+Cycle6/20261123T113345Z, SCIENCE_REVISION, unique increment0. Existingv1–v4 and10Oct2026v1approval preserved; no user approval transferred.
+## Evidence actually checked
+- Reused TAO-MIKKOLA-2013-P315: uploaded HeimoMikkola2013 2nded, printed315–317/PDF317–319 text actually reread via native file. Printed315: tarsi and most grey toes feathered, horn claws; juvenile pale fleshy toes and pink eyelid rims, diffuse barred mesoptile. Original guide broad taxonomic scope; current scene stays European brown morph, not NorthAfrican variant. Text read only, no claim page photos viewed this cycle.
+- Reused TAO-BOT-OWLET: BarnOwlTrust https://www.barnowltrust.org.uk/barn-owl-facts/owlet-identification-age/ actual TawnyOwlsection read: well-feathered toes (contrasts Barn Owl unfeathered and LittleOwl slightly feathered), dirty-grey down/dark eyes/pink lids. Direct care/identification institution evidence, not quantitative feather-density measurement or exact fledgling age.
+- Reused TAO-BTO-FACTS: https://www.bto.org/learn/about-birds/birdfacts/tawny-owl actual Biometrics/Nesting/Habitat read. Female mean mass502.2±58.6gN179 vs male396±44.6N37, distributions overlap; no standingheight ratio. Broadleafwoodland/cavity context. Juvenilecategorydoesnotmapexactday.
+- New TAX-EBIRD-2025-MAURITANICA-LUMP: originalofficial2025update actually read. Scope matter: currently includes NorthAfricanmauritanica underS.aluco in eBird2025, whereasIOC15.1/ITISretainsspecies. This correction does not convert Europeanbrownmorph intoMaghrebvariant or change251contract. [Deferred candidate research](224-strix-mauritanica-deferred.md).
+- Reuse v4 research locomotion boundaries only (ColesPetty/Overskaug/Sunde previousread); not counted as newly retrieved papers. First-weekpostdeparture not shown exact day; formedfoldedwing retained.
+## Problem — evidence — modification — recheck
+Actual opened originalv4 full: all6feet largely bare/pinkscaly, especially young. Conflictswell-featheredtoe/source text. Targetimagegen edit shortfeathers on tarsi/proximal toes, taper to exposed distal scales/claws; do not turn into furry paws or alter gripping contact. No other morph/age/wing changes authorized by evidence.
+Design inference: visiblefeatherscovermost proximaltoeupperfaces; precisecoveragepercent/individualdensity notmeasured. Exactyoungday/subspecies/sexratio/colourcalibration remain unknown. Scientificpassfalse. Adultsexplumageunmodified.
+## Prior-version cross-check
+#05v4 actually viewed this cycle; v1–v3records preserved. Comparative institutional rule contrastsBarnOwl/LittleOwl, doesnotauthorizefeatheringallothertaxa. #223newOmani image already has featheredfeet consistent2016primary, so no change there. #222youngtoe bareparts remain species-specificunknown, no Tawny rule transferred.
+[Prompt](../prompts/05-strix-aluco-v5.txt) · [Review](../reviews/05-strix-aluco-v5-review.md)

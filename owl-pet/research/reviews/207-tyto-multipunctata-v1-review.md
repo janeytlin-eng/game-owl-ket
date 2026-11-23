@@ -1,0 +1,15 @@
+# #207 Tyto multipunctata v1 actual review
+2026-11-23. Fullinitialandeditmasterplusmale/female/youngcropsactuallyopened. PASS_WITH_LIMITATIONS;scientifically_verified=false;userconfirmationpending.
+|Check|Actuallyobserved|
+|---|---|
+|Identity|All3blackeyes,palehornbills,Tytoheartface,noear tufts. Adultwhiteouterface,darkeyearea/ruff,silverwhitedotsgreyupperparts,palegreychevronventrum. No transferredscreechowlbrown/yellowiris.|
+|Sex|Initialfemale-scaleindistinct;oneeditslightlyenlargedfemale. Fullviewfemaleheadslightlyhigher/bulkfulleronsameperch,notexaggerated. DirectionevidenceABSA;notmass-to-heightratio.|
+|Young|InitialexcesscurlydownfailedABSAnearlycompletejuvenileplumagecriterion. Editremovedhanginghairloops,replacedwithoverlappingdarkgreycontourfeathers;reopenedcropminimalresidualwisps,greyouterface,fullyfeatheredadult-likejuvenilewingundercontours,shorttailhidden. Notwhitehatchling/wingbudbird. Formedjuvenilefeathersarenotassertedmatureadultmolt.|
+|Support|Allsixfeetvisible,grey-baretoes/darkclawscontactbroadbranch. Youngsettledheadtiltwithbodyoversupport;noflyingactionorunsupportedlean.|
+|Habitat/nest|Leafyrainforest/wetwoodland,broadlichen/mossbranch;nonestholloweggsorliningreconstruction.|
+|Plaques|Correct207/common/scientificandthreeadult/younglabels,nounrequestedtaxonomysubtitle.|
+Unknown:preciseage,youngsex,iris/billchronology,firstflightday,moltsequence,individualfeathermapandnestmaterials. Juvenileclassificationbasedoninstitutionalageingprofileandguide,notnewindividualphoto. No sciencepassclaimed.
+## Iteration
+Earlier#203/#205/#206 rule“softshortwing/down”mustNOTbeuniformlyappliedtoalldocumentedolderfledglings. #207initialover-downfailureillustratesthis. ABSAstage-specificcontourrequirementappliedinoneeditandactualcropverified. Newrule: independentlyspecifydocumenteddownamount,juvenilepatternandwingmaturity; formedjuvenilewing≠copiedadultpattern. Preventioninnewfirstimageuntested. #203/#205/#206remainchosenearlier/age-unknownstages;noautomaticrollbackbecauseof#207distinctevidence.
+## Complete editprompt
+Targeted correction #207 Lesser Sooty Owl. Right AGE-UNKNOWN FLEDGLING MUST have nearly complete adult-like JUVENILE contour plumage, only LITTLE residualdown per AustralianBirdStudyAssociation. Remove95% of hanging CURLY hairlike down loops from breast/belly/flanks/head. Replacewithsmoothly overlappingsoftdarkGREYjuvenilecontourfeathers,subtle small whitishflecks,fine subdued darkchevrons,onlya few wispy down remnants atshoulderedge. RETAIN darker juvenile body and GREY outer heartface with blackeyes,formedfoldedjuvenilewing mostlyundercontours,short hidden tail,headtilt/twofeet/support. ThisisfullyfeatheredfledglingNOTnataldownchick; don'treplacewithwhitefluff or wingbuds. CenteradultFEMALE increaseheight/bulk5%on samebranchplane,modestlylargerthanmale,nevergiant. Leftadultunchanged. Keepallblackeyes,palehornbills,adultsilverwhitedots/greyupperparts/chevronunderparts,grey-browntoes,exactplaques/labels,forest/resolution.

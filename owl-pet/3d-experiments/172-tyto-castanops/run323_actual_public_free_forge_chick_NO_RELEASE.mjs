@@ -97,7 +97,7 @@ try{
  }
  s=await snap(page,'02-photo-ui');
  report.visible_form_state=s.text.slice(0,1300);
- if(/Describe the object to generate[\\s\\S]{0,200}Name one object/.test(s.text)){
+ if(/Describe the object to generate[\s\S]{0,200}Name one object/.test(s.text)){
    step('photo-tab-failed-to-switch',{visible_text:s.text.slice(0,900)});
    // do not set hidden photo inputs belonging to inactive components.
    throw Error('Public UI remained in DESCRIBE IT mode after From photos tab click');

@@ -185,3 +185,7 @@ Problem: external juvenile observations can belong to another subspecies even wh
 
 ## 20261123T1830Z actual six-cycle audit
 #204 primary1904p106 independently supports narrower/fewer juvenilebreastbars but sourceconflict remains. First edit introduced longhardyoungwing; correctiveedit/nativecrop verified boundedcompactwing. Do not call fieldrecord tentativeyoung or museum singleseries universalstage. ITISsynonym preventsnew-species doublecount. #207 ABSAolderjuvenileformedwing retained. Fiveannotation-only revisions improve exporteduncertainty labels, not biology. New missing-speciesproduction stillprimarygoal; closeboundedannotationqueue and do not repeat alreadylabelledplates. Primaryoldpapernewpage is not newdocument; indexdedupcorrected. Actual ruleefficacy limited to reviewed6plates; no globalclaim.
+
+
+## 20261123T1933Z cycle1 #235 actual edit
+Problem: Socotra style reference leaked its bold pale scapular stripe and hard young remiges into Arabian bird. Bates1936p19/1937p150 support earthy older juvenile with down remnants and weaker shafts; photographed Arabian adults support subdued scapular areas. Applied isolated identity/wing correction and viewed full plus youngcrop. Final softened short formed wing/fragmented buff scapularflecks passed bounded check. Reused style must explicitly exclude donor anatomy; validated only #235. An adjacent catalogue 'youngfemale' belonged another taxon and was rejected; correct pamelae holotype is adultfemale. No general sex-size/flight rule inferred.

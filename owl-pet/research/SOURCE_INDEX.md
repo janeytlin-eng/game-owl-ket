@@ -6101,3 +6101,7 @@ RIGHT juvenile based on Bates1936p19 and1937p150 Arabian specimens: older feathe
 Environment: southwestern Arabian wadi with acacia-like smallleaves, rocky hills and sparsegreen vegetation, warm muted drywood; not lush rainforest. Adults differing gentlegazes, youngster low settled at naturalfork. Warm soft naturalistic petfriendly proportions, anatomicallycredible, no accessories.
 Exacttext top "235 ARABIAN SCOPS OWL"; italic "Otus pamelae". Rolelabels "ADULT MALE","ADULT FEMALE","AGE-UNKNOWN JUVENILE". Bottom readable footer "CONCEPT · SCIENTIFIC CALIBRATION PENDING"; smaller note "JUVENILE COLOURS / AGE / FLIGHT UNVERIFIED". Preserve fullfeet, no textoverbird. No scientificapproval badge.
 
+
+
+## 236 Ninox reyi — 20261123T1933Z cycle2
+NREY-RASMUSSEN-2012-P17, NREY-ITIS1063269, reused MIKKOLA2013 printed479/PDF481. [Full stable IDs, bibliographic metadata, URLs, page scopes, stage limits and designmapping](species/236-ninox-reyi-v1.md). Paper already indexed: new pagescope, not a new paper. Newtaxonomyreport1,reuseddocuments2; allsciencefalse. [Image](../design/concepts/236-ninox-reyi-v1.png), [review](reviews/236-ninox-reyi-v1-review.md).

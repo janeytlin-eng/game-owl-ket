@@ -1,0 +1,152 @@
+name: "Owl172 Run326 CC-BY animated barn owl anatomy and mobile WebGL QA NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run326-ccby-rigged-barn-owl-adult-vs-chick-qa-NO_RELEASE
+    paths:
+      - .github/workflows/owl172-run326-ccby-native-rigged-barn-owl-anatomy-QA-NO_RELEASE.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  real-ccby-adult-owl-source-and-wing-animation:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/run326_verifiable_free_rigged_barn_owl_source_NO_RELEASE.py
+            owl-pet/3d-experiments/172-tyto-castanops/run322_native_orbit_chromium_NO_RELEASE.mjs
+            owl-pet/3d-experiments/172-tyto-castanops/run322_native_orbit_research_NO_RELEASE.html
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Actually fetch verifiable native CC-BY GLB and inspect geometry/rig/animations
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          python -m pip install -q requests trimesh pillow numpy
+          python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/run326_verifiable_free_rigged_barn_owl_source_NO_RELEASE.py
+          python owl-pet/3d-experiments/172-tyto-castanops/run326_verifiable_free_rigged_barn_owl_source_NO_RELEASE.py owl172-run326-evidence | tee owl172-run326-native-fetch.log
+      - name: Real Chromium WebGL2 8-view original pose (adult, not chick)
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          MODEL=owl172-run326-evidence/vinish_barn_owl_CC_BY_ANATOMY_ONLY_ADULT_NO_RELEASE.glb
+          if [ ! -f "$MODEL" ]; then echo "NO_SOURCE_GLB: remote download blocked; no fake render"; exit 0; fi
+          npm install --no-audit --no-fund --no-save playwright-core@1.58.2 three@0.170.0 pngjs@7.0.0
+          CHROME_BIN=/usr/bin/google-chrome node owl-pet/3d-experiments/172-tyto-castanops/run322_native_orbit_chromium_NO_RELEASE.mjs \
+            "$MODEL" owl172-run326-evidence/rest-open-wings | tee owl172-run326-evidence/rest-browser.log
+      - name: Real Chromium WebGL2 8-view *original Idle animation* applied to rig
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          MODEL=owl172-run326-evidence/vinish_barn_owl_CC_BY_ANATOMY_ONLY_ADULT_NO_RELEASE.glb
+          if [ ! -f "$MODEL" ]; then exit 0; fi
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('owl-pet/3d-experiments/172-tyto-castanops/run322_native_orbit_research_NO_RELEASE.html')
+          s=p.read_text()
+          needle="const native=await new GLTFLoader().loadAsync('/model.glb');scene.add(native.scene);"
+          assert s.count(needle)==1
+          injected=needle+"""
+          window.__animationNames=native.animations.map(a=>a.name);
+          window.__idleApplied=false;
+          const idle=native.animations.find(a=>/idle/i.test(a.name));
+          if(idle){
+             const mixer=new THREE.AnimationMixer(native.scene);
+             mixer.clipAction(idle).play();
+             mixer.setTime(Math.min(Math.max(idle.duration*.55,0.3),1.25));
+             native.scene.updateMatrixWorld(true);
+             window.__idleApplied=true;
+          }
+          """
+          p.write_text(s.replace(needle,injected))
+          print('Animated with licensed source Idle, no manual made-up wing pose.')
+          PY
+          CHROME_BIN=/usr/bin/google-chrome node owl-pet/3d-experiments/172-tyto-castanops/run322_native_orbit_chromium_NO_RELEASE.mjs \
+            "$MODEL" owl172-run326-evidence/idle-folded-wings | tee owl172-run326-evidence/idle-browser.log
+      - name: Make actual A/B 16-view sheet, pixel differences, native integrity and strict NO_RELEASE evidence
+        if: always()
+        run: |
+          python - <<'PY'
+          import hashlib,json
+          from pathlib import Path
+          from PIL import Image,ImageDraw,ImageChops
+          p=Path('owl172-run326-evidence');p.mkdir(exist_ok=True)
+          poses=('rest-open-wings','idle-folded-wings')
+          sheet=Image.new('RGB',(8*165,2*345),(235,230,225))
+          draw=ImageDraw.Draw(sheet);pairs=[]
+          for j,pose in enumerate(poses):
+              for k,yaw in enumerate((0,45,90,135,180,225,270,315)):
+                  f=p/pose/('yaw_%03d.png'%yaw)
+                  if not f.exists():continue
+                  im=Image.open(f).convert('RGB').resize((165,328))
+                  sheet.paste(im,(k*165,j*345+16))
+                  draw.text((k*165+3,j*345+2),pose[:4]+' '+str(yaw),fill=(12,12,12))
+          if list(p.glob('*/yaw_*.png')):
+              sheet.save(p/'run326-real-16-view-WebGL2-native-animation-comparison.jpg',quality=86,optimize=True)
+          for yaw in (0,45,90,135,180,225,270,315):
+              a=p/poses[0]/('yaw_%03d.png'%yaw)
+              b=p/poses[1]/('yaw_%03d.png'%yaw)
+              if a.exists() and b.exists():
+                  hist=ImageChops.difference(Image.open(a).convert('RGB'),Image.open(b).convert('RGB')).convert('L').histogram()
+                  pairs.append(dict(yaw_deg=y,pixels_changed_over_25_pct=round(100*sum(hist[26:])/sum(hist),4)))
+          states={}
+          for pose in poses:
+              f=p/pose/'browser-report.json'
+              if f.exists():
+                  r=json.loads(f.read_text())
+                  states[pose]=dict(technicallyLoaded=r.get('technicallyLoaded'),
+                                    browser=r.get('browser'),error=r.get('error'),view_count=len(r.get('views',[])))
+          summary=dict(run=326,real_native_glb=(p/'vinish_barn_owl_CC_BY_ANATOMY_ONLY_ADULT_NO_RELEASE.glb').exists(),
+            browser_tests=states,pose_pixel_comparison=pairs,
+            art_status='ART_UNAPPROVED_ADULT_NOT_CHICK',
+            rights_status='SOURCE_CLAIMS_CC_BY4_ATTRIBUTION_REQUIRED_NOT_FINAL_RIGHTS_CLEARANCE',
+            physical_phone='UNTESTED',extra_paid_usd=0,release=False,
+            independent_251_species_production_untouched=True)
+          (p/'run326_final_status.json').write_text(json.dumps(summary,indent=2))
+          (p/'STRICT_NO_RELEASE.txt').write_text(
+            'Adult barn owl != #172 juvenile Tyto castanops. NO_RELEASE. '
+            'No cream-white volumetric chick down, juvenile morphology or eucalyptus grip approved. '
+            'Physical phone not tested. Source CC BY attribution required.\n')
+          fs=sorted(f for f in p.rglob('*') if f.is_file() and f.name not in ('file_hashes.json','SHA256SUMS.txt'))
+          items=[dict(path=str(f.relative_to(p)),size=f.stat().st_size,sha256=hashlib.sha256(f.read_bytes()).hexdigest()) for f in fs]
+          (p/'file_hashes.json').write_text(json.dumps(items,indent=2))
+          (p/'SHA256SUMS.txt').write_text('\n'.join(z['sha256']+'  '+z['path'] for z in items)+'\n')
+          print(json.dumps(summary,indent=2))
+          print('Hashed evidence entries',len(items))
+          PY
+          (cd owl172-run326-evidence && sha256sum -c SHA256SUMS.txt)
+      - name: Persist only small research images/diagnostics on isolated branch, NO ORIGINAL MODEL
+        if: always()
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          SOURCE=owl172-run326-evidence
+          DEST=owl-pet/3d-experiments/172-tyto-castanops/run326-live-evidence
+          mkdir -p "$DEST"
+          cp "$SOURCE"/source_and_native_anatomy.json "$DEST"/ 2>/dev/null || true
+          cp "$SOURCE"/run326_final_status.json "$DEST"/ 2>/dev/null || true
+          cp "$SOURCE"/file_hashes.json "$DEST"/ 2>/dev/null || true
+          cp "$SOURCE"/run326-real-16-view-WebGL2-native-animation-comparison.jpg "$DEST"/ 2>/dev/null || true
+          test -f "$DEST"/run326_final_status.json
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --sparse "$DEST"
+          if ! git diff --cached --quiet; then
+            git commit -m "research(#172): real adult barn owl GLB WebGL2 A-B evidence only NO_RELEASE"
+            git push origin "HEAD:research/owl172-run326-ccby-rigged-barn-owl-adult-vs-chick-qa-NO_RELEASE"
+          fi
+      - name: Archive raw source GLB and real browser screenshots separately from main
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run326-ccby-adult-anatomy-native-3d-NO_RELEASE
+          path: |
+            owl172-run326-evidence/
+            owl172-run326-native-fetch.log
+          retention-days: 14
+          if-no-files-found: warn

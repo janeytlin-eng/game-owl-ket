@@ -5562,3 +5562,7 @@ Taxon/region: monotypicMexicanBalsasowl, Xochicalco/Morelosobservednestcase. Old
 
 ### 212-megascops-seductus-v1 production recheck 2026-11-23T08:34:18.797Z
 Reused3existing IDs,added0/corrected0. On2026-11-23 reretrievedpublisher original https://mexorn.org/index.php/huitzil/article/view/313 , readauthors/DOI/abstract/date, and re-viewed downloadedprimaryPDFp112Fig3; originalsourcefacts unchanged. Savedresearchboundary/fullprompt resumed, not duplicatedIDs. [Research](species/212-megascops-seductus-v1.md).
+
+
+### 208-ninox-affinis-v2 production recheck 2026-11-23T08:38:15.352Z
+Reused5existingIDs;added0/corrected0. ActualonlineOwlPages2021Description/Habitat reread2026-11-23 https://www.owlpages.com/owls/species.php?s=3220 ; plainbrowncrown/indistinctochrevermiculations versusbarredflightfeathers targeted. Researchrecord includes priorprimarymuseum/guidefacts and conflicts, no new nataldetailinferred. [Revision research](species/208-ninox-affinis-v2.md).

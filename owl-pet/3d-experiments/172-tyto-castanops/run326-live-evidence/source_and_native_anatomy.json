@@ -1,0 +1,91 @@
+{
+  "run": "326",
+  "source_url": "https://vinish-models.pages.dev/birds/barn-owl.glb",
+  "source_license_page": "https://vinish.dev/free-3d-models/birds",
+  "required_attribution": "\"Barn Owl\" by vinish.dev (https://vinish.dev/free-3d-models/), CC BY 4.0",
+  "domain": "vinish-models.pages.dev",
+  "target": "172 Tyto castanops v3 rightmost cream-white mesoptile chick",
+  "provider_species": "generic adult barn owl; NOT Tyto castanops juvenile",
+  "verified_juvenile": false,
+  "art_approved": false,
+  "release": false,
+  "extra_paid_usd": 0,
+  "technical_source_verified": true,
+  "http_status": 200,
+  "content_type": "model/gltf-binary",
+  "bytes": 2601496,
+  "sha256": "1cda789a86924a707cd884bf1947aeb0f181ae4f339d48620c4226e750dc556c",
+  "gltf_metadata": {
+    "asset": {
+      "generator": "glTF-Transform v4.5.1",
+      "version": "2.0",
+      "copyright": "\"Barn Owl\" by vinish.dev (https://vinish.dev/free-3d-models/), CC BY 4.0",
+      "extras": {
+        "title": "Barn Owl",
+        "author": "vinish.dev",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "source": "https://vinish.dev/free-3d-models/",
+        "credit": "\"Barn Owl\" by vinish.dev (https://vinish.dev/free-3d-models/), CC BY 4.0"
+      }
+    },
+    "meshes": 1,
+    "triangle_primitives": 7,
+    "triangle_count": 52276,
+    "nodes": 54,
+    "skins": 1,
+    "animations": [
+      "Idle",
+      "Walk",
+      "Peck",
+      "Call",
+      "Fly",
+      "Glide"
+    ],
+    "animation_channel_counts": [
+      50,
+      51,
+      51,
+      51,
+      51,
+      50
+    ],
+    "material_count": 7,
+    "embedded_images": 7,
+    "texture_count": 7,
+    "node_names_anatomy": [
+      "Jaw",
+      "Tail",
+      "Toes_L",
+      "Toes_R",
+      "Wing_Arm_L",
+      "Wing_Fore_L",
+      "Wing_Hand_L",
+      "Wing_Arm_R",
+      "Wing_Fore_R",
+      "Wing_Hand_R",
+      "Tail_L1",
+      "Tail_L2",
+      "Tail_L3",
+      "Tail_R1",
+      "Tail_R2",
+      "Tail_R3"
+    ]
+  },
+  "trimesh_reimport": {
+    "success": true,
+    "mesh_count": 7,
+    "bounds": [
+      [
+        -0.4723798632621765,
+        0.0,
+        -0.09872642904520035
+      ],
+      [
+        0.4723798632621765,
+        0.35652104020118713,
+        0.10673096030950546
+      ]
+    ]
+  }
+}

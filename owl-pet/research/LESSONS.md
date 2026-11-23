@@ -153,3 +153,6 @@ Initial #203 again exposed long crisp adult primaries despite soft-wing wording 
 
 ## 2026-11-23 #204 applied rule and actual recheck
 Wing-endpoint constraint applied before generation: #204 initial young had short down-veiled folded wing without exposed long pointed adult primaries; first criterion success after #203 edit-only validation. Adult sex scale still failed initial and required oneedit; independently verify scale eachtime. Unknown youngage/flight/nest retained. Mikkola versusPoBjuvenilebar conflict unresolved. [Review](reviews/204-glaucidium-sjostedti-v1-review.md).
+
+## 2026-11-23 #205 applied rule and actual recheck
+#205 initial female direction correct but exaggerated; one edit reduced scale. Short-wing rule only partly prevented adult-like panels: juvenile crisp scapular row leaked. Added explicit diffuse juvenile scapular markings; edited+crop verified. Current Glaucidium brasilianum absorbs historical ridgwayi, counted once. Exact juvenile age/iris/flight/local sex ratio unknown. [Review](reviews/205-glaucidium-brasilianum-v1-review.md).

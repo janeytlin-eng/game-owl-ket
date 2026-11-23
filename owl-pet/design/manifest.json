@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T05:45:38.331Z",
+  "updated": "2026-11-23T05:51:36.411Z",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -34432,6 +34432,52 @@
       "verification_commit": "07a3eaa94ebc0dc24c989cf814afddf0f10ad583",
       "exact_readback": true,
       "credited_at": "2026-11-23T05:46:53.753Z"
+    },
+    {
+      "id": "205-glaucidium-brasilianum-v1",
+      "path": "design/concepts/205-glaucidium-brasilianum-v1.png",
+      "species_id": 205,
+      "scientific_name": "Glaucidium brasilianum",
+      "historical_names": [
+        "Glaucidium ridgwayi",
+        "Glaucidium brasilianum ridgwayi"
+      ],
+      "common_name": "Ferruginous Pygmy Owl (ridgwayi group)",
+      "version": 1,
+      "action": "NEW_SPECIES_CONCEPT",
+      "unique_species_increment": 1,
+      "revision_increment": 0,
+      "status": "#205 initial female direction correct but exaggerated; one edit reduced scale. Short-wing rule only partly prevented adult-like panels: juvenile crisp scapular row leaked. Added explicit diffuse juvenile scapular markings; edited+crop verified. Current Glaucidium brasilianum absorbs historical ridgwayi, counted once. Exact juvenile age/iris/flight/local sex ratio unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "imagegen_invocations": 2,
+      "source_ids": [
+        "GBRI-MIKKOLA-2013-P376",
+        "GBRI-ITIS-687036",
+        "GBRI-OWLPAGES-2020",
+        "GBRI-AOU-2008C02"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/205-glaucidium-brasilianum-v1.md",
+      "review_record": "research/reviews/205-glaucidium-brasilianum-v1-review.md",
+      "run_record": "production/runs/20261123T043309Z-cycle-4.md",
+      "reviewed_at": "2026-11-23T05:51:36.411Z",
+      "dimensions": "1536x1024",
+      "sha256": "703d3077c416d9d6b19f1cfe91ab61c78ea5cbc3add81d708376363804b0b361",
+      "size_bytes": 2965958,
+      "git_blob": "f7145b306ca4cf83c88e1c0695b173c3582e05e8",
+      "initial_original_path": "production/generated/205-glaucidium-brasilianum-v1-initial-original.png",
+      "initial_generated_blob": "b528f6656fcdb53122b01ff43e33c0a850b6326e",
+      "final_original_path": "production/generated/205-glaucidium-brasilianum-v1-final-original.png",
+      "edited_path": "production/generated/205-glaucidium-brasilianum-v1-edit1-original.png",
+      "reviewed_path": "production/reviewed/205-glaucidium-brasilianum-v1-reviewed-master.png",
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "ledger_credited": false,
+      "batch_id": "20261123T043309Z",
+      "batch_cycle": 4
     }
   ],
   "updated_at": "2026-11-23T04:42:06.499Z"

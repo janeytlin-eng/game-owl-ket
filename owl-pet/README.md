@@ -1,4 +1,7 @@
 
+## 2026-11-23 #214 Otus balli 214-otus-balli-v1 VERIFIED
+Coverage186/251; batch20261123T092806Z 2/6. New1/revision0. Archive35f5ce62af2e0642f2bc734ae84b922be97b6d60;verification062d33b0246e12a09ffb1d1b984aa4e807e65a05. Actualimageedit/view, immutableoriginalhash/decodeverified. PASS_WITH_LIMITATIONS/sciencefalse. [Original](design/concepts/214-otus-balli-v1.png),[review](research/reviews/214-otus-balli-v1-review.md),[run](production/runs/20261123T092806Z-cycle-2.md). All251notcomplete.
+
 ## 2026-11-23 #213 Glaucidium tephronotum v1 VERIFIED
 Coverage185/251, new1/revision0. Batch20261123T092806Z1/6. Archive70904e313f65c1860ed10b820c1876d4d69a4599;verification11b174d841490a3d5f0efc0ae8efd2129d4746a1. Full/crops actualreview andoneedit; originalremoteexacthashdecodeverified. ConceptPASS_WITH_LIMITATIONS/sciencefalse; olderjuvenileage/subspecies/sexratio notcalibrated. [Original](design/concepts/213-glaucidium-tephronotum-v1.png),[Review](research/reviews/213-glaucidium-tephronotum-v1-review.md). All251notcomplete.
 

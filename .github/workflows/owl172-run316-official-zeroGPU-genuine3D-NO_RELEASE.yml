@@ -37,6 +37,7 @@ jobs:
           set -euo pipefail
           python owl-pet/3d-experiments/172-tyto-castanops/run295_real_reference_cutout_preprocess_ONLY_NO_RELEASE.py | tee reference_rebuild.log
           test "$(sha256sum owl172-run295-evidence/young-isolated-white-background-input-NO_3D.png | cut -d' ' -f1)" = 6ec346e5b02411f9509fd364db748c23a58075aeec461ef7424adcc4d893bc77
+          mkdir -p owl172-run316-evidence
           cp -r owl172-run295-evidence owl172-run316-evidence/reference
       - name: Actual public no-payment UI upload and native 3D generation attempts
         timeout-minutes: 18

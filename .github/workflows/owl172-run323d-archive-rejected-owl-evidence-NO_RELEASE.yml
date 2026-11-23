@@ -1,0 +1,67 @@
+name: Owl172 Run323d permanent isolated rejected WebGL evidence
+on:
+  push:
+    branches:
+      - research/owl172-run323-juvenile-native-free-rig-source-access-NO_RELEASE
+    paths:
+      - '.github/workflows/owl172-run323d-archive-rejected-owl-evidence-NO_RELEASE.yml'
+  workflow_dispatch:
+permissions:
+  actions: read
+  contents: write
+jobs:
+  archive-real-rejected-owl:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops
+            .github/workflows
+          sparse-checkout-cone-mode: true
+      - name: Fetch evidence from specific verified Chromium WebGL2 source run
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p run323c-temporary-source
+          gh run download 45182282812 --repo janeytlin-eng/game-owl-ket \
+            --name run323c-true-owl-WebGL2-threeviews-ART_REJECTED \
+            --dir run323c-temporary-source
+          test -s run323c-temporary-source/source_animal_owl.glb
+      - name: Verify genuine GLB SHA / three owl screenshots and preserve under isolated rejected evidence
+        run: |
+          python - <<'PY'
+          import pathlib,json,hashlib,shutil
+          src=pathlib.Path('run323c-temporary-source')
+          out=pathlib.Path('owl-pet/3d-experiments/172-tyto-castanops/run323c-live-evidence-ART_REJECTED')
+          out.mkdir(parents=True,exist_ok=True)
+          expected='12b0d7ff039b60b58ea4dd0ebcf07242c5f2c3d1ba0dc0935b94aa5a954a8bbc'
+          assert hashlib.sha256((src/'source_animal_owl.glb').read_bytes()).hexdigest()==expected
+          report=json.loads((src/'run323-results.json').read_text())
+          captures=report.get('webgl2',{}).get('captures',[])
+          assert len(captures)==3
+          assert set(x['view'] for x in captures)=={'front','right','rear'}
+          assert all(x['model']=='source_animal_owl.glb' and x['status']=='loaded' and x['webgl2'] and x['glError']==0 for x in captures)
+          assert not report['physical_phone_test'] and report['quality_gate']=='ART_REJECTED'
+          for n in ['source_animal_owl.glb','run323-results.json','NO_RELEASE.txt',
+                    'webgl-source_animal_owl-front.png','webgl-source_animal_owl-right.png','webgl-source_animal_owl-rear.png']:
+              shutil.copy2(src/n,out/n)
+          inventory={}
+          for p in sorted(out.iterdir()):
+              if p.is_file() and p.name!='SHA256-MANIFEST.json':
+                  inventory[p.name]={'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()}
+          (out/'SHA256-MANIFEST.json').write_text(json.dumps(inventory,indent=2))
+          print('OWL-only 3/3 WebGL captures verified; archived', len(inventory),'rejected evidence files')
+          PY
+      - name: Publish only to isolated research branch, never main
+        run: |
+          git config user.name 'owl172-research-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add owl-pet/3d-experiments/172-tyto-castanops/run323c-live-evidence-ART_REJECTED
+          if git diff --cached --quiet; then
+            echo 'Evidence already archived'
+          else
+            git commit -m 'owl172 Run323d: permanently archive ART_REJECTED original rig and actual 3-view WebGL2 evidence'
+            git push origin HEAD:refs/heads/research/owl172-run323-juvenile-native-free-rig-source-access-NO_RELEASE
+          fi

@@ -80,6 +80,8 @@ jobs:
           git config user.email "owl172-research-bot@users.noreply.github.com"
           git add owl-pet/3d-experiments/172-tyto-castanops/run312-actual-runner-result-NO_RELEASE.json
           git commit -m "research(#172): persist Run312 actual source access result - NO RELEASE" || true
+          git fetch origin "$GITHUB_REF_NAME"
+          git rebase FETCH_HEAD
           git push origin "HEAD:refs/heads/research/owl172-run312-museum-cc0-barn-owl-feather-reference-NO_RELEASE"
 
       - name: Archive independent research only (no production/deploy)

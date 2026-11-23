@@ -1,0 +1,106 @@
+name: "Owl172 Run322 CC0 native-source/art-anatomy evaluation NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run322-cc0-native-professional-source-eval-NO_RELEASE
+    paths:
+      - .github/workflows/owl172-run322-cc0-native-source-NO_RELEASE.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  actual-public-native-source-probe:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/run322_cc0_native_source_evaluation_NO_RELEASE.py
+            owl-pet/3d-experiments/172-tyto-castanops/run322_native_orbit_research_NO_RELEASE.html
+            owl-pet/3d-experiments/172-tyto-castanops/run322_native_orbit_chromium_NO_RELEASE.mjs
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install free native mesh validation tools
+        run: |
+          set -euo pipefail
+          python -m pip install -q requests numpy trimesh pillow
+          python -m py_compile owl-pet/3d-experiments/172-tyto-castanops/run322_cc0_native_source_evaluation_NO_RELEASE.py
+      - name: Actual primary-source CC0 GLB download and native geometry verification
+        run: |
+          set -euo pipefail
+          python owl-pet/3d-experiments/172-tyto-castanops/run322_cc0_native_source_evaluation_NO_RELEASE.py \
+            --out owl172-run322-evidence | tee owl172-run322_stdout.log
+      - name: Actual eight-view Chromium WebGL2 inspection only if real native GLB exists
+        if: ${{ hashFiles('owl172-run322-evidence/innscene_owl_CC0_UNREVIEWED_NO_RELEASE.glb') != '' }}
+        run: |
+          set -euo pipefail
+          npm install --no-audit --no-fund --no-save playwright-core@1.58.2 three@0.170.0 pngjs@7.0.0
+          CHROME_BIN=/usr/bin/google-chrome node owl-pet/3d-experiments/172-tyto-castanops/run322_native_orbit_chromium_NO_RELEASE.mjs \
+            owl172-run322-evidence/innscene_owl_CC0_UNREVIEWED_NO_RELEASE.glb owl172-run322-evidence/webgl2 \
+            | tee owl172-run322-evidence/chromium_stdout.log
+      - name: Produce actual eight-angle review sheet and integrity manifest
+        if: always()
+        run: |
+          python - <<'PY'
+          import hashlib,json
+          from pathlib import Path
+          from PIL import Image,ImageDraw
+          p=Path('owl172-run322-evidence');p.mkdir(exist_ok=True)
+          pics=sorted((p/'webgl2').glob('yaw_*.png')) if (p/'webgl2').exists() else []
+          if pics:
+              sheet=Image.new('RGB',(4*230,2*490),(236,231,223))
+              d=ImageDraw.Draw(sheet)
+              for i,imfile in enumerate(pics):
+                  im=Image.open(imfile).convert('RGB').resize((230,460))
+                  x=(i%4)*230;y=(i//4)*490
+                  sheet.paste(im,(x,y+20))
+                  d.text((x+8,y+5),imfile.stem,fill=(24,24,24))
+              sheet.save(p/'run322-original-GLB-eight-real-WebGL-views.jpg',quality=87,optimize=True)
+          summary={
+              'run':'322','art':'UNASSESSED_NO_APPROVAL','release':False,
+              'phone':'UNTESTED','production_251_untouched':True,'paid_usd':0,
+              'actual_browser_view_count':len(pics),
+              'candidate_suitable_for_Tyto172':'NOT_ESTABLISHED'}
+          (p/'STRICT_NO_RELEASE.txt').write_text('Research-only CC0 native 3D source. Art NOT APPROVED. Juvenile age/feathers/silhouette NOT VERIFIED. No physical phone. NO_RELEASE.\n')
+          (p/'run322-final-state.json').write_text(json.dumps(summary,indent=2))
+          files=sorted(f for f in p.rglob('*') if f.is_file() and f.name not in ('file_hashes.json','SHA256SUMS.txt'))
+          arr=[{'path':str(f.relative_to(p)),'sha256':hashlib.sha256(f.read_bytes()).hexdigest(),'bytes':f.stat().st_size} for f in files]
+          (p/'file_hashes.json').write_text(json.dumps(arr,indent=2))
+          (p/'SHA256SUMS.txt').write_text('\n'.join(x['sha256']+'  '+x['path'] for x in arr)+'\n')
+          print(json.dumps(summary,indent=2))
+          print('Hashed evidence files',len(arr))
+          PY
+          (cd owl172-run322-evidence && sha256sum -c SHA256SUMS.txt)
+      - name: Persist bounded diagnostic and proof-of-render on isolated research branch only
+        if: always()
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          SOURCE=owl172-run322-evidence
+          DEST=owl-pet/3d-experiments/172-tyto-castanops/run322-live-evidence
+          mkdir -p "$DEST"
+          cp "$SOURCE"/run322-native-diagnostics.json "$DEST"/ 2>/dev/null || true
+          cp "$SOURCE"/run322-final-state.json "$DEST"/ 2>/dev/null || true
+          cp "$SOURCE"/file_hashes.json "$DEST"/ 2>/dev/null || true
+          cp "$SOURCE"/run322-original-GLB-eight-real-WebGL-views.jpg "$DEST"/ 2>/dev/null || true
+          test -f "$DEST"/run322-final-state.json
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --sparse "$DEST"
+          if ! git diff --cached --quiet; then
+            git commit -m "research(#172): persist Run322 native-source diagnostics and visual evidence, NO_RELEASE"
+            git push origin "HEAD:research/owl172-run322-cc0-native-professional-source-eval-NO_RELEASE"
+          fi
+      - name: Preserve research original native candidate GLB and snapshots in temporary artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run322-CC0-source-anatomy-NO_RELEASE
+          path: |
+            owl172-run322-evidence/
+            owl172-run322_stdout.log
+          retention-days: 14
+          if-no-files-found: warn

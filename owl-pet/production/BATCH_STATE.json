@@ -51405,8 +51405,8 @@
   "lease": {
     "owner": "owl-production-20261123T1640Z",
     "run_id": "20261123T1640Z-cycle-2",
-    "heartbeat_at": "2026-11-23T16:53:00.428Z",
-    "expires_at": "2026-11-23T17:08:00.428Z"
+    "heartbeat_at": "2026-11-23T16:54:20.836Z",
+    "expires_at": "2026-11-23T17:09:20.836Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -51541,7 +51541,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-23T16:53:00.428Z",
+  "updated_at": "2026-11-23T16:54:20.836Z",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -51569,8 +51569,8 @@
   "active_lease": {
     "owner": "owl-production-20261123T1640Z",
     "run_id": "20261123T1640Z-cycle-2",
-    "heartbeat_at": "2026-11-23T16:53:00.428Z",
-    "expires_at": "2026-11-23T17:08:00.428Z"
+    "heartbeat_at": "2026-11-23T16:54:20.836Z",
+    "expires_at": "2026-11-23T17:09:20.836Z"
   },
   "last_updated_at": "2026-11-13T06:00:16.398+08:00",
   "audit_notes": [
@@ -58956,7 +58956,7 @@
   ],
   "active_batch_id": "20261123T1640Z",
   "active_cycle": 2,
-  "current_stage": "RESEARCH_READY",
+  "current_stage": "IMAGE_GENERATED",
   "next_cycle": 2,
   "unique_species_count": 203,
   "total_species": 251,
@@ -69599,6 +69599,13 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-23T16:53:00.428Z",
       "evidence": "Annotation-only revision selected after actual v4 view; reused2 sourcesforhoyi;3 independent readcandidate records indexed, no new speciescandidate inferred. Research phase ~14min including broad retrieval, exact timestamps inrun."
+    },
+    {
+      "batch_id": "20261123T1640Z",
+      "cycle": 2,
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-23T16:54:20.836Z",
+      "evidence": "Built-in edit 2026-11-23T16:53:18.078Z to 2026-11-23T16:53:54.400Z; fullPNG 2484838bytes SHA256fb50c11a2a2157124b52c7276330726e69a8c7b80e13c6e8b7068b7374027c7e; archived generated original before review; no cyclecredit."
     }
   ],
   "last_completed_batch_id": "20261123T143039Z",

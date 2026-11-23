@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T05:57:14.860Z",
+  "updated": "2026-11-23T06:33:44.623Z",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -32407,6 +32407,51 @@
       "verification_commit": "d8bda1cf566fc87c9dbe28778f012e36433a9209",
       "exact_readback": true,
       "credited_at": "2026-11-23T05:58:04.524Z"
+    },
+    {
+      "id": "207-tyto-multipunctata-v1",
+      "path": "design/concepts/207-tyto-multipunctata-v1.png",
+      "species_id": 207,
+      "scientific_name": "Tyto multipunctata",
+      "historical_names": [
+        "Tyto tenebricosa multipunctata"
+      ],
+      "common_name": "Lesser Sooty Owl",
+      "version": 1,
+      "action": "NEW_SPECIES_CONCEPT",
+      "unique_species_increment": 1,
+      "revision_increment": 0,
+      "status": "Age-unknown fully feathered fledgling/NEQueensland. One edit removed excessive down and clarified modest female-larger scale. Full+3crops viewed; grey young outerface and little remaining down; exact age/iris/flight/molt/nest unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "imagegen_invocations": 2,
+      "source_ids": [
+        "TMLT-MIKKOLA-2013-P113",
+        "TMLT-ABSA-2019-P1",
+        "TMLT-ITIS-555349",
+        "TMLT-OWLPAGES-2020"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/207-tyto-multipunctata-v1.md",
+      "review_record": "research/reviews/207-tyto-multipunctata-v1-review.md",
+      "run_record": "production/runs/20261123T043309Z-cycle-6.md",
+      "reviewed_at": "2026-11-23T06:33:44.623Z",
+      "dimensions": "1536x1024",
+      "sha256": "1b8dad4b817dfdf8e6a04ff4cb7c710daf97dd36c1e906fadb128703ad7489ed",
+      "size_bytes": 2791295,
+      "git_blob": "b77bd375eb617112ec96a89de6436a4c35e7072b",
+      "initial_original_path": "production/generated/207-tyto-multipunctata-v1-initial-original.png",
+      "initial_generated_blob": "b3efaa12bae977655828281c054376eecbc9efed",
+      "final_original_path": "production/generated/207-tyto-multipunctata-v1-final-original.png",
+      "edited_path": "production/generated/207-tyto-multipunctata-v1-edit1-original.png",
+      "reviewed_path": "production/reviewed/207-tyto-multipunctata-v1-reviewed-master.png",
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "ledger_credited": false,
+      "batch_id": "20261123T043309Z",
+      "batch_cycle": 6
     }
   ],
   "updated_at": "2026-11-23T04:42:06.499Z"

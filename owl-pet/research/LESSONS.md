@@ -159,3 +159,6 @@ Wing-endpoint constraint applied before generation: #204 initial young had short
 
 ## 2026-11-23 #206 applied rule and actual recheck
 #206 young correctly duller and no adult-white scapular line in first image; long hard wing and crisp crown still required edit. Edited/full+cropchecked: softer rounded contour-covered wing and dull crown,olderfledgling bodyplan retained. Extra taxonomy plaque line removed. Near-equal adults because no size data. Precise young age/iris/flight/nest unknown. [Review](reviews/206-glaucidium-castanopterum-v1-review.md).
+
+## 2026-11-23 #207 — do not generalize heavy down to fully feathered fledglings
+ABSA2019p1 says nearlycompletejuvenileplumage/littleremainingdown. Initial#207excesscurlydownfailed;oneeditreplacedwithdarkgreycontourfeathers,full+3cropsrechecked. Stage-specificdown/pattern/wingconstraintsneedindependentchecks. Appliededitworked;firstgenerationpreventionuntested. Earlier#203/#205/#206weredifferentdescribedstages,noautomaticuniversalrollback. Nameparsermustmatchwholeversionstemincludingthree-partsubspecies: #25/#205samecurrentGbrasilianum,creditcorrectedwithoutdeletinghistory.

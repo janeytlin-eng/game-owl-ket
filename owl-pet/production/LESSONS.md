@@ -162,3 +162,9 @@ undefined
 - **Evidence:** Mikkola's Pel's Fishing Owl account (printed pp.304–306) describes mesoptile wings/tail as adult-like but paler/less reddish; Prague Zoo documents a light three-month bird with powder-down remnants.
 - **Applied:** #156 v4 retains a compact paler-patterned folded wing while shortening the tail, preserving powder down and requiring bilateral branch support and no flight claim.
 - **Validation:** full plate and three role crops were reopened after recovery; the bird remained visibly juvenile and evidence-bounded. This rule is verified only for #156 v4 and must not be generalized without species/stage evidence.
+
+
+## 20261123T1640Z-cycle-1 Otus sulaensis
+
+Problem: modern secondary phrase 'juvenile similaradult' would erase directly described barred down and dark juvenile eyes. Evidence: Hartert1898p126. Applied: primary-stage colour/barring and dark eyes in prompt; viewedresult preserves them. This validates visual application only. Adult#117/#141 relatedplates not automatically affected; their juvenile source mustbe checked independently. No globaltransfer of this species' iris chronology.
+

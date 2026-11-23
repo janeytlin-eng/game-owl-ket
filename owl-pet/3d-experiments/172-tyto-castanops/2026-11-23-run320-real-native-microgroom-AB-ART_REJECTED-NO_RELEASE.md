@@ -1,0 +1,42 @@
+# #172 Tyto castanops v3 rightmost cream downy chick — Run320 genuine native GLB microgroom A/B
+
+**2026-11-23 (Shanghai)** — status: **REAL_NATIVE_3D_A_B_VERIFIED / SOURCE_TEXTURES_PRESERVED / THREE_VIEW_VTK_QA / ART_REJECTED / MOBILE_WEBGL_NOT_TESTED / RIGHTS_HOLD / STRICT_NO_RELEASE**.
+
+## Existing project & last attempts reviewed first
+
+- Re-read `owl-pet/AGENTS.md`, `owl-pet/README.md`, current `owl-pet/STATUS.md`, previous Run319 rejection and Run316–317b audit. Original concept is the [unmodified #172 v3 plate](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/design/concepts/172-tyto-castanops-v3.png), **RIGHTMOST age-unknown cream second-down chick**, not either adult bird.
+- Last Run319 official Tencent Hunyuan mini Turbo test was blocked at HTTP 500; Run318 TRELLIS.2 free tier exhausted; Run317 Stable Fast 3D yielded a real textured native GLB but with a smooth, inflated back and absent true feather volume. Run315 found a reproducible default-metallic GLB material bug. Accordingly no more quota-hammering or plastic recoloring.
+- No modifications to 251-species roster/manifests/concept images, root game, kitten WebGL prototype, default branch `main`, or live deployment.
+
+## Actual zero-extra-payment experiment
+
+1. Retrieved the **real Run317 Actions binary evidence** from [artifact #14795923598](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/45127141518/artifacts/14795923598). Independently extracted and imported `stability-SF3D-TyTo172-REAL_UNREVIEWED_NO_RELEASE.glb`: exact source SHA256 `c4637faf90b3308123342517b43aabc4b3b197cec8aa62ad80976f173cbe20be`, 1,137,108 bytes, 27,372 original real mesh triangles, 16,971 vertices, UV base-color and normal textures. The source was not a flat image or a primitive assembly.
+2. Used free NumPy/Trimesh to draw fresh area-weighted sample points **on the actual 3D surface**, excluding the actual face disc/eyes and claws. Each small second-down strand is a narrow curved piece of **real geometry**, running near-tangent along the original surface, progressively tapering in width and slightly projecting outward, with pale cream vertex colors sampled from native source texture plus a controlled pale blend. It is not a billboard or 360-degree image rotation. Hypothesis: many fine tangent microfibres could improve soft side/back appearance without obvious perpendicular spikes.
+3. **A variant:** 2,600 tapered curved real fiber strips, 10,400 added triangles, total **37,772 real triangles**. **B variant:** 8,300 strips, 33,200 added triangles, total **60,572 real triangles**. Re-imported both actual GLB files and verified original UV-textured base mesh plus independent native vertex-colored fiber mesh. Original two texture images retained.
+4. During glTF metadata audit, identified a specific material risk: Trimesh ColorVisuals triangles otherwise lack explicit material, which glTF viewers often treat as metallic=1, the previously observed black-back failure. Fixed both produced GLBs by injecting an explicit **double-sided nonmetallic / roughness=1 PBR material** only for native color-fiber primitives, keeping the original textured 3D base material. JSON confirmed two meshes and two materials, with fiber primitive material explicitly set. This is a material structure validation, not evidence of phone shading success.
+5. Rendered **nine actual VTK spatial views** in Xvfb: unchanged source and A and B, each with anatomically correct front **-Z**, right **+X**, back **+Z** camera. Inspected full montage, not just success codes. These views are real software 3D renderings, **not WebGL2, not physical Android/iPhone, and not product QA**.
+
+### Local independent binary inspection (post PBR fix)
+
+| Variant | Original native triangles | Additional genuine fiber triangles | Total | GLB bytes | SHA256 |
+|---|---:|---:|---:|---:|---|
+| A | 27,372 | 10,400 | 37,772 | 3,323,768 | `0d87771bc41de74d38ac469482ae853a3be5307011df4462e4005d90b78fa892` |
+| B | 27,372 | 33,200 | 60,572 | 4,554,972 | `36891a5773c09df73ed50ef0f8cf1b776df08b67af998c7e14cfc01ecb9c7e89` |
+
+The fully local 17-file ZIP containing both GLBs, nine actual 3D views, montage, source, execution logs, metrics, SHA256 manifest, and NO_RELEASE marker passed ZIP CRC. Size **7,806,497 bytes**; SHA256 `5737c35d975a14301a96833cc5809c9b213fa36a2cdd47ff1b276545fdb9001b`. This ZIP is a **local research package**, not claimed as uploaded to persistent GitHub assets. The independent [Run320 GitHub Actions](https://github.com/janeytlin-eng/game-owl-ket/actions/runs/45156160415) reproduces the same original-GLB fetch and A/B script from this dedicated branch and uploads temporary downloadable raw evidence separately; see run record for authoritative remote output and expiry.
+
+## Visual verdict: **both art rejected, no user preview**
+
+Actually opened all views. A 2,600 fibers: the surface gets a slightly more varied sheen but remains visibly hard/smooth from side and rear; there is still no real short-wing mass, shoulder-layer definition, or eucalypt hollow contact. B 8,300 fibers: visible slightly fuzzier silhouette at macro scale, but only subtle change in overall form and too many tiny etched fibers; facial disc shape and native eye geometry unchanged. Neither turns the adult-ish photographic smooth-surface neural reconstruction into professional cream-white plumulaceous baby owl sculpt. Feet still appear on isolated flat source-background remnant; no credible tree hollow. Increasing curved tiny hair density is not a substitute for sculpted anatomical feather layers, volumetric down, wing tucks and credible foot support.
+
+**Both variants were rejected** even though they are actually valid native GLB meshes with real additional hairlike geometry. Original source asset license and generated derivative rights have not been cleared for deployment. The default material fix should be retained for future technically sound models but is not art approval.
+
+## Reproducibility / isolation
+
+- Exact original source GLB required (Run317 file+SHA). Python source: [Run320 native microgroom A/B](run320_reproducible_native_microgroom_AB_NO_RELEASE.py). GitHub Actions: [isolated workflow](https://github.com/janeytlin-eng/game-owl-ket/blob/research/owl172-run320-native-microgroom-ab-ART_REJECTED-NO_RELEASE/.github/workflows/owl172-run320-native-microgroom-AB-ART_REJECTED-NO_RELEASE.yml). No extra payment and no login/access-control circumvention.
+- Running `xvfb-run -a python run320_reproducible_native_microgroom_AB_NO_RELEASE.py --output-dir <folder-with-original-source-glb>` regenerates A/B and VTK views. Remote runner obtains source through normal same-repo GitHub Actions artifact access. Re-run results may vary with library versions; verify output SHA on the executed runner, rather than assume cross-platform byte identity.
+- Research branch only. `ART_REJECTED / RIGHTS_HOLD / PHYSICAL_PHONE_UNTESTED / NO_RELEASE`. Do not deploy, publicize a prototype, merge into main, or count toward 251-species originals.
+
+### Next meaningful gate
+
+No more simple feather-density A/B. Acquire or create high-quality true juvenile artistic sculpt with anatomically integrated heart-shaped feather disc, proper short wings/shoulders, feather volume and believable hollow foot contact; preserve real front/right/back shape under actual mobile WebGL, resolve rights, and only then consider a user-facing playable sample.

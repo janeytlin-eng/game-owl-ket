@@ -34548,6 +34548,41 @@
       "verification_commit": "383058928893aa0c5bba6527fec9b90c0e9f5ea6",
       "exact_readback": true,
       "ledger_credited": true
+    },
+    {
+      "id": "223-strix-butleri-v1",
+      "path": "design/concepts/223-strix-butleri-v1.png",
+      "species_id": 223,
+      "scientific_name": "Strix butleri",
+      "common_name": "Omani Owl",
+      "version": 1,
+      "action": "NEW_SPECIES_CONCEPT",
+      "unique_species_increment": 1,
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "source_ids": [
+        "SBUT-ROBB-2016-REDISCOVERY",
+        "SBUT-KASRAVI-2019-DB-PL233",
+        "SBUT-SOUNDAPPROACH-OMANI",
+        "SBUT-DB-2020-P278",
+        "SBUT-TOHIDIFAR-2023-RANGE"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/223-strix-butleri-v1.md",
+      "review_record": "research/reviews/223-strix-butleri-v1-review.md",
+      "run_record": "owl-pet/production/runs/20261123T113345Z-cycle-5.md",
+      "edit_count": 1,
+      "bytes": 2851242,
+      "sha256": "687b867ae35919498c44125b56902830e33ff78d495041b320d7322f9af459b9",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "git_blob": "cb2210f4d13d5bd979488d10b95746af2831ef76",
+      "batch_id": "20261123T113345Z",
+      "batch_cycle": 5,
+      "readback_pending": true
     }
   ],
   "updated_at": "2026-11-23T11:53:27.824Z"

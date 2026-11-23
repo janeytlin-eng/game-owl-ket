@@ -150,3 +150,6 @@ undefined
 
 ## 2026-11-23 #203 — adult remiges recur in mesoptile
 Initial #203 again exposed long crisp adult primaries despite soft-wing wording (also observed #202). Applied endpoint-constrained short rounded down-veiled wing edit; full and young crop rechecked, long remiges removed. Rule applied and edit validated in #203; prevention in subsequent first-generation image remains untested. Do not suppress all formed feathering or call unknown-age mesoptile a hatchling. [Review](reviews/203-megascops-guatemalae-v1-review.md).
+
+## 2026-11-23 #204 applied rule and actual recheck
+Wing-endpoint constraint applied before generation: #204 initial young had short down-veiled folded wing without exposed long pointed adult primaries; first criterion success after #203 edit-only validation. Adult sex scale still failed initial and required oneedit; independently verify scale eachtime. Unknown youngage/flight/nest retained. Mikkola versusPoBjuvenilebar conflict unresolved. [Review](reviews/204-glaucidium-sjostedti-v1-review.md).

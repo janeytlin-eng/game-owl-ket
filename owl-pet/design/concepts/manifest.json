@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T05:37:47.287Z",
+  "updated": "2026-11-23T05:45:38.331Z",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -36375,6 +36375,51 @@
       "verification_commit": "06196eea0f0e21622344b2dbc92f60322dca69f1",
       "exact_readback": true,
       "credited_at": "2026-11-23T05:39:12.829Z"
+    },
+    {
+      "id": "204-glaucidium-sjostedti-v1",
+      "path": "design/concepts/204-glaucidium-sjostedti-v1.png",
+      "species_id": 204,
+      "scientific_name": "Glaucidium sjostedti",
+      "historical_names": [
+        "Taenioglaux sjostedti"
+      ],
+      "common_name": "Sjostedt's Barred Owlet",
+      "version": 1,
+      "action": "NEW_SPECIES_CONCEPT",
+      "unique_species_increment": 1,
+      "revision_increment": 0,
+      "status": "Wing-endpoint constraint applied before generation: #204 initial young had short down-veiled folded wing without exposed long pointed adult primaries; first criterion success after #203 edit-only validation. Adult sex scale still failed initial and required oneedit; independently verify scale eachtime. Unknown youngage/flight/nest retained. Mikkola versusPoBjuvenilebar conflict unresolved.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "imagegen_invocations": 2,
+      "source_ids": [
+        "GSJO-MIKKOLA-2013-P410",
+        "GSJO-RAND-1959-P276",
+        "GSJO-ITIS-555460",
+        "GSJO-POB-2011"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/204-glaucidium-sjostedti-v1.md",
+      "review_record": "research/reviews/204-glaucidium-sjostedti-v1-review.md",
+      "run_record": "production/runs/20261123T043309Z-cycle-3.md",
+      "reviewed_at": "2026-11-23T05:45:38.331Z",
+      "dimensions": "1536x1024",
+      "sha256": "0cf69d36013d5284f6808150b3817ee4cd0704152a12b7eb9380a722d9c7bc50",
+      "size_bytes": 2695977,
+      "git_blob": "583c770e803ab04e631b5c1ef59ea6fa9be53f3d",
+      "initial_original_path": "production/generated/204-glaucidium-sjostedti-v1-initial-original.png",
+      "initial_generated_blob": "66b2b8651ad71f8e70781f4ed6dfa053c389a38d",
+      "final_original_path": "production/generated/204-glaucidium-sjostedti-v1-final-original.png",
+      "edited_path": "production/generated/204-glaucidium-sjostedti-v1-edit1-original.png",
+      "reviewed_path": "production/reviewed/204-glaucidium-sjostedti-v1-reviewed-master.png",
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "ledger_credited": false,
+      "batch_id": "20261123T043309Z",
+      "batch_cycle": 3
     }
   ],
   "updated_at": "2026-11-23T04:42:06.499Z"

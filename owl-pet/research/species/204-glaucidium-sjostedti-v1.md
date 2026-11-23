@@ -12,3 +12,6 @@ Create one1536x1024 softly realistic established owl-pet forest trio concept pla
 ## Retrieval errors / screening
 Avibase timeout/inaccessible; BHL403; Illinois oldPDF404 and non-PDF download, parsing failed; recovered original museum text through InternetArchive. Not falsely counted inaccessible originals asread.
 Megascops roboratus deferred: Freile,Bonaccorso,Santander2003 original nesting report pp107–110 actuallyread in author-uploaded full text https://www.researchgate.net/publication/228995020_First_nesting_report_of_the_West_Peruvian_Screech-Owl_Otus_roboratus ;pacificus eggs/adults/nest described,no juvenile phenotype. Stage unknown; no inventedtrio. Red-chested pygmy/Madagascar hawkowl book juvenileundescribed; not substituted with inventedchicks.
+
+## Actual outcome
+Initial plus1edit;full+3crops viewed;PASS_WITH_LIMITATIONS/sciencefalse. Review linked; archive verificationpending.

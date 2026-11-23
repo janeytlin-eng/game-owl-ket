@@ -5447,3 +5447,13 @@ Mapping: Ninox theomacha / Spiloglaux theomacha; adult morphology, sexual size, 
 - **PBBO-BIRDQUEST-2025-P45** — Pete Morris/BirdQuest, Classic West Papua Tour Report2025, PDF45/69; https://www.birdquest-tours.com/wp-content/uploads/2026/04/west-papua-classic-2025.pdf?v=1776638364 . Accessed2026-11-23, actual photo/caption viewed. Unsexed age-unlabelled live bird supports dark-face/yellow-iris/brown-chestnut silhouette and branch-roost appearance, not size dimorphism or young morphology. Reliable photographer, single individual, lighting limitation.
 - **PBBO-OWLPAGES-2020** — Deane Lewis, updated2020-11-07; https://www.owlpages.com/owls/species.php?s=3360 . Accessed2026-11-23, intro/distribution read. No tufts; New Guinea and associated islands; secondary overview, no developmental evidence.
 Source index additions5, existing verified PBBO sources0, corrected existing source0. Newly discovered sources, not copied entries. Scientific status remains false.
+
+
+## 2026-11-23 — #203 Megascops guatemalae v1 RESEARCH_READY
+Scientific/old-name/topic mapping: Megascops guatemalae / Otus guatemalae / Scops guatemalae; nominate Mexico/Guatemala; morphology/mesoptile/sex uncertainty/roost. No image yet. [Detailed facts, boundaries, prompt](species/203-megascops-guatemalae-v1.md).
+### MGUA-MIKKOLA-2013-P245
+Heimo Mikkola,2013,Owls of the World, uploaded original printed245/PDF247. Accessed2026-11-23 full page text. Adult diagnostics, no sexual-size data, whitish natal down versus indistinctly barred mesoptile. Secondary guide; exact age/iris/flight unknown. Supports conservative older mesoptile rather than invented hatchling. Same uploaded file identity as PBBO-MIKKOLA-2013-P484, separate species/page mapping.
+### MGUA-OWLPAGES-2020
+Deane Lewis,Middle American Screech Owl,updated2020-10-24, https://www.owlpages.com/owls/species.php?s=1070 . Accessed2026-11-23 Description/Habits/Breeding/Habitat/Distribution actually read. Adult diagnostics/dense forest/cavity debris. Secondary synthesis overlaps guide; no independent juvenile phenotype. Supports forest roost; no rendered nest.
+### MGUA-ITIS-686673
+ITIS current species account citingIOC15.1(2025), https://itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=686673&source=to_print . Accessed2026-11-23 taxonomy/reference sections read. Accepted species/generic synonyms/nominate. Broad vermiculatus treatment explicitly retained as conflict; no relabeling existing centralis. Taxonomy only.

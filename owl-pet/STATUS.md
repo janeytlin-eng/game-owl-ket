@@ -1,3 +1,6 @@
+## 2026-11-23 #206 Glaucidium castanopterum VERIFIED
+Batch20261123T043309Z 5/6,next6. New1,revision0;archiveb6327c792050973a1948f9d7645a7595875d1ed5;verificationd8bda1cf566fc87c9dbe28778f012e36433a9209. Full+3crops checked;PASS_WITH_LIMITATIONS/sciencefalse. Strictnameaudit179/251;legacy181 notverifiedstrictunique.
+
 ## 2026-11-23 #205 Glaucidium brasilianum VERIFIED
 Batch20261123T043309Z 4/6,next5. New1,revision0;archive3b61b8da652f967bc0d179d5abd56b9914d80e6d;verification2e2ae71da05d9dadd812e9aba253c6a4af5feb81. Full+3crops checked;PASS_WITH_LIMITATIONS/sciencefalse. Strictnameaudit178/251;legacy180 notverifiedstrictunique.
 

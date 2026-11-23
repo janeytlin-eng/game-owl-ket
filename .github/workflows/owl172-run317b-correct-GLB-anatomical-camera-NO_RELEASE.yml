@@ -1,0 +1,67 @@
+name: "Owl172 Run317b SAME real SF3D GLB corrected front/back WebGL2 QA - NO RELEASE"
+on:
+  push:
+    branches:
+      - research/owl172-run317-stability-public-GLB-real-WebGL2-NO_RELEASE
+    paths:
+      - '.github/workflows/owl172-run317b-correct-GLB-anatomical-camera-NO_RELEASE.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  real-semantic-camera-control:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            owl-pet/3d-experiments/172-tyto-castanops/run317b_semantic-front-negZ_viewer_NO_RELEASE.html
+            owl-pet/3d-experiments/172-tyto-castanops/run317b_semantic_three_view_native_GLb_NO_RELEASE.mjs
+      - name: Reuse exact raw native GLB from verified Run317 artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: owl172-run317-actual-SF3D-native-real-webgl-RESEARCH-NO_RELEASE
+          run-id: 45127141518
+          github-token: \${{ github.token }}
+          path: owl172-run317b-input
+      - name: Verify unchanged source bytes before semantic camera test
+        shell: bash
+        run: |
+          set -euo pipefail
+          f=owl172-run317b-input/stability-SF3D-TyTo172-REAL_UNREVIEWED_NO_RELEASE.glb
+          test -s "$f"
+          test "$(sha256sum "$f" | cut -d' ' -f1)" = c4637faf90b3308123342517b43aabc4b3b197cec8aa62ad80976f173cbe20be
+          echo GLB_FROM_ORIGINAL_RESEARCH_ARTIFACT_VERIFIED
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install free lightweight Three.js/Chromium helpers
+        run: npm install --no-audit --no-fund --no-save playwright-core@1.58.2 three@0.170.0 pngjs@7.0.0
+      - name: Three camera WebGL2 test, model actual front=-Z
+        shell: bash
+        env:
+          CHROME_BIN: /usr/bin/google-chrome
+        run: |
+          set -euo pipefail
+          node owl-pet/3d-experiments/172-tyto-castanops/run317b_semantic_three_view_native_GLb_NO_RELEASE.mjs owl172-run317b-input/stability-SF3D-TyTo172-REAL_UNREVIEWED_NO_RELEASE.glb | tee owl172-run317b-webgl-stdout.log
+          test -s owl172-run317b-browser-evidence/model1_front.png
+          test -s owl172-run317b-browser-evidence/model1_right.png
+          test -s owl172-run317b-browser-evidence/model1_back.png
+      - name: Build independently hashed, NO_RELEASE test evidence
+        if: always()
+        run: |
+          mkdir -p owl172-run317b-browser-evidence
+          cp owl172-run317b-webgl-stdout.log owl172-run317b-browser-evidence/ 2>/dev/null || true
+          printf '%s\n' "Research only: source native GLB unchanged. Front=-Z, anatomical right=+X, back=+Z. Real physical phone, short wings, feathers, grip, usage rights NOT APPROVED. NO_RELEASE." > owl172-run317b-browser-evidence/NO_RELEASE.txt
+          (cd owl172-run317b-browser-evidence && sha256sum *.png *.json > QA_SHA256SUMS.txt) || true
+      - name: Archive correct three-view evidence only
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owl172-run317b-correct-semantic-front-right-back-ART_REVIEW-NO_RELEASE
+          path: owl172-run317b-browser-evidence
+          retention-days: 14
+          if-no-files-found: warn

@@ -1,0 +1,39 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>#172 research-only native 3D full orbit — NEVER A RELEASE</title>
+<script type="importmap">{"imports":{"three":"/node_modules/three/build/three.module.js"}}</script>
+<style>html,body{margin:0;background:#ede7df}canvas{width:390px;height:780px;display:block;touch-action:none}</style>
+</head><body><canvas id="view" aria-label="3D research-only orbit"></canvas>
+<script type="module">
+import * as THREE from 'three';
+import {GLTFLoader} from '/node_modules/three/examples/jsm/loaders/GLTFLoader.js';
+window.__status='loading';window.__error='';
+try{
+ const renderer=new THREE.WebGLRenderer({canvas:document.getElementById('view'),antialias:false,powerPreference:'low-power'});
+ renderer.setPixelRatio(1);renderer.setSize(390,780,false);
+ renderer.outputColorSpace=THREE.SRGBColorSpace;
+ const gl=renderer.getContext();
+ if(!(gl instanceof WebGL2RenderingContext))throw Error('No WebGL2 context');
+ const scene=new THREE.Scene();scene.background=new THREE.Color('#ede7df');
+ scene.add(new THREE.AmbientLight(0xffffff,2.0));
+ const key=new THREE.DirectionalLight(0xffeee1,2.1);key.position.set(2,3,4);scene.add(key);
+ const fill=new THREE.DirectionalLight(0xdce8ff,1.4);fill.position.set(-3,2,-3);scene.add(fill);
+ const camera=new THREE.PerspectiveCamera(52,390/780,.001,1000);
+ const native=await new GLTFLoader().loadAsync('/model.glb');scene.add(native.scene);
+ const box=new THREE.Box3().setFromObject(native.scene);
+ if(box.isEmpty())throw Error('Scene is empty');
+ const center=box.getCenter(new THREE.Vector3()), radius=Math.max(box.getBoundingSphere(new THREE.Sphere()).radius,0.01);
+ let triangles=0,meshes=0,uvMeshes=0,materials=0;
+ native.scene.traverse(o=>{if(o.isMesh){meshes++;triangles+=(o.geometry.index?o.geometry.index.count:o.geometry.attributes.position.count)/3;uvMeshes+=Number(!!o.geometry.attributes.uv);materials+=Array.isArray(o.material)?o.material.length:1;}});
+ if(triangles<1000)throw Error('Insufficient 3D mesh geometry');
+ const perf=[];
+ window.__setYaw=(degrees)=>{
+  const rad=degrees*Math.PI/180;
+  camera.position.set(center.x+radius*2.75*Math.sin(rad),center.y+radius*.13,center.z-radius*2.75*Math.cos(rad));
+  camera.up.set(0,1,0);camera.lookAt(center);camera.updateProjectionMatrix();
+  const a=performance.now();renderer.render(scene,camera);perf.push(Number((performance.now()-a).toFixed(2)));
+ };
+ window.__stats={webgl2:true,triangles,meshes,uvMeshes,materials,bounds:[box.min.toArray(),box.max.toArray()],radius,
+                 threeRevision:THREE.REVISION,renderWallMs:perf,gpu:gl.getParameter(gl.RENDERER)};
+ window.__setYaw(0);window.__status='ready';
+}catch(err){window.__error=String(err?.stack||err);window.__status='error';}
+</script></body></html>

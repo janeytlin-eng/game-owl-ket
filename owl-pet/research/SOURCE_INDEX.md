@@ -6133,3 +6133,7 @@ ReusedFEO-LOYN-DEBUS-2000-P288-289 originaltext pp288–289 actuallyreopened; FE
 
 ### 2026-11-24 #143v5 recovery actualcheck
 FEO-LOYN-DEBUS-2000-P288-289 originalbodyfreshlyread, new0/reused3(priorbook+taxonomyrecordnotfreshbody); stablemetadata/fullprompt preserved [research](species/143-asio-solomonensis-v5.md). Groundwalkingabilitynotflight,unbarredlongventraldownandemergingbarredwing; actualfullrecoveredimageviewed andsupportchecked. [Recoveryrun](../production/runs/20261123T2154Z-cycle2-resume2229Z.md), [image](../design/concepts/143-asio-solomonensis-v5.png). No inventednewmorphologydefect,no sciencepass.
+
+
+### 2026-11-24 #142v5 dorsal-palette correction
+JAM-MIK2013-500-501 freshuploadedPDF502–503; JamaicanOwlgreyishbrownbackversuscinnamonbuffremainder,noscapswhite. ExpertsecondaryNicoleBouglouancardactualbodyread https://www.oiseaux-birds.com/card-jamaican-owl.html , undated, accesses2026-11-24; synthesisnotindependentgrowthresearch. PriorGossebodyNOTfreshread(HTML/find503;coveronlyplaintext),no fabricatedprimaryread. Stablemetadata/limits/completeprompt andimagescope [#142v5](species/142-asio-grammicus-v5.md). Newsource1/reused3,pendingreview/sciencefalse.

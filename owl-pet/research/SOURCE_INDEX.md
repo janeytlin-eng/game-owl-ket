@@ -6117,3 +6117,7 @@ Reused RFS-WARAKAGODA-RASMUSSEN-2004-P102 and RFS-MIKKOLA-2013-P178, both actual
 
 ### 2026-11-24 #127v6 stage/pattern correction
 Reuse WTSO-SIBUNDOY-2013-P142 and WTSO-MIK2013-249, actualbodiesread; correctcolophon2013 despiteURL2014. No newpaper. Stable bibliographicdetails, pages, species/stage, limits, decisions and prompt [#127v6](species/127-megascops-albogularis-v6.md). Newtaxonomyreport OEV-ITIS1063235-2026, institutionalITIS2026access: Otuseveretti valid, oldO.megalotiseveretti/Scopseveretti, taxonomyonly; originalURLinrecord. Reused LLSO-MIRANDA-2011-P446-450 adultonlypaper toreject unsupportedeverettiyoung. Newsource1/reused5 (2historicalrecordsnotfreshlyread); correctionsexistingdesign1. Sciencefalse.
+
+
+### 2026-11-24 #135v6 transitional feather map
+ReusedWSC-MEES-2006 originalinstitutionalPDF printed113–115 actuallyread, WSC-MIK2013-183 uploadedPDF185 actuallyread, WSC-ITIS-555386-2026 priornomenclaturerecordnotfreshbody. New0/reused3; morphologydecisioncorrected1. CurrentnameOtussilvicola/oldScopssilvicola; topicjuvenilefullyfeatheredtransition/finebars/fewadultstreaks, notnataldown. SourcebibliographyURLs/pages/limits/fullprompt andversionmapping [#135v6](species/135-otus-silvicola-v6.md); preservehistoricHartertdownyclaimascorrectedbyMees/Cowles1988. No guessedage/flight/nest,sciencefalse.

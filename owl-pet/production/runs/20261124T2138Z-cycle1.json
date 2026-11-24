@@ -1,11 +1,12 @@
 {
   "batch_id": "20261124T2138Z",
   "cycle": 1,
-  "result": "RESEARCH_READY",
+  "result": "IMAGE_GENERATED",
   "started_at": "2026-11-24T21:34:23.495Z",
   "stages": {
     "STARTED": "2026-11-24T21:34:23.495Z",
-    "RESEARCH_READY": "2026-11-24T21:36:57.795Z"
+    "RESEARCH_READY": "2026-11-24T21:36:57.795Z",
+    "IMAGE_GENERATED": "2026-11-24T21:39:44.553Z"
   },
   "scope": "Evidence discovery missing species; select actual evidenced new young or real morphological correction. No species credited yet.",
   "counts_before": {
@@ -29,5 +30,20 @@
     "subspecies transfer",
     "quantified adult standing-height ratio"
   ],
-  "edits": 0
+  "edits": 0,
+  "image": {
+    "path": "owl-pet/production/generated/04-athene-noctua-v6.png",
+    "gitblob": "9563933d36ad498be75e689dcb443a9989b09bcd",
+    "bytes": 3008417,
+    "sha256": "c485ef0cd481f2144d99428b5064fd6197dfdb28046cd8cb4c325451f5fcb67d",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "timings": {
+    "generation_start": "2026-11-24T21:37:11.876Z",
+    "generation_wait_ms": 97789,
+    "edit_count": 1
+  }
 }

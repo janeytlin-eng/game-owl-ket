@@ -4,7 +4,7 @@
   "run_id": "20261124T1944Z-cycle1",
   "started_at": "2026-11-24T19:37:28.489Z",
   "status": "STARTED",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "id": "147-ninox-leventisi-v5",
   "species": "Ninox leventisi",
   "action": "REVISION",
@@ -19,6 +19,15 @@
       "sources_reused": 1,
       "source_metadata_corrections": 1,
       "full_prompt": "Use case: precise-object-edit. Edit the provided #147 Ninox leventisi v4 owl-pet plate into v5. Fix ONLY the adult claws: on BOTH left and right adult feet, change every exposed claw from dark gray over most of its length to pale ivory/horn over about the basal two-thirds, leaving only the distal hooked tips dark gray-black. Keep all toe scales mustard-yellow and all foot geometry and contacts unchanged. Do not recolor the central uncalibrated juvenile claws. Preserve exactly three whole birds, existing species plumage, pale gray-green adult irises, mustard bills and thinly bristled exposed tarsi, near-equal adult scales, alert left pose and gently drooped right adult wing/song-display pose, all six feet naturally gripping the mossy branch, same humid Camiguin forest and rounded warm naturalistic pet-concept style.\nAlso correct evidence communication: replace middle role label with two clear lines \"JUVENILE RECONSTRUCTION\" and \"AGE / PLUMAGE UNVERIFIED\". Replace bottom footer with \"CONCEPT · SCIENTIFIC CALIBRATION PENDING\". Preserve exact top title \"#147 · NINOX LEVENTISI\", subtitle \"CAMIGUIN BOOBOOK\", left \"ADULT MALE\" and right \"ADULT FEMALE\". No nest, no eggs, no flight, no added anatomy, no new size or sex rule. The central phenotype is a retained unverified design placeholder, not a scientifically known Camiguin juvenile. No approval marks. Entire original plate composition and resolution retained."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-24T19:39:46.631Z",
+      "blob": "fc85cad85bcd6c6a4310767240499ebd156ee981",
+      "image_path": "owl-pet/production/generated/147-ninox-leventisi-v5.png",
+      "generation_wait_seconds": 53,
+      "generation_calls": 0,
+      "edit_calls": 1
     }
   ],
   "errors": []

@@ -4,12 +4,21 @@
   "run_id": "20261124T1944Z-cycle2",
   "started_at": "2026-11-24T19:44:02.538Z",
   "status": "STARTED",
-  "stage": "STARTED",
+  "stage": "RESEARCH_READY",
   "id": "148-ninox-rumseyi-v5",
   "species": "Ninox rumseyi",
   "action": "REVISION",
   "unique_species_increment": 0,
   "scientifically_verified": false,
-  "stages": [],
+  "stages": [
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-24T19:44:11.336Z",
+      "sources_new": 0,
+      "sources_reused": 2,
+      "prompt": "Use case: precise-object-edit. Edit #148 Ninox rumseyi v4 into v5 in the same warm rounded naturalistic owl-pet style. Correct the central provisional young bird's unsupported mature-looking wing architecture: its folded wing must be a short compact cluster high on the flank, substantially veiled by loose warm-brown down. Remove the long dark, regular adult-like remige ladder extending toward its feet; conceal tail in down. Keep the same alert head turn, body and both feet at their current naturally supported branch-walking contacts; no flying or jumping. This is a provisional juvenile reconstruction, NOT an evidenced precise feather stage.\nPreserve both adults exactly in plumage, body scale, yellow eyes, olive bills, half-feathered/bristled yellow tarsi, MOSTLY BLACK adult claws with just pale bases (Cebu differs from Camiguin; never turn adult claws ivory). Preserve every adult foot and branch contact, humid Cebu secondary forest, composition, title \"#148 · NINOX RUMSEYI\", subtitle \"CEBU BOOBOOK\". Replace left/right rolelabels with \"ADULT MALE · INFERRED\" / \"ADULT FEMALE · INFERRED\"; replace center rolelabel with two lines \"JUVENILE RECONSTRUCTION\" and \"AGE / PLUMAGE / IRIS UNVERIFIED\"; replace bottom footer with \"CONCEPT · SCIENTIFIC CALIBRATION PENDING\". No nest, eggs, prey, extra birds or limbs. Preserve readable typography, all birds whole and all natural support.",
+      "evidence": "owl-pet/research/species/148-ninox-rumseyi-v5.md"
+    }
+  ],
   "errors": []
 }

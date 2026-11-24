@@ -6773,3 +6773,6 @@ Recovered existing220v3 fullPNG, no new generation or source. Reused TROS-MIKKOL
 
 ## 2026-11-25 batch 20261124T1944Z cycle1 · Ninox leventisi · adult claws / uncertain young
 Reused CAMBOO-RASMUSSEN-2012-FORKTAIL; publisher mirror and printed15–16 adult-claw scope corrected/expanded, same2012 primary publication, new0/reused1/metadata-correction1. Adult mostly-pale claws contrasted against actualv4 dark claws; no Camiguin juvenile sequence established. Full metadata, facts, stage/sex limits and prompt: [#147v5](species/147-ninox-leventisi-v5.md). Image pending; science=false. Candidate searches recorded separately, not verified facts from snippets.
+
+## 2026-11-25 20261124T1944Z cycle2 · Ninox rumseyi
+Reused CEB-RASMUSSEN-2012-FORKTAIL (sameprimarypublicationasCAMBOO alias) and CEB-JAKOSALEM-COLLAR-GILL-2012 actualadultdiagnosis/Methods/telemetry/nestsread. New0/reused2; no juvenilefeathersequenceevidenced. [#148v5 facts/limits/prompt](species/148-ninox-rumseyi-v5.md). Adultmostlyblackclaws retained, central longpanel requirescorrection. Sciencefalse.

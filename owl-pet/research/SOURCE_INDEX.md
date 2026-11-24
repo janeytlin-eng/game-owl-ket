@@ -6242,3 +6242,7 @@ Reused3actualsources NAFF-MIKKOLA-2013-P470/PDF472, NAFF-OISEAUX-2015 Identifica
 
 ## 20261124T0332Z cycle2 — 210-athene-superciliaris-v2
 New0/reused2actualsources ASUP-MIKKOLA-2013-P471 printed471/PDF473 and ASUP-BOUGLOUAN-WEB NicoleBouglouan undated https://www.oiseaux-birds.com/card-white-browed-hawk-owl.html Description/Reproduction/line110. Access2026-11-24. Adultcentralbellycreamywhite decision; bookyoungundescribed vssecondaryolderjuvenile retained aslimitedstage. No primarydevelopmentseries/newsexratio. Bensonoldprimarycitationonly excludedactualreadcount. [Research](species/210-athene-superciliaris-v2.md),[review](reviews/210-athene-superciliaris-v2-review.md),[image](../design/concepts/210-athene-superciliaris-v2.png).
+
+
+## 20261124T0332Z cycle3 — 211-megascops-roboratus-v2
+New0/reused3 MROB-MIKKOLA-2013-P224 printed224–225/PDF226–227 actualreread; MROB-PEREGRINEFUND-WEB institutionundated2020/2021refs https://peregrinefund.org/explore-raptors-species/owls/peruvian-screech-owl actualHabitat/Identity/NestsYoung; MROB-PERUAVES-WEB https://www.peruaves.org/strigidae/peruvian-screech-owl-megascops-roboratus/ Identification/Subspecies rechecked. Access2026-11-24. Developmentsequence notdocumented; shortercoveredwing is designboundary, notscientificmeasurement. Historicalpacificus/otherMegascopsyoungnottransferred. [Research](species/211-megascops-roboratus-v2.md),[review](reviews/211-megascops-roboratus-v2-review.md),[image](../design/concepts/211-megascops-roboratus-v2.png).

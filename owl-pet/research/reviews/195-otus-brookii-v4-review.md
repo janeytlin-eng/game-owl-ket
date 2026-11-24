@@ -1,0 +1,7 @@
+# Actual review 195-otus-brookii-v4
+
+2026-11-24T01:23:30.596Z; PASS_WITH_LIMITATIONS/scientifically_verified=false. **Annotation-only revision**, no new morphological correction claimed. Existing v3 and primary source record/guide reviewed; full edited plate and enlarged label/youngfeet/footer crop independently reopened. Centre label AGE-UNKNOWN MESOPTILE legible/correct; footer states concept/scientificcalibrationpending andage/irisdevelopment/flightunverified. Adults near-equal, blackcrown/rufousface/whiteinner tufts and supports retained; young finecrossbarredrufous coat/compactwing/shorttail stayssupported. Emptybackgroundcavity retained as habitat cue, not a claim that thisyoung occupiedGooddie nest. No extraeggs/lining. Some featherandfoliage microtexture regenerated, not pixel-identical. Exactyoungage/sex/irisdevelopment/flight and quantitative adultsexsize remainunresolved; concept review is notscientificpass.
+
+Issue→evidence→change→recheck: vagueOLDERlabel→guide givesmesoptile butno dated age, directGooddie nestcontainsno youngdescription→imagegenannotationonly→label/footer crop confirmsboundary visible. A displayclarity improvement, not a demonstrated developmental discovery. Primary nestaccount printed74/PDF5 precisionsaved. No newuserapproval.
+
+Original2742635bytes1536x1024,sha256 b97108dfda0cc2457d20c1f5263e84fcd430e1057c15742f2c3601a659e9c574. [Research](../species/195-otus-brookii-v4.md),[original](../../design/concepts/195-otus-brookii-v4.png).

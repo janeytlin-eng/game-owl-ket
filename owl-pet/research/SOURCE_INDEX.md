@@ -6161,3 +6161,7 @@ SSO-PEREGRINEFUND-SPECIES-2026新增1；SSO-MIKKOLA-2013-P134/SSO-VIRANI-2008-P6
 
 ## 20261124T0030Z cycle3 #176v5
 新增0/复用4 PESO-MIKKOLA-2013-P135/PESO-PEREGRINE-FUND-CURRENT/PESO-CATRY-ETAL-2000-P259-267/STSO-MELO-ETAL-2022-P7-P27。书135/PDF137与机构页实际重读，Melo同论文扩展Príncipe自然史缺口，换羽/育斑不能支持幼羽；Catry本次旧记录复用。[元数据、URL/页码、阶段/限制、提示](species/176-otus-pembaensis-v5.md)/[图](../design/concepts/176-otus-pembaensis-v5.png)/[复查](reviews/176-otus-pembaensis-v5-review.md)。成年人冠背白点与幼冠白横斑不可统一删除；sciencefalse。
+
+
+## 20261124T0030Z cycle4 #177v5 — 源页码更正
+新0/复用2 STSO-MIKKOLA-2013-P136 + STSO-NAUROIS-1975-P323-326-327-329（保留稳定ID，纠正定位：非飞/半长翼p325，软部/均翼p326，幼羽p328；旧宽引页不可当精确页）。原PDF本地换源成功；新增同文p337 O.rutilus强黑白飞羽横列不见于hartlaubi之比较。成年无强规则飞羽横列而幼鸟白内三级缘合法，不跨羽区。[元数据/URL、印刷/PDF页、纠错、完整提示](species/177-otus-hartlaubi-v5.md)/[图](../design/concepts/177-otus-hartlaubi-v5.png)/[复查](reviews/177-otus-hartlaubi-v5-review.md)。sciencefalse。

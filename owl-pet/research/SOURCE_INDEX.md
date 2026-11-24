@@ -6584,3 +6584,7 @@ New2 SSO-RIPLEY-BOND-1971-P12 (Ripley&Bond1971, SmithsonianContributionsZoology1
 
 ## 20261124T1137Z cycle3 #171v6
 New1 CPO-OWLPAGES-2020-1970 (DeaneLewis30Oct2020, https://www.owlpages.com/owls/species.php?s=1970 actualDescription/Habitat/Breedingbodyread2026-11-24; yellowishhornadultbill, noyounggrowth); reuseCPO-MIKKOLA-2013-P385-386 (actualupload385–386/PDF387–388read) and repositoryCPO-NELSON-1901-P46 (retryIAunavailable, notfreshprimaryread). [Fullmetadata/facts/limits/prompt](species/171-glaucidium-palmarum-v6.md),[image](../design/concepts/171-glaucidium-palmarum-v6.png),[review](reviews/171-glaucidium-palmarum-v6-review.md). Colourcorrectiononlyadults; youngbillunknown/sciencefalse. New1/reuse2/correction1.
+
+
+## Retrieval completion correction, cycle3
+The local IA request subsequently succeeded before review: original Auk18p46 Glaucidium palmarum type paragraph actually read, not only a snippet. It describes heavily spotted crown/plainmiddleback/white-rustywingmarks/fivetypetailrows/rustytarsalfeathers/palmforest. OCR sexsymbolunclear; no sexproof/softpart/juvenile claims adopted. Earlier webIA failure still true; local fallback succeeded. Existing CPO-NELSON-1901-P46 reused, not new source.

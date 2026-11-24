@@ -9,9 +9,19 @@
   "started_at": "2026-11-24T15:52:51.978Z",
   "stages": {
     "STARTED": "2026-11-24T15:52:51.978Z",
-    "RESEARCH_READY": "2026-11-24T15:53:26.161Z"
+    "RESEARCH_READY": "2026-11-24T15:53:26.161Z",
+    "IMAGE_GENERATED": "2026-11-24T15:54:51.648Z"
   },
-  "heartbeats": [],
+  "heartbeats": [
+    {
+      "at": "2026-11-24T15:53:37.046Z",
+      "event": "before_imagegen"
+    },
+    {
+      "at": "2026-11-24T15:54:30.764Z",
+      "event": "after_imagegen"
+    }
+  ],
   "issue": "Latest v3 full plate and enlarged adult-foot crop actually viewed: toe surfaces read as smooth scales; the guide says sparsely bristled. This is a fine-detail readability revision, not proof all v3 microscopic bristles absent. Already corrected seven tail bars and bill/cere must not be redone.",
   "sources": [
     {
@@ -41,6 +51,33 @@
     }
   ],
   "search_log": "Active Internet current/old-name toes/bristles search: Rand et al. Fieldiana candidate has search snippet primarily about G.sjostedti; original PDF open404; no cross-species bristle inference and not verified source. Captive castanoptera cuculoides lead excluded as different taxon. No new valuable verified source.",
-  "prompt": "Precise-object-edit: retain #206 Javan Owlet existing v3 trio. Change ONLY the exposed toes of BOTH ADULTS: add a FEW very fine short sparse tan/grey bristles emerging between toe scales, enough readable at close inspection, while toes remain visibly bare scaly yellowish olive-green. No fluffy mittens, no dense feather covering toes. Preserve feathered tarsi, exact toe/claw count, contact/grips, dark horn black-tipped claws. Preserve already corrected SEVEN fine ochre tail bars, adult plumage/head bars/eyes/bill/olivecere, near-equal adults, dull older age-unknown fledgling entirely unchanged, branch/environment and every title/label/uncertaintyfooter. No juvenile anatomy or new age/flight/nest/sex-size assertion. Same1536x1024."
+  "prompt": "Precise-object-edit: retain #206 Javan Owlet existing v3 trio. Change ONLY the exposed toes of BOTH ADULTS: add a FEW very fine short sparse tan/grey bristles emerging between toe scales, enough readable at close inspection, while toes remain visibly bare scaly yellowish olive-green. No fluffy mittens, no dense feather covering toes. Preserve feathered tarsi, exact toe/claw count, contact/grips, dark horn black-tipped claws. Preserve already corrected SEVEN fine ochre tail bars, adult plumage/head bars/eyes/bill/olivecere, near-equal adults, dull older age-unknown fledgling entirely unchanged, branch/environment and every title/label/uncertaintyfooter. No juvenile anatomy or new age/flight/nest/sex-size assertion. Same1536x1024.",
+  "meta": {
+    "bytes": 2568682,
+    "sha256": "cca31ed031366612a9d485c6f7dceaf07dc98f878e8a33a1bc95458081323268",
+    "size": [
+      1536,
+      1024
+    ],
+    "gitblob": "b52a79e3bc07354921b1cd07555509f8fe10d0ad"
+  },
+  "imagegen_wait_ms": 41467,
+  "edit_history": [
+    {
+      "attempt": 1,
+      "wait_ms": 41467,
+      "generated_persistence_commit": "f5cb41b2c4fbcf8687e1018a3809bba4be0102af",
+      "meta": {
+        "bytes": 2568682,
+        "sha256": "cca31ed031366612a9d485c6f7dceaf07dc98f878e8a33a1bc95458081323268",
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "b52a79e3bc07354921b1cd07555509f8fe10d0ad"
+      },
+      "review": "Fullplate and enlarged adult-foot crop viewed. Sparse toe bristles not convincingly readable; additional edit required."
+    }
+  ],
+  "correction_prompt": "Precise local edit of the current #206 image. Last edit did not make toe bristles readable. On the dorsal/top surfaces and edges of all four ADULT feet ONLY, paint a small number of individually visible slender short pale-tan stiff bristles sticking out from between the olive yellow toe scales. Their visible length at full resolution about 3-5 pixels, irregularly spaced and sparse, 3-6 along each front-facing toe. Keep scales exposed, NOT dense feather/fur and NOT detached white scratch-lines. Do not change toe shapes, count, claws or grips. Preserve entire other image, especially young completely unchanged, seven adult tail bars and all labels. This subtle feature must be visible in a closeup. Same image1536x1024."
 }
-Facts vs design: source scoped character only; exact rendering strength artistic inference, no new age/sexratio/flight or nest claims. All scientificfalse. Prior versions retained.

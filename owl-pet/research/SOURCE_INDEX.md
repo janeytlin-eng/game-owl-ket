@@ -6408,3 +6408,22 @@ Newly verified primary1 (upgrade existing unverified lead, no duplicate publicat
 Related: [v4](152-uroglaux-dimorpha-v4.md), [v5 image](../../design/concepts/152-uroglaux-dimorpha-v5.png), [review](../reviews/152-uroglaux-dimorpha-v5-review.md).
 
 [Prompt](prompts/152-uroglaux-dimorpha-v5.txt) · [Review](reviews/152-uroglaux-dimorpha-v5-review.md)
+
+
+## 20261124T0632Z cycle5 153-jubula-lettii-v5
+# #153 Jubula lettii v5 — immature mane calibration
+Accessed2026-11-24; batch20261124T0632Z cycle5/6. Existingv4 retained; revision1/new0; sciencefalse.
+## Sources actually read, deduplicated
+- **MIKKOLA-2013** HeimoMikkola2013 Owls of the World:A Photographic Guide, useruploadedfile libfile_fde3_f-916e2244186c81918fe5a0716884b8c9_7a934266b8748191824cde4d0af03f29, printed357/PDF359 actuallyread thiscycle. Adult longbushytufts/elongatedsidenapefeathers; nosexsizedata. Dullyellowtarsalfeathering; yellowtoeswithgreyuppersidepatches; hornclawsdarktips. Juvenile nataldownunknown; rufousmesoptile faintbarringbelow/lessdevelopedmane, wingsandtailsimilartoadult. This is not evidencealljuvenileagesmusthaveshortadultlesswings. Reusedpublication, pageaddition notnewsource. Habitatlowland/galleryforests nearwater. Voicehistoricallyuncertain—notdepicted.
+- **MANED-ML-531449801-2023**, GarrettRhyne/CornellLabMacaulayLibrary,4Feb2023, https://macaulaylibrary.org/asset/531449801 , photo https://cdn.download.ams.birds.cornell.edu/api/v2/asset/531449801/1200 . Actual originalpage narrative plusactualdownloadedphoto viewed thiscycle. Wele-Nzas EquatorialGuinea primaryforestwetland; observeridentifiedoneimmature thatflewshortdistanceandperched, retainedwhitejuvenilefacialfeathers. Narrativeorangeeyes/yellowishfeet/rufousbackwings/redbreastwash/fineverticalflankstreaks; metadataage/sexunspecified. Actuallowresolutionphoto clearlyshowswhiteface/browmargin, compactfuzzyheadoutline, foldedformedwings/extendedtailandbranchsupport. No pixelaccurateeye/toecolourclaimfromblurredphoto; thosefromnarrative. Mane/tuftoutline islesslong/explosive than generatedv4, qualitativecomparison notmeasurement. Exactage/earliestwingsequence/flightcapacityunknown, oneobservationnotallstages.
+- **MANED-ITIS-555440-2026**, ITISlivebody rereadvalidJubulalettii/Buboletti synonym, IOC15.1(2025)cited; https://www.itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=555440&source=to_print . Currentnames/olderalias, notmorphology.
+- **MANED-BUTTIKOFER-1889-P34** priorv4originalpp34–35 evidence retainedforadultcolours; notnewlyreadthiscycle, notcountedasfreshsource. Fullv4linkedbelow.
+## Problem/evidence/design
+V4 actuallyfullviewed: youngerbirdhaslongradiatingadultliketwinmane/tufts/necksides, almostadultdepthsilhouette; whitefacialpatches functionalwings/tailandstance alreadyappropriate to mobileimmature. Guideexplicitlessdevelopedyoungmane andfieldphotoqualitativecompacthead support LOCALreducejuvenilemane/tuftlength andthickness whilekeepingirregularwhiteface, twoidentifiabletuftstubsandformedfoldedwings. Maintainadultmane unchanged andnearequalmale/femalescale unknownsexsize. Do NOT apply#152downyfledglingcolourrule; differenttaxonandstage. Preserve naturalstableperchallfeet, noflightscene/nest/egg. Caption IMMATURE · AGE UNKNOWN; footerpendingage/nest/universalflightunknown.
+## Limits/designinference
+Exactmanepercentage, plume-by-plumeshape and expression areillustrative; reductionisqualitative notmeasurement. No claimofnatalchickorvalidatedage. Functionalwingsnotremovedbecauseprimarysourceobservedflight. Sexcolour/sizeunknown near-equalillustrationnotproofzero difference. Fullsciencecalibration remainsfalse.
+## Index actions
+New0/reused3fresh(Mikkola,ML,ITIS)/corrected1youngmane. ExistingMLIDreusedactualimageaccessupdated; no newduplicateassetID.
+Related [v4](153-jubula-lettii-v4.md), [v5](../../design/concepts/153-jubula-lettii-v5.png), [review](../reviews/153-jubula-lettii-v5-review.md).
+
+[Prompt](prompts/153-jubula-lettii-v5.txt) · [Review](reviews/153-jubula-lettii-v5-review.md)

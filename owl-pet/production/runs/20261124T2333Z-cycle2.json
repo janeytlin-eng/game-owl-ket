@@ -3,7 +3,7 @@
   "cycle": 2,
   "status": "STARTED",
   "started_at": "2026-11-24T23:39:14.939Z",
-  "stage": "IMAGE_GENERATED",
+  "stage": "ARCHIVED",
   "id": "28-glaucidium-perlatum-v6",
   "species": "Glaucidium perlatum",
   "action": "MORPHOLOGY_REVISION",
@@ -15,6 +15,14 @@
     {
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-24T23:42:36.799Z"
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-24T23:42:42.892Z"
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-24T23:42:42.892Z"
     }
   ],
   "research_ready_at": "2026-11-24T23:41:13.916Z",
@@ -40,5 +48,7 @@
   ],
   "imagegen_wait_ms": 33839,
   "imagegen_calls": 1,
-  "image_blob": "f9ecb1675aa3a3eb0fbf3d6561d9718d9d76b522"
+  "image_blob": "f9ecb1675aa3a3eb0fbf3d6561d9718d9d76b522",
+  "reviewed_at": "2026-11-24T23:42:42.892Z",
+  "review": "Full1536x1024 generated plate and 390x350 juvenile crop actually viewed. Juvenile crown/exposed mantle now plain brown, adult pearl rows/falseeyes retained; no young eye/bill/wing/tail change requested. Six feet supported on broad fork, noflight, labels correct. One edit, no further issue found within narrow scope. Iris timeline and precise age remain unknown. Iteration: generic reducedspotting prompt had retained adultpinspots; area-specific plain crown+mantle succeeded here; valid only for source-describedmesoptile, not all owlets. Potential unaffected #26 requires its own Pyle indistinctspots evidence, so no general deletion rule."
 }

@@ -4,11 +4,12 @@
   "id": "11-aegolius-funereus-v5",
   "species": "Aegolius funereus",
   "action": "MORPHOLOGY_REVISION",
-  "result": "RESEARCH_READY",
+  "result": "IMAGE_GENERATED",
   "started_at": "2026-11-24T21:52:11.745Z",
   "stages": {
     "STARTED": "2026-11-24T21:52:11.745Z",
-    "RESEARCH_READY": "2026-11-24T21:52:19.521Z"
+    "RESEARCH_READY": "2026-11-24T21:52:19.521Z",
+    "IMAGE_GENERATED": "2026-11-24T21:53:38.506Z"
   },
   "sources_new": [
     "BOR-ORI-BOREAL-FACTS"
@@ -21,5 +22,21 @@
     "young iris/age/flight",
     "universal sexratio"
   ],
-  "prompt": "Precisely edit only the TOE DORSAL FEATHER COVER of BOTH ADULT Boreal Owls Aegolius funereus in this existing v4 plate. Current adult toes have long grey bare scaly tops. Extend their existing creamy-white tarsal feathers into CLEARLY VISIBLE dense SHORT overlapping cream/off-white featherlets on adult toe tops almost to each dark horn claw base. Fine natural shafts and hairlike barbs, layered slight fringe, not polygonal skin scales, no uniform waffle pattern. Keep every toe separated and its anatomy/wood-chip grip legible, claws exposed; no inflated Snowy Owl snowshoe feet. Preserve ENTIRE RIGHT juvenile unchanged: v4's estimated21–23day transitional nestling has down, short formed emerging brown primaries, whitish brows, low cavity-floor clamber and both feet plus wall support. Do not transfer adult feather density to juvenile or change any age labels. Preserve adult sex proportions exactly, faces/yellow eyes/hornyellow bill/cere/spotted brown crowns/white streaked belly, all original text and warm natural cavity/boreal background,1536x1024. Exactlythreebirds, no new flight/nest/sex claims."
+  "prompt": "Precisely edit only the TOE DORSAL FEATHER COVER of BOTH ADULT Boreal Owls Aegolius funereus in this existing v4 plate. Current adult toes have long grey bare scaly tops. Extend their existing creamy-white tarsal feathers into CLEARLY VISIBLE dense SHORT overlapping cream/off-white featherlets on adult toe tops almost to each dark horn claw base. Fine natural shafts and hairlike barbs, layered slight fringe, not polygonal skin scales, no uniform waffle pattern. Keep every toe separated and its anatomy/wood-chip grip legible, claws exposed; no inflated Snowy Owl snowshoe feet. Preserve ENTIRE RIGHT juvenile unchanged: v4's estimated21–23day transitional nestling has down, short formed emerging brown primaries, whitish brows, low cavity-floor clamber and both feet plus wall support. Do not transfer adult feather density to juvenile or change any age labels. Preserve adult sex proportions exactly, faces/yellow eyes/hornyellow bill/cere/spotted brown crowns/white streaked belly, all original text and warm natural cavity/boreal background,1536x1024. Exactlythreebirds, no new flight/nest/sex claims.",
+  "image": {
+    "bytes": 2737663,
+    "sha256": "1bdcbc00b69d53b0476873a78a527cf858f2f1cfc78a80cce92c49e0ec283f55",
+    "size": [
+      1536,
+      1024
+    ],
+    "gitblob": "926a01e53999117ea804fec45a1b9798f4c65873",
+    "path": "owl-pet/production/generated/11-aegolius-funereus-v5.png",
+    "local": "/workspace/scratch/180c531d917a/owl-2138/11-aegolius-funereus-v5.png"
+  },
+  "timings": {
+    "generation_start": "2026-11-24T21:52:35.908Z",
+    "generation_wait_ms": 37708,
+    "edit_count": 1
+  }
 }

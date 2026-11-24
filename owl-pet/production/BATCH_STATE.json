@@ -51766,17 +51766,27 @@
           "commit_sha": "dfb95d5c6e0105aa7cb836bd5fd7782e07c059e2",
           "run_record": "owl-pet/production/runs/20261124T0112Z-cycle3.md",
           "verified_at": "2026-11-24T01:20:54.483Z"
+        },
+        {
+          "cycle": 4,
+          "species": "195-otus-brookii-v4",
+          "action": "ANNOTATION_ONLY_AGE_BOUNDARY",
+          "unique_species_increment": 0,
+          "archive_commit": "a1b67a25b522cc545c90811c7d807fadc5ff3764",
+          "commit_sha": "dcf5ea4bbbac25c427b28d014f9fb98b03bc442a",
+          "run_record": "owl-pet/production/runs/20261124T0112Z-cycle4.md",
+          "verified_at": "2026-11-24T01:23:52.334Z"
         }
       ],
-      "next_cycle": 4,
+      "next_cycle": 5,
       "started_at": "2026-11-24T01:09:14.197Z"
     }
   ],
   "lease": {
     "owner": "codex-owl-production",
-    "run_id": "20261124T0112Z-cycle4",
-    "heartbeat_at": "2026-11-24T01:20:54.483Z",
-    "expires_at": "2026-11-24T01:35:54.483Z"
+    "run_id": "20261124T0112Z-cycle5",
+    "heartbeat_at": "2026-11-24T01:23:52.334Z",
+    "expires_at": "2026-11-24T01:38:52.334Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -51911,7 +51921,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-24T01:20:54.483Z",
+  "updated_at": "2026-11-24T01:23:52.334Z",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",

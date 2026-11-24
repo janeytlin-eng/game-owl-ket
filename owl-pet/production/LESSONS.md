@@ -197,3 +197,7 @@ Observed bright unsupportedyoungbill and crisp adult-hard lower wing panel. Prim
 
 ## 20261123T1933Z cycle3 #137v6
 Problem: v5young retained adultlikepale patternedbelly. Evidence FLO-WIDODO1999p21 andguide184 supportnearuniformpalerrufousresidualdown; Table2 specificallysupportsorangeyellowyoungbill. Editcorrectedventralpattern/downcoveragewhile retainingformedwing/tailbands andknownbill. Full/nativeyoungcropverified; notuniversalwingban. Backcheck#235/#236alreadyuseownprimaryyoungrecords and mutedunknownbill; do not transfer137knownbilloruniformrufous tothose taxa. Only137v6effectvalidated.
+
+
+## 20261124T0332Z actual six-cycle outcomes
+Freshmainmanifest perarchive merge verified6times, final916→922 andall6newIDs retained; priorstalesnapshotbugnotrepeated. #210adultbellyregionmaskvisiblypaler; #211/#214softcoveredwingtargetactuallyviewed, notgrowthmeasurement. Backcheck#208mesoptile/#210olderimmature/#213Kodminphoto demonstratesno universalshortwingrule: #213formedwing/tail preserved. #208/#212/#213exportuncertainty annotations actuallylegible, notscientificpass. Primary2018casePVCageestimated labelled; no genericnestclaim. Candidateaurantia/sororcula/castaneum juvenileundescribed → deferred, no inventedtrio. PDFprinted/PDFoffsetmustbechecked: wrong134–136AmericanScops excluded, correctballi100–102=PDF116–118 read. Nextprioritynew-speciesresearch and#201/#206unresolved; do notrepeatboundedannotationqueue as speciesproduction.

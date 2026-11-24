@@ -4,14 +4,15 @@
   "id": "06-asio-otus-v5",
   "species": "Asio otus",
   "action": "MORPHOLOGY_REVISION",
-  "result": "ARCHIVED",
+  "result": "VERIFIED",
   "started_at": "2026-11-24T21:42:00.051Z",
   "stages": {
     "STARTED": "2026-11-24T21:42:00.051Z",
     "RESEARCH_READY": "2026-11-24T21:43:21.379Z",
     "IMAGE_GENERATED": "2026-11-24T21:47:32.292Z",
     "REVIEWED": "2026-11-24T21:47:51.266Z",
-    "ARCHIVED": "2026-11-24T21:47:51.266Z"
+    "ARCHIVED": "2026-11-24T21:47:51.266Z",
+    "VERIFIED": "2026-11-24T21:48:05.818Z"
   },
   "selection_history": [
     {
@@ -84,5 +85,17 @@
     "lesson": "First feather-cover instruction yielded crosshatched scale texture. Second prompt specified feather shaft/barbs and visible featherlet margins; this output visually improved. Check #03 rejected because toes already covered; no universal owl mitten rule.",
     "edits": 2
   },
-  "scientifically_verified": false
+  "scientifically_verified": false,
+  "completed_at": "2026-11-24T21:48:05.818Z",
+  "archive_commit": "95072c7ecd74f445de44d2bc72ee5026a1d581fe",
+  "verification": {
+    "result": "PASS",
+    "remote_original_GET": true,
+    "bytes": 2555692,
+    "sha256": "5b41cb5630e71b361ed3fddd43f5cf0bb18fd0503f9feefdc37d77e83895d2c1",
+    "decoded_size": [
+      1536,
+      1024
+    ]
+  }
 }

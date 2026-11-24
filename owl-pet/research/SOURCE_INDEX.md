@@ -6210,3 +6210,7 @@ Reused3sources: uploadedMikkola2013p170/PDF172 actuallyread (whitishbufflowerbel
 
 ## 2026-11-24 — #201 v4 actual upload and cross-population boundary
 Reuse MANT-MIKKOLA-2013-P199-200-MIRROR oldID; actualuploadedprinted199–200/PDF201–202 nowread, legacyIDnotrenamed. Adultnarrowbaretarsalzoneabove toes; juvenileunknown. Reuse MANT-PHOTOARK-ROMBLONIS-JUVENILE-2025 caption/keywords of BIR070-00063 https://www.joelsartore.com/bir070-00063/ actuallyread; photopixels403, nofreshvisualevidence; ©2025notverifiedshootdate. [Research](species/201-otus-mantananensis-v4.md),[image](../design/concepts/201-otus-mantananensis-v4.png),[review](reviews/201-otus-mantananensis-v4-review.md). Adultnominate/youngromblonisboundarymustbevisibleinimage; juvenileplumagePRIORITY_UNRESOLVED. No guessedredraw. SORAom025redirectnotread/notcounted. New0; reused2.
+
+
+## 2026-11-24 — 202-ninox-theomacha-v3
+ReusedPBBO-MIKKOLA-2013-P484 actuallyuploaded484/PDF486read; PBBO-OWLPAGES-2020 actualIntroduction/Distribution/OriginalDescription https://www.owlpages.com/owls/species.php?s=3360 read.2readreuses,0new; PBBO-SHARPE-1878-P359 existingcitationonly, PDFtoo-large errornotcountedasfreshread. Darkbrownadultdorsal/chestnutventralzones targeted, juvenilechronologyunknown. [Research](species/202-ninox-theomacha-v3.md),[review](reviews/202-ninox-theomacha-v3-review.md),[image](../design/concepts/202-ninox-theomacha-v3.png).

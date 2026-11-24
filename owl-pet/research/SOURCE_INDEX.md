@@ -6748,3 +6748,7 @@ New0/reused2 source-ID references; actual read and citation-only scopes distingu
 
 ## 20261124T1632Z cycle4 217-otus-longicornis-v3
 New0/reused2 source-ID references; actual read and citation-only scopes distinguished in [metadata/fullprompt](species/217-otus-longicornis-v3.md), [review](reviews/217-otus-longicornis-v3-review.md). Highestv2 fullplate actually viewed: both adult bills uniformly dullgreen to tip, no darkbrown terminal/cuttingedges described guide186. Add narrow darkbrown tip/cuttingedge, keep green center. Young closedeyes/softbarredmesoptile unchanged.
+
+
+## 20261124T1632Z cycle5 219-otus-podarginus-v3
+New0/reused2 source-ID references; actual read and citation-only scopes distinguished in [metadata/fullprompt](species/219-otus-podarginus-v3.md), [review](reviews/219-otus-podarginus-v3-review.md). Actual latestv2 fullplate: exposedadult clawplates mediumgrey, rather than sourceblackish. Darken adult claws only; lower bare tarsi already corrected in v2 and must not be refeathered. Young unchanged.

@@ -4,14 +4,15 @@
   "id": "229-athene-malaitae-v3",
   "species": "Athene malaitae",
   "action": "REVISION",
-  "result": "STARTED",
+  "result": "VERIFIED",
   "started_at": "2026-11-24T14:36:07.881Z",
   "stages": {
     "STARTED": "2026-11-24T14:36:07.881Z",
     "RESEARCH_READY": "2026-11-24T14:36:35.184Z",
     "IMAGE_GENERATED": "2026-11-24T14:38:06.211Z",
     "REVIEWED": "2026-11-24T14:38:42.118Z",
-    "ARCHIVED": "2026-11-24T14:39:10.275Z"
+    "ARCHIVED": "2026-11-24T14:39:10.275Z",
+    "VERIFIED": "2026-11-24T14:39:37.828Z"
   },
   "prompt": "Use case precise-object-edit. Target #229 Malaita Owl Athene malaitae v2. Change ONLY BOTH ADULTS' upper throat immediately below bill: make the species diagnostic SMALL WHITE TRIANGULAR THROAT PATCH readable as a compact softly feather-edged white triangle, point downwards. Currently this area reads almost entirely brown with only small pale streaks. Do not create a broad bib, breast band or collar. Preserve all remaining adult crown/white brows/dark grey eyes/pale yellow-white bills/fine offwhite ventral bars/yellowbrown feet/black claws and near-equal scale. Keep entire RIGHT older juvenile unchanged: closed eyes, enhanced crossbars including ear-coverts, formed folded wing/tail, footholds and body. Preserve three birds, mossy branch and rainforest, exact title/roles/footer labels and warm soft-feather 3D electronic-pet style1536x1024. No nest, sex-size, day-age or flight assertions.",
   "sources": [
@@ -57,5 +58,16 @@
   },
   "imagegen_wait_ms": 55153,
   "review": "Actual full1536x1024 viewed: both adult upper throats now have compact pale-white triangular marks below bill; no broad breast bib. Correction subtle, exact area not calibrated. Juvenile sleeping/crossbarred head and formed wing/tail qualitatively retained, adult eyes/bills/feet/claws/near-equal size and six branch grips/three role labels/footer preserved. PASS_WITH_LIMITATIONS; sciencefalse; no day-age, flight or sex-size resolved.",
-  "research_caution": "Search snippet white throat/black bars in Callaghan PDF belongs Peregrine Falcon, NOT Malaita Owl; read original species paragraph rejects adjacent-species false positive. Adult throat basis exclusively Mikkola483, no independent primary corroboration."
+  "research_caution": "Search snippet white throat/black bars in Callaghan PDF belongs Peregrine Falcon, NOT Malaita Owl; read original species paragraph rejects adjacent-species false positive. Adult throat basis exclusively Mikkola483, no independent primary corroboration.",
+  "archive_commit": "8122e4385520e2175fbf3d67f7e41743053b9cee",
+  "ended_at": "2026-11-24T14:39:37.828Z",
+  "remote_verification": {
+    "bytes": 2538275,
+    "sha256": "fc8fc2cec7568e4b7cec2352051f039b0503a90fd319b4faa39ccf593d34cd7b",
+    "size": [
+      1536,
+      1024
+    ],
+    "gitblob": "f6defa2b8d7931d94a917f69e7e2d482c9d80ea3"
+  }
 }

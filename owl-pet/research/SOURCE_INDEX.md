@@ -6165,3 +6165,7 @@ SSO-PEREGRINEFUND-SPECIES-2026新增1；SSO-MIKKOLA-2013-P134/SSO-VIRANI-2008-P6
 
 ## 20261124T0030Z cycle4 #177v5 — 源页码更正
 新0/复用2 STSO-MIKKOLA-2013-P136 + STSO-NAUROIS-1975-P323-326-327-329（保留稳定ID，纠正定位：非飞/半长翼p325，软部/均翼p326，幼羽p328；旧宽引页不可当精确页）。原PDF本地换源成功；新增同文p337 O.rutilus强黑白飞羽横列不见于hartlaubi之比较。成年无强规则飞羽横列而幼鸟白内三级缘合法，不跨羽区。[元数据/URL、印刷/PDF页、纠错、完整提示](species/177-otus-hartlaubi-v5.md)/[图](../design/concepts/177-otus-hartlaubi-v5.png)/[复查](reviews/177-otus-hartlaubi-v5-review.md)。sciencefalse。
+
+
+## 20261124T0030Z cycle5 #171v5
+新增0/复用2 CPO-MIKKOLA-2013-P385-386、CPO-NELSON-1901-P46。实际读上传book385–386及Nelson1901p46；BHL403后IA原期刊OCR换源成功，新URL非新文。成人尾可见数不等于总数，未新发现形态错误，只补科学状态，scientificfalse。[元数据/URL/事实、局限/完整提示](species/171-glaucidium-palmarum-v5.md)/[图](../design/concepts/171-glaucidium-palmarum-v5.png)/[复查](reviews/171-glaucidium-palmarum-v5-review.md)。

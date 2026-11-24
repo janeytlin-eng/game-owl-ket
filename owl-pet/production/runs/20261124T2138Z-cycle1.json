@@ -1,14 +1,15 @@
 {
   "batch_id": "20261124T2138Z",
   "cycle": 1,
-  "result": "ARCHIVED",
+  "result": "VERIFIED",
   "started_at": "2026-11-24T21:34:23.495Z",
   "stages": {
     "STARTED": "2026-11-24T21:34:23.495Z",
     "RESEARCH_READY": "2026-11-24T21:36:57.795Z",
     "IMAGE_GENERATED": "2026-11-24T21:39:44.553Z",
     "REVIEWED": "2026-11-24T21:40:37.608Z",
-    "ARCHIVED": "2026-11-24T21:40:37.608Z"
+    "ARCHIVED": "2026-11-24T21:40:37.608Z",
+    "VERIFIED": "2026-11-24T21:41:19.970Z"
   },
   "scope": "Evidence discovery missing species; select actual evidenced new young or real morphological correction. No species credited yet.",
   "counts_before": {
@@ -61,5 +62,18 @@
   "scientifically_verified": false,
   "errors": [
     "Local orchestration TypeError before archive mutation: stored in-memory run lacked generated-stage update; fixed by re-reading durable IMAGE_GENERATED run. No lost image, no regeneration."
-  ]
+  ],
+  "archive_commit": "a0d7aa11c2667cb7e5f1e851692546ad347fef32",
+  "verification": {
+    "remote_original_GET": true,
+    "bytes": 3008417,
+    "sha256": "c485ef0cd481f2144d99428b5064fd6197dfdb28046cd8cb4c325451f5fcb67d",
+    "decoded_size": [
+      1536,
+      1024
+    ],
+    "result": "PASS",
+    "not_scientific_acceptance": true
+  },
+  "completed_at": "2026-11-24T21:41:19.970Z"
 }

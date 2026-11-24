@@ -8,7 +8,8 @@
   "started_at": "2026-11-24T15:44:39.085Z",
   "stages": {
     "STARTED": "2026-11-24T15:44:39.085Z",
-    "RESEARCH_READY": "2026-11-24T15:44:46.381Z"
+    "RESEARCH_READY": "2026-11-24T15:44:46.381Z",
+    "IMAGE_GENERATED": "2026-11-24T15:46:20.291Z"
   },
   "heartbeats": [
     {
@@ -43,5 +44,15 @@
       "stage": "adult identity",
       "limits": "Overlapping secondary description, not independent juvenile chronology."
     }
-  ]
+  ],
+  "meta": {
+    "bytes": 2594802,
+    "sha256": "9f37fcd9189a326f0fea5e22b540c709a804d52484140dab0e94a61e04c7114c",
+    "size": [
+      1536,
+      1024
+    ],
+    "gitblob": "883e567fcc1fcdfbb4c24b3d4e928e7ebab3ac29"
+  },
+  "imagegen_wait_ms": 37301
 }

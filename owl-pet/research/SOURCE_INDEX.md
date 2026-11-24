@@ -6626,3 +6626,8 @@ New0/reused3 ONIG-RAND-1950-P3-4 original5page scan external reopened (no OCR bo
 ## 20261124T1204Z cycle5 201-otus-mantananensis-v6
 NEW MANT-ZAINI-2023-MANTANANI-FIELD primary dated17–18Oct2023 observation/photos by AshrafAnuarZaini, published6Nov2023/updated30Jul2024 BirdWatchingAsia; full body and640×401 perched original actually read/viewed (partial hidden belly/spotlight limits). Reused MANT-MIKKOLA-2013-P199-200-MIRROR uploaded199–200/PDF201–202 actualtext reread, nominatecaption stronger upperbreast/palerbelly. New1/reused1/corrected1. OtherCommonsmetadata lead read but no adopted age/sex diagnosis, not new verified morphsource.
 [Full metadata/actual facts/URLs/pages/limits/prompt](species/201-otus-mantananensis-v6.md), [image](../design/concepts/201-otus-mantananensis-v6.png), [actual review](reviews/201-otus-mantananensis-v6-review.md). No science pass or duplicate publication credit.
+
+
+## 20261124T1204Z cycle6 195-otus-brookii-v5
+New0/reused2 RAJ-MIK2013-P168 uploaded168/PDF170 actualreread: reddishbrown finebarredmesoptile/whitishrufous underside darkfreckles-streaks; RAJ-GOODDIE-2015-P70-81 actualoriginalprinted74/PDF5 broodcavity/adult account reread, notjuvenilecolourproof. PriorCommonsGunungGedeJava exclusion rechecked actualmetadata (alreadyexcludedhistorically, no newsource); rejectusependingtaxon/locality/dateconflict. Lowerbellyground correction1, scientificfalse.
+[Full metadata/actual facts/URLs/pages/limits/prompt](species/195-otus-brookii-v5.md), [image](../design/concepts/195-otus-brookii-v5.png), [actual review](reviews/195-otus-brookii-v5-review.md). No science pass or duplicate publication credit.

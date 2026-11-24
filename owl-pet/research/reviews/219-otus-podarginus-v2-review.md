@@ -1,0 +1,4 @@
+# 219-otus-podarginus-v2 actual review
+PASS_WITH_LIMITATIONS. Initialv1 feathercuffs nearly reached toes. Evidence Yamashina1938pp1–2 says bare tarsi except upperfront. Actualgenerated full plate and native feetcrop viewed: bothadultlowerlegs now visibly bare cream scales; feather retained upperfront, all6feet grip branch. Adultnear-equalscale/rufousbrownbarredplumage/dirtyivorybill/browneyes/reduceddisc/tuftlessheads and youngfluffy ageunknownformedclosedwing retained; no nest/flight. One imagegen edit of v1, no additional corrective edit needed. This validates localleg correction only, not taxonomy/juvenilegrowth or sciencecertification. Backcheck220has featheredtarsus species-specific; do not transferbareleg rule. Youngage/flight/sexmass remainunknown.
+
+Sciencefalse; no new userconfirmation. Start 2026-11-24T04:37:24.428Z; output 2026-11-24T04:38:03.682Z.

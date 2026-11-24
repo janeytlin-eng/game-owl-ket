@@ -1,0 +1,9 @@
+# Otus fuliginosus — juvenile evidence gap,2026-11-24
+
+Research-only; no image/species/cycle credit, no ID newly reserved. Main had no fuliginosus concept. Current251 scope unchanged. Original combination Scops fuliginosa Sharpe1888; ITIS555384/1063390 actually read. Do not conflate with modern Mindanao O.everetti: 1888 p374–375 historical usage disputed Palawan identity, not a modern synonym-transfer warrant.
+
+Actually read user-uploaded Mikkola printed176/PDF178: adults richbrown/darkcrown/pale nuchalcollar andwhitescapulars, paleorangebrown eyes,19–20cm, sex-size no data; juvenile undescribed. Search hit 'type juvenile taken July' remains unverified age assertion.
+
+Actually read Sharpe1888 Ibis5(6):197, diagnosis no13 in On a Collection of Birds from the Island of Palawan; original OCR https://ia600103.us.archive.org/12/items/ibis561888188388brit/ibis561888188388brit_djvu.txt (IA metadata provided host/path) and https://archive.org/details/ibis561888188388brit . Short Latin diagnosis compares S.umbratilis, smaller, darkbrown/vermiculated, uniform rufousbrown auricular area, obsolete pale frontal/cervical bands; English calls it very dingy. This paragraph **does not label specimen age, July collection or locomotion**. Thus it cannot alone prove a juvenile-specific feather design, and weak bands vs guide bold adult bands may be age/individual/source conflict—unknown, not resolved. PDF GlobalOwlProject/BHL403, IA generaldownload503; direct IA storage OCR succeeded. No full third-party volume copied to repo; summaries/link only.
+
+Next: find type specimen metadata or Whitehead/Sharpe subsequent account that explicitly ages and describes juvenile; compare original scan when accessible. No guessed down/hatching stage or presumed cavity geometry. Proceed with other evidence-backed corrections meanwhile. Sources PAL-SHARPE-1888-P197, PAL-ITIS-555384-1063390, existing Mikkolaguide176.

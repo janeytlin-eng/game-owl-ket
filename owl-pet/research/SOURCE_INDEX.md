@@ -6181,3 +6181,20 @@ Reused MOSO-NTM-HAMBROECKI-2026 (NTM TMAV1899 description), MOSO-YMSNP-FLEDGLING
 
 ## 2026-11-24 — #188 v4 direct adult iris reread
 Reuse JPSO-NOHARA-HONDA-2025-P75-78 DOI10.24715/smnh.19.0_75; p76/PDF2 Fig2/3 actually viewed, full75–78 read, link https://www.jstage.jst.go.jp/article/smnh/19/0/19_75/_pdf/-char/ja . Reuse guide printed158/PDF160 actually read (adult fiery/dark-red vs direct orange; keep variation). Orange adult iris chosen from directly photographed Honshu family; no yellow juvenile extrapolation. No new IDs. [Research](species/188-otus-semitorques-v4.md), [review](reviews/188-otus-semitorques-v4-review.md), [image](../design/concepts/188-otus-semitorques-v4.png). Source limitation one family, unknown age/iris/first flight and nest; same source does not prove all juveniles nonflying.
+
+
+## 2026-11-24 — #190 v3 reread and correction
+Reuse SUN-LOK-2009, SUSO-NPARKS-2025 and Mikkola2013printed162/PDF164. Paper's actual behaviour paragraph printed38/PDF8, not37, explicitly one juvenile flew to adult branch; first-flight age remains unknown. NParks Description says faint adult ventral shafts, informing reduced contrast. Full URLs/facts/limits/taxon bounds in [research](species/190-otus-lempiji-v3.md); [image](../design/concepts/190-otus-lempiji-v3.png),[review](reviews/190-otus-lempiji-v3-review.md). Guide's cnephaeus split retained historically; not newspecies.
+
+### PAL-SHARPE-1888-P197
+- Title/author/year: On a Collection of Birds from the Island of Palawan / Richard Bowdler Sharpe /1888; primary original species diagnosis.
+- URL: https://archive.org/details/ibis561888188388brit ; read OCR via https://ia600103.us.archive.org/12/items/ibis561888188388brit/ibis561888188388brit_djvu.txt ; Ibis5(6):197,no13. Access2026-11-24.
+- Taxon/stage: Scops fuliginosa=current Otus fuliginosus; specimen age **not stated in read paragraph**.
+- Facts: darkbrown smallscops, uniform rufousbrown auricularregion, weakpale frontal/cervicalbands. No juvenile development, iris/sex/ability/nest geometry.
+- Limits/conflict: OCR read, originalscan not visually verified; unknown age; weakbands conflict with adult guide176. Does not verify search-snippet juvenile-type assertion.
+- Decision: [defer juvenile reconstruction](species/otus-fuliginosus-20261124-evidence-gap.md); no image/version/cycle credit.
+### PAL-ITIS-555384-1063390
+- Title/institution/year: ITIS Otus fuliginosus and Scops fuliginosa reports / Integrated Taxonomic Information System / undated current database, accessed2026-11-24.
+- URLs https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=555384 and https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=1063390 , Taxonomy/Nomenclature sections actually read.
+- Taxon/stage: current O.fuliginosus valid, original combination S.fuliginosa; allstages taxonomy only. High confidence nomenclature, no age/morphology evidence.
+- Design: supports name mapping only; no juvenile invention; linked [gap record](species/otus-fuliginosus-20261124-evidence-gap.md). Existing guide176 reused, not a newsourceitem.

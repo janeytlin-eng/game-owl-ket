@@ -9,3 +9,9 @@ Active external search found and opened OwlPages2140 (DeaneLewis updated2020-10-
 ~~~text
 Use case: precise-object-edit. Existing #206 Javan Owlet trio: change ONLY the left adult male's EXPOSED TAIL below branch. Replace broad pale horizontal blocks with SEVEN rather thin pale ochre bars on dark brown tail, each with a subtle narrow blackish upper edge. Keep tail shape/length and natural feather texture; do not create broad white rectangles. Preserve all other plumage, chestnut vertical underside streaks and white belly, all three birds, near-equal adults, dull age-unknown fledgling, both feet of each gripping mossybranch, exact labels/title/uncertainty note and footer. No juvenile feather or colour change; no extra birds, nests or props.
 ~~~
+
+## Corrective edit fullprompt
+~~~text
+Use case: precise-object-edit. Edit ONLY the male tail below the perch in #206. Current tail shows about FIVE full ochre bars plus a partly hidden one. On the same dark brown tail area draw exactly SEVEN distinct thin ochre horizontal bands, evenly spaced along exposed tail from just below perch to above rounded tip, each separated by much wider darkbrown gap and subtly edged dark above. ALL SEVEN need individually visible/countable below perch. Keep existing tail outline and length, do not touch foot or branch. Preserve all other pixels/three birds/labels/footer, juvenile unchanged. Photoreal feather texture, no diagram marks/numbers added.
+~~~
+Secondeditwait 39.325s. Firsttailcrop only5complete+partlytop; exactseven failed firstinspection. Secondedit restores seven countable bands; finalreview required.

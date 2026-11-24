@@ -1,0 +1,3 @@
+# Actual review
+Full original actually viewed. Both adult dorsal toes now carry fine white feathers, grey claws remain visible, toes/grips distinguishable. No oversized feather slippers; juvenile unchanged qualitatively. Adult iris/bill/shaft streaks/near-equal scale, three birds/title/roles/footer and rocky support retained. Local correction effective, PASS_WITH_LIMITATIONS, sciencefalse. Exact toe feather density and young age/flight/sex-size unresolved. No extra edit needed.
+{"bytes":2556735,"sha256":"36593169f6a9a44c325582be097f72a00309c635f1be27dbc2b1292bb20a557b","size":[1536,1024],"gitblob":"045b7ebd2e1efa5d02e7fd5c36465b79204fe83b"}

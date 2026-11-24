@@ -6,7 +6,8 @@
   "stages": {
     "STARTED": "2026-11-24T14:31:33.168Z",
     "RESEARCH_READY": "2026-11-24T14:32:29.747Z",
-    "IMAGE_GENERATED": "2026-11-24T14:34:22.333Z"
+    "IMAGE_GENERATED": "2026-11-24T14:34:22.333Z",
+    "REVIEWED": "2026-11-24T14:34:50.528Z"
   },
   "notes": [
     "No effective unfinished batch or lease at latest main. #25 already archived remotely; no duplicate reconstruction. Prior local fd9d70d not required for current archive.",
@@ -48,5 +49,11 @@
       1024
     ],
     "gitblob": "045b7ebd2e1efa5d02e7fd5c36465b79204fe83b"
-  }
+  },
+  "review": "Full original actually viewed. Both adult dorsal toes now carry fine white feathers, grey claws remain visible, toes/grips distinguishable. No oversized feather slippers; juvenile unchanged qualitatively. Adult iris/bill/shaft streaks/near-equal scale, three birds/title/roles/footer and rocky support retained. Local correction effective, PASS_WITH_LIMITATIONS, sciencefalse. Exact toe feather density and young age/flight/sex-size unresolved. No extra edit needed.",
+  "actual_errors": [
+    "Initial JavaScript atob unavailable; raw connector already decoded JSON, corrected without write.",
+    "Initial dynamic object key syntax error before write; corrected.",
+    "Two whole-image base64 stdout transfers truncated; rejected locally, chunked read succeeded; no corrupted blob submitted."
+  ]
 }

@@ -1,9 +1,9 @@
 {
   "batch_id": "20261124T2333Z",
   "cycle": 2,
-  "status": "STARTED",
+  "status": "VERIFIED",
   "started_at": "2026-11-24T23:39:14.939Z",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "id": "28-glaucidium-perlatum-v6",
   "species": "Glaucidium perlatum",
   "action": "MORPHOLOGY_REVISION",
@@ -23,6 +23,11 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-24T23:42:42.892Z"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-24T23:43:18.705Z",
+      "evidence": "immutable raw GET bytes SHA256 PIL decode PASS; manifest one exact entry"
     }
   ],
   "research_ready_at": "2026-11-24T23:41:13.916Z",
@@ -50,5 +55,7 @@
   "imagegen_calls": 1,
   "image_blob": "f9ecb1675aa3a3eb0fbf3d6561d9718d9d76b522",
   "reviewed_at": "2026-11-24T23:42:42.892Z",
-  "review": "Full1536x1024 generated plate and 390x350 juvenile crop actually viewed. Juvenile crown/exposed mantle now plain brown, adult pearl rows/falseeyes retained; no young eye/bill/wing/tail change requested. Six feet supported on broad fork, noflight, labels correct. One edit, no further issue found within narrow scope. Iris timeline and precise age remain unknown. Iteration: generic reducedspotting prompt had retained adultpinspots; area-specific plain crown+mantle succeeded here; valid only for source-describedmesoptile, not all owlets. Potential unaffected #26 requires its own Pyle indistinctspots evidence, so no general deletion rule."
+  "review": "Full1536x1024 generated plate and 390x350 juvenile crop actually viewed. Juvenile crown/exposed mantle now plain brown, adult pearl rows/falseeyes retained; no young eye/bill/wing/tail change requested. Six feet supported on broad fork, noflight, labels correct. One edit, no further issue found within narrow scope. Iris timeline and precise age remain unknown. Iteration: generic reducedspotting prompt had retained adultpinspots; area-specific plain crown+mantle succeeded here; valid only for source-describedmesoptile, not all owlets. Potential unaffected #26 requires its own Pyle indistinctspots evidence, so no general deletion rule.",
+  "archive_commit": "756810de278c03a8b37e29a71f362fc41da947d8",
+  "completed_at": "2026-11-24T23:43:18.705Z"
 }

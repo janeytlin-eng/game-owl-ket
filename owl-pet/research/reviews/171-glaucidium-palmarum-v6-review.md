@@ -1,0 +1,4 @@
+# 171-glaucidium-palmarum-v6 actual review
+Fullplate and separateadultbillcrop actuallyviewed after1edit. Bothadultbills now muted warmstrawhorn/ivorytip, no obviouslimecast; immaturebill retains previousgreenishcolour explicitlyuncalibrated. Adultiris/crownspots/cinnamonventralstreaks/wingtailpattern andnear-equalheight preserved; 3–4visible tailbars remain,noforcedtotal. Younggreyplaincrown/fewforeheadflecks/compactformedsoftwing/hidden tail and doublefoot/bellybranchsupport unchanged, no flight/nest/age claim. Roles/title/pendingfooter readable, exactly3birds. Minorqualitativecolourgoal achieved, exactcolour calibration and immaturebareparts remainunknown. No scientificapproval.
+PASS_WITH_LIMITATIONS;scientifically_verified=false;no new user confirmation.
+Original metadata {"bytes":2643204,"sha256":"9d0c638bb5e76ea9bfc953fefc20eb03aef4a96a0495f4ad59a3bc4975f1a89e","gitblob":"4297f2cf7972bf43a1aa65eb53ff053fbe905a7d","size":[1536,1024]}

@@ -6651,3 +6651,8 @@ New0/reused2 SULA-HARTERT-1898 originalprinted126actualexistingfullscanread (BHL
 ## 20261124T1332Z cycle4 232-ninox-ochracea-v3
 New0/reused2 NOCH-MADIKA-2011-P98 actualprimaryprinted98/PDF5comparativebodyread (Figs2/3OTHERowlnotused), NOCH-MIKKOLA-2013-P480 uploaded480/PDF482actualreread. Narrowadultwhitebrow/X, notboldmask; callingthroatkept; noyoungcolour/flightfacts added.
 [Metadata/URLs/pages/stages/facts/limits/fullprompt](species/232-ninox-ochracea-v3.md) · [image](../design/concepts/232-ninox-ochracea-v3.png) · [review](reviews/232-ninox-ochracea-v3-review.md). Scientificfalse; samebook/papers deduplicated.
+
+
+## 20261124T1332Z cycle5 226-otus-icterorhynchus-v3
+New0/reused2 OICT-MIKKOLA-2013-P133 actualuploaded133/PDF135text and OICT-DIJKSTRA-2011-ABC16993 actualcaption/fieldremarks plus existingoriginalphoto re-viewed. AdultwhitebellySPOTS vs upperbreastshaftmarks; darkdistantphotolimitsnoexactdensity/footcalibration. Adultlowerbellyonly, youngunknownsretained.
+[Metadata/URLs/pages/stages/facts/limits/fullprompt](species/226-otus-icterorhynchus-v3.md) · [image](../design/concepts/226-otus-icterorhynchus-v3.png) · [review](reviews/226-otus-icterorhynchus-v3-review.md). Scientificfalse; samebook/papers deduplicated.

@@ -5,13 +5,14 @@
   "species": "Tyto rosenbergii",
   "action": "REVISION",
   "started_at": "2026-11-24T17:56:10.245Z",
-  "result": "STARTED",
+  "result": "VERIFIED",
   "stages": {
     "STARTED": "2026-11-24T17:56:10.245Z",
     "RESEARCH_READY": "2026-11-24T17:57:31.310Z",
     "IMAGE_GENERATED": "2026-11-24T18:33:09.112Z",
     "REVIEWED": "2026-11-24T18:33:56.349Z",
-    "ARCHIVED": "2026-11-24T18:34:04.807Z"
+    "ARCHIVED": "2026-11-24T18:34:04.807Z",
+    "VERIFIED": "2026-11-24T18:34:53.900Z"
   },
   "heartbeats": [
     {
@@ -120,5 +121,27 @@
     ],
     "external_action": "Targeted Clements query plus actual original publisher mirror Abstract/Methods text reopened; no new pixel/photo claim.",
     "uploaded_guide": "Persisted actual printed109/PDF111 reading reused; not falsely claiming fresh page read in this recovery."
+  },
+  "archive_commit": "fb41dad023f73b1c2ea325da0a5d48a2d38ef03a",
+  "remote_verification": {
+    "bytes": 2582857,
+    "sha256": "d7c8d5f3b0f6b7327a8423aa03a7e7f3978714d627ec372144e93938e0bb73d4",
+    "size": [
+      1536,
+      1024
+    ],
+    "raw_get": true,
+    "pil_decode": true
+  },
+  "ended_at": "2026-11-24T18:34:53.900Z",
+  "timings": {
+    "recovery_started_at": "2026-11-24T18:32:12.235Z",
+    "recovered_persisted_at": "2026-11-24T18:33:09.112Z",
+    "reviewed_at": "2026-11-24T18:33:56.349Z",
+    "archived_at": "2026-11-24T18:34:04.807Z",
+    "verified_at": "2026-11-24T18:34:53.900Z",
+    "generation_wait_ms": null,
+    "archive_verification_interval_seconds": 49.093,
+    "note": "Recovery intervals include network/commits; prior generation purewait unavailable. No imagegen called in this recovery."
   }
 }

@@ -53214,17 +53214,27 @@
       "batch_id": "20261124T1535Z",
       "status": "PARTIAL",
       "target_cycles": 6,
-      "completed_cycles": [],
-      "next_cycle": 1,
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "id": "209-glaucidium-minutissimum-v4",
+          "species": "Glaucidium minutissimum",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "commit_sha": "3b24e64ee1f88f9756f4d44d373c539ef341f87d",
+          "archive_commit": "1da291ab2ac4d64022b01644f3f7641bc14f33cf",
+          "run_record": "owl-pet/production/runs/20261124T1535Z-cycle1.json",
+          "status": "VERIFIED",
+          "scientifically_verified": false,
+          "completed_at": "2026-11-24T15:40:33.031Z"
+        }
+      ],
+      "next_cycle": 2,
       "started_at": "2026-11-24T15:31:58.038Z"
     }
   ],
-  "lease": {
-    "owner": "owl-production-1535Z",
-    "run_id": "20261124T1535Z-cycle1",
-    "heartbeat_at": "2026-11-24T15:39:16.623Z",
-    "expires_at": "2026-11-24T15:54:16.623Z"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -53383,12 +53393,7 @@
       }
     }
   ],
-  "active_lease": {
-    "owner": "owl-production-1535Z",
-    "run_id": "20261124T1535Z-cycle1",
-    "heartbeat_at": "2026-11-24T15:39:16.623Z",
-    "expires_at": "2026-11-24T15:54:16.623Z"
-  },
+  "active_lease": null,
   "last_updated_at": "2026-11-13T06:00:16.398+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",

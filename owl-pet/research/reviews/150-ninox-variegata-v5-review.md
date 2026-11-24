@@ -1,0 +1,4 @@
+# 150-ninox-variegata-v5 actualreview
+Actualfull output and resizedfullsheetviewed. Center UNVERIFIEDJUVENILECONCEPT AGEUNKNOWN and pending/youngplumageageirisflightfooter legible. Birds/anatomy/pose/grip retainedvisually(notpixelidentical); no youngdevelopment invented. Adultsnearequal/earless/yelloweyes, allfeet supported. PASS_WITH_LIMITATIONS/sciencefalse/usernotconfirmed. Noadditionalimageeditrequired.
+## Iteration
+Applied149lesson: unsupportedOLDER wordingmustnotpersist merelybecausepriorartifactexists. Bookjuvenileunknown andmuseumtissueunknownsex don'tvalidateyoungbody. Actualcaptioncorrectionverified only; 152/153/155haveotherstageevidence, don'tblindlyremovetheirstagewings. Sourceyearconflict1830/1832keptmetadata. New0reuse3correct1.

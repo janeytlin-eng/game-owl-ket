@@ -1,0 +1,16 @@
+# #184 Otus spilocephalus hambroecki v4
+
+Batch 20261124T0112Z, cycle1/6; revision, unique+0; scientifically_verified=false. Existing v1–v3 preserved.
+
+## Actually read 2026-11-24
+- MOSO-NTM-HAMBROECKI-2026 reused: National Taiwan Museum TMAV1899, https://collections.culture.tw/ntm_collectionsweb/Collection?GID=0BMDMF0AMB , sections species and description. Taiwan subspecies; same plumage sexes, yellow eyes, cream bill, feathered tarsi/pink-brown toes; blurred yellow-brown juvenile. No quantified sexual-size direction or young iris chronology. High institutional morphology credibility; specimen does not date the pictured young.
+- MOSO-YMSNP-FLEDGLING-2026 reused: Yangmingshan NP https://www.ymsnp.gov.tw/ch/florafauna/birds/380 , Features and Point. Adult pale grey-brown underside with fine brown pattern and sparse black-brown shaft lines. July/August recent fledglings practise single-syllable calls. No day-age, flight/wing sequence supplied.
+- MOSO-MIKKOLA-2013-P148 reused, user-uploaded guide actually read printed148/PDF150: very small, short ill-defined tufts; no sexual size data; adult underparts reddish-brown barred with small paired triangular dark/light spots; juveniles duller reddish-brown/fluffy, narrow crown bars, broader back bars and very faint below. Subspecies note hambroecki darker/rufous than nominate; general description not a measured Taiwan development sequence.
+
+## Problem/evidence/design
+Actually opened v3: both adults have strong long black streaks along most belly feathers; this overstates sparse shaft lines and suppresses transverse/small triangular pattern. v4 targets only adult ventral pattern. Adult equal display size retained; young age/iris/flight remain unknown and not science-passed. Young residual-down texture is a concept inference, no exact feather chronology. Habitat broadleaf forest, all feet on branch, no reconstructed nest. Annotation reinforces known boundary; it is not itself scientific calibration.
+
+## Full imagegen prompt
+~~~text
+Use case: precise-object-edit. Input image is the existing #184 Mountain Scops Owl Taiwan race Otus spilocephalus hambroecki v3 concept triptych, edit target. Preserve the approved naturalistic tactile 3D style, composition, forest, branch, every bird's identity, yellow adult eyes and pale bills, existing title and all three labels, near-equal adult size, and the entire supported recent fledgling unchanged. Make ONE targeted morphological correction to both ADULTS only: the current long thick dark shaft stripes covering the lower breast and belly are too strong and too continuous. Replace those ventral long black streaks with fine irregular reddish-brown crossbarring over pale grey-buff underparts, and only sparse small dark triangular/paired light-dark markings or short broken shaft marks. Do not make a repeated uniform polka-dot grid. Keep the original darker upper-breast and face character; do not erase all pattern or brighten whites. Keep all six feet naturally gripping. No juvenile wing or tail invention. Add only a discreet legible footer in existing bottom margin: "CONCEPT • SCIENTIFIC CALIBRATION PENDING • JUVENILE AGE / IRIS / FLIGHT UNVERIFIED". No extra bird, nest, eggs, ornament or watermark. Preserve all other feather texture and adult wing bars.
+~~~

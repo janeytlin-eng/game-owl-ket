@@ -6173,3 +6173,7 @@ SSO-PEREGRINEFUND-SPECIES-2026新增1；SSO-MIKKOLA-2013-P134/SSO-VIRANI-2008-P6
 
 ## 20261124T0030Z cycle6 #173v5 — 历史地巢索引纠错
 新0/复用3 TSO-MIKKOLA-2013-P145、TSO-RENE-THORSTROM-2009-P87-88、TSO-MELO-ETAL-2022-P1-54，均实际重读。**纠正本索引旧“abandoned before observed hatching”：原文作者没有回访机会，应是孵化结果未知，不能写已弃巢**。body/abstract25Nov2007与p88figcaptions25Nov2008冲突保留。替代PDF同文不计新来源。[完整元数据/URL/页码/原文边界/提示](species/173-otus-madagascariensis-v5.md)/[图](../design/concepts/173-otus-madagascariensis-v5.png)/[复查](reviews/173-otus-madagascariensis-v5-review.md)。图维持无巢，明确projecttaxon species limits/幼龄irisflight未解决；speciescount不变。
+
+
+## 2026-11-24 — #184 v4 incremental reread, not new sources
+Reused MOSO-NTM-HAMBROECKI-2026 (NTM TMAV1899 description), MOSO-YMSNP-FLEDGLING-2026 (Features/Point), MOSO-MIKKOLA-2013-P148 (uploaded p148/PDF150 actually read). URLs and fact boundaries: [v4 research](species/184-otus-spilocephalus-v4.md). Adult continuous long black ventral stripes conflict with sparse shaft marks and transverse/small triangular markings; targeted morphology revision, not new juvenile developmental knowledge. No new source IDs; no quantified sexual-size direction. Related [image](../design/concepts/184-otus-spilocephalus-v4.png), [review](reviews/184-otus-spilocephalus-v4-review.md).

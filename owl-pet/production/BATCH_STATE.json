@@ -53324,6 +53324,20 @@
           "scientifically_verified": false
         },
         {
+          "cycle": 2,
+          "id": "213-glaucidium-tephronotum-v4",
+          "species": "Glaucidium tephronotum",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "status": "VERIFIED",
+          "commit_sha": "4ce91c575b45be74bc74fe4e7843c05e91d6f2b4",
+          "archive_commit": "123faf54a6904392f5d0833b6608a5f97c4d1ac1",
+          "run_record": "owl-pet/production/runs/20261124T1632Z-cycle2.json",
+          "completed_at": "2026-11-24T17:55:43.079Z",
+          "scientifically_verified": false
+        },
+        {
           "cycle": 3,
           "id": "214-otus-balli-v3",
           "species": "Otus balli",
@@ -53364,28 +53378,11 @@
           "run_record": "owl-pet/production/runs/20261124T1632Z-cycle5.json",
           "completed_at": "2026-11-24T17:50:36.314Z",
           "scientifically_verified": false
-        },
-        {
-          "cycle": 2,
-          "id": "213-glaucidium-tephronotum-v4",
-          "species": "Glaucidium tephronotum",
-          "action": "REVISION",
-          "unique_species_increment": 0,
-          "revision_increment": 1,
-          "status": "VERIFIED",
-          "commit_sha": "4ce91c575b45be74bc74fe4e7843c05e91d6f2b4",
-          "archive_commit": "123faf54a6904392f5d0833b6608a5f97c4d1ac1",
-          "run_record": "owl-pet/production/runs/20261124T1632Z-cycle2.json",
-          "completed_at": "2026-11-24T17:55:43.079Z",
-          "scientifically_verified": false
         }
       ],
-      "next_cycle": 3,
+      "next_cycle": 6,
       "started_at": "2026-11-24T16:32:25.115Z",
       "remaining_cycles": [
-        3,
-        4,
-        5,
         6
       ],
       "partial_reason": "Observed tool Code Mode session output limit reached while printing initial large ledger, 7221056 text bytes omitted. Executor checkpoints after cycle1; no fixed timeout telemetry and not a claim subsequent tools were wholly unavailable.",

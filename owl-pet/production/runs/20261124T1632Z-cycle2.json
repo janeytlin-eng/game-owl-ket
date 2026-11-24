@@ -5,13 +5,14 @@
   "species": "Glaucidium tephronotum",
   "action": "REVISION",
   "started_at": "2026-11-24T17:31:43.269Z",
-  "result": "STARTED",
+  "result": "VERIFIED",
   "stages": {
     "STARTED": "2026-11-24T17:31:43.269Z",
     "RESEARCH_READY": "2026-11-24T17:33:00.599Z",
     "IMAGE_GENERATED": "2026-11-24T17:37:10.930Z",
     "REVIEWED": "2026-11-24T17:37:37.238Z",
-    "ARCHIVED": "2026-11-24T17:37:46.156Z"
+    "ARCHIVED": "2026-11-24T17:37:46.156Z",
+    "VERIFIED": "2026-11-24T17:38:04.369Z"
   },
   "heartbeats": [
     {
@@ -91,5 +92,15 @@
   "correction_prompt": "Precise-object-edit #213 current image. Previous edit left BOTH ADULTS claws predominantly grey. Change ONLY the hard CLAWS (not toes): each claw's basal/proximal 70 percent must visibly be pale YELLOWISH HORN, distal final 30 percent charcoalblack. Sharp clear material transition, natural horn sheen, NOT uniformly grey with white highlight. Keep claw shape/count/curve and perch contact. Preserve every other pixel as closely as possible, particularly juvenile unchanged, yellow toes, all feather colours, legs, labels/footer/rainforest. Do not change flanks again.",
   "needs_correction": true,
   "review": "实际查看最终完整图和足部放大图：成鸟爪根较浅、爪尖深色，但大部分爪片仍灰黑，黄角质基部未充分呈现。两次imagegen编辑未解决该色彩目标，明确NEEDS_CORRECTION，不标科学通过。爪形/趾数/自然抓持保留；幼鸟已形成翼尾未缩短。成鸟胁部首次编辑变暖，处图鉴赭棕宽范围但非原图像素保留；精确pycrafti色彩仍需照片校准。年龄/飞行未知，sciencefalse。归档为有未解决项的修订尝试，不能宣称爪色校准成功。",
-  "lesson": "问题—细小爪片颜色编辑两次仍不足；证据—Mikkola368黄角质暗尖，当前放大仍灰；修改—两次限定成人爪片；复查—仅基部明度变浅，目标未达，入优先修订队列。规则：不能以提示的70%当测量或既成效果；细部编辑须检查裁图，跨区漂移需记录。后续需提供局部参考/更明确的目标，不能当全库验证有效。"
+  "lesson": "问题—细小爪片颜色编辑两次仍不足；证据—Mikkola368黄角质暗尖，当前放大仍灰；修改—两次限定成人爪片；复查—仅基部明度变浅，目标未达，入优先修订队列。规则：不能以提示的70%当测量或既成效果；细部编辑须检查裁图，跨区漂移需记录。后续需提供局部参考/更明确的目标，不能当全库验证有效。",
+  "archive_commit": "ba2cc768804dfc35829a8dd4dc6f2ff417816ce3",
+  "remote_verification": {
+    "bytes": 2400595,
+    "sha256": "d6f20af6af49ea5bb5f62df724b60c378bd75cb839a1d6902431e3734af9c910",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "ended_at": "2026-11-24T17:38:04.369Z"
 }

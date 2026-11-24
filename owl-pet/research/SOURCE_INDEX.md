@@ -6588,3 +6588,7 @@ New1 CPO-OWLPAGES-2020-1970 (DeaneLewis30Oct2020, https://www.owlpages.com/owls/
 
 ## Retrieval completion correction, cycle3
 The local IA request subsequently succeeded before review: original Auk18p46 Glaucidium palmarum type paragraph actually read, not only a snippet. It describes heavily spotted crown/plainmiddleback/white-rustywingmarks/fivetypetailrows/rustytarsalfeathers/palmforest. OCR sexsymbolunclear; no sexproof/softpart/juvenile claims adopted. Earlier webIA failure still true; local fallback succeeded. Existing CPO-NELSON-1901-P46 reused, not new source.
+
+
+## 20261124T1137Z cycle4 #172v6 boundary mapping
+New0/reused4 existingTMO-MIKKOLA-2013-P110,TMO-DEBUS-1993-P169-172-187,TMO-YOUNG-BELL-MOONEY-2021-P13-18,TMO-ABSA-2019-P2; originals/bookactualread. No duplicatesources. Correctedpriorp185/PDF18locator retained, radio-trackedolderjuvenilecannotprovecreamdownyflight/iris/wing. Currentimagebiologyunchanged, onlyspecificunknownfooter. [Metadata/URLs/pages/facts/limits/prompt](species/172-tyto-castanops-v6.md),[image](../design/concepts/172-tyto-castanops-v6.png),[review](reviews/172-tyto-castanops-v6-review.md). Designboundarycorrection1/sciencefalse.

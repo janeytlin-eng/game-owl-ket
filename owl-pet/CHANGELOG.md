@@ -1,3 +1,6 @@
+## 2026-11-25 20261124T2333Z PARTIAL2/6
+本次完成2轮，新增0/修订#24v5幼鸟头顶白斑、#28v6幼鸟头顶与上背白斑；两图实际生成、整图/crop查看和不可变原图GET/字节/SHA256/PNG解码通过。去重206/251不变，尚45；编号图1061/manifest1015；sciencefalse、用户确认新增0。新已读来源1/复用4文档/未核验线索1/书目更正1。第3轮巴拉望角鸮关键原文403/503及扫描不可读，未出图未计数；旧诊断未注明年龄，不能用搜索摘要编造幼鸟。当前批次保留2/6,next3，其他未完批次0，lease释放；非六轮成功，不声称后台绘图。[两张原图/研究/审查/真实提交](production/batches/20261124T2333Z-partial-review.md)。全任务未完成，未改调度或其他任务。
+
 ## 2026-11-24T23:38:32.349Z #24v5 juvenile crown revision
 One imagegen edit, full/crop check; oldversions preserved; scientific calibration pending.
 

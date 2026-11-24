@@ -1,0 +1,1 @@
+实际查看完整图：SEX SIZE UNKNOWN与幼鸟AGE/IRIS/BILL/FLIGHT UNVERIFIED均清楚、无截字，角色名/科学待校准页脚保留。三鸟成年黄眼/黄角质喙、无腹纵纹而有黑箭头缘白斑、幼鸟细密横纹/短软翼和抓枝支撑视觉保留。仅注释修订，不宣称新形态纠正或科学验收；精确羽龄/幼鸟裸部色/体型方向仍未知。PASS_WITH_LIMITATIONS/sciencefalse。

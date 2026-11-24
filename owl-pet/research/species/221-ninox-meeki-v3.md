@@ -1,0 +1,37 @@
+# 221-ninox-meeki-v3
+{
+  "batch_id": "20261124T1432Z",
+  "cycle": 3,
+  "id": "221-ninox-meeki-v3",
+  "species": "Ninox meeki",
+  "action": "REVISION",
+  "started_at": "2026-11-24T14:39:42.422Z",
+  "result": "STARTED",
+  "stages": {
+    "STARTED": "2026-11-24T14:39:42.422Z",
+    "RESEARCH_READY": "2026-11-24T14:40:09.097Z"
+  },
+  "prompt": "Use case precise-object-edit. Target #221 Manus Boobook Ninox meeki v2. Change ONLY RIGHT AGE-UNKNOWN JUVENILE'S exposed folded upperwing COVERT FEATHER PATTERN: replace the presently nearly plain brown wing-covert field at its side with several clearly visible irregular creamy-WHITE transverse feather bars, heavier than adult covert bars, following curved rows of short coverts. Do not turn these into long adult primaries. Keep existing compact folded wing geometry, quiet supported posture, loose body contour, white throat, plain brown breast, narrower lower rusty streaks, sleepy face, entire juvenile footgrips and tail unchanged. Preserve both adults including male uniformly rufous crown versus female finer marked crown, yellow irises, slateblue bills with paler tips, all adult stripes, scale, six feet, mossy forest branch, exact title/role/footer labels,1536x1024 warm soft-feather 3D pet concept. No exact age, firstflight, independence, sex-size or nest claim.",
+  "sources": [
+    {
+      "id": "NMEE-MIKKOLA-2013-P496",
+      "author": "Heimo Mikkola",
+      "year": 2013,
+      "title": "Owls of the World, second edition",
+      "url": "user uploaded PDF",
+      "pages": "printed496/PDF498",
+      "stage": "juvenile",
+      "fact": "Fresh actual page text: juvenile has heavier white wing-covert bars, white throat and plain brown breast.",
+      "limits": "Secondary guide; no primary chronological series or exact age, no measured sex-size. Wing shape not changed."
+    },
+    {
+      "id": "NMEE-ITIS-555488",
+      "url": "https://itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=555488&source=to_print",
+      "type": "institution taxonomy",
+      "fact": "Fresh original validname read, current Ninox meeki retained.",
+      "limits": "Taxonomy only, not juvenile plumage."
+    }
+  ],
+  "issue": "Actual v2 full view: juvenile exposed compact folded covert field nearly uniformly brown, unlike stage-specific heavier white covert bars. No adult-wing geometry correction inferred."
+}
+Design inference: coarse qualitative visibility of white coverts only; no new feather length or age assertion. Existing original name same, monotypic Manus. Secondary-guide trait not marked scientificpass.

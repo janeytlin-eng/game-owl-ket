@@ -6669,3 +6669,7 @@ Fresh publisher original Morphology/Oman and Iran/Bare parts read 2026-11-24. Ad
 
 ## 20261124T1432Z cycle2 229-athene-malaitae-v3
 New0/reused2 AMAL-MIKKOLA-2013-P483 freshly read uploadedprinted483/PDF485, AMAL-CALLAGHAN-2019-P1130 freshly online read original p1130. Adult throat mark only; no developmental extrapolation. [Metadata/prompt](species/229-athene-malaitae-v3.md) · [review](reviews/229-athene-malaitae-v3-review.md).
+
+
+## 20261124T1432Z cycle3 221-ninox-meeki-v3
+New0/reused2 NMEE-MIKKOLA-2013-P496 freshly uploaded496/PDF498 juvenile heavier white COVERT bars, NMEE-ITIS-555488 original taxon body read. Primary1914/development search did not provide corroborating juvenile chronology; search-only generic raptor material rejected. [Metadata/prompt](species/221-ninox-meeki-v3.md) · [review](reviews/221-ninox-meeki-v3-review.md).

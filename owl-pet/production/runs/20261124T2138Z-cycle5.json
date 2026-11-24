@@ -4,11 +4,12 @@
   "id": "16-strix-occidentalis-v5",
   "species": "Strix occidentalis caurina",
   "action": "MORPHOLOGY_REVISION",
-  "result": "RESEARCH_READY",
+  "result": "IMAGE_GENERATED",
   "started_at": "2026-11-24T21:54:41.580Z",
   "stages": {
     "STARTED": "2026-11-24T21:54:41.580Z",
-    "RESEARCH_READY": "2026-11-24T21:55:59.153Z"
+    "RESEARCH_READY": "2026-11-24T21:55:59.153Z",
+    "IMAGE_GENERATED": "2026-11-24T21:58:16.101Z"
   },
   "sources_new": [
     "NSO-GANEY-ETAL-2020-THERMAL"
@@ -21,5 +22,21 @@
     "toe bristle density",
     "juvenile exactage/flight/subspecies variation"
   ],
-  "prompt": "Precise-object-edit #16 Northern Spotted Owl Strix occidentalis caurina v4. Change ONLY the exposed grey-brown DISTAL TOE TOPS of BOTH ADULTS: add a FEW very fine SHORT grey-buff bristles/hairlike feather filaments emerging among the toe scales, clearly readable at enlarged inspection. Keep the distal toes visibly grey-brown and scaly with sparse bristles, NOT densely feathered over their whole length, NOT Snowy Owl mittens. Preserve the existing dense feathering of tarsi and proximal toes. Preserve exposed dark horn claws, toe counts/shapes and exact branch grips. Preserve ENTIRE right juvenile and all its feet unchanged, including its genuine later post-fledging formed wing, buff-brown mesoptile/natal tips, dark small face, greenblue juvenile bill/pink cere, dark iris and pale catchlight. Preserve adult bills/cere unchanged because colour-source conflict unresolved; preserve body size/sexual proportions, dark eyes, no tufts, brown+white-spotted plumage and all exact typography/old-growth environment1536x1024. Exactly3birds. No new age, flight, density or sex claim."
+  "prompt": "Precise-object-edit #16 Northern Spotted Owl Strix occidentalis caurina v4. Change ONLY the exposed grey-brown DISTAL TOE TOPS of BOTH ADULTS: add a FEW very fine SHORT grey-buff bristles/hairlike feather filaments emerging among the toe scales, clearly readable at enlarged inspection. Keep the distal toes visibly grey-brown and scaly with sparse bristles, NOT densely feathered over their whole length, NOT Snowy Owl mittens. Preserve the existing dense feathering of tarsi and proximal toes. Preserve exposed dark horn claws, toe counts/shapes and exact branch grips. Preserve ENTIRE right juvenile and all its feet unchanged, including its genuine later post-fledging formed wing, buff-brown mesoptile/natal tips, dark small face, greenblue juvenile bill/pink cere, dark iris and pale catchlight. Preserve adult bills/cere unchanged because colour-source conflict unresolved; preserve body size/sexual proportions, dark eyes, no tufts, brown+white-spotted plumage and all exact typography/old-growth environment1536x1024. Exactly3birds. No new age, flight, density or sex claim.",
+  "image": {
+    "bytes": 2857938,
+    "sha256": "a2e7966e38e273f92657ad0a14d5814ebbbe7049b802fc165f3d3ce4826293f7",
+    "size": [
+      1536,
+      1024
+    ],
+    "gitblob": "37d830900f3d49e1216193281ffbea8d908173fe",
+    "path": "owl-pet/production/generated/16-strix-occidentalis-v5.png",
+    "local": "/workspace/scratch/180c531d917a/owl-2138/16-strix-occidentalis-v5.png"
+  },
+  "timings": {
+    "generation_start": "2026-11-24T21:56:19.878Z",
+    "generation_wait_ms": 92677,
+    "edit_count": 1
+  }
 }

@@ -6153,3 +6153,7 @@ NBUR-INDRAWAN-SOMADIKARTA-2004-P160-170 新来源1；SSCO-CURRIE-ETAL-2004-P123-
 
 ## 20261124T0030Z cycle1 #179v5 / Megascops gilesi gap
 New1 MGIL-KRABBE-2017-EA08-P10-14 (Krabbe2017原始描述,实际读pp10–14,Fig6–7,无幼羽依据)。Reused4 MAYS-MIKKOLA-2013-P139/MAYS-MNHN-VOISIN-2011-P15-16/MAYS-OISEAUX-BAUER-2008-ADULT/MAYS-MARSHALL-1978-P19：前3实际重读，Marshall本次跳转未新读。设计推断更正1：immature不确认older或羽色。[完整元数据、URL/页码、适用阶段、限制、设计和提示](species/179-otus-mayottensis-v5.md)；[图](../design/concepts/179-otus-mayottensis-v5.png)/[复查](reviews/179-otus-mayottensis-v5-review.md)。访问2026-11-24，sciencefalse。
+
+
+## 20261124T0030Z cycle2 #175v5
+SSO-PEREGRINEFUND-SPECIES-2026新增1；SSO-MIKKOLA-2013-P134/SSO-VIRANI-2008-P6-9复用2（后者补稳定ID,文献v4已引用,不重计新文）。本次原PDF6–9和book134/PDF136实际读。成年腹纹应黑尖淡斑/蠕纹，冠纵纹不一概删；幼羽/虹膜/巢/精确年龄仍未知。[元数据/URL/事实边界/完整提示](species/175-otus-ireneae-v5.md)/[图](../design/concepts/175-otus-ireneae-v5.png)/[复查](reviews/175-otus-ireneae-v5-review.md)。科学false。

@@ -6238,3 +6238,7 @@ New1 GSJO-OWLPAGES-2020: DeaneLewis2020-10-31, Sjostedt'sBarredOwlet, https://ww
 
 ## 20261124T0332Z cycle1 — 208-ninox-affinis-v3
 Reused3actualsources NAFF-MIKKOLA-2013-P470/PDF472, NAFF-OISEAUX-2015 Identification/Reproduction, NAFF-OWLPAGES-2021 Description/Breeding/Habitat, URLs/fullmetadata in speciesrecord. Access2026-11-24. No independentdevelopmentproof. Newusefulgaprecords5 TAUR-MIKKOLA-2013-P100,TSOR-MIKKOLA-2013-P106,GCAN-MIKKOLA-2013-P415,TAUR-OWLPAGES-2022,GCAN-OWLPAGES-2020 in [gaprecord](runs/20261124T0332Z-gaps.md); samebook not3newdocuments. GCAN-FISHPOOL-2023-LEAD unverifiedbody, notcountedverifiedpaper. [Research](species/208-ninox-affinis-v3.md),[review](reviews/208-ninox-affinis-v3-review.md),[image](../design/concepts/208-ninox-affinis-v3.png).
+
+
+## 20261124T0332Z cycle2 — 210-athene-superciliaris-v2
+New0/reused2actualsources ASUP-MIKKOLA-2013-P471 printed471/PDF473 and ASUP-BOUGLOUAN-WEB NicoleBouglouan undated https://www.oiseaux-birds.com/card-white-browed-hawk-owl.html Description/Reproduction/line110. Access2026-11-24. Adultcentralbellycreamywhite decision; bookyoungundescribed vssecondaryolderjuvenile retained aslimitedstage. No primarydevelopmentseries/newsexratio. Bensonoldprimarycitationonly excludedactualreadcount. [Research](species/210-athene-superciliaris-v2.md),[review](reviews/210-athene-superciliaris-v2-review.md),[image](../design/concepts/210-athene-superciliaris-v2.png).

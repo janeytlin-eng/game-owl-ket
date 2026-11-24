@@ -6206,3 +6206,7 @@ Reused RAJ-GOODDIE-2015-P70-81, account actually onprinted74/PDF5 (adult/nest, n
 
 ## 2026-11-24 — #197 v4 juvenile ventral contrast
 Reused3sources: uploadedMikkola2013p170/PDF172 actuallyread (whitishbufflowerbelly/thighs andwhitishobscure-barredtarsi); LLSO-MIRANDA-2011-P446-450 primaryfulltextTable2/plumageread (adultonly, authoruploadheader2025notpublicationyear); LLSO-OWL-PAGES-2012-JUV captionread, no freshpixelclaim. [Research](species/197-otus-megalotis-v4.md),[image](../design/concepts/197-otus-megalotis-v4.png),[review](reviews/197-otus-megalotis-v4-review.md). Targetyounglowerbellycolourcontrast, no added chronology/adultsexratio. No new IDs; stage/unknowns remainexplicit.
+
+
+## 2026-11-24 — #201 v4 actual upload and cross-population boundary
+Reuse MANT-MIKKOLA-2013-P199-200-MIRROR oldID; actualuploadedprinted199–200/PDF201–202 nowread, legacyIDnotrenamed. Adultnarrowbaretarsalzoneabove toes; juvenileunknown. Reuse MANT-PHOTOARK-ROMBLONIS-JUVENILE-2025 caption/keywords of BIR070-00063 https://www.joelsartore.com/bir070-00063/ actuallyread; photopixels403, nofreshvisualevidence; ©2025notverifiedshootdate. [Research](species/201-otus-mantananensis-v4.md),[image](../design/concepts/201-otus-mantananensis-v4.png),[review](reviews/201-otus-mantananensis-v4-review.md). Adultnominate/youngromblonisboundarymustbevisibleinimage; juvenileplumagePRIORITY_UNRESOLVED. No guessedredraw. SORAom025redirectnotread/notcounted. New0; reused2.

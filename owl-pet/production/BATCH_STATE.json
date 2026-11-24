@@ -53039,7 +53039,12 @@
       "started_at": "2026-11-24T13:31:38.778Z"
     }
   ],
-  "lease": null,
+  "lease": {
+    "owner": "codex-owl-production",
+    "run_id": "20261124T1332Z-cycle3",
+    "heartbeat_at": "2026-11-24T13:39:07.710Z",
+    "expires_at": "2026-11-24T13:54:07.710Z"
+  },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -60585,8 +60590,8 @@
     }
   ],
   "active_batch_id": "20261124T1332Z",
-  "active_cycle": null,
-  "current_stage": "VERIFIED",
+  "active_cycle": 3,
+  "current_stage": "STARTED",
   "next_cycle": 3,
   "unique_species_count": 206,
   "total_species": 251,
@@ -82857,7 +82862,7 @@
   "unique_species": 206,
   "last_verified_species_id": 232,
   "last_verified_species": "Ninox ochracea",
-  "active_species": "235-otus-pamelae-v2",
+  "active_species": "234-otus-sulaensis-v3",
   "last_completed_cycle": 6,
   "last_verified": "2026-11-13T05:41:40.899+08:00",
   "unique_species_count_recomputed": 206,

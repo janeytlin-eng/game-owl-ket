@@ -6,7 +6,7 @@
   "species": "Bubo cinerascens",
   "action": "ANNOTATION_REVISION",
   "started_at": "2026-11-24T20:33:40.273Z",
-  "stage": "IMAGE_GENERATED",
+  "stage": "REVIEWED",
   "status": "STARTED",
   "scientifically_verified": false,
   "stages": [
@@ -27,6 +27,12 @@
         1024
       ],
       "edit_wait_seconds": 42.7
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-24T20:36:19.710Z",
+      "result": "PASS_WITH_LIMITATIONS",
+      "scientifically_verified": false
     }
   ],
   "errors": []

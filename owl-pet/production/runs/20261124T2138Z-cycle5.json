@@ -4,12 +4,14 @@
   "id": "16-strix-occidentalis-v5",
   "species": "Strix occidentalis caurina",
   "action": "MORPHOLOGY_REVISION",
-  "result": "IMAGE_GENERATED",
+  "result": "ARCHIVED",
   "started_at": "2026-11-24T21:54:41.580Z",
   "stages": {
     "STARTED": "2026-11-24T21:54:41.580Z",
     "RESEARCH_READY": "2026-11-24T21:55:59.153Z",
-    "IMAGE_GENERATED": "2026-11-24T21:58:16.101Z"
+    "IMAGE_GENERATED": "2026-11-24T21:58:16.101Z",
+    "REVIEWED": "2026-11-24T21:58:54.088Z",
+    "ARCHIVED": "2026-11-24T21:58:54.088Z"
   },
   "sources_new": [
     "NSO-GANEY-ETAL-2020-THERMAL"
@@ -32,11 +34,24 @@
     ],
     "gitblob": "37d830900f3d49e1216193281ffbea8d908173fe",
     "path": "owl-pet/production/generated/16-strix-occidentalis-v5.png",
-    "local": "/workspace/scratch/180c531d917a/owl-2138/16-strix-occidentalis-v5.png"
+    "local": "/workspace/scratch/180c531d917a/owl-2138/16-strix-occidentalis-v5.png",
+    "concept_path": "owl-pet/design/concepts/16-strix-occidentalis-v5.png"
   },
   "timings": {
     "generation_start": "2026-11-24T21:56:19.878Z",
     "generation_wait_ms": 92677,
     "edit_count": 1
-  }
+  },
+  "review": {
+    "result": "PASS_WITH_LIMITATIONS",
+    "actual_views": [
+      "generated full1536x1024",
+      "enlarged1440x240 adulttoe crop"
+    ],
+    "findings": "A few thin pale bristles are now readable over distal grey-brown scaly adult toe tops; distal skin not replaced by heavy feathers. Proximal cover/claws/grips preserved. Entire laterpostfledge juvenile retained with formedwing, pinkcere/greenbluebill, darkiris/palehighlight and supported sidestep. Adultcolour/size/heads/white spotting and forest unchanged.",
+    "lesson": "Primary broad all-subspecies toe-cover statement must not erase guide's distal bristled zone; preserve gradient. Adultbill recolour was rejected due unresolved sources. Density visibility revision only.",
+    "limits": "Density unmeasured, adultbill sourceconflict, young age/iris/flight/subspecies variation remain;sciencefalse.",
+    "edits": 1
+  },
+  "scientifically_verified": false
 }

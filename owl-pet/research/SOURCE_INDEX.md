@@ -6665,3 +6665,7 @@ New0/reused3 TSYL-KWAN-2025-KERINCI-JUV originalDay6bodycaptionread andactual150
 
 ## 20261124T1432Z cycle1 — SBUT-ROBB-2016-REDISCOVERY reuse
 Fresh publisher original Morphology/Oman and Iran/Bare parts read 2026-11-24. Adult toe dorsal feathering omitted by v2; apply only adult, no juvenile extrapolation. New0/reused1/corrected design1. [Metadata, scope and full prompt](species/223-strix-butleri-v3.md) · [review](reviews/223-strix-butleri-v3-review.md) · [image](../design/concepts/223-strix-butleri-v3.png).
+
+
+## 20261124T1432Z cycle2 229-athene-malaitae-v3
+New0/reused2 AMAL-MIKKOLA-2013-P483 freshly read uploadedprinted483/PDF485, AMAL-CALLAGHAN-2019-P1130 freshly online read original p1130. Adult throat mark only; no developmental extrapolation. [Metadata/prompt](species/229-athene-malaitae-v3.md) · [review](reviews/229-athene-malaitae-v3-review.md).

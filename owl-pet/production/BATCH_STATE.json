@@ -52221,7 +52221,24 @@
       ],
       "next_cycle": null,
       "started_at": "2026-11-24T05:31:36.431Z",
-      "completed_at": "2026-11-24T06:06:42.060Z"
+      "completed_at": "2026-11-24T06:06:42.060Z",
+      "summary_record": "owl-pet/production/batches/20261124T0532Z-completed-review.md",
+      "postflight": {
+        "at": "2026-11-24T06:11:17.465Z",
+        "unique_species": 206,
+        "total_scope": 251,
+        "numbered_image_versions": 980,
+        "design_manifest_entries": 934,
+        "new_species": 1,
+        "revisions": 5,
+        "new_source_entries": 5,
+        "reused_source_id_references": 16,
+        "binary_snapshot": "a38cd9c2cd94fefb3879479fc27c5de332e6de1b",
+        "binary_streams_verified": 7,
+        "latest_resume_cycles": 1,
+        "prior_cycles": 5,
+        "scientifically_verified": false
+      }
     }
   ],
   "lease": null,
@@ -52358,7 +52375,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-24T06:06:42.060Z",
+  "updated_at": "2026-11-24T06:11:17.465Z",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -59770,7 +59787,7 @@
   "active_cycle": 1,
   "current_stage": "COMPLETE",
   "next_cycle": null,
-  "unique_species_count": 205,
+  "unique_species_count": 206,
   "total_species": 251,
   "stage_events": [
     {
@@ -82036,13 +82053,13 @@
       }
     }
   ],
-  "unique_species": 205,
+  "unique_species": 206,
   "last_verified_species_id": 232,
   "last_verified_species": "Ninox ochracea",
   "active_species": null,
   "last_completed_cycle": 6,
   "last_verified": "2026-11-13T05:41:40.899+08:00",
-  "unique_species_count_recomputed": 203,
-  "unique_species_count_recomputed_basis": "Immutable main a6f2da657e2046b3b5d87bbf0f07d051df120166:915 versioned concept PNG/JPG paths;204 raw name keys; first-two-name grouping plus Pseudoscops grammicus→Asio grammicus gives201. Existing G.brasilianum cactorum/T.javanica delicatula merged with parent species by repository mapping. Fixed251 authority roster reconciliation pending.",
-  "next_action": "Next scheduledproduction invocation: newbatchcycle1, missing-species young research or actual unresolved201/206; batch20261124T0432Zcomplete6/6; no activelease."
+  "unique_species_count_recomputed": 206,
+  "unique_species_count_recomputed_basis": "Fresh immutablemain a38cd9c2cd94fefb3879479fc27c5de332e6de1b nontruncated5746tree;980 numberedPNG/JPG paths→209rawslugs, repositoryaliases(cactorum→brasilianum,delicatula→javanica,Pseudoscopsgrammicus→Asiogrammicus)→206. Existing251contract, full2026taxonomic reconciliationpending.",
+  "next_action": "Next new production batch cycle1/6; first freshmain ledger and current251 authority crosswalk/priorityyoung gaps; current0532Zclosed6/6 across trigger boundary."
 }

@@ -229,3 +229,12 @@ PASS_WITH_LIMITATIONS. Actualfulloutput andnativeyoungcrop viewedagainstactualKa
 
 ## 20261124T0432Z six-cycle postflight
 Actual219barelowerleg/221whitethroat/225broadbillbase/228faintventrum/229barredearcoverts/223photoheadmarks eachviewed, boundedapplicationonly. Mainfailurecycle6metadataenteredbeforelocalhashoutputinspection: must parseactualbytes/hash first, assertnonzero/hash64hex and reuse structuredvalues; do not handtype placeholders. No erroneousmetadataeligibleforcredit. Freshmanifestmerge928retainsall6IDs. C1verifierfilenamecheckfixedtoheadercheck. Actualleasevalidthroughallcycles but heartbeatnotrenewedaroundeachlongtool; nextbatchmustactualrenewbefore/after, no retroactivefake. See [complete evidence](batches/20261124T0432Z-completed-review.md). Missingyoungnotinvented and230unfoundedfootrevisioncancelled; don'tturnminorrefinementsinto6newspecies.
+
+
+## 20261124T0532Z 已实际应用的后续检查规则
+- 上传：单次工具输出可能静默截断；先分块≤500000base64字符，验4ceil(bytes/3)总长并把create_blob SHA与本地Git对象SHA比对，再更新tree。仍必须immutableGET长度/SHA256/PIL，不能把create_blob成功当图完好。237发现、220/172/234/232/226已实际应用，六张批次回读通过；不是未经验证提效口号。
+- 来源：搜索结果邻接段落不能跨物种搬年龄。226Kakum所谓“幼鸟高哨音”实际属Fraser鹰鸮，已拒绝并保存原文定位。237单只subadult记录与species-only图题关联只算推断，不升级成年龄实证。
+- 解剖：喙/cere/下颌分区且分年龄（234）；腿爪先放大，已有正确不重复修（226）。书中雌雄体重差不等于站高比（237/172）。
+- 姿态：232调用图鉴明确成年鸣叫/白喉可见，是行为设计变体，不反称旧安静姿态错误。226三季度后侧静息只为显示背横斑/素腹，姿态为设计推断；初稿硬长翼局部编辑后软化，验证局部应用而非发育序列。
+- 名录：明确authority+year，保留旧名/ID、从原始更正映射，不能把已并入的名录分量新增计物种，也不能未经全清单核对就改251合同总数。220/172实际应用，其他受影响组图待后续核对，不声称全库完成。
+[六组实际检查/独立提交/原图](batches/20261124T0532Z-completed-review.md)。各物种具体unknown保持，科学通过0。

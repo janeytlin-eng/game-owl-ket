@@ -6359,3 +6359,7 @@ NEW **OICT-DOWSETT-2011-KAKUM-P4** FrançoiseDowsett-Lemaire & RobertJ.Dowsett20
 Actualv1full andfeet crop viewed: lightclawshafts/greytips alreadycorrect, contemplatedfootfixREJECTED. V1youngfrontal hides mostback; improvevisibilitywithquietback-threequarterrest showingbarredbackandlimitedplainbellyedge, eyesclosed, bothfeet/bellysupported onbroadfork. Staticdesignedorientation, not observed species-specificturning/fledging. Existingolderstageboundary retained, no newnataldown/preciseage/flight/nest. Add visible youngbareparts/age/flightunknown annotation; don'tclaimadultbillcolourvalidatedforyoung. New1/reused3/correction1=diagnosticvisibility/uncertainty labelling, not proofv1posewrong. Scientificfalse.
 [Previousfullsources](226-otus-icterorhynchus-v1.md). PreserveoldPNGandallconfirmations.
 [Prompt](prompts/226-otus-icterorhynchus-v2.txt) · [Review](reviews/226-otus-icterorhynchus-v2-review.md)
+
+
+## 20261124T0532Z批次收尾与纠错映射
+本批新5条文献/网页定位、复用16次来源ID引用，书的多页/同文献跨轮不加新增数。新增ID及各物种阶段/原图/提交见[集中入口](../production/batches/20261124T0532Z-completed-review.md)。Debus1993幼鸟离洞应印刷185/PDF18，旧ID含187保留但已纠正；226Kakum幼鸟高哨音属邻种Fraser鹰鸮，不是O.icterorhynchus。完整sixcycle事实/推断/未解决项逐轮记录，科学false，不能把6个阶段当6轮。最新接续只完成第6轮，前五已验证，不重计。

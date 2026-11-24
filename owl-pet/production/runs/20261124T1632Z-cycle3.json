@@ -8,7 +8,8 @@
   "result": "STARTED",
   "stages": {
     "STARTED": "2026-11-24T17:38:19.747Z",
-    "RESEARCH_READY": "2026-11-24T17:39:22.504Z"
+    "RESEARCH_READY": "2026-11-24T17:39:22.504Z",
+    "IMAGE_GENERATED": "2026-11-24T17:41:06.491Z"
   },
   "heartbeats": [
     {
@@ -52,5 +53,15 @@
       "limits": "Not morphology/development evidence."
     }
   ],
-  "prompt": "Use case text-localization / annotation-only. Existing #214 Andaman Scops Owl v2 trio. Preserve allthreebirds every anatomy/plumage/eye/bill/wing/foot/pose/branch/forest and rolelabels. Add small readable slim note under scientific name 'SEX SIZE UNKNOWN'. Replace juvenile small 'IRIS UNVERIFIED' with 'AGE / IRIS / BILL / FLIGHT UNVERIFIED', two lines if necessary within role-label box. Keep AGE-UNKNOWN MESOPTILE and scientificpendingfooter readable. No phenotype changes, no new scale/age/nest claim, same1536x1024 existing style."
+  "prompt": "Use case text-localization / annotation-only. Existing #214 Andaman Scops Owl v2 trio. Preserve allthreebirds every anatomy/plumage/eye/bill/wing/foot/pose/branch/forest and rolelabels. Add small readable slim note under scientific name 'SEX SIZE UNKNOWN'. Replace juvenile small 'IRIS UNVERIFIED' with 'AGE / IRIS / BILL / FLIGHT UNVERIFIED', two lines if necessary within role-label box. Keep AGE-UNKNOWN MESOPTILE and scientificpendingfooter readable. No phenotype changes, no new scale/age/nest claim, same1536x1024 existing style.",
+  "meta": {
+    "bytes": 2732816,
+    "sha256": "1096779d34ca650cf634740d40bf1fd01d8cb0032990b070a9253d936014b694",
+    "size": [
+      1536,
+      1024
+    ],
+    "gitblob": "46aaf3ca142bbb9ddfed055647777cfff50cb282"
+  },
+  "imagegen_wait_ms": 40143
 }

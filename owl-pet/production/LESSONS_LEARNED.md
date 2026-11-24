@@ -68,3 +68,16 @@ undefined
 - **Rule derived:** when direct evidence says incomplete flight feathers, require a compact wing mostly buried in down with only short developing feather tips; forbid a long layered remex fan even if the face and ear tufts look developed.
 - **Applied:** one localized edit to #188 v3; adults, text, forest and support were locked.
 - **Verified effect:** the reopened full plate and juvenile crop show a shorter soft wing, down-dominant contour and complete branch support. Verified for #188 v3 only; earlier recent-fledgling plates need source-specific recheck.
+
+
+## 2026-11-24 — 0112Z六轮实证增量与优先队列
+
+- **成鸟腹纹不是通用长黑纵纹模板。** #184台湾机构/图鉴148与#190NParks分别支持细横纹/小斑、淡短纵纹；两图实际imagegen修订并放大复查已应用。它们的目标纹理不同；#195仍保留其图鉴168支持的较粗不规则暗纹，不全库自动淡化。两例有局部修正证据，不代表全物种规则已验证。
+- **虹膜按种/地域/阶段核对。** #188本州直接论文p76橙眼，定向修正后已放大复查；#184台湾黄眼保留；两种均未把成年虹膜套给幼鸟。不能从一次配色修订推断全局科学准确。
+- **已观察飞行与首飞日龄是两件事。** #190 Lok2009行为段是p38/PDF8，明确一幼鸟飞到亲鸟枝上；旧p37/仅移动说法已在新记录纠正。已有完整飞羽的较大幼鸟不可因'young'标签被强制改成无羽绒球。此图保留支持充分的站枝/乞食，未新画飞行动作。
+- **幼鸟羽色必须分区。** #197图鉴170明确下腹/腿羽比头胸浅，实际改图并放大复查；回看#195图鉴168为另一种红褐中间羽期，不自动套浅腹模板。#197具体羽序/虹膜仍未知。
+- **跨亚种参考要直接可见；未知不因归档消失。** #201原v3藏在文档中的nominate成人/romblonis幼鸟参考现在写进原图；成年窄裸跗蹠带依图鉴199修正并看图。幼鸟羽被仍PRIORITY_UNRESOLVED，PhotoArk原始caption可读但图片403，当前不得据此科学通过。下一生产优先查可实际看清并定位年龄/地域的幼鸟实物资料；如无证据，保留未知并处理其它资料明确项目。
+- #195本轮仅改年龄未知中间羽期/校准标识，明确不是形态发现。#201版权页2025不作拍摄年份。原始文献页码/引文不足以补出幼鸟的腿/翅/巢结构。
+- 缺失种Palawan O.fuliginosus：原始Sharpe1888p197诊断OCR实际读到，未写年龄；类型为幼鸟的搜索说法未核验。保持研究待办，[缺口记录](../research/species/otus-fuliginosus-20261124-evidence-gap.md)，不计物种完成。
+- **归档运行恢复已实际应用。** 第6轮functions临时store丢失，保留在磁盘的同一PNG通过分块读取恢复，检查截断/完整长度后上传；不可把重建临时变量算作重画/新图。远端不可变提交原图解码+SHA256验证通过，未取得平台超时遥测。原图checkpoint/最终版均在GitHub，不把scratch当持久保存。
+- 复查和局限逐物种见[本批六轮入口](batches/20261124T0112Z-completed-review.md)。这不是全251种整批最终科学审查。

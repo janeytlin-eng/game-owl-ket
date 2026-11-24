@@ -3,7 +3,7 @@
   "cycle": 1,
   "status": "STARTED",
   "started_at": "2026-11-24T23:34:26.496Z",
-  "stage": "IMAGE_GENERATED",
+  "stage": "ARCHIVED",
   "scope": 251,
   "baseline_unique_species": 206,
   "recovery": "Remote #25 versions already exist; no need to remake. fd9d70d not independently recovered. Prior COMPLETE batches not recounted.",
@@ -47,11 +47,36 @@
     {
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-24T23:37:56.638Z"
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-24T23:38:32.349Z"
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-24T23:38:32.349Z"
     }
   ],
   "image_generated_at": "2026-11-24T23:37:56.638Z",
   "imagegen_wait_ms": 40464,
   "imagegen_calls": 1,
   "image_blob": "9a38d35385ef9a1c0835080200b1e3a797ce4274",
-  "generated_image_path": "owl-pet/production/generated/24-glaucidium-californicum-v5.png"
+  "generated_image_path": "owl-pet/production/generated/24-glaucidium-californicum-v5.png",
+  "reviewed_at": "2026-11-24T23:38:32.349Z",
+  "review": {
+    "result": "PASS_WITH_LIMITATIONS",
+    "scientifically_verified": false,
+    "actual_views": [
+      "full 1536x1024 original returned by imagegen",
+      "870x570 enlarged juvenile crown crop"
+    ],
+    "checks": {
+      "identity": "round tuftless adults; yellow eyes/bills, streaked lowerparts, nape false eyes retained",
+      "sex": "adult scale unchanged; no categorical size rule",
+      "juvenile": "discrete crown pinspots removed; pale shafts/highlights remain as texture; no exact age inferred; folded soft wing/short tail retained",
+      "support": "all six feet remain on branches; no airborne young",
+      "habitat": "conifer/aspen setting retained; background cavity not shown occupied",
+      "limitations": "no continuous molt/day-age or first-flight proof; sciencefalse"
+    }
+  }
 }

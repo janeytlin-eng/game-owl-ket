@@ -1,3 +1,6 @@
+## 2026-11-24T23:38:32.349Z #24v5 ARCHIVED; byte verification pending
+Local crown correction actually viewed. Unique206/251 unchanged, sciencefalse. Batch20261124T2333Z cycle1 not credited until verification.
+
 ## 2026-11-25 恢复1轮，原批次累计6/6
 本次仅#19v6须状羽渲染修订，2次imagegen编辑/整图与脸部crop实际复查/原图GET哈希解码通过。跨触发补齐（前次5+本次1），非本次六轮成功。去重206/251不变，尚45；原批次六版本概念PASS_WITH_LIMITATIONS/sciencefalse。新增来源本次2/批次7，共享图鉴去重1本；其他未完批次0，下一新批次1/6，lease释放。[六张按编号原图、研究、审查、真实提交](production/batches/20261124T2138Z-completed-review.md)。全任务未完成。
 

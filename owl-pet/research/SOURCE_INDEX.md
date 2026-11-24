@@ -6856,3 +6856,7 @@ Six-cycle reused9references/6documents, new1 CRPO-CNSA-HSI-GUIDE-2026 taxonomy-o
 Actual uploaded guide printed372/PDF374 reread2026-11-25; juvenile unspotted crown, adults spotted. Same book reused, not a new independent source. Also printed366/PDF368 read for future Pearl-spotted audit, no cycle credit.
 ### Deferred Otus sagittatus reread
 BirdLifeInternational2001 Threatened birds of Asia, pp1742/1745, https://birdlifedata.blob.core.windows.net/red-data-books/otussagi.pdf ; actually read again; fledged family/roost records do not establish juvenile appearance. Existing source reused, not new source or new group.
+
+
+### NPO-SCCP-FACTSHEET bibliographic correction2026-11-25
+PDF final footer actually read: content updated January2016; prepared Pamela Zevit (Adamah Consultants) forSCCP with Interfor/CapFor/BC Ministry of Environment. Supersedes initial undated description. Regional juvenile statement remains limited to swarthi; no new source count.

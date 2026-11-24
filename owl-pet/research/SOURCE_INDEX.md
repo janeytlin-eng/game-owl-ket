@@ -6818,3 +6818,7 @@ Six-cycle reused9references/6documents, new1 CRPO-CNSA-HSI-GUIDE-2026 taxonomy-o
 
 ## 20261124T2138Z cycle1: Athene noctua #04v6
 **LIO-BLASCO-HEINZE-07570** — new stable source; Blasco-Zumeta & Heinze, undated, LittleOwl07570 photographic/ringingguide. OriginalURL https://www.blascozumeta.com/specie_files/07570_ENG_Athene_noctua_aranzadi.pdf actualPDFp1–3 text/captions read2026-11-25Beijing; adult/juvenile Europe. Sexes plumage alike,size overlap; fresh juvenile flight feathers not nataldown. No day-calibration or height ratio. Reused **LIO-MIKKOLA-2013-P427**, actualprinted427–428/PDF429–430 read, low-belly relative lackofmarks supports targeted adult correction. Full facts/limits and prompt [#04v6](species/04-athene-noctua-v6.md); original/review links pending. New1/reused1. Scientificstatusfalse.
+
+
+## 20261124T2138Z cycle2 #06 Asio otus
+**LEO-TARVIN-1994-P110** NEW — KeithA.Tarvin1994, Long-earedOwlobservedinHighlandsCountyFlorida, FlaFieldNat22(4):110–111. Original https://www.oberlin.edu/sites/default/files/content/biography/faculty_docs/Keith_Tarvin/long-earedowlobservedinhighlandscounty2cflorida.pdf actualbothpagesread2026-11-25Beijing; primaryfieldrecord adult-likeageunassignedNorthAmerica. P110fullyfeatheredbufftarsi/toes; no densitymeasurement/sex/young. Coveragecorroborationonly,noiriscolourtransfer. ReusedLEO-MIKKOLA-2013-P504 uploadedprinted504/PDF506 actualread. Facts/inference/limits/prompt [#06v5](species/06-asio-otus-v5.md). New1/reused1;sciencefalse.

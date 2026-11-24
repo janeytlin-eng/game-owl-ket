@@ -1,9 +1,9 @@
 {
   "batch_id": "20261124T2333Z",
   "cycle": 1,
-  "status": "STARTED",
+  "status": "VERIFIED",
   "started_at": "2026-11-24T23:34:26.496Z",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "scope": 251,
   "baseline_unique_species": 206,
   "recovery": "Remote #25 versions already exist; no need to remake. fd9d70d not independently recovered. Prior COMPLETE batches not recounted.",
@@ -55,6 +55,11 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-24T23:38:32.349Z"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-24T23:39:04.047Z",
+      "evidence": "immutable raw GET bytes SHA256 PIL decode PASS; manifest one exact entry"
     }
   ],
   "image_generated_at": "2026-11-24T23:37:56.638Z",
@@ -78,5 +83,7 @@
       "habitat": "conifer/aspen setting retained; background cavity not shown occupied",
       "limitations": "no continuous molt/day-age or first-flight proof; sciencefalse"
     }
-  }
+  },
+  "archive_commit": "0bc57511eb704b52e452d9492c2cdeb6e17c6486",
+  "completed_at": "2026-11-24T23:39:04.047Z"
 }

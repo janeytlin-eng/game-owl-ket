@@ -6606,3 +6606,8 @@ New0/reused3 stableIDsLLSO-OWL-PAGES-2012-JUV (BramDemeulemeesterApril2012MountD
 
 ## 20261124T1204Z cycle1 #197v6
 New0/reused3 stableIDs LLSO-OWL-PAGES-2012-JUV (actual photo re-viewed), LLSO-MIRANDA-2011-P446-450 (museum original adult-only reread), LLSO-MIKKOLA-2013-P170 (uploaded printed170/PDF172 reread). Qualitative wing endpoint versus toes/branch, no measured length/age/flight. [Facts/URLs/metadata/limits/prompt](species/197-otus-megalotis-v6.md), [image](../design/concepts/197-otus-megalotis-v6.png), [review](reviews/197-otus-megalotis-v6-review.md). Correction1 design boundary, sciencefalse; no duplicate publications.
+
+
+## 20261124T1204Z cycle2 188-otus-semitorques-v5
+New0/reused2: JPSO-NOHARA-HONDA-2025-P75-78 original p76/Fig2–3 actually reread/viewed, MIKKOLA-2013 Japanese account printed158/PDF160 actually reread. Adult small pale scapular areas/no distinct stripe; upper wing remains barred. Young down and incomplete remiges retained, source iris unresolved. Corrected1 design feature; no new juvenile fact.
+[Full metadata/actual facts/URLs/pages/limits/prompt](species/188-otus-semitorques-v5.md), [image](../design/concepts/188-otus-semitorques-v5.png), [actual review](reviews/188-otus-semitorques-v5-review.md). No science pass or duplicate publication credit.

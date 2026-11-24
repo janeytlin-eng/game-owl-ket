@@ -3,8 +3,8 @@
   "cycle": 6,
   "run_id": "20261124T1944Z-cycle6",
   "started_at": "2026-11-24T19:59:47.477Z",
-  "status": "STARTED",
-  "stage": "ARCHIVED",
+  "status": "VERIFIED",
+  "stage": "VERIFIED",
   "id": "165-ninox-punctulata-v6",
   "species": "Ninox punctulata",
   "action": "REVISION",
@@ -46,6 +46,18 @@
       "at": "2026-11-24T20:03:25.818Z",
       "blob": "a8f3307ab4db878194656ec5912b754b96b2ea16",
       "path": "owl-pet/design/concepts/165-ninox-punctulata-v6.png"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-24T20:03:46.998Z",
+      "pinned_original": "https://raw.githubusercontent.com/janeytlin-eng/game-owl-ket/dba5948aa7e6b6a7b5cd73ab7675ca497f5601fa/owl-pet/design/concepts/165-ninox-punctulata-v6.png",
+      "bytes": 2862244,
+      "sha256": "08aa3942bfbd3cadf173939ed251101bfbfca2b3c56365c9ef04e4c551161a06",
+      "size": [
+        1536,
+        1024
+      ],
+      "decoded": true
     }
   ],
   "errors": [],
@@ -55,5 +67,7 @@
       "type": "scope_interrupt_and_resume",
       "detail": "Image request issued before temporary read-only instruction. During read-only interval no GitHub writes; returned file inspected as evidence only. Latest production instruction authorized resumption; reused same original without new generation. Individual image wait duration unknown after yielded tool, no fixed timeout telemetry."
     }
-  ]
+  ],
+  "completed_at": "2026-11-24T20:03:46.998Z",
+  "archive_commit": "dba5948aa7e6b6a7b5cd73ab7675ca497f5601fa"
 }

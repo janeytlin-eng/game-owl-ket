@@ -13,3 +13,9 @@ Precise local edit of #195 Rajah Scops Owl Otus brookii solokensis v4. Preserve 
 ```
 ## 实际错误与恢复
 Cycle6STARTCASwrite succeeded4512b232765d71ce0672599da32892a9db37bdd8 but immediateheadreadbacktemporarily returnedoldhead. Freshmainshowedownstartcommit/parent82bd122/ownlease/run, resumedsamecycle withoutduplicatestart/regeneration/credit. Not toolpermissionfailure/concurrentotherowner/platformtimeout.
+
+## 实际首稿问题及第二次完整提示
+Initialfullimageactuallyviewed aftergeneration: lowerfrontonlyslightlypaler, orange-rufousgroundstilldominant; targetwhitish-rufouscontrastnotclear. InitialwholePNG preserved production/generated/195-otus-brookii-v5-initial.png {"bytes":2652017,"sha256":"0ee1f33de487c10369a10b1aaaac75eef2950cf30d2d19c7a62a949d93e2304e","gitblob":"38d5a128b8194f10dd4167f7849c388447b47863","size":[1536,1024]}. Correctiveedit request strongerpalelowergroundbutkeeprufouswash/fineflecks,notnewbornwhitechick. Exactcolourunmeasuredcontinuesunknown.
+```text
+Second precise corrective edit #195v5 initial. The first edit still leaves the centre young lower belly almost as orange-rufous as the throat; target was not clearly achieved. Change ONLY the centre mesoptile bird's lower chest and belly below throat: make the feather BASE ground visibly PALE CREAM / WHITISH-BUFF, with a subdued light rufous wash and scattered small darker reddish-brown freckles plus a few very fine short dark crossbars/streaks. The pale ground must clearly dominate the lower belly while the head, neck and upper chest remain warm rufous-brown. Keep the soft irregular mesoptile texture and some fine dark markings, never plain white natal down, no blank unmarked bib, no adult bold shaft rows. Preserve young head/eyes/bill/size/folded formed wings/short tail/feet and pose, both adults entirely, forest/cavity/branch, all titles/rolelabels/footer. Do not add age or flight claims. Full1536x1024.
+```

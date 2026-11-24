@@ -4,12 +4,14 @@
   "id": "11-aegolius-funereus-v5",
   "species": "Aegolius funereus",
   "action": "MORPHOLOGY_REVISION",
-  "result": "IMAGE_GENERATED",
+  "result": "ARCHIVED",
   "started_at": "2026-11-24T21:52:11.745Z",
   "stages": {
     "STARTED": "2026-11-24T21:52:11.745Z",
     "RESEARCH_READY": "2026-11-24T21:52:19.521Z",
-    "IMAGE_GENERATED": "2026-11-24T21:53:38.506Z"
+    "IMAGE_GENERATED": "2026-11-24T21:53:38.506Z",
+    "REVIEWED": "2026-11-24T21:53:58.790Z",
+    "ARCHIVED": "2026-11-24T21:53:58.790Z"
   },
   "sources_new": [
     "BOR-ORI-BOREAL-FACTS"
@@ -32,11 +34,24 @@
     ],
     "gitblob": "926a01e53999117ea804fec45a1b9798f4c65873",
     "path": "owl-pet/production/generated/11-aegolius-funereus-v5.png",
-    "local": "/workspace/scratch/180c531d917a/owl-2138/11-aegolius-funereus-v5.png"
+    "local": "/workspace/scratch/180c531d917a/owl-2138/11-aegolius-funereus-v5.png",
+    "concept_path": "owl-pet/design/concepts/11-aegolius-funereus-v5.png"
   },
   "timings": {
     "generation_start": "2026-11-24T21:52:35.908Z",
     "generation_wait_ms": 37708,
     "edit_count": 1
-  }
+  },
+  "review": {
+    "result": "PASS_WITH_LIMITATIONS",
+    "actual_views": [
+      "generated full1536x1024",
+      "enlarged1560x270 adulttoe crop"
+    ],
+    "findings": "Both adults now show cream short dense featherlets covering toe tops to dark claw bases, individual slender toes/grips and curved exposed claws retained. Entire low wall-supported transitional nestling, short emerging brown primaries, brows/iris, body-age estimate, all feet, adult proportion/heads/yellow eyes/bill and cavity chips preserved.",
+    "lesson": "Dorsal coverage must be separated from claw/underside anatomy and juvenile chronology; requests for distinct short featherlets worked at first edit for this output. Does not establish measured species feather density.",
+    "limits": "Quantitative density/young exact age/iris/flight and sexratio unknown; scientificfalse.",
+    "edits": 1
+  },
+  "scientifically_verified": false
 }

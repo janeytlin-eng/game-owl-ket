@@ -6791,3 +6791,6 @@ Reused SPBO-OCONNELL-ETAL-2022-P291-292 actualprimarybody/caption fromauthoruplo
 
 ## 2026-11-24T20:05:15.280Z · 20261124T1944Z completed source/review closure
 New independentpublications0, reusedIDreferences10/distinctdocuments7. ExistingNOCH-MADIKA-2011-P98 actualp98reread ruledoutunidentifiedwhite-spottedowlasyoungiosproof; othercandidatehit-onlyrecordsnotpromotedtoverifiedfacts. AdditionalsharedMIKKOLA2013printed454/462/468/483 pagereadscopesandtaxonomylimits, actualerrors/editedversions/commits [six-cycle review](../production/batches/20261124T1944Z-completed-review.md). #164comparatorageinterpretationcorrected; historiesretained. No scientificpass.
+
+## 2026-11-24T20:34:13.375Z 20261124T2040Z-cycle1
+Reused GREO-BARLOW-2022-FULL primarybody, new0/reused1; estimated age/firstflight limits explicit, no biologicalredraw. [Facts/limits/prompt](species/166-bubo-cinerascens-v6.md).

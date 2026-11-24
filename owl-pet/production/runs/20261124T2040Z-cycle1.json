@@ -6,9 +6,16 @@
   "species": "Bubo cinerascens",
   "action": "ANNOTATION_REVISION",
   "started_at": "2026-11-24T20:33:40.273Z",
-  "stage": "STARTED",
+  "stage": "RESEARCH_READY",
   "status": "STARTED",
   "scientifically_verified": false,
-  "stages": [],
+  "stages": [
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-24T20:34:13.375Z",
+      "prompt": "Use case: precise-object-edit. In this existing #166 Bubo cinerascens plate change ONLY text. Preserve exactly3 birds, dark brown eyes, grey pale-tipped adult bills and reddish eyelid rims, near-equal adults, fully feathered grey young with formed folded wings, six feet gripping natural roots, and Gambian open savanna. Preserve title and adult role labels. Replace young role with two lines 'FULLY FEATHERED YOUNG' / 'EST.35–43 DAYS · INDIVIDUAL AGE UNKNOWN'. Add small note 'FIRST FLIGHT NOT ESTABLISHED'. Add bottom slim dark unobtrusive footer with cream text 'CONCEPT · SCIENTIFIC CALIBRATION PENDING'. Do not cover feet/labels; no anatomy/posture/colour redesign, no nest or flight, no approval badge.",
+      "research": "owl-pet/research/species/166-bubo-cinerascens-v6.md"
+    }
+  ],
   "errors": []
 }

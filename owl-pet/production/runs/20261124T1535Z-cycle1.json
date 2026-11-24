@@ -5,10 +5,44 @@
   "result": "STARTED",
   "started_at": "2026-11-24T15:31:58.038Z",
   "stages": {
-    "STARTED": "2026-11-24T15:31:58.038Z"
+    "STARTED": "2026-11-24T15:31:58.038Z",
+    "RESEARCH_READY": "2026-11-24T15:32:51.552Z"
   },
   "notes": [
     "Fresh main48c2a6e1 no effective unfinished batch/lease. #25 already remotely archived, no repeated generation from unverified localfd9d70d.",
     "Prior #224 research explicitly identifies ML163283551 as juvenile AUDIO not photo; correct previous1532Z note wording in source index, no phantom photograph used."
+  ],
+  "species": "Megascops guatemalae",
+  "action": "REVISION",
+  "prompt": "Use case precise-object-edit. Target #203 Middle American Screech Owl Megascops guatemalae v2, nominate grey morph. Change ONLY BOTH ADULTS' LOWER CENTRAL BELLY transverse crossbars: fade/reduce the dense broad dark horizontal bars below midbelly into few fine faint interrupted bars, keeping pale cream-grey ground and existing narrow vertical dark shaft streaks. Preserve stronger upper breast vermiculations/crossbars and side marks. Do not make a pure white blank bib. Entire young mesoptile remains unchanged: faint indistinct down barring, compact down-dominated wings, dark eye/green bill unverified. Preserve adult yellow irises/greenish bill/cere/ear tufts and spottedruff, near-equal sizes, all six footgrips/mossybranch/forest/title/rolelabels/uncertaintyfooter1536x1024. No new age/sex-size/flight/nest claims.",
+  "issue": "Actual v2 full view: lower adult central bellies retain strong repeated horizontal crossbars; guide says fewer or no such bars on lower areas. Reduce bars only, retain shaft streaks.",
+  "sources": [
+    {
+      "id": "MGUA-MIKKOLA-2013-P245",
+      "author": "Heimo Mikkola",
+      "year": 2013,
+      "title": "Owls of the World second edition",
+      "url": "uploaded PDF",
+      "pages": "printed245/PDF247",
+      "stage": "adult grey morph/nominate",
+      "actual_read": "Fresh full uploaded page text; lower-area crossbars reduced/absent relative upperbreast; shaftstreaks persist.",
+      "limits": "Secondary guide, no individual exact pattern map or sex ratio."
+    },
+    {
+      "id": "MGUA-PEREZMARTINEZ-2021",
+      "author": "Christian Alessandro Perez-Martinez",
+      "year": 2021,
+      "date": "2021-08-17",
+      "url": "https://alephrocco.com/2021/08/17/vermiculated-screech-owl/",
+      "type": "primary observer field account",
+      "stage": "tentatively young vermiculatus Costa Rica",
+      "actual_read": "Fresh original body paragraphs2–5: observer tentative youth, yellowiris, different population. Not a nominate young phenotype source.",
+      "limits": "No images actually inspected, no cross-subspecies juvenile transfer."
+    }
+  ],
+  "unknowns": [
+    "young preciseage/iris/billdevelopment/firstflight",
+    "adult sex-size measurements",
+    "exact lowerbar density"
   ]
 }

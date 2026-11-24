@@ -6688,3 +6688,10 @@ New0/reused2 MSED-MIKKOLA-2013-P216 actualuploaded216/PDF218 adulttwobands, MSED
 
 ### 20261124T1432Z research corrections and leads
 Cycle2 also reused AMAL-ITIS-1244683 validname/aliases body. The Callaghan2019 search phrase white throat+black bars belongs Peregrine Falcon, excluded from owl. Cycle4/nextspecies exploration: ML163283551 search-only juvenile Maghreb owl, actual original access Anubis error9e4edb5b6b850c41, photo NOT viewed, not design evidence. SEO Ceuta2025 JoséNavarretePérez species account actual read https://www.seoceuta.es/wordpress/carabo-del-magreb-strix-mauritanica/ supports grey-brown adult/general habitat, broad no-age-difference assertion not a neonatal developmental authority; no new species produced. Capnodes search estimates unverified, no hatchling detail adopted. These leads are not counted new verified developmental sources.
+
+
+## 20261124T1535Z cycle1 203-megascops-guatemalae-v3
+New0/reused2 MGUA-MIKKOLA-2013-P245 uploaded245/PDF247 fulltext actually reread; MGUA-PEREZMARTINEZ-2021 primary field body reread only tentativeCostaRica vermiculatus young, no nominate phenotype transfer. Adult lowercrossbar contrast correction only. [Metadata/limits/prompt](species/203-megascops-guatemalae-v3.md) · [review](reviews/203-megascops-guatemalae-v3-review.md).
+
+### Correction: ML163283551 media type
+The existing #224 deferred research explicitly identifies PedroFernandes7Jun2019BledDataMorocco ML163283551 as juvenile CALL AUDIO7.57MB, not photograph. Prior1432Z note saying 'photo NOT viewed' is misleading: no photographic asset was established. https://macaulaylibrary.org/asset/163283551 remains an audio lead, no image/young plumage used. This correction is from actual existing repository record crosscheck, not a fresh successful media read or new source. Preserve prior note/history; supersede media-type interpretation here.

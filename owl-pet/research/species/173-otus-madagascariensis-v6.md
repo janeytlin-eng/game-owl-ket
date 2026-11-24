@@ -17,3 +17,6 @@ Macaulay626397501searchmetadata claimsadult+juvenile/eating1Jun2024EstebanRobles
 ```text
 Use case: precise-object-edit. Edit target #173 Torotoroka Scops Owl v5. The centre immature's bright yellow iris is not supported by any age-specific source. Preserve its exact low, forward-leaning, fully supported crouch, formed short down-veiled wing and partly visible narrow pointed tail/strongly barred uppertail coverts. Close BOTH eyes naturally in a relaxed brief blink, preserving the existing grey-brown brow/face anatomy and soft feather eyelid contours, no visible coloured iris and no eyelashes. This is an artistic moment, NOT a developmental claim. Keep both adults entirely unchanged: yellow adult irides with pinkish rims, black bills, subdued eyebrows, small tufts, long thin dark shaft streaks, white scapulars, shared morph and near-equal scale. Keep all 6 feet/grips/branch/belly support and dry Madagascar background, title and rolelabels/pending/immatureirisunresolvedfooter exactly as before. No new infant down, new feather stage, age, nest, egg, flight or extra birds. Full1536x1024, no crop.
 ```
+
+
+Access-count clarification: existing **TSO-ITIS-686657-2025** reused for the actual current report read; no duplicate newID. This cycle new2 candidate mappings/reused3IDs, correction1. Samebook new species mapping is not a newpublication.

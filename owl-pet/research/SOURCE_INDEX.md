@@ -6596,3 +6596,5 @@ New0/reused4 existingTMO-MIKKOLA-2013-P110,TMO-DEBUS-1993-P169-172-187,TMO-YOUNG
 
 ## 20261124T1137Z cycle5 #173v6 and uncredited missing-species search
 Reused2TSO-MIKKOLA-2013-P145(upload145/PDF147actualread)/TSO-RENE-THORSTROM-2009-P87-88(actualoriginal2pagesread). Youngirisnotprovided; closedeyeartisticpose, notdevelopmentproof. New2 candidate-mappings **CRPO-MIKKOLA-2013-P379** (Mikkola2013printed379/PDF381adultmorph,juvenileUNDESCRIBED) and **CRPO-ITIS-686691** (ITISvalidG.costaricanumL.Kelso1937,currentactualbodyread,nojuvenilefacts). Fullmetadata/URL/pages/limits/decision [research](species/173-otus-madagascariensis-v6.md); [image](../design/concepts/173-otus-madagascariensis-v6.png)/[review](reviews/173-otus-madagascariensis-v6-review.md). Macaulay626397501actualpageAccessDenied, searchmetadataonlyunverifiedlead,noyoungframesviewed/nogroup/newcount. No duplicatepublicationcount for samebook. Sciencefalse.
+
+Cycle5 access-count clarification: TSO-ITIS-686657-2025 currentreport reused, notnew; totalnew2mapping/reused3IDreferences/correction1.

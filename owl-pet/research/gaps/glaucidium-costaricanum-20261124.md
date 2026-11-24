@@ -1,0 +1,2 @@
+# Glaucidium costaricanum — deferred, no image/count
+Actualresearch thisrun: Mikkola2013printed379/PDF381 saysjuvenileundescribed; ITIS686691validtaxon, nojuvenilefacts. Macaulay626397501 searchadult+juvenilevideo metadata, actualpageAnubisAccessDenied, noframesread; keepunverifiedlead. Governmentspeciespageunagedphotosnotyoungproof. No newnumberreserved. See [fullmetadata/facts/limits](../species/173-otus-madagascariensis-v6.md). Continue targeted primary/photographic stage research, notgeneric leastpygmyrarum evidence.

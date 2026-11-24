@@ -6,7 +6,8 @@
   "started_at": "2026-11-24T15:31:58.038Z",
   "stages": {
     "STARTED": "2026-11-24T15:31:58.038Z",
-    "RESEARCH_READY": "2026-11-24T15:32:51.552Z"
+    "RESEARCH_READY": "2026-11-24T15:32:51.552Z",
+    "IMAGE_GENERATED": "2026-11-24T15:34:29.839Z"
   },
   "notes": [
     "Fresh main48c2a6e1 no effective unfinished batch/lease. #25 already remotely archived, no repeated generation from unverified localfd9d70d.",
@@ -54,5 +55,15 @@
       "at": "2026-11-24T15:33:54.609Z",
       "event": "after_imagegen"
     }
-  ]
+  ],
+  "meta": {
+    "bytes": 2718378,
+    "sha256": "0d6d5bbdaeec3df8d3b81f2868bf6f6ebca3de93c16ed41a3bcaa3c024668f35",
+    "size": [
+      1536,
+      1024
+    ],
+    "gitblob": "38c07221b2cba193db90683f8fc234582c702093"
+  },
+  "imagegen_wait_ms": 39725
 }

@@ -6363,3 +6363,14 @@ Actualv1full andfeet crop viewed: lightclawshafts/greytips alreadycorrect, conte
 
 ## 20261124T0532Z批次收尾与纠错映射
 本批新5条文献/网页定位、复用16次来源ID引用，书的多页/同文献跨轮不加新增数。新增ID及各物种阶段/原图/提交见[集中入口](../production/batches/20261124T0532Z-completed-review.md)。Debus1993幼鸟离洞应印刷185/PDF18，旧ID含187保留但已纠正；226Kakum幼鸟高哨音属邻种Fraser鹰鸮，不是O.icterorhynchus。完整sixcycle事实/推断/未解决项逐轮记录，科学false，不能把6个阶段当6轮。最新接续只完成第6轮，前五已验证，不重计。
+
+
+## 20261124T0632Z cycle1 #149v5 source-boundary correction
+# #149 Ninox odiosa v5 — visible developmental uncertainty
+Access2026-11-24. Preservev1–v4/userapprovalscope. Actualv4fullimage viewed: middle label OLDER JUVENILE while priorrecord explicitlysaysno developmentaldescription, imagefooteronlyNOTTOSCALE. “Older” and down-dominant compactwing are provisionaldesign, NOT established age. v5 removesunsupportedstageassertion and explicitlylabelsphenotypeuncalibrated; no biologicalredrawfromabsentevidence. Adultanatomyretained, no new female-height ratio from wingmetric.
+Reused **NBBOO-ITIS-555491-2026** actual original report reread https://www.itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=555491&source=to_print validNinoxodiosaP.L.Sclater1877; NewBritainBoobook/Russet/Spangled are aliases one species. Institutionaltaxonomy notyoungphenotype.
+Reused **MIKKOLA-2013** useruploadactuallyread printed487/PDF489 thisrun: females slightlylarger; juvenileundescribed; adultchocolatehead/whiteflecks, whitechin/throat, yelloworangeiris, palegreenbill/yellowtip, featheredtarsi/drabtoes. Bodytextdarkbreastband versuscaptionwhitebarredrufousband/whitestreakedbelly differs; notsimplifiedintoanewuniversalcolourrule. No exactyoungage/iris/wing/flight/nestproof. No newpublicationfornewbookpagelocator.
+**NBBOO-GURNEY-1882-IBIS** retainedv4 historicalread only: tinytwomale/onefemale wingtable7.40vs7.60inches doesn't support3%standingheight/fullbody scale. Thisrun externaloriginalOCRwebfailednotaccessible, localdownloadpending/timeout; don'tcountasfreshread. Prior1884adultsource/photo detailsretainedv4, notnewprimarydevelopmentvalidation.
+Activeexternalqueriesold/newname+juvenile+Gurney yieldednoindependentyoungphenotype; ITISbodyactuallyread. Primary201AllenTablas2006 printed79/PDF3 actuallysearched/readseparately givesromblonisopenpalmleafnest/eggs, notodiosayoung; no cross-speciestransfer.
+Sciencefalse. Source countsnew0,reused2(freshITIS+book),corrected1(unsupportedOLDERlabel/visibleuncertainty). Oldrepresentation retained onlyprovisionalconcept, notscientificpass. [Priorboundaries](149-ninox-odiosa-v4.md).
+[Prompt](prompts/149-ninox-odiosa-v5.txt) · [Review](reviews/149-ninox-odiosa-v5-review.md)

@@ -6552,3 +6552,7 @@ Reuse **SHEO-MIKKOLA-2013-P288 / MIKKOLA-2013** actualuploadedprinted288/PDF290t
 
 ## 2026-11-24 #170v5 / 20261124T1031Z-1
 Reuse MIKKOLA-2013 actualuploadedprinted384/PDF386: mesoptilegreycere/unspottedgreycrown; adultsexpaletteandwingdifference notfixedheight. Reuse TPO-PUENTE-ETAL-2024-P63-65-F2 originalDOI10.58843/ornneo.v35i1.1337 URL https://ornneo.ornitologianeotropical.org/index.php/ornneo/article/download/1337/785 actualpp63–65bodyread/captionFig2, adultCuetzalan932mcloudforest2023; noyoungage/sex/flightproof. SORAHowellRobbinsredirectnotfreshpaperread. New0/reused2/corrected1selectedyoungcere. [research](species/170-glaucidium-sanchezi-v5.md)/[image](../design/concepts/170-glaucidium-sanchezi-v5.png)/[review](reviews/170-glaucidium-sanchezi-v5-review.md). Sourcefactsgreycere; exactshadeinference/unknowncolourcalibration.
+
+## 2026-11-24 174-strix-sartorii-v5 / 20261124T1031Z/2
+Reused CIO-EARBIRDING-2015-FLEDGLING, Pieplow&Spencer2015, https://earbirding.com/blog/archives/4905 actualbodyThefind/Visualsread. Adultcoldnearblacksepiastreaks/plainpaledisc/toefeathers anddirectyoungflightobserved; oneadultlikelymale/onerecord, notsexratio/exactage. Old2013broadvariaguidecannotgivecurrentMexicanyoungchronology. V4adultventralstreakcontrastcalibrationonly; youngflightfeatherspreserved. New0/reused1/corrected1. No freshsourcephotopixelclaim.
+[Research](species/174-strix-sartorii-v5.md) / [image](../design/concepts/174-strix-sartorii-v5.png) / [review](reviews/174-strix-sartorii-v5-review.md).

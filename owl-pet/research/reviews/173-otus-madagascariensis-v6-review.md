@@ -1,0 +1,4 @@
+# 173-otus-madagascariensis-v6 actual review
+Actualfulloutput viewed, centre immature both eyes naturallyclosed, no visible yellowiris; smallfeatheredlidlines/no humanlashes. This is briefartisticblink, notyoungphysiologycalibration. Adults remain openyelloweyes/pinkrim/blackbill/subduedbrow withsharedpattern/near-equalbody, noadultirisruletransferred. Younglowforwardcrouch/shortformeddownsoftwing/barreduppertailcoverts/narrowtailtips and feet/abdomen oncontinuousbranch retained. Exactage/plumage/iris/flightstillunresolved and footerpreserved. No groundnest/eggs/flight,newnataldetailsoruserapproval. Oldv1–v5retained. MissingG.costaricanumresearchsavedseparatelybutnoimage/speciescredit.
+PASS_WITH_LIMITATIONS;scientifically_verified=false;no new user confirmation.
+Original metadata {"bytes":2958260,"sha256":"4287acdf4200aa6c2377400f0cc4a6b9ba0328489286f1749d01423d567e5379","gitblob":"f994144df367191f21910a5dfff7e98c8c99af6d","size":[1536,1024]}

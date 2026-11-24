@@ -6830,3 +6830,7 @@ Six-cycle reused9references/6documents, new1 CRPO-CNSA-HSI-GUIDE-2026 taxonomy-o
 
 ## 20261124T2138Z cycle4 #11 Aegolius funereus
 **BOR-ORI-BOREAL-FACTS** NEW: OwlResearchInstitute,undated,BorealOwl https://www.owlresearchinstitute.org/boreal-owl actualFacts/Size/Range/Habitat/Nestingbodyread2026-11-25Beijing; institutionaladult/youngsynthesis. Adultslegs/toesthicklyfeathered; notday/densityatlas; European/NorthAmerica coverageonly,nofixedsexratio. ReusedBOR-MIK2013-440 actualprinted440/PDF442. [Fullfacts,limits,prompt/primaryretrievalfailure](species/11-aegolius-funereus-v5.md). New1/reused1;sciencefalse. Kelso1936 DOI10.2307/4077355 bodyPDF403, unverifiedlead.
+
+
+## 20261124T2138Z cycle5 #16 Strix occidentalis caurina
+**NSO-GANEY-ETAL-2020-THERMAL** NEW — Ganey,Ward,Rawlinson,Kyle,Jonnes2020,JFieldOrnithol91:225–240,DOI10.1111/jofo.12337, https://www.fs.usda.gov/rm/pubs_journals/2020/rmrs_2020_ganey_j001.pdf actualabstract/printed226Introduction/233Discussionread2026-11-25Beijing. Primarylucidaclimatestudy; broad all3subspeciesfeatheredlegs/toes statement only, notcaurina densityatlas. No climatemetric/juveniletransfer. ReusedMIKKOLA-2013 newpagescope342/344(PDF344/346), distalgrey-browntoesbristled. [Facts/conflicts/limits/prompt](species/16-strix-occidentalis-v5.md). New1/reused1;sciencefalse.

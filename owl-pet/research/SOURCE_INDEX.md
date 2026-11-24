@@ -6826,3 +6826,7 @@ Six-cycle reused9references/6documents, new1 CRPO-CNSA-HSI-GUIDE-2026 taxonomy-o
 
 ## 20261124T2138Z cycle3 #07 Asio flammeus
 **SEO-OWLPAGES-3590** NEW: DeaneLewis, Short-earedOwl, undatedspecialistsynthesis https://www.owlpages.com/owls/species.php?s=3590 actualDescription/Size/Habits/Breedingread2026-11-25Beijing. Adults:tarsi/toespaletawnycreamfeathered, greyhornclawsdarktips; notdensity/dayatlas. ReusedSEO-MIKKOLA-2013-P512 printed512/PDF514 actualread. Adultcoveronly/juvenileunchanged. [Facts,failures,limits,prompt](species/07-asio-flammeus-v5.md). New1/reused1;sciencefalse. NCSUFig3-20botblocked/Audubonfiletoolarge remainunverifiedleads.
+
+
+## 20261124T2138Z cycle4 #11 Aegolius funereus
+**BOR-ORI-BOREAL-FACTS** NEW: OwlResearchInstitute,undated,BorealOwl https://www.owlresearchinstitute.org/boreal-owl actualFacts/Size/Range/Habitat/Nestingbodyread2026-11-25Beijing; institutionaladult/youngsynthesis. Adultslegs/toesthicklyfeathered; notday/densityatlas; European/NorthAmerica coverageonly,nofixedsexratio. ReusedBOR-MIK2013-440 actualprinted440/PDF442. [Fullfacts,limits,prompt/primaryretrievalfailure](species/11-aegolius-funereus-v5.md). New1/reused1;sciencefalse. Kelso1936 DOI10.2307/4077355 bodyPDF403, unverifiedlead.

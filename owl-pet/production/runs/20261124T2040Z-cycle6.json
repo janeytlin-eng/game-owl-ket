@@ -6,7 +6,7 @@
   "species": "Strix sartorii",
   "action": "ANNOTATION_REVISION",
   "started_at": "2026-11-24T20:48:37.254Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "status": "STARTED",
   "scientifically_verified": false,
   "stages": [
@@ -15,6 +15,18 @@
       "at": "2026-11-24T20:48:44.988Z",
       "prompt": "Use case precise-object-edit. Edit #174 Strix sartorii v5 ONLY typography. Preserve exacttitleand3labels, all3birds adultsleft/right fledglingcentre, plainpalediscs/darkADULTeyes/palebills/coldsepiaadultbellystreaks/upperbreastbars/featheredtoes/near-equaladultheight. Preserve central fledgling's formedfoldedwings/shortbarredtail/currentplumage/pose andeveryfootcontact. Fieldsource observedflight: do NOT replace formedwings withnatalwingbuds. Add directlyundercentrelabel 'EXACT AGE / IRIS SEQUENCE / FIRST-FLIGHT AGE UNVERIFIED'. Add slim bottomdarkolivefooterwithcreamtext 'CONCEPT · SCIENTIFIC CALIBRATION PENDING'. No morphology/pose/colourredesign, no extraanimal/nest/egg/prey/airbornepose/versionsuffix/approvalmark. Keep pine-oakMexicanforeststyleandcomposition.",
       "research": "owl-pet/research/species/174-strix-sartorii-v6.md"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-24T20:49:57.149Z",
+      "blob": "91863dd889bd4dabf038f8518bb2b72952315f47",
+      "bytes": 2455154,
+      "sha256": "ec161a4f0e845b872aa20d897b8b53a04cacc8a06ad0f8e7296eb3dfdb754371",
+      "size": [
+        1536,
+        1024
+      ],
+      "edit_wait_seconds": 39.3
     }
   ],
   "errors": []

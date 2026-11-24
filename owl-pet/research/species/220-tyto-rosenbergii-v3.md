@@ -11,7 +11,12 @@
     "STARTED": "2026-11-24T17:56:10.245Z",
     "RESEARCH_READY": "2026-11-24T17:57:31.310Z"
   },
-  "heartbeats": [],
+  "heartbeats": [
+    {
+      "at": "2026-11-24T17:57:41.883Z",
+      "event": "before_imagegen"
+    }
+  ],
   "errors": [
     "Primary Smujo article/PDF original links403 this invocation; existing actualresearch reused, not claimed fresh photograph reading."
   ],
@@ -54,8 +59,9 @@
       "accessed": "2026-11-25 +08",
       "type": "primary field nestbox study",
       "stage": "ageunknown chick",
-      "facts": "Prior actualphoto/caption record reused; fresh mainarticle/PDF access403, alternate accesses recorded separately. Searchhit alone not new verified photograph.",
-      "limits": "No new photo claim; no calendarage/flightability extrapolated; box perspective is artistic not exactdimensions."
+      "facts": "Access recovered via publisher sg mirror. Original abstract and Methods printed5685–5686 actually read: direct/cameratrap study in Sulawesi oilpalms; 55woodenboxes; chick followup until8weeks described generally, not exact picturedchickage. Fig5 priorphoto record, freshpixels pending nextinspection.",
+      "limits": "Study general8week criterion does notdate drawn downychick or proveindividualflight. Main403 not allsourceinaccessible.",
+      "alternate_url": "https://sg.smujo.id/biodiv/article/download/6617/4434/32732"
     }
   ],
   "prompt": "Use case annotation-only precise-object-edit. Existing #220 Sulawesi Masked Owl v2 full trio. Preserve title Tyto rosenbergii and existing CLEMENTS2026 Tyto javanica rosenbergii plaque. Add small slim legible note below that plaque, not covering heads: 'SEX SIZE UNKNOWN'. Inside right juvenile role box retain AGE-UNKNOWN DOWNY CHICK and add small two-line note 'IRIS / BILL / FLIGHT UNVERIFIED', enlarge labelbox slightly downward within available space if needed without covering feet/scientificpendingfooter. Preserve all adult plumage/eyes/bills/darker heavilyspotted female/near-equal scale/footgrips and whole downychick/shortdowncoveredwings/feet and boxfloor support, wooden nestbox/cultivatedpalms. No phenotype change or new developmental claim. Same1536x1024 style."

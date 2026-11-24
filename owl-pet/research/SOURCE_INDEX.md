@@ -6636,3 +6636,8 @@ New0/reused2 RAJ-MIK2013-P168 uploaded168/PDF170 actualreread: reddishbrown fine
 ## 20261124T1332Z cycle1 236-ninox-reyi-v2
 Reused2 NREY-RASMUSSEN-2012-P17 actual originaladultdiagnosisprinted17/PDF18 and MIKKOLA2013 actualuploaded479/PDF481; new0. Adult blackclaws/palebases, notunknownyoungclaws; one species/stage-bound correction.
 [Metadata/URLs/pages/stages/facts/limits/fullprompt](species/236-ninox-reyi-v2.md) · [image](../design/concepts/236-ninox-reyi-v2.png) · [review](reviews/236-ninox-reyi-v2-review.md). Scientificfalse; samebook/papers deduplicated.
+
+
+## 20261124T1332Z cycle2 235-otus-pamelae-v2
+New0/reused2 OPAM-SOUNDAPPROACH-2019 actual speciesbody/Omanfieldcaptions reread and OPAM-MIKKOLA-2013-P128 uploaded128/PDF130 reread. Adultfewindistinctventralstreaks; sourcecaptionSomalilandtentative excluded; samebooknonewpublication. Adultstreaksalonecorrected, young/evidenceuncertaintyunchanged.
+[Metadata/URLs/pages/stages/facts/limits/fullprompt](species/235-otus-pamelae-v2.md) · [image](../design/concepts/235-otus-pamelae-v2.png) · [review](reviews/235-otus-pamelae-v2-review.md). Scientificfalse; samebook/papers deduplicated.

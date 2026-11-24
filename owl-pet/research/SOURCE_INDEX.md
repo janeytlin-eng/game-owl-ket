@@ -6677,3 +6677,7 @@ New0/reused2 NMEE-MIKKOLA-2013-P496 freshly uploaded496/PDF498 juvenile heavier 
 
 ## 20261124T1432Z cycle4 215-otus-angelinae-v3
 New0/reused2 OANG-MIKKOLA-2013-P182 actualuploaded182/PDF184 and OANG-BIRDLIFE-2001-P1748 originalBreeding section. Juvenile broader dark mantle/back bars only; older family-group observation not day-age or infant anatomy. [Metadata/prompt](species/215-otus-angelinae-v3.md) · [review](reviews/215-otus-angelinae-v3-review.md).
+
+
+## 20261124T1432Z cycle5 216-otus-thilohoffmanni-v3
+New0/reused2 OTHI-WARAKAGODA-2006-CBC originalyoungparagraph and OTHI-MIKKOLA-2013-P180 uploaded180/PDF182 read. Weak partially formed juvenile disc; sameobserver observations not independent studies. [Metadata/prompt](species/216-otus-thilohoffmanni-v3.md) · [review](reviews/216-otus-thilohoffmanni-v3-review.md).

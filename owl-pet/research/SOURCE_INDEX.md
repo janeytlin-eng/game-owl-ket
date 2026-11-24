@@ -6721,3 +6721,5 @@ New0/reused2; actual metadata/pages/facts/limits and fullprompt in [species](spe
 
 ## 20261124T1535Z cycle6 210-athene-superciliaris-v3
 New0/reused3; actual metadata/pages/facts/limits and fullprompt in [species](species/210-athene-superciliaris-v3.md), [review](reviews/210-athene-superciliaris-v3-review.md). Latest v2 full plate plus tail/wing closeups actually inspected: young already has narrow whitish tail tips and pale edging on folded wing tips. Do NOT repeat those edits. Fresh original line110 distinguishes tail narrow tips from primary-tip fringe; earlier v2 narrative 'tailtipfringe' imprecise. Image note lists age/iris only, omitting juvenile bill/flight and secondary-only developmental evidence. Revise uncertainty annotation, retain anatomy rather than invent correction.
+
+Correction cycle6: ASUP-BOUGLOUAN-WEB actual line110: tail feathers have narrow whitish tips; PRIMARY tips have whitish fringe. Earlier210v2 shorthand 'tailtipfringe' is imprecise; historical text retained, current v3 record clarifies. Already present narrow tips do not justify another anatomical correction.

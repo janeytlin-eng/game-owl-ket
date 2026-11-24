@@ -1,0 +1,4 @@
+# 229-athene-malaitae-v2 actual review
+PASS_WITH_LIMITATIONS. Actualfulloutput+nativejuvenilefacecrop viewed: rightyoung cheek/earcoverts nowcarryfineoffwhite transversebarscontinuingcrown/neck, ratherthanplaincheeks; notear-tufts/solidwhitemask. Existing strongerbodybars andadult-likecompactformedwing retained, exactageunknown. Adultsretain darkgreyeyes/palebill/neutralbodyscale; no Guadalcanalyelloweyes/whitebellytransfer. Sixfeet log-supported, billcolour remainsprovisionalforjuvenile, no flight/nestclaim. Oneimagegenedit,no additionalcorrectiveedit. Evidenceguidequalitativeonly; Callaghan2019foundyoungrecord doesnotverifythese markings. Localpatternapplicationvalidated only, scientificallyfalse. Backcheck228youngdarkbody/faintbars leftasdifferenttaxon, not affected.
+
+Sciencefalse; no new userconfirmation. Start 2026-11-24T04:48:03.038Z; output 2026-11-24T04:48:35.571Z.

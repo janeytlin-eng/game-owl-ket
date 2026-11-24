@@ -217,3 +217,7 @@ PASS_WITH_LIMITATIONS. NewPons2013 actualprimarymorphology/Table3 supports relat
 
 ## 20261124T0432Z cycle4 228-athene-granti-v2
 PASS_WITH_LIMITATIONS. v1youngbodycrossbands overlyprominent relativeguide482 'onlyfaint'. Actualfulloutput+nativeyoungcrop: predominantlydarkbrownjuvenile, ventralbars nowfewthinlowcontrasts, whitefoldedwing/tailbars explicitlyretained. Adultbroadbrownonwhiteventrum/whitebrows/crownspots/yelloweyes preserved; all6feetgripbranch, juvenileclosedeyes/lowcrouch unchanged. Oneimagegenedit, no correctiveedit. This validates regionalcontrastcontrol only, notday-age orfeatherlength; guideonlyyoungphenotype, finebareparts/flight/sexmetricsunknown. Backcheck229hasdocumentedSTRONGERyoungcrossbars, so do notapply228faintbarsglobally. Sciencefalse.
+
+
+## 20261124T0432Z cycle5 229-athene-malaitae-v2
+PASS_WITH_LIMITATIONS. Actualfulloutput+nativejuvenilefacecrop viewed: rightyoung cheek/earcoverts nowcarryfineoffwhite transversebarscontinuingcrown/neck, ratherthanplaincheeks; notear-tufts/solidwhitemask. Existing strongerbodybars andadult-likecompactformedwing retained, exactageunknown. Adultsretain darkgreyeyes/palebill/neutralbodyscale; no Guadalcanalyelloweyes/whitebellytransfer. Sixfeet log-supported, billcolour remainsprovisionalforjuvenile, no flight/nestclaim. Oneimagegenedit,no additionalcorrectiveedit. Evidenceguidequalitativeonly; Callaghan2019foundyoungrecord doesnotverifythese markings. Localpatternapplicationvalidated only, scientificallyfalse. Backcheck228youngdarkbody/faintbars leftasdifferenttaxon, not affected.

@@ -4,14 +4,15 @@
   "id": "207-tyto-multipunctata-v4",
   "species": "Tyto multipunctata",
   "action": "REVISION",
-  "result": "STARTED",
+  "result": "VERIFIED",
   "started_at": "2026-11-24T15:44:39.085Z",
   "stages": {
     "STARTED": "2026-11-24T15:44:39.085Z",
     "RESEARCH_READY": "2026-11-24T15:44:46.381Z",
     "IMAGE_GENERATED": "2026-11-24T15:46:20.291Z",
     "REVIEWED": "2026-11-24T15:46:26.631Z",
-    "ARCHIVED": "2026-11-24T15:46:33.829Z"
+    "ARCHIVED": "2026-11-24T15:46:33.829Z",
+    "VERIFIED": "2026-11-24T15:46:45.729Z"
   },
   "heartbeats": [
     {
@@ -57,5 +58,15 @@
     "gitblob": "883e567fcc1fcdfbb4c24b3d4e928e7ebab3ac29"
   },
   "imagegen_wait_ms": 37301,
-  "review": "Full original1536x1024 actually viewed. All exposed adult claws now dark charcoalhorn with small highlights and original curves; grey-brown toes not globally darkened, grip readable. Young provisional claws/grey outerface/darkventrum/formedwing unchanged qualitatively. Adult facial discs/eyes/bills/spotted upperparts/fine ventralchevrons/modestfemale-largerscale/labels/forest/support preserved. PASS_WITH_LIMITATIONS/sciencefalse; no young clawcolour development inferred."
+  "review": "Full original1536x1024 actually viewed. All exposed adult claws now dark charcoalhorn with small highlights and original curves; grey-brown toes not globally darkened, grip readable. Young provisional claws/grey outerface/darkventrum/formedwing unchanged qualitatively. Adult facial discs/eyes/bills/spotted upperparts/fine ventralchevrons/modestfemale-largerscale/labels/forest/support preserved. PASS_WITH_LIMITATIONS/sciencefalse; no young clawcolour development inferred.",
+  "archive_commit": "43b5cfc3cc13cc5aa3d093f12c917481f578233f",
+  "remote_verification": {
+    "bytes": 2594802,
+    "sha256": "9f37fcd9189a326f0fea5e22b540c709a804d52484140dab0e94a61e04c7114c",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "ended_at": "2026-11-24T15:46:45.729Z"
 }

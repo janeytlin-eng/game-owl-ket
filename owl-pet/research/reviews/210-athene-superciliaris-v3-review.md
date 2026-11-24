@@ -1,0 +1,1 @@
+实际查看1536×1024最终原图，三行页脚可读：CONCEPT·SCIENTIFIC CALIBRATION PENDING、OLDER JUVENILE: SECONDARY DESCRIPTION ONLY、JUVENILE AGE/IRIS/BILL/FLIGHT UNVERIFIED；无截断或覆盖脚/尾。成鸟白眉、暗褐眼、白腹/上胸横纹、近等大显示、幼鸟较细腹纹/窄白尾尖/闭合翅、各趾爪及干林树枝支撑全图定性复查保留。未证明其余像素完全一致，不声称新增形态校准。该版属于证据边界注释修订，科学仍false，PASS_WITH_LIMITATIONS。

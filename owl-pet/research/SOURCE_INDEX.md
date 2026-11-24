@@ -6805,3 +6805,6 @@ Correction 20261124T2040Z-cycle3: MNHN fresh original failed Internal Error, not
 
 ## 2026-11-24T20:43:41.195Z 20261124T2040Z-cycle4
 New0/reused2 sharedMIKKOLA2013p288/PDF290 and SHEO-TOBIAS-WILLIAMS-2022-P73-79, juvenileillustrationcrossspeciesexclusionretained; annotationsonly. [Facts/limits/prompt](species/169-ketupa-shelleyi-v6.md).
+
+## 2026-11-24T20:46:23.886Z 20261124T2040Z-cycle5
+New0/reused2 MIKKOLA2013p384/PDF386 and TPO-PUENTE-ETAL-2024-P63-65-F2; youngunknownannotationonly, no sexheightconversion. [Facts/limits/prompt](species/170-glaucidium-sanchezi-v6.md).

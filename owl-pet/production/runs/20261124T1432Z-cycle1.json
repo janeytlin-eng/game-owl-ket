@@ -1,14 +1,15 @@
 {
   "batch_id": "20261124T1432Z",
   "cycle": 1,
-  "result": "STARTED",
+  "result": "VERIFIED",
   "started_at": "2026-11-24T14:31:33.168Z",
   "stages": {
     "STARTED": "2026-11-24T14:31:33.168Z",
     "RESEARCH_READY": "2026-11-24T14:32:29.747Z",
     "IMAGE_GENERATED": "2026-11-24T14:34:22.333Z",
     "REVIEWED": "2026-11-24T14:34:50.528Z",
-    "ARCHIVED": "2026-11-24T14:35:08.439Z"
+    "ARCHIVED": "2026-11-24T14:35:08.439Z",
+    "VERIFIED": "2026-11-24T14:35:38.966Z"
   },
   "notes": [
     "No effective unfinished batch or lease at latest main. #25 already archived remotely; no duplicate reconstruction. Prior local fd9d70d not required for current archive.",
@@ -56,5 +57,16 @@
     "Initial JavaScript atob unavailable; raw connector already decoded JSON, corrected without write.",
     "Initial dynamic object key syntax error before write; corrected.",
     "Two whole-image base64 stdout transfers truncated; rejected locally, chunked read succeeded; no corrupted blob submitted."
-  ]
+  ],
+  "archive_commit": "45e6e57bcc1be6b867a7df3f2c42c63c14393095",
+  "remote_verification": {
+    "bytes": 2556735,
+    "sha256": "36593169f6a9a44c325582be097f72a00309c635f1be27dbc2b1292bb20a557b",
+    "size": [
+      1536,
+      1024
+    ],
+    "tree_blob_match": true
+  },
+  "ended_at": "2026-11-24T14:35:38.966Z"
 }

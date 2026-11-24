@@ -4,12 +4,21 @@
   "run_id": "20261124T1944Z-cycle4",
   "started_at": "2026-11-24T19:52:15.413Z",
   "status": "STARTED",
-  "stage": "STARTED",
+  "stage": "RESEARCH_READY",
   "id": "160-tyto-inexspectata-v5",
   "species": "Tyto inexspectata",
   "action": "REVISION",
   "unique_species_increment": 0,
   "scientifically_verified": false,
-  "stages": [],
+  "stages": [
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-24T19:52:22.486Z",
+      "sources_new": 0,
+      "sources_reused": 2,
+      "prompt": "Use case: precise-object-edit. Edit this existing #160 Tyto inexspectata v4 plate ONLY to correct its scientific-evidence labels. Keep the three birds, every feather, body scale, individual facial-disc colours, black eyes, pale adult bills, legs, feet, mossy forest root support and full composition unchanged. Do not redesign a juvenile with absent data. Replace center label \"JUVENILE\" with two clearly readable lines \"UNVERIFIED JUVENILE CONCEPT\" and \"AGE / PLUMAGE / FLIGHT UNKNOWN\". Add a bottom slim unobtrusive dark-olive footer with cream text \"CONCEPT · SCIENTIFIC CALIBRATION PENDING\". Keep exact species header and adult male/female labels. Footer must not cover feet or central label. No new birds, limbs, nest, hatchling claims, sex dimorphism or approval icon. The retained young image is an unvalidated design placeholder; closing eyes or limiting wings cannot scientifically validate its phenotype. Preserve warm naturalistic owl-pet style.",
+      "evidence": "owl-pet/research/species/160-tyto-inexspectata-v5.md"
+    }
+  ],
   "errors": []
 }

@@ -6779,3 +6779,6 @@ Reused CEB-RASMUSSEN-2012-FORKTAIL (sameprimarypublicationasCAMBOO alias) and CE
 
 ## 2026-11-25 20261124T1944Z cycle3 · Athene jacquinoti
 Reused sharedMIKKOLA-2013 printed481/PDF483 and WSO-MNHN-RECORD-2010-270 actualbodyread; new0/reused2. Adultdarkolivebill vsactualv4slate correction; immaturephenotyperemainsunknown. OldNinox/currentAthene mapping preserved. [#151v5 fullmetadata/limits/prompt](species/151-athene-jacquinoti-v5.md). No newpublicationforbookpage; sciencefalse.
+
+## 2026-11-25 20261124T1944Z cycle4 · Tyto inexspectata
+Reused MIN-MAURO-DRIJVERS-2000-P180-182 actualpublisherbodypp180–181 and sharedMIKKOLA-2013 printed112/PDF114; new0/reused2. RejectedFletcherjuvenileidentityretained, noyoungreconstructionvalidated. Annotationrevisiononly. [#160v5 facts/limits/prompt](species/160-tyto-inexspectata-v5.md),sciencefalse.

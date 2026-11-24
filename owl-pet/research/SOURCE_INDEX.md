@@ -6214,3 +6214,7 @@ Reuse MANT-MIKKOLA-2013-P199-200-MIRROR oldID; actualuploadedprinted199–200/PD
 
 ## 2026-11-24 — 202-ninox-theomacha-v3
 ReusedPBBO-MIKKOLA-2013-P484 actuallyuploaded484/PDF486read; PBBO-OWLPAGES-2020 actualIntroduction/Distribution/OriginalDescription https://www.owlpages.com/owls/species.php?s=3360 read.2readreuses,0new; PBBO-SHARPE-1878-P359 existingcitationonly, PDFtoo-large errornotcountedasfreshread. Darkbrownadultdorsal/chestnutventralzones targeted, juvenilechronologyunknown. [Research](species/202-ninox-theomacha-v3.md),[review](reviews/202-ninox-theomacha-v3-review.md),[image](../design/concepts/202-ninox-theomacha-v3.png).
+
+
+## 2026-11-24 — 203-megascops-guatemalae-v3 incremental evidence
+Reused2actualsources MGUA-MIKKOLA-2013-P245 uploaded245/PDF247 and MGUA-OWLPAGES-2020 Description/Habits/Breeding/Habitat. New1 MGUA-CECON-TAXONOMY-20261124, institutionalCecon/USACGuatemala, undated,access2026-11-24, https://biodiversidad.gt/portal/taxa/index.php?clid=0&taxauthid=1&tid=4154 taxonomy/institutionalsection; Scops/Otus=currentMegascops, nomenclatureonly/noyoungdata. Adultlowercrossbars reduce perguides; no chronology invented. [Research](species/203-megascops-guatemalae-v3.md),[review](reviews/203-megascops-guatemalae-v3-review.md),[image](../design/concepts/203-megascops-guatemalae-v3.png).

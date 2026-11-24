@@ -1,0 +1,161 @@
+# 213-glaucidium-tephronotum-v4
+{
+  "batch_id": "20261124T1632Z",
+  "cycle": 2,
+  "id": "213-glaucidium-tephronotum-v4",
+  "species": "Glaucidium tephronotum",
+  "action": "REVISION",
+  "started_at": "2026-11-24T17:51:02.322Z",
+  "result": "STARTED",
+  "stages": {
+    "STARTED": "2026-11-24T17:51:02.322Z",
+    "RESEARCH_READY": "2026-11-24T17:51:22.779Z"
+  },
+  "heartbeats": [],
+  "errors": [],
+  "prior_attempt": {
+    "batch_id": "20261124T1632Z",
+    "cycle": 2,
+    "id": "213-glaucidium-tephronotum-v3",
+    "species": "Glaucidium tephronotum",
+    "action": "REVISION",
+    "started_at": "2026-11-24T17:31:43.269Z",
+    "result": "VERIFIED",
+    "stages": {
+      "STARTED": "2026-11-24T17:31:43.269Z",
+      "RESEARCH_READY": "2026-11-24T17:33:00.599Z",
+      "IMAGE_GENERATED": "2026-11-24T17:37:10.930Z",
+      "REVIEWED": "2026-11-24T17:37:37.238Z",
+      "ARCHIVED": "2026-11-24T17:37:46.156Z",
+      "VERIFIED": "2026-11-24T17:38:04.369Z"
+    },
+    "heartbeats": [
+      {
+        "at": "2026-11-24T17:33:12.171Z",
+        "event": "before_imagegen"
+      },
+      {
+        "at": "2026-11-24T17:34:10.151Z",
+        "event": "after_imagegen"
+      },
+      {
+        "at": "2026-11-24T17:35:17.946Z",
+        "event": "before_corrective_imagegen"
+      },
+      {
+        "at": "2026-11-24T17:36:14.538Z",
+        "event": "after_corrective_imagegen"
+      }
+    ],
+    "errors": [],
+    "issue": "Actual highest v2 adult claws uniformly darkgrey; book printed368 says yellowish claws darktipped. Change adult claw bases only; young formed wing/tail documented by prior photo retained.",
+    "sources": [
+      {
+        "id": "GTEP-MIKKOLA-2013-P368",
+        "title": "Owls of the World photographic guide second edition",
+        "author": "Heimo Mikkola",
+        "year": 2013,
+        "url": "uploaded libfile_fde3_f-916e2244186c81918fe5a0716884b8c9_7a934266b8748191824cde4d0af03f29",
+        "pages": "printed368–369/PDF370–371 Identification/Geographical variation",
+        "accessed": "2026-11-25 +08",
+        "type": "secondary guide",
+        "stage": "adult",
+        "facts": "Complete pages freshly read: yellowish claws darktipped; yellow sparselybristled toes; rufousbuff tarsi feathered; greyplain crown/no scapularline; Cameroon pycrafti lessrufous. Juvenile undescribed.",
+        "limits": "No juvenile development; nominate/elgonense mass sexdifferences cannot transferCameroon. Exact clawcolour not calibrated."
+      },
+      {
+        "id": "GTEP-BORROW-2014-P24",
+        "title": "Ultimate Cameroon 2–29 March2014",
+        "author": "Nik Borrow/BirdQuest",
+        "year": 2014,
+        "url": "https://www.birdquest-tours.com/wp-content/uploads/2019/06/cameroon_tour_report_2014.pdf",
+        "pages": "p24 juvenile reference, original report opened this cycle; existing actual photo examination reused by record",
+        "accessed": "2026-11-25 +08",
+        "type": "primary field tour photo/report",
+        "stage": "labelled juvenile Kodmin",
+        "facts": "Existing image-labelled juvenile record supports formed foldedwing/tail; no fresh photo inspection claimed: screenshot tool returned text marker without usable pixels.",
+        "limits": "Single juvenile not known sex/subspecies/exact age; not basis for adult claw edit."
+      }
+    ],
+    "prompt": "Use case precise-object-edit. Edit #213 Red-chested Owlet current v2 trio. Change ONLY BOTH ADULTS' claw plates: make proximal/basal two-thirds of each exposed claw pale yellowish horn, with distal pointed tips dark charcoal. Preserve shape/count/curves and natural gripping branch. Do not recolour yellow scaled toes or tarsal feathers. Preserve entire right older juvenile unchanged including its provisional claw colour and formed wing/tail; preserve adult eyes/bills/plain crowns/body/plumage/near-equal size, rainforest, every title/geographic note/rolelabel/scientificpendingfooter. No new sexratio/age/flight/nest claim. Same1536x1024.",
+    "meta": {
+      "bytes": 2400595,
+      "sha256": "d6f20af6af49ea5bb5f62df724b60c378bd75cb839a1d6902431e3734af9c910",
+      "size": [
+        1536,
+        1024
+      ],
+      "gitblob": "6c0648c208e0764f93c8f3b32fb527281faaed55"
+    },
+    "imagegen_wait_ms": 40656,
+    "edits": [
+      {
+        "attempt": 1,
+        "meta": {
+          "bytes": 2455680,
+          "sha256": "3b789b309d81b8cded21dc749187083f67d07c3d17fe8afe50af1c70cf20968c",
+          "size": [
+            1536,
+            1024
+          ],
+          "gitblob": "031ced88502cf5a668ee1c1ccc75494ff19de68d"
+        },
+        "wait_ms": 43713,
+        "result": "Fullplate and footcrop: proximal claws still largely grey; not yet yellowishbase/darktip. Sideflanks drifted warmer than target though within guide broadrufous range; do not claim non-target pixels unchanged."
+      }
+    ],
+    "correction_prompt": "Precise-object-edit #213 current image. Previous edit left BOTH ADULTS claws predominantly grey. Change ONLY the hard CLAWS (not toes): each claw's basal/proximal 70 percent must visibly be pale YELLOWISH HORN, distal final 30 percent charcoalblack. Sharp clear material transition, natural horn sheen, NOT uniformly grey with white highlight. Keep claw shape/count/curve and perch contact. Preserve every other pixel as closely as possible, particularly juvenile unchanged, yellow toes, all feather colours, legs, labels/footer/rainforest. Do not change flanks again.",
+    "needs_correction": true,
+    "review": "实际查看最终完整图和足部放大图：成鸟爪根较浅、爪尖深色，但大部分爪片仍灰黑，黄角质基部未充分呈现。两次imagegen编辑未解决该色彩目标，明确NEEDS_CORRECTION，不标科学通过。爪形/趾数/自然抓持保留；幼鸟已形成翼尾未缩短。成鸟胁部首次编辑变暖，处图鉴赭棕宽范围但非原图像素保留；精确pycrafti色彩仍需照片校准。年龄/飞行未知，sciencefalse。归档为有未解决项的修订尝试，不能宣称爪色校准成功。",
+    "lesson": "问题—细小爪片颜色编辑两次仍不足；证据—Mikkola368黄角质暗尖，当前放大仍灰；修改—两次限定成人爪片；复查—仅基部明度变浅，目标未达，入优先修订队列。规则：不能以提示的70%当测量或既成效果；细部编辑须检查裁图，跨区漂移需记录。后续需提供局部参考/更明确的目标，不能当全库验证有效。",
+    "archive_commit": "ba2cc768804dfc35829a8dd4dc6f2ff417816ce3",
+    "remote_verification": {
+      "bytes": 2400595,
+      "sha256": "d6f20af6af49ea5bb5f62df724b60c378bd75cb839a1d6902431e3734af9c910",
+      "size": [
+        1536,
+        1024
+      ]
+    },
+    "ended_at": "2026-11-24T17:38:04.369Z",
+    "commit_sha": "23f9bdaa264322ce4fa2fc6c7d58769ed48064e6",
+    "credit_withdrawn": true,
+    "reason": "Unresolved correction not completed"
+  },
+  "sources": [
+    {
+      "id": "GTEP-MIKKOLA-2013-P368",
+      "title": "Owls of the World photographic guide second edition",
+      "author": "Heimo Mikkola",
+      "year": 2013,
+      "url": "uploaded libfile_fde3_f-916e2244186c81918fe5a0716884b8c9_7a934266b8748191824cde4d0af03f29",
+      "pages": "printed368–369/PDF370–371 Identification/Geographical variation",
+      "accessed": "2026-11-25 +08",
+      "type": "secondary guide",
+      "stage": "adult",
+      "facts": "Complete pages freshly read: yellowish claws darktipped; yellow sparselybristled toes; rufousbuff tarsi feathered; greyplain crown/no scapularline; Cameroon pycrafti lessrufous. Juvenile undescribed.",
+      "limits": "No juvenile development; nominate/elgonense mass sexdifferences cannot transferCameroon. Exact clawcolour not calibrated."
+    },
+    {
+      "id": "GTEP-BORROW-2014-P24",
+      "title": "Ultimate Cameroon 2–29 March2014",
+      "author": "Nik Borrow/BirdQuest",
+      "year": 2014,
+      "url": "https://www.birdquest-tours.com/wp-content/uploads/2019/06/cameroon_tour_report_2014.pdf",
+      "pages": "p24 juvenile reference, original report opened this cycle; existing actual photo examination reused by record",
+      "accessed": "2026-11-25 +08",
+      "type": "primary field tour photo/report",
+      "stage": "labelled juvenile Kodmin",
+      "facts": "Existing image-labelled juvenile record supports formed foldedwing/tail; no fresh photo inspection claimed: screenshot tool returned text marker without usable pixels.",
+      "limits": "Single juvenile not known sex/subspecies/exact age; not basis for adult claw edit."
+    }
+  ],
+  "issue": "Recovery of cycle2: v3 two claw edits failed yellowish horn. v4 only can be credited after actual effective edit; all oldrecords and unsuccessfulimages retained.",
+  "unknowns": [
+    "juvenile age/flight/iris/bill",
+    "exactpycrafticolour",
+    "claw colour calibration"
+  ],
+  "prompt": "Use case precise-object-edit. The input image is ONLY a closeup of ADULT feet from #213. Each toe has a sharply curved pointed CLAW at its tip. Recolour the hard curved CLAWS themselves: ivory creamy PALE YELLOW HORN for most of every claw, with ONLY the very distal sharp end darkblack. Think pale horn talon with dark tip, not black talon with light reflection. Toes remain yellow scaly, shapes/count/natural branch grips unchanged. Preserve all surrounding tarsi/feathers/branch. Do not add toes or alter anatomy. This is a local correction patch for a full trio, NOT a new species plate. Output same crop framing."
+}
+Facts vs design: scoped character only; exact rendering artistic inference, no biological ratio or stage measurement.

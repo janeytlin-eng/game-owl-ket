@@ -6752,3 +6752,7 @@ New0/reused2 source-ID references; actual read and citation-only scopes distingu
 
 ## 20261124T1632Z cycle5 219-otus-podarginus-v3
 New0/reused2 source-ID references; actual read and citation-only scopes distinguished in [metadata/fullprompt](species/219-otus-podarginus-v3.md), [review](reviews/219-otus-podarginus-v3-review.md). Actual latestv2 fullplate: exposedadult clawplates mediumgrey, rather than sourceblackish. Darken adult claws only; lower bare tarsi already corrected in v2 and must not be refeathered. Young unchanged.
+
+
+## 20261124T1632Z cycle2 213-glaucidium-tephronotum-v4
+New0/reused2 source-ID references; actual read and citation-only scopes distinguished in [metadata/fullprompt](species/213-glaucidium-tephronotum-v4.md), [review](reviews/213-glaucidium-tephronotum-v4-review.md). Recovery of cycle2: v3 two claw edits failed yellowish horn. v4 only can be credited after actual effective edit; all oldrecords and unsuccessfulimages retained.

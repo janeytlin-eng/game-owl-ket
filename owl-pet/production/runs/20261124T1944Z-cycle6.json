@@ -4,7 +4,7 @@
   "run_id": "20261124T1944Z-cycle6",
   "started_at": "2026-11-24T19:59:47.477Z",
   "status": "STARTED",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "id": "165-ninox-punctulata-v6",
   "species": "Ninox punctulata",
   "action": "REVISION",
@@ -18,6 +18,21 @@
       "sources_reused": 2,
       "prompt": "Use case: precise-object-edit. Edit existing #165 Ninox punctulata v5 only to add evidence-status typography. Preserve exactly three birds, warm tactile naturalistic style, adults' dark brown eyes and muted green-yellow bills, all white speckles/breast bands/flanks, near-equal adult sizes, dark fluffy juvenile and current folded wings, all six feet, mossy root/Buton lowland forest. No biological redraw. Prefix existing species title with \"#165 · \" and preserve \"SPECKLED BOOBOOK — Ninox punctulata\". Keep adult male/female labels and \"DARK FLUFFY JUVENILE · AGE UNKNOWN\". Add a small legible center note \"IRIS / BILL CHRONOLOGY / FLIGHT UNVERIFIED\". Add bottom unobtrusive narrow dark-olive strip with cream text \"CONCEPT · SCIENTIFIC CALIBRATION PENDING\". Keep feet/labels uncovered, no extra birds, no hand, no nest contents, no flight, no approval mark. Primary juvenile was handled by people: current root is only designed support, not a photographed nest. Do not shorten any feathers merely from a universal juvenile-wing rule.",
       "evidence": "owl-pet/research/species/165-ninox-punctulata-v6.md"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-24T20:02:52.299Z",
+      "blob": "a8f3307ab4db878194656ec5912b754b96b2ea16",
+      "meta": {
+        "bytes": 2862244,
+        "sha256": "08aa3942bfbd3cadf173939ed251101bfbfca2b3c56365c9ef04e4c551161a06",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "edit_wait_seconds": null,
+      "imagegen_edit_calls": 1
     }
   ],
   "errors": []

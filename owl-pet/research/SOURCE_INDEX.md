@@ -6842,3 +6842,17 @@ Six-cycle reused9references/6documents, new1 CRPO-CNSA-HSI-GUIDE-2026 taxonomy-o
 
 ## 20261124T2138Z 六轮原图审查闭合
 前次5轮+本次恢复1轮，第6轮#19v6两次编辑后概念通过/科学false。本次新增来源2/复用图鉴1，批次新增7、共享图鉴6页段计1本文献。[按编号原图/研究/审查/真实提交入口](../production/batches/20261124T2138Z-completed-review.md)。恢复原图与索引均已提交；非单次六轮成功。
+
+
+## 2026-11-25 #24 v5 — crown stage correction
+### NPO-SCCP-FACTSHEET
+- Title/institution/year: Northern Pygmy-owl, swarthi subspecies species profile; South Coast Conservation Program; undated.
+- URL: https://sccp.ca/sites/default/files/factsheets/files/Fact%20Sheet_NPOW_final.pdf ; accessed2026-11-25 Asia/Shanghai; agency/conservation synthesis; actual PDF p1 text read (web reader failed, direct2436592byte PDF recovered).
+- Scope: juvenile/adult swarthi, historical Glaucidium gnoma swarthi/current G.californicum swarthi. Juvenile lacks adult head/body spots; not an exact age atlas, not cross-subspecies timing evidence.
+- Design: supports plain juvenile crown alongside reread MIKKOLA-2013 printed372/PDF374. Facts vs inference: removal of discrete crown spots; retained supported pose is design inference, not first-flight measurement.
+- Limit/confidence: secondary regional account; generic guide agrees crown but no primary daily sequence obtained. Cornell403 unverified. No new neonatal reconstruction.
+- Links: [#24v5](species/24-glaucidium-californicum-v5.md); [image](../design/concepts/24-glaucidium-californicum-v5.png); [run](../production/runs/20261124T2333Z-cycle1.json).
+### MIKKOLA-2013 reuse locator
+Actual uploaded guide printed372/PDF374 reread2026-11-25; juvenile unspotted crown, adults spotted. Same book reused, not a new independent source. Also printed366/PDF368 read for future Pearl-spotted audit, no cycle credit.
+### Deferred Otus sagittatus reread
+BirdLifeInternational2001 Threatened birds of Asia, pp1742/1745, https://birdlifedata.blob.core.windows.net/red-data-books/otussagi.pdf ; actually read again; fledged family/roost records do not establish juvenile appearance. Existing source reused, not new source or new group.

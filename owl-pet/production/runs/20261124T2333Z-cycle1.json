@@ -3,9 +3,46 @@
   "cycle": 1,
   "status": "STARTED",
   "started_at": "2026-11-24T23:34:26.496Z",
-  "stage": "STARTED",
+  "stage": "RESEARCH_READY",
   "scope": 251,
   "baseline_unique_species": 206,
   "recovery": "Remote #25 versions already exist; no need to remake. fd9d70d not independently recovered. Prior COMPLETE batches not recounted.",
-  "next_action": "Investigate missing young evidence, then produce supported new species or genuine morphology revision."
+  "next_action": "Investigate missing young evidence, then produce supported new species or genuine morphology revision.",
+  "species": "Glaucidium californicum",
+  "id": "24-glaucidium-californicum-v5",
+  "action": "MORPHOLOGY_REVISION",
+  "research_ready_at": "2026-11-24T23:36:31.917Z",
+  "prompt": "Use case: precise-object-edit. Edit target: attached #24 Northern Pygmy-Owl v4 field-guide plate. Create a non-destructive v5 with ONE localized morphology correction: remove the discrete pale/white pin-spots from ONLY the central juvenile's forehead and crown, leaving a plain soft grey-brown crown with naturally shaded individual feathers and down texture. Mikkola 2013 printed p372 explicitly describes unspotted mesoptile crown; do not bleach the head or remove adult spots. Keep the juvenile eyebrows, eyes, bill, breast streaks, folded wings, short tail, exact supported branch posture and all other anatomy unchanged. Preserve BOTH adults unchanged, their adult white crown/back spotting and male nape false eyes, near-equal standing scale; all feet/perches, conifer/aspen habitat, style, full composition and all existing labels unchanged. Exactly three birds, no added text or new age claim. This is conceptual scientific calibration pending, not final scientific approval.",
+  "sources": [
+    "MIKKOLA-2013 printed372/PDF374",
+    "NPO-SCCP-FACTSHEET"
+  ],
+  "unknowns": [
+    "Exact age and first sustained flight",
+    "Full taxonomy roster251 unresolved",
+    "No new sex-size change; prior primary data reused only as historical context"
+  ],
+  "deferred_candidates": [
+    {
+      "species": "Otus sagittatus",
+      "source": "BirdLife International 2001 pp1742,1745",
+      "decision": "fledged roost record confirms stage existence but no appearance; no invented young."
+    }
+  ],
+  "errors": [
+    {
+      "source": "Cornell id",
+      "error": "403"
+    },
+    {
+      "source": "SCCP web reader",
+      "error": "inaccessible; recovered direct PDF2436592bytes and read p1 text"
+    }
+  ],
+  "stages": [
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-24T23:36:31.917Z"
+    }
+  ]
 }

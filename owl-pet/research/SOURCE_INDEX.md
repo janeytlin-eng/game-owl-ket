@@ -6723,3 +6723,12 @@ New0/reused2; actual metadata/pages/facts/limits and fullprompt in [species](spe
 New0/reused3; actual metadata/pages/facts/limits and fullprompt in [species](species/210-athene-superciliaris-v3.md), [review](reviews/210-athene-superciliaris-v3-review.md). Latest v2 full plate plus tail/wing closeups actually inspected: young already has narrow whitish tail tips and pale edging on folded wing tips. Do NOT repeat those edits. Fresh original line110 distinguishes tail narrow tips from primary-tip fringe; earlier v2 narrative 'tailtipfringe' imprecise. Image note lists age/iris only, omitting juvenile bill/flight and secondary-only developmental evidence. Revise uncertainty annotation, retain anatomy rather than invent correction.
 
 Correction cycle6: ASUP-BOUGLOUAN-WEB actual line110: tail feathers have narrow whitish tips; PRIMARY tips have whitish fringe. Earlier210v2 shorthand 'tailtipfringe' is imprecise; historical text retained, current v3 record clarifies. Already present narrow tips do not justify another anatomical correction.
+
+
+## 20261124T1535Z final source identity / scope audit
+Source documents new0; reused13 source-ID references across6cycles, deduplicated to8 documents (same uploaded Mikkola book counts1, six species web accounts plus MNHN record count7). No primary developmental series newly verified.
+- ID aliases only, no new sources: LS00/LSOO-MIKKOLA-2013-P113 in207v4 record resolves to existing TMLT-MIKKOLA-2013-P113; LSOO-OWLPAGES-2020 resolves to TMLT-OWLPAGES-2020. GMNI-OWLPAGES-2020 resolves to GMNI-OWLPAGES. Preserve historical IDs/records; future lookup canonical existing IDs.
+- GMNI-OwlPages scope correction: actual body has no juvenile paragraph; earlier cycle1 index shorthand 'Description young vs adult crown' overstates its support. Young crown decision rests on uploaded Mikkola printed388/PDF390 only. This is a repeated clarification, not another new source.
+- ML163283551 remains AUDIO lead per existing224 record, no viewed juvenile photograph established; no plumage decision drawn from it.
+- ASUP-BOUGLOUAN-WEB line110 tail narrow whitish tips is distinct from whitish PRIMARY-tip fringe; earlier tailtipfringe shorthand clarified. Young already showed both qualitatively; cycle6 only adds uncertainty annotation.
+[Six originals/research/actual reviews/verification commits](../production/batches/20261124T1535Z-completed-review.md). No scientific approval or user confirmation inherited to new versions.

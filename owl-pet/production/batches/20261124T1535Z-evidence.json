@@ -1,0 +1,412 @@
+{
+  "batch_id": "20261124T1535Z",
+  "audited_head": "27dd83d65e7437dd30cf7aa5f8e2ef061831b3b7",
+  "observed_at": "2026-11-24T16:04:15.291Z",
+  "coverage": {
+    "archived_unique": 206,
+    "scope": 251,
+    "remaining": 45,
+    "numbered_images": 1034,
+    "manifest_entries": 988,
+    "new_species": 0,
+    "revisions": 6,
+    "scientific_passes_new": 0,
+    "user_confirmations_new": 0
+  },
+  "source_count": {
+    "new_documents": 0,
+    "reused_id_references": 13,
+    "dedup_documents": 8,
+    "scope_clarifications": 3,
+    "id_alias_audit": true
+  },
+  "cycles": [
+    {
+      "cycle": 1,
+      "id": "209-glaucidium-minutissimum-v4",
+      "species": "Glaucidium minutissimum",
+      "action": "REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "commit_sha": "3b24e64ee1f88f9756f4d44d373c539ef341f87d",
+      "archive_commit": "1da291ab2ac4d64022b01644f3f7641bc14f33cf",
+      "run_record": "owl-pet/production/runs/20261124T1535Z-cycle1.json",
+      "status": "VERIFIED",
+      "scientifically_verified": false,
+      "completed_at": "2026-11-24T15:40:33.031Z",
+      "stages": {
+        "STARTED": "2026-11-24T15:31:58.038Z",
+        "RESEARCH_READY": "2026-11-24T15:37:46.033Z",
+        "IMAGE_GENERATED": "2026-11-24T15:39:44.425Z",
+        "REVIEWED": "2026-11-24T15:40:14.937Z",
+        "ARCHIVED": "2026-11-24T15:40:21.270Z",
+        "VERIFIED": "2026-11-24T15:40:33.031Z"
+      },
+      "imagegen_wait_ms": 37815,
+      "extra_attempts": [],
+      "heartbeats": [
+        {
+          "at": "2026-11-24T15:37:55.632Z",
+          "event": "before_imagegen"
+        },
+        {
+          "at": "2026-11-24T15:39:16.623Z",
+          "event": "after_imagegen"
+        }
+      ],
+      "meta": {
+        "bytes": 2471224,
+        "sha256": "8d1a7fc7dd3d8efe9fa4a39e66ee092ccf702a41d36b553570739a58f0590975",
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "22e36b6ad16ff27a5dce1e39a4ca7c8c09460ceb"
+      },
+      "remote_verification": {
+        "bytes": 2471224,
+        "sha256": "8d1a7fc7dd3d8efe9fa4a39e66ee092ccf702a41d36b553570739a58f0590975",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "seconds": {
+        "research_ready_from_start": 347.995,
+        "generated_from_research_ready": 118.392,
+        "review_from_generated": 30.512,
+        "archive_from_review": 6.333,
+        "verified_from_archive": 11.761
+      }
+    },
+    {
+      "cycle": 2,
+      "id": "202-ninox-theomacha-v4",
+      "species": "Ninox theomacha",
+      "action": "REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "commit_sha": "eb8056b014535478d1d1561dc8ebda76033d72e5",
+      "archive_commit": "6058dba20d844e6f96ea18a6cf2c05fa13d9221d",
+      "run_record": "owl-pet/production/runs/20261124T1535Z-cycle2.json",
+      "status": "VERIFIED",
+      "scientifically_verified": false,
+      "completed_at": "2026-11-24T15:43:38.182Z",
+      "stages": {
+        "STARTED": "2026-11-24T15:40:45.243Z",
+        "RESEARCH_READY": "2026-11-24T15:41:24.347Z",
+        "IMAGE_GENERATED": "2026-11-24T15:42:56.368Z",
+        "REVIEWED": "2026-11-24T15:43:18.214Z",
+        "ARCHIVED": "2026-11-24T15:43:26.704Z",
+        "VERIFIED": "2026-11-24T15:43:38.182Z"
+      },
+      "imagegen_wait_ms": 39495,
+      "extra_attempts": [],
+      "heartbeats": [
+        {
+          "at": "2026-11-24T15:41:32.140Z",
+          "event": "before_imagegen"
+        },
+        {
+          "at": "2026-11-24T15:42:27.182Z",
+          "event": "after_imagegen"
+        }
+      ],
+      "meta": {
+        "bytes": 2313834,
+        "sha256": "a5fe6f59ec64d6712a83fe2378c51a4a8720504d01694e7fc42f0041ddc40348",
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "12132915f2f4f55c021b86d10f8fb739c4db05f7"
+      },
+      "remote_verification": {
+        "bytes": 2313834,
+        "sha256": "a5fe6f59ec64d6712a83fe2378c51a4a8720504d01694e7fc42f0041ddc40348",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "seconds": {
+        "research_ready_from_start": 39.104,
+        "generated_from_research_ready": 92.021,
+        "review_from_generated": 21.846,
+        "archive_from_review": 8.49,
+        "verified_from_archive": 11.478
+      }
+    },
+    {
+      "cycle": 3,
+      "id": "207-tyto-multipunctata-v4",
+      "species": "Tyto multipunctata",
+      "action": "REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "commit_sha": "c3ca06708985d1af63f142d80f56492fe0e9dcc5",
+      "archive_commit": "43b5cfc3cc13cc5aa3d093f12c917481f578233f",
+      "run_record": "owl-pet/production/runs/20261124T1535Z-cycle3.json",
+      "status": "VERIFIED",
+      "scientifically_verified": false,
+      "completed_at": "2026-11-24T15:46:45.729Z",
+      "stages": {
+        "STARTED": "2026-11-24T15:44:39.085Z",
+        "RESEARCH_READY": "2026-11-24T15:44:46.381Z",
+        "IMAGE_GENERATED": "2026-11-24T15:46:20.291Z",
+        "REVIEWED": "2026-11-24T15:46:26.631Z",
+        "ARCHIVED": "2026-11-24T15:46:33.829Z",
+        "VERIFIED": "2026-11-24T15:46:45.729Z"
+      },
+      "imagegen_wait_ms": 37301,
+      "extra_attempts": [],
+      "heartbeats": [
+        {
+          "at": "2026-11-24T15:44:54.955Z",
+          "event": "before_imagegen"
+        },
+        {
+          "at": "2026-11-24T15:45:47.522Z",
+          "event": "after_imagegen"
+        }
+      ],
+      "meta": {
+        "bytes": 2594802,
+        "sha256": "9f37fcd9189a326f0fea5e22b540c709a804d52484140dab0e94a61e04c7114c",
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "883e567fcc1fcdfbb4c24b3d4e928e7ebab3ac29"
+      },
+      "remote_verification": {
+        "bytes": 2594802,
+        "sha256": "9f37fcd9189a326f0fea5e22b540c709a804d52484140dab0e94a61e04c7114c",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "seconds": {
+        "research_ready_from_start": 7.296,
+        "generated_from_research_ready": 93.91,
+        "review_from_generated": 6.34,
+        "archive_from_review": 7.198,
+        "verified_from_archive": 11.9
+      }
+    },
+    {
+      "cycle": 4,
+      "id": "208-ninox-affinis-v4",
+      "species": "Ninox affinis",
+      "action": "REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "commit_sha": "6f1f2706e8f4550b300022d8cd5546d342e6c950",
+      "archive_commit": "e33501a29b076f0f0ee4052c7c32eddecc937637",
+      "run_record": "owl-pet/production/runs/20261124T1535Z-cycle4.json",
+      "status": "VERIFIED",
+      "scientifically_verified": false,
+      "completed_at": "2026-11-24T15:52:15.613Z",
+      "stages": {
+        "STARTED": "2026-11-24T15:47:00.667Z",
+        "RESEARCH_READY": "2026-11-24T15:47:29.092Z",
+        "IMAGE_GENERATED": "2026-11-24T15:51:20.124Z",
+        "REVIEWED": "2026-11-24T15:51:52.368Z",
+        "ARCHIVED": "2026-11-24T15:52:00.708Z",
+        "VERIFIED": "2026-11-24T15:52:15.613Z"
+      },
+      "imagegen_wait_ms": 49642,
+      "extra_attempts": [],
+      "heartbeats": [
+        {
+          "at": "2026-11-24T15:47:36.974Z",
+          "event": "before_imagegen"
+        },
+        {
+          "at": "2026-11-24T15:48:52.062Z",
+          "event": "after_imagegen"
+        }
+      ],
+      "meta": {
+        "bytes": 2643153,
+        "sha256": "2592417a8c2fc0c4a83a8ccaf5c31a52f89a3dc7a8f67696eacdd292f82f313f",
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "8525860b0649e61cd223dcdb063f681fefc7ac08"
+      },
+      "remote_verification": {
+        "bytes": 2643153,
+        "sha256": "2592417a8c2fc0c4a83a8ccaf5c31a52f89a3dc7a8f67696eacdd292f82f313f",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "seconds": {
+        "research_ready_from_start": 28.425,
+        "generated_from_research_ready": 231.032,
+        "review_from_generated": 32.244,
+        "archive_from_review": 8.34,
+        "verified_from_archive": 14.905
+      }
+    },
+    {
+      "cycle": 5,
+      "id": "206-glaucidium-castanopterum-v4",
+      "species": "Glaucidium castanopterum",
+      "action": "REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "commit_sha": "59e0d002eeb0bb7af02a30b264b4e26c7c249dfd",
+      "archive_commit": "9f5c31f95fb7e2728611a4207275a107500640fa",
+      "run_record": "owl-pet/production/runs/20261124T1535Z-cycle5.json",
+      "status": "VERIFIED",
+      "scientifically_verified": false,
+      "completed_at": "2026-11-24T15:57:10.087Z",
+      "stages": {
+        "STARTED": "2026-11-24T15:52:51.978Z",
+        "RESEARCH_READY": "2026-11-24T15:53:26.161Z",
+        "IMAGE_GENERATED": "2026-11-24T15:56:32.409Z",
+        "REVIEWED": "2026-11-24T15:56:52.046Z",
+        "ARCHIVED": "2026-11-24T15:56:58.591Z",
+        "VERIFIED": "2026-11-24T15:57:10.087Z"
+      },
+      "imagegen_wait_ms": 41889,
+      "extra_attempts": [
+        {
+          "attempt": 1,
+          "wait_ms": 41467,
+          "generated_persistence_commit": "f5cb41b2c4fbcf8687e1018a3809bba4be0102af",
+          "meta": {
+            "bytes": 2568682,
+            "sha256": "cca31ed031366612a9d485c6f7dceaf07dc98f878e8a33a1bc95458081323268",
+            "size": [
+              1536,
+              1024
+            ],
+            "gitblob": "b52a79e3bc07354921b1cd07555509f8fe10d0ad"
+          },
+          "review": "Fullplate and enlarged adult-foot crop viewed. Sparse toe bristles not convincingly readable; additional edit required."
+        }
+      ],
+      "heartbeats": [
+        {
+          "at": "2026-11-24T15:53:37.046Z",
+          "event": "before_imagegen"
+        },
+        {
+          "at": "2026-11-24T15:54:30.764Z",
+          "event": "after_imagegen"
+        },
+        {
+          "at": "2026-11-24T15:55:16.603Z",
+          "event": "before_corrective_imagegen"
+        },
+        {
+          "at": "2026-11-24T15:56:11.445Z",
+          "event": "after_corrective_imagegen"
+        }
+      ],
+      "meta": {
+        "bytes": 2551806,
+        "sha256": "512cc1648b58834c25d71811b38c4bca4b9df1c8d6a9edee17786b0b094b701e",
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "82f92dc66d0204ac25d09b96fe2d378590ffd5f1"
+      },
+      "remote_verification": {
+        "bytes": 2551806,
+        "sha256": "512cc1648b58834c25d71811b38c4bca4b9df1c8d6a9edee17786b0b094b701e",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "seconds": {
+        "research_ready_from_start": 34.183,
+        "generated_from_research_ready": 186.248,
+        "review_from_generated": 19.637,
+        "archive_from_review": 6.545,
+        "verified_from_archive": 11.496
+      }
+    },
+    {
+      "cycle": 6,
+      "id": "210-athene-superciliaris-v3",
+      "species": "Athene superciliaris",
+      "action": "REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "commit_sha": "5d838c42976d8b90281ed5e06c16cfa069934d8d",
+      "archive_commit": "3f37e75b3c73f2c4aae9c7ae71f7da0a167f3484",
+      "run_record": "owl-pet/production/runs/20261124T1535Z-cycle6.json",
+      "status": "VERIFIED",
+      "scientifically_verified": false,
+      "completed_at": "2026-11-24T16:00:31.690Z",
+      "stages": {
+        "STARTED": "2026-11-24T15:57:23.920Z",
+        "RESEARCH_READY": "2026-11-24T15:58:28.776Z",
+        "IMAGE_GENERATED": "2026-11-24T16:00:03.368Z",
+        "REVIEWED": "2026-11-24T16:00:10.916Z",
+        "ARCHIVED": "2026-11-24T16:00:19.019Z",
+        "VERIFIED": "2026-11-24T16:00:31.690Z"
+      },
+      "imagegen_wait_ms": 38458,
+      "extra_attempts": [],
+      "heartbeats": [
+        {
+          "at": "2026-11-24T15:58:42.913Z",
+          "event": "before_imagegen"
+        },
+        {
+          "at": "2026-11-24T15:59:38.406Z",
+          "event": "after_imagegen"
+        }
+      ],
+      "meta": {
+        "bytes": 2693098,
+        "sha256": "246ff290e45583b076121c9536fcf94a8242531594eb859be3c032a4de51c91f",
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "57d2423c17c0353a1a3b189456c3b03493b31b76"
+      },
+      "remote_verification": {
+        "bytes": 2693098,
+        "sha256": "246ff290e45583b076121c9536fcf94a8242531594eb859be3c032a4de51c91f",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "seconds": {
+        "research_ready_from_start": 64.856,
+        "generated_from_research_ready": 94.592,
+        "review_from_generated": 7.548,
+        "archive_from_review": 8.103,
+        "verified_from_archive": 12.671
+      }
+    }
+  ],
+  "verification": {
+    "six_tree_blob_and_manifest_hash_matches": true,
+    "historical203_sidecars_restored": true,
+    "initial_head": "48c2a6e1e93abd45abf368a7b6b00e3b8db8ced7",
+    "compare_only_six_concepts_added": true,
+    "lease": null,
+    "other_active_partial_batches": 0
+  },
+  "limitations": [
+    "Concept not scientific acceptance",
+    "Global current-version confirmation/repair counts unknown",
+    "251 authority roster not fully imported/aligned",
+    "Derived phase intervals include file/network/commit work",
+    "No fixed platform-timeout telemetry"
+  ]
+}

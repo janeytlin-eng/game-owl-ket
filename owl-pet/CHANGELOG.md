@@ -1,3 +1,6 @@
+## 2026-11-25 — 20261124T1535Z
+串行6轮：新增0/修订6，206/251；原图6张各自持久化、检查、归档并回读，sciencefalse。拒计重复203并恢复历史；来源索引适用边界/ID去重审计。[证据与原图入口](production/batches/20261124T1535Z-completed-review.md)。
+
 ## 20261124T1432Z
 6 verified revisions,0new species;206/251; six original PNGs retained, sciencefalse. [Evidence](production/batches/20261124T1432Z-completed-review.md).
 

@@ -6802,3 +6802,6 @@ New0/reused2 MIKKOLA2013 p284/PDF286 and FREO-CLEMENTS-2022-LUMP, westernscope/y
 Reused MIKKOLA2013p278/PDF280 and AKUN-MNHN-MO-1876-2027; new0/reused2; prioragebindingcorrectionkept, annotationonly. [Facts/limits/prompt](species/168-ketupa-leucosticta-v6.md).
 
 Correction 20261124T2040Z-cycle3: MNHN fresh original failed Internal Error, not freshly read. New0/reused1 freshly read Mikkola; MNHN historical reference only. Earlier samecycle reused2 entry corrected, not removed.
+
+## 2026-11-24T20:43:41.195Z 20261124T2040Z-cycle4
+New0/reused2 sharedMIKKOLA2013p288/PDF290 and SHEO-TOBIAS-WILLIAMS-2022-P73-79, juvenileillustrationcrossspeciesexclusionretained; annotationsonly. [Facts/limits/prompt](species/169-ketupa-shelleyi-v6.md).

@@ -6149,3 +6149,7 @@ ReusedNSUM-OLSEN-TROST-MYERS-2009-P10-11(originalbodyreread) andNSUM-MIKKOLA-201
 
 ## 20261123T2154Z cycle6: Otus insularis #178 v5 / Ninox burhani gap
 NBUR-INDRAWAN-SOMADIKARTA-2004-P160-170 新来源1；SSCO-CURRIE-ETAL-2004-P123-137、SSCO-MIKKOLA-2013-P138、SSCO-CURRIE-ETAL-2002-P16-18 复用3（前两项本次重读，2002出版社403，沿用旧核对）。[完整元数据、URL、页码、物种/阶段、事实/推断/限制及提示](species/178-otus-insularis-v5.md)。NBUR原文两个成年雄，三只野鸟不代表有幼鸟；不得套用Ninox属幼羽。#178仅补画面科学状态，不重计物种。[原图](../design/concepts/178-otus-insularis-v5.png) / [复查](reviews/178-otus-insularis-v5-review.md)。访问2026-11-24北京时间。
+
+
+## 20261124T0030Z cycle1 #179v5 / Megascops gilesi gap
+New1 MGIL-KRABBE-2017-EA08-P10-14 (Krabbe2017原始描述,实际读pp10–14,Fig6–7,无幼羽依据)。Reused4 MAYS-MIKKOLA-2013-P139/MAYS-MNHN-VOISIN-2011-P15-16/MAYS-OISEAUX-BAUER-2008-ADULT/MAYS-MARSHALL-1978-P19：前3实际重读，Marshall本次跳转未新读。设计推断更正1：immature不确认older或羽色。[完整元数据、URL/页码、适用阶段、限制、设计和提示](species/179-otus-mayottensis-v5.md)；[图](../design/concepts/179-otus-mayottensis-v5.png)/[复查](reviews/179-otus-mayottensis-v5-review.md)。访问2026-11-24，sciencefalse。

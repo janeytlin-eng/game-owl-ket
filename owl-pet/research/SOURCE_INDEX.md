@@ -6177,3 +6177,7 @@ SSO-PEREGRINEFUND-SPECIES-2026新增1；SSO-MIKKOLA-2013-P134/SSO-VIRANI-2008-P6
 
 ## 2026-11-24 — #184 v4 incremental reread, not new sources
 Reused MOSO-NTM-HAMBROECKI-2026 (NTM TMAV1899 description), MOSO-YMSNP-FLEDGLING-2026 (Features/Point), MOSO-MIKKOLA-2013-P148 (uploaded p148/PDF150 actually read). URLs and fact boundaries: [v4 research](species/184-otus-spilocephalus-v4.md). Adult continuous long black ventral stripes conflict with sparse shaft marks and transverse/small triangular markings; targeted morphology revision, not new juvenile developmental knowledge. No new source IDs; no quantified sexual-size direction. Related [image](../design/concepts/184-otus-spilocephalus-v4.png), [review](reviews/184-otus-spilocephalus-v4-review.md).
+
+
+## 2026-11-24 — #188 v4 direct adult iris reread
+Reuse JPSO-NOHARA-HONDA-2025-P75-78 DOI10.24715/smnh.19.0_75; p76/PDF2 Fig2/3 actually viewed, full75–78 read, link https://www.jstage.jst.go.jp/article/smnh/19/0/19_75/_pdf/-char/ja . Reuse guide printed158/PDF160 actually read (adult fiery/dark-red vs direct orange; keep variation). Orange adult iris chosen from directly photographed Honshu family; no yellow juvenile extrapolation. No new IDs. [Research](species/188-otus-semitorques-v4.md), [review](reviews/188-otus-semitorques-v4-review.md), [image](../design/concepts/188-otus-semitorques-v4.png). Source limitation one family, unknown age/iris/first flight and nest; same source does not prove all juveniles nonflying.

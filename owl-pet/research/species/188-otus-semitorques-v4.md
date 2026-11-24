@@ -1,0 +1,15 @@
+# #188 Otus semitorques semitorques v4 — adult iris correction
+
+Batch 20261124T0112Z cycle2/6; revision+1, unique+0. v1–v3 preserved; science=false.
+
+## Actually read sources 2026-11-24
+- Reuse JPSO-NOHARA-HONDA-2025-P75-78: Kiyoshi Nohara & Rina Honda2025, A Reliable Breeding Record of Collared Scops Owl in Saitama Prefecture, Japan. Museum primary field report, DOI10.24715/smnh.19.0_75, https://www.jstage.jst.go.jp/article/smnh/19/0/19_75/_pdf/-char/ja . Full4 pages read; p76/PDF2 and Fig2/3 actually viewed at enlarged page. Adult orange iris, feathered toes, brownish-white hindneck. Young whole body down, distinct tufts; iris not resolved; incompletely grown remiges/tail; recent departure inferred, not known age. Stationary cedar perch9–10m, little movement; nest not found. High direct local evidence, one family; cannot establish sex-size or full developmental sequence.
+- Reuse Mikkola2013 printed158/PDF160, user-uploaded page actually read: adult eyes fiery to dark red; feathered toes; no sexual-size data; grey double collar and herringbone underparts; juvenile mesoptile greyish to dull yellow diffusely barred. Young more-yellowish eyes described generically, not used to invent Saitama individual's iris. Adult orange vs guide red range preserved as population/individual/source variation; direct photographed Honshu orange used for this design. Historical mappings Otus bakkamoena semitorques / Otus lempiji semitorques retained, not independent species.
+
+## Actual v3 comparison and design inference
+v3 opened: adult irises appear dull ochre/yellow rather than clear orange from direct source. Target iris only. Juvenile down, incomplete wing/tail and supported branch retained; iris remains unknown. Near-equal adults is conservative display choice, not measured equality. No nest reconstruction. No new feather chronology inferred from photo. This correction must not propagate orange eyes to #184, whose adult yellow is supported.
+
+## Full prompt
+~~~text
+Use case: precise-object-edit. Existing #188 Otus semitorques Japanese Scops Owl v3 is edit target. Preserve the premium naturalistic owl-pet 3D style, all three birds, title, labels, near-equal adult body scale, grey-brown herringbone pattern, feathered toes, bars on actual remiges and tail, stable branch/cedar habitat and down-rich young. Make a narrowly targeted correction to BOTH ADULTS' IRIS COLOUR ONLY: the current dull ochre/yellowish irises should become distinctly clear warm ORANGE irises, with dark pupils and natural small reflections. The directly photographed Honshu adult in Nohara & Honda 2025 Fig.2 has orange irises; do not use yellow, lemon or glowing fire, and do not tint other feathers orange. The young's iris remains dark/indeterminate and unchanged, never copied from adult. No other morphological change. In the bottom margin, discreetly add exact footer "CONCEPT • SCIENTIFIC CALIBRATION PENDING • YOUNG AGE / IRIS / FLIGHT UNVERIFIED". Retain all title/labels in their current positions; no new birds, nest, eggs or watermark.
+~~~

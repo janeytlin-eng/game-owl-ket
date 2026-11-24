@@ -6770,3 +6770,6 @@ New0/reused3 source-ID references; actual read and citation-only scopes distingu
 
 ## 20261124T1632Z cycle6 recovery audit 2026-11-25
 Recovered existing220v3 fullPNG, no new generation or source. Reused TROS-MIKKOLA-2013-P109 by persisted actualpage record; CORNELL-CLEMENTS-2026-TYTO-LUMPS current targetedquery; TROS-MULYANA-2020-P5686-5688 fresh publisher sg PDF Abstract/Methods text https://sg.smujo.id/biodiv/article/download/6617/4434/32732 . Webtext access is not physicalphoto reading; general8week criterion not exact drawnchickage. Two earlier RESEARCH_READY index paragraphs refer SAME3IDs, not6 sources/reuses. [Complete metadata/fullprompt/recovery](species/220-tyto-rosenbergii-v3.md),[actualreview](reviews/220-tyto-rosenbergii-v3-review.md).
+
+## 2026-11-25 batch 20261124T1944Z cycle1 · Ninox leventisi · adult claws / uncertain young
+Reused CAMBOO-RASMUSSEN-2012-FORKTAIL; publisher mirror and printed15–16 adult-claw scope corrected/expanded, same2012 primary publication, new0/reused1/metadata-correction1. Adult mostly-pale claws contrasted against actualv4 dark claws; no Camiguin juvenile sequence established. Full metadata, facts, stage/sex limits and prompt: [#147v5](species/147-ninox-leventisi-v5.md). Image pending; science=false. Candidate searches recorded separately, not verified facts from snippets.

@@ -6331,3 +6331,5 @@ Reused **TMO-MIKKOLA-2013-P110**, actual uploadedPDF112read thiscycle: female da
 Actualv4view: male face fairly saturated chestnut closefemale, though bodypaler; unqualifiedlegacytitle and no scientificstatusfooter. v5 modestpalermalefacialdisc/underparts reflectingselectedguidepair, keepblackeyezone/rim. Add authority-specific currentname and sciencependingfooter; maintain bothfeet supported lowyoungstep/creamdown/foldedwings. No new juvenileage/flight/nestinterior claims. Preserveallversions andindependent3Dexperiments; no newcoverage. New1(reusedCornellnotnew),reused3; scientificfalse.
 
 [Prompt](prompts/172-tyto-castanops-v5.txt) · [Review](reviews/172-tyto-castanops-v5-review.md)
+
+Locator correction from actual original thiscycle: Debus1993 downy-leaving-hole paragraph is printed185/PDF18 (lines824–831), not printed187 as repeated byv4. Stable historicalsourceID TMO-DEBUS-1993-P169-172-187 retained for traceability; p187/PDF20 is Plate27 intermediate male/darkfemale. Neither old locator nor source-ID suffix may be treated as exact proof. Index correction1; no additional document count.

@@ -9,12 +9,22 @@
   "result": "STARTED",
   "stages": {
     "STARTED": "2026-11-24T17:56:10.245Z",
-    "RESEARCH_READY": "2026-11-24T17:57:31.310Z"
+    "RESEARCH_READY": "2026-11-24T17:57:31.310Z",
+    "IMAGE_GENERATED": "2026-11-24T18:33:09.112Z",
+    "REVIEWED": "2026-11-24T18:33:56.349Z"
   },
   "heartbeats": [
     {
       "at": "2026-11-24T17:57:41.883Z",
       "event": "before_imagegen"
+    },
+    {
+      "at": "2026-11-24T17:59:08.639Z",
+      "event": "before_imagegen"
+    },
+    {
+      "at": "2026-11-24T18:00:08.520Z",
+      "event": "after_imagegen"
     }
   ],
   "errors": [
@@ -65,5 +75,50 @@
       "alternate_url": "https://sg.smujo.id/biodiv/article/download/6617/4434/32732"
     }
   ],
-  "prompt": "Use case annotation-only precise-object-edit. Existing #220 Sulawesi Masked Owl v2 full trio. Preserve title Tyto rosenbergii and existing CLEMENTS2026 Tyto javanica rosenbergii plaque. Add small slim legible note below that plaque, not covering heads: 'SEX SIZE UNKNOWN'. Inside right juvenile role box retain AGE-UNKNOWN DOWNY CHICK and add small two-line note 'IRIS / BILL / FLIGHT UNVERIFIED', enlarge labelbox slightly downward within available space if needed without covering feet/scientificpendingfooter. Preserve all adult plumage/eyes/bills/darker heavilyspotted female/near-equal scale/footgrips and whole downychick/shortdowncoveredwings/feet and boxfloor support, wooden nestbox/cultivatedpalms. No phenotype change or new developmental claim. Same1536x1024 style."
+  "prompt": "Use case annotation-only precise-object-edit. Existing #220 Sulawesi Masked Owl v2 full trio. Preserve title Tyto rosenbergii and existing CLEMENTS2026 Tyto javanica rosenbergii plaque. Add small slim legible note below that plaque, not covering heads: 'SEX SIZE UNKNOWN'. Inside right juvenile role box retain AGE-UNKNOWN DOWNY CHICK and add small two-line note 'IRIS / BILL / FLIGHT UNVERIFIED', enlarge labelbox slightly downward within available space if needed without covering feet/scientificpendingfooter. Preserve all adult plumage/eyes/bills/darker heavilyspotted female/near-equal scale/footgrips and whole downychick/shortdowncoveredwings/feet and boxfloor support, wooden nestbox/cultivatedpalms. No phenotype change or new developmental claim. Same1536x1024 style.",
+  "recoveries": [
+    {
+      "at": "2026-11-24T18:32:12.235Z",
+      "prior_head": "7980497799dfcd71fbffb19edc5b3ea16776326c",
+      "prior_lease": {
+        "owner": "owl-1730Z",
+        "run_id": "20261124T1632Z-cycle6",
+        "heartbeat_at": "2026-11-24T18:00:08.520Z",
+        "expires_at": "2026-11-24T18:15:08.520Z"
+      },
+      "action": "Existing generatedPNG recovered; no220v3concept or finalarchive on remote. Resume same cycle6 without generation.",
+      "file": "generated_images/exec-40bf9e9a-49f2-4dcb-9abb-c65a507df942.png",
+      "expected_bytes": 2582857,
+      "expected_sha256": "d7c8d5f3b0f6b7327a8423aa03a7e7f3978714d627ec372144e93938e0bb73d4"
+    }
+  ],
+  "meta": {
+    "bytes": 2582857,
+    "sha256": "d7c8d5f3b0f6b7327a8423aa03a7e7f3978714d627ec372144e93938e0bb73d4",
+    "size": [
+      1536,
+      1024
+    ],
+    "gitblob": "882e62f3259f41f2096b668bcebf63443c000fef"
+  },
+  "image_generation_recovery": {
+    "original_after_imagegen_heartbeat": "2026-11-24T18:00:08.520Z",
+    "stage_timestamp_means": "Recovered original persisted now; not new generation",
+    "new_imagegen_calls_this_recovery": 0,
+    "generation_wait_ms": null,
+    "note": "Pure generation wait not in remote record; do not infer from tool+heartbeat wall time."
+  },
+  "review": "本次恢复后实际查看完整1536×1024原图：SEX SIZE UNKNOWN、IRIS/BILL/FLIGHT UNVERIFIED新增说明清楚可读，既有CLEMENTS2026分类说明和概念待科学校准页脚完整。成鸟黑褐眼/浅喙/灰褐白黑点上体/赭腹，雌鸟较重斑点与偏暗方向保留，未据头顶略低断言性别体型方向。幼鸟白绒/灰脸、下垂短绒覆翼和双足木箱底支撑视觉成立，无成熟长飞羽/飞行姿态。木箱剖视为设计展示，非尺寸复原。与v2角色位置有轻微重绘漂移，不声称逐像素保持。此版仅未知项注释修订，未建立新幼龄/裸部色/飞行事实，PASS_WITH_LIMITATIONS/sciencefalse。",
+  "lesson": "问题—已有v3生成中断，远端仍研究阶段；证据—原PNG可恢复且哈希匹配、main无conceptv3；操作—不重复imagegen，先持久化原图，再实际检查并归档验证；结果—阶段恢复真实应用，非新生成。研究补查：发布方sg镜像文本可读不等于照片已查看；8周一般观察终点不能给画中绒羽幼鸟定龄。恢复期间只复用3ID，不把重复索引段当新资料。",
+  "research_recovery_check": {
+    "at": "2026-11-24T18:33:56.349Z",
+    "new_sources": 0,
+    "reused_ids": [
+      "TROS-MIKKOLA-2013-P109",
+      "CORNELL-CLEMENTS-2026-TYTO-LUMPS",
+      "TROS-MULYANA-2020-P5686-5688"
+    ],
+    "external_action": "Targeted Clements query plus actual original publisher mirror Abstract/Methods text reopened; no new pixel/photo claim.",
+    "uploaded_guide": "Persisted actual printed109/PDF111 reading reused; not falsely claiming fresh page read in this recovery."
+  }
 }

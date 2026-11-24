@@ -9,7 +9,8 @@
   "stages": {
     "STARTED": "2026-11-24T17:56:10.245Z",
     "RESEARCH_READY": "2026-11-24T17:57:31.310Z",
-    "IMAGE_GENERATED": "2026-11-24T18:33:09.112Z"
+    "IMAGE_GENERATED": "2026-11-24T18:33:09.112Z",
+    "REVIEWED": "2026-11-24T18:33:56.349Z"
   },
   "heartbeats": [
     {
@@ -105,5 +106,18 @@
     "new_imagegen_calls_this_recovery": 0,
     "generation_wait_ms": null,
     "note": "Pure generation wait not in remote record; do not infer from tool+heartbeat wall time."
+  },
+  "review": "本次恢复后实际查看完整1536×1024原图：SEX SIZE UNKNOWN、IRIS/BILL/FLIGHT UNVERIFIED新增说明清楚可读，既有CLEMENTS2026分类说明和概念待科学校准页脚完整。成鸟黑褐眼/浅喙/灰褐白黑点上体/赭腹，雌鸟较重斑点与偏暗方向保留，未据头顶略低断言性别体型方向。幼鸟白绒/灰脸、下垂短绒覆翼和双足木箱底支撑视觉成立，无成熟长飞羽/飞行姿态。木箱剖视为设计展示，非尺寸复原。与v2角色位置有轻微重绘漂移，不声称逐像素保持。此版仅未知项注释修订，未建立新幼龄/裸部色/飞行事实，PASS_WITH_LIMITATIONS/sciencefalse。",
+  "lesson": "问题—已有v3生成中断，远端仍研究阶段；证据—原PNG可恢复且哈希匹配、main无conceptv3；操作—不重复imagegen，先持久化原图，再实际检查并归档验证；结果—阶段恢复真实应用，非新生成。研究补查：发布方sg镜像文本可读不等于照片已查看；8周一般观察终点不能给画中绒羽幼鸟定龄。恢复期间只复用3ID，不把重复索引段当新资料。",
+  "research_recovery_check": {
+    "at": "2026-11-24T18:33:56.349Z",
+    "new_sources": 0,
+    "reused_ids": [
+      "TROS-MIKKOLA-2013-P109",
+      "CORNELL-CLEMENTS-2026-TYTO-LUMPS",
+      "TROS-MULYANA-2020-P5686-5688"
+    ],
+    "external_action": "Targeted Clements query plus actual original publisher mirror Abstract/Methods text reopened; no new pixel/photo claim.",
+    "uploaded_guide": "Persisted actual printed109/PDF111 reading reused; not falsely claiming fresh page read in this recovery."
   }
 }

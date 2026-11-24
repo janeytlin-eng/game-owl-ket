@@ -1,0 +1,41 @@
+# 215-otus-angelinae-v3
+{
+  "batch_id": "20261124T1432Z",
+  "cycle": 4,
+  "id": "215-otus-angelinae-v3",
+  "species": "Otus angelinae",
+  "action": "REVISION",
+  "result": "STARTED",
+  "started_at": "2026-11-24T14:43:38.612Z",
+  "stages": {
+    "STARTED": "2026-11-24T14:43:38.612Z",
+    "RESEARCH_READY": "2026-11-24T14:44:09.831Z"
+  },
+  "prompt": "Use case precise-object-edit. Target #215 Javan Scops Owl Otus angelinae v2. Change ONLY RIGHT OLDER JUVENILE'S exposed upper-back/mantle/short folded wing-overlap region behind neck: introduce several irregular soft-edged DARK RUFUS-BROWN transverse bars across mantle and upper back, broader than existing fine crown crossbars. Keep overall young dark reddish-brown and loose juvenile contour, not black adult herringbones, not white shoulder stripe. Do not lengthen wings, add mature primaries, alter young throat/face/eyes/bill/feet/tail/pose; preserve AGE UNKNOWN and IRIS UNVERIFIED labels. Keep both adults, ear tufts/brows/scapular markings/sex labels/near-equal body sizes, mossy branch/six foot grips, misty Javan forest and all blackgold title/footer1536x1024. No precise age/flight/nest claims.",
+  "issue": "Actual v2 full view: young back/mantle field behind head mostly uniform reddish brown, missing broader transverse bars described for young; crown already finely crossbarred so preserve.",
+  "sources": [
+    {
+      "id": "OANG-MIKKOLA-2013-P182",
+      "author": "Heimo Mikkola",
+      "year": 2013,
+      "title": "Owls of the World second edition",
+      "url": "uploaded PDF",
+      "pages": "printed182/PDF184",
+      "stage": "juvenile",
+      "fact": "Actual page freshly read: fine dark crown crossbars, broader mantle/back/rump bars.",
+      "limits": "Secondary guide; no precise age/iris/flight or exact bar count."
+    },
+    {
+      "id": "OANG-BIRDLIFE-2001-P1748",
+      "author": "BirdLife International",
+      "year": 2001,
+      "title": "Threatened Birds of Asia",
+      "url": "https://birdlifedata.blob.core.windows.net/red-data-books/otusange.pdf",
+      "pages": "1748 Breeding",
+      "stage": "fledged young",
+      "fact": "Original section read; family groups with fledged young, not feather chronology or exact age.",
+      "limits": "Institutional synthesis, West Java design preserved; no speculative fern nest."
+    }
+  ]
+}
+Old Pisorhina angelinae=current Otus angelinae. Exact bar density/width artistic inference; narrow bounded secondary-source pattern correction, sciencefalse. External juvenile keywords also tried; unrelated Otus scops references excluded. 2019 East Java age/identification uncertainty retained; not used.

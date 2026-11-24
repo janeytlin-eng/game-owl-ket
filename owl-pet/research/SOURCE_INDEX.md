@@ -6673,3 +6673,7 @@ New0/reused2 AMAL-MIKKOLA-2013-P483 freshly read uploadedprinted483/PDF485, AMAL
 
 ## 20261124T1432Z cycle3 221-ninox-meeki-v3
 New0/reused2 NMEE-MIKKOLA-2013-P496 freshly uploaded496/PDF498 juvenile heavier white COVERT bars, NMEE-ITIS-555488 original taxon body read. Primary1914/development search did not provide corroborating juvenile chronology; search-only generic raptor material rejected. [Metadata/prompt](species/221-ninox-meeki-v3.md) · [review](reviews/221-ninox-meeki-v3-review.md).
+
+
+## 20261124T1432Z cycle4 215-otus-angelinae-v3
+New0/reused2 OANG-MIKKOLA-2013-P182 actualuploaded182/PDF184 and OANG-BIRDLIFE-2001-P1748 originalBreeding section. Juvenile broader dark mantle/back bars only; older family-group observation not day-age or infant anatomy. [Metadata/prompt](species/215-otus-angelinae-v3.md) · [review](reviews/215-otus-angelinae-v3-review.md).

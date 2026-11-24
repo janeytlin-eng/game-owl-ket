@@ -6756,3 +6756,7 @@ New0/reused2 source-ID references; actual read and citation-only scopes distingu
 
 ## 20261124T1632Z cycle2 213-glaucidium-tephronotum-v4
 New0/reused2 source-ID references; actual read and citation-only scopes distinguished in [metadata/fullprompt](species/213-glaucidium-tephronotum-v4.md), [review](reviews/213-glaucidium-tephronotum-v4-review.md). Recovery of cycle2: v3 two claw edits failed yellowish horn. v4 only can be credited after actual effective edit; all oldrecords and unsuccessfulimages retained.
+
+
+## 20261124T1632Z cycle6 220-tyto-rosenbergii-v3
+New0/reused3 source-ID references; actual read and citation-only scopes distinguished in [metadata/fullprompt](species/220-tyto-rosenbergii-v3.md), [review](reviews/220-tyto-rosenbergii-v3-review.md). Highestv2 fullplate actually viewed: sexsize not evidenced but rolepair labels unqualified; chick label ageunknown lacks explicit flight/iris/bill uncertainty. No newly established morphological defect. Annotation-only scope revision preserves existing local Sulawesi phenotype and taxonomy plaque.

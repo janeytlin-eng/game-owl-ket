@@ -9,9 +9,19 @@
   "result": "STARTED",
   "stages": {
     "STARTED": "2026-11-24T17:51:02.322Z",
-    "RESEARCH_READY": "2026-11-24T17:51:22.779Z"
+    "RESEARCH_READY": "2026-11-24T17:51:22.779Z",
+    "IMAGE_GENERATED": "2026-11-24T17:53:02.640Z"
   },
-  "heartbeats": [],
+  "heartbeats": [
+    {
+      "at": "2026-11-24T17:51:35.704Z",
+      "event": "before_crop_correction"
+    },
+    {
+      "at": "2026-11-24T17:52:19.110Z",
+      "event": "after_crop_correction"
+    }
+  ],
   "errors": [],
   "prior_attempt": {
     "batch_id": "20261124T1632Z",
@@ -156,6 +166,30 @@
     "exactpycrafticolour",
     "claw colour calibration"
   ],
-  "prompt": "Use case precise-object-edit. The input image is ONLY a closeup of ADULT feet from #213. Each toe has a sharply curved pointed CLAW at its tip. Recolour the hard curved CLAWS themselves: ivory creamy PALE YELLOW HORN for most of every claw, with ONLY the very distal sharp end darkblack. Think pale horn talon with dark tip, not black talon with light reflection. Toes remain yellow scaly, shapes/count/natural branch grips unchanged. Preserve all surrounding tarsi/feathers/branch. Do not add toes or alter anatomy. This is a local correction patch for a full trio, NOT a new species plate. Output same crop framing."
+  "prompt": "Use case precise-object-edit. The input image is ONLY a closeup of ADULT feet from #213. Each toe has a sharply curved pointed CLAW at its tip. Recolour the hard curved CLAWS themselves: ivory creamy PALE YELLOW HORN for most of every claw, with ONLY the very distal sharp end darkblack. Think pale horn talon with dark tip, not black talon with light reflection. Toes remain yellow scaly, shapes/count/natural branch grips unchanged. Preserve all surrounding tarsi/feathers/branch. Do not add toes or alter anatomy. This is a local correction patch for a full trio, NOT a new species plate. Output same crop framing.",
+  "meta": {
+    "bytes": 2219416,
+    "sha256": "78ae381226378ef568f4fb231d42b436008545aa595a714990560c90fdfd48f0",
+    "size": [
+      2011,
+      782
+    ],
+    "gitblob": "5935f725965c540d7ed76536e332ae79d75b254c"
+  },
+  "imagegen_wait_ms": 98625,
+  "crop_patch": {
+    "meta": {
+      "bytes": 2219416,
+      "sha256": "78ae381226378ef568f4fb231d42b436008545aa595a714990560c90fdfd48f0",
+      "size": [
+        2011,
+        782
+      ],
+      "gitblob": "5935f725965c540d7ed76536e332ae79d75b254c"
+    },
+    "wait_ms": 25198,
+    "actual_review": "Actually viewed generated crop: creamy yellow horn claws with dark distal tips clearly visible. Claw outlines/lengths slightly changed; use colour reference only, not transplant geometry.",
+    "path": "owl-pet/production/artifacts/20261124T1632Z/213-v4-colour-patch.png"
+  },
+  "merge_prompt": "Use case precise-object-edit. Image1 is the FULL #213 owl trio and is the final output target. Image2 is an enlarged ADULT FOOT COLOUR REFERENCE patch only. Transfer ONLY image2's pale creamy-yellow HORN CLAW colour and dark distal tips onto BOTH ADULTS claws in image1, keeping image1's original claw shapes/lengths/counts/grips and body scale. DO NOT enlarge claws to patch proportions. Each adult claw mainly creamy pale yellow, only sharp end black. Keep right juvenile claws and entire young wholly unchanged. Preserve all other original birds/feathers/eyes/bills/near-equal size/branch/rainforest/title/roles/uncertaintyfooter. Output FULL1536x1024 TRIO with alltext, NOT a footcrop or collage. Use patch for colour only."
 }
-Facts vs design: scoped character only; exact rendering artistic inference, no biological ratio or stage measurement.

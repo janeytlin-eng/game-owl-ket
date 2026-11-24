@@ -1,0 +1,289 @@
+{
+  "batch_id": "20261124T1332Z",
+  "result": "COMPLETE",
+  "this_invocation_completed_cycles": 6,
+  "new_species": 0,
+  "revised_species": 6,
+  "morphology_revisions": 5,
+  "annotation_only_revisions": 1,
+  "source_counts": {
+    "new_independent_sources": 0,
+    "reused_id_references": 13,
+    "design_corrections": 6
+  },
+  "stats": {
+    "unique_species": 206,
+    "total": 251,
+    "numbered_versions": 1022,
+    "raw_stems": 209,
+    "manifest": 976,
+    "aliases": {
+      "glaucidium-brasilianum-cactorum": "glaucidium-brasilianum",
+      "tyto-javanica-delicatula": "tyto-javanica",
+      "pseudoscops-grammicus": "asio-grammicus"
+    }
+  },
+  "timing_definitions": {
+    "research_wall_proxy_s": "STARTED to RESEARCH_READY includes setup/recovery/source reads/prompt preparation, not pure reading CPU",
+    "imagegen_wait_ms": "client observed tool wait, not backend compute telemetry",
+    "generated_to_review_wall_s": "persisted generation to actual final review, includes file handling and viewing",
+    "archive_to_verified_wall_s": "archive persistence and pinned raw GET/hash/PIL decode",
+    "platform_timeout_telemetry": "none"
+  },
+  "cycles": [
+    {
+      "cycle": 1,
+      "id": "236-ninox-reyi-v2",
+      "species": "Ninox reyi",
+      "action": "REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "commit_sha": "62477f8a3f5dcc5214f1b1e3107481bec6df8dc4",
+      "archive_commit": "e45637d4783b4207665c9c0dbac401a45988bb43",
+      "run_record": "owl-pet/production/runs/20261124T1332Z-cycle1.md",
+      "status": "VERIFIED",
+      "scientifically_verified": false,
+      "source_counts": {
+        "new": 0,
+        "reused": 2,
+        "corrected": 1
+      },
+      "completed_at": "2026-11-24T13:35:28.118Z",
+      "ledger_commit": "02d49ced20f5cd66b044b96e1d0fb98818de8af7",
+      "raw": "https://raw.githubusercontent.com/janeytlin-eng/game-owl-ket/e45637d4783b4207665c9c0dbac401a45988bb43/owl-pet/design/concepts/236-ninox-reyi-v2.png",
+      "meta": {
+        "bytes": 2653937,
+        "sha256": "75e6a68d9f720f6867295ed7c9c197df89a02d0d7a84383da8ef802bc7f91508",
+        "gitblob": "ac27925646bd231b6f37d4a40fbb18261e7a408b",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "imagegen_wait_ms": 38760,
+      "stages": {
+        "STARTED": "2026-11-24T13:31:38.778Z",
+        "RESEARCH_READY": "2026-11-24T13:32:38.816Z",
+        "IMAGE_GENERATED": "2026-11-24T13:34:29.190Z",
+        "REVIEWED": "2026-11-24T13:34:49.873Z",
+        "ARCHIVED": "2026-11-24T13:35:01.732Z",
+        "VERIFIED": "2026-11-24T13:35:18.274Z"
+      },
+      "research_wall_proxy_s": 60.038,
+      "generated_to_review_wall_s": 20.683,
+      "archive_to_verified_wall_s": 16.542
+    },
+    {
+      "cycle": 2,
+      "id": "235-otus-pamelae-v2",
+      "species": "Otus pamelae",
+      "action": "REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "commit_sha": "5e252192604b0854e45e78341c24d21c7875e8ac",
+      "archive_commit": "f8732385e1d018355a98c5e71fe1d215b0272a35",
+      "run_record": "owl-pet/production/runs/20261124T1332Z-cycle2.md",
+      "status": "VERIFIED",
+      "scientifically_verified": false,
+      "source_counts": {
+        "new": 0,
+        "reused": 2,
+        "corrected": 1
+      },
+      "completed_at": "2026-11-24T13:38:47.405Z",
+      "ledger_commit": "2bbc823efed900abe9eb6643a7ef3946a6cb29ab",
+      "raw": "https://raw.githubusercontent.com/janeytlin-eng/game-owl-ket/f8732385e1d018355a98c5e71fe1d215b0272a35/owl-pet/design/concepts/235-otus-pamelae-v2.png",
+      "meta": {
+        "bytes": 2655467,
+        "sha256": "d5fc810c2896bac1615242d2dd7dadf8794f6f9f87a24ce4c91ee63b8ac5d5fa",
+        "gitblob": "e122ae1e793acd94994fc775aa50dff5a740c30c",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "imagegen_wait_ms": 41936,
+      "stages": {
+        "STARTED": "2026-11-24T13:35:51.651Z",
+        "RESEARCH_READY": "2026-11-24T13:36:35.001Z",
+        "IMAGE_GENERATED": "2026-11-24T13:37:50.728Z",
+        "REVIEWED": "2026-11-24T13:38:12.529Z",
+        "ARCHIVED": "2026-11-24T13:38:22.245Z",
+        "VERIFIED": "2026-11-24T13:38:38.026Z"
+      },
+      "research_wall_proxy_s": 43.35,
+      "generated_to_review_wall_s": 21.801,
+      "archive_to_verified_wall_s": 15.781
+    },
+    {
+      "cycle": 3,
+      "id": "234-otus-sulaensis-v3",
+      "species": "Otus sulaensis",
+      "action": "REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "commit_sha": "5e6eb8eca9a858c53ede6d17e225adead810b49b",
+      "archive_commit": "b4017f2a697f542837272a155b82158dfdca5ef7",
+      "run_record": "owl-pet/production/runs/20261124T1332Z-cycle3.md",
+      "status": "VERIFIED",
+      "scientifically_verified": false,
+      "source_counts": {
+        "new": 0,
+        "reused": 2,
+        "corrected": 1
+      },
+      "completed_at": "2026-11-24T13:42:23.272Z",
+      "ledger_commit": "52bc05250e2f19f8f50c14267b7e7605e77e8156",
+      "raw": "https://raw.githubusercontent.com/janeytlin-eng/game-owl-ket/b4017f2a697f542837272a155b82158dfdca5ef7/owl-pet/design/concepts/234-otus-sulaensis-v3.png",
+      "meta": {
+        "bytes": 2598236,
+        "sha256": "fcc33f59041cfc59fc69bea52e619ef04e42819ea1188db53bcc99de50f3eb89",
+        "gitblob": "40ee3fb84f07f34e967cb0d2447f22ce5cd31e53",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "imagegen_wait_ms": 43574,
+      "stages": {
+        "STARTED": "2026-11-24T13:39:07.710Z",
+        "RESEARCH_READY": "2026-11-24T13:39:54.807Z",
+        "IMAGE_GENERATED": "2026-11-24T13:41:21.894Z",
+        "REVIEWED": "2026-11-24T13:41:44.350Z",
+        "ARCHIVED": "2026-11-24T13:41:55.306Z",
+        "VERIFIED": "2026-11-24T13:42:12.724Z"
+      },
+      "research_wall_proxy_s": 47.097,
+      "generated_to_review_wall_s": 22.456,
+      "archive_to_verified_wall_s": 17.418
+    },
+    {
+      "cycle": 4,
+      "id": "232-ninox-ochracea-v3",
+      "species": "Ninox ochracea",
+      "action": "REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "commit_sha": "dfa48738b0880cba8d4e329a2b3cedb72dcacce9",
+      "archive_commit": "40d6d87296068faa52ef0156ebd0c264f2b6fc57",
+      "run_record": "owl-pet/production/runs/20261124T1332Z-cycle4.md",
+      "status": "VERIFIED",
+      "scientifically_verified": false,
+      "source_counts": {
+        "new": 0,
+        "reused": 2,
+        "corrected": 1
+      },
+      "completed_at": "2026-11-24T13:45:50.865Z",
+      "ledger_commit": "5f802b76cf530ba52c7acbebeeab3267e088f3ea",
+      "raw": "https://raw.githubusercontent.com/janeytlin-eng/game-owl-ket/40d6d87296068faa52ef0156ebd0c264f2b6fc57/owl-pet/design/concepts/232-ninox-ochracea-v3.png",
+      "meta": {
+        "bytes": 2498310,
+        "sha256": "6285920f552490ea96a2f15ff5579419bd9c68a640c46cfcba9d91c16f43c7b0",
+        "gitblob": "9ff130aca4571bcf0d7dc7590ac23e1691332bbf",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "imagegen_wait_ms": 41046,
+      "stages": {
+        "STARTED": "2026-11-24T13:42:46.425Z",
+        "RESEARCH_READY": "2026-11-24T13:43:31.869Z",
+        "IMAGE_GENERATED": "2026-11-24T13:44:49.709Z",
+        "REVIEWED": "2026-11-24T13:45:13.315Z",
+        "ARCHIVED": "2026-11-24T13:45:22.706Z",
+        "VERIFIED": "2026-11-24T13:45:42.495Z"
+      },
+      "research_wall_proxy_s": 45.444,
+      "generated_to_review_wall_s": 23.606,
+      "archive_to_verified_wall_s": 19.789
+    },
+    {
+      "cycle": 5,
+      "id": "226-otus-icterorhynchus-v3",
+      "species": "Otus icterorhynchus",
+      "action": "REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "commit_sha": "6b3361f096260ae4d3e856c82a938130c80dd6eb",
+      "archive_commit": "fe126c5f79d31601bc336deeee1d12fdc15cfad5",
+      "run_record": "owl-pet/production/runs/20261124T1332Z-cycle5.md",
+      "status": "VERIFIED",
+      "scientifically_verified": false,
+      "source_counts": {
+        "new": 0,
+        "reused": 2,
+        "corrected": 1
+      },
+      "completed_at": "2026-11-24T13:49:35.682Z",
+      "ledger_commit": "f46b08b61c9256bb2f07ea3109fcca32974e38b0",
+      "raw": "https://raw.githubusercontent.com/janeytlin-eng/game-owl-ket/fe126c5f79d31601bc336deeee1d12fdc15cfad5/owl-pet/design/concepts/226-otus-icterorhynchus-v3.png",
+      "meta": {
+        "bytes": 2513385,
+        "sha256": "a11219f79c2b496fa6d535278a4bd9494b9bb8179328a66162aa578038afbb82",
+        "gitblob": "84b9f95411ae2267002240aded04a02b353edb5a",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "imagegen_wait_ms": 44632,
+      "stages": {
+        "STARTED": "2026-11-24T13:46:12.241Z",
+        "RESEARCH_READY": "2026-11-24T13:46:59.020Z",
+        "IMAGE_GENERATED": "2026-11-24T13:48:26.149Z",
+        "REVIEWED": "2026-11-24T13:48:50.830Z",
+        "ARCHIVED": "2026-11-24T13:49:01.500Z",
+        "VERIFIED": "2026-11-24T13:49:24.624Z"
+      },
+      "research_wall_proxy_s": 46.779,
+      "generated_to_review_wall_s": 24.681,
+      "archive_to_verified_wall_s": 23.124
+    },
+    {
+      "cycle": 6,
+      "id": "230-taenioptynx-sylvaticus-v2",
+      "species": "Taenioptynx sylvaticus",
+      "action": "REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "commit_sha": "60bb236c587e4b2b024759877182fd939eb87f07",
+      "archive_commit": "ee2634b919c728e47d897560523f9477eacaa78b",
+      "run_record": "owl-pet/production/runs/20261124T1332Z-cycle6.md",
+      "status": "VERIFIED",
+      "scientifically_verified": false,
+      "source_counts": {
+        "new": 0,
+        "reused": 3,
+        "corrected": 1
+      },
+      "completed_at": "2026-11-24T13:54:18.448Z",
+      "ledger_commit": "72721ec57614e98b01c7917427db47a36b7e938b",
+      "raw": "https://raw.githubusercontent.com/janeytlin-eng/game-owl-ket/ee2634b919c728e47d897560523f9477eacaa78b/owl-pet/design/concepts/230-taenioptynx-sylvaticus-v2.png",
+      "meta": {
+        "bytes": 2741312,
+        "sha256": "9c1945e129a3a4a6e0a4d30e85a03e330eebb6830481b4d4e5f28402c64ca3c3",
+        "gitblob": "6783871992113c4088f0edbe9ee0589d9192fb7a",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "imagegen_wait_ms": 36107,
+      "stages": {
+        "STARTED": "2026-11-24T13:50:33.760Z",
+        "RESEARCH_READY": "2026-11-24T13:51:57.994Z",
+        "IMAGE_GENERATED": "2026-11-24T13:53:14.161Z",
+        "REVIEWED": "2026-11-24T13:53:38.268Z",
+        "ARCHIVED": "2026-11-24T13:53:50.552Z",
+        "VERIFIED": "2026-11-24T13:54:08.162Z"
+      },
+      "research_wall_proxy_s": 84.234,
+      "generated_to_review_wall_s": 24.107,
+      "archive_to_verified_wall_s": 17.61
+    }
+  ],
+  "other_effective_unfinished_batches": 0,
+  "next_cycle": "next new batch1/6"
+}

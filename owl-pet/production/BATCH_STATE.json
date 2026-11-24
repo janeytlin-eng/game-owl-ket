@@ -53113,7 +53113,8 @@
       ],
       "next_cycle": null,
       "started_at": "2026-11-24T13:31:38.778Z",
-      "completed_at": "2026-11-24T13:54:18.448Z"
+      "completed_at": "2026-11-24T13:54:18.448Z",
+      "summary_record": "owl-pet/production/batches/20261124T1332Z-completed-review.md"
     }
   ],
   "lease": null,
@@ -53250,7 +53251,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-24T13:54:18.448Z",
+  "updated_at": "2026-11-24T13:56:03.646Z",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -82939,14 +82940,17 @@
   "last_verified": "2026-11-13T05:41:40.899+08:00",
   "unique_species_count_recomputed": 206,
   "unique_species_count_recomputed_basis": {
-    "commit": "4b34e43844821b40b7f19dfc50019e866c16647a",
-    "numbered_versions": 1016,
-    "raw_taxon_stems": 209,
+    "commit": "72721ec57614e98b01c7917427db47a36b7e938b",
+    "unique_species": 206,
+    "total": 251,
+    "numbered_versions": 1022,
+    "raw_stems": 209,
+    "manifest": 976,
     "aliases": {
       "glaucidium-brasilianum-cactorum": "glaucidium-brasilianum",
       "tyto-javanica-delicatula": "tyto-javanica",
       "pseudoscops-grammicus": "asio-grammicus"
     }
   },
-  "next_action": "Next new batch cycle1 after fresh main/lease/source/queue inspection; no other effective unfinished batch"
+  "next_action": "Next new batch1/6 after fresh main/lease; prioritize unmade-species roster/juvenile-evidence gaps and explicit unresolved corrections"
 }

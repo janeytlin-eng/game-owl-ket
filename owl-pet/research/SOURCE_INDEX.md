@@ -6797,3 +6797,6 @@ Reused GREO-BARLOW-2022-FULL primarybody, new0/reused1; estimated age/firstfligh
 
 ## 2026-11-24T20:37:16.584Z 20261124T2040Z-cycle2
 New0/reused2 MIKKOLA2013 p284/PDF286 and FREO-CLEMENTS-2022-LUMP, westernscope/youngunknowns retained. [Facts/limits/prompt](species/167-ketupa-poensis-v6.md).
+
+## 2026-11-24T20:40:58.620Z 20261124T2040Z-cycle3
+Reused MIKKOLA2013p278/PDF280 and AKUN-MNHN-MO-1876-2027; new0/reused2; prioragebindingcorrectionkept, annotationonly. [Facts/limits/prompt](species/168-ketupa-leucosticta-v6.md).

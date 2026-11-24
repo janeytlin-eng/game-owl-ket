@@ -6,8 +6,8 @@
   "species": "Glaucidium sanchezi",
   "action": "ANNOTATION_REVISION",
   "started_at": "2026-11-24T20:46:15.699Z",
-  "stage": "ARCHIVED",
-  "status": "STARTED",
+  "stage": "VERIFIED",
+  "status": "VERIFIED",
   "scientifically_verified": false,
   "stages": [
     {
@@ -37,7 +37,21 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-24T20:47:48.455Z"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-24T20:48:24.369Z",
+      "archive_commit": "110f5d40011afd605ac3e7fa9d65ad802d32c802",
+      "bytes": 2553617,
+      "sha256": "4a54cb868b2635769cefb52b355335404a33310c68b536e12a55b655e6460269",
+      "size": [
+        1536,
+        1024
+      ],
+      "remote_GET_SHA256_decode": true
     }
   ],
-  "errors": []
+  "errors": [],
+  "completed_at": "2026-11-24T20:48:24.369Z",
+  "archive_commit": "110f5d40011afd605ac3e7fa9d65ad802d32c802"
 }

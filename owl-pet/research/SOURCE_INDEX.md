@@ -6709,3 +6709,7 @@ New0/reused2 PBBO-MIKKOLA-2013-P484 freshlyuploaded484/PDF486 featheredadulttars
 
 ## 20261124T1535Z cycle3 207-tyto-multipunctata-v4
 New0/reused2; actual metadata/pages/facts/limits and fullprompt in [species](species/207-tyto-multipunctata-v4.md), [review](reviews/207-tyto-multipunctata-v4-review.md). Actual highest v3 full image: adult claws are pale grey-horn and nearly same lightness as toes, inconsistent guide darkclaws. Recolour adult claw plates only; young unchanged.
+
+
+## 20261124T1535Z cycle4 208-ninox-affinis-v4
+New0/reused2; actual metadata/pages/facts/limits and fullprompt in [species](species/208-ninox-affinis-v4.md), [review](reviews/208-ninox-affinis-v4-review.md). Actual latestv3 full view: young chest/belly has broad bright rufous long stripes approaching adult contrast. Source says fluffy mesoptile less distinctly streaked; soften young ventral stripes, not erase all markings.

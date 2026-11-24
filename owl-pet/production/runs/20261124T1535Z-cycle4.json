@@ -7,7 +7,32 @@
   "result": "STARTED",
   "started_at": "2026-11-24T15:47:00.667Z",
   "stages": {
-    "STARTED": "2026-11-24T15:47:00.667Z"
+    "STARTED": "2026-11-24T15:47:00.667Z",
+    "RESEARCH_READY": "2026-11-24T15:47:29.092Z"
   },
-  "heartbeats": []
+  "heartbeats": [],
+  "issue": "Actual latestv3 full view: young chest/belly has broad bright rufous long stripes approaching adult contrast. Source says fluffy mesoptile less distinctly streaked; soften young ventral stripes, not erase all markings.",
+  "prompt": "Use case precise-object-edit. Target #208 Andaman Boobook Ninox affinis v3. Change ONLY RIGHT MESOPTILE'S CHEST and BELLY STREAK CONTRAST: soften/diffuse bright broad rusty vertical stripes into less distinct narrower low-contrast rufous-brown streaks through its fluffy pale-buff ventrum. Keep irregular stage-specific faint pattern, not blank white cottonball and not change head/back/wing. Both ADULTS retain long bright rufous ventral stripes exactly. Keep entire young pose/compactsoftwing/eyes/bill/feet/grips, adult eyes/bill-conflict/scale and all three birds/title/rolelabels/uncertaintyfooter/rainforest1536x1024. No preciseage/iris/bill/flight/nest/sexratio claim.",
+  "sources": [
+    {
+      "id": "NAFF-MIKKOLA-2013-P470",
+      "author": "Heimo Mikkola",
+      "year": 2013,
+      "title": "Owls of the World second edition",
+      "url": "uploaded PDF",
+      "pages": "printed470/PDF472",
+      "stage": "mesoptile",
+      "actual_read": "Fresh complete uploaded text: fluffy young less distinctly streaked below than adults.",
+      "limits": "Secondary guide, no measured contrast/chronological age."
+    },
+    {
+      "id": "NAFF-OISEAUX-2015",
+      "authors": "Daniel Le Dantec; review Frédéric Ciszek",
+      "date": "2015-12-29",
+      "title": "Ninoxe des Andaman",
+      "url": "https://www.oiseaux.net/oiseaux/ninoxe.des.andaman.html",
+      "stage": "juvenile",
+      "limits": "Overlappingsecondary account, not independentfieldgrowth study; bill conflict retained."
+    }
+  ]
 }

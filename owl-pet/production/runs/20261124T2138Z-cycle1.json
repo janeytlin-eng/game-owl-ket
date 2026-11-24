@@ -1,15 +1,33 @@
 {
   "batch_id": "20261124T2138Z",
   "cycle": 1,
-  "result": "STARTED",
+  "result": "RESEARCH_READY",
   "started_at": "2026-11-24T21:34:23.495Z",
   "stages": {
-    "STARTED": "2026-11-24T21:34:23.495Z"
+    "STARTED": "2026-11-24T21:34:23.495Z",
+    "RESEARCH_READY": "2026-11-24T21:36:57.795Z"
   },
   "scope": "Evidence discovery missing species; select actual evidenced new young or real morphological correction. No species credited yet.",
   "counts_before": {
     "unique_species": 206,
     "total": 251
   },
-  "recovery": "#25 v1-v4 remote paths and blobs read; fd9d70d/local recovery not established, no remake."
+  "recovery": "#25 v1-v4 remote paths and blobs read; fd9d70d/local recovery not established, no remake.",
+  "id": "04-athene-noctua-v6",
+  "species": "Athene noctua",
+  "action": "MORPHOLOGY_REVISION",
+  "issue": "Actual v5 full view: heavy long streaks persist into adults lower belly; guide says relatively unmarked belly. Initial male-large suspicion rejected after comparing crown-to-toe using each footing height. Do not rescale.",
+  "prompt": "Use case: precise-object-edit. Edit the existing Little Owl Athene noctua v5 plate as revision v6. Change ONLY the LOWER BELLY plumage of BOTH ADULTS. Current long heavy dark longitudinal streaks extend into the low belly; the species guide describes the low belly as relatively unmarked. Keep the strongly streaked breast and flanks, gradually reduce the long dark shafts toward the lower central belly to a few sparse short faint irregular brown flecks on pale cream. NOT a blank white bib, not loss of the breast pattern, no uniform grid. Preserve the entire centre approximately28-day pre-fledging chick unchanged, including its formed short down-softened wing, crown, eyes, beak, legs and branch support. Preserve both adults' dimensions and their DIFFERENT FOOTING HEIGHTS exactly: they already have similar crown-to-toe body scale, so do NOT rescale based merely on absolute crown position. Preserve spotted crown, eyebrows, yellow adult eyes, green-grey bill and olive cere, feathered tarsi, sparse-bristled bare toes, claw grips, all branches, orchard/cavity environment and exact original title and labels. Exactly three birds. Preserve warm tactile naturalistic painterly style and full1536x1024. No new age, nest, flight or sex assertion.",
+  "sources_new": [
+    "LIO-BLASCO-HEINZE-07570"
+  ],
+  "sources_reused": [
+    "LIO-MIKKOLA-2013-P427"
+  ],
+  "unknown": [
+    "exact young age/sex/iris chronology and flight threshold",
+    "subspecies transfer",
+    "quantified adult standing-height ratio"
+  ],
+  "edits": 0
 }

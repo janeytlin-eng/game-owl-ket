@@ -6814,3 +6814,7 @@ New0/reused1 CIO-EARBIRDING-2015-FLEDGLING actualfieldbody; observedflight is no
 
 ## 2026-11-24T20:52:19.982Z 20261124T2040Z closure
 Six-cycle reused9references/6documents, new1 CRPO-CNSA-HSI-GUIDE-2026 taxonomy-only; upgraded existingGCAN-FISHPOOL-2023-LEAD→GCAN-FISHPOOL-2023 originalbodyread(notduplicatenewpaper); CRPO-ML-626397501-2024 PARTIALposterread, no identifiablejuvenilephenotype. Fullstablemetadata/pages/limitations/relatedversionlinks [gaprecord](runs/20261124T2040Z-gaps.md), [six reviewed versions](../production/batches/20261124T2040Z-completed-review.md). FailedMNHNfreshaccessnotcounted. Sixsciencefalse, new species0.
+
+
+## 20261124T2138Z cycle1: Athene noctua #04v6
+**LIO-BLASCO-HEINZE-07570** — new stable source; Blasco-Zumeta & Heinze, undated, LittleOwl07570 photographic/ringingguide. OriginalURL https://www.blascozumeta.com/specie_files/07570_ENG_Athene_noctua_aranzadi.pdf actualPDFp1–3 text/captions read2026-11-25Beijing; adult/juvenile Europe. Sexes plumage alike,size overlap; fresh juvenile flight feathers not nataldown. No day-calibration or height ratio. Reused **LIO-MIKKOLA-2013-P427**, actualprinted427–428/PDF429–430 read, low-belly relative lackofmarks supports targeted adult correction. Full facts/limits and prompt [#04v6](species/04-athene-noctua-v6.md); original/review links pending. New1/reused1. Scientificstatusfalse.

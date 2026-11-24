@@ -6764,3 +6764,5 @@ New0/reused3 source-ID references; actual read and citation-only scopes distingu
 
 ## 20261124T1632Z cycle6 220-tyto-rosenbergii-v3
 New0/reused3 source-ID references; actual read and citation-only scopes distinguished in [metadata/fullprompt](species/220-tyto-rosenbergii-v3.md), [review](reviews/220-tyto-rosenbergii-v3-review.md). Highestv2 fullplate actually viewed: sexsize not evidenced but rolepair labels unqualified; chick label ageunknown lacks explicit flight/iris/bill uncertainty. No newly established morphological defect. Annotation-only scope revision preserves existing local Sulawesi phenotype and taxonomy plaque.
+
+20261124T1632Z cycle6 access clarification (no new source/duplicate reuse credit): publisher sg mirror https://sg.smujo.id/biodiv/article/download/6617/4434/32732 returned originalPDFtext via web; Abstract/Methods5685–5686 actualread. General8week followup does notdate drawnchick. Localdownload403 and nofreshFigure5pixelview; earlier verifiedphoto record citation-only. Fullcurrentmetadata in220v3 record.

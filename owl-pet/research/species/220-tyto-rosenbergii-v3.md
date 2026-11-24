@@ -18,7 +18,8 @@
     }
   ],
   "errors": [
-    "Primary Smujo article/PDF original links403 this invocation; existing actualresearch reused, not claimed fresh photograph reading."
+    "Primary Smujo article/PDF original links403 this invocation; existing actualresearch reused, not claimed fresh photograph reading.",
+    "Publisher sg mirror PDF text read in web but localdownload403; view_image missingfile correctly failed. No freshfigurepixels claimed; no new image inference."
   ],
   "issue": "Highestv2 fullplate actually viewed: sexsize not evidenced but rolepair labels unqualified; chick label ageunknown lacks explicit flight/iris/bill uncertainty. No newly established morphological defect. Annotation-only scope revision preserves existing local Sulawesi phenotype and taxonomy plaque.",
   "sources": [
@@ -59,11 +60,10 @@
       "accessed": "2026-11-25 +08",
       "type": "primary field nestbox study",
       "stage": "ageunknown chick",
-      "facts": "Access recovered via publisher sg mirror. Original abstract and Methods printed5685–5686 actually read: direct/cameratrap study in Sulawesi oilpalms; 55woodenboxes; chick followup until8weeks described generally, not exact picturedchickage. Fig5 priorphoto record, freshpixels pending nextinspection.",
+      "facts": "Publisher sg mirror original PDF text successfully read via web: Abstract/Methods printed5685–5686, direct/cameratrap study in Sulawesi oilpalms; 55woodenboxes; chick followup until8weeks stated generally, not specific picturedage. No new physicalphoto inspection: localsgdownload403 and subsequentviewfailed due missingfile. Prior actualFig5C/D photo record reused by citation only.",
       "limits": "Study general8week criterion does notdate drawn downychick or proveindividualflight. Main403 not allsourceinaccessible.",
       "alternate_url": "https://sg.smujo.id/biodiv/article/download/6617/4434/32732"
     }
   ],
   "prompt": "Use case annotation-only precise-object-edit. Existing #220 Sulawesi Masked Owl v2 full trio. Preserve title Tyto rosenbergii and existing CLEMENTS2026 Tyto javanica rosenbergii plaque. Add small slim legible note below that plaque, not covering heads: 'SEX SIZE UNKNOWN'. Inside right juvenile role box retain AGE-UNKNOWN DOWNY CHICK and add small two-line note 'IRIS / BILL / FLIGHT UNVERIFIED', enlarge labelbox slightly downward within available space if needed without covering feet/scientificpendingfooter. Preserve all adult plumage/eyes/bills/darker heavilyspotted female/near-equal scale/footgrips and whole downychick/shortdowncoveredwings/feet and boxfloor support, wooden nestbox/cultivatedpalms. No phenotype change or new developmental claim. Same1536x1024 style."
 }
-Facts vs design: scoped character only; exact rendering artistic inference, no biological ratio or stage measurement.

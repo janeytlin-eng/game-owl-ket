@@ -4,11 +4,12 @@
   "id": "19-megascops-trichopsis-v6",
   "species": "Megascops trichopsis",
   "action": "MORPHOLOGY_REVISION",
-  "result": "RESEARCH_READY",
+  "result": "IMAGE_GENERATED",
   "started_at": "2026-11-24T21:59:59.775Z",
   "stages": {
     "STARTED": "2026-11-24T21:59:59.775Z",
-    "RESEARCH_READY": "2026-11-24T22:32:18.746Z"
+    "RESEARCH_READY": "2026-11-24T22:32:18.746Z",
+    "IMAGE_GENERATED": "2026-11-24T22:33:42.642Z"
   },
   "resumes": [
     {
@@ -24,5 +25,20 @@
   "sources_reused": [
     "WHSO-MIKKOLA-2013"
   ],
-  "issue": "Actual full v5: adults carry many smooth very long white strings in symmetrical cat-like cheek fans. Reduce exaggerated filament fans; retain actual feather bristles. Extent is design inference, not scientifically measured correction."
+  "issue": "Actual full v5: adults carry many smooth very long white strings in symmetrical cat-like cheek fans. Reduce exaggerated filament fans; retain actual feather bristles. Extent is design inference, not scientifically measured correction.",
+  "initial_image": {
+    "bytes": 3026530,
+    "sha256": "1d76efa8e0731e277549778d83ab04a8f51e886970c985e1bc55fa074a2b79cc",
+    "size": [
+      1536,
+      1024
+    ],
+    "gitblob": "92df09da9148f8cdf1a88814f7c1d7f0c96fbbfb",
+    "path": "owl-pet/production/generated/19-megascops-trichopsis-v6-initial.png"
+  },
+  "timings": {
+    "generation_start": "2026-11-24T22:32:33.684Z",
+    "generation_wait_ms": 38832,
+    "edit_count": 1
+  }
 }

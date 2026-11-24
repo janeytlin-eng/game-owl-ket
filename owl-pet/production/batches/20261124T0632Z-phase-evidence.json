@@ -1,0 +1,103 @@
+{
+  "batch_id": "20261124T0632Z",
+  "this_invocation_cycles": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "rows": [
+    {
+      "cycle": 3,
+      "id": "150-ninox-variegata-v5",
+      "start": "2026-11-24T07:31:38.155Z",
+      "research_ready": "2026-11-24T07:32:44.175Z",
+      "generation_start": "2026-11-24T07:33:01.692Z",
+      "generation_end": "2026-11-24T07:33:33.242Z",
+      "reviewed": "2026-11-24T07:34:25.111Z",
+      "verified": "2026-11-24T07:37:05.430Z",
+      "research_wall_seconds": 66.02,
+      "generation_wait_seconds": 31.55,
+      "after_generation_to_verified_seconds": 212.188,
+      "counts": {
+        "new": 0,
+        "reused": 3,
+        "corrected": 1
+      },
+      "archive": "ceaa0c79b3d3f82485303e8eb1f7f74be19fa421",
+      "verification": "0f71fb0cd537ffcb0909fd67eda634341d400d09",
+      "bytes": 2670053,
+      "sha256": "db9ccbf25fe29706eeba70469a6f7f07ad73104935fd28a38d2f2485941e63bf"
+    },
+    {
+      "cycle": 4,
+      "id": "152-uroglaux-dimorpha-v5",
+      "start": "2026-11-24T07:37:28.343Z",
+      "research_ready": "2026-11-24T07:39:15.024Z",
+      "generation_start": "2026-11-24T07:39:27.147Z",
+      "generation_end": "2026-11-24T07:40:15.172Z",
+      "reviewed": "2026-11-24T07:40:48.044Z",
+      "verified": "2026-11-24T07:41:01.704Z",
+      "research_wall_seconds": 106.681,
+      "generation_wait_seconds": 48.025,
+      "after_generation_to_verified_seconds": 46.532,
+      "counts": {
+        "new": 1,
+        "reused": 2,
+        "corrected": 2
+      },
+      "archive": "845e4948317b4b5c1c201050b81c4cac616fd687",
+      "verification": "ace0719f64e28a8239540b1711d2a5052fa6c64e",
+      "bytes": 2772229,
+      "sha256": "ed7a2017c7df3c88e7ea655cb7f7f26aa60f8651c290f8c012688d3838441bcf"
+    },
+    {
+      "cycle": 5,
+      "id": "153-jubula-lettii-v5",
+      "start": "2026-11-24T07:41:14.268Z",
+      "research_ready": "2026-11-24T07:42:36.688Z",
+      "generation_start": "2026-11-24T07:42:49.085Z",
+      "generation_end": "2026-11-24T07:43:35.544Z",
+      "reviewed": "2026-11-24T07:44:09.290Z",
+      "verified": "2026-11-24T07:44:25.366Z",
+      "research_wall_seconds": 82.42,
+      "generation_wait_seconds": 46.459,
+      "after_generation_to_verified_seconds": 49.822,
+      "counts": {
+        "new": 0,
+        "reused": 3,
+        "corrected": 1
+      },
+      "archive": "36b0e67490ceba0316183592eda20957133e8f75",
+      "verification": "3e5f5e09fa768a614ec3b3e5808cc920960b7079",
+      "bytes": 2950689,
+      "sha256": "b1feb5d120e4ca5d44dfd1c8f0c099f950d1549b9a51f5bd7328990ab841dacd"
+    },
+    {
+      "cycle": 6,
+      "id": "155-scotopelia-ussheri-v5",
+      "start": "2026-11-24T07:44:37.388Z",
+      "research_ready": "2026-11-24T07:46:18.569Z",
+      "generation_start": "2026-11-24T07:46:35.147Z",
+      "generation_end": "2026-11-24T07:47:30.489Z",
+      "reviewed": "2026-11-24T07:48:00.597Z",
+      "verified": "2026-11-24T07:48:16.066Z",
+      "research_wall_seconds": 101.181,
+      "generation_wait_seconds": 55.342,
+      "after_generation_to_verified_seconds": 45.577,
+      "counts": {
+        "new": 0,
+        "reused": 3,
+        "corrected": 1
+      },
+      "archive": "f5a65be423e258fde30c2768461436d468ee3cb1",
+      "verification": "82f3dc0cb1b6fe6d937db8a4eb1b186aca339718",
+      "bytes": 2945449,
+      "sha256": "b631a67ad07628bea162d1a67610e9c9e9ee367d4bb96579a1b82a1561db889c"
+    }
+  ],
+  "measurement": "persisted wall timestamps; not individual API latency",
+  "edits": 4,
+  "extra_postreview_edits": 0,
+  "actual_error": "code-mode session output cap discarded candidate review image"
+}

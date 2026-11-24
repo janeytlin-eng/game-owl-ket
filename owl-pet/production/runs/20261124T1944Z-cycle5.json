@@ -3,8 +3,8 @@
   "cycle": 5,
   "run_id": "20261124T1944Z-cycle5",
   "started_at": "2026-11-24T19:55:41.565Z",
-  "status": "STARTED",
-  "stage": "ARCHIVED",
+  "status": "VERIFIED",
+  "stage": "VERIFIED",
   "id": "164-strix-hadorami-v5",
   "species": "Strix hadorami",
   "action": "REVISION",
@@ -46,7 +46,21 @@
       "at": "2026-11-24T19:57:34.355Z",
       "blob": "0644a203051d5034f0aac2eaad4e25121a6788f4",
       "path": "owl-pet/design/concepts/164-strix-hadorami-v5.png"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-24T19:57:55.688Z",
+      "pinned_original": "https://raw.githubusercontent.com/janeytlin-eng/game-owl-ket/321e777c37711fd3b9f30b76b3b9fac9341e55af/owl-pet/design/concepts/164-strix-hadorami-v5.png",
+      "bytes": 2710789,
+      "sha256": "3ed7cbf41c80dd6b352691c2df60250397ac70285b9d06a19207965c26eaea0e",
+      "size": [
+        1536,
+        1024
+      ],
+      "decoded": true
     }
   ],
-  "errors": []
+  "errors": [],
+  "completed_at": "2026-11-24T19:57:55.688Z",
+  "archive_commit": "321e777c37711fd3b9f30b76b3b9fac9341e55af"
 }

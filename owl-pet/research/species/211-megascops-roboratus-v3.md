@@ -6,13 +6,18 @@
   "species": "Megascops roboratus",
   "action": "REVISION",
   "started_at": "2026-11-24T16:32:25.115Z",
-  "result": "STARTED",
+  "result": "VERIFIED",
   "stages": {
     "STARTED": "2026-11-24T16:32:25.115Z",
-    "RESEARCH_READY": "2026-11-24T16:32:31.792Z"
+    "RESEARCH_READY": "2026-11-24T16:32:31.792Z",
+    "IMAGE_GENERATED": "2026-11-24T16:34:06.622Z",
+    "REVIEWED": "2026-11-24T16:34:36.233Z",
+    "ARCHIVED": "2026-11-24T16:34:42.658Z",
+    "VERIFIED": "2026-11-24T16:35:19.540Z"
   },
   "errors": [
-    "Initial ledger response was accidentally printed in full; tool explicitly reported Code Mode session output limit reached with 7221056 text bytes omitted. Subsequent reads bounded; no fixed-timeout telemetry."
+    "Initial ledger response was accidentally printed in full; tool explicitly reported Code Mode session output limit reached with 7221056 text bytes omitted. Subsequent reads bounded; no fixed-timeout telemetry.",
+    "IMAGE_GENERATED checkpoint bytes was mistyped2680162; corrected to actual3054519 before concept archive/readback; blob itself unchanged."
   ],
   "issue": "Latest v2 fullplate actually viewed. Adult lower tarsi immediately above toe splits show bare scaled rings; Mikkola printed225 says feathered to brownish toe bases. Correct adults only; young uncertain details retained.",
   "sources": [
@@ -48,5 +53,47 @@
     "sex linear ratio",
     "nest lining",
     "regional comparison beyond nominate"
-  ]
+  ],
+  "heartbeats": [
+    {
+      "at": "2026-11-24T16:32:39.179Z",
+      "event": "before_imagegen"
+    },
+    {
+      "at": "2026-11-24T16:33:36.413Z",
+      "event": "after_imagegen"
+    }
+  ],
+  "meta": {
+    "bytes": 3054519,
+    "gitblob": "bc703e83e2a01e6483335fbbef96ec758dcf1687",
+    "sha256": "959968a9d0175319b27c71c1a1d1fda84353b6145b447d48bca69831b3eada5f",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "imagegen_wait_ms": 44329,
+  "review": "实际查看完整1536×1024成图和成鸟足部2倍裁图：羽被延至趾基分叉处，裸鳞趾和暗角质爪保留并自然抓木，原先裸跗跖环已被羽覆盖。未画满趾绒羽。成鸟短耳簇、白冠缘/肩斑、金黄眼、灰橄榄喙、灰褐细腹纹与轻微雌鸟丰满方向保留；幼鸟密横纹、浅橄榄黄眼、短软翼及腹足树根承托肉眼保留。没有像素不变证明，不把体量显示当测量比。PASS_WITH_LIMITATIONS，scientifically_verified=false。幼鸟精确日龄/飞行及精确跗跖羽界仍待科学校准。",
+  "lesson": "问题—v2裸环高于趾基；证据—图鉴printed225明确成人羽被至趾基；修改—成人下跗跖局部延羽；复查—全图与放大图均见新羽界，无满趾手套。回看本次#211与上批#202足部属于分别有物种描述的修正，不泛化到其他鸮趾羽。先最大版本核对再生成已应用，树/manifest确认无211v3。",
+  "archive_commit": "446e5259b6e9586c417fc619d23dd4bdf486a14c",
+  "ended_at": "2026-11-24T16:35:19.540Z",
+  "remote_verification": {
+    "bytes": 3054519,
+    "sha256": "959968a9d0175319b27c71c1a1d1fda84353b6145b447d48bca69831b3eada5f",
+    "size": [
+      1536,
+      1024
+    ],
+    "raw_get": true,
+    "pil_decode": true
+  },
+  "timings": {
+    "imagegen_wait_ms": 44329,
+    "research_seconds": 6.677,
+    "review_after_generated_seconds": 29.611,
+    "archive_to_verified_seconds": 36.882,
+    "note": "Stage interval includes persistence/network, not pure compute; actual generation wait separately instrumented."
+  }
 }
+Facts vs design: source supports adult feather boundary, exact feather geometry artistic. No neonatal/sexratio/flight inference.

@@ -6198,3 +6198,7 @@ Reuse SUN-LOK-2009, SUSO-NPARKS-2025 and Mikkola2013printed162/PDF164. Paper's a
 - URLs https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=555384 and https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=1063390 , Taxonomy/Nomenclature sections actually read.
 - Taxon/stage: current O.fuliginosus valid, original combination S.fuliginosa; allstages taxonomy only. High confidence nomenclature, no age/morphology evidence.
 - Design: supports name mapping only; no juvenile invention; linked [gap record](species/otus-fuliginosus-20261124-evidence-gap.md). Existing guide176 reused, not a newsourceitem.
+
+
+## 2026-11-24 — #195 v4 annotation-only, source scopes
+Reused RAJ-GOODDIE-2015-P70-81, account actually onprinted74/PDF5 (adult/nest, nojuvenile), and RAJ-MIK2013-P168, uploaded168/PDF170 actuallyread (mesoptile, noexactage). New0. RAJ-BOWMAN2014-JUV notfreshlyviewed/notcountedasreread. [Research](species/195-otus-brookii-v4.md),[image](../design/concepts/195-otus-brookii-v4.png),[review](reviews/195-otus-brookii-v4-review.md). Remove vagueOLDERlabel in favour AGE-UNKNOWN MESOPTILE, addcalibrationfooter; no newmorpherror/sciencepassclaimed. Guidefemale-larger tentative withoutsexedweights notconvertedto fixedratio.

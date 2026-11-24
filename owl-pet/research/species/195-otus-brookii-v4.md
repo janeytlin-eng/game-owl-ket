@@ -1,0 +1,16 @@
+# #195 Otus brookii solokensis v4 — annotation-only evidence boundary
+
+20261124T0112Z cycle4/6; revision+1, unique+0; science=false. No newly found anatomical error is claimed; this is an explicit unknown-age mesoptile label/calibration footer. Prior v1–v3 preserved. Old Pisorhina solokensis / Scops brookii mappings retained; no taxonomic split added.
+
+## Sources actually read2026-11-24
+- RAJ-GOODDIE-2015-P70-81 reused: Chris Gooddie2015, Ornithological records from Bukit Barisan Selatan National Park, Sumatra, Indonesia, Forktail31:70–81. Search then actual PDF species account **printed74/PDF5** read, not a claim that juvenile appearspp74–75. https://static1.squarespace.com/static/5c1a9e03f407b482a158da87/t/5d39d70a8ba5690001c81656/1564071691325/Bukit-Barisan.pdf . Directnest adult presumedsolokensis at1300m, blackishcrown/rufousface/whitebrows-tufts/paleyelloworangeiris; nestcavity2.5mup old5mtree,c50cmdiameter, mossymaterial. Adult/eggs, not juvenile, no age/irisdevelopment/flight data. High localityspecific evidence, one presumptive subspecies identification.
+- RAJ-MIK2013-P168 reused: userguide actually read printed168/PDF170. Mesoptile reddishbrown/finedarkcrossbars; whitishrufousunderside darkerfreckles/streaks. Adult softparts yellow-toorangeeye/paleyellowbill, heavy tarsalfeathers/baseoftoes. Guide tentativefemale-larger statement lacksweights; not proof forsexsize. Guide photoSumatran solokensis discusses3collars; not basis for3cleanringsfromfrontalview.
+- Old RAJ-BOWMAN2014-JUV remains historical previously viewed support only; not freshly reopened and **not counted as a source reread**. It does not establish exact age/chronology. No newly viewed fieldphoto claimed thiscycle.
+
+## Actual comparison and boundaries
+v3 fullplate opened; species/darkcrown/whitebrow/rufousface and stable supports plausible; no new morph defect identified. Centre 'OLDER JUVENILE' is a loose inferred relationship, clearer as AGE-UNKNOWN MESOPTILE matching guide stage without implying a dated age. Add visible calibration/unknowns. All current birdforms preserved; cavity does not mean shownyoung occupiedthatnest. Exactage/sex/irisdevelopment/flight threshold unresolved. Near-equaladultdisplay conservative choice, not measured equality. This is annotation improvement, not new science pass.
+
+## Fullprompt
+~~~text
+Use case: text-localization / precise-object-edit. Edit target: existing #195 Rajah Scops Owl Otus brookii solokensis v3 naturalistic triptych. This is an evidence-boundary annotation revision ONLY. Preserve every bird, plumage, eye and bill colour, anatomy, near-equal adults, juvenile mesoptile, all six supported feet, mossy branch, Sumatran forest and background empty cavity. Do not redraw or change feather morphology; no claimed new anatomical correction. Preserve title, Latin name and ADULT MALE / ADULT FEMALE labels. Replace the centre label "OLDER JUVENILE" with exact "AGE-UNKNOWN MESOPTILE". Add a small readable cream footer in the existing bottom margin: "CONCEPT • SCIENTIFIC CALIBRATION PENDING • YOUNG AGE / IRIS DEVELOPMENT / FLIGHT UNVERIFIED". No new birds, eggs, nest lining, props or watermark. Keep original naturalistic style and composition.
+~~~

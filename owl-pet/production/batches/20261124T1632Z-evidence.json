@@ -1,0 +1,491 @@
+{
+  "batch_id": "20261124T1632Z",
+  "completed_across_invocations": true,
+  "this_recovery_completed_cycles": [
+    6
+  ],
+  "batch_completed_cycles": 6,
+  "counts": {
+    "versions": 1041,
+    "raw_taxa": 209,
+    "unique": 206,
+    "scope": 251,
+    "manifest": 995
+  },
+  "new_species": 0,
+  "final_revision_groups": 6,
+  "extra_failed_concept_versions": 1,
+  "source_counts": {
+    "new_independent_documents": 1,
+    "reused_id_references": 12,
+    "dedup_documents": 8,
+    "recovery_new_documents": 0,
+    "recovery_reused_ids": 3
+  },
+  "checks": [
+    {
+      "cycle": 1,
+      "id": "211-megascops-roboratus-v3",
+      "verified": "VERIFIED",
+      "stages": {
+        "STARTED": "2026-11-24T16:32:25.115Z",
+        "RESEARCH_READY": "2026-11-24T16:32:31.792Z",
+        "IMAGE_GENERATED": "2026-11-24T16:34:06.622Z",
+        "REVIEWED": "2026-11-24T16:34:36.233Z",
+        "ARCHIVED": "2026-11-24T16:34:42.658Z",
+        "VERIFIED": "2026-11-24T16:35:19.540Z"
+      },
+      "meta": {
+        "bytes": 3054519,
+        "gitblob": "bc703e83e2a01e6483335fbbef96ec758dcf1687",
+        "sha256": "959968a9d0175319b27c71c1a1d1fda84353b6145b447d48bca69831b3eada5f",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "remote": {
+        "bytes": 3054519,
+        "sha256": "959968a9d0175319b27c71c1a1d1fda84353b6145b447d48bca69831b3eada5f",
+        "size": [
+          1536,
+          1024
+        ],
+        "raw_get": true,
+        "pil_decode": true
+      },
+      "blob_match": true,
+      "manifest_match": true,
+      "research": true,
+      "review": true,
+      "sources": [
+        "MROB-MIKKOLA-2013-P224",
+        "MROB-OWLPAGES-2020"
+      ],
+      "heartbeats": [
+        {
+          "at": "2026-11-24T16:32:39.179Z",
+          "event": "before_imagegen"
+        },
+        {
+          "at": "2026-11-24T16:33:36.413Z",
+          "event": "after_imagegen"
+        }
+      ]
+    },
+    {
+      "cycle": 2,
+      "id": "213-glaucidium-tephronotum-v4",
+      "verified": "VERIFIED",
+      "stages": {
+        "STARTED": "2026-11-24T17:51:02.322Z",
+        "RESEARCH_READY": "2026-11-24T17:51:22.779Z",
+        "IMAGE_GENERATED": "2026-11-24T17:55:08.342Z",
+        "REVIEWED": "2026-11-24T17:55:15.843Z",
+        "ARCHIVED": "2026-11-24T17:55:23.578Z",
+        "VERIFIED": "2026-11-24T17:55:43.079Z"
+      },
+      "meta": {
+        "bytes": 2408508,
+        "sha256": "af28b20b3bdebd3f1c2c271c1733cf14f7817353af505763e4b5a0de8463b26c",
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "20f386a8606341471e58ce8f8605e4e055667e18"
+      },
+      "remote": {
+        "bytes": 2408508,
+        "sha256": "af28b20b3bdebd3f1c2c271c1733cf14f7817353af505763e4b5a0de8463b26c",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "blob_match": true,
+      "manifest_match": true,
+      "research": true,
+      "review": true,
+      "sources": [
+        "GTEP-MIKKOLA-2013-P368",
+        "GTEP-BORROW-2014-P24"
+      ],
+      "heartbeats": [
+        {
+          "at": "2026-11-24T17:51:35.704Z",
+          "event": "before_crop_correction"
+        },
+        {
+          "at": "2026-11-24T17:52:19.110Z",
+          "event": "after_crop_correction"
+        },
+        {
+          "at": "2026-11-24T17:53:15.882Z",
+          "event": "before_fullplate_transfer"
+        },
+        {
+          "at": "2026-11-24T17:54:23.334Z",
+          "event": "after_fullplate_transfer"
+        }
+      ]
+    },
+    {
+      "cycle": 3,
+      "id": "214-otus-balli-v3",
+      "verified": "VERIFIED",
+      "stages": {
+        "STARTED": "2026-11-24T17:38:19.747Z",
+        "RESEARCH_READY": "2026-11-24T17:39:22.504Z",
+        "IMAGE_GENERATED": "2026-11-24T17:41:06.491Z",
+        "REVIEWED": "2026-11-24T17:41:13.959Z",
+        "ARCHIVED": "2026-11-24T17:41:22.602Z",
+        "VERIFIED": "2026-11-24T17:41:38.949Z"
+      },
+      "meta": {
+        "bytes": 2732816,
+        "sha256": "1096779d34ca650cf634740d40bf1fd01d8cb0032990b070a9253d936014b694",
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "46aaf3ca142bbb9ddfed055647777cfff50cb282"
+      },
+      "remote": {
+        "bytes": 2732816,
+        "sha256": "1096779d34ca650cf634740d40bf1fd01d8cb0032990b070a9253d936014b694",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "blob_match": true,
+      "manifest_match": true,
+      "research": true,
+      "review": true,
+      "sources": [
+        "OBAL-MIKKOLA-2013-P181",
+        "OBAL-ITIS-555366"
+      ],
+      "heartbeats": [
+        {
+          "at": "2026-11-24T17:39:33.711Z",
+          "event": "before_imagegen"
+        },
+        {
+          "at": "2026-11-24T17:40:30.883Z",
+          "event": "after_imagegen"
+        }
+      ]
+    },
+    {
+      "cycle": 4,
+      "id": "217-otus-longicornis-v3",
+      "verified": "VERIFIED",
+      "stages": {
+        "STARTED": "2026-11-24T17:41:56.172Z",
+        "RESEARCH_READY": "2026-11-24T17:43:04.324Z",
+        "IMAGE_GENERATED": "2026-11-24T17:45:12.428Z",
+        "REVIEWED": "2026-11-24T17:45:19.843Z",
+        "ARCHIVED": "2026-11-24T17:45:28.414Z",
+        "VERIFIED": "2026-11-24T17:45:46.856Z"
+      },
+      "meta": {
+        "bytes": 2730450,
+        "sha256": "7a50703bf8284e1b9bee407dca8592ee82f246c570715aa3a252174689a0d282",
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "3c4c34cf9f3b00defa927f5c0198297474123ffe"
+      },
+      "remote": {
+        "bytes": 2730450,
+        "sha256": "7a50703bf8284e1b9bee407dca8592ee82f246c570715aa3a252174689a0d282",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "blob_match": true,
+      "manifest_match": true,
+      "research": true,
+      "review": true,
+      "sources": [
+        "OLON-MIKKOLA-2013-P186",
+        "OLON-DEMEULEMEESTER-PHOTO1103"
+      ],
+      "heartbeats": [
+        {
+          "at": "2026-11-24T17:43:25.704Z",
+          "event": "before_imagegen"
+        },
+        {
+          "at": "2026-11-24T17:44:32.776Z",
+          "event": "after_imagegen"
+        }
+      ]
+    },
+    {
+      "cycle": 5,
+      "id": "219-otus-podarginus-v3",
+      "verified": "VERIFIED",
+      "stages": {
+        "STARTED": "2026-11-24T17:46:03.599Z",
+        "RESEARCH_READY": "2026-11-24T17:46:57.480Z",
+        "IMAGE_GENERATED": "2026-11-24T17:49:58.978Z",
+        "REVIEWED": "2026-11-24T17:50:08.800Z",
+        "ARCHIVED": "2026-11-24T17:50:17.835Z",
+        "VERIFIED": "2026-11-24T17:50:36.314Z"
+      },
+      "meta": {
+        "bytes": 2545777,
+        "sha256": "0b2eed132e54100f7bde2c64c90ad381feaafb53b7469fae47d267b73f695d86",
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "244c924bdb69f342f43ca684277a4d31579917e4"
+      },
+      "remote": {
+        "bytes": 2545777,
+        "sha256": "0b2eed132e54100f7bde2c64c90ad381feaafb53b7469fae47d267b73f695d86",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "blob_match": true,
+      "manifest_match": true,
+      "research": true,
+      "review": true,
+      "sources": [
+        "OPOD-MIKKOLA-2013-P251",
+        "OPOD-YAMASHINA-1938-P1-2"
+      ],
+      "heartbeats": [
+        {
+          "at": "2026-11-24T17:47:08.815Z",
+          "event": "before_imagegen"
+        },
+        {
+          "at": "2026-11-24T17:49:08.417Z",
+          "event": "after_imagegen"
+        }
+      ]
+    },
+    {
+      "cycle": 6,
+      "id": "220-tyto-rosenbergii-v3",
+      "verified": "VERIFIED",
+      "stages": {
+        "STARTED": "2026-11-24T17:56:10.245Z",
+        "RESEARCH_READY": "2026-11-24T17:57:31.310Z",
+        "IMAGE_GENERATED": "2026-11-24T18:33:09.112Z",
+        "REVIEWED": "2026-11-24T18:33:56.349Z",
+        "ARCHIVED": "2026-11-24T18:34:04.807Z",
+        "VERIFIED": "2026-11-24T18:34:53.900Z"
+      },
+      "meta": {
+        "bytes": 2582857,
+        "sha256": "d7c8d5f3b0f6b7327a8423aa03a7e7f3978714d627ec372144e93938e0bb73d4",
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "882e62f3259f41f2096b668bcebf63443c000fef"
+      },
+      "remote": {
+        "bytes": 2582857,
+        "sha256": "d7c8d5f3b0f6b7327a8423aa03a7e7f3978714d627ec372144e93938e0bb73d4",
+        "size": [
+          1536,
+          1024
+        ],
+        "raw_get": true,
+        "pil_decode": true
+      },
+      "blob_match": true,
+      "manifest_match": true,
+      "research": true,
+      "review": true,
+      "sources": [
+        "TROS-MIKKOLA-2013-P109",
+        "CORNELL-CLEMENTS-2026-TYTO-LUMPS",
+        "TROS-MULYANA-2020-P5686-5688"
+      ],
+      "heartbeats": [
+        {
+          "at": "2026-11-24T17:57:41.883Z",
+          "event": "before_imagegen"
+        },
+        {
+          "at": "2026-11-24T17:59:08.639Z",
+          "event": "before_imagegen"
+        },
+        {
+          "at": "2026-11-24T18:00:08.520Z",
+          "event": "after_imagegen"
+        }
+      ]
+    }
+  ],
+  "ledger_commit": "ba37f0beffa328f7e324708e8cc608551be56948",
+  "recovery_run": {
+    "batch_id": "20261124T1632Z",
+    "cycle": 6,
+    "id": "220-tyto-rosenbergii-v3",
+    "species": "Tyto rosenbergii",
+    "action": "REVISION",
+    "started_at": "2026-11-24T17:56:10.245Z",
+    "result": "VERIFIED",
+    "stages": {
+      "STARTED": "2026-11-24T17:56:10.245Z",
+      "RESEARCH_READY": "2026-11-24T17:57:31.310Z",
+      "IMAGE_GENERATED": "2026-11-24T18:33:09.112Z",
+      "REVIEWED": "2026-11-24T18:33:56.349Z",
+      "ARCHIVED": "2026-11-24T18:34:04.807Z",
+      "VERIFIED": "2026-11-24T18:34:53.900Z"
+    },
+    "heartbeats": [
+      {
+        "at": "2026-11-24T17:57:41.883Z",
+        "event": "before_imagegen"
+      },
+      {
+        "at": "2026-11-24T17:59:08.639Z",
+        "event": "before_imagegen"
+      },
+      {
+        "at": "2026-11-24T18:00:08.520Z",
+        "event": "after_imagegen"
+      }
+    ],
+    "errors": [
+      "Primary Smujo article/PDF original links403 this invocation; existing actualresearch reused, not claimed fresh photograph reading.",
+      "Publisher sg mirror PDF text read in web but localdownload403; view_image missingfile correctly failed. No freshfigurepixels claimed; no new image inference."
+    ],
+    "issue": "Highestv2 fullplate actually viewed: sexsize not evidenced but rolepair labels unqualified; chick label ageunknown lacks explicit flight/iris/bill uncertainty. No newly established morphological defect. Annotation-only scope revision preserves existing local Sulawesi phenotype and taxonomy plaque.",
+    "sources": [
+      {
+        "id": "TROS-MIKKOLA-2013-P109",
+        "author": "Heimo Mikkola",
+        "year": 2013,
+        "title": "Owls of the World photographic guide second edition",
+        "url": "uploaded libfile_fde3_f-916e2244186c81918fe5a0716884b8c9_7a934266b8748191824cde4d0af03f29",
+        "pages": "printed109/PDF111",
+        "accessed": "2026-11-25 +08",
+        "type": "secondary guide",
+        "stage": "adult, juvenile unknown",
+        "facts": "Fresh completepage: sexual size unknown, female darker/heavier ventralspots; blackisheyes/creamywhitebill/ochrebody/greyishbrown toes/blackclaws; guidejuvenileunknown.",
+        "limits": "No precise chickage/iris/bill/flight; historical species treatment not currentClements."
+      },
+      {
+        "id": "CORNELL-CLEMENTS-2026-TYTO-LUMPS",
+        "author": "Cornell Lab/Clements Checklist",
+        "year": 2026,
+        "title": "Updates and Corrections October2026 page2",
+        "url": "https://www.birds.cornell.edu/clementschecklist/updates-and-corrections-october-2026-page-2/",
+        "sections": "Lumps Tyto nigrobrunnea/rosenbergii/javanica lines124–150",
+        "accessed": "2026-11-25 +08",
+        "type": "primary institutional taxonomy",
+        "stage": "taxonall",
+        "facts": "Fresh original section read: rosenbergii included within T.javanica following AviListv2026proposal64, furtherphenotypicstudyneeded.",
+        "limits": "No chick anatomy or universal authority consensus; preserve contract251 until completeauthorityreconciliation."
+      },
+      {
+        "id": "TROS-MULYANA-2020-P5686-5688",
+        "author": "Ade Nendi Mulyana; Swastiko Priyambodo; Hermanu Triwidodo; Henny Hendarjanti; Bandung Sahari",
+        "year": 2020,
+        "title": "An assessment of reproduction predation and nesting behavior of Sulawesi Masked-owl",
+        "url": "https://smujo.id/biodiv/article/view/6617",
+        "doi": "10.13057/biodiv/d211226",
+        "pages": "5686–5688 Fig5 prior actualreading",
+        "accessed": "2026-11-25 +08",
+        "type": "primary field nestbox study",
+        "stage": "ageunknown chick",
+        "facts": "Publisher sg mirror original PDF text successfully read via web: Abstract/Methods printed5685–5686, direct/cameratrap study in Sulawesi oilpalms; 55woodenboxes; chick followup until8weeks stated generally, not specific picturedage. No new physicalphoto inspection: localsgdownload403 and subsequentviewfailed due missingfile. Prior actualFig5C/D photo record reused by citation only.",
+        "limits": "Study general8week criterion does notdate drawn downychick or proveindividualflight. Main403 not allsourceinaccessible.",
+        "alternate_url": "https://sg.smujo.id/biodiv/article/download/6617/4434/32732"
+      }
+    ],
+    "prompt": "Use case annotation-only precise-object-edit. Existing #220 Sulawesi Masked Owl v2 full trio. Preserve title Tyto rosenbergii and existing CLEMENTS2026 Tyto javanica rosenbergii plaque. Add small slim legible note below that plaque, not covering heads: 'SEX SIZE UNKNOWN'. Inside right juvenile role box retain AGE-UNKNOWN DOWNY CHICK and add small two-line note 'IRIS / BILL / FLIGHT UNVERIFIED', enlarge labelbox slightly downward within available space if needed without covering feet/scientificpendingfooter. Preserve all adult plumage/eyes/bills/darker heavilyspotted female/near-equal scale/footgrips and whole downychick/shortdowncoveredwings/feet and boxfloor support, wooden nestbox/cultivatedpalms. No phenotype change or new developmental claim. Same1536x1024 style.",
+    "recoveries": [
+      {
+        "at": "2026-11-24T18:32:12.235Z",
+        "prior_head": "7980497799dfcd71fbffb19edc5b3ea16776326c",
+        "prior_lease": {
+          "owner": "owl-1730Z",
+          "run_id": "20261124T1632Z-cycle6",
+          "heartbeat_at": "2026-11-24T18:00:08.520Z",
+          "expires_at": "2026-11-24T18:15:08.520Z"
+        },
+        "action": "Existing generatedPNG recovered; no220v3concept or finalarchive on remote. Resume same cycle6 without generation.",
+        "file": "generated_images/exec-40bf9e9a-49f2-4dcb-9abb-c65a507df942.png",
+        "expected_bytes": 2582857,
+        "expected_sha256": "d7c8d5f3b0f6b7327a8423aa03a7e7f3978714d627ec372144e93938e0bb73d4"
+      }
+    ],
+    "meta": {
+      "bytes": 2582857,
+      "sha256": "d7c8d5f3b0f6b7327a8423aa03a7e7f3978714d627ec372144e93938e0bb73d4",
+      "size": [
+        1536,
+        1024
+      ],
+      "gitblob": "882e62f3259f41f2096b668bcebf63443c000fef"
+    },
+    "image_generation_recovery": {
+      "original_after_imagegen_heartbeat": "2026-11-24T18:00:08.520Z",
+      "stage_timestamp_means": "Recovered original persisted now; not new generation",
+      "new_imagegen_calls_this_recovery": 0,
+      "generation_wait_ms": null,
+      "note": "Pure generation wait not in remote record; do not infer from tool+heartbeat wall time."
+    },
+    "review": "本次恢复后实际查看完整1536×1024原图：SEX SIZE UNKNOWN、IRIS/BILL/FLIGHT UNVERIFIED新增说明清楚可读，既有CLEMENTS2026分类说明和概念待科学校准页脚完整。成鸟黑褐眼/浅喙/灰褐白黑点上体/赭腹，雌鸟较重斑点与偏暗方向保留，未据头顶略低断言性别体型方向。幼鸟白绒/灰脸、下垂短绒覆翼和双足木箱底支撑视觉成立，无成熟长飞羽/飞行姿态。木箱剖视为设计展示，非尺寸复原。与v2角色位置有轻微重绘漂移，不声称逐像素保持。此版仅未知项注释修订，未建立新幼龄/裸部色/飞行事实，PASS_WITH_LIMITATIONS/sciencefalse。",
+    "lesson": "问题—已有v3生成中断，远端仍研究阶段；证据—原PNG可恢复且哈希匹配、main无conceptv3；操作—不重复imagegen，先持久化原图，再实际检查并归档验证；结果—阶段恢复真实应用，非新生成。研究补查：发布方sg镜像文本可读不等于照片已查看；8周一般观察终点不能给画中绒羽幼鸟定龄。恢复期间只复用3ID，不把重复索引段当新资料。",
+    "research_recovery_check": {
+      "at": "2026-11-24T18:33:56.349Z",
+      "new_sources": 0,
+      "reused_ids": [
+        "TROS-MIKKOLA-2013-P109",
+        "CORNELL-CLEMENTS-2026-TYTO-LUMPS",
+        "TROS-MULYANA-2020-P5686-5688"
+      ],
+      "external_action": "Targeted Clements query plus actual original publisher mirror Abstract/Methods text reopened; no new pixel/photo claim.",
+      "uploaded_guide": "Persisted actual printed109/PDF111 reading reused; not falsely claiming fresh page read in this recovery."
+    },
+    "archive_commit": "fb41dad023f73b1c2ea325da0a5d48a2d38ef03a",
+    "remote_verification": {
+      "bytes": 2582857,
+      "sha256": "d7c8d5f3b0f6b7327a8423aa03a7e7f3978714d627ec372144e93938e0bb73d4",
+      "size": [
+        1536,
+        1024
+      ],
+      "raw_get": true,
+      "pil_decode": true
+    },
+    "ended_at": "2026-11-24T18:34:53.900Z",
+    "timings": {
+      "recovery_started_at": "2026-11-24T18:32:12.235Z",
+      "recovered_persisted_at": "2026-11-24T18:33:09.112Z",
+      "reviewed_at": "2026-11-24T18:33:56.349Z",
+      "archived_at": "2026-11-24T18:34:04.807Z",
+      "verified_at": "2026-11-24T18:34:53.900Z",
+      "generation_wait_ms": null,
+      "archive_verification_interval_seconds": 49.093,
+      "note": "Recovery intervals include network/commits; prior generation purewait unavailable. No imagegen called in this recovery."
+    },
+    "commit_sha": "6c93031f5f0fa7a187ca07cf79aeccc309fa6f75"
+  },
+  "unknown_timings": [
+    "Original pure imagegen wait for220 not persisted"
+  ],
+  "notes": [
+    "cycle2 failedv3credit withdrawn and finalv4creditedonce",
+    "patch not cycle",
+    "not six cycles in this recovery",
+    "all scientificfalse",
+    "no fixed platformtimeout telemetry"
+  ]
+}

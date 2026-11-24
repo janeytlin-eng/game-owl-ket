@@ -3,8 +3,8 @@
   "cycle": 2,
   "run_id": "20261124T1944Z-cycle2",
   "started_at": "2026-11-24T19:44:02.538Z",
-  "status": "STARTED",
-  "stage": "ARCHIVED",
+  "status": "VERIFIED",
+  "stage": "VERIFIED",
   "id": "148-ninox-rumseyi-v5",
   "species": "Ninox rumseyi",
   "action": "REVISION",
@@ -50,7 +50,21 @@
       "at": "2026-11-24T19:46:22.909Z",
       "blob": "2f8a867b85f0c22e906c35b7c1a6db861cd4a1db",
       "path": "owl-pet/design/concepts/148-ninox-rumseyi-v5.png"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-24T19:46:44.215Z",
+      "pinned_original": "https://raw.githubusercontent.com/janeytlin-eng/game-owl-ket/2b5ed91df97e8fe51b59226fd5228930f2336136/owl-pet/design/concepts/148-ninox-rumseyi-v5.png",
+      "bytes": 2945053,
+      "sha256": "ab12e0d954e9a55f2b1a3386e400a85914fb8e9463918bb5450207b99f3e15c9",
+      "size": [
+        1536,
+        1024
+      ],
+      "decoded": true
     }
   ],
-  "errors": []
+  "errors": [],
+  "completed_at": "2026-11-24T19:46:44.215Z",
+  "archive_commit": "2b5ed91df97e8fe51b59226fd5228930f2336136"
 }

@@ -4,14 +4,15 @@
   "id": "206-glaucidium-castanopterum-v4",
   "species": "Glaucidium castanopterum",
   "action": "REVISION",
-  "result": "STARTED",
+  "result": "VERIFIED",
   "started_at": "2026-11-24T15:52:51.978Z",
   "stages": {
     "STARTED": "2026-11-24T15:52:51.978Z",
     "RESEARCH_READY": "2026-11-24T15:53:26.161Z",
     "IMAGE_GENERATED": "2026-11-24T15:56:32.409Z",
     "REVIEWED": "2026-11-24T15:56:52.046Z",
-    "ARCHIVED": "2026-11-24T15:56:58.591Z"
+    "ARCHIVED": "2026-11-24T15:56:58.591Z",
+    "VERIFIED": "2026-11-24T15:57:10.087Z"
   },
   "heartbeats": [
     {
@@ -89,5 +90,15 @@
     }
   ],
   "correction_prompt": "Precise local edit of the current #206 image. Last edit did not make toe bristles readable. On the dorsal/top surfaces and edges of all four ADULT feet ONLY, paint a small number of individually visible slender short pale-tan stiff bristles sticking out from between the olive yellow toe scales. Their visible length at full resolution about 3-5 pixels, irregularly spaced and sparse, 3-6 along each front-facing toe. Keep scales exposed, NOT dense feather/fur and NOT detached white scratch-lines. Do not change toe shapes, count, claws or grips. Preserve entire other image, especially young completely unchanged, seven adult tail bars and all labels. This subtle feature must be visible in a closeup. Same image1536x1024.",
-  "review": "实际查看最终全图及放大成人足部裁图。第二次编辑后近端趾背/趾基可见少量细短浅色刚毛，鳞片仍裸露，未变成满趾绒羽；远端多数仍平滑，不能认定密度/分布已精确复原。趾爪/抓持自然、成年暗爪和雄鸟七条细尾带、三鸟角色/标签、幼鸟整体在定性肉眼检查中保留。首轮生成刚毛不清晰已记录并纠正，未计两个修订。仅成人足部细节可读性PASS_WITH_LIMITATIONS；幼鸟虹膜/喙/精确年龄/飞行、性别体型差异仍未知，scientifically_verified=false。"
+  "review": "实际查看最终全图及放大成人足部裁图。第二次编辑后近端趾背/趾基可见少量细短浅色刚毛，鳞片仍裸露，未变成满趾绒羽；远端多数仍平滑，不能认定密度/分布已精确复原。趾爪/抓持自然、成年暗爪和雄鸟七条细尾带、三鸟角色/标签、幼鸟整体在定性肉眼检查中保留。首轮生成刚毛不清晰已记录并纠正，未计两个修订。仅成人足部细节可读性PASS_WITH_LIMITATIONS；幼鸟虹膜/喙/精确年龄/飞行、性别体型差异仍未知，scientifically_verified=false。",
+  "archive_commit": "9f5c31f95fb7e2728611a4207275a107500640fa",
+  "remote_verification": {
+    "bytes": 2551806,
+    "sha256": "512cc1648b58834c25d71811b38c4bca4b9df1c8d6a9edee17786b0b094b701e",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "ended_at": "2026-11-24T15:57:10.087Z"
 }

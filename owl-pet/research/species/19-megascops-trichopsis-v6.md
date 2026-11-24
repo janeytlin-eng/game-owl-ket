@@ -17,3 +17,17 @@ Actual full v5: adults carry many smooth very long white strings in symmetrical 
 \`\`\`text
 Precise-object-edit #19 Whiskered Screech-Owl Megascops trichopsis v5. Change ONLY the hugely exaggerated long WHITE CAT-WHISKER FANS projecting sideways from BOTH ADULTS' cheeks. Replace those dozens of long smooth white strings with a natural discreet patch of fine, irregular FEATHER BRISTLES rooted near the bill and lower facial disc, integrated with the face feathers. Preserve the species' genuine elongated wispy rictal/facial bristles: a few fine tapered shafts may project a little beyond the surrounding facial plumage, varying length and angle, softly pale bases and subtle darker tips; not a mammalian symmetrical moustache, not hair fans across neck/wing, and not entirely bare cheeks. This is a conservative artistic reduction, not a measured bristle atlas. Preserve ALL OTHER features exactly, ENTIRE centre older juvenile unchanged, its down/formed folded wings/iris/bill/feet/support; preserve adult yellow-olive bills and orange-yellow eyes, tufts, exact same size/plumage/branch grip and all six feet, shoulder marks, every title/label, pine-oak sunset environment and warm tactile1536x1024 style. Exactlythreebirds. Do not recolour bills based on conflicting guide, no juvenileage/sex/flight changes.
 \`\`\`
+
+
+## Secondedit / actualreview
+{
+  "result": "PASS_WITH_LIMITATIONS",
+  "actual_views": [
+    "initialwholeplate/facecrop",
+    "secondwholeplate/facecrop"
+  ],
+  "finding": "Long smooth white adult cat-whisker fans substantially reduced; short fine irregular integrated feather bristles retained. Exactly3birds, labels/names, coarseadultpatterns/shouldermarks, size relation, eyes/bill/tufts/allfeetgrips preserved. Entireolderjuvenile retains softdown/formedshortwing/tail/support and noflight. Quantifiedbristlelength/age/sex phenotype unknown; no scienceacceptance.",
+  "lesson": "Taxoncommonname 'whiskered' can induce mammalian smoothhair fans. Firstedit insufficient; explicit removal of longparallelfans with retentionofintegratedfeatherbristles visually worked secondtime. Applied/visuallyreviewed, not biologicalvalidation. No automatic rule forotherowlbristles."
+}
+### Complete secondprompt
+Edit only adult whiskers on BOTH outer adult birds. The last edit retained too many long straight white CAT WHISKERS. REMOVE the obvious bright long parallel white filaments crossing sideways beyond each adult cheek; reduce this fan substantially. Keep a discreet irregular small cluster of genuine feather bristles immediately around bill base and lower loral region, only a few fine dull grey-buff tapered wisps integrated with facial feathers, very subtle against background. Do not erase facial feather texture or species' actual wispy rictal feathers; do not create a moustache fan. Preserve ENTIRE center juvenile, adult eye/bill colours/tufts/allbodyfeathers/proportions/feet/branches and every label/title/environment1536x1024 exactly. No other changes.

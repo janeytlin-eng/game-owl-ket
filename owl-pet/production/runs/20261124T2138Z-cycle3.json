@@ -4,12 +4,14 @@
   "id": "07-asio-flammeus-v5",
   "species": "Asio flammeus",
   "action": "MORPHOLOGY_REVISION",
-  "result": "IMAGE_GENERATED",
+  "result": "ARCHIVED",
   "started_at": "2026-11-24T21:48:37.654Z",
   "stages": {
     "STARTED": "2026-11-24T21:48:37.654Z",
     "RESEARCH_READY": "2026-11-24T21:49:18.828Z",
-    "IMAGE_GENERATED": "2026-11-24T21:50:28.810Z"
+    "IMAGE_GENERATED": "2026-11-24T21:50:28.810Z",
+    "REVIEWED": "2026-11-24T21:50:53.357Z",
+    "ARCHIVED": "2026-11-24T21:50:53.357Z"
   },
   "sources_new": [
     "SEO-OWLPAGES-3590"
@@ -32,11 +34,24 @@
     ],
     "gitblob": "b1256d4ac615064b5ec0b08297a4082fbbeabd6f",
     "path": "owl-pet/production/generated/07-asio-flammeus-v5.png",
-    "local": "/workspace/scratch/180c531d917a/owl-2138/07-asio-flammeus-v5.png"
+    "local": "/workspace/scratch/180c531d917a/owl-2138/07-asio-flammeus-v5.png",
+    "concept_path": "owl-pet/design/concepts/07-asio-flammeus-v5.png"
   },
   "timings": {
     "generation_start": "2026-11-24T21:49:31.401Z",
     "generation_wait_ms": 38989,
     "edit_count": 1
-  }
+  },
+  "review": {
+    "result": "PASS_WITH_LIMITATIONS",
+    "actual_views": [
+      "generated full1536x1024",
+      "enlarged1400x210 adultfoot strip"
+    ],
+    "findings": "Short pale featherlets now visibly cover adult toe dorsum to near claw bases, thin separated contours and dark-tipped claws remain. Three birds, tiny tufts/yellow adult eyes, dark bills/cere, breast pattern, size relation, all six grounded feet, juvenile soft short wing/tail/blackish-face and grass-hummock support preserved.",
+    "lesson": "Applied second #06 prompt lesson to request shafts/barbs/fringed edges rather than scales; #07 first output passed actual enlarged view. This is one successful visual reuse, not proof of biological density or universal model improvement.",
+    "limits": "Juvenile exact age/iris conflict/firstflight and toe density remain uncalibrated. No scientific acceptance.",
+    "edits": 1
+  },
+  "scientifically_verified": false
 }

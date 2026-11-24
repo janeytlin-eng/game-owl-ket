@@ -1,0 +1,269 @@
+{
+  "batch_id": "20261124T0936Z",
+  "status": "COMPLETE",
+  "target_cycles": 6,
+  "completed_cycles": 6,
+  "generated_at": "2026-11-24T10:12:13.397Z",
+  "scope": 251,
+  "unique_species": 206,
+  "numbered_concept_versions": 998,
+  "manifest_entries": 952,
+  "source_counts": {
+    "new": 1,
+    "reused_id_references": 14,
+    "corrected_boundaries": 10
+  },
+  "scientifically_verified": false,
+  "execution_accounting": "First5 before intervening read-only request; last1 after latest production resumption. This batch crossed request boundaries; latest resumption alone completed1, not6. Conversation completed priorbatchlast1+thisbatch6=7.",
+  "actual_tool_wait_seconds": 381.70000000000005,
+  "cycles": [
+    {
+      "cycle": 1,
+      "id": "163-glaucidium-gnoma-v5",
+      "start": "2026-11-24T09:36:30.084Z",
+      "research_ready": "2026-11-24T09:40:15.580Z",
+      "stages": [
+        "RESEARCH_READY",
+        "IMAGE_GENERATED",
+        "REVIEWED",
+        "ARCHIVED",
+        "VERIFIED"
+      ],
+      "run_record": "owl-pet/production/runs/20261124T0936Z-cycle1.md",
+      "archive_commit": "523a3c9e0ff12ded14cf551737cdf3f6e6a76490",
+      "verification_commit": "79638af29de9313a0fd3f9bf5f6adb9a3a4ab744",
+      "meta": {
+        "path": "/workspace/scratch/180c531d917a/owl-0831/163-glaucidium-gnoma-v5.png",
+        "bytes": 3088555,
+        "sha256": "22006b4dad11635945d8d0fe96baf39b4941acf3a42072814ef6747ef133873b",
+        "gitsha": "67a855106d5f6d900acd9d1b9621a5f29ce07cb0",
+        "width": 1536,
+        "height": 1024
+      },
+      "source_counts": {
+        "new": 1,
+        "reused": 2,
+        "corrected": 2
+      },
+      "elapsed_start_to_research_ready_seconds": 225.496,
+      "research_timing_scope": "wall-clock to persisted RESEARCH_READY; includes reads/commits and interruptions, not pure researcher active time",
+      "image_tool_wait_seconds": [
+        36.3
+      ],
+      "image_wait_total_seconds": 36.3,
+      "archived_at": "2026-11-24T09:42:11Z",
+      "verified_at": "2026-11-24T09:42:29Z",
+      "archive_to_verified_seconds": 18,
+      "final_copy_upload_time": "included in generated/archive commits; no separate precise platform phase telemetry"
+    },
+    {
+      "cycle": 2,
+      "id": "165-ninox-punctulata-v5",
+      "start": "2026-11-24T09:42:41.439Z",
+      "research_ready": "2026-11-24T09:44:15.711Z",
+      "stages": [
+        "RESEARCH_READY",
+        "IMAGE_GENERATED",
+        "REVIEWED",
+        "ARCHIVED",
+        "VERIFIED"
+      ],
+      "run_record": "owl-pet/production/runs/20261124T0936Z-cycle2.md",
+      "archive_commit": "06fb5e1db3ca596e4bce8282061f31cb14320e3a",
+      "verification_commit": "46cb504686ad29a1bdf5e768fc9cca86d678b32e",
+      "meta": {
+        "path": "/workspace/scratch/180c531d917a/owl-0831/165-ninox-punctulata-v5.png",
+        "bytes": 3052034,
+        "sha256": "b8f012548281fb271ec91505a46bc756768f98a884e5a6a816f15668bc45538c",
+        "gitsha": "f0eb3404f346959c021b26e9e263aaab2bd87f0f",
+        "width": 1536,
+        "height": 1024
+      },
+      "source_counts": {
+        "new": 0,
+        "reused": 2,
+        "corrected": 2
+      },
+      "elapsed_start_to_research_ready_seconds": 94.272,
+      "research_timing_scope": "wall-clock to persisted RESEARCH_READY; includes reads/commits and interruptions, not pure researcher active time",
+      "image_tool_wait_seconds": [
+        38.3,
+        32.9
+      ],
+      "image_wait_total_seconds": 71.19999999999999,
+      "archived_at": "2026-11-24T09:46:50Z",
+      "verified_at": "2026-11-24T09:47:08Z",
+      "archive_to_verified_seconds": 18,
+      "final_copy_upload_time": "included in generated/archive commits; no separate precise platform phase telemetry"
+    },
+    {
+      "cycle": 3,
+      "id": "166-bubo-cinerascens-v5",
+      "start": "2026-11-24T09:47:19.378Z",
+      "research_ready": "2026-11-24T09:48:40.403Z",
+      "stages": [
+        "RESEARCH_READY",
+        "IMAGE_GENERATED",
+        "REVIEWED",
+        "ARCHIVED",
+        "VERIFIED"
+      ],
+      "run_record": "owl-pet/production/runs/20261124T0936Z-cycle3.md",
+      "archive_commit": "986168aad76968bd0bb8c95a7fe4494debfc6d1e",
+      "verification_commit": "d2ccc8e7a2273b2ca12a49efbb9cd882b85d7b93",
+      "meta": {
+        "path": "/workspace/scratch/180c531d917a/owl-0831/166-bubo-cinerascens-v5.png",
+        "bytes": 3332160,
+        "sha256": "d3f8d9fbb81e6da4a2703bc02940ea3f870a73bb4e386b8df8243f1a21051239",
+        "gitsha": "68afdc4969be47214aede1e894122c0238125eff",
+        "width": 1536,
+        "height": 1024
+      },
+      "source_counts": {
+        "new": 0,
+        "reused": 2,
+        "corrected": 2
+      },
+      "elapsed_start_to_research_ready_seconds": 81.025,
+      "research_timing_scope": "wall-clock to persisted RESEARCH_READY; includes reads/commits and interruptions, not pure researcher active time",
+      "image_tool_wait_seconds": [
+        36.7
+      ],
+      "image_wait_total_seconds": 36.7,
+      "archived_at": "2026-11-24T09:50:11Z",
+      "verified_at": "2026-11-24T09:50:28Z",
+      "archive_to_verified_seconds": 17,
+      "final_copy_upload_time": "included in generated/archive commits; no separate precise platform phase telemetry"
+    },
+    {
+      "cycle": 4,
+      "id": "167-ketupa-poensis-v5",
+      "start": "2026-11-24T09:50:38.279Z",
+      "research_ready": "2026-11-24T09:51:41.735Z",
+      "stages": [
+        "RESEARCH_READY",
+        "IMAGE_GENERATED",
+        "REVIEWED",
+        "ARCHIVED",
+        "VERIFIED"
+      ],
+      "run_record": "owl-pet/production/runs/20261124T0936Z-cycle4.md",
+      "archive_commit": "07792cd9b2cf2295584b26f6e51d7df9b3fc57bb",
+      "verification_commit": "74d5b69a5bde5dfd17b91894c12413921000ed8f",
+      "meta": {
+        "path": "/workspace/scratch/180c531d917a/owl-0831/167-ketupa-poensis-v5.png",
+        "bytes": 2945156,
+        "sha256": "fe70605525b91a5188d07616eba81c9983c38383d9c89c9cc6b3acdf8e4217ff",
+        "gitsha": "05c6ecbaf6d0eac8cc84cca73eb5f8b9e9299752",
+        "width": 1536,
+        "height": 1024
+      },
+      "source_counts": {
+        "new": 0,
+        "reused": 3,
+        "corrected": 1
+      },
+      "elapsed_start_to_research_ready_seconds": 63.456,
+      "research_timing_scope": "wall-clock to persisted RESEARCH_READY; includes reads/commits and interruptions, not pure researcher active time",
+      "image_tool_wait_seconds": [
+        40.3,
+        34.2
+      ],
+      "image_wait_total_seconds": 74.5,
+      "archived_at": "2026-11-24T09:54:22Z",
+      "verified_at": "2026-11-24T09:54:44Z",
+      "archive_to_verified_seconds": 22,
+      "final_copy_upload_time": "included in generated/archive commits; no separate precise platform phase telemetry"
+    },
+    {
+      "cycle": 5,
+      "id": "168-ketupa-leucosticta-v5",
+      "start": "2026-11-24T09:54:56.081Z",
+      "research_ready": "2026-11-24T09:56:25.956Z",
+      "stages": [
+        "RESEARCH_READY",
+        "IMAGE_GENERATED",
+        "REVIEWED",
+        "ARCHIVED",
+        "VERIFIED"
+      ],
+      "run_record": "owl-pet/production/runs/20261124T0936Z-cycle5.md",
+      "archive_commit": "8b8838d00248a55e1d4f483bde9930b2f2a696a1",
+      "verification_commit": "aa82353d373bddf12c0b8eeacb63c25aa76f8dd8",
+      "meta": {
+        "path": "/workspace/scratch/180c531d917a/owl-0831/168-ketupa-leucosticta-v5.png",
+        "bytes": 2672236,
+        "sha256": "6c137d90e5761e731a2e88ebf1f4564f0c00854639066dc8c768e619c05818b3",
+        "gitsha": "e3ce4ce95c7c1402a87bebfcdb05654ba2404264",
+        "width": 1536,
+        "height": 1024
+      },
+      "source_counts": {
+        "new": 0,
+        "reused": 2,
+        "corrected": 2
+      },
+      "elapsed_start_to_research_ready_seconds": 89.875,
+      "research_timing_scope": "wall-clock to persisted RESEARCH_READY; includes reads/commits and interruptions, not pure researcher active time",
+      "image_tool_wait_seconds": [
+        33,
+        34
+      ],
+      "image_wait_total_seconds": 67,
+      "archived_at": "2026-11-24T09:59:05Z",
+      "verified_at": "2026-11-24T09:59:24Z",
+      "archive_to_verified_seconds": 19,
+      "final_copy_upload_time": "included in generated/archive commits; no separate precise platform phase telemetry"
+    },
+    {
+      "cycle": 6,
+      "id": "169-ketupa-shelleyi-v5",
+      "start": "2026-11-24T09:59:33.170Z",
+      "research_ready": "2026-11-24T10:03:52.692Z",
+      "stages": [
+        "RESEARCH_READY",
+        "IMAGE_GENERATED",
+        "REVIEWED",
+        "ARCHIVED",
+        "VERIFIED"
+      ],
+      "run_record": "owl-pet/production/runs/20261124T0936Z-cycle6.md",
+      "archive_commit": "e48283c491f777470107528b00a642e59b276b8e",
+      "verification_commit": "00c783697e46023e190830b32948e7285ef9ddc0",
+      "meta": {
+        "path": "/workspace/scratch/180c531d917a/owl-0831/169-ketupa-shelleyi-v5.png",
+        "bytes": 2522719,
+        "sha256": "9b11b06faeefa594525248d41f7070cc6298ae1fb56a4f39a0e47b31b1e3306c",
+        "gitsha": "d70793e9704bae86f30c4cfc52d85c6ac39cc222",
+        "width": 1536,
+        "height": 1024
+      },
+      "source_counts": {
+        "new": 0,
+        "reused": 3,
+        "corrected": 1
+      },
+      "elapsed_start_to_research_ready_seconds": 259.522,
+      "research_timing_scope": "wall-clock to persisted RESEARCH_READY; includes reads/commits and interruptions, not pure researcher active time",
+      "image_tool_wait_seconds": [
+        32.6,
+        31.3,
+        32.1
+      ],
+      "image_wait_total_seconds": 96,
+      "archived_at": "2026-11-24T10:08:27Z",
+      "verified_at": "2026-11-24T10:09:06Z",
+      "archive_to_verified_seconds": 39,
+      "final_copy_upload_time": "included in generated/archive commits; no separate precise platform phase telemetry"
+    }
+  ],
+  "timing_limits": "Toolwaitseconds from actual call results. Start-to-researchReady and archive-to-verify are wallclock and include commits/reads/interruptions; no fixed platform timeout telemetry. Upload phase not independently instrumented.",
+  "observed_errors": [
+    "large combined output truncated; recovered by bounded reads",
+    "BBOC web400:content36MB too large; direct originaldownload successful",
+    "Persée originalPDF403 Forbidden; not fresh originalread",
+    "169 first2 iris edits left warmouterring; third withzoom reference passed localvisual criterion"
+  ],
+  "review_entry": "owl-pet/production/batches/20261124T0936Z-completed-review.md",
+  "next_cycle": "newbatch1/6 after freshmain/lease/missing-species queue check"
+}

@@ -6592,3 +6592,7 @@ The local IA request subsequently succeeded before review: original Auk18p46 Gla
 
 ## 20261124T1137Z cycle4 #172v6 boundary mapping
 New0/reused4 existingTMO-MIKKOLA-2013-P110,TMO-DEBUS-1993-P169-172-187,TMO-YOUNG-BELL-MOONEY-2021-P13-18,TMO-ABSA-2019-P2; originals/bookactualread. No duplicatesources. Correctedpriorp185/PDF18locator retained, radio-trackedolderjuvenilecannotprovecreamdownyflight/iris/wing. Currentimagebiologyunchanged, onlyspecificunknownfooter. [Metadata/URLs/pages/facts/limits/prompt](species/172-tyto-castanops-v6.md),[image](../design/concepts/172-tyto-castanops-v6.png),[review](reviews/172-tyto-castanops-v6-review.md). Designboundarycorrection1/sciencefalse.
+
+
+## 20261124T1137Z cycle5 #173v6 and uncredited missing-species search
+Reused2TSO-MIKKOLA-2013-P145(upload145/PDF147actualread)/TSO-RENE-THORSTROM-2009-P87-88(actualoriginal2pagesread). Youngirisnotprovided; closedeyeartisticpose, notdevelopmentproof. New2 candidate-mappings **CRPO-MIKKOLA-2013-P379** (Mikkola2013printed379/PDF381adultmorph,juvenileUNDESCRIBED) and **CRPO-ITIS-686691** (ITISvalidG.costaricanumL.Kelso1937,currentactualbodyread,nojuvenilefacts). Fullmetadata/URL/pages/limits/decision [research](species/173-otus-madagascariensis-v6.md); [image](../design/concepts/173-otus-madagascariensis-v6.png)/[review](reviews/173-otus-madagascariensis-v6-review.md). Macaulay626397501actualpageAccessDenied, searchmetadataonlyunverifiedlead,noyoungframesviewed/nogroup/newcount. No duplicatepublicationcount for samebook. Sciencefalse.

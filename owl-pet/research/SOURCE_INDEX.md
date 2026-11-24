@@ -6681,3 +6681,10 @@ New0/reused2 OANG-MIKKOLA-2013-P182 actualuploaded182/PDF184 and OANG-BIRDLIFE-2
 
 ## 20261124T1432Z cycle5 216-otus-thilohoffmanni-v3
 New0/reused2 OTHI-WARAKAGODA-2006-CBC originalyoungparagraph and OTHI-MIKKOLA-2013-P180 uploaded180/PDF182 read. Weak partially formed juvenile disc; sameobserver observations not independent studies. [Metadata/prompt](species/216-otus-thilohoffmanni-v3.md) · [review](reviews/216-otus-thilohoffmanni-v3-review.md).
+
+
+## 20261124T1432Z cycle6 212-megascops-seductus-v3
+New0/reused2 MSED-MIKKOLA-2013-P216 actualuploaded216/PDF218 adulttwobands, MSED-RAMIREZ-JIMENEZ-2018 publisherabstract/localoriginal111–112 freshread afterremotePDFtimeout. Modest second covert-tip band readability only; nestling unaltered. [Metadata/prompt](species/212-megascops-seductus-v3.md) · [review](reviews/212-megascops-seductus-v3-review.md).
+
+### 20261124T1432Z research corrections and leads
+Cycle2 also reused AMAL-ITIS-1244683 validname/aliases body. The Callaghan2019 search phrase white throat+black bars belongs Peregrine Falcon, excluded from owl. Cycle4/nextspecies exploration: ML163283551 search-only juvenile Maghreb owl, actual original access Anubis error9e4edb5b6b850c41, photo NOT viewed, not design evidence. SEO Ceuta2025 JoséNavarretePérez species account actual read https://www.seoceuta.es/wordpress/carabo-del-magreb-strix-mauritanica/ supports grey-brown adult/general habitat, broad no-age-difference assertion not a neonatal developmental authority; no new species produced. Capnodes search estimates unverified, no hatchling detail adopted. These leads are not counted new verified developmental sources.

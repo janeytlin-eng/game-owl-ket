@@ -53322,12 +53322,25 @@
           "run_record": "owl-pet/production/runs/20261124T1632Z-cycle1.json",
           "completed_at": "2026-11-24T16:35:19.540Z",
           "scientifically_verified": false
+        },
+        {
+          "cycle": 2,
+          "id": "213-glaucidium-tephronotum-v3",
+          "species": "Glaucidium tephronotum",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "status": "VERIFIED",
+          "commit_sha": "23f9bdaa264322ce4fa2fc6c7d58769ed48064e6",
+          "archive_commit": "ba2cc768804dfc35829a8dd4dc6f2ff417816ce3",
+          "run_record": "owl-pet/production/runs/20261124T1632Z-cycle2.json",
+          "completed_at": "2026-11-24T17:38:04.369Z",
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 2,
+      "next_cycle": 3,
       "started_at": "2026-11-24T16:32:25.115Z",
       "remaining_cycles": [
-        2,
         3,
         4,
         5,
@@ -53336,12 +53349,7 @@
       "partial_reason": "Observed tool Code Mode session output limit reached while printing initial large ledger, 7221056 text bytes omitted. Executor checkpoints after cycle1; no fixed timeout telemetry and not a claim subsequent tools were wholly unavailable."
     }
   ],
-  "lease": {
-    "owner": "owl-1730Z",
-    "run_id": "20261124T1632Z-cycle2",
-    "heartbeat_at": "2026-11-24T17:36:14.538Z",
-    "expires_at": "2026-11-24T17:51:14.539Z"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -53500,12 +53508,7 @@
       }
     }
   ],
-  "active_lease": {
-    "owner": "owl-1730Z",
-    "run_id": "20261124T1632Z-cycle2",
-    "heartbeat_at": "2026-11-24T17:36:14.538Z",
-    "expires_at": "2026-11-24T17:51:14.539Z"
-  },
+  "active_lease": null,
   "last_updated_at": "2026-11-13T06:00:16.398+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",

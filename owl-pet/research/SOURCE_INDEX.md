@@ -6822,3 +6822,7 @@ Six-cycle reused9references/6documents, new1 CRPO-CNSA-HSI-GUIDE-2026 taxonomy-o
 
 ## 20261124T2138Z cycle2 #06 Asio otus
 **LEO-TARVIN-1994-P110** NEW — KeithA.Tarvin1994, Long-earedOwlobservedinHighlandsCountyFlorida, FlaFieldNat22(4):110–111. Original https://www.oberlin.edu/sites/default/files/content/biography/faculty_docs/Keith_Tarvin/long-earedowlobservedinhighlandscounty2cflorida.pdf actualbothpagesread2026-11-25Beijing; primaryfieldrecord adult-likeageunassignedNorthAmerica. P110fullyfeatheredbufftarsi/toes; no densitymeasurement/sex/young. Coveragecorroborationonly,noiriscolourtransfer. ReusedLEO-MIKKOLA-2013-P504 uploadedprinted504/PDF506 actualread. Facts/inference/limits/prompt [#06v5](species/06-asio-otus-v5.md). New1/reused1;sciencefalse.
+
+
+## 20261124T2138Z cycle3 #07 Asio flammeus
+**SEO-OWLPAGES-3590** NEW: DeaneLewis, Short-earedOwl, undatedspecialistsynthesis https://www.owlpages.com/owls/species.php?s=3590 actualDescription/Size/Habits/Breedingread2026-11-25Beijing. Adults:tarsi/toespaletawnycreamfeathered, greyhornclawsdarktips; notdensity/dayatlas. ReusedSEO-MIKKOLA-2013-P512 printed512/PDF514 actualread. Adultcoveronly/juvenileunchanged. [Facts,failures,limits,prompt](species/07-asio-flammeus-v5.md). New1/reused1;sciencefalse. NCSUFig3-20botblocked/Audubonfiletoolarge remainunverifiedleads.

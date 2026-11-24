@@ -5,7 +5,8 @@
   "started_at": "2026-11-24T14:31:33.168Z",
   "stages": {
     "STARTED": "2026-11-24T14:31:33.168Z",
-    "RESEARCH_READY": "2026-11-24T14:32:29.747Z"
+    "RESEARCH_READY": "2026-11-24T14:32:29.747Z",
+    "IMAGE_GENERATED": "2026-11-24T14:34:22.333Z"
   },
   "notes": [
     "No effective unfinished batch or lease at latest main. #25 already archived remotely; no duplicate reconstruction. Prior local fd9d70d not required for current archive.",
@@ -37,5 +38,15 @@
     "juvenile age/first flight/bare-part development",
     "adult sex size ratio",
     "precise adult toe feather density"
-  ]
+  ],
+  "imagegen_wait_ms": 52535,
+  "meta": {
+    "bytes": 2556735,
+    "sha256": "36593169f6a9a44c325582be097f72a00309c635f1be27dbc2b1292bb20a557b",
+    "size": [
+      1536,
+      1024
+    ],
+    "gitblob": "045b7ebd2e1efa5d02e7fd5c36465b79204fe83b"
+  }
 }

@@ -1,0 +1,195 @@
+{
+  "batch_id": "20261124T1031Z",
+  "status": "COMPLETE",
+  "completed_cycles": 6,
+  "completed_this_invocation": 6,
+  "new_species": 0,
+  "revisions": 6,
+  "unique_species": 206,
+  "scope": 251,
+  "counts": {
+    "unique": 206,
+    "originals": 1004,
+    "manifest": 958
+  },
+  "source_counts": {
+    "new": 0,
+    "reused_id_references": 11,
+    "corrected_design_boundaries": 6
+  },
+  "scientifically_verified": false,
+  "completed_at": "2026-11-24T10:51:39.393Z",
+  "tool_wait_seconds": [
+    32.2,
+    38.4,
+    38.6,
+    42.2,
+    36.5,
+    37.7
+  ],
+  "timing_limits": "Stage wallclock includes source reads/text commits/archive; pure uploadtime not independently instrumented. No fixed timeout telemetry.",
+  "cycles": [
+    {
+      "id": "170-glaucidium-sanchezi-v5",
+      "start": "2026-11-24T10:31:33.219Z",
+      "research_ready": "2026-11-24T10:32:43.223Z:actualv4view/bookp384/PDF386freshread/externalprimary2024PDFbodyread.",
+      "image_generated": "2026-11-24T10:33:34.884Z",
+      "reviewed": "2026-11-24T10:34:45.409Z",
+      "verified": "2026-11-24T10:35:12.672Z",
+      "all_stages": true,
+      "cycle": 1,
+      "verify": "8e9aaeadddad17219a44e2917cdefddd1dac518e",
+      "archive": "5425ef0f6b2a5811811ac8959a1d61f77585bbb5",
+      "meta": {
+        "path": "/workspace/scratch/180c531d917a/owl-1031/170-glaucidium-sanchezi-v5.png",
+        "bytes": 2663629,
+        "sha256": "bbdc13de2f009f4872e491d54d9c17ca067cbb99fbba582198e53dd3d095d174",
+        "gitsha": "a7e818b6fe818bf8ad45a6ff92da723d5b64ad5e",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "counts": {
+        "new": 0,
+        "reused": 2,
+        "corrected": 1
+      }
+    },
+    {
+      "id": "174-strix-sartorii-v5",
+      "start": "2026-11-24T10:35:28.219Z",
+      "research_ready": "2026-11-24T10:36:16.646Z:",
+      "image_generated": "2026-11-24T10:37:18.422Z",
+      "reviewed": "2026-11-24T10:37:49.613Z",
+      "verified": "2026-11-24T10:38:15.439Z",
+      "all_stages": true,
+      "cycle": 2,
+      "verify": "eb95f1f51787fb0f37545cd50bbfd9112e68e035",
+      "archive": "11866492dd83fe3c37bc76c613ac4abd96829664",
+      "meta": {
+        "path": "/workspace/scratch/180c531d917a/owl-1031/174-strix-sartorii-v5.png",
+        "bytes": 2555124,
+        "sha256": "e61c7a7b0da98b43b1c03cb134e74a1c88553babbe788e650831ea0064d13d0b",
+        "gitsha": "9701cebe1ed00caff848f098cca173d90641a2ed",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "counts": {
+        "new": 0,
+        "reused": 1,
+        "corrected": 1
+      }
+    },
+    {
+      "id": "176-otus-pembaensis-v6",
+      "start": "2026-11-24T10:38:29.280Z",
+      "research_ready": "2026-11-24T10:39:20.742Z:",
+      "image_generated": "2026-11-24T10:40:21.841Z",
+      "reviewed": "2026-11-24T10:40:56.597Z",
+      "verified": "2026-11-24T10:41:22.253Z",
+      "all_stages": true,
+      "cycle": 3,
+      "verify": "a7ad8162efcb6dab06f274d26a0403ba1f9c1e4a",
+      "archive": "3307b3bdc6267962e9dfb11a0f8358e76fae69c6",
+      "meta": {
+        "path": "/workspace/scratch/180c531d917a/owl-1031/176-otus-pembaensis-v6.png",
+        "bytes": 2436276,
+        "sha256": "0d421e803f307b0659630e968d70cb5bd899c3c876f2b97555121eba2f478559",
+        "gitsha": "a2f6460914b2eb9f5e79dd5d03b67cb0d989a5b7",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "counts": {
+        "new": 0,
+        "reused": 2,
+        "corrected": 1
+      }
+    },
+    {
+      "id": "177-otus-hartlaubi-v6",
+      "start": "2026-11-24T10:41:36.124Z",
+      "research_ready": "2026-11-24T10:42:25.644Z:",
+      "image_generated": "2026-11-24T10:43:29.861Z",
+      "reviewed": "2026-11-24T10:44:04.284Z",
+      "verified": "2026-11-24T10:44:29.090Z",
+      "all_stages": true,
+      "cycle": 4,
+      "verify": "dbfe38b328e7be15c9dd13527d502cb772dad27c",
+      "archive": "2a75c8ff32c280feecb8e2c40e4dd58956e20bc4",
+      "meta": {
+        "path": "/workspace/scratch/180c531d917a/owl-1031/177-otus-hartlaubi-v6.png",
+        "bytes": 2622493,
+        "sha256": "ad0b8aaa1bd42947ad6910969ea53323cbf626b5796c1c223ae15ed68589c45e",
+        "gitsha": "92a952a50777a4312b93f7bf453c62be458d7d62",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "counts": {
+        "new": 0,
+        "reused": 2,
+        "corrected": 1
+      }
+    },
+    {
+      "id": "178-otus-insularis-v6",
+      "start": "2026-11-24T10:44:42.340Z",
+      "research_ready": "2026-11-24T10:45:20.920Z:",
+      "image_generated": "2026-11-24T10:46:17.895Z",
+      "reviewed": "2026-11-24T10:46:52.504Z",
+      "verified": "2026-11-24T10:47:14.039Z",
+      "all_stages": true,
+      "cycle": 5,
+      "verify": "15e1ff2b9b994184615b1c4706b4c75902defac8",
+      "archive": "d804462fb5779a2b447171b3abd5df937da57468",
+      "meta": {
+        "path": "/workspace/scratch/180c531d917a/owl-1031/178-otus-insularis-v6.png",
+        "bytes": 2593598,
+        "sha256": "50174826af0938ccf163f9ad6cd7634bca0706dd08c5c3f462744a8d86da24e3",
+        "gitsha": "268ec2249dbc0bda0d67d263ba26dabb8e393541",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "counts": {
+        "new": 0,
+        "reused": 2,
+        "corrected": 1
+      }
+    },
+    {
+      "id": "175-otus-ireneae-v6",
+      "start": "2026-11-24T10:47:27.155Z",
+      "research_ready": "2026-11-24T10:47:59.117Z:",
+      "image_generated": "2026-11-24T10:48:59.148Z",
+      "reviewed": "2026-11-24T10:49:47.423Z",
+      "verified": "2026-11-24T10:50:18.694Z",
+      "all_stages": true,
+      "cycle": 6,
+      "verify": "0145a3fad88c374dab6277b745451ef8ef7ea870",
+      "archive": "6e913fd157431c8edd9baf54f5afe5cd0fcb0dec",
+      "meta": {
+        "path": "/workspace/scratch/180c531d917a/owl-1031/175-otus-ireneae-v6.png",
+        "bytes": 2537734,
+        "sha256": "9a899c4452f04a6788a764e37ef9560da48d60be02e18f4831590440792e0ed4",
+        "gitsha": "0c641e83fc591d936a923d02dd40e692ad69b282",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "counts": {
+        "new": 0,
+        "reused": 2,
+        "corrected": 1
+      }
+    }
+  ]
+}

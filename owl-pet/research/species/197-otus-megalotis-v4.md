@@ -1,0 +1,16 @@
+# #197 Otus megalotis v4 — juvenile lower belly/thigh contrast
+
+Batch20261124T0112Z cycle5/6; revision+1/unique+0, science=false; v1–v3 preserved. CurrentnamePhilippineScopsOwl; historicalLuzonLowlandScopsOwl/Scopsmegalotis/Lempijiusmegalotis retained.
+
+## Actually read2026-11-24
+- User-uploaded Mikkola2013 printed170/PDF172, existing guide source reused: young rufousbuff head/neck fineblackbars, rufousface, faintwhitefacialshaftstreaks; underside becomes whitishbuff on lowerbelly/thighs with finetransverse darkbars; tarsiwhitish/obscureduskybars. Adult horny bill/orangebrowneyes, greymorph. This is direct speciesaccount but not a continuousdevelopmentalseries; no exactdayage/iris/flightthreshold.
+- LLSO-MIRANDA-2011-P446-450 reused actualauthorfulltext https://www.researchgate.net/publication/232687502_Phylogeny_and_Taxonomic_Review_of_Philippine_Lowland_Scops_Owls_Strigiformes_Parallel_Diversification_of_Highland_and_Lowland_Clades , DOI10.1676/10-185.1, WilsonJOrnithol123:441–453(2011). Read methods(adultsexedsamples), Table2p446, plumagep450. Adultfemale meanwing/tail exceedsmale butrangesoverlap; ashybrownunderparts/scapularstripe/featheringontoupperfoot; redmorphnotsexspecificrule. No livebody multiplier or juvenilechronology inferred. Host pageheader2025 is upload metadata; printedpaper2011 retained.
+- LLSO-OWL-PAGES-2012-JUV reused https://www.owlpages.com/owls/species.php?i=82 : BramDemeulemeester, MountDataLuzonApril2012, juvenileperchedmosslichenbranch caption actuallyread. Newphoto pixels not retrieved thiscycle; caption supports locality/stage/perch only, not iris/chonology.
+
+## Actual v3 issue/design
+Fullplate opened: young lowerbellyandthighs remain saturatedrufousorange almostlikecrown; guide explicitly distinguishes whitishbufflowerbelly/thighs andwhitishbarredtarsi. Target thiscolour/finemarkings only, preserveadultforms andcompactyoungwing. AgeunknownlabelreplacesvagueOLDER; do notcreatehatchling/flightaction. Allfeetnaturalbranchsupport; no nestinterior. Scientificcalibrationpending, notexpertapproval.
+
+## Fullprompt
+~~~text
+Use case: precise-object-edit. Existing #197 Philippine Scops Owl Otus megalotis v3 painterly triptych is edit target. Preserve confirmed warm field-guide style, border, title/Latin name, both adult birds with orange-brown eyes and horn bills, scapular stripes, feathering onto upper feet, near-equal standing heights, and entire forest/branch layout. Make one juvenile plumage correction: retain rufous-buff crown/neck, rufous face, warm upper breast and soft compact folded wing; transition the LOWER BELLY AND THIGHS ONLY to visibly paler WHITISH-BUFF feathers with fine subtle dusky transverse bars, and whitish tarsal feathers with obscure dusky bars. The juvenile must not stay uniformly saturated orange all the way to its feet. Keep soft fluffy mesoptile texture; no stark white patch, no stripes as bold as adult, no adult-hard primaries or lengthened wing/tail. Keep both young feet naturally gripping the same branch. Replace its label OLDER JUVENILE with AGE-UNKNOWN JUVENILE. Add small readable footer "CONCEPT • SCIENTIFIC CALIBRATION PENDING • YOUNG AGE / IRIS / FLIGHT UNVERIFIED". No extra birds, prey, eggs, cavity or nest. Keep existing adult sex scale; no universal female-larger multiplier.
+~~~

@@ -6202,3 +6202,7 @@ Reuse SUN-LOK-2009, SUSO-NPARKS-2025 and Mikkola2013printed162/PDF164. Paper's a
 
 ## 2026-11-24 — #195 v4 annotation-only, source scopes
 Reused RAJ-GOODDIE-2015-P70-81, account actually onprinted74/PDF5 (adult/nest, nojuvenile), and RAJ-MIK2013-P168, uploaded168/PDF170 actuallyread (mesoptile, noexactage). New0. RAJ-BOWMAN2014-JUV notfreshlyviewed/notcountedasreread. [Research](species/195-otus-brookii-v4.md),[image](../design/concepts/195-otus-brookii-v4.png),[review](reviews/195-otus-brookii-v4-review.md). Remove vagueOLDERlabel in favour AGE-UNKNOWN MESOPTILE, addcalibrationfooter; no newmorpherror/sciencepassclaimed. Guidefemale-larger tentative withoutsexedweights notconvertedto fixedratio.
+
+
+## 2026-11-24 — #197 v4 juvenile ventral contrast
+Reused3sources: uploadedMikkola2013p170/PDF172 actuallyread (whitishbufflowerbelly/thighs andwhitishobscure-barredtarsi); LLSO-MIRANDA-2011-P446-450 primaryfulltextTable2/plumageread (adultonly, authoruploadheader2025notpublicationyear); LLSO-OWL-PAGES-2012-JUV captionread, no freshpixelclaim. [Research](species/197-otus-megalotis-v4.md),[image](../design/concepts/197-otus-megalotis-v4.png),[review](reviews/197-otus-megalotis-v4-review.md). Targetyounglowerbellycolourcontrast, no added chronology/adultsexratio. No new IDs; stage/unknowns remainexplicit.

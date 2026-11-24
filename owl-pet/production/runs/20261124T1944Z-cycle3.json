@@ -4,7 +4,7 @@
   "run_id": "20261124T1944Z-cycle3",
   "started_at": "2026-11-24T19:48:10.071Z",
   "status": "STARTED",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "id": "151-athene-jacquinoti-v5",
   "species": "Athene jacquinoti",
   "action": "REVISION",
@@ -18,6 +18,21 @@
       "sources_reused": 2,
       "prompt": "Use case: precise-object-edit. Edit existing #151 Athene jacquinoti v4. Correct ONLY both ADULT bills from slate blue-gray to dark muted OLIVE-HORN (olive-brown with a restrained green cast, not lime/yellow and not blue). Keep original bill shape, nares, highlights and dark tip, no beak enlargement. Central unverified young bill stays unchanged. Preserve three birds' feather patterns, orange-yellow adult eyes, near-equal adult sizes, naturally supporting feet, branch, tree and forest, all proportions and existing adult labels. Title must read \"#151 · WEST SOLOMONS OWL\" and italic \"Athene jacquinoti\". Replace central label with \"JUVENILE RECONSTRUCTION\" and below it \"AGE / PLUMAGE / IRIS UNVERIFIED\". Add bottom visible footer \"CONCEPT · SCIENTIFIC CALIBRATION PENDING\". The central young appearance and the cavity's biological use are NOT established. No nest claim, no hatchling details, no flight, no newly opened cavity. Keep original warm rounded tactile naturalistic owl-pet style and landscape composition. No approval badge or extra text.",
       "evidence": "owl-pet/research/species/151-athene-jacquinoti-v5.md"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-24T19:49:41.974Z",
+      "blob": "f4ca47801d13c734ac7c2768c02ad60507c9108c",
+      "meta": {
+        "bytes": 2992131,
+        "sha256": "45a284770da1fee6876d7fbae736f84ecb4c34fd817742a498337ddb14a064ec",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "edit_wait_seconds": 48.5,
+      "imagegen_edit_calls": 1
     }
   ],
   "errors": []

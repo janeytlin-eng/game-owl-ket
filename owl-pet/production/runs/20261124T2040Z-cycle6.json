@@ -6,7 +6,7 @@
   "species": "Strix sartorii",
   "action": "ANNOTATION_REVISION",
   "started_at": "2026-11-24T20:48:37.254Z",
-  "stage": "IMAGE_GENERATED",
+  "stage": "REVIEWED",
   "status": "STARTED",
   "scientifically_verified": false,
   "stages": [
@@ -27,6 +27,12 @@
         1024
       ],
       "edit_wait_seconds": 39.3
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-24T20:50:08.044Z",
+      "result": "PASS_WITH_LIMITATIONS",
+      "scientifically_verified": false
     }
   ],
   "errors": []

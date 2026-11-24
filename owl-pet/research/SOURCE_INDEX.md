@@ -6744,3 +6744,7 @@ New0/reused2 source-ID references; actual read and citation-only scopes distingu
 
 ## 20261124T1632Z cycle3 214-otus-balli-v3
 New0/reused2 source-ID references; actual read and citation-only scopes distinguished in [metadata/fullprompt](species/214-otus-balli-v3.md), [review](reviews/214-otus-balli-v3-review.md). Actual v2 fullplate: no newly verified morphology error; its footer flags only juvenile iris. Guide has no sex-size data and no precise youngage/bill/flight. Expose these missing evidence boundaries in image rather than invent anatomy correction.
+
+
+## 20261124T1632Z cycle4 217-otus-longicornis-v3
+New0/reused2 source-ID references; actual read and citation-only scopes distinguished in [metadata/fullprompt](species/217-otus-longicornis-v3.md), [review](reviews/217-otus-longicornis-v3-review.md). Highestv2 fullplate actually viewed: both adult bills uniformly dullgreen to tip, no darkbrown terminal/cuttingedges described guide186. Add narrow darkbrown tip/cuttingedge, keep green center. Young closedeyes/softbarredmesoptile unchanged.

@@ -1,0 +1,4 @@
+# 220-tyto-rosenbergii-v2 actual review
+Actualv2 full output and resizedfull sheet viewed. Taxonomy plaque legible correct Tyto javanica rosenbergii with CLEMENTS2026 qualifier; old title220/rosenbergii retained. Adultfaces/darkeyes/ivorybills/sexcolour/near-equalheight retained; young still whitegrey down/smallpinkbill without adultwing, supported on boxfloor not falling. No flight/nest-age additions. Footer scientificpending retained. No further edit needed. PASS_WITH_LIMITATIONS; scientificfalse, no newuserconfirmation.
+## Iteration
+Problem displayed unqualified oldspeciesname; evidence officialcurrentauthority now lumps. Added versioned taxonomy plaque without overwriting legacy metadata or counting subspecies as newcoverage. Actualview verifies readable annotation and stable phenotype, not anatomy scientifically validated. Recheck implicated#172 maskedowl nomenclature next. Upload fix fromcycle1 applied charcount+GitSHA checks successfully; finalbinarypending.

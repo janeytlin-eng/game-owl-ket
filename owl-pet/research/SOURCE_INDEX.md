@@ -6788,3 +6788,6 @@ DESERTOWL-BENDOV-2017 reusedactualTable4–5/ageingdiscussion/captionsread. New0
 
 ## 2026-11-25 20261124T1944Z cycle6 · Ninox punctulata
 Reused SPBO-OCONNELL-ETAL-2022-P291-292 actualprimarybody/caption fromauthoruploadedmirror and sharedMIKKOLA-2013 printed485/PDF487. New0/reused2. Recentv5bill/darkyoungretained; annotationonlysciencepending/youngsoftpart-flightunknown. [#165v6 metadata/limits/prompt](species/165-ninox-punctulata-v6.md). Stagevisualizationnotnewhatchdateorrootnestproof.
+
+## 2026-11-24T20:05:15.280Z · 20261124T1944Z completed source/review closure
+New independentpublications0, reusedIDreferences10/distinctdocuments7. ExistingNOCH-MADIKA-2011-P98 actualp98reread ruledoutunidentifiedwhite-spottedowlasyoungiosproof; othercandidatehit-onlyrecordsnotpromotedtoverifiedfacts. AdditionalsharedMIKKOLA2013printed454/462/468/483 pagereadscopesandtaxonomylimits, actualerrors/editedversions/commits [six-cycle review](../production/batches/20261124T1944Z-completed-review.md). #164comparatorageinterpretationcorrected; historiesretained. No scientificpass.

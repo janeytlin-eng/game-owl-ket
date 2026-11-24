@@ -1,0 +1,348 @@
+{
+  "batch_id": "20261124T1944Z",
+  "started_at": "2026-11-24T19:37:28.489Z",
+  "completed_at": "2026-11-24T20:05:15.280Z",
+  "counts": {
+    "unique": 206,
+    "total": 251,
+    "images": 1047,
+    "manifest": 1001
+  },
+  "new_species": 0,
+  "revised_species": 6,
+  "source_publications_new": 0,
+  "source_id_reuses": 10,
+  "distinct_reused_documents": 7,
+  "source_locator_update": 1,
+  "source_interpretation_corrections": 1,
+  "imagegen_edit_calls": 7,
+  "scientifically_verified": false,
+  "scope_interruption": "temporary read-only instruction then latest production resumption",
+  "runs": [
+    {
+      "cycle": 1,
+      "id": "147-ninox-leventisi-v5",
+      "started_at": "2026-11-24T19:37:28.489Z",
+      "completed_at": "2026-11-24T19:42:36.544Z",
+      "stages": [
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-24T19:38:03.478Z",
+          "wait_seconds": null
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-24T19:39:46.631Z",
+          "wait_seconds": 53
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-24T19:41:45.558Z",
+          "wait_seconds": 44.6
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-24T19:41:45.558Z",
+          "wait_seconds": null
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-24T19:42:05.614Z",
+          "wait_seconds": null
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-24T19:42:36.544Z",
+          "wait_seconds": null
+        }
+      ],
+      "errors": [
+        {
+          "at": "2026-11-24T19:40:13.347Z",
+          "step": "initial claw review",
+          "error": "Pale bases improved, but several long adult claws retain dark distal majority; requested mostly-pale feature not yet met. No cycle credit."
+        }
+      ],
+      "events": [],
+      "archive": "36438b9d1ff7283cf7d33396b156a2851f77ed96",
+      "verified_commit": "3ba92832db21dfcfbba5e4bca5c284c6a8d3c371"
+    },
+    {
+      "cycle": 2,
+      "id": "148-ninox-rumseyi-v5",
+      "started_at": "2026-11-24T19:44:02.538Z",
+      "completed_at": "2026-11-24T19:46:44.215Z",
+      "stages": [
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-24T19:44:11.336Z",
+          "wait_seconds": null
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-24T19:45:43.621Z",
+          "wait_seconds": 51.5
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-24T19:46:16.185Z",
+          "wait_seconds": null
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-24T19:46:22.909Z",
+          "wait_seconds": null
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-24T19:46:44.215Z",
+          "wait_seconds": null
+        }
+      ],
+      "errors": [],
+      "events": [],
+      "archive": "2b5ed91df97e8fe51b59226fd5228930f2336136",
+      "verified_commit": "d10517a14e965e1c2bfa597900172a893e68462d"
+    },
+    {
+      "cycle": 3,
+      "id": "151-athene-jacquinoti-v5",
+      "started_at": "2026-11-24T19:48:10.071Z",
+      "completed_at": "2026-11-24T19:50:34.503Z",
+      "stages": [
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-24T19:48:17.979Z",
+          "wait_seconds": null
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-24T19:49:41.974Z",
+          "wait_seconds": 48.5
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-24T19:50:07.328Z",
+          "wait_seconds": null
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-24T19:50:14.998Z",
+          "wait_seconds": null
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-24T19:50:34.503Z",
+          "wait_seconds": null
+        }
+      ],
+      "errors": [],
+      "events": [],
+      "archive": "5d0cf0837e0dafb815a29818a063a80ddac96f02",
+      "verified_commit": "7bc225d5382d7d943f0e12c4b54455e3556624b2"
+    },
+    {
+      "cycle": 4,
+      "id": "160-tyto-inexspectata-v5",
+      "started_at": "2026-11-24T19:52:15.413Z",
+      "completed_at": "2026-11-24T19:54:27.280Z",
+      "stages": [
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-24T19:52:22.486Z",
+          "wait_seconds": null
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-24T19:53:42.120Z",
+          "wait_seconds": 48
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-24T19:54:06.069Z",
+          "wait_seconds": null
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-24T19:54:12.567Z",
+          "wait_seconds": null
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-24T19:54:27.280Z",
+          "wait_seconds": null
+        }
+      ],
+      "errors": [],
+      "events": [],
+      "archive": "12406e4a21cfc9b4f7a142315c47eb69b0b7fd09",
+      "verified_commit": "08088236d64af705a1ae98ba8d81b837180ec7d3"
+    },
+    {
+      "cycle": 5,
+      "id": "164-strix-hadorami-v5",
+      "started_at": "2026-11-24T19:55:41.565Z",
+      "completed_at": "2026-11-24T19:57:55.688Z",
+      "stages": [
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-24T19:55:48.343Z",
+          "wait_seconds": null
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-24T19:57:06.178Z",
+          "wait_seconds": 46.5
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-24T19:57:28.094Z",
+          "wait_seconds": null
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-24T19:57:34.355Z",
+          "wait_seconds": null
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-24T19:57:55.688Z",
+          "wait_seconds": null
+        }
+      ],
+      "errors": [],
+      "events": [],
+      "archive": "321e777c37711fd3b9f30b76b3b9fac9341e55af",
+      "verified_commit": "b5340818d76e12f77ba125901d0d90b53902e587"
+    },
+    {
+      "cycle": 6,
+      "id": "165-ninox-punctulata-v6",
+      "started_at": "2026-11-24T19:59:47.477Z",
+      "completed_at": "2026-11-24T20:03:46.998Z",
+      "stages": [
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-24T19:59:54.400Z",
+          "wait_seconds": null
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-24T20:02:52.299Z",
+          "wait_seconds": null
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-24T20:03:19.846Z",
+          "wait_seconds": null
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-24T20:03:25.818Z",
+          "wait_seconds": null
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-24T20:03:46.998Z",
+          "wait_seconds": null
+        }
+      ],
+      "errors": [],
+      "events": [
+        {
+          "at": "2026-11-24T20:03:19.846Z",
+          "type": "scope_interrupt_and_resume",
+          "detail": "Image request issued before temporary read-only instruction. During read-only interval no GitHub writes; returned file inspected as evidence only. Latest production instruction authorized resumption; reused same original without new generation. Individual image wait duration unknown after yielded tool, no fixed timeout telemetry."
+        }
+      ],
+      "archive": "dba5948aa7e6b6a7b5cd73ab7675ca497f5601fa",
+      "verified_commit": "a96b9ade92063cf2ad1676063363de09a10601ca"
+    }
+  ],
+  "originals": [
+    {
+      "id": "147-ninox-leventisi-v5",
+      "path": "design/concepts/147-ninox-leventisi-v5.png",
+      "sha256": "bfddf737151f3a34603c948098dc38ca6e691fe476424c72c70d8d6892f672b1",
+      "blob": "ffb65a07daa486507892a722d8d93d46fa042d9d",
+      "bytes": 2580030,
+      "size": [
+        1536,
+        1024
+      ],
+      "archive_commit": "36438b9d1ff7283cf7d33396b156a2851f77ed96",
+      "verified_commit": "3ba92832db21dfcfbba5e4bca5c284c6a8d3c371",
+      "scientifically_verified": false
+    },
+    {
+      "id": "148-ninox-rumseyi-v5",
+      "path": "design/concepts/148-ninox-rumseyi-v5.png",
+      "sha256": "ab12e0d954e9a55f2b1a3386e400a85914fb8e9463918bb5450207b99f3e15c9",
+      "blob": "2f8a867b85f0c22e906c35b7c1a6db861cd4a1db",
+      "bytes": 2945053,
+      "size": [
+        1536,
+        1024
+      ],
+      "archive_commit": "2b5ed91df97e8fe51b59226fd5228930f2336136",
+      "verified_commit": "d10517a14e965e1c2bfa597900172a893e68462d",
+      "scientifically_verified": false
+    },
+    {
+      "id": "151-athene-jacquinoti-v5",
+      "path": "design/concepts/151-athene-jacquinoti-v5.png",
+      "sha256": "45a284770da1fee6876d7fbae736f84ecb4c34fd817742a498337ddb14a064ec",
+      "blob": "f4ca47801d13c734ac7c2768c02ad60507c9108c",
+      "bytes": 2992131,
+      "size": [
+        1536,
+        1024
+      ],
+      "archive_commit": "5d0cf0837e0dafb815a29818a063a80ddac96f02",
+      "verified_commit": "7bc225d5382d7d943f0e12c4b54455e3556624b2",
+      "scientifically_verified": false
+    },
+    {
+      "id": "160-tyto-inexspectata-v5",
+      "path": "design/concepts/160-tyto-inexspectata-v5.png",
+      "sha256": "09d90f78c0ced2076713ea7e73668a01beae79e684f250b40ceafc7a24ad4d61",
+      "blob": "77b7f516b00faae54bd3989d1600bd153879c993",
+      "bytes": 2923330,
+      "size": [
+        1536,
+        1024
+      ],
+      "archive_commit": "12406e4a21cfc9b4f7a142315c47eb69b0b7fd09",
+      "verified_commit": "08088236d64af705a1ae98ba8d81b837180ec7d3",
+      "scientifically_verified": false
+    },
+    {
+      "id": "164-strix-hadorami-v5",
+      "path": "design/concepts/164-strix-hadorami-v5.png",
+      "sha256": "3ed7cbf41c80dd6b352691c2df60250397ac70285b9d06a19207965c26eaea0e",
+      "blob": "0644a203051d5034f0aac2eaad4e25121a6788f4",
+      "bytes": 2710789,
+      "size": [
+        1536,
+        1024
+      ],
+      "archive_commit": "321e777c37711fd3b9f30b76b3b9fac9341e55af",
+      "verified_commit": "b5340818d76e12f77ba125901d0d90b53902e587",
+      "scientifically_verified": false
+    },
+    {
+      "id": "165-ninox-punctulata-v6",
+      "path": "design/concepts/165-ninox-punctulata-v6.png",
+      "sha256": "08aa3942bfbd3cadf173939ed251101bfbfca2b3c56365c9ef04e4c551161a06",
+      "blob": "a8f3307ab4db878194656ec5912b754b96b2ea16",
+      "bytes": 2862244,
+      "size": [
+        1536,
+        1024
+      ],
+      "archive_commit": "dba5948aa7e6b6a7b5cd73ab7675ca497f5601fa",
+      "verified_commit": "a96b9ade92063cf2ad1676063363de09a10601ca",
+      "scientifically_verified": false
+    }
+  ]
+}

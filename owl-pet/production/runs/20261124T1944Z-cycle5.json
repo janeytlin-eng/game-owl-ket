@@ -4,7 +4,7 @@
   "run_id": "20261124T1944Z-cycle5",
   "started_at": "2026-11-24T19:55:41.565Z",
   "status": "STARTED",
-  "stage": "IMAGE_GENERATED",
+  "stage": "REVIEWED",
   "id": "164-strix-hadorami-v5",
   "species": "Strix hadorami",
   "action": "REVISION",
@@ -34,6 +34,12 @@
       },
       "edit_wait_seconds": 46.5,
       "imagegen_edit_calls": 1
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-24T19:57:28.094Z",
+      "result": "PASS_WITH_LIMITATIONS",
+      "scientifically_verified": false
     }
   ],
   "errors": []

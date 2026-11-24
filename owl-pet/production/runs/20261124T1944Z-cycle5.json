@@ -4,12 +4,22 @@
   "run_id": "20261124T1944Z-cycle5",
   "started_at": "2026-11-24T19:55:41.565Z",
   "status": "STARTED",
-  "stage": "STARTED",
+  "stage": "RESEARCH_READY",
   "id": "164-strix-hadorami-v5",
   "species": "Strix hadorami",
   "action": "REVISION",
   "unique_species_increment": 0,
   "scientifically_verified": false,
-  "stages": [],
+  "stages": [
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-24T19:55:48.343Z",
+      "sources_new": 0,
+      "sources_reused": 1,
+      "source_interpretation_corrections": 1,
+      "prompt": "Use case: precise-object-edit. Edit existing #164 Strix hadorami v4 ONLY to clarify evidence. Preserve all three birds, their entire plumage, yellowish eyes, bill colours, near-equal adult scales, compact downy shelf-supported young, all six feet and sandstone shelf/crevice/arid wadi context. No morphological or posture redesign. Prefix top title with \"#164 · \" while keeping \"DESERT OWL — Strix hadorami\" readable. Replace central role label with \"SHELF-STAGE NESTLING\" and below \"c.25–30 DAYS · ESTIMATED\". Add one small readable central note \"AGE INFERRED · IRIS SEQUENCE UNVERIFIED\". Add bottom slim dark unobtrusive footer with cream text \"CONCEPT · SCIENTIFIC CALIBRATION PENDING\". Preserve ADULT MALE and ADULT FEMALE labels. No nest furniture, prey, eggs, extra birds/limbs, flying pose, scale ruler or approval icon. The day estimate comes from a limited field study using cross-species developmental comparison, not a known hatch date. No change to illustrated wing structure is justified here.",
+      "evidence": "owl-pet/research/species/164-strix-hadorami-v5.md"
+    }
+  ],
   "errors": []
 }

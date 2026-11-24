@@ -6701,3 +6701,7 @@ The existing #224 deferred research explicitly identifies PedroFernandes7Jun2019
 203v3 repeated work rejected/no credit after highest-versioncollision; historical v3 sidecars restored byte-for-byte from48c2a6e1 via dc4075fb. Own redundant PNG retainedbatchartifact only. New0/reused2 GMNI-MIKKOLA-2013-P388 actualuploaded388/PDF390 and GMNI-OWLPAGES-2020 actual Description young vs adult crown. Subtle mesoptile crown-fleck cleanup only; [research/prompt](species/209-glaucidium-minutissimum-v4.md) · [review](reviews/209-glaucidium-minutissimum-v4-review.md).
 
 Correction cycle1 209v4: freshly opened OwlPages1990 has adult Description only and NO young-pattern paragraph. It supports adult contrast/range, not independently juvenile crown. Young unspottedcrown exclusively Mikkola388. Searchsicki/currentyoung rechecked, no new original developmental source secured; not scientificpass.
+
+
+## 20261124T1535Z cycle2 202-ninox-theomacha-v4
+New0/reused2 PBBO-MIKKOLA-2013-P484 freshlyuploaded484/PDF486 featheredadulttarsi to toebases; PBBO-OWLPAGES-2020 freshIntroduction/Distribution only notlegs. Adult tarsal boundary only, young unchanged. [Metadata/prompt](species/202-ninox-theomacha-v4.md) · [review](reviews/202-ninox-theomacha-v4-review.md).

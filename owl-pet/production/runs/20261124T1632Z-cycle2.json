@@ -5,13 +5,14 @@
   "species": "Glaucidium tephronotum",
   "action": "REVISION",
   "started_at": "2026-11-24T17:51:02.322Z",
-  "result": "STARTED",
+  "result": "VERIFIED",
   "stages": {
     "STARTED": "2026-11-24T17:51:02.322Z",
     "RESEARCH_READY": "2026-11-24T17:51:22.779Z",
     "IMAGE_GENERATED": "2026-11-24T17:55:08.342Z",
     "REVIEWED": "2026-11-24T17:55:15.843Z",
-    "ARCHIVED": "2026-11-24T17:55:23.578Z"
+    "ARCHIVED": "2026-11-24T17:55:23.578Z",
+    "VERIFIED": "2026-11-24T17:55:43.079Z"
   },
   "heartbeats": [
     {
@@ -202,5 +203,15 @@
   },
   "merge_prompt": "Use case precise-object-edit. Image1 is the FULL #213 owl trio and is the final output target. Image2 is an enlarged ADULT FOOT COLOUR REFERENCE patch only. Transfer ONLY image2's pale creamy-yellow HORN CLAW colour and dark distal tips onto BOTH ADULTS claws in image1, keeping image1's original claw shapes/lengths/counts/grips and body scale. DO NOT enlarge claws to patch proportions. Each adult claw mainly creamy pale yellow, only sharp end black. Keep right juvenile claws and entire young wholly unchanged. Preserve all other original birds/feathers/eyes/bills/near-equal size/branch/rainforest/title/roles/uncertaintyfooter. Output FULL1536x1024 TRIO with alltext, NOT a footcrop or collage. Use patch for colour only.",
   "review": "实际查看完整1536×1024三鸟图与成人足部放大裁图：成鸟爪基现在明确乳黄角质，末端深色，已从v3大部灰爪转为资料支持方向。保持裸黄趾/自然抓枝与可辨爪数；具体长度/色值未测量、不称像素全保持。幼鸟爪未联动套用，既有形成翼尾保留。v3失败色彩目标本次有视觉解决证据；成年胁部先前变暖仍待pycrafti照片精校，幼鸟年龄/飞行未知，PASS_WITH_LIMITATIONS/sciencefalse。只此最终v4对应cycle2一个完成计数，v3尝试和局部patch不计独立轮。",
-  "lesson": "问题—全图两次细爪颜色编辑无效，曾提前记账；证据—放大仍灰爪，撤回cycle2信用并保存历史；修改—局部imagegen先做乳黄暗尖参考，再imagegen仅转移颜色回全图；复查—完整图成人浅爪基/暗尖分离已可见，原足部尺度大致保持未精测。局部参考策略在此图实际应用且视觉有效，不声称物种科学通过；失败与patch均不计子轮。"
+  "lesson": "问题—全图两次细爪颜色编辑无效，曾提前记账；证据—放大仍灰爪，撤回cycle2信用并保存历史；修改—局部imagegen先做乳黄暗尖参考，再imagegen仅转移颜色回全图；复查—完整图成人浅爪基/暗尖分离已可见，原足部尺度大致保持未精测。局部参考策略在此图实际应用且视觉有效，不声称物种科学通过；失败与patch均不计子轮。",
+  "archive_commit": "123faf54a6904392f5d0833b6608a5f97c4d1ac1",
+  "remote_verification": {
+    "bytes": 2408508,
+    "sha256": "af28b20b3bdebd3f1c2c271c1733cf14f7817353af505763e4b5a0de8463b26c",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "ended_at": "2026-11-24T17:55:43.079Z"
 }

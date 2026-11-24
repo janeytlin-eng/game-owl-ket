@@ -6646,3 +6646,8 @@ New0/reused2 OPAM-SOUNDAPPROACH-2019 actual speciesbody/Omanfieldcaptions reread
 ## 20261124T1332Z cycle3 234-otus-sulaensis-v3
 New0/reused2 SULA-HARTERT-1898 originalprinted126actualexistingfullscanread (BHLthumbfreshredirectfailed), MIKKOLA-2013 uploaded192/PDF194reread. Adultprominentdarkshaftstreaks alongsidebarring, notyoungpattern. Originaladult/youngbareparts stagebound, tarsalfrontfractionconflictpreserved.
 [Metadata/URLs/pages/stages/facts/limits/fullprompt](species/234-otus-sulaensis-v3.md) · [image](../design/concepts/234-otus-sulaensis-v3.png) · [review](reviews/234-otus-sulaensis-v3-review.md). Scientificfalse; samebook/papers deduplicated.
+
+
+## 20261124T1332Z cycle4 232-ninox-ochracea-v3
+New0/reused2 NOCH-MADIKA-2011-P98 actualprimaryprinted98/PDF5comparativebodyread (Figs2/3OTHERowlnotused), NOCH-MIKKOLA-2013-P480 uploaded480/PDF482actualreread. Narrowadultwhitebrow/X, notboldmask; callingthroatkept; noyoungcolour/flightfacts added.
+[Metadata/URLs/pages/stages/facts/limits/fullprompt](species/232-ninox-ochracea-v3.md) · [image](../design/concepts/232-ninox-ochracea-v3.png) · [review](reviews/232-ninox-ochracea-v3-review.md). Scientificfalse; samebook/papers deduplicated.

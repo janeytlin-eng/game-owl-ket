@@ -6732,3 +6732,7 @@ Source documents new0; reused13 source-ID references across6cycles, deduplicated
 - ML163283551 remains AUDIO lead per existing224 record, no viewed juvenile photograph established; no plumage decision drawn from it.
 - ASUP-BOUGLOUAN-WEB line110 tail narrow whitish tips is distinct from whitish PRIMARY-tip fringe; earlier tailtipfringe shorthand clarified. Young already showed both qualitatively; cycle6 only adds uncertainty annotation.
 [Six originals/research/actual reviews/verification commits](../production/batches/20261124T1535Z-completed-review.md). No scientific approval or user confirmation inherited to new versions.
+
+
+## 20261124T1632Z #211 adult tarsal-boundary revision
+Reused MROB-MIKKOLA-2013-P224 freshly read printed224–225/PDF226–227. New MROB-OWLPAGES-2020, Deane Lewis2020-10-24, https://www.owlpages.com/owls/species.php?s=940 actual Introduction/Distribution body; not foot/juvenile support. Fullmetadata/facts/limits/prompt in [species](species/211-megascops-roboratus-v3.md); [review](reviews/211-megascops-roboratus-v3-review.md). Current name Megascops roboratus=oldOtusroboratus, nominate drywoodland only; lower tarsal feather extension, no developmental inference.

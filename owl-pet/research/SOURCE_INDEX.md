@@ -6656,3 +6656,8 @@ New0/reused2 NOCH-MADIKA-2011-P98 actualprimaryprinted98/PDF5comparativebodyread
 ## 20261124T1332Z cycle5 226-otus-icterorhynchus-v3
 New0/reused2 OICT-MIKKOLA-2013-P133 actualuploaded133/PDF135text and OICT-DIJKSTRA-2011-ABC16993 actualcaption/fieldremarks plus existingoriginalphoto re-viewed. AdultwhitebellySPOTS vs upperbreastshaftmarks; darkdistantphotolimitsnoexactdensity/footcalibration. Adultlowerbellyonly, youngunknownsretained.
 [Metadata/URLs/pages/stages/facts/limits/fullprompt](species/226-otus-icterorhynchus-v3.md) · [image](../design/concepts/226-otus-icterorhynchus-v3.png) · [review](reviews/226-otus-icterorhynchus-v3-review.md). Scientificfalse; samebook/papers deduplicated.
+
+
+## 20261124T1332Z cycle6 230-taenioptynx-sylvaticus-v2
+New0/reused3 TSYL-KWAN-2025-KERINCI-JUV originalDay6bodycaptionread andactual1500pxyoungphoto re-viewed; TSYL-GWEE-2019 publisherSciOpenabstractactualread afterDOI/PDFfailures (samepaperalternateURL, notnewsource/fullPDFclaim); TSYL-MIKKOLA-2013-P370 uploaded370/PDF372actualreread, onlySumatrasylvaticumcaption notbroadspeciesyoung/sexratio. Annotation-only uncertaintyexportcorrection, no newanatomyerror/scientificpass.
+[Metadata/URLs/pages/stages/facts/limits/fullprompt](species/230-taenioptynx-sylvaticus-v2.md) · [image](../design/concepts/230-taenioptynx-sylvaticus-v2.png) · [review](reviews/230-taenioptynx-sylvaticus-v2-review.md). Scientificfalse; samebook/papers deduplicated.

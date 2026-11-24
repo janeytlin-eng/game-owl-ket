@@ -1,12 +1,14 @@
 {
   "batch_id": "20261124T2138Z",
   "cycle": 1,
-  "result": "IMAGE_GENERATED",
+  "result": "ARCHIVED",
   "started_at": "2026-11-24T21:34:23.495Z",
   "stages": {
     "STARTED": "2026-11-24T21:34:23.495Z",
     "RESEARCH_READY": "2026-11-24T21:36:57.795Z",
-    "IMAGE_GENERATED": "2026-11-24T21:39:44.553Z"
+    "IMAGE_GENERATED": "2026-11-24T21:39:44.553Z",
+    "REVIEWED": "2026-11-24T21:40:37.608Z",
+    "ARCHIVED": "2026-11-24T21:40:37.608Z"
   },
   "scope": "Evidence discovery missing species; select actual evidenced new young or real morphological correction. No species credited yet.",
   "counts_before": {
@@ -39,11 +41,25 @@
     "size": [
       1536,
       1024
-    ]
+    ],
+    "concept_path": "owl-pet/design/concepts/04-athene-noctua-v6.png"
   },
   "timings": {
     "generation_start": "2026-11-24T21:37:11.876Z",
     "generation_wait_ms": 97789,
     "edit_count": 1
-  }
+  },
+  "review": {
+    "result": "PASS_WITH_LIMITATIONS",
+    "actual_views": [
+      "generated full1536x1024",
+      "enlarged belly/young/six-foot support crop"
+    ],
+    "findings": "Both adults low central belly less streaked; strong upper-breast/flank pattern retained. Three birds, yellow adult irises, grey-green bills, tuftless crowns, feathered tarsi, bristled bare toes and six supported feet retained. Young down-softened formed wing and supported posture unchanged; no flight claim. No new scientific acceptance.",
+    "lesson": "Use relative pattern gradient only on this species. Compare crown-to-toe from own footing before interpreting sex size; #01/#02/#03/#06/#07 audit rejected automatic resizing. Not validated population biology."
+  },
+  "scientifically_verified": false,
+  "errors": [
+    "Local orchestration TypeError before archive mutation: stored in-memory run lacked generated-stage update; fixed by re-reading durable IMAGE_GENERATED run. No lost image, no regeneration."
+  ]
 }

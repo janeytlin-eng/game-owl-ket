@@ -6169,3 +6169,7 @@ SSO-PEREGRINEFUND-SPECIES-2026新增1；SSO-MIKKOLA-2013-P134/SSO-VIRANI-2008-P6
 
 ## 20261124T0030Z cycle5 #171v5
 新增0/复用2 CPO-MIKKOLA-2013-P385-386、CPO-NELSON-1901-P46。实际读上传book385–386及Nelson1901p46；BHL403后IA原期刊OCR换源成功，新URL非新文。成人尾可见数不等于总数，未新发现形态错误，只补科学状态，scientificfalse。[元数据/URL/事实、局限/完整提示](species/171-glaucidium-palmarum-v5.md)/[图](../design/concepts/171-glaucidium-palmarum-v5.png)/[复查](reviews/171-glaucidium-palmarum-v5-review.md)。
+
+
+## 20261124T0030Z cycle6 #173v5 — 历史地巢索引纠错
+新0/复用3 TSO-MIKKOLA-2013-P145、TSO-RENE-THORSTROM-2009-P87-88、TSO-MELO-ETAL-2022-P1-54，均实际重读。**纠正本索引旧“abandoned before observed hatching”：原文作者没有回访机会，应是孵化结果未知，不能写已弃巢**。body/abstract25Nov2007与p88figcaptions25Nov2008冲突保留。替代PDF同文不计新来源。[完整元数据/URL/页码/原文边界/提示](species/173-otus-madagascariensis-v5.md)/[图](../design/concepts/173-otus-madagascariensis-v5.png)/[复查](reviews/173-otus-madagascariensis-v5-review.md)。图维持无巢，明确projecttaxon species limits/幼龄irisflight未解决；speciescount不变。

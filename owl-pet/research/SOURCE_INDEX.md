@@ -6705,3 +6705,7 @@ Correction cycle1 209v4: freshly opened OwlPages1990 has adult Description only 
 
 ## 20261124T1535Z cycle2 202-ninox-theomacha-v4
 New0/reused2 PBBO-MIKKOLA-2013-P484 freshlyuploaded484/PDF486 featheredadulttarsi to toebases; PBBO-OWLPAGES-2020 freshIntroduction/Distribution only notlegs. Adult tarsal boundary only, young unchanged. [Metadata/prompt](species/202-ninox-theomacha-v4.md) · [review](reviews/202-ninox-theomacha-v4-review.md).
+
+
+## 20261124T1535Z cycle3 207-tyto-multipunctata-v4
+New0/reused2; actual metadata/pages/facts/limits and fullprompt in [species](species/207-tyto-multipunctata-v4.md), [review](reviews/207-tyto-multipunctata-v4-review.md). Actual highest v3 full image: adult claws are pale grey-horn and nearly same lightness as toes, inconsistent guide darkclaws. Recolour adult claw plates only; young unchanged.

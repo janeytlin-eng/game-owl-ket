@@ -6860,3 +6860,10 @@ BirdLifeInternational2001 Threatened birds of Asia, pp1742/1745, https://birdlif
 
 ### NPO-SCCP-FACTSHEET bibliographic correction2026-11-25
 PDF final footer actually read: content updated January2016; prepared Pamela Zevit (Adamah Consultants) forSCCP with Interfor/CapFor/BC Ministry of Environment. Supersedes initial undated description. Regional juvenile statement remains limited to swarthi; no new source count.
+
+
+## 2026-11-25 #28v6 — plain juvenile crown/mantle
+Reused MIKKOLA-2013 printed366/PDF368 actually reread: unspotted crown/mantle applies mesoptile, not adult. Reused PSOW-SANBI-2025 actualbodyreread; no quantitative sex/juvenile calendar added. [Research](species/28-glaucidium-perlatum-v6.md); [original](../design/concepts/28-glaucidium-perlatum-v6.png); [run](../production/runs/20261124T2333Z-cycle2.json).
+
+### PSOW-CLANCEY-1980-P96-LEAD
+P.A.Clancey1980, On birds from mid-Okavango valley on SouthWestAfrica/Angolaborder, DurbanMuseumNovitates12part9pp87–127. URL https://the-eis.com/elibrary/sites/default/files/downloads/literature/On%20birds%20from%20the%20mid_Okavango%20valley%20on%20the%20South%20West%20Africa_Angola%20border.pdf ; access2026-11-25. Primarymuseumseries potentiallyvaluable historicalG.perlatumdiurnum young p96. Title/date/introductionread, targetp96notrecovered(timeout/403). UNVERIFIEDtargetbody; snippetnotdesignproof. No feather/age fact adopted. Keepforlaterprimarycrosscheck; not verifiednewsource.

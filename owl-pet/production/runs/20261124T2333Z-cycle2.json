@@ -3,9 +3,35 @@
   "cycle": 2,
   "status": "STARTED",
   "started_at": "2026-11-24T23:39:14.939Z",
-  "stage": "STARTED",
+  "stage": "RESEARCH_READY",
   "id": "28-glaucidium-perlatum-v6",
   "species": "Glaucidium perlatum",
   "action": "MORPHOLOGY_REVISION",
-  "stages": []
+  "stages": [
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-24T23:41:13.916Z"
+    }
+  ],
+  "research_ready_at": "2026-11-24T23:41:13.916Z",
+  "prompt": "Use case: precise-object-edit. Edit target: attached #28 Pearl-spotted Owlet v5. Produce v6 by correcting ONLY the CENTRAL recent fledgling's crown and exposed upper mantle: remove the discrete bright white pearl-like spots there, making these areas plain soft cinnamon-grey brown with natural fine feather shading. Mikkola 2013 printed366/PDF368 explicitly describes unspotted crown and mantle in mesoptile; do not copy adult pearl rows onto this stage. Do not remove the young's brows, underpart streaks, folded formed wing, short tail, or change its eyes/bill colour. Keep BOTH ADULTS completely unchanged, including their white crown and mantle spotting, false-eye nape patches and barred tails. Preserve natural supported feet/broad fork, young low seated pose, foliage, savanna, cavity in background, existing three labels and title/scientific name, established painterly field-guide style. Exactly three birds. No added text, no age or first-flight claim.",
+  "sources": [
+    "MIKKOLA-2013 printed366/PDF368",
+    "PSOW-SANBI-2025 reread"
+  ],
+  "source_accounting": {
+    "new_verified": 0,
+    "reused_documents": 2,
+    "unverified_primary_lead": 1
+  },
+  "errors": [
+    {
+      "step": "Clancey1980 p96 species section",
+      "error": "web PDF overview read but species section timeout; direct403, not used as verified juvenile evidence"
+    }
+  ],
+  "unknowns": [
+    "Exact age/sex/iris/first-flight series",
+    "No primary daily molt sequence"
+  ]
 }

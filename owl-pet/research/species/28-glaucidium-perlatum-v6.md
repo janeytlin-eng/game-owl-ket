@@ -1,0 +1,13 @@
+# #28 Glaucidium perlatum v6
+2026-11-24T23:41:13.916Z; older versions/confirmation retained; sciencefalse.
+
+## Actually read
+- MIKKOLA-2013 user-uploaded photographic guide: printed366/PDF368 read this execution. Adult spotted crown/mantle, paired nape false eyes; mesoptile crown and mantle unspotted, lower streaking less clear; juvenile deepyelloweyes described. No exact age or first-flight day. Current edit does not recolour eyes because rendering is shaded and continuous iris sequence unknown.
+- PSOW-SANBI-2025: NoziphoKhumalo, South African National Biodiversity Institute,9Oct2025, https://www.sanbi.org/animal-of-the-week/pearl-spotted-owlet/ actual Description/Habitat/Sex/FamilyLife reread. Adultwhite spotting/falseeyes, open woodland/oldcavity context; sexmeasurements not quantitative; not juvenile feather chronology. Already indexed, not newsource.
+- Primary lead Clancey1980, On birds from mid-Okavango valley, DurbanMuseumNovitates12part9, printed96. https://the-eis.com/elibrary/sites/default/files/downloads/literature/On%20birds%20from%20the%20mid_Okavango%20valley%20on%20the%20South%20West%20Africa_Angola%20border.pdf . Overviewtitle/date read; targetspecies section webtimeout/direct403. Searchsnippet reducedcrownspots is NOT treated as actualspeciesbodyread; historicaldiurnum scope unresolved. No design facts adopted fromlead.
+
+## Original inspection and design
+Fullv5 opened: central youngcrown/uppermantle has distinctbrightwhitepinspots despite selectedsoftmesoptilestage. Narrowcorrection remove those only; preserveadultspots, youngwing/tail and supportedposition. Sources support broadplumageclass, no exactday. v5'sgeneric 'sparser spots' prompt replacedby anatomicalarea-specificplaincrown/mantleconstraint. Fullscientificcalibrationpending.
+
+## Full prompt
+Use case: precise-object-edit. Edit target: attached #28 Pearl-spotted Owlet v5. Produce v6 by correcting ONLY the CENTRAL recent fledgling's crown and exposed upper mantle: remove the discrete bright white pearl-like spots there, making these areas plain soft cinnamon-grey brown with natural fine feather shading. Mikkola 2013 printed366/PDF368 explicitly describes unspotted crown and mantle in mesoptile; do not copy adult pearl rows onto this stage. Do not remove the young's brows, underpart streaks, folded formed wing, short tail, or change its eyes/bill colour. Keep BOTH ADULTS completely unchanged, including their white crown and mantle spotting, false-eye nape patches and barred tails. Preserve natural supported feet/broad fork, young low seated pose, foliage, savanna, cavity in background, existing three labels and title/scientific name, established painterly field-guide style. Exactly three birds. No added text, no age or first-flight claim.

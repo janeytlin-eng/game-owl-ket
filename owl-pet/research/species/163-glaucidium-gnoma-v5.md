@@ -6,10 +6,13 @@ Cycle 20261124T0936Z/1; 2026-11-24. Revision, unique increment 0; scientifically
 
 ## Fresh external reads
 GNOMA-ORI-MOUNTAIN — Owl Research Institute, Mountain Pygmy Owl, undated, accessed2026-11-24, https://www.owlresearchinstitute.org/mountain-pygmy ; sections Facts/Size/Range/Habitat/Nesting, lines67–120. Adult fine spotting, yellow eyes, yellowish-white beak, nape false eyes; female generally heavier with overlapping length ranges; cavity in old woodpecker hole; Arizona–Mexican highlands. It says young head spotted/dark beak without a stage. This conflicts with the book's expressly defined mesoptile: do not erase the developmental distinction or invent a transition date. ORI is an institutional summary, not a daily juvenile study.
-GNOMA-AOU-2013A2 — N&MA Classification Committee, proposal2013-A-2, PDFp4–7 (zero-based3–6), original https://americanornithology.org/wp-content/uploads/2020/02/2013-A.pdf . Actual PDF text read: four-way treatments split californicum/gnoma/hoskinsii/cobanense; proposal uses Mountain gnoma for Mexican highlands north of Tehuantepec and cobanense for Chiapas–Guatemala–Honduras. Historic proposal documents incompatible taxon usage; it is NOT a current2026 checklist ruling. Oregon/California records remain restricted leads, not direct Mountain young-age/flight evidence.
+GUPO-AOS-NACC-2013A (reused) — N&MA Classification Committee, proposal2013-A-2, PDFp4–7 (zero-based3–6), original https://americanornithology.org/wp-content/uploads/2020/02/2013-A.pdf . Actual PDF text read: four-way treatments split californicum/gnoma/hoskinsii/cobanense; proposal uses Mountain gnoma for Mexican highlands north of Tehuantepec and cobanense for Chiapas–Guatemala–Honduras. Historic proposal documents incompatible taxon usage; it is NOT a current2026 checklist ruling. Oregon/California records remain restricted leads, not direct Mountain young-age/flight evidence.
 
 ## Actual v4 inspection and decision
 Viewed local800×534 v4. Adult identity, adult support, near-equal height and cavity placement retained. Juvenile crown contains conspicuous light fleck tips despite age-unknown mesoptile label. Edit only crown to unspotted soft grey and grey cere, because this selected stage is explicitly supported by the book. Neutral-dark iris is a non-diagnostic design boundary, not a verified age colour. Keep no-flight supported pose; whole-body feather timeline unknown.
+
+## Source accounting correction
+New1/reused2/corrected2. The AOU URL already has stable ID GUPO-AOS-NACC-2013A; retain it. Previous RESEARCH_READY new2 count was a discovery-time error and is superseded here before generation.
 
 ## Unknown / limits
 No quantified current-species sex height ratio, exact young age/iris chronology/flight threshold/cavity measurements. No scientific pass. Stage-specific crown decision does not prove whole juvenile anatomy.

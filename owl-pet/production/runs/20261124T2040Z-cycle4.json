@@ -6,7 +6,7 @@
   "species": "Ketupa shelleyi",
   "action": "ANNOTATION_REVISION",
   "started_at": "2026-11-24T20:43:09.803Z",
-  "stage": "IMAGE_GENERATED",
+  "stage": "REVIEWED",
   "status": "STARTED",
   "scientifically_verified": false,
   "stages": [
@@ -27,7 +27,19 @@
         1024
       ],
       "edit_wait_seconds": 39
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-24T20:45:29.710Z",
+      "result": "PASS_WITH_LIMITATIONS",
+      "scientifically_verified": false
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "step": "IMAGE_GENERATED readback",
+      "at": "2026-11-24T20:45:27.881Z",
+      "error": "Immediate head comparison mismatch; fresh main/commit history confirmed own commit1a433fc38ec449c7ec2a0d4ddfb5e148045eabba and matching image blob. No other production owner observed; reused persisted stage."
+    }
+  ]
 }

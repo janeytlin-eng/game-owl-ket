@@ -6794,3 +6794,6 @@ New independentpublications0, reusedIDreferences10/distinctdocuments7. ExistingN
 
 ## 2026-11-24T20:34:13.375Z 20261124T2040Z-cycle1
 Reused GREO-BARLOW-2022-FULL primarybody, new0/reused1; estimated age/firstflight limits explicit, no biologicalredraw. [Facts/limits/prompt](species/166-bubo-cinerascens-v6.md).
+
+## 2026-11-24T20:37:16.584Z 20261124T2040Z-cycle2
+New0/reused2 MIKKOLA2013 p284/PDF286 and FREO-CLEMENTS-2022-LUMP, westernscope/youngunknowns retained. [Facts/limits/prompt](species/167-ketupa-poensis-v6.md).

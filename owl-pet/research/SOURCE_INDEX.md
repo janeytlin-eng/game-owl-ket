@@ -6661,3 +6661,7 @@ New0/reused2 OICT-MIKKOLA-2013-P133 actualuploaded133/PDF135text and OICT-DIJKST
 ## 20261124T1332Z cycle6 230-taenioptynx-sylvaticus-v2
 New0/reused3 TSYL-KWAN-2025-KERINCI-JUV originalDay6bodycaptionread andactual1500pxyoungphoto re-viewed; TSYL-GWEE-2019 publisherSciOpenabstractactualread afterDOI/PDFfailures (samepaperalternateURL, notnewsource/fullPDFclaim); TSYL-MIKKOLA-2013-P370 uploaded370/PDF372actualreread, onlySumatrasylvaticumcaption notbroadspeciesyoung/sexratio. Annotation-only uncertaintyexportcorrection, no newanatomyerror/scientificpass.
 [Metadata/URLs/pages/stages/facts/limits/fullprompt](species/230-taenioptynx-sylvaticus-v2.md) · [image](../design/concepts/230-taenioptynx-sylvaticus-v2.png) · [review](reviews/230-taenioptynx-sylvaticus-v2-review.md). Scientificfalse; samebook/papers deduplicated.
+
+
+## 20261124T1432Z cycle1 — SBUT-ROBB-2016-REDISCOVERY reuse
+Fresh publisher original Morphology/Oman and Iran/Bare parts read 2026-11-24. Adult toe dorsal feathering omitted by v2; apply only adult, no juvenile extrapolation. New0/reused1/corrected design1. [Metadata, scope and full prompt](species/223-strix-butleri-v3.md) · [review](reviews/223-strix-butleri-v3-review.md) · [image](../design/concepts/223-strix-butleri-v3.png).

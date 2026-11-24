@@ -4,10 +4,38 @@
   "result": "STARTED",
   "started_at": "2026-11-24T14:31:33.168Z",
   "stages": {
-    "STARTED": "2026-11-24T14:31:33.168Z"
+    "STARTED": "2026-11-24T14:31:33.168Z",
+    "RESEARCH_READY": "2026-11-24T14:32:29.747Z"
   },
   "notes": [
     "No effective unfinished batch or lease at latest main. #25 already archived remotely; no duplicate reconstruction. Prior local fd9d70d not required for current archive.",
     "Current scratch has prior production files; no isolated old record treated as active."
+  ],
+  "id": "223-strix-butleri-v3",
+  "species": "Strix butleri",
+  "action": "REVISION",
+  "prompt": "Use case: precise-object-edit. Edit target: #223 Omani Owl Strix butleri v2. Correct ONLY the dorsal surfaces of the toes of BOTH ADULTS: existing broad exposed pale scaly toe segments should carry short fine whitish feathers extending from feathered tarsus towards claw bases, consistent with Robb et al.2016 Morphology/Bare parts. Keep the horn-grey claws exposed, the undersoles skin, toes slender and individually readable, identical rock grips; no huge fluffy slippers or extra toes. Do NOT alter juvenile toes or any juvenile plumage, older formed folded wing or head markings. Preserve both adults' faces, orange-yellow eyes, grey-green bills, narrow vertical ventral shafts, near-equal scale, entire rocky wadi scene, all title/role/footer text,1536x1024 warm soft-feather 3D pet concept style. Three birds exactly. No new sex-size/age/flight/nest claim.",
+  "sources": [
+    {
+      "id": "SBUT-ROBB-2016-REDISCOVERY",
+      "title": "The rediscovery of Strix butleri...",
+      "authors": "Magnus S. Robb et al.",
+      "year": 2016,
+      "url": "https://link.springer.com/article/10.1186/s40657-016-0043-4",
+      "doi": "10.1186/s40657-016-0043-4",
+      "accessed": "2026-11-24",
+      "type": "primary research",
+      "section": "Morphology Oman/Iran > Bare parts, Fig.2",
+      "stage": "adult",
+      "facts": "Both sampled adults have whitish-feathered toes; claws/soles remain bare. No sexed proportional rule or juvenile chronology established.",
+      "limits": "Two observed individuals, not population feather-length measurements; not applied to young.",
+      "decision": "Fine white dorsal adult toe feathers; preserve claws and grips."
+    }
+  ],
+  "issue": "Actual v2 full image shows long broad exposed scaly adult toe tops; adult toe feathering omitted despite previous source already recorded.",
+  "unknowns": [
+    "juvenile age/first flight/bare-part development",
+    "adult sex size ratio",
+    "precise adult toe feather density"
   ]
 }

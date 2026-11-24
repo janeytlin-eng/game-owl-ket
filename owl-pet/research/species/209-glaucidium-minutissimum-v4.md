@@ -39,8 +39,14 @@
       "url": "https://www.owlpages.com/owls/species.php?s=1990",
       "type": "secondary species account",
       "stage": "adult/juvenile",
-      "limits": "Secondary overlappingguide, not independent growthstudy."
+      "limits": "Adult secondary source only; young pattern remains uploadedguide-only. Earlier index wording young-vs-adult overstated page scope, corrected here.",
+      "actual_read": "Fresh original Description/Habitat read: adult tiny white crown flecks/plain mantle/range. This page has NO juvenile phenotype paragraph; does not independently support young crown."
+    }
+  ],
+  "heartbeats": [
+    {
+      "at": "2026-11-24T15:37:55.632Z",
+      "event": "before_imagegen"
     }
   ]
 }
-Facts vs design: stage-specific plaincrown distinction, artistic highlight/fleck distinction not photometrically resolved. Oldsicki mapping retained; youngunknowns preserved, sciencefalse.

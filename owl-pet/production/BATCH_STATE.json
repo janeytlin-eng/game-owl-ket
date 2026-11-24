@@ -52242,7 +52242,7 @@
     },
     {
       "batch_id": "20261124T0632Z",
-      "status": "RUNNING",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -52335,20 +52335,35 @@
             "corrected": 1
           },
           "completed_at": "2026-11-24T07:44:25.366Z"
+        },
+        {
+          "cycle": 6,
+          "id": "155-scotopelia-ussheri-v5",
+          "species": "Scotopelia ussheri",
+          "action": "REVISION_JUVENILE_SUPPORTED_POSTURE",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "commit_sha": "82f3dc0cb1b6fe6d937db8a4eb1b186aca339718",
+          "archive_commit": "f5a65be423e258fde30c2768461436d468ee3cb1",
+          "run_record": "owl-pet/production/runs/20261124T0632Z-cycle6.md",
+          "status": "VERIFIED",
+          "scientifically_verified": false,
+          "source_counts": {
+            "new": 0,
+            "reused": 3,
+            "corrected": 1
+          },
+          "completed_at": "2026-11-24T07:48:16.066Z"
         }
       ],
-      "next_cycle": 6,
+      "next_cycle": null,
       "started_at": "2026-11-24T06:31:54.924Z",
       "stop_reason": "Executor self-reported available context/execution budget for this invocation; no platform timeout telemetry. Source403/throttle/503 accurately recorded, GitHub/imagegen working. Two cycles verified; remaining4 retained,next3, notsixcomplete.",
-      "summary_record": "owl-pet/production/batches/20261124T0632Z-partial-review.md"
+      "summary_record": "owl-pet/production/batches/20261124T0632Z-partial-review.md",
+      "completed_at": "2026-11-24T07:48:16.066Z"
     }
   ],
-  "lease": {
-    "owner": "codex-owl-production",
-    "run_id": "20261124T0632Z-cycle6",
-    "heartbeat_at": "2026-11-24T07:47:36.313Z",
-    "expires_at": "2026-11-24T08:02:36.313Z"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -52482,7 +52497,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-24T07:44:37.388Z",
+  "updated_at": "2026-11-24T07:48:16.066Z",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -59890,10 +59905,10 @@
       }
     }
   ],
-  "active_batch_id": "20261124T0632Z",
+  "active_batch_id": null,
   "active_cycle": 1,
   "current_stage": "VERIFIED",
-  "next_cycle": 6,
+  "next_cycle": null,
   "unique_species_count": 206,
   "total_species": 251,
   "stage_events": [
@@ -79975,7 +79990,7 @@
     }
   ],
   "ledger_credit_pending": false,
-  "last_verified_commit": "3e5f5e09fa768a614ec3b3e5808cc920960b7079",
+  "last_verified_commit": "82f3dc0cb1b6fe6d937db8a4eb1b186aca339718",
   "completed_cycles": [
     {
       "cycle": 1,

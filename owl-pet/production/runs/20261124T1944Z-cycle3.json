@@ -3,8 +3,8 @@
   "cycle": 3,
   "run_id": "20261124T1944Z-cycle3",
   "started_at": "2026-11-24T19:48:10.071Z",
-  "status": "STARTED",
-  "stage": "ARCHIVED",
+  "status": "VERIFIED",
+  "stage": "VERIFIED",
   "id": "151-athene-jacquinoti-v5",
   "species": "Athene jacquinoti",
   "action": "REVISION",
@@ -45,7 +45,21 @@
       "at": "2026-11-24T19:50:14.998Z",
       "blob": "f4ca47801d13c734ac7c2768c02ad60507c9108c",
       "path": "owl-pet/design/concepts/151-athene-jacquinoti-v5.png"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-24T19:50:34.503Z",
+      "pinned_original": "https://raw.githubusercontent.com/janeytlin-eng/game-owl-ket/5d0cf0837e0dafb815a29818a063a80ddac96f02/owl-pet/design/concepts/151-athene-jacquinoti-v5.png",
+      "bytes": 2992131,
+      "sha256": "45a284770da1fee6876d7fbae736f84ecb4c34fd817742a498337ddb14a064ec",
+      "size": [
+        1536,
+        1024
+      ],
+      "decoded": true
     }
   ],
-  "errors": []
+  "errors": [],
+  "completed_at": "2026-11-24T19:50:34.503Z",
+  "archive_commit": "5d0cf0837e0dafb815a29818a063a80ddac96f02"
 }

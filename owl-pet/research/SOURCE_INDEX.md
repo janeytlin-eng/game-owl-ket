@@ -6157,3 +6157,7 @@ New1 MGIL-KRABBE-2017-EA08-P10-14 (Krabbe2017原始描述,实际读pp10–14,Fig
 
 ## 20261124T0030Z cycle2 #175v5
 SSO-PEREGRINEFUND-SPECIES-2026新增1；SSO-MIKKOLA-2013-P134/SSO-VIRANI-2008-P6-9复用2（后者补稳定ID,文献v4已引用,不重计新文）。本次原PDF6–9和book134/PDF136实际读。成年腹纹应黑尖淡斑/蠕纹，冠纵纹不一概删；幼羽/虹膜/巢/精确年龄仍未知。[元数据/URL/事实边界/完整提示](species/175-otus-ireneae-v5.md)/[图](../design/concepts/175-otus-ireneae-v5.png)/[复查](reviews/175-otus-ireneae-v5-review.md)。科学false。
+
+
+## 20261124T0030Z cycle3 #176v5
+新增0/复用4 PESO-MIKKOLA-2013-P135/PESO-PEREGRINE-FUND-CURRENT/PESO-CATRY-ETAL-2000-P259-267/STSO-MELO-ETAL-2022-P7-P27。书135/PDF137与机构页实际重读，Melo同论文扩展Príncipe自然史缺口，换羽/育斑不能支持幼羽；Catry本次旧记录复用。[元数据、URL/页码、阶段/限制、提示](species/176-otus-pembaensis-v5.md)/[图](../design/concepts/176-otus-pembaensis-v5.png)/[复查](reviews/176-otus-pembaensis-v5-review.md)。成年人冠背白点与幼冠白横斑不可统一删除；sciencefalse。

@@ -6785,3 +6785,6 @@ Reused MIN-MAURO-DRIJVERS-2000-P180-182 actualpublisherbodypp180–181 and share
 
 ## 2026-11-25 20261124T1944Z cycle5 · Strix hadorami chronology correction
 DESERTOWL-BENDOV-2017 reusedactualTable4–5/ageingdiscussion/captionsread. New0/reused1/correction1: priorv4treatedcomparatoreyeopeningandestimatedages too directly. Preservehistory, explicitlymarkinferredhatchage/comparatorlimits. [#164v5 preciseboundary/prompt](species/164-strix-hadorami-v5.md). Existingc25–30 estimate notinvalidated, notexactknownhatchdate. No newyoungmorphologyvalidated,sciencefalse.
+
+## 2026-11-25 20261124T1944Z cycle6 · Ninox punctulata
+Reused SPBO-OCONNELL-ETAL-2022-P291-292 actualprimarybody/caption fromauthoruploadedmirror and sharedMIKKOLA-2013 printed485/PDF487. New0/reused2. Recentv5bill/darkyoungretained; annotationonlysciencepending/youngsoftpart-flightunknown. [#165v6 metadata/limits/prompt](species/165-ninox-punctulata-v6.md). Stagevisualizationnotnewhatchdateorrootnestproof.

@@ -1,0 +1,280 @@
+{
+  "batch_id": "20261124T1432Z",
+  "result": "COMPLETE",
+  "this_invocation_completed_cycles": 6,
+  "new_species": 0,
+  "revised_species": 6,
+  "source_counts": {
+    "new_independent_verified_sources": 0,
+    "reused_id_references": 12,
+    "unverified_leads_not_counted": true
+  },
+  "stats": {
+    "unique_species": 206,
+    "total": 251,
+    "numbered_versions": 1028,
+    "manifest": 982
+  },
+  "cycles": [
+    {
+      "cycle": 1,
+      "id": "223-strix-butleri-v3",
+      "species": "Strix butleri",
+      "action": "REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "commit_sha": "44bd0f836f0188ea6fd2eceeaa2f8c5d42a744c2",
+      "archive_commit": "45e6e57bcc1be6b867a7df3f2c42c63c14393095",
+      "run_record": "owl-pet/production/runs/20261124T1432Z-cycle1.json",
+      "status": "VERIFIED",
+      "scientifically_verified": false,
+      "completed_at": "2026-11-24T14:35:38.966Z",
+      "meta": {
+        "bytes": 2556735,
+        "sha256": "36593169f6a9a44c325582be097f72a00309c635f1be27dbc2b1292bb20a557b",
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "045b7ebd2e1efa5d02e7fd5c36465b79204fe83b"
+      }
+    },
+    {
+      "cycle": 2,
+      "id": "229-athene-malaitae-v3",
+      "species": "Athene malaitae",
+      "action": "REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "commit_sha": "65e04d77b2e5484cedae607173468e8c710fb666",
+      "archive_commit": "8122e4385520e2175fbf3d67f7e41743053b9cee",
+      "run_record": "owl-pet/production/runs/20261124T1432Z-cycle2.json",
+      "status": "VERIFIED",
+      "scientifically_verified": false,
+      "completed_at": "2026-11-24T14:39:37.828Z",
+      "meta": {
+        "bytes": 2538275,
+        "sha256": "fc8fc2cec7568e4b7cec2352051f039b0503a90fd319b4faa39ccf593d34cd7b",
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "f6defa2b8d7931d94a917f69e7e2d482c9d80ea3"
+      }
+    },
+    {
+      "cycle": 3,
+      "id": "221-ninox-meeki-v3",
+      "species": "Ninox meeki",
+      "action": "REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "commit_sha": "264f9a3b21232b1f8fa25728fd3ec84bc441473b",
+      "archive_commit": "ce6abc5c373a4fcd10f0c3f3b9c2b05465f1f020",
+      "run_record": "owl-pet/production/runs/20261124T1432Z-cycle3.json",
+      "status": "VERIFIED",
+      "scientifically_verified": false,
+      "completed_at": "2026-11-24T14:42:27.867Z",
+      "meta": {
+        "bytes": 2626746,
+        "sha256": "698f445cda41d908a0d04dee604cc254deff3e818050af1cf8a79c8f7eae862d",
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "6e078ce3184847ecee1951d9bd8cff0780a502a6"
+      }
+    },
+    {
+      "cycle": 4,
+      "id": "215-otus-angelinae-v3",
+      "species": "Otus angelinae",
+      "action": "REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "commit_sha": "ed81928b2943cfcd0450e7596943fcee97275ec4",
+      "archive_commit": "85ddacdda891d079b9b3d72fdd88ae1c01799e9b",
+      "run_record": "owl-pet/production/runs/20261124T1432Z-cycle4.json",
+      "status": "VERIFIED",
+      "scientifically_verified": false,
+      "completed_at": "2026-11-24T14:46:52.491Z",
+      "meta": {
+        "bytes": 2569992,
+        "sha256": "74b5c715f1430b8c1de3c46589d15c4cabb500c4d6dafb3ec134706f119c8e0a",
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "ffc91bf10ca0fd86b631bebe9294035a1658ed65"
+      }
+    },
+    {
+      "cycle": 5,
+      "id": "216-otus-thilohoffmanni-v3",
+      "species": "Otus thilohoffmanni",
+      "action": "REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "commit_sha": "0ce77d66a3fc05d60329c17593aa60b5c795d3c0",
+      "archive_commit": "e6011029f672ed9d3a54d05ae99f9aec769de21c",
+      "run_record": "owl-pet/production/runs/20261124T1432Z-cycle5.json",
+      "status": "VERIFIED",
+      "scientifically_verified": false,
+      "completed_at": "2026-11-24T14:50:01.504Z",
+      "meta": {
+        "bytes": 2508201,
+        "sha256": "9408d28caab021db55059d0c78ccc09766d80709bcb12e8fe36919599e77095d",
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "67b106c097c76e62124840342ad903081565a3a0"
+      }
+    },
+    {
+      "cycle": 6,
+      "id": "212-megascops-seductus-v3",
+      "species": "Megascops seductus",
+      "action": "REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "commit_sha": "577c6acc6cd15589153fdb7d0ad52d67a3921616",
+      "archive_commit": "ed093e55623195e47aad02d5ab8ec23e8677481b",
+      "run_record": "owl-pet/production/runs/20261124T1432Z-cycle6.json",
+      "status": "VERIFIED",
+      "scientifically_verified": false,
+      "completed_at": "2026-11-24T14:53:21.428Z",
+      "meta": {
+        "bytes": 2883866,
+        "sha256": "a51d906615eeedee189f36c54561923e2694c9b17ab4bc52d52c66ee1a36d09a",
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "3d0454c971a364f4ebb4e9e592ef32fafc45d4f2"
+      }
+    }
+  ],
+  "timing": [
+    {
+      "cycle": 1,
+      "id": "223-strix-butleri-v3",
+      "started_at": "2026-11-24T14:31:33.168Z",
+      "ended_at": "2026-11-24T14:35:38.966Z",
+      "stages": {
+        "STARTED": "2026-11-24T14:31:33.168Z",
+        "RESEARCH_READY": "2026-11-24T14:32:29.747Z",
+        "IMAGE_GENERATED": "2026-11-24T14:34:22.333Z",
+        "REVIEWED": "2026-11-24T14:34:50.528Z",
+        "ARCHIVED": "2026-11-24T14:35:08.439Z",
+        "VERIFIED": "2026-11-24T14:35:38.966Z"
+      },
+      "imagegen_wait_ms": 52535,
+      "research_to_ready_s": 56.579,
+      "ready_to_generated_persistence_s": 112.586,
+      "generated_persistence_to_reviewed_s": 28.195,
+      "archive_to_verified_s": 30.527
+    },
+    {
+      "cycle": 2,
+      "id": "229-athene-malaitae-v3",
+      "started_at": "2026-11-24T14:36:07.881Z",
+      "ended_at": "2026-11-24T14:39:37.828Z",
+      "stages": {
+        "STARTED": "2026-11-24T14:36:07.881Z",
+        "RESEARCH_READY": "2026-11-24T14:36:35.184Z",
+        "IMAGE_GENERATED": "2026-11-24T14:38:06.211Z",
+        "REVIEWED": "2026-11-24T14:38:42.118Z",
+        "ARCHIVED": "2026-11-24T14:39:10.275Z",
+        "VERIFIED": "2026-11-24T14:39:37.828Z"
+      },
+      "imagegen_wait_ms": 55153,
+      "research_to_ready_s": 27.303,
+      "ready_to_generated_persistence_s": 91.027,
+      "generated_persistence_to_reviewed_s": 35.907,
+      "archive_to_verified_s": 27.553
+    },
+    {
+      "cycle": 3,
+      "id": "221-ninox-meeki-v3",
+      "started_at": "2026-11-24T14:39:42.422Z",
+      "ended_at": "2026-11-24T14:42:27.867Z",
+      "stages": {
+        "STARTED": "2026-11-24T14:39:42.422Z",
+        "RESEARCH_READY": "2026-11-24T14:40:09.097Z",
+        "IMAGE_GENERATED": "2026-11-24T14:41:31.794Z",
+        "REVIEWED": "2026-11-24T14:41:55.864Z",
+        "ARCHIVED": "2026-11-24T14:42:03.052Z",
+        "VERIFIED": "2026-11-24T14:42:27.867Z"
+      },
+      "imagegen_wait_ms": 42362,
+      "research_to_ready_s": 26.675,
+      "ready_to_generated_persistence_s": 82.697,
+      "generated_persistence_to_reviewed_s": 24.07,
+      "archive_to_verified_s": 24.815
+    },
+    {
+      "cycle": 4,
+      "id": "215-otus-angelinae-v3",
+      "started_at": "2026-11-24T14:43:38.612Z",
+      "ended_at": "2026-11-24T14:46:52.491Z",
+      "stages": {
+        "STARTED": "2026-11-24T14:43:38.612Z",
+        "RESEARCH_READY": "2026-11-24T14:44:09.831Z",
+        "IMAGE_GENERATED": "2026-11-24T14:45:46.760Z",
+        "REVIEWED": "2026-11-24T14:46:11.089Z",
+        "ARCHIVED": "2026-11-24T14:46:19.260Z",
+        "VERIFIED": "2026-11-24T14:46:52.491Z"
+      },
+      "imagegen_wait_ms": 59971,
+      "research_to_ready_s": 31.219,
+      "ready_to_generated_persistence_s": 96.929,
+      "generated_persistence_to_reviewed_s": 24.329,
+      "archive_to_verified_s": 33.231
+    },
+    {
+      "cycle": 5,
+      "id": "216-otus-thilohoffmanni-v3",
+      "started_at": "2026-11-24T14:46:58.559Z",
+      "ended_at": "2026-11-24T14:50:01.504Z",
+      "stages": {
+        "STARTED": "2026-11-24T14:46:58.559Z",
+        "RESEARCH_READY": "2026-11-24T14:47:28.552Z",
+        "IMAGE_GENERATED": "2026-11-24T14:48:57.464Z",
+        "REVIEWED": "2026-11-24T14:49:26.266Z",
+        "ARCHIVED": "2026-11-24T14:49:35.464Z",
+        "VERIFIED": "2026-11-24T14:50:01.504Z"
+      },
+      "imagegen_wait_ms": 58601,
+      "research_to_ready_s": 29.993,
+      "ready_to_generated_persistence_s": 88.912,
+      "generated_persistence_to_reviewed_s": 28.802,
+      "archive_to_verified_s": 26.04
+    },
+    {
+      "cycle": 6,
+      "id": "212-megascops-seductus-v3",
+      "started_at": "2026-11-24T14:50:08.663Z",
+      "ended_at": "2026-11-24T14:53:21.428Z",
+      "stages": {
+        "STARTED": "2026-11-24T14:50:08.663Z",
+        "RESEARCH_READY": "2026-11-24T14:50:49.425Z",
+        "IMAGE_GENERATED": "2026-11-24T14:52:26.019Z",
+        "REVIEWED": "2026-11-24T14:52:49.143Z",
+        "ARCHIVED": "2026-11-24T14:52:55.448Z",
+        "VERIFIED": "2026-11-24T14:53:21.428Z"
+      },
+      "imagegen_wait_ms": 60462,
+      "research_to_ready_s": 40.762,
+      "ready_to_generated_persistence_s": 96.594,
+      "generated_persistence_to_reviewed_s": 23.124,
+      "archive_to_verified_s": 25.98
+    }
+  ],
+  "limitations": [
+    "All scientifically_verified false; no new user confirmations.",
+    "Lease initialized per cycle with15min validity; no expiry during observed cycles. Immediate heartbeat renewal around each imagegen call was not separately persisted; no retroactive timestamp claim.",
+    "Stage timestamps denote actual persisted stage record times, not exact browser/search completion moments. Derived wall intervals include reasoning/upload/checkpoint latency.",
+    "Full251authorityroster reconciliation and whole-current-catalogue scientific review remain incomplete."
+  ]
+}

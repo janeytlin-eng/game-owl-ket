@@ -8,7 +8,8 @@
   "result": "STARTED",
   "stages": {
     "STARTED": "2026-11-24T17:56:10.245Z",
-    "RESEARCH_READY": "2026-11-24T17:57:31.310Z"
+    "RESEARCH_READY": "2026-11-24T17:57:31.310Z",
+    "IMAGE_GENERATED": "2026-11-24T18:33:09.112Z"
   },
   "heartbeats": [
     {
@@ -88,5 +89,21 @@
       "expected_bytes": 2582857,
       "expected_sha256": "d7c8d5f3b0f6b7327a8423aa03a7e7f3978714d627ec372144e93938e0bb73d4"
     }
-  ]
+  ],
+  "meta": {
+    "bytes": 2582857,
+    "sha256": "d7c8d5f3b0f6b7327a8423aa03a7e7f3978714d627ec372144e93938e0bb73d4",
+    "size": [
+      1536,
+      1024
+    ],
+    "gitblob": "882e62f3259f41f2096b668bcebf63443c000fef"
+  },
+  "image_generation_recovery": {
+    "original_after_imagegen_heartbeat": "2026-11-24T18:00:08.520Z",
+    "stage_timestamp_means": "Recovered original persisted now; not new generation",
+    "new_imagegen_calls_this_recovery": 0,
+    "generation_wait_ms": null,
+    "note": "Pure generation wait not in remote record; do not infer from tool+heartbeat wall time."
+  }
 }

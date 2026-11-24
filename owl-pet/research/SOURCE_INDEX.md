@@ -6695,3 +6695,7 @@ New0/reused2 MGUA-MIKKOLA-2013-P245 uploaded245/PDF247 fulltext actually reread;
 
 ### Correction: ML163283551 media type
 The existing #224 deferred research explicitly identifies PedroFernandes7Jun2019BledDataMorocco ML163283551 as juvenile CALL AUDIO7.57MB, not photograph. Prior1432Z note saying 'photo NOT viewed' is misleading: no photographic asset was established. https://macaulaylibrary.org/asset/163283551 remains an audio lead, no image/young plumage used. This correction is from actual existing repository record crosscheck, not a fresh successful media read or new source. Preserve prior note/history; supersede media-type interpretation here.
+
+
+## 20261124T1535Z cycle1 RETARGETED 209-glaucidium-minutissimum-v4
+203v3 repeated work rejected/no credit after highest-versioncollision; historical v3 sidecars restored byte-for-byte from48c2a6e1 via dc4075fb. Own redundant PNG retainedbatchartifact only. New0/reused2 GMNI-MIKKOLA-2013-P388 actualuploaded388/PDF390 and GMNI-OWLPAGES-2020 actual Description young vs adult crown. Subtle mesoptile crown-fleck cleanup only; [research/prompt](species/209-glaucidium-minutissimum-v4.md) · [review](reviews/209-glaucidium-minutissimum-v4-review.md).

@@ -1,0 +1,46 @@
+# 209-glaucidium-minutissimum-v4
+{
+  "batch_id": "20261124T1535Z",
+  "cycle": 1,
+  "id": "209-glaucidium-minutissimum-v4",
+  "species": "Glaucidium minutissimum",
+  "action": "REVISION",
+  "result": "RESEARCH_READY",
+  "started_at": "2026-11-24T15:31:58.038Z",
+  "stages": {
+    "STARTED": "2026-11-24T15:31:58.038Z",
+    "RESEARCH_READY": "2026-11-24T15:37:46.033Z"
+  },
+  "actual_errors": [
+    "Version collision: pre-existing203v3 concept/manifest detected before archive; own research/review temporarily overwrote203v3 paths. Restore byte-for-byte from initial48c2a6e1, relocate own work v4; original image v3 unchanged. No cycle credit before restoration and new archive validation."
+  ],
+  "notes": [
+    "203 duplicate attempt rejected, not counted; historical sidecars restored dc4075fb. Highest existing209version v3 checked in latest tree/manifest before selectingv4."
+  ],
+  "prompt": "Use case precise-object-edit. Target #209 East Brazilian Pygmy Owl Glaucidium minutissimum v3. Change ONLY RIGHT MESOPTILE'S CROWN behind the frontal forehead zone: remove scattered tiny pale/cream flecks from upper crown and rear crown, leaving clean unspotted rufous feather colour with natural rufous feather texture and shadow. KEEP sparse pale flecks on FOREHEAD immediately above brows only; do not make bald or smooth plastic head. Preserve both adults' tiny white crown flecks and plain brown mantle, all young face/eyes/bill/white throat/soft body/folded wing/feet and tilted supported pose. No adult spotting on juvenile crown. Preserve three birds/adult proportions/six grips/forest/title/all uncertainty labels/footer1536x1024. This is a subtle stage-pattern cleanup, no exact age/iris/bill/flight/sexsize/nest claim.",
+  "issue": "Actual highest existingv3 full view: tiny pale crown flecks extend behind frontal zone in young; refine unspotted rufous mesoptile crown while preserving forehead flecks. Some light marks could be highlights, so call subtle pattern cleanup rather than gross anatomy error.",
+  "sources": [
+    {
+      "id": "GMNI-MIKKOLA-2013-P388",
+      "author": "Heimo Mikkola",
+      "year": 2013,
+      "title": "Owls of the World second edition",
+      "pages": "printed388/PDF390",
+      "url": "uploaded PDF",
+      "stage": "mesoptile",
+      "actual_read": "Fresh complete text: unspotted rufous crown, pale foreheadflecks; adult crown whiteflecks separate.",
+      "limits": "Oldsicki=currentEastBrazilianminutissimum; not Pernambucop389. Exact age/featherreflectance unknown."
+    },
+    {
+      "id": "GMNI-OWLPAGES-2020",
+      "author": "Deane Lewis",
+      "year": 2020,
+      "title": "East Brazilian Pygmy Owl",
+      "url": "https://www.owlpages.com/owls/species.php?s=1990",
+      "type": "secondary species account",
+      "stage": "adult/juvenile",
+      "limits": "Secondary overlappingguide, not independent growthstudy."
+    }
+  ]
+}
+Facts vs design: stage-specific plaincrown distinction, artistic highlight/fleck distinction not photometrically resolved. Oldsicki mapping retained; youngunknowns preserved, sciencefalse.

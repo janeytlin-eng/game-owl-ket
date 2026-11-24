@@ -1,71 +1,44 @@
 {
   "batch_id": "20261124T1535Z",
   "cycle": 1,
-  "id": "203-megascops-guatemalae-v3",
-  "result": "STARTED",
+  "id": "209-glaucidium-minutissimum-v4",
+  "species": "Glaucidium minutissimum",
+  "action": "REVISION",
+  "result": "RESEARCH_READY",
   "started_at": "2026-11-24T15:31:58.038Z",
   "stages": {
     "STARTED": "2026-11-24T15:31:58.038Z",
-    "RESEARCH_READY": "2026-11-24T15:32:51.552Z",
-    "IMAGE_GENERATED": "2026-11-24T15:34:29.839Z",
-    "REVIEWED": "2026-11-24T15:35:07.797Z"
+    "RESEARCH_READY": "2026-11-24T15:37:46.033Z"
   },
-  "notes": [
-    "Fresh main48c2a6e1 no effective unfinished batch/lease. #25 already remotely archived, no repeated generation from unverified localfd9d70d.",
-    "Prior #224 research explicitly identifies ML163283551 as juvenile AUDIO not photo; correct previous1532Z note wording in source index, no phantom photograph used."
+  "actual_errors": [
+    "Version collision: pre-existing203v3 concept/manifest detected before archive; own research/review temporarily overwrote203v3 paths. Restore byte-for-byte from initial48c2a6e1, relocate own work v4; original image v3 unchanged. No cycle credit before restoration and new archive validation."
   ],
-  "species": "Megascops guatemalae",
-  "action": "REVISION",
-  "prompt": "Use case precise-object-edit. Target #203 Middle American Screech Owl Megascops guatemalae v2, nominate grey morph. Change ONLY BOTH ADULTS' LOWER CENTRAL BELLY transverse crossbars: fade/reduce the dense broad dark horizontal bars below midbelly into few fine faint interrupted bars, keeping pale cream-grey ground and existing narrow vertical dark shaft streaks. Preserve stronger upper breast vermiculations/crossbars and side marks. Do not make a pure white blank bib. Entire young mesoptile remains unchanged: faint indistinct down barring, compact down-dominated wings, dark eye/green bill unverified. Preserve adult yellow irises/greenish bill/cere/ear tufts and spottedruff, near-equal sizes, all six footgrips/mossybranch/forest/title/rolelabels/uncertaintyfooter1536x1024. No new age/sex-size/flight/nest claims.",
-  "issue": "Actual v2 full view: lower adult central bellies retain strong repeated horizontal crossbars; guide says fewer or no such bars on lower areas. Reduce bars only, retain shaft streaks.",
+  "notes": [
+    "203 duplicate attempt rejected, not counted; historical sidecars restored dc4075fb. Highest existing209version v3 checked in latest tree/manifest before selectingv4."
+  ],
+  "prompt": "Use case precise-object-edit. Target #209 East Brazilian Pygmy Owl Glaucidium minutissimum v3. Change ONLY RIGHT MESOPTILE'S CROWN behind the frontal forehead zone: remove scattered tiny pale/cream flecks from upper crown and rear crown, leaving clean unspotted rufous feather colour with natural rufous feather texture and shadow. KEEP sparse pale flecks on FOREHEAD immediately above brows only; do not make bald or smooth plastic head. Preserve both adults' tiny white crown flecks and plain brown mantle, all young face/eyes/bill/white throat/soft body/folded wing/feet and tilted supported pose. No adult spotting on juvenile crown. Preserve three birds/adult proportions/six grips/forest/title/all uncertainty labels/footer1536x1024. This is a subtle stage-pattern cleanup, no exact age/iris/bill/flight/sexsize/nest claim.",
+  "issue": "Actual highest existingv3 full view: tiny pale crown flecks extend behind frontal zone in young; refine unspotted rufous mesoptile crown while preserving forehead flecks. Some light marks could be highlights, so call subtle pattern cleanup rather than gross anatomy error.",
   "sources": [
     {
-      "id": "MGUA-MIKKOLA-2013-P245",
+      "id": "GMNI-MIKKOLA-2013-P388",
       "author": "Heimo Mikkola",
       "year": 2013,
       "title": "Owls of the World second edition",
+      "pages": "printed388/PDF390",
       "url": "uploaded PDF",
-      "pages": "printed245/PDF247",
-      "stage": "adult grey morph/nominate",
-      "actual_read": "Fresh full uploaded page text; lower-area crossbars reduced/absent relative upperbreast; shaftstreaks persist.",
-      "limits": "Secondary guide, no individual exact pattern map or sex ratio."
+      "stage": "mesoptile",
+      "actual_read": "Fresh complete text: unspotted rufous crown, pale foreheadflecks; adult crown whiteflecks separate.",
+      "limits": "Oldsicki=currentEastBrazilianminutissimum; not Pernambucop389. Exact age/featherreflectance unknown."
     },
     {
-      "id": "MGUA-PEREZMARTINEZ-2021",
-      "author": "Christian Alessandro Perez-Martinez",
-      "year": 2021,
-      "date": "2021-08-17",
-      "url": "https://alephrocco.com/2021/08/17/vermiculated-screech-owl/",
-      "type": "primary observer field account",
-      "stage": "tentatively young vermiculatus Costa Rica",
-      "actual_read": "Fresh original body paragraphs2–5: observer tentative youth, yellowiris, different population. Not a nominate young phenotype source.",
-      "limits": "No images actually inspected, no cross-subspecies juvenile transfer."
+      "id": "GMNI-OWLPAGES-2020",
+      "author": "Deane Lewis",
+      "year": 2020,
+      "title": "East Brazilian Pygmy Owl",
+      "url": "https://www.owlpages.com/owls/species.php?s=1990",
+      "type": "secondary species account",
+      "stage": "adult/juvenile",
+      "limits": "Secondary overlappingguide, not independent growthstudy."
     }
-  ],
-  "unknowns": [
-    "young preciseage/iris/billdevelopment/firstflight",
-    "adult sex-size measurements",
-    "exact lowerbar density"
-  ],
-  "heartbeats": [
-    {
-      "at": "2026-11-24T15:32:59.388Z",
-      "event": "before_imagegen"
-    },
-    {
-      "at": "2026-11-24T15:33:54.609Z",
-      "event": "after_imagegen"
-    }
-  ],
-  "meta": {
-    "bytes": 2718378,
-    "sha256": "0d6d5bbdaeec3df8d3b81f2868bf6f6ebca3de93c16ed41a3bcaa3c024668f35",
-    "size": [
-      1536,
-      1024
-    ],
-    "gitblob": "38c07221b2cba193db90683f8fc234582c702093"
-  },
-  "imagegen_wait_ms": 39725,
-  "review": "Full1536x1024 original actually viewed. Both adult lower central bellies now show few faint interrupted horizontal marks while narrow dark shaft streaks and stronger breast/side pattern remain; feather ground remains pale patterned, not blank bib. Young faintly patterned down/compact folded wings/dark iris/greenbill unverified unchanged qualitatively. Adult eyes/tufts/ruff/scale/six grips/forest/title/roles/footer preserved. PASS_WITH_LIMITATIONS/sciencefalse. Exact pattern map, age/firstflight/young bareparts and sexsize remain unknown."
+  ]
 }

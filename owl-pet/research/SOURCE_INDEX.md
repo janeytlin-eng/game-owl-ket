@@ -6580,3 +6580,7 @@ Reused3: STSO-AFRICANBIRDCLUB-SINEUX-2020-ADULT, Lionel Sineux/African Bird Club
 
 ## 20261124T1137Z cycle2 #175v7
 New2 SSO-RIPLEY-BOND-1971-P12 (Ripley&Bond1971, SmithsonianContributionsZoology111,p12/PDF16 actualoriginalread; 3male masses46/50/55g,morphvariation,no tarsal/juvenile/femaleproof) and SSO-OWLPAGES-2020-340 (DeaneLewis2020, actualDescription/Breeding/Habitat read). ReuseSSO-MIKKOLA-2013-P134 actualuploadprinted134/PDF136. FullURLs/metadata/facts/limitations/failedMarshallretrieval and conservativeocclusiondesign: [research](species/175-otus-ireneae-v7.md); [image](../design/concepts/175-otus-ireneae-v7.png)/[review](reviews/175-otus-ireneae-v7-review.md). No precise tarsalmap claim, sciencefalse. New2/reused1/corrected1.
+
+
+## 20261124T1137Z cycle3 #171v6
+New1 CPO-OWLPAGES-2020-1970 (DeaneLewis30Oct2020, https://www.owlpages.com/owls/species.php?s=1970 actualDescription/Habitat/Breedingbodyread2026-11-24; yellowishhornadultbill, noyounggrowth); reuseCPO-MIKKOLA-2013-P385-386 (actualupload385–386/PDF387–388read) and repositoryCPO-NELSON-1901-P46 (retryIAunavailable, notfreshprimaryread). [Fullmetadata/facts/limits/prompt](species/171-glaucidium-palmarum-v6.md),[image](../design/concepts/171-glaucidium-palmarum-v6.png),[review](reviews/171-glaucidium-palmarum-v6-review.md). Colourcorrectiononlyadults; youngbillunknown/sciencefalse. New1/reuse2/correction1.

@@ -7,8 +7,39 @@
   "started_at": "2026-11-24T17:31:43.269Z",
   "result": "STARTED",
   "stages": {
-    "STARTED": "2026-11-24T17:31:43.269Z"
+    "STARTED": "2026-11-24T17:31:43.269Z",
+    "RESEARCH_READY": "2026-11-24T17:33:00.599Z"
   },
   "heartbeats": [],
-  "errors": []
+  "errors": [],
+  "issue": "Actual highest v2 adult claws uniformly darkgrey; book printed368 says yellowish claws darktipped. Change adult claw bases only; young formed wing/tail documented by prior photo retained.",
+  "sources": [
+    {
+      "id": "GTEP-MIKKOLA-2013-P368",
+      "title": "Owls of the World photographic guide second edition",
+      "author": "Heimo Mikkola",
+      "year": 2013,
+      "url": "uploaded libfile_fde3_f-916e2244186c81918fe5a0716884b8c9_7a934266b8748191824cde4d0af03f29",
+      "pages": "printed368–369/PDF370–371 Identification/Geographical variation",
+      "accessed": "2026-11-25 +08",
+      "type": "secondary guide",
+      "stage": "adult",
+      "facts": "Complete pages freshly read: yellowish claws darktipped; yellow sparselybristled toes; rufousbuff tarsi feathered; greyplain crown/no scapularline; Cameroon pycrafti lessrufous. Juvenile undescribed.",
+      "limits": "No juvenile development; nominate/elgonense mass sexdifferences cannot transferCameroon. Exact clawcolour not calibrated."
+    },
+    {
+      "id": "GTEP-BORROW-2014-P24",
+      "title": "Ultimate Cameroon 2–29 March2014",
+      "author": "Nik Borrow/BirdQuest",
+      "year": 2014,
+      "url": "https://www.birdquest-tours.com/wp-content/uploads/2019/06/cameroon_tour_report_2014.pdf",
+      "pages": "p24 juvenile reference, original report opened this cycle; existing actual photo examination reused by record",
+      "accessed": "2026-11-25 +08",
+      "type": "primary field tour photo/report",
+      "stage": "labelled juvenile Kodmin",
+      "facts": "Existing image-labelled juvenile record supports formed foldedwing/tail; no fresh photo inspection claimed: screenshot tool returned text marker without usable pixels.",
+      "limits": "Single juvenile not known sex/subspecies/exact age; not basis for adult claw edit."
+    }
+  ],
+  "prompt": "Use case precise-object-edit. Edit #213 Red-chested Owlet current v2 trio. Change ONLY BOTH ADULTS' claw plates: make proximal/basal two-thirds of each exposed claw pale yellowish horn, with distal pointed tips dark charcoal. Preserve shape/count/curves and natural gripping branch. Do not recolour yellow scaled toes or tarsal feathers. Preserve entire right older juvenile unchanged including its provisional claw colour and formed wing/tail; preserve adult eyes/bills/plain crowns/body/plumage/near-equal size, rainforest, every title/geographic note/rolelabel/scientificpendingfooter. No new sexratio/age/flight/nest claim. Same1536x1024."
 }

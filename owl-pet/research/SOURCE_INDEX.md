@@ -6736,3 +6736,7 @@ Source documents new0; reused13 source-ID references across6cycles, deduplicated
 
 ## 20261124T1632Z #211 adult tarsal-boundary revision
 Reused MROB-MIKKOLA-2013-P224 freshly read printed224–225/PDF226–227. New MROB-OWLPAGES-2020, Deane Lewis2020-10-24, https://www.owlpages.com/owls/species.php?s=940 actual Introduction/Distribution body; not foot/juvenile support. Fullmetadata/facts/limits/prompt in [species](species/211-megascops-roboratus-v3.md); [review](reviews/211-megascops-roboratus-v3-review.md). Current name Megascops roboratus=oldOtusroboratus, nominate drywoodland only; lower tarsal feather extension, no developmental inference.
+
+
+## 20261124T1632Z cycle2 213-glaucidium-tephronotum-v3
+New0/reused2 source-ID references; actual read and citation-only scopes distinguished in [metadata/fullprompt](species/213-glaucidium-tephronotum-v3.md), [review](reviews/213-glaucidium-tephronotum-v3-review.md). Actual highest v2 adult claws uniformly darkgrey; book printed368 says yellowish claws darktipped. Change adult claw bases only; young formed wing/tail documented by prior photo retained.

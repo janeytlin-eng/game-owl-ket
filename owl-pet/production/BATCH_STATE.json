@@ -51963,7 +51963,7 @@
     },
     {
       "batch_id": "20261124T0432Z",
-      "status": "RUNNING",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -52060,18 +52060,33 @@
           },
           "scientifically_verified": false,
           "completed_at": "2026-11-24T04:49:38.128Z"
+        },
+        {
+          "cycle": 6,
+          "species": "Strix butleri",
+          "id": "223-strix-butleri-v2",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "commit_sha": "ebd49afbb787889ef7f4e744a7629be6e677987f",
+          "archive_commit": "55770a8e97c2a3e0932d64b3631331fe74803e44",
+          "run_record": "owl-pet/production/runs/20261124T0432Z-cycle6.md",
+          "status": "VERIFIED",
+          "source_counts": {
+            "new": 0,
+            "reused": 3,
+            "corrected": 1
+          },
+          "scientifically_verified": false,
+          "completed_at": "2026-11-24T04:53:06.791Z"
         }
       ],
-      "next_cycle": 6,
-      "started_at": "2026-11-24T04:31:51.754Z"
+      "next_cycle": null,
+      "started_at": "2026-11-24T04:31:51.754Z",
+      "completed_at": "2026-11-24T04:53:06.791Z"
     }
   ],
-  "lease": {
-    "owner": "codex-owl-production",
-    "run_id": "20261124T0432Z-cycle6",
-    "heartbeat_at": "2026-11-24T04:49:38.128Z",
-    "expires_at": "2026-11-24T05:04:38.128Z"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -52205,7 +52220,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-24T04:49:38.128Z",
+  "updated_at": "2026-11-24T04:53:06.791Z",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -59613,10 +59628,10 @@
       }
     }
   ],
-  "active_batch_id": "20261124T0432Z",
-  "active_cycle": 6,
-  "current_stage": "STARTED",
-  "next_cycle": 6,
+  "active_batch_id": null,
+  "active_cycle": null,
+  "current_stage": "COMPLETE",
+  "next_cycle": null,
   "unique_species_count": 205,
   "total_species": 251,
   "stage_events": [
@@ -70281,8 +70296,8 @@
       "evidence": "OriginalPNG 2484838bytes SHA256fb50c11a2a2157124b52c7276330726e69a8c7b80e13c6e8b7068b7374027c7e; generation 2026-11-23T16:53:18.078Z → 2026-11-23T16:53:54.400Z; edits1; conceptpass limited. Immutable readback pending."
     }
   ],
-  "last_completed_batch_id": "20261124T0030Z",
-  "active_batch": "20261124T0432Z",
+  "last_completed_batch_id": "20261124T0432Z",
+  "active_batch": null,
   "events": [
     {
       "batch_id": "20261105T183434+0800",
@@ -79698,7 +79713,7 @@
     }
   ],
   "ledger_credit_pending": false,
-  "last_verified_commit": "64cd5d03556dc3c08d2d60fe874d7d3285fef2a5",
+  "last_verified_commit": "ebd49afbb787889ef7f4e744a7629be6e677987f",
   "completed_cycles": [
     {
       "cycle": 1,
@@ -80970,7 +80985,7 @@
       }
     }
   ],
-  "last_archive_commit": "6e9d80d49c788d016f625443192481e407903636",
+  "last_archive_commit": "55770a8e97c2a3e0932d64b3631331fe74803e44",
   "active": null,
   "phase_events": [
     {
@@ -81891,5 +81906,5 @@
   "last_verified": "2026-11-13T05:41:40.899+08:00",
   "unique_species_count_recomputed": 203,
   "unique_species_count_recomputed_basis": "Immutable main a6f2da657e2046b3b5d87bbf0f07d051df120166:915 versioned concept PNG/JPG paths;204 raw name keys; first-two-name grouping plus Pseudoscops grammicus→Asio grammicus gives201. Existing G.brasilianum cactorum/T.javanica delicatula merged with parent species by repository mapping. Fixed251 authority roster reconciliation pending.",
-  "next_action": "Resume 20261124T0432Z cycle6/6; missing-species evidence first, otherwise source-backed actual correction."
+  "next_action": "Batch 20261124T0432Z complete6/6; continue missing-species research; sciencepending."
 }

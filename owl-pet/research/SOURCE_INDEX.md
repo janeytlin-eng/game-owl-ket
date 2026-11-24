@@ -6333,3 +6333,11 @@ Actualv4view: male face fairly saturated chestnut closefemale, though bodypaler;
 [Prompt](prompts/172-tyto-castanops-v5.txt) · [Review](reviews/172-tyto-castanops-v5-review.md)
 
 Locator correction from actual original thiscycle: Debus1993 downy-leaving-hole paragraph is printed185/PDF18 (lines824–831), not printed187 as repeated byv4. Stable historicalsourceID TMO-DEBUS-1993-P169-172-187 retained for traceability; p187/PDF20 is Plate27 intermediate male/darkfemale. Neither old locator nor source-ID suffix may be treated as exact proof. Index correction1; no additional document count.
+
+
+## 20261124T0532Z cycle4 234-otus-sulaensis-v2
+# #234v2 Sula Scops Owl adult bill boundary
+Actualread2026-11-24. Reuse **SULA-HARTERT-1898** ErnstHartert1898 NovitatesZoologicae5:125–136 printed126 species4 Pisorhina sulaensis; DOI10.5962/bhl.part.1648, https://biostor.org/reference/104583 ; original https://archive.org/download/biostor-104583/biostor-104583.pdf . Web PDFopen failedthiscycle (toolinternalnotaccessible), existingfullPDF/text/printed126render actuallyreread: adultmaleMangoliOct1897 billblackish BUT lower mandible/cere dirtyochre; young pale dulllead bill. Originalsource not adjacentAccipiter paragraph. Individualhistoricaladult scope, variationnotquantified, modernlocality/identificationlimitsretainedv1. Reuse **SULA-ITIS-1063241** freshoriginal taxonomybodyread validOtussulaensis oldPisorhina/O.mag icussulaensis, IOC15.1(2025) refs not2026global reconciliation. Reuse **MIKKOLA-2013** priorread printed192/PDF194 retained (notfreshpageread) adult/orangeiris/barelowertarsus/unknownsexdirection; prefer primaryspecificyoungcolour.
+Actualv1wholeview: bothadultbills readnearlyuniformdarkgrey withonlylightreflection, ochrelowermandible/cere notclear. Localmodestdirtyochre lowercerecolourcorrection, blackishupperbill retained, don'tmakeentirebillbrightyellow. Juvenilegrey-leadbill/deepbrowneye/palebuffbrowncrossbarreddown/halfbaretarsus unchanged; noage/flightclaims. Naturalwoodsupports asdesigninference notspecimenevidenceofperchability; no nestmaterials. Near-equaladults unchangedunknownsexsize. New0/reused3/correction1, sciencefalse.
+[Priorfullsources/limits](234-otus-sulaensis-v1.md). Prompt/version234v2, retainv1.
+[Prompt](prompts/234-otus-sulaensis-v2.txt) · [Review](reviews/234-otus-sulaensis-v2-review.md)

@@ -53324,20 +53324,6 @@
           "scientifically_verified": false
         },
         {
-          "cycle": 2,
-          "id": "213-glaucidium-tephronotum-v3",
-          "species": "Glaucidium tephronotum",
-          "action": "REVISION",
-          "unique_species_increment": 0,
-          "revision_increment": 1,
-          "status": "VERIFIED",
-          "commit_sha": "23f9bdaa264322ce4fa2fc6c7d58769ed48064e6",
-          "archive_commit": "ba2cc768804dfc35829a8dd4dc6f2ff417816ce3",
-          "run_record": "owl-pet/production/runs/20261124T1632Z-cycle2.json",
-          "completed_at": "2026-11-24T17:38:04.369Z",
-          "scientifically_verified": false
-        },
-        {
           "cycle": 3,
           "id": "214-otus-balli-v3",
           "species": "Otus balli",
@@ -53380,12 +53366,33 @@
           "scientifically_verified": false
         }
       ],
-      "next_cycle": 6,
+      "next_cycle": 2,
       "started_at": "2026-11-24T16:32:25.115Z",
       "remaining_cycles": [
+        2,
         6
       ],
-      "partial_reason": "Observed tool Code Mode session output limit reached while printing initial large ledger, 7221056 text bytes omitted. Executor checkpoints after cycle1; no fixed timeout telemetry and not a claim subsequent tools were wholly unavailable."
+      "partial_reason": "Observed tool Code Mode session output limit reached while printing initial large ledger, 7221056 text bytes omitted. Executor checkpoints after cycle1; no fixed timeout telemetry and not a claim subsequent tools were wholly unavailable.",
+      "reconciliation_notes": [
+        {
+          "at": "2026-11-24T17:50:52.168Z",
+          "issue": "cycle2 v3 claw colour remains NEEDS_CORRECTION; prior credit premature under failure-does-not-increment rule. Reopen cycle2 target; preserve cycle3-5 independent actual archives; no re-render of those. Only final repaired cycle2 may count once.",
+          "invalidated_entry": {
+            "cycle": 2,
+            "id": "213-glaucidium-tephronotum-v3",
+            "species": "Glaucidium tephronotum",
+            "action": "REVISION",
+            "unique_species_increment": 0,
+            "revision_increment": 1,
+            "status": "VERIFIED",
+            "commit_sha": "23f9bdaa264322ce4fa2fc6c7d58769ed48064e6",
+            "archive_commit": "ba2cc768804dfc35829a8dd4dc6f2ff417816ce3",
+            "run_record": "owl-pet/production/runs/20261124T1632Z-cycle2.json",
+            "completed_at": "2026-11-24T17:38:04.369Z",
+            "scientifically_verified": false
+          }
+        }
+      ]
     }
   ],
   "lease": null,

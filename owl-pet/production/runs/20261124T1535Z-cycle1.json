@@ -8,7 +8,8 @@
   "started_at": "2026-11-24T15:31:58.038Z",
   "stages": {
     "STARTED": "2026-11-24T15:31:58.038Z",
-    "RESEARCH_READY": "2026-11-24T15:37:46.033Z"
+    "RESEARCH_READY": "2026-11-24T15:37:46.033Z",
+    "IMAGE_GENERATED": "2026-11-24T15:39:44.425Z"
   },
   "actual_errors": [
     "Version collision: pre-existing203v3 concept/manifest detected before archive; own research/review temporarily overwrote203v3 paths. Restore byte-for-byte from initial48c2a6e1, relocate own work v4; original image v3 unchanged. No cycle credit before restoration and new archive validation."
@@ -51,5 +52,15 @@
       "at": "2026-11-24T15:39:16.623Z",
       "event": "after_imagegen"
     }
-  ]
+  ],
+  "meta": {
+    "bytes": 2471224,
+    "sha256": "8d1a7fc7dd3d8efe9fa4a39e66ee092ccf702a41d36b553570739a58f0590975",
+    "size": [
+      1536,
+      1024
+    ],
+    "gitblob": "22e36b6ad16ff27a5dce1e39a4ca7c8c09460ceb"
+  },
+  "imagegen_wait_ms": 37815
 }

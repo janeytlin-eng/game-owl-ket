@@ -6602,3 +6602,7 @@ Cycle5 access-count clarification: TSO-ITIS-686657-2025 currentreport reused, no
 
 ## 20261124T1137Z cycle6 #197v5 direct-stage refinement
 New0/reused3 stableIDsLLSO-OWL-PAGES-2012-JUV (BramDemeulemeesterApril2012MountData; actualoriginalphoto NOWviewed, earliercaptiononly),LLSO-MIKKOLA-2013-P170(upload170/PDF172read),LLSO-MIRANDA-2011-P446-450(actualmuseumPDFMethods/Table2/plumageread, samepapernewURL https://blog.hmns.org/wp-content/uploads/2023/10/PhilippineScopsEprint.pdf). Directphotoformed-wingolder-lookingjuvenileselectedwithageunknown; causeofbook/photoappearancevariationunknown/notinventedchronology. Fullmetadata/URLs/stagefacts/limits/prompt [research](species/197-otus-megalotis-v5.md),[image](../design/concepts/197-otus-megalotis-v5.png),[review](reviews/197-otus-megalotis-v5-review.md). Correction1stagedesign/newscience0.
+
+
+## 20261124T1204Z cycle1 #197v6
+New0/reused3 stableIDs LLSO-OWL-PAGES-2012-JUV (actual photo re-viewed), LLSO-MIRANDA-2011-P446-450 (museum original adult-only reread), LLSO-MIKKOLA-2013-P170 (uploaded printed170/PDF172 reread). Qualitative wing endpoint versus toes/branch, no measured length/age/flight. [Facts/URLs/metadata/limits/prompt](species/197-otus-megalotis-v6.md), [image](../design/concepts/197-otus-megalotis-v6.png), [review](reviews/197-otus-megalotis-v6-review.md). Correction1 design boundary, sciencefalse; no duplicate publications.

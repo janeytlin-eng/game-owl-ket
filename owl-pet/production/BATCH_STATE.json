@@ -53162,17 +53162,31 @@
           "status": "VERIFIED",
           "scientifically_verified": false,
           "completed_at": "2026-11-24T14:42:27.867Z"
+        },
+        {
+          "cycle": 4,
+          "id": "215-otus-angelinae-v3",
+          "species": "Otus angelinae",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "commit_sha": "ed81928b2943cfcd0450e7596943fcee97275ec4",
+          "archive_commit": "85ddacdda891d079b9b3d72fdd88ae1c01799e9b",
+          "run_record": "owl-pet/production/runs/20261124T1432Z-cycle4.json",
+          "status": "VERIFIED",
+          "scientifically_verified": false,
+          "completed_at": "2026-11-24T14:46:52.491Z"
         }
       ],
-      "next_cycle": 4,
+      "next_cycle": 5,
       "started_at": "2026-11-24T14:31:33.168Z"
     }
   ],
   "lease": {
     "owner": "owl-production",
-    "run_id": "20261124T1432Z-cycle4",
-    "heartbeat_at": "2026-11-24T14:43:38.612Z",
-    "expires_at": "2026-11-24T14:58:38.612Z"
+    "run_id": "20261124T1432Z-cycle5",
+    "heartbeat_at": "2026-11-24T14:46:58.559Z",
+    "expires_at": "2026-11-24T15:01:58.559Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -53334,9 +53348,9 @@
   ],
   "active_lease": {
     "owner": "owl-production",
-    "run_id": "20261124T1432Z-cycle4",
-    "heartbeat_at": "2026-11-24T14:43:38.612Z",
-    "expires_at": "2026-11-24T14:58:38.612Z"
+    "run_id": "20261124T1432Z-cycle5",
+    "heartbeat_at": "2026-11-24T14:46:58.559Z",
+    "expires_at": "2026-11-24T15:01:58.559Z"
   },
   "last_updated_at": "2026-11-13T06:00:16.398+08:00",
   "audit_notes": [

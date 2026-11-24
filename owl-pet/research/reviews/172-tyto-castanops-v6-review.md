@@ -1,0 +1,4 @@
+# 172-tyto-castanops-v6 actual review
+Actualfulloutput viewed: bottom plaque now includes youngexactage/iris/wingdevelopmentunverified, clear and below roles. Titlelegacycastanops and authorityClements2026T.novaehollandiaecastanops intact. Adultfemale visiblyfuller/larger/darker than selectedmale, darkeyes/ivorybills and featheredtarsi retained. Young creamdown/compacthiddenwingtail and bothfeet onconnectedwood retained. No fresh anatomical error claimed or anatomycalibration inferred from caption. Minor rerendertexture variation notpixelidentity; no newnestlining/egg/day/flight. PASS_WITH_LIMITATIONS; exactyoungiris/wingmap/ageunknown.
+PASS_WITH_LIMITATIONS;scientifically_verified=false;no new user confirmation.
+Original metadata {"bytes":2682273,"sha256":"32bd30ecaf2c88a25fe98bc79ccd8d295f8549de7d0cbe0033547b5339de3e6c","gitblob":"6c4949111d15973a7db6c73b580f9c7b022477a1","size":[1536,1024]}

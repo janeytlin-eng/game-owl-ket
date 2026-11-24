@@ -3,7 +3,7 @@
   "cycle": 2,
   "status": "STARTED",
   "started_at": "2026-11-24T23:39:14.939Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "id": "28-glaucidium-perlatum-v6",
   "species": "Glaucidium perlatum",
   "action": "MORPHOLOGY_REVISION",
@@ -11,6 +11,10 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-24T23:41:13.916Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-24T23:42:36.799Z"
     }
   ],
   "research_ready_at": "2026-11-24T23:41:13.916Z",
@@ -33,5 +37,8 @@
   "unknowns": [
     "Exact age/sex/iris/first-flight series",
     "No primary daily molt sequence"
-  ]
+  ],
+  "imagegen_wait_ms": 33839,
+  "imagegen_calls": 1,
+  "image_blob": "f9ecb1675aa3a3eb0fbf3d6561d9718d9d76b522"
 }

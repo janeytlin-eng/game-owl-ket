@@ -1,0 +1,49 @@
+# 214-otus-balli-v3
+{
+  "batch_id": "20261124T1632Z",
+  "cycle": 3,
+  "id": "214-otus-balli-v3",
+  "species": "Otus balli",
+  "action": "REVISION",
+  "started_at": "2026-11-24T17:38:19.747Z",
+  "result": "STARTED",
+  "stages": {
+    "STARTED": "2026-11-24T17:38:19.747Z",
+    "RESEARCH_READY": "2026-11-24T17:39:22.504Z"
+  },
+  "heartbeats": [],
+  "errors": [
+    "OwlPages guessed URL s150 opened Tyto inexspectata, unrelated; excluded completely from Otus balli design evidence."
+  ],
+  "issue": "Actual v2 fullplate: no newly verified morphology error; its footer flags only juvenile iris. Guide has no sex-size data and no precise youngage/bill/flight. Expose these missing evidence boundaries in image rather than invent anatomy correction.",
+  "sources": [
+    {
+      "id": "OBAL-MIKKOLA-2013-P181",
+      "author": "Heimo Mikkola",
+      "year": 2013,
+      "title": "Owls of the World photographic guide second edition",
+      "url": "uploaded libfile_fde3_f-916e2244186c81918fe5a0716884b8c9_7a934266b8748191824cde4d0af03f29",
+      "pages": "printed181/PDF183 Identification/Juvenile/Habitat",
+      "accessed": "2026-11-25 +08",
+      "type": "secondary guide",
+      "stage": "adult and mesoptile",
+      "facts": "Completepagefreshread: no sexsize data; adultyelloweyes/yellowishhornbill/partial tarsi distal thirdbare; mesoptilefineclosecrown/breast/wingcovertbars. Forest/semiopen/gardens.",
+      "limits": "No exact youngage/iris/bill/flight; cannot measure distal tarsal third from posed perspective."
+    },
+    {
+      "id": "OBAL-ITIS-555366",
+      "author": "ITIS",
+      "year": "current undated report",
+      "title": "Otus balli nomenclature",
+      "url": "https://www.itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=555366&source=to_print",
+      "sections": "Taxonomy and Nomenclature/References",
+      "accessed": "2026-11-25 +08",
+      "type": "institutional taxonomy",
+      "stage": "unspecified",
+      "facts": "Fresh original accepted Otus balli; old Ephialtes balli. Naming only.",
+      "limits": "Not morphology/development evidence."
+    }
+  ],
+  "prompt": "Use case text-localization / annotation-only. Existing #214 Andaman Scops Owl v2 trio. Preserve allthreebirds every anatomy/plumage/eye/bill/wing/foot/pose/branch/forest and rolelabels. Add small readable slim note under scientific name 'SEX SIZE UNKNOWN'. Replace juvenile small 'IRIS UNVERIFIED' with 'AGE / IRIS / BILL / FLIGHT UNVERIFIED', two lines if necessary within role-label box. Keep AGE-UNKNOWN MESOPTILE and scientificpendingfooter readable. No phenotype changes, no new scale/age/nest claim, same1536x1024 existing style."
+}
+Facts vs design: scoped character only; exact rendering artistic inference, no biological ratio or stage measurement.

@@ -6740,3 +6740,7 @@ Reused MROB-MIKKOLA-2013-P224 freshly read printed224–225/PDF226–227. New MR
 
 ## 20261124T1632Z cycle2 213-glaucidium-tephronotum-v3
 New0/reused2 source-ID references; actual read and citation-only scopes distinguished in [metadata/fullprompt](species/213-glaucidium-tephronotum-v3.md), [review](reviews/213-glaucidium-tephronotum-v3-review.md). Actual highest v2 adult claws uniformly darkgrey; book printed368 says yellowish claws darktipped. Change adult claw bases only; young formed wing/tail documented by prior photo retained.
+
+
+## 20261124T1632Z cycle3 214-otus-balli-v3
+New0/reused2 source-ID references; actual read and citation-only scopes distinguished in [metadata/fullprompt](species/214-otus-balli-v3.md), [review](reviews/214-otus-balli-v3-review.md). Actual v2 fullplate: no newly verified morphology error; its footer flags only juvenile iris. Guide has no sex-size data and no precise youngage/bill/flight. Expose these missing evidence boundaries in image rather than invent anatomy correction.

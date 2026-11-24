@@ -6631,3 +6631,8 @@ NEW MANT-ZAINI-2023-MANTANANI-FIELD primary dated17–18Oct2023 observation/phot
 ## 20261124T1204Z cycle6 195-otus-brookii-v5
 New0/reused2 RAJ-MIK2013-P168 uploaded168/PDF170 actualreread: reddishbrown finebarredmesoptile/whitishrufous underside darkfreckles-streaks; RAJ-GOODDIE-2015-P70-81 actualoriginalprinted74/PDF5 broodcavity/adult account reread, notjuvenilecolourproof. PriorCommonsGunungGedeJava exclusion rechecked actualmetadata (alreadyexcludedhistorically, no newsource); rejectusependingtaxon/locality/dateconflict. Lowerbellyground correction1, scientificfalse.
 [Full metadata/actual facts/URLs/pages/limits/prompt](species/195-otus-brookii-v5.md), [image](../design/concepts/195-otus-brookii-v5.png), [actual review](reviews/195-otus-brookii-v5-review.md). No science pass or duplicate publication credit.
+
+
+## 20261124T1332Z cycle1 236-ninox-reyi-v2
+Reused2 NREY-RASMUSSEN-2012-P17 actual originaladultdiagnosisprinted17/PDF18 and MIKKOLA2013 actualuploaded479/PDF481; new0. Adult blackclaws/palebases, notunknownyoungclaws; one species/stage-bound correction.
+[Metadata/URLs/pages/stages/facts/limits/fullprompt](species/236-ninox-reyi-v2.md) · [image](../design/concepts/236-ninox-reyi-v2.png) · [review](reviews/236-ninox-reyi-v2-review.md). Scientificfalse; samebook/papers deduplicated.

@@ -4,11 +4,12 @@
   "id": "06-asio-otus-v5",
   "species": "Asio otus",
   "action": "MORPHOLOGY_REVISION",
-  "result": "RESEARCH_READY",
+  "result": "IMAGE_GENERATED",
   "started_at": "2026-11-24T21:42:00.051Z",
   "stages": {
     "STARTED": "2026-11-24T21:42:00.051Z",
-    "RESEARCH_READY": "2026-11-24T21:43:21.379Z"
+    "RESEARCH_READY": "2026-11-24T21:43:21.379Z",
+    "IMAGE_GENERATED": "2026-11-24T21:45:36.858Z"
   },
   "selection_history": [
     {
@@ -29,5 +30,21 @@
     "juvenile exact age/iris sequence/firstflight",
     "subspecies transfer",
     "universal sex-height ratio"
-  ]
+  ],
+  "image": {
+    "bytes": 2599443,
+    "sha256": "c4788c49e38108077f2931fcf689a45f1be4dd5ff2a80a382aeba30372ecc463",
+    "size": [
+      1536,
+      1024
+    ],
+    "gitblob": "71fa01eeee5b54a158aabf7eab8393b4ef4f318b",
+    "path": "owl-pet/production/generated/06-asio-otus-v5.png",
+    "local": "/workspace/scratch/180c531d917a/owl-2138/06-asio-otus-v5.png"
+  },
+  "timings": {
+    "generation_start": "2026-11-24T21:43:34.043Z",
+    "generation_wait_ms": 90583,
+    "edit_count": 1
+  }
 }

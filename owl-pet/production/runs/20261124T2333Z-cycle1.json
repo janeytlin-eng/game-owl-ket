@@ -3,7 +3,7 @@
   "cycle": 1,
   "status": "STARTED",
   "started_at": "2026-11-24T23:34:26.496Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "scope": 251,
   "baseline_unique_species": 206,
   "recovery": "Remote #25 versions already exist; no need to remake. fd9d70d not independently recovered. Prior COMPLETE batches not recounted.",
@@ -43,6 +43,15 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-24T23:36:31.917Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-24T23:37:56.638Z"
     }
-  ]
+  ],
+  "image_generated_at": "2026-11-24T23:37:56.638Z",
+  "imagegen_wait_ms": 40464,
+  "imagegen_calls": 1,
+  "image_blob": "9a38d35385ef9a1c0835080200b1e3a797ce4274",
+  "generated_image_path": "owl-pet/production/generated/24-glaucidium-californicum-v5.png"
 }

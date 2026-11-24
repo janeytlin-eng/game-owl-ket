@@ -6776,3 +6776,6 @@ Reused CAMBOO-RASMUSSEN-2012-FORKTAIL; publisher mirror and printed15–16 adult
 
 ## 2026-11-25 20261124T1944Z cycle2 · Ninox rumseyi
 Reused CEB-RASMUSSEN-2012-FORKTAIL (sameprimarypublicationasCAMBOO alias) and CEB-JAKOSALEM-COLLAR-GILL-2012 actualadultdiagnosis/Methods/telemetry/nestsread. New0/reused2; no juvenilefeathersequenceevidenced. [#148v5 facts/limits/prompt](species/148-ninox-rumseyi-v5.md). Adultmostlyblackclaws retained, central longpanel requirescorrection. Sciencefalse.
+
+## 2026-11-25 20261124T1944Z cycle3 · Athene jacquinoti
+Reused sharedMIKKOLA-2013 printed481/PDF483 and WSO-MNHN-RECORD-2010-270 actualbodyread; new0/reused2. Adultdarkolivebill vsactualv4slate correction; immaturephenotyperemainsunknown. OldNinox/currentAthene mapping preserved. [#151v5 fullmetadata/limits/prompt](species/151-athene-jacquinoti-v5.md). No newpublicationforbookpage; sciencefalse.

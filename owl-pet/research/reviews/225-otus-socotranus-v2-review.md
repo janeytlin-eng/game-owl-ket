@@ -1,0 +1,4 @@
+# 225-otus-socotranus-v2 actual review
+PASS_WITH_LIMITATIONS. NewPons2013 actualprimarymorphology/Table3 supports relativelybroadlargerbillversussunia; sexdirectionforbilllength remainsunreported. Editedadultbases are visiblybroader/compacthooked in fulloutput+nativebills crop, no forcedsexcontrast/heightpercentage; neutralbodysizeannotationlegible. Bodyplumage/yelloweyes/baretoes/featheredtarsi/shorttufts andphoto-supportedrecentfledglingformedwing/greyfluff/6supportedfeet retained. Billshape is boundeddesigninference, not measured calibration; no youngtimeline established. One imagegenedit, no correctiveedit needed. Newprimarysuccess supersedes prioraccess-failure as leadstatus only, olderrorhistory preserved. Backcheck235Arabianowl belongsdifferentlineage; no transferSocotrabill-shapeorjuvenilepattern. Sciencefalse.
+
+Sciencefalse; no new userconfirmation. Start 2026-11-24T04:43:16.899Z; output 2026-11-24T04:43:55.138Z.

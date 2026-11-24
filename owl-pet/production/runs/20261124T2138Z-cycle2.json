@@ -9,7 +9,7 @@
   "stages": {
     "STARTED": "2026-11-24T21:42:00.051Z",
     "RESEARCH_READY": "2026-11-24T21:43:21.379Z",
-    "IMAGE_GENERATED": "2026-11-24T21:45:36.858Z"
+    "IMAGE_GENERATED": "2026-11-24T21:47:32.292Z"
   },
   "selection_history": [
     {
@@ -32,6 +32,31 @@
     "universal sex-height ratio"
   ],
   "image": {
+    "bytes": 2555692,
+    "sha256": "5b41cb5630e71b361ed3fddd43f5cf0bb18fd0503f9feefdc37d77e83895d2c1",
+    "size": [
+      1536,
+      1024
+    ],
+    "gitblob": "b0033682f46f0f410bbafeed1e0a14fd93975d8c",
+    "path": "owl-pet/production/generated/06-asio-otus-v5.png",
+    "local": "/workspace/scratch/180c531d917a/owl-2138/06-asio-otus-v5.png"
+  },
+  "timings": {
+    "generation_start": "2026-11-24T21:46:00.632Z",
+    "generation_wait_ms": 129049,
+    "edit_count": 1
+  },
+  "edit_prompts": [
+    "Precisely edit ONLY the DORSAL TOE FEATHERING of BOTH ADULT Long-eared Owls in #06 Asio otus v4. Currently adult toe tops are long smooth bare pale scaly surfaces. Add short close-lying whitish-buff feathers along dorsal surfaces of all adult toes continuously from the already feathered tarsi nearly to each black claw base. Keep toe contours slender and separated, individual curved black claws fully exposed, underside grasping surfaces functional, and original branch contact/grip unchanged. Not Snowy Owl thick mittens; not furry balls or extra toes. Preserve ENTIRE right-hand early post-departure juvenile unchanged, its compact soft formed wings, short tail, dark transitional eyes, supported branching posture and six-foot anatomy. Preserve all adult body dimensions, faces, orange eyes, black bills, long tufts, chest streaks/thin crossbars, folded wings/tails, same morph, exact title and labels, stick nest/conifer dusk environment and1536x1024 warm tactile style. No age/sex/flight assertion change.",
+    "Correct only the TOP SURFACES OF BOTH ADULTS' TOES in this #06 Long-eared Owl image. First edit still looks like hexagonal reptile scales/crosshatched skin. Replace this surface with clearly visible FINE SOFT FEATHER FILAMENTS: pale buff tiny overlapping narrow featherlets, each with a central shaft and hairlike barbs, oriented along the toe toward each black claw. A thin slightly fringed feather edge is visible on each toe. Cover adult toe dorsum all the way nearly to claw bases. Adult toes remain slim separated and gripping the original branch, claws fully exposed; no swollen mittens or added digits. Preserve ENTIRE juvenile unchanged, all adult bodies/faces/size/eyes/plumage and exact typography/background/layout unchanged. Same1536x1024. This is a fine feather texture correction, never geometric scales."
+  ],
+  "review_initial": {
+    "actual_view": "full image and enlarged1320x310 adulttoe crop",
+    "result": "NEEDS_CORRECTION",
+    "issue": "First edit texture still reads crosshatched scales rather than visible feather barbs. Preserve initial generated file remotely; second edit required."
+  },
+  "initial_image": {
     "bytes": 2599443,
     "sha256": "c4788c49e38108077f2931fcf689a45f1be4dd5ff2a80a382aeba30372ecc463",
     "size": [
@@ -40,11 +65,7 @@
     ],
     "gitblob": "71fa01eeee5b54a158aabf7eab8393b4ef4f318b",
     "path": "owl-pet/production/generated/06-asio-otus-v5.png",
-    "local": "/workspace/scratch/180c531d917a/owl-2138/06-asio-otus-v5.png"
-  },
-  "timings": {
-    "generation_start": "2026-11-24T21:43:34.043Z",
-    "generation_wait_ms": 90583,
-    "edit_count": 1
+    "local": "/workspace/scratch/180c531d917a/owl-2138/06-asio-otus-v5.png",
+    "commit_sha": "2f2d4683ddb5625e5298e4913a5e2e63b70c99e4"
   }
 }

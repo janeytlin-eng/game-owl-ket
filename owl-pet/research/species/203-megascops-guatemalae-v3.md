@@ -1,50 +1,14 @@
 # 203-megascops-guatemalae-v3
-{
-  "batch_id": "20261124T1535Z",
-  "cycle": 1,
-  "id": "203-megascops-guatemalae-v3",
-  "result": "STARTED",
-  "started_at": "2026-11-24T15:31:58.038Z",
-  "stages": {
-    "STARTED": "2026-11-24T15:31:58.038Z",
-    "RESEARCH_READY": "2026-11-24T15:32:51.552Z"
-  },
-  "notes": [
-    "Fresh main48c2a6e1 no effective unfinished batch/lease. #25 already remotely archived, no repeated generation from unverified localfd9d70d.",
-    "Prior #224 research explicitly identifies ML163283551 as juvenile AUDIO not photo; correct previous1532Z note wording in source index, no phantom photograph used."
-  ],
-  "species": "Megascops guatemalae",
-  "action": "REVISION",
-  "prompt": "Use case precise-object-edit. Target #203 Middle American Screech Owl Megascops guatemalae v2, nominate grey morph. Change ONLY BOTH ADULTS' LOWER CENTRAL BELLY transverse crossbars: fade/reduce the dense broad dark horizontal bars below midbelly into few fine faint interrupted bars, keeping pale cream-grey ground and existing narrow vertical dark shaft streaks. Preserve stronger upper breast vermiculations/crossbars and side marks. Do not make a pure white blank bib. Entire young mesoptile remains unchanged: faint indistinct down barring, compact down-dominated wings, dark eye/green bill unverified. Preserve adult yellow irises/greenish bill/cere/ear tufts and spottedruff, near-equal sizes, all six footgrips/mossybranch/forest/title/rolelabels/uncertaintyfooter1536x1024. No new age/sex-size/flight/nest claims.",
-  "issue": "Actual v2 full view: lower adult central bellies retain strong repeated horizontal crossbars; guide says fewer or no such bars on lower areas. Reduce bars only, retain shaft streaks.",
-  "sources": [
-    {
-      "id": "MGUA-MIKKOLA-2013-P245",
-      "author": "Heimo Mikkola",
-      "year": 2013,
-      "title": "Owls of the World second edition",
-      "url": "uploaded PDF",
-      "pages": "printed245/PDF247",
-      "stage": "adult grey morph/nominate",
-      "actual_read": "Fresh full uploaded page text; lower-area crossbars reduced/absent relative upperbreast; shaftstreaks persist.",
-      "limits": "Secondary guide, no individual exact pattern map or sex ratio."
-    },
-    {
-      "id": "MGUA-PEREZMARTINEZ-2021",
-      "author": "Christian Alessandro Perez-Martinez",
-      "year": 2021,
-      "date": "2021-08-17",
-      "url": "https://alephrocco.com/2021/08/17/vermiculated-screech-owl/",
-      "type": "primary observer field account",
-      "stage": "tentatively young vermiculatus Costa Rica",
-      "actual_read": "Fresh original body paragraphs2–5: observer tentative youth, yellowiris, different population. Not a nominate young phenotype source.",
-      "limits": "No images actually inspected, no cross-subspecies juvenile transfer."
-    }
-  ],
-  "unknowns": [
-    "young preciseage/iris/billdevelopment/firstflight",
-    "adult sex-size measurements",
-    "exact lowerbar density"
-  ]
-}
-Old Otus guatemalae mapped same; nominate Mexico/Guatemala/Honduras scope. Facts vs design: qualitative reduced lower crossbars from guide; exact fading strength artistic inference. Young anatomy unchanged, no guessed white hatchling, no nest.
+
+Batch20261124T0232Z cycle2/6; revisionunique+0;science=false, oldversionspreserved.
+
+## Actualsourcefacts anddesignlimits
+MGUA-MIKKOLA-2013-P245 reused: uploadedprinted245/PDF247 actuallyread; nominateregionalboundaryretained. Adultlowerunderparts fewer/no crossbars thanupperbreast; dark shaftsallowed. No sexualsizedata, equaldisplayconservative. Mesoptile indistinctlybarred, exactage/iris/flightunknown.
+MGUA-OWLPAGES-2020 reused: DeaneLewis2020-10-24 https://www.owlpages.com/owls/species.php?s=1070 actualDescription/Habits/Breeding/Habitatread aftertargetedsearch; agrees upperbreastvermiculationsdiminishbelow, greenbill/yelloweye/featheredtarsi. Secondaryoverlapwithbook, notindependentdevelopmentdata.
+New MGUA-CECON-TAXONOMY-20261124: CentrodeEstudiosConservacionistas,UniversidadSanCarlosGuatemala; undatedcurrentinstitutionalcatentry https://biodiversidad.gt/portal/taxa/index.php?clid=0&taxauthid=1&tid=4154 taxon/institutionalsectionread2026-11-24. CurrentM.guatemalae oldOtus/Scops; broadcommonnamevermiculated retainedashistoricalambiguity,noageorbodyevidence. High nomenclature, notmorphology.
+Actualv2fullimageopened: densehorizontaladultbellycrossbars nearlyequalupperbreasttolowbelly. ReduceLOWERbellycrossbars only, retainslongitudinalshafts/upperpattern. Youngdowntexture genericconcept, notnewverifiedchronology; nostagedflight/nestclaims. WronginitialOwlPages730landedSundascops, excluded; correct1070actuallyread.
+
+## Fullimagegenprompt
+~~~text
+Use case: precise-object-edit. Edit #203 Middle American Screech Owl Megascops guatemalae v2 trio. Preserve every title/footer/label and all three birds, species identity, near-equal adults, yellow adult eyes and green bills, tarsal feathers/long bare toes, shoulder row, adult wing and tail bars, forest and six feet on branches. Target BOTH ADULTS' LOWER BELLY pattern only: below the middle breast make cross-bars and brown vermiculations much fewer and faint, while KEEPING irregular thin blackish shaft streaks on pale grey-buff feather ground. Upper breast retains stronger dark pattern; gradual natural change, no stark white patch or uniform stripes. Do not erase all belly shaft streaks or change juvenile plumage/wing/tail/colour/pose. No nest, eggs, prey or extras. Concept correction pending precise pattern/colour calibration; no new juvenile biology.
+~~~

@@ -6288,3 +6288,14 @@ Sources {"new":0,"reused":3,"corrected":1}; [facts/limits](species/229-athene-ma
 ## 20261124T0432Z cycle6 223-strix-butleri-v2
 Reused SBUT-KASRAVI-2019-DB-PL233 (AliKasravi10May2019KanganBushehrIran,DutchBirding41(3)2019p193plate233/textp198): originalPDFfreshdownload10,330,959bytes sha2563f392a5607c51dfce4e4e92bbed749acc57a0211c95a0594ad93e0f0737bbaf8; actualcaption/textread, primaryjuvenilecropactuallyviewed. Documentedindividualhaspalegrey-whitedown withdistinctdarkgreyshortcrown/foreheadmarks/darkeye-surround, longFORMEDfoldedsidewingvisible; no uniformdownball. Existingv1youngcrownfinegreyfleck/weakdarkpatches, and no scientificstatusfooter. Local crowncontrastrefinement + source/statusannotation. SBUT-ROBB-2016-REDISCOVERY originalMethods/Bareparts reread (DOI10.1186/s40657-016-0043-4); currentbutleri=omanensis, separatehadorami, adultfeatheredtoes; nosexratio. SBUT-SOUNDAPPROACH-OMANI freshread earlierthisrun givesrockwadis andnamingcaution, notjuvenileplumage. New0/reuse3/correct1. Uploaded pre-splitMikkolabroadbutleri account excludedforcurrentjuvenile. DoNOTchange230toefeatherbasedunresolvedphoto: hypothesisrejectedafteractualadult/youngreferenceview, noimagegenerationfor230.
 Sources {"new":0,"reused":3,"corrected":1}; [facts/limits](species/223-strix-butleri-v2.md) · [full prompt](prompts/223-strix-butleri-v2.txt) · [review](reviews/223-strix-butleri-v2-review.md). Sciencefalse.
+
+
+## 20261124T0432Z supplementary gap research (not extra cycles)
+### XLOW-SALTER-AOS-2019 — newly indexed institutional research account
+- Title: Unraveling the Mystery of the Long-whiskered Owlet. Jessie Salter / American Ornithological Society, 2019-12-13.
+- URL: https://americanornithology.org/unraveling-the-mystery-of-the-long-whiskered-owlet/ ; accessed2026-11-24; body/caption lines86–104 actuallyread.
+- Taxon/topic/stage: Xenoglaux loweryi; museum specimens, taxonomy, evidence limits; life stage unspecified, not validated juvenile.
+- Useful facts: museum photo/collection history and phylogenetic context; the page does not describe a young plumage or age. Descriptive fluff wording must not be used as hatchling evidence.
+- Limits/confidence: institutional author account, high contextual confidence; not developmental primary data or sex measurements. Do not copy third-party whole paper/photo.
+- Decision/mapping: defer fictional young; [gap record](gaps/20261124T0432Z-missing-species.md). No image or species increment; no extra cycle.
+Existing BCSO-DANTAS-2021 / NOCH-KURODA-1954-P166 / NOCH-MADIKA-2011-P98 reread for scope boundaries, not new source documents. Uploaded guide page locators in gap record refer to one book. Production subcycles: newOSOC-PONS-2013-MORPHOLOGY1, reused15 source-ID references (=11 documents/pagesites after book-page dedup); gap account adds1 newly indexed contextual webpage, not a second new biological juvenile source.

@@ -4,14 +4,15 @@
   "id": "210-athene-superciliaris-v3",
   "species": "Athene superciliaris",
   "action": "REVISION",
-  "result": "STARTED",
+  "result": "VERIFIED",
   "started_at": "2026-11-24T15:57:23.920Z",
   "stages": {
     "STARTED": "2026-11-24T15:57:23.920Z",
     "RESEARCH_READY": "2026-11-24T15:58:28.776Z",
     "IMAGE_GENERATED": "2026-11-24T16:00:03.368Z",
     "REVIEWED": "2026-11-24T16:00:10.916Z",
-    "ARCHIVED": "2026-11-24T16:00:19.019Z"
+    "ARCHIVED": "2026-11-24T16:00:19.019Z",
+    "VERIFIED": "2026-11-24T16:00:31.690Z"
   },
   "heartbeats": [
     {
@@ -73,5 +74,15 @@
     "gitblob": "57d2423c17c0353a1a3b189456c3b03493b31b76"
   },
   "imagegen_wait_ms": 38458,
-  "review": "实际查看1536×1024最终原图，三行页脚可读：CONCEPT·SCIENTIFIC CALIBRATION PENDING、OLDER JUVENILE: SECONDARY DESCRIPTION ONLY、JUVENILE AGE/IRIS/BILL/FLIGHT UNVERIFIED；无截断或覆盖脚/尾。成鸟白眉、暗褐眼、白腹/上胸横纹、近等大显示、幼鸟较细腹纹/窄白尾尖/闭合翅、各趾爪及干林树枝支撑全图定性复查保留。未证明其余像素完全一致，不声称新增形态校准。该版属于证据边界注释修订，科学仍false，PASS_WITH_LIMITATIONS。"
+  "review": "实际查看1536×1024最终原图，三行页脚可读：CONCEPT·SCIENTIFIC CALIBRATION PENDING、OLDER JUVENILE: SECONDARY DESCRIPTION ONLY、JUVENILE AGE/IRIS/BILL/FLIGHT UNVERIFIED；无截断或覆盖脚/尾。成鸟白眉、暗褐眼、白腹/上胸横纹、近等大显示、幼鸟较细腹纹/窄白尾尖/闭合翅、各趾爪及干林树枝支撑全图定性复查保留。未证明其余像素完全一致，不声称新增形态校准。该版属于证据边界注释修订，科学仍false，PASS_WITH_LIMITATIONS。",
+  "archive_commit": "3f37e75b3c73f2c4aae9c7ae71f7da0a167f3484",
+  "remote_verification": {
+    "bytes": 2693098,
+    "sha256": "246ff290e45583b076121c9536fcf94a8242531594eb859be3c032a4de51c91f",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "ended_at": "2026-11-24T16:00:31.690Z"
 }

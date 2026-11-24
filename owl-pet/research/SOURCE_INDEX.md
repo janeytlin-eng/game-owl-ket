@@ -6713,3 +6713,7 @@ New0/reused2; actual metadata/pages/facts/limits and fullprompt in [species](spe
 
 ## 20261124T1535Z cycle4 208-ninox-affinis-v4
 New0/reused2; actual metadata/pages/facts/limits and fullprompt in [species](species/208-ninox-affinis-v4.md), [review](reviews/208-ninox-affinis-v4-review.md). Actual latestv3 full view: young chest/belly has broad bright rufous long stripes approaching adult contrast. Source says fluffy mesoptile less distinctly streaked; soften young ventral stripes, not erase all markings.
+
+
+## 20261124T1535Z cycle5 206-glaucidium-castanopterum-v4
+New0/reused2; actual metadata/pages/facts/limits and fullprompt in [species](species/206-glaucidium-castanopterum-v4.md), [review](reviews/206-glaucidium-castanopterum-v4-review.md). Latest v3 full plate and enlarged adult-foot crop actually viewed: toe surfaces read as smooth scales; the guide says sparsely bristled. This is a fine-detail readability revision, not proof all v3 microscopic bristles absent. Already corrected seven tail bars and bill/cere must not be redone.

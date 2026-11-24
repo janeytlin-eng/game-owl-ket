@@ -1,0 +1,10 @@
+# #237v1 actual review
+Reviewed 2026-11-24T05:40:32.303Z; full generated image and local young/feet crop actually viewed against PDF15 Fig5D + adult photo. PASS_WITH_LIMITATIONS; scientificfalse/usernotconfirmed.
+- Three full birds/readable correct title/sex/stage/footer; female similar height slightly fuller, no automatic giantfemale.
+- Adult dark brown irises and orbital pinkish skin match photographed adult/boundedguide, grey bills, sweeping pale brows/longtufts; dark brown mottling and shaftstreaks present. Exact hue/individual variation unresolved.
+- Right older immature has developed tufts and long folded formed wing feathers/mottled coverts, rather than invented natal fluff. Eyesclosed, no claimed immature iris. Reference Fig5D handled sideview is older-feathered; its age association remains inference, drawing does not prove it.
+- Quiet crouched resting posture on broadbranch; feet touch/grip branch, no unsupported flight/fall/wingability; no invented nest/cavity/eggs or incubation age.
+- Feathertoe boundary conflict remains, no scientific pass. Toe orientation plausible flexible owl grip, not forced allfront. More precise immature sizes/sex differences/age/flight remain unknown.
+No image edit warranted by actual bounded comparison this cycle. Retain original asv1, no duplicatev2. Concept archival success is not scientific verification.
+## Iteration
+Problem: book juvenileundescribed formerlyblocked, but older-stage primary material nowfound. Evidence: sole subadult survey record plus separate species-only Fig5D; inference age association flagged. Application: older feathered stage, closed eye, no nataldown/nest/flight. Review: formed wings and supports visible; inference stillnotvalidated. Rule: specimen-age text plus adjacentfigure must be crosschecked at individual level, not silently promoted into age-caption fact. Applied to237; no claim rule validated acrossother species. Related missing fuliginosus/mendeni/rotiensis/nigrobrunnea remain pending; no transfer from neighbouring accounts.

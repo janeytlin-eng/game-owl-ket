@@ -1,0 +1,211 @@
+{
+  "batch_id": "20261124T1204Z",
+  "result": "COMPLETE",
+  "this_invocation_completed_cycles": 6,
+  "new_species": 0,
+  "revisions": 6,
+  "source_counts": {
+    "new": 1,
+    "reused_id_references": 14,
+    "design_corrections": 6
+  },
+  "counts": {
+    "numbered_versions": 1016,
+    "raw_taxon_stems": 209,
+    "unique_taxa": 206,
+    "aliases": {
+      "glaucidium-brasilianum-cactorum": "glaucidium-brasilianum",
+      "tyto-javanica-delicatula": "tyto-javanica",
+      "pseudoscops-grammicus": "asio-grammicus"
+    },
+    "manifest_entries": 970
+  },
+  "timing_definitions": {
+    "research_wall_proxy_s": "STARTED to RESEARCH_READY, includes setup/recovery/source access/persistence preparation, not pure research CPU",
+    "imagegen_wait_ms": "client observed imagegen tool wall wait, cycle6 sum of2 calls, not server compute telemetry",
+    "generated_to_review_wall_s": "IMAGE_GENERATED persistence timestamp to final REVIEWED, includes transfers/viewing/interim persistence/edit2 for6, not pure edit time",
+    "archive_to_verified_wall_s": "ARCHIVED timestamp to VERIFIED timestamp includes archive persistence and actual raw GET/decode",
+    "platform_timeout_telemetry": "none; no fixed runtime claim"
+  },
+  "cycles": [
+    {
+      "cycle": 1,
+      "id": "197-otus-megalotis-v6",
+      "started": "2026-11-24T12:04:06.767Z",
+      "RESEARCH_READY": "2026-11-24T12:07:37.964Z",
+      "IMAGE_GENERATED": "2026-11-24T12:08:55.144Z",
+      "REVIEWED": "2026-11-24T12:09:41.513Z",
+      "ARCHIVED": "2026-11-24T12:09:49.517Z",
+      "VERIFIED": "2026-11-24T12:10:05.591Z",
+      "verification_commit": "db5269f41d14a819651ceda99ba0a4d546d8a472",
+      "archive_commit": "c07009f20f62d4cf86325d65dc53fab89a0794d9",
+      "ledger_commit": "dc4b7f8c43033bac9dab38340bf019d1377864f6",
+      "meta": {
+        "bytes": 2546265,
+        "sha256": "1359ec9ecab398ed6c41660441c14f38ff97f812ae34abbaec4841716a09d743",
+        "gitblob": "583e674aabb55c3c1c21a283f3b379b5fbe4ea41",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "raw": "https://raw.githubusercontent.com/janeytlin-eng/game-owl-ket/c07009f20f62d4cf86325d65dc53fab89a0794d9/owl-pet/design/concepts/197-otus-megalotis-v6.png",
+      "research_wall_proxy_s": 211.197,
+      "imagegen_wait_ms": 37822,
+      "generated_to_review_wall_s": 46.369,
+      "archive_to_verified_wall_s": 16.074,
+      "total_cycle_to_verified_s": 358.824
+    },
+    {
+      "cycle": 2,
+      "id": "188-otus-semitorques-v5",
+      "started": "2026-11-24T12:12:07.431Z",
+      "RESEARCH_READY": "2026-11-24T12:13:18.337Z",
+      "IMAGE_GENERATED": "2026-11-24T12:14:24.640Z",
+      "REVIEWED": "2026-11-24T12:14:45.783Z",
+      "ARCHIVED": "2026-11-24T12:14:55.892Z",
+      "VERIFIED": "2026-11-24T12:15:14.768Z",
+      "verification_commit": "6ce695bdc90f83d316bbff13e7764d3e494a91b4",
+      "archive_commit": "43b059c131182dcee7ad7454cc9b20d7ff846158",
+      "ledger_commit": "287a522e8827a2c53d606ba4c17fca2b39323f79",
+      "meta": {
+        "bytes": 2712301,
+        "sha256": "e0cbcc0d19a36009789edb21292ba3de9b39dd383234e03f51f3b5afebc6ddb0",
+        "gitblob": "f1879fc29be044a9e209715aa69d962484d7281a",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "raw": "https://raw.githubusercontent.com/janeytlin-eng/game-owl-ket/43b059c131182dcee7ad7454cc9b20d7ff846158/owl-pet/design/concepts/188-otus-semitorques-v5.png",
+      "research_wall_proxy_s": 70.906,
+      "imagegen_wait_ms": 40420,
+      "generated_to_review_wall_s": 21.143,
+      "archive_to_verified_wall_s": 18.876,
+      "total_cycle_to_verified_s": 187.337
+    },
+    {
+      "cycle": 3,
+      "id": "237-otus-everetti-v2",
+      "started": "2026-11-24T12:15:35.828Z",
+      "RESEARCH_READY": "2026-11-24T12:16:27.432Z",
+      "IMAGE_GENERATED": "2026-11-24T12:18:36.770Z",
+      "REVIEWED": "2026-11-24T12:19:00.670Z",
+      "ARCHIVED": "2026-11-24T12:19:08.823Z",
+      "VERIFIED": "2026-11-24T12:19:23.077Z",
+      "verification_commit": "d64b0b66db037baf9469c65c67aa9e397758cee9",
+      "archive_commit": "fada41a9a5f2da7cf2300713cd3b3b0d0a5153cd",
+      "ledger_commit": "9c4021599f363e5749f17f313d054586fb50eb52",
+      "meta": {
+        "bytes": 2611026,
+        "sha256": "e857c207a97995815dc559e920c6d544ae75c42330b472c60423d1c748c51569",
+        "gitblob": "7ed412a365a3d2fa1de3375757c70466d7c993b3",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "raw": "https://raw.githubusercontent.com/janeytlin-eng/game-owl-ket/fada41a9a5f2da7cf2300713cd3b3b0d0a5153cd/owl-pet/design/concepts/237-otus-everetti-v2.png",
+      "research_wall_proxy_s": 51.604,
+      "imagegen_wait_ms": 102382,
+      "generated_to_review_wall_s": 23.9,
+      "archive_to_verified_wall_s": 14.254,
+      "total_cycle_to_verified_s": 227.249
+    },
+    {
+      "cycle": 4,
+      "id": "218-otus-nigrorum-v3",
+      "started": "2026-11-24T12:19:59.065Z",
+      "RESEARCH_READY": "2026-11-24T12:20:45.643Z",
+      "IMAGE_GENERATED": "2026-11-24T12:21:53.253Z",
+      "REVIEWED": "2026-11-24T12:22:19.531Z",
+      "ARCHIVED": "2026-11-24T12:22:28.619Z",
+      "VERIFIED": "2026-11-24T12:22:42.626Z",
+      "verification_commit": "f28a0ed5f6e7790c39225ff8ca5523f5a7eaced5",
+      "archive_commit": "d48a31b75fe92986122c11ca371f7482f248d533",
+      "ledger_commit": "7b73cdaa08c6adc0d0027a2831c9a4bc2da89865",
+      "meta": {
+        "bytes": 2499519,
+        "sha256": "e19a741c01f60d1af7d318e4ccf0a629c136b0d828e2f78ba15b873c910d6bac",
+        "gitblob": "fc555ecc3dfddcf085db5a8dc754a62f9f038624",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "raw": "https://raw.githubusercontent.com/janeytlin-eng/game-owl-ket/d48a31b75fe92986122c11ca371f7482f248d533/owl-pet/design/concepts/218-otus-nigrorum-v3.png",
+      "research_wall_proxy_s": 46.578,
+      "imagegen_wait_ms": 38098,
+      "generated_to_review_wall_s": 26.278,
+      "archive_to_verified_wall_s": 14.007,
+      "total_cycle_to_verified_s": 163.561
+    },
+    {
+      "cycle": 5,
+      "id": "201-otus-mantananensis-v6",
+      "started": "2026-11-24T12:23:15.393Z",
+      "RESEARCH_READY": "2026-11-24T12:25:26.877Z",
+      "IMAGE_GENERATED": "2026-11-24T12:26:45.423Z",
+      "REVIEWED": "2026-11-24T12:27:08.422Z",
+      "ARCHIVED": "2026-11-24T12:27:17.593Z",
+      "VERIFIED": "2026-11-24T12:27:31.463Z",
+      "verification_commit": "404ec7ea8be9a25a8931f1650679de716f6be567",
+      "archive_commit": "591d1bd905c382ddabefd8faf5e046ce3b50550a",
+      "ledger_commit": "82bd12268fa3d8887e1c1185a8786dd430f4482d",
+      "meta": {
+        "bytes": 2624811,
+        "sha256": "be344fda33ee9efc1e291115c34f2fd38ef5be060294c0bdaeef046efb5dca1a",
+        "gitblob": "6657fdbfd7dbf82be8bc772cc0626045e95e867f",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "raw": "https://raw.githubusercontent.com/janeytlin-eng/game-owl-ket/591d1bd905c382ddabefd8faf5e046ce3b50550a/owl-pet/design/concepts/201-otus-mantananensis-v6.png",
+      "research_wall_proxy_s": 131.484,
+      "imagegen_wait_ms": 43650,
+      "generated_to_review_wall_s": 22.999,
+      "archive_to_verified_wall_s": 13.87,
+      "total_cycle_to_verified_s": 256.07
+    },
+    {
+      "cycle": 6,
+      "id": "195-otus-brookii-v5",
+      "started": "2026-11-24T12:28:04.711Z",
+      "RESEARCH_READY": "2026-11-24T12:29:12.017Z",
+      "IMAGE_GENERATED": "2026-11-24T12:30:35.014Z",
+      "REVIEWED": "2026-11-24T12:32:41.522Z",
+      "ARCHIVED": "2026-11-24T12:32:50.020Z",
+      "VERIFIED": "2026-11-24T12:33:03.600Z",
+      "verification_commit": "3be31a5ad7a7fb02f3718643b741535c29406452",
+      "archive_commit": "c2f57b205b565d9bb19e2c0229b040e039f9493d",
+      "ledger_commit": "4b34e43844821b40b7f19dfc50019e866c16647a",
+      "meta": {
+        "bytes": 2586501,
+        "sha256": "0ef3f87383edbbb2c17e40ab7286bfb35161b89024de4af504b22bf839d3bfa3",
+        "gitblob": "09d6f6bc5dd473f5ea6a874d3bdd8a9152474239",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "raw": "https://raw.githubusercontent.com/janeytlin-eng/game-owl-ket/c2f57b205b565d9bb19e2c0229b040e039f9493d/owl-pet/design/concepts/195-otus-brookii-v5.png",
+      "research_wall_proxy_s": 67.306,
+      "imagegen_wait_ms": 82550,
+      "generated_to_review_wall_s": 126.508,
+      "archive_to_verified_wall_s": 13.58,
+      "total_cycle_to_verified_s": 298.889
+    }
+  ],
+  "draft195": {
+    "bytes": 2652017,
+    "sha256": "0ee1f33de487c10369a10b1aaaac75eef2950cf30d2d19c7a62a949d93e2304e",
+    "gitblob": "38d5a128b8194f10dd4167f7849c388447b47863",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "other_effective_unfinished_batches": 0,
+  "next_cycle": "next new batch1/6"
+}

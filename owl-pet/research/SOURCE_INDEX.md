@@ -6519,3 +6519,9 @@ Prior**HOS-BREWSTER-1888-P136** retainedhistoricaladultbasisnotfreshreadthiscycl
 V3actuallyviewed: yelloweyedadults butdarkyoungirides, warmbrownflufffullbody/feetexposedinlargehollowlabelnear-fledging. Primary2025photoallowsyellowyoungiris/greyerheadandonlyhead-at-hole, notgenericwholeyongbodymap. ChangeONLYyoungheadandpalmlipgeometry: neargreycrown/finepalestreaks/palebrow/yellowiris/greenishhornbill; raisefrontrottencavityliptohidebodybelowupperchest, youngsitsinsidewithnaturalinternalsupportnotfloating. This avoidsinventingwing/feetvisibility/locomotion whiledirectlymatchingvisibleevidence. Adultsposes/pattern/nape falseeyesandaridscrub/palmcontextpreserved; nofixedsexsize.
 ## Limits/iteration/index
 Exactage/sex/flight/iris-onset/fullwing/tailunknown; near-fledgingtextnotproofofflight. Nestholedepth/cameraangle/lipheightillustrative. New0reused3corrected2(youngirisandunsupportedwholebody exposure). Ruleapplied: sourcephotoabsenceofbodydetailsisreason tooccludebodyinsteadinventgenericplumage; don'ttreat2013undescribedas2025noevidence. Related[v3](162-glaucidium-hoskinsii-v3.md),[v4](../../design/concepts/162-glaucidium-hoskinsii-v4.png),[review](../reviews/162-glaucidium-hoskinsii-v4-review.md).
+
+### #162v4 recovery edit evidence
+
+
+## 2026-11-24 09:30Z same-cycle recovery / actual corrective edit
+Recovered same#162v4 afterexpiredlease; prior RESEARCH_READY preserved. ActuallyreopenedHOS-FLORES-MARRON2025p229Fig1andgeneratedoriginal. Youngcrownstillbrown/adultspotty, oneimagegeneditgreyedcrownandreducedroundspots tofinepalestreaks; actualfulland800sheetrechecked. Yellowiris/whitebrow/palmbodyocclusionpreserved. No newpublication or sourcecount; reuse3refs remains, no duplicatecredit; sciencefalse. Sourcefootnotedevelopmentunknown/actualhiddenbodyremainsinference. Initialoriginalpersistedproduction/artifacts/20261124T0831Z/162-recovered-initial.png. ReviewerdoesnotclaimallBajayoungshareexactcolour; onephoto/calibrationsheet.

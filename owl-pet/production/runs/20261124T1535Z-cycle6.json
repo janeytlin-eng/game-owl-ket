@@ -7,7 +7,48 @@
   "result": "STARTED",
   "started_at": "2026-11-24T15:57:23.920Z",
   "stages": {
-    "STARTED": "2026-11-24T15:57:23.920Z"
+    "STARTED": "2026-11-24T15:57:23.920Z",
+    "RESEARCH_READY": "2026-11-24T15:58:28.776Z"
   },
-  "heartbeats": []
+  "heartbeats": [],
+  "issue": "Latest v2 full plate plus tail/wing closeups actually inspected: young already has narrow whitish tail tips and pale edging on folded wing tips. Do NOT repeat those edits. Fresh original line110 distinguishes tail narrow tips from primary-tip fringe; earlier v2 narrative 'tailtipfringe' imprecise. Image note lists age/iris only, omitting juvenile bill/flight and secondary-only developmental evidence. Revise uncertainty annotation, retain anatomy rather than invent correction.",
+  "sources": [
+    {
+      "id": "ASUP-MIKKOLA-2013-P471",
+      "title": "Owls of the World photographic guide second edition",
+      "author": "Heimo Mikkola",
+      "year": 2013,
+      "url": "uploaded PDF libfile_fde3_f-916e2244186c81918fe5a0716884b8c9_7a934266b8748191824cde4d0af03f29",
+      "pages": "printed471/PDF473 Identification/Juvenile/Habitat",
+      "accessed": "2026-11-24",
+      "stage": "adult; juvenile undescribed",
+      "actual_read": "Fresh complete page; sex size measurements unavailable, feathered tarsi/bare toes, brown adult irides, juvenile undescribed. Near-equal adults is bounded display not measured ratio.",
+      "limits": "Does not support neonatal features or juvenile eye/bill/flight."
+    },
+    {
+      "id": "ASUP-BOUGLOUAN-WEB",
+      "title": "White-browed Hawk-Owl",
+      "author": "Nicole Bouglouan",
+      "year": "undated",
+      "url": "https://www.oiseaux-birds.com/card-white-browed-hawk-owl.html",
+      "sections": "Description/Reproduction line110",
+      "accessed": "2026-11-24",
+      "stage": "older juvenile without exact age",
+      "actual_read": "Fresh body: narrower ventral bars; tail barred brown/white, narrow whitish tips; primaries whitish fringe at tip. Tailtip fringe is imprecise, not source wording.",
+      "limits": "Guide-derived secondary account, not primary dated development series. Legs/tail adult claims conflict Mikkola; not applied. No juvenile age/iris/bill/flight proof."
+    },
+    {
+      "id": "ASUP-MNHN-2010-265",
+      "title": "Holotype Strix superciliaris specimen MNHN-ZO-2010-265",
+      "author": "Muséum national d’Histoire naturelle, Paris",
+      "year": "undated live catalogue; specimen before1818",
+      "url": "https://science.mnhn.fr/institution/mnhn/collection/zo/item/2010-265",
+      "sections": "Specimen/Determination history",
+      "accessed": "2026-11-24",
+      "stage": "indeterminate",
+      "actual_read": "Fresh original record; old Strix/Ninox mapped current Athene superciliaris, specimen sex/age indeterminate; Madagascar provenance.",
+      "limits": "Taxonomy only. No images inspected/reused; not juvenile or sexual phenotype evidence."
+    }
+  ],
+  "prompt": "Precise annotation-only edit of #210 White-browed Owl v2 trio. Keep every bird/anatomy/plumage/eye/bill/pose/scale/feather/wing/tail/feet/perch/woodland/title and role labels visually unchanged. Do NOT edit juvenile tail or primaries: current pale tips already present. Replace current tiny bottom-right 'JUVENILE AGE/IRIS UNVERIFIED' note with a slim clear TWO-LINE lower caption spanning available bottom margin: 'OLDER JUVENILE: SECONDARY DESCRIPTION ONLY' and 'JUVENILE AGE / IRIS / BILL / FLIGHT UNVERIFIED'. Keep 'CONCEPT · SCIENTIFIC CALIBRATION PENDING' readable; rearrange footer into two or three slim lines below role-label boxes if needed, on dark translucent background for contrast, no covering feet or tails. Same1536x1024 photoreal style, no new birds/nest/props or stronger science/sexsize claims."
 }

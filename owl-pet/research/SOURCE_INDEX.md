@@ -6717,3 +6717,7 @@ New0/reused2; actual metadata/pages/facts/limits and fullprompt in [species](spe
 
 ## 20261124T1535Z cycle5 206-glaucidium-castanopterum-v4
 New0/reused2; actual metadata/pages/facts/limits and fullprompt in [species](species/206-glaucidium-castanopterum-v4.md), [review](reviews/206-glaucidium-castanopterum-v4-review.md). Latest v3 full plate and enlarged adult-foot crop actually viewed: toe surfaces read as smooth scales; the guide says sparsely bristled. This is a fine-detail readability revision, not proof all v3 microscopic bristles absent. Already corrected seven tail bars and bill/cere must not be redone.
+
+
+## 20261124T1535Z cycle6 210-athene-superciliaris-v3
+New0/reused3; actual metadata/pages/facts/limits and fullprompt in [species](species/210-athene-superciliaris-v3.md), [review](reviews/210-athene-superciliaris-v3-review.md). Latest v2 full plate plus tail/wing closeups actually inspected: young already has narrow whitish tail tips and pale edging on folded wing tips. Do NOT repeat those edits. Fresh original line110 distinguishes tail narrow tips from primary-tip fringe; earlier v2 narrative 'tailtipfringe' imprecise. Image note lists age/iris only, omitting juvenile bill/flight and secondary-only developmental evidence. Revise uncertainty annotation, retain anatomy rather than invent correction.

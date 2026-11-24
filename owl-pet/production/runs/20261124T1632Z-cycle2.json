@@ -61,5 +61,22 @@
     ],
     "gitblob": "031ced88502cf5a668ee1c1ccc75494ff19de68d"
   },
-  "imagegen_wait_ms": 43713
+  "imagegen_wait_ms": 43713,
+  "edits": [
+    {
+      "attempt": 1,
+      "meta": {
+        "bytes": 2455680,
+        "sha256": "3b789b309d81b8cded21dc749187083f67d07c3d17fe8afe50af1c70cf20968c",
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "031ced88502cf5a668ee1c1ccc75494ff19de68d"
+      },
+      "wait_ms": 43713,
+      "result": "Fullplate and footcrop: proximal claws still largely grey; not yet yellowishbase/darktip. Sideflanks drifted warmer than target though within guide broadrufous range; do not claim non-target pixels unchanged."
+    }
+  ],
+  "correction_prompt": "Precise-object-edit #213 current image. Previous edit left BOTH ADULTS claws predominantly grey. Change ONLY the hard CLAWS (not toes): each claw's basal/proximal 70 percent must visibly be pale YELLOWISH HORN, distal final 30 percent charcoalblack. Sharp clear material transition, natural horn sheen, NOT uniformly grey with white highlight. Keep claw shape/count/curve and perch contact. Preserve every other pixel as closely as possible, particularly juvenile unchanged, yellow toes, all feather colours, legs, labels/footer/rainforest. Do not change flanks again."
 }

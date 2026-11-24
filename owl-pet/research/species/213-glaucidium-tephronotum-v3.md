@@ -9,9 +9,19 @@
   "result": "STARTED",
   "stages": {
     "STARTED": "2026-11-24T17:31:43.269Z",
-    "RESEARCH_READY": "2026-11-24T17:33:00.599Z"
+    "RESEARCH_READY": "2026-11-24T17:33:00.599Z",
+    "IMAGE_GENERATED": "2026-11-24T17:34:49.721Z"
   },
-  "heartbeats": [],
+  "heartbeats": [
+    {
+      "at": "2026-11-24T17:33:12.171Z",
+      "event": "before_imagegen"
+    },
+    {
+      "at": "2026-11-24T17:34:10.151Z",
+      "event": "after_imagegen"
+    }
+  ],
   "errors": [],
   "issue": "Actual highest v2 adult claws uniformly darkgrey; book printed368 says yellowish claws darktipped. Change adult claw bases only; young formed wing/tail documented by prior photo retained.",
   "sources": [
@@ -42,6 +52,32 @@
       "limits": "Single juvenile not known sex/subspecies/exact age; not basis for adult claw edit."
     }
   ],
-  "prompt": "Use case precise-object-edit. Edit #213 Red-chested Owlet current v2 trio. Change ONLY BOTH ADULTS' claw plates: make proximal/basal two-thirds of each exposed claw pale yellowish horn, with distal pointed tips dark charcoal. Preserve shape/count/curves and natural gripping branch. Do not recolour yellow scaled toes or tarsal feathers. Preserve entire right older juvenile unchanged including its provisional claw colour and formed wing/tail; preserve adult eyes/bills/plain crowns/body/plumage/near-equal size, rainforest, every title/geographic note/rolelabel/scientificpendingfooter. No new sexratio/age/flight/nest claim. Same1536x1024."
+  "prompt": "Use case precise-object-edit. Edit #213 Red-chested Owlet current v2 trio. Change ONLY BOTH ADULTS' claw plates: make proximal/basal two-thirds of each exposed claw pale yellowish horn, with distal pointed tips dark charcoal. Preserve shape/count/curves and natural gripping branch. Do not recolour yellow scaled toes or tarsal feathers. Preserve entire right older juvenile unchanged including its provisional claw colour and formed wing/tail; preserve adult eyes/bills/plain crowns/body/plumage/near-equal size, rainforest, every title/geographic note/rolelabel/scientificpendingfooter. No new sexratio/age/flight/nest claim. Same1536x1024.",
+  "meta": {
+    "bytes": 2455680,
+    "sha256": "3b789b309d81b8cded21dc749187083f67d07c3d17fe8afe50af1c70cf20968c",
+    "size": [
+      1536,
+      1024
+    ],
+    "gitblob": "031ced88502cf5a668ee1c1ccc75494ff19de68d"
+  },
+  "imagegen_wait_ms": 43713,
+  "edits": [
+    {
+      "attempt": 1,
+      "meta": {
+        "bytes": 2455680,
+        "sha256": "3b789b309d81b8cded21dc749187083f67d07c3d17fe8afe50af1c70cf20968c",
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "031ced88502cf5a668ee1c1ccc75494ff19de68d"
+      },
+      "wait_ms": 43713,
+      "result": "Fullplate and footcrop: proximal claws still largely grey; not yet yellowishbase/darktip. Sideflanks drifted warmer than target though within guide broadrufous range; do not claim non-target pixels unchanged."
+    }
+  ],
+  "correction_prompt": "Precise-object-edit #213 current image. Previous edit left BOTH ADULTS claws predominantly grey. Change ONLY the hard CLAWS (not toes): each claw's basal/proximal 70 percent must visibly be pale YELLOWISH HORN, distal final 30 percent charcoalblack. Sharp clear material transition, natural horn sheen, NOT uniformly grey with white highlight. Keep claw shape/count/curve and perch contact. Preserve every other pixel as closely as possible, particularly juvenile unchanged, yellow toes, all feather colours, legs, labels/footer/rainforest. Do not change flanks again."
 }
-Facts vs design: scoped character only; exact rendering artistic inference, no biological ratio or stage measurement.

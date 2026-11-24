@@ -6641,3 +6641,8 @@ Reused2 NREY-RASMUSSEN-2012-P17 actual originaladultdiagnosisprinted17/PDF18 and
 ## 20261124T1332Z cycle2 235-otus-pamelae-v2
 New0/reused2 OPAM-SOUNDAPPROACH-2019 actual speciesbody/Omanfieldcaptions reread and OPAM-MIKKOLA-2013-P128 uploaded128/PDF130 reread. Adultfewindistinctventralstreaks; sourcecaptionSomalilandtentative excluded; samebooknonewpublication. Adultstreaksalonecorrected, young/evidenceuncertaintyunchanged.
 [Metadata/URLs/pages/stages/facts/limits/fullprompt](species/235-otus-pamelae-v2.md) · [image](../design/concepts/235-otus-pamelae-v2.png) · [review](reviews/235-otus-pamelae-v2-review.md). Scientificfalse; samebook/papers deduplicated.
+
+
+## 20261124T1332Z cycle3 234-otus-sulaensis-v3
+New0/reused2 SULA-HARTERT-1898 originalprinted126actualexistingfullscanread (BHLthumbfreshredirectfailed), MIKKOLA-2013 uploaded192/PDF194reread. Adultprominentdarkshaftstreaks alongsidebarring, notyoungpattern. Originaladult/youngbareparts stagebound, tarsalfrontfractionconflictpreserved.
+[Metadata/URLs/pages/stages/facts/limits/fullprompt](species/234-otus-sulaensis-v3.md) · [image](../design/concepts/234-otus-sulaensis-v3.png) · [review](reviews/234-otus-sulaensis-v3-review.md). Scientificfalse; samebook/papers deduplicated.

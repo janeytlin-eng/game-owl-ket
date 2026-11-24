@@ -6811,3 +6811,6 @@ New0/reused2 MIKKOLA2013p384/PDF386 and TPO-PUENTE-ETAL-2024-P63-65-F2; youngunk
 
 ## 2026-11-24T20:48:44.988Z 20261124T2040Z-cycle6
 New0/reused1 CIO-EARBIRDING-2015-FLEDGLING actualfieldbody; observedflight is notknownfirst-flightage, retainedformedwings. [Facts/limits/prompt](species/174-strix-sartorii-v6.md).
+
+## 2026-11-24T20:52:19.982Z 20261124T2040Z closure
+Six-cycle reused9references/6documents, new1 CRPO-CNSA-HSI-GUIDE-2026 taxonomy-only; upgraded existingGCAN-FISHPOOL-2023-LEAD→GCAN-FISHPOOL-2023 originalbodyread(notduplicatenewpaper); CRPO-ML-626397501-2024 PARTIALposterread, no identifiablejuvenilephenotype. Fullstablemetadata/pages/limitations/relatedversionlinks [gaprecord](runs/20261124T2040Z-gaps.md), [six reviewed versions](../production/batches/20261124T2040Z-completed-review.md). FailedMNHNfreshaccessnotcounted. Sixsciencefalse, new species0.

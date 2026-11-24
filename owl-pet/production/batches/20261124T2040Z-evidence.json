@@ -1,0 +1,497 @@
+{
+  "batch_id": "20261124T2040Z",
+  "started_at": "2026-11-24T20:33:40.273Z",
+  "completed_at": "2026-11-24T20:52:19.982Z",
+  "unique": 206,
+  "total": 251,
+  "new_species": 0,
+  "annotation_revisions": 6,
+  "imagegen_edits": 7,
+  "source_new": 1,
+  "source_upgraded_existing_lead": 1,
+  "source_partial_recovery": 1,
+  "source_reused_refs": 9,
+  "source_reused_documents": 6,
+  "entries": [
+    {
+      "cycle": 1,
+      "id": "166-bubo-cinerascens-v6",
+      "species": "Bubo cinerascens",
+      "action": "ANNOTATION_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "status": "VERIFIED",
+      "commit_sha": "97a05bb6b92e721e2e911cc96d4c4dbaf2a7616f",
+      "archive_commit": "37b78ec05e2c108f6802fa2c99cb2372aac4781c",
+      "run_record": "owl-pet/production/runs/20261124T2040Z-cycle1.json",
+      "completed_at": "2026-11-24T20:36:53.894Z",
+      "scientifically_verified": false,
+      "bytes": 3126704,
+      "sha256": "7142ab5555fd35f4a12a36301ce731016e06bf7f4185bc1148eba60b72f9f6bf",
+      "blob": "a85ece5f2557709da939e5703fe997a360bd408e",
+      "path": "design/concepts/166-bubo-cinerascens-v6.png",
+      "run": {
+        "batch_id": "20261124T2040Z",
+        "run_id": "20261124T2040Z-cycle1",
+        "cycle": 1,
+        "id": "166-bubo-cinerascens-v6",
+        "species": "Bubo cinerascens",
+        "action": "ANNOTATION_REVISION",
+        "started_at": "2026-11-24T20:33:40.273Z",
+        "stage": "VERIFIED",
+        "status": "VERIFIED",
+        "scientifically_verified": false,
+        "stages": [
+          {
+            "stage": "RESEARCH_READY",
+            "at": "2026-11-24T20:34:13.375Z",
+            "prompt": "Use case: precise-object-edit. In this existing #166 Bubo cinerascens plate change ONLY text. Preserve exactly3 birds, dark brown eyes, grey pale-tipped adult bills and reddish eyelid rims, near-equal adults, fully feathered grey young with formed folded wings, six feet gripping natural roots, and Gambian open savanna. Preserve title and adult role labels. Replace young role with two lines 'FULLY FEATHERED YOUNG' / 'EST.35–43 DAYS · INDIVIDUAL AGE UNKNOWN'. Add small note 'FIRST FLIGHT NOT ESTABLISHED'. Add bottom slim dark unobtrusive footer with cream text 'CONCEPT · SCIENTIFIC CALIBRATION PENDING'. Do not cover feet/labels; no anatomy/posture/colour redesign, no nest or flight, no approval badge.",
+            "research": "owl-pet/research/species/166-bubo-cinerascens-v6.md"
+          },
+          {
+            "stage": "IMAGE_GENERATED",
+            "at": "2026-11-24T20:35:38.876Z",
+            "blob": "a85ece5f2557709da939e5703fe997a360bd408e",
+            "bytes": 3126704,
+            "sha256": "7142ab5555fd35f4a12a36301ce731016e06bf7f4185bc1148eba60b72f9f6bf",
+            "size": [
+              1536,
+              1024
+            ],
+            "edit_wait_seconds": 42.7
+          },
+          {
+            "stage": "REVIEWED",
+            "at": "2026-11-24T20:36:19.710Z",
+            "result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false
+          },
+          {
+            "stage": "ARCHIVED",
+            "at": "2026-11-24T20:36:25.375Z"
+          },
+          {
+            "stage": "VERIFIED",
+            "at": "2026-11-24T20:36:53.894Z",
+            "archive_commit": "37b78ec05e2c108f6802fa2c99cb2372aac4781c",
+            "bytes": 3126704,
+            "sha256": "7142ab5555fd35f4a12a36301ce731016e06bf7f4185bc1148eba60b72f9f6bf",
+            "size": [
+              1536,
+              1024
+            ],
+            "remote_GET_SHA256_decode": true
+          }
+        ],
+        "errors": [],
+        "completed_at": "2026-11-24T20:36:53.894Z",
+        "archive_commit": "37b78ec05e2c108f6802fa2c99cb2372aac4781c"
+      }
+    },
+    {
+      "cycle": 2,
+      "id": "167-ketupa-poensis-v6",
+      "species": "Ketupa poensis",
+      "action": "ANNOTATION_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "status": "VERIFIED",
+      "commit_sha": "bc35c2b41791556cf6f6f53e537469a0e668511e",
+      "archive_commit": "1aff5c45f21d302644bb4bd9d37e3e9ff2245678",
+      "run_record": "owl-pet/production/runs/20261124T2040Z-cycle2.json",
+      "completed_at": "2026-11-24T20:40:36.059Z",
+      "scientifically_verified": false,
+      "bytes": 2668161,
+      "sha256": "3909e4c04ccfb7e363c764072205eaa07878a5616b34c39b6b7c93c3224ce643",
+      "blob": "8456f9f7bf098e2d51139528d253e47191deb0d6",
+      "path": "design/concepts/167-ketupa-poensis-v6.png",
+      "run": {
+        "batch_id": "20261124T2040Z",
+        "run_id": "20261124T2040Z-cycle2",
+        "cycle": 2,
+        "id": "167-ketupa-poensis-v6",
+        "species": "Ketupa poensis",
+        "action": "ANNOTATION_REVISION",
+        "started_at": "2026-11-24T20:37:09.253Z",
+        "stage": "VERIFIED",
+        "status": "VERIFIED",
+        "scientifically_verified": false,
+        "stages": [
+          {
+            "stage": "RESEARCH_READY",
+            "at": "2026-11-24T20:37:16.584Z",
+            "prompt": "Use case precise-object-edit. Edit #167 Ketupa poensis v5 ONLY typography. Preserve exactly3birds/adultmale-left adultfemale-centre young-right, all plumage, dark brown eyes/slateadultbills/palebluegreylidrims, weak juveniletufts/blackishyoungbrows/palebarredmesoptile/formedfoldedwingandtail, nearequaladults, all6feetgrippingbranch and WestAfricanforest. Keep title/rolelabels. Add small note directly under young role 'AGE / IRIS / BILL / FLIGHT UNVERIFIED'. Add slim bottom footer 'CONCEPT · SCIENTIFIC CALIBRATION PENDING'. No anatomy/colour/posture redesign, no newnest/flight/approvalbadge. Juvenile softparts not validated by adult description. No cropping feet/text.",
+            "research": "owl-pet/research/species/167-ketupa-poensis-v6.md"
+          },
+          {
+            "stage": "IMAGE_GENERATED",
+            "at": "2026-11-24T20:38:31.520Z",
+            "blob": "8d3868d3a37026026c2fa9379fe4b399ad828bf1",
+            "bytes": 2784661,
+            "sha256": "b9f28d45d162e80eb61d481fe75eab415264eef58d36100548c848fb6f2b4596",
+            "size": [
+              1536,
+              1024
+            ],
+            "edit_wait_seconds": 39.3
+          },
+          {
+            "stage": "IMAGE_GENERATED",
+            "at": "2026-11-24T20:39:47.488Z",
+            "blob": "8456f9f7bf098e2d51139528d253e47191deb0d6",
+            "bytes": 2668161,
+            "sha256": "3909e4c04ccfb7e363c764072205eaa07878a5616b34c39b6b7c93c3224ce643",
+            "size": [
+              1536,
+              1024
+            ],
+            "edit_wait_seconds": 35.6
+          },
+          {
+            "stage": "REVIEWED",
+            "at": "2026-11-24T20:39:55.754Z",
+            "result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false
+          },
+          {
+            "stage": "ARCHIVED",
+            "at": "2026-11-24T20:40:01.258Z"
+          },
+          {
+            "stage": "VERIFIED",
+            "at": "2026-11-24T20:40:36.059Z",
+            "archive_commit": "1aff5c45f21d302644bb4bd9d37e3e9ff2245678",
+            "bytes": 2668161,
+            "sha256": "3909e4c04ccfb7e363c764072205eaa07878a5616b34c39b6b7c93c3224ce643",
+            "size": [
+              1536,
+              1024
+            ],
+            "remote_GET_SHA256_decode": true
+          }
+        ],
+        "errors": [
+          {
+            "step": "visual_review",
+            "at": "2026-11-24T20:38:39.677Z",
+            "error": "Unexpected v5 text appended to title; remove before final archive. No completed credit."
+          }
+        ],
+        "completed_at": "2026-11-24T20:40:36.059Z",
+        "archive_commit": "1aff5c45f21d302644bb4bd9d37e3e9ff2245678"
+      }
+    },
+    {
+      "cycle": 3,
+      "id": "168-ketupa-leucosticta-v6",
+      "species": "Ketupa leucosticta",
+      "action": "ANNOTATION_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "status": "VERIFIED",
+      "commit_sha": "383b2906c505bc6bc877fd3d06b6e3843eb095f4",
+      "archive_commit": "cf0cb89cafb6c80dd8e01687272c97c258010744",
+      "run_record": "owl-pet/production/runs/20261124T2040Z-cycle3.json",
+      "completed_at": "2026-11-24T20:42:55.711Z",
+      "scientifically_verified": false,
+      "bytes": 2533616,
+      "sha256": "900d4369a711cd79ee9d198156790e6a9eefbc627cdfc3b7bcedfdcf049b871c",
+      "blob": "5a6e3ed644317df52cf81d199c2a045057e2ce32",
+      "path": "design/concepts/168-ketupa-leucosticta-v6.png",
+      "run": {
+        "batch_id": "20261124T2040Z",
+        "run_id": "20261124T2040Z-cycle3",
+        "cycle": 3,
+        "id": "168-ketupa-leucosticta-v6",
+        "species": "Ketupa leucosticta",
+        "action": "ANNOTATION_REVISION",
+        "started_at": "2026-11-24T20:40:49.606Z",
+        "stage": "VERIFIED",
+        "status": "VERIFIED",
+        "scientifically_verified": false,
+        "stages": [
+          {
+            "stage": "RESEARCH_READY",
+            "at": "2026-11-24T20:40:58.620Z",
+            "prompt": "Use case precise-object-edit. Edit #168 Ketupa leucosticta v5 ONLY typography. Preserve all3birds, near-equaladults, greenyellowADULTeyes/bills, white-scapularmarked adultfeathers, right near-white soft rufous-barred age-unknownmesoptile with neutralgreybill and dark eyes, low sidestep with BOTH feet naturally supported on connectedbranches. No adultsoftpart transferred toyoung, no redraw or posechange. Keep exacttitle andall3rolelabels including AGE-UNKNOWN MESOPTILE. Add directly belowyounglabel 'IRIS / BILL / WING CHRONOLOGY UNVERIFIED'. Add narrowbottomcream-on-darkolivefooter 'CONCEPT · SCIENTIFIC CALIBRATION PENDING'. Do notcoverfeet/text, no version suffix, no nest/eggs/flight/age/approvalclaims.",
+            "research": "owl-pet/research/species/168-ketupa-leucosticta-v6.md"
+          },
+          {
+            "stage": "IMAGE_GENERATED",
+            "at": "2026-11-24T20:42:27.377Z",
+            "blob": "5a6e3ed644317df52cf81d199c2a045057e2ce32",
+            "bytes": 2533616,
+            "sha256": "900d4369a711cd79ee9d198156790e6a9eefbc627cdfc3b7bcedfdcf049b871c",
+            "size": [
+              1536,
+              1024
+            ],
+            "edit_wait_seconds": 39.2
+          },
+          {
+            "stage": "REVIEWED",
+            "at": "2026-11-24T20:42:35.793Z",
+            "result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false
+          },
+          {
+            "stage": "ARCHIVED",
+            "at": "2026-11-24T20:42:40.982Z"
+          },
+          {
+            "stage": "VERIFIED",
+            "at": "2026-11-24T20:42:55.711Z",
+            "archive_commit": "cf0cb89cafb6c80dd8e01687272c97c258010744",
+            "bytes": 2533616,
+            "sha256": "900d4369a711cd79ee9d198156790e6a9eefbc627cdfc3b7bcedfdcf049b871c",
+            "size": [
+              1536,
+              1024
+            ],
+            "remote_GET_SHA256_decode": true
+          }
+        ],
+        "errors": [
+          {
+            "step": "external_source_read",
+            "error": "MNHN original page returned Internal Error; not counted fresh read, book plus prior evidence retained",
+            "at": "2026-11-24T20:41:17.225Z"
+          }
+        ],
+        "completed_at": "2026-11-24T20:42:55.711Z",
+        "archive_commit": "cf0cb89cafb6c80dd8e01687272c97c258010744"
+      }
+    },
+    {
+      "cycle": 4,
+      "id": "169-ketupa-shelleyi-v6",
+      "species": "Ketupa shelleyi",
+      "action": "ANNOTATION_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "status": "VERIFIED",
+      "commit_sha": "eb0964d06e752b07610a6d814de9108ee2a551ca",
+      "archive_commit": "c42f67fc3bdf76d3a98deb53635e6a2954b0e145",
+      "run_record": "owl-pet/production/runs/20261124T2040Z-cycle4.json",
+      "completed_at": "2026-11-24T20:46:03.921Z",
+      "scientifically_verified": false,
+      "bytes": 2502528,
+      "sha256": "d2873ece89d0939b3c841e929cb8bec9034af209c2b67e44922e706d4dfe9c58",
+      "blob": "a4b8663a8b4f02ba5b5b4807a40218d3c43a0aa6",
+      "path": "design/concepts/169-ketupa-shelleyi-v6.png",
+      "run": {
+        "batch_id": "20261124T2040Z",
+        "run_id": "20261124T2040Z-cycle4",
+        "cycle": 4,
+        "id": "169-ketupa-shelleyi-v6",
+        "species": "Ketupa shelleyi",
+        "action": "ANNOTATION_REVISION",
+        "started_at": "2026-11-24T20:43:09.803Z",
+        "stage": "VERIFIED",
+        "status": "VERIFIED",
+        "scientifically_verified": false,
+        "stages": [
+          {
+            "stage": "RESEARCH_READY",
+            "at": "2026-11-24T20:43:41.195Z",
+            "prompt": "Use case precise-object-edit. Edit #169 Ketupa shelleyi v5 ONLY typography. Preserve exact3birds male-left mesoptile-centre female-right, ALL feathering/poses/near-equaladultscales, darkbrownADULTeyes/creamhornbills/bushytu fts/darkupperparts/broadventralbars/featheredfeet. Keep CENTRAL verydarkdesaturatedbluegreyiris and existing pale uncalibratedyoungbill, yellowgrey-brownbarredbody/formedfoldedwing and all6footgrips on mossybranch. Preserve title/3rolelabels. Add belowyounglabel 'IRIS: GUIDE ONLY · BILL / AGE / FLIGHT UNVERIFIED'. Add bottom footer 'CONCEPT · SCIENTIFIC CALIBRATION PENDING'. No other redraw, no version suffix, no flight/nest/extraanimal/approvalstamp. Do not substitute Verreaux juvenile for Shelley juvenile.",
+            "research": "owl-pet/research/species/169-ketupa-shelleyi-v6.md"
+          },
+          {
+            "stage": "IMAGE_GENERATED",
+            "at": "2026-11-24T20:44:53.164Z",
+            "blob": "a4b8663a8b4f02ba5b5b4807a40218d3c43a0aa6",
+            "bytes": 2502528,
+            "sha256": "d2873ece89d0939b3c841e929cb8bec9034af209c2b67e44922e706d4dfe9c58",
+            "size": [
+              1536,
+              1024
+            ],
+            "edit_wait_seconds": 39
+          },
+          {
+            "stage": "REVIEWED",
+            "at": "2026-11-24T20:45:29.710Z",
+            "result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false
+          },
+          {
+            "stage": "ARCHIVED",
+            "at": "2026-11-24T20:45:34.704Z"
+          },
+          {
+            "stage": "VERIFIED",
+            "at": "2026-11-24T20:46:03.921Z",
+            "archive_commit": "c42f67fc3bdf76d3a98deb53635e6a2954b0e145",
+            "bytes": 2502528,
+            "sha256": "d2873ece89d0939b3c841e929cb8bec9034af209c2b67e44922e706d4dfe9c58",
+            "size": [
+              1536,
+              1024
+            ],
+            "remote_GET_SHA256_decode": true
+          }
+        ],
+        "errors": [
+          {
+            "step": "IMAGE_GENERATED readback",
+            "at": "2026-11-24T20:45:27.881Z",
+            "error": "Immediate head comparison mismatch; fresh main/commit history confirmed own commit1a433fc38ec449c7ec2a0d4ddfb5e148045eabba and matching image blob. No other production owner observed; reused persisted stage."
+          }
+        ],
+        "completed_at": "2026-11-24T20:46:03.921Z",
+        "archive_commit": "c42f67fc3bdf76d3a98deb53635e6a2954b0e145"
+      }
+    },
+    {
+      "cycle": 5,
+      "id": "170-glaucidium-sanchezi-v6",
+      "species": "Glaucidium sanchezi",
+      "action": "ANNOTATION_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "status": "VERIFIED",
+      "commit_sha": "57184e263ad46e823363c8b19ffa7bc36f15526c",
+      "archive_commit": "110f5d40011afd605ac3e7fa9d65ad802d32c802",
+      "run_record": "owl-pet/production/runs/20261124T2040Z-cycle5.json",
+      "completed_at": "2026-11-24T20:48:24.369Z",
+      "scientifically_verified": false,
+      "bytes": 2553617,
+      "sha256": "4a54cb868b2635769cefb52b355335404a33310c68b536e12a55b655e6460269",
+      "blob": "d6d011f14b9ee589a45e635dcaa0d92cf8fab44d",
+      "path": "design/concepts/170-glaucidium-sanchezi-v6.png",
+      "run": {
+        "batch_id": "20261124T2040Z",
+        "run_id": "20261124T2040Z-cycle5",
+        "cycle": 5,
+        "id": "170-glaucidium-sanchezi-v6",
+        "species": "Glaucidium sanchezi",
+        "action": "ANNOTATION_REVISION",
+        "started_at": "2026-11-24T20:46:15.699Z",
+        "stage": "VERIFIED",
+        "status": "VERIFIED",
+        "scientifically_verified": false,
+        "stages": [
+          {
+            "stage": "RESEARCH_READY",
+            "at": "2026-11-24T20:46:23.886Z",
+            "prompt": "Use case precise-object-edit. Edit #170 Glaucidium sanchezi v5 ONLY text. Preserve exactthreebirds/adultmaleleft/femalecentre/immatureright, olive-brownmale/redderfemale adultplumage/yellowADULTeyes/hornyellowbills, youngplainunspottedgreycrown/mutedgreycere/neutraldarkiris/compactfoldedwing/hiddentail. Keep near-equaladultscale, sixnaturalfootgrips andhumidMexicancloudforest. Preservetitle/3rolelabels. Add belowyounglabel 'AGE / IRIS / FLIGHT UNVERIFIED'. Add slimdarkolivefooterwithcreamtext 'CONCEPT · SCIENTIFIC CALIBRATION PENDING'. No redraw/colour/posechange, no versiontext/nest/eggs/flight/approvalicon. Do not turn adultwinglengthdifference into standingheightratio.",
+            "research": "owl-pet/research/species/170-glaucidium-sanchezi-v6.md"
+          },
+          {
+            "stage": "IMAGE_GENERATED",
+            "at": "2026-11-24T20:47:31.984Z",
+            "blob": "d6d011f14b9ee589a45e635dcaa0d92cf8fab44d",
+            "bytes": 2553617,
+            "sha256": "4a54cb868b2635769cefb52b355335404a33310c68b536e12a55b655e6460269",
+            "size": [
+              1536,
+              1024
+            ],
+            "edit_wait_seconds": 35.4
+          },
+          {
+            "stage": "REVIEWED",
+            "at": "2026-11-24T20:47:41.215Z",
+            "result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false
+          },
+          {
+            "stage": "ARCHIVED",
+            "at": "2026-11-24T20:47:48.455Z"
+          },
+          {
+            "stage": "VERIFIED",
+            "at": "2026-11-24T20:48:24.369Z",
+            "archive_commit": "110f5d40011afd605ac3e7fa9d65ad802d32c802",
+            "bytes": 2553617,
+            "sha256": "4a54cb868b2635769cefb52b355335404a33310c68b536e12a55b655e6460269",
+            "size": [
+              1536,
+              1024
+            ],
+            "remote_GET_SHA256_decode": true
+          }
+        ],
+        "errors": [],
+        "completed_at": "2026-11-24T20:48:24.369Z",
+        "archive_commit": "110f5d40011afd605ac3e7fa9d65ad802d32c802"
+      }
+    },
+    {
+      "cycle": 6,
+      "id": "174-strix-sartorii-v6",
+      "species": "Strix sartorii",
+      "action": "ANNOTATION_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "status": "VERIFIED",
+      "commit_sha": "77da64728a0f5b113181f0d1585b2a54f27ce352",
+      "archive_commit": "eba578502fffb3619d0fe14941772e7d0090927c",
+      "run_record": "owl-pet/production/runs/20261124T2040Z-cycle6.json",
+      "completed_at": "2026-11-24T20:50:48.422Z",
+      "scientifically_verified": false,
+      "bytes": 2455154,
+      "sha256": "ec161a4f0e845b872aa20d897b8b53a04cacc8a06ad0f8e7296eb3dfdb754371",
+      "blob": "91863dd889bd4dabf038f8518bb2b72952315f47",
+      "path": "design/concepts/174-strix-sartorii-v6.png",
+      "run": {
+        "batch_id": "20261124T2040Z",
+        "run_id": "20261124T2040Z-cycle6",
+        "cycle": 6,
+        "id": "174-strix-sartorii-v6",
+        "species": "Strix sartorii",
+        "action": "ANNOTATION_REVISION",
+        "started_at": "2026-11-24T20:48:37.254Z",
+        "stage": "VERIFIED",
+        "status": "VERIFIED",
+        "scientifically_verified": false,
+        "stages": [
+          {
+            "stage": "RESEARCH_READY",
+            "at": "2026-11-24T20:48:44.988Z",
+            "prompt": "Use case precise-object-edit. Edit #174 Strix sartorii v5 ONLY typography. Preserve exacttitleand3labels, all3birds adultsleft/right fledglingcentre, plainpalediscs/darkADULTeyes/palebills/coldsepiaadultbellystreaks/upperbreastbars/featheredtoes/near-equaladultheight. Preserve central fledgling's formedfoldedwings/shortbarredtail/currentplumage/pose andeveryfootcontact. Fieldsource observedflight: do NOT replace formedwings withnatalwingbuds. Add directlyundercentrelabel 'EXACT AGE / IRIS SEQUENCE / FIRST-FLIGHT AGE UNVERIFIED'. Add slim bottomdarkolivefooterwithcreamtext 'CONCEPT · SCIENTIFIC CALIBRATION PENDING'. No morphology/pose/colourredesign, no extraanimal/nest/egg/prey/airbornepose/versionsuffix/approvalmark. Keep pine-oakMexicanforeststyleandcomposition.",
+            "research": "owl-pet/research/species/174-strix-sartorii-v6.md"
+          },
+          {
+            "stage": "IMAGE_GENERATED",
+            "at": "2026-11-24T20:49:57.149Z",
+            "blob": "91863dd889bd4dabf038f8518bb2b72952315f47",
+            "bytes": 2455154,
+            "sha256": "ec161a4f0e845b872aa20d897b8b53a04cacc8a06ad0f8e7296eb3dfdb754371",
+            "size": [
+              1536,
+              1024
+            ],
+            "edit_wait_seconds": 39.3
+          },
+          {
+            "stage": "REVIEWED",
+            "at": "2026-11-24T20:50:08.044Z",
+            "result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false
+          },
+          {
+            "stage": "ARCHIVED",
+            "at": "2026-11-24T20:50:15.776Z"
+          },
+          {
+            "stage": "VERIFIED",
+            "at": "2026-11-24T20:50:48.422Z",
+            "archive_commit": "eba578502fffb3619d0fe14941772e7d0090927c",
+            "bytes": 2455154,
+            "sha256": "ec161a4f0e845b872aa20d897b8b53a04cacc8a06ad0f8e7296eb3dfdb754371",
+            "size": [
+              1536,
+              1024
+            ],
+            "remote_GET_SHA256_decode": true
+          }
+        ],
+        "errors": [],
+        "completed_at": "2026-11-24T20:50:48.422Z",
+        "archive_commit": "eba578502fffb3619d0fe14941772e7d0090927c"
+      }
+    }
+  ]
+}

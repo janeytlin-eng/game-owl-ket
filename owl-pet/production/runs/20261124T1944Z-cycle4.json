@@ -3,8 +3,8 @@
   "cycle": 4,
   "run_id": "20261124T1944Z-cycle4",
   "started_at": "2026-11-24T19:52:15.413Z",
-  "status": "STARTED",
-  "stage": "ARCHIVED",
+  "status": "VERIFIED",
+  "stage": "VERIFIED",
   "id": "160-tyto-inexspectata-v5",
   "species": "Tyto inexspectata",
   "action": "REVISION",
@@ -45,7 +45,21 @@
       "at": "2026-11-24T19:54:12.567Z",
       "blob": "77b7f516b00faae54bd3989d1600bd153879c993",
       "path": "owl-pet/design/concepts/160-tyto-inexspectata-v5.png"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-24T19:54:27.280Z",
+      "pinned_original": "https://raw.githubusercontent.com/janeytlin-eng/game-owl-ket/12406e4a21cfc9b4f7a142315c47eb69b0b7fd09/owl-pet/design/concepts/160-tyto-inexspectata-v5.png",
+      "bytes": 2923330,
+      "sha256": "09d90f78c0ced2076713ea7e73668a01beae79e684f250b40ceafc7a24ad4d61",
+      "size": [
+        1536,
+        1024
+      ],
+      "decoded": true
     }
   ],
-  "errors": []
+  "errors": [],
+  "completed_at": "2026-11-24T19:54:27.280Z",
+  "archive_commit": "12406e4a21cfc9b4f7a142315c47eb69b0b7fd09"
 }

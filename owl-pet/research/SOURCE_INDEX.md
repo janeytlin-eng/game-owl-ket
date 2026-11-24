@@ -6808,3 +6808,6 @@ New0/reused2 sharedMIKKOLA2013p288/PDF290 and SHEO-TOBIAS-WILLIAMS-2022-P73-79, 
 
 ## 2026-11-24T20:46:23.886Z 20261124T2040Z-cycle5
 New0/reused2 MIKKOLA2013p384/PDF386 and TPO-PUENTE-ETAL-2024-P63-65-F2; youngunknownannotationonly, no sexheightconversion. [Facts/limits/prompt](species/170-glaucidium-sanchezi-v6.md).
+
+## 2026-11-24T20:48:44.988Z 20261124T2040Z-cycle6
+New0/reused1 CIO-EARBIRDING-2015-FLEDGLING actualfieldbody; observedflight is notknownfirst-flightage, retainedformedwings. [Facts/limits/prompt](species/174-strix-sartorii-v6.md).

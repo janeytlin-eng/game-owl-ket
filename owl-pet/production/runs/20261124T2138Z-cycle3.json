@@ -4,14 +4,15 @@
   "id": "07-asio-flammeus-v5",
   "species": "Asio flammeus",
   "action": "MORPHOLOGY_REVISION",
-  "result": "ARCHIVED",
+  "result": "VERIFIED",
   "started_at": "2026-11-24T21:48:37.654Z",
   "stages": {
     "STARTED": "2026-11-24T21:48:37.654Z",
     "RESEARCH_READY": "2026-11-24T21:49:18.828Z",
     "IMAGE_GENERATED": "2026-11-24T21:50:28.810Z",
     "REVIEWED": "2026-11-24T21:50:53.357Z",
-    "ARCHIVED": "2026-11-24T21:50:53.357Z"
+    "ARCHIVED": "2026-11-24T21:50:53.357Z",
+    "VERIFIED": "2026-11-24T21:51:07.513Z"
   },
   "sources_new": [
     "SEO-OWLPAGES-3590"
@@ -53,5 +54,17 @@
     "limits": "Juvenile exact age/iris conflict/firstflight and toe density remain uncalibrated. No scientific acceptance.",
     "edits": 1
   },
-  "scientifically_verified": false
+  "scientifically_verified": false,
+  "completed_at": "2026-11-24T21:51:07.513Z",
+  "archive_commit": "ccd378ff4bdf4b21c4e9089969b7e81084938307",
+  "verification": {
+    "result": "PASS",
+    "remote_original_GET": true,
+    "bytes": 2557043,
+    "sha256": "d9e6107a70d96addffd7e7b9b52fb65ca3fb5e6d118445bbbf78f038389af28a",
+    "decoded_size": [
+      1536,
+      1024
+    ]
+  }
 }

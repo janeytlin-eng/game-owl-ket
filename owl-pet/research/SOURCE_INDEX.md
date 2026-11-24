@@ -6616,3 +6616,8 @@ New0/reused2: JPSO-NOHARA-HONDA-2025-P75-78 original p76/Fig2–3 actually rerea
 ## 20261124T1204Z cycle3 237-otus-everetti-v2
 New0/reused3: LLSO-MIRANDA-2011-P446-450 shared DOI10.1676/10-185.1 actual printed450/PDF12 adult comparative diagnosis reread now applied specifically O.everetti (not new publication); OEV-VANGIERSBERGEN-2025-PAVA374266 current caption/body and actualphoto re-viewed; MIKKOLA-2013 uploaded printed171/PDF173 reread. Adult scapular stripes absent versus megalotis; no immature inference.
 [Full metadata/actual facts/URLs/pages/limits/prompt](species/237-otus-everetti-v2.md), [image](../design/concepts/237-otus-everetti-v2.png), [actual review](reviews/237-otus-everetti-v2-review.md). No science pass or duplicate publication credit.
+
+
+## 20261124T1204Z cycle4 218-otus-nigrorum-v3
+New0/reused3 ONIG-RAND-1950-P3-4 original5page scan external reopened (no OCR body), actual existingp4scan re-viewed; ONIG-MIKKOLA-2013-P173 uploaded173/PDF175 reread; LLSO-MIRANDA-2011-P446-450 adult-only diagnosis reread this invocation. Actual218adult shoulders already lack large pale stripes (backcheck no correction/credit for that), but immature crown adultlike scalloping contradicts fine blackish transverse bars. Correctyoungcrown only; no age/flight known.
+[Full metadata/actual facts/URLs/pages/limits/prompt](species/218-otus-nigrorum-v3.md), [image](../design/concepts/218-otus-nigrorum-v3.png), [actual review](reviews/218-otus-nigrorum-v3-review.md). No science pass or duplicate publication credit.

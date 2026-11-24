@@ -6,8 +6,8 @@
   "species": "Ketupa poensis",
   "action": "ANNOTATION_REVISION",
   "started_at": "2026-11-24T20:37:09.253Z",
-  "stage": "ARCHIVED",
-  "status": "STARTED",
+  "stage": "VERIFIED",
+  "status": "VERIFIED",
   "scientifically_verified": false,
   "stages": [
     {
@@ -49,6 +49,18 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-24T20:40:01.258Z"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-24T20:40:36.059Z",
+      "archive_commit": "1aff5c45f21d302644bb4bd9d37e3e9ff2245678",
+      "bytes": 2668161,
+      "sha256": "3909e4c04ccfb7e363c764072205eaa07878a5616b34c39b6b7c93c3224ce643",
+      "size": [
+        1536,
+        1024
+      ],
+      "remote_GET_SHA256_decode": true
     }
   ],
   "errors": [
@@ -57,5 +69,7 @@
       "at": "2026-11-24T20:38:39.677Z",
       "error": "Unexpected v5 text appended to title; remove before final archive. No completed credit."
     }
-  ]
+  ],
+  "completed_at": "2026-11-24T20:40:36.059Z",
+  "archive_commit": "1aff5c45f21d302644bb4bd9d37e3e9ff2245678"
 }

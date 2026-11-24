@@ -1,0 +1,9 @@
+# #177 v7 actual review
+REVIEWED 2026-11-24T11:38:18.670Z. Builtin edit1; full image displayed and separate adult-face crop actually opened. Prior v6 and field adult photograph actually viewed.
+
+- Adult cheek-wide bright beard is visibly shorter/darker/reduced; stiff feathering remains concentrated near bill base, not removed or converted to neat ruff. Some pale lower-face shafts remain. Qualitative visual goal achieved; exact bristle dimensions/colour unresolved, not photometric validation.
+- Yellow iris and yellow/grey-blue tipped bills retained; tiny tufts, white scapular patches, mottled largely unbarred wings and patterned belly preserved. Near-equal adult height, no measured female-taller claim.
+- Young still fine-barred/down-rich with compact folded developing wing and short concealed tail; non-flying stance supported by both feet/abdomen. Young exact age/iris/bill not verified and footer retains warning; no hatchling invention.
+- Three birds, forest support continuity and all role labels/pending-calibration footer intact. No extra nest/eggs/flight. Current scene is a concept, not reconstruction of a known nest.
+
+PASS_WITH_LIMITATIONS; scientifically_verified=false; no user confirmation. Oldv1–v6 unchanged. Local lesson: anatomically local bristles must not become whole-face radial beard. Correction was applied and actually visually rechecked on this plate only. Cross-check related prior #177v5 plain-faced version explains earlier overcorrection; do not globally erase owl facial bristles. Remaining science: exact face/tarsus feather map, juvenile bare parts/age, quantitative sex display.

@@ -3,8 +3,8 @@
   "cycle": 2,
   "run_id": "20261125T0332Z-cycle2",
   "started_at": "2026-11-25T03:38:00.608Z",
-  "status": "IN_PROGRESS",
-  "stage": "ARCHIVED",
+  "status": "VERIFIED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -40,6 +40,21 @@
         "owl-pet/research/species/110-megascops-barbarus-v6.md",
         "owl-pet/research/reviews/110-megascops-barbarus-v6-review.md"
       ]
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-25T03:48:00.044Z",
+      "evidence": [
+        "7baae453221187a3d0f4d14c41da80fddda0a415",
+        "owl-pet/design/concepts/110-megascops-barbarus-v6.png"
+      ],
+      "verification": {
+        "at": "2026-11-25T03:48:00.044Z",
+        "remote_original_bytes": 2794062,
+        "sha256": "3c8f7a2b6fefcf2847fb7edec4b2a4786fda00d965c3adbcae399b9391be7641",
+        "PNG_decode": "PASS",
+        "research_index_prompt_readback": "PASS"
+      }
     }
   ],
   "notes": "Incremental research/audit; noimage/cyclecredityet",
@@ -60,5 +75,15 @@
   "concept": "owl-pet/design/concepts/110-megascops-barbarus-v6.png",
   "review_record": "owl-pet/research/reviews/110-megascops-barbarus-v6-review.md",
   "bytes": 2794062,
-  "sha256": "3c8f7a2b6fefcf2847fb7edec4b2a4786fda00d965c3adbcae399b9391be7641"
+  "sha256": "3c8f7a2b6fefcf2847fb7edec4b2a4786fda00d965c3adbcae399b9391be7641",
+  "ended_at": "2026-11-25T03:48:00.044Z",
+  "archive_commit": "7baae453221187a3d0f4d14c41da80fddda0a415",
+  "verification": {
+    "at": "2026-11-25T03:48:00.044Z",
+    "remote_original_bytes": 2794062,
+    "sha256": "3c8f7a2b6fefcf2847fb7edec4b2a4786fda00d965c3adbcae399b9391be7641",
+    "PNG_decode": "PASS",
+    "research_index_prompt_readback": "PASS"
+  },
+  "scientifically_verified": false
 }

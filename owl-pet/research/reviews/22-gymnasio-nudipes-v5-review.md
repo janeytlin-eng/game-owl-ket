@@ -1,0 +1,4 @@
+# 22-gymnasio-nudipes-v5
+PASS_WITH_LIMITATIONS. Actually viewed v4full/v5full. Alertfemalehorn-likepointsreduced to tinyraisedfeathercorners, roundmaleunchanged. Adultreddishbrownirides/whiteXbrows/greenishbill/barelegs/grips, slightfemaleverticalposturedifference retained, notsexmassratio. Exactly3birds/exactlabels, young AGEUNKNOWN, darkeyes/fluffywinglessdown/cavitylipbellyandfeet support unchanged. No adultremiges/newtail/flight. No other issue observed. Guideyelloweye/notuftconflict explicitly not imported. No sourcequantifies tuftangle/extent; artisticshorteningonly, youngdevelopmentunknown andsciencefalse. Rule do not generalizeallalarmtufts intolargehorns applied/visuallyverified22only.
+
+[Research and prompt](../species/22-gymnasio-nudipes-v5.md)

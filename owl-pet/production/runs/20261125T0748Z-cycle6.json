@@ -4,7 +4,7 @@
   "run_id": "20261125T0748Z-cycle6",
   "started_at": "2026-11-25T08:55:01.215Z",
   "status": "IN_PROGRESS",
-  "stage": "IMAGE_GENERATED",
+  "stage": "ARCHIVED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -18,6 +18,21 @@
       "at": "2026-11-25T08:57:46.599Z",
       "evidence": [
         "owl-pet/production/generated/92-ninox-japonica-v6-original.png"
+      ]
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-25T08:58:11.503Z",
+      "result": "PASS_WITH_LIMITATIONS",
+      "evidence": [
+        "owl-pet/research/reviews/92-ninox-japonica-v6-review.md"
+      ]
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-25T08:58:11.503Z",
+      "evidence": [
+        "owl-pet/design/concepts/92-ninox-japonica-v6.png"
       ]
     }
   ],
@@ -37,5 +52,8 @@
   "git_blob_sha": "f5679c363e759848ea70c5bf0830af3994d02b82",
   "original_blob": "f5679c363e759848ea70c5bf0830af3994d02b82",
   "original": "owl-pet/production/generated/92-ninox-japonica-v6-original.png",
-  "generation_wait_seconds": 38.922
+  "generation_wait_seconds": 38.922,
+  "concept": "owl-pet/design/concepts/92-ninox-japonica-v6.png",
+  "review_record": "owl-pet/research/reviews/92-ninox-japonica-v6-review.md",
+  "scientifically_verified": false
 }

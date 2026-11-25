@@ -2,13 +2,17 @@
   "batch_id": "20261124T2333Z",
   "cycle": 4,
   "run_id": "20261125T0130Z-cycle4",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "status": "STARTED",
   "started_at": "2026-11-25T01:32:49.654Z",
   "stages": [
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-25T01:37:22.352Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-25T01:39:07.544Z"
     }
   ],
   "selection": "Audit current full images and evidence before choosing actual correction; no image regeneration merely for count.",
@@ -54,5 +58,8 @@
     "#45fulladulttoesalreadyfeathered",
     "#47distaltwophalangesbareperguide",
     "#48fullimagealreadydensetoefeathers"
-  ]
+  ],
+  "imagegen_wait_ms": 45455,
+  "imagegen_calls": 1,
+  "image_blob": "9914e28e0f810baeced0c330d4459f4db2d80231"
 }

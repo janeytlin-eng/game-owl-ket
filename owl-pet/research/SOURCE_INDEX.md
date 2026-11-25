@@ -7398,3 +7398,8 @@ ReusedPRO-BIRDSCARIB-2021 actualMay14speciesbody at https://www.birdscaribbean.o
 ## 2026-11-26 20-megascops-clarkii-v6
 ReusedBSOW-ASTORGA-2018-P85-89 original UF mirror https://ufdcimages.uflib.ufl.edu/UF/00/09/88/01/00041/07-2018.pdf actualprinted86–88/PDF88–90: platformmainlymoss/fewdryleaves; youngmostlydown/incompleteprimaries, noageorflightproof. ReuseduploadedMikkola2013printed217/PDF219; textlowerthirdbare/captionmorethanhalf internalconflict retained, nolegedit. Sourcesnew0/reused2/nestapplicationcorrection1; scopeCostaRica2017singleobservednest, notuniversalnestrecipe.
 [facts/prompt](species/20-megascops-clarkii-v6.md),[review](reviews/20-megascops-clarkii-v6-review.md),[version](../design/concepts/20-megascops-clarkii-v6.png).
+
+
+## 2026-11-26 18-megascops-kennicottii-v5
+ReusedWESO-USFS-GEHLBACH-STOLESON-2010-P512-518 freshPDF https://www.fs.usda.gov/rm/pubs_other/rmrs_2010_gehlbach_f001.pdf pp511–512/photos29.1–29.2 adultdarkbill/paleworntip, regionalmassnotheight. Wholechapterpp511–523, narrowerpriorlocatorretained. ReuseduploadedMikkola2013printed204/PDF206 actualread. New0/reused2/billinterpretationcorrection1; juvenilecolour/age/flightunknown, nophenotypetransfer.
+[facts/prompt](species/18-megascops-kennicottii-v5.md),[review](reviews/18-megascops-kennicottii-v5-review.md),[version](../design/concepts/18-megascops-kennicottii-v5.png).

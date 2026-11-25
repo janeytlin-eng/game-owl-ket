@@ -4,11 +4,15 @@
   "run_id": "20261125T1240Z-cycle1",
   "started_at": "2026-11-25T12:37:53.172Z",
   "status": "STARTED",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-25T12:39:51.619Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-25T12:41:26.141Z"
     }
   ],
   "id": "68-tyto-tenebricosa-v6",
@@ -22,5 +26,17 @@
       "step": "primary retrieval",
       "error": "Old Hyem URL web internal error and direct HTTP404; resolved fresh search to ABSA2021/10 full PDF, actually read printed21–22."
     }
-  ]
+  ],
+  "bytes": 3294365,
+  "sha256": "12cc136a6a85dca6923b14652c27b620d586ca6e27c640c4fab7bf57a61c8a85",
+  "gitblob": "742bc7c3387ab62c30fb489b0e23a19306731673",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "local_path": "/workspace/scratch/180c531d917a/owl-1231/68-tyto-tenebricosa-v6.png",
+  "generation_wait_seconds": 35.317,
+  "image_transfer_seconds": 30.09,
+  "original_blob": "742bc7c3387ab62c30fb489b0e23a19306731673",
+  "original": "owl-pet/production/generated/68-tyto-tenebricosa-v6-original.png"
 }

@@ -54106,8 +54106,23 @@
       "status": "PARTIAL",
       "target_cycles": 6,
       "started_at": "2026-11-25T07:47:58.980Z",
-      "completed_cycles": [],
-      "next_cycle": 1,
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "id": "100-strix-huhula-v6",
+          "species": "Strix huhula",
+          "action": "ADULT_CLAW_PALETTE_REVISION",
+          "status": "VERIFIED",
+          "commit_sha": "b205928a8e5b5048441eec1718c0d7b38c910bf7",
+          "archive_commit": "2062cd27f18d1329a02dac4427ac124b34f4a345",
+          "run_record": "owl-pet/production/runs/20261125T0748Z-cycle1.json",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "completed_at": "2026-11-25T08:35:34.137Z",
+          "scientifically_verified": false
+        }
+      ],
+      "next_cycle": 2,
       "last_run_record": "owl-pet/production/runs/20261125T0748Z-cycle1.json",
       "last_stage": "RESEARCH_READY",
       "last_outcome": "PARTIAL_OUTPUT_DISPLAY_LIMIT"
@@ -54115,9 +54130,9 @@
   ],
   "lease": {
     "owner": "20261125T0832Z-production",
-    "run_id": "20261125T0748Z-cycle1",
-    "heartbeat_at": "2026-11-25T08:34:45.957Z",
-    "expires_at": "2026-11-25T08:49:47.222Z"
+    "run_id": "20261125T0748Z-cycle2",
+    "heartbeat_at": "2026-11-25T08:35:34.137Z",
+    "expires_at": "2026-11-25T08:50:40.754Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",

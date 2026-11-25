@@ -7,7 +7,7 @@
   "action": "REVISION",
   "started_at": "2026-11-25T15:36:56.512Z",
   "status": "STARTED",
-  "stage": "IMAGE_GENERATED",
+  "stage": "ARCHIVED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -19,6 +19,14 @@
       "evidence": [
         "owl-pet/production/generated/56-bubo-virginianus-v3-original.png"
       ]
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-25T15:40:23.878Z"
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-25T15:40:23.878Z"
     }
   ],
   "scientifically_verified": false,
@@ -34,5 +42,7 @@
   "local_path": "/workspace/scratch/180c531d917a/owl-1526/56-bubo-virginianus-v3.png",
   "original_blob": "46da0549b81b78955f958280cf2f61c6338ea91f",
   "original": "owl-pet/production/generated/56-bubo-virginianus-v3-original.png",
-  "generation_wait_seconds": 50.195
+  "generation_wait_seconds": 50.195,
+  "concept": "owl-pet/design/concepts/56-bubo-virginianus-v3.png",
+  "review_record": "owl-pet/research/reviews/56-bubo-virginianus-v3-review.md"
 }

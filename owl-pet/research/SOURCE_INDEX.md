@@ -7119,3 +7119,7 @@ New0/reused3: ABSA2020p1/Mikkola452/PDF454 fresh; Bullock2026abstractfresh, body
 ## 20261125T1144Z-cycle3 72-ninox-boobook-v6
 New0/reused4: ABSA2p/guide455/PDF457 andMuseum bodyfresh; VICp86priorrecordonly, freshPDFtooLarge. Adultgrey/pinkgrey andyoungpalepinkgreyfeet, downywhiteyounglowerbody vs tawnyupperbreast. Powderblueyoungirisretained despiteoldguidehazelconflict. No scientificpass.
 [Research/full prompt](species/72-ninox-boobook-v6.md). Sciencefalse.
+
+## 20261125T1144Z-cycle4 73-ninox-rufa-v7
+New0/reused3: guide448/PDF450; primaryRiddell2021p221–228 actualPDFrefresh; Bouglouanadultaccount fresh secondary. Adultfinehead/lightbrown andventralcreambars, notspots/broadwhitebands. Existingv6toeextent/youngstagepreserved, noirisresolution/scientificpass.
+[Research/full prompt](species/73-ninox-rufa-v7.md). Sciencefalse.

@@ -6,8 +6,8 @@
   "species": "Bubo nipalensis",
   "action": "REVISION",
   "started_at": "2026-11-25T15:27:05.599Z",
-  "status": "STARTED",
-  "stage": "ARCHIVED",
+  "status": "VERIFIED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -27,6 +27,10 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-25T15:31:46.906Z"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-25T15:32:13.632Z"
     }
   ],
   "scientifically_verified": false,
@@ -44,5 +48,16 @@
   "original": "owl-pet/production/generated/57-bubo-nipalensis-v7-original.png",
   "generation_wait_seconds": 128.723,
   "concept": "owl-pet/design/concepts/57-bubo-nipalensis-v7.png",
-  "review_record": "owl-pet/research/reviews/57-bubo-nipalensis-v7-review.md"
+  "review_record": "owl-pet/research/reviews/57-bubo-nipalensis-v7-review.md",
+  "archive_commit": "798a65e258586e82fdf4fca9a8c219ec1ca69747",
+  "verification": {
+    "bytes": 2493474,
+    "sha256": "9c86d7e8c59656d9107e4364d18d4831a693bdb6d5a301d84b82fb0cf1c794ef",
+    "fullPNGdecode": "PASS",
+    "dimensions": [
+      1536,
+      1024
+    ]
+  },
+  "ended_at": "2026-11-25T15:32:13.632Z"
 }

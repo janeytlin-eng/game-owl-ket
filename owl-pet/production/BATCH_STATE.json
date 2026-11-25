@@ -54359,16 +54359,27 @@
           "unique_species_increment": 0,
           "revision_increment": 1,
           "scientifically_verified": false
+        },
+        {
+          "cycle": 2,
+          "id": "71-ninox-connivens-v6",
+          "species": "Ninox connivens",
+          "commit_sha": "ef5682eb7bc410de582a12f34d96cd9d86a28f94",
+          "archive_commit": "5399324bd122db51e71f60f5233c734d706a572a",
+          "run_record": "owl-pet/production/runs/20261125T1144Z-cycle2.json",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 2
+      "next_cycle": 3
     }
   ],
   "lease": {
     "owner": "20261125T1136Z-recovery",
-    "run_id": "20261125T1144Z-cycle2",
-    "heartbeat_at": "2026-11-25T11:51:52.502Z",
-    "expires_at": "2026-11-25T12:06:53.719Z"
+    "run_id": "20261125T1144Z-cycle3",
+    "heartbeat_at": "2026-11-25T11:52:37.432Z",
+    "expires_at": "2026-11-25T12:07:43.175Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",

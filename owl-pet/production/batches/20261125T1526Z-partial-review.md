@@ -23,6 +23,9 @@ SOURCE_INDEX.md新增2文档：GHO-IOC-AGECHART-2017（InternationalOwlCenter三
 全sciencefalse；新增用户确认0。归档覆盖仍206/251（当前下限口径；全251权威名录对齐未完成），剩45，版本不作物种。其他PARTIAL0；本批余第4–6轮保留。未修改任何其他任务/调度；连接错误视为暂时故障，不自动停用生产。
 
 ## 阶段计时
-每run保留STARTED/RESEARCH_READY/IMAGE_GENERATED/REVIEWED/ARCHIVED/VERIFIED事件。纯研究/纯编辑CPU工时未测即未知，事件间隔含检索与等待，不能当纯工时。Builtin等待#57记录于run；#58记录于run；#56约50.2s；#55约49.6s。首图编辑超过120s正常返回，不是平台超时。第4轮经REST 7e1fc31c62aaeab0da0155ac17aba4bc22612d56补存实际REVIEWED（main），不能把孤立ARCHIVED算成功。错误发生时仍保留租约，后续账本释放需另行回读。归档helper已增加update_ref.isError检查及main分支SHA回读；此修复已应用于重试，但因ReadTimeout未取得成功归档验证，不声称已验证有效。
+每run保留STARTED/RESEARCH_READY/IMAGE_GENERATED/REVIEWED/ARCHIVED/VERIFIED事件。纯研究/纯编辑CPU工时未测即未知，事件间隔含检索与等待，不能当纯工时。Builtin等待#57记录于run；#58记录于run；#56约50.2s；#55约49.6s。首图编辑超过120s正常返回，不是平台超时。第4轮经REST 7e1fc31c62aaeab0da0155ac17aba4bc22612d56补存实际REVIEWED（main），不能把孤立ARCHIVED算成功。错误发生时仍保留租约，账本释放随后失败，见最终回读。归档helper已增加update_ref.isError检查及main分支SHA回读；此修复已应用于重试，但因ReadTimeout未取得成功归档验证，不声称已验证有效。
 
 结束时间 2026-11-25T15:52:22.229Z（北京时间 2026-11-25 23:52）。中止原因是实际GitHub写入工具错误，并非已确认的固定平台时长限制。第5–6轮未开始。
+
+## 最终回读及租约释放错误
+main回读f9418ae771f19f675be22ba19d6dca2608521b88；第4轮run已为PARTIAL/REVIEWED，manifest1076条且不含55-v6。SOURCE_INDEX新ID两项均回读存在。尝试REST update_file更新完整BATCH_STATE以释放自有lease返回MCP -32603，**未声称释放成功**；main账本仍3/6,next_cycle4，已有15分钟租约expires_at=2026-11-25T15:58:49.779Z。下次按到期时间及最新提交核查，不将此孤立短租永久视为运行中。

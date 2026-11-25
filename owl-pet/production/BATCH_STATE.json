@@ -54345,7 +54345,7 @@
     },
     {
       "batch_id": "20261125T1144Z",
-      "status": "PARTIAL",
+      "status": "COMPLETED",
       "target_cycles": 6,
       "started_at": "2026-11-25T11:41:54.935Z",
       "completed_cycles": [
@@ -54403,9 +54403,20 @@
           "unique_species_increment": 0,
           "revision_increment": 1,
           "scientifically_verified": false
+        },
+        {
+          "cycle": 6,
+          "id": "74-ninox-novaeseelandiae-v7",
+          "species": "Ninox novaeseelandiae",
+          "commit_sha": "2548b99f6839af94e2f3982338995385d96cd060",
+          "archive_commit": "3fd97ef57035cf1459886e02902d4933c27515ae",
+          "run_record": "owl-pet/production/runs/20261125T1144Z-cycle6.json",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 6,
+      "next_cycle": null,
       "last_invocation": {
         "id": "20261125T1136Z",
         "completed_this_invocation": 6,
@@ -54414,15 +54425,11 @@
         "next_cycle": 6,
         "summary": "owl-pet/production/batches/20261125T1144Z-resume-20261125T1136Z-review.md",
         "ended_at": "2026-11-25T12:11:17.401Z"
-      }
+      },
+      "completed_at": "2026-11-25T12:37:42.254Z"
     }
   ],
-  "lease": {
-    "owner": "20261125T1231Z",
-    "run_id": "20261125T1144Z-cycle6",
-    "heartbeat_at": "2026-11-25T12:36:19.306Z",
-    "expires_at": "2026-11-25T12:51:19.306Z"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",

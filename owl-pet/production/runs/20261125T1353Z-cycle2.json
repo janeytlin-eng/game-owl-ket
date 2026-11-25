@@ -4,11 +4,18 @@
   "run_id": "20261125T1353Z-cycle2",
   "started_at": "2026-11-25T14:35:23.308Z",
   "status": "STARTED",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-25T14:36:11.916Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-25T14:38:40.315Z",
+      "evidence": [
+        "owl-pet/production/generated/61-ketupa-ketupu-v6-original.png"
+      ]
     }
   ],
   "id": "61-ketupa-ketupu-v6",
@@ -16,5 +23,16 @@
   "action": "REVISION",
   "scientifically_verified": false,
   "research_record": "owl-pet/research/species/61-ketupa-ketupu-v6.md",
-  "prompt": "Precise object edit of this #61 Buffy Fish Owl plate. Change ONLY lower belly/lower flanks and thigh feather pattern of BOTH ADULTS: make the long black streaks gradually finer, shorter and much sparser toward the lower belly; outer low flanks and thigh feathers should be warm buff and essentially unstreaked. Keep strong dark shaft streaks on upper chest/neck. Preserve all other features, exactly three birds, title and ALL existing labels, adult yellow eyes/black bills/outwardtufts, bare scaly yellowgrey tarsi/toes/darkclaws/branchgrips, near-equal displayed size; no new sexratio. Central small early downy resting nestling EXACTLY unchanged, tucked downcoveredwings/no tail/fern humus support, exactage unknown. Same living birdsnestfern, wetlandforestwater lighting and naturalhistory style. Do not apply adult pattern to juvenile, no flight/newfeathers/no extra text."
+  "prompt": "Precise object edit of this #61 Buffy Fish Owl plate. Change ONLY lower belly/lower flanks and thigh feather pattern of BOTH ADULTS: make the long black streaks gradually finer, shorter and much sparser toward the lower belly; outer low flanks and thigh feathers should be warm buff and essentially unstreaked. Keep strong dark shaft streaks on upper chest/neck. Preserve all other features, exactly three birds, title and ALL existing labels, adult yellow eyes/black bills/outwardtufts, bare scaly yellowgrey tarsi/toes/darkclaws/branchgrips, near-equal displayed size; no new sexratio. Central small early downy resting nestling EXACTLY unchanged, tucked downcoveredwings/no tail/fern humus support, exactage unknown. Same living birdsnestfern, wetlandforestwater lighting and naturalhistory style. Do not apply adult pattern to juvenile, no flight/newfeathers/no extra text.",
+  "bytes": 2836928,
+  "sha256": "823afb5a4f5983ad497af49803a6cf5ff9aed9895bf7163701fac1dbda59831e",
+  "gitblob": "7ac5152c406667179cca9fd91aa821a5cb78e004",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "local_path": "/workspace/scratch/180c531d917a/owl-1432/61-ketupa-ketupu-v6.png",
+  "original_blob": "7ac5152c406667179cca9fd91aa821a5cb78e004",
+  "original": "owl-pet/production/generated/61-ketupa-ketupu-v6-original.png",
+  "generation_wait_seconds": 94.083
 }

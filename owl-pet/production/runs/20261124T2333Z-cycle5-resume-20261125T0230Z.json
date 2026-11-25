@@ -4,12 +4,17 @@
   "run_id": "20261125T0230Z-cycle5",
   "started_at": "2026-11-25T02:31:18.820Z",
   "status": "IN_PROGRESS",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-25T02:37:28.271Z",
       "evidence": "owl-pet/research/species/73-ninox-rufa-v6.md"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-25T02:39:50.145Z",
+      "evidence": "owl-pet/production/generated/73-ninox-rufa-v6-original.png"
     }
   ],
   "previous_run": "owl-pet/production/runs/20261124T2333Z-cycle5-20261125T0130Z.json",
@@ -33,5 +38,17 @@
       "step": "reference photo download",
       "error": "205 byte HTML captcha; no image read"
     }
-  ]
+  ],
+  "image": {
+    "path": "owl-pet/design/concepts/73-ninox-rufa-v6.png",
+    "blob_sha": "c04fcf43f71be0d50ad55c2d514387680fbb5fcc",
+    "bytes": 2652026,
+    "sha256": "4df3d187c85fabef31fa856b2e88f68711a4509cc54ed21cb55212e8d3282326",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "mode": "RGB"
+  },
+  "generation_wait_seconds": 97.6
 }

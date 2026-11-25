@@ -1,3 +1,6 @@
+##2026-11-25 recovery: thisinvocation1cycle, priorbatch6/6
+Recovered#201v8 frompersistedIMAGE_GENERATED, no regeneration. Actualfull/cropreview, originalbytes/hash/fullPNGdecode andindexreadbackPASS; new0/revision1,206/251unchanged,sciencefalse. Cross-invocation5+1notcurrent6. [Sixoriginals/actualcommits/recovery](production/batches/20261125T0532Z-completed-review.md). OtherPARTIAL0; nextnewbatch1. Whole251unfinished; otherautomationsunchanged.
+
 ##2026-11-25 12:25接续：本次3轮，原批次累计6/6
 新增0种/修订#95v6故障重建及幼鸟阶段、#139v6成鸟腹纹、#140v7成鸟腹斑。206/251不变、剩45；六原图再次GET/字节/SHA256/完整PNG解码通过，全六sciencefalse，用户确认新增0。新来源0/复用4独立文档（6生产引用）/3范围校准；#138仅研究无出图不计数。其他未完批次0，lease释放，下一新批次1/6；跨次补齐，非本次六轮。[按编号原图、来源、实查、计时、错误和真实SHA](production/batches/20261125T0332Z-completed-review.md)。全任务尚未完成，未改其他任务或调度。
 

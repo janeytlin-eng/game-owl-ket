@@ -92,3 +92,6 @@ undefined
 
 ## 2026-11-25 #112v5 — validate requested net morphology in output
 Priorv4netpromptdidnotproduce primarysupportedwidecrossbars, fullbeforecrop longshafts. CollarBoesman2019p158 actualread; v5adultbellyonly edit explicitlybroadtransversecomponents, cropvisuallyvalidated. No universalAsionet/sexratio. JuvenileNOTinferredfromguide'sspeculativeAsiootuscomparison; retainedpriorphoto-derivedageunknownstage. Sourceaswritten and source-to-output checking are separategates. Onecaseappliednotglobalvalidation. [Review](../research/reviews/112-asio-abyssinicus-v5-review.md).
+
+## 2026-11-25 #110v6 — separate adult toe hue from juvenile unknowns
+Actualv5 fullview grey adultnakedtoes. Guidep214+freshobserverDescription both pink, adult-only edit andfull/cropview confirm change withsupportretained. Do not tintjuveniletoes byadultaccount, or turn+9gmass intoheight. Audit found several apparentissues alreadyvalid (#104featheredfeet,#103latefluff,#120youngremiges); rejected fixes. Recovered#93Ubaidpaper correcttitle/URL/fullPDFandFigure2, notjuvenileageproof. Onecaseapplied; not allMegascopscalibrated.

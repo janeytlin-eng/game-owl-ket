@@ -54508,16 +54508,21 @@
       "batch_id": "20261125T1353Z",
       "status": "PARTIAL",
       "target_cycles": 6,
-      "completed_cycles": [],
-      "next_cycle": 1
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Ketupa sumatrana",
+          "commit_sha": "0609f0a4aae7c6da75b4e2848abd066a25055c5a",
+          "run_record": "owl-pet/production/runs/20261125T1353Z-cycle1.json",
+          "archive_commit": "060d67a26b461970b7b8e532098292d005d05d8d",
+          "unique_species_increment": 0,
+          "revision_increment": 1
+        }
+      ],
+      "next_cycle": 2
     }
   ],
-  "lease": {
-    "owner": "20261125T1432Z",
-    "run_id": "20261125T1353Z-cycle1",
-    "heartbeat_at": "2026-11-25T14:33:46.244Z",
-    "expires_at": "2026-11-25T14:48:46.244Z"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",

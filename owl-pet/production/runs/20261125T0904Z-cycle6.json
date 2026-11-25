@@ -4,11 +4,18 @@
   "run_id": "20261125T0904Z-cycle6",
   "started_at": "2026-11-25T09:24:17.136Z",
   "status": "IN_PROGRESS",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-25T09:25:30.163Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-25T09:27:05.492Z",
+      "evidence": [
+        "owl-pet/production/generated/81-otus-scops-v6-original.png"
+      ]
     }
   ],
   "id": "81-otus-scops-v6",
@@ -17,5 +24,16 @@
   "scientifically_verified": false,
   "research_record": "owl-pet/research/species/81-otus-scops-v6.md",
   "prompt": "Precise-object-edit #81 Otus scops v5 supplied. Change ONLY BOTH ADULTS exposed TOE SKIN colour to muted neutral grey (natural dusk warmhighlights allowed) and adultCLAWS to greyish-brown horn bases with darker distal tips, replacing pinkbeigetoes/uniformblackclaws. Do not change toe/claw length/count/position/grip/scales or tarsalfeathers. Leave centerrecentfledglingfeet and balancedstep (onefootplanted,onejustlifting) exactlyunchanged. Everyotherdetail retained:3birds/yelloweyes/greybills/smalltufts/barkgrey-brownadultpattern/whiteblacktippedscapulars/near-equaladultheight/modestfemalefullness; juvenile residualdown/compactfreshsoftwing/shorttail. SameAleppopineMediterraneandusk/oldtwig-nestbackground/branches/1536x1024. ExacttitleEURASIAN SCOPS OWL / Otus scops, ADULT MALE / RECENT FLEDGLING / ADULT FEMALE. Noegg/prey/extraanimal/age/flightclaim.",
-  "source_summary": "New SCOPS-OWLPAGES-2020-510 actualDescription DeaneLewis2020-10-04 https://www.owlpages.com/owls/species.php?s=510 ; reusedMIKKOLA-2013 actual122–123/PDF124–125, SCOPS-BOANO-ETAL-2020 priorprimaryrecord/institutionPDFfresh403,publisherfallback; olderGrieco/Blasco locomotionrecords2record-only. Adultgreytoes/grey-brownclawbases darktips, youngunchanged. New1/reused2core+2record-only."
+  "source_summary": "New SCOPS-OWLPAGES-2020-510 actualDescription DeaneLewis2020-10-04 https://www.owlpages.com/owls/species.php?s=510 ; reusedMIKKOLA-2013 actual122–123/PDF124–125, SCOPS-BOANO-ETAL-2020 priorprimaryrecord/institutionPDFfresh403,publisherfallback; olderGrieco/Blasco locomotionrecords2record-only. Adultgreytoes/grey-brownclawbases darktips, youngunchanged. New1/reused2core+2record-only.",
+  "local_path": "/workspace/scratch/180c531d917a/owl-0904/81-otus-scops-v6.png",
+  "bytes": 3003245,
+  "sha256": "f0039ac3063f2b9a519ed2201916aa1c5ed933d410b1e03b22460d41932a60e3",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "git_blob_sha": "5006ff0c1c6049fb1f5a4b7b1ac9e101a5d2c18c",
+  "original_blob": "5006ff0c1c6049fb1f5a4b7b1ac9e101a5d2c18c",
+  "original": "owl-pet/production/generated/81-otus-scops-v6-original.png",
+  "generation_wait_seconds": 41.101
 }

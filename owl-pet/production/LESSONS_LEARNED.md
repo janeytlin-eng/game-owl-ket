@@ -95,3 +95,6 @@ Priorv4netpromptdidnotproduce primarysupportedwidecrossbars, fullbeforecrop long
 
 ## 2026-11-25 #110v6 — separate adult toe hue from juvenile unknowns
 Actualv5 fullview grey adultnakedtoes. Guidep214+freshobserverDescription both pink, adult-only edit andfull/cropview confirm change withsupportretained. Do not tintjuveniletoes byadultaccount, or turn+9gmass intoheight. Audit found several apparentissues alreadyvalid (#104featheredfeet,#103latefluff,#120youngremiges); rejected fixes. Recovered#93Ubaidpaper correcttitle/URL/fullPDFandFigure2, notjuvenileageproof. Onecaseapplied; not allMegascopscalibrated.
+
+##2026-11-25 #132v6 — actual bytes, not repeated success claims
+Latestv5 anditsoriginalcopies786444bytes repeatedlyfailedPILdecode; preservehistory/quarantine, cannotcallvalidjustbecauseoldreviewPASS. Validv4+fresh2014originalFig11 allowednewv6 reconstruction. FullnewPNGmustdownload/hash/decodebeforecredit. Tailcentralupperversusventralbars distinguished, blanketbarremovalrejected. Requestedminorheadturnsubtleonly, notpromotedtoscientificcorrection. Stage4weekboxversus5weekbranchphotoexplicitlyseparate. Onecasearchivevalidation, entirelibrarynotyetdecodedaudited.

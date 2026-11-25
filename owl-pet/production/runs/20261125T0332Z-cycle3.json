@@ -4,7 +4,7 @@
   "run_id": "20261125T0332Z-cycle3",
   "started_at": "2026-11-25T03:48:19.187Z",
   "status": "IN_PROGRESS",
-  "stage": "IMAGE_GENERATED",
+  "stage": "ARCHIVED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -21,6 +21,22 @@
         "owl-pet/production/generated/132-strix-davidi-v6-original.png"
       ],
       "generation_wait_seconds": 52.536
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-25T03:53:29.116Z",
+      "evidence": [
+        "owl-pet/research/reviews/132-strix-davidi-v6-review.md"
+      ],
+      "result": "PASS_WITH_LIMITATIONS",
+      "scientifically_verified": false
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-25T03:53:29.116Z",
+      "evidence": [
+        "owl-pet/design/concepts/132-strix-davidi-v6.png"
+      ]
     }
   ],
   "notes": "Select next evidenced correction or incomplete species; no credit yet",
@@ -37,5 +53,9 @@
   },
   "generation_wait_seconds": 52.536,
   "original": "owl-pet/production/generated/132-strix-davidi-v6-original.png",
-  "original_blob": "64c5de1ac347152f2f8b8c08917dc06fc65bf18b"
+  "original_blob": "64c5de1ac347152f2f8b8c08917dc06fc65bf18b",
+  "bytes": 2671728,
+  "sha256": "51d29667305b37f2d6405a3a08ffa941b734ffd32625a706f510e9a9fd9035aa",
+  "concept": "owl-pet/design/concepts/132-strix-davidi-v6.png",
+  "review_record": "owl-pet/research/reviews/132-strix-davidi-v6-review.md"
 }

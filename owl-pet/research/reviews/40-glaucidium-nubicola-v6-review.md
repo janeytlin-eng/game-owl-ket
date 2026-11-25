@@ -1,0 +1,4 @@
+# 40-glaucidium-nubicola-v6
+PASS_WITH_LIMITATIONS. Actualv5full/v6full/nativeadultfeet cropviewed. Adulttarsi nowshort brown/bufffeathered to yellowtoe bases, toes remainbare/scaled withdarkclaws andsecurebranchgrips. Adultyellowirides/green-yellowbill/whiteborderednapeeye/sparsemantle/whitewingpatches retained, five-leveltail rhythm retainednotnewcountcalibration. Near-equaladultdisplay notbiologicalsexratio. Youngplaincrown/softfoldedwing/darkambereyes/lowbranchsupport unchanged; phenotypeage/iris/flight/nestunknown, no scientificpass. Exactly3birds/labels/humidcloudforest retained. Rule colourstatementdoesnotimplybareintegument appliedandvisuallyconfirmedforadult40only; otherlegsnotclaimedchecked.
+
+[Research and complete prompt](../species/40-glaucidium-nubicola-v6.md)

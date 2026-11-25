@@ -4565,3 +4565,6 @@ Verification [`b4c74081`](https://github.com/janeytlin-eng/game-owl-ket/commit/b
 
 ## 2026-11-25 #73 v6 archived, full byte verification pending
 Oldest batch20261124T2333Z cycle5, guide-based adult proximal toe feather revision; full/crop actually reviewed, sciencefalse, unique206/251 unchanged. OriginalPNG preserved; no cycle credit until immutable full-byte verification. Source counts new0/reused3/scope correction1. [run](production/runs/20261124T2333Z-cycle5-resume-20261125T0230Z.json).
+
+## 2026-11-25 — recovered batch20261124T2333Z COMPLETED6/6
+Thisinvocation completed2cycles(5–6), new0/revised2: #73Ninoxrufa v6 and#97Lophostrixcristata v6; coverage206/251 unchanged,45remaining. FulloriginalPNGbytes/SHA256/decode and research/index/prompt remote readbackpassed. Verificationcommits 6f761b009d7e1c69795497f07e1b5b85436c4604 / 896a6d846c803ac4f528241d9476659569770cd5; ledgerclose 08041d58103f50626df506719e3ca3fbf8b60df0. Acrossinvocationsbatch6/6,not singleinvoke6. Bothsciencefalse, no newuserconfirmation. [Consolidatedoriginal/reviewentry](production/batches/20261124T2333Z-completed-review.md). OtherPARTIALbatches0; nolease, nextnewbatchcycle1notstarted. WholeproductionstillPARTIAL; nootherautomationmodified.

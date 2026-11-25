@@ -3,7 +3,25 @@
   "cycle": 1,
   "run_id": "20261125T0532Z-cycle1",
   "started_at": "2026-11-25T05:32:03.156Z",
-  "status": "STARTED",
-  "stage": "STARTED",
-  "stages": []
+  "status": "IN_PROGRESS",
+  "stage": "RESEARCH_READY",
+  "stages": [
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-25T05:32:09.144Z",
+      "evidence": [
+        "owl-pet/research/species/128-megascops-marshalli-v9.md"
+      ]
+    }
+  ],
+  "id": "128-megascops-marshalli-v9",
+  "species": "Megascops marshalli",
+  "action": "ADULT_FLIGHT_FEATHER_BAR_COLOUR_REVISION",
+  "prompt": "Scientific precise feather-color edit of this Cloud-forest Screech-Owl Megascops marshalli group. Change ONLY the adult folded flight-feather bars on the LEFT adult male and RIGHT adult female, in the LOWER OUTER WING panels: replace the conspicuous white/cream bands on outer primary/secondary vanes with muted warm tawny-buff bands alternating dusky brown, much lower in contrast and softly blending toward vane edges. Preserve individual formed feathers and wing length. Crucially retain the legitimate broken WHITE SCAPULAR/SHOULDER band and outermost-secondary covert pale spots near the upper shoulder: these are different feather tracts and should NOT be recolored or removed. Keep both adult dark brown eyes exactly dark brown, black-rimmed rufous discs, very short tufts, bill/feet, near-equal adult size, current variable white belly/dark streak-and-bar pattern unchanged. Leave center OLDER IMMATURE entirely unchanged, including formed paler compact wings, retained lax scapular feathers, partly hidden tail and supported feet; no hatchling conversion or inferred age. Preserve all three birds, full title/Latin name/labels, Andean wet cloud forest moss/epiphytes, branch grips, composition and confirmed soft realistic pet style. Same full1536x1024, no extra elements.",
+  "research_record": "owl-pet/research/species/128-megascops-marshalli-v9.md",
+  "source_counts": {
+    "new": 0,
+    "reused": 2,
+    "scope_correction": 1
+  }
 }

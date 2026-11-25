@@ -6936,3 +6936,6 @@ OriginalPLOSpublisherbodyDiagnosisMorphology actualread at https://journals.plos
 
 ##2026-11-25 #140v7 — rufescens ventral sparse spots, not shaft lines
 JOL-SANGSTER-ETAL-2013 sameprimarypublication reused freshpublisherDiagnosisMorphology's explicitrufescenscomparison: sparsespotteddarkbrownunderparts lackingdarkstreaks/bars. RFS-MIKKOLA-2013-P178 actualuploadedprinted178/PDF180 confirmsunderpartssparsespots, sexsizeunknown; adultyellowishtoesbody/whitishcaptionconflictpreserved noforcedrecolour. RFS-WARAKAGODA-RASMUSSEN-2004-P102 priorv6mesoptileboundary reused notfreshPDF. Upperpartspots andadultflightfeatherbarsnoterased. New0/reused3/scopecorrection1. [Research/fullprompt](species/140-otus-rufescens-v7.md).
+
+##2026-11-25 #128v9 MARS-WESKE-1981 flight-feather versus scapular boundary
+Freshprimarybody pp1–3/5–6actualread: outerflightfeathervanestawny/dusky, lesscontrastingthanbarbaruswhite/dusky; outermostsecondarycoverts/scapularwhitevalid. MARS-MIK2013-P234 actualuploaded234/PDF236confirmsdusky/tawny. Existingv8eyesalreadybrown; bellyindividualvariationpreventsforcedgrid, bothfalsefixesrejected. New0/reused2/scope1. [Research/prompt](species/128-megascops-marshalli-v9.md). Olderimmatureformedwingpreserved; no newbornfabrication.

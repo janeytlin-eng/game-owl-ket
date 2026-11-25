@@ -7347,3 +7347,7 @@ New0/reused2documents. COOW-LIN-ETAL-2014 authorfulltextMethods/Resultsp96–98f
 
 ## 32-glaucidium-castanotum-v6
 New0/reused3freshaccounts. CBOW-MIKKOLA-2013 printed406/PDF408 actualread diffusemesoptilebars/streaks; CBOW-CEYLONBIRDCLUB-2009 actualbody56–63 and DeaneLewis2020 OwlPages https://www.owlpages.com/owls/species.php?s=2120 Description64–66read. Secondaryadultcrosschecknotyoungchronology. [Research](species/32-glaucidium-castanotum-v6.md) / [image](../design/concepts/32-glaucidium-castanotum-v6.png). Unknownage/flight/iris/sexratio retained.
+
+
+## 31-glaucidium-radiatum-v6
+New0/reused3fresh+1prior: JUOW-MIKKOLA-2013 printed403–404/PDF405–406actualread; JUOW-OWLPAGES-2110 https://www.owlpages.com/owls/species.php?s=2110 Description64–67plaincentralbelly/ventandbarredsides; JUOW-OISEAUXNET-LEBOFF-2026 actualmetadataageunknownimmaturePilibhit, notfreshphotopixels; JUOW-MADRAS-MUSEUM-1979 prioronly. Correctalloveradultbellybarring; youngunchanged/noageflightclaim. [Research](species/31-glaucidium-radiatum-v6.md) / [image](../design/concepts/31-glaucidium-radiatum-v6.png).

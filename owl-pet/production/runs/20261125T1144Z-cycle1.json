@@ -3,8 +3,8 @@
   "cycle": 1,
   "run_id": "20261125T1144Z-cycle1",
   "started_at": "2026-11-25T11:41:54.935Z",
-  "status": "IN_PROGRESS",
-  "stage": "ARCHIVED",
+  "status": "VERIFIED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -38,6 +38,14 @@
       "evidence": [
         "owl-pet/design/concepts/70-ninox-strenua-v6.png"
       ]
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-25T11:48:41.837Z",
+      "evidence": [
+        "ba1ccfa51991fde96a762ee05ed6c8eae51639e3",
+        "owl-pet/design/concepts/70-ninox-strenua-v6.png"
+      ]
     }
   ],
   "id": "70-ninox-strenua-v6",
@@ -64,5 +72,16 @@
   "initial_original": "owl-pet/production/generated/70-ninox-strenua-v6-original.png",
   "initial_blob": "7226b1062ceb6d3049aef9d9691db54192bdc03c",
   "concept": "owl-pet/design/concepts/70-ninox-strenua-v6.png",
-  "review_record": "owl-pet/research/reviews/70-ninox-strenua-v6-review.md"
+  "review_record": "owl-pet/research/reviews/70-ninox-strenua-v6-review.md",
+  "verification": {
+    "bytes": 2809260,
+    "sha256": "f29e3ed547aad532b67e0dc2fd6362b510e8c14eedcf931ebb1ddfed7bf659ef",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "fullPNGdecode": "PASS"
+  },
+  "ended_at": "2026-11-25T11:48:41.837Z",
+  "archive_commit": "ba1ccfa51991fde96a762ee05ed6c8eae51639e3"
 }

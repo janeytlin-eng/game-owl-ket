@@ -116,3 +116,6 @@ Finepatternnotwholesaleabsenceofwhite: sourcecaptionveryfinepatternandactualboun
 
 ##2026-11-25 137-otus-alfredi-v7
 Generic darktalonprior leakeddespiteyellowfeet. Checkclawsasindependentbarepart; sourceTable2explicitlycoversbothadultandyoungratherthanguessingagecolour. Validpalevermiculationforeheadandfineventralrufousbarsremain, no falseplain-crownfix. Actualfeetstripconfirmscolourdirectiononecase.
+
+##2026-11-25 130-megascops-koepckeae-v6
+#130: apply adult eyebrow criterion only to adults. Primary juvenile white brows are independently documented. Preserve legitimate pale face margins and do not transfer hockingi painting palette to unassigned Loja birds. This edit visibly reduces adult white-band contrast; broad scientific validity unverified.

@@ -3,8 +3,28 @@
   "cycle": 3,
   "run_id": "20261125T0332Z-cycle3",
   "started_at": "2026-11-25T03:48:19.187Z",
-  "status": "STARTED",
-  "stage": "STARTED",
-  "stages": [],
-  "notes": "Select next evidenced correction or incomplete species; no credit yet"
+  "status": "IN_PROGRESS",
+  "stage": "RESEARCH_READY",
+  "stages": [
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-25T03:51:26.368Z",
+      "evidence": [
+        "owl-pet/research/species/132-strix-davidi-v6.md",
+        "owl-pet/research/SOURCE_INDEX.md"
+      ]
+    }
+  ],
+  "notes": "Select next evidenced correction or incomplete species; no credit yet",
+  "id": "132-strix-davidi-v6",
+  "species": "Strix davidi (current crosswalk Strix uralensis davidi)",
+  "action": "CORRUPT_ARCHIVE_RECONSTRUCTION",
+  "prompt": "Reconstruct this complete Sichuan Wood Owl plate as a NEW faithful replacement version, using the provided valid v4 reference for the established soft realistic 3D electronic-pet aesthetic. The intervening v5 archive is truncated and cannot be restored, so this is a reconstruction, not an edit of an unseen v5. Preserve exactly three birds, the male left, approximately-four-week nestling within the center rough nest box with bare sill, female right, cool central-Chinese montane conifer forest, all natural supports and all text. Keep the same valid morphology and nearly equal adult structural height; no female-larger multiplier. Preserve dark chocolate adult plumage, mainly radial facial markings without bold concentric bullseyes, dark brown eyes with pale eye frames, pale yellow bills, furry tarsi and toe tops ending at talons, long tails, restrained white scapular drops, irregular wedge-like belly streaks crossed by fine ochre waves. Do not erase legitimate visible ventral/lateral tail bars. Make the right female's head turned gently toward the center rather than matching the male's forward gaze; keep natural anatomy and full face readable. The nestling remains approximately-four-week woolly dull-grey mesoptile with fine irregular pale-brown undulating bars, a restrained brown facial mask, dark brown eyes with subtle pink-lilac lids and narrow pale eye framing, pale horn-yellow beak, short furry toe tops supported on bare sill. Keep developing wings and tail mostly concealed in woolly down; no mature adult white scapular pattern, no outstretched wings or invented flight ability. Exactly six feet supported, no eggs or added nest lining. Text verbatim title '#132 · SICHUAN WOOD OWL', subtitle 'Strix davidi', bottom 'ADULT MALE', 'NESTLING · APPROX. 4 WEEKS', 'ADULT FEMALE'. Same1536x1024 landscape composition, full margins. Preserve historical project taxon label; current nomenclature Strix uralensis davidi is documented outside the image. No new source photograph copied, no watermark.",
+  "research_record": "owl-pet/research/species/132-strix-davidi-v6.md",
+  "scientifically_verified": false,
+  "source_counts": {
+    "new": 0,
+    "reused": 2,
+    "scope_corrections": 1
+  }
 }

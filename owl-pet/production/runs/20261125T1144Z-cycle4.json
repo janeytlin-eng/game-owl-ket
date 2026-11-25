@@ -4,11 +4,18 @@
   "run_id": "20261125T1144Z-cycle4",
   "started_at": "2026-11-25T11:56:46.581Z",
   "status": "IN_PROGRESS",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-25T11:57:56.296Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-25T11:59:56.747Z",
+      "evidence": [
+        "owl-pet/production/generated/73-ninox-rufa-v7-original.png"
+      ]
     }
   ],
   "id": "73-ninox-rufa-v7",
@@ -17,5 +24,16 @@
   "scientifically_verified": false,
   "research_record": "owl-pet/research/species/73-ninox-rufa-v7.md",
   "prompt": "Edit #73 Rufous Owl Ninox rufa v6 into v7: correct ONLY the two adults' top crown/nape and fine breast barring contrast. Their adult crown currently reads as scattered pale flecks on dark rufous; make it finely barred in light brown on dark rufous, low contrast narrow transverse traces across forehead/crown/nape, no white dots or bold zebra bands. Adult rich reddish-brown underparts retain narrow creamy transverse bars, but reduce the current broad bright white broken bands into finer creamy lines without removing the barring or making V chevrons. Preserve white area between adult eyes, golden eyes/grey bills, male-larger restrained direction, adult tarsi and proximal rufous toe feathering with bare dirty-yellow distal toes and darkclaws from v6. Preserve center white-headed recent fledgling dark mask, unverified dark iris, residual whitish down/formed wings/tail and supported careful stepping posture, exactly same discrete contacts. Keep all3owls, cavity/tree context, labels/title/scientific name, style and layout. Do not extrapolate adult crown bars to young, darken female by formula, add long mature juvenile remiges, extra digits, birds or flight.",
-  "source_summary": "New0/reused2 factual evidence: guide448/PDF450 and primaryRiddell2021PDF bodyfresh. Bouglouan503 searchlead notbodyread/excluded. Adultfinebars/youngstage/toeextent preserved, sciencefalse."
+  "source_summary": "New0/reused2 factual evidence: guide448/PDF450 and primaryRiddell2021PDF bodyfresh. Bouglouan503 searchlead notbodyread/excluded. Adultfinebars/youngstage/toeextent preserved, sciencefalse.",
+  "bytes": 2555943,
+  "sha256": "7713fcaa145f855aebdd0408552815408bf3abc8aae9ad291b2ce133d877bc4d",
+  "gitblob": "180ac68929bc8be0d47a26fdd42aa4c3ebac1e9a",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "local_path": "/workspace/scratch/180c531d917a/owl-1136/73-ninox-rufa-v7.png",
+  "original_blob": "180ac68929bc8be0d47a26fdd42aa4c3ebac1e9a",
+  "original": "owl-pet/production/generated/73-ninox-rufa-v7-original.png",
+  "generation_wait_seconds": 39.835
 }

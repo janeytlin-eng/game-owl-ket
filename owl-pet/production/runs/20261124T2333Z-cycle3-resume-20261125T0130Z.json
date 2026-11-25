@@ -2,13 +2,33 @@
   "batch_id": "20261124T2333Z",
   "cycle": 3,
   "run_id": "20261125T0130Z",
-  "stage": "ARCHIVED",
-  "status": "RECOVERING_VERIFICATION",
+  "stage": "VERIFIED",
+  "status": "VERIFIED",
   "started_at": "2026-11-25T01:31:21.200Z",
   "previous_run": "owl-pet/production/runs/20261124T2333Z-cycle3-resume-20261125T0030Z.json",
   "id": "28-glaucidium-perlatum-v7",
   "archive_commit": "10003b744b951968fb08647a0b6f6f127f212ce5",
-  "completed_cycle": false,
-  "stages": [],
-  "recovery_note": "Reuse original, full prompt, sources and actual review already persisted; no regeneration; old failure history preserved."
+  "completed_cycle": true,
+  "stages": [
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-25T01:32:34.431Z"
+    }
+  ],
+  "recovery_note": "Reuse original, full prompt, sources and actual review already persisted; no regeneration; old failure history preserved.",
+  "completed_at": "2026-11-25T01:32:34.431Z",
+  "scientifically_verified": false,
+  "verification": {
+    "url": "https://raw.githubusercontent.com/janeytlin-eng/game-owl-ket/10003b744b951968fb08647a0b6f6f127f212ce5/owl-pet/design/concepts/28-glaucidium-perlatum-v7.png",
+    "GET": "PASS",
+    "bytes": 2693904,
+    "sha256": "a8cc6fa350a27aa2adaf95d7cbe2efabe2888ee1c220b43a28de53901f378af0",
+    "PNG_decode": "PASS",
+    "size": [
+      1536,
+      1024
+    ],
+    "actual_remote_image_viewed": true,
+    "manifest_entry_matches": true
+  }
 }

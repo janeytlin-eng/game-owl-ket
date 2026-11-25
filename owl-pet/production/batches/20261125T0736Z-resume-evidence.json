@@ -1,0 +1,84 @@
+{
+  "checked_at": "2026-11-25T07:53:27.941Z",
+  "invocation_completed_cycles": 1,
+  "coverage": {
+    "unique_before": 206,
+    "unique_after": 206,
+    "total": 251,
+    "new_species": 0,
+    "revised_versions": 1
+  },
+  "completed_batch": "20261125T0640Z",
+  "all_six_immutable_byte_hash_full_decode": "PASS",
+  "records": [
+    {
+      "id": "135-otus-silvicola-v7",
+      "concept": "owl-pet/design/concepts/135-otus-silvicola-v7.png",
+      "archive": "10bfc1963a84ef5a7f8dbe5033830a326f3e3830",
+      "bytes": 2771900,
+      "sha256": "60b92adb477dd6fb38642134c6042ce7a748d4957fc7b79732c82ce791355d94",
+      "run": "owl-pet/production/runs/20261125T0640Z-cycle1.json",
+      "verified": "3c45096211c14927686234e6bfa0478d4d7bca84"
+    },
+    {
+      "id": "134-megascops-sanctaecatarinae-v6",
+      "concept": "owl-pet/design/concepts/134-megascops-sanctaecatarinae-v6.png",
+      "archive": "a0db04d99e8565d0cdbc1b38541727f371157c93",
+      "bytes": 2996655,
+      "sha256": "b8fee5fa40560676132552c5282e6005c4fd042337fc4a098f074c53d7ddfb96",
+      "run": "owl-pet/production/runs/20261125T0640Z-cycle2.json",
+      "verified": "56754bfe83b7ab628721f7d5313f43a671d7cda2"
+    },
+    {
+      "id": "131-megascops-watsonii-v6",
+      "concept": "owl-pet/design/concepts/131-megascops-watsonii-v6.png",
+      "archive": "fb6865657713b2265f2eafea709f27973bfe8815",
+      "bytes": 2661072,
+      "sha256": "0a7e6886cd670ef2a13324a77e8bbc8c8cb60bae50a1ba2f27856d5c2ccdd480",
+      "run": "owl-pet/production/runs/20261125T0640Z-cycle3.json",
+      "verified": "5617b528b740131c994a806662499c3887063bb9"
+    },
+    {
+      "id": "133-megascops-atricapilla-v6",
+      "concept": "owl-pet/design/concepts/133-megascops-atricapilla-v6.png",
+      "archive": "37abe4a0a1666c872c834944601b8803092fc245",
+      "bytes": 2642402,
+      "sha256": "7411955b959d0837d86865de5fccebf79114d1ff96a5df91a112ddcc6d039921",
+      "run": "owl-pet/production/runs/20261125T0640Z-cycle4.json",
+      "verified": "4792c33f5575594ba2f153861921519447f22357"
+    },
+    {
+      "id": "138-otus-mentawi-v6",
+      "concept": "owl-pet/design/concepts/138-otus-mentawi-v6.png",
+      "archive": "9e936425b9270a0bc9fea3e631a6ff066ee2e1e9",
+      "bytes": 2699311,
+      "sha256": "2ca43da7beec1de32d8678a24bbaf9aa26ab2c67c97df7da11ae82fbde1736f8",
+      "run": "owl-pet/production/runs/20261125T0640Z-cycle5.json",
+      "verified": "64189f9bed3b288f4d233e5ca8585bed5c8c72df"
+    },
+    {
+      "id": "106-strix-albitarsis-v5",
+      "concept": "owl-pet/design/concepts/106-strix-albitarsis-v5.png",
+      "archive": "a2119bdb130f9f732bd585175baa009bc3d8004e",
+      "bytes": 3149308,
+      "sha256": "5c1aed2fca45bd8d1d98085618678664319d6875b0a9217e86bbe46ad3570247",
+      "run": "owl-pet/production/runs/20261125T0640Z-cycle6.json",
+      "verified": "34ba3cfa24e6e40a5cb55c04995b927f4ade96d5"
+    }
+  ],
+  "current_batch": "20261125T0748Z",
+  "current_completed": 0,
+  "next_cycle": 1,
+  "partial_commit": "75cecb467b3017b363ed8926f059db85c0a43299",
+  "block": "Code Mode session output limit reached; 1image discarded",
+  "source_counts": {
+    "new": 2,
+    "freshly_reread_existing": 6,
+    "preserved_publication_records": 3,
+    "total_existing_reused": 9
+  },
+  "fd_recovery": {
+    "remote_lookup_error": "Error: {\"content\":[{\"type\":\"text\",\"text\":\"GitHub API error 422: {\\\"message\\\":\\\"No commit found for SHA: fd9d70d\\\",\\\"documentation_url\\\":\\\"https://docs.github.com/rest/commits/commits#get-a-commit\\\",\\\"status\\\":\\\"422\\\"}\"}],\"structuredContent\":{\"error\":\"GitHub API error 422: {\\\"message\\\":\\\"No commit found for SHA: fd9d70d\\\",\\\"documentation_url\\\":\\\"htt",
+    "credit": 0
+  }
+}

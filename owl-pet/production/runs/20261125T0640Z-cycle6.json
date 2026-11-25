@@ -86,5 +86,24 @@
     "SHA256": "5c1aed2fca45bd8d1d98085618678664319d6875b0a9217e86bbe46ad3570247",
     "fullPNGdecode": "PASS",
     "research_index_readback": "PASS"
+  },
+  "source_count_clarification": {
+    "at": "2026-11-25T07:53:27.941Z",
+    "prior_reused_value": 5,
+    "target_species_reused_documents": 4,
+    "gap_reused_documents": 2,
+    "total_completed_cycle_reused_documents": 6,
+    "new_source": 1,
+    "note": "Prior5 omitted the already-read tentative CostaRica Perez-Martinez gap account; no duplicate publication creation. Target four include preserved Sibundoy record, not fresh PDF read."
+  },
+  "timings": {
+    "invocation_research_start": "2026-11-25T07:35:48Z",
+    "research_ready_at": "2026-11-25T07:44:30.715Z",
+    "research_elapsed_seconds": 522.715,
+    "imagegen_wait_seconds": 37.304,
+    "generation_and_checkpoint_interval_seconds": 93.107,
+    "review_to_archive_recorded_at": "2026-11-25T07:46:46.493Z",
+    "archive_to_verified_interval_seconds": 39.378,
+    "note": "Intervals include orchestration/checkpoint overhead; archive start/end tool telemetry not independently captured. Original run07:00 start includes idle interruption; not billed as active current research."
   }
 }

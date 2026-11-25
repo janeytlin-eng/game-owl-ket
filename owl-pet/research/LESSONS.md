@@ -259,3 +259,7 @@ OldbroadG.brodieifemale+10gclaimcannotbeappliedtoseparatedSunda; currentsexneutr
 
 ## 232-ninox-ochracea-v1 actualiteration
 Guidejuvenileunknownwasnotendofresearch: oldN.perversaprimary1954andmodern2011readactualpages, olderplumagelimitedgapfilled. NevermistakeunidentifiedNinoxphotosin2011paperforochraceajuvenile. Plainbellyverifiedincrops; #230actualspottedformedwing/gape remainsdifferentdocumentedstage, no blanketcutting. Sexsizequalitativeguidefemale-smallerappliedsubtly; tinyhistoricalsamplecolorsexclaimnotgeneralized. Experienceappliedhereonly, fullscientificvalidationstillpending.
+
+
+## 2026-11-26 实际应用范围
+颜色说明不等于裸露范围（#40）；警戒小羽角不等于大耳角且旧书可能冲突（#22）；巢材比例需原始正文（#20）；浅色磨损尖端不等于整喙（#18）；刚离巢羽纹修正不能删掉已具备飞羽（#17）；种群体重差不能换算固定站高（#16）。六规则本次分别实际应用、整图复查并原图回读，不声称已跨物种验证；其他版本未自动改。精确幼龄/虹膜/羽序及#37/#47补证仍未解决。[证据与完整提示](../production/batches/20261125T2300Z-invocation-review.md)。

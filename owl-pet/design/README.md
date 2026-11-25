@@ -3428,3 +3428,7 @@ Verification follow-up for #201 v3: immutable archive commit `4e0525c59b76a14aeb
 - Preserved v1–v3; restored the narrow chest band and patterned brown flanks omitted by v3.
 - Retained the directly evidenced age-unknown dark fluffy juvenile with full natural root support; edit0; PASS_WITH_LIMITATIONS; science=false.
 - Unique species remains 176/251; revision +1. Research: `research/species/165-ninox-punctulata-v4.md`; review: `research/reviews/165-ninox-punctulata-v4-review.md`; run: `production/runs/20261112T223100+0800-cycle-4.md`.
+
+
+## 2026-11-26 六组实际修订
+[按编号原图/研究/检查/真实提交](../production/batches/20261125T2300Z-invocation-review.md)：#40v6成年跗羽、#22v5警戒短羽角、#20v6苔藓巢底、#18v5深色喙主体、#17v7幼鸟细横斑、#16v6成年展示比例。均PASS_WITH_LIMITATIONS/sciencefalse，不重复计物种，旧确认保留。

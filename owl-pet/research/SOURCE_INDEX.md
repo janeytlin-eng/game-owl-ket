@@ -7410,3 +7410,8 @@ EASO-TPWD-SPECIES-2026: TexasParksWildlife, EasternScreechOwl, undatedinstitutio
 [facts/prompt](species/17-megascops-asio-v7.md),[review](reviews/17-megascops-asio-v7-review.md),[version](../design/concepts/17-megascops-asio-v7.png).
 
 17-megascops-asio-v7 source-access correction: EASO-SMITH-DEVINE-2003-P98-103 publicPDF directGET recovered; printed101actuallyread (poorlandings/clinging/climbing/branchroosting). Webreaderfailureisnotfullsourcefailure. https://ctbirding.org/wp-content/uploads/2017/01/CTWarblerVolume23.pdf . No newsource, noexactageclaim; BlueJayarticleexcluded.
+
+
+## 2026-11-26 16-strix-occidentalis-v6
+NSO-CDFW-BIOLOGY-2026 newURLrecord CDFWNorthernSpottedOwlsinCalifornia https://wildlife.ca.gov/Conservation/Birds/Northern-Spotted-Owl actualBiologyread2026-11-26: caurinafemale10–20percentmassnotheight, departure34–36d/generalcavity. ReusedForsmanEric1976OSUthesis https://andrewsforest.oregonstate.edu/sites/default/files/lter/pubs/pdf/pub1760.pdf actualabstractPDF4–5read weakflight/climbing/downymesoptile, nopicturedexactage. ReuseduploadedMikkola2013printed342/344, billconflictretainedandnotedited. New1/reused2/sexdisplaycorrection1; regioncaurinaonly.
+[facts/prompt](species/16-strix-occidentalis-v6.md),[review](reviews/16-strix-occidentalis-v6-review.md),[version](../design/concepts/16-strix-occidentalis-v6.png).

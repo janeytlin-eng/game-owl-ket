@@ -7121,5 +7121,5 @@ New0/reused4: ABSA2p/guide455/PDF457 andMuseum bodyfresh; VICp86priorrecordonly,
 [Research/full prompt](species/72-ninox-boobook-v6.md). Sciencefalse.
 
 ## 20261125T1144Z-cycle4 73-ninox-rufa-v7
-New0/reused3: guide448/PDF450; primaryRiddell2021p221–228 actualPDFrefresh; Bouglouanadultaccount fresh secondary. Adultfinehead/lightbrown andventralcreambars, notspots/broadwhitebands. Existingv6toeextent/youngstagepreserved, noirisresolution/scientificpass.
+New0/reused2 factual evidence: guide448/PDF450 and primaryRiddell2021PDF bodyfresh. Bouglouan503 searchlead notbodyread/excluded. Adultfinebars/youngstage/toeextent preserved, sciencefalse.
 [Research/full prompt](species/73-ninox-rufa-v7.md). Sciencefalse.

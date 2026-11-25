@@ -7328,3 +7328,8 @@ Access2026-11-25UTC. Existing BROW-MIKKOLA-2013-P326-327 actualprinted326/PDF328
 
 ## 36-glaucidium-bolivianum-v6 — fresh reread / morph-specific correction
 YPOW-KONIG-1991 sameprimaryURL, printed36–38/PDF22–24 actuallyread2026-11-26: rufous7paleorangeovalpatchesnotshaft-touching; brown5whitishmarks; toe/tarsi colours; tinyadultsexsample. YPOW-MIKKOLA-2013-P396 sameuploadedbook, printed396/PDF398 actuallyread: unspottedslightlygreyermesoptilecrown, weakerbelowstreaks; downychickunknown. New0/reused2documents; do not count samebookasnewsource. [Research](species/36-glaucidium-bolivianum-v6.md) / [concept](../design/concepts/36-glaucidium-bolivianum-v6.png). Exactyoungage/flight/irisandsexscaleunknown.
+
+
+## 35-glaucidium-jardinii-v6
+New0/reused4actualdocuments. YPOW-KONIG-1991 cross-mapG.jardinii printed24–27/PDF10–13: strongerstreakbolivianumcomparison avoids overboldjardinii genericventrum. ANPO-MIKKOLA-2013 printed395/PDF397actualread plaincentralbelly/indistinctflanks. ANPO-BANREP-CERVANTES-2016 GeneralNote22–31 andANPO-PERUAVES-2026 Identification/captionsreread; broaderstreakwordingmarkedvariation, notexactpixelmap. Unknownyoungage/iris/flight/heightsexratio. No new publication or global scientificpass.
+[Research](species/35-glaucidium-jardinii-v6.md) · [concept](../design/concepts/35-glaucidium-jardinii-v6.png)

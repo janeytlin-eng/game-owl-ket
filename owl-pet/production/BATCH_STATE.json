@@ -54476,17 +54476,28 @@
           "unique_species_increment": 0,
           "revision_increment": 1,
           "scientifically_verified": false
+        },
+        {
+          "cycle": 5,
+          "id": "64-tyto-glaucops-v6",
+          "species": "Tyto glaucops",
+          "commit_sha": "cfde71a1de5344b27722eb949c2a57b8ad7d4710",
+          "archive_commit": "66a0fb4551141fd8cfebed2c8d4292b976f098b8",
+          "run_record": "owl-pet/production/runs/20261125T1240Z-cycle5.json",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 5,
+      "next_cycle": 6,
       "next_action": "Resume same batch cycle3 from ARCHIVED, recover immutable original and verify bytes/hash/fullPNGdecode; do not regenerate or duplicate archive."
     }
   ],
   "lease": {
     "owner": "20261125T1331Z",
-    "run_id": "20261125T1240Z-cycle5",
-    "heartbeat_at": "2026-11-25T13:47:13.328Z",
-    "expires_at": "2026-11-25T14:02:13.328Z"
+    "run_id": "20261125T1240Z-cycle6",
+    "heartbeat_at": "2026-11-25T13:48:00.691Z",
+    "expires_at": "2026-11-25T14:03:07.608Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",

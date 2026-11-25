@@ -3,8 +3,8 @@
   "cycle": 4,
   "run_id": "20261125T1353Z-cycle4",
   "started_at": "2026-11-25T14:43:48.801Z",
-  "status": "STARTED",
-  "stage": "ARCHIVED",
+  "status": "VERIFIED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -24,6 +24,10 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-25T14:46:25.454Z"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-25T14:46:43.628Z"
     }
   ],
   "id": "59-ketupa-zeylonensis-v6",
@@ -44,5 +48,16 @@
   "original": "owl-pet/production/generated/59-ketupa-zeylonensis-v6-original.png",
   "generation_wait_seconds": 36.717,
   "review_record": "owl-pet/research/reviews/59-ketupa-zeylonensis-v6-review.md",
-  "concept": "owl-pet/design/concepts/59-ketupa-zeylonensis-v6.png"
+  "concept": "owl-pet/design/concepts/59-ketupa-zeylonensis-v6.png",
+  "archive_commit": "5a9d0e3227e261f693d01769d9165a92f5e42c41",
+  "verification": {
+    "bytes": 3259698,
+    "sha256": "a8358ab661bd7b9e27145150f008883192d10629f2170d537f56fb934da15f34",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "fullPNGdecode": "PASS"
+  },
+  "ended_at": "2026-11-25T14:46:43.628Z"
 }

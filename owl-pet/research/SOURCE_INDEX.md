@@ -7033,3 +7033,7 @@ New BRU-MOLDOVAN-2009-TABLE1 actual originalp2/PDF2 https://ecology.nottingham.a
 ## 20261125T0904Z-cycle3 89-bubo-bengalensis-v6
 New BEN-OWLPAGES-1260 actualDescription https://www.owlpages.com/owls/species.php?s=1260 , dateunknown/access2026-11-25; reused BEN-MIKKOLA-2013-P274-275(actual274–275/PDF276–277), BEN-RAMANUJAM-MURUGAVEL-2009-P519-524(previousageboundary; freshPDFbodygarbled, retryHTML). Adultlowerbarsfaintnotblank; juvenileunchanged; no quantitativepalettevalidation.
 [Full facts/prompt](species/89-bubo-bengalensis-v6.md). Sciencefalse.
+
+## 20261125T0904Z-cycle4 82-otus-senegalensis-v6
+Reused SEN-MIK2013-130(actualprinted130/PDF132), SEN-OWLPAGES-2020 actualDescription/2020-10-08 https://www.owlpages.com/owls/species.php?s=550 ; SEN-RIEKERT-1986-P425-428 originalopenattempt plusprevious22daystudyrecord. New0/reused3; adultgrey-browntoesonly, no youngpaletteinference.
+[Full facts/prompt](species/82-otus-senegalensis-v6.md). Sciencefalse.

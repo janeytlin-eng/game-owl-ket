@@ -246,3 +246,6 @@ Actual219barelowerleg/221whitethroat/225broadbillbase/228faintventrum/229barrede
 
 ## 20261125T0640Z cycle6 #106v5
 Actualfootcrops verify barecreamadultdigits/palehornclaws withfeatheredtarsi preserved. Do nottransferadultfeet toyoung. Correctguide338/PDF340 vswrongprinted340/huhula. Freshguideeyeconflict isrealtextconflict, notinaccessiblesnippet; eyesloweredinphoto cannotadjudicateopeniris. Modelrerenderedfeathers, allinvariantsrechecked. Scopevalidated#106only; #107basaltoefeathering different, noautomatictransfer. [Actualreview](../research/reviews/106-strix-albitarsis-v5-review.md).
+
+## 20261125T0748Z cycle1 #100v6
+Oneadultclawpaletteeditactuallyviewedfull/nativecrops: palehornbases/darktips retained, toe/tarsalboundaryalreadyrightnotre-edited. Stagepreserved andunknownage/flightnotinvented. Localapplicationverifiedonly; no universalclawpalette. [Review](../research/reviews/100-strix-huhula-v6-review.md).

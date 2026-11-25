@@ -18,3 +18,12 @@ Use case: precise-object-edit. Edit target #100 Black-banded Owl Strix huhula v5
 ## Block and next step
 No generation attempted in this cycle. Next image preview (#103) was discarded by actual message: '[Code Mode session output limit reached: omitted 0 text bytes; discarded 0 text segments, 1 images, 0 audio items]'. Cannot honestly verify another generated plate in this invocation; paused visual production at RESEARCH_READY. This is observed output-display limit, NOT a fixed timeout claim.
 Next invocation: checklatestmain+lease, reopen v5 and reuse thisresearch/prompt, imagegenadultclawedit, actualfull/cropinspection, necessaryedit/recheck, originalcheckpoint/archive/bytehashPNGverification, VERIFIED andonlythenadvancecycle1.
+
+## 2026-11-25 resume — generated/reviewed
+Previous RESEARCH_READY and prior blockage retained above as history. Current actualfreshread: Mikkola printed340/PDF342 fromsameuploadedPDF; HUH-OWLPAGES-2021 originalDescription reopened. New0/reused2documents, priorprimaryjuvenileboundarypreservedwithoutnewread. Fulloriginal/prompt unchanged. Current actualreview:
+# #100 v6 actual review — 2026-11-25T08:34:45.957Z
+Generated full plate and two adult-foot crops actually opened. One builtin imagegen edit; 36.823s wait. Target PASS: adult claws pale grey-horn proximally with darker distal tips, not uniformly charcoal; yellow bare toes/feathered black-white tarsi remain. Colour qualitative, not colourimetric calibration. No further edit required.
+Exactly3birds/title/roles preserved; adultdarkbrownirides/yellowbill/roundhead/noear-tufts/finewhitishwavybars/no inventedsexhierarchy pass. Central grey down+blackhorizontalbars/heartmask/whiteborder, shortsoftfoldedwing/concealedtail/yellowbill+feet/continuousflatforksupport unchanged. Exactyoungage/sex/wingchronology/firstflightunknown. Threebirdfeetgrip, nofloat/nestmaterialdrift; epiphyticangicofork asoneAtlanticforestcase, notuniversalnest.
+Re-rendered surroundingfeathers rechecked; same identity/stage/environment. PASS_WITH_LIMITATIONS; scientifically_verified false; userconfirmation notadded.
+Issue→evidence→edit→check: darkadultclawbases v5→freshguide340 and OwlPagesDescription→adult-onlypalehornbases/darktips→nativefootcrops verified.
+Backcheck#106 palehornclaws alreadycorrectv5; don'trepeatbaretoeediton#100; no adultpalette transfer to young.

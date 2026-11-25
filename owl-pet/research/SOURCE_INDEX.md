@@ -6946,3 +6946,6 @@ MANT-ZAINI-2023-MANTANANI-FIELD freshobserverbodyandactual640x401perchedphotopix
 ##2026-11-25 #137v7 FLO-WIDODO-1999 claw boundary
 FreshoriginalTable2printed18–19 adultAMNH+juvenileMZB orange-yellowclawslackingevendarktips; actualbodypp15–20read. MIKKOLA2013 actualprinted184/PDF186yellowishhornclawsconfirms. No darktip inferredfromgenericowl, noyoungadult-transferbecausespecimenexplicit. New0/reused2/scope1. [Research/prompt](species/137-otus-alfredi-v7.md).
 KOEP-FJELDSA-2012-P180-191 correctedbibliographicrange180–193andworkingoriginal https://archive.org/download/biostor-245242/biostor-245242.pdf , actualp184/189bodyread/p183Fig2paintingviewed2026-11-25. Paintingnophotoclaim, hockinginotLoja, rejectedforcedbrow/gridfix. SamepublicationIDretained, correctionnotnewsource.
+
+##2026-11-25 #130v6 adult versus young brow boundary
+KOEP-MIK2013-222 actualuploadedprinted222/PDF224 adultbrowsdarkmottlednotverydistinct; KOEP-FJELDSA-2012-P180-191 recoveredoriginalp189validwhitishbordertoforehead/billretained, hockingi scope notLojaassignment. KOEP-ALARCON-2023 prioractualbody supportsjuvenileWHITEbrows; freshpublisherfull/find403, searchsummarynotfreshprimaryread. Youngbrownotmutedbyadultcriterion. New0/reused3/contrast-scope1. [Research/prompt](species/130-megascops-koepckeae-v6.md). Quantitativewidthunmeasured, sciencefalse.

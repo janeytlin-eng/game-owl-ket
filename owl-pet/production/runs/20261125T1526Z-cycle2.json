@@ -7,7 +7,7 @@
   "action": "REVISION",
   "started_at": "2026-11-25T15:32:52.442Z",
   "status": "STARTED",
-  "stage": "IMAGE_GENERATED",
+  "stage": "ARCHIVED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -19,6 +19,14 @@
       "evidence": [
         "owl-pet/production/generated/58-ketupa-coromanda-v7-original.png"
       ]
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-25T15:36:03.322Z"
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-25T15:36:03.322Z"
     }
   ],
   "scientifically_verified": false,
@@ -34,5 +42,7 @@
   "local_path": "/workspace/scratch/180c531d917a/owl-1526/58-ketupa-coromanda-v7.png",
   "original_blob": "001dae37a91f3d426f75986d3d41c10d49551015",
   "original": "owl-pet/production/generated/58-ketupa-coromanda-v7-original.png",
-  "generation_wait_seconds": 49.332
+  "generation_wait_seconds": 49.332,
+  "concept": "owl-pet/design/concepts/58-ketupa-coromanda-v7.png",
+  "review_record": "owl-pet/research/reviews/58-ketupa-coromanda-v7-review.md"
 }

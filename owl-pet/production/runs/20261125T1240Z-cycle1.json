@@ -4,6 +4,23 @@
   "run_id": "20261125T1240Z-cycle1",
   "started_at": "2026-11-25T12:37:53.172Z",
   "status": "STARTED",
-  "stage": "STARTED",
-  "stages": []
+  "stage": "RESEARCH_READY",
+  "stages": [
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-25T12:39:51.619Z"
+    }
+  ],
+  "id": "68-tyto-tenebricosa-v6",
+  "species": "Tyto tenebricosa",
+  "action": "REVISION",
+  "scientifically_verified": false,
+  "research_record": "owl-pet/research/species/68-tyto-tenebricosa-v6.md",
+  "prompt": "Edit ONLY the central juvenile label in this Greater Sooty Owl triptych. Replace \"APPROX. SIX-WEEK CAVITY CHICK\" with exactly \"AGE-UNKNOWN CAVITY NESTLING\". Keep type style, parchment plaque and legibility. All three owls, including the grey-downy chick with defined facial discs and visible emerging wing feathers, must remain unchanged; preserve anatomy, wing lengths, eyes, pale bills, modest sex scale, adult feather patterns, all feet/cavity-floor support and forest hollow environment. Keep adult labels, title and scientific name unchanged. This corrects a merged age inference: the feather-emergence observation in the primary paper has no measured age. Do not invent a younger stage or remove documented visible feathers. No extra birds/text/logos.",
+  "errors": [
+    {
+      "step": "primary retrieval",
+      "error": "Old Hyem URL web internal error and direct HTTP404; resolved fresh search to ABSA2021/10 full PDF, actually read printed21–22."
+    }
+  ]
 }

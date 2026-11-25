@@ -4,13 +4,20 @@
   "run_id": "20261125T0640Z-cycle3",
   "started_at": "2026-11-25T06:48:00.034Z",
   "status": "STARTED",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-25T06:48:45.234Z",
       "evidence": [
         "owl-pet/research/species/131-megascops-watsonii-v6.md"
+      ]
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-25T06:50:28.401Z",
+      "evidence": [
+        "owl-pet/production/generated/131-megascops-watsonii-v6-original.png"
       ]
     }
   ],
@@ -22,5 +29,14 @@
     "new": 0,
     "reused": 4
   },
-  "prompt": "Use case text-localization/precise-object-edit. Edit attached #131 Megascops watsonii v5 plate ONLY by adding a clearly readable compact footer in existing loweremptyspace below rolelabels: 'CONCEPT · TAXON LIMITS DISPUTED' and on next line 'MANAUS YOUNG REFERENCE · LINEAGE / FLIGHT UNVERIFIED'. Warmcreamlettering onsubtledarkstrip, alltextinside1536x1024. Preserve exact existing title, scientificname/Guiana Shield concept subtitle and allrolelabels. Exactly3birds unchanged including everyplumage/eye/bill/tuft, formed down-obscured juvenilewing/tail, supportedheadturnandtwofeet, adultnearequalscale, allfeet/branch/rainforest/light. No biological recolouring, age/flight claim, extra bird, nest or scientificapproval. Makefooterlegiblewithoutcroppingexistinglabel."
+  "prompt": "Use case text-localization/precise-object-edit. Edit attached #131 Megascops watsonii v5 plate ONLY by adding a clearly readable compact footer in existing loweremptyspace below rolelabels: 'CONCEPT · TAXON LIMITS DISPUTED' and on next line 'MANAUS YOUNG REFERENCE · LINEAGE / FLIGHT UNVERIFIED'. Warmcreamlettering onsubtledarkstrip, alltextinside1536x1024. Preserve exact existing title, scientificname/Guiana Shield concept subtitle and allrolelabels. Exactly3birds unchanged including everyplumage/eye/bill/tuft, formed down-obscured juvenilewing/tail, supportedheadturnandtwofeet, adultnearequalscale, allfeet/branch/rainforest/light. No biological recolouring, age/flight claim, extra bird, nest or scientificapproval. Makefooterlegiblewithoutcroppingexistinglabel.",
+  "bytes": 2661072,
+  "sha256": "0a7e6886cd670ef2a13324a77e8bbc8c8cb60bae50a1ba2f27856d5c2ccdd480",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "original_blob": "9d0a88c180094b56a7e6888540664a26a3d91734",
+  "original": "owl-pet/production/generated/131-megascops-watsonii-v6-original.png",
+  "generation_wait_seconds": 45.631
 }

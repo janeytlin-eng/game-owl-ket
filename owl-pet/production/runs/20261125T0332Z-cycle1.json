@@ -3,8 +3,8 @@
   "cycle": 1,
   "run_id": "20261125T0332Z-cycle1",
   "started_at": "2026-11-25T03:32:40.072Z",
-  "stage": "ARCHIVED",
-  "status": "ARCHIVED_VERIFICATION_PENDING",
+  "stage": "VERIFIED",
+  "status": "VERIFIED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -25,6 +25,11 @@
       "stage": "ARCHIVED",
       "at": "2026-11-25T03:37:14.190Z",
       "evidence": "owl-pet/design/concepts/112-asio-abyssinicus-v5.png"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-25T03:37:47.907Z",
+      "evidence": "5789f5106d59f7f58e194f0d2eff1627f68d891b"
     }
   ],
   "baseline_unique_species": 206,
@@ -46,5 +51,14 @@
     "mode": "RGB"
   },
   "review_record": "owl-pet/research/reviews/112-asio-abyssinicus-v5-review.md",
-  "scientifically_verified": false
+  "scientifically_verified": false,
+  "ended_at": "2026-11-25T03:37:47.907Z",
+  "archive_commit": "5789f5106d59f7f58e194f0d2eff1627f68d891b",
+  "verification": {
+    "at": "2026-11-25T03:37:47.907Z",
+    "remote_original_bytes": 2871731,
+    "sha256": "ef2aee23fe63bc963fbe720022a137ad1ccfc0c01c9ba8f2b1de66c9e48d4b60",
+    "PNG_decode": "PASS",
+    "research_index_prompt_readback": "PASS"
+  }
 }

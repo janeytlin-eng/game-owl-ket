@@ -4,13 +4,20 @@
   "run_id": "20261125T0748Z-cycle3",
   "started_at": "2026-11-25T08:39:51.655Z",
   "status": "IN_PROGRESS",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-25T08:41:51.269Z",
       "evidence": [
         "owl-pet/research/species/98-strix-chacoensis-v6.md"
+      ]
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-25T08:43:15.371Z",
+      "evidence": [
+        "owl-pet/production/generated/98-strix-chacoensis-v6-original.png"
       ]
     }
   ],
@@ -19,5 +26,16 @@
   "action": "SCIENCE_REVISION",
   "research_record": "owl-pet/research/species/98-strix-chacoensis-v6.md",
   "prompt": "Precise-object-edit #98 Chaco Owl Strix chacoensis v5. Change ONLY the pale FEATHERED TARSI (lower legs above toe bases) of BOTH ADULTS left/right. Add a FEW faint narrow irregular rusty-brown/dusky short cross-bars and small spots breaking the currently almost plain offwhite leg feathering. Pale cream/dirtywhite must remain predominant. Do not make broad continuous dark rings, solid rufous legs, or erase feathering. Preserve adult proximal half feathered toes, exposed distaltoeareas, reddishhornclaws/darktips, exact toe positions/branch contact. Do NOT edit juvenile legs/plumage/face/eyes/feet. Everything else fixed: exact3owls, male3quarterholdingonefrog, femalealert, near-equaladultcrownheight/modestfemalefullness, darkadultirides/yellowishbills, palegreyconcentricfaces, whitebarredventra, grey-brownwingswithorangebuffmarks, fluffygrey-buffyoung/compactsoftwing/shorttail/twofootgrip. Same warmdryChacowoodland/Prosopis/quebracho/thorns/cacti/branch/sizes/layout1536x1024. Exacttitles '98 CHACO OWL' / 'Strix chacoensis', all existingrolelabels including OLDER FLUFFY JUVENILE — AGE UNKNOWN. No invented nest, firstflight, preciseage, sexsizepercentage, extra animals exceptexistingfrog, watermark or extra text.",
-  "research_summary": "New0/reused2: MIKKOLA-2013 actualprinted336/PDF338 captionwhitishtarsi/rufousbars; CHAO-NBO-2013 Santander/Figueroa/Martinez/Alvarado2013 author-uploaded https://www.researchgate.net/publication/255718775_Chaco_Owl_Strix_chacoensis DetailedDescription/BareParts/Measurements actualread. Fewdarkerbars/spots adulttarsalfeathers, notgenericowlringpattern; youngunchanged. Priorfrog2024paper notre-read."
+  "research_summary": "New0/reused2: MIKKOLA-2013 actualprinted336/PDF338 captionwhitishtarsi/rufousbars; CHAO-NBO-2013 Santander/Figueroa/Martinez/Alvarado2013 author-uploaded https://www.researchgate.net/publication/255718775_Chaco_Owl_Strix_chacoensis DetailedDescription/BareParts/Measurements actualread. Fewdarkerbars/spots adulttarsalfeathers, notgenericowlringpattern; youngunchanged. Priorfrog2024paper notre-read.",
+  "local_path": "/workspace/scratch/180c531d917a/owl-0832/98-strix-chacoensis-v6.png",
+  "bytes": 3064390,
+  "sha256": "802b0f0b738997715adbce7542e05497099f0393786489e3b01eb5fec16f8606",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "git_blob_sha": "10a03a2b38f61f4721d955cf8c30ac0a593a62bb",
+  "original_blob": "10a03a2b38f61f4721d955cf8c30ac0a593a62bb",
+  "original": "owl-pet/production/generated/98-strix-chacoensis-v6-original.png",
+  "generation_wait_seconds": 36.285
 }

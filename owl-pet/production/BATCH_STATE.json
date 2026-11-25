@@ -54465,17 +54465,28 @@
           "unique_species_increment": 0,
           "revision_increment": 1,
           "scientifically_verified": false
+        },
+        {
+          "cycle": 4,
+          "id": "67-pulsatrix-perspicillata-v6",
+          "species": "Pulsatrix perspicillata",
+          "commit_sha": "82d7074a7b7fbb53c73c9f9a3b14d3886773ecd0",
+          "archive_commit": "219b841abfd988492cbcf336f7a67ea44696eee0",
+          "run_record": "owl-pet/production/runs/20261125T1240Z-cycle4.json",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 4,
+      "next_cycle": 5,
       "next_action": "Resume same batch cycle3 from ARCHIVED, recover immutable original and verify bytes/hash/fullPNGdecode; do not regenerate or duplicate archive."
     }
   ],
   "lease": {
     "owner": "20261125T1331Z",
-    "run_id": "20261125T1240Z-cycle4",
-    "heartbeat_at": "2026-11-25T13:42:47.507Z",
-    "expires_at": "2026-11-25T13:57:47.507Z"
+    "run_id": "20261125T1240Z-cycle5",
+    "heartbeat_at": "2026-11-25T13:43:53.621Z",
+    "expires_at": "2026-11-25T13:59:00.269Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",

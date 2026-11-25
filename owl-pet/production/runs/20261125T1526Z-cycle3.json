@@ -7,14 +7,32 @@
   "action": "REVISION",
   "started_at": "2026-11-25T15:36:56.512Z",
   "status": "STARTED",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-25T15:37:45.599Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-25T15:39:59.190Z",
+      "evidence": [
+        "owl-pet/production/generated/56-bubo-virginianus-v3-original.png"
+      ]
     }
   ],
   "scientifically_verified": false,
   "research_record": "owl-pet/research/species/56-bubo-virginianus-v3.md",
-  "prompt": "Edit ONLY the outer facial-disc border of the RIGHT-HAND JUVENILE Great Horned Owl in this #56 plate. Define a natural narrow dark brown-black feather margin around its round buff-grey face, visible especially at side cheeks and under chin, feather-edged not a smooth ink outline. Keep yelloweyes/darkbill/softtinyearbuds/whitebuffdown. Do not add adultfaceoradulttufts or changeplumageelsewhere. Allotherdetails exactlyunchanged: bothadults/white throats/barredbodies/femalefuller direction, juvenile substantial formed but downoverlapped partlyraisedbalancewing/shorttail/twofeet gripping risingbranch, sticknest/woodland, titleandalllabels/3birds/style. Not a flightpose, no newday-age claim."
+  "prompt": "Edit ONLY the outer facial-disc border of the RIGHT-HAND JUVENILE Great Horned Owl in this #56 plate. Define a natural narrow dark brown-black feather margin around its round buff-grey face, visible especially at side cheeks and under chin, feather-edged not a smooth ink outline. Keep yelloweyes/darkbill/softtinyearbuds/whitebuffdown. Do not add adultfaceoradulttufts or changeplumageelsewhere. Allotherdetails exactlyunchanged: bothadults/white throats/barredbodies/femalefuller direction, juvenile substantial formed but downoverlapped partlyraisedbalancewing/shorttail/twofeet gripping risingbranch, sticknest/woodland, titleandalllabels/3birds/style. Not a flightpose, no newday-age claim.",
+  "bytes": 3320931,
+  "sha256": "297250a6211748c89e826c632593607d54e2a65ff55793e8a72fe622c39ef463",
+  "gitblob": "46da0549b81b78955f958280cf2f61c6338ea91f",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "local_path": "/workspace/scratch/180c531d917a/owl-1526/56-bubo-virginianus-v3.png",
+  "original_blob": "46da0549b81b78955f958280cf2f61c6338ea91f",
+  "original": "owl-pet/production/generated/56-bubo-virginianus-v3-original.png",
+  "generation_wait_seconds": 50.195
 }

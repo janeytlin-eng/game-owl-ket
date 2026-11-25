@@ -7367,3 +7367,7 @@ ABOW-MIKKOLA-2013 printed412–413/PDF414–415freshread: brownerlessbarredmesop
 
 ## 27-glaucidium-passerinum-v6
 New0/reused2fresh+2prior. EUPO-MIKKOLA-2013 printed364/PDF366mesoptilesprominentbrows/whitechin/plaincrownactualread; EUPO-EGE-2024-FLEDGING https://egeeulen.de/eulenarten/der-sperlingskauz-glaucidium-passerinum/ Kennzeichen/Fortpflanzungreread. Primary2010andSovadinova2024prioronly. ADWtimeoutnoactualnewbody. [Research](species/27-glaucidium-passerinum-v6.md). Iris/age/flightunknown; no genericwhole-faceplainness.
+
+
+## 26-glaucidium-siju-v6
+New0/reused2fresh+1prior: CUPO-PYLE-ETAL-2004-JFO actualG.sijuaccountprinted138/PDF3readunmarkedjuvenalback/indistinctcrownspots/streakedunderparts. Adjacentcuckoofactsnottransferred; HYnotdayage, dullirisquestionmarktentative. CUPO-MIKKOLA-2013 printed382/PDF384freshread; CUPO-GARRIDO-2002prioronly. [Research](species/26-glaucidium-siju-v6.md).

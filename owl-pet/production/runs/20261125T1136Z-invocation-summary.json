@@ -1,0 +1,252 @@
+{
+  "run_id": "20261125T1136Z",
+  "started_at": "2026-11-25T11:36:55.458Z",
+  "ended_at": "2026-11-25T12:11:17.401Z",
+  "status": "SIX_CYCLES_COMPLETED_CURRENT_BATCH_PARTIAL",
+  "completed_cycles": 6,
+  "new_species": 0,
+  "revised_groups": 6,
+  "coverage": {
+    "unique": 206,
+    "total": 251,
+    "missing": 45,
+    "numbered_versions": 1106,
+    "manifest_entries": 1060
+  },
+  "current_batch": {
+    "id": "20261125T1144Z",
+    "completed": 5,
+    "target": 6,
+    "next": 6
+  },
+  "other_incomplete_batches": [],
+  "source_counts": {
+    "new_documents": 2,
+    "reused_documents": 16,
+    "total_documents": 18,
+    "cycle_document_uses": 22
+  },
+  "source_correction_commit": "bdcb1cdf40096d840a82a81492b5229bd2e1469a",
+  "cycles": [
+    {
+      "id": "75-ninox-scutulata-v6",
+      "batch": "20261125T1034Z",
+      "cycle": 6,
+      "archive_commit": "2881fcdcb6cb75de224d8e6117d8ff2b7fa82be5",
+      "verified_commit": "37af70dbe33a86148dea97770a378629d756b829",
+      "ledger_commit": "8fb61fb043fcccf642331015ae94e25f7a56ec45",
+      "run": "owl-pet/production/runs/20261125T1034Z-cycle6.json",
+      "original": "owl-pet/production/generated/75-ninox-scutulata-v6-original.png",
+      "bytes": 2760270,
+      "sha256": "c9279c2c93b8520b9d753296b3a12235d068227ebd1c9a71445fc3f6c5f4d4de",
+      "verification": {
+        "bytes": 2760270,
+        "sha256": "c9279c2c93b8520b9d753296b3a12235d068227ebd1c9a71445fc3f6c5f4d4de",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "fullPNGdecode": "PASS"
+      }
+    },
+    {
+      "id": "70-ninox-strenua-v6",
+      "batch": "20261125T1144Z",
+      "cycle": 1,
+      "archive_commit": "ba1ccfa51991fde96a762ee05ed6c8eae51639e3",
+      "verified_commit": "5d5e8ec2e36846b759eb2926cebcd972518b4c4b",
+      "ledger_commit": "9d9bfc3840defdf61d6d987e46406c6d2aca30d3",
+      "run": "owl-pet/production/runs/20261125T1144Z-cycle1.json",
+      "original": "owl-pet/production/generated/70-ninox-strenua-v6-edit1-original.png",
+      "bytes": 2809260,
+      "sha256": "f29e3ed547aad532b67e0dc2fd6362b510e8c14eedcf931ebb1ddfed7bf659ef",
+      "verification": {
+        "bytes": 2809260,
+        "sha256": "f29e3ed547aad532b67e0dc2fd6362b510e8c14eedcf931ebb1ddfed7bf659ef",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "fullPNGdecode": "PASS"
+      }
+    },
+    {
+      "id": "71-ninox-connivens-v6",
+      "batch": "20261125T1144Z",
+      "cycle": 2,
+      "archive_commit": "5399324bd122db51e71f60f5233c734d706a572a",
+      "verified_commit": "ef5682eb7bc410de582a12f34d96cd9d86a28f94",
+      "ledger_commit": "fe8b282adec8d9dc9d8a8d9193c9606faaeddd85",
+      "run": "owl-pet/production/runs/20261125T1144Z-cycle2.json",
+      "original": "owl-pet/production/generated/71-ninox-connivens-v6-original.png",
+      "bytes": 2902263,
+      "sha256": "1227ae055d0697e560dc7d1cf78ac85c0ef93b76de2ba76d0e8d436b99634c7b",
+      "verification": {
+        "bytes": 2902263,
+        "sha256": "1227ae055d0697e560dc7d1cf78ac85c0ef93b76de2ba76d0e8d436b99634c7b",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "fullPNGdecode": "PASS"
+      }
+    },
+    {
+      "id": "72-ninox-boobook-v6",
+      "batch": "20261125T1144Z",
+      "cycle": 3,
+      "archive_commit": "897160bc08913149c39606b526487303e8b4cbab",
+      "verified_commit": "d364b62ddc6c15d14da7cac6d1b651e205033296",
+      "ledger_commit": "a0bcb4c2dba4a433c85e8ae9c25dc9ae75d59d5f",
+      "run": "owl-pet/production/runs/20261125T1144Z-cycle3.json",
+      "original": "owl-pet/production/generated/72-ninox-boobook-v6-original.png",
+      "bytes": 2951187,
+      "sha256": "111e537488adcc23ba624f4570134358a6b4489a49e30253823e21af12eb4863",
+      "verification": {
+        "bytes": 2951187,
+        "sha256": "111e537488adcc23ba624f4570134358a6b4489a49e30253823e21af12eb4863",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "fullPNGdecode": "PASS"
+      }
+    },
+    {
+      "id": "73-ninox-rufa-v7",
+      "batch": "20261125T1144Z",
+      "cycle": 4,
+      "archive_commit": "4bb637d78de6027d7938f98d4df74b81ceb3addc",
+      "verified_commit": "ab7a7a8337d4cdcb34cc5e0d09b0e0358c3324da",
+      "ledger_commit": "3186ee8810a4d3ec6a76d9334fc8b8cb423f12a8",
+      "run": "owl-pet/production/runs/20261125T1144Z-cycle4.json",
+      "original": "owl-pet/production/generated/73-ninox-rufa-v7-original.png",
+      "bytes": 2555943,
+      "sha256": "7713fcaa145f855aebdd0408552815408bf3abc8aae9ad291b2ce133d877bc4d",
+      "verification": {
+        "bytes": 2555943,
+        "sha256": "7713fcaa145f855aebdd0408552815408bf3abc8aae9ad291b2ce133d877bc4d",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "fullPNGdecode": "PASS"
+      }
+    },
+    {
+      "id": "66-tyto-capensis-v6",
+      "batch": "20261125T1144Z",
+      "cycle": 5,
+      "archive_commit": "53e731865830da360880da7c4a4c1e9c2335a346",
+      "verified_commit": "aabd18f9d722cf08860d3557b68d9dda0cfe1a18",
+      "ledger_commit": "4f24fcaff1e26b5c23eb264b0a2441b5eca36031",
+      "run": "owl-pet/production/runs/20261125T1144Z-cycle5.json",
+      "original": "owl-pet/production/generated/66-tyto-capensis-v6-original.png",
+      "bytes": 2926410,
+      "sha256": "ac207edb5bb3c23a1645eda6badfde5a64abadd0cb97e722a1c26974518620b3",
+      "verification": {
+        "bytes": 2926410,
+        "sha256": "ac207edb5bb3c23a1645eda6badfde5a64abadd0cb97e722a1c26974518620b3",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "fullPNGdecode": "PASS"
+      }
+    }
+  ],
+  "timing": [
+    {
+      "id": "75-ninox-scutulata-v6",
+      "started_at": "2026-11-25T11:36:55.458Z",
+      "research_ready_at": "2026-11-25T11:38:01.726Z",
+      "image_persisted_at": "2026-11-25T11:39:57.698Z",
+      "reviewed_at": "2026-11-25T11:40:48.614Z",
+      "archive_stage_at": "2026-11-25T11:40:48.614Z",
+      "verified_at": "2026-11-25T11:41:09.216Z",
+      "research_interval_s": 66,
+      "research_ready_to_final_review_s": 167,
+      "archive_to_verified_s": 21,
+      "instrumented_final_imagegen_wait_s": 34.39,
+      "initial_imagegen_wait_s": null,
+      "notes": "Stage intervals include orchestration, transfer, inspection and commits; not isolated CPU or network timing. #70 final wait belongs to extra toe edit; initial wait108.4s from earlier actual tool timing. Other cycles one imagegen edit."
+    },
+    {
+      "id": "70-ninox-strenua-v6",
+      "started_at": "2026-11-25T11:41:54.935Z",
+      "research_ready_at": "2026-11-25T11:43:04.948Z",
+      "image_persisted_at": "2026-11-25T11:45:55.047Z",
+      "reviewed_at": "2026-11-25T11:48:23.633Z",
+      "archive_stage_at": "2026-11-25T11:48:23.633Z",
+      "verified_at": "2026-11-25T11:48:41.837Z",
+      "research_interval_s": 70,
+      "research_ready_to_final_review_s": 319,
+      "archive_to_verified_s": 18,
+      "instrumented_final_imagegen_wait_s": 41.61,
+      "initial_imagegen_wait_s": 108.4,
+      "notes": "Stage intervals include orchestration, transfer, inspection and commits; not isolated CPU or network timing. #70 final wait belongs to extra toe edit; initial wait108.4s from earlier actual tool timing. Other cycles one imagegen edit."
+    },
+    {
+      "id": "71-ninox-connivens-v6",
+      "started_at": "2026-11-25T11:48:41.837Z",
+      "research_ready_at": "2026-11-25T11:50:10.865Z",
+      "image_persisted_at": "2026-11-25T11:51:52.502Z",
+      "reviewed_at": "2026-11-25T11:52:16.186Z",
+      "archive_stage_at": "2026-11-25T11:52:16.186Z",
+      "verified_at": "2026-11-25T11:52:37.432Z",
+      "research_interval_s": 89,
+      "research_ready_to_final_review_s": 125,
+      "archive_to_verified_s": 21,
+      "instrumented_final_imagegen_wait_s": 45.768,
+      "initial_imagegen_wait_s": null,
+      "notes": "Stage intervals include orchestration, transfer, inspection and commits; not isolated CPU or network timing. #70 final wait belongs to extra toe edit; initial wait108.4s from earlier actual tool timing. Other cycles one imagegen edit."
+    },
+    {
+      "id": "72-ninox-boobook-v6",
+      "started_at": "2026-11-25T11:52:37.432Z",
+      "research_ready_at": "2026-11-25T11:53:59.874Z",
+      "image_persisted_at": "2026-11-25T11:56:05.639Z",
+      "reviewed_at": "2026-11-25T11:56:28.933Z",
+      "archive_stage_at": "2026-11-25T11:56:28.933Z",
+      "verified_at": "2026-11-25T11:56:46.581Z",
+      "research_interval_s": 82,
+      "research_ready_to_final_review_s": 149,
+      "archive_to_verified_s": 18,
+      "instrumented_final_imagegen_wait_s": 45.868,
+      "initial_imagegen_wait_s": null,
+      "notes": "Stage intervals include orchestration, transfer, inspection and commits; not isolated CPU or network timing. #70 final wait belongs to extra toe edit; initial wait108.4s from earlier actual tool timing. Other cycles one imagegen edit."
+    },
+    {
+      "id": "73-ninox-rufa-v7",
+      "started_at": "2026-11-25T11:56:46.581Z",
+      "research_ready_at": "2026-11-25T11:57:56.296Z",
+      "image_persisted_at": "2026-11-25T11:59:56.747Z",
+      "reviewed_at": "2026-11-25T12:00:19.715Z",
+      "archive_stage_at": "2026-11-25T12:00:19.715Z",
+      "verified_at": "2026-11-25T12:00:39.909Z",
+      "research_interval_s": 70,
+      "research_ready_to_final_review_s": 143,
+      "archive_to_verified_s": 20,
+      "instrumented_final_imagegen_wait_s": 39.835,
+      "initial_imagegen_wait_s": null,
+      "notes": "Stage intervals include orchestration, transfer, inspection and commits; not isolated CPU or network timing. #70 final wait belongs to extra toe edit; initial wait108.4s from earlier actual tool timing. Other cycles one imagegen edit."
+    },
+    {
+      "id": "66-tyto-capensis-v6",
+      "started_at": "2026-11-25T12:00:39.909Z",
+      "research_ready_at": "2026-11-25T12:02:20.304Z",
+      "image_persisted_at": "2026-11-25T12:04:20.388Z",
+      "reviewed_at": "2026-11-25T12:08:04.627Z",
+      "archive_stage_at": "2026-11-25T12:08:04.627Z",
+      "verified_at": "2026-11-25T12:08:25.601Z",
+      "research_interval_s": 100,
+      "research_ready_to_final_review_s": 344,
+      "archive_to_verified_s": 21,
+      "instrumented_final_imagegen_wait_s": 40.632,
+      "initial_imagegen_wait_s": null,
+      "notes": "Stage intervals include orchestration, transfer, inspection and commits; not isolated CPU or network timing. #70 final wait belongs to extra toe edit; initial wait108.4s from earlier actual tool timing. Other cycles one imagegen edit."
+    }
+  ],
+  "limitations": "All concept PASS_WITH_LIMITATIONS; scientifically_verified=false; new user confirmations0. Unread failed sources excluded. Current batch5/6, no global completion or background-production claim.",
+  "summary": "owl-pet/production/batches/20261125T1144Z-resume-20261125T1136Z-review.md"
+}

@@ -119,3 +119,6 @@ Generic darktalonprior leakeddespiteyellowfeet. Checkclawsasindependentbarepart;
 
 ##2026-11-25 130-megascops-koepckeae-v6
 #130: apply adult eyebrow criterion only to adults. Primary juvenile white brows are independently documented. Preserve legitimate pale face margins and do not transfer hockingi painting palette to unassigned Loja birds. This edit visibly reduces adult white-band contrast; broad scientific validity unverified.
+
+##2026-11-25 136-megascops-petersoni-v7
+#136 species-specific pale details: distinguish warm buff eyebrow from white, and pale horn claw from #137 orange-yellow claw. Both primary and guide checked independently. Actual revision visually achieved warm brows/pale claws; do not extrapolate to other owl species or erase valid variable belly shaft/crossbar pattern.

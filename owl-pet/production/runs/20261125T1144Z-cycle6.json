@@ -4,11 +4,18 @@
   "run_id": "20261125T1144Z-cycle6",
   "started_at": "2026-11-25T12:08:25.601Z",
   "status": "IN_PROGRESS",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-25T12:33:32.718Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-25T12:36:18.536Z",
+      "evidence": [
+        "owl-pet/production/generated/74-ninox-novaeseelandiae-v7-original.png"
+      ]
     }
   ],
   "handoff_at": "2026-11-25T12:11:17.401Z",
@@ -20,5 +27,17 @@
   "action": "REVISION",
   "scientifically_verified": false,
   "research_record": "owl-pet/research/species/74-ninox-novaeseelandiae-v7.md",
-  "prompt": "Use case: precise-object-edit. Edit this #74 Morepork Ninox novaeseelandiae v6 plate into v7. Change ONLY the two ADULTS' LOWER underpart feather pattern below upper breast: replace long uninterrupted bright cream shaft-streaks on uniformly dark feathers with subtly ocellated individual feathers, each having a pale creamy-whitish ground, a narrow dark brown central shaft streak, and a small dark terminal crossbar. Keep the brownish-white/pale buff throat and upper-breast dark flecks/streaks, brown/rufous overall variation and natural feather boundaries. Do not make broad zebra bands, giant white patches or a pure-white belly. Preserve adult crown/wing pattern, subdued slate-grey bill bases and dark cutting tips, yellow eyes and yellow feet, near-equal adult display without a fixed sex ratio. Central age-unknown RECENT FLEDGLING, its brown/dark grey residual down, legitimate formed white-spotted folded wing and partly hidden short tail entirely unchanged. Keep all six feet naturally contacting the same tree-fork/leaflitter support, same NZ forest/ferns, exactly three owls, same painterly natural-history style, all existing titles/role labels/science-pending footer. No extra feathers, limbs, birds, new age, new sex differences or flight actions."
+  "prompt": "Use case: precise-object-edit. Edit this #74 Morepork Ninox novaeseelandiae v6 plate into v7. Change ONLY the two ADULTS' LOWER underpart feather pattern below upper breast: replace long uninterrupted bright cream shaft-streaks on uniformly dark feathers with subtly ocellated individual feathers, each having a pale creamy-whitish ground, a narrow dark brown central shaft streak, and a small dark terminal crossbar. Keep the brownish-white/pale buff throat and upper-breast dark flecks/streaks, brown/rufous overall variation and natural feather boundaries. Do not make broad zebra bands, giant white patches or a pure-white belly. Preserve adult crown/wing pattern, subdued slate-grey bill bases and dark cutting tips, yellow eyes and yellow feet, near-equal adult display without a fixed sex ratio. Central age-unknown RECENT FLEDGLING, its brown/dark grey residual down, legitimate formed white-spotted folded wing and partly hidden short tail entirely unchanged. Keep all six feet naturally contacting the same tree-fork/leaflitter support, same NZ forest/ferns, exactly three owls, same painterly natural-history style, all existing titles/role labels/science-pending footer. No extra feathers, limbs, birds, new age, new sex differences or flight actions.",
+  "bytes": 2863275,
+  "sha256": "24d99d810e9ed652f5db36cb206d38737f509044be36d5886b72a6cdc5f9bacd",
+  "gitblob": "1985f3a4202f87f4299ace71764ce6cc76cfc848",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "local_path": "/workspace/scratch/180c531d917a/owl-1231/74-ninox-novaeseelandiae-v7.png",
+  "generation_wait_seconds": 97.218,
+  "original_blob": "1985f3a4202f87f4299ace71764ce6cc76cfc848",
+  "original": "owl-pet/production/generated/74-ninox-novaeseelandiae-v7-original.png",
+  "image_transfer_seconds": 24.686
 }

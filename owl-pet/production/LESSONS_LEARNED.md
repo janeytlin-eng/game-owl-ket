@@ -104,3 +104,6 @@ Corrupt oldv5 pluscopies notvaliddespitehistoricalPASS. Prefixscan foundno recov
 
 ##2026-11-25 139-otus-jolandae-v6
 Comparison-specific absence of broadsidebars/diamonds doesnotmean removeshafts. Firstpromptpriorv5 insufficienteffect checkedactualcrop; v6narrowedlateralcomponentsvisually. Repetitionremainsnotclaimscientificpass. Originalolderimmaturetype supportsfeatherremnants nothatchage, preservevalidformedwings. #138textaloneinsufficienttodenycoverts, rejected speculativeedit.
+
+##2026-11-25 140-otus-rufescens-v7
+Do not normalize every Otus into streakedgenericowl: rufescens explicitventralspotsversusjolandaeshafts+finebars. Zoneboundarymatters: adultflightfeatherbars remainlegitimate, andv7didnoterasewingpattern. Guidebodyyellowishtoes/captionwhitish variation not groundsfornewrecolour; rejectedfalsefix. Youngvalidmesoptile retained noadultpatterntransfer. Outputfull+cropverifyshowsdirectionimproved, literalspotmapnotvalidated.

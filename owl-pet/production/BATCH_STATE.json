@@ -54283,16 +54283,27 @@
           "unique_species_increment": 0,
           "revision_increment": 1,
           "scientifically_verified": false
+        },
+        {
+          "cycle": 2,
+          "id": "80-otus-sunia-v6",
+          "species": "Otus sunia",
+          "commit_sha": "85861562e5e4f6f19db51a911b22a8ab559fa27a",
+          "archive_commit": "f803fbdd7ce99544b52a67e02d40df7bd87ca100",
+          "run_record": "owl-pet/production/runs/20261125T1034Z-cycle2.json",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 2
+      "next_cycle": 3
     }
   ],
   "lease": {
     "owner": "20261125T1034Z-production",
-    "run_id": "20261125T1034Z-cycle2",
-    "heartbeat_at": "2026-11-25T10:46:00.569Z",
-    "expires_at": "2026-11-25T11:01:02.314Z"
+    "run_id": "20261125T1034Z-cycle3",
+    "heartbeat_at": "2026-11-25T10:46:41.890Z",
+    "expires_at": "2026-11-25T11:01:47.782Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",

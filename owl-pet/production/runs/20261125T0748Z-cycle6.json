@@ -4,13 +4,20 @@
   "run_id": "20261125T0748Z-cycle6",
   "started_at": "2026-11-25T08:55:01.215Z",
   "status": "IN_PROGRESS",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-25T08:56:27.613Z",
       "evidence": [
         "owl-pet/research/species/92-ninox-japonica-v6.md"
+      ]
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-25T08:57:46.599Z",
+      "evidence": [
+        "owl-pet/production/generated/92-ninox-japonica-v6-original.png"
       ]
     }
   ],
@@ -19,5 +26,16 @@
   "action": "SCIENCE_REVISION",
   "research_record": "owl-pet/research/species/92-ninox-japonica-v6.md",
   "prompt": "Use case: precise-object-edit. Edit target #92 Ninox japonica v5 supplied plate. Change ONLY bill colour on the TWO ADULTS at left and center: replace the conspicuous saturated yellow-horn lower half with dark neutral grey/brown horn matching the dark upper bill; retain a small subdued paler grey-horn tip and natural highlights, NOT a large yellow wedge. Preserve bill shape, length, position and all face feathers. DO NOT change the right juvenile bill/gape or yellow eyes/toes. Keep everything else exactly: all3 birds, no tufts, small white between-eye patch, irregular white shoulder spots, dark crown/back, broadly brown-streaked pale ventrum, barred tails, near-equal adults, fluffy young softer/sparser streaks, compact folded wing/short concealed tail, two-foot support, natural cavity, Taiwan forest/orchard, border/paper texture1536x1024. Exact existing title \"92 · NORTHERN BOOBOOK · Ninox japonica\" and labels ADULT MALE / ADULT FEMALE / RECENT FLEDGLING retained. No new age, flight, dimorphism or scientific-approval claim.",
-  "research_summary": "Reused3: JAP-MIK2013-466(actual466–467/PDF468–469), JAP-TAIEOL2013(actual institutional Description), JAP-LIN-LIN-TSENG-2012-PP164-166(actual originalpp164–166/Table3). Adult bill darkgrey vs darkbrown/pale-tip reconciled as darkneutralhorn/smallpaletip. Primary Table3/no significantsexdifference retained; discussion wingchordsexmeans conflict flagged. New0, correcteddesignboundary1; youngbill/age/flightunknown."
+  "research_summary": "Reused3: JAP-MIK2013-466(actual466–467/PDF468–469), JAP-TAIEOL2013(actual institutional Description), JAP-LIN-LIN-TSENG-2012-PP164-166(actual originalpp164–166/Table3). Adult bill darkgrey vs darkbrown/pale-tip reconciled as darkneutralhorn/smallpaletip. Primary Table3/no significantsexdifference retained; discussion wingchordsexmeans conflict flagged. New0, correcteddesignboundary1; youngbill/age/flightunknown.",
+  "local_path": "/workspace/scratch/180c531d917a/owl-0832/92-ninox-japonica-v6.png",
+  "bytes": 2999243,
+  "sha256": "6fe76c46199b966c96f860051279242b76463ed9be48cc8ccd9f9045ffcb2fb5",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "git_blob_sha": "f5679c363e759848ea70c5bf0830af3994d02b82",
+  "original_blob": "f5679c363e759848ea70c5bf0830af3994d02b82",
+  "original": "owl-pet/production/generated/92-ninox-japonica-v6-original.png",
+  "generation_wait_seconds": 38.922
 }

@@ -3,9 +3,26 @@
   "cycle": 6,
   "run_id": "20261125T0230Z-cycle6",
   "started_at": "2026-11-25T02:42:05.534Z",
-  "status": "STARTED",
-  "stage": "STARTED",
-  "stages": [],
+  "status": "IN_PROGRESS",
+  "stage": "RESEARCH_READY",
+  "stages": [
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-25T02:46:16.435Z",
+      "evidence": "owl-pet/research/species/97-lophostrix-cristata-v6.md"
+    }
+  ],
   "baseline_unique_species": 206,
-  "notes": "Resume same oldest batch; source-gap screening before supported image work; no stage credit."
+  "notes": "Resume same oldest batch; source-gap screening before supported image work; no stage credit.",
+  "id": "97-lophostrix-cristata-v6",
+  "species": "Lophostrix cristata",
+  "action": "MORPHOLOGY_REVISION",
+  "prompt": "Use case: precise-object-edit. Edit the supplied #97 Crested Owl Lophostrix cristata v5 plate into v6, preserving its exact composition, painterly natural-history style, all three birds and labels/title/locality, adult size balance, long white eyebrow/ear plumes, faces/irises/bills, wing feathers and wing barring, underbody texture, juvenile white down/dark facial disc/short tufts/formed folded wings, branch/cavity-free forest setting, all feet and support. Change only the rectrix (TAIL) pattern on the two adult birds: replace the current broad bright evenly spaced ladder-like bands with much narrower, subdued, slightly irregular cinnamon-buff/whitish crossbars over predominantly dark chocolate-brown tails. Make the central rectrices and distal tail tips less prominently banded, with fine darker mottling between bars. Preserve visible narrow pale barring on the ventral-facing portions: do NOT make uniformly plain black tails, do NOT erase every bar, and do not confuse long folded wing feathers with tail feathers. Retain existing tail length, overlap and feather shape. Do not change the central juvenile's tail or wing, whose age-specific exact tail pattern remains unquantified. Basis: Wetmore1968 printed158–159 explicitly describes narrow cinnamon-buff/white tail bars, less prominent centrally and toward tips, plus narrow white bars underneath; Mikkola2013p358 describes fine darker mottling. This is a bounded pattern-width/contrast calibration, not a universal measured bar ratio. No added text, extra birds, arrows, border, or watermark.",
+  "source_counts": {
+    "new": 0,
+    "reused": 3,
+    "index_corrections": 2
+  },
+  "research_record": "owl-pet/research/species/97-lophostrix-cristata-v6.md",
+  "scientifically_verified": false
 }

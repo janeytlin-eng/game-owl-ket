@@ -7355,3 +7355,7 @@ New0/reused3fresh+1prior: JUOW-MIKKOLA-2013 printed403–404/PDF405–406actualr
 
 ## 30-glaucidium-cuculoides-v6
 New0/reused2fresh: ASBO-MIKKOLA-2013 printed408/PDF410plain/weakmesoptilemantleandspottedhead; ASBO-HKBWS-AVIFAUNA-2024 https://avifauna.hkbws.org.hk/species/0190/026900 actualIdentification/Breeding/Systematicsreread. Retainheadspots/yellowfledglingiris; reducecrispadultmantlerows, formedwingsretained. Age/flightunknown. [Research](species/30-glaucidium-cuculoides-v6.md).
+
+
+## #29 preflight20261125T2133Z — unavailable original / no image credit
+ABOW-VENTER-BIRDLIFE-2019-PP23-28 existingpublisherURLnow404; two-enginealternate-title search/localPDFsearch no verifiedoriginal. Priorreadkeptasprioronly. Mikkola2013printed412/PDF414adultregionalpatternreread, cannotestablishjuvenileiris. ABC2024vocalpapersearchleadnotfullreadandnotcurrenttaxonomyauthority. No newverifiedsource, reusedbook1; noimage/credit. [Actual preflight](runs/20261125T2133Z-29-preflight.md).

@@ -243,3 +243,6 @@ Actual219barelowerleg/221whitethroat/225broadbillbase/228faintventrum/229barrede
 ## 20261124T0632Z verified2/6 — narrow evidence recovery
 #149v5实际查看后只修正OLDER阶段断言/待科学校准可见标识，不把尚无描述的幼羽说成已校准，不由单一雌雄翼长比推出体高。#201v5原照片403不等于所有一手影像均不可读：实际读取第一方PhotoArk YouTube oEmbed元数据，再打开其明确关联缩略图，恢复有限romblonis浅腹/formedwing视觉证据；原视频仍未看，不声称403已解除。图龄/虹膜/飞行/nominate对应仍未知。已实际应用在201提示/成图并查看复查，非普遍有效性声明。不能把临近段落鹦鹉幼鸟资料或romblonis棕榈巢搬进指名亚种/odiosa。150/152/153/155仅档案预读，未生图未计轮；后续先看原图和实际来源再决定，不凑修订。两图分块base64/GitblobSHA+remote长度/SHA256/PIL均通过。余4轮持久接续第3轮；预算为执行者自报，无固定超时遥测。
 [证据与原图](batches/20261124T0632Z-partial-review.md)。
+
+## 20261125T0640Z cycle6 #106v5
+Actualfootcrops verify barecreamadultdigits/palehornclaws withfeatheredtarsi preserved. Do nottransferadultfeet toyoung. Correctguide338/PDF340 vswrongprinted340/huhula. Freshguideeyeconflict isrealtextconflict, notinaccessiblesnippet; eyesloweredinphoto cannotadjudicateopeniris. Modelrerenderedfeathers, allinvariantsrechecked. Scopevalidated#106only; #107basaltoefeathering different, noautomatictransfer. [Actualreview](../research/reviews/106-strix-albitarsis-v5-review.md).

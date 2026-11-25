@@ -4,7 +4,7 @@
   "run_id": "20261125T0640Z-cycle6",
   "started_at": "2026-11-25T07:00:55.235Z",
   "status": "IN_PROGRESS",
-  "stage": "IMAGE_GENERATED",
+  "stage": "ARCHIVED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -21,6 +21,21 @@
       "at": "2026-11-25T07:46:03.822Z",
       "evidence": [
         "owl-pet/production/generated/106-strix-albitarsis-v5-original.png"
+      ]
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-25T07:46:46.493Z",
+      "result": "PASS_WITH_LIMITATIONS",
+      "evidence": [
+        "owl-pet/research/reviews/106-strix-albitarsis-v5-review.md"
+      ]
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-25T07:46:46.493Z",
+      "evidence": [
+        "owl-pet/design/concepts/106-strix-albitarsis-v5.png"
       ]
     }
   ],
@@ -51,5 +66,8 @@
   "git_blob_sha": "cef14a3516b75ef1c7cab80569b163d9f16f4b7c",
   "original_blob": "cef14a3516b75ef1c7cab80569b163d9f16f4b7c",
   "original": "owl-pet/production/generated/106-strix-albitarsis-v5-original.png",
-  "generation_wait_seconds": 37.304
+  "generation_wait_seconds": 37.304,
+  "concept": "owl-pet/design/concepts/106-strix-albitarsis-v5.png",
+  "review_record": "owl-pet/research/reviews/106-strix-albitarsis-v5-review.md",
+  "scientifically_verified": false
 }

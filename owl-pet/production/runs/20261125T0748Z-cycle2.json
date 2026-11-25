@@ -4,13 +4,20 @@
   "run_id": "20261125T0748Z-cycle2",
   "started_at": "2026-11-25T08:35:34.137Z",
   "status": "IN_PROGRESS",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-25T08:37:13.363Z",
       "evidence": [
         "owl-pet/research/species/103-tyto-longimembris-v6.md"
+      ]
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-25T08:38:51.133Z",
+      "evidence": [
+        "owl-pet/production/generated/103-tyto-longimembris-v6-original.png"
       ]
     }
   ],
@@ -19,5 +26,16 @@
   "action": "SCIENCE_REVISION",
   "research_record": "owl-pet/research/species/103-tyto-longimembris-v6.md",
   "prompt": "Precise-object-edit #103 Eastern Grass Owl Tyto longimembris v5 supplied image. Change ONLY the CLAWS on BOTH ADULTS left/right from pale beige/grey to dark blackish-brown horn, retaining natural restrained highlights and unchanged length/curvature/contact/number. Preserve pale flesh bare tarsi/toes, sparse hairs and extremely long legs. Do NOT change juvenile claws, feet, skin or feathering based on adult information. Entire rest unchanged: threebirds, male white face/white sparse-spotted underparts, female richerbuff face/chest/slightlyfuller atnear-equalheight, darkeyes/ivorybills, goldenbrown powderpuff captive-reference55dayyoung/pinkpartialface/emergingwhitefacialfeathers/compactdownconcealedwing/shortconcealedtail/groundedfeet. Existing exact title '103 · EASTERN GRASS OWL · Tyto longimembris' and role labels ADULT MALE / ≈55-DAY MESOPTILE · CAPTIVE REFERENCE / ADULT FEMALE unchanged. Dense Australian grass tunnel over bare unlined sand scrape, no twignest/cavity. Same warm naturalistic landscape1536x1024. No added flight, age interpolation, sexheightformula, extra birds, eggs/prey or scientific-pass text.",
-  "research_summary": "New0/reused2 documents EGO-MIK2013-102 (actual uploadedprinted102/PDF104), EGO-DUNLOP2016 actualpublisherIntro/Methods/Plumage/Fig1caption/Table3. https://www.jzar.org/jzar/article/download/166/117/1250 (DOI10.19227/jzar.v4i4.166). CorrectlocatorFig1printed171/PDF3,Table3printed172/PDF4; prior172–173offsetcorrected. LocalPDF502, no newphotopixels. Adultblackbrownclawsonly, juvenile unchanged."
+  "research_summary": "New0/reused2 documents EGO-MIK2013-102 (actual uploadedprinted102/PDF104), EGO-DUNLOP2016 actualpublisherIntro/Methods/Plumage/Fig1caption/Table3. https://www.jzar.org/jzar/article/download/166/117/1250 (DOI10.19227/jzar.v4i4.166). CorrectlocatorFig1printed171/PDF3,Table3printed172/PDF4; prior172–173offsetcorrected. LocalPDF502, no newphotopixels. Adultblackbrownclawsonly, juvenile unchanged.",
+  "local_path": "/workspace/scratch/180c531d917a/owl-0832/103-tyto-longimembris-v6.png",
+  "bytes": 2919917,
+  "sha256": "acc83ce841b48f823b3e515fae75c116967f8782fd665d97046c9a34bac27d29",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "git_blob_sha": "6858d1d6a6c2814d89134c5f905abd4f6b4da3c6",
+  "original_blob": "6858d1d6a6c2814d89134c5f905abd4f6b4da3c6",
+  "original": "owl-pet/production/generated/103-tyto-longimembris-v6-original.png",
+  "generation_wait_seconds": 39.291
 }

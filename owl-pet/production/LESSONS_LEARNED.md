@@ -122,3 +122,6 @@ Generic darktalonprior leakeddespiteyellowfeet. Checkclawsasindependentbarepart;
 
 ##2026-11-25 136-megascops-petersoni-v7
 #136 species-specific pale details: distinguish warm buff eyebrow from white, and pale horn claw from #137 orange-yellow claw. Both primary and guide checked independently. Actual revision visually achieved warm brows/pale claws; do not extrapolate to other owl species or erase valid variable belly shaft/crossbar pattern.
+
+##2026-11-25 #201v8 recovery
+Preservedoriginal bytes/hash afterinterruption; reviewedfull/crop beforecredit. Modestcrownrebalance retainedfinepattern, validwhitebrows andmixedpopulationwarning. Greyishmorphvariationmeansnevercallqualitativetoneapprovalscientificcolourvalidation. Actualappliedviewpasswithlimits; no additionalimagegen necessary forrecoverable IMAGE_GENERATED.

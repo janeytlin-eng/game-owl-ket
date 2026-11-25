@@ -6955,3 +6955,6 @@ Reused CIN-FITZPATRICK-ONEILL-1986 printed2,4–5,9–10 original actuallyread; 
 
 ##2026-11-25 #201 v8 collateral tone
 New0/reused3: MANT-ZAINI-2023-MANTANANI-FIELD originalbody+samephoto actualpixels; MANT-MIKKOLA-2013-P199-200-MIRROR actualuploadedtext199–200 (embeddedimage request no readablecontent, no photopixelclaim); MANT-ALLEN-2006-P79 originalprinted79/PDF3 palmleafnest, no youngstage. Scope1: qualitativecrownrebalance notproofspecieswidev7invalidcolour. Fullbibliography/URLs/pages/stages/limits andprompt [201-otus-mantananensis-v8](species/201-otus-mantananensis-v8.md). Preserveadultnominate/youngromblonis andallversions,sciencefalse.
+
+###2026-11-25 #201v8 recovery verification
+Existing MANT-ZAINI-2023-MANTANANI-FIELD and MANT-ALLEN-2006-P79 fresh targetedoriginalrecheck; existingguideMANT-MIKKOLA-2013-P199-200-MIRROR persistedactualread reused. New0/reused3, no newbiologicalfact. [201-otus-mantananensis-v8](species/201-otus-mantananensis-v8.md) recoveredoriginal notregenerated; scientificfalse.

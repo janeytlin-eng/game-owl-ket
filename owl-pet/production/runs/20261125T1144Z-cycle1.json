@@ -83,5 +83,12 @@
     "fullPNGdecode": "PASS"
   },
   "ended_at": "2026-11-25T11:48:41.837Z",
-  "archive_commit": "ba1ccfa51991fde96a762ee05ed6c8eae51639e3"
+  "archive_commit": "ba1ccfa51991fde96a762ee05ed6c8eae51639e3",
+  "source_count_correction": {
+    "at": "2026-11-25T12:09:53.765Z",
+    "new_documents": 1,
+    "reused_documents": 4,
+    "reason": "species3080 document absent from baseline index; newly indexed after final URL/ID dedup check",
+    "source_id": "POWERFUL-OWLPAGES-CURRENT"
+  }
 }

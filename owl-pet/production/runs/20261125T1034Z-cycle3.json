@@ -3,8 +3,8 @@
   "cycle": 3,
   "run_id": "20261125T1034Z-cycle3",
   "started_at": "2026-11-25T10:46:41.890Z",
-  "status": "IN_PROGRESS",
-  "stage": "ARCHIVED",
+  "status": "VERIFIED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -31,6 +31,14 @@
       "evidence": [
         "owl-pet/design/concepts/78-asio-capensis-v6.png"
       ]
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-25T10:51:14.413Z",
+      "evidence": [
+        "d6bbc459ae69df945c065ad77e470743907a3c09",
+        "owl-pet/design/concepts/78-asio-capensis-v6.png"
+      ]
     }
   ],
   "id": "78-asio-capensis-v6",
@@ -52,5 +60,16 @@
   "original": "owl-pet/production/generated/78-asio-capensis-v6-original.png",
   "generation_wait_seconds": 42.849,
   "concept": "owl-pet/design/concepts/78-asio-capensis-v6.png",
-  "review_record": "owl-pet/research/reviews/78-asio-capensis-v6-review.md"
+  "review_record": "owl-pet/research/reviews/78-asio-capensis-v6-review.md",
+  "verification": {
+    "bytes": 2830023,
+    "sha256": "912b4d4ab752be46102f734bde02939919821b23dd0f9d580216372dc0946322",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "fullPNGdecode": "PASS"
+  },
+  "ended_at": "2026-11-25T10:51:14.413Z",
+  "archive_commit": "d6bbc459ae69df945c065ad77e470743907a3c09"
 }

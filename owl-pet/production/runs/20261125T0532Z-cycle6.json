@@ -39,5 +39,13 @@
   ],
   "original": "owl-pet/production/generated/201-otus-mantananensis-v8-original.png",
   "original_blob": "a05645047026409dc40fc71fdcd05477125c9adf",
-  "generation_wait_seconds": 38.225
+  "generation_wait_seconds": 38.225,
+  "recoveries": [
+    {
+      "at": "2026-11-25T06:35:00.006Z",
+      "head_checked": "ab5832f67efa6301661392760b6675411ea7e68d",
+      "reason": "Expired lease, no later main commit; original persisted. Resume IMAGE_GENERATED without regeneration.",
+      "owner": "20261125T0634Z-resume-cycle6"
+    }
+  ]
 }

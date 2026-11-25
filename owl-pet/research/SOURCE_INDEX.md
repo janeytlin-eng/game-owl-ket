@@ -7435,3 +7435,8 @@ New GGO-WILLIAMS-2012, GGO-ODFW-SWAP-CONFLICT-2026; new GGO-CRC-FACTS-2026; reus
 ## 2026-11-26 53-strix-nebulosa-v3
 Reuse WHSO-MIKKOLA-2013/GGO-WILLIAMS-2012/GGO-USFS-FEIS-2007. New GGO-GROVES-ZEHNTNER-1990 originalscannedcover+ii+1–3actualread, dates/URL/primarysurveyvsbackgroundfacts/limits recorded. No searchsnippettoeclaimpromoted. Strixnebulosa adults/ageunknownclimbingyoung; #53duplicates08 so no new species. Appliedbarb-specificpromptfrom08, effectivenesspendingactualimage. Detailed source mapping andallprompt inlinkedrecord.
 [facts/prompt](species/53-strix-nebulosa-v3.md),[review](reviews/53-strix-nebulosa-v3-review.md),[version](../design/concepts/53-strix-nebulosa-v3.png).
+
+
+## 2026-11-26 52-strix-hylophila-v7
+NewdistinctphotographicmaterialRBO-VERISSIMO-2015-JUV (notnewpaper/duplicateMenqpage): author/date/locality/originalURL880x628actualview/agefeetlimits inlinkedrecord. ReuseRBO-AVESRAPINA-2018/RBO-MIKKOLA-2013-P337/RBO-COCKLE-ETAL-2024-P10. Existing2018indexpreviouslyreadtext notphotopixels; nowenrichactualvisualread. Stagechange toobservedmesoptile, preservedunknownage/flight/feet/nestarchitecture; nocrossspeciesnataldetails.
+[facts/prompt](species/52-strix-hylophila-v7.md),[review](reviews/52-strix-hylophila-v7-review.md),[version](../design/concepts/52-strix-hylophila-v7.png).

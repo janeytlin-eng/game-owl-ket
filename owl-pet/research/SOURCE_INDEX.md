@@ -7371,3 +7371,7 @@ New0/reused2fresh+2prior. EUPO-MIKKOLA-2013 printed364/PDF366mesoptilesprominent
 
 ## 26-glaucidium-siju-v6
 New0/reused2fresh+1prior: CUPO-PYLE-ETAL-2004-JFO actualG.sijuaccountprinted138/PDF3readunmarkedjuvenalback/indistinctcrownspots/streakedunderparts. Adjacentcuckoofactsnottransferred; HYnotdayage, dullirisquestionmarktentative. CUPO-MIKKOLA-2013 printed382/PDF384freshread; CUPO-GARRIDO-2002prioronly. [Research](species/26-glaucidium-siju-v6.md).
+
+
+### 2026-11-26 increment: 21-megascops-choliba-v6
+Reused TSO-ACTA-NESTLING-2017 (Guilherme & Souza2017 DOI10.1590/1809-4392201700502) actual PDF pp270–271/Fig1 read; few bark pieces in cavity, not a constructed cup; stage18–20d formed remiges/dark bars/yellow eyes, not flight proof. Reused TSO-MIKKOLA-2013 actual printed218–219 (PDF220–221). No duplicate source IDs; no new source. Application clarification to nest support only. [Species](species/21-megascops-choliba-v6.md), [review](reviews/21-megascops-choliba-v6-review.md), [version](../design/concepts/21-megascops-choliba-v6.png). Previous observations and unknown population/sex ratios retained.

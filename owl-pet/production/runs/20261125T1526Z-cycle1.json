@@ -7,14 +7,32 @@
   "action": "REVISION",
   "started_at": "2026-11-25T15:27:05.599Z",
   "status": "STARTED",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-25T15:27:57.123Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-25T15:31:06.397Z",
+      "evidence": [
+        "owl-pet/production/generated/57-bubo-nipalensis-v7-original.png"
+      ]
     }
   ],
   "scientifically_verified": false,
   "research_record": "owl-pet/research/species/57-bubo-nipalensis-v7.md",
-  "prompt": "Edit ONLY the bottom caption area of this #57 plate. Keep original title and male/female labels. Replace centre bottom label with two readable lines exactly: 'JUVENILE · AGE UNKNOWN · RESCUED-STAGE REFERENCE' and 'NATURAL SUPPORT VIGNETTE'. Add a small neat full-width caption below labels (extend bottom parchment margin slightly if needed), exact text: 'CONCEPT · SCIENTIFIC CALIBRATION PENDING · JUVENILE FACE BORDER UNVERIFIED'. Do not change any bird or forest pixels: same adultpaleyellowbills/darkeyes/nohardruff/longraggedtufts, same youngpalebill/Vmarks/formedbarredwingtail/downface/body, allfeet/claws/branchsupports, colours/composition/style. No newage/sex/flight/nestclaim, no extraillustrations."
+  "prompt": "Edit ONLY the bottom caption area of this #57 plate. Keep original title and male/female labels. Replace centre bottom label with two readable lines exactly: 'JUVENILE · AGE UNKNOWN · RESCUED-STAGE REFERENCE' and 'NATURAL SUPPORT VIGNETTE'. Add a small neat full-width caption below labels (extend bottom parchment margin slightly if needed), exact text: 'CONCEPT · SCIENTIFIC CALIBRATION PENDING · JUVENILE FACE BORDER UNVERIFIED'. Do not change any bird or forest pixels: same adultpaleyellowbills/darkeyes/nohardruff/longraggedtufts, same youngpalebill/Vmarks/formedbarredwingtail/downface/body, allfeet/claws/branchsupports, colours/composition/style. No newage/sex/flight/nestclaim, no extraillustrations.",
+  "bytes": 2493474,
+  "sha256": "9c86d7e8c59656d9107e4364d18d4831a693bdb6d5a301d84b82fb0cf1c794ef",
+  "gitblob": "34edaa65f7911cfeb546e5964b2e7c3c11e1e34f",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "local_path": "/workspace/scratch/180c531d917a/owl-1526/57-bubo-nipalensis-v7.png",
+  "original_blob": "34edaa65f7911cfeb546e5964b2e7c3c11e1e34f",
+  "original": "owl-pet/production/generated/57-bubo-nipalensis-v7-original.png",
+  "generation_wait_seconds": 128.723
 }

@@ -4,13 +4,20 @@
   "run_id": "20261125T0532Z-cycle5",
   "started_at": "2026-11-25T05:51:32.805Z",
   "status": "STARTED",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-25T05:52:45.757Z",
       "evidence": [
         "owl-pet/research/species/136-megascops-petersoni-v7.md"
+      ]
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-25T05:54:04.311Z",
+      "evidence": [
+        "owl-pet/production/generated/136-megascops-petersoni-v7-original.png"
       ]
     }
   ],
@@ -23,5 +30,14 @@
     "reused": 2,
     "scope_correction": 1
   },
-  "prompt": "Edit the attached #136 Cinnamon Screech-Owl Megascops petersoni v6 into v7. Only correct two specific colour details across all THREE birds: (1) the conspicuous whitish eyebrow and interorbital feather streaks must become PALE WARM BUFF / LIGHT CINNAMON with brownish mottling, never white or cold cream. Preserve their actual feather shape, narrow pale borders and facial bristles; primary 1986 holotype explicitly gives warm buff superciliary and interorbital tufts tipped brown, with no white except a few tiny malar tips in some red skins. (2) Change all visible dark charcoal claws to PALE HORN, muted beige grey-yellow keratin, retaining shadows at contact and curvature but no dark black tips; Mikkola p232 specifically says pale horn claws. Keep pinkish toes, scales, every supported grip, mossy branch unchanged. Do not recolour the tiny possible malar tips, body, warm buff retained first-year down, dark brown irises, pale grey-green bill, adult size, developed first-year wings or exact FIRST-YEAR label. Keep adult pattern variability, do not erase all belly streaks or impose a universal plain belly. Exact original typography/title/layout, warm tactile softly modeled style, three birds in Andean mossy cloud forest,1536x1024. No new nest, hatch age, flight or sex-size claim."
+  "prompt": "Edit the attached #136 Cinnamon Screech-Owl Megascops petersoni v6 into v7. Only correct two specific colour details across all THREE birds: (1) the conspicuous whitish eyebrow and interorbital feather streaks must become PALE WARM BUFF / LIGHT CINNAMON with brownish mottling, never white or cold cream. Preserve their actual feather shape, narrow pale borders and facial bristles; primary 1986 holotype explicitly gives warm buff superciliary and interorbital tufts tipped brown, with no white except a few tiny malar tips in some red skins. (2) Change all visible dark charcoal claws to PALE HORN, muted beige grey-yellow keratin, retaining shadows at contact and curvature but no dark black tips; Mikkola p232 specifically says pale horn claws. Keep pinkish toes, scales, every supported grip, mossy branch unchanged. Do not recolour the tiny possible malar tips, body, warm buff retained first-year down, dark brown irises, pale grey-green bill, adult size, developed first-year wings or exact FIRST-YEAR label. Keep adult pattern variability, do not erase all belly streaks or impose a universal plain belly. Exact original typography/title/layout, warm tactile softly modeled style, three birds in Andean mossy cloud forest,1536x1024. No new nest, hatch age, flight or sex-size claim.",
+  "bytes": 2827132,
+  "sha256": "252da360c1ee038ca8a397ef42251babaf8f9ab47728a3a5860664df04819208",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "original": "owl-pet/production/generated/136-megascops-petersoni-v7-original.png",
+  "original_blob": "3bf8df77780efc39a2f42ec9fff702a8c7303b16",
+  "generation_wait_seconds": 39.008
 }

@@ -4,7 +4,7 @@
   "run_id": "20261125T0640Z-cycle6",
   "started_at": "2026-11-25T07:00:55.235Z",
   "status": "IN_PROGRESS",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -15,6 +15,13 @@
       ],
       "research_start": "2026-11-25T07:35:48Z",
       "research_end": "2026-11-25T07:44:30.715Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-25T07:46:03.822Z",
+      "evidence": [
+        "owl-pet/production/generated/106-strix-albitarsis-v5-original.png"
+      ]
     }
   ],
   "recoveries": [
@@ -33,5 +40,16 @@
     "reused": 5,
     "new_for_target_species": 0
   },
-  "prompt": "Use case: precise-object-edit. Edit target: repository #106 Rufous-banded Owl Strix albitarsis v4 supplied image. Change ONLY the exposed TOES and CLAWS of the two ADULTS on left and right: retain fully feathered off-white tarsi, but make each adult toe exposed from its base onward, with bare, finely scaled dirty creamy-white skin and pale horn-coloured claws. Remove the fuzzy white feathers from the upper surfaces of the adult digits, with a clear natural ankle-to-toe boundary. Claws pale warm horn rather than black, still darker at the tip if naturally shaded, no painted bright yellow. Do not alter foot positions or grips. Preserve all existing toe count and branch support. ALL other image details invariant: exact three birds, both adults' current dark brown eyes and greyhorn bills pending conflicting evidence, near-equal visible adult size, untufted heads, rufous banded plumage, juvenile yellow-cream down/dark brown eyes/compact folded wing/concealed tail and low supported crouch unchanged. Do NOT recolour juvenile feet or claws using adult evidence. Preserve attached treefern rachises/crown base (day roost NOT a nest), Andean humid forest, Chusquea/epiphytes, warm tactile naturalistic digital-gouache 3D realism, landscape1536x1024. Exact existing title '106 · RUFOUS-BANDED OWL · Strix albitarsis', exact existing ADULT MALE / AGE-UNKNOWN DOWNY JUVENILE / ADULT FEMALE labels, no extra text. No hatch age, no flight claim, no female-larger formula, no eggs, nest, extra bird, watermark. Only adult toe-feather boundary and claw palette are being corrected, not a scientific-pass declaration."
+  "prompt": "Use case: precise-object-edit. Edit target: repository #106 Rufous-banded Owl Strix albitarsis v4 supplied image. Change ONLY the exposed TOES and CLAWS of the two ADULTS on left and right: retain fully feathered off-white tarsi, but make each adult toe exposed from its base onward, with bare, finely scaled dirty creamy-white skin and pale horn-coloured claws. Remove the fuzzy white feathers from the upper surfaces of the adult digits, with a clear natural ankle-to-toe boundary. Claws pale warm horn rather than black, still darker at the tip if naturally shaded, no painted bright yellow. Do not alter foot positions or grips. Preserve all existing toe count and branch support. ALL other image details invariant: exact three birds, both adults' current dark brown eyes and greyhorn bills pending conflicting evidence, near-equal visible adult size, untufted heads, rufous banded plumage, juvenile yellow-cream down/dark brown eyes/compact folded wing/concealed tail and low supported crouch unchanged. Do NOT recolour juvenile feet or claws using adult evidence. Preserve attached treefern rachises/crown base (day roost NOT a nest), Andean humid forest, Chusquea/epiphytes, warm tactile naturalistic digital-gouache 3D realism, landscape1536x1024. Exact existing title '106 · RUFOUS-BANDED OWL · Strix albitarsis', exact existing ADULT MALE / AGE-UNKNOWN DOWNY JUVENILE / ADULT FEMALE labels, no extra text. No hatch age, no flight claim, no female-larger formula, no eggs, nest, extra bird, watermark. Only adult toe-feather boundary and claw palette are being corrected, not a scientific-pass declaration.",
+  "path": "/workspace/scratch/180c531d917a/owl-0736/106-strix-albitarsis-v5.png",
+  "bytes": 3149308,
+  "sha256": "5c1aed2fca45bd8d1d98085618678664319d6875b0a9217e86bbe46ad3570247",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "git_blob_sha": "cef14a3516b75ef1c7cab80569b163d9f16f4b7c",
+  "original_blob": "cef14a3516b75ef1c7cab80569b163d9f16f4b7c",
+  "original": "owl-pet/production/generated/106-strix-albitarsis-v5-original.png",
+  "generation_wait_seconds": 37.304
 }

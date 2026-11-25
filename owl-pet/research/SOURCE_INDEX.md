@@ -6961,3 +6961,6 @@ Existing MANT-ZAINI-2023-MANTANANI-FIELD and MANT-ALLEN-2006-P79 fresh targetedo
 
 ##2026-11-25 #135v7 adulttuftboundary
 Reused2 WSC-MIK2013-183 actualuploaded183/PDF185 and WSC-MEES-2006 actual113–115/PDFsame. Guidewhitebrowsstopatface, nopaletuftinnerborder; primarytransitionalimmature retained. WSC-MARSHALL-1978 attemptedoriginalredirectonly, notfreshread. New0, scopedesigncorrection1. Fullfacts/URLs/pages/limits/prompt [135-otus-silvicola-v7](species/135-otus-silvicola-v7.md),sciencefalse.
+
+##2026-11-25 #134v6 shortdenseyoungfeathers/stagelabel
+New0/reused3 LTSC-KACHIMARECK-2014-WA1527488 actualmetadata+501661bytephoto pixelsrecovered1; LTSC-PAGANO-2021 publisherPDFprinted51–52 actualread, DOIerrorworkingURLcorrected1; LTSC-MENQ-BICHINSKI-2018 actualbodyread. YoungFilhoteexactageunknown, densitynotcurlywool, hideunseenanatomy. Fullbibliography/URLs/limits/prompt [134-megascops-sanctaecatarinae-v6](species/134-megascops-sanctaecatarinae-v6.md). Sciencefalse.

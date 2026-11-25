@@ -4,7 +4,7 @@
   "run_id": "20261125T0532Z-cycle3",
   "started_at": "2026-11-25T05:40:52.679Z",
   "status": "IN_PROGRESS",
-  "stage": "IMAGE_GENERATED",
+  "stage": "ARCHIVED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -18,6 +18,21 @@
       "at": "2026-11-25T05:44:21.068Z",
       "evidence": [
         "owl-pet/production/generated/137-otus-alfredi-v7-original.png"
+      ]
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-25T05:44:28.318Z",
+      "result": "PASS_WITH_LIMITATIONS",
+      "evidence": [
+        "owl-pet/research/reviews/137-otus-alfredi-v7-review.md"
+      ]
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-25T05:44:28.318Z",
+      "evidence": [
+        "owl-pet/design/concepts/137-otus-alfredi-v7.png"
       ]
     }
   ],
@@ -39,5 +54,8 @@
   ],
   "original": "owl-pet/production/generated/137-otus-alfredi-v7-original.png",
   "original_blob": "b76c78f644443948986744d0149d055f459e3d87",
-  "generation_wait_seconds": 36.173
+  "generation_wait_seconds": 36.173,
+  "concept": "owl-pet/design/concepts/137-otus-alfredi-v7.png",
+  "review_record": "owl-pet/research/reviews/137-otus-alfredi-v7-review.md",
+  "scientifically_verified": false
 }

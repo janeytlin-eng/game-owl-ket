@@ -7,14 +7,32 @@
   "action": "REVISION",
   "started_at": "2026-11-25T15:32:52.442Z",
   "status": "STARTED",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-25T15:33:39.002Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-25T15:35:27.694Z",
+      "evidence": [
+        "owl-pet/production/generated/58-ketupa-coromanda-v7-original.png"
+      ]
     }
   ],
   "scientifically_verified": false,
   "research_record": "owl-pet/research/species/58-ketupa-coromanda-v7.md",
-  "prompt": "Precise retouch ONLY BOTH ADULT beak tips in #58 plate. The existing vivid flat yellow triangular terminal patch should become muted PALE IVORY-HORN with a subtle warm yellow cast, natural keratin shading and a softly graded transition into the existing blue-lead upper bill. Preserve same hook size/nostrils and keep tip visually distinguishable; do NOT make the wholebillyellow, do NOT enlarge patch or invent a new anatomical boundary. Allotherdetails unchanged: exactly3birds/title/labels, juvenile entirebird and beak, adultyelloweyes/tufts/featherlegs/greytoes/darkclaws/branchgrips, bellypattern/sticknest/drydeciduousforest/water/ricebackground. No new measured proportion/age/flight/sexclaim."
+  "prompt": "Precise retouch ONLY BOTH ADULT beak tips in #58 plate. The existing vivid flat yellow triangular terminal patch should become muted PALE IVORY-HORN with a subtle warm yellow cast, natural keratin shading and a softly graded transition into the existing blue-lead upper bill. Preserve same hook size/nostrils and keep tip visually distinguishable; do NOT make the wholebillyellow, do NOT enlarge patch or invent a new anatomical boundary. Allotherdetails unchanged: exactly3birds/title/labels, juvenile entirebird and beak, adultyelloweyes/tufts/featherlegs/greytoes/darkclaws/branchgrips, bellypattern/sticknest/drydeciduousforest/water/ricebackground. No new measured proportion/age/flight/sexclaim.",
+  "bytes": 2975613,
+  "sha256": "420ac8d3cbfa31dcc93f42f805318e2de1df5351d4f50edab7492c4fef127e0e",
+  "gitblob": "001dae37a91f3d426f75986d3d41c10d49551015",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "local_path": "/workspace/scratch/180c531d917a/owl-1526/58-ketupa-coromanda-v7.png",
+  "original_blob": "001dae37a91f3d426f75986d3d41c10d49551015",
+  "original": "owl-pet/production/generated/58-ketupa-coromanda-v7-original.png",
+  "generation_wait_seconds": 49.332
 }

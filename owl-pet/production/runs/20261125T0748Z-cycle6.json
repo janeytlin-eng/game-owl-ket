@@ -3,8 +3,8 @@
   "cycle": 6,
   "run_id": "20261125T0748Z-cycle6",
   "started_at": "2026-11-25T08:55:01.215Z",
-  "status": "IN_PROGRESS",
-  "stage": "ARCHIVED",
+  "status": "VERIFIED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -34,6 +34,14 @@
       "evidence": [
         "owl-pet/design/concepts/92-ninox-japonica-v6.png"
       ]
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-25T08:59:09.109Z",
+      "evidence": [
+        "0aed522a8e1b2f484618682c8355f1c668cbc649",
+        "owl-pet/design/concepts/92-ninox-japonica-v6.png"
+      ]
     }
   ],
   "id": "92-ninox-japonica-v6",
@@ -55,5 +63,18 @@
   "generation_wait_seconds": 38.922,
   "concept": "owl-pet/design/concepts/92-ninox-japonica-v6.png",
   "review_record": "owl-pet/research/reviews/92-ninox-japonica-v6-review.md",
-  "scientifically_verified": false
+  "scientifically_verified": false,
+  "ended_at": "2026-11-25T08:59:09.109Z",
+  "archive_commit": "0aed522a8e1b2f484618682c8355f1c668cbc649",
+  "verification": {
+    "remote_bytes": 2999243,
+    "sha256": "6fe76c46199b966c96f860051279242b76463ed9be48cc8ccd9f9045ffcb2fb5",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "fullPNGdecode": "PASS",
+    "research_index_readback": "PASS"
+  },
+  "recovery_note": "First verification helper returned generic Error because process yielded session before exit; second explicit GET session22263 polled to exit0 with exactbytes/hash/fullPNGdecode. No regeneration/duplicate archive."
 }

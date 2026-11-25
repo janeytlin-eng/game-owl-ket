@@ -1,0 +1,18 @@
+# 34-glaucidium-hardyi-v6
+Accessed2026-11-26Asia/Shanghai. Actualv5fullboardview and primary photo comparison. Sciencefalse; v1–v5 preserved.
+
+## Read sources
+APOW-DEVILLE-2012: TanguyDeville/JohanIngels2012, Observations at a nest of Amazonian Pygmy Owl Glaucidiumhardyi inFrenchGuiana, NeotropicalBirding11:23–26. FreshoriginalPDFbodyread; originalprinted24/PDF2 renderedandactuallyviewed. Author-mirror https://tanguydevillenet.wordpress.com/wp-content/uploads/2019/05/2012-02-observations-at-a-nest-of-amazonian-pygmy-owl-glaucidium-hardyi-in-french-guiana-neotropical-birding-nc2b011.pdf ; samepublicationasindexcustomdomain. Fig4 visiblyshows yellowiris andhead emergingfromsmalloldwoodpeckerhole. Printed23 saysalmostfullgrownyoung, holec7.5cm/highc25m/deadtrunkc35m; p26onlyoneyoungseenentrance. This singlephoto supportsvisibleyellowirisforthisstagechoice, notonsetchronology/sex/flightorinternalfootpositions. Internalnaturalbody support isdesigninference. Photo notcopiedintorepo. Correctlocator: bird-at-hole image isFig4, notFig3(generaltree), though runningpapertextitselfmentionsFig3.
+
+APOW-MIKKOLA-2013: HeimoMikkola2013uploadedguide, freshprinted390–391/PDF392–393 textread. Youngunspottedcrown/lessclearventralstreaks; adultplainrufousbackagainstgreyhead, smallbrightyelloweyes/yellowishhornbill, featheredtarsi, goldyellowbristledtoes/hornclawsdarktips. Noexplicitjuvenileirischangechronology. Noexplicitsex-sizedata.
+
+APOW-VIELLIARD-1989 priorrepositoryprimarytableonlyreused, nofreshwholePDFclaimedthiscycle. Originaldescription DOI10.1590/S0101-81751989000400014 preservesadultidentityandsmallsamplelimits. Formerminutissimumcomplexmappingnotcurrent synonym claim.
+
+## Problem/evidence/design
+V5 actualyounghasduskyiris andwholebodyinoversizedopenrecess. DirectpublishedFig4morebounded: yellowvisibleiris/headonlyathole. Editnotgeneralizingeveryyoungyelloworindependence; nointernalnestliningorprecisefeetplacementinvented. Adultsnearequalanduntouched; cavitydimensions notscaledasmeasuredengineeringdrawing. Unknownexactage/sex/flight/iris-onset retained. Thisactuallynarrowsunsupportedwholebodyreconstruction.
+
+Appliedlesson: preferdirectoriginalyoungphotographovergenericneutralirisplaceholder; record single-stageobservationversuschronology, verifyoriginalfigurepixels. Recheckpossible#34v1–v5sameiris/cavityinference; onlyv6changed.
+
+
+## Complete imagegen prompt
+Edit the existing #34 Amazonian Pygmy Owl gouache board. Preserve both adult birds exactly: their grey spotted heads, paired male nape patches, plain warm rufous mantles, ventral streaks, yellow eyes, size, perches, branch grips. Preserve forest style, title strip and labels. Correct ONLY the center juvenile and cavity using a conservative photographed-stage interpretation: replace the huge open recess displaying its whole body with a much smaller natural old-woodpecker oval hole in a vertical dead trunk. Show ONLY the young bird's head and a little shoulder peeking from within the hole, lower body/feet/wings naturally concealed and supported INSIDE the cavity. No floating head or neck stretched outside; cavity rim encloses it realistically. The head remains soft grey-brown with plain unspotted crown. Give the visible iris a clear small golden-YELLOW ring matching the actual documented cavity-young photograph, not dusky brown and not enormous glowing eyes. Keep bill yellowish horn and dark pupil. Do not invent an exact age, naked hatchling, wing growth sequence, exposed nest lining or flight. Title becomes '34 · AMAZONIAN PYGMY OWL v6 · Glaucidium hardyi'; retain all role labels including ALMOST FULL-GROWN YOUNG. No additional birds/text.

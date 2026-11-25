@@ -7333,3 +7333,8 @@ YPOW-KONIG-1991 sameprimaryURL, printed36–38/PDF22–24 actuallyread2026-11-26
 ## 35-glaucidium-jardinii-v6
 New0/reused4actualdocuments. YPOW-KONIG-1991 cross-mapG.jardinii printed24–27/PDF10–13: strongerstreakbolivianumcomparison avoids overboldjardinii genericventrum. ANPO-MIKKOLA-2013 printed395/PDF397actualread plaincentralbelly/indistinctflanks. ANPO-BANREP-CERVANTES-2016 GeneralNote22–31 andANPO-PERUAVES-2026 Identification/captionsreread; broaderstreakwordingmarkedvariation, notexactpixelmap. Unknownyoungage/iris/flight/heightsexratio. No new publication or global scientificpass.
 [Research](species/35-glaucidium-jardinii-v6.md) · [concept](../design/concepts/35-glaucidium-jardinii-v6.png)
+
+
+## 34-glaucidium-hardyi-v6
+New0/reused3documents(2fresh/1prior). APOW-DEVILLE-2012 originalauthor-mirrorbodypp23–26andrenderedp24actuallyviewed: yellowiris/headatholeinFig4. Fig3istree, correctoldlocatorsaccordingly. Onephotodoesnotestablishchronology, exactage orflight. APOW-MIKKOLA-2013 printed390–391/PDF392–393textfreshread; adultbareparts/youngplaincrown. APOW-VIELLIARD-1989 prioronly. V6revisesdarkiris/oversizedwholebodycavitybyboundedphoto; no scientificpass.
+[Research](species/34-glaucidium-hardyi-v6.md) · [concept](../design/concepts/34-glaucidium-hardyi-v6.png)

@@ -4,11 +4,18 @@
   "run_id": "20261125T1353Z-cycle1",
   "started_at": "2026-11-25T13:53:14.224Z",
   "status": "STARTED",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-25T13:54:38.137Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-25T13:56:40.794Z",
+      "evidence": [
+        "owl-pet/production/generated/62-ketupa-sumatrana-v6-original.png"
+      ]
     }
   ],
   "id": "62-ketupa-sumatrana-v6",
@@ -16,5 +23,17 @@
   "action": "REVISION",
   "scientifically_verified": false,
   "research_record": "owl-pet/research/species/62-ketupa-sumatrana-v6.md",
-  "prompt": "Edit ONLY the two ADULTS lower breast/belly feather pattern below the dark upperbreast band of this Barred Eagle-Owl v5 plate. Break the dense continuous black zebra-like crossbars there into finer irregular dark-brown arrowhead/chevron terminal marks and small short shaft streaks on dull-whitish/pale-yellowish feathers. Keep irregular faint short transverse elements, not uniformpolkadots. Upperbreast remains distinctly more densely marked with broad earth-brown bars; preserve all barred back/wing/tail surfaces. Central approximately-day27 downy upright/preening nestling completely unchanged including folded down-concealed wings, finejuvenilebars, darkeyes/yellowbill, bothfeetsoil support and same action. Adults preserve long outwardtufts/darkeyes/paleyellowbills/featheredtarsi/mostlybareyellowtoes/darkclaws, near-equalscale and same grips. Exactlythreebirds, same title/scientificname/alllabels/Johorresortplanter/bougainvillea/building/forest, painterlylighting/style. No newsexratio/age/flightclaim, no copied featheredtoes fromotherowl."
+  "prompt": "Edit ONLY the two ADULTS lower breast/belly feather pattern below the dark upperbreast band of this Barred Eagle-Owl v5 plate. Break the dense continuous black zebra-like crossbars there into finer irregular dark-brown arrowhead/chevron terminal marks and small short shaft streaks on dull-whitish/pale-yellowish feathers. Keep irregular faint short transverse elements, not uniformpolkadots. Upperbreast remains distinctly more densely marked with broad earth-brown bars; preserve all barred back/wing/tail surfaces. Central approximately-day27 downy upright/preening nestling completely unchanged including folded down-concealed wings, finejuvenilebars, darkeyes/yellowbill, bothfeetsoil support and same action. Adults preserve long outwardtufts/darkeyes/paleyellowbills/featheredtarsi/mostlybareyellowtoes/darkclaws, near-equalscale and same grips. Exactlythreebirds, same title/scientificname/alllabels/Johorresortplanter/bougainvillea/building/forest, painterlylighting/style. No newsexratio/age/flightclaim, no copied featheredtoes fromotherowl.",
+  "bytes": 3101690,
+  "sha256": "d153a85d6ed2cf1c3c95c5be0a168cf60653f593bb1bd60f6679637d76d8dca6",
+  "gitblob": "de854d9d3979f51b8ad35a227cf9be747cf8f469",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "local_path": "/workspace/scratch/180c531d917a/owl-1331/62-ketupa-sumatrana-v6.png",
+  "generation_wait_seconds": 57.684,
+  "image_transfer_seconds": 32.488,
+  "original_blob": "de854d9d3979f51b8ad35a227cf9be747cf8f469",
+  "original": "owl-pet/production/generated/62-ketupa-sumatrana-v6-original.png"
 }

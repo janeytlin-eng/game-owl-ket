@@ -4,7 +4,7 @@
   "run_id": "20261125T0748Z-cycle3",
   "started_at": "2026-11-25T08:39:51.655Z",
   "status": "IN_PROGRESS",
-  "stage": "IMAGE_GENERATED",
+  "stage": "ARCHIVED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -18,6 +18,21 @@
       "at": "2026-11-25T08:43:15.371Z",
       "evidence": [
         "owl-pet/production/generated/98-strix-chacoensis-v6-original.png"
+      ]
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-25T08:43:42.298Z",
+      "result": "PASS_WITH_LIMITATIONS",
+      "evidence": [
+        "owl-pet/research/reviews/98-strix-chacoensis-v6-review.md"
+      ]
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-25T08:43:42.298Z",
+      "evidence": [
+        "owl-pet/design/concepts/98-strix-chacoensis-v6.png"
       ]
     }
   ],
@@ -37,5 +52,8 @@
   "git_blob_sha": "10a03a2b38f61f4721d955cf8c30ac0a593a62bb",
   "original_blob": "10a03a2b38f61f4721d955cf8c30ac0a593a62bb",
   "original": "owl-pet/production/generated/98-strix-chacoensis-v6-original.png",
-  "generation_wait_seconds": 36.285
+  "generation_wait_seconds": 36.285,
+  "concept": "owl-pet/design/concepts/98-strix-chacoensis-v6.png",
+  "review_record": "owl-pet/research/reviews/98-strix-chacoensis-v6-review.md",
+  "scientifically_verified": false
 }

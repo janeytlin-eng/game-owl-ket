@@ -418,3 +418,13 @@ PASS_WITH_LIMITATIONS/sciencefalse. Oldfull/newfull/nativeadultcrowncrop andyoun
 ## 48-strix-nivicolum-v6
 # Actual review 48-strix-nivicolum-v6
 PASS_WITH_LIMITATIONS/sciencefalse. Oldfull/newfull and nativeyoung-feet-label-footercrop actuallyviewed. Annotation-onlybuiltin edit: youngAGEUNKNOWNlabel/TaiwanYAMADAE-featherstage-flightunverifiedfooter legible. Adultdarkeyes/yellowgreenbills/roundtuftlessheads/crossedventralpattern/featheredtoes-blackbrownclaws/near-equalheight retained; youngpalebuffysoftplumage/sparsewhitedown/diffusemarks/compactfoldedwing/hiddentail/twofeetgrippingcavitylip/adjacentwall retained; no newmorphologicalcorrectionclaimed. NTMactualbody73–108/109supportsTaiwantaxonandpalejuvenile, damagedwingtailprohibitsmetrics. Mikkolaactual329/PDF331oldnameStrixnivicola withTaiwanyamadaescope andgenericHEAVILYBARREDmesoptile; museumblurred-versusguideheavy conflict remainsstage-unresolved, notforcedrepaint. TaiCOLcurrentinaccessible, olderrecordonlyreuse; oldnamesmappedbypriorrecordcorroboratedNTMcurrentname. New0/reuse3docs/guidepage-name locatorenriched1. Individualage/irisontogeny/wingtiming/flight/sexsize/populationtransferunknown. Lesson genericguidejuvenilebarstatementdoesnotoverridepopulation-specificmuseumdescription; annotationdisclosesevidencegap, actualappliedandreadable, notscientificcorrectionvalidation. Wait37.405sec.
+## 2026-11-26 六轮实际迭代与未验证规则
+
+
+- #47v6→v7：成鸟趾基羽毛覆盖不足，两次v6生成后再下一子轮定向v7，实际放大查看有增加但仍不足解剖通过。修正v5→v6/v7标题，34日标签是文献图注阶段参考。优先队列：先恢复可清楚看趾的可靠实物照片并检查，再局部放大编辑；不继续无证据小改凑数。幼鸟34日具体翼羽/飞行、斯里兰卡旧亚种对应及成人体差未校准。
+- #46v6：成鸟暗虹膜/珊瑚眼睑分离，图下注明确两巢四鸟的34–36日步行离巢样本，支撑、短折翼保留；不是物种首飞日。足羽范围仍需实物核验，未套用#47趾节规则。
+- #45v6：成鸟图示尺度近等；改“离巢2–4日”为23Feb2022观察阶段；保留绒羽、短生长初级飞羽、双脚支撑平衡动作。旧研究忽略25Feb Video4图注的错误已更正。视频本身未播放，未自称独立分析飞行力学。
+- #44v6：面盘改较均一浅色/外围珍珠点羽缘，移除精确DAY29标签，保留有支撑的幼鸟阶段；日本巢箱样本不等于北方混交林字面重建。成鸟质量差不能量化站姿高度；翼羽数/幼龄/种群迁移仍待校准。
+- #43v6：白色跗蹠/趾上绒羽、较直细眉；成年近等尺度与46成鸟的测量重叠相容。幼鸟深色虹膜是设计占位，图上明确年龄/虹膜未核验；不是把未知改称科学事实。Ishtiaq孵化日期由雌鸟行为推定，不能当所有个体已知生日。
+- 本次实际回查对象为#43–47各旧图＋新图，#47另看趾部crop。其他可能受同类问题影响的图只列后续队列，不声称已整库复查。
+

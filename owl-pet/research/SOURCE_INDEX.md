@@ -7091,3 +7091,15 @@ New0/reused3: fresh uploaded Mikkola p510/PDF512; external actual original2009 R
 ## 20261125T1034Z-cycle5 77-asio-stygius-v6
 New2 STY-KELSO-1934-P522-523 (primary subspecies/type; p523 no Colombia/Ecuador specimens) and STY-OWLPAGES-2020 (specialist synthesis, shared-book dependence); reused2 Mikkola p502/PDF504 freshly read, Cadena-Ortiz2018 p23–25 body fresh. Fig2 locator corrected to printed24/PDF5. Adult upperparts too bright in v5; reduce to near-plain sooty with faint markings. Toe correction withheld after scope conflict; not a universal Asio rule. Sciencefalse.
 [Full facts/prompt](species/77-asio-stygius-v6.md). Sciencefalse.
+
+## 20261125T1034Z-cycle5 new sources / region boundary
+- STY-OWLPAGES-2020, José Carlos Motta-Junior & Deane Lewis, updated2020-11-08, specialist species synthesis https://www.owlpages.com/owls/species.php?s=3540 actual Description lines64–68 read: upper mantle/back nearly plain, pale edgings/outer scapular spots faint, primary markings indistinct. The site cites Mikkola/shared syntheses, so not independent primary evidence. No quantitative spot density asserted.
+
+### STY-KELSO-1934-P522-523 — new primary conflict resolution source
+Leon Kelso, “A New Stygian Owl”, Auk51:522–523(1934); type/subspecies description, actual two-page PDF body read.
+https://biologicaldiversity.org/campaigns/global_owl_project/descriptions/Asio/Asio%20stygius%20robustus%20(L.Kelso)%201934,%20Auk,%2051,%20pages%20522-523..pdf
+Printed522 robustus adult female type U.S.N.M.27113 Mirador/Veracruz, sparse toe feathers to mid-terminal joint; printed523 explicitly only two specimens of each compared taxon and **no Colombia/Ecuador specimen examined**, identity there unknown to author. High-confidence historical specimen description, low transferability to current Ecuador plate. Supports withholding a universal toe-feather edit and retaining taxon-specific uncertainty, not copying robustus toe length.
+Additional Kelso&Kelso1936 feather-foot paper found but current SORA link redirects to USF archive landing; search text suggests regional variation, not a freshly read primary body. Treat as unverified lead, not new verified source.
+
+
+Mapping Asio stygius/Nyctalops stygius → upperpart morphology STY-OWLPAGES-2020; regional toe conflict STY-KELSO-1934-P522-523. Access2026-11-25. [v6 research/prompt](species/77-asio-stygius-v6.md), [v6 review](reviews/77-asio-stygius-v6-review.md), [concept](../design/concepts/77-asio-stygius-v6.png).

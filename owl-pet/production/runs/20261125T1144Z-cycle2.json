@@ -3,8 +3,8 @@
   "cycle": 2,
   "run_id": "20261125T1144Z-cycle2",
   "started_at": "2026-11-25T11:48:41.837Z",
-  "status": "IN_PROGRESS",
-  "stage": "ARCHIVED",
+  "status": "VERIFIED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -31,6 +31,14 @@
       "evidence": [
         "owl-pet/design/concepts/71-ninox-connivens-v6.png"
       ]
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-25T11:52:37.432Z",
+      "evidence": [
+        "5399324bd122db51e71f60f5233c734d706a572a",
+        "owl-pet/design/concepts/71-ninox-connivens-v6.png"
+      ]
     }
   ],
   "id": "71-ninox-connivens-v6",
@@ -52,5 +60,16 @@
   "original": "owl-pet/production/generated/71-ninox-connivens-v6-original.png",
   "generation_wait_seconds": 45.768,
   "concept": "owl-pet/design/concepts/71-ninox-connivens-v6.png",
-  "review_record": "owl-pet/research/reviews/71-ninox-connivens-v6-review.md"
+  "review_record": "owl-pet/research/reviews/71-ninox-connivens-v6-review.md",
+  "verification": {
+    "bytes": 2902263,
+    "sha256": "1227ae055d0697e560dc7d1cf78ac85c0ef93b76de2ba76d0e8d436b99634c7b",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "fullPNGdecode": "PASS"
+  },
+  "ended_at": "2026-11-25T11:52:37.432Z",
+  "archive_commit": "5399324bd122db51e71f60f5233c734d706a572a"
 }

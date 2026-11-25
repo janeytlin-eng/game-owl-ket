@@ -3,13 +3,18 @@
   "cycle": 1,
   "run_id": "20261125T0332Z-cycle1",
   "started_at": "2026-11-25T03:32:40.072Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "status": "IN_PROGRESS",
   "stages": [
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-25T03:34:56.182Z",
       "evidence": "owl-pet/research/species/112-asio-abyssinicus-v5.md"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-25T03:36:26.941Z",
+      "evidence": "owl-pet/production/generated/112-asio-abyssinicus-v5-original.png"
     }
   ],
   "baseline_unique_species": 206,
@@ -17,5 +22,10 @@
   "species": "Asio abyssinicus",
   "id": "112-asio-abyssinicus-v5",
   "prompt": "Use case: precise-object-edit. Edit target: the supplied #112 Abyssinian Owl Asio abyssinicus v4 natural-history plate. Create v5 by changing ONLY the two adults' mid-breast to lower belly feather pattern. Replace their dominant long thin dark spear-like vertical shaft streaks with dense natural intersecting dark markings: broad irregular transverse dark bars at least as thick as the vertical dark components, enclosing many small pale ochre/buff semi-rectangular or semi-oblong panels. Upper breast streaks should be thicker, diffuse and smudged. This must read as the species-specific dense mottled NET pattern described by Collar & Boesman2019p158, not sparse Asio otus otus-style long black streaks, not a precise geometric checkerboard, not circular spots, and not evenly tiled zebra stripes. Keep the existing warm ochre/brown ground and natural feather texture. Preserve all other elements: adult shapes, near-equal sex display without a fixed ratio, orange eyes/black bills, ear tufts, wing pattern including pale curved spots, feathered feet/claws and exact branch contact, tail, all central juvenile anatomy/down/eyes/position/compact wings, moss/lichen branch, forest/background/light and exact title/labels. Do not recolour or reshape the juvenile or invent a day-age. Exactly three birds. No added text, marks, extra birds, watermark, border or science-pass badge. Scientific scope is Ethiopian nominate adults; qualitative pattern interpretation, no measured illustrated width ratio claimed.",
-  "research_record": "owl-pet/research/species/112-asio-abyssinicus-v5.md"
+  "research_record": "owl-pet/research/species/112-asio-abyssinicus-v5.md",
+  "generation_wait_seconds": 50.9,
+  "image": {
+    "path": "owl-pet/design/concepts/112-asio-abyssinicus-v5.png",
+    "blob_sha": "61ae112713dccca151932a69a703d2ae68f55b78"
+  }
 }

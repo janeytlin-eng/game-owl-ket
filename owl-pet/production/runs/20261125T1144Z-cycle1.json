@@ -4,11 +4,18 @@
   "run_id": "20261125T1144Z-cycle1",
   "started_at": "2026-11-25T11:41:54.935Z",
   "status": "IN_PROGRESS",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-25T11:43:04.948Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-25T11:45:55.047Z",
+      "evidence": [
+        "owl-pet/production/generated/70-ninox-strenua-v6-original.png"
+      ]
     }
   ],
   "id": "70-ninox-strenua-v6",
@@ -17,5 +24,16 @@
   "scientifically_verified": false,
   "research_record": "owl-pet/research/species/70-ninox-strenua-v6.md",
   "prompt": "Edit #70 Powerful Owl Ninox strenua v5 into v6: change ONLY adult top crown/nape markings from bold pale lace-like crescents/bars into fine restrained small pale creamy flecks on dark grey-brown feathers. Keep pale eyebrows, dark eye area, adult broad V-shaped ventral chevrons and irregular body/wing barring. Add only very sparse short natural bristles atop adults' dull-yellow exposed toes, preserving individual skin scales, dark-tipped claws and same grips; do not make fully feathered toes. Preserve exactly three owls, style, labels, cavity/eucalypt gully, comparable adult crown heights and restrained male broader-head difference, the female facemask outline, and central white-headed recent fledgling with fine crown speckles, dark eye patches, sparse breast lines, paler barred formed wings/tail and both feet on support. Do not change juvenile stage, shorten flight-capable young's wings, erase adult pattern elsewhere, exaggerate sex size, add eggs, birds, text, toe counts or flight actions.",
-  "source_summary": "New0/reused5: Mikkola p450/PDF452 fresh; MuseumsVictoria and OwlPages bodies fresh; Cooke2020/Mo2015 prior primary readings only. Refine adultcrown fineflecks/sparse toe bristles; preserve supported recentfledgling and sex-scale limits. No scientific pass."
+  "source_summary": "New0/reused5: Mikkola p450/PDF452 fresh; MuseumsVictoria and OwlPages bodies fresh; Cooke2020/Mo2015 prior primary readings only. Refine adultcrown fineflecks/sparse toe bristles; preserve supported recentfledgling and sex-scale limits. No scientific pass.",
+  "bytes": 2964079,
+  "sha256": "32e85eb4260efeb8740a891f340fee27c87094563e277d5fab43bd2a807b1118",
+  "gitblob": "7226b1062ceb6d3049aef9d9691db54192bdc03c",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "local_path": "/workspace/scratch/180c531d917a/owl-1136/70-ninox-strenua-v6.png",
+  "original_blob": "7226b1062ceb6d3049aef9d9691db54192bdc03c",
+  "original": "owl-pet/production/generated/70-ninox-strenua-v6-original.png",
+  "generation_wait_seconds": 108.43
 }

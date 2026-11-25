@@ -6949,3 +6949,6 @@ KOEP-FJELDSA-2012-P180-191 correctedbibliographicrange180–193andworkingorigina
 
 ##2026-11-25 #130v6 adult versus young brow boundary
 KOEP-MIK2013-222 actualuploadedprinted222/PDF224 adultbrowsdarkmottlednotverydistinct; KOEP-FJELDSA-2012-P180-191 recoveredoriginalp189validwhitishbordertoforehead/billretained, hockingi scope notLojaassignment. KOEP-ALARCON-2023 prioractualbody supportsjuvenileWHITEbrows; freshpublisherfull/find403, searchsummarynotfreshprimaryread. Youngbrownotmutedbyadultcriterion. New0/reused3/contrast-scope1. [Research/prompt](species/130-megascops-koepckeae-v6.md). Quantitativewidthunmeasured, sciencefalse.
+
+##2026-11-25 #136 v7 warm markings/claw scope
+Reused CIN-FITZPATRICK-ONEILL-1986 printed2,4–5,9–10 original actuallyread; CIN-MIK2013-232 uploadedPDF234 actuallyread. New0/reused2, scopeclarification1: primarywarmbuffbrows vssecondarypalehornclaws, no primaryclawclaim; bellyvariable notuniversallyplain. Bibliography/URLs/stage/limits andfullprompt [136-megascops-petersoni-v7](species/136-megascops-petersoni-v7.md). Sciencefalse.

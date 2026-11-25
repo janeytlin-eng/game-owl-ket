@@ -1,3 +1,6 @@
+##2026-11-25 本次已完成6轮（跨两个批次）
+旧批次恢复#201v8一轮并补齐6/6；新批次20261125T0640Z完成1–5轮，仍5/6,next6。新增0种/归档修订6版本：#201v8、#135v7、#134v6、#131v6、#133v6、#138v6；覆盖206/251不变，剩45。五种实际新编辑（#133追加一次）；旧201复用恢复无重复生成。六最终图整图/局部实际检查、远端字节/哈希/PNG解码和逐轮研究/账本提交回读通过，全部sciencefalse，新增用户确认0。来源新0/复用17次引用去重13文档（图鉴同书只计1）；两张已有幼鸟照片像素恢复，1个原文定位修正；#131仅范围注记。其他未完批次0。[六原图/实际研究检查/真实SHA/阶段计时/错误](production/batches/20261125T0640Z-resume-20261125T0634Z-review.md)。全任务未完成，未改其他任务。
+
 ##2026-11-25 recovery: thisinvocation1cycle, priorbatch6/6
 Recovered#201v8 frompersistedIMAGE_GENERATED, no regeneration. Actualfull/cropreview, originalbytes/hash/fullPNGdecode andindexreadbackPASS; new0/revision1,206/251unchanged,sciencefalse. Cross-invocation5+1notcurrent6. [Sixoriginals/actualcommits/recovery](production/batches/20261125T0532Z-completed-review.md). OtherPARTIAL0; nextnewbatch1. Whole251unfinished; otherautomationsunchanged.
 

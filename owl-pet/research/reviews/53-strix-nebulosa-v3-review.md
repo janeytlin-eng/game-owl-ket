@@ -1,0 +1,4 @@
+# 53-strix-nebulosa-v3
+PASS_WITH_LIMITATIONS. Inputv2fulland generatedv3fullactuallyviewed: bothadulttoeupperfacesnowgrey/duskymottledsmallfeatherletswithtaperedbarbs/fringededges, previousbuff-yellowbareshaftsremoved; blackclawsdistinct andsameoriginalbarkgrips. Noextra/fusedfeetseen. Bothadultyelloweyes/discs/bills/chin/moustache/sharedplumage/longtails/relativepose/labels preserved. Centralyoungentirelyunchangedmutedpaleiris, downtorso/compactwings/feet/bill/bellyinclinedbarksupport, ageunknownpreflightlabel unchanged. Adultcovernottransferredtoyoung. Barbspecificprompt workedinfirstedit53 after08failedinitial, scopedverificationtwoimages onlynotgeneralproof. Exactdensity/subspecies/youngtoeontogeny/age/iris/standingsexratio remainunknown. #53duplicates08 no uniquespeciescount.
+
+[Research and prompt](../species/53-strix-nebulosa-v3.md)

@@ -3,8 +3,8 @@
   "cycle": 3,
   "run_id": "20261125T1240Z-cycle3",
   "started_at": "2026-11-25T12:45:04.718Z",
-  "status": "IN_PROGRESS",
-  "stage": "ARCHIVED",
+  "status": "VERIFIED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -21,6 +21,10 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-25T12:47:50.120Z"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-25T13:33:14.551Z"
     }
   ],
   "id": "65-tyto-soumagnei-v6",
@@ -45,7 +49,7 @@
   "review_record": "owl-pet/research/reviews/65-tyto-soumagnei-v6-review.md",
   "archive_commit": "8508e2305883d96b3c5e4a317094a5b165af3515",
   "paused_at": "2026-11-25T12:49:36.029Z",
-  "blocked_step": "VERIFIED: immutable remote PNG GET/full-byte hash/decode",
+  "blocked_step": null,
   "errors": [
     {
       "step": "VERIFIED: immutable remote PNG GET/full-byte hash/decode",
@@ -56,5 +60,18 @@
   "next_action": "Resume same batch cycle3 from ARCHIVED, recover immutable original and verify bytes/hash/fullPNGdecode; do not regenerate or duplicate archive.",
   "resumed_at": "2026-11-25T13:32:12.187Z",
   "recovery_owner": "20261125T1331Z",
-  "recovery": "Fresh main checked; no later v6 verification/duplicate image; resume ARCHIVED, do not regenerate"
+  "recovery": "Fresh main checked; no later v6 verification/duplicate image; resume ARCHIVED, do not regenerate",
+  "ended_at": "2026-11-25T13:33:14.551Z",
+  "verification": {
+    "bytes": 2903369,
+    "sha256": "0e1f71d387092097554fb1d08889d84e2ec493514c65d007f4e82b70d42c8642",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "fullPNGdecode": "PASS",
+    "immutableGET": "PASS",
+    "recovered_at": "2026-11-25T13:33:14.551Z"
+  },
+  "recovery_note": "Original immutable GET recovered this invocation; full plate and native chick/support/note crop actually viewed. No regeneration, no new morphology/colour calibration. Prior failures retained in errors."
 }

@@ -6970,3 +6970,6 @@ New0/reused4 WAT-DANTAS-2021 actualabstract, WAT-SACC-937-2022 actualdiscussion,
 
 ##2026-11-25 #133v6 recoveredphysicalyoungreference
 New0/reused3 BCSO-WIKIAVES-WA2019052 actualmetadata+790731bytephotopixelsrecovered1; BCSO-DANTAS-2021=WAT-DANTAS-2021 samepaperdedup, publisherabstractalreadyreadthisinvocation; BCSO-WIKIAVES-SPECIES-2026 actualsecondarybody. Actualyoungmixedbars/branchedshafts/smalltufts/yellowiris, exactage/flightunknown. FullURLs/facts/limits/prompt [133-megascops-atricapilla-v6](species/133-megascops-atricapilla-v6.md),sciencefalse.
+
+##2026-11-25 #138v6 faintnarrowyoungremexbars
+New0/reused2 MEN-TAUFIQURRAHMAN-2018-P31-32 actualoriginaltext31–32/PDF1–2, directPDF403/webscreenshottextreferenceonly notnewpixels; MEN-MIKKOLA-2013-P166-167 actualuploaded166–167/PDF168–169text. Boundedremexcontrasttextcue, preserveformedwing/noclaimexactageflight; adultcollarwordingconflictnotrepainted. Fullfacts/URLs/pages/limits/prompt [138-otus-mentawi-v6](species/138-otus-mentawi-v6.md),sciencefalse.

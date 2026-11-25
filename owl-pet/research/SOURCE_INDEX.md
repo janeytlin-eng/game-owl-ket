@@ -7011,3 +7011,14 @@ New PKOE-MENQ-2018 — WillianMenq/AvesdeRapinaBrasil,Apr2018 https://avesderapi
 ## 20261125T0748Z-cycle6 92-ninox-japonica-v6
 Reused3: JAP-MIK2013-466(actual466–467/PDF468–469), JAP-TAIEOL2013(actual institutional Description), JAP-LIN-LIN-TSENG-2012-PP164-166(actual originalpp164–166/Table3). Adult bill darkgrey vs darkbrown/pale-tip reconciled as darkneutralhorn/smallpaletip. Primary Table3/no significantsexdifference retained; discussion wingchordsexmeans conflict flagged. New0, correcteddesignboundary1; youngbill/age/flightunknown.
 [Full research/prompt](species/92-ninox-japonica-v6.md). Scientifically false.
+
+## 20261125T0832Z actual-read taxonomy/gap supplement
+
+### MCOL-ITIS-686669-20261125
+Title ITIS Report Megascops colombianus; institution Integrated Taxonomic Information System, live record references HBW/BirdLife v6b2022 and historical IOC8.1; access2026-11-25; institutional nomenclature database; original https://www.itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=686669&source=to_print . Actual Taxonomy and Nomenclature/References read: invalid subsequent combination; valid M.ingens colombianus. Adults/young: taxonomy only, no developmental evidence. Limit dated source framework not a universal latest authority reconciliation. Design decision: do not count as new species distinct from already covered M.ingens. Related batch [research/review](../production/batches/20261125T0748Z-completed-review.md); no new image version for alias.
+
+### GTUC-ITIS-1244699-20261125
+Title ITIS Report Glaucidium tucumanum; ITIS, references HBW/BirdLife v6b2022; access2026-11-25; institutional nomenclature database. Original https://itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=1244699 . Actual Taxonomy/Nomenclature and References read: invalid subsequent combination, valid G.brasilianum tucumanum. Taxonomy only; no sex/age/feather assertion. Do not count separately from G.brasilianum; preserve existing #25 cactorum history, no claim cactorum=tucumanum. Framework conflicts across lists require separate reconciliation; scope251 unchanged. [Batch](../production/batches/20261125T0748Z-completed-review.md).
+
+### Unresolved lookup boundary, not verified image evidence
+M.roraimae WikiAves https://www.wikiaves.com.br/wiki/corujinha-de-roraima actualbodyread2026-11-25 has jovemcaption but no recovered age-verifiable photo pixels. Lead/partial source only; not accepted early-development evidence. Adult/ageunknownsearchphotos WA6600175/2005340/3288543/4675887 cannot supply chick morphology. Mikkola2013actualprinted244/PDF246 says juvenile undescribed. [Batch no-image gap/audits](../production/batches/20261125T0748Z-completed-review.md). No new illustration/count.

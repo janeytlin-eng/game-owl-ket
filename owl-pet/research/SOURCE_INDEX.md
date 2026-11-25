@@ -7343,3 +7343,7 @@ New0/reused3documents(2fresh/1prior). APOW-DEVILLE-2012 originalauthor-mirrorbod
 ## 33-taenioptynx-brodiei-v6
 New0/reused2documents. COOW-LIN-ETAL-2014 authorfulltextMethods/Resultsp96–98freshread:56dayfullgrown/fewercrown-backmarks/incompleteoccipital, notflightindependence. Publisherabstractsamepaper; alternatePDFtimeout/503notverified. COOW-MIKKOLA-2013 printed370/PDF372freshread, historicalbroadtaxonlimits; primaryTaiwanstageoverridesoldermorphgeneralization. Reducejuvenilecrown/mantlemarksonly, formedwingunchanged.
 [Research](species/33-taenioptynx-brodiei-v6.md) · [concept](../design/concepts/33-taenioptynx-brodiei-v6.png)
+
+
+## 32-glaucidium-castanotum-v6
+New0/reused3freshaccounts. CBOW-MIKKOLA-2013 printed406/PDF408 actualread diffusemesoptilebars/streaks; CBOW-CEYLONBIRDCLUB-2009 actualbody56–63 and DeaneLewis2020 OwlPages https://www.owlpages.com/owls/species.php?s=2120 Description64–66read. Secondaryadultcrosschecknotyoungchronology. [Research](species/32-glaucidium-castanotum-v6.md) / [image](../design/concepts/32-glaucidium-castanotum-v6.png). Unknownage/flight/iris/sexratio retained.

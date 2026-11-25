@@ -3,8 +3,8 @@
   "cycle": 6,
   "run_id": "20261125T0532Z-cycle6",
   "started_at": "2026-11-25T05:54:52.432Z",
-  "status": "IN_PROGRESS",
-  "stage": "ARCHIVED",
+  "status": "VERIFIED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -32,6 +32,14 @@
       "stage": "ARCHIVED",
       "at": "2026-11-25T06:35:58.236Z",
       "evidence": [
+        "owl-pet/design/concepts/201-otus-mantananensis-v8.png"
+      ]
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-25T06:37:27.373Z",
+      "evidence": [
+        "47e9ecd1f6090dd18fd0e2f8a809a23b93ea88c5",
         "owl-pet/design/concepts/201-otus-mantananensis-v8.png"
       ]
     }
@@ -65,5 +73,15 @@
   ],
   "concept": "owl-pet/design/concepts/201-otus-mantananensis-v8.png",
   "review_record": "owl-pet/research/reviews/201-otus-mantananensis-v8-review.md",
-  "scientifically_verified": false
+  "scientifically_verified": false,
+  "ended_at": "2026-11-25T06:37:27.373Z",
+  "archive_commit": "47e9ecd1f6090dd18fd0e2f8a809a23b93ea88c5",
+  "verification": {
+    "at": "2026-11-25T06:37:27.373Z",
+    "bytes": 2405568,
+    "sha256": "71923c68a4199b1828b1dd7e82252199a9e6271c6205ee6da7807267017698c2",
+    "full_remote_PNG_decode": "PASS",
+    "research_index_readback": "PASS",
+    "recovery_no_regeneration": true
+  }
 }

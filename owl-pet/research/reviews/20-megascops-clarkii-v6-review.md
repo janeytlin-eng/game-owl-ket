@@ -1,0 +1,4 @@
+# 20-megascops-clarkii-v6
+PASS_WITH_LIMITATIONS after v5full/v6fullactualviews. Mossnowdominatesplatform withjustfewdryleafpieces; supportingundevelopedbranchstubvisibleinsideverticaltreetrunkcrack. Youngfeet/bellysupported/nofloating, down/shortincompletewingtip/noadultremiges unchanged; age/iris/flightunknown. Adultsretainedsameplumage/paleeyes/grey-greenbill/legboundary/grips andnearequaldisplay, notquantifiedsexratio. Exactly3birds/labels/forestretained. Source8cmwidthnotclaimed literalrender. Rule fieldmaterialproportions appliedandvisiblein20, notglobalvalidation. Internalguidebaretarsuscaptionconflictretainedwithoutfalsecalibration,sciencefalse.
+
+[Research and prompt](../species/20-megascops-clarkii-v6.md)

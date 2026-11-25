@@ -107,3 +107,6 @@ Comparison-specific absence of broadsidebars/diamonds doesnotmean removeshafts. 
 
 ##2026-11-25 140-otus-rufescens-v7
 Do not normalize every Otus into streakedgenericowl: rufescens explicitventralspotsversusjolandaeshafts+finebars. Zoneboundarymatters: adultflightfeatherbars remainlegitimate, andv7didnoterasewingpattern. Guidebodyyellowishtoes/captionwhitish variation not groundsfornewrecolour; rejectedfalsefix. Youngvalidmesoptile retained noadultpatterntransfer. Outputfull+cropverifyshowsdirectionimproved, literalspotmapnotvalidated.
+
+##2026-11-25 128-megascops-marshalli-v9
+Tract-specificcolourchangeavoidsblanketerasinglegitimatewhiteshoulder. Observedv8irisalreadydarkbrownandprimarybellyvariationrejectedtwofalsefixes. Do notimposeeighttailbarsonolderjuvenile ornewbornbuds. v9lowerwingdirection visuallycheckedonecase, notglobalcalibration.

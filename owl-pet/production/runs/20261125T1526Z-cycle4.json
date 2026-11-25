@@ -7,14 +7,32 @@
   "action": "REVISION",
   "started_at": "2026-11-25T15:41:12.653Z",
   "status": "STARTED",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-25T15:41:59.307Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-25T15:43:48.639Z",
+      "evidence": [
+        "owl-pet/production/generated/55-bubo-lacteus-v6-original.png"
+      ]
     }
   ],
   "scientifically_verified": false,
   "research_record": "owl-pet/research/species/55-bubo-lacteus-v6.md",
-  "prompt": "Edit ONLY the BILLS of BOTH ADULT Verreaux's Eagle-Owls (#55). Change nearblack beaks to PALE CREAM-HORN, naturally shaded warm ivory keratin, retaining a subtle grey-blue cere/base, same hooked geometry and nostrils. Dark bristles around billbase stay dark. CentralyoungpaleBLUE-GREYbill must remain unchanged. Everythingelse preserved: exactlythreebirds/title/alllabels, adultsdarkbrownirises/naturalnarrowpinkupperlids/shorttufts/blackruff/palegreyvermiculation/featherlegs+partlyfeatheredtoes/darkclaws/branchcontacts/nearequalheightcomposition, young approx6weekfinelybarreddown/whiteplainthighs/palerlids/crouch/compactsoftwing/hidden tail/feet&bellysupportedinnest, tree/savanna/light/style. No newage/sex/flightclaims, no otherchanges."
+  "prompt": "Edit ONLY the BILLS of BOTH ADULT Verreaux's Eagle-Owls (#55). Change nearblack beaks to PALE CREAM-HORN, naturally shaded warm ivory keratin, retaining a subtle grey-blue cere/base, same hooked geometry and nostrils. Dark bristles around billbase stay dark. CentralyoungpaleBLUE-GREYbill must remain unchanged. Everythingelse preserved: exactlythreebirds/title/alllabels, adultsdarkbrownirises/naturalnarrowpinkupperlids/shorttufts/blackruff/palegreyvermiculation/featherlegs+partlyfeatheredtoes/darkclaws/branchcontacts/nearequalheightcomposition, young approx6weekfinelybarreddown/whiteplainthighs/palerlids/crouch/compactsoftwing/hidden tail/feet&bellysupportedinnest, tree/savanna/light/style. No newage/sex/flightclaims, no otherchanges.",
+  "bytes": 2925294,
+  "sha256": "cc206679680d9c19a0d4c0414e90faddab68d681b97d62a15d0d1a81137ab357",
+  "gitblob": "17f1c29b0364fad5b5ec84ed37a067f382e34a29",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "local_path": "/workspace/scratch/180c531d917a/owl-1526/55-bubo-lacteus-v6.png",
+  "original_blob": "17f1c29b0364fad5b5ec84ed37a067f382e34a29",
+  "original": "owl-pet/production/generated/55-bubo-lacteus-v6-original.png",
+  "generation_wait_seconds": 49.636
 }

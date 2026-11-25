@@ -3,14 +3,35 @@
   "cycle": 6,
   "run_id": "20261125T0640Z-cycle6",
   "started_at": "2026-11-25T07:00:55.235Z",
-  "status": "STARTED",
-  "stage": "STARTED",
-  "stages": [],
+  "status": "IN_PROGRESS",
+  "stage": "RESEARCH_READY",
+  "stages": [
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-25T07:44:30.715Z",
+      "evidence": [
+        "owl-pet/research/species/106-strix-albitarsis-v5.md",
+        "owl-pet/research/SOURCE_INDEX.md"
+      ],
+      "research_start": "2026-11-25T07:35:48Z",
+      "research_end": "2026-11-25T07:44:30.715Z"
+    }
+  ],
   "recoveries": [
     {
       "at": "2026-11-25T07:36:40.906Z",
       "head_checked": "fb05faaf2b5cbfe36016ea07f7d1feff0ba0afc6",
       "reason": "Leaseexpired, mainhasnoimage/researchafterSTARTED. Resume samecycle; prioritizeunmade-speciesevidence."
     }
-  ]
+  ],
+  "id": "106-strix-albitarsis-v5",
+  "species": "Strix albitarsis",
+  "action": "ADULT_BARE_TOE_AND_CLAW_PALETTE_REVISION",
+  "research_record": "owl-pet/research/species/106-strix-albitarsis-v5.md",
+  "source_counts": {
+    "new": 1,
+    "reused": 5,
+    "new_for_target_species": 0
+  },
+  "prompt": "Use case: precise-object-edit. Edit target: repository #106 Rufous-banded Owl Strix albitarsis v4 supplied image. Change ONLY the exposed TOES and CLAWS of the two ADULTS on left and right: retain fully feathered off-white tarsi, but make each adult toe exposed from its base onward, with bare, finely scaled dirty creamy-white skin and pale horn-coloured claws. Remove the fuzzy white feathers from the upper surfaces of the adult digits, with a clear natural ankle-to-toe boundary. Claws pale warm horn rather than black, still darker at the tip if naturally shaded, no painted bright yellow. Do not alter foot positions or grips. Preserve all existing toe count and branch support. ALL other image details invariant: exact three birds, both adults' current dark brown eyes and greyhorn bills pending conflicting evidence, near-equal visible adult size, untufted heads, rufous banded plumage, juvenile yellow-cream down/dark brown eyes/compact folded wing/concealed tail and low supported crouch unchanged. Do NOT recolour juvenile feet or claws using adult evidence. Preserve attached treefern rachises/crown base (day roost NOT a nest), Andean humid forest, Chusquea/epiphytes, warm tactile naturalistic digital-gouache 3D realism, landscape1536x1024. Exact existing title '106 · RUFOUS-BANDED OWL · Strix albitarsis', exact existing ADULT MALE / AGE-UNKNOWN DOWNY JUVENILE / ADULT FEMALE labels, no extra text. No hatch age, no flight claim, no female-larger formula, no eggs, nest, extra bird, watermark. Only adult toe-feather boundary and claw palette are being corrected, not a scientific-pass declaration."
 }

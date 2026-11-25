@@ -3,8 +3,8 @@
   "cycle": 5,
   "run_id": "20261125T0640Z-cycle5",
   "started_at": "2026-11-25T06:56:39.206Z",
-  "status": "STARTED",
-  "stage": "ARCHIVED",
+  "status": "VERIFIED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -34,6 +34,14 @@
       "evidence": [
         "owl-pet/design/concepts/138-otus-mentawi-v6.png"
       ]
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-25T06:59:36.468Z",
+      "evidence": [
+        "9e936425b9270a0bc9fea3e631a6ff066ee2e1e9",
+        "owl-pet/design/concepts/138-otus-mentawi-v6.png"
+      ]
     }
   ],
   "id": "138-otus-mentawi-v6",
@@ -56,5 +64,14 @@
   "generation_wait_seconds": 48.835,
   "concept": "owl-pet/design/concepts/138-otus-mentawi-v6.png",
   "review_record": "owl-pet/research/reviews/138-otus-mentawi-v6-review.md",
-  "scientifically_verified": false
+  "scientifically_verified": false,
+  "ended_at": "2026-11-25T06:59:36.468Z",
+  "archive_commit": "9e936425b9270a0bc9fea3e631a6ff066ee2e1e9",
+  "verification": {
+    "at": "2026-11-25T06:59:36.468Z",
+    "remote_bytes": 2699311,
+    "SHA256": "2ca43da7beec1de32d8678a24bbaf9aa26ab2c67c97df7da11ae82fbde1736f8",
+    "fullPNGdecode": "PASS",
+    "research_index_readback": "PASS"
+  }
 }

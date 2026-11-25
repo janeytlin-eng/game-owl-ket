@@ -37448,7 +37448,43 @@
       "verified_at": "2026-11-25T02:50:18.948Z",
       "readback_pending": false,
       "verification_result": "Full immutable PNG GET exact bytes/SHA256,1536x1024 RGB decode; source index/research/prompt readback PASS"
+    },
+    {
+      "id": "112-asio-abyssinicus-v5",
+      "path": "design/concepts/112-asio-abyssinicus-v5.png",
+      "species_id": 112,
+      "scientific_name": "Asio abyssinicus",
+      "version": 5,
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "action": "MORPHOLOGY_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "scientifically_verified": false,
+      "status": "ARCHIVED_VERIFICATION_PENDING",
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "source_ids": [
+        "ABY-COLLAR-BOESMAN-2019",
+        "MIKKOLA-2013",
+        "ABY-BMNP-BIRDING-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/112-asio-abyssinicus-v5.md",
+      "review_record": "research/reviews/112-asio-abyssinicus-v5-review.md",
+      "run_record": "production/runs/20261125T0332Z-cycle1.json",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2871731,
+      "sha256": "ef2aee23fe63bc963fbe720022a137ad1ccfc0c01c9ba8f2b1de66c9e48d4b60",
+      "git_blob": "61ae112713dccca151932a69a703d2ae68f55b78",
+      "edit_count": 1
     }
   ],
-  "updated_at": "2026-11-25T02:50:18.948Z"
+  "updated_at": "2026-11-25T03:37:14.190Z"
 }

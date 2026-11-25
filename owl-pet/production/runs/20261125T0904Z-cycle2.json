@@ -4,11 +4,18 @@
   "run_id": "20261125T0904Z-cycle2",
   "started_at": "2026-11-25T09:08:32.299Z",
   "status": "IN_PROGRESS",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-25T09:10:20.310Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-25T09:11:50.073Z",
+      "evidence": [
+        "owl-pet/production/generated/83-otus-brucei-v6-original.png"
+      ]
     }
   ],
   "id": "83-otus-brucei-v6",
@@ -17,5 +24,16 @@
   "scientifically_verified": false,
   "research_record": "owl-pet/research/species/83-otus-brucei-v6.md",
   "prompt": "Precise-object-edit: supplied83 Otus brucei v5. Change ONLY BOTH ADULTS proximal toe feathering: extend existing fine pale sandy-grey tarsal feathers onto basal part of each toe, especially dorsal proximal middle toe to around its second joint, leaving distal toe segments/scales and blackishbrown claws clearly visible. Do not make fully feathered mittenfeet. Keep toe length/count/grips/woodsupport and all centerjuvenilefeet unchanged. Allotherdetailsunchanged:3birds, palestreakedadults/smalltufts/yellowiris/darkhornbill/near-equalheight/modestfemalefullness; centerrecentfledgling finehorizontalbars/littletufts/shortsoftwings/hiddentail/begging/twofootcavitylipsupport, noageorflight. SamewarmJordanpalms/genuinecavity/1536x1024/titlePALLID SCOPS OWL, Otus brucei, ADULT MALE / RECENT FLEDGLING / ADULT FEMALE. Noextratext/animal/approval.",
-  "source_summary": "New BRU-MOLDOVAN-2009-TABLE1 actual originalp2/PDF2 https://ecology.nottingham.ac.uk/~plzfg/EBBSoc/ejnh5/1-Istvan_2009.pdf ; reused BRU-MIK2013-126(actual126/PDF128), BRU-KHOURY-ALSHAMLIH-DHEIB-2021-P286-287(actualJordanbody), BRU-SANGHA-MALIK-2010-P176-177(actualDescription). Adultbasaltoefeathersdistinctfromwholetoes; youngunknownretained. New1/reused3."
+  "source_summary": "New BRU-MOLDOVAN-2009-TABLE1 actual originalp2/PDF2 https://ecology.nottingham.ac.uk/~plzfg/EBBSoc/ejnh5/1-Istvan_2009.pdf ; reused BRU-MIK2013-126(actual126/PDF128), BRU-KHOURY-ALSHAMLIH-DHEIB-2021-P286-287(actualJordanbody), BRU-SANGHA-MALIK-2010-P176-177(actualDescription). Adultbasaltoefeathersdistinctfromwholetoes; youngunknownretained. New1/reused3.",
+  "local_path": "/workspace/scratch/180c531d917a/owl-0904/83-otus-brucei-v6.png",
+  "bytes": 2463265,
+  "sha256": "c5eeeb3f78ad33722c905ac6025d2e16a29ae282c06bb6f6a726ff2273d4ca98",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "git_blob_sha": "8457a8d9a68c33882b63d169f10946e89cd6c5fe",
+  "original_blob": "8457a8d9a68c33882b63d169f10946e89cd6c5fe",
+  "original": "owl-pet/production/generated/83-otus-brucei-v6-original.png",
+  "generation_wait_seconds": 40.43
 }

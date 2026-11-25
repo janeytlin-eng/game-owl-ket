@@ -1,0 +1,4 @@
+# 15-strix-varia-v6
+PASS_WITH_LIMITATIONS. v5full andv6fullactuallyviewed: adulttoe-tops nowsoftshortgrey-bufffeatheredacrossmostshaft withsmallbareendsandseparateddarkclaws; nothugefeatherballs. Bothfeetgrips andadultbodypatterns/crossbarupperbreast/verticalbelly/darkeyes/yellowbills/near-equaldisplay retained. Wholeyoungentrancepose/bellyfeet-support/downybarredmesoptile/cere/shortwing/labelunchanged, notadultfeathertransfer orflight. No newanatomydefectseen. Exactdensity/regionboundary/toetipfraction andyoungindividualdayunknown, sciencefalse. ScopeManitobaconceptnotallgeographicforms; v1userapprovalnottransfer. Rule adulttoecovervisibility verified15only; originalcamerastudyageestimateclarifiednotnewbiologicalpass.
+
+[Research and prompt](../species/15-strix-varia-v6.md)

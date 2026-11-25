@@ -7430,3 +7430,8 @@ Reuse/indexrepair: BARO-DUNCAN-2024-CFN JamesR.Duncan/RikiKerbrat/ToddM.Whiklo, 
 ## 2026-11-26 08-strix-nebulosa-v6
 New GGO-WILLIAMS-2012, GGO-ODFW-SWAP-CONFLICT-2026; new GGO-CRC-FACTS-2026; reused WHSO-MIKKOLA-2013. URLs/author/year/sections/actualfacts/limits/design decisions in linkedrecord. Adultfootcover contradiction explicitlycrosschecked, no barefeetclaim silentlydeleted. Newinstitutionalaccounts notthreeprimaryexperiments. Museum502 unverifiedlead. AllspeciesStrixnebulosa; current/oldnameunchanged; adultonlynotchickday.
 [facts/prompt](species/08-strix-nebulosa-v6.md),[review](reviews/08-strix-nebulosa-v6-review.md),[version](../design/concepts/08-strix-nebulosa-v6.png).
+
+
+## 2026-11-26 53-strix-nebulosa-v3
+Reuse WHSO-MIKKOLA-2013/GGO-WILLIAMS-2012/GGO-USFS-FEIS-2007. New GGO-GROVES-ZEHNTNER-1990 originalscannedcover+ii+1–3actualread, dates/URL/primarysurveyvsbackgroundfacts/limits recorded. No searchsnippettoeclaimpromoted. Strixnebulosa adults/ageunknownclimbingyoung; #53duplicates08 so no new species. Appliedbarb-specificpromptfrom08, effectivenesspendingactualimage. Detailed source mapping andallprompt inlinkedrecord.
+[facts/prompt](species/53-strix-nebulosa-v3.md),[review](reviews/53-strix-nebulosa-v3-review.md),[version](../design/concepts/53-strix-nebulosa-v3.png).

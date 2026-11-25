@@ -3,8 +3,8 @@
   "cycle": 5,
   "run_id": "20261125T0748Z-cycle5",
   "started_at": "2026-11-25T08:48:02.904Z",
-  "status": "IN_PROGRESS",
-  "stage": "ARCHIVED",
+  "status": "VERIFIED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -34,6 +34,14 @@
       "evidence": [
         "owl-pet/design/concepts/94-pulsatrix-koeniswaldiana-v6.png"
       ]
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-25T08:55:01.215Z",
+      "evidence": [
+        "f03e7dc55edea872515d8ae29cfe3952d75f5945",
+        "owl-pet/design/concepts/94-pulsatrix-koeniswaldiana-v6.png"
+      ]
     }
   ],
   "id": "94-pulsatrix-koeniswaldiana-v6",
@@ -55,5 +63,17 @@
   "generation_wait_seconds": 38.129,
   "concept": "owl-pet/design/concepts/94-pulsatrix-koeniswaldiana-v6.png",
   "review_record": "owl-pet/research/reviews/94-pulsatrix-koeniswaldiana-v6-review.md",
-  "scientifically_verified": false
+  "scientifically_verified": false,
+  "ended_at": "2026-11-25T08:55:01.215Z",
+  "archive_commit": "f03e7dc55edea872515d8ae29cfe3952d75f5945",
+  "verification": {
+    "remote_bytes": 2800574,
+    "sha256": "555dc56bbe8f3e1912e2f2609d84ff7bfe51aab1ece5cdeeed28d7f21c9f3f1a",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "fullPNGdecode": "PASS",
+    "research_index_readback": "PASS"
+  }
 }

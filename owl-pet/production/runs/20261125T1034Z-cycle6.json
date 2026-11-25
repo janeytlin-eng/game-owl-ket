@@ -4,11 +4,18 @@
   "run_id": "20261125T1034Z-cycle6",
   "started_at": "2026-11-25T10:58:27.184Z",
   "status": "IN_PROGRESS",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-25T11:38:01.726Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-25T11:39:57.698Z",
+      "evidence": [
+        "owl-pet/production/generated/75-ninox-scutulata-v6-original.png"
+      ]
     }
   ],
   "resumed_at": "2026-11-25T11:36:55.458Z",
@@ -28,5 +35,15 @@
   "scientifically_verified": false,
   "research_record": "owl-pet/research/species/75-ninox-scutulata-v6.md",
   "prompt": "Edit #75 Brown Boobook / Ninox scutulata v5 plate into v6. Use case precise-object-edit. Preserve exactly three owls, numbered title/scientific subtitle/three stage labels, composition, warm painterly-realistic finish and rainforest canopy, adult plumage/yellow eyes/rounded tuftless heads, existing near-equal adult scale, all feet on the mossy branch, center juvenile's pale residual down/long formed brown wings/developed barred tail and one supported sideways wing stretch. Change ONLY the tiny exposed cere around the nostril area at the BASE of each ADULT bill from blue-gray to muted dull olive-greenish-brown. Keep the hooked hard bill itself bluish-black with its small pale horn tip; do not turn the entire bill green/yellow or recolor surrounding face, iris or white forehead. The matte cere must be anatomically distinct from keratin bill, natural unsaturated subtle hue visible in close inspection. Juvenile soft parts remain unchanged because its developmental color sequence is not established. Do not invent a sex-height ratio, add white spot rows/scapular patches (concealment is pose-dependent), shorten this older dependent young's real formed feathers, add new actions, extra birds, toes, logo or text.",
-  "source_summary": "New0/reused4 stable records (Mikkola printed464/PDF466 fresh; OwlPages Description and BESG observer body fresh; NParks prior context). Cere dull green-brown differs from blue-black bill; change adult cere only. Guide/specialist sex direction conflict unresolved; no height ratio or new juvenile chronology. #25remotev1–v5/localv5 present; fd9d70d422 not counted."
+  "source_summary": "New0/reused4 stable records (Mikkola printed464/PDF466 fresh; OwlPages Description and BESG observer body fresh; NParks prior context). Cere dull green-brown differs from blue-black bill; change adult cere only. Guide/specialist sex direction conflict unresolved; no height ratio or new juvenile chronology. #25remotev1–v5/localv5 present; fd9d70d422 not counted.",
+  "local_path": "/workspace/scratch/180c531d917a/owl-1136/75-ninox-scutulata-v6.png",
+  "bytes": 2760270,
+  "sha256": "c9279c2c93b8520b9d753296b3a12235d068227ebd1c9a71445fc3f6c5f4d4de",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "original": "owl-pet/production/generated/75-ninox-scutulata-v6-original.png",
+  "generation_wait_seconds": 34.39,
+  "original_blob": "649e4e0df5b7ea53e9405deb3eb4d0a82016b7d4"
 }

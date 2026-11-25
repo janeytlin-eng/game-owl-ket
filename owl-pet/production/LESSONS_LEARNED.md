@@ -137,3 +137,6 @@ Guidecriterion limitedtoeartract; retainedvalidwhitefacebrows. Actualtarget achi
 
 ##2026-11-25 133-megascops-atricapilla-v6
 #133 prompttransversebarsalone madeartificialrepeatedrings; actualphotoismixedirregularbars/branchedshafts. Issue->firstedit->actualcrop->secondedit->actualcrop: regularityreduced; notclaimalljuvenilesbarredthe same oryellowirisagechronology. Preserveinitialfailureseparatelyandnevercountedcompletedadditionalcycle.
+
+##2026-11-25 138-otus-mentawi-v6
+#138 primaryfaintnarrowflightbars targetremigesonly, preserveformedwingandvalidcovertpattern. Actualcrop showsreducedbroadbrightremexmarks, limitedqualitativepass. Record403andtext-onlyscreenshotfailure, neverclaimunseenphotoinspection; May18/21datesarenothatchage.

@@ -7,7 +7,7 @@
   "action": "REVISION",
   "started_at": "2026-11-25T15:27:05.599Z",
   "status": "STARTED",
-  "stage": "IMAGE_GENERATED",
+  "stage": "ARCHIVED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -19,6 +19,14 @@
       "evidence": [
         "owl-pet/production/generated/57-bubo-nipalensis-v7-original.png"
       ]
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-25T15:31:46.906Z"
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-25T15:31:46.906Z"
     }
   ],
   "scientifically_verified": false,
@@ -34,5 +42,7 @@
   "local_path": "/workspace/scratch/180c531d917a/owl-1526/57-bubo-nipalensis-v7.png",
   "original_blob": "34edaa65f7911cfeb546e5964b2e7c3c11e1e34f",
   "original": "owl-pet/production/generated/57-bubo-nipalensis-v7-original.png",
-  "generation_wait_seconds": 128.723
+  "generation_wait_seconds": 128.723,
+  "concept": "owl-pet/design/concepts/57-bubo-nipalensis-v7.png",
+  "review_record": "owl-pet/research/reviews/57-bubo-nipalensis-v7-review.md"
 }

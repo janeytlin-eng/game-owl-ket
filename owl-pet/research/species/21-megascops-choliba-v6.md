@@ -1,14 +1,33 @@
-# 21-megascops-choliba-v6
+# 21 · Tropical Screech-Owl · Megascops choliba · v6
 
-Megascops choliba; historical Otus choliba. SCIENCE_REVISION; scientifically_verified=false. Access 2026-11-26 Asia/Shanghai.
+- current name: *Megascops choliba*
+- historical names: *Otus choliba*, *Strix choliba*
+- action: ARCHIVE_REPAIR_AND_SCIENCE_REVISION
+- target: 18–20-day cavity nestling
+- science: false
+- date: 2026-11-05
 
-## Fresh research / reused sources (0 new, 2 reused, 1 clarified application)
-TSO-ACTA-NESTLING-2017: Guilherme E. & Souza I.R. 2017, Nestling development of the tropical screech-owl, Acta Amazonica47(3):269–272. DOI10.1590/1809-4392201700502. Actual full PDF text read at https://acta.inpa.gov.br/fasciculos/47-3/PDF/AA-2017-0050.pdf pp270–271/Fig1. Field primary, eastern Acre, single nest in broken dead Astrocaryum aculeatum palm. Chamber43cm below opening, ONLY a few bark pieces on floor. 18–20d dark barred mesoptile, formed remiges, fully open yellow irides; departure~30d. Not evidence of flight at18–20d; not a universal nest material rule for all populations. TSO-MIKKOLA-2013: uploaded Heimo Mikkola2013 actual printed218–219/PDF220–221 read; pale greenishgrey bill/cere, golden eyes, feathered tarsi to grey toes, short tufts, no firm universal female-size ratio. Three adult morphs, mesoptile distinct bars. Exact subspecies remains unknown; no inferred exact age from generated image.
+## Evidence read this cycle
 
-## Problem—evidence—change—check
-Actually viewed v5 full plate: regular oval raised stacked-stick/bark rim resembles a constructed nest cup under juvenile. Primary study supports few loose bark pieces over cavity floor, not that cup. Design inference: retain generic wooded cavity, not claim this generated trunk is study palm, replace only support with solid irregular rotted wood and scattered flat bark. Keep body/feet solidly supported. Existing eyes/plumage/stage and adult near equal height retained. Potential related constructed-cup error should be checked on #23 next; no claim other versions corrected.
+- **TSO-ACTA-NESTLING-2017** — Guilherme & Souza, *Acta Amazonica* 47(3):269–272, DOI 10.1590/1809-4392201700502. Original PDF and Figure 1 captions re-read. At 18–20 d: dark barred mesoptile, well-developed remiges, fully open eyes and large yellow iris; the same brood remained in the nest about 30 d. The broken dead *Astrocaryum aculeatum* palm entrance was 1.57 m high, chamber 43 cm below, with only bark pieces.
+- **TSO-SMITHSONIAN-FOSTER-JOHNSON-2017-P13** — Foster & Johnson, Smithsonian Contributions to Zoology 648, p.13. Small sexed Paraguay specimen sample: males 104/114 g and females 140/147 g; yellow iris, bill creamy-white to gray/greenish-yellow, feet gray/pale/greenish. The sample is too small and geographically limited to impose a display ratio.
+- **TSO-ZOOLOGIA-2026-E25121** — 2026 field behavior paper. It explicitly states sexual dimorphism is not detectable in the field; supports near-equal display scale, not quantified morphology.
+- **TSO-ITIS-686663-2026** — valid *Megascops choliba* with synonyms *Otus choliba* and *Strix choliba*; taxonomy only.
+- Reused **TSO-DIAS-LIMA-2015-WJO** and indexed Mikkola pp.218–219. The upload itself was unavailable and not re-read.
 
-## Complete imagegen prompt
-Edit the supplied established owl family plate, retaining its existing photographic natural-history rendering, all text and layout and both adult birds exactly. Correct ONLY the nest-floor support under the juvenile at right: remove the artificial woven-looking oval rim / neat nest bowl of stacked sticks. This species' studied cavity had only a few loose pieces of bark on its floor, not a bird-built cup. Replace the bowl with a broad naturally solid rotten-wood cavity floor with a few irregular loose bark chips lying flat, no straw, no woven twigs, no rim. Keep both juvenile feet planted firmly on this solid surface and its low sitting body naturally supported. Retain the existing dark/light finely barred 18–20-day mesoptile, already formed folded remiges, fully open yellow eyes, bill, crown, pose and all existing adult plumage and proportions. Do not change eye colors, add adult ear tufts, spread wings or depict flight. Do not copy any source photo. Preserve the composition, heading number21, Latin name, all three adult male / adult female / juvenile labels.
+## Boundary
 
-Review: pending generation and actual viewing. Unknown subspecies, individual age/sex and linear proportions; no scientific sign-off.
+The juvenile may have well-developed remiges because the primary series says so, but it is still shown inside the cavity, fully supported, folded-wing and non-flight: departure occurred around 30 d, not 18–20 d. Adults use one gray-brown morph and near-equal height; the small Paraguay mass sample is recorded but not generalized.
+
+## Full imagegen prompt
+
+```text
+Create a 3:2, 1536×1024 scientific educational owl-pet plate in warm hand-painted digital gouache. Exact title “21 · TROPICAL SCREECH-OWL · Megascops choliba”; exactly three labeled birds left-to-right: ADULT MALE, ADULT FEMALE, JUVENILE. Adults same gray-brown morph and near-equal height, female only subtly fuller because field sexual dimorphism is not detectable; small relaxed ear tufts, yellow irises, greenish-yellow bills, gray-green feet, fine brown/gray vermiculation and pale scapular markings, fully feathered tarsi, supported on one branch. Juvenile at right is explicitly 18–20 days old inside the documented broken dead Astrocaryum palm cavity, fully supported on the bark-piece chamber floor: dark finely barred mesoptile, fully open large yellow irises, well-developed but tightly folded juvenile remiges, short tail, no open wing, no flight pose, no adult-crisp layered wing. Show cavity depth and bark pieces subtly; no eggs. Humid southwestern Amazon edge/secondary vegetation, secondary. All text inside frame; no extra birds, no sexual color coding, no exaggerated female size, no invented flight.
+```
+
+Unknowns: exact subspecies, individual flight onset, universal sex-size ratio, continuous feather geometry and transferability of one Acre brood.
+
+
+## Post-generation review
+
+The generated 1536×1024 master and two diagnostic crops were actually inspected. Adults are near-equal and same morph with supported feet. The 18–20-day juvenile is dark-barred, yellow-eyed, cavity-supported and keeps developed remiges folded; no open-wing or flight claim. No edit was required. Result PASS_WITH_LIMITATIONS; science=false.

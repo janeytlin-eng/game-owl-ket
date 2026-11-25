@@ -1,4 +1,10 @@
-# 21-megascops-choliba-v6
-PASS_WITH_LIMITATIONS. Actually viewed v5 full plate, original primary Fig1/p270 and generated v6 full resolution. Artificial raised oval cup removed; broad solid cavity floor with a few loose flat bark chips; both visible juvenile feet and low body naturally supported. Yellow eyes, greenishgrey bill, dark barred mesoptile and formed folded wings retained; no flight or mature spread wing. Adults same morph/near-equal display height, grey toes/dark claws and belly branching streaks retained. No material regression seen. Subspecies, exact individual age/sex dimensions, species-wide nest materials and precise juvenile feather geometry remain unknown; scientifically_verified=false. Problem: generic construction-like cup; evidence: TSO-ACTA-NESTLING-2017 p270 few bark pieces; modification: floor not nest; actual recheck: target corrected without visible anatomy loss. Rule applied and verified here only; next check #23, no mass correction claim.
+# Review — 21 · Megascops choliba · v6
 
-[Problem/evidence/complete prompt](../species/21-megascops-choliba-v6.md). Previous versions retained. Remaining unknowns are not scientific sign-off.
+- result: PASS_WITH_LIMITATIONS
+- scientifically_verified: false
+- edit_count: 0
+- master_blob: `2d0e42ee502e2b69d8cde2d8b65daee3f103142a`
+- adult_crop_blob: `03d44f84a810908457002debe98cfd47eee4901f`
+- juvenile_crop_blob: `66f1b8411554064bcdb90f7496ef45fee5743ab0`
+
+Full master and both crops were inspected. Exactly three labeled birds, near-equal same-morph adults, yellow irides, greenish bills and supported feet passed. The 18–20-day juvenile has dark barred mesoptile, well-developed but folded remiges, short tail and full cavity-floor support; no flight pose. Unknowns remain exact subspecies, individual flight onset, universal sex-size ratio and continuous feather geometry.

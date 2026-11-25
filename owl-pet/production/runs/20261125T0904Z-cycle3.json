@@ -3,8 +3,8 @@
   "cycle": 3,
   "run_id": "20261125T0904Z-cycle3",
   "started_at": "2026-11-25T09:12:34.862Z",
-  "status": "IN_PROGRESS",
-  "stage": "ARCHIVED",
+  "status": "VERIFIED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -31,6 +31,14 @@
       "evidence": [
         "owl-pet/design/concepts/89-bubo-bengalensis-v6.png"
       ]
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-25T09:16:50.677Z",
+      "evidence": [
+        "0b895aec5baf8ac1472abe82031208268d81d5a4",
+        "owl-pet/design/concepts/89-bubo-bengalensis-v6.png"
+      ]
     }
   ],
   "id": "89-bubo-bengalensis-v6",
@@ -52,5 +60,16 @@
   "original": "owl-pet/production/generated/89-bubo-bengalensis-v6-original.png",
   "generation_wait_seconds": 104.347,
   "concept": "owl-pet/design/concepts/89-bubo-bengalensis-v6.png",
-  "review_record": "owl-pet/research/reviews/89-bubo-bengalensis-v6-review.md"
+  "review_record": "owl-pet/research/reviews/89-bubo-bengalensis-v6-review.md",
+  "verification": {
+    "bytes": 2691133,
+    "sha256": "9be28fe555fc7d7d00885507d483269e7d7dbf2cc90cb99addf88bc665adfeea",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "fullPNGdecode": "PASS"
+  },
+  "ended_at": "2026-11-25T09:16:50.677Z",
+  "archive_commit": "0b895aec5baf8ac1472abe82031208268d81d5a4"
 }

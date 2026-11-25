@@ -3,8 +3,8 @@
   "cycle": 2,
   "run_id": "20261125T0748Z-cycle2",
   "started_at": "2026-11-25T08:35:34.137Z",
-  "status": "IN_PROGRESS",
-  "stage": "ARCHIVED",
+  "status": "VERIFIED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -34,6 +34,14 @@
       "evidence": [
         "owl-pet/design/concepts/103-tyto-longimembris-v6.png"
       ]
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-25T08:39:51.655Z",
+      "evidence": [
+        "0971419ce196a7c1ad5b9a944fb804cd286e4d98",
+        "owl-pet/design/concepts/103-tyto-longimembris-v6.png"
+      ]
     }
   ],
   "id": "103-tyto-longimembris-v6",
@@ -55,5 +63,17 @@
   "generation_wait_seconds": 39.291,
   "concept": "owl-pet/design/concepts/103-tyto-longimembris-v6.png",
   "review_record": "owl-pet/research/reviews/103-tyto-longimembris-v6-review.md",
-  "scientifically_verified": false
+  "scientifically_verified": false,
+  "ended_at": "2026-11-25T08:39:51.655Z",
+  "archive_commit": "0971419ce196a7c1ad5b9a944fb804cd286e4d98",
+  "verification": {
+    "remote_bytes": 2919917,
+    "sha256": "acc83ce841b48f823b3e515fae75c116967f8782fd665d97046c9a34bac27d29",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "fullPNGdecode": "PASS",
+    "research_index_readback": "PASS"
+  }
 }

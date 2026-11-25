@@ -6964,3 +6964,6 @@ Reused2 WSC-MIK2013-183 actualuploaded183/PDF185 and WSC-MEES-2006 actual113–1
 
 ##2026-11-25 #134v6 shortdenseyoungfeathers/stagelabel
 New0/reused3 LTSC-KACHIMARECK-2014-WA1527488 actualmetadata+501661bytephoto pixelsrecovered1; LTSC-PAGANO-2021 publisherPDFprinted51–52 actualread, DOIerrorworkingURLcorrected1; LTSC-MENQ-BICHINSKI-2018 actualbodyread. YoungFilhoteexactageunknown, densitynotcurlywool, hideunseenanatomy. Fullbibliography/URLs/limits/prompt [134-megascops-sanctaecatarinae-v6](species/134-megascops-sanctaecatarinae-v6.md). Sciencefalse.
+
+##2026-11-25 #131v6 geographiclineageannotation
+New0/reused4 WAT-DANTAS-2021 actualabstract, WAT-SACC-937-2022 actualdiscussion, WAT-MIK2013-235 actualuploadedprinted235/PDF237, WAT-DAFFONSECA-2017 priorphotorecordonlyfreshopenfailed. No newmorphologyclaim; Manausyoungnotvocal/geneticallyGuianaassigned. FullURLs/pages/facts/limits/prompt [131-megascops-watsonii-v6](species/131-megascops-watsonii-v6.md). Sciencefalse.

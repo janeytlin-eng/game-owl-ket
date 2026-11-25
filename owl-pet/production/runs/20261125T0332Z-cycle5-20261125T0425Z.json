@@ -4,13 +4,20 @@
   "run_id": "20261125T0332Z-cycle5-20261125T0425Z",
   "started_at": "2026-11-25T04:30:47.794Z",
   "status": "IN_PROGRESS",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-25T04:32:48.280Z",
       "evidence": [
         "owl-pet/research/species/139-otus-jolandae-v6.md"
+      ]
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-25T04:35:31.109Z",
+      "evidence": [
+        "owl-pet/production/generated/139-otus-jolandae-v6-original.png"
       ]
     }
   ],
@@ -23,5 +30,14 @@
     "new": 0,
     "reused": 1,
     "scope_corrections": 1
-  }
+  },
+  "bytes": 2670482,
+  "sha256": "6458384dfa2c1dec664920e72d87e8908c976abf1b03934eecec15e50f212bf2",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "original": "owl-pet/production/generated/139-otus-jolandae-v6-original.png",
+  "original_blob": "94549c255711b271693e2cdb8ebccba3bd26e9bb",
+  "generation_wait_seconds": 122.826
 }

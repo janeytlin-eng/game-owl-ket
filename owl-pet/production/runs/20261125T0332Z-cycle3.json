@@ -4,7 +4,7 @@
   "run_id": "20261125T0332Z-cycle3",
   "started_at": "2026-11-25T03:48:19.187Z",
   "status": "IN_PROGRESS",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -13,6 +13,14 @@
         "owl-pet/research/species/132-strix-davidi-v6.md",
         "owl-pet/research/SOURCE_INDEX.md"
       ]
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-25T03:52:57.425Z",
+      "evidence": [
+        "owl-pet/production/generated/132-strix-davidi-v6-original.png"
+      ],
+      "generation_wait_seconds": 52.536
     }
   ],
   "notes": "Select next evidenced correction or incomplete species; no credit yet",
@@ -26,5 +34,8 @@
     "new": 0,
     "reused": 2,
     "scope_corrections": 1
-  }
+  },
+  "generation_wait_seconds": 52.536,
+  "original": "owl-pet/production/generated/132-strix-davidi-v6-original.png",
+  "original_blob": "64c5de1ac347152f2f8b8c08917dc06fc65bf18b"
 }

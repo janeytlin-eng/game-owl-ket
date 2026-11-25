@@ -4604,3 +4604,7 @@ Oldest batch20261124T2333Z cycle5, guide-based adult proximal toe feather revisi
 
 ## 2026-11-25 — recovered batch20261124T2333Z COMPLETED6/6
 Thisinvocation completed2cycles(5–6), new0/revised2: #73Ninoxrufa v6 and#97Lophostrixcristata v6; coverage206/251 unchanged,45remaining. FulloriginalPNGbytes/SHA256/decode and research/index/prompt remote readbackpassed. Verificationcommits 6f761b009d7e1c69795497f07e1b5b85436c4604 / 896a6d846c803ac4f528241d9476659569770cd5; ledgerclose 08041d58103f50626df506719e3ca3fbf8b60df0. Acrossinvocationsbatch6/6,not singleinvoke6. Bothsciencefalse, no newuserconfirmation. [Consolidatedoriginal/reviewentry](production/batches/20261124T2333Z-completed-review.md). OtherPARTIALbatches0; nolease, nextnewbatchcycle1notstarted. WholeproductionstillPARTIAL; nootherautomationmodified.
+
+
+## 2026-11-26 本次3轮PARTIAL，旧批跨次6/6，新批1/6
+新增0/修订#32v6/#31v6/#30v6，覆盖206/251不变；原图字节SHA256解码及研究/提示/索引/账本回读通过，均sciencefalse。下一20261125T2146Z cycle2，其他未完0。未满本次6轮，执行者自报预算，未取得平台固定超时遥测；#29原文404未出图不计数。[原图/提交/研究/实际审查与恢复点](production/batches/20261125T2133Z-partial-review.md)。

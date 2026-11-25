@@ -3,8 +3,8 @@
   "cycle": 4,
   "run_id": "20261125T0748Z-cycle4",
   "started_at": "2026-11-25T08:44:00.211Z",
-  "status": "IN_PROGRESS",
-  "stage": "ARCHIVED",
+  "status": "VERIFIED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -34,6 +34,14 @@
       "evidence": [
         "owl-pet/design/concepts/96-aegolius-ridgwayi-v6.png"
       ]
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-25T08:48:02.904Z",
+      "evidence": [
+        "f7acd0778369038494bef7d79aa3baf742c51926",
+        "owl-pet/design/concepts/96-aegolius-ridgwayi-v6.png"
+      ]
     }
   ],
   "id": "96-aegolius-ridgwayi-v6",
@@ -55,5 +63,17 @@
   "generation_wait_seconds": 39.785,
   "concept": "owl-pet/design/concepts/96-aegolius-ridgwayi-v6.png",
   "review_record": "owl-pet/research/reviews/96-aegolius-ridgwayi-v6-review.md",
-  "scientifically_verified": false
+  "scientifically_verified": false,
+  "ended_at": "2026-11-25T08:48:02.904Z",
+  "archive_commit": "f7acd0778369038494bef7d79aa3baf742c51926",
+  "verification": {
+    "remote_bytes": 2843731,
+    "sha256": "36207ac3836a2abbac34dbab99c8aededf0d24a5da668f599caed37c7ac57fbc",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "fullPNGdecode": "PASS",
+    "research_index_readback": "PASS"
+  }
 }

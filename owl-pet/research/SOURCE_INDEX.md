@@ -7007,3 +7007,7 @@ New0/reused2 relevantdocuments: RID-MIK2013-446 aliasMIKKOLA-2013 actualuploaded
 ## 20261125T0748Z-cycle5 94-pulsatrix-koeniswaldiana-v6
 New PKOE-MENQ-2018 — WillianMenq/AvesdeRapinaBrasil,Apr2018 https://avesderapinabrasil.com/pulsatrix_koeniswaldiana.htm actualDescription/SimilarSpecies/Habitat/youngcaptionread; adultdarkbrown/creamventrum,darkeyes,juvenilecreamdown/darkmask/darkiris. Noexplicitclawcolour, NOT crossvalidationofclawpalette. Expertsecondary/fieldsource, exactyoungage/flightunknown. Reused MIKKOLA-2013 actual313/PDF315 suppliesadultyellowishgreyclaws; preserveyoungfeet, no universalpalette. PawsTrailsPDF400large, nofreshpixels.
 [Full research/prompt](species/94-pulsatrix-koeniswaldiana-v6.md). Scientifically false.
+
+## 20261125T0748Z-cycle6 92-ninox-japonica-v6
+Reused3: JAP-MIK2013-466(actual466–467/PDF468–469), JAP-TAIEOL2013(actual institutional Description), JAP-LIN-LIN-TSENG-2012-PP164-166(actual originalpp164–166/Table3). Adult bill darkgrey vs darkbrown/pale-tip reconciled as darkneutralhorn/smallpaletip. Primary Table3/no significantsexdifference retained; discussion wingchordsexmeans conflict flagged. New0, correcteddesignboundary1; youngbill/age/flightunknown.
+[Full research/prompt](species/92-ninox-japonica-v6.md). Scientifically false.

@@ -3,8 +3,27 @@
   "cycle": 4,
   "run_id": "20261125T0332Z-cycle4-resume-20261125T0425Z",
   "started_at": "2026-11-25T04:26:15.494Z",
-  "status": "STARTED",
-  "stage": "STARTED",
-  "stages": [],
-  "recovery": "Prior cycle4 STARTED only; no image or completion. Lease expired04:09Z and unchanged head/commits checked. Preserve originalrun."
+  "status": "IN_PROGRESS",
+  "stage": "RESEARCH_READY",
+  "stages": [
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-25T04:27:34.199Z",
+      "evidence": [
+        "owl-pet/research/species/95-pulsatrix-melanota-v6.md",
+        "owl-pet/research/SOURCE_INDEX.md"
+      ]
+    }
+  ],
+  "recovery": "Prior cycle4 STARTED only; no image or completion. Lease expired04:09Z and unchanged head/commits checked. Preserve originalrun.",
+  "id": "95-pulsatrix-melanota-v6",
+  "species": "Pulsatrix melanota",
+  "action": "CORRUPT_ARCHIVE_RECONSTRUCTION_WITH_JUVENILE_STAGE_REVISION",
+  "prompt": "Use case: precise-object-edit. Edit the provided valid v4 Band-bellied Owl Pulsatrix melanota group into v6, reconstructing the evidence-bound correction lost in a truncated v5 archive. Change ONLY the center age-unknown recent fledgling: make the crown down visibly patchy creamy white transitioning from remaining cinnamon at sides/back, while the body remains mainly cinnamon fluffy down; retain the blackish facial disc, dark reddish-brown irises, yellow bill/cere and natural low body supported by the broad mossy Albizia fork. Add just a few tiny emerging soft chest feathers among cinnamon fluff, not an adult barred bib. Shorten the folded juvenile wing by about one third, round its tip and soften it under cinnamon down, so no long adult-like layered remiges or white spot rows appear. Conceal tail. Keep both feet and belly naturally supported, exact pose and expression. This is NOT a neonate, do not remove every legitimately developing feather. Preserve both adults unchanged: dark eyes, pale yellow bills, white facial spectacles and throat, broad brown chest band, rusty horizontal bars on cream belly, feathered tarsi/bare toes, nearly equal visible height without invented sex ratio. Keep warm natural refined digital-gouache pet style, all three birds, all title/Latin-name/role labels, exposed fork organic moss/leaves/bark/epiphytes without constructed nest, Yungas shade coffee/plantain setting. No flight pose, wingspread, eggs, added animals, text changes, or white all-over Spectacled Owl chick. Full1536x1024 landscape.",
+  "research_record": "owl-pet/research/species/95-pulsatrix-melanota-v6.md",
+  "source_counts": {
+    "new": 0,
+    "reused": 2,
+    "corrections": 1
+  }
 }

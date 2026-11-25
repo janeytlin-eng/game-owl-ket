@@ -54432,15 +54432,27 @@
       "batch_id": "20261125T1240Z",
       "status": "PARTIAL",
       "target_cycles": 6,
-      "completed_cycles": [],
-      "next_cycle": 1
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "id": "68-tyto-tenebricosa-v6",
+          "species": "Tyto tenebricosa",
+          "commit_sha": "368c4b6241d6fc8294541343a377c1c1ee39aa7f",
+          "archive_commit": "88ecede463c7b214b4a6d6b0fd76a93eb712b24c",
+          "run_record": "owl-pet/production/runs/20261125T1240Z-cycle1.json",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "scientifically_verified": false
+        }
+      ],
+      "next_cycle": 2
     }
   ],
   "lease": {
     "owner": "20261125T1231Z",
-    "run_id": "20261125T1240Z-cycle1",
-    "heartbeat_at": "2026-11-25T12:41:26.915Z",
-    "expires_at": "2026-11-25T12:56:26.915Z"
+    "run_id": "20261125T1240Z-cycle2",
+    "heartbeat_at": "2026-11-25T12:42:21.371Z",
+    "expires_at": "2026-11-25T12:57:25.999Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",

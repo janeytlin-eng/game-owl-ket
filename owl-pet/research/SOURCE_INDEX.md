@@ -6995,3 +6995,7 @@ New0/reused2 HUH-MIK2013-340 aliasMIKKOLA-2013 actualsameuploadedprinted340/PDF3
 ## 20261125T0748Z-cycle2 103-tyto-longimembris-v6
 New0/reused2 documents EGO-MIK2013-102 (actual uploadedprinted102/PDF104), EGO-DUNLOP2016 actualpublisherIntro/Methods/Plumage/Fig1caption/Table3. https://www.jzar.org/jzar/article/download/166/117/1250 (DOI10.19227/jzar.v4i4.166). CorrectlocatorFig1printed171/PDF3,Table3printed172/PDF4; prior172–173offsetcorrected. LocalPDF502, no newphotopixels. Adultblackbrownclawsonly, juvenile unchanged.
 [Full research/prompt](species/103-tyto-longimembris-v6.md). Scientifically false.
+
+## 20261125T0748Z-cycle3 98-strix-chacoensis-v6
+New0/reused2: MIKKOLA-2013 actualprinted336/PDF338 captionwhitishtarsi/rufousbars; CHAO-NBO-2013 Santander/Figueroa/Martinez/Alvarado2013 author-uploaded https://www.researchgate.net/publication/255718775_Chaco_Owl_Strix_chacoensis DetailedDescription/BareParts/Measurements actualread. Fewdarkerbars/spots adulttarsalfeathers, notgenericowlringpattern; youngunchanged. Priorfrog2024paper notre-read.
+[Full research/prompt](species/98-strix-chacoensis-v6.md). Scientifically false.

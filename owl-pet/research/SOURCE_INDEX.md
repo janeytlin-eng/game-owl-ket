@@ -6899,3 +6899,7 @@ Freshlyreread CFPO-USFS-GTR43-2000-P7(Cartron&Finch2000, USDA RMRS-GTR43)printed
 - Value/decision: futurefullpaper/supplementleadforowlcavityuse; nojuvenileplumage, precise nestgeometry orday-ageadopted. Confidencehighabstractcontentonly, targetedfullbodyunverified; NOT scientificpass. [Gap](gaps/20261125T0130Z-cycle5-sumba-makira.md).
 
 ReusedMIKKOLA-2013printed483/PDF485(olderNinoxroseoaxillaris/currentAtheneroseoaxillaris lookup)actualpageread; guidejuvenileunknown, not proofnosubsequentreports. NBUR-INDRAWAN-SOMADIKARTA-2004-P160-170alreadyindexed, no duplicateentry. Newreadrecords2(oneoriginaltargetbody,onepublisherabstractonly); noimageorcyclecredit.
+
+
+## 2026-11-25 — #73 Ninox rufa v6 — existing-source scope correction
+Reused MIKKOLA-2013 printed448–449/PDF450–451 (fresh uploaded text read), RUF-RIDDELL-2021-P221-228 DOI10.20938/afo38221228 (fresh publisher body read) and RUF-ABSA-2019 https://absa.asn.au/wp-content/uploads/2019/09/Rufous-Owl.pdf (fresh1page read). No new publication ID. Guide specifically extends adult rufous feathering approximately halfway onto toes; retain distal bare scales/claws. This detail omitted from prior v5 foot prompt. Not independently photo-validated: directPDF403 and photo205byte captcha; web screenshot placeholder not a read photograph. No universal feather ratio claimed. Facts/inference/conflicts in [species record](species/73-ninox-rufa-v6.md); planned [v6](../design/concepts/73-ninox-rufa-v6.png). New0/reused3/index-scope correction1.

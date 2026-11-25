@@ -3,10 +3,35 @@
   "cycle": 5,
   "run_id": "20261125T0230Z-cycle5",
   "started_at": "2026-11-25T02:31:18.820Z",
-  "status": "STARTED",
-  "stage": "STARTED",
-  "stages": [],
+  "status": "IN_PROGRESS",
+  "stage": "RESEARCH_READY",
+  "stages": [
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-25T02:37:28.271Z",
+      "evidence": "owl-pet/research/species/73-ninox-rufa-v6.md"
+    }
+  ],
   "previous_run": "owl-pet/production/runs/20261124T2333Z-cycle5-20261125T0130Z.json",
   "notes": "No prior image for cycle5; preserve source gap, avoid retrying same403 or inventing young. Audit current versions for supported correction.",
-  "baseline_unique_species": 206
+  "baseline_unique_species": 206,
+  "species": "Ninox rufa",
+  "id": "73-ninox-rufa-v6",
+  "source_counts": {
+    "new": 0,
+    "reused": 3,
+    "scope_corrections": 1
+  },
+  "prompt": "Use case: precise-object-edit. Edit the provided owl-pet #73 Rufous Owl (Ninox rufa) v5 plate into v6. Preserve the established painterly natural-history style, 1536x1024 landscape composition, all three birds, exact title/subtitle and all role labels, owl identities, faces, iris colours, all plumage and body proportions, branches, tree cavity, forest, lighting, central juvenile down/formed folded wings/tail and fully supported branch-walking posture. Change ONLY the two ADULT birds' foot feather boundary: continue short reddish-brown fine feathers from the already-feathered tarsi onto the upper surface of the basal/proximal portion of each visible toe, tapering to approximately the proximal half. Keep distal toe portions visibly bare dirty-yellow scaly, all dark horn claws exposed and their existing branch grips intact. Do not make feather mittens or conceal toe/claw anatomy; no feathers on distal toe tips. Leave the central juvenile's feet and all other details unchanged. Source boundary: Mikkola 2013 printed p448 explicitly describes reddish-brown leg feathering extending about halfway along toes. This is a bounded guide-based correction, not a claim of fully cross-validated universal morphology. No added text, arrows, labels, extra birds, or decorative elements.",
+  "research_record": "owl-pet/research/species/73-ninox-rufa-v6.md",
+  "errors": [
+    {
+      "step": "local source PDF",
+      "error": "HTTP403"
+    },
+    {
+      "step": "reference photo download",
+      "error": "205 byte HTML captcha; no image read"
+    }
+  ]
 }

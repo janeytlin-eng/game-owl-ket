@@ -4,11 +4,18 @@
   "run_id": "20261125T1240Z-cycle6",
   "started_at": "2026-11-25T13:48:00.691Z",
   "status": "STARTED",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-25T13:49:07.922Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-25T13:51:56.476Z",
+      "evidence": [
+        "owl-pet/production/generated/63-scotopelia-peli-v6-original.png"
+      ]
     }
   ],
   "id": "63-scotopelia-peli-v6",
@@ -16,5 +23,17 @@
   "action": "REVISION",
   "scientifically_verified": false,
   "research_record": "owl-pet/research/species/63-scotopelia-peli-v6.md",
-  "prompt": "Edit ONLY the two ADULTS lower breast/belly feather markings in this Pel’s Fishing Owl triptych. Break up long connected dark horizontal rows into finer irregular dusky central shaft streaks ending in small rounded/arrow-like terminal spots on pale reddish-brown to dull-yellow feathers. Keep natural individual variation and sparse faint short bars, not uniform polka dots or a spotless belly. Preserve upperbreast/crown/back markings and existing flight/tail crossbars. Juvenile completely unchanged: large downy pale/cream body, soft compact formed wing contour, darkeyes/bill and twofeet/belly support on treefork. Both adults keep bare straw legs/toes (NO feathers added), darkclaws, blackishbills/greycere, round untufted heads, near-equal displayed scale/subtle femalefullness and maledeep-rufous tone. Same clear river/riparianforest, exact title/scientificname/rolelabels, threebirds/positions/branchgrips and painterlylight. This is a source-bounded adult pattern variant, not universal replacement of all naturally barred birds. No age/flight/nest inventions."
+  "prompt": "Edit ONLY the two ADULTS lower breast/belly feather markings in this Pel’s Fishing Owl triptych. Break up long connected dark horizontal rows into finer irregular dusky central shaft streaks ending in small rounded/arrow-like terminal spots on pale reddish-brown to dull-yellow feathers. Keep natural individual variation and sparse faint short bars, not uniform polka dots or a spotless belly. Preserve upperbreast/crown/back markings and existing flight/tail crossbars. Juvenile completely unchanged: large downy pale/cream body, soft compact formed wing contour, darkeyes/bill and twofeet/belly support on treefork. Both adults keep bare straw legs/toes (NO feathers added), darkclaws, blackishbills/greycere, round untufted heads, near-equal displayed scale/subtle femalefullness and maledeep-rufous tone. Same clear river/riparianforest, exact title/scientificname/rolelabels, threebirds/positions/branchgrips and painterlylight. This is a source-bounded adult pattern variant, not universal replacement of all naturally barred birds. No age/flight/nest inventions.",
+  "bytes": 2881035,
+  "sha256": "21f3746258dd7de61d49466112b905f1af5a13de2270c56765822423904364e6",
+  "gitblob": "acdeb1ef1e8417cd28cfaa1d94a758fc9290a037",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "local_path": "/workspace/scratch/180c531d917a/owl-1331/63-scotopelia-peli-v6.png",
+  "generation_wait_seconds": 63.532,
+  "image_transfer_seconds": 30.61,
+  "original_blob": "acdeb1ef1e8417cd28cfaa1d94a758fc9290a037",
+  "original": "owl-pet/production/generated/63-scotopelia-peli-v6-original.png"
 }

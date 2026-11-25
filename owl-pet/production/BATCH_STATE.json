@@ -53818,17 +53818,28 @@
       "batch_id": "20261125T0332Z",
       "status": "PARTIAL",
       "target_cycles": 6,
-      "completed_cycles": [],
-      "next_cycle": 1,
-      "started_at": "2026-11-25T03:32:40.072Z"
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "id": "112-asio-abyssinicus-v5",
+          "species": "Asio abyssinicus",
+          "action": "MORPHOLOGY_REVISION",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "status": "VERIFIED",
+          "commit_sha": "ded4f1058c893842c106b1aa10d4d56f58af98c0",
+          "archive_commit": "5789f5106d59f7f58e194f0d2eff1627f68d891b",
+          "run_record": "owl-pet/production/runs/20261125T0332Z-cycle1.json",
+          "completed_at": "2026-11-25T03:37:47.907Z",
+          "scientifically_verified": false
+        }
+      ],
+      "next_cycle": 2,
+      "started_at": "2026-11-25T03:32:40.072Z",
+      "last_run_record": "owl-pet/production/runs/20261125T0332Z-cycle1.json"
     }
   ],
-  "lease": {
-    "owner": "20261125T0332Z-cycle1",
-    "run_id": "20261125T0332Z-cycle1",
-    "heartbeat_at": "2026-11-25T03:34:56.182Z",
-    "expires_at": "2026-11-25T03:49:57.753Z"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",

@@ -7022,3 +7022,6 @@ Title ITIS Report Glaucidium tucumanum; ITIS, references HBW/BirdLife v6b2022; a
 
 ### Unresolved lookup boundary, not verified image evidence
 M.roraimae WikiAves https://www.wikiaves.com.br/wiki/corujinha-de-roraima actualbodyread2026-11-25 has jovemcaption but no recovered age-verifiable photo pixels. Lead/partial source only; not accepted early-development evidence. Adult/ageunknownsearchphotos WA6600175/2005340/3288543/4675887 cannot supply chick morphology. Mikkola2013actualprinted244/PDF246 says juvenile undescribed. [Batch no-image gap/audits](../production/batches/20261125T0748Z-completed-review.md). No new illustration/count.
+
+## 20261125T0904Z-cycle1 #85 v6
+SEM-NOHARA-HONDA-2025-P75-78 actualprimaryp76/fig3; SEM-MIK2013-158 actualprinted158–159/PDF160–161 reread2026-11-25. Honshu adultfeatheredtoes vs pryeri baretoes; youngiris/age/flightunknown. New0/reused2, no sciencepass. [Full facts/prompt](species/85-otus-semitorques-v6.md).

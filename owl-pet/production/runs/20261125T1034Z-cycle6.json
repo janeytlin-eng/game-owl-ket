@@ -3,8 +3,8 @@
   "cycle": 6,
   "run_id": "20261125T1034Z-cycle6",
   "started_at": "2026-11-25T10:58:27.184Z",
-  "status": "IN_PROGRESS",
-  "stage": "ARCHIVED",
+  "status": "VERIFIED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -29,6 +29,14 @@
       "stage": "ARCHIVED",
       "at": "2026-11-25T11:40:48.614Z",
       "evidence": [
+        "owl-pet/design/concepts/75-ninox-scutulata-v6.png"
+      ]
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-25T11:41:09.216Z",
+      "evidence": [
+        "2881fcdcb6cb75de224d8e6117d8ff2b7fa82be5",
         "owl-pet/design/concepts/75-ninox-scutulata-v6.png"
       ]
     }
@@ -62,5 +70,16 @@
   "generation_wait_seconds": 34.39,
   "original_blob": "649e4e0df5b7ea53e9405deb3eb4d0a82016b7d4",
   "concept": "owl-pet/design/concepts/75-ninox-scutulata-v6.png",
-  "review_record": "owl-pet/research/reviews/75-ninox-scutulata-v6-review.md"
+  "review_record": "owl-pet/research/reviews/75-ninox-scutulata-v6-review.md",
+  "verification": {
+    "bytes": 2760270,
+    "sha256": "c9279c2c93b8520b9d753296b3a12235d068227ebd1c9a71445fc3f6c5f4d4de",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "fullPNGdecode": "PASS"
+  },
+  "ended_at": "2026-11-25T11:41:09.216Z",
+  "archive_commit": "2881fcdcb6cb75de224d8e6117d8ff2b7fa82be5"
 }

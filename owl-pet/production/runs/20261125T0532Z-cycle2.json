@@ -3,7 +3,25 @@
   "cycle": 2,
   "run_id": "20261125T0532Z-cycle2",
   "started_at": "2026-11-25T05:34:49.042Z",
-  "status": "STARTED",
-  "stage": "STARTED",
-  "stages": []
+  "status": "IN_PROGRESS",
+  "stage": "RESEARCH_READY",
+  "stages": [
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-25T05:37:11.544Z",
+      "evidence": [
+        "owl-pet/research/species/201-otus-mantananensis-v7.md"
+      ]
+    }
+  ],
+  "id": "201-otus-mantananensis-v7",
+  "species": "Otus mantananensis",
+  "action": "ADULT_CROWN_PATTERN_REFINEMENT",
+  "prompt": "Precise feather-detail calibration on this Mantanani Scops Owl Otus mantananensis group. Change ONLY the upper crown/top-of-head mottling of the LEFT and RIGHT ADULTS. Replace the conspicuously large bright white flecks with much finer irregular small brown-black and muted whitish-buff mottling on greyish-brown crown ground, so the crown reads intricate cryptic fine pattern rather than a snow-spotted cap. Keep some natural pale mottles; do not make crown uniformly dark. Preserve the white eyebrows, facial ruff, small ear tufts and legitimate white scapular shoulder rows completely. No changes to lower belly, breast shaft streaks, eyes, bills, toe/leg boundaries, adult sizes or branch grips. ENTIRE central pale romblonis juvenile unchanged, including formed folded dark wings, closed resting eyes, pale down, feet/support. Preserve exact mixed-population footer and scientific-calibration-pending text, title/Latinname/rolelabels, allthreebirds, islandforest, originalsoftrealisticpetstyle, composition and full1536x1024.",
+  "research_record": "owl-pet/research/species/201-otus-mantananensis-v7.md",
+  "source_counts": {
+    "new": 0,
+    "reused": 2,
+    "scope_correction": 1
+  }
 }

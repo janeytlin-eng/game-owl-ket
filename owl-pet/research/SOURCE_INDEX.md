@@ -6939,3 +6939,6 @@ JOL-SANGSTER-ETAL-2013 sameprimarypublication reused freshpublisherDiagnosisMorp
 
 ##2026-11-25 #128v9 MARS-WESKE-1981 flight-feather versus scapular boundary
 Freshprimarybody pp1–3/5–6actualread: outerflightfeathervanestawny/dusky, lesscontrastingthanbarbaruswhite/dusky; outermostsecondarycoverts/scapularwhitevalid. MARS-MIK2013-P234 actualuploaded234/PDF236confirmsdusky/tawny. Existingv8eyesalreadybrown; bellyindividualvariationpreventsforcedgrid, bothfalsefixesrejected. New0/reused2/scope1. [Research/prompt](species/128-megascops-marshalli-v9.md). Olderimmatureformedwingpreserved; no newbornfabrication.
+
+##2026-11-25 #201v7 adult crown fine-pattern calibration
+MANT-ZAINI-2023-MANTANANI-FIELD freshobserverbodyandactual640x401perchedphotopixelsread, boundedflashlitnominate-localitycrown notsex/youngproof. MANT-MIKKOLA-2013-P199-200-MIRROR actualuploadedprinted199–200/PDF201–202 veryfinepatternabovecaption; largewhitecrownfleckstargetedbutlegitimateeyebrow/scapularwhiteretained. No youngcrosspopulationtransfer. New0/reused2/scope1. [Research/prompt](species/201-otus-mantananensis-v7.md).

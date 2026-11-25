@@ -6991,3 +6991,7 @@ Existing OCAP-SAFFORD-1993 original PDF https://www.cambridge.org/core/services/
 
 ## 20261125T0832Z resume #100v6
 New0/reused2 HUH-MIK2013-340 aliasMIKKOLA-2013 actualsameuploadedprinted340/PDF342; HUH-OWLPAGES-2021 originalDescription https://www.owlpages.com/owls/species.php?s=1710 freshlyread. Adultpalehornclawbases/darktips only, nojuveniletransfer. PreviousRESEARCH_READY reused, notnewresearchpublication. [Research/prompt](species/100-strix-huhula-v6.md), [actualreview](reviews/100-strix-huhula-v6-review.md), sciencefalse.
+
+## 20261125T0748Z-cycle2 103-tyto-longimembris-v6
+New0/reused2 documents EGO-MIK2013-102 (actual uploadedprinted102/PDF104), EGO-DUNLOP2016 actualpublisherIntro/Methods/Plumage/Fig1caption/Table3. https://www.jzar.org/jzar/article/download/166/117/1250 (DOI10.19227/jzar.v4i4.166). CorrectlocatorFig1printed171/PDF3,Table3printed172/PDF4; prior172–173offsetcorrected. LocalPDF502, no newphotopixels. Adultblackbrownclawsonly, juvenile unchanged.
+[Full research/prompt](species/103-tyto-longimembris-v6.md). Scientifically false.

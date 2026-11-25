@@ -7079,3 +7079,7 @@ National Museum of Nature and Science specimen catalogue, specimen1747096, date 
 Actual record maps コノハズク to Otus sunia. Specimen metadata, no developmental evidence.
 
 Canonical topic mapping: Otus sunia → juvenile/morphology SUNIA-WBSJ-KYOTO-JUV-CURRENT; naming SUNIA-WBSJ-BIRDFAN-CURRENT and SUNIA-KAHAKU-1747096-CURRENT. Otus semitorques → naming SEM-TOKYO-INOKASHIRA-CURRENT; corrected old SUNIA-prefixed records remain stable IDs. Access2026-11-25; associated [v6 research/prompt](species/80-otus-sunia-v6.md), [v6 review](reviews/80-otus-sunia-v6-review.md), [v6 concept](../design/concepts/80-otus-sunia-v6.png).
+
+## 20261125T1034Z-cycle3 78-asio-capensis-v6
+New0/reused3: WHSO-MIKKOLA-2013 freshly read printed518/PDF520; MARSH-OWLPAGES-2020 actual external body re-read2026-11-25; MAR-COMMONS-MURRAY-2020 previous photo-reading record reused, fresh page inaccessible. Corrected1 inherited design boundary: adult vertical black streaking replaced with brown/fine buff vermiculation, mostly paler lower belly; toe feathering extended to leave short dark tips. Museum CBBM02_240 locator read but figure fetch403, unviewed and not anatomy evidence.
+[Full facts/prompt](species/78-asio-capensis-v6.md). Sciencefalse.

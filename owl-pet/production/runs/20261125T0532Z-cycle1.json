@@ -3,8 +3,8 @@
   "cycle": 1,
   "run_id": "20261125T0532Z-cycle1",
   "started_at": "2026-11-25T05:32:03.156Z",
-  "status": "IN_PROGRESS",
-  "stage": "ARCHIVED",
+  "status": "VERIFIED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -34,6 +34,14 @@
       "evidence": [
         "owl-pet/design/concepts/128-megascops-marshalli-v9.png"
       ]
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-25T05:34:36.802Z",
+      "evidence": [
+        "1c2733dad7b5771ea5ce2b53eabc0f10db53c297",
+        "owl-pet/design/concepts/128-megascops-marshalli-v9.png"
+      ]
     }
   ],
   "id": "128-megascops-marshalli-v9",
@@ -57,5 +65,14 @@
   "generation_wait_seconds": 39.783,
   "concept": "owl-pet/design/concepts/128-megascops-marshalli-v9.png",
   "review_record": "owl-pet/research/reviews/128-megascops-marshalli-v9-review.md",
-  "scientifically_verified": false
+  "scientifically_verified": false,
+  "ended_at": "2026-11-25T05:34:36.802Z",
+  "archive_commit": "1c2733dad7b5771ea5ce2b53eabc0f10db53c297",
+  "verification": {
+    "at": "2026-11-25T05:34:36.802Z",
+    "remote_original_bytes": 2852503,
+    "sha256": "52ec55171daa3315eef7a1e11b31009ee28b99709c1c2021a92f27557292735c",
+    "PNG_decode": "PASS",
+    "research_index_prompt_readback": "PASS"
+  }
 }

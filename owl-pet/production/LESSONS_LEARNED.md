@@ -131,3 +131,6 @@ Guidecriterion limitedtoeartract; retainedvalidwhitefacebrows. Actualtarget achi
 
 ##2026-11-25 134-megascops-sanctaecatarinae-v6
 #134 actualphysicalphoto accessedagain: densefinefeathers notgenericlongcurlywool. Correction visiblyshortenedtexture andremovedunsupportedOLDERlabel. Keepunknownhiddenanatomyconcealed andrecordimprovisednestcontext; futurecavityscenesmustnotclaimliteralnaturalnestreconstruction.
+
+##2026-11-25 131-megascops-watsonii-v6
+#131 annotation makesgeographicscopevisible. Actualtextpass; modelcollateralminorpostureandtonechangesneedexplicitdisclosure, notclaimpixelpreservation. Supportedanatomyretainedqualitatively, noextra biologicalclaim. SACCfreshfindtimeoutdoesnoteraseearliersuccessfulread; logbothoutcomes.

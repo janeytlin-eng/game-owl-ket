@@ -4,7 +4,7 @@
   "run_id": "20261125T1144Z-cycle1",
   "started_at": "2026-11-25T11:41:54.935Z",
   "status": "IN_PROGRESS",
-  "stage": "IMAGE_GENERATED",
+  "stage": "ARCHIVED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -22,6 +22,21 @@
       "at": "2026-11-25T11:47:58.189Z",
       "evidence": [
         "owl-pet/production/generated/70-ninox-strenua-v6-edit1-original.png"
+      ]
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-25T11:48:23.633Z",
+      "evidence": [
+        "owl-pet/research/reviews/70-ninox-strenua-v6-review.md"
+      ],
+      "result": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-25T11:48:23.633Z",
+      "evidence": [
+        "owl-pet/design/concepts/70-ninox-strenua-v6.png"
       ]
     }
   ],
@@ -47,5 +62,7 @@
     "Edit only the two ADULTS' exposed yellow toe surfaces in this Powerful Owl plate. Add a small number of visibly individual sparse fine short pale bristles emerging from toe-base and proximal toe skin, extending beyond the scales as thin separate hairs. Keep the toes mostly bare and scaly, not feather-coated or booted. Preserve exactly the same digits, dark claws and branch grip; do not add toes or change scale color. Keep all owls, adult crown fine spotting, plumage, juvenile, labels, layout and background unchanged. This is a close inspection anatomy correction, not dense furry feet."
   ],
   "initial_original": "owl-pet/production/generated/70-ninox-strenua-v6-original.png",
-  "initial_blob": "7226b1062ceb6d3049aef9d9691db54192bdc03c"
+  "initial_blob": "7226b1062ceb6d3049aef9d9691db54192bdc03c",
+  "concept": "owl-pet/design/concepts/70-ninox-strenua-v6.png",
+  "review_record": "owl-pet/research/reviews/70-ninox-strenua-v6-review.md"
 }

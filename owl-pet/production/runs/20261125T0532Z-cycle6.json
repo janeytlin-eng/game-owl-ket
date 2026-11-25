@@ -4,13 +4,20 @@
   "run_id": "20261125T0532Z-cycle6",
   "started_at": "2026-11-25T05:54:52.432Z",
   "status": "STARTED",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-25T05:56:57.136Z",
       "evidence": [
         "owl-pet/research/species/201-otus-mantananensis-v8.md"
+      ]
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-25T05:58:15.529Z",
+      "evidence": [
+        "owl-pet/production/generated/201-otus-mantananensis-v8-original.png"
       ]
     }
   ],
@@ -23,5 +30,14 @@
     "reused": 3,
     "scope_correction": 1
   },
-  "prompt": "Edit attached Mantanani Scops Owl Otus mantananensis v7. Fine adult crown mottling achieved in v7 must stay exactly fine, irregular and cryptic. Correct only collateral colour-lightening in the underlying CROWN GROUND of BOTH ADULTS: shift the pale cool grey/cream background between the small dark crown freckles a modest step toward medium GREYISH-BROWN, matching the adult nape/back brown-grey ground and maintaining realistic soft daylight. Do NOT enlarge white marks, do NOT erase the fine small pale and black/dark-brown mottles, do not make a plain black cap or strong russet red morph. Keep legitimate white eyebrows, pale facial details and white scapular shoulder row unchanged. No change to ears/eyes/bill/feet/body/belly streaks, sizes, posture, forest, branchsupport. ENTIRE center cream pale romblonis juvenile unchanged including its down, closed resting eyes, folded formed wings, feet, label. Preserve exact existing title, scientific name, all labels and mixed-population footer and SCIENTIFIC CALIBRATION PENDING text. Full1536x1024 established warm tactile naturalistic style. This is bounded qualitative greyish-brown design calibration, not a claim to exact specimen colour. No new bird, nest, age, flight or sexdimorphism."
+  "prompt": "Edit attached Mantanani Scops Owl Otus mantananensis v7. Fine adult crown mottling achieved in v7 must stay exactly fine, irregular and cryptic. Correct only collateral colour-lightening in the underlying CROWN GROUND of BOTH ADULTS: shift the pale cool grey/cream background between the small dark crown freckles a modest step toward medium GREYISH-BROWN, matching the adult nape/back brown-grey ground and maintaining realistic soft daylight. Do NOT enlarge white marks, do NOT erase the fine small pale and black/dark-brown mottles, do not make a plain black cap or strong russet red morph. Keep legitimate white eyebrows, pale facial details and white scapular shoulder row unchanged. No change to ears/eyes/bill/feet/body/belly streaks, sizes, posture, forest, branchsupport. ENTIRE center cream pale romblonis juvenile unchanged including its down, closed resting eyes, folded formed wings, feet, label. Preserve exact existing title, scientific name, all labels and mixed-population footer and SCIENTIFIC CALIBRATION PENDING text. Full1536x1024 established warm tactile naturalistic style. This is bounded qualitative greyish-brown design calibration, not a claim to exact specimen colour. No new bird, nest, age, flight or sexdimorphism.",
+  "bytes": 2405568,
+  "sha256": "71923c68a4199b1828b1dd7e82252199a9e6271c6205ee6da7807267017698c2",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "original": "owl-pet/production/generated/201-otus-mantananensis-v8-original.png",
+  "original_blob": "a05645047026409dc40fc71fdcd05477125c9adf",
+  "generation_wait_seconds": 38.225
 }

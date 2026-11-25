@@ -6967,3 +6967,6 @@ New0/reused3 LTSC-KACHIMARECK-2014-WA1527488 actualmetadata+501661bytephoto pixe
 
 ##2026-11-25 #131v6 geographiclineageannotation
 New0/reused4 WAT-DANTAS-2021 actualabstract, WAT-SACC-937-2022 actualdiscussion, WAT-MIK2013-235 actualuploadedprinted235/PDF237, WAT-DAFFONSECA-2017 priorphotorecordonlyfreshopenfailed. No newmorphologyclaim; Manausyoungnotvocal/geneticallyGuianaassigned. FullURLs/pages/facts/limits/prompt [131-megascops-watsonii-v6](species/131-megascops-watsonii-v6.md). Sciencefalse.
+
+##2026-11-25 #133v6 recoveredphysicalyoungreference
+New0/reused3 BCSO-WIKIAVES-WA2019052 actualmetadata+790731bytephotopixelsrecovered1; BCSO-DANTAS-2021=WAT-DANTAS-2021 samepaperdedup, publisherabstractalreadyreadthisinvocation; BCSO-WIKIAVES-SPECIES-2026 actualsecondarybody. Actualyoungmixedbars/branchedshafts/smalltufts/yellowiris, exactage/flightunknown. FullURLs/facts/limits/prompt [133-megascops-atricapilla-v6](species/133-megascops-atricapilla-v6.md),sciencefalse.

@@ -7415,3 +7415,8 @@ EASO-TPWD-SPECIES-2026: TexasParksWildlife, EasternScreechOwl, undatedinstitutio
 ## 2026-11-26 16-strix-occidentalis-v6
 NSO-CDFW-BIOLOGY-2026 newURLrecord CDFWNorthernSpottedOwlsinCalifornia https://wildlife.ca.gov/Conservation/Birds/Northern-Spotted-Owl actualBiologyread2026-11-26: caurinafemale10–20percentmassnotheight, departure34–36d/generalcavity. ReusedForsmanEric1976OSUthesis https://andrewsforest.oregonstate.edu/sites/default/files/lter/pubs/pdf/pub1760.pdf actualabstractPDF4–5read weakflight/climbing/downymesoptile, nopicturedexactage. ReuseduploadedMikkola2013printed342/344, billconflictretainedandnotedited. New1/reused2/sexdisplaycorrection1; regioncaurinaonly.
 [facts/prompt](species/16-strix-occidentalis-v6.md),[review](reviews/16-strix-occidentalis-v6-review.md),[version](../design/concepts/16-strix-occidentalis-v6.png).
+
+
+## 2026-11-26 14-bubo-virginianus-v5
+GHOW-CPW-PHYSICAL-2026 — ColoradoParksWildlife, GreatHornedOwl, undatedgovernment speciespage https://cpw.state.co.us/species/great-horned-owl accessed2026-11-26 actualPhysicalCharacteristics: adultfootcoverextendsontotoeends. CrosscheckedMIKKOLA-2013uploadedactualprinted262/PDF264+264/PDF266. ReusedGHOW-HOFFMEISTER-SETZER-1947 KU1(8):157–173 actualHTMLpp159–165read (Kansas1945/1946broods), older21dwingboundarypriorreadonly; HTMLfind/TXT503 recorded. CPWotherflight/incubationgeneralizations notadopted ascontradictoryorunsupported; noyoungstagefactsinferred. New1/reused2/adulttoeapplicationcorrection1; v1approvalnottransfer. Adultdensityindividualuncertain.
+[facts/prompt](species/14-bubo-virginianus-v5.md),[review](reviews/14-bubo-virginianus-v5-review.md),[version](../design/concepts/14-bubo-virginianus-v5.png).

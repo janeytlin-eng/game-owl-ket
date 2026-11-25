@@ -4,13 +4,20 @@
   "run_id": "20261125T0332Z-cycle6-20261125T0425Z",
   "started_at": "2026-11-25T04:36:17.875Z",
   "status": "IN_PROGRESS",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-25T04:37:15.781Z",
       "evidence": [
         "owl-pet/research/species/140-otus-rufescens-v7.md"
+      ]
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-25T04:38:40.457Z",
+      "evidence": [
+        "owl-pet/production/generated/140-otus-rufescens-v7-original.png"
       ]
     }
   ],
@@ -23,5 +30,14 @@
     "new": 0,
     "reused": 3,
     "scope_corrections": 1
-  }
+  },
+  "bytes": 2458741,
+  "sha256": "03fa052e202052a445243461b65d0613cb0434a2cd27d4aca24133e2c98f5682",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "original": "owl-pet/production/generated/140-otus-rufescens-v7-original.png",
+  "original_blob": "27f4459a6a08472879871b33799e49495b188bf9",
+  "generation_wait_seconds": 47.224
 }

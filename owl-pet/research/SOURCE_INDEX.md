@@ -7351,3 +7351,7 @@ New0/reused3freshaccounts. CBOW-MIKKOLA-2013 printed406/PDF408 actualread diffus
 
 ## 31-glaucidium-radiatum-v6
 New0/reused3fresh+1prior: JUOW-MIKKOLA-2013 printed403–404/PDF405–406actualread; JUOW-OWLPAGES-2110 https://www.owlpages.com/owls/species.php?s=2110 Description64–67plaincentralbelly/ventandbarredsides; JUOW-OISEAUXNET-LEBOFF-2026 actualmetadataageunknownimmaturePilibhit, notfreshphotopixels; JUOW-MADRAS-MUSEUM-1979 prioronly. Correctalloveradultbellybarring; youngunchanged/noageflightclaim. [Research](species/31-glaucidium-radiatum-v6.md) / [image](../design/concepts/31-glaucidium-radiatum-v6.png).
+
+
+## 30-glaucidium-cuculoides-v6
+New0/reused2fresh: ASBO-MIKKOLA-2013 printed408/PDF410plain/weakmesoptilemantleandspottedhead; ASBO-HKBWS-AVIFAUNA-2024 https://avifauna.hkbws.org.hk/species/0190/026900 actualIdentification/Breeding/Systematicsreread. Retainheadspots/yellowfledglingiris; reducecrispadultmantlerows, formedwingsretained. Age/flightunknown. [Research](species/30-glaucidium-cuculoides-v6.md).

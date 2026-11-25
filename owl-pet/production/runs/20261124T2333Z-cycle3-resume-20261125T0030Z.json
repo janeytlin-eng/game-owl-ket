@@ -2,7 +2,7 @@
   "batch_id": "20261124T2333Z",
   "cycle": 3,
   "run_id": "20261125T0030Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "status": "STARTED",
   "started_at": "2026-11-25T00:31:34.778Z",
   "previous_failed_attempt": "owl-pet/production/runs/20261124T2333Z-cycle3.json",
@@ -12,6 +12,10 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-25T00:32:25.414Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-25T00:33:37.226Z"
     }
   ],
   "id": "28-glaucidium-perlatum-v7",
@@ -28,5 +32,9 @@
     "Exact age/continuous iris timeline",
     "No primary daily ontogeny recovered; no universal all-young iris claim"
   ],
-  "correction": "Previous v6 used unknown iris chronology to retain brown-looking iris, although selected mesoptile stage has explicit deepyellow guide description. Apply only chosen stage, retain pending scientific status."
+  "correction": "Previous v6 used unknown iris chronology to retain brown-looking iris, although selected mesoptile stage has explicit deepyellow guide description. Apply only chosen stage, retain pending scientific status.",
+  "imagegen_wait_ms": 31842,
+  "imagegen_calls": 1,
+  "image_blob": "6e1a6ec1945d66b7a4511758654e4e359776c703",
+  "local_path": "/workspace/scratch/180c531d917a/owl-2333/28-glaucidium-perlatum-v7.png"
 }

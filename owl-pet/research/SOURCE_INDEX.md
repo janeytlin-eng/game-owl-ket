@@ -7029,3 +7029,7 @@ SEM-NOHARA-HONDA-2025-P75-78 actualprimaryp76/fig3; SEM-MIK2013-158 actualprinte
 ## 20261125T0904Z-cycle2 83-otus-brucei-v6
 New BRU-MOLDOVAN-2009-TABLE1 actual originalp2/PDF2 https://ecology.nottingham.ac.uk/~plzfg/EBBSoc/ejnh5/1-Istvan_2009.pdf ; reused BRU-MIK2013-126(actual126/PDF128), BRU-KHOURY-ALSHAMLIH-DHEIB-2021-P286-287(actualJordanbody), BRU-SANGHA-MALIK-2010-P176-177(actualDescription). Adultbasaltoefeathersdistinctfromwholetoes; youngunknownretained. New1/reused3.
 [Full facts/prompt](species/83-otus-brucei-v6.md). Sciencefalse.
+
+## 20261125T0904Z-cycle3 89-bubo-bengalensis-v6
+New BEN-OWLPAGES-1260 actualDescription https://www.owlpages.com/owls/species.php?s=1260 , dateunknown/access2026-11-25; reused BEN-MIKKOLA-2013-P274-275(actual274–275/PDF276–277), BEN-RAMANUJAM-MURUGAVEL-2009-P519-524(previousageboundary; freshPDFbodygarbled, retryHTML). Adultlowerbarsfaintnotblank; juvenileunchanged; no quantitativepalettevalidation.
+[Full facts/prompt](species/89-bubo-bengalensis-v6.md). Sciencefalse.

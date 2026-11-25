@@ -428,3 +428,6 @@ PASS_WITH_LIMITATIONS/sciencefalse. Oldfull/newfull and nativeyoung-feet-label-f
 - #43v6：白色跗蹠/趾上绒羽、较直细眉；成年近等尺度与46成鸟的测量重叠相容。幼鸟深色虹膜是设计占位，图上明确年龄/虹膜未核验；不是把未知改称科学事实。Ishtiaq孵化日期由雌鸟行为推定，不能当所有个体已知生日。
 - 本次实际回查对象为#43–47各旧图＋新图，#47另看趾部crop。其他可能受同类问题影响的图只列后续队列，不声称已整库复查。
 
+
+## 2026-11-26 actual lessons
+#47 sparse toe feathering must not become unmeasured percentage; global-board microedits still unresolved, enlarged-region strategy proposed not tested. #42 bristled toes not universal all-owl foot model. #41 morph labels do not imply sex-linked plumage or provenpair, disclaimer applied/readable. #39 distinguish water droplets from feather spots; back pigment corrected, textversionneeded secondedit. #38 tail pale bars narrowed, female wing/tail direction not bodyweight multiplier; printedv6 absent but filenamev6 preserved. #37 double-column ORIGINAL PAGE must be viewed before assigning entries to species; actualrender corrected old v5 error. Exposed juvenile iris/stage uncertainty cannot be claimed as calibrated dark/yellow. Actualold/newimages checked37–39/41–42/47; otherpotentiallyaffectedrecords queued, not claimed whole-library reviewed. Allsciencefalse. See batch report for evidence.

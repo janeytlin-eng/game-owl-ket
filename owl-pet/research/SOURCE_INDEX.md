@@ -7041,3 +7041,7 @@ Reused SEN-MIK2013-130(actualprinted130/PDF132), SEN-OWLPAGES-2020 actualDescrip
 ## 20261125T0904Z-cycle5 84-otus-bakkamoena-v9
 New BAK-OWLPAGES-2020-760 DeaneLewis2020-10-05 actualDescription https://www.owlpages.com/owls/species.php?s=760 ; reused BAK-MIK2013-150 actual150/PDF152 andBAK-BRRAICH-SINGH2021 actualprimaryp55/PDF1 https://indianbirds.in/pdfs/IB_17_2_Brraich_Singh_IndianScopsOwl.pdf . Adultpalehornclaws only; unknownyoungage/flightretained. New1/reused2.
 [Full facts/prompt](species/84-otus-bakkamoena-v9.md). Sciencefalse.
+
+## 20261125T0904Z-cycle6 81-otus-scops-v6
+New SCOPS-OWLPAGES-2020-510 actualDescription DeaneLewis2020-10-04 https://www.owlpages.com/owls/species.php?s=510 ; reusedMIKKOLA-2013 actual122–123/PDF124–125, SCOPS-BOANO-ETAL-2020 priorprimaryrecord/institutionPDFfresh403,publisherfallback; olderGrieco/Blasco locomotionrecords2record-only. Adultgreytoes/grey-brownclawbases darktips, youngunchanged. New1/reused2core+2record-only.
+[Full facts/prompt](species/81-otus-scops-v6.md). Sciencefalse.

@@ -3,8 +3,8 @@
   "cycle": 5,
   "run_id": "20261125T1353Z-cycle5",
   "started_at": "2026-11-25T14:47:07.310Z",
-  "status": "STARTED",
-  "stage": "ARCHIVED",
+  "status": "VERIFIED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -31,6 +31,10 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-25T14:51:22.993Z"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-25T14:51:42.242Z"
     }
   ],
   "id": "58-ketupa-coromanda-v6",
@@ -55,5 +59,16 @@
   "review_issue": "First edit palehorn tip too weak in nativecrop; notvisuallyverifiedeffective",
   "edit_prompt": "Edit ONLY the distal hook tip of BOTH ADULT beaks: visibly PALE YELLOWISH HORN terminal area covering the lowest one-third of the hooked bill, a muted ivory-beige patch clearly distinct from the blue-grey upper two-thirds and cere. Not a yellow wholebill. Preserve same hookshape. Centraljuvenile unchanged, allotherpixels ascloseaspossible unchanged, same3birds/alllabels/feet/support/plumage/tree/nest/background. Need identifiable pale terminal horn region, not just a highlight.",
   "review_record": "owl-pet/research/reviews/58-ketupa-coromanda-v6-review.md",
-  "concept": "owl-pet/design/concepts/58-ketupa-coromanda-v6.png"
+  "concept": "owl-pet/design/concepts/58-ketupa-coromanda-v6.png",
+  "archive_commit": "3912485140292a6a16b2225d67a8ea161160c6af",
+  "verification": {
+    "bytes": 3057232,
+    "sha256": "8946bca1c3305e3c6bed6bb7c7de90cbb9f69112445125f869c0d989118c6fd8",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "fullPNGdecode": "PASS"
+  },
+  "ended_at": "2026-11-25T14:51:42.242Z"
 }

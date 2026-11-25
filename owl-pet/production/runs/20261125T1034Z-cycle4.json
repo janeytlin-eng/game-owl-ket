@@ -3,8 +3,8 @@
   "cycle": 4,
   "run_id": "20261125T1034Z-cycle4",
   "started_at": "2026-11-25T10:51:14.413Z",
-  "status": "IN_PROGRESS",
-  "stage": "ARCHIVED",
+  "status": "VERIFIED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -31,6 +31,14 @@
       "evidence": [
         "owl-pet/design/concepts/76-asio-clamator-v6.png"
       ]
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-25T10:54:33.263Z",
+      "evidence": [
+        "81763caa5ca061ec0f6487f1502d058581b79305",
+        "owl-pet/design/concepts/76-asio-clamator-v6.png"
+      ]
     }
   ],
   "id": "76-asio-clamator-v6",
@@ -52,5 +60,16 @@
   "original": "owl-pet/production/generated/76-asio-clamator-v6-original.png",
   "generation_wait_seconds": 44.563,
   "concept": "owl-pet/design/concepts/76-asio-clamator-v6.png",
-  "review_record": "owl-pet/research/reviews/76-asio-clamator-v6-review.md"
+  "review_record": "owl-pet/research/reviews/76-asio-clamator-v6-review.md",
+  "verification": {
+    "bytes": 3313772,
+    "sha256": "149fa2f2faea310172f23c62f2ede47de44957f311980a5a04c2336084daa571",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "fullPNGdecode": "PASS"
+  },
+  "ended_at": "2026-11-25T10:54:33.263Z",
+  "archive_commit": "81763caa5ca061ec0f6487f1502d058581b79305"
 }

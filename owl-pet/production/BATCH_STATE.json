@@ -54120,19 +54120,32 @@
           "revision_increment": 1,
           "completed_at": "2026-11-25T08:35:34.137Z",
           "scientifically_verified": false
+        },
+        {
+          "cycle": 2,
+          "id": "103-tyto-longimembris-v6",
+          "species": "Tyto longimembris",
+          "status": "VERIFIED",
+          "commit_sha": "ec5eb4e3bdf718d8160e9e0d2962d864bc2951a1",
+          "archive_commit": "0971419ce196a7c1ad5b9a944fb804cd286e4d98",
+          "run_record": "owl-pet/production/runs/20261125T0748Z-cycle2.json",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "completed_at": "2026-11-25T08:39:51.655Z",
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 2,
-      "last_run_record": "owl-pet/production/runs/20261125T0748Z-cycle1.json",
+      "next_cycle": 3,
+      "last_run_record": "owl-pet/production/runs/20261125T0748Z-cycle2.json",
       "last_stage": "RESEARCH_READY",
       "last_outcome": "PARTIAL_OUTPUT_DISPLAY_LIMIT"
     }
   ],
   "lease": {
     "owner": "20261125T0832Z-production",
-    "run_id": "20261125T0748Z-cycle2",
-    "heartbeat_at": "2026-11-25T08:38:51.133Z",
-    "expires_at": "2026-11-25T08:53:52.320Z"
+    "run_id": "20261125T0748Z-cycle3",
+    "heartbeat_at": "2026-11-25T08:39:51.655Z",
+    "expires_at": "2026-11-25T08:54:57.792Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",

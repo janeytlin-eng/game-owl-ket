@@ -54430,7 +54430,7 @@
     },
     {
       "batch_id": "20261125T1240Z",
-      "status": "PARTIAL",
+      "status": "COMPLETED",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -54487,18 +54487,25 @@
           "unique_species_increment": 0,
           "revision_increment": 1,
           "scientifically_verified": false
+        },
+        {
+          "cycle": 6,
+          "id": "63-scotopelia-peli-v6",
+          "species": "Scotopelia peli",
+          "commit_sha": "7c415f4b38afd910f7eebcd9a6cd92dbb05ebce4",
+          "archive_commit": "66da0bdf68a4ab535edc784234eab3976519b65d",
+          "run_record": "owl-pet/production/runs/20261125T1240Z-cycle6.json",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 6,
-      "next_action": "Resume same batch cycle3 from ARCHIVED, recover immutable original and verify bytes/hash/fullPNGdecode; do not regenerate or duplicate archive."
+      "next_cycle": null,
+      "next_action": "Resume same batch cycle3 from ARCHIVED, recover immutable original and verify bytes/hash/fullPNGdecode; do not regenerate or duplicate archive.",
+      "completed_at": "2026-11-25T13:52:57.197Z"
     }
   ],
-  "lease": {
-    "owner": "20261125T1331Z",
-    "run_id": "20261125T1240Z-cycle6",
-    "heartbeat_at": "2026-11-25T13:51:58.106Z",
-    "expires_at": "2026-11-25T14:06:58.106Z"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",

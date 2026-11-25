@@ -4,11 +4,18 @@
   "run_id": "20261125T1034Z-cycle3",
   "started_at": "2026-11-25T10:46:41.890Z",
   "status": "IN_PROGRESS",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-25T10:49:02.807Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-25T10:50:36.605Z",
+      "evidence": [
+        "owl-pet/production/generated/78-asio-capensis-v6-original.png"
+      ]
     }
   ],
   "id": "78-asio-capensis-v6",
@@ -17,5 +24,16 @@
   "scientifically_verified": false,
   "research_record": "owl-pet/research/species/78-asio-capensis-v6.md",
   "prompt": "Edit only the adult plumage and adult toe-feather coverage in this #78 Marsh Owl (Asio capensis) v5 concept plate, producing v6. Preserve the numbered top title, scientific name, all three bottom labels, exactly three owls, adult near-equal scale and individual poses, the central down-rich owlet unchanged, warm painterly-realistic natural light, wet grassland habitat, and all foot-ground contacts. Both adults' current strong black lengthwise breast/belly streaks are wrong for this species concept: replace them with brown breast finely vermiculated buff, transitioning to more uniform pale buff on lower belly/thighs. Do not retain bold Striped-Owl-like vertical shaft streak columns. Keep the subtle fine texture visible on brown breast; do not make a featureless tan body. Reduce heavy high-contrast spotting across adults' mantles toward plain earth-brown with restrained fine buff vermiculation; retain appropriate brown-and-tawny bars on folded flight feathers and tails. Tarsi stay feathered; extend pale buffish short plumes over most of the adult toes so only short dark brown distal toe tips and dark claws remain exposed, with stable same support/anatomy. Keep dark brown eyes, pale buff discs with dark rim, tiny ear tufts and blackish horn bills. Do not invent sex-specific color dichromatism or impose a height ratio; retain current subtle female fullness only. Do not add adult flight feathers to juvenile; its compact down-soft wings/tail stay mostly hidden. No new nest, eggs, extra birds, limbs, text, logo or watermark.",
-  "source_summary": "New0/reused3: WHSO-MIKKOLA-2013 freshly read printed518/PDF520; MARSH-OWLPAGES-2020 actual external body re-read2026-11-25; MAR-COMMONS-MURRAY-2020 previous photo-reading record reused, fresh page inaccessible. Corrected1 inherited design boundary: adult vertical black streaking replaced with brown/fine buff vermiculation, mostly paler lower belly; toe feathering extended to leave short dark tips. Museum CBBM02_240 locator read but figure fetch403, unviewed and not anatomy evidence."
+  "source_summary": "New0/reused3: WHSO-MIKKOLA-2013 freshly read printed518/PDF520; MARSH-OWLPAGES-2020 actual external body re-read2026-11-25; MAR-COMMONS-MURRAY-2020 previous photo-reading record reused, fresh page inaccessible. Corrected1 inherited design boundary: adult vertical black streaking replaced with brown/fine buff vermiculation, mostly paler lower belly; toe feathering extended to leave short dark tips. Museum CBBM02_240 locator read but figure fetch403, unviewed and not anatomy evidence.",
+  "local_path": "/workspace/scratch/180c531d917a/owl-1034/78-asio-capensis-v6.png",
+  "bytes": 2830023,
+  "sha256": "912b4d4ab752be46102f734bde02939919821b23dd0f9d580216372dc0946322",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "git_blob_sha": "4d22a386736522d4003162ccbd447ce8c56cb787",
+  "original_blob": "4d22a386736522d4003162ccbd447ce8c56cb787",
+  "original": "owl-pet/production/generated/78-asio-capensis-v6-original.png",
+  "generation_wait_seconds": 42.849
 }

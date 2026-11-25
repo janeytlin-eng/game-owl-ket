@@ -3,8 +3,8 @@
   "cycle": 4,
   "run_id": "20261125T0640Z-cycle4",
   "started_at": "2026-11-25T06:51:29.458Z",
-  "status": "STARTED",
-  "stage": "ARCHIVED",
+  "status": "VERIFIED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -41,6 +41,14 @@
       "evidence": [
         "owl-pet/design/concepts/133-megascops-atricapilla-v6.png"
       ]
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-25T06:56:23.700Z",
+      "evidence": [
+        "37abe4a0a1666c872c834944601b8803092fc245",
+        "owl-pet/design/concepts/133-megascops-atricapilla-v6.png"
+      ]
     }
   ],
   "id": "133-megascops-atricapilla-v6",
@@ -71,5 +79,14 @@
   "issue": "Initial belly pattern too regular/continuous despite request irregular; second targeted edit required.",
   "concept": "owl-pet/design/concepts/133-megascops-atricapilla-v6.png",
   "review_record": "owl-pet/research/reviews/133-megascops-atricapilla-v6-review.md",
-  "scientifically_verified": false
+  "scientifically_verified": false,
+  "ended_at": "2026-11-25T06:56:23.700Z",
+  "archive_commit": "37abe4a0a1666c872c834944601b8803092fc245",
+  "verification": {
+    "at": "2026-11-25T06:56:23.700Z",
+    "remote_bytes": 2642402,
+    "SHA256": "7411955b959d0837d86865de5fccebf79114d1ff96a5df91a112ddcc6d039921",
+    "fullPNGdecode": "PASS",
+    "research_index_readback": "PASS"
+  }
 }

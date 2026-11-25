@@ -3,9 +3,14 @@
   "cycle": 6,
   "run_id": "20261125T1034Z-cycle6",
   "started_at": "2026-11-25T10:58:27.184Z",
-  "status": "STARTED",
-  "stage": "STARTED",
-  "stages": [],
+  "status": "IN_PROGRESS",
+  "stage": "RESEARCH_READY",
+  "stages": [
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-25T11:38:01.726Z"
+    }
+  ],
   "resumed_at": "2026-11-25T11:36:55.458Z",
   "recovery": {
     "previous_lease": {
@@ -16,5 +21,12 @@
     },
     "head_checked": "85a15ae89c53a1cf6e2a0fc10d1b15a1ffb9fe33",
     "reason": "Prior production interrupted by read-only instruction. Only STARTED persisted, no archive after85a15ae. Resume same cycle."
-  }
+  },
+  "id": "75-ninox-scutulata-v6",
+  "species": "Ninox scutulata",
+  "action": "REVISION",
+  "scientifically_verified": false,
+  "research_record": "owl-pet/research/species/75-ninox-scutulata-v6.md",
+  "prompt": "Edit #75 Brown Boobook / Ninox scutulata v5 plate into v6. Use case precise-object-edit. Preserve exactly three owls, numbered title/scientific subtitle/three stage labels, composition, warm painterly-realistic finish and rainforest canopy, adult plumage/yellow eyes/rounded tuftless heads, existing near-equal adult scale, all feet on the mossy branch, center juvenile's pale residual down/long formed brown wings/developed barred tail and one supported sideways wing stretch. Change ONLY the tiny exposed cere around the nostril area at the BASE of each ADULT bill from blue-gray to muted dull olive-greenish-brown. Keep the hooked hard bill itself bluish-black with its small pale horn tip; do not turn the entire bill green/yellow or recolor surrounding face, iris or white forehead. The matte cere must be anatomically distinct from keratin bill, natural unsaturated subtle hue visible in close inspection. Juvenile soft parts remain unchanged because its developmental color sequence is not established. Do not invent a sex-height ratio, add white spot rows/scapular patches (concealment is pose-dependent), shorten this older dependent young's real formed feathers, add new actions, extra birds, toes, logo or text.",
+  "source_summary": "New0/reused4 stable records (Mikkola printed464/PDF466 fresh; OwlPages Description and BESG observer body fresh; NParks prior context). Cere dull green-brown differs from blue-black bill; change adult cere only. Guide/specialist sex direction conflict unresolved; no height ratio or new juvenile chronology. #25remotev1–v5/localv5 present; fd9d70d422 not counted."
 }

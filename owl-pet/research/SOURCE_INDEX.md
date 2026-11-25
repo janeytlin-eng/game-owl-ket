@@ -7103,3 +7103,7 @@ Additional Kelso&Kelso1936 feather-foot paper found but current SORA link redire
 
 
 Mapping Asio stygius/Nyctalops stygius → upperpart morphology STY-OWLPAGES-2020; regional toe conflict STY-KELSO-1934-P522-523. Access2026-11-25. [v6 research/prompt](species/77-asio-stygius-v6.md), [v6 review](reviews/77-asio-stygius-v6-review.md), [concept](../design/concepts/77-asio-stygius-v6.png).
+
+## 20261125T1034Z-cycle6 75-ninox-scutulata-v6
+New0/reused4 stable records (Mikkola printed464/PDF466 fresh; OwlPages Description and BESG observer body fresh; NParks prior context). Cere dull green-brown differs from blue-black bill; change adult cere only. Guide/specialist sex direction conflict unresolved; no height ratio or new juvenile chronology. #25remotev1–v5/localv5 present; fd9d70d422 not counted.
+[Research/full prompt](species/75-ninox-scutulata-v6.md). Sciencefalse.

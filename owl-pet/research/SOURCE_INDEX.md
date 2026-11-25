@@ -2421,12 +2421,16 @@
 
 ### SUNIA-ASAHIYAMA-ZOO-2023
 
+**CORRECTION 2026-11-25:** Actual オオコノハズク is Otus semitorques, not Otus sunia. Historical #80 support below is invalidated; see [#80 v6 source correction](species/80-otus-sunia-v6.md). Old text retained as error history.
+
 - Title/author/institution/year: “オオコノハズク生まれています,” Asahiyama Zoo / Asahikawa City, keeper Akihiro Ouchi, 2023-08-28.
 - URL: https://www.city.asahikawa.hokkaido.jp/asahiyamazoo/news-blog/blog/siiku-blog/d078076.html (accessed 2026-11-06); institutional husbandry page.
 - Species/stage/section: *Otus sunia*, captive young, lines 87–102. Two young fledged at about one month and were adult-sized while juvenile plumage still differed; caption says left and middle are that year's young.
 - Limit/design use: page image was not exposed by text fetch; supports approximate stage and relative size, not exact plumage geometry. Supports switching away from an undocumented exact 7–10-day pin configuration.
 
 ### SUNIA-ZUKAN-165925-2023
+
+**CORRECTION 2026-11-25:** Actual オオコノハズク is Otus semitorques, not Otus sunia. Historical #80 support below is invalidated; see [#80 v6 source correction](species/80-otus-sunia-v6.md). Old text retained as error history.
 
 - Title/author/year: “オオコノハズク,” photo record no.165925, o.masashi / Japan Bird Identification Encyclopedia, photographed 2023-06-19, posted 2023-07-08.
 - URL: https://zukan.com/jbirds/leaf165925 (accessed 2026-11-06); identified field-photo record.
@@ -7056,3 +7060,22 @@ New LET-BSS-CURRENT BirdSocietyofSingapore CollaredScopsOwl dateunknown https://
 ## 20261125T1034Z-cycle2 80-otus-sunia-v6
 New 4 source records below (Kyoto juvenile photograph; WBSJ current-name page; Tokyo Zoo semitorques mapping; Kahaku sunia specimen mapping), reused 3 (Mikkola p152/PDF154 freshly read, SUNIA-NO-2015 and SUNIA-ITIS-177882-2026 repository-only). Corrected 2 source species attributions: SUNIA-ASAHIYAMA-ZOO-2023 and SUNIA-ZUKAN-165925-2023 actually concern オオコノハズク / Otus semitorques; their #80 age/size/plumage support is withdrawn. Later feathered juvenile is photo-bounded; exact age, sex, subspecies, flight and size ratio unknown. Source事实 and design inference separated; scientific_verified=false.
 [Full facts/prompt](species/80-otus-sunia-v6.md). Sciencefalse.
+
+### 20261125T1034Z-cycle2 new source records and mappings
+### SUNIA-WBSJ-KYOTO-JUV-CURRENT
+Title コノハズク; institution WBSJ Kyoto; juvenile photographer 野村明 / Akira Nomura; publication/photograph date unknown (upload directory2019/07 is not a capture date).
+URL https://wbsj-kyoto.net/yachoulist/%E3%82%B3%E3%83%8E%E3%83%8F%E3%82%BA%E3%82%AF/
+Figure②幼鳥 image https://wbsj-kyoto.net/wp/wp-content/uploads/2019/07/konohazuku05.jpg
+Institutional photo catalogue. Actual page HTML read, original 1204×800 photograph downloaded for inspection and actually viewed; copyright photo not committed. Species common name コノハズク; page has historical/broad Otus scops/Eurasian Scops-owl label, so current identification is explicitly cross-checked below rather than silently assumed.
+Visible older juvenile: rounded head, yellow irides, soft barred lower parts, formed darker folded wings and short tail, on natural branch. This is later feathered stage, not a hatchling/pin-stage reference. Exact age/sex/subspecies/location of photograph and first flight unknown. One foot is clearest in reference; two-foot support in generated scene is a design stabilization, not a recovered hidden photo detail. Moderate confidence morphology, not a growth series.
+### SUNIA-WBSJ-BIRDFAN-CURRENT
+Title コノハズク; Wild Bird Society of Japan BIRD FAN, date unknown, species account / 解説; https://www.birdfan.net/otus_sunia/
+Actually opened/read current common/scientific mapping コノハズク/Otus sunia and wooded Japanese habitat. No juvenile chronology. High-confidence current name mapping.
+### SEM-TOKYO-INOKASHIRA-CURRENT
+Title オオコノハズク; Tokyo Zoological Park Society, Inokashira encyclopedia, date unknown; https://www.tokyo-zoo.net/inokashira/encyclopedia/japanese-scops-owl/index.html
+Actual body maps オオコノハズク to Otus semitorques / Japanese Scops-owl. Taxonomic identification only; not young sunia evidence.
+### SUNIA-KAHAKU-1747096-CURRENT
+National Museum of Nature and Science specimen catalogue, specimen1747096, date unknown; https://db.kahaku.go.jp/exh/detail?cls=col_z1_01&pkey=1747096
+Actual record maps コノハズク to Otus sunia. Specimen metadata, no developmental evidence.
+
+Canonical topic mapping: Otus sunia → juvenile/morphology SUNIA-WBSJ-KYOTO-JUV-CURRENT; naming SUNIA-WBSJ-BIRDFAN-CURRENT and SUNIA-KAHAKU-1747096-CURRENT. Otus semitorques → naming SEM-TOKYO-INOKASHIRA-CURRENT; corrected old SUNIA-prefixed records remain stable IDs. Access2026-11-25; associated [v6 research/prompt](species/80-otus-sunia-v6.md), [v6 review](reviews/80-otus-sunia-v6-review.md), [v6 concept](../design/concepts/80-otus-sunia-v6.png).

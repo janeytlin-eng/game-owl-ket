@@ -7338,3 +7338,8 @@ New0/reused4actualdocuments. YPOW-KONIG-1991 cross-mapG.jardinii printed24–27/
 ## 34-glaucidium-hardyi-v6
 New0/reused3documents(2fresh/1prior). APOW-DEVILLE-2012 originalauthor-mirrorbodypp23–26andrenderedp24actuallyviewed: yellowiris/headatholeinFig4. Fig3istree, correctoldlocatorsaccordingly. Onephotodoesnotestablishchronology, exactage orflight. APOW-MIKKOLA-2013 printed390–391/PDF392–393textfreshread; adultbareparts/youngplaincrown. APOW-VIELLIARD-1989 prioronly. V6revisesdarkiris/oversizedwholebodycavitybyboundedphoto; no scientificpass.
 [Research](species/34-glaucidium-hardyi-v6.md) · [concept](../design/concepts/34-glaucidium-hardyi-v6.png)
+
+
+## 33-taenioptynx-brodiei-v6
+New0/reused2documents. COOW-LIN-ETAL-2014 authorfulltextMethods/Resultsp96–98freshread:56dayfullgrown/fewercrown-backmarks/incompleteoccipital, notflightindependence. Publisherabstractsamepaper; alternatePDFtimeout/503notverified. COOW-MIKKOLA-2013 printed370/PDF372freshread, historicalbroadtaxonlimits; primaryTaiwanstageoverridesoldermorphgeneralization. Reducejuvenilecrown/mantlemarksonly, formedwingunchanged.
+[Research](species/33-taenioptynx-brodiei-v6.md) · [concept](../design/concepts/33-taenioptynx-brodiei-v6.png)

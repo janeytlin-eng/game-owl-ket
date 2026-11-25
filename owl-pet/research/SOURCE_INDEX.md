@@ -7363,3 +7363,7 @@ ABOW-VENTER-BIRDLIFE-2019-PP23-28 existingpublisherURLnow404; two-enginealternat
 
 ## 29-glaucidium-capense-v6
 ABOW-MIKKOLA-2013 printed412–413/PDF414–415freshread: brownerlessbarredmesoptileback/lessspotsbelow, noirisageclaim. ABOW-OWLPAGES-2020 https://www.owlpages.com/owls/species.php?s=2160 Description/Breedingfreshread. NewABOW-NEWMANS-WEB-2026 Newman'sBirdsofSouthernAfrica regionalwebaccount https://newmansbirds.com/birds/african-barred-owlet/ accessed2026-11-26 Description/habitat, yearnotstated; secondaryadultidentity/shoulderwhitespots/riverinecontextonly, family-levelyoungtextnotagedspeciesdata. Venter2019prioronly404/unrecovered;WordPressAPI403. UnrelatedOwlPages2130excluded. [Research](species/29-glaucidium-capense-v6.md) / [image](../design/concepts/29-glaucidium-capense-v6.png).
+
+
+## 27-glaucidium-passerinum-v6
+New0/reused2fresh+2prior. EUPO-MIKKOLA-2013 printed364/PDF366mesoptilesprominentbrows/whitechin/plaincrownactualread; EUPO-EGE-2024-FLEDGING https://egeeulen.de/eulenarten/der-sperlingskauz-glaucidium-passerinum/ Kennzeichen/Fortpflanzungreread. Primary2010andSovadinova2024prioronly. ADWtimeoutnoactualnewbody. [Research](species/27-glaucidium-passerinum-v6.md). Iris/age/flightunknown; no genericwhole-faceplainness.

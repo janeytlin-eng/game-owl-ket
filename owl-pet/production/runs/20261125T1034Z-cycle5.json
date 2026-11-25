@@ -4,11 +4,18 @@
   "run_id": "20261125T1034Z-cycle5",
   "started_at": "2026-11-25T10:54:33.263Z",
   "status": "IN_PROGRESS",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-25T10:56:03.204Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-25T10:57:39.328Z",
+      "evidence": [
+        "owl-pet/production/generated/77-asio-stygius-v6-original.png"
+      ]
     }
   ],
   "id": "77-asio-stygius-v6",
@@ -17,5 +24,16 @@
   "scientifically_verified": false,
   "research_record": "owl-pet/research/species/77-asio-stygius-v6.md",
   "prompt": "Edit #77 STYGIAN OWL / Asio stygius v5 into v6 by correcting only the two adults' upperpart contrast. Preserve natural dark sooty-brown identity, blackish facial discs, yellow-orange eyes, black bills, long tufts, adult lower-body dark shaft-streaks and crossbars on dull buff, existing near-equal adult scale, all feet/claws and branch contacts, center older juvenile and its low lateral supported wing extension, habitat, labels and layout exactly. Adult mantle/back/scapulars and folded primary surfaces currently carry conspicuous bright golden spot/streak patches all over. Change these UPPERPARTS to near-plain deep sooty-brown: mantle/back with only faint pale feather edgings, scapular outer webs with restrained small indistinct spots, primary surfaces nearly plain dark brown with only low-contrast indistinct paler markings. Preserve subtle natural feather structure and appropriate secondary/tail barring; don't black-fill the entire bird or erase ventral crossbars. Keep forehead mottled/paler as species mark, not a new white facial mask. Do not add Striped Owl contrast or bright rows. Do not change toe-feather coverage: population-specific toe coverage remains unresolved, so preserve current exposed toe geometry rather than impose dense feathered toes from another Asio. Juvenile plumage and stage unchanged; don't turn the older brancher into a tiny nestling. No extra text, birds, limbs, wing-poses or nest claim.",
-  "source_summary": "New2 STY-KELSO-1934-P522-523 (primary subspecies/type; p523 no Colombia/Ecuador specimens) and STY-OWLPAGES-2020 (specialist synthesis, shared-book dependence); reused2 Mikkola p502/PDF504 freshly read, Cadena-Ortiz2018 p23–25 body fresh. Fig2 locator corrected to printed24/PDF5. Adult upperparts too bright in v5; reduce to near-plain sooty with faint markings. Toe correction withheld after scope conflict; not a universal Asio rule. Sciencefalse."
+  "source_summary": "New2 STY-KELSO-1934-P522-523 (primary subspecies/type; p523 no Colombia/Ecuador specimens) and STY-OWLPAGES-2020 (specialist synthesis, shared-book dependence); reused2 Mikkola p502/PDF504 freshly read, Cadena-Ortiz2018 p23–25 body fresh. Fig2 locator corrected to printed24/PDF5. Adult upperparts too bright in v5; reduce to near-plain sooty with faint markings. Toe correction withheld after scope conflict; not a universal Asio rule. Sciencefalse.",
+  "local_path": "/workspace/scratch/180c531d917a/owl-1034/77-asio-stygius-v6.png",
+  "bytes": 2702302,
+  "sha256": "18d2b8ac23ad90dbb202f5b7127c313e785f6b17cee5420ae02457a46c21d0d4",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "git_blob_sha": "b571ba8cb3b2c88ebbcd6d7849bcfdd9e360ca9f",
+  "original_blob": "b571ba8cb3b2c88ebbcd6d7849bcfdd9e360ca9f",
+  "original": "owl-pet/production/generated/77-asio-stygius-v6-original.png",
+  "generation_wait_seconds": 39.749
 }

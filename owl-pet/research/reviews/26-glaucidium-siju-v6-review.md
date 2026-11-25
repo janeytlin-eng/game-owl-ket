@@ -1,0 +1,4 @@
+# 26-glaucidium-siju-v6
+Actual full v5/v6 and native young crop viewed. Juvenal mantle/upper back now plain soft brown with pale dots removed; legitimate formed folded wing structure/soft sparse crown texture/streaked ventrum retained. Iris shaded brown/olive unchanged; no tentative primary eye-colour hypothesis labelled proven. Adults grey-brown male/reddish-brown female, modest size direction/yellow eyes/nape patch and banded tails retained; feathered tarsi/toes grip branch, exactly3/titlev6/labels correct. Palm cavity background no nest-stage assertion. PASS_WITH_LIMITATIONS; unknownyoungage/sex/iris-onset/flight/subspecies retained. Plain BACK rule actually visible, not removal of every juvenile marking. Guide-combination typo corrected explicitly in research.
+
+[Problem/evidence/complete prompt](../species/26-glaucidium-siju-v6.md). Previous versions retained. Remaining unknowns are not scientific sign-off.

@@ -4,7 +4,7 @@
   "run_id": "20261125T0640Z-cycle4",
   "started_at": "2026-11-25T06:51:29.458Z",
   "status": "STARTED",
-  "stage": "IMAGE_GENERATED",
+  "stage": "ARCHIVED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -25,6 +25,21 @@
       "at": "2026-11-25T06:55:53.873Z",
       "evidence": [
         "owl-pet/production/generated/133-megascops-atricapilla-v6-original.png"
+      ]
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-25T06:56:04.381Z",
+      "result": "PASS_WITH_LIMITATIONS",
+      "evidence": [
+        "owl-pet/research/reviews/133-megascops-atricapilla-v6-review.md"
+      ]
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-25T06:56:04.381Z",
+      "evidence": [
+        "owl-pet/design/concepts/133-megascops-atricapilla-v6.png"
       ]
     }
   ],
@@ -53,5 +68,8 @@
   "initial_bytes": 2690325,
   "initial_generation_wait_seconds": 55.458,
   "edit_prompt": "Correct ONLY the CENTER YOUNG belly/breast pattern on this #133 v6 draft. Current output formed too regular evenly spaced horizontal wavy bands, unlike the individually irregular mixed barred/branched/streaked actual young reference. Break every continuous band into unequal short dark grey-brown fragments, with varied spacing/angles, small mottled spots and a few broken fine branched shaft-streaks. No evenly-spaced full-width rings or zebra-striping. Keep pale buff-grey juvenile ground, fine short soft texture and residual wisps. Preserve entireadults, juvenileyelloweyes/greenbill, formedfoldedwing/tail, twofootgrip/branch, pose, alltitlelabels including JUVENILE · AGE UNKNOWN andfull1536x1024 unchanged. Natural irregular young feather pattern, not a universal stage assertion.",
-  "issue": "Initial belly pattern too regular/continuous despite request irregular; second targeted edit required."
+  "issue": "Initial belly pattern too regular/continuous despite request irregular; second targeted edit required.",
+  "concept": "owl-pet/design/concepts/133-megascops-atricapilla-v6.png",
+  "review_record": "owl-pet/research/reviews/133-megascops-atricapilla-v6-review.md",
+  "scientifically_verified": false
 }

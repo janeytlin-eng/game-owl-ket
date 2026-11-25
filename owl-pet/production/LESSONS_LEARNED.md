@@ -134,3 +134,6 @@ Guidecriterion limitedtoeartract; retainedvalidwhitefacebrows. Actualtarget achi
 
 ##2026-11-25 131-megascops-watsonii-v6
 #131 annotation makesgeographicscopevisible. Actualtextpass; modelcollateralminorpostureandtonechangesneedexplicitdisclosure, notclaimpixelpreservation. Supportedanatomyretainedqualitatively, noextra biologicalclaim. SACCfreshfindtimeoutdoesnoteraseearliersuccessfulread; logbothoutcomes.
+
+##2026-11-25 133-megascops-atricapilla-v6
+#133 prompttransversebarsalone madeartificialrepeatedrings; actualphotoismixedirregularbars/branchedshafts. Issue->firstedit->actualcrop->secondedit->actualcrop: regularityreduced; notclaimalljuvenilesbarredthe same oryellowirisagechronology. Preserveinitialfailureseparatelyandnevercountedcompletedadditionalcycle.

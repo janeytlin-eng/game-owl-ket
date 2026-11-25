@@ -54443,16 +54443,27 @@
           "unique_species_increment": 0,
           "revision_increment": 1,
           "scientifically_verified": false
+        },
+        {
+          "cycle": 2,
+          "id": "69-tyto-novaehollandiae-v6",
+          "species": "Tyto novaehollandiae",
+          "commit_sha": "59d5977e42b1fa79b10b78ddd5f71e11723111db",
+          "archive_commit": "76c7c72bbafb93b02687d8738d56836dc3ed0cb0",
+          "run_record": "owl-pet/production/runs/20261125T1240Z-cycle2.json",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 2
+      "next_cycle": 3
     }
   ],
   "lease": {
     "owner": "20261125T1231Z",
-    "run_id": "20261125T1240Z-cycle2",
-    "heartbeat_at": "2026-11-25T12:44:31.357Z",
-    "expires_at": "2026-11-25T12:59:31.357Z"
+    "run_id": "20261125T1240Z-cycle3",
+    "heartbeat_at": "2026-11-25T12:45:04.718Z",
+    "expires_at": "2026-11-25T13:00:11.625Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",

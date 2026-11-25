@@ -3,7 +3,7 @@
   "cycle": 3,
   "run_id": "20261125T0030Z",
   "stage": "ARCHIVED",
-  "status": "STARTED",
+  "status": "ARCHIVED_VERIFICATION_BLOCKED",
   "started_at": "2026-11-25T00:31:34.778Z",
   "previous_failed_attempt": "owl-pet/production/runs/20261124T2333Z-cycle3.json",
   "resume_policy": "Preserve old failure record. No recovered image exists for prior Palawan research-only attempt. Continue same cycle with evidence-backed project; no repeated count.",
@@ -45,5 +45,25 @@
   "imagegen_calls": 1,
   "image_blob": "6e1a6ec1945d66b7a4511758654e4e359776c703",
   "local_path": "/workspace/scratch/180c531d917a/owl-2333/28-glaucidium-perlatum-v7.png",
-  "review": "Full1536x1024 plus760x500 eye crop actually viewed. Deepyellow juvenile iris now clear around unchanged black pupil; brows/eye shape intact. Plaincrown/mantle, compact formed wing, shorttail and bilateral fork support retained; adultspots/falseeyes/near-equal scale and labels/habitat retained. PASS_WITH_LIMITATIONS,sciencefalse. No primary continuous iris sequence; chosenmesoptile only. Oneedit."
+  "review": "Full1536x1024 plus760x500 eye crop actually viewed. Deepyellow juvenile iris now clear around unchanged black pupil; brows/eye shape intact. Plaincrown/mantle, compact formed wing, shorttail and bilateral fork support retained; adultspots/falseeyes/near-equal scale and labels/habitat retained. PASS_WITH_LIMITATIONS,sciencefalse. No primary continuous iris sequence; chosenmesoptile only. Oneedit.",
+  "archive_commit": "10003b744b951968fb08647a0b6f6f127f212ce5",
+  "ended_at": "2026-11-25T00:35:24.584Z",
+  "completed_cycle": false,
+  "errors": [
+    {
+      "step": "Immutable raw original GET/SHA256/PNG verification",
+      "error": "exec_command failed: network approval was cancelled before a decision was returned"
+    },
+    {
+      "step": "Safer GitHub connector git/blob readback",
+      "error": "HTTPError400: GitHub Fetch only accepts UTF-8 text; binary rejected"
+    }
+  ],
+  "uncompleted_steps": [
+    "remote original bytes GET",
+    "remote original SHA256/full PNG decode",
+    "VERIFIED",
+    "ledger cycle credit"
+  ],
+  "recovery": "Reuse archived v7 blob and preserved source/prompt/review. Do not regenerate or increment cycle until full original readback passes."
 }

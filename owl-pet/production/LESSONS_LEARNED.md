@@ -128,3 +128,6 @@ Preservedoriginal bytes/hash afterinterruption; reviewedfull/crop beforecredit. 
 
 ##2026-11-25 135-otus-silvicola-v7
 Guidecriterion limitedtoeartract; retainedvalidwhitefacebrows. Actualtarget achievedwhileprotectingprimarysupported fullyfeatheredimmature. Don'trepaintallpaleplumageorborrowthisrestrictionforotherowls.
+
+##2026-11-25 134-megascops-sanctaecatarinae-v6
+#134 actualphysicalphoto accessedagain: densefinefeathers notgenericlongcurlywool. Correction visiblyshortenedtexture andremovedunsupportedOLDERlabel. Keepunknownhiddenanatomyconcealed andrecordimprovisednestcontext; futurecavityscenesmustnotclaimliteralnaturalnestreconstruction.

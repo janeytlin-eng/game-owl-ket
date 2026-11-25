@@ -7123,3 +7123,7 @@ New0/reused4: ABSA2p/guide455/PDF457 andMuseum bodyfresh; VICp86priorrecordonly,
 ## 20261125T1144Z-cycle4 73-ninox-rufa-v7
 New0/reused2 factual evidence: guide448/PDF450 and primaryRiddell2021PDF bodyfresh. Bouglouan503 searchlead notbodyread/excluded. Adultfinebars/youngstage/toeextent preserved, sciencefalse.
 [Research/full prompt](species/73-ninox-rufa-v7.md). Sciencefalse.
+
+## 20261125T1144Z-cycle5 66-tyto-capensis-v6
+New1 AGO-OWLPAGES-2020 adultDescription(URLspecies210,DeaneLewis2020-11-12), reused4 Mikkola104/PDF106/BLSA2025/2priorprimaryrecords. Remove broadbuffadultmantlecoverts, retaindistinctflightfeatherbars, femaleplausiblewarmface andexistingolderyoung. BLSAcurrentpageyoungfactsnotfreshlyexposed, priorreadingonly; sciencefalse.
+[Research/full prompt](species/66-tyto-capensis-v6.md). Sciencefalse.

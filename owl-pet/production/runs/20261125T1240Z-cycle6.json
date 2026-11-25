@@ -3,8 +3,8 @@
   "cycle": 6,
   "run_id": "20261125T1240Z-cycle6",
   "started_at": "2026-11-25T13:48:00.691Z",
-  "status": "STARTED",
-  "stage": "ARCHIVED",
+  "status": "VERIFIED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -24,6 +24,10 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-25T13:52:35.149Z"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-25T13:52:57.197Z"
     }
   ],
   "id": "63-scotopelia-peli-v6",
@@ -45,5 +49,16 @@
   "original_blob": "acdeb1ef1e8417cd28cfaa1d94a758fc9290a037",
   "original": "owl-pet/production/generated/63-scotopelia-peli-v6-original.png",
   "concept": "owl-pet/design/concepts/63-scotopelia-peli-v6.png",
-  "review_record": "owl-pet/research/reviews/63-scotopelia-peli-v6-review.md"
+  "review_record": "owl-pet/research/reviews/63-scotopelia-peli-v6-review.md",
+  "archive_commit": "66da0bdf68a4ab535edc784234eab3976519b65d",
+  "verification": {
+    "bytes": 2881035,
+    "sha256": "21f3746258dd7de61d49466112b905f1af5a13de2270c56765822423904364e6",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "fullPNGdecode": "PASS"
+  },
+  "ended_at": "2026-11-25T13:52:57.197Z"
 }

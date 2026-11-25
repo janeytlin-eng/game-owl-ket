@@ -6,8 +6,8 @@
   "species": "Bubo virginianus",
   "action": "REVISION",
   "started_at": "2026-11-25T15:36:56.512Z",
-  "status": "STARTED",
-  "stage": "ARCHIVED",
+  "status": "VERIFIED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -27,6 +27,10 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-25T15:40:23.878Z"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-25T15:40:45.036Z"
     }
   ],
   "scientifically_verified": false,
@@ -44,5 +48,16 @@
   "original": "owl-pet/production/generated/56-bubo-virginianus-v3-original.png",
   "generation_wait_seconds": 50.195,
   "concept": "owl-pet/design/concepts/56-bubo-virginianus-v3.png",
-  "review_record": "owl-pet/research/reviews/56-bubo-virginianus-v3-review.md"
+  "review_record": "owl-pet/research/reviews/56-bubo-virginianus-v3-review.md",
+  "archive_commit": "77a9ebd36bd9a8e0e2db8cb385b2af2d221f1eef",
+  "verification": {
+    "bytes": 3320931,
+    "sha256": "297250a6211748c89e826c632593607d54e2a65ff55793e8a72fe622c39ef463",
+    "fullPNGdecode": "PASS",
+    "dimensions": [
+      1536,
+      1024
+    ]
+  },
+  "ended_at": "2026-11-25T15:40:45.036Z"
 }

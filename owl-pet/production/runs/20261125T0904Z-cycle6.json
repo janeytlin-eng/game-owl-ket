@@ -3,8 +3,8 @@
   "cycle": 6,
   "run_id": "20261125T0904Z-cycle6",
   "started_at": "2026-11-25T09:24:17.136Z",
-  "status": "IN_PROGRESS",
-  "stage": "ARCHIVED",
+  "status": "VERIFIED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -31,6 +31,14 @@
       "evidence": [
         "owl-pet/design/concepts/81-otus-scops-v6.png"
       ]
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-25T09:27:52.793Z",
+      "evidence": [
+        "dbf28049d7a7e06e0d45ba803f3c1e92f1246927",
+        "owl-pet/design/concepts/81-otus-scops-v6.png"
+      ]
     }
   ],
   "id": "81-otus-scops-v6",
@@ -52,5 +60,16 @@
   "original": "owl-pet/production/generated/81-otus-scops-v6-original.png",
   "generation_wait_seconds": 41.101,
   "concept": "owl-pet/design/concepts/81-otus-scops-v6.png",
-  "review_record": "owl-pet/research/reviews/81-otus-scops-v6-review.md"
+  "review_record": "owl-pet/research/reviews/81-otus-scops-v6-review.md",
+  "verification": {
+    "bytes": 3003245,
+    "sha256": "f0039ac3063f2b9a519ed2201916aa1c5ed933d410b1e03b22460d41932a60e3",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "fullPNGdecode": "PASS"
+  },
+  "ended_at": "2026-11-25T09:27:52.793Z",
+  "archive_commit": "dbf28049d7a7e06e0d45ba803f3c1e92f1246927"
 }

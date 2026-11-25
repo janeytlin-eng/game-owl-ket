@@ -7425,3 +7425,8 @@ GHOW-CPW-PHYSICAL-2026 — ColoradoParksWildlife, GreatHornedOwl, undatedgovernm
 ## 2026-11-26 15-strix-varia-v6
 Reuse/indexrepair: BARO-DUNCAN-2024-CFN JamesR.Duncan/RikiKerbrat/ToddM.Whiklo, CFN138(1):27–38 DOI10.22621/cfn.v138i1.3067, actualpublisherabstract https://www.canadianfieldnaturalist.ca/index.php/cfn/article/view/3067 read2026-11-26; 2024issue/2025-01-17online clarified. BARO-DUNCAN-2024-SUPP https://www.canadianfieldnaturalist.ca/index.php/cfn/article/download/3067/3219/16551 actualPDF2FigS2caption/PDF7TableS6: ~26d2016cavityentrance oldestestimate, noexactsyntheticday/flightproof. TwoIDsreusedfromspeciesv5, indexlocatorrepairnotnewpaper. ReusedBARO-MIKKOLA-2013-P29-P346 uploadedactualprinted346–347/PDF348–349 adultnear-toetipcover/Ontario, slightbaretips; noyoungadultfeathertransfer. New0/reused3/indexrepair2/datecorrection1; exacttoeextent/densityandyoungchronologyunknown.
 [facts/prompt](species/15-strix-varia-v6.md),[review](reviews/15-strix-varia-v6-review.md),[version](../design/concepts/15-strix-varia-v6.png).
+
+
+## 2026-11-26 08-strix-nebulosa-v6
+New GGO-WILLIAMS-2012, GGO-ODFW-SWAP-CONFLICT-2026; new GGO-CRC-FACTS-2026; reused WHSO-MIKKOLA-2013. URLs/author/year/sections/actualfacts/limits/design decisions in linkedrecord. Adultfootcover contradiction explicitlycrosschecked, no barefeetclaim silentlydeleted. Newinstitutionalaccounts notthreeprimaryexperiments. Museum502 unverifiedlead. AllspeciesStrixnebulosa; current/oldnameunchanged; adultonlynotchickday.
+[facts/prompt](species/08-strix-nebulosa-v6.md),[review](reviews/08-strix-nebulosa-v6-review.md),[version](../design/concepts/08-strix-nebulosa-v6.png).

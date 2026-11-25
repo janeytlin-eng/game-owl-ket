@@ -7,7 +7,14 @@
   "action": "REVISION",
   "started_at": "2026-11-25T15:27:05.599Z",
   "status": "STARTED",
-  "stage": "STARTED",
-  "stages": [],
-  "scientifically_verified": false
+  "stage": "RESEARCH_READY",
+  "stages": [
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-25T15:27:57.123Z"
+    }
+  ],
+  "scientifically_verified": false,
+  "research_record": "owl-pet/research/species/57-bubo-nipalensis-v7.md",
+  "prompt": "Edit ONLY the bottom caption area of this #57 plate. Keep original title and male/female labels. Replace centre bottom label with two readable lines exactly: 'JUVENILE · AGE UNKNOWN · RESCUED-STAGE REFERENCE' and 'NATURAL SUPPORT VIGNETTE'. Add a small neat full-width caption below labels (extend bottom parchment margin slightly if needed), exact text: 'CONCEPT · SCIENTIFIC CALIBRATION PENDING · JUVENILE FACE BORDER UNVERIFIED'. Do not change any bird or forest pixels: same adultpaleyellowbills/darkeyes/nohardruff/longraggedtufts, same youngpalebill/Vmarks/formedbarredwingtail/downface/body, allfeet/claws/branchsupports, colours/composition/style. No newage/sex/flight/nestclaim, no extraillustrations."
 }

@@ -4,13 +4,20 @@
   "run_id": "20261125T0748Z-cycle4",
   "started_at": "2026-11-25T08:44:00.211Z",
   "status": "IN_PROGRESS",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-25T08:46:01.706Z",
       "evidence": [
         "owl-pet/research/species/96-aegolius-ridgwayi-v6.md"
+      ]
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-25T08:47:21.357Z",
+      "evidence": [
+        "owl-pet/production/generated/96-aegolius-ridgwayi-v6-original.png"
       ]
     }
   ],
@@ -19,5 +26,16 @@
   "action": "SCIENCE_REVISION",
   "research_record": "owl-pet/research/species/96-aegolius-ridgwayi-v6.md",
   "prompt": "Precise-object-edit #96 Unspotted Saw-whet Owl Aegolius ridgwayi v5. Edit ONLY the CENTER JUVENILE's upper/lower BREAST and visible BELLY plumage contrast: current long dark brown strong shaft-like streaks should become FEW, FINE, PALE BUFF and very faint short diffuse streaks on the warmbuff ground. Retain rich fluffysoftbrown/goldenbuffdowntexture, naturalwispyfeatheredges andsmallirregularflecks. Do not make hard adultbreastfeathers, largeboldbrownverticalstripes, transverseadultbars, whollywhitebodyorblankplastic. Entireyounghead/face/palebrows/yelloweyes/darkbill/shortsoftfoldedwings/tailhidden/feet/twofootbranchgrip unchanged; no edit to crownstreaks, wing edges, pose or age label. BOTH ADULTS absolutelyunchanged: brownbodies/finestreakedcrowns/noear-tufts/yelloweyes/darkbills/fleshtoes/sparsebristles, near-equalscale. Preserveexact3birds, existingtitles '96 UNSPOTTED SAW-WHET OWL' / 'Aegolius ridgwayi' and ADULT MALE / RECENT FLEDGLING — AGE UNKNOWN / ADULT FEMALE labels. Same mossycloudforest/decaycavity/branches/support/light/style1536x1024. Do not infer30–32dayage, sex, flight or juvenilefeetcolour fromadultfacts. Noextra bird/eggs/prey, no alteredanatomy.",
-  "research_summary": "New0/reused2 relevantdocuments: RID-MIK2013-446 aliasMIKKOLA-2013 actualuploaded446/PDF448 pale/faintjuvenilebreaststreaks; RID-CAYAYA-EISERMANN-JUV-PHOTO-2026 prioractualrecordonly, currentwebinaccessible(nofreshpixelclaim). Actualresearcherbody https://www.bird-studies-guatemala.info/owls-of-guatemala.htm iscontext; adjacentother-speciesyoungphotosNOTborrowed. Ridgwayisubpage500redirect; no newage/flightfacts. Calibrateexistingv5overdarkbreastshaftsonly."
+  "research_summary": "New0/reused2 relevantdocuments: RID-MIK2013-446 aliasMIKKOLA-2013 actualuploaded446/PDF448 pale/faintjuvenilebreaststreaks; RID-CAYAYA-EISERMANN-JUV-PHOTO-2026 prioractualrecordonly, currentwebinaccessible(nofreshpixelclaim). Actualresearcherbody https://www.bird-studies-guatemala.info/owls-of-guatemala.htm iscontext; adjacentother-speciesyoungphotosNOTborrowed. Ridgwayisubpage500redirect; no newage/flightfacts. Calibrateexistingv5overdarkbreastshaftsonly.",
+  "local_path": "/workspace/scratch/180c531d917a/owl-0832/96-aegolius-ridgwayi-v6.png",
+  "bytes": 2843731,
+  "sha256": "36207ac3836a2abbac34dbab99c8aededf0d24a5da668f599caed37c7ac57fbc",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "git_blob_sha": "56be3b89f035c95f37b0e6b3e911ea5adc01086b",
+  "original_blob": "56be3b89f035c95f37b0e6b3e911ea5adc01086b",
+  "original": "owl-pet/production/generated/96-aegolius-ridgwayi-v6-original.png",
+  "generation_wait_seconds": 39.785
 }

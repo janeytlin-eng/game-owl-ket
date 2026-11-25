@@ -6882,3 +6882,20 @@ Reused MIKKOLA-2013 printed366/PDF368 actuallyreread: mesoptile deepyelloweyes e
 
 ## 2026-11-25 #25v5 — cactorum juvenile crown
 Freshlyreread CFPO-USFS-GTR43-2000-P7(Cartron&Finch2000, USDA RMRS-GTR43)printed7-8/PDF13-14Description https://www.govinfo.gov/content/pkg/GOVPUB-A13-PURL-gpo111726/pdf/GOVPUB-A13-PURL-gpo111726.pdf : Arizona fledglings chocolatebrown/rufoustail, lackbuffcrown, lighter indistinctnape, whiteteardroptips shoulder-to-rump. Supports crownfleckremovalONLY, preservingyoungcovertspots/formedwings. CFPO-AGFD-1996-P22-23historicalpriorread; currentweb/direct403, notfreshlyread. New0/freshreuse1/historicalreuse1, nonewID. RGBoriginalrecoveredfromalreadyarchivedfinal-originalpath; Pderivativekept. [Research](species/25-glaucidium-brasilianum-cactorum-v5.md); [image](../design/concepts/25-glaucidium-brasilianum-cactorum-v5.png); [run](../production/runs/20261124T2333Z-cycle4-20261125T0130Z.json).
+
+
+## 2026-11-25 cycle5 fresh evidence search and limits
+## NRUD-JONES-LINSLEY-MARSDEN-1995-P41-42
+- Title/authors/year: Population sizes, status and habitat associations of the restricted-range bird species of Sumba, Indonesia; MartinJ.Jones,MarkD.Linsley,StuartJ.Marsden;1995. BirdConservationInternational5:21–52. Primaryfieldstudy.
+- DOI/URL: https://doi.org/10.1017/S0959270900002938 ; https://www.cambridge.org/core/services/aop-cambridge-core/content/view/252015368B594C8CCB120E62165448F7/S0959270900002938a.pdf/population-sizes-status-and-habitat-associations-of-the-restricted-range-bird-species-of-sumba-indonesia.pdf
+- Access2026-11-25Asia/Shanghai; actuallyread title/summary/methods and speciesaccountprinted41–42/PDF21–22. CurrentNinoxrudolfi; Table1historicalspellingrudolphi retained as text not separatetaxon.
+- Facts: records in deciduous/evergreen,primary/secondaryforests; birdrepeatedlyreturned to **probable**cavity inhugeDatiscaceaetree atWondu,Langgaliru. Noeggs/chicksconfirmed inthisparagraph; noyoungappearance/age/sexgrowth/flightdescribed.
+- Designdecision: valuablehabitat/probablenestlead, NOT confirmednestspecification orjuveniletemplate. Highconfidencewhatpaperstates; inferenceuncertain. Noimageproduced. Linked [gap](gaps/20261125T0130Z-cycle5-sumba-makira.md).
+
+## SUMBA-REULEAUX-ETAL-2022-100015
+- Title/authors/year: Productivity constraints on Citron-crested Cockatoos in a rich community of large hole-nesting birds; AnnaReuleaux,BennyA.Siregar,NigelJ.Collar,AniMardiastuti,StuartJ.Marsden;2022. AvianResearch13:100015. Originalcamera/directobservationstudy.
+- DOI/publisher https://doi.org/10.1016/j.avrs.2022.100015 ; https://www.sciopen.com/article/10.1016/j.avrs.2022.100015 . RepositoryPDF https://e-space.mmu.ac.uk/629715/8/1-s2.0-S2053716622000111-main.pdf web/direct403.
+- Access2026-11-25; actualpublisheroriginalAbstractread, notAMinerAIpanel; fullbodyNOTrecovered. ScopeSumba cavitycommunity; abstract says95cavities monitored1–4seasons, intensecompetitionamong3largeparrots,2owls,hornbill. It does notidentifyowljuvenilecolour/age; searchsnippetFig4/6remainsunverifiedbody.
+- Value/decision: futurefullpaper/supplementleadforowlcavityuse; nojuvenileplumage, precise nestgeometry orday-ageadopted. Confidencehighabstractcontentonly, targetedfullbodyunverified; NOT scientificpass. [Gap](gaps/20261125T0130Z-cycle5-sumba-makira.md).
+
+ReusedMIKKOLA-2013printed483/PDF485(olderNinoxroseoaxillaris/currentAtheneroseoaxillaris lookup)actualpageread; guidejuvenileunknown, not proofnosubsequentreports. NBUR-INDRAWAN-SOMADIKARTA-2004-P160-170alreadyindexed, no duplicateentry. Newreadrecords2(oneoriginaltargetbody,onepublisherabstractonly); noimageorcyclecredit.

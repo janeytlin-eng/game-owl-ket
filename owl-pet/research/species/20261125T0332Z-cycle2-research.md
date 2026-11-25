@@ -1,0 +1,8 @@
+# Cycle2 research checkpoint
+Accessed2026-11-25. HAR-UBAID-ETAL-2012-BHL recovered original full pp175–179 and actual Figure2 p176; corrected bibliography/URL in SOURCE_INDEX. No juvenile age evidence in that figure. No thirdparty fullPDF copied to repository.
+
+Screened Otus pauliani: Commons photo763915421 author alanbedfordshaw14Nov2026, observation414830058. Actual publicAPI https://api.inaturalist.org/v1/observations/414830058 returned descriptionnull, annotations/fields/comments empty. Actual75×75 square photo viewed, fullyfeathered bird; no age proof. Five photos of same observation are not five independent sources. Tyto aurantia observation321884396 API https://api.inaturalist.org/v1/observations/321884396 similarly no age description/annotations; no actual photo pixels viewed. These leads remain unverified for young, not source facts for drawing. Missing rare-species juvenile stages unresolved; no scientific approval.
+
+Audit rejected unsupported fixes: #104 toes already feathered; #10355–65day down fits indexed captive account; #107 adultverticalbelly appropriate; #120 developed juvenile remiges supported by originalfieldpaper. #110 v5 grey adultbaretoes versus uploadedguide brightpink and fresh Owling fieldnotes identifies actual adult-only correction. Foldedwings already long and tailnotvisible, no tail edit justified. Juvenilepreserved.
+
+Actualerrors: initial local photo download script lacked requests; standard-library retry obtained HTMLchallenge and PILdecode failed. Alternate originalpaper ArchivePDF succeeded after other403s. Earlier tool output hit observable model-context-output truncation; no platform runtime timeout telemetry. None changes cycle counts.

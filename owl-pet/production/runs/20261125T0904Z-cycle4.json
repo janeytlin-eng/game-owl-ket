@@ -4,11 +4,18 @@
   "run_id": "20261125T0904Z-cycle4",
   "started_at": "2026-11-25T09:16:50.677Z",
   "status": "IN_PROGRESS",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-25T09:18:34.201Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-25T09:20:06.543Z",
+      "evidence": [
+        "owl-pet/production/generated/82-otus-senegalensis-v6-original.png"
+      ]
     }
   ],
   "id": "82-otus-senegalensis-v6",
@@ -17,5 +24,16 @@
   "scientifically_verified": false,
   "research_record": "owl-pet/research/species/82-otus-senegalensis-v6.md",
   "prompt": "Precise-object-edit #82 Otus senegalensis v5 supplied. Change ONLY exposed TOE SKIN COLOUR on BOTH ADULTS left/right from pale pink beige to muted dusky greyish-brown. Keep natural warm dusk highlights and existing blackishbrown claws, tarsalfeatherboundaries, toe shape/count/scales/grips unchanged. Do NOT touch center22daynestlingfeet/skin, bill/gape/eyes/softjuvenileplumage orboxsupport. Everythingelse exactly same: threebirds, yellowadultirises/darkhornbills/barkplumage/whiteadultscapularband/near-equaladultheight; documentedstudy22dayyoungcalling/leaning withtwofeetonsill; savannawoodland/securedwoodbox/broadbranches/titleAFRICAN SCOPS OWL/Otus senegalensis, labelsADULT MALE/22-DAY STUDY NESTLING/ADULT FEMALE. Warm1536x1024poster, no newage/flight/sizeclaims.",
-  "source_summary": "Reused SEN-MIK2013-130(actualprinted130/PDF132), SEN-OWLPAGES-2020 actualDescription/2020-10-08 https://www.owlpages.com/owls/species.php?s=550 ; SEN-RIEKERT-1986-P425-428 originalopenattempt plusprevious22daystudyrecord. New0/reused3; adultgrey-browntoesonly, no youngpaletteinference."
+  "source_summary": "Reused SEN-MIK2013-130(actualprinted130/PDF132), SEN-OWLPAGES-2020 actualDescription/2020-10-08 https://www.owlpages.com/owls/species.php?s=550 ; SEN-RIEKERT-1986-P425-428 originalopenattempt plusprevious22daystudyrecord. New0/reused3; adultgrey-browntoesonly, no youngpaletteinference.",
+  "local_path": "/workspace/scratch/180c531d917a/owl-0904/82-otus-senegalensis-v6.png",
+  "bytes": 2949793,
+  "sha256": "44e73e129a88255570554f6d3ffb229f6ae0a25b62888cd6f6ebf6d1441d5311",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "git_blob_sha": "ab49345cd254eb6bdb8798b28e27289666b2d539",
+  "original_blob": "ab49345cd254eb6bdb8798b28e27289666b2d539",
+  "original": "owl-pet/production/generated/82-otus-senegalensis-v6-original.png",
+  "generation_wait_seconds": 36.665
 }

@@ -2,7 +2,7 @@
   "batch_id": "20261124T2333Z",
   "cycle": 4,
   "run_id": "20261125T0130Z-cycle4",
-  "stage": "IMAGE_GENERATED",
+  "stage": "ARCHIVED",
   "status": "STARTED",
   "started_at": "2026-11-25T01:32:49.654Z",
   "stages": [
@@ -13,6 +13,14 @@
     {
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-25T01:39:07.544Z"
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-25T01:39:39.949Z"
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-25T01:39:39.949Z"
     }
   ],
   "selection": "Audit current full images and evidence before choosing actual correction; no image regeneration merely for count.",
@@ -61,5 +69,7 @@
   ],
   "imagegen_wait_ms": 45455,
   "imagegen_calls": 1,
-  "image_blob": "9914e28e0f810baeced0c330d4459f4db2d80231"
+  "image_blob": "9914e28e0f810baeced0c330d4459f4db2d80231",
+  "reviewed_at": "2026-11-25T01:39:39.949Z",
+  "review": "Full1536x1024 and705x480 youngcrowncrop actuallyviewed. Discretepaleadultlikecrownflecksremoved; fine shaftshadingretained, headnotplasticsmooth. Legitimatejuvenileshoulder-to-rumpteardroptips preserved; fullyfeatheredyounghasformedfoldedwing/shortrufoustail, nonataldown. Bothadults/labels/cactuscontext/sexscale and sixfeet supportretained. Oneedit. Exactage/iris/continuousgrowthunknown; historical28-31daylabelnotuniversal. ConceptPASS_WITH_LIMITATIONS/sciencefalse. #45/#47/#48suspectedtoeerrorsrejectedafterfullview, notedited. Sourceprimary1996fresh403; actualUSFS2000pp7-8readsupplieschosenboundary."
 }

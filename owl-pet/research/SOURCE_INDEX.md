@@ -6874,3 +6874,7 @@ Reused PAL-SHARPE-1888-P197 and PAL-ITIS-555384-1063390; known [gap](species/otu
 
 ## 20261124T2333Z source accounting
 New verified document1 (NPO-SCCP-FACTSHEET, content updatedJanuary2016); freshly reused verified documents4 (Mikkola book once across pp372/366/176, SANBI2025, BirdLife2001, ITIS555384). Prior #24 primary studies and Palawan Sharpe OCR reused as historical records, not counted freshly read bodies. New unverified lead1 PSOW-CLANCEY-1980-P96-LEAD; no biological fact adopted. Bibliographic correction1 SCCP date/author. Source count is document-deduplicated, not number of accesses/pages.
+
+
+## 2026-11-25 #28v7 — selected mesoptile iris boundary
+Reused MIKKOLA-2013 printed366/PDF368 actuallyreread: mesoptile deepyelloweyes explicit. Reused PSOW-OWLPAGES-2020 https://www.owlpages.com/owls/species.php?s=1860 Description/Breeding and PSOW-SANBI-2025 https://www.sanbi.org/animal-of-the-week/pearl-spotted-owlet/ actualbodyreread. Externalprimary/photo/ringingsearch performed; no new primary youngirisseries recovered. Adultaccounts not passed off as juvenilecrossvalidation. Designinference: choose guide-describedmesoptileeye, correctv6browniris; exactage/continuoussequenceunknown. Newverifiedsources0/reused3documents/correcteddesignboundary1. [Research](species/28-glaucidium-perlatum-v7.md); [image](../design/concepts/28-glaucidium-perlatum-v7.png); [resume](../production/runs/20261124T2333Z-cycle3-resume-20261125T0030Z.json).

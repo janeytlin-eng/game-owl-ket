@@ -1,0 +1,10 @@
+# #28 Glaucidium perlatum v7
+2026-11-25T00:32:25.414Z; sciencefalse; earlierimages/confirmationpreserved.
+
+Actual guide reread printed366/PDF368(Mikkola2013): mesoptile deepyellowiris, plaincrown/mantle, lessclearventralstreaks. Adultfemalemass40g heavier does not dictate visualheight. Guide is descriptive synthesis, not exact-day primary atlas.
+Externalsearch twice included firststudy/photo/ringingterms. Actual OwlPages1860 Description/Breeding reread: adultpaleyelloweyes, parentfed recentlydepartedbirds flyshortdistances/hidenearbynest. SANBI2025 actualDescription/Habitat/Sex/Familylife reread: yellowadulteyes and woodland/open thorn context, no young iriscalendar. Those pages independently anchor adults/environment, NOT a young-stage eye confirmation. No new primary juvenileiris evidence recovered. Search hits notproof.
+
+Fullv6 actuallyviewed: juvenileirisreadsdeepbrown while adults yellow. Previous v6 preservedthis asunknown chronology despite explicitstage-specificguidefact. V7selectstheguide-describedmesoptilecolour; no age/ontogeny/sexuniversality claim. Onlyyoungiris colourchanges, plaincrown/mantleandnaturalbranchsupportretained. Scientificcalibrationpending; no claim of primarycrossvalidation.
+
+## Full prompt
+Use case: precise-object-edit. Edit target attached #28 Pearl-spotted Owlet v6. Make ONE localized eye-colour correction ONLY to the center recent fledgling: the visible iris around each black pupil must be a natural deep golden yellow, clearly yellow rather than brown or black, with subdued woodland lighting. Keep both pupil sizes, eye shape, gaze, brows, highlights and feather anatomy unchanged. Mikkola2013 printed366/PDF368 explicitly describes deep-yellow eyes in mesoptile. Do not assign an exact age or recolour the whole eye. Preserve plain juvenile crown and mantle, current young wing/tail/body and fully supported seated fork pose. Preserve both adult birds completely including their yellow eyes, white pearl spots and female nape false-eyes; keep every perch, background, title/scientific name and three labels, existing painterly field-guide style. Exactly three birds. No additional text or changes.

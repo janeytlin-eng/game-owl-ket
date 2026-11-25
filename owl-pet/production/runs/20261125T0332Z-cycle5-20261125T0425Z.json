@@ -3,7 +3,25 @@
   "cycle": 5,
   "run_id": "20261125T0332Z-cycle5-20261125T0425Z",
   "started_at": "2026-11-25T04:30:47.794Z",
-  "status": "STARTED",
-  "stage": "STARTED",
-  "stages": []
+  "status": "IN_PROGRESS",
+  "stage": "RESEARCH_READY",
+  "stages": [
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-25T04:32:48.280Z",
+      "evidence": [
+        "owl-pet/research/species/139-otus-jolandae-v6.md"
+      ]
+    }
+  ],
+  "id": "139-otus-jolandae-v6",
+  "species": "Otus jolandae",
+  "action": "ADULT_VENTRAL_PATTERN_REVISION",
+  "prompt": "Precise scientific feather-pattern edit of the supplied Rinjani Scops-Owl Otus jolandae plate. Change ONLY the lower belly feathers of the LEFT ADULT MALE and RIGHT ADULT FEMALE. The current black lateral branches create coarse repeated arrowhead/diamond outlines; replace those lateral branches with much finer narrower irregular broken dark-brown crossbars. Preserve strong narrow dark shaft streaks, the white/buffy basal belly ground and the darker cinnamon upper breast with its legitimate dark shafts. Do not erase the species' conspicuous ventral markings or turn the belly plain. Avoid broad dark sidebars, connected diamonds, uniform herringbone tiling or perfectly spaced rows. Retain all other adult plumage, golden yellow eyes, dark bills, feathered tarsi to toe bases, bare ochre toes, branch grips, near-equal adult scale and poses. Preserve central OLDER IMMATURE FEMALE entirely, including scattered pale juvenile crown/nape remnants, developed folded wings/tail and low two-foot supported crouch; do not turn it into a hatchling or infer age/iris. Preserve all exact title/name/labels, Lombok forest and background, three subjects, composition, soft realistic pet style. Same full1536x1024 image.",
+  "research_record": "owl-pet/research/species/139-otus-jolandae-v6.md",
+  "source_counts": {
+    "new": 0,
+    "reused": 1,
+    "scope_corrections": 1
+  }
 }

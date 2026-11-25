@@ -7393,3 +7393,8 @@ Reused CFPO-ROBBINS-STILES-1999-REREAD (https://www.biologicaldiversity.org/camp
 
 ## 2026-11-26 22-gymnasio-nudipes-v5 — guide conflicts / alarm tufts
 ReusedPRO-BIRDSCARIB-2021 actualMay14speciesbody at https://www.birdscaribbean.org/2021/0/page/2/ lines1479–1504: smallraisedalarmfeathers, barelegs, femalebitheavier. ReuseduploadedMikkola2013 actualprinted246/PDF248 (oldMegascopsnudipes) yelloweye/notuft/nosizedata conflictwithnewerinstitutionalaccount. Retainexisting reddishbrowniris, shortalertcorners; no fixedheight. Bookpageaddedtoexistingbookmapping, newsource0/reused2/conflicts3. Prior2025guidePDFfailed400toobig, nofreshreadclaim. Youngage/feathersequence/eyeopening/flightunknown. [fact/prompt](species/22-gymnasio-nudipes-v5.md), [review](reviews/22-gymnasio-nudipes-v5-review.md), [image](../design/concepts/22-gymnasio-nudipes-v5.png).
+
+
+## 2026-11-26 20-megascops-clarkii-v6
+ReusedBSOW-ASTORGA-2018-P85-89 original UF mirror https://ufdcimages.uflib.ufl.edu/UF/00/09/88/01/00041/07-2018.pdf actualprinted86–88/PDF88–90: platformmainlymoss/fewdryleaves; youngmostlydown/incompleteprimaries, noageorflightproof. ReuseduploadedMikkola2013printed217/PDF219; textlowerthirdbare/captionmorethanhalf internalconflict retained, nolegedit. Sourcesnew0/reused2/nestapplicationcorrection1; scopeCostaRica2017singleobservednest, notuniversalnestrecipe.
+[facts/prompt](species/20-megascops-clarkii-v6.md),[review](reviews/20-megascops-clarkii-v6-review.md),[version](../design/concepts/20-megascops-clarkii-v6.png).

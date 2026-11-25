@@ -7403,3 +7403,8 @@ ReusedBSOW-ASTORGA-2018-P85-89 original UF mirror https://ufdcimages.uflib.ufl.e
 ## 2026-11-26 18-megascops-kennicottii-v5
 ReusedWESO-USFS-GEHLBACH-STOLESON-2010-P512-518 freshPDF https://www.fs.usda.gov/rm/pubs_other/rmrs_2010_gehlbach_f001.pdf pp511–512/photos29.1–29.2 adultdarkbill/paleworntip, regionalmassnotheight. Wholechapterpp511–523, narrowerpriorlocatorretained. ReuseduploadedMikkola2013printed204/PDF206 actualread. New0/reused2/billinterpretationcorrection1; juvenilecolour/age/flightunknown, nophenotypetransfer.
 [facts/prompt](species/18-megascops-kennicottii-v5.md),[review](reviews/18-megascops-kennicottii-v5-review.md),[version](../design/concepts/18-megascops-kennicottii-v5.png).
+
+
+## 2026-11-26 17-megascops-asio-v7
+EASO-TPWD-SPECIES-2026: TexasParksWildlife, EasternScreechOwl, undatedinstitutionalsynthesis https://tpwd.texas.gov/huntwild/wild/species/screech/ actualDescription/LifeHistoryread2026-11-26, morphnotsex/age,cavitynest,~4weekdeparture, notyoungfeatheratlas. ReuseduploadedMikkola2013printed207–208/PDF209–210 actualthinmesoptilebars. CornellIDfresh403 andSmith2003webfailure recorded, notnewbodyreads. Bodypatternrefinement only; recentfledglingformedwing/supportretained; exactage/flightthresholdunknown.
+[facts/prompt](species/17-megascops-asio-v7.md),[review](reviews/17-megascops-asio-v7-review.md),[version](../design/concepts/17-megascops-asio-v7.png).

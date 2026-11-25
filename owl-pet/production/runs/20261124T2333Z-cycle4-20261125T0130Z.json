@@ -2,9 +2,57 @@
   "batch_id": "20261124T2333Z",
   "cycle": 4,
   "run_id": "20261125T0130Z-cycle4",
-  "stage": "STARTED",
+  "stage": "RESEARCH_READY",
   "status": "STARTED",
   "started_at": "2026-11-25T01:32:49.654Z",
-  "stages": [],
-  "selection": "Audit current full images and evidence before choosing actual correction; no image regeneration merely for count."
+  "stages": [
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-25T01:37:22.352Z"
+    }
+  ],
+  "selection": "Audit current full images and evidence before choosing actual correction; no image regeneration merely for count.",
+  "id": "25-glaucidium-brasilianum-cactorum-v5",
+  "species": "Glaucidium brasilianum cactorum",
+  "action": "MORPHOLOGY_REVISION",
+  "research_ready_at": "2026-11-25T01:37:22.352Z",
+  "prompt": "Use case: precise-object-edit. Edit target attached full-colour original #25 Cactus Ferruginous Pygmy-Owl v4. Create v5 with one localized correction ONLY to center recent fledgling forehead/crown: remove discrete pale buff/white adult-like flecks and short buff streak marks, leaving plain chocolate/light-brown feather coloration and natural fine texture. USDA2000 RMRS-GTR43 p7 says fledglings lack crown buff. Preserve ALL juvenile shoulder-to-rump white teardrop covert tips: those ARE documented. Preserve formed folded wings, short rufous tail, belly streaks, eyes/bill, gaze, body and supported branch grip; no natal down. Preserve BOTH ADULTS completely: their adult crown streaks, nape false eyes, tails, near-equal height and subtle female rufous fullness. Keep exact title/scientific name/three labels, cactus habitat/cavity, lighting, composition and existing painterly natural-history style. Exactly three birds, no added text or speculative age details.",
+  "sources": [
+    "CFPO-USFS-GTR43-2000-P7 freshly read printed7-8/PDF13-14",
+    "CFPO-AGFD-1996-P22-23 historical indexed record reused, current403"
+  ],
+  "source_accounting": {
+    "new_verified": 0,
+    "fresh_reread": 1,
+    "historical_reuse": 1
+  },
+  "errors": [
+    {
+      "step": "AGFD1996 PDF currentweb/direct",
+      "error": "403; no freshprimarybodyreadclaim"
+    },
+    {
+      "step": "researchcheckpoint script",
+      "error": "SyntaxError unexpectedtoken+; no mutation executed; correctedcomputedproperty"
+    }
+  ],
+  "recovered_input": {
+    "path": "owl-pet/production/generated/25-glaucidium-brasilianum-cactorum-v4-final-original.png",
+    "bytes": 3033313,
+    "sha256": "817a214657aeda425f71776ddb41a1b7dfecf161b034baa5c80754d4bcf456ae",
+    "mode": "RGB",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "unknowns": [
+    "Exactindividualage/sex/iris timeline",
+    "firstdayfeathergeometrynotmeasured"
+  ],
+  "audits_rejected": [
+    "#45fulladulttoesalreadyfeathered",
+    "#47distaltwophalangesbareperguide",
+    "#48fullimagealreadydensetoefeathers"
+  ]
 }

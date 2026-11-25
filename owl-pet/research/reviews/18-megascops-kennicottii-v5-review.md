@@ -1,0 +1,4 @@
+# 18-megascops-kennicottii-v5
+PASS_WITH_LIMITATIONS. Actuallyviewedv4full andv5full: bothadultbillnowpredominantlycharcoalblackwithsmallterminalcreamhornpatch insteadlongyellowstripe. Juvenilebillunchanged, actualjuvenilestage/iris/chronologyunknown. Yellowadultirides, graymorphbody/tufts, femaleonlysubtlylargerretainednotfixedratio, featheredtarsi/toes/grips, youngbalancewing/twofeet/cavitylip intact. Threebirds/exactlabels/riparianwoodlandretained. Paletipfractionnotbiologicalmeasurement. No newmaturefeatherorflightclaim. Rule worn-tipvswholebill colour visiblyapplied18only, nootherpreviousboardsauto-validated.Sciencefalse.
+
+[Research and prompt](../species/18-megascops-kennicottii-v5.md)

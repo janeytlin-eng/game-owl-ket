@@ -7111,3 +7111,7 @@ New0/reused4 stable records (Mikkola printed464/PDF466 fresh; OwlPages Descripti
 ## 20261125T1144Z-cycle1 70-ninox-strenua-v6
 New0/reused5: Mikkola p450/PDF452 fresh; MuseumsVictoria and OwlPages bodies fresh; Cooke2020/Mo2015 prior primary readings only. Refine adultcrown fineflecks/sparse toe bristles; preserve supported recentfledgling and sex-scale limits. No scientific pass.
 [Research/full prompt](species/70-ninox-strenua-v6.md). Sciencefalse.
+
+## 20261125T1144Z-cycle2 71-ninox-connivens-v6
+New0/reused3: ABSA2020p1/Mikkola452/PDF454 fresh; Bullock2026abstractfresh, bodyPDF403 and priorrecord only. Restrained male-larger direction, no mass-to-standingheightconversion. POST-FLEDGINGlabel removes hatch-day ambiguity; objectplay stage unchanged. Sciencefalse.
+[Research/full prompt](species/71-ninox-connivens-v6.md). Sciencefalse.

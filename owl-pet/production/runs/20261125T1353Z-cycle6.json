@@ -4,11 +4,18 @@
   "run_id": "20261125T1353Z-cycle6",
   "started_at": "2026-11-25T14:52:06.548Z",
   "status": "STARTED",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-25T14:52:46.660Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-25T14:55:05.949Z",
+      "evidence": [
+        "owl-pet/production/generated/57-bubo-nipalensis-v6-original.png"
+      ]
     }
   ],
   "id": "57-bubo-nipalensis-v6",
@@ -16,5 +23,16 @@
   "action": "REVISION",
   "scientifically_verified": false,
   "research_record": "owl-pet/research/species/57-bubo-nipalensis-v6.md",
-  "prompt": "Correct ONLY BOTH ADULT faces in this #57 Spot-bellied Eagle-Owl group plate. (1) Their almost-black bills should be WAX-YELLOW to PALE YELLOW, natural soft matte horn texture, SAMElargehookshape/nostrils. (2) Remove the thick dark ring bordering adult pale facial discs; this species has NO dark facial ruff. Blend that border softly into pale brown-grey cheeks and surrounding streaked head feathers, not a hard outline. Keep darkbrown adult irises and raggedlongsidewardtufts absolutelyunchanged. CENTRAL JUVENILE ALLDETAILS and pale-yellowbill unchanged. PreserveexacttitleBubo nipalensis/alllabels/exactlythreebirds/adultbellyspotsandflankbars/featherlegs/toes/claws/grips/nearequalsize/youngformedbarredwing&tail/white-downedges/Vbreastmarks/branchsupport/moistforestscene/style. Nootheredits/no newage/flight/sexrule."
+  "prompt": "Correct ONLY BOTH ADULT faces in this #57 Spot-bellied Eagle-Owl group plate. (1) Their almost-black bills should be WAX-YELLOW to PALE YELLOW, natural soft matte horn texture, SAMElargehookshape/nostrils. (2) Remove the thick dark ring bordering adult pale facial discs; this species has NO dark facial ruff. Blend that border softly into pale brown-grey cheeks and surrounding streaked head feathers, not a hard outline. Keep darkbrown adult irises and raggedlongsidewardtufts absolutelyunchanged. CENTRAL JUVENILE ALLDETAILS and pale-yellowbill unchanged. PreserveexacttitleBubo nipalensis/alllabels/exactlythreebirds/adultbellyspotsandflankbars/featherlegs/toes/claws/grips/nearequalsize/youngformedbarredwing&tail/white-downedges/Vbreastmarks/branchsupport/moistforestscene/style. Nootheredits/no newage/flight/sexrule.",
+  "bytes": 2698093,
+  "sha256": "b0775ec6847174f6664656434efa1d5f6d7d59e3a7927add5b4be83b9e2345f1",
+  "gitblob": "6ade671d0c4d23ec0249166014386a2cd6407ab1",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "local_path": "/workspace/scratch/180c531d917a/owl-1432/57-bubo-nipalensis-v6.png",
+  "original_blob": "6ade671d0c4d23ec0249166014386a2cd6407ab1",
+  "original": "owl-pet/production/generated/57-bubo-nipalensis-v6-original.png",
+  "generation_wait_seconds": 91.704
 }

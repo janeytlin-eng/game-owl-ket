@@ -54305,16 +54305,27 @@
           "unique_species_increment": 0,
           "revision_increment": 1,
           "scientifically_verified": false
+        },
+        {
+          "cycle": 4,
+          "id": "76-asio-clamator-v6",
+          "species": "Asio clamator",
+          "commit_sha": "79f4be40c7e3d08d1c5e335656f7524e4c914ed6",
+          "archive_commit": "81763caa5ca061ec0f6487f1502d058581b79305",
+          "run_record": "owl-pet/production/runs/20261125T1034Z-cycle4.json",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 4
+      "next_cycle": 5
     }
   ],
   "lease": {
     "owner": "20261125T1034Z-production",
-    "run_id": "20261125T1034Z-cycle4",
-    "heartbeat_at": "2026-11-25T10:53:54.403Z",
-    "expires_at": "2026-11-25T11:08:55.272Z"
+    "run_id": "20261125T1034Z-cycle5",
+    "heartbeat_at": "2026-11-25T10:54:33.263Z",
+    "expires_at": "2026-11-25T11:09:38.664Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",

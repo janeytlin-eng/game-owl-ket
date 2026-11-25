@@ -3,8 +3,8 @@
   "cycle": 2,
   "run_id": "20261125T0904Z-cycle2",
   "started_at": "2026-11-25T09:08:32.299Z",
-  "status": "IN_PROGRESS",
-  "stage": "ARCHIVED",
+  "status": "VERIFIED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -31,6 +31,14 @@
       "evidence": [
         "owl-pet/design/concepts/83-otus-brucei-v6.png"
       ]
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-25T09:12:34.862Z",
+      "evidence": [
+        "bd51b4f0778d82bac081ffaa532e84624bc87b30",
+        "owl-pet/design/concepts/83-otus-brucei-v6.png"
+      ]
     }
   ],
   "id": "83-otus-brucei-v6",
@@ -52,5 +60,16 @@
   "original": "owl-pet/production/generated/83-otus-brucei-v6-original.png",
   "generation_wait_seconds": 40.43,
   "concept": "owl-pet/design/concepts/83-otus-brucei-v6.png",
-  "review_record": "owl-pet/research/reviews/83-otus-brucei-v6-review.md"
+  "review_record": "owl-pet/research/reviews/83-otus-brucei-v6-review.md",
+  "verification": {
+    "bytes": 2463265,
+    "sha256": "c5eeeb3f78ad33722c905ac6025d2e16a29ae282c06bb6f6a726ff2273d4ca98",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "fullPNGdecode": "PASS"
+  },
+  "ended_at": "2026-11-25T09:12:34.862Z",
+  "archive_commit": "bd51b4f0778d82bac081ffaa532e84624bc87b30"
 }

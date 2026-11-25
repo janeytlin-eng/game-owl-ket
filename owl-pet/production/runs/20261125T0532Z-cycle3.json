@@ -3,7 +3,25 @@
   "cycle": 3,
   "run_id": "20261125T0532Z-cycle3",
   "started_at": "2026-11-25T05:40:52.679Z",
-  "status": "STARTED",
-  "stage": "STARTED",
-  "stages": []
+  "status": "IN_PROGRESS",
+  "stage": "RESEARCH_READY",
+  "stages": [
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-25T05:43:08.696Z",
+      "evidence": [
+        "owl-pet/research/species/137-otus-alfredi-v7.md"
+      ]
+    }
+  ],
+  "id": "137-otus-alfredi-v7",
+  "species": "Otus alfredi",
+  "action": "CLAW_COLOUR_REVISION",
+  "prompt": "Precise bare-part colour correction for this Flores Scops Owl Otus alfredi three-bird plate. Change ONLY the CLAWS/TALONS on ALL THREE birds: adult male left, documented juvenile male center, adult female right. Replace the dark brown/blackish claw tips with natural warm orange-yellow to pale yellowish-horn keratin, slightly translucent with realistic shading, continuous to the tips and no black cap. Keep existing orange-yellow toes and exposed lower tarsus unchanged, preserve every toe/claw shape, count, curvature and firm branch grip. This species has light yellow-orange claws even in the specimen juvenile, so do not leave generic dark owl talons. Leave all other pixels/content visually unchanged: entire plumage, bill orange-yellow, adult yellow irises/pink orbital rims, juvenile age-unknown down/developing folded wing/tail and supported crouch, near-equal adult height, all titles/Latin name/roles/scientific-calibration footer, Flores humid montane forest, composition and soft realistic pet style. No added feathers, wings, marks or text. Samefull1536x1024.",
+  "research_record": "owl-pet/research/species/137-otus-alfredi-v7.md",
+  "source_counts": {
+    "new": 0,
+    "reused": 2,
+    "scope_correction": 1
+  }
 }

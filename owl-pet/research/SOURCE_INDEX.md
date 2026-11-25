@@ -6942,3 +6942,7 @@ Freshprimarybody pp1–3/5–6actualread: outerflightfeathervanestawny/dusky, le
 
 ##2026-11-25 #201v7 adult crown fine-pattern calibration
 MANT-ZAINI-2023-MANTANANI-FIELD freshobserverbodyandactual640x401perchedphotopixelsread, boundedflashlitnominate-localitycrown notsex/youngproof. MANT-MIKKOLA-2013-P199-200-MIRROR actualuploadedprinted199–200/PDF201–202 veryfinepatternabovecaption; largewhitecrownfleckstargetedbutlegitimateeyebrow/scapularwhiteretained. No youngcrosspopulationtransfer. New0/reused2/scope1. [Research/prompt](species/201-otus-mantananensis-v7.md).
+
+##2026-11-25 #137v7 FLO-WIDODO-1999 claw boundary
+FreshoriginalTable2printed18–19 adultAMNH+juvenileMZB orange-yellowclawslackingevendarktips; actualbodypp15–20read. MIKKOLA2013 actualprinted184/PDF186yellowishhornclawsconfirms. No darktip inferredfromgenericowl, noyoungadult-transferbecausespecimenexplicit. New0/reused2/scope1. [Research/prompt](species/137-otus-alfredi-v7.md).
+KOEP-FJELDSA-2012-P180-191 correctedbibliographicrange180–193andworkingoriginal https://archive.org/download/biostor-245242/biostor-245242.pdf , actualp184/189bodyread/p183Fig2paintingviewed2026-11-25. Paintingnophotoclaim, hockinginotLoja, rejectedforcedbrow/gridfix. SamepublicationIDretained, correctionnotnewsource.

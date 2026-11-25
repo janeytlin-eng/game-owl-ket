@@ -6999,3 +6999,7 @@ New0/reused2 documents EGO-MIK2013-102 (actual uploadedprinted102/PDF104), EGO-D
 ## 20261125T0748Z-cycle3 98-strix-chacoensis-v6
 New0/reused2: MIKKOLA-2013 actualprinted336/PDF338 captionwhitishtarsi/rufousbars; CHAO-NBO-2013 Santander/Figueroa/Martinez/Alvarado2013 author-uploaded https://www.researchgate.net/publication/255718775_Chaco_Owl_Strix_chacoensis DetailedDescription/BareParts/Measurements actualread. Fewdarkerbars/spots adulttarsalfeathers, notgenericowlringpattern; youngunchanged. Priorfrog2024paper notre-read.
 [Full research/prompt](species/98-strix-chacoensis-v6.md). Scientifically false.
+
+## 20261125T0748Z-cycle4 96-aegolius-ridgwayi-v6
+New0/reused2 relevantdocuments: RID-MIK2013-446 aliasMIKKOLA-2013 actualuploaded446/PDF448 pale/faintjuvenilebreaststreaks; RID-CAYAYA-EISERMANN-JUV-PHOTO-2026 prioractualrecordonly, currentwebinaccessible(nofreshpixelclaim). Actualresearcherbody https://www.bird-studies-guatemala.info/owls-of-guatemala.htm iscontext; adjacentother-speciesyoungphotosNOTborrowed. Ridgwayisubpage500redirect; no newage/flightfacts. Calibrateexistingv5overdarkbreastshaftsonly.
+[Full research/prompt](species/96-aegolius-ridgwayi-v6.md). Scientifically false.

@@ -4,7 +4,7 @@
   "run_id": "20261125T0332Z-cycle4-resume-20261125T0425Z",
   "started_at": "2026-11-25T04:26:15.494Z",
   "status": "IN_PROGRESS",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -12,6 +12,13 @@
       "evidence": [
         "owl-pet/research/species/95-pulsatrix-melanota-v6.md",
         "owl-pet/research/SOURCE_INDEX.md"
+      ]
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-25T04:29:06.203Z",
+      "evidence": [
+        "owl-pet/production/generated/95-pulsatrix-melanota-v6-original.png"
       ]
     }
   ],
@@ -25,5 +32,14 @@
     "new": 0,
     "reused": 2,
     "corrections": 1
-  }
+  },
+  "original": "owl-pet/production/generated/95-pulsatrix-melanota-v6-original.png",
+  "original_blob": "a2ec7220cdfb7d6dc9634477750aad510506e3b2",
+  "generation_wait_seconds": 54.523,
+  "bytes": 2763209,
+  "sha256": "46bd3290e017374951a4f8b2e9eb4b10d98bd62992c35307154020e9d7d56c33",
+  "dimensions": [
+    1536,
+    1024
+  ]
 }

@@ -7052,3 +7052,7 @@ New sources already linked in cycle records: BRU-MOLDOVAN-2009-TABLE1 (István M
 ## 20261125T1034Z-cycle1 79-otus-lettia-v6
 New LET-BSS-CURRENT BirdSocietyofSingapore CollaredScopsOwl dateunknown https://singaporebirds.com/species/collared-scops-owl actualIdentification, finebarredyoung. ReusedMIKKOLA-2013 actualprinted156/PDF158 (correctsv5wrong162/PDF164), LET-LEADPRATHOM-2009-P457-461 andLET-BOW-2024-ML339711461 priorrecords only/notnewphoto. Fineirregularjuvenilebars, keepageunknown. New1/reused3/correctedlocator1.
 [Full facts/prompt](species/79-otus-lettia-v6.md). Sciencefalse.
+
+## 20261125T1034Z-cycle2 80-otus-sunia-v6
+New 4 source records below (Kyoto juvenile photograph; WBSJ current-name page; Tokyo Zoo semitorques mapping; Kahaku sunia specimen mapping), reused 3 (Mikkola p152/PDF154 freshly read, SUNIA-NO-2015 and SUNIA-ITIS-177882-2026 repository-only). Corrected 2 source species attributions: SUNIA-ASAHIYAMA-ZOO-2023 and SUNIA-ZUKAN-165925-2023 actually concern オオコノハズク / Otus semitorques; their #80 age/size/plumage support is withdrawn. Later feathered juvenile is photo-bounded; exact age, sex, subspecies, flight and size ratio unknown. Source事实 and design inference separated; scientific_verified=false.
+[Full facts/prompt](species/80-otus-sunia-v6.md). Sciencefalse.

@@ -1,0 +1,15 @@
+# 36-glaucidium-bolivianum-v6
+Accessed2026-11-26Asia/Shanghai. Revision, science=false. Priorv1–v5 retained.
+
+## Evidence actually read
+**YPOW-KONIG-1991** ClausKönig1991, Zur Taxonomie und Ökologie der Sperlingskäuze … des Andenraumes, Ökologie der Vögel13:15–76; https://www.zobodat.at/pdf/Oekologie-Voegel_13_0015-0076.pdf . Fresh download/actual original PDF22–24 =printed36–38 read. Web fetch403, direct local PDF succeeded. Description p37: feathered feet nearly to toe bases, grey-white/brown tarsi; dirty-yellow bristled toes, blackish claws; **rufous morph tail7 pale orange-brown oval patches not touching shafts**, brown morph5whitishmarks. Type table onlytwoadultmales/oneadultfemale wing94/102/103 andtail67/67.5/72.5mm; no universal standingheight ratio. No young chronology. CurrentG.bolivianum splitformerlyjardiniicomplex; no new251scopechange.
+
+**YPOW-MIKKOLA-2013-P396** HeimoMikkola2013 Owls of the World photographicguide, uploadedlocalPDF398/printed396 actuallyread. Adulttoe/tarsicolours consistent; **mesoptile crownunspotted andslightlygreyerthanupperparts, weakerstreaksbelow; downychickunknown**. Guideheavierfemaleclaim notheightmultiplier; primarysamplesmall. Noexactage/iris/flight.
+
+V5 actuallyviewed: centerhaspalecrownspeckles; rightredmorph tailpaleringsratherthan7brokenovalpatches. Designrevisiontargetisthesetwoobservations, not relabelingunknown. Mossybranchfork retained asdesignsupport, no verifiednestcavityclaimed. Near-equaladults/morphsnotsexlinked. Anyv5 youngiris/exactshape remainsunverified; no scientificpass.
+
+## Full imagegen prompt
+Edit the existing #36 Yungas Pygmy Owl board, preserving its warm hand-painted gouache style, all three owls, adult positions, paired male nape patches, yellow adult eyes/bills, nearly equal adult scale, branch grips, epiphytic cloud-forest and every current label. Apply only evidence-led changes: (1) Center age-unknown mesoptile juvenile crown must be plain unspotted, slightly greyer than its upperparts. Remove pale crown dots, retaining feather texture and soft diffuse ventral streaking. Do not remove its formed folded wing or invent a hatchling, exact age or flight ability. (2) RIGHT ADULT FEMALE is the rufous morph: her visible folded tail should have seven subdued pale orange-brown OVAL PATCHES on the brown rectrices, broken at dark feather shafts, not five continuous cream crossbars. LEFT brown-morph adult male retains five pale broken tail markings. Morphs are individual choices, never sex-linked. Keep anatomically plausible tail lengths and support; do not add toes or alter bird size. Adult tarsi feathered mottled dusky/whitish to near toe bases, dirty-yellow bristled toes and dark claws; only refine if visible, no bare yellow shanks. Add v6 to the existing title, keeping species number/name. Preserve all other wording.
+
+## Iteration rule applied
+Check tailpattern against **individual morph**, not just species-level5–6 summary; barcount isnot interchangeablewithcontinuousrings. Plainjuvenilecrown from explicitmesoptilestatement, not genericbaby-template. Recheckfinalatnativecrop.

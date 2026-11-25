@@ -4562,3 +4562,6 @@ The first accepted archive exposed truncated large blobs and was not credited. T
 
 Verification [`b4c74081`](https://github.com/janeytlin-eng/game-owl-ket/commit/b4c740816390383fcaa1c6f2cb6da1f3e8ad26e1) was read back after repaired archive [`50eb7461`](https://github.com/janeytlin-eng/game-owl-ket/commit/50eb7461bce04a0990dc4ae587de4d9b042a2108). Cycle 4 credited once; lease released; next cycle 5. Unique coverage remains 176/251; revision +1; science=false.
 
+
+## 2026-11-25 #73 v6 archived, full byte verification pending
+Oldest batch20261124T2333Z cycle5, guide-based adult proximal toe feather revision; full/crop actually reviewed, sciencefalse, unique206/251 unchanged. OriginalPNG preserved; no cycle credit until immutable full-byte verification. Source counts new0/reused3/scope correction1. [run](production/runs/20261124T2333Z-cycle5-resume-20261125T0230Z.json).

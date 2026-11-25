@@ -3,8 +3,8 @@
   "cycle": 5,
   "run_id": "20261125T0230Z-cycle5",
   "started_at": "2026-11-25T02:31:18.820Z",
-  "status": "IN_PROGRESS",
-  "stage": "IMAGE_GENERATED",
+  "status": "ARCHIVED_VERIFICATION_PENDING",
+  "stage": "ARCHIVED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -15,6 +15,17 @@
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-25T02:39:50.145Z",
       "evidence": "owl-pet/production/generated/73-ninox-rufa-v6-original.png"
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-25T02:40:36.821Z",
+      "evidence": "owl-pet/research/reviews/73-ninox-rufa-v6-review.md"
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-25T02:40:36.821Z",
+      "evidence": "owl-pet/design/concepts/73-ninox-rufa-v6.png",
+      "verification_pending": true
     }
   ],
   "previous_run": "owl-pet/production/runs/20261124T2333Z-cycle5-20261125T0130Z.json",
@@ -50,5 +61,8 @@
     ],
     "mode": "RGB"
   },
-  "generation_wait_seconds": 97.6
+  "generation_wait_seconds": 97.6,
+  "review_record": "owl-pet/research/reviews/73-ninox-rufa-v6-review.md",
+  "review_result": "PASS_WITH_LIMITATIONS",
+  "scientifically_verified": false
 }

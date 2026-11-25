@@ -7083,3 +7083,7 @@ Canonical topic mapping: Otus sunia → juvenile/morphology SUNIA-WBSJ-KYOTO-JUV
 ## 20261125T1034Z-cycle3 78-asio-capensis-v6
 New0/reused3: WHSO-MIKKOLA-2013 freshly read printed518/PDF520; MARSH-OWLPAGES-2020 actual external body re-read2026-11-25; MAR-COMMONS-MURRAY-2020 previous photo-reading record reused, fresh page inaccessible. Corrected1 inherited design boundary: adult vertical black streaking replaced with brown/fine buff vermiculation, mostly paler lower belly; toe feathering extended to leave short dark tips. Museum CBBM02_240 locator read but figure fetch403, unviewed and not anatomy evidence.
 [Full facts/prompt](species/78-asio-capensis-v6.md). Sciencefalse.
+
+## 20261125T1034Z-cycle4 76-asio-clamator-v6
+New0/reused3: fresh uploaded Mikkola p510/PDF512; external actual original2009 Results/Discussion and2025 Methods/body reread. Adult cream toe feathers missing in actualv5; extend with distal claw exposure. Remove hatch-day-looking label from an estimated dependent stage; retain supported exercise. Sartore photo metadata only, image403, no inspected anatomy claim. Source IDs stable/no duplicated publications. Sciencefalse.
+[Full facts/prompt](species/76-asio-clamator-v6.md). Sciencefalse.

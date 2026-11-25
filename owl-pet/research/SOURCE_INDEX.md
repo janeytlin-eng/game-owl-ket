@@ -7359,3 +7359,7 @@ New0/reused2fresh: ASBO-MIKKOLA-2013 printed408/PDF410plain/weakmesoptilemantlea
 
 ## #29 preflight20261125T2133Z — unavailable original / no image credit
 ABOW-VENTER-BIRDLIFE-2019-PP23-28 existingpublisherURLnow404; two-enginealternate-title search/localPDFsearch no verifiedoriginal. Priorreadkeptasprioronly. Mikkola2013printed412/PDF414adultregionalpatternreread, cannotestablishjuvenileiris. ABC2024vocalpapersearchleadnotfullreadandnotcurrenttaxonomyauthority. No newverifiedsource, reusedbook1; noimage/credit. [Actual preflight](runs/20261125T2133Z-29-preflight.md).
+
+
+## 29-glaucidium-capense-v6
+ABOW-MIKKOLA-2013 printed412–413/PDF414–415freshread: brownerlessbarredmesoptileback/lessspotsbelow, noirisageclaim. ABOW-OWLPAGES-2020 https://www.owlpages.com/owls/species.php?s=2160 Description/Breedingfreshread. NewABOW-NEWMANS-WEB-2026 Newman'sBirdsofSouthernAfrica regionalwebaccount https://newmansbirds.com/birds/african-barred-owlet/ accessed2026-11-26 Description/habitat, yearnotstated; secondaryadultidentity/shoulderwhitespots/riverinecontextonly, family-levelyoungtextnotagedspeciesdata. Venter2019prioronly404/unrecovered;WordPressAPI403. UnrelatedOwlPages2130excluded. [Research](species/29-glaucidium-capense-v6.md) / [image](../design/concepts/29-glaucidium-capense-v6.png).

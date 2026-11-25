@@ -3,8 +3,8 @@
   "cycle": 1,
   "run_id": "20261125T0640Z-cycle1",
   "started_at": "2026-11-25T06:38:02.538Z",
-  "status": "STARTED",
-  "stage": "ARCHIVED",
+  "status": "VERIFIED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -34,6 +34,14 @@
       "evidence": [
         "owl-pet/design/concepts/135-otus-silvicola-v7.png"
       ]
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-25T06:43:14.039Z",
+      "evidence": [
+        "10bfc1963a84ef5a7f8dbe5033830a326f3e3830",
+        "owl-pet/design/concepts/135-otus-silvicola-v7.png"
+      ]
     }
   ],
   "id": "135-otus-silvicola-v7",
@@ -56,5 +64,14 @@
   "original": "owl-pet/production/generated/135-otus-silvicola-v7-original.png",
   "generation_wait_seconds": 126.745,
   "concept": "owl-pet/design/concepts/135-otus-silvicola-v7.png",
-  "review_record": "owl-pet/research/reviews/135-otus-silvicola-v7-review.md"
+  "review_record": "owl-pet/research/reviews/135-otus-silvicola-v7-review.md",
+  "ended_at": "2026-11-25T06:43:14.039Z",
+  "archive_commit": "10bfc1963a84ef5a7f8dbe5033830a326f3e3830",
+  "verification": {
+    "at": "2026-11-25T06:43:14.039Z",
+    "remote_bytes": 2771900,
+    "SHA256": "60b92adb477dd6fb38642134c6042ce7a748d4957fc7b79732c82ce791355d94",
+    "fullPNGdecode": "PASS",
+    "research_index_readback": "PASS"
+  }
 }

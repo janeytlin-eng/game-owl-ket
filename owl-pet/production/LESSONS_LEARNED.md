@@ -125,3 +125,6 @@ Generic darktalonprior leakeddespiteyellowfeet. Checkclawsasindependentbarepart;
 
 ##2026-11-25 #201v8 recovery
 Preservedoriginal bytes/hash afterinterruption; reviewedfull/crop beforecredit. Modestcrownrebalance retainedfinepattern, validwhitebrows andmixedpopulationwarning. Greyishmorphvariationmeansnevercallqualitativetoneapprovalscientificcolourvalidation. Actualappliedviewpasswithlimits; no additionalimagegen necessary forrecoverable IMAGE_GENERATED.
+
+##2026-11-25 135-otus-silvicola-v7
+Guidecriterion limitedtoeartract; retainedvalidwhitefacebrows. Actualtarget achievedwhileprotectingprimarysupported fullyfeatheredimmature. Don'trepaintallpaleplumageorborrowthisrestrictionforotherowls.

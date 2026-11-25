@@ -3,8 +3,8 @@
   "cycle": 2,
   "run_id": "20261125T1353Z-cycle2",
   "started_at": "2026-11-25T14:35:23.308Z",
-  "status": "STARTED",
-  "stage": "ARCHIVED",
+  "status": "VERIFIED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -24,6 +24,10 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-25T14:39:45.255Z"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-25T14:40:06.068Z"
     }
   ],
   "id": "61-ketupa-ketupu-v6",
@@ -44,5 +48,16 @@
   "original": "owl-pet/production/generated/61-ketupa-ketupu-v6-original.png",
   "generation_wait_seconds": 94.083,
   "review_record": "owl-pet/research/reviews/61-ketupa-ketupu-v6-review.md",
-  "concept": "owl-pet/design/concepts/61-ketupa-ketupu-v6.png"
+  "concept": "owl-pet/design/concepts/61-ketupa-ketupu-v6.png",
+  "archive_commit": "b03a4f43d054162cbbf331fa2454009b7af1f393",
+  "verification": {
+    "bytes": 2836928,
+    "sha256": "823afb5a4f5983ad497af49803a6cf5ff9aed9895bf7163701fac1dbda59831e",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "fullPNGdecode": "PASS"
+  },
+  "ended_at": "2026-11-25T14:40:06.068Z"
 }

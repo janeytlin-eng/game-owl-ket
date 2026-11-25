@@ -4,7 +4,7 @@
   "run_id": "20261125T0332Z-cycle4-resume-20261125T0425Z",
   "started_at": "2026-11-25T04:26:15.494Z",
   "status": "IN_PROGRESS",
-  "stage": "IMAGE_GENERATED",
+  "stage": "ARCHIVED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -19,6 +19,21 @@
       "at": "2026-11-25T04:29:06.203Z",
       "evidence": [
         "owl-pet/production/generated/95-pulsatrix-melanota-v6-original.png"
+      ]
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-25T04:29:34.833Z",
+      "result": "PASS_WITH_LIMITATIONS",
+      "evidence": [
+        "owl-pet/research/reviews/95-pulsatrix-melanota-v6-review.md"
+      ]
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-25T04:29:34.833Z",
+      "evidence": [
+        "owl-pet/design/concepts/95-pulsatrix-melanota-v6.png"
       ]
     }
   ],
@@ -41,5 +56,8 @@
   "dimensions": [
     1536,
     1024
-  ]
+  ],
+  "concept": "owl-pet/design/concepts/95-pulsatrix-melanota-v6.png",
+  "review_record": "owl-pet/research/reviews/95-pulsatrix-melanota-v6-review.md",
+  "scientifically_verified": false
 }

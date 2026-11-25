@@ -98,3 +98,6 @@ Actualv5 fullview grey adultnakedtoes. Guidep214+freshobserverDescription both p
 
 ##2026-11-25 #132v6 — actual bytes, not repeated success claims
 Latestv5 anditsoriginalcopies786444bytes repeatedlyfailedPILdecode; preservehistory/quarantine, cannotcallvalidjustbecauseoldreviewPASS. Validv4+fresh2014originalFig11 allowednewv6 reconstruction. FullnewPNGmustdownload/hash/decodebeforecredit. Tailcentralupperversusventralbars distinguished, blanketbarremovalrejected. Requestedminorheadturnsubtleonly, notpromotedtoscientificcorrection. Stage4weekboxversus5weekbranchphotoexplicitlyseparate. Onecasearchivevalidation, entirelibrarynotyetdecodedaudited.
+
+##2026-11-25 95-pulsatrix-melanota-v6
+Corrupt oldv5 pluscopies notvaliddespitehistoricalPASS. Prefixscan foundno recoverableoriginal. Rebuildfromvalidpriorversionwith actualprimarydevelopmentboundary; explicitcrownwhite+firstchestfeathersandsoftshortwingcheckedonoutput. Do notlabelgroundfoundolderyoungasactualnestchick. Adultfemale-heightnotassumedfromunsexedweights. Oneappliedcase, notglobalvalidation.

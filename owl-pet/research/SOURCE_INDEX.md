@@ -7025,3 +7025,7 @@ M.roraimae WikiAves https://www.wikiaves.com.br/wiki/corujinha-de-roraima actual
 
 ## 20261125T0904Z-cycle1 #85 v6
 SEM-NOHARA-HONDA-2025-P75-78 actualprimaryp76/fig3; SEM-MIK2013-158 actualprinted158–159/PDF160–161 reread2026-11-25. Honshu adultfeatheredtoes vs pryeri baretoes; youngiris/age/flightunknown. New0/reused2, no sciencepass. [Full facts/prompt](species/85-otus-semitorques-v6.md).
+
+## 20261125T0904Z-cycle2 83-otus-brucei-v6
+New BRU-MOLDOVAN-2009-TABLE1 actual originalp2/PDF2 https://ecology.nottingham.ac.uk/~plzfg/EBBSoc/ejnh5/1-Istvan_2009.pdf ; reused BRU-MIK2013-126(actual126/PDF128), BRU-KHOURY-ALSHAMLIH-DHEIB-2021-P286-287(actualJordanbody), BRU-SANGHA-MALIK-2010-P176-177(actualDescription). Adultbasaltoefeathersdistinctfromwholetoes; youngunknownretained. New1/reused3.
+[Full facts/prompt](species/83-otus-brucei-v6.md). Sciencefalse.

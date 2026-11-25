@@ -4,7 +4,7 @@
   "run_id": "20261125T1353Z-cycle5",
   "started_at": "2026-11-25T14:47:07.310Z",
   "status": "STARTED",
-  "stage": "IMAGE_GENERATED",
+  "stage": "ARCHIVED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -23,6 +23,14 @@
       "evidence": [
         "owl-pet/production/generated/58-ketupa-coromanda-v6-edit1-original.png"
       ]
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-25T14:51:22.993Z"
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-25T14:51:22.993Z"
     }
   ],
   "id": "58-ketupa-coromanda-v6",
@@ -45,5 +53,7 @@
   "initial_original": "owl-pet/production/generated/58-ketupa-coromanda-v6-original.png",
   "initial_blob": "a9028528b8ad66fe5ba1aab982ce8847b0bb9f8b",
   "review_issue": "First edit palehorn tip too weak in nativecrop; notvisuallyverifiedeffective",
-  "edit_prompt": "Edit ONLY the distal hook tip of BOTH ADULT beaks: visibly PALE YELLOWISH HORN terminal area covering the lowest one-third of the hooked bill, a muted ivory-beige patch clearly distinct from the blue-grey upper two-thirds and cere. Not a yellow wholebill. Preserve same hookshape. Centraljuvenile unchanged, allotherpixels ascloseaspossible unchanged, same3birds/alllabels/feet/support/plumage/tree/nest/background. Need identifiable pale terminal horn region, not just a highlight."
+  "edit_prompt": "Edit ONLY the distal hook tip of BOTH ADULT beaks: visibly PALE YELLOWISH HORN terminal area covering the lowest one-third of the hooked bill, a muted ivory-beige patch clearly distinct from the blue-grey upper two-thirds and cere. Not a yellow wholebill. Preserve same hookshape. Centraljuvenile unchanged, allotherpixels ascloseaspossible unchanged, same3birds/alllabels/feet/support/plumage/tree/nest/background. Need identifiable pale terminal horn region, not just a highlight.",
+  "review_record": "owl-pet/research/reviews/58-ketupa-coromanda-v6-review.md",
+  "concept": "owl-pet/design/concepts/58-ketupa-coromanda-v6.png"
 }

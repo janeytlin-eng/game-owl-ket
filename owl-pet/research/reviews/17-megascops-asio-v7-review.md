@@ -1,0 +1,4 @@
+# 17-megascops-asio-v7
+PASS_WITH_LIMITATIONS. Actualv6full/v7full viewed. Juvenilechest/bellynowsoftfinegreycrossbars ratherbroadscalechevrons; crown/mantlesoftbarred, noadultshaftstreaks oradultshoulderpatchesadded. Actualformedbalancewing/feetbranchgrips retained; notreturnedtoflightlessnewborn. Bodygroundedsupportandnoairbornepose, youngyelloweye/olivebillunchanged, exactage/colourchronologyunknown. Adultsgraymorphnearequaldisplay/yelloweyes/olivebills/featheredtarsi/branchgrips retained, labels/count3/deciduousforestretained. Featherbargeometrynotmeasuredatlas; source supportsdirectiononly. Actualfieldprimaryp101retrievedafterwebfailure, usedonlyabilitybound. Rule stage-specificpatternwithoutremovingstage-appropriateflightfeathers applied/visuallyconfirmedhereonly.Sciencefalse.
+
+[Research and prompt](../species/17-megascops-asio-v7.md)

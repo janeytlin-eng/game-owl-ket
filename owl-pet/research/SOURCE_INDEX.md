@@ -7107,3 +7107,7 @@ Mapping Asio stygius/Nyctalops stygius → upperpart morphology STY-OWLPAGES-202
 ## 20261125T1034Z-cycle6 75-ninox-scutulata-v6
 New0/reused4 stable records (Mikkola printed464/PDF466 fresh; OwlPages Description and BESG observer body fresh; NParks prior context). Cere dull green-brown differs from blue-black bill; change adult cere only. Guide/specialist sex direction conflict unresolved; no height ratio or new juvenile chronology. #25remotev1–v5/localv5 present; fd9d70d422 not counted.
 [Research/full prompt](species/75-ninox-scutulata-v6.md). Sciencefalse.
+
+## 20261125T1144Z-cycle1 70-ninox-strenua-v6
+New0/reused5: Mikkola p450/PDF452 fresh; MuseumsVictoria and OwlPages bodies fresh; Cooke2020/Mo2015 prior primary readings only. Refine adultcrown fineflecks/sparse toe bristles; preserve supported recentfledgling and sex-scale limits. No scientific pass.
+[Research/full prompt](species/70-ninox-strenua-v6.md). Sciencefalse.

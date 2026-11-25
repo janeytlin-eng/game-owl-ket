@@ -6933,3 +6933,6 @@ ReusedMEL-RIVAS-FUENZALIDA-BURGOS-2022-84-88 originalbody printed84–86/Figs1�
 
 ##2026-11-25 #139v6 JOL-SANGSTER-ETAL-2013 — preserve shafts, narrow lateral components
 OriginalPLOSpublisherbodyDiagnosisMorphology actualread at https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0053712 ; finebars versus broaddarksidebars/diamondsofscopsobsti, butboldshaftstreakslegitimate. Do noterasewholeventralpattern. v5adultcoarsearrowheadbranches targeted; olderAMNH629942stagepreserved. New0/reused1/scope1. [Research/prompt](species/139-otus-jolandae-v6.md). #1382018bodyread, directPDF403/screenshotplaceholdernoactualphoto; nounsupportedwhitecovertspotabsenceclaim.
+
+##2026-11-25 #140v7 — rufescens ventral sparse spots, not shaft lines
+JOL-SANGSTER-ETAL-2013 sameprimarypublication reused freshpublisherDiagnosisMorphology's explicitrufescenscomparison: sparsespotteddarkbrownunderparts lackingdarkstreaks/bars. RFS-MIKKOLA-2013-P178 actualuploadedprinted178/PDF180 confirmsunderpartssparsespots, sexsizeunknown; adultyellowishtoesbody/whitishcaptionconflictpreserved noforcedrecolour. RFS-WARAKAGODA-RASMUSSEN-2004-P102 priorv6mesoptileboundary reused notfreshPDF. Upperpartspots andadultflightfeatherbarsnoterased. New0/reused3/scopecorrection1. [Research/fullprompt](species/140-otus-rufescens-v7.md).

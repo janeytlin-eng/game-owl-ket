@@ -3,7 +3,25 @@
   "cycle": 6,
   "run_id": "20261125T0332Z-cycle6-20261125T0425Z",
   "started_at": "2026-11-25T04:36:17.875Z",
-  "status": "STARTED",
-  "stage": "STARTED",
-  "stages": []
+  "status": "IN_PROGRESS",
+  "stage": "RESEARCH_READY",
+  "stages": [
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-25T04:37:15.781Z",
+      "evidence": [
+        "owl-pet/research/species/140-otus-rufescens-v7.md"
+      ]
+    }
+  ],
+  "id": "140-otus-rufescens-v7",
+  "species": "Otus rufescens",
+  "action": "ADULT_VENTRAL_SPOTTING_REVISION",
+  "prompt": "Precise scientific plumage edit. On this Reddish Scops Owl Otus rufescens group, change ONLY the breast/belly pattern on the LEFT and RIGHT ADULTS: remove the elongated black longitudinal shaft streaks and any crossbars from the underparts. Retain warm yellowish-brown/ochre to cinnamon ground colour with just sparse, separate small dark-brown spots, some tiny dark-edged buff flecks. The underparts should read relatively plain and softly spotted, not lined, barred, chevron-patterned or blank white. Do not alter legitimate dark-edged fulvous marks on the upperparts or barred folded adult flight feathers; source's plain-underpart criterion does not apply to the wings. Keep both adults' horn-white bills, amber/chestnut eyes, tufts, feathered pale-buff tarsi, yellowish bare toes and natural branch grips unchanged, same near-equal adult structural size because sex direction is unknown. Preserve the center age-unknown mesoptile completely, its rich rufescent uniform fluffy body, weak facial rim, developing down-obscured folded wing, bill/eyes/feet and supported crouch; no adult speckles or remiges added, no hatch-age or flight claim. Preserve all exact existing title/Latin name/role labels, threebirds, forest setting, mossy support, lighting, composition and soft realistic pet style. Output complete1536x1024.",
+  "research_record": "owl-pet/research/species/140-otus-rufescens-v7.md",
+  "source_counts": {
+    "new": 0,
+    "reused": 3,
+    "scope_corrections": 1
+  }
 }

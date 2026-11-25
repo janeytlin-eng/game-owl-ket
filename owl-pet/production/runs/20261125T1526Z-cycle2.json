@@ -6,8 +6,8 @@
   "species": "Ketupa coromanda",
   "action": "REVISION",
   "started_at": "2026-11-25T15:32:52.442Z",
-  "status": "STARTED",
-  "stage": "ARCHIVED",
+  "status": "VERIFIED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -27,6 +27,10 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-25T15:36:03.322Z"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-25T15:36:24.499Z"
     }
   ],
   "scientifically_verified": false,
@@ -44,5 +48,16 @@
   "original": "owl-pet/production/generated/58-ketupa-coromanda-v7-original.png",
   "generation_wait_seconds": 49.332,
   "concept": "owl-pet/design/concepts/58-ketupa-coromanda-v7.png",
-  "review_record": "owl-pet/research/reviews/58-ketupa-coromanda-v7-review.md"
+  "review_record": "owl-pet/research/reviews/58-ketupa-coromanda-v7-review.md",
+  "archive_commit": "e4da6e5d8fe797cbc62de8a34ab228f03743fbee",
+  "verification": {
+    "bytes": 2975613,
+    "sha256": "420ac8d3cbfa31dcc93f42f805318e2de1df5351d4f50edab7492c4fef127e0e",
+    "fullPNGdecode": "PASS",
+    "dimensions": [
+      1536,
+      1024
+    ]
+  },
+  "ended_at": "2026-11-25T15:36:24.499Z"
 }

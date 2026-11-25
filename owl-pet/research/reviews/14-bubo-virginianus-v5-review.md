@@ -1,0 +1,4 @@
+# 14-bubo-virginianus-v5
+PASS_WITH_LIMITATIONS. Actualv4full/v5full/nativeadultfootcropviewed: densepalebufftoe-topfeathersnowreachclawbases, broadbarescalytoeshaftexposurecorrected. Clawsremainseparate/exposed/darkhorn, allfouradultfeetgripbranchwithoutfloating; noundefinedfusedtoeorSnowyballshapeobserved. Adultyelloweyes/blackbill/whitebib/coarsebodybars/tufts/sexdisplayunchanged, notbiologicalsexratio. Entireyoung~21dlabel/down/shortgrowingtips/lowbellyandfeetnest support retained; noadultcovertransferredtoyoung, noflight. Exactly3birds/labels/twilightmixedwoodland/reusedsticknestpreserved ascomparativecontextnotKansasbuildingledge. Feathertopcoverdirectionverifiedinthisfinal; densitynotquantified, preciseyoungage/morph/sexunknown. No scientificsignoff/userapprovaltransfer. Rule coverdiagnosticadultonly applied14, possibleprior14v1–v4affectednotautomaticallyfixed.
+
+[Research and prompt](../species/14-bubo-virginianus-v5.md)

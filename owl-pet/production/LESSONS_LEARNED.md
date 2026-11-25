@@ -110,3 +110,6 @@ Do not normalize every Otus into streakedgenericowl: rufescens explicitventralsp
 
 ##2026-11-25 128-megascops-marshalli-v9
 Tract-specificcolourchangeavoidsblanketerasinglegitimatewhiteshoulder. Observedv8irisalreadydarkbrownandprimarybellyvariationrejectedtwofalsefixes. Do notimposeeighttailbarsonolderjuvenile ornewbornbuds. v9lowerwingdirection visuallycheckedonecase, notglobalcalibration.
+
+##2026-11-25 201-otus-mantananensis-v7
+Finepatternnotwholesaleabsenceofwhite: sourcecaptionveryfinepatternandactualboundedphotoreference. Editreducedflecksizebutlightenedcrownbackground, remainingtonalcalibrationexplicit; don'tcallsciencepass. Preservewhiteeyebrows/scapularband. #201bellyand#206bristlesalreadycorrectedso avoidrepeatfixes; preserveexistingyoungpopulationwarning.

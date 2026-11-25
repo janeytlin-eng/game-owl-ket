@@ -4,7 +4,7 @@
   "run_id": "20261125T1034Z-cycle1",
   "started_at": "2026-11-25T10:34:31.444Z",
   "status": "IN_PROGRESS",
-  "stage": "IMAGE_GENERATED",
+  "stage": "ARCHIVED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -15,6 +15,21 @@
       "at": "2026-11-25T10:37:44.194Z",
       "evidence": [
         "owl-pet/production/generated/79-otus-lettia-v6-original.png"
+      ]
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-25T10:38:13.923Z",
+      "evidence": [
+        "owl-pet/research/reviews/79-otus-lettia-v6-review.md"
+      ],
+      "result": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-25T10:38:13.923Z",
+      "evidence": [
+        "owl-pet/design/concepts/79-otus-lettia-v6.png"
       ]
     }
   ],
@@ -35,5 +50,7 @@
   "git_blob_sha": "dca8a479e1c8a336af679a97f30db6b48e7890ef",
   "original_blob": "dca8a479e1c8a336af679a97f30db6b48e7890ef",
   "original": "owl-pet/production/generated/79-otus-lettia-v6-original.png",
-  "generation_wait_seconds": 33.938
+  "generation_wait_seconds": 33.938,
+  "concept": "owl-pet/design/concepts/79-otus-lettia-v6.png",
+  "review_record": "owl-pet/research/reviews/79-otus-lettia-v6-review.md"
 }

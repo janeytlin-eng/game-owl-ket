@@ -7037,3 +7037,7 @@ New BEN-OWLPAGES-1260 actualDescription https://www.owlpages.com/owls/species.ph
 ## 20261125T0904Z-cycle4 82-otus-senegalensis-v6
 Reused SEN-MIK2013-130(actualprinted130/PDF132), SEN-OWLPAGES-2020 actualDescription/2020-10-08 https://www.owlpages.com/owls/species.php?s=550 ; SEN-RIEKERT-1986-P425-428 originalopenattempt plusprevious22daystudyrecord. New0/reused3; adultgrey-browntoesonly, no youngpaletteinference.
 [Full facts/prompt](species/82-otus-senegalensis-v6.md). Sciencefalse.
+
+## 20261125T0904Z-cycle5 84-otus-bakkamoena-v9
+New BAK-OWLPAGES-2020-760 DeaneLewis2020-10-05 actualDescription https://www.owlpages.com/owls/species.php?s=760 ; reused BAK-MIK2013-150 actual150/PDF152 andBAK-BRRAICH-SINGH2021 actualprimaryp55/PDF1 https://indianbirds.in/pdfs/IB_17_2_Brraich_Singh_IndianScopsOwl.pdf . Adultpalehornclaws only; unknownyoungage/flightretained. New1/reused2.
+[Full facts/prompt](species/84-otus-bakkamoena-v9.md). Sciencefalse.

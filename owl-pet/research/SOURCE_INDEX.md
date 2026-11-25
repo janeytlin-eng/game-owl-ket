@@ -7003,3 +7003,7 @@ New0/reused2: MIKKOLA-2013 actualprinted336/PDF338 captionwhitishtarsi/rufousbar
 ## 20261125T0748Z-cycle4 96-aegolius-ridgwayi-v6
 New0/reused2 relevantdocuments: RID-MIK2013-446 aliasMIKKOLA-2013 actualuploaded446/PDF448 pale/faintjuvenilebreaststreaks; RID-CAYAYA-EISERMANN-JUV-PHOTO-2026 prioractualrecordonly, currentwebinaccessible(nofreshpixelclaim). Actualresearcherbody https://www.bird-studies-guatemala.info/owls-of-guatemala.htm iscontext; adjacentother-speciesyoungphotosNOTborrowed. Ridgwayisubpage500redirect; no newage/flightfacts. Calibrateexistingv5overdarkbreastshaftsonly.
 [Full research/prompt](species/96-aegolius-ridgwayi-v6.md). Scientifically false.
+
+## 20261125T0748Z-cycle5 94-pulsatrix-koeniswaldiana-v6
+New PKOE-MENQ-2018 — WillianMenq/AvesdeRapinaBrasil,Apr2018 https://avesderapinabrasil.com/pulsatrix_koeniswaldiana.htm actualDescription/SimilarSpecies/Habitat/youngcaptionread; adultdarkbrown/creamventrum,darkeyes,juvenilecreamdown/darkmask/darkiris. Noexplicitclawcolour, NOT crossvalidationofclawpalette. Expertsecondary/fieldsource, exactyoungage/flightunknown. Reused MIKKOLA-2013 actual313/PDF315 suppliesadultyellowishgreyclaws; preserveyoungfeet, no universalpalette. PawsTrailsPDF400large, nofreshpixels.
+[Full research/prompt](species/94-pulsatrix-koeniswaldiana-v6.md). Scientifically false.

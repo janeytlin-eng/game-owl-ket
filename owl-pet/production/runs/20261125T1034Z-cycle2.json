@@ -4,11 +4,18 @@
   "run_id": "20261125T1034Z-cycle2",
   "started_at": "2026-11-25T10:38:32.001Z",
   "status": "IN_PROGRESS",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-25T10:44:19.837Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-25T10:46:00.569Z",
+      "evidence": [
+        "owl-pet/production/generated/80-otus-sunia-v6-original.png"
+      ]
     }
   ],
   "id": "80-otus-sunia-v6",
@@ -17,5 +24,16 @@
   "scientifically_verified": false,
   "research_record": "owl-pet/research/species/80-otus-sunia-v6.md",
   "prompt": "Edit reference image 1, #80 Otus sunia v5, into sibling v6. Reference image 1 is the edit target and style/layout reference; reference image 2 is a species-identified older juvenile photograph from WBSJ Kyoto, morphological evidence only, never copy its photograph or scene. Preserve the photoreal documentary concept-plate style, adult male and female identities and plumage, three-owl composition, leafy Asian woodland, natural branch supports, top title ORIENTAL SCOPS OWL and italic Otus sunia. Correct only the center juvenile and the adults' exposed toe hue. The prior center was based on a Japanese Scops Owl source; replace it with a later feathered juvenile Oriental Scops Owl bounded by reference 2: rounded head without tall adult ear tufts, natural yellow irides as in that particular photographed bird (not a universal age rule), gray-brown soft finely barred throat and lower body, modest residual softness on head and breast, developed compact folded wings with visible darker flight feathers as appropriate to this later photographed stage, modest short tail. Do not keep an exaggerated wispy nestling halo, amber iris from the wrong-species source, or uniformly woolly body. Keep both feet naturally gripping and bearing weight on the existing living branch. Keep the center's overall placement; its displayed scale is composition, not an age/size measurement. Replace only center bottom label with AGE-UNKNOWN JUVENILE, retain ADULT MALE and ADULT FEMALE. Adult tarsi stay feathered to base of exposed grayish-brown toes with dark claws, removing pink saturated toe hue; do not alter adult size direction. No exact day, recent-fledging label, flight pose, active-nest assertion, new birds, extra toes or feathers. Adults near-equal height, female may remain slightly fuller; no forced female-larger rule.",
-  "source_summary": "New 4 source records below (Kyoto juvenile photograph; WBSJ current-name page; Tokyo Zoo semitorques mapping; Kahaku sunia specimen mapping), reused 3 (Mikkola p152/PDF154 freshly read, SUNIA-NO-2015 and SUNIA-ITIS-177882-2026 repository-only). Corrected 2 source species attributions: SUNIA-ASAHIYAMA-ZOO-2023 and SUNIA-ZUKAN-165925-2023 actually concern オオコノハズク / Otus semitorques; their #80 age/size/plumage support is withdrawn. Later feathered juvenile is photo-bounded; exact age, sex, subspecies, flight and size ratio unknown. Source事实 and design inference separated; scientific_verified=false."
+  "source_summary": "New 4 source records below (Kyoto juvenile photograph; WBSJ current-name page; Tokyo Zoo semitorques mapping; Kahaku sunia specimen mapping), reused 3 (Mikkola p152/PDF154 freshly read, SUNIA-NO-2015 and SUNIA-ITIS-177882-2026 repository-only). Corrected 2 source species attributions: SUNIA-ASAHIYAMA-ZOO-2023 and SUNIA-ZUKAN-165925-2023 actually concern オオコノハズク / Otus semitorques; their #80 age/size/plumage support is withdrawn. Later feathered juvenile is photo-bounded; exact age, sex, subspecies, flight and size ratio unknown. Source事实 and design inference separated; scientific_verified=false.",
+  "local_path": "/workspace/scratch/180c531d917a/owl-1034/80-otus-sunia-v6.png",
+  "bytes": 2953951,
+  "sha256": "d2e24d593131faf11a8402fdc10347c0f647d743e09c3f8866798e659f68ec0a",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "git_blob_sha": "9a3e992f3187df4ac1fdb7d139a7a1e0cc6bb2ba",
+  "original_blob": "9a3e992f3187df4ac1fdb7d139a7a1e0cc6bb2ba",
+  "original": "owl-pet/production/generated/80-otus-sunia-v6-original.png",
+  "generation_wait_seconds": 45.83
 }

@@ -7408,3 +7408,5 @@ ReusedWESO-USFS-GEHLBACH-STOLESON-2010-P512-518 freshPDF https://www.fs.usda.gov
 ## 2026-11-26 17-megascops-asio-v7
 EASO-TPWD-SPECIES-2026: TexasParksWildlife, EasternScreechOwl, undatedinstitutionalsynthesis https://tpwd.texas.gov/huntwild/wild/species/screech/ actualDescription/LifeHistoryread2026-11-26, morphnotsex/age,cavitynest,~4weekdeparture, notyoungfeatheratlas. ReuseduploadedMikkola2013printed207–208/PDF209–210 actualthinmesoptilebars. CornellIDfresh403 andSmith2003webfailure recorded, notnewbodyreads. Bodypatternrefinement only; recentfledglingformedwing/supportretained; exactage/flightthresholdunknown.
 [facts/prompt](species/17-megascops-asio-v7.md),[review](reviews/17-megascops-asio-v7-review.md),[version](../design/concepts/17-megascops-asio-v7.png).
+
+17-megascops-asio-v7 source-access correction: EASO-SMITH-DEVINE-2003-P98-103 publicPDF directGET recovered; printed101actuallyread (poorlandings/clinging/climbing/branchroosting). Webreaderfailureisnotfullsourcefailure. https://ctbirding.org/wp-content/uploads/2017/01/CTWarblerVolume23.pdf . No newsource, noexactageclaim; BlueJayarticleexcluded.

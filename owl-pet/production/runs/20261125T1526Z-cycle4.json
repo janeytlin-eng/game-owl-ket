@@ -6,8 +6,8 @@
   "species": "Bubo lacteus",
   "action": "REVISION",
   "started_at": "2026-11-25T15:41:12.653Z",
-  "status": "STARTED",
-  "stage": "IMAGE_GENERATED",
+  "status": "PARTIAL",
+  "stage": "REVIEWED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -18,6 +18,13 @@
       "at": "2026-11-25T15:43:48.639Z",
       "evidence": [
         "owl-pet/production/generated/55-bubo-lacteus-v6-original.png"
+      ]
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-25T15:45:53.039Z",
+      "evidence": [
+        "Actual full image and native adult-bill crop viewed; cream-horn adults corrected, juvenile bluegrey retained."
       ]
     }
   ],
@@ -34,5 +41,18 @@
   "local_path": "/workspace/scratch/180c531d917a/owl-1526/55-bubo-lacteus-v6.png",
   "original_blob": "17f1c29b0364fad5b5ec84ed37a067f382e34a29",
   "original": "owl-pet/production/generated/55-bubo-lacteus-v6-original.png",
-  "generation_wait_seconds": 49.636
+  "generation_wait_seconds": 49.636,
+  "failure": {
+    "step": "ARCHIVED / main ref update",
+    "errors": [
+      "ReadTimeout on first archive attempt",
+      "create_blob internal MCP -32603",
+      "update_ref GithubGraphQLAPIError request 95BE:1DC27D:A9C7115:FAA645D:6B0702FD at 2026-11-25T15:47:10Z",
+      "create_file internal MCP -32603"
+    ],
+    "unpublished_commit": "fe581d4fc6ee5d113d1003a0082d31a93e0d5440",
+    "confirmed_main": "13b4eb5ca139ff2971fbecd5eb8c1763be75dd37",
+    "next_step": "Reconcile latest main, reuse original blob 17f1c29b0364fad5b5ec84ed37a067f382e34a29; complete concept/review/manifest/lessons archive and byte/text readback before ledger credit; do not regenerate."
+  },
+  "ended_at": "2026-11-25T15:51:07.293Z"
 }

@@ -4,7 +4,7 @@
   "run_id": "20261125T0332Z-cycle2",
   "started_at": "2026-11-25T03:38:00.608Z",
   "status": "IN_PROGRESS",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -14,6 +14,14 @@
         "owl-pet/research/SOURCE_INDEX.md",
         "owl-pet/research/species/20261125T0332Z-cycle2-research.md"
       ]
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-25T03:46:26.977Z",
+      "evidence": [
+        "owl-pet/production/generated/110-megascops-barbarus-v6-original.png"
+      ],
+      "generation_wait_seconds": 49.423
     }
   ],
   "notes": "Incremental research/audit; noimage/cyclecredityet",
@@ -27,5 +35,8 @@
     "reused": 2,
     "corrected": 1,
     "note": "Owling and ITIS newindexrecords; guide and Ubaid reused; Ubaid bibliographic/link correction; not newpublication"
-  }
+  },
+  "generation_wait_seconds": 49.423,
+  "original": "owl-pet/production/generated/110-megascops-barbarus-v6-original.png",
+  "original_blob": "98e34399e30261dfbccb3dc3753ea11a1d87b943"
 }

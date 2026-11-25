@@ -3,7 +3,34 @@
   "cycle": 1,
   "run_id": "20261125T0748Z-cycle1",
   "started_at": "2026-11-25T07:47:58.980Z",
-  "status": "STARTED",
-  "stage": "STARTED",
-  "stages": []
+  "status": "PARTIAL",
+  "stage": "RESEARCH_READY",
+  "stages": [
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-25T07:51:24.818Z",
+      "evidence": [
+        "owl-pet/research/species/100-strix-huhula-v6.md",
+        "owl-pet/research/SOURCE_INDEX.md"
+      ]
+    }
+  ],
+  "id": "100-strix-huhula-v6",
+  "species": "Strix huhula",
+  "action": "ADULT_CLAW_PALETTE_REVISION_PLANNED",
+  "research_record": "owl-pet/research/species/100-strix-huhula-v6.md",
+  "prompt": "Use case: precise-object-edit. Edit target #100 Black-banded Owl Strix huhula v5, established landscape1536x1024 tactile naturalistic plate. Change ONLY CLAW COLOUR on the two ADULT birds left and right: pale warm horn over most of each claw, retaining darker distal tips and natural contact shadows. No bright white claws, no change to claw length, curvature, toe scale, number or grip. Keep adult bare ochre toes and black-white feathered tarsi unchanged. Do NOT recolour nest young claws from adult evidence. Preserve all three birds, exact existing title '100 · BLACK-BANDED OWL · Strix huhula', labels 'ADULT MALE' / 'NEST YOUNG' / 'ADULT FEMALE', adult dark brown eyes/yellow bills/round untufted heads/fine narrow pale bars/near-equal adult scale, pale-grey dominant young down with black horizontal bars and black heart mask with white border/yellow bill/compact soft wing/concealed tail/standing on supported fork. Preserve documented Atlantic-forest epiphytic angico fork context as one recorded nest case, all feet supported. No exact hatch age, no flight, no fixed female-larger ratio, no eggs, prey, extra birds, watermark, extra text. This is an adult-claw-palette edit only, not scientific approval.",
+  "source_counts": {
+    "new": 1,
+    "reused_publication": 1,
+    "prior_stage_records": 2
+  },
+  "ended_at": "2026-11-25T07:51:24.818Z",
+  "block": {
+    "type": "OBSERVED_IMAGE_OUTPUT_LIMIT",
+    "message": "Code Mode session output limit reached: discarded 1 images",
+    "affected_preview": "103-tyto-longimembris-v5.png",
+    "no_generation_attempted": true
+  },
+  "next_step": "Reuse RESEARCH_READY; imagegen adult claw palette edit and actual viewing then archive/verify. Cycle1 stays uncredited."
 }

@@ -7,3 +7,6 @@ Reservednumber227; noimage/nouniquecredit. Accessed2026-11-23.
 Repeatedjuvenile/fledgling/oldnamekeywordsfoundnoverifiedyoungimage; searchleadsLePet/MyBirdBuddyestimatedgenericbreedingdataNOTUSED; Youngsurname searchfalsepositive. Needreliablephotostage/primarydescriptionbeforetriptych.
 ## Deferredrelatedcandidate
 Tyto detorta consideredbutcurrentT.albasubspeciesrankvaries; no251rosterreconciliation, notcredited.
+
+## 2026-11-25 additional primary thesis search
+OCAP-MMADI-2012-P10-11 actually read; no verified juvenile appearance recovered in inspected title/abstract/Description/Ecology sections; figure5 only pair metadata, no pixel-view claim. New juvenile searches/current and oldname leads remain unverified. Deferred unchanged; no new image/speciescredit. Details SOURCE_INDEX.

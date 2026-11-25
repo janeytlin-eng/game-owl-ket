@@ -3,7 +3,7 @@
   "cycle": 3,
   "run_id": "20261125T1240Z-cycle3",
   "started_at": "2026-11-25T12:45:04.718Z",
-  "status": "STARTED",
+  "status": "PARTIAL",
   "stage": "ARCHIVED",
   "stages": [
     {
@@ -42,5 +42,16 @@
   "original_blob": "1397a60c8be72a0b0712ca59b7c76567052a3bae",
   "original": "owl-pet/production/generated/65-tyto-soumagnei-v6-original.png",
   "concept": "owl-pet/design/concepts/65-tyto-soumagnei-v6.png",
-  "review_record": "owl-pet/research/reviews/65-tyto-soumagnei-v6-review.md"
+  "review_record": "owl-pet/research/reviews/65-tyto-soumagnei-v6-review.md",
+  "archive_commit": "8508e2305883d96b3c5e4a317094a5b165af3515",
+  "paused_at": "2026-11-25T12:49:36.029Z",
+  "blocked_step": "VERIFIED: immutable remote PNG GET/full-byte hash/decode",
+  "errors": [
+    {
+      "step": "VERIFIED: immutable remote PNG GET/full-byte hash/decode",
+      "error": "write_stdin failed: Unified exec process failed: network approval was cancelled before a decision was returned",
+      "recovery": "Connector fetch_blob attempted for original SHA; fails UnicodeDecodeError UTF-8 byte0x89. Tree path/blob/size tuple passes, but not a substitute for remote bytes/fullPNGdecode. No cycle credit."
+    }
+  ],
+  "next_action": "Resume same batch cycle3 from ARCHIVED, recover immutable original and verify bytes/hash/fullPNGdecode; do not regenerate or duplicate archive."
 }

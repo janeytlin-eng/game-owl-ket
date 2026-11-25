@@ -4,7 +4,7 @@
   "run_id": "20261125T0748Z-cycle1",
   "started_at": "2026-11-25T07:47:58.980Z",
   "status": "IN_PROGRESS",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -12,6 +12,13 @@
       "evidence": [
         "owl-pet/research/species/100-strix-huhula-v6.md",
         "owl-pet/research/SOURCE_INDEX.md"
+      ]
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-25T08:34:45.957Z",
+      "evidence": [
+        "owl-pet/production/generated/100-strix-huhula-v6-original.png"
       ]
     }
   ],
@@ -40,5 +47,16 @@
       "from_stage": "RESEARCH_READY",
       "reason": "Resume persisted RESEARCH_READY, no later image/version; no repeat research/generation."
     }
-  ]
+  ],
+  "local_path": "/workspace/scratch/180c531d917a/owl-0832/100-strix-huhula-v6.png",
+  "bytes": 3258028,
+  "sha256": "9b8b86d6004ad9b44632d8b975d513cd1621f9ac78ab8d011ce671b787561975",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "git_blob_sha": "84c849917e09aebfb819c3f18f00385753a99c1d",
+  "original_blob": "84c849917e09aebfb819c3f18f00385753a99c1d",
+  "original": "owl-pet/production/generated/100-strix-huhula-v6-original.png",
+  "generation_wait_seconds": 36.823
 }

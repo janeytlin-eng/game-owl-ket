@@ -3,7 +3,7 @@
   "cycle": 1,
   "run_id": "20261125T0748Z-cycle1",
   "started_at": "2026-11-25T07:47:58.980Z",
-  "status": "PARTIAL",
+  "status": "IN_PROGRESS",
   "stage": "RESEARCH_READY",
   "stages": [
     {
@@ -32,5 +32,13 @@
     "affected_preview": "103-tyto-longimembris-v5.png",
     "no_generation_attempted": true
   },
-  "next_step": "Reuse RESEARCH_READY; imagegen adult claw palette edit and actual viewing then archive/verify. Cycle1 stays uncredited."
+  "next_step": "Reuse RESEARCH_READY; imagegen adult claw palette edit and actual viewing then archive/verify. Cycle1 stays uncredited.",
+  "recoveries": [
+    {
+      "at": "2026-11-25T08:32:33.432Z",
+      "head_checked": "4f439f1544aecde53767fdaa072a552990ea7c43",
+      "from_stage": "RESEARCH_READY",
+      "reason": "Resume persisted RESEARCH_READY, no later image/version; no repeat research/generation."
+    }
+  ]
 }

@@ -3,8 +3,8 @@
   "cycle": 2,
   "run_id": "20261125T0640Z-cycle2",
   "started_at": "2026-11-25T06:43:30.325Z",
-  "status": "STARTED",
-  "stage": "ARCHIVED",
+  "status": "VERIFIED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -34,6 +34,14 @@
       "evidence": [
         "owl-pet/design/concepts/134-megascops-sanctaecatarinae-v6.png"
       ]
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-25T06:47:43.992Z",
+      "evidence": [
+        "a0db04d99e8565d0cdbc1b38541727f371157c93",
+        "owl-pet/design/concepts/134-megascops-sanctaecatarinae-v6.png"
+      ]
     }
   ],
   "id": "134-megascops-sanctaecatarinae-v6",
@@ -58,5 +66,14 @@
   "generation_wait_seconds": 53.811,
   "concept": "owl-pet/design/concepts/134-megascops-sanctaecatarinae-v6.png",
   "review_record": "owl-pet/research/reviews/134-megascops-sanctaecatarinae-v6-review.md",
-  "scientifically_verified": false
+  "scientifically_verified": false,
+  "ended_at": "2026-11-25T06:47:43.992Z",
+  "archive_commit": "a0db04d99e8565d0cdbc1b38541727f371157c93",
+  "verification": {
+    "at": "2026-11-25T06:47:43.992Z",
+    "remote_bytes": 2996655,
+    "SHA256": "b8fee5fa40560676132552c5282e6005c4fd042337fc4a098f074c53d7ddfb96",
+    "fullPNGdecode": "PASS",
+    "research_index_readback": "PASS"
+  }
 }

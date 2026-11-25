@@ -3,8 +3,8 @@
   "cycle": 6,
   "run_id": "20261125T0230Z-cycle6",
   "started_at": "2026-11-25T02:42:05.534Z",
-  "status": "IN_PROGRESS",
-  "stage": "IMAGE_GENERATED",
+  "status": "ARCHIVED_VERIFICATION_PENDING",
+  "stage": "ARCHIVED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -15,6 +15,17 @@
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-25T02:48:33.846Z",
       "evidence": "owl-pet/production/generated/97-lophostrix-cristata-v6-original.png"
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-25T02:49:26.213Z",
+      "evidence": "owl-pet/research/reviews/97-lophostrix-cristata-v6-review.md"
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-25T02:49:26.213Z",
+      "evidence": "owl-pet/design/concepts/97-lophostrix-cristata-v6.png",
+      "verification_pending": true
     }
   ],
   "baseline_unique_species": 206,
@@ -33,6 +44,15 @@
   "generation_wait_seconds": 94.8,
   "image": {
     "path": "owl-pet/design/concepts/97-lophostrix-cristata-v6.png",
-    "blob_sha": "53ee2ed702b75c528e1280e54537df9eec16656c"
-  }
+    "blob_sha": "53ee2ed702b75c528e1280e54537df9eec16656c",
+    "bytes": 2767971,
+    "sha256": "dbb56d812433e4b4bcb39f9e3ea02f22606e4d13555ba560b0d7cd2a560b126d",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "mode": "RGB"
+  },
+  "review_record": "owl-pet/research/reviews/97-lophostrix-cristata-v6-review.md",
+  "review_result": "PASS_WITH_LIMITATIONS"
 }

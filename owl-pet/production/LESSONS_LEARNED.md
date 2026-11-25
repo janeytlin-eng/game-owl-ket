@@ -81,3 +81,10 @@ undefined
 - 缺失种Palawan O.fuliginosus：原始Sharpe1888p197诊断OCR实际读到，未写年龄；类型为幼鸟的搜索说法未核验。保持研究待办，[缺口记录](../research/species/otus-fuliginosus-20261124-evidence-gap.md)，不计物种完成。
 - **归档运行恢复已实际应用。** 第6轮functions临时store丢失，保留在磁盘的同一PNG通过分块读取恢复，检查截断/完整长度后上传；不可把重建临时变量算作重画/新图。远端不可变提交原图解码+SHA256验证通过，未取得平台超时遥测。原图checkpoint/最终版均在GitHub，不把scratch当持久保存。
 - 复查和局限逐物种见[本批六轮入口](batches/20261124T0112Z-completed-review.md)。这不是全251种整批最终科学审查。
+
+
+## 2026-11-25 — actual cycles5–6 resumed / local morphology and source traps
+- #73v6: guidep448 proximaltoe feather boundary omitted from oldprompt. Fine adult proximaltoe feathers added; distalbare scales/claws remain; full+footcrop actually viewed. Applied/visually verified for oneplate, primary-photo corroboration stillunknown. No globalNinox rule. #63fullviewbaretarsi/toesalreadycorrect, #96guidep446 sparsebristlescorrect, #93fullviewbaretoescorrect; do not generalize by genus.
+- #97v6: genericbarredtail caused wide brightregularbands. Wetmorep158–159 specifies narrowbars, lesscentral/tip; guidep358 fine mottling not permission to remove ventralbars. V6thin/subduedbars full+comparisoncrop actuallychecked. Width remainsqualitativedesignchoice; no broadsciencepass.
+- Existing sourceURLs must be title/pagechecked: HAR-UBAID-ETAL-2012-BHL /40855939 actuallyresolves1931–34SouthAfricanMuseum, not2012BBOC. QuarantinecitationURL pendingcorrectcopy, preservehistory. A searchhit/audiolabel/thumbnail/placeholder is not readphoto. M.Dahlem205bytecaptcha rejected; RiddelllocalPDF403 althoughwebbodyread works. No screenshot-pixel claim.
+- Screening Otusbeccarii actual2023account+guidep193 stillgave noyoungappearance, existing#224hasaudioonly/unresolvedtaxonomy; no new species manufactured. Unverified searchleads not sourcecounts. Researchnoimage doesnotcreditcycle. Related actual [#73](../research/reviews/73-ninox-rufa-v6-review.md) / [#97](../research/reviews/97-lophostrix-cristata-v6-review.md).

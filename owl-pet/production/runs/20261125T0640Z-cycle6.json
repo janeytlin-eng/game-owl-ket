@@ -3,8 +3,8 @@
   "cycle": 6,
   "run_id": "20261125T0640Z-cycle6",
   "started_at": "2026-11-25T07:00:55.235Z",
-  "status": "IN_PROGRESS",
-  "stage": "ARCHIVED",
+  "status": "VERIFIED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "RESEARCH_READY",
@@ -35,6 +35,14 @@
       "stage": "ARCHIVED",
       "at": "2026-11-25T07:46:46.493Z",
       "evidence": [
+        "owl-pet/design/concepts/106-strix-albitarsis-v5.png"
+      ]
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-25T07:47:25.871Z",
+      "evidence": [
+        "a2119bdb130f9f732bd585175baa009bc3d8004e",
         "owl-pet/design/concepts/106-strix-albitarsis-v5.png"
       ]
     }
@@ -69,5 +77,14 @@
   "generation_wait_seconds": 37.304,
   "concept": "owl-pet/design/concepts/106-strix-albitarsis-v5.png",
   "review_record": "owl-pet/research/reviews/106-strix-albitarsis-v5-review.md",
-  "scientifically_verified": false
+  "scientifically_verified": false,
+  "ended_at": "2026-11-25T07:47:25.871Z",
+  "archive_commit": "a2119bdb130f9f732bd585175baa009bc3d8004e",
+  "verification": {
+    "at": "2026-11-25T07:47:25.871Z",
+    "remote_bytes": 3149308,
+    "SHA256": "5c1aed2fca45bd8d1d98085618678664319d6875b0a9217e86bbe46ad3570247",
+    "fullPNGdecode": "PASS",
+    "research_index_readback": "PASS"
+  }
 }

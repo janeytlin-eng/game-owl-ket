@@ -7127,3 +7127,6 @@ New0/reused2 factual evidence: guide448/PDF450 and primaryRiddell2021PDF bodyfre
 ## 20261125T1144Z-cycle5 66-tyto-capensis-v6
 New1 AGO-OWLPAGES-2020 adultDescription(URLspecies210,DeaneLewis2020-11-12), reused4 Mikkola104/PDF106/BLSA2025/2priorprimaryrecords. Remove broadbuffadultmantlecoverts, retaindistinctflightfeatherbars, femaleplausiblewarmface andexistingolderyoung. BLSAcurrentpageyoungfactsnotfreshlyexposed, priorreadingonly; sciencefalse.
 [Research/full prompt](species/66-tyto-capensis-v6.md). Sciencefalse.
+
+### AGO-OWLPAGES-2020
+DeaneLewis, AfricanGrassOwl Tyto capensis speciesaccount, updated2020-11-12. https://www.owlpages.com/owls/species.php?s=210 Access2026-11-25, actualDescription58–60bodyread; specialistsecondary/bookderived, notindependentprimary. Adultcrown/mantle/covertssootyblackishbrown finewhitepoints/greyflecks; distinguishpalerbarredflightfeathers. Qualitativeregionpattern, noquantitativecolor/density oryoungchronology. AppliesadultAfricanT.capensis, notT.longimembris. [v6research/fullprompt](species/66-tyto-capensis-v6.md), [review](reviews/66-tyto-capensis-v6-review.md), [concept](../design/concepts/66-tyto-capensis-v6.png). Topicmapping Tyto capensis/adultdorsalfeatherregions/AGO-OWLPAGES-2020. Historicaldiagnosis andprimarylimits preserved.

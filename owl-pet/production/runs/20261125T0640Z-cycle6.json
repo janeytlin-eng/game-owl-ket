@@ -5,5 +5,12 @@
   "started_at": "2026-11-25T07:00:55.235Z",
   "status": "STARTED",
   "stage": "STARTED",
-  "stages": []
+  "stages": [],
+  "recoveries": [
+    {
+      "at": "2026-11-25T07:36:40.906Z",
+      "head_checked": "fb05faaf2b5cbfe36016ea07f7d1feff0ba0afc6",
+      "reason": "Leaseexpired, mainhasnoimage/researchafterSTARTED. Resume samecycle; prioritizeunmade-speciesevidence."
+    }
+  ]
 }

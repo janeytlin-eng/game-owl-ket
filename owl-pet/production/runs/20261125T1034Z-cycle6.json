@@ -5,5 +5,16 @@
   "started_at": "2026-11-25T10:58:27.184Z",
   "status": "STARTED",
   "stage": "STARTED",
-  "stages": []
+  "stages": [],
+  "resumed_at": "2026-11-25T11:36:55.458Z",
+  "recovery": {
+    "previous_lease": {
+      "owner": "20261125T1034Z-production",
+      "run_id": "20261125T1034Z-cycle6",
+      "heartbeat_at": "2026-11-25T10:58:27.184Z",
+      "expires_at": "2026-11-25T11:13:32.054Z"
+    },
+    "head_checked": "85a15ae89c53a1cf6e2a0fc10d1b15a1ffb9fe33",
+    "reason": "Prior production interrupted by read-only instruction. Only STARTED persisted, no archive after85a15ae. Resume same cycle."
+  }
 }

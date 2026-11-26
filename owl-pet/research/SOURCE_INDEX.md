@@ -7708,3 +7708,7 @@ New0/reuse2. Guideadulttoeplumage/skincolourvsactualpinkbarev6; datedyoungbalanc
 
 ### 2026-11-26 46-strix-ocellata-v7
 New0/reuse3. Externaloriginalspecialistaccount reread, guideprinted324freshread; primaryabstract historicalreuseexplicit. v7annotation-only source-sampleage vsdrawnindividualunmeasured; no morphology-improvement claim. [facts/full prompt](species/46-strix-ocellata-v7.md).
+
+
+### 2026-11-26 48-strix-nivicolum-v7
+新增0、复用2来源；本子轮重新读取台湾博物馆正文及上传Mikkola印刷329/PDF331。实际发现v6成年喙偏饱和金橙，按台湾yellow-green及旧广义处理yellowish-grey作有限色相修订；不再重复已有幼鸟免责声明，不宣称科学通过。 [facts/full prompt](species/48-strix-nivicolum-v7.md).

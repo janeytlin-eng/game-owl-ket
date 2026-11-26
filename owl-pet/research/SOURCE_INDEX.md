@@ -7887,3 +7887,7 @@ Access2026-11-27 Asia/Shanghai. Preserve all earlier entries/history. Per-cycle 
 |Ninox japonica 92v7|JAP-LIN-LIN-TSENG-2012-PP164-166; JAP-TAIEOL2013; JAP-MIK2013-466 / WHSO-MIKKOLA-2013|Primaryp165–166/Table3, Taiwaninstitutiondescription73; guidep466/PDF468. Taiwanoverlap notglobalRSD, nestperiod notpicturedage. [research](species/92-ninox-japonica-v7.md) [review](reviews/92-ninox-japonica-v7-review.md)|
 
 All primary URLs/author/year/limitations and exact full prompts preserved in corresponding research records and earlier canonical entries; old taxon mappings retained. New1 / reused15 citations (10 distinct documents, guide dedup6uses→1book) / corrections2 entries / central restoration1 existing source. Two failed85texture outputs are attempts, not extra species or successful scientific fixes.
+
+
+## 2026-11-27 run2030 reuse 85-otus-semitorques-v9
+SourceIDs: SEM-NOHARA-HONDA-2025-P75-78, WHSO-MIKKOLA-2013; new0, reuse2. Freshread facts/pages/limitations/fullprompt: [research](species/85-otus-semitorques-v9.md); [review](reviews/85-otus-semitorques-v9-review.md). No duplicate source counted.

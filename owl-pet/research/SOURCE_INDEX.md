@@ -7750,3 +7750,7 @@ Correction 20261126T1427Z: preceding52v7 tail-revision entry is a REJECTED dupli
 
 
 #51v8 source accounting: new RLO-MMA-RCE-2015, ChileMMA2015-12-01 originalPDF pp1–2/4 read; oldsynonyms/forestfacts useful, strongsexcolourstatement conflicts with guide pale-malephoto so no universal sexcolour rule. URL https://clasificacionespecies.mma.gob.cl/wp-content/uploads/2019/10/Strix_rufipes_12RCE_FIN.pdf . Full limits [51v8](species/51-strix-rufipes-v8.md). New1/reuse3; photographicreadingupgrade1.
+
+
+### 2026-11-26 59-ketupa-zeylonensis-v7
+新增0/复用3，图鉴298/PDF300与HK物种专页、KFBG原始观察正文实际重读；v7成年细波状交叉横斑修订，不把#60/#61无横斑规则套入；既有较大幼鸟和裸腿保留。 [facts/fullprompt](species/59-ketupa-zeylonensis-v7.md).

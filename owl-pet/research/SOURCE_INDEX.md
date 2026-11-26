@@ -7794,3 +7794,7 @@ New0/reuse2 primaryActaResults48fewgrass/twigs/groundpalm andguide510freshlyread
 
 ### 2026-11-27 77-asio-stygius-v7
 New0/reuse2 STY-CADENA-ORTIZ-2018-P23-25-F2-T3 originalp23Table3 andp24Fig2caption, guidep502freshread. Sourceobservationdatesnothatchage; annotationonly, nofootfeathering/generalizedjuvenilewingchange. [Fullsources/limits/prompt](species/77-asio-stygius-v7.md).
+
+
+## 2026-11-27 #78 Asio capensis v7
+New0/reused3: WHSO-MIKKOLA-2013 printed518/PDF520 Identification/Juvenile freshly read; MARSH-OWLPAGES-2020 Description64–68/Breeding77–79 external body; MAR-ANSARA-ROSS-2008 publisher abstract38–41 only, no new full-paper claim. Adult periocular color localized; no juvenile age inference or sex height ratio. [Facts/limits/full prompt](species/78-asio-capensis-v7.md). Source facts vs design inference explicit; no new stable ID duplication.

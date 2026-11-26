@@ -4,7 +4,7 @@
   "owner": "20261126T1030Z",
   "run_id": "20261126T0945Z-cycle3-resume1030Z",
   "started_at": "2026-11-26T10:31:32.078Z",
-  "stage": "REVIEWED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "STARTED",
@@ -25,6 +25,16 @@
       "stage": "REVIEWED",
       "at": "2026-11-26T10:33:57.618Z",
       "evidence": "Actualv6/newv7full+footer viewed. Old neat raised woodchip ring removed, now irregular solidcavityfloor with few flatwoodbits, youngfeet/belly supported nofloating. Down/tinybloodquills/notail/eyeopening andwholeadults preserved. Ageunknown/sciencepending andfeathermap/geometry/eyeopeninglimits legible. Primaryp37 supports unlinedwoodbits; exactfloorgeometry/renderedage notquantitativelycalibrated. PASS_WITH_LIMITATIONS/sciencefalse. Nestcup rule from#21 actuallyapplied here afterspecies-specific primarybodycheck; visuallyeffectivehere, not proofallcavityowlssame. Primaryp44 locatorcorrectedPDF10."
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-26T10:34:14.410Z",
+      "commit_sha": "62ace19086d867f6b40a164f7d015fe42696dbe8"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-26T10:34:14.410Z",
+      "evidence": "originals VERIFIED 2651287\nconcepts VERIFIED 2651287\n; localGitblobmatched/researchreviewimmutable readback"
     }
   ],
   "scientifically_verified": false,
@@ -40,5 +50,7 @@
     ],
     "b64len": 3535052
   },
-  "generation_seconds": 41.135
+  "generation_seconds": 41.135,
+  "ended_at": "2026-11-26T10:34:14.410Z",
+  "archive_commit": "62ace19086d867f6b40a164f7d015fe42696dbe8"
 }

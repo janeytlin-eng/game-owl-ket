@@ -4,7 +4,7 @@
   "owner": "20261126T1630Z",
   "run_id": "20261126T1630Z-B2-cycle1-resume1630Z",
   "started_at": "2026-11-26T16:41:41.100Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,8 +14,20 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T16:41:47.516Z",
       "evidence": "Actualv6opened: stageACTIVEDEPENDENTJUVENILE no explicitageunknown/sciencepending inexport. No freshmorphologyerror; addmissingdisclosurewithoutclaimingfeathercalibration."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T16:42:55.042Z",
+      "blob": "b3e11a5ced1a0bcdbbe15e78891a8b1c0a488b85"
     }
   ],
   "errors": [],
-  "target": "75-ninox-scutulata-v7"
+  "target": "75-ninox-scutulata-v7",
+  "meta": {
+    "bytes": 2691594,
+    "sha256": "50f49f820691b4d140ad691da00f4f85f5522f0b9ec20122cd130237a5b1b1f4",
+    "gitblob": "b3e11a5ced1a0bcdbbe15e78891a8b1c0a488b85",
+    "b64len": 3588792
+  },
+  "imagegen_edit_wait_seconds": 36.29
 }

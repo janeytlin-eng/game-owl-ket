@@ -14,11 +14,29 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T21:34:14.011Z",
       "prompt": "Use case: stylized-concept. Create a NEW complete1536x1024 polished naturalistic owl-pet family plate number95 BAND-BELLIED OWL, subtitle Pulsatrix melanota. Image1 adult-only source gives SPECIES/STYLE, no prior generated juvenile is supplied. Image2 is only same-species photographic upper-body DOWN-TEXTURE reference from Mikkola2013p314, an OLDER young: borrow natural directional soft feather texture only, NOT its fully formed wings/tail/phase. Three birds in PeruYungas shade-coffee/plantain remnant forest, on broad mossy Albizia fork (natural substrate, notliteralactive nest). Left adult male/rightadultfemale nearlysameheight (unknownsexratio), darkbrownheads/backs, darkreddish-browneyes, pale yellow bills/greyishcere, white broad spectacles/throat/half-collar, broadbrownchestband, reddish-brown bars oncreamyventrum, featheredtarsi/baregrey-browntoes/hornclawsblacktips, twofootgrips. Center AGE-UNKNOWN DEPENDENT YOUNG: primarily soft CINNAMON down, mottled patchy creamwhite crown transition/darkblackish face/darkbrowneyes/yellowbill, a few tiny emerging chestfeathers but no adult barredbib. Dense softly blended short fine down with gentle directional flecks and subtle irregularclumps, not long curledwires/closedloops/woolringlets or repetitive scallops. Short developing foldedwings largelyveiledbydown, concealedshorttail, low relaxedside-lookingcrouch, BOTH feet andbelly naturally supported by broadfork. Primary2022textsupports thiswhitecrown/cinnamonphase, photographtextureonly doesNOTjustifyadultlengthwings. Exactly3fullowls, allfeet onwood/no duplicateanatomy orartificialnestbowl. Warm naturalisticpetconceptstyleasimage1. REQUIRED first-render labels at bottom y920: ADULT MALE underleft, AGE-UNKNOWN DEPENDENT YOUNG undercenter, ADULT FEMALE underright. Smallerfooter y985 'CONCEPT — SCIENTIFIC REVIEW PENDING; AGE / FIRST FLIGHT / SEX RATIO UNVERIFIED'. Title95/species clear, no other ages or sex ratio claims."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T21:35:34.617Z",
+      "attempt": 1,
+      "meta": {
+        "bytes": 2957967,
+        "sha256": "ea297c8fbf6f6e26905a28d0e52b70b85568b5137d9ddce9baeb652e626cf6f6",
+        "b64len": 3943956,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "db3e41fcb15a4c8d2b2a2cafd3d586238a2eca2d"
+      },
+      "wait_seconds": 30.015,
+      "review": "Downlessrepeatedloops, but unrequestedgoldornament/labelboxes; stylecorrectionneeded"
     }
   ],
   "target": "95-pulsatrix-melanota-v8",
   "errors": [
-    "Fig3image404; correctedURL403; RGoriginalPDF403; publisher503/nonaccessible; no actualFig3pixelsclaim"
+    "Fig3image404; correctedURL403; RGoriginalPDF403; publisher503/nonaccessible; no actualFig3pixelsclaim",
+    "First fresh generation invented gold rules and boxed rolelabels"
   ],
   "source_new": 0,
   "source_reuse": 2,
@@ -26,5 +44,6 @@
   "source_ids": [
     "MEL-RIVAS-FUENZALIDA-BURGOS-2022-84-88",
     "WHSO-MIKKOLA-2013"
-  ]
+  ],
+  "first_imagegen_wait_seconds": 30.015
 }

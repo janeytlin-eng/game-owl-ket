@@ -14,14 +14,40 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T21:43:08.218Z",
       "prompt": "Precise edit of #97 Lophostrix cristata v6. On BOTH ADULT chest/belly underparts only, soften current dark thick close-packed zigzag bands into much finer faint irregular brown vermiculations over pale brown; retain subtle natural mottling, no bold black ladder bars, no dark vertical shaft stripes. Source Mikkola2013p358 brown morph pale brownish below upper breast with faint brown vermiculations and unstreaked underparts. Do NOT change correctly narrowed adult TAIL bars from v6, nor wing bars, facialdisc/long white ear plumes/dark orangebrown eyes/yellowhorn bills/feet/near-equalheight. CENTRAL young entirely unchanged: its fine down, whitebody/darkrufousface/shorttufts/formedfoldedbrownwings and low twofoot branchsupport not new anatomy. No forced femaleheight. Text-only also replace center label OLDER JUVENILE with AGE-UNKNOWN DEPENDENT YOUNG, and bottom locality line with small cream serif footer 'Humid lowland forest · CONCEPT — SCIENTIFIC REVIEW PENDING; AGE / FIRST FLIGHT / SEX RATIO UNVERIFIED'. Keep number97/title/current scientificname/adultlabels; same warm naturalistic style and jungle/background/three birds/support. No borders, boxes, gold rules or other decorations."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T21:44:17.417Z",
+      "attempt": 1,
+      "meta": {
+        "bytes": 2618430,
+        "sha256": "43f68599248fa73d2f3ce36bd6805abc2329b4c6567648aa219822adef60f65a",
+        "b64len": 3491240,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "f215570da50dfe4132683ba385979de5ae959504"
+      },
+      "wait_seconds": 41.52,
+      "review": "First underbody edit spread pale fill to adult upperbreast; Mikkola p358 requires dark chocolate neck/upperbreast"
+    },
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-26T21:44:17.417Z",
+      "attempt": 2,
+      "prompt": "Local correction of #97 firstedit: BOTH ADULTS must retain a DARK CHOCOLATE-BROWN NECK AND UPPER BREAST below the face, with small dull yellowish throat area, as Mikkola2013p358. Deepen ONLY adult upper-breast/neck feather colour into dark chocolate-brown, softly merging at mid-chest into the already improved PALE BROWN LOWER BREAST/BELLY with faint fine vermiculations. Do not spread pale tan up to throat, do not turn entire belly dark, do not restore bold black bars on lowerunderparts. Preserve all tails, wing pattern, heads/whiteplumes/eyes/bills, feet/support, centralyoung entirely, every existing correctedlabel/footer/background/composition. No other changes."
     }
   ],
   "target": "97-lophostrix-cristata-v7",
-  "errors": [],
+  "errors": [
+    "First underbody edit spread pale fill to adult upperbreast; Mikkola p358 requires dark chocolate neck/upperbreast"
+  ],
   "source_new": 0,
   "source_reuse": 2,
   "source_ids": [
     "CRI-MIK2013-358",
     "CRI-BIRDS-BOLIVIA-2026"
-  ]
+  ],
+  "first_imagegen_wait_seconds": 41.52
 }

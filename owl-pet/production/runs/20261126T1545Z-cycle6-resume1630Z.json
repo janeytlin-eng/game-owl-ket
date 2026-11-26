@@ -4,7 +4,7 @@
   "owner": "20261126T1630Z",
   "run_id": "20261126T1545Z-cycle6-resume1630Z",
   "started_at": "2026-11-26T16:38:45.113Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,8 +14,20 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T16:38:51.780Z",
       "evidence": "Actualv7fullviewed. Scientificpendingfooter present, but centralRECENTFLEDGLING failsdiscloseunmeasuredage/firstflight. Source39daysonebird differs NZBO~7weeks; no false morphologicalcorrection orbodyratiofix. Exactunknownlabels only."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T16:40:06.872Z",
+      "blob": "4181b7fca0dec9271509af84e495cdf321d7d5dd"
     }
   ],
   "errors": [],
-  "target": "74-ninox-novaeseelandiae-v8"
+  "target": "74-ninox-novaeseelandiae-v8",
+  "meta": {
+    "bytes": 2778033,
+    "sha256": "6911d69ab2ed754d8e968ae4177db15d450736dd4d07f98cb82b7b33b79f269b",
+    "gitblob": "4181b7fca0dec9271509af84e495cdf321d7d5dd",
+    "b64len": 3704044
+  },
+  "imagegen_edit_wait_seconds": 38.37
 }

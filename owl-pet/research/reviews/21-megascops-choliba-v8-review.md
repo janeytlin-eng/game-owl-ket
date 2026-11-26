@@ -1,0 +1,2 @@
+# 21-megascops-choliba-v8
+Actualv7/newv8 full+footercrop viewed. Sparsebark flat solidfloor retained (no wovenrim), juvenile formedfoldedremiges/yelloweyes/mesoptilebars/feet contact all retained, adults unchanged; ageunknownnestling/sciencepending/generalizedcavity limits legible. Primary hatchdatedseries supports reference18–20d but artworknotknownindividual; generictrunknot claimedstudyAstrocaryum. PASS_WITH_LIMITATIONS annotationonly/sciencefalse. Maintain actualformedflightfeathers, no blanket youngwing removal.

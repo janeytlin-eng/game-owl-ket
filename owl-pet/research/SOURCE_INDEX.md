@@ -7661,3 +7661,7 @@ New0/reuse2 freshguide+primaryPDF23/24 and actualpagephotopixels. #34v7 adult br
 
 ### 2026-11-26 35-glaucidium-jardinii-v7 actual audit
 New0/reuse3 actualprimaryPDF24/PDF10, guide395/397 andCervantes originalnote. #35v7 adult brownmorph tail webspots notshafts, no all-Glaucidium tailtemplate. Web403 directPDF recovered; source facts vs local spot geometry design separated. [Facts, boundaries and full prompt](species/35-glaucidium-jardinii-v7.md).
+
+
+### 2026-11-26 36-glaucidium-bolivianum-v7 actual audit
+New1YPOW-PERUAVES-2026 regional adultmetadataonly; reused2primary+guide. #36v7 leftbrown tail webspots separated; rightrufous7/youngplaincrown preserved. Morphnotsexlinked explicit. No borrowedparkeri juvenileunknown rule or nubicola tailcount transferred. [Facts, boundaries and full prompt](species/36-glaucidium-bolivianum-v7.md).

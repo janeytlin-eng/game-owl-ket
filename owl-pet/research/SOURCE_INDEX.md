@@ -4480,10 +4480,10 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 
 ### CFPO-CADENA-ORTIZ-2022-REREAD
 - **Title / authors / year:** “What Do We Know about the Diet of Ecuadorian Owls?” / Cadena-Ortiz et al. / 2022.
-- **DOI / URL / accessed:** https://doi.org/10.5772/intechopen.108594 ; https://www.intechopen.com/chapters/84057 / 2026-11-08.
+- **DOI / URL / accessed:** https://doi.org/10.5772/intechopen.108594 ; https://www.intechopen.com/chapters/84796 / 2026-11-26 fresh read. Historical2026-11-08 locator84057 retained here as superseded wrong address; DOI unchanged.
 - **Type / species / stage:** peer-reviewed synthesis citing primary natural-history records; *G. nubicola* juvenile dependence.
 - **Section / evidence:** species account and reference list; reports an adult feeding a juvenile with a lizard.
-- **Limit / design use:** supports only a dependent, perch-capable juvenile; no exact age, sex, iris, nest, feather sequence, flight or independence details. The chapter is not the unavailable user-uploaded Mikkola photographic guide.
+- **Limit / design use:** supports only juvenile feeding/dependence. Correction2026-11-26: prior perch-capable inference withdrawn because feeding observation alone does not establish support/locomotion; no exact age, sex, iris, nest, feather sequence, flight or independence details. The chapter is not the unavailable user-uploaded Mikkola photographic guide.
 
 ### CFPO-BIRDSCOLOMBIA-2024-REREAD
 - **Title / institution / date:** “Cloud-forest Pygmy-Owl” / BirdsColombia / 2019, updated 2024.
@@ -7677,3 +7677,7 @@ New1YPOW-PERUAVES-2026 regional adultmetadataonly; reused2primary+guide. #36v7 l
 
 ### 2026-11-26 39-glaucidium-griseiceps-v7 actual audit
 新增0、复用2。新鲜网络检索及原出版方论文正文pp92–94复读；图鉴p387/PDF389明确成年跗蹠羽被至趾基。#40已发现的颜色与羽被混淆在#39独立核证后应用；不声称回查了其他全库图。 [Facts, boundaries and full prompt](species/39-glaucidium-griseiceps-v7.md).
+
+
+### 2026-11-26 40-glaucidium-nubicola-v7 actual audit
+新增0、复用3（书为原同一文献）、实质更正1条来源（URL与推断共2项）；未核验线索1/BHL403。CFPO-CADENA-ORTIZ-2022-REREAD定位84796和feeding≠perch修正已直接更新原条目并保留旧地址历史。此v7仅证据边界标识，不计形态修复或科学通过；幼鸟外观仍待专属照片/描述。 [Facts, boundaries and full prompt](species/40-glaucidium-nubicola-v7.md).

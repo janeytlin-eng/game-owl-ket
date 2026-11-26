@@ -4,7 +4,7 @@
   "owner": "20261126T1125Z",
   "run_id": "20261126T1045Z-cycle6-resume1125Z",
   "started_at": "2026-11-26T11:35:25.997Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,9 +14,26 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T11:35:54.333Z",
       "evidence": "Actualv6 diffuse young crown/body correction retained; records don't date this individual or establish juvenile iris sequence. First explicit image-boundary annotation, not further unsupported morphology edit."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T11:37:09.739Z",
+      "blob": "ed18dbf584d329d48e21a5217da8087c1cb8ff2d",
+      "bytes": 2617064
     }
   ],
   "scientifically_verified": false,
   "errors": [],
-  "target": "32-glaucidium-castanotum-v7"
+  "target": "32-glaucidium-castanotum-v7",
+  "generation_seconds": 35.977,
+  "meta": {
+    "bytes": 2617064,
+    "sha256": "c81d013c27261367d7caa724da2f8123484a63bfde191a35e693dd715ffe78dc",
+    "gitblob": "ed18dbf584d329d48e21a5217da8087c1cb8ff2d",
+    "size": [
+      1536,
+      1024
+    ],
+    "b64len": 3489420
+  }
 }

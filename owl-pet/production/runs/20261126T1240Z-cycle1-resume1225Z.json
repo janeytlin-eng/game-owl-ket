@@ -4,7 +4,7 @@
   "owner": "20261126T1225Z",
   "run_id": "20261126T1240Z-cycle1-resume1225Z",
   "started_at": "2026-11-26T12:44:53.095Z",
-  "stage": "REVIEWED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "STARTED",
@@ -25,6 +25,16 @@
       "stage": "REVIEWED",
       "at": "2026-11-26T12:47:23.958Z",
       "evidence": "实际查看全图及双成年腿部/尾足裁切：v7成年下跗蹠现为细褐羽延伸至趾基，黄色裸露趾和黑尖爪仍可见且原枝条抓握未变；未把黄皮颜色误写为无羽。v6已经修复的成年素褐背与翼覆羽白斑保留；幼鸟雨湿羽簇、背部无色素白点、叶地支撑保持。标题、三角色、未知项脚注可读。幼鸟白亮点为水滴而非图鉴mesoptile斑纹；原论文并未给日龄/虹膜/首次飞行，仍未知，不把推测跌落记作观察。PASS_WITH_LIMITATIONS；本次跨物种羽被规则先独立核证再应用，不能宣称全库有效。"
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-26T12:47:40.247Z",
+      "commit_sha": "1357a95ed09145d2d6e6f0f5f7300091f7afea3c"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-26T12:47:40.247Z",
+      "evidence": "originals VERIFIED 2550264\nconcepts VERIFIED 2550264\n; original local Gitblob matched/research review immutable readback"
     }
   ],
   "scientifically_verified": false,
@@ -40,5 +50,7 @@
       1024
     ],
     "b64len": 3400352
-  }
+  },
+  "ended_at": "2026-11-26T12:47:40.247Z",
+  "archive_commit": "1357a95ed09145d2d6e6f0f5f7300091f7afea3c"
 }

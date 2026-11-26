@@ -7629,3 +7629,7 @@ New0/reused2 fresh original-body/guide text. #26 v7 bounded annotation: tentativ
 
 ### 2026-11-26 27-glaucidium-passerinum-v7 audit
 New0/reuse2 fresh body reads. #27 v7 annotation-only keeps v6 face correction, makes age/iris/flight unknown. EGE population-level departure ability not proof of individual flight; no new exact-age illustration. [Full facts/prompt](species/27-glaucidium-passerinum-v7.md).
+
+
+### 2026-11-26 28-glaucidium-perlatum-v8 audit
+PSOW-CLANCEY-1980-P96-LEAD retained stable ID; status upgraded UNVERIFIED_TARGET_BODY→READ_PRIMARY_TARGET_BODY, printed96/PDF10 actually recovered. Newly verified document1 (formerly indexed lead), freshly reused2. Single historical diurnum juvenile and no iris chronology; do not universalize or invent diurnum→licua mapping. #28 v8 annotation only, selected guide iris remains pending scientific cross-validation. [Full facts/prompt](species/28-glaucidium-perlatum-v8.md).

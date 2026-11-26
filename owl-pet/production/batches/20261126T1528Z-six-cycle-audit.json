@@ -1,0 +1,169 @@
+{
+  "owner": "20261126T1528Z",
+  "completed_cycles": 6,
+  "new_species": 0,
+  "revision_species": 6,
+  "coverage": {
+    "species": 207,
+    "versions": 1154,
+    "total": 251
+  },
+  "sources": {
+    "new_verified_sources": 3,
+    "reused_source_citations": 19,
+    "total_source_citations": 22,
+    "distinct_documents": 17,
+    "source_mapping_collision_avoided": 1,
+    "photo_pixels_access_upgrades": 1,
+    "unverified_new_leads": 1
+  },
+  "rows": [
+    {
+      "id": "51-strix-rufipes-v8",
+      "batch": "20261126T1445Z",
+      "cycle": 4,
+      "archive_commit": "8a8bb9550c61430bd02101f1c82704a63c2271b9",
+      "verification_commit": "b15a208762e477c07ef59ad87af5eb066cfc9ede",
+      "run": "owl-pet/production/runs/20261126T1445Z-cycle4-resume1528Z.json",
+      "bytes": 2551282,
+      "sha256": "a1d86b8afd8978f5c66e086c8169756e341b704dcbcfd8f76b6ca25856fe8b38",
+      "git_blob": "419c1f8f930a8537679c36514e96cae39ab5f454",
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "scientifically_verified": false,
+      "timing": {
+        "research_and_selection_seconds": 106.771,
+        "imagegen_edit_wait_seconds": 97.307,
+        "ready_to_generated_persistence_seconds": 155.886,
+        "generated_to_archived_seconds": 9.746,
+        "archived_to_verified_seconds": 17.864
+      },
+      "original": "owl-pet/design/originals/51-strix-rufipes-v8.png",
+      "concept": "owl-pet/design/concepts/51-strix-rufipes-v8.png",
+      "research": "owl-pet/research/species/51-strix-rufipes-v8.md",
+      "review": "owl-pet/research/reviews/51-strix-rufipes-v8-review.md"
+    },
+    {
+      "id": "59-ketupa-zeylonensis-v7",
+      "batch": "20261126T1445Z",
+      "cycle": 5,
+      "archive_commit": "266b6c913018154fde73895a310a844c7270e75d",
+      "verification_commit": "78be213f2abe0c7ab75dbaea1dea3686c7d559d3",
+      "run": "owl-pet/production/runs/20261126T1445Z-cycle5-resume1528Z.json",
+      "bytes": 3175032,
+      "sha256": "0b54fea0242e2854c645904ac5f01a18a280939fea5462356332346162e55057",
+      "git_blob": "3da55ba952e83456ca74e1d257b6c716b35afc95",
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "scientifically_verified": false,
+      "timing": {
+        "research_and_selection_seconds": 53.371,
+        "imagegen_edit_wait_seconds": 36.736,
+        "ready_to_generated_persistence_seconds": 78.005,
+        "generated_to_archived_seconds": 9.828,
+        "archived_to_verified_seconds": 14.649
+      },
+      "original": "owl-pet/design/originals/59-ketupa-zeylonensis-v7.png",
+      "concept": "owl-pet/design/concepts/59-ketupa-zeylonensis-v7.png",
+      "research": "owl-pet/research/species/59-ketupa-zeylonensis-v7.md",
+      "review": "owl-pet/research/reviews/59-ketupa-zeylonensis-v7-review.md"
+    },
+    {
+      "id": "60-ketupa-flavipes-v7",
+      "batch": "20261126T1445Z",
+      "cycle": 6,
+      "archive_commit": "4065f231a38fbcd2b1fc183ce6145cdd0da4ba2e",
+      "verification_commit": "a0bf9d06354f2e4181cd9e09f62a3f8b5e070eec",
+      "run": "owl-pet/production/runs/20261126T1445Z-cycle6-resume1528Z.json",
+      "bytes": 3037915,
+      "sha256": "d04843d6ea204b4f5c7a4633be7cc6014e543e3fcc54d2c4eeb8f8247b7e9e34",
+      "git_blob": "7a45437a6340f40bcd62a382c8d0e286770da0d6",
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "scientifically_verified": false,
+      "timing": {
+        "research_and_selection_seconds": 51.274,
+        "imagegen_edit_wait_seconds": 36.889,
+        "ready_to_generated_persistence_seconds": 81.359,
+        "generated_to_archived_seconds": 10.195,
+        "archived_to_verified_seconds": 13.521
+      },
+      "original": "owl-pet/design/originals/60-ketupa-flavipes-v7.png",
+      "concept": "owl-pet/design/concepts/60-ketupa-flavipes-v7.png",
+      "research": "owl-pet/research/species/60-ketupa-flavipes-v7.md",
+      "review": "owl-pet/research/reviews/60-ketupa-flavipes-v7-review.md"
+    },
+    {
+      "id": "62-ketupa-sumatrana-v7",
+      "batch": "20261126T1545Z",
+      "cycle": 1,
+      "archive_commit": "3640f85ade9414e10ac8b2dfae046cd8ce1746fd",
+      "verification_commit": "ccd27ae2ade32329573abd037772ba54b0c005de",
+      "run": "owl-pet/production/runs/20261126T1545Z-cycle1-resume1528Z.json",
+      "bytes": 2874385,
+      "sha256": "ed97ef89b6e680df220e385e8e1c9636bc7cc5fb128d3b83a44852e7c359705c",
+      "git_blob": "b6544a19184f755caed5360235ac98b90c88e6c5",
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "scientifically_verified": false,
+      "timing": {
+        "research_and_selection_seconds": 274.035,
+        "imagegen_edit_wait_seconds": 95.661,
+        "ready_to_generated_persistence_seconds": 129.99,
+        "generated_to_archived_seconds": 18.607,
+        "archived_to_verified_seconds": 15.603
+      },
+      "original": "owl-pet/design/originals/62-ketupa-sumatrana-v7.png",
+      "concept": "owl-pet/design/concepts/62-ketupa-sumatrana-v7.png",
+      "research": "owl-pet/research/species/62-ketupa-sumatrana-v7.md",
+      "review": "owl-pet/research/reviews/62-ketupa-sumatrana-v7-review.md"
+    },
+    {
+      "id": "67-pulsatrix-perspicillata-v7",
+      "batch": "20261126T1545Z",
+      "cycle": 2,
+      "archive_commit": "87f14b09879bfcade062997919eae7c20b0ea6fc",
+      "verification_commit": "789d3ba5378f4cfba267c28f45f561ef669914b0",
+      "run": "owl-pet/production/runs/20261126T1545Z-cycle2-resume1528Z.json",
+      "bytes": 2631877,
+      "sha256": "9af14dfaf892cd4418600ea6bd1d3904571c2e8e3d754fd0bcc3ee660579c763",
+      "git_blob": "3a160c315304c39f76247333ae902ea70d1ee456",
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "scientifically_verified": false,
+      "timing": {
+        "research_and_selection_seconds": 120.345,
+        "imagegen_edit_wait_seconds": 46.3,
+        "ready_to_generated_persistence_seconds": 81.531,
+        "generated_to_archived_seconds": 23.287,
+        "archived_to_verified_seconds": 14.308
+      },
+      "original": "owl-pet/design/originals/67-pulsatrix-perspicillata-v7.png",
+      "concept": "owl-pet/design/concepts/67-pulsatrix-perspicillata-v7.png",
+      "research": "owl-pet/research/species/67-pulsatrix-perspicillata-v7.md",
+      "review": "owl-pet/research/reviews/67-pulsatrix-perspicillata-v7-review.md"
+    },
+    {
+      "id": "68-tyto-tenebricosa-v7",
+      "batch": "20261126T1545Z",
+      "cycle": 3,
+      "archive_commit": "a4d588a3a2c82690c0618125997ad6f3a88c5abe",
+      "verification_commit": "70fc0aadc1f49abea33b8a0b79bb4977acd84162",
+      "run": "owl-pet/production/runs/20261126T1545Z-cycle3-resume1528Z.json",
+      "bytes": 2910558,
+      "sha256": "4383c0bbbf6bbfffdd06786259d80ca8c3a4d7e2d4b8272b7c83fa79eac79d6d",
+      "git_blob": "49fba5bbc0c8ccd1fc80fbd1549b48612427eb06",
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "scientifically_verified": false,
+      "timing": {
+        "research_and_selection_seconds": 121.911,
+        "imagegen_edit_wait_seconds": 97.377,
+        "ready_to_generated_persistence_seconds": 132.355,
+        "generated_to_archived_seconds": 19.771,
+        "archived_to_verified_seconds": 13.27
+      },
+      "original": "owl-pet/design/originals/68-tyto-tenebricosa-v7.png",
+      "concept": "owl-pet/design/concepts/68-tyto-tenebricosa-v7.png",
+      "research": "owl-pet/research/species/68-tyto-tenebricosa-v7.md",
+      "review": "owl-pet/research/reviews/68-tyto-tenebricosa-v7-review.md"
+    }
+  ],
+  "final_tree": "4c5615dc8cfb32233f6eb874ca6716a800ff4768",
+  "tree_truncated": false,
+  "remote_tree_and_runs_verified": true
+}

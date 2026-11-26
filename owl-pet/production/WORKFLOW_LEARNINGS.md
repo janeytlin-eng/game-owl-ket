@@ -1081,3 +1081,13 @@ Stage-specific #42mesoptile crown differs from adult spots; #43Jathar late-young
 
 ## 2026-11-26 1427Z — observed errors and bounded applications
 Check highest manifest version AND both target paths before research/write, not only archive. #52 guard caught too late; exact oldv7 original/research restored and read back, wrongstage attempt rejected, v8 preserved older photographic young. Applied pre-generation ID guard to v8 and latest-version selection to55/57/58; not a full historical regression. #51 grid-pattern failure reduced bysecondedit, residual rowregularity stillopen. #57 source screenshotplaceholder recovered via actual localPDFpixels supports selectedyoung nohardruff, not ontogenetic universalrule. #55/#58 studyage attribution correction annotationonly. Immediate refmismatch after push must be resolved against fresh commit/ledger and immutable evidence before any retry to avoid duplicatecredit. [Actualsixcycles/evidence/timing](batches/20261126T1427Z-six-cycle-review.md).
+
+
+## 2026-11-26 1528Z — 六轮实际应用边界
+
+- #51冠纹：图鉴printed333两张成年照片实际像素显示细断续纹理；v8减少旧版连接网格，仍不声称精确密度科学校准。新MMA雌雄颜色陈述与图鉴浅色雄鸟图注冲突保留。
+- #59/#60分开检查：棕鱼鸮在粗纵纹间有细波纹；黄腿渔鸮成年裸露下段腿趾为灰橄榄黄且灰角质爪基。不要把同类群一种的诊断纹理移给另一种。各自实际编辑后全图复查保留幼鸟，不是跨种规则已全面验证。
+- #62面盘底色与面缘结构分开：中性灰白底色校正，不另造粗暗ruff；一对鸟性差不可推广为种级判别。
+- #67/#68必须按成年/幼鸟及覆羽/飞羽/尾羽分别指定区域：#67成年覆羽去浅斑，幼翼和成年尾斑保留；#68成年飞羽暖带减弱为暗灰，幼鸟翼羽不跟着改。只验证本次可见区域，遮蔽飞羽不宣称已校准。
+- 来源ID核对URL：历史GSO-OWLPAGES-2020为Otus gurneyi，Tyto tenebricosa页面用STYO-OWLPAGES-2020，保留原ID映射；搜索可返回完整段落也不等于原始PDF已成功读取。Hobcroft1997正文未读只留线索。
+- 计时将实际imagegen等待与ready到图像持久化编排窗口分开，后者含上传；不把窗口差值假称平台推理耗时。继续在长调用前后显式续期，现有15分钟lease不替代真实执行遥测。

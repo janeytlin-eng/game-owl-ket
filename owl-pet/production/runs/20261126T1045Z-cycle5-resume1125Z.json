@@ -4,7 +4,7 @@
   "owner": "20261126T1125Z",
   "run_id": "20261126T1045Z-cycle5-resume1125Z",
   "started_at": "2026-11-26T11:33:09.885Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,9 +14,26 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T11:33:38.159Z",
       "evidence": "Actual v6 adult cere olive/dark-green blends with bill; guide explicitly bluish cere. Isolate cere zone, preserve greenish yellow bill blade and prior white adult central belly fix. Young unchanged."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T11:34:59.645Z",
+      "blob": "786bb9c8c2346e9bb9adf6a27cf85641aa6096ef",
+      "bytes": 2840145
     }
   ],
   "scientifically_verified": false,
   "errors": [],
-  "target": "31-glaucidium-radiatum-v7"
+  "target": "31-glaucidium-radiatum-v7",
+  "generation_seconds": 33.27,
+  "meta": {
+    "bytes": 2840145,
+    "sha256": "4442379206155301255ef27f714d747c8022e11ff69e0c2ae252006e33d613f5",
+    "gitblob": "786bb9c8c2346e9bb9adf6a27cf85641aa6096ef",
+    "size": [
+      1536,
+      1024
+    ],
+    "b64len": 3786860
+  }
 }

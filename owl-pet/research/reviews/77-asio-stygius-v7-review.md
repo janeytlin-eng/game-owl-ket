@@ -1,0 +1,2 @@
+# 77-asio-stygius-v7
+Actualnewv7fullviewed. Olderjuvenileageunverified andsciencepending/exactage-firstflight-sexratiofooter readable/withinframe; nofoot/tailobscuration. Darkadultupperparts/ventralcrossbars/feetunchanged; youngresidualdown/yellowiris/formedlateralwingextension/twobranchgrips retained. Annotationonly/notnew morphologycalibration. PrimaryTable3datesareobservationsnotbirth, Fig2captiondate doesnotdatepicturedindividual. Preciseage/firstflight/sexratio/regionaltoecoverageunknown. New0/reuse2. Noextraeditneeded; source-basedaction preserved.

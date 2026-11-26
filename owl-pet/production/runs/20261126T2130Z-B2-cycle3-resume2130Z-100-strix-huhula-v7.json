@@ -4,7 +4,7 @@
   "owner": "owl-production-20261126T2130Z",
   "run_id": "20261126T2130Z",
   "started_at": "2026-11-26T21:50:17.514Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,6 +14,10 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T21:50:50.202Z",
       "prompt": "Annotation-only correction on #100 Strix huhula v6 scientific concept plate, ALL BIRDS, FEATHERS, ANATOMY, PALE ADULT CLAW BASES/DARKTIPS, FEET/GRIPS, NESTFORK/EPIPHYTES, LIGHTING/STYLE and composition UNCHANGED. Keep exact top title100 BLACK-BANDED OWL Strix huhula and adultrolelabels. Replace center NEST YOUNG label with two cream serif lines 'AGE-UNKNOWN NEST YOUNG' / 'S. h. albomarginata · recorded nest stage'. Add small cream serif footer alongbottom y1002 'CONCEPT — SCIENTIFIC REVIEW PENDING; EXACT AGE / FIRST FLIGHT / SEX RATIO UNVERIFIED'. Existing 2010Misiones angico-fork young stage is described by BodratiCockle2013p175, not a measuredhatchage. No new biologicalpainting, no wingsopened/flight/action, no boxes/borders/goldrules/extra birds. Only requestedtexts."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T21:51:55.827Z"
     }
   ],
   "target": "100-strix-huhula-v7",
@@ -27,5 +31,17 @@
   "source_ids": [
     "HUH-BC2013",
     "HUH-MIK2013-340"
-  ]
+  ],
+  "meta": {
+    "bytes": 3073935,
+    "sha256": "a2c5e4f97a33d227198629aafb1b7ad3740d3a351a932a9ad792761c9f0c5c95",
+    "b64len": 4098580,
+    "size": [
+      1536,
+      1024
+    ],
+    "gitblob": "2e1400bdc5e2c318c5bb6e265e204b5960c71f94"
+  },
+  "imagegen_wait_seconds": 30.589,
+  "review": "Actualv6/v7 fullplates viewed plus freshHUH-BC2013p175body andguide340. Annotation-onlytargetcomplete: age-unknown nestyoung, S.h.albomarginata recordedstage and exactage/firstflight/sexratio-unverifiedscientificpendingfooterlegible. Threebirds/currentname/adultrolelabels maintained; rounduntuftedadultheads/darkbrowniris/yellowbill/finewhitishwavebars/featheredtarsi/bareochretoes/palehornclawbases-darktips retained. Centralpalegreyblackbarredyoung/heartmask-whiteborder/yellowbill/compactfoldedwing/concealedtail/active-supportedstanding unchanged; allfeet supportedonbroadangicoepiphyticfork, no cavityinvented. Primarywalkingobservationdoesnotproveflight orprecisehatchage; illustrationcompresses nestarchitecture and isnotmeasuredreconstruction. PASS_WITH_LIMITATIONS/sciencefalse/noapproval; notcountedasnewmorphologicaldiscovery. Lesson: afteractualcheckfindsnojustifiedmorphologyedit, preservevalidcontentandmakecase/unknownstatusvisible; annotationonlydistinctfromsciencecalibration. URLrecoveryupdatemustnotclaimredirectcollectionaspaper."
 }

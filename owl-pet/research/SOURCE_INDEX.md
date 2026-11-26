@@ -7577,3 +7577,7 @@ Reuse NSWO-PROJECTOWLNET-HY-2026 freshoriginalbodyread and NSW-MIKKOLA-2013-P444
 
 ### 2026-11-26 14-bubo-virginianus-v6 audit
 Reuse GHOW-CPW-PHYSICAL-2026 freshPhysicalbody; GHOW-HOFFMEISTER-SETZER-1947 primarypriorread only(original/cache503 andmirrorfailed); MIKKOLA2013 printed262/264historicalonly. General~21d notknownindividual age; labelunknown, keep comparative sticknestexplicitlyunverifiedgeometry. New0/reuse3; no new biological inference/sciencepass. [Fullprompt/facts](species/14-bubo-virginianus-v6.md).
+
+
+### 2026-11-26 15-strix-varia-v7 audit
+Reuse BARO-DUNCAN-2024-CFN publisherAbstract and BARO-DUNCAN-2024-SUPP PDFp2caption/p7TableS6 actualtextread, SAMEpublication not2papers; MIKKOLA2013 printed346–347historicalonly. Artwork not directlydated; replace~26d label with unknown. New0/reuse3locators(2publications); no morphologyvalidation. [Fullprompt/facts](species/15-strix-varia-v7.md).

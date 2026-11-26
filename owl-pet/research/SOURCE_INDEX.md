@@ -7716,3 +7716,7 @@ New0/reuse3. Externaloriginalspecialistaccount reread, guideprinted324freshread;
 
 ### 2026-11-26 49-strix-woodfordii-v7
 新1 AWOO-OWLPAGES-2020（基线索引无URL），复用2；重新读图鉴320/PDF322、SANBI与物种专属OwlPages正文；只修成年眼睑，保留幼鸟羽龄/飞行未知，离巢日龄冲突不混合。 [full facts and prompt](species/49-strix-woodfordii-v7.md).
+
+
+### 2026-11-26 51-strix-rufipes-v7
+新增0/复用2，本次原文与图鉴实际重读；v7只修成年冠部细横斑，不重复趾羽或年龄注释；幼鸟日龄跨种推测/性别色型限制保持。 [full facts and prompt](species/51-strix-rufipes-v7.md).

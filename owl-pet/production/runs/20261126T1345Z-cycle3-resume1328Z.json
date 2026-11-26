@@ -4,7 +4,7 @@
   "owner": "20261126T1328Z",
   "run_id": "20261126T1345Z-cycle3-resume1328Z",
   "started_at": "2026-11-26T13:44:22.839Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,8 +14,20 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T13:47:26.663Z",
       "evidence": "Actual v6 full-card inspection: both adult bills saturated gold/orange; Taiwan institutional description says yellow-green, broader 2013 treatment says yellowish-grey. Correct adult bill hue only. Existing juvenile uncertainty annotation already adequate; no duplicate annotation revision."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T13:48:29.589Z",
+      "blob": "ddde1b92e3b690563fc408c179c1ea936aecc5e0"
     }
   ],
   "errors": [],
-  "target": "48-strix-nivicolum-v7"
+  "target": "48-strix-nivicolum-v7",
+  "meta": {
+    "bytes": 2883555,
+    "sha256": "838fd3590bc6860a65988d1bd6a63848028f78f7d056c8fe693a0e16302e3794",
+    "gitblob": "ddde1b92e3b690563fc408c179c1ea936aecc5e0",
+    "b64len": 3844740
+  },
+  "generation_wait_seconds": 35.172
 }

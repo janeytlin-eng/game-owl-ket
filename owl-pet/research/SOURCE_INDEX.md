@@ -7731,3 +7731,7 @@ Correction 20261126T1427Z: preceding52v7 tail-revision entry is a REJECTED dupli
 
 ### 2026-11-26 52-strix-hylophila-v8
 新0/复用4，旧v7原始摄影来源按其研究记录历史复用；本次只成年尾纹、保留v7较大幼鸟。误选v6导致duplicate-ID尝试已拒绝/不计轮，旧v7研究和原图精确恢复。 [full facts and prompt](species/52-strix-hylophila-v8.md).
+
+
+### 2026-11-26 55-bubo-lacteus-v7
+新0/复用3，上传图鉴及PeregrineFund正文新读；Brown1965网络400Timeout、直接读取结果在run补记；仅年龄归因注释修订，不计形态提升或科学通过。 [full facts and prompt](species/55-bubo-lacteus-v7.md).

@@ -11,13 +11,58 @@
       "at": "2026-11-26T17:36:12.534Z"
     },
     {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-26T17:37:29.152Z",
+      "evidence": "Guide p518/PDF520, external species Description64–68 and primary publisher abstract38–41 actually read; full v6 viewed. Local adult periocular correction, juvenile unchanged.",
+      "prompt": "Use case: precise-object-edit. Edit target is the attached #78 Marsh Owl Asio capensis v6 plate. Make v7: correct ONLY the two adults' periocular facial coloration. On BOTH adults, add a clearly visible natural dark brown area immediately surrounding each eye, within the light dull buff facial disc; keep the outer dark disc rim narrow and buff-speckled. This is a soft feathered brown eye-mask, not a black raccoon patch, not a whole dark facial disc. Keep dark-brown irises distinct and retain the grey-brown cere and blackish-horn bill. Preserve exactly three owls, existing near-equal adult scale and poses, all adult brown/buff vermiculation and folded-wing barring, tiny tufts, feathered toes and dark toe tips/claws, central down-rich dark-disc age-unknown owlet completely unchanged, all ground/grass contacts, wet open grassland, warm painterly-realistic style, numbered title and three bottom role labels. Add small readable footer within bottom margin: 'CONCEPT — SCIENTIFIC REVIEW PENDING; AGE / FLIGHT / SEX RATIO UNVERIFIED'. No extra birds, nest bowl, eggs, extra limbs, mature feathers on chick, or other changes."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T17:39:22.604Z",
+      "blob": "4127eecb3cdcd7dbf32e6d6e604d4a00cc8664dc",
+      "evidence": "Full base64 length3709188; repaired prior truncated attempt."
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-26T17:39:43.506Z",
+      "evidence": "# #78 Asio capensis v7 actual review\nActual full generated plate viewed: both adults now show distinct soft dark-brown periocular fields around dark irises inside the pale disc; outer narrow rim retained, bill/cere and adult vermiculation preserved. Exactly three birds, near-equal adult display scale, tiny tufts, toe feathering/dark tips, chick down/dark disc/small shoulder feathers and all ground contacts remain. Footer scientific pending/age-flight-sex-ratio unknown readable. No additional edit required. PASS_WITH_LIMITATIONS/sciencefalse. This is a qualitative adult facial contrast correction, not calibrated mask width, age or subspecies proof. No new user confirmation. Lesson applied/visually effective for this plate only: check inner eye-area separately from outer disc rim; do not darken the whole disc. Back-check adjacent #77 retained dark face but is a different species; no transfer of mask rule.\n"
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-26T17:39:50.804Z",
+      "commit": "af9939810697c6a99584f6696326675b177981e7"
+    },
+    {
       "stage": "VERIFIED",
       "at": "2026-11-26T17:40:22.258Z",
       "evidence": "Immutable archive originals and concepts GET full2781891bytes, SHA256bf0908033cf79942959301bcc9c916413b11b6c8b09f719844a5c638e3f78aaa, PIL fulldecode pass; research/review readback."
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "at": "2026-11-26T17:39:22.604Z",
+      "step": "IMAGE_GENERATED persistence",
+      "error": "exec stdout silently truncated base64 to1048607 chars; first blob invalid. Replaced using eight bounded chunks length3709188 before ARCHIVED/VERIFIED. No cycle credited."
+    },
+    {
+      "step": "ledger fetch",
+      "error": "contents API twice Transport closed on3.96MB ledger; fetch_file returned empty content; exact immutable raw GET recovered JSON via8 bounded localchunks. No lost credit."
+    },
+    {
+      "step": "phase log",
+      "error": "Execution store loads cloned objects, earlier cumulative phases omitted in later record; reconstructed from real immutable stage commits above, not fabricated times."
+    }
+  ],
   "target": "78-asio-capensis-v7",
   "recovery": "No valid lease; prior batch next4 with no credited artifact. Preserve all prior versions.",
-  "ended_at": "2026-11-26T17:40:22.258Z"
+  "ended_at": "2026-11-26T17:40:22.258Z",
+  "phase_commit_evidence": {
+    "RESEARCH_READY": "2d7a97ffbbc7c53c7d3bdf36bf42fc3226ef7ba9",
+    "IMAGE_GENERATED": "4351d90ab1a4bcc78ef49f49b88da726acd6110f",
+    "REVIEWED": "41fe2d8be3fc0a210ca36f85f8010653556be7e5",
+    "ARCHIVED": "af9939810697c6a99584f6696326675b177981e7",
+    "VERIFIED": "86ee06398c6701bfb1389ee3b79a1133f93677f3"
+  },
+  "imagegen_edit_wait_seconds": 68.444,
+  "archive_commit": "af9939810697c6a99584f6696326675b177981e7"
 }

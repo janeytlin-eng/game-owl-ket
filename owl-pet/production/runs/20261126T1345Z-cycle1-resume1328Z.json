@@ -21,7 +21,12 @@
       "blob": "1f7ec2a9520e8a2428e520df0f96d2bdabd5ecb2"
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "step": "image review",
+      "detail": "Toe feathering improved but visible distal adult skin still pale grey-pink instead ofdarkolive; retain attempt1 and edit colouronly."
+    }
+  ],
   "target": "45-strix-seloputo-v7",
   "meta": {
     "bytes": 2521281,
@@ -29,5 +34,6 @@
     "gitblob": "1f7ec2a9520e8a2428e520df0f96d2bdabd5ecb2",
     "b64len": 3361708
   },
-  "generation_wait_seconds": 40.924
+  "generation_wait_seconds": 40.924,
+  "edit_prompt": "Change ONLY visible small BARE SKIN portions at distal TOE joints on BOTH ADULT feet to clearly DARK OLIVE GREY, low saturation, darker than buff feathers, notpinkorpeach. Keepbufftoe-feathers, darkhornclaws, alltoeshapes/grips, entirejuvenile and allotherpixels/text exactly. No change juvenilepinkfeet or overallwarmlighting. Title remains45v7."
 }

@@ -4,7 +4,7 @@
   "batch_id": "20261126T1140Z",
   "cycle": 3,
   "started_at": "2026-11-26T12:27:03.070Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,9 +14,26 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T12:29:01.971Z",
       "evidence": "Actualv6 continuous pale adult tail bands conflict with primary brownmorph oval webspots not touching shaft. Preserve prior female abdomen correction and young, no new age/flight assertion."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T12:31:27.943Z",
+      "blob": "0eb862a08e117a938cfc5da4236ec119db4c9e0b",
+      "bytes": 2648265
     }
   ],
   "scientifically_verified": false,
   "errors": [],
-  "target": "35-glaucidium-jardinii-v7"
+  "target": "35-glaucidium-jardinii-v7",
+  "generation_seconds": 103.555,
+  "meta": {
+    "bytes": 2648265,
+    "sha256": "37d029b43ab3bf5594f72cc161ef8a285f727afa64523ed1428054aa260d463a",
+    "gitblob": "0eb862a08e117a938cfc5da4236ec119db4c9e0b",
+    "size": [
+      1536,
+      1024
+    ],
+    "b64len": 3531020
+  }
 }

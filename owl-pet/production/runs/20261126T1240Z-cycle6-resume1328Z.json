@@ -4,7 +4,7 @@
   "owner": "20261126T1328Z",
   "run_id": "20261126T1240Z-cycle6-resume1328Z",
   "started_at": "2026-11-26T13:36:19.088Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,8 +14,20 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T13:36:57.413Z",
       "evidence": "Actualv6 adult claws uniformly dark charcoal. Freshguide printed350 states yellowish-brown claws with darktips, so boundedbasecolourcorrection only; successfulv6 smoothdiscs/eyelids and unagedbrancher retained."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T13:38:12.208Z",
+      "blob": "5b341bd8b83e52451e998797c890d797ac01f50f"
     }
   ],
   "errors": [],
-  "target": "44-strix-uralensis-v7"
+  "target": "44-strix-uralensis-v7",
+  "meta": {
+    "bytes": 2694878,
+    "sha256": "b0dff4bc7c18ae1e852fb7672ba69ebc0ddb048b5ac9c7634c3d91dfe4f5c43b",
+    "gitblob": "5b341bd8b83e52451e998797c890d797ac01f50f",
+    "b64len": 3593172
+  },
+  "generation_wait_seconds": 41.568
 }

@@ -4,7 +4,7 @@
   "owner": "20261126T0933Z",
   "run_id": "20261126T0845Z-cycle5-resume0933Z",
   "started_at": "2026-11-26T09:41:10.891Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,9 +14,26 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T09:41:56.545Z",
       "evidence": "Actualv6 existing bristle reduction retained; guide only broadly compares juvenile to other screechowls. Image must expose uncertainty, rather than imply individual young age/flight/bristle measurements are verified. Annotation only; bill-colour conflict remains."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T09:43:22.591Z",
+      "blob": "e3dd41451b18905c18930b20753a9a7b8a3428c6",
+      "bytes": 2879689
     }
   ],
   "scientifically_verified": false,
   "errors": [],
-  "target": "19-megascops-trichopsis-v7"
+  "target": "19-megascops-trichopsis-v7",
+  "meta": {
+    "bytes": 2879689,
+    "sha256": "c008a2d1a76cac63481924dc5e2b9407f6bb3b61787f3cebbc313dc2cedd4721",
+    "gitblob": "e3dd41451b18905c18930b20753a9a7b8a3428c6",
+    "size": [
+      1536,
+      1024
+    ],
+    "b64len": 3839588
+  },
+  "generation_seconds": 42.247
 }

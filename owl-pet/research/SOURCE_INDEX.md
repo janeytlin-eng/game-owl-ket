@@ -7790,3 +7790,7 @@ New0/reused2 SCU-BESG-2024-PHOTOS observerbody19–32 andWHSO-MIKKOLA-2013p464 f
 
 ### 2026-11-27 76-asio-clamator-v7
 New0/reuse2 primaryActaResults48fewgrass/twigs/groundpalm andguide510freshlyread. Actualdensecupmaterialcorrection, not universalnestarchitecture. Noegg/currentgroundjuvenileageinference. [Fullsources/limits/prompt](species/76-asio-clamator-v7.md).
+
+
+### 2026-11-27 77-asio-stygius-v7
+New0/reuse2 STY-CADENA-ORTIZ-2018-P23-25-F2-T3 originalp23Table3 andp24Fig2caption, guidep502freshread. Sourceobservationdatesnothatchage; annotationonly, nofootfeathering/generalizedjuvenilewingchange. [Fullsources/limits/prompt](species/77-asio-stygius-v7.md).

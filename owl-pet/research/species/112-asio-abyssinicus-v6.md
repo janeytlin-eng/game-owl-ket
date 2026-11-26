@@ -1,0 +1,20 @@
+# #112 Asio abyssinicus v6 — juvenile down texture, rejected false foot fix
+2026-11-27Asia/Shanghai. NominateEthiopianconcept. CurrentAsioabyssinicus; oldAsiootusabyssinicus mapping retained; notgrauerigeneralization. Newspecies0/revision1/sciencefalse.
+## Actualread sources
+- ABY-MATON-1989-JUV, PeterMaton, Ethiopia1989scannedslide, https://www.flickr.com/photos/34579661@N04/5424426357 actualcaption12–38read, observedog:image1024x760 downloaded https://live.staticflickr.com/5212/5424426357_60a4bb2920_b.jpg and actualpixelsopened. Upload/scandate2011 notfielddate. Image shows charcoal/brownjuvenile, darkfacialarea/orangeeye/darkbill, fine irregular down, formedwing and barredtail, branchsupport. Exactage/sex/flightunknown; onephotographiccase, scannedcolour/softresolutionlimits. Rightsreserved, localresearchreference only, no repositorycopy.
+- ABY-COLLAR-BOESMAN-2019, N.J.Collar/PeterBoesman2019 BullABC26(2):155–169, authorfulltext https://www.researchgate.net/publication/335292194_The_taxonomy_of_certain_Asio_and_Bubo_owl_species_in_Africa_and_Arabia actualResults158–159 (body639–759) read: broadtransverseadultcomponents createpalenetpanels; pooledmorphometry cannotdetermineillustratedsexheight. Adultnetfromv5preserved; no extrapolationtoyoung.
+- MIKKOLA-2013 / WHSO-MIKKOLA-2013, useruploadedguide actualprinted508/PDF510 textandadultphotopageopened. Fullyfeathered adultlegs/toes; orange-yelloweyes/blackishbill. Juvenileundescribed, speculativeAsiootuscomparisonexcluded. Feetphoto notusedtosetmicroscopicboundary.
+- ABY-OWLPAGES-2020-3560, DeaneLewis updated2020-11-08, https://www.owlpages.com/owls/species.php?s=3560 actualDescription58–62/Roost64read, adultfeatheredtoes/blackishhornclaws and densebellypattern; secondarynotjuvenilestage. Newcentralindexwebpage1.
+## Actualv5 audit / problem
+Fullv5 and actual1572x168footcropopened. Adulttoe dorsa already feathered; proposedfeatheraddition rejected as falsefix, contrary to glance-levelsuspicion. No footedit. Juvenilehead/body still carrylongclosedloopwirelikecurls, despiteoldv4promptalreadyrejectingcurls. ActualMatonpixels showfineirregulardown, withformedwing/tail; changeonlytexture, do noteraseformedwingtoforcegenericdownball.
+## Limits/designinference
+Finewispytexturea qualitativeinterpretation, notexactplumagechronology. Currentposemayconcealtail, notshowtailabsent. Exactage/independence/firstflight, subspecificjuvenilevariation/eyeclock and sexdisplayratios unknown. Branchnotnest. Scapularwhitepatchwordingconflict leftunmodified. Newindex1/reuse3/photoaccessupgrade1; no userapprovaltransfer.
+
+
+## Complete imagegen prompt (built-in edit)
+
+Use case: precise-object-edit
+Asset type: owl-pet Abyssinian Owl concept plate siblingv6
+Input image: Image1 is112-asio-abyssinicus-v5.png edit target and establishedstyle.
+Primary request: change ONLY the CENTRAL older juvenile's charcoal-brown fluffy head and body feather texture. Replace the conspicuous repeated closed oval loops and long tangled wire-like strands with short soft irregular linear wisps and fine down, uneven small clumps, shallow gaps, naturally varying directions; retain charcoal-grey/brown colour and loose unkempt edges. It must look like real soft plumage rather than curled yarn or wire.
+Constraints: preserve juvenile dark facial mask/orange irises/dark bill/short emerging headwisps/body outline/pose/size and formed compact folded wing; do not erase its wing feathers or turn it into a newborn. Preserve existing concealed-tail composition without claiming feather absence. Preserve both adults completely: orange-yellow eyes/blackbills/tufts/wings/tails/dense crossbar-net belly and already feathered toes; do not add more footfeathers or repaint claws. Keep exactly threebirds, allsix securefoot contacts on same branch, highlandforest, lighting, exact title and alllabels including "OLDER JUVENILE — AGE UNKNOWN". No nest/eggs/prey/extra text/watermark.

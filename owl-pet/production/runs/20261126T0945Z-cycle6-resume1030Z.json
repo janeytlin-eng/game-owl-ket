@@ -4,7 +4,7 @@
   "owner": "20261126T1030Z",
   "run_id": "20261126T0945Z-cycle6-resume1030Z",
   "started_at": "2026-11-26T10:42:05.465Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,9 +14,26 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T10:42:48.155Z",
       "evidence": "v6 actual viewed: plain young mantle retained but dark juvenile iris could be mistaken for established age criterion; no visible scientific-pending status. Annotate scope instead of falsely validating uncertain iris."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T10:43:56.738Z",
+      "blob": "a04b1d180e566aef06c63b16421d9ce05fd7090c",
+      "bytes": 2624981
     }
   ],
   "scientifically_verified": false,
   "errors": [],
-  "target": "26-glaucidium-siju-v7"
+  "target": "26-glaucidium-siju-v7",
+  "meta": {
+    "bytes": 2624981,
+    "sha256": "c6625770053ef7d0577e3b9854652786ba3d7c28658306efaa4d65e65bb6718e",
+    "gitblob": "a04b1d180e566aef06c63b16421d9ce05fd7090c",
+    "size": [
+      1536,
+      1024
+    ],
+    "b64len": 3499976
+  },
+  "generation_seconds": 33.225
 }

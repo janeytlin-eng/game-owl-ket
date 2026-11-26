@@ -7653,3 +7653,7 @@ New0/reuse3 fresh reads. #32v7 annotation-only; no false scientific pass or new 
 
 ### 2026-11-26 33-taenioptynx-brodiei-v7 actual audit
 New0/reuse2 actual original/body/guide. Correct age-axis attribution: 56daysPOST-HATCH study reference, not days postfledging or known age of concept bird. Fig3A caption versus body3B discrepancy recorded. Fullygrown formed wings retained, no generic immature-wing deletion. [Facts, boundaries and full prompt](species/33-taenioptynx-brodiei-v7.md).
+
+
+### 2026-11-26 34-glaucidium-hardyi-v7 actual audit
+New0/reuse2 freshguide+primaryPDF23/24 and actualpagephotopixels. #34v7 adult brownmorph tail continuousbands→broken pale spot rows; count pose-dependent not fixed3. Juvenile oldwoodpeckerhole support/iris stage preserved, not universal chronological rule. [Facts, boundaries and full prompt](species/34-glaucidium-hardyi-v7.md).

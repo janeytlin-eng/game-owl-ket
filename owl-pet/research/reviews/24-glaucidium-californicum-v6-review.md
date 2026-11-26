@@ -1,0 +1,2 @@
+# 24-glaucidium-californicum-v6
+Actualv5/newv6wholeplate and enlargedbothtailcrop viewed. Adultpalerowsnowbrokenacrosscentralbrownspines ratherthancontinuousfullwhitebars; roughlysixrows notmeasureduniversalcount. Exactcolour/feathermap/rowposition stillunverified. Juvenileplaincrown/formedwing/branchsupport andadultspots/falseeyes/feet/size retained. Ageunknown/sciencependingreadablewholeimage. PASS_WITH_LIMITATIONS/sciencefalse. Tail-edit appliesadultselecteddepictiononly; youngtailnotrewrittenusingadultcount; ORIbroadgnomayoungwordingdoesnotrestoremesoptileheadspots.

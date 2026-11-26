@@ -4,7 +4,7 @@
   "owner": "20261126T0933Z",
   "run_id": "20261126T0845Z-cycle6-resume0933Z",
   "started_at": "2026-11-26T09:43:51.395Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,9 +14,26 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T09:44:32.161Z",
       "evidence": "Actualv6 moss-platform correction retained. Individual nestling age and cavity geometry not calibrated; adult tarsal extent conflict within book remains. Expose uncertainty on image rather than imply sciencepass. Annotation only."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T09:45:51.110Z",
+      "blob": "892008ad5bc63665391fe7cb5ff51ac743a92d2e",
+      "bytes": 3047419
     }
   ],
   "scientifically_verified": false,
   "errors": [],
-  "target": "20-megascops-clarkii-v7"
+  "target": "20-megascops-clarkii-v7",
+  "meta": {
+    "bytes": 3047419,
+    "sha256": "bfa9b309ca1446be9e63787d588f06b92b080487f517971991e3197ddb2a4919",
+    "gitblob": "892008ad5bc63665391fe7cb5ff51ac743a92d2e",
+    "size": [
+      1536,
+      1024
+    ],
+    "b64len": 4063228
+  },
+  "generation_seconds": 47.634
 }

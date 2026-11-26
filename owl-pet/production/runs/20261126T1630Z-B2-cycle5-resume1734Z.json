@@ -4,7 +4,7 @@
   "owner": "20261126T1734Z",
   "run_id": "20261126T1630Z-B2-cycle5-resume1734Z",
   "started_at": "2026-11-26T17:42:17.544Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -15,8 +15,22 @@
       "at": "2026-11-26T17:42:22.719Z",
       "evidence": "Fullv6/guide156 and BSS Identification actually read; looplike feather texture diagnosed; preserve narrow bars/adults/support.",
       "prompt": "Use case: precise-object-edit. Edit this #79 Collared Scops Owl Otus lettia v6 plate to v7. Correct ONLY the center older juvenile's feather surface rendering: replace the repeated conspicuous string-loop/crochet-like curls across head, throat, breast and belly with natural soft irregular loose down tips and overlapping mesoptile contours. Retain visible narrow irregular faint dark-brown transverse bars embedded in the fluff, avoid erasing all bars or making regular ladders or hard adult shaft streaks. Keep juvenile dark brown eyes, small tufts, greenish-horn bill, compact down-softened wings and concealed short tail, identical pose and two-foot branch grip. Preserve both adults completely, their plumage/morph/scale/poses/feet, woodland, background tree cavity, branches, warm realistic painterly style, top title/scientific name and role labels. Add discreet footer 'CONCEPT — SCIENTIFIC REVIEW PENDING; AGE / FLIGHT / SEX RATIO UNVERIFIED'. Exactly three owls, no new nest/eggs/birds or flying claim. Do not copy a knit fabric pattern."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T17:44:28.101Z",
+      "blob": "dec57fc6eef94a31147c81f3ab6c759bdff9d8ea"
     }
   ],
   "errors": [],
-  "target": "79-otus-lettia-v7"
+  "target": "79-otus-lettia-v7",
+  "imagegen_edit_wait_seconds": 39.322,
+  "second_edit_wait_seconds": 38.922,
+  "meta": {
+    "bytes": 2689238,
+    "sha256": "1a3f8a6b72c3102f5d595c0292dd8e0da12e75957146668722975c0648cfd16d",
+    "b64len": 3585652,
+    "gitblob": "dec57fc6eef94a31147c81f3ab6c759bdff9d8ea"
+  },
+  "second_prompt": "Use case: precise-object-edit. Edit this #79 Collared Scops Owl Otus lettia v6 plate to v7. Correct ONLY the center older juvenile's feather surface rendering: replace the repeated conspicuous string-loop/crochet-like curls across head, throat, breast and belly with natural soft irregular loose down tips and overlapping mesoptile contours. Retain visible narrow irregular faint dark-brown transverse bars embedded in the fluff, avoid erasing all bars or making regular ladders or hard adult shaft streaks. Keep juvenile dark brown eyes, small tufts, greenish-horn bill, compact down-softened wings and concealed short tail, identical pose and two-foot branch grip. Preserve both adults completely, their plumage/morph/scale/poses/feet, woodland, background tree cavity, branches, warm realistic painterly style, top title/scientific name and role labels. Add discreet footer 'CONCEPT — SCIENTIFIC REVIEW PENDING; AGE / FLIGHT / SEX RATIO UNVERIFIED'. Exactly three owls, no new nest/eggs/birds or flying claim. Do not copy a knit fabric pattern.\nTARGETED SECOND PASS: the first edit left many conspicuous repeated CLOSED LOOP strings and curls across central chick belly and chest. Remove those loop outlines entirely in the center young bird. Use short soft feather barbs, wispy straight or gently bending free ends and irregular clumps with subtle fine transverse pigment bars. No rings, loops, crochet, beads or scallop rows. Keep same fluffy silhouette, faint dark bars, all adults and support untouched."
 }

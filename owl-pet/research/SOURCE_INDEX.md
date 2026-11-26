@@ -7456,3 +7456,7 @@ BROW-KFBG-2011-SERIES7 upgradedleadtoactualprimarybodyp1–5(newformalURL;localH
 
 ## 2026-11-26 #238 M.roraimae (napensis) v1 — RESEARCH_READY
 New stable source2: FHSO-ITIS-1244739 (ITIS valid subspecies/old names) and FHSO-IOC-8.2-LUMP-2018 (IOC June27 2018 original lump row). Reused2 publications: Mikkola2013 printed247–248/PDF249–250 actually reopened including Napo adult photograph, and MGIL-KRABBE-2017-EA08-P10-14 extended locator to printed24/PDF24 napensis vocal paragraph. One locator extension; no duplicate Krabbe publication entry. Taxonomy and regional/vocal context cannot fill missing young chronology. Guide qualitative mesoptile, not nominate-roraimae hatchling invention. Source metadata, original URLs, accessdate, scope, limitations, design decisions and full prompt: [#238 v1](species/238-megascops-roraimae-napensis-v1.md); [run](../production/runs/20261126T0034Z-cycle3.json). Image/review pending; species not yet credited. Scientificfalse.
+
+
+## 2026-11-26 #47v12 adult toe-base repair
+New0/reused2 directly read: BROW-MIKKOLA-2013-P326-327 actualprinted326/PDF328 and BROW-OWLPAGES-1540 actualDescription64–68 (DeaneLewis, undated https://www.owlpages.com/owls/species.php?s=1540 ). Basal feathering versus distal2barephalanges qualitative boundary, no percentage. Auk1936 primary lead still redirected/unread; no facts. Complete metadata, uncertainties, full prompt: [v12](species/47-strix-leptogrammica-v12.md). Young and region inherited v11, no new young biological claim/sciencefalse.

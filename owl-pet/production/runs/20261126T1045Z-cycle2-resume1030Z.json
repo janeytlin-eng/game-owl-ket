@@ -4,7 +4,7 @@
   "owner": "20261126T1030Z",
   "run_id": "20261126T1045Z-cycle2-resume1030Z",
   "started_at": "2026-11-26T10:47:37.696Z",
-  "stage": "REVIEWED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "STARTED",
@@ -25,6 +25,16 @@
       "stage": "REVIEWED",
       "at": "2026-11-26T10:49:45.288Z",
       "evidence": "全图及页脚实际查看：三鸟、年轻个体黄虹膜/黑瞳、冠与背无成人珠状斑、形成的折翼/短尾以及腹足枝叉支撑保持；左右成人珠斑及右鸟后颈假眼保留。AGE-UNKNOWN JUVENILE与科学待校准、日龄/亚种/虹膜时序未知均可读，无命令泄露。Clancey p96/PDF10实际原文新恢复，仅历史diurnum局部幼标本/冠斑减少，不能直接推全部无斑、未知diurnum现代race，也未给虹膜证据。本轮修订展示边界而非再次改黄虹膜；不把Guide与成人SANBI两条当幼虹膜独立交叉验证。全文来源摘要、提示及状态升级已提交索引，旧未核验状态保留历史。"
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-26T10:50:03.552Z",
+      "commit_sha": "8b84f3fb41acc478531093412ee6918bea712a07"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-26T10:50:03.552Z",
+      "evidence": "originals VERIFIED 2640040\nconcepts VERIFIED 2640040\n; localGitblobmatched/researchreviewimmutable readback"
     }
   ],
   "scientifically_verified": false,
@@ -40,5 +50,7 @@
     ],
     "b64len": 3520056
   },
-  "generation_seconds": 37.574
+  "generation_seconds": 37.574,
+  "ended_at": "2026-11-26T10:50:03.552Z",
+  "archive_commit": "8b84f3fb41acc478531093412ee6918bea712a07"
 }

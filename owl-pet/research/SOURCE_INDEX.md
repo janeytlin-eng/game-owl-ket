@@ -7468,3 +7468,7 @@ New2 WAT-ITIS-686874 and WAT-MENQ-2018-USTA actualbodies; reused2 WAT-DANTAS-202
 
 ## 2026-11-26 #72v7 age/status disclosure
 New1 BOO-ITIS-687127 taxonomy actualbody, reused2publications ABSA(Hardy earlier2017locator www.absa.asn.au/wp-content/uploads/2017/04/Southern-Boobook.pdf actual1p) and WHSO-MIKKOLA-2013 actualprinted462/PDF464 candidateonly. HANZAB1999 correctedURLmetadata reopening notnewbodyevidence. Independent newbiology0; one mirror locator. Sourcefacts/limits, rejectedrudolfiadjacency/luridarank, prompt [v7](species/72-ninox-boobook-v7.md). Annotationonly, formedjuvenilewings preserved, sciencefalse.
+
+
+## 2026-11-26 #70v7 export status/age disclosure
+New0/reused5 publications: POWERFUL-MV-2026 actualbody, POWERFUL-ABSA-2019 actualp1, WHSO-MIKKOLA-2013 actualprinted450/PDF452, Cooke2020DOIinaccessible/priorv5only and MoWaterhouse2015priorv5only. Maleconsiderably versus marginallylarger sourceconflict not resolvedbyart. No newbiologicalclaim. [Metadata,accessfacts,limits,prompt](species/70-ninox-strenua-v7.md); sciencefalse.

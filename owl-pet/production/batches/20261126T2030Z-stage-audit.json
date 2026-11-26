@@ -1,0 +1,578 @@
+{
+  "run_id": "20261126T2030Z",
+  "counts": {
+    "unique_species": 207,
+    "png_versions": 1185,
+    "manifest": 1221
+  },
+  "imagegen_calls": 9,
+  "imagegen_wait_seconds": [
+    48.468,
+    39.824,
+    35.167,
+    34.511,
+    34.341,
+    36.772,
+    43.354,
+    47.312,
+    33.914
+  ],
+  "imagegen_wait_total_seconds": 353.663,
+  "source_counts": {
+    "new": 1,
+    "reused_citations": 13,
+    "distinct_reused_documents": 8,
+    "total_citations": 14,
+    "distinct_total_documents": 9,
+    "restored_existing_source_entry": 1,
+    "existing_source_fact_increment": 1
+  },
+  "cycles": [
+    {
+      "batch_id": "20261126T1926Z-B2",
+      "cycle": 4,
+      "owner": "owl-production-20261126T2030Z",
+      "run_id": "20261126T2030Z",
+      "started_at": "2026-11-26T20:35:14.221Z",
+      "stage": "VERIFIED",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T20:35:14.221Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T20:35:18.996Z",
+          "prompt": "Use case: stylized-concept. Create a NEW complete 1536x1024 polished naturalistic owl-pet family plate, number85 JAPANESE SCOPS OWL, scientific subtitle Otus semitorques. Image1 is ONLY an adult species/style reference, not a target layout to reproduce. Image2 is a primary field photograph of this species' newly departed young, used ONLY for down texture/ear-tufts and incomplete wing stage, not copied composition. Three distinct naturally supported owls on a broad mossy Cryptomeria branch in warm Honshu forest: ADULT MALE left, STUDY-REFERENCED YOUNG center, ADULT FEMALE right. Adults same approximate skeletal height without asserted dimorphism, grey-brown cryptic feathering/herringbone ventrum, small greyhorn bills, orange eyes, prominent tufts, pale short feathers extending across dorsal toe surfaces up to horn claws, natural two-foot grips. IMPORTANT center young must be freshly designed from PHOTO image2, not inherited from a prior render: compact grey-buff dense short velvety down, soft finely mottled tonal masses, very faint diffuse irregular bars, small distinct tufts, shadowed eyes with unspecified iris, short greyhornbill, short incomplete folded wing tips, concealed short tail. Its inner body texture reads matte dense soft down at normal scale, no closed loops, ringlets, outlined wool, long wire curls or repeated scallops; short fine fuzz only at silhouette. Quiet slightly side-looking low crouch with two feet and belly supported near branch fork; no flight or mature remiges. Keep species-specific style of image1, not a generic horned owl, avoid giant bill/tufts in young. Exactly three birds, full feet/no merged toes/no floating. Footer 'CONCEPT — SCIENTIFIC REVIEW PENDING; AGE / IRIS / FIRST FLIGHT / SEX RATIO UNVERIFIED'. No nest/cavity claim or precise day.\nCRITICAL: allthree role labels MUST be rendered in first image: largewhite serifs at y=920, ADULT MALE belowleftbird, STUDY-REFERENCED YOUNG belowcenterbird, ADULT FEMALE belowrightbird. Footer at y=985. Interior youngdown: tiny soft opaquegrey flecks, shortfinevelvet, softly shaded littlebarbands, NO individually outlined filaments or closedwireloops. Use sourcephoto densegrey young, not curlyfleece fromanyother generatedyoung. It is down-dominated with veryshort incomplete remiges, notlong maturebarredwing."
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T20:37:06.706Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T20:37:11.186Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T20:37:14.333Z"
+        },
+        {
+          "stage": "VERIFICATION_EVIDENCE",
+          "at": "2026-11-26T20:37:45.047Z",
+          "evidence": "Both immutable originals/concepts full bytes SHA256/PILdecode passed; research/review readback passed"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-26T20:37:45.048Z"
+        }
+      ],
+      "target": "85-otus-semitorques-v10",
+      "errors": [
+        "Samecycle retry after archived v9 texture drift; v9 no batchcredit. One helper falsely treated ownvalidlease as OTHER and was fixed before retry"
+      ],
+      "source_new": 0,
+      "source_reuse": 2,
+      "source_ids": [
+        "SEM-NOHARA-HONDA-2025-P75-78",
+        "WHSO-MIKKOLA-2013"
+      ],
+      "meta": {
+        "bytes": 3001630,
+        "sha256": "f190c9393f2a569bad16ca7b2957fae654d505289a84ffb8df50b96b4d95d4b2",
+        "b64len": 4002176,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "54797b4fc7bb1abf471ed4679b25f04e5ef14103"
+      },
+      "imagegen_wait_seconds": 48.468,
+      "review": "Actual v8record/styleadultcrop/primaryFig3photo, v9failedtextedit, v10fullandyoungcrop viewed. V10 shows materiallylesslongoutlinedringlets thanv8/v9: densefinegrey tonaldown with shortirregularfuzz, distincttufts/incompletefoldedremiges/concealedtail, shadowiris/greyhornbill, lowbilateralbranchforksupport. Somefinerstylizedfilaments remain, exactfeatheratlasnotverified. All3rolelabels/current85title/footer nowinfirstimage, no furthertexteditdrift. Adultorangeiris/herringbone/greyhornbill/featheredtarsiandtoedorsa/hornclaws/near-equalscale preservedinnewcomposition. PASS_WITH_LIMITATIONS/sciencefalse, no newuserconfirmation. Texturedownimprovedinthisoutputonly, notuniversalnewrulevalidation; v9archivedfailure notcredited. Adult-onlystyleinputs+ownspeciesphotogivenfreshjuvenile substrateandfirst-renderlabelplacementhelpedthiscase; possibleage/iris/flight/sexratio/continuousfeatherunknown.",
+      "archive_commit": "dd1f2270183485d6d7127ae5e95128e92443d810",
+      "ended_at": "2026-11-26T20:37:45.047Z",
+      "verified_commit": "23b598cefe13d4f73b0ca208021696b5a4e379e8",
+      "credit_commit": "3e8cd4c5dff5f2cd8b68d20098305c7c11f66d7f",
+      "run_record": "owl-pet/production/runs/20261126T1926Z-B2-cycle4-resume2030Z-retryv10.json",
+      "timing_intervals_seconds": {
+        "research_from_started_to_ready": 5,
+        "ready_to_final_generated": 108,
+        "reviewed_to_archived": 3,
+        "archived_to_verified": 31,
+        "generation_edit_wait": 48.468
+      }
+    },
+    {
+      "batch_id": "20261126T1926Z-B2",
+      "cycle": 5,
+      "owner": "owl-production-20261126T2030Z",
+      "run_id": "20261126T2030Z",
+      "started_at": "2026-11-26T20:38:36.037Z",
+      "stage": "ARCHIVED",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T20:38:36.037Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T20:38:42.407Z",
+          "prompt": "Precise local edit of #86 Otus elegans interpositus v7. Change ONLY fine underpart pattern on BOTH ADULTS left/center: retain natural dark vertical shaftstreaks, add subtle tiny thin irregular transverse grey-brown vermiculations branching from shafts, a delicate herringbone network on grey-buff chest/belly. Marks broken/unequal/lowcontrast, not thick bands/grid; preserve valid shafts. RIGHTyoung ENTIRELY unchanged, no invented juvenile pattern/age. Keep adultheads/tufts/yelloweyes/darkbills/wings/tails/greyBAREtoes/blackhornclaws andallfeetbranchcontact, near-equalheight, creamgouachestyle/Casuarina/cane, every title/label/footer exactly. Nootherchange."
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T20:39:53.004Z",
+          "attempt": 1,
+          "meta": {
+            "bytes": 2718272,
+            "sha256": "22e90abef9cbc71ab02c974beec2dc281557419bc1f5bf5ec3ca606fd399e6a0",
+            "b64len": 3624364,
+            "size": [
+              1536,
+              1024
+            ],
+            "gitblob": "1b48ffdff4593893aaddfd30724e22d6967911be"
+          },
+          "imagegen_wait_seconds": 39.824,
+          "review": "Finecrossmarksovershot into darkrepeatedmesh; correctiveeditneeded"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T20:39:55.959Z",
+          "attempt": 2,
+          "prompt": "Precise local correction of attached86 firstedit: adult underpart NEW horizontal crossmarks are MUCH TOO DARK/THICK/REGULAR, making a decorative mesh. Change adult chest/belly ONLY: reduce crossmark opacity/contrast to about ONE FIFTH of present, narrow each to a hairline, remove two out of three crossmarks irregularly. Keep the original dark vertical shaftstreaks visible. Desired paler grey-buff adult ventrum with only faint thin broken transverse wisps, not black closed loops or a fishscale lattice. Do not alter any rightyoung feather or any adult face/wings/feet/shape, all labels/footer and background. This is only softening overdrawn crossmarks, preserve source-supported shaftstreaks."
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T20:41:05.278Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T20:41:08.717Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T20:41:11.547Z"
+        },
+        {
+          "stage": "VERIFICATION_EVIDENCE",
+          "at": "2026-11-26T20:41:46.030Z",
+          "evidence": "Both immutable originals/concepts full bytes SHA256/PILdecode passed; research/review readback passed"
+        }
+      ],
+      "target": "86-otus-elegans-v8",
+      "errors": [
+        "Adult crossmark addition too bold/repetitive in first output"
+      ],
+      "source_new": 0,
+      "source_reuse": 2,
+      "source_ids": [
+        "ELE-BIRD-RESEARCH-NEWS-2011-P1-2",
+        "WHSO-MIKKOLA-2013"
+      ],
+      "first_imagegen_wait_seconds": 39.824,
+      "meta": {
+        "bytes": 2658742,
+        "sha256": "c99226efd5afcb4ae953b72c93f2e25e426a80c6e7365943429eaad08a5efbde",
+        "b64len": 3544992,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "c07d106fa7f1abced89ddc426227fd653d59fe47"
+      },
+      "second_imagegen_wait_seconds": 35.167,
+      "review": "Actualv7/firstedit/secondeditfull viewed: first horizontalnetworktooheavy/repetitive; secondnow muchfiner/fainterirregulartransversewisps whileverticalshaftstreakspresent. Finepatternstillstylizednotquantifiednaturalspacing; no scientificpass. Adultbaregreytoes/blackhornclaws/featheredlegbases/yelloweyes/darkbill/tufts/near-equalheight preserved. Rightyoung unchangedcurltexture/unknownphase notsolved, compactfoldedwing/shorttail/twofootgrips andshelterbelt/cane/creamgouache/textstable. PASS_WITH_LIMITATIONS/sciencefalse/no newconfirmation. Prompt'addfinecrossmarks' overshot todecorativemesh; explicitamplitudereduction workedvisuallyonthisimage, notuniversalpatternrule.",
+      "archive_commit": "9d2f350cac766a4116daba82e5e39ef9bf228f9f",
+      "ended_at": "2026-11-26T20:41:46.030Z",
+      "verified_commit": "0219e0984f8cef364a5c9e72a2da584a5de6a7db",
+      "credit_commit": "34490b5294667a36ea453c11508e22e82c91fd63",
+      "run_record": "owl-pet/production/runs/20261126T1926Z-B2-cycle5-resume2030Z.json",
+      "timing_intervals_seconds": {
+        "research_from_started_to_ready": 6,
+        "ready_to_final_generated": 143,
+        "reviewed_to_archived": 3,
+        "archived_to_verified": null,
+        "generation_edit_wait": 74.991
+      }
+    },
+    {
+      "batch_id": "20261126T1926Z-B2",
+      "cycle": 6,
+      "owner": "owl-production-20261126T2030Z",
+      "run_id": "20261126T2030Z",
+      "started_at": "2026-11-26T20:41:54.511Z",
+      "stage": "ARCHIVED",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T20:41:54.511Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T20:42:00.708Z",
+          "prompt": "Annotation-only precise edit of #93 Buff-fronted Owl Aegolius harrisii iheringi v5. Preserve all biological illustration, adultleftmale/rightfemale, centraloldernestling/recognizablefacialdisc/sparsedarkgreyresidualdown/shortsoftfoldedwing/concealedtail/lowcrouchwoodchipfloor/twofeetandbellysupport, adultyelloweyes/palebills/cinnamonface/darkruff/wingroundspots/twotailbars/near-equalheight, schematiccavitycutaway/AtlanticForest/style and title. Replace ONLY central '~24-DAY NESTLING' with 'STUDY-REFERENCED NESTLING'. Add small readable bottomfooter 'CONCEPT — SCIENTIFIC REVIEW PENDING; INDIVIDUAL AGE / FIRST FLIGHT / SEX RATIO UNVERIFIED'. Keep93andcurrenttaxon/locality/adultlabels. Do notchangeplumage or cavegeometry, no addedobjects."
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T20:43:16.068Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T20:43:19.310Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T20:43:22.340Z"
+        },
+        {
+          "stage": "VERIFICATION_EVIDENCE",
+          "at": "2026-11-26T20:43:45.069Z",
+          "evidence": "Both immutable originals/concepts full bytes SHA256/PILdecode passed; research/review readback passed"
+        }
+      ],
+      "target": "93-aegolius-harrisii-v6",
+      "errors": [
+        "CONICET alternate repository not accessible; authoruploadedfullbody remainsactualsource"
+      ],
+      "source_new": 0,
+      "source_reuse": 2,
+      "source_ids": [
+        "HAR-BODRATI-ETAL-2019-REREAD",
+        "WHSO-MIKKOLA-2013"
+      ],
+      "meta": {
+        "bytes": 3066227,
+        "sha256": "63e5369b1ada66e13e31e258145690351f82c36d3f5aa8c3041ef035b1fcfe3c",
+        "b64len": 4088304,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "9828c4f0369a2b81848be7bcc532ef9b1712e220"
+      },
+      "imagegen_wait_seconds": 34.511,
+      "review": "Actualv5/v6full viewed: centralSTUDYREFERENCEDNESTLING/footerreadable, current93taxon/locality/adultlabels retained. Youngdevelopingdisc/softshortfoldedwing/residualgreydown/shortconcealedtail/lowtwofootbellywoodchipsupport unchanged; noearlydownhatchlingorflightclaim. Adultplainorangebuffventrum/darkroundface/yelloweyes/palebill/wingpalespots/twotailbars/near-equalheight retained, schematicdeadgarapacutawaynotliteraldoorsize. Annotation-onlyPASS_WITH_LIMITATIONS/sciencefalse/no newconfirmation. Primaryp153–15424dspotdevelopmentstrongerthanoldguidep447unknown/unspottedbackgeneric; no unsupportedpatternerasure. Exactage/sex/firstflight/tracts/toegeometrystillunknown.",
+      "archive_commit": "8a9a814bd409f694862111f2759b29e28baa660c",
+      "ended_at": "2026-11-26T20:43:45.069Z",
+      "verified_commit": "9cb33f92c455da67ab9aafcc8594305f05d81fb5",
+      "credit_commit": "287e6a8705e1c7fbc8e932a49deed35420cb450c",
+      "run_record": "owl-pet/production/runs/20261126T1926Z-B2-cycle6-resume2030Z.json",
+      "timing_intervals_seconds": {
+        "research_from_started_to_ready": 6,
+        "ready_to_final_generated": 75,
+        "reviewed_to_archived": 3,
+        "archived_to_verified": null,
+        "generation_edit_wait": 34.511
+      }
+    },
+    {
+      "batch_id": "20261126T2030Z-B2",
+      "cycle": 1,
+      "owner": "owl-production-20261126T2030Z",
+      "run_id": "20261126T2030Z",
+      "started_at": "2026-11-26T20:43:52.369Z",
+      "stage": "ARCHIVED",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T20:43:52.369Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T20:44:42.895Z",
+          "prompt": "Annotation-only precise edit of supplied94 Tawny-browed Owl Pulsatrix koeniswaldiana v6. Preserve EVERY biological feature and every existing label, especially AGE-UNKNOWN POST-CAVITY JUVENILE. Add ONLY a small readable bottom-margin footer 'CONCEPT — SCIENTIFIC REVIEW PENDING; INDIVIDUAL AGE / FIRST FLIGHT / SEX RATIO UNVERIFIED'. Maintain adult chestnutiris/tawnybrows/ivoryyellowhornbill/brokenbreastband/cinnamonbelly/barredwingsandtail, previouslycorrected palegreyadulttoes/yellowishgreyclaws, near-equaladultheight, centercreamdown/darkbrownface/darkiris/compactsoftfoldedwing/hiddentail/all6branchcontacts. Preserve naturalAtlanticForest/branchstyle/title94/currentname. No recolouringyoungfromadultpalette, nochangeageunknownlabel, noadditionalobjects."
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T20:45:46.923Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T20:45:50.439Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T20:45:53.869Z"
+        },
+        {
+          "stage": "VERIFICATION_EVIDENCE",
+          "at": "2026-11-26T20:46:27.229Z",
+          "evidence": "Both immutable originals/concepts full bytes SHA256/PILdecode passed; research/review readback passed"
+        }
+      ],
+      "target": "94-pulsatrix-koeniswaldiana-v7",
+      "errors": [],
+      "source_new": 0,
+      "source_reuse": 3,
+      "source_index_restored": 1,
+      "source_ids": [
+        "PKOE-MENQ-2018",
+        "PKOE-PEREIRA-LUCINDO-2013-P123-127",
+        "WHSO-MIKKOLA-2013"
+      ],
+      "meta": {
+        "bytes": 2733390,
+        "sha256": "a1a745c7b305c1c34e2b104110f6ed367bae8ab896b538a4bd550d91ee7f564d",
+        "b64len": 3644520,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "5cdd12b780672f5dfaf8f97ea2bc81f13e5cbf14"
+      },
+      "imagegen_wait_seconds": 34.341,
+      "review": "Actualv6/v7fullview: sciencepending/age-flight-sexratiofooter readable, ageunknownpostcavitylabelunchanged. Threeowls/stablefootcontacts, adultchestnutiris/tawnybrows/ivoryyellowbill/brokenbrownchestband/cinnamonventrum/narrowtailbars/near-equalheight/greybaretoes/yellowishgreyclaws remain. Centralcreamdown/darkbrownmask/darkeyes/compactwing/hiddentail retainedwithoutadultclawpalettetransfer. Branchhabitatnotliteralnest. Annotation-onlyPASS_WITH_LIMITATIONS/sciencefalse/no newconfirmation. Primarycalendarfiveweeksis inferredincubationnotyoungage; explicitunknownnotfullfeathercalibration.",
+      "archive_commit": "99610f9ace546f5d52edf25bedc40ed58dba5c20",
+      "ended_at": "2026-11-26T20:46:27.229Z",
+      "verified_commit": "d490d12c3457662fb46c391b356e89cc7817d3af",
+      "credit_commit": "8cbca016d6afb8cc69abfd6d3e5f93429f32d8ce",
+      "run_record": "owl-pet/production/runs/20261126T2030Z-B2-cycle1-resume2030Z.json",
+      "timing_intervals_seconds": {
+        "research_from_started_to_ready": 51,
+        "ready_to_final_generated": 64,
+        "reviewed_to_archived": 3,
+        "archived_to_verified": null,
+        "generation_edit_wait": 34.341
+      }
+    },
+    {
+      "batch_id": "20261126T2030Z-B2",
+      "cycle": 2,
+      "owner": "owl-production-20261126T2030Z",
+      "run_id": "20261126T2030Z",
+      "started_at": "2026-11-26T20:46:35.334Z",
+      "stage": "ARCHIVED",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T20:46:35.334Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T20:46:41.202Z",
+          "prompt": "Annotation-only edit supplied95 Band-bellied Owl Pulsatrix melanota v6. Keep entire biological image and title/adultlabels/supports exactly. Replace centerlabel 'RECENT FLEDGLING' (or existing younglabel) with 'AGE-UNKNOWN DEPENDENT YOUNG'. Add small readable footer 'CONCEPT — SCIENTIFIC REVIEW PENDING; INDIVIDUAL AGE / FIRST FLIGHT / SEX RATIO UNVERIFIED'. Retain centerpatchycream-whitecrown/cinnamondownbody/blackface/darkeyes/yellowbill/tinyemergingchestfeathers/compactsoftfoldedwing/concealedtail/twofeetandbellyonmossyAlbiziafork; notallwhitebaby/notadultribbib. Adultsdarkeyes/whitebrowsandthroat/broadchestband/rustybellybars/paleyellowbill/featheredtarsi/baretoes/near-equalheight unchanged. Keep unlinedorganicfork/coffee-plantainYungashabitat, polishedstyle,3birds. No new age, flight or claim thisyoungwasthenestoccupant."
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T20:48:19.921Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T20:48:22.879Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T20:48:25.762Z"
+        },
+        {
+          "stage": "VERIFICATION_EVIDENCE",
+          "at": "2026-11-26T20:48:59.858Z",
+          "evidence": "Both immutable originals/concepts full bytes SHA256/PILdecode passed; research/review readback passed"
+        }
+      ],
+      "target": "95-pulsatrix-melanota-v7",
+      "errors": [],
+      "source_new": 0,
+      "source_reuse": 2,
+      "source_ids": [
+        "MEL-RIVAS-FUENZALIDA-BURGOS-2022-84-88",
+        "WHSO-MIKKOLA-2013"
+      ],
+      "source_fact_updates": 1,
+      "meta": {
+        "bytes": 2716383,
+        "sha256": "76fb39186f9546aa419b5a9fd0f79a9a38ada49850a7e3ff0f6ec5dc658ff015",
+        "b64len": 3621844,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "93dd92cae044b879055da3542be22173692f56a5"
+      },
+      "imagegen_wait_seconds": 36.772,
+      "review": "Actualv6/v7full viewed: AGEUNKNOWNDEPENDENTYOUNG/footerreadable, 95title/currentname/adultlabels preserved. Oldercentralwhitepatchycrown/cinnamondown/blackmask/darkiris/yellowbill/tinychestfeathers/shortsoftwing/concealedtail/belly+feetforksupport remain. Adultdarkeyes/paleyellowbills/whiteface/broadbrownchestband/rustybellybars/nearequalheight/feetstable, exposedorganicfork/shadecoffeeplantain unchanged. Annotation-onlyPASS_WITH_LIMITATIONS/sciencefalse, notcalibratedindividualfirstflight/nestoccupancy; no newconfirmation. Repeatedcurlyfeatheredges stillcandidateforphoto-boundedtextureaudit as#85family, notfixedhere; no scientificpass. Newprimaryfactonefemaleidentifiednotsexratioproof.",
+      "archive_commit": "c750ab9fa7d0fa9facae240d0ee9bf0a38769895",
+      "ended_at": "2026-11-26T20:48:59.858Z",
+      "verified_commit": "92837fe994df9c548218614df236ccb428e35935",
+      "credit_commit": "6017377142bc3236897fd42266e6ccd002f38d53",
+      "run_record": "owl-pet/production/runs/20261126T2030Z-B2-cycle2-resume2030Z.json",
+      "timing_intervals_seconds": {
+        "research_from_started_to_ready": 6,
+        "ready_to_final_generated": 99,
+        "reviewed_to_archived": 3,
+        "archived_to_verified": null,
+        "generation_edit_wait": 36.772
+      }
+    },
+    {
+      "batch_id": "20261126T2030Z-B2",
+      "cycle": 3,
+      "owner": "owl-production-20261126T2030Z",
+      "run_id": "20261126T2030Z",
+      "started_at": "2026-11-26T20:49:07.776Z",
+      "stage": "ARCHIVED",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T20:49:07.776Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T20:49:13.973Z",
+          "prompt": "Annotation-only precise edit #96 Unspotted Saw-whet Owl Aegolius ridgwayi v6. Preserve entire biological drawing and alladultlabels/title/currentname. Change central 'RECENT FLEDGLING — AGE UNKNOWN' to 'AGE-UNKNOWN DEPENDENT YOUNG'. Add small bottommarginfooter 'CONCEPT — SCIENTIFIC REVIEW PENDING; INDIVIDUAL AGE / FIRST FLIGHT / SEX RATIO UNVERIFIED'. Keep lastv6 pale/faintbuffjuvenilebreastwisps (do NOT restorelongdarkshafts), warmbrownsoftdown/headstreaks/yelloweyes/darkbill/compactwing/concealedtail/twofootbranchgrip; bothadultsfinecrownstreaks/brownbacks/plainbuffventra/fleshtoes/sparsebristles/near-equalscale, cavity/cloudforest/moss/branches/style/text exactlyunchanged. No new preciseage, juvenilefootcolour or firstflightclaim; noextraanimal/object."
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T20:50:19.540Z",
+          "evidence": "Alternatefirstparty pageandphoto actuallyread; juvenilecrown morphologicalfixadded",
+          "prompt": "Precise-object-edit #96 Aegolius ridgwayi v6 supplied as image1; image2 is firstparty field photograph explicitlycaptioned JuvenileUnspottedSaw-whetOwl by KnutEisermann, morphologyreferenceonly not copied. Change ONLY CENTER YOUNG CROWN/FOREHEAD FEATHER PATTERN: remove the conspicuous elongated whitish shaft-streaks scattered over its brown crown. Render dense fine softly textured plain warm grey-brown crown like reference2, with very subtle natural brown feather divisions. Retain the distinct white eyebrow/lores patch between andabove eyes (reference has them), face shape, yellowiris/darkbill, all body/wing down and faint buffbreast marks, compactfoldedwing/shorttail/bothfeet grip. Do NOT apply this juvenile crown change to either ADULT (their fine crown shaftstreaks are source-supported). Also change centerlabel to AGE-UNKNOWN DEPENDENT YOUNG and add smallfooter CONCEPT — SCIENTIFIC REVIEW PENDING; INDIVIDUAL AGE / FIRST FLIGHT / SEX RATIO UNVERIFIED. Preserve allotherbiology,3birds,96title/currenttaxon, adultlabels, near-equaladultscale/cloudforest/cavity/branches/style. Photoisheadonly/noage: do not invent body featherstage/flight or shorten all wings."
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T20:51:46.678Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T20:51:49.879Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T20:51:53.046Z"
+        },
+        {
+          "stage": "VERIFICATION_EVIDENCE",
+          "at": "2026-11-26T20:52:13.264Z",
+          "evidence": "Both immutable originals/concepts full bytes SHA256/PILdecode passed; research/review readback passed"
+        }
+      ],
+      "target": "96-aegolius-ridgwayi-v7",
+      "errors": [
+        "CAYAYA juvenilepageinaccessible; no newphoto pixels; other-species juveniles excluded"
+      ],
+      "source_new": 1,
+      "source_reuse": 2,
+      "source_ids": [
+        "RID-MIK2013-446",
+        "RID-CAYAYA-EISERMANN-JUV-PHOTO-2026",
+        "RID-EISERMANN-AVENDANO-NATURALHISTORY-JUV-PHOTO"
+      ],
+      "meta": {
+        "bytes": 2767975,
+        "sha256": "9a62853e2d323225271d25ff839a63910f0e6e843272deb73afc16039380256e",
+        "b64len": 3690636,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "e08a28a901ca04934fcefaa8f186019a6d861e45"
+      },
+      "imagegen_wait_seconds": 43.354,
+      "review": "Actualv6full/sourcefirstpartyjuvenile878x700/v7full/nativeheadcrop viewed. Centralcrownlongbrightwhiteshaftsremoved, nowdensefinewarmgrey-brownshorttexturelikephoto; whiteeyebrows/lores preservedratherthanblankface. Adultfinecrownshaftstreaksunchanged, yelloweyes/darkbills/near-equalscale/fleshtoessparsebristles retained. Lastv6youngfaintbuffbreastwisps notrestoredtobolddarkshafts, bodyfluffy/compactwing/concealedtail/bilateralbranchgrip maintained. AGEUNKNOWNDEPENDENTYOUNG/footerreadable, 96taxon/title/adultlabels/cloudforest/cavitystable. Contentcrown+annotationPASS_WITH_LIMITATIONS/sciencefalse/no newconfirmation. Photoheadonlynoexactage/sex/flight/wingfootdata, notspecimen-general/universaljuvenilepattern. Ruleactualappliedandlocalviewverified: specificyoungcrownreference maydifferfrom legitimateadultshaftstreaks; preservevalidadultpattern andpriorbreastfix. CAYAYAoldinaccessible, alternatefirstpartydocument/newpixelsreadnotclaimedtwoindependentphotos.",
+      "archive_commit": "4a01c385bc7a9eb0cffe2d25c375aac8cbf8efe9",
+      "ended_at": "2026-11-26T20:52:13.264Z",
+      "verified_commit": "912ffda2b2aff9a5e3dade625d2646fa07765f49",
+      "credit_commit": "ecfdbaf13c0fead36f0d37317da3ff44e1ad8e88",
+      "run_record": "owl-pet/production/runs/20261126T2030Z-B2-cycle3-resume2030Z.json",
+      "timing_intervals_seconds": {
+        "research_from_started_to_ready": 6,
+        "ready_to_final_generated": 153,
+        "reviewed_to_archived": 3,
+        "archived_to_verified": null,
+        "generation_edit_wait": 43.354
+      }
+    }
+  ],
+  "noncredited_failure": {
+    "batch_id": "20261126T1926Z-B2",
+    "cycle": 4,
+    "owner": "owl-production-20261126T2030Z",
+    "run_id": "20261126T2030Z",
+    "started_at": "2026-11-26T20:30:50.080Z",
+    "stage": "VERIFIED_ARCHIVE_NEEDS_REVISION_NO_CREDIT",
+    "stages": [
+      {
+        "stage": "STARTED",
+        "at": "2026-11-26T20:30:50.080Z"
+      },
+      {
+        "stage": "RESEARCH_READY",
+        "at": "2026-11-26T20:31:31.040Z",
+        "prompt": "Use case: stylized-concept. Create a NEW complete 1536x1024 polished naturalistic owl-pet family plate, number85 JAPANESE SCOPS OWL, scientific subtitle Otus semitorques. Image1 is ONLY an adult species/style reference, not a target layout to reproduce. Image2 is a primary field photograph of this species' newly departed young, used ONLY for down texture/ear-tufts and incomplete wing stage, not copied composition. Three distinct naturally supported owls on a broad mossy Cryptomeria branch in warm Honshu forest: ADULT MALE left, STUDY-REFERENCED YOUNG center, ADULT FEMALE right. Adults same approximate skeletal height without asserted dimorphism, grey-brown cryptic feathering/herringbone ventrum, small greyhorn bills, orange eyes, prominent tufts, pale short feathers extending across dorsal toe surfaces up to horn claws, natural two-foot grips. IMPORTANT center young must be freshly designed from PHOTO image2, not inherited from a prior render: compact grey-buff dense short velvety down, soft finely mottled tonal masses, very faint diffuse irregular bars, small distinct tufts, shadowed eyes with unspecified iris, short greyhornbill, short incomplete folded wing tips, concealed short tail. Its inner body texture reads matte dense soft down at normal scale, no closed loops, ringlets, outlined wool, long wire curls or repeated scallops; short fine fuzz only at silhouette. Quiet slightly side-looking low crouch with two feet and belly supported near branch fork; no flight or mature remiges. Keep species-specific style of image1, not a generic horned owl, avoid giant bill/tufts in young. Exactly three birds, full feet/no merged toes/no floating. Footer 'CONCEPT — SCIENTIFIC REVIEW PENDING; AGE / IRIS / FIRST FLIGHT / SEX RATIO UNVERIFIED'. No nest/cavity claim or precise day."
+      },
+      {
+        "stage": "IMAGE_GENERATED",
+        "at": "2026-11-26T20:32:54.132Z",
+        "attempt": 1,
+        "meta": {
+          "bytes": 3046190,
+          "sha256": "e3d0c966afb1956dc3a6de1316d65d7289c00737c455c7950d0b7c0d0f26bc5b",
+          "b64len": 4061588,
+          "size": [
+            1536,
+            1024
+          ],
+          "gitblob": "a12cf8ec013be660fe599a9ea4d66a7687bc275c"
+        },
+        "imagegen_wait_seconds": 47.312,
+        "review": "Newdownsubstrate visiblybetter, rolelabelsomitted; requiredtextedit"
+      },
+      {
+        "stage": "RESEARCH_READY",
+        "at": "2026-11-26T20:32:58.948Z",
+        "attempt": 2,
+        "prompt": "Text-only edit supplied new #85 plate. KEEP EVERY OWL, including the newly rebuilt grey down texture, short incomplete juvenile folded wing, low supported crouch, both adult toe feathers and all branch/background pixels unchanged. Add three clearly readable white serif role labels in space BELOW the branch but ABOVE the existing footer, aligned under each bird: left 'ADULT MALE', center 'STUDY-REFERENCED YOUNG', right 'ADULT FEMALE'. Maintain exact title85 JAPANESE SCOPS OWL / Otus semitorques and existing sciencependingfooter. Do not remove/repaint feathers or alter any bird, foot grip, iris or scale. Only add the omitted labels."
+      },
+      {
+        "stage": "IMAGE_GENERATED",
+        "at": "2026-11-26T20:34:17.831Z"
+      },
+      {
+        "stage": "REVIEWED",
+        "at": "2026-11-26T20:34:21.005Z"
+      },
+      {
+        "stage": "ARCHIVED",
+        "at": "2026-11-26T20:34:24.042Z"
+      },
+      {
+        "stage": "VERIFIED_ARCHIVE_NEEDS_REVISION_NO_CREDIT",
+        "at": "2026-11-26T20:34:57.908Z",
+        "evidence": "BothimmutableGETbytes/SHA256/PILdecoded; textedittexturefailure remains, no batchcredit"
+      }
+    ],
+    "target": "85-otus-semitorques-v9",
+    "errors": [
+      "First output omitted all three role labels"
+    ],
+    "source_new": 0,
+    "source_reuse": 2,
+    "source_ids": [
+      "SEM-NOHARA-HONDA-2025-P75-78",
+      "WHSO-MIKKOLA-2013"
+    ],
+    "first_imagegen_wait_seconds": 47.312,
+    "meta": {
+      "bytes": 2898554,
+      "sha256": "2bdab6d0433ff6d70bbe4a589c07bc5f7998abb2a9fd220220279e48f6df15f8",
+      "b64len": 3864740,
+      "size": [
+        1536,
+        1024
+      ],
+      "gitblob": "cc4b628071e1d1dd7ab6c5d8189fedab062f653a"
+    },
+    "second_imagegen_wait_seconds": 33.914,
+    "review": "Actualv8record, croppedadultstyle/primaryFig3young, initialnewplate, label-editedfinal and finalyoungcrop viewed. Newyoung lowcrouch/twofeetbellysupportedfork, distincttufts/shadoweyes/greyhornbill, incompletefoldedwing/concealedtail alignselectedprimaryphase betterthanprioruprightpuffball. Adultorangeeyes/featheredtoes/hornclaws/herringbone/near-equalskeletalheight retained innewcomposition. Finalrolelabels/footer present. HOWEVER text-onlyedit alteredyoungtexture, reintroducing some conspicuousloops acrossbreast/back comparedtoinitial. Therefore wholetexturefix NOT achieved: NEEDS_REVISION/sciencefalse, no newconfirmation. Freshadult-onlystyleinput workedpartiallybeforetextedit, labelrepair causeddrift; hypothesisnotvalidatedstable. Nextpriority preserveinitialtexturewhileaddinglabels usingfurtherimagegen, no claimnewruleuniversal.",
+    "archive_commit": "2a9b44471e82a9b78f6a7e7709e7fc9f558b9acd",
+    "ended_at": "2026-11-26T20:34:57.908Z"
+  },
+  "errors_extra": [
+    "Initialfunctionsstorehelpersabsent;initializedbeforewrites",
+    "Own lease falsely classified OTHER once; changed owner comparison",
+    "V10STARTED overwrote currentv9runpath; v9failure exactrecord restored and v10retryfile separated",
+    "V9archiveverification stage written while execstillrunning; after exit0 appended actualconfirmation, no cyclecredit",
+    "After #85v10 VERIFIED connector briefly returned previous archivehead; fresh commit/main andref agreed, ledgercreditrecovered without regeneration"
+  ],
+  "timing_limits": "Stage timestamps/call wait measured; includes preread and asyncarchivewindows, not CPU/platform budget telemetry."
+}

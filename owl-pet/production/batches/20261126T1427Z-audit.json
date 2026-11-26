@@ -1,0 +1,699 @@
+{
+  "invocation": "20261126T1427Z",
+  "checked_at": "2026-11-26T14:53:18.882Z",
+  "completed_this_invocation": 6,
+  "new_species": 0,
+  "revised_species": 6,
+  "morphology_revisions": 4,
+  "annotation_only_revisions": 2,
+  "imagegen_calls": 8,
+  "extra_edit_calls": 1,
+  "rejected_duplicate_attempts": 1,
+  "coverage": {
+    "unique": 207,
+    "total": 251,
+    "remaining": 44,
+    "numbered_versions": 1148,
+    "aliases": {
+      "glaucidium-brasilianum-cactorum": "glaucidium-brasilianum",
+      "tyto-javanica-delicatula": "tyto-javanica",
+      "pseudoscops-grammicus": "asio-grammicus"
+    },
+    "truncated": false
+  },
+  "sources": {
+    "new": 1,
+    "reuse_uses": 15,
+    "citation_uses": 16,
+    "distinct_documents": 11,
+    "access_upgrade": 1,
+    "upgraded": "SBEO-SRINIVASAN-2013-P106-107 Fig114 actual local PDF pixels after screenshotplaceholder",
+    "new_id": "AWOO-OWLPAGES-2020",
+    "index": "owl-pet/research/SOURCE_INDEX.md"
+  },
+  "batch": {
+    "old": "20261126T1345Z",
+    "old_this_invocation_cycles": [
+      4,
+      5,
+      6
+    ],
+    "old_completed": 6,
+    "current": "20261126T1445Z",
+    "current_completed": 3,
+    "next": 4,
+    "other_partial": 0
+  },
+  "errors": [
+    {
+      "step": "51 first crown edit",
+      "detail": "Overregular grid. Attempt1 exactoriginal retained; second actualimagegenedit and view reduced grid, residual pattern calibration remains open."
+    },
+    {
+      "step": "52 selection and archive guard",
+      "detail": "Used v6 despite priorv7 existing. Wrongly touched52v7 original/research checkpoint, duplicate manifest guard stoppedarchive/credit. Both oldoriginal4c8cc499ee333dcfb3e3849bdf9e2f74e97672bf and exact oldresearch restored/readbackchecked. Rejectednewattempt saved unique path, no credit. Then realv8 edited fromactualv7, olderphoto-supportedyoung retained."
+    },
+    {
+      "step": "52/55/58 ledger publication read",
+      "detail": "Immediate refread mismatches occurred after commits pushed. Fresh commits+ledger reads confirmed7bb4bab8c336a91b7c30aca6ffd9f95cd561c4b2 / subsequent credits. No repeated images/credits."
+    },
+    {
+      "step": "Brown1965",
+      "detail": "Web400Timeout, directPDFdownload but no target text extracted; no freshprimarybody claim."
+    },
+    {
+      "step": "Srinivasan2013 screenshot",
+      "detail": "Web screenshotplaceholder had no pixels; actual local PDFpage107 successfullyrendered/viewed."
+    }
+  ],
+  "recovery25": {
+    "exists": true,
+    "bytes": 2864437,
+    "sha256": "729c187af12da587305c0c701c07440464896f5a6ada74431dfa3e7b19616ca1",
+    "local_equals_remote_original": true,
+    "full_png_decode": true,
+    "fd9d70d": "remote422 no commit found"
+  },
+  "verification": "Six original+concept immutable GET lengths/SHA256/full PNGdecode passed; fresh untruncatedtree blob+size and singlemanifestID checks; allfiveactualphases/runresearchreview read back. sciencefalse allsix.",
+  "timing_note": "Checkpoint elapsed includes orchestration/research/inspection; generation and51edit are measured tool waits. Rejected52 firstgeneration ~104.8s toolwall; not credited. No platform timeout telemetry.",
+  "deliveries": [
+    {
+      "id": "49-strix-woodfordii-v7",
+      "archive": "7e4e847733a68d001f1fb1f1e1fcc849b53e27cd",
+      "verify": "effe5327564ca04081890feaa3d806f9cc20a4ba",
+      "run": "owl-pet/production/runs/20261126T1345Z-cycle4-resume1427Z.json",
+      "meta": {
+        "bytes": 2519108,
+        "sha256": "47285f29c5598617be038f34c8085b11853b68497af095cae4324a8c349428bf",
+        "gitblob": "174cd0ba1080d23072c4de62072ad9ad2c4eb67c",
+        "b64len": 3358812
+      },
+      "record": {
+        "owner": "20261126T1427Z",
+        "run_id": "20261126T1345Z-cycle4-resume1427Z",
+        "batch_id": "20261126T1345Z",
+        "cycle": 4,
+        "started_at": "2026-11-26T14:28:19.533Z",
+        "stage": "VERIFIED",
+        "stages": [
+          {
+            "stage": "STARTED",
+            "at": "2026-11-26T14:28:19.533Z"
+          },
+          {
+            "stage": "RESEARCH_READY",
+            "at": "2026-11-26T14:29:51.245Z",
+            "evidence": "v6 actually viewed: adult eyelid margins dark brown rather than documented fleshy pink; targeted adult-only correction, not repeat crown or age annotation."
+          },
+          {
+            "stage": "IMAGE_GENERATED",
+            "at": "2026-11-26T14:31:00.612Z",
+            "blob": "174cd0ba1080d23072c4de62072ad9ad2c4eb67c"
+          },
+          {
+            "stage": "REVIEWED",
+            "at": "2026-11-26T14:31:20.714Z",
+            "evidence": "v6/v7整图实际查看。成年眼睑由深褐改肉粉，周围深色羽缘、暗虹膜与黄喙保持；幼鸟羽被/形成折翼/自然双足支撑与年龄未知标识保持。未发现需再次编辑的明显新问题。色环厚度及裸皮确切色值仍未科学定标；近等站高不从体重差推出固定倍率。概念PASS_WITH_LIMITATIONS/sciencefalse。问题—证据—修改—复查已落实眼睑，不把同属其他种眼睑统一改粉；本图有效不代表全库验证。新1/复用2，原文读取范围和繁殖日龄冲突见研究文件。"
+          },
+          {
+            "stage": "ARCHIVED",
+            "at": "2026-11-26T14:31:24Z",
+            "commit": "7e4e847733a68d001f1fb1f1e1fcc849b53e27cd"
+          },
+          {
+            "stage": "VERIFIED",
+            "at": "2026-11-26T14:31:44.596Z",
+            "evidence": "originals VERIFIED\nconcepts VERIFIED\n"
+          }
+        ],
+        "errors": [],
+        "target": "49-strix-woodfordii-v7",
+        "meta": {
+          "bytes": 2519108,
+          "sha256": "47285f29c5598617be038f34c8085b11853b68497af095cae4324a8c349428bf",
+          "gitblob": "174cd0ba1080d23072c4de62072ad9ad2c4eb67c",
+          "b64len": 3358812
+        },
+        "generation_wait_seconds": 41.714,
+        "review": "v6/v7整图实际查看。成年眼睑由深褐改肉粉，周围深色羽缘、暗虹膜与黄喙保持；幼鸟羽被/形成折翼/自然双足支撑与年龄未知标识保持。未发现需再次编辑的明显新问题。色环厚度及裸皮确切色值仍未科学定标；近等站高不从体重差推出固定倍率。概念PASS_WITH_LIMITATIONS/sciencefalse。问题—证据—修改—复查已落实眼睑，不把同属其他种眼睑统一改粉；本图有效不代表全库验证。新1/复用2，原文读取范围和繁殖日龄冲突见研究文件。",
+        "ended_at": "2026-11-26T14:31:44.596Z",
+        "archive_commit": "7e4e847733a68d001f1fb1f1e1fcc849b53e27cd"
+      },
+      "rec": {
+        "id": "49-strix-woodfordii-v7",
+        "issue": "v6 actually viewed: adult eyelid margins dark brown rather than documented fleshy pink; targeted adult-only correction, not repeat crown or age annotation.",
+        "sources": [
+          {
+            "id": "AWOO-MIKKOLA-2013-P320-321",
+            "title": "Owls of the World photographic guide second edition",
+            "author": "Heimo Mikkola",
+            "year": 2013,
+            "url": "user uploaded owls.pdf",
+            "pages": "printed320/PDF322",
+            "facts": "Fresh original text read: dark eyes with fleshy-pink eyelids; yellow bill/cere, bare yellow-horn toes/grey-brown claws; female mass >50g average not standing-height ratio; mesoptile pale reddish with white tips and bars.",
+            "limits": "Broad species account, selected nigricantior darker; no exact juvenile age/iris/flight or measured local sex ratio."
+          },
+          {
+            "id": "AWOO-SANBI-2018",
+            "title": "African Wood Owl",
+            "author": "SANBI",
+            "year": "2018 updated2021",
+            "url": "https://www.sanbi.org/animal-of-the-week/african-wood-owl/",
+            "pages": "Description/Sex and life cycles lines30–46",
+            "facts": "Fresh body read: adult sexes alike in plumage, yellow cere/bill and feet; juvenile pale rufous down persists; tree-hole nest.",
+            "limits": "Regional secondary synthesis; fledging30–37d differs OwlPages23–27d, no exact dates assigned to Tanzanian concept."
+          },
+          {
+            "id": "AWOO-OWLPAGES-2020",
+            "title": "African Wood Owl Strix woodfordii",
+            "author": "Deane Lewis",
+            "year": "2020-10-27",
+            "url": "https://www.owlpages.com/owls/species.php?s=1630",
+            "pages": "Description/Size/Breeding lines68–80",
+            "facts": "Fresh original specialist page read: fleshy pink eyelids, dark-brown eyes/yellow cere-bill/bare yellow horn toes, juvenile nest exit23–27d but no flight yet.",
+            "limits": "Secondary compilation includes Mikkola, not independent primary confirmation. Not nigricantior age series."
+          }
+        ],
+        "index_note": "新1 AWOO-OWLPAGES-2020（基线索引无URL），复用2；重新读图鉴320/PDF322、SANBI与物种专属OwlPages正文；只修成年眼睑，保留幼鸟羽龄/飞行未知，离巢日龄冲突不混合。",
+        "prompt": "Use case precise-object-edit. Edit the supplied #49 African Wood Owl Strix woodfordii v6 card. Change ONLY the narrow exposed eyelid margins of BOTH ADULTS from dark brown to restrained fleshy dusty pink, following Mikkola p320 and OwlPages species1630. Keep surrounding broad dusky feather eye ring dark, irises dark brown and pupils black; do not make pink eye-feathers or rings of pink plumage. Preserve adult crown fine white flecks, yellow bill/cere, bare yellow-horn toes, grey-brown claws, all plumage and body proportions. Preserve centre juvenile completely, including later-dependent formed short wing, age-unknown label, residual down, bill/eyes, two-foot support. Keep title, all role labels, TANZANIAN NIGRICANTIOR CONCEPT · FEATHER AGE AND FLIGHT UNVERIFIED footer and warm painterly detailed style, forest, branch support, exact1536x1024 composition unchanged. No new biological age or sex-scale claims."
+      }
+    },
+    {
+      "id": "51-strix-rufipes-v7",
+      "archive": "033ea1d3f8f5fbdb40f7b34d2d9c3579783b909f",
+      "verify": "74033479bcad56ded5bd8e85f997faaf01241ca4",
+      "run": "owl-pet/production/runs/20261126T1345Z-cycle5-resume1427Z.json",
+      "meta": {
+        "bytes": 2669282,
+        "sha256": "f7807aed85992ea2ee15d9d29791ac820b79cc9d805ee6ee86a6f486b83a6f4e",
+        "gitblob": "401da124706978b7fceffc7d27494133e7a3111c",
+        "b64len": 3559044
+      },
+      "record": {
+        "batch_id": "20261126T1345Z",
+        "cycle": 5,
+        "owner": "20261126T1427Z",
+        "run_id": "20261126T1345Z-cycle5-resume1427Z",
+        "started_at": "2026-11-26T14:31:49.374Z",
+        "stage": "VERIFIED",
+        "stages": [
+          {
+            "stage": "STARTED",
+            "at": "2026-11-26T14:31:49.374Z"
+          },
+          {
+            "stage": "RESEARCH_READY",
+            "at": "2026-11-26T14:32:42.649Z",
+            "evidence": "v6 actually viewed: adult crowns dominated by pale flecks/shafts rather than guide's dense fine whitish transverse bars; refine adult crown only, retain morphology and previously repaired toe feathers."
+          },
+          {
+            "stage": "IMAGE_GENERATED",
+            "at": "2026-11-26T14:33:54.323Z",
+            "blob": "5878157d6b206e9ff9b93e999f71fc251d79d313"
+          },
+          {
+            "stage": "IMAGE_GENERATED",
+            "at": "2026-11-26T14:35:03.153Z",
+            "blob": "401da124706978b7fceffc7d27494133e7a3111c"
+          },
+          {
+            "stage": "REVIEWED",
+            "at": "2026-11-26T14:35:09.087Z",
+            "evidence": "实际查看v6、第一稿和第二稿整图。成年冠部由散点/纵向羽轴改细横向白斑；首稿规则网格感过强，保存attempt1并定向编辑后白斑明显断续/对比减弱，仍有规则行列感，精确斑纹密度/几何列后续科学校准，不能称完全自然复原。幼鸟白绒无成熟翼尾、侧靠啄壁姿势、洞底腹足支撑、成年羽趾/爪与全部原标签和不确定页脚保留。概念PASS_WITH_LIMITATIONS/sciencefalse；本轮改进横纹方向，但未解决所有纹理校准。原文p173日龄为他种比较推测，不因图标签变成已测年龄。经验：规则完整横带提示易生成网格，第二次编辑在本图减少但没有证明通用预防有效；#49冠斑为点斑不能套此横纹规则。新0复用2。"
+          },
+          {
+            "stage": "ARCHIVED",
+            "at": "2026-11-26T14:35:13Z",
+            "commit": "033ea1d3f8f5fbdb40f7b34d2d9c3579783b909f"
+          },
+          {
+            "stage": "VERIFIED",
+            "at": "2026-11-26T14:35:26.888Z",
+            "evidence": "originals VERIFIED\nconcepts VERIFIED\n"
+          }
+        ],
+        "errors": [
+          {
+            "step": "first actual review",
+            "detail": "Crown barring overregular grid/lattice rather than irregular fine featherbars; attempt1 retained, no credit."
+          }
+        ],
+        "target": "51-strix-rufipes-v7",
+        "meta": {
+          "bytes": 2669282,
+          "sha256": "f7807aed85992ea2ee15d9d29791ac820b79cc9d805ee6ee86a6f486b83a6f4e",
+          "gitblob": "401da124706978b7fceffc7d27494133e7a3111c",
+          "b64len": 3559044
+        },
+        "generation_wait_seconds": 40.48,
+        "edit_prompt": "Correct only the adult crown pattern in this generated #51 card. Current crown stripes look like a regular geometric grid/net. Reduce white contrast and density by about half, break every stripe into irregular tiny feather-tip dashes, vary spacing and stagger segments; no vertical grid crosslines, no complete parallel rings around head. Mostly natural sepia feathers with subtle fine whitish transverse markings. Keep all other anatomy, chick, labels/footer, habitat and original style unchanged.",
+        "edit_wait_seconds": 39.096,
+        "review": "实际查看v6、第一稿和第二稿整图。成年冠部由散点/纵向羽轴改细横向白斑；首稿规则网格感过强，保存attempt1并定向编辑后白斑明显断续/对比减弱，仍有规则行列感，精确斑纹密度/几何列后续科学校准，不能称完全自然复原。幼鸟白绒无成熟翼尾、侧靠啄壁姿势、洞底腹足支撑、成年羽趾/爪与全部原标签和不确定页脚保留。概念PASS_WITH_LIMITATIONS/sciencefalse；本轮改进横纹方向，但未解决所有纹理校准。原文p173日龄为他种比较推测，不因图标签变成已测年龄。经验：规则完整横带提示易生成网格，第二次编辑在本图减少但没有证明通用预防有效；#49冠斑为点斑不能套此横纹规则。新0复用2。",
+        "ended_at": "2026-11-26T14:35:26.888Z",
+        "archive_commit": "033ea1d3f8f5fbdb40f7b34d2d9c3579783b909f"
+      },
+      "rec": {
+        "id": "51-strix-rufipes-v7",
+        "issue": "v6 actually viewed: adult crowns dominated by pale flecks/shafts rather than guide's dense fine whitish transverse bars; refine adult crown only, retain morphology and previously repaired toe feathers.",
+        "sources": [
+          {
+            "id": "RLO-MIKKOLA-2013-P333",
+            "title": "Owls of the World second edition",
+            "author": "Heimo Mikkola",
+            "year": 2013,
+            "url": "uploaded owls.pdf",
+            "pages": "printed333/PDF335",
+            "facts": "Fresh read: sepia upperparts; head/crown/hindneck dense fine whitish bars, dark-brown eyes/wax-yellow bill/feathered toes/brownish-horn claws; pale and dark morphs, pale male caption prevents sex-by-colour. Female longer wing and heavier direction not fixed height.",
+            "limits": "Fine pattern scale unmeasured, male/female illustrative pair not diagnostic; no exact young chronology."
+          },
+          {
+            "id": "RLO-VUKASOVIC-2006-P172-174",
+            "title": "Nesting Record of Rufous-legged Owl in Central Chile",
+            "author": "M.Angélica Vukasovic, M.A.H.Escobar, J.A.Tomasevic, C.F.Estades",
+            "year": 2006,
+            "url": "https://levs.cl/wp-content/uploads/2023/07/25.-Vukasovic-M.-A.-M.-A.-H.-Escobar-J.-A.-Tomasevic-C.F.-Estades.-2006.-Nesting-Record-of-Rufous-legged-Owl-Strix-rufipes-King-in-central-Chile.pdf",
+            "pages": "printed172–173/PDF3–4; Results",
+            "facts": "Fresh original body read: dead broken hualo top cup cavity3m high/30cm inner diameter, one owlet; <=oneweek comparison with other Strix not hatchdate; pecking cavity wall observation.",
+            "limits": "One Chilean nest, not universal material/age/flight data. No source photos copied."
+          }
+        ],
+        "index_note": "新增0/复用2，本次原文与图鉴实际重读；v7只修成年冠部细横斑，不重复趾羽或年龄注释；幼鸟日龄跨种推测/性别色型限制保持。",
+        "prompt": "Use case precise-object-edit. Edit ONLY crown and visible hindneck feather markings of BOTH ADULTS in #51 Strix rufipes v6 card: replace scattered pale shaft-like crown flecks with dense fine short whitish TRANSVERSE feather bars, subtle broken horizontal arcs across sepia crown, not large spots, vertical streaks, thick zebra stripes or a white cap. Keep predominantly sepia-brown heads; preserve eyebrows, faces, dark iris/waxyellow bill, relative adult colour/scale, body barring, feathered toes and horn claws. Preserve central tiny white-down chick and side-lean wall-peck pose, no mature wing/tail, belly/feet cavityfloor support, all cavity/Nothofagus forest, role labels and original title/footer MORPHS NOT SEX-DIAGNOSTIC · CHICK AGE INFERRED FROM OTHER STRIX unchanged. Exactly three birds, same warm detailed painterly style and composition. Do not claim measured chick age, flight or sex colour diagnostic."
+      }
+    },
+    {
+      "id": "52-strix-hylophila-v8",
+      "archive": "989159469249c436506c03972bf85ceefbb5560c",
+      "verify": "9dbded24b35fd2ccfcc236e0d4ed62e11243d65c",
+      "run": "owl-pet/production/runs/20261126T1345Z-cycle6-resume1427Z.json",
+      "meta": {
+        "bytes": 2572465,
+        "sha256": "1b9aa09d197d0042087c0f97082310977ad9c1f029e4afa96a2c0db9bdddc34e",
+        "gitblob": "a9334f6d3204b560a366a6a072dab7cd260da7f0",
+        "b64len": 3429956
+      },
+      "record": {
+        "batch_id": "20261126T1345Z",
+        "cycle": 6,
+        "owner": "20261126T1427Z",
+        "run_id": "20261126T1345Z-cycle6-resume1427Z",
+        "started_at": "2026-11-26T14:35:31.665Z",
+        "stage": "VERIFIED",
+        "stages": [
+          {
+            "stage": "STARTED",
+            "at": "2026-11-26T14:35:31.665Z"
+          },
+          {
+            "stage": "RESEARCH_READY",
+            "at": "2026-11-26T14:36:13.275Z",
+            "evidence": "Actual v6 tail has broad near-white bars taking much of tail width; guide specifies warm brown tail with narrow whitish-buff bars. Correct adult tail only, preserve v6 pale belly and unresolved shelter boundary."
+          },
+          {
+            "stage": "IMAGE_GENERATED",
+            "at": "2026-11-26T14:38:28.891Z",
+            "blob": "9fc9ea4fe19132c42d9f2cbe5747389942494894"
+          },
+          {
+            "stage": "RESEARCH_READY",
+            "at": "2026-11-26T14:39:30.503Z",
+            "evidence": "Actual latestv7 verified: preserve photographer-supported older mesoptile; adult tails still broad pale bars. Tail-only change using v7 rather than rejectedv6 selection."
+          },
+          {
+            "stage": "IMAGE_GENERATED",
+            "at": "2026-11-26T14:41:58.305Z",
+            "blob": "a9334f6d3204b560a366a6a072dab7cd260da7f0"
+          },
+          {
+            "stage": "REVIEWED",
+            "at": "2026-11-26T14:42:05.325Z",
+            "evidence": "实际查看最新v7和v8整图，adulttail原宽浅带缩窄、褐色占主导，带数不宣称固定；两成年腹白/胸胁纹、暗眼黄喙裸趾支撑和较大灰褐细横纹幼鸟、已形成折翼、AGEUNKNOWN/photoreferenced页脚均保持。拒绝的旧v6基准生成不计完成；旧v7原图/研究已精确恢复。v8概念PASS_WITH_LIMITATIONS/sciencefalse，尾带宽度/色值及幼鸟日龄/飞行/巢结构仍未知。未重新查看源照片像素，只复用v7实际记录；来源新0/复用4。本轮经验：绘图前必须取manifest最高版本并检查ID不存在；归档后守卫太晚。已在v8调用前实际检查，拒绝稿保存；后续逐轮应用检查不宣称已回查全库。"
+          },
+          {
+            "stage": "ARCHIVED",
+            "at": "2026-11-26T14:42:09Z",
+            "commit": "989159469249c436506c03972bf85ceefbb5560c"
+          },
+          {
+            "stage": "VERIFIED",
+            "at": "2026-11-26T14:42:21.000Z",
+            "evidence": "originals VERIFIED\nconcepts VERIFIED\n"
+          }
+        ],
+        "errors": [
+          {
+            "step": "archive duplicate guard",
+            "detail": "Selected v6 without checking latest manifest; existing52v7 detected after generated-original checkpoint. No concept/credit written. Restore any pre-existing original blob before continuing; retain new attempt under unique rejected name. Do not count duplicate generation."
+          }
+        ],
+        "target": "52-strix-hylophila-v8",
+        "meta": {
+          "bytes": 2572465,
+          "sha256": "1b9aa09d197d0042087c0f97082310977ad9c1f029e4afa96a2c0db9bdddc34e",
+          "gitblob": "a9334f6d3204b560a366a6a072dab7cd260da7f0",
+          "b64len": 3429956
+        },
+        "generation_wait_seconds": 103.658,
+        "review": "实际查看最新v7和v8整图，adulttail原宽浅带缩窄、褐色占主导，带数不宣称固定；两成年腹白/胸胁纹、暗眼黄喙裸趾支撑和较大灰褐细横纹幼鸟、已形成折翼、AGEUNKNOWN/photoreferenced页脚均保持。拒绝的旧v6基准生成不计完成；旧v7原图/研究已精确恢复。v8概念PASS_WITH_LIMITATIONS/sciencefalse，尾带宽度/色值及幼鸟日龄/飞行/巢结构仍未知。未重新查看源照片像素，只复用v7实际记录；来源新0/复用4。本轮经验：绘图前必须取manifest最高版本并检查ID不存在；归档后守卫太晚。已在v8调用前实际检查，拒绝稿保存；后续逐轮应用检查不宣称已回查全库。",
+        "ended_at": "2026-11-26T14:42:21.000Z",
+        "archive_commit": "989159469249c436506c03972bf85ceefbb5560c"
+      },
+      "rec": {
+        "id": "52-strix-hylophila-v8",
+        "issue": "Actual latestv7 verified: preserve photographer-supported older mesoptile; adult tails still broad pale bars. Tail-only change using v7 rather than rejectedv6 selection.",
+        "sources": [
+          {
+            "id": "RBO-MIKKOLA-2013-P337",
+            "title": "Owls of the World second edition",
+            "author": "Heimo Mikkola",
+            "year": 2013,
+            "url": "uploaded owls.pdf",
+            "pages": "printed337/PDF339",
+            "facts": "Fresh read adult warm brown tail narrow whitish-buff bars, upper chest/flank bars with almost-white belly; dark eyes/yellow horn bill/cere/toes, feathered tarsi/bare toes. White natal chick, mesoptile differs. Female >50g heavier average not height.",
+            "limits": "No measured bar width/count or chick exact age/iris/flight. Only qualitative narrowing."
+          },
+          {
+            "id": "RBO-AVESRAPINA-2018",
+            "title": "Coruja-listrada Strix hylophila",
+            "author": "Willian Menq",
+            "year": "April2018",
+            "url": "https://www.avesderapinabrasil.com/strix_hylophila.htm",
+            "pages": "Description/Habitat lines21–29; young caption43–45",
+            "facts": "Fresh original specialist body read: dark eyes/yellowbill/feathered tarsi; older young dark back barred pale belly; Araucaria forest context. Adult 249–340g male/276–395g female overlap.",
+            "limits": "Secondary nest/35d claims not treated as verified architecture; no fresh source photo pixels viewed, captions only. Does not independently quantify narrowtailbars."
+          },
+          {
+            "id": "RBO-COCKLE-ETAL-2024-P10",
+            "title": "2024 nesting evidence review",
+            "author": "Bonaparte et al.",
+            "year": 2024,
+            "url": "https://academic.oup.com/condor/article/126/4/duae042/7745762",
+            "pages": "p10 previous indexed read only",
+            "facts": "Historical indexed review says nests not confirmed/described; shelter boundary retained.",
+            "limits": "Not freshly reopened this cycle; no new primary reading claim."
+          },
+          {
+            "id": "RBO-VERISSIMO-2015-JUV",
+            "title": "Indivíduo jovem Ribeirão Grande/SP Jan2015",
+            "author": "Luiz Veríssimo via Menq",
+            "year": 2015,
+            "url": "https://www.avesderapinabrasil.com/strix_hylophila.htm",
+            "pages": "juvenile caption43–45 and existingv7 research photograph",
+            "facts": "Historical v7 actual880x628 photo inspection supports older brown-grey buff young/formed wing. Thiscycle page caption freshly read, photo pixels not freshly viewed.",
+            "limits": "No exactage/flight known, preserve prior actual photo-stage revision; source ID reuse mapping historicalURL not new work."
+          }
+        ],
+        "index_note": "新0/复用4，旧v7原始摄影来源按其研究记录历史复用；本次只成年尾纹、保留v7较大幼鸟。误选v6导致duplicate-ID尝试已拒绝/不计轮，旧v7研究和原图精确恢复。",
+        "prompt": "Use case precise-object-edit. Edit only the visible TAIL FEATHERS below the branches of BOTH ADULT #52 Rusty-barred Owls Strix hylophila in supplied actual latestv7. Currently pale cream bands are too broad and strongly white. Make tail predominantly warm brown with NARROW muted whitish-buff transverse bars, each pale bar visibly narrower than surrounding brown intervals. Keep natural feather-edge irregularity, no rigid graphic stripes, do not impose exact bar count. Retain tail length/outline/placement, adult pale central belly and upper-chest/flank barring, all heads/eyes/bills/feet/bare toes/claws, relative scale, central older mesoptile juvenile: brown/grey-buff soft barred plumage, photographed-stage formed folded wings, bill/eyes/face and supported belly/feet, shelter/tree/forest, title/labels and full uncertainty footer unchanged. Preserve warm detailed painterly style1536x1024. No new chick age/eye/flight or nest claim."
+      }
+    },
+    {
+      "id": "55-bubo-lacteus-v7",
+      "archive": "7e1f138ed207de46db36e6f53cfd923d44453470",
+      "verify": "2afd6eb563baade9412db0acc7257fe80748fff8",
+      "run": "owl-pet/production/runs/20261126T1445Z-cycle1-resume1427Z.json",
+      "meta": {
+        "bytes": 2819937,
+        "sha256": "cbd7c77692243eab9df974059e1a1ffeac364ddadb7783983bc1cf40c84958ce",
+        "gitblob": "48ca8a0092e92b73228d9d7d490592cb07618a48",
+        "b64len": 3759916
+      },
+      "record": {
+        "batch_id": "20261126T1445Z",
+        "cycle": 1,
+        "owner": "20261126T1427Z",
+        "run_id": "20261126T1445Z-cycle1-resume1427Z",
+        "started_at": "2026-11-26T14:42:26.220Z",
+        "stage": "VERIFIED",
+        "stages": [
+          {
+            "stage": "STARTED",
+            "at": "2026-11-26T14:42:26.220Z"
+          },
+          {
+            "stage": "RESEARCH_READY",
+            "at": "2026-11-26T14:43:44.203Z",
+            "evidence": "Latest manifestv6 checked; actual age label APPROX6WEEKS lacks distinction between Brown study bird and generated concept. Annotation-only correction; adult cream-bill repair and supported mesoptile retained."
+          },
+          {
+            "stage": "IMAGE_GENERATED",
+            "at": "2026-11-26T14:44:58.336Z",
+            "blob": "48ca8a0092e92b73228d9d7d490592cb07618a48"
+          },
+          {
+            "stage": "REVIEWED",
+            "at": "2026-11-26T14:45:03.846Z",
+            "evidence": "实际查看原v6与v7整图，中心改AGEUNMEASURED并可读Brown1965c6weekstudyreference/age-flightunverified页脚。三鸟所有成年奶油角色喙、蓝灰蜡膜、粉上眼睑、幼鸟蓝灰喙/灰色细斑横纹/白腿/短折翼及巢底足腹支撑视觉保留。仅年龄归因标识修订，不记形态/科学提升。形态精细比例与实际羽龄/飞行仍未知。图鉴286/PDF288与PeregrineFund正文freshread，Brown原pdf网络Timeout，直接下载扫描未读到目标段，历史复用不得冒充新读。PASS_WITH_LIMITATIONS/sciencefalse。经验来源年龄与概念个体年龄分开，已在本图实际文字检查；不重复申请用户确认。"
+          },
+          {
+            "stage": "ARCHIVED",
+            "at": "2026-11-26T14:45:07Z",
+            "commit": "7e1f138ed207de46db36e6f53cfd923d44453470"
+          },
+          {
+            "stage": "VERIFIED",
+            "at": "2026-11-26T14:45:20.537Z",
+            "evidence": "originals VERIFIED\nconcepts VERIFIED\n"
+          }
+        ],
+        "errors": [],
+        "target": "55-bubo-lacteus-v7",
+        "meta": {
+          "bytes": 2819937,
+          "sha256": "cbd7c77692243eab9df974059e1a1ffeac364ddadb7783983bc1cf40c84958ce",
+          "gitblob": "48ca8a0092e92b73228d9d7d490592cb07618a48",
+          "b64len": 3759916
+        },
+        "generation_wait_seconds": 37.514,
+        "primary_access": {
+          "web": "400 Timeout fetching",
+          "direct": "PDF downloaded, text extraction returned no target paragraph; not a fresh body read. Historical Brown evidence retained.",
+          "recovered_ref": "52v8 remote ledger commit7bb4bab8c336a91b7c30aca6ffd9f95cd561c4b2 confirmed after refmismatch; no retry generation"
+        },
+        "review": "实际查看原v6与v7整图，中心改AGEUNMEASURED并可读Brown1965c6weekstudyreference/age-flightunverified页脚。三鸟所有成年奶油角色喙、蓝灰蜡膜、粉上眼睑、幼鸟蓝灰喙/灰色细斑横纹/白腿/短折翼及巢底足腹支撑视觉保留。仅年龄归因标识修订，不记形态/科学提升。形态精细比例与实际羽龄/飞行仍未知。图鉴286/PDF288与PeregrineFund正文freshread，Brown原pdf网络Timeout，直接下载扫描未读到目标段，历史复用不得冒充新读。PASS_WITH_LIMITATIONS/sciencefalse。经验来源年龄与概念个体年龄分开，已在本图实际文字检查；不重复申请用户确认。",
+        "ended_at": "2026-11-26T14:45:20.537Z",
+        "archive_commit": "7e1f138ed207de46db36e6f53cfd923d44453470"
+      },
+      "rec": {
+        "id": "55-bubo-lacteus-v7",
+        "issue": "Latest manifestv6 checked; actual age label APPROX6WEEKS lacks distinction between Brown study bird and generated concept. Annotation-only correction; adult cream-bill repair and supported mesoptile retained.",
+        "sources": [
+          {
+            "id": "WHSO-MIKKOLA-2013",
+            "title": "Owls of the World second edition",
+            "author": "Heimo Mikkola",
+            "year": 2013,
+            "url": "uploaded owls.pdf",
+            "pages": "printed286/PDF288",
+            "facts": "Fresh read creamyhorn adult bill, brown eyelid edges/pink upperlids, grey-horn partlyfeathered toes and dark claws; mesoptile palegrey fine vermiculation/dark bars/lessruff/tiny tufts; female massnotheight.",
+            "limits": "No exact young day or fixed sex-size standing ratio."
+          },
+          {
+            "id": "VEO-PEREGRINE-FUND-CURRENT",
+            "title": "Verreaux's Eagle-owl",
+            "author": "The Peregrine Fund",
+            "year": "undated",
+            "url": "https://peregrinefund.org/explore-raptors-species/owls/verreauxs-eagle-owl",
+            "pages": "What they do48–49; habitat44–45",
+            "facts": "Fresh body cream bill/bluecere/dark eyes/pink lids, partlyfeathered toes, savanna notdenseforest. Young possible limited movement doesnotdateconcept.",
+            "limits": "Institution synthesis, oneweekeyelidclaim not used as conceptage; not primary development series."
+          },
+          {
+            "id": "VEO-BROWN-1965-P101-104",
+            "title": "Observations on Verreaux's Eagle Owl Bubo lacteus in Kenya",
+            "author": "L.H.Brown",
+            "year": 1965,
+            "url": "https://zenodo.org/records/16138079/files/bhlpart371689.pdf?download=1",
+            "pages": "Journal East Africa Natural History Society25(2):101–107; young development paragraph",
+            "facts": "Previous primary indexed report: c6weekstudy young finelygreywhitebarred withplainwhitethighs/blackfacialside streaks. Attempted freshweb400Timeout; direct retrieval actual result separately logged.",
+            "limits": "Study approximate age is not a measured age ofgeneratedbird. No new primary claim unless directbody completes."
+          }
+        ],
+        "index_note": "新0/复用3，上传图鉴及PeregrineFund正文新读；Brown1965网络400Timeout、直接读取结果在run补记；仅年龄归因注释修订，不计形态提升或科学通过。",
+        "prompt": "Use case text-localization / precise-object-edit. Edit ONLY central label and a small footer of this #55 Verreaux's Eagle-Owl card. Replace 'JUVENILE · APPROX. 6 WEEKS' with 'JUVENILE · AGE UNMEASURED'. Add unobtrusive readable footer 'BROWN 1965: c.6-WEEK STUDY REFERENCE · CONCEPT AGE/FLIGHT UNVERIFIED'. Keep all three birds and every anatomy/plumage/eye/bill/foot unchanged: adults cream-horn bills andbluegrey cere/narrowpinklids/darkeyes; young bluegrey bill/softgreyfinebarredmesoptile/plainwhitethighs/compactwings/hidden tail andnestbellyfeet support. Preserve sticknest/savanna/light/title/adultlabels/relative scales and warm detailed painterly style1536x1024. This is annotation-only, no invented age, flight or scientific pass."
+      }
+    },
+    {
+      "id": "57-bubo-nipalensis-v8",
+      "archive": "9842079b2bd3f64a127f15c0abf52c67fbcbeace",
+      "verify": "681a8fc89d3160273dfffd6346bec6a01bcb2db4",
+      "run": "owl-pet/production/runs/20261126T1445Z-cycle2-resume1427Z.json",
+      "meta": {
+        "bytes": 2459621,
+        "sha256": "e364f79283304b1fcacc864809a8f030fb7bc34fb67ce4c9077d69c4fe72741f",
+        "gitblob": "c147ea8e64662972eb7648afe7460266bb9c35c4",
+        "b64len": 3279496
+      },
+      "record": {
+        "batch_id": "20261126T1445Z",
+        "cycle": 2,
+        "owner": "20261126T1427Z",
+        "run_id": "20261126T1445Z-cycle2-resume1427Z",
+        "started_at": "2026-11-26T14:45:26.206Z",
+        "stage": "VERIFIED",
+        "stages": [
+          {
+            "stage": "STARTED",
+            "at": "2026-11-26T14:45:26.206Z"
+          },
+          {
+            "stage": "RESEARCH_READY",
+            "at": "2026-11-26T14:46:34.411Z",
+            "evidence": "Actual latestv7 and original Srinivasan2013 Fig114 pixels now viewed locally; photo young lacks plate's thick dark enclosing facial ruff. Correct selected rescued-stage young face, not infer adult/no-ruff ontogeny globally."
+          },
+          {
+            "stage": "IMAGE_GENERATED",
+            "at": "2026-11-26T14:47:46.191Z",
+            "blob": "c147ea8e64662972eb7648afe7460266bb9c35c4"
+          },
+          {
+            "stage": "REVIEWED",
+            "at": "2026-11-26T14:47:52.925Z",
+            "evidence": "实际查看v7/v8及直接渲染原论文p107全页图114照片像素。幼鸟粗黑 enclosingruff消失，变为浅乳黄绒羽面部/自然暗眼睑细缘，原V纹、已形成重横斑折翼/尾、小耳羽、双足树叉支撑和救护阶段/自然支撑设计语境标识保留。成年原淡喙暗眼及面部保持。PASS_WITH_LIMITATIONS/sciencefalse；源照片模糊/光照不定，实际幼龄/性别/眼色时序、面缘发育连续序列/飞行仍未知，页脚不去掉。不是用成年无ruff推断全年龄，而是独立实查选定幼鸟照片；原论文117的不会飞为作者推断，不称行为实测。新0复用2，访问范围升级1（原截图placeholder→实际原PDF图114像素）。经验本图已用新证据修正，#55保留本种黑侧脸，不迁移该规则。"
+          },
+          {
+            "stage": "ARCHIVED",
+            "at": "2026-11-26T14:47:57Z",
+            "commit": "9842079b2bd3f64a127f15c0abf52c67fbcbeace"
+          },
+          {
+            "stage": "VERIFIED",
+            "at": "2026-11-26T14:48:10.977Z",
+            "evidence": "originals VERIFIED\nconcepts VERIFIED\n"
+          }
+        ],
+        "errors": [],
+        "target": "57-bubo-nipalensis-v8",
+        "meta": {
+          "bytes": 2459621,
+          "sha256": "e364f79283304b1fcacc864809a8f030fb7bc34fb67ce4c9077d69c4fe72741f",
+          "gitblob": "c147ea8e64662972eb7648afe7460266bb9c35c4",
+          "b64len": 3279496
+        },
+        "generation_wait_seconds": 39.579,
+        "review": "实际查看v7/v8及直接渲染原论文p107全页图114照片像素。幼鸟粗黑 enclosingruff消失，变为浅乳黄绒羽面部/自然暗眼睑细缘，原V纹、已形成重横斑折翼/尾、小耳羽、双足树叉支撑和救护阶段/自然支撑设计语境标识保留。成年原淡喙暗眼及面部保持。PASS_WITH_LIMITATIONS/sciencefalse；源照片模糊/光照不定，实际幼龄/性别/眼色时序、面缘发育连续序列/飞行仍未知，页脚不去掉。不是用成年无ruff推断全年龄，而是独立实查选定幼鸟照片；原论文117的不会飞为作者推断，不称行为实测。新0复用2，访问范围升级1（原截图placeholder→实际原PDF图114像素）。经验本图已用新证据修正，#55保留本种黑侧脸，不迁移该规则。",
+        "ended_at": "2026-11-26T14:48:10.977Z",
+        "archive_commit": "9842079b2bd3f64a127f15c0abf52c67fbcbeace"
+      },
+      "rec": {
+        "id": "57-bubo-nipalensis-v8",
+        "issue": "Actual latestv7 and original Srinivasan2013 Fig114 pixels now viewed locally; photo young lacks plate's thick dark enclosing facial ruff. Correct selected rescued-stage young face, not infer adult/no-ruff ontogeny globally.",
+        "sources": [
+          {
+            "id": "SBEO-SRINIVASAN-2013-P106-107",
+            "title": "Spot-bellied Eagle Owl in northern Eastern Ghats, Andhra Pradesh, India",
+            "author": "Sathyanarayana Srinivasan",
+            "year": 2013,
+            "url": "https://indianbirds.in/pdfs/IB8.4_Srinivasan_BuboNipalensis.pdf",
+            "pages": "printed106–107/PDF1–2, Fig114(Maredumilli),115Aug2011,116adultJuly2012",
+            "facts": "Fresh fullbody98–118 read; directPDF downloaded and page107 pixels actually displayed. Fig114 young pale broad face without hard dark enclosing ruff, dark eyes; smalltufts/Vmarks, formed barred wings. Rescued enclosure record, 'didnotflyfar' not flight test. Do not merge later115/116 as sameage.",
+            "limits": "Printedphoto limited resolution/lighting, young exactage/sex unknown; no quantitativecolour/ruffchronology/flight. Natural branch is artistic support not source habitat photo."
+          },
+          {
+            "id": "WHSO-MIKKOLA-2013",
+            "title": "Owls of the World second edition",
+            "author": "Heimo Mikkola",
+            "year": 2013,
+            "url": "uploaded owls.pdf",
+            "pages": "printed289/PDF291",
+            "facts": "Fresh read adultnohardruff/waxyellowbill/darkeyes; sexsize/colournotknown; youngmesoptilelightyellow and wingsadultlike/eyesblueblack. Legfeatherstotoebase/duskyyellowgreytoe/hornclawdarktip.",
+            "limits": "Adultfeature notautomaticyoungrule. Photo independent selectedindividual supportsfacecorrection; exactiriscolourunmeasured."
+          }
+        ],
+        "index_note": "新0/复用2；SBEO-SRINIVASAN实际影像访问范围升级1：过去截图占位无像素，本次直接PDF本地页107图114实际查看，支持所选幼鸟面盘不应有粗硬深环。不概括全年龄；v8保留已形成翼羽。",
+        "prompt": "Use case precise-object-edit. Edit only the CENTRAL JUVENILE face of supplied actual #57 v7 card, using source Fig114 Srinivasan2013 observed morphology (not an image-copy task). Remove/strongly soften the thick black-brown enclosing outer facial ring: retain a broad pale cream/buff downy facial field, subtle diffuse grey-buff feather edge, dark eyes with tiny normal dark eyelid margins, no continuous adult-like black ruff. Keep small soft tufts, yellowbill, existing shape/headsize and Vmarked chest/formed heavilybarred wing/tail/natural doublefoot support and rescued-stage-vignette labels exactly. Do not erase formed flightfeathers; not a natal chick. Preserve BOTH ADULTS, long horizontal tufts, bills/eyes/plumage/near-equalheight, forest/branch/title/alltext. Existing JUVENILE FACE BORDER UNVERIFIED footer may remain because developmental sequence still unknown. Same warm detailed painterly style1536x1024, no age/flight/nest/science claims."
+      }
+    },
+    {
+      "id": "58-ketupa-coromanda-v8",
+      "archive": "4814bd4e8315174ad9ce957edd7da03a11626a79",
+      "verify": "3d140b98d93f402b71ddb5336a5e019d4ce002b3",
+      "run": "owl-pet/production/runs/20261126T1445Z-cycle3-resume1427Z.json",
+      "meta": {
+        "bytes": 2795180,
+        "sha256": "4a901525591b14cfe5139c7eb4173f31b38489d957315153b2903c8050dfcb48",
+        "gitblob": "68bc856492a5656f3e7090f557db8596c78b26a4",
+        "b64len": 3726908
+      },
+      "record": {
+        "batch_id": "20261126T1445Z",
+        "cycle": 3,
+        "owner": "20261126T1427Z",
+        "run_id": "20261126T1445Z-cycle3-resume1427Z",
+        "started_at": "2026-11-26T14:48:16.435Z",
+        "stage": "VERIFIED",
+        "stages": [
+          {
+            "stage": "STARTED",
+            "at": "2026-11-26T14:48:16.435Z"
+          },
+          {
+            "stage": "RESEARCH_READY",
+            "at": "2026-11-26T14:49:00.389Z",
+            "evidence": "Latest manifestv7 confirmed; label EST8–10WEEKS may imply concept individual age; primary says estimated from appearance/behaviour, no known hatch. Annotation-only stage attribution, no repeated bill correction."
+          },
+          {
+            "stage": "IMAGE_GENERATED",
+            "at": "2026-11-26T14:51:18.784Z",
+            "blob": "68bc856492a5656f3e7090f557db8596c78b26a4"
+          },
+          {
+            "stage": "REVIEWED",
+            "at": "2026-11-26T14:51:24.271Z",
+            "evidence": "实际查看v7/v8全图，中心AGEUNMEASURED/BRANCHMOVINGSTAGE和2021FIELD BIRD estimated8–10weeksbyappearance页脚清楚。成年蓝喙浅角色尖、黄眼、幼鸟斑纹绒羽/已形成折翼/自然迈枝双足支撑、巢与背景水田视觉保持。仅年龄归因标识，未计形态科学改善。原始论文44–45实际新读：8–10周为外观行为估计、非孵化日期；并未证明画中日龄或首飞。图鉴292/PDF294实际新读；旧Bubocoromandus/currentKetupacoromanda映射保持，不计新种。新0复用2，PASS_WITH_LIMITATIONS/sciencefalse；羽龄/飞行及定量性别比例未知。本轮再次应用来源年龄≠绘制个体年龄规则，与#55文案修订各自独立来源，不把阶段数当子轮数。"
+          },
+          {
+            "stage": "ARCHIVED",
+            "at": "2026-11-26T14:51:29Z",
+            "commit": "4814bd4e8315174ad9ce957edd7da03a11626a79"
+          },
+          {
+            "stage": "VERIFIED",
+            "at": "2026-11-26T14:51:41.735Z",
+            "evidence": "originals VERIFIED\nconcepts VERIFIED\n"
+          }
+        ],
+        "errors": [],
+        "target": "58-ketupa-coromanda-v8",
+        "meta": {
+          "bytes": 2795180,
+          "sha256": "4a901525591b14cfe5139c7eb4173f31b38489d957315153b2903c8050dfcb48",
+          "gitblob": "68bc856492a5656f3e7090f557db8596c78b26a4",
+          "b64len": 3726908
+        },
+        "generation_wait_seconds": 104.137,
+        "review": "实际查看v7/v8全图，中心AGEUNMEASURED/BRANCHMOVINGSTAGE和2021FIELD BIRD estimated8–10weeksbyappearance页脚清楚。成年蓝喙浅角色尖、黄眼、幼鸟斑纹绒羽/已形成折翼/自然迈枝双足支撑、巢与背景水田视觉保持。仅年龄归因标识，未计形态科学改善。原始论文44–45实际新读：8–10周为外观行为估计、非孵化日期；并未证明画中日龄或首飞。图鉴292/PDF294实际新读；旧Bubocoromandus/currentKetupacoromanda映射保持，不计新种。新0复用2，PASS_WITH_LIMITATIONS/sciencefalse；羽龄/飞行及定量性别比例未知。本轮再次应用来源年龄≠绘制个体年龄规则，与#55文案修订各自独立来源，不把阶段数当子轮数。",
+        "ended_at": "2026-11-26T14:51:41.735Z",
+        "archive_commit": "4814bd4e8315174ad9ce957edd7da03a11626a79"
+      },
+      "rec": {
+        "id": "58-ketupa-coromanda-v8",
+        "issue": "Latest manifestv7 confirmed; label EST8–10WEEKS may imply concept individual age; primary says estimated from appearance/behaviour, no known hatch. Annotation-only stage attribution, no repeated bill correction.",
+        "sources": [
+          {
+            "id": "DEO-REDDY-RAMACHANDRAN-2023-P44-47",
+            "title": "Breeding of Dusky Eagle Owl in Telangana and its status in southern India",
+            "author": "Sriram Reddy, Gopalakrishna Ramachandran",
+            "year": "2023-08-14",
+            "url": "https://indianbirds.in/pdfs/IB_19_2_Reddy_Ramachandran_DuskyEagleOwl.pdf",
+            "pages": "printed44–45/PDF1–2 Observations/photo73 caption",
+            "facts": "Fresh original body read: 13Mar2021 juvenile moving amongst neighbouring branches, estimated8–10weeks byappearance/behaviour; large dry sticknest Dalbergia20m; mating confirmedfemale slightlylarger foronepair. Current coromanda explainedfootnote.",
+            "limits": "No known hatchdate, exact flight ability/age or population dimorphism. Thiscycle no fresh photo pixels; priorv7 did actualphoto73. Branch/habitatcontextretained."
+          },
+          {
+            "id": "WHSO-MIKKOLA-2013",
+            "title": "Owls of the World second edition",
+            "author": "Heimo Mikkola",
+            "year": 2013,
+            "url": "uploaded owls.pdf",
+            "pages": "printed292/PDF294",
+            "facts": "Fresh read oldBubo coromandus, brown-grey/shaftstreaks/crossbars, brightyelloweyes/bluegreycere/bluehornbillpalehorn tip, featheredtarsi/bluegreytoes/darkclaws, youngreddishmealyfledgling/dirtygreyhead.",
+            "limits": "Female larger claim unweighed here; no fixed standingratio or hatchdate. Natalpurewhite not applied to formedstage."
+          }
+        ],
+        "index_note": "新0/复用2；针对性网络检索并重读原始论文44–45及上传图鉴292/PDF294。保留本批未知日龄边界，v8仅归因标识、不是形态修复；2021野外8–10周为外观行为估计。",
+        "prompt": "Use case text-localization. Edit ONLY the central juvenile label and add a small footer on supplied actual #58 Dusky Eagle-Owl v7 card. Replace current 'JUVENILE · EST. 8–10 WEEKS · BRANCH-MOVING' with two readable lines 'JUVENILE · AGE UNMEASURED' and 'BRANCH-MOVING STAGE'. Add subtle readable footer '2021 FIELD BIRD: EST. 8–10 WEEKS BY APPEARANCE · CONCEPT AGE/FLIGHT UNVERIFIED'. Keep title scientific Ketupa coromanda, adult role labels and every bird anatomy/plumage/pose unchanged: palehorn adultbilltips/bluebases/yelloweyes, young mealyreddishdown/formedbarredwing/shorttufts/branchstep/twofeet support, all adults/relative scale, sticknest/tree/lake/ricefield/forest warm painterly style1536x1024. No new measured age/sex/flight claims, annotation-only."
+      }
+    }
+  ]
+}

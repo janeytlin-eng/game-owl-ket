@@ -4,7 +4,7 @@
   "owner": "owl-production-20261126T2030Z",
   "run_id": "20261126T2030Z",
   "started_at": "2026-11-26T20:46:35.334Z",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "STARTED",
@@ -26,6 +26,15 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-26T20:48:25.762Z"
+    },
+    {
+      "stage": "VERIFICATION_EVIDENCE",
+      "at": "2026-11-26T20:48:59.858Z",
+      "evidence": "Both immutable originals/concepts full bytes SHA256/PILdecode passed; research/review readback passed"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-26T20:48:59.859Z"
     }
   ],
   "target": "95-pulsatrix-melanota-v7",
@@ -48,5 +57,7 @@
     "gitblob": "93dd92cae044b879055da3542be22173692f56a5"
   },
   "imagegen_wait_seconds": 36.772,
-  "review": "Actualv6/v7full viewed: AGEUNKNOWNDEPENDENTYOUNG/footerreadable, 95title/currentname/adultlabels preserved. Oldercentralwhitepatchycrown/cinnamondown/blackmask/darkiris/yellowbill/tinychestfeathers/shortsoftwing/concealedtail/belly+feetforksupport remain. Adultdarkeyes/paleyellowbills/whiteface/broadbrownchestband/rustybellybars/nearequalheight/feetstable, exposedorganicfork/shadecoffeeplantain unchanged. Annotation-onlyPASS_WITH_LIMITATIONS/sciencefalse, notcalibratedindividualfirstflight/nestoccupancy; no newconfirmation. Repeatedcurlyfeatheredges stillcandidateforphoto-boundedtextureaudit as#85family, notfixedhere; no scientificpass. Newprimaryfactonefemaleidentifiednotsexratioproof."
+  "review": "Actualv6/v7full viewed: AGEUNKNOWNDEPENDENTYOUNG/footerreadable, 95title/currentname/adultlabels preserved. Oldercentralwhitepatchycrown/cinnamondown/blackmask/darkiris/yellowbill/tinychestfeathers/shortsoftwing/concealedtail/belly+feetforksupport remain. Adultdarkeyes/paleyellowbills/whiteface/broadbrownchestband/rustybellybars/nearequalheight/feetstable, exposedorganicfork/shadecoffeeplantain unchanged. Annotation-onlyPASS_WITH_LIMITATIONS/sciencefalse, notcalibratedindividualfirstflight/nestoccupancy; no newconfirmation. Repeatedcurlyfeatheredges stillcandidateforphoto-boundedtextureaudit as#85family, notfixedhere; no scientificpass. Newprimaryfactonefemaleidentifiednotsexratioproof.",
+  "archive_commit": "c750ab9fa7d0fa9facae240d0ee9bf0a38769895",
+  "ended_at": "2026-11-26T20:48:59.858Z"
 }

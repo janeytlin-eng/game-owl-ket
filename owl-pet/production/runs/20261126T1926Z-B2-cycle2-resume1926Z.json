@@ -4,7 +4,7 @@
   "owner": "owl-production-20261126T1926Z",
   "run_id": "20261126T1926Z",
   "started_at": "2026-11-26T19:44:17.612Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,6 +14,10 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T19:44:22.149Z",
       "prompt": "Use case: text-localization. Annotation-only edit supplied #91 Eastern Barn Owl Tyto javanica delicatula v5 to sibling v6. Preserve all three birds' biology, spots/eyes/bills/wings/tails/residual young down, near-equal adult scale, central leaning two-foot hollow-lip support and natural Mallee hollow/crop/light/paperstyle exactly. Replace ONLY central beige bottom label 'c.40-DAY NESTLING' with 'STUDY-REFERENCED NESTLING'. Add a small readable footer in lower margin: 'CONCEPT — SCIENTIFIC REVIEW PENDING; INDIVIDUAL AGE / FIRST FLIGHT / SEX RATIO UNVERIFIED'. Retain title91/currenttaxon and adultlabels. Do not shorten young's legitimately developed fresh folded wings, change supportedpose, or add objects. No new morphological claims."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T19:45:28.904Z"
     }
   ],
   "target": "91-tyto-javanica-delicatula-v6",
@@ -25,5 +29,17 @@
     "JAV-AUSTRALIAN-MUSEUM-2022",
     "WHSO-MIKKOLA-2013"
   ],
-  "research_ready_at": "2026-11-26T19:44:22.149Z"
+  "research_ready_at": "2026-11-26T19:44:22.149Z",
+  "meta": {
+    "bytes": 2756929,
+    "sha256": "a04ae01d94adc2940f3842caf91aec8528e69433afcb89d49644802a44416bbf",
+    "b64len": 3675908,
+    "size": [
+      1536,
+      1024
+    ],
+    "gitblob": "3160bc4a7e3e4ab0eac51179ab8ac672cd95047c"
+  },
+  "imagegen_wait_seconds": 36.632,
+  "review": "Actualv5/finalv6full viewed. Study-referencednestlinglabel/footer readable; current91taxonomy preserved. Threeowls, darkeyes/palebills/heartface/spots, adultnear-equalheight, supportedleaningyoungwithresidualdown/freshformedfoldedwings/shorttail andtwoseparatehollowfootgrips intact. NaturalMalleehollow/farmland retained; notuniformshortwingrule. Annotation-onlyPASS_WITH_LIMITATIONS/sciencefalse, no newuserapproval. FreshprimaryAssumptions/Definitionspp117–118 explicitlyageestimated/asynchronousandfledgingoperationalroostdefinitionnotmeasuredfirstflight; c40behaviorp120 supportsconceptnotexactindividualday. Ruleappliedandactualchecked: exportindividualunknown withouterasinglegitimateolderyoungwingdevelopment."
 }

@@ -4,13 +4,19 @@
   "owner": "20261126T0530Z",
   "run_id": "20261126T0340Z-cycle6-resume0530Z",
   "started_at": "2026-11-26T05:31:43.001Z",
-  "stage": "STARTED",
+  "stage": "RESEARCH_READY",
   "stages": [
     {
       "stage": "STARTED",
       "at": "2026-11-26T05:31:43.001Z"
+    },
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-26T05:33:32.168Z",
+      "evidence": "Research record and complete prompt persisted; status-only revision selected; no morphology claim."
     }
   ],
   "scientifically_verified": false,
-  "recovery": "Prior cycle6 only research failure; no generated artifact/no credit. Resume same cycle6; historical fd9d70d not treated as remote proof. #25 already archived per current ledger; no duplication."
+  "recovery": "Prior cycle6 only research failure; no generated artifact/no credit. Resume same cycle6; historical fd9d70d not treated as remote proof. #25 already archived per current ledger; no duplication.",
+  "target": "109-ptilopsis-leucotis-v9"
 }

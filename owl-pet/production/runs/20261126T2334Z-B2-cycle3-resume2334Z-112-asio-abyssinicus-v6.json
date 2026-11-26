@@ -5,7 +5,7 @@
   "target": "112-asio-abyssinicus-v6",
   "action": "SCIENCE_REVISION",
   "started_at": "2026-11-26T23:54:06.571Z",
-  "stage": "IMAGE_GENERATED",
+  "stage": "EDIT_REQUIRED",
   "stages": [
     {
       "stage": "STARTED",
@@ -18,12 +18,20 @@
     {
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-26T23:56:53.541Z"
+    },
+    {
+      "stage": "EDIT_REQUIRED",
+      "at": "2026-11-26T23:56:58.440Z"
     }
   ],
   "errors": [
     {
       "step": "reference_access",
       "error": "Webclick staticFlickr403; local page observedog:image download succeeded284849bytes, actual1024x760imageviewed. Rejected adulttoe feather addition after actualcrop."
+    },
+    {
+      "step": "image_review_initial",
+      "error": "FAILED_TARGET: actualfulloutput still shows long repeated closed-loop yarn-like juvenile texture; no sufficient improvement, requires edit2. Adults/feet/support retained."
     }
   ],
   "scientifically_verified": false,
@@ -56,5 +64,6 @@
     ],
     "b64len": 3649732
   },
-  "initial_review": "FAILED_TARGET: actualfulloutput still shows long repeated closed-loop yarn-like juvenile texture; no sufficient improvement, requires edit2. Adults/feet/support retained."
+  "initial_review": "FAILED_TARGET: actualfulloutput still shows long repeated closed-loop yarn-like juvenile texture; no sufficient improvement, requires edit2. Adults/feet/support retained.",
+  "full_prompt_edit2": "Use case: precise-object-edit, second correction after failed texture pass.\nInput Image1: edit target112v6 INITIAL plate. Input Image2: Peter Maton Ethiopia1989 juvenile field-photo, biological texture reference ONLY, not composition or copyrighted scene to reproduce.\nThe first edit failed: the juvenile is still covered in conspicuous long closed loops of grey yarn. REPLACE that entire long-loop feather texture on the central juvenile head, back and belly. Render short dense, soft, fine velvety charcoal-brown down with tiny irregular straight feather tips and only a few short fluffy tufts. No long strands, no closed ovals, no rings, no curls, no wire, no scribble outlines. Let the darker soft interior down show between small uneven fluffy patches, similar natural material character to reference2. Keep its existing body silhouette, eye and bill placement, orange eyes, dark face, small emerging headtufts, compact FORMED folded wing at its side and existing two-foot stance. The purpose is realistic down material, not juvenile-age change; do not erase formed wing, shrink the bird or turn it into a newborn.\nPreserve all adult anatomy and complex dark net-pattern bellies, orange eyes/blackbills, tufts, wings/tails/featheredfeet/claws and branchcontacts. Keep title, all labels, centre AGE UNKNOWN, exactthreebirds and existing highlandforestcomposition fromImage1. No addedwhiteadultscapular patches, no adultfeathering-transfer toyoungfeet, no extraobjects/text/border/watermark."
 }

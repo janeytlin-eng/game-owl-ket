@@ -7689,3 +7689,7 @@ New1YPOW-PERUAVES-2026 regional adultmetadataonly; reused2primary+guide. #36v7 l
 
 ### 2026-11-26 42-athene-brama-v7
 New1SPOT-LUMS-2026 institutionaladultbody; reuse2guide/primary. CurrentPMCcaptcha/Commons429/Birdforum403 are unverifiedleads, no sourcepixels falselyclaimed. Stage-specific juvenile revision supported by freshly read printed436; exactage/iris/flightunknown. [facts/full prompt](species/42-athene-brama-v7.md).
+
+
+### 2026-11-26 43-athene-blewitti-v7
+Reuse3documents; primary1998 newlyreadbody adulttoefeathering diagnosis. ExistingstableID mapping FOW-RASMUSSEN-COLLAR-1998 reused if indexed; samepublicationno newworkcount. Longheavywhiteuppertoes not merely sparsebristles; yellowbareparts/claws preserved. Juvenileage/iris/flight remainsunknown. [facts/full prompt](species/43-athene-blewitti-v7.md).

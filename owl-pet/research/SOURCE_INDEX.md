@@ -7633,3 +7633,7 @@ New0/reuse2 fresh body reads. #27 v7 annotation-only keeps v6 face correction, m
 
 ### 2026-11-26 28-glaucidium-perlatum-v8 audit
 PSOW-CLANCEY-1980-P96-LEAD retained stable ID; status upgraded UNVERIFIED_TARGET_BODY→READ_PRIMARY_TARGET_BODY, printed96/PDF10 actually recovered. Newly verified document1 (formerly indexed lead), freshly reused2. Single historical diurnum juvenile and no iris chronology; do not universalize or invent diurnum→licua mapping. #28 v8 annotation only, selected guide iris remains pending scientific cross-validation. [Full facts/prompt](species/28-glaucidium-perlatum-v8.md).
+
+
+### 2026-11-26 29-glaucidium-capense-v7 actual audit
+New0/reuse3 fresh body/guide reads. Adult-only horn-claw correction; juvenile untouched. Venter2019 prior record remains unrecovered, no fresh primary claim. Guide and OwlPages not independent primary replication. [Facts, boundaries and full prompt](species/29-glaucidium-capense-v7.md).

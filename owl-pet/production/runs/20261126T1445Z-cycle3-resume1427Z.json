@@ -4,7 +4,7 @@
   "owner": "20261126T1427Z",
   "run_id": "20261126T1445Z-cycle3-resume1427Z",
   "started_at": "2026-11-26T14:48:16.435Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,8 +14,20 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T14:49:00.389Z",
       "evidence": "Latest manifestv7 confirmed; label EST8–10WEEKS may imply concept individual age; primary says estimated from appearance/behaviour, no known hatch. Annotation-only stage attribution, no repeated bill correction."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T14:51:18.784Z",
+      "blob": "68bc856492a5656f3e7090f557db8596c78b26a4"
     }
   ],
   "errors": [],
-  "target": "58-ketupa-coromanda-v8"
+  "target": "58-ketupa-coromanda-v8",
+  "meta": {
+    "bytes": 2795180,
+    "sha256": "4a901525591b14cfe5139c7eb4173f31b38489d957315153b2903c8050dfcb48",
+    "gitblob": "68bc856492a5656f3e7090f557db8596c78b26a4",
+    "b64len": 3726908
+  },
+  "generation_wait_seconds": 104.137
 }

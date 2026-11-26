@@ -7673,3 +7673,7 @@ New1YPOW-PERUAVES-2026 regional adultmetadataonly; reused2primary+guide. #36v7 l
 
 ### 2026-11-26 38-glaucidium-nana-v7 actual audit
 新增0，复用3；本轮重读图鉴p400实际成人照片、Ibarra2015繁殖正文/Fig5图注、Jiménez/Jaksic1989 p380。成人冠纹/mesoptile冠斑局部修正；拒绝把孵卵15–17天写成幼鸟年龄。 [Facts, boundaries and full prompt](species/38-glaucidium-nana-v7.md).
+
+
+### 2026-11-26 39-glaucidium-griseiceps-v7 actual audit
+新增0、复用2。新鲜网络检索及原出版方论文正文pp92–94复读；图鉴p387/PDF389明确成年跗蹠羽被至趾基。#40已发现的颜色与羽被混淆在#39独立核证后应用；不声称回查了其他全库图。 [Facts, boundaries and full prompt](species/39-glaucidium-griseiceps-v7.md).

@@ -1063,3 +1063,13 @@ When a species guide says “juvenile not known” but a regional field photogra
 
 ## 2026-11-26 1125Z — actual localized revisions and regression boundaries
 #29v7 adult horn claw/darktip corrected; #30v7 juvenile buff head marks refined without deleting head spots or mantle correction; #31v7 cere isolated from green bill blade; #34v7 broken tail spots restored without exact count. Full/local crops actually checked, colours/biometrics remain uncalibrated. Do not transfer one species' bare-part rule to another: #32darkgreen cere/darkhornclaw retained. #33 known study age is post-hatch reference, not concept individual birth data; formed wings retained. #30 title version and #34 role labels were actual generation failures, preserved then re-edited/viewed. Print-only instructions helped footer text but did not prevent unrelated label omissions, so no universal prevention claim. #32 immediate ref mismatch recovered by immutablecommit/freshmain reads; no duplicate image. Primary Mehta2022 newly read selected original sections support nest context only. Six actual verified cycles and exact bytes/stage times in production/batches/20261126T1125Z-six-cycle-review.md.
+
+
+## 2026-11-26 — #35–40 actual applications, no universal claim
+- Brown/grey morph tail-web marks versus rufous morph must be sourced per species; never transfer #35–37 shaft interruptions to #38 continuous narrow rufous bands. Applied and actually reviewed #35v7/#36v7/#37v8; #38v7 retained its correct bands.
+- #38 adult crown fine longitudinal streaks and chosen mesoptile plain crown handled separately; generic juvenile rule not applied to #37 photographer-labelled older juvenile. Source photo/stage boundaries kept.
+- #39 adult tarsal-cover correction independently checked p387 then applied; yellow skin colour and feather coverage are different facts. #40v6 already corrected; no second anatomy claim.
+- #36 local edit kept stale titlev6. First output checkpoint retained, title-only edit and actual final view resolved. Prompt wording is not proof that output labels succeeded.
+- #40 chapter locator corrected and feeding→perch inference withdrawn. Provisional label is an annotation revision, not juvenile reconstruction or sciencepass; stop repeating it without new evidence.
+- Timings include measured generation and edit waits; checkpoint intervals are not pure labor. ARCHIVED publish timestamps recovered from immutable commit metadata while original record-writing timestamp retained.
+[Six-cycle evidence](batches/20261126T1225Z-six-cycle-review.md).

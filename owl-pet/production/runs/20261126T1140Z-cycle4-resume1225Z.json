@@ -34,8 +34,10 @@
     },
     {
       "stage": "ARCHIVED",
-      "at": "2026-11-26T12:39:20.343Z",
-      "commit_sha": "a90dcc47514fc66e86f5b38e388a7c9d74a0a7cf"
+      "at": "2026-11-26T12:39:06Z",
+      "commit_sha": "a90dcc47514fc66e86f5b38e388a7c9d74a0a7cf",
+      "recorded_at": "2026-11-26T12:39:20.343Z",
+      "timestamp_basis": "immutable archive commit committer.date recovered during final audit"
     },
     {
       "stage": "VERIFIED",
@@ -44,7 +46,13 @@
     }
   ],
   "scientifically_verified": false,
-  "errors": [],
+  "errors": [
+    {
+      "step": "initial image text check",
+      "detail": "Initial image kept v6 title. Attempt1 exactoriginal preserved; title-only builtin imagegen edit then viewed; resolved.",
+      "attempt_commit": "54590f46f832f7bcea7de352f2280f72468be285"
+    }
+  ],
   "target": "36-glaucidium-bolivianum-v7",
   "generation_seconds": 101.172,
   "meta": {
@@ -68,5 +76,16 @@
   "edit_seconds": 34.897,
   "reviewed_local_file": "/workspace/scratch/96400dc71dac/generated_images/exec-746c5bda-79e9-4104-98be-b78210e2d351.png",
   "ended_at": "2026-11-26T12:39:20.343Z",
-  "archive_commit": "a90dcc47514fc66e86f5b38e388a7c9d74a0a7cf"
+  "archive_commit": "a90dcc47514fc66e86f5b38e388a7c9d74a0a7cf",
+  "timing_audit": {
+    "research_checkpoint_interval_seconds": 77.452,
+    "interval_note": "Checkpoint wall interval includes tool/read/commit time; not pure research labor.",
+    "generation_wait_seconds": 101.172,
+    "additional_edit_wait_seconds": 34.897,
+    "archive_publish_at": "2026-11-26T12:39:06Z",
+    "review_to_archive_publish_seconds": 4.553,
+    "archive_publish_to_verification_seconds": 14.343,
+    "recorded_at": "2026-11-26T12:52:13.708Z",
+    "timing_limit": "No per-tool pure labor attribution; ARCHIVED event originally timestamped at verification recording, actual publish recovered from immutable commit committer date."
+  }
 }

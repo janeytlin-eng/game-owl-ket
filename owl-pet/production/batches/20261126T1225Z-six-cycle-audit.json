@@ -1,0 +1,256 @@
+{
+  "invocation_id": "20261126T1225Z",
+  "production_started_at": "2026-11-26T12:27:03.070Z",
+  "review_entry_written_at": "2026-11-26T12:53:57.207Z",
+  "status": "SIX_CYCLES_VERIFIED_WHOLE_TASK_PARTIAL",
+  "completed_cycles": 6,
+  "new_species": 0,
+  "revised_species": 6,
+  "morphology_revisions": 5,
+  "annotation_only_revisions": 1,
+  "scientifically_verified_new": 0,
+  "user_confirmations_new": 0,
+  "coverage": {
+    "head": "2d983ef9dad122675a6225520707ad2b6ae03563",
+    "tree": "0b792a2cc12d0f89fd0b701294b1d9c417b2940f",
+    "truncated": false,
+    "numbered_png_versions": 1135,
+    "raw_stems": 210,
+    "unique": 207,
+    "total": 251,
+    "aliases": {
+      "glaucidium-brasilianum-cactorum": "glaucidium-brasilianum",
+      "tyto-javanica-delicatula": "tyto-javanica",
+      "pseudoscops-grammicus": "asio-grammicus"
+    }
+  },
+  "batch_outcome": {
+    "resumed": "20261126T1140Z",
+    "contributed_cycles": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "old_batch_closed": 6,
+    "current": "20261126T1240Z",
+    "current_completed": 2,
+    "next_cycle": 3,
+    "other_partial_batches": 0
+  },
+  "source_delta": {
+    "new": 1,
+    "reuse_citations": 15,
+    "total_citations": 16,
+    "distinct_documents": 10,
+    "corrected_source_entries": 1,
+    "corrections_in_entry": 2,
+    "unverified_new_leads": 1,
+    "index": "owl-pet/research/SOURCE_INDEX.md"
+  },
+  "recover25": {
+    "fd9d70d": "remote422 No commit found; not treated as connector failure",
+    "local_original_found": true,
+    "bytes": 2864437,
+    "sha256": "729c187af12da587305c0c701c07440464896f5a6ada74431dfa3e7b19616ca1",
+    "remote_original": "owl-pet/design/originals/25-glaucidium-brasilianum-cactorum-v6.png",
+    "blob": "10508841ef5f6184e8658664615302909765c1dd",
+    "verification": "Main raw GET exact bytes/SHA256/full PNG decode passed, same local; no remake or extra credit."
+  },
+  "errors": [
+    {
+      "target": "#36",
+      "step": "initial image text review",
+      "result": "v6 title retained; attempt1 persisted; title-only second imagegen returned, viewed, verified."
+    },
+    {
+      "target": "#40 Greeney2006",
+      "step": "primary paper access",
+      "result": "web403/directHTTP403; body unverified; no unsupported juvenile morphology accepted."
+    }
+  ],
+  "api_migration": false,
+  "automation_changes": false,
+  "cycles": [
+    {
+      "id": "35-glaucidium-jardinii-v7",
+      "archive": "922927a269f145a522dc9ec0a3fab0bec73535ce",
+      "verify": "188faaaf5aba9da309ce86bc95f1bedc47452dde",
+      "run": "owl-pet/production/runs/20261126T1140Z-cycle3-resume1225Z.json",
+      "meta": {
+        "bytes": 2648265,
+        "sha256": "37d029b43ab3bf5594f72cc161ef8a285f727afa64523ed1428054aa260d463a",
+        "gitblob": "0eb862a08e117a938cfc5da4236ec119db4c9e0b",
+        "size": [
+          1536,
+          1024
+        ],
+        "b64len": 3531020
+      },
+      "generation_seconds": 103.555,
+      "archive_published_at": "2026-11-26T12:31:40Z",
+      "change": "成年棕色型尾斑在羽轴处断开；保留v6雌腹纹/幼鸟",
+      "stage_timing": {
+        "research_checkpoint_interval_seconds": 118.901,
+        "interval_note": "Checkpoint wall interval includes tool/read/commit time; not pure research labor.",
+        "generation_wait_seconds": 103.555,
+        "additional_edit_wait_seconds": 0,
+        "archive_publish_at": "2026-11-26T12:31:40Z",
+        "review_to_archive_publish_seconds": 4.397,
+        "archive_publish_to_verification_seconds": 13.782,
+        "recorded_at": "2026-11-26T12:52:13.708Z",
+        "timing_limit": "No per-tool pure labor attribution; ARCHIVED event originally timestamped at verification recording, actual publish recovered from immutable commit committer date."
+      }
+    },
+    {
+      "id": "36-glaucidium-bolivianum-v7",
+      "archive": "a90dcc47514fc66e86f5b38e388a7c9d74a0a7cf",
+      "verify": "06d70228127ca17a5ab6421d9ffad68d89c9a166",
+      "run": "owl-pet/production/runs/20261126T1140Z-cycle4-resume1225Z.json",
+      "meta": {
+        "bytes": 2610272,
+        "sha256": "4cd0d2a188f017bae0a8d0a8182334e882f29db78248b2586a747c694ff37ef2",
+        "gitblob": "58e84c729639985607fb18a06212e881741f1d40",
+        "size": [
+          1536,
+          1024
+        ],
+        "b64len": 3480364
+      },
+      "generation_seconds": 101.172,
+      "archive_published_at": "2026-11-26T12:39:06Z",
+      "change": "左成年棕色型尾斑断开；红型7斑不套同一规则；另修标题",
+      "stage_timing": {
+        "research_checkpoint_interval_seconds": 77.452,
+        "interval_note": "Checkpoint wall interval includes tool/read/commit time; not pure research labor.",
+        "generation_wait_seconds": 101.172,
+        "additional_edit_wait_seconds": 34.897,
+        "archive_publish_at": "2026-11-26T12:39:06Z",
+        "review_to_archive_publish_seconds": 4.553,
+        "archive_publish_to_verification_seconds": 14.343,
+        "recorded_at": "2026-11-26T12:52:13.708Z",
+        "timing_limit": "No per-tool pure labor attribution; ARCHIVED event originally timestamped at verification recording, actual publish recovered from immutable commit committer date."
+      }
+    },
+    {
+      "id": "37-glaucidium-peruanum-v8",
+      "archive": "d50ca73f92fc219755ac0ea93e7dd5aadc463ddb",
+      "verify": "1bfd94962a8062df80d4cb66f12927e24707ca19",
+      "run": "owl-pet/production/runs/20261126T1140Z-cycle5-resume1225Z.json",
+      "meta": {
+        "bytes": 2821046,
+        "sha256": "3aa7fcf810c4878e9f56b5ade357a0c3683e9fbc2e760a854892e2b893e81d07",
+        "gitblob": "a18ea4de87bdfed25b929d524a416f684cc79765",
+        "size": [
+          1536,
+          1024
+        ],
+        "b64len": 3761396
+      },
+      "generation_seconds": 42.021,
+      "archive_published_at": "2026-11-26T12:41:44Z",
+      "change": "两成年棕色型尾纹断续；保留实物照片限定的较大幼鸟",
+      "stage_timing": {
+        "research_checkpoint_interval_seconds": 46.046,
+        "interval_note": "Checkpoint wall interval includes tool/read/commit time; not pure research labor.",
+        "generation_wait_seconds": 42.021,
+        "additional_edit_wait_seconds": 0,
+        "archive_publish_at": "2026-11-26T12:41:44Z",
+        "review_to_archive_publish_seconds": 3.336,
+        "archive_publish_to_verification_seconds": 11.558,
+        "recorded_at": "2026-11-26T12:52:13.708Z",
+        "timing_limit": "No per-tool pure labor attribution; ARCHIVED event originally timestamped at verification recording, actual publish recovered from immutable commit committer date."
+      }
+    },
+    {
+      "id": "38-glaucidium-nana-v7",
+      "archive": "07cb821edaa8d9dc3b1271b4910ecf73dd401dc8",
+      "verify": "6d332c6875069765539fbfd54c044daa6359b88a",
+      "run": "owl-pet/production/runs/20261126T1140Z-cycle6-resume1225Z.json",
+      "meta": {
+        "bytes": 2788717,
+        "sha256": "2468f1044d2f4c784747e399727a62100cf5d94054f8f64452cec60a4020198c",
+        "gitblob": "c0b7b2b90c714a50c67a1fb5a9200dd94e94cdff",
+        "size": [
+          1536,
+          1024
+        ],
+        "b64len": 3718292
+      },
+      "generation_seconds": 45.978,
+      "archive_published_at": "2026-11-26T12:44:33Z",
+      "change": "成年冠部细纵白纹＋mesoptile素冠；保留细赤褐尾带",
+      "stage_timing": {
+        "research_checkpoint_interval_seconds": 62.542,
+        "interval_note": "Checkpoint wall interval includes tool/read/commit time; not pure research labor.",
+        "generation_wait_seconds": 45.978,
+        "additional_edit_wait_seconds": 0,
+        "archive_publish_at": "2026-11-26T12:44:33Z",
+        "review_to_archive_publish_seconds": 4.67,
+        "archive_publish_to_verification_seconds": 13.832,
+        "recorded_at": "2026-11-26T12:52:13.708Z",
+        "timing_limit": "No per-tool pure labor attribution; ARCHIVED event originally timestamped at verification recording, actual publish recovered from immutable commit committer date."
+      }
+    },
+    {
+      "id": "39-glaucidium-griseiceps-v7",
+      "archive": "1357a95ed09145d2d6e6f0f5f7300091f7afea3c",
+      "verify": "df97c6d56bf7b879c1532195bdbb2bdccc5be961",
+      "run": "owl-pet/production/runs/20261126T1240Z-cycle1-resume1225Z.json",
+      "meta": {
+        "bytes": 2550264,
+        "sha256": "63a482e5daf12f32bf3332b366683f27fcbf922676b16e2891521b222026265b",
+        "gitblob": "f3a24f489acbef726ffd6af595f86bc35af1bbc7",
+        "size": [
+          1536,
+          1024
+        ],
+        "b64len": 3400352
+      },
+      "generation_seconds": 42.688,
+      "archive_published_at": "2026-11-26T12:47:28Z",
+      "change": "成年跗蹠羽被至趾基；保留湿地幼鸟与已修素背",
+      "stage_timing": {
+        "research_checkpoint_interval_seconds": 51.532,
+        "interval_note": "Checkpoint wall interval includes tool/read/commit time; not pure research labor.",
+        "generation_wait_seconds": 42.688,
+        "additional_edit_wait_seconds": 0,
+        "archive_publish_at": "2026-11-26T12:47:28Z",
+        "review_to_archive_publish_seconds": 4.042,
+        "archive_publish_to_verification_seconds": 12.247,
+        "recorded_at": "2026-11-26T12:52:13.708Z",
+        "timing_limit": "No per-tool pure labor attribution; ARCHIVED event originally timestamped at verification recording, actual publish recovered from immutable commit committer date."
+      }
+    },
+    {
+      "id": "40-glaucidium-nubicola-v7",
+      "archive": "4bdeafd233079caa37750595d8b41e1ba9de4cb2",
+      "verify": "73b6bf9db5f7bb9e0499bb31c04ed30113356aa1",
+      "run": "owl-pet/production/runs/20261126T1240Z-cycle2-resume1225Z.json",
+      "meta": {
+        "bytes": 2473312,
+        "sha256": "a6a4e6d03b0b0a6cc7efccb5b623a7fb6ed3bfed58204e3253dc975cc2d26be6",
+        "gitblob": "962d5f3afb607f5f942d3418e7fe75ae2d357ae9",
+        "size": [
+          1536,
+          1024
+        ],
+        "b64len": 3297752
+      },
+      "generation_seconds": 39.073,
+      "archive_published_at": "2026-11-26T12:50:37Z",
+      "change": "仅证据边界文字：幼鸟临时设计/外观年龄虹膜飞行未核验",
+      "stage_timing": {
+        "research_checkpoint_interval_seconds": 82.229,
+        "interval_note": "Checkpoint wall interval includes tool/read/commit time; not pure research labor.",
+        "generation_wait_seconds": 39.073,
+        "additional_edit_wait_seconds": 0,
+        "archive_publish_at": "2026-11-26T12:50:37Z",
+        "review_to_archive_publish_seconds": 3.757,
+        "archive_publish_to_verification_seconds": 12.859,
+        "recorded_at": "2026-11-26T12:52:13.709Z",
+        "timing_limit": "No per-tool pure labor attribution; ARCHIVED event originally timestamped at verification recording, actual publish recovered from immutable commit committer date."
+      }
+    }
+  ]
+}

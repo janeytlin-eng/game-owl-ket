@@ -28,8 +28,10 @@
     },
     {
       "stage": "ARCHIVED",
-      "at": "2026-11-26T12:47:40.247Z",
-      "commit_sha": "1357a95ed09145d2d6e6f0f5f7300091f7afea3c"
+      "at": "2026-11-26T12:47:28Z",
+      "commit_sha": "1357a95ed09145d2d6e6f0f5f7300091f7afea3c",
+      "recorded_at": "2026-11-26T12:47:40.247Z",
+      "timestamp_basis": "immutable archive commit committer.date recovered during final audit"
     },
     {
       "stage": "VERIFIED",
@@ -52,5 +54,16 @@
     "b64len": 3400352
   },
   "ended_at": "2026-11-26T12:47:40.247Z",
-  "archive_commit": "1357a95ed09145d2d6e6f0f5f7300091f7afea3c"
+  "archive_commit": "1357a95ed09145d2d6e6f0f5f7300091f7afea3c",
+  "timing_audit": {
+    "research_checkpoint_interval_seconds": 51.532,
+    "interval_note": "Checkpoint wall interval includes tool/read/commit time; not pure research labor.",
+    "generation_wait_seconds": 42.688,
+    "additional_edit_wait_seconds": 0,
+    "archive_publish_at": "2026-11-26T12:47:28Z",
+    "review_to_archive_publish_seconds": 4.042,
+    "archive_publish_to_verification_seconds": 12.247,
+    "recorded_at": "2026-11-26T12:52:13.708Z",
+    "timing_limit": "No per-tool pure labor attribution; ARCHIVED event originally timestamped at verification recording, actual publish recovered from immutable commit committer date."
+  }
 }

@@ -1,0 +1,2 @@
+# 58-ketupa-coromanda-v8
+实际查看v7/v8全图，中心AGEUNMEASURED/BRANCHMOVINGSTAGE和2021FIELD BIRD estimated8–10weeksbyappearance页脚清楚。成年蓝喙浅角色尖、黄眼、幼鸟斑纹绒羽/已形成折翼/自然迈枝双足支撑、巢与背景水田视觉保持。仅年龄归因标识，未计形态科学改善。原始论文44–45实际新读：8–10周为外观行为估计、非孵化日期；并未证明画中日龄或首飞。图鉴292/PDF294实际新读；旧Bubocoromandus/currentKetupacoromanda映射保持，不计新种。新0复用2，PASS_WITH_LIMITATIONS/sciencefalse；羽龄/飞行及定量性别比例未知。本轮再次应用来源年龄≠绘制个体年龄规则，与#55文案修订各自独立来源，不把阶段数当子轮数。

@@ -1,0 +1,2 @@
+# 75-ninox-scutulata-v7
+Actualgeneratedfullv7viewed. Stageageunverified/sciencepending/exactage-firstflight-sexratiofooterinsidecanvas readable, nofoot/tailobstruction. Adultcere/hardbillseparation/eyes/proportions andyoungsidewaysformedwingstretch/barredtail/fluff/contactspreserved. Annotationonly/no morphologyfix. Fullresearchincludesactualobserverbody andguide; new0/reuse2. Exactage/sexsize/firstflightunknown. Noextraeditneeded. Keep species-specificformedwingnotgenericstubwing; only exportuncertaintynowvisible.

@@ -7693,3 +7693,6 @@ New1SPOT-LUMS-2026 institutionaladultbody; reuse2guide/primary. CurrentPMCcaptch
 
 ### 2026-11-26 43-athene-blewitti-v7
 Reuse3documents; primary1998 newlyreadbody adulttoefeathering diagnosis. ExistingstableID mapping FOW-RASMUSSEN-COLLAR-1998 reused if indexed; samepublicationno newworkcount. Longheavywhiteuppertoes not merely sparsebristles; yellowbareparts/claws preserved. Juvenileage/iris/flight remainsunknown. [facts/full prompt](species/43-athene-blewitti-v7.md).
+
+
+#43v7 source accounting correction: FOW-RASMUSSEN-COLLAR-1998 is NEW here (URLnotinpriorindex), Rasmussen/Collar1998 Forktail14:43–51 https://avibirds.com/wp-content/uploads/pdf/bossteenuil1.pdf actualp43adultdiagnosisread thenlaterrefetch410; longheavywhiteuppertoes, notjuvenile. FOW-JATHAR-2004 existing report actuallyreread GrowthoftheFledgling printed54–55 via authorpublicfulltext https://www.researchgate.net/publication/346934651_Ecological_studies_of_the_Forest_Spotted_Owlet_Athene_Heteroglaux_blewitti : reported20dyellowishiris/25distinctyellowring,28–30dweakflight/stumpytail/blotching; noindependentexactageproof. Supersedes prior unknowniris DESIGNCHOICE for selectedlateyoungstage only, nootheragesgeneralized. Sourcefacts/fullprompt andlimitations in [43v7](species/43-athene-blewitti-v7.md). New1/reused3.

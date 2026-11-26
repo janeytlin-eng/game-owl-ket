@@ -4,7 +4,7 @@
   "owner": "20261126T1630Z",
   "run_id": "20261126T1545Z-cycle5-resume1630Z",
   "started_at": "2026-11-26T16:35:26.459Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,8 +14,20 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T16:35:34.622Z",
       "evidence": "Actualv7fullseen: young carefulbranchingpose calledRECENTFLEDGLING, while source explicitly distinguishes branchwalkingfromfirsttrueflight; no image-levelscientificpending/irisunknown disclosure. Correctlabel, notinventanatomy orrecolourunverifiediris."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T16:37:21.922Z",
+      "blob": "db93826aac552f37ddfc69d7eb02e173a8295d60"
     }
   ],
   "errors": [],
-  "target": "73-ninox-rufa-v8"
+  "target": "73-ninox-rufa-v8",
+  "meta": {
+    "bytes": 2455290,
+    "sha256": "406ffd56d028b5f2d4a1aec0bd746589ddb6ab1dccb18a9ebb7caad2edf25a24",
+    "gitblob": "db93826aac552f37ddfc69d7eb02e173a8295d60",
+    "b64len": 3273720
+  },
+  "imagegen_edit_wait_seconds": 42.179
 }

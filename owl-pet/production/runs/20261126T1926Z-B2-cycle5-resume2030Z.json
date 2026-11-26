@@ -4,7 +4,7 @@
   "owner": "owl-production-20261126T2030Z",
   "run_id": "20261126T2030Z",
   "started_at": "2026-11-26T20:38:36.037Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -37,6 +37,10 @@
       "at": "2026-11-26T20:39:55.959Z",
       "attempt": 2,
       "prompt": "Precise local correction of attached86 firstedit: adult underpart NEW horizontal crossmarks are MUCH TOO DARK/THICK/REGULAR, making a decorative mesh. Change adult chest/belly ONLY: reduce crossmark opacity/contrast to about ONE FIFTH of present, narrow each to a hairline, remove two out of three crossmarks irregularly. Keep the original dark vertical shaftstreaks visible. Desired paler grey-buff adult ventrum with only faint thin broken transverse wisps, not black closed loops or a fishscale lattice. Do not alter any rightyoung feather or any adult face/wings/feet/shape, all labels/footer and background. This is only softening overdrawn crossmarks, preserve source-supported shaftstreaks."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T20:41:05.278Z"
     }
   ],
   "target": "86-otus-elegans-v8",
@@ -49,5 +53,17 @@
     "ELE-BIRD-RESEARCH-NEWS-2011-P1-2",
     "WHSO-MIKKOLA-2013"
   ],
-  "first_imagegen_wait_seconds": 39.824
+  "first_imagegen_wait_seconds": 39.824,
+  "meta": {
+    "bytes": 2658742,
+    "sha256": "c99226efd5afcb4ae953b72c93f2e25e426a80c6e7365943429eaad08a5efbde",
+    "b64len": 3544992,
+    "size": [
+      1536,
+      1024
+    ],
+    "gitblob": "c07d106fa7f1abced89ddc426227fd653d59fe47"
+  },
+  "second_imagegen_wait_seconds": 35.167,
+  "review": "Actualv7/firstedit/secondeditfull viewed: first horizontalnetworktooheavy/repetitive; secondnow muchfiner/fainterirregulartransversewisps whileverticalshaftstreakspresent. Finepatternstillstylizednotquantifiednaturalspacing; no scientificpass. Adultbaregreytoes/blackhornclaws/featheredlegbases/yelloweyes/darkbill/tufts/near-equalheight preserved. Rightyoung unchangedcurltexture/unknownphase notsolved, compactfoldedwing/shorttail/twofootgrips andshelterbelt/cane/creamgouache/textstable. PASS_WITH_LIMITATIONS/sciencefalse/no newconfirmation. Prompt'addfinecrossmarks' overshot todecorativemesh; explicitamplitudereduction workedvisuallyonthisimage, notuniversalpatternrule."
 }

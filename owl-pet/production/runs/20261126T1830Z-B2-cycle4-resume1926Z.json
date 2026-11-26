@@ -14,10 +14,29 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T19:30:33.700Z",
       "prompt": "Use case: precise-object-edit. Edit target image1 is owl-pet plate 85 Otus semitorques v7. Image2 is a cropped primary scientific photograph Fig3 (Nohara & Honda2025,p76), morphological reference only. Preserve both adults, every label, forest, branch and juvenile feet positions. Completely repaint only the juvenile's head/torso plumage texture from scratch as a very dense matte grey mesoptile surface: soft opaque short flecks, diffuse irregular grey/buff shaded bands, gently fuzzy silhouette. Match the soft compact down surface of image2, NOT its photo composition. The current youngster is covered with conspicuous long curly pale wires: replace this entire wire substrate, do not merely overlay it. Draw solid soft fuzzy masses at normal viewing size; no individually outlined ringlets/curled threads. Retain distinct ear tufts, shadowed unspecified irises, small grey horn bill, down-dominated body with very short incomplete folded remiges, concealed short tail, quiet low two-foot gripping support. Do not upgrade to mature feathered wings or use older #79 plumage. The original stylized naturalistic pet concept style and all adult anatomy remain. Text unchanged, no claims of exact age/flight/sex ratio."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T19:31:43.773Z",
+      "attempt": 1,
+      "meta": {
+        "bytes": 2637380,
+        "sha256": "b78d60c618f6247ed697ca3663f317e93387daf28360a544b0a3af51b90205ca",
+        "b64len": 3516508,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "e5a5e4d5e68548617d43cf54e852e4751b7b36e5"
+      },
+      "imagegen_wait_seconds": 32.897,
+      "review": "Fullactualview: loops remain; correction failed; retry whole juvenile rebuild."
     }
   ],
   "target": "85-otus-semitorques-v8",
-  "errors": [],
+  "errors": [
+    "Attempt1 texture correction failed actual visual check"
+  ],
   "source_new": 0,
   "source_reuse": 2,
   "source_ids": [

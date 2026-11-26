@@ -7919,3 +7919,7 @@ SourceIDs: MEL-RIVAS-FUENZALIDA-BURGOS-2022-84-88, WHSO-MIKKOLA-2013; new0, reus
 
 ### MEL-RIVAS-FUENZALIDA-BURGOS-2022-84-88 fact increment2026-11-27
 Actualp85–86read: deadadult2021-02-25nearSanRamón necropsyFEMALE, measurementsTable1. One sexedfemale nowdocumented; olderguide2013twoUNSEXEDweightsdoesnotmean nosexedmaterialeverpublished. Insufficienttoquantifydimorphism. Olderground-foundyoungseparatefromfewdaynestyoung; cinnamontowhiteheadwithfirstchestfeathers. [95v7research](species/95-pulsatrix-melanota-v7.md). No newsourceID/document.
+
+
+## 2026-11-27 run2030 reuse 96-aegolius-ridgwayi-v7
+SourceIDs: RID-MIK2013-446, RID-CAYAYA-EISERMANN-JUV-PHOTO-2026; new0, reuse2. Freshread facts/pages/limitations/fullprompt: [research](species/96-aegolius-ridgwayi-v7.md); [review](reviews/96-aegolius-ridgwayi-v7-review.md). No duplicate source counted.

@@ -4,15 +4,26 @@
   "owner": "owl-production-20261126T2030Z",
   "run_id": "20261126T2030Z",
   "started_at": "2026-11-26T20:49:07.776Z",
-  "stage": "STARTED",
+  "stage": "RESEARCH_READY",
   "stages": [
     {
       "stage": "STARTED",
       "at": "2026-11-26T20:49:07.776Z"
+    },
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-26T20:49:13.973Z",
+      "prompt": "Annotation-only precise edit #96 Unspotted Saw-whet Owl Aegolius ridgwayi v6. Preserve entire biological drawing and alladultlabels/title/currentname. Change central 'RECENT FLEDGLING — AGE UNKNOWN' to 'AGE-UNKNOWN DEPENDENT YOUNG'. Add small bottommarginfooter 'CONCEPT — SCIENTIFIC REVIEW PENDING; INDIVIDUAL AGE / FIRST FLIGHT / SEX RATIO UNVERIFIED'. Keep lastv6 pale/faintbuffjuvenilebreastwisps (do NOT restorelongdarkshafts), warmbrownsoftdown/headstreaks/yelloweyes/darkbill/compactwing/concealedtail/twofootbranchgrip; bothadultsfinecrownstreaks/brownbacks/plainbuffventra/fleshtoes/sparsebristles/near-equalscale, cavity/cloudforest/moss/branches/style/text exactlyunchanged. No new preciseage, juvenilefootcolour or firstflightclaim; noextraanimal/object."
     }
   ],
   "target": "96-aegolius-ridgwayi-v7",
-  "errors": [],
+  "errors": [
+    "CAYAYA juvenilepageinaccessible; no newphoto pixels; other-species juveniles excluded"
+  ],
   "source_new": 0,
-  "source_reuse": 2
+  "source_reuse": 2,
+  "source_ids": [
+    "RID-MIK2013-446",
+    "RID-CAYAYA-EISERMANN-JUV-PHOTO-2026"
+  ]
 }

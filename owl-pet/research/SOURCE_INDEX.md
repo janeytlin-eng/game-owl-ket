@@ -8010,3 +8010,7 @@ Newpublications0/reused3: WHSO-MIKKOLA-2013 actualp338/PDF340; RBO-GREENEY-2003-
 
 ## 2026-11-27 2334Z — 107-strix-fulvescens-v6
 Sources WHSO-MIKKOLA-2013; FVO-OWLPAGES-2020-L64-75; S107-CAYAYA-2026. New 0, reused 3. Fresh uploaded printed345/PDF347 Identification/Juvenile plus adult photo pixels; fresh expert Description64–66 and researcher account body27–45. Adult distal toe colour only; basal feathers retained; no adult trait transfer to young. BBOC PDF timeout and bird-studies redirect error recorded, historical2018 nest boundary not newly claimed. [Facts, source scope, full prompt](species/107-strix-fulvescens-v6.md); [actual review](reviews/107-strix-fulvescens-v6-review.md).
+
+
+## 2026-11-27 2334Z — 108-otus-rutilus-v6
+Sources RUT-MIKKOLA-2013-P143-144; RUT-VASSEN-2013-ANDASIBE-JUV. New 0, reused 2. Guide actual143–144/PDF145–146 text reopened; Vassen photo metadata113–136 actualread(2013-12-04Andasibe) but freshoriginalpixel download403. Existing morphology historicalphoto-bounded; annotationonlyage/flightlimits, notnewimagecalibration. [Facts, source scope, full prompt](species/108-otus-rutilus-v6.md); [actual review](reviews/108-otus-rutilus-v6-review.md).

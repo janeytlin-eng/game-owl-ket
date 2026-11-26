@@ -35,5 +35,14 @@
     ],
     "b64len": 3499976
   },
-  "generation_seconds": 33.225
+  "generation_seconds": 33.225,
+  "attempts": [
+    {
+      "id": "26-glaucidium-siju-v7-attempt1",
+      "result": "REJECTED_TEXT_LEAK",
+      "commit": "5bb9d7963253b54e3630053e2e98cb270aad3a2e",
+      "error": "Extra imperative editing instructions printed after intended footer."
+    }
+  ],
+  "edit_prompt": "Remove ONLY accidental extra footer text starting 'Do not recolour' through end. Bottom small sentence must read exactly 'Juvenile iris and exact age unverified; adult colours are not a sex key.' No other lettering added. Preserve all birds, all labels, title v7 and large scientific-pending line exactly."
 }

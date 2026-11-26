@@ -4,7 +4,7 @@
   "owner": "20261126T1734Z",
   "run_id": "20261126T1734Z-B2-cycle1-resume1734Z",
   "started_at": "2026-11-26T17:48:34.335Z",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "STARTED",
@@ -30,6 +30,11 @@
       "stage": "ARCHIVED",
       "at": "2026-11-26T17:49:51.826Z",
       "commit": "43b275abac17b9d4759a855f7169a1ef80a9fbce"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-26T17:50:05.446Z",
+      "evidence": "Immutable original/concept fullbytes SHA256 and PIL decode pass; research/review readback."
     }
   ],
   "errors": [],
@@ -42,5 +47,6 @@
   },
   "imagegen_edit_wait_seconds": 35.921,
   "review": "Actual full generatedv7 viewed: AGE-UNKNOWN JUVENILE and pending/age-firstflight-sexratio footer readable, no feet/wing obstruction. Adults yelloweyes/greybills/barkplumage and toeclawpalette unchanged. Juvenile residualdown/softformedwing/shorttail, one planted foot and lifted step preserved, no flightclaim. Annotation-only PASS_WITH_LIMITATIONS/sciencefalse; no newuserconfirmation. Source abstract does not establish photographed individual's age; no new anatomy pass. Lesson separate study post-fledging time and depicted age; label boundary applied, body untouched.",
-  "archive_commit": "43b275abac17b9d4759a855f7169a1ef80a9fbce"
+  "archive_commit": "43b275abac17b9d4759a855f7169a1ef80a9fbce",
+  "ended_at": "2026-11-26T17:50:05.446Z"
 }

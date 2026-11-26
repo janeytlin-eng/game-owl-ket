@@ -7895,3 +7895,7 @@ SourceIDs: SEM-NOHARA-HONDA-2025-P75-78, WHSO-MIKKOLA-2013; new0, reuse2. Freshr
 
 ## 2026-11-27 run2030 reuse 85-otus-semitorques-v10
 SourceIDs: SEM-NOHARA-HONDA-2025-P75-78, WHSO-MIKKOLA-2013; new0, reuse2. Freshread facts/pages/limitations/fullprompt: [research](species/85-otus-semitorques-v10.md); [review](reviews/85-otus-semitorques-v10-review.md). No duplicate source counted.
+
+
+## 2026-11-27 run2030 reuse 86-otus-elegans-v8
+SourceIDs: ELE-BIRD-RESEARCH-NEWS-2011-P1-2, WHSO-MIKKOLA-2013; new0, reuse2. Freshread facts/pages/limitations/fullprompt: [research](species/86-otus-elegans-v8.md); [review](reviews/86-otus-elegans-v8-review.md). No duplicate source counted.

@@ -298,3 +298,8 @@ Annotation gap→metadata provides photographed date but no hatch age/flighttest
 ## 2026-11-27 2334Z 109-ptilopsis-leucotis-v10
 Problem: juvenile iris imported adult orange. New Morita/Mikkola2025 p92 and guidep254 support juvenileyellow; local iris-only edit applied and actualoutput checked yellowyoung/orangeadults/titlev10 plus all support/text invariants. New primary captiveadult case must not normalize dark eyes in wild or supply juveniletiming. Prior#105/#109 age-role palette scope compared; no crossspecies iris inference. Residual regular feather texture/toe extent remains queue, no fullscience claim.
 [Actual review](../research/reviews/109-ptilopsis-leucotis-v10-review.md)
+
+
+## 2026-11-27 2334Z 110-megascops-barbarus-v7
+Broadbright juvenile brows→guidep214 mesoptile narrow/indistinct→brows reduced only, ageunknownlabel added, actualfullresult verified. Adultpinktoecorrection fromv6 retained. CAYAYA researcher warns adult tuft lengths variable, so no false global tuft-shortening rule. Applied stage-specific brow distinction to110 only;107/108/109 priors rechecked visually and no transfer. Curl-like juvenile texture remains unresolved and prioritized, no claim fix from label.
+[Actual review](../research/reviews/110-megascops-barbarus-v7-review.md)

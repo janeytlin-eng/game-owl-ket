@@ -4,7 +4,7 @@
   "cycle": 1,
   "target": "105-ptilopsis-granti-v9",
   "started_at": "2026-11-26T22:36:07.421Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -13,6 +13,10 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T22:36:37.260Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T22:38:00.969Z"
     }
   ],
   "errors": [],
@@ -22,5 +26,18 @@
     "SWFO-ADW-2014",
     "WHSO-MIKKOLA-2013"
   ],
-  "full_prompt": "Use case: precise-object-edit #105 Ptilopsis granti v8. Correct ONLY BOTH ADULT lowerbreast/belly fine pattern: keep all existing dark vertical shaftstreaks dominant, add just a FEW extremely faint, thin, broken grey transverse vermiculation wisps between/branching from shafts over palegrey. Each new crosswisp at most ONE FIFTH contrast/width of existing shafts, sparse/unequal, soft and irregular. Source Mikkola2013p256 fine darkvermiculations plus fine shaftstreaks. Do NOT create dark fishscale mesh, closedloops, bold transversebars or uniformlattice. No stronger black-markarea overall. All centralyoung feathers/body/formedcompactwing/shorttail/yellowgreyeyes/shorttufts/twofootgrip ENTIRELY unchanged. Adultwhitefaces/blackruff/orangeredeyes/creambills/longtufts/wingtail/feet/toebasefeathers/darkclaws/nearequalheight/branchsavanna/style unchanged. Keep title/adultlabels/currentyoungageunknownlabel. Add small white serif bottomfooter 'CONCEPT — SCIENTIFIC REVIEW PENDING; AGE / FIRST FLIGHT / SEX RATIO UNVERIFIED'. No borders/boxes/decorativeobjects."
+  "full_prompt": "Use case: precise-object-edit #105 Ptilopsis granti v8. Correct ONLY BOTH ADULT lowerbreast/belly fine pattern: keep all existing dark vertical shaftstreaks dominant, add just a FEW extremely faint, thin, broken grey transverse vermiculation wisps between/branching from shafts over palegrey. Each new crosswisp at most ONE FIFTH contrast/width of existing shafts, sparse/unequal, soft and irregular. Source Mikkola2013p256 fine darkvermiculations plus fine shaftstreaks. Do NOT create dark fishscale mesh, closedloops, bold transversebars or uniformlattice. No stronger black-markarea overall. All centralyoung feathers/body/formedcompactwing/shorttail/yellowgreyeyes/shorttufts/twofootgrip ENTIRELY unchanged. Adultwhitefaces/blackruff/orangeredeyes/creambills/longtufts/wingtail/feet/toebasefeathers/darkclaws/nearequalheight/branchsavanna/style unchanged. Keep title/adultlabels/currentyoungageunknownlabel. Add small white serif bottomfooter 'CONCEPT — SCIENTIFIC REVIEW PENDING; AGE / FIRST FLIGHT / SEX RATIO UNVERIFIED'. No borders/boxes/decorativeobjects.",
+  "archive_started_at": "2026-11-26T22:37:53.902Z",
+  "meta": {
+    "bytes": 2807019,
+    "sha256": "26625bbdf5e90e35a7d768c07255350b7c017ea9ea0064dcde4191bd742f88cf",
+    "b64len": 3742692,
+    "size": [
+      1536,
+      1024
+    ],
+    "gitblob": "c5dbfb42cd7c4308810cbc570c785389665e11a2"
+  },
+  "imagegen_wait_seconds": 37.232,
+  "review": "Actualv8/v9fullplates andnativev9adultventralcrop viewed againstfreshADWbody+guidep256. New sparse faintthinbrowntransversewisps visiblebetweenstrongshaftstreaks, mostobviousrightadultlowerbelly, notdarkclosedloopmesh; shaftsremainpredominant. Patternstillstylizedandcontrastqualitative; sourcehasnomeasuredspacing. Adultwhitepalegreyfaces/blackruff/orangeredeyes/creambill/longtufts/wingtail/toebasehalf-feathers/duskytoes-darkclaws/nearequalheight stable. Centralyoungcompletelyretainsyellowgreyeyes/shorttufts/softlessmarkedfluff/compactformeddown-fringedwing/concealedtail/twofootgrip; exactage/firstflightunknown. Threebirds/title/labels/newpendingfooter/savannasupportpass. PASS_WITH_LIMITATIONS/sciencefalse/noapproval. Prior86overshootrule(onefifthcontrast/thinbrokenirregularwisps) applied; thisfirstoutputdoesnotshowthickmesh, onecasevisualsupportnotuniversalvalidation. Do nottransferadultvermiculationintoyoung."
 }

@@ -4,7 +4,7 @@
   "owner": "20261126T1225Z",
   "run_id": "20261126T1140Z-cycle4-resume1225Z",
   "started_at": "2026-11-26T12:32:04.598Z",
-  "stage": "REVIEWED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "STARTED",
@@ -31,6 +31,16 @@
       "stage": "REVIEWED",
       "at": "2026-11-26T12:39:01.447Z",
       "evidence": "实际查看最终全图：标题已v7；左棕色成年尾羽为约5排成对浅白椭圆斑、深色羽轴保持间断，右红色成年保留约7排橙色斑；幼鸟平素偏灰头顶与自然枝条脚趾支撑保留。首图尾纹已改但标题误留v6，原图保留为attempt1，后用imagegen仅改标题并重看。成年黄色眼喙、背部假眼斑/冠斑可见，未添加稻草巢。棕/红是形态选择非性别差异；幼鸟具体年龄、飞行能力、两成鸟精确性别和比例仍未核验。PASS_WITH_LIMITATIONS；不是科学通过或用户确认。"
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-26T12:39:20.343Z",
+      "commit_sha": "a90dcc47514fc66e86f5b38e388a7c9d74a0a7cf"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-26T12:39:20.343Z",
+      "evidence": "originals VERIFIED 2610272\nconcepts VERIFIED 2610272\n; original local Gitblob matched/research review immutable readback"
     }
   ],
   "scientifically_verified": false,
@@ -56,5 +66,7 @@
   ],
   "edit_prompt": "Replace ONLY top title text with exactly '36 · YUNGAS PYGMY OWL v7 · Glaucidium bolivianum'. In particular v7, not v6. Preserve all three birds and corrected left white oval tail spots, right red tail seven orange spots, juvenile, branch support, forest, role labels and footer. No other changes.",
   "edit_seconds": 34.897,
-  "reviewed_local_file": "/workspace/scratch/96400dc71dac/generated_images/exec-746c5bda-79e9-4104-98be-b78210e2d351.png"
+  "reviewed_local_file": "/workspace/scratch/96400dc71dac/generated_images/exec-746c5bda-79e9-4104-98be-b78210e2d351.png",
+  "ended_at": "2026-11-26T12:39:20.343Z",
+  "archive_commit": "a90dcc47514fc66e86f5b38e388a7c9d74a0a7cf"
 }

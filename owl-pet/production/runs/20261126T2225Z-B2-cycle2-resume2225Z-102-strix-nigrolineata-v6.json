@@ -4,7 +4,7 @@
   "cycle": 2,
   "target": "102-strix-nigrolineata-v6",
   "started_at": "2026-11-26T22:38:46.350Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -13,6 +13,10 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T22:39:28.079Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T22:40:59.629Z"
     }
   ],
   "errors": [],
@@ -22,5 +26,18 @@
     "BWO-MIKKOLA-2013-P339",
     "BWO-GERHARDT-GERHARDT-1997-USFS"
   ],
-  "full_prompt": "Use case: precise-object-edit #102 Strix nigrolineata v5. Change ONLY CLAW COLOUR on BOTH ADULTS left/right from darkcharcoal shafts to muted YELLOWISH-HORN/tan horn over proximal/mainshaft, retaining naturally darker distal tips/contact shadows and exact clawcurvature/length/number/grips. Notbrightcanaryyellow, notwhite. GuideMikkola2013p339 says bare dirtyyellow/orangeyellowtoes with yellowishhornclaws. Preserve adultorange-scaledtoes/barredfeatheredtarsi/footpositions. CENTRALjuvenileclaws/feetandallplumage unchanged, adultpalette isnotyoungdata. Adultdarkreddishbrownirides/paleorangeyellowbill/blackbib/sootyupperparts/whitebarredventrum/female fuller atnear-equalheight, youngpale-barredmesoptile/compactroundedwing/concealedtail/lowtwofoot+bellysupport, broadlivingepiphyteplatform/Tikalforest/style allUNCHANGED. Keep exacttitle102/currentname/adultroles/currentageunknownyounglabel; add smaller cream serif footer y1008 'TIKAL REGIONAL CASE · CONCEPT — SCIENTIFIC REVIEW PENDING; FIRST FLIGHT / SEX RATIO UNVERIFIED'. No neststraw/cavity/borders/boxes/extraobjects."
+  "full_prompt": "Use case: precise-object-edit #102 Strix nigrolineata v5. Change ONLY CLAW COLOUR on BOTH ADULTS left/right from darkcharcoal shafts to muted YELLOWISH-HORN/tan horn over proximal/mainshaft, retaining naturally darker distal tips/contact shadows and exact clawcurvature/length/number/grips. Notbrightcanaryyellow, notwhite. GuideMikkola2013p339 says bare dirtyyellow/orangeyellowtoes with yellowishhornclaws. Preserve adultorange-scaledtoes/barredfeatheredtarsi/footpositions. CENTRALjuvenileclaws/feetandallplumage unchanged, adultpalette isnotyoungdata. Adultdarkreddishbrownirides/paleorangeyellowbill/blackbib/sootyupperparts/whitebarredventrum/female fuller atnear-equalheight, youngpale-barredmesoptile/compactroundedwing/concealedtail/lowtwofoot+bellysupport, broadlivingepiphyteplatform/Tikalforest/style allUNCHANGED. Keep exacttitle102/currentname/adultroles/currentageunknownyounglabel; add smaller cream serif footer y1008 'TIKAL REGIONAL CASE · CONCEPT — SCIENTIFIC REVIEW PENDING; FIRST FLIGHT / SEX RATIO UNVERIFIED'. No neststraw/cavity/borders/boxes/extraobjects.",
+  "archive_started_at": "2026-11-26T22:40:52.533Z",
+  "meta": {
+    "bytes": 2712265,
+    "sha256": "74c43e14c306108d6e6cf26815d204c6766c36ede281efa6579ac6569f546ec6",
+    "b64len": 3616356,
+    "size": [
+      1536,
+      1024
+    ],
+    "gitblob": "16625536f75741b05c11208f4f68c6c420790e4d"
+  },
+  "imagegen_wait_seconds": 41.075,
+  "review": "Actualv5/v6 fullplates andnativeadultfootcrop viewed. Adultclawshafts nowmutedtan/yellowishhornwithnaturaldarkertip/shadow vsoldcharcoal, samecurvature/toenumber/grip andorangebaretoes/barredfeatheredtarsi. Colourqualitative notcolourimetric. Youngclawsstaydark, noadultpaletteapplied. Adultdarkreddishiris/orangeyellowbill/blackbib/sootyupperparts/whiteblackventrum/fullerfemale-nearequalheight stable; youngpale-barredmesoptile/darkeyes/compactrounddown-softwing/concealedtail/lowtwofoot+bellyepiphytesupport retained. Threebirds/title/currentname/roles/Tikalregionalpendingfooterlegible. Image resynthesizedsomefeatheredges butno count/support/stagedriftobserved. PASS_WITH_LIMITATIONS/sciencefalse/noapproval. One measuredpairmassnotheightformula; noflightthreshold. Lesson: clawshaft colourtreatseparatelyfromtoe skin/tipshadow, specificyellowishhornhere differentfrom103darkhorn/106palehorn; applied/recheckedhereonly."
 }

@@ -7569,3 +7569,7 @@ Reuse GGO-CRC-FACTS-2026 original Identification/Habitat/Nesting reread this inv
 
 ### 2026-11-26 11-aegolius-funereus-v6 audit
 Reuse BOR-ORI-BOREAL-FACTS originalbody freshread / BOR-MIK2013-440 printed440/PDF442 historicalonly. Actualv5approx21–23day label unsupported, remove rather than relabel body maturity. New0/reuse2/corrected1design-age inference; no biological signoff. Rule: written prior estimate is not a dated specimen. [Fullprompt/facts](species/11-aegolius-funereus-v6.md).
+
+
+### 2026-11-26 12-aegolius-acadicus-v6 audit
+Reuse NSWO-PROJECTOWLNET-HY-2026 freshoriginalbodyread and NSW-MIKKOLA-2013-P444 priorprinted444/PDF446 only. Prior~4–5wk is generaldesigninterval notknown individualday; visible ageunknown/PENDING added, no anatomychange. New0/reuse2; no sciencepass. Valid HY flightfeathers retained. [Fullprompt/facts](species/12-aegolius-acadicus-v6.md).

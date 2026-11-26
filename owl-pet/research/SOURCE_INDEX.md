@@ -7669,3 +7669,7 @@ New1YPOW-PERUAVES-2026 regional adultmetadataonly; reused2primary+guide. #36v7 l
 
 ### 2026-11-26 37-glaucidium-peruanum-v8 actual audit
 新增0，复用2。重新读取SRC-BOOK-037-01 p398–399和PEPO-PERROCHEAU-2008-DIPE65099原页面并实际查看照片；成年棕色型尾羽羽轴间断规则只应用成年，不反向套用至照片幼鸟。保留既有adobe/nest撤回记录。 [Facts, boundaries and full prompt](species/37-glaucidium-peruanum-v8.md).
+
+
+### 2026-11-26 38-glaucidium-nana-v7 actual audit
+新增0，复用3；本轮重读图鉴p400实际成人照片、Ibarra2015繁殖正文/Fig5图注、Jiménez/Jaksic1989 p380。成人冠纹/mesoptile冠斑局部修正；拒绝把孵卵15–17天写成幼鸟年龄。 [Facts, boundaries and full prompt](species/38-glaucidium-nana-v7.md).

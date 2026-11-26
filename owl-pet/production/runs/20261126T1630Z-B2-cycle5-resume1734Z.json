@@ -4,7 +4,7 @@
   "owner": "20261126T1734Z",
   "run_id": "20261126T1630Z-B2-cycle5-resume1734Z",
   "started_at": "2026-11-26T17:42:17.544Z",
-  "stage": "REVIEWED",
+  "stage": "ARCHIVED",
   "stages": [
     {
       "stage": "STARTED",
@@ -25,6 +25,11 @@
       "stage": "REVIEWED",
       "at": "2026-11-26T17:44:31.779Z",
       "evidence": "Actual v6, first edit and second edit full plates viewed. Both edits preserved adults, eyes/bill/scale, three birds and branch/foot support, footer readable. Final young still shows repeated curved/loop-like barb outlines over throat/chest/belly; narrow pigment bars remain low contrast. Target texture correction NOT demonstrated effective. NEEDS_REVISION, sciencefalse. Do not label this morphology pass. Keep v6 and both prompts; next priority requires stronger reference/closer texture-directed edit, avoid repeated broad fluff-only prompts. Source actually read: guide156/PDF158 and BSS Identification19–21. Exact juvenile age/flight/sex/subspecies and pixel-level down form unknown. No additional scientific claim."
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-26T17:44:41.510Z",
+      "commit": "bdf04101f8f57ba41c2f2a88d815790f912148ae"
     }
   ],
   "errors": [],
@@ -38,5 +43,6 @@
     "gitblob": "dec57fc6eef94a31147c81f3ab6c759bdff9d8ea"
   },
   "second_prompt": "Use case: precise-object-edit. Edit this #79 Collared Scops Owl Otus lettia v6 plate to v7. Correct ONLY the center older juvenile's feather surface rendering: replace the repeated conspicuous string-loop/crochet-like curls across head, throat, breast and belly with natural soft irregular loose down tips and overlapping mesoptile contours. Retain visible narrow irregular faint dark-brown transverse bars embedded in the fluff, avoid erasing all bars or making regular ladders or hard adult shaft streaks. Keep juvenile dark brown eyes, small tufts, greenish-horn bill, compact down-softened wings and concealed short tail, identical pose and two-foot branch grip. Preserve both adults completely, their plumage/morph/scale/poses/feet, woodland, background tree cavity, branches, warm realistic painterly style, top title/scientific name and role labels. Add discreet footer 'CONCEPT — SCIENTIFIC REVIEW PENDING; AGE / FLIGHT / SEX RATIO UNVERIFIED'. Exactly three owls, no new nest/eggs/birds or flying claim. Do not copy a knit fabric pattern.\nTARGETED SECOND PASS: the first edit left many conspicuous repeated CLOSED LOOP strings and curls across central chick belly and chest. Remove those loop outlines entirely in the center young bird. Use short soft feather barbs, wispy straight or gently bending free ends and irregular clumps with subtle fine transverse pigment bars. No rings, loops, crochet, beads or scallop rows. Keep same fluffy silhouette, faint dark bars, all adults and support untouched.",
-  "review": "Actual v6, first edit and second edit full plates viewed. Both edits preserved adults, eyes/bill/scale, three birds and branch/foot support, footer readable. Final young still shows repeated curved/loop-like barb outlines over throat/chest/belly; narrow pigment bars remain low contrast. Target texture correction NOT demonstrated effective. NEEDS_REVISION, sciencefalse. Do not label this morphology pass. Keep v6 and both prompts; next priority requires stronger reference/closer texture-directed edit, avoid repeated broad fluff-only prompts. Source actually read: guide156/PDF158 and BSS Identification19–21. Exact juvenile age/flight/sex/subspecies and pixel-level down form unknown. No additional scientific claim."
+  "review": "Actual v6, first edit and second edit full plates viewed. Both edits preserved adults, eyes/bill/scale, three birds and branch/foot support, footer readable. Final young still shows repeated curved/loop-like barb outlines over throat/chest/belly; narrow pigment bars remain low contrast. Target texture correction NOT demonstrated effective. NEEDS_REVISION, sciencefalse. Do not label this morphology pass. Keep v6 and both prompts; next priority requires stronger reference/closer texture-directed edit, avoid repeated broad fluff-only prompts. Source actually read: guide156/PDF158 and BSS Identification19–21. Exact juvenile age/flight/sex/subspecies and pixel-level down form unknown. No additional scientific claim.",
+  "archive_commit": "bdf04101f8f57ba41c2f2a88d815790f912148ae"
 }

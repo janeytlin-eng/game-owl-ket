@@ -1,14 +1,39 @@
 # 52-strix-hylophila-v7
-Access2026-11-26 Beijing. Actionstage-substitution/designrefinement becausev6whitechickgenericsoftpart morphologyretainsunknowns, NOTnewscientificproofv6white-downcategoryfalse. CurrentStrixhylophila; oldCiccabahylophila/Nyctalefasciata mappingspreservedfromv6. Existing v1–v6/userconfirmationskept. Actualv6fullviewedadultlowerbellycorrectionalreadygood, adultbaretoesyellowsourceappropriate, nofootedit. Preferdocumentedolderyoung over guessednatalsoftpart details.
-
-## Sources and actuallyread material
-Reuse RBO-AVESRAPINA-2018 WillianMenqApril2018 Coruja-listrada, https://www.avesderapinabrasil.com/strix_hylophila.htm actualfreshDescription21–22/Habitat27–28 andphotocaption43–45 read afterexternalquery. Youngbodydescriptionbrownback/creambarredbelly/darkface; habitatAtlanticforestincludingAraucaria, dayroostnaturalhollows. Source'ssecondary35daydeparture/2–3egg/cavitynest claims not adopted becauseprimarynest-evidencereviewconflict. Textindividualageunknown. Notproofalljuvenilesequence.
-New distinctvisualsource RBO-VERISSIMO-2015-JUV: LuizVeríssimo, juvenileRusty-barredOwl, RibeirãoGrandeSãoPauloBrazilJanuary2015, photographhostedonsameMenq2018page caption43–45. Originalimage https://www.avesderapinabrasil.com/images/especies/c_listrada/strix_hyphila2.JPG actual880x628pixelsviewed (thumbnailalso205pxviewedfirst; originalreadnext). Brown-greybuffsoftdensefinecreambarredmesoptile, darkbrowneyes, yellowhorn/palebill, lightbrows/lores/rim with darkface lackingtheadult'sstrongconcentricrustyrings; foldedformedpale-barredwingtipsvisiblebelowbark; feetobscured. Exactage/sex/motion/winglength/nestlocationnot supplied, flash/colouruncalibrated. Footgeometry/shade belowhiddenareas designconservative, noexactphoto reconstruction/copy. No sourcephotocopyrightfilecommitted, indexURL+necessarysummaryonly.
-Reuse RBO-MIKKOLA-2013-P337 HeimoMikkola2013guideprinted337/PDF339 actualfreshpage Identification/Juvenile/Habitatread: adultbareyellowhorntoes/hornclaws, chickwhite, mesoptilebuffishwithoutconcentricfacelines. Doesnotdepictcontinuousage/youngsoftpartchronology. Confirmsstagechoiceconcept, notexactday.
-Reuse RBO-COCKLE-ETAL-2024-P10 [existingIDretained] Bonaparteetal2024doi10.1093/ornithapp/duae042 fromearlierrepoactualreadp10reviewnestsunconfirmed. Freshpublisheropen500Silverchairredirectblocked, nofreshbodyclaim. Keepnestarchitectureunconfirmed; observeddayroostnotnestproof.
-
-## Fact versus design/iteration
-Photoactualyoungphenotype replacesgenericwhitechickwithunverifiedeyes/bill; thisisnewdocumentedstagedesign, not claimingallwhitechickswrong. Restinglowfork/bellycontactiscautiousdesigninference, sourcehidesfeet so notpretendmeasuredtoe/anatomy. Hollowoldcontextunconfirmed andnotbroodnest. Noage/flightassertion; formedwingtipsretainedbecauseactualphoto shows them. Softpart/mesoptilespecificruleapplied52only; #51whitedownsinglefieldnestrecordnotautomaticallyconverted. Willactualviewgenerateandeditifadult-patternwingappears.
-
-## Full builtin imagegen prompt
-Edit project #52 Rusty-barred Owl triptych using firstimage existingv6 as composition/style/adult reference, secondimage is a real age-unknown juvenile photographic morphology reference ONLY. Preserve BOTH ADULTS and their feet/plumage/faces/relative size/perches exactly. Replace ONLY central tiny white natal-down chick with one visibly older still-fluffy juvenile modeled on the secondreference: warm brown/grey-buff soft mesoptile densely and finely transversely barred creamy white across head/body, darkbrown eyes in muted dark brown face, pale eyebrow/lores/face rim but NO sharp concentric adult rusty rings, small yellowish-horn bill with paler tip. Not a white hatchling, not an adult miniature, not adult thick rusty chest bars/scapular grid. Compact folded developing wings may show a few formed fine pale-barred tips as in reference, mostly softened by body down; keep tail largely hidden. Do NOT strip all formedwing feathers orinvent natalwing anatomy. The age-unknown juvenile rests low and balanced on a broad plain barkledge/short low fork immediately outside the existing hollow, belly close to support, both feet naturally gripping/supporting and toe tips partly hidden by feathers/bark; no hovering, flight, adult toe-feather transfer or unsupported jump. Change central label to 'JUVENILE · AGE UNKNOWN'. Replacefooter with 'PHOTO-REFERENCED JUVENILE · AGE/FLIGHT UNKNOWN · NEST ARCHITECTURE UNCONFIRMED'. Keep title52andadultlabels/readability, exactlythreebirds, warm painterly3D maquette style, sameAtlantic/Araucariaforest/lighting/hollow geometry as sheltercontext not claim of observednest. Do not recreate photographcomposition, no watermark or extra bird.
+{
+  "id": "52-strix-hylophila-v7",
+  "issue": "Actual v6 tail has broad near-white bars taking much of tail width; guide specifies warm brown tail with narrow whitish-buff bars. Correct adult tail only, preserve v6 pale belly and unresolved shelter boundary.",
+  "sources": [
+    {
+      "id": "RBO-MIKKOLA-2013-P337",
+      "title": "Owls of the World second edition",
+      "author": "Heimo Mikkola",
+      "year": 2013,
+      "url": "uploaded owls.pdf",
+      "pages": "printed337/PDF339",
+      "facts": "Fresh read adult warm brown tail narrow whitish-buff bars, upper chest/flank bars with almost-white belly; dark eyes/yellow horn bill/cere/toes, feathered tarsi/bare toes. White natal chick, mesoptile differs. Female >50g heavier average not height.",
+      "limits": "No measured bar width/count or chick exact age/iris/flight. Only qualitative narrowing."
+    },
+    {
+      "id": "RBO-AVESRAPINA-2018",
+      "title": "Coruja-listrada Strix hylophila",
+      "author": "Willian Menq",
+      "year": "April2018",
+      "url": "https://www.avesderapinabrasil.com/strix_hylophila.htm",
+      "pages": "Description/Habitat lines21–29; young caption43–45",
+      "facts": "Fresh original specialist body read: dark eyes/yellowbill/feathered tarsi; older young dark back barred pale belly; Araucaria forest context. Adult 249–340g male/276–395g female overlap.",
+      "limits": "Secondary nest/35d claims not treated as verified architecture; no fresh source photo pixels viewed, captions only. Does not independently quantify narrowtailbars."
+    },
+    {
+      "id": "RBO-COCKLE-ETAL-2024-P10",
+      "title": "2024 nesting evidence review",
+      "author": "Bonaparte et al.",
+      "year": 2024,
+      "url": "https://academic.oup.com/condor/article/126/4/duae042/7745762",
+      "pages": "p10 previous indexed read only",
+      "facts": "Historical indexed review says nests not confirmed/described; shelter boundary retained.",
+      "limits": "Not freshly reopened this cycle; no new primary reading claim."
+    }
+  ],
+  "index_note": "新0/复用3（图鉴及Menq本次重读，2024原始综述仅历史复用）；成年尾部宽亮带→窄浅赭白带，保留v6腹白和巢位/幼龄未知边界。搜索命中未读历史原板不作证据。",
+  "prompt": "Use case precise-object-edit. Edit only the visible TAIL FEATHERS below the branches of BOTH ADULT #52 Rusty-barred Owls Strix hylophila in supplied v6. Currently pale cream bands are too broad and strongly white. Make tail predominantly warm brown with NARROW muted whitish-buff transverse bars, each pale bar visibly narrower than surrounding brown intervals. Keep natural feather-edge irregularity, no rigid graphic stripes, do not impose exact bar count. Retain tail length/outline/placement, adult pale central belly and upper-chest/flank barring, all heads/eyes/bills/feet/bare toes/claws, relative scale, central white natal-down chick with no mature remiges and supported belly/feet, shelter/tree/forest, title/labels and full uncertainty footer unchanged. Preserve warm detailed painterly style1536x1024. No new chick age/eye/flight or nest claim."
+}

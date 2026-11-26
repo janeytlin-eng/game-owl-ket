@@ -7649,3 +7649,7 @@ New1 JUOW-MEHTA-2022-NESTCAVITY selected primary title/abstract read, habitatonl
 
 ### 2026-11-26 32-glaucidium-castanotum-v7 actual audit
 New0/reuse3 fresh reads. #32v7 annotation-only; no false scientific pass or new species count. #31bluish cere and #29light hornclaw not generic same-genus rule: #32 duskygreen cere/darkhornclaw retained. [Facts, boundaries and full prompt](species/32-glaucidium-castanotum-v7.md).
+
+
+### 2026-11-26 33-taenioptynx-brodiei-v7 actual audit
+New0/reuse2 actual original/body/guide. Correct age-axis attribution: 56daysPOST-HATCH study reference, not days postfledging or known age of concept bird. Fig3A caption versus body3B discrepancy recorded. Fullygrown formed wings retained, no generic immature-wing deletion. [Facts, boundaries and full prompt](species/33-taenioptynx-brodiei-v7.md).

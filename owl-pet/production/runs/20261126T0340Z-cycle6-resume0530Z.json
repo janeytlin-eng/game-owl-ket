@@ -4,7 +4,7 @@
   "owner": "20261126T0530Z",
   "run_id": "20261126T0340Z-cycle6-resume0530Z",
   "started_at": "2026-11-26T05:31:43.001Z",
-  "stage": "REVIEWED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "STARTED",
@@ -29,6 +29,16 @@
       "stage": "REVIEWED",
       "at": "2026-11-26T05:36:22.840Z",
       "evidence": "Actual full output and final label/support crop; initial v8 suffix resolved by targeted edit; phenotype limits retained."
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-26T05:36:43.608Z",
+      "commit_sha": "979a6ad59aa2f679ddeb0e198071c9587d6430f9"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-26T05:36:43.608Z",
+      "evidence": "Immutable original GET, bytecount/SHA256/full PNG decode passed; required paths in untruncated archive tree."
     }
   ],
   "scientifically_verified": false,
@@ -38,5 +48,7 @@
   "edit_wait_seconds": 32.6,
   "edit_prompt": "Change ONLY the small erroneous v8 at the far right of the top title to v9. Preserve every other pixel/content, all birds, anatomy, environment, all role labels and both evidence-status footer lines. No other edits.",
   "final_sha256": "31ce9445efceee583fafaecf575b6ed801bd0f5c5cdc0321ba3884706db3cdb4",
-  "final_bytes": 2586941
+  "final_bytes": 2586941,
+  "archive_commit": "979a6ad59aa2f679ddeb0e198071c9587d6430f9",
+  "ended_at": "2026-11-26T05:36:43.608Z"
 }

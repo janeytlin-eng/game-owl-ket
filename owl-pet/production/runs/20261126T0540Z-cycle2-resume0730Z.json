@@ -4,7 +4,7 @@
   "owner": "20261126T0730Z",
   "run_id": "20261126T0540Z-cycle2-resume0730Z",
   "started_at": "2026-11-26T07:30:07.727Z",
-  "stage": "VERIFIED",
+  "stage": "ARCHIVE_REPAIR",
   "stages": [
     {
       "stage": "STARTED",
@@ -34,6 +34,11 @@
       "stage": "VERIFIED",
       "at": "2026-11-26T07:33:30.307Z",
       "evidence": "Immutable GET/bytecount/SHA256/full PNG decode + tree/records readback"
+    },
+    {
+      "stage": "VERIFICATION_FAILED",
+      "at": "2026-11-26T07:34:22.144Z",
+      "error": "PIL.UnidentifiedImageError for immutable remote body; previous credit premature, removed."
     }
   ],
   "scientifically_verified": false,
@@ -50,5 +55,6 @@
   },
   "review_result": "PASS_WITH_LIMITATIONS",
   "archive_commit": "b6fd4aec93fe43d542a487a60ac0dbf469897886",
-  "ended_at": "2026-11-26T07:33:30.307Z"
+  "ended_at": "2026-11-26T07:33:30.307Z",
+  "repair_blob": "04f73e3e8b59cc7af36c5f77d9693804b7d2dc5a"
 }

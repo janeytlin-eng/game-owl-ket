@@ -4,7 +4,7 @@
   "owner": "owl-production-20261126T1926Z",
   "run_id": "20261126T1926Z",
   "started_at": "2026-11-26T19:34:53.322Z",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "STARTED",
@@ -26,6 +26,15 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-26T19:37:56.141Z"
+    },
+    {
+      "stage": "VERIFICATION_EVIDENCE",
+      "at": "2026-11-26T19:38:15.203Z",
+      "evidence": "Immutable original+concept GET full bytes/SHA256/PILdecode passed; research/review readback passed"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-26T19:38:15.203Z"
     }
   ],
   "target": "86-otus-elegans-v7",
@@ -52,5 +61,7 @@
     "gitblob": "cdd477e4351fc4a1f64de1a6b5747e483bbcb437"
   },
   "imagegen_wait_seconds": 95.428,
-  "review": "Actual fullv6 and finalv7 viewed. Bothadults now neutralgrey baretoes/blackishhornclaws, tarsalfeathers stopnearbase; exact toegrips andbranchsupport maintained. Rightyoung toes unchanged (not agecolours extrapolated), compactfoldedwings/shorttail/begging/dualfootcontact retained. Adult yellowiris/darkbill/tufts/herringbone/near-equalheight preserved, Casuarina/cane context and creamgouache style/labels unchanged. Palettecorrection visiblyeffective; spectralprecision, picturedage/youngcontinuousplumage/flight/sexratio and residualcurltexture remainunverified. PASS_WITH_LIMITATIONS/sciencefalse; no newconfirmation. Ruleappliedandchecked: #85 featheredtoe evidence cannottransfer to#86 baretoes; adultcolours only when youngunknown. Prior indexprintedpage/iris/toepalette correction saved; MOE503/newpaperfindtimeout notclaimedread."
+  "review": "Actual fullv6 and finalv7 viewed. Bothadults now neutralgrey baretoes/blackishhornclaws, tarsalfeathers stopnearbase; exact toegrips andbranchsupport maintained. Rightyoung toes unchanged (not agecolours extrapolated), compactfoldedwings/shorttail/begging/dualfootcontact retained. Adult yellowiris/darkbill/tufts/herringbone/near-equalheight preserved, Casuarina/cane context and creamgouache style/labels unchanged. Palettecorrection visiblyeffective; spectralprecision, picturedage/youngcontinuousplumage/flight/sexratio and residualcurltexture remainunverified. PASS_WITH_LIMITATIONS/sciencefalse; no newconfirmation. Ruleappliedandchecked: #85 featheredtoe evidence cannottransfer to#86 baretoes; adultcolours only when youngunknown. Prior indexprintedpage/iris/toepalette correction saved; MOE503/newpaperfindtimeout notclaimedread.",
+  "archive_commit": "e0dcdc3a459873d9d759cff656b4713d26dbd03e",
+  "ended_at": "2026-11-26T19:38:15.203Z"
 }

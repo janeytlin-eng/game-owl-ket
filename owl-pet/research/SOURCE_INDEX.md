@@ -7724,3 +7724,6 @@ New0/reuse3. Externaloriginalspecialistaccount reread, guideprinted324freshread;
 
 ### 2026-11-26 52-strix-hylophila-v7
 新0/复用3（图鉴及Menq本次重读，2024原始综述仅历史复用）；成年尾部宽亮带→窄浅赭白带，保留v6腹白和巢位/幼龄未知边界。搜索命中未读历史原板不作证据。 [full facts and prompt](species/52-strix-hylophila-v7.md).
+
+
+Correction 20261126T1427Z: preceding52v7 tail-revision entry is a REJECTED duplicate-ID attempt, not replacement of existing52v7. Previous52v7 research/original restored exactly; olderyoungphoto-stage record remains authoritative. Attempt preserved, no credit. Continue52v8 fromactualexistingv7; never regeneratewhiteyoung.

@@ -4,7 +4,7 @@
   "owner": "20261126T1125Z",
   "run_id": "20261126T1140Z-cycle1-resume1125Z",
   "started_at": "2026-11-26T11:37:51.973Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,9 +14,26 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T11:38:23.188Z",
       "evidence": "Actualv6 label56-DAYFLEDGLING ambiguous; Lin2014 says56daysAFTERHATCH, already fledged20days posthatch, fully grown yet young colour. Label should state study reference vs actual known age of generated individual. No wing shortening."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T11:39:53.616Z",
+      "blob": "fcaad1cda4ab19854f53010630c6fed06ab0b87c",
+      "bytes": 2905219
     }
   ],
   "scientifically_verified": false,
   "errors": [],
-  "target": "33-taenioptynx-brodiei-v7"
+  "target": "33-taenioptynx-brodiei-v7",
+  "generation_seconds": 32.24,
+  "meta": {
+    "bytes": 2905219,
+    "sha256": "b3abf35df3794a03cfb7f33ff34e42243a300b3c2c6196783e569aa703d817e3",
+    "gitblob": "fcaad1cda4ab19854f53010630c6fed06ab0b87c",
+    "size": [
+      1536,
+      1024
+    ],
+    "b64len": 3873628
+  }
 }

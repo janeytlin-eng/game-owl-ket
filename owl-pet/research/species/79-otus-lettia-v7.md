@@ -1,0 +1,13 @@
+# #79 Otus lettia v7 — mesoptile surface rendering
+Access2026-11-27(+08). Revision preserving v1–v6, historical confirmations. Current/old Otus lettia / Scops lettia reused existing verified mapping.
+
+## Reused actual source readings
+WHSO-MIKKOLA-2013 / MIKKOLA-2013 Heimo Mikkola2013 photographic guide, uploaded guide0933/owls.pdf printed156/PDF158 Identification/Juvenile freshly read. Narrow irregular dark mesoptile bars, not repeated closed loops; guide cannot quantify illustrated down-tip shape or age. Adult eyes/bill/toe boundaries unchanged; sexmass not a standing-height multiplier.
+LET-BSS-CURRENT Bird Society of Singapore, Collared Scops Owl, dateunknown, https://singaporebirds.com/species/collared-scops-owl Identification19–21/Habitat23–25 actually read. Paler finely barred juvenile and forest/park habitat; secondary regional species synthesis, no individual growth chronology.
+Prior LET-LEADPRATHOM-2009-P457-461 and LET-BOW-2024-ML339711461 retained as historical context in v6, NOT newly full-read or photograph pixels this cycle.
+
+## Actual view, problem, inference
+Actual full v6 viewed: fine juvenile bars present but repeated curled strings on lower face/body resemble crochet. Reduce rendering artifact without replacing stage with adult feathers or erasing source-supported barring. Natural loose tips are design interpretation, not measured species down atlas. All foot/branch contacts and adults preserved. No exact age, flight, sex, subspecies or nest inference; central cavity contextual only. Sciencefalse.
+
+## Full built-in prompt
+Use case: precise-object-edit. Edit this #79 Collared Scops Owl Otus lettia v6 plate to v7. Correct ONLY the center older juvenile's feather surface rendering: replace the repeated conspicuous string-loop/crochet-like curls across head, throat, breast and belly with natural soft irregular loose down tips and overlapping mesoptile contours. Retain visible narrow irregular faint dark-brown transverse bars embedded in the fluff, avoid erasing all bars or making regular ladders or hard adult shaft streaks. Keep juvenile dark brown eyes, small tufts, greenish-horn bill, compact down-softened wings and concealed short tail, identical pose and two-foot branch grip. Preserve both adults completely, their plumage/morph/scale/poses/feet, woodland, background tree cavity, branches, warm realistic painterly style, top title/scientific name and role labels. Add discreet footer 'CONCEPT — SCIENTIFIC REVIEW PENDING; AGE / FLIGHT / SEX RATIO UNVERIFIED'. Exactly three owls, no new nest/eggs/birds or flying claim. Do not copy a knit fabric pattern.

@@ -7798,3 +7798,7 @@ New0/reuse2 STY-CADENA-ORTIZ-2018-P23-25-F2-T3 originalp23Table3 andp24Fig2capti
 
 ## 2026-11-27 #78 Asio capensis v7
 New0/reused3: WHSO-MIKKOLA-2013 printed518/PDF520 Identification/Juvenile freshly read; MARSH-OWLPAGES-2020 Description64–68/Breeding77–79 external body; MAR-ANSARA-ROSS-2008 publisher abstract38–41 only, no new full-paper claim. Adult periocular color localized; no juvenile age inference or sex height ratio. [Facts/limits/full prompt](species/78-asio-capensis-v7.md). Source facts vs design inference explicit; no new stable ID duplication.
+
+
+## 2026-11-27 #79 Otus lettia v7
+New0/reused2 WHSO-MIKKOLA-2013 actualprinted156/PDF158 and LET-BSS-CURRENT Identification19–21/Habitat23–25 fresh body read. Narrow irregular bars retained while looplike feather rendering corrected; no growth/flight inference. [Full facts, limits and prompt](species/79-otus-lettia-v7.md). Prior primary/photo context not counted newly read.

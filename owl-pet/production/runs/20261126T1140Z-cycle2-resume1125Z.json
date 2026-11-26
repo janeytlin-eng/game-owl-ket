@@ -20,6 +20,12 @@
       "at": "2026-11-26T11:42:08.227Z",
       "blob": "49f01d69317d1bb4006600c7f82d84280db5d772",
       "bytes": 2868096
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T11:43:15.541Z",
+      "blob": "d05b24436ff0cccf9bf5f97314b480dbed7b682d",
+      "bytes": 2620122
     }
   ],
   "scientifically_verified": false,
@@ -27,14 +33,14 @@
   "target": "34-glaucidium-hardyi-v7",
   "generation_seconds": 36.435,
   "meta": {
-    "bytes": 2868096,
-    "sha256": "22f080f84e8a9c2296d372a7e04ae4135aa8e3c4baa435af4dfcbae0ccee1433",
-    "gitblob": "49f01d69317d1bb4006600c7f82d84280db5d772",
+    "bytes": 2620122,
+    "sha256": "f6fba1f084695c701250169baa801156c0a1d9690cc9332353155c67934e6c0c",
+    "gitblob": "d05b24436ff0cccf9bf5f97314b480dbed7b682d",
     "size": [
       1536,
       1024
     ],
-    "b64len": 3824128
+    "b64len": 3493496
   },
   "attempts": [
     {
@@ -43,5 +49,6 @@
       "error": "Tail spots corrected but three role labels omitted; no acceptance before edit"
     }
   ],
-  "edit_prompt": "Keep ALL bird anatomy, corrected adult tail spot rows, cavity-young, forest and title v7 unchanged. Restore three required readable role labels in bottom margin ABOVE the existing scientific-pending footer: under LEFT adult 'ADULT MALE'; under CENTER cavity 'ALMOST FULL-GROWN YOUNG'; under RIGHT adult 'ADULT FEMALE'. Retain footer in thinner lowest strip. Use compact neat serif lettering, no cropping birds or feet. Only these text/layout additions, no other changes."
+  "edit_prompt": "Keep ALL bird anatomy, corrected adult tail spot rows, cavity-young, forest and title v7 unchanged. Restore three required readable role labels in bottom margin ABOVE the existing scientific-pending footer: under LEFT adult 'ADULT MALE'; under CENTER cavity 'ALMOST FULL-GROWN YOUNG'; under RIGHT adult 'ADULT FEMALE'. Retain footer in thinner lowest strip. Use compact neat serif lettering, no cropping birds or feet. Only these text/layout additions, no other changes.",
+  "edit_seconds": 35.708
 }

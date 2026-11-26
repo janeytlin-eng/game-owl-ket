@@ -7530,3 +7530,22 @@ ITIS, undated current report, Ptilopsis leucotis TSN686681; https://www.itis.gov
 
 ### 2026-11-26 next-cycle retrieval limitation
 WII bitstream cf0e3c6f-ab85-40fb-8208-625750095b76 originalPDF contents PDFpp6–10 actually read: thesis focal species edible-nest swiftlet; owl abundance appears in table listings. Find Otusballi and AndamanScopsOwl both timed out, so no owl development fact extracted; not a verified owl juvenile source. avccollege WLB-Project.pdf actual webTimeout/direct503 repeated. [Error record](gaps/20261126T0540Z-source-retrieval.md). No additional verifiedsource count.
+
+
+### MANT-PHOTOARK-ROMBLONIS-VIDEO-PHC34ETDGS4
+{
+  "id": "MANT-PHOTOARK-ROMBLONIS-VIDEO-PHC34ETDGS4",
+  "author": "Photo Ark / Joel Sartore",
+  "title": "A juvenile Mantanani scops owl (Otus mantananensis romblonis) at Semirara Island.",
+  "year": "publication date not verified",
+  "url": "https://www.youtube.com/watch?v=Phc34ETDgS4",
+  "metadata": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=Phc34ETDgS4&format=json",
+  "image": "https://i.ytimg.com/vi/Phc34ETDgS4/hqdefault.jpg",
+  "accessed": "2026-11-26",
+  "type": "primary photographer video metadata + actual480x360 public preview pixels, NOT full video",
+  "locator": "oEmbed title/author; single preview, video timestamp unknown",
+  "facts": "Caption identifies juvenile romblonis/Semirara. Visible buff fluffy crown/face, broad dark eye surrounds; upper chest brown/buff mottled rather than flat cream. Author Photo Ark explicitly returned by provider.",
+  "limits": "Low-resolution cropped preview, one captive/studio-like black-backdrop individual; identity relies on author caption. Age/sex/flight/precise iris/bill feather-map/nest/nominate young unknown. Only coarse chest texture may inform edit.",
+  "confidence": "moderate qualitative plumage, high metadata attribution; no scientific signoff"
+}
+Design: #201v9 center breast only coarse mottling, no new age/iris/flight, adults nominate/youngromblonis warning retained. [Research/full prompt](species/201-otus-mantananensis-v9.md). Same photographer taxon context as MANT-PHOTOARK-ROMBLONIS-JUVENILE-2025; distinct video preview newly read, NOT independent second bird corroboration. Reuse2 prior sources MANT-MIKKOLA-2013-P199-200-MIRROR and MANT-ZAINI-2023-MANTANANI-FIELD, no fresh book claim. Original webpage403/fullvideo throttled and Macaulaybotdenial excluded; not bypassed.

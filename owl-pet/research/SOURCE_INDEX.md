@@ -7841,3 +7841,7 @@ New0/reused2 SEM-NOHARA-HONDA-2025-P75-78 original75–76/PDF1–2body/Fig3capti
 
 ## 2026-11-27 #86v6
 New0/reused3 ELE-MOE-JAPAN-2026-REREAD body24–30; ELE-SAWADA-IWASAKI-ETAL-2021-RSD original15–16; WHSO-MIKKOLA-2013 fresh160/PDF162. Individualstage vs populationchronology/trait-specificdimorphism boundary madevisible; annotationonly, no new feathercalibration. [Facts/prompt](species/86-otus-elegans-v6.md).
+
+
+## 2026-11-27 #87v8
+New0/reused3 ASC-ALSHEIKHLY-2012-SANDGROUSE p72/PDF1actualbody/caption (estimatedmarketcase), ASC-ALSHEIKHLY-MIKKOLA-MOUSAVI-2020 actual219–220/223 (2014juvenileID explicitly inconclusive, notcalibrationproof), ASC-MIK2013-272/WHSO-MIKKOLA-2013 p272/PDF274. Scopeclarification1, annotationonly. [Facts/prompt](species/87-bubo-ascalaphus-v8.md).

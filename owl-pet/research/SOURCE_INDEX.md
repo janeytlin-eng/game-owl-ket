@@ -7770,3 +7770,7 @@ New1 SPO-PEREGRINE-ACCOUNT-2026, reused3 WHSO-MIKKOLA-2013/SPO-OWLPAGES-CURRENT/
 
 ### 2026-11-26 68-tyto-tenebricosa-v7
 New1 STYO-OWLPAGES-2020 (URL240), reused3 WHSO-MIKKOLA-2013/GSO-NSWSC-2008/GSO-HYEM-1979-P20-22. Fresh guidep114, NSWreportPDF1–2 and specialistDescription68 read. Avoid GSO-OWLPAGES-2020 collision: existingIDbelongsOtusgurneyi(URL290), retained. UnverifiednewHobcroft1997publishermetadata/PDFlead separatelyscreened, notcountedasverifiedsource. Adultremigesmutedgreyonly; juvenile/tail/coverts retained. One mappingcorrection/collisionavoidance recorded. [facts/fullprompt](species/68-tyto-tenebricosa-v7.md).
+
+
+### 2026-11-27 72-ninox-boobook-v8
+New BOO-OWLPAGES-2020 DeaneLewis updated2020-11-05 https://www.owlpages.com/owls/species.php?s=3150 originalDescription63–67/Habitat77read; reused BOO-ABSA-2019 PDF2ageing and WHSO-MIKKOLA-2013p455. Sourcefact vsadultcrowninterpretation/unknowns/fullprompt: [record](species/72-ninox-boobook-v8.md). New1/reuse2. Adultpinkgreyfeetvalid; nofootrecolour.

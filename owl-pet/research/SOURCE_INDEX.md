@@ -7778,3 +7778,7 @@ New BOO-OWLPAGES-2020 DeaneLewis updated2020-11-05 https://www.owlpages.com/owls
 
 ### 2026-11-27 73-ninox-rufa-v8
 New0/reused2 RUF-RIDDELL-2021-P221-228 originalResults223/Fig2caption224 and WHSO-MIKKOLA-2013p448 freshlyread. Explicitbranchingbeforefirsttrueflight; annotationonly no morphologyclaim. [facts/fullprompt](species/73-ninox-rufa-v8.md).
+
+
+### 2026-11-27 74-ninox-novaeseelandiae-v8
+New0/reused3. MOR-STEPHENSON-MINOT-2006 originalbody andMOR-NZBO-2025 body/WHSO-MIKKOLA-2013p460freshlyread; observedonebirdchronologyvs7weekssynthesisnotexactillustratedage. Labelonly, notmorphology/scienceapproval. [facts/prompt](species/74-ninox-novaeseelandiae-v8.md).

@@ -4,7 +4,7 @@
   "batch_id": "20261126T1345Z",
   "cycle": 4,
   "started_at": "2026-11-26T14:28:19.533Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,8 +14,20 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T14:29:51.245Z",
       "evidence": "v6 actually viewed: adult eyelid margins dark brown rather than documented fleshy pink; targeted adult-only correction, not repeat crown or age annotation."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T14:31:00.612Z",
+      "blob": "174cd0ba1080d23072c4de62072ad9ad2c4eb67c"
     }
   ],
   "errors": [],
-  "target": "49-strix-woodfordii-v7"
+  "target": "49-strix-woodfordii-v7",
+  "meta": {
+    "bytes": 2519108,
+    "sha256": "47285f29c5598617be038f34c8085b11853b68497af095cae4324a8c349428bf",
+    "gitblob": "174cd0ba1080d23072c4de62072ad9ad2c4eb67c",
+    "b64len": 3358812
+  },
+  "generation_wait_seconds": 41.714
 }

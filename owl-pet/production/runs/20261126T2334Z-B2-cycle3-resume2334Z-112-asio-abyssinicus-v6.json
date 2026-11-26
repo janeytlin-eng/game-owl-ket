@@ -5,7 +5,7 @@
   "target": "112-asio-abyssinicus-v6",
   "action": "SCIENCE_REVISION",
   "started_at": "2026-11-26T23:54:06.571Z",
-  "stage": "EDIT_REQUIRED",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -26,6 +26,10 @@
     {
       "stage": "EDIT_REQUIRED",
       "at": "2026-11-26T23:58:30.257Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T23:59:44.130Z"
     }
   ],
   "errors": [
@@ -59,9 +63,9 @@
   "research": "# #112 Asio abyssinicus v6 — juvenile down texture, rejected false foot fix\n2026-11-27Asia/Shanghai. NominateEthiopianconcept. CurrentAsioabyssinicus; oldAsiootusabyssinicus mapping retained; notgrauerigeneralization. Newspecies0/revision1/sciencefalse.\n## Actualread sources\n- ABY-MATON-1989-JUV, PeterMaton, Ethiopia1989scannedslide, https://www.flickr.com/photos/34579661@N04/5424426357 actualcaption12–38read, observedog:image1024x760 downloaded https://live.staticflickr.com/5212/5424426357_60a4bb2920_b.jpg and actualpixelsopened. Upload/scandate2011 notfielddate. Image shows charcoal/brownjuvenile, darkfacialarea/orangeeye/darkbill, fine irregular down, formedwing and barredtail, branchsupport. Exactage/sex/flightunknown; onephotographiccase, scannedcolour/softresolutionlimits. Rightsreserved, localresearchreference only, no repositorycopy.\n- ABY-COLLAR-BOESMAN-2019, N.J.Collar/PeterBoesman2019 BullABC26(2):155–169, authorfulltext https://www.researchgate.net/publication/335292194_The_taxonomy_of_certain_Asio_and_Bubo_owl_species_in_Africa_and_Arabia actualResults158–159 (body639–759) read: broadtransverseadultcomponents createpalenetpanels; pooledmorphometry cannotdetermineillustratedsexheight. Adultnetfromv5preserved; no extrapolationtoyoung.\n- MIKKOLA-2013 / WHSO-MIKKOLA-2013, useruploadedguide actualprinted508/PDF510 textandadultphotopageopened. Fullyfeathered adultlegs/toes; orange-yelloweyes/blackishbill. Juvenileundescribed, speculativeAsiootuscomparisonexcluded. Feetphoto notusedtosetmicroscopicboundary.\n- ABY-OWLPAGES-2020-3560, DeaneLewis updated2020-11-08, https://www.owlpages.com/owls/species.php?s=3560 actualDescription58–62/Roost64read, adultfeatheredtoes/blackishhornclaws and densebellypattern; secondarynotjuvenilestage. Newcentralindexwebpage1.\n## Actualv5 audit / problem\nFullv5 and actual1572x168footcropopened. Adulttoe dorsa already feathered; proposedfeatheraddition rejected as falsefix, contrary to glance-levelsuspicion. No footedit. Juvenilehead/body still carrylongclosedloopwirelikecurls, despiteoldv4promptalreadyrejectingcurls. ActualMatonpixels showfineirregulardown, withformedwing/tail; changeonlytexture, do noteraseformedwingtoforcegenericdownball.\n## Limits/designinference\nFinewispytexturea qualitativeinterpretation, notexactplumagechronology. Currentposemayconcealtail, notshowtailabsent. Exactage/independence/firstflight, subspecificjuvenilevariation/eyeclock and sexdisplayratios unknown. Branchnotnest. Scapularwhitepatchwordingconflict leftunmodified. Newindex1/reuse3/photoaccessupgrade1; no userapprovaltransfer.\n",
   "research_record": "owl-pet/research/species/112-asio-abyssinicus-v6.md",
   "review_record": "owl-pet/research/reviews/112-asio-abyssinicus-v6-review.md",
-  "generation_wait_seconds": 71.23,
-  "generation_calls": 2,
-  "edit_calls": 2,
+  "generation_wait_seconds": 109.416,
+  "generation_calls": 3,
+  "edit_calls": 3,
   "initial_image_meta": {
     "bytes": 2737297,
     "sha256": "12d1c1b5ed1bc4f2259baca6b18991030cc0837e26df98dcd30e12f035b7655b",
@@ -85,5 +89,17 @@
     "b64len": 3640492
   },
   "second_review": "FAILED_TARGET after actualfull plus690x960juvenilecrop: darker/shorter strands but systematic closed loops persist, not realdown; third edit required.",
-  "full_prompt_edit3": "Use case: precise-object-edit. Reconstruct the CENTRAL JUVENILE feather material, keeping adults/background/text.\nImage1: edit target, failed112v6 secondpass. Image2: real juvenile source reference (Peter Maton1989), use for biology/material, do not copy photograph/composition.\nVisible defect: the central owl body has hundreds of DRAWN OUTLINED LOOPS. Entire central body down must be rebuilt as MATTE SOFT DENSE VELVET/FUZZ: a continuous charcoal-brown soft surface with subtle irregular tonal mottling and tiny short feather tips barely resolved. In the INTERIOR of chest/belly, do not outline individual filaments at all. It should read at this image scale as soft dense short down, as in a real photographed bird, not separate string tracings. Only the outside silhouette has a few short soft feather tips. Keep current bodyshape and supportedpose. Do not draw curly wisps, rings, closedloops, scribbles, fur locks, cables or sharp strand outlines anywhere on its belly. Keep the formed folded wing as real dark overlapping FEATHERS distinct from the soft down, and keep orangeeyes/darkmask/blackbill/short head-feather tips. Keep its existingfeet/contact and AGEUNKNOWNlabel.\nBoth adult owls must retain every identitycolour, netpattern, featheredfeet, position and scale. Entire highlandforest/branch/title/labels remain asImage1. Exactly3birds. This is texture replacement, no claim of newborn stage, age or flight ability. Do not introduce any other objects/text/borders."
+  "full_prompt_edit3": "Use case: precise-object-edit. Reconstruct the CENTRAL JUVENILE feather material, keeping adults/background/text.\nImage1: edit target, failed112v6 secondpass. Image2: real juvenile source reference (Peter Maton1989), use for biology/material, do not copy photograph/composition.\nVisible defect: the central owl body has hundreds of DRAWN OUTLINED LOOPS. Entire central body down must be rebuilt as MATTE SOFT DENSE VELVET/FUZZ: a continuous charcoal-brown soft surface with subtle irregular tonal mottling and tiny short feather tips barely resolved. In the INTERIOR of chest/belly, do not outline individual filaments at all. It should read at this image scale as soft dense short down, as in a real photographed bird, not separate string tracings. Only the outside silhouette has a few short soft feather tips. Keep current bodyshape and supportedpose. Do not draw curly wisps, rings, closedloops, scribbles, fur locks, cables or sharp strand outlines anywhere on its belly. Keep the formed folded wing as real dark overlapping FEATHERS distinct from the soft down, and keep orangeeyes/darkmask/blackbill/short head-feather tips. Keep its existingfeet/contact and AGEUNKNOWNlabel.\nBoth adult owls must retain every identitycolour, netpattern, featheredfeet, position and scale. Entire highlandforest/branch/title/labels remain asImage1. Exactly3birds. This is texture replacement, no claim of newborn stage, age or flight ability. Do not introduce any other objects/text/borders.",
+  "archive_started_at": "2026-11-26T23:59:38.012Z",
+  "image_meta": {
+    "bytes": 2678620,
+    "sha256": "299c7971bfcfe859f1a8051221b3ab3c5b182c7f80394120101bd4a6ea070c92",
+    "git_blob": "338e05f03e6816504cbef22860bbf784c81efff1",
+    "size": [
+      1536,
+      1024
+    ],
+    "b64len": 3571496
+  },
+  "unresolved_priority": "NEEDS_REVISION: fine repeating curled/loop texture persists despite3imagegenpasses; nextcycle should firstattempt112v7 with evidence-bounded juvenile material reconstruction. No scientificpass."
 }

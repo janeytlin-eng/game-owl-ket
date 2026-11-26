@@ -56,5 +56,6 @@
   "review_result": "PASS_WITH_LIMITATIONS",
   "archive_commit": "b6fd4aec93fe43d542a487a60ac0dbf469897886",
   "ended_at": "2026-11-26T07:33:30.307Z",
-  "repair_blob": "04f73e3e8b59cc7af36c5f77d9693804b7d2dc5a"
+  "repair_blob": "04f73e3e8b59cc7af36c5f77d9693804b7d2dc5a",
+  "repair_note": "Transfer helper had malformed Python slice syntax. Nonzero subprocess output was not checked before base64 blob upload;891-byte invalid transfer preserved. Fixed bounded-chunk script with strict exitcode checks, expected Gitblob04f73e3e8b59cc7af36c5f77d9693804b7d2dc5a. Prior VERIFIED stage invalidated; actual fresh decode pending in current operation, credit still absent."
 }

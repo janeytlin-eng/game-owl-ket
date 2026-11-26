@@ -20,6 +20,12 @@
       "at": "2026-11-26T12:35:37.985Z",
       "blob": "2c90c11b63631c368bc3caa9d3c0bc297286e72b",
       "bytes": 2696451
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T12:38:56.079Z",
+      "blob": "58e84c729639985607fb18a06212e881741f1d40",
+      "bytes": 2610272
     }
   ],
   "scientifically_verified": false,
@@ -27,14 +33,14 @@
   "target": "36-glaucidium-bolivianum-v7",
   "generation_seconds": 101.172,
   "meta": {
-    "bytes": 2696451,
-    "sha256": "f91899869911bf3b55c08d745dab73ad83df8a523404e5b052246d2152a538f4",
-    "gitblob": "2c90c11b63631c368bc3caa9d3c0bc297286e72b",
+    "bytes": 2610272,
+    "sha256": "4cd0d2a188f017bae0a8d0a8182334e882f29db78248b2586a747c694ff37ef2",
+    "gitblob": "58e84c729639985607fb18a06212e881741f1d40",
     "size": [
       1536,
       1024
     ],
-    "b64len": 3595268
+    "b64len": 3480364
   },
   "attempts": [
     {
@@ -43,5 +49,7 @@
       "error": "Lefttailcorrected but title stillv6; needs label-only edit"
     }
   ],
-  "edit_prompt": "Replace ONLY top title text with exactly '36 · YUNGAS PYGMY OWL v7 · Glaucidium bolivianum'. In particular v7, not v6. Preserve all three birds and corrected left white oval tail spots, right red tail seven orange spots, juvenile, branch support, forest, role labels and footer. No other changes."
+  "edit_prompt": "Replace ONLY top title text with exactly '36 · YUNGAS PYGMY OWL v7 · Glaucidium bolivianum'. In particular v7, not v6. Preserve all three birds and corrected left white oval tail spots, right red tail seven orange spots, juvenile, branch support, forest, role labels and footer. No other changes.",
+  "edit_seconds": 34.897,
+  "reviewed_local_file": "/workspace/scratch/96400dc71dac/generated_images/exec-746c5bda-79e9-4104-98be-b78210e2d351.png"
 }

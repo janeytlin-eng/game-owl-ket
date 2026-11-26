@@ -1,0 +1,2 @@
+# 18-megascops-kennicottii-v6
+Actual v5full, new v6 full and footer crop viewed: scientificpending/unknownage/flight/feathermap/nestgeometry/ratio readable. Adult darkbill with smallpale tip and greyblackclaws retained, unlike #17. Three supported birds, juvenile formedwing/balancewing and cavitylip feet retained; no newflight/preciseage claim. PASS_WITH_LIMITATIONS for annotation only; scientificallyfalse. Learned species-specific claw constraints applied as regressioncheck, not universal paleyellow claw rule.

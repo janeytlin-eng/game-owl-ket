@@ -4,7 +4,7 @@
   "owner": "20261126T0530Z",
   "run_id": "20261126T0340Z-cycle6-resume0530Z",
   "started_at": "2026-11-26T05:31:43.001Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,9 +14,22 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T05:33:32.168Z",
       "evidence": "Research record and complete prompt persisted; status-only revision selected; no morphology claim."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T05:35:58.296Z",
+      "evidence": {
+        "initial_blob": "b9245a2c565c9d8daa0a58873367d045adbd7959",
+        "final_blob": "f64b2350d40c905453f71ac01b4437d65b8a247a",
+        "edit_count": 1,
+        "reason": "Unrequested old v8 title suffix corrected to v9"
+      }
     }
   ],
   "scientifically_verified": false,
   "recovery": "Prior cycle6 only research failure; no generated artifact/no credit. Resume same cycle6; historical fd9d70d not treated as remote proof. #25 already archived per current ledger; no duplication.",
-  "target": "109-ptilopsis-leucotis-v9"
+  "target": "109-ptilopsis-leucotis-v9",
+  "generation_wait_seconds": 39.16,
+  "edit_wait_seconds": 32.6,
+  "edit_prompt": "Change ONLY the small erroneous v8 at the far right of the top title to v9. Preserve every other pixel/content, all birds, anatomy, environment, all role labels and both evidence-status footer lines. No other edits."
 }

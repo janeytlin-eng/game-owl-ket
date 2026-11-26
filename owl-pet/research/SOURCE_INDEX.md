@@ -7593,3 +7593,7 @@ Reuse MIKKOLA-2013 freshly uploaded printed207–208/PDF209–210: adult yellowi
 
 ### 2026-11-26 18-megascops-kennicottii-v6 audit
 ReuseWESO-USFS-GEHLBACH-STOLESON-2010-P512-518 freshoriginalprinted511–512/PDF1–2 and516Habitat text; wholechapter511–523 notnewsource. ReuseMIKKOLA2013 freshuploadedprinted204/PDF206. #18adult claws blackhorn, unlike#17hornyellow, so no transfer. Preserve adult billfix/formedjuvenilewing; v6only visibleunknowns/scientificpending. New0/reused2; age/flight/geometry/ratio unknown. [Full facts/prompt](species/18-megascops-kennicottii-v6.md).
+
+
+### 2026-11-26 19-megascops-trichopsis-v7 audit
+ReuseMIKKOLA2013 freshprinted212–213/PDF214–215 (not#17clawcolour), WHSO-ARENAS-ETAL-2020-E611 freshlyopenedauthorAbstract/Introduction/Captivity text afterScieloPDFTimeout, WHSO-HUBICK-20080807 freshmetadataonly. Captionnotage/sexproof; rehabilitationnotwilddevelopment; billconflictretained. New0/reuse3; v7annotation-only, allphenotypepreserved/sciencefalse. HistoricalWHSO-MIKKOLA ambiguousacrosstaxa normalizedto sameMIKKOLApublication inthisrecord, no oldrecorddeleted. [Full facts/prompt](species/19-megascops-trichopsis-v7.md).

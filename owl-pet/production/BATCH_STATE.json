@@ -56508,7 +56508,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-26T22:44:36.949Z",
+  "updated_at": "2026-11-26T22:46:41.020Z",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -63934,7 +63934,7 @@
       }
     }
   ],
-  "active_batch_id": "20261126T2130Z-B2",
+  "active_batch_id": "20261126T2225Z-B2",
   "active_cycle": null,
   "current_stage": "IDLE",
   "next_cycle": 4,
@@ -74602,8 +74602,8 @@
       "evidence": "OriginalPNG 2484838bytes SHA256fb50c11a2a2157124b52c7276330726e69a8c7b80e13c6e8b7068b7374027c7e; generation 2026-11-23T16:53:18.078Z → 2026-11-23T16:53:54.400Z; edits1; conceptpass limited. Immutable readback pending."
     }
   ],
-  "last_completed_batch_id": "20261126T1545Z",
-  "active_batch": "20261126T2130Z-B2",
+  "last_completed_batch_id": "20261126T2130Z-B2",
+  "active_batch": "20261126T2225Z-B2",
   "events": [
     {
       "batch_id": "20261105T183434+0800",
@@ -86230,67 +86230,67 @@
       "pseudoscops-grammicus": "asio-grammicus"
     }
   },
-  "next_action": "Resume oldest PARTIAL20261126T2130Z-B2 cycle4 after freshmain/lease. No nextspecies reserved/generated.",
+  "next_action": "Resume oldest PARTIAL20261126T2225Z-B2 cycle4 after freshmain/lease; no nextspecies reserved/generated.",
   "last_invocation": {
-    "run_id": "20261126T2130Z",
+    "run_id": "20261126T2225Z",
     "completed_cycles_this_invocation": 6,
     "new_species": 0,
     "revised_species": 6,
     "unique_species": 207,
     "total_species": 251,
     "archive_commits": [
-      "f6a98334923c2fdb0c59be07430f872b1ea6ed62",
-      "b31cf4b1687753df932c3695034ce7c470f532b6",
-      "cef3122b6674568e6bb1956fc5c1aeffb07e6ab4",
-      "f64cb41bfd07aa9dbd7782ec125444caeb22f98c",
-      "20310c6ee99fcfa9dc1390965f26cd673231360f",
-      "e828cec765363b181aa255a65f65c724abf0b6d6"
+      "a9efa9653d626f72faef47d5b724f83c56764e78",
+      "a4bfc71bb87a18ab4f7aff6ea498f6f199929806",
+      "f21ff823f69ff183df30a788a454d79b3a9a0568",
+      "f4d0895b056d4ab0df3b8d079ac0c48f1c83e968",
+      "bbe9eb8c0c08705773a2ddaa802cf3c26703602a",
+      "c24a629cef8b2fbc7bab2847e7f25b18dd2f170e"
     ],
     "verification_commits": [
-      "7bc2b827f6fc5bfa79bf9f9599dd08c7a865e5e8",
-      "9f7d2977a4e7a2d69a449845f0bd3fcb2be08323",
-      "5db73b4ac2309a553c93b178d6896a021585934c",
-      "0dd62c87cb51ebd9eb02594472a3a4ce92b18270",
-      "cb77606021fa7439f4c2893d0ac292e1c5873c82",
-      "612a2043034c2f5a7109732fc68e6810ae31a6fc"
+      "c228e97681df439efa98a00c13bd40b5324f9c0c",
+      "a05d89ea25c086087879639a32a3b0a275520b68",
+      "f62ba8035ff8d7577fc6f9695c8486190a3f50bd",
+      "f5e9049d91e3d22f8152e0a4757e86350e37e576",
+      "e26347647305c5fd20e84d39fd3ceee16dc8538a",
+      "6df4b159f54501a446e54cec8c325fb7d787c35f"
     ],
-    "report": "owl-pet/production/batches/20261126T2130Z-six-cycle-review.md",
-    "current_batch_id": "20261126T2130Z-B2",
+    "report": "owl-pet/production/batches/20261126T2225Z-six-cycle-review.md",
+    "current_batch_id": "20261126T2225Z-B2",
     "current_batch_completed": 3,
     "next_cycle": 4,
     "other_partial_batches": 0,
     "lease": null,
-    "at": "2026-11-26T21:54:32.441Z"
+    "at": "2026-11-26T22:46:41.020Z"
   },
   "latest_delivery": {
-    "run_id": "20261126T2130Z",
+    "run_id": "20261126T2225Z",
     "completed_cycles_this_invocation": 6,
     "new_species": 0,
     "revised_species": 6,
     "unique_species": 207,
     "total_species": 251,
     "archive_commits": [
-      "f6a98334923c2fdb0c59be07430f872b1ea6ed62",
-      "b31cf4b1687753df932c3695034ce7c470f532b6",
-      "cef3122b6674568e6bb1956fc5c1aeffb07e6ab4",
-      "f64cb41bfd07aa9dbd7782ec125444caeb22f98c",
-      "20310c6ee99fcfa9dc1390965f26cd673231360f",
-      "e828cec765363b181aa255a65f65c724abf0b6d6"
+      "a9efa9653d626f72faef47d5b724f83c56764e78",
+      "a4bfc71bb87a18ab4f7aff6ea498f6f199929806",
+      "f21ff823f69ff183df30a788a454d79b3a9a0568",
+      "f4d0895b056d4ab0df3b8d079ac0c48f1c83e968",
+      "bbe9eb8c0c08705773a2ddaa802cf3c26703602a",
+      "c24a629cef8b2fbc7bab2847e7f25b18dd2f170e"
     ],
     "verification_commits": [
-      "7bc2b827f6fc5bfa79bf9f9599dd08c7a865e5e8",
-      "9f7d2977a4e7a2d69a449845f0bd3fcb2be08323",
-      "5db73b4ac2309a553c93b178d6896a021585934c",
-      "0dd62c87cb51ebd9eb02594472a3a4ce92b18270",
-      "cb77606021fa7439f4c2893d0ac292e1c5873c82",
-      "612a2043034c2f5a7109732fc68e6810ae31a6fc"
+      "c228e97681df439efa98a00c13bd40b5324f9c0c",
+      "a05d89ea25c086087879639a32a3b0a275520b68",
+      "f62ba8035ff8d7577fc6f9695c8486190a3f50bd",
+      "f5e9049d91e3d22f8152e0a4757e86350e37e576",
+      "e26347647305c5fd20e84d39fd3ceee16dc8538a",
+      "6df4b159f54501a446e54cec8c325fb7d787c35f"
     ],
-    "report": "owl-pet/production/batches/20261126T2130Z-six-cycle-review.md",
-    "current_batch_id": "20261126T2130Z-B2",
+    "report": "owl-pet/production/batches/20261126T2225Z-six-cycle-review.md",
+    "current_batch_id": "20261126T2225Z-B2",
     "current_batch_completed": 3,
     "next_cycle": 4,
     "other_partial_batches": 0,
     "lease": null,
-    "at": "2026-11-26T21:54:32.441Z"
+    "at": "2026-11-26T22:46:41.020Z"
   }
 }

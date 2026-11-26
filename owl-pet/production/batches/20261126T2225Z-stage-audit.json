@@ -1,0 +1,476 @@
+{
+  "run_id": "20261126T2225Z",
+  "at": "2026-11-26T22:46:41.020Z",
+  "inventory": {
+    "unique_species": 207,
+    "total_species": 251,
+    "versions": 1197,
+    "manifest_entries": 1233,
+    "at": "2bff11bd667d1fa3b64801bb65ce4dc751082686",
+    "tree": "2bff11bd667d1fa3b64801bb65ce4dc751082686"
+  },
+  "completed_cycles_this_invocation": 6,
+  "imagegen_calls": 6,
+  "imagegen_wait_total_seconds": 223.10000000000002,
+  "content_revisions": 3,
+  "annotation_revisions": 3,
+  "new_species": 0,
+  "revised_species": 6,
+  "new_publications": 0,
+  "reused_citations": 14,
+  "reused_unique_documents": 9,
+  "restored_existing_source_entries": 1,
+  "source_interpretation_corrections": 0,
+  "photo_access_upgraded_publications": 1,
+  "historical_ledger_readback": "All six creditcommit ledgers and verifiedcommit run records fetched, parsed and asserted exit0",
+  "backcheck": "86v9 fullplate actually reopened, lightcrossmarks and head/bodydown boundary retained; no other image mutated",
+  "timings": [
+    {
+      "target": "103-tyto-longimembris-v7",
+      "research_event_window_seconds": 82.698,
+      "imagegen_wait_seconds": 31.713,
+      "additional_edit_wait_seconds": 0,
+      "archive_event_window_seconds": 16.594,
+      "archive_to_verified_seconds": 32.495,
+      "isolated_research_cpu_seconds": null,
+      "isolated_review_cpu_seconds": null,
+      "limits": "Stage event windows only; relevant source prefetch sometimes before STARTED, not full isolated research walltime. Imagegen call wait measured; independent CPU/editprompt time not separately instrumented."
+    },
+    {
+      "target": "101-otus-spilocephalus-v9",
+      "research_event_window_seconds": 4.599,
+      "imagegen_wait_seconds": 37.257,
+      "additional_edit_wait_seconds": 0,
+      "archive_event_window_seconds": 16.573,
+      "archive_to_verified_seconds": 16.905,
+      "isolated_research_cpu_seconds": null,
+      "isolated_review_cpu_seconds": null,
+      "limits": "Stage event windows only; relevant source prefetch sometimes before STARTED, not full isolated research walltime. Imagegen call wait measured; independent CPU/editprompt time not separately instrumented."
+    },
+    {
+      "target": "104-asio-madagascariensis-v6",
+      "research_event_window_seconds": 68.983,
+      "imagegen_wait_seconds": 40.881,
+      "additional_edit_wait_seconds": 0,
+      "archive_event_window_seconds": 16.617,
+      "archive_to_verified_seconds": 15.525,
+      "isolated_research_cpu_seconds": null,
+      "isolated_review_cpu_seconds": null,
+      "limits": "Stage event windows only; relevant source prefetch sometimes before STARTED, not full isolated research walltime. Imagegen call wait measured; independent CPU/editprompt time not separately instrumented."
+    },
+    {
+      "target": "105-ptilopsis-granti-v9",
+      "research_event_window_seconds": 29.839,
+      "imagegen_wait_seconds": 37.232,
+      "additional_edit_wait_seconds": 0,
+      "archive_event_window_seconds": 16.835,
+      "archive_to_verified_seconds": 23.143,
+      "isolated_research_cpu_seconds": null,
+      "isolated_review_cpu_seconds": null,
+      "limits": "Stage event windows only; relevant source prefetch sometimes before STARTED, not full isolated research walltime. Imagegen call wait measured; independent CPU/editprompt time not separately instrumented."
+    },
+    {
+      "target": "102-strix-nigrolineata-v6",
+      "research_event_window_seconds": 41.729,
+      "imagegen_wait_seconds": 41.075,
+      "additional_edit_wait_seconds": 0,
+      "archive_event_window_seconds": 16.225,
+      "archive_to_verified_seconds": 19.841,
+      "isolated_research_cpu_seconds": null,
+      "isolated_review_cpu_seconds": null,
+      "limits": "Stage event windows only; relevant source prefetch sometimes before STARTED, not full isolated research walltime. Imagegen call wait measured; independent CPU/editprompt time not separately instrumented."
+    },
+    {
+      "target": "106-strix-albitarsis-v6",
+      "research_event_window_seconds": 52.823,
+      "imagegen_wait_seconds": 34.942,
+      "additional_edit_wait_seconds": 0,
+      "archive_event_window_seconds": 20.862,
+      "archive_to_verified_seconds": 35.749,
+      "isolated_research_cpu_seconds": null,
+      "isolated_review_cpu_seconds": null,
+      "limits": "Stage event windows only; relevant source prefetch sometimes before STARTED, not full isolated research walltime. Imagegen call wait measured; independent CPU/editprompt time not separately instrumented."
+    }
+  ],
+  "runs": [
+    {
+      "run_id": "20261126T2225Z",
+      "batch_id": "20261126T2130Z-B2",
+      "cycle": 4,
+      "target": "103-tyto-longimembris-v7",
+      "started_at": "2026-11-26T22:27:32.954Z",
+      "stage": "VERIFIED",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T22:27:32.954Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T22:28:55.652Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T22:30:04.376Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T22:30:09.097Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T22:30:13.875Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-26T22:30:46.371Z"
+        }
+      ],
+      "errors": [
+        "PrimaryPDF www/nonwww502twice; screenshot returned only textreference, no imagepixels",
+        "Firstpreflight attempted nonexisting101v6 research paths; latestv8 correctly discovered/read",
+        "Alternate publisher download166/117 also502; booktextread while downloadpending, missinglocalPDF error not photo success"
+      ],
+      "source_new": 0,
+      "source_reuse": 2,
+      "annotation_only": true,
+      "source_ids": [
+        "EGO-DUNLOP2016",
+        "EGO-MIK2013-102"
+      ],
+      "full_prompt": "Use case: text-localization. Edit existing #103 Eastern Grass Owl Tyto longimembris v6 plate, annotation ONLY. Keep ALL bird anatomy/feathers/colour/eyes/bills/feet/poses/wings/longbarelegs/darkadultclaws/juvenilepinkface/groundsupport/grassandsand/style/composition unchanged. Keep title and adult labels. Replace center label with '≈55-DAY MESOPTILE · CAPTIVE CASE' and add smaller cream serif footer y1002 'CONCEPT — SCIENTIFIC REVIEW PENDING; FACE / WING STAGE / FIRST FLIGHT UNVERIFIED'. Do not treat captive55day as wildfirstflight. No maturejuvenilewings, no repaintingpinkskinwithoutactualphoto, no boxes/borders/ornaments/extraobjects. Only requested text, fitwithin1536x1024.",
+      "archive_started_at": "2026-11-26T22:29:57.281Z",
+      "meta": {
+        "bytes": 2734470,
+        "sha256": "c42b1b8585914f71723fa367cac552b8ba77130dd12f3428578336223bbbfb4a",
+        "b64len": 3645960,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "37b92d2099d4ed88ba29b8d37a7a0022b9f7503b"
+      },
+      "imagegen_wait_seconds": 31.713,
+      "review": "Full v6/v7 plates actually viewed. Annotation-onlylabels captiveCASE and face/wing/firstflight scientificpending legible, exact3birds/title/adultroles retained. Adultwhitefacemale/richerbufffemale/modestfullness/darkiris/ivorybill/verylongfleshbaretarsi/toes anddarkblackbrownclaws unchangedatconceptlevel; juvenilegoldmesoptile/pinkpartialface/emergingfacialfeathers/compactconcealedwing/no longtail/allfeetgroundsupported/unlinedsand+tallgrass stable. Noactual55dayphotopixels recovered: pinkskinextent/featherage/flight remainunknown, notscientificpass. Primary alternateURLalso502 afterready; no biologicalpaintdonefromfailedphoto. PASS_WITH_LIMITATIONS/sciencefalse/no newconfirmation. Lesson: specificunverifiedfacialstage mustbevisible evenwhenapproximatecaptiveagehascaptionevidence; explicitmissingdetail notfalsepicturevalidation. #99barefloorcase not transferredtoothernests; thisgrasssandindependentlysource-supported.",
+      "archive_commit": "a9efa9653d626f72faef47d5b724f83c56764e78",
+      "byte_verification_observed_exit0_at": "2026-11-26T22:30:46.370Z",
+      "ended_at": "2026-11-26T22:30:46.370Z",
+      "verified_commit": "c228e97681df439efa98a00c13bd40b5324f9c0c",
+      "credit_commit": "a1caebdaa7611e5d77d86b5f49eb5c5f5dd276f0",
+      "run_record": "owl-pet/production/runs/20261126T2130Z-B2-cycle4-resume2225Z-103-tyto-longimembris-v7.json"
+    },
+    {
+      "run_id": "20261126T2225Z",
+      "batch_id": "20261126T2130Z-B2",
+      "cycle": 5,
+      "target": "101-otus-spilocephalus-v9",
+      "started_at": "2026-11-26T22:30:56.730Z",
+      "stage": "VERIFIED",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T22:30:56.730Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T22:31:01.329Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T22:32:14.942Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T22:32:19.516Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T22:32:24.171Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-26T22:32:41.077Z"
+        }
+      ],
+      "errors": [],
+      "source_new": 0,
+      "source_reuse": 3,
+      "annotation_only": true,
+      "source_ids": [
+        "MOSO-NTM-TMAV3451-2026",
+        "MOSO-NTM-TMAV4405-2026",
+        "MOSO-MIKKOLA-2013-P148"
+      ],
+      "full_prompt": "Use case: text-localization, annotation ONLY. Existing #101 Otus spilocephalus v8 plate ALL BIRDS/FEATHERS/COLOURS/ANATOMY/POSES/FOOTGRIPS/HOLLOW/BRANCH/BACKGROUND/STYLE unchanged. Keep exacttitle/adultlabels. Replace center label with 2 lines 'AGE-UNKNOWN IMMATURE' and 'TAIWAN RACE · O. s. hambroecki'. Add smaller creamserif footer y1002 'CONCEPT — SCIENTIFIC REVIEW PENDING; YOUNG IRIS / AGE / FIRST FLIGHT UNVERIFIED'. The darkyoungiris is an unverified designchoice, no colourrepaint allowed without age-specific evidence. No newflight orsexratio claims, no borders/boxes/goldrules/extraobjects. Only typography, all6feet retainnaturalgrips.",
+      "archive_started_at": "2026-11-26T22:32:07.598Z",
+      "meta": {
+        "bytes": 2829451,
+        "sha256": "36c739b034a2a4079f6a8f01239a0a39aa58dc18221c11d75dcd1e9a7fe82860",
+        "b64len": 3772604,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "4d63207c9d13daa3891823e5f9bba4775f65c717"
+      },
+      "imagegen_wait_seconds": 37.257,
+      "review": "Actualv8/v9 fullplates andfreshmuseumrecordbody/guidep148read. AnnotationonlyTaiwanrace/youngirisagefirstflightunverifiedclear; all3birds/title/adultroles consistent. Adultshortlowtufts/yellowiris/creambills/tea-brownvermiculation/featheredtarsi/barepink-browntoes/nearequalheight, youngyellowbrownvaguemarks/darkunverifiediris/compactsoftwing/concealedtail/bothfootlipgrip stable. Noeyecolourfactcreated, nofirstflight oractivebroodclaim. Hollow remainsillustrative. PASS_WITH_LIMITATIONS/sciencefalse/noapproval. Lesson: 'conservative darkiris' is designchoice, not measuredyoungstate; explicitannotationapplied/reviewedhere only. Museumonefemaleandoneunsexedskinsnotsexratio; bookcross-racephotoreferenceNOTimported.",
+      "archive_commit": "a4bfc71bb87a18ab4f7aff6ea498f6f199929806",
+      "byte_verification_observed_exit0_at": "2026-11-26T22:32:41.076Z",
+      "ended_at": "2026-11-26T22:32:41.076Z",
+      "verified_commit": "a05d89ea25c086087879639a32a3b0a275520b68",
+      "credit_commit": "e87d7165bdfac0a0b24f8362755cf7ebd7b47bd7",
+      "run_record": "owl-pet/production/runs/20261126T2130Z-B2-cycle5-resume2225Z-101-otus-spilocephalus-v9.json"
+    },
+    {
+      "run_id": "20261126T2225Z",
+      "batch_id": "20261126T2130Z-B2",
+      "cycle": 6,
+      "target": "104-asio-madagascariensis-v6",
+      "started_at": "2026-11-26T22:33:03.398Z",
+      "stage": "VERIFIED",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T22:33:03.398Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T22:34:12.381Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T22:35:32.370Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T22:35:36.979Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T22:35:42.324Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-26T22:35:57.850Z"
+        }
+      ],
+      "errors": [
+        "Primarychapterweb400 contentlength33341065; localdownload403, historicalscopeonly"
+      ],
+      "source_new": 0,
+      "source_reuse": 2,
+      "photo_access_upgrade": 1,
+      "source_ids": [
+        "WHSO-MIKKOLA-2013",
+        "MLO-FENEROLE2006-MALE"
+      ],
+      "full_prompt": "Use case: precise-object-edit #104 Asio madagascariensis v5. Change ONLY the feather shade directly AROUND BOTH ADULT ORANGE EYES: deepen the currently pale grey-tan eye-surround feathers to natural DARK BROWN softly shading into the tawny-brown facial disc, beyond the thin black eyelid rim. Keep narrow pale eyebrows and pale lores, outerface rim and allface geometry; do not make wholefaceblack or change iris orange. Mikkola2013p509 text/photos show tawnyface with darkbrown aroundeyes/palebrows andlores. Preserve adult long narrow flexible widelyseparatedtufts, blackbills, allcrown/body/wings/tail/sparsebellymarks/toefeathers/claws/near-equalheight; CENTRAL YOUNG entirelyUNCHANGED, no age-specificfacecolourtransfer. All6feet maintainbranchcontact/youngsupportedstep/epiphytecase unchanged. Keep title104/species/adultroles/currentageunknownyounglabel. Add small white serif footer y1007 'CONCEPT — SCIENTIFIC REVIEW PENDING; AGE / FIRST FLIGHT / SEX RATIO UNVERIFIED'. Same warmnaturalisticstyle, no boxes/borders/decorations.",
+      "archive_started_at": "2026-11-26T22:35:25.707Z",
+      "meta": {
+        "bytes": 2567814,
+        "sha256": "cf111297bd3c6fc4f406e9a08cd51265c53514531456a8e50702f8abe20ab424",
+        "b64len": 3423752,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "9fb5b85cd8440c802f955988c9f21cfe416cf189"
+      },
+      "imagegen_wait_seconds": 40.881,
+      "review": "Actualv5/v6 fullplates + uploadedp509twoadultphotos viewed. Bothadultperiocularfeathers nowdarkbrownsoftzones beyondthineyelidrims, blendedtotawnycheeks whilepalebrows/lores/outerrim/orangeiris/blackbills preserved. No allblackface andno youngmasktransfer. Qualitativeshade notcalibratedcolourmeasurement. Longnarrowflexibletufts/crown/upperpartpattern/sparsefinelowerbellyshafts/tarsitoebasefeathers/darkclaws/nearequaladultheight retained. Youngwhitecreamfluff/darkmask/shorttufts/formedsoftcompactbrownwing/concealedtail/bothfeetsteppingonbranch supported; exactage/iris/flightunknown. Labelsfooterpendingcorrect,3birds/env stable. PASS_WITH_LIMITATIONS/sciencefalse/noapproval. Lesson: adultperiocularfeathers aredistinctfromiris/eyelidring; boundedshadeeditvisuallyworkedhere, no universalmaskrule. Chapterfreshaccessfailed400/403, nofalseprimaryread or exactbroodage.",
+      "archive_commit": "f21ff823f69ff183df30a788a454d79b3a9a0568",
+      "byte_verification_observed_exit0_at": "2026-11-26T22:35:57.849Z",
+      "ended_at": "2026-11-26T22:35:57.849Z",
+      "verified_commit": "f62ba8035ff8d7577fc6f9695c8486190a3f50bd",
+      "credit_commit": "2a5759100cd24c3a9bb1336a60e3e3695c0ccadc",
+      "run_record": "owl-pet/production/runs/20261126T2130Z-B2-cycle6-resume2225Z-104-asio-madagascariensis-v6.json"
+    },
+    {
+      "run_id": "20261126T2225Z",
+      "batch_id": "20261126T2225Z-B2",
+      "cycle": 1,
+      "target": "105-ptilopsis-granti-v9",
+      "started_at": "2026-11-26T22:36:07.421Z",
+      "stage": "VERIFIED",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T22:36:07.421Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T22:36:37.260Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T22:38:00.969Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T22:38:05.430Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T22:38:10.737Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-26T22:38:33.881Z"
+        }
+      ],
+      "errors": [],
+      "source_new": 0,
+      "source_reuse": 2,
+      "source_ids": [
+        "SWFO-ADW-2014",
+        "WHSO-MIKKOLA-2013"
+      ],
+      "full_prompt": "Use case: precise-object-edit #105 Ptilopsis granti v8. Correct ONLY BOTH ADULT lowerbreast/belly fine pattern: keep all existing dark vertical shaftstreaks dominant, add just a FEW extremely faint, thin, broken grey transverse vermiculation wisps between/branching from shafts over palegrey. Each new crosswisp at most ONE FIFTH contrast/width of existing shafts, sparse/unequal, soft and irregular. Source Mikkola2013p256 fine darkvermiculations plus fine shaftstreaks. Do NOT create dark fishscale mesh, closedloops, bold transversebars or uniformlattice. No stronger black-markarea overall. All centralyoung feathers/body/formedcompactwing/shorttail/yellowgreyeyes/shorttufts/twofootgrip ENTIRELY unchanged. Adultwhitefaces/blackruff/orangeredeyes/creambills/longtufts/wingtail/feet/toebasefeathers/darkclaws/nearequalheight/branchsavanna/style unchanged. Keep title/adultlabels/currentyoungageunknownlabel. Add small white serif bottomfooter 'CONCEPT — SCIENTIFIC REVIEW PENDING; AGE / FIRST FLIGHT / SEX RATIO UNVERIFIED'. No borders/boxes/decorativeobjects.",
+      "archive_started_at": "2026-11-26T22:37:53.902Z",
+      "meta": {
+        "bytes": 2807019,
+        "sha256": "26625bbdf5e90e35a7d768c07255350b7c017ea9ea0064dcde4191bd742f88cf",
+        "b64len": 3742692,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "c5dbfb42cd7c4308810cbc570c785389665e11a2"
+      },
+      "imagegen_wait_seconds": 37.232,
+      "review": "Actualv8/v9fullplates andnativev9adultventralcrop viewed againstfreshADWbody+guidep256. New sparse faintthinbrowntransversewisps visiblebetweenstrongshaftstreaks, mostobviousrightadultlowerbelly, notdarkclosedloopmesh; shaftsremainpredominant. Patternstillstylizedandcontrastqualitative; sourcehasnomeasuredspacing. Adultwhitepalegreyfaces/blackruff/orangeredeyes/creambill/longtufts/wingtail/toebasehalf-feathers/duskytoes-darkclaws/nearequalheight stable. Centralyoungcompletelyretainsyellowgreyeyes/shorttufts/softlessmarkedfluff/compactformeddown-fringedwing/concealedtail/twofootgrip; exactage/firstflightunknown. Threebirds/title/labels/newpendingfooter/savannasupportpass. PASS_WITH_LIMITATIONS/sciencefalse/noapproval. Prior86overshootrule(onefifthcontrast/thinbrokenirregularwisps) applied; thisfirstoutputdoesnotshowthickmesh, onecasevisualsupportnotuniversalvalidation. Do nottransferadultvermiculationintoyoung.",
+      "archive_commit": "f4d0895b056d4ab0df3b8d079ac0c48f1c83e968",
+      "byte_verification_observed_exit0_at": "2026-11-26T22:38:33.880Z",
+      "ended_at": "2026-11-26T22:38:33.880Z",
+      "verified_commit": "f5e9049d91e3d22f8152e0a4757e86350e37e576",
+      "credit_commit": "90984edcd7695ed2c86710e9f66b534ffe8eb459",
+      "run_record": "owl-pet/production/runs/20261126T2225Z-B2-cycle1-resume2225Z-105-ptilopsis-granti-v9.json"
+    },
+    {
+      "run_id": "20261126T2225Z",
+      "batch_id": "20261126T2225Z-B2",
+      "cycle": 2,
+      "target": "102-strix-nigrolineata-v6",
+      "started_at": "2026-11-26T22:38:46.350Z",
+      "stage": "VERIFIED",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T22:38:46.350Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T22:39:28.079Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T22:40:59.629Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T22:41:04.041Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T22:41:08.758Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-26T22:41:28.600Z"
+        }
+      ],
+      "errors": [],
+      "source_new": 0,
+      "source_reuse": 2,
+      "source_ids": [
+        "BWO-MIKKOLA-2013-P339",
+        "BWO-GERHARDT-GERHARDT-1997-USFS"
+      ],
+      "full_prompt": "Use case: precise-object-edit #102 Strix nigrolineata v5. Change ONLY CLAW COLOUR on BOTH ADULTS left/right from darkcharcoal shafts to muted YELLOWISH-HORN/tan horn over proximal/mainshaft, retaining naturally darker distal tips/contact shadows and exact clawcurvature/length/number/grips. Notbrightcanaryyellow, notwhite. GuideMikkola2013p339 says bare dirtyyellow/orangeyellowtoes with yellowishhornclaws. Preserve adultorange-scaledtoes/barredfeatheredtarsi/footpositions. CENTRALjuvenileclaws/feetandallplumage unchanged, adultpalette isnotyoungdata. Adultdarkreddishbrownirides/paleorangeyellowbill/blackbib/sootyupperparts/whitebarredventrum/female fuller atnear-equalheight, youngpale-barredmesoptile/compactroundedwing/concealedtail/lowtwofoot+bellysupport, broadlivingepiphyteplatform/Tikalforest/style allUNCHANGED. Keep exacttitle102/currentname/adultroles/currentageunknownyounglabel; add smaller cream serif footer y1008 'TIKAL REGIONAL CASE · CONCEPT — SCIENTIFIC REVIEW PENDING; FIRST FLIGHT / SEX RATIO UNVERIFIED'. No neststraw/cavity/borders/boxes/extraobjects.",
+      "archive_started_at": "2026-11-26T22:40:52.533Z",
+      "meta": {
+        "bytes": 2712265,
+        "sha256": "74c43e14c306108d6e6cf26815d204c6766c36ede281efa6579ac6569f546ec6",
+        "b64len": 3616356,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "16625536f75741b05c11208f4f68c6c420790e4d"
+      },
+      "imagegen_wait_seconds": 41.075,
+      "review": "Actualv5/v6 fullplates andnativeadultfootcrop viewed. Adultclawshafts nowmutedtan/yellowishhornwithnaturaldarkertip/shadow vsoldcharcoal, samecurvature/toenumber/grip andorangebaretoes/barredfeatheredtarsi. Colourqualitative notcolourimetric. Youngclawsstaydark, noadultpaletteapplied. Adultdarkreddishiris/orangeyellowbill/blackbib/sootyupperparts/whiteblackventrum/fullerfemale-nearequalheight stable; youngpale-barredmesoptile/darkeyes/compactrounddown-softwing/concealedtail/lowtwofoot+bellyepiphytesupport retained. Threebirds/title/currentname/roles/Tikalregionalpendingfooterlegible. Image resynthesizedsomefeatheredges butno count/support/stagedriftobserved. PASS_WITH_LIMITATIONS/sciencefalse/noapproval. One measuredpairmassnotheightformula; noflightthreshold. Lesson: clawshaft colourtreatseparatelyfromtoe skin/tipshadow, specificyellowishhornhere differentfrom103darkhorn/106palehorn; applied/recheckedhereonly.",
+      "archive_commit": "bbe9eb8c0c08705773a2ddaa802cf3c26703602a",
+      "byte_verification_observed_exit0_at": "2026-11-26T22:41:28.599Z",
+      "ended_at": "2026-11-26T22:41:28.599Z",
+      "verified_commit": "e26347647305c5fd20e84d39fd3ceee16dc8538a",
+      "credit_commit": "8e62aff71771c62de1c7515a89b668bddd732298",
+      "run_record": "owl-pet/production/runs/20261126T2225Z-B2-cycle2-resume2225Z-102-strix-nigrolineata-v6.json"
+    },
+    {
+      "run_id": "20261126T2225Z",
+      "batch_id": "20261126T2225Z-B2",
+      "cycle": 3,
+      "target": "106-strix-albitarsis-v6",
+      "started_at": "2026-11-26T22:41:39.695Z",
+      "stage": "VERIFIED",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T22:41:39.695Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T22:42:32.518Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T22:43:51.528Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T22:43:56.291Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T22:44:01.200Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-26T22:44:36.950Z"
+        }
+      ],
+      "errors": [],
+      "source_new": 0,
+      "source_reuse": 3,
+      "annotation_only": true,
+      "index_restored_existing": 1,
+      "source_ids": [
+        "WHSO-MIKKOLA-2013",
+        "RBO-GREENEY-2003-P67-68",
+        "RBO-PERUAVES-ACCOUNT"
+      ],
+      "full_prompt": "Use case: text-localization #106 Strix albitarsis v5, annotation ONLY. ALL BIRDS, currentdarkadultirides/greybills, plumage/feathering/feet/palehornadultclaws/scale/poses/youngyellowcreamdown/compactfoldedwing/concealedtail/twofoot+bellysupport, attachedlivingtreefernleafbases/Chusqueaforest/style UNCHANGED. Keep exacttitle106 RUFOUS-BANDED OWL Strix albitarsis and ADULT MALE/ADULT FEMALE labels. Replace center label with two lines 'AGE-UNKNOWN ROOSTING YOUNG' and 'DOCUMENTED DAY-ROOST CONTEXT'. Add small cream serif bottomfooter 'CONCEPT — SCIENTIFIC REVIEW PENDING; ADULT EYE / BILL CONFLICT · FIRST FLIGHT UNVERIFIED'. This livingtreefernbaseisdayroost NOTnest, so noaddedlining/eggs/nestbowl. Do not resolve conflictingeye/billtexts by repainting. No newanatomy/flight/sexratio, boxes/borders/extraobjects. Only requestedlabels.",
+      "archive_started_at": "2026-11-26T22:43:40.338Z",
+      "meta": {
+        "bytes": 2998772,
+        "sha256": "e474987f61dffa2d8a5984f8760093be45118145bb39c3fedf155a828941abea",
+        "b64len": 3998364,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "ca8d89c24f437637aa6263253dd4efb562d67896"
+      },
+      "imagegen_wait_seconds": 34.942,
+      "review": "Actualv5/v6 fullplates viewed againstfreshGreeney2003p67original/guidep338/PeruAvesIdentificationbody. AnnotationonlynewAGEUNKNOWNROOSTINGYOUNG/dayroostcontextandscientificpendingadultEYE/BILLconflict/firstflightunverifiedlegible. Noiris/billrepainting: adultdarkiris/greybillretainedpendingbookorange/yellowhorncontradiction; adultfeatheredtarsi/barecreamtoes/palehornclawsvalidv5fixpreserved. Adultsroundheads/rufousbandedplumage/nearequalheight, youngyellowcreamdown/darkeyes/compactwing/concealedtail/lowtwofoot+bellygrip stable. Fernleafbasesattachedtreefern/Chusquea-dayroost retained, no fabricatednestmaterial/eggs/flight. Exactly3birds/title/adultrolespass. PASS_WITH_LIMITATIONS/sciencefalse/noapproval, unresolvedcolourandpreciseyoungstage remain. Lesson: opposingtextsourcesdonotjustifyarbitrarycolourchoice; annotateconflict, retain priorvalideditandseparateroostfromnest. Actualfreshcross-sourcecheckdidnotsettleconflict; no claimofvalidatedcolour.",
+      "archive_commit": "c24a629cef8b2fbc7bab2847e7f25b18dd2f170e",
+      "byte_verification_observed_exit0_at": "2026-11-26T22:44:36.949Z",
+      "ended_at": "2026-11-26T22:44:36.949Z",
+      "verified_commit": "6df4b159f54501a446e54cec8c325fb7d787c35f",
+      "credit_commit": "2bff11bd667d1fa3b64801bb65ce4dc751082686",
+      "run_record": "owl-pet/production/runs/20261126T2225Z-B2-cycle3-resume2225Z-106-strix-albitarsis-v6.json"
+    }
+  ]
+}

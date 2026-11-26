@@ -20,6 +20,12 @@
       "at": "2026-11-26T11:31:36.467Z",
       "blob": "932a39c3ff419aca7d23835d7e403541d4192edd",
       "bytes": 2549876
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T11:32:44.362Z",
+      "blob": "801efd74fc6fddebe389183b8762844443a887c9",
+      "bytes": 2460935
     }
   ],
   "scientifically_verified": false,
@@ -27,14 +33,14 @@
   "target": "30-glaucidium-cuculoides-v7",
   "generation_seconds": 33.837,
   "meta": {
-    "bytes": 2549876,
-    "sha256": "e58cadaa07d7c1200cfab45c117c7ab3d503f1db6fa071a7ee57e186fd9fa877",
-    "gitblob": "932a39c3ff419aca7d23835d7e403541d4192edd",
+    "bytes": 2460935,
+    "sha256": "76142dbd4b259fa8c4a119a7b93d8b52aae407dbf208efd4bf7575b459e28e41",
+    "gitblob": "801efd74fc6fddebe389183b8762844443a887c9",
     "size": [
       1536,
       1024
     ],
-    "b64len": 3399836
+    "b64len": 3281248
   },
   "attempts": [
     {
@@ -43,5 +49,6 @@
       "error": "Title version remained v6 despite requested v7; plumage correction visible"
     }
   ],
-  "edit_prompt": "Change ONLY the top title version number v6 to v7. Preserve every other text and pixel-level visual content as closely as possible: three birds, finer buff juvenile crown spots, plain mantle, eyes, feet, branches and footer unchanged. No other text changes."
+  "edit_prompt": "Change ONLY the top title version number v6 to v7. Preserve every other text and pixel-level visual content as closely as possible: three birds, finer buff juvenile crown spots, plain mantle, eyes, feet, branches and footer unchanged. No other text changes.",
+  "edit_seconds": 33.212
 }

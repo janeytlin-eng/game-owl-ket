@@ -7617,3 +7617,7 @@ ReuseFLOW-RICHMOND-DEWEESE-PILLMORE-1980-P35-46 freshlydirectGET/readprinted37/P
 
 ### 2026-11-26 24-glaucidium-californicum-v6 audit
 ReuseMIKKOLA2013 freshlyprinted372/PDF374: adultabout6incompletebarshardlycentralshaft vs actualv5continuouspalecrossbands. ReuseNPO-SCCP-FACTSHEET directPDFp1actualread afterwebfail, swarthiregionnotdayatlas. NEW NPO-ORI-BROAD-2026 originalFacts/Size/Range/Nesting https://www.owlresearchinstitute.org/northern-pygmy-owl , undatedORI/access2026-11-26: broadgnoma/California/Mountain scope, genericyoungspots/darkbill notchosenplainmesoptileproof; keepconflict. New1/reuse2/tailpatternapplication1, unknownexactage/feathermap/colour/ratio. Alloldversionspreserved/sciencefalse. [Full facts/prompt](species/24-glaucidium-californicum-v6.md).
+
+
+### 2026-11-26 25-glaucidium-brasilianum-cactorum-v6 audit
+ReuseCFPO-USFS-GTR43-2000-P7 originalDescriptionprinted7–8/PDF13–14 freshread, positiveyoungteardroptips/formedwing retained, picture28–31ageunverified. ReuseMIKKOLA2013freshprinted376–377/PDF378–379 oldridgwayicactorum Arizona/westMexicoscope vsSouthAmericanbrasilianum392; nevertransfer#24white-tailbars. New0/reuse2, historicalAGFDcaptiononlynotnewageproof. Existing#25remotev1–5present; isolatedfd9d70d localgitshowfailednotworktree, notcounted/notreconstructed. v6annotationonly/sciencefalse. [Full facts/prompt](species/25-glaucidium-brasilianum-cactorum-v6.md).

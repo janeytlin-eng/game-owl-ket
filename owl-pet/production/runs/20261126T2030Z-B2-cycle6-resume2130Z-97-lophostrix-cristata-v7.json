@@ -4,7 +4,7 @@
   "owner": "owl-production-20261126T2130Z",
   "run_id": "20261126T2130Z",
   "started_at": "2026-11-26T21:42:41.383Z",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "STARTED",
@@ -49,6 +49,15 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-26T21:45:24.014Z"
+    },
+    {
+      "stage": "VERIFICATION_EVIDENCE",
+      "at": "2026-11-26T21:45:51.849Z",
+      "evidence": "Both immutable originals/concepts full bytes SHA256/PILdecode passed; research/review readback passed"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-26T21:45:51.850Z"
     }
   ],
   "target": "97-lophostrix-cristata-v7",
@@ -73,5 +82,7 @@
     "gitblob": "a0299c59b183ec952ad0c9b7f99a5b0b0f41d94d"
   },
   "second_imagegen_wait_seconds": 35.431,
-  "review": "Actualv6/firstedit/final fullimages and guide p358 text viewed; external Boliviabody read. Final adult lowerbreast/belly now palebrown with finer fainter irregularvermiculations, notoldboldblackzigzags. Firstedit incorrectly paledupperbreast; second restoreddarkchocolateneck/upperbreast and smalldullyellowthroat, mergingto palelowerbelly. Width/contrast qualitative, notmeasuredbiologicalthreshold. v6narrowtailbars/wingbars/whiteplumes/darkorangebrown eyes/yellowhornbills/baregrey-browntoes/darkclaws, near-equaladultheight retained; youngwhite/darkrufousface/shorttufts/foldedbrownwings/twofootlowforksupport unchanged andage/flightunknown. Labelsnowageunknownandsciencepending, legible. Some decorativefinefeathertexture remains. PASS_WITH_LIMITATIONS/sciencefalse/noapproval. Lesson: restrict faintpattern edit to LOWER underparts and explicitlypreservedark upperbreast; applied2ndprompt andviewvalidatedinthisplate only. Prior#86shaftstreakcrossmarks aredifferenttaxon, no transfer."
+  "review": "Actualv6/firstedit/final fullimages and guide p358 text viewed; external Boliviabody read. Final adult lowerbreast/belly now palebrown with finer fainter irregularvermiculations, notoldboldblackzigzags. Firstedit incorrectly paledupperbreast; second restoreddarkchocolateneck/upperbreast and smalldullyellowthroat, mergingto palelowerbelly. Width/contrast qualitative, notmeasuredbiologicalthreshold. v6narrowtailbars/wingbars/whiteplumes/darkorangebrown eyes/yellowhornbills/baregrey-browntoes/darkclaws, near-equaladultheight retained; youngwhite/darkrufousface/shorttufts/foldedbrownwings/twofootlowforksupport unchanged andage/flightunknown. Labelsnowageunknownandsciencepending, legible. Some decorativefinefeathertexture remains. PASS_WITH_LIMITATIONS/sciencefalse/noapproval. Lesson: restrict faintpattern edit to LOWER underparts and explicitlypreservedark upperbreast; applied2ndprompt andviewvalidatedinthisplate only. Prior#86shaftstreakcrossmarks aredifferenttaxon, no transfer.",
+  "archive_commit": "cef3122b6674568e6bb1956fc5c1aeffb07e6ab4",
+  "ended_at": "2026-11-26T21:45:51.849Z"
 }

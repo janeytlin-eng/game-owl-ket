@@ -3432,3 +3432,6 @@ Verification follow-up for #201 v3: immutable archive commit `4e0525c59b76a14aeb
 
 ## 2026-11-26 六组实际修订
 [按编号原图/研究/检查/真实提交](../production/batches/20261125T2300Z-invocation-review.md)：#40v6成年跗羽、#22v5警戒短羽角、#20v6苔藓巢底、#18v5深色喙主体、#17v7幼鸟细横斑、#16v6成年展示比例。均PASS_WITH_LIMITATIONS/sciencefalse，不重复计物种，旧确认保留。
+
+
+#238 M.roraimae napensis v1: [original](concepts/238-megascops-roraimae-napensis-v1.png), [research](../research/species/238-megascops-roraimae-napensis-v1.md), [review](../research/reviews/238-megascops-roraimae-napensis-v1-review.md). PASS_WITH_LIMITATIONS/sciencefalse; archive verification pending.

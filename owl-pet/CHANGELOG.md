@@ -1955,3 +1955,7 @@ Coverage182/251 by taxon-name deduplication. Batch20261123T072659Z 3/6,next4. Ne
 ## 2026-11-23 #211 Megascops roboratus v1 VERIFIED
 Coverage183/251 by taxon-name deduplication. Batch20261123T072659Z 4/6,next5. New1/revision0;archivefdd62cb40f50afd820d00520b0995bcad3522a3b;verificationdcfac0e69d1d42b9f3271a7fa42840b96ec213cf. Full+3role crop montage actuallyviewed;edits1;PASS_WITH_LIMITATIONS/sciencefalse. RemotePNG/hash verified;research sourceindex persisted. [Original](design/concepts/211-megascops-roboratus-v1.png),[review](research/reviews/211-megascops-roboratus-v1-review.md),[run](production/runs/20261123T072659Z-cycle-4.md). Full251notcomplete/notpaused.
 
+
+
+## 2026-11-26 #238 napensis concept archive (verification pending)
+New current species Megascops roraimae, eastern Ecuador napensis; old M.napensis not separately counted. Actual generated one plate/one juvenile wing-head edit; full/crop viewed PASS_WITH_LIMITATIONS/sciencefalse. [Original](design/concepts/238-megascops-roraimae-napensis-v1.png), [research](research/species/238-megascops-roraimae-napensis-v1.md), [review](research/reviews/238-megascops-roraimae-napensis-v1-review.md). Batch20261126T0034Z cycle3; completed remains2 until immutable readback. User approval not added. No other tasks modified.

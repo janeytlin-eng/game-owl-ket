@@ -4612,3 +4612,7 @@ Thisinvocation completed2cycles(5–6), new0/revised2: #73Ninoxrufa v6 and#97Lop
 
 ## 2026-11-26 本次6轮完成，当前批次1/6
 新增0/修订#40v6/#22v5/#20v6/#18v5/#17v7/#16v6；206/251不变。原图字节SHA256完整PNG解码和研究/提示/审查/索引/账本读回均通过，sciencefalse/新用户确认0。旧2226Z跨次6/6，新2300Z1/6,next2，其他未完0/lease释放。[六原图、真实SHA、阶段时间、来源及未完成项](production/batches/20261125T2300Z-invocation-review.md)。全251及集中审查未完，未改其他任务。
+
+
+## 2026-11-26 #238 napensis concept archive (verification pending)
+New current species Megascops roraimae, eastern Ecuador napensis; old M.napensis not separately counted. Actual generated one plate/one juvenile wing-head edit; full/crop viewed PASS_WITH_LIMITATIONS/sciencefalse. [Original](design/concepts/238-megascops-roraimae-napensis-v1.png), [research](research/species/238-megascops-roraimae-napensis-v1.md), [review](research/reviews/238-megascops-roraimae-napensis-v1-review.md). Batch20261126T0034Z cycle3; completed remains2 until immutable readback. User approval not added. No other tasks modified.

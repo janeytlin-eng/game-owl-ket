@@ -4,7 +4,7 @@
   "owner": "owl-production-20261126T1926Z",
   "run_id": "20261126T1926Z",
   "started_at": "2026-11-26T19:46:24.194Z",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "STARTED",
@@ -26,6 +26,15 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-26T19:49:09.155Z"
+    },
+    {
+      "stage": "VERIFICATION_EVIDENCE",
+      "at": "2026-11-26T19:50:11.763Z",
+      "evidence": "Immutable original+concept GET full bytes/SHA256/PILdecode passed; research/review readback passed"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-26T19:50:11.764Z"
     }
   ],
   "target": "92-ninox-japonica-v7",
@@ -49,5 +58,7 @@
     "gitblob": "4397884706c2e0022d399ac1ffb2bc4b93607b04"
   },
   "imagegen_wait_seconds": 107.49,
-  "review": "Actualinputv6/outputv7full viewed: AGE-UNKNOWNDEPENDENTYOUNG/scientificpendingfooterreadable, title/currentname92 unchanged. Adultsleftcenterretaincorrecteddarkgrey-brownbillswithsmallpaletips, yellowiris/yellowbristledbaretoes/creamfeatheredlegs/broadbreaststreaks/barredtails/noear-tufts/whiteshoulderpatches/near-equalheight. Rightyoungpalerbuff/sparserstreaks/fluff/openbegginggape/compactfoldedwing/shortconcealedtail/bilateralbranchgrip maintained, naturalcavity/orchardcontextstable. Annotation-onlyPASS_WITH_LIMITATIONS/sciencefalse, no newuserapproval. Primary25–28dnestperiod notpicturedindividualage/firstflight; adultpaletteandTaiwanmeasurementoverlap notyoungcolourseries/globalRSD. Ruleapplied/rechecked: preservepreviousvalidadultbillfixduringstageannotation."
+  "review": "Actualinputv6/outputv7full viewed: AGE-UNKNOWNDEPENDENTYOUNG/scientificpendingfooterreadable, title/currentname92 unchanged. Adultsleftcenterretaincorrecteddarkgrey-brownbillswithsmallpaletips, yellowiris/yellowbristledbaretoes/creamfeatheredlegs/broadbreaststreaks/barredtails/noear-tufts/whiteshoulderpatches/near-equalheight. Rightyoungpalerbuff/sparserstreaks/fluff/openbegginggape/compactfoldedwing/shortconcealedtail/bilateralbranchgrip maintained, naturalcavity/orchardcontextstable. Annotation-onlyPASS_WITH_LIMITATIONS/sciencefalse, no newuserapproval. Primary25–28dnestperiod notpicturedindividualage/firstflight; adultpaletteandTaiwanmeasurementoverlap notyoungcolourseries/globalRSD. Ruleapplied/rechecked: preservepreviousvalidadultbillfixduringstageannotation.",
+  "archive_commit": "5567fb6d4b07d2c53bc0d3f8eacdcaa3608daa45",
+  "ended_at": "2026-11-26T19:50:11.763Z"
 }

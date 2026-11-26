@@ -7704,3 +7704,7 @@ New0/reuse2. Printed350/PDF352 originalguide reread; JStageprimarybodyabstract a
 
 ### 2026-11-26 45-strix-seloputo-v7
 New0/reuse2. Guideadulttoeplumage/skincolourvsactualpinkbarev6; datedyoungbalancepose preserved unchanged. Feathercover andvisible skin treatedseparately; noyoungfeathertransfer. [facts/full prompt](species/45-strix-seloputo-v7.md).
+
+
+### 2026-11-26 46-strix-ocellata-v7
+New0/reuse3. Externaloriginalspecialistaccount reread, guideprinted324freshread; primaryabstract historicalreuseexplicit. v7annotation-only source-sampleage vsdrawnindividualunmeasured; no morphology-improvement claim. [facts/full prompt](species/46-strix-ocellata-v7.md).

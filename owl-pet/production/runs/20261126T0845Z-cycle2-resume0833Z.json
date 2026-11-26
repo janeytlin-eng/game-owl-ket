@@ -4,7 +4,7 @@
   "owner": "20261126T0833Z",
   "run_id": "20261126T0845Z-cycle2-resume0833Z",
   "started_at": "2026-11-26T08:47:36.251Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,8 +14,23 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T08:48:32.145Z",
       "evidence": "Actual v6 image labels juvenile '~10 DAYS POST-FLEDGE'. Forsman does provide a real 10-day post-fledging individual in Fig8; this does not establish the generated individual's exact age or feather-by-feather equivalence. Correct evidence status only; not a newly proved anatomical error. Adult size correction from v6 remains. No new species."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T08:49:28.629Z",
+      "blob": "bd734c41eb7bd9b7b5b896c100da9dfb2d6425d9"
     }
   ],
   "scientifically_verified": false,
-  "target": "16-strix-occidentalis-v7"
+  "target": "16-strix-occidentalis-v7",
+  "meta": {
+    "bytes": 2678872,
+    "sha256": "8f9aba34ca4f33ec676f2bc0c547842c788cce9f0c112438465cb7adf6a4da2b",
+    "gitblob": "bd734c41eb7bd9b7b5b896c100da9dfb2d6425d9",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "generation_seconds": 36.597
 }

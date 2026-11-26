@@ -7597,3 +7597,7 @@ ReuseWESO-USFS-GEHLBACH-STOLESON-2010-P512-518 freshoriginalprinted511–512/PDF
 
 ### 2026-11-26 19-megascops-trichopsis-v7 audit
 ReuseMIKKOLA2013 freshprinted212–213/PDF214–215 (not#17clawcolour), WHSO-ARENAS-ETAL-2020-E611 freshlyopenedauthorAbstract/Introduction/Captivity text afterScieloPDFTimeout, WHSO-HUBICK-20080807 freshmetadataonly. Captionnotage/sexproof; rehabilitationnotwilddevelopment; billconflictretained. New0/reuse3; v7annotation-only, allphenotypepreserved/sciencefalse. HistoricalWHSO-MIKKOLA ambiguousacrosstaxa normalizedto sameMIKKOLApublication inthisrecord, no oldrecorddeleted. [Full facts/prompt](species/19-megascops-trichopsis-v7.md).
+
+
+### 2026-11-26 20-megascops-clarkii-v7 audit
+ReuseBSOW-ASTORGA-2018-P85-89 originalbody freshlyread printed86–88/PDF88–90, dated2017observationnotknownhatchage, mossplatform notuniversalshape. ReuseMIKKOLA2013 freshuploadedprinted217/PDF219; lowerthirdvsphoto-captionoverhalf tarsalextentconflict retained. New0/reused2. v7annotation-only; retainpriorv6mossedit, age/nest/sexlimits visible/sciencefalse. [Full facts/prompt](species/20-megascops-clarkii-v7.md).

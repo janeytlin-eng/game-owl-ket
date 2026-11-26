@@ -4,7 +4,7 @@
   "owner": "20261126T1734Z",
   "run_id": "20261126T1734Z-B2-cycle3-resume1734Z",
   "started_at": "2026-11-26T17:53:25.419Z",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "STARTED",
@@ -30,6 +30,11 @@
       "stage": "ARCHIVED",
       "at": "2026-11-26T17:54:47.808Z",
       "commit": "27106da6b207f7db8270638f9f149bd9e35e8c13"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-26T17:55:13.031Z",
+      "evidence": "Immutable original/concept fullbytes SHA256 and PIL decode pass; research/review readback."
     }
   ],
   "errors": [],
@@ -42,5 +47,6 @@
   },
   "imagegen_edit_wait_seconds": 42.345,
   "review": "Actual fullv10 viewed against openedv9. Both adult crown regions now dark blackish-brown, clearly darker than mantle, pale spot rows substantially reduced. Pale eyebrows/discs and dark-edged tufts remain, no smooth helmet; eyes/hornbills/palehornclaws/near-equal stance and branches preserved. Central grey barred/no-tuft/bluegrey-eyed juvenile and undeveloped wings/grey bill/small bare eye margin/bothfeet floor contact retained. Footer readable, exactly3owls. No further edit needed. PASS_WITH_LIMITATIONS/sciencefalse. Qualitative crown-region improvement only; subspecies, exact feather map/young age/flight/sex ratio unverified. Lesson: compare crown and mantle as separate regions, not a shared spotted texture; effective visually only for #84v10.",
-  "archive_commit": "27106da6b207f7db8270638f9f149bd9e35e8c13"
+  "archive_commit": "27106da6b207f7db8270638f9f149bd9e35e8c13",
+  "ended_at": "2026-11-26T17:55:13.031Z"
 }

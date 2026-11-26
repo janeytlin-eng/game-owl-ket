@@ -7978,3 +7978,8 @@ New0/reuse2 existingpublications: EGO-DUNLOP2016 actualpublisherbody p170–172 
 ## 2026-11-27 run2225 101-otus-spilocephalus-v9 source reuse
 New0/reused3: MOSO-NTM-TMAV3451-2026 and MOSO-NTM-TMAV4405-2026 actualinstitutionalrecords/description/measurements read, onefemale+oneunsexed notsexratio; MOSO-MIKKOLA-2013-P148 sameMikkola2013book actualp148/PDF150. Youngirisunknown ratherthan darkirisfact; annotationonly. Oldnames andsubspeciesretain.
 [Research](species/101-otus-spilocephalus-v9.md) / [review](reviews/101-otus-spilocephalus-v9-review.md).
+
+
+## 2026-11-27 run2225 104-asio-madagascariensis-v6 source reuse
+New0/reuse2 freshdocuments WHSO-MIKKOLA-2013 actualuploadedp509/PDF511 text+twoadultphotos (photoaccessupgrade1 publication) and MLO-FENEROLE2006-MALE gallerymetadataactualread/flashlimit. MLO-RDR-GOODMAN2003 fresh400size/local403 so historicalcaseboundaryonly, NOTneworiginalread. Adultperiocularshade, noyoungtransfer.
+[Research](species/104-asio-madagascariensis-v6.md) / [review](reviews/104-asio-madagascariensis-v6-review.md).

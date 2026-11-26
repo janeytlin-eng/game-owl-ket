@@ -1034,3 +1034,11 @@ When a species guide says “juvenile not known” but a regional field photogra
 - **Evidence:** ANPO-BANREP-CERVANTES-2016 institutional synthesis, re-read lines 21–32; PeruAves adult/juvenile comparison.
 - **Rule applied:** preserve near-equal adult crown height with only subtle female fullness; use a fully supported, dull-eyed, plain-crowned late-nest juvenile with soft formed wing and short tail.
 - **Validation:** full plate and three crops passed on first render; no unsupported flight or independence pose. Applies to #35 v5 only.
+
+
+## 2026-11-26 六轮：发现、实际应用、验证边界
+- 发现：同页SimilarSpecies会让N.rudolfi与N.sum baensis幼态误配。应用：按标题重读p493后在生成前排除，未出图未计数。验证：只证明本次排除了错配；后续读图鉴须记录标题/页码/段落，不证明生物学增长模型。
+- 发现：成年趾基覆羽(#47)与成年裸趾(#131usta)被模型混用。应用：分别写明确羽毛终点，实际局部编辑并查看双足/趾crop。验证：本次视觉边界改善，精确节段与地域仍未知，不作为全鸮通则。
+- 发现：#238/#131首稿仍把成年硬长翼迁入软羽幼鸟。应用：单独限制幼翼表面并保留非零羽纹，编辑后实际整图/crop复查。验证：只对两张成图成立。反向检查#72/#70/#71：其有依据的较晚幼鸟成形翼尾保留，不统一截短。
+- 发现：研究文件的sciencefalse/年龄来源边界未显示在#72/#70/#71旧图中。应用：仅新增具体科学pending、年龄/飞行/时钟说明后实际查看。验证：导出披露有效，不代表形态通过。#71来源日数从离巢计算，不从孵化计算。
+证据、逐轮prompt/原图/实际检查/计时/真实提交：[本次六轮](batches/20261126T0130Z-six-cycle-review.md)。

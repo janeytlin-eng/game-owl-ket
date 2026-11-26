@@ -4,7 +4,7 @@
   "owner": "20261126T0833Z",
   "run_id": "20261126T0845Z-cycle2-resume0833Z",
   "started_at": "2026-11-26T08:47:36.251Z",
-  "stage": "IMAGE_GENERATED",
+  "stage": "REVIEWED",
   "stages": [
     {
       "stage": "STARTED",
@@ -19,6 +19,11 @@
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-26T08:49:28.629Z",
       "blob": "bd734c41eb7bd9b7b5b896c100da9dfb2d6425d9"
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-26T08:49:44.240Z",
+      "evidence": "#16 v7 full generated image and footer crop actually inspected. Age-unknown fledgling, scientific-calibration-pending and exact-age/feather-map/soft-part/ratio limits legible. Adult brown irises, white-spotted brown plumage/no tufts, near-equal display retained; feet all contact continuous branch. Young pink cere/blue-green bill, down tips and folded formed wing retained; no neonatal or unsupported flight pose introduced. CDFW forest/stage context and Forsman text/caption support later dependent stage, not exact age or all geometry. Forsman really has ten-days-postfledge reference (Fig8), so old numerical age wasn't an invented literature stage; it was an uncalibrated mapping to this generated bird. Bill shade conflict/feather map/sex scale remain unknown. PASS_WITH_LIMITATIONS for annotation revision only, scientifically_verified=false. Experience: keep valid stage reference in research while making image's evidential status explicit; don't erase legitimate juvenile flight feathers. This applies to 6 annotation revisions in this invocation, not all species."
     }
   ],
   "scientifically_verified": false,

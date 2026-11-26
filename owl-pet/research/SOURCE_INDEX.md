@@ -7464,3 +7464,7 @@ New0/reused2 directly read: BROW-MIKKOLA-2013-P326-327 actualprinted326/PDF328 a
 
 ## 2026-11-26 #131v7 usta regional supplement
 New2 WAT-ITIS-686874 and WAT-MENQ-2018-USTA actualbodies; reused2 WAT-DANTAS-2021 primaryfullPDF actualprinted428/PDF28 and sameMikkola2013book locator236–237/PDF238–239. 2013SouzaGuilherme source page22vs24 unresolved/URLs inaccessible, exact2d/4week andnest notused. Currentusta subspecies—not newunique species. Metadata/URLs/limits/completeprompt [v7](species/131-megascops-watsonii-v7.md); sciencefalse.
+
+
+## 2026-11-26 #72v7 age/status disclosure
+New1 BOO-ITIS-687127 taxonomy actualbody, reused2publications ABSA(Hardy earlier2017locator www.absa.asn.au/wp-content/uploads/2017/04/Southern-Boobook.pdf actual1p) and WHSO-MIKKOLA-2013 actualprinted462/PDF464 candidateonly. HANZAB1999 correctedURLmetadata reopening notnewbodyevidence. Independent newbiology0; one mirror locator. Sourcefacts/limits, rejectedrudolfiadjacency/luridarank, prompt [v7](species/72-ninox-boobook-v7.md). Annotationonly, formedjuvenilewings preserved, sciencefalse.

@@ -7613,3 +7613,7 @@ ReusePRO-BIRDSCARIB-2021 actualspeciesbody1479–1486/caption1499/videodescripti
 
 ### 2026-11-26 23-psiloscops-flammeolus-v7 audit
 ReuseFLOW-RICHMOND-DEWEESE-PILLMORE-1980-P35-46 freshlydirectGET/readprinted37/PDF3,40/PDF6,44/PDF10 (corrects old44/PDF9 locator; webreaderfailed), unlinedwoodbits vs actualv6regularrim. ReuseFLOW-ORI-2026 actualAnatomy/Habitat/Nesting body, MIKKOLA2013 freshprinted202/PDF204. New0/reuse3/locatorcorrection1; v7cavityfloorsupportrevision+sciencepending, exactyoungage/eyeopening/geometryunknown. No futurewingrulevalidated. [Full facts/prompt](species/23-psiloscops-flammeolus-v7.md).
+
+
+### 2026-11-26 24-glaucidium-californicum-v6 audit
+ReuseMIKKOLA2013 freshlyprinted372/PDF374: adultabout6incompletebarshardlycentralshaft vs actualv5continuouspalecrossbands. ReuseNPO-SCCP-FACTSHEET directPDFp1actualread afterwebfail, swarthiregionnotdayatlas. NEW NPO-ORI-BROAD-2026 originalFacts/Size/Range/Nesting https://www.owlresearchinstitute.org/northern-pygmy-owl , undatedORI/access2026-11-26: broadgnoma/California/Mountain scope, genericyoungspots/darkbill notchosenplainmesoptileproof; keepconflict. New1/reuse2/tailpatternapplication1, unknownexactage/feathermap/colour/ratio. Alloldversionspreserved/sciencefalse. [Full facts/prompt](species/24-glaucidium-californicum-v6.md).

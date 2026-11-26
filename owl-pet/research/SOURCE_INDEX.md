@@ -7488,3 +7488,7 @@ Reused canonical publication, no duplicate source. Original DOI in MAG entry was
 
 ### 2026-11-26 #150 v6 adult crown review
 Reused MIKKOLA-2013 printed497/PDF499 actualuploadedtext and NIBO-OISEAUX-MOUNT-BONGMUT-2014 originalmetadata/photopixels: crown comparativelyplain, preserve wing/ventralbars. NIBO-ITIS-555490 priorcrosswalkonly. Youngunknownandunchanged, sexnotphoto-proven; flashexposuredoesnotcalibrateRGB. New0/reuse3; [fullprompt/boundaries](species/150-ninox-variegata-v6.md). Actualedit/recheckpending; not anewsourceorjuvenilevalidation.
+
+
+### NBBOO-BIRDFORUM-2022 — New Britain Boobook identification
+BirdForum Opus contributors, modified2022-02-24; https://www.birdforum.net/opus/New_Britain_Boobook ; accessed2026-11-26, originalIdentification/Distribution/Habitat read. Secondarycommunitystub, N.odiosa adultdiagnosis; broadbrownupperbreastbandbuff/whitebarring, goldeneyes/whitebrows, NewBritainlowlands/hills. Moderateconfidence; notprimary/development/sexratio, no youngplumagefacts. Supports localized#149v6adultbandedit with MIKKOLA-2013 printed487/PDF489actualtext+NikBorrowphoto. [Research/fullprompt](species/149-ninox-odiosa-v6.md). PrimaryBHL403andadjacentN.grantiLatinsearchleadexcluded; new1/reusedguide1, notscientificpass.

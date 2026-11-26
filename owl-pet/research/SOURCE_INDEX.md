@@ -7762,3 +7762,7 @@ Correction 20261126T1427Z: preceding52v7 tail-revision entry is a REJECTED dupli
 
 ### 2026-11-26 62-ketupa-sumatrana-v7
 New0/reused4 stable sources. WHSO-MIKKOLA-2013 p290 and BEOW-SGBIRDS-2026 freshly read; BEOW-LKC-SBR-2017-178 primary p178 reopened; BEOW-FOLEY-2013-P34-37 historical body reused with current direct-fetch timeout/503. Face colour correction only; one-pair sex observations not a universal key. Existing IDs reused; full facts/limits/prompt below. [facts/fullprompt](species/62-ketupa-sumatrana-v7.md).
+
+
+### 2026-11-26 67-pulsatrix-perspicillata-v7
+New1 SPO-PEREGRINE-ACCOUNT-2026, reused3 WHSO-MIKKOLA-2013/SPO-OWLPAGES-CURRENT/SPO-GOMES-ETAL-2011-P4-5. Fresh guidep310 and OwlPagesDescription65 distinguish plain adultcoverts from barredflight/tail and juvenilecoverts; institutionalFundbody freshlyread only broaderhabitat/plumagecontext. Primaryyoungaction reusehistoricalonly with locatorconflict flagged. No global adult-plain rule applied to young. [facts/fullprompt](species/67-pulsatrix-perspicillata-v7.md).

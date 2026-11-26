@@ -7735,3 +7735,7 @@ Correction 20261126T1427Z: preceding52v7 tail-revision entry is a REJECTED dupli
 
 ### 2026-11-26 55-bubo-lacteus-v7
 新0/复用3，上传图鉴及PeregrineFund正文新读；Brown1965网络400Timeout、直接读取结果在run补记；仅年龄归因注释修订，不计形态提升或科学通过。 [full facts and prompt](species/55-bubo-lacteus-v7.md).
+
+
+### 2026-11-26 57-bubo-nipalensis-v8
+新0/复用2；SBEO-SRINIVASAN实际影像访问范围升级1：过去截图占位无像素，本次直接PDF本地页107图114实际查看，支持所选幼鸟面盘不应有粗硬深环。不概括全年龄；v8保留已形成翼羽。 [full facts and prompt](species/57-bubo-nipalensis-v8.md).

@@ -4,14 +4,26 @@
   "cycle": 3,
   "target": "106-strix-albitarsis-v6",
   "started_at": "2026-11-26T22:41:39.695Z",
-  "stage": "STARTED",
+  "stage": "RESEARCH_READY",
   "stages": [
     {
       "stage": "STARTED",
       "at": "2026-11-26T22:41:39.695Z"
+    },
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-26T22:42:32.518Z"
     }
   ],
   "errors": [],
   "source_new": 0,
-  "source_reuse": 2
+  "source_reuse": 3,
+  "annotation_only": true,
+  "index_restored_existing": 1,
+  "source_ids": [
+    "WHSO-MIKKOLA-2013",
+    "RBO-GREENEY-2003-P67-68",
+    "RBO-PERUAVES-ACCOUNT"
+  ],
+  "full_prompt": "Use case: text-localization #106 Strix albitarsis v5, annotation ONLY. ALL BIRDS, currentdarkadultirides/greybills, plumage/feathering/feet/palehornadultclaws/scale/poses/youngyellowcreamdown/compactfoldedwing/concealedtail/twofoot+bellysupport, attachedlivingtreefernleafbases/Chusqueaforest/style UNCHANGED. Keep exacttitle106 RUFOUS-BANDED OWL Strix albitarsis and ADULT MALE/ADULT FEMALE labels. Replace center label with two lines 'AGE-UNKNOWN ROOSTING YOUNG' and 'DOCUMENTED DAY-ROOST CONTEXT'. Add small cream serif bottomfooter 'CONCEPT — SCIENTIFIC REVIEW PENDING; ADULT EYE / BILL CONFLICT · FIRST FLIGHT UNVERIFIED'. This livingtreefernbaseisdayroost NOTnest, so noaddedlining/eggs/nestbowl. Do not resolve conflictingeye/billtexts by repainting. No newanatomy/flight/sexratio, boxes/borders/extraobjects. Only requestedlabels."
 }

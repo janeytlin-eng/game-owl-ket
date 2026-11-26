@@ -7993,3 +7993,16 @@ New0/reused2 SWFO-ADW-2014 originalinstitutionalbody PhysicalDescription/Habitat
 ## 2026-11-27 run2225 102-strix-nigrolineata-v6 source reuse
 New0/reuse2: BWO-MIKKOLA-2013-P339 actualuploadedprinted339/PDF341 adultyellowhornclaws notyoungdata; BWO-GERHARDT-GERHARDT-1997-USFS originalMethods/Resultspp191–192 actualread oneTikalpairnotpopulationheightformula. No new1994nestpaperread; oldregionalnestboundaryretained. Adultpaletteonly.
 [Research](species/102-strix-nigrolineata-v6.md) / [review](reviews/102-strix-nigrolineata-v6-review.md).
+
+
+## 2026-11-27 run2225 106-strix-albitarsis-v6 source reuse
+Newpublications0/reused3: WHSO-MIKKOLA-2013 actualp338/PDF340; RBO-GREENEY-2003-P67-68 originalp67–68 actualread, treefernDAYROOSTnotnest; RBO-PERUAVES-ACCOUNT oldcitedsource nowgivenstableID (oneindexentryrestorationnotnewdiscovery). Adultiris/billconflictretained.
+### RBO-PERUAVES-ACCOUNT — restored central index for previously cited source
+- Title: Rufous-banded Owl (Ciccaba albitarsis); author/institution: Peru Aves contributorwebsite, individualauthornotstated; publicationdateundated (copyright2026 isnotpublicationdate).
+- URL: https://www.peruaves.org/strigidae/rufous-banded-owl-ciccaba-albitarsis/ ; accessed2026-11-27+08; type: secondaryregionalaccount/captionmetadata.
+- Scope: currentStrixalbitarsis/oldCiccaba; adultIdentification&Behavior andageunknownColombianjuvenilecaption; HTMLsectionsL2088–2110.
+- Factsummary: adultirisdescribeddark/billgreyish, rufousface/Andeanmontaneforest; captionsdistinguishadults/youngbutsexunknown. Noactualnewphotopixelclaim, noageorflightseries.
+- Limits/conflicts: notprimarymorphometricstudy; Mikkola2013p338adultorangeiris/yellowhornbill conflicts; taxonomyopacamentionnotadoptedfromthispage. Confidence moderateforreportedregionaldescription, insufficienttosettlecolourconflict.
+- Decision: retainv5currentcolourpendingactualresolvedevidence, annotatecolourconflict/dayroost. [v6research](species/106-strix-albitarsis-v6.md), [v6image](../design/concepts/106-strix-albitarsis-v6.png), [review](reviews/106-strix-albitarsis-v6-review.md). OldsourcecitedbeforethisformalID, notadditionalnewpublication.
+
+[Research](species/106-strix-albitarsis-v6.md) / [review](reviews/106-strix-albitarsis-v6-review.md).

@@ -14,14 +14,34 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T20:38:42.407Z",
       "prompt": "Precise local edit of #86 Otus elegans interpositus v7. Change ONLY fine underpart pattern on BOTH ADULTS left/center: retain natural dark vertical shaftstreaks, add subtle tiny thin irregular transverse grey-brown vermiculations branching from shafts, a delicate herringbone network on grey-buff chest/belly. Marks broken/unequal/lowcontrast, not thick bands/grid; preserve valid shafts. RIGHTyoung ENTIRELY unchanged, no invented juvenile pattern/age. Keep adultheads/tufts/yelloweyes/darkbills/wings/tails/greyBAREtoes/blackhornclaws andallfeetbranchcontact, near-equalheight, creamgouachestyle/Casuarina/cane, every title/label/footer exactly. Nootherchange."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T20:39:53.004Z",
+      "attempt": 1,
+      "meta": {
+        "bytes": 2718272,
+        "sha256": "22e90abef9cbc71ab02c974beec2dc281557419bc1f5bf5ec3ca606fd399e6a0",
+        "b64len": 3624364,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "1b48ffdff4593893aaddfd30724e22d6967911be"
+      },
+      "imagegen_wait_seconds": 39.824,
+      "review": "Finecrossmarksovershot into darkrepeatedmesh; correctiveeditneeded"
     }
   ],
   "target": "86-otus-elegans-v8",
-  "errors": [],
+  "errors": [
+    "Adult crossmark addition too bold/repetitive in first output"
+  ],
   "source_new": 0,
   "source_reuse": 2,
   "source_ids": [
     "ELE-BIRD-RESEARCH-NEWS-2011-P1-2",
     "WHSO-MIKKOLA-2013"
-  ]
+  ],
+  "first_imagegen_wait_seconds": 39.824
 }

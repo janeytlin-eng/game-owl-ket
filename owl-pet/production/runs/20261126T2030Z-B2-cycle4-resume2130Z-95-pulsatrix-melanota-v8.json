@@ -4,7 +4,7 @@
   "owner": "owl-production-20261126T2130Z",
   "run_id": "20261126T2130Z",
   "started_at": "2026-11-26T21:31:46.741Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -37,6 +37,10 @@
       "at": "2026-11-26T21:35:37.595Z",
       "attempt": 2,
       "prompt": "Graphic-only style correction on this95familyplate. REMOVE all gold decorative rules/lines at header/footer and all three black/gold outlined label boxes. Render existing words in plain white serif text directly over the forest, same style as main BAND-BELLIED OWL heading; change goldnumber95 towhite. Keep title/subtitle/rolewords/footer exactlythe same, ALL bird/feather/down/anatomy/feet/branch/background content UNCHANGED, especially the newly natural directional cinnamon youngdown and creamcrown/blackface/darkeyes/shortwing. Do NOT repaint any bird or add ornamentalobjects. Only typography borders/colour correction, no scene redesign."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T21:37:18.842Z"
     }
   ],
   "target": "95-pulsatrix-melanota-v8",
@@ -51,5 +55,17 @@
     "MEL-RIVAS-FUENZALIDA-BURGOS-2022-84-88",
     "WHSO-MIKKOLA-2013"
   ],
-  "first_imagegen_wait_seconds": 30.015
+  "first_imagegen_wait_seconds": 30.015,
+  "meta": {
+    "bytes": 2657861,
+    "sha256": "abfb3902b027899cf7649985f313f0c5809fd1637dd0fd33e69987436c053bb6",
+    "b64len": 3543816,
+    "size": [
+      1536,
+      1024
+    ],
+    "gitblob": "4d366753f33ab7e42ede870984453b1b1cd06971"
+  },
+  "second_imagegen_wait_seconds": 37.441,
+  "review": "Actualv7record/adultstylecrop/uploadedguidep314wholephoto+upperbodycrop, newfirstdraft/finalfull/nativeyoungcrop viewed. Finalcinnamondown has directionalsofterfineflecks/irregularclumps and markedlylessrepeatedclosedringlets thanv7; creamcrown/darkmask/darkiris/yellowbill/tinychestfeathers/compactdevelopingfoldedwing/concealedtail/twofoot+bellyforksupport retained. Somefinefilamentstylization remainsnotliteralatlas. Primaryoldergroundyoungphase notnatalhatchlingandnotexactguideolderformedwingtail transfer. Adultsdarkeyes/whiteface/paleyellowbill/broadchestband/rustybellybars/featheredlegs/baretoes/nearequalheightcorrectinnewcomposition. Firstgoldboxes/rulesremovedinsecondcall; plainwhitelegibletitle95/roles/footer nowconsistent. PASS_WITH_LIMITATIONS/sciencefalse/no newconfirmation. Freshadult-onlystyling+photodownreferencehelpedinthisimageonly; graphicsre-edit didnotobviouslyrestorev7loops. No newFig3pixelsclaim/flight/sexratio."
 }

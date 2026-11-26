@@ -4,7 +4,7 @@
   "owner": "20261126T1427Z",
   "run_id": "20261126T1345Z-cycle5-resume1427Z",
   "started_at": "2026-11-26T14:31:49.374Z",
-  "stage": "IMAGE_GENERATED",
+  "stage": "REVIEWED",
   "stages": [
     {
       "stage": "STARTED",
@@ -24,6 +24,11 @@
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-26T14:35:03.153Z",
       "blob": "401da124706978b7fceffc7d27494133e7a3111c"
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-26T14:35:09.087Z",
+      "evidence": "实际查看v6、第一稿和第二稿整图。成年冠部由散点/纵向羽轴改细横向白斑；首稿规则网格感过强，保存attempt1并定向编辑后白斑明显断续/对比减弱，仍有规则行列感，精确斑纹密度/几何列后续科学校准，不能称完全自然复原。幼鸟白绒无成熟翼尾、侧靠啄壁姿势、洞底腹足支撑、成年羽趾/爪与全部原标签和不确定页脚保留。概念PASS_WITH_LIMITATIONS/sciencefalse；本轮改进横纹方向，但未解决所有纹理校准。原文p173日龄为他种比较推测，不因图标签变成已测年龄。经验：规则完整横带提示易生成网格，第二次编辑在本图减少但没有证明通用预防有效；#49冠斑为点斑不能套此横纹规则。新0复用2。"
     }
   ],
   "errors": [
@@ -41,5 +46,6 @@
   },
   "generation_wait_seconds": 40.48,
   "edit_prompt": "Correct only the adult crown pattern in this generated #51 card. Current crown stripes look like a regular geometric grid/net. Reduce white contrast and density by about half, break every stripe into irregular tiny feather-tip dashes, vary spacing and stagger segments; no vertical grid crosslines, no complete parallel rings around head. Mostly natural sepia feathers with subtle fine whitish transverse markings. Keep all other anatomy, chick, labels/footer, habitat and original style unchanged.",
-  "edit_wait_seconds": 39.096
+  "edit_wait_seconds": 39.096,
+  "review": "实际查看v6、第一稿和第二稿整图。成年冠部由散点/纵向羽轴改细横向白斑；首稿规则网格感过强，保存attempt1并定向编辑后白斑明显断续/对比减弱，仍有规则行列感，精确斑纹密度/几何列后续科学校准，不能称完全自然复原。幼鸟白绒无成熟翼尾、侧靠啄壁姿势、洞底腹足支撑、成年羽趾/爪与全部原标签和不确定页脚保留。概念PASS_WITH_LIMITATIONS/sciencefalse；本轮改进横纹方向，但未解决所有纹理校准。原文p173日龄为他种比较推测，不因图标签变成已测年龄。经验：规则完整横带提示易生成网格，第二次编辑在本图减少但没有证明通用预防有效；#49冠斑为点斑不能套此横纹规则。新0复用2。"
 }

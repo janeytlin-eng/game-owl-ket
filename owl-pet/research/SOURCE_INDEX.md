@@ -7808,3 +7808,7 @@ Title 翼を折ったコノハズク; institution Institute for Raptor Biomedici
 
 ## 2026-11-27 #80v7
 Reused2 WBSJ BIRDFAN/current mapping and Kyoto body/historical photo record; new IRBJ-603 clinical case read (not normal growth series). Annotation-only [facts/prompt](species/80-otus-sunia-v7.md), sciencefalse.
+
+
+## 2026-11-27 #81v7
+New0/reused3 WHSO-MIKKOLA-2013 p122/PDF124; SCOPS-OWLPAGES-2020-510 body; SCOPS-GRIECO-2025 publisher abstract actually read, not full article. Label/flight boundary only. [Facts/prompt](species/81-otus-scops-v7.md). Sciencefalse.

@@ -1,0 +1,2 @@
+# 55-bubo-lacteus-v7
+实际查看原v6与v7整图，中心改AGEUNMEASURED并可读Brown1965c6weekstudyreference/age-flightunverified页脚。三鸟所有成年奶油角色喙、蓝灰蜡膜、粉上眼睑、幼鸟蓝灰喙/灰色细斑横纹/白腿/短折翼及巢底足腹支撑视觉保留。仅年龄归因标识修订，不记形态/科学提升。形态精细比例与实际羽龄/飞行仍未知。图鉴286/PDF288与PeregrineFund正文freshread，Brown原pdf网络Timeout，直接下载扫描未读到目标段，历史复用不得冒充新读。PASS_WITH_LIMITATIONS/sciencefalse。经验来源年龄与概念个体年龄分开，已在本图实际文字检查；不重复申请用户确认。

@@ -7988,3 +7988,8 @@ New0/reuse2 freshdocuments WHSO-MIKKOLA-2013 actualuploadedp509/PDF511 text+twoa
 ## 2026-11-27 run2225 105-ptilopsis-granti-v9 source reuse
 New0/reused2 SWFO-ADW-2014 originalinstitutionalbody PhysicalDescription/Habitat/Reproduction actualread; WHSO-MIKKOLA-2013 uploadedprinted256/PDF258 actualread. Fineadultventralvermiculations qualifier vs shaft-dominantv8; sourceuniterror/juveniletimingexcluded, no youngpaint. Prompt applies prior86overshoot lesson but no effectivenessclaim untilview.
 [Research](species/105-ptilopsis-granti-v9.md) / [review](reviews/105-ptilopsis-granti-v9-review.md).
+
+
+## 2026-11-27 run2225 102-strix-nigrolineata-v6 source reuse
+New0/reuse2: BWO-MIKKOLA-2013-P339 actualuploadedprinted339/PDF341 adultyellowhornclaws notyoungdata; BWO-GERHARDT-GERHARDT-1997-USFS originalMethods/Resultspp191–192 actualread oneTikalpairnotpopulationheightformula. No new1994nestpaperread; oldregionalnestboundaryretained. Adultpaletteonly.
+[Research](species/102-strix-nigrolineata-v6.md) / [review](reviews/102-strix-nigrolineata-v6-review.md).

@@ -4,15 +4,29 @@
   "owner": "owl-production-20261126T1926Z",
   "run_id": "20261126T1926Z",
   "started_at": "2026-11-26T19:34:53.322Z",
-  "stage": "STARTED",
+  "stage": "RESEARCH_READY",
   "stages": [
     {
       "stage": "STARTED",
       "at": "2026-11-26T19:34:53.322Z"
+    },
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-26T19:35:43.987Z",
+      "prompt": "Use case: precise-object-edit. Edit attached #86 Otus elegans v6 to v7. Change ONLY both ADULTS' bare toes and claws (left male and center female): adult toe skin should be neutral medium grey with subtle natural scale shading, not pale peach/pink; claws blackish horn/dark charcoal, not light grey. Maintain feathered tarsi ending at the toe bases, toes themselves BARE (do not copy #85 feathered toe correction), exact toe count/grip points and Casuarina branch support. Leave RIGHT young entirely unchanged because age-specific soft-part colour not established. Preserve near-equal adult height, all feather patterns/yellow irises/dark bills/ear tufts, cream-paper gouache texture, sugarcane shelterbelt context and every label/footer. Exactly three owls; no new nest or objects."
     }
   ],
   "target": "86-otus-elegans-v7",
-  "errors": [],
-  "source_new": 0,
-  "source_reuse": 2
+  "errors": [
+    "MOE reread503; newpaper furtherfinds timeout; no unseen fullpaper claims"
+  ],
+  "source_new": 1,
+  "source_reuse": 2,
+  "source_corrections": 1,
+  "source_ids": [
+    "ELE-BIRD-RESEARCH-NEWS-2011-P1-2",
+    "WHSO-MIKKOLA-2013",
+    "ELE-HANZAWA-ETAL-2026-PLUMAGE"
+  ],
+  "research_ready_at": "2026-11-26T19:35:43.987Z"
 }

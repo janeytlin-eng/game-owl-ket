@@ -7685,3 +7685,7 @@ New1YPOW-PERUAVES-2026 regional adultmetadataonly; reused2primary+guide. #36v7 l
 
 ### 2026-11-26 41-glaucidium-cobanense-v7 actual audit
 新增0/复用2。本轮外部检索与B SG原页面重读尝试（web跳转/不可访问）如实区分既往证据；上传同一本图鉴p380/PDF382实际读取，成年跗蹠羽被局部修正。新物种缺口另保留博物馆组织样本/成年类型不能作幼鸟来源的证据，不计出图。 [Facts, boundaries and full prompt](species/41-glaucidium-cobanense-v7.md).
+
+
+### 2026-11-26 42-athene-brama-v7
+New1SPOT-LUMS-2026 institutionaladultbody; reuse2guide/primary. CurrentPMCcaptcha/Commons429/Birdforum403 are unverifiedleads, no sourcepixels falselyclaimed. Stage-specific juvenile revision supported by freshly read printed436; exactage/iris/flightunknown. [facts/full prompt](species/42-athene-brama-v7.md).

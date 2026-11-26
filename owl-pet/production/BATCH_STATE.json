@@ -56361,17 +56361,20 @@
           "archive_commit": "bbe9eb8c0c08705773a2ddaa802cf3c26703602a",
           "run_record": "owl-pet/production/runs/20261126T2225Z-B2-cycle2-resume2225Z-102-strix-nigrolineata-v6.json",
           "verified_at": "2026-11-26T22:41:28.599Z"
+        },
+        {
+          "cycle": 3,
+          "species": "106-strix-albitarsis-v6",
+          "commit_sha": "6df4b159f54501a446e54cec8c325fb7d787c35f",
+          "archive_commit": "c24a629cef8b2fbc7bab2847e7f25b18dd2f170e",
+          "run_record": "owl-pet/production/runs/20261126T2225Z-B2-cycle3-resume2225Z-106-strix-albitarsis-v6.json",
+          "verified_at": "2026-11-26T22:44:36.949Z"
         }
       ],
-      "next_cycle": 3
+      "next_cycle": 4
     }
   ],
-  "lease": {
-    "owner": "owl-production-20261126T2225Z",
-    "run_id": "20261126T2225Z",
-    "heartbeat_at": "2026-11-26T22:44:36.973Z",
-    "expires_at": "2026-11-26T22:59:36.973Z"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -56505,7 +56508,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-26T22:41:28.599Z",
+  "updated_at": "2026-11-26T22:44:36.949Z",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -56536,12 +56539,7 @@
       "verification_commit": "7ce90fc5a92951b9ff9295bff361e1623c6f9a0a"
     }
   ],
-  "active_lease": {
-    "owner": "owl-production-20261126T2225Z",
-    "run_id": "20261126T2225Z",
-    "heartbeat_at": "2026-11-26T22:44:36.973Z",
-    "expires_at": "2026-11-26T22:59:36.973Z"
-  },
+  "active_lease": null,
   "last_updated_at": "2026-11-26T16:50:40.753Z",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",

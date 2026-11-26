@@ -7845,3 +7845,7 @@ New0/reused3 ELE-MOE-JAPAN-2026-REREAD body24–30; ELE-SAWADA-IWASAKI-ETAL-2021
 
 ## 2026-11-27 #87v8
 New0/reused3 ASC-ALSHEIKHLY-2012-SANDGROUSE p72/PDF1actualbody/caption (estimatedmarketcase), ASC-ALSHEIKHLY-MIKKOLA-MOUSAVI-2020 actual219–220/223 (2014juvenileID explicitly inconclusive, notcalibrationproof), ASC-MIK2013-272/WHSO-MIKKOLA-2013 p272/PDF274. Scopeclarification1, annotationonly. [Facts/prompt](species/87-bubo-ascalaphus-v8.md).
+
+
+## 2026-11-27 #88v7
+New0/reused4 WHSO-MIKKOLA-2013 p276/PDF278, CAP-BDI-TIPPETT2024 Identification49–54, CAP-OGADA-KIBUTHU2012 actual327–328Methods, CAP-PEREGRINE-2026 NestsEggsYoung54–57. Adulttoedorsa feathered/padsbare, noyoungtransfer; operational70dayfledgedcriterion != secondaryfirstflight2months endpoint, no picturedageassignment. Scopeclarification1. [Facts/prompt](species/88-bubo-capensis-v7.md).

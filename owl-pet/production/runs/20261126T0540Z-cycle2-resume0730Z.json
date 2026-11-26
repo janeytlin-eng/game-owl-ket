@@ -4,7 +4,7 @@
   "owner": "20261126T0730Z",
   "run_id": "20261126T0540Z-cycle2-resume0730Z",
   "started_at": "2026-11-26T07:30:07.727Z",
-  "stage": "ARCHIVE_REPAIR",
+  "stage": "VERIFIED_AFTER_REPAIR",
   "stages": [
     {
       "stage": "STARTED",
@@ -39,6 +39,12 @@
       "stage": "VERIFICATION_FAILED",
       "at": "2026-11-26T07:34:22.144Z",
       "error": "PIL.UnidentifiedImageError for immutable remote body; previous credit premature, removed."
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-26T07:35:35.729Z",
+      "evidence": "AFTER_REPAIR ONLY: independent immutable original AND concept GET, exact2509239bytes/SHA25645fb3c.../fullPNGdecode1536x1024 both passed.",
+      "archive_commit": "b29cc35f2997e5bb9024cda4a958fdeac1c20de8"
     }
   ],
   "scientifically_verified": false,
@@ -55,7 +61,7 @@
   },
   "review_result": "PASS_WITH_LIMITATIONS",
   "archive_commit": "b6fd4aec93fe43d542a487a60ac0dbf469897886",
-  "ended_at": "2026-11-26T07:33:30.307Z",
+  "ended_at": "2026-11-26T07:35:35.729Z",
   "repair_blob": "04f73e3e8b59cc7af36c5f77d9693804b7d2dc5a",
-  "repair_note": "Transfer helper had malformed Python slice syntax. Nonzero subprocess output was not checked before base64 blob upload;891-byte invalid transfer preserved. Fixed bounded-chunk script with strict exitcode checks, expected Gitblob04f73e3e8b59cc7af36c5f77d9693804b7d2dc5a. Prior VERIFIED stage invalidated; actual fresh decode pending in current operation, credit still absent."
+  "repair_note": "Transfer helper had malformed Python slice syntax. Nonzero subprocess output was not checked before base64 blob upload;891-byte invalid transfer preserved. Fixed bounded-chunk script with strict exitcode checks, expected Gitblob04f73e3e8b59cc7af36c5f77d9693804b7d2dc5a. Prior VERIFIED stage invalidated; actual fresh decode pending in current operation, credit still absent. Fresh independent two-path download/decode now passed; this later verification supersedes invalid prior stage without erasing history."
 }

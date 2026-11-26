@@ -7621,3 +7621,7 @@ ReuseMIKKOLA2013 freshlyprinted372/PDF374: adultabout6incompletebarshardlycentra
 
 ### 2026-11-26 25-glaucidium-brasilianum-cactorum-v6 audit
 ReuseCFPO-USFS-GTR43-2000-P7 originalDescriptionprinted7–8/PDF13–14 freshread, positiveyoungteardroptips/formedwing retained, picture28–31ageunverified. ReuseMIKKOLA2013freshprinted376–377/PDF378–379 oldridgwayicactorum Arizona/westMexicoscope vsSouthAmericanbrasilianum392; nevertransfer#24white-tailbars. New0/reuse2, historicalAGFDcaptiononlynotnewageproof. Existing#25remotev1–5present; isolatedfd9d70d localgitshowfailednotworktree, notcounted/notreconstructed. v6annotationonly/sciencefalse. [Full facts/prompt](species/25-glaucidium-brasilianum-cactorum-v6.md).
+
+
+### 2026-11-26 26-glaucidium-siju-v7 audit
+New0/reused2 fresh original-body/guide text. #26 v7 bounded annotation: tentative juvenile iris remains explicitly unverified; primary colour/wing-chord data not deterministic sex key or standing-height rule. Earlier wrong Taenioglaux attribution already withdrawn; current page says Glaucidium. [Full facts/prompt](species/26-glaucidium-siju-v7.md).

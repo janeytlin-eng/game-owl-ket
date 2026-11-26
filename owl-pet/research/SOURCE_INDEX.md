@@ -7816,3 +7816,7 @@ New0/reused3 WHSO-MIKKOLA-2013 p122/PDF124; SCOPS-OWLPAGES-2020-510 body; SCOPS-
 
 ## 2026-11-27 #82v7
 New0/reused3 (book fresh130/PDF132, SEN-OWLPAGES-2020 freshbody, SEN-RIEKERT-1986-P425-428 historicalreadonly). FreshprimaryPDF textempty/screenshotplaceholder/local403; 1987publisher403, no newfullread. Study chronology separated from exactgeneratedindividualage by annotation. [Facts/limits/prompt](species/82-otus-senegalensis-v7.md). Sciencefalse.
+
+
+## 2026-11-27 #84v10
+New0/reused2 BAK-MIK2013-150/WHSO-MIKKOLA-2013 freshp150/PDF152; BAK-BRRAICH-SINGH2021 freshoriginalp55–56/PDF1–2 actualbody. Adult crown dark-region correction, no youngage inference or oldbroadtaxonomy transfer. [Facts/limits/prompt](species/84-otus-bakkamoena-v10.md). Sciencefalse.

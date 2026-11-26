@@ -4,7 +4,7 @@
   "batch_id": "20261126T1045Z",
   "cycle": 3,
   "started_at": "2026-11-26T11:26:32.349Z",
-  "stage": "REVIEWED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "STARTED",
@@ -25,6 +25,16 @@
       "stage": "REVIEWED",
       "at": "2026-11-26T11:29:32.577Z",
       "evidence": "实际全图与足部裁切查看：左右成年爪近端灰角质色、远端深钩尖可辨，趾黄橄榄鳞面与枝条接触保持；局部色差很细，不是经过色卡验证的通用爪色标准。幼鸟伸翼、原有虹膜/体纹/两足支持未作生物学重判；成鸟肩白斑/黄色眼、喙与溪旁林缘旧洞保留。科学待校准字清楚。问题—证据—修改—复查：原爪几乎全深，guide413/OwlPagesDescription支持角质深尖；v7局部变浅，足crop证实基/尖区分。两来源共享参考体系，不算原始研究独立复证；幼鸟精确年龄、虹膜、地域与比例仍未知。无新增用户确认。"
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-26T11:29:48.333Z",
+      "commit_sha": "f3de0619896c2ad443149b9a8f67351ac8096d04"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-26T11:29:48.333Z",
+      "evidence": "originals VERIFIED 2756210\nconcepts VERIFIED 2756210\n; original local Gitblob matched/research review immutable readback"
     }
   ],
   "scientifically_verified": false,
@@ -40,5 +50,7 @@
       1024
     ],
     "b64len": 3674948
-  }
+  },
+  "ended_at": "2026-11-26T11:29:48.333Z",
+  "archive_commit": "f3de0619896c2ad443149b9a8f67351ac8096d04"
 }

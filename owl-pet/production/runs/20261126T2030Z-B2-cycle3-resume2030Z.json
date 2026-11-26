@@ -4,7 +4,7 @@
   "owner": "owl-production-20261126T2030Z",
   "run_id": "20261126T2030Z",
   "started_at": "2026-11-26T20:49:07.776Z",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "STARTED",
@@ -32,6 +32,15 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-26T20:51:53.046Z"
+    },
+    {
+      "stage": "VERIFICATION_EVIDENCE",
+      "at": "2026-11-26T20:52:13.264Z",
+      "evidence": "Both immutable originals/concepts full bytes SHA256/PILdecode passed; research/review readback passed"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-26T20:52:13.264Z"
     }
   ],
   "target": "96-aegolius-ridgwayi-v7",
@@ -56,5 +65,7 @@
     "gitblob": "e08a28a901ca04934fcefaa8f186019a6d861e45"
   },
   "imagegen_wait_seconds": 43.354,
-  "review": "Actualv6full/sourcefirstpartyjuvenile878x700/v7full/nativeheadcrop viewed. Centralcrownlongbrightwhiteshaftsremoved, nowdensefinewarmgrey-brownshorttexturelikephoto; whiteeyebrows/lores preservedratherthanblankface. Adultfinecrownshaftstreaksunchanged, yelloweyes/darkbills/near-equalscale/fleshtoessparsebristles retained. Lastv6youngfaintbuffbreastwisps notrestoredtobolddarkshafts, bodyfluffy/compactwing/concealedtail/bilateralbranchgrip maintained. AGEUNKNOWNDEPENDENTYOUNG/footerreadable, 96taxon/title/adultlabels/cloudforest/cavitystable. Contentcrown+annotationPASS_WITH_LIMITATIONS/sciencefalse/no newconfirmation. Photoheadonlynoexactage/sex/flight/wingfootdata, notspecimen-general/universaljuvenilepattern. Ruleactualappliedandlocalviewverified: specificyoungcrownreference maydifferfrom legitimateadultshaftstreaks; preservevalidadultpattern andpriorbreastfix. CAYAYAoldinaccessible, alternatefirstpartydocument/newpixelsreadnotclaimedtwoindependentphotos."
+  "review": "Actualv6full/sourcefirstpartyjuvenile878x700/v7full/nativeheadcrop viewed. Centralcrownlongbrightwhiteshaftsremoved, nowdensefinewarmgrey-brownshorttexturelikephoto; whiteeyebrows/lores preservedratherthanblankface. Adultfinecrownshaftstreaksunchanged, yelloweyes/darkbills/near-equalscale/fleshtoessparsebristles retained. Lastv6youngfaintbuffbreastwisps notrestoredtobolddarkshafts, bodyfluffy/compactwing/concealedtail/bilateralbranchgrip maintained. AGEUNKNOWNDEPENDENTYOUNG/footerreadable, 96taxon/title/adultlabels/cloudforest/cavitystable. Contentcrown+annotationPASS_WITH_LIMITATIONS/sciencefalse/no newconfirmation. Photoheadonlynoexactage/sex/flight/wingfootdata, notspecimen-general/universaljuvenilepattern. Ruleactualappliedandlocalviewverified: specificyoungcrownreference maydifferfrom legitimateadultshaftstreaks; preservevalidadultpattern andpriorbreastfix. CAYAYAoldinaccessible, alternatefirstpartydocument/newpixelsreadnotclaimedtwoindependentphotos.",
+  "archive_commit": "4a01c385bc7a9eb0cffe2d25c375aac8cbf8efe9",
+  "ended_at": "2026-11-26T20:52:13.264Z"
 }

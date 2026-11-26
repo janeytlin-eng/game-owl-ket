@@ -7940,3 +7940,7 @@ Primarytextp84–86actualread, Fig3photoattempt404/403/publisher503 notpixel-evi
 
 ## 2026-11-27 run2130 reuse 95-pulsatrix-melanota-v8
 Sources MEL-RIVAS-FUENZALIDA-BURGOS-2022-84-88, WHSO-MIKKOLA-2013; sourcefacts/pages/limits and fullprompt [research](species/95-pulsatrix-melanota-v8.md), actual[review](reviews/95-pulsatrix-melanota-v8-review.md). Reuse2 references, new0 documents; not extra source count for repeated citation.
+
+
+## 2026-11-27 run2130 reuse 86-otus-elegans-v9
+Sources ELE-BIRD-RESEARCH-NEWS-2011-P1-2, WHSO-MIKKOLA-2013; sourcefacts/pages/limits and fullprompt [research](species/86-otus-elegans-v9.md), actual[review](reviews/86-otus-elegans-v9-review.md). Reuse2 references, new0 documents; not extra source count for repeated citation.

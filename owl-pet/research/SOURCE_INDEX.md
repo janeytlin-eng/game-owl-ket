@@ -7561,3 +7561,7 @@ Reuse TAO-BOT-OWLET currentoriginalbodyTawny/agecategories read; TAO-MIKKOLA-201
 
 ### 2026-11-26 #08v7 evidence-status
 Reuse GGO-CRC-FACTS-2026 originalbodyread / WHSO-MIKKOLA-2013 historicalprinted353/PDF355; Cornell403 excluded. No new biological error established; preserve climbing/feet and annotate unknownage/sciencepending. New0/reuse2. [Fullprompt](species/08-strix-nebulosa-v7.md).
+
+
+### 2026-11-26 #08v7 resumed image stage
+Reuse GGO-CRC-FACTS-2026 original Identification/Habitat/Nesting reread this invocation; WHSO-MIKKOLA-2013 printed353/PDF355 priorread only. Existing research-ready prompt reused, not recreated. New0/reuse2; no new morphology or age claim. [Run](../production/runs/20261126T0540Z-cycle3-resume0833Z.json).

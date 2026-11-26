@@ -8029,3 +8029,11 @@ Sources RUT-MIKKOLA-2013-P143-144; RUT-VASSEN-2013-ANDASIBE-JUV. New 0, reused 2
 
 ## 2026-11-27 2334Z — 109-ptilopsis-leucotis-v10
 Sources NWFO-MORITA-MIKKOLA-2025-P91-94; NWFO-MIK2013-254; NWFO-OWLPAGES-2020. New 1, reused 2. New primary author-uploaded actualfulltext pp91–93 read, juvenileyellow/adultorange discussion p92; rare captiveadult darkening notwildstandard/agechronology. Fresh uploaded254/PDF256 actualtext+adultphoto and expertbody64–76. Young iris only corrected; no inferred exactage. [Facts, source scope, full prompt](species/109-ptilopsis-leucotis-v10.md); [actual review](reviews/109-ptilopsis-leucotis-v10-review.md).
+
+
+### BSO-CAYAYA-2026-FIELD-ACCOUNT
+Title Bearded Screech-Owl (Megascops barbarus) in Guatemala; Knut Eisermann & Claudia Avendaño / CAYAYA BIRDING; undated webpage (research since2009), accessed2026-11-27. Original https://cayaya-birding.com/species/Bearded-Screech-Owl.htm . Fieldresearcher first-person account and photo metadata/captions, actualbody26–34/46–55 read, not new pixels. Scope Guatemala M.barbarus adults and ageunknown juveniles, morphs. Facts: humid highland pine-oak; current/Scops/Otus name mapping; juvenile morphs named in captions; adult tuft length variable. No age-specific brow measurement or flight test. Confidence moderate/high locality/taxonomiccaption, morphology limited withoutpixelread; no exactsize inference. Linked[110v7](species/110-megascops-barbarus-v7.md), [review](reviews/110-megascops-barbarus-v7-review.md), [image](../design/concepts/110-megascops-barbarus-v7.png). Central index entry added; webpage publication date unknown, not claimed a newly published paper.
+
+
+## 2026-11-27 2334Z — 110-megascops-barbarus-v7
+Sources MIKKOLA-2013; BSO-OWLING-LOCKSHAW-2018; BSO-CAYAYA-2026-FIELD-ACCOUNT. New 1, reused 2. Fresh uploaded214/PDF216 Juvenile says narrow indistinct eyebrows/no visibletufts; actualOwlingfieldbody142–155 adultfeet/habitat, notyoungdata. CAYAYAresearcher26–34/46 actualbody adds datedaccess/name/morphscope, metadataonly. New centralindexwebpage1 (publicationdateunknown), no newpaperclaim. Youngbrowonly; adultpinktoefixpreserved. [Facts, source scope, full prompt](species/110-megascops-barbarus-v7.md); [actual review](reviews/110-megascops-barbarus-v7-review.md).

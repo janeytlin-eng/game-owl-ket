@@ -8014,3 +8014,18 @@ Sources WHSO-MIKKOLA-2013; FVO-OWLPAGES-2020-L64-75; S107-CAYAYA-2026. New 0, re
 
 ## 2026-11-27 2334Z — 108-otus-rutilus-v6
 Sources RUT-MIKKOLA-2013-P143-144; RUT-VASSEN-2013-ANDASIBE-JUV. New 0, reused 2. Guide actual143–144/PDF145–146 text reopened; Vassen photo metadata113–136 actualread(2013-12-04Andasibe) but freshoriginalpixel download403. Existing morphology historicalphoto-bounded; annotationonlyage/flightlimits, notnewimagecalibration. [Facts, source scope, full prompt](species/108-otus-rutilus-v6.md); [actual review](reviews/108-otus-rutilus-v6-review.md).
+
+
+### NWFO-MORITA-MIKKOLA-2025-P91-94
+- Title: Drastic eye colour change in three captive adult Northern White-faced Owls Ptilopsis leucotis.
+- Authors/year/institution: Ryoka Morita & Heimo Mikkola; November2025; Malimbus47(2):91–94; author-uploaded full text.
+- URL: https://www.researchgate.net/publication/397496791_Drastic_eye_colour_change_in_three_captive_adult_Northern_White-faced_Owl_Ptilopsis_leucotis_by_Ryoka_Morita_Heimo_Mikkola ; DOI not exposed/unknown.
+- Access2026-11-27; primary case report, actual full-text body pp91–93 read (not abstract-only). Caption/body timing internally ambiguous for Gucci; no age calculations used.
+- Scope: Ptilopsis leucotis, three captive adult eye-darkening cases, plus species juvenile/adult colour discussion.
+- Facts: discussion p92 distinguishes yellow juvenile from orange adult eyes. Cases do not establish normal wild dark eyes; cause unresolved, diet explanation weakened by paired comparison. No hatch-to-iris timetable.
+- Design: supports selecting yellow for age-unknown juvenile concept109v10 jointly with Mikkola2013p254; retain orange adults. Not population frequency, clinical explanation, transition age or generic dark-juvenile rule. Confidence high for reported cases; moderate for unquantified developmental synthesis.
+- Linked record: [109v10](species/109-ptilopsis-leucotis-v10.md), [image](../design/concepts/109-ptilopsis-leucotis-v10.png), [review](reviews/109-ptilopsis-leucotis-v10-review.md). New publication1; no third-party fulltext copied.
+
+
+## 2026-11-27 2334Z — 109-ptilopsis-leucotis-v10
+Sources NWFO-MORITA-MIKKOLA-2025-P91-94; NWFO-MIK2013-254; NWFO-OWLPAGES-2020. New 1, reused 2. New primary author-uploaded actualfulltext pp91–93 read, juvenileyellow/adultorange discussion p92; rare captiveadult darkening notwildstandard/agechronology. Fresh uploaded254/PDF256 actualtext+adultphoto and expertbody64–76. Young iris only corrected; no inferred exactage. [Facts, source scope, full prompt](species/109-ptilopsis-leucotis-v10.md); [actual review](reviews/109-ptilopsis-leucotis-v10-review.md).

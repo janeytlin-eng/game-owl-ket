@@ -7472,3 +7472,7 @@ New1 BOO-ITIS-687127 taxonomy actualbody, reused2publications ABSA(Hardy earlier
 
 ## 2026-11-26 #70v7 export status/age disclosure
 New0/reused5 publications: POWERFUL-MV-2026 actualbody, POWERFUL-ABSA-2019 actualp1, WHSO-MIKKOLA-2013 actualprinted450/PDF452, Cooke2020DOIinaccessible/priorv5only and MoWaterhouse2015priorv5only. Maleconsiderably versus marginallylarger sourceconflict not resolvedbyart. No newbiologicalclaim. [Metadata,accessfacts,limits,prompt](species/70-ninox-strenua-v7.md); sciencefalse.
+
+
+## 2026-11-26 #71v7 source clock/status disclosure
+New0/reused3 BARK-ABSA-2020 actualp1, WHSO-MIKKOLA-2013 actualprinted452/PDF454, BARK-BULLOCK-2026-P172-184 actualpublisherabstract only; fullPDFinaccessibleagain, priorv5fullreadingretainedexplicitly. Day30play is AFTERfledging, nothatch; wings/taillegitimatephasepreserved. [Metadata/URLs/actualreadscope/limits/prompt](species/71-ninox-connivens-v7.md). Annotationonly/sciencefalse.

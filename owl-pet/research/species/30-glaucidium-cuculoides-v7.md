@@ -13,7 +13,9 @@
       "access": "2026-11-26",
       "pages": "408/PDF410 actual text",
       "facts": "Mesoptile finer pale buff head/nape spots, rufous overall, weak/plain mantle, barred wings/tail. Adult yellow iris/green bill/feathered tarsi. Female mass not fixed artwork ratio.",
-      "limits": "Fine spot size not measured; directional design refinement, no exact developmental age."
+      "limits": "Fine spot size not measured; directional design refinement, no exact developmental age.",
+      "type": "uploaded photographic-guide synthesis",
+      "stage_scope": "source-specific adult/young descriptions; exact limits above"
     },
     {
       "id": "ASBO-HKBWS-AVIFAUNA-2024",
@@ -24,7 +26,9 @@
       "access": "2026-11-26",
       "pages": "Identification/Breeding/Systematics",
       "facts": "Juvenile forehead/crown spotted; Hong Kong whiteleyi context/natural tree holes and family branches.",
-      "limits": "Not a date-age/iris-onset atlas; local Hong Kong not all subspecies. Historical Taenioglaux/Athene names map current G.cuculoides, scope251 unchanged."
+      "limits": "Not a date-age/iris-onset atlas; local Hong Kong not all subspecies. Historical Taenioglaux/Athene names map current G.cuculoides, scope251 unchanged.",
+      "type": "institutional regional avifauna, field records and synthesis",
+      "stage_scope": "adults and undated young stages"
     }
   ],
   "prompt": "Precise localized edit #30 Asian Barred Owlet v6. ONLY refine the CENTER juvenile CROWN AND FOREHEAD markings: existing large bright white blobs should become much finer small muted pale-BUFF flecks on rufous brown feathers. Keep distinct numerous juvenile head spots present; never turn its crown plain. Do not change already plainer brown mantle or legitimate barred folded wings/tail, juvenile yellow eyes/bill, size and both feet securely gripping diagonal branch. Both adults entirely unchanged, exact forest/banyan cavity and near-equal adult display unchanged. Title v7. Slim footer text only 'CONCEPT — SCIENTIFIC CALIBRATION PENDING'. Exactlythree birds, same1536x1024 warm natural-history painterly style.",

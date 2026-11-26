@@ -58,5 +58,20 @@
     "b64len": 3489420
   },
   "ended_at": "2026-11-26T11:37:45.681Z",
-  "archive_commit": "1f3dde86d44f9c1894cf155a05292dd419876044"
+  "archive_commit": "1f3dde86d44f9c1894cf155a05292dd419876044",
+  "timing_audit": {
+    "id": "32-glaucidium-castanotum-v7",
+    "started_at": "2026-11-26T11:35:25.997Z",
+    "research_ready_at": "2026-11-26T11:35:54.333Z",
+    "start_to_research_checkpoint_seconds": 28.336,
+    "generation_wait_seconds": 35.977,
+    "edit_wait_seconds": 0,
+    "reviewed_at": "2026-11-26T11:37:15.265Z",
+    "archive_published_at": "2026-11-26T11:37:20Z",
+    "review_to_archive_seconds": 4.735,
+    "verified_at": "2026-11-26T11:37:45.681Z",
+    "archive_to_verified_seconds": 25.681,
+    "limits": "Checkpoint intervals, not pure labour/API upload. Research may include earlier incremental reads; archive commit has second precision; prior ARCHIVED stage stamped at verification."
+  },
+  "full_prompt_location": "owl-pet/research/species/32-glaucidium-castanotum-v7.md"
 }

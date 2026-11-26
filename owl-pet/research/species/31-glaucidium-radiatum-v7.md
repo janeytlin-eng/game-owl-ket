@@ -13,7 +13,9 @@
       "pages": "403/PDF405 fresh text",
       "access": "2026-11-26",
       "facts": "Adult bluish cere vs greenish-yellow/grey bill. No sexual size data. Mesoptile less distinct lower barring not naked chick.",
-      "limits": "No exact juvenile age/iris/flight. OldTaenioglaux radiata/Strixradiata mapping retained."
+      "limits": "No exact juvenile age/iris/flight. OldTaenioglaux radiata/Strixradiata mapping retained.",
+      "type": "uploaded photographic-guide synthesis",
+      "stage_scope": "source-specific adult/young descriptions; exact limits above"
     },
     {
       "id": "JUOW-OWLPAGES-2110",
@@ -24,7 +26,9 @@
       "pages": "Description/Breeding",
       "access": "2026-11-26",
       "facts": "Bluish cere/green-yellow bill. Tree hollow/abandoned barbet/woodpecker holes and forest context.",
-      "limits": "Secondary shared references, not independent development primary."
+      "limits": "Secondary shared references, not independent development primary.",
+      "type": "specialist secondary species account",
+      "stage_scope": "adult diagnosis/habitat; no new young chronology"
     },
     {
       "id": "JUOW-MEHTA-2022-NESTCAVITY",
@@ -35,7 +39,9 @@
       "pages": "printed1155 title/1156 Abstract actually read on author-upload original text",
       "access": "2026-11-26",
       "facts": "Primary2013–17 EastKalibhit comparison includes11 Jungle Owlet nests; trees with cavities are central habitat resource. Supports retaining cavity/forest context, no new lining or dimensions derived.",
-      "limits": "Read selected original sections only; not claimed whole178page volume read. No juvenile age/cere colour evidence; no adjacent Forest Owlet data transferred. Volume issue header conflict1vs4 retained, pages1155–1171. Search IndianBIRDS2025 Ketupa juvenile excluded as different species."
+      "limits": "Read selected original sections only; not claimed whole178page volume read. No juvenile age/cere colour evidence; no adjacent Forest Owlet data transferred. Volume issue header conflict1vs4 retained, pages1155–1171. Search IndianBIRDS2025 Ketupa juvenile excluded as different species.",
+      "type": "primary field nest-site study, selected original sections",
+      "stage_scope": "nest sites; adults/chicks not age-calibrated"
     }
   ],
   "prompt": "Use case precise-object-edit. Existing #31 Jungle Owlet v6: edit ONLY small CERE skin around nostrils at bill base of BOTH ADULTS to a natural muted bluish-grey/slate-blue. Keep actual bill blade greenish yellow, nostril shape/position, feather border and eyes unchanged. Do not colour entire bill blue. CENTER older immature completely unchanged: iris, formed wings, body bars, age and supported branch pose not reassigned. Both adult central white lower bellies and barred flanks retained, no occipital fake eyes, no sex scale change. Title version v7. Bottom thin footer exactly 'CONCEPT — SCIENTIFIC CALIBRATION PENDING'. Same1536x1024 warm painterly forest board.",

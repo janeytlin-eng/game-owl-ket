@@ -52,5 +52,20 @@
     "b64len": 3786860
   },
   "ended_at": "2026-11-26T11:35:21.668Z",
-  "archive_commit": "ed4c9ca99066ac00d98b63bcacbefad5b7932a3a"
+  "archive_commit": "ed4c9ca99066ac00d98b63bcacbefad5b7932a3a",
+  "timing_audit": {
+    "id": "31-glaucidium-radiatum-v7",
+    "started_at": "2026-11-26T11:33:09.885Z",
+    "research_ready_at": "2026-11-26T11:33:38.159Z",
+    "start_to_research_checkpoint_seconds": 28.274,
+    "generation_wait_seconds": 33.27,
+    "edit_wait_seconds": 0,
+    "reviewed_at": "2026-11-26T11:35:05.830Z",
+    "archive_published_at": "2026-11-26T11:35:09Z",
+    "review_to_archive_seconds": 3.17,
+    "verified_at": "2026-11-26T11:35:21.668Z",
+    "archive_to_verified_seconds": 12.668,
+    "limits": "Checkpoint intervals, not pure labour/API upload. Research may include earlier incremental reads; archive commit has second precision; prior ARCHIVED stage stamped at verification."
+  },
+  "full_prompt_location": "owl-pet/research/species/31-glaucidium-radiatum-v7.md"
 }

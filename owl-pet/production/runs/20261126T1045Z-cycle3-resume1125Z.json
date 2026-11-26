@@ -38,7 +38,12 @@
     }
   ],
   "scientifically_verified": false,
-  "errors": [],
+  "errors": [
+    {
+      "step": "initial lease tooling",
+      "error": "create_tree422 because parser discarded structuredContent SHA. Corrected parser; single successful lease commit; no ref update or image existed in failed attempt."
+    }
+  ],
   "target": "29-glaucidium-capense-v7",
   "generation_seconds": 40.754,
   "meta": {
@@ -52,5 +57,20 @@
     "b64len": 3674948
   },
   "ended_at": "2026-11-26T11:29:48.333Z",
-  "archive_commit": "f3de0619896c2ad443149b9a8f67351ac8096d04"
+  "archive_commit": "f3de0619896c2ad443149b9a8f67351ac8096d04",
+  "timing_audit": {
+    "id": "29-glaucidium-capense-v7",
+    "started_at": "2026-11-26T11:26:32.349Z",
+    "research_ready_at": "2026-11-26T11:27:47.039Z",
+    "start_to_research_checkpoint_seconds": 74.69,
+    "generation_wait_seconds": 40.754,
+    "edit_wait_seconds": 0,
+    "reviewed_at": "2026-11-26T11:29:32.577Z",
+    "archive_published_at": "2026-11-26T11:29:36Z",
+    "review_to_archive_seconds": 3.423,
+    "verified_at": "2026-11-26T11:29:48.333Z",
+    "archive_to_verified_seconds": 12.333,
+    "limits": "Checkpoint intervals, not pure labour/API upload. Research may include earlier incremental reads; archive commit has second precision; prior ARCHIVED stage stamped at verification."
+  },
+  "full_prompt_location": "owl-pet/research/species/29-glaucidium-capense-v7.md"
 }

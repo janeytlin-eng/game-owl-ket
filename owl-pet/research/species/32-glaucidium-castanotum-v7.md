@@ -13,7 +13,9 @@
       "access": "2026-11-26",
       "pages": "406/PDF408 freshly read",
       "facts": "Mesoptile adult-like but fluffier/diffuse bars/streaks; chestnut adult mantle/vertical black ventral shafts. Qualitative female mass not exact height rule.",
-      "limits": "No exact days or juvenile soft-part sequence. Currentcastanotum versus oldcastanonotum/Taenioglauxcastanonota retained."
+      "limits": "No exact days or juvenile soft-part sequence. Currentcastanotum versus oldcastanonotum/Taenioglauxcastanonota retained.",
+      "type": "uploaded photographic-guide synthesis",
+      "stage_scope": "source-specific adult/young descriptions; exact limits above"
     },
     {
       "id": "CBOW-CEYLONBIRDCLUB-2009",
@@ -24,7 +26,9 @@
       "access": "2026-11-26",
       "pages": "natural-history paragraphs, nest/feeding sections",
       "facts": "Wet-zone forest, documented old woodpecker hole and jack-tree cavity; parents feed young that may peep from hole.",
-      "limits": "Institutional summary of field observations, no pictured concept age or iris clock, no exact nest chamber substrate."
+      "limits": "Institutional summary of field observations, no pictured concept age or iris clock, no exact nest chamber substrate.",
+      "type": "institutional natural-history account quoting firsthand observations",
+      "stage_scope": "source-specific adult/young descriptions; exact limits above"
     },
     {
       "id": "CBOW-OWLPAGES-2120",
@@ -35,7 +39,9 @@
       "access": "2026-11-26",
       "pages": "Description/Breeding",
       "facts": "Adult greenish cere/horn bill/dark horn claws; wet SriLanka habitat. No adult cereblue rule from #31 transferred.",
-      "limits": "Secondary adult scope only, not developmental atlas."
+      "limits": "Secondary adult scope only, not developmental atlas.",
+      "type": "specialist secondary species account",
+      "stage_scope": "adult diagnosis/habitat; no new young chronology"
     }
   ],
   "prompt": "Information-only edit #32 Chestnut-backed Owlet v6. Keep all three birds unchanged, juvenile diffuse head and breast marks, formed folded wings/short tail, yellow irises/greenish horn bills, adults chestnut mantles and black shaft streaks, all feet securely on wet mossy fork, humid forest and parchment. Title version v7. Change center label to AGE-UNKNOWN JUVENILE. Add thin unobtrusive bottom band with exactly 'CONCEPT — SCIENTIFIC CALIBRATION PENDING' and smaller 'Exact age, iris chronology and proportions unverified'. No other text, no feather/eye recolouring, no invented flying or hatchling stage. Same1536x1024 painterly board.",

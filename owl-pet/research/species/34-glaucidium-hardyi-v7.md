@@ -13,7 +13,9 @@
       "pages": "390/PDF392 actual text",
       "access": "2026-11-26",
       "facts": "Brownmorph darkbrown adult tail broken bars of largewhitishspots, usually5 only3visible depending overlap. Plainwarmback versus greyhead. Youngunspottedcrown/lessventralstreaks.",
-      "limits": "Visible count pose-dependent; do not enforce3 or5 on each photo. Rufousmorph tail differs, keep brownmorph. No sexsizedata."
+      "limits": "Visible count pose-dependent; do not enforce3 or5 on each photo. Rufousmorph tail differs, keep brownmorph. No sexsizedata.",
+      "type": "uploaded photographic-guide synthesis",
+      "stage_scope": "source-specific adult/young descriptions; exact limits above"
     },
     {
       "id": "APOW-DEVILLE-2012",
@@ -24,7 +26,9 @@
       "access": "2026-11-26",
       "pages": "printed23–24/PDF1–2; actual PDF2 locally rendered/viewed",
       "facts": "Primary nest2011 FrenchGuiana, youngalmostfullgrownin oldwoodpeckerhole vertical deadtrunk. Actually viewed Fig4 small yellowiris/headat entrance and Fig5 adult tail limitedspots; Fig3 generaltree. Adultsmottledgreyhead/warmerback andtoe grip photographed.",
-      "limits": "One nesting event, exactyoungage/sex/flight not given; internalfootgeometry concealed and remains design inference. Historicalminutissimumcomplex not currentsynonym. No third-party photo copiedinto repository."
+      "limits": "One nesting event, exactyoungage/sex/flight not given; internalfootgeometry concealed and remains design inference. Historicalminutissimumcomplex not currentsynonym. No third-party photo copiedinto repository.",
+      "type": "primary nesting observations and photographs",
+      "stage_scope": "adults and almost-full-grown nestling at entrance"
     }
   ],
   "prompt": "Precise-object-edit #34 Amazonian Pygmy Owl v6. Change ONLY the pale markings on both ADULT TAILS: replace continuous pale buff cross-bands with naturally separated large off-white spot patches arranged in broken transverse rows on dark-brown rectrices. Retain current tail length, pose and approximately existing row positions; uneven brown gaps separate pale patches rather than continuous full-width bars. Do not turn tail into striped solid white bands or force an exact visible row count. Keep every other adult trait unchanged, especially plain warm brown mantles contrasting grey spotted heads/nape false eyes. Entire center yellow-eyed juvenile head peeking within old woodpecker cavity remains unchanged, no exposed feet/wings/nest lining; no new age or flight inference. Preserve all branch grips/forest/three role labels. Title v7 and narrow bottom footer only 'CONCEPT — SCIENTIFIC CALIBRATION PENDING'. Same1536x1024 warm painterly natural-history board.",

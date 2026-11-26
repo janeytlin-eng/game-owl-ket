@@ -67,5 +67,20 @@
   "edit_prompt": "Change ONLY the top title version number v6 to v7. Preserve every other text and pixel-level visual content as closely as possible: three birds, finer buff juvenile crown spots, plain mantle, eyes, feet, branches and footer unchanged. No other text changes.",
   "edit_seconds": 33.212,
   "ended_at": "2026-11-26T11:33:04.852Z",
-  "archive_commit": "229e0aaea6821516e9a8e0c6260e1857065ab9f9"
+  "archive_commit": "229e0aaea6821516e9a8e0c6260e1857065ab9f9",
+  "timing_audit": {
+    "id": "30-glaucidium-cuculoides-v7",
+    "started_at": "2026-11-26T11:29:52.629Z",
+    "research_ready_at": "2026-11-26T11:30:24.514Z",
+    "start_to_research_checkpoint_seconds": 31.885,
+    "generation_wait_seconds": 33.837,
+    "edit_wait_seconds": 33.212,
+    "reviewed_at": "2026-11-26T11:32:49.748Z",
+    "archive_published_at": "2026-11-26T11:32:53Z",
+    "review_to_archive_seconds": 3.252,
+    "verified_at": "2026-11-26T11:33:04.852Z",
+    "archive_to_verified_seconds": 11.852,
+    "limits": "Checkpoint intervals, not pure labour/API upload. Research may include earlier incremental reads; archive commit has second precision; prior ARCHIVED stage stamped at verification."
+  },
+  "full_prompt_location": "owl-pet/research/species/30-glaucidium-cuculoides-v7.md"
 }

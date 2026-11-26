@@ -1,0 +1,222 @@
+{
+  "owner": "20261126T1125Z",
+  "completed": 6,
+  "new_species": 0,
+  "revised": 6,
+  "content_revisions": 4,
+  "annotation_revisions": 2,
+  "coverage": {
+    "commit": "07311470290b920eea6f9f225d4c38f2b8e4d1a8",
+    "numbered_png_versions": 1129,
+    "raw_stems": 210,
+    "unique": 207,
+    "total": 251,
+    "aliases": {
+      "glaucidium-brasilianum-cactorum": "glaucidium-brasilianum",
+      "tyto-javanica-delicatula": "tyto-javanica",
+      "pseudoscops-grammicus": "asio-grammicus"
+    },
+    "tree_truncated": false
+  },
+  "deliveries": [
+    {
+      "id": "29-glaucidium-capense-v7",
+      "archive": "f3de0619896c2ad443149b9a8f67351ac8096d04",
+      "verify": "cbe71099809d5763f17b6f26205363561c8171df",
+      "run": "owl-pet/production/runs/20261126T1045Z-cycle3-resume1125Z.json",
+      "meta": {
+        "bytes": 2756210,
+        "sha256": "5a077f88de30771e60b2528eb02305c374f2e600e1afbe7baa65283d45197b0d",
+        "gitblob": "b93acb7478f2659c2bf87b70ee047d3f8045c175",
+        "size": [
+          1536,
+          1024
+        ],
+        "b64len": 3674948
+      },
+      "generation_seconds": 40.754
+    },
+    {
+      "id": "30-glaucidium-cuculoides-v7",
+      "archive": "229e0aaea6821516e9a8e0c6260e1857065ab9f9",
+      "verify": "910d99449dbd23c37e0d2d0318c15c5fa7cb9f43",
+      "run": "owl-pet/production/runs/20261126T1045Z-cycle4-resume1125Z.json",
+      "meta": {
+        "bytes": 2460935,
+        "sha256": "76142dbd4b259fa8c4a119a7b93d8b52aae407dbf208efd4bf7575b459e28e41",
+        "gitblob": "801efd74fc6fddebe389183b8762844443a887c9",
+        "size": [
+          1536,
+          1024
+        ],
+        "b64len": 3281248
+      },
+      "generation_seconds": 33.837
+    },
+    {
+      "id": "31-glaucidium-radiatum-v7",
+      "archive": "ed4c9ca99066ac00d98b63bcacbefad5b7932a3a",
+      "verify": "625d2a41a0e048b8b2ffd310ccf6d9a386ef2615",
+      "run": "owl-pet/production/runs/20261126T1045Z-cycle5-resume1125Z.json",
+      "meta": {
+        "bytes": 2840145,
+        "sha256": "4442379206155301255ef27f714d747c8022e11ff69e0c2ae252006e33d613f5",
+        "gitblob": "786bb9c8c2346e9bb9adf6a27cf85641aa6096ef",
+        "size": [
+          1536,
+          1024
+        ],
+        "b64len": 3786860
+      },
+      "generation_seconds": 33.27
+    },
+    {
+      "id": "32-glaucidium-castanotum-v7",
+      "archive": "1f3dde86d44f9c1894cf155a05292dd419876044",
+      "verify": "7b99fddfb7d362559a39f21ed08d51836ebd4289",
+      "run": "owl-pet/production/runs/20261126T1045Z-cycle6-resume1125Z.json",
+      "meta": {
+        "bytes": 2617064,
+        "sha256": "c81d013c27261367d7caa724da2f8123484a63bfde191a35e693dd715ffe78dc",
+        "gitblob": "ed18dbf584d329d48e21a5217da8087c1cb8ff2d",
+        "size": [
+          1536,
+          1024
+        ],
+        "b64len": 3489420
+      },
+      "generation_seconds": 35.977
+    },
+    {
+      "id": "33-taenioptynx-brodiei-v7",
+      "archive": "e65d257e30829f63a1f81720efabc4434a8bb46a",
+      "verify": "b333093c76b4d0b5eb62654df7b8d79e77148a17",
+      "run": "owl-pet/production/runs/20261126T1140Z-cycle1-resume1125Z.json",
+      "meta": {
+        "bytes": 2905219,
+        "sha256": "b3abf35df3794a03cfb7f33ff34e42243a300b3c2c6196783e569aa703d817e3",
+        "gitblob": "fcaad1cda4ab19854f53010630c6fed06ab0b87c",
+        "size": [
+          1536,
+          1024
+        ],
+        "b64len": 3873628
+      },
+      "generation_seconds": 32.24
+    },
+    {
+      "id": "34-glaucidium-hardyi-v7",
+      "archive": "0fd7d74e165ab7e0aa78b2c41e21774f0ff845d0",
+      "verify": "2de640d0dda8257d18a705fe3577df0149e1f662",
+      "run": "owl-pet/production/runs/20261126T1140Z-cycle2-resume1125Z.json",
+      "meta": {
+        "bytes": 2620122,
+        "sha256": "f6fba1f084695c701250169baa801156c0a1d9690cc9332353155c67934e6c0c",
+        "gitblob": "d05b24436ff0cccf9bf5f97314b480dbed7b682d",
+        "size": [
+          1536,
+          1024
+        ],
+        "b64len": 3493496
+      },
+      "generation_seconds": 36.435
+    }
+  ],
+  "timings": [
+    {
+      "id": "29-glaucidium-capense-v7",
+      "started_at": "2026-11-26T11:26:32.349Z",
+      "research_ready_at": "2026-11-26T11:27:47.039Z",
+      "start_to_research_checkpoint_seconds": 74.69,
+      "generation_wait_seconds": 40.754,
+      "edit_wait_seconds": 0,
+      "reviewed_at": "2026-11-26T11:29:32.577Z",
+      "archive_published_at": "2026-11-26T11:29:36Z",
+      "review_to_archive_seconds": 3.423,
+      "verified_at": "2026-11-26T11:29:48.333Z",
+      "archive_to_verified_seconds": 12.333,
+      "limits": "Checkpoint intervals, not pure labour/API upload. Research may include earlier incremental reads; archive commit has second precision; prior ARCHIVED stage stamped at verification."
+    },
+    {
+      "id": "30-glaucidium-cuculoides-v7",
+      "started_at": "2026-11-26T11:29:52.629Z",
+      "research_ready_at": "2026-11-26T11:30:24.514Z",
+      "start_to_research_checkpoint_seconds": 31.885,
+      "generation_wait_seconds": 33.837,
+      "edit_wait_seconds": 33.212,
+      "reviewed_at": "2026-11-26T11:32:49.748Z",
+      "archive_published_at": "2026-11-26T11:32:53Z",
+      "review_to_archive_seconds": 3.252,
+      "verified_at": "2026-11-26T11:33:04.852Z",
+      "archive_to_verified_seconds": 11.852,
+      "limits": "Checkpoint intervals, not pure labour/API upload. Research may include earlier incremental reads; archive commit has second precision; prior ARCHIVED stage stamped at verification."
+    },
+    {
+      "id": "31-glaucidium-radiatum-v7",
+      "started_at": "2026-11-26T11:33:09.885Z",
+      "research_ready_at": "2026-11-26T11:33:38.159Z",
+      "start_to_research_checkpoint_seconds": 28.274,
+      "generation_wait_seconds": 33.27,
+      "edit_wait_seconds": 0,
+      "reviewed_at": "2026-11-26T11:35:05.830Z",
+      "archive_published_at": "2026-11-26T11:35:09Z",
+      "review_to_archive_seconds": 3.17,
+      "verified_at": "2026-11-26T11:35:21.668Z",
+      "archive_to_verified_seconds": 12.668,
+      "limits": "Checkpoint intervals, not pure labour/API upload. Research may include earlier incremental reads; archive commit has second precision; prior ARCHIVED stage stamped at verification."
+    },
+    {
+      "id": "32-glaucidium-castanotum-v7",
+      "started_at": "2026-11-26T11:35:25.997Z",
+      "research_ready_at": "2026-11-26T11:35:54.333Z",
+      "start_to_research_checkpoint_seconds": 28.336,
+      "generation_wait_seconds": 35.977,
+      "edit_wait_seconds": 0,
+      "reviewed_at": "2026-11-26T11:37:15.265Z",
+      "archive_published_at": "2026-11-26T11:37:20Z",
+      "review_to_archive_seconds": 4.735,
+      "verified_at": "2026-11-26T11:37:45.681Z",
+      "archive_to_verified_seconds": 25.681,
+      "limits": "Checkpoint intervals, not pure labour/API upload. Research may include earlier incremental reads; archive commit has second precision; prior ARCHIVED stage stamped at verification."
+    },
+    {
+      "id": "33-taenioptynx-brodiei-v7",
+      "started_at": "2026-11-26T11:37:51.973Z",
+      "research_ready_at": "2026-11-26T11:38:23.188Z",
+      "start_to_research_checkpoint_seconds": 31.215,
+      "generation_wait_seconds": 32.24,
+      "edit_wait_seconds": 0,
+      "reviewed_at": "2026-11-26T11:39:59.712Z",
+      "archive_published_at": "2026-11-26T11:40:04Z",
+      "review_to_archive_seconds": 4.288,
+      "verified_at": "2026-11-26T11:40:16.901Z",
+      "archive_to_verified_seconds": 12.901,
+      "limits": "Checkpoint intervals, not pure labour/API upload. Research may include earlier incremental reads; archive commit has second precision; prior ARCHIVED stage stamped at verification."
+    },
+    {
+      "id": "34-glaucidium-hardyi-v7",
+      "started_at": "2026-11-26T11:40:21.861Z",
+      "research_ready_at": "2026-11-26T11:41:01.679Z",
+      "start_to_research_checkpoint_seconds": 39.818,
+      "generation_wait_seconds": 36.435,
+      "edit_wait_seconds": 35.708,
+      "reviewed_at": "2026-11-26T11:43:21.829Z",
+      "archive_published_at": "2026-11-26T11:43:25Z",
+      "review_to_archive_seconds": 3.171,
+      "verified_at": "2026-11-26T11:43:35.232Z",
+      "archive_to_verified_seconds": 10.232,
+      "limits": "Checkpoint intervals, not pure labour/API upload. Research may include earlier incremental reads; archive commit has second precision; prior ARCHIVED stage stamped at verification."
+    }
+  ],
+  "source_delta": {
+    "new": 1,
+    "reuse_citations": 14,
+    "total_citations": 15,
+    "distinct_documents": 10
+  },
+  "fd_recovery": {
+    "found": false,
+    "error": "Error: {\"content\":[{\"type\":\"text\",\"text\":\"GitHub API error 422: {\\\"message\\\":\\\"No commit found for SHA: fd9d70d\\\",\\\"documentation_url\\\":\\\"https://docs.github.com/rest/commits/commits#get-a-commit\\\",\\\"status\\\":\\\"422\\\"}\"}],\"structuredContent\":{\"error\":\"GitHub API error 422: {\\\"message\\\":\\\"No commit found for SHA: fd9d70d\\\",\\\"documentation_url\\\":\\\"https://docs.github.com/rest/commits/commits#get-a-commit\\\",\\\"status\\\":\\\"422\\\"}\",\"error_code\":\"INVALID_ARGUMENT\",\"error_data\":{\"message\":\"No commit found for SHA: fd9d70d\",\"documentation_url\":\"https://docs.github.com/rest/commits/commits#get-a-commit\",\"status\":\"422\"}},\"isError\":true}"
+  },
+  "scientifically_verified_new": 0
+}

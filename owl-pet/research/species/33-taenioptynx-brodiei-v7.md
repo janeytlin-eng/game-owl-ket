@@ -14,7 +14,9 @@
       "pages": "printed97 Results/98 Fig3 caption fresh original text",
       "access": "2026-11-26",
       "facts": "Tracked Taiwan individual hatchedJune15/fledgedJuly5/recapturedAug10 at56daysposthatch fullygrown lessdorsal/headmarking/incompleteoccipital. Fig3caption labelsA56/B165/C394/D720; body reference3B foryoung seems typo. Colour ages not sexmorph distinction insample.",
-      "limits": "Single trajectory, not all T.brodiei populations or split Sunda #230. Photo pixels not newly examined. No demonstrated flight independence at56."
+      "limits": "Single trajectory, not all T.brodiei populations or split Sunda #230. Photo pixels not newly examined. No demonstrated flight independence at56.",
+      "type": "primary longitudinal banding and specimen study",
+      "stage_scope": "known-age Taiwan juvenile and older colour stages; not universal"
     },
     {
       "id": "COOW-MIKKOLA-2013",
@@ -25,7 +27,9 @@
       "pages": "370/PDF372 fresh text",
       "access": "2026-11-26",
       "facts": "Old broadGlaucidiumbrodiei includes Taiwan andSunda; greenish/bluishcere/yellowiris/hornclaws, feathered toes. Guide fullybarred juvenile conflicts later knownTaiwan sequence.",
-      "limits": "Historicaltaxonscope too broad for universal timeline, no mass→height conversion. CurrentTaenioptynxbrodiei preserved."
+      "limits": "Historicaltaxonscope too broad for universal timeline, no mass→height conversion. CurrentTaenioptynxbrodiei preserved.",
+      "type": "uploaded photographic-guide synthesis",
+      "stage_scope": "source-specific adult/young descriptions; exact limits above"
     }
   ],
   "prompt": "Information correction ONLY on existing #33 Collared Owlet v6. All three birds and feathers must stay unchanged: grey definitive adults, juvenile fewer crown/back marks, fully grown formed folded wings/full body proportions and tail, yellow eyes/green bill, every toe gripping mossy branch and distant nest box. Title v7. Replace center label '56-DAY FLEDGLING' with 'JUVENILE — STUDY REFERENCE: 56 DAYS POST-HATCH'. Add narrow footer exactly 'CONCEPT — SCIENTIFIC CALIBRATION PENDING'; smaller line 'Taiwan reference; individual age and flight ability unverified'. No additional text. Do not shorten juvenile wings or turn it into a hatchling. Same1536x1024 gouache natural-history style.",

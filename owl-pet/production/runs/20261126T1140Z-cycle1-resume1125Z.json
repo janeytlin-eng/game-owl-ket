@@ -52,5 +52,20 @@
     "b64len": 3873628
   },
   "ended_at": "2026-11-26T11:40:16.901Z",
-  "archive_commit": "e65d257e30829f63a1f81720efabc4434a8bb46a"
+  "archive_commit": "e65d257e30829f63a1f81720efabc4434a8bb46a",
+  "timing_audit": {
+    "id": "33-taenioptynx-brodiei-v7",
+    "started_at": "2026-11-26T11:37:51.973Z",
+    "research_ready_at": "2026-11-26T11:38:23.188Z",
+    "start_to_research_checkpoint_seconds": 31.215,
+    "generation_wait_seconds": 32.24,
+    "edit_wait_seconds": 0,
+    "reviewed_at": "2026-11-26T11:39:59.712Z",
+    "archive_published_at": "2026-11-26T11:40:04Z",
+    "review_to_archive_seconds": 4.288,
+    "verified_at": "2026-11-26T11:40:16.901Z",
+    "archive_to_verified_seconds": 12.901,
+    "limits": "Checkpoint intervals, not pure labour/API upload. Research may include earlier incremental reads; archive commit has second precision; prior ARCHIVED stage stamped at verification."
+  },
+  "full_prompt_location": "owl-pet/research/species/33-taenioptynx-brodiei-v7.md"
 }

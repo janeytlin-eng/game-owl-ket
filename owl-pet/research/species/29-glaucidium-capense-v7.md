@@ -13,7 +13,9 @@
       "pages": "412–413/PDF414–415 actual text reread",
       "facts": "Adult horn claws darker tips; feathered tarsi/bristled olive-yellow toes. Mesoptile browner/less marked. Female average mass not graphic-height ratio.",
       "limits": "Not species-specific day/iris/first flight chronology. Historical Taenioglaux capense; regional taxon unknown.",
-      "access": "2026-11-26"
+      "access": "2026-11-26",
+      "type": "uploaded photographic-guide synthesis",
+      "stage_scope": "source-specific adult/young descriptions; exact limits above"
     },
     {
       "id": "ABOW-OWLPAGES-2020",
@@ -24,7 +26,9 @@
       "pages": "Description/Breeding",
       "facts": "Adult horn claws darker tips; natural/woodpecker/barbet cavity. Does not independently verify juvenile claw tone.",
       "limits": "Secondary synthesis shares book references, not independent primary development study.",
-      "access": "2026-11-26"
+      "access": "2026-11-26",
+      "type": "specialist secondary species account",
+      "stage_scope": "adult diagnosis/habitat; no new young chronology"
     },
     {
       "id": "ABOW-NEWMANS-WEB-2026",
@@ -35,7 +39,9 @@
       "pages": "Description/Habitat",
       "facts": "Adult fine barring, white shoulder spots, riverine woodland. Family-level young text excluded.",
       "limits": "Adult regional synthesis only",
-      "access": "2026-11-26"
+      "access": "2026-11-26",
+      "type": "specialist secondary species account",
+      "stage_scope": "adult diagnosis/habitat; no new young chronology"
     }
   ],
   "prompt": "Use case precise-object-edit. Edit #29 African Barred Owlet v6 ONLY the two ADULTS' visible claw colour: proximal and middle horny curved claw surfaces should be muted light grey-brown horn, shading to dark charcoal only at distal hooked tips. Preserve their exact claw shapes/branch contact and yellowish-olive scaled toes; no nail polish/gloss, no white claws. Leave juvenile entirely unchanged including iris, formed stretched wing, sparse body marks, toes and two-foot support. Preserve adult feather patterns, near-equal scale, eyes/bills and forest/cavity. Title version v7. Add slim footer with exactly: 'CONCEPT — SCIENTIFIC CALIBRATION PENDING'. Same1536x1024 painterly board, exactly three birds. Change no other anatomy or labels.",

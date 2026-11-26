@@ -4,7 +4,7 @@
   "owner": "20261126T1528Z",
   "run_id": "20261126T1445Z-cycle5-resume1528Z",
   "started_at": "2026-11-26T15:33:50.796Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,8 +14,20 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T15:34:44.167Z",
       "evidence": "Actual latestv6 adult underparts read nearly only bold vertical streaks; source fine wavy crossbars scarcely evident. Add subtle irregular reddish-brown crossbars between black shafts, retain grey bill and bare fishowl legs."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T15:36:02.172Z",
+      "blob": "3da55ba952e83456ca74e1d257b6c716b35afc95"
     }
   ],
   "errors": [],
-  "target": "59-ketupa-zeylonensis-v7"
+  "target": "59-ketupa-zeylonensis-v7",
+  "meta": {
+    "bytes": 3175032,
+    "sha256": "0b54fea0242e2854c645904ac5f01a18a280939fea5462356332346162e55057",
+    "gitblob": "3da55ba952e83456ca74e1d257b6c716b35afc95",
+    "b64len": 4233376
+  },
+  "generation_wait_seconds": 36.736
 }

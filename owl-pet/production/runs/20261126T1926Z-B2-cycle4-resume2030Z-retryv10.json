@@ -4,7 +4,7 @@
   "owner": "owl-production-20261126T2030Z",
   "run_id": "20261126T2030Z",
   "started_at": "2026-11-26T20:35:14.221Z",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "STARTED",
@@ -26,6 +26,15 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-26T20:37:14.333Z"
+    },
+    {
+      "stage": "VERIFICATION_EVIDENCE",
+      "at": "2026-11-26T20:37:45.047Z",
+      "evidence": "Both immutable originals/concepts full bytes SHA256/PILdecode passed; research/review readback passed"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-26T20:37:45.048Z"
     }
   ],
   "target": "85-otus-semitorques-v10",
@@ -49,5 +58,7 @@
     "gitblob": "54797b4fc7bb1abf471ed4679b25f04e5ef14103"
   },
   "imagegen_wait_seconds": 48.468,
-  "review": "Actual v8record/styleadultcrop/primaryFig3photo, v9failedtextedit, v10fullandyoungcrop viewed. V10 shows materiallylesslongoutlinedringlets thanv8/v9: densefinegrey tonaldown with shortirregularfuzz, distincttufts/incompletefoldedremiges/concealedtail, shadowiris/greyhornbill, lowbilateralbranchforksupport. Somefinerstylizedfilaments remain, exactfeatheratlasnotverified. All3rolelabels/current85title/footer nowinfirstimage, no furthertexteditdrift. Adultorangeiris/herringbone/greyhornbill/featheredtarsiandtoedorsa/hornclaws/near-equalscale preservedinnewcomposition. PASS_WITH_LIMITATIONS/sciencefalse, no newuserconfirmation. Texturedownimprovedinthisoutputonly, notuniversalnewrulevalidation; v9archivedfailure notcredited. Adult-onlystyleinputs+ownspeciesphotogivenfreshjuvenile substrateandfirst-renderlabelplacementhelpedthiscase; possibleage/iris/flight/sexratio/continuousfeatherunknown."
+  "review": "Actual v8record/styleadultcrop/primaryFig3photo, v9failedtextedit, v10fullandyoungcrop viewed. V10 shows materiallylesslongoutlinedringlets thanv8/v9: densefinegrey tonaldown with shortirregularfuzz, distincttufts/incompletefoldedremiges/concealedtail, shadowiris/greyhornbill, lowbilateralbranchforksupport. Somefinerstylizedfilaments remain, exactfeatheratlasnotverified. All3rolelabels/current85title/footer nowinfirstimage, no furthertexteditdrift. Adultorangeiris/herringbone/greyhornbill/featheredtarsiandtoedorsa/hornclaws/near-equalscale preservedinnewcomposition. PASS_WITH_LIMITATIONS/sciencefalse, no newuserconfirmation. Texturedownimprovedinthisoutputonly, notuniversalnewrulevalidation; v9archivedfailure notcredited. Adult-onlystyleinputs+ownspeciesphotogivenfreshjuvenile substrateandfirst-renderlabelplacementhelpedthiscase; possibleage/iris/flight/sexratio/continuousfeatherunknown.",
+  "archive_commit": "dd1f2270183485d6d7127ae5e95128e92443d810",
+  "ended_at": "2026-11-26T20:37:45.047Z"
 }

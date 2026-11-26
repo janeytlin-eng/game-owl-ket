@@ -1,0 +1,2 @@
+# 40-glaucidium-nubicola-v7
+实际查看最终全图及底部文字裁切：v7标题正确，右幼鸟标签明确PROVISIONAL DESIGN，底部羽衣/年龄/虹膜/飞行未核验可读；三个鸟像、成年跗蹠羽被、裸黄趾、羽纹、林枝支撑视觉保持，无新幼鸟细节。本轮是证据边界文字修订，形态修复计0，不是新物种或幼鸟科学通过。新增检索后实际重读Robbins/Stiles pp305–309、图鉴p378及Cadena-Ortiz2022 section2.19。CFPO-CADENA条目地址已更正，喂食→栖枝能力推断已撤回。Greeney/Nunnery2006原文尝试网页及直接下载均403，保留未核验线索，不把搜索摘要当依据。PASS_WITH_LIMITATIONS，幼鸟形态问题仍开放。

@@ -19,6 +19,11 @@
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-26T14:33:54.323Z",
       "blob": "5878157d6b206e9ff9b93e999f71fc251d79d313"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T14:35:03.153Z",
+      "blob": "401da124706978b7fceffc7d27494133e7a3111c"
     }
   ],
   "errors": [
@@ -29,11 +34,12 @@
   ],
   "target": "51-strix-rufipes-v7",
   "meta": {
-    "bytes": 2747522,
-    "sha256": "f9c4ced914ed5cb56c884d50b71b45336ac2ac4f633cfd8187c236900b917f22",
-    "gitblob": "5878157d6b206e9ff9b93e999f71fc251d79d313",
-    "b64len": 3663364
+    "bytes": 2669282,
+    "sha256": "f7807aed85992ea2ee15d9d29791ac820b79cc9d805ee6ee86a6f486b83a6f4e",
+    "gitblob": "401da124706978b7fceffc7d27494133e7a3111c",
+    "b64len": 3559044
   },
   "generation_wait_seconds": 40.48,
-  "edit_prompt": "Correct only the adult crown pattern in this generated #51 card. Current crown stripes look like a regular geometric grid/net. Reduce white contrast and density by about half, break every stripe into irregular tiny feather-tip dashes, vary spacing and stagger segments; no vertical grid crosslines, no complete parallel rings around head. Mostly natural sepia feathers with subtle fine whitish transverse markings. Keep all other anatomy, chick, labels/footer, habitat and original style unchanged."
+  "edit_prompt": "Correct only the adult crown pattern in this generated #51 card. Current crown stripes look like a regular geometric grid/net. Reduce white contrast and density by about half, break every stripe into irregular tiny feather-tip dashes, vary spacing and stagger segments; no vertical grid crosslines, no complete parallel rings around head. Mostly natural sepia feathers with subtle fine whitish transverse markings. Keep all other anatomy, chick, labels/footer, habitat and original style unchanged.",
+  "edit_wait_seconds": 39.096
 }

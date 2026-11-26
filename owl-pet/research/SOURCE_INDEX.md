@@ -7492,3 +7492,7 @@ Reused MIKKOLA-2013 printed497/PDF499 actualuploadedtext and NIBO-OISEAUX-MOUNT-
 
 ### NBBOO-BIRDFORUM-2022 — New Britain Boobook identification
 BirdForum Opus contributors, modified2022-02-24; https://www.birdforum.net/opus/New_Britain_Boobook ; accessed2026-11-26, originalIdentification/Distribution/Habitat read. Secondarycommunitystub, N.odiosa adultdiagnosis; broadbrownupperbreastbandbuff/whitebarring, goldeneyes/whitebrows, NewBritainlowlands/hills. Moderateconfidence; notprimary/development/sexratio, no youngplumagefacts. Supports localized#149v6adultbandedit with MIKKOLA-2013 printed487/PDF489actualtext+NikBorrowphoto. [Research/fullprompt](species/149-ninox-odiosa-v6.md). PrimaryBHL403andadjacentN.grantiLatinsearchleadexcluded; new1/reusedguide1, notscientificpass.
+
+
+### 2026-11-26 135-otus-silvicola-v8 evidence-status annotation
+Reuse WSC-MEES-2006, WSC-MIK2013-183. WSC-MEES-2006 G.F.Mees2006 TheavifaunaofFlores ZoolMed80:113–115, https://repository.naturalis.nl/pub/209697/ZM80-03_001-262.pdf actual originalbodyp114 readnow: type fully feathered immature/subadult mixture finebars/fewadultstreaks, NOT downychick; sexquestioned, measurementseries not standingheightformula. WSC-MIK2013-183 priorguideadulttuft/toebasecontext reused notfreshread. Existingv7actualfull shows supported formed-wingtransitionalyoung andcorrectedtuft, preserve. Exact age/iris/flight/nest unknown. Add explicit pending footer only. New0/reused2; no biological or scientific validation. [Fullprompt/limits](species/135-otus-silvicola-v8.md).

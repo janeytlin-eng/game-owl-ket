@@ -4,7 +4,7 @@
   "run_id": "20261126T0540Z-cycle3-resume0833Z",
   "owner": "20261126T0833Z",
   "started_at": "2026-11-26T08:33:59.853Z",
-  "stage": "REVIEWED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "STARTED",
@@ -24,6 +24,16 @@
       "stage": "REVIEWED",
       "at": "2026-11-26T08:36:00.119Z",
       "evidence": "#08v7 full image and age/footer crop actually viewed. Three birds, adult heavily feathered toes, yellow eyes/bills, concentric disks and bowtie retained; climbing young body contact, bark grips and short raised wing retained qualitatively. Ageunknown brancher and scientificpending/unknowns readable. No anatomy correction, exactage/feathermap/sex-height ratio unverified; PWL/sciencefalse. One built-in annotation edit, no further edit. Validate explicit limit readability without deleting legitimate formed wings. Baselinev6 checked again; no other defect invented."
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-26T08:36:41.007Z",
+      "commit_sha": "0150d00d2d2ab7b9e84b165bb91bfa7734e59176"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-26T08:36:41.007Z",
+      "evidence": "BOTH immutable original/concept exact bytes/SHA256/fullPNGdecode PASS; Gitblob matches local; research/review/tree readback"
     }
   ],
   "target": "08-strix-nebulosa-v7",
@@ -38,5 +48,7 @@
       1024
     ]
   },
-  "generation_seconds": 37.587
+  "generation_seconds": 37.587,
+  "ended_at": "2026-11-26T08:36:41.007Z",
+  "archive_commit": "0150d00d2d2ab7b9e84b165bb91bfa7734e59176"
 }

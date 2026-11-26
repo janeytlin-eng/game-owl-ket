@@ -4,7 +4,7 @@
   "owner": "20261126T1328Z",
   "run_id": "20261126T1345Z-cycle3-resume1328Z",
   "started_at": "2026-11-26T13:44:22.839Z",
-  "stage": "IMAGE_GENERATED",
+  "stage": "REVIEWED",
   "stages": [
     {
       "stage": "STARTED",
@@ -19,6 +19,11 @@
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-26T13:48:29.589Z",
       "blob": "ddde1b92e3b690563fc408c179c1ea936aecc5e0"
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-26T13:48:43.283Z",
+      "evidence": "实际查看v6及v7全尺寸组图。问题—证据—修改—复查：v6两只成年喙为饱和金橙色；台湾博物馆TMAV0249正文为黄绿色，Mikkola印刷329/PDF331旧广义Strix nivicola为yellowish-grey；imagegen仅调整两只成年喙为低饱和浅黄绿/灰角色，v7实际可见橄榄灰阴影及浅黄绿色高光，金橙减弱。保留幼鸟喙、暗虹膜、羽纹、脚趾羽被/深爪、自然支撑、山林环境、原题和幼鸟年龄未知/飞行未核验标注。识别概念一致；未据此校准绝对色值、雌雄大小比例、幼鸟实际日龄或飞行能力。幼鸟阶段来源有冲突，继续未知，不标科学通过。PASS_WITH_LIMITATIONS，scientifically_verified=false。经验：同一名称不同地域/旧分类描述的颜色可作为有限定性边界；不能升级为标本实测色或全物种精确色。已实际应用到本图并视觉验证，不宣称对其他图片验证有效。新增0，复用2来源，本轮均重新读取正文。"
     }
   ],
   "errors": [],
@@ -29,5 +34,6 @@
     "gitblob": "ddde1b92e3b690563fc408c179c1ea936aecc5e0",
     "b64len": 3844740
   },
-  "generation_wait_seconds": 35.172
+  "generation_wait_seconds": 35.172,
+  "review": "实际查看v6及v7全尺寸组图。问题—证据—修改—复查：v6两只成年喙为饱和金橙色；台湾博物馆TMAV0249正文为黄绿色，Mikkola印刷329/PDF331旧广义Strix nivicola为yellowish-grey；imagegen仅调整两只成年喙为低饱和浅黄绿/灰角色，v7实际可见橄榄灰阴影及浅黄绿色高光，金橙减弱。保留幼鸟喙、暗虹膜、羽纹、脚趾羽被/深爪、自然支撑、山林环境、原题和幼鸟年龄未知/飞行未核验标注。识别概念一致；未据此校准绝对色值、雌雄大小比例、幼鸟实际日龄或飞行能力。幼鸟阶段来源有冲突，继续未知，不标科学通过。PASS_WITH_LIMITATIONS，scientifically_verified=false。经验：同一名称不同地域/旧分类描述的颜色可作为有限定性边界；不能升级为标本实测色或全物种精确色。已实际应用到本图并视觉验证，不宣称对其他图片验证有效。新增0，复用2来源，本轮均重新读取正文。"
 }

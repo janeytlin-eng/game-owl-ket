@@ -140,3 +140,7 @@ Guidecriterion limitedtoeartract; retainedvalidwhitefacebrows. Actualtarget achi
 
 ##2026-11-25 138-otus-mentawi-v6
 #138 primaryfaintnarrowflightbars targetremigesonly, preserveformedwingandvalidcovertpattern. Actualcrop showsreducedbroadbrightremexmarks, limitedqualitativepass. Record403andtext-onlyscreenshotfailure, neverclaimunseenphotoinspection; May18/21datesarenothatchage.
+
+
+## 2026-11-26 #150/#149 paired species-specific check
+Observed v5: generic contrasty headflecks on nominatevariegata and generic white/streaked upperbreast onodiosa. Guide497/487 and actual photos support opposite localized decisions: #150plainercrown, #149retainheadflecks/restorebrownspangledchestband. Builtin edits v6 full/crops actually show intended changes; qualitative validated here only, no universalNinox/preventionclaim. Annotation-only #135v8/#139v7/#154v4/#47v13 adds status not morphologyvalidation. Source unknown young phenotype not repaired by footer. Future prioritize actualdevelopment sources and unresolvedmorphology; do not treat repeatedlyadding status as speciescompletion. [Sixcycle evidence](batches/20261126T0330Z-six-cycle-review.md).

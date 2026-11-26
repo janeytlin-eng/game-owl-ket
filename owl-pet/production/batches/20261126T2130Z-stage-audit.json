@@ -1,0 +1,958 @@
+{
+  "run_id": "20261126T2130Z",
+  "asof": "2026-11-26T21:54:32.441Z",
+  "inventory": {
+    "versions": 1191,
+    "unique_species": 207,
+    "numbered_species": 219,
+    "total_species": 251,
+    "missing": 44,
+    "tree": "b6aee941f0897bc88e9d74a1e132cea89c348b12",
+    "asof": "0dd62c87cb51ebd9eb02594472a3a4ce92b18270"
+  },
+  "completed_cycles": 6,
+  "source_new": 0,
+  "reused_citations": 12,
+  "reused_unique_publications": 7,
+  "source_corrections": 2,
+  "photo_access_upgrades": 2,
+  "generation_calls": 8,
+  "generation_wait_total_seconds": 286.451,
+  "timings": [
+    {
+      "target": "95-pulsatrix-melanota-v8",
+      "research_event_window_seconds": 147.27,
+      "generation_wait_seconds": 30.015,
+      "edit_generation_wait_seconds": 37.441,
+      "reviewed_to_archived_seconds": 3.066,
+      "archive_to_observed_record_seconds": 171.638,
+      "review_cpu_seconds": null,
+      "upload_seconds": null,
+      "limits": "Event windows are actual timestamp differences, not isolated research/edit/upload walltime. Some source reads/prefetch occurred before STARTED; waits precisely timed around imagegen calls. Unknown CPU and upload durations not invented."
+    },
+    {
+      "target": "86-otus-elegans-v9",
+      "research_event_window_seconds": 27.936,
+      "generation_wait_seconds": 37.648,
+      "edit_generation_wait_seconds": 0,
+      "reviewed_to_archived_seconds": 3.383,
+      "archive_to_observed_record_seconds": 17.756,
+      "review_cpu_seconds": null,
+      "upload_seconds": null,
+      "limits": "Event windows are actual timestamp differences, not isolated research/edit/upload walltime. Some source reads/prefetch occurred before STARTED; waits precisely timed around imagegen calls. Unknown CPU and upload durations not invented."
+    },
+    {
+      "target": "97-lophostrix-cristata-v7",
+      "research_event_window_seconds": 26.835,
+      "generation_wait_seconds": 41.52,
+      "edit_generation_wait_seconds": 35.431,
+      "reviewed_to_archived_seconds": 3.209,
+      "archive_to_observed_record_seconds": 27.835,
+      "review_cpu_seconds": null,
+      "upload_seconds": null,
+      "limits": "Event windows are actual timestamp differences, not isolated research/edit/upload walltime. Some source reads/prefetch occurred before STARTED; waits precisely timed around imagegen calls. Unknown CPU and upload durations not invented."
+    },
+    {
+      "target": "98-strix-chacoensis-v7",
+      "research_event_window_seconds": 4.006,
+      "generation_wait_seconds": 34.952,
+      "edit_generation_wait_seconds": 0,
+      "reviewed_to_archived_seconds": 2.963,
+      "archive_to_observed_record_seconds": 77.945,
+      "review_cpu_seconds": null,
+      "upload_seconds": null,
+      "limits": "Event windows are actual timestamp differences, not isolated research/edit/upload walltime. Some source reads/prefetch occurred before STARTED; waits precisely timed around imagegen calls. Unknown CPU and upload durations not invented."
+    },
+    {
+      "target": "99-bubo-magellanicus-v6",
+      "research_event_window_seconds": 4.321,
+      "generation_wait_seconds": 38.855,
+      "edit_generation_wait_seconds": 0,
+      "reviewed_to_archived_seconds": 3.09,
+      "archive_to_observed_record_seconds": 20.68,
+      "review_cpu_seconds": null,
+      "upload_seconds": null,
+      "limits": "Event windows are actual timestamp differences, not isolated research/edit/upload walltime. Some source reads/prefetch occurred before STARTED; waits precisely timed around imagegen calls. Unknown CPU and upload durations not invented."
+    },
+    {
+      "target": "100-strix-huhula-v7",
+      "research_event_window_seconds": 32.688,
+      "generation_wait_seconds": 30.589,
+      "edit_generation_wait_seconds": 0,
+      "reviewed_to_archived_seconds": 3.128,
+      "archive_to_observed_record_seconds": 20.554,
+      "review_cpu_seconds": null,
+      "upload_seconds": null,
+      "limits": "Event windows are actual timestamp differences, not isolated research/edit/upload walltime. Some source reads/prefetch occurred before STARTED; waits precisely timed around imagegen calls. Unknown CPU and upload durations not invented."
+    }
+  ],
+  "results": [
+    {
+      "batch_id": "20261126T2030Z-B2",
+      "cycle": 4,
+      "owner": "owl-production-20261126T2130Z",
+      "run_id": "20261126T2130Z",
+      "started_at": "2026-11-26T21:31:46.741Z",
+      "stage": "ARCHIVED",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T21:31:46.741Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T21:34:14.011Z",
+          "prompt": "Use case: stylized-concept. Create a NEW complete1536x1024 polished naturalistic owl-pet family plate number95 BAND-BELLIED OWL, subtitle Pulsatrix melanota. Image1 adult-only source gives SPECIES/STYLE, no prior generated juvenile is supplied. Image2 is only same-species photographic upper-body DOWN-TEXTURE reference from Mikkola2013p314, an OLDER young: borrow natural directional soft feather texture only, NOT its fully formed wings/tail/phase. Three birds in PeruYungas shade-coffee/plantain remnant forest, on broad mossy Albizia fork (natural substrate, notliteralactive nest). Left adult male/rightadultfemale nearlysameheight (unknownsexratio), darkbrownheads/backs, darkreddish-browneyes, pale yellow bills/greyishcere, white broad spectacles/throat/half-collar, broadbrownchestband, reddish-brown bars oncreamyventrum, featheredtarsi/baregrey-browntoes/hornclawsblacktips, twofootgrips. Center AGE-UNKNOWN DEPENDENT YOUNG: primarily soft CINNAMON down, mottled patchy creamwhite crown transition/darkblackish face/darkbrowneyes/yellowbill, a few tiny emerging chestfeathers but no adult barredbib. Dense softly blended short fine down with gentle directional flecks and subtle irregularclumps, not long curledwires/closedloops/woolringlets or repetitive scallops. Short developing foldedwings largelyveiledbydown, concealedshorttail, low relaxedside-lookingcrouch, BOTH feet andbelly naturally supported by broadfork. Primary2022textsupports thiswhitecrown/cinnamonphase, photographtextureonly doesNOTjustifyadultlengthwings. Exactly3fullowls, allfeet onwood/no duplicateanatomy orartificialnestbowl. Warm naturalisticpetconceptstyleasimage1. REQUIRED first-render labels at bottom y920: ADULT MALE underleft, AGE-UNKNOWN DEPENDENT YOUNG undercenter, ADULT FEMALE underright. Smallerfooter y985 'CONCEPT — SCIENTIFIC REVIEW PENDING; AGE / FIRST FLIGHT / SEX RATIO UNVERIFIED'. Title95/species clear, no other ages or sex ratio claims."
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T21:35:34.617Z",
+          "attempt": 1,
+          "meta": {
+            "bytes": 2957967,
+            "sha256": "ea297c8fbf6f6e26905a28d0e52b70b85568b5137d9ddce9baeb652e626cf6f6",
+            "b64len": 3943956,
+            "size": [
+              1536,
+              1024
+            ],
+            "gitblob": "db3e41fcb15a4c8d2b2a2cafd3d586238a2eca2d"
+          },
+          "wait_seconds": 30.015,
+          "review": "Downlessrepeatedloops, but unrequestedgoldornament/labelboxes; stylecorrectionneeded"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T21:35:37.595Z",
+          "attempt": 2,
+          "prompt": "Graphic-only style correction on this95familyplate. REMOVE all gold decorative rules/lines at header/footer and all three black/gold outlined label boxes. Render existing words in plain white serif text directly over the forest, same style as main BAND-BELLIED OWL heading; change goldnumber95 towhite. Keep title/subtitle/rolewords/footer exactlythe same, ALL bird/feather/down/anatomy/feet/branch/background content UNCHANGED, especially the newly natural directional cinnamon youngdown and creamcrown/blackface/darkeyes/shortwing. Do NOT repaint any bird or add ornamentalobjects. Only typography borders/colour correction, no scene redesign."
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T21:37:18.842Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T21:37:21.997Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T21:37:25.063Z"
+        },
+        {
+          "stage": "VERIFICATION_EVIDENCE",
+          "at": "2026-11-26T21:40:16.701Z",
+          "evidence": "Both immutable originals/concepts full bytes SHA256/PILdecode passed; research/review readback passed"
+        }
+      ],
+      "target": "95-pulsatrix-melanota-v8",
+      "errors": [
+        "Fig3image404; correctedURL403; RGoriginalPDF403; publisher503/nonaccessible; no actualFig3pixelsclaim",
+        "First fresh generation invented gold rules and boxed rolelabels"
+      ],
+      "source_new": 0,
+      "source_reuse": 2,
+      "photo_access_upgrade": 1,
+      "source_ids": [
+        "MEL-RIVAS-FUENZALIDA-BURGOS-2022-84-88",
+        "WHSO-MIKKOLA-2013"
+      ],
+      "first_imagegen_wait_seconds": 30.015,
+      "meta": {
+        "bytes": 2657861,
+        "sha256": "abfb3902b027899cf7649985f313f0c5809fd1637dd0fd33e69987436c053bb6",
+        "b64len": 3543816,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "4d366753f33ab7e42ede870984453b1b1cd06971"
+      },
+      "second_imagegen_wait_seconds": 37.441,
+      "review": "Actualv7record/adultstylecrop/uploadedguidep314wholephoto+upperbodycrop, newfirstdraft/finalfull/nativeyoungcrop viewed. Finalcinnamondown has directionalsofterfineflecks/irregularclumps and markedlylessrepeatedclosedringlets thanv7; creamcrown/darkmask/darkiris/yellowbill/tinychestfeathers/compactdevelopingfoldedwing/concealedtail/twofoot+bellyforksupport retained. Somefinefilamentstylization remainsnotliteralatlas. Primaryoldergroundyoungphase notnatalhatchlingandnotexactguideolderformedwingtail transfer. Adultsdarkeyes/whiteface/paleyellowbill/broadchestband/rustybellybars/featheredlegs/baretoes/nearequalheightcorrectinnewcomposition. Firstgoldboxes/rulesremovedinsecondcall; plainwhitelegibletitle95/roles/footer nowconsistent. PASS_WITH_LIMITATIONS/sciencefalse/no newconfirmation. Freshadult-onlystyling+photodownreferencehelpedinthisimageonly; graphicsre-edit didnotobviouslyrestorev7loops. No newFig3pixelsclaim/flight/sexratio.",
+      "archive_commit": "f6a98334923c2fdb0c59be07430f872b1ea6ed62",
+      "ended_at": "2026-11-26T21:40:16.701Z",
+      "verified_commit": "7bc2b827f6fc5bfa79bf9f9599dd08c7a865e5e8",
+      "credit_commit": "5a41078db83464b042675543c4f3c4707092980f",
+      "run_record": "owl-pet/production/runs/20261126T2030Z-B2-cycle4-resume2130Z-95-pulsatrix-melanota-v8.json"
+    },
+    {
+      "batch_id": "20261126T2030Z-B2",
+      "cycle": 5,
+      "owner": "owl-production-20261126T2130Z",
+      "run_id": "20261126T2130Z",
+      "started_at": "2026-11-26T21:40:23.929Z",
+      "stage": "ARCHIVED",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T21:40:23.929Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T21:40:51.865Z",
+          "prompt": "Local scientific texture correction of existing #86 Otus elegans interpositus plate, image1. Image2 is actual same-subspecies nest-young HEAD photograph from Bird Research News 2011 printed4 Photo1; use ONLY its qualitatively short soft directional grey-brown facial/crown down, not unseen body/age/flight. On RIGHT young only, change crown, forehead, ear-side/cheek surface from long ornamental curl loops/wool ringlets into short fine matte directional down with subtle irregular soft clumps. Retain existing warm grey-brown palette, silhouette, eye/bill/tuft positions and mouth expression; avoid adult streaks and sharp mature feathers. Do not change its body/wings/tail/feet or branch pose; these remain scientifically unverified, not inferred from the photo. BOTH adult owls entirely unchanged especially fine faint chest crossmarks, yelloweyes, darkbills, grey BARE toes/blackhornclaws, near-equalheight. Preserve all typography, number86, labels/scientificpending footer, background/style and composition exactly. Only right young head/face down texture."
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T21:41:54.019Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T21:41:57.089Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T21:42:00.472Z"
+        },
+        {
+          "stage": "VERIFICATION_EVIDENCE",
+          "at": "2026-11-26T21:42:18.228Z",
+          "evidence": "Both immutable originals/concepts full bytes SHA256/PILdecode passed; research/review readback passed"
+        }
+      ],
+      "target": "86-otus-elegans-v9",
+      "errors": [],
+      "source_new": 0,
+      "source_reuse": 2,
+      "photo_access_upgrade": 1,
+      "source_ids": [
+        "ELE-BIRD-RESEARCH-NEWS-2011-P1-2",
+        "WHSO-MIKKOLA-2013"
+      ],
+      "meta": {
+        "bytes": 2696088,
+        "sha256": "81b9410cae996c879002eaa5827a18349ba066f82f8c9331c38ddece52ebaa3f",
+        "b64len": 3594784,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "9369ecb5221c4b55b2f68cb4379ff7b8582569e4"
+      },
+      "imagegen_wait_seconds": 37.648,
+      "review": "Actual institutional2011PDF printed4 Photo1 fullpage/head crop, v8 and v9 full images viewed. Right young crown/cheeks now shorter directional soft down, repeated closed loop filaments markedly reduced on head; some long fine wisps and body curls remain. Scope is head only; actual photo lowresolution and nest-cavity head cannot support body/age/flight. Adult fine faint crossmarks/shaftstreaks, yelloweyes/darkbills/greybaretoes/blackclaws/near-equalheight, Casuarina/cane, allsupport/labels/footer retained. Young existing folded wing/body/branch pose remains age/phase/firstflight unverified. PASS_WITH_LIMITATIONS, scientifically_verified=false, no new userconfirmation. Photo reference plus tightly scoped head correction visually worked here; not a validated universal down rule and not body correction.",
+      "archive_commit": "b31cf4b1687753df932c3695034ce7c470f532b6",
+      "ended_at": "2026-11-26T21:42:18.228Z",
+      "verified_commit": "9f7d2977a4e7a2d69a449845f0bd3fcb2be08323",
+      "credit_commit": "64d90d9f7448140193a34a63604353efdc262dd2",
+      "run_record": "owl-pet/production/runs/20261126T2030Z-B2-cycle5-resume2130Z-86-otus-elegans-v9.json"
+    },
+    {
+      "batch_id": "20261126T2030Z-B2",
+      "cycle": 6,
+      "owner": "owl-production-20261126T2130Z",
+      "run_id": "20261126T2130Z",
+      "started_at": "2026-11-26T21:42:41.383Z",
+      "stage": "ARCHIVED",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T21:42:41.383Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T21:43:08.218Z",
+          "prompt": "Precise edit of #97 Lophostrix cristata v6. On BOTH ADULT chest/belly underparts only, soften current dark thick close-packed zigzag bands into much finer faint irregular brown vermiculations over pale brown; retain subtle natural mottling, no bold black ladder bars, no dark vertical shaft stripes. Source Mikkola2013p358 brown morph pale brownish below upper breast with faint brown vermiculations and unstreaked underparts. Do NOT change correctly narrowed adult TAIL bars from v6, nor wing bars, facialdisc/long white ear plumes/dark orangebrown eyes/yellowhorn bills/feet/near-equalheight. CENTRAL young entirely unchanged: its fine down, whitebody/darkrufousface/shorttufts/formedfoldedbrownwings and low twofoot branchsupport not new anatomy. No forced femaleheight. Text-only also replace center label OLDER JUVENILE with AGE-UNKNOWN DEPENDENT YOUNG, and bottom locality line with small cream serif footer 'Humid lowland forest · CONCEPT — SCIENTIFIC REVIEW PENDING; AGE / FIRST FLIGHT / SEX RATIO UNVERIFIED'. Keep number97/title/current scientificname/adultlabels; same warm naturalistic style and jungle/background/three birds/support. No borders, boxes, gold rules or other decorations."
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T21:44:17.417Z",
+          "attempt": 1,
+          "meta": {
+            "bytes": 2618430,
+            "sha256": "43f68599248fa73d2f3ce36bd6805abc2329b4c6567648aa219822adef60f65a",
+            "b64len": 3491240,
+            "size": [
+              1536,
+              1024
+            ],
+            "gitblob": "f215570da50dfe4132683ba385979de5ae959504"
+          },
+          "wait_seconds": 41.52,
+          "review": "First underbody edit spread pale fill to adult upperbreast; Mikkola p358 requires dark chocolate neck/upperbreast"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T21:44:17.417Z",
+          "attempt": 2,
+          "prompt": "Local correction of #97 firstedit: BOTH ADULTS must retain a DARK CHOCOLATE-BROWN NECK AND UPPER BREAST below the face, with small dull yellowish throat area, as Mikkola2013p358. Deepen ONLY adult upper-breast/neck feather colour into dark chocolate-brown, softly merging at mid-chest into the already improved PALE BROWN LOWER BREAST/BELLY with faint fine vermiculations. Do not spread pale tan up to throat, do not turn entire belly dark, do not restore bold black bars on lowerunderparts. Preserve all tails, wing pattern, heads/whiteplumes/eyes/bills, feet/support, centralyoung entirely, every existing correctedlabel/footer/background/composition. No other changes."
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T21:45:17.415Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T21:45:20.805Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T21:45:24.014Z"
+        },
+        {
+          "stage": "VERIFICATION_EVIDENCE",
+          "at": "2026-11-26T21:45:51.849Z",
+          "evidence": "Both immutable originals/concepts full bytes SHA256/PILdecode passed; research/review readback passed"
+        }
+      ],
+      "target": "97-lophostrix-cristata-v7",
+      "errors": [
+        "First underbody edit spread pale fill to adult upperbreast; Mikkola p358 requires dark chocolate neck/upperbreast"
+      ],
+      "source_new": 0,
+      "source_reuse": 2,
+      "source_ids": [
+        "CRI-MIK2013-358",
+        "CRI-BIRDS-BOLIVIA-2026"
+      ],
+      "first_imagegen_wait_seconds": 41.52,
+      "meta": {
+        "bytes": 2531350,
+        "sha256": "09251bcb9f493b427de87e1700eebe72b6b398b566659377662ab4e17b535fa3",
+        "b64len": 3375136,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "a0299c59b183ec952ad0c9b7f99a5b0b0f41d94d"
+      },
+      "second_imagegen_wait_seconds": 35.431,
+      "review": "Actualv6/firstedit/final fullimages and guide p358 text viewed; external Boliviabody read. Final adult lowerbreast/belly now palebrown with finer fainter irregularvermiculations, notoldboldblackzigzags. Firstedit incorrectly paledupperbreast; second restoreddarkchocolateneck/upperbreast and smalldullyellowthroat, mergingto palelowerbelly. Width/contrast qualitative, notmeasuredbiologicalthreshold. v6narrowtailbars/wingbars/whiteplumes/darkorangebrown eyes/yellowhornbills/baregrey-browntoes/darkclaws, near-equaladultheight retained; youngwhite/darkrufousface/shorttufts/foldedbrownwings/twofootlowforksupport unchanged andage/flightunknown. Labelsnowageunknownandsciencepending, legible. Some decorativefinefeathertexture remains. PASS_WITH_LIMITATIONS/sciencefalse/noapproval. Lesson: restrict faintpattern edit to LOWER underparts and explicitlypreservedark upperbreast; applied2ndprompt andviewvalidatedinthisplate only. Prior#86shaftstreakcrossmarks aredifferenttaxon, no transfer.",
+      "archive_commit": "cef3122b6674568e6bb1956fc5c1aeffb07e6ab4",
+      "ended_at": "2026-11-26T21:45:51.849Z",
+      "verified_commit": "5db73b4ac2309a553c93b178d6896a021585934c",
+      "credit_commit": "fe967e0793fa2680fb9ccc43f7e1ff1353582ae9",
+      "run_record": "owl-pet/production/runs/20261126T2030Z-B2-cycle6-resume2130Z-97-lophostrix-cristata-v7.json"
+    },
+    {
+      "batch_id": "20261126T2130Z-B2",
+      "cycle": 1,
+      "owner": "owl-production-20261126T2130Z",
+      "run_id": "20261126T2130Z",
+      "started_at": "2026-11-26T21:46:00.346Z",
+      "stage": "ARCHIVED",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T21:46:00.346Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T21:46:04.352Z",
+          "prompt": "Precise local edit of #98 Strix chacoensis v6. On BOTH ADULT BILLS only, change the current almost uniform brightyellow beak into muted HORN-GREY/brown proximal upperbill and cere, grading to yellowish distal tip. Preserve exact beakshape/expression, male's onefroggrip, darkeyes and face. Basis Mikkola2013p336 horn-colouredbill yellowish at tip, NBO2013 broader yellowishbill account; no blackentirebill. Do NOT change central juvenile bill or eyes (age-specific bareparts notverified). Keep alreadycorrect sparse adult tarsalmarks/proximaltoefeathers/reddishhornclaws/darktips/allfootgrips, adult plumage/bodybalance/youngbody/fluff/foldedwing/shorttail/nestfreebranch/Chacothornscrub background. Text-only replace center two-line role with AGE-UNKNOWN DEPENDENT YOUNG, add small cream serif bottomfooter 'CONCEPT — SCIENTIFIC REVIEW PENDING; AGE / FIRST FLIGHT / SEX RATIO UNVERIFIED'. Keep title98 CHACO OWL/scientificname/adultroles exact; no boxes/rules/decorations/extraanimals."
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T21:47:07.152Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T21:47:10.057Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T21:47:13.020Z"
+        },
+        {
+          "stage": "VERIFICATION_EVIDENCE",
+          "at": "2026-11-26T21:47:35.707Z",
+          "evidence": "Both immutable originals/concepts full bytes SHA256/PILdecode passed; research/review readback passed"
+        }
+      ],
+      "target": "98-strix-chacoensis-v7",
+      "errors": [
+        "Verification process was still running when ledger credit was invoked; eventual exit0/fullbothhashdecode confirmed before nextcycle. Do not credit before observed exit0."
+      ],
+      "source_new": 0,
+      "source_reuse": 2,
+      "source_ids": [
+        "CHAO-NBO-2013",
+        "WHSO-MIKKOLA-2013"
+      ],
+      "meta": {
+        "bytes": 2883928,
+        "sha256": "cc6fef0e1652ebd0a28a28472aecbafcae5ae86447f011be2e4b6b766e870147",
+        "b64len": 3845240,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "9a9fdce01a9f3b2d511f360c53db83fea271dc50"
+      },
+      "imagegen_wait_seconds": 34.952,
+      "review": "Actualv6/v7 fullplates read against original NBO2013body+guidep336. Bothadultbills now muted horn-grey/brown nearbase gradingto yellowtip ratherthan solidyellow; samebeakshape/malefroggrip preserved. BroaderNBOyellowishbill and guidespecificbase/tip compatible qualitative descriptions, not calibratedcolourproven. Adultdarkiris/paleconcentricface/barredventrum/sparsecream-tarsalmarks/proximaltoefeathers/reddishhornclaws-darktips/twofootgrips/nearequalscale retained. Centralyoung unchangedveryfluffygreybuff/palegreyface/darkeyes/compactwing/shorttail/fullfootgrip, age/flight/barepartcolour/stage unresolved; curls not newclaim. Textnowageunknown/pendinglegible; no extraanimal/nest. PASS_WITH_LIMITATIONS/sciencefalse/noapproval. Lesson: narrowadultbase/tip colour edit can retain tip/shape in thisplate; do not import to young or#97bill.",
+      "archive_commit": "f64cb41bfd07aa9dbd7782ec125444caeb22f98c",
+      "ended_at": "2026-11-26T21:47:35.707Z",
+      "verified_commit": "0dd62c87cb51ebd9eb02594472a3a4ce92b18270",
+      "credit_commit": "dd1b4dc7dd4b6a1e2d48f7b8ec960d89f40ba350",
+      "run_record": "owl-pet/production/runs/20261126T2130Z-B2-cycle1-resume2130Z-98-strix-chacoensis-v7.json",
+      "verification_actual_readback_at": "2026-11-26T21:48:30.965Z",
+      "original_verification_commit": "bbb0004f537bfa00c111fcb14b0f163600f14358"
+    },
+    {
+      "batch_id": "20261126T2130Z-B2",
+      "cycle": 2,
+      "owner": "owl-production-20261126T2130Z",
+      "run_id": "20261126T2130Z",
+      "started_at": "2026-11-26T21:48:33.692Z",
+      "stage": "ARCHIVED",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T21:48:33.692Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T21:48:38.013Z",
+          "prompt": "Scientific scene correction #99 Bubo magellanicus v5. Keep all3birds and their exact anatomy/plumage/scale/pose, adults yellowirises/smallbluegreybills/narrowear tufts/white throat/finebarredventrum/dirtywhitefeatheredtoes/darkclaws/nearequalheight. Central approximately20day young stays low eyesopen greywhitedown-dominant, compact down-coveredwingbud/no mature remiges/concealedtail, bellyandtuckedfeet continuousfloor contact. CHANGE SUBSTRATE ONLY: remove ALL nest grasses, twigs, leaves, raisedrim and dryvegetation below/behind/aroundyoung. Replace them with flat bare beige concrete/tile balcony floor at the SAME supportheight under the young, continuous with recessedbalcony geometry. No bowl or nestlining. This is Novoa & Blanco2020p32 LoBarnechea documented balcony case, explicitly withoutnestmaterial; not a genericowl nest. Preserve buildingrail/ledges/hills and threebirds, adultfeet support. Keep title99/species/adultlabels; centerlabel use 'APPROX. 20-DAY NESTLING — CASE RECORD'. Add small dark serif bottomfooter overlightfloor 'RECORDED BALCONY CASE · CONCEPT — SCIENTIFIC REVIEW PENDING; FIRST FLIGHT / SEX RATIO UNVERIFIED'. No decorativeboxes beyond existingplainrolelabels, extraanimals/eggs or ages."
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T21:49:42.404Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T21:49:45.575Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T21:49:48.665Z"
+        },
+        {
+          "stage": "VERIFICATION_EVIDENCE",
+          "at": "2026-11-26T21:50:09.345Z",
+          "evidence": "Both immutable originals/concepts full bytes SHA256/PILdecode passed; research/review readback passed"
+        }
+      ],
+      "target": "99-bubo-magellanicus-v6",
+      "errors": [],
+      "source_new": 0,
+      "source_reuse": 2,
+      "source_ids": [
+        "MAG-NOVOA-BLANCO-2020-P31-33",
+        "MAG-MIK2013-266"
+      ],
+      "meta": {
+        "bytes": 2644530,
+        "sha256": "082bced1af739c6d4a53118cb5e59c8a6e44340661dca431297b5365370a937e",
+        "b64len": 3526040,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "a4fabb3e78d01a0e937da9f1756eddb13be30f47"
+      },
+      "imagegen_wait_seconds": 38.855,
+      "review": "Actual v5 and v6 fullplates viewed vs freshNovoaBlanco2020p32 body. Newbare continuous tiled/concrete balcony floor completelyreplaces fabricateddrygrass/leaves/twigrim, youngbellyandtuckedfeet supportedatfloor, nofloat; adultstableledges/footgrips retained. Younggreywhitedown/eyesopen/compactshortwingbud/no mature remiges/no tail unchanged, approx20daycasecaption retained butnotexacthatchorflightclaim. Threebirds remainillustrativecomposition not literalFig1two-young count. Adultnarrowtufts/yelloweyes/bluegreybill/whitethroat/finebars/dirtywhitetoefeathering/darkclaws/nearequalheight pass. Labelsrecordedcase/pending legible, no eggs/additional animals. PASS_WITH_LIMITATIONS/sciencefalse/noapproval. Historicalv5nestmaterialsourceassertioncorrectedandindexed, notsilentlyerased. Lesson: case-specific floor/lining sentence overrides genericowl-nest assumption or anothercasephoto; applied andviewedhere. Backcheckotherbalconycaseart should requirecaseID, not blanketremovealllining.",
+      "archive_commit": "20310c6ee99fcfa9dc1390965f26cd673231360f",
+      "ended_at": "2026-11-26T21:50:09.345Z",
+      "verified_commit": "cb77606021fa7439f4c2893d0ac292e1c5873c82",
+      "credit_commit": "3db39f1f29c41741aa1854113f961723317e9bc0",
+      "run_record": "owl-pet/production/runs/20261126T2130Z-B2-cycle2-resume2130Z-99-bubo-magellanicus-v6.json"
+    },
+    {
+      "batch_id": "20261126T2130Z-B2",
+      "cycle": 3,
+      "owner": "owl-production-20261126T2130Z",
+      "run_id": "20261126T2130Z",
+      "started_at": "2026-11-26T21:50:17.514Z",
+      "stage": "ARCHIVED",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T21:50:17.514Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T21:50:50.202Z",
+          "prompt": "Annotation-only correction on #100 Strix huhula v6 scientific concept plate, ALL BIRDS, FEATHERS, ANATOMY, PALE ADULT CLAW BASES/DARKTIPS, FEET/GRIPS, NESTFORK/EPIPHYTES, LIGHTING/STYLE and composition UNCHANGED. Keep exact top title100 BLACK-BANDED OWL Strix huhula and adultrolelabels. Replace center NEST YOUNG label with two cream serif lines 'AGE-UNKNOWN NEST YOUNG' / 'S. h. albomarginata · recorded nest stage'. Add small cream serif footer alongbottom y1002 'CONCEPT — SCIENTIFIC REVIEW PENDING; EXACT AGE / FIRST FLIGHT / SEX RATIO UNVERIFIED'. Existing 2010Misiones angico-fork young stage is described by BodratiCockle2013p175, not a measuredhatchage. No new biologicalpainting, no wingsopened/flight/action, no boxes/borders/goldrules/extra birds. Only requestedtexts."
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T21:51:55.827Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T21:51:58.891Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T21:52:02.019Z"
+        },
+        {
+          "stage": "VERIFICATION_EVIDENCE",
+          "at": "2026-11-26T21:52:22.573Z",
+          "evidence": "Both immutable originals/concepts full bytes SHA256/PILdecode passed; research/review readback passed"
+        }
+      ],
+      "target": "100-strix-huhula-v7",
+      "errors": [
+        "Legacy SORA paper URL redirected to collection; recovered actualauthorbody and institutional article record"
+      ],
+      "source_new": 0,
+      "source_reuse": 2,
+      "annotation_only": true,
+      "source_url_correction": 1,
+      "source_ids": [
+        "HUH-BC2013",
+        "HUH-MIK2013-340"
+      ],
+      "meta": {
+        "bytes": 3073935,
+        "sha256": "a2c5e4f97a33d227198629aafb1b7ad3740d3a351a932a9ad792761c9f0c5c95",
+        "b64len": 4098580,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "2e1400bdc5e2c318c5bb6e265e204b5960c71f94"
+      },
+      "imagegen_wait_seconds": 30.589,
+      "review": "Actualv6/v7 fullplates viewed plus freshHUH-BC2013p175body andguide340. Annotation-onlytargetcomplete: age-unknown nestyoung, S.h.albomarginata recordedstage and exactage/firstflight/sexratio-unverifiedscientificpendingfooterlegible. Threebirds/currentname/adultrolelabels maintained; rounduntuftedadultheads/darkbrowniris/yellowbill/finewhitishwavebars/featheredtarsi/bareochretoes/palehornclawbases-darktips retained. Centralpalegreyblackbarredyoung/heartmask-whiteborder/yellowbill/compactfoldedwing/concealedtail/active-supportedstanding unchanged; allfeet supportedonbroadangicoepiphyticfork, no cavityinvented. Primarywalkingobservationdoesnotproveflight orprecisehatchage; illustrationcompresses nestarchitecture and isnotmeasuredreconstruction. PASS_WITH_LIMITATIONS/sciencefalse/noapproval; notcountedasnewmorphologicaldiscovery. Lesson: afteractualcheckfindsnojustifiedmorphologyedit, preservevalidcontentandmakecase/unknownstatusvisible; annotationonlydistinctfromsciencecalibration. URLrecoveryupdatemustnotclaimredirectcollectionaspaper.",
+      "archive_commit": "e828cec765363b181aa255a65f65c724abf0b6d6",
+      "ended_at": "2026-11-26T21:52:22.573Z",
+      "verified_commit": "612a2043034c2f5a7109732fc68e6810ae31a6fc",
+      "credit_commit": "b6aee941f0897bc88e9d74a1e132cea89c348b12",
+      "run_record": "owl-pet/production/runs/20261126T2130Z-B2-cycle3-resume2130Z-100-strix-huhula-v7.json"
+    }
+  ],
+  "runs": [
+    {
+      "batch_id": "20261126T2030Z-B2",
+      "cycle": 4,
+      "owner": "owl-production-20261126T2130Z",
+      "run_id": "20261126T2130Z",
+      "started_at": "2026-11-26T21:31:46.741Z",
+      "stage": "VERIFIED",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T21:31:46.741Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T21:34:14.011Z",
+          "prompt": "Use case: stylized-concept. Create a NEW complete1536x1024 polished naturalistic owl-pet family plate number95 BAND-BELLIED OWL, subtitle Pulsatrix melanota. Image1 adult-only source gives SPECIES/STYLE, no prior generated juvenile is supplied. Image2 is only same-species photographic upper-body DOWN-TEXTURE reference from Mikkola2013p314, an OLDER young: borrow natural directional soft feather texture only, NOT its fully formed wings/tail/phase. Three birds in PeruYungas shade-coffee/plantain remnant forest, on broad mossy Albizia fork (natural substrate, notliteralactive nest). Left adult male/rightadultfemale nearlysameheight (unknownsexratio), darkbrownheads/backs, darkreddish-browneyes, pale yellow bills/greyishcere, white broad spectacles/throat/half-collar, broadbrownchestband, reddish-brown bars oncreamyventrum, featheredtarsi/baregrey-browntoes/hornclawsblacktips, twofootgrips. Center AGE-UNKNOWN DEPENDENT YOUNG: primarily soft CINNAMON down, mottled patchy creamwhite crown transition/darkblackish face/darkbrowneyes/yellowbill, a few tiny emerging chestfeathers but no adult barredbib. Dense softly blended short fine down with gentle directional flecks and subtle irregularclumps, not long curledwires/closedloops/woolringlets or repetitive scallops. Short developing foldedwings largelyveiledbydown, concealedshorttail, low relaxedside-lookingcrouch, BOTH feet andbelly naturally supported by broadfork. Primary2022textsupports thiswhitecrown/cinnamonphase, photographtextureonly doesNOTjustifyadultlengthwings. Exactly3fullowls, allfeet onwood/no duplicateanatomy orartificialnestbowl. Warm naturalisticpetconceptstyleasimage1. REQUIRED first-render labels at bottom y920: ADULT MALE underleft, AGE-UNKNOWN DEPENDENT YOUNG undercenter, ADULT FEMALE underright. Smallerfooter y985 'CONCEPT — SCIENTIFIC REVIEW PENDING; AGE / FIRST FLIGHT / SEX RATIO UNVERIFIED'. Title95/species clear, no other ages or sex ratio claims."
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T21:35:34.617Z",
+          "attempt": 1,
+          "meta": {
+            "bytes": 2957967,
+            "sha256": "ea297c8fbf6f6e26905a28d0e52b70b85568b5137d9ddce9baeb652e626cf6f6",
+            "b64len": 3943956,
+            "size": [
+              1536,
+              1024
+            ],
+            "gitblob": "db3e41fcb15a4c8d2b2a2cafd3d586238a2eca2d"
+          },
+          "wait_seconds": 30.015,
+          "review": "Downlessrepeatedloops, but unrequestedgoldornament/labelboxes; stylecorrectionneeded"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T21:35:37.595Z",
+          "attempt": 2,
+          "prompt": "Graphic-only style correction on this95familyplate. REMOVE all gold decorative rules/lines at header/footer and all three black/gold outlined label boxes. Render existing words in plain white serif text directly over the forest, same style as main BAND-BELLIED OWL heading; change goldnumber95 towhite. Keep title/subtitle/rolewords/footer exactlythe same, ALL bird/feather/down/anatomy/feet/branch/background content UNCHANGED, especially the newly natural directional cinnamon youngdown and creamcrown/blackface/darkeyes/shortwing. Do NOT repaint any bird or add ornamentalobjects. Only typography borders/colour correction, no scene redesign."
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T21:37:18.842Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T21:37:21.997Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T21:37:25.063Z"
+        },
+        {
+          "stage": "VERIFICATION_EVIDENCE",
+          "at": "2026-11-26T21:40:16.701Z",
+          "evidence": "Both immutable originals/concepts full bytes SHA256/PILdecode passed; research/review readback passed"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-26T21:40:16.702Z"
+        }
+      ],
+      "target": "95-pulsatrix-melanota-v8",
+      "errors": [
+        "Fig3image404; correctedURL403; RGoriginalPDF403; publisher503/nonaccessible; no actualFig3pixelsclaim",
+        "First fresh generation invented gold rules and boxed rolelabels"
+      ],
+      "source_new": 0,
+      "source_reuse": 2,
+      "photo_access_upgrade": 1,
+      "source_ids": [
+        "MEL-RIVAS-FUENZALIDA-BURGOS-2022-84-88",
+        "WHSO-MIKKOLA-2013"
+      ],
+      "first_imagegen_wait_seconds": 30.015,
+      "meta": {
+        "bytes": 2657861,
+        "sha256": "abfb3902b027899cf7649985f313f0c5809fd1637dd0fd33e69987436c053bb6",
+        "b64len": 3543816,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "4d366753f33ab7e42ede870984453b1b1cd06971"
+      },
+      "second_imagegen_wait_seconds": 37.441,
+      "review": "Actualv7record/adultstylecrop/uploadedguidep314wholephoto+upperbodycrop, newfirstdraft/finalfull/nativeyoungcrop viewed. Finalcinnamondown has directionalsofterfineflecks/irregularclumps and markedlylessrepeatedclosedringlets thanv7; creamcrown/darkmask/darkiris/yellowbill/tinychestfeathers/compactdevelopingfoldedwing/concealedtail/twofoot+bellyforksupport retained. Somefinefilamentstylization remainsnotliteralatlas. Primaryoldergroundyoungphase notnatalhatchlingandnotexactguideolderformedwingtail transfer. Adultsdarkeyes/whiteface/paleyellowbill/broadchestband/rustybellybars/featheredlegs/baretoes/nearequalheightcorrectinnewcomposition. Firstgoldboxes/rulesremovedinsecondcall; plainwhitelegibletitle95/roles/footer nowconsistent. PASS_WITH_LIMITATIONS/sciencefalse/no newconfirmation. Freshadult-onlystyling+photodownreferencehelpedinthisimageonly; graphicsre-edit didnotobviouslyrestorev7loops. No newFig3pixelsclaim/flight/sexratio.",
+      "archive_commit": "f6a98334923c2fdb0c59be07430f872b1ea6ed62",
+      "ended_at": "2026-11-26T21:40:16.701Z"
+    },
+    {
+      "batch_id": "20261126T2030Z-B2",
+      "cycle": 5,
+      "owner": "owl-production-20261126T2130Z",
+      "run_id": "20261126T2130Z",
+      "started_at": "2026-11-26T21:40:23.929Z",
+      "stage": "VERIFIED",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T21:40:23.929Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T21:40:51.865Z",
+          "prompt": "Local scientific texture correction of existing #86 Otus elegans interpositus plate, image1. Image2 is actual same-subspecies nest-young HEAD photograph from Bird Research News 2011 printed4 Photo1; use ONLY its qualitatively short soft directional grey-brown facial/crown down, not unseen body/age/flight. On RIGHT young only, change crown, forehead, ear-side/cheek surface from long ornamental curl loops/wool ringlets into short fine matte directional down with subtle irregular soft clumps. Retain existing warm grey-brown palette, silhouette, eye/bill/tuft positions and mouth expression; avoid adult streaks and sharp mature feathers. Do not change its body/wings/tail/feet or branch pose; these remain scientifically unverified, not inferred from the photo. BOTH adult owls entirely unchanged especially fine faint chest crossmarks, yelloweyes, darkbills, grey BARE toes/blackhornclaws, near-equalheight. Preserve all typography, number86, labels/scientificpending footer, background/style and composition exactly. Only right young head/face down texture."
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T21:41:54.019Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T21:41:57.089Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T21:42:00.472Z"
+        },
+        {
+          "stage": "VERIFICATION_EVIDENCE",
+          "at": "2026-11-26T21:42:18.228Z",
+          "evidence": "Both immutable originals/concepts full bytes SHA256/PILdecode passed; research/review readback passed"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-26T21:42:18.229Z"
+        }
+      ],
+      "target": "86-otus-elegans-v9",
+      "errors": [],
+      "source_new": 0,
+      "source_reuse": 2,
+      "photo_access_upgrade": 1,
+      "source_ids": [
+        "ELE-BIRD-RESEARCH-NEWS-2011-P1-2",
+        "WHSO-MIKKOLA-2013"
+      ],
+      "meta": {
+        "bytes": 2696088,
+        "sha256": "81b9410cae996c879002eaa5827a18349ba066f82f8c9331c38ddece52ebaa3f",
+        "b64len": 3594784,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "9369ecb5221c4b55b2f68cb4379ff7b8582569e4"
+      },
+      "imagegen_wait_seconds": 37.648,
+      "review": "Actual institutional2011PDF printed4 Photo1 fullpage/head crop, v8 and v9 full images viewed. Right young crown/cheeks now shorter directional soft down, repeated closed loop filaments markedly reduced on head; some long fine wisps and body curls remain. Scope is head only; actual photo lowresolution and nest-cavity head cannot support body/age/flight. Adult fine faint crossmarks/shaftstreaks, yelloweyes/darkbills/greybaretoes/blackclaws/near-equalheight, Casuarina/cane, allsupport/labels/footer retained. Young existing folded wing/body/branch pose remains age/phase/firstflight unverified. PASS_WITH_LIMITATIONS, scientifically_verified=false, no new userconfirmation. Photo reference plus tightly scoped head correction visually worked here; not a validated universal down rule and not body correction.",
+      "archive_commit": "b31cf4b1687753df932c3695034ce7c470f532b6",
+      "ended_at": "2026-11-26T21:42:18.228Z"
+    },
+    {
+      "batch_id": "20261126T2030Z-B2",
+      "cycle": 6,
+      "owner": "owl-production-20261126T2130Z",
+      "run_id": "20261126T2130Z",
+      "started_at": "2026-11-26T21:42:41.383Z",
+      "stage": "VERIFIED",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T21:42:41.383Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T21:43:08.218Z",
+          "prompt": "Precise edit of #97 Lophostrix cristata v6. On BOTH ADULT chest/belly underparts only, soften current dark thick close-packed zigzag bands into much finer faint irregular brown vermiculations over pale brown; retain subtle natural mottling, no bold black ladder bars, no dark vertical shaft stripes. Source Mikkola2013p358 brown morph pale brownish below upper breast with faint brown vermiculations and unstreaked underparts. Do NOT change correctly narrowed adult TAIL bars from v6, nor wing bars, facialdisc/long white ear plumes/dark orangebrown eyes/yellowhorn bills/feet/near-equalheight. CENTRAL young entirely unchanged: its fine down, whitebody/darkrufousface/shorttufts/formedfoldedbrownwings and low twofoot branchsupport not new anatomy. No forced femaleheight. Text-only also replace center label OLDER JUVENILE with AGE-UNKNOWN DEPENDENT YOUNG, and bottom locality line with small cream serif footer 'Humid lowland forest · CONCEPT — SCIENTIFIC REVIEW PENDING; AGE / FIRST FLIGHT / SEX RATIO UNVERIFIED'. Keep number97/title/current scientificname/adultlabels; same warm naturalistic style and jungle/background/three birds/support. No borders, boxes, gold rules or other decorations."
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T21:44:17.417Z",
+          "attempt": 1,
+          "meta": {
+            "bytes": 2618430,
+            "sha256": "43f68599248fa73d2f3ce36bd6805abc2329b4c6567648aa219822adef60f65a",
+            "b64len": 3491240,
+            "size": [
+              1536,
+              1024
+            ],
+            "gitblob": "f215570da50dfe4132683ba385979de5ae959504"
+          },
+          "wait_seconds": 41.52,
+          "review": "First underbody edit spread pale fill to adult upperbreast; Mikkola p358 requires dark chocolate neck/upperbreast"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T21:44:17.417Z",
+          "attempt": 2,
+          "prompt": "Local correction of #97 firstedit: BOTH ADULTS must retain a DARK CHOCOLATE-BROWN NECK AND UPPER BREAST below the face, with small dull yellowish throat area, as Mikkola2013p358. Deepen ONLY adult upper-breast/neck feather colour into dark chocolate-brown, softly merging at mid-chest into the already improved PALE BROWN LOWER BREAST/BELLY with faint fine vermiculations. Do not spread pale tan up to throat, do not turn entire belly dark, do not restore bold black bars on lowerunderparts. Preserve all tails, wing pattern, heads/whiteplumes/eyes/bills, feet/support, centralyoung entirely, every existing correctedlabel/footer/background/composition. No other changes."
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T21:45:17.415Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T21:45:20.805Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T21:45:24.014Z"
+        },
+        {
+          "stage": "VERIFICATION_EVIDENCE",
+          "at": "2026-11-26T21:45:51.849Z",
+          "evidence": "Both immutable originals/concepts full bytes SHA256/PILdecode passed; research/review readback passed"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-26T21:45:51.850Z"
+        }
+      ],
+      "target": "97-lophostrix-cristata-v7",
+      "errors": [
+        "First underbody edit spread pale fill to adult upperbreast; Mikkola p358 requires dark chocolate neck/upperbreast"
+      ],
+      "source_new": 0,
+      "source_reuse": 2,
+      "source_ids": [
+        "CRI-MIK2013-358",
+        "CRI-BIRDS-BOLIVIA-2026"
+      ],
+      "first_imagegen_wait_seconds": 41.52,
+      "meta": {
+        "bytes": 2531350,
+        "sha256": "09251bcb9f493b427de87e1700eebe72b6b398b566659377662ab4e17b535fa3",
+        "b64len": 3375136,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "a0299c59b183ec952ad0c9b7f99a5b0b0f41d94d"
+      },
+      "second_imagegen_wait_seconds": 35.431,
+      "review": "Actualv6/firstedit/final fullimages and guide p358 text viewed; external Boliviabody read. Final adult lowerbreast/belly now palebrown with finer fainter irregularvermiculations, notoldboldblackzigzags. Firstedit incorrectly paledupperbreast; second restoreddarkchocolateneck/upperbreast and smalldullyellowthroat, mergingto palelowerbelly. Width/contrast qualitative, notmeasuredbiologicalthreshold. v6narrowtailbars/wingbars/whiteplumes/darkorangebrown eyes/yellowhornbills/baregrey-browntoes/darkclaws, near-equaladultheight retained; youngwhite/darkrufousface/shorttufts/foldedbrownwings/twofootlowforksupport unchanged andage/flightunknown. Labelsnowageunknownandsciencepending, legible. Some decorativefinefeathertexture remains. PASS_WITH_LIMITATIONS/sciencefalse/noapproval. Lesson: restrict faintpattern edit to LOWER underparts and explicitlypreservedark upperbreast; applied2ndprompt andviewvalidatedinthisplate only. Prior#86shaftstreakcrossmarks aredifferenttaxon, no transfer.",
+      "archive_commit": "cef3122b6674568e6bb1956fc5c1aeffb07e6ab4",
+      "ended_at": "2026-11-26T21:45:51.849Z"
+    },
+    {
+      "batch_id": "20261126T2130Z-B2",
+      "cycle": 1,
+      "owner": "owl-production-20261126T2130Z",
+      "run_id": "20261126T2130Z",
+      "started_at": "2026-11-26T21:46:00.346Z",
+      "stage": "VERIFIED",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T21:46:00.346Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T21:46:04.352Z",
+          "prompt": "Precise local edit of #98 Strix chacoensis v6. On BOTH ADULT BILLS only, change the current almost uniform brightyellow beak into muted HORN-GREY/brown proximal upperbill and cere, grading to yellowish distal tip. Preserve exact beakshape/expression, male's onefroggrip, darkeyes and face. Basis Mikkola2013p336 horn-colouredbill yellowish at tip, NBO2013 broader yellowishbill account; no blackentirebill. Do NOT change central juvenile bill or eyes (age-specific bareparts notverified). Keep alreadycorrect sparse adult tarsalmarks/proximaltoefeathers/reddishhornclaws/darktips/allfootgrips, adult plumage/bodybalance/youngbody/fluff/foldedwing/shorttail/nestfreebranch/Chacothornscrub background. Text-only replace center two-line role with AGE-UNKNOWN DEPENDENT YOUNG, add small cream serif bottomfooter 'CONCEPT — SCIENTIFIC REVIEW PENDING; AGE / FIRST FLIGHT / SEX RATIO UNVERIFIED'. Keep title98 CHACO OWL/scientificname/adultroles exact; no boxes/rules/decorations/extraanimals."
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T21:47:07.152Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T21:47:10.057Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T21:47:13.020Z"
+        },
+        {
+          "stage": "VERIFICATION_EVIDENCE",
+          "at": "2026-11-26T21:47:35.707Z",
+          "evidence": "Both immutable originals/concepts full bytes SHA256/PILdecode passed; research/review readback passed"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-26T21:47:35.708Z"
+        }
+      ],
+      "target": "98-strix-chacoensis-v7",
+      "errors": [
+        "First readback poll still running when original ledger credit invoked; final bothimmutablepaths SHA256/bytes/PIL exit0 observed before nextcycle. Subsequent correction accidentally copied stale stage ARCHIVED; this audit restores actual VERIFIED from original verificationcommit and preserves error history."
+      ],
+      "source_new": 0,
+      "source_reuse": 2,
+      "source_ids": [
+        "CHAO-NBO-2013",
+        "WHSO-MIKKOLA-2013"
+      ],
+      "meta": {
+        "bytes": 2883928,
+        "sha256": "cc6fef0e1652ebd0a28a28472aecbafcae5ae86447f011be2e4b6b766e870147",
+        "b64len": 3845240,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "9a9fdce01a9f3b2d511f360c53db83fea271dc50"
+      },
+      "imagegen_wait_seconds": 34.952,
+      "review": "Actualv6/v7 fullplates read against original NBO2013body+guidep336. Bothadultbills now muted horn-grey/brown nearbase gradingto yellowtip ratherthan solidyellow; samebeakshape/malefroggrip preserved. BroaderNBOyellowishbill and guidespecificbase/tip compatible qualitative descriptions, not calibratedcolourproven. Adultdarkiris/paleconcentricface/barredventrum/sparsecream-tarsalmarks/proximaltoefeathers/reddishhornclaws-darktips/twofootgrips/nearequalscale retained. Centralyoung unchangedveryfluffygreybuff/palegreyface/darkeyes/compactwing/shorttail/fullfootgrip, age/flight/barepartcolour/stage unresolved; curls not newclaim. Textnowageunknown/pendinglegible; no extraanimal/nest. PASS_WITH_LIMITATIONS/sciencefalse/noapproval. Lesson: narrowadultbase/tip colour edit can retain tip/shape in thisplate; do not import to young or#97bill.",
+      "archive_commit": "f64cb41bfd07aa9dbd7782ec125444caeb22f98c",
+      "ended_at": "2026-11-26T21:47:35.707Z",
+      "verification_actual_readback_at": "2026-11-26T21:48:30.965Z",
+      "audit_restored_at": "2026-11-26T21:52:53.261Z"
+    },
+    {
+      "batch_id": "20261126T2130Z-B2",
+      "cycle": 2,
+      "owner": "owl-production-20261126T2130Z",
+      "run_id": "20261126T2130Z",
+      "started_at": "2026-11-26T21:48:33.692Z",
+      "stage": "VERIFIED",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T21:48:33.692Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T21:48:38.013Z",
+          "prompt": "Scientific scene correction #99 Bubo magellanicus v5. Keep all3birds and their exact anatomy/plumage/scale/pose, adults yellowirises/smallbluegreybills/narrowear tufts/white throat/finebarredventrum/dirtywhitefeatheredtoes/darkclaws/nearequalheight. Central approximately20day young stays low eyesopen greywhitedown-dominant, compact down-coveredwingbud/no mature remiges/concealedtail, bellyandtuckedfeet continuousfloor contact. CHANGE SUBSTRATE ONLY: remove ALL nest grasses, twigs, leaves, raisedrim and dryvegetation below/behind/aroundyoung. Replace them with flat bare beige concrete/tile balcony floor at the SAME supportheight under the young, continuous with recessedbalcony geometry. No bowl or nestlining. This is Novoa & Blanco2020p32 LoBarnechea documented balcony case, explicitly withoutnestmaterial; not a genericowl nest. Preserve buildingrail/ledges/hills and threebirds, adultfeet support. Keep title99/species/adultlabels; centerlabel use 'APPROX. 20-DAY NESTLING — CASE RECORD'. Add small dark serif bottomfooter overlightfloor 'RECORDED BALCONY CASE · CONCEPT — SCIENTIFIC REVIEW PENDING; FIRST FLIGHT / SEX RATIO UNVERIFIED'. No decorativeboxes beyond existingplainrolelabels, extraanimals/eggs or ages."
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T21:49:42.404Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T21:49:45.575Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T21:49:48.665Z"
+        },
+        {
+          "stage": "VERIFICATION_EVIDENCE",
+          "at": "2026-11-26T21:50:09.345Z",
+          "evidence": "Both immutable originals/concepts full bytes SHA256/PILdecode passed; research/review readback passed"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-26T21:50:09.346Z"
+        }
+      ],
+      "target": "99-bubo-magellanicus-v6",
+      "errors": [],
+      "source_new": 0,
+      "source_reuse": 2,
+      "source_ids": [
+        "MAG-NOVOA-BLANCO-2020-P31-33",
+        "MAG-MIK2013-266"
+      ],
+      "meta": {
+        "bytes": 2644530,
+        "sha256": "082bced1af739c6d4a53118cb5e59c8a6e44340661dca431297b5365370a937e",
+        "b64len": 3526040,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "a4fabb3e78d01a0e937da9f1756eddb13be30f47"
+      },
+      "imagegen_wait_seconds": 38.855,
+      "review": "Actual v5 and v6 fullplates viewed vs freshNovoaBlanco2020p32 body. Newbare continuous tiled/concrete balcony floor completelyreplaces fabricateddrygrass/leaves/twigrim, youngbellyandtuckedfeet supportedatfloor, nofloat; adultstableledges/footgrips retained. Younggreywhitedown/eyesopen/compactshortwingbud/no mature remiges/no tail unchanged, approx20daycasecaption retained butnotexacthatchorflightclaim. Threebirds remainillustrativecomposition not literalFig1two-young count. Adultnarrowtufts/yelloweyes/bluegreybill/whitethroat/finebars/dirtywhitetoefeathering/darkclaws/nearequalheight pass. Labelsrecordedcase/pending legible, no eggs/additional animals. PASS_WITH_LIMITATIONS/sciencefalse/noapproval. Historicalv5nestmaterialsourceassertioncorrectedandindexed, notsilentlyerased. Lesson: case-specific floor/lining sentence overrides genericowl-nest assumption or anothercasephoto; applied andviewedhere. Backcheckotherbalconycaseart should requirecaseID, not blanketremovealllining.",
+      "archive_commit": "20310c6ee99fcfa9dc1390965f26cd673231360f",
+      "ended_at": "2026-11-26T21:50:09.345Z"
+    },
+    {
+      "batch_id": "20261126T2130Z-B2",
+      "cycle": 3,
+      "owner": "owl-production-20261126T2130Z",
+      "run_id": "20261126T2130Z",
+      "started_at": "2026-11-26T21:50:17.514Z",
+      "stage": "VERIFIED",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T21:50:17.514Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T21:50:50.202Z",
+          "prompt": "Annotation-only correction on #100 Strix huhula v6 scientific concept plate, ALL BIRDS, FEATHERS, ANATOMY, PALE ADULT CLAW BASES/DARKTIPS, FEET/GRIPS, NESTFORK/EPIPHYTES, LIGHTING/STYLE and composition UNCHANGED. Keep exact top title100 BLACK-BANDED OWL Strix huhula and adultrolelabels. Replace center NEST YOUNG label with two cream serif lines 'AGE-UNKNOWN NEST YOUNG' / 'S. h. albomarginata · recorded nest stage'. Add small cream serif footer alongbottom y1002 'CONCEPT — SCIENTIFIC REVIEW PENDING; EXACT AGE / FIRST FLIGHT / SEX RATIO UNVERIFIED'. Existing 2010Misiones angico-fork young stage is described by BodratiCockle2013p175, not a measuredhatchage. No new biologicalpainting, no wingsopened/flight/action, no boxes/borders/goldrules/extra birds. Only requestedtexts."
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T21:51:55.827Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T21:51:58.891Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T21:52:02.019Z"
+        },
+        {
+          "stage": "VERIFICATION_EVIDENCE",
+          "at": "2026-11-26T21:52:22.573Z",
+          "evidence": "Both immutable originals/concepts full bytes SHA256/PILdecode passed; research/review readback passed"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-26T21:52:22.575Z"
+        }
+      ],
+      "target": "100-strix-huhula-v7",
+      "errors": [
+        "Legacy SORA paper URL redirected to collection; recovered actualauthorbody and institutional article record"
+      ],
+      "source_new": 0,
+      "source_reuse": 2,
+      "annotation_only": true,
+      "source_url_correction": 1,
+      "source_ids": [
+        "HUH-BC2013",
+        "HUH-MIK2013-340"
+      ],
+      "meta": {
+        "bytes": 3073935,
+        "sha256": "a2c5e4f97a33d227198629aafb1b7ad3740d3a351a932a9ad792761c9f0c5c95",
+        "b64len": 4098580,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "2e1400bdc5e2c318c5bb6e265e204b5960c71f94"
+      },
+      "imagegen_wait_seconds": 30.589,
+      "review": "Actualv6/v7 fullplates viewed plus freshHUH-BC2013p175body andguide340. Annotation-onlytargetcomplete: age-unknown nestyoung, S.h.albomarginata recordedstage and exactage/firstflight/sexratio-unverifiedscientificpendingfooterlegible. Threebirds/currentname/adultrolelabels maintained; rounduntuftedadultheads/darkbrowniris/yellowbill/finewhitishwavebars/featheredtarsi/bareochretoes/palehornclawbases-darktips retained. Centralpalegreyblackbarredyoung/heartmask-whiteborder/yellowbill/compactfoldedwing/concealedtail/active-supportedstanding unchanged; allfeet supportedonbroadangicoepiphyticfork, no cavityinvented. Primarywalkingobservationdoesnotproveflight orprecisehatchage; illustrationcompresses nestarchitecture and isnotmeasuredreconstruction. PASS_WITH_LIMITATIONS/sciencefalse/noapproval; notcountedasnewmorphologicaldiscovery. Lesson: afteractualcheckfindsnojustifiedmorphologyedit, preservevalidcontentandmakecase/unknownstatusvisible; annotationonlydistinctfromsciencecalibration. URLrecoveryupdatemustnotclaimredirectcollectionaspaper.",
+      "archive_commit": "e828cec765363b181aa255a65f65c724abf0b6d6",
+      "ended_at": "2026-11-26T21:52:22.573Z"
+    }
+  ],
+  "limits": "No exact researchCPU/reviewCPU/upload isolated telemetry; no platformtimeout telemetry; all finalbytes hashes verified. Original98orderingfailure recorded/repaired."
+}

@@ -56291,10 +56291,12 @@
         {
           "cycle": 1,
           "species": "98-strix-chacoensis-v7",
-          "commit_sha": "bbb0004f537bfa00c111fcb14b0f163600f14358",
+          "commit_sha": "0dd62c87cb51ebd9eb02594472a3a4ce92b18270",
           "archive_commit": "f64cb41bfd07aa9dbd7782ec125444caeb22f98c",
           "run_record": "owl-pet/production/runs/20261126T2130Z-B2-cycle1-resume2130Z-98-strix-chacoensis-v7.json",
-          "verified_at": "2026-11-26T21:47:38.963Z"
+          "verified_at": "2026-11-26T21:47:38.963Z",
+          "original_verification_commit": "bbb0004f537bfa00c111fcb14b0f163600f14358",
+          "audit_note": "Actualexit0 observed before nextcycle; restored VERIFIED run with ordering correction, no extra cycle credit."
         },
         {
           "cycle": 2,
@@ -56450,7 +56452,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-26T21:52:25.825Z",
+  "updated_at": "2026-11-26T21:54:32.441Z",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -63876,7 +63878,7 @@
       }
     }
   ],
-  "active_batch_id": "20261126T2030Z-B2",
+  "active_batch_id": "20261126T2130Z-B2",
   "active_cycle": null,
   "current_stage": "IDLE",
   "next_cycle": 4,
@@ -74545,7 +74547,7 @@
     }
   ],
   "last_completed_batch_id": "20261126T1545Z",
-  "active_batch": "20261126T1630Z-B2",
+  "active_batch": "20261126T2130Z-B2",
   "events": [
     {
       "batch_id": "20261105T183434+0800",
@@ -86172,67 +86174,67 @@
       "pseudoscops-grammicus": "asio-grammicus"
     }
   },
-  "next_action": "Resume oldest PARTIAL20261126T1630Z-B2 cycle4; no image generated/start reserved, lease null.",
+  "next_action": "Resume oldest PARTIAL20261126T2130Z-B2 cycle4 after freshmain/lease. No nextspecies reserved/generated.",
   "last_invocation": {
-    "run_id": "20261126T2030Z",
+    "run_id": "20261126T2130Z",
     "completed_cycles_this_invocation": 6,
     "new_species": 0,
     "revised_species": 6,
     "unique_species": 207,
     "total_species": 251,
     "archive_commits": [
-      "dd1f2270183485d6d7127ae5e95128e92443d810",
-      "9d2f350cac766a4116daba82e5e39ef9bf228f9f",
-      "8a9a814bd409f694862111f2759b29e28baa660c",
-      "99610f9ace546f5d52edf25bedc40ed58dba5c20",
-      "c750ab9fa7d0fa9facae240d0ee9bf0a38769895",
-      "4a01c385bc7a9eb0cffe2d25c375aac8cbf8efe9"
+      "f6a98334923c2fdb0c59be07430f872b1ea6ed62",
+      "b31cf4b1687753df932c3695034ce7c470f532b6",
+      "cef3122b6674568e6bb1956fc5c1aeffb07e6ab4",
+      "f64cb41bfd07aa9dbd7782ec125444caeb22f98c",
+      "20310c6ee99fcfa9dc1390965f26cd673231360f",
+      "e828cec765363b181aa255a65f65c724abf0b6d6"
     ],
     "verification_commits": [
-      "23b598cefe13d4f73b0ca208021696b5a4e379e8",
-      "0219e0984f8cef364a5c9e72a2da584a5de6a7db",
-      "9cb33f92c455da67ab9aafcc8594305f05d81fb5",
-      "d490d12c3457662fb46c391b356e89cc7817d3af",
-      "92837fe994df9c548218614df236ccb428e35935",
-      "912ffda2b2aff9a5e3dade625d2646fa07765f49"
+      "7bc2b827f6fc5bfa79bf9f9599dd08c7a865e5e8",
+      "9f7d2977a4e7a2d69a449845f0bd3fcb2be08323",
+      "5db73b4ac2309a553c93b178d6896a021585934c",
+      "0dd62c87cb51ebd9eb02594472a3a4ce92b18270",
+      "cb77606021fa7439f4c2893d0ac292e1c5873c82",
+      "612a2043034c2f5a7109732fc68e6810ae31a6fc"
     ],
-    "report": "owl-pet/production/batches/20261126T2030Z-six-cycle-review.md",
-    "current_batch_id": "20261126T2030Z-B2",
+    "report": "owl-pet/production/batches/20261126T2130Z-six-cycle-review.md",
+    "current_batch_id": "20261126T2130Z-B2",
     "current_batch_completed": 3,
     "next_cycle": 4,
     "other_partial_batches": 0,
     "lease": null,
-    "at": "2026-11-26T20:54:12.652Z"
+    "at": "2026-11-26T21:54:32.441Z"
   },
   "latest_delivery": {
-    "run_id": "20261126T2030Z",
+    "run_id": "20261126T2130Z",
     "completed_cycles_this_invocation": 6,
     "new_species": 0,
     "revised_species": 6,
     "unique_species": 207,
     "total_species": 251,
     "archive_commits": [
-      "dd1f2270183485d6d7127ae5e95128e92443d810",
-      "9d2f350cac766a4116daba82e5e39ef9bf228f9f",
-      "8a9a814bd409f694862111f2759b29e28baa660c",
-      "99610f9ace546f5d52edf25bedc40ed58dba5c20",
-      "c750ab9fa7d0fa9facae240d0ee9bf0a38769895",
-      "4a01c385bc7a9eb0cffe2d25c375aac8cbf8efe9"
+      "f6a98334923c2fdb0c59be07430f872b1ea6ed62",
+      "b31cf4b1687753df932c3695034ce7c470f532b6",
+      "cef3122b6674568e6bb1956fc5c1aeffb07e6ab4",
+      "f64cb41bfd07aa9dbd7782ec125444caeb22f98c",
+      "20310c6ee99fcfa9dc1390965f26cd673231360f",
+      "e828cec765363b181aa255a65f65c724abf0b6d6"
     ],
     "verification_commits": [
-      "23b598cefe13d4f73b0ca208021696b5a4e379e8",
-      "0219e0984f8cef364a5c9e72a2da584a5de6a7db",
-      "9cb33f92c455da67ab9aafcc8594305f05d81fb5",
-      "d490d12c3457662fb46c391b356e89cc7817d3af",
-      "92837fe994df9c548218614df236ccb428e35935",
-      "912ffda2b2aff9a5e3dade625d2646fa07765f49"
+      "7bc2b827f6fc5bfa79bf9f9599dd08c7a865e5e8",
+      "9f7d2977a4e7a2d69a449845f0bd3fcb2be08323",
+      "5db73b4ac2309a553c93b178d6896a021585934c",
+      "0dd62c87cb51ebd9eb02594472a3a4ce92b18270",
+      "cb77606021fa7439f4c2893d0ac292e1c5873c82",
+      "612a2043034c2f5a7109732fc68e6810ae31a6fc"
     ],
-    "report": "owl-pet/production/batches/20261126T2030Z-six-cycle-review.md",
-    "current_batch_id": "20261126T2030Z-B2",
+    "report": "owl-pet/production/batches/20261126T2130Z-six-cycle-review.md",
+    "current_batch_id": "20261126T2130Z-B2",
     "current_batch_completed": 3,
     "next_cycle": 4,
     "other_partial_batches": 0,
     "lease": null,
-    "at": "2026-11-26T20:54:12.652Z"
+    "at": "2026-11-26T21:54:32.441Z"
   }
 }

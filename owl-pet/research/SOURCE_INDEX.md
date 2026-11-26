@@ -7589,3 +7589,7 @@ Reuse existing NSO-CDFW-BIOLOGY-2026 (original Biology freshly read), NSO-FORSMA
 
 ### 2026-11-26 17-megascops-asio-v8 audit
 Reuse MIKKOLA-2013 freshly uploaded printed207–208/PDF209–210: adult yellowishhorn blacktipclaws vs actualv7 mostlydark; limited adultclawtone correction. EASO-TPWD-SPECIES-2026 actualDescription/LifeHistory/Habitat freshbody and EASO-SMITH-DEVINE-2003-P98-103 directPDFprinted101/PDF111 freshread (webreaderfailed) retain supported branch/balancewing/formedremiges. New0/reuse3; exactage/feathermap/clawcolour and sexheight remain uncalibrated. Allolderversions preserved. [Full facts/prompt](species/17-megascops-asio-v8.md).
+
+
+### 2026-11-26 18-megascops-kennicottii-v6 audit
+ReuseWESO-USFS-GEHLBACH-STOLESON-2010-P512-518 freshoriginalprinted511–512/PDF1–2 and516Habitat text; wholechapter511–523 notnewsource. ReuseMIKKOLA2013 freshuploadedprinted204/PDF206. #18adult claws blackhorn, unlike#17hornyellow, so no transfer. Preserve adult billfix/formedjuvenilewing; v6only visibleunknowns/scientificpending. New0/reused2; age/flight/geometry/ratio unknown. [Full facts/prompt](species/18-megascops-kennicottii-v6.md).

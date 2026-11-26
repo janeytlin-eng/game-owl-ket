@@ -7802,3 +7802,9 @@ New0/reused3: WHSO-MIKKOLA-2013 printed518/PDF520 Identification/Juvenile freshl
 
 ## 2026-11-27 #79 Otus lettia v7
 New0/reused2 WHSO-MIKKOLA-2013 actualprinted156/PDF158 and LET-BSS-CURRENT Identification19–21/Habitat23–25 fresh body read. Narrow irregular bars retained while looplike feather rendering corrected; no growth/flight inference. [Full facts, limits and prompt](species/79-otus-lettia-v7.md). Prior primary/photo context not counted newly read.
+
+### SUNIA-IRBJ-603-CURRENT
+Title 翼を折ったコノハズク; institution Institute for Raptor Biomedicine Japan / 猛禽類医学研究所; named author/date not visible, access2026-11-27(+08). Original URL https://www.irbj.net/report/603/ . Primary institutional rescue case, older juvenile, age/sex unknown. Sections コノハズクを保護96, 眼の色が鑑別点102, 接骨とリハビリ113 actually read: rescued young with right ulna fracture; yellow iris used in differentiation; rescue and rehabilitation context. This injured individual cannot establish normal flight threshold, growth timing or general locomotor capability. Text read, no current original photo pixel claim. Supports retaining unknown first-flight label, not changing anatomy to injured pose. Linked [#80v7 facts/prompt](species/80-otus-sunia-v7.md); [review](reviews/80-otus-sunia-v7-review.md). Topic Otus sunia/juvenile/clinical-case/flight-limitations; current name crosschecked SUNIA-WBSJ-BIRDFAN-CURRENT. Moderate case-specific evidence, not a developmental series.
+
+## 2026-11-27 #80v7
+Reused2 WBSJ BIRDFAN/current mapping and Kyoto body/historical photo record; new IRBJ-603 clinical case read (not normal growth series). Annotation-only [facts/prompt](species/80-otus-sunia-v7.md), sciencefalse.

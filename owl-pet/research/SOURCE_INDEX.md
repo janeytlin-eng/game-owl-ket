@@ -7915,3 +7915,7 @@ SourceIDs: PKOE-MENQ-2018, PKOE-PEREIRA-LUCINDO-2013-P123-127, WHSO-MIKKOLA-2013
 
 ## 2026-11-27 run2030 reuse 95-pulsatrix-melanota-v7
 SourceIDs: MEL-RIVAS-FUENZALIDA-BURGOS-2022-84-88, WHSO-MIKKOLA-2013; new0, reuse2. Freshread facts/pages/limitations/fullprompt: [research](species/95-pulsatrix-melanota-v7.md); [review](reviews/95-pulsatrix-melanota-v7-review.md). No duplicate source counted.
+
+
+### MEL-RIVAS-FUENZALIDA-BURGOS-2022-84-88 fact increment2026-11-27
+Actualp85–86read: deadadult2021-02-25nearSanRamón necropsyFEMALE, measurementsTable1. One sexedfemale nowdocumented; olderguide2013twoUNSEXEDweightsdoesnotmean nosexedmaterialeverpublished. Insufficienttoquantifydimorphism. Olderground-foundyoungseparatefromfewdaynestyoung; cinnamontowhiteheadwithfirstchestfeathers. [95v7research](species/95-pulsatrix-melanota-v7.md). No newsourceID/document.

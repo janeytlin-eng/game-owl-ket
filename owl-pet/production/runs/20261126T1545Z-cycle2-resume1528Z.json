@@ -4,7 +4,7 @@
   "owner": "20261126T1528Z",
   "run_id": "20261126T1545Z-cycle2-resume1528Z",
   "started_at": "2026-11-26T15:46:37.837Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,8 +14,20 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T15:48:38.182Z",
       "evidence": "Actual latestv6 fullplate opened. Both adult mantles/folded wing-coverts carry broad pale buff terminal patches, contrary to uniform dark/blackishbrown adult upperparts described guidep310 and current specialistDescription65. Target adult mantle/coverts only, retain pale bars of remiges/rectrices and juvenile barred coverts/wings. Do not apply adult plain-upperparts criterion to young."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T15:49:59.713Z",
+      "blob": "3a160c315304c39f76247333ae902ea70d1ee456"
     }
   ],
   "errors": [],
-  "target": "67-pulsatrix-perspicillata-v7"
+  "target": "67-pulsatrix-perspicillata-v7",
+  "meta": {
+    "bytes": 2631877,
+    "sha256": "9af14dfaf892cd4418600ea6bd1d3904571c2e8e3d754fd0bcc3ee660579c763",
+    "gitblob": "3a160c315304c39f76247333ae902ea70d1ee456",
+    "b64len": 3509172
+  },
+  "generation_wait_seconds": 46.3
 }

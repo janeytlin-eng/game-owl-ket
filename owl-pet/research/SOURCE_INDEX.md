@@ -7440,3 +7440,7 @@ Reuse WHSO-MIKKOLA-2013/GGO-WILLIAMS-2012/GGO-USFS-FEIS-2007. New GGO-GROVES-ZEH
 ## 2026-11-26 52-strix-hylophila-v7
 NewdistinctphotographicmaterialRBO-VERISSIMO-2015-JUV (notnewpaper/duplicateMenqpage): author/date/locality/originalURL880x628actualview/agefeetlimits inlinkedrecord. ReuseRBO-AVESRAPINA-2018/RBO-MIKKOLA-2013-P337/RBO-COCKLE-ETAL-2024-P10. Existing2018indexpreviouslyreadtext notphotopixels; nowenrichactualvisualread. Stagechange toobservedmesoptile, preservedunknownage/flight/feet/nestarchitecture; nocrossspeciesnataldetails.
 [facts/prompt](species/52-strix-hylophila-v7.md),[review](reviews/52-strix-hylophila-v7-review.md),[version](../design/concepts/52-strix-hylophila-v7.png).
+
+
+## 2026-11-26 #37 photo-evidence repair
+PEPO-PERROCHEAU-2008-DIPE65099 (DidierPerrocheau/Aug2008/Lima/originalphotopage and800x533actualview,juvenilelabel,ageunknown) and PEPO-UTPL-FMNH-758-2016 (sixUTPLauthors/2016/guide758/PDFp4photos62–63notage-labelled) are new independent records. Facts/URLs/locators/types/limits/designapplication in [37v7](species/37-glaucidium-peruanum-v7.md). Reuse SRC-BOOK-037-01 printed398/PDF400 and correctedPEPO-LUTHI-2011 only; noAdobeinference. [Concept](../design/concepts/37-glaucidium-peruanum-v7.png), [review](reviews/37-glaucidium-peruanum-v7-review.md). Morph/youngstage/sex unknowns separated. No thirdpartyphotorepublication.

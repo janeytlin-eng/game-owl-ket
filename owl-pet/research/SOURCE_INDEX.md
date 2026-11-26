@@ -7782,3 +7782,7 @@ New0/reused2 RUF-RIDDELL-2021-P221-228 originalResults223/Fig2caption224 and WHS
 
 ### 2026-11-27 74-ninox-novaeseelandiae-v8
 New0/reused3. MOR-STEPHENSON-MINOT-2006 originalbody andMOR-NZBO-2025 body/WHSO-MIKKOLA-2013p460freshlyread; observedonebirdchronologyvs7weekssynthesisnotexactillustratedage. Labelonly, notmorphology/scienceapproval. [facts/prompt](species/74-ninox-novaeseelandiae-v8.md).
+
+
+### 2026-11-27 75-ninox-scutulata-v7
+New0/reused2 SCU-BESG-2024-PHOTOS observerbody19–32 andWHSO-MIKKOLA-2013p464 freshread. Annotationonly unknownage/firstflight/ratio; priorphoto-boundedwingretained. [Fullsources/limits/prompt](species/75-ninox-scutulata-v7.md).

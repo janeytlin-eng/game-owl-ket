@@ -4,13 +4,28 @@
   "owner": "20261126T1734Z",
   "run_id": "20261126T1734Z-B2-cycle2-resume1734Z",
   "started_at": "2026-11-26T17:50:58.322Z",
-  "stage": "STARTED",
+  "stage": "RESEARCH_READY",
   "stages": [
     {
       "stage": "STARTED",
       "at": "2026-11-26T17:50:58.322Z"
+    },
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-26T17:51:04.900Z",
+      "evidence": "# #82 Otus senegalensis v7 — distinguish study age from drawn age\nAccess2026-11-27(+08); annotation-only revision preserves v1–v6/confirmations. Current/old Otus senegalensis / Scops senegalensis mapping from existing records; no island-rank change.\nReused SEN-MIK2013-130 / WHSO-MIKKOLA-2013 uploadedguide actual printed130/PDF132 Identification/Juvenile: adult-like but fluffy less-distinct mesoptile, tarsi to bases/dusky grey-brown toes/blackish-brown claws; no measured picture age or tract geometry. Reused SEN-OWLPAGES-2020 DeaneLewis2020-10-08 https://www.owlpages.com/owls/species.php?s=550 actualDescription58–62/Breeding68–70/Habitat71 read: nesthole floor, departure approximations, no individual calibration. Secondary book-derived correlated source.\nSEN-RIEKERT-1986-P425-428 B.R.Riekert1986 Some observations on the breeding biology of African Scops Owl Madoqua14(4):425–428 URL https://the-eis.com/elibrary/sites/default/files/downloads/literature/Riekert_1986_Madoqua_14_4_African_Scops_Owl.pdf reused priorv6/v5 reading boundary only (22day calling/scratching, nestbox). Fresh PDF web extraction no text; screenshot returned placeholder, localGET403, no newly read p427 claim. Publisher1987 Brown/Riekert/Morsbach article surfaced but actualopen403; searchsnippet not accepted verified source. Failed localimage view followed absentPDF is recorded, no false pixel inspection.\nActualfullv6 viewed: calling/leaning young fully supported by sill, label22-DAY STUDY NESTLING could assign precise age to generated anatomy. Replace with STUDY-REFERENCED NESTLING and explicit illustratedage/flight/sexratio unknown. Preserve all body/box/support; study reference not proof that individual texture/wing geometry matches22days. Known qualitative age-dependent wing/down and exposedtoe questions remain scientificpending. Concept not scientific approval.",
+      "prompt": "Annotation-only edit of attached #82 African Scops Owl Otus senegalensis v6 into v7. Change center label from '22-DAY STUDY NESTLING' to 'STUDY-REFERENCED NESTLING'. Add small readable footer inside bottom margin 'CONCEPT — SCIENTIFIC REVIEW PENDING; ILLUSTRATED AGE / FIRST FLIGHT / SEX RATIO UNVERIFIED'. Preserve exactly all three owls and body morphology, adult yellow eyes/dark bills/bark plumage/toes and blackish claws, near-equal adult scale, juvenile down and soft formed wings, calling/leaning pose with both feet bearing weight on wooden sill, attached nestbox/branches/savanna and warm dusk, title and adult labels. No anatomy edits or new age/flight claims; no extra objects/birds."
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "step": "RESEARCH_READY commit",
+      "error": "GitHub GraphQL transient internal error2026-11-26T17:51:09Z request0565:3268F:721602:1640EC9:6B08718C; main checked start82commit only; retry without regenerate."
+    },
+    {
+      "step": "source retrieval",
+      "error": "1986PDF local403/screenshotplaceholder, missinglocalimage; 1987publisher403. No fresh primary fullread claim."
+    }
+  ],
   "target": "82-otus-senegalensis-v7"
 }

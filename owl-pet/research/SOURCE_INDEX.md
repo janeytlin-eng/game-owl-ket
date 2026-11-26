@@ -7812,3 +7812,7 @@ Reused2 WBSJ BIRDFAN/current mapping and Kyoto body/historical photo record; new
 
 ## 2026-11-27 #81v7
 New0/reused3 WHSO-MIKKOLA-2013 p122/PDF124; SCOPS-OWLPAGES-2020-510 body; SCOPS-GRIECO-2025 publisher abstract actually read, not full article. Label/flight boundary only. [Facts/prompt](species/81-otus-scops-v7.md). Sciencefalse.
+
+
+## 2026-11-27 #82v7
+New0/reused3 (book fresh130/PDF132, SEN-OWLPAGES-2020 freshbody, SEN-RIEKERT-1986-P425-428 historicalreadonly). FreshprimaryPDF textempty/screenshotplaceholder/local403; 1987publisher403, no newfullread. Study chronology separated from exactgeneratedindividualage by annotation. [Facts/limits/prompt](species/82-otus-senegalensis-v7.md). Sciencefalse.

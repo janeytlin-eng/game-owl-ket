@@ -4,7 +4,7 @@
   "owner": "owl-production-20261126T2030Z",
   "run_id": "20261126T2030Z",
   "started_at": "2026-11-26T20:30:50.080Z",
-  "stage": "IMAGE_GENERATED",
+  "stage": "REVIEWED",
   "stages": [
     {
       "stage": "STARTED",
@@ -41,6 +41,10 @@
     {
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-26T20:34:17.831Z"
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-26T20:34:21.005Z"
     }
   ],
   "target": "85-otus-semitorques-v9",

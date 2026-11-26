@@ -56078,16 +56078,24 @@
           "archive_commit": "30298650ac7f35c7b68582173209cb155b7c5605",
           "run_record": "owl-pet/production/runs/20261126T1734Z-B2-cycle2-resume1734Z.json",
           "verified_at": "2026-11-26T17:52:52.191Z"
+        },
+        {
+          "cycle": 3,
+          "species": "84-otus-bakkamoena-v10",
+          "commit_sha": "014e0b48b4692a40e8f949e808fa1165dc4420ed",
+          "archive_commit": "27106da6b207f7db8270638f9f149bd9e35e8c13",
+          "run_record": "owl-pet/production/runs/20261126T1734Z-B2-cycle3-resume1734Z.json",
+          "verified_at": "2026-11-26T17:55:13.031Z"
         }
       ],
-      "next_cycle": 3
+      "next_cycle": 4
     }
   ],
   "lease": {
     "owner": "20261126T1734Z",
     "run_id": "20261126T1734Z-B2-cycle3-resume1734Z",
-    "heartbeat_at": "2026-11-26T17:53:25.419Z",
-    "expires_at": "2026-11-26T18:08:25.419Z"
+    "heartbeat_at": "2026-11-26T17:55:13.031Z",
+    "expires_at": "2026-11-26T18:10:15.961Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -56256,8 +56264,8 @@
   "active_lease": {
     "owner": "20261126T1734Z",
     "run_id": "20261126T1734Z-B2-cycle3-resume1734Z",
-    "heartbeat_at": "2026-11-26T17:53:25.419Z",
-    "expires_at": "2026-11-26T18:08:25.419Z"
+    "heartbeat_at": "2026-11-26T17:55:13.031Z",
+    "expires_at": "2026-11-26T18:10:15.961Z"
   },
   "last_updated_at": "2026-11-26T16:50:40.753Z",
   "audit_notes": [
@@ -63656,7 +63664,7 @@
   "active_batch_id": "20261126T1734Z-B2",
   "active_cycle": null,
   "current_stage": "PENDING_NEXT_INVOCATION",
-  "next_cycle": 3,
+  "next_cycle": 4,
   "unique_species_count": 207,
   "total_species": 251,
   "stage_events": [

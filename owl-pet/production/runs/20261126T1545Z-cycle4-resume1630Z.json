@@ -4,7 +4,7 @@
   "owner": "20261126T1630Z",
   "run_id": "20261126T1545Z-cycle4-resume1630Z",
   "started_at": "2026-11-26T16:30:59.100Z",
-  "stage": "REVIEWED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "STARTED",
@@ -24,6 +24,16 @@
       "stage": "REVIEWED",
       "at": "2026-11-26T16:33:49.776Z",
       "evidence": "Actual v7 baseline and generatedv8 viewed. Both adult crown whiteflecks reduced to darkbrown/warmyellowbrownfeatheredges, eyebrow/lores/face pattern retained. Juvenilewhitecrown/blueiris/formedwingtail/footgrips/hollowfloor unchanged; adultsbody/wingcovertwhitespots/feet/proportions preserved; titlev8 and scientificpendingfooters readable. PASS_WITH_LIMITATIONS, sciencefalse. NominateABSAagingreference informsselectedadultpattern, notuniversalallsubspeciesproof; exactyoungage/flight/depictedsubspecies/quantitativesexratio remainunknown. FeetpinkgreyallowedbyABSA, no automaticrecolour. Lesson: head-agepattern must not be copied fromimmatures toadultlabels; adultcrown-onlycorrection visibly effectivehere, notglobalvalidation."
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-26T16:33:54Z",
+      "commit": "d3205b19985f152b143491eeba450d7b32ba726e"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-26T16:34:14.580Z",
+      "evidence": "BothimmutablePNGbytes2645867/SHA256/fullPILdecode and research/reviewreadback verified."
     }
   ],
   "errors": [],
@@ -36,5 +46,7 @@
     "b64len": 3527824
   },
   "imagegen_edit_wait_seconds": 38.645,
-  "review": "Actual v7 baseline and generatedv8 viewed. Both adult crown whiteflecks reduced to darkbrown/warmyellowbrownfeatheredges, eyebrow/lores/face pattern retained. Juvenilewhitecrown/blueiris/formedwingtail/footgrips/hollowfloor unchanged; adultsbody/wingcovertwhitespots/feet/proportions preserved; titlev8 and scientificpendingfooters readable. PASS_WITH_LIMITATIONS, sciencefalse. NominateABSAagingreference informsselectedadultpattern, notuniversalallsubspeciesproof; exactyoungage/flight/depictedsubspecies/quantitativesexratio remainunknown. FeetpinkgreyallowedbyABSA, no automaticrecolour. Lesson: head-agepattern must not be copied fromimmatures toadultlabels; adultcrown-onlycorrection visibly effectivehere, notglobalvalidation."
+  "review": "Actual v7 baseline and generatedv8 viewed. Both adult crown whiteflecks reduced to darkbrown/warmyellowbrownfeatheredges, eyebrow/lores/face pattern retained. Juvenilewhitecrown/blueiris/formedwingtail/footgrips/hollowfloor unchanged; adultsbody/wingcovertwhitespots/feet/proportions preserved; titlev8 and scientificpendingfooters readable. PASS_WITH_LIMITATIONS, sciencefalse. NominateABSAagingreference informsselectedadultpattern, notuniversalallsubspeciesproof; exactyoungage/flight/depictedsubspecies/quantitativesexratio remainunknown. FeetpinkgreyallowedbyABSA, no automaticrecolour. Lesson: head-agepattern must not be copied fromimmatures toadultlabels; adultcrown-onlycorrection visibly effectivehere, notglobalvalidation.",
+  "ended_at": "2026-11-26T16:34:14.580Z",
+  "archive_commit": "d3205b19985f152b143491eeba450d7b32ba726e"
 }

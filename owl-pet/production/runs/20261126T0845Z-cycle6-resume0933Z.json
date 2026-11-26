@@ -4,7 +4,7 @@
   "owner": "20261126T0933Z",
   "run_id": "20261126T0845Z-cycle6-resume0933Z",
   "started_at": "2026-11-26T09:43:51.395Z",
-  "stage": "REVIEWED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "STARTED",
@@ -25,6 +25,16 @@
       "stage": "REVIEWED",
       "at": "2026-11-26T09:45:56.442Z",
       "evidence": "Actualv6/newv7full and footer crop viewed. Juvenile ageunknown/nestling and scientificpending/extents/geometry/ratio readable. Moss-dominated platform/tiny leaves/young downbody/shortgrowingfeathers/bellyfeet support retained; adults upperfeathered tarsi/distalbare/toes/claws retained. Exact bareextent conflict and cavity measurements not solved by image; no flights/new age. PASS_WITH_LIMITATIONS annotation only/sciencefalse. Source textnest platform is individual record, geometry not universal. Applying#17paleclaws here prohibited; dark adultclaws retained."
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-26T09:46:14.642Z",
+      "commit_sha": "ca01656a172e4d6dd39474b99643b39b34d34775"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-26T09:46:14.642Z",
+      "evidence": "originals VERIFIED 3047419\nconcepts VERIFIED 3047419\n; exact local Gitblob matched and immutable research/review read back"
     }
   ],
   "scientifically_verified": false,
@@ -40,5 +50,7 @@
     ],
     "b64len": 4063228
   },
-  "generation_seconds": 47.634
+  "generation_seconds": 47.634,
+  "ended_at": "2026-11-26T09:46:14.642Z",
+  "archive_commit": "ca01656a172e4d6dd39474b99643b39b34d34775"
 }

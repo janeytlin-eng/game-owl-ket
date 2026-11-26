@@ -7712,3 +7712,7 @@ New0/reuse3. Externaloriginalspecialistaccount reread, guideprinted324freshread;
 
 ### 2026-11-26 48-strix-nivicolum-v7
 新增0、复用2来源；本子轮重新读取台湾博物馆正文及上传Mikkola印刷329/PDF331。实际发现v6成年喙偏饱和金橙，按台湾yellow-green及旧广义处理yellowish-grey作有限色相修订；不再重复已有幼鸟免责声明，不宣称科学通过。 [facts/full prompt](species/48-strix-nivicolum-v7.md).
+
+
+### 2026-11-26 49-strix-woodfordii-v7
+新1 AWOO-OWLPAGES-2020（基线索引无URL），复用2；重新读图鉴320/PDF322、SANBI与物种专属OwlPages正文；只修成年眼睑，保留幼鸟羽龄/飞行未知，离巢日龄冲突不混合。 [full facts and prompt](species/49-strix-woodfordii-v7.md).

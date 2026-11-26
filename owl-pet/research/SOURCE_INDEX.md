@@ -7460,3 +7460,7 @@ New stable source2: FHSO-ITIS-1244739 (ITIS valid subspecies/old names) and FHSO
 
 ## 2026-11-26 #47v12 adult toe-base repair
 New0/reused2 directly read: BROW-MIKKOLA-2013-P326-327 actualprinted326/PDF328 and BROW-OWLPAGES-1540 actualDescription64–68 (DeaneLewis, undated https://www.owlpages.com/owls/species.php?s=1540 ). Basal feathering versus distal2barephalanges qualitative boundary, no percentage. Auk1936 primary lead still redirected/unread; no facts. Complete metadata, uncertainties, full prompt: [v12](species/47-strix-leptogrammica-v12.md). Young and region inherited v11, no new young biological claim/sciencefalse.
+
+
+## 2026-11-26 #131v7 usta regional supplement
+New2 WAT-ITIS-686874 and WAT-MENQ-2018-USTA actualbodies; reused2 WAT-DANTAS-2021 primaryfullPDF actualprinted428/PDF28 and sameMikkola2013book locator236–237/PDF238–239. 2013SouzaGuilherme source page22vs24 unresolved/URLs inaccessible, exact2d/4week andnest notused. Currentusta subspecies—not newunique species. Metadata/URLs/limits/completeprompt [v7](species/131-megascops-watsonii-v7.md); sciencefalse.

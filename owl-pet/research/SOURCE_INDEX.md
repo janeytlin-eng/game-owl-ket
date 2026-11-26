@@ -7657,3 +7657,7 @@ New0/reuse2 actual original/body/guide. Correct age-axis attribution: 56daysPOST
 
 ### 2026-11-26 34-glaucidium-hardyi-v7 actual audit
 New0/reuse2 freshguide+primaryPDF23/24 and actualpagephotopixels. #34v7 adult brownmorph tail continuousbands→broken pale spot rows; count pose-dependent not fixed3. Juvenile oldwoodpeckerhole support/iris stage preserved, not universal chronological rule. [Facts, boundaries and full prompt](species/34-glaucidium-hardyi-v7.md).
+
+
+### 2026-11-26 35-glaucidium-jardinii-v7 actual audit
+New0/reuse3 actualprimaryPDF24/PDF10, guide395/397 andCervantes originalnote. #35v7 adult brownmorph tail webspots notshafts, no all-Glaucidium tailtemplate. Web403 directPDF recovered; source facts vs local spot geometry design separated. [Facts, boundaries and full prompt](species/35-glaucidium-jardinii-v7.md).

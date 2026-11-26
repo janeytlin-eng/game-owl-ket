@@ -38,7 +38,12 @@
     }
   ],
   "target": "79-otus-lettia-v8",
-  "errors": [],
+  "errors": [
+    {
+      "step": "external source access",
+      "error": "Web open OWLHK21,836,391-byte PDF returned400 content too large; local originalPDF download/render succeeded, p2 pixels actually viewed. No generated-image/archival failure."
+    }
+  ],
   "source_new": 2,
   "source_reuse": 2,
   "source_ids": [

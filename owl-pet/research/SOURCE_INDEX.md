@@ -7565,3 +7565,7 @@ Reuse GGO-CRC-FACTS-2026 originalbodyread / WHSO-MIKKOLA-2013 historicalprinted3
 
 ### 2026-11-26 #08v7 resumed image stage
 Reuse GGO-CRC-FACTS-2026 original Identification/Habitat/Nesting reread this invocation; WHSO-MIKKOLA-2013 printed353/PDF355 priorread only. Existing research-ready prompt reused, not recreated. New0/reuse2; no new morphology or age claim. [Run](../production/runs/20261126T0540Z-cycle3-resume0833Z.json).
+
+
+### 2026-11-26 11-aegolius-funereus-v6 audit
+Reuse BOR-ORI-BOREAL-FACTS originalbody freshread / BOR-MIK2013-440 printed440/PDF442 historicalonly. Actualv5approx21–23day label unsupported, remove rather than relabel body maturity. New0/reuse2/corrected1design-age inference; no biological signoff. Rule: written prior estimate is not a dated specimen. [Fullprompt/facts](species/11-aegolius-funereus-v6.md).

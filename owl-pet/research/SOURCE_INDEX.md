@@ -7891,3 +7891,7 @@ All primary URLs/author/year/limitations and exact full prompts preserved in cor
 
 ## 2026-11-27 run2030 reuse 85-otus-semitorques-v9
 SourceIDs: SEM-NOHARA-HONDA-2025-P75-78, WHSO-MIKKOLA-2013; new0, reuse2. Freshread facts/pages/limitations/fullprompt: [research](species/85-otus-semitorques-v9.md); [review](reviews/85-otus-semitorques-v9-review.md). No duplicate source counted.
+
+
+## 2026-11-27 run2030 reuse 85-otus-semitorques-v10
+SourceIDs: SEM-NOHARA-HONDA-2025-P75-78, WHSO-MIKKOLA-2013; new0, reuse2. Freshread facts/pages/limitations/fullprompt: [research](species/85-otus-semitorques-v10.md); [review](reviews/85-otus-semitorques-v10-review.md). No duplicate source counted.

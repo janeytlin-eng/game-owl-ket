@@ -7754,3 +7754,7 @@ Correction 20261126T1427Z: preceding52v7 tail-revision entry is a REJECTED dupli
 
 ### 2026-11-26 59-ketupa-zeylonensis-v7
 新增0/复用3，图鉴298/PDF300与HK物种专页、KFBG原始观察正文实际重读；v7成年细波状交叉横斑修订，不把#60/#61无横斑规则套入；既有较大幼鸟和裸腿保留。 [facts/fullprompt](species/59-ketupa-zeylonensis-v7.md).
+
+
+### 2026-11-26 60-ketupa-flavipes-v7
+新0/复用3；图鉴302/PDF304及博物馆新读取，SPNP当前只导航而非原正文，历史估龄复用明确。成年裸皮由饱和橙黄减为灰绿黄，爪灰角色；不改幼鸟日龄或腿羽边界。 [facts/fullprompt](species/60-ketupa-flavipes-v7.md).

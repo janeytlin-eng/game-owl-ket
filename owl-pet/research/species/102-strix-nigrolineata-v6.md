@@ -1,5 +1,5 @@
 # #102 Strix nigrolineata v6 — adult yellowish-horn claw shafts
-Access2026-11-27+08. CurrentStrixnigrolineata/oldCiccb(anomenclatural)Ciccabanigrolineata retained; preservev1–v5/userhistory.
+Access2026-11-27+08. CurrentStrixnigrolineata/oldCiccabanigrolineata retained; preservev1–v5/userhistory.
 BWO-MIKKOLA-2013-P339 HeimoMikkola2013uploadedguide printed339/PDF341 actualfreshtextread. Adulttarsifeatheredbarredduskywhite, baretoesdirtyyellowtoorangeyellowwithyellowishhornclaws; darkreddish-brown/blackbrowniris, paleorangeyellowbill. Juvenilemesoptiledirtywhitishbarredabove/creamwhitebarredbelow/darkbrowniriswithoilbluishsuffusion, noage/flightsequence. Adultfootcolournotjuveniletrajectory.
 BWO-GERHARDT-GERHARDT-1997-USFS RichardP.Gerhardt/DawnMcAnnisGerhardt1997, Size,Dimorphism,andRelatedCharacteristicsofCiccabaOwlsFromGuatemala, USDA2ndOwlSymposiumpp190–196, https://www.nrs.fs.usda.gov/pubs/gtr/gtr_nc190/gtr_nc190_190.pdf originalMethods/Resultsp191–192 actualread. OneTikalpair: female535g/29.3cmwing/18.7cmtail, male436g/28.6cm/16.5cm. Wingdifferencefarlessmass; not23%tallerfemale. Primarydataonadults notyounggrowth, no firstflightclaim.
 ## Actual audit/design

@@ -4,7 +4,7 @@
   "owner": "20261126T0933Z",
   "run_id": "20261126T0845Z-cycle5-resume0933Z",
   "started_at": "2026-11-26T09:41:10.891Z",
-  "stage": "REVIEWED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "STARTED",
@@ -25,6 +25,16 @@
       "stage": "REVIEWED",
       "at": "2026-11-26T09:43:28.946Z",
       "evidence": "Actualv6/newv7wholeplate and footer crop viewed. Threebirds/adult restrainedfeatherbristles/oliveyellowbillconflict unchanged, juvenile softdown plusformedwing and all branchfeet retained. Ageunknown andscientificpending plus bill/bristle/ratio limits legible. Sourcepaper captiveflight not used as wildyoungstage; photo metadata not an age/sex reference. PASS_WITH_LIMITATIONS annotation only, sciencefalse; no newbiologicalcorrection. Existing bodypattern/proportionsstill uncalibrated. #18 archive-ref mismatch independently recovered without regeneration; #19 researchcommit readback mismatch recovered via actualimmutable c58dec70a6e57fd37e013680b8262b210e240b28 and freshref; publisher now retriesreadback (no force, sameCAS), future general effectiveness not proved."
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-26T09:43:46.133Z",
+      "commit_sha": "0e376aa20ec8918891b80e4ed929f1fdbb683ab0"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-26T09:43:46.133Z",
+      "evidence": "originals VERIFIED 2879689\nconcepts VERIFIED 2879689\n; exact local Gitblob matched and immutable research/review read back"
     }
   ],
   "scientifically_verified": false,
@@ -40,5 +50,7 @@
     ],
     "b64len": 3839588
   },
-  "generation_seconds": 42.247
+  "generation_seconds": 42.247,
+  "ended_at": "2026-11-26T09:43:46.133Z",
+  "archive_commit": "0e376aa20ec8918891b80e4ed929f1fdbb683ab0"
 }

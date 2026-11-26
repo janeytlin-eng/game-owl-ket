@@ -5,7 +5,7 @@
   "target": "108-otus-rutilus-v6",
   "action": "SCIENCE_REVISION",
   "started_at": "2026-11-26T23:42:45.186Z",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "STARTED",
@@ -26,6 +26,10 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-26T23:44:33.046Z"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-26T23:45:21.615Z"
     }
   ],
   "errors": [
@@ -64,5 +68,9 @@
     "b64len": 3891084
   },
   "actual_visual_review": "Full actual output viewed. Centre caption AGE UNKNOWN and PERCH ONLY · FLIGHT UNVERIFIED legible, adult labels/title retained. Three birds, dark-masked downy juvenile with brown iris/pink eyelid, small-tufted yellow-eyed same-morph adults, grey-brown adult toes and dark claws, compact folded wings/hidden young tail and six branch contacts preserved. No new nest or activity claim. Annotation-only revision; no fresh visual-photo calibration or scientific approval. Juvenile exactage/sex/flight and adult sexheight ratio unknown.",
-  "review_status": "PASS_WITH_LIMITATIONS"
+  "review_status": "PASS_WITH_LIMITATIONS",
+  "archive_commit": "e143b58057d245383847965df89f8f4e8962bdf3",
+  "byte_verification_observed_exit0_at": "2026-11-26T23:45:21.587Z",
+  "ended_at": "2026-11-26T23:45:21.587Z",
+  "lesson": "Annotation gap→metadata provides photographed date but no hatch age/flighttest, and guidejuvenileunknown→caption AGE UNKNOWN / PERCH ONLY · FLIGHT UNVERIFIED added and actually read in final. Fresh sourcephoto403 prevents new morphology claims. Guide allows natural herringbone-like markings, so prompts should distinguish biological branching from rigid synthetic repetition; clarification discovered, not globally applied or verified. Prior #108v5 and #107v6 reviewed for scope; no blanket pattern removal."
 }

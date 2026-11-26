@@ -288,3 +288,8 @@ Actualv5/v6 fullplates viewed againstfreshGreeney2003p67original/guidep338/PeruA
 ## 2026-11-27 2334Z 107-strix-fulvescens-v6
 Problem: v5 adult toe skin had pink cast. Guide p345 and expert Description64–66 agree exposed toes are yellowish/yellow-grey; targeted edit corrected adult skin only and actual full-image review verified basal feathers and dark claws retained. Rule applied and visually checked once: toe-colour edits must specify feather-boundary and age scope, preventing adult-to-young transfer. No general biological validation claimed.
 [Actual review](../research/reviews/107-strix-fulvescens-v6-review.md)
+
+
+## 2026-11-27 2334Z 108-otus-rutilus-v6
+Annotation gap→metadata provides photographed date but no hatch age/flighttest, and guidejuvenileunknown→caption AGE UNKNOWN / PERCH ONLY · FLIGHT UNVERIFIED added and actually read in final. Fresh sourcephoto403 prevents new morphology claims. Guide allows natural herringbone-like markings, so prompts should distinguish biological branching from rigid synthetic repetition; clarification discovered, not globally applied or verified. Prior #108v5 and #107v6 reviewed for scope; no blanket pattern removal.
+[Actual review](../research/reviews/108-otus-rutilus-v6-review.md)

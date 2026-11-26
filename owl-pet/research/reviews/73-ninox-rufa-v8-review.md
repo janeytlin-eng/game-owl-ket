@@ -1,0 +1,2 @@
+# 73-ninox-rufa-v8
+Full v7/generatedv8 actually viewed. BRANCHER AGEUNVERIFIED andtwo scientific/iris/firstflight disclaimers readable, no feet/tails obscured; adultplumage/proportions andjuvenilestep/wing/iris visuallyretained. Annotationonly, no morphologyfix/sciencepass. OriginalRiddell223–224 separatesbranchingfromtrueflight; exactillustrationstage/iris/flight remainunknown. Noextraeditneeded. Lesson: nestdeparture/branchwalking/flyingareseparateevents, terminologycorrectedhere; no claimfullbiologicalvalidation.

@@ -4,7 +4,7 @@
   "owner": "owl-production-20261126T2130Z",
   "run_id": "20261126T2130Z",
   "started_at": "2026-11-26T21:40:23.929Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,6 +14,10 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T21:40:51.865Z",
       "prompt": "Local scientific texture correction of existing #86 Otus elegans interpositus plate, image1. Image2 is actual same-subspecies nest-young HEAD photograph from Bird Research News 2011 printed4 Photo1; use ONLY its qualitatively short soft directional grey-brown facial/crown down, not unseen body/age/flight. On RIGHT young only, change crown, forehead, ear-side/cheek surface from long ornamental curl loops/wool ringlets into short fine matte directional down with subtle irregular soft clumps. Retain existing warm grey-brown palette, silhouette, eye/bill/tuft positions and mouth expression; avoid adult streaks and sharp mature feathers. Do not change its body/wings/tail/feet or branch pose; these remain scientifically unverified, not inferred from the photo. BOTH adult owls entirely unchanged especially fine faint chest crossmarks, yelloweyes, darkbills, grey BARE toes/blackhornclaws, near-equalheight. Preserve all typography, number86, labels/scientificpending footer, background/style and composition exactly. Only right young head/face down texture."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T21:41:54.019Z"
     }
   ],
   "target": "86-otus-elegans-v9",
@@ -24,5 +28,17 @@
   "source_ids": [
     "ELE-BIRD-RESEARCH-NEWS-2011-P1-2",
     "WHSO-MIKKOLA-2013"
-  ]
+  ],
+  "meta": {
+    "bytes": 2696088,
+    "sha256": "81b9410cae996c879002eaa5827a18349ba066f82f8c9331c38ddece52ebaa3f",
+    "b64len": 3594784,
+    "size": [
+      1536,
+      1024
+    ],
+    "gitblob": "9369ecb5221c4b55b2f68cb4379ff7b8582569e4"
+  },
+  "imagegen_wait_seconds": 37.648,
+  "review": "Actual institutional2011PDF printed4 Photo1 fullpage/head crop, v8 and v9 full images viewed. Right young crown/cheeks now shorter directional soft down, repeated closed loop filaments markedly reduced on head; some long fine wisps and body curls remain. Scope is head only; actual photo lowresolution and nest-cavity head cannot support body/age/flight. Adult fine faint crossmarks/shaftstreaks, yelloweyes/darkbills/greybaretoes/blackclaws/near-equalheight, Casuarina/cane, allsupport/labels/footer retained. Young existing folded wing/body/branch pose remains age/phase/firstflight unverified. PASS_WITH_LIMITATIONS, scientifically_verified=false, no new userconfirmation. Photo reference plus tightly scoped head correction visually worked here; not a validated universal down rule and not body correction."
 }

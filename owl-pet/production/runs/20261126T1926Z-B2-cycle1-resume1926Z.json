@@ -4,7 +4,7 @@
   "owner": "owl-production-20261126T1926Z",
   "run_id": "20261126T1926Z",
   "started_at": "2026-11-26T19:41:47.816Z",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "STARTED",
@@ -26,6 +26,15 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-26T19:43:31.334Z"
+    },
+    {
+      "stage": "VERIFICATION_EVIDENCE",
+      "at": "2026-11-26T19:44:07.162Z",
+      "evidence": "Immutable original+concept GET full bytes/SHA256/PILdecode passed; research/review readback passed"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-26T19:44:07.163Z"
     }
   ],
   "target": "90-tyto-furcata-v6",
@@ -51,5 +60,7 @@
     "gitblob": "628a47c0346dc0d6570fa741eb7898f1c7fb5382"
   },
   "imagegen_wait_seconds": 36.282,
-  "review": "Actualinputv5/outputv6full viewed: STUDY-REFERENCEDNESTLING and science/individualage-flight-sexratiofooter readable. Centralwhite-downyoungstands twofeet onwoodfloor, shortemergingdarksidefeathers/noadulttail retained; notclaimsP20certification or flight. Adultwhiteheartfaces/darkeyes/creambills, palermale/darkerandmorespottedfemale/near-equalskeletalheight, allgrips/loft/background/layoutretained. Annotation-onlyPASS_WITH_LIMITATIONS/sciencefalse, notnewmorphologyvalidation. Handraisedcontainer-supportedstudy generalstandingcontextnotwildphaseclock; no newFig1photopixelinspection. Rulecandidateappliedandviewed: studycalendar inresearchdoesnotdateeachillustratedindividual; explicitimageboundarynowexportswithart."
+  "review": "Actualinputv5/outputv6full viewed: STUDY-REFERENCEDNESTLING and science/individualage-flight-sexratiofooter readable. Centralwhite-downyoungstands twofeet onwoodfloor, shortemergingdarksidefeathers/noadulttail retained; notclaimsP20certification or flight. Adultwhiteheartfaces/darkeyes/creambills, palermale/darkerandmorespottedfemale/near-equalskeletalheight, allgrips/loft/background/layoutretained. Annotation-onlyPASS_WITH_LIMITATIONS/sciencefalse, notnewmorphologyvalidation. Handraisedcontainer-supportedstudy generalstandingcontextnotwildphaseclock; no newFig1photopixelinspection. Rulecandidateappliedandviewed: studycalendar inresearchdoesnotdateeachillustratedindividual; explicitimageboundarynowexportswithart.",
+  "archive_commit": "e3b1d5471fa9e938178bc7a9bfc5e2fc79ea93e3",
+  "ended_at": "2026-11-26T19:44:07.162Z"
 }

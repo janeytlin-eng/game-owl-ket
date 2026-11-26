@@ -4,7 +4,7 @@
   "owner": "20261126T0933Z",
   "run_id": "20261126T0845Z-cycle3-resume0933Z",
   "started_at": "2026-11-26T09:33:54.107Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,9 +14,26 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T09:36:23.330Z",
       "evidence": "Actual v7 adult claws read dark across most visible plates. Fresh uploaded Mikkola printed207 says yellowish horn claws with black tips. Correct only proximal adult claw tone, without recolouring toes/tarsus/young. Add visible scientific-pending boundary. This is a limited adult soft-part correction, not a science pass."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T09:37:38.149Z",
+      "blob": "4bb0db8cdbd5dae744f2498c3ff0acb1971ed2e8",
+      "bytes": 2612438
     }
   ],
   "scientifically_verified": false,
   "errors": [],
-  "target": "17-megascops-asio-v8"
+  "target": "17-megascops-asio-v8",
+  "meta": {
+    "bytes": 2612438,
+    "sha256": "f919cc77f1b6904e9b105a29f2b274c9c0ca3458f64f4860dfe430283e1e275a",
+    "gitblob": "4bb0db8cdbd5dae744f2498c3ff0acb1971ed2e8",
+    "size": [
+      1536,
+      1024
+    ],
+    "b64len": 3483252
+  },
+  "generation_seconds": 49.459
 }

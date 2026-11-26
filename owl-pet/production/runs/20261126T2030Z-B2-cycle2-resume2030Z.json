@@ -4,7 +4,7 @@
   "owner": "owl-production-20261126T2030Z",
   "run_id": "20261126T2030Z",
   "started_at": "2026-11-26T20:46:35.334Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,6 +14,10 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T20:46:41.202Z",
       "prompt": "Annotation-only edit supplied95 Band-bellied Owl Pulsatrix melanota v6. Keep entire biological image and title/adultlabels/supports exactly. Replace centerlabel 'RECENT FLEDGLING' (or existing younglabel) with 'AGE-UNKNOWN DEPENDENT YOUNG'. Add small readable footer 'CONCEPT — SCIENTIFIC REVIEW PENDING; INDIVIDUAL AGE / FIRST FLIGHT / SEX RATIO UNVERIFIED'. Retain centerpatchycream-whitecrown/cinnamondownbody/blackface/darkeyes/yellowbill/tinyemergingchestfeathers/compactsoftfoldedwing/concealedtail/twofeetandbellyonmossyAlbiziafork; notallwhitebaby/notadultribbib. Adultsdarkeyes/whitebrowsandthroat/broadchestband/rustybellybars/paleyellowbill/featheredtarsi/baretoes/near-equalheight unchanged. Keep unlinedorganicfork/coffee-plantainYungashabitat, polishedstyle,3birds. No new age, flight or claim thisyoungwasthenestoccupant."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T20:48:19.921Z"
     }
   ],
   "target": "95-pulsatrix-melanota-v7",
@@ -24,5 +28,17 @@
     "MEL-RIVAS-FUENZALIDA-BURGOS-2022-84-88",
     "WHSO-MIKKOLA-2013"
   ],
-  "source_fact_updates": 1
+  "source_fact_updates": 1,
+  "meta": {
+    "bytes": 2716383,
+    "sha256": "76fb39186f9546aa419b5a9fd0f79a9a38ada49850a7e3ff0f6ec5dc658ff015",
+    "b64len": 3621844,
+    "size": [
+      1536,
+      1024
+    ],
+    "gitblob": "93dd92cae044b879055da3542be22173692f56a5"
+  },
+  "imagegen_wait_seconds": 36.772,
+  "review": "Actualv6/v7full viewed: AGEUNKNOWNDEPENDENTYOUNG/footerreadable, 95title/currentname/adultlabels preserved. Oldercentralwhitepatchycrown/cinnamondown/blackmask/darkiris/yellowbill/tinychestfeathers/shortsoftwing/concealedtail/belly+feetforksupport remain. Adultdarkeyes/paleyellowbills/whiteface/broadbrownchestband/rustybellybars/nearequalheight/feetstable, exposedorganicfork/shadecoffeeplantain unchanged. Annotation-onlyPASS_WITH_LIMITATIONS/sciencefalse, notcalibratedindividualfirstflight/nestoccupancy; no newconfirmation. Repeatedcurlyfeatheredges stillcandidateforphoto-boundedtextureaudit as#85family, notfixedhere; no scientificpass. Newprimaryfactonefemaleidentifiednotsexratioproof."
 }

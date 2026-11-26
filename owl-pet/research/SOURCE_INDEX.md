@@ -7557,3 +7557,4 @@ Existing stableID reused/corrected, not new source. AnnaReuleaux,BennyA.Siregar,
 
 ### 2026-11-26 #05v6 evidence-status audit
 Reuse TAO-BOT-OWLET currentoriginalbodyTawny/agecategories read; TAO-MIKKOLA-2013-P315 printed315–317/PDF317–319 prior actual read only. No phenotype error proved; keep featheredfeet/pinklids and supported dependentyoung. Label ageunknown/sciencepending; no scientific upgrade. New0/reuse2/corrections0. [Fullprompt/facts](species/05-strix-aluco-v6.md).
+\n\n### 2026-11-26 #08v7 evidence-status\nReuse GGO-CRC-FACTS-2026 originalbodyread / WHSO-MIKKOLA-2013 historicalprinted353/PDF355; Cornell403 excluded. No new biological error established; preserve climbing/feet and annotate unknownage/sciencepending. New0/reuse2. [Fullprompt](species/08-strix-nebulosa-v7.md).\n

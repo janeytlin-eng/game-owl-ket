@@ -4,13 +4,20 @@
   "owner": "20261126T1125Z",
   "run_id": "20261126T1140Z-cycle3-resume1125Z",
   "started_at": "2026-11-26T11:43:39.570Z",
-  "stage": "STARTED",
+  "stage": "PENDING_NEXT_INVOCATION",
   "stages": [
     {
       "stage": "STARTED",
       "at": "2026-11-26T11:43:39.570Z"
+    },
+    {
+      "stage": "PENDING_NEXT_INVOCATION",
+      "at": "2026-11-26T11:46:39.684Z"
     }
   ],
   "scientifically_verified": false,
-  "errors": []
+  "errors": [],
+  "credit": false,
+  "ended_at": "2026-11-26T11:46:39.684Z",
+  "note": "Only placeholder STARTED after six actual cycles; cycle3 no research/image/credit. Resume same batch."
 }

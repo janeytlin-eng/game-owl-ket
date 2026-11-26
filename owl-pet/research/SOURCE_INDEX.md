@@ -7829,3 +7829,7 @@ Title Collared Scops Owl 領角鴞; institution Hong Kong Bird Watching Society,
 
 ## 2026-11-27 #79v8 priority
 New2 institutional sources above, reused2 book/BSS actual reread. Newrealphotopixels accessed to constrain persistentloops; appliedsuccess not assumed. [Fullfacts/prompt](species/79-otus-lettia-v8.md).
+
+
+## 2026-11-27 #83v7
+New0/reused2 BRU-KHOURY-ALSHAMLIH-DHEIB-2021-P286-287 actualauthorbody and BRU-MIK2013-126/WHSO-MIKKOLA-2013 actualp126/PDF128. Palmplantation fledgedyoung record doesnotauthenticate activecavity/cutwoodfloor. Naturalperch geometry designinference; [facts/prompt](species/83-otus-brucei-v7.md). Deferred227/231 newsearches foundnoverifiedyoung; MLbotdenied, unverifiedleads notaccepted.

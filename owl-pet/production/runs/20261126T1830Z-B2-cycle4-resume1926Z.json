@@ -37,11 +37,29 @@
       "at": "2026-11-26T19:31:47.256Z",
       "attempt": 2,
       "prompt": "Use case: precise-object-edit. Image1 is the plate to edit; image2 is ONLY a morphology reference for the young's stage. Make a conspicuous structural replacement: REMOVE the entire central owl from the branch, then paint a NEW young Otus semitorques in that same space using an entirely fresh smooth velvety mesoptile surface. NEW BODY DESIGN: compact oval, turned slightly toward the left adult, shoulders sloped, dense short matte ash-grey fuzz painted in broad soft tonal masses with indistinct faint bars. Absolutely ZERO thin outlined feather filaments anywhere on breast/belly/head. The entire inside body surface should look like smooth soft grey suede with a subtle fine stipple, NOT wool/thread/fleece. Outer contour has very short straight down tips. Short incomplete folded wings at sides with only a few small emerging tips, no mature long wing or tail; prominent little ear tufts; small greyhornbill; eyes held in shadow (no asserted iris color). Feet grip branch in same two positions with natural contact. Reference photo gives dense down, distinct tufts and incomplete wings; do not copy exact photograph. Keep the TWO ADULTS, background, branch and all TEXT identical. Preserve polished naturalistic pet illustration, not cartoon. This needs full center reconstruction, not a subtle denoise."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T19:32:47.963Z",
+      "attempt": 2,
+      "meta": {
+        "bytes": 2611305,
+        "sha256": "00105b36764f9b3f2f21a314132b51f87632052a1cdb44929e99bb958ef9a754",
+        "b64len": 3481740,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "ef3ab90777cbdfe2333b34bb70e457ac8e86109b"
+      },
+      "imagegen_wait_seconds": 33.644,
+      "review": "Fullactualview: changed head lean/bodyoutline, but outlined curls remain; failed texture resolution."
     }
   ],
   "target": "85-otus-semitorques-v8",
   "errors": [
-    "Attempt1 texture correction failed actual visual check"
+    "Attempt1 texture correction failed actual visual check",
+    "Attempt2 fullcenter reconstruction still looped; source texture remains unresolved"
   ],
   "source_new": 0,
   "source_reuse": 2,

@@ -7743,3 +7743,7 @@ Correction 20261126T1427Z: preceding52v7 tail-revision entry is a REJECTED dupli
 
 ### 2026-11-26 58-ketupa-coromanda-v8
 新0/复用2；针对性网络检索并重读原始论文44–45及上传图鉴292/PDF294。保留本批未知日龄边界，v8仅归因标识、不是形态修复；2021野外8–10周为外观行为估计。 [full facts and prompt](species/58-ketupa-coromanda-v8.md).
+
+
+### 2026-11-26 51-strix-rufipes-v8
+新0/复用3；图鉴333/PDF335成年实物照片实际像素查看升级1，SIMBIO原文重读；已读MMA2015 PDF为外部补查线索（是否已有条目另审），不将其强调性别羽色的强断言推翻图鉴浅色雄鸟照片。v8针对v7残余网格，不换幼鸟。 [facts/fullprompt](species/51-strix-rufipes-v8.md).

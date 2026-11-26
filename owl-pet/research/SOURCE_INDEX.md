@@ -7681,3 +7681,7 @@ New1YPOW-PERUAVES-2026 regional adultmetadataonly; reused2primary+guide. #36v7 l
 
 ### 2026-11-26 40-glaucidium-nubicola-v7 actual audit
 新增0、复用3（书为原同一文献）、实质更正1条来源（URL与推断共2项）；未核验线索1/BHL403。CFPO-CADENA-ORTIZ-2022-REREAD定位84796和feeding≠perch修正已直接更新原条目并保留旧地址历史。此v7仅证据边界标识，不计形态修复或科学通过；幼鸟外观仍待专属照片/描述。 [Facts, boundaries and full prompt](species/40-glaucidium-nubicola-v7.md).
+
+
+### 2026-11-26 41-glaucidium-cobanense-v7 actual audit
+新增0/复用2。本轮外部检索与B SG原页面重读尝试（web跳转/不可访问）如实区分既往证据；上传同一本图鉴p380/PDF382实际读取，成年跗蹠羽被局部修正。新物种缺口另保留博物馆组织样本/成年类型不能作幼鸟来源的证据，不计出图。 [Facts, boundaries and full prompt](species/41-glaucidium-cobanense-v7.md).

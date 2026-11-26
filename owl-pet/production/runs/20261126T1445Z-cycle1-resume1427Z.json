@@ -4,7 +4,7 @@
   "owner": "20261126T1427Z",
   "run_id": "20261126T1445Z-cycle1-resume1427Z",
   "started_at": "2026-11-26T14:42:26.220Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,8 +14,20 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T14:43:44.203Z",
       "evidence": "Latest manifestv6 checked; actual age label APPROX6WEEKS lacks distinction between Brown study bird and generated concept. Annotation-only correction; adult cream-bill repair and supported mesoptile retained."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T14:44:58.336Z",
+      "blob": "48ca8a0092e92b73228d9d7d490592cb07618a48"
     }
   ],
   "errors": [],
-  "target": "55-bubo-lacteus-v7"
+  "target": "55-bubo-lacteus-v7",
+  "meta": {
+    "bytes": 2819937,
+    "sha256": "cbd7c77692243eab9df974059e1a1ffeac364ddadb7783983bc1cf40c84958ce",
+    "gitblob": "48ca8a0092e92b73228d9d7d490592cb07618a48",
+    "b64len": 3759916
+  },
+  "generation_wait_seconds": 37.514
 }

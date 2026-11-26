@@ -7444,3 +7444,7 @@ NewdistinctphotographicmaterialRBO-VERISSIMO-2015-JUV (notnewpaper/duplicateMenq
 
 ## 2026-11-26 #37 photo-evidence repair
 PEPO-PERROCHEAU-2008-DIPE65099 (DidierPerrocheau/Aug2008/Lima/originalphotopage and800x533actualview,juvenilelabel,ageunknown) and PEPO-UTPL-FMNH-758-2016 (sixUTPLauthors/2016/guide758/PDFp4photos62–63notage-labelled) are new independent records. Facts/URLs/locators/types/limits/designapplication in [37v7](species/37-glaucidium-peruanum-v7.md). Reuse SRC-BOOK-037-01 printed398/PDF400 and correctedPEPO-LUTHI-2011 only; noAdobeinference. [Concept](../design/concepts/37-glaucidium-peruanum-v7.png), [review](reviews/37-glaucidium-peruanum-v7-review.md). Morph/youngstage/sex unknowns separated. No thirdpartyphotorepublication.
+
+
+## 2026-11-26 cycle2 #47 primary-source access boundary
+NewBROW-MNHN-1931-163-2026 (MNHNmale ticehursti syntype1929Vietnam, ageindeterminate) metadataactuallyread, originalimageHTTP403notviewed; source/URL/type/locator/limits/design non-transfer decision in [gaprecord](gaps/20261126T0034Z-47-preflight.md). KFBGreportTimeout/403 and Smithsonian404 unverifiedleadsnotverifiedfacts. No newimage/age/toe claim; #47v10remainscurrent. Cycle2uncredited.

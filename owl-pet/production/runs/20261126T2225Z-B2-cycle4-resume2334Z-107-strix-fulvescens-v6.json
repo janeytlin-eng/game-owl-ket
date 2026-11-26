@@ -5,7 +5,7 @@
   "target": "107-strix-fulvescens-v6",
   "action": "SCIENCE_REVISION",
   "started_at": "2026-11-26T23:38:45.595Z",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "STARTED",
@@ -26,6 +26,10 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-26T23:41:58.160Z"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-26T23:42:35.689Z"
     }
   ],
   "errors": [
@@ -70,5 +74,9 @@
     "b64len": 3494144
   },
   "actual_visual_review": "Adult exposed toe skin now muted yellowish-grey with proximal feather fringe and dusky claws retained, correcting pinkish cast in v5. Full plate checked: exactly three birds; title/three role labels and age-unknown young retained; adult dark eyes, yellow bills, brown barred/streaked identity, near-equal scale, juvenile down/compact wings/concealed tail, cloud forest and all six support contacts preserved. Not a nest scene. No young palette transfer, no claimed sex-height ratio or age/flight calibration. No further edit required. Remaining juvenile iris/plumage chronology, exact toe morphology and population size distributions unknown.",
-  "review_status": "PASS_WITH_LIMITATIONS"
+  "review_status": "PASS_WITH_LIMITATIONS",
+  "archive_commit": "250b798bd23f979acff335e9c97d0e40fcdc15a0",
+  "byte_verification_observed_exit0_at": "2026-11-26T23:42:35.664Z",
+  "ended_at": "2026-11-26T23:42:35.664Z",
+  "lesson": "Problem: v5 adult toe skin had pink cast. Guide p345 and expert Description64–66 agree exposed toes are yellowish/yellow-grey; targeted edit corrected adult skin only and actual full-image review verified basal feathers and dark claws retained. Rule applied and visually checked once: toe-colour edits must specify feather-boundary and age scope, preventing adult-to-young transfer. No general biological validation claimed."
 }

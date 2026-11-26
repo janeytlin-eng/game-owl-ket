@@ -7637,3 +7637,7 @@ PSOW-CLANCEY-1980-P96-LEAD retained stable ID; status upgraded UNVERIFIED_TARGET
 
 ### 2026-11-26 29-glaucidium-capense-v7 actual audit
 New0/reuse3 fresh body/guide reads. Adult-only horn-claw correction; juvenile untouched. Venter2019 prior record remains unrecovered, no fresh primary claim. Guide and OwlPages not independent primary replication. [Facts, boundaries and full prompt](species/29-glaucidium-capense-v7.md).
+
+
+### 2026-11-26 30-glaucidium-cuculoides-v7 actual audit
+New0/reused2 fresh body/guide reads. #30v7 refines juvenile pale-buff head spots, preserving them unlike other plain-crowned species. Existing mantle/formed wings/support retained; quantitative spot scale not scientifically calibrated. [Facts, boundaries and full prompt](species/30-glaucidium-cuculoides-v7.md).

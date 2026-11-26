@@ -7758,3 +7758,7 @@ Correction 20261126T1427Z: preceding52v7 tail-revision entry is a REJECTED dupli
 
 ### 2026-11-26 60-ketupa-flavipes-v7
 新0/复用3；图鉴302/PDF304及博物馆新读取，SPNP当前只导航而非原正文，历史估龄复用明确。成年裸皮由饱和橙黄减为灰绿黄，爪灰角色；不改幼鸟日龄或腿羽边界。 [facts/fullprompt](species/60-ketupa-flavipes-v7.md).
+
+
+### 2026-11-26 62-ketupa-sumatrana-v7
+New0/reused4 stable sources. WHSO-MIKKOLA-2013 p290 and BEOW-SGBIRDS-2026 freshly read; BEOW-LKC-SBR-2017-178 primary p178 reopened; BEOW-FOLEY-2013-P34-37 historical body reused with current direct-fetch timeout/503. Face colour correction only; one-pair sex observations not a universal key. Existing IDs reused; full facts/limits/prompt below. [facts/fullprompt](species/62-ketupa-sumatrana-v7.md).

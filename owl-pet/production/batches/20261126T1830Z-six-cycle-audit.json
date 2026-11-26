@@ -1,0 +1,402 @@
+{
+  "owner": "20261126T1830Z",
+  "completed": 6,
+  "new_species": 0,
+  "revised_species": 6,
+  "coverage": "207/251",
+  "content_revisions": 3,
+  "annotation_only": 2,
+  "needs_revision": 1,
+  "sources": {
+    "new": 2,
+    "reused_citations": 16,
+    "distinct_documents": 13,
+    "source_ids": [
+      "LET-OWLHK-ANNUAL-2021-2022-P2",
+      "LET-HKBWS-AVIFAUNA-CURRENT",
+      "WHSO-MIKKOLA-2013",
+      "LET-BSS-CURRENT",
+      "BRU-KHOURY-ALSHAMLIH-DHEIB-2021-P286-287",
+      "SEM-NOHARA-HONDA-2025-P75-78",
+      "ELE-MOE-JAPAN-2026-REREAD",
+      "ELE-SAWADA-IWASAKI-ETAL-2021-RSD",
+      "ASC-ALSHEIKHLY-2012-SANDGROUSE",
+      "ASC-ALSHEIKHLY-MIKKOLA-MOUSAVI-2020",
+      "CAP-BDI-TIPPETT2024",
+      "CAP-OGADA-KIBUTHU2012",
+      "CAP-PEREGRINE-2026"
+    ]
+  },
+  "rows": [
+    {
+      "id": "79-otus-lettia-v8",
+      "archive": "8a67130cd89458d06707a30c21a01f8fa6a33fea",
+      "verified": "d8e8517a1f926cb80aa28d8ce4dce751dd403a73",
+      "ledger": "a10c36877a5e5b188dc7d82fe9c1c13568f2ac96",
+      "run": "owl-pet/production/runs/20261126T1734Z-B2-cycle4-resume1830Z.json",
+      "source_new": 2,
+      "source_reuse": 2
+    },
+    {
+      "id": "83-otus-brucei-v7",
+      "archive": "e572abcca3c22716f091d5df3f733632cf45f828",
+      "verified": "b3c6b346ffff880a12d313515e491df846b6a6bc",
+      "ledger": "ca9fe0a6feb993a114b77aac7d3dc0ebd376b639",
+      "run": "owl-pet/production/runs/20261126T1734Z-B2-cycle5-resume1830Z.json",
+      "source_new": 0,
+      "source_reuse": 2
+    },
+    {
+      "id": "85-otus-semitorques-v7",
+      "archive": "735b8549c73096b59db314683b3dddcae127dd25",
+      "verified": "0d7b7da493927bd56020755627625e881259dda9",
+      "ledger": "47a2c106ac14049ad555cc5c385f4b1e99a4d99b",
+      "run": "owl-pet/production/runs/20261126T1734Z-B2-cycle6-resume1830Z.json",
+      "source_new": 0,
+      "source_reuse": 2
+    },
+    {
+      "id": "86-otus-elegans-v6",
+      "archive": "3d13de2c401a1a87a23c4b525e6b37da0eebc251",
+      "verified": "3b61aaa798ffac8cc26e46ed775ecce0d3da20aa",
+      "ledger": "e3f5215cb1b05b4f8b28a5b02fb2f17f9f9228de",
+      "run": "owl-pet/production/runs/20261126T1830Z-B2-cycle1-resume1830Z.json",
+      "source_new": 0,
+      "source_reuse": 3
+    },
+    {
+      "id": "87-bubo-ascalaphus-v8",
+      "archive": "b55fc7469566dbf6b41e31df960b3e2111728ab6",
+      "verified": "4f85b4fa4f5df8917aca6bd4715012307429de8e",
+      "ledger": "bddc30dbdf834a9c546ea5078d8663e38f856ab8",
+      "run": "owl-pet/production/runs/20261126T1830Z-B2-cycle2-resume1830Z.json",
+      "source_new": 0,
+      "source_reuse": 3
+    },
+    {
+      "id": "88-bubo-capensis-v7",
+      "archive": "0c8ab993c32e30c51216c1dbff5ce0b2e43efe91",
+      "verified": "274d392c0383a34f74fadc09f299ad17b815761c",
+      "ledger": "85b295cb3a34fecd98e8f90921fd72725e506d9f",
+      "run": "owl-pet/production/runs/20261126T1830Z-B2-cycle3-resume1830Z.json",
+      "source_new": 0,
+      "source_reuse": 4
+    }
+  ],
+  "audit": [
+    {
+      "id": "79-otus-lettia-v8",
+      "phases": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T18:30:55.139Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T18:32:30.849Z",
+          "evidence": "Actual fullv7 and OWLHK PDFp2 photo viewed; guide156/BSS/HKBWS body read. Two new sources, two reused.",
+          "prompt": "Use case: precise-object-edit. Image1 is the edit target #79 Collared Scops Owl Otus lettia v7 comparison plate. Image2 is a species-captioned real juvenile in OWLHK annual report, morphological texture reference ONLY; do not copy its photo, background, lighting or arrangement. Produce sibling v8. RECONSTRUCT the center juvenile's feather SURFACE rather than preserving the erroneous string rendering: as visible in image2, short fine densely overlapping soft mesoptile feather tips with faint narrow broken transverse brown bars on a pale grey-buff body; small residual fluffy edges on head and breast, not long free hanging loops. Remove the conspicuous closed-loop, wire-string, crochet textures over head/neck/chest/belly completely. Body should read soft finely feathered like the real juvenile, not shaggy wool or knitted strings. Keep small ear tufts, dark brown irises/soft reddish-brown eye margins, greenish-horn bill, compact formed down-softened folded wings, short concealed tail, same overall placement and two feet firmly gripping the SAME branch. Do not convert the juvenile into an adult, hatchling, smooth plush toy or remove all fine dark barring. Preserve both adults and their poses, feathers, face/eye/bill/toe colors, near-equal display scale, branches, forest/cavity background, warm painterly-realistic style, exact title/scientific name, all adult labels. Center label remains 'AGE-UNKNOWN OLDER JUVENILE'; retain footer 'CONCEPT — SCIENTIFIC REVIEW PENDING; AGE / FLIGHT / SEX RATIO UNVERIFIED'. Exactly three owls; no source photograph reproduction, extra objects/birds/limbs or claim exact age/flight."
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T18:36:46.252Z",
+          "blob": "47d7ab58c0423eea216d8c84211a4f7eaa97aff6"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T18:36:49.434Z",
+          "evidence": "# #79 Otus lettia v8 actual review\nActualv7/firstattempt/secondrebuild/finalthirdedit full plates and second/final native juvenile crops viewed. Firstsurface-only edit failed; wholecenter rebuild plus localizedlowerbelly repaint substantially reduced conspicuous long loop strings. Young now shorter fine mesoptile on head/chest/lowerbelly, narrow broken brown bars visible, dark eyes/smalltufts/hornbill/formedcompactfoldedwing and hidden shorttail align with actuallyviewed institutional olderjuvenile. Bothfeet firmbranchgrip, exactly3birds, adult eyes/bills/plumage/near-equal scale/poses and contextualcavity unchanged visually; footer retained. Residual stylized curved/scalloped feather tips persist especially belly and adultpattern; not literalfeatheratlas. PASS_WITH_LIMITATIONS for concept improvement, sciencefalse, no newuserapproval. Fineedgegeometry/individualage/subspecies/flight/sexratio unknown and futuretexture audit retained, not absolute elimination claim. New reference+lesspreservation/fullcenterrebuild worked substantially better here than two prior negative surfaceprompts; only localvisual effectiveness, not universalrulevalidation. Previouslyflagged81/82 texture notyet modified or retrospectivelypassed."
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T18:36:57.428Z",
+          "commit": "8a67130cd89458d06707a30c21a01f8fa6a33fea"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-26T18:37:25.131Z",
+          "evidence": "Immutable original/concept fullbytes SHA256 and PIL decode pass; research/review readback."
+        }
+      ],
+      "wait": 51.635,
+      "wait2": 51.526,
+      "wait3": 34.412,
+      "source_new": 2,
+      "source_reuse": 2,
+      "source_ids": [
+        "LET-OWLHK-ANNUAL-2021-2022-P2",
+        "LET-HKBWS-AVIFAUNA-CURRENT",
+        "WHSO-MIKKOLA-2013",
+        "LET-BSS-CURRENT"
+      ],
+      "meta": {
+        "bytes": 2603361,
+        "sha256": "f0cb05793b00b271807cc7e35b3d5282c743fce6f997f26db7589ca0ff65ff52",
+        "b64len": 3471148,
+        "gitblob": "47d7ab58c0423eea216d8c84211a4f7eaa97aff6"
+      },
+      "errors": [],
+      "review": "# #79 Otus lettia v8 actual review\nActualv7/firstattempt/secondrebuild/finalthirdedit full plates and second/final native juvenile crops viewed. Firstsurface-only edit failed; wholecenter rebuild plus localizedlowerbelly repaint substantially reduced conspicuous long loop strings. Young now shorter fine mesoptile on head/chest/lowerbelly, narrow broken brown bars visible, dark eyes/smalltufts/hornbill/formedcompactfoldedwing and hidden shorttail align with actuallyviewed institutional olderjuvenile. Bothfeet firmbranchgrip, exactly3birds, adult eyes/bills/plumage/near-equal scale/poses and contextualcavity unchanged visually; footer retained. Residual stylized curved/scalloped feather tips persist especially belly and adultpattern; not literalfeatheratlas. PASS_WITH_LIMITATIONS for concept improvement, sciencefalse, no newuserapproval. Fineedgegeometry/individualage/subspecies/flight/sexratio unknown and futuretexture audit retained, not absolute elimination claim. New reference+lesspreservation/fullcenterrebuild worked substantially better here than two prior negative surfaceprompts; only localvisual effectiveness, not universalrulevalidation. Previouslyflagged81/82 texture notyet modified or retrospectivelypassed."
+    },
+    {
+      "id": "83-otus-brucei-v7",
+      "phases": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T18:38:23.666Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T18:39:16.867Z",
+          "evidence": "# #83 Otus brucei v7 — observed palm stand versus invented active cavity\nAccess2026-11-27(+08). Revision preserving v1–v6/confirmations. Current/old Otus brucei / Ephialtes brucei existing mapping reused; no taxonomic change.\n## Reused sources actually read\nBRU-KHOURY-ALSHAMLIH-DHEIB-2021-P286-287, FaresKhoury/MohammedAlshamlih/AhmadDheib2021 The first breeding record of Pallid Scops Owl Otus brucei in Jordan, Sandgrouse43:286–287, author-upload full body actually read286–287 (lines82–123/129–145), original https://www.researchgate.net/publication/357327177_The_first_breeding_record_of_Pallid_Scops_Owl_Otus_brucei_in_Jordan . July8 observers saw/heard begging fledged young in old palmplantations; fine crossbars withoutstreaks/shorttail support inferredrecentdeparture, no hatchdate/depictedanatomy measurement. The inspected passage describes no actual nest cavity or nest-room wood floor; it cannot authenticate the current artificial-looking cutwood cavity design. No new photo pixels claimed.\nBRU-MIK2013-126 / WHSO-MIKKOLA-2013 HeimoMikkola2013 uploadedguide printed126/PDF128 Identification/Juvenile actually read: palegrey/ochre shaftstreakedadults, yellowiris/darkhornbill, basalfeatheredtoes; changing juvenilepattern withdownremnants not literalage assignment. Sexmass difference not standing-height formula.\n## Actual view and design inference\nFullv6 actually viewed: adultspale/darkshaftstreaks/grey proximaltoefeatherboundary and central crossbarredcallingyoung supported, but three flat-cut wooden posts/frame around large apparent active cavity resemble constructednestroom. Field source supports oldpalmstand with fledgedyoung, not authenticatednestcavity. Rebuild only perch/hollow environment into natural roughfibrous oldpalm frondbases/rachis supports; remove apparent nestchamber and saw-cut wood. Keep allfeet stable andyoungstance/crossbars/wings/shorttail; exactage/flight/individualsex/sexratio andnaturalperchgeometry unknown. Naturalperchshape isdesigninference, not literalobservedtree. Add ageunknown/conceptfooter, no sciencepass.\n## Deferred missing species gap checked this cycle\n#231 Ninoxforbesi renewed current/oldname/juvenile searches: ML201334361 actualpage botdenied9e4edb5b6b850c41; no agedjuvenile proof. #227 Otuscapnodes publisherpage opened but inspectedwrapper/searchdidnotrecovernewjuveniledescription. Priorresearchdeferrals remain, no fabricatedyoung/no new speciescredit. Newsearchhits notsourcefacts; do notadd unverifiedsourceentries.",
+          "prompt": "Use case: precise-object-edit. Edit attached #83 Pallid Scops Owl Otus brucei v6 to v7. Change only the artificial-looking SAWN WOOD / CAVITY surroundings into a natural supported old-palm perch setting: remove the large black nest-room opening and its flat-cut wooden rectangular floor/frame/posts. Replace those supports at the SAME foot-contact locations with rough fibrous weathered PALM FROND BASES and a broad naturally supported aged palm rachis/frond-base ledge, firmly attached to the old palm trunk, continuous believable weight support under every foot. Background behind juvenile should be open fibrous trunk/frond-bases, not a hollow/nest chamber. No smooth sawn ends, manufactured planks, woven nest, eggs or branch growing magically through a foot. Preserve exactly3owls, both adults' pale subtly streaked plumage, yellowirises/darkgreyhornbills/near-equalheight/featheredproximaltoes/darkclaws/poses; juvenile callingpose, fine transversebars without adultshaftstreaks, loose downremnants/compactsoftwings/shorttail and bothfeet supported. Oldpalms/JordanValleywarmdusk style remains. Title/scientificname andadultlabels remain; center label 'AGE-UNKNOWN FLEDGED YOUNG'. Add small footer 'CONCEPT — SCIENTIFIC REVIEW PENDING; AGE / FIRST FLIGHT / SEX RATIO UNVERIFIED'. No claim exact observed tree or nest."
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T18:40:48.110Z",
+          "blob": "20a3e84557a994db219480d45f38e65292d63605"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T18:40:51.736Z",
+          "evidence": "# #83 Otus brucei v7 actual review\nActual input and generatedfullplate viewed: apparent blackactivechamber and sawnwoodposts/frame removed; rough fibrous oldpalm frondbases/continuousledges now under all three pairs of feet, no openunsupported foot or manufacturedbox. Natural rachis/frondbase surface geometry remains conceptdesign, not literal observedtree. Adults' pale streaks/eyes/bills/basaltoefeather/darkclaws and near-equal scale retained; center crossbarredcallingyoung/down/compactwing/shorttail/standingcontact retained. Title/name/three labels/footer readable; no additionaledit needed. PASS_WITH_LIMITATIONS/sciencefalse. Field report supports oldpalmstand/observedfledgedyoung, not a measured nestchamber or illustratedage. Lesson: oldhabitat record notproof of specificactivecavity; removing that assertion and keeping natural support effective in thisplate only. Otherpalm/cavity illustrations notautomaticallypassed."
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T18:41:00.361Z",
+          "commit": "e572abcca3c22716f091d5df3f733632cf45f828"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-26T18:41:16.180Z",
+          "evidence": "Immutable original/concept fullbytes SHA256 and PIL decode pass; research/review readback."
+        }
+      ],
+      "wait": 62.652,
+      "source_new": 0,
+      "source_reuse": 2,
+      "source_ids": [
+        "BRU-KHOURY-ALSHAMLIH-DHEIB-2021-P286-287",
+        "WHSO-MIKKOLA-2013"
+      ],
+      "meta": {
+        "bytes": 3089908,
+        "sha256": "fc0da32e7e611414929a5e94297d5f4b85e1270c588f5661c78d363ff8dc8947",
+        "b64len": 4119880,
+        "gitblob": "20a3e84557a994db219480d45f38e65292d63605"
+      },
+      "errors": [],
+      "review": "# #83 Otus brucei v7 actual review\nActual input and generatedfullplate viewed: apparent blackactivechamber and sawnwoodposts/frame removed; rough fibrous oldpalm frondbases/continuousledges now under all three pairs of feet, no openunsupported foot or manufacturedbox. Natural rachis/frondbase surface geometry remains conceptdesign, not literal observedtree. Adults' pale streaks/eyes/bills/basaltoefeather/darkclaws and near-equal scale retained; center crossbarredcallingyoung/down/compactwing/shorttail/standingcontact retained. Title/name/three labels/footer readable; no additionaledit needed. PASS_WITH_LIMITATIONS/sciencefalse. Field report supports oldpalmstand/observedfledgedyoung, not a measured nestchamber or illustratedage. Lesson: oldhabitat record notproof of specificactivecavity; removing that assertion and keeping natural support effective in thisplate only. Otherpalm/cavity illustrations notautomaticallypassed."
+    },
+    {
+      "id": "85-otus-semitorques-v7",
+      "phases": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T18:41:26.208Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T18:42:10.495Z",
+          "evidence": "# #85 Otus semitorques v7 — down texture calibrated to primary photographed young\nAccess2026-11-27(+08), revisev6 preserveall versions/confirmations. Current Otus semitorques, historical O.bakkamoena semitorques mapping retained; English CollaredScopsOwl in paper is resolved by explicit scientificname, not transferred to O.lettia.\n## Reused2 sources freshly read\nSEM-NOHARA-HONDA-2025-P75-78: KiyoshiNohara/RinaHonda2025 埼玉県におけるオオコノハズクの確実な繁殖記録 (A Reliable Breeding Record of Collared Scops Owl in Saitama Prefecture, Japan), Bull.SaitamaMus.Nat.Hist19:75–78, DOI10.24715/smnh.19.0_75, https://www.jstage.jst.go.jp/article/smnh/19/0/19_75/_pdf/-char/ja . Originalbody75–76/PDF1–2 and Figure3 caption actually read; originalPDF831234bytes locally downloaded, PDF2/printed76 rendered and actualFig3 juvenile pixels viewed. Down-dominated young with distincttufts/short incompletewingtail on cedar branch; littlemovement/firstdeparture inferred byauthors, no hatchage. Iris notdiscernible in source, notrecoloured. Exact nest notfound. Adult orangeiris/toefeathering supported; no sexratio.\nSEM-MIK2013-158 / WHSO-MIKKOLA-2013 uploadedguide printed158/PDF160 Identification/Juvenile freshly read: greyish/dullyellow diffuselybarredmesoptile; no sexualsize data; adulttarsi/toesfeathered. Regionalpryeri baretoes/darkyelloweyes cannottransfer toHonshu source. Secondaryqualitative featherboundaries, notagedatlas.\n## Actual diagnosis and design inference\nFullv6 opened: longloopywirelikecurlspriorrender on entireyoungthroat/body; actualprimaryphoto has dense softgrey down, notclosedloops. Use primaryFig3 as second morphologicalreference and rebuildcenteryoungonly, preserving twofootbranchsupport/incompletewing/tail, not replicating copyrightedphoto or changingyoungintoolder formedwingstage. Change veryrecentlabel to STUDY-REFERENCED YOUNG, exactage/iris/flightunknownfooter. Naturalbranch geometry/stabilizedvisiblefeet are designchoices, nothiddenphotodetailrecovery. Sciencefalse.\n## Iteration hypothesis\nFullcenterrebuild (workedsubstantially for79 texture) with ownspeciesphoto may outperform surface-only edits. This is a rule candidate/application, actualsuccess mustbeviewed; do not transfer79 youngwingstate to85.",
+          "prompt": "Use case: precise-object-edit. Image1 is edit target #85 Japanese Scops Owl Otus semitorques v6 plate. Image2 is the original primary-study page with Fig3 juvenile at TOP RIGHT; ONLY that top-right juvenile is the morphological down/stage reference, not the left adult image or page text. Rebuild the center young owl as an original individual with this species-specific study-bounded feather state: dense fine soft GREYISH-BUFF down with faint diffuse bars, distinct small ear tufts, incomplete short growing wing feathers mostly nestled in down, no projecting mature tail, quiet supported posture. Remove the prior center's long hanging wires, closed-loop curls and crochet-like strings by reconstructing its fine dense down surface, not preserving exact old feather contours. Do not give it the olderjuvenile long folded wings of #79, do not make a smooth plush toy or rings/scallops. Keep the young eyes indistinct/shadowed (source iris unresolvable), greyish horn bill, both feet supporting weight on SAME branch. Preserve both adult owls exactly: orangeirises/greyhornbills/longtufts/herringbonebelly/doublecollar/featheredtoes/hornclaws, near-equal adult scale and poses/grips. Same cedar/broadleaf forest and warmrealisticstyle, exact85title/scientificname/adultlabels. Change center label to 'STUDY-REFERENCED YOUNG'. Add smallfooter 'CONCEPT — SCIENTIFIC REVIEW PENDING; AGE / IRIS / FIRST FLIGHT / SEX RATIO UNVERIFIED'. Exactly3owls, no nest assertion, no exactage or newly diagnosediris, no sourcephoto/page reproduction."
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T18:44:56.045Z",
+          "blob": "9344ae0329bc8b9d5fa3add42bef2f1b87f750fe"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T18:44:59.323Z",
+          "evidence": "# #85 Otus semitorques v7 actual review\nActualv6/firstedit/secondedit full plates viewed beside freshlyrenderedFig3p76. Young now diffusegrey down with sourceboundedtufts/incomplete shortwingfeathers/hidden tail, shadowediris, greyhornbill and quiettwofootbranchsupport; adults' orangeiris/featheredtoes/tufts/herringbone/near-equalscale preserved. Stage/science/irisunknown labels readable, no prematureirisrecolour or transferred79olderwing. However fine curling/looplikeoutlined down still visible acrossbelly/chest aftersecondedit; totaltexturecorrection NOT demonstrated. NEEDS_REVISION/sciencefalse, no newuserconfirmation. Colour/stage clearer but do notcalltexturepassed. Candidatefullrebuildpromptwithownspeciesreference applied, notfullyeffective for85. Figure3samebroodcase not preciseageatlas/photographcopy. Futurepriority:85texture, compare actualdowncrop ratherthan repeated negativewords; broadphase/shape currentlykept."
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T18:45:07.713Z",
+          "commit": "735b8549c73096b59db314683b3dddcae127dd25"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-26T18:45:25.790Z",
+          "evidence": "Immutable original/concept fullbytes SHA256 and PIL decode pass; research/review readback."
+        }
+      ],
+      "wait": 54.422,
+      "wait2": 48.447,
+      "source_new": 0,
+      "source_reuse": 2,
+      "source_ids": [
+        "SEM-NOHARA-HONDA-2025-P75-78",
+        "WHSO-MIKKOLA-2013"
+      ],
+      "meta": {
+        "bytes": 2671441,
+        "sha256": "7d06811dcd63fa7ee08c1e3f5372a2f081b957f656aba5d446316b299a4731f3",
+        "b64len": 3561924,
+        "gitblob": "9344ae0329bc8b9d5fa3add42bef2f1b87f750fe"
+      },
+      "errors": [],
+      "review": "# #85 Otus semitorques v7 actual review\nActualv6/firstedit/secondedit full plates viewed beside freshlyrenderedFig3p76. Young now diffusegrey down with sourceboundedtufts/incomplete shortwingfeathers/hidden tail, shadowediris, greyhornbill and quiettwofootbranchsupport; adults' orangeiris/featheredtoes/tufts/herringbone/near-equalscale preserved. Stage/science/irisunknown labels readable, no prematureirisrecolour or transferred79olderwing. However fine curling/looplikeoutlined down still visible acrossbelly/chest aftersecondedit; totaltexturecorrection NOT demonstrated. NEEDS_REVISION/sciencefalse, no newuserconfirmation. Colour/stage clearer but do notcalltexturepassed. Candidatefullrebuildpromptwithownspeciesreference applied, notfullyeffective for85. Figure3samebroodcase not preciseageatlas/photographcopy. Futurepriority:85texture, compare actualdowncrop ratherthan repeated negativewords; broadphase/shape currentlykept."
+    },
+    {
+      "id": "86-otus-elegans-v6",
+      "phases": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T18:45:35.317Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T18:46:19.255Z",
+          "evidence": "# #86 Otus elegans interpositus v6 — export individual-stage and dimorphism limits\nAccess2026-11-27(+08). Annotation revision preservesv1–v5/history. Current Otus elegans interpositus (Minami-daito) mapping and historical Ephialtes elegans / Otus japonicus interpositus retained fromv5; guideolderpopulationlist notnewrankdecision.\nReused ELE-MOE-JAPAN-2026-REREAD JapanMOE DaitoRDB https://ikilog.biodic.go.jp/rl_rdb/a/792.html actualbody24–30 read: interpositus/differences variable, June–Julydeparture withparental feeding and shelterbelts/Casuarina cavities. No individualpicturedage or independenceflight measurement. Reused ELE-SAWADA-IWASAKI-ETAL-2021-RSD AkiraSawada/TetsuyaIwasaki/TaroMatsuo/KanaAkatani/MasaokiTakagi2021 OrnithologicalScience20:15–26 DOI10.2326/osj.20.15 https://www.jstage.jst.go.jp/article/osj/20/1/20_15/_pdf originalp15–16 actualabstract/introduction read:770birds/17years, traitdirectionvaries; no universalstandingheightratio. Reused WHSO-MIKKOLA-2013 HeimoMikkola2013 uploadedguide printed160/PDF162 Identification/Juvenile freshly read: yellowiris/darkhornbill/featheredtarsi/baretoe/herringboneadult identity, mesoptileadultlike qualitatively. Its outdatedranks/sexdata notsuperseding specificpopulationprimary.\nFullv5 actuallyviewed: title/roles adultmaleleft,femalecenter, youngright; lowstablebranchbeggingyoung withnoindependentflightdemonstration, labelRECENTFLEDGLING unmeasured. Add image scientificpending/age-flight-sexratio unknown and labelAGE-UNKNOWN DEPENDENTYOUNG, leave specificfeathers untouched because no newgrowthsequence orphotographstage acquired. Repeatedcurl texture remainscandidatefutureaudit, no newmorphologypass. Near-equal adult scale maintained, no uniformfemalelarger rule. Exactyoungage/sex/iris/continuousfeathersequence/flightunknown; sciencefalse.",
+          "prompt": "Annotation-only precise edit of attached #86 RYUKYU SCOPS OWL Otus elegans v5 to sibling v6. Preserve the existing cream-paper naturalistic gouache style, exact numbered86 title/name, layout ADULT MALE left / ADULT FEMALE center / juvenile right, all bird morphology/plumage/eyes/bills/toes/claws, near-equal adult skeletal scale and modest female fullness, young begging pose/compact soft wings/short tail and BOTH feet on low Casuarina branch, shelterbelt and sugarcane background. Change ONLY right label RECENT FLEDGLING to AGE-UNKNOWN DEPENDENT YOUNG. Add a small clear footer in bottom margin 'CONCEPT — SCIENTIFIC REVIEW PENDING; AGE / FIRST FLIGHT / SEX RATIO UNVERIFIED'. Do not redraw feathers or change the young's iris because no new photo age calibration exists. Exactly three birds, no new nest, objects or flight/size claim."
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T18:47:40.445Z",
+          "blob": "48de9fac65a3ced2b11f0c9a5c62c7732a660cc7"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T18:47:43.871Z",
+          "evidence": "# #86 Otus elegans interpositus v6 actual review\nActual generatedfullv6 viewed. AGE-UNKNOWN DEPENDENTYOUNG/footer readable, unchangedexistingorder maleleft/femalecenter/youngright. Adults yellowiris/darkbill/tufts/plumage/near-equalheight/modestfullness/toegrips preserved; young begging/softcompactwing/shorttail/bilateralwoodsupport unchanged. Creamgouachestyle/shelterbelt/cane context preserved. Annotation-only PASS_WITH_LIMITATIONS/sciencefalse, not a feathercalibration; curly juveniletexture candidatefutureaudit retained. Source trait/yearsizedirection cannotbe uniformheight rule; populationdeparturecalendar not picturedage. No extraeditneeded, no newuserapproval."
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T18:47:52.558Z",
+          "commit": "3d13de2c401a1a87a23c4b525e6b37da0eebc251"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-26T18:48:09.153Z",
+          "evidence": "Immutable original/concept fullbytes SHA256 and PIL decode pass; research/review readback."
+        }
+      ],
+      "wait": 42.439,
+      "source_new": 0,
+      "source_reuse": 3,
+      "source_ids": [
+        "ELE-MOE-JAPAN-2026-REREAD",
+        "ELE-SAWADA-IWASAKI-ETAL-2021-RSD",
+        "WHSO-MIKKOLA-2013"
+      ],
+      "meta": {
+        "bytes": 3012305,
+        "sha256": "a6d3ac62665186f633481fe80efe18492d3980889fe5ea0145000b2b6dfb07ff",
+        "b64len": 4016408,
+        "gitblob": "48de9fac65a3ced2b11f0c9a5c62c7732a660cc7"
+      },
+      "errors": [],
+      "review": "# #86 Otus elegans interpositus v6 actual review\nActual generatedfullv6 viewed. AGE-UNKNOWN DEPENDENTYOUNG/footer readable, unchangedexistingorder maleleft/femalecenter/youngright. Adults yellowiris/darkbill/tufts/plumage/near-equalheight/modestfullness/toegrips preserved; young begging/softcompactwing/shorttail/bilateralwoodsupport unchanged. Creamgouachestyle/shelterbelt/cane context preserved. Annotation-only PASS_WITH_LIMITATIONS/sciencefalse, not a feathercalibration; curly juveniletexture candidatefutureaudit retained. Source trait/yearsizedirection cannotbe uniformheight rule; populationdeparturecalendar not picturedage. No extraeditneeded, no newuserapproval."
+    },
+    {
+      "id": "87-bubo-ascalaphus-v8",
+      "phases": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T18:48:17.466Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T18:48:55.289Z",
+          "evidence": "# #87 Bubo ascalaphus v8 — estimated case age versus rendered individual\nAccess2026-11-27(+08), annotation revision preservev1–v7/confirmations. Current Bubo ascalaphus; historical broad B.bubo ascalaphus treatment retainedexistingmapping, notnewtaxonomicdecision.\nReused ASC-ALSHEIKHLY-2012-SANDGROUSE OmarF.Al-Sheikhly2012 Breeding of PharaohEagleOwl Buboascalaphus in Iraq Sandgrouse34:72–74, https://www.osme.org/wp-content/uploads/2019/10/I_Al-Sheikhly_Sandgrouse34-1-compr.pdf actualp72/PDF1 body18–44/Plate1caption46–48read. Marketowlet estimatedc40days via personalcommunication, notknownhatchage. Newlydevelopedpaleflightfeathers/darkbill/yellowirides; cliffnest originhunteraccount, subsequentadultroost observed. Notagedin-situnestlinggrowthseries, cannotmeasure exactgeneratedindividualage. No newphotopixelclaim.\nReused ASC-ALSHEIKHLY-MIKKOLA-MOUSAVI-2020 originalBull.IraqNatHistMus16(2):219–230 DOI10.26842/binhm.7.2020.16.2.0219 https://jnhm.uobaghdad.edu.iq/index.php/BINHM/article/download/473/317/1258 actualintro219–220 and juvenileparagraph223/PDF5 read. Criticalscope: 2014Iran youngphotoinitialID explicitly inconclusive duejuvenile overlap, notindependent species-certifiedgrowth proof; 2012marketcase notreplacedby thisuncertainphoto. Prioradultdiagnostic use retained, no newsource ID. Reused ASC-MIK2013-272 / WHSO-MIKKOLA-2013 uploadedguide printed272/PDF274 Identification/Juvenile actuallyread, upperbreaststreaks/lowerfinebars and shortyoungtufts; unknownprecisefeathergeometry orscale. Printedmassdiscrepancy notused.\nFullv7opened: c.40-DAY JUVENILE label, sciencependingfooter alreadypresent, body/source-basedpalenewwing/feetstable. Change label to STUDY-REFERENCED JUVENILE, footerclarifiesindividualage/firstflight/sexratio unknown; no newly justifiedbodyedit. Existingcave/cliffsetting isconcept, notdirectphotographofobservedmarketbird in situ. Sourceestimatekept inresearch, notassigningexactgrowthday. Sciencefalse, originalversionsunchanged.",
+          "prompt": "Annotation-only edit attached #87 Pharaoh Eagle-Owl Bubo ascalaphus v7 to sibling v8. Keep EVERY owl's morphology, adult upperbreastdrops/lowerfinerufousbars with natural transition, yellow-orangeeyes/darkbills/tarsal-toefeathers/near-equaladultscale/modestfemale fullness, center pale newly-developed soft wing feathers/small tufts/yelloweyes/shorttail/twofeetrocksupport, cliffface/cavity/background/shrubs, warm realistic plate and numberedtitle/scientificname andadultlabels unchanged. Change center label 'c.40-DAY JUVENILE' to 'STUDY-REFERENCED JUVENILE'. Retain concept-scientificpending footer and add one clear line 'ILLUSTRATED AGE / FIRST FLIGHT / SEX RATIO UNVERIFIED'. Do not redraw bodies or infer age/flight from the personal-communication study estimate. Exactly3birds, no extraobjects, sourcephoto reproduction or morphology-pass claim."
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T18:50:10.482Z",
+          "blob": "c8e620d1eb9cd21c8ed5e7fad104e7b22e37a2ae"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T18:50:14.091Z",
+          "evidence": "# #87 Bubo ascalaphus v8 actual review\nActual fullgeneratedv8 viewed: STUDY-REFERENCED JUVENILE label/sciencepending/illustratedage-firstflight-sexratio line readable. Adult upperbreastdrops/lowerfinebars/softtransition/yelloworangeeyes/blackbills/feet and stance unchanged; young paleformedwing/shorttufts/yelloweyes/rocksupport retained. No newbodycalibration, annotation-only PASS_WITH_LIMITATIONS/sciencefalse. c40estimate remains documented inresearch as personalcommunication marketcase, notknownhatchage;2014Iran tentativejuvenileID not upgraded. Footereffective, no extraeditneeded/no userapprovaltransfer."
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T18:50:22.387Z",
+          "commit": "b55fc7469566dbf6b41e31df960b3e2111728ab6"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-26T18:50:48.894Z",
+          "evidence": "Immutable original/concept fullbytes SHA256 and PIL decode pass; research/review readback."
+        }
+      ],
+      "wait": 44.117,
+      "source_new": 0,
+      "source_reuse": 3,
+      "source_ids": [
+        "ASC-ALSHEIKHLY-2012-SANDGROUSE",
+        "ASC-ALSHEIKHLY-MIKKOLA-MOUSAVI-2020",
+        "WHSO-MIKKOLA-2013"
+      ],
+      "meta": {
+        "bytes": 2556312,
+        "sha256": "281df009a8f290a66f2a24ae0a616ef994f5970dff5031cadff9814fbeac2b62",
+        "b64len": 3408416,
+        "gitblob": "c8e620d1eb9cd21c8ed5e7fad104e7b22e37a2ae"
+      },
+      "errors": [],
+      "review": "# #87 Bubo ascalaphus v8 actual review\nActual fullgeneratedv8 viewed: STUDY-REFERENCED JUVENILE label/sciencepending/illustratedage-firstflight-sexratio line readable. Adult upperbreastdrops/lowerfinebars/softtransition/yelloworangeeyes/blackbills/feet and stance unchanged; young paleformedwing/shorttufts/yelloweyes/rocksupport retained. No newbodycalibration, annotation-only PASS_WITH_LIMITATIONS/sciencefalse. c40estimate remains documented inresearch as personalcommunication marketcase, notknownhatchage;2014Iran tentativejuvenileID not upgraded. Footereffective, no extraeditneeded/no userapprovaltransfer."
+    },
+    {
+      "id": "88-bubo-capensis-v7",
+      "phases": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T18:50:57.087Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T18:51:46.180Z",
+          "evidence": "# #88 Bubo capensis v7 — adult dorsal toe feather coverage\nAccess2026-11-27(+08); revision preservev1–v6/confirmations. Current Bubo capensis, existing subspecies mapping retained; no assumed Kenya mackinderi identity for all illustratedbirds.\n## Reused4 actual sources\nWHSO-MIKKOLA-2013 HeimoMikkola2013 uploadedguide printed276/PDF278 Identification/Juvenile freshly read: adult tarsi/toes denselyfeathered, limitedbrownishoutertips/yellowishbareundersides/darkclaws, youngdullbrown-whitebarred/yellowiris. No featherdensitymeasurement/individualday.\nCAP-BDI-TIPPETT2024 RyanTippett27April2024, BDI CapeEagleOwl, https://thebdi.org/2024/04/27/cape-eagle-owl-bubo-capensis/ actualIdentification49–54 read: off-white fullyfeathered upperfeet, adults samecolor, young paler/reducedtufts. Regionalsecondaryinstitutionalaccount, notprimarytoeatlas or newphoto pixels. Irisdescriptiondeeporange differsguideorange-yellowrange; adults currentorange kept, no youngirischange.\nCAP-OGADA-KIBUTHU2012 DarcyL.Ogada/PaulM.Kibuthu2012 J.RaptorRes46(4):327–335 DOI10.3356/JRR-11-90.1 authoruploadedfullbody actuallyread327–328 Methods/StudyArea/Surveys (RG300–414), https://www.researchgate.net/publication/257412835_Breeding_Ecology_of_Mackinder%27s_Eagle-Owls_Bubo_capensis_mackinderi_In_Farmlands_of_Central_Kenya .13pairs/2004–08centralKenya, rockyagriculturalstudycontext; nestlingage estimated fromsize, operationalfledgedcriterionapprox70days. Not measured feathersequence/normalfirstflighttest and notmandatoryaltitudeorageforSouthAfrica concept.\nCAP-PEREGRINE-2026 institutionPeregrineFund, publicationdateunknown, https://peregrinefund.org/explore-raptors-species/owls/cape-eagle-owl actualNestsEggsYoung54–57 read: explorationaround45days/flightaround2months generalizedsynthesis. Different endpointvsprimary70dayoperationalclassification, notassignabletoillustratedyoung. Preserveageunknown ratherthanforceoneday.\n## Actual diagnosis and design inference\nFullv6 actuallyviewed: adult footdorsa have long pale tan scaledareas bare fromtarsibase toclaws, againstguide/BDIadultcoverage. Addshortfinecream/off-whitefeathering to adultdorsaltoes, leavebareunderside/contactpads/brownishdistaltips andclaws unchanged. Juvenilefeet andyoung yellowiris/down/wing/support untouched; adultrule notmigrated toyouth. Qualitativedensity only; exactage/firstflight/feathergeometry/subspecies/sexratio unknown. Conceptsciencefalse.\n## Expected check\nSeparatetoe topversuspad anatomy; no mittenballs/noextratoes/nofoot displacement. Adultscale remainsnear equal withmodestfullness, noheightformula. Bodypattern/blackbreastplate/rockledge unaffected.",
+          "prompt": "Precise-object-edit attached #88 Cape Eagle-Owl Bubo capensis v6 to sibling v7. Change ONLY the TWO ADULTS' dorsal TOE FEATHER COVERAGE, left and right. The current long bare tan scaly uppersides of toes must gain dense but fine SHORT off-white/cream feathers continuous from existing feathered tarsi, covering toe TOPS almost to the distal tips. Retain short brownish exposed distal toe tips, all dark claws/blackishtips, bare gripping UNDERsides/contactpads, exact toe count/length/grips and original rock contacts. Do not make mittenfeet/extra toes or move legs. Do NOT change juvenile feet or infer its stage from adultfeathering. Keep everyotherbird feature: adultorangeeyes/blackhornbills/denseblackupperbreastblotches/lowerbellybars/whitewingmarks/near-equaladultheight andmodestfemalefullness; centralageunknownyoungyelloweyes/reducedtufts/softcompactwings/shorttail/twofeetmineralsupport. Preserve rockySouthAfricanlandscape/cave/vegetation/light, all title/scientificname/rolelabels andexisting scientificpendingfooter. Add small unobtrusive line 'AGE / FIRST FLIGHT / SEX RATIO UNVERIFIED' withinbottommargin. Exactly3owls, no sourcephoto reproduction/newnest/eggs/limbs."
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T18:53:17.900Z",
+          "blob": "0a3d18d4a091b8fea478545f3392b1180c611421"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T18:53:21.036Z",
+          "evidence": "# #88 Bubo capensis v7 actual review\nActual input/fullfinal and adultfeet nativecrop viewed. Bothadulttoetops nowcoveredfineoff-white shortplumes, shortdistaltips/darkclaws remain, toeforms/rockcontacts/tarsalcontinuity preserved; no mittenballs ornewlegs. Hiddenundersidepads notnewlyrevealed, no falsevisiblepadverification; no juveniletoe-ruletransfer. Adultorangeirises/darkbills/blackbreastplate/wingwhites/lowerbars/near-equalheight andyoungyellowiris/reducedtufts/compactwing/shorttail/support unchanged. Alltitle/labels/sciencependingandnewunknownfooter readable. PASS_WITH_LIMITATIONS/sciencefalse; coveragequalitative only. No extraeditneeded. Lessoncheckfootdorsum separatelyfrompad/baretip, anddo not transferadultcoverage tojuvenile. PrimaryKenyaoperational70daycriterion versus secondaryfirstflightapprox2months aredifferentendpoints, notpicturedage calibration."
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T18:53:29.242Z",
+          "commit": "0c8ab993c32e30c51216c1dbff5ce0b2e43efe91"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-26T18:54:00.551Z",
+          "evidence": "Immutable original/concept fullbytes SHA256 and PIL decode pass; research/review readback."
+        }
+      ],
+      "wait": 52.16,
+      "source_new": 0,
+      "source_reuse": 4,
+      "source_ids": [
+        "WHSO-MIKKOLA-2013",
+        "CAP-BDI-TIPPETT2024",
+        "CAP-OGADA-KIBUTHU2012",
+        "CAP-PEREGRINE-2026"
+      ],
+      "meta": {
+        "bytes": 3143226,
+        "sha256": "1b24b96ee07a1cd299d91c10bfecedf2ff5e1a254e58509eb3743102c2229ab5",
+        "b64len": 4190968,
+        "gitblob": "0a3d18d4a091b8fea478545f3392b1180c611421"
+      },
+      "errors": [],
+      "review": "# #88 Bubo capensis v7 actual review\nActual input/fullfinal and adultfeet nativecrop viewed. Bothadulttoetops nowcoveredfineoff-white shortplumes, shortdistaltips/darkclaws remain, toeforms/rockcontacts/tarsalcontinuity preserved; no mittenballs ornewlegs. Hiddenundersidepads notnewlyrevealed, no falsevisiblepadverification; no juveniletoe-ruletransfer. Adultorangeirises/darkbills/blackbreastplate/wingwhites/lowerbars/near-equalheight andyoungyellowiris/reducedtufts/compactwing/shorttail/support unchanged. Alltitle/labels/sciencependingandnewunknownfooter readable. PASS_WITH_LIMITATIONS/sciencefalse; coveragequalitative only. No extraeditneeded. Lessoncheckfootdorsum separatelyfrompad/baretip, anddo not transferadultcoverage tojuvenile. PrimaryKenyaoperational70daycriterion versus secondaryfirstflightapprox2months aredifferentendpoints, notpicturedage calibration."
+    }
+  ],
+  "attempt_paths": [
+    "owl-pet/production/attempts/79-otus-lettia-v8-attempt1-1830Z.png",
+    "owl-pet/production/attempts/79-otus-lettia-v8-attempt2-1830Z.png",
+    "owl-pet/production/attempts/85-otus-semitorques-v7-attempt1-1830Z.png"
+  ]
+}

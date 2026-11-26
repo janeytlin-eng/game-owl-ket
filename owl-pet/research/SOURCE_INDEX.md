@@ -7645,3 +7645,7 @@ New0/reused2 fresh body/guide reads. #30v7 refines juvenile pale-buff head spots
 
 ### 2026-11-26 31-glaucidium-radiatum-v7 actual audit
 New1 JUOW-MEHTA-2022-NESTCAVITY selected primary title/abstract read, habitatonly; reuse2 fresh guide/OwlPages. Two-engine targeted search: first noisy results excluded, stronger search recovered primary. #31v7 adult cere-only; no unsupported change to young or exact nest construction. [Facts, boundaries and full prompt](species/31-glaucidium-radiatum-v7.md).
+
+
+### 2026-11-26 32-glaucidium-castanotum-v7 actual audit
+New0/reuse3 fresh reads. #32v7 annotation-only; no false scientific pass or new species count. #31bluish cere and #29light hornclaw not generic same-genus rule: #32 duskygreen cere/darkhornclaw retained. [Facts, boundaries and full prompt](species/32-glaucidium-castanotum-v7.md).

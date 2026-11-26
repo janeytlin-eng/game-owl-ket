@@ -4,20 +4,20 @@
   "owner": "20261126T1734Z",
   "run_id": "20261126T1630Z-B2-cycle4-resume1734Z",
   "started_at": "2026-11-26T17:36:12.534Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
       "at": "2026-11-26T17:36:12.534Z"
     },
     {
-      "stage": "RESEARCH_READY",
-      "at": "2026-11-26T17:37:29.152Z",
-      "evidence": "Guide p518/PDF520, external species Description64–68 and primary publisher abstract38–41 actually read; full v6 viewed. Local adult periocular correction, juvenile unchanged.",
-      "prompt": "Use case: precise-object-edit. Edit target is the attached #78 Marsh Owl Asio capensis v6 plate. Make v7: correct ONLY the two adults' periocular facial coloration. On BOTH adults, add a clearly visible natural dark brown area immediately surrounding each eye, within the light dull buff facial disc; keep the outer dark disc rim narrow and buff-speckled. This is a soft feathered brown eye-mask, not a black raccoon patch, not a whole dark facial disc. Keep dark-brown irises distinct and retain the grey-brown cere and blackish-horn bill. Preserve exactly three owls, existing near-equal adult scale and poses, all adult brown/buff vermiculation and folded-wing barring, tiny tufts, feathered toes and dark toe tips/claws, central down-rich dark-disc age-unknown owlet completely unchanged, all ground/grass contacts, wet open grassland, warm painterly-realistic style, numbered title and three bottom role labels. Add small readable footer within bottom margin: 'CONCEPT — SCIENTIFIC REVIEW PENDING; AGE / FLIGHT / SEX RATIO UNVERIFIED'. No extra birds, nest bowl, eggs, extra limbs, mature feathers on chick, or other changes."
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T17:39:05.315Z",
+      "blob": "214c0872be0a491317c752a441e7fbc5c121bf5f"
     }
   ],
   "errors": [],
   "target": "78-asio-capensis-v7",
-  "recovery": "No valid lease; prior batch next4 with no credited artifact. Preserve all prior versions."
+  "recovery": "No valid lease; prior batch next4 with no credited artifact. Preserve all prior versions.",
+  "imagegen_edit_wait_seconds": 68.444
 }

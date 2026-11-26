@@ -4,7 +4,7 @@
   "owner": "20261126T1734Z",
   "run_id": "20261126T1630Z-B2-cycle6-resume1734Z",
   "started_at": "2026-11-26T17:45:53.312Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -15,8 +15,20 @@
       "at": "2026-11-26T17:45:57.866Z",
       "evidence": "External search/BIRDFAN/Kyoto bodies and primary rescue case read; actual v6 viewed, no body change justified.",
       "prompt": "Use case: precise-object-edit. Make annotation-only sibling v7 of attached #80 Oriental Scops Owl Otus sunia v6. Preserve every owl's morphology, eyes, beak, feather shapes/patterns, scale, poses, all feet/branch contacts, developed older juvenile folded wings and short tail, forest/cavity background, title/scientific name and three role labels exactly. Do not change or shorten the older juvenile wings or recolor its yellow irises. Add one clear small footer inside bottom margin: 'CONCEPT — SCIENTIFIC REVIEW PENDING; EXACT AGE / FIRST FLIGHT / SEX RATIO UNVERIFIED'. This is evidence disclosure only, no biological correction or scientific-pass claim. Exactly three owls; no new animals/limbs/objects."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T17:47:01.999Z",
+      "blob": "01a5141fba09d5897dbd5a30c4173b50c5c2ecde"
     }
   ],
   "errors": [],
-  "target": "80-otus-sunia-v7"
+  "target": "80-otus-sunia-v7",
+  "meta": {
+    "bytes": 2890573,
+    "sha256": "0ed6fc0bb9a5a01f3348a11ec87989a9e9e89421a68be7dbaa8bfa0ce8dcafdb",
+    "b64len": 3854100,
+    "gitblob": "01a5141fba09d5897dbd5a30c4173b50c5c2ecde"
+  },
+  "imagegen_edit_wait_seconds": 34.999
 }

@@ -4,7 +4,7 @@
   "owner": "owl-production-20261126T1926Z",
   "run_id": "20261126T1926Z",
   "started_at": "2026-11-26T19:46:24.194Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,6 +14,10 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T19:46:29.828Z",
       "prompt": "Use case: text-localization. Annotation-only precise edit of #92 NORTHERN BOOBOOK Ninox japonica v6 to sibling v7. Preserve birds/background/paperstyle exactly: adult maleleft/femalecenter with alreadycorrected darkgrey-brown bills and smallpaler tips, yelloweyes/yellowbarebristledtoes, broadventralstreaks/whitebrowandshoulderpatches/barredtails and near-equalheight, rightyoungsoftpalerbuffventrum/sparserstreaks/openbeggingbill/compactfoldedwing/concealedtail/twofootbranchsupport. Change ONLY rightbottom label 'RECENT FLEDGLING' to 'AGE-UNKNOWN DEPENDENT YOUNG'. Add a small readable footer 'CONCEPT — SCIENTIFIC REVIEW PENDING; INDIVIDUAL AGE / FIRST FLIGHT / SEX RATIO UNVERIFIED'. Keep exact92title/name/adultlabels, naturalcavity/orchardcontext and allgrips. No new anatomical detail, no iris/bill/youngfeather recolouring or unsupportedage/flightclaim."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T19:49:02.321Z"
     }
   ],
   "target": "92-ninox-japonica-v7",
@@ -25,5 +29,17 @@
     "JAP-TAIEOL2013",
     "JAP-MIK2013-466"
   ],
-  "research_ready_at": "2026-11-26T19:46:29.828Z"
+  "research_ready_at": "2026-11-26T19:46:29.828Z",
+  "meta": {
+    "bytes": 2932258,
+    "sha256": "4d34d38fe43e2f4c8c1e082bad4a766ae3b5513d79c373ed0f7de6872ae45399",
+    "b64len": 3909680,
+    "size": [
+      1536,
+      1024
+    ],
+    "gitblob": "4397884706c2e0022d399ac1ffb2bc4b93607b04"
+  },
+  "imagegen_wait_seconds": 107.49,
+  "review": "Actualinputv6/outputv7full viewed: AGE-UNKNOWNDEPENDENTYOUNG/scientificpendingfooterreadable, title/currentname92 unchanged. Adultsleftcenterretaincorrecteddarkgrey-brownbillswithsmallpaletips, yellowiris/yellowbristledbaretoes/creamfeatheredlegs/broadbreaststreaks/barredtails/noear-tufts/whiteshoulderpatches/near-equalheight. Rightyoungpalerbuff/sparserstreaks/fluff/openbegginggape/compactfoldedwing/shortconcealedtail/bilateralbranchgrip maintained, naturalcavity/orchardcontextstable. Annotation-onlyPASS_WITH_LIMITATIONS/sciencefalse, no newuserapproval. Primary25–28dnestperiod notpicturedindividualage/firstflight; adultpaletteandTaiwanmeasurementoverlap notyoungcolourseries/globalRSD. Ruleapplied/rechecked: preservepreviousvalidadultbillfixduringstageannotation."
 }

@@ -4,7 +4,7 @@
   "owner": "20261126T0833Z",
   "run_id": "20261126T0540Z-cycle6-resume0833Z",
   "started_at": "2026-11-26T08:41:01.483Z",
-  "stage": "REVIEWED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "STARTED",
@@ -24,6 +24,16 @@
       "stage": "REVIEWED",
       "at": "2026-11-26T08:43:00.112Z",
       "evidence": "#14v6 fulloutput/footer crop actually inspected. Unsupported ~21DAYS removed; AGE-UNKNOWNNESTLING and scientificpending/age/nestgeometry/regionalplumage/sexratio warning readable. Adult dense toe feathers/tufts/yelloweyes/white throat/underpartbars preserved qualitatively, downy supported young/shortgrowingwing/sticknest kept. Not literal1947ledge/ageproof or universalregional morphology. Primarynewread503 recorded; prior evidence reused only. PWL/sciencefalse;1call/no extraedit. No new phenotype fix invented."
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-26T08:43:21.195Z",
+      "commit_sha": "4d297af2ddbdeb7052c6f8f0cf076f5067cce167"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-26T08:43:21.195Z",
+      "evidence": "BOTH immutable original/concept exact bytes/SHA256/fullPNGdecode PASS; Gitblob matches local; research/review/tree readback"
     }
   ],
   "scientifically_verified": false,
@@ -37,5 +47,7 @@
       1024
     ]
   },
-  "generation_seconds": 35.528
+  "generation_seconds": 35.528,
+  "ended_at": "2026-11-26T08:43:21.195Z",
+  "archive_commit": "4d297af2ddbdeb7052c6f8f0cf076f5067cce167"
 }

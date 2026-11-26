@@ -4,7 +4,7 @@
   "owner": "20261126T1225Z",
   "run_id": "20261126T1240Z-cycle1-resume1225Z",
   "started_at": "2026-11-26T12:44:53.095Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,9 +14,26 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T12:45:44.627Z",
       "evidence": "v6 plain adult mantle fix remains valid, but both adults show exposed yellow scaly lower tarsus above branching toes. Book requires feathered tarsi to toe bases; apply #40 v6 evidence-based distinction to this species after independent p387 check. Juvenile wet-ground phenotype retains source-specific uncertain iris and stage; no generic mesoptile overwrite."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T12:46:59.548Z",
+      "blob": "f3a24f489acbef726ffd6af595f86bc35af1bbc7",
+      "bytes": 2550264
     }
   ],
   "scientifically_verified": false,
   "errors": [],
-  "target": "39-glaucidium-griseiceps-v7"
+  "target": "39-glaucidium-griseiceps-v7",
+  "generation_seconds": 42.688,
+  "meta": {
+    "bytes": 2550264,
+    "sha256": "63a482e5daf12f32bf3332b366683f27fcbf922676b16e2891521b222026265b",
+    "gitblob": "f3a24f489acbef726ffd6af595f86bc35af1bbc7",
+    "size": [
+      1536,
+      1024
+    ],
+    "b64len": 3400352
+  }
 }

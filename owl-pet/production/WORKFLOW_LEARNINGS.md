@@ -1073,3 +1073,7 @@ When a species guide says “juvenile not known” but a regional field photogra
 - #40 chapter locator corrected and feeding→perch inference withdrawn. Provisional label is an annotation revision, not juvenile reconstruction or sciencepass; stop repeating it without new evidence.
 - Timings include measured generation and edit waits; checkpoint intervals are not pure labor. ARCHIVED publish timestamps recovered from immutable commit metadata while original record-writing timestamp retained.
 [Six-cycle evidence](batches/20261126T1225Z-six-cycle-review.md).
+
+
+## 2026-11-26 1328Z — actual six-cycle applications
+Stage-specific #42mesoptile crown differs from adult spots; #43Jathar late-young iris positive evidence supersedes prior design unknown only for selected phase. Dense uppertoe cover vs bare skin colour vs clawbase horn require separate facts (#43/#44/#45). #45first image still wrong distal colour: checkpoint retained, targeted second edit actually viewed. #46source study age is not illustration individual age; annotation-only. #48Taiwan adult bill qualitative yellow-green corrected without resolving juvenile conflict. No universal cross-species validation claim. REVIEWED phase was present in immutable archive run but lost in subsequent local state clone; recovered actual timestamps and review content, preserving history. Future phase writers must carry the actual REVIEWED record into VERIFIED rather than synthesizing time. [Actual six cycles, original images, source scope and timing](batches/20261126T1328Z-six-cycle-review.md).

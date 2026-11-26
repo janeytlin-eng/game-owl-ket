@@ -7665,3 +7665,7 @@ New0/reuse3 actualprimaryPDF24/PDF10, guide395/397 andCervantes originalnote. #3
 
 ### 2026-11-26 36-glaucidium-bolivianum-v7 actual audit
 New1YPOW-PERUAVES-2026 regional adultmetadataonly; reused2primary+guide. #36v7 leftbrown tail webspots separated; rightrufous7/youngplaincrown preserved. Morphnotsexlinked explicit. No borrowedparkeri juvenileunknown rule or nubicola tailcount transferred. [Facts, boundaries and full prompt](species/36-glaucidium-bolivianum-v7.md).
+
+
+### 2026-11-26 37-glaucidium-peruanum-v8 actual audit
+新增0，复用2。重新读取SRC-BOOK-037-01 p398–399和PEPO-PERROCHEAU-2008-DIPE65099原页面并实际查看照片；成年棕色型尾羽羽轴间断规则只应用成年，不反向套用至照片幼鸟。保留既有adobe/nest撤回记录。 [Facts, boundaries and full prompt](species/37-glaucidium-peruanum-v8.md).

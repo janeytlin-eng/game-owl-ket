@@ -4,7 +4,7 @@
   "owner": "20261126T1328Z",
   "run_id": "20261126T1240Z-cycle4-resume1328Z",
   "started_at": "2026-11-26T13:29:35.483Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,6 +14,11 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T13:30:46.393Z",
       "evidence": "v6 juvenile crown/mantle heavily adult-white-spotted; explicitly select age-unknown mesoptile from species guide instead of retaining generic adult-scaled crown. This is stage selection, not claim alljuveniles unspotted."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T13:32:30.011Z",
+      "blob": "52082470f0faf4218474c200cd41cdd66fa9f538"
     }
   ],
   "errors": [],
@@ -24,5 +29,12 @@
     "commit_checked": "6db75ca719e7689ad4b789446d46b8f276622f50",
     "no_image_generated": true
   },
-  "target": "42-athene-brama-v7"
+  "target": "42-athene-brama-v7",
+  "meta": {
+    "bytes": 2825937,
+    "sha256": "c690e9747a08983050365ffac653e64b18b3326eeb4ca6a136f39de9c4212553",
+    "gitblob": "52082470f0faf4218474c200cd41cdd66fa9f538",
+    "b64len": 3767916
+  },
+  "generation_wait_seconds": 45.217
 }

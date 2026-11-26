@@ -7585,3 +7585,7 @@ Reuse BARO-DUNCAN-2024-CFN publisherAbstract and BARO-DUNCAN-2024-SUPP PDFp2capt
 
 ### 2026-11-26 16-strix-occidentalis-v7 audit
 Reuse existing NSO-CDFW-BIOLOGY-2026 (original Biology freshly read), NSO-FORSMAN (1976 OSU thesis original Abstract PDF4–5, printed78–79/Fig8 PDF108–109 and printed82/Table15 PDF112 freshly extracted). Fig8 genuinely documents a ten-days-postfledging reference; remove numerical age from generated bird only because individual/feather-map equivalence unverified, not because reference lacks such a stage. Retain legitimate formed wing/mesoptile, pink cere and branch support; bill-colour conflict remains. MIKKOLA-2013 printed342/344 historical v6 reading reused, no fresh guide access. New0/reused3 locator IDs; same book not new source. No scientific pass. [Fullprompt/facts](species/16-strix-occidentalis-v7.md).
+
+
+### 2026-11-26 17-megascops-asio-v8 audit
+Reuse MIKKOLA-2013 freshly uploaded printed207–208/PDF209–210: adult yellowishhorn blacktipclaws vs actualv7 mostlydark; limited adultclawtone correction. EASO-TPWD-SPECIES-2026 actualDescription/LifeHistory/Habitat freshbody and EASO-SMITH-DEVINE-2003-P98-103 directPDFprinted101/PDF111 freshread (webreaderfailed) retain supported branch/balancewing/formedremiges. New0/reuse3; exactage/feathermap/clawcolour and sexheight remain uncalibrated. Allolderversions preserved. [Full facts/prompt](species/17-megascops-asio-v8.md).

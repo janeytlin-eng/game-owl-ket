@@ -303,3 +303,8 @@ Problem: juvenile iris imported adult orange. New Morita/Mikkola2025 p92 and gui
 ## 2026-11-27 2334Z 110-megascops-barbarus-v7
 Broadbright juvenile brows→guidep214 mesoptile narrow/indistinct→brows reduced only, ageunknownlabel added, actualfullresult verified. Adultpinktoecorrection fromv6 retained. CAYAYA researcher warns adult tuft lengths variable, so no false global tuft-shortening rule. Applied stage-specific brow distinction to110 only;107/108/109 priors rechecked visually and no transfer. Curl-like juvenile texture remains unresolved and prioritized, no claim fix from label.
 [Actual review](../research/reviews/110-megascops-barbarus-v7-review.md)
+
+
+## 2026-11-27 2334Z 111-otus-cyprius-v5
+Bare fledged label→fieldsequence gives dependentfledgedyoung but no individualage/flighttest, publisherMethods intervalmidpoint→ageunknown/flightunverified added and actualread. SameDOI titlewrong inoldindex correctedwithhistoryretained, no newsourcecount. Prompt distinction applied to111 only,108 alreadyannotationchecked; no claim bothspecies share developmentalclock. No unchanged morphology declared newlycalibrated.
+[Actual review](../research/reviews/111-otus-cyprius-v5-review.md)

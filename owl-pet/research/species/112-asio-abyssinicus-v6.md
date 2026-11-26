@@ -21,8 +21,17 @@ Constraints: preserve juvenile dark facial mask/orange irises/dark bill/short em
 ## Initial actual review
 FAILED_TARGET: actualfulloutput still shows long repeated closed-loop yarn-like juvenile texture; no sufficient improvement, requires edit2. Adults/feet/support retained.
 
-## Complete imagegen edit2 prompt
+## Complete edit2 prompt
 Use case: precise-object-edit, second correction after failed texture pass.
 Input Image1: edit target112v6 INITIAL plate. Input Image2: Peter Maton Ethiopia1989 juvenile field-photo, biological texture reference ONLY, not composition or copyrighted scene to reproduce.
 The first edit failed: the juvenile is still covered in conspicuous long closed loops of grey yarn. REPLACE that entire long-loop feather texture on the central juvenile head, back and belly. Render short dense, soft, fine velvety charcoal-brown down with tiny irregular straight feather tips and only a few short fluffy tufts. No long strands, no closed ovals, no rings, no curls, no wire, no scribble outlines. Let the darker soft interior down show between small uneven fluffy patches, similar natural material character to reference2. Keep its existing body silhouette, eye and bill placement, orange eyes, dark face, small emerging headtufts, compact FORMED folded wing at its side and existing two-foot stance. The purpose is realistic down material, not juvenile-age change; do not erase formed wing, shrink the bird or turn it into a newborn.
 Preserve all adult anatomy and complex dark net-pattern bellies, orange eyes/blackbills, tufts, wings/tails/featheredfeet/claws and branchcontacts. Keep title, all labels, centre AGE UNKNOWN, exactthreebirds and existing highlandforestcomposition fromImage1. No addedwhiteadultscapular patches, no adultfeathering-transfer toyoungfeet, no extraobjects/text/border/watermark.
+
+## Actual edit2 review
+FAILED_TARGET after actualfull plus690x960juvenilecrop: darker/shorter strands but systematic closed loops persist, not realdown; third edit required.
+
+## Complete edit3 prompt
+Use case: precise-object-edit. Reconstruct the CENTRAL JUVENILE feather material, keeping adults/background/text.
+Image1: edit target, failed112v6 secondpass. Image2: real juvenile source reference (Peter Maton1989), use for biology/material, do not copy photograph/composition.
+Visible defect: the central owl body has hundreds of DRAWN OUTLINED LOOPS. Entire central body down must be rebuilt as MATTE SOFT DENSE VELVET/FUZZ: a continuous charcoal-brown soft surface with subtle irregular tonal mottling and tiny short feather tips barely resolved. In the INTERIOR of chest/belly, do not outline individual filaments at all. It should read at this image scale as soft dense short down, as in a real photographed bird, not separate string tracings. Only the outside silhouette has a few short soft feather tips. Keep current bodyshape and supportedpose. Do not draw curly wisps, rings, closedloops, scribbles, fur locks, cables or sharp strand outlines anywhere on its belly. Keep the formed folded wing as real dark overlapping FEATHERS distinct from the soft down, and keep orangeeyes/darkmask/blackbill/short head-feather tips. Keep its existingfeet/contact and AGEUNKNOWNlabel.
+Both adult owls must retain every identitycolour, netpattern, featheredfeet, position and scale. Entire highlandforest/branch/title/labels remain asImage1. Exactly3birds. This is texture replacement, no claim of newborn stage, age or flight ability. Do not introduce any other objects/text/borders.

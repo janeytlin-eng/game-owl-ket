@@ -7696,3 +7696,7 @@ Reuse3documents; primary1998 newlyreadbody adulttoefeathering diagnosis. Existin
 
 
 #43v7 source accounting correction: FOW-RASMUSSEN-COLLAR-1998 is NEW here (URLnotinpriorindex), Rasmussen/Collar1998 Forktail14:43–51 https://avibirds.com/wp-content/uploads/pdf/bossteenuil1.pdf actualp43adultdiagnosisread thenlaterrefetch410; longheavywhiteuppertoes, notjuvenile. FOW-JATHAR-2004 existing report actuallyreread GrowthoftheFledgling printed54–55 via authorpublicfulltext https://www.researchgate.net/publication/346934651_Ecological_studies_of_the_Forest_Spotted_Owlet_Athene_Heteroglaux_blewitti : reported20dyellowishiris/25distinctyellowring,28–30dweakflight/stumpytail/blotching; noindependentexactageproof. Supersedes prior unknowniris DESIGNCHOICE for selectedlateyoungstage only, nootheragesgeneralized. Sourcefacts/fullprompt andlimitations in [43v7](species/43-athene-blewitti-v7.md). New1/reused3.
+
+
+### 2026-11-26 44-strix-uralensis-v7
+New0/reuse2. Printed350/PDF352 originalguide reread; JStageprimarybodyabstract accessedagain. Actualv6adultclawbasecolouronlycorrection, notjuvenileageornewfamily. Facialdiscv6improvementpreserved. [facts/full prompt](species/44-strix-uralensis-v7.md).

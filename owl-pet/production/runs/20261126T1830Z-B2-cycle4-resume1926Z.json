@@ -4,7 +4,7 @@
   "owner": "owl-production-20261126T1926Z",
   "run_id": "20261126T1926Z",
   "started_at": "2026-11-26T19:29:58.796Z",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "STARTED",
@@ -72,6 +72,15 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-26T19:34:09.478Z"
+    },
+    {
+      "stage": "VERIFICATION_EVIDENCE",
+      "at": "2026-11-26T19:34:43.009Z",
+      "evidence": "Immutable original+concept GET full bytes/SHA256/PILdecode passed; research/review readback passed"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-26T19:34:43.010Z"
     }
   ],
   "target": "85-otus-semitorques-v8",
@@ -99,5 +108,7 @@
   "imagegen_wait_seconds": 32.897,
   "second_imagegen_wait_seconds": 33.644,
   "third_imagegen_wait_seconds": 34.625,
-  "review": "Actualv7, attempt1, attempt2 and final3 full plates viewed plus final adult toe crop. Attempts1/2 retained loopy filaments; no texture success. Final3 selected from v7, only adult dorsaltoe shortfinepaleplumes added, hornclaws/naturalbilateralbranchcontact visible; crop confirms narrowfeatherstrands instead of former nakedscaled dorsa. Adult orangeiris/greyhornbill/tufts/herringbone/near-equalheight remain; young down/incompletewings/shadowiris/quiettwofoot support retained without unsupported olderstage transfer. Young looptexture remains NEEDS_REVISION; exactage/iris/flight/sexratio and precisiontoeextent unknown. Adult dorsalplumage issue improved visually; do not claim wholeimage sciencepass or totaltexturefix. No newuserconfirmation. Pattern: same-image textureprompt even wholecentershapechange remainslocked in unwantedsubstrate; three actual imagegen calls, firsttwo explicitlyfailed. New targeted anatomicaledit is successful bylocalview, texturestrategy notvalidated."
+  "review": "Actualv7, attempt1, attempt2 and final3 full plates viewed plus final adult toe crop. Attempts1/2 retained loopy filaments; no texture success. Final3 selected from v7, only adult dorsaltoe shortfinepaleplumes added, hornclaws/naturalbilateralbranchcontact visible; crop confirms narrowfeatherstrands instead of former nakedscaled dorsa. Adult orangeiris/greyhornbill/tufts/herringbone/near-equalheight remain; young down/incompletewings/shadowiris/quiettwofoot support retained without unsupported olderstage transfer. Young looptexture remains NEEDS_REVISION; exactage/iris/flight/sexratio and precisiontoeextent unknown. Adult dorsalplumage issue improved visually; do not claim wholeimage sciencepass or totaltexturefix. No newuserconfirmation. Pattern: same-image textureprompt even wholecentershapechange remainslocked in unwantedsubstrate; three actual imagegen calls, firsttwo explicitlyfailed. New targeted anatomicaledit is successful bylocalview, texturestrategy notvalidated.",
+  "archive_commit": "cf22aa3ef37281e1753bc3317132008de5e90345",
+  "ended_at": "2026-11-26T19:34:43.009Z"
 }

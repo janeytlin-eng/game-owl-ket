@@ -7573,3 +7573,7 @@ Reuse BOR-ORI-BOREAL-FACTS originalbody freshread / BOR-MIK2013-440 printed440/P
 
 ### 2026-11-26 12-aegolius-acadicus-v6 audit
 Reuse NSWO-PROJECTOWLNET-HY-2026 freshoriginalbodyread and NSW-MIKKOLA-2013-P444 priorprinted444/PDF446 only. Prior~4–5wk is generaldesigninterval notknown individualday; visible ageunknown/PENDING added, no anatomychange. New0/reuse2; no sciencepass. Valid HY flightfeathers retained. [Fullprompt/facts](species/12-aegolius-acadicus-v6.md).
+
+
+### 2026-11-26 14-bubo-virginianus-v6 audit
+Reuse GHOW-CPW-PHYSICAL-2026 freshPhysicalbody; GHOW-HOFFMEISTER-SETZER-1947 primarypriorread only(original/cache503 andmirrorfailed); MIKKOLA2013 printed262/264historicalonly. General~21d notknownindividual age; labelunknown, keep comparative sticknestexplicitlyunverifiedgeometry. New0/reuse3; no new biological inference/sciencepass. [Fullprompt/facts](species/14-bubo-virginianus-v6.md).

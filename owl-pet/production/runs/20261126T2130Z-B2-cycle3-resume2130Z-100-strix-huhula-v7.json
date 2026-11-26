@@ -4,15 +4,28 @@
   "owner": "owl-production-20261126T2130Z",
   "run_id": "20261126T2130Z",
   "started_at": "2026-11-26T21:50:17.514Z",
-  "stage": "STARTED",
+  "stage": "RESEARCH_READY",
   "stages": [
     {
       "stage": "STARTED",
       "at": "2026-11-26T21:50:17.514Z"
+    },
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-26T21:50:50.202Z",
+      "prompt": "Annotation-only correction on #100 Strix huhula v6 scientific concept plate, ALL BIRDS, FEATHERS, ANATOMY, PALE ADULT CLAW BASES/DARKTIPS, FEET/GRIPS, NESTFORK/EPIPHYTES, LIGHTING/STYLE and composition UNCHANGED. Keep exact top title100 BLACK-BANDED OWL Strix huhula and adultrolelabels. Replace center NEST YOUNG label with two cream serif lines 'AGE-UNKNOWN NEST YOUNG' / 'S. h. albomarginata · recorded nest stage'. Add small cream serif footer alongbottom y1002 'CONCEPT — SCIENTIFIC REVIEW PENDING; EXACT AGE / FIRST FLIGHT / SEX RATIO UNVERIFIED'. Existing 2010Misiones angico-fork young stage is described by BodratiCockle2013p175, not a measuredhatchage. No new biologicalpainting, no wingsopened/flight/action, no boxes/borders/goldrules/extra birds. Only requestedtexts."
     }
   ],
   "target": "100-strix-huhula-v7",
-  "errors": [],
+  "errors": [
+    "Legacy SORA paper URL redirected to collection; recovered actualauthorbody and institutional article record"
+  ],
   "source_new": 0,
-  "source_reuse": 2
+  "source_reuse": 2,
+  "annotation_only": true,
+  "source_url_correction": 1,
+  "source_ids": [
+    "HUH-BC2013",
+    "HUH-MIK2013-340"
+  ]
 }

@@ -7960,3 +7960,11 @@ Fresh original body at https://www.researchgate.net/publication/342751803_First_
 
 ## 2026-11-27 run2130 reuse 99-bubo-magellanicus-v6
 Sources MAG-NOVOA-BLANCO-2020-P31-33, MAG-MIK2013-266; sourcefacts/pages/limits and fullprompt [research](species/99-bubo-magellanicus-v6.md), actual[review](reviews/99-bubo-magellanicus-v6-review.md). Reuse2 references, new0 documents; not extra source count for repeated citation.
+
+
+## HUH-BC2013 access correction 2026-11-27 / #100 v7
+Legacy SORA file URL redirects to a collection; do not claim it currently opens the paper. Institution record recovered/read: https://digitalcommons.usf.edu/ornitologia_neotropical/vol24/iss2/4/ ; actualauthoruploadedbody read https://www.researchgate.net/publication/257352153_DISTRIBUTION_NESTING_AND_VOCALIZATIONS_OF_THE_BLACK-BANDED_OWL_CICCABA_HUHULA_ALBOMARGINATA_IN_ARGENTINA . Originalpublication remains Bodrati&Cockle2013ON24:169–182, Nestling p175; new0publications/oneaccessURLcorrection. Datedobservations not exacthatchage, albomarginatacase notgenericallpopulations; research/species/100-strix-huhula-v7.md.
+
+
+## 2026-11-27 run2130 reuse 100-strix-huhula-v7
+Sources HUH-BC2013, HUH-MIK2013-340; sourcefacts/pages/limits and fullprompt [research](species/100-strix-huhula-v7.md), actual[review](reviews/100-strix-huhula-v7-review.md). Reuse2 references, new0 documents; not extra source count for repeated citation.

@@ -7774,3 +7774,7 @@ New1 STYO-OWLPAGES-2020 (URL240), reused3 WHSO-MIKKOLA-2013/GSO-NSWSC-2008/GSO-H
 
 ### 2026-11-27 72-ninox-boobook-v8
 New BOO-OWLPAGES-2020 DeaneLewis updated2020-11-05 https://www.owlpages.com/owls/species.php?s=3150 originalDescription63–67/Habitat77read; reused BOO-ABSA-2019 PDF2ageing and WHSO-MIKKOLA-2013p455. Sourcefact vsadultcrowninterpretation/unknowns/fullprompt: [record](species/72-ninox-boobook-v8.md). New1/reuse2. Adultpinkgreyfeetvalid; nofootrecolour.
+
+
+### 2026-11-27 73-ninox-rufa-v8
+New0/reused2 RUF-RIDDELL-2021-P221-228 originalResults223/Fig2caption224 and WHSO-MIKKOLA-2013p448 freshlyread. Explicitbranchingbeforefirsttrueflight; annotationonly no morphologyclaim. [facts/fullprompt](species/73-ninox-rufa-v8.md).

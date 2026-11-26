@@ -4,7 +4,7 @@
   "owner": "20261126T1830Z",
   "run_id": "20261126T1830Z-B2-cycle1-resume1830Z",
   "started_at": "2026-11-26T18:45:35.317Z",
-  "stage": "IMAGE_GENERATED",
+  "stage": "REVIEWED",
   "stages": [
     {
       "stage": "STARTED",
@@ -20,6 +20,11 @@
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-26T18:47:40.445Z",
       "blob": "48de9fac65a3ced2b11f0c9a5c62c7732a660cc7"
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-26T18:47:43.871Z",
+      "evidence": "# #86 Otus elegans interpositus v6 actual review\nActual generatedfullv6 viewed. AGE-UNKNOWN DEPENDENTYOUNG/footer readable, unchangedexistingorder maleleft/femalecenter/youngright. Adults yellowiris/darkbill/tufts/plumage/near-equalheight/modestfullness/toegrips preserved; young begging/softcompactwing/shorttail/bilateralwoodsupport unchanged. Creamgouachestyle/shelterbelt/cane context preserved. Annotation-only PASS_WITH_LIMITATIONS/sciencefalse, not a feathercalibration; curly juveniletexture candidatefutureaudit retained. Source trait/yearsizedirection cannotbe uniformheight rule; populationdeparturecalendar not picturedage. No extraeditneeded, no newuserapproval."
     }
   ],
   "errors": [],
@@ -37,5 +42,6 @@
     "b64len": 4016408,
     "gitblob": "48de9fac65a3ced2b11f0c9a5c62c7732a660cc7"
   },
-  "imagegen_wait_seconds": 42.439
+  "imagegen_wait_seconds": 42.439,
+  "review": "# #86 Otus elegans interpositus v6 actual review\nActual generatedfullv6 viewed. AGE-UNKNOWN DEPENDENTYOUNG/footer readable, unchangedexistingorder maleleft/femalecenter/youngright. Adults yellowiris/darkbill/tufts/plumage/near-equalheight/modestfullness/toegrips preserved; young begging/softcompactwing/shorttail/bilateralwoodsupport unchanged. Creamgouachestyle/shelterbelt/cane context preserved. Annotation-only PASS_WITH_LIMITATIONS/sciencefalse, not a feathercalibration; curly juveniletexture candidatefutureaudit retained. Source trait/yearsizedirection cannotbe uniformheight rule; populationdeparturecalendar not picturedage. No extraeditneeded, no newuserapproval."
 }

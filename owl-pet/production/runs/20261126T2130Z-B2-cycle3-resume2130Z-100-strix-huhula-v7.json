@@ -4,7 +4,7 @@
   "owner": "owl-production-20261126T2130Z",
   "run_id": "20261126T2130Z",
   "started_at": "2026-11-26T21:50:17.514Z",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "STARTED",
@@ -26,6 +26,15 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-26T21:52:02.019Z"
+    },
+    {
+      "stage": "VERIFICATION_EVIDENCE",
+      "at": "2026-11-26T21:52:22.573Z",
+      "evidence": "Both immutable originals/concepts full bytes SHA256/PILdecode passed; research/review readback passed"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-26T21:52:22.575Z"
     }
   ],
   "target": "100-strix-huhula-v7",
@@ -51,5 +60,7 @@
     "gitblob": "2e1400bdc5e2c318c5bb6e265e204b5960c71f94"
   },
   "imagegen_wait_seconds": 30.589,
-  "review": "Actualv6/v7 fullplates viewed plus freshHUH-BC2013p175body andguide340. Annotation-onlytargetcomplete: age-unknown nestyoung, S.h.albomarginata recordedstage and exactage/firstflight/sexratio-unverifiedscientificpendingfooterlegible. Threebirds/currentname/adultrolelabels maintained; rounduntuftedadultheads/darkbrowniris/yellowbill/finewhitishwavebars/featheredtarsi/bareochretoes/palehornclawbases-darktips retained. Centralpalegreyblackbarredyoung/heartmask-whiteborder/yellowbill/compactfoldedwing/concealedtail/active-supportedstanding unchanged; allfeet supportedonbroadangicoepiphyticfork, no cavityinvented. Primarywalkingobservationdoesnotproveflight orprecisehatchage; illustrationcompresses nestarchitecture and isnotmeasuredreconstruction. PASS_WITH_LIMITATIONS/sciencefalse/noapproval; notcountedasnewmorphologicaldiscovery. Lesson: afteractualcheckfindsnojustifiedmorphologyedit, preservevalidcontentandmakecase/unknownstatusvisible; annotationonlydistinctfromsciencecalibration. URLrecoveryupdatemustnotclaimredirectcollectionaspaper."
+  "review": "Actualv6/v7 fullplates viewed plus freshHUH-BC2013p175body andguide340. Annotation-onlytargetcomplete: age-unknown nestyoung, S.h.albomarginata recordedstage and exactage/firstflight/sexratio-unverifiedscientificpendingfooterlegible. Threebirds/currentname/adultrolelabels maintained; rounduntuftedadultheads/darkbrowniris/yellowbill/finewhitishwavebars/featheredtarsi/bareochretoes/palehornclawbases-darktips retained. Centralpalegreyblackbarredyoung/heartmask-whiteborder/yellowbill/compactfoldedwing/concealedtail/active-supportedstanding unchanged; allfeet supportedonbroadangicoepiphyticfork, no cavityinvented. Primarywalkingobservationdoesnotproveflight orprecisehatchage; illustrationcompresses nestarchitecture and isnotmeasuredreconstruction. PASS_WITH_LIMITATIONS/sciencefalse/noapproval; notcountedasnewmorphologicaldiscovery. Lesson: afteractualcheckfindsnojustifiedmorphologyedit, preservevalidcontentandmakecase/unknownstatusvisible; annotationonlydistinctfromsciencecalibration. URLrecoveryupdatemustnotclaimredirectcollectionaspaper.",
+  "archive_commit": "e828cec765363b181aa255a65f65c724abf0b6d6",
+  "ended_at": "2026-11-26T21:52:22.573Z"
 }

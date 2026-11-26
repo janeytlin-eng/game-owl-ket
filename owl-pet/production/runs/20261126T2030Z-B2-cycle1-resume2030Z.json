@@ -4,7 +4,7 @@
   "owner": "owl-production-20261126T2030Z",
   "run_id": "20261126T2030Z",
   "started_at": "2026-11-26T20:43:52.369Z",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "STARTED",
@@ -26,6 +26,15 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-26T20:45:53.869Z"
+    },
+    {
+      "stage": "VERIFICATION_EVIDENCE",
+      "at": "2026-11-26T20:46:27.229Z",
+      "evidence": "Both immutable originals/concepts full bytes SHA256/PILdecode passed; research/review readback passed"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-26T20:46:27.230Z"
     }
   ],
   "target": "94-pulsatrix-koeniswaldiana-v7",
@@ -49,5 +58,7 @@
     "gitblob": "5cdd12b780672f5dfaf8f97ea2bc81f13e5cbf14"
   },
   "imagegen_wait_seconds": 34.341,
-  "review": "Actualv6/v7fullview: sciencepending/age-flight-sexratiofooter readable, ageunknownpostcavitylabelunchanged. Threeowls/stablefootcontacts, adultchestnutiris/tawnybrows/ivoryyellowbill/brokenbrownchestband/cinnamonventrum/narrowtailbars/near-equalheight/greybaretoes/yellowishgreyclaws remain. Centralcreamdown/darkbrownmask/darkeyes/compactwing/hiddentail retainedwithoutadultclawpalettetransfer. Branchhabitatnotliteralnest. Annotation-onlyPASS_WITH_LIMITATIONS/sciencefalse/no newconfirmation. Primarycalendarfiveweeksis inferredincubationnotyoungage; explicitunknownnotfullfeathercalibration."
+  "review": "Actualv6/v7fullview: sciencepending/age-flight-sexratiofooter readable, ageunknownpostcavitylabelunchanged. Threeowls/stablefootcontacts, adultchestnutiris/tawnybrows/ivoryyellowbill/brokenbrownchestband/cinnamonventrum/narrowtailbars/near-equalheight/greybaretoes/yellowishgreyclaws remain. Centralcreamdown/darkbrownmask/darkeyes/compactwing/hiddentail retainedwithoutadultclawpalettetransfer. Branchhabitatnotliteralnest. Annotation-onlyPASS_WITH_LIMITATIONS/sciencefalse/no newconfirmation. Primarycalendarfiveweeksis inferredincubationnotyoungage; explicitunknownnotfullfeathercalibration.",
+  "archive_commit": "99610f9ace546f5d52edf25bedc40ed58dba5c20",
+  "ended_at": "2026-11-26T20:46:27.229Z"
 }

@@ -4,15 +4,26 @@
   "owner": "owl-production-20261126T1926Z",
   "run_id": "20261126T1926Z",
   "started_at": "2026-11-26T19:44:17.612Z",
-  "stage": "STARTED",
+  "stage": "RESEARCH_READY",
   "stages": [
     {
       "stage": "STARTED",
       "at": "2026-11-26T19:44:17.612Z"
+    },
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-26T19:44:22.149Z",
+      "prompt": "Use case: text-localization. Annotation-only edit supplied #91 Eastern Barn Owl Tyto javanica delicatula v5 to sibling v6. Preserve all three birds' biology, spots/eyes/bills/wings/tails/residual young down, near-equal adult scale, central leaning two-foot hollow-lip support and natural Mallee hollow/crop/light/paperstyle exactly. Replace ONLY central beige bottom label 'c.40-DAY NESTLING' with 'STUDY-REFERENCED NESTLING'. Add a small readable footer in lower margin: 'CONCEPT — SCIENTIFIC REVIEW PENDING; INDIVIDUAL AGE / FIRST FLIGHT / SEX RATIO UNVERIFIED'. Retain title91/currenttaxon and adultlabels. Do not shorten young's legitimately developed fresh folded wings, change supportedpose, or add objects. No new morphological claims."
     }
   ],
   "target": "91-tyto-javanica-delicatula-v6",
   "errors": [],
   "source_new": 0,
-  "source_reuse": 2
+  "source_reuse": 3,
+  "source_ids": [
+    "JAV-MCLAUGHLIN-DEBUS-2025-P116-123",
+    "JAV-AUSTRALIAN-MUSEUM-2022",
+    "WHSO-MIKKOLA-2013"
+  ],
+  "research_ready_at": "2026-11-26T19:44:22.149Z"
 }

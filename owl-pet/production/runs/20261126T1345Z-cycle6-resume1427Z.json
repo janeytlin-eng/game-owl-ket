@@ -4,7 +4,7 @@
   "owner": "20261126T1427Z",
   "run_id": "20261126T1345Z-cycle6-resume1427Z",
   "started_at": "2026-11-26T14:35:31.665Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,8 +14,20 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T14:36:13.275Z",
       "evidence": "Actual v6 tail has broad near-white bars taking much of tail width; guide specifies warm brown tail with narrow whitish-buff bars. Correct adult tail only, preserve v6 pale belly and unresolved shelter boundary."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T14:38:28.891Z",
+      "blob": "9fc9ea4fe19132c42d9f2cbe5747389942494894"
     }
   ],
   "errors": [],
-  "target": "52-strix-hylophila-v7"
+  "target": "52-strix-hylophila-v7",
+  "meta": {
+    "bytes": 2507607,
+    "sha256": "a1a04fac381a520a386e932c6fc0c277edeaa2ccdadb3528e879efdfc221743b",
+    "gitblob": "9fc9ea4fe19132c42d9f2cbe5747389942494894",
+    "b64len": 3343476
+  },
+  "generation_wait_seconds": 104.83
 }

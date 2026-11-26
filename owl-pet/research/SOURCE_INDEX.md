@@ -7605,3 +7605,7 @@ ReuseBSOW-ASTORGA-2018-P85-89 originalbody freshlyread printed86–88/PDF88–90
 
 ### 2026-11-26 21-megascops-choliba-v8 audit
 ReuseTSO-ACTA-NESTLING-2017 freshoriginalprinted270–271/PDF2–3 Fig1 body/caption; sourcehatchseries supports formedremiges, notgeneratedexactage or currentgenerictrunkasstudypalm. ReuseMIKKOLA2013 freshprinted218–219/PDF220–221; colourmorphnotsex, sexheightunknown. New0/reuse2; v8annotationonly, generalizedcavityexplicit/sciencefalse. Existingnewcupcorrection retained. No samepaperduplicated. [Full facts/prompt](species/21-megascops-choliba-v8.md).
+
+
+### 2026-11-26 22-gymnasio-nudipes-v6 audit
+ReusePRO-BIRDSCARIB-2021 actualspeciesbody1479–1486/caption1499/videodescription1504; no freshvideopixels. CORRECTION: textdoesNOTsayreddishbrowniris, so priorv5attribution withdrawn, oldrecordretained. MIKKOLA2013 freshuploadedprinted246/PDF248 saysyelloweyes/noear-tufts, keepcurrentcolourprovisional notforceedit; smallalarmtuftsarecontext-bound. New0/reuse2/source-attributioncorrection1. v6visibleiris/development/geometry/ratio limits, annotationonly/sciencefalse. [Full facts/prompt](species/22-gymnasio-nudipes-v6.md).

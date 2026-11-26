@@ -7837,3 +7837,7 @@ New0/reused2 BRU-KHOURY-ALSHAMLIH-DHEIB-2021-P286-287 actualauthorbody and BRU-M
 
 ## 2026-11-27 #85v7
 New0/reused2 SEM-NOHARA-HONDA-2025-P75-78 original75–76/PDF1–2body/Fig3caption and actualFig3pixels newly accessed; SEM-MIK2013-158/WHSO-MIKKOLA-2013 p158/PDF160fresh. Species-specific down/incompletewingstage, irisunknown. Sourceaccessupgrade1, notnewpaper. [Facts/prompt](species/85-otus-semitorques-v7.md).
+
+
+## 2026-11-27 #86v6
+New0/reused3 ELE-MOE-JAPAN-2026-REREAD body24–30; ELE-SAWADA-IWASAKI-ETAL-2021-RSD original15–16; WHSO-MIKKOLA-2013 fresh160/PDF162. Individualstage vs populationchronology/trait-specificdimorphism boundary madevisible; annotationonly, no new feathercalibration. [Facts/prompt](species/86-otus-elegans-v6.md).

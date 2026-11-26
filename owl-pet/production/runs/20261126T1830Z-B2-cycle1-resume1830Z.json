@@ -4,13 +4,26 @@
   "owner": "20261126T1830Z",
   "run_id": "20261126T1830Z-B2-cycle1-resume1830Z",
   "started_at": "2026-11-26T18:45:35.317Z",
-  "stage": "STARTED",
+  "stage": "RESEARCH_READY",
   "stages": [
     {
       "stage": "STARTED",
       "at": "2026-11-26T18:45:35.317Z"
+    },
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-26T18:46:19.255Z",
+      "evidence": "# #86 Otus elegans interpositus v6 — export individual-stage and dimorphism limits\nAccess2026-11-27(+08). Annotation revision preservesv1–v5/history. Current Otus elegans interpositus (Minami-daito) mapping and historical Ephialtes elegans / Otus japonicus interpositus retained fromv5; guideolderpopulationlist notnewrankdecision.\nReused ELE-MOE-JAPAN-2026-REREAD JapanMOE DaitoRDB https://ikilog.biodic.go.jp/rl_rdb/a/792.html actualbody24–30 read: interpositus/differences variable, June–Julydeparture withparental feeding and shelterbelts/Casuarina cavities. No individualpicturedage or independenceflight measurement. Reused ELE-SAWADA-IWASAKI-ETAL-2021-RSD AkiraSawada/TetsuyaIwasaki/TaroMatsuo/KanaAkatani/MasaokiTakagi2021 OrnithologicalScience20:15–26 DOI10.2326/osj.20.15 https://www.jstage.jst.go.jp/article/osj/20/1/20_15/_pdf originalp15–16 actualabstract/introduction read:770birds/17years, traitdirectionvaries; no universalstandingheightratio. Reused WHSO-MIKKOLA-2013 HeimoMikkola2013 uploadedguide printed160/PDF162 Identification/Juvenile freshly read: yellowiris/darkhornbill/featheredtarsi/baretoe/herringboneadult identity, mesoptileadultlike qualitatively. Its outdatedranks/sexdata notsuperseding specificpopulationprimary.\nFullv5 actuallyviewed: title/roles adultmaleleft,femalecenter, youngright; lowstablebranchbeggingyoung withnoindependentflightdemonstration, labelRECENTFLEDGLING unmeasured. Add image scientificpending/age-flight-sexratio unknown and labelAGE-UNKNOWN DEPENDENTYOUNG, leave specificfeathers untouched because no newgrowthsequence orphotographstage acquired. Repeatedcurl texture remainscandidatefutureaudit, no newmorphologypass. Near-equal adult scale maintained, no uniformfemalelarger rule. Exactyoungage/sex/iris/continuousfeathersequence/flightunknown; sciencefalse.",
+      "prompt": "Annotation-only precise edit of attached #86 RYUKYU SCOPS OWL Otus elegans v5 to sibling v6. Preserve the existing cream-paper naturalistic gouache style, exact numbered86 title/name, layout ADULT MALE left / ADULT FEMALE center / juvenile right, all bird morphology/plumage/eyes/bills/toes/claws, near-equal adult skeletal scale and modest female fullness, young begging pose/compact soft wings/short tail and BOTH feet on low Casuarina branch, shelterbelt and sugarcane background. Change ONLY right label RECENT FLEDGLING to AGE-UNKNOWN DEPENDENT YOUNG. Add a small clear footer in bottom margin 'CONCEPT — SCIENTIFIC REVIEW PENDING; AGE / FIRST FLIGHT / SEX RATIO UNVERIFIED'. Do not redraw feathers or change the young's iris because no new photo age calibration exists. Exactly three birds, no new nest, objects or flight/size claim."
     }
   ],
   "errors": [],
-  "target": "86-otus-elegans-v6"
+  "target": "86-otus-elegans-v6",
+  "source_new": 0,
+  "source_reuse": 3,
+  "source_ids": [
+    "ELE-MOE-JAPAN-2026-REREAD",
+    "ELE-SAWADA-IWASAKI-ETAL-2021-RSD",
+    "WHSO-MIKKOLA-2013"
+  ]
 }

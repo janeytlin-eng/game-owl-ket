@@ -4,7 +4,7 @@
   "owner": "owl-production-20261126T2030Z",
   "run_id": "20261126T2030Z",
   "started_at": "2026-11-26T20:35:14.221Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,6 +14,10 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T20:35:18.996Z",
       "prompt": "Use case: stylized-concept. Create a NEW complete 1536x1024 polished naturalistic owl-pet family plate, number85 JAPANESE SCOPS OWL, scientific subtitle Otus semitorques. Image1 is ONLY an adult species/style reference, not a target layout to reproduce. Image2 is a primary field photograph of this species' newly departed young, used ONLY for down texture/ear-tufts and incomplete wing stage, not copied composition. Three distinct naturally supported owls on a broad mossy Cryptomeria branch in warm Honshu forest: ADULT MALE left, STUDY-REFERENCED YOUNG center, ADULT FEMALE right. Adults same approximate skeletal height without asserted dimorphism, grey-brown cryptic feathering/herringbone ventrum, small greyhorn bills, orange eyes, prominent tufts, pale short feathers extending across dorsal toe surfaces up to horn claws, natural two-foot grips. IMPORTANT center young must be freshly designed from PHOTO image2, not inherited from a prior render: compact grey-buff dense short velvety down, soft finely mottled tonal masses, very faint diffuse irregular bars, small distinct tufts, shadowed eyes with unspecified iris, short greyhornbill, short incomplete folded wing tips, concealed short tail. Its inner body texture reads matte dense soft down at normal scale, no closed loops, ringlets, outlined wool, long wire curls or repeated scallops; short fine fuzz only at silhouette. Quiet slightly side-looking low crouch with two feet and belly supported near branch fork; no flight or mature remiges. Keep species-specific style of image1, not a generic horned owl, avoid giant bill/tufts in young. Exactly three birds, full feet/no merged toes/no floating. Footer 'CONCEPT — SCIENTIFIC REVIEW PENDING; AGE / IRIS / FIRST FLIGHT / SEX RATIO UNVERIFIED'. No nest/cavity claim or precise day.\nCRITICAL: allthree role labels MUST be rendered in first image: largewhite serifs at y=920, ADULT MALE belowleftbird, STUDY-REFERENCED YOUNG belowcenterbird, ADULT FEMALE belowrightbird. Footer at y=985. Interior youngdown: tiny soft opaquegrey flecks, shortfinevelvet, softly shaded littlebarbands, NO individually outlined filaments or closedwireloops. Use sourcephoto densegrey young, not curlyfleece fromanyother generatedyoung. It is down-dominated with veryshort incomplete remiges, notlong maturebarredwing."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T20:37:06.706Z"
     }
   ],
   "target": "85-otus-semitorques-v10",
@@ -25,5 +29,17 @@
   "source_ids": [
     "SEM-NOHARA-HONDA-2025-P75-78",
     "WHSO-MIKKOLA-2013"
-  ]
+  ],
+  "meta": {
+    "bytes": 3001630,
+    "sha256": "f190c9393f2a569bad16ca7b2957fae654d505289a84ffb8df50b96b4d95d4b2",
+    "b64len": 4002176,
+    "size": [
+      1536,
+      1024
+    ],
+    "gitblob": "54797b4fc7bb1abf471ed4679b25f04e5ef14103"
+  },
+  "imagegen_wait_seconds": 48.468,
+  "review": "Actual v8record/styleadultcrop/primaryFig3photo, v9failedtextedit, v10fullandyoungcrop viewed. V10 shows materiallylesslongoutlinedringlets thanv8/v9: densefinegrey tonaldown with shortirregularfuzz, distincttufts/incompletefoldedremiges/concealedtail, shadowiris/greyhornbill, lowbilateralbranchforksupport. Somefinerstylizedfilaments remain, exactfeatheratlasnotverified. All3rolelabels/current85title/footer nowinfirstimage, no furthertexteditdrift. Adultorangeiris/herringbone/greyhornbill/featheredtarsiandtoedorsa/hornclaws/near-equalscale preservedinnewcomposition. PASS_WITH_LIMITATIONS/sciencefalse, no newuserconfirmation. Texturedownimprovedinthisoutputonly, notuniversalnewrulevalidation; v9archivedfailure notcredited. Adult-onlystyleinputs+ownspeciesphotogivenfreshjuvenile substrateandfirst-renderlabelplacementhelpedthiscase; possibleage/iris/flight/sexratio/continuousfeatherunknown."
 }

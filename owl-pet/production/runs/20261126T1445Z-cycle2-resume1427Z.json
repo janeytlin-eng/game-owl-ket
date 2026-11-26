@@ -4,7 +4,7 @@
   "owner": "20261126T1427Z",
   "run_id": "20261126T1445Z-cycle2-resume1427Z",
   "started_at": "2026-11-26T14:45:26.206Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,8 +14,20 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T14:46:34.411Z",
       "evidence": "Actual latestv7 and original Srinivasan2013 Fig114 pixels now viewed locally; photo young lacks plate's thick dark enclosing facial ruff. Correct selected rescued-stage young face, not infer adult/no-ruff ontogeny globally."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T14:47:46.191Z",
+      "blob": "c147ea8e64662972eb7648afe7460266bb9c35c4"
     }
   ],
   "errors": [],
-  "target": "57-bubo-nipalensis-v8"
+  "target": "57-bubo-nipalensis-v8",
+  "meta": {
+    "bytes": 2459621,
+    "sha256": "e364f79283304b1fcacc864809a8f030fb7bc34fb67ce4c9077d69c4fe72741f",
+    "gitblob": "c147ea8e64662972eb7648afe7460266bb9c35c4",
+    "b64len": 3279496
+  },
+  "generation_wait_seconds": 39.579
 }

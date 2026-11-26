@@ -4,13 +4,21 @@
   "owner": "20261126T1225Z",
   "run_id": "20261126T1240Z-cycle3-resume1225Z",
   "started_at": "2026-11-26T12:50:54.739Z",
-  "stage": "STARTED",
+  "stage": "PENDING_NEXT_INVOCATION",
   "stages": [
     {
       "stage": "STARTED",
       "at": "2026-11-26T12:50:54.739Z"
+    },
+    {
+      "stage": "PENDING_NEXT_INVOCATION",
+      "at": "2026-11-26T12:54:49.293Z",
+      "evidence": "Placeholder created by previous cycle credit; no research/image generation begun for cycle3; not a completed cycle or valid running lease."
     }
   ],
   "scientifically_verified": false,
-  "errors": []
+  "errors": [],
+  "credited": false,
+  "pending_at": "2026-11-26T12:54:49.293Z",
+  "placeholder_only": true
 }

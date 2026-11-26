@@ -4,7 +4,7 @@
   "owner": "owl-production-20261126T2130Z",
   "run_id": "20261126T2130Z",
   "started_at": "2026-11-26T21:42:41.383Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -37,6 +37,10 @@
       "at": "2026-11-26T21:44:17.417Z",
       "attempt": 2,
       "prompt": "Local correction of #97 firstedit: BOTH ADULTS must retain a DARK CHOCOLATE-BROWN NECK AND UPPER BREAST below the face, with small dull yellowish throat area, as Mikkola2013p358. Deepen ONLY adult upper-breast/neck feather colour into dark chocolate-brown, softly merging at mid-chest into the already improved PALE BROWN LOWER BREAST/BELLY with faint fine vermiculations. Do not spread pale tan up to throat, do not turn entire belly dark, do not restore bold black bars on lowerunderparts. Preserve all tails, wing pattern, heads/whiteplumes/eyes/bills, feet/support, centralyoung entirely, every existing correctedlabel/footer/background/composition. No other changes."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T21:45:17.415Z"
     }
   ],
   "target": "97-lophostrix-cristata-v7",
@@ -49,5 +53,17 @@
     "CRI-MIK2013-358",
     "CRI-BIRDS-BOLIVIA-2026"
   ],
-  "first_imagegen_wait_seconds": 41.52
+  "first_imagegen_wait_seconds": 41.52,
+  "meta": {
+    "bytes": 2531350,
+    "sha256": "09251bcb9f493b427de87e1700eebe72b6b398b566659377662ab4e17b535fa3",
+    "b64len": 3375136,
+    "size": [
+      1536,
+      1024
+    ],
+    "gitblob": "a0299c59b183ec952ad0c9b7f99a5b0b0f41d94d"
+  },
+  "second_imagegen_wait_seconds": 35.431,
+  "review": "Actualv6/firstedit/final fullimages and guide p358 text viewed; external Boliviabody read. Final adult lowerbreast/belly now palebrown with finer fainter irregularvermiculations, notoldboldblackzigzags. Firstedit incorrectly paledupperbreast; second restoreddarkchocolateneck/upperbreast and smalldullyellowthroat, mergingto palelowerbelly. Width/contrast qualitative, notmeasuredbiologicalthreshold. v6narrowtailbars/wingbars/whiteplumes/darkorangebrown eyes/yellowhornbills/baregrey-browntoes/darkclaws, near-equaladultheight retained; youngwhite/darkrufousface/shorttufts/foldedbrownwings/twofootlowforksupport unchanged andage/flightunknown. Labelsnowageunknownandsciencepending, legible. Some decorativefinefeathertexture remains. PASS_WITH_LIMITATIONS/sciencefalse/noapproval. Lesson: restrict faintpattern edit to LOWER underparts and explicitlypreservedark upperbreast; applied2ndprompt andviewvalidatedinthisplate only. Prior#86shaftstreakcrossmarks aredifferenttaxon, no transfer."
 }

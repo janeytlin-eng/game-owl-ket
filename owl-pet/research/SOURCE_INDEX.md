@@ -7833,3 +7833,7 @@ New2 institutional sources above, reused2 book/BSS actual reread. Newrealphotopi
 
 ## 2026-11-27 #83v7
 New0/reused2 BRU-KHOURY-ALSHAMLIH-DHEIB-2021-P286-287 actualauthorbody and BRU-MIK2013-126/WHSO-MIKKOLA-2013 actualp126/PDF128. Palmplantation fledgedyoung record doesnotauthenticate activecavity/cutwoodfloor. Naturalperch geometry designinference; [facts/prompt](species/83-otus-brucei-v7.md). Deferred227/231 newsearches foundnoverifiedyoung; MLbotdenied, unverifiedleads notaccepted.
+
+
+## 2026-11-27 #85v7
+New0/reused2 SEM-NOHARA-HONDA-2025-P75-78 original75–76/PDF1–2body/Fig3caption and actualFig3pixels newly accessed; SEM-MIK2013-158/WHSO-MIKKOLA-2013 p158/PDF160fresh. Species-specific down/incompletewingstage, irisunknown. Sourceaccessupgrade1, notnewpaper. [Facts/prompt](species/85-otus-semitorques-v7.md).

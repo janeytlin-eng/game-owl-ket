@@ -4,7 +4,7 @@
   "cycle": 3,
   "target": "106-strix-albitarsis-v6",
   "started_at": "2026-11-26T22:41:39.695Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -13,6 +13,10 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T22:42:32.518Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T22:43:51.528Z"
     }
   ],
   "errors": [],
@@ -25,5 +29,18 @@
     "RBO-GREENEY-2003-P67-68",
     "RBO-PERUAVES-ACCOUNT"
   ],
-  "full_prompt": "Use case: text-localization #106 Strix albitarsis v5, annotation ONLY. ALL BIRDS, currentdarkadultirides/greybills, plumage/feathering/feet/palehornadultclaws/scale/poses/youngyellowcreamdown/compactfoldedwing/concealedtail/twofoot+bellysupport, attachedlivingtreefernleafbases/Chusqueaforest/style UNCHANGED. Keep exacttitle106 RUFOUS-BANDED OWL Strix albitarsis and ADULT MALE/ADULT FEMALE labels. Replace center label with two lines 'AGE-UNKNOWN ROOSTING YOUNG' and 'DOCUMENTED DAY-ROOST CONTEXT'. Add small cream serif bottomfooter 'CONCEPT — SCIENTIFIC REVIEW PENDING; ADULT EYE / BILL CONFLICT · FIRST FLIGHT UNVERIFIED'. This livingtreefernbaseisdayroost NOTnest, so noaddedlining/eggs/nestbowl. Do not resolve conflictingeye/billtexts by repainting. No newanatomy/flight/sexratio, boxes/borders/extraobjects. Only requestedlabels."
+  "full_prompt": "Use case: text-localization #106 Strix albitarsis v5, annotation ONLY. ALL BIRDS, currentdarkadultirides/greybills, plumage/feathering/feet/palehornadultclaws/scale/poses/youngyellowcreamdown/compactfoldedwing/concealedtail/twofoot+bellysupport, attachedlivingtreefernleafbases/Chusqueaforest/style UNCHANGED. Keep exacttitle106 RUFOUS-BANDED OWL Strix albitarsis and ADULT MALE/ADULT FEMALE labels. Replace center label with two lines 'AGE-UNKNOWN ROOSTING YOUNG' and 'DOCUMENTED DAY-ROOST CONTEXT'. Add small cream serif bottomfooter 'CONCEPT — SCIENTIFIC REVIEW PENDING; ADULT EYE / BILL CONFLICT · FIRST FLIGHT UNVERIFIED'. This livingtreefernbaseisdayroost NOTnest, so noaddedlining/eggs/nestbowl. Do not resolve conflictingeye/billtexts by repainting. No newanatomy/flight/sexratio, boxes/borders/extraobjects. Only requestedlabels.",
+  "archive_started_at": "2026-11-26T22:43:40.338Z",
+  "meta": {
+    "bytes": 2998772,
+    "sha256": "e474987f61dffa2d8a5984f8760093be45118145bb39c3fedf155a828941abea",
+    "b64len": 3998364,
+    "size": [
+      1536,
+      1024
+    ],
+    "gitblob": "ca8d89c24f437637aa6263253dd4efb562d67896"
+  },
+  "imagegen_wait_seconds": 34.942,
+  "review": "Actualv5/v6 fullplates viewed againstfreshGreeney2003p67original/guidep338/PeruAvesIdentificationbody. AnnotationonlynewAGEUNKNOWNROOSTINGYOUNG/dayroostcontextandscientificpendingadultEYE/BILLconflict/firstflightunverifiedlegible. Noiris/billrepainting: adultdarkiris/greybillretainedpendingbookorange/yellowhorncontradiction; adultfeatheredtarsi/barecreamtoes/palehornclawsvalidv5fixpreserved. Adultsroundheads/rufousbandedplumage/nearequalheight, youngyellowcreamdown/darkeyes/compactwing/concealedtail/lowtwofoot+bellygrip stable. Fernleafbasesattachedtreefern/Chusquea-dayroost retained, no fabricatednestmaterial/eggs/flight. Exactly3birds/title/adultrolespass. PASS_WITH_LIMITATIONS/sciencefalse/noapproval, unresolvedcolourandpreciseyoungstage remain. Lesson: opposingtextsourcesdonotjustifyarbitrarycolourchoice; annotateconflict, retain priorvalideditandseparateroostfromnest. Actualfreshcross-sourcecheckdidnotsettleconflict; no claimofvalidatedcolour."
 }

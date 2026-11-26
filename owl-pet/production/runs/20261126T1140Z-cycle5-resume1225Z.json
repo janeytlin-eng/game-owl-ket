@@ -4,7 +4,7 @@
   "owner": "20261126T1225Z",
   "run_id": "20261126T1140Z-cycle5-resume1225Z",
   "started_at": "2026-11-26T12:39:25.620Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,9 +14,26 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T12:40:11.666Z",
       "evidence": "Actual v7 adult brown tail pale bars appear to cross the rectrix centre lines; distinguish brown/grey pattern from red morph and open dark shaft interruptions. Juvenile v7 photo-bounded older stage already acceptable; preserve it and do not apply adult-tail instruction to juvenile."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T12:41:23.497Z",
+      "blob": "a18ea4de87bdfed25b929d524a416f684cc79765",
+      "bytes": 2821046
     }
   ],
   "scientifically_verified": false,
   "errors": [],
-  "target": "37-glaucidium-peruanum-v8"
+  "target": "37-glaucidium-peruanum-v8",
+  "generation_seconds": 42.021,
+  "meta": {
+    "bytes": 2821046,
+    "sha256": "3aa7fcf810c4878e9f56b5ade357a0c3683e9fbc2e760a854892e2b893e81d07",
+    "gitblob": "a18ea4de87bdfed25b929d524a416f684cc79765",
+    "size": [
+      1536,
+      1024
+    ],
+    "b64len": 3761396
+  }
 }

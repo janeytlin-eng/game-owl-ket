@@ -7523,3 +7523,10 @@ Reuse NWFO-OWLPAGES-2020 (Deane Lewis, Northern White-faced Owl; https://www.owl
 
 ### OBAL-SURESHMARIMUTHU-2021-JOTT7339 — original roost behaviour
 Sureshmarimuthu S., Babu S., Kumara H.N., Rajeshkumar N., 2021-09-26, Factors influencing the flush response and flight initiation distance of three owl species in the Andaman Islands, JoTT13(11):19500–19508, DOI10.11609/jott.7339.13.11.19500-19508; https://www.threatenedtaxa.org/index.php/JoTT/article/download/7339/7985?inline=1 ; accessed2026-11-26 actual publisher Materials/Methods, Study species/Data collection/Statistical analysis (article pp19501–19503). Otus balli/O.sunia/N.obscura non-nesting roost experiments; excluded tree-hole breeding birds, species/site effects. High confidence for sampled behaviour, NOT chick development, no feather/age decisions permitted. Source facts separate from design; no new species or image credit. [Cycle6 recovery](../../owl-pet/production/runs/20261126T0340Z-cycle6-resume0530Z.json).
+
+
+### NWFO-ITIS-686681 — current/old-name crosswalk
+ITIS, undated current report, Ptilopsis leucotis TSN686681; https://www.itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=686681&source=to_print ; accessed2026-11-26 original Taxonomy/Nomenclature/References read. Valid P.leucotis, old Otus/Strix leucotis; institution database high confidence naming only, no development or size evidence. [#109v9](species/109-ptilopsis-leucotis-v9.md).
+
+### 2026-11-26 next-cycle retrieval limitation
+WII bitstream cf0e3c6f-ab85-40fb-8208-625750095b76 originalPDF contents PDFpp6–10 actually read: thesis focal species edible-nest swiftlet; owl abundance appears in table listings. Find Otusballi and AndamanScopsOwl both timed out, so no owl development fact extracted; not a verified owl juvenile source. avccollege WLB-Project.pdf actual webTimeout/direct503 repeated. [Error record](gaps/20261126T0540Z-source-retrieval.md). No additional verifiedsource count.

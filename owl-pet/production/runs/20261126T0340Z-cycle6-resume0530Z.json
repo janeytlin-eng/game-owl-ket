@@ -50,5 +50,20 @@
   "final_sha256": "31ce9445efceee583fafaecf575b6ed801bd0f5c5cdc0321ba3884706db3cdb4",
   "final_bytes": 2586941,
   "archive_commit": "979a6ad59aa2f679ddeb0e198071c9587d6430f9",
-  "ended_at": "2026-11-26T05:36:43.608Z"
+  "ended_at": "2026-11-26T05:36:43.608Z",
+  "actual_errors": [
+    {
+      "step": "binary transport",
+      "error": "single exec output truncated at1048607 characters",
+      "recovery": "seven bounded base64 chunks concatenated in memory; create_blob succeeded; immutable full binary hash/decode subsequently passed"
+    }
+  ],
+  "timings": {
+    "research_seconds": null,
+    "research_note": "Start/end of complete research phase not instrumented; source/phase timestamps retained, no duration invented.",
+    "image_generation_wait_seconds": 39.16,
+    "edit_wait_seconds": 32.6,
+    "archive_seconds": null,
+    "archive_note": "Phase commit times available via GitHub; no precise walltime instrumented."
+  }
 }

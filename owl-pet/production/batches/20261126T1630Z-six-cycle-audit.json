@@ -1,0 +1,604 @@
+{
+  "owner": "20261126T1630Z",
+  "completed": 6,
+  "coverage": {
+    "n": 207,
+    "versions": 1160,
+    "total": 251
+  },
+  "new_species": 0,
+  "revisions": 6,
+  "content_revisions": 2,
+  "annotation_revisions": 4,
+  "sources": {
+    "new": 1,
+    "reuse_citations": 13,
+    "unique_documents": 9
+  },
+  "tree": "1f0480e32a243797ab6b85eb6d597454952793ad",
+  "rows": [
+    {
+      "id": "72-ninox-boobook-v8",
+      "archive": "d3205b19985f152b143491eeba450d7b32ba726e",
+      "verified": "ad7f60ce8616a222c303549f462f2512e2a564da",
+      "run": "owl-pet/production/runs/20261126T1545Z-cycle4-resume1630Z.json",
+      "meta": {
+        "bytes": 2645867,
+        "sha256": "3124082e318e3f7638cf71c5deeb8faf6b083aa8fe65f3cdc70ed6d0369d4229",
+        "gitblob": "c026a95578ef5f06efbd50ca43398c822163e0f1",
+        "b64len": 3527824
+      },
+      "verify": "ad7f60ce8616a222c303549f462f2512e2a564da",
+      "record": {
+        "batch_id": "20261126T1545Z",
+        "cycle": 4,
+        "owner": "20261126T1630Z",
+        "run_id": "20261126T1545Z-cycle4-resume1630Z",
+        "started_at": "2026-11-26T16:30:59.100Z",
+        "stage": "VERIFIED",
+        "stages": [
+          {
+            "stage": "STARTED",
+            "at": "2026-11-26T16:30:59.100Z"
+          },
+          {
+            "stage": "RESEARCH_READY",
+            "at": "2026-11-26T16:31:41.221Z",
+            "evidence": "Actualv7fullopened: adultsforecrown/crown conspicuouswhiteflecks; ABSA2019p2nominate3+ darkbrown forehead/crown/nape withyellowbrownfeatheredges, immaturemorewhite. Source-boundedadultcrowncorrection only; originalunassignedmainland/subspecies warning retained, notuniversalallsubspeciesclaim."
+          },
+          {
+            "stage": "IMAGE_GENERATED",
+            "at": "2026-11-26T16:33:22.102Z",
+            "blob": "c026a95578ef5f06efbd50ca43398c822163e0f1"
+          },
+          {
+            "stage": "REVIEWED",
+            "at": "2026-11-26T16:33:49.776Z",
+            "evidence": "Actual v7 baseline and generatedv8 viewed. Both adult crown whiteflecks reduced to darkbrown/warmyellowbrownfeatheredges, eyebrow/lores/face pattern retained. Juvenilewhitecrown/blueiris/formedwingtail/footgrips/hollowfloor unchanged; adultsbody/wingcovertwhitespots/feet/proportions preserved; titlev8 and scientificpendingfooters readable. PASS_WITH_LIMITATIONS, sciencefalse. NominateABSAagingreference informsselectedadultpattern, notuniversalallsubspeciesproof; exactyoungage/flight/depictedsubspecies/quantitativesexratio remainunknown. FeetpinkgreyallowedbyABSA, no automaticrecolour. Lesson: head-agepattern must not be copied fromimmatures toadultlabels; adultcrown-onlycorrection visibly effectivehere, notglobalvalidation."
+          },
+          {
+            "stage": "ARCHIVED",
+            "at": "2026-11-26T16:33:54Z",
+            "commit": "d3205b19985f152b143491eeba450d7b32ba726e"
+          },
+          {
+            "stage": "VERIFIED",
+            "at": "2026-11-26T16:34:14.580Z",
+            "evidence": "BothimmutablePNGbytes2645867/SHA256/fullPILdecode and research/reviewreadback verified."
+          }
+        ],
+        "errors": [],
+        "recovery": "Prior1600Z onlySTARTED, no image/credit. Leaseexpired, main unchanged exceptstart. Resume samecycle; no duplicate.",
+        "target": "72-ninox-boobook-v8",
+        "meta": {
+          "bytes": 2645867,
+          "sha256": "3124082e318e3f7638cf71c5deeb8faf6b083aa8fe65f3cdc70ed6d0369d4229",
+          "gitblob": "c026a95578ef5f06efbd50ca43398c822163e0f1",
+          "b64len": 3527824
+        },
+        "imagegen_edit_wait_seconds": 38.645,
+        "review": "Actual v7 baseline and generatedv8 viewed. Both adult crown whiteflecks reduced to darkbrown/warmyellowbrownfeatheredges, eyebrow/lores/face pattern retained. Juvenilewhitecrown/blueiris/formedwingtail/footgrips/hollowfloor unchanged; adultsbody/wingcovertwhitespots/feet/proportions preserved; titlev8 and scientificpendingfooters readable. PASS_WITH_LIMITATIONS, sciencefalse. NominateABSAagingreference informsselectedadultpattern, notuniversalallsubspeciesproof; exactyoungage/flight/depictedsubspecies/quantitativesexratio remainunknown. FeetpinkgreyallowedbyABSA, no automaticrecolour. Lesson: head-agepattern must not be copied fromimmatures toadultlabels; adultcrown-onlycorrection visibly effectivehere, notglobalvalidation.",
+        "ended_at": "2026-11-26T16:34:14.580Z",
+        "archive_commit": "d3205b19985f152b143491eeba450d7b32ba726e"
+      },
+      "rec": {
+        "id": "72-ninox-boobook-v8",
+        "accessed": "2026-11-27 Asia/Shanghai",
+        "action": "REVISION",
+        "issue": "Actualv7fullopened: adultsforecrown/crown conspicuouswhiteflecks; ABSA2019p2nominate3+ darkbrown forehead/crown/nape withyellowbrownfeatheredges, immaturemorewhite. Source-boundedadultcrowncorrection only; originalunassignedmainland/subspecies warning retained, notuniversalallsubspeciesclaim.",
+        "sources": [
+          {
+            "id": "BOO-ABSA-2019",
+            "title": "Australian Boobook, Bird in the Hand second edition",
+            "author": "J.W.Hardy/Australian Bird Study Association",
+            "year": 2019,
+            "url": "https://absa.asn.au/wp-content/uploads/2019/09/Australian-Boobook.pdf",
+            "pages": "PDF2 Ageing44–56, PDF1sexmeasurements",
+            "facts": "Fresh originalfullbodyread: nominateadult3+darkbrowncrown/yellowbrownforeheadedges; immaturesmorewhitecrownspots. Sexmeasurementsgreatlyoverlap. Adultfeetpinkgreyvalid, rejectedunnecessaryfootrecolour. Youngpowderblueiris/retainedremiges legitimate; notknownhatchage.",
+            "limits": "In-hand regionalagingguide basedHANZAB, notfinefeatherphotoatlas; nominatepatternscope, no flightdate fromiris."
+          },
+          {
+            "id": "BOO-OWLPAGES-2020",
+            "title": "Australian Boobook",
+            "author": "Deane Lewis",
+            "year": "updated2020-11-05",
+            "url": "https://www.owlpages.com/owls/species.php?s=3150",
+            "pages": "Description63–67/Habitat77",
+            "facts": "Fresh originalbodyread: variablebrownupperparts, legitimatewingcovertwhitespots/scapularpalerow; billbluegrey/yellowgreeneyes, barredwings/tail; woodedhollowcontext.",
+            "limits": "Secondarysharedguidecitations, notindependentprimaryaging. NewindexURLnotpresent inexistingindex checked."
+          },
+          {
+            "id": "WHSO-MIKKOLA-2013",
+            "title": "Owls of the World: A Photographic Guide second edition",
+            "author": "Heimo Mikkola",
+            "year": 2013,
+            "url": "useruploaded libfile_fde3_f-916e2244186c81918fe5a0716884b8c9_7a934266b8748191824cde4d0af03f29",
+            "pages": "printed455/PDF457",
+            "facts": "Freshuploadedpageactualtextread: browncrown/upperparts variable, whitespotswingcoverts; yellowgreeneyes/bluegreybill; underpartswhitewithrufousstreaks/crossbars.",
+            "limits": "Oldbroadgeographicclassification notfixed251newcount; juvenilehazelbrown vsABSAblue chronologicaldifference notresolved viafreshrecolour."
+          }
+        ],
+        "new_sources": 1,
+        "reused_sources": 2,
+        "prompt": "Use case: precise-object-edit. Edit ONLY the two ADULTS' forehead/crown/nape feather pattern of #72 Australian Boobook v7. Reduce conspicuous off-white speckles and blotches on those adult head-top zones; replace with deep natural dark-brown feather ground, subtle warm yellow-brown feather edges particularly forehead. Keep a few faint low-contrast irregular edges, not flat paint or perfectly spotless plastic. Do not alter white eyebrows, dark eye patches, lores, throat, or legitimate white scapular/wing-covert spots. Central fluffy juvenile entirely unchanged including white-mottled crown, powder-blue iris, formed wings/tail, grey-pink toes and support. Both adults preserve iris/bill, relative scale, all body markings and tree grips. Preserve all habitat/title/scientificname/rolelabels/two uncertainty footers; change title version v7 to v8 only. Do not claim juvenile exactage/flight/subspecies or new sexratio. Established tactile painterly natural-history style1536x1024."
+      }
+    },
+    {
+      "id": "73-ninox-rufa-v8",
+      "archive": "3b16ff1e88d1d3121df2dd1caeaf3f777f6e6578",
+      "verify": "6dde4c915bbc5d7f91c5e278d658c466c17cc4dc",
+      "ledger": "4048f4b8bf72623aa6b134bab32904dc70380e42",
+      "run": "owl-pet/production/runs/20261126T1545Z-cycle5-resume1630Z.json",
+      "record": {
+        "batch_id": "20261126T1545Z",
+        "cycle": 5,
+        "owner": "20261126T1630Z",
+        "run_id": "20261126T1545Z-cycle5-resume1630Z",
+        "started_at": "2026-11-26T16:35:26.459Z",
+        "stage": "VERIFIED",
+        "stages": [
+          {
+            "stage": "STARTED",
+            "at": "2026-11-26T16:35:26.459Z"
+          },
+          {
+            "stage": "RESEARCH_READY",
+            "at": "2026-11-26T16:35:34.622Z",
+            "evidence": "Actualv7fullseen: young carefulbranchingpose calledRECENTFLEDGLING, while source explicitly distinguishes branchwalkingfromfirsttrueflight; no image-levelscientificpending/irisunknown disclosure. Correctlabel, notinventanatomy orrecolourunverifiediris."
+          },
+          {
+            "stage": "IMAGE_GENERATED",
+            "at": "2026-11-26T16:37:21.922Z",
+            "blob": "db93826aac552f37ddfc69d7eb02e173a8295d60"
+          },
+          {
+            "stage": "REVIEWED",
+            "at": "2026-11-26T16:37:29.847Z",
+            "evidence": "Full v7/generatedv8 actually viewed. BRANCHER AGEUNVERIFIED andtwo scientific/iris/firstflight disclaimers readable, no feet/tails obscured; adultplumage/proportions andjuvenilestep/wing/iris visuallyretained. Annotationonly, no morphologyfix/sciencepass. OriginalRiddell223–224 separatesbranchingfromtrueflight; exactillustrationstage/iris/flight remainunknown. Noextraeditneeded. Lesson: nestdeparture/branchwalking/flyingareseparateevents, terminologycorrectedhere; no claimfullbiologicalvalidation."
+          },
+          {
+            "stage": "ARCHIVED",
+            "at": "2026-11-26T16:37:36Z",
+            "commit": "3b16ff1e88d1d3121df2dd1caeaf3f777f6e6578"
+          },
+          {
+            "stage": "VERIFIED",
+            "at": "2026-11-26T16:37:49.401Z",
+            "evidence": "originals VERIFIED\nconcepts VERIFIED\n"
+          }
+        ],
+        "errors": [],
+        "target": "73-ninox-rufa-v8",
+        "meta": {
+          "bytes": 2455290,
+          "sha256": "406ffd56d028b5f2d4a1aec0bd746589ddb6ab1dccb18a9ebb7caad2edf25a24",
+          "gitblob": "db93826aac552f37ddfc69d7eb02e173a8295d60",
+          "b64len": 3273720
+        },
+        "imagegen_edit_wait_seconds": 42.179,
+        "review": "Full v7/generatedv8 actually viewed. BRANCHER AGEUNVERIFIED andtwo scientific/iris/firstflight disclaimers readable, no feet/tails obscured; adultplumage/proportions andjuvenilestep/wing/iris visuallyretained. Annotationonly, no morphologyfix/sciencepass. OriginalRiddell223–224 separatesbranchingfromtrueflight; exactillustrationstage/iris/flight remainunknown. Noextraeditneeded. Lesson: nestdeparture/branchwalking/flyingareseparateevents, terminologycorrectedhere; no claimfullbiologicalvalidation.",
+        "ended_at": "2026-11-26T16:37:49.401Z"
+      },
+      "rec": {
+        "id": "73-ninox-rufa-v8",
+        "action": "ANNOTATION_REVISION",
+        "accessed": "2026-11-27",
+        "issue": "Actualv7fullseen: young carefulbranchingpose calledRECENTFLEDGLING, while source explicitly distinguishes branchwalkingfromfirsttrueflight; no image-levelscientificpending/irisunknown disclosure. Correctlabel, notinventanatomy orrecolourunverifiediris.",
+        "sources": [
+          {
+            "id": "RUF-RIDDELL-2021-P221-228",
+            "author": "William Riddell",
+            "year": 2021,
+            "title": "Breeding behaviour and diet of Rufous Owls Ninox rufa in the Darwin Botanic Gardens",
+            "url": "https://afo.birdlife.org.au/afo/index.php/afo/article/viewFile/2242/2264",
+            "pages": "printed221abstract,223Results243–250,224Fig2caption",
+            "facts": "Fresh originalbodyread: Sept2–5branchingprecededSept6trueflight; Figure2caption2–3daysafterhollowdeparture. One2018juvenile, no directdateassignedtoillustration.",
+            "limits": "Branchingwordingdoesnotmeasureiris/winggeometry; no freshphotopixelclaim."
+          },
+          {
+            "id": "WHSO-MIKKOLA-2013",
+            "author": "Heimo Mikkola",
+            "year": 2013,
+            "title": "Owls of the World second edition",
+            "url": "uploaded libfile_fde3_f-916e2244186c81918fe5a0716884b8c9_7a934266b8748191824cde4d0af03f29",
+            "pages": "printed448/PDF450",
+            "facts": "Freshpageactualread, maleusuallylarger, youngwhitehead/darkmask; existingadultfinebars/toefeathering retained.",
+            "limits": "Olderjuvenileiris/developmentsexactphaseunknown; notneonataltemplate."
+          }
+        ],
+        "new_sources": 0,
+        "reused_sources": 2,
+        "prompt": "Use case: text-localization. Edit #73 Rufous Owl Ninox rufa v7 ONLY the juvenile stage label and add evidence disclosure. Replace center RECENT FLEDGLING with BRANCHER · AGE UNVERIFIED. Add compact readable cream footer below role labels: CONCEPT · SCIENTIFIC CALIBRATION PENDING, then EXACT HATCH AGE / JUVENILE IRIS / FIRST FLIGHT UNVERIFIED. Use subtle dark strip in safe bottom margin, no feet/tails obscured, all text insidecanvas. All three birds absolutely preserve current plumage/eyes/bills/formedwing/shortjuveniletail/whitehead/darkmask, supported carefulsteppingyoung with onefootbranchonefoothollowedge, allsixfeet, adultmale-largerdirection, fineadultcrownandbreastbars, tree/forest/cavity/environment/light/establishedstyle unchanged. No new wing anatomy or iriscolour, no inventedage. Preserve scientificname/title and adultlabels; no needversion suffix."
+      },
+      "meta": {
+        "bytes": 2455290,
+        "sha256": "406ffd56d028b5f2d4a1aec0bd746589ddb6ab1dccb18a9ebb7caad2edf25a24",
+        "gitblob": "db93826aac552f37ddfc69d7eb02e173a8295d60",
+        "b64len": 3273720
+      }
+    },
+    {
+      "id": "74-ninox-novaeseelandiae-v8",
+      "archive": "cf873c3ba4af0bb3277c6edd3df9dec4a24a3fe8",
+      "verify": "aa413c5fe4d5c9db620ee2ff41bda41b3452020f",
+      "ledger": "62c638c87fe0034ffea70d069d65424f68809520",
+      "run": "owl-pet/production/runs/20261126T1545Z-cycle6-resume1630Z.json",
+      "record": {
+        "batch_id": "20261126T1545Z",
+        "cycle": 6,
+        "owner": "20261126T1630Z",
+        "run_id": "20261126T1545Z-cycle6-resume1630Z",
+        "started_at": "2026-11-26T16:38:45.113Z",
+        "stage": "VERIFIED",
+        "stages": [
+          {
+            "stage": "STARTED",
+            "at": "2026-11-26T16:38:45.113Z"
+          },
+          {
+            "stage": "RESEARCH_READY",
+            "at": "2026-11-26T16:38:51.780Z",
+            "evidence": "Actualv7fullviewed. Scientificpendingfooter present, but centralRECENTFLEDGLING failsdiscloseunmeasuredage/firstflight. Source39daysonebird differs NZBO~7weeks; no false morphologicalcorrection orbodyratiofix. Exactunknownlabels only."
+          },
+          {
+            "stage": "IMAGE_GENERATED",
+            "at": "2026-11-26T16:40:06.872Z",
+            "blob": "4181b7fca0dec9271509af84e495cdf321d7d5dd"
+          },
+          {
+            "stage": "REVIEWED",
+            "at": "2026-11-26T16:40:14.756Z",
+            "evidence": "Actual generatedv8 full viewed: JUVENILE AGEUNVERIFIED, existing sciencepending and new age/firstflight/sexratiofooter readable; nofeet/tails obscured. Adultv7lowerbellyocellation preserved, youngformedspottedwing/darkdown/yelloweyes/twofootlittercontact intact; no genericshortwingrollback. Annotationonly/no morphology/scientificpass. Sourceonechick39days vsNZBO~7weeksuncertainty notresolvedbyimage. New0/reused3. Lesson: printedsourcechronology doesnotmeasurepicturedindividual, explicitunknowns retained. Exactage/firstflight/finegeometry stillunknown."
+          },
+          {
+            "stage": "ARCHIVED",
+            "at": "2026-11-26T16:40:20Z",
+            "commit": "cf873c3ba4af0bb3277c6edd3df9dec4a24a3fe8"
+          },
+          {
+            "stage": "VERIFIED",
+            "at": "2026-11-26T16:40:34.627Z",
+            "evidence": "originals VERIFIED\nconcepts VERIFIED\n"
+          }
+        ],
+        "errors": [],
+        "target": "74-ninox-novaeseelandiae-v8",
+        "meta": {
+          "bytes": 2778033,
+          "sha256": "6911d69ab2ed754d8e968ae4177db15d450736dd4d07f98cb82b7b33b79f269b",
+          "gitblob": "4181b7fca0dec9271509af84e495cdf321d7d5dd",
+          "b64len": 3704044
+        },
+        "imagegen_edit_wait_seconds": 38.37,
+        "review": "Actual generatedv8 full viewed: JUVENILE AGEUNVERIFIED, existing sciencepending and new age/firstflight/sexratiofooter readable; nofeet/tails obscured. Adultv7lowerbellyocellation preserved, youngformedspottedwing/darkdown/yelloweyes/twofootlittercontact intact; no genericshortwingrollback. Annotationonly/no morphology/scientificpass. Sourceonechick39days vsNZBO~7weeksuncertainty notresolvedbyimage. New0/reused3. Lesson: printedsourcechronology doesnotmeasurepicturedindividual, explicitunknowns retained. Exactage/firstflight/finegeometry stillunknown.",
+        "ended_at": "2026-11-26T16:40:34.627Z"
+      },
+      "rec": {
+        "id": "74-ninox-novaeseelandiae-v8",
+        "action": "ANNOTATION_REVISION",
+        "accessed": "2026-11-27",
+        "issue": "Actualv7fullviewed. Scientificpendingfooter present, but centralRECENTFLEDGLING failsdiscloseunmeasuredage/firstflight. Source39daysonebird differs NZBO~7weeks; no false morphologicalcorrection orbodyratiofix. Exactunknownlabels only.",
+        "sources": [
+          {
+            "id": "MOR-STEPHENSON-MINOT-2006",
+            "title": "Breeding biology of morepork on Mokoia Island, Lake Rotorua, New Zealand",
+            "author": "Brent M.Stephenson & Edward O.Minot",
+            "year": 2006,
+            "url": "https://www.birdsnz.org.nz/wp-content/uploads/2021/12/Notornis_53_3_308.pdf",
+            "pages": "printed308abstract/310–311development",
+            "facts": "Fresh originalbodyread. Twochicksmeasured/onenestlingduration; selectedolderformedfeatherstagehistoricalrecordretained, notdateillustration. Existing39daymainchicknotuniversal.",
+            "limits": "OCRsomecorruption, no newphotopixels; exactillustratedage/firstflight cannotdeduce."
+          },
+          {
+            "id": "MOR-NZBO-2025",
+            "title": "Ruru Morepork",
+            "author": "Seaton/Hyde; New Zealand Birds Online",
+            "year": "2013 updated2025 perexistingindex",
+            "url": "https://www.nzbirdsonline.org.nz/species/morepork",
+            "pages": "Identification59/Breeding73–74",
+            "facts": "Freshoriginalbodyread: variableNZbrownowl/yelloweyesandfeet, forestcavity/fork/scrapes; roughly7weekfledge narrative notsameasmainprimarybird.",
+            "limits": "BroadhistoricalboobooksubspeciesparagraphnotusedtomergemodernAustralia/NZ;7weeksnotindividualage."
+          },
+          {
+            "id": "WHSO-MIKKOLA-2013",
+            "title": "Owls of the World second edition",
+            "author": "Heimo Mikkola",
+            "year": 2013,
+            "url": "uploaded libfile_fde3_f-916e2244186c81918fe5a0716884b8c9_7a934266b8748191824cde4d0af03f29",
+            "pages": "printed460/PDF462",
+            "facts": "Freshtextread; smoky-brownmesoptile/eye-mask, formedolderwingretained; female15gheaviernotstandingratio.",
+            "limits": "No knownillustratedage/firstflight."
+          }
+        ],
+        "new_sources": 0,
+        "reused_sources": 3,
+        "prompt": "Use case: text-localization. #74 Morepork Ninox novaeseelandiae v7 edit ONLY the central role label from RECENT FLEDGLING to JUVENILE · AGE UNVERIFIED. Retain existing CONCEPT · SCIENTIFIC CALIBRATION PENDING footer and add small second line EXACT AGE / FIRST FLIGHT / SEX DISPLAY RATIO UNVERIFIED, readable creamtype on subtledarkbottomsafe-marginstrip. Nothing cropped or coveringfeet/tails; preserve adultlabels/title/scientificname, exactlythreebirds and allbiology: youngdarkbrownresidualdown/yelloweyes/formedwhite-spottedwing/shorttail andtwofootlittercontact, adultocellatedlowerbelly/darkshaftsandterminalbars fromv7, alladultbody/crown/eyes/bills/toes/grips/sizevariation, NZforestferns/treefork/leaflitter, tactilepainterlystyle1536x1024. No new age/flight/ratio assertion or anatomy changes. This is evidence-label correction only."
+      },
+      "meta": {
+        "bytes": 2778033,
+        "sha256": "6911d69ab2ed754d8e968ae4177db15d450736dd4d07f98cb82b7b33b79f269b",
+        "gitblob": "4181b7fca0dec9271509af84e495cdf321d7d5dd",
+        "b64len": 3704044
+      }
+    },
+    {
+      "id": "75-ninox-scutulata-v7",
+      "archive": "c1599fd06c64ff13438f9ba3c42b0836f3a30483",
+      "verify": "8981dc8bedde2cc94c956381dc034f56e5122be8",
+      "ledger": "df0641cce5e0e6d5ec97b00addee4d948569ff80",
+      "run": "owl-pet/production/runs/20261126T1630Z-B2-cycle1-resume1630Z.json",
+      "record": {
+        "batch_id": "20261126T1630Z-B2",
+        "cycle": 1,
+        "owner": "20261126T1630Z",
+        "run_id": "20261126T1630Z-B2-cycle1-resume1630Z",
+        "started_at": "2026-11-26T16:41:41.100Z",
+        "stage": "VERIFIED",
+        "stages": [
+          {
+            "stage": "STARTED",
+            "at": "2026-11-26T16:41:41.100Z"
+          },
+          {
+            "stage": "RESEARCH_READY",
+            "at": "2026-11-26T16:41:47.516Z",
+            "evidence": "Actualv6opened: stageACTIVEDEPENDENTJUVENILE no explicitageunknown/sciencepending inexport. No freshmorphologyerror; addmissingdisclosurewithoutclaimingfeathercalibration."
+          },
+          {
+            "stage": "IMAGE_GENERATED",
+            "at": "2026-11-26T16:42:55.042Z",
+            "blob": "b3e11a5ced1a0bcdbbe15e78891a8b1c0a488b85"
+          },
+          {
+            "stage": "REVIEWED",
+            "at": "2026-11-26T16:43:03.533Z",
+            "evidence": "Actualgeneratedfullv7viewed. Stageageunverified/sciencepending/exactage-firstflight-sexratiofooterinsidecanvas readable, nofoot/tailobstruction. Adultcere/hardbillseparation/eyes/proportions andyoungsidewaysformedwingstretch/barredtail/fluff/contactspreserved. Annotationonly/no morphologyfix. Fullresearchincludesactualobserverbody andguide; new0/reuse2. Exactage/sexsize/firstflightunknown. Noextraeditneeded. Keep species-specificformedwingnotgenericstubwing; only exportuncertaintynowvisible."
+          },
+          {
+            "stage": "ARCHIVED",
+            "at": "2026-11-26T16:43:09Z",
+            "commit": "c1599fd06c64ff13438f9ba3c42b0836f3a30483"
+          },
+          {
+            "stage": "VERIFIED",
+            "at": "2026-11-26T16:43:22.527Z",
+            "evidence": "originals VERIFIED\nconcepts VERIFIED\n"
+          }
+        ],
+        "errors": [],
+        "target": "75-ninox-scutulata-v7",
+        "meta": {
+          "bytes": 2691594,
+          "sha256": "50f49f820691b4d140ad691da00f4f85f5522f0b9ec20122cd130237a5b1b1f4",
+          "gitblob": "b3e11a5ced1a0bcdbbe15e78891a8b1c0a488b85",
+          "b64len": 3588792
+        },
+        "imagegen_edit_wait_seconds": 36.29,
+        "review": "Actualgeneratedfullv7viewed. Stageageunverified/sciencepending/exactage-firstflight-sexratiofooterinsidecanvas readable, nofoot/tailobstruction. Adultcere/hardbillseparation/eyes/proportions andyoungsidewaysformedwingstretch/barredtail/fluff/contactspreserved. Annotationonly/no morphologyfix. Fullresearchincludesactualobserverbody andguide; new0/reuse2. Exactage/sexsize/firstflightunknown. Noextraeditneeded. Keep species-specificformedwingnotgenericstubwing; only exportuncertaintynowvisible.",
+        "ended_at": "2026-11-26T16:43:22.527Z"
+      },
+      "rec": {
+        "id": "75-ninox-scutulata-v7",
+        "action": "ANNOTATION_REVISION",
+        "accessed": "2026-11-27",
+        "issue": "Actualv6opened: stageACTIVEDEPENDENTJUVENILE no explicitageunknown/sciencepending inexport. No freshmorphologyerror; addmissingdisclosurewithoutclaimingfeathercalibration.",
+        "sources": [
+          {
+            "id": "SCU-BESG-2024-PHOTOS",
+            "title": "Brown Hawk Owl juveniles",
+            "author": "Andy Chew",
+            "year": 2024,
+            "url": "https://besgroup.org/2024/06/14/brown-hawk-owl-juveniles/",
+            "pages": "originalbody19–32",
+            "facts": "Fresh observerbodyread:13June2024Windsorhighcanopyfamily/twoactiveyoung; actualgallerypixels historicalv5only.",
+            "limits": "No hatchdate/sex/firstflight, observerreportnotNUSendorsedstudy."
+          },
+          {
+            "id": "WHSO-MIKKOLA-2013",
+            "title": "Owls of the World secondedition",
+            "author": "HeimoMikkola",
+            "year": 2013,
+            "url": "uploadedlibfile_fde3_f-916e2244186c81918fe5a0716884b8c9_7a934266b8748191824cde4d0af03f29",
+            "pages": "printed464/PDF466",
+            "facts": "Freshtextread eyesyellow, darkblueblackbill/greencere, lessstriatedfluffyyoung, near-equaldisplaykept.",
+            "limits": "Exactyoungstage/sexsizeconflict unresolved; oldStrixscutulata mappingretained, noJapantransfer."
+          }
+        ],
+        "index_note": "New0/reused2 SCU-BESG-2024-PHOTOS observerbody19–32 andWHSO-MIKKOLA-2013p464 freshread. Annotationonly unknownage/firstflight/ratio; priorphoto-boundedwingretained.",
+        "prompt": "Use case: text-localization. Edit supplied #75 Brown Boobook plate ONLY text. Center label replace ACTIVE DEPENDENT JUVENILE with DEPENDENT JUVENILE · AGE UNVERIFIED. Add compact creamtype bottomfooter on subtledarkstrip: CONCEPT · SCIENTIFIC CALIBRATION PENDING; secondline EXACT AGE / FIRST FLIGHT / SEX DISPLAY RATIO UNVERIFIED. All text insidecanvas and notcoveringfeet/tails. Preserve exactly3owls, allbiology includingadultolivecere/darkblueblackbill, bothadult yelloweyes/proportions/feet/bodymarks; centerfluffyyoung'sfullyformedsidewaysstretchwing/barredtail/feetgrippingbranch, paleheaddown andyelloweyes. Entirecanopybranch/environment/light/tactilepainterlystyle1536x1024 andtitle/scientificname/adultlabels unchanged. No wing shortening or newanatomy."
+      },
+      "meta": {
+        "bytes": 2691594,
+        "sha256": "50f49f820691b4d140ad691da00f4f85f5522f0b9ec20122cd130237a5b1b1f4",
+        "gitblob": "b3e11a5ced1a0bcdbbe15e78891a8b1c0a488b85",
+        "b64len": 3588792
+      }
+    },
+    {
+      "id": "76-asio-clamator-v7",
+      "archive": "f1c2e73d9005e8bb39fc72ab1c3088bfd3caa231",
+      "verify": "772b5cb23ac796e5448c5d38b3f52d7d0d60974e",
+      "ledger": "22293fae586e76312ac05a0a25d6a62675d64b69",
+      "run": "owl-pet/production/runs/20261126T1630Z-B2-cycle2-resume1630Z.json",
+      "record": {
+        "batch_id": "20261126T1630Z-B2",
+        "cycle": 2,
+        "owner": "20261126T1630Z",
+        "run_id": "20261126T1630Z-B2-cycle2-resume1630Z",
+        "started_at": "2026-11-26T16:43:59.777Z",
+        "stage": "VERIFIED",
+        "stages": [
+          {
+            "stage": "STARTED",
+            "at": "2026-11-26T16:43:59.777Z"
+          },
+          {
+            "stage": "RESEARCH_READY",
+            "at": "2026-11-26T16:44:06.750Z",
+            "evidence": "Actualv6fullviewed: centralgroundnestlarge denseorganizedstrawcup, primary describesgroundpalmbasefewgrasses/sometwigs. Correctmaterialandgroundsupportboundary, noyoungfeatherguess."
+          },
+          {
+            "stage": "IMAGE_GENERATED",
+            "at": "2026-11-26T16:45:25.964Z",
+            "blob": "9233773d3854f318885ccf44ef877c4533d00da6"
+          },
+          {
+            "stage": "REVIEWED",
+            "at": "2026-11-26T16:45:33.609Z",
+            "evidence": "Actualnewv7fullviewed. Denseorganizedstrawcup/raisedrim removed; centralsoilpatchwithsparsegrass/loosefewtwigs visible, bothyoungfeet andbelly supportedonsubstrate. No wovenbasket. Adulttoeplumage/eyes/tufts/streaks/stanceanddependentyoungwingexercise/growingfeathers retained. PASS_WITH_LIMITATIONS/sciencefalse. Primaryonepalmgroundnestsupportsselectedsite only, notallStripedOwlnests. Exactillustratedage/sex/feathergeometryunknown. Lesson: supportneededdoesnotjustifyinventedwovenbowl; soilcontactexplicitprompt effectivehere. Noextraeditrequired."
+          },
+          {
+            "stage": "ARCHIVED",
+            "at": "2026-11-26T16:45:39Z",
+            "commit": "f1c2e73d9005e8bb39fc72ab1c3088bfd3caa231"
+          },
+          {
+            "stage": "VERIFIED",
+            "at": "2026-11-26T16:45:52.042Z",
+            "evidence": "originals VERIFIED\nconcepts VERIFIED\n"
+          }
+        ],
+        "errors": [],
+        "target": "76-asio-clamator-v7",
+        "meta": {
+          "bytes": 3185454,
+          "sha256": "cd2b0f799633143c7fdbb40cf47bab46ee3bb2cdfa4058a86fe76e6c74d866de",
+          "gitblob": "9233773d3854f318885ccf44ef877c4533d00da6",
+          "b64len": 4247272
+        },
+        "imagegen_edit_wait_seconds": 42.844,
+        "review": "Actualnewv7fullviewed. Denseorganizedstrawcup/raisedrim removed; centralsoilpatchwithsparsegrass/loosefewtwigs visible, bothyoungfeet andbelly supportedonsubstrate. No wovenbasket. Adulttoeplumage/eyes/tufts/streaks/stanceanddependentyoungwingexercise/growingfeathers retained. PASS_WITH_LIMITATIONS/sciencefalse. Primaryonepalmgroundnestsupportsselectedsite only, notallStripedOwlnests. Exactillustratedage/sex/feathergeometryunknown. Lesson: supportneededdoesnotjustifyinventedwovenbowl; soilcontactexplicitprompt effectivehere. Noextraeditrequired.",
+        "ended_at": "2026-11-26T16:45:52.042Z"
+      },
+      "rec": {
+        "id": "76-asio-clamator-v7",
+        "action": "MORPHOLOGY_CONTEXT_REVISION",
+        "accessed": "2026-11-27",
+        "issue": "Actualv6fullviewed: centralgroundnestlarge denseorganizedstrawcup, primary describesgroundpalmbasefewgrasses/sometwigs. Correctmaterialandgroundsupportboundary, noyoungfeatherguess.",
+        "sources": [
+          {
+            "id": "CLA-AGUIAR-NAIFF-2009-L50-54",
+            "title": "Nesting and diet of Rhinoptynx clamator from Campus Marco Zero",
+            "author": "Kurazo Mateus Okada Aguiar & Rafael Homobono Naiff",
+            "year": 2009,
+            "url": "https://acta.inpa.gov.br/fasciculos/39-1/BODY/v39n1a24.html",
+            "pages": "HTMLResults46–54,Discussion73",
+            "facts": "Freshoriginalbodyread: onegroundpalmbasenestwithfewgrassandtwigs, dailyobservation; dependentwingexerciseprecedesflight; numericaltableanomaliesnotused.",
+            "limits": "Onebrood/materiallocalnotuniversalallnests, drawnageunmeasured. OldRhinoptynx/PseudoscopsmapAsioclamator perintro28."
+          },
+          {
+            "id": "WHSO-MIKKOLA-2013",
+            "title": "Owls of the World secondedition",
+            "author": "HeimoMikkola",
+            "year": 2013,
+            "url": "uploadedlibfile_fde3_f-916e2244186c81918fe5a0716884b8c9_7a934266b8748191824cde4d0af03f29",
+            "pages": "printed510/PDF512",
+            "facts": "Freshtextread: openpalm/grasscontext, creamfeatheredtoes/cinnamoneyes, youngcolourvariable. Massdifference notstandingratio.",
+            "limits": "Youngexactage/feathergeometrynotnewlyvalidated."
+          }
+        ],
+        "index_note": "New0/reuse2 primaryActaResults48fewgrass/twigs/groundpalm andguide510freshlyread. Actualdensecupmaterialcorrection, not universalnestarchitecture. Noegg/currentgroundjuvenileageinference.",
+        "prompt": "Use case: precise-object-edit. Edit #76 Striped Owl Asio clamator v6 ONLY the nest-like dense straw structure under/around the central young. It currently looks like a thick raised organized woven straw cup. Replace that dense cup and raised braided rim with a shallow natural ground depression of earth and sparse irregular short dry grasses, a few loose twigs and leaf scraps at this palm base. No basket rim, no densely woven bowl, no deliberate symmetrical straw platform. Preserve the SAME youngster foot positions: show firm earth beneath both feet and low belly, natural visible support, with unobtrusive soil mound if needed; do not float it. All three owls entirely unchanged including dependentyounglowwingexercise/cinnamonfluff/growingbarredwing/shorttufts/no-flightposture, adultcreamtoe feathers/claws/darkeyes/longtufts/streaks, adultfeetstandingonsamewood, relativeproportions. Preserve openpalmgrassland/title/scientificname/alllabels/style1536x1024. No new ageclaim or anatomy, no extra birds."
+      },
+      "meta": {
+        "bytes": 3185454,
+        "sha256": "cd2b0f799633143c7fdbb40cf47bab46ee3bb2cdfa4058a86fe76e6c74d866de",
+        "gitblob": "9233773d3854f318885ccf44ef877c4533d00da6",
+        "b64len": 4247272
+      }
+    },
+    {
+      "id": "77-asio-stygius-v7",
+      "archive": "32094867a0f32dd9ca726dd30afa590348ec7958",
+      "verify": "904f1b7b9601f3dc45fea536bcfb3785caae1b6f",
+      "ledger": "1f0480e32a243797ab6b85eb6d597454952793ad",
+      "run": "owl-pet/production/runs/20261126T1630Z-B2-cycle3-resume1630Z.json",
+      "record": {
+        "batch_id": "20261126T1630Z-B2",
+        "cycle": 3,
+        "owner": "20261126T1630Z",
+        "run_id": "20261126T1630Z-B2-cycle3-resume1630Z",
+        "started_at": "2026-11-26T16:46:39.656Z",
+        "stage": "VERIFIED",
+        "stages": [
+          {
+            "stage": "STARTED",
+            "at": "2026-11-26T16:46:39.656Z"
+          },
+          {
+            "stage": "RESEARCH_READY",
+            "at": "2026-11-26T16:46:46.440Z",
+            "evidence": "Actualv6viewed: OLDERJUVENILEcaptionwithoutage/firstflight/sciencependingexportboundary; nonewmorphologicalerror established. Keepregionalfootcoverageunsettled, no unsolicitedtoemodification."
+          },
+          {
+            "stage": "IMAGE_GENERATED",
+            "at": "2026-11-26T16:47:58.768Z",
+            "blob": "4639e60276e4636fcfb544c05b025fcc40e919f7"
+          },
+          {
+            "stage": "REVIEWED",
+            "at": "2026-11-26T16:48:06.032Z",
+            "evidence": "Actualnewv7fullviewed. Olderjuvenileageunverified andsciencepending/exactage-firstflight-sexratiofooter readable/withinframe; nofoot/tailobscuration. Darkadultupperparts/ventralcrossbars/feetunchanged; youngresidualdown/yellowiris/formedlateralwingextension/twobranchgrips retained. Annotationonly/notnew morphologycalibration. PrimaryTable3datesareobservationsnotbirth, Fig2captiondate doesnotdatepicturedindividual. Preciseage/firstflight/sexratio/regionaltoecoverageunknown. New0/reuse2. Noextraeditneeded; source-basedaction preserved."
+          },
+          {
+            "stage": "ARCHIVED",
+            "at": "2026-11-26T16:48:11Z",
+            "commit": "32094867a0f32dd9ca726dd30afa590348ec7958"
+          },
+          {
+            "stage": "VERIFIED",
+            "at": "2026-11-26T16:48:25.554Z",
+            "evidence": "originals VERIFIED\nconcepts VERIFIED\n"
+          }
+        ],
+        "errors": [],
+        "target": "77-asio-stygius-v7",
+        "meta": {
+          "bytes": 2637081,
+          "sha256": "146cd5d508fdfb8139c3f48c1ce4fc1c320ef27be7dbbdaa4344b4dca8d9a6ec",
+          "gitblob": "4639e60276e4636fcfb544c05b025fcc40e919f7",
+          "b64len": 3516108
+        },
+        "imagegen_edit_wait_seconds": 37.07,
+        "review": "Actualnewv7fullviewed. Olderjuvenileageunverified andsciencepending/exactage-firstflight-sexratiofooter readable/withinframe; nofoot/tailobscuration. Darkadultupperparts/ventralcrossbars/feetunchanged; youngresidualdown/yellowiris/formedlateralwingextension/twobranchgrips retained. Annotationonly/notnew morphologycalibration. PrimaryTable3datesareobservationsnotbirth, Fig2captiondate doesnotdatepicturedindividual. Preciseage/firstflight/sexratio/regionaltoecoverageunknown. New0/reuse2. Noextraeditneeded; source-basedaction preserved.",
+        "ended_at": "2026-11-26T16:48:25.554Z"
+      },
+      "rec": {
+        "id": "77-asio-stygius-v7",
+        "action": "ANNOTATION_REVISION",
+        "accessed": "2026-11-27",
+        "issue": "Actualv6viewed: OLDERJUVENILEcaptionwithoutage/firstflight/sciencependingexportboundary; nonewmorphologicalerror established. Keepregionalfootcoverageunsettled, no unsolicitedtoemodification.",
+        "sources": [
+          {
+            "id": "STY-CADENA-ORTIZ-2018-P23-25-F2-T3",
+            "title": "Notas sobre la dieta, desarrollo de jóvenes y distribución del Búho Estigio Asio stygius en Ecuador",
+            "author": "Héctor Cadena-Ortíz, Jorge Bedoya, Glenda M.Pozo-Zamora, Julie Watson, Jorge Brito",
+            "year": 2018,
+            "url": "https://revistas.usfq.edu.ec/index.php/reo/en/article/download/773/1244",
+            "pages": "printed23Table3/body152–172; printed24Fig2caption176–178",
+            "facts": "Freshoriginalbody/figurecaptionread: twoNayónyoung35dayfollowup, residualdown/yellowiris/latechestlines; branchchanges/wingextension observed20May2016, notknownhatchage. No newphotopixels claimed.",
+            "limits": "Observationdatesnotage; no generalizedfirstflightthreshold orfeatheratlas."
+          },
+          {
+            "id": "WHSO-MIKKOLA-2013",
+            "title": "Owls of the World secondedition",
+            "author": "HeimoMikkola",
+            "year": 2013,
+            "url": "uploadedlibfile_fde3_f-916e2244186c81918fe5a0716884b8c9_7a934266b8748191824cde4d0af03f29",
+            "pages": "printed502/PDF504",
+            "facts": "Freshtextread: darkupperwings/ventralcrossbars/youngbarredmesoptile. Existingadultupperpartcorrection preserved.",
+            "limits": "Generaltoeplumage differsregionalhistoricalrecord; do notnewlysolvepopulationextent. No exactdepictedage/linearsexratio."
+          }
+        ],
+        "index_note": "New0/reuse2 STY-CADENA-ORTIZ-2018-P23-25-F2-T3 originalp23Table3 andp24Fig2caption, guidep502freshread. Sourceobservationdatesnothatchage; annotationonly, nofootfeathering/generalizedjuvenilewingchange.",
+        "prompt": "Use case: text-localization. Edit #77 Stygian Owl Asio stygius v6 ONLY labels/exportdisclosure: replace OLDER JUVENILE with OLDER JUVENILE · AGE UNVERIFIED. Add readable creamtype bottomfooter onsubtledarkstrip: CONCEPT · SCIENTIFIC CALIBRATION PENDING; secondline EXACT AGE / FIRST FLIGHT / SEX DISPLAY RATIO UNVERIFIED. Keep textinsidecanvas and do notcoverfeet/tails. Preserve allthreebirds/allplumageandposes: adult subduedsootyupperparts/ventralshaftstreaksandcrossbars, alltufts/yelloweyes/darkbills, regionaladulttoecoverageuntouched, youngresidualdown/yelloweyes/chestmarks andgenuinelyformedlateralwingextension, bothfeetfirmbranchgrips andadultgrips/relativeproportions, Ecuadorhillside/trees/title/scientificname/style1536x1024. No newage/flightclaim, no anatomyedit."
+      },
+      "meta": {
+        "bytes": 2637081,
+        "sha256": "146cd5d508fdfb8139c3f48c1ce4fc1c320ef27be7dbbdaa4344b4dca8d9a6ec",
+        "gitblob": "4639e60276e4636fcfb544c05b025fcc40e919f7",
+        "b64len": 3516108
+      }
+    }
+  ]
+}

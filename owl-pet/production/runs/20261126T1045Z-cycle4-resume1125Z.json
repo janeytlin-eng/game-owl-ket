@@ -4,7 +4,7 @@
   "owner": "20261126T1125Z",
   "run_id": "20261126T1045Z-cycle4-resume1125Z",
   "started_at": "2026-11-26T11:29:52.629Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,9 +14,26 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T11:30:24.514Z",
       "evidence": "Actual v6 juvenile crown pale blobs overly broad/white compared with guide fine pale-buff spots; refine size/tone without generic plain juvenile crown rule. Mantle v6 fix retained."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T11:31:36.467Z",
+      "blob": "932a39c3ff419aca7d23835d7e403541d4192edd",
+      "bytes": 2549876
     }
   ],
   "scientifically_verified": false,
   "errors": [],
-  "target": "30-glaucidium-cuculoides-v7"
+  "target": "30-glaucidium-cuculoides-v7",
+  "generation_seconds": 33.837,
+  "meta": {
+    "bytes": 2549876,
+    "sha256": "e58cadaa07d7c1200cfab45c117c7ab3d503f1db6fa071a7ee57e186fd9fa877",
+    "gitblob": "932a39c3ff419aca7d23835d7e403541d4192edd",
+    "size": [
+      1536,
+      1024
+    ],
+    "b64len": 3399836
+  }
 }

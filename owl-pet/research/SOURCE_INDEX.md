@@ -7448,3 +7448,7 @@ PEPO-PERROCHEAU-2008-DIPE65099 (DidierPerrocheau/Aug2008/Lima/originalphotopage 
 
 ## 2026-11-26 cycle2 #47 primary-source access boundary
 NewBROW-MNHN-1931-163-2026 (MNHNmale ticehursti syntype1929Vietnam, ageindeterminate) metadataactuallyread, originalimageHTTP403notviewed; source/URL/type/locator/limits/design non-transfer decision in [gaprecord](gaps/20261126T0034Z-47-preflight.md). KFBGreportTimeout/403 and Smithsonian404 unverifiedleadsnotverifiedfacts. No newimage/age/toe claim; #47v10remainscurrent. Cycle2uncredited.
+
+
+## 2026-11-26 #47 cycle2 resumed
+BROW-KFBG-2011-SERIES7 upgradedleadtoactualprimarybodyp1–5(newformalURL;localHKsubspeciesnotdetermined), BROW-BSS-IDENTIFICATION-2026 actualinstitutionbodyjuvenilewhitishbuff newverifiedsources2; reusedBROW-MIKKOLA-2013-P326-327 actualprinted326/PDF328. Allmetadata/URLs/readsections/limits/designfacts in [47v11](species/47-strix-leptogrammica-v11.md). KFBGFig4pixelsremainunread(screenshotTimeout/direct403), Singaporecachedphotocaptionnotactualphoto; nofakephotoreading. Changesyoungvividorangeonly, noadulttoevalidation orstageageclaim. [Concept](../design/concepts/47-strix-leptogrammica-v11.png), [review](reviews/47-strix-leptogrammica-v11-review.md). Regionaltransferkeptuncertain.

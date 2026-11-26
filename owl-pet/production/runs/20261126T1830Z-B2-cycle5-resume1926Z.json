@@ -4,7 +4,7 @@
   "owner": "owl-production-20261126T1926Z",
   "run_id": "20261126T1926Z",
   "started_at": "2026-11-26T19:34:53.322Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,6 +14,10 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T19:35:43.987Z",
       "prompt": "Use case: precise-object-edit. Edit attached #86 Otus elegans v6 to v7. Change ONLY both ADULTS' bare toes and claws (left male and center female): adult toe skin should be neutral medium grey with subtle natural scale shading, not pale peach/pink; claws blackish horn/dark charcoal, not light grey. Maintain feathered tarsi ending at the toe bases, toes themselves BARE (do not copy #85 feathered toe correction), exact toe count/grip points and Casuarina branch support. Leave RIGHT young entirely unchanged because age-specific soft-part colour not established. Preserve near-equal adult height, all feather patterns/yellow irises/dark bills/ear tufts, cream-paper gouache texture, sugarcane shelterbelt context and every label/footer. Exactly three owls; no new nest or objects."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T19:37:47.897Z"
     }
   ],
   "target": "86-otus-elegans-v7",
@@ -28,5 +32,17 @@
     "WHSO-MIKKOLA-2013",
     "ELE-HANZAWA-ETAL-2026-PLUMAGE"
   ],
-  "research_ready_at": "2026-11-26T19:35:43.987Z"
+  "research_ready_at": "2026-11-26T19:35:43.987Z",
+  "meta": {
+    "bytes": 2761530,
+    "sha256": "5e3b9f4b2fd4794efc76d281559fc7c76840b229cec8657a3f3e27ee285f5dff",
+    "b64len": 3682040,
+    "size": [
+      1536,
+      1024
+    ],
+    "gitblob": "cdd477e4351fc4a1f64de1a6b5747e483bbcb437"
+  },
+  "imagegen_wait_seconds": 95.428,
+  "review": "Actual fullv6 and finalv7 viewed. Bothadults now neutralgrey baretoes/blackishhornclaws, tarsalfeathers stopnearbase; exact toegrips andbranchsupport maintained. Rightyoung toes unchanged (not agecolours extrapolated), compactfoldedwings/shorttail/begging/dualfootcontact retained. Adult yellowiris/darkbill/tufts/herringbone/near-equalheight preserved, Casuarina/cane context and creamgouache style/labels unchanged. Palettecorrection visiblyeffective; spectralprecision, picturedage/youngcontinuousplumage/flight/sexratio and residualcurltexture remainunverified. PASS_WITH_LIMITATIONS/sciencefalse; no newconfirmation. Ruleappliedandchecked: #85 featheredtoe evidence cannottransfer to#86 baretoes; adultcolours only when youngunknown. Prior indexprintedpage/iris/toepalette correction saved; MOE503/newpaperfindtimeout notclaimedread."
 }

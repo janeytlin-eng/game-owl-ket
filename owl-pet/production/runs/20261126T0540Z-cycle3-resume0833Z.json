@@ -1,0 +1,22 @@
+{
+  "batch_id": "20261126T0540Z",
+  "cycle": 3,
+  "run_id": "20261126T0540Z-cycle3-resume0833Z",
+  "owner": "20261126T0833Z",
+  "started_at": "2026-11-26T08:33:59.853Z",
+  "stage": "RESEARCH_READY",
+  "stages": [
+    {
+      "stage": "STARTED",
+      "at": "2026-11-26T08:33:59.853Z"
+    },
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-26T08:33:59.853Z",
+      "evidence": "Resume persisted #08v7 research/prompt; no prior image exists."
+    }
+  ],
+  "target": "08-strix-nebulosa-v7",
+  "scientifically_verified": false,
+  "recovery": "Main/old runs checked; prior#25 already archived, historical fd9d70d not a new remote success. No duplicate new species. Strict localGitblob + all exitcode and decode checks before credit."
+}

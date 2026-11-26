@@ -7609,3 +7609,7 @@ ReuseTSO-ACTA-NESTLING-2017 freshoriginalprinted270–271/PDF2–3 Fig1 body/cap
 
 ### 2026-11-26 22-gymnasio-nudipes-v6 audit
 ReusePRO-BIRDSCARIB-2021 actualspeciesbody1479–1486/caption1499/videodescription1504; no freshvideopixels. CORRECTION: textdoesNOTsayreddishbrowniris, so priorv5attribution withdrawn, oldrecordretained. MIKKOLA2013 freshuploadedprinted246/PDF248 saysyelloweyes/noear-tufts, keepcurrentcolourprovisional notforceedit; smallalarmtuftsarecontext-bound. New0/reuse2/source-attributioncorrection1. v6visibleiris/development/geometry/ratio limits, annotationonly/sciencefalse. [Full facts/prompt](species/22-gymnasio-nudipes-v6.md).
+
+
+### 2026-11-26 23-psiloscops-flammeolus-v7 audit
+ReuseFLOW-RICHMOND-DEWEESE-PILLMORE-1980-P35-46 freshlydirectGET/readprinted37/PDF3,40/PDF6,44/PDF10 (corrects old44/PDF9 locator; webreaderfailed), unlinedwoodbits vs actualv6regularrim. ReuseFLOW-ORI-2026 actualAnatomy/Habitat/Nesting body, MIKKOLA2013 freshprinted202/PDF204. New0/reuse3/locatorcorrection1; v7cavityfloorsupportrevision+sciencepending, exactyoungage/eyeopening/geometryunknown. No futurewingrulevalidated. [Full facts/prompt](species/23-psiloscops-flammeolus-v7.md).

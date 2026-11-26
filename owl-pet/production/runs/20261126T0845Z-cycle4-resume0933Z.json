@@ -4,7 +4,7 @@
   "owner": "20261126T0933Z",
   "run_id": "20261126T0845Z-cycle4-resume0933Z",
   "started_at": "2026-11-26T09:38:19.406Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,9 +14,26 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T09:39:01.975Z",
       "evidence": "Actualv5 has adult bill correction but no scientificpending banner. Keep adult bill/grey-black claws and all young morphology unchanged; explicitly expose juvenile age/flight and nest geometry unknown. Annotation only; do not apply #17 yellowhorn claw rule."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T09:40:19.842Z",
+      "blob": "a1cd1ecf6b7d77a7c92a705c205699dd58a9eb4a",
+      "bytes": 2732044
     }
   ],
   "scientifically_verified": false,
   "errors": [],
-  "target": "18-megascops-kennicottii-v6"
+  "target": "18-megascops-kennicottii-v6",
+  "meta": {
+    "bytes": 2732044,
+    "sha256": "8cf3ee710c09be32a74ae665916fb82bd585998b2f27f895e2f3d8bfc24cd7a2",
+    "gitblob": "a1cd1ecf6b7d77a7c92a705c205699dd58a9eb4a",
+    "size": [
+      1536,
+      1024
+    ],
+    "b64len": 3642728
+  },
+  "generation_seconds": 47.162
 }

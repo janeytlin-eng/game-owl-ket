@@ -4,7 +4,7 @@
   "owner": "owl-production-20261126T2030Z",
   "run_id": "20261126T2030Z",
   "started_at": "2026-11-26T20:30:50.080Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -37,6 +37,10 @@
       "at": "2026-11-26T20:32:58.948Z",
       "attempt": 2,
       "prompt": "Text-only edit supplied new #85 plate. KEEP EVERY OWL, including the newly rebuilt grey down texture, short incomplete juvenile folded wing, low supported crouch, both adult toe feathers and all branch/background pixels unchanged. Add three clearly readable white serif role labels in space BELOW the branch but ABOVE the existing footer, aligned under each bird: left 'ADULT MALE', center 'STUDY-REFERENCED YOUNG', right 'ADULT FEMALE'. Maintain exact title85 JAPANESE SCOPS OWL / Otus semitorques and existing sciencependingfooter. Do not remove/repaint feathers or alter any bird, foot grip, iris or scale. Only add the omitted labels."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T20:34:17.831Z"
     }
   ],
   "target": "85-otus-semitorques-v9",
@@ -49,5 +53,17 @@
     "SEM-NOHARA-HONDA-2025-P75-78",
     "WHSO-MIKKOLA-2013"
   ],
-  "first_imagegen_wait_seconds": 47.312
+  "first_imagegen_wait_seconds": 47.312,
+  "meta": {
+    "bytes": 2898554,
+    "sha256": "2bdab6d0433ff6d70bbe4a589c07bc5f7998abb2a9fd220220279e48f6df15f8",
+    "b64len": 3864740,
+    "size": [
+      1536,
+      1024
+    ],
+    "gitblob": "cc4b628071e1d1dd7ab6c5d8189fedab062f653a"
+  },
+  "second_imagegen_wait_seconds": 33.914,
+  "review": "Actualv8record, croppedadultstyle/primaryFig3young, initialnewplate, label-editedfinal and finalyoungcrop viewed. Newyoung lowcrouch/twofeetbellysupportedfork, distincttufts/shadoweyes/greyhornbill, incompletefoldedwing/concealedtail alignselectedprimaryphase betterthanprioruprightpuffball. Adultorangeeyes/featheredtoes/hornclaws/herringbone/near-equalskeletalheight retained innewcomposition. Finalrolelabels/footer present. HOWEVER text-onlyedit alteredyoungtexture, reintroducing some conspicuousloops acrossbreast/back comparedtoinitial. Therefore wholetexturefix NOT achieved: NEEDS_REVISION/sciencefalse, no newconfirmation. Freshadult-onlystyleinput workedpartiallybeforetextedit, labelrepair causeddrift; hypothesisnotvalidatedstable. Nextpriority preserveinitialtexturewhileaddinglabels usingfurtherimagegen, no claimnewruleuniversal."
 }

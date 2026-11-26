@@ -1,0 +1,4 @@
+# #109 v9 actual review
+Full initial and edited images displayed and inspected; final label/support crop actually opened. Initial model added v8 suffix; targeted second imagegen corrected v9. Age-unknown juvenile and scientific pending footer now readable. Three-bird identity, adult gray/white faces/orange irises/horn bills, dark shafts, supported toes and older juvenile formed wing retained qualitatively. No new morphology validation. Exact age/sex-height ratio/toe coverage remain UNVERIFIED; PASS_WITH_LIMITATIONS, scientifically_verified=false. One edit, not a new species.
+
+Lesson: imagegen can introduce an unsolicited version suffix during annotation-only tasks. Check title/version as well as role/footer text; this one correction was applied and visually verified. Does not establish pixel invariance or model-wide improvement. Baseline #221v3 inspected and no forced edit performed. #109 historical toe issues remain queued; no automatic scientific upgrade.

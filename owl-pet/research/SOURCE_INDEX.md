@@ -7700,3 +7700,7 @@ Reuse3documents; primary1998 newlyreadbody adulttoefeathering diagnosis. Existin
 
 ### 2026-11-26 44-strix-uralensis-v7
 New0/reuse2. Printed350/PDF352 originalguide reread; JStageprimarybodyabstract accessedagain. Actualv6adultclawbasecolouronlycorrection, notjuvenileageornewfamily. Facialdiscv6improvementpreserved. [facts/full prompt](species/44-strix-uralensis-v7.md).
+
+
+### 2026-11-26 45-strix-seloputo-v7
+New0/reuse2. Guideadulttoeplumage/skincolourvsactualpinkbarev6; datedyoungbalancepose preserved unchanged. Feathercover andvisible skin treatedseparately; noyoungfeathertransfer. [facts/full prompt](species/45-strix-seloputo-v7.md).

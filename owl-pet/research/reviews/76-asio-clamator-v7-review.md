@@ -1,0 +1,2 @@
+# 76-asio-clamator-v7
+Actualnewv7fullviewed. Denseorganizedstrawcup/raisedrim removed; centralsoilpatchwithsparsegrass/loosefewtwigs visible, bothyoungfeet andbelly supportedonsubstrate. No wovenbasket. Adulttoeplumage/eyes/tufts/streaks/stanceanddependentyoungwingexercise/growingfeathers retained. PASS_WITH_LIMITATIONS/sciencefalse. Primaryonepalmgroundnestsupportsselectedsite only, notallStripedOwlnests. Exactillustratedage/sex/feathergeometryunknown. Lesson: supportneededdoesnotjustifyinventedwovenbowl; soilcontactexplicitprompt effectivehere. Noextraeditrequired.

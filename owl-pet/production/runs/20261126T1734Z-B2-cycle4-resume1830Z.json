@@ -4,7 +4,7 @@
   "owner": "20261126T1830Z",
   "run_id": "20261126T1734Z-B2-cycle4-resume1830Z",
   "started_at": "2026-11-26T18:30:55.139Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -15,6 +15,11 @@
       "at": "2026-11-26T18:32:30.849Z",
       "evidence": "Actual fullv7 and OWLHK PDFp2 photo viewed; guide156/BSS/HKBWS body read. Two new sources, two reused.",
       "prompt": "Use case: precise-object-edit. Image1 is the edit target #79 Collared Scops Owl Otus lettia v7 comparison plate. Image2 is a species-captioned real juvenile in OWLHK annual report, morphological texture reference ONLY; do not copy its photo, background, lighting or arrangement. Produce sibling v8. RECONSTRUCT the center juvenile's feather SURFACE rather than preserving the erroneous string rendering: as visible in image2, short fine densely overlapping soft mesoptile feather tips with faint narrow broken transverse brown bars on a pale grey-buff body; small residual fluffy edges on head and breast, not long free hanging loops. Remove the conspicuous closed-loop, wire-string, crochet textures over head/neck/chest/belly completely. Body should read soft finely feathered like the real juvenile, not shaggy wool or knitted strings. Keep small ear tufts, dark brown irises/soft reddish-brown eye margins, greenish-horn bill, compact formed down-softened folded wings, short concealed tail, same overall placement and two feet firmly gripping the SAME branch. Do not convert the juvenile into an adult, hatchling, smooth plush toy or remove all fine dark barring. Preserve both adults and their poses, feathers, face/eye/bill/toe colors, near-equal display scale, branches, forest/cavity background, warm painterly-realistic style, exact title/scientific name, all adult labels. Center label remains 'AGE-UNKNOWN OLDER JUVENILE'; retain footer 'CONCEPT — SCIENTIFIC REVIEW PENDING; AGE / FLIGHT / SEX RATIO UNVERIFIED'. Exactly three owls; no source photograph reproduction, extra objects/birds/limbs or claim exact age/flight."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T18:36:46.252Z",
+      "blob": "47d7ab58c0423eea216d8c84211a4f7eaa97aff6"
     }
   ],
   "target": "79-otus-lettia-v8",
@@ -31,5 +36,13 @@
   "first_edit_wait_seconds": 51.635,
   "first_review": "Actual first edit viewed: closed-loop/crochet strands persist over young chest/belly despite new reference; not effective. Need full center-bird rebuild rather than surface-only preserve-heavy edit. Adults/support remain.",
   "second_imagegen_wait_seconds": 51.526,
-  "second_review": "Actual full/cropped second output viewed: head/upperchest and body silhouette improved substantially, formedcompactwing appropriate to realolderjuvenile; lowerbelly still repeated pale curved/closed-loop outlines. Third localized lowerbelly correction necessary; no full science pass."
+  "second_review": "Actual full/cropped second output viewed: head/upperchest and body silhouette improved substantially, formedcompactwing appropriate to realolderjuvenile; lowerbelly still repeated pale curved/closed-loop outlines. Third localized lowerbelly correction necessary; no full science pass.",
+  "third_imagegen_wait_seconds": 34.412,
+  "meta": {
+    "bytes": 2603361,
+    "sha256": "f0cb05793b00b271807cc7e35b3d5282c743fce6f997f26db7589ca0ff65ff52",
+    "b64len": 3471148,
+    "gitblob": "47d7ab58c0423eea216d8c84211a4f7eaa97aff6"
+  },
+  "imagegen_wait_seconds": 51.635
 }

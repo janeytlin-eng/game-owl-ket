@@ -4,7 +4,7 @@
   "owner": "owl-production-20261126T2130Z",
   "run_id": "20261126T2130Z",
   "started_at": "2026-11-26T21:48:33.692Z",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "STARTED",
@@ -26,6 +26,15 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-26T21:49:48.665Z"
+    },
+    {
+      "stage": "VERIFICATION_EVIDENCE",
+      "at": "2026-11-26T21:50:09.345Z",
+      "evidence": "Both immutable originals/concepts full bytes SHA256/PILdecode passed; research/review readback passed"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-26T21:50:09.346Z"
     }
   ],
   "target": "99-bubo-magellanicus-v6",
@@ -47,5 +56,7 @@
     "gitblob": "a4fabb3e78d01a0e937da9f1756eddb13be30f47"
   },
   "imagegen_wait_seconds": 38.855,
-  "review": "Actual v5 and v6 fullplates viewed vs freshNovoaBlanco2020p32 body. Newbare continuous tiled/concrete balcony floor completelyreplaces fabricateddrygrass/leaves/twigrim, youngbellyandtuckedfeet supportedatfloor, nofloat; adultstableledges/footgrips retained. Younggreywhitedown/eyesopen/compactshortwingbud/no mature remiges/no tail unchanged, approx20daycasecaption retained butnotexacthatchorflightclaim. Threebirds remainillustrativecomposition not literalFig1two-young count. Adultnarrowtufts/yelloweyes/bluegreybill/whitethroat/finebars/dirtywhitetoefeathering/darkclaws/nearequalheight pass. Labelsrecordedcase/pending legible, no eggs/additional animals. PASS_WITH_LIMITATIONS/sciencefalse/noapproval. Historicalv5nestmaterialsourceassertioncorrectedandindexed, notsilentlyerased. Lesson: case-specific floor/lining sentence overrides genericowl-nest assumption or anothercasephoto; applied andviewedhere. Backcheckotherbalconycaseart should requirecaseID, not blanketremovealllining."
+  "review": "Actual v5 and v6 fullplates viewed vs freshNovoaBlanco2020p32 body. Newbare continuous tiled/concrete balcony floor completelyreplaces fabricateddrygrass/leaves/twigrim, youngbellyandtuckedfeet supportedatfloor, nofloat; adultstableledges/footgrips retained. Younggreywhitedown/eyesopen/compactshortwingbud/no mature remiges/no tail unchanged, approx20daycasecaption retained butnotexacthatchorflightclaim. Threebirds remainillustrativecomposition not literalFig1two-young count. Adultnarrowtufts/yelloweyes/bluegreybill/whitethroat/finebars/dirtywhitetoefeathering/darkclaws/nearequalheight pass. Labelsrecordedcase/pending legible, no eggs/additional animals. PASS_WITH_LIMITATIONS/sciencefalse/noapproval. Historicalv5nestmaterialsourceassertioncorrectedandindexed, notsilentlyerased. Lesson: case-specific floor/lining sentence overrides genericowl-nest assumption or anothercasephoto; applied andviewedhere. Backcheckotherbalconycaseart should requirecaseID, not blanketremovealllining.",
+  "archive_commit": "20310c6ee99fcfa9dc1390965f26cd673231360f",
+  "ended_at": "2026-11-26T21:50:09.345Z"
 }

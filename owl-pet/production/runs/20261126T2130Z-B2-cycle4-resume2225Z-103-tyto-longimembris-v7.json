@@ -4,7 +4,7 @@
   "cycle": 4,
   "target": "103-tyto-longimembris-v7",
   "started_at": "2026-11-26T22:27:32.954Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -13,11 +13,16 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T22:28:55.652Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T22:30:04.376Z"
     }
   ],
   "errors": [
     "PrimaryPDF www/nonwww502twice; screenshot returned only textreference, no imagepixels",
-    "Firstpreflight attempted nonexisting101v6 research paths; latestv8 correctly discovered/read"
+    "Firstpreflight attempted nonexisting101v6 research paths; latestv8 correctly discovered/read",
+    "Alternate publisher download166/117 also502; booktextread while downloadpending, missinglocalPDF error not photo success"
   ],
   "source_new": 0,
   "source_reuse": 2,
@@ -26,5 +31,18 @@
     "EGO-DUNLOP2016",
     "EGO-MIK2013-102"
   ],
-  "full_prompt": "Use case: text-localization. Edit existing #103 Eastern Grass Owl Tyto longimembris v6 plate, annotation ONLY. Keep ALL bird anatomy/feathers/colour/eyes/bills/feet/poses/wings/longbarelegs/darkadultclaws/juvenilepinkface/groundsupport/grassandsand/style/composition unchanged. Keep title and adult labels. Replace center label with '≈55-DAY MESOPTILE · CAPTIVE CASE' and add smaller cream serif footer y1002 'CONCEPT — SCIENTIFIC REVIEW PENDING; FACE / WING STAGE / FIRST FLIGHT UNVERIFIED'. Do not treat captive55day as wildfirstflight. No maturejuvenilewings, no repaintingpinkskinwithoutactualphoto, no boxes/borders/ornaments/extraobjects. Only requested text, fitwithin1536x1024."
+  "full_prompt": "Use case: text-localization. Edit existing #103 Eastern Grass Owl Tyto longimembris v6 plate, annotation ONLY. Keep ALL bird anatomy/feathers/colour/eyes/bills/feet/poses/wings/longbarelegs/darkadultclaws/juvenilepinkface/groundsupport/grassandsand/style/composition unchanged. Keep title and adult labels. Replace center label with '≈55-DAY MESOPTILE · CAPTIVE CASE' and add smaller cream serif footer y1002 'CONCEPT — SCIENTIFIC REVIEW PENDING; FACE / WING STAGE / FIRST FLIGHT UNVERIFIED'. Do not treat captive55day as wildfirstflight. No maturejuvenilewings, no repaintingpinkskinwithoutactualphoto, no boxes/borders/ornaments/extraobjects. Only requested text, fitwithin1536x1024.",
+  "archive_started_at": "2026-11-26T22:29:57.281Z",
+  "meta": {
+    "bytes": 2734470,
+    "sha256": "c42b1b8585914f71723fa367cac552b8ba77130dd12f3428578336223bbbfb4a",
+    "b64len": 3645960,
+    "size": [
+      1536,
+      1024
+    ],
+    "gitblob": "37b92d2099d4ed88ba29b8d37a7a0022b9f7503b"
+  },
+  "imagegen_wait_seconds": 31.713,
+  "review": "Full v6/v7 plates actually viewed. Annotation-onlylabels captiveCASE and face/wing/firstflight scientificpending legible, exact3birds/title/adultroles retained. Adultwhitefacemale/richerbufffemale/modestfullness/darkiris/ivorybill/verylongfleshbaretarsi/toes anddarkblackbrownclaws unchangedatconceptlevel; juvenilegoldmesoptile/pinkpartialface/emergingfacialfeathers/compactconcealedwing/no longtail/allfeetgroundsupported/unlinedsand+tallgrass stable. Noactual55dayphotopixels recovered: pinkskinextent/featherage/flight remainunknown, notscientificpass. Primary alternateURLalso502 afterready; no biologicalpaintdonefromfailedphoto. PASS_WITH_LIMITATIONS/sciencefalse/no newconfirmation. Lesson: specificunverifiedfacialstage mustbevisible evenwhenapproximatecaptiveagehascaptionevidence; explicitmissingdetail notfalsepicturevalidation. #99barefloorcase not transferredtoothernests; thisgrasssandindependentlysource-supported."
 }

@@ -4,7 +4,7 @@
   "owner": "20261126T1830Z",
   "run_id": "20261126T1830Z-B2-cycle1-resume1830Z",
   "started_at": "2026-11-26T18:45:35.317Z",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "STARTED",
@@ -30,6 +30,11 @@
       "stage": "ARCHIVED",
       "at": "2026-11-26T18:47:52.558Z",
       "commit": "3d13de2c401a1a87a23c4b525e6b37da0eebc251"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-26T18:48:09.153Z",
+      "evidence": "Immutable original/concept fullbytes SHA256 and PIL decode pass; research/review readback."
     }
   ],
   "errors": [],
@@ -49,5 +54,6 @@
   },
   "imagegen_wait_seconds": 42.439,
   "review": "# #86 Otus elegans interpositus v6 actual review\nActual generatedfullv6 viewed. AGE-UNKNOWN DEPENDENTYOUNG/footer readable, unchangedexistingorder maleleft/femalecenter/youngright. Adults yellowiris/darkbill/tufts/plumage/near-equalheight/modestfullness/toegrips preserved; young begging/softcompactwing/shorttail/bilateralwoodsupport unchanged. Creamgouachestyle/shelterbelt/cane context preserved. Annotation-only PASS_WITH_LIMITATIONS/sciencefalse, not a feathercalibration; curly juveniletexture candidatefutureaudit retained. Source trait/yearsizedirection cannotbe uniformheight rule; populationdeparturecalendar not picturedage. No extraeditneeded, no newuserapproval.",
-  "archive_commit": "3d13de2c401a1a87a23c4b525e6b37da0eebc251"
+  "archive_commit": "3d13de2c401a1a87a23c4b525e6b37da0eebc251",
+  "ended_at": "2026-11-26T18:48:09.153Z"
 }

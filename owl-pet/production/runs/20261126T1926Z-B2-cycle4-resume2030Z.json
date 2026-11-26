@@ -14,14 +14,34 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T20:31:31.040Z",
       "prompt": "Use case: stylized-concept. Create a NEW complete 1536x1024 polished naturalistic owl-pet family plate, number85 JAPANESE SCOPS OWL, scientific subtitle Otus semitorques. Image1 is ONLY an adult species/style reference, not a target layout to reproduce. Image2 is a primary field photograph of this species' newly departed young, used ONLY for down texture/ear-tufts and incomplete wing stage, not copied composition. Three distinct naturally supported owls on a broad mossy Cryptomeria branch in warm Honshu forest: ADULT MALE left, STUDY-REFERENCED YOUNG center, ADULT FEMALE right. Adults same approximate skeletal height without asserted dimorphism, grey-brown cryptic feathering/herringbone ventrum, small greyhorn bills, orange eyes, prominent tufts, pale short feathers extending across dorsal toe surfaces up to horn claws, natural two-foot grips. IMPORTANT center young must be freshly designed from PHOTO image2, not inherited from a prior render: compact grey-buff dense short velvety down, soft finely mottled tonal masses, very faint diffuse irregular bars, small distinct tufts, shadowed eyes with unspecified iris, short greyhornbill, short incomplete folded wing tips, concealed short tail. Its inner body texture reads matte dense soft down at normal scale, no closed loops, ringlets, outlined wool, long wire curls or repeated scallops; short fine fuzz only at silhouette. Quiet slightly side-looking low crouch with two feet and belly supported near branch fork; no flight or mature remiges. Keep species-specific style of image1, not a generic horned owl, avoid giant bill/tufts in young. Exactly three birds, full feet/no merged toes/no floating. Footer 'CONCEPT — SCIENTIFIC REVIEW PENDING; AGE / IRIS / FIRST FLIGHT / SEX RATIO UNVERIFIED'. No nest/cavity claim or precise day."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T20:32:54.132Z",
+      "attempt": 1,
+      "meta": {
+        "bytes": 3046190,
+        "sha256": "e3d0c966afb1956dc3a6de1316d65d7289c00737c455c7950d0b7c0d0f26bc5b",
+        "b64len": 4061588,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "a12cf8ec013be660fe599a9ea4d66a7687bc275c"
+      },
+      "imagegen_wait_seconds": 47.312,
+      "review": "Newdownsubstrate visiblybetter, rolelabelsomitted; requiredtextedit"
     }
   ],
   "target": "85-otus-semitorques-v9",
-  "errors": [],
+  "errors": [
+    "First output omitted all three role labels"
+  ],
   "source_new": 0,
   "source_reuse": 2,
   "source_ids": [
     "SEM-NOHARA-HONDA-2025-P75-78",
     "WHSO-MIKKOLA-2013"
-  ]
+  ],
+  "first_imagegen_wait_seconds": 47.312
 }

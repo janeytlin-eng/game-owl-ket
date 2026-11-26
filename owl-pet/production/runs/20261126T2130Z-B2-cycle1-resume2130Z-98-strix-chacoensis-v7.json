@@ -4,7 +4,7 @@
   "owner": "owl-production-20261126T2130Z",
   "run_id": "20261126T2130Z",
   "started_at": "2026-11-26T21:46:00.346Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,6 +14,10 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T21:46:04.352Z",
       "prompt": "Precise local edit of #98 Strix chacoensis v6. On BOTH ADULT BILLS only, change the current almost uniform brightyellow beak into muted HORN-GREY/brown proximal upperbill and cere, grading to yellowish distal tip. Preserve exact beakshape/expression, male's onefroggrip, darkeyes and face. Basis Mikkola2013p336 horn-colouredbill yellowish at tip, NBO2013 broader yellowishbill account; no blackentirebill. Do NOT change central juvenile bill or eyes (age-specific bareparts notverified). Keep alreadycorrect sparse adult tarsalmarks/proximaltoefeathers/reddishhornclaws/darktips/allfootgrips, adult plumage/bodybalance/youngbody/fluff/foldedwing/shorttail/nestfreebranch/Chacothornscrub background. Text-only replace center two-line role with AGE-UNKNOWN DEPENDENT YOUNG, add small cream serif bottomfooter 'CONCEPT — SCIENTIFIC REVIEW PENDING; AGE / FIRST FLIGHT / SEX RATIO UNVERIFIED'. Keep title98 CHACO OWL/scientificname/adultroles exact; no boxes/rules/decorations/extraanimals."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T21:47:07.152Z"
     }
   ],
   "target": "98-strix-chacoensis-v7",
@@ -23,5 +27,17 @@
   "source_ids": [
     "CHAO-NBO-2013",
     "WHSO-MIKKOLA-2013"
-  ]
+  ],
+  "meta": {
+    "bytes": 2883928,
+    "sha256": "cc6fef0e1652ebd0a28a28472aecbafcae5ae86447f011be2e4b6b766e870147",
+    "b64len": 3845240,
+    "size": [
+      1536,
+      1024
+    ],
+    "gitblob": "9a9fdce01a9f3b2d511f360c53db83fea271dc50"
+  },
+  "imagegen_wait_seconds": 34.952,
+  "review": "Actualv6/v7 fullplates read against original NBO2013body+guidep336. Bothadultbills now muted horn-grey/brown nearbase gradingto yellowtip ratherthan solidyellow; samebeakshape/malefroggrip preserved. BroaderNBOyellowishbill and guidespecificbase/tip compatible qualitative descriptions, not calibratedcolourproven. Adultdarkiris/paleconcentricface/barredventrum/sparsecream-tarsalmarks/proximaltoefeathers/reddishhornclaws-darktips/twofootgrips/nearequalscale retained. Centralyoung unchangedveryfluffygreybuff/palegreyface/darkeyes/compactwing/shorttail/fullfootgrip, age/flight/barepartcolour/stage unresolved; curls not newclaim. Textnowageunknown/pendinglegible; no extraanimal/nest. PASS_WITH_LIMITATIONS/sciencefalse/noapproval. Lesson: narrowadultbase/tip colour edit can retain tip/shape in thisplate; do not import to young or#97bill."
 }

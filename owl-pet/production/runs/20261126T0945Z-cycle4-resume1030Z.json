@@ -52,5 +52,22 @@
   },
   "generation_seconds": 41.626,
   "ended_at": "2026-11-26T10:37:22.816Z",
-  "archive_commit": "7e397f75640f7c59bac5bd9ee837f223cde4f11c"
+  "archive_commit": "7e397f75640f7c59bac5bd9ee837f223cde4f11c",
+  "timing_audit": {
+    "id": "24-glaucidium-californicum-v6",
+    "started_at": "2026-11-26T10:34:19.634Z",
+    "research_ready_at": "2026-11-26T10:35:29.621Z",
+    "start_to_research_checkpoint_seconds": 69.987,
+    "generation_wait_seconds": 41.626,
+    "edit_wait_seconds": 0,
+    "reviewed_at": "2026-11-26T10:37:02.843Z",
+    "archive_commit": "7e397f75640f7c59bac5bd9ee837f223cde4f11c",
+    "archive_commit_published_at": "2026-11-26T10:37:07Z",
+    "review_to_archive_commit_seconds": 4.157,
+    "verified_at": "2026-11-26T10:37:22.816Z",
+    "archive_to_verified_seconds": 15.816,
+    "measurement_limits": "Checkpoint intervals, not pure labour or API upload-only durations. Git commit time has second precision; ARCHIVED stage was recorded at verification, archive publish time is independently recovered here."
+  },
+  "timing_audit_recorded_at": "2026-11-26T10:51:56.161Z",
+  "full_prompt_location": "owl-pet/research/species/24-glaucidium-californicum-v6.md"
 }

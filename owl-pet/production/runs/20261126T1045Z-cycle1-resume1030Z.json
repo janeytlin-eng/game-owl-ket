@@ -52,5 +52,22 @@
   },
   "generation_seconds": 36.781,
   "ended_at": "2026-11-26T10:47:30.099Z",
-  "archive_commit": "d042c37127449763b89c0158a60c7cdaf76801a8"
+  "archive_commit": "d042c37127449763b89c0158a60c7cdaf76801a8",
+  "timing_audit": {
+    "id": "27-glaucidium-passerinum-v7",
+    "started_at": "2026-11-26T10:45:36.194Z",
+    "research_ready_at": "2026-11-26T10:46:05.447Z",
+    "start_to_research_checkpoint_seconds": 29.253,
+    "generation_wait_seconds": 36.781,
+    "edit_wait_seconds": 0,
+    "reviewed_at": "2026-11-26T10:47:14.185Z",
+    "archive_commit": "d042c37127449763b89c0158a60c7cdaf76801a8",
+    "archive_commit_published_at": "2026-11-26T10:47:18Z",
+    "review_to_archive_commit_seconds": 3.815,
+    "verified_at": "2026-11-26T10:47:30.099Z",
+    "archive_to_verified_seconds": 12.099,
+    "measurement_limits": "Checkpoint intervals, not pure labour or API upload-only durations. Git commit time has second precision; ARCHIVED stage was recorded at verification, archive publish time is independently recovered here."
+  },
+  "timing_audit_recorded_at": "2026-11-26T10:51:56.161Z",
+  "full_prompt_location": "owl-pet/research/species/27-glaucidium-passerinum-v7.md"
 }

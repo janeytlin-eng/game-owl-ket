@@ -52,5 +52,22 @@
   },
   "generation_seconds": 37.574,
   "ended_at": "2026-11-26T10:50:03.552Z",
-  "archive_commit": "8b84f3fb41acc478531093412ee6918bea712a07"
+  "archive_commit": "8b84f3fb41acc478531093412ee6918bea712a07",
+  "timing_audit": {
+    "id": "28-glaucidium-perlatum-v8",
+    "started_at": "2026-11-26T10:47:37.696Z",
+    "research_ready_at": "2026-11-26T10:48:29.699Z",
+    "start_to_research_checkpoint_seconds": 52.003,
+    "generation_wait_seconds": 37.574,
+    "edit_wait_seconds": 0,
+    "reviewed_at": "2026-11-26T10:49:45.288Z",
+    "archive_commit": "8b84f3fb41acc478531093412ee6918bea712a07",
+    "archive_commit_published_at": "2026-11-26T10:49:50Z",
+    "review_to_archive_commit_seconds": 4.712,
+    "verified_at": "2026-11-26T10:50:03.552Z",
+    "archive_to_verified_seconds": 13.552,
+    "measurement_limits": "Checkpoint intervals, not pure labour or API upload-only durations. Git commit time has second precision; ARCHIVED stage was recorded at verification, archive publish time is independently recovered here."
+  },
+  "timing_audit_recorded_at": "2026-11-26T10:51:56.161Z",
+  "full_prompt_location": "owl-pet/research/species/28-glaucidium-perlatum-v8.md"
 }

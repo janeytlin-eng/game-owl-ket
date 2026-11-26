@@ -1,0 +1,223 @@
+{
+  "owner": "20261126T1030Z",
+  "completed": 6,
+  "new_species": 0,
+  "revised": 6,
+  "coverage": {
+    "head": "35630bf0883c58eded91fb3ff81653195c0342b2",
+    "truncated": false,
+    "files": 1123,
+    "rawStems": 210,
+    "unique": 207,
+    "aliases": {
+      "glaucidium-brasilianum-cactorum": "glaucidium-brasilianum",
+      "tyto-javanica-delicatula": "tyto-javanica",
+      "pseudoscops-grammicus": "asio-grammicus"
+    }
+  },
+  "deliveries": [
+    {
+      "id": "23-psiloscops-flammeolus-v7",
+      "archive": "62ace19086d867f6b40a164f7d015fe42696dbe8",
+      "verify": "b324b6e6367c0dc9a7138d7ba2c14cf616b8357e",
+      "run": "owl-pet/production/runs/20261126T0945Z-cycle3-resume1030Z.json",
+      "meta": {
+        "bytes": 2651287,
+        "sha256": "79d00738560c36bd3bf81a485a71c2c05672c112f1a4dbfb52eff438fac44e58",
+        "gitblob": "458441e5c71c69e85c5a26a9ded027288b3fae0e",
+        "size": [
+          1536,
+          1024
+        ],
+        "b64len": 3535052
+      },
+      "generation_seconds": 41.135
+    },
+    {
+      "id": "24-glaucidium-californicum-v6",
+      "archive": "7e397f75640f7c59bac5bd9ee837f223cde4f11c",
+      "verify": "2e85397b993f8cb8180beba5177e602a5d160b02",
+      "run": "owl-pet/production/runs/20261126T0945Z-cycle4-resume1030Z.json",
+      "meta": {
+        "bytes": 2916783,
+        "sha256": "a16d8d0f138636d86354a2d84b8110d5e988f7ff4d77b81e890c90f70a1fb7ee",
+        "gitblob": "02740be8e04209395d5c28de897f7325b7475170",
+        "size": [
+          1536,
+          1024
+        ],
+        "b64len": 3889044
+      },
+      "generation_seconds": 41.626
+    },
+    {
+      "id": "25-glaucidium-brasilianum-cactorum-v6",
+      "archive": "1352ed06c63a6fbab99940f6cff4dbe319eaeec7",
+      "verify": "46b825cf2fdc5ac12cbe4833b12ab91981f944a2",
+      "run": "owl-pet/production/runs/20261126T0945Z-cycle5-resume1030Z.json",
+      "meta": {
+        "bytes": 2864437,
+        "sha256": "729c187af12da587305c0c701c07440464896f5a6ada74431dfa3e7b19616ca1",
+        "gitblob": "10508841ef5f6184e8658664615302909765c1dd",
+        "size": [
+          1536,
+          1024
+        ],
+        "b64len": 3819252
+      },
+      "generation_seconds": 37.246
+    },
+    {
+      "id": "26-glaucidium-siju-v7",
+      "archive": "68a24d660e22c805e426477057663c5f9434dcfd",
+      "verify": "392606f02b22601dbdebc3ed9c41804b8577c122",
+      "run": "owl-pet/production/runs/20261126T0945Z-cycle6-resume1030Z.json",
+      "meta": {
+        "bytes": 2482111,
+        "sha256": "ee6c768f2705f1553d1cb294d767f9aba4d8eeb9bb654be1e278e9370476f5a6",
+        "gitblob": "520487e11b43081ff9a94b9ff2f06479146ce00e",
+        "size": [
+          1536,
+          1024
+        ],
+        "b64len": 3309484
+      },
+      "generation_seconds": 33.225
+    },
+    {
+      "id": "27-glaucidium-passerinum-v7",
+      "archive": "d042c37127449763b89c0158a60c7cdaf76801a8",
+      "verify": "e499ee3096caf85bd31fd55b2c335ac3fa48abbb",
+      "run": "owl-pet/production/runs/20261126T1045Z-cycle1-resume1030Z.json",
+      "meta": {
+        "bytes": 2682210,
+        "sha256": "9fcd23757939e4951102d4ceafd5e85b8d7fa66d35b24c1b22ba0b06450821a5",
+        "gitblob": "687ed9412c9ca5fc0089ed059421fb08c3a1f086",
+        "size": [
+          1536,
+          1024
+        ],
+        "b64len": 3576280
+      },
+      "generation_seconds": 36.781
+    },
+    {
+      "id": "28-glaucidium-perlatum-v8",
+      "archive": "8b84f3fb41acc478531093412ee6918bea712a07",
+      "verify": "f766cb44455e5f093d3a6ba9ece8b8d38dbca0a7",
+      "run": "owl-pet/production/runs/20261126T1045Z-cycle2-resume1030Z.json",
+      "meta": {
+        "bytes": 2640040,
+        "sha256": "aa63d010a2cfb4728de2520051c9cb08f6f89b24bc6e45d3fbd71a6eff93b4d0",
+        "gitblob": "b49992bd695b81c4227f23269f24ac9017e11e62",
+        "size": [
+          1536,
+          1024
+        ],
+        "b64len": 3520056
+      },
+      "generation_seconds": 37.574
+    }
+  ],
+  "timing": [
+    {
+      "id": "23-psiloscops-flammeolus-v7",
+      "started_at": "2026-11-26T10:31:32.078Z",
+      "research_ready_at": "2026-11-26T10:32:32.996Z",
+      "start_to_research_checkpoint_seconds": 60.918,
+      "generation_wait_seconds": 41.135,
+      "edit_wait_seconds": 0,
+      "reviewed_at": "2026-11-26T10:33:57.618Z",
+      "archive_commit": "62ace19086d867f6b40a164f7d015fe42696dbe8",
+      "archive_commit_published_at": "2026-11-26T10:34:01Z",
+      "review_to_archive_commit_seconds": 3.382,
+      "verified_at": "2026-11-26T10:34:14.410Z",
+      "archive_to_verified_seconds": 13.41,
+      "measurement_limits": "Checkpoint intervals, not pure labour or API upload-only durations. Git commit time has second precision; ARCHIVED stage was recorded at verification, archive publish time is independently recovered here."
+    },
+    {
+      "id": "24-glaucidium-californicum-v6",
+      "started_at": "2026-11-26T10:34:19.634Z",
+      "research_ready_at": "2026-11-26T10:35:29.621Z",
+      "start_to_research_checkpoint_seconds": 69.987,
+      "generation_wait_seconds": 41.626,
+      "edit_wait_seconds": 0,
+      "reviewed_at": "2026-11-26T10:37:02.843Z",
+      "archive_commit": "7e397f75640f7c59bac5bd9ee837f223cde4f11c",
+      "archive_commit_published_at": "2026-11-26T10:37:07Z",
+      "review_to_archive_commit_seconds": 4.157,
+      "verified_at": "2026-11-26T10:37:22.816Z",
+      "archive_to_verified_seconds": 15.816,
+      "measurement_limits": "Checkpoint intervals, not pure labour or API upload-only durations. Git commit time has second precision; ARCHIVED stage was recorded at verification, archive publish time is independently recovered here."
+    },
+    {
+      "id": "25-glaucidium-brasilianum-cactorum-v6",
+      "started_at": "2026-11-26T10:37:28.491Z",
+      "research_ready_at": "2026-11-26T10:38:28.953Z",
+      "start_to_research_checkpoint_seconds": 60.462,
+      "generation_wait_seconds": 37.246,
+      "edit_wait_seconds": 0,
+      "reviewed_at": "2026-11-26T10:41:42.620Z",
+      "archive_commit": "1352ed06c63a6fbab99940f6cff4dbe319eaeec7",
+      "archive_commit_published_at": "2026-11-26T10:41:46Z",
+      "review_to_archive_commit_seconds": 3.38,
+      "verified_at": "2026-11-26T10:42:00.467Z",
+      "archive_to_verified_seconds": 14.467,
+      "measurement_limits": "Checkpoint intervals, not pure labour or API upload-only durations. Git commit time has second precision; ARCHIVED stage was recorded at verification, archive publish time is independently recovered here."
+    },
+    {
+      "id": "26-glaucidium-siju-v7",
+      "started_at": "2026-11-26T10:42:05.465Z",
+      "research_ready_at": "2026-11-26T10:42:48.155Z",
+      "start_to_research_checkpoint_seconds": 42.69,
+      "generation_wait_seconds": 33.225,
+      "edit_wait_seconds": 32.724,
+      "reviewed_at": "2026-11-26T10:45:13.534Z",
+      "archive_commit": "68a24d660e22c805e426477057663c5f9434dcfd",
+      "archive_commit_published_at": "2026-11-26T10:45:17Z",
+      "review_to_archive_commit_seconds": 3.466,
+      "verified_at": "2026-11-26T10:45:29.975Z",
+      "archive_to_verified_seconds": 12.975,
+      "measurement_limits": "Checkpoint intervals, not pure labour or API upload-only durations. Git commit time has second precision; ARCHIVED stage was recorded at verification, archive publish time is independently recovered here."
+    },
+    {
+      "id": "27-glaucidium-passerinum-v7",
+      "started_at": "2026-11-26T10:45:36.194Z",
+      "research_ready_at": "2026-11-26T10:46:05.447Z",
+      "start_to_research_checkpoint_seconds": 29.253,
+      "generation_wait_seconds": 36.781,
+      "edit_wait_seconds": 0,
+      "reviewed_at": "2026-11-26T10:47:14.185Z",
+      "archive_commit": "d042c37127449763b89c0158a60c7cdaf76801a8",
+      "archive_commit_published_at": "2026-11-26T10:47:18Z",
+      "review_to_archive_commit_seconds": 3.815,
+      "verified_at": "2026-11-26T10:47:30.099Z",
+      "archive_to_verified_seconds": 12.099,
+      "measurement_limits": "Checkpoint intervals, not pure labour or API upload-only durations. Git commit time has second precision; ARCHIVED stage was recorded at verification, archive publish time is independently recovered here."
+    },
+    {
+      "id": "28-glaucidium-perlatum-v8",
+      "started_at": "2026-11-26T10:47:37.696Z",
+      "research_ready_at": "2026-11-26T10:48:29.699Z",
+      "start_to_research_checkpoint_seconds": 52.003,
+      "generation_wait_seconds": 37.574,
+      "edit_wait_seconds": 0,
+      "reviewed_at": "2026-11-26T10:49:45.288Z",
+      "archive_commit": "8b84f3fb41acc478531093412ee6918bea712a07",
+      "archive_commit_published_at": "2026-11-26T10:49:50Z",
+      "review_to_archive_commit_seconds": 4.712,
+      "verified_at": "2026-11-26T10:50:03.552Z",
+      "archive_to_verified_seconds": 13.552,
+      "measurement_limits": "Checkpoint intervals, not pure labour or API upload-only durations. Git commit time has second precision; ARCHIVED stage was recorded at verification, archive publish time is independently recovered here."
+    }
+  ],
+  "source_delta": {
+    "newly_verified_documents": 2,
+    "new_entries": 1,
+    "previous_lead_upgraded": 1,
+    "reuse_citations": 13,
+    "all_citations": 15,
+    "distinct_documents": 10
+  },
+  "scientifically_verified_new": 0
+}

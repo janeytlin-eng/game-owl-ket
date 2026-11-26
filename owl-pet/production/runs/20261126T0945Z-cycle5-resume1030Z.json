@@ -52,5 +52,22 @@
   },
   "generation_seconds": 37.246,
   "ended_at": "2026-11-26T10:42:00.467Z",
-  "archive_commit": "1352ed06c63a6fbab99940f6cff4dbe319eaeec7"
+  "archive_commit": "1352ed06c63a6fbab99940f6cff4dbe319eaeec7",
+  "timing_audit": {
+    "id": "25-glaucidium-brasilianum-cactorum-v6",
+    "started_at": "2026-11-26T10:37:28.491Z",
+    "research_ready_at": "2026-11-26T10:38:28.953Z",
+    "start_to_research_checkpoint_seconds": 60.462,
+    "generation_wait_seconds": 37.246,
+    "edit_wait_seconds": 0,
+    "reviewed_at": "2026-11-26T10:41:42.620Z",
+    "archive_commit": "1352ed06c63a6fbab99940f6cff4dbe319eaeec7",
+    "archive_commit_published_at": "2026-11-26T10:41:46Z",
+    "review_to_archive_commit_seconds": 3.38,
+    "verified_at": "2026-11-26T10:42:00.467Z",
+    "archive_to_verified_seconds": 14.467,
+    "measurement_limits": "Checkpoint intervals, not pure labour or API upload-only durations. Git commit time has second precision; ARCHIVED stage was recorded at verification, archive publish time is independently recovered here."
+  },
+  "timing_audit_recorded_at": "2026-11-26T10:51:56.161Z",
+  "full_prompt_location": "owl-pet/research/species/25-glaucidium-brasilianum-cactorum-v6.md"
 }

@@ -1050,3 +1050,12 @@ When a species guide says “juvenile not known” but a regional field photogra
 
 ## 2026-11-26 0933Z 六轮验证
 #17新读图鉴adult黄角质黑尖爪，实际整图+爪crop应用验证；#18黑角爪/#19灰角爪不能套用此色，实际回查当前输入并保留。软部颜色依物种而非属通用。#22新读机构正文没有虹膜颜色，撤回旧来源归因，来源没有说≠实际颜色一定错，保留现有待核验色而不据旧书强改。#20巢位个体记录不成为普遍巢室几何，#21已知参考年龄不是生成个体已知龄，保留有证据的成形幼羽。五组标识修订非新形态科学通过。每图实际看整图和页脚，#17爪局部检查。有限ref读回重试本次后续成功但不证明永久修复。 [原图/来源更正/真实SHA/阶段时间](batches/20261126T0933Z-six-cycle-review.md)。
+
+
+## 2026-11-26 1030Z — actual evidence bounds and reviewed revisions
+- #23: primary unlined cavity floor with loose woodbits applies only to that species/stage; actual v7 removed a neat cup-like rim, support remained.
+- #24: adult californicum pale tail-web rows stop short of shaft; applied v6 and enlarged both tails actually inspected. Do not transfer to cactorum (#25 rufous/buff tail marks), or to juvenile feathers.
+- Historical dated photo caption is not a known age for an invented concept individual (#25v6 removed 28–31days); population fledging ability is not measured individual flight ability (#27v7).
+- #26: tentative primary iris statement stays tentative. Actual generator printed imperative instructions after footer; rejected attempt preserved, edited and re-viewed. Use explicit print-only strings; applied next #27/28 with no leak observed, no universal success-rate claim.
+- Clancey1980 formerly unverified target p96/PDF10 now actually read; local historical diurnum juvenile does not establish universal iris/development. Keep stable ID/status history, avoid silent modern-race synonym mapping. #28v8 label expresses age/subspecies limits.
+- Byte/hash/PNG-decode verification precedes credit. Six cycles credited only after both immutable image paths and research/review records verified. Timing distinctions and actual error evidence in 20261126T1030Z audit.

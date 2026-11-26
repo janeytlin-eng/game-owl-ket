@@ -68,5 +68,22 @@
   "edit_prompt": "Remove ONLY accidental extra footer text starting 'Do not recolour' through end. Bottom small sentence must read exactly 'Juvenile iris and exact age unverified; adult colours are not a sex key.' No other lettering added. Preserve all birds, all labels, title v7 and large scientific-pending line exactly.",
   "edit_seconds": 32.724,
   "ended_at": "2026-11-26T10:45:29.975Z",
-  "archive_commit": "68a24d660e22c805e426477057663c5f9434dcfd"
+  "archive_commit": "68a24d660e22c805e426477057663c5f9434dcfd",
+  "timing_audit": {
+    "id": "26-glaucidium-siju-v7",
+    "started_at": "2026-11-26T10:42:05.465Z",
+    "research_ready_at": "2026-11-26T10:42:48.155Z",
+    "start_to_research_checkpoint_seconds": 42.69,
+    "generation_wait_seconds": 33.225,
+    "edit_wait_seconds": 32.724,
+    "reviewed_at": "2026-11-26T10:45:13.534Z",
+    "archive_commit": "68a24d660e22c805e426477057663c5f9434dcfd",
+    "archive_commit_published_at": "2026-11-26T10:45:17Z",
+    "review_to_archive_commit_seconds": 3.466,
+    "verified_at": "2026-11-26T10:45:29.975Z",
+    "archive_to_verified_seconds": 12.975,
+    "measurement_limits": "Checkpoint intervals, not pure labour or API upload-only durations. Git commit time has second precision; ARCHIVED stage was recorded at verification, archive publish time is independently recovered here."
+  },
+  "timing_audit_recorded_at": "2026-11-26T10:51:56.161Z",
+  "full_prompt_location": "owl-pet/research/species/26-glaucidium-siju-v7.md"
 }

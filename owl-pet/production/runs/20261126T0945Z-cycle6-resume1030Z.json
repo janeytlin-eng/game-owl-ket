@@ -20,20 +20,26 @@
       "at": "2026-11-26T10:43:56.738Z",
       "blob": "a04b1d180e566aef06c63b16421d9ce05fd7090c",
       "bytes": 2624981
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T10:45:06.982Z",
+      "blob": "520487e11b43081ff9a94b9ff2f06479146ce00e",
+      "bytes": 2482111
     }
   ],
   "scientifically_verified": false,
   "errors": [],
   "target": "26-glaucidium-siju-v7",
   "meta": {
-    "bytes": 2624981,
-    "sha256": "c6625770053ef7d0577e3b9854652786ba3d7c28658306efaa4d65e65bb6718e",
-    "gitblob": "a04b1d180e566aef06c63b16421d9ce05fd7090c",
+    "bytes": 2482111,
+    "sha256": "ee6c768f2705f1553d1cb294d767f9aba4d8eeb9bb654be1e278e9370476f5a6",
+    "gitblob": "520487e11b43081ff9a94b9ff2f06479146ce00e",
     "size": [
       1536,
       1024
     ],
-    "b64len": 3499976
+    "b64len": 3309484
   },
   "generation_seconds": 33.225,
   "attempts": [
@@ -44,5 +50,6 @@
       "error": "Extra imperative editing instructions printed after intended footer."
     }
   ],
-  "edit_prompt": "Remove ONLY accidental extra footer text starting 'Do not recolour' through end. Bottom small sentence must read exactly 'Juvenile iris and exact age unverified; adult colours are not a sex key.' No other lettering added. Preserve all birds, all labels, title v7 and large scientific-pending line exactly."
+  "edit_prompt": "Remove ONLY accidental extra footer text starting 'Do not recolour' through end. Bottom small sentence must read exactly 'Juvenile iris and exact age unverified; adult colours are not a sex key.' No other lettering added. Preserve all birds, all labels, title v7 and large scientific-pending line exactly.",
+  "edit_seconds": 32.724
 }

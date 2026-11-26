@@ -4,7 +4,7 @@
   "owner": "20261126T1258Z",
   "run_id": "20261126T1240Z-cycle3-resume1258Z",
   "started_at": "2026-11-26T12:59:36.999Z",
-  "stage": "REVIEWED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "STARTED",
@@ -25,6 +25,16 @@
       "stage": "REVIEWED",
       "at": "2026-11-26T13:02:36.920Z",
       "evidence": "实际查看全图及跗蹠/趾基裁切：两成年裸露下腿现在由细褐羽覆盖至趾基，裸脏黄趾、黑尖爪和原有枝条抓握可见；冠/背/尾和幼鸟形态维持，v7/角色及非性别连锁色型、泛化树洞、幼鸟AGE/IRIS未知标签完整。图鉴本物种p380支持成年羽被；BSG原文直接读取成功已补记录，图片像素未新看不冒充。幼鸟精确年龄/虹膜/飞行/洞底尺寸仍未知。PASS_WITH_LIMITATIONS，不作科学通过或新物种。"
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-26T13:03:16.094Z",
+      "commit_sha": "944171a954d7f451f80b3dedbd4d85914e0eb37a"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-26T13:03:16.094Z",
+      "evidence": "originals VERIFIED 2881923\nconcepts VERIFIED 2881923\n; original local Gitblob matched/research review immutable readback"
     }
   ],
   "scientifically_verified": false,
@@ -41,5 +51,7 @@
       1024
     ],
     "b64len": 3842564
-  }
+  },
+  "ended_at": "2026-11-26T13:03:16.094Z",
+  "archive_commit": "944171a954d7f451f80b3dedbd4d85914e0eb37a"
 }

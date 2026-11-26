@@ -5,7 +5,7 @@
   "target": "109-ptilopsis-leucotis-v10",
   "action": "SCIENCE_REVISION",
   "started_at": "2026-11-26T23:45:32.146Z",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "STARTED",
@@ -26,6 +26,10 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-26T23:47:32.137Z"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-26T23:48:36.443Z"
     }
   ],
   "errors": [],
@@ -60,5 +64,9 @@
     "b64len": 3463544
   },
   "actual_visual_review": "Actual full output viewed: juvenile visible iris now yellow/gold with dark pupil; both adult irises remain orange; v10 suffix correct. Three supported birds, white black-rimmed faces, bills, tufts, formed juvenile folded wing, adult sizes, branch/woodland lighting, ageunknown and scientificpending/uncertainty footer retained. No second edit needed for targeted iris/version. Residual regular/plastic feather texture and exact toe-feather extent remain calibration queue; this limited pass does not scientifically approve them. Juvenile exact age/colour transition/flight and sexsize formula unknown. Primary captive adult darkening cases not generalized.",
-  "review_status": "PASS_WITH_LIMITATIONS"
+  "review_status": "PASS_WITH_LIMITATIONS",
+  "archive_commit": "173508824a562dbebfbbdc36cc4eb1c92ede4527",
+  "byte_verification_observed_exit0_at": "2026-11-26T23:48:36.408Z",
+  "ended_at": "2026-11-26T23:48:36.408Z",
+  "lesson": "Problem: juvenile iris imported adult orange. New Morita/Mikkola2025 p92 and guidep254 support juvenileyellow; local iris-only edit applied and actualoutput checked yellowyoung/orangeadults/titlev10 plus all support/text invariants. New primary captiveadult case must not normalize dark eyes in wild or supply juveniletiming. Prior#105/#109 age-role palette scope compared; no crossspecies iris inference. Residual regular feather texture/toe extent remains queue, no fullscience claim."
 }

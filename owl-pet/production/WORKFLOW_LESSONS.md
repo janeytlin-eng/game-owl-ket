@@ -293,3 +293,8 @@ Problem: v5 adult toe skin had pink cast. Guide p345 and expert Description64–
 ## 2026-11-27 2334Z 108-otus-rutilus-v6
 Annotation gap→metadata provides photographed date but no hatch age/flighttest, and guidejuvenileunknown→caption AGE UNKNOWN / PERCH ONLY · FLIGHT UNVERIFIED added and actually read in final. Fresh sourcephoto403 prevents new morphology claims. Guide allows natural herringbone-like markings, so prompts should distinguish biological branching from rigid synthetic repetition; clarification discovered, not globally applied or verified. Prior #108v5 and #107v6 reviewed for scope; no blanket pattern removal.
 [Actual review](../research/reviews/108-otus-rutilus-v6-review.md)
+
+
+## 2026-11-27 2334Z 109-ptilopsis-leucotis-v10
+Problem: juvenile iris imported adult orange. New Morita/Mikkola2025 p92 and guidep254 support juvenileyellow; local iris-only edit applied and actualoutput checked yellowyoung/orangeadults/titlev10 plus all support/text invariants. New primary captiveadult case must not normalize dark eyes in wild or supply juveniletiming. Prior#105/#109 age-role palette scope compared; no crossspecies iris inference. Residual regular feather texture/toe extent remains queue, no fullscience claim.
+[Actual review](../research/reviews/109-ptilopsis-leucotis-v10-review.md)

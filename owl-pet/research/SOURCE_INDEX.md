@@ -8006,3 +8006,7 @@ Newpublications0/reused3: WHSO-MIKKOLA-2013 actualp338/PDF340; RBO-GREENEY-2003-
 - Decision: retainv5currentcolourpendingactualresolvedevidence, annotatecolourconflict/dayroost. [v6research](species/106-strix-albitarsis-v6.md), [v6image](../design/concepts/106-strix-albitarsis-v6.png), [review](reviews/106-strix-albitarsis-v6-review.md). OldsourcecitedbeforethisformalID, notadditionalnewpublication.
 
 [Research](species/106-strix-albitarsis-v6.md) / [review](reviews/106-strix-albitarsis-v6-review.md).
+
+
+## 2026-11-27 2334Z — 107-strix-fulvescens-v6
+Sources WHSO-MIKKOLA-2013; FVO-OWLPAGES-2020-L64-75; S107-CAYAYA-2026. New 0, reused 3. Fresh uploaded printed345/PDF347 Identification/Juvenile plus adult photo pixels; fresh expert Description64–66 and researcher account body27–45. Adult distal toe colour only; basal feathers retained; no adult trait transfer to young. BBOC PDF timeout and bird-studies redirect error recorded, historical2018 nest boundary not newly claimed. [Facts, source scope, full prompt](species/107-strix-fulvescens-v6.md); [actual review](reviews/107-strix-fulvescens-v6-review.md).

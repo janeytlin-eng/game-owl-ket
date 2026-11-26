@@ -4,7 +4,7 @@
   "owner": "20261126T1427Z",
   "run_id": "20261126T1345Z-cycle6-resume1427Z",
   "started_at": "2026-11-26T14:35:31.665Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -24,6 +24,11 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T14:39:30.503Z",
       "evidence": "Actual latestv7 verified: preserve photographer-supported older mesoptile; adult tails still broad pale bars. Tail-only change using v7 rather than rejectedv6 selection."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T14:41:58.305Z",
+      "blob": "a9334f6d3204b560a366a6a072dab7cd260da7f0"
     }
   ],
   "errors": [
@@ -34,10 +39,10 @@
   ],
   "target": "52-strix-hylophila-v8",
   "meta": {
-    "bytes": 2507607,
-    "sha256": "a1a04fac381a520a386e932c6fc0c277edeaa2ccdadb3528e879efdfc221743b",
-    "gitblob": "9fc9ea4fe19132c42d9f2cbe5747389942494894",
-    "b64len": 3343476
+    "bytes": 2572465,
+    "sha256": "1b9aa09d197d0042087c0f97082310977ad9c1f029e4afa96a2c0db9bdddc34e",
+    "gitblob": "a9334f6d3204b560a366a6a072dab7cd260da7f0",
+    "b64len": 3429956
   },
-  "generation_wait_seconds": 104.83
+  "generation_wait_seconds": 103.658
 }

@@ -1,0 +1,300 @@
+{
+  "owner": "20261126T1734Z",
+  "completed": 6,
+  "new_species": 0,
+  "revisions": 6,
+  "coverage": "207/251",
+  "content_pass": 2,
+  "annotation_only": 3,
+  "needs_revision": 1,
+  "sources": {
+    "new": 1,
+    "reused_citations": 15,
+    "distinct_documents": 12
+  },
+  "rows": [
+    {
+      "id": "78-asio-capensis-v7",
+      "archive": "af9939810697c6a99584f6696326675b177981e7",
+      "verified": "86ee06398c6701bfb1389ee3b79a1133f93677f3",
+      "run": "owl-pet/production/runs/20261126T1630Z-B2-cycle4-resume1734Z.json"
+    },
+    {
+      "id": "79-otus-lettia-v7",
+      "archive": "bdf04101f8f57ba41c2f2a88d815790f912148ae",
+      "verified": "b8ae16587616a425410ece98c0b0412bf45dec3d",
+      "run": "owl-pet/production/runs/20261126T1630Z-B2-cycle5-resume1734Z.json",
+      "result": "NEEDS_REVISION"
+    },
+    {
+      "id": "80-otus-sunia-v7",
+      "archive": "c459a32f19b538bc2d39318f2636be030e8ddb87",
+      "verified": "507c5cd94e5257bfddcc8aeae7a2224cc464391c",
+      "ledger": "102a7fdaacebeab053122c367d063bb4df2207c1",
+      "run": "owl-pet/production/runs/20261126T1630Z-B2-cycle6-resume1734Z.json"
+    },
+    {
+      "id": "81-otus-scops-v7",
+      "archive": "43b275abac17b9d4759a855f7169a1ef80a9fbce",
+      "verified": "8270843bdc5d34ad0381d9c18b1d270e2e543e19",
+      "ledger": "40503bf8b8b697fb9968a344c6767404f399f2da",
+      "run": "owl-pet/production/runs/20261126T1734Z-B2-cycle1-resume1734Z.json"
+    },
+    {
+      "id": "82-otus-senegalensis-v7",
+      "archive": "30298650ac7f35c7b68582173209cb155b7c5605",
+      "verified": "ce573e3e0174fef4cbbc02a45c0336c938644e04",
+      "ledger": "0175c9a020e917460f8bf2590b0edb652ba2d5bd",
+      "run": "owl-pet/production/runs/20261126T1734Z-B2-cycle2-resume1734Z.json"
+    },
+    {
+      "id": "84-otus-bakkamoena-v10",
+      "archive": "27106da6b207f7db8270638f9f149bd9e35e8c13",
+      "verified": "014e0b48b4692a40e8f949e808fa1165dc4420ed",
+      "ledger": "2387236ef12a5f042c4ec60f4c1e82f5ee169443",
+      "run": "owl-pet/production/runs/20261126T1734Z-B2-cycle3-resume1734Z.json"
+    }
+  ],
+  "audit": [
+    {
+      "id": "78-asio-capensis-v7",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T17:36:12.534Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T17:37:29.152Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T17:39:22.604Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T17:39:43.506Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T17:39:50.804Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-26T17:40:22.258Z"
+        }
+      ],
+      "wait": 68.444,
+      "errors": [
+        {
+          "at": "2026-11-26T17:39:22.604Z",
+          "step": "IMAGE_GENERATED persistence",
+          "error": "exec stdout silently truncated base64 to1048607 chars; first blob invalid. Replaced using eight bounded chunks length3709188 before ARCHIVED/VERIFIED. No cycle credited."
+        },
+        {
+          "step": "ledger fetch",
+          "error": "contents API twice Transport closed on3.96MB ledger; fetch_file returned empty content; exact immutable raw GET recovered JSON via8 bounded localchunks. No lost credit."
+        },
+        {
+          "step": "phase log",
+          "error": "Execution store loads cloned objects, earlier cumulative phases omitted in later record; reconstructed from real immutable stage commits above, not fabricated times."
+        }
+      ]
+    },
+    {
+      "id": "79-otus-lettia-v7",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T17:42:17.544Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T17:42:22.719Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T17:44:28.101Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T17:44:31.779Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T17:44:41.510Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-26T17:45:03.840Z"
+        }
+      ],
+      "wait": 39.322,
+      "secondwait": 38.922,
+      "meta": {
+        "bytes": 2689238,
+        "sha256": "1a3f8a6b72c3102f5d595c0292dd8e0da12e75957146668722975c0648cfd16d",
+        "b64len": 3585652,
+        "gitblob": "dec57fc6eef94a31147c81f3ab6c759bdff9d8ea"
+      },
+      "errors": []
+    },
+    {
+      "id": "80-otus-sunia-v7",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T17:45:53.312Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T17:45:57.866Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T17:47:01.999Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T17:47:05.011Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T17:47:12.662Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-26T17:47:50.048Z"
+        }
+      ],
+      "wait": 34.999,
+      "meta": {
+        "bytes": 2890573,
+        "sha256": "0ed6fc0bb9a5a01f3348a11ec87989a9e9e89421a68be7dbaa8bfa0ce8dcafdb",
+        "b64len": 3854100,
+        "gitblob": "01a5141fba09d5897dbd5a30c4173b50c5c2ecde"
+      },
+      "errors": []
+    },
+    {
+      "id": "81-otus-scops-v7",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T17:48:34.335Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T17:48:38.520Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T17:49:41.086Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T17:49:44.317Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T17:49:51.826Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-26T17:50:05.446Z"
+        }
+      ],
+      "wait": 35.921,
+      "meta": {
+        "bytes": 2953858,
+        "sha256": "ec80f611d0ca76f02545f2bf898c3bd5e49bc7a17f0faeff23c7cf446fbe6d91",
+        "b64len": 3938480,
+        "gitblob": "f9f0b69922ae5e8881592e52ef0aa75a99d4cb61"
+      },
+      "errors": []
+    },
+    {
+      "id": "82-otus-senegalensis-v7",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T17:50:58.322Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T17:51:04.900Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T17:52:25.037Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T17:52:27.971Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T17:52:37.851Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-26T17:52:52.191Z"
+        }
+      ],
+      "wait": 36.349,
+      "meta": {
+        "bytes": 2848704,
+        "sha256": "760a6b1803a07934c0739e6f971d472435ceb6087fa37d78dfa742bd04d42d21",
+        "b64len": 3798272,
+        "gitblob": "94746a4e354976be2b65d3a82e8af6b812d0f7b1"
+      },
+      "errors": [
+        {
+          "step": "RESEARCH_READY commit",
+          "error": "GitHub GraphQL transient internal error2026-11-26T17:51:09Z request0565:3268F:721602:1640EC9:6B08718C; main checked start82commit only; retry without regenerate."
+        },
+        {
+          "step": "source retrieval",
+          "error": "1986PDF local403/screenshotplaceholder, missinglocalimage; 1987publisher403. No fresh primary fullread claim."
+        }
+      ]
+    },
+    {
+      "id": "84-otus-bakkamoena-v10",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T17:53:25.419Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T17:53:30.010Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T17:54:35.889Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T17:54:39.212Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T17:54:47.808Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-26T17:55:13.031Z"
+        }
+      ],
+      "wait": 42.345,
+      "meta": {
+        "bytes": 2844604,
+        "sha256": "b5405fc6de58170c3cb2beb137749c214a2be3dd8c8d6c28cebc21a50d56879e",
+        "b64len": 3792808,
+        "gitblob": "b63131d31f62e82bf4abed09e2bdde676940e0cc"
+      },
+      "errors": []
+    }
+  ]
+}

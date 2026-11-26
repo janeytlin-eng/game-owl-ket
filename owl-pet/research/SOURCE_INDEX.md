@@ -7903,3 +7903,11 @@ SourceIDs: ELE-BIRD-RESEARCH-NEWS-2011-P1-2, WHSO-MIKKOLA-2013; new0, reuse2. Fr
 
 ## 2026-11-27 run2030 reuse 93-aegolius-harrisii-v6
 SourceIDs: HAR-BODRATI-ETAL-2019-REREAD, WHSO-MIKKOLA-2013; new0, reuse2. Freshread facts/pages/limitations/fullprompt: [research](species/93-aegolius-harrisii-v6.md); [review](reviews/93-aegolius-harrisii-v6-review.md). No duplicate source counted.
+
+
+### PKOE-PEREIRA-LUCINDO-2013-P123-127 — existing bibliography restored
+PereiraG.F./LucindoA.daS.2013; Pulsatrix koeniswaldiana ocorrência e nidificação em um reflorestamento misto em Bauru SP Brasil; RevInstFlor25(1):123–127. Original https://rif.emnuvens.com.br/revista/article/download/425/398/397 ; primaryfieldnote, access2026-11-27. Actualpp123–126read: samepair2010/2011treecavity8m, whitishyoung/darkdisc, Octoberoutsidecavityperch; inferredfiveweekcalendarincubationnotindividualage. Regionalmixedreforestation; no firstflight/datedfeathermaps. Supportsageunknownpostcavitybranchconcept, notexact35dlabel. Existingv6referencenewcentralentry/restoration1, notnewsourcecount. [94v7research](species/94-pulsatrix-koeniswaldiana-v7.md) [review](reviews/94-pulsatrix-koeniswaldiana-v7-review.md).
+
+
+## 2026-11-27 run2030 reuse 94-pulsatrix-koeniswaldiana-v7
+SourceIDs: PKOE-MENQ-2018, PKOE-PEREIRA-LUCINDO-2013-P123-127, WHSO-MIKKOLA-2013; new0, reuse3. Freshread facts/pages/limitations/fullprompt: [research](species/94-pulsatrix-koeniswaldiana-v7.md); [review](reviews/94-pulsatrix-koeniswaldiana-v7-review.md). No duplicate source counted.

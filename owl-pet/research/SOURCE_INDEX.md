@@ -7747,3 +7747,6 @@ Correction 20261126T1427Z: preceding52v7 tail-revision entry is a REJECTED dupli
 
 ### 2026-11-26 51-strix-rufipes-v8
 新0/复用3；图鉴333/PDF335成年实物照片实际像素查看升级1，SIMBIO原文重读；已读MMA2015 PDF为外部补查线索（是否已有条目另审），不将其强调性别羽色的强断言推翻图鉴浅色雄鸟照片。v8针对v7残余网格，不换幼鸟。 [facts/fullprompt](species/51-strix-rufipes-v8.md).
+
+
+#51v8 source accounting: new RLO-MMA-RCE-2015, ChileMMA2015-12-01 originalPDF pp1–2/4 read; oldsynonyms/forestfacts useful, strongsexcolourstatement conflicts with guide pale-malephoto so no universal sexcolour rule. URL https://clasificacionespecies.mma.gob.cl/wp-content/uploads/2019/10/Strix_rufipes_12RCE_FIN.pdf . Full limits [51v8](species/51-strix-rufipes-v8.md). New1/reuse3; photographicreadingupgrade1.

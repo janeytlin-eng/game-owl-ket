@@ -4,7 +4,7 @@
   "owner": "owl-production-20261126T2030Z",
   "run_id": "20261126T2030Z",
   "started_at": "2026-11-26T20:41:54.511Z",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "STARTED",
@@ -26,6 +26,15 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-26T20:43:22.340Z"
+    },
+    {
+      "stage": "VERIFICATION_EVIDENCE",
+      "at": "2026-11-26T20:43:45.069Z",
+      "evidence": "Both immutable originals/concepts full bytes SHA256/PILdecode passed; research/review readback passed"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-26T20:43:45.069Z"
     }
   ],
   "target": "93-aegolius-harrisii-v6",
@@ -49,5 +58,7 @@
     "gitblob": "9828c4f0369a2b81848be7bcc532ef9b1712e220"
   },
   "imagegen_wait_seconds": 34.511,
-  "review": "Actualv5/v6full viewed: centralSTUDYREFERENCEDNESTLING/footerreadable, current93taxon/locality/adultlabels retained. Youngdevelopingdisc/softshortfoldedwing/residualgreydown/shortconcealedtail/lowtwofootbellywoodchipsupport unchanged; noearlydownhatchlingorflightclaim. Adultplainorangebuffventrum/darkroundface/yelloweyes/palebill/wingpalespots/twotailbars/near-equalheight retained, schematicdeadgarapacutawaynotliteraldoorsize. Annotation-onlyPASS_WITH_LIMITATIONS/sciencefalse/no newconfirmation. Primaryp153–15424dspotdevelopmentstrongerthanoldguidep447unknown/unspottedbackgeneric; no unsupportedpatternerasure. Exactage/sex/firstflight/tracts/toegeometrystillunknown."
+  "review": "Actualv5/v6full viewed: centralSTUDYREFERENCEDNESTLING/footerreadable, current93taxon/locality/adultlabels retained. Youngdevelopingdisc/softshortfoldedwing/residualgreydown/shortconcealedtail/lowtwofootbellywoodchipsupport unchanged; noearlydownhatchlingorflightclaim. Adultplainorangebuffventrum/darkroundface/yelloweyes/palebill/wingpalespots/twotailbars/near-equalheight retained, schematicdeadgarapacutawaynotliteraldoorsize. Annotation-onlyPASS_WITH_LIMITATIONS/sciencefalse/no newconfirmation. Primaryp153–15424dspotdevelopmentstrongerthanoldguidep447unknown/unspottedbackgeneric; no unsupportedpatternerasure. Exactage/sex/firstflight/tracts/toegeometrystillunknown.",
+  "archive_commit": "8a9a814bd409f694862111f2759b29e28baa660c",
+  "ended_at": "2026-11-26T20:43:45.069Z"
 }

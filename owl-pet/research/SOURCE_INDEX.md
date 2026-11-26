@@ -7476,3 +7476,7 @@ New0/reused5 publications: POWERFUL-MV-2026 actualbody, POWERFUL-ABSA-2019 actua
 
 ## 2026-11-26 #71v7 source clock/status disclosure
 New0/reused3 BARK-ABSA-2020 actualp1, WHSO-MIKKOLA-2013 actualprinted452/PDF454, BARK-BULLOCK-2026-P172-184 actualpublisherabstract only; fullPDFinaccessibleagain, priorv5fullreadingretainedexplicitly. Day30play is AFTERfledging, nothatch; wings/taillegitimatephasepreserved. [Metadata/URLs/actualreadscope/limits/prompt](species/71-ninox-connivens-v7.md). Annotationonly/sciencefalse.
+
+
+## 2026-11-26 #202v5 juvenile colour-zone restoration
+New0/reused3 existingPBBO publications/records; PBBO-SHARPE-1878-P359 actualoriginalboundvolumeOCRbody recovered at https://archive.org/download/mittheilungenaus31878kzoo/mittheilungenaus31878kzoo_djvu.txt (scan403/tooLarge,ArchivePDF503, nofreshscanclaim). Printed359species17Andei1873young chestslightrufous/abdomen-centerrufous, notadjacenthypogramma. PBBO-MIKKOLA-2013-P484 uploaded484/PDF486actual; PBBO-ITIS-555487 priorrecordonly. Fullmetadata/access/limits/prompt [v5](species/202-ninox-theomacha-v5.md). Newbiologicalpublication0, retrievalscopeupgrade1; sciencefalse.

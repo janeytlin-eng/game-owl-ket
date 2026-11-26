@@ -4,7 +4,7 @@
   "owner": "20261126T1030Z",
   "run_id": "20261126T0945Z-cycle4-resume1030Z",
   "started_at": "2026-11-26T10:34:19.634Z",
-  "stage": "REVIEWED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "STARTED",
@@ -25,6 +25,16 @@
       "stage": "REVIEWED",
       "at": "2026-11-26T10:37:02.843Z",
       "evidence": "Actualv5/newv6wholeplate and enlargedbothtailcrop viewed. Adultpalerowsnowbrokenacrosscentralbrownspines ratherthancontinuousfullwhitebars; roughlysixrows notmeasureduniversalcount. Exactcolour/feathermap/rowposition stillunverified. Juvenileplaincrown/formedwing/branchsupport andadultspots/falseeyes/feet/size retained. Ageunknown/sciencependingreadablewholeimage. PASS_WITH_LIMITATIONS/sciencefalse. Tail-edit appliesadultselecteddepictiononly; youngtailnotrewrittenusingadultcount; ORIbroadgnomayoungwordingdoesnotrestoremesoptileheadspots."
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-26T10:37:22.816Z",
+      "commit_sha": "7e397f75640f7c59bac5bd9ee837f223cde4f11c"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-26T10:37:22.816Z",
+      "evidence": "originals VERIFIED 2916783\nconcepts VERIFIED 2916783\n; localGitblobmatched/researchreviewimmutable readback"
     }
   ],
   "scientifically_verified": false,
@@ -40,5 +50,7 @@
     ],
     "b64len": 3889044
   },
-  "generation_seconds": 41.626
+  "generation_seconds": 41.626,
+  "ended_at": "2026-11-26T10:37:22.816Z",
+  "archive_commit": "7e397f75640f7c59bac5bd9ee837f223cde4f11c"
 }

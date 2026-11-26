@@ -7581,3 +7581,7 @@ Reuse GHOW-CPW-PHYSICAL-2026 freshPhysicalbody; GHOW-HOFFMEISTER-SETZER-1947 pri
 
 ### 2026-11-26 15-strix-varia-v7 audit
 Reuse BARO-DUNCAN-2024-CFN publisherAbstract and BARO-DUNCAN-2024-SUPP PDFp2caption/p7TableS6 actualtextread, SAMEpublication not2papers; MIKKOLA2013 printed346–347historicalonly. Artwork not directlydated; replace~26d label with unknown. New0/reuse3locators(2publications); no morphologyvalidation. [Fullprompt/facts](species/15-strix-varia-v7.md).
+
+
+### 2026-11-26 16-strix-occidentalis-v7 audit
+Reuse existing NSO-CDFW-BIOLOGY-2026 (original Biology freshly read), NSO-FORSMAN (1976 OSU thesis original Abstract PDF4–5, printed78–79/Fig8 PDF108–109 and printed82/Table15 PDF112 freshly extracted). Fig8 genuinely documents a ten-days-postfledging reference; remove numerical age from generated bird only because individual/feather-map equivalence unverified, not because reference lacks such a stage. Retain legitimate formed wing/mesoptile, pink cere and branch support; bill-colour conflict remains. MIKKOLA-2013 printed342/344 historical v6 reading reused, no fresh guide access. New0/reused3 locator IDs; same book not new source. No scientific pass. [Fullprompt/facts](species/16-strix-occidentalis-v7.md).

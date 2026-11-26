@@ -4,7 +4,7 @@
   "owner": "owl-production-20261126T2130Z",
   "run_id": "20261126T2130Z",
   "started_at": "2026-11-26T21:46:00.346Z",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "STARTED",
@@ -26,6 +26,15 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-26T21:47:13.020Z"
+    },
+    {
+      "stage": "VERIFICATION_EVIDENCE",
+      "at": "2026-11-26T21:47:35.707Z",
+      "evidence": "Both immutable originals/concepts full bytes SHA256/PILdecode passed; research/review readback passed"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-26T21:47:35.708Z"
     }
   ],
   "target": "98-strix-chacoensis-v7",
@@ -47,5 +56,7 @@
     "gitblob": "9a9fdce01a9f3b2d511f360c53db83fea271dc50"
   },
   "imagegen_wait_seconds": 34.952,
-  "review": "Actualv6/v7 fullplates read against original NBO2013body+guidep336. Bothadultbills now muted horn-grey/brown nearbase gradingto yellowtip ratherthan solidyellow; samebeakshape/malefroggrip preserved. BroaderNBOyellowishbill and guidespecificbase/tip compatible qualitative descriptions, not calibratedcolourproven. Adultdarkiris/paleconcentricface/barredventrum/sparsecream-tarsalmarks/proximaltoefeathers/reddishhornclaws-darktips/twofootgrips/nearequalscale retained. Centralyoung unchangedveryfluffygreybuff/palegreyface/darkeyes/compactwing/shorttail/fullfootgrip, age/flight/barepartcolour/stage unresolved; curls not newclaim. Textnowageunknown/pendinglegible; no extraanimal/nest. PASS_WITH_LIMITATIONS/sciencefalse/noapproval. Lesson: narrowadultbase/tip colour edit can retain tip/shape in thisplate; do not import to young or#97bill."
+  "review": "Actualv6/v7 fullplates read against original NBO2013body+guidep336. Bothadultbills now muted horn-grey/brown nearbase gradingto yellowtip ratherthan solidyellow; samebeakshape/malefroggrip preserved. BroaderNBOyellowishbill and guidespecificbase/tip compatible qualitative descriptions, not calibratedcolourproven. Adultdarkiris/paleconcentricface/barredventrum/sparsecream-tarsalmarks/proximaltoefeathers/reddishhornclaws-darktips/twofootgrips/nearequalscale retained. Centralyoung unchangedveryfluffygreybuff/palegreyface/darkeyes/compactwing/shorttail/fullfootgrip, age/flight/barepartcolour/stage unresolved; curls not newclaim. Textnowageunknown/pendinglegible; no extraanimal/nest. PASS_WITH_LIMITATIONS/sciencefalse/noapproval. Lesson: narrowadultbase/tip colour edit can retain tip/shape in thisplate; do not import to young or#97bill.",
+  "archive_commit": "f64cb41bfd07aa9dbd7782ec125444caeb22f98c",
+  "ended_at": "2026-11-26T21:47:35.707Z"
 }

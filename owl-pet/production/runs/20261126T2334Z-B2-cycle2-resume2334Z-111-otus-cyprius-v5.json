@@ -5,16 +5,34 @@
   "target": "111-otus-cyprius-v5",
   "action": "SCIENCE_REVISION",
   "started_at": "2026-11-26T23:51:01.261Z",
-  "stage": "STARTED",
+  "stage": "RESEARCH_READY",
   "stages": [
     {
       "stage": "STARTED",
       "at": "2026-11-26T23:51:01.261Z"
+    },
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-26T23:51:49.550Z"
     }
   ],
   "errors": [],
   "scientifically_verified": false,
   "unique_species_increment": 0,
   "revision_increment": 1,
-  "run_record": "owl-pet/production/runs/20261126T2334Z-B2-cycle2-resume2334Z-111-otus-cyprius-v5.json"
+  "run_record": "owl-pet/production/runs/20261126T2334Z-B2-cycle2-resume2334Z-111-otus-cyprius-v5.json",
+  "source_ids": [
+    "CYSO-MIKKOLA-2013-P122-123",
+    "CYSO-SOUNDAPPROACH-2013PHOTOS",
+    "CYSO-IEZEKIEL-ETAL-2021",
+    "CYSO-BIRDLIFE-CYPRUS-2026"
+  ],
+  "source_new": 0,
+  "source_reuse": 4,
+  "source_corrected": 1,
+  "index_note": "Corrected2021 actualpublicationtitle sameDOI, publisherMethods2 weeklyvisits/midpointdating, noindividualfirstflight. SoundApproach currentbookURL71–87 actualdatedfieldbody, BirdLife135–145 habitat, guide122–123 oldbroadscopsboundaries freshlyread. Annotationage/flightonly, no newmorphologyclaim.",
+  "full_prompt": "Use case: precise-object-edit\nAsset type: owl-pet Cyprus Scops Owl concept plate siblingv5\nInput image: Image1 target111-otus-cyprius-v4.png.\nPrimary request: replace only centre bottom \"FLEDGED JUVENILE\" caption with two centred readable lines in the same existing black serif typeface: \"FLEDGED JUVENILE · AGE UNKNOWN\" and below smaller \"FLIGHT ABILITY UNVERIFIED\". Fit within the existing cream bottom label band without covering feet or adult labels.\nConstraints: preserve title exactly \"111 CYPRUS SCOPS OWL · Otus cyprius\", adult labels and their positions, all three birds' anatomy/plumage/eyes/bills/tufts/toes/tails/wings, adult near-equal scale, central begging pose with open beak and secure two-foot olive-branch contact, entire olive grove/pine-edge background and lighting. Annotation clarification only. Do not assign day-age, independence or flight competence from the word fledged. Do not add nest/cavity/eggs/prey, border, decorations or watermark.",
+  "research": "# #111 Otus cyprius v5 — fledged label is not an age or flight measurement\n2026-11-27Asia/Shanghai. Annotationrevision, v1–v4preserved, sciencefalse. CurrentOtuscyprius; guide2013 oldOtusscopscyprius. Agreed251unchanged.\n## Actualread / indexreuse\n- CYSO-SOUNDAPPROACH-2013PHOTOS, MagnusRobb/TheSoundApproach with JohannesHonoldrecordings/RenéPopphoto metadata, 2013fieldsequence; currentchapter https://books.soundapproach.co.uk/species/cyprus-scops-owl/ . Body71–87 read: dependentbeggingyoung fed21June2013 and fledgedyoung27June2013 Lefkaraolivegrove. Supports post-nest begging/support context; no hatchdate or individual sustainedflight test. Pixelsnotnewlyviewed. OldrootURL inaccessible, currentbookURLworks.\n- CYSO-IEZEKIEL-ETAL-2021, Iezekieletal2021-06-14, actualpublisher title Endemic Cyprus Scops Owl Otus cyprius Readily Breeds in Artificial Nest Boxes, Animals11(6):1775 DOI10.3390/ani11061775, https://www.mdpi.com/2076-2615/11/6/1775 . Methods2 lines223–226 weeklyvisits with interval-midpoint eventdates. No feather-age clock or individualfirstflight proof. Indexoldtitleincorrect, corrected with historyretained, sameDOI no newpublication. PMCcaptcha blocked, publisherbodyread.\n- CYSO-BIRDLIFE-CYPRUS-2026, BirdLifeCyprus institutional speciespageundated, https://birdlifecyprus.org/cyprus-scops-owl/ actual135–145: currentname, olive/coniferholes and boxes, olivegrove/forest/farm context, noindividualyoungstage. Habitatonly.\n- CYSO-MIKKOLA-2013-P122-123 / WHSO-MIKKOLA-2013, actualuserguideprinted122–123/PDF124–125 textreopened. Cyprius oldsilvergreyrace; broadscops juvenilefluffier and vermiculated. Broadcomplex female mass notCyprius height rule; no transfer of genericmeasurements tocurrentislandspecies.\n## Actualv4 review / decision\nFullv4 opened: three securebirdsonolivebranch, darkstreakedspottedadults, shorttufts/yelloweyes/greybills; centralbeggingyoungcompactformedwing/shorttail/residualfluff. No new demonstrated anatomicalfault. FLEDGED JUVENILE alone can be mistaken for measured flight competence; label adds AGE UNKNOWN / FLIGHT ABILITY UNVERIFIED. This is only image-visible uncertainty clarification, not newsciencevalidation.\n## Retainedlimits\nSexheight/individualage/irisandfeathersequence/independence/firstflight unknown; displayingperchcontact andbegging doesnotshowflight. No nestscene or fabricatedmaterials. New0/reuse4/correctedtitle1. Oldmorphology acceptedonly aspreviouslimitedconceptreview, notnewphoto-calibration.\n",
+  "research_record": "owl-pet/research/species/111-otus-cyprius-v5.md",
+  "review_record": "owl-pet/research/reviews/111-otus-cyprius-v5-review.md"
 }

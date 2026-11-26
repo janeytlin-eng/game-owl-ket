@@ -8037,3 +8037,13 @@ Title Bearded Screech-Owl (Megascops barbarus) in Guatemala; Knut Eisermann & Cl
 
 ## 2026-11-27 2334Z — 110-megascops-barbarus-v7
 Sources MIKKOLA-2013; BSO-OWLING-LOCKSHAW-2018; BSO-CAYAYA-2026-FIELD-ACCOUNT. New 1, reused 2. Fresh uploaded214/PDF216 Juvenile says narrow indistinct eyebrows/no visibletufts; actualOwlingfieldbody142–155 adultfeet/habitat, notyoungdata. CAYAYAresearcher26–34/46 actualbody adds datedaccess/name/morphscope, metadataonly. New centralindexwebpage1 (publicationdateunknown), no newpaperclaim. Youngbrowonly; adultpinktoefixpreserved. [Facts, source scope, full prompt](species/110-megascops-barbarus-v7.md); [actual review](reviews/110-megascops-barbarus-v7-review.md).
+
+
+### Correction2026-11-27 — CYSO-IEZEKIEL-ETAL-2021 (same DOI; no new source)
+Publisher actual title is **Endemic Cyprus Scops Owl Otus cyprius Readily Breeds in Artificial Nest Boxes**, Savvas Iezekiel, Reuven Yosef, Constantinos Themistokleus, Dimitrios E.Bakaloudis, Christos G.Vlachos, Andreas Antoniou, Eandas Iezekiel, Malamati A.Papakosta & Jakub Z.Kosicki; 2021-06-14; Animals11(6):1775; https://doi.org/10.3390/ani11061775 / https://www.mdpi.com/2076-2615/11/6/1775 . Previous index title “Nest-Box Occupancy by the Cyprus Scops Owl in Different Habitats” is inaccurate and superseded here; old text retained as correction history. ActualpublisherMethods2 lines223–226 read: weekly visits and interval-midpoint event dating; no controlled first-flight test or known-age feather series. Relevant scope Cypruscyprius2015–2018Paphos artificialboxes. Highconfidence title/method, limited individualage resolution. [111v5 record](species/111-otus-cyprius-v5.md). PMCbrowsercheck blocked but publisherbody accessible. Sourcecorrected1/new0.
+### URL update — CYSO-SOUNDAPPROACH-2013PHOTOS
+Current full chapter https://books.soundapproach.co.uk/species/cyprus-scops-owl/ replaces inaccessible root slug thisrun. Original2013 field recordings/captions71–87 actuallyread: dependent begging young fed21June, fledgedjuveniles27June, no hatchage or sustainedflight threshold. No freshphoto pixels claimed. Same source, no duplicate publication counted.
+
+
+## 2026-11-27 2334Z — 111-otus-cyprius-v5
+Sources CYSO-MIKKOLA-2013-P122-123; CYSO-SOUNDAPPROACH-2013PHOTOS; CYSO-IEZEKIEL-ETAL-2021; CYSO-BIRDLIFE-CYPRUS-2026. New 0, reused 4. Corrected2021 actualpublicationtitle sameDOI, publisherMethods2 weeklyvisits/midpointdating, noindividualfirstflight. SoundApproach currentbookURL71–87 actualdatedfieldbody, BirdLife135–145 habitat, guide122–123 oldbroadscopsboundaries freshlyread. Annotationage/flightonly, no newmorphologyclaim. [Facts, source scope, full prompt](species/111-otus-cyprius-v5.md); [actual review](reviews/111-otus-cyprius-v5-review.md).

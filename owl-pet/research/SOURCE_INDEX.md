@@ -7727,3 +7727,7 @@ New0/reuse3. Externaloriginalspecialistaccount reread, guideprinted324freshread;
 
 
 Correction 20261126T1427Z: preceding52v7 tail-revision entry is a REJECTED duplicate-ID attempt, not replacement of existing52v7. Previous52v7 research/original restored exactly; olderyoungphoto-stage record remains authoritative. Attempt preserved, no credit. Continue52v8 fromactualexistingv7; never regeneratewhiteyoung.
+
+
+### 2026-11-26 52-strix-hylophila-v8
+新0/复用4，旧v7原始摄影来源按其研究记录历史复用；本次只成年尾纹、保留v7较大幼鸟。误选v6导致duplicate-ID尝试已拒绝/不计轮，旧v7研究和原图精确恢复。 [full facts and prompt](species/52-strix-hylophila-v8.md).

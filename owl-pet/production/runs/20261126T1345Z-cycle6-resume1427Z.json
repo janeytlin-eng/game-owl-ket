@@ -4,7 +4,7 @@
   "owner": "20261126T1427Z",
   "run_id": "20261126T1345Z-cycle6-resume1427Z",
   "started_at": "2026-11-26T14:35:31.665Z",
-  "stage": "IMAGE_GENERATED",
+  "stage": "RESEARCH_READY",
   "stages": [
     {
       "stage": "STARTED",
@@ -19,6 +19,11 @@
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-26T14:38:28.891Z",
       "blob": "9fc9ea4fe19132c42d9f2cbe5747389942494894"
+    },
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-26T14:39:30.503Z",
+      "evidence": "Actual latestv7 verified: preserve photographer-supported older mesoptile; adult tails still broad pale bars. Tail-only change using v7 rather than rejectedv6 selection."
     }
   ],
   "errors": [
@@ -27,7 +32,7 @@
       "detail": "Selected v6 without checking latest manifest; existing52v7 detected after generated-original checkpoint. No concept/credit written. Restore any pre-existing original blob before continuing; retain new attempt under unique rejected name. Do not count duplicate generation."
     }
   ],
-  "target": "52-strix-hylophila-v7",
+  "target": "52-strix-hylophila-v8",
   "meta": {
     "bytes": 2507607,
     "sha256": "a1a04fac381a520a386e932c6fc0c277edeaa2ccdadb3528e879efdfc221743b",

@@ -4,7 +4,7 @@
   "owner": "20261126T1030Z",
   "run_id": "20261126T1045Z-cycle2-resume1030Z",
   "started_at": "2026-11-26T10:47:37.696Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,9 +14,26 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T10:48:29.699Z",
       "evidence": "Prior lead PSOW-CLANCEY-1980-P96-LEAD now body recovered at p96/PDF10. Historical diurnum single juvenile does not universally validate subspecies/iris or exact recent-fledgling phase. v7 actual viewed: selected guide-like yellow young iris/plain crown remain; qualify label to age-unknown juvenile."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T10:49:38.903Z",
+      "blob": "b49992bd695b81c4227f23269f24ac9017e11e62",
+      "bytes": 2640040
     }
   ],
   "scientifically_verified": false,
   "errors": [],
-  "target": "28-glaucidium-perlatum-v8"
+  "target": "28-glaucidium-perlatum-v8",
+  "meta": {
+    "bytes": 2640040,
+    "sha256": "aa63d010a2cfb4728de2520051c9cb08f6f89b24bc6e45d3fbd71a6eff93b4d0",
+    "gitblob": "b49992bd695b81c4227f23269f24ac9017e11e62",
+    "size": [
+      1536,
+      1024
+    ],
+    "b64len": 3520056
+  },
+  "generation_seconds": 37.574
 }

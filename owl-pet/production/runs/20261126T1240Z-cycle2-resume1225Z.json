@@ -4,7 +4,7 @@
   "owner": "20261126T1225Z",
   "run_id": "20261126T1240Z-cycle2-resume1225Z",
   "started_at": "2026-11-26T12:47:45.603Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,9 +14,26 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T12:49:07.832Z",
       "evidence": "v6 adult tarsal correction already effective; no substantiated new anatomy edit. Right juvenile labelled without visible evidence boundary though guide juvenileundescribed. New research corrects chapter locator and withdraws inference adult-feeding→perch ability. Existing juvenile retained ONLY provisional concept; no claim sciencepass or new species."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T12:50:27.417Z",
+      "blob": "962d5f3afb607f5f942d3418e7fe75ae2d357ae9",
+      "bytes": 2473312
     }
   ],
   "scientifically_verified": false,
   "errors": [],
-  "target": "40-glaucidium-nubicola-v7"
+  "target": "40-glaucidium-nubicola-v7",
+  "generation_seconds": 39.073,
+  "meta": {
+    "bytes": 2473312,
+    "sha256": "a6a4e6d03b0b0a6cc7efccb5b623a7fb6ed3bfed58204e3253dc975cc2d26be6",
+    "gitblob": "962d5f3afb607f5f942d3418e7fe75ae2d357ae9",
+    "size": [
+      1536,
+      1024
+    ],
+    "b64len": 3297752
+  }
 }

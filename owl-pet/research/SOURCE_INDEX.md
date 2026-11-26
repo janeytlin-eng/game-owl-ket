@@ -7601,3 +7601,7 @@ ReuseMIKKOLA2013 freshprinted212–213/PDF214–215 (not#17clawcolour), WHSO-ARE
 
 ### 2026-11-26 20-megascops-clarkii-v7 audit
 ReuseBSOW-ASTORGA-2018-P85-89 originalbody freshlyread printed86–88/PDF88–90, dated2017observationnotknownhatchage, mossplatform notuniversalshape. ReuseMIKKOLA2013 freshuploadedprinted217/PDF219; lowerthirdvsphoto-captionoverhalf tarsalextentconflict retained. New0/reused2. v7annotation-only; retainpriorv6mossedit, age/nest/sexlimits visible/sciencefalse. [Full facts/prompt](species/20-megascops-clarkii-v7.md).
+
+
+### 2026-11-26 21-megascops-choliba-v8 audit
+ReuseTSO-ACTA-NESTLING-2017 freshoriginalprinted270–271/PDF2–3 Fig1 body/caption; sourcehatchseries supports formedremiges, notgeneratedexactage or currentgenerictrunkasstudypalm. ReuseMIKKOLA2013 freshprinted218–219/PDF220–221; colourmorphnotsex, sexheightunknown. New0/reuse2; v8annotationonly, generalizedcavityexplicit/sciencefalse. Existingnewcupcorrection retained. No samepaperduplicated. [Full facts/prompt](species/21-megascops-choliba-v8.md).

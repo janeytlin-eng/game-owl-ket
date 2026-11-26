@@ -4,7 +4,7 @@
   "owner": "20261126T1125Z",
   "run_id": "20261126T1045Z-cycle6-resume1125Z",
   "started_at": "2026-11-26T11:35:25.997Z",
-  "stage": "REVIEWED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "STARTED",
@@ -25,10 +25,26 @@
       "stage": "REVIEWED",
       "at": "2026-11-26T11:37:15.265Z",
       "evidence": "实际全图/页脚查看：v7、AGE-UNKNOWN JUVENILE及科学待校准/虹膜日龄比例未知可读。三鸟未见新增器官/悬空；中心冠胸柔散纹保留、成形折翼未按所有幼鸟缩短，双足在宽湿苔枝叉上承托。成人栗色背与黑纵轴、暗绿蜡膜/深角质爪保持，未误套#31蓝蜡膜或#29浅爪。CBC自然洞繁殖有野外观察，但不给这幅幼鸟定龄；不能因图面已归档标科学通过。本轮注释修订，不作新形态发现。"
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-26T11:37:45.681Z",
+      "commit_sha": "1f3dde86d44f9c1894cf155a05292dd419876044"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-26T11:37:45.681Z",
+      "evidence": "originals VERIFIED 2617064\nconcepts VERIFIED 2617064\n; original local Gitblob matched/research review immutable readback"
     }
   ],
   "scientifically_verified": false,
-  "errors": [],
+  "errors": [
+    {
+      "step": "archive ref immediate readback",
+      "at": "2026-11-26T11:37:38.264Z",
+      "error": "Immediate mismatch after push; immutable archive review and fresh ref recovered. No duplicate write/generation."
+    }
+  ],
   "target": "32-glaucidium-castanotum-v7",
   "generation_seconds": 35.977,
   "meta": {
@@ -40,5 +56,7 @@
       1024
     ],
     "b64len": 3489420
-  }
+  },
+  "ended_at": "2026-11-26T11:37:45.681Z",
+  "archive_commit": "1f3dde86d44f9c1894cf155a05292dd419876044"
 }

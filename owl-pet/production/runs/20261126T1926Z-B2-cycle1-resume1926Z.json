@@ -4,7 +4,7 @@
   "owner": "owl-production-20261126T1926Z",
   "run_id": "20261126T1926Z",
   "started_at": "2026-11-26T19:41:47.816Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,6 +14,10 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T19:42:18.684Z",
       "prompt": "Use case: text-localization. Annotation-only edit of supplied #90 AMERICAN BARN OWL Tyto furcata pratincola v5 to sibling v6. Preserve every biological pixel as closely as possible: adult maleleft/femaleright, central standing white-down young with short emerging wings and no exposed developed tail, wood floor with all six feet supported, Texas farm background, light, adult plumage/sex contrast/near-equal scale and title. Replace ONLY central bottom label '~20-DAY JUVENILE' with 'STUDY-REFERENCED NESTLING'. Add a small readable footer in the bottom margin: 'CONCEPT — SCIENTIFIC REVIEW PENDING; INDIVIDUAL AGE / FIRST FLIGHT / SEX RATIO UNVERIFIED'. No other change, no additional objects, no adultifying juvenile wings."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T19:43:24.949Z"
     }
   ],
   "target": "90-tyto-furcata-v6",
@@ -27,5 +31,17 @@
     "ABO-WAGNER2022-P20",
     "FUR-MIK2013-82"
   ],
-  "research_ready_at": "2026-11-26T19:42:18.684Z"
+  "research_ready_at": "2026-11-26T19:42:18.684Z",
+  "meta": {
+    "bytes": 2276318,
+    "sha256": "d0c283c33d0ff8c27f045e1758e6ff15e276abbc23642da0ed0c0e3ff500bcd4",
+    "b64len": 3035092,
+    "size": [
+      1536,
+      1024
+    ],
+    "gitblob": "628a47c0346dc0d6570fa741eb7898f1c7fb5382"
+  },
+  "imagegen_wait_seconds": 36.282,
+  "review": "Actualinputv5/outputv6full viewed: STUDY-REFERENCEDNESTLING and science/individualage-flight-sexratiofooter readable. Centralwhite-downyoungstands twofeet onwoodfloor, shortemergingdarksidefeathers/noadulttail retained; notclaimsP20certification or flight. Adultwhiteheartfaces/darkeyes/creambills, palermale/darkerandmorespottedfemale/near-equalskeletalheight, allgrips/loft/background/layoutretained. Annotation-onlyPASS_WITH_LIMITATIONS/sciencefalse, notnewmorphologyvalidation. Handraisedcontainer-supportedstudy generalstandingcontextnotwildphaseclock; no newFig1photopixelinspection. Rulecandidateappliedandviewed: studycalendar inresearchdoesnotdateeachillustratedindividual; explicitimageboundarynowexportswithart."
 }

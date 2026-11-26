@@ -7625,3 +7625,7 @@ ReuseCFPO-USFS-GTR43-2000-P7 originalDescriptionprinted7–8/PDF13–14 freshrea
 
 ### 2026-11-26 26-glaucidium-siju-v7 audit
 New0/reused2 fresh original-body/guide text. #26 v7 bounded annotation: tentative juvenile iris remains explicitly unverified; primary colour/wing-chord data not deterministic sex key or standing-height rule. Earlier wrong Taenioglaux attribution already withdrawn; current page says Glaucidium. [Full facts/prompt](species/26-glaucidium-siju-v7.md).
+
+
+### 2026-11-26 27-glaucidium-passerinum-v7 audit
+New0/reuse2 fresh body reads. #27 v7 annotation-only keeps v6 face correction, makes age/iris/flight unknown. EGE population-level departure ability not proof of individual flight; no new exact-age illustration. [Full facts/prompt](species/27-glaucidium-passerinum-v7.md).

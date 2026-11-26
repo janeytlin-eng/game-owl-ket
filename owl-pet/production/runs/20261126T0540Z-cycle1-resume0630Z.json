@@ -4,7 +4,7 @@
   "run_id": "20261126T0540Z-cycle1-resume0630Z",
   "owner": "20261126T0630Z",
   "started_at": "2026-11-26T06:29:48.841Z",
-  "stage": "IMAGE_GENERATED",
+  "stage": "REVIEWED",
   "stages": [
     {
       "stage": "STARTED",
@@ -23,10 +23,18 @@
         "original": "owl-pet/design/originals/201-otus-mantananensis-v9.png",
         "imagegen_calls": 1
       }
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-26T06:33:02.004Z",
+      "evidence": "Full image + young/support crop viewed; localized mottling achieved, no added anatomy/scientific claims"
     }
   ],
   "scientifically_verified": false,
   "recovery": "Prior nextcycle had source retrieval failures only; no image to recover. Keep old record unchanged. #25 already archived per main; local historical fd9d70d artifact not found in current workspace, no duplicate creation.",
   "target": "201-otus-mantananensis-v9",
-  "generation_wait_seconds": 33.764
+  "generation_wait_seconds": 33.764,
+  "review_result": "PASS_WITH_LIMITATIONS",
+  "bytes": 2398925,
+  "sha256": "7129e3bee8c5638cf013df93b962c93377dd823f18e1c169d80a8169f1c824c1"
 }

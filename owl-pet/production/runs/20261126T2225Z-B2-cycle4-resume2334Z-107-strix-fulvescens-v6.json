@@ -5,7 +5,7 @@
   "target": "107-strix-fulvescens-v6",
   "action": "SCIENCE_REVISION",
   "started_at": "2026-11-26T23:38:45.595Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,6 +14,10 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T23:40:16.400Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T23:41:22.209Z"
     }
   ],
   "errors": [
@@ -42,5 +46,19 @@
   "full_prompt": "Use case: precise-object-edit\nAsset type: owl-pet natural-history concept plate, sibling v6\nInput image: Image 1 is edit target 107-strix-fulvescens-v5.png and style reference.\nPrimary request: change only the exposed bare skin of the LEFT and RIGHT ADULT birds' toes from pinkish grey to a subtle natural muted yellowish-grey, as described for Strix fulvescens. Keep the claws dusky horn with dark tips, and preserve the existing feather fringe over proximal toe bases.\nConstraints: preserve exactly three birds, dark blackish-brown adult eyes, corn-yellow bills, all head/body/wing/tail plumage and proportions, existing juvenile completely unchanged, all six feet gripping their actual supports, mossy cloud forest, title and labels verbatim, 1536x1024 landscape, established painterly natural-history look. Adult sex height is a neutral display, not a measured ratio. No enlargement or shortening of feet. No blanket feathering of whole toes. No yellow repaint of juvenile feet. No new nest, eggs, prey, birds, watermark or text.",
   "research": "# #107 Strix fulvescens v6 — adult bare-toe palette\nAccess: 2026-11-27 Asia/Shanghai. Revision; all earlier versions preserved. Current name Strix fulvescens; historical Syrnium fulvescens / Strix varia fulvescens. No scope change; science=false.\n## Actual sources and facts\n- WHSO-MIKKOLA-2013, Heimo Mikkola, Owls of the World 2nd edition2013, uploaded guide printed345 / PDF347, Identification/Juvenile, actual text and adult photo page opened. Adults have yellowish bare toes with feathering ending near toe bases and dusky horn claws/darker tips. Female reported heavier by about100g, not a standing-height percentage. Juvenile mesoptile described cinnamon with pale barring; no precise photographed age or flight threshold supplied.\n- FVO-OWLPAGES-2020-L64-75, Deane Lewis, updated2020-10-27, expert secondary species account, https://www.owlpages.com/owls/species.php?s=1730 . Actual Description64–66 read externally: partly feathered proximal toes and yellowish-grey exposed parts; independently agrees with guide. Generic breeding paragraph excluded.\n- S107-CAYAYA-2026 / FVO-EISERMANN-FIELD2026, Eisermann/Avendaño CAYAYA field account, undated, https://www.cayaya-birding.com/species/Fulvous-Owl.htm . Body27–45 read: Guatemala highland habitat, old-name mapping, juvenile photo caption but no exact age/sex/first-flight measurement. Photo pixels not newly read; not counted as morphology calibration.\n## Observed problem and design decision\nActual v5 full PNG viewed: toes on adults appear pinkish grey. Repaint only exposed adult toe skin muted yellowish-grey; retain proximal feathering and dark horn claws. Colour is qualitative design interpretation under scene lighting, not spectrophotometry. The juvenile remains unchanged rather than applying adult evidence to it.\n## Retained boundaries\nBoth adults same morph, near-equal displayed height; no fixed dimorphism formula. Centre is a supported fledgling/older immature, exact age/iris chronology/flight unknown. Shared branch is support, not a documented nest. No nest materials invented. BBOC original timed out this run and historical undescribed-nest record remains historical reuse, not fresh full-paper reading. Source count new0/reused3. No scientific pass or user confirmation.",
   "research_record": "owl-pet/research/species/107-strix-fulvescens-v6.md",
-  "review_record": "owl-pet/research/reviews/107-strix-fulvescens-v6-review.md"
+  "review_record": "owl-pet/research/reviews/107-strix-fulvescens-v6-review.md",
+  "generation_wait_seconds": 34.289,
+  "generation_calls": 1,
+  "edit_calls": 1,
+  "archive_started_at": "2026-11-26T23:41:15.863Z",
+  "image_meta": {
+    "bytes": 2620607,
+    "sha256": "f86fd66461408deeaf182a7b327f0857c84262cfcf30c2b1d74ddc155c185d4a",
+    "git_blob": "5257fe60aeb1a5183021287849835db215d12906",
+    "size": [
+      1536,
+      1024
+    ],
+    "b64len": 3494144
+  }
 }

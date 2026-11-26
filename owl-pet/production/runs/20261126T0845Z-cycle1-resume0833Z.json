@@ -4,7 +4,7 @@
   "owner": "20261126T0833Z",
   "run_id": "20261126T0845Z-cycle1-resume0833Z",
   "started_at": "2026-11-26T08:43:26.876Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,8 +14,23 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T08:44:03.399Z",
       "evidence": "Actualv6 label JUVENILE(~26DAYS) can be mistaken for known age. TableS6 explicitly estimated oldest2016entrancebird~26d, not exact syntheticindividual. Keep entrancepose/youngwing/cavitysupport, expose approximationlimits."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T08:45:08.154Z",
+      "blob": "989ce35f9b54157594494f6fa34e7a50a40988ef"
     }
   ],
   "scientifically_verified": false,
-  "target": "15-strix-varia-v7"
+  "target": "15-strix-varia-v7",
+  "meta": {
+    "bytes": 3067505,
+    "sha256": "4c594e77e4591775fa9019ee826a76a1bf5acebde654e1e25a2ffaa4dae94737",
+    "gitblob": "989ce35f9b54157594494f6fa34e7a50a40988ef",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "generation_seconds": 34.352
 }

@@ -4,7 +4,7 @@
   "owner": "20261126T1528Z",
   "run_id": "20261126T1545Z-cycle2-resume1528Z",
   "started_at": "2026-11-26T15:46:37.837Z",
-  "stage": "IMAGE_GENERATED",
+  "stage": "REVIEWED",
   "stages": [
     {
       "stage": "STARTED",
@@ -19,6 +19,11 @@
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-26T15:49:59.713Z",
       "blob": "3a160c315304c39f76247333ae902ea70d1ee456"
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-26T15:50:17.608Z",
+      "evidence": "Actual full v6 baseline and generatedv7 viewed 2026-11-26. Adult mantles/foldedcoverts now darkbrown without repeatedbroadbufftriangles; featherrelief remains, notflatblack. Banded adult tails remain clearlyvisible. Most closedwing remiges obscuredbycoverts; do NOT claim complete flightfeatherbarcalibration. Juvenile one raisedbarredformedwing and oppositefoldedwing pattern retained, whitebody/darkface/feet cavity support stable. Adult spectacles/throat/chestband/buffbelly/eyes/bills/featheredtoetops/grips/relativeproportions unchanged. PASS_WITH_LIMITATIONS/scientifically_verified=false. Guidep310 and actualOwlPagesDescription65 supply plainadultupperpartdirection; Fundinstitutionbodyisbroadercontext, notindependentfinepatternvalidation. Exactyoungage/flightthreshold/finefeathertractstage/universalstandingsizeratio unknown. No further edit justified. Learn: explicitly separate adultcoverts from remiges/rectrices and juvenilecoverts inmaskprompt; this image shows adultcoverts correction whilevisiblejuvenilebars/tailbars retained, notuniversalworkflow proof. New1/reuse3; existingprimaryyoungaction historicalonlywithpageconflictflag."
     }
   ],
   "errors": [],
@@ -29,5 +34,6 @@
     "gitblob": "3a160c315304c39f76247333ae902ea70d1ee456",
     "b64len": 3509172
   },
-  "generation_wait_seconds": 46.3
+  "generation_wait_seconds": 46.3,
+  "review": "Actual full v6 baseline and generatedv7 viewed 2026-11-26. Adult mantles/foldedcoverts now darkbrown without repeatedbroadbufftriangles; featherrelief remains, notflatblack. Banded adult tails remain clearlyvisible. Most closedwing remiges obscuredbycoverts; do NOT claim complete flightfeatherbarcalibration. Juvenile one raisedbarredformedwing and oppositefoldedwing pattern retained, whitebody/darkface/feet cavity support stable. Adult spectacles/throat/chestband/buffbelly/eyes/bills/featheredtoetops/grips/relativeproportions unchanged. PASS_WITH_LIMITATIONS/scientifically_verified=false. Guidep310 and actualOwlPagesDescription65 supply plainadultupperpartdirection; Fundinstitutionbodyisbroadercontext, notindependentfinepatternvalidation. Exactyoungage/flightthreshold/finefeathertractstage/universalstandingsizeratio unknown. No further edit justified. Learn: explicitly separate adultcoverts from remiges/rectrices and juvenilecoverts inmaskprompt; this image shows adultcoverts correction whilevisiblejuvenilebars/tailbars retained, notuniversalworkflow proof. New1/reuse3; existingprimaryyoungaction historicalonlywithpageconflictflag."
 }

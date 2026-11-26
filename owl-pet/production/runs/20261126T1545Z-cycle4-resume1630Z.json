@@ -4,7 +4,7 @@
   "owner": "20261126T1630Z",
   "run_id": "20261126T1545Z-cycle4-resume1630Z",
   "started_at": "2026-11-26T16:30:59.100Z",
-  "stage": "IMAGE_GENERATED",
+  "stage": "REVIEWED",
   "stages": [
     {
       "stage": "STARTED",
@@ -19,6 +19,11 @@
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-26T16:33:22.102Z",
       "blob": "c026a95578ef5f06efbd50ca43398c822163e0f1"
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-26T16:33:49.776Z",
+      "evidence": "Actual v7 baseline and generatedv8 viewed. Both adult crown whiteflecks reduced to darkbrown/warmyellowbrownfeatheredges, eyebrow/lores/face pattern retained. Juvenilewhitecrown/blueiris/formedwingtail/footgrips/hollowfloor unchanged; adultsbody/wingcovertwhitespots/feet/proportions preserved; titlev8 and scientificpendingfooters readable. PASS_WITH_LIMITATIONS, sciencefalse. NominateABSAagingreference informsselectedadultpattern, notuniversalallsubspeciesproof; exactyoungage/flight/depictedsubspecies/quantitativesexratio remainunknown. FeetpinkgreyallowedbyABSA, no automaticrecolour. Lesson: head-agepattern must not be copied fromimmatures toadultlabels; adultcrown-onlycorrection visibly effectivehere, notglobalvalidation."
     }
   ],
   "errors": [],
@@ -30,5 +35,6 @@
     "gitblob": "c026a95578ef5f06efbd50ca43398c822163e0f1",
     "b64len": 3527824
   },
-  "imagegen_edit_wait_seconds": 38.645
+  "imagegen_edit_wait_seconds": 38.645,
+  "review": "Actual v7 baseline and generatedv8 viewed. Both adult crown whiteflecks reduced to darkbrown/warmyellowbrownfeatheredges, eyebrow/lores/face pattern retained. Juvenilewhitecrown/blueiris/formedwingtail/footgrips/hollowfloor unchanged; adultsbody/wingcovertwhitespots/feet/proportions preserved; titlev8 and scientificpendingfooters readable. PASS_WITH_LIMITATIONS, sciencefalse. NominateABSAagingreference informsselectedadultpattern, notuniversalallsubspeciesproof; exactyoungage/flight/depictedsubspecies/quantitativesexratio remainunknown. FeetpinkgreyallowedbyABSA, no automaticrecolour. Lesson: head-agepattern must not be copied fromimmatures toadultlabels; adultcrown-onlycorrection visibly effectivehere, notglobalvalidation."
 }

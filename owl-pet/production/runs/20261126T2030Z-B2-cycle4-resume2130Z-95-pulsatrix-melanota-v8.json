@@ -4,15 +4,27 @@
   "owner": "owl-production-20261126T2130Z",
   "run_id": "20261126T2130Z",
   "started_at": "2026-11-26T21:31:46.741Z",
-  "stage": "STARTED",
+  "stage": "RESEARCH_READY",
   "stages": [
     {
       "stage": "STARTED",
       "at": "2026-11-26T21:31:46.741Z"
+    },
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-26T21:34:14.011Z",
+      "prompt": "Use case: stylized-concept. Create a NEW complete1536x1024 polished naturalistic owl-pet family plate number95 BAND-BELLIED OWL, subtitle Pulsatrix melanota. Image1 adult-only source gives SPECIES/STYLE, no prior generated juvenile is supplied. Image2 is only same-species photographic upper-body DOWN-TEXTURE reference from Mikkola2013p314, an OLDER young: borrow natural directional soft feather texture only, NOT its fully formed wings/tail/phase. Three birds in PeruYungas shade-coffee/plantain remnant forest, on broad mossy Albizia fork (natural substrate, notliteralactive nest). Left adult male/rightadultfemale nearlysameheight (unknownsexratio), darkbrownheads/backs, darkreddish-browneyes, pale yellow bills/greyishcere, white broad spectacles/throat/half-collar, broadbrownchestband, reddish-brown bars oncreamyventrum, featheredtarsi/baregrey-browntoes/hornclawsblacktips, twofootgrips. Center AGE-UNKNOWN DEPENDENT YOUNG: primarily soft CINNAMON down, mottled patchy creamwhite crown transition/darkblackish face/darkbrowneyes/yellowbill, a few tiny emerging chestfeathers but no adult barredbib. Dense softly blended short fine down with gentle directional flecks and subtle irregularclumps, not long curledwires/closedloops/woolringlets or repetitive scallops. Short developing foldedwings largelyveiledbydown, concealedshorttail, low relaxedside-lookingcrouch, BOTH feet andbelly naturally supported by broadfork. Primary2022textsupports thiswhitecrown/cinnamonphase, photographtextureonly doesNOTjustifyadultlengthwings. Exactly3fullowls, allfeet onwood/no duplicateanatomy orartificialnestbowl. Warm naturalisticpetconceptstyleasimage1. REQUIRED first-render labels at bottom y920: ADULT MALE underleft, AGE-UNKNOWN DEPENDENT YOUNG undercenter, ADULT FEMALE underright. Smallerfooter y985 'CONCEPT — SCIENTIFIC REVIEW PENDING; AGE / FIRST FLIGHT / SEX RATIO UNVERIFIED'. Title95/species clear, no other ages or sex ratio claims."
     }
   ],
   "target": "95-pulsatrix-melanota-v8",
-  "errors": [],
+  "errors": [
+    "Fig3image404; correctedURL403; RGoriginalPDF403; publisher503/nonaccessible; no actualFig3pixelsclaim"
+  ],
   "source_new": 0,
-  "source_reuse": 2
+  "source_reuse": 2,
+  "photo_access_upgrade": 1,
+  "source_ids": [
+    "MEL-RIVAS-FUENZALIDA-BURGOS-2022-84-88",
+    "WHSO-MIKKOLA-2013"
+  ]
 }

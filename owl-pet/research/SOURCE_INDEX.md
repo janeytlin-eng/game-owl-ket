@@ -7973,3 +7973,8 @@ Sources HUH-BC2013, HUH-MIK2013-340; sourcefacts/pages/limits and fullprompt [re
 ## 2026-11-27 run2225 103-tyto-longimembris-v7 source reuse
 New0/reuse2 existingpublications: EGO-DUNLOP2016 actualpublisherbody p170–172 / Fig1p171 / Table3p172, EGO-MIK2013-102 uploadedp102. LocalPDF502twice, noactualphotopixels. Captive55dcase ≠ wildfirstflight; face/wing detail explicitlyunverified. Preserveearlierlocatorcorrection, notnewcorrectioncount.
 [Research](species/103-tyto-longimembris-v7.md) / [review](reviews/103-tyto-longimembris-v7-review.md).
+
+
+## 2026-11-27 run2225 101-otus-spilocephalus-v9 source reuse
+New0/reused3: MOSO-NTM-TMAV3451-2026 and MOSO-NTM-TMAV4405-2026 actualinstitutionalrecords/description/measurements read, onefemale+oneunsexed notsexratio; MOSO-MIKKOLA-2013-P148 sameMikkola2013book actualp148/PDF150. Youngirisunknown ratherthan darkirisfact; annotationonly. Oldnames andsubspeciesretain.
+[Research](species/101-otus-spilocephalus-v9.md) / [review](reviews/101-otus-spilocephalus-v9-review.md).

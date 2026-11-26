@@ -4,14 +4,25 @@
   "cycle": 5,
   "target": "101-otus-spilocephalus-v9",
   "started_at": "2026-11-26T22:30:56.730Z",
-  "stage": "STARTED",
+  "stage": "RESEARCH_READY",
   "stages": [
     {
       "stage": "STARTED",
       "at": "2026-11-26T22:30:56.730Z"
+    },
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-26T22:31:01.329Z"
     }
   ],
   "errors": [],
   "source_new": 0,
-  "source_reuse": 2
+  "source_reuse": 3,
+  "annotation_only": true,
+  "source_ids": [
+    "MOSO-NTM-TMAV3451-2026",
+    "MOSO-NTM-TMAV4405-2026",
+    "MOSO-MIKKOLA-2013-P148"
+  ],
+  "full_prompt": "Use case: text-localization, annotation ONLY. Existing #101 Otus spilocephalus v8 plate ALL BIRDS/FEATHERS/COLOURS/ANATOMY/POSES/FOOTGRIPS/HOLLOW/BRANCH/BACKGROUND/STYLE unchanged. Keep exacttitle/adultlabels. Replace center label with 2 lines 'AGE-UNKNOWN IMMATURE' and 'TAIWAN RACE · O. s. hambroecki'. Add smaller creamserif footer y1002 'CONCEPT — SCIENTIFIC REVIEW PENDING; YOUNG IRIS / AGE / FIRST FLIGHT UNVERIFIED'. The darkyoungiris is an unverified designchoice, no colourrepaint allowed without age-specific evidence. No newflight orsexratio claims, no borders/boxes/goldrules/extraobjects. Only typography, all6feet retainnaturalgrips."
 }

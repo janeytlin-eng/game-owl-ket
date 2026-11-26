@@ -1,0 +1,11 @@
+# #101 Otus spilocephalus hambroecki v9 — distinguish unknown iris from evidence
+Access2026-11-27+08. CurrentTaiwanrace/Otusspilocephalus; oldEphialtesHambroecki1870 retained, preservev1–v8/userrecords.
+MOSO-NTM-TMAV3451-2026 NationalTaiwanMuseum institutionalcollection TMAV3451, pageundated/currentaccess, https://collections.culture.tw/ntm_collectionsweb/Collection?GID=MFMQMRMFMNMAMRMLME . Actualbodysections物種/藏品/描述read: femaleonespecimen2012, wing119.3/tail52.7mm notpopulationsexratio. Descriptionadultsexessimilar/yelloweyes/creambill/featheredtarsi/barepinkbrowntoes; youngyellowbrown/vaguemarks sharpenwithage; naturalhollows/forestedge. No youngirisclock oryoungwingmeasurements. Museumcomparisonimagesnotviewed/notusedasjuvenilephotos.
+MOSO-NTM-TMAV4405-2026 sameinstitution https://collections.culture.tw/ntm_collectionsweb/Collection?GID=MSMPMEMRMQMAMRMLME actualbodyread: unsexed2014skinwing138.72/tail80.74mm; comparisonnotsexcontrolled; no inventedfemalelargerdisplayratio.
+MOSO-MIKKOLA-2013-P148 HeimoMikkola2013uploadedguide printed148/PDF150 actualread: shortilldefinedtufts/featheredtarsi oftenovertoebases/juvenilefluffyreddishbrown faintbarredbelow; nosexsizedata. GeographicvariationdoesnotproveTaiwanyoungirisstage.
+## Actual audit/design
+v8fullimage andsavedv8reviewread: no justifiednewmorphologyedit; darkyoungiriswasdesignconvention notknownimmaturestate. Make unresolvediris/age/flight visible, Taiwanrace label explicit, preservevalidsmalltufts/shortsoftyoungwing/concealedtail/footgrips. Naturalhollowillustrative notmeasuredactivebroodcase. New0/reuse3 documents; guidefreshlyaccessible now vs v8oldunavailable record. Annotationonly/sciencefalse/noapproval.
+
+
+## Full imagegen prompt
+Use case: text-localization, annotation ONLY. Existing #101 Otus spilocephalus v8 plate ALL BIRDS/FEATHERS/COLOURS/ANATOMY/POSES/FOOTGRIPS/HOLLOW/BRANCH/BACKGROUND/STYLE unchanged. Keep exacttitle/adultlabels. Replace center label with 2 lines 'AGE-UNKNOWN IMMATURE' and 'TAIWAN RACE · O. s. hambroecki'. Add smaller creamserif footer y1002 'CONCEPT — SCIENTIFIC REVIEW PENDING; YOUNG IRIS / AGE / FIRST FLIGHT UNVERIFIED'. The darkyoungiris is an unverified designchoice, no colourrepaint allowed without age-specific evidence. No newflight orsexratio claims, no borders/boxes/goldrules/extraobjects. Only typography, all6feet retainnaturalgrips.

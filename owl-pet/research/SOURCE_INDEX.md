@@ -7766,3 +7766,7 @@ New0/reused4 stable sources. WHSO-MIKKOLA-2013 p290 and BEOW-SGBIRDS-2026 freshl
 
 ### 2026-11-26 67-pulsatrix-perspicillata-v7
 New1 SPO-PEREGRINE-ACCOUNT-2026, reused3 WHSO-MIKKOLA-2013/SPO-OWLPAGES-CURRENT/SPO-GOMES-ETAL-2011-P4-5. Fresh guidep310 and OwlPagesDescription65 distinguish plain adultcoverts from barredflight/tail and juvenilecoverts; institutionalFundbody freshlyread only broaderhabitat/plumagecontext. Primaryyoungaction reusehistoricalonly with locatorconflict flagged. No global adult-plain rule applied to young. [facts/fullprompt](species/67-pulsatrix-perspicillata-v7.md).
+
+
+### 2026-11-26 68-tyto-tenebricosa-v7
+New1 STYO-OWLPAGES-2020 (URL240), reused3 WHSO-MIKKOLA-2013/GSO-NSWSC-2008/GSO-HYEM-1979-P20-22. Fresh guidep114, NSWreportPDF1–2 and specialistDescription68 read. Avoid GSO-OWLPAGES-2020 collision: existingIDbelongsOtusgurneyi(URL290), retained. UnverifiednewHobcroft1997publishermetadata/PDFlead separatelyscreened, notcountedasverifiedsource. Adultremigesmutedgreyonly; juvenile/tail/coverts retained. One mappingcorrection/collisionavoidance recorded. [facts/fullprompt](species/68-tyto-tenebricosa-v7.md).

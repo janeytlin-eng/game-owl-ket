@@ -1,0 +1,10 @@
+# #103 Tyto longimembris v7 — explicit captive case and unverified facial/wing detail
+Access2026-11-27+08; oldStrixlongimembris/currentTyto retained; Australianreference, preservev1–v6/userhistory.
+EGO-DUNLOP2016 RicDunlop/PhilipPain2016 JZAR4(4):169–173 DOI10.19227/jzar.v4i4.166, https://jzar.org/jzar/article/download/166/117/1250 . Actual original webparsed Methods/Plumage/Fig1caption/Table3 read: p170 unlinedbare-sandscrape underRhodesgrass incaptiveenclosure; p171 richgoldmesoptile55–65d, Fig1female55/69d; p172Table3unsexedtwo-young lacks57dwing/tail. Captiondoesnotcalibratepinkbarefaceextent. Captivehistorynotwildflightdate. LocalPDF www/nonwww502twice, screenshottoolgaveonlytextreference notvisiblepixels; alternateURLattempt pending, no photopixelsclaim.
+EGO-MIK2013-102 HeimoMikkola2013uploadedguide printed102/PDF104 actualread: adultmalewhiteface/paler/slender vs richerfemale, verylongpalefleshbaretarsi/toes/darkblackbrownclaws; sexmassnotheightformula; golden2nddown. Guideadultsextraitsnotyoungcolours.
+## Actual audit/decision
+v6fullview: validadultclawfix/groundsupport preserved; juvenilepinkfaceexactextent lacksaccessiblepixels so markunverified, no speculativepaint. Annotationonly/captivecase/facewingfirstflightpending. Nonewscientificpassoruserapproval. Sourcesnew0/reused2; oldFig1/Table3locatorcorrectionretained. Sourceindexlookup reused not duplicatednewsourceIDs.
+
+
+## Full imagegen prompt
+Use case: text-localization. Edit existing #103 Eastern Grass Owl Tyto longimembris v6 plate, annotation ONLY. Keep ALL bird anatomy/feathers/colour/eyes/bills/feet/poses/wings/longbarelegs/darkadultclaws/juvenilepinkface/groundsupport/grassandsand/style/composition unchanged. Keep title and adult labels. Replace center label with '≈55-DAY MESOPTILE · CAPTIVE CASE' and add smaller cream serif footer y1002 'CONCEPT — SCIENTIFIC REVIEW PENDING; FACE / WING STAGE / FIRST FLIGHT UNVERIFIED'. Do not treat captive55day as wildfirstflight. No maturejuvenilewings, no repaintingpinkskinwithoutactualphoto, no boxes/borders/ornaments/extraobjects. Only requested text, fitwithin1536x1024.

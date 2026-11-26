@@ -7968,3 +7968,8 @@ Legacy SORA file URL redirects to a collection; do not claim it currently opens 
 
 ## 2026-11-27 run2130 reuse 100-strix-huhula-v7
 Sources HUH-BC2013, HUH-MIK2013-340; sourcefacts/pages/limits and fullprompt [research](species/100-strix-huhula-v7.md), actual[review](reviews/100-strix-huhula-v7-review.md). Reuse2 references, new0 documents; not extra source count for repeated citation.
+
+
+## 2026-11-27 run2225 103-tyto-longimembris-v7 source reuse
+New0/reuse2 existingpublications: EGO-DUNLOP2016 actualpublisherbody p170–172 / Fig1p171 / Table3p172, EGO-MIK2013-102 uploadedp102. LocalPDF502twice, noactualphotopixels. Captive55dcase ≠ wildfirstflight; face/wing detail explicitlyunverified. Preserveearlierlocatorcorrection, notnewcorrectioncount.
+[Research](species/103-tyto-longimembris-v7.md) / [review](reviews/103-tyto-longimembris-v7-review.md).

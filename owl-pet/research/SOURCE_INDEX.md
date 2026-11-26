@@ -3458,7 +3458,7 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 
 ### MAG-SANGSTER-2013 — museum-based complex boundary, re-read
 - **Title / authors / year:** “A new owl species of the genus *Otus* from Lombok, Indonesia” / Sangster, King, Verbelen & Trainor / 2013.
-- **DOI / URL:** https://doi.org/10.1371/journal.pone.0053745 ; https://pmc.ncbi.nlm.nih.gov/articles/PMC3564762/
+- **DOI / URL:** https://doi.org/10.1371/journal.pone.0053712 ; https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0053712 (corrected 2026-11-26; prior erroneous DOI0053745/PMC3564762 retained here as correction history)
 - **Locator/read:** specimen comparisons and taxonomic discussion (pp.8–11 in article PDF), directly re-read 2026-11-07.
 - **Species/stage:** *Otus magicus* complex adults; Lombok population boundary.
 - **Facts:** museum comparison of 115 specimens; Lombok birds formerly included in broad *O. magicus* are treated as *O. jolandae*. Adult pattern differences support keeping northern-Moluccan leucospilus separate from the Lombok concept.
@@ -7480,3 +7480,7 @@ New0/reused3 BARK-ABSA-2020 actualp1, WHSO-MIKKOLA-2013 actualprinted452/PDF454,
 
 ## 2026-11-26 #202v5 juvenile colour-zone restoration
 New0/reused3 existingPBBO publications/records; PBBO-SHARPE-1878-P359 actualoriginalboundvolumeOCRbody recovered at https://archive.org/download/mittheilungenaus31878kzoo/mittheilungenaus31878kzoo_djvu.txt (scan403/tooLarge,ArchivePDF503, nofreshscanclaim). Printed359species17Andei1873young chestslightrufous/abdomen-centerrufous, notadjacenthypogramma. PBBO-MIKKOLA-2013-P484 uploaded484/PDF486actual; PBBO-ITIS-555487 priorrecordonly. Fullmetadata/access/limits/prompt [v5](species/202-ninox-theomacha-v5.md). Newbiologicalpublication0, retrievalscopeupgrade1; sciencefalse.
+
+
+### 2026-11-26 #141 v7 — MAG-SANGSTER-2013 locator correction and adult tarsus audit
+Reused canonical publication, no duplicate source. Original DOI in MAG entry was wrong; corrected to0053712, crosslinked RIN-SANGSTER-2013-P8-11. Fresh original publisher body read: Diagnosis: Morphology, contrast to Moluccan forms, adult O.m.leucospilus distal tarsometatarsus bare3–16mm; high confidence for prepared specimens, not juvenile chronology. Sharpe1875 Catalogue vol2 printed73/PDF89 actual local scan/leg diagram and original text (https://wallace-online.org/converted/supplementary/specimens/1875_BMbirds_WSPEC351.2.pdf) corroborate distal bare section; no new juvenile proportion claim. Finsch1898 reused supporting variability. Actual v6 adult feathers run to toe bases; v7 expose short irregular anterior distal segment, no precise live mm inference. Young wing/down retained; exact age/iris/flight/nest unknown. [Research/full prompt](species/141-otus-magicus-v7.md). New0/reuse3/corrected1; corroborating old Catalogue locator added under existing MAG lineage, not another publication count.

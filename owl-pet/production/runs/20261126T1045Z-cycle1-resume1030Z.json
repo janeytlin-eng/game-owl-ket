@@ -4,7 +4,7 @@
   "owner": "20261126T1030Z",
   "run_id": "20261126T1045Z-cycle1-resume1030Z",
   "started_at": "2026-11-26T10:45:36.194Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,9 +14,26 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T10:46:05.447Z",
       "evidence": "Actual v6 plain young crown/white chin/brows good; recent fledgling label alone conceals unknown exact age and flight ability. Explicit uncertainty footer; avoid claiming independent flight from a supported perch."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T10:47:07.595Z",
+      "blob": "687ed9412c9ca5fc0089ed059421fb08c3a1f086",
+      "bytes": 2682210
     }
   ],
   "scientifically_verified": false,
   "errors": [],
-  "target": "27-glaucidium-passerinum-v7"
+  "target": "27-glaucidium-passerinum-v7",
+  "meta": {
+    "bytes": 2682210,
+    "sha256": "9fcd23757939e4951102d4ceafd5e85b8d7fa66d35b24c1b22ba0b06450821a5",
+    "gitblob": "687ed9412c9ca5fc0089ed059421fb08c3a1f086",
+    "size": [
+      1536,
+      1024
+    ],
+    "b64len": 3576280
+  },
+  "generation_seconds": 36.781
 }

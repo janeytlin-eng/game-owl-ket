@@ -7983,3 +7983,8 @@ New0/reused3: MOSO-NTM-TMAV3451-2026 and MOSO-NTM-TMAV4405-2026 actualinstitutio
 ## 2026-11-27 run2225 104-asio-madagascariensis-v6 source reuse
 New0/reuse2 freshdocuments WHSO-MIKKOLA-2013 actualuploadedp509/PDF511 text+twoadultphotos (photoaccessupgrade1 publication) and MLO-FENEROLE2006-MALE gallerymetadataactualread/flashlimit. MLO-RDR-GOODMAN2003 fresh400size/local403 so historicalcaseboundaryonly, NOTneworiginalread. Adultperiocularshade, noyoungtransfer.
 [Research](species/104-asio-madagascariensis-v6.md) / [review](reviews/104-asio-madagascariensis-v6-review.md).
+
+
+## 2026-11-27 run2225 105-ptilopsis-granti-v9 source reuse
+New0/reused2 SWFO-ADW-2014 originalinstitutionalbody PhysicalDescription/Habitat/Reproduction actualread; WHSO-MIKKOLA-2013 uploadedprinted256/PDF258 actualread. Fineadultventralvermiculations qualifier vs shaft-dominantv8; sourceuniterror/juveniletimingexcluded, no youngpaint. Prompt applies prior86overshoot lesson but no effectivenessclaim untilview.
+[Research](species/105-ptilopsis-granti-v9.md) / [review](reviews/105-ptilopsis-granti-v9-review.md).

@@ -7952,3 +7952,11 @@ Sources CRI-MIK2013-358, CRI-BIRDS-BOLIVIA-2026; sourcefacts/pages/limits and fu
 
 ## 2026-11-27 run2130 reuse 98-strix-chacoensis-v7
 Sources CHAO-NBO-2013, WHSO-MIKKOLA-2013; sourcefacts/pages/limits and fullprompt [research](species/98-strix-chacoensis-v7.md), actual[review](reviews/98-strix-chacoensis-v7-review.md). Reuse2 references, new0 documents; not extra source count for repeated citation.
+
+
+## Correction 2026-11-27: MAG-NOVOA-BLANCO-2020-P31-33 / #99 v6
+Fresh original body at https://www.researchgate.net/publication/342751803_First_Report_of_a_Magellanic_Horned_Owl_Bubo_magellanicus_Nesting_in_a_Balcony printed32 explicitly says directly on balcony floor without nesting material. Historical #99v5 source summary saying material was present is erroneous for this case; retain history but DO NOT reuse it. Separate later case photographs do not override this case. Bare supported concrete floor selected for v6; approximately20day figurecaption retained as approximate case stage, no exactflightage. New0 source IDs, corrected1 existing source-to-design assertion; research/species/99-bubo-magellanicus-v6.md.
+
+
+## 2026-11-27 run2130 reuse 99-bubo-magellanicus-v6
+Sources MAG-NOVOA-BLANCO-2020-P31-33, MAG-MIK2013-266; sourcefacts/pages/limits and fullprompt [research](species/99-bubo-magellanicus-v6.md), actual[review](reviews/99-bubo-magellanicus-v6-review.md). Reuse2 references, new0 documents; not extra source count for repeated citation.

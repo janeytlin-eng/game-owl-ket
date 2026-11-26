@@ -4,7 +4,7 @@
   "owner": "20261126T1830Z",
   "run_id": "20261126T1734Z-B2-cycle4-resume1830Z",
   "started_at": "2026-11-26T18:30:55.139Z",
-  "stage": "IMAGE_GENERATED",
+  "stage": "REVIEWED",
   "stages": [
     {
       "stage": "STARTED",
@@ -20,6 +20,11 @@
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-26T18:36:46.252Z",
       "blob": "47d7ab58c0423eea216d8c84211a4f7eaa97aff6"
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-26T18:36:49.434Z",
+      "evidence": "# #79 Otus lettia v8 actual review\nActualv7/firstattempt/secondrebuild/finalthirdedit full plates and second/final native juvenile crops viewed. Firstsurface-only edit failed; wholecenter rebuild plus localizedlowerbelly repaint substantially reduced conspicuous long loop strings. Young now shorter fine mesoptile on head/chest/lowerbelly, narrow broken brown bars visible, dark eyes/smalltufts/hornbill/formedcompactfoldedwing and hidden shorttail align with actuallyviewed institutional olderjuvenile. Bothfeet firmbranchgrip, exactly3birds, adult eyes/bills/plumage/near-equal scale/poses and contextualcavity unchanged visually; footer retained. Residual stylized curved/scalloped feather tips persist especially belly and adultpattern; not literalfeatheratlas. PASS_WITH_LIMITATIONS for concept improvement, sciencefalse, no newuserapproval. Fineedgegeometry/individualage/subspecies/flight/sexratio unknown and futuretexture audit retained, not absolute elimination claim. New reference+lesspreservation/fullcenterrebuild worked substantially better here than two prior negative surfaceprompts; only localvisual effectiveness, not universalrulevalidation. Previouslyflagged81/82 texture notyet modified or retrospectivelypassed."
     }
   ],
   "target": "79-otus-lettia-v8",
@@ -44,5 +49,6 @@
     "b64len": 3471148,
     "gitblob": "47d7ab58c0423eea216d8c84211a4f7eaa97aff6"
   },
-  "imagegen_wait_seconds": 51.635
+  "imagegen_wait_seconds": 51.635,
+  "review": "# #79 Otus lettia v8 actual review\nActualv7/firstattempt/secondrebuild/finalthirdedit full plates and second/final native juvenile crops viewed. Firstsurface-only edit failed; wholecenter rebuild plus localizedlowerbelly repaint substantially reduced conspicuous long loop strings. Young now shorter fine mesoptile on head/chest/lowerbelly, narrow broken brown bars visible, dark eyes/smalltufts/hornbill/formedcompactfoldedwing and hidden shorttail align with actuallyviewed institutional olderjuvenile. Bothfeet firmbranchgrip, exactly3birds, adult eyes/bills/plumage/near-equal scale/poses and contextualcavity unchanged visually; footer retained. Residual stylized curved/scalloped feather tips persist especially belly and adultpattern; not literalfeatheratlas. PASS_WITH_LIMITATIONS for concept improvement, sciencefalse, no newuserapproval. Fineedgegeometry/individualage/subspecies/flight/sexratio unknown and futuretexture audit retained, not absolute elimination claim. New reference+lesspreservation/fullcenterrebuild worked substantially better here than two prior negative surfaceprompts; only localvisual effectiveness, not universalrulevalidation. Previouslyflagged81/82 texture notyet modified or retrospectivelypassed."
 }

@@ -4,13 +4,44 @@
   "owner": "20261126T0630Z",
   "run_id": "20261126T0540Z-cycle2-resume0630Z",
   "started_at": "2026-11-26T06:33:38.672Z",
-  "stage": "STARTED",
+  "stage": "PARTIAL_RESEARCH",
   "stages": [
     {
       "stage": "STARTED",
       "at": "2026-11-26T06:33:38.672Z"
+    },
+    {
+      "stage": "PARTIAL_RESEARCH",
+      "at": "2026-11-26T06:35:13.215Z",
+      "evidence": "Author-uploaded original fullbody recovered: section3.4/Fig6/Table4 supports owl cavity occupation/visitor scope, no juvenile plumage in read sections. PDFpixels/supplement not recovered; no image/no credit."
     }
   ],
   "scientifically_verified": false,
-  "selection": "Missing species Sumba Boobook Ninox rudolfi: retrieve original full cavity study and juvenile evidence; no generic young rendering."
+  "selection": "Missing species Sumba Boobook Ninox rudolfi: retrieve original full cavity study and juvenile evidence; no generic young rendering.",
+  "ended_at": "2026-11-26T06:35:13.215Z",
+  "errors": [
+    {
+      "url": "https://e-space.mmu.ac.uk/629715/8/1-s2.0-S2053716622000111-main.pdf",
+      "web": "403",
+      "direct": "HTTP403"
+    },
+    {
+      "url": "https://j-avianres.com/en/article/2022/1",
+      "web": "TimeoutError"
+    },
+    {
+      "step": "ResearchGate fulltext PDF link11",
+      "web": "404 Not Found",
+      "recovery": "Author-uploaded full text body accessible and actual targeted sections read, not total source failure"
+    }
+  ],
+  "unfinished": [
+    "recover appropriate juvenile images/primary stage evidence or select evidence-backed outstanding correction",
+    "RESEARCH_READY",
+    "IMAGE_GENERATED",
+    "REVIEWED",
+    "ARCHIVED image",
+    "VERIFIED"
+  ],
+  "next_action": "Resume same20261126T0540Z cycle2. Reuse recovered2022body and #201v9; no regeneration of creditedcycle1."
 }

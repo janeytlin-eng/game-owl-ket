@@ -4,7 +4,7 @@
   "owner": "20261126T0933Z",
   "run_id": "20261126T0945Z-cycle2-resume0933Z",
   "started_at": "2026-11-26T09:48:42.201Z",
-  "stage": "REVIEWED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "STARTED",
@@ -25,6 +25,16 @@
       "stage": "REVIEWED",
       "at": "2026-11-26T09:50:41.303Z",
       "evidence": "Actualv5/newv6 full and footercrop viewed. Adult smallalertcorners/relaxedmale, redbrowniris/bill/barelegs/claws preserved, youngtilt/softdown/wing and bellyfeet supported onbark. Existingageunknown retained, sciencepending/iris/development/geometry/ratio readable. NewlyreadBirdsCaribbean body contains no iriscolour, so prior attribution corrected, not proof existingredbrownwrong or yellowguideuniversallyright. No videopixels/natalage/flightclaim. PASS_WITH_LIMITATIONS for annotationonly, sciencefalse. Lesson separate sourceabsence from biological contradiction; mark colourpending ratherthan forcebookrecolour."
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-26T09:51:01.384Z",
+      "commit_sha": "56da3e1266226edeb0673b639cd3c107b3e74751"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-26T09:51:01.384Z",
+      "evidence": "originals VERIFIED 2816760\nconcepts VERIFIED 2816760\n; exact local Gitblob matched and immutable research/review read back"
     }
   ],
   "scientifically_verified": false,
@@ -40,5 +50,7 @@
     ],
     "b64len": 3755680
   },
-  "generation_seconds": 42.464
+  "generation_seconds": 42.464,
+  "ended_at": "2026-11-26T09:51:01.384Z",
+  "archive_commit": "56da3e1266226edeb0673b639cd3c107b3e74751"
 }

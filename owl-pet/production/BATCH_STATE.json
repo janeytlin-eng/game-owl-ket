@@ -56114,13 +56114,20 @@
       ],
       "next_cycle": null,
       "ended_at": "2026-11-26T18:45:25.790Z"
+    },
+    {
+      "batch_id": "20261126T1830Z-B2",
+      "status": "PARTIAL",
+      "started_at": "2026-11-26T18:45:35.267Z",
+      "completed_cycles": [],
+      "next_cycle": 1
     }
   ],
   "lease": {
     "owner": "20261126T1830Z",
-    "run_id": "20261126T1734Z-B2-cycle6-resume1830Z",
-    "heartbeat_at": "2026-11-26T18:45:25.790Z",
-    "expires_at": "2026-11-26T19:00:28.717Z"
+    "run_id": "20261126T1830Z-B2-cycle1-resume1830Z",
+    "heartbeat_at": "2026-11-26T18:45:35.317Z",
+    "expires_at": "2026-11-26T19:00:35.317Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -56288,9 +56295,9 @@
   ],
   "active_lease": {
     "owner": "20261126T1830Z",
-    "run_id": "20261126T1734Z-B2-cycle6-resume1830Z",
-    "heartbeat_at": "2026-11-26T18:45:25.790Z",
-    "expires_at": "2026-11-26T19:00:28.717Z"
+    "run_id": "20261126T1830Z-B2-cycle1-resume1830Z",
+    "heartbeat_at": "2026-11-26T18:45:35.317Z",
+    "expires_at": "2026-11-26T19:00:35.317Z"
   },
   "last_updated_at": "2026-11-26T16:50:40.753Z",
   "audit_notes": [
@@ -63686,10 +63693,10 @@
       }
     }
   ],
-  "active_batch_id": "20261126T1734Z-B2",
+  "active_batch_id": "20261126T1830Z-B2",
   "active_cycle": null,
   "current_stage": "IDLE",
-  "next_cycle": null,
+  "next_cycle": 1,
   "unique_species_count": 207,
   "total_species": 251,
   "stage_events": [

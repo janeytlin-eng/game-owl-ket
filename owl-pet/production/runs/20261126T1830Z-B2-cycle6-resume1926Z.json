@@ -4,7 +4,7 @@
   "owner": "owl-production-20261126T1926Z",
   "run_id": "20261126T1926Z",
   "started_at": "2026-11-26T19:38:23.995Z",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "STARTED",
@@ -26,6 +26,15 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-26T19:41:20.692Z"
+    },
+    {
+      "stage": "VERIFICATION_EVIDENCE",
+      "at": "2026-11-26T19:41:39.628Z",
+      "evidence": "Immutable original+concept GET full bytes/SHA256/PILdecode passed; research/review readback passed"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-26T19:41:39.629Z"
     }
   ],
   "target": "89-bubo-bengalensis-v7",
@@ -52,5 +61,7 @@
     "gitblob": "470d67bee92f97ae954d074a52ff14851e86b580"
   },
   "imagegen_wait_seconds": 94.335,
-  "review": "Actualfullv6/finalv7 and enlargedleftadultfootcrop viewed. Smallslategrey baresegments immediatelybehindblackclaws now distinguishable whilefulvoustarsal/proximaltoefeathers kept; highwarmilluminationmeansgreenhue subdued ratherthanmeasured. No whollybaretoe/mitten, stableallfootgroundcontact. Rightadultsamequalitativedistalboundary, youngunchanged; orangeeyes/darkbills/tufts/near-equaladultheight, faintbellybars/upperbreaststreaks androckscrubpreserved. Actualeditvisiblylocalized, exactjointlength/scalecount/colorimetryunverified; c35label is studyreferenced approximation notdatedindividual. PASS_WITH_LIMITATIONS/sciencefalse, newapproval0. Ruleapply: separate adult distalbarejoint exception from proximalfeathering; broadphotocaption'fullyfeathered' noteraseexplicitbodyexception. No transferredadulttoeextenttoyoung."
+  "review": "Actualfullv6/finalv7 and enlargedleftadultfootcrop viewed. Smallslategrey baresegments immediatelybehindblackclaws now distinguishable whilefulvoustarsal/proximaltoefeathers kept; highwarmilluminationmeansgreenhue subdued ratherthanmeasured. No whollybaretoe/mitten, stableallfootgroundcontact. Rightadultsamequalitativedistalboundary, youngunchanged; orangeeyes/darkbills/tufts/near-equaladultheight, faintbellybars/upperbreaststreaks androckscrubpreserved. Actualeditvisiblylocalized, exactjointlength/scalecount/colorimetryunverified; c35label is studyreferenced approximation notdatedindividual. PASS_WITH_LIMITATIONS/sciencefalse, newapproval0. Ruleapply: separate adult distalbarejoint exception from proximalfeathering; broadphotocaption'fullyfeathered' noteraseexplicitbodyexception. No transferredadulttoeextenttoyoung.",
+  "archive_commit": "62542b65c0d3c10fcf1b00483adac9a6a766c7e4",
+  "ended_at": "2026-11-26T19:41:39.628Z"
 }

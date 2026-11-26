@@ -1,0 +1,567 @@
+{
+  "run_id": "20261126T1926Z",
+  "timezone": "Asia/Shanghai",
+  "invocation_started_at": "2026-11-26T19:25:48Z",
+  "production_first_lease_at": "2026-11-26T19:29:58.796Z",
+  "generated_calls": 8,
+  "imagegen_wait_total_seconds": 471.33299999999997,
+  "timing_limits": "Stage intervals include upload/readback/model deliberation, not CPU. research_to_ready excludes earlier reusable pre-reading; #85 generated_stage_seconds ends at FIRST attempt; full attempt timing waits listed separately. No platform timeout telemetry.",
+  "index": {
+    "new": 1,
+    "reused_citations": 15,
+    "reused_documents": 10,
+    "total_citations": 16,
+    "distinct_documents": 11,
+    "corrected_entries": 2,
+    "restored_existing_source_entries": 1,
+    "commit_sha": "6731a0b8ec73f26ffeedd84406c55a0ac55254e8"
+  },
+  "cycles": [
+    {
+      "id": "85-otus-semitorques-v8",
+      "batch_id": "20261126T1830Z-B2",
+      "cycle": 4,
+      "started_at": "2026-11-26T19:29:58.796Z",
+      "ended_at": "2026-11-26T19:34:43.009Z",
+      "research_to_ready_seconds": 35,
+      "generated_stage_seconds": 70,
+      "imagegen_wait_seconds": [
+        32.897,
+        33.644,
+        34.625
+      ],
+      "review_to_archive_seconds": 4,
+      "archive_to_verified_seconds": 34,
+      "errors": [
+        "Attempt1 texture correction failed actual visual check",
+        "Attempt2 fullcenter reconstruction still looped; source texture remains unresolved"
+      ],
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T19:29:58.796Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T19:30:33.700Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T19:31:43.773Z",
+          "attempt": 1
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T19:31:47.256Z",
+          "attempt": 2
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T19:32:47.963Z",
+          "attempt": 2
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T19:32:51.129Z",
+          "attempt": 3
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T19:34:01.665Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T19:34:05.390Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T19:34:09.478Z"
+        },
+        {
+          "stage": "VERIFICATION_EVIDENCE",
+          "at": "2026-11-26T19:34:43.009Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-26T19:34:43.010Z"
+        }
+      ],
+      "source_new": 0,
+      "source_reuse": 2,
+      "source_corrections": 0,
+      "source_index_restored": 0,
+      "archive_commit": "cf22aa3ef37281e1753bc3317132008de5e90345",
+      "meta": {
+        "bytes": 2618239,
+        "sha256": "b684d60a752d20e3f60f78fd689b858006552b6efa20bac56367e338266ec058",
+        "b64len": 3490988,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "83d3a2cede06d6cfdba72c5bd4b88d0daf1b3507"
+      }
+    },
+    {
+      "id": "86-otus-elegans-v7",
+      "batch_id": "20261126T1830Z-B2",
+      "cycle": 5,
+      "started_at": "2026-11-26T19:34:53.322Z",
+      "ended_at": "2026-11-26T19:38:15.203Z",
+      "research_to_ready_seconds": 51,
+      "generated_stage_seconds": 124,
+      "imagegen_wait_seconds": [
+        95.428
+      ],
+      "review_to_archive_seconds": 4,
+      "archive_to_verified_seconds": 19,
+      "errors": [
+        "MOE reread503; newpaper furtherfinds timeout; no unseen fullpaper claims"
+      ],
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T19:34:53.322Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T19:35:43.987Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T19:37:47.897Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T19:37:51.967Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T19:37:56.141Z"
+        },
+        {
+          "stage": "VERIFICATION_EVIDENCE",
+          "at": "2026-11-26T19:38:15.203Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-26T19:38:15.203Z"
+        }
+      ],
+      "source_new": 1,
+      "source_reuse": 2,
+      "source_corrections": 1,
+      "source_index_restored": 0,
+      "archive_commit": "e0dcdc3a459873d9d759cff656b4713d26dbd03e",
+      "meta": {
+        "bytes": 2761530,
+        "sha256": "5e3b9f4b2fd4794efc76d281559fc7c76840b229cec8657a3f3e27ee285f5dff",
+        "b64len": 3682040,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "cdd477e4351fc4a1f64de1a6b5747e483bbcb437"
+      }
+    },
+    {
+      "id": "89-bubo-bengalensis-v7",
+      "batch_id": "20261126T1830Z-B2",
+      "cycle": 6,
+      "started_at": "2026-11-26T19:38:23.995Z",
+      "ended_at": "2026-11-26T19:41:39.628Z",
+      "research_to_ready_seconds": 41,
+      "generated_stage_seconds": 128,
+      "imagegen_wait_seconds": [
+        94.335
+      ],
+      "review_to_archive_seconds": 4,
+      "archive_to_verified_seconds": 19,
+      "errors": [
+        "PrimaryPDF403; no fresh youngphoto/sequence recovered"
+      ],
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T19:38:23.995Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T19:39:05.150Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T19:41:13.427Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T19:41:16.750Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T19:41:20.692Z"
+        },
+        {
+          "stage": "VERIFICATION_EVIDENCE",
+          "at": "2026-11-26T19:41:39.628Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-26T19:41:39.629Z"
+        }
+      ],
+      "source_new": 0,
+      "source_reuse": 3,
+      "source_corrections": 1,
+      "source_index_restored": 0,
+      "archive_commit": "62542b65c0d3c10fcf1b00483adac9a6a766c7e4",
+      "meta": {
+        "bytes": 2479156,
+        "sha256": "6478828375bf5625210683063e2227d62fc35ccb15fef7895efd69a7a5d282ba",
+        "b64len": 3305544,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "470d67bee92f97ae954d074a52ff14851e86b580"
+      }
+    },
+    {
+      "id": "90-tyto-furcata-v6",
+      "batch_id": "20261126T1926Z-B2",
+      "cycle": 1,
+      "started_at": "2026-11-26T19:41:47.816Z",
+      "ended_at": "2026-11-26T19:44:07.162Z",
+      "research_to_ready_seconds": 31,
+      "generated_stage_seconds": 66,
+      "imagegen_wait_seconds": [
+        36.282
+      ],
+      "review_to_archive_seconds": 3,
+      "archive_to_verified_seconds": 36,
+      "errors": [
+        "PMC original challengewall; use publisher fullMethods; no fresh Fig1 pixel view"
+      ],
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T19:41:47.816Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T19:42:18.684Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T19:43:24.949Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T19:43:28.311Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T19:43:31.334Z"
+        },
+        {
+          "stage": "VERIFICATION_EVIDENCE",
+          "at": "2026-11-26T19:44:07.162Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-26T19:44:07.163Z"
+        }
+      ],
+      "source_new": 0,
+      "source_reuse": 2,
+      "source_corrections": 0,
+      "source_index_restored": 1,
+      "archive_commit": "e3b1d5471fa9e938178bc7a9bfc5e2fc79ea93e3",
+      "meta": {
+        "bytes": 2276318,
+        "sha256": "d0c283c33d0ff8c27f045e1758e6ff15e276abbc23642da0ed0c0e3ff500bcd4",
+        "b64len": 3035092,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "628a47c0346dc0d6570fa741eb7898f1c7fb5382"
+      }
+    },
+    {
+      "id": "91-tyto-javanica-delicatula-v6",
+      "batch_id": "20261126T1926Z-B2",
+      "cycle": 2,
+      "started_at": "2026-11-26T19:44:17.612Z",
+      "ended_at": "2026-11-26T19:46:15.678Z",
+      "research_to_ready_seconds": 5,
+      "generated_stage_seconds": 67,
+      "imagegen_wait_seconds": [
+        36.632
+      ],
+      "review_to_archive_seconds": 3,
+      "archive_to_verified_seconds": 40,
+      "errors": [],
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T19:44:17.612Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T19:44:22.149Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T19:45:28.904Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T19:45:32.438Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T19:45:35.468Z"
+        },
+        {
+          "stage": "VERIFICATION_EVIDENCE",
+          "at": "2026-11-26T19:46:15.678Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-26T19:46:15.679Z"
+        }
+      ],
+      "source_new": 0,
+      "source_reuse": 3,
+      "source_corrections": 0,
+      "source_index_restored": 0,
+      "archive_commit": "8d55bcd98609027684685e3efc96965f2063f724",
+      "meta": {
+        "bytes": 2756929,
+        "sha256": "a04ae01d94adc2940f3842caf91aec8528e69433afcb89d49644802a44416bbf",
+        "b64len": 3675908,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "3160bc4a7e3e4ab0eac51179ab8ac672cd95047c"
+      }
+    },
+    {
+      "id": "92-ninox-japonica-v7",
+      "batch_id": "20261126T1926Z-B2",
+      "cycle": 3,
+      "started_at": "2026-11-26T19:46:24.194Z",
+      "ended_at": "2026-11-26T19:50:11.763Z",
+      "research_to_ready_seconds": 6,
+      "generated_stage_seconds": 152,
+      "imagegen_wait_seconds": [
+        107.49
+      ],
+      "review_to_archive_seconds": 4,
+      "archive_to_verified_seconds": 63,
+      "errors": [],
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-26T19:46:24.194Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-26T19:46:29.828Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-26T19:49:02.321Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-26T19:49:05.431Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-26T19:49:09.155Z"
+        },
+        {
+          "stage": "VERIFICATION_EVIDENCE",
+          "at": "2026-11-26T19:50:11.763Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-26T19:50:11.764Z"
+        }
+      ],
+      "source_new": 0,
+      "source_reuse": 3,
+      "source_corrections": 0,
+      "source_index_restored": 0,
+      "archive_commit": "5567fb6d4b07d2c53bc0d3f8eacdcaa3608daa45",
+      "meta": {
+        "bytes": 2932258,
+        "sha256": "4d34d38fe43e2f4c8c1e082bad4a766ae3b5513d79c373ed0f7de6872ae45399",
+        "b64len": 3909680,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "4397884706c2e0022d399ac1ffb2bc4b93607b04"
+      }
+    }
+  ],
+  "results": [
+    {
+      "id": "85-otus-semitorques-v8",
+      "batch": "20261126T1830Z-B2",
+      "cycle": 4,
+      "archive": "cf22aa3ef37281e1753bc3317132008de5e90345",
+      "verified": "38a3fce16297ec9c267e0b53612e4c70544a65db",
+      "credit": "3ca5872ea397319e146823d946c93a6e3805aed3",
+      "run": "owl-pet/production/runs/20261126T1830Z-B2-cycle4-resume1926Z.json",
+      "meta": {
+        "bytes": 2618239,
+        "sha256": "b684d60a752d20e3f60f78fd689b858006552b6efa20bac56367e338266ec058",
+        "b64len": 3490988,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "83d3a2cede06d6cfdba72c5bd4b88d0daf1b3507"
+      },
+      "review": "Actualv7, attempt1, attempt2 and final3 full plates viewed plus final adult toe crop. Attempts1/2 retained loopy filaments; no texture success. Final3 selected from v7, only adult dorsaltoe shortfinepaleplumes added, hornclaws/naturalbilateralbranchcontact visible; crop confirms narrowfeatherstrands instead of former nakedscaled dorsa. Adult orangeiris/greyhornbill/tufts/herringbone/near-equalheight remain; young down/incompletewings/shadowiris/quiettwofoot support retained without unsupported olderstage transfer. Young looptexture remains NEEDS_REVISION; exactage/iris/flight/sexratio and precisiontoeextent unknown. Adult dorsalplumage issue improved visually; do not claim wholeimage sciencepass or totaltexturefix. No newuserconfirmation. Pattern: same-image textureprompt even wholecentershapechange remainslocked in unwantedsubstrate; three actual imagegen calls, firsttwo explicitlyfailed. New targeted anatomicaledit is successful bylocalview, texturestrategy notvalidated.",
+      "sources": [
+        "SEM-NOHARA-HONDA-2025-P75-78",
+        "WHSO-MIKKOLA-2013"
+      ]
+    },
+    {
+      "id": "86-otus-elegans-v7",
+      "batch": "20261126T1830Z-B2",
+      "cycle": 5,
+      "archive": "e0dcdc3a459873d9d759cff656b4713d26dbd03e",
+      "verified": "6dd40b54128232afa3241092373106a2de1557d5",
+      "credit": "8672e4577035213cfed416898ec12abb814e8878",
+      "run": "owl-pet/production/runs/20261126T1830Z-B2-cycle5-resume1926Z.json",
+      "meta": {
+        "bytes": 2761530,
+        "sha256": "5e3b9f4b2fd4794efc76d281559fc7c76840b229cec8657a3f3e27ee285f5dff",
+        "b64len": 3682040,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "cdd477e4351fc4a1f64de1a6b5747e483bbcb437"
+      },
+      "review": "Actual fullv6 and finalv7 viewed. Bothadults now neutralgrey baretoes/blackishhornclaws, tarsalfeathers stopnearbase; exact toegrips andbranchsupport maintained. Rightyoung toes unchanged (not agecolours extrapolated), compactfoldedwings/shorttail/begging/dualfootcontact retained. Adult yellowiris/darkbill/tufts/herringbone/near-equalheight preserved, Casuarina/cane context and creamgouache style/labels unchanged. Palettecorrection visiblyeffective; spectralprecision, picturedage/youngcontinuousplumage/flight/sexratio and residualcurltexture remainunverified. PASS_WITH_LIMITATIONS/sciencefalse; no newconfirmation. Ruleappliedandchecked: #85 featheredtoe evidence cannottransfer to#86 baretoes; adultcolours only when youngunknown. Prior indexprintedpage/iris/toepalette correction saved; MOE503/newpaperfindtimeout notclaimedread.",
+      "sources": [
+        "ELE-BIRD-RESEARCH-NEWS-2011-P1-2",
+        "WHSO-MIKKOLA-2013",
+        "ELE-HANZAWA-ETAL-2026-PLUMAGE"
+      ]
+    },
+    {
+      "id": "89-bubo-bengalensis-v7",
+      "batch": "20261126T1830Z-B2",
+      "cycle": 6,
+      "archive": "62542b65c0d3c10fcf1b00483adac9a6a766c7e4",
+      "verified": "7db6b08ff6f6dc78f5e323c1e61663f50f638f10",
+      "credit": "97088168b03cdcdf915543a10c0240a5ce75bb42",
+      "run": "owl-pet/production/runs/20261126T1830Z-B2-cycle6-resume1926Z.json",
+      "meta": {
+        "bytes": 2479156,
+        "sha256": "6478828375bf5625210683063e2227d62fc35ccb15fef7895efd69a7a5d282ba",
+        "b64len": 3305544,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "470d67bee92f97ae954d074a52ff14851e86b580"
+      },
+      "review": "Actualfullv6/finalv7 and enlargedleftadultfootcrop viewed. Smallslategrey baresegments immediatelybehindblackclaws now distinguishable whilefulvoustarsal/proximaltoefeathers kept; highwarmilluminationmeansgreenhue subdued ratherthanmeasured. No whollybaretoe/mitten, stableallfootgroundcontact. Rightadultsamequalitativedistalboundary, youngunchanged; orangeeyes/darkbills/tufts/near-equaladultheight, faintbellybars/upperbreaststreaks androckscrubpreserved. Actualeditvisiblylocalized, exactjointlength/scalecount/colorimetryunverified; c35label is studyreferenced approximation notdatedindividual. PASS_WITH_LIMITATIONS/sciencefalse, newapproval0. Ruleapply: separate adult distalbarejoint exception from proximalfeathering; broadphotocaption'fullyfeathered' noteraseexplicitbodyexception. No transferredadulttoeextenttoyoung.",
+      "sources": [
+        "BEN-MIKKOLA-2013-P274-275",
+        "BEN-OWLPAGES-1260",
+        "BEN-RAMANUJAM-MURUGAVEL-2009-P519-524"
+      ]
+    },
+    {
+      "id": "90-tyto-furcata-v6",
+      "batch": "20261126T1926Z-B2",
+      "cycle": 1,
+      "archive": "e3b1d5471fa9e938178bc7a9bfc5e2fc79ea93e3",
+      "verified": "4b52a45bbe2e388aeebd9421f3506d30c9e6bc37",
+      "credit": "0eb66fa16a48b254281334df8e3c5f65d09fd657",
+      "run": "owl-pet/production/runs/20261126T1926Z-B2-cycle1-resume1926Z.json",
+      "meta": {
+        "bytes": 2276318,
+        "sha256": "d0c283c33d0ff8c27f045e1758e6ff15e276abbc23642da0ed0c0e3ff500bcd4",
+        "b64len": 3035092,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "628a47c0346dc0d6570fa741eb7898f1c7fb5382"
+      },
+      "review": "Actualinputv5/outputv6full viewed: STUDY-REFERENCEDNESTLING and science/individualage-flight-sexratiofooter readable. Centralwhite-downyoungstands twofeet onwoodfloor, shortemergingdarksidefeathers/noadulttail retained; notclaimsP20certification or flight. Adultwhiteheartfaces/darkeyes/creambills, palermale/darkerandmorespottedfemale/near-equalskeletalheight, allgrips/loft/background/layoutretained. Annotation-onlyPASS_WITH_LIMITATIONS/sciencefalse, notnewmorphologyvalidation. Handraisedcontainer-supportedstudy generalstandingcontextnotwildphaseclock; no newFig1photopixelinspection. Rulecandidateappliedandviewed: studycalendar inresearchdoesnotdateeachillustratedindividual; explicitimageboundarynowexportswithart.",
+      "sources": [
+        "ABO-WAGNER2022-P20",
+        "FUR-MIK2013-82"
+      ]
+    },
+    {
+      "id": "91-tyto-javanica-delicatula-v6",
+      "batch": "20261126T1926Z-B2",
+      "cycle": 2,
+      "archive": "8d55bcd98609027684685e3efc96965f2063f724",
+      "verified": "6ac9f4727c029c1b7de924d1b5f99f434cd62143",
+      "credit": "3c3a47acce247119632bf7cc4182da463b16a9d4",
+      "run": "owl-pet/production/runs/20261126T1926Z-B2-cycle2-resume1926Z.json",
+      "meta": {
+        "bytes": 2756929,
+        "sha256": "a04ae01d94adc2940f3842caf91aec8528e69433afcb89d49644802a44416bbf",
+        "b64len": 3675908,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "3160bc4a7e3e4ab0eac51179ab8ac672cd95047c"
+      },
+      "review": "Actualv5/finalv6full viewed. Study-referencednestlinglabel/footer readable; current91taxonomy preserved. Threeowls, darkeyes/palebills/heartface/spots, adultnear-equalheight, supportedleaningyoungwithresidualdown/freshformedfoldedwings/shorttail andtwoseparatehollowfootgrips intact. NaturalMalleehollow/farmland retained; notuniformshortwingrule. Annotation-onlyPASS_WITH_LIMITATIONS/sciencefalse, no newuserapproval. FreshprimaryAssumptions/Definitionspp117–118 explicitlyageestimated/asynchronousandfledgingoperationalroostdefinitionnotmeasuredfirstflight; c40behaviorp120 supportsconceptnotexactindividualday. Ruleappliedandactualchecked: exportindividualunknown withouterasinglegitimateolderyoungwingdevelopment.",
+      "sources": [
+        "JAV-MCLAUGHLIN-DEBUS-2025-P116-123",
+        "JAV-AUSTRALIAN-MUSEUM-2022",
+        "WHSO-MIKKOLA-2013"
+      ]
+    },
+    {
+      "id": "92-ninox-japonica-v7",
+      "batch": "20261126T1926Z-B2",
+      "cycle": 3,
+      "archive": "5567fb6d4b07d2c53bc0d3f8eacdcaa3608daa45",
+      "verified": "a79b54df41ca14cc453240d3a00afc8364c9d997",
+      "credit": "4c94815086fa6ef1819f41365228d55535cae255",
+      "run": "owl-pet/production/runs/20261126T1926Z-B2-cycle3-resume1926Z.json",
+      "meta": {
+        "bytes": 2932258,
+        "sha256": "4d34d38fe43e2f4c8c1e082bad4a766ae3b5513d79c373ed0f7de6872ae45399",
+        "b64len": 3909680,
+        "size": [
+          1536,
+          1024
+        ],
+        "gitblob": "4397884706c2e0022d399ac1ffb2bc4b93607b04"
+      },
+      "review": "Actualinputv6/outputv7full viewed: AGE-UNKNOWNDEPENDENTYOUNG/scientificpendingfooterreadable, title/currentname92 unchanged. Adultsleftcenterretaincorrecteddarkgrey-brownbillswithsmallpaletips, yellowiris/yellowbristledbaretoes/creamfeatheredlegs/broadbreaststreaks/barredtails/noear-tufts/whiteshoulderpatches/near-equalheight. Rightyoungpalerbuff/sparserstreaks/fluff/openbegginggape/compactfoldedwing/shortconcealedtail/bilateralbranchgrip maintained, naturalcavity/orchardcontextstable. Annotation-onlyPASS_WITH_LIMITATIONS/sciencefalse, no newuserapproval. Primary25–28dnestperiod notpicturedindividualage/firstflight; adultpaletteandTaiwanmeasurementoverlap notyoungcolourseries/globalRSD. Ruleapplied/rechecked: preservepreviousvalidadultbillfixduringstageannotation.",
+      "sources": [
+        "JAP-LIN-LIN-TSENG-2012-PP164-166",
+        "JAP-TAIEOL2013",
+        "JAP-MIK2013-466"
+      ]
+    }
+  ],
+  "counts": {
+    "unique": 207,
+    "versions": 1178,
+    "manifest": 1214
+  }
+}

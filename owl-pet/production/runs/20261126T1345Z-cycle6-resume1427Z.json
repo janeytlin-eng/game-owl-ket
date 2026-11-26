@@ -21,7 +21,12 @@
       "blob": "9fc9ea4fe19132c42d9f2cbe5747389942494894"
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "step": "archive duplicate guard",
+      "detail": "Selected v6 without checking latest manifest; existing52v7 detected after generated-original checkpoint. No concept/credit written. Restore any pre-existing original blob before continuing; retain new attempt under unique rejected name. Do not count duplicate generation."
+    }
+  ],
   "target": "52-strix-hylophila-v7",
   "meta": {
     "bytes": 2507607,

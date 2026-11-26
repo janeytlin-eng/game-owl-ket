@@ -4,7 +4,7 @@
   "owner": "20261126T1630Z",
   "run_id": "20261126T1630Z-B2-cycle2-resume1630Z",
   "started_at": "2026-11-26T16:43:59.777Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,8 +14,20 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T16:44:06.750Z",
       "evidence": "Actualv6fullviewed: centralgroundnestlarge denseorganizedstrawcup, primary describesgroundpalmbasefewgrasses/sometwigs. Correctmaterialandgroundsupportboundary, noyoungfeatherguess."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T16:45:25.964Z",
+      "blob": "9233773d3854f318885ccf44ef877c4533d00da6"
     }
   ],
   "errors": [],
-  "target": "76-asio-clamator-v7"
+  "target": "76-asio-clamator-v7",
+  "meta": {
+    "bytes": 3185454,
+    "sha256": "cd2b0f799633143c7fdbb40cf47bab46ee3bb2cdfa4058a86fe76e6c74d866de",
+    "gitblob": "9233773d3854f318885ccf44ef877c4533d00da6",
+    "b64len": 4247272
+  },
+  "imagegen_edit_wait_seconds": 42.844
 }

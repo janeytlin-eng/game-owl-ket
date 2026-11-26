@@ -4,7 +4,7 @@
   "owner": "owl-production-20261126T2030Z",
   "run_id": "20261126T2030Z",
   "started_at": "2026-11-26T20:43:52.369Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,6 +14,10 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T20:44:42.895Z",
       "prompt": "Annotation-only precise edit of supplied94 Tawny-browed Owl Pulsatrix koeniswaldiana v6. Preserve EVERY biological feature and every existing label, especially AGE-UNKNOWN POST-CAVITY JUVENILE. Add ONLY a small readable bottom-margin footer 'CONCEPT — SCIENTIFIC REVIEW PENDING; INDIVIDUAL AGE / FIRST FLIGHT / SEX RATIO UNVERIFIED'. Maintain adult chestnutiris/tawnybrows/ivoryyellowhornbill/brokenbreastband/cinnamonbelly/barredwingsandtail, previouslycorrected palegreyadulttoes/yellowishgreyclaws, near-equaladultheight, centercreamdown/darkbrownface/darkiris/compactsoftfoldedwing/hiddentail/all6branchcontacts. Preserve naturalAtlanticForest/branchstyle/title94/currentname. No recolouringyoungfromadultpalette, nochangeageunknownlabel, noadditionalobjects."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T20:45:46.923Z"
     }
   ],
   "target": "94-pulsatrix-koeniswaldiana-v7",
@@ -25,5 +29,17 @@
     "PKOE-MENQ-2018",
     "PKOE-PEREIRA-LUCINDO-2013-P123-127",
     "WHSO-MIKKOLA-2013"
-  ]
+  ],
+  "meta": {
+    "bytes": 2733390,
+    "sha256": "a1a745c7b305c1c34e2b104110f6ed367bae8ab896b538a4bd550d91ee7f564d",
+    "b64len": 3644520,
+    "size": [
+      1536,
+      1024
+    ],
+    "gitblob": "5cdd12b780672f5dfaf8f97ea2bc81f13e5cbf14"
+  },
+  "imagegen_wait_seconds": 34.341,
+  "review": "Actualv6/v7fullview: sciencepending/age-flight-sexratiofooter readable, ageunknownpostcavitylabelunchanged. Threeowls/stablefootcontacts, adultchestnutiris/tawnybrows/ivoryyellowbill/brokenbrownchestband/cinnamonventrum/narrowtailbars/near-equalheight/greybaretoes/yellowishgreyclaws remain. Centralcreamdown/darkbrownmask/darkeyes/compactwing/hiddentail retainedwithoutadultclawpalettetransfer. Branchhabitatnotliteralnest. Annotation-onlyPASS_WITH_LIMITATIONS/sciencefalse/no newconfirmation. Primarycalendarfiveweeksis inferredincubationnotyoungage; explicitunknownnotfullfeathercalibration."
 }

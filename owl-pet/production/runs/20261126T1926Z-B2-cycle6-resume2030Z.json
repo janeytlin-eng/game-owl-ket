@@ -4,7 +4,7 @@
   "owner": "owl-production-20261126T2030Z",
   "run_id": "20261126T2030Z",
   "started_at": "2026-11-26T20:41:54.511Z",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stages": [
     {
       "stage": "STARTED",
@@ -14,6 +14,10 @@
       "stage": "RESEARCH_READY",
       "at": "2026-11-26T20:42:00.708Z",
       "prompt": "Annotation-only precise edit of #93 Buff-fronted Owl Aegolius harrisii iheringi v5. Preserve all biological illustration, adultleftmale/rightfemale, centraloldernestling/recognizablefacialdisc/sparsedarkgreyresidualdown/shortsoftfoldedwing/concealedtail/lowcrouchwoodchipfloor/twofeetandbellysupport, adultyelloweyes/palebills/cinnamonface/darkruff/wingroundspots/twotailbars/near-equalheight, schematiccavitycutaway/AtlanticForest/style and title. Replace ONLY central '~24-DAY NESTLING' with 'STUDY-REFERENCED NESTLING'. Add small readable bottomfooter 'CONCEPT — SCIENTIFIC REVIEW PENDING; INDIVIDUAL AGE / FIRST FLIGHT / SEX RATIO UNVERIFIED'. Keep93andcurrenttaxon/locality/adultlabels. Do notchangeplumage or cavegeometry, no addedobjects."
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-26T20:43:16.068Z"
     }
   ],
   "target": "93-aegolius-harrisii-v6",
@@ -25,5 +29,17 @@
   "source_ids": [
     "HAR-BODRATI-ETAL-2019-REREAD",
     "WHSO-MIKKOLA-2013"
-  ]
+  ],
+  "meta": {
+    "bytes": 3066227,
+    "sha256": "63e5369b1ada66e13e31e258145690351f82c36d3f5aa8c3041ef035b1fcfe3c",
+    "b64len": 4088304,
+    "size": [
+      1536,
+      1024
+    ],
+    "gitblob": "9828c4f0369a2b81848be7bcc532ef9b1712e220"
+  },
+  "imagegen_wait_seconds": 34.511,
+  "review": "Actualv5/v6full viewed: centralSTUDYREFERENCEDNESTLING/footerreadable, current93taxon/locality/adultlabels retained. Youngdevelopingdisc/softshortfoldedwing/residualgreydown/shortconcealedtail/lowtwofootbellywoodchipsupport unchanged; noearlydownhatchlingorflightclaim. Adultplainorangebuffventrum/darkroundface/yelloweyes/palebill/wingpalespots/twotailbars/near-equalheight retained, schematicdeadgarapacutawaynotliteraldoorsize. Annotation-onlyPASS_WITH_LIMITATIONS/sciencefalse/no newconfirmation. Primaryp153–15424dspotdevelopmentstrongerthanoldguidep447unknown/unspottedbackgeneric; no unsupportedpatternerasure. Exactage/sex/firstflight/tracts/toegeometrystillunknown."
 }

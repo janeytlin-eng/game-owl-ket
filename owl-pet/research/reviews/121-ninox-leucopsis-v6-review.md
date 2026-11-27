@@ -1,0 +1,3 @@
+# 121-ninox-leucopsis-v6
+Status:PASS_WITH_LIMITATIONS; scientifically_verified=false
+Actual input/output viewed: compact distinct whitish adult throat patches added, notwholebreastwhite; goldenyellowiris/greybill/tuftlesshead/smallwhitecrownspots/rufousocelli/cinnamonlegfeathers/pinkgraytoes/darkclaws retained. Youngunchanged darkdown/yelloweyes/shortfoldedwing/hidden tail/unknownage/2feetlipcontact; somecurlydown remainsconceptlimit. Exact3birds6feet/title/labels/eucalyptdusk preserved. PASS_WITH_LIMITATIONS onlyadultwhitethroat correction, notscientificcertification. Rejectgray-onlyfeet hypothesis perprimaryinstitutionABSA. Unknownyoungage/flight andexactcolourcalibration remain.

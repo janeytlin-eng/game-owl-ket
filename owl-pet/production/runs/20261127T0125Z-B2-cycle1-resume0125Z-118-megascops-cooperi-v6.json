@@ -12,6 +12,10 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-27T01:38:42.614Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T01:39:52.122Z"
     }
   ],
   "errors": [],
@@ -19,7 +23,7 @@
   "unique_species_increment": 0,
   "revision_increment": 1,
   "run_record": "owl-pet/production/runs/20261127T0125Z-B2-cycle1-resume0125Z-118-megascops-cooperi-v6.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "source_ids": [
     "PSC-MIKKOLA-2013-P210",
     "PSC-AVESCR-2025",
@@ -30,5 +34,18 @@
   "full_prompt": "Use case: precise-object-edit. Edit existing #118 Megascops cooperi v5 three-bird plate. Target ONLY both ADULTS' lower breast and belly plumage: existing thin dark longitudinal shaft-streaks must remain, but introduce a fine delicate, broken dusky vermiculation between them over the pale gray-white background. Short tiny irregular wavy transverse marks, very faint and much finer than the shafts, a subtle broken herringbone tendency without a rigid grid or repeated V shapes. Keep abundant open pale ground. Do not replace shafts with heavy crossbars, tiles or scallops. Change no juvenile plumage or pose.\nLock the two adult pale-gray yellow-eyed/greenish-billed identities, narrow facial rim, hornlike feather tufts, two actual pale closed-wing bands, feathered tarsi/bristled toes/dark claws and original sizes/poses. Lock older juvenile on ground, its supported defensive wing-spread and formed remiges/tail, not flying. All six foot contacts, dry leaf litter/lowroots/cavity background, title, scientificname and all three role labels remain unchanged. Established polished naturalhistory pet-concept style, exact3birds, no extra elements or chronology claims.",
   "research": "Accessed2026-11-27. Current Megascopscooperi; historicalOtuscooperi/Scopscooperi, no speciescount change. v5 researchread/fullimageactuallyviewed. Uploaded Mikkola2013 printed210/PDF212 freshlyread: adults thinblackshaftstreaks plus fine darkvermiculations paleground, two paleclosedwingbands, yellowiris/greenishbill, brownfleshytoes/hornclaws; femaleaveragemass+20g notheightformula; juvenileundescribed so no invented chronology. Fresh targetedwebresearch, AvesCostaRica original https://avesdecostarica.com/Megascops-cooperi.html body29–33 actuallyread: MauricioCalderón,2025footer, adultfinevermiculations/blackshafts/yelloweyes/graygreenbill/bristledtoes, graybuff/whitish-to-deepbuff juvenilewithfinebars, drywoodland/mangrovecavity context. AIillustration excludedexplicitly, secondarynot independentguide replication. Existing PSC-AVESCR-2025 reused, no newID. Prior PSC-KOMAR-STUFKENS-2012 oneHondurasolderfledglingdefensivecase historicalv5reuse only; targetedsearch didnot recoveroriginal withinthiscycle, notclaimfreshread. Ground-supported defensivepose/formedremiges retained, no generalizedflightability/age. Actualv5adultbellydominatedbysimplelongshafts, fineinterstitialvermiculations largelyabsent. Designdecision addfinefaintbrokenwaveletsadultonly, preserve paleground/shafts/alljuvenile/support. Contraststrength isartistic not measuredplumagefrequency. Exactjuvenileage/sex/subspecies/flightthresholdunknown. Near-equaladults no fixedsexsize. Sciencefalse.",
   "research_record": "owl-pet/research/species/118-megascops-cooperi-v6.md",
-  "review_record": "owl-pet/research/reviews/118-megascops-cooperi-v6-review.md"
+  "review_record": "owl-pet/research/reviews/118-megascops-cooperi-v6-review.md",
+  "image_meta": {
+    "bytes": 3173785,
+    "sha256": "49573b22e9db4f6e4c22be5e3aa1e9f4da85139eef908d660a0f72940d718c9a",
+    "git_blob": "b7e551fed7121bdae041622b7fbba031c2fb0dee",
+    "size": [
+      1536,
+      1024
+    ],
+    "b64len": 4231716
+  },
+  "generation_wait_seconds": 35.463,
+  "generation_calls": 1,
+  "status": "PASS_WITH_LIMITATIONS"
 }

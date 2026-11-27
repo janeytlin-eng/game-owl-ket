@@ -13,6 +13,10 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-27T23:36:46.645Z"
+    },
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-27T23:37:20.811Z"
     }
   ],
   "scientifically_verified": false,
@@ -24,5 +28,14 @@
     "RIS-ORDONEZ-2022-LEAD",
     "RIS-MIKKOLA-2013-P229"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "generation_errors": [
+    {
+      "at": "2026-11-27T23:37:20.789Z",
+      "step": "imagegen referenced-image read",
+      "error": "unable to read referenced image: exec-server transport closed",
+      "output_image": false,
+      "recovery": "ls confirms2507191byteinput andview_image succeeds; same builtin tool retry after reopen"
+    }
+  ]
 }

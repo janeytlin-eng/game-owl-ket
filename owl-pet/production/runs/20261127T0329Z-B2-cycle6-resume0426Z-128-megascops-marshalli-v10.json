@@ -20,12 +20,16 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-27T04:38:17.691Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T04:39:27.508Z"
     }
   ],
   "errors": [],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T0329Z-B2-cycle6-resume0426Z-128-megascops-marshalli-v10.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "source_ids": [
     "MARS-WESKE-1981",
     "MARS-MIK2013-P234"
@@ -47,5 +51,20 @@
     },
     "wait": 32.684,
     "review": "Palehornsheathnotachieved: basesbarelylightenedwhilemostclawstilldark. Rejected, secondeditrequired."
-  }
+  },
+  "generation_calls": 2,
+  "generation_wait_total_seconds": 65.77799999999999,
+  "image_meta": {
+    "bytes": 2777502,
+    "sha256": "6ed158b029fd6f225cb19c33e77a5b8d0c7db42056b7f196a5b4fccdd7d52d7b",
+    "git_blob": "57f6005877d82c6fba49fe65ec109477c4491f47",
+    "size": [
+      1536,
+      1024
+    ],
+    "b64len": 3703336
+  },
+  "generation_wait_seconds": 33.094,
+  "status": "PASS_WITH_LIMITATIONS",
+  "review": "Actualv9/attempt1/finalfullimagesviewed. Firsteditinsufficientdarkdistalclaw,rejected/preservedoriginal. Secondeditadultclawsnowvisiblypalehornalongcurvedsheath; fleshytoes/legboundary/grips retained. Centralolderimmatureclawsstilldarkunchanged/provisional, noadulttraittransfer. Adultdarkbrowniris/rufousdiscblackrim/shorttufts/whitebrokenupperSCAPULARband/dusky-tawnylowcontrastOUTERFLIGHTFEATHERS/variablewhitebelly andnear-equalheight retained. Formedolderimmaturewing/laxscapularremnants/unknownage/tailpartlyhidden retained, sixbranchsupports/text/cloudforest retained. PASS_WITH_LIMITATIONS guide-supportedadultclawpaletteonly; primarydoesnotstateclawcolor, noindependentconfirmationclaimed. Exactshade/geometry/youngage/flightunknown, sciencefalse."
 }

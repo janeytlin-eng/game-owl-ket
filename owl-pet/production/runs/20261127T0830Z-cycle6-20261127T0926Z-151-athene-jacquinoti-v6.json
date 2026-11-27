@@ -12,11 +12,27 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-27T09:29:15.111Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T09:30:49.780Z"
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-27T09:30:55.377Z"
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-27T09:31:00.811Z"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-27T09:31:23.582Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T0830Z-cycle6-20261127T0926Z-151-athene-jacquinoti-v6.json",
-  "stage": "RESEARCH_READY",
+  "stage": "VERIFIED",
   "research": "AthenejacquinotinominateSanJorge/SantaIsabel, guideoldNinoxjacquinoti, nochange251/unique+0. v5actualfullviewhasprominentdarkcavitybehindrightadult; no depictednestuseproved. Thisv6ENVIRONMENTDESIGNrevisionremovesunsupportednest-likecue, notclaimcavitybiologicallyimpossible. Existingbillcorrection/juvenileUNVERIFIEDalreadygood, preserve. MIKKOLA-2013sameuploadedbookactualprinted481/PDF483read2026-11-27: primary/tallsecondaryforest, juvenileundescribed, darkolivebill/yellowishtoes; slightfemalequalitativenosexweights, retainbodycomposition. WSO-MNHN-RECORD-2010-270 reusedactualinstitutionalbody https://science.mnhn.fr/institution/mnhn/collection/zo/item/2010-270 undatedcatalogue accessed2026-11-27: maleholotype, ageindeterminate, SanJorgeNov1838, Athene/Ninoxhistoricaldeterminations, noyoung/nestingproof. Targetedcurrentandoldnamejuvenile/nestwebsearch noaccepteddevelopmentrecord; museum2011catalogueleadnotreadnotcounted. Youngappearance/age/iris/flight/nestmaterialsunknown; exteriorhabitatdesignfactseparated. Sourcesnew0/reusebook+museum2. Preflightfd9d70dconnector422NoCommitFound/group25localpresentnotnewcredit; initialhelpercomputedkeysyntaxfailedbeforemutationsandfixed. FirstbookPDF488wasunrelatedSpeckledcaptionandexcluded; correct483read.",
   "full_prompt": "Precise-object-edit #151 Athene jacquinoti v5 to v6. Change ONLY DARK TREE CAVITY in upper-right background behind rightadult: replace the hole with continuous naturally weathered solid bark and a few moss/lichen patches, seamlessly matching surrounding trunk. No visible cavity entrance, nesting chamber, eggs or nestmaterial. This is a neutralforestperchconcept notnestreconstruction. Preserve ENTIRE threebirds/plumage/eyes/oliveadultbills/youngunverifiedshape/feet/sexscale/branchcontacts,exactalllabels/footer. Addv6besidetitle. Samewarmroundednaturalisticstyle, sameforestlight. Do notalteryoung; no newage/flight/sex/nestclaim.",
   "source_ids": [
@@ -24,6 +40,23 @@
     "WSO-MNHN-RECORD-2010-270"
   ],
   "new_sources": 0,
+  "image_meta": {
+    "bytes": 2936260,
+    "sha256": "7adf02bc3b7abbdec556f78831451930a82c69bf452b7a752d8c23eea5c2660f",
+    "git_blob": "278853d2c8b3717ef6354f3339a15280eccd78ae",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "generation_wait_seconds": 38.516,
+  "review": "Actualfullv6viewed: formerdarkholeinupperrighttrunkreplacedsolidbark/lichen, noreplacednest/eggs/cavity. Entirebirds/oliveadultbills/yellowishfeet/darkclaws/eye/plumage/support/juvenileunverifiedlabelsretainedqualitatively; exact3birds6footcontacts. Environmentaldesignrevisiononly, notnewnestknowledgeorbiologicalerrorclaim. Problem→unverifiednestlikecue→sourceshabitat/museumprovenancenotnest→neutralbarkbackground→actualviewconfirmsremoved. Juvenileage/plumage/iris/flight/sexmetricunknown, sciencefalse. No repeatoldbillfix. Ruleappliedvisuallyeffectiveforcompositiononly, notglobalecologicalvalidation.",
+  "status": "PASS_WITH_LIMITATIONS",
   "archive_commit": "a9410256f89aca7411c73896465064ad9d0eec67",
-  "commit_sha": "8c5eabcfee89a009fef77931bdf0b87accb10d78"
+  "commit_sha": "8c5eabcfee89a009fef77931bdf0b87accb10d78",
+  "credit_commit": "c6974d25d77cb572dc4c4c0afc5e8099fbb3eb0d",
+  "ended_at": "2026-11-27T09:31:34.272Z",
+  "verified_at": "2026-11-27T09:31:23.558Z",
+  "verification_exit_code": 0,
+  "stage_reconciliation": "Recovered complete immutable ARCHIVED-stage history and actual VERIFIED stage; earlier credit record used stale JS snapshot. No new image or cycle credit."
 }

@@ -1,0 +1,173 @@
+{
+  "run_id": "20261127T1106Z",
+  "checked_at": "2026-11-27T11:31:27.431Z",
+  "result": "PASS",
+  "process_exit_code": 0,
+  "immutable_delivery_commit": "3fcc328f5d98c1e4b06a0ea7c444d04f26b38d4a",
+  "full_git_blob_body_checks": 6,
+  "final_originals_concepts_full_bytes_sha256_png_decode": "each cycle verified before credit; six final pairs",
+  "rejected_initials_full_bytes_sha256_png_decode": 3,
+  "checks": [
+    "six immutable VERIFIED run bodies stage+exit0",
+    "six exactly-once ledger records match VERIFIED SHA",
+    "latest manifest status/sciencefalse for all six",
+    "SOURCE_INDEX full Git blob hash and six target mappings",
+    "delivery summary, recovered previous summary, stage audit, ledger and manifest complete bodies parsed/hashed",
+    "six real credit commit objects fetched"
+  ],
+  "next": {
+    "batch_id": "20261127T1106Z",
+    "completed": 5,
+    "next_cycle": 6,
+    "other_partial_batches": 0,
+    "lease": null
+  },
+  "coverage": {
+    "unique": 207,
+    "versions": 1353,
+    "numbered": 219,
+    "total": 251
+  },
+  "cycle_evidence": [
+    {
+      "target": "165-ninox-punctulata-v8",
+      "commit_sha": "ad2f39c1596cc7ae36bc690223c5c33598291c22",
+      "archive_commit": "a4b12c910d271c58d01dc7c423dd04839f00603e",
+      "credit_commit": "8a7492689dfdb2a70c283cb8c77fd2b4a71eebc2",
+      "run_record": "owl-pet/production/runs/20261127T1030Z-cycle6-20261127T1106Z-165-ninox-punctulata-v8.json",
+      "meta": {
+        "bytes": 2750481,
+        "sha256": "79c399ed922882b0cc3d822ca7f70676bca08c0130eb97a8e3589b549c7f2222",
+        "git_blob": "cfcb1aabc293db58f95f655702e7426ce251194d",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "chars": 3667308
+      },
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "target": "110-megascops-barbarus-v15",
+      "commit_sha": "94bfaa9195fe5217956a2bd7e26895928839d45b",
+      "archive_commit": "1c213f69dedb9886b85c979262afbca5d224ae91",
+      "credit_commit": "3606b181375f6dbb197d772353fda470e2d8417e",
+      "run_record": "owl-pet/production/runs/20261127T1106Z-cycle1-20261127T1106Z-110-megascops-barbarus-v15.json",
+      "meta": {
+        "bytes": 2778337,
+        "sha256": "37b50fff2df6722788a30ac4c2617889bc7445362e209b13fc9083ee6e87a427",
+        "git_blob": "c2b7bebc24732c3b9d14e1f6c88ca5d4e0d7873b",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "chars": 3704452
+      },
+      "initial_meta": {
+        "bytes": 2734679,
+        "sha256": "a74f9fafbdb2f5e07a48904d5e7a27b86ff29bcf3c4caf5d1501f08fa2ac6270",
+        "git_blob": "d3255c8ca62e4d201f9cf7ab2c95477bf6e6106a",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "chars": 3646240
+      },
+      "status": "NEEDS_REVISION"
+    },
+    {
+      "target": "130-megascops-koepckeae-v10",
+      "commit_sha": "8e8effb28ce4a7255c1d0bcf0f8959ae75524151",
+      "archive_commit": "3e14d0b672ceefe1a1186d23b7a94dec2e5ae4d2",
+      "credit_commit": "32aa5ece03865097f8050d271e17bdbe209ff46f",
+      "run_record": "owl-pet/production/runs/20261127T1106Z-cycle2-20261127T1106Z-130-megascops-koepckeae-v10.json",
+      "meta": {
+        "bytes": 2521436,
+        "sha256": "4f79a7fc48d29f1c34177c6f1ac998473d723c1dcec266eaa9109e9d66aab36d",
+        "git_blob": "c459ee67cfdfd3ac883608576c496dba1bf98f03",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "chars": 3361916
+      },
+      "initial_meta": {
+        "bytes": 2560249,
+        "sha256": "af527c68bf675e065ae4a6ef18f20b724a13ae5e0592dfc7bc9458d24272f7ce",
+        "git_blob": "e5d8a36c26a444734beaff455d2b36377c42048b",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "chars": 3413668
+      },
+      "status": "NEEDS_REVISION"
+    },
+    {
+      "target": "134-megascops-sanctaecatarinae-v10",
+      "commit_sha": "3a6c9e80ff921fbf2925549004113383f7885ba9",
+      "archive_commit": "42175378906338ba4b191cfa2bef1430802f4ebb",
+      "credit_commit": "919d60e89d4dd7245d29c35a8c8f478d4e06aa7b",
+      "run_record": "owl-pet/production/runs/20261127T1106Z-cycle3-20261127T1106Z-134-megascops-sanctaecatarinae-v10.json",
+      "meta": {
+        "bytes": 2649485,
+        "sha256": "7990c8ee0ea767e01d763a3aba494361478a0feff7acc199d018b6d52b45f79d",
+        "git_blob": "538e2414912ef4778d076e908721b8b5db848e2e",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "chars": 3532648
+      },
+      "initial_meta": {
+        "bytes": 2738511,
+        "sha256": "1241e80ee9d864e8e6830f035affefc7270bcd32a8a3441bf58bf58becb58ab8",
+        "git_blob": "ef153331e5f10aebba57399f31a0434217660137",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "chars": 3651348
+      },
+      "status": "NEEDS_REVISION"
+    },
+    {
+      "target": "167-ketupa-poensis-v7",
+      "commit_sha": "aa94af3345574b88b7bb7765ac61f4a2d741cc6f",
+      "archive_commit": "380802138bafbe549b1665c17be6781bdbc6cfdf",
+      "credit_commit": "4f258632e92d69fb0eda9cb874d83cb9de1decb3",
+      "run_record": "owl-pet/production/runs/20261127T1106Z-cycle4-20261127T1106Z-167-ketupa-poensis-v7.json",
+      "meta": {
+        "bytes": 2572041,
+        "sha256": "36442788614a033dcbd9e9dfa6d67b9bf7ac9f5a5e99c3acdc953e381eb7ad41",
+        "git_blob": "cd113ea84ac02e5a958114d060fd9a2edd3dbc00",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "chars": 3429388
+      },
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "target": "168-ketupa-leucosticta-v7",
+      "commit_sha": "55fb7bdd52d0c5fbb1d5c08f5ca1d1bf5721fb52",
+      "archive_commit": "7202a21eef6e8f52d5cc2d916fc4cb54a5ef9035",
+      "credit_commit": "5f91be94b020f02e6ce5e902a4808405f288794e",
+      "run_record": "owl-pet/production/runs/20261127T1106Z-cycle5-20261127T1106Z-168-ketupa-leucosticta-v7.json",
+      "meta": {
+        "bytes": 2464353,
+        "sha256": "fe4154a8dc1e0b2b7c16e80497e256b92f95f3f3aacac93f2d454ff5f0d56214",
+        "git_blob": "5b2fd2b694f0919d408593992cf420004433e52c",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "chars": 3285804
+      },
+      "status": "PASS_WITH_LIMITATIONS"
+    }
+  ],
+  "additional_preflight_error": "First JavaScript helper attempted storing a function (nonserializable); changed to serializable source string before any repository mutation.",
+  "ended_at": "2026-11-27T11:31:27.431Z"
+}

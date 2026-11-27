@@ -471,6 +471,12 @@
       "step": "170 firstimage",
       "error": "versionv7persisted",
       "recovery": "secondimagegeneditv8actualviewed"
+    },
+    {
+      "step": "finalreceipt refreadback",
+      "error": "helper REF readback mismatch after update; commit actuallylanded",
+      "recovery": "fresh plural git/refs/heads/main and commitscollection confirmed457146c7eb77dd1f07d2f13e035dbe1fe9eacafe with intendedmessage and parent848ec9d; do not retry duplicatecommit",
+      "cause": "unconfirmed; possible immediately stale refresponse, no evidence of concurrentwrite"
     }
   ],
   "old25_recovery": {

@@ -337,5 +337,13 @@
     "exactoncesixcredits",
     "indexall13IDsandstableIDcorrection",
     "leaseempty"
-  ]
+  ],
+  "post_archive_ref_check": {
+    "initial_helper_error": "REF readback mismatch",
+    "fresh_main": "457146c7eb77dd1f07d2f13e035dbe1fe9eacafe",
+    "confirmed_parent": "848ec9d7431bd354c055dcac53c72f212dd21db0",
+    "confirmed_message": "Verify six cycles:42files14PNG6historiccredits PASS; persist readback receipt",
+    "duplicate_commit_retry": false,
+    "cause": "Unknown; fresh ref and commit collection recovered correct landedcommit"
+  }
 }

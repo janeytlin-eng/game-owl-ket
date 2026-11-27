@@ -24,6 +24,10 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-27T02:50:37.855Z"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-27T02:51:14.705Z"
     }
   ],
   "errors": [],
@@ -31,7 +35,7 @@
   "unique_species_increment": 0,
   "revision_increment": 1,
   "run_record": "owl-pet/production/runs/20261127T0231Z-B2-cycle1-resume0231Z-119-megascops-centralis-v7.json",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "source_new": 0,
   "source_reuse": 3,
   "source_ids": [
@@ -55,5 +59,9 @@
   },
   "generation_wait_seconds": 88.861,
   "generation_calls": 1,
-  "status": "PASS_WITH_LIMITATIONS"
+  "status": "PASS_WITH_LIMITATIONS",
+  "archive_commit": "a34a652ad9508a4388677e589ea388cf91c71875",
+  "verify_exit0": true,
+  "ended_at": "2026-11-27T02:51:14.681Z",
+  "lesson": "Adult brow correction is distinct from juvenile down-material problem. Mikkola p242 explicitly distinguishes faint eyebrows/poorly defined outer disc from blackish orbital rings. Applied and visually verified in #119v7 while preserving previously repaired pale adult toes and pink lower tarsi. Juvenile curly material remains unresolved; do not claim wholeplate scientific pass."
 }

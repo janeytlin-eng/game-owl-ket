@@ -373,3 +373,7 @@ Independentstudy→integration onlyvalidated112, NOT110: final110belly retainscl
 
 ## 2026-11-27 0231Z 108-otus-rutilus-v7
 Recovered the actual Vassen Flickr photograph after Commons/thumbnail403 errors and re-viewed it before generation. A bounded edit reduced long bright wool-like locks to shorter denser brown down; fine curls remain uncertain. This supports the narrow long-lock correction only, not a transferable universal down-material rule or scientific approval. Keep #110 failed two-stage transfer and #119/#120 juvenile material in unresolved queue.
+
+
+## 2026-11-27 0231Z 119-megascops-centralis-v7
+Adult brow correction is distinct from juvenile down-material problem. Mikkola p242 explicitly distinguishes faint eyebrows/poorly defined outer disc from blackish orbital rings. Applied and visually verified in #119v7 while preserving previously repaired pale adult toes and pink lower tarsi. Juvenile curly material remains unresolved; do not claim wholeplate scientific pass.

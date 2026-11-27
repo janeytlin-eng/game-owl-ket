@@ -28,6 +28,10 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-27T02:44:27.678Z"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-27T02:48:10.125Z"
     }
   ],
   "errors": [],
@@ -35,7 +39,7 @@
   "unique_species_increment": 0,
   "revision_increment": 1,
   "run_record": "owl-pet/production/runs/20261127T0125Z-B2-cycle6-resume0231Z-108-otus-rutilus-v7.json",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "source_new": 0,
   "source_reuse": 2,
   "source_ids": [
@@ -58,5 +62,9 @@
   },
   "generation_wait_seconds": 37.198,
   "generation_calls": 1,
-  "status": "PASS_WITH_LIMITATIONS"
+  "status": "PASS_WITH_LIMITATIONS",
+  "archive_commit": "a0bfeeb9e8b06a67232828ff1bb7e52c790795c4",
+  "verify_exit0": true,
+  "ended_at": "2026-11-27T02:48:10.101Z",
+  "lesson": "Recovered the actual Vassen Flickr photograph after Commons/thumbnail403 errors and re-viewed it before generation. A bounded edit reduced long bright wool-like locks to shorter denser brown down; fine curls remain uncertain. This supports the narrow long-lock correction only, not a transferable universal down-material rule or scientific approval. Keep #110 failed two-stage transfer and #119/#120 juvenile material in unresolved queue."
 }

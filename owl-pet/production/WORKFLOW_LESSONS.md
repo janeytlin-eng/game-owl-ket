@@ -369,3 +369,7 @@ Photo-first central rebuild improved110 head/pose/compactformedwing but inherite
 
 ## 2026-11-27 0231Z 110-megascops-barbarus-v10
 Independentstudy→integration onlyvalidated112, NOT110: final110belly retainsclosedloops despite sourcefaithfulhead/pose/wing. MarkNEEDS_REVISION, avoiduniversalfixclaim. All originals/studies/prompts preserved. Crossaffected108checknext with itsownphoto, not brownmorph oradulttraitsborrowed.
+
+
+## 2026-11-27 0231Z 108-otus-rutilus-v7
+Recovered the actual Vassen Flickr photograph after Commons/thumbnail403 errors and re-viewed it before generation. A bounded edit reduced long bright wool-like locks to shorter denser brown down; fine curls remain uncertain. This supports the narrow long-lock correction only, not a transferable universal down-material rule or scientific approval. Keep #110 failed two-stage transfer and #119/#120 juvenile material in unresolved queue.

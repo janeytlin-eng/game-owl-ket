@@ -1,0 +1,7 @@
+# 116-margarobyas-lawrencii-v6
+
+Access2026-11-27. FreshexternalresearchITISactualtaxonomy6–41/source80–83 currentMargarobyaslawrencii/oldGymnoglaux/Otuslawrencii confirmed (newcentralIDCBLO-ITIS-1063251); no change251scope. ActualuserguideMikkola2013printed252/PDF254 Identification/Juvenile read: bareyellowbrownlegs/toes/darktippedhornclaws; sexesizedataabsent; oldermesoptilelessspottedadultlike, no exactage/flight. Actualv5opened morphology/twoadultplusyoungsupported, cavitybehindyoungcouldbeassumedactivebroodscene; addunknownage/cavitycontext-flightunverified labels only, notnewbiologycalibration. PriorKirkconnellWiley2017publisherPDFURLnowredirectsNBCgenericpage, notactualpaperread; 2025Peregrineguideweb40055.7MB notfreshlyread, historicalreuseonlynotcountedfresh. Sourcesnotusedtoinventlining/eggs/dayage. Newindex1/reuse1; sourceURLandlimitsincentralentry, sciencefalse.
+
+## Complete built-in imagegen prompt
+Use case: precise-object-edit. Inputtarget116v5.
+Change only rightbird rolecaption JUVENILE to "OLDER JUVENILE — AGE UNKNOWN" on twoquietlines; addsmallbottomfooter "CAVITY CONTEXT · NEST OCCUPANCY AND FLIGHT UNVERIFIED". Keep originalnumberedtitle/commonname/adultlabels andallbirds identical: rounduntuftedheads/darkeyes/mutedhornbills/adultdropmarks/longBAREyellowbrownlegsandtoes/grips/youngsiennaplumagecompactwing/pose/scale/palmcavity/branches/forestlighting. Annotationonly, no featheraddition on barelegs, no eggs/nestlining/prey/newanimals/border/watermark. Naturalbackgroundcavityiscontext notprovedactivenest.

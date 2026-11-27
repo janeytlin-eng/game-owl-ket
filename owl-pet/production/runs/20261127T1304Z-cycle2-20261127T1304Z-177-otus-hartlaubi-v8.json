@@ -12,16 +12,32 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-27T13:11:25.681Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T13:12:35.076Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T1304Z-cycle2-20261127T1304Z-177-otus-hartlaubi-v8.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Access2026-11-27 reuse STSO-MIKKOLA-2013-P136 sameMikkola2013 actualprinted136/PDF138 read: adult yellowishochre bare tarsi/toes, BROWN CLAWS, yellowbill/cere/deepyelloweyes, verysmalltufts, white scapulars, finely barredmesoptile notdescribednatalchick; distalquarterbare. Currentv7 actualview claws grayhorn (too cool) versusbrown guide. Reuse STSO-NAUROIS-1975-P323-326-327-329 R.deNaurois1975 Otus hartlaubi BonnerZoolBeitr26:319–355 https://www.zobodat.at/pdf/Bonner-Zoologische-Beitraege_26_0319-0355.pdf targetedfreshweb original403 (existingprioractualp325–328record reused as historical only; NOTneworiginalread thiscycle). Existing primary describes nonflying young, posterior tarsusbare/forwardbillbristles and yellowbillbluegraytip; no claim precise youngage/iris or populationsexheight. Source limitation adultclawcolourguide-only, noindependentlivingphotocalibration. New0/reuse2IDs, no newtaxonomy. Narrowclawpaletteonly, keepv7facialfringereduction, legalformedyoungwing, scientificfalse.",
   "full_prompt": "Use case precise-object-edit. Edit #177 Otus hartlaubi family v7. Change ONLY BOTH ADULT CLAW SHEATH COLOURS from cool gray to muted natural BROWN HORN. Keep normal dark terminalhooks and tiny reflectedhighlights, shape/length/fouradultfootgrips unchanged. Keep yellowochre adultbare toes and existing exposedtarsalboundaries unchanged. YoungRIGHT entirely unchanged including unverifiedeyes/bill/claws, barred body and nonflying supportedstance. Keep adultyelloweyes/yellowbluegraytippedbills, reduced localfacialbristles, white scapulars/bodypattern/near-equaldisplay, forest/title/labels/unknownfooter unchanged. Add small v8 nexttitle. No uniformblackclaws, no newnest/flight/ageclaim.",
   "source_ids": [
     "STSO-MIKKOLA-2013-P136",
     "STSO-NAUROIS-1975-P323-326-327-329"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "image_meta": {
+    "bytes": 2425808,
+    "sha256": "7925850b5b3f84a6bf59e23a62eb41cc630d99f508ce3d29cce36ff74f6666f8",
+    "git_blob": "ca89b2ecaf2d2d0f1753f1ceec8b8a47439dbe8c",
+    "dimensions": [
+      1536,
+      1024
+    ]
+  },
+  "generation_wait_seconds": 41.066,
+  "review": "#177v8 actualwholeview: adultclawsnowdarkbrown/chocolatehorn versuscoolgray, darktipsremain. Yellowochretoes/featherboundary/6branchcontacts retained, young entirely retainedincludingunverifieddarkeyes/bill/claws/formeddevelopingwing/nonflyingstance. Adultyelloweyes/yellowgraytippedbills/localbristles/whitescapulars/near-equaldisplay unchanged directions. v8placedonfooter nottitlenextasasked butlegiblecorrectversion. Noextraeditneedednarrowpalette; brownreflectanceguide-only notphotometric. Exactyoungage/bareparts/tarsalfeathermapunknown. Problemcoolgrayclaws→ownbookbrown→adultonlyedit→brownseen, notuniversalpalette. Nauroisfresh403andhistoricalfactsdistinguished; no freshPDFread claim. PASS_WITH_LIMITATIONS sciencefalse.",
+  "status": "PASS_WITH_LIMITATIONS"
 }

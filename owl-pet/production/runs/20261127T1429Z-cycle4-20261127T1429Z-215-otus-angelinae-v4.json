@@ -13,11 +13,15 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-27T14:43:58.626Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T14:45:21.541Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T1429Z-cycle4-20261127T1429Z-215-otus-angelinae-v4.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Otus angelinae (historical Pisorhina angelinae), West Java reference; no new species. Reused OANG-MIKKOLA-2013-P182: Mikkola2013 uploaded printed182/PDF184 actual reread2026-11-27: young darkreddishbrown, fine crown crossbars and broader mantle/back/rump bars, darker rufous below faintbars/fewbroadshaftstripes. Sex-size/youngiris/exactage/firstflight not provided. Reused OANG-BIRDLIFE-2001-P1748 BirdLifeInternational ThreatenedBirdsofAsia2001 original https://birdlifedata.blob.core.windows.net/red-data-books/otusange.pdf Breeding1748 and identification1749 read: fledgedyoung familygroups, not precise age; suspected fernnest not proof and loweraltitude misidentification cautions. Source institutional synthesis of primary observations, not newlyread Beckingprimary. Fresh targeted research re-found2019Saraswati claim; prior ID limitations retained/no new phenotype accepted. v3 actual fullimage: mantle bars corrected, but crown facial/chest feather material contains tangled bright hairpin/curl outlines like wire; target material without erasing actual finecrown crossbars/broadermantle bars or faintunderpartbars. Keep ageunknown olderjuvenile formed compact wing/no matureprimaries, perched support, IRIS UNVERIFIED; no new nest or measuredability. New0/reuse2, biological scientificfalse. Comparing #217v4/#219v4 material-only applications suggests specifying pigment vs featheredges, not general validation.",
   "full_prompt": "Edit existing #215 Javan Scops Owl Otus angelinae trio. Preserve both adult birds in full, entire setting/branch/feet, all text including IRIS UNVERIFIED and scientific calibration pending. Refine only RIGHT OLDER JUVENILE'S surface material on crown/face/chest/belly: remove artificial tangled curly hairpin/loop/outlined wiry feather shapes. Render natural loose juvenile feathers with very fine soft unoutlined edges and irregular overlap, predominantly DARK REDDISH BROWN. Keep fine dark transverse crown crossbars; preserve broader dark reddish-brown transverse mantle/back bands introduced previously, keep faint dusky rufous breast crossbands and a few broader shaft stripes, lower contrast than adult. Do not smooth into featureless fur, white down, a newborn, or add pale patches/adult herringbones. Keep same head tilt, tiny short crown corners, existing eye colour with IRIS UNVERIFIED annotation, pale provisional bill, exact same formed compact folded wing/silhouette/hidden shorttail, body size, both supported feet. Pigment bands remain, repeated pale individual feather outlines disappear. Adults/sex display, white inner tuftwebs/brows/scapular line and forest unchanged. Full1536x1024, no new age/flight/nest assertion.",
   "source_ids": [
@@ -25,5 +29,17 @@
     "OANG-BIRDLIFE-2001-P1748"
   ],
   "new_sources": 0,
-  "research_ready_at": "2026-11-27T14:43:58.616Z"
+  "research_ready_at": "2026-11-27T14:43:58.616Z",
+  "initial_metadata": {
+    "bytes": 2567288,
+    "sha256": "cc3223ca8af59844ef9998bdc0e84c2e9d2576437128db09c847d1f1e5b46cdf",
+    "gitblob": "07457b201de77e5fb7da63bef6f8ea03418734e4",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "initial_wait_seconds": 48.243,
+  "initial_review": "Body loops weaker but crown continuous raised wire lattice still unresolved, second edit necessary.",
+  "edit_prompt": "Second precise edit to #215 existing fullplate. Change ONLY right juvenile CROWN surface between top of head and eyebrows. It currently resembles a continuous raised wire lattice of closed coils/hairpins. Remove the raised smooth connected wire strands. Render short loose dark rufous juvenile feathers with natural thin soft broken edges; subtle fine DARK BROWN TRANSVERSE PIGMENT DASHES run across the rufous feather field but do not form a connected grid, closed loops or scalp lines. No white spots, no naked scalp, no fur, do not remove all fine crown crossbars. Keep exact head contour, eyes/bill, tiny crown corners, neck/body revised material and broader mantle bars unchanged. All adults, rest of young, entire forest, feet, title/labels/irisunverified/footer unchanged. Complete1536x1024 warm tactile plate. No new age or scientific approval claim."
 }

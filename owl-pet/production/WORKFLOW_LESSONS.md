@@ -409,3 +409,7 @@ Oldbroadbutleri guide must be checked against2015split; primarydiagnosis37/descr
 
 ## 2026-11-27 0426Z 123-otus-gurneyi-v7
 Stronger explicit proximal palehorn/distal dark claw-sheath replacement finally visible in123v7, toe/clawboundaries preserved. Youngdown rerendering changedsurface slightly; avoidclaimingpixelinvariance. Locallyverifiedpalettefixonly, exacthornextentdesignnotratio. Priorweakeditfailurepreserved.
+
+
+## 2026-11-27 0426Z 110-megascops-barbarus-v11
+Directone-stagephotoreference/erasecoilpromptalsofailed110closedloopdown, aftertwostagefailure. Preservefailuresandstopassertingprompt-alonegeneralfix. Needgenuinelydifferentmaterialgenerationstrategy, notanothernearlyidenticalrephrasing. Anatomystage/supportpass doesnotimplymaterialpass.

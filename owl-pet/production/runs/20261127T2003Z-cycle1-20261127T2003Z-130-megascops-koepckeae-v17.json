@@ -13,11 +13,15 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-27T20:17:11.435Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T20:18:14.994Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T2003Z-cycle1-20261127T2003Z-130-megascops-koepckeae-v17.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "New0/reuse2 documentary sources. KOEP-ALARCON-2023, IbethPAlarcon etal2023, Reproductiveevents ofbirds fromSouthernEcuador, NeotropicalBiodiversity9:93–114 DOI https://doi.org/10.1080/23766808.2023.2237229 ; actual cached original34951163bytes printed104/PDF13 text reread, actualFig1c printed95/PDF4 viewed. Two dependentfledglings Loja2019-04-23, graywhitebarred nessoptiles/brownchest/blackdiscedge/whitebrows/yelloweyes; Podocarpus3–4m branches. Exactage/sex/flight/subspecies unknown. Webfreshsearch+original attempt400oversized, actuallocaloriginal used notsearchsnippet. KOEP-MIK2013-222 sameMIKKOLA-2013 printed222/PDF224 actuallyreread: no sexsize data, adult shorttufts/broadbranchedstreaks/graybrowntoes/darkhornclaws, grey nestling not sameas older fledgling. OldOtuskoepckeae. Existingv16viewed: stillrepeatedpaleU scallopmargins too stronglyoutlined. Newexperiment enlargedjuvenile-only imagegenedit then imagegenintegrate wholetrio, differentfromv16 freshwholetrio photoonly. Unknownwhether finegeometry survives integration; mustviewboth. No sourcephoto/book republish.\nSupplementarymissing-species searches Otusumbra/Ninoxhypogramma/Ninoxios/Atheneroseoaxillaris and S1hypogramma/moheliensis found no verified newyoung phenotype; liewwkmulti-species page mixes headings so barredcrown statement isOtusmagicus nothypogramma; no trait transferred/no productioncredit. Auk1936footlead original redirected SORA landing, notpaper.",
   "full_prompt": "Use case precise-object-edit. Image1 is enlarged young Koepcke's Screech-Owl concept crop; image2 is actual species dependent fledgling in Alarcon2023Fig1c biological reference, not for pasting. Correct ONLY young feather texture. Eliminate scalloped V/U feather-edge chains and thick curved cords. Gray-white nesoptile down is a continuous soft matte fine mottled surface with narrow diffuse gray transverse PIGMENT marks; tiny straight unoutlined feather barb tips only at outline. Source has compact formed dark folded wing: preserve that real fledgling stage, no adult white shoulder buttons. Keep dark facial perimeter, white brows, yellow eyes, bluegraybill, no ear tufts, brown chest wash, feet and branch grip and exact pose/silhouette. Do not copy frog/prey or source background. Preserve warm tactile 3D collectible style while avoiding plastic gloss. No wool/crochet/fur/curls or drawn contour-feather scales. No added text or animals.",
   "source_ids": [
@@ -25,5 +29,17 @@
     "KOEP-MIK2013-222"
   ],
   "new_sources": 0,
-  "research_ready_at": "2026-11-27T20:17:11.418Z"
+  "research_ready_at": "2026-11-27T20:17:11.418Z",
+  "initial_metadata": {
+    "bytes": 2613092,
+    "sha256": "d834202c41d2b590617241f919d1292c01e28133b3108146420e955e2272d9d6",
+    "gitblob": "546bc07a35b897057d3d2daf07780783b08de53a",
+    "size": [
+      1076,
+      1461
+    ]
+  },
+  "initial_wait_seconds": 26.791,
+  "initial_review": "Enlarged output actually viewed. Large bright repeated U/scallop units reduced to continuous fine down; many thin hairlike filaments still curl and broad dark pigment bands remain too regular relative source. Keep limitation; integrate to test scale.",
+  "edit_prompt": "Use case compositing. Image1 existing #130 Koepcke's Screech-Owl v16 wholeplate exact edit target. Image2 corrected enlarged juvenile detail. Integrate ONLY corrected juvenile surface from image2 into right bird of image1, matching existing body position/size/twofoot branch contact. Preserve compact formed wing and tail, diffuse narrow grey down pigment marks, white brows/black face rim/yellow eyes/bluegrey bill; no prominent white adult shoulder row. Do NOT create loops or scalloped feather outlines when reducing image. Keep both adults exactly, background/branch/title layout/role labels and AGE SEX FLIGHT UNKNOWN footer. Change version16 to17. No other changes, no extra birds/prey, no scientificpass."
 }

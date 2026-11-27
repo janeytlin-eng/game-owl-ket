@@ -16,6 +16,10 @@
     {
       "stage": "EDIT_REQUIRED",
       "at": "2026-11-27T01:42:21.988Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T01:43:33.291Z"
     }
   ],
   "errors": [],
@@ -23,7 +27,7 @@
   "unique_species_increment": 0,
   "revision_increment": 1,
   "run_record": "owl-pet/production/runs/20261127T0125Z-B2-cycle2-resume0125Z-119-megascops-centralis-v6.json",
-  "stage": "EDIT_REQUIRED",
+  "stage": "IMAGE_GENERATED",
   "source_new": 0,
   "source_reuse": 3,
   "source_ids": [
@@ -48,5 +52,18 @@
     "wait": 31.677
   },
   "generation_calls": 2,
-  "edit_prompt": "Use case: precise-object-edit. Image1 is the current edited119 plate, image2 is the prior v5 for restoration only. The toe colour repair worked, but it spilled onto the ADULT bare lower-tarsus skin ABOVE the toe joint. Restore ONLY those adult exposed lower-tarsus strips above the toe joints to their exact original muted pinkish colour from image2. Retain newly very pale yellowish TOE skin in image1, all claws and exact feather/skin boundaries. Do not invent a different anatomical border. Central juvenile unchanged entirely. Every bird, pose, feather, forest/cavity/branch, support, title andlabel unchanged. This restores edit scope; it is not claiming a scientifically verified tarsal colour."
+  "edit_prompt": "Use case: precise-object-edit. Image1 is the current edited119 plate, image2 is the prior v5 for restoration only. The toe colour repair worked, but it spilled onto the ADULT bare lower-tarsus skin ABOVE the toe joint. Restore ONLY those adult exposed lower-tarsus strips above the toe joints to their exact original muted pinkish colour from image2. Retain newly very pale yellowish TOE skin in image1, all claws and exact feather/skin boundaries. Do not invent a different anatomical border. Central juvenile unchanged entirely. Every bird, pose, feather, forest/cavity/branch, support, title andlabel unchanged. This restores edit scope; it is not claiming a scientifically verified tarsal colour.",
+  "generation_wait_total_seconds": 64.555,
+  "image_meta": {
+    "bytes": 2969593,
+    "sha256": "2b0e2540df892dc71793572b52b6295102439e952da8e1201c2d8c53392b39bd",
+    "git_blob": "de144b1eb0f28d443a2b172d0caad6a810f6e667",
+    "size": [
+      1536,
+      1024
+    ],
+    "b64len": 3959460
+  },
+  "generation_wait_seconds": 32.878,
+  "status": "PASS_WITH_LIMITATIONS"
 }

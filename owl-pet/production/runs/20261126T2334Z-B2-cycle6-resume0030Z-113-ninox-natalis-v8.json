@@ -8,6 +8,10 @@
     {
       "stage": "STARTED",
       "at": "2026-11-27T00:38:31.069Z"
+    },
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-27T00:39:03.775Z"
     }
   ],
   "errors": [],
@@ -15,5 +19,15 @@
   "unique_species_increment": 0,
   "revision_increment": 1,
   "run_record": "owl-pet/production/runs/20261126T2334Z-B2-cycle6-resume0030Z-113-ninox-natalis-v8.json",
-  "stage": "STARTED"
+  "stage": "RESEARCH_READY",
+  "source_ids": [
+    "CIB-WAM-JOHNSTONE-2016",
+    "WHSO-MIKKOLA-2013"
+  ],
+  "source_new": 0,
+  "source_reuse": 2,
+  "research": "Access2026-11-27. Ninoxnatalis, oldNinoxsquamipilanatalis/forbesinatalis retained. FreshWAM RonJohnstoneMarch2016 actualEnglishPDFp1Description13–22 https://museum.wa.gov.au/sites/default/files/Information%20sheet%20-%20Christmas%20Island%20Hawk-Owl_EN_MS_ZH_0.pdf confirmsbluegreybill/yelloweyes/paleyellowfeet/similarsexes/youngpalerdownier; no dayage. ActualuploadedMikkola2013 printed494/PDF496 Identification text read: adulttarsi featheredrufousochrewithreddishbrownbars tobaseofstrawyellowtoes/darkclaws. GuidecaptionerroneouslynamesKiritimati, whereasinstitutionidentifiesIndianOceanChristmasIsland; captionlocalitynotused. Actualv7opened adultlowerlegfeathersnearlywhite/cream/plain; adult-only tarsalground/barcorrection. WAMgenerallegsdescription notrefutationofspecificallyfeatheredshanktext; baretoesremainyellow. Youngage/sex/flight/continuousfeathersequenceunknown, photo-boundedolderyoungretained withoutnewpixelclaim; near-equalscaledoesnotdenyqualitativedirection. Perchnotnest. New0/reuse2, sourcefactsqualitativecolour notspectrometry, sciencefalse.",
+  "full_prompt": "Use case: precise-object-edit. Input target113v7.\nChange ONLY the LEFT and RIGHT ADULT feathered tarsi (the feathered lower shanks above the yellow bare toes): replace their nearly plain white/cream feathers with soft rufous-ochre feathering carrying a few irregular reddish-brown transverse bars. Feathering must end at the base of the STRAW-YELLOW bare toes; leave toes/claws unchanged. Retain no ear tufts/yellow eyes/blue-grey bills/white lores/small adult wing spots/bodybars/near-equal scale, completejuvenileincluding pale down and feet/wing/tail, six branchcontacts, rainforest, title and all labels. Do not impose adult tarsalcolour onyoung. No nest/eggs/newtext/watermark.",
+  "research_record": "owl-pet/research/species/113-ninox-natalis-v8.md",
+  "review_record": "owl-pet/research/reviews/113-ninox-natalis-v8-review.md"
 }

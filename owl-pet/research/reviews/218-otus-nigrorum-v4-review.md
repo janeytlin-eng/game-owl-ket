@@ -1,0 +1,4 @@
+# 218-otus-nigrorum-v4 actual review
+Actual final complete image viewed. Young flank/compact wing sharp bright scales greatly reduced, feather edges diffuse; buffwhite ventrum retains dusky transverse pigment bands. Young rufousbuff crown/fine bars and closed eyes persist. Wing separation is now less distinct under soft feathers, not pixel-identical; no extended remiges or new flight claim. Adults' individual patterns/iris/pinklids/sex bellycontrast/tarsus and all three paired grips/text retained. Material correction effective locally but precise immature feather edge, chronology, iris/bill remain uncalibrated. PASS_WITH_LIMITATIONS/sciencefalse. Avoid describing mere lowered wing contrast as proof of delayed wing development.
+
+{"bytes":2443681,"sha256":"2481bd81080459b23e59128a1176b67065df0777a4100f966a2bf1045e84a432","gitblob":"89cf33013fd182fa453dbe042b87dca589a0b334","size":[1536,1024]}

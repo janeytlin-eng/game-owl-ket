@@ -1,0 +1,3 @@
+# 133-megascops-atricapilla-v8
+Status:PASS_WITH_LIMITATIONS; scientifically_verified=false
+Actualinput/outputfullviewed. Adultfinevermiculationsnowlighter/moregraybrown, boldblackshaftbranchesretained. Reductionvisibleespeciallyinter-shaftareas, somefinepencillikeoutlinesstillpresent/qualitativeonly, notexactphotometriccalibration. Centralyoungyellowiris/smalltufts/mixedbars/formedwing-tail/feetunchangedoverall; adultsdarkcaps/browneyes/greenbills/graybaretoes/darkclaws/near-equaldisplay retained. Threebirds/sixgrips/titlelabels/forestpreserved. PASS_WITH_LIMITATIONS localcontrastonly, exactmarkgeometry/youngchronology/flight/sexratio unresolved. Do noteraseallfinepattern in future; source says finevermiculated, notplainbelly.

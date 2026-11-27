@@ -345,3 +345,7 @@ Low microcontrast whole-down surface prompt tested in112v8; loops remain, NEEDS_
 
 ## 2026-11-27 0125Z 110-megascops-barbarus-v9
 Photo-first central rebuild improved110 head/pose/compactformedwing but inherited closedcurls persist; NEEDS_REVISION. Whole-subject reference swap not validated for material. 112 relatedfailed strategy already actuallyreviewed thisrun. Network reference downloads117/118 failed403 while110 archive fullreadback succeeded; connector fetch_blob PNG decoding failsUTF8, don't equate with GitHubconnection failure.
+
+
+## 2026-11-27 0125Z 117-otus-manadensis-v10
+117adulttoe pink→yellowgray corrected and visually checked, not juveniletraittransfer. Guide fresh194/PDF196. Marshall freshPDFopen redirects tohomepage, corrected READY beforeimagegen; newsecondary PoBsource indexed with dependencies/0data warning. Initialraw403 recovered bysameURLretry, not permanentblock.

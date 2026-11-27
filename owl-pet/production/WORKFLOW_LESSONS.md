@@ -417,3 +417,7 @@ Directone-stagephotoreference/erasecoilpromptalsofailed110closedloopdown, aftert
 
 ## 2026-11-27 0426Z 127-megascops-albogularis-v7
 Adultpalehornproximalclaw/darktip transferfrom123promptlocallyeffective127v7, notassumedforallspecies. InstitutionalBIOWEBbodyfound/readafterPDFsize/403andITIStimeout, supportsadultidentityonly; savefreshsourcewithoutclaimingnewjuvenilefacts. Comparewhitepairedthroat vswhitewingrow separately. Exactyoungiris/downmaterialstillunknown.
+
+
+## 2026-11-27 0426Z 128-megascops-marshalli-v10
+First128adultclawedit insufficient, secondeditpaleentiresheath succeededaftercheckingguidep234whichdoesNOTrequireblacktips. Do notgeneralize123darktipruleacrossspecies. Primary1981livebareparts listsiris/toes/bill butnotclaws; supportlevelremainsecondaryguideonly. Bothattempts preserved, youngformedwingsandpriorouterflightbarcorrectionretained.

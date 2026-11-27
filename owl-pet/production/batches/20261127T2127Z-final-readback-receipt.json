@@ -1,0 +1,385 @@
+{
+  "verified_at": "2026-11-27T21:57:48.585489+00:00",
+  "verified_commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+  "all_checks_passed": true,
+  "full_files_checked": 46,
+  "old_numbered_image_blobs_unchanged": 1412,
+  "baseline_manifest_records_unchanged": 1367,
+  "new_manifest_records": 6,
+  "cycle_credit_exactly_once": 6,
+  "science_passes": 0,
+  "lease": null,
+  "batch2127Z_completed": 4,
+  "next_cycle": 5,
+  "verification_harness_error": "Initial harness used entry[id] and raised KeyError on legacy manifest entries after full file GETs; fixed safe .get(id) and reran. Not data corruption.",
+  "files": [
+    {
+      "path": "owl-pet/design/concepts/130-megascops-koepckeae-v18.png",
+      "commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+      "bytes": 2393385,
+      "sha256": "1b3d2c5b6a4ca594e19b379f1be86eec20b2ab847048215727c6ce2f8cae1f0c",
+      "gitblob": "dd1077cb6f792a57d685da0aaf0012e3b91eca37",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/production/originals/130-megascops-koepckeae-v18.png",
+      "commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+      "bytes": 2393385,
+      "sha256": "1b3d2c5b6a4ca594e19b379f1be86eec20b2ab847048215727c6ce2f8cae1f0c",
+      "gitblob": "dd1077cb6f792a57d685da0aaf0012e3b91eca37",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/research/species/130-megascops-koepckeae-v18.md",
+      "commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+      "bytes": 2504,
+      "sha256": "13557d5c6c5f6ce6689508cc9225a9489d12ef9548b27ca5d5997bef0fa59945",
+      "gitblob": "8cda6071405786e89ccaab50888c8c29d2284132",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/research/reviews/130-megascops-koepckeae-v18-review.md",
+      "commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+      "bytes": 1237,
+      "sha256": "5cca19df151e1b23c248155f4930a6d0e0cf99f9731bdd5dd59fc0438d00012d",
+      "gitblob": "3c550a640d108ff7bd7ee8ee086ba543bbc009dc",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/production/runs/20261127T2003Z-cycle5-20261127T2127Z-130-megascops-koepckeae-v18.json",
+      "commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+      "bytes": 6578,
+      "sha256": "f03700616afccc9bbf322316828af640724871da586cdaed58da9af70cd7bf00",
+      "gitblob": "a9b948eb14bf8eef42441753d6e07769d0790447",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/production/runs/20261127T2003Z-cycle5-20261127T2127Z-130-megascops-koepckeae-v18.json",
+      "commit": "a2f5f4980eb784aa52352d1ab388baf1b7d448bb",
+      "bytes": 6518,
+      "sha256": "9e2800b442e32dfe2e5fc52c7e1338f35d9cf4bf7ac6555c39323b510bf3ef20",
+      "gitblob": "198b39b55400094bc93ff3b141918f51656d5ba3",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/design/concepts/136-megascops-petersoni-v8.png",
+      "commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+      "bytes": 2711074,
+      "sha256": "8b296b579b91f7c0cd6641592cfd088c9c9338ccf92c73013da611d84e4bbb72",
+      "gitblob": "8ac5c1e68974eb5e84abf55c81ca67795632ea89",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/production/originals/136-megascops-petersoni-v8.png",
+      "commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+      "bytes": 2711074,
+      "sha256": "8b296b579b91f7c0cd6641592cfd088c9c9338ccf92c73013da611d84e4bbb72",
+      "gitblob": "8ac5c1e68974eb5e84abf55c81ca67795632ea89",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/research/species/136-megascops-petersoni-v8.md",
+      "commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+      "bytes": 4389,
+      "sha256": "1735a41db7ad8c8ab3a230b14cb398f5bd27305c0c45826f1fe8aac91f564c4e",
+      "gitblob": "41f083e4e37a59235e5804597bfe61ab56195274",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/research/reviews/136-megascops-petersoni-v8-review.md",
+      "commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+      "bytes": 957,
+      "sha256": "99354a7f50c8ff3f356615e29543888975f2291b5bbe1602346e7d47ae4e8ea7",
+      "gitblob": "0487e25fe48b51af9eccd08c3f0cbb8da43e367c",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/production/runs/20261127T2003Z-cycle6-20261127T2127Z-136-megascops-petersoni-v8.json",
+      "commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+      "bytes": 5814,
+      "sha256": "37a5d0525b3c1809be64401a09592dfd68a04299f21f4c4d5e6c8de3b9df7a84",
+      "gitblob": "04becf9aea40d64f4e42f6bbfd5c109f5e8e28e3",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/production/runs/20261127T2003Z-cycle6-20261127T2127Z-136-megascops-petersoni-v8.json",
+      "commit": "40a189eb7673abf30de5c7f76698283aa6d0b0e6",
+      "bytes": 5407,
+      "sha256": "75e34c8c14345578c900d032ff40a35307518bff7d4144129f8f10c50f70d291",
+      "gitblob": "05b4e319e29afba090e4bde92d5dc534296b8204",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/design/concepts/133-megascops-atricapilla-v9.png",
+      "commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+      "bytes": 2508090,
+      "sha256": "5d5d026ce5490fe5d062a7d00058fd9489f927aeb7f1b65e2e5a171bbf6b8b51",
+      "gitblob": "d2f6e5681b2fb0c5769f9d708d608ed548028230",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/production/originals/133-megascops-atricapilla-v9.png",
+      "commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+      "bytes": 2508090,
+      "sha256": "5d5d026ce5490fe5d062a7d00058fd9489f927aeb7f1b65e2e5a171bbf6b8b51",
+      "gitblob": "d2f6e5681b2fb0c5769f9d708d608ed548028230",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/research/species/133-megascops-atricapilla-v9.md",
+      "commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+      "bytes": 2236,
+      "sha256": "e76088a205ed9c5c11f213192f7fff6b202024e9ae4fd90215a80abb59194604",
+      "gitblob": "afbfa42acaac89b0312881ebad608af6cc88a0c3",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/research/reviews/133-megascops-atricapilla-v9-review.md",
+      "commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+      "bytes": 948,
+      "sha256": "df62d978264b498fb284f8f7ad6cef05ffc1b17637ccc0689da17e318f033405",
+      "gitblob": "d102325d0892c44f85a5c448c8d0344c777ac8f5",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/production/runs/20261127T2127Z-cycle1-20261127T2127Z-133-megascops-atricapilla-v9.json",
+      "commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+      "bytes": 4925,
+      "sha256": "a88f3809b4df46ce7807482c80c918acec38a6b4fc61010081aa96ae48e69ba1",
+      "gitblob": "12a5efff38b582023a55be483ea66db0372a4f61",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/production/runs/20261127T2127Z-cycle1-20261127T2127Z-133-megascops-atricapilla-v9.json",
+      "commit": "e8e36eb3e4601ef5b1ff916871e41c26919819fa",
+      "bytes": 4865,
+      "sha256": "c3f5f0945192ed70d178bda85f68a982b28a1dbbef0ca7e10e676aa206fbb6d4",
+      "gitblob": "48aa0efe6b117d5a9d6c9d35c02e508f0e65bca3",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/design/concepts/129-megascops-hoyi-v7.png",
+      "commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+      "bytes": 2296250,
+      "sha256": "dd9f99f9d7c86a2eabdddf32e7b4e2d74625c4b10a1dab4fa30fc7bd691df40e",
+      "gitblob": "ecc51f42c69770371465d29e29621afde0427ae6",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/production/originals/129-megascops-hoyi-v7.png",
+      "commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+      "bytes": 2296250,
+      "sha256": "dd9f99f9d7c86a2eabdddf32e7b4e2d74625c4b10a1dab4fa30fc7bd691df40e",
+      "gitblob": "ecc51f42c69770371465d29e29621afde0427ae6",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/research/species/129-megascops-hoyi-v7.md",
+      "commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+      "bytes": 1999,
+      "sha256": "12e4b097acd640f0bce2b9dabc5451928570cbb7204f7eb7674e911a0e9c3fd1",
+      "gitblob": "ccc733d70db20f1fe849cdd33c438c9a0de93747",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/research/reviews/129-megascops-hoyi-v7-review.md",
+      "commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+      "bytes": 948,
+      "sha256": "c5a0fa48035793bfa131d5bab8d9568ee3fc02875050ec6fbea89ebfa93e957f",
+      "gitblob": "7748e8e562fa1bc97f55f0288243b555896d4ea4",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/production/runs/20261127T2127Z-cycle2-20261127T2127Z-129-megascops-hoyi-v7.json",
+      "commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+      "bytes": 4597,
+      "sha256": "c6b96e914657ddefd6909c7af32c8b09bcfc2188d4875063736a62e4052a7e54",
+      "gitblob": "44d2d0888e4b575aa4342ec2260b31e96fc3f455",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/production/runs/20261127T2127Z-cycle2-20261127T2127Z-129-megascops-hoyi-v7.json",
+      "commit": "6f873fcd5ada1f5214b3f56e32c791ae67c3e1f3",
+      "bytes": 4537,
+      "sha256": "13348e651e5d3e6dbd30d9e47b51041848b46972ed40d6b519515ec8d5f302d6",
+      "gitblob": "b79555cb77369e5eebec50fa8f685fc04ca490b6",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/design/concepts/140-otus-rufescens-v9.png",
+      "commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+      "bytes": 2313605,
+      "sha256": "fb0eec5fc73434cc960c3b4c4565150910f8e0cf8c602a6fdbd49b567729364c",
+      "gitblob": "cc38edba36de01884368a5c66854f13b9aade111",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/production/originals/140-otus-rufescens-v9.png",
+      "commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+      "bytes": 2313605,
+      "sha256": "fb0eec5fc73434cc960c3b4c4565150910f8e0cf8c602a6fdbd49b567729364c",
+      "gitblob": "cc38edba36de01884368a5c66854f13b9aade111",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/research/species/140-otus-rufescens-v9.md",
+      "commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+      "bytes": 2241,
+      "sha256": "f58b03cf55dcada5443f98959e360ba7079f69825d1095e70440dfc338be792f",
+      "gitblob": "4c2c665f7eadf15f0ff21e59488c42a07af9459b",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/research/reviews/140-otus-rufescens-v9-review.md",
+      "commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+      "bytes": 1152,
+      "sha256": "a617b75833d66efb7c90d7791b53b7f6718410680fe202e79c81c752d3085b83",
+      "gitblob": "7b26d352aefc8e7a32a71f7c738013c217380b1a",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/production/runs/20261127T2127Z-cycle3-20261127T2127Z-140-otus-rufescens-v9.json",
+      "commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+      "bytes": 4956,
+      "sha256": "1618c21961c2543a2aff7dc67449aed49ae2c9665372950f4acdcfbb2cb72994",
+      "gitblob": "911b5aae305f2218e07ec3ff666f1935687d50c7",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/production/runs/20261127T2127Z-cycle3-20261127T2127Z-140-otus-rufescens-v9.json",
+      "commit": "a590a4893b3b78cbf9155d3f07565fce1784047c",
+      "bytes": 4896,
+      "sha256": "d88d5ec40245283c2e9f6d5a5e1491e4cf205529394743a91eb184a8176be485",
+      "gitblob": "b68000744af6fe07b3ef5f67bcfdc3f4b42ae3c6",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/design/concepts/137-otus-alfredi-v8.png",
+      "commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+      "bytes": 2584385,
+      "sha256": "01a9a22661d6e44516a131b05150baa24d0ec4f5bea910ee6e12f5be6890aac1",
+      "gitblob": "99096b72e2ec97921baed2f140b08ebe004194c2",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/production/originals/137-otus-alfredi-v8.png",
+      "commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+      "bytes": 2584385,
+      "sha256": "01a9a22661d6e44516a131b05150baa24d0ec4f5bea910ee6e12f5be6890aac1",
+      "gitblob": "99096b72e2ec97921baed2f140b08ebe004194c2",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/research/species/137-otus-alfredi-v8.md",
+      "commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+      "bytes": 3106,
+      "sha256": "9975f44ad9d37b246f3eddb75688118910f6bf5bed7e1458b8392d634805cd32",
+      "gitblob": "4af93efbee107529c993d4edd41f53d8cf67381d",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/research/reviews/137-otus-alfredi-v8-review.md",
+      "commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+      "bytes": 1251,
+      "sha256": "f43dcbc67b3893dd03c569c339ee4bcc96561a6e68011b12bdb354fd341afb9d",
+      "gitblob": "1d2c19995f8e6d3b025e16eeb0c8e878b1009d4c",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/production/runs/20261127T2127Z-cycle4-20261127T2127Z-137-otus-alfredi-v8.json",
+      "commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+      "bytes": 5914,
+      "sha256": "2d7c218e3156d3b0f4873750e7d667120ede6c9d64d477185b789d384848ffcf",
+      "gitblob": "0cc34d25a7e872885c2c25c1ec9674e271d14400",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/production/runs/20261127T2127Z-cycle4-20261127T2127Z-137-otus-alfredi-v8.json",
+      "commit": "a5a0f4652e7e26f6f87628ea37a36aa05a089192",
+      "bytes": 5854,
+      "sha256": "31bbba0039d5d2fb07088f0faf41f5319ec0c13dfaaf9be2f8338465dc662fd8",
+      "gitblob": "a7381669e5e7a42a451b8549d8acf62f31bc3c3f",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/production/attempts/130-megascops-koepckeae-v18-initial.png",
+      "commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+      "bytes": 2439381,
+      "sha256": "8a5f51ab882205ed9abca663dd30dfb5eceff0e3745d31e415792b93eef80681",
+      "gitblob": "57f07f55e065af33717d9c18f04f2030d73cd97a",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/design/concepts/25-glaucidium-brasilianum-cactorum-v6.png",
+      "commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+      "bytes": 2864437,
+      "sha256": "729c187af12da587305c0c701c07440464896f5a6ada74431dfa3e7b19616ca1",
+      "gitblob": "10508841ef5f6184e8658664615302909765c1dd",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/research/SOURCE_INDEX.md",
+      "commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+      "bytes": 1357783,
+      "sha256": "0a63d458528c00eede424ffa6279907472afb5727aa9a54f41f47b6d343a0874",
+      "gitblob": "725cf514fee6b78e3fd4b724828e64fd2b127e5f",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/design/manifest.json",
+      "commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+      "bytes": 2302103,
+      "sha256": "03783f50068f26a3dece5a7c0653c68141ed960e4e1036a30298520c94976d41",
+      "gitblob": "3650c80273fcafb3f28b2c5e5f86f3989d21a1dd",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/production/WORKFLOW_LESSONS.md",
+      "commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+      "bytes": 171926,
+      "sha256": "88526cf891c952dcfa9fb7d1273c76c0a563a01c3cf98b60bd54ca8b19cdb20d",
+      "gitblob": "3389a13d77d481ee71813762f8d6272ad6a19220",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/production/BATCH_STATE.json",
+      "commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+      "bytes": 4029402,
+      "sha256": "ae8ce4c979d8fa6de8073ddb4ed500ce7f2ef5646310ed94b91e74c37ae1c453",
+      "gitblob": "62ed413b5f4fc48f98bef90e0abfa05066ad64c4",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/README.md",
+      "commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+      "bytes": 42812,
+      "sha256": "01287f6d3cc9c8e1f2f12b9abc7dffa5e2b8c9bba859b20f6a98fc36cbac02c7",
+      "gitblob": "7a974d37079d459d09ac6f3ded82c7ad69d91ff6",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/STATUS.md",
+      "commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+      "bytes": 551466,
+      "sha256": "30f38bee2bbe1e98d81fd19a8ad92a6394934e5234ff8df6698136e45e3cee31",
+      "gitblob": "2a60fc9a23c4009abd9da14e2ebfee54230aba09",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/production/batches/20261127T2127Z-six-cycle-review.md",
+      "commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+      "bytes": 7560,
+      "sha256": "41d6f84b08241635052aeab2d1f603246fca7d11f73efefe70ecaec0bdfe55ff",
+      "gitblob": "0141ab2df16d7708743711e849715b87bffa3fab",
+      "ok": true
+    },
+    {
+      "path": "owl-pet/production/batches/20261127T2127Z-audit.json",
+      "commit": "9ee361b4989f1c78bd4469508de68bdfe29f2436",
+      "bytes": 42606,
+      "sha256": "97cbfdd94db9acbd4ced0e5e731070265636981d2ffdf5de5bc339ecca967335",
+      "gitblob": "fa8d44d29b2d8c1a7cb8d88c64f4aab0405a0ec1",
+      "ok": true
+    }
+  ]
+}

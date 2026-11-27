@@ -12,12 +12,16 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-27T04:30:43.650Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T04:31:56.098Z"
     }
   ],
   "errors": [],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T0329Z-B2-cycle4-resume0426Z-110-megascops-barbarus-v11.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "source_ids": [
     "BSO-CAYAYA-2026-FIELD-ACCOUNT",
     "MIKKOLA-2013"
@@ -25,5 +29,18 @@
   "full_prompt": "Image1 is edit-target threebird Bearded Screech-Owl Megascops barbarus plate. Image2 is real juvenile BIOLOGICAL MATERIAL REFERENCE ONLY (do not copy photo background, watermark, signature, photographer text). Preserve both adults exactly in form/face/featherpattern/yelloweyes/greenbill/pinktoes/tufts and alltitlelabels/forest/branchlighting/6feet. REBUILD ONLY CENTRAL JUVENILE FEATHER SURFACE from photograph2, including lowerbelly: currenttarget has outlined long U-shaped wool coils. Erase those coil contours first and replace with close-packed SHORT STRAIGHT feather barbs and matte unresolved soft down, darkgraybrown with diffuse lighter horizontal mesoptilebars, pale central belly as in reference. Referencephoto dark featherdown is dense and lies close to body, not shaggyringlets. No whiteoutlinedcurves/loops/knittedfibers/sheepwool. Avoid highcontrast individualfiber contour: smooth tone masses inside body with sparse short brokenbarbs onlyatouteredge. Keep existing compactovalbody/headtuckedleft/noear tufts/narrowbrows/yelloweyes/graygreenbill, compact foldedwings close tobody/tailconcealed, bothfeetnaturalbranchsupport. The young should remain an unknownage dependent barredmesoptileyoung, nothatchling orfullyadult. Match biological material while retaining target's appealing naturalisticpetstyle; do not apply adult brightpatches/pinkfeet toyoung. Exactly3birds noextrafoot or flight/nest/ageclaim.",
   "research": "Access2026-11-27. Readv10research/reviewandactualfullplate: two-stageisolatedstudythenintegration failedtolimitlowerbellyclosedloops. Freshoriginal CAYAYA https://cayaya-birding.com/species/Bearded-Screech-Owl.htm actualbody26-34/46 read, KnutEisermann/ClaudiaAvendañoundatedfieldaccount withpublishedresearchlinks; brownjuvenilephoto https://cayaya-birding.com/species/Bearded-Screech-Owl_juvenile7.jpg actuallyreopenedlocalpixels. Densegraybrownshortdown/diffusebars/palecentralbelly/yellowirises/green-graybill/narrowbrows/no visibletufts/branchgripping; hatchage/sex/firstflightunknown. Imagewatermarkretainedinreferenceonly, notpublishedcopy.\nUploadedMikkola2013 printed214/PDF216 freshlyread: juvenilemesoptilewithremainingdowncrownside/below, narrowindistinctbrows/notufts; adultfeatheredtarsitopinkbaretoes/hornclaws/yelloweyes/greenbill. Female mean+9g notheightformula. Existingadulttufts supportedvariablefieldphotographs, notuniformtuftlength. CurrentMegascopsbarbarus maps oldScops/Otusbarbarus, no rufousmorphtransfer. Newmaterialexperimentone-stage fullplate+realphotoreference, expliciteraseinheritedcoilcontours then lowcontrastshortstraightbarbs; no claimeduniversalpipeline. Retainmorphology/support andunknownstage; cloudyhumidpineoakgenericcontextnotconfirmedoccupiednest. SourceIDsreuse2/new0, materialrenderdesigninference no sciencepass.",
   "research_record": "owl-pet/research/species/110-megascops-barbarus-v11.md",
-  "review_record": "owl-pet/research/reviews/110-megascops-barbarus-v11-review.md"
+  "review_record": "owl-pet/research/reviews/110-megascops-barbarus-v11-review.md",
+  "image_meta": {
+    "bytes": 2785478,
+    "sha256": "6bc5fc448d22fb5747f913dd775a3d39ab85951781a3b2341842d67e8a67183b",
+    "git_blob": "b511100fbae7afca1ad7e7c031d08cedeff3e86a",
+    "size": [
+      1536,
+      1024
+    ],
+    "b64len": 3713972
+  },
+  "generation_wait_seconds": 39.015,
+  "status": "NEEDS_REVISION",
+  "review": "Actualtarget/sourcephoto/outputfullviewed. One-stageactualphoto-guidederase-and-rebuild didnotremove inheritedoutlinedU/closedloopfiberespeciallybelly; littlematerialimprovement, NEEDS_REVISION. Photoboundedgraybrownbarredmesoptile/palebelly/yellowiris/greenbill/narrowbrow/notufts/compactwing/hidden tail/twofeetbranch retained. Adults/tufts/beard/yelloweyes/greenbills/pinktoes/full6supports/title/labels/forest retained. No newage/flight/nestclaim. Strategyfailedthiscase, cannotassertsamepromptpreventsloops orsciencepass. Preservev10studyandv11distinctattempt; changegenerationstrategybeforeanothernear-identicaltextattempt."
 }

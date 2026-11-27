@@ -8846,7 +8846,7 @@ BROW-FLOCCINIVIS-2018-COMMONS-01: FlocciNivis2018-06-13 ZooNeunkirchen adult pai
 BROW-SAMARAWICKRAMA-2006-P73-78 prior primaryfieldrecord retained historically for SriLankan jackfruitcavity/34daystage, not freshbodyread or exact phenotype reconstruction. Old Syrnium leptogrammicum/Ciccaba leptogrammica mappings retained.
 External targeted search performed. Auk1936 footfeathering lead https://sora.unm.edu/sites/default/files/journals/auk/v053n01/p0051-p0056.pdf redirected to general USF SORA landing page: UNVERIFIED originalpaper, not evidence. Wrong guessed #47 Aegolius path404 corrected to actual Strix path, connection operational.
 Workflow test from v8review: enlarge adultcrop, imagegen correct, visually inspect, then imagegen integrate into wholeplate. Sourcephoto/book not republished. Phase prompts persist both actualcalls.
-[Fullprompt/facts](species/47-strix-leptogrammica-v9.md) · [Review](reviews/47-strix-leptogrammica-v9-review.md)
+[INVALIDATED experiment fullprompt](species/20261127T2003Z-47-stale-base-v9.md) · [Review](reviews/20261127T2003Z-47-stale-base-v9-review.md)
 
 
 ## 20261127T2003Z 130-megascops-koepckeae-v17
@@ -8874,3 +8874,7 @@ New0/reuse2, scopeclarification1 notnewpublication. MANT-PHOTOARK-ROMBLONIS-VIDE
 MANT-MIKKOLA-2013-P199-200-MIRROR sameHeimoMikkola2013publication actualprinted199–200/PDF201–202 reread thisinvocation: nominatejuvenileUNKNOWN; adultgraybrownfreckles/whitescapular/pepperedpaleunderparts/darkerbreast/yelloweyes/grayhornbill/heavytarsifeathers narrowbarezone/lightgraybrowntoes/darkhornclaws/no sexsize data. Mixedpopulationadultnominate/youngromblonis explicit; no nominateyoung transfer. OldOtusmantananensisromblonis kept as subspecies notnew251species.
 Actualv11 and enlargedcenter viewed: thickcreamU/Vribbonedgeunits overwhelm young surfaces unlike coarsepreview. Designinference reducegraphicunitcontrast/createcontinuoussoftvolume without claiming newscientificmicroanatomy. Sleepingeyes are restingdesign, previewopeneyes no observed-sleepclaim. Priorv9mottlingfix andother adultversions preserved; this focuses largeedgecontrast, no overwritten userapproval.
 [Fullprompt/facts](species/201-otus-mantananensis-v12.md) · [Review](reviews/201-otus-mantananensis-v12-review.md)
+
+
+## 20261127T2003Z #47 version-collision correction
+Final baseline-tree comparison found v9–v13 alreadyexist. Currentrun erroneously selectedv8 andtemporarilyoverwrotev9; mainv9concept/species/review restored exactlybaselineblobs. Currentexperimentretained separately andexcludedfromvalidcyclecounts, no sciencepass. Newsource0; priorcoarsecolourfindingwasnotnewlyunresolvedlatestissue. [Preserved invalidated experiment](species/20261127T2003Z-47-stale-base-v9.md). Corrective rule: enumerate ALL matching version filenames numerically before selectingbase, never filter to guessedversionrange. Applied finalaudit here; futurepreflight mustcheckall.

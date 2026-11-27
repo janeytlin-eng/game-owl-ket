@@ -20,6 +20,10 @@
     {
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-27T12:56:14.958Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T12:56:29.762Z"
     }
   ],
   "scientifically_verified": false,
@@ -50,5 +54,17 @@
   "selected_source": "generated_images/exec-68e861e3-25bb-4745-9d84-6b0da6660535.png",
   "unresolved": [
     "Juvenile edited flank/belly retains conspicuous curled U/V filament loops versus fine transverse actual photo; not scientifically passed. Priority next cycle texture correction; avoid repeating unvalidated short-down wording."
-  ]
+  ],
+  "image_meta": {
+    "bytes": 2656910,
+    "sha256": "bc2fec0c3ee0e24b47694c7d840635256eaa5fba932192c19889bb7b3fa5cd6d",
+    "git_blob": "7bc3a6f3fb8e2ba20ee9c11f1fdb99ab3b8fda4b",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "chars": 3542548
+  },
+  "review": "# #130 Megascops koepckeae v11 — actual review, NEEDS_REVISION\nSources reused: KOEP-ALARCON-2023 (original printed104 text / printed95 Fig1c photo actually read/viewed), KOEP-MIK2013-222 (same MIKKOLA-2013 guide, printed222). New bibliography0. Full source limits and generation prompt in species record; edit prompt and both waits in run record.\nWhole initial and edited 1536x1024 plates + separate juvenile close crops actually viewed. Adults independently checked after complete regeneration: yellow eyes, bluish/greenish horn bills, dark flecked crown/tufts, white scapular breaks, streaked/barred underparts, pale flecked tarsal feathers, graybrown bare toes and dark claws. Warm sunset orange is rendering, not measured taxon colour calibration. Adult near-equal crown-to-toe display is not a sex size finding. Three birds, two feet each, six branch contacts; no unsupported flight, nest, prey or frog. Title/roles/pending footer retained.\nProblem→evidence→change→recheck: initial juvenile had conspicuous white oval wing spots, unlike Alarcon Fig1c; edit removed those spots while keeping a short formed folded wing. HOWEVER edited flank/belly developed conspicuous curled U/V filament loops, less consistent with actual fine transverse barred photo. Mark NEEDS_REVISION; do not declare texture solved or scientific pass. Both initial and edited retained; prior v1–v10 preserved. Juvenile white brows/black facial edge/yellow eyes/barred compact body broadly retained; exact age/sex/flight/feather chronology unverified.\nIteration lesson: adult-only style + actual juvenile photo improved #110 texture once but did not transfer successfully to #130 after this edit. 'Short fine down/filament' wording can still provoke curls. Actual application two imagegen calls, no universal validation. Next oldest batch cycle prioritizes this unresolved texture; use same actual Fig1c, preserve legal formed wing, avoid white adult wing marks and hair loops. Archive VERIFIED will mean exact recoverable PNG/research, not science approval.\n",
+  "status": "NEEDS_REVISION"
 }

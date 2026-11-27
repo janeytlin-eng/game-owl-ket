@@ -1,0 +1,6 @@
+# 112-asio-abyssinicus-v8
+Status: NEEDS_REVISION; scientifically_verified=false
+
+Actual full generated image viewed. Low-microcontrast down rebuild softened long bright filaments slightly but fine closed curls still remain across juvenile belly/chest. Target NOT resolved, NEEDS_REVISION. Orange eyes/dark bill/mask/small pale crown patch, formed folded wing and barred tail, supported feet remain. Adults net-barring/eyes/bill/feathered feet and near-equal size roles unchanged; exactlythree birds/sixfeet, branch supporting all; Ethiopian highland forest context, no nest or first-flight assertion. Exact age and sex of photo juvenile unknown. v7 image reviewed against Maton1989 actual photo and uploaded printed508; adult juvenile chronology not inferred from speculative guide comparison. One bounded actual imagegen edit; repeated negative-strand wording historically failed and this whole-material prompt also did not prove effective. Preserve failed v8 with original PNG and record rather than imply success. Next use a genuinely different full juvenile rendering method/reference composition; don't count repeated loop-negative phrasing as a learned successful rule.
+
+[Sources/fullprompt](../species/112-asio-abyssinicus-v8.md)

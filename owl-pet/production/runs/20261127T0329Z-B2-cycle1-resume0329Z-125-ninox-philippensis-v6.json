@@ -12,12 +12,16 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-27T03:41:11.458Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T03:42:27.899Z"
     }
   ],
   "errors": [],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T0329Z-B2-cycle1-resume0329Z-125-ninox-philippensis-v6.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "source_ids": [
     "NPH-RASMUSSEN-2012",
     "NPH-SHARPE-1875"
@@ -25,5 +29,18 @@
   "full_prompt": "Preciselyedit existing #125 Luzon Boobook Ninox philippensis threebirdplate. Correct ONLY BOTH ADULT UNDERTAIL COVERTS: the short small soft feathers on lower rear belly/vent covering BASE of the hanging tail behind the legs must be predominantly white/whitish unmarked, as diagnosed in Rasmussen2012p13 and Mikkola2013p473. They should appear as a restrained small white softfeatherpatch at tailbase behind eachadultleg, NOT an allwhite tail. Preserve the actual long brown RECTRICES and their existing weak narrow pale bars completelyunchanged, alllegfeather/brightyellowtoes/blackclaws and branchgrips unchanged. Preserve prominent longitudinal adultbreast/bellystreaks; do NOT eraseventralstreaks as in different species. Preserve plainbrownunspottedcrown/back, darkauriculars/filamentousfacefeathers, smallpalebrows/yellowirises/oliveyellowbill/whiteoutercovertspots/near-equaladultscale. Centralageunknownyoung ENTIRELYUNCHANGED: rufouschocolatecoverts/limitedgreatercovertspots/formedsoftfoldedquills/shortconcealedtail/darkiris/twofeetbranchsupport. No inventedage/flight/sex. Keepexact3birds6feet/titlelabels/warmnaturalisticpaintedpetstyle/Luzonhumidwoodlanddusk. Only smalladultundertailcovertfeathers changecolour, no white rump or giant white apron.",
   "research": "Access2026-11-27. Actualv5image/researchread. Freshlyopenedoriginal Rasmussenet al2012 Forktail28:1-20 https://www.asianscientist.com/wp-content/uploads/2012/08/Vocal-divergence-and-new-species.pdf pp12-13 diagnosis andTable7 actuallyread: strictphilippensis hasplainbrowncrown/back, streakedunderparts, largeoutercovertwhitespots(no bars), narrowweakpaletailbands; whiteundertailcoverts unmarkedorsparsefaintnarrowmarkings; yelloweyes/oliveyellowbill/yellowfeet/darkclaws. Pooledmeasurementsnotsexedratio. Oldbroadcomplexseven-speciessplit preventsimportofbarred/spottedtaxa. No current251rosterchangeestablished. UploadedMikkola2013 printedp473/PDF475 actualread: whiteunmarkedundertailcoverts, consistentwithprimary; guide'sslightlymale-larger remainsqualitative/doesnotoverrideoverlap. Currentplate adultvisiblelowerrear/ventfeathers mostlybrownblendintotail, targetsmallwhiteundertailcovertsonly; keepbrownrectrices/weakbars andventralstreaks. Factcovertswhite, exactpatchvisibility/placementdesigninterpretation.\nHistoricalSharpe1875 museumcataloguevol2pp167-168 https://wallace-online.org/converted/supplementary/specimens/1875_BMbirds_WSPEC351.2.pdf reusedprioractuallyreadv5, notfreshpaperread. Youngrufouschocolate/formeddarkquills/buffnotches, noage/sex/iris/flightorlocality-specificmodernreassessment. Keepyoungunchanged/stationarysupported; localityandirisuncertain, cannotclaimadultminiatureorhatchling. Sourceindexreuse2plusfreshguide(new0IDs), sciencefalse. Youngyellowfeet/bill remainprovisionalnotadulttraitcertified.",
   "research_record": "owl-pet/research/species/125-ninox-philippensis-v6.md",
-  "review_record": "owl-pet/research/reviews/125-ninox-philippensis-v6-review.md"
+  "review_record": "owl-pet/research/reviews/125-ninox-philippensis-v6-review.md",
+  "image_meta": {
+    "bytes": 2445622,
+    "sha256": "3e68120d94af10a72534cc57c3352725031a928efc47aa0505e8ce11828fe371",
+    "git_blob": "fca6d3cf88d9b22a9a7963c63ff36fd4c3d231c5",
+    "size": [
+      1536,
+      1024
+    ],
+    "b64len": 3260832
+  },
+  "generation_wait_seconds": 46.384,
+  "status": "PASS_WITH_LIMITATIONS",
+  "review": "Actualfullinput/outputviewed. Smallsoftwhiteadultundertailcovertpatchesnowvisiblebehindlegs/tailbase; longbrownrectrices/weaknarrowbandsretained, notallwhitetail. Prominentventralstreaks/plainbrowncrown/yellowiris/olivebill/yellowfeet/darkclaws/outercovertspots retained; near-equaladultscale unchanged. Youngrufouschocolate/formedfoldedwing/darkiris/shorttail/twofeetbranchsupport unchanged. Threebirds/sixcontacts/text/woodlandretained. PASS_WITH_LIMITATIONS onlyundertailcoverts; exactpatchvisibilitydesign, youngage/locality/iris/barepartcolours provisional, sciencefalse."
 }

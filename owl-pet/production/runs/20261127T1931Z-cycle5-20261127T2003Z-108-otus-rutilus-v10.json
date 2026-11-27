@@ -25,11 +25,15 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-27T20:11:06.230Z"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-27T20:11:18.822Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T1931Z-cycle5-20261127T2003Z-108-otus-rutilus-v10.json",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "research": "Reused 2 source IDs; new0/corrected0. Actual external search and original Flickr page reread 2026-11-27 UTC (Shanghai28). RUT-VASSEN-2013-ANDASIBE-JUV: Frank Vassen, photographed2013-12-04/uploaded2014-01-19, https://www.flickr.com/photos/42244964@N03/12038858063/ ; CC BY2.0. Full actual local photograph viewed. Applicable eastern Andasibe Otus rutilus juvenile, exact age/sex/flight unknown. Visible dense fine brown down, irregular subtle mottling, dark facial area/pink lower eyelid; v9 broad regular belly rings unsupported by this individual. Single photo does not establish species-wide absence of barring.\nMIKKOLA-2013, Heimo Mikkola, Owls of the World2ed2013, uploaded guide actual printed143/PDF145 reread: brown-morph adult black shaft herringbone, black-edged white scapular stripe, yellow iris, gray-brown bill/cere/toes, tarsi feathered to toe bases, dark claws; female average18g heavier does not establish height direction. Juvenile explicitly unknown. Old name Scops rutilus; no western O.madagascariensis transfer.\nDesign inference: bounded low-contrast mottling repair, not assert exact age or sex dimorphism. Perch is supported generic humidforest design, no occupied nest claim. Prior v9 failed loops/broad-rings experiment preserved. v10 must be visually checked; no science approval.",
   "full_prompt": "Use case: precise-object-edit. Project owl pet concept plate #108 Otus rutilus v10.\nImage1 is exact edit target v9. Image2 is Frank Vassen's actual Andasibe juvenile photograph, biological reference only, never paste it.\nChange ONLY juvenile belly/chest surface pattern and tiny header version v9 to v10. Remove the conspicuous broad dark horizontal rings on the juvenile. Match photo's low-contrast irregular fine brown mottling: many tiny diffuse broken flecks, no continuous stripes wrapping body. Dense short avian down with fine straight tips; avoid loops, yarn, curly wool, shaggy fur. Keep natural subtle uneven tonal shading, not blank plastic.\nPreserve both adults exactly: same brown morph, yellow eyes, gray-brown bill/cere, fine black shafts and herringbone markings, black-edged whitish scapular stripe, feathered tarsi ending at bare gray-brown toes with dark claws, adult male/female near-equal displayed height. Do not infer height from female average18g greater mass.\nPreserve juvenile dark mask, pink lower lid, yellow-brown iris, dark bill, head shape, concealed folded wings, hidden tail, no ear tufts, and its two feet gripping solid branch. All three birds stable on same mossy humidforest branch. No flight, no nest, no mature wing feathers. Preserve entire composition/lighting/style/background and label positions. Preserve AGE UNKNOWN, FLIGHT UNVERIFIED, SCIENCE PENDING notices. This remains a stylized concept, not scientific approval.",
   "source_ids": [
@@ -54,5 +58,8 @@
   "local_image": "production2003nov27/108-otus-rutilus-v10.png",
   "review": "Actual full image viewed against v9 and Vassen field photo. Broad repetitive dark belly rings visibly removed; surface now fine irregular brown shading. Adult IDs/yellow eyes/scapular white-black marks/gray-brown bare toes/dark claws retained, male/female near equal height. Juvenile dark mask/pink lower lid/closed concealed wings/no tufts, both feet grip continuous branch; no nest/mature flight pose. However numerous small looping hairlike filaments persist and exceed photo's short granular feather texture; this defect remains NEEDS_REVISION. The bounded tonal edit worked but did not solve material identity, so no scientific pass or completed-species increment. Header v10 correct. Lesson: target color-pattern separately from fiber geometry, don't claim successful biological calibration when only stripe contrast fixed.",
   "reviewed_at": "2026-11-27T20:11:01.634Z",
-  "archived_at": "2026-11-27T20:11:06.219Z"
+  "archived_at": "2026-11-27T20:11:06.219Z",
+  "archive_commit": "f4ae53f31818ff05400d66a867b38db0f43501ea",
+  "verification_exit_code": 0,
+  "ended_at": "2026-11-27T20:11:18.801Z"
 }

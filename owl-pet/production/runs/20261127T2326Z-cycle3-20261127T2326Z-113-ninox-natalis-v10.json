@@ -13,15 +13,33 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-27T23:49:07.548Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T23:50:17.380Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T2326Z-cycle3-20261127T2326Z-113-ninox-natalis-v10.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Access28Nov2026Shanghai. Reuse1 CIB-WAM-JOHNSTONE-2016 RonJohnstone/WAM2016 original EnglishPDF1 freshlyopened https://museum.wa.gov.au/sites/default/files/Information%20sheet%20-%20Christmas%20Island%20Hawk-Owl_EN_MS_ZH_0.pdf Description13–22 andBreeding27–29 read, phenotype/unknownstage boundaries sameprecedingcycle, notnewpublication. Activeexternalyoungquery alsoreturnedgovernment/specimenleads: notopenedbodies notadopted asyoungfacts. v9sourcefacts unchanged, no biologicaldefect newlyestablished. Thiscycleprioritizes actualunresolvedgoldartifact of preceding113v9, three prior coordinate-removals onlyattenuated. ReplaceunderperchBACKGROUND broadlywhilekeeping documentedadult/olderyoung andage-flightunverified, existingguide494facts reusedfromprecedingcycle notfreshreadhere. CurrentNnatalis sameoldN.squamipilanatalis, same251unit. Actualv9wholeview supports artifactqueue, no newborn or knownflight. No additionalunique species; same113 secondrevisionmustnotdoublecount. New0/reuse1; visualcleanuptrial sciencefalse.",
   "full_prompt": "Edit exact #113 Ninox natalis v9 trio into v10. Visually clean up ALL background underneath the central perch, in the open space between the juvenile tail/branch and the central white role label: replace that backdrop with a simple continuous softly blurred DEEP FOREST GREEN area. Remove every small gold scribble, yellow speck, possible handwritten mark or signature from that lower backdrop. No gold letters or artist marks. Keep the birds, main perch, tails, feet and legitimate white typography fully intact. Restore clean background, not just reduce opacity of marks. Keep scientific pending/footer/age unknown text and change title v9 to v10. Same adult morphology, central juvenile age/flight unknown, no anatomical redesign. This is graphic cleanup only.",
   "source_ids": [
     "CIB-WAM-JOHNSTONE-2016"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "image_metadata": {
+    "bytes": 2472469,
+    "sha256": "326000ea379132fe9d3a102f132cbdefb66cb0b0bdbc51613ee360e7fe47bfbc",
+    "gitblob": "d8485639ed33c18d8548475e6e0234692d1fc806",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-a2ecc59d-8da9-4820-9f52-8522797ac6b3.png",
+  "imagegen_wait_seconds": 34.349,
+  "editing_wait_seconds": 0,
+  "imagegen_invocations": 1,
+  "review_result": "PASS_WITH_LIMITATIONS"
 }

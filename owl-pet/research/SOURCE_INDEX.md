@@ -8299,3 +8299,6 @@ Sources: WSC-MEES-2006; WSC-MIK2013-183; new0. [Research/prompt](species/135-otu
 
 ### 135v9 source conflict correction
 ExistingWSC-MEES-2006 originalprinted113materialnote says sulphur-yellow iris; Mikkola183 says dullorange-yellow. Museumrecordnotignored in favourguide. Plannedrecolorcancelledbeforeimagegen; preservecolor, annotateconflict. Thisis1source-fact/designboundarycorrection notnewsource/publication. Printed113–114actualwebandlocalPDFread.
+
+## 20261127T0633Z 135v9 recovery
+Reused WSC-MEES-2006 andWSC-MIK2013-183; freshoriginalwebp113/guide183read. No newsource/correction beyondalreadyindexedconflict. Reusepersistedimage, no regeneration. [review](reviews/135-otus-silvicola-v9-review.md).

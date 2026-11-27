@@ -317,3 +317,7 @@ V5 juvenile closed loops recur despite prior anti-curlprompt. ActualMaton1989pix
 
 ## 2026-11-27 0030Z 112-asio-abyssinicus-v7
 Actualwholeplate rebuild changed olderjuvenilestagevisibility (formedwing/barredtail) but retained fineclosedcurltexture; hypothesisthatwhole-rebuildsolvesmaterial NOTverified. StatusNEEDS_REVISION retained. Prior109/110plastictexture also reviewed asaffectedcandidates; no scientificapproval. Renders should judge material independently from stage/softness. All sixfeet/text/adultnet checked; #25local/remoteidentical, fd9d70d422notvalidrecovery.
+
+
+## 2026-11-27 0030Z 109-ptilopsis-leucotis-v11
+Adultpatterntargetfinevermiculations successfullyvisible aftersubtleonefifthcontrastprompt, dominantshaftsnotheavygrid. This is oneplatevisualvalidation notquantitativebiologicalratio. Juvenileyellowiris/sixsupports checked; plasticfeathertexture remainsnotfixed. Earlier105finepattern/86overshoot rules reused with species-specific sources, nottransferred blindly.

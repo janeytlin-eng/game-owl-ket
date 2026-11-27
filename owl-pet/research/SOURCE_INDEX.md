@@ -8330,3 +8330,8 @@ Reused IDs: KOEP-ALARCON-2023; KOEP-FJELDSA-2012-P180-191; KOEP-MIK2013-222; new
 
 ### KOEP-ALARCON-2023 access/locator upgrade2026-11-27
 FreshinstitutionPDFdownloadrecovered34951163bytes. Actuallyreadprinted104/PDF13Megascopsaccount: 2fledglingsparentalcare,23Apr2019UTPLLoja2131mshrub,graywhitebarrednessoptiles/brownchest/blackdiscedges/WHITEBROWS/yelloweyes,Podocarpusbranches3–4m, exactage/flightnotgiven. ActualFigure1cPDF4/printed95viewedthiscycle ifrenderread; do notborrowotherpanelsspecies. SameKOEP-ALARCON-2023 source locator/accessupgrade1, notnewpublication/source. InstitutionURLnowverifiedfullbodylocator, no longermerelycandidate.
+
+
+## XLOW-ONEILL-GRAVES-1977
+Title A new genus and species of owl (Aves: Strigidae) from Peru; JohnP.ONeill/GaryR.Graves1977 TheAuk94:409–416. Primary museumdescription. Original https://www.biologicaldiversity.org/campaigns/global_owl_project/descriptions/Xenoglaux/Xenoglaux%20loweryi%20%28O%27Neill%20%26%20Graves%29%201977%2C%20Auk%2C%2094%2C%20pages%20409-416.pdf ; access2026-11-27, actualbody410/PDF3 and412/PDF5read. Scope Xenoglauxloweryi SanMartinPeru, holotypeadultmale and2adultfemales, fullyossifiedskulls/no molt; Fig1captionexplicitadultfemale. Barepinktarsi/toes,longwhiskers/amberorangeirisadultfacts, notjuvenilephenotype. Highconfidenceadultscope; no validatedyoungseries or age/flightinference. Tiny/puffyappearancecannotjustifychick. Decisiondefermissingyoung, notnewconceptorcompletedcycle; no new251taxonomicrevision. RelatedexistingXLOW-SALTER-AOS-2019 index.
+[Gap and decisions](gaps/20261127T0730Z-missing-species.md)

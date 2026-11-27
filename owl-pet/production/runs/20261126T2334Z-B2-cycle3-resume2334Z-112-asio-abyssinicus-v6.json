@@ -5,7 +5,7 @@
   "target": "112-asio-abyssinicus-v6",
   "action": "SCIENCE_REVISION",
   "started_at": "2026-11-26T23:54:06.571Z",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "stages": [
     {
       "stage": "STARTED",
@@ -38,6 +38,10 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-26T23:59:54.603Z"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-27T00:00:43.727Z"
     }
   ],
   "errors": [
@@ -111,5 +115,9 @@
   },
   "unresolved_priority": "NEEDS_REVISION: fine repeating curled/loop texture persists despite3imagegenpasses; nextcycle should firstattempt112v7 with evidence-bounded juvenile material reconstruction. No scientificpass.",
   "actual_visual_review": "Three actual fulloutputs and edit2/edit3 690x960 juvenilecrops viewed against actuallyopened Matonphoto. Edit1 failed; edit2/3 reduce pale longwirylines and darken/smooth surface, but fine repeated closedcurl texture persists; target not fully resolved. Final status NEEDS_REVISION; not scientificpass. Formed foldedwing retained, darkface/orangeiris/darkbill, shortheadtips, twofoot support and unknownagecaption retained. Adults keep densehorizontalnet, featheredtoes/blackhornclaws, iris/bill/tufts/wings/tails; exactly3birds/labels/highlandforest/support retained. Adulttoeaddition rejected afterbaselinecrop confirmed existingfeathers. Nextpriority112v7 materialreconstruction; no exactage/flightclaim. Initial and edit2 versions retained alongside final; oneproductioncycle, not3. No copyrightsourcephoto copiedtorepo.",
-  "review_status": "NEEDS_REVISION"
+  "review_status": "NEEDS_REVISION",
+  "archive_commit": "39d6ae218fe695fc8ee9e77dff1d923d18f1441e",
+  "byte_verification_observed_exit0_at": "2026-11-27T00:00:43.701Z",
+  "ended_at": "2026-11-27T00:00:43.701Z",
+  "lesson": "V5 juvenile closed loops recur despite prior anti-curlprompt. ActualMaton1989pixels showfineirregulardown and formedwing/tail, not yarn. Threepasses: firstfailed, second/third reduced longlightlooplines but residualfineclosedloops persist in actual690x960crop→NEEDS_REVISION and priority112v7, notscientificpass. Negativeprompts plus localidentitypreservation can lock unwantedtexture; material-rebuild wording tested but NOT proven effective. Recheck107/108/109/110/111 actualbaselines:109plasticregularity/110curls remain calibrationqueue, no retroactivefixclaim. Adulttoeaddition rejected aftercrop; preserve alreadyfeathereddorsa. Do not replaceolderjuvenileformedwing withgenericnewbornbuds."
 }

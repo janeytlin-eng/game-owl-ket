@@ -308,3 +308,8 @@ Broadbright juvenile brows→guidep214 mesoptile narrow/indistinct→brows reduc
 ## 2026-11-27 2334Z 111-otus-cyprius-v5
 Bare fledged label→fieldsequence gives dependentfledgedyoung but no individualage/flighttest, publisherMethods intervalmidpoint→ageunknown/flightunverified added and actualread. SameDOI titlewrong inoldindex correctedwithhistoryretained, no newsourcecount. Prompt distinction applied to111 only,108 alreadyannotationchecked; no claim bothspecies share developmentalclock. No unchanged morphology declared newlycalibrated.
 [Actual review](../research/reviews/111-otus-cyprius-v5-review.md)
+
+
+## 2026-11-27 2334Z 112-asio-abyssinicus-v6
+V5 juvenile closed loops recur despite prior anti-curlprompt. ActualMaton1989pixels showfineirregulardown and formedwing/tail, not yarn. Threepasses: firstfailed, second/third reduced longlightlooplines but residualfineclosedloops persist in actual690x960crop→NEEDS_REVISION and priority112v7, notscientificpass. Negativeprompts plus localidentitypreservation can lock unwantedtexture; material-rebuild wording tested but NOT proven effective. Recheck107/108/109/110/111 actualbaselines:109plasticregularity/110curls remain calibrationqueue, no retroactivefixclaim. Adulttoeaddition rejected aftercrop; preserve alreadyfeathereddorsa. Do not replaceolderjuvenileformedwing withgenericnewbornbuds.
+[Actual review](../research/reviews/112-asio-abyssinicus-v6-review.md)

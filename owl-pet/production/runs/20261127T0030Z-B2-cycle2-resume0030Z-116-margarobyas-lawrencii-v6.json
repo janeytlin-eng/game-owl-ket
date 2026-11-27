@@ -12,6 +12,10 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-27T00:44:13.966Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T00:45:25.470Z"
     }
   ],
   "errors": [],
@@ -19,7 +23,7 @@
   "unique_species_increment": 0,
   "revision_increment": 1,
   "run_record": "owl-pet/production/runs/20261127T0030Z-B2-cycle2-resume0030Z-116-margarobyas-lawrencii-v6.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "source_ids": [
     "CBLO-ITIS-1063251",
     "CBLO-MIK2013-252"
@@ -29,5 +33,17 @@
   "research": "Access2026-11-27. FreshexternalresearchITISactualtaxonomy6–41/source80–83 currentMargarobyaslawrencii/oldGymnoglaux/Otuslawrencii confirmed (newcentralIDCBLO-ITIS-1063251); no change251scope. ActualuserguideMikkola2013printed252/PDF254 Identification/Juvenile read: bareyellowbrownlegs/toes/darktippedhornclaws; sexesizedataabsent; oldermesoptilelessspottedadultlike, no exactage/flight. Actualv5opened morphology/twoadultplusyoungsupported, cavitybehindyoungcouldbeassumedactivebroodscene; addunknownage/cavitycontext-flightunverified labels only, notnewbiologycalibration. PriorKirkconnellWiley2017publisherPDFURLnowredirectsNBCgenericpage, notactualpaperread; 2025Peregrineguideweb40055.7MB notfreshlyread, historicalreuseonlynotcountedfresh. Sourcesnotusedtoinventlining/eggs/dayage. Newindex1/reuse1; sourceURLandlimitsincentralentry, sciencefalse.",
   "full_prompt": "Use case: precise-object-edit. Inputtarget116v5.\nChange only rightbird rolecaption JUVENILE to \"OLDER JUVENILE — AGE UNKNOWN\" on twoquietlines; addsmallbottomfooter \"CAVITY CONTEXT · NEST OCCUPANCY AND FLIGHT UNVERIFIED\". Keep originalnumberedtitle/commonname/adultlabels andallbirds identical: rounduntuftedheads/darkeyes/mutedhornbills/adultdropmarks/longBAREyellowbrownlegsandtoes/grips/youngsiennaplumagecompactwing/pose/scale/palmcavity/branches/forestlighting. Annotationonly, no featheraddition on barelegs, no eggs/nestlining/prey/newanimals/border/watermark. Naturalbackgroundcavityiscontext notprovedactivenest.",
   "research_record": "owl-pet/research/species/116-margarobyas-lawrencii-v6.md",
-  "review_record": "owl-pet/research/reviews/116-margarobyas-lawrencii-v6-review.md"
+  "review_record": "owl-pet/research/reviews/116-margarobyas-lawrencii-v6-review.md",
+  "generation_wait_seconds": 36.11,
+  "image_meta": {
+    "bytes": 2558753,
+    "sha256": "40794b3b764a2656021c3825972f5a715f557100bb1cf6432e1cfd5f75fed6eb",
+    "git_blob": "b65eeb1b88fe3dcae381516c236d7d9b6028a123",
+    "size": [
+      1536,
+      1024
+    ],
+    "b64len": 3411672
+  },
+  "archive_started_at": "2026-11-27T00:45:25.438Z"
 }

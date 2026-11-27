@@ -3,7 +3,7 @@
   "batch_id": "20261127T0426Z-B2",
   "cycle": 3,
   "target": "110-megascops-barbarus-v12",
-  "stage": "IMAGE_GENERATED",
+  "stage": "REVIEWED",
   "started_at": "2026-11-27T05:33:43.552543+00:00",
   "stages": [
     {
@@ -21,6 +21,10 @@
     {
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-27T05:38:14.961298+00:00"
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-27T05:38:34.754868+00:00"
     }
   ],
   "baseline": "fff7299327c54b756e0cf0eef3958f1de816ed5c",
@@ -49,5 +53,8 @@
     ]
   },
   "generation_wait_seconds": 38.466,
-  "study_wait_seconds": 28.249
+  "study_wait_seconds": 28.249,
+  "status": "PASS_WITH_LIMITATIONS",
+  "scientifically_verified": false,
+  "review": "Actualinput/study/finaloutputfullimagesviewed. Mattepaintvolumeplate substantially suppresses highcontrastlongUclosedloops: paleventralsurface stillhasfinefaintwisps butnowappearsbroadblurredtone ratherthanoutlinedcoils. Tradeoff: youngmaterialover-soft/airbrushed andhead/barringlesscrispthanactualphoto; NOT photoaccuracy/fullscientificpass. Retainyellowiris/green-graybill/narrowbrows/notufts/compactwing/tailhidden/2feetnaturalbranch; adultpinkbaretoes/tufts/marks/yellowirises/greenbills/title/rolelabels/6feet/forestpreserved. PASS_WITH_LIMITATIONS localcoilvisibilityreductiononly, materialfidelitystillneedsrefinement. Exactage/flight/sex/nestunknown. Failedphoto-onlystudyretained. Rule: loweringmaterialdetailcanreducecoilcontrastinthiscase, notuniversalvalidatedfix; do notapplytoothersuntilcompared."
 }

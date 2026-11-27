@@ -57102,8 +57102,8 @@
     },
     {
       "batch_id": "20261127T1304Z",
-      "status": "PARTIAL",
-      "next_cycle": 6,
+      "status": "COMPLETE",
+      "next_cycle": null,
       "completed_cycles": [
         {
           "cycle": 1,
@@ -57139,17 +57139,19 @@
           "commit_sha": "16c3ed867eb8345a502916e24e9272c104a705ef",
           "archive_commit": "33f6fee5995e70eb7860a061e2e9055d7e7db7be",
           "run_record": "owl-pet/production/runs/20261127T1304Z-cycle5-20261127T1304Z-134-megascops-sanctaecatarinae-v11.json"
+        },
+        {
+          "cycle": 6,
+          "species": "179-otus-mayottensis-v6",
+          "commit_sha": "39f34a4a704335d039069479e76017305a18ce18",
+          "archive_commit": "5fc498eaf536bc105f1ab0737e0fb4a95b16e3fa",
+          "run_record": "owl-pet/production/runs/20261127T1304Z-cycle6-20261127T1333Z-179-otus-mayottensis-v6.json"
         }
       ],
       "started_at": "2026-11-27T13:08:54.195Z"
     }
   ],
-  "lease": {
-    "owner": "20261127T1333Z",
-    "run_id": "owl-pet/production/runs/20261127T1304Z-cycle6-20261127T1333Z-179-otus-mayottensis-v6.json",
-    "heartbeat_at": "2026-11-27T13:37:36.302Z",
-    "expires_at": "2026-11-27T13:52:36.302Z"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -58116,7 +58118,7 @@
       "credited": false
     }
   ],
-  "in_progress": true,
+  "in_progress": false,
   "previous_checkpoint": {
     "batch_id": "20261112T043100+0800",
     "cycle": 3,

@@ -12,12 +12,16 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-27T04:44:41.363Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T04:45:59.314Z"
     }
   ],
   "errors": [],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T0426Z-B2-cycle2-resume0426Z-130-megascops-koepckeae-v7.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "source_ids": [
     "KOEP-MIK2013-222",
     "KOEP-FJELDSA-2012-P180-191",
@@ -26,5 +30,18 @@
   "full_prompt": "Precise-object-edit existing Koepcke's Screech-Owl Megascops koepckeae #130 plate. Correct ONLY the FEATHERED TARSI of both adults (short leg feathering just ABOVE baretoe bases): currentadultlegfeathers nearplainwhite; make these featheredleggings softlightbuff-yellowwithsmallirregularbrownflecks/speckles, consistentwith speciesguide. Do NOT recolor the baregray-browntoes or darkhornclaws, do NOT extendfeathersdownontotoes. Preserve leganatomy/exact6grips/branch. Keep ALL juvenile completelyunchanged including its palegreyresidualdown/graywhitebars/brownchest/WHITEBROWS/yellowiris/bluegraybill/formedcompactfoldedwing/ageunknown andtwofeet. Adultrestrainedmottledbrows/palefaceborder/blackruff/yelloweyes/blue-greenhornbill/shorttufts/whitebrokenSCAPULARline/broadshaftstreaks/near-equaladultsize unchanged. Keepexactthreebirds/alltitlelabels/LojaAndeanforest/naturalbranch/warmnaturalisticpetstyle. Not a universalhockingicolourassignment, no exactage/nest/flightclaim. Only adultlegFEATHERS warmbuffandbrownspeckles, nogoldenfeet/noextrafoot/noglobalrestyle.",
   "research": "Access2026-11-27. Actualv6full/researchread: adultfeatheredtarsilargelyplainwhite. UploadedMikkola2013 printed222/PDF224 freshlyread lightyellowtarsifeatherswithbrownspeckles/gray-brownbaretoes/darkhornclaws; targetsmallwarmbuffandbrownflecksonadulttarsalfeathersONLY, separatefromtoe skinandclawcolour. Guide nosexsizedata; retainearlierv6mottledbrowsandpalevalidfaceborder.\nFreshoriginal Fjeldsaetal2012 BBOC132(3):180-193, https://archive.org/download/biostor-245242/biostor-245242.pdf actualwebbodyopened, laterfindredirect500; recoveredlocalfull14pagePDF andactuallyreadprinted184/PDF5 and189/PDF10. P184 northernPerubirds ochreonlegs/vent; p189hockingi type bufftarsalfeatherswithsmallfuscousstreaks, diagnosislegmarkings. This supports avoidingplainwhitetarsi, but exacthockingigrid/regionnotassignedtoLoja. Colourvariesnorthchocolatebrown/southgray, specimenandregionaldata notsexualdimorphism. Noextraspeciescredit/newtaxonomy. PrimaryFig2paintingnotphoto, nofreshvisualphotoclaim. HistoricalnamesOtuscholibakoepckei→M.koepckeae retained.\nHistoricalAlarcon2023 ReproductiveeventsofbirdsfromSouthernEcuador DOI10.1080/23766808.2023.2237229 reusedprioractuallyreadrecord: Loja dependentfledglings23Apr2019/2131m graywhitebarredresidualdown/brownchest/WHITEBROWS/yellowiris/Podocarpusbranch. No fresh2023fullbodyclaimthisround; youngunchangedformedwing/twofootsupport/exactageunknown, no flight/nestinference. Subspecies/iris-age/continuousdevelopmentunknown. SourceIDsreuse3/new0; exactbuffshade/speckledrenderdesignnotmeasuredscientificcertification. Preserveyoungwhitebrowsandadultsubduedbrowdistinction.",
   "research_record": "owl-pet/research/species/130-megascops-koepckeae-v7.md",
-  "review_record": "owl-pet/research/reviews/130-megascops-koepckeae-v7-review.md"
+  "review_record": "owl-pet/research/reviews/130-megascops-koepckeae-v7-review.md",
+  "image_meta": {
+    "bytes": 2559034,
+    "sha256": "52736f27c5adaa155985a9b665e9527e585209434a2e3bc03cc8f9cfcc3f7bb6",
+    "git_blob": "7a90a425477b1d2a85ce0e40be57e8cf1751d527",
+    "size": [
+      1536,
+      1024
+    ],
+    "b64len": 3412048
+  },
+  "generation_wait_seconds": 38.28,
+  "status": "PASS_WITH_LIMITATIONS",
+  "review": "Actualinput/outputfullviewed. BothadulttarsalFEATHERSnowbuff-yellowwithsmallbrownflecks, notplainwhite; graybrownbaretoes/darkhornclaws/featherboundary/grips retained. Adultrestrainedmottledbrows/validpalefaceborder/blackruff/yellowiris/bluegreenhornbill/shaftstreaks/scapularline/near-equalheight unchanged. Youngwhitebrows/yellowiris/bluegraybill/graywhitebarredresidualdown/brownchest/compactformedwing/ageunknown/twofootbranchsupport unchangedoverall; longclosedloopfiberstillstylelimitation, no scientificmaterialpass. Exact3birds6feet/titlelabels/Lojaforestretained. PASS_WITH_LIMITATIONS adultlegfeathercoloronly, no subspeciesassignment or youngage/flight claim. Primary2012pages184/189freshreadbacksupportbuffmarkedadultlegsbutnotexactLojaquantification."
 }

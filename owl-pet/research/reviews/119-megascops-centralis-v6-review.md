@@ -1,0 +1,6 @@
+# 119-megascops-centralis-v6
+Status: PASS_WITH_LIMITATIONS; scientifically_verified=false
+
+Two actual full outputs viewed. First corrected adulttoes pale yellowish but spilled to barelower tarsalstrips; initialoriginal saved. Second localedit restored mutedpink tarsalstripsabove toe joints fromv5, retained pale yellowish toes/horn-dark claws and identicalfootcontact/featherboundary. Centraljuvenile pinkfeet unchanged, no adulttraittransfer; graymesoptile/formedshortremiges/no projectingtail/twofeetonsill/ageunknown preserved. Both adultyelloweyes/greenbills/smalltufts/graybrownpattern/nearequalscale, exactlythreebirds/labels/humidforest/cavity/6feet support preserved. Target scope nowvisuallypasses. Adult tarsalcolour not newlyscientificallyverified; only originalscope restored. Guide243 supports verylightyellowishadulttoes, no juvenilebasis. Exactyoungage/sex/flight and global scientificcalibration remain unknown. PASS_WITH_LIMITATIONS; sciencefalse.
+
+[Sources/fullprompt](../species/119-megascops-centralis-v6.md)

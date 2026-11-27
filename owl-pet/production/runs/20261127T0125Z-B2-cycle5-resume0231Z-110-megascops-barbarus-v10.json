@@ -16,6 +16,10 @@
     {
       "stage": "MATERIAL_STUDY_GENERATED",
       "at": "2026-11-27T02:39:10.587Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T02:40:14.344Z"
     }
   ],
   "errors": [],
@@ -23,7 +27,7 @@
   "unique_species_increment": 0,
   "revision_increment": 1,
   "run_record": "owl-pet/production/runs/20261127T0125Z-B2-cycle5-resume0231Z-110-megascops-barbarus-v10.json",
-  "stage": "MATERIAL_STUDY_GENERATED",
+  "stage": "IMAGE_GENERATED",
   "source_new": 0,
   "source_reuse": 2,
   "source_ids": [
@@ -47,5 +51,18 @@
     "b64len": 3580456,
     "wait": 33.159,
     "actual_review": "Standalone original viewed; diffusegraybrownbarredmesoptile andcompactfoldedwing, supportedfeet. Fuzzyfinewispsremain; less artificial adultscales, no age/sex/flightclaim. Integrationmustreviewloopmaterial, notassumesuccess."
-  }
+  },
+  "generation_wait_total_seconds": 60.396,
+  "image_meta": {
+    "bytes": 2776717,
+    "sha256": "55ef20dcdb7ae50cf1285343420263b583f18e69975e3fdc1b9c22a123d08426",
+    "git_blob": "a9b646f608faac1bcbdabc6d0adca3580dd57bc8",
+    "size": [
+      1536,
+      1024
+    ],
+    "b64len": 3702292
+  },
+  "generation_wait_seconds": 27.237,
+  "status": "NEEDS_REVISION"
 }

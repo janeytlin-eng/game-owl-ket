@@ -1,0 +1,3 @@
+# 125-ninox-philippensis-v6
+Status:PASS_WITH_LIMITATIONS; scientifically_verified=false
+Actualfullinput/outputviewed. Smallsoftwhiteadultundertailcovertpatchesnowvisiblebehindlegs/tailbase; longbrownrectrices/weaknarrowbandsretained, notallwhitetail. Prominentventralstreaks/plainbrowncrown/yellowiris/olivebill/yellowfeet/darkclaws/outercovertspots retained; near-equaladultscale unchanged. Youngrufouschocolate/formedfoldedwing/darkiris/shorttail/twofeetbranchsupport unchanged. Threebirds/sixcontacts/text/woodlandretained. PASS_WITH_LIMITATIONS onlyundertailcoverts; exactpatchvisibilitydesign, youngage/locality/iris/barepartcolours provisional, sciencefalse.

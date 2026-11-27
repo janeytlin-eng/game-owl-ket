@@ -325,3 +325,7 @@ Adultpatterntargetfinevermiculations successfullyvisible aftersubtleonefifthcont
 
 ## 2026-11-27 0030Z 113-ninox-natalis-v8
 Adultwhiteplainshanks→guide494rufousochrebarredfeatheredtarsi→adultonlywarmbarredrepaint actualfullviewpassed. Institution2016generalyellowlegs notusedtoerasefeathers; baretoesremainyellow. GuidecaptionKiritimatiwrongregion flagged/excluded, nottaxonomychange. Youngunchanged/noadulttransfer; oneplatepromptapplication notuniversalrule.
+
+
+## 2026-11-27 0030Z 115-otus-lempiji-v5
+Image-onlyscopegap in115v4→primarySingaporecase printed38notuniversalJavajuvenileage/colour→scope+agecaption added andread. Allanatomyunchangedvisually; no newlycalibratedphenotype. Taxon/region/behaviour must be separated, nottransfergenericwhite Malaydown toJavayoung. Applied115only, notnewrulevalidatedacrossspecies.

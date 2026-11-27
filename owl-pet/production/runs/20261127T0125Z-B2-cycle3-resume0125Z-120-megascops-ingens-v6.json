@@ -8,6 +8,10 @@
     {
       "stage": "STARTED",
       "at": "2026-11-27T01:44:50.526Z"
+    },
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-27T01:44:55.965Z"
     }
   ],
   "errors": [],
@@ -15,5 +19,16 @@
   "unique_species_increment": 0,
   "revision_increment": 1,
   "run_record": "owl-pet/production/runs/20261127T0125Z-B2-cycle3-resume0125Z-120-megascops-ingens-v6.json",
-  "stage": "STARTED"
+  "stage": "RESEARCH_READY",
+  "source_ids": [
+    "RIS-MIKKOLA-2013-P229",
+    "RIS-ORDONEZ-2022-LEAD",
+    "RIS-IKIAM-2022-INGENS-REPO"
+  ],
+  "source_new": 0,
+  "source_reuse": 3,
+  "full_prompt": "Use case: precise-object-edit. Image1 is #120 Megascops ingens v5 edit target. Correct ONLY both ADULTS' CLAWS: existing dark charcoal-gray talons should be pale horn-coloured, muted translucent warm beige-gray/ivory keratin, with slightly darker tips permissible but most claw length visibly light horn. Keep claw size, curvature, exact number, toe grip and all supports. Keep adult yellowish-gray toe skin and feathered tarsi unchanged. Do NOT change any juvenile claws, toes, bill, iris or plumage.\nAll other content locked: adults honeybrown eyes/oliveyellow bills/small tufts/rufescent patterned feathers/nearequalsizeasymmetricalposes, center juvenile ageunknown supportedbelly/twofeet oncavityrim with headturned/openbill and oneslightlylifted formedbarredwing. No wing deletion/newborn/flight inference. Keep exact3birds, all sixfootcontacts, Ecuador forestedge/deadstump/moss/leaves context, title andalllabels, established polished pet-concept style. No additional elements. Adultclawkeratin colouronly.",
+  "research": "Accessed2026-11-27. CurrentMegascopsingens oldScopsingens/Otusingens; southeastEcuador nominatecase, not Venezuelanuniversalization. v5researchandfullimageactuallyread/viewed. Uploadedguide Mikkola2013 printed229/PDF231 freshlyread: adults honeybrowneyes/oliveyellowbill, denselyfeatheredtarsitobaseyellowishgraytoes withPALEhornclaws. Femaleaveragemass+28g not standingheightratio. Downychickwhitishbuff/mesoptileduskymottled. Actualv5adultclawscharcoalgray; correct adultclawkeratinlightonly, no youngtraittransfer. Fresh targetedwebsearch plus actualIkiaminstitutionlanding https://ikiam.researchcommons.org/neotropical-diversity/vol8/iss1/35/ lines11–24 read: Ordóñez-Delgado/RamonCastillo/PinedaDíaz2022, primaryarticle NeotropicalBiodiversity8(1):301–304 DOI10.1080/23766808.2022.2123729, Fig1asset162KB. Actualdownloadclick yielded403; RGshortURLDisabledError. Thus originalfulltext/figure NOTfreshreadthiscycle; RIS-ORDONEZ-2022-LEAD reusedhistoricalv5reading pp302/Fig1 only. Preserve residualdown/beigebody/darkfaceiris/graybill/formedbarredremiges and supportedonewingdefensivebillclappose. Two ageestimates20–30 vs25–30 remainestimates, no exactagelabel or flight claim. No additionalnestmaterial decisions based on inaccessiblefigure; existingdeadstumpcontextretained asillustrationnotreconstructednest. RIS-IKIAM-2022-INGENS-REPO samepaper metadata mirror not secondindependentstudy. Sciencefalse, unknownyoungsex/chronology/flight/adultheightformula.",
+  "research_record": "owl-pet/research/species/120-megascops-ingens-v6.md",
+  "review_record": "owl-pet/research/reviews/120-megascops-ingens-v6-review.md"
 }

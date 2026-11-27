@@ -33,11 +33,15 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-27T23:47:54.562Z"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-27T23:48:14.279Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T2326Z-cycle2-20261127T2326Z-113-ninox-natalis-v9.json",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "research": "New0/reuse2: CIB-WAM-JOHNSTONE-2016 RonJohnstone WAM March2016 primaryinstitutioninfosheet https://museum.wa.gov.au/sites/default/files/Information%20sheet%20-%20Christmas%20Island%20Hawk-Owl_EN_MS_ZH_0.pdf actualEnglishPDF1Description13–22/Breeding27–29 readnow; RichardJacksonimagecredits notnewphotopixelclaim. Adultsbluegraybill/yelloweyes/white lores-shortbrow-chin/paleyellowfeet, femalelittlegreater, youngsimilarpaler/downier, nestinglargeemergenttreehollows; no exactday/flight/growthsequence. WHSO-MIKKOLA-2013 existingbookalias actualuploadedprinted494/PDF496 read: tuftless/adulttarsiochrerufousbarred, toe strawyellow/darkclaws, youngwidelybarred/spottedheadandback; geographiccaptionKiritimati excluded forIndianOceanChristmasIsland perWAM. SourcechinWAMwhite versusbooktawnywhiteshaftsmicroextentnotforcednewedit. Actualv8fullview: adulttarsalfixalreadyretained, no newphysicaldefect established; exportlacks anysciencependingorunknownday/flightnotice. TargetONLY scientificstatusandstageuncertainty readable withinimage, notclaimnewmorphology/newscience. CurrentNinoxnatalis oldN.squamipilanatalis/forbesinatalis same251unit. Preserveolderyoungformedwingtail/support no inventionnewbornnataldetails. Access28Nov2026Shanghai; sciencefalse. Max8enumerated9new.",
   "full_prompt": "Precise text-localization edit #113 Ninox natalis v8 familyplate. Add small 'v9' to title. Add clear discreet bottom line 'CONCEPT · SCIENTIFIC CALIBRATION PENDING · JUVENILE AGE / FLIGHT UNVERIFIED'. Change central label 'OLDER JUVENILE' to 'OLDER JUVENILE · AGE UNKNOWN'. Preserve ALL BIRD pixels visually: adultochrerufousbarredtarsi/yellowtoes/darkclaws/yelloweyes/bluegraybills/white facialmarks/plumagebars/near-equaldisplay andjuvenile palerfluff/formedwings-tail/stance. Keep6branchgrips/rainforest/softlight/noear-tufts/threebirds. No anatomyredesign/newage/flight/nest. This is uncertainty disclosure only, not a biological correction or approval.",
   "source_ids": [
@@ -71,9 +75,17 @@
   "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-56839065-f965-4f2a-bea7-cf8490b5ecb4.png",
   "imagegen_wait_seconds": 34.893,
   "editing_wait_seconds": 95.372,
-  "imagegen_invocations": 2,
+  "imagegen_invocations": 4,
   "review_result": "NEEDS_REVISION",
   "review": "Actualv8, initialv9 and all3 removal outputs viewed. In-image ageunknown and science/flightpending disclosure readable, no intentionalanatomychanges; yellowiris/bluegraybill/ochrerufousbarredadulttarsi/strawtoesdarkclaws/youngformedwings/support retained. Three localized removaledits substantially reduced initialgoldscribble but faintgoldresidue stillvisible aroundx910y880: NEEDS_REVISION artifact queue, notcleanpass. This complete production/review/archive cycle does NOT resolve thatvisualdefect nor sciencecalibration. No newborn/dayage/flightclaim. Lesson tiny-coordinate requests repeatedly attenuated ratherthan fullyremoved artifact; observedfailure inthisimage, notvalidatedmethod. Preserveinitialandfinal; nextcycleprioritize cleanbackground removal bybroadsceneinstruction or resumeunresolvedafterotherstage. Sourceyoungage/flightunknown remains. imagegen4successfulcalls(initial+3edits), actualwaitsrecorded. Scientificfalse.",
   "reviewed_at": "2026-11-27T23:47:49.771Z",
-  "archived_at": "2026-11-27T23:47:54.543Z"
+  "archived_at": "2026-11-27T23:47:54.543Z",
+  "archive_commit": "9c8f113d45eba2ccc664a7fc7aa9a9654f8dda1b",
+  "edit_prompts": [
+    "Exact #113 Ninox natalis v9 image. REMOVE ONLY the tiny gold/yellow signature-like scribble on/just below branch under the juvenile's right-hand side, above right edge of central 'OLDER JUVENILE · AGE UNKNOWN' label (near x1018,y853 of1536x1024). Reconstruct clean natural darkbrown branch/foliage there. Do NOT remove/alter any legitimate role labels, species title, v9, scientificpendingfooter or uncertainty text. No artist signature, initials, watermark or other newtext. Preserve all threebirds/feathercolours/feet/support/lighting completely. One tiny artifact removal only.",
+    "Remove ALL tiny gold/yellow handwritten signature/initials/scribbles below the central juvenile on the branch and background. Specifically the small illegible gold marks at x895-940,y870-895 in the 1536x1024 image, directly ABOVE the word UNKNOWN in the central role label, must disappear. Fill that small rectangle with the existing natural dark olive forest background. This is an artifact removal edit, not a signature request. Preserve the entire title, all legitimate white labels, footer, all 3 birds, and branches. NO new gold marks, no watermark, no initials, no signature. Exact image unchanged outside that small rectangle.",
+    "Erase every yellow/gold handwritten scribble in rectangular background x870..965 y860..900; replace with darkoliveforestbokeh, preservebirds/labels"
+  ],
+  "verification_exit_code": 0,
+  "ended_at": "2026-11-27T23:48:14.257Z"
 }

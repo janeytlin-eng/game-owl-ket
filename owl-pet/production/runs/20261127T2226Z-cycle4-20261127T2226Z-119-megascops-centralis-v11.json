@@ -13,16 +13,34 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-27T22:44:27.148Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T22:45:43.357Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T2226Z-cycle4-20261127T2226Z-119-megascops-centralis-v11.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "New0/reused2. CHSO-MIKKOLA-2013-P242-243 HeimoMikkola2013 actualuploadedprinted242–243/PDF244–245 textread now: graybrownmorphverydarkupperparts, graywhiteunderparts darkvermiculations, shorttufts/weakwhitebrows/noouterblackfaceedge/blackorbitalring/lemonyelloweyes/greenyellowbill, paleyellowbaretoes/hornclaws; nosexsizedata, juvenileundescribed. CHSO-JORDAN-2012-ADULT RaphaelJordan originaladultSanTadeoPichinchaEcuador Oct2012 https://www.oiseaux.net/photos/raphael.jordan/petit-duc.du.choco.1.html freshqueryandactualbodymetadata74–92 read, 1024x682sourcephotograph actuallyreopened. Smallflatfinecrowntexture/weakbrows observable, lowlightISO3200 noflash preventsabsoluteRGBstandard; notsex/youngage/flight orpreciseindividualfeathermap. Actualv10wholeplateviewed priorgreywhitebellyimprovementretained, adultcrownraisedrepeatedrimsmoregeometricthansource; inferonlyflatteningcontourgeometry not allmorphdarkening. Olderjuvenile fullformedwing preserved, no adultfacts transferredtoyoung. CurrentMegascopscentralis/oldOtusguatemalaecentralis/Mvermiculatuscentralis mapping retained, no251change. Knowncavitysupportdesignnotnew nestmeasurement. Versionmax10enumerated11new; sciencefalse. Access28Nov2026Shanghai.",
   "full_prompt": "Precise-object-edit exact #119 Megascops centralis v10 trio. BOTH ADULT crown/top-of-head feather-edge geometry ONLY: flatten conspicuous repeated lifted U/V scallop/shingle feather rims into smoothly overlapping very short close-lying fine mottled graybrown/darkbrown crown contourfeathers, irregular fine pale-brown speckling integrated within feathers rather than outlined thick rims. Keep same overall adultcrown colour/light, short ear tufts, headshape, weakbrows, plain facialdisc outeredge, black orbitalring/lemonyelloweyes/green-yellowbills unchanged. All adultgreywhitefinitelyvermiculatedbellies (v10fix), wingwhitecovertpatches/yellowbuffprimarybars/shorttail/feetpaleyellowbaretoes/hornclaws andsixsupports unchanged. CENTRAL AGE-UNKNOWN OLDER JUVENILE whollyunchanged inclgraybarreddown/formedwing/hidden tail/cavitysill. Keepnaturalcavity/forest/roles/allpendingfooter; titlev10→v11. No universal darkening from one lowlightphoto, no newage/sex/nest/flight claim. Same tactilepetstyle.",
   "source_ids": [
     "CHSO-MIKKOLA-2013-P242-243",
     "CHSO-JORDAN-2012-ADULT"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "image_metadata": {
+    "bytes": 2653430,
+    "sha256": "aceda44781355ebb687504f3e49e208be2f0b85387836107da6d1c4849d2a689",
+    "gitblob": "76188852388a7bc5a94394b52f7a1f819a3a9e3e",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-a19ba47a-4759-4e72-9cf2-459902c66e53.png",
+  "imagegen_wait_seconds": 36.727,
+  "editing_wait_seconds": 0,
+  "imagegen_invocations": 1,
+  "review_result": "PASS_WITH_LIMITATIONS"
 }

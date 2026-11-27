@@ -57153,7 +57153,7 @@
     {
       "batch_id": "20261127T1333Z",
       "status": "PARTIAL",
-      "next_cycle": 2,
+      "next_cycle": 3,
       "completed_cycles": [
         {
           "cycle": 1,
@@ -57161,17 +57161,19 @@
           "commit_sha": "d023b69307a55f7d9225045546e6d417283534e4",
           "archive_commit": "f335da991ae00e4952cf3478bdd0d8132d2688a8",
           "run_record": "owl-pet/production/runs/20261127T1333Z-cycle1-20261127T1333Z-195-otus-brookii-v6.json"
+        },
+        {
+          "cycle": 2,
+          "species": "202-ninox-theomacha-v6",
+          "commit_sha": "2c68e8a8cc17bf7c153fed8e31d7fdb72d92798e",
+          "archive_commit": "68bb4fa8d6b36c5e403b736d0b1ff6ad255a2846",
+          "run_record": "owl-pet/production/runs/20261127T1333Z-cycle2-20261127T1333Z-202-ninox-theomacha-v6.json"
         }
       ],
       "started_at": "2026-11-27T13:38:23.176Z"
     }
   ],
-  "lease": {
-    "owner": "20261127T1333Z",
-    "run_id": "owl-pet/production/runs/20261127T1333Z-cycle2-20261127T1333Z-202-ninox-theomacha-v6.json",
-    "heartbeat_at": "2026-11-27T13:42:55.389Z",
-    "expires_at": "2026-11-27T13:57:55.389Z"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -58138,7 +58140,7 @@
       "credited": false
     }
   ],
-  "in_progress": true,
+  "in_progress": false,
   "previous_checkpoint": {
     "batch_id": "20261112T043100+0800",
     "cycle": 3,

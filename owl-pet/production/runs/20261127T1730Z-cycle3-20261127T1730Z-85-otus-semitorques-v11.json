@@ -13,11 +13,15 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-27T17:47:22.322Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T17:48:43.069Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T1730Z-cycle3-20261127T1730Z-85-otus-semitorques-v11.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Access2026-11-27UTC/28Shanghai. Reused SEM-NOHARA-HONDA-2025-P75-78 KiyoshiNohara/RinaHonda2025 ReliableBreedingRecordofCollaredScopsOwlinSaitamaPrefecture BullSaitamaMusNatHist19:75–78 DOI10.24715/smnh.19.0_75 https://www.jstage.jst.go.jp/article/smnh/19/0/19_75/_pdf/-char/ja . Freshtargetedsearch+actual831234byte4pageoriginalbody75–76andFig3pixelsviewed.25–26June2024 youngonCryptomeria, allbodydown/distincttufts/NOTfullyelongatedremigesandtail/littlemovement/twodayspositions~1mapart; recentdeparture authorinference, exacthatchage/flightnotknown/nestnotfound. Iriscolour explicitlyNOTdiscernibleinphoto; identificationcontextparentorangeiris/toefeathering/defence. v10actualfullviewhasdistinctamber-brownyoungirispatchdespiteunknownfooter; correctvisibilitybyshadowingeyesmatchingfieldheadshade, notassigningknownnewcolour. Currentyoungwingalreadyshort/incompleteandphotolike, noextra wingeditjusttofillcycle. WHSO-MIKKOLA-2013 printed158/PDF160 historicalsharedbookgrey/dullyellowmesoptile/featheredtoes retainednotfreshread (bookunavailable). CurrentOtussemitorques oldObakkamoenasemitorques, historicalEnglishCollared notOlettia, no251change. Eye-shadow is designboundary reducesunsupportedcolourspecificity; no phenotypeclaimedblackiris. Naturalquietlowcrouch/sixfeet/support/near-equaladultsnoheightformula retained. New0/reuse2, scientificfalse.",
   "full_prompt": "Use case precise-object-edit. Edit only CENTER YOUNG EYE VISIBILITY in Japanese Scops Owl Otus semitorques #85v10 plate. Input2 actualsame-species fieldyoung has eye under deep shadow, iris colour notdiscernible. Currentillustratedyounghasclearlyamberbrowniris patch; avoid making an unsupported colour assertion. Put BOTH young eyeballs under soft deep natural brow/tuft shadow so iris is barely discernible as dim neutral dark reflection, no visible amber/yellow/orange/brown ring and no whitewash. Keep a tiny natural catchlight and eye anatomical openness, not blindclosedeyes or blackpaintedface. Do not claim a black iris, only low-lightvisibility. Preserveyoung head/bodypose, distincttufts/graydown/shortincompletefoldedwings/concealedtail/bilateralfeetbellysupport exactly; noothermaterialedit. Both adults unchanged especially orangeeyes/grayhornbills/featheredtarsi AND toeplumes/hornclaws/near-equalheight. Keep3birds/sixsupportedfeet/Cryptomeriahabitat/title/roles andunknowniris-age-flight-sexratiofooter. Addsmallv11besidenumber85. Only young eye illumination/visibility change, no unsupportedstagealteration.",
   "source_ids": [
@@ -25,5 +29,19 @@
     "WHSO-MIKKOLA-2013"
   ],
   "new_sources": 0,
-  "research_ready_at": "2026-11-27T17:47:22.302Z"
+  "research_ready_at": "2026-11-27T17:47:22.302Z",
+  "image_metadata": {
+    "bytes": 2854977,
+    "sha256": "6f77d1116488507a5f463f7fc31711f445639016ef5469069f3bc6bbb84ba260",
+    "gitblob": "627a71567d16d3786c264df89a3766e8d61988a6",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "imagegen_wait_seconds": 47.117,
+  "imagegen_invocations": 1,
+  "editing_wait_seconds": 0,
+  "review_result": "PASS_WITH_LIMITATIONS",
+  "local_image": "production1730nov27/85-otus-semitorques-v11.png"
 }

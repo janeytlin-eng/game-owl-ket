@@ -8,6 +8,10 @@
     {
       "stage": "STARTED",
       "at": "2026-11-27T00:35:59.780Z"
+    },
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-27T00:36:04.657Z"
     }
   ],
   "errors": [],
@@ -15,5 +19,15 @@
   "unique_species_increment": 0,
   "revision_increment": 1,
   "run_record": "owl-pet/production/runs/20261126T2334Z-B2-cycle5-resume0030Z-109-ptilopsis-leucotis-v11.json",
-  "stage": "STARTED"
+  "stage": "RESEARCH_READY",
+  "source_ids": [
+    "NWFO-MIK2013-254",
+    "NWFO-OWLPAGES-2020"
+  ],
+  "source_new": 0,
+  "source_reuse": 2,
+  "research": "Access2026-11-27, Ptilopsisleucotis oldOtus/Strixleucotis. Fresh external search and actualexpertDescription64–65read DeaneLewis2020 https://www.owlpages.com/owls/species.php?s=1160 ; useruploadedMikkola2013printed254/PDF256 actualtextreopened. Bothsayadultpaleunderparts darkshafts+finevermiculations; adultfacewhiteblackrim/orangeeyes/hornbill/featheredproximalhalf toes. Guidefemale+30gmass notheightformula. Actualv10fullopened: paleventralpanels dominatedbyshafts, little finewavycrossmarking; addonlysubtlebrokenfine vermiculations. Numeric onefifth ispromptcontrol/designinference notmeasuredspeciesratio, uses earlier86overshoot lesson. Youngyellowiris/formedwing/ageunknownstayunchanged; no preciseflight/nest/juvenilechronology from adultaccount. Sourceagreementsecondarynotnewprimary study; no sciencepass. Wholeplastictexture remainsseparatecalibrationlimit; notdeclaredfixed.",
+  "full_prompt": "Use case: precise-object-edit. Image1 is109v10 target.\nCorrect ONLY the two ADULT midbreast/belly plumage: retain their dominant narrow dark vertical shaftstreaks but add sparse very fine faint irregular wavy brown vermiculations crossing the pale spaces between shafts. The tiny broken transverse lines must be about one fifth the contrast/width of the main shafts, individually uneven, never a dark closed grid/checkerboard/herringbone. Keep pale grey-buff base under warm light and natural feather appearance. Do not change juvenile whatsoever; yellowjuvenileiris/orangeadultirises, whiteblackrimmedfaces/tufts/bills/toeboundaries/feet/pose/scale/grips/titleandfooter allretained. Change title suffix v10 to v11 only. No nest, extraobjects, watermark or new claims.",
+  "research_record": "owl-pet/research/species/109-ptilopsis-leucotis-v11.md",
+  "review_record": "owl-pet/research/reviews/109-ptilopsis-leucotis-v11-review.md"
 }

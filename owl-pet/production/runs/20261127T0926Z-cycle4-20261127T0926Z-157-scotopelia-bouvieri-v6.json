@@ -14,21 +14,13 @@
       "at": "2026-11-27T09:44:52.578Z"
     },
     {
-      "stage": "IMAGE_GENERATED",
-      "at": "2026-11-27T09:46:04.932Z"
-    },
-    {
-      "stage": "REVIEWED",
-      "at": "2026-11-27T09:46:09.691Z"
-    },
-    {
-      "stage": "ARCHIVED",
-      "at": "2026-11-27T09:46:15.235Z"
+      "stage": "VERIFIED",
+      "at": "2026-11-27T09:46:56.518Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T0926Z-cycle4-20261127T0926Z-157-scotopelia-bouvieri-v6.json",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "research": "Accessed2026-11-27; revision only, unique+0. Fresh v5 full image and prior research/review read: the adult beaks are largely slate-grey with yellow cere; older immature and white thighs were already corrected and are retained.\nMIKKOLA-2013 (Heimo Mikkola2013, uploaded guide actual printed308/PDF310 text read): historical Bubo bouvieri→current Scotopelia bouvieri. Adult yellowish-horn bill, blackish claws, chrome-yellow bare tarsi/toes, dark eyes, plain off-white thighs; sex size unknown from only one sexed weight. Scapular colour differs from historical Sharpe wording, so do not alter shoulders to manufacture consensus. Target only both adult bill exposed horn surfaces to muted yellowish horn, maintaining natural shadow. Not copy pale-claw rule from #155.\nVFO-NIKBORROW-2022-IMMATURE, Nik Borrow24Aug2022 AkakaLoangoGabon, https://www.flickr.com/photos/nikborrow/52405057195 actual original metadata/body freshly read (immature/date/locality). Previously read photograph phenotype retained; fresh pixels not claimed. Formed wings/white streaked belly/perch retained, precise age/flight/juvenile iris unknown.\nNEW stableID VFO-BUTTIKOFER-1886-NLM-P247: J.Büttikofer1886, Zoological researches in Liberia. A list of Birds collected by Mr.F.X.Stampfli..., NotesLeydenMuseum8:243–268, original https://repository.naturalis.nl/pub/508622/NLM1886008004014.pdf ; primary specimen report, actual original body printed247/PDF5 §8 read. Reports yellow bill/cere/feet of one female identified as S.bouvieri, JunkRiver7January; unusually western identification discussed by author. Supports historical yellow-bill observation only cautiously; specimen identity requires modern revalidation, age unspecified, no population or sex-size conclusion. Cherry-brown claw description differs from book blackish; do not change claws from this single historical bird. High confidence in reading, limited taxon/generalization confidence. Not evidence for juvenile colour/flight/nest. Map Scotopelia bouvieri / adult bareparts / thisID to v6 research/review/image. New1 reused2 sourceIDs, guide one publication.\nExternal targeted search also located Sharpe1875 catalogue (existing VFO-SHARPE-1875-CBM-P11-12); fresh original open failed400 content21,799,394bytes too large. Search extract not fresh verified source, shoulders conflict left unresolved. Habitat riverine/gallery forest and branch above water from book; no nest depicted. Keep near-equal adults, intact younger supported static perch; do not claim exact ratio or science pass.\nIteration: isolate exposed bill from yellow cere when checking palette; previously yellow base concealed incorrect grey distal bill. Rule applied now, outcome pending actual image view.",
   "full_prompt": "Edit the supplied existing #157 Vermiculated Fishing Owl Scotopelia bouvieri concept plate. Preserve the confirmed illustrated photographic natural-history style, exact composition, title, all role labels and scientific-calibration-pending footer. Make one narrowly bounded correction to BOTH OUTER ADULT BIRDS ONLY: their exposed hooked bills currently read dark slate-grey past the yellow cere. Recolour the exposed bill horn to muted pale yellowish horn, a natural warm cream-yellow, visibly lighter than charcoal; preserve a little darker brown shaded edge/very tip, original nostrils, curvature and anatomy. Do not merely brighten the cere while leaving the bill grey. Do not alter central immature bird or its bill. Preserve dark eyes, yellow bare legs, blackish claws, plain off-white thighs, adult plumage/shoulder patches, branch support and forest water setting. Preserve near-equal adult body sizes; no invented female-larger rule. Central older immature keeps formed folded wings, long tail, white strongly streaked ventrum and supported feet, age and flight unknown. Exactly three owls, no eggs/prey/nest addition. This is concept refinement, not scientific verification.",
   "source_ids": [
@@ -37,16 +29,7 @@
     "VFO-BUTTIKOFER-1886-NLM-P247"
   ],
   "new_sources": 1,
-  "image_meta": {
-    "bytes": 2728380,
-    "sha256": "fee11ac4c161e9fc87f261b7dbda768b90c0629a0c7ec1d629a7b573e4704703",
-    "git_blob": "2abc632941cc93640854bacea5be68836cf84282",
-    "size": [
-      1536,
-      1024
-    ]
-  },
-  "generation_wait_seconds": 37.704,
-  "review": "# 157 Scotopelia bouvieri v6 actual review\nActually viewed v5 full and built-in edited full1536x1024. Both adult exposed bills now read pale warm horn over their greater surface, with shaded lower edges, instead of former largely slate-grey; central immature unchanged. Improvement verified visually, not calibrated spectral colour measurement. Scapulars retained because historical fulvous vs book white descriptions conflict and no new fresh comparative photo establishes a correction. Dark eyes, bare yellow legs/blackish claws, plain off-white thighs, heavily streaked ventra, formed central wings/tail retained. Exactly3 owls and6 supported feet on branches, stable anatomy; labels/pendingfooter retained. Near-equal adult sizes are a conservative design choice, sex ratio unknown. Juvenile precise age/flight/nest and iris development remain unknown. PASS_WITH_LIMITATIONS; scientifically_verified false/user unconfirmed.\nIteration problem—evidence—change—recheck: yellow cere alone had obscured slate distal bill; Mikkola printed308 and cautiously read historical specimen support warm horn/yellow; target actual bill beyond cere; observed lighter horn now. Rule actually applied to157;155 intentionally remains bluegrey as independently supported, no genus-wide palette transfer. No extra species count.",
-  "status": "PASS_WITH_LIMITATIONS"
+  "archive_commit": "433f472973c9cde798320a46cabba43f81b5ddb2",
+  "verification_exit_code": 0,
+  "verified_at": "2026-11-27T09:46:56.494Z"
 }

@@ -12,12 +12,16 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-27T04:28:02.244Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T04:29:30.589Z"
     }
   ],
   "errors": [],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T0329Z-B2-cycle3-resume0426Z-123-otus-gurneyi-v7.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "source_ids": [
     "GSO-OWLPAGES-2020",
     "GSO-MIRANDA-2011",
@@ -26,5 +30,18 @@
   "full_prompt": "Precisely edit the existing Giant Scops Owl Otus gurneyi plate. Adult claw colour correction was too weak last time. On ALL claws belonging to LEFT ADULT and RIGHT ADULT, replace the black/dark-grey proximal claw sheath with clearly visible light cream-beige horn, approximately the base half to two-thirds of each curved claw. Only the final pointed distal tip remains dark charcoal. The pale-to-dark transition must be unmistakable even at fullplate viewing size, with natural matte horn texture/shading, not goldmetal. This changes CLAWS, not scaly toes: keep grey-brown adult toe skin, feathered tarsi, existing claw lengths/curvature/contacts intact. Do not brighten juvenile claws. Preserve the ENTIRE CENTRAL OLDER JUVENILE exactly, all three bird bodies, adult brown eyes/grey-white bills/rufousface/longtufts/darkstreaks/modestlylargerfemale, sourcephoto-supportedjuvenilesidewingpanels/pinkpurplelids/tailhidden, unknownage/flight. Keep exacttitlelabels/threebirds/sixfeet/continuousnaturalbranch/Philippinelowlandforest/warm naturalisticpetstyle unchanged. No changes beyond adult claw-sheath material colour; no added feathers, no extra feet.",
   "research": "Access2026-11-27. Read latestmainb057 ledger0329Z-B2 PARTIAL2/6,next3,leasenull; no lateruncreditedVERIFIEDrun identified. Resume samebatchcycle3, retainalloldversions/confirmations. Group25localGitblob10508841ef5f6184e8658664615302909765c1dd matchesremote beforegeneration; fd9d70d GitHub422NoCommitFound, notcredited.\nActuallyviewed123v6 andreadresearch/review: previousclawbaseeditinsufficient/NEEDS_REVISION. Freshnetworkoriginal DeaneLewis2020-10-02 OwlPages https://www.owlpages.com/owls/species.php?s=290 Description64-68 corroborates palehornclawswithdarktips, lightgrey-browntoes, browniris/graywhite-greenyellowbill/longtufts; secondaryaccount notprimarygrowthstudy. UploadedMikkola2013 printed174/PDF176 actuallyreread sameadultclawdescription andjuvenileundescribed; correctedhistoricalp229misattributionalreadyexists, no newcorrectioncount. Newinterventionstrengthensadultclawsheathmaterialcontrast/explicitlocation, preservesjuvenile/notapromisedsuccess. Exactrenderedpaleextentdesigninference, notmeasuredratio.\nHistoricalMiranda2011 DOI10.1676/10-185.1 pp446Table2/451 reusedforexisting modestfemale-wingdirection/oldMimizukugurneyi→Otusgurneyi, smallfemaleNnotheightformula; nofreshfullpaperclaim. HistoricalShankar2013 captiveDavaoyoung https://commons.wikimedia.org/wiki/File:Giant_scops_owl_juvenile_(9105615728).jpg retaineddarkiris/bill/pinkpurplelid/down/narrowformedsidewingpanels; exactage/sex/flight/nestunknown, unchangedthisedit. No scientificpass. NewIDs0/reuse3plusguide, no biologicalsourcefactrevision. Clawgeometry/support andtoe-vs-claw boundaries reviewrequired.",
   "research_record": "owl-pet/research/species/123-otus-gurneyi-v7.md",
-  "review_record": "owl-pet/research/reviews/123-otus-gurneyi-v7-review.md"
+  "review_record": "owl-pet/research/reviews/123-otus-gurneyi-v7-review.md",
+  "image_meta": {
+    "bytes": 2761537,
+    "sha256": "75f428fa013f25a905f11a1d6e90bae15592801be20fd165c7f2b60267831e50",
+    "git_blob": "8090bba036ce3caa5e751cdff2d9d7747c3473e3",
+    "size": [
+      1536,
+      1024
+    ],
+    "b64len": 3682052
+  },
+  "generation_wait_seconds": 33.43,
+  "status": "PASS_WITH_LIMITATIONS",
+  "review": "Actualfullinput/outputviewed: adultclawsnowclearlypalecream-hornproximally/darkpointeddistaltips, improvementoverv6mostlyblackclaws. Scalytoeandclawsheathboundaries/geometry/grips retained. Adultbrowniris/graybill/rufousface/tufts/darkbodymarkings/modestlylargerfemale retained. Youngform/sideflightpanels/darkeyes/bill/pinkpurplelids/hidden tail/supportedfeet retained, but downsurface rerenderedslightlyflakier; exactpixelinvarianceNOTclaimed. Exact3birds/6feet/titlelabels/branch/lowlandforest retained. PASS_WITH_LIMITATIONS onlyadultclawpalette, juvenilematerial/age/flight/sexratio stillunknown, sciencefalse."
 }

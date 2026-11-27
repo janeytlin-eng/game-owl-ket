@@ -1,0 +1,6 @@
+# 110-megascops-barbarus-v9
+Status: NEEDS_REVISION; scientifically_verified=false
+
+Actual full output viewed: rebuilt central juvenile has a more photo-bounded darker round head, narrower indistinct brows, yellow irises/greenish bill/no visible tufts, leftward tucked pose, natural compact folded wing. Adults remain intact with yelloweyes/greenbills/whiskers/tufts/pinkbaretoes and allsixbranch contacts. Broader juvenile down bars retained and no adultwingfan/newborn/flight/nestoccupancy assertion. However long fine curls remain on lower belly; reference-priority swap improved head/pose but did not remove materialloops. NEEDS_REVISION remains. This actual edit partially improves source fidelity, not scientificapproval. Exact juvenile age/sex and flight unknown; originalphoto has no timeddevelopment data. No adultsizeformula applied. Next avoid inherited image microtexture by using a substantially different rendering setup, and separately validate material before integration; don't label this strategy validated for curlremoval.
+
+[Sources/fullprompt](../species/110-megascops-barbarus-v9.md)

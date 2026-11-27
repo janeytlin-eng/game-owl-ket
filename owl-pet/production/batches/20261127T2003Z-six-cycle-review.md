@@ -34,4 +34,4 @@
 
 ## 最终联合回读已完成
 
-[50文件完整字节/Gitblob/SHA256及17PNG解码、6个历史VERIFIED run和6个历史计账账本回读凭据](./20261127T2003Z-final-readback-receipt.json)；核验对象为不可变提交 69b155dcb31cda5ef5f0e5c43da31af58fd70cad，结果PASS。核验脚本首版GitNUL转义错误产生假哈希不符，已用bytes([0])修正并全量重跑，不是远端文件损坏。凭据后续提交另回读；科学通过仍为0。
+[50文件完整字节/Gitblob/SHA256及19PNG解码、6个历史VERIFIED run和6个历史计账账本回读凭据](./20261127T2003Z-final-readback-receipt.json)；核验对象为不可变提交 69b155dcb31cda5ef5f0e5c43da31af58fd70cad，结果PASS。核验脚本首版GitNUL转义错误产生假哈希不符，已用bytes([0])修正并全量重跑，不是远端文件损坏。凭据后续提交另回读；科学通过仍为0。

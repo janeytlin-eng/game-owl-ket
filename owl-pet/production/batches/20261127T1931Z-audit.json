@@ -1,0 +1,481 @@
+{
+  "run_id": "20261127T1931Z",
+  "started_at": "2026-11-27T19:31:00Z",
+  "production_ended_at": "2026-11-27T19:57:23.342Z",
+  "timezone_user": "Asia/Shanghai",
+  "baseline_commit": "bbd88135baef4a2835a774de08f30ea87ae64a5e",
+  "production_head": "e5cff41119929dbf2cf373b46bad9ab53b7ac741",
+  "completed_this_invocation": 6,
+  "new_species": 0,
+  "revised_species": 6,
+  "counts": {
+    "unique": 207,
+    "total": 251,
+    "versions": 1406,
+    "truncated": false
+  },
+  "reviews": {
+    "PASS_WITH_LIMITATIONS": 5,
+    "NEEDS_REVISION": 1,
+    "scientifically_verified": 0,
+    "new_user_confirmation": 0
+  },
+  "verification_scope": "VERIFIED means archive byte/hash/decode/text readback, NOT biological or user approval;108 remainsNEEDS_REVISION.",
+  "current_batch": {
+    "batch_id": "20261127T1931Z",
+    "completed_cycles": 4,
+    "next_cycle": 5
+  },
+  "other_partial_batches": [],
+  "sources": {
+    "new_records": 3,
+    "reused_existing_ids": 13,
+    "production_refs": 18,
+    "distinct_stable_ids": 16,
+    "book_aliases_merged_document_families": 13,
+    "book_actual_pages": [
+      "239/PDF241",
+      "143/PDF145",
+      "508/PDF510",
+      "229/PDF231",
+      "242–243/PDF244–245",
+      "254/PDF256"
+    ],
+    "new_ids": [
+      "RIS-OWLPAGES-2020-970",
+      "RIS-BIOWEB-INGENS-PUCE",
+      "NWFO-HELSENS-2005-THHE32452"
+    ],
+    "limits": "Matoncaption/oldprimaryyoungcontext not counted asfreshimage/fullpaper. No new peerreviewedjuvenilegrowthstudy; species-specific fieldphotographs and actualweb/institutionalbodies used. No book/photos republished."
+  },
+  "imagegen_calls": 7,
+  "imagegen_wall_seconds": 346.56399999999996,
+  "timing_limits": "Observed wall includes orchestration, no pureGPU/queue telemetry; selectedresearchSTARTED→READY excludes someprefetch/normread. Phase intervals notpureIO. No platformtimeout event orfixedruntime limit claim.",
+  "cycles": [
+    {
+      "target": "134-megascops-sanctaecatarinae-v13",
+      "batch_id": "20261127T1826Z",
+      "cycle": 5,
+      "archive_commit": "779e9014da4e5ba13ffd7eee316e630421644a7d",
+      "verified_commit": "ca14471bb7805fce41909bcb8cd0d439fcdb1740",
+      "credit_commit": "f08ef754a5a9e708cec12645a0182713a9019ab3",
+      "run_record": "owl-pet/production/runs/20261127T1826Z-cycle5-20261127T1931Z-134-megascops-sanctaecatarinae-v13.json",
+      "image_metadata": {
+        "bytes": 3135713,
+        "sha256": "dbffa30d77730857367dfc02f0a9a87c3264c2e9581e9e0571cf17720a8e5741",
+        "gitblob": "9b42a7b723e9d8a4674c3ece1b4d8a7e12e5d551",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "initial_metadata": null,
+      "source_ids": [
+        "LTSC-KACHIMARECK-2014-WA1527488",
+        "LTSC-MENQ-BICHINSKI-2018",
+        "MIKKOLA-2013"
+      ],
+      "result": "PASS_WITH_LIMITATIONS",
+      "scientifically_verified": false
+    },
+    {
+      "target": "108-otus-rutilus-v9",
+      "batch_id": "20261127T1826Z",
+      "cycle": 6,
+      "archive_commit": "0f61826ee8867ec3efe513def279c4628d1e783b",
+      "verified_commit": "7210004208f8871a3792632258c4aa3283532878",
+      "credit_commit": "f02f87c30852010b96bc839bcaeb4d60d8011afa",
+      "run_record": "owl-pet/production/runs/20261127T1826Z-cycle6-20261127T1931Z-108-otus-rutilus-v9.json",
+      "image_metadata": {
+        "bytes": 2850433,
+        "sha256": "36a524be9c054656e0b8cef80ceeef5cd2b1a03bf73aa1b6e632d75d472e8363",
+        "gitblob": "521b8adf21c9709e81407a20b077c8895c427523",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "initial_metadata": {
+        "bytes": 3030518,
+        "sha256": "6019093194b0e483a14e4dd6533ca05c3d987d0f948d20b0d5d75a1d972067e5",
+        "gitblob": "45980aec91d801dc2d201cc19813bf88d7d3d733",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "source_ids": [
+        "RUT-VASSEN-2013-ANDASIBE-JUV",
+        "MIKKOLA-2013"
+      ],
+      "result": "NEEDS_REVISION",
+      "scientifically_verified": false
+    },
+    {
+      "target": "112-asio-abyssinicus-v10",
+      "batch_id": "20261127T1931Z",
+      "cycle": 1,
+      "archive_commit": "4fe4d8394c38111877d24e695f5610e8b5ad8be6",
+      "verified_commit": "faec4ee7eb2c4259de6f4465fec33ee99dc63e95",
+      "credit_commit": "7b4ff3e34b1e8d83b3feb4955dbf73015e7bfa15",
+      "run_record": "owl-pet/production/runs/20261127T1931Z-cycle1-20261127T1931Z-112-asio-abyssinicus-v10.json",
+      "image_metadata": {
+        "bytes": 2791261,
+        "sha256": "738200a8a0e76f4e071984add4266a5c006ca6ba8964f043766d3870b9664c29",
+        "gitblob": "396e339fa9e635e3ef08e03444da5cbaa173a788",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "initial_metadata": null,
+      "source_ids": [
+        "WHSO-MIKKOLA-2013",
+        "ABY-OWLPAGES-2020-3560",
+        "ABY-ONET-LANNELUC-2018"
+      ],
+      "result": "PASS_WITH_LIMITATIONS",
+      "scientifically_verified": false
+    },
+    {
+      "target": "120-megascops-ingens-v9",
+      "batch_id": "20261127T1931Z",
+      "cycle": 2,
+      "archive_commit": "9cf90533885fe71a4392eafd8eacc7e711a82ed5",
+      "verified_commit": "001cc6815e6bf2db4ce651cb06c6388951297dbd",
+      "credit_commit": "8e0810ed5d432a19b0b310725083308fbb6b8ea0",
+      "run_record": "owl-pet/production/runs/20261127T1931Z-cycle2-20261127T1931Z-120-megascops-ingens-v9.json",
+      "image_metadata": {
+        "bytes": 2507191,
+        "sha256": "c48d8700f23a7d9b6b4111e01d09a0fe98e3e1194176b517f2d70886e277870b",
+        "gitblob": "5bd08c75ce1c7b19066feef66c29181a1b82db06",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "initial_metadata": null,
+      "source_ids": [
+        "RIS-MIKKOLA-2013-P229",
+        "RIS-OWLPAGES-2020-970",
+        "RIS-BIOWEB-INGENS-PUCE",
+        "RIS-IKIAM-2022-INGENS-REPO"
+      ],
+      "result": "PASS_WITH_LIMITATIONS",
+      "scientifically_verified": false
+    },
+    {
+      "target": "119-megascops-centralis-v10",
+      "batch_id": "20261127T1931Z",
+      "cycle": 3,
+      "archive_commit": "27dc49b04d97b8c0466a121eda78179110d639ac",
+      "verified_commit": "dd4ed9173216a8cc0851738dda79c0868c383314",
+      "credit_commit": "88eb913eaa63b0da3607ba604ce51af02d5200b8",
+      "run_record": "owl-pet/production/runs/20261127T1931Z-cycle3-20261127T1931Z-119-megascops-centralis-v10.json",
+      "image_metadata": {
+        "bytes": 2708219,
+        "sha256": "ef22111b7845ba32c3153378912832569a8972904cf7e90f7dd0bccff4ecf3df",
+        "gitblob": "1424e094b533d0ce5b967e23409c32e002807332",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "initial_metadata": null,
+      "source_ids": [
+        "CHSO-MIKKOLA-2013-P242-243",
+        "CHSO-JORDAN-2012-ADULT",
+        "CHSO-AOS-13691-2026"
+      ],
+      "result": "PASS_WITH_LIMITATIONS",
+      "scientifically_verified": false
+    },
+    {
+      "target": "109-ptilopsis-leucotis-v12",
+      "batch_id": "20261127T1931Z",
+      "cycle": 4,
+      "archive_commit": "21ec0cf1d231886d6a46948664bc77d5c8a38c0d",
+      "verified_commit": "99cc6b49f3158e1d0d086eed4ee897d9ba9adad3",
+      "credit_commit": "e5cff41119929dbf2cf373b46bad9ab53b7ac741",
+      "run_record": "owl-pet/production/runs/20261127T1931Z-cycle4-20261127T1931Z-109-ptilopsis-leucotis-v12.json",
+      "image_metadata": {
+        "bytes": 3056682,
+        "sha256": "42060fc6ee077b268b8d1985ff62bd5ce4f3e5416ada380db8d48b690099adba",
+        "gitblob": "5038d833825b6aa87e04fa638ccb0384a18fba86",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "initial_metadata": null,
+      "source_ids": [
+        "MIKKOLA-2013",
+        "NWFO-OWLPAGES-2020",
+        "NWFO-HELSENS-2005-THHE32452"
+      ],
+      "result": "PASS_WITH_LIMITATIONS",
+      "scientifically_verified": false
+    }
+  ],
+  "timings": [
+    {
+      "target": "134-megascops-sanctaecatarinae-v13",
+      "started_at": "2026-11-27T19:33:43.528Z",
+      "ended_at": "2026-11-27T19:36:35.065Z",
+      "research_selected_start_to_ready_seconds": 46.51,
+      "imagegen_call_wall_seconds": 39.064,
+      "editing_call_wall_seconds": 0,
+      "review_to_archive_seconds": 4.715,
+      "archive_to_verified_seconds": 36.053,
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T19:33:43.546Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T19:34:30.056Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T19:35:48.475Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T19:35:54.317Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T19:35:59.032Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T19:36:35.085Z"
+        }
+      ]
+    },
+    {
+      "target": "108-otus-rutilus-v9",
+      "started_at": "2026-11-27T19:36:45.609Z",
+      "ended_at": "2026-11-27T19:40:58.322Z",
+      "research_selected_start_to_ready_seconds": 55.344,
+      "imagegen_call_wall_seconds": 45.362,
+      "editing_call_wall_seconds": 31.52,
+      "review_to_archive_seconds": 4.768,
+      "archive_to_verified_seconds": 25.907,
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T19:36:45.627Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T19:37:40.971Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T19:39:07.366Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T19:40:22.551Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T19:40:27.667Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T19:40:32.435Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T19:40:58.342Z"
+        }
+      ]
+    },
+    {
+      "target": "112-asio-abyssinicus-v10",
+      "started_at": "2026-11-27T19:41:08.210Z",
+      "ended_at": "2026-11-27T19:45:29.039Z",
+      "research_selected_start_to_ready_seconds": 89.899,
+      "imagegen_call_wall_seconds": 98.444,
+      "editing_call_wall_seconds": 0,
+      "review_to_archive_seconds": 5.282,
+      "archive_to_verified_seconds": 18.209,
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T19:41:08.228Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T19:42:38.127Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T19:44:59.927Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T19:45:05.572Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T19:45:10.854Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T19:45:29.063Z"
+        }
+      ]
+    },
+    {
+      "target": "120-megascops-ingens-v9",
+      "started_at": "2026-11-27T19:45:59.474Z",
+      "ended_at": "2026-11-27T19:49:24.970Z",
+      "research_selected_start_to_ready_seconds": 68.841,
+      "imagegen_call_wall_seconds": 45.304,
+      "editing_call_wall_seconds": 0,
+      "review_to_archive_seconds": 5.045,
+      "archive_to_verified_seconds": 40.491,
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T19:45:59.487Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T19:47:08.328Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T19:48:34.304Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T19:48:39.453Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T19:48:44.498Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T19:49:24.989Z"
+        }
+      ]
+    },
+    {
+      "target": "119-megascops-centralis-v10",
+      "started_at": "2026-11-27T19:50:08.705Z",
+      "ended_at": "2026-11-27T19:53:12.591Z",
+      "research_selected_start_to_ready_seconds": 60.485,
+      "imagegen_call_wall_seconds": 42.858,
+      "editing_call_wall_seconds": 0,
+      "review_to_archive_seconds": 5.846,
+      "archive_to_verified_seconds": 22.202,
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T19:50:08.717Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T19:51:09.202Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T19:52:39.797Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T19:52:44.564Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T19:52:50.410Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T19:53:12.612Z"
+        }
+      ]
+    },
+    {
+      "target": "109-ptilopsis-leucotis-v12",
+      "started_at": "2026-11-27T19:53:21.981Z",
+      "ended_at": "2026-11-27T19:56:42.702Z",
+      "research_selected_start_to_ready_seconds": 63.217,
+      "imagegen_call_wall_seconds": 44.012,
+      "editing_call_wall_seconds": 0,
+      "review_to_archive_seconds": 4.917,
+      "archive_to_verified_seconds": 36.513,
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T19:53:22.000Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T19:54:25.217Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T19:55:56.088Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T19:56:01.291Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T19:56:06.208Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T19:56:42.721Z"
+        }
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "step": "initiallargeledgerconnectorread",
+      "error": "400 filetooLarge",
+      "recovery": "immutablemainraw downloaded/read Gitblob+sizeverified, notconnectorauthfailure"
+    },
+    {
+      "step": "134 WikiAvesmetadata",
+      "error": "403",
+      "recovery": "historicmetadatareuse; actualS3photopixelsread"
+    },
+    {
+      "step": "108 Flickrwebsmallphoto",
+      "error": "403",
+      "recovery": "executororiginalb-sizeactualdownload/viewsuccess"
+    },
+    {
+      "step": "108 newtrioandedit",
+      "error": "materialfailed, secondedit introducesunsupportedstrongbands",
+      "recovery": "bothimages/promptspersisted;NEEDS_REVISION retained, notsciencepass"
+    },
+    {
+      "step": "120 IkiamadditionalFigure1",
+      "error": "403",
+      "recovery": "metadataactualread only;no newyoungpixels/morphologyadopted"
+    }
+  ],
+  "skipped_without_cycle_credit": [
+    "110-megascops-barbarus-v16",
+    "137-otus-alfredi-v7"
+  ],
+  "old25recovery": {
+    "local_current_workspace_v6_found": false,
+    "remote_concept_original_blob": "10508841ef5f6184e8658664615302909765c1dd",
+    "remote_bytes": 2864437,
+    "fd9d70d": "freshconnector422 NoCommitFound",
+    "action": "alreadyarchived,no redraw/no localcommitcredit"
+  },
+  "scope": "Only owl-pet project assets/research/ledger; no Radio/schedules/API deploymentchanges."
+}

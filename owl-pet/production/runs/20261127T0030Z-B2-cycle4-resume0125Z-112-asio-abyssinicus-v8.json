@@ -8,6 +8,10 @@
     {
       "stage": "STARTED",
       "at": "2026-11-27T01:27:18.926Z"
+    },
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-27T01:28:30.195Z"
     }
   ],
   "errors": [],
@@ -15,5 +19,15 @@
   "unique_species_increment": 0,
   "revision_increment": 1,
   "run_record": "owl-pet/production/runs/20261127T0030Z-B2-cycle4-resume0125Z-112-asio-abyssinicus-v8.json",
-  "stage": "STARTED"
+  "stage": "RESEARCH_READY",
+  "source_ids": [
+    "ABY-MATON-1989-JUV",
+    "WHSO-MIKKOLA-2013"
+  ],
+  "source_new": 0,
+  "source_reuse": 2,
+  "full_prompt": "Use case: precise-object-edit. Input1 is the existing three-owl plate, EDIT TARGET; input2 is the real Ethiopia1989 older juvenile, biological reference only. Preserve the two adults, all title/labels, forest, branch, scale, foot contacts and lighting of image1.\nRebuild the whole central juvenile plumage MATERIAL from scratch using the very low-contrast natural DOWN SURFACE of image2. Keep the juvenile silhouette, upright pose, dark face, orange irises, dark bill, small pale crown patch, fully formed long folded wing and barred tail exactly as image1. Treat the chest and belly as broad soft charcoal-brown tonal masses, with very fine diffuse flecking and a softly fuzzy contour. Individual filaments on the INTERIOR must be unresolved at this view scale, like a real slightly soft-focus photographed juvenile; only sparse short feather tips at silhouette. Replace its existing outlined curly hair, ring-shaped loops and knitted scribbles entirely, not merely recolour them. The soft breast is NOT curly fur, wire, wool, ringlets or outlined strands. Keep the dark folded wing as distinct formed overlapping feathers, not erased down. Do not turn bird into a newborn or infer flight. Retain adult complex crossbar-net bellies, yellow-orange eyes, blackish bills, feathered feet, near equal size display, six secure feet on same branch. Text unchanged \"112 ABYSSINIAN OWL · Asio abyssinicus\", \"ADULT MALE\", \"OLDER JUVENILE — AGE UNKNOWN\", \"ADULT FEMALE\". Preserve established pet-concept style, but lower central down microcontrast to photo-like soft plumage. Exactly3 birds. No nest/eggs/extra objects/new labels.",
+  "research": "Accessed2026-11-27. Fresh targeted web search and original Flickr page https://www.flickr.com/photos/34579661@N04/5424426357/ read captionlines37–42/64: Peter Maton, Ethiopia1989 scannedslide (uploaded2011, not capturedate). Existing ABY-MATON-1989-JUV reused; actual local original photo pixels reopened. Dark face/orange irises, pale small crown patch, formed long folded wing/barred tail and branch perch visible; soft unoutlined brown-charcoal down, not closed loops. Exact age/sex/flight unknown; one low-resolution scanned case, not all subspecies. No photo copied into repository. WHSO-MIKKOLA-2013 uploaded guide freshly read printed508/PDF510: adults fully feathered legs/toes and blackish hornclaws, orange-yelloweyes, blackishbill, dense mottled/barring, females only slightly larger; juvenile explicitly undescribed, speculative comparison to Asiootus excluded. Current Asioabyssinicus oldAsiootusabyssinicus, Ethiopian nominate not graueri inference. v7 actually viewed: materialloops remain. Design inference: rebuild central down as unresolved low-microcontrast soft tonal masses rather than previous short-strand prompts; preserve formed wing/tail, securestanding/support and all adults. Not scientificpassed untilreview; bodypose supported by actual photograph, not newborn. Existing adultnet evidence retained from ABY-COLLAR-BOESMAN-2019 historical study, not counted as fresh read. Prior runtime bootstrap create_commit missingtree_sha error was parser issue before ref mutation; parser corrected, no prior cycle credit or duplicate image.",
+  "research_record": "owl-pet/research/species/112-asio-abyssinicus-v8.md",
+  "review_record": "owl-pet/research/reviews/112-asio-abyssinicus-v8-review.md"
 }

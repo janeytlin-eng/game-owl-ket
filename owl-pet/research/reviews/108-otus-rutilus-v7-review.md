@@ -1,0 +1,6 @@
+# 108-otus-rutilus-v7
+Status: PASS_WITH_LIMITATIONS; scientifically_verified=false
+
+Actualfullinput/sourcephoto/outputviewed. v7removeslongbrightloopywoollocks, replacedbyshorterdenserbrownmottleddown, closer to recoveredVassenphoto. Tinycurlyfibertexture remains a limitation; PASS_WITH_LIMITATIONS for long-lockreduction only, no scienceapproval or universalmaterialfix. Darkmask/yellowbrowniris/pinklowereyelid/darkbill/palecrownwisps and existingcompactfoldedwing/hidden-tail/two-footbranchsupport unchanged. Adults sameyelloweyes/graybill/rufouspattern/featheredlegs/graytoes/darkclaws/smalltufts andnearequalroles;exact3birds/6feet/title/ageunknownandflightunverifiedlabels/rainforestretained. Sourceimageaccessactually recovered viaFlickrogimage; chronology of403failurethenrecovery saved beforegeneration. No exactage/sex/flightinferredfrommetadata or bookjuvenileunknown. Stillpossiblefinecoilcalibrationqueue, no userapprovaltransfer.
+
+[Sources/fullprompt](../species/108-otus-rutilus-v7.md)

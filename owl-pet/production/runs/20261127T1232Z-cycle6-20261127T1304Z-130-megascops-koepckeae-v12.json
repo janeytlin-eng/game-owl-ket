@@ -24,11 +24,15 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-27T13:07:41.708Z"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-27T13:08:12.407Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T1232Z-cycle6-20261127T1304Z-130-megascops-koepckeae-v12.json",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "research": "Access 2026-11-27. Reuse KOEP-ALARCON-2023: Ibeth P. Alarcon et al 2023 Reproductive events of birds from Southern Ecuador, Neotropical Biodiversity9:93–114, DOI10.1080/23766808.2023.2237229 https://biologia.uazuay.edu.ec/sites/biologia.uazuay.edu.ec/files/public/ReproductiveeventsofbirdsfromSouthernEcuador.pdf . Targeted external search repeated, web original400 size34951163; actual recovered original printed104/PDF13 text and printed95 Fig1c photo read/viewed, not snippet-only. 23Apr2019 Loja2131m two fledglings with parental care on Podocarpus3–4m, graywhite transverse bars,brown chest,black facial edge,whitebrows,yelloweyes, residual nessoptiles. Exact age/sex/flight/chronology unknown. Photo formed wing legal; no frog copied. Reuse KOEP-MIK2013-222 alias same MIKKOLA-2013 Heimo Mikkola2013 guide printed222/PDF224 actually read: no sexual size data, adult yelloweyes/bluegreenhornbill/pale yellow brown-flecked tarsalfeathers/graybrown baretoes/darkhornclaws. Old Otus→Megascops, region-specific juvenile Loja not taxon-wide age sequence. v11 actualview curled lowerbelly Uloops; targeted local v12 edit goal coherent fine irregular crossbands, preserve young wing and adults. No new source/ID, no scientific approval. Prior wholetriostrategy worked110 once but failed130; avoid down/filament trigger words. New0/reuse2.",
   "full_prompt": "Use case precise-object-edit. Image1 edit target #130 Megascops koepckeae v11, image2 actual same-species older juvenile biological reference. Preserve adults, all six branch foot contacts, graybrown baretoes/darkclaws, background, labels, near-equal adultbody sizes, yelloweyes/bluegraybills. Change ONLY center juvenile lower breast/flanks/belly surface: replace curly raised U/V loops with dense flat close-fitting fine plumage and softly blurred IRREGULAR HORIZONTAL CROSSBANDS like actual photo. These are fine alternating graywhite bars with subtle brown chest wash; individual feather edges not outlined. No hair, no loops, no separate down filaments, no sculpted layered scales. Keep legal short formed folded wing subtly integrated, no adult bright white spots or long flightfeathers; keep concealedtail, whitebrows/blackfacialedge/eyes/bill/headtilt. Do not copy frog. Title version v12. Existing scientific-pending and exact-age/flight/chronology-unverified footer unchanged. A stylized concept, not certified scientific reconstruction.",
   "source_ids": [
@@ -47,5 +51,8 @@
   },
   "generation_wait_seconds": 41.728,
   "review": "#130 v12 actual whole image viewed against original Alarcon Fig1c and v11. Horizontal lower bands more coherent but obvious curled filaments persist through chest/flank; NEEDS_REVISION, not solved. Adults yelloweyes/bluehornbills/graybrown toes/darkclaws/pale flecked tarsi, three birds/six branch contacts, labels/version/pending footer retained directions. Young legal formed wing/whitebrows/blackfaceedge/yelloweyes retained; exact age/flight/feather chronology/sex unknown. Problem curled Uloops→own-photo flat crossbands edit→some horizontal alignment, curl texture not eliminated. Negative loops wording alone ineffective here; do not claim model improvement. Source new0 reuse2, actual research/prompt in species record; prior versions untouched.",
-  "status": "NEEDS_REVISION"
+  "status": "NEEDS_REVISION",
+  "archive_commit": "47684b5e8122e7161f59dd9c5a2fc574f5d7bc74",
+  "verification_exit_code": 0,
+  "ended_at": "2026-11-27T13:08:12.377Z"
 }

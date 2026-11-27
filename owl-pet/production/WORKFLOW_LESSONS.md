@@ -349,3 +349,7 @@ Photo-first central rebuild improved110 head/pose/compactformedwing but inherite
 
 ## 2026-11-27 0125Z 117-otus-manadensis-v10
 117adulttoe pink→yellowgray corrected and visually checked, not juveniletraittransfer. Guide fresh194/PDF196. Marshall freshPDFopen redirects tohomepage, corrected READY beforeimagegen; newsecondary PoBsource indexed with dependencies/0data warning. Initialraw403 recovered bysameURLretry, not permanentblock.
+
+
+## 2026-11-27 0125Z 118-megascops-cooperi-v6
+118adultfinevermiculations actually added while shafts/openpaleground and supporteddefensivejuvenileremiges retained. Faintbrokenwaveletcontrol reused from109 pattern approach but visually validated hereonly; not universal plumagefrequency. Guide210/actualAvesCRbodyread; site'sAIillustrationexcluded. No flightgeneralization fromhistoricalonecase.

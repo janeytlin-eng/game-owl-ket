@@ -1,0 +1,4 @@
+# 223-strix-butleri-v4 actual review
+Actual complete output viewed. Bothadult upperdisc aboveeyes now greybrown with softtransition to palegrey lowerface, centraldarkcrownstripe/pairedwhiteclusters preserved; nofullblackmask/tufts. Orange-yelloweyes/green-greybills/thinventralshafts/whitefeatheredtoes/horn-greyclaws/sixrockcontacts intact. Juvenile olderformedwing/graycrownpatches and alltext/sourcefooter preserved, no age/flightassertion. Adultfacialtone localPWL/scientificfalse; exactdiscfield/photometriccolour/sexratio unvalidated. Young finecurlrender remains historicaldisplay, no new juvenilematerial/sciencepass transferred; futurephoto-specificrecheck needed before any new texture claim. Existing2013broadbutleri book excludedfromcurrentyoungtaxonomy.
+
+{"bytes":2441335,"sha256":"25eebff87a528ec41575bd94b557270fa7a6c4ff1b65ce7db1e0ccd060dd8a00","gitblob":"f9a0e88e22f48a9a2902f2b59358d1d5eb020cac","size":[1536,1024]}

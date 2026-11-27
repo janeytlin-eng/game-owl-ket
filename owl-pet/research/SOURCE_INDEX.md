@@ -8904,3 +8904,8 @@ Latestallversionsmax8v9unused, actualv8viewed: scientificstatusabsentinimage whi
 [Research/fullprompt](species/133-megascops-atricapilla-v9.md) · [Review](reviews/133-megascops-atricapilla-v9-review.md)
 
 133v9 source locator addendum: BCSO-DANTAS-2021 actualprinted427/PDF27 irisvariation and401/PDF1abstract; alagoensisadjacentdescription notatricapillajuvenile.
+
+
+## 20261127T2127Z 129-megascops-hoyi-v7
+New0/reuse2plus1historical. HOY-MIK2013-228 sameMikkola2013uploaded printed228/PDF230 actualtextread thisinvocation: adultyellowishgraytoes/darkhornclaws/tarsifeathers, 3morphs, femaleaverage20g+massnotheight; fledgedyoungadultlikefluffy/no visibletufts, no timedjuvenilebarepartsequence. Existingv6youngtoeswarmyellowprovisionalwasalreadyrecognized inreview, imageonlyflagsiris/bill; exportmustalsoflagtoecolour, no anatomyrepairclaim. HOY-SIB-ARGENTINA institutionAdministraciondeParquesNacionalesSIB https://sib.gob.ar/especies/megascops-hoyi actualbodylines11–25/46–48 rereadcurrentM.hoyi/KoenigStraneck1989/oldOtushoyi, no juveniletoe evidence. StableSIBentry alreadyindexed URL, notnewpublication. HOY-KS1989-P4 originalKonigStraneck1989 archivedURL attemptedfreshwebreturnedactualerrorasrecord; historicaltypepairdescription retainednotfreshread, notjuvenileoruniversalratio. TargetedInternetjuveniletoe/fledgedquery no validatednewcolourdescription; search-onlysecondarynotadopted. ALLversionsmax6→7new. Clarifyknownlimitonly, preservepreviousv6adulttoecorrection/sourceconflictsforirisandbill. Youngflight/exactage/sexratio unknown; speciesrange Yungasmontaneforest withTillandsia notnewnestspecification.
+[Research/fullprompt](species/129-megascops-hoyi-v7.md) · [Review](reviews/129-megascops-hoyi-v7-review.md)

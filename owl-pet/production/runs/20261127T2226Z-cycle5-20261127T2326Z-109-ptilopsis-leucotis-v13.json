@@ -13,11 +13,15 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-27T23:30:07.128Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T23:32:00.130Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T2226Z-cycle5-20261127T2326Z-109-ptilopsis-leucotis-v13.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Access28Nov2026Shanghai. Reuse3/new0: MIKKOLA-2013 HeimoMikkola2013seconded actualuploadedprinted254/PDF256read now: Ptilopsisleucotis proximal/basalhalftoes feathered, distaltoesduskybrown/blackclaws; lightgraybrown darkshafts/finevermiculations/whitefaceblackruff/longtufts/amberorangeadultiris/yellowhornbill; femalemass+30g notheight. Younggraywhite/graybrowntips/darkruff/yelloweyes no exactstage/flighttimingadopted. NWFO-OWLPAGES-2020 DeaneLewis2020 https://www.owlpages.com/owls/species.php?s=1160 actualDescription/Habitatbody freshlyread corroboratesproximalhalf feathering/drysavannaopenwoodland. NWFO-HELSENS-2005-THHE32452 ThierryHelsens adultSegouMaliSept2005 https://www.oiseaux.net/en/photos/thierry.helsens/northern.white-faced.owl.1.html actualmetadata/bodyfreshopened; feetobscured, NOT independentcoverageproof. Actualv12fullview: longtoeuppers whollyfeatheredtoclaws, widerscopecorrectionnot validatedbyoldlightingPWL. TargetremoveDISTALhalf adulttoeplumes, retainbasalhalf/ankle, preserveyoungunknownfeet. OldOtus/Strixleucotis/currentPtilopsisleucotis, notPgranti, no251change. Near-equaldisplaynotsexbiometry; restingbranchnooccupiednest/age/flightinvented. Versionmax12enumerated13new, existing13attemptcaughtpreflightguardon110andno mutation; target109new. Scientificfalse.",
   "full_prompt": "Precise-object-edit exact Northern White-faced Owl #109 Ptilopsis leucotis v12. BOTH ADULT FEET ONLY: feathering currently covers entire visible toe shafts right up to claws. Species requires BASAL/PROXIMAL HALF ONLY feathered. Keep ankle and proximal half of each adult digit upper surface feathered finegray; REMOVE feathers from DISTAL HALF of each digit so its terminal half before the claw is clearly visible bare DUSKY-BROWN scaly skin. BLACK curved claws remain bare andsame shape. Make a distinct feather-to-scale transition halfway along toe, not just an ankle cuff. Preserve every digit number/position and securebranchgrip, no fusedpaws. Centraljuvenile feet whollyunchanged (developmentunknown). All otherbirdfeathercolours/shafts/vermiculations/facialwhiteblackruff/adultorangeeyes vs youngyellow/hornbill/tufts/ageunknownyoungwingtail/lighting/drysavanna/background/alllabels/pendingfooter unchanged; titlev12→v13. A local adulttoeextent correction, not full scientificpass.",
   "source_ids": [
@@ -25,5 +29,19 @@
     "NWFO-OWLPAGES-2020",
     "NWFO-HELSENS-2005-THHE32452"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "image_metadata": {
+    "bytes": 2914362,
+    "sha256": "bfec00b3267a0c2deaf0910e1ec043df78084c7cc88d4301b9d4a2ee45d4e635",
+    "gitblob": "a46b1cce39aeac401af91d90732ce2522463c4d0",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-0a2667e0-42be-44cf-bc00-1888d4615c52.png",
+  "imagegen_wait_seconds": 36.666,
+  "editing_wait_seconds": 0,
+  "imagegen_invocations": 1,
+  "review_result": "PASS_WITH_LIMITATIONS"
 }

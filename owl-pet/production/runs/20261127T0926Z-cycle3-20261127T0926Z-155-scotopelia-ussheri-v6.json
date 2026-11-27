@@ -18,21 +18,13 @@
       "at": "2026-11-27T09:39:26.269Z"
     },
     {
-      "stage": "IMAGE_GENERATED",
-      "at": "2026-11-27T09:40:45.316Z"
-    },
-    {
-      "stage": "REVIEWED",
-      "at": "2026-11-27T09:40:50.542Z"
-    },
-    {
-      "stage": "ARCHIVED",
-      "at": "2026-11-27T09:40:55.726Z"
+      "stage": "VERIFIED",
+      "at": "2026-11-27T09:41:20.292Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T0926Z-cycle3-20261127T0926Z-155-scotopelia-ussheri-v6.json",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "research": "Scotopelia ussheri; guide old name Bubo ussheri; same canonical species, unique+0,v5preserved. MIKKOLA-2013sameuploadedbookactualprinted307/PDF309read2026-11-27: adultbarelightyellowlegs/toes, PALEHORNclaws, honeytodarkbrowniris; femaleaverage90gmassdirectionnotstandingheightformula. Actualv5adultexposedclawsmostlydarkslate; correctadultclawcolouronly, leaveyelloworangetoskinandyoung. RFO-MONTICELLI-KOROMA-BANNAH-2015-P183-188 actualauthorfulltextread Bareparts/Plumage/Ageingpp186–188 https://www.researchgate.net/publication/281632427_Observations_of_Rufous_Fishing_Owl_Scotopelia_ussheri_in_Sierra_Leone (DavidMonticelli/AluseinP.Koroma/DenisBannah2015BullABC22(2):183–189): bluegreybill/yellowishcere, orange-yellowtarsi/toesadultandobservedyoung; youngloosefeathered/palerbelly/stubbier, twiceflightadultlikebarredwings,4–5monthsconditionalonlayingseasonnotknownhatch. NOclawcolourstatementfound,sodonotclaimprimarycorroboratespaleclaw. RFO-KOPPETSCH-BOHME-2022-P97-98 actualoriginalPDFbody https://evoinformatics.group/pdfs/Koppetsch_Boehme_2022a.pdf rereadpp97–98: separatecaptivewhiteyoung6Oct1993adultplumage3Apr1994, noexacthatchdate/action; notstageofcurrent2014mobileolderyoung. Keepformedwings/posturev5alreadyfixed, no whiteinfanttransfer. Sexlinearscale/nest/completejuvenilechronologyunknown. Sourcesnew0/reuse3, bookaloneadultclawdecision confidencebounded.",
   "full_prompt": "Precise-object-edit #155 RufousFishingOwl Scotopelia ussheri v5 to v6. ONLY recolour ALL exposed CLAW KERATIN on BOTH outer ADULTS from darkslategrey to PALE HORN / light translucent beige-grey, naturalcurvedtalons with softshadow; make most visiblecurvepale. Do NOT invent uniformlyblacktips; keep natural darker shading only at tiny hooks. Keep adultyelloworangeTOESKIN/scales, allfootgeometry/branchgrips andbarelegboundary unchanged. Centerolderjuvenileclawsandentirebodyunchanged, noadultcolourtransfer. Alladultplainrufousplumage/whiteouterscapulars/brown eyes/bluegreybillyellowcere/sizes,3birds6supportcontacts/forestwater/conditional4–5monthslabel/postureillustrativefooter retained. Addv6besidetitle. No newage/flight/nest/sexratioassertion. Book-supportedadultpaletteonly.",
   "source_ids": [
@@ -41,16 +33,7 @@
     "RFO-KOPPETSCH-BOHME-2022-P97-98"
   ],
   "new_sources": 0,
-  "image_meta": {
-    "bytes": 2825250,
-    "sha256": "87a787f658f31e26b52da2156e70405fd0ac823ac0fd7dda6493563f50e5415d",
-    "git_blob": "9ce1e2fd9c7b38f2dbbb9c3a9301904216168780",
-    "size": [
-      1536,
-      1024
-    ]
-  },
-  "generation_wait_seconds": 39.632,
-  "review": "Actualfullv6view: fouradultfeetvisibleclawcurvesnowmostlylightbeige-horn, softgreyshadingat tipsnotuniformblackhooks; yelloworangetoe skinunchanged, youngclawsremainuntoucheddark. Adultbluegreybill/yellowcere/darkeyes/plainrufousmantle/wingbars/6footcontacts andolderyoungformedbarredwing/stubbierpose retainedqualitatively. Conditional4–5monthlabelandunknownhatchdisclaimerretained. Paletteguide307only, original2015barepartsdoesnotstateclawcolour, limitationexplicit; notindependentprimaryvalidation. Problem→darkadultclaws→guidepalehorn→adultonlylightening→actualviewconfirmsmajoritycurvepale. No genericallfishowllightclawrule; nextspeciesmustownsource. Sciencefalse/exactage/sexheight/nestunknown. New0/reuse3.",
-  "status": "PASS_WITH_LIMITATIONS"
+  "archive_commit": "ea2dfb1aa8a5f21724e81eafd1986bca9a2d5801",
+  "verification_exit_code": 0,
+  "verified_at": "2026-11-27T09:41:20.268Z"
 }

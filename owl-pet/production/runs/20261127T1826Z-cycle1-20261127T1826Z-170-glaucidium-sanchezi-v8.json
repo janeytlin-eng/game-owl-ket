@@ -17,6 +17,10 @@
     {
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-27T18:43:53.216Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T18:45:04.666Z"
     }
   ],
   "scientifically_verified": false,
@@ -41,5 +45,19 @@
   },
   "initial_wait_seconds": 41.205,
   "initial_review": "Crown spot removal visiblysuccessful; title stillv7insteadrequestedv8; fixversion beforefinalarchive.",
-  "edit_prompt": "Edit this corrected #170 trio only the top-right version token 'v7' to 'v8'. Everything else including corrected unspotted grey immaturecrown, bothadults, everyfeather/foot/grip, forest and allfootertext unchanged."
+  "edit_prompt": "Edit this corrected #170 trio only the top-right version token 'v7' to 'v8'. Everything else including corrected unspotted grey immaturecrown, bothadults, everyfeather/foot/grip, forest and allfootertext unchanged.",
+  "image_metadata": {
+    "bytes": 2521432,
+    "sha256": "8a1c61b31d870dd1c9622a2dec5c213541579f749b46b937013e36014f6fa12a",
+    "gitblob": "3f774a0f60b80b444156f112f42cc7871a7c0c10",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "imagegen_wait_seconds": 41.205,
+  "imagegen_invocations": 2,
+  "editing_wait_seconds": 33.014,
+  "review_result": "PASS_WITH_LIMITATIONS",
+  "local_image": "production1826nov27/170-glaucidium-sanchezi-v8.png"
 }

@@ -13,11 +13,15 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-27T14:41:42.851Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T14:43:01.166Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T1429Z-cycle3-20261127T1429Z-218-otus-nigrorum-v4.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Otus nigrorum; prior Otus bakkamoena nigrorum/O.megalotis nigrorum mapped existing, no species increment. New0/reuse2 actually read: ONIG-MIKKOLA-2013-P173, uploaded Heimo Mikkola2013 printed173/PDF175 actual wholepage reread2026-11-27: immature buff/rufousbuff head/neck fine blackishbars, upperparts buffblackbarred, buffwhite underparts duskybarred; not newborn. Sex-size wing/tarsus directions differ and tiny samples not fixed bodyheight. LLSO-MIRANDA-2011-P446-450, Miranda/Brooks/Kennedy2011 primary WilsonJOrn123441–453, https://blog.hmns.org/wp-content/uploads/2023/10/PhilippineScopsEprint.pdf current original opened/read adult comparison only; no juvenile data attributed to it. Rand1950 singleimmature prior research retained as historical baseline not freshly reread thiscycle, no freshprimaryyoungphotoclaim. Actual v3 wholeimage shows juvenile chest horizontal bars but strongly outlined layered U-scale feather rims in the flank/compact wing, repeated scallops compete with source transverse plumage. Scope a restrained surface-material correction without deleting juvenile formed wing or asserting exact texture/age. Both adults/scapulars/sex display/iris and BILL COLOUR UNVERIFIED remain untouched. Scientificfalse; no new firstflight/nest data. Fresh targeted searches returned taxonomy and sameoldprimary, not new juveniledescription. Repeated curl-template rule applied only to this version, prior #130/#134 still pending.",
   "full_prompt": "Edit existing #218 Negros Scops-Owl Otus nigrorum trio. Both adults entirely unchanged, retain BILL COLOUR UNVERIFIED/title/all roles/scientificpending footer and forest/branch support. On RIGHT age-unknown immature ONLY, soften over-organized sharp pale-edged scalloped feather scales on breast flanks/upperback and compact folded wing into loose softly overlapping buff-brown juvenile plumage, fine fuzzy margins, much lower individual-feather edge contrast. Retain visible irregular dusky TRANSVERSE BANDS across its buff-white chest/belly; these are pigment bands across the plumage, not rows of outlined U-shaped scales. Preserve already corrected rufous-buff crown with fine short dark transverse bars, largely clear warm face sides, faint pale shafts, closed eyes, body size, compact existing formed wing shape and concealed tail. Not a hatchling; do not erase the wing or turn whole body into white natal down. Keep provisional bill and feet unchanged, two feet clasp branch with low body resting naturally. No adult-like long flight feathers, no new tuft extensions. Return whole landscape plate and preserve all adult patterns/iris/pinklids/whitevsbarred belly and tarsi. Fine material interpretation, not scientific endorsement.",
   "source_ids": [
@@ -25,5 +29,18 @@
     "LLSO-MIRANDA-2011-P446-450"
   ],
   "new_sources": 0,
-  "research_ready_at": "2026-11-27T14:41:42.840Z"
+  "research_ready_at": "2026-11-27T14:41:42.840Z",
+  "image_metadata": {
+    "bytes": 2443681,
+    "sha256": "2481bd81080459b23e59128a1176b67065df0777a4100f966a2bf1045e84a432",
+    "gitblob": "89cf33013fd182fa453dbe042b87dca589a0b334",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "imagegen_wait_seconds": 47.866,
+  "imagegen_invocations": 1,
+  "review_result": "PASS_WITH_LIMITATIONS",
+  "local_image": "production1429nov27/218-otus-nigrorum-v4.png"
 }

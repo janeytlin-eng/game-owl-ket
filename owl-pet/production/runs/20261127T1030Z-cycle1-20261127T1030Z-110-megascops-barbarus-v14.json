@@ -20,11 +20,15 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-27T10:39:37.080Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T10:41:05.530Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T1030Z-cycle1-20261127T1030Z-110-megascops-barbarus-v14.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Access2026-11-27 #110 Megascops barbarus v14 revision unique0. Fresh v13 full/review and historical v9-v13 experiments read: repeated fiber/sparse-edge prompts restored U-shaped scallops, v12 matte was airbrushed. MIKKOLA-2013 actualprinted214/PDF216 reread: juvenile crownside/below residualdown, no visible tufts/narrowbrows; meanfemale+9g notheightformula. OldScops/Otus barbarus=currentMegascopsbarbarus. Adultvariabletufts retained from primaryfieldphotos, noforcedshorttufts.\nBSO-CAYAYA-2026-FIELD-ACCOUNT KnutEisermann/ClaudiaAvendaño undated https://cayaya-birding.com/species/Bearded-Screech-Owl.htm actualbody26–34/46 freshlyread; targeted internet juvenile/mesoptile search executed. Actual885x700 juvenile7photo reopened local, fullrealshortdensegraybrownfeathertexture/diffusecrossbars/palecenter/yelloweyes/greygreenbill/narrowbrows/notufts/grippingbranch. Singlephoto unknownage/sex/flight/nest, notnatal. Photo supportsdenseavian shortdown, notclosedcoils. Newexperiment direct photo texture priority with stochastic photographic micrograin ratherthanillustratedshortedge outlines; keep3birdcomposition/stylebutcenter-onlysurface. Patterncontrast preserved insteadairbrush. No guarantee success; actualview decides. New0/reuse2IDs; no newpublication norclaimedallaffectedmaterialfixed. Pineoak context generic/hollow notoccupiednest, sixcontacts retained.",
   "full_prompt": "Use case precise-object-edit. Image1 is a REAL brown-morph juvenile Megascops barbarus biological texture reference ONLY. Image2 is target family plate #110 v13. Edit Image2 ONLY on central juvenile surface. Its repeated outlined V/U-shaped loops are wrong. Reconstruct that material as dense photographic microtexture of very short avian down, using image1's stochastic dark micrograin and tiny untidy grey barb tips, preserving diffuse horizontal graybrown mesoptile bars and a lighter lower central belly. No individually outlined feather-edge units, no engraved linework, no scalloped scale texture, no repeated curved strokes, no long hair or wool; not airbrushed smooth, not noiseless plastic. At the bird's displayed scale most individual barbs are barely resolved, giving softly granular tonal texture as the actual photo. Keep center geometry, narrowbrows/yelloweyes/green-graybill/noear tufts/compact concealed wings/hidden tail/two grippingfeet exactly. Keep BOTH ADULTS, all sixfeet, branch, background, title and labels unchanged. Do not copy reference watermarks/background/pose, no new juvenile age or flight claim. Preserve confirmed tactile natural-history family-plate style outside the center surface. Add small 'v14' after title and a discreet footer 'CONCEPT · SCIENTIFIC CALIBRATION PENDING'.",
   "source_ids": [
@@ -44,5 +48,16 @@
   },
   "initial_review": "Actualview: repeatingclosedV/Uunitsremain, NEEDS_REVISION; notmatchphotographicdown.",
   "initial_wait": 43.732,
-  "edit_prompt": "Edit ONLY central juvenile in supplied failed #110v14 plate. REMOVE all tiny outlined U/V loops and repeated scallops. Use an impressionistic, physically soft DENSE PATCHWORK OF TINY IRREGULAR DARK AND LIGHT TONAL SPECKS, not drawn hair lines. Texture looks like real short avian mesoptile at a distance: compact speckled velvet surface with soft diffuse transverse bands. No individual curved line units anywhere including forehead, cheek, chest and belly. Barely resolved photographic grain, preserving diffuse bands and pale lower center. Maintain same body/head geometry, yelloweyes, grey-greenbill, narrowbrows, noear tufts, tuckedwing, hidden tail and both gripping feet. Keep all other pixels compositionally stable: both adults, sixfeet/support, forest, titlev14, rolelabels and calibrationpendingfooter. Biological reference is the real juvenile provided as Image2, but no copying watermark or background. If tiny barbs would become loops, omit individual barb outlines instead of adding curls."
+  "edit_prompt": "Edit ONLY central juvenile in supplied failed #110v14 plate. REMOVE all tiny outlined U/V loops and repeated scallops. Use an impressionistic, physically soft DENSE PATCHWORK OF TINY IRREGULAR DARK AND LIGHT TONAL SPECKS, not drawn hair lines. Texture looks like real short avian mesoptile at a distance: compact speckled velvet surface with soft diffuse transverse bands. No individual curved line units anywhere including forehead, cheek, chest and belly. Barely resolved photographic grain, preserving diffuse bands and pale lower center. Maintain same body/head geometry, yelloweyes, grey-greenbill, narrowbrows, noear tufts, tuckedwing, hidden tail and both gripping feet. Keep all other pixels compositionally stable: both adults, sixfeet/support, forest, titlev14, rolelabels and calibrationpendingfooter. Biological reference is the real juvenile provided as Image2, but no copying watermark or background. If tiny barbs would become loops, omit individual barb outlines instead of adding curls.",
+  "image_meta": {
+    "bytes": 2746761,
+    "sha256": "073af518ce2452ec33cf91a9ca17dc41d4b069004fa31c289fb5d96e1e312d76",
+    "git_blob": "9984c5e2d0ffc5498a0ed00d4c535659330f30cf",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "chars": 3662348
+  },
+  "generation_wait_seconds": 38.724
 }

@@ -1,0 +1,380 @@
+[
+  {
+    "run_id": "20261127T0730Z",
+    "batch_id": "20261127T0730Z",
+    "cycle": 6,
+    "target": "145-ninox-philippensis-v5",
+    "started_at": "2026-11-27T07:55:48.025661+00:00",
+    "stages": [
+      {
+        "stage": "STARTED",
+        "at": "2026-11-27T07:55:48.587072+00:00"
+      },
+      {
+        "stage": "RESEARCH_READY",
+        "at": "2026-11-27T07:56:03.716321+00:00"
+      },
+      {
+        "stage": "RESEARCH_READY",
+        "at": "2026-11-27T08:31:28.111952+00:00"
+      },
+      {
+        "stage": "IMAGE_GENERATED",
+        "at": "2026-11-27T08:32:21.657056+00:00"
+      },
+      {
+        "stage": "IMAGE_GENERATED",
+        "at": "2026-11-27T08:34:22.607999+00:00"
+      },
+      {
+        "stage": "REVIEWED",
+        "at": "2026-11-27T08:34:43.938410+00:00"
+      },
+      {
+        "stage": "ARCHIVED",
+        "at": "2026-11-27T08:35:05.075482+00:00"
+      },
+      {
+        "stage": "VERIFIED",
+        "at": "2026-11-27T08:36:23.169221+00:00"
+      }
+    ],
+    "scientifically_verified": false,
+    "stage": "VERIFIED",
+    "research": "Species+0, v4/#125separatehistorypreserved. CurrentNinoxphilippensis; oldAthenephilippensis/Noctuahirsutaphilippinensis/broadNinoxphilippensis split mappingsretained. Primaryactualonline original Rasmussen etal2012 'Vocal divergence and new species in the Philippine Hawk Owl Ninox philippensis complex', Forktail28:1–20, https://www.asianscientist.com/wp-content/uploads/2012/08/Vocal-divergence-and-new-species.pdf, accessed2026-11-27. ExistingID LZBO-RASMUSSEN-2012-P13-14 retained forhistory but LOCATOR CORRECTION: strict philippensis Diagnosis is printed12/PDF13 lines898–923 andTable7, not13–14 (whichdescribeothercomplexmembers). Fairlylongprominent filamentous auricular extensions from darkplain earcoverts, no trueeartufts; plain crownrump; underpartstreakswithoutbars; whiteundertailcoverts; yelloweyes/oliveyellowbill/yellowfeet/darkclaws. Actualguide Mikkola2013printed473/PDF475 read LZBO-MIKKOLA-2013-P473: clearfilamentousextensions; saysmalesalittlelarger qualitatively whereasprimarypooledmeasurementsdon'tquantifyreliablesexratio; preserveexistingmodestsizecomposition,noforcednewformula. Actualv4viewadultcheekedges largelyshortsmoothfeathering, designrefinement to morevisiblethin lateral auricularfilaments, no youngreplacement. Youngv4boundedhistoricalSharpe1875p167–168 evidence reused(NPH-SHARPE-1875) notfreshlyread; exactage/iris/modernsplitlocality/flight unknown. No strongernewjuvenileclaims. Humidforestbranchsupportsposesnotnest. Othercandidate144reviewfilename404: notGitHubconnectionfailure, no productioncredit/alteration; originalavailable. Sourcesnew0/reused3/locatorcorrection1.",
+    "full_prompt": "Edit supplied #145 Ninox philippensis v4 group into v5. Refine ONLY lateral EAR-COVERT / AURICULAR FEATHER EDGES of BOTH OUTER ADULTS: show several fine dark-brown filamentous feather extensions projecting gently sideways and slightly downward from plain dark ear-coverts beside cheeks. Source adult diagnosis calls these fairly long and prominent, but they are delicate threadlike FEATHER TIPS, NOT ear tufts, horns, antennae, mammal whiskers or a beard. Keep heads rounded and earless, no forehead/crown spikes. Let irregular fine strands be visible against background near each adult cheek; remain natural subtle in photographic petconceptstyle. Keep yellow adult eyes, small pale brows, paleoliveyellowbill, plainbrowncrown/back, sparsewhitewingpatches, longitudinal bellystreaks, yellowbarefeet/darkclaws andall grips exactly. Central YOUNG AGEUNKNOWN entirelyunchanged: brownplaincrown, compactformedfoldedwing, darkuncalibratediris, plumage/bill/feet/pose preserved. Exactly3birds6supportedfeet oncontinuousbranch, adultsizecompositionunchanged, Luzonforest/title/labelsNOTTOSCALEpreserved. Addv5intitle plus unobtrusive 'SCIENTIFIC CALIBRATION PENDING' toexistingbottomfooter. No newage/flight/nest/sexratioassertions.",
+    "source_ids": [
+      "LZBO-RASMUSSEN-2012-P13-14",
+      "LZBO-MIKKOLA-2013-P473",
+      "NPH-SHARPE-1875"
+    ],
+    "new_sources": 0,
+    "resume_run": "20261127T0830Z",
+    "recovery": "Expired08:11Z lease checked; remote145v5 absent, local generated PNG recovered. v5 first attempt shows overlong straight mammalian-looking cheek strands; actual viewed, needs targeted edit. Previous invocation interrupted by user's read-only report instruction, not platform timeout. fd9d70d freshconnector422NoCommitFound. Group25local recovered, no duplicate production.",
+    "recovered_attempt": {
+      "bytes": 2544046,
+      "sha256": "a1a03ca804b1a5cddaa630def79e44d7313ebd147bf8b244af253135b23fa786",
+      "git_blob": "c20592d191fd4f2662d835e2cdb4d17703476066",
+      "size": [
+        1536,
+        1024
+      ]
+    },
+    "actual_review": "First attempt actualview: excessively long straight cheek filaments; NEEDS_REVISION, preserve rejected attempt. New prompt is a bounded shortening/softening design inference; primary doesnot quantifylivefilamentlength.",
+    "full_edit_prompt": "Use case precise-object-edit. Edit this recovered #145 Ninox philippensis v5 plate. ONLY correct the two ADULTS' exaggerated straight wire-like cheek whiskers: replace long naked strands extending far sideways with SHORTER, soft irregular tapering filamentous EAR-COVERT FEATHER tips lying mostly along the dark cheek plumage, a few delicate ends projecting slightly beyond cheek silhouette. They must look like feather extensions, gently curved/frayed, not mammalian vibrissae, fishing line, horns or ear tufts. Do not remove all auricular feather texture. Preserve rounded earless adult heads, yellow eyes, buffwhite brows, oliveyellow bills, plainbrown back/limitedwhitewingmarks/streakedventrum/yellowfeet/blackclaws, exactbodyproportions and allfootgrips. Central age-unknown YOUNG entirely unchanged, no adult trait transfer. Exact3 birds6supportedfeet, continuous mossy branch/Luzonforest/titlev5/labels/not-to-scale/sciencependingfooter unchanged. No new age/flight/nest/sex-ratio claim.",
+    "image_meta": {
+      "bytes": 2473540,
+      "sha256": "2d3c625bcb974b7c9417dda939d6fa09221bcdf4ead01009fdedc235dca14e46",
+      "git_blob": "1437d6713e56e105806b4c8b690534e1b82d4c31",
+      "size": [
+        1536,
+        1024
+      ]
+    },
+    "generation_wait_seconds": 54.056,
+    "status": "PASS_WITH_LIMITATIONS",
+    "review": "Actual edited full PNG viewed2026-11-27: outeradult cheek filaments substantiallyshorter/softer, no long straight wires; featherlikeirregularfrayedendsremain. Exactlivefilamentlengthnotcalibrated; localdesignimprovementonly. Adultyelloweyes/oliveyellowbill/plaincrown/whitewingpatches/streakedbelly/yellowfeet/darkclaws/earlessoutline retainedqualitatively. Centerolderyoungdarkbrowniris/compactformedwing/shorttail/ageunknownlabel retained; smallrenderingdrift in featherdetails noted, notpixel-identical. Threebirdssixfeetnaturalbranchsupport, noflight/nestclaim; titlev5/pendingfooter readable. Sourceprimaryprinted12/PDF13actualreread anduploadedguide473/PDF475agreeauricularfilamenttrait; no transferadulttraittoyoung. Researchnew0/reused3IDs; exactage/juvenilemodernsplitlocality/iris chronology/sexquantitativeratio remainunknown. Problem→evidence→edit→recheck: promptlongfilamentproducedmammalianwires, reducedlengthandregularity, actualfullviewshowswireeffectremoved. Lesson actualappliedvisuallyeffectivehere, notvalidatedallNinox; #144candidate notchanged withoutfullcurrentreview. PASS_WITH_LIMITATIONS/scientifically_verified=false.",
+    "archive_commit": "b9b268b9df951f75956f9304b4cad17658da17f6",
+    "verification_exit_code": 0,
+    "verified_at": "2026-11-27T08:36:22.770Z",
+    "commit_sha": "7c2f9323a00437ad21f9fd5bf8d3ddae854f5f11",
+    "run_record": "owl-pet/production/runs/20261127T0730Z-cycle6-145-ninox-philippensis-v5.json",
+    "credit_commit": "3f4a719063577e80a1d565a815e450c72a48b358"
+  },
+  {
+    "run_id": "20261127T0830Z",
+    "batch_id": "20261127T0830Z",
+    "cycle": 1,
+    "target": "146-ninox-mindorensis-v5",
+    "started_at": "2026-11-27T08:37:43.325141+00:00",
+    "stages": [
+      {
+        "stage": "STARTED",
+        "at": "2026-11-27T08:37:44.096095+00:00"
+      },
+      {
+        "stage": "RESEARCH_READY",
+        "at": "2026-11-27T08:38:42.012547+00:00"
+      },
+      {
+        "stage": "IMAGE_GENERATED",
+        "at": "2026-11-27T08:40:38.706103+00:00"
+      },
+      {
+        "stage": "REVIEWED",
+        "at": "2026-11-27T08:40:58.561781+00:00"
+      },
+      {
+        "stage": "ARCHIVED",
+        "at": "2026-11-27T08:41:18.924429+00:00"
+      },
+      {
+        "stage": "VERIFIED",
+        "at": "2026-11-27T08:42:17.462837+00:00"
+      }
+    ],
+    "scientifically_verified": false,
+    "stage": "VERIFIED",
+    "research": "Ninoxmindorensis oldNinoxphilippensismindorensis; unique+0,v4preserved. Original Rasmussenetal2012 Forktail28:1–20 https://www.asianscientist.com/wp-content/uploads/2012/08/Vocal-divergence-and-new-species.pdf primary printed13/PDF14 actualbody1041–1067read2026-11-27 (MINDBOO-RASMUSSEN-2012-P13-14 reused). Fineadultbarring/mustard-lemoniris/dulloliveyellowtoes/blackclawspalebases. Sentence992immatureisMindanao, excluded. UploadedHeimoMikkola2013printed474/PDF476actualread, samebooknotnewsource, juvenileundescribed. Targetedwebjuvenilequeryyieldedunrelatedtaxa/historicalmanualleadnotverifiedage. Actualv4fullview existingcenterunsupportedjuvenileplaceholder; labelAGEUNKNOWNinsufficient, addPLUMAGEUNVERIFIED. Phenotypeunchanged, notnewscientificcalibration. Unknownyoungage/iris/flight/feathersequence/nest/sexratio. Branchsupportsdesignnotconfirmedjuvenileability. Sourcecountsnew0/reuseprimary+guidebook. ActualJScomputedkey and Pythonnewlineescaping errors fixedbeforegeneration; nofailedimage/nocount.",
+    "full_prompt": "Use case precise-object-edit. Edit supplied #146 Ninox mindorensis v4. TEXT ONLY: replace center label with two lines 'JUVENILE RECONSTRUCTION' and 'AGE / PLUMAGE UNVERIFIED'. Replace footer with 'CONCEPT • SCIENTIFIC CALIBRATION PENDING'. Addv5 to title. Preserve allthreebirds, adultsnear-equal/yelloweyes/olivebills/finebarredplumage/blackclaws, centerclosedeyes/plainbrownplaceholder/concealedwing-tail, exactsixfeetbranchcontacts, humidMindoroforest/lighting/layout/otherlabels. No new morphology, dayage, flight, nest or approval claim. This existing young phenotype remains unverified.",
+    "source_ids": [
+      "MINDBOO-RASMUSSEN-2012-P13-14"
+    ],
+    "new_sources": 0,
+    "image_meta": {
+      "bytes": 2519927,
+      "sha256": "30729f2040c6fb13f84f4b705bad4679bbd73a2b6fd5a423922e66ac18873ff6",
+      "git_blob": "5821f03b198235e23072743a670594a644c5f9b5",
+      "size": [
+        1536,
+        1024
+      ]
+    },
+    "generation_wait_seconds": 48.331,
+    "review": "Full generated v5 actually viewed: centerlabel explicitly JUVENILERECONSTRUCTION/AGEPLUMAGEUNVERIFIED; pendingfooterlegible. Threebirds/sixsupportedfeet, adultsfinebarring/eyes/bills/claws and unknownyoungclosedeyes/concealedwing-tail retainedqualitatively. No newscientificphenotype claim. Problem→evidence→change→recheck: AGEUNKNOWNnotadequateforunsupportedplumage; speciesprimarynojuvenilediagnosis+guideundescribed; explicitunverifiedlabelapplied; visuallyeffectiveevidencecommunicationonly. Stillunknownyoungage/iris/feathersequence/locomotion/nest/sexratio; notscientificallypassed. Ruleappliedonlythisplate; neighboring147alreadyhasunverifiedlabel, don'tduplicateeditthere. Sourceoriginalreadandpriorindexbibliographyreused; new0.",
+    "status": "PASS_WITH_LIMITATIONS",
+    "archive_commit": "29256cd0039dd531359d35b164a86c693f9f5774",
+    "verification_exit_code": 0,
+    "verified_at": "2026-11-27T08:42:17.124Z",
+    "commit_sha": "a9614bbeb8745c36d01f911f207c2d4243917564",
+    "run_record": "owl-pet/production/runs/20261127T0830Z-cycle1-146-ninox-mindorensis-v5.json",
+    "credit_commit": "1c7860e7ebf9161caedf93bd6eebf62427503465"
+  },
+  {
+    "run_id": "20261127T0830Z",
+    "batch_id": "20261127T0830Z",
+    "cycle": 2,
+    "target": "147-ninox-leventisi-v6",
+    "started_at": "2026-11-27T08:42:57.247466+00:00",
+    "stages": [
+      {
+        "stage": "STARTED",
+        "at": "2026-11-27T08:42:58.024056+00:00"
+      },
+      {
+        "stage": "RESEARCH_READY",
+        "at": "2026-11-27T08:43:18.322756+00:00"
+      },
+      {
+        "stage": "IMAGE_GENERATED",
+        "at": "2026-11-27T08:45:18.431436+00:00"
+      },
+      {
+        "stage": "REVIEWED",
+        "at": "2026-11-27T08:45:37.997401+00:00"
+      },
+      {
+        "stage": "ARCHIVED",
+        "at": "2026-11-27T08:45:58.964851+00:00"
+      },
+      {
+        "stage": "VERIFIED",
+        "at": "2026-11-27T08:47:07.781331+00:00"
+      }
+    ],
+    "scientifically_verified": false,
+    "stage": "VERIFIED",
+    "research": "v5retained/unique+0, CamiguinSurNinoxleventisi oldNinoxphilippensisspilonotaCamiguinSurusage notallspilonota. CAMBOO-RASMUSSEN-2012-FORKTAIL reuseprimary Rasmussenetal2012Forktail28:1–20, https://www.asianscientist.com/wp-content/uploads/2012/08/Vocal-divergence-and-new-species.pdf actualprinted15/PDF16barepartslines1214–1220reread2026-11-27 andtargetedtarsibristleswebquery. Adultmustardyellowlegs/tarsi lessfeatheredthanmostcomplexmembers, mostlythinlybristlecovered; mostlypaleclawsdarktipsalreadycorrectedv5, preserve. Actualv5fullviewadulttarsalsegmentsreadsmoothscales, sparselightbristlesinconspicuous; adult-onlysparsebristletexturedesignrefinement, notnewanatomicalmeasurement. Do notdrawdensefeatherybootsortransferadultfeatherboundarytoyoung. Youngappearance stillunsupportedUNVERIFIEDRECONSTRUCTION, noadultfactsclosegap. Sourcecountsnew0/reuse1primary, samepublicationas145/146notthreepapers. No guidepageclaimforthisnewtaxon. Sizecompositiondesignnear-equal, sexratio/juveniledevelopment/flight/nestunknown. Forestbranchsupportpreserved.",
+    "full_prompt": "Use case precise-object-edit. Edit #147 Ninox leventisi v5 to v6. ONLY add sparse fine short pale-buff BRISTLE FEATHERS along the visible bare scaled LOWER LEGS/TARSI of BOTH outer ADULTS, especially anterior and lateral shank just above toes. Primary says tarsi mostly thinly bristle-covered, not naked smooth skin. Keep mustardyellow scale skin visible through isolated delicate bristles: NO dense feathered boots, no long leg fur, no changes to featherboundary, leglength, toe scales or mostlypale adultclawswithdarktips. Do notaltercenterUNVERIFIEDjuvenile/anyfeetgrips. Allthreebirds/paleadultirises/bills/barredplumage/sizes/poses/forestbranch/exactlabels/footer unchanged. Addv6intitle. No newflight/nest/age/sexclaim. Fineadulttarsustextureonly.",
+    "source_ids": [
+      "CAMBOO-RASMUSSEN-2012-FORKTAIL"
+    ],
+    "new_sources": 0,
+    "image_meta": {
+      "bytes": 2490053,
+      "sha256": "0bd09794fdeb6d8fb1b18e7d2e79bf4a0f947a6169cbae5f06f846dd276cf063",
+      "git_blob": "1b4e00ebd5ffbb97a5a01b0bae5e2b61571e2de0",
+      "size": [
+        1536,
+        1024
+      ]
+    },
+    "generation_wait_seconds": 56.575,
+    "review": "Actualfullv6viewed: adultscaledyellowtarsi nowwithsparsefinepalebristleedges, scalesshowthrough; notdenseboots. Mostlypaleclawsdarktips/yellowtoecontacts/paleadultirises/barredbody/whitethroatretained. Centerunknownyoungunchangedqualitatively and explicitPLUMAGEUNVERIFIEDlabelretained; 3birds6supportedfeet. Exactbristledensity/lengthnotmeasured, localtexturedesignrefinementonly. Primaryprinted15/PDF16supportsmostlythinbristles; no transfertojuvenile; juvenileage/iris/flight/nestunknown. Problem→smoothshanks→primarybristlecovered→sparseadult-onlyedit→finebristlesvisible; promptappliedeffectiveinthisplateonly. No new sciencepass.",
+    "status": "PASS_WITH_LIMITATIONS",
+    "archive_commit": "0bb32616d33f5ac71c92238e1a4471014b7edef0",
+    "verification_exit_code": 0,
+    "verified_at": "2026-11-27T08:47:07.385Z",
+    "commit_sha": "2cf2da1119f19e51fb83dc1de013d18ffbd6e8fd",
+    "run_record": "owl-pet/production/runs/20261127T0830Z-cycle2-147-ninox-leventisi-v6.json",
+    "credit_commit": "3e905b6a37a9e00b388b540710d57110590e9bc0"
+  },
+  {
+    "run_id": "20261127T0830Z",
+    "batch_id": "20261127T0830Z",
+    "cycle": 3,
+    "target": "148-ninox-rumseyi-v6",
+    "started_at": "2026-11-27T08:47:47.720175+00:00",
+    "stages": [
+      {
+        "stage": "STARTED",
+        "at": "2026-11-27T08:47:48.496234+00:00"
+      },
+      {
+        "stage": "RESEARCH_READY",
+        "at": "2026-11-27T08:48:08.935035+00:00"
+      },
+      {
+        "stage": "IMAGE_GENERATED",
+        "at": "2026-11-27T08:50:04.987051+00:00"
+      },
+      {
+        "stage": "REVIEWED",
+        "at": "2026-11-27T08:50:25.034108+00:00"
+      },
+      {
+        "stage": "ARCHIVED",
+        "at": "2026-11-27T08:50:45.416561+00:00"
+      },
+      {
+        "stage": "VERIFIED",
+        "at": "2026-11-27T08:52:22.345102+00:00"
+      }
+    ],
+    "scientifically_verified": false,
+    "stage": "VERIFIED",
+    "research": "CurrentNinoxrumseyiCebu, oldbroadNinoxphilippensisspilonotaCebu notCamiguinSur; species+0/v5preserved. CEB-RASMUSSEN-2012-FORKTAIL reusedprimaryRasmussenetal2012Forktail28:1–20 URL https://www.asianscientist.com/wp-content/uploads/2012/08/Vocal-divergence-and-new-species.pdf printed16/PDF16 diagnosis1275–1304actualread2026-11-27: belowweakirregularspeckles/shortbrokenbars onpinkishbufffulvous, usuallyheaviestbreast; canwhite streaklowerunderparts orvirtuallyunmarked. Mostlyblackclaws/half-featheredtarsi/palewhitethroatgood. Actualv5viewadultsupperbreastdarklongshaftmarksreadtooLuzon-like; boundedreduceandbreakupperventralmarks, noteraseallvariation. PriorCEB-JAKOSALEM-COLLAR-GILL-2012 DOI10.1017/S0959270912000317 telemetryonejuvenilehistoricalreuseonly, notfreshlyread/no featherchronologyasserted. CenterAGEPLUMAGEIRISUNVERIFIEDretain. Adultsexinferred/currentproportionsretained, nofixedsexratio. No nest/flight/newyoungfacts. New0/reusedprimary1currentread; telemetryhistoricalcontextnotnewsource. Patterndecisionfromspeciesadultdiagnosis, notgenericNinox rule.",
+    "full_prompt": "Use case precise-object-edit. Edit #148 Ninox rumseyi v5 to v6. Change ONLY BOTH ADULTS' UPPER BREAST / CENTRAL CHEST below existing white throat. Current long dark thin longitudinal shaft streaks are too conspicuous. Replace those breast marks with WEAK irregular small dark-brown SPECKLES and SHORT BROKEN transverse bar fragments on the same warm buff/fulvous ground, fewer/lighter than now. Do not add dense alloverbarring; keep lower abdomen mostly plain fulvous with subtle existing pale feather edges, no newchestband. White throatunchanged. Keep adultyelloweyes/olivebills/crownwingpattern/half-featheredlegs/mostlyblackclawsandallgrips. Central unverifiedyoung completelyunchanged/shortdown-obscuredwing/alertsupportedstep. Exact3birds/sixfeet/forestbranch/alluncertaintylabels/footer/sex-inferredlabels retained. Addv6intitle. No newyoungage/iris/flight/nest orscientificapproval.",
+    "source_ids": [
+      "CEB-RASMUSSEN-2012-FORKTAIL"
+    ],
+    "new_sources": 0,
+    "image_meta": {
+      "bytes": 2840399,
+      "sha256": "81b2aa7680f930c771b990fae44e14dc39c1074978704fbbfca931216b4c03c7",
+      "git_blob": "8847d76a2c76db408072048d6ce40936789aaeea",
+      "size": [
+        1536,
+        1024
+      ]
+    },
+    "generation_wait_seconds": 53.475,
+    "review": "Actualfullv6view: adultsupperchestlongshaftsreplacedwithsmallweakshortdarkflecks/brokenbarfragments, lowerabdomenlargelyplainwarmfulvous. Whitethroat/eye/bill/crownwingpatterns/yellowlegs/mostlyblackclawsunchangedqualitatively; centerunverifiedyoung/shortdown-obscuredwing/step/uncertaintylabels preserved;3birds6contacts. Somefragmentrowsstillregular, exactpatternfrequencyunmeasured; PASS_WITH_LIMITATIONS notsciencepass. PrimaryCebudiagnosis supportsweakspeckles/shortbrokenbars, notLuzonlongshafts. Ruleappliedlocalonly; no newjuveniledevelopmentvalidation. Unknownyoungage/iris/flight/nestandsexratio. Source reusedpublicationnotnewresearchpaper.",
+    "status": "PASS_WITH_LIMITATIONS",
+    "archive_commit": "ed446986724a7fd65c1685c308e6e602c22371a1",
+    "verification_exit_code": 0,
+    "verified_at": "2026-11-27T08:52:21.971Z",
+    "commit_sha": "0660a00e313678733ce3c606e17d1d76bc9d88ef",
+    "run_record": "owl-pet/production/runs/20261127T0830Z-cycle3-148-ninox-rumseyi-v6.json",
+    "credit_commit": "c1fe3df4b08006caae08bfec2da66de1c6f2409b"
+  },
+  {
+    "run_id": "20261127T0830Z",
+    "batch_id": "20261127T0830Z",
+    "cycle": 4,
+    "target": "149-ninox-odiosa-v7",
+    "started_at": "2026-11-27T08:53:00.725733+00:00",
+    "stages": [
+      {
+        "stage": "STARTED",
+        "at": "2026-11-27T08:53:01.513711+00:00"
+      },
+      {
+        "stage": "RESEARCH_READY",
+        "at": "2026-11-27T08:53:23.128474+00:00"
+      },
+      {
+        "stage": "IMAGE_GENERATED",
+        "at": "2026-11-27T08:55:20.362453+00:00"
+      },
+      {
+        "stage": "REVIEWED",
+        "at": "2026-11-27T08:55:40.213524+00:00"
+      },
+      {
+        "stage": "ARCHIVED",
+        "at": "2026-11-27T08:56:01.575318+00:00"
+      },
+      {
+        "stage": "VERIFIED",
+        "at": "2026-11-27T08:57:00.271125+00:00"
+      }
+    ],
+    "scientifically_verified": false,
+    "stage": "VERIFIED",
+    "research": "NinoxodiosaNewBritain/Watom,currentoldnameunchanged;unique+0,v6preserve. MIKKOLA-2013reusedsamebook actualprinted487/PDF489read2026-11-27: adultyellowishbrowntoes,duskyhornclawsblacktips, featheredtarsi; juvenileundescribed; femaleslightlylargerqualitativenotheightmetric. v6actualviewadulttoesgraypink ratherthanyellowbrown, targetadultskinonly, clawsunchanged. OnlineBirdForumOpusNBBOO-BIRDFORUM-2022original403thiscycle, historynotdeleted; notclaimfreshbodyread. Targetedwebtoequerybadcoverage(unrelatedhits), followupspeciesFrenchbodyreadtoverifybarepartsifprovided, no searchsnippetadopted. Existingbreastbandgood/preserve. Youngunverifiedunknownplumage/age/iris/flight,noupdatedclaim. No nestpictured. Actualworkflowerror:149startwrittenbefore148verificationprocessfinished; no prematurecreditgiven, restored148ARCHIVEDrunfromremoteandobservedexit0thencredited148once;149restartedcorrectnextcycle. Oldcycle3-149STARTEDorphanpreservednotcredited. Sourcecountsnew0/reusebook1; onlineaccesslimitsrecorded.",
+    "full_prompt": "Precise-object-edit #149 Ninox odiosa v6 to v7. Recolour ONLY BARE TOE SKIN of BOTH outer ADULTS from graypink to subdued YELLOWISH-BROWN / warm ochre-brown, naturalscaledskinnotbrightcanaryyellow. Keep all claws duskyhornwithblackishtips unchanged, legfeatherboundary and everydigit/grip geometry unchanged. Do not recolor centerUNVERIFIEDyoung toes or plumage. Keepadultdiagnosticdarkbrownwhite-spangledchestband/whitethroat/palestreakedbelly/crownflecks/orangeyelloweyes/greenishbill/sizes, all3birds6supportedfeet/forestbranch/uncertaintylabels/footer. Titlev7onlyotherchange. No newyoungage/flight/nest/sexratio assertions.",
+    "source_ids": [
+      "MIKKOLA-2013"
+    ],
+    "new_sources": 0,
+    "image_meta": {
+      "bytes": 2600961,
+      "sha256": "5a2c91a3209a257056e266547255113860c01e6f6761fb4c663974ffebe42675",
+      "git_blob": "f9a9799515b12b2c654faa83c91cc36118fb604e",
+      "size": [
+        1536,
+        1024
+      ]
+    },
+    "generation_wait_seconds": 50.391,
+    "review": "Fullv7actuallyviewed: adultbaretoesnowochreyellowishbrown, clawsduskyhorn/darktipsunchangedqualitatively, featheredtarsiboundary/grips preserved. Younggrayishbaretoesunchanged/unverified, noadulttransfer. Diagnosticbrownband/whitethroat/palestreakedbelly/eyes/bill/sizecomposition/titlev7/alllabels/3birds6feet preserved. Colourqualitativeguide487only; no photometriccalibration. BirdForum403notnewread; Frenchleadbodynotyetfullyreviewed, notindependentscientificevidence. Source new0/bookreuse1, juvenilephenotypeunknown. Problem→grayadulttoes→guideyellowbrown→adultonlyrecolour→visiblewarmtone; no universalfeetcolourrule. PASS_WITH_LIMITATIONS/sciencefalse.",
+    "status": "PASS_WITH_LIMITATIONS",
+    "archive_commit": "6e2026d4c18503d9a74ac70e0b40e631d6246a21",
+    "verification_exit_code": 0,
+    "verified_at": "2026-11-27T08:56:59.907Z",
+    "commit_sha": "c661e804dc1f376bcd60f8dad166cc5d222e7487",
+    "run_record": "owl-pet/production/runs/20261127T0830Z-cycle4-149-ninox-odiosa-v7.json",
+    "credit_commit": "6c271da91342877382ec3cee1d2b4a4968ff1e46"
+  },
+  {
+    "run_id": "20261127T0830Z",
+    "batch_id": "20261127T0830Z",
+    "cycle": 5,
+    "target": "150-ninox-variegata-v7",
+    "started_at": "2026-11-27T08:57:50.803265+00:00",
+    "stages": [
+      {
+        "stage": "STARTED",
+        "at": "2026-11-27T08:57:51.581654+00:00"
+      },
+      {
+        "stage": "RESEARCH_READY",
+        "at": "2026-11-27T08:58:33.135333+00:00"
+      },
+      {
+        "stage": "IMAGE_GENERATED",
+        "at": "2026-11-27T09:00:33.742970+00:00"
+      },
+      {
+        "stage": "REVIEWED",
+        "at": "2026-11-27T09:00:52.984432+00:00"
+      },
+      {
+        "stage": "ARCHIVED",
+        "at": "2026-11-27T09:01:14.052916+00:00"
+      },
+      {
+        "stage": "VERIFIED",
+        "at": "2026-11-27T09:02:29.041161+00:00"
+      }
+    ],
+    "scientifically_verified": false,
+    "stage": "VERIFIED",
+    "research": "NinoxvariegatanominateNewIreland, oldNoctuavariegata, current251unchanged; v6preservedunique+0. MIKKOLA-2013samebookactualprinted497/PDF499read2026-11-27: tarsifeatheredto baseofdullyellowBRISTLEDtoes/duskyhornclaws; nosexsizedata/youngunknown. Adultv6actualfullviewtoesreadmostlyplainyellow-scaled, addsparsetoebristlesonly, notnewlongfeatherboots. NIBO-OISEAUX-MOUNT-BONGMUT-2014 reused metadataactualonlineoriginalread https://www.oiseaux.net/en/photos/lars.petersson/new.ireland.boobook.1.html LarsPeterssonJuly2014MountBongmutNewIreland, flashphoto, sex/agenotsupplied; pixelpriorreadinghistoricalnotfreshlyseenhere. Supportsprovenanceonlythiscycle, notexacttoe/RGBcalibration. Existingcrowncorrectiongood, retained; youngUNVERIFIEDphenotypeunchanged/ageirisflightnestunknown. No newjuvenilefact/sexratio. ActualwrongPDF498firstopenedManusmeeki496notadopted; correct499readvariegata497, no crossspeciestransfer. Sourcecountsnew0/reusebook+photo2; bibliographicmetadataretained.",
+    "full_prompt": "Precise-object-edit #150 Ninox variegata v6 into v7. Onlyadd a few SHORT fine pale-buff BRISTLES emerging sparsely from tops and sides of both ADULTS' dull-yellow bare TOES. Natural thin irregular bristles between visible scales, not dense fur/notwhitefeatherboots/notlongwires. Keepyellowtoeskin/duskyhornclaws/legfeatherboundaries/alltoegeometryandgrips. CenterUNVERIFIEDyoung entirelyunchangedincludingfeet. Preserve plainbrownadultcrowns/yelloweyes/hornyellowbills/barredwings/scalyunderparts/near-equalsizes andall3birds6feet/forestbranch/uncertaintylabels/pendingfooter. Titlev7onlyotherchange. No newyoungage/flight/nest/sexclaim. Bristlesqualitativeadulttraitonly.",
+    "source_ids": [
+      "MIKKOLA-2013",
+      "NIBO-OISEAUX-MOUNT-BONGMUT-2014"
+    ],
+    "new_sources": 0,
+    "image_meta": {
+      "bytes": 2511986,
+      "sha256": "138c475da7997b00dd8109e9d107cc5436805909746edb5c2bd1d2c92badb922",
+      "git_blob": "df3c64b5cbf21d3b98118528ea8ea2a608fe56cc",
+      "size": [
+        1536,
+        1024
+      ]
+    },
+    "generation_wait_seconds": 54.917,
+    "review": "Actualfullv7viewed: fewfinepaleadulttoebristlesvisibleespeciallylefttoeoutline, yellow-scaledskin remainsopen; changeverysubtle/rightfootpartlyobscured, notassertquantifiedbristledensityorcompleteanatomicalcalibration. Duskyhornclaws/legfeatherboundary/yelloweyes/hornbill/plainadultcrown/barredwing/scalyventrum preservedqualitatively. Centerunverifiedyoungunchanged anduncertaintyfooterretained,3birds6supportedfeet/titlev7legible. Guide497supportsadultbristledtoes, photometadatadoesnotsupportprecisebristlesorjuvenile. Problem→smoothadulttoeappearance→speciesbristledtoes→sparseadultonlyaddition→smallvisualchange; ruleappliedbutonlylimitedvisualeffectverified. PASS_WITH_LIMITATIONS/sciencefalse. Exactyoungage/iris/flight/nest/sexratio remainunknown. No crossspeciestransferfromwronginitialManuspage.",
+    "status": "PASS_WITH_LIMITATIONS",
+    "archive_commit": "85a141e0d14ddfdde1b3bd5f9046f2028ef4fb2d",
+    "verification_exit_code": 0,
+    "verified_at": "2026-11-27T09:02:28.642Z",
+    "commit_sha": "31de623f8373f8298c5e95f9adfb453c1a1b5e67",
+    "run_record": "owl-pet/production/runs/20261127T0830Z-cycle5-150-ninox-variegata-v7.json",
+    "credit_commit": "1a682badd51c620b3b7854417bb30d22401a08c5"
+  }
+]

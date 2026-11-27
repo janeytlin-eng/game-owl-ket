@@ -24,11 +24,15 @@
     {
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-27T10:41:05.530Z"
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-27T10:41:10.499Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T1030Z-cycle1-20261127T1030Z-110-megascops-barbarus-v14.json",
-  "stage": "IMAGE_GENERATED",
+  "stage": "REVIEWED",
   "research": "Access2026-11-27 #110 Megascops barbarus v14 revision unique0. Fresh v13 full/review and historical v9-v13 experiments read: repeated fiber/sparse-edge prompts restored U-shaped scallops, v12 matte was airbrushed. MIKKOLA-2013 actualprinted214/PDF216 reread: juvenile crownside/below residualdown, no visible tufts/narrowbrows; meanfemale+9g notheightformula. OldScops/Otus barbarus=currentMegascopsbarbarus. Adultvariabletufts retained from primaryfieldphotos, noforcedshorttufts.\nBSO-CAYAYA-2026-FIELD-ACCOUNT KnutEisermann/ClaudiaAvendaño undated https://cayaya-birding.com/species/Bearded-Screech-Owl.htm actualbody26–34/46 freshlyread; targeted internet juvenile/mesoptile search executed. Actual885x700 juvenile7photo reopened local, fullrealshortdensegraybrownfeathertexture/diffusecrossbars/palecenter/yelloweyes/greygreenbill/narrowbrows/notufts/grippingbranch. Singlephoto unknownage/sex/flight/nest, notnatal. Photo supportsdenseavian shortdown, notclosedcoils. Newexperiment direct photo texture priority with stochastic photographic micrograin ratherthanillustratedshortedge outlines; keep3birdcomposition/stylebutcenter-onlysurface. Patterncontrast preserved insteadairbrush. No guarantee success; actualview decides. New0/reuse2IDs; no newpublication norclaimedallaffectedmaterialfixed. Pineoak context generic/hollow notoccupiednest, sixcontacts retained.",
   "full_prompt": "Use case precise-object-edit. Image1 is a REAL brown-morph juvenile Megascops barbarus biological texture reference ONLY. Image2 is target family plate #110 v13. Edit Image2 ONLY on central juvenile surface. Its repeated outlined V/U-shaped loops are wrong. Reconstruct that material as dense photographic microtexture of very short avian down, using image1's stochastic dark micrograin and tiny untidy grey barb tips, preserving diffuse horizontal graybrown mesoptile bars and a lighter lower central belly. No individually outlined feather-edge units, no engraved linework, no scalloped scale texture, no repeated curved strokes, no long hair or wool; not airbrushed smooth, not noiseless plastic. At the bird's displayed scale most individual barbs are barely resolved, giving softly granular tonal texture as the actual photo. Keep center geometry, narrowbrows/yelloweyes/green-graybill/noear tufts/compact concealed wings/hidden tail/two grippingfeet exactly. Keep BOTH ADULTS, all sixfeet, branch, background, title and labels unchanged. Do not copy reference watermarks/background/pose, no new juvenile age or flight claim. Preserve confirmed tactile natural-history family-plate style outside the center surface. Add small 'v14' after title and a discreet footer 'CONCEPT · SCIENTIFIC CALIBRATION PENDING'.",
   "source_ids": [
@@ -59,5 +63,7 @@
     ],
     "chars": 3662348
   },
-  "generation_wait_seconds": 38.724
+  "generation_wait_seconds": 38.724,
+  "review": "#110v14 actualreview NEEDS_REVISION/sciencefalse\nActualv13/reference/initialv14/secondv14full allviewed. Newphotographicmicrograinprioritythenstipplepatchworkedits BOTH stillproduceoutlinedclosedU/Vloops. Secondlowerbellyparticularlyclearcoils; nomaterialsuccess, notclaimbalancedshortavianfeathercalibration. Actual3birds6feet/youngyelloweyesgreengreybill/narrowbrownotufts/wingtailconcealed/branchsupportandadultpatterns maintained. Addedv14/pendingfooterlegible. Noage/flight/sex/nestclaim. Initialattemptpersisted separately, finalfailedmaterial preservedforreview, oldv13retained.\nProblem→repeatededgepromptbias→freshguide214 andactualbrownjuvenilephoto→change semantic materialmethod/photopriority then tonalpatchwork→bothfailed. NewruleproposedbutNOT validated: erasingtexture mayneed a differentgenerationstrategy; do not apply asprovensolution to130/134. Those taxa require ownphoto/stageevidence, notuniversalshortwings. Twoactualimagegen calls, initial43.7s/second38.7s; statusNEEDS_REVISION, archivereadbackisnotart/sciencepass.",
+  "status": "NEEDS_REVISION"
 }

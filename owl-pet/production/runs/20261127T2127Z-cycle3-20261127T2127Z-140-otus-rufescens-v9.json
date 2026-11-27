@@ -13,11 +13,15 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-27T21:46:11.014Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T21:49:54.714Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T2127Z-cycle3-20261127T2127Z-140-otus-rufescens-v9.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "New0/reuse2. RFS-MIKKOLA-2013-P178 sameHeimoMikkola2013uploaded actualprinted178/PDF180readnow: adultchestnutamberirises/pinkreddishrims/hornwhitebill/nearlytoe-basebufffeathers/yellowish toes, nosexualsizedata; downchickdifferentfromless-speckledmesoptile. RFS-WARAKAGODA-RASMUSSEN-2004-P102 DeepalHWarakagoda/PamelaCRasmussen2004 Anew speciesofscopsowlfromSriLanka BBOC124(2):85–105, original https://www.biologicaldiversity.org/campaigns/global_owl_project/descriptions/Otus/Otus%20thilohoffmannii%20%28Warakagoda%20%26%20Rasmussen%29%202004%2C%20Bulletin%20of%20the%20British%20Ornithologists%27%20Club%2C.pdf actualprinted102/PDF18 juvenileparagraph readnow: NNM rufescensmesoptile nearuniformrichrufescentbrown/weakdarkfacialrim/veryvaguedarkbarsstrongesthindcrownuppermantle. Itdoesnotdateyoung, describeirisontogeny ormeasureflight/branchcompetence. AdjacentthilohoffmanniadultsexirisruledoesNOTapplyrufescensyoung. OldStrixrufescens/currentOtusrufescens mappingretained, scope251unchanged.\nActualv8wholeplateviewed: ageunknownandgenericpendingvisible butmuseumstagecanmisleadvieweraboutiris/flightbasis; addspecificunverifiedlineonly, v9newafterALLversionenumeration. No source-bodygroundednewphysicaldefect established, donotclaimcolourcorrection. Currentrestingsupportedbranchisdesign, notspecimennestingbehaviour; no nestspecificationinvented. Externaltargetedqueries/originalopened, secondarybrightyellowirisclaimsnotadoptedoverage-specificunknown.",
   "full_prompt": "Precise-object-edit/textclarification exact #140 Otus rufescens v8 plate. Keep ALL birds completely unchanged incladult hornwhitebills/amberchestnutiris/narrowreddishrim/plainochre-sparse-dotbellies/bufftarsi/yellowish toes, centre richrufescentmesoptile/concealedwing-tail/ageunknown/support. Add small legible line above existing scientificpendingfooter: 'MESOPTILE REFERENCE · IRIS / AGE / FLIGHT UNVERIFIED'. Changev8 tov9 in title. Preserve adultmale/ageunknownmesoptile/adultfemale roles, sixbranchgrips, bodyproportions, forestbranch/background/warmtactilepetstyle. This is evidence-disclosure only; do not repaintjuvenileeyeorborrowadultcolours, no new anatomy/nest/egg. Source museumstage doesnotestablish behaviour.",
   "source_ids": [
@@ -25,5 +29,19 @@
     "RFS-WARAKAGODA-RASMUSSEN-2004-P102"
   ],
   "new_sources": 0,
-  "research_ready_at": "2026-11-27T21:46:10.990Z"
+  "research_ready_at": "2026-11-27T21:46:10.990Z",
+  "image_metadata": {
+    "bytes": 2313605,
+    "sha256": "fb0eec5fc73434cc960c3b4c4565150910f8e0cf8c602a6fdbd49b567729364c",
+    "gitblob": "cc38edba36de01884368a5c66854f13b9aade111",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "imagegen_wait_seconds": 42.053,
+  "editing_wait_seconds": 0,
+  "imagegen_invocations": 1,
+  "review_result": "PASS_WITH_LIMITATIONS",
+  "local_image": "production2127nov27/140-otus-rufescens-v9.png"
 }

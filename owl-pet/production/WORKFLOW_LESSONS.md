@@ -377,3 +377,7 @@ Recovered the actual Vassen Flickr photograph after Commons/thumbnail403 errors 
 
 ## 2026-11-27 0231Z 119-megascops-centralis-v7
 Adult brow correction is distinct from juvenile down-material problem. Mikkola p242 explicitly distinguishes faint eyebrows/poorly defined outer disc from blackish orbital rings. Applied and visually verified in #119v7 while preserving previously repaired pale adult toes and pink lower tarsi. Juvenile curly material remains unresolved; do not claim wholeplate scientific pass.
+
+
+## 2026-11-27 0231Z 120-megascops-ingens-v7
+Pink eyelid descriptor alone produced oversaturated broad rings in first #120v7 attempt. Actual re-edit reduced prominence, evidence recorded, both attempts archived (initial undefined blob_sha corrected to git_blob before VERIFIED). Follow-up prompts should distinguish thin anatomical lid edge from decorative facial ring and avoid transferring prominent Colombian-species lids. This correction is locally observed; juvenile curl remains unresolved.

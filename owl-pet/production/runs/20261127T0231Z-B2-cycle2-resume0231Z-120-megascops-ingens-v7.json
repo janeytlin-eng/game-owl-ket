@@ -36,14 +36,23 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-27T02:55:38.005Z"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-27T02:56:13.097Z"
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "stage": "ARCHIVED",
+      "error": "First attempt original initially passed undefined blob_sha property; fixed to uploader's git_blob SHA in subsequent nonforcecommit before VERIFIED. Fullbytes readback required."
+    }
+  ],
   "scientifically_verified": false,
   "unique_species_increment": 0,
   "revision_increment": 1,
   "run_record": "owl-pet/production/runs/20261127T0231Z-B2-cycle2-resume0231Z-120-megascops-ingens-v7.json",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "source_new": 0,
   "source_reuse": 3,
   "source_ids": [
@@ -83,5 +92,8 @@
   },
   "generation_wait_seconds": 88.594,
   "status": "PASS_WITH_LIMITATIONS",
-  "archive_commit": "6785e71b1433a729919d491ec8b10e35b146eb90"
+  "archive_commit": "2396ba2a9d8d33939af6fcf53db226ac8f456b54",
+  "verify_exit0": true,
+  "ended_at": "2026-11-27T02:56:13.074Z",
+  "lesson": "Pink eyelid descriptor alone produced oversaturated broad rings in first #120v7 attempt. Actual re-edit reduced prominence, evidence recorded, both attempts archived (initial undefined blob_sha corrected to git_blob before VERIFIED). Follow-up prompts should distinguish thin anatomical lid edge from decorative facial ring and avoid transferring prominent Colombian-species lids. This correction is locally observed; juvenile curl remains unresolved."
 }

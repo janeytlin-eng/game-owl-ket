@@ -673,3 +673,8 @@ Research boundary and full actual prompt: ../research/species/220-tyto-rosenberg
 
 ## 20261127T1429Z cross-check and failure boundary
 217/219/218/220 actual output soften overly repeated feather-edge patterns while retaining evidenced colour bands. 215 second crown edit still artificial lattice: NOT validated; avoid claiming universal prompt success.130v12/134v11 prior records reviewed only, no fresh image inspection or correction credited.216 original colour wording conflict explicitly read before generation;220 publisher screenshot text placeholder is not actual photo viewing. Full fact/prompt/review links in batches/20261127T1429Z-six-cycle-review.md .
+
+
+## 20261127T1529Z 215-otus-angelinae-v5
+Initial and follow-up full originals actually viewed. New specific observed fledgling stage: whitishbrow/russetface, paler largely plain cream lowerabdomen/sparse rufous chest bands, no visible longtufts, formed compact folded wing/short concealedtail and two supportedfeet. Second material edit removes prominent crown coil lattice into fine short wisps; pale belly filament loops reduced. Fine strand scale still artistic/coarsemonochrome reference cannot validate it. Both adults/labels and environment retained qualitatively with small rerender drift, not pixelidentity. PWL/scientificfalse; improved material locally and source-specific stagechange is explicit, not alljuvenile claim. General book darkjuvenile description retained in record; exact stage variation/age/iris/flight remains unresolved. Firstflight age estimated from other species in Becking not adopted.
+Research/fullactualprompt: ../research/species/215-otus-angelinae-v5.md . Applied in this image only, not universal biological validation.

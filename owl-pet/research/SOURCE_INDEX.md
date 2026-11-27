@@ -8260,3 +8260,13 @@ Freshoriginal Fjeldsaetal2012 BBOC132(3):180-193, https://archive.org/download/b
 HistoricalAlarcon2023 ReproductiveeventsofbirdsfromSouthernEcuador DOI10.1080/23766808.2023.2237229 reusedprioractuallyreadrecord: Loja dependentfledglings23Apr2019/2131m graywhitebarredresidualdown/brownchest/WHITEBROWS/yellowiris/Podocarpusbranch. No fresh2023fullbodyclaimthisround; youngunchangedformedwing/twofootsupport/exactageunknown, no flight/nestinference. Subspecies/iris-age/continuousdevelopmentunknown. SourceIDsreuse3/new0; exactbuffshade/speckledrenderdesignnotmeasuredscientificcertification. Preserveyoungwhitebrowsandadultsubduedbrowdistinction.
 Existing source IDs: KOEP-MIK2013-222; KOEP-FJELDSA-2012-P180-191; KOEP-ALARCON-2023; new0.
 [Research/prompt](species/130-megascops-koepckeae-v7.md) [Review](reviews/130-megascops-koepckeae-v7-review.md).
+
+
+### WTSO-BIOWEB-ECUADOR-2026 — source metadata (same new source, not another source)
+- Title: Megascops albogularis (Autillo Goliblanco) | Aves del Ecuador.
+- Author/institution: BIOWEB / Aves del Ecuador; individual account author not displayed in retrieved body. Publication date not displayed; accessed2026-11-27.
+- OriginalURL: https://bioweb.bio/aves/taxa/card?name=Megascops+albogularis&rank=species ; DOI none displayed. Type: collection-linked Ecuador species account, secondary institutional synthesis.
+- Taxon/stage: Megascops albogularis, unspecifiedsubspecies, adultdescription; no juvenile chronology.
+- Actuallyread section: HTMLlines0–9 speciesbody/collectionlinks. Yelloweyes, darkupperparts withpalespeckles, whitethroatcrescent/brownbreast/cream-buffstreaked-crossbarredbelly.
+- Limits/conflict: no clawcolour/sex/age/flightdata; shortfeatherearswording contrasts guide no conspicuous tufts, do not create longtufts fromit. Moderateconfidenceadultcontext, notindependentprimarygrowthproof.
+- Decision: retainadultidentity; clawcolour supplied separatelybyWTSO-MIK2013-249, notbythispage. [Species/fullprompt](species/127-megascops-albogularis-v7.md) [Image](../design/concepts/127-megascops-albogularis-v7.png) [Review](reviews/127-megascops-albogularis-v7-review.md). FailedSibundoyPDF/ITIStimeout notcountedfreshread.

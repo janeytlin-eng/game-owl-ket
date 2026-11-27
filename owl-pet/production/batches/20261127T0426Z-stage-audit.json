@@ -1,0 +1,438 @@
+{
+  "run_id": "20261127T0426Z",
+  "completed_cycles": 6,
+  "rows": [
+    {
+      "run_id": "20261127T0426Z",
+      "batch_id": "20261127T0329Z-B2",
+      "cycle": 3,
+      "target": "123-otus-gurneyi-v7",
+      "started_at": "2026-11-27T04:27:35.990Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T04:27:36.015Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T04:28:02.244Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T04:29:30.589Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T04:29:35.936Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T04:29:40.559Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T04:30:29.331Z"
+        }
+      ],
+      "errors": [],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T0329Z-B2-cycle3-resume0426Z-123-otus-gurneyi-v7.json",
+      "stage": "VERIFIED",
+      "source_ids": [
+        "GSO-OWLPAGES-2020",
+        "GSO-MIRANDA-2011",
+        "GSO-SHANKAR-2013-YOUNG-CORR"
+      ],
+      "full_prompt": "Precisely edit the existing Giant Scops Owl Otus gurneyi plate. Adult claw colour correction was too weak last time. On ALL claws belonging to LEFT ADULT and RIGHT ADULT, replace the black/dark-grey proximal claw sheath with clearly visible light cream-beige horn, approximately the base half to two-thirds of each curved claw. Only the final pointed distal tip remains dark charcoal. The pale-to-dark transition must be unmistakable even at fullplate viewing size, with natural matte horn texture/shading, not goldmetal. This changes CLAWS, not scaly toes: keep grey-brown adult toe skin, feathered tarsi, existing claw lengths/curvature/contacts intact. Do not brighten juvenile claws. Preserve the ENTIRE CENTRAL OLDER JUVENILE exactly, all three bird bodies, adult brown eyes/grey-white bills/rufousface/longtufts/darkstreaks/modestlylargerfemale, sourcephoto-supportedjuvenilesidewingpanels/pinkpurplelids/tailhidden, unknownage/flight. Keep exacttitlelabels/threebirds/sixfeet/continuousnaturalbranch/Philippinelowlandforest/warm naturalisticpetstyle unchanged. No changes beyond adult claw-sheath material colour; no added feathers, no extra feet.",
+      "research": "Access2026-11-27. Read latestmainb057 ledger0329Z-B2 PARTIAL2/6,next3,leasenull; no lateruncreditedVERIFIEDrun identified. Resume samebatchcycle3, retainalloldversions/confirmations. Group25localGitblob10508841ef5f6184e8658664615302909765c1dd matchesremote beforegeneration; fd9d70d GitHub422NoCommitFound, notcredited.\nActuallyviewed123v6 andreadresearch/review: previousclawbaseeditinsufficient/NEEDS_REVISION. Freshnetworkoriginal DeaneLewis2020-10-02 OwlPages https://www.owlpages.com/owls/species.php?s=290 Description64-68 corroborates palehornclawswithdarktips, lightgrey-browntoes, browniris/graywhite-greenyellowbill/longtufts; secondaryaccount notprimarygrowthstudy. UploadedMikkola2013 printed174/PDF176 actuallyreread sameadultclawdescription andjuvenileundescribed; correctedhistoricalp229misattributionalreadyexists, no newcorrectioncount. Newinterventionstrengthensadultclawsheathmaterialcontrast/explicitlocation, preservesjuvenile/notapromisedsuccess. Exactrenderedpaleextentdesigninference, notmeasuredratio.\nHistoricalMiranda2011 DOI10.1676/10-185.1 pp446Table2/451 reusedforexisting modestfemale-wingdirection/oldMimizukugurneyi→Otusgurneyi, smallfemaleNnotheightformula; nofreshfullpaperclaim. HistoricalShankar2013 captiveDavaoyoung https://commons.wikimedia.org/wiki/File:Giant_scops_owl_juvenile_(9105615728).jpg retaineddarkiris/bill/pinkpurplelid/down/narrowformedsidewingpanels; exactage/sex/flight/nestunknown, unchangedthisedit. No scientificpass. NewIDs0/reuse3plusguide, no biologicalsourcefactrevision. Clawgeometry/support andtoe-vs-claw boundaries reviewrequired.",
+      "research_record": "owl-pet/research/species/123-otus-gurneyi-v7.md",
+      "review_record": "owl-pet/research/reviews/123-otus-gurneyi-v7-review.md",
+      "image_meta": {
+        "bytes": 2761537,
+        "sha256": "75f428fa013f25a905f11a1d6e90bae15592801be20fd165c7f2b60267831e50",
+        "git_blob": "8090bba036ce3caa5e751cdff2d9d7747c3473e3",
+        "size": [
+          1536,
+          1024
+        ],
+        "b64len": 3682052
+      },
+      "generation_wait_seconds": 33.43,
+      "status": "PASS_WITH_LIMITATIONS",
+      "review": "Actualfullinput/outputviewed: adultclawsnowclearlypalecream-hornproximally/darkpointeddistaltips, improvementoverv6mostlyblackclaws. Scalytoeandclawsheathboundaries/geometry/grips retained. Adultbrowniris/graybill/rufousface/tufts/darkbodymarkings/modestlylargerfemale retained. Youngform/sideflightpanels/darkeyes/bill/pinkpurplelids/hidden tail/supportedfeet retained, but downsurface rerenderedslightlyflakier; exactpixelinvarianceNOTclaimed. Exact3birds/6feet/titlelabels/branch/lowlandforest retained. PASS_WITH_LIMITATIONS onlyadultclawpalette, juvenilematerial/age/flight/sexratio stillunknown, sciencefalse.",
+      "archive_commit": "192d283a91f449f9e9c7d9c569d28d077e7394cc",
+      "verify_exit0": true,
+      "ended_at": "2026-11-27T04:30:29.305Z",
+      "lesson": "Stronger explicit proximal palehorn/distal dark claw-sheath replacement finally visible in123v7, toe/clawboundaries preserved. Youngdown rerendering changedsurface slightly; avoidclaimingpixelinvariance. Locallyverifiedpalettefixonly, exacthornextentdesignnotratio. Priorweakeditfailurepreserved.",
+      "verification_commit": "b3e255f5a5f81dc002e651baa74707aedeec4ca3",
+      "credit_commit": "c66635375685d774059cbc1426959bcb70b3e169"
+    },
+    {
+      "run_id": "20261127T0426Z",
+      "batch_id": "20261127T0329Z-B2",
+      "cycle": 4,
+      "target": "110-megascops-barbarus-v11",
+      "started_at": "2026-11-27T04:30:38.579Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T04:30:38.599Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T04:30:43.650Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T04:31:56.098Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T04:32:00.957Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T04:32:06.207Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T04:32:48.934Z"
+        }
+      ],
+      "errors": [],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T0329Z-B2-cycle4-resume0426Z-110-megascops-barbarus-v11.json",
+      "stage": "VERIFIED",
+      "source_ids": [
+        "BSO-CAYAYA-2026-FIELD-ACCOUNT",
+        "MIKKOLA-2013"
+      ],
+      "full_prompt": "Image1 is edit-target threebird Bearded Screech-Owl Megascops barbarus plate. Image2 is real juvenile BIOLOGICAL MATERIAL REFERENCE ONLY (do not copy photo background, watermark, signature, photographer text). Preserve both adults exactly in form/face/featherpattern/yelloweyes/greenbill/pinktoes/tufts and alltitlelabels/forest/branchlighting/6feet. REBUILD ONLY CENTRAL JUVENILE FEATHER SURFACE from photograph2, including lowerbelly: currenttarget has outlined long U-shaped wool coils. Erase those coil contours first and replace with close-packed SHORT STRAIGHT feather barbs and matte unresolved soft down, darkgraybrown with diffuse lighter horizontal mesoptilebars, pale central belly as in reference. Referencephoto dark featherdown is dense and lies close to body, not shaggyringlets. No whiteoutlinedcurves/loops/knittedfibers/sheepwool. Avoid highcontrast individualfiber contour: smooth tone masses inside body with sparse short brokenbarbs onlyatouteredge. Keep existing compactovalbody/headtuckedleft/noear tufts/narrowbrows/yelloweyes/graygreenbill, compact foldedwings close tobody/tailconcealed, bothfeetnaturalbranchsupport. The young should remain an unknownage dependent barredmesoptileyoung, nothatchling orfullyadult. Match biological material while retaining target's appealing naturalisticpetstyle; do not apply adult brightpatches/pinkfeet toyoung. Exactly3birds noextrafoot or flight/nest/ageclaim.",
+      "research": "Access2026-11-27. Readv10research/reviewandactualfullplate: two-stageisolatedstudythenintegration failedtolimitlowerbellyclosedloops. Freshoriginal CAYAYA https://cayaya-birding.com/species/Bearded-Screech-Owl.htm actualbody26-34/46 read, KnutEisermann/ClaudiaAvendañoundatedfieldaccount withpublishedresearchlinks; brownjuvenilephoto https://cayaya-birding.com/species/Bearded-Screech-Owl_juvenile7.jpg actuallyreopenedlocalpixels. Densegraybrownshortdown/diffusebars/palecentralbelly/yellowirises/green-graybill/narrowbrows/no visibletufts/branchgripping; hatchage/sex/firstflightunknown. Imagewatermarkretainedinreferenceonly, notpublishedcopy.\nUploadedMikkola2013 printed214/PDF216 freshlyread: juvenilemesoptilewithremainingdowncrownside/below, narrowindistinctbrows/notufts; adultfeatheredtarsitopinkbaretoes/hornclaws/yelloweyes/greenbill. Female mean+9g notheightformula. Existingadulttufts supportedvariablefieldphotographs, notuniformtuftlength. CurrentMegascopsbarbarus maps oldScops/Otusbarbarus, no rufousmorphtransfer. Newmaterialexperimentone-stage fullplate+realphotoreference, expliciteraseinheritedcoilcontours then lowcontrastshortstraightbarbs; no claimeduniversalpipeline. Retainmorphology/support andunknownstage; cloudyhumidpineoakgenericcontextnotconfirmedoccupiednest. SourceIDsreuse2/new0, materialrenderdesigninference no sciencepass.",
+      "research_record": "owl-pet/research/species/110-megascops-barbarus-v11.md",
+      "review_record": "owl-pet/research/reviews/110-megascops-barbarus-v11-review.md",
+      "image_meta": {
+        "bytes": 2785478,
+        "sha256": "6bc5fc448d22fb5747f913dd775a3d39ab85951781a3b2341842d67e8a67183b",
+        "git_blob": "b511100fbae7afca1ad7e7c031d08cedeff3e86a",
+        "size": [
+          1536,
+          1024
+        ],
+        "b64len": 3713972
+      },
+      "generation_wait_seconds": 39.015,
+      "status": "NEEDS_REVISION",
+      "review": "Actualtarget/sourcephoto/outputfullviewed. One-stageactualphoto-guidederase-and-rebuild didnotremove inheritedoutlinedU/closedloopfiberespeciallybelly; littlematerialimprovement, NEEDS_REVISION. Photoboundedgraybrownbarredmesoptile/palebelly/yellowiris/greenbill/narrowbrow/notufts/compactwing/hidden tail/twofeetbranch retained. Adults/tufts/beard/yelloweyes/greenbills/pinktoes/full6supports/title/labels/forest retained. No newage/flight/nestclaim. Strategyfailedthiscase, cannotassertsamepromptpreventsloops orsciencepass. Preservev10studyandv11distinctattempt; changegenerationstrategybeforeanothernear-identicaltextattempt.",
+      "archive_commit": "6f91e3df23d990c3fc35518d5bfb67a7fb039882",
+      "verify_exit0": true,
+      "ended_at": "2026-11-27T04:32:48.908Z",
+      "lesson": "Directone-stagephotoreference/erasecoilpromptalsofailed110closedloopdown, aftertwostagefailure. Preservefailuresandstopassertingprompt-alonegeneralfix. Needgenuinelydifferentmaterialgenerationstrategy, notanothernearlyidenticalrephrasing. Anatomystage/supportpass doesnotimplymaterialpass.",
+      "verification_commit": "be588bafbfe427a1d8616ab7f81003871dc185fa",
+      "credit_commit": "37d81cb51bd0c3c2dc0361def9c7bf68e27f804f"
+    },
+    {
+      "run_id": "20261127T0426Z",
+      "batch_id": "20261127T0329Z-B2",
+      "cycle": 5,
+      "target": "127-megascops-albogularis-v7",
+      "started_at": "2026-11-27T04:33:00.967Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T04:33:00.991Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T04:34:01.647Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T04:34:17.585Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T04:35:29.303Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T04:35:34.482Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T04:35:39.121Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T04:36:21.592Z"
+        }
+      ],
+      "errors": [],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T0329Z-B2-cycle5-resume0426Z-127-megascops-albogularis-v7.json",
+      "stage": "VERIFIED",
+      "source_ids": [
+        "WTSO-MIK2013-249",
+        "WTSO-SIBUNDOY-2013-P142",
+        "WTSO-BIOWEB-ECUADOR-2026"
+      ],
+      "source_new": 1,
+      "full_prompt": "Precise edit of supplied White-throated Screech-Owl Megascops albogularis #127 plate. Correct adult CLAW SHEATHS ONLY on both LEFT and RIGHT adults: replace nearlyblack proximal clawbase/shaft with clearlylight palehorn beige, keeping last pointed distalends darkcharcoal. Preserve grey-brown/fleshy toe skin, creamfeatheredtarsi, allclawcurvature/length/branchgrips, sixfootcontacts. Do NOT change center MESOPTILE youngfeet/claws. Adultpalethroatpatches remainseparatefromwingmarkings; keep NO alignedwhite scapularrow, darkfuscousupperparts/tinyirregularwarmspots, orange-yellowiris/mutedgreengraybill/tuftlessroundheads/near-equalheight, nofakefemaleratio. Centralpalegraybuffmesoptile retainsfineevenduskybars/orbitaldisc/longbristles/compactfoldedwing/hidden tail/unknownage/darkunvalidatediris andbothfeetbranch. Preserve exactthreebirds/title/labelsverbatim includingMESOPTILE·AGEUNKNOWN, naturalcloudforest/epiphytes/continuousbranch/warmroundednaturalisticpetstyle. No whiteclawtips, no goldmetal, nojuvenilepalette transfer, nootherchanges.",
+      "research": "Access2026-11-27. Actualv6image/researchread: adultclawsnearlyblack, guideprinted249/PDF251 freshlyread explicitlypalehornclawsdarktips/tarsifeatheredtobaseyellowgray-brownfleshytoes. Targetadultproximalclawsheathonly, usingstrongerlocation/materialcontrastlocallyeffective123v7; transfer effectivenessmustcheck, notuniversalrule. Guidep249alsoadultnoscapularwhiterow/orangeyellowiris/green-graybill/whitepairedthroat andpalegraymesoptilefineevenduskybars; keeppreviouslycorrectedfeatures/youngunchanged. Femalequalitativelyheaviernotheightratio. OldSyrnium/Otusalbogularis mappingretained, no251scopechange.\nFreshonlinegapresearch: originalSibundoyinstitutionCornellPDF failedweb40014MB/local403; alternateCorpoamazoniaPDF403; nofreshoriginalreadingclaimed, WTSO-SIBUNDOY-2013-P142 reusedhistoricalv6summaryonly(juvenilebuffwhitefinebars/noexactage). ITISrequesttimeout; oldtaxonomyrecordretainednotfreshverified. Actuallyread BIOWEB/AvesdelEcuador speciesbody https://bioweb.bio/aves/taxa/card?name=Megascops+albogularis&rank=species lines0-9 (institutionalcollection-connected Ecuadoraccount, undated, authornotshown, accessed2026-11-27): yelloweyes/darkupperparts/palehead-covertsflecks/whitethroatcrescent/brownbreast/creambuffstreaked-crossbarredbelly. Adults taxoncontextonly; nojuvenileage/sex/footdetail. Shortfeatherearsdescriptorcontrasts guide no conspicuoustufts; do NOT addlongtufts fromthisgenericwording. Supportsretainingadultidentity notclawfact. Taxonsubspeciesnotgiven, nofullmorphologyconfidenceclaim.\nSourcefactsadultpalehornclaws; exactrenderedextentdesigninference. Youngiris/bill/featherchronology/flight/nestunknown, no sciencepass. NewBIOWEBentry onlyifnotalreadyindexed, sourcebodyreadunlikefailedPDFleads.",
+      "research_record": "owl-pet/research/species/127-megascops-albogularis-v7.md",
+      "review_record": "owl-pet/research/reviews/127-megascops-albogularis-v7-review.md",
+      "image_meta": {
+        "bytes": 2518212,
+        "sha256": "23c69974ac28b4a0e59bb358668b39ee256134bd9bbf8ba15128f25d69db2d94",
+        "git_blob": "aabaa72a1442840a2aa167616ec7e396769c4dff",
+        "size": [
+          1536,
+          1024
+        ],
+        "b64len": 3357616
+      },
+      "generation_wait_seconds": 39.488,
+      "status": "PASS_WITH_LIMITATIONS",
+      "review": "Actualinput/outputviewed. Adultclawsnowpalegreyhornproximally/darktip, clearlylighterthanv6; toe/featheredlegboundaryand6branchgripsretained. Pairedwhitethroat/noalignedscapularrow/orangeyellowiris/greengraybill/tinyirregularwarmspotstuftlessheads retained. Youngpalegraybufffinebarredmesoptile/compactwing/nohardlongprimaries/unknownage/subduedeyes unchangedoverall, somecurlyfiberremainsstylelimit. Exact3birds/titlelabels/cloudforestretained. PASS_WITH_LIMITATIONS adultclawpaletteonly, grayhornshadeuncalibratedandyoungiris/chronology/nestunknown. FreshBIOWEBbodyreadinstitutionalcontextsaved; failedPDFandITISaccessnotcountedasfreshfulltext.",
+      "archive_commit": "031ee03b53140c46f1bb8c649cf216792a3d087e",
+      "verify_exit0": true,
+      "ended_at": "2026-11-27T04:36:21.565Z",
+      "lesson": "Adultpalehornproximalclaw/darktip transferfrom123promptlocallyeffective127v7, notassumedforallspecies. InstitutionalBIOWEBbodyfound/readafterPDFsize/403andITIStimeout, supportsadultidentityonly; savefreshsourcewithoutclaimingnewjuvenilefacts. Comparewhitepairedthroat vswhitewingrow separately. Exactyoungiris/downmaterialstillunknown.",
+      "verification_commit": "58d2c956c6e1a5c3cd7343c20e7cde9d13b717ba",
+      "credit_commit": "c3872a5508fcce550fb82fe83324eceb0199636f"
+    },
+    {
+      "run_id": "20261127T0426Z",
+      "batch_id": "20261127T0329Z-B2",
+      "cycle": 6,
+      "target": "128-megascops-marshalli-v10",
+      "started_at": "2026-11-27T04:36:31.132Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T04:36:31.157Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T04:37:03.105Z"
+        },
+        {
+          "stage": "EDIT_REQUIRED",
+          "at": "2026-11-27T04:38:13.109Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T04:38:17.691Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T04:39:27.508Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T04:39:32.422Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T04:39:37.546Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T04:40:22.368Z"
+        }
+      ],
+      "errors": [],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T0329Z-B2-cycle6-resume0426Z-128-megascops-marshalli-v10.json",
+      "stage": "VERIFIED",
+      "source_ids": [
+        "MARS-WESKE-1981",
+        "MARS-MIK2013-P234"
+      ],
+      "full_prompt": "Precisely edit existing Cloud-forest Screech-Owl Megascops marshalli #128 plate. Correct ONLY BOTH ADULT CLAW SHEATHS to pale horn: the currentdarkgray-blacklongclaws on leftadult/rightadult should be light grey-beige horn along base and mostshaft, with naturallydarker pointedends/shadow. Do not recolor gray-fleshy toes or nearlyfullyfeatheredtarsi; preserve curvature/length/branchgrip. CENTRALOLDERIMMATURE unchanged including its ownunvalidatedclawpalette, formedpalerwing/remiges/laxscapularfeathers/partlyhiddentail/unknownage. Preserve adultdarkbrowneyes/palergrayochrelidline/greyyellowbill/rufousfacebroadblackrim/shorttufts/whitebrokenSCAPULARband andcorrecteddusky-tawnylowcontrastOUTERFLIGHTFEATHERS. Keep variablewhitebellywithirregularblackrufousmarkings, no forcedregulargrid andno sex-specificcolorredesign. Near-equaladultscale/exact3birds6feet/titlelabels/cloudforestepiphytes/branch/warmrealisticpetstyle identical. No allwhiteor metalclaws, no added toes/wing/ageclaim.\n\nSecond actual edit after firstattempt visualrejection:\nCorrect previous Cloud-forest Screech-Owl image. The adult claw colour edit was insufficient. Make the ENTIRE visible curved CLAW SHEATH of every LEFT and RIGHT adult claw a light matte ivory-grey/beige horn colour from base through shaft to point; only natural small shadows may be darker. Do not leave the old long black distalsections. Megascops marshalli is described as PALE HORN CLAWS, unlike darkclawspecies. Keep surrounding fleshygraytoe scales andlegfeathers unchanged. Do not altercentralolderimmaturefeet/claws, anyadultorjuvenileplumage/iris/bill/wing/pose/6branchcontacts/labels/background. Specific tinyclaws only, sameexistinggeometry, noextra toes, no allwhite feet or metallicglow.",
+      "research": "Access2026-11-27. Actualv9image/researchviewed; adultclawsdarkblackish vsuploadedMikkola2013 printed234/PDF236 freshlyread palehornclaws/grayfleshytoes/tarsifeatheredtobase. Adultdarkiris/palegrayochrelid/greyyellowbill/rufousdiscblackrim andwhitebrokenSCAPULARbandvalid; priorv9dusky-tawnyouterflightbars correctandmustremain. Targetpaleadultclawsheathonly; exactshade/extentdesigninference, nojuveniletransfer.\nFreshauthorpostedprimary Weske&Terborgh1981 TheAuk98:1-7, https://www.researchgate.net/publication/242735911_OTUS_MARSHALLI_A_NEW_SPECIES_OF_SCREECHOWL_FROM_PERI actualfullbodydiagnosis/description/variation/immaturespp1-3 read; USFmetadata https://digitalcommons.usf.edu/auk/vol98/iss1/1/ author/title/year read. Liveholotypedarkbrowniris/fleshtoes/grayyellowbill, clawsnotstatedinbody(noindependentprimaryconfirmationofclawcolor). Ventralwhitepatternvariableincludingoneplaincentralabdomen; singlefemaleexamplelessrichlycolorednotgeneralrule, sexmeasurements7male1femaleoverlap notfixedratio. Twoimmaturemalesretainjuvenalflightfeathers,palerremiges/laxscapularremnants, no downychick/age/flightthreshold. RetainOLDERIMMATUREstage; guide genericmesoptile wordingnotpermissiontodownifywellformedolderbird. WetepiphytecloudforestPeru1920-2240m sourcescope, no universalnestclaim. OriginalOtusmarshalli mapsMegascopsmarshalli. SourceIDsreuse2/new0; no newscientificpass, no claimclawfactfromprimarywhereabsent.\nReview-driven clarification: guidep234 sayspalehornclawswithoutrequiringdarktips; previouspromptallowedtoo muchdarkdistalpart, firstattemptfailed. Secondeditpalesentireclawsheath(naturaldarkshadowonly), notblindtransferof123dark-tiprule.",
+      "research_record": "owl-pet/research/species/128-megascops-marshalli-v10.md",
+      "review_record": "owl-pet/research/reviews/128-megascops-marshalli-v10-review.md",
+      "attempt1": {
+        "meta": {
+          "bytes": 2816114,
+          "sha256": "3606f069767319ae47fac453673503ecda0c8fab0e039cca4910d55f0e255650",
+          "git_blob": "38add2ccc7cb0dab84f38c834ffc34d619ae9f03",
+          "size": [
+            1536,
+            1024
+          ],
+          "b64len": 3754820
+        },
+        "wait": 32.684,
+        "review": "Palehornsheathnotachieved: basesbarelylightenedwhilemostclawstilldark. Rejected, secondeditrequired."
+      },
+      "generation_calls": 2,
+      "generation_wait_total_seconds": 65.77799999999999,
+      "image_meta": {
+        "bytes": 2777502,
+        "sha256": "6ed158b029fd6f225cb19c33e77a5b8d0c7db42056b7f196a5b4fccdd7d52d7b",
+        "git_blob": "57f6005877d82c6fba49fe65ec109477c4491f47",
+        "size": [
+          1536,
+          1024
+        ],
+        "b64len": 3703336
+      },
+      "generation_wait_seconds": 33.094,
+      "status": "PASS_WITH_LIMITATIONS",
+      "review": "Actualv9/attempt1/finalfullimagesviewed. Firsteditinsufficientdarkdistalclaw,rejected/preservedoriginal. Secondeditadultclawsnowvisiblypalehornalongcurvedsheath; fleshytoes/legboundary/grips retained. Centralolderimmatureclawsstilldarkunchanged/provisional, noadulttraittransfer. Adultdarkbrowniris/rufousdiscblackrim/shorttufts/whitebrokenupperSCAPULARband/dusky-tawnylowcontrastOUTERFLIGHTFEATHERS/variablewhitebelly andnear-equalheight retained. Formedolderimmaturewing/laxscapularremnants/unknownage/tailpartlyhidden retained, sixbranchsupports/text/cloudforest retained. PASS_WITH_LIMITATIONS guide-supportedadultclawpaletteonly; primarydoesnotstateclawcolor, noindependentconfirmationclaimed. Exactshade/geometry/youngage/flightunknown, sciencefalse.",
+      "archive_commit": "0704d39d6345cc96f4a6b75c4ae7545904aecfa0",
+      "verify_exit0": true,
+      "ended_at": "2026-11-27T04:40:22.343Z",
+      "lesson": "First128adultclawedit insufficient, secondeditpaleentiresheath succeededaftercheckingguidep234whichdoesNOTrequireblacktips. Do notgeneralize123darktipruleacrossspecies. Primary1981livebareparts listsiris/toes/bill butnotclaws; supportlevelremainsecondaryguideonly. Bothattempts preserved, youngformedwingsandpriorouterflightbarcorrectionretained.",
+      "verification_commit": "4e3fc30fc822236ce84be670d663e6c46f127b5e",
+      "credit_commit": "3a229c091ee795ae8d4ec2c9c100dc6c6e799b9b"
+    },
+    {
+      "run_id": "20261127T0426Z",
+      "batch_id": "20261127T0426Z-B2",
+      "cycle": 1,
+      "target": "129-megascops-hoyi-v6",
+      "started_at": "2026-11-27T04:40:32.499Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T04:40:32.526Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T04:41:28.470Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T04:42:38.284Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T04:42:42.942Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T04:42:47.731Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T04:43:25.812Z"
+        }
+      ],
+      "errors": [],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T0426Z-B2-cycle1-resume0426Z-129-megascops-hoyi-v6.json",
+      "stage": "VERIFIED",
+      "source_ids": [
+        "HOY-MIK2013-228",
+        "HOY-KS1989-P4",
+        "HOY-SIB-ARG"
+      ],
+      "full_prompt": "Precisely edit existing Montane Forest/Yungas Screech-Owl Megascops hoyi #129 threebirdplate. Correct ONLY BOTH ADULT bare TOE skin: change current warm ochre-gold/chicken-yellow toes into muted YELLOWISH-GREY scaly skin with graydominance/subtleyellowundertone, as speciesadultdescription. Keep clawssameDARKHORN, do not apply palehornclawrule of albogularis or marshalli. Featheredtarsalfeathersremainwarmwhitebuff, nochangesbeyondbaretoe skin; keep geometry/length/sixfootbranchgrips. Centralfledgedjuvenilefeet/bill/irisENTIRELYUNCHANGED and remainexplicitlyunverified. Adultpaleyellowiris/gray-greenbill/browngraycrown/darkneckruff/shorttufts/whitescapularband/fineshaftstreakswithsidebranches/near-equalheight unchanged; youngfluffyformedwings/noear tufts/stationarybothfeetbranch/ageunknown retain. Preserve exactalltext includingJUVENILEIRIS/BILLCOLOURUNVERIFIEDandCONCEPTSCIENTIFICCALIBRATIONPENDING, no crop. Existing warmnaturalisticpetstyle/Yungasforestepiphytes/3birds unchanged.",
+      "research": "Access2026-11-27. Actualv5imageandresearchread; adultbaretoesrathergolden-yellow ratherthanmutedyellowgray. UploadedMikkola2013 printed228/PDF230 freshlyread yellowishgrayadulttoes/darkhornclaws/tarsifeatheredtobase; targettoe skintoneonly, notclawsandnotyoung. Femalemean20gheavieringuide notfixedheight. Adultpalescapularband/darkneckruff/shorttufts/branchingventralstreaksretain; eye/billwording primarypaleyellow/graygreen versusguidebrightyellow/greenyellow unresolvedrange, noforcedrepaint.\nFreshtargetedwebsearch andprimary1989originalURL attempted https://www.biologicaldiversity.org/campaigns/global_owl_project/descriptions/Megascops/Megascops%20hoyi%20(Konig%20&%20Straneck)%201989,%20Stuttgarter%20Beitrage%20zur%20Naturkunde,%20ser.%20A_%20Biologie,%20No.PDF webnotaccessible/local403. HOY-KS1989-P4 reusedhistoricalp4typepairdescription(yellowgraytoes/graygreenbill/paleyellowiris) notfreshfulltextclaim. Twoindividualtypesnotuniversalratio. Alternateinstitution SIBArgentina https://sib.gob.ar/especies/megascops-hoyi actuallyfreshread lines11-25/46-48 currentM.hoyi, authorityKoenigStraneck1989, oldOtushoyi; taxonomyandprotectedareacontextonly, notfootcolor/juvenilebasis. Museum2025searchhitnotopenedretainedunverifiedleadnotnewsource.\nFledgedyoungguideadultlikebutfluffier/no visibletufts; exactage/iris/billchronology/flightindependenceunknown. Preservev5youngunverifiedlabels andallyoungcolors/feathermap, no stageupgrade. Footgraydominanceisdesigninterpretationofyellowgray, notmeasuredreflectance. SourceIDsreuse3/new0; sciencefalse. Distinguishadultdarkhornhoyiclawsfrompalehornadjacenttaxa; donotgeneralize123/127/128palette.",
+      "research_record": "owl-pet/research/species/129-megascops-hoyi-v6.md",
+      "review_record": "owl-pet/research/reviews/129-megascops-hoyi-v6-review.md",
+      "image_meta": {
+        "bytes": 2422157,
+        "sha256": "5b2681f3166b4d7a1840a694ffdd81e01b955809a3bb31d260f9abac7d462ae6",
+        "git_blob": "5f00a5520eac89d4f1ac0366876dbfc0645adeab",
+        "size": [
+          1536,
+          1024
+        ],
+        "b64len": 3229544
+      },
+      "generation_wait_seconds": 35.777,
+      "status": "PASS_WITH_LIMITATIONS",
+      "review": "Actualfullinput/outputviewed. Adultbaretoesnowmutedgraywithyellowishundertone ratherthanbrightochre; darkhornclawsandcreamfeatheredtarsi unchanged. Juveniletoesremainwarmyellowprovisional, iris/billUNVERIFIEDandconceptpendingfooterretained, fluffyfledgedbody/notufts/formedfoldedwing/tail/2feetcontact unchanged. Adultpaleiris/graygreenbill/shorttufts/darkneckruff/scapularband/branchingstreaks/near-equalscale retained. Threebirds/sixfeet/alltext/Yungasforest retained. PASS_WITH_LIMITATIONS adulttoe-onlypalette, notjuvenilechronologyorwhole-scienceapproval. Sourceprimaryfreshaccessfailed, historicalbasisexplicit; institutionfreshnamesupportonly.",
+      "archive_commit": "c4d8af532eee03f05632cc82d0f0e0388007184c",
+      "verify_exit0": true,
+      "ended_at": "2026-11-27T04:43:25.787Z",
+      "lesson": "129adulttoe skintone reducedochre to yellowishgray whiledarkhornclawsretained; no universalpaleclawrule. Youngyellowfeetandiris/billunverifiedlabels preserved. Primary1989fresh403doesnoterasehistoricalevidencebutcannotclaimfreshreading; SIBfreshsupportsnameonly. Checkstagecolourbeforecopyingadultpalette.",
+      "verification_commit": "795b829658ecd23eeb55cf74434fc2934f9b5a5b",
+      "credit_commit": "f872e38685d54a68ccc468303e65cb95526205c7"
+    },
+    {
+      "run_id": "20261127T0426Z",
+      "batch_id": "20261127T0426Z-B2",
+      "cycle": 2,
+      "target": "130-megascops-koepckeae-v7",
+      "started_at": "2026-11-27T04:43:36.906Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T04:43:36.924Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T04:44:41.363Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T04:45:59.314Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T04:46:04.852Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T04:46:09.829Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T04:46:49.877Z"
+        }
+      ],
+      "errors": [],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T0426Z-B2-cycle2-resume0426Z-130-megascops-koepckeae-v7.json",
+      "stage": "VERIFIED",
+      "source_ids": [
+        "KOEP-MIK2013-222",
+        "KOEP-FJELDSA-2012-P180-191",
+        "KOEP-ALARCON-2023"
+      ],
+      "full_prompt": "Precise-object-edit existing Koepcke's Screech-Owl Megascops koepckeae #130 plate. Correct ONLY the FEATHERED TARSI of both adults (short leg feathering just ABOVE baretoe bases): currentadultlegfeathers nearplainwhite; make these featheredleggings softlightbuff-yellowwithsmallirregularbrownflecks/speckles, consistentwith speciesguide. Do NOT recolor the baregray-browntoes or darkhornclaws, do NOT extendfeathersdownontotoes. Preserve leganatomy/exact6grips/branch. Keep ALL juvenile completelyunchanged including its palegreyresidualdown/graywhitebars/brownchest/WHITEBROWS/yellowiris/bluegraybill/formedcompactfoldedwing/ageunknown andtwofeet. Adultrestrainedmottledbrows/palefaceborder/blackruff/yelloweyes/blue-greenhornbill/shorttufts/whitebrokenSCAPULARline/broadshaftstreaks/near-equaladultsize unchanged. Keepexactthreebirds/alltitlelabels/LojaAndeanforest/naturalbranch/warmnaturalisticpetstyle. Not a universalhockingicolourassignment, no exactage/nest/flightclaim. Only adultlegFEATHERS warmbuffandbrownspeckles, nogoldenfeet/noextrafoot/noglobalrestyle.",
+      "research": "Access2026-11-27. Actualv6full/researchread: adultfeatheredtarsilargelyplainwhite. UploadedMikkola2013 printed222/PDF224 freshlyread lightyellowtarsifeatherswithbrownspeckles/gray-brownbaretoes/darkhornclaws; targetsmallwarmbuffandbrownflecksonadulttarsalfeathersONLY, separatefromtoe skinandclawcolour. Guide nosexsizedata; retainearlierv6mottledbrowsandpalevalidfaceborder.\nFreshoriginal Fjeldsaetal2012 BBOC132(3):180-193, https://archive.org/download/biostor-245242/biostor-245242.pdf actualwebbodyopened, laterfindredirect500; recoveredlocalfull14pagePDF andactuallyreadprinted184/PDF5 and189/PDF10. P184 northernPerubirds ochreonlegs/vent; p189hockingi type bufftarsalfeatherswithsmallfuscousstreaks, diagnosislegmarkings. This supports avoidingplainwhitetarsi, but exacthockingigrid/regionnotassignedtoLoja. Colourvariesnorthchocolatebrown/southgray, specimenandregionaldata notsexualdimorphism. Noextraspeciescredit/newtaxonomy. PrimaryFig2paintingnotphoto, nofreshvisualphotoclaim. HistoricalnamesOtuscholibakoepckei→M.koepckeae retained.\nHistoricalAlarcon2023 ReproductiveeventsofbirdsfromSouthernEcuador DOI10.1080/23766808.2023.2237229 reusedprioractuallyreadrecord: Loja dependentfledglings23Apr2019/2131m graywhitebarredresidualdown/brownchest/WHITEBROWS/yellowiris/Podocarpusbranch. No fresh2023fullbodyclaimthisround; youngunchangedformedwing/twofootsupport/exactageunknown, no flight/nestinference. Subspecies/iris-age/continuousdevelopmentunknown. SourceIDsreuse3/new0; exactbuffshade/speckledrenderdesignnotmeasuredscientificcertification. Preserveyoungwhitebrowsandadultsubduedbrowdistinction.",
+      "research_record": "owl-pet/research/species/130-megascops-koepckeae-v7.md",
+      "review_record": "owl-pet/research/reviews/130-megascops-koepckeae-v7-review.md",
+      "image_meta": {
+        "bytes": 2559034,
+        "sha256": "52736f27c5adaa155985a9b665e9527e585209434a2e3bc03cc8f9cfcc3f7bb6",
+        "git_blob": "7a90a425477b1d2a85ce0e40be57e8cf1751d527",
+        "size": [
+          1536,
+          1024
+        ],
+        "b64len": 3412048
+      },
+      "generation_wait_seconds": 38.28,
+      "status": "PASS_WITH_LIMITATIONS",
+      "review": "Actualinput/outputfullviewed. BothadulttarsalFEATHERSnowbuff-yellowwithsmallbrownflecks, notplainwhite; graybrownbaretoes/darkhornclaws/featherboundary/grips retained. Adultrestrainedmottledbrows/validpalefaceborder/blackruff/yellowiris/bluegreenhornbill/shaftstreaks/scapularline/near-equalheight unchanged. Youngwhitebrows/yellowiris/bluegraybill/graywhitebarredresidualdown/brownchest/compactformedwing/ageunknown/twofootbranchsupport unchangedoverall; longclosedloopfiberstillstylelimitation, no scientificmaterialpass. Exact3birds6feet/titlelabels/Lojaforestretained. PASS_WITH_LIMITATIONS adultlegfeathercoloronly, no subspeciesassignment or youngage/flight claim. Primary2012pages184/189freshreadbacksupportbuffmarkedadultlegsbutnotexactLojaquantification.",
+      "archive_commit": "d5a6965b339b5302c42b0229a4d6107b31b8664b",
+      "verify_exit0": true,
+      "ended_at": "2026-11-27T04:46:49.854Z",
+      "lesson": "130adultlegfeatherstargetbuffandbrownfleck locallyvisible, baretoe/clawandyoungwhitebrowstagespreserved. OriginalFjeldsa2012pages184/189downloadrecoveredafterwebfindredirect500, actualread supportsbuffmarkedlegs whilewarningregionalvariation; notautomaticLoja hockingiassignment. Youngclosedloopmaterialstillqueue. Keep legfeathers/toes/claws threeindependenttract/colorchecks.",
+      "verification_commit": "de44708dafcb332b23c17cfffc6b4220609f9499",
+      "credit_commit": "88a5dda7b7ee52fd8ba8bfbd1071d7e007e06fc1"
+    }
+  ],
+  "source_index": "owl-pet/research/SOURCE_INDEX.md",
+  "new_source_ids": [
+    "WTSO-BIOWEB-ECUADOR-2026"
+  ],
+  "reused_source_id_citations": 15,
+  "guide_page_locators": 6,
+  "design_boundary_corrections": 1,
+  "generation_calls": 7,
+  "unique_species": 207,
+  "total_species": 251,
+  "current_batch": "20261127T0426Z-B2",
+  "current_completed": 2,
+  "next_cycle": 3,
+  "other_partial_batches": 0,
+  "historical_credit_ledgers_verified_runs_and_128_attempt1_readback": "6/6 PASS exit0"
+}

@@ -12,6 +12,10 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-27T01:41:01.580Z"
+    },
+    {
+      "stage": "EDIT_REQUIRED",
+      "at": "2026-11-27T01:42:21.988Z"
     }
   ],
   "errors": [],
@@ -19,7 +23,7 @@
   "unique_species_increment": 0,
   "revision_increment": 1,
   "run_record": "owl-pet/production/runs/20261127T0125Z-B2-cycle2-resume0125Z-119-megascops-centralis-v6.json",
-  "stage": "RESEARCH_READY",
+  "stage": "EDIT_REQUIRED",
   "source_new": 0,
   "source_reuse": 3,
   "source_ids": [
@@ -27,8 +31,22 @@
     "CHSO-AOS-13691-2026",
     "CHSO-REYES-ASTUDILLO-2017-P377-381"
   ],
-  "full_prompt": "Use case: precise-object-edit. Edit existing #119 Choco Screech-Owl Megascops centralis v5 plate. Correct ONLY exposed TOE SKIN of both ADULTS: from current saturated pink flesh to very pale yellowish/horn ivory skin, gently gray-yellow, matching adult species guide. Keep dark/horn claw tips and all skin scale detail. Leave existing adult lower-tarsus skin/feather boundary intact; this edit must not claim new tarsal boundary. DO NOT recolour juvenile feet or change its plumage; no direct juvenile toe-colour basis for applying adult character.\nKeep absolutely every other part intact: exactly3birds, adult small lowered tufts/yellowirises/greenish bills/gray-brown pattern and near-equal sizes; center olderjuvenile supportedbytwofeet at cavitysill, graymesoptile, short formedbarredremiges, no projectingtail, ageunknownlabel; forest/naturalcavity/branches/sixfoot contacts/lighting/all title andlabels unchanged. Maintain established polished pet-concept style, no sexheight formula, flight or exact age claim, no additional elements.",
+  "full_prompt": "Use case: precise-object-edit. Edit existing #119 Choco Screech-Owl Megascops centralis v5 plate. Correct ONLY exposed TOE SKIN of both ADULTS: from current saturated pink flesh to very pale yellowish/horn ivory skin, gently gray-yellow, matching adult species guide. Keep dark/horn claw tips and all skin scale detail. Leave existing adult lower-tarsus skin/feather boundary intact; this edit must not claim new tarsal boundary. DO NOT recolour juvenile feet or change its plumage; no direct juvenile toe-colour basis for applying adult character.\nKeep absolutely every other part intact: exactly3birds, adult small lowered tufts/yellowirises/greenish bills/gray-brown pattern and near-equal sizes; center olderjuvenile supportedbytwofeet at cavitysill, graymesoptile, short formedbarredremiges, no projectingtail, ageunknownlabel; forest/naturalcavity/branches/sixfoot contacts/lighting/all title andlabels unchanged. Maintain established polished pet-concept style, no sexheight formula, flight or exact age claim, no additional elements.\n\n## Actual scope repair prompt\nUse case: precise-object-edit. Image1 is the current edited119 plate, image2 is the prior v5 for restoration only. The toe colour repair worked, but it spilled onto the ADULT bare lower-tarsus skin ABOVE the toe joint. Restore ONLY those adult exposed lower-tarsus strips above the toe joints to their exact original muted pinkish colour from image2. Retain newly very pale yellowish TOE skin in image1, all claws and exact feather/skin boundaries. Do not invent a different anatomical border. Central juvenile unchanged entirely. Every bird, pose, feather, forest/cavity/branch, support, title andlabel unchanged. This restores edit scope; it is not claiming a scientifically verified tarsal colour.",
   "research": "Accessed2026-11-27. CurrentMegascopscentralis oldOtusguatemalaecentralis/Mvermiculatuscentralis retained. Uploadedguide Mikkola2013 printed242–243/PDF244–245 freshlyread: adults baretoes verylightyellowish withhornclaws; smalltufts/virtuallyno blackfacerim/greenishyellowbill/yelloweyes, sexsizeunknown; juvenileundescribed. Actualv5imageviewed: adulttoes distinctlypink. Changeadulttoe skinonly, no transfer tojuvenilefeet and no tarsalboundaryedit. Fresh targetedresearch and actualofficial AOS https://checklist.americanornithology.org/taxa/13691 lines6–13 currentMcentralis/formerlyconspecificMguatemalae; taxonomyonly notmorphology. ExistingCHSO-AOS-13691-2026 reused, institutionAOSundatedentry/accessdateabove. PriorReyes&Astudillo2017 pp377–381 DOI10.1676/16-019.1 originalfulltext notfreshretrieved: historicalv5primaryrecordreuse only; advancedgraymesoptile/formedremiges/tail0mm two monitoredowlets/unknownhatchages/possibleparasitegrowth confound. SearchsecondarymisattributedDOI ignored; no newdevelopmentclaims. Preserve existing supported cavitysill olderjuvenile, no projectingtail, no age/firstflight/sexassertion. Adultbaretoecolourfromguide corrects olderpromptpink; observedphotoadultfeetmostlyhidden cannot independentlycalibrate. Nearequaladultsize is displaynotquantifieddirection. HumidwesternEcuadorChocólowlandforest/cavitycase, not universalnestform. Sciencefalse.",
   "research_record": "owl-pet/research/species/119-megascops-centralis-v6.md",
-  "review_record": "owl-pet/research/reviews/119-megascops-centralis-v6-review.md"
+  "review_record": "owl-pet/research/reviews/119-megascops-centralis-v6-review.md",
+  "attempt1": {
+    "path": "owl-pet/design/originals/119-megascops-centralis-v6-attempt1.png",
+    "bytes": 3154840,
+    "sha256": "07e0cc366db86d5df32c22bf4669f08c50ac7ec602c533b59d4fe774ae747e92",
+    "git_blob": "4261d5520a47b8d4b69f59715ad7424acbce88b0",
+    "size": [
+      1536,
+      1024
+    ],
+    "b64len": 4206456,
+    "wait": 31.677
+  },
+  "generation_calls": 2,
+  "edit_prompt": "Use case: precise-object-edit. Image1 is the current edited119 plate, image2 is the prior v5 for restoration only. The toe colour repair worked, but it spilled onto the ADULT bare lower-tarsus skin ABOVE the toe joint. Restore ONLY those adult exposed lower-tarsus strips above the toe joints to their exact original muted pinkish colour from image2. Retain newly very pale yellowish TOE skin in image1, all claws and exact feather/skin boundaries. Do not invent a different anatomical border. Central juvenile unchanged entirely. Every bird, pose, feather, forest/cavity/branch, support, title andlabel unchanged. This restores edit scope; it is not claiming a scientifically verified tarsal colour."
 }

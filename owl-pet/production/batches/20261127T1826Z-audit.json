@@ -1,0 +1,484 @@
+{
+  "run_id": "20261127T1826Z",
+  "timezone_user": "Asia/Shanghai",
+  "started_at": "2026-11-27T18:26:00Z",
+  "production_verified_at": "2026-11-27T18:55:18.671Z",
+  "baseline_commit": "3ed54b68df3177db002372faf61cd36875f4b405",
+  "production_head": "421d10902e2f78af1e827a5313f21d9946d2b06f",
+  "completed_this_invocation": 6,
+  "new_species": 0,
+  "revised_species": 6,
+  "counts": {
+    "versions": 1400,
+    "raw_stems": 210,
+    "unique": 207,
+    "total": 251
+  },
+  "current_batch": {
+    "batch_id": "20261127T1826Z",
+    "completed_cycles": 4,
+    "next_cycle": 5
+  },
+  "other_partial_batches": [],
+  "source_summary": {
+    "new_read_sources": 2,
+    "reused_existing_stable_ids": 11,
+    "production_id_refs": 13,
+    "production_deduplicated_document_families": 8,
+    "actually_read_external_primary_families": 5,
+    "secondary_web_families": 2,
+    "uploaded_book_families": 1,
+    "existing_citation_stable_id_corrections": 1,
+    "book_access_recovery": 1,
+    "verified_scientific_approvals": 0,
+    "new_user_confirmations": 0
+  },
+  "cycles": [
+    {
+      "target": "130-megascops-koepckeae-v16",
+      "batch_id": "20261127T1730Z",
+      "cycle": 5,
+      "archive_commit": "bca25844afc91ba345d09611de9a88d7a7768258",
+      "verified_commit": "97a0a8a347b4927e49b48b76f23fc84ac35606f5",
+      "credit_commit": "22435cff7da3942ccf4147d0f427da17840c6e91",
+      "run_record": "owl-pet/production/runs/20261127T1730Z-cycle5-20261127T1826Z-130-megascops-koepckeae-v16.json",
+      "image_metadata": {
+        "bytes": 2645308,
+        "sha256": "1c2fc983bbfb98f7984a8bd63e6763d96e9eb8d1854e88b7623a0e772d520666",
+        "gitblob": "a476b20d0135d9c737c0b03120c9fea40914b16e",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "initial_metadata": {
+        "bytes": 2767259,
+        "sha256": "c15160d178b4e947da583c495f3153ae21d482726f831b5fea30eb0266b1b572",
+        "gitblob": "a650c0584fa4c03f908a2805bba2bcb301a9bb91",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "source_ids": [
+        "KOEP-ALARCON-2023",
+        "KOEP-MIK2013-222"
+      ],
+      "result": "PASS_WITH_LIMITATIONS",
+      "scientifically_verified": false,
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T18:29:49.269Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T18:30:47.911Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T18:32:54.440Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T18:34:25.921Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T18:34:31.253Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T18:34:36.659Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T18:35:23.565Z"
+        }
+      ]
+    },
+    {
+      "target": "206-glaucidium-castanopterum-v5",
+      "batch_id": "20261127T1730Z",
+      "cycle": 6,
+      "archive_commit": "85415ee6acd95645c9478f38e79ce087c59546c5",
+      "verified_commit": "95ab86afb3eae304009057a2016f28788122e48a",
+      "credit_commit": "d08300aafbccf3496bd6f574b0969b1e3c01d94e",
+      "run_record": "owl-pet/production/runs/20261127T1730Z-cycle6-20261127T1826Z-206-glaucidium-castanopterum-v5.json",
+      "image_metadata": {
+        "bytes": 2567026,
+        "sha256": "69e1dde9ebe1d62fc722b6c0ee6880a00aaf75847a1d5f8977cb588f81d794a2",
+        "gitblob": "f230eb8f7ce0cf1e019004ba9d9f9609e17c08a6",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "initial_metadata": null,
+      "source_ids": [
+        "GCAS-MIKKOLA-2013-P407",
+        "GCAS-OWLPAGES-2020",
+        "GCAS-VERONESI-2016-29030338883"
+      ],
+      "result": "PASS_WITH_LIMITATIONS",
+      "scientifically_verified": false,
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T18:38:27.333Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T18:39:05.000Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T18:40:30.781Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T18:40:36.083Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T18:40:41.222Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T18:41:04.550Z"
+        }
+      ]
+    },
+    {
+      "target": "170-glaucidium-sanchezi-v8",
+      "batch_id": "20261127T1826Z",
+      "cycle": 1,
+      "archive_commit": "f9647105af09dad34eec852089af70831c6d73fe",
+      "verified_commit": "f253ee5df4460088b3253b9d871da49b4d749199",
+      "credit_commit": "b81f436fa5ba584ffd652a59f92c449a417be3e9",
+      "run_record": "owl-pet/production/runs/20261127T1826Z-cycle1-20261127T1826Z-170-glaucidium-sanchezi-v8.json",
+      "image_metadata": {
+        "bytes": 2521432,
+        "sha256": "8a1c61b31d870dd1c9622a2dec5c213541579f749b46b937013e36014f6fa12a",
+        "gitblob": "3f774a0f60b80b444156f112f42cc7871a7c0c10",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "initial_metadata": {
+        "bytes": 2562565,
+        "sha256": "a2e5b22ffee3935f8959ade352d3ec944ccf4327733316065d159307487d0e81",
+        "gitblob": "56e2ca5e14f07f842addd4f13905eae7d6850a4b",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "source_ids": [
+        "MIKKOLA-2013",
+        "TPO-PUENTE-ETAL-2024-P63-65-F2"
+      ],
+      "result": "PASS_WITH_LIMITATIONS",
+      "scientifically_verified": false,
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T18:41:59.840Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T18:42:38.684Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T18:43:53.216Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T18:45:04.666Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T18:45:12.168Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T18:45:17.434Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T18:45:41.457Z"
+        }
+      ]
+    },
+    {
+      "target": "171-glaucidium-palmarum-v8",
+      "batch_id": "20261127T1826Z",
+      "cycle": 2,
+      "archive_commit": "d1e1a3413c79e5d635905dbf62b2062c37eade2a",
+      "verified_commit": "d79d8ce337e2f3d631f4b9c0fa1757c5419935a5",
+      "credit_commit": "4398cb0e488044992a90ced0f6c73f1d03eca24d",
+      "run_record": "owl-pet/production/runs/20261127T1826Z-cycle2-20261127T1826Z-171-glaucidium-palmarum-v8.json",
+      "image_metadata": {
+        "bytes": 2495649,
+        "sha256": "a00df2ccf5d308d1db5a5567ad520caea277930f727d46750a2925395081ac26",
+        "gitblob": "8aba5d91e9346dd6a3db9f9c1c6afc0c430c42df",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "initial_metadata": null,
+      "source_ids": [
+        "CPO-MIKKOLA-2013-P385-386",
+        "CPO-OWLPAGES-2020-1970"
+      ],
+      "result": "PASS_WITH_LIMITATIONS",
+      "scientifically_verified": false,
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T18:45:52.755Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T18:46:37.231Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T18:47:48.408Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T18:47:55.352Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T18:48:00.330Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T18:48:16.575Z"
+        }
+      ]
+    },
+    {
+      "target": "195-otus-brookii-v7",
+      "batch_id": "20261127T1826Z",
+      "cycle": 3,
+      "archive_commit": "c97d5a4b15d080ea69bee6ea13123b4821a12927",
+      "verified_commit": "48f15b50a88cadd8cb514dc34d2b943e90593a7c",
+      "credit_commit": "a1f667a450ac89071a2d339b9b00c712762ae299",
+      "run_record": "owl-pet/production/runs/20261127T1826Z-cycle3-20261127T1826Z-195-otus-brookii-v7.json",
+      "image_metadata": {
+        "bytes": 2589549,
+        "sha256": "e6a9694f7af59ab8dc60ed6d7ae68e740d6192fe4d8ae3676c3e7ebc7a06108f",
+        "gitblob": "bfc1b9f1a86805bb80b89325196deca93e606ee8",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "initial_metadata": null,
+      "source_ids": [
+        "RAJ-MIK2013-P168",
+        "RAJ-GOODDIE-2015-P70-81"
+      ],
+      "result": "PASS_WITH_LIMITATIONS",
+      "scientifically_verified": false,
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T18:48:31.800Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T18:49:03.889Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T18:50:37.129Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T18:50:42.978Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T18:50:48.467Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T18:51:03.741Z"
+        }
+      ]
+    },
+    {
+      "target": "201-otus-mantananensis-v11",
+      "batch_id": "20261127T1826Z",
+      "cycle": 4,
+      "archive_commit": "48198ebaf9a25e82409f5ed2f600959a191efa3a",
+      "verified_commit": "ac48cb4a6544af37c35e0c3052b659b46c0e2c5e",
+      "credit_commit": "421d10902e2f78af1e827a5313f21d9946d2b06f",
+      "run_record": "owl-pet/production/runs/20261127T1826Z-cycle4-20261127T1826Z-201-otus-mantananensis-v11.json",
+      "image_metadata": {
+        "bytes": 2457939,
+        "sha256": "57a753f778b1d2bd44c6d5d90c16320ecccf554e1693ae4765712c9ee9bfdc0f",
+        "gitblob": "5f2152ba724e0c316a6f6d5709c6ffdd39cf5b6e",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "initial_metadata": null,
+      "source_ids": [
+        "MANT-MIKKOLA-2013-P199-200-MIRROR",
+        "MANT-VANGIERSBERGEN-2023-PAVA338828"
+      ],
+      "result": "PASS_WITH_LIMITATIONS",
+      "scientifically_verified": false,
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T18:52:34.725Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T18:53:31.435Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T18:54:52.193Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T18:54:57.409Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T18:55:02.443Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T18:55:18.689Z"
+        }
+      ]
+    }
+  ],
+  "timings": [
+    {
+      "target": "130-megascops-koepckeae-v16",
+      "started_at": "2026-11-27T18:29:49.251Z",
+      "ended_at": "2026-11-27T18:35:23.542Z",
+      "research_selected_start_to_ready_seconds": 58.642,
+      "imagegen_reported_wait_seconds": 56.311,
+      "editing_reported_wait_seconds": 46.691,
+      "review_to_archive_seconds": 5.406,
+      "archive_to_verified_seconds": 46.906,
+      "selected_total_seconds": 334.291
+    },
+    {
+      "target": "206-glaucidium-castanopterum-v5",
+      "started_at": "2026-11-27T18:38:27.319Z",
+      "ended_at": "2026-11-27T18:41:04.518Z",
+      "research_selected_start_to_ready_seconds": 37.667,
+      "imagegen_reported_wait_seconds": 43.228,
+      "editing_reported_wait_seconds": 0,
+      "review_to_archive_seconds": 5.139,
+      "archive_to_verified_seconds": 23.328,
+      "selected_total_seconds": 157.199
+    },
+    {
+      "target": "170-glaucidium-sanchezi-v8",
+      "started_at": "2026-11-27T18:41:59.828Z",
+      "ended_at": "2026-11-27T18:45:41.431Z",
+      "research_selected_start_to_ready_seconds": 38.844,
+      "imagegen_reported_wait_seconds": 41.205,
+      "editing_reported_wait_seconds": 33.014,
+      "review_to_archive_seconds": 5.266,
+      "archive_to_verified_seconds": 24.023,
+      "selected_total_seconds": 221.603
+    },
+    {
+      "target": "171-glaucidium-palmarum-v8",
+      "started_at": "2026-11-27T18:45:52.734Z",
+      "ended_at": "2026-11-27T18:48:16.552Z",
+      "research_selected_start_to_ready_seconds": 44.476,
+      "imagegen_reported_wait_seconds": 37.205,
+      "editing_reported_wait_seconds": 0,
+      "review_to_archive_seconds": 4.978,
+      "archive_to_verified_seconds": 16.245,
+      "selected_total_seconds": 143.818
+    },
+    {
+      "target": "195-otus-brookii-v7",
+      "started_at": "2026-11-27T18:48:31.788Z",
+      "ended_at": "2026-11-27T18:51:03.723Z",
+      "research_selected_start_to_ready_seconds": 32.089,
+      "imagegen_reported_wait_seconds": 47.646,
+      "editing_reported_wait_seconds": 0,
+      "review_to_archive_seconds": 5.489,
+      "archive_to_verified_seconds": 15.274,
+      "selected_total_seconds": 151.935
+    },
+    {
+      "target": "201-otus-mantananensis-v11",
+      "started_at": "2026-11-27T18:52:34.706Z",
+      "ended_at": "2026-11-27T18:55:18.671Z",
+      "research_selected_start_to_ready_seconds": 56.71,
+      "imagegen_reported_wait_seconds": 40.438,
+      "editing_reported_wait_seconds": 0,
+      "review_to_archive_seconds": 5.034,
+      "archive_to_verified_seconds": 16.246,
+      "selected_total_seconds": 163.965
+    }
+  ],
+  "imagegen_calls": 8,
+  "observed_tool_wall_seconds": [
+    48.6,
+    36.7,
+    43.2,
+    41.2,
+    33,
+    37.2,
+    47.6,
+    40.4
+  ],
+  "timing_limits": "Tool wall observed separate from run's orchestration-inclusive imagegen_wait; no pureGPU/servicequeue telemetry. Research selectedSTARTED→READY excludes some preselection discovery/bookretrieval. Phase intervals include toolcalls/review/orchestration, not pureCPU. No platform timeout telemetry/no fixedlimit claim.",
+  "errors": [
+    {
+      "step": "130 external PDF webopen",
+      "error": "400 size cap",
+      "recovery": "cached35MBoriginal actualread + primaryphoto viewed"
+    },
+    {
+      "step": "170 originalPDF local GET",
+      "error": "502",
+      "recovery": "originalwebbody actualread; no localphotocalibrationclaim"
+    },
+    {
+      "step": "171 oldSORA fulltext",
+      "error": "redirectportal; USFdownload403",
+      "recovery": "sourcefactfromactualuploadedguide/OwlPages; unreadpaperexcluded"
+    },
+    {
+      "step": "174 originalimage retrieval",
+      "error": "406 page/author/API",
+      "recovery": "DEFERRED, noimage/no cyclecredit; no inventedadultfootdefect"
+    },
+    {
+      "step": "170 firstimage",
+      "error": "versionv7persisted",
+      "recovery": "secondimagegeneditv8actualviewed"
+    }
+  ],
+  "old25_recovery": {
+    "remote_original_and_concept_blob": "10508841ef5f6184e8658664615302909765c1dd",
+    "bytes": 2864437,
+    "local_found": false,
+    "fd9d70d": "GitHubconnector422NoCommitFound, notconnectionfailure",
+    "action": "alreadyarchived, no redraw"
+  },
+  "scope": "All work owl-pet only. No externalAPIdeployment/schedule/otherautomation changes."
+}

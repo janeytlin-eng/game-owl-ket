@@ -16,6 +16,10 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-27T02:42:55.156Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T02:44:17.260Z"
     }
   ],
   "errors": [],
@@ -23,7 +27,7 @@
   "unique_species_increment": 0,
   "revision_increment": 1,
   "run_record": "owl-pet/production/runs/20261127T0125Z-B2-cycle6-resume0231Z-108-otus-rutilus-v7.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "source_new": 0,
   "source_reuse": 2,
   "source_ids": [
@@ -33,5 +37,18 @@
   "full_prompt": "Use case: precise-object-edit. Edit #108 Otus rutilus v6 plate, central juvenile DOWN MATERIAL ONLY. Replace extremely long bright tan curly wool-like hair strands covering the juvenile body with dense soft brown down rendered as diffuse gray-brown tonal mottling and very short OPEN wispy feather tips. Keep a few loose irregular down tips around the outer silhouette and retain the naturally ragged pale brow/crown wisps. Across chest and belly, the soft continuous down interior must dominate rather than individually outlined hair locks. No closed loops or repetitive coiled rings. Do not erase the compact formed folded wings or alter bodyshape, head mask, yellow-brown iris, pink lower eyelid, darkbill, twofeet or supportedperch. Tail stays concealed. Keep adults and exact yelloweyes/graybrown bills/smalltufts/rufousbrownpattern/featheredtarsi/graytoes/darkclaws, near-equalheight, environmentforest/branch and all lettering unchanged including \"JUVENILE — AGE UNKNOWN\" and \"PERCH ONLY · FLIGHT UNVERIFIED\". Exactly3 birds/sixfeet withsupport. No newborn, developed wing fan, flight or exactage assertion. Same polished naturalhistory pet-concept style.\nInput1 is existing108v6 EDIT TARGET; Input2 is recovered FrankVassen2013photo as feather MATERIAL reference only, not scene/composition tocopy. Match its dense short granularbrownfeather/down and fine diffuse transverse mottling rather than longringlets; preserve all other statedinvariants.",
   "research": "Accessed2026-11-27. Fresh targetedwebsearch and originalCommons/Flickrpages actuallyread: https://commons.wikimedia.org/wiki/File:Juvenile_Madagascar_Scops_Owl_(Otus_rutilus),_Andasibe,_Madagascar.jpg lines113–128, FrankVassen4Dec2013 Andasibe, sourceFlickr12038858063, CC BY2.0 https://creativecommons.org/licenses/by/2.0 ; Flickr https://www.flickr.com/photos/42244964@N03/12038858063/ caption37–56/datealsoactualread. Existing RUT-VASSEN-2013-ANDASIBE-JUV reused. Importantaccesslimit: localCommonsHTML/thumbnail and toolFlickrimage returned403, no newphotopixelreading claimed. Historicalv5 originalphotoreview supports loosebrowndown/darkmask/palecrownwisps/yellowbrowniris/pinklowereyelid/darkbill/concealedtail/branchsupport; reusedexistingrecord, not a newhatchage/flight claim. Uploaded Mikkola2013 printed143/PDF145 freshlyread (sameindexed143–144range): adultyelloweyes/graybrownbill/featheredtarsitobasegraybrowntoes/darkclaws, humid-easternforest/morphvariation, femalemeanmass+18g notdisplayheightratio; juvenileunknown, no juveniletraitinventedfromguide. CurrentOtusrutilus oldScopsrutilus/nominatecombination, easternhumidscope not westernO.madagascariensis. Actualv6fullplateviewed longcurledwirewoollyjuveniletexture. Designcorrectiononlymaterial, keepallexisting juvenileanatomy/colours/compactwing/hidden-tail/support andexplicitflightunknownlabel, no newbiologicaldetail. Because freshphotoassetunavailable, don'tuseindependentphoto-derivedstudy, bounded editonly; actualreview determinespass/needsrevision. Sciencefalse.\nAccess recovery BEFORE GENERATION: while initialCommons/thumbnail/Flickrimageclick403, asyncFlickrHTML og:image route completed successfully with https://live.staticflickr.com/7433/12038858063_28f733e0ab_b.jpg (217558bytes). This fetched image was now ACTUALLY VIEWED at1023×747. Shows dense shortfinebrown down with veryfinehorizontalmottling, darkmask/yellowbrowniris/pinklowereyelid/darkbill, palefuzzycrownrim and securebothfeet on tree. No longwovenhair locks. Exactage/sex/flightremainunknown; do not claimsourceunavailable now. Earlier access-limit text is retained as chronologicalinitialstate, superseded by this actual recovery. No newsourceID/newpublication; samephoto access recovered. CC BY2.0 FrankVassen2013 attribution retained; study uses appearance reference, sourcephoto notcopiedintorepo.",
   "research_record": "owl-pet/research/species/108-otus-rutilus-v7.md",
-  "review_record": "owl-pet/research/reviews/108-otus-rutilus-v7-review.md"
+  "review_record": "owl-pet/research/reviews/108-otus-rutilus-v7-review.md",
+  "image_meta": {
+    "bytes": 2823313,
+    "sha256": "784f9e557437a991ba931e08f7939132131ad137115cf1249afa8e5c0543e63d",
+    "git_blob": "c04db907bf794dc9f622ab8b7df05f2028180d2b",
+    "size": [
+      1536,
+      1024
+    ],
+    "b64len": 3764420
+  },
+  "generation_wait_seconds": 37.198,
+  "generation_calls": 1,
+  "status": "PASS_WITH_LIMITATIONS"
 }

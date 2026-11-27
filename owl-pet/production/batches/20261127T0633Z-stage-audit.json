@@ -1,0 +1,412 @@
+{
+  "run_id": "20261127T0633Z",
+  "completed_cycles": 6,
+  "recovered_cycles": 1,
+  "actual_new_imagegen_calls": 5,
+  "new_species": 0,
+  "revised_species": 6,
+  "unique_species": 207,
+  "total_species": 251,
+  "source_new": 0,
+  "source_reused_id_citations": 16,
+  "source_access_locator_upgrades": 2,
+  "new_science_pass": 0,
+  "new_user_confirmations": 0,
+  "rows": [
+    {
+      "run_id": "20261127T0532Z",
+      "batch_id": "20261127T0532Z-B2",
+      "cycle": 1,
+      "target": "135-otus-silvicola-v9",
+      "started_at": "2026-11-27T05:55:03.848404+00:00",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T05:55:04.472442+00:00"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T05:55:24.162417+00:00"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T05:56:08.916515+00:00"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T05:57:28.469473+00:00"
+        },
+        {
+          "stage": "RESUMED",
+          "at": "2026-11-27T06:34:47.886308+00:00"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T06:35:33.632471+00:00"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T06:35:48.504801+00:00"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T06:37:20.602922+00:00"
+        }
+      ],
+      "scientifically_verified": false,
+      "stage": "VERIFIED",
+      "research": "Access2026-11-27. Actual135v8plate/research/reviewread, oldertransitionalimmatureformedwings/tail mustnotbecomegenericdownychick. Activeexternaliris/developmentsearch; freshoriginalG.F.Mees2006 TheavifaunaofFlores ZoolMedLeiden80-3:1–261 species113–115 https://repository.naturalis.nl/pub/209697/ZM80-03_001-262.pdf actualwebprinted114/PDF114lines4155–4190read: typespecimenfullyfeatheredintermediate/subadultwithfinebars/fewadultstreaks, uncertainsex; sexwingdifferencefromfewspecimensnotstandingheightformula. ReuseWSC-MEES-2006. UploadedMikkola2013printed183/PDF185actualtextread adultsDULLORANGE-YELLOWiris/grayhornbill, whitishbrowsNOTextendingear-tufts, heavilyfeatheredtoesbasalphalanges/palegraybrowndistaltoes; nosexsize data. Existingv8adultirisesbrightyellow, boundedmutedamberorange-yellowcorrectiononly, notjuvenileiris. Sourceagephotometrynotmeasured; noassertalladultssameexactshade. OldScopssilvicola→Otussilvicola, no251change. Guidefineplumageunchanged, exactimmatureiris/bill/age/flight/nestunknown. ReuseWSC-MIK2013-183 andWSC-MEES-2006, new0. MeesPDFlocaldownloadresultrecorded separately iffailed; actualwebspeciesparagraphread sufficientforstageboundary. Nohighfemaleheightmultiplier invented.",
+      "full_prompt": "Use case text-localization / precise-object-edit. Attached #135 Wallace's Scops-Owl Otus silvicola v8 plate. Keep all three birds, every iris/bill/plumage/wing/tail/featheredtoe/baretoe/claw/sexdisplay/pose/support/foreststream EXACTLY as supplied. Do NOT recolor adult irises: original museum specimen record says sulphur-yellow whereas photographic guide says dull orange-yellow; the range is unresolved. This is evidence annotation only. Add small legible text within bottom free margin just above existing pending footer: 'ADULT IRIS RANGE: SOURCE CONFLICT'. Keep existing 'CONCEPT • SCIENTIFIC CALIBRATION PENDING', rolelabels and ageunknownstage. Change title v8 to v9. No new biological redraw or scientificapprovalbadge. Samewarmnaturalisticstyle, no bird cropping.",
+      "source_ids": [
+        "WSC-MEES-2006",
+        "WSC-MIK2013-183"
+      ],
+      "new_sources": 0,
+      "cancelled_prompt": "Use case precise-object-edit. Edit attached #135 Wallace's Scops-Owl Otus silvicola v8 family plate. Change ONLY BOTH ADULT IRIS RINGS from bright lemon-yellow to MUTED DULL ORANGE-YELLOW / soft amber-ochre. Keep round black pupils and white highlights, do not darken eyes to brown or make saturated red/orange. Do NOT recolour center transitional immature eyes (unverified development). Preserve the entirethreebirdidentity, long adulttufts/no white inner edge, whitishbrowsnot extendingtufts, grayhornbills, allplumage/near-equaladultdisplay/formedwingsofimmature/footfeathers/distaltoes/darkclaws/branchgrips/foreststream/background/title/labels/pendingfooter. Update small title version8 to version9 only. Sixnaturallysupportedfeet, noflying/nest/hatchlingornewageclaim. Samewarmnaturalisticpetstyle.",
+      "source_correction": "FreshprimaryMees2006printed113materialnoteIRISSULPHURYELLOW conflictsguide183DULLORANGEYELLOW. Noexclusiveorange correction justified. Planned recolor CANCELLED before actualimagegen; annotationonlyinstead. Exactindividualage/sexofbarepartsnoteinsufficientforchronology. FreshlocalPDF113/114actuallyread.",
+      "corrections": 1,
+      "annotation_only": true,
+      "image_meta": {
+        "bytes": 2565030,
+        "sha256": "8b5fb64644ea590add6e50c80f5f83f4294c025ab5b8a933caaf8ccb89345902",
+        "git_blob": "46374108a02c9e1a1caba746fbb50e6436f62754",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "generation_wait_seconds": 33.788,
+      "resumed_by": "20261127T0633Z",
+      "recovery": "PrioruserreadonlyreportinterruptedbeforeREVIEWED; leaseexpired06:12UTC, mainunchanged0967d44. Reuseoriginalremoteandprompt, no regeneration/recreditfourpriorcycles.",
+      "reason": "expiredlease; resumeIMAGE_GENERATED, notregenerate",
+      "review": "Recovery2026-11-27 0633Z: actual135v9fullPNGviewedagain andcomparedv8actualprior. ADULT IRIS RANGE: SOURCE CONFLICT andpendingfooter/v9readable. Physicaleyesnotforciblyorange; 3birds/6supportedfeet/formedtransitionalwing-tail/tuft/toefeathers/forest/ageunknownlabelretained. NewfreshwebMees2006p113 confirms sulphuryellownote; guide183actualreopened darkorangeyellow, disagreementretainednotresolved. Annotationonlynotnewmorphologycalibration. Exactirisrange/individualyoungage/flight/nestunknown. Reusepersistedactualimagegen/prompt33.788s from0532Z, no repeatedgeneration. PriorreportinterruptedbeforeREVIEWED, expiredleasecheckedmainnoadvance0967d44. Newsciencepass0.",
+      "status": "PASS_WITH_LIMITATIONS",
+      "recovery_completed_in": "20261127T0633Z",
+      "archive_commit": "165ad65d29fef2f0c1a4c00e08c7ed95f93c61ca",
+      "verify_exit0": true,
+      "verified_at": "2026-11-27T06:37:20.337Z",
+      "verification_commit": "36a59331f07696fd4d51f06581f02465a7ba4014",
+      "run_record": "owl-pet/production/runs/20261127T0532Z-B2-cycle1-resume0532Z-135-otus-silvicola-v9.json",
+      "credit_commit": "bb1c02e9a11b587097b77431dc85f6b50540232b"
+    },
+    {
+      "run_id": "20261127T0633Z",
+      "batch_id": "20261127T0532Z-B2",
+      "cycle": 2,
+      "target": "110-megascops-barbarus-v13",
+      "started_at": "2026-11-27T06:37:48.915377+00:00",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T06:37:49.509353+00:00"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T06:38:36.003245+00:00"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T06:40:04.580806+00:00"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T06:40:18.009130+00:00"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T06:40:31.940579+00:00"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T06:41:33.547974+00:00"
+        }
+      ],
+      "scientifically_verified": false,
+      "stage": "VERIFIED",
+      "research": "Access2026-11-27. Latestmainprior110v12full/review/lessons read: lowdetailmattevolume reducedclosedloops butairbrushedyoungface/barring. Freshexternal juvenile/brownmorphsearch and actualoriginalCAYAYAfieldaccount https://cayaya-birding.com/species/Bearded-Screech-Owl.htm HTML26–34/46reopened; authorsKnutEisermann/ClaudiaAvendano undated,access2026-11-27. Actualjuvenile7photo pixelsreopenedlocal biologicalreference graybrownshortdensefeathers/diffusecrossbars/palecenter/yellowiris/graygreenbill/narrowbrows/notufts/branchgrip; age/sex/flightunknown. ExistingBSO-CAYAYA-2026-FIELD-ACCOUNT reused notnewsource. MIKKOLA-2013 printed214/PDF216 historicalactualreadreuse youngmesoptile/narrowbrows/tuftsabsent, adultfemaleavg+9gnotheightformula, adultvariabletuftfieldphotossupersedeshorttuftgeneralization. OldScops/Otus→Megascopsbarbarus. Problemnewv12toolowdetail: experimentrestoreonlysparseSHORTirregularfeatheredgeaccentsaboveblurredmass, notlongcoils oradultfeatherpanels, exactdensitydesigninference notbiology. Retainageunknownsupportandgenericpineoaknotoccupiednest. New0/reuse2ID. Actualphoto-specific texturetarget notguaranteedgeneralfix; comparefull/cropafterrender.",
+      "full_prompt": "Use case precise-object-edit. Image1 is target #110 Bearded Screech-Owl family plate v12, image2 is real juvenile biological reference only. Improve ONLY central juvenile feather material: currentv12 is excessively airbrushed. Keep its lowcontrast graybrown soft tonal volume and diffuse horizontal mesoptile bars/pale lowercenter, but restore a SPARSE layer of tiny short broken irregular feather-edge accents, especially head and upperbreast, comparable to reference's short dense avian surface. Detail is short fine flecks and tiny straight/bristly barbs, never outlinedU-shaped loops/long curls or repeated scallops. Lowerbelly stays diffuse with only very faint shortflecks, no hardcontourunits. Keep entire younghead/shape/yelloweyes/graygreenbill/narrowbrows/notufts/compactconcealedwing/hidden tail/twofeetbranchsupport; sameunknownage. Preserve both adults completely, all6feet/branch/forest/title/rolelabels/warmnaturalisticpetstyle. Do not copy photographwatermark/background; do not apply adult feather panels or pinkadultfeet toyoung. Do not soften or change adult plumage.",
+      "source_ids": [
+        "BSO-CAYAYA-2026-FIELD-ACCOUNT",
+        "MIKKOLA-2013"
+      ],
+      "new_sources": 0,
+      "image_meta": {
+        "bytes": 2645734,
+        "sha256": "f3be331afd8423bed0f06432be1b0ee27884815bd4e193e27bab2e783b35d58a",
+        "git_blob": "24e46283655210287af840eadb826fad74d77ec6",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "generation_wait_seconds": 39.468,
+      "status": "NEEDS_REVISION",
+      "review": "Actualinput/reference/outputfullviewed. Shortfeatheraccentrestorationaddsdetailtopreviousblur butreintroducesrepeatedscalloped/closedUunitsonhead-upperbodyandfaintlowerbelly. ThisdoesNOTmatchactualphotodenseshortirregularbarbtexture; no validatedbalancedmaterialsolution. Lowerbellystilldiffuse/airbrushed. NEEDS_REVISION material; geometry/yellowiris/graygreenbill/narrowbrows/notufts/compactwing/hidden tail/2feet-supportretained. Bothadultmarkings/pinkfeet/yelloweyes/greenbills/3birds6feet/titlelabels/forestpreserved. Age/flight/sexunknown. Preservev12matteandv13faileddetailattempt, comparebeforecallingimprovement. Repeatedsparse-fiberpromptbringsloopbiasback; cannotclaimuniversalfix orapplyunverifiedsuccesstoothers.",
+      "archive_commit": "fec655f65ef3dc40724abefbd2bab0a695fa31c2",
+      "verify_exit0": true,
+      "verified_at": "2026-11-27T06:41:33.305Z",
+      "verification_commit": "d13d4532918f274d3a25cd01796b2c67a442affc",
+      "run_record": "owl-pet/production/runs/20261127T0532Z-B2-cycle2-resume0633Z-110-megascops-barbarus-v13.json",
+      "credit_commit": "93701a47841c66a0b2d7b26af9bfd44d8a82302d"
+    },
+    {
+      "run_id": "20261127T0633Z",
+      "batch_id": "20261127T0532Z-B2",
+      "cycle": 3,
+      "target": "133-megascops-atricapilla-v8",
+      "started_at": "2026-11-27T06:42:02.181850+00:00",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T06:42:02.772885+00:00"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T06:42:16.247759+00:00"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T06:43:36.774050+00:00"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T06:43:50.106190+00:00"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T06:44:04.205664+00:00"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T06:44:48.242696+00:00"
+        }
+      ],
+      "scientifically_verified": false,
+      "stage": "VERIFIED",
+      "research": "Access2026-11-27. Actual133v7full/reviewread, adultnewfinevermiculationsaretoooutlined/graphicallycontrasty, noyoungchangejustified. FreshoriginalspeciespageDeaneLewis2020-10-24 Black-cappedScreechOwl https://www.owlpages.com/owls/species.php?s=1030 actualDescription67–75read: finevermiculationsbetweenbranchedshafts, dirtywhitishlowerground, variablemorph/irises, brown-fleshgraytoes/darkclaws. Existing BCSO-OWLPAGES-2020 sameguidebasedsynthesisnotindependentprimaryreplication. FreshpublisherDantasetal2021 DOI10.11646/zootaxa.4949.3.1 Zootaxa4949:401–444 abstractread https://mapress.com/zt/article/view/zootaxa.4949.3.1 polymorphism/morphometricnondiagnostic supportsnotsolemorphologyID; nojuvenilegrowthseries. ReuseBCSO-DANTAS-2021. Mikkola2013printed238/PDF240 historicalreuse confirmsfineadultvermiculations/noprecisecontrastspecification. HistoricalBCSO-WIKIAVES-WA2019052 photo-boundedyoungyellowiris/formedwingretainednotnewpixelsclaimed. OldStrix/Otusatricapillus→Megascopsatricapilla. Reducefinemarkcontrastonly, exact20percentvisualinstructiondesignnotmeasuredbiology. Noerasureoflegitimateboldshafts, nojuvenilepatterntransfer/noheightformula. Age/flightunknown, sciencefalse, new0/reuse3IDs plusbook.",
+      "full_prompt": "Use case precise-object-edit. Attached #133 Black-capped Screech-Owl plate v7. Change ONLY the fine tiny worm-like vermiculation marks BETWEEN THE BOLD SHAFT STREAKS on BOTH ADULT lowerbreast/belly: currentfinepatternlooks like hard black pen contours. Soften and lighten ONLY those tiny interior lines to a subtle low-contrast muted gray-brown dusting, roughly one-fifth of current contrast; integrate organically into soft feather texture. Keep irregular finevermiculations present, do noteraseallmarking ormakeplainbelly. Preserve boldblackbranchedshaftstreaks exactly atoriginalstrength and dirty-whitish/buffground. Do NOT edit centraljuvenileoranyeyes/bills/tufts/wing/tail/toes/claws/branchgrips/labels/title/forest. Exactly3birds6supportedfeet, warmnaturalisticpetstyle. This is subtle adultmarkingrenderingcalibration, nonewsex/age/flight/nest.",
+      "source_ids": [
+        "BCSO-OWLPAGES-2020",
+        "BCSO-DANTAS-2021",
+        "BCSO-WIKIAVES-WA2019052"
+      ],
+      "new_sources": 0,
+      "image_meta": {
+        "bytes": 2545319,
+        "sha256": "56bc3adc6814cc28f8b19b23c42c4775ba4df60acc6b363f46ef2b0316b561e5",
+        "git_blob": "1fcf4ae9f1bad627e4143bc82d92c34d6e5a0a41",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "generation_wait_seconds": 35.521,
+      "status": "PASS_WITH_LIMITATIONS",
+      "review": "Actualinput/outputfullviewed. Adultfinevermiculationsnowlighter/moregraybrown, boldblackshaftbranchesretained. Reductionvisibleespeciallyinter-shaftareas, somefinepencillikeoutlinesstillpresent/qualitativeonly, notexactphotometriccalibration. Centralyoungyellowiris/smalltufts/mixedbars/formedwing-tail/feetunchangedoverall; adultsdarkcaps/browneyes/greenbills/graybaretoes/darkclaws/near-equaldisplay retained. Threebirds/sixgrips/titlelabels/forestpreserved. PASS_WITH_LIMITATIONS localcontrastonly, exactmarkgeometry/youngchronology/flight/sexratio unresolved. Do noteraseallfinepattern in future; source says finevermiculated, notplainbelly.",
+      "archive_commit": "d59b67e8357b62ea936df6c854f6477d0ba8d9d9",
+      "verify_exit0": true,
+      "verified_at": "2026-11-27T06:44:48.001Z",
+      "verification_commit": "f76ec84fcd68be3d833f89cdb7b5f2da85df6e98",
+      "run_record": "owl-pet/production/runs/20261127T0532Z-B2-cycle3-resume0633Z-133-megascops-atricapilla-v8.json",
+      "credit_commit": "4e3f8310e10ac23da369dd33e1f0f11fc52e8f08"
+    },
+    {
+      "run_id": "20261127T0633Z",
+      "batch_id": "20261127T0532Z-B2",
+      "cycle": 4,
+      "target": "134-megascops-sanctaecatarinae-v8",
+      "started_at": "2026-11-27T06:45:15.469709+00:00",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T06:45:16.050209+00:00"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T06:45:48.279278+00:00"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T06:47:09.469493+00:00"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T06:47:23.221749+00:00"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T06:47:37.136473+00:00"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T06:48:35.519204+00:00"
+        }
+      ],
+      "scientifically_verified": false,
+      "stage": "VERIFIED",
+      "research": "Access2026-11-27. Actual134v7full/research/reviewread; fixedadulttoe-baseboundarymustpreserve. Youngbodyhaslongrepeatedclosedloopfibersunlikeindividualsource. FreshWikiAves1527488metadata403; originalphoto URL https://s3.amazonaws.com/media.wikiaves.com.br/images/7251/1527488g_03f2f513780890f16deffebbc0e3b935.jpg recoveredthiscycleandactualpixelsviewed. ExistingLTSC-KACHIMARECK-2014-WA1527488 JoseKachimareck taken8Oct2014CuritibaPR/published25Nov2014 ageFilhote/sexunknown fromhistoricalmetadata, notnewlyreadmetadata. Shortdensegrayhead/chestwithfinebrownbars/darkface/darkappearingeye/mutedgreenhornbill; referenceupperbodyonly, feet/tail/lowerwinghidden. Noexactage/flightinference, no copiedpreyinsect. FreshMenq2018description21–29bodyread https://avesderapinabrasil.com/megascops_sanctaecatarinae.htm supportsadulttoe-baseboundary/variableiris/overlapmass/cavityforestcontextonly, notjuvenileage. ReuseLTSC-MENQ-BICHINSKI-2018, LTSC-PAGANO-2021 historicalonly(nofresh403paperclaim). Genericcavitynotexactimprovisednest, oldScops/Otus→Megascopssanctaecatarinae. Materialeditreduceindividualfibercontrast/shortdiffusefeatherareas asdesignexperiment, notsmoothplastic/agechange; learn110v13returnedloops soavoidaddingexplicitindividualoutlinedbarbs. New0/reuse3IDs,pixelaccessrecovery1.",
+      "full_prompt": "Use case precise-object-edit. Image1 target #134 Long-tufted Screech-Owl plate, image2 real species juvenile reference BIOLOGICAL MATERIAL ONLY. Edit ONLY CENTRAL YOUNG'S HEAD/BREAST FEATHER SURFACE: replace current repeated golden outlined U-loops/woolcurls with SHORT DENSE FINE GRAY-BROWN feathering as in reference, much lower contrast at individualfiber level, diffuse very fine transverse brownishbars, softcompacthead. Use soft irregular feather-tone patches without drawing separate contour units. Preserve roundedhead/size/darkeye/openmutedgreenhornbill/existingpose/upperbodyhiddenbehindcavitylip, no longtufts, do not invent hiddenfeet/wings/tail/prey. Keep some natural fine surface texture, notplasticsmooth. Adults entirelyunchanged including corrected BARE gray-brown adult toe shafts atanklefeatherbases/darkclaws/variableiris/bodypatterns/supports. Alltitle/labels/forest/cavity/lightingandwarmnaturalisticstylepreserved. Noexactage/flightclaim, label YOUNG AT CAVITY — AGE UNKNOWN retained. Do notcopy referencewatermark/background or insect.",
+      "source_ids": [
+        "LTSC-KACHIMARECK-2014-WA1527488",
+        "LTSC-MENQ-BICHINSKI-2018",
+        "LTSC-PAGANO-2021"
+      ],
+      "new_sources": 0,
+      "image_meta": {
+        "bytes": 2788094,
+        "sha256": "f6a6328e8d7cb509c52a22f983aa3387e0fce6a5ef2e4dc4cedb0c9af50e6980",
+        "git_blob": "ddb5da5ccc369060b5be066b29afd6b68f061b0f",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "generation_wait_seconds": 37.645,
+      "status": "NEEDS_REVISION",
+      "review": "Actualtarget/reference/outputfullviewed: centralfeatherfieldsremainrepeatedshortcurved/closedU-wisps, stillmoregoldenandoutlinedthanactualphoto'sdensegrayirregularsurface. No convincingmaterialcorrection; NEEDS_REVISION. Somecontoursshorterbutnotprimaryreferencefidelitypass. Preserveactualphotoaccessandfailedattemptwithoutclaimingfix. Darkeye/openmutedgreenbill/roundedhead/upperbodybehindlip/noinventedhiddenfeetwingtail andadultnewbaregraytoes/darkclaws/variableiris/alllabels/forestcavityretained. Exactage/flightunknown, genericcavitynotphotocopiedimprovisednest. Sourcephotoheadandupperbodyonly, nofaithfulfullbodyclaim. Lesson: lowcontrastwordsalonefailedthiscase; nofurthernearlyidenticalpromptloopwithoutnewmaterialstrategy.",
+      "archive_commit": "550ac90e6a09aab8888ce11955f8375a6a000ae2",
+      "verify_exit0": true,
+      "verified_at": "2026-11-27T06:48:35.275Z",
+      "verification_commit": "905127c7d664ade0714b5d6eea08143c1deb3a13",
+      "run_record": "owl-pet/production/runs/20261127T0532Z-B2-cycle4-resume0633Z-134-megascops-sanctaecatarinae-v8.json",
+      "credit_commit": "bdd1ef5f455b96f0e94692a8db18c83b4ec6fc3f"
+    },
+    {
+      "run_id": "20261127T0633Z",
+      "batch_id": "20261127T0532Z-B2",
+      "cycle": 5,
+      "target": "119-megascops-centralis-v8",
+      "started_at": "2026-11-27T06:49:01.952252+00:00",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T06:49:02.530073+00:00"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T06:49:16.106976+00:00"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T06:50:37.741908+00:00"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T06:50:51.875098+00:00"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T06:51:06.070626+00:00"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T06:51:59.627768+00:00"
+        }
+      ],
+      "scientifically_verified": false,
+      "stage": "VERIFIED",
+      "research": "Access2026-11-27. Latest119v7full/research/reviewread: actualcentralyounghaslongrepeatedcurlfibers; formedremiges/graybarredmesoptile andtailconcealed valid, retain. FreshtargetednetworksearchReyes&Astudillo2017 DOI10.1676/16-019.1; DOItoolinaccessible, publisherissue/searchmetadatafoundfulltitleNotesontheNest,Owlets,Diet,andParasitesoftheChocoScreechOwl(Megascopsguatemalaecentralis)inLomaAltaCommunalReserveWesternEcuador Wilson129(2):377–381. No newfullpaperreadingclaimed, reuseCHSO-REYES-ASTUDILLO-2017-P377-381 historicalprimary: twoowlestsunknownhatchage/formedremiges/noobservedtail/parasitesconfoundgrowth; no exactflightthreshold. FreshactualAOSinstitutionalbody https://checklist.americanornithology.org/taxa/13691 lines2–9 supportsMcentralis formerlyconspecificMguatemalae, no morphologyproof. ReuseCHSO-AOS-13691-2026. CHSO-MIKKOLA-2013-P242-243 historicaluploadedreadreuseadulttoes/face, juvenileundescribed. OlderOtusguatemalaecentralis/Mvermiculatuscentralis mappingpreserved. Boundedmaterialrendereditonlyreducecurlcontourcontrast; noinventedage/anatomy/nestlining. Preserveadultfaintbrows/orbitalrings/paletoesvsPINKlowertarsi, youngpinkfeet/formedflightfeatherpanelsnotgenericall-down. New0/reuse3, actualDOIfailurelogged. Softtonalfeatherfieldsdesignexperimentnotnewdevelopmentfact.",
+      "full_prompt": "Use case precise-object-edit. Edit ONLY CENTRAL OLDER JUVENILE DOWN MATERIAL on #119 Choco Screech-Owl plate. CurrentlongpaleU-loop/woolcurls overlyoutlined. On head/neck/breast/belly retain gray-buff mesoptile with diffuse darkcrossbars but replace individual longcurlyoutlines with soft close-packed irregular LOW-CONTRAST feather-tone patches; onlyveryshort wisps atedges. No repeated scallops, no individualringcontours. Do NOT alter its formed folded remiges/wingpanels: those are real developmentalstage features, do notcoverwithnewdown orremove. Keep yelloweyes/greenhornbill/currentheadturn/notufts/graybody, hiddennonprojectingtail, twoPINKfeet onsill, ageunknownlabel. Both adultsexactlypreserved: faintbrownblendingbrows/noouterdiscdecorativerim/blackorbitalrings/green-yellowbills/lemon-yelloweyes/PINKbarelowerTARSI/pale-yellowTOES/hornclaws/sameheightandgrips. Preserve3birds6feet/cavity/rainforest/title/rolelabels/warmstyle, no inventedage/flight/eggs/nestlining.",
+      "source_ids": [
+        "CHSO-REYES-ASTUDILLO-2017-P377-381",
+        "CHSO-AOS-13691-2026",
+        "CHSO-MIKKOLA-2013-P242-243"
+      ],
+      "new_sources": 0,
+      "image_meta": {
+        "bytes": 2680478,
+        "sha256": "9da7b36f81e601286471dc923ad7876a7ed0e76a7120ac639ec20e7192b49b2a",
+        "git_blob": "5f116bd9d930a0359e31ebd2b1bf65f73ad6727f",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "generation_wait_seconds": 36.854,
+      "status": "PASS_WITH_LIMITATIONS",
+      "review": "Actualinput/outputfullviewed: younglongoutlinedcurlcontours reducedsubstantially; gray-buffbarredmesoptile nowsofter/sparserwhisps, formedsideflightfeatherpanelsretainednotcoveredbynewdown. Materialstillstylizedsoftandunmeasured, notprimaryphotoreplica. PWL localcurlcontrastonly. Youngyellowiris/greenhornbill/no projectingtail/currentheadpose/twopinkfeetonsill retained. Adults faintbrows/orbitalrings/lemoniris/greenbill/pinklowerTARSIvsverypaleyellowTOES/hornclaws/near-equaldisplayunchanged. Exact3birds6supportedfeet/titlelabels/cavity/rainforest retained. Hatchage/flight/parasitegrowthgeneralizationunknown; DOInewaccessfailed/historicalprimaryonly. Loweringdownfibercontrastpreservedformedremigeboundaryinthisplateonly, notalljuvenilesrule.",
+      "archive_commit": "528bea1a59b2abb9f5de69006a82675802351a19",
+      "verify_exit0": true,
+      "verified_at": "2026-11-27T06:51:59.376Z",
+      "verification_commit": "0943a0e9827a05f2324bdaafdd0f019cd5d7839e",
+      "run_record": "owl-pet/production/runs/20261127T0532Z-B2-cycle5-resume0633Z-119-megascops-centralis-v8.json",
+      "credit_commit": "932b2300ddaf82526cf6b452268226d30ad7d104"
+    },
+    {
+      "run_id": "20261127T0633Z",
+      "batch_id": "20261127T0532Z-B2",
+      "cycle": 6,
+      "target": "130-megascops-koepckeae-v8",
+      "started_at": "2026-11-27T06:52:26.938317+00:00",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T06:52:27.506114+00:00"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T06:53:13.396087+00:00"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T06:53:49.516794+00:00"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T06:55:15.221122+00:00"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T06:55:28.870044+00:00"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T06:55:42.146041+00:00"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T06:56:59.181367+00:00"
+        }
+      ],
+      "scientifically_verified": false,
+      "stage": "VERIFIED",
+      "research": "Access2026-11-27. Actual130v7full/research/reviewread: centralyoungretainedlongwoolloops; adultbuffyellowbrownflecktarsi/graybrownbaretoes/darkhornclawrecentfixmustpreserve. FreshtargetedexternalAlarcon2023search andDOIinstitutionIkiamlandingpagebody11–32read confirms fullauthorlist/title/DOI10.1080/23766808.2023.2237229. Publisherfullbody403; newlyfoundUniversityAzuayauthorinstitutionPDF https://biologia.uazuay.edu.ec/sites/biologia.uazuay.edu.ec/files/public/ReproductiveeventsofbirdsfromSouthernEcuador.pdf web40034.95MB, localdownloadinprogress; donotclaimfullbodyfreshuntilactualresultbelow. Existing KOEP-ALARCON-2023 historicaloriginalspeciesaccount/Fig1c pp93–114: twoLoja dependentfledglings23Apr2019/2131m, graywhitebarredresidualdown/brownchest/WHITEbrows/yellowiris/Podocarpusbranch, age/flightunknown. HistoricalKOEP-FJELDSA-2012-P180-191 actualpaper180–193 regionaladultvariation, notLoja hockingiassignment; KOEP-MIK2013-222 guideprinted222/PDF224 adultfactsretained, youngwhitebrowsNOTmutedbyadultcriterion. OldOtuskoepckeae→Megascopskoepckeae, no251change. Materialrenderingeditonlyreduceclosedloopcontours, retainformedwing/body/brownchest/whitebrow/youngyelloweyes/bluegraybill/twofeetbranch. Softtonepatchesdesignexperimentnotnewfeatherchronology. Newsource0/reuse3IDs; candidateinstitutionlocatorrecordednotverifiedbodyyet.",
+      "full_prompt": "Use case precise-object-edit. Edit ONLY central FLEDGED JUVENILE'S DOWN MATERIAL in #130 Koepcke's Screech-Owl plate v7. Preserve centralyoungWHITE EYEBROWS, yellowiris/blue-graybill, brownchest/gray-whitefinecrossbars/roundedimmaturebody/compactformedfoldedwing/tailconcealed/currentheadpose/2branchgrippingfeet/ageunknownlabel. Replace oversized repeated long paleU-loops andwoolringlets onhead/back/breast/belly with softshortdenseirregulargray-brownfeather-tonepatches anddiffusefinegray-whitebars, with minimal individualcurvedcontourdrawings. Keep slightnaturalwispsatedges, notsmoothplastic, nohaircurls/scallopedscales. Do NOT erase whitebrows or addadultmaturewingpanels. Entireadultsunchanged: subduedmottledbrows/blackruff/irises/bills/brownfleckedBUFFYELLOWTARSALFEATHERS/graybrownbareTOES/darkhornCLAWS andallgrips. Sameforest/title/Latinname/rolelabels/exact3birds6supportedfeet/light/warmnaturalisticpetstyle. No addednest, egg, flight, age or subspeciesclaim.",
+      "source_ids": [
+        "KOEP-ALARCON-2023",
+        "KOEP-FJELDSA-2012-P180-191",
+        "KOEP-MIK2013-222"
+      ],
+      "new_sources": 0,
+      "source_access_upgrade": 1,
+      "primary_section": "printed104/PDF13",
+      "image_meta": {
+        "bytes": 2530339,
+        "sha256": "badadcc15eada60097a8ab51600ad957326016002197d7b1d662521380c7e47d",
+        "git_blob": "b85f73187faf7eaf5ba443cfe3ba46c3b30f6f57",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "generation_wait_seconds": 36.48,
+      "status": "NEEDS_REVISION",
+      "review": "Actualinput/outputfullplusfreshprimaryprinted95Fig1cpixelsviewed. Largestwhitewoolringletsreducedandbrown/grayfeathermassesmorecoherent, but repeatedcurvedfiberunitsstillpresentandmuchfluffier/outlinedthanprimaryphoto'scompactgraybarredsurface. NEEDS_REVISION materialfidelity, no fullscientificpass. JuvenileWHITEbrows/yellowiris/bluegraybill/brownchest/graywhitebars/formedcompactwing/twosupportedfeet/unknownagelabelretained; adultbuffyellowbrownflecktarsalFEATHERS/graybrownbareTOES/darkhornCLAWS/subduedbrows/blackruff/near-equaldisplay andtitleforestlabelsretained. Threebirds6feet/supports no newprey/nest/subspecies. FreshoriginalAlarcon2023actualbodyp104/PDF13 andFig1cp95/PDF4 confirmed afterpublisher403/webPDF400 recoveredlocalinstitutionPDF. Exactyoungage/flightandLoja subspeciesunknown. ExistingKOEP-ALARCON-2023 locator/pixelaccessupgrade1 notnewsource. Shorterfiberwordingnotvalidatedgeneralfix; retainthisboundedfailurefornextmaterialstrategy.",
+      "archive_commit": "e330636bfafa2fa351a8f5a49e1e59888f466e16",
+      "verify_exit0": true,
+      "verified_at": "2026-11-27T06:56:58.910Z",
+      "verification_commit": "8dae7f7c4062bf97547b619d465b85adcae3bac3",
+      "run_record": "owl-pet/production/runs/20261127T0532Z-B2-cycle6-resume0633Z-130-megascops-koepckeae-v8.json",
+      "credit_commit": "cb2291b09362ef0d046d34bcaa077e6a5f6479be"
+    }
+  ],
+  "ended_at": "2026-11-27T06:57:28.540244+00:00",
+  "errors": [
+    "Initial verifyExit undefined store failed after verification subprocess started; recovered session and observed actual exit0 beforecredit.",
+    "WikiAves metadata403; sourceimageS3recovered.",
+    "Reyes2017 DOItoolinaccessible, historicalfulltextreuseonly.",
+    "Alarconpublisher403/webPDF400toolarge; institutionPDFdownload34951163bytes recovered andactualbodyp104/Fig1cp95read.",
+    "fd9d70d GitHub422NoCommitFound; group25localblob10508841ef5f6184e8658664615302909765c1dd remotealreadyarchived, no duplicate."
+  ],
+  "next": "new batchcycle1; materialNEEDS_REVISION110v13/134v8/130v8; missing44species evidence/taxonomyreconciliation"
+}

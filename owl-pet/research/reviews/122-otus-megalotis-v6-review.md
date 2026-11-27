@@ -1,0 +1,3 @@
+# 122-otus-megalotis-v6
+Status:PASS_WITH_LIMITATIONS; scientifically_verified=false
+Actualfullinput/outputviewed. Adultbaretoes now neutralgray, featheredlegboundary retained; claws look mainlygreyhorn/darktip so exacthornpinkbase remainslimit. Juvenilewarmbaretoes unchanged, laterdependentpartialwingstretch/formedcompactremiges/down/shorttail supportedbytwofeet; noflightclaim. Adultorangebrowniris/hornbill/longtufts/graybrownmorph/palebrows/scapularstripe/near-equalscale retained. Threebirds6feet/title/labels/nonnestlivingbranchcontextretained. PASS_WITH_LIMITATIONS foradultgreytoes, whole-sciencefalse; youngexactage/iris/feathermap/curlmaterial remainuncertain.

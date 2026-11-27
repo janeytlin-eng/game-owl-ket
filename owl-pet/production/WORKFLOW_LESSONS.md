@@ -393,3 +393,7 @@ Adulttoe-onlyneutralgreyedit observed; juvenilefeet/wingaction preserved. Hornpi
 
 ## 2026-11-27 0329Z 123-otus-gurneyi-v6
 Adultpalehornclawbase descriptor did not translate sufficiently: proximalareaslighter butmostclawstilldark; NEEDS_REVISION afteractualimagegenedit/review. Futurepromptneeds strongerlocalmaterialcontrast, notvalidatedyet. Historicguidep229misattribution correctedto174 viaactualuploadread, preservingoldrecord. No scientificsuccessclaimed.
+
+
+## 2026-11-27 0329Z 124-ketupa-philippensis-v6
+Adultlowerbellypattern taperedwhilebreaststreaksretained; visiblyeffectivein124v6only, notglobalpreventionrule. Firstpersonobservedflightsequence notusedtoassigncompositeexactage/sexorindependence. Adultclawbluecast remainsunknownandyoungirisprovisional; sciencefalse.

@@ -1,0 +1,4 @@
+# 219-otus-podarginus-v4 actual review
+Actual final complete plate viewed: juvenile pale repeated loops substantially reduced; loose fine reddishbrown filaments, darker crown and subdued transverse brown colour stripes now read as soft plumage. Older compact formed folded wing retained, not replaced with hatchling appendage; existing headtilt/iris/provisional bill, both supported feet stable. Adults/creamy bare lower tarsi/blackishclaws, rainforest and all labels remain. Fine filament scale/stage and wing sequence still unverified. PASS_WITH_LIMITATIONS/sciencefalse. Problem model outlines every feather; actual material-specific rebuild reduced loops here, cannot declare success on #130/#134 or all oldgroups.
+
+{"bytes":2542404,"sha256":"6f475b9ab83c263121ff47bae7dfa56851d76242140553a9a2e4478c9e6a6165","gitblob":"c9f3442e319b6d4bd7607da283e1c4b59e5581aa","size":[1536,1024]}

@@ -397,3 +397,7 @@ Adultpalehornclawbase descriptor did not translate sufficiently: proximalareasli
 
 ## 2026-11-27 0329Z 124-ketupa-philippensis-v6
 Adultlowerbellypattern taperedwhilebreaststreaksretained; visiblyeffectivein124v6only, notglobalpreventionrule. Firstpersonobservedflightsequence notusedtoassigncompositeexactage/sexorindependence. Adultclawbluecast remainsunknownandyoungirisprovisional; sciencefalse.
+
+
+## 2026-11-27 0329Z 125-ninox-philippensis-v6
+Undertailcoverts must be distinguished from rectrices. Targetedsmallwhitecoverts behindadultlegs retainedbrownbarredlongtail andventralstreaks, visuallyeffective125v6. No genericwhiteventruleforotherNinoxtaxa; paperexplicitlyseparatesspecies. Youngmuseumlocality/age/irisstillunknown.

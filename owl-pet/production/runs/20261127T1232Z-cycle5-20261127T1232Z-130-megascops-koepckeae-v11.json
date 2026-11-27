@@ -16,6 +16,10 @@
     {
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-27T12:54:54.074Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T12:56:14.958Z"
     }
   ],
   "scientifically_verified": false,
@@ -40,5 +44,11 @@
   },
   "initial_generation_seconds": 38.687,
   "edit_prompt": "Edit this owl family plate while preserving the complete adults, all text, environment, natural branch, and six secure feet exactly. Only refine CENTER juvenile plumage using reference2 actual same-species fledgling: remove the row of conspicuous discrete bright white oval spots on juvenile's visible folded wing/left side. That short formed wing should remain anatomically present but blend into compact body as muted gray-brown fine barred/diffuse feather surface, as in photograph. Do NOT add adult white scapular spots, pointed feather scales or long adult primaries/tail. Juvenile breast/flanks/belly: break up repetitive closed U/V scalloped feather tiles into much finer irregular soft transverse crossbands and short natural avian filament grain, dense smooth compact silhouette, no ringlets/wool or fluffy long fringe. Preserve white eyebrows, black facial edge, yellow eyes, blue-gray horn bill, slight headturn, two young feet. Keep adults' graybrown bare toes/darkhorn claws and lightly brown-flecked pale tarsal feathers unchanged. No frog or prey. Scientific-pending footer remains.",
-  "initial_review": "Whole plate + center crop actually viewed. Improved compact barred young texture, but conspicuous pale discrete wing-spots and repetitive lower U/V tiles exceed Fig1c support; edit required."
+  "initial_review": "Whole plate + center crop actually viewed. Improved compact barred young texture, but conspicuous pale discrete wing-spots and repetitive lower U/V tiles exceed Fig1c support; edit required.",
+  "editing_seconds": 45.534,
+  "actual_imagegen_calls": 2,
+  "selected_source": "generated_images/exec-68e861e3-25bb-4745-9d84-6b0da6660535.png",
+  "unresolved": [
+    "Juvenile edited flank/belly retains conspicuous curled U/V filament loops versus fine transverse actual photo; not scientifically passed. Priority next cycle texture correction; avoid repeating unvalidated short-down wording."
+  ]
 }

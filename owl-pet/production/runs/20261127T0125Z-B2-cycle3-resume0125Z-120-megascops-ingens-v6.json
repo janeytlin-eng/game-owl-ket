@@ -24,6 +24,10 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-27T01:46:17.629Z"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-27T01:47:00.962Z"
     }
   ],
   "errors": [],
@@ -31,7 +35,7 @@
   "unique_species_increment": 0,
   "revision_increment": 1,
   "run_record": "owl-pet/production/runs/20261127T0125Z-B2-cycle3-resume0125Z-120-megascops-ingens-v6.json",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "source_ids": [
     "RIS-MIKKOLA-2013-P229",
     "RIS-ORDONEZ-2022-LEAD",
@@ -55,5 +59,9 @@
   },
   "generation_wait_seconds": 33.862,
   "generation_calls": 1,
-  "status": "PASS_WITH_LIMITATIONS"
+  "status": "PASS_WITH_LIMITATIONS",
+  "archive_commit": "713936f8adecd990fb7c938cb1240c4cc9b1ba6c",
+  "verify_exit0": true,
+  "ended_at": "2026-11-27T01:47:00.937Z",
+  "lesson": "120adultclaws dark→palehorn corrected andactuallyviewed, no juveniletraittransfer. Existingyoungcurlydown remains separatecalibrationqueue similar110/112; current120 and earlier119/108 were actuallyviewed thisrun for potentialaffectedmaterial, do not call wholeplatesciencepassed. Primary2022fulltext download403/RGDisabled, metadataread only plus historicalprimaryreuse, no newnestmaterialclaim. #25 localv6 Gitblob equals currentmaintree10508841 size2864437; oldfd9d70d GitHub422unrecoverable, checkedlate thisrun rather than claiming pre-generationcheck."
 }

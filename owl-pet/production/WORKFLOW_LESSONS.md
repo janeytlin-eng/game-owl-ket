@@ -357,3 +357,7 @@ Photo-first central rebuild improved110 head/pose/compactformedwing but inherite
 
 ## 2026-11-27 0125Z 119-megascops-centralis-v6
 119adulttoe paleyellow repair initiallyspilledonto tarsus; actualsecondedit restored originaltarsalskin while retaining yellowtoes, juvenilefeetunchanged. Both fulloutputs reviewed. Split toe vs tarsal scope should be checked separately; validated scopesrestore onlythisplate, source doesnotvalidate restoredtarsalcolour. AOS currentname freshbodyread; Reyes2017 historicalnotfreshfulltext.
+
+
+## 2026-11-27 0125Z 120-megascops-ingens-v6
+120adultclaws dark→palehorn corrected andactuallyviewed, no juveniletraittransfer. Existingyoungcurlydown remains separatecalibrationqueue similar110/112; current120 and earlier119/108 were actuallyviewed thisrun for potentialaffectedmaterial, do not call wholeplatesciencepassed. Primary2022fulltext download403/RGDisabled, metadataread only plus historicalprimaryreuse, no newnestmaterialclaim. #25 localv6 Gitblob equals currentmaintree10508841 size2864437; oldfd9d70d GitHub422unrecoverable, checkedlate thisrun rather than claiming pre-generationcheck.

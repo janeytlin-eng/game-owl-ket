@@ -405,3 +405,7 @@ Undertailcoverts must be distinguished from rectrices. Targetedsmallwhitecoverts
 
 ## 2026-11-27 0329Z 126-strix-hadorami-v5
 Oldbroadbutleri guide must be checked against2015split; primarydiagnosis37/description39 preserveswesternhadoramipalerufouscrossbars. Graphicregularitymodestlyreduced, exactwidthnotmeasuredscience. Primarytextread successful/localPDFpageattemptfailed explicitly, no freshphotopixelclaim. Keep126youngcurlmaterial and123clawpalette plus110priorcurl inunresolvedqueue.
+
+
+## 2026-11-27 0426Z 123-otus-gurneyi-v7
+Stronger explicit proximal palehorn/distal dark claw-sheath replacement finally visible in123v7, toe/clawboundaries preserved. Youngdown rerendering changedsurface slightly; avoidclaimingpixelinvariance. Locallyverifiedpalettefixonly, exacthornextentdesignnotratio. Priorweakeditfailurepreserved.

@@ -1,0 +1,411 @@
+{
+  "run_id": "20261127T0329Z",
+  "completed_cycles": 6,
+  "rows": [
+    {
+      "run_id": "20261127T0329Z",
+      "batch_id": "20261127T0231Z-B2",
+      "cycle": 3,
+      "target": "121-ninox-leucopsis-v6",
+      "started_at": "2026-11-27T03:30:22.520Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T03:30:22.539Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T03:30:56.062Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T03:32:24.823Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T03:32:29.201Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T03:32:34.023Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T03:33:19.022Z"
+        }
+      ],
+      "errors": [],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T0231Z-B2-cycle3-resume0329Z-121-ninox-leucopsis-v6.json",
+      "stage": "VERIFIED",
+      "source_ids": [
+        "TBO-MIKKOLA-2013-P463",
+        "TBO-ABSA-AGEING-2019",
+        "TBO-OLSEN-DEBUS-2013-FIG1"
+      ],
+      "full_prompt": "Precise-object-edit. Edit target is existing Tasmanian Boobook Ninox leucopsis three-birdplate. Correct ONLY BOTH ADULT THROATS: make the small throat patch immediately below the grey bill distinctly whitish, naturally feathered and irregular, contrasting with surrounding rufous-brown chest ocelli. Currentplate throat blends into brown upperbreast with only a thin pale collar; Mikkola2013p463 explicitly white throat. Do not whiten whole breast, mask or belly. Keep the small dense irregular clean-white crown/upperpart spots and rufous-white underpart ocelli, golden-yellow irises/dark eyelid rims/grey bills, tuftless heads, cinnamonfeatheredtarsi, existing pink-grey feet/darkhornclaws unchanged. Pink-grey adult feet are supported by ABSA2019; do not erroneously force gray-only. Adults nearlyequalheight/slightlyfullerfemale, no fixedsizeformula. Central ageunknown darkdown yelloweyed juvenile ENTIRELY unchanged, including shortfoldedsoftbrownwing/tailhidden/twofeet securely on hollowlip. No inference of hatchage/flight. Preserve established rounded tactile3Delectronicpetstyle, exact3birds/6feet, title and labels verbatim, eucalyptwoodlanddusk, individualheadposes and naturalbranchsupport. No broad whitebib, no heartmask, no additionalanimals or text.",
+      "research": "Access2026-11-27. Resume old0231Z-B2cycle3: prior121v6STARTED only, expiredlease03:11UTC, currenthead99e8dded no121v6image/research/VERIFIED credit; retainoldrun, do notcountit. Group25localoriginal Gitblob10508841ef5f6184e8658664615302909765c1dd matchesremote, no duplicate. Largeledger connector400sizeerror recovered via immutable rawHTTP; connection works.\nActually reread uploadedMikkola2013 printedp463/PDF465: adults white throat contrasting rufous-orange/white ocellated underparts; smallwhiteheadspots, goldenyelloweyes/grey bill/cinnamonfeatheredtarsi. v5actuallyviewed: throatlargelybrown/thinpaleruff, targetsmallwhitethroat. Guidefeetgray-graybrown conflicts with limitedpalette: ABSAoriginal https://absa.asn.au/wp-content/uploads/2019/12/Tasmanian-Boobook.pdf , J.W.Hardy2019 BirdintheHandp1 freshlyread supports adultlightgray OR pinkgray, so rejecttoe-recolorhypothesis. Overlappingsexmeasurements forbidfixedheightformula; females slightlylarger especiallymass. Juvenilefeetmaypink/gray, irischanges notexactdaychronology. Sourcefactwhiteadultthroat; size/placementofpatch designinterpretation.\nOlsen&Debus2013 AFO30:106-108 original https://afo.birdlife.org.au/afo/index.php/afo/article/download/386/371 freshlyread fig1/p107 adultmale/nestling KingIslandDec2009, p108 darkdown/yelloweyes; exactage/flight unknown. OldNinoxnovaeseelandiaeleucopsis maps currentN.leucopsis perABSA2019. Keepolderunknownstageyoungunchanged; noadultwhitebibtakenasyoungfeature. No scienceapproval. Sourceindexreuse3/new0; one rejectedunnecessaryfootcorrection retained.",
+      "research_record": "owl-pet/research/species/121-ninox-leucopsis-v6.md",
+      "review_record": "owl-pet/research/reviews/121-ninox-leucopsis-v6-review.md",
+      "image_meta": {
+        "bytes": 2582724,
+        "sha256": "2ae2fa7a246fafdaa87eaf2f5c3ae3b5a00e7b8e396a97a7fc613c8215edde72",
+        "git_blob": "3427337576f39bab53935ce055e8c0d3120be3ab",
+        "size": [
+          1536,
+          1024
+        ],
+        "b64len": 3443632
+      },
+      "generation_wait_seconds": 36.26,
+      "status": "PASS_WITH_LIMITATIONS",
+      "review": "Actual input/output viewed: compact distinct whitish adult throat patches added, notwholebreastwhite; goldenyellowiris/greybill/tuftlesshead/smallwhitecrownspots/rufousocelli/cinnamonlegfeathers/pinkgraytoes/darkclaws retained. Youngunchanged darkdown/yelloweyes/shortfoldedwing/hidden tail/unknownage/2feetlipcontact; somecurlydown remainsconceptlimit. Exact3birds6feet/title/labels/eucalyptdusk preserved. PASS_WITH_LIMITATIONS onlyadultwhitethroat correction, notscientificcertification. Rejectgray-onlyfeet hypothesis perprimaryinstitutionABSA. Unknownyoungage/flight andexactcolourcalibration remain.",
+      "archive_commit": "b9f253517571c262913b692d82563bf53ab8dc8b",
+      "verify_exit0": true,
+      "ended_at": "2026-11-27T03:33:18.998Z",
+      "lesson": "Applied/reviewed smallwhiteadultthroat perguidep463. ABSA2019primaryinstitution lists pinkgreyadultfeet, so discarded gray-only correction despite guidepalette. Keep fact/individualvariation separate; patchrendering remainsdesign, youngage/flight unknown. No scienceapproval.",
+      "verification_commit": "9e6767e8df350e5fff3c0f34d34cbec8d9116fdb",
+      "credit_commit": "b0b343798a0db18f15f7b1b3b1a1a32d7e71b543"
+    },
+    {
+      "run_id": "20261127T0329Z",
+      "batch_id": "20261127T0231Z-B2",
+      "cycle": 4,
+      "target": "122-otus-megalotis-v6",
+      "started_at": "2026-11-27T03:33:28.198Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T03:33:28.215Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T03:33:33.819Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T03:34:49.469Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T03:34:53.915Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T03:34:58.342Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T03:35:46.965Z"
+        }
+      ],
+      "errors": [],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T0231Z-B2-cycle4-resume0329Z-122-otus-megalotis-v6.json",
+      "stage": "VERIFIED",
+      "source_ids": [
+        "PSO-MIK2013-P170",
+        "PSO-WBCP-RICARTE-2020",
+        "PSO-MIRANDA-2011"
+      ],
+      "full_prompt": "Precisely edit supplied Philippine Scops-Owl Otus megalotis Luzon lowland threebirdconceptplate. Correct BOTH ADULT bare TOES ONLY from warm pinkish brown to neutral medium grey scaly skin, preserving actual feathered tarsus boundaries; retain horn-pink claw bases with darker tips. Mikkola2013p170 adult grey toes, tarsi feathered to their base, claws hornpink darktipped. Do not recolor feathered legs, beaks or centerjuvenilefeet. Preserve exactthreebirds/sixfeet and all branchgrips, orangebrownadultirises/hornbills/longtufts/palebrows/graybrownbody/darkarrowheadshaftstreaks/palescapularstripe, near-equaladultheight. Centraldependentolderunknownagejuvenile completelyunchanged: rufousresidualdown/reducedtufts/shortirregularformedwing slightlylifted/tailhidden/twofeetgrippinglivingbranch, noflightclaim. Keep establishedwarmnaturalisticpainterlypetstyle, Luzonlowlandurbanedgewoodlanddusk, title/labelsverbatim. No palettechangeotherthanadultbaretoes, no graypaint onjuvenile, no anatomicaldeformation.",
+      "research": "Access2026-11-27. Actualv5imageandresearchread. UploadedMikkola2013 printedp170/PDF172 freshlyread: adult tarsi feathered tobasegreytoes, horn-pink dark-tippedclaws; warmorangebrowniris/hornbill/pinkishcere/longtufts, graymorphdarkcrown/palebrow. Currentv5bareadulttoeswarmbrownpink, targetneutralgreyonly, keepjuveniletoesunchanged. Guidefemale+30gmass notfixedheight; historicalknownsexmuseumoverlap fromPSO-MIRANDA-2011 DOI10.1676/10-185.1 pp444,446-450 reusedhistoricalfulltextrecord, notfreshpaperread. Oldbakkamoenamegalotis/broadPhilippinecomplex notEveretti/Negrostraittransfer. CurrentLuzon/Marinduque/Catanduanes scope.\nFreshnetworkoriginal JohnRicarte/WildBirdClubPhilippines3Sep2020 https://birdwatch.ph/2020/09/03/an-owl-of-a-story-in-vista-real-classica/ actuallyopenedandread, serialrescueaccount; youngsupportedstretch/jump/parentfeeding observedafterdiscovery, hatchage/sex/normalflightunknownandhumaninterventionconfoundschronology. Retainexistinglaterdependentbranchstretchwithouttether/cage/flightclaim. Indexreuse3(new0); feetcolorisadultdirectdescription, exactrenderedgreyshadeisdesigninference. Youngruff/tarsi/featherchronology andcurlmaterial stillnotfullycalibrated; no sciencepass.",
+      "research_record": "owl-pet/research/species/122-otus-megalotis-v6.md",
+      "review_record": "owl-pet/research/reviews/122-otus-megalotis-v6-review.md",
+      "image_meta": {
+        "bytes": 2559628,
+        "sha256": "d429f7923a19dc6b6ddbcd300dcd69f7f54a820835afea7810eefdb4b3b9d27e",
+        "git_blob": "b7a0035d0af34b9218fd03caa618da7a485e1db4",
+        "size": [
+          1536,
+          1024
+        ],
+        "b64len": 3412840
+      },
+      "generation_wait_seconds": 46.561,
+      "status": "PASS_WITH_LIMITATIONS",
+      "review": "Actualfullinput/outputviewed. Adultbaretoes now neutralgray, featheredlegboundary retained; claws look mainlygreyhorn/darktip so exacthornpinkbase remainslimit. Juvenilewarmbaretoes unchanged, laterdependentpartialwingstretch/formedcompactremiges/down/shorttail supportedbytwofeet; noflightclaim. Adultorangebrowniris/hornbill/longtufts/graybrownmorph/palebrows/scapularstripe/near-equalscale retained. Threebirds6feet/title/labels/nonnestlivingbranchcontextretained. PASS_WITH_LIMITATIONS foradultgreytoes, whole-sciencefalse; youngexactage/iris/feathermap/curlmaterial remainuncertain.",
+      "archive_commit": "92fca759c55ff2e5461f2e181b478d5b1f75caf3",
+      "verify_exit0": true,
+      "ended_at": "2026-11-27T03:35:46.942Z",
+      "lesson": "Adulttoe-onlyneutralgreyedit observed; juvenilefeet/wingaction preserved. Hornpinkclawbase precise calibration remainsopen rather than claiming wholefoot scientificpass. Confounded rescue chronology used onlyforsupportedlaterstageaction. Keep sixcontacts and featheredboundary invariant.",
+      "verification_commit": "b3eebf362cae7470624c67c11a7d9e11b180d97e",
+      "credit_commit": "a2959cf58a2029cb2843aab3953ea8c50ea1ddda"
+    },
+    {
+      "run_id": "20261127T0329Z",
+      "batch_id": "20261127T0231Z-B2",
+      "cycle": 5,
+      "target": "123-otus-gurneyi-v6",
+      "started_at": "2026-11-27T03:35:55.739Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T03:35:55.760Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T03:36:03.041Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T03:37:12.272Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T03:37:17.234Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T03:37:24.610Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T03:38:15.966Z"
+        }
+      ],
+      "errors": [],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T0231Z-B2-cycle5-resume0329Z-123-otus-gurneyi-v6.json",
+      "stage": "VERIFIED",
+      "source_ids": [
+        "GSO-OWLPAGES-2020",
+        "GSO-SHANKAR-2013-YOUNG-CORR",
+        "GSO-MIRANDA-2011"
+      ],
+      "full_prompt": "Precise-object-edit of existing Giant Scops Owl Otus gurneyi #123 threebirdplate. Correct BOTH ADULT CLAWS ONLY: currently claws nearlyallblack, but actual species has PALE HORN-COLOURED clawbase and proximalshaft with DARK tips. Repaint proximal approximatelytwo-thirds of each adultvisibleclaw muted translucentlightgreybrown/beigehorn, keepingcurveddistalpointdarkcharcoal and naturalshading. Do not repaintthetoes/featheredlegs or centraljuvenileclaws. Preserve exactexistingclawgeometry/footgrips/sixfeet/naturalbranchsupport. Adultsretain brownirises/greywhitehornbills/longblackspottedtufts/rufousface/palebrows/darkstreakedbody/modestlylargerfemale, nofixedratio. Central olderageunknownjuvenile retains darkeye/bill/pinkpurplelid/shortfuzzytufts/graybrowndown/narrowdarkformedsidewingpanels/tailhidden, entirelyunchanged. Keep establishedwarmnaturalisticpaintedpetstyle/titlelabelsverbatim/lowlandPhilippineforestbranchcontext. No unnaturallygoldenmetalclaws, noallwhiteclaws, noextrafoot, nochangeotherthanadultclawbasecolor.",
+      "research": "Access2026-11-27. Actualv5image/researchviewed. UploadedMikkola2013 printedp174/PDF176 freshlyread: adultpalehornclawsdarktips, palelightgraybrowntoes/featheredtarsus; browneyes/graywhite-greenyellowbill/longtufts; femalewinglongernotfixedheight. v5adultclawslooknearlyallblack, targetproximalpalehornonly. IMPORTANT historicalv5researchguidecitationp229/PDF231 iswrong (thatpageM.ingens); correctp174/PDF176 now, retainoldrecordwithcorrectionhere/index. Guidejuvenileundescribed; do notinventhatchstage.\nFreshnetworkoriginalspecialistsecondary DeaneLewis2Oct2020 OwlPages https://www.owlpages.com/owls/species.php?s=290 descriptionlines64-68 andbreeding76 read: palehornclawsdarktips, toeslightgraybrown, breedingvirtuallyunknown; corroboratesadulttargetbutnotnewprimarysource. Historicalprimary GSO-MIRANDA-2011 DOI10.1676/10-185.1 pp446Table2/p451 retainedknownsexwingdirection/smallfemaleN/oldMimizukugurneyi→Otusgurneyi; notfreshfullpaperclaim. HistoricalShankar2013 Davaojuvenile actualphotoreadinv5 source https://commons.wikimedia.org/wiki/File:Giant_scops_owl_juvenile_(9105615728).jpg retainedformedsideflightpanels/pinkpurplelid/darkbill/eye, unknownage/sex/sustainedflight/nest, captivecontext. Nojuvenileredrawthisround. Indexreuse3plusfreshguide(new0IDs), onepagecorrection229→174. Exacthornshadeprovisionaldesign; preservegeometry/bill/role/juvenile and sciencefalse.",
+      "research_record": "owl-pet/research/species/123-otus-gurneyi-v6.md",
+      "review_record": "owl-pet/research/reviews/123-otus-gurneyi-v6-review.md",
+      "image_meta": {
+        "bytes": 2810781,
+        "sha256": "eba75445438eefcee62fade5bfdb9962e87937138688877050c586a56c76d575",
+        "git_blob": "49112eae041e0938ba4b02a81140e7eea6d48da9",
+        "size": [
+          1536,
+          1024
+        ],
+        "b64len": 3747708
+      },
+      "generation_wait_seconds": 36.996,
+      "status": "NEEDS_REVISION",
+      "review": "Fullinput/output actuallyviewed. Someproximaladultclawareaslightenedgreyhorn butmostlengthstilldark; requestedpalehornbase/darktip differentiation insufficient, NEEDS_REVISION. Preserveunsolvedadultclawpalettequeue; noclaimofscientificfix. Brownadultirises/hornbill/longtufts/rufousfacialdisc/darkshaftstreaks/modestfemale-larger retained; juveniledarkeyes/pinkpurplelid/darkbill/graydown/shorttufts/narrowsideflightpanels/hidden tail retained, curlmaterialstillconceptlimit. Sixfeet contactcontinuousbranch/exact3birds/titlelabels/lowlandforestretained. Historicalguidepagereferencecorrected229→174 afteractualread, notnewpublication.",
+      "archive_commit": "75dbe33bd78ca8551674579118f0e0452d85af62",
+      "verify_exit0": true,
+      "ended_at": "2026-11-27T03:38:15.943Z",
+      "lesson": "Adultpalehornclawbase descriptor did not translate sufficiently: proximalareaslighter butmostclawstilldark; NEEDS_REVISION afteractualimagegenedit/review. Futurepromptneeds strongerlocalmaterialcontrast, notvalidatedyet. Historicguidep229misattribution correctedto174 viaactualuploadread, preservingoldrecord. No scientificsuccessclaimed.",
+      "verification_commit": "bd6e5d93a93ca20f570911b564a07e9c3f7c8d42",
+      "credit_commit": "dbf7654f0c1026fa32bb4b2e77f74977540d1bab"
+    },
+    {
+      "run_id": "20261127T0329Z",
+      "batch_id": "20261127T0231Z-B2",
+      "cycle": 6,
+      "target": "124-ketupa-philippensis-v6",
+      "started_at": "2026-11-27T03:38:25.397Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T03:38:25.420Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T03:38:30.450Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T03:39:38.539Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T03:39:44.450Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T03:39:49.551Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T03:40:28.689Z"
+        }
+      ],
+      "errors": [],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T0231Z-B2-cycle6-resume0329Z-124-ketupa-philippensis-v6.json",
+      "stage": "VERIFIED",
+      "source_ids": [
+        "PEO-MIK2013-P294",
+        "PEO-OCHAVO-2012",
+        "PEO-URRIZA-2017"
+      ],
+      "full_prompt": "Precisely edit existing Philippine Eagle-Owl Ketupa philippensis nominateLuzon threebirdplate, preserving exactcomposition/text/threebirds/sixfeet/naturalbranchgrips/warmpainterlypetstyle. Correct BOTH ADULT LOWER BELLY featherpattern ONLY: speciesdescription Mikkola2013p294 lowerbellyalmostunmarked dullpale buff/whitish, currentimageheavyblackverticalshaftstreakscontinueallwaydowntolegbase. Gradually taper heavy adultstreaks beneathmidbelly, making lowerthird of eachadultventralbody mostlyplain palecream-buff with softnaturalfeathertexture and onlyveryfewfaintfineshaftmarks. Preserve darkverticalbreastandupperbellystreaks, rufousbrownupperparts/wingbars/shortoutwardtufts/yelloweyesblackrim/palebluegraybills/fullyfeatheredtarsi/graybrowntoes/claws. Do not whitenentirebird orerasebreastpattern. Do notchangeeitheradultsize/directionorjuvenileatall. Centralageunknownolderyoungkeepssoftwarmdown/formedcompactfoldedwing/darkbill/amberbrowniris(nonvalidated)/shorttail/bothfeetgripping. Neverinferflight/exactage/nest. Keep titleandlabelsverbatim, lowlandforestnearriver, noextraanimals/eggs.",
+      "research": "Access2026-11-27. Actualv5image/researchread: blackadultshaftstreakscontinueheavilytotarsalbase. UploadedMikkola2013 printedp294/PDF296 freshlyread: dullwhite/yellowishunderpartsdarkbrownshaftstreaks butlowerbellyalmostunmarked, whitishthroat/lightrufouschin, yelloweyesblackrim/palebluishbill/tarsifeatheredtotoes. Targetadultlowerbellystreaktaperonly. Noavailablequantitativesexsize/colourdatainguide, keepexistingscale. OldBubo/Pseudoptynxphilippensis maps currentKetupaphilippensis, restrictednorthern/nominatescope notdarker mindanensis.\nKarenOchavo/WBCP1Feb2012 original https://birdwatch.ph/2012/02/01/philippine-eagle-owl-family-at-balara-quezon-city/ freshlyread firstpersonsequence Jan3ledgeflapping/Jan7leavingplantbox/Jan14longflight. Supportsolderdependentexerciseexists, notexactage/feathermap, individualreportedsexinference notgeneralcolor-dimorphism. Keepyoungcompositeunknownage/iris/no flightandnaturalsupport, no copiedplantboxuniversalnest. HistoricalPEO-URRIZA-2017 abstract weekly5weekobservations/atleast70daystoobservedfledge reusedpriorrecordonly, notnewfulltextread; nofixedthresholdinpicture. Exactyoungiris/age/wingchronology/independence unknown, no scienceapproval. Sourceindexreuse3/new0. Factalmostplainlowerbelly, gradientextentdesigninterpretation, preservebreaststreaks.",
+      "research_record": "owl-pet/research/species/124-ketupa-philippensis-v6.md",
+      "review_record": "owl-pet/research/reviews/124-ketupa-philippensis-v6-review.md",
+      "image_meta": {
+        "bytes": 2566374,
+        "sha256": "118e62b01d819d7e5d8588c59a17e3222996dacc983e1ce300653e43aeb4fd5a",
+        "git_blob": "c774ec7d2af6ab182a4610a3aa69a6ece80a207e",
+        "size": [
+          1536,
+          1024
+        ],
+        "b64len": 3421832
+      },
+      "generation_wait_seconds": 38.068,
+      "status": "PASS_WITH_LIMITATIONS",
+      "review": "Actualfullinput/outputviewed. Adultheavyshaftstreaksnowtaperbelowmidbelly; lowerbellymostlyplainpalecream, breaststrongstreaksretained. PASS_WITH_LIMITATIONS forlowerbellypatternonly. Adultyelloweyesblackrim/palebluegraybill/shortoutwardtufts/upperpartsstreaks/fullyfeatheredtarsi/graybrowntoes retained; exactadultclawbluecastnotcalibrated. Youngwarmdown/formedcompactfoldedwing/darkbill/amberiris/unknownagelabel/bilateralbranchsupport unchanged, noflightorindependenceclaim. Sixcontacts/exact3birds/titlelabels/nonnestlowlandriveredge retained. Natureofyoungiris/chronology andgeneralcolourcalibrationunknown, sciencefalse.",
+      "archive_commit": "b1f34ac4ea475b5459a1dbca42ceaf42bd82e69d",
+      "verify_exit0": true,
+      "ended_at": "2026-11-27T03:40:28.667Z",
+      "lesson": "Adultlowerbellypattern taperedwhilebreaststreaksretained; visiblyeffectivein124v6only, notglobalpreventionrule. Firstpersonobservedflightsequence notusedtoassigncompositeexactage/sexorindependence. Adultclawbluecast remainsunknownandyoungirisprovisional; sciencefalse.",
+      "verification_commit": "ce90354ae078d702c2d74291d4bbde195432a739",
+      "credit_commit": "1df70830d9b05ef38a89a5fce21f738169c16a8c"
+    },
+    {
+      "run_id": "20261127T0329Z",
+      "batch_id": "20261127T0329Z-B2",
+      "cycle": 1,
+      "target": "125-ninox-philippensis-v6",
+      "started_at": "2026-11-27T03:40:37.929Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T03:40:37.950Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T03:41:11.458Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T03:42:27.899Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T03:42:33.085Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T03:42:37.557Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T03:43:06.737Z"
+        }
+      ],
+      "errors": [],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T0329Z-B2-cycle1-resume0329Z-125-ninox-philippensis-v6.json",
+      "stage": "VERIFIED",
+      "source_ids": [
+        "NPH-RASMUSSEN-2012",
+        "NPH-SHARPE-1875"
+      ],
+      "full_prompt": "Preciselyedit existing #125 Luzon Boobook Ninox philippensis threebirdplate. Correct ONLY BOTH ADULT UNDERTAIL COVERTS: the short small soft feathers on lower rear belly/vent covering BASE of the hanging tail behind the legs must be predominantly white/whitish unmarked, as diagnosed in Rasmussen2012p13 and Mikkola2013p473. They should appear as a restrained small white softfeatherpatch at tailbase behind eachadultleg, NOT an allwhite tail. Preserve the actual long brown RECTRICES and their existing weak narrow pale bars completelyunchanged, alllegfeather/brightyellowtoes/blackclaws and branchgrips unchanged. Preserve prominent longitudinal adultbreast/bellystreaks; do NOT eraseventralstreaks as in different species. Preserve plainbrownunspottedcrown/back, darkauriculars/filamentousfacefeathers, smallpalebrows/yellowirises/oliveyellowbill/whiteoutercovertspots/near-equaladultscale. Centralageunknownyoung ENTIRELYUNCHANGED: rufouschocolatecoverts/limitedgreatercovertspots/formedsoftfoldedquills/shortconcealedtail/darkiris/twofeetbranchsupport. No inventedage/flight/sex. Keepexact3birds6feet/titlelabels/warmnaturalisticpaintedpetstyle/Luzonhumidwoodlanddusk. Only smalladultundertailcovertfeathers changecolour, no white rump or giant white apron.",
+      "research": "Access2026-11-27. Actualv5image/researchread. Freshlyopenedoriginal Rasmussenet al2012 Forktail28:1-20 https://www.asianscientist.com/wp-content/uploads/2012/08/Vocal-divergence-and-new-species.pdf pp12-13 diagnosis andTable7 actuallyread: strictphilippensis hasplainbrowncrown/back, streakedunderparts, largeoutercovertwhitespots(no bars), narrowweakpaletailbands; whiteundertailcoverts unmarkedorsparsefaintnarrowmarkings; yelloweyes/oliveyellowbill/yellowfeet/darkclaws. Pooledmeasurementsnotsexedratio. Oldbroadcomplexseven-speciessplit preventsimportofbarred/spottedtaxa. No current251rosterchangeestablished. UploadedMikkola2013 printedp473/PDF475 actualread: whiteunmarkedundertailcoverts, consistentwithprimary; guide'sslightlymale-larger remainsqualitative/doesnotoverrideoverlap. Currentplate adultvisiblelowerrear/ventfeathers mostlybrownblendintotail, targetsmallwhiteundertailcovertsonly; keepbrownrectrices/weakbars andventralstreaks. Factcovertswhite, exactpatchvisibility/placementdesigninterpretation.\nHistoricalSharpe1875 museumcataloguevol2pp167-168 https://wallace-online.org/converted/supplementary/specimens/1875_BMbirds_WSPEC351.2.pdf reusedprioractuallyreadv5, notfreshpaperread. Youngrufouschocolate/formeddarkquills/buffnotches, noage/sex/iris/flightorlocality-specificmodernreassessment. Keepyoungunchanged/stationarysupported; localityandirisuncertain, cannotclaimadultminiatureorhatchling. Sourceindexreuse2plusfreshguide(new0IDs), sciencefalse. Youngyellowfeet/bill remainprovisionalnotadulttraitcertified.",
+      "research_record": "owl-pet/research/species/125-ninox-philippensis-v6.md",
+      "review_record": "owl-pet/research/reviews/125-ninox-philippensis-v6-review.md",
+      "image_meta": {
+        "bytes": 2445622,
+        "sha256": "3e68120d94af10a72534cc57c3352725031a928efc47aa0505e8ce11828fe371",
+        "git_blob": "fca6d3cf88d9b22a9a7963c63ff36fd4c3d231c5",
+        "size": [
+          1536,
+          1024
+        ],
+        "b64len": 3260832
+      },
+      "generation_wait_seconds": 46.384,
+      "status": "PASS_WITH_LIMITATIONS",
+      "review": "Actualfullinput/outputviewed. Smallsoftwhiteadultundertailcovertpatchesnowvisiblebehindlegs/tailbase; longbrownrectrices/weaknarrowbandsretained, notallwhitetail. Prominentventralstreaks/plainbrowncrown/yellowiris/olivebill/yellowfeet/darkclaws/outercovertspots retained; near-equaladultscale unchanged. Youngrufouschocolate/formedfoldedwing/darkiris/shorttail/twofeetbranchsupport unchanged. Threebirds/sixcontacts/text/woodlandretained. PASS_WITH_LIMITATIONS onlyundertailcoverts; exactpatchvisibilitydesign, youngage/locality/iris/barepartcolours provisional, sciencefalse.",
+      "archive_commit": "7d953a8c6d2920cf4e5f98f5e62e2155062692ba",
+      "verify_exit0": true,
+      "ended_at": "2026-11-27T03:43:06.715Z",
+      "lesson": "Undertailcoverts must be distinguished from rectrices. Targetedsmallwhitecoverts behindadultlegs retainedbrownbarredlongtail andventralstreaks, visuallyeffective125v6. No genericwhiteventruleforotherNinoxtaxa; paperexplicitlyseparatesspecies. Youngmuseumlocality/age/irisstillunknown.",
+      "verification_commit": "047bedb06966fc68ef0dcadb015dd6d73a52abb9",
+      "credit_commit": "db9ce0d5572a2d2980055f4704958cfe39808ff3"
+    },
+    {
+      "run_id": "20261127T0329Z",
+      "batch_id": "20261127T0329Z-B2",
+      "cycle": 2,
+      "target": "126-strix-hadorami-v5",
+      "started_at": "2026-11-27T03:43:31.373Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T03:43:31.387Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T03:44:41.187Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T03:45:51.070Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T03:45:55.237Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T03:45:59.451Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T03:46:35.317Z"
+        }
+      ],
+      "errors": [
+        {
+          "stage": "RESEARCH_READY",
+          "error": "Institution PDF URL local payload rendered as shorter document; page11 IndexError. Webtext primary read succeeds; screenshot no pixel. No photo reread claimed."
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T0329Z-B2-cycle2-resume0329Z-126-strix-hadorami-v5.json",
+      "stage": "VERIFIED",
+      "source_ids": [
+        "DESO-KIRWAN-2015",
+        "DESO-BENDOV-2017"
+      ],
+      "full_prompt": "Precise-object-edit existing #126 Desert Owl Strix hadorami threebirdplate. Correct BOTH ADULT ventralpattern rendering ONLY: existing long evenly spaced orange scalloped bands look mechanical and overly uniform. Make the pale rufous CROSS-BARRING on cream-white breast and belly finer, lighter, naturally interrupted and uneven between individual feathers; narrow the marks and softly vary spacing, with somecreamfeatheredges breaking lines. Keep cross-barring clearly present and distinguishable: do NOT eraseit orreplace with darklongitudinalstreaks (those characterize easternbutleri). Maintain palecreamground, atmostfewfaintmesialstreaks, nearwhiteunmarkedvent/tightbuffwhitetarsi. No new stripes or spots. Preserve plainpalegrey-whitefacialdiscs/orangeeyes/greybills/crownspots/sandyupperparts/barredwingtail/near-equaladultsize. Centralestimatedc35dayyoung entirelyunchanged: residualbuffdown/compactformedfoldedwing/shortconcealedtail/amberirisprovisional/slightturn/bothfeetledgecontact. Keep exactthreebirds/sixsupportedfeet/titleandlabelsverbatim includingEST.c35-DAYFLEDGLING, aridlimestonewadi/cavity, establishedwarmnaturalisticpaintedpetstyle. No heartface/ear tufts/nestprey/flightclaim or forest.",
+      "research": "Access2026-11-27. Actualv4image/researchviewed: adultventralpalerufousbars presentbutveryregularthickscalloprows, designrefinementtargetfinerlessuniformlightbars, notdiagnosticbarremoval. Fresh original Kirwan/Schweizer/Copete2015 Zootaxa3904(1):28-50 DOI10.11646/zootaxa.3904.1.2 actuallyread PDFbody https://nnhc.huji.ac.il/sites/default/files/nnhc/files/15-zootaxa-kirwan_schweizer_copete_compressed.pdf diagnosisprinted37(PDF11), holotypedescription39(PDF13): westernhadoramipalerufouscrossbarring vsbutleridarklongitudinalstreaks; paleventralground/fewinconspicuousmesialstreaks/nearwhiteunpatternedvent/buffwhitetrousers/paledisc. Crossbars remainvisiblediagnostic; exactwidth/irregularrenderingdesigninterpretation, notmeasuredspeciesrule. DownloadedlocalURLpayload didnotyieldexpected24pagePDF; attemptedpage11renderraisedIndexError, screenshottoolreturnedtextplaceholderwithoutviewablepixels. Therefore nofreshfigurepixelreadingclaim; primaryTEXTread usableandexistingv4 unchangedidentity.\nUploadedMikkola2013 printed318-319/PDF320-321 freshlyread oldbroadStrixbutleri account, IsraelDeadSeacaptions pertainwesterncontextbut2015splitprimarytakesprecedence. Do nottransfer oldeasternrangeorpaletteuncritically. Guidejuvenilegenericcomparisonnotnewtimeddata. HistoricalBenDovet al2017 DutchBirding39:285-307 recordreusedv4(c35dayestimatedfieldyoung/selffeeding/cavityroost), notfreshfulltextreadthisround; exacthatch/iris/flight/independenceunknown, keepestimatedagequalification andstationarytwofootrocksupport. No newsourceIDs/reuse2plusguide; newscientificpass0. Generationtargetsgraphicregularityonly; do notmisrepresent asnewbiologicaldiscovery.",
+      "research_record": "owl-pet/research/species/126-strix-hadorami-v5.md",
+      "review_record": "owl-pet/research/reviews/126-strix-hadorami-v5-review.md",
+      "image_meta": {
+        "bytes": 2544208,
+        "sha256": "ea7e469a35cc7b5555601bb3234e6ca0265c2c97bf93386d562a73a6c52a5917",
+        "git_blob": "b0b90b6ad8f7718288cd38f7c8560becf31b4e73",
+        "size": [
+          1536,
+          1024
+        ],
+        "b64len": 3392280
+      },
+      "generation_wait_seconds": 36.39,
+      "status": "PASS_WITH_LIMITATIONS",
+      "review": "Actualfullinput/outputviewed. Adultpalerufousventralcrossbarsslightlyfiner/lighterandmorefeatherbroken; regularrowsstillvisible so onlymodestgraphicrefinement/PASS_WITH_LIMITATIONS, notmeasuredscientificcalibration. Importantdiagnosticcrossbarsretainednotreplacedverticalstreaks. Palegraywhitediscs/orangeiris/graybill/crownspots/sandyupperparts/barredwingtail/near-equaladults retained. Centralyoungdown/compactfoldedwing/hidden tail/amberiris/EST.c35-DAYqualification/twofeetrocksupport unchanged; closedloopdownmaterialstillunresolved. Threebirds/sixcontacts/text/limestonearidcavityretained. Primarybodyread; failedlocalPDFpageaccessnotcountedfreshphotoread. Whole-sciencefalse.",
+      "archive_commit": "76ba26906f76dd74d38a5a4fc99f718607e17f86",
+      "verify_exit0": true,
+      "ended_at": "2026-11-27T03:46:35.291Z",
+      "lesson": "Oldbroadbutleri guide must be checked against2015split; primarydiagnosis37/description39 preserveswesternhadoramipalerufouscrossbars. Graphicregularitymodestlyreduced, exactwidthnotmeasuredscience. Primarytextread successful/localPDFpageattemptfailed explicitly, no freshphotopixelclaim. Keep126youngcurlmaterial and123clawpalette plus110priorcurl inunresolvedqueue.",
+      "verification_commit": "2144dac022ba69fce62b972e009042bf132dafc6",
+      "credit_commit": "6aaac935a2530d2e8db2d5fad18984f358b220b0"
+    }
+  ],
+  "source_index": "owl-pet/research/SOURCE_INDEX.md",
+  "source_new": 0,
+  "source_reused_id_citations": 16,
+  "guide_locators": 6,
+  "source_corrections": 1,
+  "unique_species": 207,
+  "total_species": 251,
+  "current_batch": "20261127T0329Z-B2",
+  "current_completed": 2,
+  "next_cycle": 3,
+  "other_partial_batches": 0,
+  "historical_credit_ledgers_and_verified_runs_readback": "6/6 PASS exit0"
+}

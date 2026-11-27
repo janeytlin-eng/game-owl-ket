@@ -9,9 +9,22 @@
     {
       "stage": "STARTED",
       "at": "2026-11-27T20:12:00.343Z"
+    },
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-27T20:12:44.025Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T1931Z-cycle6-20261127T2003Z-47-strix-leptogrammica-v9.json",
-  "stage": "STARTED"
+  "stage": "RESEARCH_READY",
+  "research": "New0/reused3. BROW-MIKKOLA-2013-P326-327: HeimoMikkola2013 uploadedbook printed326/PDF328 actualtext reread and327/PDF329 photograph pixels viewed. Distal two toe phalanges bare pale bluishgrey, proximal toes/tarsi feathered, dull lead claws; females clearly larger/+200g, no exact ratio; selected crop does not calibrate whole-board scale. Photo ChoyWaiMun PahangMalaysia maingayi applicable broad anatomy only, not SriLankan population colours/age. Actual enlarged v8 shows some basal barb coverage already, revises old ambiguous 'no visible completion' diagnosis; clearer target is bare shaft pink tint versus bluegrey. No invented feather fraction.\nBROW-FLOCCINIVIS-2018-COMMONS-01: FlocciNivis2018-06-13 ZooNeunkirchen adult pair, metadata original https://commons.wikimedia.org/wiki/File:Strix_leptogrammica_01.jpg actualpage read thiscycle; photo not used as pixel evidence.\nBROW-SAMARAWICKRAMA-2006-P73-78 prior primaryfieldrecord retained historically for SriLankan jackfruitcavity/34daystage, not freshbodyread or exact phenotype reconstruction. Old Syrnium leptogrammicum/Ciccaba leptogrammica mappings retained.\nExternal targeted search performed. Auk1936 footfeathering lead https://sora.unm.edu/sites/default/files/journals/auk/v053n01/p0051-p0056.pdf redirected to general USF SORA landing page: UNVERIFIED originalpaper, not evidence. Wrong guessed #47 Aegolius path404 corrected to actual Strix path, connection operational.\nWorkflow test from v8review: enlarge adultcrop, imagegen correct, visually inspect, then imagegen integrate into wholeplate. Sourcephoto/book not republished. Phase prompts persist both actualcalls.",
+  "full_prompt": "Use case precise-object-edit. Input is an enlarged crop of adult Brown Wood Owl Strix leptogrammica feet from existing game concept. Correct only the feet: bare distal toe shafts pale BLUISH GREY, not pink flesh; claws dull dark lead-grey. Limited short buff-grey feather barbs on TOP of proximal toe roots joining the feathered tarsi. Distal two phalanges remain visibly bare and scaly. No boots, no feathering to claws, no exact percentage length imposed. Preserve toe count, individual curved claws, branch grip, feathered legs, 3D maquette illustration style, framing and existing warm forest light; material should read grey even in warm light. Do not change branch, background or leg outline. No text.",
+  "source_ids": [
+    "BROW-MIKKOLA-2013-P326-327",
+    "BROW-FLOCCINIVIS-2018-COMMONS-01",
+    "BROW-SAMARAWICKRAMA-2006-P73-78"
+  ],
+  "new_sources": 0,
+  "research_ready_at": "2026-11-27T20:12:44.008Z"
 }

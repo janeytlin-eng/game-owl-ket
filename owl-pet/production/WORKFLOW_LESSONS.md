@@ -385,3 +385,7 @@ Pink eyelid descriptor alone produced oversaturated broad rings in first #120v7 
 
 ## 2026-11-27 0329Z 121-ninox-leucopsis-v6
 Applied/reviewed smallwhiteadultthroat perguidep463. ABSA2019primaryinstitution lists pinkgreyadultfeet, so discarded gray-only correction despite guidepalette. Keep fact/individualvariation separate; patchrendering remainsdesign, youngage/flight unknown. No scienceapproval.
+
+
+## 2026-11-27 0329Z 122-otus-megalotis-v6
+Adulttoe-onlyneutralgreyedit observed; juvenilefeet/wingaction preserved. Hornpinkclawbase precise calibration remainsopen rather than claiming wholefoot scientificpass. Confounded rescue chronology used onlyforsupportedlaterstageaction. Keep sixcontacts and featheredboundary invariant.

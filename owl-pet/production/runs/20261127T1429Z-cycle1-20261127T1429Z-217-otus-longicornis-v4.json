@@ -13,11 +13,15 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-27T14:37:05.919Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T14:38:17.027Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T1429Z-cycle1-20261127T1429Z-217-otus-longicornis-v4.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Otus longicornis, old Scops longicornis, no taxon/scope change. Source reuse2/new0: OLON-MIKKOLA-2013-P186, Heimo Mikkola2013 uploaded guide printed186/PDF188 actual whole page reread2026-11-27: mesoptile brown-barred soft grey, darker head/upperparts; female 'said' a little larger without weights; lower bare tarsi whitish flesh/grey claws. OLON-DEMEULEMEESTER-PHOTO1103 Bram Demeulemeester adult photograph Mount Polis Luzon, undated, https://www.owlpages.com/owls/species.php?i=1103 current original caption page actually reopened; prior actual photo retained, supports adults/support, not juvenile. Fresh species-specific juvenile/mesoptile search gave no new verified developmental series; Marshall1978/PhilippineRedList hits remain leads, not young phenotype evidence. Full v3 viewed: young head/back and belly covered in conspicuous repeating U-shaped/scalloped pale rims rather than a soft grey field with brown transverse bands. Rebuild young surface, preserve closed-eye age-unknown mesoptile, low supported rest with belly over twig and both feet; no flight/nest/exact day. Eye/bill juvenile colour not established; keep existing closed eyes and provisional hornbill unchanged. Adults preserved. Design feather-scale inference remains not calibrated; source facts only qualitative. Related unresolved #130/#134 shared curl problem noted; this application will not retrospectively pass them.",
   "full_prompt": "Edit the existing #217 Luzon Scops Owl three-bird plate. Preserve both adult birds entirely, every label/title/footer, forest, branch and feet. Rebuild ONLY the feather texture of the RIGHT sleeping age-unknown mesoptile juvenile. Source phenotype is soft light GREY juvenile plumage crossed with brown bands, head and upper back slightly darker. Replace the repeated high-contrast U-shaped, crescent, scalloped, concentric curled feather rims on its crown, cheeks, chest, belly and small folded wing with a softly blended grey downy field. Add subdued irregular BROKEN TRANSVERSE BROWN BANDS across the chest and back, as colour markings on the soft plumage, not rows of outlined individual feathers. Tiny fine loose down filaments and diffuse surface, no aligned pale loops or scales. Preserve its exact body silhouette/closed eyes/provisional small bill, compact wing ending high on flank, concealed tail, sleeping low neck and belly support, both feet gripping original twig. Do not make it a newborn, do not add adult long remiges. Return whole1536x1024 landscape, keep all texts sharp including SCIENTIFIC CALIBRATION PENDING. Qualitative concept only, no exact age claim.",
   "source_ids": [
@@ -25,5 +29,18 @@
     "OLON-DEMEULEMEESTER-PHOTO1103"
   ],
   "new_sources": 0,
-  "research_ready_at": "2026-11-27T14:37:05.908Z"
+  "research_ready_at": "2026-11-27T14:37:05.908Z",
+  "image_metadata": {
+    "bytes": 2710063,
+    "sha256": "76a1f90eb93b294f10ad73cc14e89f4d3b63cbfc523d444c610de184d19d3d05",
+    "gitblob": "b35d715423f23e4adfa1b6829b66c75d3c3aa5b4",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "imagegen_wait_seconds": 43.336,
+  "imagegen_invocations": 1,
+  "review_result": "PASS_WITH_LIMITATIONS",
+  "local_image": "production1429nov27/217-otus-longicornis-v4.png"
 }

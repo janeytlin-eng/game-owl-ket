@@ -12,6 +12,10 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-27T02:34:22.976Z"
+    },
+    {
+      "stage": "MATERIAL_STUDY_GENERATED",
+      "at": "2026-11-27T02:35:14.260Z"
     }
   ],
   "errors": [],
@@ -19,7 +23,7 @@
   "unique_species_increment": 0,
   "revision_increment": 1,
   "run_record": "owl-pet/production/runs/20261127T0125Z-B2-cycle4-resume0231Z-112-asio-abyssinicus-v9.json",
-  "stage": "RESEARCH_READY",
+  "stage": "MATERIAL_STUDY_GENERATED",
   "source_ids": [
     "ABY-MATON-1989-JUV",
     "WHSO-MIKKOLA-2013"
@@ -30,5 +34,18 @@
   "full_prompt": "STANDALONE MATERIAL STUDY:\nUse case: stylized-concept. Make one original full-body older juvenile Abyssinian Owl (Asio abyssinicus) character study on a simple neutral gray background with a plain natural twig securely supporting both feet. Reference image is Peter Maton's Ethiopia1989 juvenile field photograph, BIOLOGICAL REFERENCE ONLY; do not copy its scenery or watermark.\nRender the single photographed-stage juvenile as an appealing restrained realistic game character: tall oval charcoal-brown down-covered body, dark facial mask, orange eyes, dark bill, small irregular pale crown patch, an actual long compact folded wing with muted pale markings and a barred tail visible below the twig. Keep reference proportions and natural upright two-foot perch. The body DOWN should resemble soft dense feather dust/velour at the scale of the whole bird: matte softly mottled gray-brown masses, tiny granular fuzzy texture, unoutlined surface, only a few fine ragged feather tips around silhouette. No long curly hair, no closed rings, yarn or scribbles. It is soft bird down covering an older juvenile with developed wing/tail, not a furry mammal or a newborn. Soft natural warm daylight and gentle volume, original illustrated character not a pasted photograph. No text, no extra birds, no eggs/nest, no claim of exact age/sex/flight.\n\nTHREE-BIRD INTEGRATION:\nUse case: compositing / precise-object-edit. Input1 will be the existing112v8 three-owl plate EDIT TARGET. Input2 will be the newly generated isolated juvenile reference. Replace ONLY central juvenile with the juvenile design and down material of input2, scale it to original central bird size and integrate both feet at exactly the original branch support. Keep developed folded wing and barredtail from new study, dark face/orangeeyes/darkbill/pale crown patch. Do not transfer the old central juvenile's curly hair microtexture; use the smooth soft mottled down masses of the isolated study. Match established warm natural light and pet concept rendering. Preserve both adults completely: net-barring, yellow-orangeeyes/blackbills/tufts/featheredfeet, original scale/poses/branchcontacts; preserve environment/title/alllabels including OLDER JUVENILE — AGE UNKNOWN. Exactly3 birds/sixfeet supported. No flight, newborn or new biological claim.",
   "research": "Accessed2026-11-27. Fresh targetedwebsearch and actual Flickr original https://www.flickr.com/photos/34579661@N04/5424426357/ caption37–42/64 read: PeterMaton Ethiopia1989 scannedslide, upload2011 notcapturedate; existing ABY-MATON-1989-JUV. Actualsourcephotopixels and112v8 fullplate reopened. Tallbranch-supported olderjuvenile, orangeeyes/darkmask/blackbill, small pale crownpatch, formedlongfoldedwing andbarredtail; softunoutlined browncharcoaldown ratherthanloops. Unknown exactage/sex/flight; singlephoto, no allsubspeciesgrowthclaim. Uploaded Mikkola2013 WHSO-MIKKOLA-2013 printed508/PDF510 freshlyread: adultyelloworangeeyes/blackishbill/featheredlegs-toes/hornclaws, femaleonlyslightlylarger, juvenileexplicitlyundescribed and Asiootuscomparison speculativeexcluded. Ethiopia nominate scope, currentAsioabyssinicus oldAsiootusabyssinicus. Adultnet evidence historicalCollar2019 retained, no newreading claim. Actualv8 loopsremain after many edits. New designexperiment: independently generate juvenile material study with biologicalphoto ONLY (no failedloopplate), actualviewthen integrateinto preservedadultplate. Study is stage evidence, not extra species/subround; saveoriginal+promptbeforeintegration. Oldpending112/110 priority retained. #25 firstcheckedthisrun: localv6 matches mainblob10508841 size2864437/SHA256729c187af12da587305c0c701c07440464896f5a6ada74431dfa3e7b19616ca1; fd9d70d GitHub422noCommitFound; no redraw. No validlease or uncreditedVERIFIEDrun found at freshmain. Sciencefalse.",
   "research_record": "owl-pet/research/species/112-asio-abyssinicus-v9.md",
-  "review_record": "owl-pet/research/reviews/112-asio-abyssinicus-v9-review.md"
+  "review_record": "owl-pet/research/reviews/112-asio-abyssinicus-v9-review.md",
+  "material_study": {
+    "path": "owl-pet/design/originals/112-asio-abyssinicus-v9-material-study.png",
+    "bytes": 1962361,
+    "sha256": "6abb74c1cf885111385667b6e1a5d853dabd94b1c12c97fc25b94d2fe933ed49",
+    "git_blob": "5172ac0766357867b34bc09dcbccdb42d83c3e51",
+    "size": [
+      1024,
+      1536
+    ],
+    "b64len": 2616484,
+    "wait": 20.342,
+    "actual_review": "Standalone full image viewed: fine soft mottled down and distinct formed wing/tail, much less pronounced closed-ring drawing than old plate; tiny wisps remain. Older source proportions/support retained. Interim not species/subround credit."
+  }
 }

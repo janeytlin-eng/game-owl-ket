@@ -1,0 +1,6 @@
+# 110-megascops-barbarus-v10
+Status: NEEDS_REVISION; scientifically_verified=false
+
+Standalone and integratedfulloutputs actuallyviewed. Study gives compactgraybrownbarredmesoptile/yelloweyes/greenbill/narrowbrows/no tufts/tuckedpose andsupported feet. Integratedjuvenile headandwingmorephoto-bounded, but lowerbelly again has pronouncedclosedU/loopfibers. Therefore independentstudystrategy did NOT transfer112success to110; NEEDS_REVISION remains, no scientificallypassed claim. Adults identities/colors/beardtufts/pinktoes and sixsupports/titlelabels retained overall, materialstylization remains. Juvenilegraybrownbaretoes notadultpinkcolourtransfer; exactstageage/sex/flightunknown, cavitycontextnotoccupiednest. Two actualgenerationcalls, studyoriginalsaved; stagecountsnotroundcounts. Next do not assert universal two-stepfix; need remove inherited contourtexture at integration or genuinelydifferent finalrender pipeline, never deemnewphotoaccuracy alonematerialpassed.
+
+[Sources/fullprompt](../species/110-megascops-barbarus-v10.md)

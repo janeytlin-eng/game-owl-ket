@@ -8,6 +8,10 @@
     {
       "stage": "STARTED",
       "at": "2026-11-27T00:41:29.096Z"
+    },
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-27T00:41:34.390Z"
     }
   ],
   "errors": [],
@@ -15,5 +19,15 @@
   "unique_species_increment": 0,
   "revision_increment": 1,
   "run_record": "owl-pet/production/runs/20261127T0030Z-B2-cycle1-resume0030Z-115-otus-lempiji-v5.json",
-  "stage": "STARTED"
+  "stage": "RESEARCH_READY",
+  "source_ids": [
+    "SUN-LOK-2009",
+    "WHSO-MIKKOLA-2013"
+  ],
+  "source_new": 0,
+  "source_reuse": 2,
+  "research": "2026-11-27 actualnewexternalquery + officialNUS Lok/Lee/Lim2009 NatureinSingapore2:31–38 bodyprinted38/PDF8 paragraphactualread https://lkcnhm.nus.edu.sg/wp-content/uploads/sites/11/app/uploads/2017/06/2009nis31-38.pdf : twoSingaporecnephaeusimmaturesbegged/oneflewtobranch, noage/firstflightclock. Earlierindexp37behaviourcitation inaccurate; laterexistingcorrectionp38 confirmed, notnewcorrectioncount. GuideMikkola2013printed162/PDF164 freshlyread explicitlyJavaandMalayyoungcolourdiffer, broadoldername classificationnotcurrentuniversalmeasurements; oldStrixlempiji/Otusbakkamoenalempiji retained. Actual115v4opened: supportedbeggingyounggenericlabel doesnotstateSingaporecase vs hybridnominateplumage; add ageunknown andregionalaction-scope caption, preserveanatomy. No morphologyrepaintjustbecauseoneindividualflew; notallbeggingyoungflightproficient. Near-equaladultcompositionnotsexratio. No depictednest/materials. New0/reuse2; sciencefalse, actualphotofigurepixelsnotfreshlyclaimed.",
+  "full_prompt": "Use case: precise-object-edit. Inputtarget115v4.\nChange only rightbird label \"JUVENILE\" to two readable lines \"OLDER JUVENILE\" / \"AGE UNKNOWN\". Add one small bottom line \"BEGGING POSE: SINGAPORE CASE · SUBSPECIFIC COLOURS UNVERIFIED\" in matching quiet serif typography in lower emptyspace. Preserve exactly3birds in originalmale/female/youngorder, all morphology/eye/bill/feathers/feet/beggingposture/wings/shorttail, allbranchsupports, adultscale, lowlandwoodland andtitle/adultlabels. Annotationonly; no anatomicaledits, no exactage/flight/independenceclaim, no nest/prey/eggs/watermark/frame.",
+  "research_record": "owl-pet/research/species/115-otus-lempiji-v5.md",
+  "review_record": "owl-pet/research/reviews/115-otus-lempiji-v5-review.md"
 }

@@ -337,3 +337,7 @@ Image-onlyscopegap in115v4→primarySingaporecase printed38notuniversalJavajuven
 
 ## 2026-11-27 0030Z 110-megascops-barbarus-v8
 Actual brown-morph juvenile photo access upgraded the existing CAYAYA index entry. Replacing adult-like scales with diffuse mesoptile bars worked visibly in #110 v8, but two targeted attempts to remove fine curly fibers did not demonstrate a sufficient repair. Keep NEEDS_REVISION and science=false; preserve first attempt, both prompts, final original and immutable-byte verification. Do not count textual negative constraints as a validated loop-removal rule. #112 has the related unresolved texture problem; its current v7 was also actually reviewed this invocation, so both are priority candidates. Photo/print guide supports age-unknown mesoptile, not precise age, flight or nest occupancy. No morphology transferred from rufous photo to brown juvenile.
+
+
+## 2026-11-27 0125Z 112-asio-abyssinicus-v8
+Low microcontrast whole-down surface prompt tested in112v8; loops remain, NEEDS_REVISION. Targeted negative/curl prompts and this material rewrite not proven effective; do not reuse as successful rule. Actual Maton reference supports older formed-wing stage, no newborn assumptions. Cross-check110 next as related material defect. Bootstrap parser error occurred before main mutation; fixed by honoring structuredContent.sha.

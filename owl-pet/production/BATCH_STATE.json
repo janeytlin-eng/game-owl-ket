@@ -57052,8 +57052,8 @@
     },
     {
       "batch_id": "20261127T1232Z",
-      "status": "PARTIAL",
-      "next_cycle": 6,
+      "status": "COMPLETE",
+      "next_cycle": null,
       "completed_cycles": [
         {
           "cycle": 1,
@@ -57089,17 +57089,19 @@
           "commit_sha": "56a919e45ce982d2d3e7e46477dd32c8398ff400",
           "archive_commit": "c21864bb98b891cb8bd779b6ee58f90bedaa6a54",
           "run_record": "owl-pet/production/runs/20261127T1232Z-cycle5-20261127T1232Z-130-megascops-koepckeae-v11.json"
+        },
+        {
+          "cycle": 6,
+          "species": "130-megascops-koepckeae-v12",
+          "commit_sha": "9446172c7c657b4565d8d5fd718a55624226b8c5",
+          "archive_commit": "47684b5e8122e7161f59dd9c5a2fc574f5d7bc74",
+          "run_record": "owl-pet/production/runs/20261127T1232Z-cycle6-20261127T1304Z-130-megascops-koepckeae-v12.json"
         }
       ],
       "started_at": "2026-11-27T12:38:54.308Z"
     }
   ],
-  "lease": {
-    "owner": "20261127T1304Z",
-    "run_id": "owl-pet/production/runs/20261127T1232Z-cycle6-20261127T1304Z-130-megascops-koepckeae-v12.json",
-    "heartbeat_at": "2026-11-27T13:08:12.407Z",
-    "expires_at": "2026-11-27T13:23:12.407Z"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -58066,7 +58068,7 @@
       "credited": false
     }
   ],
-  "in_progress": true,
+  "in_progress": false,
   "previous_checkpoint": {
     "batch_id": "20261112T043100+0800",
     "cycle": 3,

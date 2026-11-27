@@ -21,11 +21,15 @@
     {
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-27T23:38:44.901Z"
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-27T23:38:49.889Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T2326Z-cycle1-20261127T2326Z-120-megascops-ingens-v10.json",
-  "stage": "IMAGE_GENERATED",
+  "stage": "REVIEWED",
   "research": "New0/reuse2. RIS-ORDONEZ-2022-LEAD LeonardoOrdonezDelgado/FreddyRamonCastillo/AngelPinedaDiaz2022 NeotropicalBiodiversity8(1):301–304 DOI10.1080/23766808.2022.2123729; actualAUTHORPUBLICFULLTEXT nowopened https://www.researchgate.net/publication/364265788_Primer_registro_del_polluelo_y_nuevos_datos_del_nido_del_Autillo_Rojizo_Megascops_ingens_Strigiformes_Strigidae_en_Zamora_Chinchipe_sureste_de_Ecuador printed302bodylines317–361 actuallyread, notsearchabstract. One26Oct2020ZamoraChinchipeyoung: beige/whitedown, darkface/whiteforehead, graybill/paleyelloweggtooth, OPEN EYES withDARKCOFFEEBROWNIRIS/blackpupils; stronglydevelopedbarredremiges, defensivepartwingopening/billclap. Estimated20–30d notknownhatchage; later25–30estimateandabstract2.5m versusbody110cmconflictsretained, no universalclutch/flight inference. Currentv9actualiris moregolden/honey thanprimarycoffeebrown; targetonlythatindividual-stageyoungiris, notadulttransfer. No newfigurepixelviewclaimedthiscycle (bodytextenoughforcolour, oldsourcefigurehistorical). RIS-MIKKOLA-2013-P229 sameMikkola2013 uploadedactual229/PDF231 textread: ADULT honeybrowniris/oliveyellowbill/palehornclaws, female+28gmassnotheight; dark-scallopedcrown legitimate notgenericplaincrown. Preserveoldadultunderpartfixandformedyoungwing. CurrentMingens/oldOtus/Scopsingens southeastEcuadorcase notwesterncolombianus, no251change. Access28Nov2026Shanghai; sourcefamilyreuse notnewpaper. Ageflightsex/microgeometryunknown, sciencefalse. Versionmax9enumerated10new.",
   "full_prompt": "Precise-object-edit #120 Megascops ingens v9 trio: CENTRAL JUVENILE IRIS COLOUR ONLY. Primary observed Ecuador juvenile has DARK COFFEE-BROWN irises and BLACK pupils. Replace existing golden/honey/yellow-brown coloured iris ring with natural very dark rich coffee-brown iris, clearly brown but lowcontrast relative blackpupil; preserve realistic eye glint, exact eye outline/position/open expression, dark face, surrounding pale forehead/down. Do NOT change adult honeybrownirises or pinkish rims. Keep juvenilegraybill/paleyelloweggtooth/openbeak/whitedown-over-beigebody/fullyformedbrownbarredremiges/tail/feet/pose/stumpsupport untouched: it is estimated20–30d not hatchling. Preserve bothadults lighterfinevermiculatedunderparts/fewthinshafts/tufts/oliveyellowbills/yellowgraytoes/palehornclaws andallscene/labels/footer. v9→v10. No flightclaim/nestgeometry/knownhatchage or broadspeciesirisrule.",
   "source_ids": [
@@ -57,5 +61,7 @@
   "imagegen_wait_seconds": 30.111,
   "editing_wait_seconds": 0,
   "imagegen_invocations": 1,
-  "review_result": "PASS_WITH_LIMITATIONS"
+  "review_result": "PASS_WITH_LIMITATIONS",
+  "review": "Actualv9/v10fullimages compared, primaryprinted302irisdescription read. Youngiris visibly darkcoffee-brown ratherthangolden/honeyring; blackpupil/glint andeyesopen/darkface/graybill/paleyelloweggtooth/whiteresidualdownoverbeigebody/formedbrownbarredremiges preserved. Adult honeybrowneyes/oliveyellowbills/fineadultunderparts/palehornclaws/yellowgraytoes unchanged, no forcedsexheightratio. Allstumpfootcontacts/olderdefensiveopenbill/forest/estimatedage-flightunverified/v10labels retained. PWLlocalindividual-stageiriscolourcorrectiononly; nofigurepixelverificationthiscycle, exacthatchage/flight/continuouschronology/microplumageunknown. Sourceprimarynowactuallyreadsupersedespriorinaccessible-body limitationforcurrentrun, notnewindependentpublication. Firsttoolreferencereadtransportclosedfailedwithoutoutput; inputls+viewvalid andbuiltinretryproducedoneimage, record2attempts/1success, nofailedoutputcredit. Lesson don'tborrowadult honeyiris onto documentedyoungdarkcoffee; colourfactscopedtoone observedyoung, notallspeciesages. Sciencefalse.",
+  "reviewed_at": "2026-11-27T23:38:49.873Z"
 }

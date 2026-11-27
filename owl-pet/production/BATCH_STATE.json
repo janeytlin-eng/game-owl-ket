@@ -56738,9 +56738,21 @@
           "verified_at": "2026-11-27T05:54:24.529Z"
         }
       ]
+    },
+    {
+      "batch_id": "20261127T0532Z-B2",
+      "status": "PARTIAL",
+      "started_at": "2026-11-27T05:55:03.848388+00:00",
+      "next_cycle": 1,
+      "completed_cycles": []
     }
   ],
-  "lease": null,
+  "lease": {
+    "owner": "20261127T0532Z",
+    "run_id": "20261127T0532Z",
+    "heartbeat_at": "2026-11-27T05:55:04.472442+00:00",
+    "expires_at": "2026-11-27T06:10:04.472442+00:00"
+  },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -56905,7 +56917,12 @@
       "verification_commit": "7ce90fc5a92951b9ff9295bff361e1623c6f9a0a"
     }
   ],
-  "active_lease": null,
+  "active_lease": {
+    "owner": "20261127T0532Z",
+    "run_id": "20261127T0532Z",
+    "heartbeat_at": "2026-11-27T05:55:04.472442+00:00",
+    "expires_at": "2026-11-27T06:10:04.472442+00:00"
+  },
   "last_updated_at": "2026-11-27T01:49:31.648Z",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
@@ -57707,7 +57724,7 @@
       "credited": false
     }
   ],
-  "in_progress": false,
+  "in_progress": true,
   "previous_checkpoint": {
     "batch_id": "20261112T043100+0800",
     "cycle": 3,
@@ -64300,9 +64317,9 @@
       }
     }
   ],
-  "active_batch_id": "20261127T0426Z-B2",
-  "active_cycle": null,
-  "current_stage": "IDLE",
+  "active_batch_id": "20261127T0532Z-B2",
+  "active_cycle": 1,
+  "current_stage": "STARTED",
   "next_cycle": 7,
   "unique_species_count": 207,
   "total_species": 251,
@@ -85663,7 +85680,7 @@
     }
   ],
   "last_archive_commit": "713936f8adecd990fb7c938cb1240c4cc9b1ba6c",
-  "active": false,
+  "active": true,
   "phase_events": [
     {
       "batch_id": "20261112T043100+0800",
@@ -86578,7 +86595,7 @@
   "unique_species": 207,
   "last_verified_species_id": 68,
   "last_verified_species": "Tyto tenebricosa",
-  "active_species": null,
+  "active_species": "135-otus-silvicola-v9",
   "last_completed_cycle": 2,
   "last_verified": "2026-11-26T16:48:25.554Z",
   "unique_species_count_recomputed": 207,

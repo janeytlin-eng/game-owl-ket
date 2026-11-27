@@ -1,0 +1,3 @@
+# 110-megascops-barbarus-v11
+Status:NEEDS_REVISION; scientifically_verified=false
+Actualtarget/sourcephoto/outputfullviewed. One-stageactualphoto-guidederase-and-rebuild didnotremove inheritedoutlinedU/closedloopfiberespeciallybelly; littlematerialimprovement, NEEDS_REVISION. Photoboundedgraybrownbarredmesoptile/palebelly/yellowiris/greenbill/narrowbrow/notufts/compactwing/hidden tail/twofeetbranch retained. Adults/tufts/beard/yelloweyes/greenbills/pinktoes/full6supports/title/labels/forest retained. No newage/flight/nestclaim. Strategyfailedthiscase, cannotassertsamepromptpreventsloops orsciencepass. Preservev10studyandv11distinctattempt; changegenerationstrategybeforeanothernear-identicaltextattempt.

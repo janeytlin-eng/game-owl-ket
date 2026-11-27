@@ -1,0 +1,4 @@
+# 216-otus-thilohoffmanni-v4 actual review
+Actual complete output viewed. All three hard bill surfaces are paler low-saturation ivory-yellow; pink ceres and role eye colours remain distinct. Adult heights/plumage/feet/contact and juvenile incomplete disc/pseudo-crown corners/formed wings remain qualitatively stable. Local palette adjustment realized; source conflict primary whitish vs book yellowish retained, no asserted biological error resolved. Whole plate scientific false, exact colour calibration and young age/flight/nest unknown. No immediate further edit indicated for chosen bounded palette. Rule: read actual source wording before declaring colour defect; initial research misstatement corrected before generation. PASS_WITH_LIMITATIONS.
+
+{"bytes":2490477,"sha256":"92666c28c04dde5f64c478273f7e2cf9b40510019af0d58195b2c50934364796","gitblob":"b34bc999d13609950f752262d7ef79f199644635","size":[1536,1024]}

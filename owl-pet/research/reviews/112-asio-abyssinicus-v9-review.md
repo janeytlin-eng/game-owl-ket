@@ -1,0 +1,6 @@
+# 112-asio-abyssinicus-v9
+Status: PASS_WITH_LIMITATIONS; scientifically_verified=false
+
+Standalone and integrated full originals actually viewed. Independentstudy with photo-only biologicalinput reduced the inherited closed-ring pattern; integratedyoung nowreads as soft irregular shaded masses with fine fuzz, rather than repeated traced yarnloops ofv8. Target visibly improves/passes with limitations: somefinewisps remain, no measured featherdensity or literalfeathergeometryapproval. Darkface/orangeeyes/darkbill/palecrownpatch, formedlongfoldedwing/barredtail/sourceolderstage retained. Juvenilefeetgraybrown/visibletoes branchsupport akinphoto, adultfullyfeatheredfeet unchanged; don'tderive juveniletoecovering fromadult. Bothadultnetpattern/eyes/blackbills/tufts/nearequaldisplay,exactthreebirds/sixfeet,labels/humidEthiopianmountainforest/branchretained. No nest/newborn/flight/exactageassertion. Scientificfalse; exactyoungsex/age/growthunknown. Two-step materialstudy→integration is visuallysupported for thisoneplate, not yet generalrule. Fullstudyandprompt archived separately, notcountedasspecies/subround.
+
+[Sources/fullprompt](../species/112-asio-abyssinicus-v9.md)

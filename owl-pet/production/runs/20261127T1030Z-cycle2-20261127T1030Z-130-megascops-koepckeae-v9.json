@@ -32,11 +32,15 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-27T10:45:52.465Z"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-27T10:46:36.091Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T1030Z-cycle2-20261127T1030Z-130-megascops-koepckeae-v9.json",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "research": "Access2026-11-27 #130 Megascops koepckeae v9, unique+0. Actualv8 full and priorreview read: highlyfluffy closedloops unlike primary'scompactfinebarredmesoptile. KOEP-ALARCON-2023 existingID, Alarcón etal2023 Reproductive events of birds fromSouthernEcuador, NeotropicalBiodiversity9:93–114 DOI10.1080/23766808.2023.2237229; targetedwebsearch executed. Publisherbodyopen403/universityPDFweb400tooLarge; existing34951163byteinstitutionPDF original printed104/PDF13 text actuallyreread andprinted95/PDF4Fig1c pixels actuallyviewed, research-onlypanelcextractedfromPDF excludingallothertaxa. URL https://biologia.uazuay.edu.ec/sites/biologia.uazuay.edu.ec/files/public/ReproductiveeventsofbirdsfromSouthernEcuador.pdf . TwoLoja fledglingsparentalcare23Apr2019/2131m shrub, retaineddown/finegraywhitebarring/brownchest/blackfaceedge/WHITEbrows/yelloweyes; perchedPodocarpusbranches3–4m. Noexactage/flightthreshold/subspecies. Actualphoto supports compactbarredsurface ratherthanextendedwool; frognotcopyintoart. Do NOT misassign adjacentgnateaternestmaterialstoowl.\nKOEP-MIK2013-222 sharedguide actualprinted222/PDF224 read: adultsexsizeunknown, featheredlightyellowbrownspeckledtarsi/graybrowntoes/darkhornclaws, bluishgreenhornbill; adultbrowcriterion notappliedyoungwhitebrow. HistoricalKOEP-FJELDSA-2012-P180-191 regionalvariation retainedcontextonly/nofreshreadclaim. OldOtus=currentMegascopskoepckeae.\nNewstrategy unlikev8surfacewordsonly: replaceENTIREcentraljuvenile shape/surface withphoto-boundedcompactolderfledgling basedonactualFig1c, retainrelativebody/feetbranch/labels, naturalperchedheadtiltallowed, do notinventflight/nest. New0/reuse2actuallyreadIDs(+historicalcontextnotnewsource). Ruleunprovenuntiloutput. Graycompactbodyratherthanbrownfluffycoat is sourcecase, notallpopulations. Exactage/sex/firstflight/subspeciesunknown, sciencefalse.",
   "full_prompt": "Use case precise-object-edit. Image1 TARGET is #130 Koepcke's Screech-Owl family v8. Image2 is actual species fledgling Fig1c from Alarcon2023, BIOLOGICAL REFERENCE. Replace the ENTIRE CENTRAL JUVENILE, not merely surface hairs, using reference's compact dense gray finely transverse-barred mesoptile, subtle brown breast wash, white eyebrow patches, black facial edge, yellow eyes, bluish-gray bill. Existing target center is overly brown woolly with ringlet loops: do not preserve that coat. Rebuild as compact older fledgling with reference's coherent short feather surface and tight fine gray-white bars, short formed folded wing that is integrated with body, restrained residual down, no long hairy outline or closedUloops. Keep currentbodycenter/overallscale and BOTH feet naturally gripping originalbranch; head may retain slightrighttilt. Avoid copying prey/frog, watermark, background or exact pose. Tail concealed, no extra remiges or new age/flight assertion. BOTH adultbirds and allotherimagecontent stay unchanged, including buffyellow brown-flecked TARSAL FEATHERS/graybrownBARETOES/darkhornclaws/sizes/eyes/bills/forest/labels. Exactly3birds6supportedfeet. Addv9totitle and discreet 'CONCEPT · SCIENTIFIC CALIBRATION PENDING' footer. Preserve confirmed family-plate visual style but center phenotype governed by actualphoto, not mammalian fur.",
   "source_ids": [
@@ -69,5 +73,8 @@
   },
   "generation_wait_seconds": 35.177,
   "review": "#130v9 review NEEDS_REVISION/sciencefalse\nActuallyviewedv8/fullprimaryFig1c/initialv9/editedv9full. Entirejuvenile reconstructionproducedcompactgrayratherthanbrownwoolcoat andmorecoherentfinecrossbars/whitebrows/yellowiris/blackfaceedge, closeroriginal2019Loja case. Initialv9introducedbrightwhiteadultlikefoldedwingspots notestablishedinphoto; secondtargetededitremovedbrightspots andblendedcompactformedwingintograybody, actualrecheckconfirmsreduction. Keptformedwing appropriate documentedfledgling, didnotimposehatchlingwingbud.\nResidualoutlinedclosedU/scallopedunitsstillvisiblehead/belly, exactfeatherfidelityunresolved. ThereforeNEEDS_REVISION, partialshape/colour/wingcontrastimprovementonly; nofullmaterial/sciencepass. Bothadultstarsi/toes/claws/near-equaldisplay/3birds6supports/titlev9/footer retained; centralage/sex/flight/subspeciesunknown, nofrog/nestcopied. Sourceprinted104text/95Fig1c, adjacentgnateatermaterialnotowlnest. Newstrategyactualwholejuvenilerebuildimprovedcasepalette/compactness, notvalidatedgeneraltexturefix; backcheck134againstitsownphoto, don'ttransferLojaoutfit.",
-  "status": "PASS_WITH_LIMITATIONS"
+  "status": "PASS_WITH_LIMITATIONS",
+  "archive_commit": "cb4f89f6cddbc2a1ef601bd45ff41ce724d4f274",
+  "verification_exit_code": 0,
+  "verified_at": "2026-11-27T10:46:36.068Z"
 }

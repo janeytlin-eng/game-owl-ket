@@ -20,6 +20,10 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-27T02:53:07.368Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T02:55:07.320Z"
     }
   ],
   "errors": [],
@@ -27,7 +31,7 @@
   "unique_species_increment": 0,
   "revision_increment": 1,
   "run_record": "owl-pet/production/runs/20261127T0231Z-B2-cycle2-resume0231Z-120-megascops-ingens-v7.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "source_new": 0,
   "source_reuse": 3,
   "source_ids": [
@@ -52,5 +56,19 @@
     },
     "wait_seconds": 37.846,
     "review": "Actualoutputviewed: adultpinkrims too saturated/prominent, closer to unwanted broad decorative ring; requires muted narrowing beforefinalarchive."
-  }
+  },
+  "generation_calls": 2,
+  "generation_wait_total_seconds": 126.44,
+  "image_meta": {
+    "bytes": 2580695,
+    "sha256": "ed89b0af1b23acf0c0b1c3b41fdda72ad06be27e73981f3b0e6b684bb0ba9ebc",
+    "git_blob": "7b001105eff394b886b76e50b9233faeda7b6fe8",
+    "size": [
+      1536,
+      1024
+    ],
+    "b64len": 3440928
+  },
+  "generation_wait_seconds": 88.594,
+  "status": "PASS_WITH_LIMITATIONS"
 }

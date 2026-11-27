@@ -20,11 +20,15 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-27T10:44:34.043Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T10:45:40.242Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T1030Z-cycle2-20261127T1030Z-130-megascops-koepckeae-v9.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Access2026-11-27 #130 Megascops koepckeae v9, unique+0. Actualv8 full and priorreview read: highlyfluffy closedloops unlike primary'scompactfinebarredmesoptile. KOEP-ALARCON-2023 existingID, Alarcón etal2023 Reproductive events of birds fromSouthernEcuador, NeotropicalBiodiversity9:93–114 DOI10.1080/23766808.2023.2237229; targetedwebsearch executed. Publisherbodyopen403/universityPDFweb400tooLarge; existing34951163byteinstitutionPDF original printed104/PDF13 text actuallyreread andprinted95/PDF4Fig1c pixels actuallyviewed, research-onlypanelcextractedfromPDF excludingallothertaxa. URL https://biologia.uazuay.edu.ec/sites/biologia.uazuay.edu.ec/files/public/ReproductiveeventsofbirdsfromSouthernEcuador.pdf . TwoLoja fledglingsparentalcare23Apr2019/2131m shrub, retaineddown/finegraywhitebarring/brownchest/blackfaceedge/WHITEbrows/yelloweyes; perchedPodocarpusbranches3–4m. Noexactage/flightthreshold/subspecies. Actualphoto supports compactbarredsurface ratherthanextendedwool; frognotcopyintoart. Do NOT misassign adjacentgnateaternestmaterialstoowl.\nKOEP-MIK2013-222 sharedguide actualprinted222/PDF224 read: adultsexsizeunknown, featheredlightyellowbrownspeckledtarsi/graybrowntoes/darkhornclaws, bluishgreenhornbill; adultbrowcriterion notappliedyoungwhitebrow. HistoricalKOEP-FJELDSA-2012-P180-191 regionalvariation retainedcontextonly/nofreshreadclaim. OldOtus=currentMegascopskoepckeae.\nNewstrategy unlikev8surfacewordsonly: replaceENTIREcentraljuvenile shape/surface withphoto-boundedcompactolderfledgling basedonactualFig1c, retainrelativebody/feetbranch/labels, naturalperchedheadtiltallowed, do notinventflight/nest. New0/reuse2actuallyreadIDs(+historicalcontextnotnewsource). Ruleunprovenuntiloutput. Graycompactbodyratherthanbrownfluffycoat is sourcecase, notallpopulations. Exactage/sex/firstflight/subspeciesunknown, sciencefalse.",
   "full_prompt": "Use case precise-object-edit. Image1 TARGET is #130 Koepcke's Screech-Owl family v8. Image2 is actual species fledgling Fig1c from Alarcon2023, BIOLOGICAL REFERENCE. Replace the ENTIRE CENTRAL JUVENILE, not merely surface hairs, using reference's compact dense gray finely transverse-barred mesoptile, subtle brown breast wash, white eyebrow patches, black facial edge, yellow eyes, bluish-gray bill. Existing target center is overly brown woolly with ringlet loops: do not preserve that coat. Rebuild as compact older fledgling with reference's coherent short feather surface and tight fine gray-white bars, short formed folded wing that is integrated with body, restrained residual down, no long hairy outline or closedUloops. Keep currentbodycenter/overallscale and BOTH feet naturally gripping originalbranch; head may retain slightrighttilt. Avoid copying prey/frog, watermark, background or exact pose. Tail concealed, no extra remiges or new age/flight assertion. BOTH adultbirds and allotherimagecontent stay unchanged, including buffyellow brown-flecked TARSAL FEATHERS/graybrownBARETOES/darkhornclaws/sizes/eyes/bills/forest/labels. Exactly3birds6supportedfeet. Addv9totitle and discreet 'CONCEPT · SCIENTIFIC CALIBRATION PENDING' footer. Preserve confirmed family-plate visual style but center phenotype governed by actualphoto, not mammalian fur.",
   "source_ids": [
@@ -44,5 +48,16 @@
   },
   "initial_wait": 45.052,
   "initial_review": "Graycompactbody materiallycloser primaryphoto thanv8, but bright white adultlike wingcovertspots introduced; remove unsupportedcontrast, residualclosedbellyunits remain.",
-  "edit_prompt": "Edit ONLY the folded wing of the CENTRAL JUVENILE in #130v9. Its new left-side wing has conspicuous bright white adult-like spots that are not established in the low-resolution biological reference. Reduce those spots to muted gray-brown diffuse feather mottling and faint fine transverse shading, blending the compact formed folded wing gently into the juvenile gray mesoptile body. Preserve a formed wing appropriate to a documented fledgling; do NOT replace it with a hatchling wing bud, do NOT lengthen it, no rigid adult plume panels. Keep entire juvenile gray fine-barred body and subtle brown chest, white brows, black faceedge, eyes/bill, feet/branch/currentshape. All adultbirds, labels, forest, v9title/footer unchanged. No new biologicalclaim."
+  "edit_prompt": "Edit ONLY the folded wing of the CENTRAL JUVENILE in #130v9. Its new left-side wing has conspicuous bright white adult-like spots that are not established in the low-resolution biological reference. Reduce those spots to muted gray-brown diffuse feather mottling and faint fine transverse shading, blending the compact formed folded wing gently into the juvenile gray mesoptile body. Preserve a formed wing appropriate to a documented fledgling; do NOT replace it with a hatchling wing bud, do NOT lengthen it, no rigid adult plume panels. Keep entire juvenile gray fine-barred body and subtle brown chest, white brows, black faceedge, eyes/bill, feet/branch/currentshape. All adultbirds, labels, forest, v9title/footer unchanged. No new biologicalclaim.",
+  "image_meta": {
+    "bytes": 2560623,
+    "sha256": "628715a2d3c651c5cc6bd4532449150c710af3d76a0e800526eda77dd8a6b018",
+    "git_blob": "aedfd8bcc2d5254a43dc2b81ab26363fcd44c989",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "chars": 3414164
+  },
+  "generation_wait_seconds": 35.177
 }

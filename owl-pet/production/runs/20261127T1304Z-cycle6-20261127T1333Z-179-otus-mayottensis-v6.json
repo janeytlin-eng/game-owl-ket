@@ -12,16 +12,32 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-27T13:35:44.166Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T13:37:03.078Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T1304Z-cycle6-20261127T1333Z-179-otus-mayottensis-v6.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Access2026-11-27 currentOtusmayottensis oldOtusrutilusmayottensis, Scopshumbloti nomen nudum notvalidoriginal. Reuse MAYS-MIKKOLA-2013-P139 sameuploadedMikkola2013 printed139/PDF141 actuallyread: WHITE THROAT prominentlydarkstreaked/barred, brownbellywithblackshafts/vermiculations, onlyfewwhitescapularareas/no clearstripe, yelloweye/grayhornbill, graybrowntoes/darkgraybrownclaws; femaleslightlylongerwing notheight. Currentv5actualview throat predominantlybrown beneathbill, insufficientwhitebase; v6whitishthroatONLY retainingdarkmarks/notwhitebiborbelly. Reuse MAYS-OISEAUX-BAUER-2008-ADULT MikaelBauerDec2008CombaniMayotte https://www.oiseaux.net/photos/mikael.bauer/petit-duc.de.mayotte.1.html actualfreshmetadataopenedandoriginalphoto downloaded/viewed https://www.oiseaux.net/photos/mikael.bauer/images/petit-duc.de.mayotte.miba.1g.jpg adultidentity/plumageonly; nosexualorjuvenilechronology. Existingv5MNHNidentityrecord saysimmatureONLY, noyoungphenotype, historicalnotfreshlyread; sourceyoungunknown remains explicit. PriorMarshallshortbaretarsusseparatebookconflict retainednotredrawn. Designnoage/flight/nest/newhatchlingdetails, youngv5unknownrenderunchangednotvalidated. New0/reuse2 sourceIDs; broadcolourguide-only, sciencefalse.",
   "full_prompt": "Edit this #179 Otus mayottensis family plate: only BOTH ADULTS' small THROAT feather area immediately under bill/chin. The underlying throat feathers should be WHITISH with conspicuous DARK STREAKS AND CROSSBARS still crossing them, rather than brown ground. Small localized natural white throat, NOT a solid giant white bib, NOT white breast/belly or bright scapular stripes. Preserve all existing dark throat markings, the brown shaft-streaked chest, reduced tiny white scapularflecks, yelloweyes/grayhornbills, adultnear-equalscale, shortbaretarsalpart andscalygraybrowntoes/darkclaws, allsix footcontacts. Keep RIGHT ageunknownimmature entirely unchanged, existing plumage/age/iris/flight unverified footer unchanged. Sameevergreenforest/branch/title/labels/style. Add small 'v6' nexttitle only; no editing terms, no newage/flight/nest.",
   "source_ids": [
     "MAYS-MIKKOLA-2013-P139",
     "MAYS-OISEAUX-BAUER-2008-ADULT"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "image_meta": {
+    "bytes": 2762609,
+    "sha256": "752127804de6203a0f1ac30c7fcd697fe31b3f2ae8cc9d71e23046b50df7fbc6",
+    "git_blob": "9ed72d374b0bcef88adb302e2c6def714a498322",
+    "dimensions": [
+      1536,
+      1024
+    ]
+  },
+  "generation_wait_seconds": 39.04,
+  "review": "#179v6 actualv5/fieldadultphoto/generatedwholeviewed. Smalladultthroatwhitishgroundnowvisiblebeneathbothbills withdarklines/barring retained; becomes narrowVcollar, preciseextentnotcalibrated. Bauerphoto headtilted/shadedthroat doesnotindependentlymeasurewhiteextent; colourgoalguide139only, notpopulationproof. Brownventrum/reducedshoulderflecks/yelloweyes/grayhornbills/near-equaladultbody/shortbaretarsus/graybrowntoes/darkclaws retained, threebirds6footcontacts/evergreenbranch/labels/v6/footer intact. Youngunchangedclosedeyes/unknownplumage, museumimmatureidentityNOTphenotypeevidence; no youngscientificpass. Problemuncontrastedbrownthroat→bookwhitethroatwithdarkmarks→localedit→whitishbasevisuallyseen, actualfeatherextentstillpending. New0/reuse2/sciencefalse/PASS_WITH_LIMITATIONS. Needindependentproperlylitadultthroatphoto beforecalibration.",
+  "status": "PASS_WITH_LIMITATIONS"
 }

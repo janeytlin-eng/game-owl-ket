@@ -24,12 +24,16 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-27T03:32:34.023Z"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-27T03:33:19.022Z"
     }
   ],
   "errors": [],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T0231Z-B2-cycle3-resume0329Z-121-ninox-leucopsis-v6.json",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "source_ids": [
     "TBO-MIKKOLA-2013-P463",
     "TBO-ABSA-AGEING-2019",
@@ -51,5 +55,9 @@
   },
   "generation_wait_seconds": 36.26,
   "status": "PASS_WITH_LIMITATIONS",
-  "review": "Actual input/output viewed: compact distinct whitish adult throat patches added, notwholebreastwhite; goldenyellowiris/greybill/tuftlesshead/smallwhitecrownspots/rufousocelli/cinnamonlegfeathers/pinkgraytoes/darkclaws retained. Youngunchanged darkdown/yelloweyes/shortfoldedwing/hidden tail/unknownage/2feetlipcontact; somecurlydown remainsconceptlimit. Exact3birds6feet/title/labels/eucalyptdusk preserved. PASS_WITH_LIMITATIONS onlyadultwhitethroat correction, notscientificcertification. Rejectgray-onlyfeet hypothesis perprimaryinstitutionABSA. Unknownyoungage/flight andexactcolourcalibration remain."
+  "review": "Actual input/output viewed: compact distinct whitish adult throat patches added, notwholebreastwhite; goldenyellowiris/greybill/tuftlesshead/smallwhitecrownspots/rufousocelli/cinnamonlegfeathers/pinkgraytoes/darkclaws retained. Youngunchanged darkdown/yelloweyes/shortfoldedwing/hidden tail/unknownage/2feetlipcontact; somecurlydown remainsconceptlimit. Exact3birds6feet/title/labels/eucalyptdusk preserved. PASS_WITH_LIMITATIONS onlyadultwhitethroat correction, notscientificcertification. Rejectgray-onlyfeet hypothesis perprimaryinstitutionABSA. Unknownyoungage/flight andexactcolourcalibration remain.",
+  "archive_commit": "b9f253517571c262913b692d82563bf53ab8dc8b",
+  "verify_exit0": true,
+  "ended_at": "2026-11-27T03:33:18.998Z",
+  "lesson": "Applied/reviewed smallwhiteadultthroat perguidep463. ABSA2019primaryinstitution lists pinkgreyadultfeet, so discarded gray-only correction despite guidepalette. Keep fact/individualvariation separate; patchrendering remainsdesign, youngage/flight unknown. No scienceapproval."
 }

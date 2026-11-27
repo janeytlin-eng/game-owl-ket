@@ -381,3 +381,7 @@ Adult brow correction is distinct from juvenile down-material problem. Mikkola p
 
 ## 2026-11-27 0231Z 120-megascops-ingens-v7
 Pink eyelid descriptor alone produced oversaturated broad rings in first #120v7 attempt. Actual re-edit reduced prominence, evidence recorded, both attempts archived (initial undefined blob_sha corrected to git_blob before VERIFIED). Follow-up prompts should distinguish thin anatomical lid edge from decorative facial ring and avoid transferring prominent Colombian-species lids. This correction is locally observed; juvenile curl remains unresolved.
+
+
+## 2026-11-27 0329Z 121-ninox-leucopsis-v6
+Applied/reviewed smallwhiteadultthroat perguidep463. ABSA2019primaryinstitution lists pinkgreyadultfeet, so discarded gray-only correction despite guidepalette. Keep fact/individualvariation separate; patchrendering remainsdesign, youngage/flight unknown. No scienceapproval.

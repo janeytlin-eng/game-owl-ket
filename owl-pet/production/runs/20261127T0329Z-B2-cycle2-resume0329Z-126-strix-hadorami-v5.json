@@ -12,12 +12,21 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-27T03:44:41.187Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T03:45:51.070Z"
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "stage": "RESEARCH_READY",
+      "error": "Institution PDF URL local payload rendered as shorter document; page11 IndexError. Webtext primary read succeeds; screenshot no pixel. No photo reread claimed."
+    }
+  ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T0329Z-B2-cycle2-resume0329Z-126-strix-hadorami-v5.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "source_ids": [
     "DESO-KIRWAN-2015",
     "DESO-BENDOV-2017"
@@ -25,5 +34,18 @@
   "full_prompt": "Precise-object-edit existing #126 Desert Owl Strix hadorami threebirdplate. Correct BOTH ADULT ventralpattern rendering ONLY: existing long evenly spaced orange scalloped bands look mechanical and overly uniform. Make the pale rufous CROSS-BARRING on cream-white breast and belly finer, lighter, naturally interrupted and uneven between individual feathers; narrow the marks and softly vary spacing, with somecreamfeatheredges breaking lines. Keep cross-barring clearly present and distinguishable: do NOT eraseit orreplace with darklongitudinalstreaks (those characterize easternbutleri). Maintain palecreamground, atmostfewfaintmesialstreaks, nearwhiteunmarkedvent/tightbuffwhitetarsi. No new stripes or spots. Preserve plainpalegrey-whitefacialdiscs/orangeeyes/greybills/crownspots/sandyupperparts/barredwingtail/near-equaladultsize. Centralestimatedc35dayyoung entirelyunchanged: residualbuffdown/compactformedfoldedwing/shortconcealedtail/amberirisprovisional/slightturn/bothfeetledgecontact. Keep exactthreebirds/sixsupportedfeet/titleandlabelsverbatim includingEST.c35-DAYFLEDGLING, aridlimestonewadi/cavity, establishedwarmnaturalisticpaintedpetstyle. No heartface/ear tufts/nestprey/flightclaim or forest.",
   "research": "Access2026-11-27. Actualv4image/researchviewed: adultventralpalerufousbars presentbutveryregularthickscalloprows, designrefinementtargetfinerlessuniformlightbars, notdiagnosticbarremoval. Fresh original Kirwan/Schweizer/Copete2015 Zootaxa3904(1):28-50 DOI10.11646/zootaxa.3904.1.2 actuallyread PDFbody https://nnhc.huji.ac.il/sites/default/files/nnhc/files/15-zootaxa-kirwan_schweizer_copete_compressed.pdf diagnosisprinted37(PDF11), holotypedescription39(PDF13): westernhadoramipalerufouscrossbarring vsbutleridarklongitudinalstreaks; paleventralground/fewinconspicuousmesialstreaks/nearwhiteunpatternedvent/buffwhitetrousers/paledisc. Crossbars remainvisiblediagnostic; exactwidth/irregularrenderingdesigninterpretation, notmeasuredspeciesrule. DownloadedlocalURLpayload didnotyieldexpected24pagePDF; attemptedpage11renderraisedIndexError, screenshottoolreturnedtextplaceholderwithoutviewablepixels. Therefore nofreshfigurepixelreadingclaim; primaryTEXTread usableandexistingv4 unchangedidentity.\nUploadedMikkola2013 printed318-319/PDF320-321 freshlyread oldbroadStrixbutleri account, IsraelDeadSeacaptions pertainwesterncontextbut2015splitprimarytakesprecedence. Do nottransfer oldeasternrangeorpaletteuncritically. Guidejuvenilegenericcomparisonnotnewtimeddata. HistoricalBenDovet al2017 DutchBirding39:285-307 recordreusedv4(c35dayestimatedfieldyoung/selffeeding/cavityroost), notfreshfulltextreadthisround; exacthatch/iris/flight/independenceunknown, keepestimatedagequalification andstationarytwofootrocksupport. No newsourceIDs/reuse2plusguide; newscientificpass0. Generationtargetsgraphicregularityonly; do notmisrepresent asnewbiologicaldiscovery.",
   "research_record": "owl-pet/research/species/126-strix-hadorami-v5.md",
-  "review_record": "owl-pet/research/reviews/126-strix-hadorami-v5-review.md"
+  "review_record": "owl-pet/research/reviews/126-strix-hadorami-v5-review.md",
+  "image_meta": {
+    "bytes": 2544208,
+    "sha256": "ea7e469a35cc7b5555601bb3234e6ca0265c2c97bf93386d562a73a6c52a5917",
+    "git_blob": "b0b90b6ad8f7718288cd38f7c8560becf31b4e73",
+    "size": [
+      1536,
+      1024
+    ],
+    "b64len": 3392280
+  },
+  "generation_wait_seconds": 36.39,
+  "status": "PASS_WITH_LIMITATIONS",
+  "review": "Actualfullinput/outputviewed. Adultpalerufousventralcrossbarsslightlyfiner/lighterandmorefeatherbroken; regularrowsstillvisible so onlymodestgraphicrefinement/PASS_WITH_LIMITATIONS, notmeasuredscientificcalibration. Importantdiagnosticcrossbarsretainednotreplacedverticalstreaks. Palegraywhitediscs/orangeiris/graybill/crownspots/sandyupperparts/barredwingtail/near-equaladults retained. Centralyoungdown/compactfoldedwing/hidden tail/amberiris/EST.c35-DAYqualification/twofeetrocksupport unchanged; closedloopdownmaterialstillunresolved. Threebirds/sixcontacts/text/limestonearidcavityretained. Primarybodyread; failedlocalPDFpageaccessnotcountedfreshphotoread. Whole-sciencefalse."
 }

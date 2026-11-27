@@ -1,0 +1,4 @@
+# 217-otus-longicornis-v4 actual review
+Actual complete final image viewed: juvenile repeated bold pale U/crescent rims substantially removed, grey soft down field and irregular brown transverse chest bands visible, head/back darker. Adult colour/size/eyes/bills/long tufts, three-role labels/footer and branch contact retained. Juvenile closed eyes, small compact wing/no long adult remiges/hidden tail and both grips retain stage-conservative supported resting pose. Fine head loops/individual band geometry still artistic, no measured stage chronology. PASS_WITH_LIMITATIONS/scientific false; texture reconstruction effective locally, not retroactive validation of unresolved #130/#134. Next check compare crop before applying elsewhere.
+
+{"bytes":2710063,"sha256":"76a1f90eb93b294f10ad73cc14e89f4d3b63cbfc523d444c610de184d19d3d05","gitblob":"b35d715423f23e4adfa1b6829b66c75d3c3aa5b4","size":[1536,1024]}

@@ -329,3 +329,7 @@ Adultwhiteplainshanks→guide494rufousochrebarredfeatheredtarsi→adultonlywarmb
 
 ## 2026-11-27 0030Z 115-otus-lempiji-v5
 Image-onlyscopegap in115v4→primarySingaporecase printed38notuniversalJavajuvenileage/colour→scope+agecaption added andread. Allanatomyunchangedvisually; no newlycalibratedphenotype. Taxon/region/behaviour must be separated, nottransfergenericwhite Malaydown toJavayoung. Applied115only, notnewrulevalidatedacrossspecies.
+
+
+## 2026-11-27 0030Z 116-margarobyas-lawrencii-v6
+116genericjuvenile/cavityscene lackedimage-visiblelimits→oldguideunderGymnoglauxname correctlymappedITIS→olderunknownage/cavitynotactiveproof captionadded andread. Allbarelegfeaturesretained. PrimaryoldURLnowgenericredirectandhugeguide400arenotfreshread; nofalsepaperaccessclaim. No scientificapproval.

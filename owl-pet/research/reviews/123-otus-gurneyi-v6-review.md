@@ -1,0 +1,3 @@
+# 123-otus-gurneyi-v6
+Status:NEEDS_REVISION; scientifically_verified=false
+Fullinput/output actuallyviewed. Someproximaladultclawareaslightenedgreyhorn butmostlengthstilldark; requestedpalehornbase/darktip differentiation insufficient, NEEDS_REVISION. Preserveunsolvedadultclawpalettequeue; noclaimofscientificfix. Brownadultirises/hornbill/longtufts/rufousfacialdisc/darkshaftstreaks/modestfemale-larger retained; juveniledarkeyes/pinkpurplelid/darkbill/graydown/shorttufts/narrowsideflightpanels/hidden tail retained, curlmaterialstillconceptlimit. Sixfeet contactcontinuousbranch/exact3birds/titlelabels/lowlandforestretained. Historicalguidepagereferencecorrected229→174 afteractualread, notnewpublication.

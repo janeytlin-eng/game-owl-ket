@@ -401,3 +401,7 @@ Adultlowerbellypattern taperedwhilebreaststreaksretained; visiblyeffectivein124v
 
 ## 2026-11-27 0329Z 125-ninox-philippensis-v6
 Undertailcoverts must be distinguished from rectrices. Targetedsmallwhitecoverts behindadultlegs retainedbrownbarredlongtail andventralstreaks, visuallyeffective125v6. No genericwhiteventruleforotherNinoxtaxa; paperexplicitlyseparatesspecies. Youngmuseumlocality/age/irisstillunknown.
+
+
+## 2026-11-27 0329Z 126-strix-hadorami-v5
+Oldbroadbutleri guide must be checked against2015split; primarydiagnosis37/description39 preserveswesternhadoramipalerufouscrossbars. Graphicregularitymodestlyreduced, exactwidthnotmeasuredscience. Primarytextread successful/localPDFpageattemptfailed explicitly, no freshphotopixelclaim. Keep126youngcurlmaterial and123clawpalette plus110priorcurl inunresolvedqueue.

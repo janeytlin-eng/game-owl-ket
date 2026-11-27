@@ -1,0 +1,3 @@
+# 123-otus-gurneyi-v7
+Status:PASS_WITH_LIMITATIONS; scientifically_verified=false
+Actualfullinput/outputviewed: adultclawsnowclearlypalecream-hornproximally/darkpointeddistaltips, improvementoverv6mostlyblackclaws. Scalytoeandclawsheathboundaries/geometry/grips retained. Adultbrowniris/graybill/rufousface/tufts/darkbodymarkings/modestlylargerfemale retained. Youngform/sideflightpanels/darkeyes/bill/pinkpurplelids/hidden tail/supportedfeet retained, but downsurface rerenderedslightlyflakier; exactpixelinvarianceNOTclaimed. Exact3birds/6feet/titlelabels/branch/lowlandforest retained. PASS_WITH_LIMITATIONS onlyadultclawpalette, juvenilematerial/age/flight/sexratio stillunknown, sciencefalse.

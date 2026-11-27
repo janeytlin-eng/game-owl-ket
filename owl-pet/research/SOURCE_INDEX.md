@@ -8670,3 +8670,7 @@ Historical concept #220 Tyto rosenbergii (old Strix rosenbergii), Sulawesi nomin
 [Research and full prompt](species/220-tyto-rosenbergii-v4.md) · [Review](reviews/220-tyto-rosenbergii-v4-review.md) · [Image](../design/concepts/220-tyto-rosenbergii-v4.png).
 
 220v4 pre-generation orthography correction: current original Cornell Lumps list spells rosenbergii doublei, so old singlei plaque will be corrected; no scope251 change.
+
+
+### 20261127T1429Z unverified original lead (not a verified new source)
+OANG-BECKING-1994-LEAD — Jan-Hendrik Becking1994, On the biology and voice of the Javan Scops owl Otus angelinae, BBOC114(4):211–224. https://www.biodiversitylibrary.org/part/76999 . Search discovery2026-11-27 only; primary fullbody NOT read, no design fact supported. BirdLife2001 synthesis independently indexed above is not equivalent to reading Becking original. Link: species/215-otus-angelinae-v4.md .

@@ -1,0 +1,546 @@
+{
+  "run_id": "20261127T1429Z",
+  "baseline_main": "e9b45f4f8357874ddb8fd32e0382f07d04616457",
+  "data_head": "69a5344c419c485b9e5aab2c4259dbcb13829dd1",
+  "checked_at": "2026-11-27T14:52:24.326Z",
+  "time_zone": "Asia/Shanghai",
+  "completed_this_invocation": 6,
+  "new_species": 0,
+  "revised_species": 6,
+  "counts": {
+    "numbered_images": 1295,
+    "numbered_ids": 219,
+    "canonical_species": 207,
+    "total": 251,
+    "numbered_image_versions": 1377,
+    "baseline_versions": 1371
+  },
+  "scientifically_verified_increment": 0,
+  "user_confirmed_increment": 0,
+  "source_index": "owl-pet/research/SOURCE_INDEX.md",
+  "new_verified_sources": 0,
+  "reused_source_id_references": 13,
+  "distinct_reused_source_ids": 13,
+  "publication_families_after_same_book_merge": 8,
+  "cycle_results": [
+    {
+      "run_id": "20261127T1429Z-216-otus-thilohoffmanni-v4",
+      "batch_id": "20261127T1333Z",
+      "cycle": 6,
+      "target": "216-otus-thilohoffmanni-v4",
+      "action": "REVISION",
+      "started_at": "2026-11-27T14:33:43.522Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T14:33:43.533Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T14:33:48.296Z"
+        },
+        {
+          "stage": "RESEARCH_READY_CORRECTION",
+          "at": "2026-11-27T14:34:05.667Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T14:35:49.946Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T14:35:56.562Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T14:36:01.342Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T14:36:49.521Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T1333Z-cycle6-20261127T1429Z-216-otus-thilohoffmanni-v4.json",
+      "stage": "VERIFIED",
+      "research": "Revision #216 v3→v4; species increment0. Reused OTHI-WARAKAGODA-2006-P68-71: Deepal Warakagoda2006, Sri Lanka's Serendib Scops Owl, BirdingASIA6:68–71. Original https://static1.squarespace.com/static/5c1a9e03f407b482a158da87/t/5c436e027ba7fc4a9adf38d0/1547922948533/serendibscops.pdf reopened2026-11-27, actual pp69/71 full body read. Adult bill/legs/claws whitish; male orange-yellow iris, female/young yellow. Fledged juvenile slightly smaller, incomplete disc, adultlike colours, horizontal roost twig, no exact age/nest/firstflight. Reused OTHI-MIKKOLA-2013-P180, uploaded book printed180/PDF182 reread for bill yellowish/pink cere and adult tarsus boundaries; IMPORTANT actual guide conflicts in wording with primary whitish bill. Full v3 inspected: exposed bill body in all3 appears saturated yellow gold; primary whitish versus guide yellowish is a recorded colour-description conflict, not proof the current bill is biologically impossible. Design change restricted to pale warm ivory bill shafts/tips, preserve pink cere and role eyes; no sex-height or fledgling-wing changes. Fine bill colour and age remain uncalibrated; scientific false. Existing earlier clawnondarkening rejected hypothesis retained, not counted as new fact. SourceID reuse2/new0/correction1 to this cycle's initial research wording (book says yellowish, not horn-white); no correction to historical bibliography.",
+      "full_prompt": "Edit this existing 216 Serendib Scops Owl Otus thilohoffmanni three-bird concept plate. Preserve the warm tactile natural-history rendering, all three individual birds, positions, near-equal adult body display, slightly smaller older fully fledged juvenile with incomplete disc and short pseudo-tuft crown corners, formed folded wings, plumage, rainforest, horizontal twig support, all text labels and footer. Make one bounded anatomical colour correction on ALL THREE exposed beaks: the hard bill below the pink cere should be pale warm ivory-yellow, subtly shaded grey at its underside, NOT saturated yellow/gold/green. Keep pink cere skin separate and unchanged. Keep male orange-gold irises and female/juvenile yellow irises unchanged. Preserve already pale ivory claws and pink lower tarsi/toes, do not darken them. Do not add true adult ear tufts or newborn down, do not modify adult heights or feather pattern. Primary2006 describes whitish and Mikkola2013 says yellowish: choose pale ivory-yellow intermediate with low saturation; this is a visual calibration under explicitly unresolved source colour wording, not a proven biological defect. This is a concept with scientific calibration pending, not a scientific approval. Return complete landscape plate.",
+      "source_ids": [
+        "OTHI-WARAKAGODA-2006-P68-71",
+        "OTHI-MIKKOLA-2013-P180"
+      ],
+      "new_sources": 0,
+      "research_ready_at": "2026-11-27T14:33:48.285Z",
+      "image_metadata": {
+        "bytes": 2490477,
+        "sha256": "92666c28c04dde5f64c478273f7e2cf9b40510019af0d58195b2c50934364796",
+        "gitblob": "b34bc999d13609950f752262d7ef79f199644635",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "imagegen_wait_seconds": 42.699,
+      "imagegen_invocations": 1,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "local_image": "production1429nov27/216-otus-thilohoffmanni-v4.png",
+      "review": "Actual complete output viewed. All three hard bill surfaces are paler low-saturation ivory-yellow; pink ceres and role eye colours remain distinct. Adult heights/plumage/feet/contact and juvenile incomplete disc/pseudo-crown corners/formed wings remain qualitatively stable. Local palette adjustment realized; source conflict primary whitish vs book yellowish retained, no asserted biological error resolved. Whole plate scientific false, exact colour calibration and young age/flight/nest unknown. No immediate further edit indicated for chosen bounded palette. Rule: read actual source wording before declaring colour defect; initial research misstatement corrected before generation. PASS_WITH_LIMITATIONS.",
+      "reviewed_at": "2026-11-27T14:35:56.552Z",
+      "archived_at": "2026-11-27T14:36:01.328Z",
+      "archive_commit": "6f9815831d4a5303587a4b99ea8ca2c870720f61",
+      "verification_exit_code": 0,
+      "ended_at": "2026-11-27T14:36:49.505Z",
+      "commit_sha": "b43e6cce84cccddb61b751cd84134c04889f1f53",
+      "credit_commit": "964f61bd68baa8e0b8d2691a792f5c84e3b531a8",
+      "observed_imagegen_tool_wall_seconds": [
+        39.1
+      ],
+      "phase_elapsed_seconds": {
+        "start_to_research_ready": 4.763,
+        "research_ready_to_image_persisted": 121.65,
+        "image_persisted_to_review": 6.616,
+        "review_to_archive": 4.78,
+        "archive_to_verified": 48.179
+      }
+    },
+    {
+      "run_id": "20261127T1429Z-217-otus-longicornis-v4",
+      "batch_id": "20261127T1429Z",
+      "cycle": 1,
+      "target": "217-otus-longicornis-v4",
+      "action": "REVISION",
+      "started_at": "2026-11-27T14:37:00.410Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T14:37:00.427Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T14:37:05.919Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T14:38:17.027Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T14:38:22.107Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T14:38:30.198Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T14:39:14.756Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T1429Z-cycle1-20261127T1429Z-217-otus-longicornis-v4.json",
+      "stage": "VERIFIED",
+      "research": "Otus longicornis, old Scops longicornis, no taxon/scope change. Source reuse2/new0: OLON-MIKKOLA-2013-P186, Heimo Mikkola2013 uploaded guide printed186/PDF188 actual whole page reread2026-11-27: mesoptile brown-barred soft grey, darker head/upperparts; female 'said' a little larger without weights; lower bare tarsi whitish flesh/grey claws. OLON-DEMEULEMEESTER-PHOTO1103 Bram Demeulemeester adult photograph Mount Polis Luzon, undated, https://www.owlpages.com/owls/species.php?i=1103 current original caption page actually reopened; prior actual photo retained, supports adults/support, not juvenile. Fresh species-specific juvenile/mesoptile search gave no new verified developmental series; Marshall1978/PhilippineRedList hits remain leads, not young phenotype evidence. Full v3 viewed: young head/back and belly covered in conspicuous repeating U-shaped/scalloped pale rims rather than a soft grey field with brown transverse bands. Rebuild young surface, preserve closed-eye age-unknown mesoptile, low supported rest with belly over twig and both feet; no flight/nest/exact day. Eye/bill juvenile colour not established; keep existing closed eyes and provisional hornbill unchanged. Adults preserved. Design feather-scale inference remains not calibrated; source facts only qualitative. Related unresolved #130/#134 shared curl problem noted; this application will not retrospectively pass them.",
+      "full_prompt": "Edit the existing #217 Luzon Scops Owl three-bird plate. Preserve both adult birds entirely, every label/title/footer, forest, branch and feet. Rebuild ONLY the feather texture of the RIGHT sleeping age-unknown mesoptile juvenile. Source phenotype is soft light GREY juvenile plumage crossed with brown bands, head and upper back slightly darker. Replace the repeated high-contrast U-shaped, crescent, scalloped, concentric curled feather rims on its crown, cheeks, chest, belly and small folded wing with a softly blended grey downy field. Add subdued irregular BROKEN TRANSVERSE BROWN BANDS across the chest and back, as colour markings on the soft plumage, not rows of outlined individual feathers. Tiny fine loose down filaments and diffuse surface, no aligned pale loops or scales. Preserve its exact body silhouette/closed eyes/provisional small bill, compact wing ending high on flank, concealed tail, sleeping low neck and belly support, both feet gripping original twig. Do not make it a newborn, do not add adult long remiges. Return whole1536x1024 landscape, keep all texts sharp including SCIENTIFIC CALIBRATION PENDING. Qualitative concept only, no exact age claim.",
+      "source_ids": [
+        "OLON-MIKKOLA-2013-P186",
+        "OLON-DEMEULEMEESTER-PHOTO1103"
+      ],
+      "new_sources": 0,
+      "research_ready_at": "2026-11-27T14:37:05.908Z",
+      "image_metadata": {
+        "bytes": 2710063,
+        "sha256": "76a1f90eb93b294f10ad73cc14e89f4d3b63cbfc523d444c610de184d19d3d05",
+        "gitblob": "b35d715423f23e4adfa1b6829b66c75d3c3aa5b4",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "imagegen_wait_seconds": 43.336,
+      "imagegen_invocations": 1,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "local_image": "production1429nov27/217-otus-longicornis-v4.png",
+      "review": "Actual complete final image viewed: juvenile repeated bold pale U/crescent rims substantially removed, grey soft down field and irregular brown transverse chest bands visible, head/back darker. Adult colour/size/eyes/bills/long tufts, three-role labels/footer and branch contact retained. Juvenile closed eyes, small compact wing/no long adult remiges/hidden tail and both grips retain stage-conservative supported resting pose. Fine head loops/individual band geometry still artistic, no measured stage chronology. PASS_WITH_LIMITATIONS/scientific false; texture reconstruction effective locally, not retroactive validation of unresolved #130/#134. Next check compare crop before applying elsewhere.",
+      "reviewed_at": "2026-11-27T14:38:22.095Z",
+      "archived_at": "2026-11-27T14:38:30.186Z",
+      "archive_commit": "bb4b96c1c110fcbc29df6c4e0c8344d8563fbc5e",
+      "verification_exit_code": 0,
+      "ended_at": "2026-11-27T14:39:14.741Z",
+      "commit_sha": "4a164896fa97544c1407c1304737ce3c3a43665e",
+      "credit_commit": "53837f1d820e5a99ef0b00a9a6cfcea67bf4fd6a",
+      "observed_imagegen_tool_wall_seconds": [
+        39.5
+      ],
+      "phase_elapsed_seconds": {
+        "start_to_research_ready": 5.492,
+        "research_ready_to_image_persisted": 71.108,
+        "image_persisted_to_review": 5.08,
+        "review_to_archive": 8.091,
+        "archive_to_verified": 44.558
+      }
+    },
+    {
+      "run_id": "20261127T1429Z-219-otus-podarginus-v4",
+      "batch_id": "20261127T1429Z",
+      "cycle": 2,
+      "target": "219-otus-podarginus-v4",
+      "action": "REVISION",
+      "started_at": "2026-11-27T14:39:26.793Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T14:39:26.813Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T14:39:32.297Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T14:40:43.098Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T14:40:48.686Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T14:40:53.986Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T14:41:26.499Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T1429Z-cycle2-20261127T1429Z-219-otus-podarginus-v4.json",
+      "stage": "VERIFIED",
+      "research": "Otus podarginus canonical repository name; historical Noctua podargina / Pyrroglaux podargina/podarginus preserved, current generic authority reconciliation not completed, no species count change. Reused OPOD-YAMASHINA-1938-P1-2: Yoshimaro Yamashina1938 A New Genus of the Owl, Tori10(46):1–2, DOI10.3838/jjo1915.10.1, https://www.jstage.jst.go.jp/article/jjo1915/10/46/10_46_1/_pdf/-char/en actual bothpages body reread2026-11-27: juvenile very loose/downlike structure, fine lateral stripes; adult reduced disc/no tufts and mostly bare tarsi/toes without bristles. Primary specimen record, no exact age/wing sequence/flight. Reused OPOD-MIKKOLA-2013-P251 actual uploaded printed251/PDF253 read: downychick reddishbrown/darkerbreastback/palerbelly; older immature more barred, historical Pyrroglaux name; females qualitatively heavier/darkerabove, no weights. Currentv3 fullview juvenile shows organized bright pale curls on most feathers versus loose downlike body source; limited texture reconstruction not new stage/specimen claim. Keep already compact formed wing and existing supported ageunknownjuvenile selected in old research, no neonatal conversion or new age/flight. Adults and lower bare legs/claw fix preserved. New0/reuse2. Search by oldname located sameprimary; no new young chronology accepted.",
+      "full_prompt": "Edit #219 Palau Scops Owl Otus podarginus existing trio. Keep both adult birds, entire forest/branch/labels, young silhouette/head tilt/eyes/bill and feet/compact folded wing exactly in place. Change ONLY the RIGHT age-unknown juvenile's surface material: remove the artificial repeated outlined pale U-loops/curly coils/scalloped rows covering crown, face, chest and belly. Render very soft loose reddish-brown juvenile feathers as diffuse down-like texture with fine irregular hairlike filaments, DARKER head and back, subtly paler belly. Across chest/body include faint fine BROWN lateral/transverse colour stripes under the fluff, no black adult barring, no repeated highlighted outlines of single feathers. Keep existing short formed folded wing, do not erase into newborn nor extend remiges/tail. Keep both feet naturally supported and existing provisional bare-part colours unchanged, no new nest/flight pose. Adults no tufts, female slightly darker back, near-equal display, dirty ivory bill, creamy bare lower tarsi and blackish adult claws unchanged. Preserve complete landscape and scientific calibration pending footer. This is a bounded rendering interpretation of qualitative source, not measured age reconstruction.",
+      "source_ids": [
+        "OPOD-YAMASHINA-1938-P1-2",
+        "OPOD-MIKKOLA-2013-P251"
+      ],
+      "new_sources": 0,
+      "research_ready_at": "2026-11-27T14:39:32.288Z",
+      "image_metadata": {
+        "bytes": 2542404,
+        "sha256": "6f475b9ab83c263121ff47bae7dfa56851d76242140553a9a2e4478c9e6a6165",
+        "gitblob": "c9f3442e319b6d4bd7607da283e1c4b59e5581aa",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "imagegen_wait_seconds": 39.849,
+      "imagegen_invocations": 1,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "local_image": "production1429nov27/219-otus-podarginus-v4.png",
+      "review": "Actual final complete plate viewed: juvenile pale repeated loops substantially reduced; loose fine reddishbrown filaments, darker crown and subdued transverse brown colour stripes now read as soft plumage. Older compact formed folded wing retained, not replaced with hatchling appendage; existing headtilt/iris/provisional bill, both supported feet stable. Adults/creamy bare lower tarsi/blackishclaws, rainforest and all labels remain. Fine filament scale/stage and wing sequence still unverified. PASS_WITH_LIMITATIONS/sciencefalse. Problem model outlines every feather; actual material-specific rebuild reduced loops here, cannot declare success on #130/#134 or all oldgroups.",
+      "reviewed_at": "2026-11-27T14:40:48.674Z",
+      "archived_at": "2026-11-27T14:40:53.976Z",
+      "archive_commit": "40903d11ce841f581593292c8c32e106eb61544c",
+      "verification_exit_code": 0,
+      "ended_at": "2026-11-27T14:41:26.483Z",
+      "commit_sha": "9401f65adf3438583b879b6748ac6c8e463ba51f",
+      "credit_commit": "e20f59ff685172834f398bf7aa075237e6b10d45",
+      "observed_imagegen_tool_wall_seconds": [
+        35.5
+      ],
+      "phase_elapsed_seconds": {
+        "start_to_research_ready": 5.484,
+        "research_ready_to_image_persisted": 70.801,
+        "image_persisted_to_review": 5.588,
+        "review_to_archive": 5.3,
+        "archive_to_verified": 32.513
+      }
+    },
+    {
+      "run_id": "20261127T1429Z-218-otus-nigrorum-v4",
+      "batch_id": "20261127T1429Z",
+      "cycle": 3,
+      "target": "218-otus-nigrorum-v4",
+      "action": "REVISION",
+      "started_at": "2026-11-27T14:41:37.980Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T14:41:37.997Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T14:41:42.851Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T14:43:01.166Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T14:43:05.776Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T14:43:10.851Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T14:43:41.727Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T1429Z-cycle3-20261127T1429Z-218-otus-nigrorum-v4.json",
+      "stage": "VERIFIED",
+      "research": "Otus nigrorum; prior Otus bakkamoena nigrorum/O.megalotis nigrorum mapped existing, no species increment. New0/reuse2 actually read: ONIG-MIKKOLA-2013-P173, uploaded Heimo Mikkola2013 printed173/PDF175 actual wholepage reread2026-11-27: immature buff/rufousbuff head/neck fine blackishbars, upperparts buffblackbarred, buffwhite underparts duskybarred; not newborn. Sex-size wing/tarsus directions differ and tiny samples not fixed bodyheight. LLSO-MIRANDA-2011-P446-450, Miranda/Brooks/Kennedy2011 primary WilsonJOrn123441–453, https://blog.hmns.org/wp-content/uploads/2023/10/PhilippineScopsEprint.pdf current original opened/read adult comparison only; no juvenile data attributed to it. Rand1950 singleimmature prior research retained as historical baseline not freshly reread thiscycle, no freshprimaryyoungphotoclaim. Actual v3 wholeimage shows juvenile chest horizontal bars but strongly outlined layered U-scale feather rims in the flank/compact wing, repeated scallops compete with source transverse plumage. Scope a restrained surface-material correction without deleting juvenile formed wing or asserting exact texture/age. Both adults/scapulars/sex display/iris and BILL COLOUR UNVERIFIED remain untouched. Scientificfalse; no new firstflight/nest data. Fresh targeted searches returned taxonomy and sameoldprimary, not new juveniledescription. Repeated curl-template rule applied only to this version, prior #130/#134 still pending.",
+      "full_prompt": "Edit existing #218 Negros Scops-Owl Otus nigrorum trio. Both adults entirely unchanged, retain BILL COLOUR UNVERIFIED/title/all roles/scientificpending footer and forest/branch support. On RIGHT age-unknown immature ONLY, soften over-organized sharp pale-edged scalloped feather scales on breast flanks/upperback and compact folded wing into loose softly overlapping buff-brown juvenile plumage, fine fuzzy margins, much lower individual-feather edge contrast. Retain visible irregular dusky TRANSVERSE BANDS across its buff-white chest/belly; these are pigment bands across the plumage, not rows of outlined U-shaped scales. Preserve already corrected rufous-buff crown with fine short dark transverse bars, largely clear warm face sides, faint pale shafts, closed eyes, body size, compact existing formed wing shape and concealed tail. Not a hatchling; do not erase the wing or turn whole body into white natal down. Keep provisional bill and feet unchanged, two feet clasp branch with low body resting naturally. No adult-like long flight feathers, no new tuft extensions. Return whole landscape plate and preserve all adult patterns/iris/pinklids/whitevsbarred belly and tarsi. Fine material interpretation, not scientific endorsement.",
+      "source_ids": [
+        "ONIG-MIKKOLA-2013-P173",
+        "LLSO-MIRANDA-2011-P446-450"
+      ],
+      "new_sources": 0,
+      "research_ready_at": "2026-11-27T14:41:42.840Z",
+      "image_metadata": {
+        "bytes": 2443681,
+        "sha256": "2481bd81080459b23e59128a1176b67065df0777a4100f966a2bf1045e84a432",
+        "gitblob": "89cf33013fd182fa453dbe042b87dca589a0b334",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "imagegen_wait_seconds": 47.866,
+      "imagegen_invocations": 1,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "local_image": "production1429nov27/218-otus-nigrorum-v4.png",
+      "review": "Actual final complete image viewed. Young flank/compact wing sharp bright scales greatly reduced, feather edges diffuse; buffwhite ventrum retains dusky transverse pigment bands. Young rufousbuff crown/fine bars and closed eyes persist. Wing separation is now less distinct under soft feathers, not pixel-identical; no extended remiges or new flight claim. Adults' individual patterns/iris/pinklids/sex bellycontrast/tarsus and all three paired grips/text retained. Material correction effective locally but precise immature feather edge, chronology, iris/bill remain uncalibrated. PASS_WITH_LIMITATIONS/sciencefalse. Avoid describing mere lowered wing contrast as proof of delayed wing development.",
+      "reviewed_at": "2026-11-27T14:43:05.762Z",
+      "archived_at": "2026-11-27T14:43:10.841Z",
+      "archive_commit": "5812c9e11a56776caaa8b0de0c47085afb9c2817",
+      "verification_exit_code": 0,
+      "ended_at": "2026-11-27T14:43:41.712Z",
+      "commit_sha": "325cabb29a47e469e965ec4957fd947a5fe9fd03",
+      "credit_commit": "87e042c6fa64812da485b6ffec5ab66ea399bc6a",
+      "observed_imagegen_tool_wall_seconds": [
+        43.8
+      ],
+      "phase_elapsed_seconds": {
+        "start_to_research_ready": 4.854,
+        "research_ready_to_image_persisted": 78.315,
+        "image_persisted_to_review": 4.61,
+        "review_to_archive": 5.075,
+        "archive_to_verified": 30.876
+      }
+    },
+    {
+      "run_id": "20261127T1429Z-215-otus-angelinae-v4",
+      "batch_id": "20261127T1429Z",
+      "cycle": 4,
+      "target": "215-otus-angelinae-v4",
+      "action": "REVISION",
+      "started_at": "2026-11-27T14:43:54.110Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T14:43:54.124Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T14:43:58.626Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T14:45:21.541Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T14:46:39.265Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T14:46:44.319Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T14:46:49.754Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T14:47:13.226Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T1429Z-cycle4-20261127T1429Z-215-otus-angelinae-v4.json",
+      "stage": "VERIFIED",
+      "research": "Otus angelinae (historical Pisorhina angelinae), West Java reference; no new species. Reused OANG-MIKKOLA-2013-P182: Mikkola2013 uploaded printed182/PDF184 actual reread2026-11-27: young darkreddishbrown, fine crown crossbars and broader mantle/back/rump bars, darker rufous below faintbars/fewbroadshaftstripes. Sex-size/youngiris/exactage/firstflight not provided. Reused OANG-BIRDLIFE-2001-P1748 BirdLifeInternational ThreatenedBirdsofAsia2001 original https://birdlifedata.blob.core.windows.net/red-data-books/otusange.pdf Breeding1748 and identification1749 read: fledgedyoung familygroups, not precise age; suspected fernnest not proof and loweraltitude misidentification cautions. Source institutional synthesis of primary observations, not newlyread Beckingprimary. Fresh targeted research re-found2019Saraswati claim; prior ID limitations retained/no new phenotype accepted. v3 actual fullimage: mantle bars corrected, but crown facial/chest feather material contains tangled bright hairpin/curl outlines like wire; target material without erasing actual finecrown crossbars/broadermantle bars or faintunderpartbars. Keep ageunknown olderjuvenile formed compact wing/no matureprimaries, perched support, IRIS UNVERIFIED; no new nest or measuredability. New0/reuse2, biological scientificfalse. Comparing #217v4/#219v4 material-only applications suggests specifying pigment vs featheredges, not general validation.",
+      "full_prompt": "Edit existing #215 Javan Scops Owl Otus angelinae trio. Preserve both adult birds in full, entire setting/branch/feet, all text including IRIS UNVERIFIED and scientific calibration pending. Refine only RIGHT OLDER JUVENILE'S surface material on crown/face/chest/belly: remove artificial tangled curly hairpin/loop/outlined wiry feather shapes. Render natural loose juvenile feathers with very fine soft unoutlined edges and irregular overlap, predominantly DARK REDDISH BROWN. Keep fine dark transverse crown crossbars; preserve broader dark reddish-brown transverse mantle/back bands introduced previously, keep faint dusky rufous breast crossbands and a few broader shaft stripes, lower contrast than adult. Do not smooth into featureless fur, white down, a newborn, or add pale patches/adult herringbones. Keep same head tilt, tiny short crown corners, existing eye colour with IRIS UNVERIFIED annotation, pale provisional bill, exact same formed compact folded wing/silhouette/hidden shorttail, body size, both supported feet. Pigment bands remain, repeated pale individual feather outlines disappear. Adults/sex display, white inner tuftwebs/brows/scapular line and forest unchanged. Full1536x1024, no new age/flight/nest assertion.",
+      "source_ids": [
+        "OANG-MIKKOLA-2013-P182",
+        "OANG-BIRDLIFE-2001-P1748"
+      ],
+      "new_sources": 0,
+      "research_ready_at": "2026-11-27T14:43:58.616Z",
+      "initial_metadata": {
+        "bytes": 2567288,
+        "sha256": "cc3223ca8af59844ef9998bdc0e84c2e9d2576437128db09c847d1f1e5b46cdf",
+        "gitblob": "07457b201de77e5fb7da63bef6f8ea03418734e4",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "initial_wait_seconds": 48.243,
+      "initial_review": "Body loops weaker but crown continuous raised wire lattice still unresolved, second edit necessary.",
+      "edit_prompt": "Second precise edit to #215 existing fullplate. Change ONLY right juvenile CROWN surface between top of head and eyebrows. It currently resembles a continuous raised wire lattice of closed coils/hairpins. Remove the raised smooth connected wire strands. Render short loose dark rufous juvenile feathers with natural thin soft broken edges; subtle fine DARK BROWN TRANSVERSE PIGMENT DASHES run across the rufous feather field but do not form a connected grid, closed loops or scalp lines. No white spots, no naked scalp, no fur, do not remove all fine crown crossbars. Keep exact head contour, eyes/bill, tiny crown corners, neck/body revised material and broader mantle bars unchanged. All adults, rest of young, entire forest, feet, title/labels/irisunverified/footer unchanged. Complete1536x1024 warm tactile plate. No new age or scientific approval claim.",
+      "image_metadata": {
+        "bytes": 2515801,
+        "sha256": "43d6708c4833b4c5f5f540193c11f6dbd990ea4fa0918df752bd0dbfe53a456b",
+        "gitblob": "348dbc0b41e73cbb01a34bc4f2d9c059df8f7bad",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "imagegen_wait_seconds": 48.243,
+      "imagegen_invocations": 2,
+      "editing_wait_seconds": 44.394,
+      "review_result": "NEEDS_REVISION",
+      "local_image": "production1429nov27/215-otus-angelinae-v4.png",
+      "review": "Both actual initial and second full originals viewed. Initial body wire loops lower but crown retained connected wirelike crossgrid; second targeted crown edit broke some raised filaments and loosened top contour, yet connected artificial ridges remain. Crown material target NOT fully achieved; NEEDS_REVISION/scientificfalse, not claimed solved. Body material improvement and existing faint transverse pigment/broadbackbands retained, oldercompactwing/pairedgrips/eyeunverifiedlabel remain; adults and text qualitativelystable with slight rerender drift. No age/iris/flight facts added. Record initial and edit prompt/waits, preserve both assets. Repeated prompt-only local edits are not proven to solve crown lattice; next round should use actual juvenile reference/full-region reconstruction, while unresolved #130/#134 also remain unpassed.",
+      "reviewed_at": "2026-11-27T14:46:44.305Z",
+      "archived_at": "2026-11-27T14:46:49.729Z",
+      "archive_commit": "62140c3feb315a5518f1368377b438f05c20cbfa",
+      "verification_exit_code": 0,
+      "ended_at": "2026-11-27T14:47:13.211Z",
+      "commit_sha": "ffb84740ccd715e5a6cf5c81552a1d1f5197f6d4",
+      "credit_commit": "5b5917a2c62c4061a42827e34c7201502f30843f",
+      "observed_imagegen_tool_wall_seconds": [
+        44,
+        38.6
+      ],
+      "phase_elapsed_seconds": {
+        "start_to_research_ready": 4.502,
+        "research_ready_to_image_persisted": 160.639,
+        "image_persisted_to_review": 5.054,
+        "review_to_archive": 5.435,
+        "archive_to_verified": 23.472
+      }
+    },
+    {
+      "run_id": "20261127T1429Z-220-tyto-rosenbergii-v4",
+      "batch_id": "20261127T1429Z",
+      "cycle": 5,
+      "target": "220-tyto-rosenbergii-v4",
+      "action": "REVISION",
+      "started_at": "2026-11-27T14:47:30.460Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T14:47:30.470Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T14:48:14.856Z"
+        },
+        {
+          "stage": "RESEARCH_READY_CORRECTION",
+          "at": "2026-11-27T14:48:30.540Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T14:49:51.345Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T14:49:56.740Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T14:50:01.663Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T14:50:40.504Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T1429Z-cycle5-20261127T1429Z-220-tyto-rosenbergii-v4.json",
+      "stage": "VERIFIED",
+      "research": "Historical concept #220 Tyto rosenbergii (old Strix rosenbergii), Sulawesi nominate, preserved numbering251. Current Clements2026 lumps into T.javanica rosenbergi as already annotated; authority-wide fixed251 reconciliation remains unfinished so no unilateral total change. Reused3 IDs/new0: TROS-MIKKOLA-2013-P109 Mikkola2013 uploaded printed109/PDF111 freshlyread: adults blackbrown eyes/creamywhite bill/ochre body/greybrown baretoes/blackclaws; female darker/heavier spotted, sexsize unknown; young unknown in2013. TROS-MULYANA-2020-P5686-5688 AdeNendiMulyana etal2020 Biodiversitas21:5685–5689 DOI10.13057/biodiv/d211226, current https://sg.smujo.id/biodiv/article/download/6617/4434/32732 actual original Abstract/Methods118–124 and development/Fig5 section read via webtext: actual woodenbox Sulawesi field study, 8wk fullfeather/flight endpoint not age of Fig5C-D. Prior actual Fig5C-D live whitishdowny young read preserved in v1/index; no newlyviewed photo pixels this invocation. Three executor original PDF URLs all403, firstpublisherweb403; screenshot calls return only text<<ImageDisplayed>> without actual imagecontent, NOT accepted as fresh photo viewing. No new age-specific colour/wing anatomy inferred. CORNELL-CLEMENTS-2026-TYTO-LUMPS original Cornell updates October2026 Page2 Lumps section reread for existing taxonomy label only. Actual v3 fullimage shows juvenile bright looped down filaments resembling coils, target soft uncoiled fine white/cream down material, retain old source-bounded compact underwing/no adultremiges/woodboxgroundsupport. Grey face/darkeye/provisional bill retained with explicit unverifiedlabel, adult bodydisplay untouched. This is visual-material correction from existing evidenced stage, not new neonatal description or flightclaim. New0/reuse3, source access failure honestly logged. Actual Cornell lines134–142 spell rosenbergii (double i); existing v3 plaque says rosenbergi (single i), an evidenced orthographic defect. New version corrects plaque only, main historic species heading stays Tyto rosenbergii. This is one corrected application, not a new source/publication.",
+      "full_prompt": "Edit existing #220 Sulawesi Masked Owl Tyto rosenbergii complete three-role concept. Preserve both adults, adults' size display, heartfaces/eyes/beaks/spotting/tarsi/feet, all labels including CLEMENTS2026 Tyto javanica rosenbergii (CORRECT the old plaque's single-i rosenbergi to rosenbergii), SEX SIZE UNKNOWN, IRIS/BILL/FLIGHT UNVERIFIED, ageunknown and scientificcalibrationpending. On RIGHT ageunknown DOWNY CHICK ONLY, refine existing white/cream down material: remove repeated long curly loops/hairpin-shaped fibre outlines on chest/belly/head; render soft diffuse whitish down with much finer irregular short filaments, low edge contrast, loosely radiating naturally, subtle offwhite shadowing. Keep grey facial area/darkeyes/pinkish provisional hookedbill, incompletedisc, same overall body silhouette, short down-veiled folded wings, no mature flightfeather blades/no visible longtail. Keep both feet planted on original flat woodbox floor and stable supported upright posture. Do not change developmental stage to newborn or flying bird, do not add age details/nest material/eggs. Preserve cutaway woodbox and plantation foliage; box is a design display not measured reconstruction. Original full1536x1024 naturalistic warmstyle. Limit is a visual material edit; precise juvenile feather microstructure scientifically unresolved.",
+      "source_ids": [
+        "TROS-MIKKOLA-2013-P109",
+        "TROS-MULYANA-2020-P5686-5688",
+        "CORNELL-CLEMENTS-2026-TYTO-LUMPS"
+      ],
+      "new_sources": 0,
+      "research_ready_at": "2026-11-27T14:48:14.843Z",
+      "image_metadata": {
+        "bytes": 2509638,
+        "sha256": "351f449e9e8600230c1ebfb1f1ed652e627d2daa018d1fba66ea5f9fbe91f554",
+        "gitblob": "f699665579d7b6eb35886497acccb51f2c6c6594",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "imagegen_wait_seconds": 43.678,
+      "imagegen_invocations": 1,
+      "editing_wait_seconds": 0,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "local_image": "production1429nov27/220-tyto-rosenbergii-v4.png",
+      "review": "Actual final complete output viewed. Right chick white/cream down noticeably finer, less long coiled-loop texture, greyfacialarea/incompletedisc/provisional bill remain; short downveiled wings/no mature flightblades/tail, both feet on flatwoodfloor supported. Adults' spotting/eyes/creamy bills/feathered tarsi and bare toes stable; sizeunknown label retained, not claiming equal height. Clementsplaque now reads Tyto javanica rosenbergii doublei, corrected against actual Cornell list. All labels/footer intact. Local material+orthography change effective; sourcephoto pixels unavailable fresh, exact downmicrostructure/age/iris/bill/flight stillunverified. PWL/sciencefalse, no assertion originalphoto independently rechecked. Historical primary photograph used by preserved earlier actualrecord, not a freshview substitute.",
+      "reviewed_at": "2026-11-27T14:49:56.728Z",
+      "archived_at": "2026-11-27T14:50:01.653Z",
+      "archive_commit": "56a4cdc4d0cf797b580843ecb8bf5afdaa4fb144",
+      "verification_exit_code": 0,
+      "ended_at": "2026-11-27T14:50:40.488Z",
+      "commit_sha": "464523c9db12abc328cf0a6333b55f134d324c0a",
+      "credit_commit": "69a5344c419c485b9e5aab2c4259dbcb13829dd1",
+      "observed_imagegen_tool_wall_seconds": [
+        39.9
+      ],
+      "phase_elapsed_seconds": {
+        "start_to_research_ready": 44.386,
+        "research_ready_to_image_persisted": 96.489,
+        "image_persisted_to_review": 5.395,
+        "review_to_archive": 4.923,
+        "archive_to_verified": 38.841
+      }
+    }
+  ],
+  "errors": [
+    {
+      "step": "helper construction before save216",
+      "error": "SyntaxError Unexpected token '+' in computed object path; corrected brackets before mutation. No image lost."
+    },
+    {
+      "step": "multiimage preview",
+      "error": "Code mode output limit discarded last2 candidate previews; 219 and220 independently reopened, no view credit from discarded output."
+    },
+    {
+      "step": "source220",
+      "error": "Publisher web403 and three executor PDFURL403. sg publisher web text read, screenshot only text/no physical image payload. No fresh photo view claimed."
+    },
+    {
+      "step": "post_credit215 temporary session-store",
+      "error": "Unable to store pdfSession undefined; completed credit intact, actual download session83577 polled explicitly."
+    },
+    {
+      "step": "fd9d70d recovery",
+      "error": "GitHub422 No commit found for SHA fd9d70d; not a connector availability failure. Existing25 PNG local and both remote blobs match10508841ef5f6184e8658664615302909765c1dd."
+    }
+  ],
+  "scientific_pending": [
+    "215v4 crown lattice remains after2 calls",
+    "130v12/134v11 prior material issues unchanged/not passed",
+    "44 canonical species lack acceptable stage evidence or remain unproduced",
+    "full fixed251 authority reconciliation and whole-list centralized science review incomplete"
+  ],
+  "next": {
+    "batch_id": "20261127T1429Z",
+    "completed": 5,
+    "next_cycle": 6,
+    "other_partial_batches": 0
+  },
+  "timing_note": "Stage wall intervals include research reused from preflight, JS reasoning, upload and connector latency; they are not isolated CPU or network telemetry. imagegen_wait_seconds existing run fields are caller-observed intervals, exact tool result wall_seconds listed separately here. No fixed platform timeout or duration limit observed; stop after prescribed6 actual cycles, not a timeout."
+}

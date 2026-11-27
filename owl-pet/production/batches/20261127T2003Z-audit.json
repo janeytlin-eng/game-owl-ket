@@ -1,0 +1,300 @@
+{
+  "run_id": "20261127T2003Z",
+  "started_at": "2026-11-27T20:03:00Z",
+  "ended_at": "2026-11-27T20:38:45.157Z",
+  "timezone_display": "Asia/Shanghai",
+  "baseline_commit": "e159fc708f0e30747cdc1c3c0c5fd48604424a0c",
+  "production_head": "3b2a52a6b94ea7af39941ae3efb76da6bbd8c5c3",
+  "result": "SIX_VALID_REVIEWED_ARCHIVED_CYCLES_WITH_SCIENTIFIC_LIMITATIONS",
+  "valid_cycles": 6,
+  "distinct_revised_species": 5,
+  "revised_versions": 6,
+  "new_species": 0,
+  "counts": {
+    "canonical_species": 207,
+    "denominator": 251,
+    "concept_versions": 1412,
+    "manifest_entries": 1367
+  },
+  "imagegen_calls_total": 11,
+  "imagegen_calls_valid_cycles": 9,
+  "invalidated_experiments": [
+    {
+      "target": "47-strix-leptogrammica-v9",
+      "reason": "INVALIDATED_DUPLICATE_STALE_BASE",
+      "run_record": "owl-pet/production/runs/20261127T1931Z-cycle6-20261127T2003Z-47-strix-leptogrammica-v9.json",
+      "image": "owl-pet/production/attempts/20261127T2003Z-47-stale-base-v9.png",
+      "credit_revoked": true,
+      "restore_commit": "b3a681bf86a3e7c13c93eab980fd3742405a4776"
+    }
+  ],
+  "source_index": {
+    "path": "owl-pet/research/SOURCE_INDEX.md",
+    "new_publications": 0,
+    "valid_reused_id_references": 12,
+    "valid_unique_reused_ids": 10,
+    "valid_document_families": 6,
+    "all_attempt_unique_ids": 13,
+    "all_attempt_references": 15,
+    "all_attempt_document_families": 8,
+    "notes": "Six book-page IDs alias one Mikkola2013publication; invalid47adds two documentaryfamilies Flocci/Samarawickrama; Samarawickrama historicalonly. #47 links/status corrected; no searchhit-only evidence treatedvalidated."
+  },
+  "scientific_passes": 0,
+  "new_user_confirmations": 0,
+  "statuses_by_valid_version": [
+    {
+      "target": "108-otus-rutilus-v10",
+      "status": "NEEDS_REVISION",
+      "scientifically_verified": false
+    },
+    {
+      "target": "130-megascops-koepckeae-v17",
+      "status": "NEEDS_REVISION",
+      "scientifically_verified": false
+    },
+    {
+      "target": "112-asio-abyssinicus-v11",
+      "status": "NEEDS_REVISION",
+      "scientifically_verified": false
+    },
+    {
+      "target": "206-glaucidium-castanopterum-v6",
+      "status": "PASS_WITH_LIMITATIONS",
+      "scientifically_verified": false
+    },
+    {
+      "target": "201-otus-mantananensis-v12",
+      "status": "NEEDS_REVISION",
+      "scientifically_verified": false
+    },
+    {
+      "target": "108-otus-rutilus-v11",
+      "status": "PASS_WITH_LIMITATIONS",
+      "scientifically_verified": false
+    }
+  ],
+  "cycles": [
+    {
+      "target": "108-otus-rutilus-v10",
+      "batch_id": "20261127T1931Z",
+      "cycle": 5,
+      "started_at": "2026-11-27T20:06:20.940Z",
+      "ended_at": "2026-11-27T20:11:18.801Z",
+      "research_elapsed_seconds": 198.989,
+      "imagegen_tool_wait_seconds": 38.029,
+      "editing_tool_wait_seconds": 0,
+      "generated_stage_to_verified_elapsed_seconds": 22.147,
+      "archive_to_verified_elapsed_seconds": 12.592,
+      "archive_commit": "f4ae53f31818ff05400d66a867b38db0f43501ea",
+      "commit_sha": "fd56deca968abdb9530942c83f5e0300be1a0012",
+      "credit_commit": "384272cce547497619e68f89179ff4f246d49339",
+      "run_record": "owl-pet/production/runs/20261127T1931Z-cycle5-20261127T2003Z-108-otus-rutilus-v10.json",
+      "image_metadata": {
+        "bytes": 2767439,
+        "sha256": "a0d881f402650d66335f8b27c42c66d1ddc8ced00a6ab04ca6f4beb909ff1205",
+        "gitblob": "7829c36b82e55ed90ab8e07e7c19443e5dd16419",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "source_ids": [
+        "RUT-VASSEN-2013-ANDASIBE-JUV",
+        "MIKKOLA-2013"
+      ]
+    },
+    {
+      "target": "130-megascops-koepckeae-v17",
+      "batch_id": "20261127T2003Z",
+      "cycle": 1,
+      "started_at": "2026-11-27T20:16:46.413Z",
+      "ended_at": "2026-11-27T20:20:44.575Z",
+      "research_elapsed_seconds": 25.005,
+      "imagegen_tool_wait_seconds": 26.791,
+      "editing_tool_wait_seconds": 37.177,
+      "generated_stage_to_verified_elapsed_seconds": 149.601,
+      "archive_to_verified_elapsed_seconds": 62.935,
+      "archive_commit": "059018ac15e51794f46ebd13f9d49c2f468a8421",
+      "commit_sha": "06b86e3c0b4ed9e50223632c1fd8df2b5719995d",
+      "credit_commit": "4b0dc0bd0dd634626afdd51cf450dce49126800d",
+      "run_record": "owl-pet/production/runs/20261127T2003Z-cycle1-20261127T2003Z-130-megascops-koepckeae-v17.json",
+      "image_metadata": {
+        "bytes": 2571946,
+        "sha256": "d791ef2cae6a56b796df54f37d0ca7bcc6531aff32dca8bcf3f1c85b648720c5",
+        "gitblob": "2257a82815be3b016f4c7dcad48efd1547eaea7b",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "source_ids": [
+        "KOEP-ALARCON-2023",
+        "KOEP-MIK2013-222"
+      ]
+    },
+    {
+      "target": "112-asio-abyssinicus-v11",
+      "batch_id": "20261127T2003Z",
+      "cycle": 2,
+      "started_at": "2026-11-27T20:22:11.398Z",
+      "ended_at": "2026-11-27T20:25:52.157Z",
+      "research_elapsed_seconds": 37.771,
+      "imagegen_tool_wait_seconds": 39.572,
+      "editing_tool_wait_seconds": 37.528,
+      "generated_stage_to_verified_elapsed_seconds": 103.528,
+      "archive_to_verified_elapsed_seconds": 15.638,
+      "archive_commit": "0fc06cda80b02b94b64631f423c9937f1996c6d1",
+      "commit_sha": "c27fa32d2dd151ba5863b830d97b035002e6a2c8",
+      "credit_commit": "a8d54c0313b9d2270a2687bdf7c75e903dd214b1",
+      "run_record": "owl-pet/production/runs/20261127T2003Z-cycle2-20261127T2003Z-112-asio-abyssinicus-v11.json",
+      "image_metadata": {
+        "bytes": 2714469,
+        "sha256": "79ba6146beb0b472a7e081f84bb39e9d742f974acc3ea1bc4176ca03cc5e598e",
+        "gitblob": "386940262b804c89d73b8e8045938c8913ce93c8",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "source_ids": [
+        "ABY-MATON-1989-JUV",
+        "WHSO-MIKKOLA-2013"
+      ]
+    },
+    {
+      "target": "206-glaucidium-castanopterum-v6",
+      "batch_id": "20261127T2003Z",
+      "cycle": 3,
+      "started_at": "2026-11-27T20:26:02.860Z",
+      "ended_at": "2026-11-27T20:28:16.063Z",
+      "research_elapsed_seconds": 31.11,
+      "imagegen_tool_wait_seconds": 38.464,
+      "editing_tool_wait_seconds": 0,
+      "generated_stage_to_verified_elapsed_seconds": 25.894,
+      "archive_to_verified_elapsed_seconds": 15.905,
+      "archive_commit": "72988d82ef19e96788b04ebde4606d005057d0bf",
+      "commit_sha": "b44275d88fb19ac5a6a3e8e771c333b93896efe4",
+      "credit_commit": "63fda01363acd5abd8b2e3bafe6a61ff0d1ac133",
+      "run_record": "owl-pet/production/runs/20261127T2003Z-cycle3-20261127T2003Z-206-glaucidium-castanopterum-v6.json",
+      "image_metadata": {
+        "bytes": 2515055,
+        "sha256": "eb5ce3d2b360be0b31b0addb74ba61a0f91617ba062e4e679ff42a19d6297385",
+        "gitblob": "3e70aaba592f1c79bac77e6b62d4b4c792a62a9a",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "source_ids": [
+        "GCAS-MIKKOLA-2013-P407",
+        "GCAS-VERONESI-2016-29030338883"
+      ]
+    },
+    {
+      "target": "201-otus-mantananensis-v12",
+      "batch_id": "20261127T2003Z",
+      "cycle": 4,
+      "started_at": "2026-11-27T20:28:38.655Z",
+      "ended_at": "2026-11-27T20:31:16.176Z",
+      "research_elapsed_seconds": 42.254,
+      "imagegen_tool_wait_seconds": 37.662,
+      "editing_tool_wait_seconds": 0,
+      "generated_stage_to_verified_elapsed_seconds": 40.017,
+      "archive_to_verified_elapsed_seconds": 28.309,
+      "archive_commit": "dcee91955e528a60fda57a87916dda87502962e1",
+      "commit_sha": "0137802f5c8abe60c0cfc411759354bc04351fe3",
+      "credit_commit": "6acd157a9f3c990bcf3c9469d4deeacc3e76a23f",
+      "run_record": "owl-pet/production/runs/20261127T2003Z-cycle4-20261127T2003Z-201-otus-mantananensis-v12.json",
+      "image_metadata": {
+        "bytes": 2435393,
+        "sha256": "2922b543e2dc2d21ddf2d284943b43d1d37c9d2c3a98774cbb3087e30a6df311",
+        "gitblob": "1d35252b9da3be424215c876e795cefc866d67ad",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "source_ids": [
+        "MANT-PHOTOARK-ROMBLONIS-VIDEO-PHC34ETDGS4",
+        "MANT-MIKKOLA-2013-P199-200-MIRROR"
+      ]
+    },
+    {
+      "target": "108-otus-rutilus-v11",
+      "batch_id": "20261127T1931Z",
+      "cycle": 6,
+      "started_at": "2026-11-27T20:33:21.827Z",
+      "ended_at": "2026-11-27T20:36:49.530Z",
+      "research_elapsed_seconds": 25.584,
+      "imagegen_tool_wait_seconds": 22.635,
+      "editing_tool_wait_seconds": 44.527,
+      "generated_stage_to_verified_elapsed_seconds": 117.666,
+      "archive_to_verified_elapsed_seconds": 14.292,
+      "archive_commit": "87ce5cfcd1c5c04d3dc4df1e78f7870240f17cac",
+      "commit_sha": "aa60c92177e54128ac887efdf96df3364d386d30",
+      "credit_commit": "3b2a52a6b94ea7af39941ae3efb76da6bbd8c5c3",
+      "run_record": "owl-pet/production/runs/20261127T1931Z-cycle6-20261127T2003Z-108-otus-rutilus-v11.json",
+      "image_metadata": {
+        "bytes": 2729061,
+        "sha256": "3920ae6f815ecffd831d2543528cad4b9079c6de9e7f2157d687fea420befa00",
+        "gitblob": "28211a56d5b0da76475a5ae4a0aba25a4ea8f50d",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "source_ids": [
+        "RUT-VASSEN-2013-ANDASIBE-JUV",
+        "MIKKOLA-2013"
+      ]
+    }
+  ],
+  "timing_limits": "Stage intervals include actual tool roundtrips/orchestration; not isolated CPU/GPU time. Toolwait measuredwalltime, notgenerationengine-only. No platform timeout telemetry; no fixedbudgetlimitclaimed.",
+  "errors": [
+    {
+      "step": "archive130immutableGETprocesslaunch",
+      "error": "exec-server transport disconnected",
+      "recovery": "pwd succeeded; fourfile immutablefullGET/hash/decode retry succeeded",
+      "record": "owl-pet/production/runs/20261127T2003Z-cycle1-20261127T2003Z-130-megascops-koepckeae-v17.json"
+    },
+    {
+      "step": "47base/versionselection",
+      "error": "v8chosen while v9–v13existed, temporaryv9collision",
+      "recovery": "restoreexactthreebaselineblobs/fullbytecomparison; preserveowncandidateunderattempts; revokecredit; replacement108v11actualnewcycle6",
+      "restore_commit": "b3a681bf86a3e7c13c93eab980fd3742405a4776"
+    },
+    {
+      "step": "sourcefetch",
+      "error": "Sartore403/YouTubewatchthrottled/Flickrsmallimage403/universityPDF400oversized/SORAredirect",
+      "recovery": "Onlyactualreadbody/photos/cachedoriginal/firstpartyoEmbedpreviewused; unverifiedleadsexcluded"
+    },
+    {
+      "step": "wrongguessedrepositorypaths",
+      "error": "47Aegolius/206Ninox404",
+      "recovery": "correctactualtreeidentifiedStrix/Glaucidium; no connectionfailureclaim"
+    }
+  ],
+  "preexisting_versions_restored": true,
+  "old_version_sha_changes_at_final_audit": [],
+  "recovery25": {
+    "remote_original_and_concept_blob": "10508841ef5f6184e8658664615302909765c1dd",
+    "bytes": 2864437,
+    "local_v6_not_found": true,
+    "short_commit_fd9d70d": "connector422NoCommitFound; not verified",
+    "redrawn": false
+  },
+  "batch_state": {
+    "closed_old": "20261127T1931Z6/6cross-invocation",
+    "current": "20261127T2003Z",
+    "completed": 4,
+    "next_cycle": 5,
+    "other_partial": 0
+  },
+  "bottlenecks_and_lessons": [
+    "Fine juvenile down geometry repeatedly fails despite coarser visible improvement; negativecases retained, no scientificpass.",
+    "47two-stagezoomcolourworkedvisuallybutwasstale-base duplicate, invalidated; no novelcorrectioncredit.",
+    "MandatoryALLversion numeric enumeration andbaseline-SHA diff caught/restoredcollision; not claimneverhappensagain.",
+    "Sourceaccesslimits and unknownrareyoung phenotypes blocknew species, notjustgenerationtime.",
+    "No externalAPIdeployment or automationchanges."
+  ]
+}

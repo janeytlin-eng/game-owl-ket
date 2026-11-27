@@ -413,3 +413,7 @@ Stronger explicit proximal palehorn/distal dark claw-sheath replacement finally 
 
 ## 2026-11-27 0426Z 110-megascops-barbarus-v11
 Directone-stagephotoreference/erasecoilpromptalsofailed110closedloopdown, aftertwostagefailure. Preservefailuresandstopassertingprompt-alonegeneralfix. Needgenuinelydifferentmaterialgenerationstrategy, notanothernearlyidenticalrephrasing. Anatomystage/supportpass doesnotimplymaterialpass.
+
+
+## 2026-11-27 0426Z 127-megascops-albogularis-v7
+Adultpalehornproximalclaw/darktip transferfrom123promptlocallyeffective127v7, notassumedforallspecies. InstitutionalBIOWEBbodyfound/readafterPDFsize/403andITIStimeout, supportsadultidentityonly; savefreshsourcewithoutclaimingnewjuvenilefacts. Comparewhitepairedthroat vswhitewingrow separately. Exactyoungiris/downmaterialstillunknown.

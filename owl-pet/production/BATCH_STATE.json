@@ -57103,7 +57103,7 @@
     {
       "batch_id": "20261127T1304Z",
       "status": "PARTIAL",
-      "next_cycle": 3,
+      "next_cycle": 4,
       "completed_cycles": [
         {
           "cycle": 1,
@@ -57118,17 +57118,19 @@
           "commit_sha": "4171a55800c2beb549f6d31524ef471ed93d9d46",
           "archive_commit": "908a377b71c0365aa2272f0128a289766570435c",
           "run_record": "owl-pet/production/runs/20261127T1304Z-cycle2-20261127T1304Z-177-otus-hartlaubi-v8.json"
+        },
+        {
+          "cycle": 3,
+          "species": "178-otus-insularis-v7",
+          "commit_sha": "f9c79800dd39394cd764ce0756faf96cbecc89ee",
+          "archive_commit": "e5aca10e09194c55ce7ac1a1767b6ee4181a48a6",
+          "run_record": "owl-pet/production/runs/20261127T1304Z-cycle3-20261127T1304Z-178-otus-insularis-v7.json"
         }
       ],
       "started_at": "2026-11-27T13:08:54.195Z"
     }
   ],
-  "lease": {
-    "owner": "20261127T1304Z",
-    "run_id": "owl-pet/production/runs/20261127T1304Z-cycle3-20261127T1304Z-178-otus-insularis-v7.json",
-    "heartbeat_at": "2026-11-27T13:16:42.716Z",
-    "expires_at": "2026-11-27T13:31:42.716Z"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -58095,7 +58097,7 @@
       "credited": false
     }
   ],
-  "in_progress": true,
+  "in_progress": false,
   "previous_checkpoint": {
     "batch_id": "20261112T043100+0800",
     "cycle": 3,

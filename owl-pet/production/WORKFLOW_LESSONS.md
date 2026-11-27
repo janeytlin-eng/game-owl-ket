@@ -313,3 +313,7 @@ Bare fledged label→fieldsequence gives dependentfledgedyoung but no individual
 ## 2026-11-27 2334Z 112-asio-abyssinicus-v6
 V5 juvenile closed loops recur despite prior anti-curlprompt. ActualMaton1989pixels showfineirregulardown and formedwing/tail, not yarn. Threepasses: firstfailed, second/third reduced longlightlooplines but residualfineclosedloops persist in actual690x960crop→NEEDS_REVISION and priority112v7, notscientificpass. Negativeprompts plus localidentitypreservation can lock unwantedtexture; material-rebuild wording tested but NOT proven effective. Recheck107/108/109/110/111 actualbaselines:109plasticregularity/110curls remain calibrationqueue, no retroactivefixclaim. Adulttoeaddition rejected aftercrop; preserve alreadyfeathereddorsa. Do not replaceolderjuvenileformedwing withgenericnewbornbuds.
 [Actual review](../research/reviews/112-asio-abyssinicus-v6-review.md)
+
+
+## 2026-11-27 0030Z 112-asio-abyssinicus-v7
+Actualwholeplate rebuild changed olderjuvenilestagevisibility (formedwing/barredtail) but retained fineclosedcurltexture; hypothesisthatwhole-rebuildsolvesmaterial NOTverified. StatusNEEDS_REVISION retained. Prior109/110plastictexture also reviewed asaffectedcandidates; no scientificapproval. Renders should judge material independently from stage/softness. All sixfeet/text/adultnet checked; #25local/remoteidentical, fd9d70d422notvalidrecovery.

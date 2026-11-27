@@ -21,11 +21,15 @@
     {
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-27T18:45:04.666Z"
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-27T18:45:12.168Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T1826Z-cycle1-20261127T1826Z-170-glaucidium-sanchezi-v8.json",
-  "stage": "IMAGE_GENERATED",
+  "stage": "REVIEWED",
   "research": "Access2026-11-27. Current Glaucidium sanchezi old G.minutissimum sanchezi, no scopechange. Actual latestv7 wholetrio and itsresearch read. Concrete issue: rightyoung grey crown has several conspicuous white/cinnamon forecrown spots, contrary to chosen mesoptile's unspottedcrown; don't confuse adultspots with juvenile. Reuse MIKKOLA-2013 HeimoMikkola2013 Owls ofWorld seconded printed384/PDF386 actual uploaded Identification/Juvenile bodyread: mesoptile greyerunspottedcrown/greyer cere/pale cinnamon tailbars; adults maleolivebrown/femalerufous above, adultyelloweyes/hornyellowbill/yellowgraycere/bristledyellowgraytoes/hornclawsdarktips, female slightlylongerwings and less5gheavier notstandingheight. Exactyoungage/iris/flight unknown; existing ageunknown branchrest stage notneonate. Reuse TPO-PUENTE-ETAL-2024-P63-65-F2, MarcoArturoPuente-Zozaya/ErickRubenRodriguez-Ruiz/JorgeValencia-Herverth2024-12-05 Extensión austral..., OrnitologiaNeotropical35:63–67 DOI10.58843/ornneo.v35i1.1337 https://ornneo.ornitologianeotropical.org/index.php/ornneo/article/download/1337/785 original actualwebbody printed63–64 read: CuetzalanPuebla932m cloudforest record, ongoingbiologygaps. Supports humidforestcontext only, not youngfeathersequence. Local PDF request HTTP502 thiscycle; webscreenshot returnedlinkonly no usablelocalphoto, noimagebasedcalibrationclaim. Active juvenilecrown externalquery foundno primaryyoungphenotypedescription; OwlPages2020-10-30 species1960 originalbody actuallyread adultsexpalette/softparts/habitat, noyoungdata; supportingexistingfacts notnewstableentry. New0/reuse2IDs. Designinference remove juvenilecrownspotpatches only while retaining feathertexture/shading; adultsremainspotted. Keep young iris/flightunknown ratherthan claimed scientificallypassed.",
   "full_prompt": "Precise-object-edit existing #170 Tamaulipas Pygmy-Owl v7 trio. ONLY rightmost age-unknown immature's CROWN/FORECROWN: remove all discrete white/cinnamon oval or teardrop SPOTS from the grey cap, including just above brow and along crown sides. Replace with subdued unspotted grey-brown mesoptile feather texture, natural fine shaft detail/shadow permitted, no large pale dabs or adult pepperedcrown. Preserve its brow/face/eyes/cere/bill, body/shortformedfoldedwing/shorttail/pale cinnamon tailbars, toe/clawcolors and everybranchcontact. BOTH ADULTS entirelyunchanged: maleolivebrown and femalerufous crowns remain finelyspotted, yellowadult eyes, warmhornbills, muted yellowgray bristled toes, hornclawsdarktips, near-equalsize and tailbars. Forest/branch/layout/pendingfooter/age iris flightunknowntext all preserved. Title #170 v8 with current Glaucidium sanchezi. No newyoungstage/flight/nest.",
   "source_ids": [
@@ -59,5 +63,7 @@
   "imagegen_invocations": 2,
   "editing_wait_seconds": 33.014,
   "review_result": "PASS_WITH_LIMITATIONS",
-  "local_image": "production1826nov27/170-glaucidium-sanchezi-v8.png"
+  "local_image": "production1826nov27/170-glaucidium-sanchezi-v8.png",
+  "review": "Initial and corrected fullPNGs actuallyviewed. Rightyoung crown nowgrey-brown withoutdiscrete pale adultlike crownspots, feather shaft/highlights retainednotcountedspots; smallfacebrowflecks outsidecrown retained. Firstoutputwrongversionv7 fixedsecondimagegen nowv8; bothprompts/initialsaved. Adults olivebrownmale/rufousfemale spottedcrowns, nearequalsize(youthsizeillustrative), adultyellowiris/hornyellowbill/graycere,bristledyellowgraytoes/hornclawsdarktips rechecked; rightyounggreycere/closedformedwing/shortpalecinnamontail and supportedfeet retained. Densehumidforestplausible, nooccupiednest. Mesoptile sourcebook-only; exactage/iris/flight unknown, scientifically_verifiedfalse. PASS_WITH_LIMITATIONS. Lesson: juvenilecrown mask separate fromface and adultspotting; prompts do not guaranteeversiontext, actualsecondreviewrequired. External PDF download502 logged; actualwebpaperbodyread supportsenvironmentonly. New0/reuse2stableIDs.",
+  "reviewed_at": "2026-11-27T18:45:12.151Z"
 }

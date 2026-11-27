@@ -13,11 +13,15 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-27T18:39:05.000Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T18:40:30.781Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T1730Z-cycle6-20261127T1826Z-206-glaucidium-castanopterum-v5.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Access 2026-11-27 UTC. Current Glaucidium castanopterum = book Taenioglaux castanoptera = original Strix castanoptera; existing251 scope unchanged. Reuse GCAS-MIKKOLA-2013-P407, Heimo Mikkola2013 Owls of the World secondedition, uploaded actual printed407/PDF409 text and JamesEaton photograph/caption viewed: no sexsize data; brown/ochre head/throat bars; chestnut upperparts/white scapularline; breast sides reddishbrown feathers broadly white-edged, mostlywhitecentral underparts with rufous streaking; seven thin ochre tailbars; yelloweyes, greenishyellowbill/yellowtip/olivecere; featheredtarsi, sparsebristledolive-yellowtoes/darkhornclaws. Bookdownychickwhitish, fledglingadultlikebutmuchduller; exactage/sex/iris/bill/flight unknown. Reuse GCAS-OWLPAGES-2020, DeaneLewis2020-10-31 https://www.owlpages.com/owls/species.php?s=2140 Introduction/Distribution actualbodyread: roundedhead/no tufts/JavaBali, no juvenile detail. New stable GCAS-VERONESI-2016-29030338883, FrancescoVeronesi JavanOwlet CaritaJava, photographed2016-08-14/sourcepublished2016-09-13 https://www.flickr.com/photos/francesco_veronesi/29030338883/ ; metadata/licensing and actual fullimage read via https://commons.wikimedia.org/wiki/File:Javan_Owlet_-_Carita_-_Java_MG_3575_(29030338883).jpg (CCBYSA2). Actual photo shows finely barredcrown/throat/darkerbrown upperchest/lateral chestnut field bordering broadwhitebelly and longwhite scapularmarks. Oneindividual/flash/bodyangle/age-sexunspecified cannot establish sexsize or fledglingtraits, cannot precisely transfer color. Additional JamesEaton https://www.owlpages.com/owls/species.php?i=650 actualcaption CaritaJuly2005 differs bookMaycaption; do not claim sameimage/date. No thirdpartyphoto archived. Problem v4 adults almostfullylongbrightorange longitudinalbreast streaks, erases lateral chestfield/whitecentralcontrast. Designinference local adultbreastpatternadjust toward sources, retain established sevenbar tail/toebristles/taxonomyfooter; young unchanged since lackprimaryyoungdata. New1/reuse2 IDs, scientificpending.",
   "full_prompt": "Edit existing #206 Javan Owlet trio v4. Preserve its established soft semi-realistic electronic-pet illustration, three birds, forest branch, positions, near-equal adult sizes. Correct BOTH ADULT upper breasts and breast SIDES only using the source facts: throat and upper chest have fine dark-brown and pale-ochre horizontal barring; lateral upper breast has a substantial muted reddish-brown/chestnut field of feathers with pale margins, transitioning into a mostly WHITE central lower breast/belly with fewer narrow chestnut longitudinal streaks concentrated toward flanks. Current nearly continuous bright-orange long streaks across the entire adult front are excessive; make a clear darker barred upper chest/lateral chest field versus white central belly. Not a solid geometric bib. Preserve white scapular lines, brown head fine bars, yellow irises, olivecere/green-yellow bills with yellowtip, feathered tarsi/sparse toe bristles/olive toes/dark claws, seven thin adult tail bars and every natural branch grip. Rightmost dull age-unknown fledgling entirely unchanged, no new chick age/flight/iris claims. Preserve scientific calibration pending and juvenile/sex-size unknown text. Update title to '#206 v5 JAVAN OWLET', keep scientific name Glaucidium castanopterum. No other species traits, no extra birds.",
   "source_ids": [
@@ -26,5 +30,19 @@
     "GCAS-VERONESI-2016-29030338883"
   ],
   "new_sources": 1,
-  "research_ready_at": "2026-11-27T18:39:04.981Z"
+  "research_ready_at": "2026-11-27T18:39:04.981Z",
+  "image_metadata": {
+    "bytes": 2567026,
+    "sha256": "69e1dde9ebe1d62fc722b6c0ee6880a00aaf75847a1d5f8977cb588f81d794a2",
+    "gitblob": "f230eb8f7ce0cf1e019004ba9d9f9609e17c08a6",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "imagegen_wait_seconds": 43.228,
+  "imagegen_invocations": 1,
+  "editing_wait_seconds": 0,
+  "review_result": "PASS_WITH_LIMITATIONS",
+  "local_image": "production1826nov27/206-glaucidium-castanopterum-v5.png"
 }

@@ -16,6 +16,10 @@
     {
       "stage": "MATERIAL_STUDY_GENERATED",
       "at": "2026-11-27T02:35:14.260Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T02:36:39.425Z"
     }
   ],
   "errors": [],
@@ -23,7 +27,7 @@
   "unique_species_increment": 0,
   "revision_increment": 1,
   "run_record": "owl-pet/production/runs/20261127T0125Z-B2-cycle4-resume0231Z-112-asio-abyssinicus-v9.json",
-  "stage": "MATERIAL_STUDY_GENERATED",
+  "stage": "IMAGE_GENERATED",
   "source_ids": [
     "ABY-MATON-1989-JUV",
     "WHSO-MIKKOLA-2013"
@@ -47,5 +51,18 @@
     "b64len": 2616484,
     "wait": 20.342,
     "actual_review": "Standalone full image viewed: fine soft mottled down and distinct formed wing/tail, much less pronounced closed-ring drawing than old plate; tiny wisps remain. Older source proportions/support retained. Interim not species/subround credit."
-  }
+  },
+  "generation_wait_total_seconds": 58.186,
+  "image_meta": {
+    "bytes": 2799699,
+    "sha256": "f99b22388635e2e6c45070e9989141a796babb5cfc2e10f7b0d25d0a24c44902",
+    "git_blob": "315b08ff068ccb4786666548d28df0e503b28501",
+    "size": [
+      1536,
+      1024
+    ],
+    "b64len": 3732932
+  },
+  "generation_wait_seconds": 37.844,
+  "status": "PASS_WITH_LIMITATIONS"
 }

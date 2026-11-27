@@ -693,3 +693,8 @@ Research/fullactualprompt: ../research/species/134-megascops-sanctaecatarinae-v1
 ## 20261127T1529Z 221-ninox-meeki-v4
 Actual final full image viewed: juvenile crown/brownupperbreast now finer short edged feathers, raised curledloops reduced, white throat and heavycreamwhite wingcovertbars preserved. Narrow rusty lowerstreaks, compactformedwing/hidden tail/sleepingneck and bothfootgrips stable. Adults and originalsexdisplay/eyes/bills/crownpatterns unchanged qualitatively, allrolelabels/footer visible. Localmaterial improvement PWL/sciencefalse; noprimaryfinefeathergeometry, age/iris/flight/nest stillunknown; not a developmental finding. Sourceprimary1914 accessfailure retained, noadultcrowncorrection inferred.
 Research/fullactualprompt: ../research/species/221-ninox-meeki-v4.md . Applied in this image only, not universal biological validation.
+
+
+## 20261127T1529Z 222-ninox-sumbaensis-v3
+Actual final fulloriginal viewed. Youngbrownrufous crown and body repeatedbright curls reduced, softer finewisps; plain reddishunmarkedventrum preserved, noVbars/whitepatches. Supported headwinding-inspired tiltedhead/insectwatching eyeline remains, not depictionofhunting; compactformedwing/hidden tail/pairedtoegrips intact. Adultbarredcaps/finechevrons/whitebrows/eyes/near-equaldisplay and originaltitle/roles/footer stable. Somefinecurved strands persist, texture stillartistic/unmeasured; localPWL/scientificfalse, exactage/billiris/toe/growth/flight/nestunknown. Must not transfer rudolfi size statements tosumbaensis.
+Research/fullactualprompt: ../research/species/222-ninox-sumbaensis-v3.md . Applied in this image only, not universal biological validation.

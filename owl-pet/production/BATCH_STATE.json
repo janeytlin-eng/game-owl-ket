@@ -56630,18 +56630,20 @@
       "batch_id": "20261127T0329Z-B2",
       "status": "PARTIAL",
       "started_at": "2026-11-27T03:40:37.887Z",
-      "next_cycle": 1,
-      "completed_cycles": []
+      "next_cycle": 2,
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "125-ninox-philippensis-v6",
+          "commit_sha": "047bedb06966fc68ef0dcadb015dd6d73a52abb9",
+          "archive_commit": "7d953a8c6d2920cf4e5f98f5e62e2155062692ba",
+          "run_record": "owl-pet/production/runs/20261127T0329Z-B2-cycle1-resume0329Z-125-ninox-philippensis-v6.json",
+          "verified_at": "2026-11-27T03:43:11.290Z"
+        }
+      ]
     }
   ],
-  "lease": {
-    "owner": "owl-20261127T0329Z",
-    "run_id": "20261127T0329Z",
-    "batch_id": "20261127T0329Z-B2",
-    "cycle": 1,
-    "heartbeat_at": "2026-11-27T03:43:06.737Z",
-    "expires_at": "2026-11-27T03:58:06.737Z"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -56806,14 +56808,7 @@
       "verification_commit": "7ce90fc5a92951b9ff9295bff361e1623c6f9a0a"
     }
   ],
-  "active_lease": {
-    "owner": "owl-20261127T0329Z",
-    "run_id": "20261127T0329Z",
-    "batch_id": "20261127T0329Z-B2",
-    "cycle": 1,
-    "heartbeat_at": "2026-11-27T03:43:06.737Z",
-    "expires_at": "2026-11-27T03:58:06.737Z"
-  },
+  "active_lease": null,
   "last_updated_at": "2026-11-27T01:49:31.648Z",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
@@ -64209,9 +64204,9 @@
     }
   ],
   "active_batch_id": "20261127T0329Z-B2",
-  "active_cycle": 1,
-  "current_stage": "VERIFIED",
-  "next_cycle": 1,
+  "active_cycle": null,
+  "current_stage": "IDLE",
+  "next_cycle": 2,
   "unique_species_count": 207,
   "total_species": 251,
   "stage_events": [

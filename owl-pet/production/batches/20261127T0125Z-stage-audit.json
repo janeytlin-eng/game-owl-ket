@@ -1,0 +1,503 @@
+{
+  "run_id": "20261127T0125Z",
+  "completed_cycles_this_invocation": 6,
+  "new_species": 0,
+  "revised_species": 6,
+  "scientifically_verified_increment": 0,
+  "user_confirmed_increment": 0,
+  "source_new": 1,
+  "source_reuse_occurrences": 15,
+  "source_reuse_unique_documents": 10,
+  "source_reuse_underlying_publications_or_pages": 9,
+  "source_access_status_corrections": 1,
+  "old_source_occurrences_freshly_read": 11,
+  "old_primary_historical_only_occurrences": 4,
+  "generation_calls": 7,
+  "generation_wait_seconds": 241.25,
+  "count_evidence": {
+    "at": "a6eb4bd3637178e41437c29a78fd43f58f7d88bd",
+    "concept_versions": 1215,
+    "raw_species_stems": 210,
+    "unique_species": 207,
+    "aliases": {
+      "glaucidium-brasilianum-cactorum": "glaucidium-brasilianum",
+      "tyto-javanica-delicatula": "tyto-javanica",
+      "pseudoscops-grammicus": "asio-grammicus"
+    },
+    "manifest_entries": 1251
+  },
+  "current_batch_id": "20261127T0125Z-B2",
+  "current_batch_completed": 3,
+  "next_cycle": 4,
+  "other_partial_batches": 0,
+  "rows": [
+    {
+      "run_id": "20261127T0125Z",
+      "batch_id": "20261127T0030Z-B2",
+      "cycle": 4,
+      "target": "112-asio-abyssinicus-v8",
+      "started_at": "2026-11-27T01:27:18.875Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T01:27:18.926Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T01:28:30.195Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T01:29:57.185Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T01:30:02.797Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T01:30:09.032Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T01:31:00.827Z"
+        }
+      ],
+      "errors": [],
+      "scientifically_verified": false,
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "run_record": "owl-pet/production/runs/20261127T0030Z-B2-cycle4-resume0125Z-112-asio-abyssinicus-v8.json",
+      "stage": "VERIFIED",
+      "source_ids": [
+        "ABY-MATON-1989-JUV",
+        "WHSO-MIKKOLA-2013"
+      ],
+      "source_new": 0,
+      "source_reuse": 2,
+      "full_prompt": "Use case: precise-object-edit. Input1 is the existing three-owl plate, EDIT TARGET; input2 is the real Ethiopia1989 older juvenile, biological reference only. Preserve the two adults, all title/labels, forest, branch, scale, foot contacts and lighting of image1.\nRebuild the whole central juvenile plumage MATERIAL from scratch using the very low-contrast natural DOWN SURFACE of image2. Keep the juvenile silhouette, upright pose, dark face, orange irises, dark bill, small pale crown patch, fully formed long folded wing and barred tail exactly as image1. Treat the chest and belly as broad soft charcoal-brown tonal masses, with very fine diffuse flecking and a softly fuzzy contour. Individual filaments on the INTERIOR must be unresolved at this view scale, like a real slightly soft-focus photographed juvenile; only sparse short feather tips at silhouette. Replace its existing outlined curly hair, ring-shaped loops and knitted scribbles entirely, not merely recolour them. The soft breast is NOT curly fur, wire, wool, ringlets or outlined strands. Keep the dark folded wing as distinct formed overlapping feathers, not erased down. Do not turn bird into a newborn or infer flight. Retain adult complex crossbar-net bellies, yellow-orange eyes, blackish bills, feathered feet, near equal size display, six secure feet on same branch. Text unchanged \"112 ABYSSINIAN OWL · Asio abyssinicus\", \"ADULT MALE\", \"OLDER JUVENILE — AGE UNKNOWN\", \"ADULT FEMALE\". Preserve established pet-concept style, but lower central down microcontrast to photo-like soft plumage. Exactly3 birds. No nest/eggs/extra objects/new labels.",
+      "research": "Accessed2026-11-27. Fresh targeted web search and original Flickr page https://www.flickr.com/photos/34579661@N04/5424426357/ read captionlines37–42/64: Peter Maton, Ethiopia1989 scannedslide (uploaded2011, not capturedate). Existing ABY-MATON-1989-JUV reused; actual local original photo pixels reopened. Dark face/orange irises, pale small crown patch, formed long folded wing/barred tail and branch perch visible; soft unoutlined brown-charcoal down, not closed loops. Exact age/sex/flight unknown; one low-resolution scanned case, not all subspecies. No photo copied into repository. WHSO-MIKKOLA-2013 uploaded guide freshly read printed508/PDF510: adults fully feathered legs/toes and blackish hornclaws, orange-yelloweyes, blackishbill, dense mottled/barring, females only slightly larger; juvenile explicitly undescribed, speculative comparison to Asiootus excluded. Current Asioabyssinicus oldAsiootusabyssinicus, Ethiopian nominate not graueri inference. v7 actually viewed: materialloops remain. Design inference: rebuild central down as unresolved low-microcontrast soft tonal masses rather than previous short-strand prompts; preserve formed wing/tail, securestanding/support and all adults. Not scientificpassed untilreview; bodypose supported by actual photograph, not newborn. Existing adultnet evidence retained from ABY-COLLAR-BOESMAN-2019 historical study, not counted as fresh read. Prior runtime bootstrap create_commit missingtree_sha error was parser issue before ref mutation; parser corrected, no prior cycle credit or duplicate image.",
+      "research_record": "owl-pet/research/species/112-asio-abyssinicus-v8.md",
+      "review_record": "owl-pet/research/reviews/112-asio-abyssinicus-v8-review.md",
+      "image_meta": {
+        "bytes": 2784659,
+        "sha256": "bfbd10997e4baf099261de7ea749449fa1559b47c2c9d663b01f4fca1cd6cf7b",
+        "git_blob": "80beee51e323ae4fd542905d9a1d6c258294f4e0",
+        "size": [
+          1536,
+          1024
+        ],
+        "b64len": 3712880
+      },
+      "generation_wait_seconds": 36.127,
+      "generation_calls": 1,
+      "status": "NEEDS_REVISION",
+      "archive_commit": "c26b942da1f647fcb9c681525db0ecef242b9bd6",
+      "verify_exit0": true,
+      "ended_at": "2026-11-27T01:31:00.800Z",
+      "lesson": "Low microcontrast whole-down surface prompt tested in112v8; loops remain, NEEDS_REVISION. Targeted negative/curl prompts and this material rewrite not proven effective; do not reuse as successful rule. Actual Maton reference supports older formed-wing stage, no newborn assumptions. Cross-check110 next as related material defect. Bootstrap parser error occurred before main mutation; fixed by honoring structuredContent.sha.",
+      "verification_commit": "be1207a675923f25ddbde5274dc222667b14119b",
+      "credit_commit": "b8f4665dd9551441e7e8a745d92abc64ec27a2fe"
+    },
+    {
+      "run_id": "20261127T0125Z",
+      "batch_id": "20261127T0030Z-B2",
+      "cycle": 5,
+      "target": "110-megascops-barbarus-v9",
+      "started_at": "2026-11-27T01:31:10.552Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T01:31:10.606Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T01:31:15.390Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T01:32:40.700Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T01:32:45.307Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T01:32:50.592Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T01:33:35.892Z"
+        }
+      ],
+      "errors": [
+        {
+          "step": "next-reference-download",
+          "error": "urllib CONNECT tunnel403 for117/118; current110 immutable images/research/review succeeded separately"
+        },
+        {
+          "step": "connector_binary_blob_read",
+          "error": "fetch_blob UnicodeDecodeError decoding PNG asUTF8; use Git data JSON base64 route if supported"
+        }
+      ],
+      "scientifically_verified": false,
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "run_record": "owl-pet/production/runs/20261127T0030Z-B2-cycle5-resume0125Z-110-megascops-barbarus-v9.json",
+      "stage": "VERIFIED",
+      "source_new": 0,
+      "source_reuse": 2,
+      "source_ids": [
+        "BSO-CAYAYA-2026-FIELD-ACCOUNT",
+        "MIKKOLA-2013"
+      ],
+      "full_prompt": "Use case: precise-object-edit / compositing. Input1 is the SCIENTIFIC APPEARANCE REFERENCE: real brown-morph juvenile Bearded Screech-Owl. Input2 is the EDIT TARGET: existing three-owl pet-concept plate. Replace the entire CENTRAL JUVENILE with a newly built juvenile based primarily on input1, as an original interpretation rather than copying its photo. Preserve only the center juvenile location, overall scale and supported branch position from input2; do not use input2 juvenile's curly fur appearance as an anchor.\nNew juvenile body: compact softly oval with real gray-brown down and diffuse dark horizontal bars as in input1; natural small folded wing tucked flush into sides, yellow eyes, greenish-gray bill, narrow indistinct brows and NO visible ear tufts. Head slightly tucked, gentle leftward lean, two feet firmly resting and gripping existing mossy branch; supported standing, not flying or jumping. Real fluffy bird material: mostly fine granular feather texture, fuzzy edges and small ragged open tips, no coiled hair, outlines of circles, loops or repeated fur scallops. Keep older juvenile stage with no asserted exact age; don't make a naked newborn. No mature wing fan.\nKeep BOTH ADULTS of image2 intact: beard bristles, ear tufts, orange-brown spotted feather pattern, yellow eyes/greenish bills, feathered tarsi ending at bright pink bare toes and dark hornclaws, scale relationship, all adult feet contacts. Keep original forest/hollow background, lighting, composition, all existing species title/scientific name/labels including \"Juvenile — age unknown\". Exactly3birds. Maintain established charming polished pet-concept style, soften feather surfaces rather than drawing wool. No copied watermark or photo scene, no extra subjects, no nest-occupancy claim.",
+      "research": "Accessed2026-11-27; fresh targeted web query and CAYAYA original https://cayaya-birding.com/species/Bearded-Screech-Owl.htm read lines26–34/46, authors KnutEisermann/ClaudiaAvendaño, undated. Existing BSO-CAYAYA-2026-FIELD-ACCOUNT reused; actual brown-morph juvenile photo juvenile7 reopened (https://cayaya-birding.com/species/Bearded-Screech-Owl_juvenile7.jpg). Dark graybrown juvenile has diffuse transverse down bars/yellowiris/greenishbill/narrowbrow, branchsupported. No age/sex/flightdata. Morph-rufousphoto not transferred. Uploaded MIKKOLA-2013 printed214/PDF216 freshlyread: adultfeathered tarsi stop at base pinkbaretoes, hornclaws; greenbill/yelloweyes; mesoptile crownside/below remaining down, no visible tufts/narrow indistinct brows. Female meanmass+9g is not fixedheight, adultsretained. Old Scopsbarbarus/Otusbarbarus=currentMegascopsbarbarus. Pineoak/cloudforest; hollowbackground notverified nest. Guidearthropod-onlyfood vs fieldaccountbroaderprey conflict irrelevant to no-foodimage, unresolved. v8 actuallyviewed still curledfur. New design experiment swaps reference priority and rebuilds entire centraljuvenile/compacttuckedpose from actualphoto, preserving adults and supports; not repeating local fiber-only edits. Pose is design inference within observed perching capacity, exact age/sex/firstflightunknown. Scientificfalse.",
+      "research_record": "owl-pet/research/species/110-megascops-barbarus-v9.md",
+      "review_record": "owl-pet/research/reviews/110-megascops-barbarus-v9-review.md",
+      "image_meta": {
+        "bytes": 2711828,
+        "sha256": "3730caa233871d44355bd2ed6abf499d13ebabddcb4e1161e4bfb941cc42b734",
+        "git_blob": "99ba5dec1592b0876e422479fd62d3887e974537",
+        "size": [
+          1536,
+          1024
+        ],
+        "b64len": 3615772
+      },
+      "generation_wait_seconds": 38.403,
+      "generation_calls": 1,
+      "status": "NEEDS_REVISION",
+      "archive_commit": "3fc6f0071e74ff9bc4f3d9d09e28f6f40a621d27",
+      "verify_exit0": true,
+      "ended_at": "2026-11-27T01:33:35.866Z",
+      "lesson": "Photo-first central rebuild improved110 head/pose/compactformedwing but inherited closedcurls persist; NEEDS_REVISION. Whole-subject reference swap not validated for material. 112 relatedfailed strategy already actuallyreviewed thisrun. Network reference downloads117/118 failed403 while110 archive fullreadback succeeded; connector fetch_blob PNG decoding failsUTF8, don't equate with GitHubconnection failure.",
+      "verification_commit": "4514c2c79a7f933c72f97cd37bf9ded2d0befaa8",
+      "credit_commit": "e8abd4502e84bdc7317597eb7f20442fab14b28e"
+    },
+    {
+      "run_id": "20261127T0125Z",
+      "batch_id": "20261127T0030Z-B2",
+      "cycle": 6,
+      "target": "117-otus-manadensis-v10",
+      "started_at": "2026-11-27T01:35:06.010Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T01:35:06.048Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T01:35:10.639Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T01:35:33.423Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T01:35:56.355Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T01:37:16.294Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T01:37:21.321Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T01:37:25.947Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T01:38:09.057Z"
+        }
+      ],
+      "errors": [
+        {
+          "step": "primaryPDFopen",
+          "error": "SORA oldPDF redirects to homepage; earlierREADY originalread wording corrected beforegeneration"
+        }
+      ],
+      "scientifically_verified": false,
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "run_record": "owl-pet/production/runs/20261127T0030Z-B2-cycle6-resume0125Z-117-otus-manadensis-v10.json",
+      "stage": "VERIFIED",
+      "source_new": 1,
+      "source_reuse": 2,
+      "source_ids": [
+        "SLSO-MIK2013-194",
+        "SLSO-MARSHALL-1978-P13",
+        "SLSO-POB-2011-0907"
+      ],
+      "full_prompt": "Use case: precise-object-edit. Image1 is the #117 Otus manadensis v9 edit target. Correct ONLY both ADULTS' exposed TOE SKIN: replace its distinctly pink/flesh-pink colour with muted yellowish gray, lightly gray-ochre, with natural subtle scale texture. Keep horn/dark claw tips. Leave the feathered tarsal/toe-joint covering and boundaries intact, do not strip feathers or extend them. Do NOT recolour central juvenile feet: adult guide colour is not independently verified for the juvenile. Preserve absolutely everything else including three birds, adult orangeyellow irises/dark bills/tufts/sepia plumage, compact older juvenile with formed rounded folded wing, size relations, six stablebranch contacts, forest, lighting, title and labels. No added pattern or objects. Keep existing pet-concept style. This is adult toe colour only; no inferred age/flight or measured sexratio.",
+      "research": "Accessed2026-11-27. Existing species research117v9 read in full, currentmain original downloaded after initial CONNECT403 then successful same-URL retry2801573bytes; actually viewed. Otusmanadensis/currentSulawesi scope; oldScopsmanadensis and former nominatesubspecies mapping; no transfer fromsplitislands. Uploaded Mikkola2013 SLSO-MIK2013-194 printed194/PDF196 actuallyread: adults blackishbill/yelloweyes, yellowishgray toes/hornclaws, tarsifeatheredtotoes, unknown sexsize ratio; fine darkbrown juvenile crown/hindneckbars, otherwise resemblesadult. Fresh targetedwebsearch found Marshall1978 p13, but actual open https://sora.unm.edu/sites/default/files/journals/om/om025.pdf redirected to generic SORA homepage, no manadensis text. Marshall source is HISTORICAL v9 reuse only, not fresh originalread. Search snippet not validated. Correction to earlier RESEARCH_READY wording persisted beforegeneration. No specimen-exact sexheight or juveniletoecolour inferred. Actualv9 audit: adultbaretoes visiblypink, unlike guide yellowishgray. Design correction onlyadulttoe colour, keep existing featherboundary/claws; don'tapply adultcolourtoyoung. Existing olderjuvenile posedperching withcompactfoldedwing/support; exactyoungage/sex/flightunknown. Sulawesihumidforest, branchnotnest. Sciencefalse. No new publication/indexIDs.\nNew source SLSO-POB-2011-0907: PlanetofBirds / PoB EditorialTeam, Sulawesi ScopsOwl, dated7Sep2011, https://planetofbirds.com/strigiformes-strigidae-sulawesi-scops-owl-otus-manadensis/ , accessed2026-11-27, secondaryspecies synthesis. Original bodylines18–20/35–41 actuallyread: sepia/fuscous adults, orange-yellowiris, feathering overjoint, humidforest and limited breedingdata. Its apparent dependency on Marshall and typo leathered limit independence; confidence moderate for broad adultaccount, not juvenilechronology. Zero incubation/fledgingtable entries are missingdata placeholders, not real0day stages. Supports preserving adultbody/joint and avoiding developmentalclaims; toe colour correction rests on actual guide. No new ITIS claims: ITISreadtimedout; not indexed as read. Links this117v10 research/review/original and run. Sourcefact vs design: muted yellowgray adulttoe painting fromguide, juvenile feetunchanged; currenttaxonomy retained historicalv9.",
+      "research_record": "owl-pet/research/species/117-otus-manadensis-v10.md",
+      "review_record": "owl-pet/research/reviews/117-otus-manadensis-v10-review.md",
+      "image_meta": {
+        "bytes": 2786955,
+        "sha256": "bfe890773bfd4727c774a8281ae169b55680bd0052ad1bbdb5f28d5ab4da8f0f",
+        "git_blob": "6c1a7b1971f1ee99c207d5ba415a20c6e2cbdb41",
+        "size": [
+          1536,
+          1024
+        ],
+        "b64len": 3715940
+      },
+      "generation_wait_seconds": 32.84,
+      "generation_calls": 1,
+      "status": "PASS_WITH_LIMITATIONS",
+      "archive_commit": "165464917d89be7ffd3964158590e43891aad2b3",
+      "verify_exit0": true,
+      "ended_at": "2026-11-27T01:38:09.031Z",
+      "lesson": "117adulttoe pink→yellowgray corrected and visually checked, not juveniletraittransfer. Guide fresh194/PDF196. Marshall freshPDFopen redirects tohomepage, corrected READY beforeimagegen; newsecondary PoBsource indexed with dependencies/0data warning. Initialraw403 recovered bysameURLretry, not permanentblock.",
+      "verification_commit": "ac5b13878187b6bee3a3430d96318ec8ff101cb9",
+      "credit_commit": "4c47a8acbf7d6dc46093e0b3136dc7c3cbdbe567"
+    },
+    {
+      "run_id": "20261127T0125Z",
+      "batch_id": "20261127T0125Z-B2",
+      "cycle": 1,
+      "target": "118-megascops-cooperi-v6",
+      "started_at": "2026-11-27T01:38:18.171Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T01:38:18.234Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T01:38:42.614Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T01:39:52.122Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T01:39:59.439Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T01:40:04.564Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T01:40:46.072Z"
+        }
+      ],
+      "errors": [],
+      "scientifically_verified": false,
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "run_record": "owl-pet/production/runs/20261127T0125Z-B2-cycle1-resume0125Z-118-megascops-cooperi-v6.json",
+      "stage": "VERIFIED",
+      "source_ids": [
+        "PSC-MIKKOLA-2013-P210",
+        "PSC-AVESCR-2025",
+        "PSC-KOMAR-STUFKENS-2012"
+      ],
+      "source_new": 0,
+      "source_reuse": 3,
+      "full_prompt": "Use case: precise-object-edit. Edit existing #118 Megascops cooperi v5 three-bird plate. Target ONLY both ADULTS' lower breast and belly plumage: existing thin dark longitudinal shaft-streaks must remain, but introduce a fine delicate, broken dusky vermiculation between them over the pale gray-white background. Short tiny irregular wavy transverse marks, very faint and much finer than the shafts, a subtle broken herringbone tendency without a rigid grid or repeated V shapes. Keep abundant open pale ground. Do not replace shafts with heavy crossbars, tiles or scallops. Change no juvenile plumage or pose.\nLock the two adult pale-gray yellow-eyed/greenish-billed identities, narrow facial rim, hornlike feather tufts, two actual pale closed-wing bands, feathered tarsi/bristled toes/dark claws and original sizes/poses. Lock older juvenile on ground, its supported defensive wing-spread and formed remiges/tail, not flying. All six foot contacts, dry leaf litter/lowroots/cavity background, title, scientificname and all three role labels remain unchanged. Established polished naturalhistory pet-concept style, exact3birds, no extra elements or chronology claims.",
+      "research": "Accessed2026-11-27. Current Megascopscooperi; historicalOtuscooperi/Scopscooperi, no speciescount change. v5 researchread/fullimageactuallyviewed. Uploaded Mikkola2013 printed210/PDF212 freshlyread: adults thinblackshaftstreaks plus fine darkvermiculations paleground, two paleclosedwingbands, yellowiris/greenishbill, brownfleshytoes/hornclaws; femaleaveragemass+20g notheightformula; juvenileundescribed so no invented chronology. Fresh targetedwebresearch, AvesCostaRica original https://avesdecostarica.com/Megascops-cooperi.html body29–33 actuallyread: MauricioCalderón,2025footer, adultfinevermiculations/blackshafts/yelloweyes/graygreenbill/bristledtoes, graybuff/whitish-to-deepbuff juvenilewithfinebars, drywoodland/mangrovecavity context. AIillustration excludedexplicitly, secondarynot independentguide replication. Existing PSC-AVESCR-2025 reused, no newID. Prior PSC-KOMAR-STUFKENS-2012 oneHondurasolderfledglingdefensivecase historicalv5reuse only; targetedsearch didnot recoveroriginal withinthiscycle, notclaimfreshread. Ground-supported defensivepose/formedremiges retained, no generalizedflightability/age. Actualv5adultbellydominatedbysimplelongshafts, fineinterstitialvermiculations largelyabsent. Designdecision addfinefaintbrokenwaveletsadultonly, preserve paleground/shafts/alljuvenile/support. Contraststrength isartistic not measuredplumagefrequency. Exactjuvenileage/sex/subspecies/flightthresholdunknown. Near-equaladults no fixedsexsize. Sciencefalse.",
+      "research_record": "owl-pet/research/species/118-megascops-cooperi-v6.md",
+      "review_record": "owl-pet/research/reviews/118-megascops-cooperi-v6-review.md",
+      "image_meta": {
+        "bytes": 3173785,
+        "sha256": "49573b22e9db4f6e4c22be5e3aa1e9f4da85139eef908d660a0f72940d718c9a",
+        "git_blob": "b7e551fed7121bdae041622b7fbba031c2fb0dee",
+        "size": [
+          1536,
+          1024
+        ],
+        "b64len": 4231716
+      },
+      "generation_wait_seconds": 35.463,
+      "generation_calls": 1,
+      "status": "PASS_WITH_LIMITATIONS",
+      "archive_commit": "2f0412183efbed4914be8759c6a7f219480e910d",
+      "verify_exit0": true,
+      "ended_at": "2026-11-27T01:40:46.048Z",
+      "lesson": "118adultfinevermiculations actually added while shafts/openpaleground and supporteddefensivejuvenileremiges retained. Faintbrokenwaveletcontrol reused from109 pattern approach but visually validated hereonly; not universal plumagefrequency. Guide210/actualAvesCRbodyread; site'sAIillustrationexcluded. No flightgeneralization fromhistoricalonecase.",
+      "verification_commit": "285055cdfce2cbd491edfe592473966663b829f3",
+      "credit_commit": "aeb77685ab931f6ffd3839e3718cf103c4b38f53"
+    },
+    {
+      "run_id": "20261127T0125Z",
+      "batch_id": "20261127T0125Z-B2",
+      "cycle": 2,
+      "target": "119-megascops-centralis-v6",
+      "started_at": "2026-11-27T01:40:56.210Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T01:40:56.271Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T01:41:01.580Z"
+        },
+        {
+          "stage": "EDIT_REQUIRED",
+          "at": "2026-11-27T01:42:21.988Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T01:43:33.291Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T01:43:37.944Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T01:43:42.410Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T01:44:40.438Z"
+        }
+      ],
+      "errors": [],
+      "scientifically_verified": false,
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "run_record": "owl-pet/production/runs/20261127T0125Z-B2-cycle2-resume0125Z-119-megascops-centralis-v6.json",
+      "stage": "VERIFIED",
+      "source_new": 0,
+      "source_reuse": 3,
+      "source_ids": [
+        "CHSO-MIKKOLA-2013-P242-243",
+        "CHSO-AOS-13691-2026",
+        "CHSO-REYES-ASTUDILLO-2017-P377-381"
+      ],
+      "full_prompt": "Use case: precise-object-edit. Edit existing #119 Choco Screech-Owl Megascops centralis v5 plate. Correct ONLY exposed TOE SKIN of both ADULTS: from current saturated pink flesh to very pale yellowish/horn ivory skin, gently gray-yellow, matching adult species guide. Keep dark/horn claw tips and all skin scale detail. Leave existing adult lower-tarsus skin/feather boundary intact; this edit must not claim new tarsal boundary. DO NOT recolour juvenile feet or change its plumage; no direct juvenile toe-colour basis for applying adult character.\nKeep absolutely every other part intact: exactly3birds, adult small lowered tufts/yellowirises/greenish bills/gray-brown pattern and near-equal sizes; center olderjuvenile supportedbytwofeet at cavitysill, graymesoptile, short formedbarredremiges, no projectingtail, ageunknownlabel; forest/naturalcavity/branches/sixfoot contacts/lighting/all title andlabels unchanged. Maintain established polished pet-concept style, no sexheight formula, flight or exact age claim, no additional elements.\n\n## Actual scope repair prompt\nUse case: precise-object-edit. Image1 is the current edited119 plate, image2 is the prior v5 for restoration only. The toe colour repair worked, but it spilled onto the ADULT bare lower-tarsus skin ABOVE the toe joint. Restore ONLY those adult exposed lower-tarsus strips above the toe joints to their exact original muted pinkish colour from image2. Retain newly very pale yellowish TOE skin in image1, all claws and exact feather/skin boundaries. Do not invent a different anatomical border. Central juvenile unchanged entirely. Every bird, pose, feather, forest/cavity/branch, support, title andlabel unchanged. This restores edit scope; it is not claiming a scientifically verified tarsal colour.",
+      "research": "Accessed2026-11-27. CurrentMegascopscentralis oldOtusguatemalaecentralis/Mvermiculatuscentralis retained. Uploadedguide Mikkola2013 printed242–243/PDF244–245 freshlyread: adults baretoes verylightyellowish withhornclaws; smalltufts/virtuallyno blackfacerim/greenishyellowbill/yelloweyes, sexsizeunknown; juvenileundescribed. Actualv5imageviewed: adulttoes distinctlypink. Changeadulttoe skinonly, no transfer tojuvenilefeet and no tarsalboundaryedit. Fresh targetedresearch and actualofficial AOS https://checklist.americanornithology.org/taxa/13691 lines6–13 currentMcentralis/formerlyconspecificMguatemalae; taxonomyonly notmorphology. ExistingCHSO-AOS-13691-2026 reused, institutionAOSundatedentry/accessdateabove. PriorReyes&Astudillo2017 pp377–381 DOI10.1676/16-019.1 originalfulltext notfreshretrieved: historicalv5primaryrecordreuse only; advancedgraymesoptile/formedremiges/tail0mm two monitoredowlets/unknownhatchages/possibleparasitegrowth confound. SearchsecondarymisattributedDOI ignored; no newdevelopmentclaims. Preserve existing supported cavitysill olderjuvenile, no projectingtail, no age/firstflight/sexassertion. Adultbaretoecolourfromguide corrects olderpromptpink; observedphotoadultfeetmostlyhidden cannot independentlycalibrate. Nearequaladultsize is displaynotquantifieddirection. HumidwesternEcuadorChocólowlandforest/cavitycase, not universalnestform. Sciencefalse.",
+      "research_record": "owl-pet/research/species/119-megascops-centralis-v6.md",
+      "review_record": "owl-pet/research/reviews/119-megascops-centralis-v6-review.md",
+      "attempt1": {
+        "path": "owl-pet/design/originals/119-megascops-centralis-v6-attempt1.png",
+        "bytes": 3154840,
+        "sha256": "07e0cc366db86d5df32c22bf4669f08c50ac7ec602c533b59d4fe774ae747e92",
+        "git_blob": "4261d5520a47b8d4b69f59715ad7424acbce88b0",
+        "size": [
+          1536,
+          1024
+        ],
+        "b64len": 4206456,
+        "wait": 31.677
+      },
+      "generation_calls": 2,
+      "edit_prompt": "Use case: precise-object-edit. Image1 is the current edited119 plate, image2 is the prior v5 for restoration only. The toe colour repair worked, but it spilled onto the ADULT bare lower-tarsus skin ABOVE the toe joint. Restore ONLY those adult exposed lower-tarsus strips above the toe joints to their exact original muted pinkish colour from image2. Retain newly very pale yellowish TOE skin in image1, all claws and exact feather/skin boundaries. Do not invent a different anatomical border. Central juvenile unchanged entirely. Every bird, pose, feather, forest/cavity/branch, support, title andlabel unchanged. This restores edit scope; it is not claiming a scientifically verified tarsal colour.",
+      "generation_wait_total_seconds": 64.555,
+      "image_meta": {
+        "bytes": 2969593,
+        "sha256": "2b0e2540df892dc71793572b52b6295102439e952da8e1201c2d8c53392b39bd",
+        "git_blob": "de144b1eb0f28d443a2b172d0caad6a810f6e667",
+        "size": [
+          1536,
+          1024
+        ],
+        "b64len": 3959460
+      },
+      "generation_wait_seconds": 32.878,
+      "status": "PASS_WITH_LIMITATIONS",
+      "archive_commit": "6e5a191ee0f96d315c1ab858639258bc6b97bd6c",
+      "verify_exit0": true,
+      "ended_at": "2026-11-27T01:44:40.414Z",
+      "lesson": "119adulttoe paleyellow repair initiallyspilledonto tarsus; actualsecondedit restored originaltarsalskin while retaining yellowtoes, juvenilefeetunchanged. Both fulloutputs reviewed. Split toe vs tarsal scope should be checked separately; validated scopesrestore onlythisplate, source doesnotvalidate restoredtarsalcolour. AOS currentname freshbodyread; Reyes2017 historicalnotfreshfulltext.",
+      "verification_commit": "50d2f0f92c1d80a3fc176e45e270a83c93bfff92",
+      "credit_commit": "a22a744d33f0ba2f3d7fb46f1e473e3628a110ad"
+    },
+    {
+      "run_id": "20261127T0125Z",
+      "batch_id": "20261127T0125Z-B2",
+      "cycle": 3,
+      "target": "120-megascops-ingens-v6",
+      "started_at": "2026-11-27T01:44:50.473Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T01:44:50.526Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T01:44:55.965Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T01:46:06.576Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T01:46:12.005Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T01:46:17.629Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T01:47:00.962Z"
+        }
+      ],
+      "errors": [],
+      "scientifically_verified": false,
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "run_record": "owl-pet/production/runs/20261127T0125Z-B2-cycle3-resume0125Z-120-megascops-ingens-v6.json",
+      "stage": "VERIFIED",
+      "source_ids": [
+        "RIS-MIKKOLA-2013-P229",
+        "RIS-ORDONEZ-2022-LEAD",
+        "RIS-IKIAM-2022-INGENS-REPO"
+      ],
+      "source_new": 0,
+      "source_reuse": 3,
+      "full_prompt": "Use case: precise-object-edit. Image1 is #120 Megascops ingens v5 edit target. Correct ONLY both ADULTS' CLAWS: existing dark charcoal-gray talons should be pale horn-coloured, muted translucent warm beige-gray/ivory keratin, with slightly darker tips permissible but most claw length visibly light horn. Keep claw size, curvature, exact number, toe grip and all supports. Keep adult yellowish-gray toe skin and feathered tarsi unchanged. Do NOT change any juvenile claws, toes, bill, iris or plumage.\nAll other content locked: adults honeybrown eyes/oliveyellow bills/small tufts/rufescent patterned feathers/nearequalsizeasymmetricalposes, center juvenile ageunknown supportedbelly/twofeet oncavityrim with headturned/openbill and oneslightlylifted formedbarredwing. No wing deletion/newborn/flight inference. Keep exact3birds, all sixfootcontacts, Ecuador forestedge/deadstump/moss/leaves context, title andalllabels, established polished pet-concept style. No additional elements. Adultclawkeratin colouronly.",
+      "research": "Accessed2026-11-27. CurrentMegascopsingens oldScopsingens/Otusingens; southeastEcuador nominatecase, not Venezuelanuniversalization. v5researchandfullimageactuallyread/viewed. Uploadedguide Mikkola2013 printed229/PDF231 freshlyread: adults honeybrowneyes/oliveyellowbill, denselyfeatheredtarsitobaseyellowishgraytoes withPALEhornclaws. Femaleaveragemass+28g not standingheightratio. Downychickwhitishbuff/mesoptileduskymottled. Actualv5adultclawscharcoalgray; correct adultclawkeratinlightonly, no youngtraittransfer. Fresh targetedwebsearch plus actualIkiaminstitutionlanding https://ikiam.researchcommons.org/neotropical-diversity/vol8/iss1/35/ lines11–24 read: Ordóñez-Delgado/RamonCastillo/PinedaDíaz2022, primaryarticle NeotropicalBiodiversity8(1):301–304 DOI10.1080/23766808.2022.2123729, Fig1asset162KB. Actualdownloadclick yielded403; RGshortURLDisabledError. Thus originalfulltext/figure NOTfreshreadthiscycle; RIS-ORDONEZ-2022-LEAD reusedhistoricalv5reading pp302/Fig1 only. Preserve residualdown/beigebody/darkfaceiris/graybill/formedbarredremiges and supportedonewingdefensivebillclappose. Two ageestimates20–30 vs25–30 remainestimates, no exactagelabel or flight claim. No additionalnestmaterial decisions based on inaccessiblefigure; existingdeadstumpcontextretained asillustrationnotreconstructednest. RIS-IKIAM-2022-INGENS-REPO samepaper metadata mirror not secondindependentstudy. Sciencefalse, unknownyoungsex/chronology/flight/adultheightformula.",
+      "research_record": "owl-pet/research/species/120-megascops-ingens-v6.md",
+      "review_record": "owl-pet/research/reviews/120-megascops-ingens-v6-review.md",
+      "image_meta": {
+        "bytes": 2846498,
+        "sha256": "016c6c0778af76510af8cf70b60ed89b902d75ad153b3697792ad5c74bb3afce",
+        "git_blob": "6a750f8bcfa62a76181b88cdd866e9dd85346021",
+        "size": [
+          1536,
+          1024
+        ],
+        "b64len": 3795332
+      },
+      "generation_wait_seconds": 33.862,
+      "generation_calls": 1,
+      "status": "PASS_WITH_LIMITATIONS",
+      "archive_commit": "713936f8adecd990fb7c938cb1240c4cc9b1ba6c",
+      "verify_exit0": true,
+      "ended_at": "2026-11-27T01:47:00.937Z",
+      "lesson": "120adultclaws dark→palehorn corrected andactuallyviewed, no juveniletraittransfer. Existingyoungcurlydown remains separatecalibrationqueue similar110/112; current120 and earlier119/108 were actuallyviewed thisrun for potentialaffectedmaterial, do not call wholeplatesciencepassed. Primary2022fulltext download403/RGDisabled, metadataread only plus historicalprimaryreuse, no newnestmaterialclaim. #25 localv6 Gitblob equals currentmaintree10508841 size2864437; oldfd9d70d GitHub422unrecoverable, checkedlate thisrun rather than claiming pre-generationcheck.",
+      "verification_commit": "fd0ad73477b873afd316c6c9aa9020bc2c8018f6",
+      "credit_commit": "a6eb4bd3637178e41437c29a78fd43f58f7d88bd"
+    }
+  ],
+  "full_image_and_historical_ledger_readback_observed_exit0": true,
+  "errors": [
+    "bootstrap create_commit missing tree_sha fixed before refmutation",
+    "reference raw CONNECT403 recovered with sameURLretry",
+    "binary connector UTF8 decode unsupported; rawfullreadback succeeded",
+    "Marshall oldPDF redirect; READY wording corrected before generation",
+    "ITIS117 timeout;120RGdisabled/fulltext403; historical reuse clearly flagged",
+    "119edit spill restored with secondimagegen",
+    "group25/fd9 recoverycheck executedlate, acknowledged"
+  ],
+  "limits": [
+    "VERIFIED workflow not sciencepassed",
+    "110/112 remain NEEDS_REVISION",
+    "108/119/120 potentialrelatedmaterialqueue;108notrevised",
+    "no fixedplatformtimeouttelemetry"
+  ]
+}

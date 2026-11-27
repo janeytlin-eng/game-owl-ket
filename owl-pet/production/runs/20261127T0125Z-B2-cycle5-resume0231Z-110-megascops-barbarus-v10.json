@@ -8,6 +8,10 @@
     {
       "stage": "STARTED",
       "at": "2026-11-27T02:38:02.022Z"
+    },
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-27T02:38:07.523Z"
     }
   ],
   "errors": [],
@@ -15,5 +19,16 @@
   "unique_species_increment": 0,
   "revision_increment": 1,
   "run_record": "owl-pet/production/runs/20261127T0125Z-B2-cycle5-resume0231Z-110-megascops-barbarus-v10.json",
-  "stage": "STARTED"
+  "stage": "RESEARCH_READY",
+  "source_new": 0,
+  "source_reuse": 2,
+  "source_ids": [
+    "BSO-CAYAYA-2026-FIELD-ACCOUNT",
+    "MIKKOLA-2013"
+  ],
+  "generation_calls": 2,
+  "full_prompt": "Independentstudy:\nUse case: stylized-concept. Create one full-body older juvenile Bearded Screech-Owl Megascops barbarus original character study, using the supplied real brown-morph juvenile photograph as BIOLOGICAL REFERENCE ONLY. Plain neutral gray backdrop, a simple natural branch under both gripping feet. Compact oval body, head gently tucked and looking slightly left, yellow irises, greenish-gray bill, narrow indistinct eyebrows, no visible ear tufts. Gray-brown mesoptile with diffuse broad darker horizontal bars, fluffy mottled crown and pale-gray central belly areas as seen in photo, formed compact folded wings lying close to sides. Soft matte dense feathery down in broad granular fuzzy masses; short irregular ragged tips only at contour, no outlined loops, rings, curled wire or wool. Mostly unresolved soft down interior like real bird in photo, not furry coat. Follow photographed stage rather than newborn, do not invent mature extended remiges or flight pose. Restrained appealing realistic electronicpet character with warm natural daylight, not a copy of originalscene/photo/watermark. No text/extra birds/eggs/nest/exactage/sexclaim.\n\nIntegration:\nUse case: compositing / precise-object-edit. Image1 is existing110v9 threebirdplate EDIT TARGET; Image2 is the independently generated juvenile study. Replace only CENTRAL juvenile with the design and feathery soft material of image2, scaled to originaljuvenile size and both feet firmly on originalmossbranch. Preserve ageunknown older/mesoptile stage, no visible ear tufts/narrowbrows/yellowirises/greenishbill, diffuse darkbars and compact formedfoldedwing, not flight. Do not re-import the old centralbird's curlyhair/loopmaterial; use granular soft fuzzy feathermasses from newstudy. Keep bothadultbeardwhiskers/ear tufts/yelloweyes/greenishbills/spottedrufousgraybrownplumage/featheredtarsi/pinkbaretoes/hornclaws and their scale/postures intact. Keep forest/cavitybackground/branchsupport/lighting/title/scientificname and all rolelabels including Juvenile — age unknown. Exactly3birds and6feet supported; originalpetconceptstyle. No nestoccupancyclaim/no extraelements.",
+  "research": "Accessed2026-11-27. Fresh targetedwebquery and actual CAYAYA https://cayaya-birding.com/species/Bearded-Screech-Owl.htm body26–34/46 read; KnutEisermann/ClaudiaAvendaño undatedfieldaccount, BSO-CAYAYA-2026-FIELD-ACCOUNT reuse. Actual brownjuvenile7 photo reopened https://cayaya-birding.com/species/Bearded-Screech-Owl_juvenile7.jpg : graybrown compactmesoptile/downbars/yellowirises/greenishgraybill/narrowbrows/branchsupport, no age/sex/firstflight. No rufousmorph transfer. Uploaded Mikkola2013 printed214/PDF216 freshlyread: juvenile residualdowncrownside/below, no visibletufts/narrowindistinctbrows; adults yelloweyes/greenbill/featheredtarsitopinkbaretoes/hornclaws. Meanfemale mass+9g notheightformula. CurrentMegascopsbarbarus oldScopsbarbarus/Otusbarbarus, Guatemalanbrownjuvenilecase; adultpineoakcloudforest/cavitybackground notconfirmednest. Guidearthropod-only vs broaderfieldprey conflict notresolved/nofooddrawn. Actual110v9stillcurlyfur. New designexperiment follow112singleplate material-success by independentlygenerating onephoto-onlyjuvenile thenintegrating withadultinvariants; mustactualviewbothandchecktransfereffectiveness. Studyisnotextraspecies orround, originalstudypersisted. Exactjuvenileage/sex/growth/flightunknown; sciencefalse.",
+  "research_record": "owl-pet/research/species/110-megascops-barbarus-v10.md",
+  "review_record": "owl-pet/research/reviews/110-megascops-barbarus-v10-review.md"
 }

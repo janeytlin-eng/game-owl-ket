@@ -365,3 +365,7 @@ Photo-first central rebuild improved110 head/pose/compactformedwing but inherite
 
 ## 2026-11-27 0231Z 112-asio-abyssinicus-v9
 112 independent photo-only juvenile materialstudy→integration visually reduced repeatedoutlinedloops while keeping formedwing/tail and sourceolderstage. First successful one-plate materialexperiment, not universalscienceapproval. Studies saved beforeintegration, exact fulloutputsviewed. Crosscheck110 next to testtransfer, retainingunknownage/sex/flight and existingadultnet/feet.
+
+
+## 2026-11-27 0231Z 110-megascops-barbarus-v10
+Independentstudy→integration onlyvalidated112, NOT110: final110belly retainsclosedloops despite sourcefaithfulhead/pose/wing. MarkNEEDS_REVISION, avoiduniversalfixclaim. All originals/studies/prompts preserved. Crossaffected108checknext with itsownphoto, not brownmorph oradulttraitsborrowed.

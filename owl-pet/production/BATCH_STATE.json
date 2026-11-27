@@ -57843,7 +57843,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-27T23:53:08.212Z",
+  "updated_at": "2026-11-27T23:55:29.939Z",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -57875,7 +57875,7 @@
     }
   ],
   "active_lease": null,
-  "last_updated_at": "2026-11-27T15:55:57.164Z",
+  "last_updated_at": "2026-11-27T23:55:29.939Z",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -58678,14 +58678,6 @@
   ],
   "in_progress": false,
   "previous_checkpoint": {
-    "batch_id": "20261112T043100+0800",
-    "cycle": 3,
-    "stage": "LEDGER_CREDITED",
-    "verification_commit": "8d5c4fc0ddd7bb343f0120b1167805a13bad5ba9",
-    "archive_commit": "11099857ed587ad964162b832bb90ed8dd945392",
-    "at": "2026-11-12T06:00:36+08:00"
-  },
-  "last_checkpoint": {
     "run_id": "20261127T1529Z",
     "completed_cycles_this_invocation": 6,
     "new_species": 0,
@@ -58699,6 +58691,23 @@
     "report": "owl-pet/production/batches/20261127T1529Z-six-cycle-review.md",
     "at": "2026-11-27T15:55:57.164Z",
     "result": "SIX_ACTUAL_CYCLES_VERIFIED",
+    "scientifically_verified": false
+  },
+  "last_checkpoint": {
+    "run_id": "20261127T2326Z",
+    "completed_cycles_this_invocation": 6,
+    "new_species": 0,
+    "revised_versions": 6,
+    "revised_species": 5,
+    "unique_species": 207,
+    "total_species": 251,
+    "current_batch_id": "20261127T2326Z",
+    "current_batch_completed": 4,
+    "next_cycle": 5,
+    "other_partial_batches": 0,
+    "report": "owl-pet/production/batches/20261127T2326Z-six-cycle-review.md",
+    "at": "2026-11-27T23:55:29.939Z",
+    "result": "SIX_PRODUCTION_CYCLES_ARCHIVED_VERIFIED_WITH_LIMITATIONS",
     "scientifically_verified": false
   },
   "history": [
@@ -59991,7 +60000,7 @@
       "lease_expires_at": "2026-11-07T21:08:00+08:00"
     }
   ],
-  "last_updated": "2026-11-13T06:00:16.398+08:00",
+  "last_updated": "2026-11-27T23:55:29.939Z",
   "audit_log": [
     {
       "at": "2026-10-31T18:36:48+08:00",
@@ -65275,7 +65284,7 @@
     }
   ],
   "active_batch_id": "20261127T2326Z",
-  "active_cycle": null,
+  "active_cycle": 4,
   "current_stage": "VERIFIED",
   "next_cycle": 5,
   "unique_species_count": 207,
@@ -75942,8 +75951,8 @@
       "evidence": "OriginalPNG 2484838bytes SHA256fb50c11a2a2157124b52c7276330726e69a8c7b80e13c6e8b7068b7374027c7e; generation 2026-11-23T16:53:18.078Z → 2026-11-23T16:53:54.400Z; edits1; conceptpass limited. Immutable readback pending."
     }
   ],
-  "last_completed_batch_id": "20261127T2127Z",
-  "active_batch": "20261127T2226Z",
+  "last_completed_batch_id": "20261127T2226Z",
+  "active_batch": "20261127T2326Z",
   "events": [
     {
       "batch_id": "20261105T183434+0800",
@@ -85363,91 +85372,35 @@
   "completed_cycles": [
     {
       "cycle": 1,
-      "run_id": "20261112T213600+0800-cycle-1",
-      "species_id": 162,
-      "species": "Glaucidium hoskinsii",
-      "version": 3,
-      "action": "SCIENCE_REVISION",
-      "result": "VERIFIED",
-      "unique_species_increment": 0,
-      "revision_increment": 1,
-      "archive_commit": "6bbdd100dd0b2a0f7e0cd2cfdfb5359818e72803",
-      "archive_tree": "d52574b3ea6163812fd0c6f4e72c5b28e868c8ea",
-      "verification_commit": "27465b0fae4cd0cb15434a7892ba225d1533430d",
-      "verification_tree": "ef78550f5a4dc0a1e2aca4ed201ca8e67ec323cc",
-      "commit_sha": "27465b0fae4cd0cb15434a7892ba225d1533430d",
-      "run_record": "owl-pet/production/runs/20261112T213600+0800-cycle-1.md",
-      "concept_path": "owl-pet/design/concepts/162-glaucidium-hoskinsii-v3.png",
-      "completed_at": "2026-11-12T22:02:00+08:00",
-      "review_result": "PASS_WITH_LIMITATIONS",
-      "scientifically_verified": false
+      "species": "120-megascops-ingens-v10",
+      "commit_sha": "51a4fd1959b748d10d557882c800f28d325303ec",
+      "archive_commit": "67ce39827c16d53dfee74767d801df94dc9258ba",
+      "run_record": "owl-pet/production/runs/20261127T2326Z-cycle1-20261127T2326Z-120-megascops-ingens-v10.json"
+    },
+    {
+      "cycle": 2,
+      "species": "113-ninox-natalis-v9",
+      "commit_sha": "e32c4b50953dc07cd4c5d2c7438a4e8e1964be8c",
+      "archive_commit": "9c8f113d45eba2ccc664a7fc7aa9a9654f8dda1b",
+      "run_record": "owl-pet/production/runs/20261127T2326Z-cycle2-20261127T2326Z-113-ninox-natalis-v9.json"
+    },
+    {
+      "cycle": 3,
+      "species": "113-ninox-natalis-v10",
+      "commit_sha": "c996131d0196458ec26321ef5e3da0ae3810999e",
+      "archive_commit": "7dcf96497166dc31a25aea809aef3b30936c46bd",
+      "run_record": "owl-pet/production/runs/20261127T2326Z-cycle3-20261127T2326Z-113-ninox-natalis-v10.json"
     },
     {
       "cycle": 4,
-      "run_id": "20261113T043000+0800-cycle-4",
-      "species_id": 177,
-      "species": "Otus hartlaubi",
-      "version": 4,
-      "action": "SCIENCE_REVISION",
-      "result": "VERIFIED",
-      "unique_species_increment": 0,
-      "revision_increment": 1,
-      "archive_commit": "50eb7461bce04a0990dc4ae587de4d9b042a2108",
-      "archive_tree": "6a034a93dabf3f401b0a7db0fcd0673197e94a2e",
-      "verification_commit": "b4c740816390383fcaa1c6f2cb6da1f3e8ad26e1",
-      "verification_tree": "713303a8a5af0d776f7e2a93e27e21e2dd726a34",
-      "commit_sha": "b4c740816390383fcaa1c6f2cb6da1f3e8ad26e1",
-      "run_record": "owl-pet/production/runs/20261113T043000+0800-cycle-4.md",
-      "concept_path": "owl-pet/design/concepts/177-otus-hartlaubi-v4.png",
-      "completed_at": "2026-11-13T04:51:00+08:00",
-      "review_result": "PASS_WITH_LIMITATIONS",
-      "scientifically_verified": false
-    },
-    {
-      "cycle": 5,
-      "run_id": "20261113T045400+0800-cycle-5",
-      "species_id": 178,
-      "species": "Otus insularis",
-      "version": 4,
-      "action": "SCIENCE_REVISION",
-      "result": "VERIFIED",
-      "unique_species_increment": 0,
-      "revision_increment": 1,
-      "archive_commit": "10d7dabdb8a32d29a241d7c1dfb0ef5dca49b049",
-      "archive_tree": "0fe3855d0ec9f03b3f923d40d355283fb0092c72",
-      "verification_commit": "b3608e7da72dd5bf2f70b702b36e03d5eacaa69a",
-      "verification_tree": "de03327dc7c64215b65c106407d0a648ea97dc93",
-      "commit_sha": "b3608e7da72dd5bf2f70b702b36e03d5eacaa69a",
-      "run_record": "owl-pet/production/runs/20261113T045400+0800-cycle-5.md",
-      "concept_path": "owl-pet/design/concepts/178-otus-insularis-v4.png",
-      "completed_at": "2026-11-13T05:41:40.899+08:00",
-      "review_result": "PASS_WITH_LIMITATIONS",
-      "scientifically_verified": false
-    },
-    {
-      "cycle": 6,
-      "run_id": "20261113T054310+0800-cycle-6",
-      "species_id": 179,
-      "species": "Otus mayottensis",
-      "version": 4,
-      "action": "SCIENCE_REVISION",
-      "result": "VERIFIED",
-      "unique_species_increment": 0,
-      "revision_increment": 1,
-      "archive_commit": "1859d05918d1e3e83fff1ef9dba2a5a1672b3e58",
-      "archive_tree": "b099847a14f9594e0e7bfa7304912b9dc0f7532d",
-      "verification_commit": "acc4f6e82389d6840d6051514b240d1c290582a0",
-      "verification_tree": "d5a68cac8af6ffe6b56a30a14131c9c260562dd2",
-      "commit_sha": "acc4f6e82389d6840d6051514b240d1c290582a0",
-      "run_record": "owl-pet/production/runs/20261113T054310+0800-cycle-6.md",
-      "concept_path": "owl-pet/design/concepts/179-otus-mayottensis-v4.png",
-      "completed_at": "2026-11-13T06:00:16.398+08:00",
-      "review_result": "PASS_WITH_LIMITATIONS",
-      "scientifically_verified": false
+      "species": "121-ninox-leucopsis-v7",
+      "commit_sha": "ab0dc2284abe052dc25ceb068fec93cb86cdbcd6",
+      "archive_commit": "a36f137c130ea8dbbfbd003dff41727fc4dfaa77",
+      "run_record": "owl-pet/production/runs/20261127T2326Z-cycle4-20261127T2326Z-121-ninox-leucopsis-v7.json"
     }
   ],
-  "updated": "2026-11-13T06:00:16.398+08:00",
-  "stage": "PENDING_NEXT_CYCLE",
+  "updated": "2026-11-27T23:55:29.939Z",
+  "stage": "VERIFIED",
   "stage_evidence": {
     "invocation": "20261126T1225Z",
     "summary_commit": "15c53947e9616718b30850960567f5177ed02769",
@@ -87567,24 +87520,23 @@
     },
     "rule": "first two scientificnamefields; versions/duplicateIDs/subspeciesnotnew species"
   },
-  "next_action": "Resume2226Zcycle5;130/108materialerrorspending; prioritize evidence-grounded substantive correction, no identical annotation/material loops.",
+  "next_action": "Resume 20261127T2326Z cycle5; prioritize unresolved130/108 evidence-based texture corrections; no fresh batch/reset.",
   "last_invocation": {
-    "run_id": "20261127T2226Z",
-    "started_at": "2026-11-27T22:26:50Z",
-    "ended_at": "2026-11-27T22:47:34.649Z",
+    "run_id": "20261127T2326Z",
+    "started_at": "2026-11-27T23:26:23Z",
+    "ended_at": "2026-11-27T23:55:29.939Z",
     "completed_cycles": 6,
-    "report": "owl-pet/production/batches/20261127T2226Z-six-cycle-review.md",
-    "next_cycle": 5,
-    "final_readback_at": "2026-11-27T22:48:44.741713+00:00"
+    "report": "owl-pet/production/batches/20261127T2326Z-six-cycle-review.md",
+    "next_cycle": 5
   },
   "latest_delivery": {
-    "report": "owl-pet/production/batches/20261127T2226Z-six-cycle-review.md",
-    "audit": "owl-pet/production/batches/20261127T2226Z-audit.json",
+    "report": "owl-pet/production/batches/20261127T2326Z-six-cycle-review.md",
+    "audit": "owl-pet/production/batches/20261127T2326Z-audit.json",
     "completed_this_invocation": 6,
     "new_species": 0,
     "revised_versions": 6,
-    "revised_species": 6,
+    "revised_species": 5,
     "science_passes": 0,
-    "receipt": "owl-pet/production/batches/20261127T2226Z-final-readback-receipt.json"
+    "receipt": "owl-pet/production/batches/20261127T2326Z-final-readback-receipt.json"
   }
 }

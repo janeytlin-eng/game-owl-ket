@@ -1,0 +1,797 @@
+{
+  "run_id": "20261127T2326Z",
+  "started_at": "2026-11-27T23:26:23Z",
+  "six_cycles_finished_at": "2026-11-27T23:55:29.939Z",
+  "result": "SIX_PRODUCTION_CYCLES_ARCHIVED_VERIFIED_WITH_LIMITATIONS",
+  "counts": {
+    "baseline_images": 1424,
+    "final_images": 1430,
+    "historical_changed": 0,
+    "canonical_species": 207,
+    "new_species": 0,
+    "revisions": 6,
+    "distinct_species": 5
+  },
+  "source_counts": {
+    "new": 0,
+    "reused_citations": 14,
+    "stable_ids": 13,
+    "document_families": 9,
+    "ids": [
+      "MIKKOLA-2013",
+      "NWFO-OWLPAGES-2020",
+      "NWFO-HELSENS-2005-THHE32452",
+      "WAT-MENQ-2018-USTA",
+      "WAT-DANTAS-2021",
+      "WAT-MIK2013-235",
+      "RIS-ORDONEZ-2022-LEAD",
+      "RIS-MIKKOLA-2013-P229",
+      "CIB-WAM-JOHNSTONE-2016",
+      "WHSO-MIKKOLA-2013",
+      "TBO-ABSA-AGEING-2019",
+      "TBO-OLSEN-DEBUS-2013-FIG1",
+      "TBO-MIKKOLA-2013-P463"
+    ]
+  },
+  "imagegen": {
+    "calls": 10,
+    "outputs": 9,
+    "failures": 1
+  },
+  "durations": [
+    {
+      "target": "109-ptilopsis-leucotis-v13",
+      "started": "2026-11-27T23:29:21.081Z",
+      "ended": "2026-11-27T23:32:27.971Z",
+      "stage_events": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T23:29:21.128Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T23:30:07.128Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T23:32:00.130Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T23:32:06.055Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T23:32:10.951Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T23:32:27.992Z"
+        }
+      ],
+      "research_persistence_interval_seconds": 46.047,
+      "imagegen_success_wait_seconds": 36.666,
+      "edit_wait_seconds": 0,
+      "archive_metadata_interval_seconds": 10.806,
+      "archive_binary_upload_seconds": null,
+      "limitation": "Research interval includes research/persistence; archive interval excludes binary upload whose separate stopwatch was not retained. Do not invent pure-stage durations."
+    },
+    {
+      "target": "131-megascops-watsonii-v8",
+      "started": "2026-11-27T23:33:01.413Z",
+      "ended": "2026-11-27T23:35:39.617Z",
+      "stage_events": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T23:33:01.447Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T23:33:43.490Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T23:35:01.918Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T23:35:07.398Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T23:35:12.176Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T23:35:39.640Z"
+        }
+      ],
+      "research_persistence_interval_seconds": 42.077,
+      "imagegen_success_wait_seconds": 28.894,
+      "edit_wait_seconds": 0,
+      "archive_metadata_interval_seconds": 10.246,
+      "archive_binary_upload_seconds": null,
+      "limitation": "Research interval includes research/persistence; archive interval excludes binary upload whose separate stopwatch was not retained. Do not invent pure-stage durations."
+    },
+    {
+      "target": "120-megascops-ingens-v10",
+      "started": "2026-11-27T23:36:07.133Z",
+      "ended": "2026-11-27T23:39:16.456Z",
+      "stage_events": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T23:36:07.169Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T23:36:46.645Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T23:37:20.811Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T23:38:44.901Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T23:38:49.889Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T23:38:54.761Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T23:39:16.479Z"
+        }
+      ],
+      "research_persistence_interval_seconds": 39.512,
+      "imagegen_success_wait_seconds": 30.111,
+      "edit_wait_seconds": 0,
+      "archive_metadata_interval_seconds": 9.836,
+      "archive_binary_upload_seconds": null,
+      "limitation": "Research interval includes research/persistence; archive interval excludes binary upload whose separate stopwatch was not retained. Do not invent pure-stage durations."
+    },
+    {
+      "target": "113-ninox-natalis-v9",
+      "started": "2026-11-27T23:40:00.786Z",
+      "ended": "2026-11-27T23:48:14.257Z",
+      "stage_events": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T23:40:00.820Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T23:40:41.523Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T23:42:05.196Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T23:45:34.062Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T23:47:45.055Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T23:47:49.784Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T23:47:54.562Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T23:48:14.279Z"
+        }
+      ],
+      "research_persistence_interval_seconds": 40.737,
+      "imagegen_success_wait_seconds": 34.893,
+      "edit_wait_seconds": 95.372,
+      "archive_metadata_interval_seconds": 9.488,
+      "archive_binary_upload_seconds": null,
+      "limitation": "Research interval includes research/persistence; archive interval excludes binary upload whose separate stopwatch was not retained. Do not invent pure-stage durations."
+    },
+    {
+      "target": "113-ninox-natalis-v10",
+      "started": "2026-11-27T23:48:50.406Z",
+      "ended": "2026-11-27T23:50:45.045Z",
+      "stage_events": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T23:48:50.446Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T23:49:07.548Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T23:50:17.380Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T23:50:22.150Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T23:50:27.029Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T23:50:45.066Z"
+        }
+      ],
+      "research_persistence_interval_seconds": 17.142,
+      "imagegen_success_wait_seconds": 34.349,
+      "edit_wait_seconds": 0,
+      "archive_metadata_interval_seconds": 9.636,
+      "archive_binary_upload_seconds": null,
+      "limitation": "Research interval includes research/persistence; archive interval excludes binary upload whose separate stopwatch was not retained. Do not invent pure-stage durations."
+    },
+    {
+      "target": "121-ninox-leucopsis-v7",
+      "started": "2026-11-27T23:50:55.515Z",
+      "ended": "2026-11-27T23:53:08.191Z",
+      "stage_events": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T23:50:55.558Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T23:51:19.554Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T23:52:35.719Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T23:52:40.329Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T23:52:45.290Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T23:53:08.212Z"
+        }
+      ],
+      "research_persistence_interval_seconds": 24.039,
+      "imagegen_success_wait_seconds": 39.212,
+      "edit_wait_seconds": 0,
+      "archive_metadata_interval_seconds": 9.556,
+      "archive_binary_upload_seconds": null,
+      "limitation": "Research interval includes research/persistence; archive interval excludes binary upload whose separate stopwatch was not retained. Do not invent pure-stage durations."
+    }
+  ],
+  "results": [
+    {
+      "run_id": "20261127T2326Z-109-ptilopsis-leucotis-v13",
+      "batch_id": "20261127T2226Z",
+      "cycle": 5,
+      "target": "109-ptilopsis-leucotis-v13",
+      "action": "REVISION",
+      "started_at": "2026-11-27T23:29:21.081Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T23:29:21.128Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T23:30:07.128Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T23:32:00.130Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T23:32:06.055Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T23:32:10.951Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T23:32:27.992Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T2226Z-cycle5-20261127T2326Z-109-ptilopsis-leucotis-v13.json",
+      "stage": "VERIFIED",
+      "research": "Access28Nov2026Shanghai. Reuse3/new0: MIKKOLA-2013 HeimoMikkola2013seconded actualuploadedprinted254/PDF256read now: Ptilopsisleucotis proximal/basalhalftoes feathered, distaltoesduskybrown/blackclaws; lightgraybrown darkshafts/finevermiculations/whitefaceblackruff/longtufts/amberorangeadultiris/yellowhornbill; femalemass+30g notheight. Younggraywhite/graybrowntips/darkruff/yelloweyes no exactstage/flighttimingadopted. NWFO-OWLPAGES-2020 DeaneLewis2020 https://www.owlpages.com/owls/species.php?s=1160 actualDescription/Habitatbody freshlyread corroboratesproximalhalf feathering/drysavannaopenwoodland. NWFO-HELSENS-2005-THHE32452 ThierryHelsens adultSegouMaliSept2005 https://www.oiseaux.net/en/photos/thierry.helsens/northern.white-faced.owl.1.html actualmetadata/bodyfreshopened; feetobscured, NOT independentcoverageproof. Actualv12fullview: longtoeuppers whollyfeatheredtoclaws, widerscopecorrectionnot validatedbyoldlightingPWL. TargetremoveDISTALhalf adulttoeplumes, retainbasalhalf/ankle, preserveyoungunknownfeet. OldOtus/Strixleucotis/currentPtilopsisleucotis, notPgranti, no251change. Near-equaldisplaynotsexbiometry; restingbranchnooccupiednest/age/flightinvented. Versionmax12enumerated13new, existing13attemptcaughtpreflightguardon110andno mutation; target109new. Scientificfalse.",
+      "full_prompt": "Precise-object-edit exact Northern White-faced Owl #109 Ptilopsis leucotis v12. BOTH ADULT FEET ONLY: feathering currently covers entire visible toe shafts right up to claws. Species requires BASAL/PROXIMAL HALF ONLY feathered. Keep ankle and proximal half of each adult digit upper surface feathered finegray; REMOVE feathers from DISTAL HALF of each digit so its terminal half before the claw is clearly visible bare DUSKY-BROWN scaly skin. BLACK curved claws remain bare andsame shape. Make a distinct feather-to-scale transition halfway along toe, not just an ankle cuff. Preserve every digit number/position and securebranchgrip, no fusedpaws. Centraljuvenile feet whollyunchanged (developmentunknown). All otherbirdfeathercolours/shafts/vermiculations/facialwhiteblackruff/adultorangeeyes vs youngyellow/hornbill/tufts/ageunknownyoungwingtail/lighting/drysavanna/background/alllabels/pendingfooter unchanged; titlev12→v13. A local adulttoeextent correction, not full scientificpass.",
+      "source_ids": [
+        "MIKKOLA-2013",
+        "NWFO-OWLPAGES-2020",
+        "NWFO-HELSENS-2005-THHE32452"
+      ],
+      "new_sources": 0,
+      "image_metadata": {
+        "bytes": 2914362,
+        "sha256": "bfec00b3267a0c2deaf0910e1ec043df78084c7cc88d4301b9d4a2ee45d4e635",
+        "gitblob": "a46b1cce39aeac401af91d90732ce2522463c4d0",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-0a2667e0-42be-44cf-bc00-1888d4615c52.png",
+      "imagegen_wait_seconds": 36.666,
+      "editing_wait_seconds": 0,
+      "imagegen_invocations": 1,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "review": "Actualv12/v13fullimages andbook254text inspected. Adultdistaltoeuppers nowbarebrownscaledskinbetweengrayproximalplumes andblackclaws, versus fullv12toeplumes. Basalfeathercoverretained; exacthalf/eachdigitprojectionnotbiometricvalidated. PWLlocaladulttoeextent only. Centralyoungfeet unchangeddevelopmentunknown, formedwing/ageunknownyellowiris retained. Adultwhiteblackrimface/orangeiris/hornbill/longtufts/palegraybrownshafts/finevermiculations/near-equaldisplay,dryopenwoodland/sixgrips andallroles/footer/v13 preserved. No nest or flight/newageclaims. Lesson adulttoeextentrequires proximal-versusdistalexplicitzones not genericfurcuff; visiblecorrectionhereonly, not universalvalidation. Sciencefalse.",
+      "reviewed_at": "2026-11-27T23:32:06.037Z",
+      "archived_at": "2026-11-27T23:32:10.936Z",
+      "archive_commit": "0e9daf01232178819930afc79d55c861b55423f8",
+      "verification_exit_code": 0,
+      "ended_at": "2026-11-27T23:32:27.971Z",
+      "commit_sha": "41b1dfeb54a00e7017b35ea03da482cc920f63e6",
+      "credit_commit": "8edde9a53cf82c80613225fd3bdda95b2d4994f3"
+    },
+    {
+      "run_id": "20261127T2326Z-131-megascops-watsonii-v8",
+      "batch_id": "20261127T2226Z",
+      "cycle": 6,
+      "target": "131-megascops-watsonii-v8",
+      "action": "REVISION",
+      "started_at": "2026-11-27T23:33:01.413Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T23:33:01.447Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T23:33:43.490Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T23:35:01.918Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T23:35:07.398Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T23:35:12.176Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T23:35:39.640Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T2226Z-cycle6-20261127T2326Z-131-megascops-watsonii-v8.json",
+      "stage": "VERIFIED",
+      "research": "New0/reuse3IDs. WAT-MENQ-2018-USTA WillianMenqFeb2018 https://avesderapinabrasil.com/megascops_usta.htm actualfreshDescription/Reproduction21–29bodyread: adultvariablegray/rufous/brownamberiris/tarsitotoebases, 2013SouzaGuilherme deadBactris nest2m andestimated2d→4weeks SECONDARYreport. Actualoriginalattempts https://www.ao.com.br/download/AO173_22.pdf andAO173_24.pdf both503, page22versus24 bibliographyconflictunresolved. No newknown-daystage/cavitydesignfromunreadprimary. Scielo2017hits concernMcholiba EXCLUDEDfromustaphenotype. WAT-DANTAS-2021 SidneiDantasetal Zootaxa4949(3):401–444 DOI10.11646/zootaxa.4949.3.1 actualprimary https://www.mapress.com/zt/article/download/zootaxa.4949.3.1/43285 printed428/PDF28 bodyread: CladeB westernAmazonmultimorphvariation, morphologyaloneunsafe, notadjacentalagoensis/nominatewatsonii. WAT-MIK2013-235 historicalIDsameMikkola2013 actualuploadedprinted236–237/PDF238–239read: usta adultwarmbrowniris/greenwashedyellowbrownbill/baregrayyellowbrowntoes/darkhornclaws/nosexsize data; mesoptilebarredhead/mantle/underparts. CurrentregionalMwatsoniiusta/oldScopsusta keptwithout251rankchange. Actualv7fullviewed, longprojectingwispsarechosenstylisticcoarseness refinement; bookdoesnotproveexactfeatherlength, no scientificmicrostructureclaim. Preservequietolderstage/bellyandfeetnatural support/compacthiddenwing, no guessednewborn/day-age/firstflight ornestdetails. Oneboundedshortfringetrialmustreviewactualeffect; no assertednovelmethod; sciencefalse. Max7enumerated8new. Access28Nov2026Shanghai.",
+      "full_prompt": "Precise-object-edit #131 Megascops watsonii usta regional concept v7. Center AGE-UNKNOWN MESOPTILE only, reduce the excessively long projecting hairlike fringe on crown, neck and bodyoutline. Keep same rounded silhouette/pose but substitute very short soft irregular feather wisps and diffuse fine granular surface; retain all documented brown-buff transverse pigment bars on head/mantle/underparts. No sharp maturewingtiers or pale spotrows. Don't make a hairless/plasticbody or hatchling; retain compact body-coveredfoldedwing/hidden tail/bellysupportedonlowfork/tworestingfeet/closedrestingeyes/tuckedbill. Alladult morphology/browniris/greenyellowhornbills/baretoeshafts/darkclaws/mediumtufts/irregular shafts andfinevermiculations/indistinctscapulars/near-equaldisplay remain. No newexactage/flight/cavityor2daychick. Same westernAmazonforest/mossfork/alllabels/usta regionaltaxon/footer. v7→v8. Only short-fringe design refinement; do not treat as scientific featherchronology validation.",
+      "source_ids": [
+        "WAT-MENQ-2018-USTA",
+        "WAT-DANTAS-2021",
+        "WAT-MIK2013-235"
+      ],
+      "new_sources": 0,
+      "image_metadata": {
+        "bytes": 2842534,
+        "sha256": "aedb961109c6a04656ed7801d156df200cd181f712a1bf647a4f033fe16bdc06",
+        "gitblob": "6cad422de2f7b1d5f3a88e6b08c7250b4c7331fb",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-db374e67-7f95-40b1-8d11-3a906a32866a.png",
+      "imagegen_wait_seconds": 28.894,
+      "editing_wait_seconds": 0,
+      "imagegen_invocations": 1,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "review": "Actualv7/v8fullimage viewed. Centerlongprojectingoutlinewisps visiblyshorter/morecompact; brown-buff head/mantle/belly crossbars andsoftbody-coveredwing remain, no insertedmaturewingrows/newborn/knownage/flight. Finewithinbodycurvedstrandunits stillpresent, exactmicrogeometryunvalidated; PWLforstylisticfringeshorteningONLY, notscientificphenotypecorrection. Sleepclosedeyes/tuckedbill/bellyandtwofootlowforksupport retained. Adults brownirises/mediumtufts/greenwashedhornbill/indistinctscapularspots/shaftvermiculations/baretoes/darkclaws/near-equaldisplay andrainforest/usta/regionaltaxon/unknownfooter/v8 retained. Original2013paper503meansstillno primaryagedyoungrecord; no secondary2day/4weekclaimconvertedtoimage. Lesson outlinegraincanbechangedwithoutpretendingunreaddevelopmentdataresolved; oneinstancepartialdesignresult notgeneralstrategyproof. Allsciencefalse.",
+      "reviewed_at": "2026-11-27T23:35:07.384Z",
+      "archived_at": "2026-11-27T23:35:12.164Z",
+      "archive_commit": "0e72d7d604bbd60c8f465289e367281ff66864a6",
+      "verification_exit_code": 0,
+      "ended_at": "2026-11-27T23:35:39.617Z",
+      "commit_sha": "a7ff30f721ffedf52c63a5da0eb23cc5ee0a57cd",
+      "credit_commit": "066eb019e2f2ed1527610ea611b37b545a0e2c57"
+    },
+    {
+      "run_id": "20261127T2326Z-120-megascops-ingens-v10",
+      "batch_id": "20261127T2326Z",
+      "cycle": 1,
+      "target": "120-megascops-ingens-v10",
+      "action": "REVISION",
+      "started_at": "2026-11-27T23:36:07.133Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T23:36:07.169Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T23:36:46.645Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T23:37:20.811Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T23:38:44.901Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T23:38:49.889Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T23:38:54.761Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T23:39:16.479Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T2326Z-cycle1-20261127T2326Z-120-megascops-ingens-v10.json",
+      "stage": "VERIFIED",
+      "research": "New0/reuse2. RIS-ORDONEZ-2022-LEAD LeonardoOrdonezDelgado/FreddyRamonCastillo/AngelPinedaDiaz2022 NeotropicalBiodiversity8(1):301–304 DOI10.1080/23766808.2022.2123729; actualAUTHORPUBLICFULLTEXT nowopened https://www.researchgate.net/publication/364265788_Primer_registro_del_polluelo_y_nuevos_datos_del_nido_del_Autillo_Rojizo_Megascops_ingens_Strigiformes_Strigidae_en_Zamora_Chinchipe_sureste_de_Ecuador printed302bodylines317–361 actuallyread, notsearchabstract. One26Oct2020ZamoraChinchipeyoung: beige/whitedown, darkface/whiteforehead, graybill/paleyelloweggtooth, OPEN EYES withDARKCOFFEEBROWNIRIS/blackpupils; stronglydevelopedbarredremiges, defensivepartwingopening/billclap. Estimated20–30d notknownhatchage; later25–30estimateandabstract2.5m versusbody110cmconflictsretained, no universalclutch/flight inference. Currentv9actualiris moregolden/honey thanprimarycoffeebrown; targetonlythatindividual-stageyoungiris, notadulttransfer. No newfigurepixelviewclaimedthiscycle (bodytextenoughforcolour, oldsourcefigurehistorical). RIS-MIKKOLA-2013-P229 sameMikkola2013 uploadedactual229/PDF231 textread: ADULT honeybrowniris/oliveyellowbill/palehornclaws, female+28gmassnotheight; dark-scallopedcrown legitimate notgenericplaincrown. Preserveoldadultunderpartfixandformedyoungwing. CurrentMingens/oldOtus/Scopsingens southeastEcuadorcase notwesterncolombianus, no251change. Access28Nov2026Shanghai; sourcefamilyreuse notnewpaper. Ageflightsex/microgeometryunknown, sciencefalse. Versionmax9enumerated10new.",
+      "full_prompt": "Precise-object-edit #120 Megascops ingens v9 trio: CENTRAL JUVENILE IRIS COLOUR ONLY. Primary observed Ecuador juvenile has DARK COFFEE-BROWN irises and BLACK pupils. Replace existing golden/honey/yellow-brown coloured iris ring with natural very dark rich coffee-brown iris, clearly brown but lowcontrast relative blackpupil; preserve realistic eye glint, exact eye outline/position/open expression, dark face, surrounding pale forehead/down. Do NOT change adult honeybrownirises or pinkish rims. Keep juvenilegraybill/paleyelloweggtooth/openbeak/whitedown-over-beigebody/fullyformedbrownbarredremiges/tail/feet/pose/stumpsupport untouched: it is estimated20–30d not hatchling. Preserve bothadults lighterfinevermiculatedunderparts/fewthinshafts/tufts/oliveyellowbills/yellowgraytoes/palehornclaws andallscene/labels/footer. v9→v10. No flightclaim/nestgeometry/knownhatchage or broadspeciesirisrule.",
+      "source_ids": [
+        "RIS-ORDONEZ-2022-LEAD",
+        "RIS-MIKKOLA-2013-P229"
+      ],
+      "new_sources": 0,
+      "generation_errors": [
+        {
+          "at": "2026-11-27T23:37:20.789Z",
+          "step": "imagegen referenced-image read",
+          "error": "unable to read referenced image: exec-server transport closed",
+          "output_image": false,
+          "recovery": "ls confirms2507191byteinput andview_image succeeds; same builtin tool retry after reopen"
+        }
+      ],
+      "generation_attempts": 2,
+      "successful_generations": 1,
+      "image_metadata": {
+        "bytes": 2454128,
+        "sha256": "5887efd78a6df6cc25cebc8c6763f1f4eb67183c09fb920228fb8e52b6b51c8b",
+        "gitblob": "6ec89f0fe1ded785e49852124e30f27380ff2c84",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-4c0d955c-94e1-4cfc-81e5-3b2954d3a37b.png",
+      "imagegen_wait_seconds": 30.111,
+      "editing_wait_seconds": 0,
+      "imagegen_invocations": 1,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "review": "Actualv9/v10fullimages compared, primaryprinted302irisdescription read. Youngiris visibly darkcoffee-brown ratherthangolden/honeyring; blackpupil/glint andeyesopen/darkface/graybill/paleyelloweggtooth/whiteresidualdownoverbeigebody/formedbrownbarredremiges preserved. Adult honeybrowneyes/oliveyellowbills/fineadultunderparts/palehornclaws/yellowgraytoes unchanged, no forcedsexheightratio. Allstumpfootcontacts/olderdefensiveopenbill/forest/estimatedage-flightunverified/v10labels retained. PWLlocalindividual-stageiriscolourcorrectiononly; nofigurepixelverificationthiscycle, exacthatchage/flight/continuouschronology/microplumageunknown. Sourceprimarynowactuallyreadsupersedespriorinaccessible-body limitationforcurrentrun, notnewindependentpublication. Firsttoolreferencereadtransportclosedfailedwithoutoutput; inputls+viewvalid andbuiltinretryproducedoneimage, record2attempts/1success, nofailedoutputcredit. Lesson don'tborrowadult honeyiris onto documentedyoungdarkcoffee; colourfactscopedtoone observedyoung, notallspeciesages. Sciencefalse.",
+      "reviewed_at": "2026-11-27T23:38:49.873Z",
+      "archived_at": "2026-11-27T23:38:54.737Z",
+      "archive_commit": "67ce39827c16d53dfee74767d801df94dc9258ba",
+      "verification_exit_code": 0,
+      "ended_at": "2026-11-27T23:39:16.456Z",
+      "commit_sha": "51a4fd1959b748d10d557882c800f28d325303ec",
+      "credit_commit": "a98063f3cb9068a6c1641bb77dfc5e597eb814c9"
+    },
+    {
+      "run_id": "20261127T2326Z-113-ninox-natalis-v9",
+      "batch_id": "20261127T2326Z",
+      "cycle": 2,
+      "target": "113-ninox-natalis-v9",
+      "action": "REVISION",
+      "started_at": "2026-11-27T23:40:00.786Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T23:40:00.820Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T23:40:41.523Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T23:42:05.196Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T23:45:34.062Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T23:47:45.055Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T23:47:49.784Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T23:47:54.562Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T23:48:14.279Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T2326Z-cycle2-20261127T2326Z-113-ninox-natalis-v9.json",
+      "stage": "VERIFIED",
+      "research": "New0/reuse2: CIB-WAM-JOHNSTONE-2016 RonJohnstone WAM March2016 primaryinstitutioninfosheet https://museum.wa.gov.au/sites/default/files/Information%20sheet%20-%20Christmas%20Island%20Hawk-Owl_EN_MS_ZH_0.pdf actualEnglishPDF1Description13–22/Breeding27–29 readnow; RichardJacksonimagecredits notnewphotopixelclaim. Adultsbluegraybill/yelloweyes/white lores-shortbrow-chin/paleyellowfeet, femalelittlegreater, youngsimilarpaler/downier, nestinglargeemergenttreehollows; no exactday/flight/growthsequence. WHSO-MIKKOLA-2013 existingbookalias actualuploadedprinted494/PDF496 read: tuftless/adulttarsiochrerufousbarred, toe strawyellow/darkclaws, youngwidelybarred/spottedheadandback; geographiccaptionKiritimati excluded forIndianOceanChristmasIsland perWAM. SourcechinWAMwhite versusbooktawnywhiteshaftsmicroextentnotforcednewedit. Actualv8fullview: adulttarsalfixalreadyretained, no newphysicaldefect established; exportlacks anysciencependingorunknownday/flightnotice. TargetONLY scientificstatusandstageuncertainty readable withinimage, notclaimnewmorphology/newscience. CurrentNinoxnatalis oldN.squamipilanatalis/forbesinatalis same251unit. Preserveolderyoungformedwingtail/support no inventionnewbornnataldetails. Access28Nov2026Shanghai; sciencefalse. Max8enumerated9new.",
+      "full_prompt": "Precise text-localization edit #113 Ninox natalis v8 familyplate. Add small 'v9' to title. Add clear discreet bottom line 'CONCEPT · SCIENTIFIC CALIBRATION PENDING · JUVENILE AGE / FLIGHT UNVERIFIED'. Change central label 'OLDER JUVENILE' to 'OLDER JUVENILE · AGE UNKNOWN'. Preserve ALL BIRD pixels visually: adultochrerufousbarredtarsi/yellowtoes/darkclaws/yelloweyes/bluegraybills/white facialmarks/plumagebars/near-equaldisplay andjuvenile palerfluff/formedwings-tail/stance. Keep6branchgrips/rainforest/softlight/noear-tufts/threebirds. No anatomyredesign/newage/flight/nest. This is uncertainty disclosure only, not a biological correction or approval.",
+      "source_ids": [
+        "CIB-WAM-JOHNSTONE-2016",
+        "WHSO-MIKKOLA-2013"
+      ],
+      "new_sources": 0,
+      "initial_metadata": {
+        "bytes": 2594931,
+        "sha256": "c3199419e6a1b4a224c7c3f61f3de50190d9163fe2f4c40cb8032b27b169bbef",
+        "gitblob": "09de5a013858bab429d9fc05325cc6db97de14af",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "initial_wait_seconds": 34.893,
+      "initial_review": "Actuallyviewed firstv9: added intendedlabels but newgoldsignature-like scribble belowjuvenileonbranch; rejectartifact, removebeforefinal.",
+      "edit_prompt": "Exact #113 Ninox natalis v9 image. REMOVE ONLY the tiny gold/yellow signature-like scribble on/just below branch under the juvenile's right-hand side, above right edge of central 'OLDER JUVENILE · AGE UNKNOWN' label (near x1018,y853 of1536x1024). Reconstruct clean natural darkbrown branch/foliage there. Do NOT remove/alter any legitimate role labels, species title, v9, scientificpendingfooter or uncertainty text. No artist signature, initials, watermark or other newtext. Preserve all threebirds/feathercolours/feet/support/lighting completely. One tiny artifact removal only.",
+      "artifact_removal_attempt_1": "Actualviewed: first removal moved/preservedgoldscribble nearx900y883, stillreject; nextlocalizedrectangle removal.",
+      "second_edit_prompt": "Remove ALL tiny gold/yellow handwritten signature/initials/scribbles below the central juvenile on the branch and background. Specifically the small illegible gold marks at x895-940,y870-895 in the 1536x1024 image, directly ABOVE the word UNKNOWN in the central role label, must disappear. Fill that small rectangle with the existing natural dark olive forest background. This is an artifact removal edit, not a signature request. Preserve the entire title, all legitimate white labels, footer, all 3 birds, and branches. NO new gold marks, no watermark, no initials, no signature. Exact image unchanged outside that small rectangle.",
+      "image_metadata": {
+        "bytes": 2509709,
+        "sha256": "18a681fef90052a193e5ddb5d1469b4e77a5a41f9188289aaf81d5e1e6ced373",
+        "gitblob": "bbb04213abd5f866cc50916bd227e6e91763aed3",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-56839065-f965-4f2a-bea7-cf8490b5ecb4.png",
+      "imagegen_wait_seconds": 34.893,
+      "editing_wait_seconds": 95.372,
+      "imagegen_invocations": 4,
+      "review_result": "NEEDS_REVISION",
+      "review": "Actualv8, initialv9 and all3 removal outputs viewed. In-image ageunknown and science/flightpending disclosure readable, no intentionalanatomychanges; yellowiris/bluegraybill/ochrerufousbarredadulttarsi/strawtoesdarkclaws/youngformedwings/support retained. Three localized removaledits substantially reduced initialgoldscribble but faintgoldresidue stillvisible aroundx910y880: NEEDS_REVISION artifact queue, notcleanpass. This complete production/review/archive cycle does NOT resolve thatvisualdefect nor sciencecalibration. No newborn/dayage/flightclaim. Lesson tiny-coordinate requests repeatedly attenuated ratherthan fullyremoved artifact; observedfailure inthisimage, notvalidatedmethod. Preserveinitialandfinal; nextcycleprioritize cleanbackground removal bybroadsceneinstruction or resumeunresolvedafterotherstage. Sourceyoungage/flightunknown remains. imagegen4successfulcalls(initial+3edits), actualwaitsrecorded. Scientificfalse.",
+      "reviewed_at": "2026-11-27T23:47:49.771Z",
+      "archived_at": "2026-11-27T23:47:54.543Z",
+      "archive_commit": "9c8f113d45eba2ccc664a7fc7aa9a9654f8dda1b",
+      "edit_prompts": [
+        "Exact #113 Ninox natalis v9 image. REMOVE ONLY the tiny gold/yellow signature-like scribble on/just below branch under the juvenile's right-hand side, above right edge of central 'OLDER JUVENILE · AGE UNKNOWN' label (near x1018,y853 of1536x1024). Reconstruct clean natural darkbrown branch/foliage there. Do NOT remove/alter any legitimate role labels, species title, v9, scientificpendingfooter or uncertainty text. No artist signature, initials, watermark or other newtext. Preserve all threebirds/feathercolours/feet/support/lighting completely. One tiny artifact removal only.",
+        "Remove ALL tiny gold/yellow handwritten signature/initials/scribbles below the central juvenile on the branch and background. Specifically the small illegible gold marks at x895-940,y870-895 in the 1536x1024 image, directly ABOVE the word UNKNOWN in the central role label, must disappear. Fill that small rectangle with the existing natural dark olive forest background. This is an artifact removal edit, not a signature request. Preserve the entire title, all legitimate white labels, footer, all 3 birds, and branches. NO new gold marks, no watermark, no initials, no signature. Exact image unchanged outside that small rectangle.",
+        "Erase every yellow/gold handwritten scribble in rectangular background x870..965 y860..900; replace with darkoliveforestbokeh, preservebirds/labels"
+      ],
+      "verification_exit_code": 0,
+      "ended_at": "2026-11-27T23:48:14.257Z",
+      "commit_sha": "e32c4b50953dc07cd4c5d2c7438a4e8e1964be8c",
+      "credit_commit": "0ad3d42634efa2c7e768feb73335b5b887288059"
+    },
+    {
+      "run_id": "20261127T2326Z-113-ninox-natalis-v10",
+      "batch_id": "20261127T2326Z",
+      "cycle": 3,
+      "target": "113-ninox-natalis-v10",
+      "action": "REVISION",
+      "started_at": "2026-11-27T23:48:50.406Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T23:48:50.446Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T23:49:07.548Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T23:50:17.380Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T23:50:22.150Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T23:50:27.029Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T23:50:45.066Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T2326Z-cycle3-20261127T2326Z-113-ninox-natalis-v10.json",
+      "stage": "VERIFIED",
+      "research": "Access28Nov2026Shanghai. Reuse1 CIB-WAM-JOHNSTONE-2016 RonJohnstone/WAM2016 original EnglishPDF1 freshlyopened https://museum.wa.gov.au/sites/default/files/Information%20sheet%20-%20Christmas%20Island%20Hawk-Owl_EN_MS_ZH_0.pdf Description13–22 andBreeding27–29 read, phenotype/unknownstage boundaries sameprecedingcycle, notnewpublication. Activeexternalyoungquery alsoreturnedgovernment/specimenleads: notopenedbodies notadopted asyoungfacts. v9sourcefacts unchanged, no biologicaldefect newlyestablished. Thiscycleprioritizes actualunresolvedgoldartifact of preceding113v9, three prior coordinate-removals onlyattenuated. ReplaceunderperchBACKGROUND broadlywhilekeeping documentedadult/olderyoung andage-flightunverified, existingguide494facts reusedfromprecedingcycle notfreshreadhere. CurrentNnatalis sameoldN.squamipilanatalis, same251unit. Actualv9wholeview supports artifactqueue, no newborn or knownflight. No additionalunique species; same113 secondrevisionmustnotdoublecount. New0/reuse1; visualcleanuptrial sciencefalse.",
+      "full_prompt": "Edit exact #113 Ninox natalis v9 trio into v10. Visually clean up ALL background underneath the central perch, in the open space between the juvenile tail/branch and the central white role label: replace that backdrop with a simple continuous softly blurred DEEP FOREST GREEN area. Remove every small gold scribble, yellow speck, possible handwritten mark or signature from that lower backdrop. No gold letters or artist marks. Keep the birds, main perch, tails, feet and legitimate white typography fully intact. Restore clean background, not just reduce opacity of marks. Keep scientific pending/footer/age unknown text and change title v9 to v10. Same adult morphology, central juvenile age/flight unknown, no anatomical redesign. This is graphic cleanup only.",
+      "source_ids": [
+        "CIB-WAM-JOHNSTONE-2016"
+      ],
+      "new_sources": 0,
+      "image_metadata": {
+        "bytes": 2472469,
+        "sha256": "326000ea379132fe9d3a102f132cbdefb66cb0b0bdbc51613ee360e7fe47bfbc",
+        "gitblob": "d8485639ed33c18d8548475e6e0234692d1fc806",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-a2ecc59d-8da9-4820-9f52-8522797ac6b3.png",
+      "imagegen_wait_seconds": 34.349,
+      "editing_wait_seconds": 0,
+      "imagegen_invocations": 1,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "review": "Actualv9/v10wholeimageviewed: broadunderperchbackdropreplacement removes previouslyvisiblegoldclusters/residue; no handwritingvisible in nowcontinuousdeepgreenlowerbackdrop. Rolelabels/pendingfooter/AGEUNKNOWN/v10title legible. Birds retainedadultyellowirises/bluegraybills/whitebrows/ochrerufousbarredtarsi/strawyellowtoesdarkclaws/near-equaldisplay; juvenilepalefluff/formedwings-tail/twofootbranchgrip/no ageflightclaims. Broadbackgroundchanged ratherthan birdanatomy. PWLgraphiccleanup only, actual113v9artifactqueue resolvedbyv10; historicalv9remains NEEDS_REVISION andnotdeleted. Lesson 3tightcoordinateeditsfailed/attenuated; broademptybackgroundreconstruction succeededvisuallyonce, no universalmethodclaim. Sciencefalse.",
+      "reviewed_at": "2026-11-27T23:50:22.137Z",
+      "archived_at": "2026-11-27T23:50:27.016Z",
+      "archive_commit": "7dcf96497166dc31a25aea809aef3b30936c46bd",
+      "verification_exit_code": 0,
+      "ended_at": "2026-11-27T23:50:45.045Z",
+      "commit_sha": "c996131d0196458ec26321ef5e3da0ae3810999e",
+      "credit_commit": "f405695c469037493d269a3779d8bd10e771a0ec"
+    },
+    {
+      "run_id": "20261127T2326Z-121-ninox-leucopsis-v7",
+      "batch_id": "20261127T2326Z",
+      "cycle": 4,
+      "target": "121-ninox-leucopsis-v7",
+      "action": "REVISION",
+      "started_at": "2026-11-27T23:50:55.515Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T23:50:55.558Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T23:51:19.554Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T23:52:35.719Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T23:52:40.329Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T23:52:45.290Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T23:53:08.212Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T2326Z-cycle4-20261127T2326Z-121-ninox-leucopsis-v7.json",
+      "stage": "VERIFIED",
+      "research": "New0/reuse3IDs, access28Nov2026Shanghai. TBO-ABSA-AGEING-2019 JWHardy2019 ABSA BirdintheHand2ed original https://absa.asn.au/wp-content/uploads/2019/12/Tasmanian-Boobook.pdf actual1p Morphometrics/Ageing/Sexing freshlyread. Adultfeetlightgray ORpinkgray, overlappingsexmeasurements, femalesmainlyheavier notfixedstandingratio; youngpinkgray/irisdevelopment noexactdays, postjuvenilemoultabout3monthsAFTERfledging nothatchage. OldNnovaeseelandiaeleucopsis currentNleucopsis same251unit. TBO-OLSEN-DEBUS-2013-FIG1 JerryOlsen/SJSDebus2013 AFO30:106–108 original https://afo.birdlife.org.au/afo/index.php/afo/article/download/386/371 actualp107captionFig1 adultmale/nestlingKingIslandDec2009 andp108bodydarkdown/yelloweyesread, nofreshfigurepixelsclaimed. No exacthatchage/flight/nestinterior support. TBO-MIKKOLA-2013-P463 sameuploadedguideactualprinted463/PDF465readnow adultwhitethroat/goldeniris/graybill/whitecrowndots/rufousocelli/cinnamonlegfeathers; firstdownpaleisbirthstageNOT olderdownyphenotypeconflict, currentyoungdarkdownsupported2013. FeetguidegrayvsABSAlightgrayORpinkgray preservedindividualvariation; noforcedrecolor. Actualv6fullview olderunknownyoung/hollowlipcontacts okay, adultthroats alreadyfixed; lacks sciencependingandflightuncertaintyinimage. TargetannotationONLY,no newlyestablishedbiologicaldefect, sciencefalse. Activeexternalyoungqueryalso mainlandNboobookrecords EXCLUDED juvenilepalette/nestlining; oldnamecrossmapping retained. No copiedpaper/guessednewborn/wing chronology.",
+      "full_prompt": "Text-localization edit of #121 Tasmanian Boobook Ninox leucopsis v6 trio. Add a small 'v7' at end of species title. Add one clear discreet bottom banner: 'CONCEPT · SCIENTIFIC CALIBRATION PENDING · JUVENILE AGE / FLIGHT UNVERIFIED'. Preserve all three role labels including 'JUVENILE — AGE UNKNOWN'. ALL birds and physical scene unchanged: bothadult smallwhitethroats, goldenyellowirises/graybills, rufousorange-whiteocelli/smallwhiteheadspots, cinnamonfeatheredtarsi, pinkgraytoesdarkclaws; centraldarkdown/yelloweye/compactcoveredwings/hidden tail/twofeet onhollowlip. No morphologyredesign, no newborn, no age/flightclaim, no inventednestlining. Same treehollow/eucalyptdusk/background. Only publish the uncertainty visibly within the image; no signature or extra text.",
+      "source_ids": [
+        "TBO-ABSA-AGEING-2019",
+        "TBO-OLSEN-DEBUS-2013-FIG1",
+        "TBO-MIKKOLA-2013-P463"
+      ],
+      "new_sources": 0,
+      "image_metadata": {
+        "bytes": 2461897,
+        "sha256": "fe100957aed4a2ffe9f28a9ea15723497e8dfb0601789d0677d7685a158d6889",
+        "gitblob": "5e102069bca1255f01ede71112084e83367ecf3f",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-617d6fe9-1c47-4066-be98-059c09c8c4c6.png",
+      "imagegen_wait_seconds": 39.212,
+      "editing_wait_seconds": 0,
+      "imagegen_invocations": 1,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "review": "Actualv6/v7fullimagesviewed: sciencepending/youngage-flightunverifiedfooter nowreadable andallrolesretained, titlev7. Adultsmallwhitethroats/goldeneyes/graybills/rufouswhiteocelli/crownsmallwhitedots/cinnamonlegfeathers/pinkgraytoes/darkclaws retained; centraldarkdown/yelloweyes/coveredshortfoldedwing/hidden tail/twofeet onnaturallysupportedhollowlip unchanged. No newhatchage/firstflight/nestliningclaim; naturalhollowcontextnotdatabasedspeciesnestinteriorreconstruction. PWLannotationonly,no freshmorphologycorrection/sciencepass. ABSApinkgrayfeet permitted, doNOTforcerecolorfromguidegrayonly. Bookfirstdownpalevsolderdarkdown aredifferentstages; unsupportedcontinuouschronologykeptunknown. Finecurlsmicroplumageunvalidated. Lesson exportuncertaintycan beaddedwithoutborrowingmainlandNboobookyoungpalette, oneobservedlabelresultnotgeneralmethodvalidation. Sciencefalse.",
+      "reviewed_at": "2026-11-27T23:52:40.312Z",
+      "archived_at": "2026-11-27T23:52:45.275Z",
+      "archive_commit": "a36f137c130ea8dbbfbd003dff41727fc4dfaa77",
+      "verification_exit_code": 0,
+      "ended_at": "2026-11-27T23:53:08.191Z",
+      "commit_sha": "ab0dc2284abe052dc25ceb068fec93cb86cdbcd6",
+      "credit_commit": "3edbc6445f99a00723e6ef86a6c32314116fc6df"
+    }
+  ],
+  "artifact_edit_prompts": {
+    "edit1": "Exact #113 Ninox natalis v9 image. REMOVE ONLY the tiny gold/yellow signature-like scribble on/just below branch under the juvenile's right-hand side, above right edge of central 'OLDER JUVENILE · AGE UNKNOWN' label (near x1018,y853 of1536x1024). Reconstruct clean natural darkbrown branch/foliage there. Do NOT remove/alter any legitimate role labels, species title, v9, scientificpendingfooter or uncertainty text. No artist signature, initials, watermark or other newtext. Preserve all threebirds/feathercolours/feet/support/lighting completely. One tiny artifact removal only.",
+    "edit2": "Remove ALL tiny gold/yellow handwritten signature/initials/scribbles below the central juvenile on the branch and background. Specifically the small illegible gold marks at x895-940,y870-895 in the 1536x1024 image, directly ABOVE the word UNKNOWN in the central role label, must disappear. Fill that small rectangle with the existing natural dark olive forest background. This is an artifact removal edit, not a signature request. Preserve the entire title, all legitimate white labels, footer, all 3 birds, and branches. NO new gold marks, no watermark, no initials, no signature. Exact image unchanged outside that small rectangle.",
+    "edit3": "Erase every yellow/gold handwritten scribble in the rectangular BACKGROUND area x870 to 965, y860 to900 directly above the word UNKNOWN. Replace this whole small background rectangle with soft dark olive green forest bokeh. This region contains NO bird and no legitimate label. Remove both little gold letter clusters entirely. Leave lower white labels/footer, birds and composition unchanged. No signature or watermark anywhere. ONLY clean this rectangular background."
+  },
+  "artifact_attempts": {
+    "initial": {
+      "bytes": 2594931,
+      "sha256": "c3199419e6a1b4a224c7c3f61f3de50190d9163fe2f4c40cb8032b27b169bbef",
+      "gitblob": "09de5a013858bab429d9fc05325cc6db97de14af",
+      "size": [
+        1536,
+        1024
+      ]
+    },
+    "edit1": {
+      "bytes": 2594360,
+      "sha256": "e5898e49fd777df44431af133609a5ff5926ddc7ed37af9b15b50082a1513031",
+      "gitblob": "581f457d7e9de458a5ea6e2871d6daf7d4d0902d",
+      "size": [
+        1536,
+        1024
+      ]
+    },
+    "edit2": {
+      "bytes": 2556009,
+      "sha256": "77b01da6c024d42e15fc8a71bd15e1688f7f28e9515fe66b87b573fa62a9805d",
+      "gitblob": "07c6933407b3ebeb59ce81dcb42cff3256f8cdb2",
+      "size": [
+        1536,
+        1024
+      ]
+    },
+    "third_is_archived_v9": {
+      "bytes": 2509709,
+      "sha256": "18a681fef90052a193e5ddb5d1469b4e77a5a41f9188289aaf81d5e1e6ced373",
+      "gitblob": "bbb04213abd5f866cc50916bd227e6e91763aed3",
+      "size": [
+        1536,
+        1024
+      ]
+    },
+    "resolved_by_v10": {
+      "bytes": 2472469,
+      "sha256": "326000ea379132fe9d3a102f132cbdefb66cb0b0bdbc51613ee360e7fe47bfbc",
+      "gitblob": "d8485639ed33c18d8548475e6e0234692d1fc806",
+      "size": [
+        1536,
+        1024
+      ]
+    }
+  },
+  "scientific_passes": 0,
+  "user_confirmations_added": 0,
+  "scope_total": 251,
+  "all_species_complete": false,
+  "full_roster_reconciliation": "44 nominal units remain unreconciled; no new verified taxonomy change this invocation",
+  "recovery": {
+    "old_sha": "fd9d70d",
+    "api_status": 422,
+    "local_search": "no matching files",
+    "group25_remote_blob": "10508841ef5f6184e8658664615302909765c1dd",
+    "group25_bytes": 2864437
+  },
+  "extra_checks": {
+    "historical_duplicate": "114 Otus insularis v2 superseded in same species by178v7; not redrawn",
+    "unneeded_revisions_rejected": [
+      "110v16",
+      "134v13",
+      "129v7",
+      "178v7"
+    ],
+    "unresolved_from_prior_invocation": [
+      "130v19",
+      "108v12"
+    ]
+  },
+  "platform_timeout_telemetry": null
+}

@@ -1,0 +1,4 @@
+# 221-ninox-meeki-v4 actual review
+Actual final full image viewed: juvenile crown/brownupperbreast now finer short edged feathers, raised curledloops reduced, white throat and heavycreamwhite wingcovertbars preserved. Narrow rusty lowerstreaks, compactformedwing/hidden tail/sleepingneck and bothfootgrips stable. Adults and originalsexdisplay/eyes/bills/crownpatterns unchanged qualitatively, allrolelabels/footer visible. Localmaterial improvement PWL/sciencefalse; noprimaryfinefeathergeometry, age/iris/flight/nest stillunknown; not a developmental finding. Sourceprimary1914 accessfailure retained, noadultcrowncorrection inferred.
+
+{"bytes":2594856,"sha256":"cd7d1063a95f91c11b14fe32756c03aa0280ebc399e4d9bb12609622613423dc","gitblob":"0d55e4fa8b1affa35b236cf1d90cec9a21084ec4","size":[1536,1024]}

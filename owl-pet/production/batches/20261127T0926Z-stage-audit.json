@@ -1,0 +1,437 @@
+{
+  "run_id": "20261127T0926Z",
+  "completed_cycles_this_invocation": 6,
+  "new_species": 0,
+  "revised_species": 6,
+  "counts": {
+    "unique": 207,
+    "versions": 1341,
+    "total": 251,
+    "truncated": false,
+    "head": "b77bd7ba73e3b8f7b702910ed6d629545629bf57",
+    "tree": "3a1cb9af27e8cbd68ec57b063752d4aa61fd7269"
+  },
+  "source_counts": {
+    "new": 1,
+    "reused_distinct": 8,
+    "reused_references": 13,
+    "total_references": 14
+  },
+  "stage_reconciliation_commit": "b2a74dc796d88bbe9e2a3a57b05f88806b2fd6ce",
+  "actual_errors": [
+    "152 first ARCHIVED RemoteProtocolErrorServerDisconnected; ref reconciled then same stage retried successfully",
+    "Historical ledger parallel fetch Transport closed; serial immutable raw fallback",
+    "Previous helper stale JS snapshot overwritten latest run stage; recovered from actual immutable ARCHIVED/VERIFIED records, no extra cycle"
+  ],
+  "cycles": [
+    {
+      "run_id": "20261127T0926Z",
+      "batch_id": "20261127T0830Z",
+      "cycle": 6,
+      "target": "151-athene-jacquinoti-v6",
+      "started_at": "2026-11-27T09:28:49.417Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T09:28:49.461Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T09:29:15.111Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T09:30:49.780Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T09:30:55.377Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T09:31:00.811Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T09:31:23.582Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T0830Z-cycle6-20261127T0926Z-151-athene-jacquinoti-v6.json",
+      "stage": "VERIFIED",
+      "research": "AthenejacquinotinominateSanJorge/SantaIsabel, guideoldNinoxjacquinoti, nochange251/unique+0. v5actualfullviewhasprominentdarkcavitybehindrightadult; no depictednestuseproved. Thisv6ENVIRONMENTDESIGNrevisionremovesunsupportednest-likecue, notclaimcavitybiologicallyimpossible. Existingbillcorrection/juvenileUNVERIFIEDalreadygood, preserve. MIKKOLA-2013sameuploadedbookactualprinted481/PDF483read2026-11-27: primary/tallsecondaryforest, juvenileundescribed, darkolivebill/yellowishtoes; slightfemalequalitativenosexweights, retainbodycomposition. WSO-MNHN-RECORD-2010-270 reusedactualinstitutionalbody https://science.mnhn.fr/institution/mnhn/collection/zo/item/2010-270 undatedcatalogue accessed2026-11-27: maleholotype, ageindeterminate, SanJorgeNov1838, Athene/Ninoxhistoricaldeterminations, noyoung/nestingproof. Targetedcurrentandoldnamejuvenile/nestwebsearch noaccepteddevelopmentrecord; museum2011catalogueleadnotreadnotcounted. Youngappearance/age/iris/flight/nestmaterialsunknown; exteriorhabitatdesignfactseparated. Sourcesnew0/reusebook+museum2. Preflightfd9d70dconnector422NoCommitFound/group25localpresentnotnewcredit; initialhelpercomputedkeysyntaxfailedbeforemutationsandfixed. FirstbookPDF488wasunrelatedSpeckledcaptionandexcluded; correct483read.",
+      "full_prompt": "Precise-object-edit #151 Athene jacquinoti v5 to v6. Change ONLY DARK TREE CAVITY in upper-right background behind rightadult: replace the hole with continuous naturally weathered solid bark and a few moss/lichen patches, seamlessly matching surrounding trunk. No visible cavity entrance, nesting chamber, eggs or nestmaterial. This is a neutralforestperchconcept notnestreconstruction. Preserve ENTIRE threebirds/plumage/eyes/oliveadultbills/youngunverifiedshape/feet/sexscale/branchcontacts,exactalllabels/footer. Addv6besidetitle. Samewarmroundednaturalisticstyle, sameforestlight. Do notalteryoung; no newage/flight/sex/nestclaim.",
+      "source_ids": [
+        "MIKKOLA-2013",
+        "WSO-MNHN-RECORD-2010-270"
+      ],
+      "new_sources": 0,
+      "image_meta": {
+        "bytes": 2936260,
+        "sha256": "7adf02bc3b7abbdec556f78831451930a82c69bf452b7a752d8c23eea5c2660f",
+        "git_blob": "278853d2c8b3717ef6354f3339a15280eccd78ae",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "generation_wait_seconds": 38.516,
+      "review": "Actualfullv6viewed: formerdarkholeinupperrighttrunkreplacedsolidbark/lichen, noreplacednest/eggs/cavity. Entirebirds/oliveadultbills/yellowishfeet/darkclaws/eye/plumage/support/juvenileunverifiedlabelsretainedqualitatively; exact3birds6footcontacts. Environmentaldesignrevisiononly, notnewnestknowledgeorbiologicalerrorclaim. Problem→unverifiednestlikecue→sourceshabitat/museumprovenancenotnest→neutralbarkbackground→actualviewconfirmsremoved. Juvenileage/plumage/iris/flight/sexmetricunknown, sciencefalse. No repeatoldbillfix. Ruleappliedvisuallyeffectiveforcompositiononly, notglobalecologicalvalidation.",
+      "status": "PASS_WITH_LIMITATIONS",
+      "archive_commit": "a9410256f89aca7411c73896465064ad9d0eec67",
+      "commit_sha": "8c5eabcfee89a009fef77931bdf0b87accb10d78",
+      "credit_commit": "c6974d25d77cb572dc4c4c0afc5e8099fbb3eb0d",
+      "ended_at": "2026-11-27T09:31:34.272Z",
+      "verified_at": "2026-11-27T09:31:23.558Z",
+      "verification_exit_code": 0,
+      "stage_reconciliation": "Recovered complete immutable ARCHIVED-stage history and actual VERIFIED stage; earlier credit record used stale JS snapshot. No new image or cycle credit."
+    },
+    {
+      "run_id": "20261127T0926Z",
+      "batch_id": "20261127T0926Z",
+      "cycle": 1,
+      "target": "152-uroglaux-dimorpha-v6",
+      "started_at": "2026-11-27T09:31:58.445Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T09:31:58.484Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T09:32:03.903Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T09:33:23.772Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T09:33:29.708Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T09:34:46.661Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T09:34:51.682Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T09:35:20.478Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T09:35:46.198Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T0926Z-cycle1-20261127T0926Z-152-uroglaux-dimorpha-v6.json",
+      "stage": "VERIFIED",
+      "research": "Uroglauxdimorpha oldAthenedimorpha/Ninoxdimorpha, no251change, unique+0/v5preserved. MIKKOLA-2013sameuploadedbook printed498/PDF500actualtext/captionread2026-11-27: adultlongBLACKrictalbristlesarounddarktippedgrey-bluebill; yelloweyes/toes/blackclaws; sexsizeunknown. v5fullviewadultbillzonemostlypalefacialfilaments, darkrictalbristlesweak; bounded adultbristlecolour/texturecorrection, noadulttoe/youngcolourrepeat. PHO-SHANY-1995-P74 reused primary Noam[landingNoem]Shany1995Muruk7(2):74: previousactualscanreading preserved forwhiteyoungfaceventrum/frostygreyupperparts/yellowirisfeet; currentPDFURL toolinaccessible, landing https://journal.pngagriculture.net/index.php/muruk/article/view/1913 actualoriginalabstractread verifiesAug1992Vanimojuvenilerecordandissue1995, onlineupload2026notpublicationdate. No claimfreshscanbody/pixels. TargetedwebblackstreakqueryunreliableWiki-derivedproportionassertionsnotadopted. Oldguide/bookcolourhistoryunchanged. Singleobservedyoungnotchronology; exactage/flight/nest/sexratio unknown. Motionlessroostsupportsstaticposedesignnotfirstflight. Sourcecountsnew0/reusebook+primary2, freshbodyaccesslimited. Cavity151previousrevisionnotanewtaxon. AdultbillrictalbristlesdoNOTtransfertojuvenile.",
+      "full_prompt": "Precise-object-edit #152 Uroglaux dimorpha v5 into v6. Change ONLY BOTH ADULTS' RICTAL BRISTLES immediately around billbase/gape: add/recolour a small irregular fan of thin BLACK bristle-feather shafts among existing pale facial feathers, extending modestly downward/outward around bill edge. These are local rictal feathers, not long mammal cheek whiskers, not eyeliner or a black beard. Preserve pale finelystreakedfacialdisc and grey-bluebillwithdarktip, yellowirises, allotheradultplumage/shape/longtails/feet/scale. ENTIRE white-faced frosty-grey downy fledgling center unchanged including evidence-supported yelloweyes/feet/shortwing/pose. Exactly3birds6supportedfeet/samebranchforest/labels/pendingfooter. Add #152v6besidetitle. No newage/flight/nest/sexclaim. Adultlocalizedbristletraitonly.",
+      "source_ids": [
+        "MIKKOLA-2013",
+        "PHO-SHANY-1995-P74"
+      ],
+      "new_sources": 0,
+      "initial_attempt": {
+        "bytes": 2669405,
+        "sha256": "a176053131bc050a7c2852eb12b1a969a950557da3b658fabc2bf4649dfa8f04",
+        "git_blob": "13dab16d437c542e059c01823d9bc4ee7fb9840d",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "initial_review": "Blackrictalbristlesdenseregular/comblike,mustthin/irregularizebeforeacceptance",
+      "edit_prompt": "Thin adult rictal fan into fewer irregular tapered black shafts, no dense comb/beard; preserve young/everythingelse.",
+      "full_edit_prompt": "Precise edit of this #152v6 group. ONLY thin BOTH ADULTS' dense black comb-like rictal bristle fans around bills: remove about half the black shafts, vary remaining short/long lengths irregularly, leave clear pale-feather gaps. A few tapered BLACK FEATHER BRISTLES around gape, not a dense black moustache/beard, no parallel comb. Keep exact bill shapes/greybluebases/darktips, pale finelystreakedfacialdiscs, adultbodyplumage/eyes/feet. CenterwhitefacedgreybackedDOWNYFLEDGLING entirelyunchanged. All3birds6grips/tails/branchforest/textversionv6/pendingfooter unchanged. No newage/flight/nest/sexclaim.",
+      "image_meta": {
+        "bytes": 2538333,
+        "sha256": "6f5c58caf90e1f008d6abdfa03d1fb61bef6f6c4acea0cb17cb2af7ebab9ff27",
+        "git_blob": "233edd01eee8c27e3cb3a30eb4fd763f62121371",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "generation_wait_seconds": 37.406,
+      "review": "ActualinitialandsecondfullPNGsviewed: initialdenseblackcomb rejected/preserved, secondadultbristlefansfewer/lesssolidbutremainingleftshaftsarepartlyparallel. Localimprovementlimited, exactdensity/lengthunknown, notphotorealcalibrated. Greyblueadultbills/darktips/yelloweyesfeet/longtails/bodybars/3birds6branchcontacts preservedqualitatively. Evidence-supportedwhiteyoungface/ventrum/frostygreyupperparts/yellowiridesfeetunchanged, noage/flightclaim. Problem→missingblackrictalcontrast→guide498caption→initialoverdense→targetedthinning→visiblepartialimprovement. SourceShanyPDFunavailablecurrenttool/landingabstractonlyfresh, historicalscanreadretainednotinvented; bookactualread. No universalblackbristlesforotherowls. PASS_WITH_LIMITATIONS/sciencefalse, residualstylizationqueued.",
+      "status": "PASS_WITH_LIMITATIONS",
+      "actual_error": "TransientGitHubRemoteProtocolErrorServerDisconnected during first archiveattempt; freshheadchecked before safe retry.",
+      "archive_commit": "508d595c60e65679b7a853e726dfb2abeeb10635",
+      "commit_sha": "afd83a86f8bfb48ba77d56b6ac15ad1aef1c2e87",
+      "credit_commit": "0d3efeb2d4bba829af55d5485861f47a0d0ff31b",
+      "ended_at": "2026-11-27T09:35:58.770Z",
+      "verified_at": "2026-11-27T09:35:46.174Z",
+      "verification_exit_code": 0,
+      "stage_reconciliation": "Recovered complete immutable ARCHIVED-stage history and actual VERIFIED stage; earlier credit record used stale JS snapshot. No new image or cycle credit."
+    },
+    {
+      "run_id": "20261127T0926Z",
+      "batch_id": "20261127T0926Z",
+      "cycle": 2,
+      "target": "153-jubula-lettii-v6",
+      "started_at": "2026-11-27T09:36:20.494Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T09:36:20.535Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T09:36:25.728Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T09:36:40.551Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T09:37:54.722Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T09:37:59.929Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T09:38:06.411Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T09:38:28.388Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T0926Z-cycle2-20261127T0926Z-153-jubula-lettii-v6.json",
+      "stage": "VERIFIED",
+      "research": "Jubulalettii oldBuboletti, no251change/unique+0,v5preserved. MIKKOLA-2013samebookactualprinted357/PDF359read2026-11-27: adultyellowtoeswithgreyuppersidepatches/hornclawsdarktips/dullyellowtarsalfeathers; unknownsexsize. Mesoptile rufous/faintbarringbelow/lessdevelopedmane/wingtailsimilartoadult, notnatalchick. Actualv5viewadultyellowtoeslackedobviousgreyupperpatches; targetsmalladultdorsaltoeskinpatchesonly,noyoungtransfer. MANED-ML-531449801-2023 GarrettRhyne4Feb2023 CornellMacaulayLibrary https://macaulaylibrary.org/asset/531449801 existingfieldrecordreused,freshoriginalpageattemptrecordsactualaccessresult; prioractualphoto/narrativeobservedimmatureflight/perch/whiteface/yellowishfeet remainsstage-specifichistoricalevidence, nofreshpixelclaim. Keepformedyoungwings/tail/reducedmanealreadycorrected; no repeatoldmaneedit. Staticperchdesignfitsdocumentedabilitynotfirstflight/knownage/nest. Sourcesnew0/reusebook+ML2, no colorphotometry/sexratio. WronginitialPDF397containedAndeanPygmytextnotused; correct359read.",
+      "full_prompt": "Precise-object-edit #153 Jubula lettii v5 to v6. Onlyadd small irregular muted GREY skin PATCHES on UPPER SURFACES of BOTH ADULTS' exposed yellow TOES, as species described. Keep mosttoskinyellow, grey patcheslimiteddorsallynearproximaljoints, not entiregrayfeet; no paintonclaws/branch/feathercuffs. Keep hornclawsdarktips/exacttoegrips. CenterIMMATURE completelyunchangedincludingyellowishfeet, reducedmane/whiteface/formedbarredwingsandtail. Bothadultmanes/tufts/eyes/bill/bodyplumage/sizes,3birds6supportedfeet/forestwaterbackground/labels/footer preserved. Add #153v6 beside title. No newage/flight/nest/sexassertions.",
+      "source_ids": [
+        "MIKKOLA-2013",
+        "MANED-ML-531449801-2023"
+      ],
+      "new_sources": 0,
+      "source_access": "\n153 current access correction: ML original returned Anubis AccessDenied error9e4edb5b6b850c41; no newly read narrative/photo. Historical reading retained, not new validation.\n",
+      "image_meta": {
+        "bytes": 2875095,
+        "sha256": "1fd9f0d41c840508eb84cc17973a481d5397603121d4ea6d27e7749be43da53c",
+        "git_blob": "4e7b2a9bc828eb18dce73b376eae7ced691b3453",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "generation_wait_seconds": 39.347,
+      "review": "Actualfullv6view: subtle greyupperproximaladulttoe/anklepatchesnowvisible, mostbaretoesyellow; exacttoeversuscuffboundarypartlyobscured, no claimallpatchgeometrycalibrated. Hornclawsdarktips/grips unchangedqualitatively; centerimmatureyellowfeet/reducedmane/whiteface/formedwingstail preserved.3birds6feet/titlev6/footerreadable. Adultgreyuppersidepatchesfromguide357only, nottransferredyoung. MLcurrentbotwallrecorded, nofreshphoto/narrativeclaim. Problem→plainyellowadultdigits→speciespatches→smalllocalizedshade→limitedvisualeffectseen. PASS_WITH_LIMITATIONS/sciencefalse; age/sexratio/flightthreshold/nestunknown. No repeatedmaneedit.",
+      "status": "PASS_WITH_LIMITATIONS",
+      "archive_commit": "e7bd80eedfe5c26a19611bd9f65a119c6fdc5398",
+      "commit_sha": "0384bcedc10bdbb6d26958265de653f79bbf8a7d",
+      "credit_commit": "2ce95b5c6ba1b520b287c8fe973385b02141c76c",
+      "ended_at": "2026-11-27T09:38:38.775Z",
+      "verified_at": "2026-11-27T09:38:28.363Z",
+      "verification_exit_code": 0,
+      "stage_reconciliation": "Recovered complete immutable ARCHIVED-stage history and actual VERIFIED stage; earlier credit record used stale JS snapshot. No new image or cycle credit."
+    },
+    {
+      "run_id": "20261127T0926Z",
+      "batch_id": "20261127T0926Z",
+      "cycle": 3,
+      "target": "155-scotopelia-ussheri-v6",
+      "started_at": "2026-11-27T09:39:00.684Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T09:39:00.724Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T09:39:05.460Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T09:39:26.269Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T09:40:45.316Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T09:40:50.542Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T09:40:55.726Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T09:41:20.292Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T0926Z-cycle3-20261127T0926Z-155-scotopelia-ussheri-v6.json",
+      "stage": "VERIFIED",
+      "research": "Scotopelia ussheri; guide old name Bubo ussheri; same canonical species, unique+0,v5preserved. MIKKOLA-2013sameuploadedbookactualprinted307/PDF309read2026-11-27: adultbarelightyellowlegs/toes, PALEHORNclaws, honeytodarkbrowniris; femaleaverage90gmassdirectionnotstandingheightformula. Actualv5adultexposedclawsmostlydarkslate; correctadultclawcolouronly, leaveyelloworangetoskinandyoung. RFO-MONTICELLI-KOROMA-BANNAH-2015-P183-188 actualauthorfulltextread Bareparts/Plumage/Ageingpp186–188 https://www.researchgate.net/publication/281632427_Observations_of_Rufous_Fishing_Owl_Scotopelia_ussheri_in_Sierra_Leone (DavidMonticelli/AluseinP.Koroma/DenisBannah2015BullABC22(2):183–189): bluegreybill/yellowishcere, orange-yellowtarsi/toesadultandobservedyoung; youngloosefeathered/palerbelly/stubbier, twiceflightadultlikebarredwings,4–5monthsconditionalonlayingseasonnotknownhatch. NOclawcolourstatementfound,sodonotclaimprimarycorroboratespaleclaw. RFO-KOPPETSCH-BOHME-2022-P97-98 actualoriginalPDFbody https://evoinformatics.group/pdfs/Koppetsch_Boehme_2022a.pdf rereadpp97–98: separatecaptivewhiteyoung6Oct1993adultplumage3Apr1994, noexacthatchdate/action; notstageofcurrent2014mobileolderyoung. Keepformedwings/posturev5alreadyfixed, no whiteinfanttransfer. Sexlinearscale/nest/completejuvenilechronologyunknown. Sourcesnew0/reuse3, bookaloneadultclawdecision confidencebounded.",
+      "full_prompt": "Precise-object-edit #155 RufousFishingOwl Scotopelia ussheri v5 to v6. ONLY recolour ALL exposed CLAW KERATIN on BOTH outer ADULTS from darkslategrey to PALE HORN / light translucent beige-grey, naturalcurvedtalons with softshadow; make most visiblecurvepale. Do NOT invent uniformlyblacktips; keep natural darker shading only at tiny hooks. Keep adultyelloworangeTOESKIN/scales, allfootgeometry/branchgrips andbarelegboundary unchanged. Centerolderjuvenileclawsandentirebodyunchanged, noadultcolourtransfer. Alladultplainrufousplumage/whiteouterscapulars/brown eyes/bluegreybillyellowcere/sizes,3birds6supportcontacts/forestwater/conditional4–5monthslabel/postureillustrativefooter retained. Addv6besidetitle. No newage/flight/nest/sexratioassertion. Book-supportedadultpaletteonly.",
+      "source_ids": [
+        "MIKKOLA-2013",
+        "RFO-MONTICELLI-KOROMA-BANNAH-2015-P183-188",
+        "RFO-KOPPETSCH-BOHME-2022-P97-98"
+      ],
+      "new_sources": 0,
+      "image_meta": {
+        "bytes": 2825250,
+        "sha256": "87a787f658f31e26b52da2156e70405fd0ac823ac0fd7dda6493563f50e5415d",
+        "git_blob": "9ce1e2fd9c7b38f2dbbb9c3a9301904216168780",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "generation_wait_seconds": 39.632,
+      "review": "Actualfullv6view: fouradultfeetvisibleclawcurvesnowmostlylightbeige-horn, softgreyshadingat tipsnotuniformblackhooks; yelloworangetoe skinunchanged, youngclawsremainuntoucheddark. Adultbluegreybill/yellowcere/darkeyes/plainrufousmantle/wingbars/6footcontacts andolderyoungformedbarredwing/stubbierpose retainedqualitatively. Conditional4–5monthlabelandunknownhatchdisclaimerretained. Paletteguide307only, original2015barepartsdoesnotstateclawcolour, limitationexplicit; notindependentprimaryvalidation. Problem→darkadultclaws→guidepalehorn→adultonlylightening→actualviewconfirmsmajoritycurvepale. No genericallfishowllightclawrule; nextspeciesmustownsource. Sciencefalse/exactage/sexheight/nestunknown. New0/reuse3.",
+      "status": "PASS_WITH_LIMITATIONS",
+      "archive_commit": "ea2dfb1aa8a5f21724e81eafd1986bca9a2d5801",
+      "commit_sha": "d58e49fb66fe4a683203f0423ca6f941db05dad6",
+      "credit_commit": "627f5acf653e4cdc710a09e0a41eb721b0686120",
+      "ended_at": "2026-11-27T09:41:29.668Z",
+      "verified_at": "2026-11-27T09:41:20.268Z",
+      "verification_exit_code": 0,
+      "stage_reconciliation": "Recovered complete immutable ARCHIVED-stage history and actual VERIFIED stage; earlier credit record used stale JS snapshot. No new image or cycle credit."
+    },
+    {
+      "run_id": "20261127T0926Z",
+      "batch_id": "20261127T0926Z",
+      "cycle": 4,
+      "target": "157-scotopelia-bouvieri-v6",
+      "started_at": "2026-11-27T09:44:18.763Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T09:44:18.804Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T09:44:52.578Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T09:46:04.932Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T09:46:09.691Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T09:46:15.235Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T09:46:56.518Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T0926Z-cycle4-20261127T0926Z-157-scotopelia-bouvieri-v6.json",
+      "stage": "VERIFIED",
+      "research": "Accessed2026-11-27; revision only, unique+0. Fresh v5 full image and prior research/review read: the adult beaks are largely slate-grey with yellow cere; older immature and white thighs were already corrected and are retained.\nMIKKOLA-2013 (Heimo Mikkola2013, uploaded guide actual printed308/PDF310 text read): historical Bubo bouvieri→current Scotopelia bouvieri. Adult yellowish-horn bill, blackish claws, chrome-yellow bare tarsi/toes, dark eyes, plain off-white thighs; sex size unknown from only one sexed weight. Scapular colour differs from historical Sharpe wording, so do not alter shoulders to manufacture consensus. Target only both adult bill exposed horn surfaces to muted yellowish horn, maintaining natural shadow. Not copy pale-claw rule from #155.\nVFO-NIKBORROW-2022-IMMATURE, Nik Borrow24Aug2022 AkakaLoangoGabon, https://www.flickr.com/photos/nikborrow/52405057195 actual original metadata/body freshly read (immature/date/locality). Previously read photograph phenotype retained; fresh pixels not claimed. Formed wings/white streaked belly/perch retained, precise age/flight/juvenile iris unknown.\nNEW stableID VFO-BUTTIKOFER-1886-NLM-P247: J.Büttikofer1886, Zoological researches in Liberia. A list of Birds collected by Mr.F.X.Stampfli..., NotesLeydenMuseum8:243–268, original https://repository.naturalis.nl/pub/508622/NLM1886008004014.pdf ; primary specimen report, actual original body printed247/PDF5 §8 read. Reports yellow bill/cere/feet of one female identified as S.bouvieri, JunkRiver7January; unusually western identification discussed by author. Supports historical yellow-bill observation only cautiously; specimen identity requires modern revalidation, age unspecified, no population or sex-size conclusion. Cherry-brown claw description differs from book blackish; do not change claws from this single historical bird. High confidence in reading, limited taxon/generalization confidence. Not evidence for juvenile colour/flight/nest. Map Scotopelia bouvieri / adult bareparts / thisID to v6 research/review/image. New1 reused2 sourceIDs, guide one publication.\nExternal targeted search also located Sharpe1875 catalogue (existing VFO-SHARPE-1875-CBM-P11-12); fresh original open failed400 content21,799,394bytes too large. Search extract not fresh verified source, shoulders conflict left unresolved. Habitat riverine/gallery forest and branch above water from book; no nest depicted. Keep near-equal adults, intact younger supported static perch; do not claim exact ratio or science pass.\nIteration: isolate exposed bill from yellow cere when checking palette; previously yellow base concealed incorrect grey distal bill. Rule applied now, outcome pending actual image view.",
+      "full_prompt": "Edit the supplied existing #157 Vermiculated Fishing Owl Scotopelia bouvieri concept plate. Preserve the confirmed illustrated photographic natural-history style, exact composition, title, all role labels and scientific-calibration-pending footer. Make one narrowly bounded correction to BOTH OUTER ADULT BIRDS ONLY: their exposed hooked bills currently read dark slate-grey past the yellow cere. Recolour the exposed bill horn to muted pale yellowish horn, a natural warm cream-yellow, visibly lighter than charcoal; preserve a little darker brown shaded edge/very tip, original nostrils, curvature and anatomy. Do not merely brighten the cere while leaving the bill grey. Do not alter central immature bird or its bill. Preserve dark eyes, yellow bare legs, blackish claws, plain off-white thighs, adult plumage/shoulder patches, branch support and forest water setting. Preserve near-equal adult body sizes; no invented female-larger rule. Central older immature keeps formed folded wings, long tail, white strongly streaked ventrum and supported feet, age and flight unknown. Exactly three owls, no eggs/prey/nest addition. This is concept refinement, not scientific verification.",
+      "source_ids": [
+        "MIKKOLA-2013",
+        "VFO-NIKBORROW-2022-IMMATURE",
+        "VFO-BUTTIKOFER-1886-NLM-P247"
+      ],
+      "new_sources": 1,
+      "image_meta": {
+        "bytes": 2728380,
+        "sha256": "fee11ac4c161e9fc87f261b7dbda768b90c0629a0c7ec1d629a7b573e4704703",
+        "git_blob": "2abc632941cc93640854bacea5be68836cf84282",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "generation_wait_seconds": 37.704,
+      "review": "# 157 Scotopelia bouvieri v6 actual review\nActually viewed v5 full and built-in edited full1536x1024. Both adult exposed bills now read pale warm horn over their greater surface, with shaded lower edges, instead of former largely slate-grey; central immature unchanged. Improvement verified visually, not calibrated spectral colour measurement. Scapulars retained because historical fulvous vs book white descriptions conflict and no new fresh comparative photo establishes a correction. Dark eyes, bare yellow legs/blackish claws, plain off-white thighs, heavily streaked ventra, formed central wings/tail retained. Exactly3 owls and6 supported feet on branches, stable anatomy; labels/pendingfooter retained. Near-equal adult sizes are a conservative design choice, sex ratio unknown. Juvenile precise age/flight/nest and iris development remain unknown. PASS_WITH_LIMITATIONS; scientifically_verified false/user unconfirmed.\nIteration problem—evidence—change—recheck: yellow cere alone had obscured slate distal bill; Mikkola printed308 and cautiously read historical specimen support warm horn/yellow; target actual bill beyond cere; observed lighter horn now. Rule actually applied to157;155 intentionally remains bluegrey as independently supported, no genus-wide palette transfer. No extra species count.",
+      "status": "PASS_WITH_LIMITATIONS",
+      "archive_commit": "433f472973c9cde798320a46cabba43f81b5ddb2",
+      "commit_sha": "edf64c03b002abf36973c2c0b137c3b4f6c9330b",
+      "credit_commit": "d90115c63767025e92a7f0bcfe24da21830397d2",
+      "ended_at": "2026-11-27T09:47:07.990Z",
+      "verified_at": "2026-11-27T09:46:56.494Z",
+      "verification_exit_code": 0,
+      "stage_reconciliation": "Recovered complete immutable ARCHIVED-stage history and actual VERIFIED stage; earlier credit record used stale JS snapshot. No new image or cycle credit."
+    },
+    {
+      "run_id": "20261127T0926Z",
+      "batch_id": "20261127T0926Z",
+      "cycle": 5,
+      "target": "158-phodilus-badius-v6",
+      "started_at": "2026-11-27T09:47:08.039Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T09:47:08.090Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T09:47:32.586Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T09:49:40.487Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T09:49:54.410Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T09:49:59.618Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T09:50:05.737Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T09:50:49.429Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T0926Z-cycle5-20261127T0926Z-158-phodilus-badius-v6.json",
+      "stage": "VERIFIED",
+      "research": "Access2026-11-27; #158 Phodilus badius v6 revision unique+0. Fresh v5 full viewed plus prior v5 research/review read. Existing older juvenile correctly supersedes misattributed Chasen1937 Strix paragraph; do not repeat that solved change.\nMIKKOLA-2013, HeimoMikkola2013 uploaded guide actual printed117–119/PDF119–121 text freshly read: no sexual size/colour data, creamy-yellow/pinkish-horn bill, blackish-brown eyes, whitish eyelids, feathered legs/yellowish-brown toes/dark horn claws. Adult v5 claws read light grey/ivory, especially their long exposed curves. Bounded target is both adult claws to dark brown horn, retaining some highlights and yellowish-brown toe skin, feathered tarsi; do not transfer claw colour to young. Adult eye-lid precision still unresolved, do not introduce multiple speculative face changes.\nOBO-FINSCH-1905-NLM-P26, OttoFinsch1905 Dr.A.W.Nieuwenhuis' Forschungsreisen in Niederländisch Borneo. Ornithologische Ergebnisse...; https://repository.naturalis.nl/pub/508421/NLM1905026001001.pdf actual original body printed26/PDF26 §12 Photodilus badius freshly read, preceded by separate Syrnium taxon heading p25. Nias13Jan barely fledged bird retains scattered down with vivid adultlike colours and salmon face/ventral wash; no hatchdate/sex/firstflight or precise wing-tract description. Retain this chosen older stage, formed short folded wings and patchy down. Primary adult iris observations conflict (yellow/brown/black); do not universalize single adult value or transfer to young. Claw dark-horn decision is book-supported, not corroborated by this primary's claw description (none).\nExternal targeted current/old-name research executed; Smithsonian1924/1932 subspecies descriptions surfaced but not opened/body-read, so unverified leads, not accepted sources or new IDs. Previously withdrawn Chasen juvenile assignment remains withdrawn. Generic cavity context retained from existing ecology, not reconstructed Nias specimen nest; support seatedyoungbody/twofeet natural, no locomotor milestone claim.\nNew0, reused2 stable sourceIDs; no whole-book duplication. Stage/sex/eye chronology/nest details and quantitative ratios unknown, concept not science pass. Iteration: inspect the claw shaft separately from lighter toe skin and catch pale-grey substitutions; apply adults-only brown-horn constraint, then actually view. Backcheck155 intentionally pale horn supported by different species,157 blackish; no genus-wide/global claw-palette rule.",
+      "full_prompt": "Edit this supplied existing #158 Oriental Bay Owl Phodilus badius plate in its existing confirmed natural-history illustration style. Make a narrowly targeted adult barepart correction: recolour the exposed claws on BOTH outer ADULT birds to dark brown horn, a deep charcoal-brown natural keratin. At present their claws look pale grey/ivory. Change the entire visible hooked claw curves except for small realistic highlights; do not paint the yellowish-brown toe skin dark. Preserve the toe joints, number of toes/claws, grip, leg feathering, and six secure foot contacts. The central older juvenile and its claw colours stay exactly unchanged, with vivid rufous/salmon/buff plumage, patchy remaining down and short formed folded wings, seated supported body. Do not recolour any bill or iris or facial disc. Preserve near-equal adult sizes because sex-size evidence unknown; keep dark eyes, pale horn bills, russet spotted plumage, exact forest/cavity context without adding material, all typography and scientific-calibration-pending footer, exactly three birds. No flight, newborn reconstruction or new nest claim.",
+      "source_ids": [
+        "MIKKOLA-2013",
+        "OBO-FINSCH-1905-NLM-P26"
+      ],
+      "new_sources": 0,
+      "generation_completed_at": "2026-11-27T09:49:40.463Z",
+      "generation_wait_seconds": 102.481,
+      "image_meta": {
+        "bytes": 2651867,
+        "sha256": "ca733579db22fc8aab8a3acc3df1c3603751c198960b7e217577784826b2d2c9",
+        "git_blob": "0f4528d894a95e4da3d0f279b570eb2e92ef8cd7",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "review": "# 158 Phodilus badius v6 actual review\nFresh v5 full and edited full1536x1024 actually viewed. Both outer adults now have dark brown-horn hooked claws over most of their visible curves, with small reflected highlights; toe skin remains pale yellowish-brown and tarsi feathered. Centre older juvenile claws unchanged lighter, not an adult-trait transfer. Exactly3 owls/6 supported feet; juvenile seated body supported at cavityrim, formed short folded wing and residual loose down retained. Original vivid salmon/russet/buff developmental boundary, pale bills/dark eyes, near-equal adult sizes, forest/cavity composition/title/labels/pending footer retained. No extra edit needed for this narrow target. PASS_WITH_LIMITATIONS; scientifically_verified false, userunconfirmed. Adult facial-lid detail/precise iris chronology, juvenile exactage/flight/sex/Nias nest unknown. Primary Finsch1905 does not describe claw colour; book-only calibration for the claw decision, not independent scientific confirmation.\nIteration: pale claws were not equivalent to lighter toe skin. Adults-only mask instruction produced visually darker horn while leaving skin and young unaffected, verified here. Do not globalize:155 paleadultclaws/157blackishadultclaws have separate species evidence. Previously corrected Chasen misattribution remains withdrawn, older juvenile stage not redrawn to invented early down.",
+      "status": "PASS_WITH_LIMITATIONS",
+      "archive_commit": "a01f79f3567dec4042d554897aba726080a1c57e",
+      "verification_exit_code": 0,
+      "verified_at": "2026-11-27T09:50:49.407Z",
+      "commit_sha": "992d749fdb81e78b0c55175d7399012990aadc8a",
+      "credit_commit": "b77bd7ba73e3b8f7b702910ed6d629545629bf57",
+      "ended_at": "2026-11-27T09:50:58.391Z"
+    }
+  ],
+  "scientifically_verified": false
+}

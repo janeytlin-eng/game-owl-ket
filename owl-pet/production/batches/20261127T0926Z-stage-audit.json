@@ -21,7 +21,8 @@
   "actual_errors": [
     "152 first ARCHIVED RemoteProtocolErrorServerDisconnected; ref reconciled then same stage retried successfully",
     "Historical ledger parallel fetch Transport closed; serial immutable raw fallback",
-    "Previous helper stale JS snapshot overwritten latest run stage; recovered from actual immutable ARCHIVED/VERIFIED records, no extra cycle"
+    "Previous helper stale JS snapshot overwritten latest run stage; recovered from actual immutable ARCHIVED/VERIFIED records, no extra cycle",
+    "After successful remote delivery commit353186132efa8f3b8e7bf09ed3bb03821e4940e5, optional local closure snapshot exec failed os error7 Argument list too long. No remote write was lost; verify immutable raw against Git tree instead. This is not a platform time limit."
   ],
   "cycles": [
     {

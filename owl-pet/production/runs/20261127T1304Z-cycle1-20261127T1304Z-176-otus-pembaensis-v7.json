@@ -12,16 +12,32 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-27T13:08:59.557Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T13:10:14.074Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T1304Z-cycle1-20261127T1304Z-176-otus-pembaensis-v7.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "2026-11-27 reuse PESO-MIKKOLA-2013-P135 (same HeimoMikkola2013 uploaded guide actualprinted135/PDF137 read): adults tarsi profusely feathered to GRAY toe bases, large darkgraybrown claws blacktips; yellowiris/darkgreenblackbill, male slightly longerwings notheight. Young whitish vaguely yellowbrownbarred mesoptile/unstreakedwhitebarredcrown/somebandedtail; natalchick undescribed. Actualv6view adultbaretoes warmbeige/yellowish, targetedgray-only palette fix, noyoungtransfer. Reuse PESO-PEREGRINE-FUND-CURRENT undated institution https://peregrinefund.org/explore-raptors-species/owls/pemba-scops-owl actualfreshopenedWhereTheyLive/WhatTheyDo/NestEggsandYoung: Pemba woodland/denseplantations, variablemorphs, cavitybreedingbeliefunconfirmed, nojuvenilechronology. Source does not corroborate toe colour. OldOtusrutiluspembaensis→Otuspembaensis. New0/reuse2; age/youngiris/flight/sexheight/tarsalmicroboundaryunknown; existingcrownandmesoptilefix preserved, scientificfalse.",
   "full_prompt": "Use case precise-object-edit. Edit #176 Pemba Scops Owl family image. Change ONLY BOTH ADULTS' BARE TOE SKIN: visible scaly toes from featherbase to clawbase should be muted neutral GRAY, not beige or yellow. Preserve dark graybrown claws/black tips and tarsal feather boundaries and six secure branch contacts. Do not recolor CENTER young feet, bill, iris or whitish faintly yellowbrown-barred mesoptile plumage, age unknown, no newhatchling claim. Keep adults' warm plain crowns, narrow broken scapular stripe, yelloweyes/darkgreenblackbills, near-equal adultsize, forest, title/roles/scientificpending/unknownfooters unchanged. Add small 'v7' next to title. No other edits, no newnest/flight.",
   "source_ids": [
     "PESO-MIKKOLA-2013-P135",
     "PESO-PEREGRINE-FUND-CURRENT"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "image_meta": {
+    "bytes": 2414967,
+    "sha256": "1473f4cb61c8133964f39dda32d11fa0d2df05fe77f93b30a836ef93dfdd04c6",
+    "git_blob": "e1312ff318d5364242b240a97f0201f1b08e7435",
+    "dimensions": [
+      1536,
+      1024
+    ]
+  },
+  "generation_wait_seconds": 43.169,
+  "review": "#176v7 wholeplate actually viewed: adulttoe skin now neutralgray instead beige, darkbrownblacktip claws retained, tarsalbase/grips intact. Young beige feet/unverifieddarkiris/bill/whitishcrossbarredmesoptile unchanged; existing young material still stylized and not calibrated. Adults yelloweyes/darkgreenbill/plaincrowns/narrowscapularline/near-equalscale preserved; all6 branchcontacts/titlev7/footer readable. Palette fix supported guide135 only, institution primarynestunknown remains. Problem warmadulttoe→speciesgraydescription→skinonlyedit→grayseen; local goal works here, no youngtransfer/universal rule. Scientificfalse/exactage/iris/flight/sexheightunknown; no newsource. PASS_WITH_LIMITATIONS.",
+  "status": "PASS_WITH_LIMITATIONS"
 }

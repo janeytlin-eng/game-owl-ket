@@ -12,9 +12,18 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-27T01:35:10.639Z"
+    },
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-27T01:35:33.423Z"
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "step": "primaryPDFopen",
+      "error": "SORA oldPDF redirects to homepage; earlierREADY originalread wording corrected beforegeneration"
+    }
+  ],
   "scientifically_verified": false,
   "unique_species_increment": 0,
   "revision_increment": 1,
@@ -27,7 +36,7 @@
     "SLSO-MARSHALL-1978-P13"
   ],
   "full_prompt": "Use case: precise-object-edit. Image1 is the #117 Otus manadensis v9 edit target. Correct ONLY both ADULTS' exposed TOE SKIN: replace its distinctly pink/flesh-pink colour with muted yellowish gray, lightly gray-ochre, with natural subtle scale texture. Keep horn/dark claw tips. Leave the feathered tarsal/toe-joint covering and boundaries intact, do not strip feathers or extend them. Do NOT recolour central juvenile feet: adult guide colour is not independently verified for the juvenile. Preserve absolutely everything else including three birds, adult orangeyellow irises/dark bills/tufts/sepia plumage, compact older juvenile with formed rounded folded wing, size relations, six stablebranch contacts, forest, lighting, title and labels. No added pattern or objects. Keep existing pet-concept style. This is adult toe colour only; no inferred age/flight or measured sexratio.",
-  "research": "Accessed2026-11-27. Existing species research117v9 read in full, currentmain original downloaded after initial CONNECT403 then successful same-URL retry2801573bytes; actually viewed. Otusmanadensis/currentSulawesi scope; oldScopsmanadensis and former nominatesubspecies mapping; no transfer fromsplitislands. Uploaded Mikkola2013 SLSO-MIK2013-194 printed194/PDF196 actuallyread: adults blackishbill/yelloweyes, yellowishgray toes/hornclaws, tarsifeatheredtotoes, unknown sexsize ratio; fine darkbrown juvenile crown/hindneckbars, otherwise resemblesadult. Fresh targetedwebsearch and original Marshall1978 AsianNightBirds https://sora.unm.edu/sites/default/files/journals/om/om025.pdf printed13 originalread; old SLSO-MARSHALL-1978-P13 retained, study orange-yellowadultiris with exceptions, tarsaljointfeathered. No specimen-exact sexheight or juveniletoecolour inferred. Actualv9 audit: adultbaretoes visiblypink, unlike guide yellowishgray. Design correction onlyadulttoe colour, keep existing featherboundary/claws; don'tapply adultcolourtoyoung. Existing olderjuvenile posedperching withcompactfoldedwing/support; exactyoungage/sex/flightunknown. Sulawesihumidforest, branchnotnest. Sciencefalse. No new publication/indexIDs.",
+  "research": "Accessed2026-11-27. Existing species research117v9 read in full, currentmain original downloaded after initial CONNECT403 then successful same-URL retry2801573bytes; actually viewed. Otusmanadensis/currentSulawesi scope; oldScopsmanadensis and former nominatesubspecies mapping; no transfer fromsplitislands. Uploaded Mikkola2013 SLSO-MIK2013-194 printed194/PDF196 actuallyread: adults blackishbill/yelloweyes, yellowishgray toes/hornclaws, tarsifeatheredtotoes, unknown sexsize ratio; fine darkbrown juvenile crown/hindneckbars, otherwise resemblesadult. Fresh targetedwebsearch found Marshall1978 p13, but actual open https://sora.unm.edu/sites/default/files/journals/om/om025.pdf redirected to generic SORA homepage, no manadensis text. Marshall source is HISTORICAL v9 reuse only, not fresh originalread. Search snippet not validated. Correction to earlier RESEARCH_READY wording persisted beforegeneration. No specimen-exact sexheight or juveniletoecolour inferred. Actualv9 audit: adultbaretoes visiblypink, unlike guide yellowishgray. Design correction onlyadulttoe colour, keep existing featherboundary/claws; don'tapply adultcolourtoyoung. Existing olderjuvenile posedperching withcompactfoldedwing/support; exactyoungage/sex/flightunknown. Sulawesihumidforest, branchnotnest. Sciencefalse. No new publication/indexIDs.",
   "research_record": "owl-pet/research/species/117-otus-manadensis-v10.md",
   "review_record": "owl-pet/research/reviews/117-otus-manadensis-v10-review.md"
 }

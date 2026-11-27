@@ -361,3 +361,7 @@ Photo-first central rebuild improved110 head/pose/compactformedwing but inherite
 
 ## 2026-11-27 0125Z 120-megascops-ingens-v6
 120adultclaws dark→palehorn corrected andactuallyviewed, no juveniletraittransfer. Existingyoungcurlydown remains separatecalibrationqueue similar110/112; current120 and earlier119/108 were actuallyviewed thisrun for potentialaffectedmaterial, do not call wholeplatesciencepassed. Primary2022fulltext download403/RGDisabled, metadataread only plus historicalprimaryreuse, no newnestmaterialclaim. #25 localv6 Gitblob equals currentmaintree10508841 size2864437; oldfd9d70d GitHub422unrecoverable, checkedlate thisrun rather than claiming pre-generationcheck.
+
+
+## 2026-11-27 0231Z 112-asio-abyssinicus-v9
+112 independent photo-only juvenile materialstudy→integration visually reduced repeatedoutlinedloops while keeping formedwing/tail and sourceolderstage. First successful one-plate materialexperiment, not universalscienceapproval. Studies saved beforeintegration, exact fulloutputsviewed. Crosscheck110 next to testtransfer, retainingunknownage/sex/flight and existingadultnet/feet.

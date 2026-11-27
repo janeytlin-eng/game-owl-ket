@@ -57153,7 +57153,7 @@
     {
       "batch_id": "20261127T1333Z",
       "status": "PARTIAL",
-      "next_cycle": 4,
+      "next_cycle": 5,
       "completed_cycles": [
         {
           "cycle": 1,
@@ -57175,17 +57175,19 @@
           "commit_sha": "666bd359b4d896ddc64258ee2da6ed963fd29d44",
           "archive_commit": "179c70b0de5186668bd803b6df265cf872a494ac",
           "run_record": "owl-pet/production/runs/20261127T1333Z-cycle3-20261127T1333Z-204-glaucidium-sjostedti-v4.json"
+        },
+        {
+          "cycle": 4,
+          "species": "203-megascops-guatemalae-v4",
+          "commit_sha": "2bc62065f2d7269e522be33dd9219255ef7405a3",
+          "archive_commit": "69944ed2f4c069278237cb72ce3505ca5851effc",
+          "run_record": "owl-pet/production/runs/20261127T1333Z-cycle4-20261127T1333Z-203-megascops-guatemalae-v4.json"
         }
       ],
       "started_at": "2026-11-27T13:38:23.176Z"
     }
   ],
-  "lease": {
-    "owner": "20261127T1333Z",
-    "run_id": "owl-pet/production/runs/20261127T1333Z-cycle4-20261127T1333Z-203-megascops-guatemalae-v4.json",
-    "heartbeat_at": "2026-11-27T13:48:21.817Z",
-    "expires_at": "2026-11-27T14:03:21.817Z"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -58152,7 +58154,7 @@
       "credited": false
     }
   ],
-  "in_progress": true,
+  "in_progress": false,
   "previous_checkpoint": {
     "batch_id": "20261112T043100+0800",
     "cycle": 3,

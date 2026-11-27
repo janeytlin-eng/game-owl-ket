@@ -16,6 +16,10 @@
     {
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-27T13:14:53.995Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T13:15:57.660Z"
     }
   ],
   "scientifically_verified": false,
@@ -39,5 +43,17 @@
   },
   "initial_wait_seconds": 42.177,
   "edit_prompt": "Edit ONLY subtitle text below scientific name. Replace 'v7 Precise-Object-Edit' with exactly 'v7'. Remove the words Precise-Object-Edit completely. Preserve the entire owl illustration, skincolours/feet, all other text and background exactly. No other changes.",
-  "initial_review": "Male skin saturation corrected but unwanted implementation words added; remove beforearchive."
+  "initial_review": "Male skin saturation corrected but unwanted implementation words added; remove beforearchive.",
+  "image_meta": {
+    "bytes": 2444590,
+    "sha256": "ebbe7bd8abfcd8ebc377435366691663b07ce8712a61f01172bd94907a6e0e43",
+    "git_blob": "ec4957f1bd7ee22e87f53f7e9e5ecb18cf822355",
+    "dimensions": [
+      1536,
+      1024
+    ]
+  },
+  "generation_wait_seconds": 32.377,
+  "review": "#178v7 bothinitialandtextcorrectedwholeplates viewed: leftmale baretarsi/toes now subduedpalegrayyellow, femalevariation andyoungfeetunchanged; no feathersadded, darkclaws/grips retained. Initialimage added 'Precise-Object-Edit' undertitle; actualdetected and imagegenedited again, finalonlyv7, allotherlabels intact. Bothadultbilldarktips/yelloweyes/bodypatterns, youngbarredfluff/formedwings/twofeet/fieldagecategory preserved; exactyoungage/iris/flightthreshold notvalidated. 3birds6contacts/forestcorrect. Paletteownbook138only, Currie2004 actualprimary supportsbarelegs andfieldfledglingcategory, nottoephotometry. Problemoversaturatedmaleleg→palegrayyellowedit→correctcolourplusunwantedtext→textonlyedit→bothvisuallyconfirmed. New0/reuse2; sciencefalse, PASS_WITH_LIMITATIONS. Lesson alwayscheckalltext afterlocaledit; don't leak implementationwords.",
+  "status": "PASS_WITH_LIMITATIONS"
 }

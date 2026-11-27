@@ -16,12 +16,16 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-27T04:34:17.585Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T04:35:29.303Z"
     }
   ],
   "errors": [],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T0329Z-B2-cycle5-resume0426Z-127-megascops-albogularis-v7.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "source_ids": [
     "WTSO-MIK2013-249",
     "WTSO-SIBUNDOY-2013-P142",
@@ -31,5 +35,18 @@
   "full_prompt": "Precise edit of supplied White-throated Screech-Owl Megascops albogularis #127 plate. Correct adult CLAW SHEATHS ONLY on both LEFT and RIGHT adults: replace nearlyblack proximal clawbase/shaft with clearlylight palehorn beige, keeping last pointed distalends darkcharcoal. Preserve grey-brown/fleshy toe skin, creamfeatheredtarsi, allclawcurvature/length/branchgrips, sixfootcontacts. Do NOT change center MESOPTILE youngfeet/claws. Adultpalethroatpatches remainseparatefromwingmarkings; keep NO alignedwhite scapularrow, darkfuscousupperparts/tinyirregularwarmspots, orange-yellowiris/mutedgreengraybill/tuftlessroundheads/near-equalheight, nofakefemaleratio. Centralpalegraybuffmesoptile retainsfineevenduskybars/orbitaldisc/longbristles/compactfoldedwing/hidden tail/unknownage/darkunvalidatediris andbothfeetbranch. Preserve exactthreebirds/title/labelsverbatim includingMESOPTILE·AGEUNKNOWN, naturalcloudforest/epiphytes/continuousbranch/warmroundednaturalisticpetstyle. No whiteclawtips, no goldmetal, nojuvenilepalette transfer, nootherchanges.",
   "research": "Access2026-11-27. Actualv6image/researchread: adultclawsnearlyblack, guideprinted249/PDF251 freshlyread explicitlypalehornclawsdarktips/tarsifeatheredtobaseyellowgray-brownfleshytoes. Targetadultproximalclawsheathonly, usingstrongerlocation/materialcontrastlocallyeffective123v7; transfer effectivenessmustcheck, notuniversalrule. Guidep249alsoadultnoscapularwhiterow/orangeyellowiris/green-graybill/whitepairedthroat andpalegraymesoptilefineevenduskybars; keeppreviouslycorrectedfeatures/youngunchanged. Femalequalitativelyheaviernotheightratio. OldSyrnium/Otusalbogularis mappingretained, no251scopechange.\nFreshonlinegapresearch: originalSibundoyinstitutionCornellPDF failedweb40014MB/local403; alternateCorpoamazoniaPDF403; nofreshoriginalreadingclaimed, WTSO-SIBUNDOY-2013-P142 reusedhistoricalv6summaryonly(juvenilebuffwhitefinebars/noexactage). ITISrequesttimeout; oldtaxonomyrecordretainednotfreshverified. Actuallyread BIOWEB/AvesdelEcuador speciesbody https://bioweb.bio/aves/taxa/card?name=Megascops+albogularis&rank=species lines0-9 (institutionalcollection-connected Ecuadoraccount, undated, authornotshown, accessed2026-11-27): yelloweyes/darkupperparts/palehead-covertsflecks/whitethroatcrescent/brownbreast/creambuffstreaked-crossbarredbelly. Adults taxoncontextonly; nojuvenileage/sex/footdetail. Shortfeatherearsdescriptorcontrasts guide no conspicuoustufts; do NOT addlongtufts fromthisgenericwording. Supportsretainingadultidentity notclawfact. Taxonsubspeciesnotgiven, nofullmorphologyconfidenceclaim.\nSourcefactsadultpalehornclaws; exactrenderedextentdesigninference. Youngiris/bill/featherchronology/flight/nestunknown, no sciencepass. NewBIOWEBentry onlyifnotalreadyindexed, sourcebodyreadunlikefailedPDFleads.",
   "research_record": "owl-pet/research/species/127-megascops-albogularis-v7.md",
-  "review_record": "owl-pet/research/reviews/127-megascops-albogularis-v7-review.md"
+  "review_record": "owl-pet/research/reviews/127-megascops-albogularis-v7-review.md",
+  "image_meta": {
+    "bytes": 2518212,
+    "sha256": "23c69974ac28b4a0e59bb358668b39ee256134bd9bbf8ba15128f25d69db2d94",
+    "git_blob": "aabaa72a1442840a2aa167616ec7e396769c4dff",
+    "size": [
+      1536,
+      1024
+    ],
+    "b64len": 3357616
+  },
+  "generation_wait_seconds": 39.488,
+  "status": "PASS_WITH_LIMITATIONS",
+  "review": "Actualinput/outputviewed. Adultclawsnowpalegreyhornproximally/darktip, clearlylighterthanv6; toe/featheredlegboundaryand6branchgripsretained. Pairedwhitethroat/noalignedscapularrow/orangeyellowiris/greengraybill/tinyirregularwarmspotstuftlessheads retained. Youngpalegraybufffinebarredmesoptile/compactwing/nohardlongprimaries/unknownage/subduedeyes unchangedoverall, somecurlyfiberremainsstylelimit. Exact3birds/titlelabels/cloudforestretained. PASS_WITH_LIMITATIONS adultclawpaletteonly, grayhornshadeuncalibratedandyoungiris/chronology/nestunknown. FreshBIOWEBbodyreadinstitutionalcontextsaved; failedPDFandITISaccessnotcountedasfreshfulltext."
 }

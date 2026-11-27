@@ -1,0 +1,4 @@
+# 222-ninox-sumbaensis-v3 actual review
+Actual final fulloriginal viewed. Youngbrownrufous crown and body repeatedbright curls reduced, softer finewisps; plain reddishunmarkedventrum preserved, noVbars/whitepatches. Supported headwinding-inspired tiltedhead/insectwatching eyeline remains, not depictionofhunting; compactformedwing/hidden tail/pairedtoegrips intact. Adultbarredcaps/finechevrons/whitebrows/eyes/near-equaldisplay and originaltitle/roles/footer stable. Somefinecurved strands persist, texture stillartistic/unmeasured; localPWL/scientificfalse, exactage/billiris/toe/growth/flight/nestunknown. Must not transfer rudolfi size statements tosumbaensis.
+
+{"bytes":2623586,"sha256":"ba29a83006d8c99de19481f0b5740e66e47be807839cc15cd5bc9dd49aba03f2","gitblob":"032420d3db4b23e020653b7f94b10137b3e96b7e","size":[1536,1024]}

@@ -55,5 +55,13 @@
   "status": "PASS_WITH_LIMITATIONS",
   "archive_commit": "380802138bafbe549b1665c17be6781bdbc6cfdf",
   "verification_exit_code": 0,
-  "verified_at": "2026-11-27T11:24:35.482Z"
+  "verified_at": "2026-11-27T11:24:35.482Z",
+  "commit_sha": "aa94af3345574b88b7bb7765ac61f4a2d741cc6f",
+  "errors": [
+    {
+      "step": "VERIFIED branch readback",
+      "error": "first immediate ref response mismatched own new commit; fresh ref+commit+immutable run returned correct aa94af3345574b88b7bb7765ac61f4a2d741cc6f",
+      "recovered_at": "2026-11-27T11:25:34.811Z"
+    }
+  ]
 }

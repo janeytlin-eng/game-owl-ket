@@ -57003,7 +57003,7 @@
     {
       "batch_id": "20261127T1106Z",
       "status": "PARTIAL",
-      "next_cycle": 4,
+      "next_cycle": 5,
       "completed_cycles": [
         {
           "cycle": 1,
@@ -57025,17 +57025,19 @@
           "commit_sha": "3a6c9e80ff921fbf2925549004113383f7885ba9",
           "archive_commit": "42175378906338ba4b191cfa2bef1430802f4ebb",
           "run_record": "owl-pet/production/runs/20261127T1106Z-cycle3-20261127T1106Z-134-megascops-sanctaecatarinae-v10.json"
+        },
+        {
+          "cycle": 4,
+          "species": "167-ketupa-poensis-v7",
+          "commit_sha": "aa94af3345574b88b7bb7765ac61f4a2d741cc6f",
+          "archive_commit": "380802138bafbe549b1665c17be6781bdbc6cfdf",
+          "run_record": "owl-pet/production/runs/20261127T1106Z-cycle4-20261127T1106Z-167-ketupa-poensis-v7.json"
         }
       ],
       "started_at": "2026-11-27T11:11:16.198Z"
     }
   ],
-  "lease": {
-    "owner": "20261127T1106Z",
-    "run_id": "owl-pet/production/runs/20261127T1106Z-cycle4-20261127T1106Z-167-ketupa-poensis-v7.json",
-    "heartbeat_at": "2026-11-27T11:24:35.505Z",
-    "expires_at": "2026-11-27T11:39:35.505Z"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -58002,7 +58004,7 @@
       "credited": false
     }
   ],
-  "in_progress": true,
+  "in_progress": false,
   "previous_checkpoint": {
     "batch_id": "20261112T043100+0800",
     "cycle": 3,

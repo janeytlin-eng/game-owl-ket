@@ -1,0 +1,3 @@
+# 132-strix-davidi-v7
+Status:PASS_WITH_LIMITATIONS; scientifically_verified=false
+Actualfullinput/outputviewed: bothadultclaws nowclearlypaleochre-grayproximally/darkergraytips; meetsprimary2014p62range qualitatively. Denselyfurredtoetopsandallgripsretained, centralyounggrayblackclaws unchanged. Adultdarkbrowniris/yellowbill/radialface, validtailbars/near-equalscale, fourweekgraybarredyoung/pinkishlids/concealedwing-tail/bareboxsill unchanged. Sixsupportedfeet/titlelabels/forestretained. LocalpalettePWL, exactshade/sexsize/individualageandmaterialfidelityunverified. Primaryadultandjuvenileclawparagraphsmustnotbeinterchanged. No newfullscientificpass.

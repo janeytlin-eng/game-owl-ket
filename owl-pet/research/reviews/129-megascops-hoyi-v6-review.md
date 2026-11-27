@@ -1,0 +1,3 @@
+# 129-megascops-hoyi-v6
+Status:PASS_WITH_LIMITATIONS; scientifically_verified=false
+Actualfullinput/outputviewed. Adultbaretoesnowmutedgraywithyellowishundertone ratherthanbrightochre; darkhornclawsandcreamfeatheredtarsi unchanged. Juveniletoesremainwarmyellowprovisional, iris/billUNVERIFIEDandconceptpendingfooterretained, fluffyfledgedbody/notufts/formedfoldedwing/tail/2feetcontact unchanged. Adultpaleiris/graygreenbill/shorttufts/darkneckruff/scapularband/branchingstreaks/near-equalscale retained. Threebirds/sixfeet/alltext/Yungasforest retained. PASS_WITH_LIMITATIONS adulttoe-onlypalette, notjuvenilechronologyorwhole-scienceapproval. Sourceprimaryfreshaccessfailed, historicalbasisexplicit; institutionfreshnamesupportonly.

@@ -477,5 +477,13 @@
     "Exact stage ages/flight and global status counts unknown",
     "Historical incomplete aggregate updated without recrediting prior run"
   ],
-  "timing_note": "UTC timestamps, durations include multiple activities, no platform fixed limit telemetry."
+  "timing_note": "UTC timestamps, durations include multiple activities, no platform fixed limit telemetry.",
+  "errors": [
+    {
+      "step": "aggregate-readback",
+      "error": "KeyError: id on legacy manifest entry",
+      "fix": "Use x.get('id') for filtering; preserve old manifest entries",
+      "effect": "No extra cycle, no production asset changes; rerun before delivery"
+    }
+  ]
 }

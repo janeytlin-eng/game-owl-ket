@@ -20,11 +20,15 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-27T10:48:41.115Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T10:50:08.790Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T1030Z-cycle3-20261127T1030Z-134-megascops-sanctaecatarinae-v9.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "2026-11-27 #134 Megascops sanctaecatarinae v9, revisionunique0, previousv8/review/fullviewed. ActualoriginalWA1527488image reopened local head/upperbody: shortdensegray finelybarreddown, darkeye/openmutedgreenhornbill, notgoldenoutlinedloops. LTSC-KACHIMARECK-2014-WA1527488 JoseKachimareck8Oct2014CuritibaPR, https://www.wikiaves.com.br/1527488 metadataopen403thisrun (searchfullrecordnotfreshbodyverification); historicalmetadata25Nov2014published/filhote/sexunknownretained. Originalimage https://s3.amazonaws.com/media.wikiaves.com.br/images/7251/1527488g_03f2f513780890f16deffebbc0e3b935.jpg actualpixelsviewed frompreviouslocalfile, notclaimednewdownload. Onlyhead/upperbodyvisible; feetwingtailhidden notinferred.\nLTSC-MENQ-BICHINSKI-2018 WillianMenqFeb2018 speciesaccount https://avesderapinabrasil.com/megascops_sanctaecatarinae.htm body21–29 freshlyread: adultvariableiris/yellowtodarkbrown, overlappingsexweights, tarsifeatheredtoe-base, cavity/secondaryAraucaria/riparianhabitat. Keepindividualirisesnotsexlinkedrule.\nLTSC-PAGANO-2021 existingprimary nowfreshlyaccessible https://elhornero.avesargentinas.org.ar/index.php/home/article/download/370/368 , Paganoetal2021 Distribución e historia natural...ElHornero36(2):51–64, originalprinted51–52 abstract/taxonomy actuallyread; 41Misionesrecords/18localities; adulttuftlength/irisnotdiagnostic, voiceimportant; historicalScopssanctae-catarinae/Otussanctaecatarinae mappedcurrent. Doesnotvalidatephotographedyoungexactage/flight. Accessupgradeprimarybody1 (formerly403); garbledOCRportionsnotused, clearabstract/taxonparagraphonly.\nMIKKOLA-2013 actualprinted239/PDF241 read sameguideSantaCatarinaScreechOwl/Longtuftedalias: femaleavg20gheaviernotheightformula; juvenileunknown guidegapnotfillnatalfeathers. New0/reuse4existingIDs, guideonepublication.\nNewstrategy v8surface-onlyfailed: wholevisibleyounghead/upperbodyrebuildphoto-boundedcompactgrayfinebarredmesoptile withsamebodyextent/cavitylip, notredescribeoldgoldenfibers. Preserveadultcorrectbaretoeandfeet. Cavitygenericdesignnotcopyimprovisedneststructure; age/flight/hiddenpartsunknown. Backcheck130whole-rebuildchangedpalette/compactnessbutnotgeneraltextureproof;134ownphotoonly.",
   "full_prompt": "Use case precise-object-edit. Image1 is target #134 v8 family plate. Image2 is actual same-species juvenile biological reference, only the RIGHT young bird's visible gray head/upperbody matters. Rebuild the ENTIRE CENTRAL YOUNG'S VISIBLE HEAD AND UPPER BODY in Image1 from that phenotype, replacing existing golden woolly coat with compact dense gray mesoptile with faint narrow brown transverse bars and tiny irregular speckled feather texture. Use much less protruding fuzz; not mammal hair, long goldfibers, woolringlets, outlinedUloops orscallopedunits. Keep dark eye/open muted greenhornbill/rounded young head/noadulttufts. Keep originalcenterlocation/visiblebodyextent behind originalcavityrim; all feet/wings/tail remain hidden, do notinventparts. Do not copy insect/prey, watermark, roof/buildingbackground, adultleftreference or neststructure. Entire BOTH OUTERADULTS untouched including individualirises/tarsaltoe-basefeatherboundary/baregraybrowntoes/darkclaws/branchcontacts. Same forest/cavity/title/labels/near-equaladultscale and warm natural-historyillustrationstyle. Addv9totitle and discreetfooter 'CONCEPT · SCIENTIFIC CALIBRATION PENDING'. Noexactage/sex/flight/nestclaim.",
   "source_ids": [
@@ -46,5 +50,16 @@
   },
   "initial_wait": 38.64,
   "initial_review": "Graycolour/diffusebarscloserphoto butshortoutlinedcurvesstillrepeat, foreheadwhitefleckcontrasttoo strong; nofullmaterialpass.",
-  "edit_prompt": "Edit ONLY the CENTRAL YOUNG'S FOREHEAD/CROWN/SIDES OF FACE and upperbreast in this #134v9plate. Blend away conspicuous pale individual curled-line outlines and white flecks, replacing them with extremely short dense muted gray feather grain and subtle brown transverse tonal variation. The real species juvenile shown in reference2 has a relatively even darkgray crown, not a sprinkling of bright white adult-like feather spots. Lower local contrast of these individual line/fleckunits while retaining natural finegrain and overallgray head/chest, noairbrushedfeaturelesssurface. Preserve darkeye/openmutedgreenhornbill and mouthanatomy, allbodygeometry/cavitylip/hiddenfeetwingtail; noadultplume/tuftaddition. Entirebothadults/individualirises/baretoegrips/forest/titlev9/footer/labels untouched. No newage/flight/sexclaim."
+  "edit_prompt": "Edit ONLY the CENTRAL YOUNG'S FOREHEAD/CROWN/SIDES OF FACE and upperbreast in this #134v9plate. Blend away conspicuous pale individual curled-line outlines and white flecks, replacing them with extremely short dense muted gray feather grain and subtle brown transverse tonal variation. The real species juvenile shown in reference2 has a relatively even darkgray crown, not a sprinkling of bright white adult-like feather spots. Lower local contrast of these individual line/fleckunits while retaining natural finegrain and overallgray head/chest, noairbrushedfeaturelesssurface. Preserve darkeye/openmutedgreenhornbill and mouthanatomy, allbodygeometry/cavitylip/hiddenfeetwingtail; noadultplume/tuftaddition. Entirebothadults/individualirises/baretoegrips/forest/titlev9/footer/labels untouched. No newage/flight/sexclaim.",
+  "image_meta": {
+    "bytes": 2714070,
+    "sha256": "3dd443d40cbcf88600a2d882360cfa24eb7fb85b2abd49bab45a945f6f740e70",
+    "git_blob": "f7f27d8a628486d782ae580754172d4cf4c316c2",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "chars": 3618760
+  },
+  "generation_wait_seconds": 38.748
 }

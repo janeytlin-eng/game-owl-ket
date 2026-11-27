@@ -17,11 +17,15 @@
     {
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-27T19:35:48.475Z"
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-27T19:35:54.317Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T1826Z-cycle5-20261127T1931Z-134-megascops-sanctaecatarinae-v13.json",
-  "stage": "IMAGE_GENERATED",
+  "stage": "REVIEWED",
   "research": "2026-11-27 access #134 Megascops sanctaecatarinae oldScops sanctae-catarinae/Otus, no251change. Actualv12/research/reviewwholeimage read: raisedUmesh alreadyreduced, no claimstillNEEDS fromolderv11. Specificremainingerror youngwhitebrows/cheek/wholeface conspicuous compared reference. Reuse LTSC-KACHIMARECK-2014-WA1527488 JoseKachimareck photographed8Oct2014 CuritibaPR/published25Nov2014 https://www.wikiaves.com.br/1527488 metadatahistoricreuse; freshexternalqueryandactual501661bytephoto downloadedviewed https://s3.amazonaws.com/media.wikiaves.com.br/images/7251/1527488g_03f2f513780890f16deffebbc0e3b935.jpg . RIGHTyoung has darkiris with narrowpalegray featherorbit/smallpalebrow/graybrownfinecap/cheek, faintneckbars, mutedgreenhornbill. Notwhitebroadmask; exactage/flight/sex/wingsfeet/nest unknown. Wikiavespagefresh403, photoactualaccessible, notfreshmetadataproof. Reuse LTSC-MENQ-BICHINSKI-2018 WillianMenq Feb2018 original https://avesderapinabrasil.com/megascops_sanctaecatarinae.htm actualDescription/Reproduction/Habitat bodyread: eyeindividualvariationyellow–brown, male155–194/female174–211g overlaps notheight; Araucariawoodland/treehollows; noage-specificyoungplumage. Reuse MIKKOLA-2013 HeimoMikkola2013 secondedition uploadedactualprinted239/PDF241textread: juvenileunknown; adultbushytuftswithoutlongtips/greenishgraybill/lightgraybrowntoes/darkhornclaws; meanfemale+20g notfixedheight. Sourcefacts separatefromdesign: narrowyoungpalerings/graycheeks correctiononly; cavitysupport existingdesignnotphotograph-specificnest. New0/reuse3IDs, no independentyoungcorroboration/no scientificpass. Recovery25v6tree original/concept retained, fd9d70d previously422 notclaimsuccessfulremotecommit; no redraw.",
   "full_prompt": "Use case precise-object-edit. Edit existing #134 v12 trio ONLY CENTER YOUNG FACIAL FEATHER COLOUR EXTENT. Its current broad bright white brow and cheek mask exceeds actual youngphoto. Narrow the orbital pale feather ring to a fine subdued pale GREY ring immediately around each darkeye, and reduce eyebrows to small muted grey strokes. Most cheeks/forehead between orbital ring and sidehead should be subdued grey-brown finegrained plumage continuous with rest ofhead. Preserve darkirises, exact eyeshape/position, open mutedgreenishhornbill/gape, headoutline and no ear-tufts, neckfinebars/currentfinertexture. No white broad facialdisc/white cheek tufts. BOTH ADULTS, everyadultplumage/tuft/eye/bill/tarsus/toes/darkclaws/4grips, nearequalscale, treecavitybody support/concealedyoungwingsfeet, forest/labels/footer individualirisvariationnotsexmarker entirelyunchanged. Add small 'v13' next '#134' title; exact scientific Megascops sanctaecatarinae. No age/flight/nest facts added.",
   "source_ids": [
@@ -44,5 +48,7 @@
   "imagegen_invocations": 1,
   "editing_wait_seconds": 0,
   "review_result": "PASS_WITH_LIMITATIONS",
-  "local_image": "production1931nov27/134-megascops-sanctaecatarinae-v13.png"
+  "local_image": "production1931nov27/134-megascops-sanctaecatarinae-v13.png",
+  "review": "Fullv12/refphoto/finalv13 actualviewed. Youngbroadwhiteface reduced; brows mutedgray, narrowpaleorbitalfeatherededge arounddarkeye and graybrowncheeksnowcloserprimaryphoto. Finewhitefeatherstips onneckremainillustrative, no microscopiccalibrationclaim. Greenhornopenbill/compacttuftlesshead/faintcrossbars/cavitybody support/concealedwingsfeet maintained. Adultbushyshorttiptufts/coarsebranchedstreaks/whitescapularspots/yellowvsbrowneyes declaredindividualvariation/greenishgraybills/tarsalfeatherstotoebase/lightgraybrowntoes/darkclaws/4securegrips/nearequalscale preserved. ForestAraucaria/cavitydesign notexactnest. PASS_WITH_LIMITATIONS/sciencefalse. Problem overbroadyoungpalemask→actualWA1527488rightyoung narrowfeatherorbit→limitedfacepaletteedit→fullrechecksuccessfulhere. Don'tmerge paleorbit/bareeyelid oryoung/sexattributes; no exactage/flight/nestdetailinvention. New0/reuse3IDs. FreshWikiAvespage403butoriginalphotoaccessible; uploadedguideactual239read.",
+  "reviewed_at": "2026-11-27T19:35:54.304Z"
 }

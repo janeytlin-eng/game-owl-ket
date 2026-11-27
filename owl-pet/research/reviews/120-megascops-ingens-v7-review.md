@@ -1,0 +1,6 @@
+# 120-megascops-ingens-v7
+Status: PASS_WITH_LIMITATIONS; scientifically_verified=false
+
+Actualv6/fullfirstattempt/fullsecondedit viewed. Firstattempt oversaturated broad pink rings rejected and originalsaved. Secondedit visibly reduces bright magenta edge to subdued shaded brown-pink thin rim. PASS_WITH_LIMITATIONS for suppressing exaggerated rings; exactpink visibility underconceptlighting remainscalibrationlimit, notwhole-sciencepass. Adulthoney-brownirises/olive-yellowbills/smalltufts/featheredtarsi/paleyellowgraytoes/palehornclaws maintained, near-equalscaleunchanged. Centraljuvenile beige/whitedown/darkbrowniris/graybill/eggtooth/slightlyopenmouth/formedbarredremiges/support unchanged; woollycurlmaterial unresolved. Threebirds/sixfeet/deadstumpcavity/forestedmontaneedge retained. Freshauthorfulltextaccessrestored, estimatedyoungage and nestheightconflict explicitly recorded, no exactageorflightclaim. Scientific_verified=false.
+
+[Sources/fullprompt](../species/120-megascops-ingens-v7.md)

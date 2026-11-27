@@ -425,3 +425,7 @@ First128adultclawedit insufficient, secondeditpaleentiresheath succeededafterche
 
 ## 2026-11-27 0426Z 129-megascops-hoyi-v6
 129adulttoe skintone reducedochre to yellowishgray whiledarkhornclawsretained; no universalpaleclawrule. Youngyellowfeetandiris/billunverifiedlabels preserved. Primary1989fresh403doesnoterasehistoricalevidencebutcannotclaimfreshreading; SIBfreshsupportsnameonly. Checkstagecolourbeforecopyingadultpalette.
+
+
+## 2026-11-27 0426Z 130-megascops-koepckeae-v7
+130adultlegfeatherstargetbuffandbrownfleck locallyvisible, baretoe/clawandyoungwhitebrowstagespreserved. OriginalFjeldsa2012pages184/189downloadrecoveredafterwebfindredirect500, actualread supportsbuffmarkedlegs whilewarningregionalvariation; notautomaticLoja hockingiassignment. Youngclosedloopmaterialstillqueue. Keep legfeathers/toes/claws threeindependenttract/colorchecks.

@@ -17,11 +17,15 @@
     {
       "stage": "RESEARCH_READY_CORRECTION",
       "at": "2026-11-27T14:34:05.667Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T14:35:49.946Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T1333Z-cycle6-20261127T1429Z-216-otus-thilohoffmanni-v4.json",
-  "stage": "RESEARCH_READY_CORRECTION",
+  "stage": "IMAGE_GENERATED",
   "research": "Revision #216 v3→v4; species increment0. Reused OTHI-WARAKAGODA-2006-P68-71: Deepal Warakagoda2006, Sri Lanka's Serendib Scops Owl, BirdingASIA6:68–71. Original https://static1.squarespace.com/static/5c1a9e03f407b482a158da87/t/5c436e027ba7fc4a9adf38d0/1547922948533/serendibscops.pdf reopened2026-11-27, actual pp69/71 full body read. Adult bill/legs/claws whitish; male orange-yellow iris, female/young yellow. Fledged juvenile slightly smaller, incomplete disc, adultlike colours, horizontal roost twig, no exact age/nest/firstflight. Reused OTHI-MIKKOLA-2013-P180, uploaded book printed180/PDF182 reread for bill yellowish/pink cere and adult tarsus boundaries; IMPORTANT actual guide conflicts in wording with primary whitish bill. Full v3 inspected: exposed bill body in all3 appears saturated yellow gold; primary whitish versus guide yellowish is a recorded colour-description conflict, not proof the current bill is biologically impossible. Design change restricted to pale warm ivory bill shafts/tips, preserve pink cere and role eyes; no sex-height or fledgling-wing changes. Fine bill colour and age remain uncalibrated; scientific false. Existing earlier clawnondarkening rejected hypothesis retained, not counted as new fact. SourceID reuse2/new0/correction1 to this cycle's initial research wording (book says yellowish, not horn-white); no correction to historical bibliography.",
   "full_prompt": "Edit this existing 216 Serendib Scops Owl Otus thilohoffmanni three-bird concept plate. Preserve the warm tactile natural-history rendering, all three individual birds, positions, near-equal adult body display, slightly smaller older fully fledged juvenile with incomplete disc and short pseudo-tuft crown corners, formed folded wings, plumage, rainforest, horizontal twig support, all text labels and footer. Make one bounded anatomical colour correction on ALL THREE exposed beaks: the hard bill below the pink cere should be pale warm ivory-yellow, subtly shaded grey at its underside, NOT saturated yellow/gold/green. Keep pink cere skin separate and unchanged. Keep male orange-gold irises and female/juvenile yellow irises unchanged. Preserve already pale ivory claws and pink lower tarsi/toes, do not darken them. Do not add true adult ear tufts or newborn down, do not modify adult heights or feather pattern. Primary2006 describes whitish and Mikkola2013 says yellowish: choose pale ivory-yellow intermediate with low saturation; this is a visual calibration under explicitly unresolved source colour wording, not a proven biological defect. This is a concept with scientific calibration pending, not a scientific approval. Return complete landscape plate.",
   "source_ids": [
@@ -29,5 +33,18 @@
     "OTHI-MIKKOLA-2013-P180"
   ],
   "new_sources": 0,
-  "research_ready_at": "2026-11-27T14:33:48.285Z"
+  "research_ready_at": "2026-11-27T14:33:48.285Z",
+  "image_metadata": {
+    "bytes": 2490477,
+    "sha256": "92666c28c04dde5f64c478273f7e2cf9b40510019af0d58195b2c50934364796",
+    "gitblob": "b34bc999d13609950f752262d7ef79f199644635",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "imagegen_wait_seconds": 42.699,
+  "imagegen_invocations": 1,
+  "review_result": "PASS_WITH_LIMITATIONS",
+  "local_image": "production1429nov27/216-otus-thilohoffmanni-v4.png"
 }

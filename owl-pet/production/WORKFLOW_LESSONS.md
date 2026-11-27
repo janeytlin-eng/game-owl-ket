@@ -321,3 +321,7 @@ Actualwholeplate rebuild changed olderjuvenilestagevisibility (formedwing/barred
 
 ## 2026-11-27 0030Z 109-ptilopsis-leucotis-v11
 Adultpatterntargetfinevermiculations successfullyvisible aftersubtleonefifthcontrastprompt, dominantshaftsnotheavygrid. This is oneplatevisualvalidation notquantitativebiologicalratio. Juvenileyellowiris/sixsupports checked; plasticfeathertexture remainsnotfixed. Earlier105finepattern/86overshoot rules reused with species-specific sources, nottransferred blindly.
+
+
+## 2026-11-27 0030Z 113-ninox-natalis-v8
+Adultwhiteplainshanks→guide494rufousochrebarredfeatheredtarsi→adultonlywarmbarredrepaint actualfullviewpassed. Institution2016generalyellowlegs notusedtoerasefeathers; baretoesremainyellow. GuidecaptionKiritimatiwrongregion flagged/excluded, nottaxonomychange. Youngunchanged/noadulttransfer; oneplatepromptapplication notuniversalrule.

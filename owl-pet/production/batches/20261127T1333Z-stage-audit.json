@@ -1,0 +1,400 @@
+{
+  "delivery": {
+    "run_id": "20261127T1333Z",
+    "completed_cycles_this_invocation": 6,
+    "new_species": 0,
+    "revised_species": 6,
+    "unique_species": 207,
+    "total_species": 251,
+    "current_batch_id": "20261127T1333Z",
+    "current_batch_completed": 5,
+    "next_cycle": 6,
+    "other_partial_batches": 0,
+    "report": "owl-pet/production/batches/20261127T1333Z-six-cycle-review.md",
+    "at": "2026-11-27T13:52:06.411Z"
+  },
+  "stats": {
+    "species": 207,
+    "total": 251,
+    "numbered_versions": 1371,
+    "numbered_ids": 219,
+    "truncated": false,
+    "old25_remote_match": [
+      "owl-pet/design/concepts/25-glaucidium-brasilianum-cactorum-v6.png",
+      "owl-pet/design/originals/25-glaucidium-brasilianum-cactorum-v6.png"
+    ]
+  },
+  "results": [
+    {
+      "run_id": "20261127T1333Z",
+      "batch_id": "20261127T1304Z",
+      "cycle": 6,
+      "target": "179-otus-mayottensis-v6",
+      "started_at": "2026-11-27T13:35:31.994Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T13:35:32.048Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T13:35:44.166Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T13:37:03.078Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T13:37:07.871Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T13:37:12.643Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T13:37:36.302Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T1304Z-cycle6-20261127T1333Z-179-otus-mayottensis-v6.json",
+      "stage": "VERIFIED",
+      "research": "Access2026-11-27 currentOtusmayottensis oldOtusrutilusmayottensis, Scopshumbloti nomen nudum notvalidoriginal. Reuse MAYS-MIKKOLA-2013-P139 sameuploadedMikkola2013 printed139/PDF141 actuallyread: WHITE THROAT prominentlydarkstreaked/barred, brownbellywithblackshafts/vermiculations, onlyfewwhitescapularareas/no clearstripe, yelloweye/grayhornbill, graybrowntoes/darkgraybrownclaws; femaleslightlylongerwing notheight. Currentv5actualview throat predominantlybrown beneathbill, insufficientwhitebase; v6whitishthroatONLY retainingdarkmarks/notwhitebiborbelly. Reuse MAYS-OISEAUX-BAUER-2008-ADULT MikaelBauerDec2008CombaniMayotte https://www.oiseaux.net/photos/mikael.bauer/petit-duc.de.mayotte.1.html actualfreshmetadataopenedandoriginalphoto downloaded/viewed https://www.oiseaux.net/photos/mikael.bauer/images/petit-duc.de.mayotte.miba.1g.jpg adultidentity/plumageonly; nosexualorjuvenilechronology. Existingv5MNHNidentityrecord saysimmatureONLY, noyoungphenotype, historicalnotfreshlyread; sourceyoungunknown remains explicit. PriorMarshallshortbaretarsusseparatebookconflict retainednotredrawn. Designnoage/flight/nest/newhatchlingdetails, youngv5unknownrenderunchangednotvalidated. New0/reuse2 sourceIDs; broadcolourguide-only, sciencefalse.",
+      "full_prompt": "Edit this #179 Otus mayottensis family plate: only BOTH ADULTS' small THROAT feather area immediately under bill/chin. The underlying throat feathers should be WHITISH with conspicuous DARK STREAKS AND CROSSBARS still crossing them, rather than brown ground. Small localized natural white throat, NOT a solid giant white bib, NOT white breast/belly or bright scapular stripes. Preserve all existing dark throat markings, the brown shaft-streaked chest, reduced tiny white scapularflecks, yelloweyes/grayhornbills, adultnear-equalscale, shortbaretarsalpart andscalygraybrowntoes/darkclaws, allsix footcontacts. Keep RIGHT ageunknownimmature entirely unchanged, existing plumage/age/iris/flight unverified footer unchanged. Sameevergreenforest/branch/title/labels/style. Add small 'v6' nexttitle only; no editing terms, no newage/flight/nest.",
+      "source_ids": [
+        "MAYS-MIKKOLA-2013-P139",
+        "MAYS-OISEAUX-BAUER-2008-ADULT"
+      ],
+      "new_sources": 0,
+      "image_meta": {
+        "bytes": 2762609,
+        "sha256": "752127804de6203a0f1ac30c7fcd697fe31b3f2ae8cc9d71e23046b50df7fbc6",
+        "git_blob": "9ed72d374b0bcef88adb302e2c6def714a498322",
+        "dimensions": [
+          1536,
+          1024
+        ]
+      },
+      "generation_wait_seconds": 39.04,
+      "review": "#179v6 actualv5/fieldadultphoto/generatedwholeviewed. Smalladultthroatwhitishgroundnowvisiblebeneathbothbills withdarklines/barring retained; becomes narrowVcollar, preciseextentnotcalibrated. Bauerphoto headtilted/shadedthroat doesnotindependentlymeasurewhiteextent; colourgoalguide139only, notpopulationproof. Brownventrum/reducedshoulderflecks/yelloweyes/grayhornbills/near-equaladultbody/shortbaretarsus/graybrowntoes/darkclaws retained, threebirds6footcontacts/evergreenbranch/labels/v6/footer intact. Youngunchangedclosedeyes/unknownplumage, museumimmatureidentityNOTphenotypeevidence; no youngscientificpass. Problemuncontrastedbrownthroat→bookwhitethroatwithdarkmarks→localedit→whitishbasevisuallyseen, actualfeatherextentstillpending. New0/reuse2/sciencefalse/PASS_WITH_LIMITATIONS. Needindependentproperlylitadultthroatphoto beforecalibration.",
+      "status": "PASS_WITH_LIMITATIONS",
+      "archive_commit": "5fc498eaf536bc105f1ab0737e0fb4a95b16e3fa",
+      "verification_exit_code": 0,
+      "ended_at": "2026-11-27T13:37:36.263Z",
+      "commit_sha": "39f34a4a704335d039069479e76017305a18ce18",
+      "credit_commit": "4268c2d7c5dc4d896832537a892b203413c0e04d"
+    },
+    {
+      "run_id": "20261127T1333Z",
+      "batch_id": "20261127T1333Z",
+      "cycle": 1,
+      "target": "195-otus-brookii-v6",
+      "started_at": "2026-11-27T13:38:23.176Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T13:38:23.223Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T13:38:27.987Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T13:39:39.075Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T13:39:52.808Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T13:39:57.672Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T13:40:03.207Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T13:40:34.953Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T1333Z-cycle1-20261127T1333Z-195-otus-brookii-v6.json",
+      "stage": "VERIFIED",
+      "research": "Access2026-11-27 #195 Otusbrookii designSumatransolokensis, oldPisorhinasolokensis/Scopsbrookii retained noauthoritysplit/newcount. Reuse RAJ-MIK2013-P168 HeimoMikkola2013 uploadedprinted168/PDF170 actualread: powerfulfeet/heavilyfeatheredtarsitobaseyellowfleshorlightgraytoes, DARKISHCLAWS, paleyellowbill/yelloworangeiris/whiteinnerlongtufts. Currentv5actualview adultclawsmaincurvesverylightgray, v6adultclawdarkenonly, skinshadeallowednotgrayforced. Female saidlarger noquantifiedheight/weight, keepnear-equaldisplay. Youngrufousfinebarredmesoptile/whitishrufousundersidefreckled, noexactage/irisflight; v5bellyfixpreserved. Reuse RAJ-GOODDIE-2015-P70-81 ChrisGooddie2015 OrnithologicalrecordsfromBukitBarisanSelatanNationalParkSumatraIndonesia,Forktail31:70–81 original https://static1.squarespace.com/static/5c1a9e03f407b482a158da87/t/5d39d70a8ba5690001c81656/1564071691325/Bukit-Barisan.pdf actualexternaloriginalopenedintro70andhabitat71 read, species74tofollowactualfind; 27Apr2009DanauRanauadult/nestfacts priorrecordonly untilreadsection, noyoung/softpartsvalidation. Whiteeggs/nestnotadded, backgroundemptycavitynotknownyoungnest. New0/reuse2, darkreflectanceunmeasured/guide-only, scientificfalse.\nFollow-up originalfind actually returned/read entire speciesparagraph printed74/PDF5lines480–503: 27Apr2009DanauRanau~1300m presumedsolokensis adult contrastedblackishcrown/rufousface/whitebrowtufts/paleyelloworangeiris; cavity2.5mupoldtree/mossylining/twooffwhiteeggswithpossiblecontactstains. Notyoungcolour/clawsproof. Previouspendinglocatornowresolvedthiscycle; notnewsource ornovelaccessupgrade.",
+      "full_prompt": "Edit #195 Rajah Scops Owl Otus brookii solokensis family plate. BOTH ADULTS only: make the currently verylightgray clawSHEATHS muted DARK HORN-GRAY/BROWN, with natural small highlights and darkerterminalhooks. Keep clawshape/length/grips and pale yellowflesh/lightgray bareTOE SKIN and tarsalfeatherboundaries unchanged. Do NOT darken center youngclaws or alter its eyes/bill/rufoushead/palewhitishrufousbelly/finebarredmesoptile/formedfoldedwing/shorttail/headturn. Keep adultsallpatterns/longwhiteinnertufts/paleyellowbills/irises/near-equalbodydisplay andsix supportedfeet. Keepforest/emptybackgroundcavity/labels/unknownfooter. Add small '#195 v6' near title only; no editing words/newnest/age/flight.",
+      "source_ids": [
+        "RAJ-MIK2013-P168",
+        "RAJ-GOODDIE-2015-P70-81"
+      ],
+      "new_sources": 0,
+      "image_meta": {
+        "bytes": 2583896,
+        "sha256": "4d1b81db0edf34b4f06937840dff58075005ee89c3e19753e77fcc554a2b731f",
+        "git_blob": "6335a4a847c94497cddf2e04bb49e98aad2e9df5",
+        "dimensions": [
+          1536,
+          1024
+        ]
+      },
+      "generation_wait_seconds": 44.035,
+      "review": "#195v6 actualwholeplatevs v5: bothadultclawsmaincurves nowdarkhornbrown/gray ratherthanverylightgray; paleallowedtoes/featheredtarsalboundary/clawshapes/sixgrips retained. Youngpaleclaws/whitishrufousbelly/rufoushead/mesoptilebars/formedwing/shorttail unchanged, uncalibratedcurlmaterialnotclaimedfixed. Adultlongwhiteinnertufts/brows/paleyellowbills/eyevariations/near-equaldisplay, emptycavityforest/rolelabels/pendingfooter/v6 intact. Problemlightclaws→ownbookdarkish→adultonlydarken→qualitativelyseen; hue/tractmicroboundary notmeasured. Gooddie74actualread supportsadult/nestcontext notclawpaletteorjuvenilechronology. Commonsmisidentifiedyoungstillnotborrowed. New0/reuse2/sciencefalse/PASS_WITH_LIMITATIONS.",
+      "status": "PASS_WITH_LIMITATIONS",
+      "archive_commit": "f335da991ae00e4952cf3478bdd0d8132d2688a8",
+      "verification_exit_code": 0,
+      "ended_at": "2026-11-27T13:40:34.923Z",
+      "commit_sha": "d023b69307a55f7d9225045546e6d417283534e4",
+      "credit_commit": "5be655bfc1df355ce3562388c98265985c0eb6a8"
+    },
+    {
+      "run_id": "20261127T1333Z",
+      "batch_id": "20261127T1333Z",
+      "cycle": 2,
+      "target": "202-ninox-theomacha-v6",
+      "started_at": "2026-11-27T13:40:45.586Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T13:40:45.643Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T13:40:50.610Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T13:42:07.480Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T13:42:13.669Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T13:42:19.422Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T13:42:55.389Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T1333Z-cycle2-20261127T1333Z-202-ninox-theomacha-v6.json",
+      "stage": "VERIFIED",
+      "research": "2026-11-27 currentNinoxtheomacha oldSpiloglauxtheomacha, mainlandnominate nothoedtii/goldii/rosseliana, noauthorityscopechange. Reuse PBBO-MIKKOLA-2013-P484 uploadedMikkola2013 actualprinted484/PDF486read: darkbrowndorsum/chestnutunderparts/goldeneyes/darkyellowbill/greengraycere/reddishfeathertarsitodullyellow/browntoes with BLACK CLAWS. Currentv5actualview adultclawsgraypaleshiny vsblackdescription; darkenadultclaws nottoes/young. Female slightlylarger noheightfraction. Natalgrey/mesoptilefluffydullbrown, currentyounghistoricalrufousabdomenpatchretained/ageunknown. Reuse PBBO-OWLPAGES-2020 DeaneLewis2020 PapuanBoobook https://www.owlpages.com/owls/species.php?s=3360 actualfreshIntroduction/Distributionread, no independentfootcolour/juveniletimeline. Actualqueryinitialwrong s580 returnedOtusmagicus, rejectedbyspeciesheading; corrected3360notnewsource/biologicalcorrection. PBBO-SHARPE-1878-P359 existinghistoricalAndeiyoungaccountv5reusedasdesignhistoryonly NOTfreshoriginalreadthiscycle; youngskinoneindividual doesnotdateage/irisflight. Sourceblackclawsbookonly, no currentconservationclaim. New0/reuse2IDs, sciencefalse/exactyoungage/bareparts/wingsequenceunknown. Noadultpaletteautomaticallyontoyoung.",
+      "full_prompt": "Edit #202 Papuan Boobook Ninox theomacha v5: ONLY BOTH ADULT CLAW SHEATHS to BLACK/DARK CHARCOAL HORN rather than pale gray. Small bounded reflected highlights allowed, keep hooks/shapes/length and toecontact unchanged. Keep dull yellowbrown bareTOE SKIN, reddish tarsalfeathers to toebases, six branchgrips unchanged. Preserve RIGHT olderimmature completely including unverifiedeyes/bill/claws, graychocolatechest/subtlerufoustint/rufousabdomen-center/unbarredformedfoldedwings/residualgrayfeathering andsupportedstance. Preserve bothadultsgoldeneyes/yellowbills/greengraycere/plainbrowndorsum/chestnutventrum/near-equaldisplay. Title versionv6; allothertext/nominateplaque/scientificpending/unknownfooter/forest preserved. No editingwords/newnest/age/flight.",
+      "source_ids": [
+        "PBBO-MIKKOLA-2013-P484",
+        "PBBO-OWLPAGES-2020"
+      ],
+      "new_sources": 0,
+      "image_meta": {
+        "bytes": 2156506,
+        "sha256": "3ebbcd19a1d993aabef942873fd073ce3041e57e0e6ec18942616498ee291872",
+        "git_blob": "2101771b60ae976c40cc85e55fe8bc6445230d11",
+        "dimensions": [
+          1536,
+          1024
+        ]
+      },
+      "generation_wait_seconds": 38.751,
+      "review": "#202v6 actualwholeview adultclawsnowblackcharcoal/limitedhighlights, dullyellowbrowntoes/reddishtarsalfeathers/gripsunchanged; youngclawsremainoldpalehorn notadulttransfer. Adultsplainbrowndorsum/chestnutbelly/goldeneyes/yellowbill/greencere preserved. Younggraychocolateupperchest/rufousabdomen/residualgrey/unbarredformedwing/unknowniris-bill/stance retained. 3birds6branchcontacts/titlev6/nominateplaque/unknownfooterintact. Problemgrayclaws→ownbookblack→adultonlyedit→blackvisuallyseen. Sourceowlpagesfreshbodyonlyidentity/distributionnotcolourproof, wrongs580excluded. Exactcolourreflectance/youngage/flight/sexheightunknown; historicalskinnotnewlyread. New0/reuse2/PASS_WITH_LIMITATIONS/sciencefalse.",
+      "status": "PASS_WITH_LIMITATIONS",
+      "archive_commit": "68bb4fa8d6b36c5e403b736d0b1ff6ad255a2846",
+      "verification_exit_code": 0,
+      "ended_at": "2026-11-27T13:42:55.362Z",
+      "commit_sha": "2c68e8a8cc17bf7c153fed8e31d7fdb72d92798e",
+      "credit_commit": "c059c379a45197f9ab0a2f691b0f609372dff10d"
+    },
+    {
+      "run_id": "20261127T1333Z",
+      "batch_id": "20261127T1333Z",
+      "cycle": 3,
+      "target": "204-glaucidium-sjostedti-v4",
+      "started_at": "2026-11-27T13:43:28.048Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T13:43:28.096Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T13:43:33.449Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T13:45:00.517Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T13:45:06.309Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T13:45:11.886Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T13:45:33.993Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T1333Z-cycle3-20261127T1333Z-204-glaucidium-sjostedti-v4.json",
+      "stage": "VERIFIED",
+      "research": "Access2026-11-27 currentGlaucidiumsjostedti oldTaenioglauxsjostedti/G.sjoestedti. Reuse GSJO-MIKKOLA-2013-P410 (verifyexistingstableid inindex; samebook printed410/PDF412 actuallyread): adultcinnamonrufoustarsalfeathers to LIGHT YELLOW SPARSELY BRISTLED TOES, hornclawsdarktips, yellowiris/paleyellowbill, whiteplainthroat, finelywhitebarredhead/chestnutback/brownupperbreastbars/palealmostunbarredlowerbellycaption. Currentv3actualview adulttoe skin saturateddeepgoldorange, v4 lighten/desaturatetopaleyellow NOTgrayorwhite; don'tpaintfeatheredtarsus. Femalealittlelarger noheightfraction. Youngguidepaler/darkerupperbars vs historicalSharpeEfulenfewer/narrowerbars conflict remains notresolved; youngunchangednotnewagefact. Reuse GSJO-OWLPAGES-2020 DeaneLewis2020-10-31 https://www.owlpages.com/owls/species.php?s=2150 actualfreshintro/distribution/namealiasread, no toe/youngdetail; notindependentcolourproof. GSJO-SHARPE-1904-P106 priorprimaryrecordhistoricalonly nofreshscan thiscycle. New0/reuse2 activeIDs, sciencefalse. Skin/feather/claw boundaries distinct, bristlesonlyifresolvable no longhair.",
+      "full_prompt": "Edit #204 Sjostedt's Barred Owlet Glaucidium sjostedti v3. BOTH ADULTS bare scaly TOE SKIN only: make it LIGHT muted PALE YELLOW rather than saturated deeporangegold. Preserve cinnamon-rufous TARSI FEATHERS, which must NOT become yellow. Hornclaws/darktips/shape/length and allsix branchcontacts unchanged. Sparse minute toe-bristles can remain subtle, do not invent long hair. Entire RIGHT young unchanged including own toe/claw colours, narrowerhistoricalupperbars andunknownbareparts. Adultwhiteplainthroat/yelloweye-palebill/finewhiteheadbars/chestnutback/upperbreastbars/lowerpalegradient preserved. Sameforestsixcontacts/near-equaladults/title/labels/Efulenscope/scientificpendingfooter. Add small 'v4' nexttitle, no editingwords ornewage/nest/flight.",
+      "source_ids": [
+        "GSJO-MIKKOLA-2013-P410",
+        "GSJO-OWLPAGES-2020"
+      ],
+      "new_sources": 0,
+      "image_meta": {
+        "bytes": 2442291,
+        "sha256": "06f5f759ab4ef95683487d4c6144b6a5ba32efb08a541b45cdfc682b9a4b7d33",
+        "git_blob": "41803096256d276954d4447ab29cb657768942b8",
+        "dimensions": [
+          1536,
+          1024
+        ]
+      },
+      "generation_wait_seconds": 37.379,
+      "review": "#204v4 actualwholeview: adultscalytoe skin now paleyellow ratherthandeeporangegold, cinnamontarsalfeathers retained; hornclawsdarktips/gripsunchanged. Sparsebristlesnotclearlyresolved thusnotvalidated, don'taddhairtoforce. Youngownbareparts/underbarpatternunchanged, Efulenhistoricalvsbookyoungbarconflictstillunknown. Adultwhiteplainthroat/yelloweyesbills/chestnutmantle/whiteheadbars/palelowerbelly retained; 3birds6contacts/titlev4/footerreadable. Problemoversaturatedtoe→guide410paleyellow→adultskinonlyedit→palettequalitativelyconfirmed. Ownbookonlypalette, OwlPagesidentityrange notindependentcolour. New0/reuse2/PASS_WITH_LIMITATIONS/sciencefalse; preciseage/flight/youngiris/billunknown.",
+      "status": "PASS_WITH_LIMITATIONS",
+      "archive_commit": "179c70b0de5186668bd803b6df265cf872a494ac",
+      "verification_exit_code": 0,
+      "ended_at": "2026-11-27T13:45:33.958Z",
+      "commit_sha": "666bd359b4d896ddc64258ee2da6ed963fd29d44",
+      "credit_commit": "03f1909da84a97f25440369f61502f23f07489a0"
+    },
+    {
+      "run_id": "20261127T1333Z",
+      "batch_id": "20261127T1333Z",
+      "cycle": 4,
+      "target": "203-megascops-guatemalae-v4",
+      "started_at": "2026-11-27T13:46:08.127Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T13:46:08.175Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T13:46:14.602Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T13:47:35.770Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T13:47:42.267Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T13:47:48.034Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T13:48:21.817Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T1333Z-cycle4-20261127T1333Z-203-megascops-guatemalae-v4.json",
+      "stage": "VERIFIED",
+      "research": "2026-11-27 currentMegascopsguatemalae oldOtus/Scops, nominatescope no newtaxonomy. Reuse MGUA-OWLPAGES-2020 DeaneLewis2020-10-24 https://www.owlpages.com/owls/species.php?s=1070 actualfreshDescription67–69 whitishTHROAT, greenbill/yelloweyes/fineblackspotruff/bare duskyfleshtoes/hornclawsdarktips andfewernobarsonlowerbelly; Breeding78cavityexistingdebris notnewnesthere. Reuse MGUA-MIKKOLA-2013-P245 uploadedbookprinted245/PDF247actuallyread supportsadultpatternbroadcrownedges/finefacialvermiculation/greenbill/tarsalfeathers/near-equaldesignnosexsizedata; juvenile whitishnataldownoradultlikeindistinctlybarredmesoptile, no exactage/iris/flight. Actualv3wholeandindependentadultthroatcropview: throatfeathersbrownunderbill similarupperbreast ratherthanwhitish, targetonlysmallchin/throatbasewhitishpreservedfineblackruffspots; notnewlargewhitebib/bellychange. PaletteexplicitOwlPagessecondary, notindependentprimaryfieldphotocalibration. Youngcurrentgenericlooptexture remainsuncalibratedunchangednotnewfact, noageinvented. New0/reuse2 sourceIDs scientificfalse.",
+      "full_prompt": "Edit #203 Megascops guatemalae trio v3. BOTH ADULTS' small chin/THROAT feather ground directly below bills ONLY: lighten to natural muted WHITISH-GRAY, preserving fine small dark vermiculations and the fine blackish-spotted facial rim. Small localized throatpatch, no enormous white bib, don't erase upperbreast blackshaftstreaks or restorelowerbellycrossbars. Keep yelloweyes/greenbills, duskyfleshbaretoes/hornclaws/tarsalboundaries, near-equaladultsize, scapulars/wingbars andall6branchcontacts. ENTIRE RIGHT ageunknownmesoptileunchanged including unverifiediris/bill/plumage/pose. Sameforest/layout/labels/nominateplaque/scientificpendingfooter. Add small 'v4' nexttitle only, no editingterms, no newage/flight/nest.",
+      "source_ids": [
+        "MGUA-MIKKOLA-2013-P245",
+        "MGUA-OWLPAGES-2020"
+      ],
+      "new_sources": 0,
+      "image_meta": {
+        "bytes": 2638877,
+        "sha256": "b24118f2c96eae69aba79c042f408f6c5199072057e369b5076479389f4bd670",
+        "git_blob": "06d154e46399cad882cae9a215f37f55ec3b03b5",
+        "dimensions": [
+          1536,
+          1024
+        ]
+      },
+      "generation_wait_seconds": 40.718,
+      "review": "#203v4 actualwholeandprioradultthroatcropviewed. Smallgraywhite throatground belowadultbills nowclearer, fine darkruf/facialpatternretained; no giantblankwhitebib/lowerbellybarringregression. Adults yelloweyes/greenbills/duskyfleshtoes/hornclaws/featherboundaries/near-equalsizes andsix naturalfootcontacts maintained. Youngunchangedunverifieddarkeyes/greenbill/ageunknownmesoptile/curltexture notclaimedcorrected. Titlev4/nominateplaque/rolelabels/footer/forestintact. Problembrownthroat→freshOwlPagesexplicitwhitish→localonlyedit→palerthroatactuallyseen. Exactpatchshape/hueguide-secondarynotindependentfieldcalibration. MGUAbook supportsotheridentity/stagefacts, notnewmeasuredwhitepatch. New0/reuse2/PASS_WITH_LIMITATIONS/sciencefalse. Neither source validatesyoungday/flight/iris; sourcefactvsdesignwhiteboundary distinguished.",
+      "status": "PASS_WITH_LIMITATIONS",
+      "archive_commit": "69944ed2f4c069278237cb72ce3505ca5851effc",
+      "verification_exit_code": 0,
+      "ended_at": "2026-11-27T13:48:21.790Z",
+      "commit_sha": "2bc62065f2d7269e522be33dd9219255ef7405a3",
+      "credit_commit": "56a48e4ee07fdd0069cae9658a58642f2ba9033a"
+    },
+    {
+      "run_id": "20261127T1333Z",
+      "batch_id": "20261127T1333Z",
+      "cycle": 5,
+      "target": "201-otus-mantananensis-v10",
+      "started_at": "2026-11-27T13:48:34.054Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T13:48:34.124Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T13:48:39.343Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T13:50:06.111Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T13:50:11.881Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T13:50:18.761Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T13:50:46.957Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T1333Z-cycle5-20261127T1333Z-201-otus-mantananensis-v10.json",
+      "stage": "VERIFIED",
+      "research": "Access2026-11-27 currentOtusmantananensis nominateadults vs juvenileROMBLONIS explicitlymixedreference retained no newtaxon/canonicalcount. Reuse MANT-MIKKOLA-2013-P199-200-MIRROR stablehistoricalID for sameMikkola2013 publication, THIScycleactualuploadedprinted199–200/PDF201–202read notmirror-only: adultyellowiris/grayhornbill/graybrowntoes/DARKHORN CLAWS, narrowbaretarsalzoneabove toes, nosexualsizedata, nominateyoungunknown. Currentv9actualwholeview adultclawlongmaincurveslightgray(blacktips)→targetdarkhornsheathonlyretainclawshape/skin/tarsalzone. Don'tdarkenyoungclaws. Reuse MANT-PHOTOARK-ROMBLONIS-VIDEO-PHC34ETDGS4 PhotoArk/JoelSartore publicationdateunverified https://www.youtube.com/watch?v=Phc34ETDgS4 actualpublicoEmbedmetadatarequested and480x360hqpreviewretrieved/viewed, notfullvideo/timestamp. CaptionjuvenileromblonisSemirara priorverified; currentresponse recordedinrunactualerrorifany; previewbuffroundedhead/darkeye-surround/mottledbrownupperbreast supportscoarseexistingyoungcontextonly, noage/iris/flight/nest/nominatejuvenileevidence. SearchexactURLspeciesreturnedempty, notabsenceproof. No precisefeathermapfrompreview. New0/reuse2 sourceIDs; no newbiology, sciencefalse. Adultdarkclawpalettebook-only. Existingmixedpopulationplaqueandunknownfooterpreserved.",
+      "full_prompt": "Edit #201 Mantanani Scops Owl Otus mantananensis family image v9. BOTH ADULT clawSHEATHS only: change currently palegray longcurves to muted DARK HORN-GRAY/BROWN while retaining dark terminalhooks/smallnaturalhighlights, clawshape/length/fouradultgrips. Keep lightgraybrown bareTOE SKIN and narrowbarezoneabove toes and tarsalfeatherboundaries exactly. CENTER juvenile entirelyunchanged: own paleclaws, closedrestingeyes/head/bill, buffhead/palethroat/mottledbrown-buffupperbreast/formedfoldedwings/tailconcealment/twofootcontacts. Preserve alladultcrown-bodypatterns/yelloweyes/grayhornbills/near-equalsize/forest/branch. Existing mixedpopulation adultnominate/youngromblonis plaque and scientificpending unknownfooter ALLretained. Add small '#201 v10' nexttitle, no editing words, no newage/flight/nest.",
+      "source_ids": [
+        "MANT-MIKKOLA-2013-P199-200-MIRROR",
+        "MANT-PHOTOARK-ROMBLONIS-VIDEO-PHC34ETDGS4"
+      ],
+      "new_sources": 0,
+      "image_meta": {
+        "bytes": 2366523,
+        "sha256": "cdfb6aa53cb5758edecc1517ec29741289af0aae8c1e4b63031aafc4db02a851",
+        "git_blob": "9e4517e3843b46a232b852ab7e13912a8c20c5af",
+        "dimensions": [
+          1536,
+          1024
+        ]
+      },
+      "generation_wait_seconds": 37.123,
+      "review": "#201v10 actualv9/primarypublicpreview/finalwholeviewed. Adultclawsmaincurvesnowdarkhornratherthanpalegray, tipsremainblack, palegraybrowntoes/narrowbarezone/tarsalfeathers/gripsretained. Youngpaleclaws/restingclosedeyes/buffhead/mottledupperchest/formedwings/tailconcealment/twofootgrips unchanged, notvalidatednominateyoung. Adultpatterns/yelloweyes/graybills/near-equaldisplay/title#201v10/forest/mixedpopulationplaque/unknownfooter intact. Problempaleadultclaws→ownbook199darkhorn→adultsheathonly→qualitativedarkeningseen, reflectance/skinclawboundaryunmeasured. CurrentoEmbedactuallyreturned exactjuvenileromblonisSemirara title andPhotoArkauthor, 7282byte480x360previewactuallyviewed; notfullvideo/time/preciseyoungiris orfirstflight. Sourcecaptionidentityandcoarsemottlingonly. New0/reuse2/PASS_WITH_LIMITATIONS/sciencefalse, no thirdpartyimagearchived.",
+      "status": "PASS_WITH_LIMITATIONS",
+      "archive_commit": "fd6cd232966919a8d3a7bea740756e34c3c54fb7",
+      "verification_exit_code": 0,
+      "ended_at": "2026-11-27T13:50:46.927Z",
+      "commit_sha": "5c21082dedb8697d8e1f800efbf5a9d86a1a45cf",
+      "credit_commit": "c86da3594fe1058ec05ab531d866dec941c6c23e"
+    }
+  ],
+  "errors": [
+    "initial JSregex syntax error no sideeffect corrected",
+    "largeledger connectorTransportclosed recoveredimmutable raw",
+    "wrongOwlPages580isOtusmagicus excluded/correct3360",
+    "exactPhotoArksearch empty butoEmbed+previewactualretrieved",
+    "fd9d70d422 old25alreadyarchived"
+  ]
+}

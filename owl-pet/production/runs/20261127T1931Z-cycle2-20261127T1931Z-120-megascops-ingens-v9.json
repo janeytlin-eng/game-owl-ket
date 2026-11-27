@@ -13,11 +13,15 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-27T19:47:08.328Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T19:48:34.304Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T1931Z-cycle2-20261127T1931Z-120-megascops-ingens-v9.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Access2026-11-27 #120 Megascopsingens oldScops/Otusingens, easternAndean/Ecuador scope notwesterncolombianus, no251change. Actualv8/image/researchread. Specificadultunderpartpatternovershoot: densecoarseblackbranchedshaftmarks acrossnearlyallfront, sources fewthinshafts/finevermiculations. Reuse RIS-MIKKOLA-2013-P229 HeimoMikkola2013 seconded uploadedactualprinted229/PDF231 IdentificationandGlennBartleyPeruSeptemberadultphoto/captionread: lightunderpartsfewnarrowshafts/thindarkanddullyellow-whitevermiculations, honeybrowneyes/thinpinkishrim/oliveyellowbill/featheredtarsi-yellowgraytoes-palehornclaws. Female+28g mass notheight. New RIS-OWLPAGES-2020-970 DeaneLewis24Oct2020 https://www.owlpages.com/owls/species.php?s=970 actualDescription/Habitatbodyread: paleunderparts/fewthinshaftstreaks/finevermiculations, shadedepiphytebranchmontaneforest; includesoldcolombianuscallnotadopted, notindependentyoungstudy. New RIS-BIOWEB-INGENS-PUCE QCAZ-PUCE BirdsEcuador institutionalcard undated https://bioweb.bio/aves/taxa/card?lang=en&name=Megascops+ingens&rank=species actualIdentificationread: palerthancolombianus withmoreventralstreaks/crossbars, palerscapularspots. RelativecomparisonNOTlicenseforcoarsewholebellybranchpatternorblankunmarkedbelly. No youngdata/sexratio. Reuse RIS-IKIAM-2022-INGENS-REPO institutionalmetadata DOI10.1080/23766808.2022.2123729 actualtitle/authorsbodyread https://ikiam.researchcommons.org/neotropical-diversity/vol8/iss1/35/ ; additionalFig1asset403, NOnewimagepixelreading. RIS-ORDONEZ-2022-LEAD primaryyoungrecordhistoricalreuseonly, estimated20–30(notknownhatchage)/developedbarredremiges/no observedflight, height110cmvsabstract2.5mconflictretained. Youngnotchangedthiscycle. Designinference thinadultshafts/reduceblackbranchthickness retainfineirregularvermiculations andwarmunderbody; no exactphotocolor orscientificpass. New2/reusebook+institutionalmetadata2directIDs; historicalpapercontextnotfreshfullread.",
   "full_prompt": "Precise-object-edit existing #120 Rufescent Screech Owl v8 trio. BOTH ADULT LOWER BREAST/BELLY markings ONLY: current numerous broad heavy BLACK branching streaks dominate everyfeather. Replace with a FEW much THINNER narrow brown-black shaft-streaks and fine irregular dark/buffish-white vermiculations across a lighter warm tawny-buff ground. Thin irregular wavylines/crossmarks, not uniform herringbone ladders or blank unmarked belly. Keep underparts visibly patterned and warmerthanwhite; upperbreast can be moremottled. Preserve adults' upperparts/wings/tails/scapularmarks, honey-brown irises/subtlepinkeyelidrims/oliveyellowbills, smalltufts/featheredtarsi/yellowgraytoes/palehornclaws, near-equalscale and all grips. CENTER JUVENILE entirelyunchanged including residualwhitedown/darkface/graybill/eggtooth/currentdevelopedbarredwing/feet/pose; no natalwingbudregression. Forest/stump/leaves/support/3rolelabels unchanged. Title v8→v9. Add small footer 'CONCEPT · SCIENTIFIC CALIBRATION PENDING · YOUNG AGE ESTIMATED / FLIGHT UNVERIFIED'. Exact Megascops ingens.",
   "source_ids": [
@@ -27,5 +31,19 @@
     "RIS-IKIAM-2022-INGENS-REPO"
   ],
   "new_sources": 2,
-  "research_ready_at": "2026-11-27T19:47:08.306Z"
+  "research_ready_at": "2026-11-27T19:47:08.306Z",
+  "image_metadata": {
+    "bytes": 2507191,
+    "sha256": "c48d8700f23a7d9b6b4111e01d09a0fe98e3e1194176b517f2d70886e277870b",
+    "gitblob": "5bd08c75ce1c7b19066feef66c29181a1b82db06",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "imagegen_wait_seconds": 45.304,
+  "imagegen_invocations": 1,
+  "editing_wait_seconds": 0,
+  "review_result": "PASS_WITH_LIMITATIONS",
+  "local_image": "production1931nov27/120-megascops-ingens-v9.png"
 }

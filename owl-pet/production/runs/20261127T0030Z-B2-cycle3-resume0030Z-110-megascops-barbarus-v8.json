@@ -8,6 +8,10 @@
     {
       "stage": "STARTED",
       "at": "2026-11-27T00:46:23.004Z"
+    },
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-27T00:49:40.301Z"
     }
   ],
   "errors": [],
@@ -15,5 +19,16 @@
   "unique_species_increment": 0,
   "revision_increment": 1,
   "run_record": "owl-pet/production/runs/20261127T0030Z-B2-cycle3-resume0030Z-110-megascops-barbarus-v8.json",
-  "stage": "STARTED"
+  "stage": "RESEARCH_READY",
+  "full_prompt": "Use case: precise-object-edit. Asset: owl electronic pet species concept plate, version 8.\nINPUT 1 is the EDIT TARGET: the existing Bearded Screech-Owl three-bird plate. INPUT 2 is a SCIENTIFIC TEXTURE REFERENCE ONLY: a real brown-morph juvenile Megascops barbarus photographed by CAYAYA. Do not reproduce the photograph or its watermark. Keep the established polished pet-concept style, composition and environment of INPUT 1.\nONE TARGETED CORRECTION: replace only the central juvenile's artificial coiled, ringlet, curled-wire, spiral and scalloped adult-scale body covering with soft juvenile feathering based on INPUT 2. The juvenile should have a soft matte gray-brown mesoptile surface with diffuse darker transverse bars across the chest and belly, fine open wisps of down sticking out around crown, cheeks and flanks. Use irregular straight or gently bent individual fine fibers, with soft blurred edges: no closed loops, no circular ringlets, no rigid hooks, no repeated rounded overlapping scales. The center belly should read as softly barred down, not miniature adult breast feathers. Keep wings folded, partly hidden in this soft body covering; do not add adult flight-feather fans, spread wings or a newborn body.\nLOCK ALL OTHER CONTENT: both adult male and adult female, exact adult size relation, their yellow irises, greenish bill/cere, beard whiskers, ear tufts, feathered tarsi ending at bright pink bare toes and horn/dark claws. Lock central juvenile yellow eyes, green-gray bill, narrow indistinct eyebrows, absence of visible ear tufts, existing body size, standing pose, toes/claws and solid mossy branch contact. Preserve all three birds, all six feet, oak/pine cloud-forest backdrop, tree hollow as background context only, framing, soft lighting and lettering verbatim including \"Bearded Screech-Owl\", \"(Megascops barbarus)\", \"Adult male\", \"Juvenile — age unknown\", \"Adult female\". No claim of exact age, sex for juvenile, first flight or occupied nest. No new elements. High fidelity targeted plumage-material edit.",
+  "source_ids": [
+    "BSO-CAYAYA-2026-FIELD-ACCOUNT",
+    "MIKKOLA-2013"
+  ],
+  "source_new": 0,
+  "source_reuse": 2,
+  "generation_calls": 1,
+  "research": "Accessed 2026-11-27 UTC. Existing source IDs reused, not new publications. Current Megascops barbarus; historical Scops barbarus and Otus barbarus are mapped to this species, not additional species.\n1. BSO-CAYAYA-2026-FIELD-ACCOUNT: Knut Eisermann / Claudia Avendaño, undated field account, https://cayaya-birding.com/species/Bearded-Screech-Owl.htm . Fresh targeted internet query and full page read; sections/captions lines 26–34 and 46. Highland Guatemala/Chiapas humid pine-oak forest; gray/rufous/brown morphs. Adult ear tufts vary, so retain adults rather than universally shortening them. Freshly retrieved and actually viewed two original photographs from observed page image URLs: https://cayaya-birding.com/species/Bearded-Screech-Owl_juvenile7.jpg (brown juvenile, 885×700), https://cayaya-birding.com/species/Bearded-Screech-Owl_juvenile12.jpg (rufous juveniles, 977×700). Local research-only images, not copied into the repository. Photo 7 shows yellow irises, greenish-gray bill, downy gray-brown head/body and diffuse transverse chest/belly bars, narrow brow; photo 12 corroborates yellow eyes and soft barred down while differing in morph. No dated age, sex, first-flight threshold or occupied nest is documented by these photos. Access upgrade: one existing source family, two newly inspected photo files, zero new publications.\n2. MIKKOLA-2013 (historical alias WHSO-MIKKOLA-2013): Heimo Mikkola, Owls of the World: A Photographic Guide, 2013, uploaded guide0933/owls.pdf, printed p214 / PDF p216 (page index215), text freshly read. Adult 17–18 cm,58–79g; female average mass about9g higher, not a fixed image-height ratio. Adult yellow eyes, greenish bill/cere, feathered tarsi to base of bright pink bare toes; horn claws. Mesoptile has residual down on crown/sides/below, no visible ear tufts and narrow indistinct eyebrows. Does not establish a particular age or flight capacity. The book's exclusively arthropod food wording conflicts with the field account's broader prey statement; no food is drawn and conflict remains unadjudicated.\nObserved v7 issue: central juvenile repeatedly has closed ringlet/loop surfaces and adult-like overlapping breast scales, unlike the actual photos. Design decision/inference: retain existing standing, branch-supported age-unknown juvenile and all adults; use brown-morph photo7 solely to replace juvenile surface with soft matte diffuse barred down/open fibers. Do not transfer rufous morph colours to brown juvenile or infer newborn anatomy. Scientific approval remains false; full-image recheck must decide whether the texture repair actually worked. Research-photo access/selection ~00:46–00:50 UTC; exact stage timestamps recorded separately.",
+  "research_record": "owl-pet/research/species/110-megascops-barbarus-v8.md",
+  "review_record": "owl-pet/research/reviews/110-megascops-barbarus-v8-review.md"
 }

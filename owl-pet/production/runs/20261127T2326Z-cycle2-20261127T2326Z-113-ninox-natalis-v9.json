@@ -21,6 +21,10 @@
     {
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-27T23:45:34.062Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T23:47:45.055Z"
     }
   ],
   "scientifically_verified": false,
@@ -46,5 +50,19 @@
   "initial_review": "Actuallyviewed firstv9: added intendedlabels but newgoldsignature-like scribble belowjuvenileonbranch; rejectartifact, removebeforefinal.",
   "edit_prompt": "Exact #113 Ninox natalis v9 image. REMOVE ONLY the tiny gold/yellow signature-like scribble on/just below branch under the juvenile's right-hand side, above right edge of central 'OLDER JUVENILE · AGE UNKNOWN' label (near x1018,y853 of1536x1024). Reconstruct clean natural darkbrown branch/foliage there. Do NOT remove/alter any legitimate role labels, species title, v9, scientificpendingfooter or uncertainty text. No artist signature, initials, watermark or other newtext. Preserve all threebirds/feathercolours/feet/support/lighting completely. One tiny artifact removal only.",
   "artifact_removal_attempt_1": "Actualviewed: first removal moved/preservedgoldscribble nearx900y883, stillreject; nextlocalizedrectangle removal.",
-  "second_edit_prompt": "Remove ALL tiny gold/yellow handwritten signature/initials/scribbles below the central juvenile on the branch and background. Specifically the small illegible gold marks at x895-940,y870-895 in the 1536x1024 image, directly ABOVE the word UNKNOWN in the central role label, must disappear. Fill that small rectangle with the existing natural dark olive forest background. This is an artifact removal edit, not a signature request. Preserve the entire title, all legitimate white labels, footer, all 3 birds, and branches. NO new gold marks, no watermark, no initials, no signature. Exact image unchanged outside that small rectangle."
+  "second_edit_prompt": "Remove ALL tiny gold/yellow handwritten signature/initials/scribbles below the central juvenile on the branch and background. Specifically the small illegible gold marks at x895-940,y870-895 in the 1536x1024 image, directly ABOVE the word UNKNOWN in the central role label, must disappear. Fill that small rectangle with the existing natural dark olive forest background. This is an artifact removal edit, not a signature request. Preserve the entire title, all legitimate white labels, footer, all 3 birds, and branches. NO new gold marks, no watermark, no initials, no signature. Exact image unchanged outside that small rectangle.",
+  "image_metadata": {
+    "bytes": 2509709,
+    "sha256": "18a681fef90052a193e5ddb5d1469b4e77a5a41f9188289aaf81d5e1e6ced373",
+    "gitblob": "bbb04213abd5f866cc50916bd227e6e91763aed3",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-56839065-f965-4f2a-bea7-cf8490b5ecb4.png",
+  "imagegen_wait_seconds": 34.893,
+  "editing_wait_seconds": 95.372,
+  "imagegen_invocations": 2,
+  "review_result": "NEEDS_REVISION"
 }

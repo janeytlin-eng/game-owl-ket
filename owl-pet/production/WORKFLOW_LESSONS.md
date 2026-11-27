@@ -389,3 +389,7 @@ Applied/reviewed smallwhiteadultthroat perguidep463. ABSA2019primaryinstitution 
 
 ## 2026-11-27 0329Z 122-otus-megalotis-v6
 Adulttoe-onlyneutralgreyedit observed; juvenilefeet/wingaction preserved. Hornpinkclawbase precise calibration remainsopen rather than claiming wholefoot scientificpass. Confounded rescue chronology used onlyforsupportedlaterstageaction. Keep sixcontacts and featheredboundary invariant.
+
+
+## 2026-11-27 0329Z 123-otus-gurneyi-v6
+Adultpalehornclawbase descriptor did not translate sufficiently: proximalareaslighter butmostclawstilldark; NEEDS_REVISION afteractualimagegenedit/review. Futurepromptneeds strongerlocalmaterialcontrast, notvalidatedyet. Historicguidep229misattribution correctedto174 viaactualuploadread, preservingoldrecord. No scientificsuccessclaimed.

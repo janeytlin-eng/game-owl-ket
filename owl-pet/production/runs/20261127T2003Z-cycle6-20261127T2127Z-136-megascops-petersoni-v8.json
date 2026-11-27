@@ -39,9 +39,9 @@
   "source_ids": [
     "CIN-FITZPATRICK-ONEILL-1986",
     "CIN-MIK2013-232",
-    "CIN-ALARCON-SHANEE-2022-NEST"
+    "CIN-ALARCON-SHANEE-2022"
   ],
-  "new_sources": 1,
+  "new_sources": 0,
   "research_ready_at": "2026-11-27T21:37:22.408Z",
   "image_metadata": {
     "bytes": 2711074,
@@ -63,5 +63,13 @@
   "archive_commit": "9388d1c6e65bdbaf8e391cd3deda931eacedfda1",
   "verification_exit_code": 0,
   "ended_at": "2026-11-27T21:39:04.077Z",
-  "commit_sha": "40a189eb7673abf30de5c7f76698283aa6d0b0e6"
+  "commit_sha": "40a189eb7673abf30de5c7f76698283aa6d0b0e6",
+  "credit_commit": "df24b751c78881c94235e3a738acb0beb77b49c5",
+  "original_stage_new_sources": 1,
+  "source_id_alias_correction": {
+    "from": "CIN-ALARCON-SHANEE-2022-NEST",
+    "to": "CIN-ALARCON-SHANEE-2022",
+    "reason": "same publication already indexed; correction after whole-index title crosscheck",
+    "at": "2026-11-27T21:53:48.909Z"
+  }
 }

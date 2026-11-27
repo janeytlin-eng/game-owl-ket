@@ -1,0 +1,564 @@
+{
+  "run_id": "20261127T1529Z",
+  "baseline": "3d2fe15d08ec154ddf58ea0aad3417573c17837a",
+  "checked_head": "ac9cbaf9003eb4cfe9a5127c4434d1aec5b8ac6c",
+  "at": "2026-11-27T15:55:57.164Z",
+  "completed_this_invocation": 6,
+  "new_species": 0,
+  "revised_species": 6,
+  "counts": {
+    "unique_species": 207,
+    "total": 251,
+    "versions": 1383,
+    "numbered_ids": 219
+  },
+  "new_publications": 0,
+  "newly_verified_primary_from_existing_lead": 1,
+  "trusted_existing_source_ids_reused": 11,
+  "source_id_references_total": 12,
+  "source_families_same_book_merged": 8,
+  "new_unverified_original_leads": 1,
+  "scientific_pass_increment": 0,
+  "user_confirmation_increment": 0,
+  "cycles": [
+    {
+      "run_id": "20261127T1529Z-215-otus-angelinae-v5",
+      "batch_id": "20261127T1429Z",
+      "cycle": 6,
+      "target": "215-otus-angelinae-v5",
+      "action": "REVISION",
+      "started_at": "2026-11-27T15:31:36.807Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T15:31:36.825Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T15:33:23.173Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T15:35:11.987Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T15:36:34.521Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T15:36:41.502Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T15:36:47.406Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T15:37:17.362Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T1429Z-cycle6-20261127T1529Z-215-otus-angelinae-v5.json",
+      "stage": "VERIFIED",
+      "research": "Revision215v4→v5, unique+0. Current Otus angelinae / old Pisorhina angelinae, selected MtGede/Pangrango WestJava observational fledgling, NOT all juvenile stages. Existing stable OANG-BECKING-1994-LEAD upgraded from unread lead to actuallyread primary: Jan-Hendrik Becking1994 On the biology and voice of the Javan Scops Owl Otus angelinae, BBOC114(4):211–224, https://www.biodiversitylibrary.org/part/76999 ; working original article mirror https://archive.org/download/biostor-112135/biostor-112135.pdf ; discovered correct BioStor112135 https://biostor.org/reference/112135 . Access2026-11-27; actual web original pp211–214 body read, local14pagePDF downloaded4843133bytes, Plate2 unnumbered between212/213 actually rendered/viewed. p213 live2July1990 fledglings awkward clamber/flutter to branches, fluffy appearance, whitish supercilia/russetface, no detected tufts, whitish underparts sparsely rufous transverse down bands, hardly adult verticalshaftpattern/lowerabdomennearlyplain, tailveryshortnotbeyondwings, featheredtarsidowntotoejoint/paleyellowflesh toes/bill; torchlight orange iris/RBwidepupil not calibrateddaylight colour. Plate2 larger andsmaller samebrood at1600mJuly1990 grayscale stronglycoarse, no microfeather measurement/dayage. Choose observed pale-underparts stage, supportedrest not disturbed escape behaviour. Reused OANG-MIKKOLA-2013-P182 actual uploadedprinted182/PDF184 reread: generalized juvenile darkredbrown finecrowncrossbars/broaderbackbars. Source conflict/possible stage or variation unresolved, do NOT silently overwrite old statement/all juveniles; new v5 explicitly changed stagedesign. Adult identity, sexsize unknown/near-equal display retained. v4 actual viewed still artificial crown lattice; reconstruct entire young sourcebounded field using actual Plate2 reference, not another tinylineedit. Source newpublication0 (alreadylead), newlyverifiedprimary1/accessupgrade1, reusedbook1. BHL direct403/timeout, guessedwrongBioStor111918403, incorrectsinglevolIAidentifier503/empty; correctarticle mirrorworked. Earlier borrowed25day incubation/fledging remains unproven estimate, no exactday label.",
+      "full_prompt": "Use case precise-object-edit. Input1 is EDIT TARGET #215 Javan Scops Owl full plate, Input2 is actual 1994 monochrome primary Plate2 REFERENCE of the same species' fledglings, not a texture overlay. Preserve BOTH ADULTS exactly, their diagnostic white eyebrows/inner tuftwebs/scapular line/herringbone bodies, near-equal adult display, all forest/branch/feet layout and title/footer. Replace ONLY RIGHT YOUNG BIRD completely at its existing position with the source-supported FLUFFY FLEDGLING of Plate2 and p213, an age-unknown stage: compact rounded head without visible ear tufts, soft dark russet-brown face mask and broad whitish eyebrow streaks, loose natural brown head/back plumage with subdued dark crown cross-dashes (never a continuous raised coil lattice), WHITISH/cream underparts sparsely crossed on chest by rufous-brown bands of downy feathers, lower abdomen nearly unmarked pale cream. No adult dark vertical chestshaft pattern. Soft juvenile wing compactly folded at flank with developing feather structure, not a long adult wing; tail veryshort not extending beyond wings. Feathered tarsi to toe joint; pale yellowishflesh toes/small bill. Eye may remain warm orangebrown provisional under uncalibrated source torchlight; preserve IRIS UNVERIFIED plaque. Both feet visibly clasp existing supportingbranch with low centergravity; natural restful headturn a little to viewerleft, no flight/escape/clambering pose or inferred dayage. Match existing warm tactile natural-history render; feather edges diffuse fine and irregular, not outlined curls, scales or wire. Change right role label exactly to 'AGE-UNKNOWN FLEDGLING'. Keep only3 birds, all adults/scene/footer unchanged. This is a documented new stage choice, not proof all juveniles have this colour, scientificcalibrationpending. Full1536x1024 landscape.",
+      "source_ids": [
+        "OANG-BECKING-1994-LEAD",
+        "OANG-MIKKOLA-2013-P182"
+      ],
+      "new_sources": 0,
+      "research_ready_at": "2026-11-27T15:33:23.147Z",
+      "initial_metadata": {
+        "bytes": 2611954,
+        "sha256": "58fee5525725ba9775d1824ebbdfa93e94444430c7d3cf84829279cf07230f33",
+        "gitblob": "c83b7cbf0d28ba81d308599d9492d802228e01ce",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "initial_wait_seconds": 46.288,
+      "initial_review": "Broad stage phenotype paleunderparts/whitebrows established, crown/palebelly still coiledsurface, followup needed.",
+      "edit_prompt": "Precise follow-up #215. Primary Plate2-backed whitish-bellied FLEDGLING stage is now correct in broadcolour. Change ONLY juvenile soft-feather MATERIAL across its crown and pale belly: current image still has repeated raised coiled/hairpin threads. Paint these areas as a diffuse feathery surface made of tiny straight loose wisps with irregular ends, no drawn individual loops, no closed C/U/V outlines, no connected lattice. Keep juvenile browncrown/russetface/whiteeyebrows/sparse rufous chest bands/nearlyplaincream lowerbelly, irisunverified, head/bodypose, compactformedwing and both feet exactly unchanged. No colour shift, no erasedfeather baldscalp, no whitehatchling, no additionaltufts. Reference2 primary photo is coarse monochrome and does not justify microstructure; this is materialstyle correction not new biology. Preserve BOTH ADULTS and all text/forest/branch unchanged. Full1536x1024.",
+      "image_metadata": {
+        "bytes": 2595253,
+        "sha256": "bdbc14b51c832d114dc7a086f6f72a09d95a4003251167926a37b1a9e08b21ef",
+        "gitblob": "132e3260c4b7ecbbc0d70c961f533cb13600866d",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "imagegen_wait_seconds": 46.288,
+      "editing_wait_seconds": 46.363,
+      "imagegen_invocations": 2,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "local_image": "production1529nov27/215-otus-angelinae-v5.png",
+      "review": "Initial and follow-up full originals actually viewed. New specific observed fledgling stage: whitishbrow/russetface, paler largely plain cream lowerabdomen/sparse rufous chest bands, no visible longtufts, formed compact folded wing/short concealedtail and two supportedfeet. Second material edit removes prominent crown coil lattice into fine short wisps; pale belly filament loops reduced. Fine strand scale still artistic/coarsemonochrome reference cannot validate it. Both adults/labels and environment retained qualitatively with small rerender drift, not pixelidentity. PWL/scientificfalse; improved material locally and source-specific stagechange is explicit, not alljuvenile claim. General book darkjuvenile description retained in record; exact stage variation/age/iris/flight remains unresolved. Firstflight age estimated from other species in Becking not adopted.",
+      "reviewed_at": "2026-11-27T15:36:41.484Z",
+      "archived_at": "2026-11-27T15:36:47.384Z",
+      "archive_commit": "109c3e0848337312077ca93ee3208cc025e69240",
+      "verification_exit_code": 0,
+      "ended_at": "2026-11-27T15:37:17.325Z",
+      "commit_sha": "9c2414b867c91252b6136757cabae09fe249bf6a",
+      "credit_commit": "84bfaaa00eead3ecb3a747a8bde022a6a8d26f59",
+      "actual_imagegen_tool_wall_seconds": [
+        41.1,
+        40.9
+      ],
+      "stage_elapsed_seconds": {
+        "start_to_research": 106.348,
+        "research_to_image_persisted": 191.348,
+        "image_to_reviewed": 6.981,
+        "review_to_archived": 5.904,
+        "archive_to_verified": 29.956
+      }
+    },
+    {
+      "run_id": "20261127T1529Z-130-megascops-koepckeae-v13",
+      "batch_id": "20261127T1529Z",
+      "cycle": 1,
+      "target": "130-megascops-koepckeae-v13",
+      "action": "REVISION",
+      "started_at": "2026-11-27T15:37:42.795Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T15:37:42.812Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T15:38:09.523Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T15:39:33.886Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T15:41:02.755Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T15:41:18.641Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T15:41:23.867Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T15:41:29.871Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T15:41:49.298Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T1529Z-cycle1-20261127T1529Z-130-megascops-koepckeae-v13.json",
+      "stage": "VERIFIED",
+      "research": "Megascops koepckeae historicalOtus, canonical+0. Reused KOEP-ALARCON-2023: IbethP.Alarcon etal2023 Reproductive events of birds fromSouthernEcuador, NeotropicalBiodiversity9:93–114, DOI10.1080/23766808.2023.2237229. https://biologia.uazuay.edu.ec/sites/biologia.uazuay.edu.ec/files/public/ReproductiveeventsofbirdsfromSouthernEcuador.pdf . Fresh targetedsearch+originalwebopen400tooLarge34951163; actual cached original printed104/PDF13 body reread and Fig1cphoto printed95/PDF4 isolatedreference actuallyviewed. TwoLoja2131m fledglings23Apr2019/parentalcare/Podocarpus3–4m: graywhite barrednessoptiles, brownchest/blackdisc edge/whitebrows/yelloweyes. Onecohort, exactage/sex/flight/subspecies unknown. Do notcopyfrog oradjacentgnateatercupnest. Reused KOEP-MIK2013-222 sameuploadedguide actualprinted222/PDF224 read: adultssexsizeunknown, pale-yellow brown-speckledtarsalfeathers/grey-brownbaretoes/darkhornclaws/bluegreenhornbill; notadultbrowonjuvenile. Currentv12 actuallyviewed: lowerbelly finecurls remain despite local material edits; change entire juvenile body orientation to upright slightsideangle like fieldphoto to break repeated pixeltemplate, restore simple fine transverse barred surface from primary. Restingbothfeetnoinferredmotion. Existingadults/size/palette preserved; grayjuvenileundercoat not whitehatchling. This is new wholejuvenile reconstruction strategy applied, not yet validated; not repeat identicallocalbellyprompt. New0/reuse2 IDs; no newbiology or sciencepass.",
+      "full_prompt": "Use case precise-object-edit. Image1 is existing #130 trio EDIT TARGET. Image2 is real same-species fledgling biological reference, NOT a copied photo object. Preserve BOTH ADULTS and forest/branch/sex role labels/footer. Reconstruct ENTIRE CENTER AGEUNKNOWN FLEDGLING from reference with a NEW NATURAL upright three-quarter body, chest facing slightly toward viewerRIGHT, small round head mostly upright instead of deep sideways tilt. Both feet clasp same supporting branch under its centre of mass. No frog/prey. Grey with fine diffuse grey-white TRANSVERSE PIGMENT BARS across neck/chest/belly, slight warm brown chest wash, compactformed folded wing with sparse narrow bars ending above feet, tail shortconcealed. Dark cheek edge/white eyebrow streaks/yellow eyes/small bluegreyhornbill, shortcrown feathers with no adult longtufts. Critically use dense fine close-fitting juvenile feather surface as primaryphoto; colour bands are lowcontrast irregular small transverse marks across the surface. Do NOT render separate highlighted U/C loops, curly hair, scales, rows of raised feather outlines or mesh. Surface matte soft with natural faint unevenness, no oversharpening; reference phenotype rather than previous young's texture. Keep moderate residual soft feathering but not whitehatchling down or long filamentpelt. Adults allpatterns/feet/near-equal display unchanged. Preserve supportive branch and complete1536x1024, update title version only to v13. Exact-age/flight/chronologyunverified and scientificpending footer retained. Whole-young reconstruction is a design rendition, not scientificpass.",
+      "source_ids": [
+        "KOEP-ALARCON-2023",
+        "KOEP-MIK2013-222"
+      ],
+      "new_sources": 0,
+      "research_ready_at": "2026-11-27T15:38:09.497Z",
+      "initial_metadata": {
+        "bytes": 2463307,
+        "sha256": "5c47dadc673e75f24208b2cb5bc49b507c1c86c8765b6ec6c7026e3d9b47f7a3",
+        "gitblob": "8ef7979ac7bec5cf46d96ebd55350f7b851a25b6",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "initial_wait_seconds": 50.776,
+      "initial_review": "Whole-young pose changed, Uoutline material remains and wing acquired some pale scales; no pass. Secondmaterialedit necessary.",
+      "edit_prompt": "Follow-up #130. Whole juvenile body now more upright but repeated bright U-shapes remain on crown, breast, belly and wing. Replace ONLY the surface of center young with soft matte grey/brown plumage of tiny STRAIGHT faint wisps with uneven ends; no C/U/V/hairpin edges and no coiled outlines of feathers. Make its chest/barredbody colour bands a diffuse subtle brown and palegrey transverse pattern underneath fine wisps, following actual reference not sculpted coils. Simpler low-frequency colour field, much lower small-detail contrast. Preserve exact new body/feet shape, whitebrows/blackdisc/yellowiris/bluegreybill/compactformedwing shape/concealedtail, both adults and all text including v13. Not bald/not whitehatchling/not extendedflyfeathers. Complete naturalistic1536x1024.",
+      "rejected_edit_metadata": {
+        "bytes": 2397400,
+        "sha256": "1296ad764ab21f1ecedcce139feb3294a407de50e628a2fb08888859a3352aae",
+        "gitblob": "b326592b12ef05ed60cacd123819c61034eec0b3",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "edit_review": "U/V loops persist, barredpigment contrast weakened; select initialnewv13 withclearerprimary-supportedbars, bothNEEDS_REVISION.",
+      "image_metadata": {
+        "bytes": 2463307,
+        "sha256": "5c47dadc673e75f24208b2cb5bc49b507c1c86c8765b6ec6c7026e3d9b47f7a3",
+        "gitblob": "8ef7979ac7bec5cf46d96ebd55350f7b851a25b6",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "imagegen_wait_seconds": 50.776,
+      "editing_wait_seconds": 42.944,
+      "imagegen_invocations": 2,
+      "review_result": "NEEDS_REVISION",
+      "local_image": "production1529nov27/130-megascops-koepckeae-v13.png",
+      "review": "Bothactual full initial and followup viewed. Wholejuvenile reconstruction straightened head and changed bodyorientation/support, retains primarywhitebrows/yelloweye/blackdisc/bluegreybill and moreevidentcompactformedwing, adults/tarsi/feet/text remain. Initial retained finecrossbars but strongbrightUloops persist and smallwing paleoutlinedscale rows. Followup lowerededgecontrast but weakened primarybarpattern and stilllooped. Select initialv13 clearerbarphenotype, rejectededit preserved separately. NEEDS_REVISION/scientificfalse; do not assert newmethod validated. Exactage/flight/feathermicrogeometry unknown, no prey/nest inferred. Further work requires material strategy distinct from repeatedconditionalnegativeprompts; 215successfullocalmaterialchange not universal.",
+      "reviewed_at": "2026-11-27T15:41:23.825Z",
+      "archived_at": "2026-11-27T15:41:29.848Z",
+      "archive_commit": "4cd0fb05a21a1169de8833e7d7ceac0db8d2e1be",
+      "verification_exit_code": 0,
+      "ended_at": "2026-11-27T15:41:49.274Z",
+      "commit_sha": "829edd93a7fa6a696ee245f6fd840893d14a8d46",
+      "credit_commit": "f68a13b1e918a3d5eea75a99281ed5eaf6fa2f39",
+      "actual_imagegen_tool_wall_seconds": [
+        44.8,
+        36.7
+      ],
+      "stage_elapsed_seconds": {
+        "start_to_research": 26.711,
+        "research_to_image_persisted": 189.118,
+        "image_to_reviewed": 5.226,
+        "review_to_archived": 6.004,
+        "archive_to_verified": 19.427
+      }
+    },
+    {
+      "run_id": "20261127T1529Z-134-megascops-sanctaecatarinae-v12",
+      "batch_id": "20261127T1529Z",
+      "cycle": 2,
+      "target": "134-megascops-sanctaecatarinae-v12",
+      "action": "REVISION",
+      "started_at": "2026-11-27T15:42:02.350Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T15:42:02.373Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T15:42:41.867Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T15:44:12.287Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T15:44:18.156Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T15:44:23.807Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T15:44:48.052Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T1529Z-cycle2-20261127T1529Z-134-megascops-sanctaecatarinae-v12.json",
+      "stage": "VERIFIED",
+      "research": "Revision134v11→v12, notnewtaxon; Megascops sanctaecatarinae oldScops sanctae-catarinae/Otus. Reused LTSC-KACHIMARECK-2014-WA1527488 JoseKachimareck livephoto8Oct2014 CuritibaPR/published25Nov2014 https://www.wikiaves.com.br/1527488 currenttargetedsearch; actual501661byteoriginal https://s3.amazonaws.com/media.wikiaves.com.br/images/7251/1527488g_03f2f513780890f16deffebbc0e3b935.jpg downloadedandviewed: RIGHTjuvenile compactrounded grayfinegrain/faintcrossbars, darkeye/narrowpalefeatherorbit/smallpalebrow, greenhornbill; no age/wingsfeet/tailproof. Reused LTSC-MENQ-BICHINSKI-2018 WillianMenq Feb2018 https://avesderapinabrasil.com/megascops_sanctaecatarinae.htm actualfreshbody21–29 read: individualiris variesyellowtobrown, sexmassoverlap155–194male/174–211female notheightmetric, tarsitotoebase, hollowtree/woodpecker cavities inAraucariaforest. Reused MIKKOLA-2013 uploadedprinted239/PDF241 actualread adultsbushytuftswithoutlongtips, greenishgraybill/lightgraybrowntoes/darkhornclaws, youngunknown. v11actualview exaggeratedyounglatticerows pluslongadulttufttips. RebuildWHOLETRIO instead of sameoldyoungconditionaltextureedit, adult-onlySTYLE reference130crop(nojuvenile) plus actual134youngphotoonlyrightbird. Species-specificadultpattern/irisvariables explicit, notkoepckeaebiologytransfer. Stylizedcavityyoungheadchest supportedbehindlip, invisiblewingsfeet/tail notinvented. Near-equaladultbodydisplay notassertionsexratio; noexactnestreconstruction. New0/reuse3 IDs. Newstrategy mustactualreview, no impliedsuccess.",
+      "full_prompt": "Use case stylized-concept / scientific-educational concept only. Create NEW v12 complete three-bird plate #134 LONG-TUFTED SCREECH-OWL, scientific name Megascops sanctaecatarinae. Input1 adult-only crop is STYLE ONLY, not species phenotype. Input2 is primary same-species reference: use ONLY RIGHT GRAY JUVENILE, not left adult, insect, roof or watermarks. Match warm finely detailed tactile natural-history electronic-pet style, landscape1536x1024. Left ADULT MALE and right ADULT FEMALE perched on separate broad natural branch portions, near-equal body display at same scale; both brownmorphs with ochre-brown almost unmarked faces/dark lateral ruff, brown ochre upperparts with coarse dark shaft streaks expanding into triangular side marks, black-edged pale shoulder spots, pale underparts with coarse dark branched streaks. Bushy raised ear tufts with SHORT tips, no long needle streamers. Male yellow iris and female brown iris are INDIVIDUAL VARIATION, not a sexcolour rule. Greenishgrey bills/ceres; feathered tarsi to lightgreybrown bare toe bases, darkhorn claws gripping branches. Center young visible head and chest behind broad natural hollow-tree lip, body supported inside cavity; no feet/wings/tail shown. Young round graybrown head, no longtufts, dark eyes edged by narrow palegray orbital FEATHERS and tiny palegray brows, small muted greenishgray horn bill gently open, grayfineplumage with faint irregular transverse brown bars on neck/chest. Juvenile surface close fine MATTE GRAIN with no sharply outlined individual feather cells: do not create raised loops, U/C-shaped meshes, beads, scalloped scales, fuzzy hair tangles. Allow different fine juvenile material from adult coarse feathers; keep plumage visible not bald smoothplastic. Araucaria/riparian humid woodland softly blurred behind trunk, natural texture not reconstructed exactnest, no eggs/prey/roof/nestlining. Refined minimal title and readable role labels 'ADULT MALE', 'ADULT FEMALE', 'AGE-UNKNOWN YOUNG'; footer 'CONCEPT • SCIENTIFIC CALIBRATION PENDING', subnote 'IRIS VARIATION IS NOT A SEX MARKER'. No borrowed exactage/flight/sexratio assertions, exactly3birds and fourvisibleadultfeet.",
+      "source_ids": [
+        "LTSC-KACHIMARECK-2014-WA1527488",
+        "LTSC-MENQ-BICHINSKI-2018",
+        "MIKKOLA-2013"
+      ],
+      "new_sources": 0,
+      "research_ready_at": "2026-11-27T15:42:41.844Z",
+      "image_metadata": {
+        "bytes": 3334856,
+        "sha256": "fb1889e2808b156c9252227b9887764f213f3905a0a43444db3a8811593fdca3",
+        "gitblob": "1046a72ba9726700d085e21d6cb7105a330f4e22",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "imagegen_wait_seconds": 54.728,
+      "editing_wait_seconds": 0,
+      "imagegen_invocations": 1,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "local_image": "production1529nov27/134-megascops-sanctaecatarinae-v12.png",
+      "review": "Actual complete newtrio original viewed. Wholetrio fromadult-onlystyle+realjuvenile reference yields substantially finer granular shortfeather young surface, no continuous raisedwirelattice or adulttufts; darkeye/featheryorbit/smallpalebrows/greenhornopenbill/faintbrowncrossbands realized. Young whitefeatherface distribution remains stylized and moreconspicuous than photo, microgeometry notcalibrated. Juvenile wings/feet/tail concealed behindlip, body support plausible; cavity is design, notphoto-specificnest. Fouradultfeet stronggrips, toebasesfeathered/lightgrey-browntoes/darkclaws, individualyellowvsbrowneyes explicitnotsexmarker, no fixedsexheight assertion. Adultbushyshorttips improved relativev11 needlepoints; adultpattern coarsegenreference lacksregion-specificcalibration. PWL/sciencefalse; newwholeplate+adult-onlystyle strategy visually effective once, notuniversalvalidatedrule; oldoriginals retained.",
+      "reviewed_at": "2026-11-27T15:44:18.130Z",
+      "archived_at": "2026-11-27T15:44:23.786Z",
+      "archive_commit": "9e4aa16b6c855402a975b5b1a27ae498d79bc493",
+      "verification_exit_code": 0,
+      "ended_at": "2026-11-27T15:44:48.025Z",
+      "commit_sha": "3ff5e5b15a6b4cb026773ee95f69128680858f62",
+      "credit_commit": "18bf75e1e852631d5ca4462bbdda794140f058c1",
+      "actual_imagegen_tool_wall_seconds": [
+        48.3
+      ],
+      "stage_elapsed_seconds": {
+        "start_to_research": 39.494,
+        "research_to_image_persisted": 90.42,
+        "image_to_reviewed": 5.869,
+        "review_to_archived": 5.651,
+        "archive_to_verified": 24.245
+      }
+    },
+    {
+      "run_id": "20261127T1529Z-221-ninox-meeki-v4",
+      "batch_id": "20261127T1529Z",
+      "cycle": 3,
+      "target": "221-ninox-meeki-v4",
+      "action": "REVISION",
+      "started_at": "2026-11-27T15:45:19.370Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T15:45:19.387Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T15:46:17.103Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T15:47:40.314Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T15:47:45.207Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T15:47:49.913Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T15:48:37.839Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T1529Z-cycle3-20261127T1529Z-221-ninox-meeki-v4.json",
+      "stage": "VERIFIED",
+      "research": "Ninox meeki originalscientificnameunchanged, monotypicManus currentrepository, unique+0. Reuse NMEE-MIKKOLA-2013-P496, HeimoMikkola2013 uploadedprinted496/PDF498 wholetextfreshread: juvenilenearlywhitethroat/plainbrownbreast/heavierwhitecovertbars/narrowerlowerstreaks; no age/chronology/locomotion or primaryfinefeathergeometry. Existingcompactwing retained, not inferred natalstage. Adultmaleplainrufouscap vs femalefinemarks noted but priorrecorddeclined changing adultcrownwithoutprimary so leave adults. Sexdirectionreportedfemalesmaller withoutmeasurements notheightproof. Reuse NMEE-ITIS-555488 institutiontaxonomytaxonfields freshlyopened; nameonly. Fresh activequery found originaldescription Rothschild&Hartert1914 BBOC33p105 via CBDNinox index https://www.biologicaldiversity.org/campaigns/global_owl_project/descriptions/Ninox.html ; original PDFclick403 https://www.biologicaldiversity.org/campaigns/global_owl_project/descriptions/Ninox/Ninox%20meeki%20%28Rothschild%20%26%20Hartert%29%201914%2C%20Bulletin%20of%20the%20British%20Ornithologists%27%20Club%2C%2033%2C%20pages%20.pdf . Unread NMEE-ORIGINAL-1914-LEAD metadataonly, not designauthority. OwlPages DeaneLewis2020page originalcitationbody also read, no young morphology; notindependentdevelopment. Full v3 viewed: young crown/chest loopedfinefeatherunits; scopevisualmaterial refinement retaining allstagecolour/whitecovertpattern/position rather than repeatedbiologyclaim. Supported sleepingpose artistic, exacteyeunknownhidden; no newnest/flight. Newverified0/reused2, unverifiedoriginallead1; scientificfalse.",
+      "full_prompt": "Use case precise-object-edit. Edit #221 Manus Boobook Ninox meeki v3 existing full trio. Preserve BOTH ADULTS completely and all scene/branch/text. Change ONLY right ageunknown juvenile's surface on head and plain brown breast: remove repeated highlighted curved hairpin/U featherunits and make fine natural softly overlapping brown juvenile feathers with short straight loose wisps/irregular ends and diffuse soft edges. Crown brown, upperbreast PLAIN BROWN, keep nearlywhite throat distinct, lowerbuffbelly narrowrustystreaks unchanged. Do NOT erase or weaken the source-supported heavy creamywhite bars on the small folded WING COVERTS; wing shape/length, contour/hidden tail unchanged, no adult longprimaries. Keep sleeping closedeyes/downwardhead with naturalbodynecksupport, small provisional slatehornbill, both yellowish toes/grips on samebranch. No new whitehead/downball, no changingcolour/age, noadultcrownpattern changes. All titles/labels/scientificpendingfooter and sixfoot contacts unchanged. Full1536x1024. Fine feather microstructure is artistic not new scientific evidence.",
+      "source_ids": [
+        "NMEE-MIKKOLA-2013-P496",
+        "NMEE-ITIS-555488"
+      ],
+      "new_sources": 0,
+      "research_ready_at": "2026-11-27T15:46:17.076Z",
+      "image_metadata": {
+        "bytes": 2594856,
+        "sha256": "cd7d1063a95f91c11b14fe32756c03aa0280ebc399e4d9bb12609622613423dc",
+        "gitblob": "0d55e4fa8b1affa35b236cf1d90cec9a21084ec4",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "imagegen_wait_seconds": 44.688,
+      "editing_wait_seconds": 0,
+      "imagegen_invocations": 1,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "local_image": "production1529nov27/221-ninox-meeki-v4.png",
+      "review": "Actual final full image viewed: juvenile crown/brownupperbreast now finer short edged feathers, raised curledloops reduced, white throat and heavycreamwhite wingcovertbars preserved. Narrow rusty lowerstreaks, compactformedwing/hidden tail/sleepingneck and bothfootgrips stable. Adults and originalsexdisplay/eyes/bills/crownpatterns unchanged qualitatively, allrolelabels/footer visible. Localmaterial improvement PWL/sciencefalse; noprimaryfinefeathergeometry, age/iris/flight/nest stillunknown; not a developmental finding. Sourceprimary1914 accessfailure retained, noadultcrowncorrection inferred.",
+      "reviewed_at": "2026-11-27T15:47:45.184Z",
+      "archived_at": "2026-11-27T15:47:49.897Z",
+      "archive_commit": "83904acc1df24248c604430c85e0f9648f97168d",
+      "verification_exit_code": 0,
+      "ended_at": "2026-11-27T15:48:37.807Z",
+      "commit_sha": "3eb247cd38c0269d552b2d1c78c4086c9f1f06ca",
+      "credit_commit": "78d41218e14b7106f6e5ec2e6aa4394a17a502bf",
+      "actual_imagegen_tool_wall_seconds": [
+        38.8
+      ],
+      "stage_elapsed_seconds": {
+        "start_to_research": 57.716,
+        "research_to_image_persisted": 83.211,
+        "image_to_reviewed": 4.893,
+        "review_to_archived": 4.706,
+        "archive_to_verified": 47.926
+      }
+    },
+    {
+      "run_id": "20261127T1529Z-222-ninox-sumbaensis-v3",
+      "batch_id": "20261127T1529Z",
+      "cycle": 4,
+      "target": "222-ninox-sumbaensis-v3",
+      "action": "REVISION",
+      "started_at": "2026-11-27T15:48:49.147Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T15:48:49.181Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T15:48:54.709Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T15:50:20.369Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T15:50:25.714Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T15:50:31.443Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T15:51:03.485Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T1529Z-cycle4-20261127T1529Z-222-ninox-sumbaensis-v3.json",
+      "stage": "VERIFIED",
+      "research": "Ninox sumbaensis (sameoriginalname2002, olderEnglishLittleSumbaHawkOwl vs currentLeastBoobook), NOT N.rudolfi. Reuse NSUM-OLSEN-TROST-MYERS-2009-P10-11: JerryOlsen/SusanTrost/SusanD.Myers2009 Owls ontheIsland ofSumba, AustralianFieldOrnithology26:2–14, https://afo.birdlife.org.au/afo/index.php/afo/article/viewFile/505/489 . Fresh species-specific query and ORIGINAL pp10–11 lines226–246 actuallyread2026-11-27: 24Dec2001 nearLewa49km, fledgedyoung more rufous than adults/headwinding whilewatchinginsects/churrbegging, familymovedindependently. Does notassertyounghunting or assignexactage/flightthreshold. Previouspp9–10sexinference belongsrudolfi, excluded. Reuse NSUM-MIKKOLA-2013-P493 shareduploadedguide actualprinted493/PDF495 freshlyread: youngpalerreddish/noVventralvermiculation, adultsexedmeasurementsabsent. Near-equal adultdisplay retained; bill/tailcount conflicts priorv1notresolved. Actual v2whole viewed: youngcrown/body repetitivepaleoutlinedcurls overplainrufous, revise onlymaterial, retain plainunbarredventrum/headwinding-inspired tiltheld naturalneck, existinginsects depictviewingnothunting. Olderfledgedformedcompactwingretained, no natalstageconversion. New0/reuse2; preciseyoungiris/bill/toeage/chronology/nestunknown. Finefeathertexture artisticnotbiologicaldiscovery. Currentunknownstageboundaries remain. Guard blocked starting thiscycle before own221readbackcredit; completedverificationthenstart, notexternalconcurrencyclaim.",
+      "full_prompt": "Use case precise-object-edit. Edit full #222 Least Boobook Ninox sumbaensis v2 plate. Preserve both adults and their gray-barredcaps/yelloweyes/finelymarked paleventrum/whitebrows/shoulders/feet and exact adultsize display. On RIGHT ageunknown FLEDGED young only, refine feather material of its crown/face/breast/belly by replacing repeated pale outlined curls/hairpin loops with fine loose short reddishbrown featherwisps, diffuse edges and irregular overlapping surface. Keep plain paler reddish-rufous juvenile underparts, absolutely NO adult V-shaped chevrons or transversebars or darkshaftspots; no new white throat/whitebelly patches. Preserve existing supported head-winding-inspired upwardsideways observation pose/eye direction toward tinyinsects and allbodypositions/neckconnection. Bothfeet gripbranch underbody; retain compact formed folded wing/hiddenshorttail, bill/eyes/feet colours provisionalunchanged. No flight/huntingpose/no exactage. Preserve all titles/rolelabels/sciencependingfooter and forest1536x1024. This is material rendering correction, not proof of young microfeather chronology.",
+      "source_ids": [
+        "NSUM-OLSEN-TROST-MYERS-2009-P10-11",
+        "NSUM-MIKKOLA-2013-P493"
+      ],
+      "new_sources": 0,
+      "research_ready_at": "2026-11-27T15:48:54.686Z",
+      "image_metadata": {
+        "bytes": 2623586,
+        "sha256": "ba29a83006d8c99de19481f0b5740e66e47be807839cc15cd5bc9dd49aba03f2",
+        "gitblob": "032420d3db4b23e020653b7f94b10137b3e96b7e",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "imagegen_wait_seconds": 47.37,
+      "editing_wait_seconds": 0,
+      "imagegen_invocations": 1,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "local_image": "production1529nov27/222-ninox-sumbaensis-v3.png",
+      "review": "Actual final fulloriginal viewed. Youngbrownrufous crown and body repeatedbright curls reduced, softer finewisps; plain reddishunmarkedventrum preserved, noVbars/whitepatches. Supported headwinding-inspired tiltedhead/insectwatching eyeline remains, not depictionofhunting; compactformedwing/hidden tail/pairedtoegrips intact. Adultbarredcaps/finechevrons/whitebrows/eyes/near-equaldisplay and originaltitle/roles/footer stable. Somefinecurved strands persist, texture stillartistic/unmeasured; localPWL/scientificfalse, exactage/billiris/toe/growth/flight/nestunknown. Must not transfer rudolfi size statements tosumbaensis.",
+      "reviewed_at": "2026-11-27T15:50:25.689Z",
+      "archived_at": "2026-11-27T15:50:31.425Z",
+      "archive_commit": "a4352c802b06549a1077a69e537ab0bac685c63b",
+      "verification_exit_code": 0,
+      "ended_at": "2026-11-27T15:51:03.456Z",
+      "commit_sha": "48a69febced2feea09f823160918cf5f5476cf5d",
+      "credit_commit": "8f6004966aeccb661c6ce6a46310795dd9b38a47",
+      "actual_imagegen_tool_wall_seconds": [
+        40.6
+      ],
+      "stage_elapsed_seconds": {
+        "start_to_research": 5.528,
+        "research_to_image_persisted": 85.66,
+        "image_to_reviewed": 5.345,
+        "review_to_archived": 5.729,
+        "archive_to_verified": 32.042
+      }
+    },
+    {
+      "run_id": "20261127T1529Z-223-strix-butleri-v4",
+      "batch_id": "20261127T1529Z",
+      "cycle": 5,
+      "target": "223-strix-butleri-v4",
+      "action": "REVISION",
+      "started_at": "2026-11-27T15:51:21.495Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-27T15:51:21.514Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-27T15:52:04.683Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-27T15:53:37.555Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-27T15:53:42.847Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-27T15:53:48.717Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-27T15:54:19.802Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T1529Z-cycle5-20261127T1529Z-223-strix-butleri-v4.json",
+      "stage": "VERIFIED",
+      "research": "Strix butleri=currentS.omanensis synonym; old Asio butleri, NOT S.hadorami; no scopechange. Reuse SBUT-ROBB-2016-REDISCOVERY: MagnusS.Robb etal2016 The rediscovery of Strix butleri... AvianResearch7 article1, DOI10.1186/s40657-016-0043-4 https://link.springer.com/article/10.1186/s40657-016-0043-4 . Actual originalfreshMorphology:Oman Head153–155, IranHead183–185, Bareparts173/204 andFig2caption read2026-11-27; Fig2media actualdownloaded/viewed. Upperfacialdisc graduallydarkergreybrownaboveeye, lowerdisc palegrey; upperhalf narrowdarkborder/lowercreambuffruff, median darkcrownstripe withnarrowwhiteclusterseachside; notentirewhite uppermask. BothadultsampleprovenanceOman2Mar2015/Iran23Jan2015, colourlightflash/pose effects caution/no universalexactcolourmap/sexratio. Actualv3fullimageviewed: upperdiscfield surrounding/aboveeyes mostlypalecream, contrastweakvsprimarydiagnosis; correct ONLY upperadultdiscgrey-brown tone. Keep crownmedianstripe/whiteclusters noteraseadultpattern. Existingtoefeathering agreesprimary, notredo/noextra count; juvenileKasravi2019 stage retainedunchanged/historicalactualrecord notfreshjuvenilephotoclaim. Uploadedpre-splitMikkolabroadbutlericannotusecurrentyoung; no new bookjuvenilefactclaimed. Olderformedyoungwing deliberatephoto-backedstage, noforcedwingremoval. New0/reuse1source/access1Fig2pixelupgrade ifnotpreviouslyrecordednotnewpublication. Exact youngage/barepartchronology/flight/sexscaleunknown, scientificfalse. Newnarrowfacialtonefieldsourceinterpretedqualitatively, notmeasuredboundary.",
+      "full_prompt": "Use case precise-object-edit. Edit #223 Omani Owl Strix butleri v3 trio. Preserve RIGHT JUVENILE completely (same documented older pale juvenile with legalformedwing, eyes/crownmarks/feet) and keep forestless rockywadi/labels/footer unchanged. Correct only BOTH ADULTS' facial-disc colour zoning following actual species primary Fig2: the forehead/upper periocular feather field gradually DARK GREY-BROWN above and slightly beside each eye, lower half of disc remains PALE GREY. Transition soft naturally feathered, not a hard horizontal black mask. Keep narrow dark border along upper outerdisc, lower cream/lightbuffruff with fine darkstippling. Preserve existing dark vertical central crownstripe and paired narrow whitish-tipped forehead/crownclusters; these white clusters are not the entire upperdiscfield. Preserve orange-yellow irises/blackpupil and blacksurround, pale green-greybills, entireadult plumage/near-equal display, corrected whitefeathered dorsal toes with exposed horn-grey claws and sixrockfoot contacts. No new eartufts, no changing young, no broad dark fullface. Source has individual/lightvariation so moderate natural graybrown aboveeye, clearly lighter lowerface. Full1536x1024 warmnaturalhistory style, all originaltext intact. No exactage/sexratio/scientificapproval assertion.",
+      "source_ids": [
+        "SBUT-ROBB-2016-REDISCOVERY"
+      ],
+      "new_sources": 0,
+      "research_ready_at": "2026-11-27T15:52:04.659Z",
+      "image_metadata": {
+        "bytes": 2441335,
+        "sha256": "25eebff87a528ec41575bd94b557270fa7a6c4ff1b65ce7db1e0ccd060dd8a00",
+        "gitblob": "f9a0e88e22f48a9a2902f2b59358d1d5eb020cac",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "imagegen_wait_seconds": 60.544,
+      "editing_wait_seconds": 0,
+      "imagegen_invocations": 1,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "local_image": "production1529nov27/223-strix-butleri-v4.png",
+      "review": "Actual complete output viewed. Bothadult upperdisc aboveeyes now greybrown with softtransition to palegrey lowerface, centraldarkcrownstripe/pairedwhiteclusters preserved; nofullblackmask/tufts. Orange-yelloweyes/green-greybills/thinventralshafts/whitefeatheredtoes/horn-greyclaws/sixrockcontacts intact. Juvenile olderformedwing/graycrownpatches and alltext/sourcefooter preserved, no age/flightassertion. Adultfacialtone localPWL/scientificfalse; exactdiscfield/photometriccolour/sexratio unvalidated. Young finecurlrender remains historicaldisplay, no new juvenilematerial/sciencepass transferred; futurephoto-specificrecheck needed before any new texture claim. Existing2013broadbutleri book excludedfromcurrentyoungtaxonomy.",
+      "reviewed_at": "2026-11-27T15:53:42.824Z",
+      "archived_at": "2026-11-27T15:53:48.697Z",
+      "archive_commit": "2fbf5e184c6c471b8c6832578373945bf1b1758a",
+      "verification_exit_code": 0,
+      "ended_at": "2026-11-27T15:54:19.770Z",
+      "commit_sha": "1b0df3fa256b6cfea2ee28095152cc5bc2d4409b",
+      "credit_commit": "ac9cbaf9003eb4cfe9a5127c4434d1aec5b8ac6c",
+      "actual_imagegen_tool_wall_seconds": [
+        43
+      ],
+      "stage_elapsed_seconds": {
+        "start_to_research": 43.169,
+        "research_to_image_persisted": 92.872,
+        "image_to_reviewed": 5.292,
+        "review_to_archived": 5.87,
+        "archive_to_verified": 31.085
+      }
+    }
+  ],
+  "next": {
+    "batch": "20261127T1529Z",
+    "cumulative": 5,
+    "next_cycle": 6,
+    "other_partial": 0
+  },
+  "errors": [
+    {
+      "step": "215 sourceaccess",
+      "error": "BHLpart403/web, executorBHLtimeouts, wrong BioStor111918403, guessedIAvolidentifier empty/503; correctBioStor112135 page yielded original4843133byte14pagePDF and Plate2 actualpixels."
+    },
+    {
+      "step": "130 failededit",
+      "error": "Firstwholeyoung reconstruction retainedUloops, secondlocalmaterialedit reducedcrossbarcontrast and retainedloops; select initialwithclearerbars, rejectededit separately preserved, NEEDS_REVISION."
+    },
+    {
+      "step": "221 originalsource",
+      "error": "CBDoriginal1914PDF403; metadataonly/unread, not scienceauthority."
+    },
+    {
+      "step": "premature222start guard",
+      "error": "Own221lease guard blocked start while fullreadbackpending; completed221verification and credit beforestarting222; noexternalconcurrency/in-progressclaim."
+    },
+    {
+      "step": "recovery25",
+      "error": "Existing25 local2864437bytes and remoteconcepts/originals sameblob10508841ef5f6184e8658664615302909765c1dd alreadyarchived, no redo. GitHub422NoCommitFoundfd9d70d notconnectorfailure."
+    }
+  ],
+  "timing_note": "imagegen_tool_wall_seconds from actual tool result; caller interval fields in individual run include orchestration overhead. Stageelapsed includes reading/reasoning/upload/commit/wait, not isolated networktelemetry. No platformtimeout or fixedruntime limit observed. Six actualcycles completed, no stages counted as cycles."
+}

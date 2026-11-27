@@ -24,14 +24,27 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-27T01:32:50.592Z"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-27T01:33:35.892Z"
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "step": "next-reference-download",
+      "error": "urllib CONNECT tunnel403 for117/118; current110 immutable images/research/review succeeded separately"
+    },
+    {
+      "step": "connector_binary_blob_read",
+      "error": "fetch_blob UnicodeDecodeError decoding PNG asUTF8; use Git data JSON base64 route if supported"
+    }
+  ],
   "scientifically_verified": false,
   "unique_species_increment": 0,
   "revision_increment": 1,
   "run_record": "owl-pet/production/runs/20261127T0030Z-B2-cycle5-resume0125Z-110-megascops-barbarus-v9.json",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "source_new": 0,
   "source_reuse": 2,
   "source_ids": [
@@ -54,5 +67,9 @@
   },
   "generation_wait_seconds": 38.403,
   "generation_calls": 1,
-  "status": "NEEDS_REVISION"
+  "status": "NEEDS_REVISION",
+  "archive_commit": "3fc6f0071e74ff9bc4f3d9d09e28f6f40a621d27",
+  "verify_exit0": true,
+  "ended_at": "2026-11-27T01:33:35.866Z",
+  "lesson": "Photo-first central rebuild improved110 head/pose/compactformedwing but inherited closedcurls persist; NEEDS_REVISION. Whole-subject reference swap not validated for material. 112 relatedfailed strategy already actuallyreviewed thisrun. Network reference downloads117/118 failed403 while110 archive fullreadback succeeded; connector fetch_blob PNG decoding failsUTF8, don't equate with GitHubconnection failure."
 }

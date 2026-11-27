@@ -341,3 +341,7 @@ Actual brown-morph juvenile photo access upgraded the existing CAYAYA index entr
 
 ## 2026-11-27 0125Z 112-asio-abyssinicus-v8
 Low microcontrast whole-down surface prompt tested in112v8; loops remain, NEEDS_REVISION. Targeted negative/curl prompts and this material rewrite not proven effective; do not reuse as successful rule. Actual Maton reference supports older formed-wing stage, no newborn assumptions. Cross-check110 next as related material defect. Bootstrap parser error occurred before main mutation; fixed by honoring structuredContent.sha.
+
+
+## 2026-11-27 0125Z 110-megascops-barbarus-v9
+Photo-first central rebuild improved110 head/pose/compactformedwing but inherited closedcurls persist; NEEDS_REVISION. Whole-subject reference swap not validated for material. 112 relatedfailed strategy already actuallyreviewed thisrun. Network reference downloads117/118 failed403 while110 archive fullreadback succeeded; connector fetch_blob PNG decoding failsUTF8, don't equate with GitHubconnection failure.

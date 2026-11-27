@@ -1,0 +1,6 @@
+# 120-megascops-ingens-v6
+Status: PASS_WITH_LIMITATIONS; scientifically_verified=false
+
+Actual full output viewed: both adultclaws changed fromcharcoalgray to palewarm horn/beigegray withdarkertips, originalcurve/size/number/grip retained. Yellowgraytoes/featheredtarsi preserved; centraljuvenileclaws remain originaldarkgray, noadulttraittransfer. Both honeybrowneyes/olivebills/smalltufts/rufouspattern, asymmetricalnear-equaladults, supportedoldernestlingbillclap/oneformedbarredwing/noflight and allsixfootcontacts preserved. Exactage/sex unknown. Titlelabels/context intact. Target adultkeratincolour passes; wholeplate scientificfalse. Residual juvenile longcurlydown alreadyvisible ininput remains a separate materialcalibration concern (similar110/112); not corrected or deemed scientificallypassed here. Primarynewdownload403 metadataonly, historicprimarycase reused honestly. PASS_WITH_LIMITATIONS refers only boundedtarget; globalplumagecalibrationunknown.
+
+[Sources/fullprompt](../species/120-megascops-ingens-v6.md)

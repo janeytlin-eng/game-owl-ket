@@ -12,12 +12,16 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-27T03:30:56.062Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T03:32:24.823Z"
     }
   ],
   "errors": [],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T0231Z-B2-cycle3-resume0329Z-121-ninox-leucopsis-v6.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "source_ids": [
     "TBO-MIKKOLA-2013-P463",
     "TBO-ABSA-AGEING-2019",
@@ -26,5 +30,18 @@
   "full_prompt": "Precise-object-edit. Edit target is existing Tasmanian Boobook Ninox leucopsis three-birdplate. Correct ONLY BOTH ADULT THROATS: make the small throat patch immediately below the grey bill distinctly whitish, naturally feathered and irregular, contrasting with surrounding rufous-brown chest ocelli. Currentplate throat blends into brown upperbreast with only a thin pale collar; Mikkola2013p463 explicitly white throat. Do not whiten whole breast, mask or belly. Keep the small dense irregular clean-white crown/upperpart spots and rufous-white underpart ocelli, golden-yellow irises/dark eyelid rims/grey bills, tuftless heads, cinnamonfeatheredtarsi, existing pink-grey feet/darkhornclaws unchanged. Pink-grey adult feet are supported by ABSA2019; do not erroneously force gray-only. Adults nearlyequalheight/slightlyfullerfemale, no fixedsizeformula. Central ageunknown darkdown yelloweyed juvenile ENTIRELY unchanged, including shortfoldedsoftbrownwing/tailhidden/twofeet securely on hollowlip. No inference of hatchage/flight. Preserve established rounded tactile3Delectronicpetstyle, exact3birds/6feet, title and labels verbatim, eucalyptwoodlanddusk, individualheadposes and naturalbranchsupport. No broad whitebib, no heartmask, no additionalanimals or text.",
   "research": "Access2026-11-27. Resume old0231Z-B2cycle3: prior121v6STARTED only, expiredlease03:11UTC, currenthead99e8dded no121v6image/research/VERIFIED credit; retainoldrun, do notcountit. Group25localoriginal Gitblob10508841ef5f6184e8658664615302909765c1dd matchesremote, no duplicate. Largeledger connector400sizeerror recovered via immutable rawHTTP; connection works.\nActually reread uploadedMikkola2013 printedp463/PDF465: adults white throat contrasting rufous-orange/white ocellated underparts; smallwhiteheadspots, goldenyelloweyes/grey bill/cinnamonfeatheredtarsi. v5actuallyviewed: throatlargelybrown/thinpaleruff, targetsmallwhitethroat. Guidefeetgray-graybrown conflicts with limitedpalette: ABSAoriginal https://absa.asn.au/wp-content/uploads/2019/12/Tasmanian-Boobook.pdf , J.W.Hardy2019 BirdintheHandp1 freshlyread supports adultlightgray OR pinkgray, so rejecttoe-recolorhypothesis. Overlappingsexmeasurements forbidfixedheightformula; females slightlylarger especiallymass. Juvenilefeetmaypink/gray, irischanges notexactdaychronology. Sourcefactwhiteadultthroat; size/placementofpatch designinterpretation.\nOlsen&Debus2013 AFO30:106-108 original https://afo.birdlife.org.au/afo/index.php/afo/article/download/386/371 freshlyread fig1/p107 adultmale/nestling KingIslandDec2009, p108 darkdown/yelloweyes; exactage/flight unknown. OldNinoxnovaeseelandiaeleucopsis maps currentN.leucopsis perABSA2019. Keepolderunknownstageyoungunchanged; noadultwhitebibtakenasyoungfeature. No scienceapproval. Sourceindexreuse3/new0; one rejectedunnecessaryfootcorrection retained.",
   "research_record": "owl-pet/research/species/121-ninox-leucopsis-v6.md",
-  "review_record": "owl-pet/research/reviews/121-ninox-leucopsis-v6-review.md"
+  "review_record": "owl-pet/research/reviews/121-ninox-leucopsis-v6-review.md",
+  "image_meta": {
+    "bytes": 2582724,
+    "sha256": "2ae2fa7a246fafdaa87eaf2f5c3ae3b5a00e7b8e396a97a7fc613c8215edde72",
+    "git_blob": "3427337576f39bab53935ce055e8c0d3120be3ab",
+    "size": [
+      1536,
+      1024
+    ],
+    "b64len": 3443632
+  },
+  "generation_wait_seconds": 36.26,
+  "status": "PASS_WITH_LIMITATIONS",
+  "review": "Actual input/output viewed: compact distinct whitish adult throat patches added, notwholebreastwhite; goldenyellowiris/greybill/tuftlesshead/smallwhitecrownspots/rufousocelli/cinnamonlegfeathers/pinkgraytoes/darkclaws retained. Youngunchanged darkdown/yelloweyes/shortfoldedwing/hidden tail/unknownage/2feetlipcontact; somecurlydown remainsconceptlimit. Exact3birds6feet/title/labels/eucalyptdusk preserved. PASS_WITH_LIMITATIONS onlyadultwhitethroat correction, notscientificcertification. Rejectgray-onlyfeet hypothesis perprimaryinstitutionABSA. Unknownyoungage/flight andexactcolourcalibration remain."
 }

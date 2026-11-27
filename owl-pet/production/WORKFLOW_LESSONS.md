@@ -861,3 +861,8 @@ Applied and visually checked here only; not universal scientific validation.
 
 ## 20261127T2003Z final versioncollision audit
 Actual failure: selected47v8 without enumeratingv9–v13; restoredoldv9exactbaselineandrevokedcredit. Implementedcorrectivecheck: ALLnumericversionsenumeratedfor108replacement; fullbaselineimageblobdiff finaloldchanged0. MustapplyALLversionpreflightbefore EVERY target; do not claim preventativefutureefficacy fromthissinglecheck. Invalid47experiment isnot newmorphologicalcorrection. Do notinterpret materialnegativearchive as sciencepass.
+
+
+## 20261127T2127Z 130-megascops-koepckeae-v18
+Actualv17/photo/initialv18/finalv18wholeplates viewed. Bothfirst andsecondedit retain manyfineclosedcurl/U-shaped threads; secondeditsoftenssomecontrast but no defensible microgeometryrepair, NEEDS_REVISION. Adults slightdetailsoftening occurred; keyshorttufts/yelloweyes/bluegreenbill/broadbranchedshaftstreaks/scapularline/baregraybrowntoes/darkclaws remain. Younggraywhitebars/brownchest/whitebrows/blackfaceedge/compactformedfoldedwing/hidden shorttail/twofeetbranchsupport retained. No newbornregression, nest/prey/newage/subspeciesmatch inferred. v18/footer pendinglegible. Primaryphoto/downpattern supportsstillpending; no sciencepass/newspeciescredit. Repeatedfailurecause model converts downinstruction tocurledhair evenwhennegativeprompt explicitlyforbidsit; shortening/softeningwording notvalidatedsolution. Keep bothattempts andcompleteprompts, nextrepair should require differentvisuallydemonstratedmaterialstrategy ratherthanrelabelling. Comparison limited to morphology visible, exactsexheight/age/flightunknown.
+Method applied and checked here only, no universal scientific validation.

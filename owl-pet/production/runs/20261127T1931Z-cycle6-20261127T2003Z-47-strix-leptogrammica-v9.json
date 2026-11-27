@@ -17,6 +17,10 @@
     {
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-27T20:13:41.021Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T20:15:13.101Z"
     }
   ],
   "scientifically_verified": false,
@@ -42,5 +46,19 @@
   },
   "initial_wait_seconds": 24.344,
   "initial_review": "Enlarged edited crop actually viewed: bluegrey shafts now distinct from former fleshy tint, limited basal barbs visible, distal scales/claws remain. Crop is working detail only, not species trio.",
-  "edit_prompt": "Use case compositing/precise-object-edit. Image1 is exact Brown Wood Owl v8 wholeplate edit target; Image2 is newly corrected enlarged ADULT foot-region concept detail. Use imagegen to integrate the corrected foot MATERIAL into both adults on image1 at their existing foot positions and scale: grey-blue bare distal shafts, dull lead-grey claws, short proximal toe-base feather barbs merging with tarsi. Adapt each foot's perspective separately, do not stamp identical feet or add extra toes. Leave distal two phalanges visibly bare. Correct ONLY adult feet and title v8 to v9. Preserve every other wholeplate pixel as closely as possible: both adult body sizes/eyes/bills/plumage, entire central juvenile/feet/34-day source-stage label/cavity natural support, jackfruit tree/SriLankan environment, warm 3D pet concept style. Preserve bottom FLIGHT AND SEX RATIO UNVERIFIED. No new age, flight, subspecies, measured scale or scientific approval claims."
+  "edit_prompt": "Use case compositing/precise-object-edit. Image1 is exact Brown Wood Owl v8 wholeplate edit target; Image2 is newly corrected enlarged ADULT foot-region concept detail. Use imagegen to integrate the corrected foot MATERIAL into both adults on image1 at their existing foot positions and scale: grey-blue bare distal shafts, dull lead-grey claws, short proximal toe-base feather barbs merging with tarsi. Adapt each foot's perspective separately, do not stamp identical feet or add extra toes. Leave distal two phalanges visibly bare. Correct ONLY adult feet and title v8 to v9. Preserve every other wholeplate pixel as closely as possible: both adult body sizes/eyes/bills/plumage, entire central juvenile/feet/34-day source-stage label/cavity natural support, jackfruit tree/SriLankan environment, warm 3D pet concept style. Preserve bottom FLIGHT AND SEX RATIO UNVERIFIED. No new age, flight, subspecies, measured scale or scientific approval claims.",
+  "image_metadata": {
+    "bytes": 2191825,
+    "sha256": "114afcde797c820a4b4b4c9e4f04b41dab0e0c125d68df817c69954fccf443b7",
+    "gitblob": "8c61e3929b9ed681ec69194d56fa45194107b70e",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "imagegen_wait_seconds": 24.344,
+  "imagegen_invocations": 2,
+  "editing_wait_seconds": 48.45,
+  "review_result": "PASS_WITH_LIMITATIONS",
+  "local_image": "production2003nov27/47-strix-leptogrammica-v9.png"
 }

@@ -421,3 +421,7 @@ Adultpalehornproximalclaw/darktip transferfrom123promptlocallyeffective127v7, no
 
 ## 2026-11-27 0426Z 128-megascops-marshalli-v10
 First128adultclawedit insufficient, secondeditpaleentiresheath succeededaftercheckingguidep234whichdoesNOTrequireblacktips. Do notgeneralize123darktipruleacrossspecies. Primary1981livebareparts listsiris/toes/bill butnotclaws; supportlevelremainsecondaryguideonly. Bothattempts preserved, youngformedwingsandpriorouterflightbarcorrectionretained.
+
+
+## 2026-11-27 0426Z 129-megascops-hoyi-v6
+129adulttoe skintone reducedochre to yellowishgray whiledarkhornclawsretained; no universalpaleclawrule. Youngyellowfeetandiris/billunverifiedlabels preserved. Primary1989fresh403doesnoterasehistoricalevidencebutcannotclaimfreshreading; SIBfreshsupportsnameonly. Checkstagecolourbeforecopyingadultpalette.

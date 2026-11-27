@@ -12,16 +12,33 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-27T12:50:43.926Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-27T12:54:54.074Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T1232Z-cycle5-20261127T1232Z-130-megascops-koepckeae-v11.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "2026-11-27 #130 Megascops koepckeae (oldOtus) v11 wholeplatefreshreconstruction revision0new. Priorv10twoeditsfailedclosedUcoilmaterial; #110v16newwholetriofromadult-onlystyle+ownphoto visiblyimprovedsinglecase, notuniversallyproven. ApplysameINPUTSEPARATIONexperimentto130withOWNAlarconphoto, not110phenotype.\nKOEP-ALARCON-2023 IbethP.Alarconetal2023 Reproductive events of birdsfromSouthernEcuador NeotropicalBiodiversity9:93–114 DOI10.1080/23766808.2023.2237229 https://biologia.uazuay.edu.ec/sites/biologia.uazuay.edu.ec/files/public/ReproductiveeventsofbirdsfromSouthernEcuador.pdf actualfull34951163byteoriginalexistinglocalPDFprinted104/PDF13textread andprinted95/PDF4 Fig1cphoto-onlycroppixelsviewed; webPDF400tooLarge, search/publisherhtmltextleadnotsoleevidence. TwoLoja2131mfledglings23Apr2019parentalcare/nessoptilesallover/finegraywhitebars/brownchest/blackdiscedge/whitebrows/yelloweyes/perchedPodocarpus3–4m. Exactage/sex/subspecies/firstflight unknown; photographedfrognotcopied, adjacentgnateatercupnestnotowl. Compactformedwinglegal, nothatchlingwingbud.\nKOEP-MIK2013-222 alias SAME MIKKOLA-2013book actualprinted222/PDF224 textread: adultgraywhitebellybranchedblackshafts/paleochreupperbreast/darkcrownfinepaleflecks/scapularbrokenwhite, yelloweyes/bluegreenhornbill/lightyellowBROWN-SPECKLEDTARSALFEATHERS/graybrownbaretoes/darkhornclaws. Sexsizeunknown nearequaldesign, nofixedfemalebigger. Adult-onlycropv9 style usedwithoutoldyoungsurface. Newtrioallrolesmustfreshcheckadultpattern/feet/bill/scale andyoungmaturity. RegionyoungactualLojacase, adultpatternstylizedcannotclaimsubspeciesidentityverified. Naturalbranch/Andeanshrubforest supportnotnest. New0/reuse2stableIDs, no newpublication; exactfeathergeometry/colour/growth/sexratio unknown/sciencefalse.",
   "full_prompt": "Use case stylized-concept. Generate a COMPLETELY NEW 1536x1024 owl electronic-pet family illustration, not local editing of an old trio. Image1 is ADULT-ONLY morphology/confirmed warm refined natural-history STYLE. Image2 is same-species juvenile BIOLOGICAL reference Fig1c; only this owl, do not copy frog.\n#130 Koepcke's Screech-Owl Megascops koepckeae v11. Three owls: adult maleLEFT, age-unknown fledged juvenileCENTER lower/smaller, adultfemaleRIGHT at near equal crown-to-toe adultscale (sexratio unknown). Each has TWO feet clearlygripping same broad naturalbranch, sixcontacts; no floating/crossedfeet. Andean shrub/woodland background softly blurred, naturalwarmdusk.\nAdults: small distinct ear-tufts, darkbrowncrown with small finepale speckles, graybrownupperparts with broad irregular darkshafts/lateralbranches and brokenwhitescapularline; graywhiteunderparts with bold darkshaftstreaks/fewirregularbranches, pale brownishochre upperbreast. Yelloweyes, bluish-to-greenishHORNbill/cere. TarsalFEATHERS lightyellow withbrownflecks; BARETOES graybrown andCLAWS darkhorn. Do not make toesyellow. Do not clone adultposes orsexualdecorations.\nCenter juvenile closely guided by actualphoto: COMPACT dense graywhite finely transverse-barred olderfledgling, subtle brownchest, WHITEeyebrowpatches/blackfacialedge/yelloweyes/bluishgraybill, roundedhead withoutconspicuousadulttufts; close shortFORMEDfoldedwing integratedinbarredbody, restrainedresidualdown, concealedtail. True fine avian down/feathermicrotexture likephoto, not shiny sculpted adult feather-edge tiles, U/Vloops, mammalringlets or long wool. Use coherent diffuse finecrossbands ratherthanoutlinedindividualscallops; keep natural grain. Slight curiousheadturn, securetwofootperch. Do not erase legitimate formedwing or addbrightadultwing-spots.\nTitle '#130 · KOEPCKE’S SCREECH-OWL v11', italic 'Megascops koepckeae'. Labels 'ADULT MALE', 'FLEDGED JUVENILE · AGE UNKNOWN', 'ADULT FEMALE'. Footer 'CONCEPT · SCIENTIFIC CALIBRATION PENDING' and 'JUVENILE EXACT AGE / FLIGHT / FEATHER CHRONOLOGY UNVERIFIED'. No frog/prey/nest/eggs/photowatermark/scientificapproval. Warmtactilecinematicnaturalhistoryfamilyplate, wholeadultandyoungidentityfreshlyreconstructed.",
   "source_ids": [
     "KOEP-ALARCON-2023",
     "KOEP-MIK2013-222"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "initial_meta": {
+    "bytes": 2894039,
+    "sha256": "6dcc9ef2f5a05e8635768ea075dd6c13d223947caa6c3438cf65c138dce8679e",
+    "git_blob": "2b77bf11d8534d3c79e184598f71393ac08c3a27",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "chars": 3858720
+  },
+  "initial_generation_seconds": 38.687,
+  "edit_prompt": "Edit this owl family plate while preserving the complete adults, all text, environment, natural branch, and six secure feet exactly. Only refine CENTER juvenile plumage using reference2 actual same-species fledgling: remove the row of conspicuous discrete bright white oval spots on juvenile's visible folded wing/left side. That short formed wing should remain anatomically present but blend into compact body as muted gray-brown fine barred/diffuse feather surface, as in photograph. Do NOT add adult white scapular spots, pointed feather scales or long adult primaries/tail. Juvenile breast/flanks/belly: break up repetitive closed U/V scalloped feather tiles into much finer irregular soft transverse crossbands and short natural avian filament grain, dense smooth compact silhouette, no ringlets/wool or fluffy long fringe. Preserve white eyebrows, black facial edge, yellow eyes, blue-gray horn bill, slight headturn, two young feet. Keep adults' graybrown bare toes/darkhorn claws and lightly brown-flecked pale tarsal feathers unchanged. No frog or prey. Scientific-pending footer remains.",
+  "initial_review": "Whole plate + center crop actually viewed. Improved compact barred young texture, but conspicuous pale discrete wing-spots and repetitive lower U/V tiles exceed Fig1c support; edit required."
 }

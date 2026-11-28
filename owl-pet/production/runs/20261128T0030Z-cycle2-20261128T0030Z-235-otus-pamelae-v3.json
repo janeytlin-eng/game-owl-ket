@@ -13,16 +13,33 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T00:42:57.912Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T00:44:28.570Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0030Z-cycle2-20261128T0030Z-235-otus-pamelae-v3.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "New0/reuse2. OPAM-SOUNDAPPROACH-2019 TheSoundApproach ArabianScopsOwl https://books.soundapproach.co.uk/species/arabian-scops-owl/ freshbodyread; paleArabianplumage/lessbreaststreaks andsubduedscapularrowvsAfrican, adultOmanpairrecords notsexsizebiometrics, nojuvenilesounds/feathersequence. OPAM-MIKKOLA-2013-P128 HeimoMikkola2013 actualuploaded128/PDF130read: palebrowngraymottledback/rufousbuffcoverts/paleflightbars/indistinctscapularareas NOconspicuousstripe/smallrectiletufts/paledisc/thindarkruff/goldeneye/darktippedgraybill. Currentv2frontpatterncorrectionalreadyvalid; no freshmorphologicalerrorclaimed. Newfemale¾backpose illustrates taxondiagnosticmutedshoulder insteadallfronttrio, adultmotorpose designinference notmeasuredrotation. No sex-specificcolourinferred; near-equaldisplayuncalibrated. OldOsenegalensispamelae currentOpamelae same251unit. Keepolderfeatheredyoungsupportedpose/irisflightageunknown, Bateshistoricalrecordv1readforcontext notclaimedfreshoriginalthiscycle. Tarsalextentconflictuntouched/no preciseboundaryinvented. Sciencefalse.",
   "full_prompt": "Precise-object-edit #235 Otus pamelae v2. Change ONLY CENTER ADULT FEMALE body pose to a gentle three-quarter BACK view, head turned naturally toward the left adult with one goldeneye and pale dirtywhite sideface visible. Reveal mantle/upperback/scapulars/closedwings: pale earthy gray-brown with fine indistinct dark mottling and short shafts; modest rufous-buff coverts, pale flightbars; scapulars onlysmall muted buffgreyflecks with NO prominent white stripe. Not a180degree headtwist, body-and-neck pose connectednaturally. Same adultsize/notsexualplumagecontrast; same gray darktippedbill/smalltufts/feet & allfouradultgrips preciselyonbranch. Keep leftadult previouslysubduedfrontstreaks, entire rightsleepingolderjuvenile anditsunknownage/softparts, allforestwadi/background/rolelabels/sciencependingfooters unchanged. Addv3totitle. Adultpose variant for diagnosticbackview, no newbiology/sexratio/youngflightclaim.",
   "source_ids": [
     "OPAM-SOUNDAPPROACH-2019",
     "OPAM-MIKKOLA-2013-P128"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "image_metadata": {
+    "bytes": 2648630,
+    "sha256": "b59618324fce84274eb2e58ad91b7b16d935b8e9b35960c65296651e2b20ce16",
+    "gitblob": "4108ff68b783bc3b929acf2b9cbdd6e5e1381c41",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-78ec1dc4-93bc-471e-86e5-5ca5288e81ba.png",
+  "imagegen_wait_seconds": 38.392,
+  "editing_wait_seconds": 0,
+  "review_result": "PASS_WITH_LIMITATIONS"
 }

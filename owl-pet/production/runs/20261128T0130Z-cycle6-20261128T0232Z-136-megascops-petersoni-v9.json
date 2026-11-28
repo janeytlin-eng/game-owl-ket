@@ -13,16 +13,33 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T02:39:33.667Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T02:40:53.197Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0130Z-cycle6-20261128T0232Z-136-megascops-petersoni-v9.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Access28Nov2026Shanghai new0/reuse2. CIN-FITZPATRICK-ONEILL-1986 JohnWFitzpatrick/JohnPONeill1986 WilsonBull98(1):1–14, Otuspetersoni a new screechowl... original https://www.biologicaldiversity.org/campaigns/global_owl_project/descriptions/Megascops/Megascops%20petersoni%20%28Fitzpatrick%20%26%20O%27Neill%29%201986%2C%20Wilson%20Bulletin%2C%2098%2C%20pages%201-14..pdf actualfreshoriginalprinted2,4–5/PDF3,5–6bodyread: holotype lowerbreast/belly/flanksalmostsolidCinnamonBUTeachfeatherconspicuousshaft+1–3distalwavybars; lowestBELLY/CRISSUMsolidCinnamon; individualrufousvariation variablebroadshafts, no universaleraseallshafts. LivebillPALEGREYGREEN/pinkfleshtoes/darkbrowniris; preservescurrentgreenbilloverguideblue. Firstyearnearprebasicmoltdownnotnatalchick, exactage/flightunknown. CIN-MIK2013-232 HeimoMikkola2013actualprinted232/PDF234read: lowerbellyalmostuniformcinnamon, nosexualweightdifferenceclear, palehornclaws, billlightgreyblueconflictsprimarylivegreygreenretainprimary. Actualv8longshaftsreachlowestcentralbelly, localreductionthereonly, preserveupperbreastandflankvariation/wholeFIRSTYEARbird. OldOtuspetersoni=currentMegascopspetersoni. Scientificfalse, no newsexratio/youngtimeline/nest inference.",
   "full_prompt": "Precise-object-edit #136 Megascops petersoni v8, BOTH ADULTS LOWEST CENTRAL BELLY AND CRISSUM ONLY (small area between lower flanks, just above feathered legs). Fade the dark shaft marks in that lowest central patch so it reads almost solid warm cinnamon, retaining feathergrain. Keep conspicuous darkshafts/variablefaintcrossbars on upper/lowerbreast andflanks, do NOT make whole bellyblank orerasevalidbreaststreaks. Do not change pale gray-green bills to blue: primarylivecolourcontrols. Preserve allotheradultdetails/darkbrowniris/buffbrows/shortmediumtufts/pinktoes/palehornclaws/supports, entireFIRST-YEARbirdwithformedwing-tailandunknowndownmaterial, allforest/labels/statusfooter. v8→v9. One localized pigmentdistribution correction, no sexheight/newborn or flight claim.",
   "source_ids": [
     "CIN-FITZPATRICK-ONEILL-1986",
     "CIN-MIK2013-232"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "image_metadata": {
+    "bytes": 2674207,
+    "sha256": "bd3f89a9df1d570924f60386ae1da539989eccfc6e71e4fd157b97ece517e627",
+    "gitblob": "7ee781513a2158675859d83fa47d038f4e679205",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-fbfaea18-1911-4b16-b4b2-20c7a346b482.png",
+  "imagegen_wait_seconds": 33.422,
+  "editing_wait_seconds": 0,
+  "review_result": "PASS_WITH_LIMITATIONS"
 }

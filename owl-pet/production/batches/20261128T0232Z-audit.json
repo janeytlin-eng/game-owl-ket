@@ -694,7 +694,8 @@
     "137 first generated title retained v8; actual imagegen edit corrected v9; first attempt preserved",
     "Combined source/image output exceeded available context; split reread and view",
     "2021 PDF webopen400 too large; actual PDFdownload/read succeeded",
-    "fd9d70d connector422 no commit; 25v6 remote paths preserved"
+    "fd9d70d connector422 no commit; 25v6 remote paths preserved",
+    "Final47-file verifier failed with KeyError('id') on legacy manifest entries without id; image/archive bytes not implicated. Fixed verifier to use optional id, retaining exact baseline manifest prefix check, reran all47."
   ],
   "limitations": [
     "207/251 not complete",

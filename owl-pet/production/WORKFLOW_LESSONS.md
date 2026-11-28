@@ -967,3 +967,7 @@ Actualv19/v20andFig1c viewed: juvenilebodychangedUscallopsinto leaf-shapedoutlin
 
 ## 20261128T0000Z 206-glaucidium-castanopterum-v8
 Actualv7/v8andVeronesioriginalphoto viewed. Leftinnerbrowedge slightlylower/flatter, but someangularsculptedridge remains; onlymodestlocalPWL, nofullphotoequivalence/scientificpass. Thinpalepigment/orbitaledgeretained, noerasedeyering; roundcrown/noear-tufts/yellowiris/olivecere/greenyellowbill/chestnut-whitebody/olivetoesdarkclaws andsixbranchgrips unchanged. Entireageunknownfledglingandrightadultscopepreserved. Lesson localizedleft-onlyshapeeditavoidsundoingrightadultpriorfix, effectmodest/notuniversalproof. Sciencefalse.
+
+
+## 20261128T0000Z 119-megascops-centralis-v12
+Actualv11/v12fullandJordanadultphoto viewed: sidehead/cheekssmoothflatfinefeatherstrokes nowreplace prominentpointedoverlaprims, visuallyclearlocalPWL. Weakbrows/plainouterdisc/blackorbitalring/lemoniris/greenyellowbill/shorttufts unchanged, topcrown andgraywhitevermiculatedbellypriorfix retained. Allthreebirds/sixsupports/cavitysill/titlev12/footer intact; centralolderyoungunchanged. No allmorphdarkening fromISO3200photo, no preciseRGB/sex/youngage/flight/nestvalidation. Lesson changingrestrictedcontourgeometry canretainpigmentandseparateearlierfixes; oneactualcaseonly, notfuturemethodproof. Sciencefalse.

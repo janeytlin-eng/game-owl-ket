@@ -9518,3 +9518,8 @@ Correction 01v6: PMC direct open/urllib returned bot wall, not read successfully
 ## 20261128T1435Z 02-bubo-scandiacus-v8
 复用SNO-ORI-2022GUIDE，SolaiSLeFay/ChloeYHernandez/DenverWHolt，2022样本/页面发布日期未定，原始机构 https://www.owlresearchinstitute.org/snowy-owl-photo-guide ;2026-11-28本轮主动检索并实际打开Stage3/4、Photo16caption与实际原图像素 https://static.wixstatic.com/media/78ab91_1157a96b684e4f9ea0a93d9ef2181af0~mv2.jpg 。Photo16=2022-08-13 chick06约16days afterbanding, 单窝估龄不普适；照片灰白头面/较暗灰body/灰角cerebill，非成人黑bill紧密羽基，白羽脚部分皮肤可见/浅角色爪，不把成人黑爪套young。图片为手持环志现场，不证明地面姿态或精确羽数，概念采用保守有支撑低伏。实际click派生图fetch InternalError，改原始media成功，记录恢复非新来源。复用SNO-MIK2013-258-261(同2013上传书)，本轮实读printed258/PDF260及成人图：旧Nycteascandiaca映射Buboscandiacus；白雄斑雌/黑bill/厚白跗趾黑爪，女+300–400g不当高度比。v7旧图卷丝负结果已读/先前实际看，本轮排除旧target，重建非细节猜测。新增0复用2主ID；既有来源照片像素访问升级1、juvenilebarepart参考补查1，科学未通过。
 [Research/prompt](species/02-bubo-scandiacus-v8.md) · [Review](reviews/02-bubo-scandiacus-v8-review.md)
+
+
+## 20261128T1435Z 05-strix-aluco-v7
+复用TAO-MIKKOLA-2013-P315 HeimoMikkola2013,本轮实际上传原PDF printed315/PDF317：成人tarsi及most grey toes feathered, hornclaws；female质量差不换高度；幼鸟pinkrim/palefleshy裸部但不是全部裸趾。复用TAO-BOT-OWLET BarnOwlTrust undated https://www.barnowltrust.org.uk/barn-owl-facts/owlet-identification-age/ 本轮主动外检后实际读原Tawny/Barn比较Toes/eyelids/down，Tawny wellfeathered与Barn unfeathered应区别，不能搜摘要看到unfeathered就套Tawny。v6实际完整查看，两成人和右olderyoung均长灰色裸鳞趾，故局部补趾背短羽、掌底可裸，不改羽龄。松散灰褐横纹mesoptile和粉眼睑保留；现young姿态两足枝支撑，确切龄/翼羽序未标定。新0复用2，先前v6'wellfeatheredtoe'口头通过与实际裸趾矛盾，本轮记录并实际修订，不追溯篡旧review。
+[Research/prompt](species/05-strix-aluco-v7.md) · [Review](reviews/05-strix-aluco-v7-review.md)

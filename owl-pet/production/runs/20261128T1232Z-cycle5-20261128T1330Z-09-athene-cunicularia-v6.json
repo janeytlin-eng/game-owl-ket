@@ -13,11 +13,15 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T13:35:09.591Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T13:36:22.610Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T1232Z-cycle5-20261128T1330Z-09-athene-cunicularia-v6.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "复用BUO-JOHNSON-AGING-2019：DavidHJohnson etal,2019-11-17 Aging Key for Juvenile Burrowing Owls, BC ConservationSociety/GlobalOwlProject, unpublished34pp, https://burrowingowlalliance.ca/wp-content/uploads/2025/08/Johnson-et-al.-2019.-Aging-Key-for-Juvenile-Burrowing-Owls-Athene-cunicularia.pdf 。本轮外检、机构原PDF新下载，实际读p1摘要/生长差异限制及p13四张knownage13–14日照片；有个体营养差异，不能以体重或体长单一断龄。实际照片显示斑驳棕色新羽/羽管与稀疏灰buff绒并存，并非均匀奶油白圆球。因此纠正v4/v5提示中过度统一白绒倾向：新图按具体照片重建，年龄仍不作标定。复用BUOW-KLUTE-ETAL-2003-P6及WHSO-MIKKOLA-2013 printed424/PDF426本轮实际读，成人稀疏长跗羽/橄榄灰趾，图鉴female较大与西部FWS无逆体差冲突保留，近等尺度非实测。图鉴成人照片grallaria不套hypugaea。本轮直接参考knownage照片无旧图target，保持v1确认范围历史不扩张；新源0复用3，证据解读更正1。巢内初生/确切虹膜/动作时序未凭照片猜测，早期出洞支撑沿用已索引SDZ阶段，不新增科学通过。",
   "full_prompt": "Use case stylized-concept. Fresh #09 Burrowing Owl Athene cunicularia v6, three-bird warm dimensional owl electronic-pet concept with natural feather texture. Only supplied image is actual known-age juvenile reference sheet (Johnson2019 PDF13,13–14days), not prior generated target. Adult male left adult female right similar scale, tuftless rounded brown head white spots/eyebrows/throat, yellow adult eyes, grayish olive bill/cere, buff-white barred breast, long slender sparsely feathered tarsi olivegray bristled toes dark horn claws. Center chick must follow actual reference stage: irregular sparse gray-buff down with visibly developing brown feather tracts/pinfeather sheaths on back/shoulders and crown, smaller incompletely defined facial disc, narrow soft folded wing buds with short exposed developing sheaths, not a giant uniformly cream plush ball, no adult spotted long primary grid. Low steady standing by prairie burrow lip, feet planted firm soil, belly close slope, no jumping flying or raisedwing. No curly wool loops, no repeated embossed feather tiles; delicate irregular straight branching down. No precise chick iris or age claim: label 'EARLY EMERGING CHICK · AGE NOT CALIBRATED'. Adult labels male/female 'SEX INFERRED'. Top '#09 BURROWING OWL · v6' and 'Athene cunicularia'. Ground prairie short sparse grass natural soil burrow, soft morning, no cages/grid/rulers/handling/prey. No female-larger universal rule. Keep three exactly and distinct earlydevelopment appearance. Footer 'CONCEPT · SCIENCE PENDING'.",
   "source_ids": [
@@ -25,5 +29,18 @@
     "BUOW-KLUTE-ETAL-2003-P6",
     "WHSO-MIKKOLA-2013"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "image_metadata": {
+    "bytes": 2873178,
+    "sha256": "7006e10a1822124748cc374f7df787d5f1e48c2ee65147337e5bafe086c1af73",
+    "gitblob": "375720dd4f3759e9e6e91d5622d3dab96ae4d637",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-aa719e14-405f-4edc-94df-d441a91fa6cf.png",
+  "imagegen_wait_seconds": 29.058,
+  "editing_wait_seconds": 0,
+  "review_result": "PASS_WITH_LIMITATIONS"
 }

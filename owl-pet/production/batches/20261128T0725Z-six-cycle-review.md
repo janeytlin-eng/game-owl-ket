@@ -50,3 +50,10 @@
 下一子轮20261128T0725Z第5/6，保留batch_id/next_cycle，优先206冠纹及112等未解决问题或资料明确的新缺口；不要继续同样轻微加深/柔化堆版本。当前阶段并未完成251种/集中整批科学审查，不暂停生产、不声称后台绘图或完成时间。未修改AIResearchRadio/棉棉3D/其他任务或调度。
 
 最终全文件回读待独立receipt追加；逐轮双路径原图/研究/审查已有完整GET/哈希解码PASS。第25组恢复原图与fd9d70d并入最终核查，不重复绘制。
+
+
+### 最终全文件回读完成
+
+证据快照[4aa884eb](https://github.com/janeytlin-eng/game-owl-ket/commit/4aa884ebe5c47998c0b0570332e3bbcc619158df)。[独立回读receipt](./20261128T0725Z-final-readback-receipt.json)于2026-11-28T07:48:19.517814+00:00确认46文件全文/Gitblob SHA1核对PASS，其中15PNG路径完整解码（6最终original+concept双路径12、206首稿1、第25组恢复2）；6轮历史VERIFIED提交中的run阶段/提示也回读。第25组两个原图均10508841ef5f6184e8658664615302909765c1dd、2864437字节、1536×1024，可恢复且无需再绘。fd9d70d实际connectorGET仍422 No commit found，未计成功。
+
+全部旧1484编号图blob不变、历史manifest1439行前缀不变、新增6行；owl-pet外改动0。新原图1490版本/207种；当前0725批次4/6,next5，其他PARTIAL0，无lease。全任务及整批科学审查仍PARTIAL；本次实际完成6生产子轮不等同6科学通过。

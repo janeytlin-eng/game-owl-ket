@@ -9503,3 +9503,8 @@ WHSO-MIKKOLA-2013, BUO-JOHNSON-AGING-2019, BUOW-SDZ-2017, BUOW-SMITHSONIAN-2012 
 [Research/prompt](species/01-tyto-alba-v6.md) · [Review](reviews/01-tyto-alba-v6-review.md)
 
 Correction 01v6: PMC direct open/urllib returned bot wall, not read successfully. Actual fresh publisher original body https://www.mdpi.com/2079-7737/13/10/834 opened and read Methods2.1–2.3/Results3.1.2–3.1.3. Peering defined specifically lateral head translation, not angular turning; prompt corrected before generation. New source0, access and behavioral wording correction1. No photograph viewed in this cycle; figure captions/body only.
+
+
+## 20261128T1330Z 02-bubo-scandiacus-v7
+复用SNO-HOLT-GRAY-MAPLES-KORTE-2016 DOI10.3356/rapt-50-02-131-143.1，2016JRR50:131–143；本轮外部检索原论文Table3/摘要线索，全文PDF未新读，不把搜索当全文。复用SNO-ORI-2022GUIDE https://www.owlresearchinstitute.org/snowy-owl-photo-guide 本轮实际打开原机构照片指南Stage3/4正文：灰mesoptile、14d羽管起、15–21d飞羽出鞘/尾羽管出现/eggtooth消失，时序区间非固定日。历史图鉴SNO-MIK2013-258-261成人白雄斑雌/羽趾/黑喙爪方向沿用，不新读图鉴冒充本轮新证据。旧Nycteascandiaca→Buboscandiacus。v6实际看中央明显闭环卷毛；本轮限定材质/保守低伏姿态设计、不增加成熟翼羽、不推幼鸟性别。撤数值日龄避免生成断龄。新0复用2主来源+1历史图鉴。
+[Research/prompt](species/02-bubo-scandiacus-v7.md) · [Review](reviews/02-bubo-scandiacus-v7-review.md)

@@ -17,11 +17,15 @@
     {
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-28T00:47:04.988Z"
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-28T00:47:09.405Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0030Z-cycle3-20261128T0030Z-230-taenioptynx-sylvaticus-v3.json",
-  "stage": "IMAGE_GENERATED",
+  "stage": "REVIEWED",
   "research": "New0/reuse2 productionfacts. TSYL-GWEE-2019 ChyiYinGwee/JamesEaton/ElizeNg/FrankRheindt2019 AvianResearch10:36 DOI10.1186/s40657-019-0175-4 https://www.sciopen.com/article/10.1186/s40657-019-0175-4 publisherabstractMethodsResultsread13skins/76recordings; https://link.springer.com/article/10.1186/s40657-019-0175-4 fullbodyopened/findAllspecimens morphology: Sumatran/BorneanWHITEhindneckcollar vscontinental/Taiwanrufous. Do notclaimsexcolourdimorphismorsubspeciesinterchange. TSYL-MIKKOLA-2013-P370 actualuploaded370/PDF372read ownSumatransylvaticumcaptionwhitebelly/centrebreast-rufousbreastband/brownflankspots; oldbroadGbrodiei mass/juvenile facts NOTvalidatedsplitSundafeatherchronology. Actualv2femalealreadyshowswhitecollar/malefrontviewhidesit. Changeadultmalepose toexposetaxondiagnosticwhitecollar, not fix wrongsexspecificcollarorclaimnewmorphology. PriorTSYL-KWAN-2025-KERINCI-JUV fieldyoungrecordv2reusedstageboundarywithoutfreshphotobodyreadthiscycle; preserveformedwing/opengape/barredtail, no mechanicalwingremoval. OldStrixsylvatica/Glaucidiumbrodieisylvaticum currentTsylvaticus same251unit. Exactyoungage/flight/iris andsexsizeratiounknown, sciencefalse.",
   "full_prompt": "Precise-object-edit #230 Taenioptynx sylvaticus v2. LEFT ADULT MALE ONLY: rotate its BODY to a gentle three-quarter back view, head turned left in natural sideprofile, to reveal the rearneck diagnostic WHITE NUCHAL COLLAR across backofneck. Collarwhitewithnaturalfeatheredge, NOT rufous or orange, do notextendintoentirewhitehead/back or wings. Retain little paired darknape false-eye patches whenvisible. Adultdarkgray-brownbarredhead/whitebelly/rufousupperbreastband/greenhornbill/yellowiris/noear-tufts, samebodysize/feet andtwofootgriponthickbranch. Centralfemale alreadyshowingwhitecollar retainedexactly; collaris TAXONfeature notsexlinked. Entire rightphoto-supportedolderjuvenile opengape/formedspottedwing/barredtail/ageunknown andallotherbirds/forest/text/uncertaintyfooter unchanged. Addv3totitle. Adultpose/display-diagnostic editonly, no quantsexratio or immaturedevelopmentclaim.",
   "source_ids": [
@@ -41,5 +45,7 @@
   "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-8ddf1f57-80c2-49de-a591-efcc25677d0c.png",
   "imagegen_wait_seconds": 35.388,
   "editing_wait_seconds": 0,
-  "review_result": "PASS_WITH_LIMITATIONS"
+  "review_result": "PASS_WITH_LIMITATIONS",
+  "review": "Actualv2/v3wholeimages viewed: male¾back/sideheadnaturallyconnected, diagnosticwhitehindneckcollarandpairedsmallnapeeyespotsvisible, femaleexistingwhitecollarretained. Notsexlinkedcolour/quantsexsizeratio. Adultfeetbothgripbranch/headsroundnotufts/yellowiris/greenyellowbill/bodypatterns retained; wholephoto-supportedlaterjuvenileformedspottedwings/barredtail/opengape andunknownfooterunchanged. PWLdiagnosticdisplayposeonly notnewspeciescorrectionorwholepatterncalibration. SourceGwee2019fullResults139–148actuallyreadthiscycle upgradesaccessbeyondoldabstract-onlyrecord, samepaper/notnewsource. Lesson avoidfront-onlydisplayhidingdiagnosticnape, sourcewhitecollar is taxon distinction not female-only cue. Sciencefalse.",
+  "reviewed_at": "2026-11-28T00:47:09.392Z"
 }

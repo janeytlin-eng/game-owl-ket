@@ -17,11 +17,15 @@
     {
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-28T15:45:49.553Z"
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-28T15:45:53.762Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T1530Z-cycle1-20261128T1530Z-15-strix-varia-v8.json",
-  "stage": "IMAGE_GENERATED",
+  "stage": "REVIEWED",
   "research": "Reuse BARO-DUNCAN-2024-CFN and BARO-DUNCAN-2024-SUPP, JamesR Duncan/RikiKerbrat/ToddMWhiklo,2024issue/online2025-01-17, Barred Owl activity and diet recorded with a camera trap at a natural cavity nest in Manitoba,Canada(2016–2017), DOI10.22621/cfn.v138i1.3067, original supplement https://www.canadianfieldnaturalist.ca/index.php/cfn/article/download/3067/3219/16551 accessed2026-11-28. ActualwebPDFtext FigureS2/p2 and TableS6/p7 reread; p2 identifiespre-fledgingentrancebirds, p7 ages~26d/~31d estimated notknownindividualday. Localdownload502 andwebscreenshot returnedimage-link only, no pixel-levelsourcephotoclaim. Samepublication two locators not2papers. Reused Mikkola2013 printed346/PDF348 actuallyread: juvenilebrownwhitemesoptile/faintdarkerbars, pinkishskin/lightbluishgreencere; adultyellowbill/palegraycere/featheredneartips/darkhornclaw. CurrentStrixvaria, oldSyrniumvarium. Currentv7 young cere visiblegrayolive, localcorrection tosubtlecoollightbluegreen at billbase (notbilltip), adulthoodunchanged, no anatomicalageclaim. Exactage/sexratio/continuousfeathersequence/cavitygeometryunknown. Existingcurledheadfibers unresolved and retained forpriorityfutureindependentimagework, notscientificapproved. New0/reused2publicationfamilies/3locators. Sourcefact vs designinference explicit; hueillustrative notcolorimetricvalue.",
   "full_prompt": "Use case precise-object-edit. Target #15 Barred Owl v7 triptych. Single localized change ONLY juvenile visible cere above bill base/rightbird: subtly pale cool bluish-green, natural unsaturated light blue-green hue, rather than warm olivegray. Keep yellowhorn bill hook/tip unchanged and don'tcolor adultcere. Preserve all3birds, head/eyes/feathertexture/body/feet/wing/relative sizes/nestsupport/cavity/forest/warm illustratedstyle, entiretitle and all rolelabels and pendingreviewfooter exactly. No morphologychange, no exactage or flightclaim. Tiny cere correction only; no neon color.",
   "source_ids": [
@@ -42,5 +46,7 @@
   "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-d4e2f024-8ada-47a1-b505-a65846c21b20.png",
   "imagegen_wait_seconds": 36.418,
   "editing_wait_seconds": 0,
-  "review_result": "PASS_WITH_LIMITATIONS"
+  "review_result": "PASS_WITH_LIMITATIONS",
+  "review": "Fulloutputactuallyviewed. Young cere is pale gray-green with slightcoolcast, difference fromv7 subtle and not color-calibrated, notclaim demonstratedscientificrepair; adultcere/yellowbilltips/darkeyes/bodybars/featheredfeet/support andyoungcavitypose retained. PWL only exploratoryhuevariant/sciencefalse; younghead/bodycurltexture remains unresolved, exactday/featheratlas/geometry/ratio unknown. Evidence→Mikkola explicityounglightbluishgreencere, primarysupp confirmsentrancecontextbutnotcolorpixels. Modification→juvenile-onlyimagegenhueedit; recheck→smallvisiblechange notobjectivecalibration. Avoid overclaimingminutehuevariants as successfulmorphologyrepair; nextneeds independent calibratedreference. PrimaryPDFtext actualread butlocal502; sourcepixelnotclaimed,samepaperdeduplicated. Existingbadtexture entersfuturequeue.",
+  "reviewed_at": "2026-11-28T15:45:53.750Z"
 }

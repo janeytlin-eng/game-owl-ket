@@ -21,11 +21,15 @@
     {
       "stage": "REVIEWED",
       "at": "2026-11-28T10:44:53.945Z"
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-28T10:44:58.157Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T1028Z-cycle3-20261128T1028Z-146-ninox-mindorensis-v6.json",
-  "stage": "REVIEWED",
+  "stage": "ARCHIVED",
   "research": "复用 MINDBOO-RASMUSSEN-2012-P13-14（原文准确诊断printed14/PDF15，而不是历史条误写printed13；本轮更正页码）：Rasmussen etal2012 Forktail28:1–20 https://www.asianscientist.com/wp-content/uploads/2012/08/Vocal-divergence-and-new-species.pdf ，2026-11-28实际读取诊断全段、p12Fig6c（James Eaton，Sablayan Mindoro2008-12）及针对性网络检索。事实：小、短白眉、耳羽较短；喉浅buff且不很清楚、整个复合群最细窄横斑，有下部白纵纹变异，不等于上胸长白/黑纵矛。v5实际看上胸白长纵纹及暗矛过强，本轮改浅buff软界喉到细横斑上胸，保留已合适下腹细斑。复用MIKKOLA-2013 printed474/PDF476已实际读取：颈至腹细横斑，幼鸟undescribed；与原文色调变化不冲突，不借spilocephala immature段套此种。旧N.philippensis mindorensis→N.mindorensis。雌雄羽色相似/比例无可靠量化，性别设计inferred。中央未核实重建不增年龄、初生、首飞、巢位主张；枝支撑为概念结构。来源新增0复用2出版物；更正1页码定位，来源事实与设计局部修订分开，整图sciencefalse。",
   "full_prompt": "Edit #146 Ninox mindorensis v5 to v6 in the same confirmed warm realistic 3D owl-pet concept style. Correct ONLY BOTH ADULTS' throat and UPPER BREAST. Current strong long white/dark longitudinal chest daggers and separated bright white throat streaks read too much like Luzon Boobook. Replace them with a subdued PALE BUFF throat patch with soft indistinct edges, transitioning to FINE narrow DARK BROWN TRANSVERSE BARS on warm buff/orange-rufous upper breast. Maintain fine barring through existing lower breast and belly. No bright white bib, no black bib, no necklace, no thick Camiguin bars. Some pale feather centres below are allowed; do not erase natural variation or turn into plain orange chest. Preserve short white brows, yellow irises, greenish pale bill, finely speckle-barred crown, white scapular spots, mostly feathered tarsi/lower bare portion and yellow-gray bristled toes, black claws with pale bases. Keep central UNVERIFIED juvenile reconstruction exactly as is, no inferred new plumage/flight/age. All feet naturally gripping same branch; exact three birds and original forest. Adult labels 'ADULT MALE · SEX INFERRED' and 'ADULT FEMALE · SEX INFERRED', central uncertainty text preserved, title '#146 NINOX MINDORENSIS v6 · MINDORO BOOBOOK', footer 'CONCEPT · SCIENTIFIC CALIBRATION PENDING · AGE / SEX RATIO / NEST UNVERIFIED'.",
   "source_ids": [
@@ -47,5 +51,6 @@
   "editing_wait_seconds": 0,
   "review_result": "PASS_WITH_LIMITATIONS",
   "review": "实际完整查看v6：两成鸟原胸部白/黑长矛状纵纹被浅buff柔边喉及细窄横斑替代，下腹细横斑保留，未变成Camiguin粗横条，黄眼/绿喙/小白眉/白肩斑及抓枝仍在。局部成鸟喉上胸通过，横斑间距不作测量；原文允许下部白纵纹变异，本轮不宣称唯一羽型。中央绒羽重建未知仍明显标注，未增成熟翼羽/飞行动作，无巢。性别槽位inferred、不用雌大雄小。问题→通用Ninox把Luzon纵胸纹带入Mindoro；证据→p14小浅buff喉/最细横斑与Mikkola474一致；修改→局部替纹；复查→局部有效。历史页码定位13纠正为14，旧ID保留映射；回看146v5并保留。后续规则：同复合群至少并排对照胸纹方向与喉边界，不把全群同羽型。sciencefalse，幼鸟资料仍阻塞整组科学校准。",
-  "reviewed_at": "2026-11-28T10:44:53.928Z"
+  "reviewed_at": "2026-11-28T10:44:53.928Z",
+  "archived_at": "2026-11-28T10:44:58.141Z"
 }

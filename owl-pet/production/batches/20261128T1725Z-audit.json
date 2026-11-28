@@ -1,0 +1,564 @@
+{
+  "owner": "20261128T1725Z",
+  "ended_at": "2026-11-28T17:53:08.801Z",
+  "results": [
+    {
+      "run_id": "20261128T1725Z-21-megascops-choliba-v9",
+      "batch_id": "20261128T1632Z",
+      "cycle": 3,
+      "target": "21-megascops-choliba-v9",
+      "action": "REVISION",
+      "started_at": "2026-11-28T17:29:18.704Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T17:29:18.755Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T17:30:02.441Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T17:31:27.285Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T17:31:33.216Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T17:31:37.629Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T17:31:50.152Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T1632Z-cycle3-20261128T1725Z-21-megascops-choliba-v9.json",
+      "stage": "VERIFIED",
+      "research": "Reuse TSO-ACTA-NESTLING-2017: Edson Guilherme & Izabele Rodrigues de Souza (2017), Nestling development of the tropical screech-owl: a successful case report from the southwestern Amazon, Acta Amazonica47:269–272, DOI10.1590/1809-4392201700502, https://acta.inpa.gov.br/fasciculos/47-3/PDF/AA-2017-0050.pdf accessed2026-11-29. Targeted externalsearch plus original printed270–271/PDF2–3 text and Figure1D actualpixels read. Hatch-monitored Acre2011: dark barred mesoptile with developed remiges and yelloweyes by photographed18–20days; photo shows fine gray head/chest rather than long cream loops. This dates source birds only. Photo is hand-held; do not copy handling into pet scene or claim documented natural pose. Existing image body pattern more repetitive than reference; limit edit to visible young head/neck/chest texture retaining formedwing and supportedcavity pose. Reuse MIKKOLA-2013 actualprinted218–219/PDF220–221: distinctly barred mesoptile; palegreenishgraybill, featheredtarsus/graytoes/darkhornclaws, no quantifiedsexualsizedifference, morphnotsex. CurrentMegascopscholiba/oldOtuscholiba; subspeciesnotassigned. Cavern generalization not actual deadAstrocaryum study palm; floor sparsebark not builtcup. New0/reused2; photoaccess renewed not newpublication. Unresolved exactage/irisphase/sexratio/feathermap/nestgeometry; sciencefalse.",
+      "full_prompt": "Use case: precise-object-edit. Edit target Image1 #21 Megascops choliba v8. Preserve exactly THREE owls, both entire adult bodies, plumage, eyes, beaks, feet, sizes, branch, forest, hollow and corrected flat sparse-bark floor; preserve all text and scientific-pending footer. Change ONLY young head/neck/chest surface: fine short overlapping gray-buff mesoptile with soft narrow dark/light bars, darker face and pale brows, no long cream yarn loops or continuous knitted rings. Keep youthful round no-ear-tuft head, yellow eyes and pale green-gray bill. Preserve the formed folded wing flight feathers and all young toes, natural weight on cavity floor, no flight or exact age claim. Keep same established warm natural-history 1536x1024 style. This is a limited texture correction, do not introduce adult shaft-streaks, adult-sized shoulder spots, new tail or newborn pose.",
+      "source_ids": [
+        "TSO-ACTA-NESTLING-2017",
+        "MIKKOLA-2013"
+      ],
+      "new_sources": 0,
+      "archive_transfers": [
+        {
+          "started_at": "2026-11-28T17:31:05.685Z",
+          "ended_at": "2026-11-28T17:31:27.265Z",
+          "elapsed_seconds": 21.58,
+          "scope": "base64 preparation+blob transfer+hash validation"
+        }
+      ],
+      "image_metadata": {
+        "bytes": 2682848,
+        "sha256": "a18776f78025193448ba60717116a6a4d70887a42ac615d4296b2f6b4da039d4",
+        "gitblob": "64183822b921f0c414033b4dfb6941c3c6a1b0e9",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-7baf4720-1ab4-49e4-9131-48bad4a3e438.png",
+      "imagegen_wait_seconds": 42.948,
+      "editing_wait_seconds": 0,
+      "review_result": "PASS_WITH_LIMITATIONS local texture; scientific calibration pending",
+      "review": "Actual full output viewed against original Fig1D: young crown/neck/chest now shorter separated tufts, large closed cream yarnloops reduced; dark/light mesoptile bars and formed folded wing retained, no adultshaft-streak addition. Fine curly edges and warmer-brown source mismatch remain uncalibrated, PWL local texture-direction only/sciencefalse. Both adults/eye/bill/size/fourgrips and youngtwofloorcontacts/sparsebark/generalizedhollow/text unchanged. Exactstage/youngiris/featherdensity/sexratio/cavityshape unknown. Problem: generic looped mesoptile; evidence: actualprimaryphoto with developedremiges; edit: shorten visible tufts preserving formedwing; recheck: macroloop reduction observed, no claim fine biological match. Lesson applied/visually effective for macrotexture only; compare uncertain material at #02/#04/#18 before generalizing, those not newly fixed.",
+      "reviewed_at": "2026-11-28T17:31:33.204Z",
+      "archived_at": "2026-11-28T17:31:37.609Z",
+      "archive_commit": "bb69cc42ea725e4f878896a68eb3dd4e9ee8c6ab",
+      "ended_at": "2026-11-28T17:31:50.132Z",
+      "verification_exit_code": 0,
+      "commit_sha": "3ff9b57f1a731cb85b80bece402df1ca5fc7eda7",
+      "credit_commit": "e6f329bfea8782a51d64e219ec1ffc1224b35bac"
+    },
+    {
+      "run_id": "20261128T1725Z-22-gymnasio-nudipes-v7",
+      "batch_id": "20261128T1632Z",
+      "cycle": 4,
+      "target": "22-gymnasio-nudipes-v7",
+      "action": "REVISION",
+      "started_at": "2026-11-28T17:32:07.277Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T17:32:07.308Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T17:32:32.557Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T17:33:51.718Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T17:33:57.968Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T17:34:03.215Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T17:34:18.811Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T1632Z-cycle4-20261128T1725Z-22-gymnasio-nudipes-v7.json",
+      "stage": "VERIFIED",
+      "research": "Reuse PRO-BIRDSCARIB-2021, BirdsCaribbean From the Nest Day66 (2021-05-14), https://www.birdscaribbean.org/2021/0/page/2/ actual species text section opened2026-11-29; barelegs, similarsexes/slightmassdirection, small alarmfeathers, cavitycontext. No iriscolor attribution: earlier correction remains. Reuse MIKKOLA-2013 printed246/PDF248 actuallyreadlocal uploadedguide: bare tarsal/toe parts grayishyellow, hornclaws blackishtipped; no quantifiedsexsize. Currentv6 adults have distinctlypink tarsi/toes; limited adultbarepart palette correction toward dullgrayyellow, preserve uppermostfeathering/shape/darkclaws. Keep wholeunknownyoung and existingiriscolours provisional, no new juvenilefacts/flight/day. CurrentGymnasionudipes=oldMegascopsnudipes/Otusnudipes. Oldyelloweyedescription conflicts currentdarkiris; not resolved from institution silence. All subspecies/youngplumage/nestgeometry/sexratio unverified. New0/reused2; ABCnewsearchlead opened but not used for design, avoid duplicate indexing without useful newfact. Lesson: adultbarepartsource cannot validate juvenile colour or use mass as heightformula.",
+      "full_prompt": "Use case: precise-object-edit. Edit #22 Gymnasio nudipes v6, ONLY adult male and adult female visible bare tarsi and toes: change pink flesh tone to subdued grayish-yellow / dull yellow-gray scaly skin. Retain exactly same leg lengths, anatomy, toe number and branch-gripping contacts, feather border at uppermost tarsus, horn claws with black tips. Do not alter juvenile ANYWHERE, especially unknown iris/youngwings/feathering/pose. Preserve both entire adults beyond skin hue, reddish-brown eyes provisional, green-gray bills, plumage, near-equal proportions, low alertcorners, all labels/footer, hollow and forest. Exactly3owls, same1536x1024 warm naturalhistory style. No universal sex multiplier or scientificapproval.",
+      "source_ids": [
+        "PRO-BIRDSCARIB-2021",
+        "MIKKOLA-2013"
+      ],
+      "new_sources": 0,
+      "archive_transfers": [
+        {
+          "started_at": "2026-11-28T17:33:29.871Z",
+          "ended_at": "2026-11-28T17:33:51.697Z",
+          "elapsed_seconds": 21.826,
+          "scope": "base64 preparation+blob transfer+hash validation"
+        }
+      ],
+      "image_metadata": {
+        "bytes": 2775103,
+        "sha256": "5f96d76f2eb1319f13debd6d295dc57c21ed4b6b3bd4614a1d1c703ad99155f9",
+        "gitblob": "2e10b74274c78fcc2d3181cc0889bcc1f0ffed9e",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-ab14b383-3f50-427c-9e3c-2e29c128893b.png",
+      "imagegen_wait_seconds": 39.17,
+      "editing_wait_seconds": 0,
+      "review_result": "PASS_WITH_LIMITATIONS adult barepart hue only; science pending",
+      "review": "Full actual output viewed: both adult naked tarsi and toes visibly dullgrayyellow/olivegray instead of pink, scale lines/darkhornclaws/fourbranchgrips retained. Adultplumage/iris/bills/lowalertcorners/size and whole young including uncertainiris/curledplumage/foldedwing/twocontacts unchanged. PASS_WITH_LIMITATIONS adult skin-tone direction only, not exactcolorimetry or allstage match; youngcurl/iris/cavitygeometry unresolved. Evidence guide printed246 vs sourceinstitution barelegs only; no institutionalirisclaim. Problem pinkadultbareparts→localized hue edit→visually effective here. Lesson adultbarepart palette scope cannot validate juvenileeyes; no claim universalgrayyellow acrossowl species, old#20tarsalconflict remains untouched.",
+      "reviewed_at": "2026-11-28T17:33:57.953Z",
+      "archived_at": "2026-11-28T17:34:03.198Z",
+      "archive_commit": "b82fbfd341178cb4afd204a768c22a2b5a45585c",
+      "ended_at": "2026-11-28T17:34:18.790Z",
+      "verification_exit_code": 0,
+      "commit_sha": "f960c6c0b61f4708b6ba7ed91702333c461e5f96",
+      "credit_commit": "cdf04db33bd9b3f644397a4686c0cb7421d905ef"
+    },
+    {
+      "run_id": "20261128T1725Z-23-psiloscops-flammeolus-v8",
+      "batch_id": "20261128T1632Z",
+      "cycle": 5,
+      "target": "23-psiloscops-flammeolus-v8",
+      "action": "REVISION",
+      "started_at": "2026-11-28T17:34:30.052Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T17:34:30.098Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T17:35:30.313Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T17:36:53.892Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T17:36:58.802Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T17:38:28.442Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T17:38:34.375Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T17:38:39.228Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T17:38:54.308Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T1632Z-cycle5-20261128T1725Z-23-psiloscops-flammeolus-v8.json",
+      "stage": "VERIFIED",
+      "research": "Reuse FLOW-RICHMOND-DEWEESE-PILLMORE-1980-P35-46 (MerleL Richmond, LawrenceR DeWeese, RichardE Pillmore1980), https://journal.westernfieldornithologists.org/index.php/westernbirds/article/download/305/297/582 accessed2026-11-29: webreader inaccessible, directfull12pagePDF eventually succeeded; actuallyread printed37/PDF3,40/PDF6,44/PDF10; viewed Fig2 printed42/PDF8 (and Fig1 printed41/PDF7 only laterflight context). Estimated oneweek captive young densewhitedown/fewbloodquills/noevidenttail, developmentpossiblyretarded; photo lowresolutionB&W cannotcalibratecolor/microfeather or exactartday. Currentchickhaslongcreamtufts; limited shortenhead/chestdown, preservefewquilltips/no tail and natural floor support, no use6weekflightphotoforwhitedown. Reuse FLOW-ORI-2026 actualoriginalAnatomy/Habitat/Nesting https://www.owlresearchinstitute.org/flammulated-owl :darkeyes/smallflattenedtufts/montaneconifers/cavities; broadsecondweeksummary not continuousatlas. ReuseMIKKOLA-2013 actualprinted202/PDF204: whitishnataldown, graybrownbill/cere/darkclaws, femaleaverage3gheaviernotdisplayheightformula. CurrentPsiloscopsflammeolus=oldOtusflammeolus/Scopsflammeola. Sourcefactsversus conservativegraphicmaterialedit distinct. New0/reused3, existingphotopixelsnewlyread notnewpaper; exactage/eyeopening/ratio/cavitygeometryremainunknown.",
+      "full_prompt": "Precise-object-edit #23 Psiloscops flammeolus v7. Change ONLY the central young's head, neck and chest down surface from long cream curled yarn tufts to dense fine short whitish down with subtly uneven wispy tips. Keep overall body shape, small partly-open dark eyes, gray-brown beak, same few tiny developing wing-quill tips, NO developed tail or adult flight-feather panels. Keep belly and both feet supported on solid irregular cavityfloor with only few loose flat woodchips. Preserve both ENTIRE adults, rustygray patterns/dark eyes, fourbranchgrips/size, forest, cavity, labels and pending footer. Exactly3owls same1536x1024 naturalhistory painterlystyle. No exactage/firstflight claims, no smooth naked skin, no extra toes or woven nestcup.",
+      "source_ids": [
+        "FLOW-RICHMOND-DEWEESE-PILLMORE-1980-P35-46",
+        "FLOW-ORI-2026",
+        "MIKKOLA-2013"
+      ],
+      "new_sources": 0,
+      "archive_transfers": [
+        {
+          "started_at": "2026-11-28T17:36:33.554Z",
+          "ended_at": "2026-11-28T17:36:53.863Z",
+          "elapsed_seconds": 20.309,
+          "scope": "base64 preparation+blob transfer+hash validation"
+        },
+        {
+          "started_at": "2026-11-28T17:38:08.394Z",
+          "ended_at": "2026-11-28T17:38:28.422Z",
+          "elapsed_seconds": 20.028,
+          "scope": "base64 preparation+blob transfer+hash validation"
+        }
+      ],
+      "attempt1": {
+        "file": "/workspace/scratch/96400dc71dac/generated_images/exec-8cd67188-8562-4441-b29c-b05920c29176.png",
+        "metadata": {
+          "bytes": 2657153,
+          "sha256": "e94809766d8e1dcf22415b40ace8b0f20f39f47892634628fd107194ffb97b56",
+          "gitblob": "2342dbd3d274c626593ef4c00505d97889248bad",
+          "size": [
+            1536,
+            1024
+          ]
+        },
+        "review": "Viewed: long tufts changed to dense fine wavy yarn-like lines, texture still not supported. Needs second edit."
+      },
+      "second_edit_prompt": "Edit only central young head/neck/chest surface. Remove densely drawn wavy yarn strands entirely. Render a softly diffuse fine down surface with irregular short feather tips at silhouette, no visible repetitive curved lines, worms, loops, braids, hair ringlets or textile stitch texture. Preserve same offwhite plumage and overall shape, tiny wingquilltips/no tail, eyes/beak, floor support/twofeet, adults entirely, cavity/forest/all text. No anatomical or age changes. Same warm painterly fieldguide style.",
+      "image_metadata": {
+        "bytes": 2588262,
+        "sha256": "f2e9ac04f02958b8e2d2d7a40a8d753b4e5d5df87919093e721071faf542e72a",
+        "gitblob": "0ac2a4c1eeda033fffb324931c25d578810565d4",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-f3c078c7-0e97-4d9b-b6c3-4b55d0fd6491.png",
+      "imagegen_wait_seconds": 41.338,
+      "editing_wait_seconds": 50.536,
+      "review_result": "NEEDS_REVISION young down material; scientific pending",
+      "review": "First and second full images actually viewed. First longcreamtufts became dense wavy yarnlines, failed. Second softened/lesscontrast fine lines but curledlinear texture remains on head/chest, not a scientifically supported down match. NEEDS_REVISION/sciencefalse, noclaimmaterialfixed; lowresolutionB&Wsource cannot establish finebarbs/colour. Adults/youngeyes/bill/tinyquilltips/noadultwing/no tail and supportedfloor/twofeet preserved; no flight inferred from sixweekphoto. Problem→inherited wooltemplate; evidence→primaryFig2 estimated/captive; edits→shorten then diffuse; recheck→partialcontrast reduction, unresolvedlinear texture. Lesson text-only negative prompts canretain inherited curl; seek higherresolution species stage photo before repeating. #18/#02/#04 similarly unresolved, not counted repaired. Both actual prompts and attempt1 preserved in run.",
+      "reviewed_at": "2026-11-28T17:38:34.358Z",
+      "archived_at": "2026-11-28T17:38:39.211Z",
+      "archive_commit": "04da060fc8a5d85e2069d79115b337c998685812",
+      "ended_at": "2026-11-28T17:38:54.284Z",
+      "verification_exit_code": 0,
+      "commit_sha": "8254ca16f84bc494ee69c07939e360aeead91542",
+      "credit_commit": "c86e7791f7571b896950c4090b04076b2295530a"
+    },
+    {
+      "run_id": "20261128T1725Z-24-glaucidium-californicum-v7",
+      "batch_id": "20261128T1632Z",
+      "cycle": 6,
+      "target": "24-glaucidium-californicum-v7",
+      "action": "REVISION",
+      "started_at": "2026-11-28T17:39:04.419Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T17:39:04.475Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T17:39:26.061Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T17:41:41.430Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T17:41:46.493Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T17:43:13.976Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T17:43:19.580Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T17:43:24.976Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T17:43:41.460Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T1632Z-cycle6-20261128T1725Z-24-glaucidium-californicum-v7.json",
+      "stage": "VERIFIED",
+      "research": "Reuse NPO-ORI-BROAD-2026 actualFacts/Size/Habitat/Nesting https://www.owlresearchinstitute.org/northern-pygmy-owl read2026-11-29 aftertargetedsearch: broadGlaucidiumgnoma account includesCalifornia/Mountainnames, forestedge/cavitycontext; genericyoungspotting conflictsselectedplainmesoptile; no recolour/spotreset. NPO-SCCP-FACTSHEET webopenfailed, searchhitonlythisrun, nofreshbodyclaim; historicalregionalfactsnotnewsource. ReuseMIKKOLA-2013 actualprinted372/PDF374: grayishyellow sparselybristledtoes, dark-tippedgrayishhornclaws, offwhitefeatheredtarsi. Actualv6claws look uniformlyblack; localizedadultclawbasecorrection, notyoungcolorinference. CurrentGlaucidiumcalifornicum vs oldbroadG.gnoma/swarthiregion preserved, no taxonomiccountchange. Femaleaveragewing/masslonger/heaviernotfixedheight; sameexistingdisplayretained. New0/reused2verifiedfamilies, SCCPonlyunverifiedfreshaccess. Exactage/youngiris/flight/feathermap/sexratio/tailbarfinegeometryunknown. Priorcrown/tailcorrectionsretained. Primaryyoungdetailgap notfilledusing adultfacts.",
+      "full_prompt": "Precise-object-edit #24 Glaucidium californicum v6. Change ONLY the visible claws on BOTH ADULTS: proximal curved claw material grayish horn, keep sharply dark blackish distal tips. Retain all claw outlines, toe scaly skin, toe counts, bristles and branch gripping locations. Do NOT alter juvenile claws or any other juvenile feature, crown plain, eyes/formedfoldedwings/shorttail/pose unchanged. Preserve both adult entire plumage/falseeyes/tails and incompletewhitebar pattern, eyes/bills/tarsalfeathers/body sizes, forest and mountains/all text/scientificpendingfooter. Exactly3birds same1536x1024 warm naturalhistory style. Do not make claw tips yellow or pale, no geometry or sexratio changes.",
+      "source_ids": [
+        "NPO-ORI-BROAD-2026",
+        "MIKKOLA-2013"
+      ],
+      "new_sources": 0,
+      "archive_transfers": [
+        {
+          "started_at": "2026-11-28T17:41:21.086Z",
+          "ended_at": "2026-11-28T17:41:41.394Z",
+          "elapsed_seconds": 20.308,
+          "scope": "base64 preparation+blob transfer+hash validation"
+        },
+        {
+          "started_at": "2026-11-28T17:42:53.695Z",
+          "ended_at": "2026-11-28T17:43:13.955Z",
+          "elapsed_seconds": 20.26,
+          "scope": "base64 preparation+blob transfer+hash validation"
+        }
+      ],
+      "attempt1": {
+        "file": "/workspace/scratch/96400dc71dac/generated_images/exec-0ee72857-b9d8-4c24-b54e-037d27c9a552.png",
+        "metadata": {
+          "bytes": 2660580,
+          "sha256": "277260816b008e352d87e69291855350b0d0d170771bbacfb4a55ec51908c1bb",
+          "gitblob": "2b932f3e682fd5e25c0d877ca208b7fb7876b49c",
+          "size": [
+            1536,
+            1024
+          ]
+        },
+        "review": "Full view adultclaws remain nearlyblack, graybase transition too weak to verify."
+      },
+      "second_edit_prompt": "Local edit only BOTH ADULT owls' visible claws on left/right branches, NOT central young. Make proximal two-thirds of each adult claw a clearly visible medium pale gray-brown horn material, with only distal third blackish pointed tip. Matte horn, not glossy uniform black. Keep every clawoutline/toe contact fixed, yellow toe skin unchanged, no extra digits. Preserve exactly every other part of picture including juvenile, plumage, tails, branches, text, scene, body sizes. Same fieldguide painterlystyle.",
+      "image_metadata": {
+        "bytes": 2662454,
+        "sha256": "314c509943af2cc0ecfcc2a802049308be38bc1726db74598398da91e273eac7",
+        "gitblob": "8a3c5f96b736160c79badce4a69eb8b1ef548482",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-fad6159b-06ab-4175-8d5e-5ace8cad3187.png",
+      "imagegen_wait_seconds": 92.443,
+      "editing_wait_seconds": 47.868,
+      "review_result": "PASS_WITH_LIMITATIONS modest adult proximal claw hue; whole calibration pending",
+      "review": "First/secondfulloutputs viewed. First nearlyblack claws insufficient; second adultproximalclaws modest gray-brownhorn visible against darktips, especiallyleftadultforeclaws; tiny rearclaws remain hardtojudge. PASS_WITH_LIMITATIONS proximalhue-directiononly, notallclaws calibrated; two-thirds prompt was graphic emphasis, NOT measured biologicalratio. Young/itsclaws/formedwings/plaincrown/pose, adultplumage/falseeyes/incomplete-tailbars/toes/branchgrips/text/scene retained. Exactcolorimetry/stage/sexratio/geometryunknown. Problem uniformlyblack→evidence guide grayishhorn darktip→secondlocaledit→modestvisiblebasecontrast, no scientificpass. Lesson explicitmaterialzones can help compared vaguegrayhighlight but effectlimited; do not extrapolate to #25cactorum blackhorn description or othertaxa.",
+      "reviewed_at": "2026-11-28T17:43:19.568Z",
+      "archived_at": "2026-11-28T17:43:24.959Z",
+      "archive_commit": "57ebc246f72a1d36e73daf87ee9c7383e27bc376",
+      "ended_at": "2026-11-28T17:43:41.438Z",
+      "verification_exit_code": 0,
+      "commit_sha": "cb3aa44e6d0f2ea9e5ebf43ea171fb80982ee469",
+      "credit_commit": "a669b86819179247f0f050e59067f7315cb9dd1f"
+    },
+    {
+      "run_id": "20261128T1725Z-26-glaucidium-siju-v8",
+      "batch_id": "20261128T1725Z",
+      "cycle": 1,
+      "target": "26-glaucidium-siju-v8",
+      "action": "REVISION",
+      "started_at": "2026-11-28T17:43:51.365Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T17:43:51.411Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T17:44:21.742Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T17:45:38.375Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T17:45:43.748Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T17:46:59.075Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T17:47:03.573Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T17:47:08.307Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T17:47:22.649Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T1725Z-cycle1-20261128T1725Z-26-glaucidium-siju-v8.json",
+      "stage": "VERIFIED",
+      "research": "Reuse CUPO-PYLE-ETAL-2004-JFO PeterPyle,AmyMcAndrews,PilarVélez,RobertLWilkerson,RodneyBSiegel,DavidFDeSante2004, Molt patterns and age and sex determination of selected southeastern Cuban landbirds, JFieldOrnithol75:136–145; https://www.birdpop.org/docs/pubs/Pyle_et_al_2004_Molt_Patterns_and_Age_and_Sex_Determ_of_Selected_SE_Cuban_Birds.pdf originalMethods137/PDF2 and species138/PDF3 freshlyread2026-11-29. G.siju juveniles unmarkedback/streakedbelow/indistinctcrownspots; dullerHYiris hasquestionmark, notconfirmedsequence; field/specimenssoutheastCuba, wingchordnotstandingheight/sexkeycolouralone. ReuseCUPO-MIKKOLA-2013 same Mikkola2013publication actualprinted382/PDF384: adultoffwhite underparts denselybarredbrownishochre onUPPERBREASTSIDES leavingUNMARKED longitudinalCENTRALthroat-to-lowerbreast, restspotted/streaked. v7adultcenterupperchest stronglymarked; removeonlyadultmidlineupperbreastmarks, notlowerbelly/streaksorsidebarpattern. Youngwholestreakedunderparts retained perprimary. G.siju current; historicalTaenioglaux attribution not sourcepage, previouslywithdrawn; no newtaxon. Guideplainmesoptilecrown vsprimaryindistinctspotsconflict and unknownyoungiris remain. New0/reused2; no exactage/flight/nestexperiment; woodlandperchsupportretained. Morph≠sex; oldlabelcolourpairnotdiagnosticsexproof.",
+      "full_prompt": "Precise localized edit #26 Cuban Pygmy-Owl Glaucidium siju v7. BOTH ADULTS ONLY: create a narrow unmarked off-white longitudinal area from throat through middle of upper breast down to lower breast, removing dark streaks/crossbars ONLY within that central chest strip. Keep brownish-ochre barring on upper breast SIDES; retain spots and streaks on lower belly/flanks. Do not make the whole chest or entire abdomen plain. Do not edit central juvenile at all, especially streaked underparts/plain mantle/indistinctcrownspots/unknown iris/formedwings/feet. Preserve adultfaces/eyes/bills/nape falseeyes/wingandtailpatterns/size/tarsalfeathers/feet/branch, same forest/all labels and uncertainty footer. Title version v8. Exactly3 birds same1536x1024 naturalhistory style. No sexcolourkey, no stage claims.",
+      "source_ids": [
+        "CUPO-PYLE-ETAL-2004-JFO",
+        "CUPO-MIKKOLA-2013"
+      ],
+      "new_sources": 0,
+      "archive_transfers": [
+        {
+          "started_at": "2026-11-28T17:45:19.685Z",
+          "ended_at": "2026-11-28T17:45:38.352Z",
+          "elapsed_seconds": 18.667,
+          "scope": "base64 preparation+blob transfer+hash validation"
+        },
+        {
+          "started_at": "2026-11-28T17:46:41.122Z",
+          "ended_at": "2026-11-28T17:46:59.055Z",
+          "elapsed_seconds": 17.933,
+          "scope": "base64 preparation+blob transfer+hash validation"
+        }
+      ],
+      "attempt1": {
+        "file": "/workspace/scratch/96400dc71dac/generated_images/exec-d86f1c35-3af9-4d81-8cc8-bc62e5992c16.png",
+        "metadata": {
+          "bytes": 2434168,
+          "sha256": "ab12ebb4e54e14e43d5d0accb3e638dd2acdd33d7db83a193f6394ad2f4a132a",
+          "gitblob": "1bd16f2cc3f877301a745083bd337d381488b3b9",
+          "size": [
+            1536,
+            1024
+          ]
+        },
+        "review": "Adultcentralunmarkedstrip achieved but extends into lowerbelly; restore lowerbellystreaks without erasing cheststrip."
+      },
+      "second_edit_prompt": "Change ONLY lower central BELLY of each adult owl (left/right), below end of upper breast and above legs: restore a few thin brown longitudinal feather streaks/spots there. Keep the new unmarked narrow offwhite THROAT and CENTRAL UPPER CHEST strip intact. Keep lateral chest bars, all other adult features, whole juvenile, feet, branches, text, forest unchanged. Do not extend white centralstrip all waytolegs. Exactly3birds same warm naturalhistory style.",
+      "image_metadata": {
+        "bytes": 2343538,
+        "sha256": "218521f94d8d38432f3df6e9dd685852a52f8ff985890002c563e61d618fbfe6",
+        "gitblob": "d1e1251081a59b20027de04c1679f2de46018281",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-2d3c7d82-3a77-4977-b5e2-6c8de0372045.png",
+      "imagegen_wait_seconds": 39.164,
+      "editing_wait_seconds": 39.218,
+      "review_result": "NEEDS_REVISION adult chest/belly boundary; scientific pending",
+      "review": "Both fulloutputs viewed. First adultcentralwhitecheststrip added but extends overly far towardlegs; second restores a few lowerbellybrownstreaks yet centralstrip still visuallylong, especiallyfemale. NEEDS_REVISION extentboundary, notclaimcompletepatternmatch; localunmarkedupperchestdirection improved. Sidebreastbars/sidebellystreaks and juvenileentirestreakedbody/unknowniris/plainmantle/formedwings/twofeet retained; adultsothertraits/branchsupport/titlev8 preserved. Source unmarkedthroat-throughlowerbreast doesnotjustifyunmarkedwholebelly. Problem→centralupperbreastmarking; edit→removeonlystrip, secondrestorelowerbelly; recheck→boundarynotfullyresolved, needs reliable adultfrontalphoto/betterspatialmask evidence. Lesson localizedwhiteareas easilyexpand beyond citedanatomicregion; secondtexteditnotverifiedeffective, cannotgeneralize. Nochange #24or25taxonomy and no juvenilecolorkey claim.",
+      "reviewed_at": "2026-11-28T17:47:03.561Z",
+      "archived_at": "2026-11-28T17:47:08.288Z",
+      "archive_commit": "d76db7d2d013a41b7a86f6fba2a528fc37fc02c2",
+      "ended_at": "2026-11-28T17:47:22.628Z",
+      "verification_exit_code": 0,
+      "commit_sha": "21ad10e2872bab876b4f4ba8881e079b3f2ed127",
+      "credit_commit": "e35b7cf755fb11dc43f19a2c3f1402498b75a3a4"
+    },
+    {
+      "run_id": "20261128T1725Z-27-glaucidium-passerinum-v8",
+      "batch_id": "20261128T1725Z",
+      "cycle": 2,
+      "target": "27-glaucidium-passerinum-v8",
+      "action": "REVISION",
+      "started_at": "2026-11-28T17:47:33.038Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T17:47:33.086Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T17:48:04.976Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T17:49:17.941Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T17:49:23.235Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T17:50:43.573Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T17:50:48.844Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T17:50:53.923Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T17:51:05.103Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T1725Z-cycle2-20261128T1725Z-27-glaucidium-passerinum-v8.json",
+      "stage": "VERIFIED",
+      "research": "Reuse EUPO-EGE-2024-FLEDGING GesellschaftzurErhaltungderEulen, DerSperlingskauz (page2024-11-24), https://egeeulen.de/eulenarten/der-sperlingskauz-glaucidium-passerinum/ targetedexternalquery+actualKennzeichen/Lebensraum/Fortpflanzung read2026-11-29: structuredoldconifer/mixedwoodland/woodpeckercavities, youngdepart with someflightability beforefullflightfeathergrowth; notproof thisconceptindividualflies or exactday. ReuseEUPO-MIKKOLA-2013 same2013publication actualprinted364/PDF366 text and printed365/PDF367 photosviewed: plainmesoptilecrown/darkface/whitebrows/whitechin, whitebrowadultalso; sourcephotoplatesnotexactageatlas. Femalemassvariesbreedingcondition notfixedstandingheight. CurrentGlaucidiumpasserinum; historicalStrixpasserina mappingalreadyrepositoryconvention, no taxonomychange. Actualv7formedfoldedwings/shorttail and twobranchgrips retained. Designvariantonly: gentle young head turn towardleftadult, body/feetunchanged, no flight/running/jumping, notclaim previousposewrong. New0/reused2, existinguploadedphotoaccessrenewednotnewsource. Exactiris/age/youngsex/flightability/featherdensity/nestgeometryunknown, no juvenile color or textureguess.",
+      "full_prompt": "Precise-object-edit #27 Glaucidium passerinum v7. Change ONLY central young's head orientation: turn head modestly toward the adult on image LEFT, as if quietly attending to it, head remains naturally joined to same neck and body. Preserve dark plain crown, prominent pale brows and white chin, same dark provisional iris and yellow-horn bill, round low head/no ear horns. Keep entire young body, formed folded wings, shorttail, both feet gripping mossy sprucebranch unchanged. Both adults entirely unchanged, body sizes/feathers/eyes/beaks/legs, hollow/coniferlandscape/alltext/pendingfooter preserved. Title v8. Exactly3birds same1536x1024 warm naturalhistory style. No flight/raisedwing/extra neck or invented day age; resting headturn design only.",
+      "source_ids": [
+        "EUPO-EGE-2024-FLEDGING",
+        "EUPO-MIKKOLA-2013"
+      ],
+      "new_sources": 0,
+      "archive_transfers": [
+        {
+          "started_at": "2026-11-28T17:48:58.008Z",
+          "ended_at": "2026-11-28T17:49:17.919Z",
+          "elapsed_seconds": 19.911,
+          "scope": "base64 preparation+blob transfer+hash validation"
+        },
+        {
+          "started_at": "2026-11-28T17:50:24.401Z",
+          "ended_at": "2026-11-28T17:50:43.552Z",
+          "elapsed_seconds": 19.152,
+          "scope": "base64 preparation+blob transfer+hash validation"
+        }
+      ],
+      "attempt1": {
+        "file": "/workspace/scratch/96400dc71dac/generated_images/exec-f0a76e65-c6a6-40be-9401-35b6fe6bc506.png",
+        "metadata": {
+          "bytes": 2611171,
+          "sha256": "e582aa8d00e23a692da6e1b6d7a1a54df3d8879dd578b3efe4606896e553919b",
+          "gitblob": "3daadf7f85458ae0a5edfec8041df09db977137b",
+          "size": [
+            1536,
+            1024
+          ]
+        },
+        "review": "Headturnsupported; title ignoredv8 andstillv7, fixonlyversiontext."
+      },
+      "second_edit_prompt": "Text localization ONLY: at very top title change the final 'v7' to 'v8'. Exact title '27 EURASIAN PYGMY-OWL v8'. Preserve every pixel appearance of all3birds including young's new leftwardheadturn, all plumage/feet/support/forest, scientificname, rolelabels and footer. No other changes.",
+      "image_metadata": {
+        "bytes": 2469331,
+        "sha256": "10504d7ce31076424e13adc1eaa86632724b2cdb20c80b1adb891db774e6564e",
+        "gitblob": "0a17b026b91e8d79383c37803e4d7ac18b97c6a5",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-65ece53d-d572-4abc-bac0-dbf725a8a828.png",
+      "imagegen_wait_seconds": 31.903,
+      "editing_wait_seconds": 40.938,
+      "review_result": "PASS_WITH_LIMITATIONS supported head-turn design; scientific pending",
+      "review": "Bothfulloutputs viewed. First youngheadturnleftnaturallyconnectedtoneck, plaincrown/whitebrows/chinretained, formedwings/tail/twogrips unchanged, butprintedtitlev7notv8. Secondtexteditcorrectedv8, poseandadultsretained. PWL pose-design/versionlabelonly/sciencefalse, notproof previouslywrong or exactwildmotion. Actual EGE youngsomeflightability cannot date or verify individualflight; noairbornepose. Unknownyoungiris/featherdensity/sexratio/nestgeometry remain. Problem repetitiverightlookingpose→conservativeheadturn→supportedcontacts visible; accidentalstaleversion→secondedit→v8actuallyvisible. Lesson titleversionmustreadactualpixelsnotonlyfilepath; prior#21/22/23/24noexplicitversiontoken, notinconsistent. No new biologicalrulesvalidated.",
+      "reviewed_at": "2026-11-28T17:50:48.832Z",
+      "archived_at": "2026-11-28T17:50:53.904Z",
+      "archive_commit": "975fe98179e58f095c366b94b9bb883b2a8d8909",
+      "ended_at": "2026-11-28T17:51:05.082Z",
+      "verification_exit_code": 0,
+      "commit_sha": "5a5656dd93a55d7c82eea7cb929afb5083b0fb3b",
+      "credit_commit": "856551eefead68a8608581c1943c9a0e3aef8979"
+    }
+  ],
+  "counts": {
+    "old": 1542,
+    "versions": 1548,
+    "species": 207,
+    "preserved": true
+  },
+  "readback_head": "856551eefead68a8608581c1943c9a0e3aef8979"
+}

@@ -13,16 +13,33 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T02:51:25.420Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T02:52:32.692Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0232Z-cycle3-20261128T0232Z-95-pulsatrix-melanota-v10.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Access28Nov2026Shanghai. Reuse MEL-RIVAS-FUENZALIDA-BURGOS-2022-84-88: TomasRivas-Fuenzalida/KatherineBurgos-Andrade2022, PrimerregistrodenidificacionyotrasobservacionessobreelBuhoventribandeado(Pulsatrixmelanota), OrnitolNeotrop33(1):84–88, DOI10.58843/ornneo.v33i1.921. Fresh targetedsourcefullbodyread https://www.researchgate.net/publication/361692223_PRIMER_REGISTRO_DE_NIDIFICACION_Y_OTRAS_OBSERVACIONES_SOBRE_EL_BUHO_VENTRIBANDEADO_PULSATRIX_MELANOTA ; printed84–86, especially86 observations4young: cinnamondown/darkface/darkiris; headdownturnsWHITE asfirstchestfeathersgrow. Not a measuredage/flighttimeline. EarlyJuly2020fewdaysnestlingwhiteperiocular/throatNOTolderstage.2019groundfoundyoungVillaMoreti7Oct/FundoArmorique19Aug; actualnest2020exposedAlbiziafork6m,moss/leaves/bark/organicunlinedfloor, coffeeplantainagroforest; don'tclaimolderdesigntreeforkisobservednestoccupancy. ReuseMIKKOLA-2013 uploadedprinted314/PDF316freshtextread: darkadultreddishbrown-blackishiris,paleyellowbill,graycere,baregraybrowntoes/blacktippedhornclaws; only2unsexedweightsnoRSDheightproof. OldNoctuamelanota→Pulsatrixmelanota. Sourcebookyoungcaptionwhitehead/blackface/darkbrowniris, fullerwingolderstageNOTtransferred. Actualv9seen: youngupperheadpalepeach/creamwithcinnamonhindcrown andfewemergingchestfeathers. Boundedpalettecalibrationtooff-whitecrown/occiputretainingblackmask/cinnamonbody; sourcequalitativeheadwhiteningcannotforceexactborderorfullywhiteallface. Noage/flight/sexclaim. New0,reuse2sources; wholeimage scientificfalse.",
   "full_prompt": "Precise local edit of #95 Pulsatrix melanota v9. Only centre young: make crown and upper occipital HEAD DOWN a neutral warm OFF-WHITE rather than peach/cinnamon, matching documented head-whitening phase as tiny first chest feathers emerge. Preserve black facial mask/dark brown irises/yellow bill, cinnamon body down, exact few short chest feather tips, short immature folded wings/concealed tail, proportions, two feet and belly naturally supported on broad fork. No white body, no adult remiges/tail, no new nest. Both adults and all their plumage, eyes, feet, size and scenery unchanged. Title v9→v10 only. Keep age-unknown/dependent-young and scientific-review-pending footer. This is qualitative colour calibration, not an exact-age or first-flight claim.",
   "source_ids": [
     "MEL-RIVAS-FUENZALIDA-BURGOS-2022-84-88",
     "MIKKOLA-2013"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "image_metadata": {
+    "bytes": 2349151,
+    "sha256": "b514a2f8d445a47c77d2685bf575059d3beb63195628f77318f274eb57b7e4d1",
+    "gitblob": "71a36c0df0c9c883a9a2ead497ba4adf82f504d6",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-e3b06204-38be-4c64-8dd2-3e9a1c53cf19.png",
+  "imagegen_wait_seconds": 33.374,
+  "editing_wait_seconds": 0,
+  "review_result": "PASS_WITH_LIMITATIONS"
 }

@@ -29,11 +29,15 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-28T10:42:29.387Z"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-28T10:42:44.306Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T1028Z-cycle2-20261128T1028Z-145-ninox-philippensis-v6.json",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "research": "复用NPH-RASMUSSEN-2012 / LZBO-RASMUSSEN-2012-P13-14（同一论文）Rasmussen et al.2012 Forktail28:1–20，原文URL https://www.asianscientist.com/wp-content/uploads/2012/08/Vocal-divergence-and-new-species.pdf ，2026-11-28实际读取printed13/PDF14 Diagnosis及Table7、p12Fig6a（R.J.Quisumbing，Dolores Quezon2012-01-16），并针对adult unspotted crown外部检索。原文成鸟crown到rump纯棕、无横斑/点斑，larger outer wing-coverts大白斑而无横斑，尾浅条弱且窄。v5实际看成鸟上翼散布较多小浅短线/羽缘装饰，可混同其他菲律宾种，故本轮集中成年上部羽纹清理，保留诊断大白肩/翼斑。复用MIKKOLA-2013 printed473/PDF475实际读取（同书非新增），同意plain upperparts；幼鸟p473旧汇总不足以给当前拆分后N.philippensis精确虹膜序列。原N.philippensis广义七种拆分，当前145限定Luzon型；不把其他岛种纹样套用。大小方向未证实，构图不测量；中央较成熟young保持，年龄/飞行/巢位未知，未画巢；森林枝作为支撑。来源新增0、复用2出版物；本次纠正成鸟纹理指令，不宣称幼鸟或整图科学通过。\n补充准确性：Mikkola printed473实际明确写males a little larger than females，故不能笼统说方向未知；该二手定性说法支持避免统一雌大雄小，但未给成鸟高度比例，本轮保留雄稍高设计槽位不称测量。Juvenile条有白初生绒及离巢羽描述，本轮未利用其构造新初生/首飞状态，也不把当前中央成图视为校准。",
   "full_prompt": "Edit #145 Ninox philippensis v5 to v6, preserve warm polished 3D owl pet triptych. Correct ADULT UPPERPART PATTERN ONLY: both outer adults' crown, nape, mantle and most wing-coverts must read UNIFORM dark earth-brown, without conspicuous buff speckles or transverse buff bars. These are Luzon Boobooks, not spotted-crown Mindanao nor barred Camiguin. Retain separate large WHITE spots on larger OUTER wing-coverts and larger pale scapular patch with brown edges; do NOT erase these diagnostic limited white patches. Remove the small repeated pale dash-like or band-like marks spread over adult upper wings/back/head. Keep natural individual feather structure without decorative pale feather tips. Also keep adult tail pale bands narrow and weak compared with broad dark intervals, not zebra bars. Preserve yellow eyes, small white-buff eyebrows, soft ear-covert feather fringe, olive-yellow bill, streaked whitish/rufous ventrum, yellow feet/dark claws. CENTER AGE-UNKNOWN YOUNG unchanged, no adult-pattern transfer. Same three supported birds/branch/forest/proportions, no nest or flight. Title '#145 NINOX PHILIPPENSIS v6 · LUZON BOOBOOK'; adult labels add 'SEX INFERRED'; young label 'YOUNG · AGE / IRIS CHRONOLOGY UNVERIFIED'; footer 'CHARACTER CONCEPT · NOT TO SCALE · SCIENTIFIC CALIBRATION PENDING'.",
   "source_ids": [
@@ -57,5 +61,8 @@
   "review_result": "PASS_WITH_LIMITATIONS",
   "review": "实际查看v6：成鸟冠背和大部上翼为连续深棕，原v5许多浅短羽缘装饰去除；保留两侧大白肩斑及外翼大白点，弱窄尾横条仍可见，符合p13限定。黄眼、小白眉、细柔耳羽、橄榄黄喙、纵纹腹与落脚保留；中央young未套成鸟羽纹，标签虹膜序列/年龄未核实。整体实际羽片仍艺术化，局部通过非整种科学通过。Mikkola明确雄略大，未给高度比；当前雄较高不称实测。问题→通用羽缘装饰引入不应有斑纹；证据→原文无横斑点斑但有局限大白翼斑；修改→分区域保留/移除；复查→大白斑与纯棕面并存有效。回查145v5并保留，不能把无斑规则套144/147/148。young阶段、巢位、飞行仍未验证，sciencefalse。",
   "reviewed_at": "2026-11-28T10:42:25.101Z",
-  "archived_at": "2026-11-28T10:42:29.374Z"
+  "archived_at": "2026-11-28T10:42:29.374Z",
+  "archive_commit": "d7d9fefecb2c4814f2d68d767e30c841ebbb7a71",
+  "ended_at": "2026-11-28T10:42:44.284Z",
+  "verification_exit_code": 0
 }

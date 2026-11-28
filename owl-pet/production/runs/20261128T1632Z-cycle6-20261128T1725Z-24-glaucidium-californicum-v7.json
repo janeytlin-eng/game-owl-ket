@@ -33,11 +33,15 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-28T17:43:24.976Z"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-28T17:43:41.460Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T1632Z-cycle6-20261128T1725Z-24-glaucidium-californicum-v7.json",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "research": "Reuse NPO-ORI-BROAD-2026 actualFacts/Size/Habitat/Nesting https://www.owlresearchinstitute.org/northern-pygmy-owl read2026-11-29 aftertargetedsearch: broadGlaucidiumgnoma account includesCalifornia/Mountainnames, forestedge/cavitycontext; genericyoungspotting conflictsselectedplainmesoptile; no recolour/spotreset. NPO-SCCP-FACTSHEET webopenfailed, searchhitonlythisrun, nofreshbodyclaim; historicalregionalfactsnotnewsource. ReuseMIKKOLA-2013 actualprinted372/PDF374: grayishyellow sparselybristledtoes, dark-tippedgrayishhornclaws, offwhitefeatheredtarsi. Actualv6claws look uniformlyblack; localizedadultclawbasecorrection, notyoungcolorinference. CurrentGlaucidiumcalifornicum vs oldbroadG.gnoma/swarthiregion preserved, no taxonomiccountchange. Femaleaveragewing/masslonger/heaviernotfixedheight; sameexistingdisplayretained. New0/reused2verifiedfamilies, SCCPonlyunverifiedfreshaccess. Exactage/youngiris/flight/feathermap/sexratio/tailbarfinegeometryunknown. Priorcrown/tailcorrectionsretained. Primaryyoungdetailgap notfilledusing adultfacts.",
   "full_prompt": "Precise-object-edit #24 Glaucidium californicum v6. Change ONLY the visible claws on BOTH ADULTS: proximal curved claw material grayish horn, keep sharply dark blackish distal tips. Retain all claw outlines, toe scaly skin, toe counts, bristles and branch gripping locations. Do NOT alter juvenile claws or any other juvenile feature, crown plain, eyes/formedfoldedwings/shorttail/pose unchanged. Preserve both adult entire plumage/falseeyes/tails and incompletewhitebar pattern, eyes/bills/tarsalfeathers/body sizes, forest and mountains/all text/scientificpendingfooter. Exactly3birds same1536x1024 warm naturalhistory style. Do not make claw tips yellow or pale, no geometry or sexratio changes.",
   "source_ids": [
@@ -88,5 +92,8 @@
   "review_result": "PASS_WITH_LIMITATIONS modest adult proximal claw hue; whole calibration pending",
   "review": "First/secondfulloutputs viewed. First nearlyblack claws insufficient; second adultproximalclaws modest gray-brownhorn visible against darktips, especiallyleftadultforeclaws; tiny rearclaws remain hardtojudge. PASS_WITH_LIMITATIONS proximalhue-directiononly, notallclaws calibrated; two-thirds prompt was graphic emphasis, NOT measured biologicalratio. Young/itsclaws/formedwings/plaincrown/pose, adultplumage/falseeyes/incomplete-tailbars/toes/branchgrips/text/scene retained. Exactcolorimetry/stage/sexratio/geometryunknown. Problem uniformlyblack→evidence guide grayishhorn darktip→secondlocaledit→modestvisiblebasecontrast, no scientificpass. Lesson explicitmaterialzones can help compared vaguegrayhighlight but effectlimited; do not extrapolate to #25cactorum blackhorn description or othertaxa.",
   "reviewed_at": "2026-11-28T17:43:19.568Z",
-  "archived_at": "2026-11-28T17:43:24.959Z"
+  "archived_at": "2026-11-28T17:43:24.959Z",
+  "archive_commit": "57ebc246f72a1d36e73daf87ee9c7383e27bc376",
+  "ended_at": "2026-11-28T17:43:41.438Z",
+  "verification_exit_code": 0
 }

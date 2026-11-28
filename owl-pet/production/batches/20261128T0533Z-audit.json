@@ -1,0 +1,482 @@
+{
+  "run_id": "20261128T0533Z",
+  "baseline": "9aaaa0cda54ca392fd0e9da5fc37226aea5b0bc7",
+  "results": [
+    {
+      "run_id": "20261128T0533Z-108-otus-rutilus-v19",
+      "batch_id": "20261128T0430Z",
+      "cycle": 5,
+      "target": "108-otus-rutilus-v19",
+      "action": "REVISION",
+      "started_at": "2026-11-28T05:34:39.481Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T05:34:39.527Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T05:35:17.817Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T05:36:27.906Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T05:37:46.707Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T05:37:50.913Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T05:37:55.482Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T05:38:17.550Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0430Z-cycle5-20261128T0533Z-108-otus-rutilus-v19.json",
+      "stage": "VERIFIED",
+      "research": "Access2026-11-28. RUT-VASSEN-2013-ANDASIBE-JUV FrankVassen4Dec2013Andasibe photo https://www.flickr.com/photos/42244964@N03/12038858063/ Commonsmirror https://commons.wikimedia.org/wiki/File:Juvenile_Madagascar_Scops_Owl_(Otus_rutilus),_Andasibe,_Madagascar.jpg actualfreshbodyread113–136 andcachedphotoactuallyviewed: juvenile perched/finebrown-buffmottling/darkmask/yellowbrowniris/darkbill, no age/sex/flight metadata. MIKKOLA-2013 HeimoMikkola2013uploadedprinted143/PDF145actualread adultyelloweyes/graybrownbill/tarsifeatheredtotoebase/femaleavg18gMASSnotheight; juvenileunknown. OldScopsrutilus→Otusrutilus. V18repeatedoutlinedunits unresolved; newtestvolumetricindividualstraightbarbsratherflatfeatherunits. Notnewbiologicalfact/knownsuccess. New0/reuse2; ageflightnestunknown retained.",
+      "full_prompt": "Scientific-educational petplate compositing experiment. Image1 #108v18 is edit target, preserve TWO ADULTS/environment/text/supports. Image2 real juvenile is biologicalreference. Rebuild ONLY centrejuvenile's surface using dense tiny STRAIGHT soft feather filaments emerging from continuous volume, brown and buff finely irregular mottled clouds. At image scale individual feathers should NOT be discrete outlined leaves; no geometric rows or bright rims, no yarnloops. Model individual fuzzy barbs with low contrast stochastic texture rather overlapfeatherunits. This is changeofsurfaceprimitive, not just smoothing oldfeathers. Keep samejuvenilestage/pose/head/eye/darkbill/feet/grip/silhouette, preserve darkmask. No new age/flight/nest. v18→v19, samegentle3Dpetstyle and footer. Do notuse sourcephotorealcutout.",
+      "source_ids": [
+        "RUT-VASSEN-2013-ANDASIBE-JUV",
+        "MIKKOLA-2013"
+      ],
+      "new_sources": 0,
+      "first_attempt_metadata": {
+        "bytes": 2716792,
+        "sha256": "d496b86c93409532bfd2f5e976076fbf5dd4a38a4ad238db88c0ef5fbe75cc47",
+        "gitblob": "2a6970e7075e816fb0397656b067599dd4f762a7",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "first_review": "Still curly/outlined leafpattern, targetededit required",
+      "followup_prompt": "Edit #108v19 ONLY centrejuvenile bodyplumage. Remove the pale outline on every repeated leaf-shaped feather. Body should be dense matte tiny straight soft filaments with uneven fine brown mottling; no loops/cords, no long individual leafshapes. Head/darkmask/eye/bill/silhouette/feet exactsame. KeepallADULTS/branch/labels/forest unchanged. No age/flight claims. v19 retained.",
+      "image_metadata": {
+        "bytes": 2694910,
+        "sha256": "7b08ac3c484345996f9fcee06290563583c72bb4e29bf19fd6b9c1d832efbd35",
+        "gitblob": "415d214fa2ff6b15eaaaabb9b9b9437bf6053390",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-b8adfe35-30d7-4fd3-bf4c-de791f33bb4b.png",
+      "imagegen_wait_seconds": 35.893,
+      "editing_wait_seconds": 47.4,
+      "review_result": "NEEDS_REVISION",
+      "review": "First and secondactualoutputsviewed: finerbodyfilaments aftersecondedit, but repeatedoutlinedloops stillremain onneck/belly. NEEDS_REVISION, notvalidatedvolumetricbarbmethod. Photoactualsource muchfiner mottledfeatherplane. Adults/eye/bill/stage/silhouette/threequarterpose/feetgrip/forest/labels preserved visually; no matureflightfeathers or newnest. Unknownage/flight retained. Negative rule: changing surfaceprimitive words did not remove learned leafunits; do not repeat as proven improvement;108/130/112 unresolved.",
+      "reviewed_at": "2026-11-28T05:37:50.903Z",
+      "archived_at": "2026-11-28T05:37:55.467Z",
+      "archive_commit": "b352257d4112f8dc33f5c02d6999978dd7c6d3f6",
+      "ended_at": "2026-11-28T05:38:17.531Z",
+      "verification_exit_code": 0,
+      "commit_sha": "a3ce24e985b0efe780c9597cef6f157133719c13",
+      "credit_commit": "c66b7e9d6cf355f8b60a68c2a1c6c0ff0d3040f5"
+    },
+    {
+      "run_id": "20261128T0533Z-130-megascops-koepckeae-v25",
+      "batch_id": "20261128T0430Z",
+      "cycle": 6,
+      "target": "130-megascops-koepckeae-v25",
+      "action": "REVISION",
+      "started_at": "2026-11-28T05:38:26.223Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T05:38:26.271Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T05:38:58.672Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T05:40:09.726Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T05:41:22.820Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T05:41:27.377Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T05:41:31.886Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T05:41:51.159Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0430Z-cycle6-20261128T0533Z-130-megascops-koepckeae-v25.json",
+      "stage": "VERIFIED",
+      "research": "Access2026-11-28. ReuseKOEP-MIK2013-222 uploadedHeimoMikkola2013printed222/PDF224actualread: whitishgrayfacialdisc mottled/speckleddark,lighterouteredge/prominentblackruff/yellowiris/bluetogreenhornbill/graybrowntoes/darkclaws; nosexsizedata. V24adultfacebroadbrightoutlinedplates; boundedfinepigmentflecksedit. ReappraisalofKoepckesScreechOwl Fjeldsa/Krabbe/SanchezVega/Villegas2012 BullBOC132(3):180–191 existingindexedsource freshactualexternalbodyread https://www.academia.edu/29357625/Reappraisal_of_Koepcke_s_Screech_Owl_Megascops_koepckeae_and_description_of_a_new_subspecies pp184/189: sharedpalefacedarkborder; hockingi holotypegrayfacefaintmottles, subspeciesbellydifferenceNOTtransferred. KOEP-ALARCON-2023 originalcachedp104/PDF13freshread leavesyoungdependentperch/graywhitebar/brownchest/yellowiris/ageflightunknown intact, no nestroominvented. OldOtuskoepckeae→Megascopskoepckeae. New0/reuse3 IDs; 2012exactIDresolvedbeforefinalindexaudit.",
+      "full_prompt": "Precise-object-edit scientificpetconcept #130v24→v25. ONLY TWO ADULT facial-disc surface pigment: whitish-gray face with tiny diffuse darkgray flecks/mottles, rather large brightoutlined plates. Keep black lateralruff and palerouteredge/whitebrow/yelloweyes/bill exactly. Do not changefeathergeometry/tufts/crownfromv23/bodyplumage/feet/relativeadultheight/forest/labels. ENTIRErightdependentfledgling includingnewbrownchest/fullbodynessoptiles/graywhitebars/formedwingtail/unknownage unchanged. Preserveknownjuveniletextureproblem notclaimsolved. No copying hockingi pale belly onto thisconcept; only sharedadult facialflecks.",
+      "source_ids": [
+        "KOEP-MIK2013-222",
+        "KOEP-ALARCON-2023",
+        "KOEP-FJELDSA-2012-P180-191"
+      ],
+      "new_sources": 0,
+      "first_attempt_metadata": {
+        "bytes": 2415743,
+        "sha256": "6a163251191a79fc5d1ead368da1b546c30971af79837c88193ad9f9023a7a9b",
+        "gitblob": "e3a48f0c1b4270de6fef42e57b7eb86628bde209",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "first_review": "Faces overwhite/outlined polygons; secondedit required",
+      "followup_prompt": "Edit #130v25 ONLY twoADULTfaces: remove all brightwhite polygon edges/cracked ceramic effect. Replace face with soft whitishGRAY individual fine radiating facialfeathers, tiny muteddarkgray pigmentflecks, no white outlines. Preserve darkruff/paleouteredge/eyes/bills/tufts/body/entireyoung/environment/text unchanged.",
+      "image_metadata": {
+        "bytes": 2412211,
+        "sha256": "7294eda321d29f9ab8a54ecf7c5ed170c6dff7f955d29618269f53b624f33341",
+        "gitblob": "cab1e9ee90763ff8e044329bb9691c54b25ed5bd",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-28e95229-05d3-4b08-87c3-795715843983.png",
+      "imagegen_wait_seconds": 34.786,
+      "editing_wait_seconds": 43.328,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "review": "Firstactualfacepolygonoutlinesfailed. Secondactualview finegray-white radiatingfacialfeathers withdarkflecks, cracked-whiteunitsremoved, blackruff/eyes/bill/crown/body/youngbrownchest/barrednessoptiles unchanged. LocaladultfacePWL only; featherfilaments stillstylized notexactfacialpattern. Juvenileleafgeometryunresolved, agesexflightunknown. ExactreuseIDcorrection KOEP-FJELDSA-2012-P180-191, same2012source notnewentry; holotypeadult/hockingi lowerbellynottransferred. Finefaceprimitivechange locallyhelpedadult, didNOTvalidate108juvenilemethod.",
+      "reviewed_at": "2026-11-28T05:41:27.367Z",
+      "archived_at": "2026-11-28T05:41:31.870Z",
+      "archive_commit": "ecc192ce65376dffbd03234944adb87fc55f8843",
+      "ended_at": "2026-11-28T05:41:51.141Z",
+      "verification_exit_code": 0,
+      "commit_sha": "19c99ac97c633ca79bc29a3d1daa354a675938cb",
+      "credit_commit": "565daff586eb3b8d80a67b9ff50fb2711d81951d"
+    },
+    {
+      "run_id": "20261128T0533Z-137-otus-alfredi-v11",
+      "batch_id": "20261128T0533Z",
+      "cycle": 1,
+      "target": "137-otus-alfredi-v11",
+      "action": "REVISION",
+      "started_at": "2026-11-28T05:42:00.551Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T05:42:00.594Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T05:42:30.704Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T05:43:35.986Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T05:43:40.433Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T05:43:44.804Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T05:44:05.415Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0533Z-cycle1-20261128T0533Z-137-otus-alfredi-v11.json",
+      "stage": "VERIFIED",
+      "research": "Access2026-11-28. FLO-WIDODO-1999 WidodoW/CoxJH/RasmussenPC1999 Forktail15:15–23 original https://static1.squarespace.com/static/5c1a9e03f407b482a158da87/t/5c1fc23b2b6a282c991de675/1545585212532/Widodo-Flores.pdf freshactualexternalbodyread pp15/17/Table2pp18–19: rictalbristleslongprofuse RUF OUSdarkertips; sourcefacts also supportscalyneck/whitediamonds/whitefinevermicbelly,noblackshafts. V10adultstrandslight/white; boundedbristlepigmentrepair only. MIKKOLA-2013 uploadedHeimoMikkola2013printed184/PDF186actualread nosexsizedata/longauriculars/cinnamonface/orangeyellowbillandpaleclaws; juvenilestagealreadyformedwingtail preserved, book1995vsprimary1994/quartervsprimarythirdtarsusconflictretainednotedited. OldPisorhinaalfredi→Otusalfredi. New0/reuse2, no newageflightnest orsexsizeclaim.",
+      "full_prompt": "Precise-object-edit #137v10→v11 scientificpetconcept. ONLY BOTH ADULT long rictal bristles/auricular filaments near beak and cheeks: change brightwhitish strands to R U F O U S with subtly darkerbrown TIPS, preservinglongprofusefilamentlengthandpositions. Do notaddblackfacialrim. Keep alladultotherpigment/whitebrow/crownwhitevermics/side-neckscalefeathers/upperbreastwhitediamonds/recentwhitebellyfinevermics/yellowiris-pinkrim/orangeyellowbill-feet-claws SAME. Entire centraljuvenile untouched includingformedwingtail/sexhistorical/ageunknown. Forest/branch/feetcontacts/labels exceptversion unchanged. No sexsizeguess.",
+      "source_ids": [
+        "FLO-WIDODO-1999",
+        "MIKKOLA-2013"
+      ],
+      "new_sources": 0,
+      "image_metadata": {
+        "bytes": 2541292,
+        "sha256": "1421ac7f5bea29106c003aa986c6abc95752b2c9a56c5d22f3eff286793d2205",
+        "gitblob": "ce35949a812d30388ad5e6c6f495b1ab3b81ef4a",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-70ad9f52-6e29-4ebb-a313-651a04290e9f.png",
+      "imagegen_wait_seconds": 34.61,
+      "editing_wait_seconds": 0,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "review": "Actualoutputviewed: longprofuserufousadultbristleswithdarkertips replacewhite; lengthschematic/exaggeratedandnotmeasurementaccurate, localpigmentPWLonly. Adultdarkrimnotadded, recentbelly/whitediamonds/crown/side-neckscales/yellowbareparts preserved; entirejuvenile/formedwingtail/historicalmale/ageunknown/grip unchanged. Reviewcomparisonv10supportscolourchange notnewanatomy. Negative juveniletexturequeue108/130/112unchanged; rulepigmentcorrectiononlysourceapplicablespecies.",
+      "reviewed_at": "2026-11-28T05:43:40.422Z",
+      "archived_at": "2026-11-28T05:43:44.789Z",
+      "archive_commit": "6bc9c068c56d6b3cfeab4d5097edd86a04c0cd32",
+      "ended_at": "2026-11-28T05:44:05.396Z",
+      "verification_exit_code": 0,
+      "commit_sha": "338066c2058364c4b040a1be18fd4860d2989ad9",
+      "credit_commit": "afb826aa30bf33016ace8cdfee1ac8f09346dee3"
+    },
+    {
+      "run_id": "20261128T0533Z-85-otus-semitorques-v14",
+      "batch_id": "20261128T0533Z",
+      "cycle": 2,
+      "target": "85-otus-semitorques-v14",
+      "action": "REVISION",
+      "started_at": "2026-11-28T05:44:14.319Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T05:44:14.364Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T05:44:49.032Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T05:45:51.756Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T05:45:56.540Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T05:46:00.901Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T05:46:21.389Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0533Z-cycle2-20261128T0533Z-85-otus-semitorques-v14.json",
+      "stage": "VERIFIED",
+      "research": "Access2026-11-28. ReuseMIKKOLA-2013 uploadedHeimoMikkola2013printed158/PDF160actualread: adults SMALLpalerscapularouterwebareas NOdistinctscapularstripe. V13adultshoulderrowlargewhiteconnectedspots → boundedreducepigmentcontinuityonly. Longtufts/browtoearfinefleckface/herringboneunderparts/grayhornbill/featheredtoes retain; nosexsizedata. SEM-NOHARA-HONDA-2025-P75-78 NoharaK/HondaR2025 DOI10.24715/smnh.19.0_75 https://www.jstage.jst.go.jp/article/smnh/19/0/19_75/_pdf/-char/ja actualcachep75–76freshread: adultorangeiris, youngwholebodydown/developingnotfullyelongatedwingtail/littlemovement/nestnotfound, youngirisNOTvisible; preservestageunknownlabel andpose. Externaltargetedquery+actualLewis2020page https://www.owlpages.com/owls/species.php?s=770 readONLYgeneralname/prominenttufts/distribution, NOTscapularmorphologysource/no newIDcreatedforthissparsepage. OldObakkamoenasemitorques/Olempijisemitorques→Osemitorques. New0/reuse2.",
+      "full_prompt": "Precise-object-edit #85v13→v14 scientificpetconcept. ONLY BOTH ADULT scapular pale patch pigment on shoulders/outer folded wings: small isolated PALE areas on outerwebs, with brown/gray gaps between them, no conspicuous continuous white scapular stripe. Reduce connectedbrightwhite shoulderrow into scattered dullbuffgray spots; retain samewingfeathergeometry and all flighttailbars/bodyherringbone/face/brows/tufts/orangeadultiris/grayhornbill/featheredtoes/claws/scale. Entirecentreyoungunchanged including shortdevelopingwingtail/shadowedunverifiedeyes/knowncurltextureproblem. Forestbranch/feetcontact/labels/footerunchanged onlyv14.",
+      "source_ids": [
+        "MIKKOLA-2013",
+        "SEM-NOHARA-HONDA-2025-P75-78"
+      ],
+      "new_sources": 0,
+      "image_metadata": {
+        "bytes": 2590740,
+        "sha256": "05d7356d789907cc48e9015933d3529662cb0c64fdd454a3f3e7ecabfbbb7fba",
+        "gitblob": "2188517408200bc78596ac9d493295aae719b5bc",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-9bc020ca-26c3-4cc9-8e59-7a62522b360f.png",
+      "imagegen_wait_seconds": 32.363,
+      "editing_wait_seconds": 0,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "review": "Actualoutputviewed: adults scapularwhite row muted/intERRUPTEDwithbrown-gaps; smallpalepatchesremain rather continuousstripe. LocalpigmentPWL; some lightwingpatches stillstylized but continuouswhitebandnotpresent. Existingface/tufts/orangeiris/grayhornbill/featheredtoes/abdominalherringbone preserved; entireyoungunchanged includingknowncurltexturelimitation/shadowedunverifiedeyes/developingwingtail/lowmovementstage/notnewborn. Nestunknown, forestCryptomeriasupport unchanged. Guide/paperirisdifference notsilentlyresolved; original2025orangeadult evidence retained. Notfullspeciespass.",
+      "reviewed_at": "2026-11-28T05:45:56.529Z",
+      "archived_at": "2026-11-28T05:46:00.886Z",
+      "archive_commit": "428675841ce97c516584607ec85e8b07fe2406b1",
+      "ended_at": "2026-11-28T05:46:21.358Z",
+      "verification_exit_code": 0,
+      "commit_sha": "df7214055d90fb6017d13b2a6ab95f8de96c3270",
+      "credit_commit": "235c4057b641b44fa5a142e57c784690cb855be8"
+    },
+    {
+      "run_id": "20261128T0533Z-95-pulsatrix-melanota-v12",
+      "batch_id": "20261128T0533Z",
+      "cycle": 3,
+      "target": "95-pulsatrix-melanota-v12",
+      "action": "REVISION",
+      "started_at": "2026-11-28T05:46:30.160Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T05:46:30.204Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T05:47:03.753Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T05:48:17.541Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T05:48:22.126Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T05:48:26.334Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T05:48:46.391Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0533Z-cycle3-20261128T0533Z-95-pulsatrix-melanota-v12.json",
+      "stage": "VERIFIED",
+      "research": "Access2026-11-28. ReuseMIKKOLA-2013 HeimoMikkola2013uploadedprinted314/PDF316actualread adultbroadbrownbandupperbreast indistinctlybrokencentre andmottledwhitishyellowishtones; V11bibnearlysolidbrown, boundedbandpigmentrepair. Unsexedweights don'tsupportlinearRSD retaincurrentdisplaynotclaim. MEL-RIVAS-FUENZALIDA-BURGOS-2022-84-88 TomasRivasFuenzalida/KatherineBurgosAndrade2022 OrnitolNeotrop33:84–88 DOI10.58843/ornneo.v33i1.921 https://www.researchgate.net/publication/361692223_PRIMER_REGISTRO_DE_NIDIFICACION_Y_OTRAS_OBSERVACIONES_SOBRE_EL_BUHO_VENTRIBANDEADO_PULSATRIX_MELANOTA freshactualbodyread84–86/figurecaptions2020forknestAlbiz6m/oldergroundfoundyoungnotassignthesamenest;2020palerinnamonnewchickNOTthisolderyoung, no ageflight claim. Wholeyoungpreservedexistingwhiteheadblackmask/cinnamonbodyboundary. OldNoctuamelanota→Pulsatrixmelanota. New0/reuse2.",
+      "full_prompt": "Precise-object-edit #95v11→v12 scientificpetconcept. ONLY BOTH ADULT broad brown UPPERBREAST BAND pigment: add sparse subtle whitish/dull-yellow mottles inside band and a small indistinct central interruption so it is not a uniformsolidbrown bib. Keepbandbroadbrown overall, no largewhitechestpatch/no brightdots. Preserve distinctthroatwhitepatch/half-collar/whitespectacles/blackbrowneyes/paleyellowbill/graycere/wingtailbarsincludingrecentnarrowwhitetailbars/feet/scale. Entirecentreyoungwhiteheadblackmask/cinnamondown/developingwing/ageunknown exactlyunchanged. Allforest/branchcontact/labels exceptv12 retained.",
+      "source_ids": [
+        "MIKKOLA-2013",
+        "MEL-RIVAS-FUENZALIDA-BURGOS-2022-84-88"
+      ],
+      "new_sources": 0,
+      "image_metadata": {
+        "bytes": 2263007,
+        "sha256": "4908ee2074ebf39a397eb13a2012ae3a72c691f5f28c69074ecf5bf466ccaafb",
+        "gitblob": "c59a2916f04b2a704e954beaeb00b4931aa934e2",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-1e21d0b9-5e39-4f40-981b-2cc70d1d98bd.png",
+      "imagegen_wait_seconds": 42.11,
+      "editing_wait_seconds": 0,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "review": "Actualoutputviewed: brownupperbreastbandnow has subduedpale mottles/indistinctcentralbreak, remainsbroadbrown no whitebib. LocalpigmentPWL, distributionstylizednotmeasured. Throatcollar/spectacles/irises/bill/cere/recenttailbands/youngwhiteheadblackmaskcinnamonbody/support/scale preserved. Youngbodyoverlongfluffytexture remainslimitation; no natalstageorAlbiziaforkassignments. Differentstagefacts stayseparate. Wholegroup scientificfalse/userapprovalnotinherited.",
+      "reviewed_at": "2026-11-28T05:48:22.116Z",
+      "archived_at": "2026-11-28T05:48:26.319Z",
+      "archive_commit": "b659619860196ffc50e18bf51cd5d323d0d93de3",
+      "ended_at": "2026-11-28T05:48:46.370Z",
+      "verification_exit_code": 0,
+      "commit_sha": "1f075eb2c467cc5d3f2580038f66fb507c5b8edb",
+      "credit_commit": "b72e1aafe7ed25d78a5a16bc5e3e70a55f2861b2"
+    },
+    {
+      "run_id": "20261128T0533Z-112-asio-abyssinicus-v18",
+      "batch_id": "20261128T0533Z",
+      "cycle": 4,
+      "target": "112-asio-abyssinicus-v18",
+      "action": "REVISION",
+      "started_at": "2026-11-28T05:48:56.332Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T05:48:56.378Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T05:49:24.264Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T05:50:47.769Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T05:52:04.184Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T05:52:09.469Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T05:52:14.629Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T05:53:10.468Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0533Z-cycle4-20261128T0533Z-112-asio-abyssinicus-v18.json",
+      "stage": "VERIFIED",
+      "research": "Access2026-11-28. ReuseWHSO-MIKKOLA-2013 HeimoMikkola2013uploaded508/PDF510actualread adultCEREgraybrown, hookedbillblackish. ABY-OWLPAGES-2020-3560 DeaneLewis2020-11-08 https://www.owlpages.com/owls/species.php?s=3560 freshtargetqueryandactualbody58–62read confirmsceregraybrown/billblack, darktuftsclosetoforeheadcentre/orangeyellowiris/fullyfeatheredtarsiANDtoes. V17cereverydark mergesbill; boundedbarepartpigmentseparation only, sourcecoloursqualitative/lightnotRGB. AdultslightlyfemaleRSDnoheightquantification, same scale. Entirejuvenileageflightunknown/looptextureunresolved. GuidejuvenileundescribedprobablyAotus NOTadopted. Scapularwordingconflictuntouched. OldAotusabyssinicus→Aabyssinicus. New0/reuse2.",
+      "full_prompt": "Precise-object-edit #112v17→v18 scientificpetconcept. ONLY small CERE at base of BOTH ADULT bills around nostrils: matte grayishBROWN rather sameblack as hookedbill. Keep hookedbill itself BLACKISH, naturalcereanatomy/nareopenings same, not largewhitepatch or extra beak. Preserve alladultface/shortbrows/darktufts/orangeyellowiris/blackbrownruff/bodypatterns/fullyfeatheredtoes/scale, entireolderjuvenile unchanged with unresolvedtexture/formedwingtail/ageunknown. Forestbranchcontact/labels/footerunchanged onlyversion. No shoulderpatchchanges or newbornclaim.",
+      "source_ids": [
+        "WHSO-MIKKOLA-2013",
+        "ABY-OWLPAGES-2020-3560"
+      ],
+      "new_sources": 0,
+      "first_attempt_metadata": {
+        "bytes": 2567080,
+        "sha256": "730798620bf6a0b0425af4cd05d0d065fe148042a18c14ad30ea44389108777b",
+        "gitblob": "340c481b1cd023282c56c3c5a457afe66258cbb4",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "first_review": "Cere change too subtle atplateview; secondedit required.",
+      "followup_prompt": "Edit #112v18 ONLY small adult CERE waxy base around nostrils above blackhookedbeak. Make it visibly muted taupe-gray-brown, slightly lighterthanblackbill, matte nothighlightwhite. Keep anatomysize, no enlargingpatch/no changeseyebrows/eye/billhook/juvenile/environment/text.",
+      "image_metadata": {
+        "bytes": 2539261,
+        "sha256": "a57bffc38ee8f36aba73511da46d5186fb2b05a3a7d8896c150c18855170584d",
+        "gitblob": "133bc871fbc5e8b502a94af9d31d096baceef3c7",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-7ff1fd39-7c08-44c6-b5c8-9ea389b69cf1.png",
+      "imagegen_wait_seconds": 38.577,
+      "editing_wait_seconds": 40.803,
+      "review_result": "NEEDS_REVISION",
+      "review": "First and secondactualoutputsviewed. Smallgraybrownbasepatch suggested, but atplateview cannot confidentlydistinguish truecerepigmentfromlight/shadow; twoeditattempts notverifiedeffective. NEEDS_REVISION rather falsePWL. Blackhookedbill/eyes/shortbrows/darktufts/fullyfeatheredtoes/relativeadultscale/forest/grip preserved. Entirejuvenileage/flightunknown/formedwingtail/knownlooptexture remains. Sourcefactgraybrowncere valid, implementationinspectioninsufficient. Future closeupreviewandregionalmaskdesignbeforemorefullplateedits; discoveredrule notyettested. Do notcallwholeadult/youngsciencepass.",
+      "reviewed_at": "2026-11-28T05:52:09.457Z",
+      "archived_at": "2026-11-28T05:52:14.615Z",
+      "archive_commit": "af3d18cc0a0b58d17d7a129e3207bfdb349c64c9",
+      "ended_at": "2026-11-28T05:53:10.449Z",
+      "verification_exit_code": 0,
+      "commit_sha": "fed8fdafe60fb532f221d8bd2a37830d6c44f43f",
+      "credit_commit": "4b09139e328b86b389fc3d1acff1c2b75f5f0709"
+    }
+  ],
+  "first_attempts": [
+    {
+      "target": "108-otus-rutilus-v19",
+      "bytes": 2716792,
+      "sha256": "d496b86c93409532bfd2f5e976076fbf5dd4a38a4ad238db88c0ef5fbe75cc47",
+      "gitblob": "2a6970e7075e816fb0397656b067599dd4f762a7",
+      "size": [
+        1536,
+        1024
+      ],
+      "path": "owl-pet/production/intermediates/20261128T0533Z-108-v19-first.png"
+    },
+    {
+      "target": "130-megascops-koepckeae-v25",
+      "path": "owl-pet/production/intermediates/20261128T0533Z-130-v25-first.png",
+      "bytes": 2415743,
+      "sha256": "6a163251191a79fc5d1ead368da1b546c30971af79837c88193ad9f9023a7a9b",
+      "gitblob": "e3a48f0c1b4270de6fef42e57b7eb86628bde209",
+      "size": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "target": "112-asio-abyssinicus-v18",
+      "path": "owl-pet/production/intermediates/20261128T0533Z-112-v18-first.png",
+      "bytes": 2567080,
+      "sha256": "730798620bf6a0b0425af4cd05d0d065fe148042a18c14ad30ea44389108777b",
+      "gitblob": "340c481b1cd023282c56c3c5a457afe66258cbb4",
+      "size": [
+        1536,
+        1024
+      ]
+    }
+  ],
+  "new_sources": 0,
+  "reuse_ids": 10,
+  "reuse_citations": 13,
+  "source_families": 8,
+  "source_correction": 1
+}

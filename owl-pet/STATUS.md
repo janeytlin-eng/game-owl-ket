@@ -1,3 +1,17 @@
+# 2026-11-28 本次6生产子轮完成；整体PARTIAL
+
+Run 20261128T0533Z；开始2026-11-28T05:34:39.481Z，结束2026-11-28T05:53:10.449Z。基线9aaaa0cda54ca392fd0e9da5fc37226aea5b0bc7。先续0430Z第5–6轮跨次补齐6/6；再做0533Z第1–4轮。当前批次4/6/next5，其他PARTIAL0，lease释放。新增0种、修订6版本6种；207/251不变，尚差44；编号图1472→1478，科学通过0/新确认0。2NEEDS_REVISION、4局部PWL，不能称六项修复通过。
+
+|本次轮|版本|批次轮|实际结果|证据|VERIFIED提交|
+|---|---|---|---|---|---|
+|1|108-otus-rutilus-v19|20261128T0430Z 5/6|NEEDS_REVISION|[原图](../originals/108-otus-rutilus-v19.png) · [研究/完整提示](../../research/species/108-otus-rutilus-v19.md) · [实际审查](../../research/reviews/108-otus-rutilus-v19-review.md)|[a3ce24e9](https://github.com/janeytlin-eng/game-owl-ket/commit/a3ce24e985b0efe780c9597cef6f157133719c13)|
+|2|130-megascops-koepckeae-v25|20261128T0430Z 6/6|PASS_WITH_LIMITATIONS|[原图](../originals/130-megascops-koepckeae-v25.png) · [研究/完整提示](../../research/species/130-megascops-koepckeae-v25.md) · [实际审查](../../research/reviews/130-megascops-koepckeae-v25-review.md)|[19c99ac9](https://github.com/janeytlin-eng/game-owl-ket/commit/19c99ac97c633ca79bc29a3d1daa354a675938cb)|
+|3|137-otus-alfredi-v11|20261128T0533Z 1/6|PASS_WITH_LIMITATIONS|[原图](../originals/137-otus-alfredi-v11.png) · [研究/完整提示](../../research/species/137-otus-alfredi-v11.md) · [实际审查](../../research/reviews/137-otus-alfredi-v11-review.md)|[338066c2](https://github.com/janeytlin-eng/game-owl-ket/commit/338066c2058364c4b040a1be18fd4860d2989ad9)|
+|4|85-otus-semitorques-v14|20261128T0533Z 2/6|PASS_WITH_LIMITATIONS|[原图](../originals/85-otus-semitorques-v14.png) · [研究/完整提示](../../research/species/85-otus-semitorques-v14.md) · [实际审查](../../research/reviews/85-otus-semitorques-v14-review.md)|[df721405](https://github.com/janeytlin-eng/game-owl-ket/commit/df7214055d90fb6017d13b2a6ab95f8de96c3270)|
+|5|95-pulsatrix-melanota-v12|20261128T0533Z 3/6|PASS_WITH_LIMITATIONS|[原图](../originals/95-pulsatrix-melanota-v12.png) · [研究/完整提示](../../research/species/95-pulsatrix-melanota-v12.md) · [实际审查](../../research/reviews/95-pulsatrix-melanota-v12-review.md)|[1f075eb2](https://github.com/janeytlin-eng/game-owl-ket/commit/1f075eb2c467cc5d3f2580038f66fb507c5b8edb)|
+|6|112-asio-abyssinicus-v18|20261128T0533Z 4/6|NEEDS_REVISION|[原图](../originals/112-asio-abyssinicus-v18.png) · [研究/完整提示](../../research/species/112-asio-abyssinicus-v18.md) · [实际审查](../../research/reviews/112-asio-abyssinicus-v18-review.md)|[fed8fdaf](https://github.com/janeytlin-eng/game-owl-ket/commit/fed8fdafe60fb532f221d8bd2a37830d6c44f43f)|
+
+
 # 2026-11-28 本次6生产子轮完成，整体PARTIAL
 
 Run 20261128T0430Z；基线b37a51aa739aee74e2204d459a198e1cbe9d5300。旧0329Z跨次补齐6/6，本次只补第5–6轮；新0430Z完成第1–4轮。当前4/6、next5，其他PARTIAL0、lease释放。新增0种/修订6版本6种；207/251不变、尚差44；编号图1466→1472。新用户确认0/科学通过0，1 NEEDS_REVISION、5局部PWL，不是六项科学修复成功。

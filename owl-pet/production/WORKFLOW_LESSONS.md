@@ -1111,3 +1111,7 @@ Actual output viewed: upper breast now diffuse brown, lower graywhitebars retain
 
 ## 20261128T0430Z 129-megascops-hoyi-v9
 Actual output viewed: adult pale brows have dark interruptions above eyes, subtler on rightadult; facevermic/blackruff preserved. Localpigment PWL, exactnotchshape notscientificplate. Young barepartunknownfooter and unchangedjuvenile/wingtail/feet supported, adultscale/forest preserved. Rule observed/applied only this target: correct pigment interruption without carving anatomy; notgeneralallMegascopsbrowrule. Wholegroup scientificallyfalse; historical approvals notinherited.
+
+
+## 20261128T0430Z 131-megascops-watsonii-v10
+Actual visualreview: adults now distinctdark lateralruff/softedges, browninnerdisc/irises/bills/darktufts/bodypattern preserved; juvenileclosedeyes/bars/bellyrest/feetgrip unchanged. LocalruffpigmentPWL only, no preciseplumage/scienceapproval. Retain usta regionalboundary; externalMenqname splitdoesnotautomaticallyrecount251 orreassignspecies. Existingjuveniledevelopmentunknown, no agedrawing. Applied boundedpigmentruffrule to131 only, do not apply tootherowlssanssource.

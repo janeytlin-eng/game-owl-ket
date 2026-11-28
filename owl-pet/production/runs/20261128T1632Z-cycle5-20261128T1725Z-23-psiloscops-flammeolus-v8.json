@@ -13,11 +13,15 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T17:35:30.313Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T17:36:53.892Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T1632Z-cycle5-20261128T1725Z-23-psiloscops-flammeolus-v8.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Reuse FLOW-RICHMOND-DEWEESE-PILLMORE-1980-P35-46 (MerleL Richmond, LawrenceR DeWeese, RichardE Pillmore1980), https://journal.westernfieldornithologists.org/index.php/westernbirds/article/download/305/297/582 accessed2026-11-29: webreader inaccessible, directfull12pagePDF eventually succeeded; actuallyread printed37/PDF3,40/PDF6,44/PDF10; viewed Fig2 printed42/PDF8 (and Fig1 printed41/PDF7 only laterflight context). Estimated oneweek captive young densewhitedown/fewbloodquills/noevidenttail, developmentpossiblyretarded; photo lowresolutionB&W cannotcalibratecolor/microfeather or exactartday. Currentchickhaslongcreamtufts; limited shortenhead/chestdown, preservefewquilltips/no tail and natural floor support, no use6weekflightphotoforwhitedown. Reuse FLOW-ORI-2026 actualoriginalAnatomy/Habitat/Nesting https://www.owlresearchinstitute.org/flammulated-owl :darkeyes/smallflattenedtufts/montaneconifers/cavities; broadsecondweeksummary not continuousatlas. ReuseMIKKOLA-2013 actualprinted202/PDF204: whitishnataldown, graybrownbill/cere/darkclaws, femaleaverage3gheaviernotdisplayheightformula. CurrentPsiloscopsflammeolus=oldOtusflammeolus/Scopsflammeola. Sourcefactsversus conservativegraphicmaterialedit distinct. New0/reused3, existingphotopixelsnewlyread notnewpaper; exactage/eyeopening/ratio/cavitygeometryremainunknown.",
   "full_prompt": "Precise-object-edit #23 Psiloscops flammeolus v7. Change ONLY the central young's head, neck and chest down surface from long cream curled yarn tufts to dense fine short whitish down with subtly uneven wispy tips. Keep overall body shape, small partly-open dark eyes, gray-brown beak, same few tiny developing wing-quill tips, NO developed tail or adult flight-feather panels. Keep belly and both feet supported on solid irregular cavityfloor with only few loose flat woodchips. Preserve both ENTIRE adults, rustygray patterns/dark eyes, fourbranchgrips/size, forest, cavity, labels and pending footer. Exactly3owls same1536x1024 naturalhistory painterlystyle. No exactage/firstflight claims, no smooth naked skin, no extra toes or woven nestcup.",
   "source_ids": [
@@ -25,5 +29,26 @@
     "FLOW-ORI-2026",
     "MIKKOLA-2013"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "archive_transfers": [
+    {
+      "started_at": "2026-11-28T17:36:33.554Z",
+      "ended_at": "2026-11-28T17:36:53.863Z",
+      "elapsed_seconds": 20.309,
+      "scope": "base64 preparation+blob transfer+hash validation"
+    }
+  ],
+  "attempt1": {
+    "file": "/workspace/scratch/96400dc71dac/generated_images/exec-8cd67188-8562-4441-b29c-b05920c29176.png",
+    "metadata": {
+      "bytes": 2657153,
+      "sha256": "e94809766d8e1dcf22415b40ace8b0f20f39f47892634628fd107194ffb97b56",
+      "gitblob": "2342dbd3d274c626593ef4c00505d97889248bad",
+      "size": [
+        1536,
+        1024
+      ]
+    },
+    "review": "Viewed: long tufts changed to dense fine wavy yarn-like lines, texture still not supported. Needs second edit."
+  }
 }

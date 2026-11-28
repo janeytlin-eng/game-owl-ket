@@ -1,0 +1,3 @@
+# Actual review
+Actualv7/v8andVeronesioriginalphoto viewed. Leftinnerbrowedge slightlylower/flatter, but someangularsculptedridge remains; onlymodestlocalPWL, nofullphotoequivalence/scientificpass. Thinpalepigment/orbitaledgeretained, noerasedeyering; roundcrown/noear-tufts/yellowiris/olivecere/greenyellowbill/chestnut-whitebody/olivetoesdarkclaws andsixbranchgrips unchanged. Entireageunknownfledglingandrightadultscopepreserved. Lesson localizedleft-onlyshapeeditavoidsundoingrightadultpriorfix, effectmodest/notuniversalproof. Sciencefalse.
+{"bytes":2457789,"sha256":"5e1dea3a7826b32b52e74be691a0cfd7805c517aa554baac5b1faf9768b04583","gitblob":"72c4bb91dbf4674db7e6643920c5d8385161fb79","size":[1536,1024]}

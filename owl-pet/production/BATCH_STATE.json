@@ -65537,7 +65537,7 @@
       }
     }
   ],
-  "active_batch_id": "20261128T0232Z",
+  "active_batch_id": "20261128T0304Z",
   "active_cycle": 5,
   "current_stage": "IDLE",
   "next_cycle": 5,
@@ -87780,13 +87780,12 @@
   },
   "next_action": "Resume 20261128T0232Z cycle5; 207/251 coverage, two cycles remain in current batch.",
   "last_invocation": {
-    "run_id": "20261128T0232Z",
-    "started_at": "2026-11-28T02:31:59Z",
-    "ended_at": "2026-11-28T03:00:56.717Z",
+    "run_id": "20261128T0304Z",
+    "started_at": "2026-11-28T03:06:12.188Z",
+    "ended_at": "2026-11-28T03:25:53.727Z",
     "completed_cycles": 6,
-    "report": "owl-pet/production/batches/20261128T0232Z-six-cycle-review.md",
-    "next_cycle": 5,
-    "final_readback_at": "2026-11-28T03:00:27.628939+00:00"
+    "report": "owl-pet/production/batches/20261128T0304Z-six-cycle-review.md",
+    "next_cycle": 5
   },
   "latest_delivery": {
     "run_id": "20261128T0232Z",
@@ -87799,12 +87798,9 @@
   },
   "final_readback_at": "2026-11-28T03:00:27.628939+00:00",
   "last_delivery": {
-    "run_id": "20261128T0232Z",
+    "run_id": "20261128T0304Z",
     "completed_cycles": 6,
-    "receipt": "owl-pet/production/batches/20261128T0232Z-final-readback-receipt.json",
-    "evidence_head": "cddb559eceac6355d22ae5716714f6dd792607da",
-    "verification": "PASS",
-    "checked_files": 47,
-    "verified_at": "2026-11-28T03:00:27.628939+00:00"
+    "receipt": "owl-pet/production/batches/20261128T0304Z-final-readback-receipt.json",
+    "status": "final readback pending"
   }
 }

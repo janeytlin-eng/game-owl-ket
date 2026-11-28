@@ -17,11 +17,15 @@
     {
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-28T17:49:17.941Z"
+    },
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-28T17:49:23.235Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T1725Z-cycle2-20261128T1725Z-27-glaucidium-passerinum-v8.json",
-  "stage": "IMAGE_GENERATED",
+  "stage": "RESEARCH_READY",
   "research": "Reuse EUPO-EGE-2024-FLEDGING GesellschaftzurErhaltungderEulen, DerSperlingskauz (page2024-11-24), https://egeeulen.de/eulenarten/der-sperlingskauz-glaucidium-passerinum/ targetedexternalquery+actualKennzeichen/Lebensraum/Fortpflanzung read2026-11-29: structuredoldconifer/mixedwoodland/woodpeckercavities, youngdepart with someflightability beforefullflightfeathergrowth; notproof thisconceptindividualflies or exactday. ReuseEUPO-MIKKOLA-2013 same2013publication actualprinted364/PDF366 text and printed365/PDF367 photosviewed: plainmesoptilecrown/darkface/whitebrows/whitechin, whitebrowadultalso; sourcephotoplatesnotexactageatlas. Femalemassvariesbreedingcondition notfixedstandingheight. CurrentGlaucidiumpasserinum; historicalStrixpasserina mappingalreadyrepositoryconvention, no taxonomychange. Actualv7formedfoldedwings/shorttail and twobranchgrips retained. Designvariantonly: gentle young head turn towardleftadult, body/feetunchanged, no flight/running/jumping, notclaim previousposewrong. New0/reused2, existinguploadedphotoaccessrenewednotnewsource. Exactiris/age/youngsex/flightability/featherdensity/nestgeometryunknown, no juvenile color or textureguess.",
   "full_prompt": "Precise-object-edit #27 Glaucidium passerinum v7. Change ONLY central young's head orientation: turn head modestly toward the adult on image LEFT, as if quietly attending to it, head remains naturally joined to same neck and body. Preserve dark plain crown, prominent pale brows and white chin, same dark provisional iris and yellow-horn bill, round low head/no ear horns. Keep entire young body, formed folded wings, shorttail, both feet gripping mossy sprucebranch unchanged. Both adults entirely unchanged, body sizes/feathers/eyes/beaks/legs, hollow/coniferlandscape/alltext/pendingfooter preserved. Title v8. Exactly3birds same1536x1024 warm naturalhistory style. No flight/raisedwing/extra neck or invented day age; resting headturn design only.",
   "source_ids": [
@@ -49,5 +53,6 @@
       ]
     },
     "review": "Headturnsupported; title ignoredv8 andstillv7, fixonlyversiontext."
-  }
+  },
+  "second_edit_prompt": "Text localization ONLY: at very top title change the final 'v7' to 'v8'. Exact title '27 EURASIAN PYGMY-OWL v8'. Preserve every pixel appearance of all3birds including young's new leftwardheadturn, all plumage/feet/support/forest, scientificname, rolelabels and footer. No other changes."
 }

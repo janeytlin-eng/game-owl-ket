@@ -21,11 +21,15 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T14:40:27.867Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T14:40:53.497Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T1330Z-cycle4-20261128T1435Z-02-bubo-scandiacus-v8.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "复用SNO-ORI-2022GUIDE，SolaiSLeFay/ChloeYHernandez/DenverWHolt，2022样本/页面发布日期未定，原始机构 https://www.owlresearchinstitute.org/snowy-owl-photo-guide ;2026-11-28本轮主动检索并实际打开Stage3/4、Photo16caption与实际原图像素 https://static.wixstatic.com/media/78ab91_1157a96b684e4f9ea0a93d9ef2181af0~mv2.jpg 。Photo16=2022-08-13 chick06约16days afterbanding, 单窝估龄不普适；照片灰白头面/较暗灰body/灰角cerebill，非成人黑bill紧密羽基，白羽脚部分皮肤可见/浅角色爪，不把成人黑爪套young。图片为手持环志现场，不证明地面姿态或精确羽数，概念采用保守有支撑低伏。实际click派生图fetch InternalError，改原始media成功，记录恢复非新来源。复用SNO-MIK2013-258-261(同2013上传书)，本轮实读printed258/PDF260及成人图：旧Nycteascandiaca映射Buboscandiacus；白雄斑雌/黑bill/厚白跗趾黑爪，女+300–400g不当高度比。v7旧图卷丝负结果已读/先前实际看，本轮排除旧target，重建非细节猜测。新增0复用2主ID；既有来源照片像素访问升级1、juvenilebarepart参考补查1，科学未通过。",
   "full_prompt": "Use case stylized-concept. Completely fresh #02 SNOWY OWL Bubo scandiacus v8 three-role dimensional electronic owl pet plate, natural soft-feather realism. Inputs: image1 actual ORI16-daychick after banding, use ONLY juvenile down density/color and immature grayhorn cere/bill/facefoot features; image2 guideadult identification only. No oldgenerated target. Adult male left mostly white and adultfemale right white with darkbrown spots/bars, yellow eyes, black bills hidden inwhitefeatherbase, no prominent ear tufts, thickwhitefeatherfeetblackclaws. Near equalheight, female modestlyfuller but mass notheightmeasurement. Center graymesoptile nestling, immature broad grayhorn cere with graybill darktip as reference, yellow eyes not exactcalibrated, gray-white short branching down around eyes/head and darker dense graybody, NOT masses of repeated closed yarn loops or long ringlet hair. Soft naturally irregular dense tiny downbarbs. Short developing wing sheaths only, no adultwhitewingpanels/longremiges. Rest low and firmly supported on arctic tundra mound with bothwhitefeatherfeet/heels grounded, no handling/bands/hands/grids/prey/nestconstruction. Clearly distinguish handled reference from designed calm supportpose. Quiet warm 3D dimensional wildlife pet style, softrestrained animation appeal, no embossed scalloptiles. Title '#02 SNOWY OWL · v8'; 'Bubo scandiacus'; labels ADULT MALE · SEX INFERRED / GRAY MESOPTILE NESTLING · AGE NOT CALIBRATED / ADULT FEMALE · SEX INFERRED; footer CONCEPT · SCIENCE PENDING.",
   "source_ids": [
@@ -44,5 +48,18 @@
       1536,
       1024
     ]
-  }
+  },
+  "image_metadata": {
+    "bytes": 2678747,
+    "sha256": "e07f98278862fcc00fd578461dd308e94075c87d3aee1469e1ee8cb0e6ec5e81",
+    "gitblob": "7b377ad47f41d513111c982bbeb9366a32be2f9a",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-e734f04b-dcbf-4c77-885f-e8d79458d7f5.png",
+  "imagegen_wait_seconds": 48.038,
+  "editing_wait_seconds": 34.857,
+  "review_result": "NEEDS_REVISION"
 }

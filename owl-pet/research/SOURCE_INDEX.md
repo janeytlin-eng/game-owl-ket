@@ -9413,3 +9413,7 @@ CAMBOO-RASMUSSEN-2012-FORKTAIL 复用：Rasmussen et al.2012 Forktail28:1–20�
 [Research/prompt](species/145-ninox-philippensis-v6.md) · [Review](reviews/145-ninox-philippensis-v6-review.md)
 
 补充准确性：Mikkola printed473实际明确写males a little larger than females，故不能笼统说方向未知；该二手定性说法支持避免统一雌大雄小，但未给成鸟高度比例，本轮保留雄稍高设计槽位不称测量。Juvenile条有白初生绒及离巢羽描述，本轮未利用其构造新初生/首飞状态，也不把当前中央成图视为校准。
+
+## 20261128T1028Z 146-ninox-mindorensis-v6
+复用 MINDBOO-RASMUSSEN-2012-P13-14（原文准确诊断printed14/PDF15，而不是历史条误写printed13；本轮更正页码）：Rasmussen etal2012 Forktail28:1–20 https://www.asianscientist.com/wp-content/uploads/2012/08/Vocal-divergence-and-new-species.pdf ，2026-11-28实际读取诊断全段、p12Fig6c（James Eaton，Sablayan Mindoro2008-12）及针对性网络检索。事实：小、短白眉、耳羽较短；喉浅buff且不很清楚、整个复合群最细窄横斑，有下部白纵纹变异，不等于上胸长白/黑纵矛。v5实际看上胸白长纵纹及暗矛过强，本轮改浅buff软界喉到细横斑上胸，保留已合适下腹细斑。复用MIKKOLA-2013 printed474/PDF476已实际读取：颈至腹细横斑，幼鸟undescribed；与原文色调变化不冲突，不借spilocephala immature段套此种。旧N.philippensis mindorensis→N.mindorensis。雌雄羽色相似/比例无可靠量化，性别设计inferred。中央未核实重建不增年龄、初生、首飞、巢位主张；枝支撑为概念结构。来源新增0复用2出版物；更正1页码定位，来源事实与设计局部修订分开，整图sciencefalse。
+[Research/prompt](species/146-ninox-mindorensis-v6.md) · [Review](reviews/146-ninox-mindorensis-v6-review.md)

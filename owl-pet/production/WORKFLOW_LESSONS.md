@@ -1311,3 +1311,7 @@ Actualv5 viewed: adults have darker distal horn/nearlyblackclawtips with lighter
 
 ## 20261128T1232Z 09-athene-cunicularia-v5
 Actual full image viewed after first generation and edit. Labels now EARLY EMERGING CHICK / AGE NOT CALIBRATED; adult tarsi long/slender with sparse short covering, feet soil contact; near equal adult scale retained, not sex measurement. Chick wing buds compact, no long adult flight vanes; quiet soil support retained; exact iris/day/wing lengths still uncalibrated. Edit reduced some large loop artifacts but fine curled loops and repetitive chest layers remain on adults/chick. NEEDS_REVISION for material realism, not scientific pass. Next fix should exclude old target texture and use known-aged field/aging imagery as independent reference, as108v23; never erase valid mature wing feathers from older juveniles. Rule discovery versus success: removal of unsupported exact numerical age succeeded; loop-removal via inherited target failed twice. No new hatchling or flight fact.
+
+
+## 20261128T1330Z 130-megascops-koepckeae-v27
+v27完整实际查看并对照独立Fig1c：幼鸟灰白细暗横斑/棕胸/黄眼/黑面缘白眉保留，大块雕刻U羽层消失为较短不规则细绒，仍有局部细曲丝，不称完全真实羽序。成人短簇黄眼蓝绿角喙灰白纵纹、肩白斑，近等大且性别推断标明；灰褐趾/爪落枝。无巢或飞行动作/日龄猜测。新图比旧图偏实物质感、仍立体宠物概念，科学未通过。问题—旧图纹理继承；证据—Alarcon原照；修改—排除旧target仅独立参考整图；复查—宏观U纹明显消失，局部微纤维和精确羽序/比例未校准。此方法本物种本次局部有效，不宣称跨物种普适；旧v26保留失败状态。PASS_WITH_LIMITATIONS.

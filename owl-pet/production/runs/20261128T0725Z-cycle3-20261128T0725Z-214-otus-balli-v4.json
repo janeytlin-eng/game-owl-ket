@@ -29,11 +29,15 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-28T07:42:30.879Z"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-28T07:42:49.107Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0725Z-cycle3-20261128T0725Z-214-otus-balli-v4.json",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "research": "Access2026-11-28 targetedspecieswebsearch + actual institutionmetadata read. Reuse OBAL-MIKKOLA-2013-P181 uploaded Mikkola2013 printed181/PDF183 actualpage read: adultbrown/rufousmorph, smalltufts/yelloweyes/yellowhornbill, mottledcrown/nape, mantle pale spots darktips, darkedgedpale scapularouterwebs, barredflight/tail; underbodywhitespotsblackarrowheadedloweredges/notlongshaftstreaks. Adult tarsuspartfeathered/distalthirdbare, dirtyyellowtoes/darktippedhornclaws; nosexsize data. Juvenilefineclosebarscrown/breast/coverts, exactageiris/bill/flightnotgiven. Reuse OBAL-ITIS-555366 original Nomenclature/Taxonomy actualexternalread currentO.balliofAndamanIslands, oldEphialtesballi; source taxonomyonly. Smithsonian https://library.si.edu/image-gallery/75302 actualmetadatap73–81 read Sharpe1891 imageSIL-39088006988810_0219 captionScopsBalli mapsO.ball i; no livephoto/youngsource. JoTT DOI10.11609/jott.7339.13.11.19500-19508 rediscovered alreadyindexed OBAL-SURESHMARIMUTHU-2021-JOTT7339, notnew; publisherretryandPDF403, notfreshfullstudyread and nojuvenilefactborrowed. Actualv3 adultsfront views obscuremantle; diagnostic3/4backdisplay is designvariation, NOTdiscovered biologicalerror orfemale-specificpattern. Retainnear-equalscale/unknownsexsize/juvenileand supports. Newvalidated0/reuse2freshsources, metadata museumlead notusedasmorphology; oldScops/Ephialtes→Otuscrosswalk retained.\nSource-count refinement before generation: new verified museum catalog metadata1 (OBAL-SI-SHARPE-1891-75302), not a morphological source; original illustration pixels not viewed. The earlier 'newvalidated0' refers to developmental/morphology sources.",
   "full_prompt": "Use case precise-object-edit. #214 Andaman Scops Owl v3 trio. Change ONLY MIDDLE ADULT FEMALE display pose to gentle three-quarter BACK view on SAME branch. Keep body scale near equal to male, same two feet positions and firm toe/claw grips; natural neck head turned back left so a yellow eye/yellowhornbill and shorttufts visible. Show brown mantle with irregular black-tipped pale buff/white spots, pale dark-edged outer scapular webs and barred brown closed flightfeathers/tail. Match existing adult brown morph color, no invented female-specific plumage. No arbitrary dark shaft stripes on body underside. Existing partial tarsal feathering/narrow barelowerzone and dirtyyellowtoes/darktippedhornclaws retained, not newmeasurements. Left male frontview and entire right mesoptile unchanged includingclosebars/shortsoftwing/footcontacts/unknownageirisflight. Forest/layout/allcaptions preserved except add v4. Same stylized3Dpet look. This is diagnostic display variation, not new scientificapproval.",
   "source_ids": [
@@ -57,5 +61,8 @@
   "review_result": "PASS_WITH_LIMITATIONS",
   "review": "Actual v3/v4 compared: middle adult now3/4back with head naturally turnedleft, yellow eye/yellowhornbill/shorttufts retained; mottled brown mantle/darkedgedpale shoulder patches and barred folded flightfeathers more inspectable. Tail mostly occluded, not claimed newly validated. Both feet firmly on samebranch, individual dirtyyellowtoes/darktippedhornclaws visible; scale preserved qualitatively but perspective cannot measure sexheight or distalbaretarsal fraction. Left male/whole right mesoptile remains, no neonate/age/flight validation or youngplain-cap rule transferred from #211. Small white/buff pattern geometry artistic; PWL design-display only, not discovered anatomy repair. Museum catalog metadata supports old-name search, NOT imagepixels/young biology. JoTT retries403 nofreshpaperbodyclaim. Lesson displayvariation can expose hidden diagnostic areas but does not prove exact feather map or female-specific appearance. Sciencefalse/sexsizeunknown and youngunverifiedfooter retained.",
   "reviewed_at": "2026-11-28T07:42:25.725Z",
-  "archived_at": "2026-11-28T07:42:30.860Z"
+  "archived_at": "2026-11-28T07:42:30.860Z",
+  "archive_commit": "1a9ed0d85ec4339ef1d2f60107fc3e2f79faea78",
+  "ended_at": "2026-11-28T07:42:49.080Z",
+  "verification_exit_code": 0
 }

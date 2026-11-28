@@ -13,16 +13,33 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T03:46:27.608Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T03:48:19.204Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0329Z-cycle4-20261128T0329Z-112-asio-abyssinicus-v16.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Access2026-11-28Shanghai new0/reuse2. WHSO-MIKKOLA-2013 HeimoMikkola2013uploaded508/PDF510freshtextread: ADULTprominentDARKtufts, richTAWNYBROWNface/shortinconspicuousbrows/orangeyellowiris/blackbill/graybrowncere/fullyfeatheredtarsiANDtoes/darkhornclaws, onlyslightlyfemaleRSDnotquantifiedlinearheight. V15adulttuftsgoldorangeheavilyedged, localdarktuftpigmentcalibration, keeprecentfaceandtuftpositions. ABY-OWLPAGES-2020-3560 DeaneLewis2020-11-08 https://www.owlpages.com/owls/species.php?s=3560 freshactualbody58–62read supportsdarktuftsclosetoforeheadcentre/barepartinvariants; secondarysharedliteraturenotindependentmeasurement. OldAsiootusabyssinicus→Asioabyssinicus. Wholeolderjuvenileformedwingtail/unknownage retainedandnotnewlyvalidated, looptexturestillunresolved; bookjuvenileUNDESCRIBEDprobablysimilarAotus explicitlyNOTadopted. No age/firstflight/nest/sexcolour invented. Sciencefalse, sourcecolourqualitativeunderillustrativelight.",
   "full_prompt": "Precise-object-edit #112v15. ONLY TWO ADULT EAR-TUFT FEATHER PIGMENT: predominantly dark brown to blackish-brown, with a few subtle tawny edges/tips, reducing large golden-orange surfaces. Keep exacttuftlength/width/foreheadcentreposition, feathergeometry andnaturalrelief, no solidplasticblack. Preserve recentfine tawnybrown adultfacialdiscs/eyebrows/eyes/bills/cere/allbodies/wingtail/fullyfeatheredtoes/claws/relativeheight/forest/branch. ENTIRE CENTRAL OLDER JUVENILE UNCHANGED, knowntextureproblem remains. v15→v16 andallroles/footerretained. No newstage/nest/flight claim.",
   "source_ids": [
     "WHSO-MIKKOLA-2013",
     "ABY-OWLPAGES-2020-3560"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "image_metadata": {
+    "bytes": 2591463,
+    "sha256": "a3b5efc7b8e3396e7a457f093662b8a5ce9b8bc590815ac7c5dc47eeb415ccfa",
+    "gitblob": "9eb1a7c99cedffffd52a306bf46c72084bdf5d7e",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-29c9ba23-afba-4230-9a0b-3e1188478465.png",
+  "imagegen_wait_seconds": 40.928,
+  "editing_wait_seconds": 0,
+  "review_result": "PASS_WITH_LIMITATIONS"
 }

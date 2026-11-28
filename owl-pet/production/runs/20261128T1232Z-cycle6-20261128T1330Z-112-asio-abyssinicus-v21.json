@@ -9,9 +9,20 @@
     {
       "stage": "STARTED",
       "at": "2026-11-28T13:37:05.729Z"
+    },
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-28T13:37:31.604Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T1232Z-cycle6-20261128T1330Z-112-asio-abyssinicus-v21.json",
-  "stage": "STARTED"
+  "stage": "RESEARCH_READY",
+  "research": "复用ABY-OWLPAGES-2020-3560 DeaneLewis2020-11-08 https://www.owlpages.com/owls/species.php?s=3560 本轮外检后实际打开Description/Breeding/Habitat原正文；复用WHSO-MIKKOLA-2013 printed508/PDF510实际读。成人跗趾羽覆盖、黑角爪/暗喙灰棕蜡膜/黄橙眼/格纹；性差仅稍大不测高比。A.otusabyssinicus旧名对应。adultfield来源Oiseaux/CatherineetBernardLanneluc照片已实际看，本轮只作成人纹理参考不新增源，不凭照片估性别年龄。原v20实际查看成人仍塑料碎羽，本轮仅成人材质；中央幼鸟保留原状且UNVERIFIED，图鉴juvenileundescribed及类似Aotus是推测不能当本种事实。搜索新增Guichard/2016旅行报告为未读线索不作事实。新0复用2主要来源，成人修改不替幼鸟验收。",
+  "full_prompt": "Use case precise-object-edit. #112 Asio abyssinicus v21. Image1 edit target, image2 actualadult fieldphoto for ADULT feather material only. Replace all plastic shiny confetti, curled yarn and detached feather shards on BOTH ADULTS with coherent natural matte short feather vanes. Keep tawny brown blackrim face, orange-yellow eyes, dark long ear tufts, black bill graybrown cere, dark goldenbrown mottled upperparts, checkered tawny/buff underparts. Keep previously corrected feather-covered dorsal toes down to blackish horn claw bases, same physical branch grips. No height-ratio changes. Center juvenile MUST remain unchanged; juvenile appearance age/sex/flight not validated, not a positive reference. Entire natural highland woodland branch scene same. Exact title '112 ABYSSINIAN OWL · Asio abyssinicus v21'. Footer 'CONCEPT · SCIENCE PENDING · JUVENILE UNVERIFIED'. Adult labels SEX INFERRED. No new bird, nest or anatomical guess.",
+  "source_ids": [
+    "ABY-OWLPAGES-2020-3560",
+    "WHSO-MIKKOLA-2013"
+  ],
+  "new_sources": 0
 }

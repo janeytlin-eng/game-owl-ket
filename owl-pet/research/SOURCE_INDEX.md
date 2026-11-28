@@ -9491,3 +9491,8 @@ WHSO-MIKKOLA-2013, BUO-JOHNSON-AGING-2019, BUOW-SDZ-2017, BUOW-SMITHSONIAN-2012 
 ## 20261128T1330Z 09-athene-cunicularia-v6
 复用BUO-JOHNSON-AGING-2019：DavidHJohnson etal,2019-11-17 Aging Key for Juvenile Burrowing Owls, BC ConservationSociety/GlobalOwlProject, unpublished34pp, https://burrowingowlalliance.ca/wp-content/uploads/2025/08/Johnson-et-al.-2019.-Aging-Key-for-Juvenile-Burrowing-Owls-Athene-cunicularia.pdf 。本轮外检、机构原PDF新下载，实际读p1摘要/生长差异限制及p13四张knownage13–14日照片；有个体营养差异，不能以体重或体长单一断龄。实际照片显示斑驳棕色新羽/羽管与稀疏灰buff绒并存，并非均匀奶油白圆球。因此纠正v4/v5提示中过度统一白绒倾向：新图按具体照片重建，年龄仍不作标定。复用BUOW-KLUTE-ETAL-2003-P6及WHSO-MIKKOLA-2013 printed424/PDF426本轮实际读，成人稀疏长跗羽/橄榄灰趾，图鉴female较大与西部FWS无逆体差冲突保留，近等尺度非实测。图鉴成人照片grallaria不套hypugaea。本轮直接参考knownage照片无旧图target，保持v1确认范围历史不扩张；新源0复用3，证据解读更正1。巢内初生/确切虹膜/动作时序未凭照片猜测，早期出洞支撑沿用已索引SDZ阶段，不新增科学通过。
 [Research/prompt](species/09-athene-cunicularia-v6.md) · [Review](reviews/09-athene-cunicularia-v6-review.md)
+
+
+## 20261128T1330Z 112-asio-abyssinicus-v21
+复用ABY-OWLPAGES-2020-3560 DeaneLewis2020-11-08 https://www.owlpages.com/owls/species.php?s=3560 本轮外检后实际打开Description/Breeding/Habitat原正文；复用WHSO-MIKKOLA-2013 printed508/PDF510实际读。成人跗趾羽覆盖、黑角爪/暗喙灰棕蜡膜/黄橙眼/格纹；性差仅稍大不测高比。A.otusabyssinicus旧名对应。adultfield来源Oiseaux/CatherineetBernardLanneluc照片已实际看，本轮只作成人纹理参考不新增源，不凭照片估性别年龄。原v20实际查看成人仍塑料碎羽，本轮仅成人材质；中央幼鸟保留原状且UNVERIFIED，图鉴juvenileundescribed及类似Aotus是推测不能当本种事实。搜索新增Guichard/2016旅行报告为未读线索不作事实。新0复用2主要来源，成人修改不替幼鸟验收。
+[Research/prompt](species/112-asio-abyssinicus-v21.md) · [Review](reviews/112-asio-abyssinicus-v21-review.md)

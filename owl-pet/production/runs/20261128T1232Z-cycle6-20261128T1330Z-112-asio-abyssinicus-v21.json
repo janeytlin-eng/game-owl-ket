@@ -25,11 +25,15 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-28T13:39:10.944Z"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-28T13:39:27.264Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T1232Z-cycle6-20261128T1330Z-112-asio-abyssinicus-v21.json",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "research": "复用ABY-OWLPAGES-2020-3560 DeaneLewis2020-11-08 https://www.owlpages.com/owls/species.php?s=3560 本轮外检后实际打开Description/Breeding/Habitat原正文；复用WHSO-MIKKOLA-2013 printed508/PDF510实际读。成人跗趾羽覆盖、黑角爪/暗喙灰棕蜡膜/黄橙眼/格纹；性差仅稍大不测高比。A.otusabyssinicus旧名对应。adultfield来源Oiseaux/CatherineetBernardLanneluc照片已实际看，本轮只作成人纹理参考不新增源，不凭照片估性别年龄。原v20实际查看成人仍塑料碎羽，本轮仅成人材质；中央幼鸟保留原状且UNVERIFIED，图鉴juvenileundescribed及类似Aotus是推测不能当本种事实。搜索新增Guichard/2016旅行报告为未读线索不作事实。新0复用2主要来源，成人修改不替幼鸟验收。",
   "full_prompt": "Use case precise-object-edit. #112 Asio abyssinicus v21. Image1 edit target, image2 actualadult fieldphoto for ADULT feather material only. Replace all plastic shiny confetti, curled yarn and detached feather shards on BOTH ADULTS with coherent natural matte short feather vanes. Keep tawny brown blackrim face, orange-yellow eyes, dark long ear tufts, black bill graybrown cere, dark goldenbrown mottled upperparts, checkered tawny/buff underparts. Keep previously corrected feather-covered dorsal toes down to blackish horn claw bases, same physical branch grips. No height-ratio changes. Center juvenile MUST remain unchanged; juvenile appearance age/sex/flight not validated, not a positive reference. Entire natural highland woodland branch scene same. Exact title '112 ABYSSINIAN OWL · Asio abyssinicus v21'. Footer 'CONCEPT · SCIENCE PENDING · JUVENILE UNVERIFIED'. Adult labels SEX INFERRED. No new bird, nest or anatomical guess.",
   "source_ids": [
@@ -52,5 +56,8 @@
   "review_result": "NEEDS_REVISION",
   "review": "v21整图实际查看：成年及枝条大片塑料碎片已转连续哑光羽片/树皮，仍有层叠规则和少数曲丝；成年黄橙眼黑喙灰褐蜡膜/耳簇/羽趾黑爪支撑保留；不推体比。中央幼鸟原状未改，环纹/发育证据不足仍未解决，图注JUVENILEUNVERIFIED，故整组NEEDS_REVISION，不以成人材质局部改善标科学通过。问题—成人材质腐坏；证据—本种实拍与图鉴；修改—仅成人连贯羽片；复查—宏观碎片改善，幼鸟未知保留。独立照片与局部target结合在成人上可用，此结果不证明稀有幼鸟可重建，既有v20保留。",
   "reviewed_at": "2026-11-28T13:39:04.761Z",
-  "archived_at": "2026-11-28T13:39:10.922Z"
+  "archived_at": "2026-11-28T13:39:10.922Z",
+  "archive_commit": "9d7296abc2e9fa98e234b93d43c3dcc7dbd30b6e",
+  "ended_at": "2026-11-28T13:39:27.239Z",
+  "verification_exit_code": 0
 }

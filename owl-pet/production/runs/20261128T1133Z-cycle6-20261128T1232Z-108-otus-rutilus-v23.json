@@ -9,9 +9,21 @@
     {
       "stage": "STARTED",
       "at": "2026-11-28T12:35:08.064Z"
+    },
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-28T12:35:53.549Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T1133Z-cycle6-20261128T1232Z-108-otus-rutilus-v23.json",
-  "stage": "STARTED"
+  "stage": "RESEARCH_READY",
+  "research": "复用RUT-VASSEN-2013-ANDASIBE-JUV：FrankVassen2013-12-04 Andasibe，原Flickr https://www.flickr.com/photos/42244964@N03/12038858063/ ，实际本轮外检/元数据正文/实物照 https://commons.wikimedia.org/wiki/File:Juvenile_Madagascar_Scops_Owl_(Otus_rutilus),_Andasibe,_Madagascar.jpg 阅读（CCBY2.0）。短不规则buff棕绒、暗脸黄眼、脚落枝；无精确日龄/飞行资料。复用MIKKOLA-2013 printed143/PDF145实际全文相关段/成人PeteMorris Masoala11月照片：成人黄眼灰棕喙蜡膜/羽至趾基/白黑肩条，小簇；female+18g质量非高度；young unknown不借其他物种发育。旧Scopsrutilus→Otusrutilus。本轮已看v22仍卷圈/过强横条，试验完全不传入旧生成图，只以实物幼鸟+成人图鉴为输入重建，打断旧纹理继承；设计尺寸、动作方向非日龄证明。无巢环境，湿林枝支撑。新增0复用2主要证据。另缺种预查实际查图鉴N.rudolfi454/N.forbesi490/N.burhani492/G.parkeri394/G.albertinum414/X.loweryi416均幼鸟未描述，不编造；N.lurida462虽有幼羽描述，实际ITIS TSN687127（https://itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=687127&source=to_print）引用IOC15.1将其列N.boobook lurida，排除作为新独立种；新来源ITIS-LURIDA-687127为分类核查非形态证据，访问2026-11-28，机构数据库/无页码TaxonomyNomenclature，不据此改全251约定范围。",
+  "full_prompt": "Create a NEW render for owl pet species #108 MADAGASCAR SCOPS OWL Otus rutilus v23, THREE birds: adult male left, juvenile centre, adult female right, all on broad mossy branch in humid Madagascar forest. Match established warm softly rendered high-quality3D pet concept, soft natural matte feather surfaces. Input1 is REAL juvenile morphology reference: emulate its fine irregular tan/brown down, dark face, yellow iris and stable branch-standing pose, with subtly mottled broken bars visible within down. NOT fluffy curly yarn: do not draw loops, ring fibers, wool, tangled threads, uniform fur carpet, layered U-shaped scales, or hard repeated transverse stripes. Make a fully NEW central juvenile from REAL photo, not a continuation of any old generated owl. Juvenile head profile looking sideways, two visible feet gripping wood, wings entirely within down, NO exposed mature primaries, no flying. Input2 is adult-species book page, adult photo lower part: adults have small ear tufts, finely mottled brown/ochre feathering with black shaft herringbone marks, white black-edged scapular stripes, whitishbrown facial disc/dark ruff, yellow eyes, graybrown bill/cere, feathered tarsi to toe bases, graybrown toes/dark claws. Adults same nominal height; no measured sexual dimorphism asserted. Natural coherent fine feathers, no glossy orange plastic flakes. Include small neat typography title '#108 MADAGASCAR SCOPS OWL v23 · Otus rutilus'; plaques 'ADULT MALE · SEX INFERRED', 'JUVENILE · AGE UNKNOWN', 'ADULT FEMALE · SEX INFERRED'; footer 'CONCEPT · SCIENCE PENDING · AGE / FLIGHT / SEX RATIO UNVERIFIED'. No nest/eggs/extra birds, no tracing or copying source captions. Exact age and first flight unknown. This is a stage-supported character concept, not a validated scientific plate.",
+  "source_ids": [
+    "RUT-VASSEN-2013-ANDASIBE-JUV",
+    "MIKKOLA-2013",
+    "ITIS-LURIDA-687127"
+  ],
+  "new_sources": 0
 }

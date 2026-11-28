@@ -1,0 +1,3 @@
+# Actual review
+First actualoutput heavy diagonal strokes, secondedit actuallyviewed finer short lateral curvedbranches; localpigmentPWL but some branches still tree-like/diagrammatic, notexactfeather map. Shafttipspades modest; lowerwhitishground/face/browniris/darkcap/young/yellowiris/wingtail/grip preserved visually. No sexmorphrule. Evidence supports branchedshafts not arbitraryuniformstripe; applied5thcycle and secondedit locally improved thickness, no allspeciesvalidation. Retain youthunknown and whole scientificfalse.
+{"bytes":2477417,"sha256":"5956ae9ff1608bf9dc92d7c3b8be093f77712408371481ae1073870f86e04a4e","gitblob":"0c3c4256c3c810e0f7a5be4efbc73d039ea82d89","size":[1536,1024]}

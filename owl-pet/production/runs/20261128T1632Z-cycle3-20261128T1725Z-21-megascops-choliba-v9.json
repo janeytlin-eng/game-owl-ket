@@ -13,16 +13,41 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T17:30:02.441Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T17:31:27.285Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T1632Z-cycle3-20261128T1725Z-21-megascops-choliba-v9.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Reuse TSO-ACTA-NESTLING-2017: Edson Guilherme & Izabele Rodrigues de Souza (2017), Nestling development of the tropical screech-owl: a successful case report from the southwestern Amazon, Acta Amazonica47:269–272, DOI10.1590/1809-4392201700502, https://acta.inpa.gov.br/fasciculos/47-3/PDF/AA-2017-0050.pdf accessed2026-11-29. Targeted externalsearch plus original printed270–271/PDF2–3 text and Figure1D actualpixels read. Hatch-monitored Acre2011: dark barred mesoptile with developed remiges and yelloweyes by photographed18–20days; photo shows fine gray head/chest rather than long cream loops. This dates source birds only. Photo is hand-held; do not copy handling into pet scene or claim documented natural pose. Existing image body pattern more repetitive than reference; limit edit to visible young head/neck/chest texture retaining formedwing and supportedcavity pose. Reuse MIKKOLA-2013 actualprinted218–219/PDF220–221: distinctly barred mesoptile; palegreenishgraybill, featheredtarsus/graytoes/darkhornclaws, no quantifiedsexualsizedifference, morphnotsex. CurrentMegascopscholiba/oldOtuscholiba; subspeciesnotassigned. Cavern generalization not actual deadAstrocaryum study palm; floor sparsebark not builtcup. New0/reused2; photoaccess renewed not newpublication. Unresolved exactage/irisphase/sexratio/feathermap/nestgeometry; sciencefalse.",
   "full_prompt": "Use case: precise-object-edit. Edit target Image1 #21 Megascops choliba v8. Preserve exactly THREE owls, both entire adult bodies, plumage, eyes, beaks, feet, sizes, branch, forest, hollow and corrected flat sparse-bark floor; preserve all text and scientific-pending footer. Change ONLY young head/neck/chest surface: fine short overlapping gray-buff mesoptile with soft narrow dark/light bars, darker face and pale brows, no long cream yarn loops or continuous knitted rings. Keep youthful round no-ear-tuft head, yellow eyes and pale green-gray bill. Preserve the formed folded wing flight feathers and all young toes, natural weight on cavity floor, no flight or exact age claim. Keep same established warm natural-history 1536x1024 style. This is a limited texture correction, do not introduce adult shaft-streaks, adult-sized shoulder spots, new tail or newborn pose.",
   "source_ids": [
     "TSO-ACTA-NESTLING-2017",
     "MIKKOLA-2013"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "archive_transfers": [
+    {
+      "started_at": "2026-11-28T17:31:05.685Z",
+      "ended_at": "2026-11-28T17:31:27.265Z",
+      "elapsed_seconds": 21.58,
+      "scope": "base64 preparation+blob transfer+hash validation"
+    }
+  ],
+  "image_metadata": {
+    "bytes": 2682848,
+    "sha256": "a18776f78025193448ba60717116a6a4d70887a42ac615d4296b2f6b4da039d4",
+    "gitblob": "64183822b921f0c414033b4dfb6941c3c6a1b0e9",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-7baf4720-1ab4-49e4-9131-48bad4a3e438.png",
+  "imagegen_wait_seconds": 42.948,
+  "editing_wait_seconds": 0,
+  "review_result": "PASS_WITH_LIMITATIONS local texture; scientific calibration pending"
 }

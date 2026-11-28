@@ -1,0 +1,3 @@
+# Actual review
+Actualv22/firstv23/retryv23viewed: crownpigmentfinerpalespeckling, largebrightwhitehelmetunitoutlinesreduced. Firstv23lookedflatpaintedpanel; necessarysurfaceeditrestoredroundedtinyoverlaprelief. LocalcrownfinessePWLonly; exactRGB/featherunitsnotcalibrated. Earstufts/forehead/iris/bill/adultbody/toes/supportsandentirerightyoungunchanged. YoungbodymaterialSTILLunresolved; wholeimage sciencefalse and speciesstillnotfullycorrected. Book222/PDF224supportsadulttract, originalp104supportsunchangedolderyoungscope. Do notcountadultcrownfixasjuvenileproblemresolved.
+{"bytes":2357626,"sha256":"c9f2865810557672650c87b5d06a9a5d590440213a2f77dedd9a23e70cb40fb2","gitblob":"1a597b1a4638bce67a6309593e61394709558754","size":[1536,1024]}

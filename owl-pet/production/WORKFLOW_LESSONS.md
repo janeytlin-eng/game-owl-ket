@@ -1119,3 +1119,7 @@ Actual visualreview: adults now distinctdark lateralruff/softedges, browninnerdi
 
 ## 20261128T0430Z 133-megascops-atricapilla-v11
 First actualoutput heavy diagonal strokes, secondedit actuallyviewed finer short lateral curvedbranches; localpigmentPWL but some branches still tree-like/diagrammatic, notexactfeather map. Shafttipspades modest; lowerwhitishground/face/browniris/darkcap/young/yellowiris/wingtail/grip preserved visually. No sexmorphrule. Evidence supports branchedshafts not arbitraryuniformstripe; applied5thcycle and secondedit locally improved thickness, no allspeciesvalidation. Retain youthunknown and whole scientificfalse.
+
+
+## 20261128T0430Z 112-asio-abyssinicus-v17
+Actualoutputviewed: adultcreamybrowarcsreduced to shortsubduedbuffmarks, tawnyface/darkruff/darktufts/irises/bill/feetfeathers retained. LocalbrowpigmentPWL, notwholeplumagevalidated. Juvenileentiregeometry/formedwingtail/ageunknown and unresolvedloopmaterialunchanged, notborrowAotus. Forestsupport/naturalgrip/scale preserved. Scapularsourceconflict explicitlyretained unchanged. Revisitv16confirmationonlylocalbrowissue; do notconvertadultsuccessintoyoungrepair.

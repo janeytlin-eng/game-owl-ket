@@ -17,11 +17,15 @@
     {
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-28T12:41:44.248Z"
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-28T12:41:50.936Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T1232Z-cycle1-20261128T1232Z-53-strix-nebulosa-v5.json",
-  "stage": "IMAGE_GENERATED",
+  "stage": "REVIEWED",
   "research": "复用WHSO-MIKKOLA-2013上传图鉴printed353/PDF355本轮实际读Identification/Juvenile：成人灰暗斑密趾羽、爪相对弱且仅略弯、黑色；非强烈钩爪。v4实际看两成人前趾爪长而急弯，本轮限定爪曲率/长度与抓枝接触，不把成人角质形态传幼鸟。复用GGO-USFS-FEIS-2007，ElenaD.Ulev2007-03机构综述 DOI10.2737/feis-species-review-stne，https://research.fs.usda.gov/feis/species-reviews/stne ，2026-11-28主动web关键词检索/实际读Development/Fledging与Habitat；幼鸟用bill/wings/talons攀斜树有文献依据，但不证明图中个体精确年龄、首飞；既有姿态不扩增动作。#53与#08均Strixnebulosa不重复计数；雌平均重300g质量不直接定高度比。成年身份是设计槽位，既有林地/倾斜枝有支撑，无新增巢室或幼鸟阶段。新0复用2文献；相对短/弱曲设计推断非毫米测量，整体sciencefalse。",
   "full_prompt": "Use case precise-object-edit. Edit #53 Strix nebulosa v4 to v5. Correct ONLY BOTH ADULTS' CLAW SHAPES: currently very long hooked black scimitar-like claws should become RELATIVELY WEAK, SHORTER and only SLIGHTLY CURVED blackish claws, consistent with Great Gray Owl morphology. Keep all digits and gripping contact with their existing branch, no extra digits, no smooth nail-less feet; dense gray toe feathers still cover toe tops to claw bases. Preserve adult yellow eyes/ivory yellow bill/white moustache and black beard/concentric face, all body proportions, young's supported climbing concept/age unknown and both adult poses. Do not shorten young claws or infer its toe ontogeny from adults. Keep entire scene and all uncertainty labels. Title '53 GREAT GRAY OWL · STRIX NEBULOSA v5'; footer 'CONCEPT · SCIENCE PENDING · YOUNG AGE / IRIS / FLIGHT UNVERIFIED · SEX SIZE NOT MEASURED'. Adult sex labels add SEX INFERRED. This is adult claw calibration only, no new climbing ability assertion or juvenile development.",
   "source_ids": [
@@ -41,5 +45,7 @@
   "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-80dc21a8-d967-4c35-a262-8ef28a60c07a.png",
   "imagegen_wait_seconds": 42.432,
   "editing_wait_seconds": 0,
-  "review_result": "PASS_WITH_LIMITATIONS"
+  "review_result": "PASS_WITH_LIMITATIONS",
+  "review": "完整实图v5：成人爪较v4长急弯黑钩明显收短收直，黑小爪尖在趾羽边缘仍可见、支撑接触保留；局部相对弱曲通过，部分尖被羽/枝遮挡不能毫米计量或全部趾数完全判断。幼鸟脚与低伏嘴/爪支撑攀爬姿未改，仍年龄虹膜首飞未验证，未因成人短爪推幼鸟发育。成人灰脸同心环/黄眼/白髭黑须/象牙喙保留，图注sexinferred/notmeasured明确。整体羽毛仍有卷曲艺术化，不称科学全图通过。问题→通用猛禽强钩爪；证据→图鉴成人弱爪略弯；修改→两成人爪；复查→局部有效、遮挡限制保留。经验：不能将所有鸮爪都画鹰式强弯，不用质量差推高度；回查v4保留，未应用别种。",
+  "reviewed_at": "2026-11-28T12:41:50.919Z"
 }

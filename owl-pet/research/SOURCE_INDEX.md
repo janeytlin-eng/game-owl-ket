@@ -9411,3 +9411,5 @@ CAMBOO-RASMUSSEN-2012-FORKTAIL 复用：Rasmussen et al.2012 Forktail28:1–20�
 ## 20261128T1028Z 145-ninox-philippensis-v6
 复用NPH-RASMUSSEN-2012 / LZBO-RASMUSSEN-2012-P13-14（同一论文）Rasmussen et al.2012 Forktail28:1–20，原文URL https://www.asianscientist.com/wp-content/uploads/2012/08/Vocal-divergence-and-new-species.pdf ，2026-11-28实际读取printed13/PDF14 Diagnosis及Table7、p12Fig6a（R.J.Quisumbing，Dolores Quezon2012-01-16），并针对adult unspotted crown外部检索。原文成鸟crown到rump纯棕、无横斑/点斑，larger outer wing-coverts大白斑而无横斑，尾浅条弱且窄。v5实际看成鸟上翼散布较多小浅短线/羽缘装饰，可混同其他菲律宾种，故本轮集中成年上部羽纹清理，保留诊断大白肩/翼斑。复用MIKKOLA-2013 printed473/PDF475实际读取（同书非新增），同意plain upperparts；幼鸟p473旧汇总不足以给当前拆分后N.philippensis精确虹膜序列。原N.philippensis广义七种拆分，当前145限定Luzon型；不把其他岛种纹样套用。大小方向未证实，构图不测量；中央较成熟young保持，年龄/飞行/巢位未知，未画巢；森林枝作为支撑。来源新增0、复用2出版物；本次纠正成鸟纹理指令，不宣称幼鸟或整图科学通过。
 [Research/prompt](species/145-ninox-philippensis-v6.md) · [Review](reviews/145-ninox-philippensis-v6-review.md)
+
+补充准确性：Mikkola printed473实际明确写males a little larger than females，故不能笼统说方向未知；该二手定性说法支持避免统一雌大雄小，但未给成鸟高度比例，本轮保留雄稍高设计槽位不称测量。Juvenile条有白初生绒及离巢羽描述，本轮未利用其构造新初生/首飞状态，也不把当前中央成图视为校准。

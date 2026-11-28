@@ -21,11 +21,15 @@
     {
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-28T05:52:04.184Z"
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-28T05:52:09.469Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0533Z-cycle4-20261128T0533Z-112-asio-abyssinicus-v18.json",
-  "stage": "IMAGE_GENERATED",
+  "stage": "REVIEWED",
   "research": "Access2026-11-28. ReuseWHSO-MIKKOLA-2013 HeimoMikkola2013uploaded508/PDF510actualread adultCEREgraybrown, hookedbillblackish. ABY-OWLPAGES-2020-3560 DeaneLewis2020-11-08 https://www.owlpages.com/owls/species.php?s=3560 freshtargetqueryandactualbody58–62read confirmsceregraybrown/billblack, darktuftsclosetoforeheadcentre/orangeyellowiris/fullyfeatheredtarsiANDtoes. V17cereverydark mergesbill; boundedbarepartpigmentseparation only, sourcecoloursqualitative/lightnotRGB. AdultslightlyfemaleRSDnoheightquantification, same scale. Entirejuvenileageflightunknown/looptextureunresolved. GuidejuvenileundescribedprobablyAotus NOTadopted. Scapularwordingconflictuntouched. OldAotusabyssinicus→Aabyssinicus. New0/reuse2.",
   "full_prompt": "Precise-object-edit #112v17→v18 scientificpetconcept. ONLY small CERE at base of BOTH ADULT bills around nostrils: matte grayishBROWN rather sameblack as hookedbill. Keep hookedbill itself BLACKISH, naturalcereanatomy/nareopenings same, not largewhitepatch or extra beak. Preserve alladultface/shortbrows/darktufts/orangeyellowiris/blackbrownruff/bodypatterns/fullyfeatheredtoes/scale, entireolderjuvenile unchanged with unresolvedtexture/formedwingtail/ageunknown. Forestbranchcontact/labels/footerunchanged onlyversion. No shoulderpatchchanges or newbornclaim.",
   "source_ids": [
@@ -56,5 +60,7 @@
   "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-7ff1fd39-7c08-44c6-b5c8-9ea389b69cf1.png",
   "imagegen_wait_seconds": 38.577,
   "editing_wait_seconds": 40.803,
-  "review_result": "NEEDS_REVISION"
+  "review_result": "NEEDS_REVISION",
+  "review": "First and secondactualoutputsviewed. Smallgraybrownbasepatch suggested, but atplateview cannot confidentlydistinguish truecerepigmentfromlight/shadow; twoeditattempts notverifiedeffective. NEEDS_REVISION rather falsePWL. Blackhookedbill/eyes/shortbrows/darktufts/fullyfeatheredtoes/relativeadultscale/forest/grip preserved. Entirejuvenileage/flightunknown/formedwingtail/knownlooptexture remains. Sourcefactgraybrowncere valid, implementationinspectioninsufficient. Future closeupreviewandregionalmaskdesignbeforemorefullplateedits; discoveredrule notyettested. Do notcallwholeadult/youngsciencepass.",
+  "reviewed_at": "2026-11-28T05:52:09.457Z"
 }

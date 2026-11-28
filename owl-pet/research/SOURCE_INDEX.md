@@ -9432,3 +9432,8 @@ CAMBOO-RASMUSSEN-2012-FORKTAIL 复用：Rasmussen et al.2012 Forktail28:1–20�
 ## 20261128T1133Z 108-otus-rutilus-v22
 复用 RUT-VASSEN-2013-ANDASIBE-JUV：Frank Vassen 2013-12-04 Andasibe，实物照片 https://commons.wikimedia.org/wiki/File:Juvenile_Madagascar_Scops_Owl_(Otus_rutilus),_Andasibe,_Madagascar.jpg ，Flickr原链 https://www.flickr.com/photos/42244964@N03/12038858063/ ，CCBY2.0；2026-11-28本轮主动关键词检索/打开元数据并实际查看本地照片，细不规则棕buff短绒/深脸/黄眼/枝栖支撑；无日龄性别首飞结论。复用MIKKOLA-2013 printed143/PDF145实际全文相关段及成人PeteMorris Masoala11月照片：成鸟小耳簇、黄眼灰棕喙蜡膜、白黑肩条、羽至趾基、爪黑褐；雌平均18g更重是质量非高度；juvenile unknown不覆盖有物种标注照片但单照不足发育序列。旧Scops rutilus→Otus rutilus。v21成人已明显破碎塑料片且幼鸟仍卷圈，本轮改变整张材质表征，重新构建成人与幼鸟而非重复柔化。无巢场景，湿林枝支撑设计；年龄/飞行/性比未知。新增0复用2出版物/照片，照片可支持所见羽被而非成熟翼序。不得借75灰头羽型给108。
 [Research/prompt](species/108-otus-rutilus-v22.md) · [Review](reviews/108-otus-rutilus-v22-review.md)
+
+
+## 20261128T1133Z 112-asio-abyssinicus-v20
+复用ABY-OWLPAGES-2020-3560：Deane Lewis,2020-11-08, Abyssinian Owl https://www.owlpages.com/owls/species.php?s=3560 ，2026-11-28本轮外部toe检索并实际读取Description/Breeding/Habitat。复用WHSO-MIKKOLA-2013同书printed508/PDF510本地实际读取。二者成年跗趾均有羽、黑角色爪，雌仅稍大非高度实测。v19实际图成人趾背大片裸橙鳞片，故成人趾背至爪基补短羽，不把成人事实套幼鸟。旧A.otus abyssinicus→A.abyssinicus。图鉴juvenile undescribed/'most likely like Long-eared'为推测，拒绝当发育证据。现中央olderjuvenile年龄羽序飞行仍未知，不因足趾修订获得通过。来源肩白斑措辞冲突保留不改；高山林枝栖而非新巢室，已有贴脚结构保留。新增0复用2来源，成人覆盖边界局部核查，整组sciencefalse。
+[Research/prompt](species/112-asio-abyssinicus-v20.md) · [Review](reviews/112-asio-abyssinicus-v20-review.md)

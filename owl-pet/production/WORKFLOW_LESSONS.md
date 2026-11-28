@@ -1115,3 +1115,7 @@ Actual output viewed: adult pale brows have dark interruptions above eyes, subtl
 
 ## 20261128T0430Z 131-megascops-watsonii-v10
 Actual visualreview: adults now distinctdark lateralruff/softedges, browninnerdisc/irises/bills/darktufts/bodypattern preserved; juvenileclosedeyes/bars/bellyrest/feetgrip unchanged. LocalruffpigmentPWL only, no preciseplumage/scienceapproval. Retain usta regionalboundary; externalMenqname splitdoesnotautomaticallyrecount251 orreassignspecies. Existingjuveniledevelopmentunknown, no agedrawing. Applied boundedpigmentruffrule to131 only, do not apply tootherowlssanssource.
+
+
+## 20261128T0430Z 133-megascops-atricapilla-v11
+First actualoutput heavy diagonal strokes, secondedit actuallyviewed finer short lateral curvedbranches; localpigmentPWL but some branches still tree-like/diagrammatic, notexactfeather map. Shafttipspades modest; lowerwhitishground/face/browniris/darkcap/young/yellowiris/wingtail/grip preserved visually. No sexmorphrule. Evidence supports branchedshafts not arbitraryuniformstripe; applied5thcycle and secondedit locally improved thickness, no allspeciesvalidation. Retain youthunknown and whole scientificfalse.

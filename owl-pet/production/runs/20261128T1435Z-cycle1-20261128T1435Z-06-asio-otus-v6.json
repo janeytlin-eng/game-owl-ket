@@ -13,16 +13,33 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T14:50:26.081Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T14:51:56.475Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T1435Z-cycle1-20261128T1435Z-06-asio-otus-v6.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "## LEO-SEIDENSTICKER-ETAL-2006-GROWTH (new indexed primary source)\nMathewTSeidensticker,DTTylerFlockhart,DenverWHolt,KathyGray,2006, Growth and plumage development of nestling Long-eared Owls, Condor108:981–985. Original author-hosted URL https://tylerflockhart.com/wp-content/uploads/2016/06/1.Seidensticker_2006.pdf ;access2026-11-28,primaryMontanafieldstudy. Actual webPDF body read abstract/Methods/Results and printed983–984 (PDF3–4) concealment; local urllib403 and missingfileparse error, no localPDF/imagepixels claimed. Records distinguish branch departure beforefirstflight; concealment uses openeyes/erectwhitefacefeathers+tufts/compressedthin uprightbody, NOT crouch. NorthAmerica stage observations not exactEuropean timing/iris/sex/footmap. Newly indexed1, supports selected designedpose only, not individualage diagnosis; no copiedsourcePDF archived. Crosslink06v6 prompt/review auto below.\n## Reuse\nLEO-MIKKOLA-2013-P504 shared2013 guide printed504/PDF506 actuallyreadthiscycle, European orangeadult eyes/buffface/graycere/featheredtarsitoesblackclaws; mesoptilecanhaveformedflight/tailfeathers. CurrentAsiootus, oldStrixotus; nosexheight ratio. v5 fullview: juvenilelabel unqualified and no sciencepending; designiteration of posture, not invented priorbiologicalerror. Existing young baretoe surface unresolved because no age-specificfoot evidence retrieved; not applyadulttoe fact to unknown young. Newsource1/reused1, unverifiedpreciseage/iris/flight remain. Concealfunction interpretation inpapernotuniversalmeasuredsurvivalproof.",
   "full_prompt": "Use case precise-object-edit. #06 Long-eared Owl Asio otus v6. Change ONLY right olderdependentyoung into quiet upright slender concealment posture: gently compress loose bodyfeathers so torso silhouette becomes narrower and more upright, keep feet fixed gripping original branch and head at natural supported neckposition. Open eyes, slightly erect short immature ear-down tufts and white brow/bill-surroundfeathers, NOT full long adult ear tufts. Keep formed foldedwing/tailfeathers (olderbrancher can have these); do not convert to hatchling or imply flight. Preserve actual youngiriscolor uncalibrated and twoadults' complete bodies/orangeeyes/blackbill/featheredtoes, branch/sticknest/conifer sunset exactly. Do not change toe anatomy or juveniletoefeathercoverage in this pose edit. Labels ADULT MALE · SEX INFERRED / ADULT FEMALE · SEX INFERRED / DEPENDENT YOUNG · AGE NOT CALIBRATED; footer CONCEPT · SCIENCE PENDING · FLIGHT NOT INFERRED. Title add v6. No new individual or exactday claim.",
   "source_ids": [
     "LEO-SEIDENSTICKER-ETAL-2006-GROWTH",
     "LEO-MIKKOLA-2013-P504"
   ],
-  "new_sources": 0
+  "new_sources": 1,
+  "image_metadata": {
+    "bytes": 2515623,
+    "sha256": "93d147badf54dd816e4e316f3febc70a48417268ed835a474b0a0385789174d8",
+    "gitblob": "e7e356e047557652cbcaa4d39ac1963f6d6433dd",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-7eb1019f-0808-471f-b2db-295e10d7e4bb.png",
+  "imagegen_wait_seconds": 41.194,
+  "editing_wait_seconds": 0,
+  "review_result": "PASS_WITH_LIMITATIONS"
 }

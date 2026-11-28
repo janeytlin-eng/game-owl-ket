@@ -1,0 +1,20 @@
+# 2026-11-28 21:30起六子轮实际生产
+
+本次完成6轮；0新增物种/6种修订。编号图1519→1525，规范学名去重207/251不变。4局部PASS_WITH_LIMITATIONS，2NEEDS_REVISION(112/02)，全组科学通过/新增用户确认0。8次实际内置imagegen调用、所有输入输出实际查看；01/02各二次生成，首稿也持久归档。旧1232Z第4–6轮在本次接续后跨触发6/6；当前1330Z3/6,next4，其他PARTIAL0，lease清空。未把跨触发补齐称一次六轮。
+
+|物种版本|实际检查|原图|VERIFIED提交|研究/完整提示|复查|运行记录|
+|---|---|---|---|---|---|---|
+|130-megascops-koepckeae-v27|PASS_WITH_LIMITATIONS|[PNG](https://github.com/janeytlin-eng/game-owl-ket/blob/2ad3323b661eefe535e1192f2d163f7ebb45b793/owl-pet/production/originals/130-megascops-koepckeae-v27.png)|[986338b4](https://github.com/janeytlin-eng/game-owl-ket/commit/986338b40decb8411072958f08c577aca7f34322)|[研究](../../research/species/130-megascops-koepckeae-v27.md)|[检查](../../research/reviews/130-megascops-koepckeae-v27-review.md)|[run](../../production/runs/20261128T1232Z-cycle4-20261128T1232Z-130-megascops-koepckeae-v27.json)|
+|09-athene-cunicularia-v6|PASS_WITH_LIMITATIONS|[PNG](https://github.com/janeytlin-eng/game-owl-ket/blob/43029270ba900bcc1ccf914c32e3237ac1957c95/owl-pet/production/originals/09-athene-cunicularia-v6.png)|[bb90e722](https://github.com/janeytlin-eng/game-owl-ket/commit/bb90e722961cfd1ac198885012f1daa9a3c96c43)|[研究](../../research/species/09-athene-cunicularia-v6.md)|[检查](../../research/reviews/09-athene-cunicularia-v6-review.md)|[run](../../production/runs/20261128T1232Z-cycle5-20261128T1330Z-09-athene-cunicularia-v6.json)|
+|112-asio-abyssinicus-v21|NEEDS_REVISION|[PNG](https://github.com/janeytlin-eng/game-owl-ket/blob/9d7296abc2e9fa98e234b93d43c3dcc7dbd30b6e/owl-pet/production/originals/112-asio-abyssinicus-v21.png)|[54f821ec](https://github.com/janeytlin-eng/game-owl-ket/commit/54f821ec28566edfd38bae8ac602aea59b6cabf2)|[研究](../../research/species/112-asio-abyssinicus-v21.md)|[检查](../../research/reviews/112-asio-abyssinicus-v21-review.md)|[run](../../production/runs/20261128T1232Z-cycle6-20261128T1330Z-112-asio-abyssinicus-v21.json)|
+|01-tyto-alba-v6|PASS_WITH_LIMITATIONS|[PNG](https://github.com/janeytlin-eng/game-owl-ket/blob/700842649617609605fb5685bd83cdfab23f4eaf/owl-pet/production/originals/01-tyto-alba-v6.png)|[e67bda6b](https://github.com/janeytlin-eng/game-owl-ket/commit/e67bda6b6b7fdaa288f600a553ddd4583cd4571b)|[研究](../../research/species/01-tyto-alba-v6.md)|[检查](../../research/reviews/01-tyto-alba-v6-review.md)|[run](../../production/runs/20261128T1330Z-cycle1-20261128T1330Z-01-tyto-alba-v6.json)|
+|02-bubo-scandiacus-v7|NEEDS_REVISION|[PNG](https://github.com/janeytlin-eng/game-owl-ket/blob/b8645a4df6ecec3a6031d85fa58cf84e006cb7d6/owl-pet/production/originals/02-bubo-scandiacus-v7.png)|[825830d7](https://github.com/janeytlin-eng/game-owl-ket/commit/825830d726aaf63378e6d4f2869ef1b7a4eaac50)|[研究](../../research/species/02-bubo-scandiacus-v7.md)|[检查](../../research/reviews/02-bubo-scandiacus-v7-review.md)|[run](../../production/runs/20261128T1330Z-cycle2-20261128T1330Z-02-bubo-scandiacus-v7.json)|
+|03-bubo-bubo-v13|PASS_WITH_LIMITATIONS|[PNG](https://github.com/janeytlin-eng/game-owl-ket/blob/3418e7ba56adbb2915d0244c8581b915995ca138/owl-pet/production/originals/03-bubo-bubo-v13.png)|[16380dbe](https://github.com/janeytlin-eng/game-owl-ket/commit/16380dbeea763f75e134162659ba1599cff0ed48)|[研究](../../research/species/03-bubo-bubo-v13.md)|[检查](../../research/reviews/03-bubo-bubo-v13-review.md)|[run](../../production/runs/20261128T1330Z-cycle3-20261128T1330Z-03-bubo-bubo-v13.json)|
+
+## 研究与迭代
+新增来源0；复用14稳定ID/15子轮引用（图鉴页域别名合并后10个资料家族，部分历史复用非本轮重新全文阅读）。[索引](../../research/SOURCE_INDEX.md)实际增量保存。09的已知龄照片提示棕色发育羽区/羽管，纠正原摘要中过度均匀白绒倾向1；01访问与行为定义更正1(PMC botwall，实际publisher MDPI原文读，peering是横移非转头)。源/限制/页码详各研究记录。130及09排除旧生成target、用本种实物照重建，宏观规则U纹明显减少，不证明全部微羽科学真实；112仅成人纹理改善幼鸟未知；01姿态改为小横移/非数值龄，单帧不证行为；02二编仍卷纹未解决；03仅成人爪基暗棕黑尖，不传给幼鸟。保留历史确认范围及旧版本，不追溯通过。
+
+## 错误与时间
+首次恢复时JSON.parse已解析对象报错，发生在仓库写入前，直接使用对象后恢复。PMC访问墙已记录且切出版社；无平台超时遥测，无固定预算限制声称。各run.stages记录真实时间及imagegen_wait_seconds/editing_wait_seconds；阶段间隔包含连接/上传/研究等不可拆分等待，不伪造纯研究耗时。130先前STARTED时间包含上次中断，不能算本次研究用时。生成等待236.2秒；编辑等待71.7秒。归档及验证阶段时间见逐轮时间戳。
+
+全251/44种覆盖缺口和集中整批科学审查未完成；不暂停生产，不改其他任务/不接外部API。

@@ -1,0 +1,463 @@
+{
+  "owner": "20261128T1330Z",
+  "evidence_head": "aa7e4733c6dfc0654af2712f035cb58140a709d1",
+  "results": [
+    {
+      "run_id": "20261128T1232Z-130-megascops-koepckeae-v27",
+      "batch_id": "20261128T1232Z",
+      "cycle": 4,
+      "target": "130-megascops-koepckeae-v27",
+      "action": "REVISION",
+      "started_at": "2026-11-28T12:55:40.661Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T12:55:40.696Z"
+        },
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T13:31:59.911Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T13:32:25.442Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T13:33:46.308Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T13:33:52.306Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T13:33:58.630Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T13:34:10.244Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T1232Z-cycle4-20261128T1232Z-130-megascops-koepckeae-v27.json",
+      "stage": "VERIFIED",
+      "recovery": {
+        "previous_owner": "20261128T1232Z",
+        "new_owner": "20261128T1330Z",
+        "reason": "Prior STARTED only; expired lease; no v27 image. Resume same run."
+      },
+      "actual_errors": [
+        "Local JSON.parse on connector already-parsed object failed before mutation; corrected using parsed object."
+      ],
+      "research": "复用KOEP-ALARCON-2023，Ibeth P Alarcón et al2023, Reproductive events of birds from Southern Ecuador, Neotropical Biodiversity9:93–114 DOI10.1080/23766808.2023.2237229, https://biologia.uazuay.edu.ec/sites/biologia.uazuay.edu.ec/files/public/ReproductiveeventsofbirdsfromSouthernEcuador.pdf ;2026-11-28重新外部检索并实际读本地原PDF printed104/PDF13、Fig1c/PDF4照片。2019-04-23 Loja2131m,亲鸟依赖幼鸟灰白细横斑/棕胸/黑面缘白眉黄眼,Podocarpus3–4m枝；没有日龄性别首飞。复用KOEP-MIK2013-222=同Mikkola2013图鉴 printed222/PDF224，本轮实际原页读取/看成人照片，成人短簇/蓝绿角喙/灰褐趾黑角爪，无性差数据；旧Otus→Megascops对应保留；不据幼鸟Loja地点强指定hockingi。v26实际已查看且幼鸟反复U羽层未解决。本轮不输入旧生成图，仅独立野外照片+图鉴重建，检验错误纹理继承。巢/精确发育仍未知，艺术尺度不等于测量。新源0复用2，先前开始记录保留、过期lease接续不重复计轮。",
+      "full_prompt": "Use case stylized-concept. Make a completely fresh #130 KOEPCKE'S SCREECH OWL · Megascops koepckeae triptych in established warm dimensional natural owl pet style. References: image1 is actual dependent juvenile field photograph Fig1c Alarcon2023; image2 guide page adult morphology/photo. NO old generated owl target is supplied. Adult male left and adult female center, sex inferred, near equal scale, no quantitative sex-size data. Small short ear tufts, yellow eyes, bluish green horn bill/cere, graywhite mottled face black ruff, white shoulder markings, graywhite breast brown shaft streaks with irregular lateral branches. Natural matte small flat feather vanes, no shiny flakes. Right dependent fledgling closely follow actual photo's soft gray-white mesoptile body with narrow low-contrast irregular transverse dark bars and brown chest wash, black facial border and white brow, yellow eye, short ear silhouette, closed wings. NO chunky U-shaped sculpted feather tiles, circular filaments or rows of scalloped loops. Fine short dense feather fuzz, not cottonballs or hair. Quiet perch with two feet gripping thick natural bark branch, subtropical Andean shrub background. Juvenile exact age/sex/first flight unknown; do not illustrate flight or hatchling or nest. Do not copy frog/prey. Text top '#130 KOEPCKE’S SCREECH OWL · v27'; scientific name below; bottom 'ADULT MALE · SEX INFERRED', 'ADULT FEMALE · SEX INFERRED', 'DEPENDENT FLEDGLING'; footer 'CONCEPT · SCIENCE PENDING · JUVENILE AGE / SEX / FLIGHT UNKNOWN'. Preserve independently evidenced juvenile vsadult feather differences.",
+      "source_ids": [
+        "KOEP-ALARCON-2023",
+        "KOEP-MIK2013-222"
+      ],
+      "new_sources": 0,
+      "image_metadata": {
+        "bytes": 2821141,
+        "sha256": "2ee1c7d16859bf198adc1c2897d9351753a2aaa56b7800f1db5822f80c37de45",
+        "gitblob": "b771b2f714acbd807ee00cd5227d0389c595a41a",
+        "size": [
+          1774,
+          887
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-769f3a89-94be-4755-852c-0de83c03834d.png",
+      "imagegen_wait_seconds": 39.223,
+      "editing_wait_seconds": 0,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "review": "v27完整实际查看并对照独立Fig1c：幼鸟灰白细暗横斑/棕胸/黄眼/黑面缘白眉保留，大块雕刻U羽层消失为较短不规则细绒，仍有局部细曲丝，不称完全真实羽序。成人短簇黄眼蓝绿角喙灰白纵纹、肩白斑，近等大且性别推断标明；灰褐趾/爪落枝。无巢或飞行动作/日龄猜测。新图比旧图偏实物质感、仍立体宠物概念，科学未通过。问题—旧图纹理继承；证据—Alarcon原照；修改—排除旧target仅独立参考整图；复查—宏观U纹明显消失，局部微纤维和精确羽序/比例未校准。此方法本物种本次局部有效，不宣称跨物种普适；旧v26保留失败状态。PASS_WITH_LIMITATIONS.",
+      "reviewed_at": "2026-11-28T13:33:52.288Z",
+      "archived_at": "2026-11-28T13:33:58.611Z",
+      "archive_commit": "2ad3323b661eefe535e1192f2d163f7ebb45b793",
+      "ended_at": "2026-11-28T13:34:10.220Z",
+      "verification_exit_code": 0,
+      "commit_sha": "986338b40decb8411072958f08c577aca7f34322",
+      "credit_commit": "0ec3c29326ec16f4bbddd43bb7479d660506ea41"
+    },
+    {
+      "run_id": "20261128T1330Z-09-athene-cunicularia-v6",
+      "batch_id": "20261128T1232Z",
+      "cycle": 5,
+      "target": "09-athene-cunicularia-v6",
+      "action": "REVISION",
+      "started_at": "2026-11-28T13:34:28.483Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T13:34:28.523Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T13:35:09.591Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T13:36:22.610Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T13:36:27.061Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T13:36:31.661Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T13:36:45.708Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T1232Z-cycle5-20261128T1330Z-09-athene-cunicularia-v6.json",
+      "stage": "VERIFIED",
+      "research": "复用BUO-JOHNSON-AGING-2019：DavidHJohnson etal,2019-11-17 Aging Key for Juvenile Burrowing Owls, BC ConservationSociety/GlobalOwlProject, unpublished34pp, https://burrowingowlalliance.ca/wp-content/uploads/2025/08/Johnson-et-al.-2019.-Aging-Key-for-Juvenile-Burrowing-Owls-Athene-cunicularia.pdf 。本轮外检、机构原PDF新下载，实际读p1摘要/生长差异限制及p13四张knownage13–14日照片；有个体营养差异，不能以体重或体长单一断龄。实际照片显示斑驳棕色新羽/羽管与稀疏灰buff绒并存，并非均匀奶油白圆球。因此纠正v4/v5提示中过度统一白绒倾向：新图按具体照片重建，年龄仍不作标定。复用BUOW-KLUTE-ETAL-2003-P6及WHSO-MIKKOLA-2013 printed424/PDF426本轮实际读，成人稀疏长跗羽/橄榄灰趾，图鉴female较大与西部FWS无逆体差冲突保留，近等尺度非实测。图鉴成人照片grallaria不套hypugaea。本轮直接参考knownage照片无旧图target，保持v1确认范围历史不扩张；新源0复用3，证据解读更正1。巢内初生/确切虹膜/动作时序未凭照片猜测，早期出洞支撑沿用已索引SDZ阶段，不新增科学通过。",
+      "full_prompt": "Use case stylized-concept. Fresh #09 Burrowing Owl Athene cunicularia v6, three-bird warm dimensional owl electronic-pet concept with natural feather texture. Only supplied image is actual known-age juvenile reference sheet (Johnson2019 PDF13,13–14days), not prior generated target. Adult male left adult female right similar scale, tuftless rounded brown head white spots/eyebrows/throat, yellow adult eyes, grayish olive bill/cere, buff-white barred breast, long slender sparsely feathered tarsi olivegray bristled toes dark horn claws. Center chick must follow actual reference stage: irregular sparse gray-buff down with visibly developing brown feather tracts/pinfeather sheaths on back/shoulders and crown, smaller incompletely defined facial disc, narrow soft folded wing buds with short exposed developing sheaths, not a giant uniformly cream plush ball, no adult spotted long primary grid. Low steady standing by prairie burrow lip, feet planted firm soil, belly close slope, no jumping flying or raisedwing. No curly wool loops, no repeated embossed feather tiles; delicate irregular straight branching down. No precise chick iris or age claim: label 'EARLY EMERGING CHICK · AGE NOT CALIBRATED'. Adult labels male/female 'SEX INFERRED'. Top '#09 BURROWING OWL · v6' and 'Athene cunicularia'. Ground prairie short sparse grass natural soil burrow, soft morning, no cages/grid/rulers/handling/prey. No female-larger universal rule. Keep three exactly and distinct earlydevelopment appearance. Footer 'CONCEPT · SCIENCE PENDING'.",
+      "source_ids": [
+        "BUO-JOHNSON-AGING-2019",
+        "BUOW-KLUTE-ETAL-2003-P6",
+        "WHSO-MIKKOLA-2013"
+      ],
+      "new_sources": 0,
+      "image_metadata": {
+        "bytes": 2873178,
+        "sha256": "7006e10a1822124748cc374f7df787d5f1e48c2ee65147337e5bafe086c1af73",
+        "gitblob": "375720dd4f3759e9e6e91d5622d3dab96ae4d637",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-aa719e14-405f-4edc-94df-d441a91fa6cf.png",
+      "imagegen_wait_seconds": 29.058,
+      "editing_wait_seconds": 0,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "review": "完整实际查看v6：幼鸟不再均匀白绒球，深棕斑驳冠/背肩发育羽管和稀灰buff绒并存，短折翼无长成鸟斑点飞羽阵列，开放眼但无虹膜年龄定论，双脚踩土、自然低站支撑。粗毛线环纹比v5显著减少，腹背仍局部细曲纤维，未校准羽管数/长度、确切日龄/性别/首飞。成人黄眼灰橄榄喙白眉白喉斑点上体横斑下体/长稀羽跗趾，近等显示非测量。地洞草原无巢内材料编造。PWL仅阶段轮廓及宏观材质改善，sciencefalse。问题—旧提示把earlyjuvenile统一白绒；证据—Johnsonp13knownage有丰富斑驳羽区/营养差异；修改—独立照片参考重建；复查—上述差异实际可见，不追溯v4/v5通过。今后年龄目标必须读照片本身而非仅旧摘要，已本次应用但无跨种普适验证。",
+      "reviewed_at": "2026-11-28T13:36:27.043Z",
+      "archived_at": "2026-11-28T13:36:31.644Z",
+      "archive_commit": "43029270ba900bcc1ccf914c32e3237ac1957c95",
+      "ended_at": "2026-11-28T13:36:45.667Z",
+      "verification_exit_code": 0,
+      "commit_sha": "bb90e722961cfd1ac198885012f1daa9a3c96c43",
+      "credit_commit": "7f08e4959f5e2cd9a813bba9cca7ba9de4198799"
+    },
+    {
+      "run_id": "20261128T1330Z-112-asio-abyssinicus-v21",
+      "batch_id": "20261128T1232Z",
+      "cycle": 6,
+      "target": "112-asio-abyssinicus-v21",
+      "action": "REVISION",
+      "started_at": "2026-11-28T13:37:05.688Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T13:37:05.729Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T13:37:31.604Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T13:39:00.226Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T13:39:04.775Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T13:39:10.944Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T13:39:27.264Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T1232Z-cycle6-20261128T1330Z-112-asio-abyssinicus-v21.json",
+      "stage": "VERIFIED",
+      "research": "复用ABY-OWLPAGES-2020-3560 DeaneLewis2020-11-08 https://www.owlpages.com/owls/species.php?s=3560 本轮外检后实际打开Description/Breeding/Habitat原正文；复用WHSO-MIKKOLA-2013 printed508/PDF510实际读。成人跗趾羽覆盖、黑角爪/暗喙灰棕蜡膜/黄橙眼/格纹；性差仅稍大不测高比。A.otusabyssinicus旧名对应。adultfield来源Oiseaux/CatherineetBernardLanneluc照片已实际看，本轮只作成人纹理参考不新增源，不凭照片估性别年龄。原v20实际查看成人仍塑料碎羽，本轮仅成人材质；中央幼鸟保留原状且UNVERIFIED，图鉴juvenileundescribed及类似Aotus是推测不能当本种事实。搜索新增Guichard/2016旅行报告为未读线索不作事实。新0复用2主要来源，成人修改不替幼鸟验收。",
+      "full_prompt": "Use case precise-object-edit. #112 Asio abyssinicus v21. Image1 edit target, image2 actualadult fieldphoto for ADULT feather material only. Replace all plastic shiny confetti, curled yarn and detached feather shards on BOTH ADULTS with coherent natural matte short feather vanes. Keep tawny brown blackrim face, orange-yellow eyes, dark long ear tufts, black bill graybrown cere, dark goldenbrown mottled upperparts, checkered tawny/buff underparts. Keep previously corrected feather-covered dorsal toes down to blackish horn claw bases, same physical branch grips. No height-ratio changes. Center juvenile MUST remain unchanged; juvenile appearance age/sex/flight not validated, not a positive reference. Entire natural highland woodland branch scene same. Exact title '112 ABYSSINIAN OWL · Asio abyssinicus v21'. Footer 'CONCEPT · SCIENCE PENDING · JUVENILE UNVERIFIED'. Adult labels SEX INFERRED. No new bird, nest or anatomical guess.",
+      "source_ids": [
+        "ABY-OWLPAGES-2020-3560",
+        "WHSO-MIKKOLA-2013"
+      ],
+      "new_sources": 0,
+      "image_metadata": {
+        "bytes": 2864249,
+        "sha256": "d07c4c2bcbd021cd320499fdbb615c5bdc84981791c8e887818ac3728b45f7ac",
+        "gitblob": "5f1e8bb8e454e422ab5a2b8fca40fba7fc6ca5ad",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-cf5c90df-7764-4bae-b752-b86df885c85e.png",
+      "imagegen_wait_seconds": 44.509,
+      "editing_wait_seconds": 0,
+      "review_result": "NEEDS_REVISION",
+      "review": "v21整图实际查看：成年及枝条大片塑料碎片已转连续哑光羽片/树皮，仍有层叠规则和少数曲丝；成年黄橙眼黑喙灰褐蜡膜/耳簇/羽趾黑爪支撑保留；不推体比。中央幼鸟原状未改，环纹/发育证据不足仍未解决，图注JUVENILEUNVERIFIED，故整组NEEDS_REVISION，不以成人材质局部改善标科学通过。问题—成人材质腐坏；证据—本种实拍与图鉴；修改—仅成人连贯羽片；复查—宏观碎片改善，幼鸟未知保留。独立照片与局部target结合在成人上可用，此结果不证明稀有幼鸟可重建，既有v20保留。",
+      "reviewed_at": "2026-11-28T13:39:04.761Z",
+      "archived_at": "2026-11-28T13:39:10.922Z",
+      "archive_commit": "9d7296abc2e9fa98e234b93d43c3dcc7dbd30b6e",
+      "ended_at": "2026-11-28T13:39:27.239Z",
+      "verification_exit_code": 0,
+      "commit_sha": "54f821ec28566edfd38bae8ac602aea59b6cabf2",
+      "credit_commit": "1b15bcc54f4c163e22187bf4bddf5ca40e81d3df"
+    },
+    {
+      "run_id": "20261128T1330Z-01-tyto-alba-v6",
+      "batch_id": "20261128T1330Z",
+      "cycle": 1,
+      "target": "01-tyto-alba-v6",
+      "action": "REVISION",
+      "started_at": "2026-11-28T13:40:12.919Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T13:40:12.960Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T13:40:19.637Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T13:40:40.927Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T13:41:40.859Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T13:42:55.165Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T13:43:17.984Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T13:43:23.606Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T13:43:28.466Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T13:43:44.967Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T1330Z-cycle1-20261128T1330Z-01-tyto-alba-v6.json",
+      "stage": "VERIFIED",
+      "research": "复用WBO-EILAM-HAGBI-2024，DavidEilam/ZoharHagbi2024-10-17, Biology13:834 DOI10.3390/biology13100834 https://pmc.ncbi.nlm.nih.gov/articles/PMC11504010/ 本轮主动外检、原文打开并定位3.1.2/3.1.3及Fig3–4；开眼后11–20日低坐/视觉探索与横向头动，20–30日多跟跗段支撑，30日起成人直立，50–60日初飞是研究圈养样本非全球阈值。v5实际看支撑基本合理，不虚报原图错误；本轮设计迭代选择安静侧向peering姿态，并撤数值日龄标签避免生成像断龄。复用WBO-KOEPPL-2005原研究历史羽管证据(本轮未新读全篇)及WBO-MIK2013-78-80历史成人确认方向，非新源。头转设计推断受姿态研究支持但不是照片复刻；不把开放眼颜色/羽管长度说精确15日。保留原v3确认范围，不扩大科学审批。新0复用3。",
+      "full_prompt": "Use case precise-object-edit. #01 Western Barn Owl Tyto alba v6. Preserve existing two adults, their plumage/size/support, barn wood/debris habitat and warm dimensional pet style. ONLY adjust central young pose and age annotation: keep low belly and heels/tarsometatarsal segments on broad wooden floor, both feet supported, head raised, translated a little to the left while continuing to face forward, neck naturally supported, a quiet visual peering pose (not angular turning or sideways head tilt). Preserve loose white down/dark open eyes/pink eyelids/pale bill, incomplete adult heartdisc, tiny emerging short sheaths only, no mature remiges/tall standing/flight. Don't change young age stage, body mass or add wings. Replace exact central label '~15-DAY NESTLING' with 'EARLY OPEN-EYED NESTLING' and footer 'AGE NOT CALIBRATED · CONCEPT · SCIENCE PENDING'. Title add '#01 · v6'. Adults label SEX INFERRED. Subtle posture diversity supported by captive study, not extreme neck rotation.",
+      "source_ids": [
+        "WBO-EILAM-HAGBI-2024",
+        "WBO-KOEPPL-2005",
+        "WBO-MIK2013-78-80"
+      ],
+      "new_sources": 0,
+      "source_access_correction": "PMCblocked; publisherMDPIactualbody read; peering translation not rotation",
+      "first_attempt": "generated_images/exec-81b29a41-04d5-4dda-9dab-cd912b3e52ff.png",
+      "first_review": "Full view labels corrected; headtranslation too subtle/unproven, edit required",
+      "full_edit_prompt": "Change only chick head position: shift its head a small visible distance left of its chest center, while eyes/beak continue facing camera. Neck curves naturally under white down; low seated trunk/belly/heels/both feet stay exactly supported and stationary. No tilt or rotation. Preserve labels and both adults and wings; show quiet lateral peering pose, not flight. No other changes.",
+      "first_attempt_metadata": {
+        "bytes": 2421406,
+        "sha256": "3cb055963e3164de317acb53c8504af3634fa31d80966d9213c205273f3c2ab9",
+        "gitblob": "14fd2fef2a6f15afcc26eee95b12c135852f17cb",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "image_metadata": {
+        "bytes": 2342157,
+        "sha256": "eaf101f6c0c9eb279a29ac684c7e762b7d9e68160ab0bb68ea479e6d96754da3",
+        "gitblob": "9d6fa2244bf3474343766b2dea76fcd9ca03af2b",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-4394788a-fe30-4aa6-aa38-73004903786f.png",
+      "imagegen_wait_seconds": 40.21,
+      "editing_wait_seconds": 28.592,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "review": "初图和编辑后整图均实际查看。二编幼鸟头中心较胸中心稍左、仍朝前而非歪头；幅度小且单帧不能证实peering运动轨迹，不标动作能力科学验收。低坐腹跟跗段/双脚木板接触保留，开放暗眼粉眼睑白绒/短羽管无成熟翼，数值日龄已撤，成人同羽色方向及近等大未改。局部姿态/注释PWL，全科学false；羽管长度/个体羽龄仍未测。问题—转头与横移概念混淆；证据—EilamMethods2.3定义；修改—生成前改prompt加二编；复查—小幅横移可见但不能声称动态行为已验证。旧v5不是错误图，不虚报修复；本轮是姿态设计与证据边界修订。",
+      "reviewed_at": "2026-11-28T13:43:23.586Z",
+      "archived_at": "2026-11-28T13:43:28.448Z",
+      "archive_commit": "700842649617609605fb5685bd83cdfab23f4eaf",
+      "ended_at": "2026-11-28T13:43:44.945Z",
+      "verification_exit_code": 0,
+      "commit_sha": "e67bda6b6b7fdaa288f600a553ddd4583cd4571b",
+      "credit_commit": "95be49ca40ba387a8eeb7cd37ee3b24a79a15227"
+    },
+    {
+      "run_id": "20261128T1330Z-02-bubo-scandiacus-v7",
+      "batch_id": "20261128T1330Z",
+      "cycle": 2,
+      "target": "02-bubo-scandiacus-v7",
+      "action": "REVISION",
+      "started_at": "2026-11-28T13:44:19.845Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T13:44:19.893Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T13:44:25.083Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T13:45:29.669Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T13:46:57.392Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T13:47:22.379Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T13:47:28.353Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T13:47:33.818Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T13:47:49.925Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T1330Z-cycle2-20261128T1330Z-02-bubo-scandiacus-v7.json",
+      "stage": "VERIFIED",
+      "research": "复用SNO-HOLT-GRAY-MAPLES-KORTE-2016 DOI10.3356/rapt-50-02-131-143.1，2016JRR50:131–143；本轮外部检索原论文Table3/摘要线索，全文PDF未新读，不把搜索当全文。复用SNO-ORI-2022GUIDE https://www.owlresearchinstitute.org/snowy-owl-photo-guide 本轮实际打开原机构照片指南Stage3/4正文：灰mesoptile、14d羽管起、15–21d飞羽出鞘/尾羽管出现/eggtooth消失，时序区间非固定日。历史图鉴SNO-MIK2013-258-261成人白雄斑雌/羽趾/黑喙爪方向沿用，不新读图鉴冒充本轮新证据。旧Nycteascandiaca→Buboscandiacus。v6实际看中央明显闭环卷毛；本轮限定材质/保守低伏姿态设计、不增加成熟翼羽、不推幼鸟性别。撤数值日龄避免生成断龄。新0复用2主来源+1历史图鉴。",
+      "full_prompt": "Use case precise-object-edit. #02 Snowy Owl Bubo scandiacus v7. Edit ONLY central nestling texture and subtle resting posture, preserve both adults and open arctic tundra mound. Replace conspicuous closed curly yarn/oval loop shapes with naturally irregular short gray mesoptile down filaments. Keep charcoalgray juvenile body, open eyes with iris uncalibrated, white developing footfeathers, tiny short sheathed wingprimaries only, no adultwhitewing panels or long remiges/tail. Chick leans gently forward with head slightly lower but alert, belly and heels touching same firm ground both feet stable, not walking/jumping/flying. No extremeheadtilt. Adult male mostlywhite and female barred/near equal height unchanged; blackbill whitefeatheredfeet and claws. Replace numerical15–21day label with 'GRAY MESOPTILE NESTLING · AGE NOT CALIBRATED'. Header '#02 SNOWY OWL · v7', scientificname same. Footer 'CONCEPT · SCIENCE PENDING'. No nestconstruction/extra birds.",
+      "source_ids": [
+        "SNO-HOLT-GRAY-MAPLES-KORTE-2016",
+        "SNO-ORI-2022GUIDE",
+        "SNO-MIK2013-258-261"
+      ],
+      "new_sources": 0,
+      "first_review": "Actual full image: label/pose changed, long curly hair worsened, edit required.",
+      "first_attempt": "generated_images/exec-a0052079-0e0f-42dd-a7fd-775b699f4f15.png",
+      "full_edit_prompt": "Only central gray chick down: replace every long curled hair, oval loop and wool coil with very short straight fine branching mesoptile down, compact natural gray clumps, like a real nestling, not furry mammal. Preserve gray bodywhitefootfeathers, bodyshape, low grounded stance, eyes/bill, shortdevelopingwingstate, adults entire scene labels exactly unchanged.",
+      "first_attempt_metadata": {
+        "bytes": 2696975,
+        "sha256": "6ae68ffbd8c415d4c4e5725bc65c1d79b910774a61ddb409ca2f8c49c58c858a",
+        "gitblob": "d32a3a5184d96bb233c3904058997af7c550bf21",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "image_metadata": {
+        "bytes": 2635640,
+        "sha256": "4c391eac6051ec27bcc848870318ecc71bef2562627626e77ae5abe49cac42f7",
+        "gitblob": "09e52f9006233cdd217222ff3d34f6bb8e440e7e",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-f7dcce2f-e9c6-41bf-a941-fbb6738e5183.png",
+      "imagegen_wait_seconds": 45.633,
+      "editing_wait_seconds": 43.115,
+      "review_result": "NEEDS_REVISION",
+      "review": "实际初图/二编整图查看：低伏支撑及非数值年龄标签落实，成人白雄斑雌/白羽趾/黑喙爪不变，幼鸟灰mesoptile/短sheath无成熟翼/无飞行仍在。但二编后长丝变短部分，闭环/曲纤维仍遍布冠与胸，材质目标未完成，NEEDS_REVISION/sciencefalse；图像不能证实羽管长度/精确阶段/虹膜时序。问题—继承target的卷毛；证据—ORI阶段正文不能证明此卷毛；修改—两次限定短直绒；复查—失败保留，不宣称有效。下一轮应先看本种阶段实物像素再排除旧target重建，不能把108/130成功当02已成功。",
+      "reviewed_at": "2026-11-28T13:47:28.336Z",
+      "archived_at": "2026-11-28T13:47:33.799Z",
+      "archive_commit": "b8645a4df6ecec3a6031d85fa58cf84e006cb7d6",
+      "ended_at": "2026-11-28T13:47:49.898Z",
+      "verification_exit_code": 0,
+      "commit_sha": "825830d726aaf63378e6d4f2869ef1b7a4eaac50",
+      "credit_commit": "25e82d4e0935a7b1d802127dbf5746c32aef94fd"
+    },
+    {
+      "run_id": "20261128T1330Z-03-bubo-bubo-v13",
+      "batch_id": "20261128T1330Z",
+      "cycle": 3,
+      "target": "03-bubo-bubo-v13",
+      "action": "REVISION",
+      "started_at": "2026-11-28T13:48:12.491Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T13:48:12.533Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T13:48:32.907Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T13:49:55.913Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T13:50:00.783Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T13:50:05.847Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T13:50:18.102Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T1330Z-cycle3-20261128T1330Z-03-bubo-bubo-v13.json",
+      "stage": "VERIFIED",
+      "research": "复用EEO-MIKKOLA-2013本轮实际读printed268/PDF270(及printed269图片页文本)，成人爪blackishbrown with blacktips、强爪，质量性差不能换站高。v12实际看成人爪几乎全黑，做细微爪基角质色局部校正，不动幼鸟。复用EEO-PENTERIANI-2005，Penteriani/Delgado/Maggio/Aradis/Sergio,Ibis147:155–168 DOI10.1111/j.1474-919x.2004.00381.x，2026-11-28外检并实际打开Wiley原Methods(19chicks8nests)/发育图注上下文；本轮不说新看图像像素，既有v12约10日边界历史保留但撤数值日龄标注。原文西班牙样本不作全球发育阈值。保留原v4用户确认范围，成人爪颜色不迁移幼鸟。新0复用2，设计未变龄，不冒充科学全图验证。",
+      "full_prompt": "Use case precise-object-edit. #03 Bubo bubo v13. Change ONLY BOTH ADULT claw keratin colors: claw bases and proximal shafts dark blackish brown horn, transitioning to black tips; retain powerful long curved claws and exact toe anatomy/rock contact, no additional digits, don't tint toe feathers or scales. Existing allblackclaws should show subtle natural darkbrown base under daylight, not brightbrown/pale ivory. Preserve entire adults/plumage/orange eyes/ear tufts/relative size, all central downy chick anatomy and low supported posture, rocky ledge environment. Do not change chick clawcolors; adult fact must not transfer to chick. Replace central numerical10day label with 'WHITE-DOWN NESTLING · AGE NOT CALIBRATED'; footer 'CONCEPT · SCIENCE PENDING'. Add title '#03 EURASIAN EAGLE-OWL · v13' and Bubo bubo. No other changes.",
+      "source_ids": [
+        "EEO-MIKKOLA-2013",
+        "EEO-PENTERIANI-2005"
+      ],
+      "new_sources": 0,
+      "image_metadata": {
+        "bytes": 3151093,
+        "sha256": "91ab6668d998202afde95c9f08bd25539623338764d73b9eeae64b6f780a06e3",
+        "gitblob": "0fabebb85f885991c3f577d42d7d7bdf58d6e78b",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-1b4b450b-4ac6-46fe-9c38-810671633b21.png",
+      "imagegen_wait_seconds": 37.572,
+      "editing_wait_seconds": 0,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "review": "完整实图查看：两成人可见爪基暗棕角质色向黑尖过渡，强弯和落岩接触保留，无额外趾；局部颜色相符但光照/毫米比例未标定。成人橙眼黑喙簇羽/羽跗/同羽色近等高未改，未把质量差当高度。中央白绒低伏腹跟双脚有支撑，粉裸趾浅灰爪保留未套成人黑棕色；年龄改为非标定白绒阶段。幼鸟细卷丝仍存在，本轮不称材质修复，羽管长/精确日龄/虹膜时序未校准。PWL仅成人爪色和证据边界，全sciencefalse。经验—角质色修订限定年龄角色，不让成人事实扩散幼鸟；实际本图应用复查有效、不能视跨种规则。",
+      "reviewed_at": "2026-11-28T13:50:00.765Z",
+      "archived_at": "2026-11-28T13:50:05.828Z",
+      "archive_commit": "3418e7ba56adbb2915d0244c8581b915995ca138",
+      "ended_at": "2026-11-28T13:50:18.080Z",
+      "verification_exit_code": 0,
+      "commit_sha": "16380dbeea763f75e134162659ba1599cff0ed48",
+      "credit_commit": "aa7e4733c6dfc0654af2712f035cb58140a709d1"
+    }
+  ],
+  "status": "AWAITING_FINAL_READBACK",
+  "source_counts": {
+    "new": 0,
+    "reused_ids": 14,
+    "reference_uses": 15,
+    "corrections": 2
+  }
+}

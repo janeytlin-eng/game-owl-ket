@@ -58652,7 +58652,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-28T10:51:22.755Z",
+  "updated_at": "2026-11-28T13:51:11.281Z",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -66134,10 +66134,10 @@
       }
     }
   ],
-  "active_batch_id": "20261128T1028Z",
+  "active_batch_id": "20261128T1330Z",
   "active_cycle": null,
-  "current_stage": "VERIFIED",
-  "next_cycle": 5,
+  "current_stage": "IDLE",
+  "next_cycle": 4,
   "unique_species_count": 207,
   "total_species": 251,
   "stage_events": [
@@ -88375,7 +88375,7 @@
     },
     "rule": "first two scientificnamefields; versions/duplicateIDs/subspecies not new species"
   },
-  "next_action": "Resume 20261128T1028Z cycle5/6; prioritize evidence-backed juvenile corrections; no repeated smoothing claim",
+  "next_action": "Resume 20261128T1330Z cycle4/6 after fresh main and lease checks",
   "last_invocation": {
     "run_id": "20261128T1028Z",
     "completed_cycles": 6,
@@ -88385,15 +88385,18 @@
     "next_cycle": 5
   },
   "latest_delivery": {
-    "owner": "20261128T1028Z",
+    "owner": "20261128T1330Z",
     "production_cycles": 6,
     "new_species": 0,
     "revised_species": 6,
-    "report": "owl-pet/production/batches/20261128T1028Z-six-cycle-review.md",
-    "evidence_head": "8c78e2ca9cd12f7c449b7ce390e9ecfde38860e5",
-    "receipt": "owl-pet/production/batches/20261128T1028Z-final-readback-receipt.json",
+    "report": "owl-pet/production/batches/20261128T1330Z-six-cycle-review.md",
+    "evidence_head": "aa7e4733c6dfc0654af2712f035cb58140a709d1",
+    "audit": "owl-pet/production/batches/20261128T1330Z-audit.json",
     "scientific_status": "PARTIAL",
-    "checked_files": 45
+    "source_new": 0,
+    "source_reused_ids": 14,
+    "source_reference_uses": 15,
+    "source_corrections": 2
   },
   "final_readback_at": "2026-11-28T10:51:22.755Z",
   "last_delivery": {

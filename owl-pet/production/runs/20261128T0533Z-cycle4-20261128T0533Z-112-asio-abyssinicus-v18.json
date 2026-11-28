@@ -29,11 +29,15 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-28T05:52:14.629Z"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-28T05:53:10.468Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0533Z-cycle4-20261128T0533Z-112-asio-abyssinicus-v18.json",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "research": "Access2026-11-28. ReuseWHSO-MIKKOLA-2013 HeimoMikkola2013uploaded508/PDF510actualread adultCEREgraybrown, hookedbillblackish. ABY-OWLPAGES-2020-3560 DeaneLewis2020-11-08 https://www.owlpages.com/owls/species.php?s=3560 freshtargetqueryandactualbody58–62read confirmsceregraybrown/billblack, darktuftsclosetoforeheadcentre/orangeyellowiris/fullyfeatheredtarsiANDtoes. V17cereverydark mergesbill; boundedbarepartpigmentseparation only, sourcecoloursqualitative/lightnotRGB. AdultslightlyfemaleRSDnoheightquantification, same scale. Entirejuvenileageflightunknown/looptextureunresolved. GuidejuvenileundescribedprobablyAotus NOTadopted. Scapularwordingconflictuntouched. OldAotusabyssinicus→Aabyssinicus. New0/reuse2.",
   "full_prompt": "Precise-object-edit #112v17→v18 scientificpetconcept. ONLY small CERE at base of BOTH ADULT bills around nostrils: matte grayishBROWN rather sameblack as hookedbill. Keep hookedbill itself BLACKISH, naturalcereanatomy/nareopenings same, not largewhitepatch or extra beak. Preserve alladultface/shortbrows/darktufts/orangeyellowiris/blackbrownruff/bodypatterns/fullyfeatheredtoes/scale, entireolderjuvenile unchanged with unresolvedtexture/formedwingtail/ageunknown. Forestbranchcontact/labels/footerunchanged onlyversion. No shoulderpatchchanges or newbornclaim.",
   "source_ids": [
@@ -67,5 +71,8 @@
   "review_result": "NEEDS_REVISION",
   "review": "First and secondactualoutputsviewed. Smallgraybrownbasepatch suggested, but atplateview cannot confidentlydistinguish truecerepigmentfromlight/shadow; twoeditattempts notverifiedeffective. NEEDS_REVISION rather falsePWL. Blackhookedbill/eyes/shortbrows/darktufts/fullyfeatheredtoes/relativeadultscale/forest/grip preserved. Entirejuvenileage/flightunknown/formedwingtail/knownlooptexture remains. Sourcefactgraybrowncere valid, implementationinspectioninsufficient. Future closeupreviewandregionalmaskdesignbeforemorefullplateedits; discoveredrule notyettested. Do notcallwholeadult/youngsciencepass.",
   "reviewed_at": "2026-11-28T05:52:09.457Z",
-  "archived_at": "2026-11-28T05:52:14.615Z"
+  "archived_at": "2026-11-28T05:52:14.615Z",
+  "archive_commit": "af3d18cc0a0b58d17d7a129e3207bfdb349c64c9",
+  "ended_at": "2026-11-28T05:53:10.449Z",
+  "verification_exit_code": 0
 }

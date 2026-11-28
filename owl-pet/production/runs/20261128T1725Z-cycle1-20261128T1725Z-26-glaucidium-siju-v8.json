@@ -21,11 +21,15 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T17:45:43.748Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T17:46:59.075Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T1725Z-cycle1-20261128T1725Z-26-glaucidium-siju-v8.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Reuse CUPO-PYLE-ETAL-2004-JFO PeterPyle,AmyMcAndrews,PilarVélez,RobertLWilkerson,RodneyBSiegel,DavidFDeSante2004, Molt patterns and age and sex determination of selected southeastern Cuban landbirds, JFieldOrnithol75:136–145; https://www.birdpop.org/docs/pubs/Pyle_et_al_2004_Molt_Patterns_and_Age_and_Sex_Determ_of_Selected_SE_Cuban_Birds.pdf originalMethods137/PDF2 and species138/PDF3 freshlyread2026-11-29. G.siju juveniles unmarkedback/streakedbelow/indistinctcrownspots; dullerHYiris hasquestionmark, notconfirmedsequence; field/specimenssoutheastCuba, wingchordnotstandingheight/sexkeycolouralone. ReuseCUPO-MIKKOLA-2013 same Mikkola2013publication actualprinted382/PDF384: adultoffwhite underparts denselybarredbrownishochre onUPPERBREASTSIDES leavingUNMARKED longitudinalCENTRALthroat-to-lowerbreast, restspotted/streaked. v7adultcenterupperchest stronglymarked; removeonlyadultmidlineupperbreastmarks, notlowerbelly/streaksorsidebarpattern. Youngwholestreakedunderparts retained perprimary. G.siju current; historicalTaenioglaux attribution not sourcepage, previouslywithdrawn; no newtaxon. Guideplainmesoptilecrown vsprimaryindistinctspotsconflict and unknownyoungiris remain. New0/reused2; no exactage/flight/nestexperiment; woodlandperchsupportretained. Morph≠sex; oldlabelcolourpairnotdiagnosticsexproof.",
   "full_prompt": "Precise localized edit #26 Cuban Pygmy-Owl Glaucidium siju v7. BOTH ADULTS ONLY: create a narrow unmarked off-white longitudinal area from throat through middle of upper breast down to lower breast, removing dark streaks/crossbars ONLY within that central chest strip. Keep brownish-ochre barring on upper breast SIDES; retain spots and streaks on lower belly/flanks. Do not make the whole chest or entire abdomen plain. Do not edit central juvenile at all, especially streaked underparts/plain mantle/indistinctcrownspots/unknown iris/formedwings/feet. Preserve adultfaces/eyes/bills/nape falseeyes/wingandtailpatterns/size/tarsalfeathers/feet/branch, same forest/all labels and uncertainty footer. Title version v8. Exactly3 birds same1536x1024 naturalhistory style. No sexcolourkey, no stage claims.",
   "source_ids": [
@@ -38,6 +42,12 @@
       "started_at": "2026-11-28T17:45:19.685Z",
       "ended_at": "2026-11-28T17:45:38.352Z",
       "elapsed_seconds": 18.667,
+      "scope": "base64 preparation+blob transfer+hash validation"
+    },
+    {
+      "started_at": "2026-11-28T17:46:41.122Z",
+      "ended_at": "2026-11-28T17:46:59.055Z",
+      "elapsed_seconds": 17.933,
       "scope": "base64 preparation+blob transfer+hash validation"
     }
   ],
@@ -54,5 +64,18 @@
     },
     "review": "Adultcentralunmarkedstrip achieved but extends into lowerbelly; restore lowerbellystreaks without erasing cheststrip."
   },
-  "second_edit_prompt": "Change ONLY lower central BELLY of each adult owl (left/right), below end of upper breast and above legs: restore a few thin brown longitudinal feather streaks/spots there. Keep the new unmarked narrow offwhite THROAT and CENTRAL UPPER CHEST strip intact. Keep lateral chest bars, all other adult features, whole juvenile, feet, branches, text, forest unchanged. Do not extend white centralstrip all waytolegs. Exactly3birds same warm naturalhistory style."
+  "second_edit_prompt": "Change ONLY lower central BELLY of each adult owl (left/right), below end of upper breast and above legs: restore a few thin brown longitudinal feather streaks/spots there. Keep the new unmarked narrow offwhite THROAT and CENTRAL UPPER CHEST strip intact. Keep lateral chest bars, all other adult features, whole juvenile, feet, branches, text, forest unchanged. Do not extend white centralstrip all waytolegs. Exactly3birds same warm naturalhistory style.",
+  "image_metadata": {
+    "bytes": 2343538,
+    "sha256": "218521f94d8d38432f3df6e9dd685852a52f8ff985890002c563e61d618fbfe6",
+    "gitblob": "d1e1251081a59b20027de04c1679f2de46018281",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-2d3c7d82-3a77-4977-b5e2-6c8de0372045.png",
+  "imagegen_wait_seconds": 39.164,
+  "editing_wait_seconds": 39.218,
+  "review_result": "NEEDS_REVISION adult chest/belly boundary; scientific pending"
 }

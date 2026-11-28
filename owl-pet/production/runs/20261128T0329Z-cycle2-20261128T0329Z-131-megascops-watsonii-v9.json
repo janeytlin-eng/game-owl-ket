@@ -13,11 +13,15 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T03:41:57.933Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T03:43:11.199Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0329Z-cycle2-20261128T0329Z-131-megascops-watsonii-v9.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Access2026-11-28Shanghai new0/reuse3. WAT-MIK2013-235 existingID forHeimoMikkola2013uploadedprinted236–237/PDF238–239actualtextread (preflightPDF236wasMarshalli, correctedBEFOREedit; noMarshallitraitsadopted). UstaADULTBLACKISHmediumratherprominenttufts; V8tuftsurfacesmainlyrusset withdarkcentres, localdarkpigmentcalibrationnotshapeoradultscalerule. Warmbrowniris/greenyellowbrownbill/baregrayyellowbrowntoes/darkhornclaws, nosexsizedata; mesoptilebarredheadmantleunderpartsunchanged. WAT-MENQ-2018-USTA WillianMenqFeb2018 https://avesderapinabrasil.com/megascops_usta.htm freshoriginalpage21–29actualread: variableadultplumage/brownamberiris/featheredtarsitobases; 2013nestage secondaryreportNOTnewtimedyoungproof. WAT-DANTAS-2021 SidneiDantas/JasonWeckstein/JohnBates/JoicianeOliveira/ThereseCatanach/AlexandreAleixo2021 Zootaxa4949(3):401–444 DOI10.11646/zootaxa.4949.3.1 https://www.mapress.com/zt/article/download/zootaxa.4949.3.1/43285 freshactualabstract401read: highwithinclademorphvariation, morphologyaloneunsafe. No claimnewp428readthisrun. KeepcurrentregionalMegascopswatsoniiusta/oldScopsusta mappingwithout251rankchange. Adulttuftcolourfromguidequalitativeunderartlight, noRGBmetric/sciencefalse.",
   "full_prompt": "Precise-object-edit #131v8 usta regional concept. ONLY BOTH ADULT EAR-TUFT FEATHER PIGMENT: predominantly dark blackish-brown ratherbrightredorange, preserving a few subtle mutedrusset flecks. Keep mediumtuftlength/width/positions/feathergeometry EXACT. No enlarging or uniformblackplastic. Preserveadultcrown/forehead/faces/warmbrownirises/bills/allbodypatterns/feet/claws/near-equalheight; wholecentralrestingMESOPTILE/closedeyes/bodybars/hiddenwingtail/bellyandfeet support EXACTUNCHANGED. Allforest/labels/usta regionaltaxonomyfooterunchanged; v8→v9. Nojuvenileage/sex/flightclaims.",
   "source_ids": [
@@ -25,5 +29,18 @@
     "WAT-MENQ-2018-USTA",
     "WAT-DANTAS-2021"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "image_metadata": {
+    "bytes": 2680804,
+    "sha256": "1a9a6a52bac9a315fec327cf0b9afc49a6b8c9d5c693e97e062f880ef58c2050",
+    "gitblob": "b1b1dce2a8c28c12c78faf0381f0a79761dda7b1",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-47f8b06f-0ae2-489f-8a0c-7327982561e7.png",
+  "imagegen_wait_seconds": 38.576,
+  "editing_wait_seconds": 0,
+  "review_result": "PASS_WITH_LIMITATIONS"
 }

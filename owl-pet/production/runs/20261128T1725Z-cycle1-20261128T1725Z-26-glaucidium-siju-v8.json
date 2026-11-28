@@ -13,16 +13,41 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T17:44:21.742Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T17:45:38.375Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T1725Z-cycle1-20261128T1725Z-26-glaucidium-siju-v8.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Reuse CUPO-PYLE-ETAL-2004-JFO PeterPyle,AmyMcAndrews,PilarVélez,RobertLWilkerson,RodneyBSiegel,DavidFDeSante2004, Molt patterns and age and sex determination of selected southeastern Cuban landbirds, JFieldOrnithol75:136–145; https://www.birdpop.org/docs/pubs/Pyle_et_al_2004_Molt_Patterns_and_Age_and_Sex_Determ_of_Selected_SE_Cuban_Birds.pdf originalMethods137/PDF2 and species138/PDF3 freshlyread2026-11-29. G.siju juveniles unmarkedback/streakedbelow/indistinctcrownspots; dullerHYiris hasquestionmark, notconfirmedsequence; field/specimenssoutheastCuba, wingchordnotstandingheight/sexkeycolouralone. ReuseCUPO-MIKKOLA-2013 same Mikkola2013publication actualprinted382/PDF384: adultoffwhite underparts denselybarredbrownishochre onUPPERBREASTSIDES leavingUNMARKED longitudinalCENTRALthroat-to-lowerbreast, restspotted/streaked. v7adultcenterupperchest stronglymarked; removeonlyadultmidlineupperbreastmarks, notlowerbelly/streaksorsidebarpattern. Youngwholestreakedunderparts retained perprimary. G.siju current; historicalTaenioglaux attribution not sourcepage, previouslywithdrawn; no newtaxon. Guideplainmesoptilecrown vsprimaryindistinctspotsconflict and unknownyoungiris remain. New0/reused2; no exactage/flight/nestexperiment; woodlandperchsupportretained. Morph≠sex; oldlabelcolourpairnotdiagnosticsexproof.",
   "full_prompt": "Precise localized edit #26 Cuban Pygmy-Owl Glaucidium siju v7. BOTH ADULTS ONLY: create a narrow unmarked off-white longitudinal area from throat through middle of upper breast down to lower breast, removing dark streaks/crossbars ONLY within that central chest strip. Keep brownish-ochre barring on upper breast SIDES; retain spots and streaks on lower belly/flanks. Do not make the whole chest or entire abdomen plain. Do not edit central juvenile at all, especially streaked underparts/plain mantle/indistinctcrownspots/unknown iris/formedwings/feet. Preserve adultfaces/eyes/bills/nape falseeyes/wingandtailpatterns/size/tarsalfeathers/feet/branch, same forest/all labels and uncertainty footer. Title version v8. Exactly3 birds same1536x1024 naturalhistory style. No sexcolourkey, no stage claims.",
   "source_ids": [
     "CUPO-PYLE-ETAL-2004-JFO",
     "CUPO-MIKKOLA-2013"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "archive_transfers": [
+    {
+      "started_at": "2026-11-28T17:45:19.685Z",
+      "ended_at": "2026-11-28T17:45:38.352Z",
+      "elapsed_seconds": 18.667,
+      "scope": "base64 preparation+blob transfer+hash validation"
+    }
+  ],
+  "attempt1": {
+    "file": "/workspace/scratch/96400dc71dac/generated_images/exec-d86f1c35-3af9-4d81-8cc8-bc62e5992c16.png",
+    "metadata": {
+      "bytes": 2434168,
+      "sha256": "ab12ebb4e54e14e43d5d0accb3e638dd2acdd33d7db83a193f6394ad2f4a132a",
+      "gitblob": "1bd16f2cc3f877301a745083bd337d381488b3b9",
+      "size": [
+        1536,
+        1024
+      ]
+    },
+    "review": "Adultcentralunmarkedstrip achieved but extends into lowerbelly; restore lowerbellystreaks without erasing cheststrip."
+  }
 }

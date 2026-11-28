@@ -1239,3 +1239,7 @@ Actualv9 viewed versusv8: adultirises nowdarkchocolatebrownwithretainedpupil/cat
 
 ## 20261128T0929Z 236-ninox-reyi-v4
 Actualv4 viewed: adultwhitethroatnowcontinuousbrightandclearlyvisiblebelowbill, barredbreaststaysintact; no oversizedbib added. Smallbrows/crownbarspattern/feet/youngposition retained, titlev4uncertaintyfooterreadable. LocalfeaturevisibilityPASS_WITH_LIMITS; exactpatchdimensionsnotmeasured/photocalibrated, notscientificpass. No adultthroatcolourtransferredtoyoung, ageiris/billflightremainunknown. Existingformedolderjuvenilewingretainedwithout claimingknownage. Lesson: distinguishthroatpatchvisibilityfromgenericwhitebreast; hypothesisimplementedandvisuallyeffectiveforthisdisplay, notdiagnosticmeasurement. Compare144 narrowwhite/streakedthroat: notenlargedbecauseitsprimarysaysnarrow, preventsuniformspeciesrecipe.
+
+
+## 20261128T0929Z 221-ninox-meeki-v5
+Actualv5 viewed: adults have darker distal horn/nearlyblackclawtips with lighterproximalhorn bodies retained, notwholeclawblack. Toe skin/shape/grips unchanged; juvenileclaws/palette untouched. LocaladultdistalpigmentPASS_WITH_LIMITS, sourcequalitativecolournotmeasuredRGB/tipfraction. Youngplainbreast/whitecovertbars/closedeye support retained, notflight ordayageclaimed. Textv5/pendingfooter intact. Lesson: specifyproximal/distalclawregions and taxon/age; universalblackclawswouldincorrectlyoverrulethisguide. Appliedvisiblyhere, compare165 darkhornclaws unchangednoautomatictransfer. Billreflectivity/fullplumagegeometry and exactjuvenilechrono remainuncalibrated; sciencefalse.

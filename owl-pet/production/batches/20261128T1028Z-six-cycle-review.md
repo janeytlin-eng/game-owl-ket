@@ -46,3 +46,9 @@
 计时边界：研究检索有些发生STARTED之前，未纳入上述准备秒数；145补充RESEARCH_READY发生生成后，属来源澄清不算子轮。归档秒数不含PNG blob读取上传。不能把这些局部秒数当作全流程瓶颈定论；当前直接观测imagegen等待约35–44秒/次，尚未证实网络归档端到端更快/更慢。没有平台强制超时遥测，没有切换外部API或新建调度。
 
 未完成项及接续：20261128T1028Z第5/6，优先75幼鸟阶段实物证据、108真正表征修正或有明确幼鸟资料的缺种；不靠细微重复纹理修图凑“新种”。其他自动化未修改。集中全字节回读结果随后附于本报告与独立receipt。
+
+## 集中远端回读已完成
+
+证据提交 [8c78e2ca9cd12f7c449b7ce390e9ecfde38860e5](https://github.com/janeytlin-eng/game-owl-ket/commit/8c78e2ca9cd12f7c449b7ce390e9ecfde38860e5)：45项完整字节读取通过，包括14个PNG路径解码/SHA256、6条历史VERIFIED运行记录。1502旧编号图同blob全部保留，manifest历史1457条完整保留；新编号图1508、规范学名前两段并合pseudoscops-grammicus→asio-grammicus且亚种不重计后207独立物种，非编号数量。非owl-pet修改0。第25组双路径原图2,864,437bytes同blob10508841ef5f6184e8658664615302909765c1dd可访问，未重复制作。
+
+首次集中审计执行脚本误用了Git blob头分隔符的转义，STATUS.md断言失败；改bytes([0])后全部45项重跑通过，属于执行者脚本错误，不是仓库文件故障。没有把失败尝试计成完成。详细校验：[receipt](20261128T1028Z-final-readback-receipt.json)；计时与完整run：[audit](20261128T1028Z-invocation-audit.json)。

@@ -486,6 +486,12 @@
       "error": "早期合并输出超出上下文截断",
       "blocking": false,
       "recovery": "检查实际c/head后不重启STARTED；重新单独查看Fig6照片与来源相关页"
+    },
+    {
+      "step": "final_fullbyte_audit_first_attempt",
+      "error": "AssertionError STATUS.md due executor audit script Git blob header delimiter escaping",
+      "blocking": false,
+      "recovery": "Replace ambiguous escaped delimiter with bytes([0]); rerun all45 files, no repository content fault asserted"
     }
   ],
   "uncertainties": [

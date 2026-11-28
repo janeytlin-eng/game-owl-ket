@@ -971,3 +971,7 @@ Actualv7/v8andVeronesioriginalphoto viewed. Leftinnerbrowedge slightlylower/flat
 
 ## 20261128T0000Z 119-megascops-centralis-v12
 Actualv11/v12fullandJordanadultphoto viewed: sidehead/cheekssmoothflatfinefeatherstrokes nowreplace prominentpointedoverlaprims, visuallyclearlocalPWL. Weakbrows/plainouterdisc/blackorbitalring/lemoniris/greenyellowbill/shorttufts unchanged, topcrown andgraywhitevermiculatedbellypriorfix retained. Allthreebirds/sixsupports/cavitysill/titlev12/footer intact; centralolderyoungunchanged. No allmorphdarkening fromISO3200photo, no preciseRGB/sex/youngage/flight/nestvalidation. Lesson changingrestrictedcontourgeometry canretainpigmentandseparateearlierfixes; oneactualcaseonly, notfuturemethodproof. Sciencefalse.
+
+
+## 20261128T0000Z 112-asio-abyssinicus-v13
+Actualv12/v13fullandMatonscannedyoung viewed. Juveniletorso stillprominentcurlyloops; no confident materialimprovement, NEEDS_REVISION. Headpalecrownpatch/darkmask/orangeiris/blackbill/formedbarredwing/barredtail/youngfeet andsixsupports retained; adultfullyfeatheredtoes/darkclaws andadultplumage/tufts/roles/v13/footer preserved. Do notremoveformedyoungwingbecausecharcoaldown remains. Sourcecaption1989 takesprecedenceoverFlickr2011digitaltimestamp, scan cannotproveindividualbarbgeometry. Lesson material-onlygrainrequestfailedhereand108/130; no methodimprovementclaimed, prioritize differentrenderstrategy nexttime ratherthan identicaledits. Sciencefalse.

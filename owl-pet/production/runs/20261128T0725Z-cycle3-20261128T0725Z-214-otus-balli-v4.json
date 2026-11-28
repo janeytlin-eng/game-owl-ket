@@ -17,11 +17,15 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T07:41:09.087Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T07:42:21.094Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0725Z-cycle3-20261128T0725Z-214-otus-balli-v4.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Access2026-11-28 targetedspecieswebsearch + actual institutionmetadata read. Reuse OBAL-MIKKOLA-2013-P181 uploaded Mikkola2013 printed181/PDF183 actualpage read: adultbrown/rufousmorph, smalltufts/yelloweyes/yellowhornbill, mottledcrown/nape, mantle pale spots darktips, darkedgedpale scapularouterwebs, barredflight/tail; underbodywhitespotsblackarrowheadedloweredges/notlongshaftstreaks. Adult tarsuspartfeathered/distalthirdbare, dirtyyellowtoes/darktippedhornclaws; nosexsize data. Juvenilefineclosebarscrown/breast/coverts, exactageiris/bill/flightnotgiven. Reuse OBAL-ITIS-555366 original Nomenclature/Taxonomy actualexternalread currentO.balliofAndamanIslands, oldEphialtesballi; source taxonomyonly. Smithsonian https://library.si.edu/image-gallery/75302 actualmetadatap73–81 read Sharpe1891 imageSIL-39088006988810_0219 captionScopsBalli mapsO.ball i; no livephoto/youngsource. JoTT DOI10.11609/jott.7339.13.11.19500-19508 rediscovered alreadyindexed OBAL-SURESHMARIMUTHU-2021-JOTT7339, notnew; publisherretryandPDF403, notfreshfullstudyread and nojuvenilefactborrowed. Actualv3 adultsfront views obscuremantle; diagnostic3/4backdisplay is designvariation, NOTdiscovered biologicalerror orfemale-specificpattern. Retainnear-equalscale/unknownsexsize/juvenileand supports. Newvalidated0/reuse2freshsources, metadata museumlead notusedasmorphology; oldScops/Ephialtes→Otuscrosswalk retained.\nSource-count refinement before generation: new verified museum catalog metadata1 (OBAL-SI-SHARPE-1891-75302), not a morphological source; original illustration pixels not viewed. The earlier 'newvalidated0' refers to developmental/morphology sources.",
   "full_prompt": "Use case precise-object-edit. #214 Andaman Scops Owl v3 trio. Change ONLY MIDDLE ADULT FEMALE display pose to gentle three-quarter BACK view on SAME branch. Keep body scale near equal to male, same two feet positions and firm toe/claw grips; natural neck head turned back left so a yellow eye/yellowhornbill and shorttufts visible. Show brown mantle with irregular black-tipped pale buff/white spots, pale dark-edged outer scapular webs and barred brown closed flightfeathers/tail. Match existing adult brown morph color, no invented female-specific plumage. No arbitrary dark shaft stripes on body underside. Existing partial tarsal feathering/narrow barelowerzone and dirtyyellowtoes/darktippedhornclaws retained, not newmeasurements. Left male frontview and entire right mesoptile unchanged includingclosebars/shortsoftwing/footcontacts/unknownageirisflight. Forest/layout/allcaptions preserved except add v4. Same stylized3Dpet look. This is diagnostic display variation, not new scientificapproval.",
   "source_ids": [
@@ -29,5 +33,18 @@
     "OBAL-ITIS-555366",
     "OBAL-SI-SHARPE-1891-75302"
   ],
-  "new_sources": 1
+  "new_sources": 1,
+  "image_metadata": {
+    "bytes": 2751015,
+    "sha256": "058766729add78615c5e49d03e3056732c98c127e4f3ccbbb01a7b1cec758b4b",
+    "gitblob": "63741bf52fa078827384597443aa81562a619f35",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-1ed7a6cf-b057-4178-b6cb-bfb8da118b0c.png",
+  "imagegen_wait_seconds": 31.004,
+  "editing_wait_seconds": 0,
+  "review_result": "PASS_WITH_LIMITATIONS"
 }

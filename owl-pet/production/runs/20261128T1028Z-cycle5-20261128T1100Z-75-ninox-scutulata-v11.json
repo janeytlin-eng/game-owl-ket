@@ -25,11 +25,15 @@
     {
       "stage": "REVIEWED",
       "at": "2026-11-28T11:04:14.839Z"
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-28T11:04:19.318Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T1028Z-cycle5-20261128T1100Z-75-ninox-scutulata-v11.json",
-  "stage": "REVIEWED",
+  "stage": "ARCHIVED",
   "research": "新增 SCU-KHOO-2025-MBR：Siew-Yoong Khoo (Connie),2025, Unusual Nesting Site for the Brown Boobook, Malaysian Bird Report1/2025 March:9–13. 原URL https://malaysianbird.report/wp-content/uploads/Malaysian-Bird-Report-March-2025-Final-31Mar2025-High-Res-3.pdf ，访问2026-11-28。网页读取因23,865,034bytes过大失败，直接下载PDF后实际读取p9–13及渲染p12Plate4–5；不是只看摘要。原始观察2021-03 Taiping Perak Malaysia，三日两夜，幼鸟离巢后灰头/灰底弱棕纵纹/深棕上部/浅橙脚/较浅黄眼，喙上白斑，照片p12Plate5左幼右成。p11目睹离巢、返回巢及亲鸟喂食；非具体日龄或各个体首飞时间证明。p9–10鸟巢蕨基部约8m为该地点个案，不泛化所有种群。本轮选有资料离巢幼鸟、不编初生细节，闭翼枝栖支撑有照片。旧Brown Hawk Owl→N.scutulata现名，当前图不进一步指定未鉴亚种。成年/性别比例仍用既有SCU-BSS-WEB与MIKKOLA-2013(printed464–465/PDF466–467)旧索引，不把新照成鸟判定性别；本轮主要新读为1新来源。设计推断：近似3/4高非实测、选择闭翼而非还原首飞。v10卷绒及展开翼问题→重建中央整体，保留成鸟用户风格。局限单地点有限个体、照片不提供羽毛时序；sciencefalse待复查。",
   "full_prompt": "Use case precise-object-edit. Edit target #75 Brown Boobook Ninox scutulata v10 into v11 in same confirmed warm polished 3D owl pet style. Supporting image is a scientific field-note page: use ONLY Plate5 lower photograph LEFT juvenile for developmental morphology, not the right adult. REPLACE ENTIRE CENTRAL JUVENILE and its pose: newly fledged Brown Boobook with compact slate-GRAY rounded head, small white patch just above bill, pale yellow irises, dark brown formed upperparts, soft gray underparts with indistinct brown streaks. Short fine soft feather texture, NO cream wool, NO curly loops, NO long fur, NO adult bold heart blotches. BOTH WINGS CLOSED and naturally folded, short formed tail; no extended adult-like flight display. Depict alert perched juvenile turning head slightly left, both light orange feet firmly gripping the existing branch. This is fledged juvenile stage evidenced March2021 Taiping, exact day age and first-flight timing not inferred. Central size about three quarters adult visible height is approximate illustration, not measured ratio. Preserve BOTH OUTER ADULTS exactly including small white above-bill patch, dark bill, yellow eyes, heart-like breast blotches, sex-inferred labels, branch and forest. Title '75 BROWN BOOBOOK v11 · Ninox scutulata'. Center label 'FLEDGED JUVENILE · EXACT AGE UNKNOWN'. Footer 'CONCEPT · SCIENTIFIC CALIBRATION PENDING · SEX RATIO / AGE UNMEASURED'. No nest. No fourth bird. No photographer text or watermark copied.",
   "source_ids": [
@@ -50,5 +54,6 @@
   "editing_wait_seconds": 0,
   "review_result": "PASS_WITH_LIMITATIONS",
   "review": "实际完整查看v11并对照Khoo2025p11文字/p12Plate5左幼：中央已替换灰头、弱棕纵纹灰腹、深棕闭翼、浅橙脚、浅黄眼、小喙上白斑的离巢幼鸟；旧奶油卷绒及展开翼完全移除，双脚落枝，羽色/闭翼阶段局部通过。仍艺术化、腹羽灰棕混合非精确色值；尺寸3/4是构图非测量；转头方向与提示略异不影响生物检查。成人大心形腹斑/黄眼/黑蓝喙/旧风格保持。不能据此验证性别比例、确切日龄/首飞/全部亚种；整组sciencefalse/PWL。问题→以泛化绒羽套离巢阶段；证据→原始野外图文；修改→更换有照片的整只幼鸟而非微调卷圈；复查→该问题有效。回查75v10并保留；108等物种不可借此灰头羽型，后续必须其本种影像。新增来源实际落盘索引，非口头研究。",
-  "reviewed_at": "2026-11-28T11:04:14.820Z"
+  "reviewed_at": "2026-11-28T11:04:14.820Z",
+  "archived_at": "2026-11-28T11:04:19.302Z"
 }

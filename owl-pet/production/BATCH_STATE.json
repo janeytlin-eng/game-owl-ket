@@ -58200,17 +58200,19 @@
           "commit_sha": "a21bd875b66f7ba51560ea426e41630304b2b094",
           "archive_commit": "ee8aa63189b4afd6a3fa3bf7c3a313afa08cfda6",
           "run_record": "owl-pet/production/runs/20261128T0725Z-cycle2-20261128T0725Z-212-megascops-seductus-v4.json"
+        },
+        {
+          "cycle": 3,
+          "species": "214-otus-balli-v4",
+          "commit_sha": "449a9e443f91a1f0ba9c4a71990cfcb6c888dff4",
+          "archive_commit": "1a9ed0d85ec4339ef1d2f60107fc3e2f79faea78",
+          "run_record": "owl-pet/production/runs/20261128T0725Z-cycle3-20261128T0725Z-214-otus-balli-v4.json"
         }
       ],
-      "next_cycle": 3
+      "next_cycle": 4
     }
   ],
-  "lease": {
-    "owner": "20261128T0725Z",
-    "run_id": "20261128T0725Z-214-otus-balli-v4",
-    "heartbeat_at": "2026-11-28T07:42:49.107Z",
-    "expires_at": "2026-11-28T07:57:49.107Z"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -58375,12 +58377,7 @@
       "verification_commit": "7ce90fc5a92951b9ff9295bff361e1623c6f9a0a"
     }
   ],
-  "active_lease": {
-    "owner": "20261128T0725Z",
-    "run_id": "20261128T0725Z-214-otus-balli-v4",
-    "heartbeat_at": "2026-11-28T07:42:49.107Z",
-    "expires_at": "2026-11-28T07:57:49.107Z"
-  },
+  "active_lease": null,
   "last_updated_at": "2026-11-27T23:55:29.939Z",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
@@ -59182,7 +59179,7 @@
       "credited": false
     }
   ],
-  "in_progress": true,
+  "in_progress": false,
   "previous_checkpoint": {
     "run_id": "20261128T0000Z",
     "at": "2026-11-28T00:17:56.236Z",

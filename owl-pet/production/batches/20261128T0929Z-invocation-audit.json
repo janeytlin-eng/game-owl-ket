@@ -1,0 +1,537 @@
+{
+  "run_id": "20261128T0929Z",
+  "started_at": "2026-11-28T09:31:04.880Z",
+  "production_ended_at": "2026-11-28T09:51:18.917Z",
+  "status": "SIX_PRODUCTION_CYCLES_COMPLETE_SCIENCE_PARTIAL",
+  "actual_completed_this_invocation": 6,
+  "new_species": 0,
+  "revisions": 6,
+  "old_batch_closed_across_triggers": "20261128T0833Z",
+  "current_batch": {
+    "id": "20261128T0929Z",
+    "completed": 4,
+    "next_cycle": 5
+  },
+  "scope_total": 251,
+  "scientifically_verified_new": 0,
+  "local_pass_with_limits": 5,
+  "needs_revision": [
+    "108-otus-rutilus-v21"
+  ],
+  "global_needs_revision": "unknown",
+  "counts": {
+    "baseline": "0729f16b030e2f20f5ec935cd28483cc6b9682cd",
+    "numbered_before": 1496,
+    "numbered_after": 1502,
+    "canonical_species": 207,
+    "prior_images_unchanged": true,
+    "outside_blob_changes": 0,
+    "truncated": false
+  },
+  "source_index": {
+    "path": "owl-pet/research/SOURCE_INDEX.md",
+    "new_sources": 1,
+    "new_ids": [
+      "SCU-BSS-WEB"
+    ],
+    "reused_id_citations": 12,
+    "total_id_citations": 13,
+    "unique_ids": 10,
+    "unique_documents_after_book_and_rasmussen_alias_dedup": 7,
+    "design_boundary_corrections": 1,
+    "note": "144 guide belly generalization not used to override variable original diagnosis; repeated-page/book/paper IDs not new publications. Metadata-only Sartore/1914/secondVassen leads excluded."
+  },
+  "timings": [
+    {
+      "target": "75-ninox-scutulata-v9",
+      "research_design_seconds": 59.82,
+      "imagegen_wait_seconds": 41.505,
+      "edit_wait_seconds": 0,
+      "archive_commit_seconds_excluding_blob_upload": 4.9,
+      "archive_readback_seconds": 14.649,
+      "blob_upload_seconds": "not separately instrumented"
+    },
+    {
+      "target": "108-otus-rutilus-v21",
+      "research_design_seconds": 31.431,
+      "imagegen_wait_seconds": 40.77,
+      "edit_wait_seconds": 38.191,
+      "archive_commit_seconds_excluding_blob_upload": 4.926,
+      "archive_readback_seconds": 26.055,
+      "blob_upload_seconds": "not separately instrumented"
+    },
+    {
+      "target": "144-ninox-spilocephala-v6",
+      "research_design_seconds": 33.964,
+      "imagegen_wait_seconds": 39.365,
+      "edit_wait_seconds": 0,
+      "archive_commit_seconds_excluding_blob_upload": 5.997,
+      "archive_readback_seconds": 16.194,
+      "blob_upload_seconds": "not separately instrumented"
+    },
+    {
+      "target": "165-ninox-punctulata-v9",
+      "research_design_seconds": 31.721,
+      "imagegen_wait_seconds": 92.683,
+      "edit_wait_seconds": 0,
+      "archive_commit_seconds_excluding_blob_upload": 4.87,
+      "archive_readback_seconds": 21.676,
+      "blob_upload_seconds": "not separately instrumented"
+    },
+    {
+      "target": "236-ninox-reyi-v4",
+      "research_design_seconds": 34.315,
+      "imagegen_wait_seconds": 36.459,
+      "edit_wait_seconds": 0,
+      "archive_commit_seconds_excluding_blob_upload": 5.422,
+      "archive_readback_seconds": 22.464,
+      "blob_upload_seconds": "not separately instrumented"
+    },
+    {
+      "target": "221-ninox-meeki-v5",
+      "research_design_seconds": 22.304,
+      "imagegen_wait_seconds": 36.716,
+      "edit_wait_seconds": 0,
+      "archive_commit_seconds_excluding_blob_upload": 4.71,
+      "archive_readback_seconds": 23.026,
+      "blob_upload_seconds": "not separately instrumented"
+    }
+  ],
+  "imagegen_calls": 7,
+  "final_images": 6,
+  "first_attempts": [
+    {
+      "target": "108-otus-rutilus-v21",
+      "path": "owl-pet/production/intermediates/20261128T0929Z-108-v21-first.png",
+      "bytes": 2703453,
+      "sha256": "95bc91ceeb8fd431985d18aab92f346fe28125286e2efb0f943b0b72149fab89",
+      "gitblob": "95498517073355932269f53616218ca12b118a19",
+      "size": [
+        1536,
+        1024
+      ]
+    }
+  ],
+  "results": [
+    {
+      "run_id": "20261128T0929Z-75-ninox-scutulata-v9",
+      "batch_id": "20261128T0833Z",
+      "cycle": 5,
+      "target": "75-ninox-scutulata-v9",
+      "action": "REVISION",
+      "started_at": "2026-11-28T09:31:04.880Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T09:31:04.928Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T09:31:58.303Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T09:32:04.700Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T09:33:32.246Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T09:33:37.316Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T09:33:42.216Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T09:33:56.865Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0833Z-cycle5-20261128T0929Z-75-ninox-scutulata-v9.json",
+      "stage": "VERIFIED",
+      "research": "Access2026-11-28. New SCU-BSS-WEB: BirdSocietyofSingapore, BrownBoobook (undated webpage), https://singaporebirds.com/species/brown-boobook actualIdentification19–25read; linked VenusDrive fieldphoto https://singaporebirds.com/photos/species/149/image83938920-cbd9-49ba-aecf-36f3fa7f7466-a15cee85-ce63-4f58-abfe-cd380e903d9e/large.webp actuallydownloaded/viewed: broad round brown underbodycentres with irregular offwhite gaps, not thinlong daggers. Imagephotographer/date/individualsexandage not supplied in readablepage, unknown; no pair-sexratio inference. Speciesaccount comparesBrownrounderheart-like versusNorthernlongerteardrops, exceptionsnotexclusivekey. Page/photo same source record, nottwoindependentsources. Supportsadultpatternrebuild only; no thirdpartyphoto copiedintoGitHub, link+summaryonly.\nReuse WHSO-MIKKOLA-2013 HeimoMikkola2013 uploadedprinted464/PDF466 actualread: describes large drop-like reddishbrownstreaks, narrowerupperthroatstreaks, yelloweyes/blueblackbill/dullgreencere; female slightlylarger withoutheightdata; whitishnataldown vs fluffierlessstriatedmesoptile. Guidehistorical8racecomplex differscurrenttaxa, do notborrowlugubrisphotoontoSingaporeyoung. Reuse SCU-NPARKS-2025 CharlynNg/NParks6Feb2025 https://www.nparks.gov.sg/publications-resources/articles/in-the-lonely--owl actualBrownHawkOwl129–131read: darkupperparts/whitishbrownstreakedunderparts/forestcanopy, notheartdefinitionorjuvenilechrono. Strixscutulata→Ninoxscutulata. Existing SCU-BESG-2024-PHOTOS youngstage retainedfromprioractualphotoevidence, notfreshreadthiscycle. Juvenileage/firstflight/sexdisplayratio remainunknown. V8 diagnostic riskprioritized; coarseheartshapevisualstrategy notexactstereotypedglyph. New1/reused2freshsources; younghistorynotcountedfresh.",
+      "full_prompt": "Use case precise-object-edit. Image1 is edit target #75 Brown Boobook Ninox scutulata v8 pet concept plate. Image2 is a supporting field photograph from Bird Society of Singapore Brown Boobook page at Venus Drive, used for ADULT lower-body plumage only; photographed individuals' age/sex unknown. Rebuild the lower chest and belly pigment on BOTH ADULTS to match the field photo: irregular broad rounded chocolate-brown heart-like feather-centre blotches, often with a slight central indentation and broad shoulders, on broken off-white ground, overlapping in uneven columns. Brown area should occupy substantially more of the feather than thin long pointed stripes; no elongated leaf/dagger drops, no smooth heart symbols or printed stickers. Integrate pigment into natural feather barbs, retain stylized pet render and lighting. Upper chest can remain more longitudinally streaked. Preserve adults' anatomy and current display sizes, faces/yellow eyes/blueblackbill/feet; do not infer actual photographed sexes. Do not change the centre dependent juvenile, its partly stretched formed wing/barred tail/down or branch grips. Preserve rainforest, type/layout, and uncertainty footer; change header v8 to v9. No new age, flight or scientific pass claim.",
+      "source_ids": [
+        "SCU-BSS-WEB",
+        "WHSO-MIKKOLA-2013",
+        "SCU-NPARKS-2025"
+      ],
+      "new_sources": 1,
+      "preflight_errors": [
+        "GitHub fetch raw BATCH_STATE400 too large; successfully read same immutable file via urllib, not connection failure"
+      ],
+      "image_metadata": {
+        "bytes": 2749999,
+        "sha256": "f63f174b479cdcf81208fa7b2b608f416db0572bbedbfa3cc1578b75379b7d86",
+        "gitblob": "959c6173ddb6a97053e9cfce78095d538d07975a",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-d6b76f29-2da1-4131-ba6d-614eb2a541ca.png",
+      "imagegen_wait_seconds": 41.505,
+      "editing_wait_seconds": 0,
+      "review_result": "PASS_WITH_LIMITS",
+      "review": "Actualv9 viewed against targetv8 and actual BSSVenusDrive photo: adultlowerbody broad rounded chocolate centres/offwhite irregular gaps closer to fieldpattern, thin daggerdropdiagnostic riskreduced. Still stylized feather-edge repetition and warmhead/broadwhiteforehead differentfromfieldphoto; no wholesciencepass. Localadultblotchscope PASS_WITH_LIMITS, juvenileloopdown unchanged/ageflightunverified. Adultdisplayratio unchanged notphotographedsexinference. Allfeet supported. Textv9 and pendingfooter readable. Lesson: fieldphoto plus pigmentarea description (notliteralheartglyph) improvedthislocalpattern; notvalidatedspecieswide. Crossreview92 priorv8 elongated/broadstreakedpattern notautomaticallychanged: oppositecomparator, separateevidence. Prior75v8 remainsNEEDS_REVISION history; newv9 doesnotretroactivelyapproveit.",
+      "reviewed_at": "2026-11-28T09:33:37.304Z",
+      "archived_at": "2026-11-28T09:33:42.198Z",
+      "archive_commit": "5bd5b9cbf19488f8aa4145fcd6d291180d6b439a",
+      "ended_at": "2026-11-28T09:33:56.844Z",
+      "verification_exit_code": 0,
+      "commit_sha": "ab302f3ed9f09f4f9fcdd3366b4ffcdce8ad3967",
+      "credit_commit": "89abfc530330d35596bc8c2754fb48f4bdf9b17d"
+    },
+    {
+      "run_id": "20261128T0929Z-108-otus-rutilus-v21",
+      "batch_id": "20261128T0833Z",
+      "cycle": 6,
+      "target": "108-otus-rutilus-v21",
+      "action": "REVISION",
+      "started_at": "2026-11-28T09:34:07.290Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T09:34:07.340Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T09:34:38.721Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T09:36:01.248Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T09:37:30.947Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T09:37:37.357Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T09:37:42.283Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T09:38:08.338Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0833Z-cycle6-20261128T0929Z-108-otus-rutilus-v21.json",
+      "stage": "VERIFIED",
+      "research": "Access2026-11-28. Reuse RUT-VASSEN-2013-ANDASIBE-JUV FrankVassen4Dec2013 Andasibe, original https://www.flickr.com/photos/42244964@N03/12038858063/ via https://commons.wikimedia.org/wiki/File:Juvenile_Madagascar_Scops_Owl_(Otus_rutilus),_Andasibe,_Madagascar.jpg actualfreshpage113–136read and cachedfieldphoto viewed: fine short uneven brown-buff down, mottled shade/loosebar-like tonalpatches, darkmask/yellowiris/pinkeyelid, grippingnaturalbranch; sex/preciseage/flightunknown. CC BY2.0 https://creativecommons.org/licenses/by/2.0/ attributionforphoto-derived adaptation, photographerdoesnotendorse. Reuse MIKKOLA-2013 HeimoMikkola2013 uploadedprinted143/PDF145actualread: guidejuvenileunknown, notinvalidatinglaterfieldphoto; femalemassavg18gmore notheight; adultyelloweyes/graybrownbill/tarsitotoebase. OldScopsrutilus→Otusrutilus. Earlier whole-surface de-loop smoothing inadequate; newexperiment closerphoto-derived tonalpatches/shortdownmatte ratheruniformlongfur. Sourcephotoisoneindividual/unknownage/sex, cannotassignhatchlingorwingability. Retainadultconceptstyle/size/nonnestforestdisplay; no scientificpassimplied. Search discovered secondVassenphoto11786459974same2013date, searchmetadataonly notfreshread/pixels; notnewsource/independentbroodproof. New0/reuse2.",
+      "full_prompt": "Use case precise-object-edit. Image1 edit target #108 Otus rutilus v20 plate. Image2 supporting juvenile fieldphoto by Frank Vassen (Andasibe4Dec2013; CC BY2.0; unknown exactage/sex/flight). Replace ONLY the central juvenile's entire feather surface using the photo as the primary material reference. Currentjuvenile is too uniform orange mammal fur with long strands. Desired: MUCH shorter matte fine brown-buff down, uneven gray-brown shaded mottling and subtle broken crosswise tonal patches as in photo, loose fine wisps only around silhouette. No uniform longhair coat, no knotted/woolly loops, no outlined overlapping leaf/scales. Preserve fluffy oval owl volume, small darkface/yellowiris/pinklid/darkbill, original3/4rightheadposition and supportedfeet. Do not paste photograph or change the adults, their display size/style, plaques/forest/branch/composition. Do not add exposed mature primary/tailfeathers under this fluffy stage, or invent exactage. Keepalltext and scientificuncertaintylabels, updatev20→v21.",
+      "source_ids": [
+        "RUT-VASSEN-2013-ANDASIBE-JUV",
+        "MIKKOLA-2013"
+      ],
+      "new_sources": 0,
+      "first_attempt": {
+        "bytes": 2703453,
+        "sha256": "95bc91ceeb8fd431985d18aab92f346fe28125286e2efb0f943b0b72149fab89",
+        "gitblob": "95498517073355932269f53616218ca12b118a19",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "first_review": "Actual firstv21: shorter finer upperdown but lowerbody retains longloopfur, chest darkband overstated. Needscopedrepaint.",
+      "followup_prompt": "Edit only the juvenile body texture below the neck in #108v21. The lower half still has long hairlike outlined hooks/loops. Repaint the body with extremely short soft down represented by tiny irregular buff-gray-brown flecks and finely stippled matte shading, not separate long strands. Let down barbs be visible mainly at the outer silhouette, interior soft fine feather grain only. Reduce the dark horizontal chest band to very subtle mottled shading, not a distinct collar. Preserve fluffy volume, head, supported feet, adults, forest, labels v21 and all text. No knitted/fur/net/ring outlines and no scale-shaped feather motifs. Do not blur the entire image.",
+      "image_metadata": {
+        "bytes": 2694438,
+        "sha256": "d2e9c45581ffb21e94ab8a1c846c42cf6d3ec7952378b4a54cb7336a511d8589",
+        "gitblob": "b5f921efaa5686c5da5fbcb796b649411a7eb11d",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-e08bc6d4-d0ac-4231-b294-85906c3c5293.png",
+      "imagegen_wait_seconds": 40.77,
+      "editing_wait_seconds": 38.191,
+      "review_result": "NEEDS_REVISION",
+      "review": "Actualfirst+edit viewed against Vassenphoto: edit softened overly strong chestband and shortenedlowerbodyhair somewhat, but repetitive tiny loop/ringpattern remains overuniformbody. NEEDS_REVISION, not scientificpass. Supportedfeet/headprofile/unknownageflightlabels preserved, adults unchangedconceptstyling. Do notcallmethodvalidated orresolved. Lesson: shorterdown/stipple instructions plus oldtarget still inheritloops; repeatedminor rewording haslowbenefit. Futuretest shouldchange representation/material strategy withsource, notkeepclaimingsmoothingworks. Fieldphotooneindividual retainsage/sex/flightuncertainty; guideadultmassnotheight. Prior108versionskeptandremainunapproved; no automaticretroactivepass.",
+      "reviewed_at": "2026-11-28T09:37:37.343Z",
+      "archived_at": "2026-11-28T09:37:42.262Z",
+      "archive_commit": "ef1bb87dfda109159f2350ccb27599f4d2b013dd",
+      "ended_at": "2026-11-28T09:38:08.313Z",
+      "verification_exit_code": 0,
+      "commit_sha": "37ae8a2036c21668535e9c2a01f321dcf9582d19",
+      "credit_commit": "9b0838a1f39a569204258801a2634516772dd069"
+    },
+    {
+      "run_id": "20261128T0929Z-144-ninox-spilocephala-v6",
+      "batch_id": "20261128T0929Z",
+      "cycle": 1,
+      "target": "144-ninox-spilocephala-v6",
+      "action": "REVISION",
+      "started_at": "2026-11-28T09:38:37.504Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T09:38:37.539Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T09:39:11.468Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T09:40:37.313Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T09:40:43.537Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T09:40:49.534Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T09:41:05.728Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0929Z-cycle1-20261128T0929Z-144-ninox-spilocephala-v6.json",
+      "stage": "VERIFIED",
+      "research": "Access2026-11-28. Reuse LZBO-RASMUSSEN-2012-LEAD (same paper as NPH-RASMUSSEN-2012/LZBO-RASMUSSEN-2012-P13-14 aliases; notnewsource), P.C.Rasmussen etal2012 Vocal divergence and new species in Philippine Hawk Owl complex, Forktail28:1–20 https://static1.squarespace.com/static/5c1a9e03f407b482a158da87/t/5c2122546d2a7362341520d4/1545675354149/Philippine-owls.pdf actualN.spilocephalaDiagnosis printed14–15/Table7read. Adult ear-covert filaments verylong/profuse; NOT horn/ear tufts. Lowerunderpartmarks variable longitudinal/darkedges/chevrontips; guidesimpletinyspotbellyshouldnotreplaceprimarydiagnosis blindly. Immature unspottedbrowncrown/weakbuffuppermantlecollar, no age/flight sequence. Reuse WHSO-MIKKOLA-2013 HeimoMikkola2013 uploadedprinted475/PDF477 actualread agreeslongfilamentousauriculars/nomalesmallerdogma (sexsizespoorlydocumented); guidebellyalmostwhitewithtinyspotsconflictsprimary, retainedunknownvariation. OldN.philippensisspilocephala→N.spilocephala. Sourceoriginalbody andv5research actuallyread. V5adultcheekfilamentsshort, boundedlengthdisplaycorrection, notinventionofnewtufts. Existingplainyoungcrownappropriate, notrewritten. Exactage/iris/flight andsexratio unknown, natural staticbranchsupport retained; no nest. New0/reuse2documents; mappingssourcealiasesdeduplicated. NegativepreflightN.randi guide468/PDF470read: juvenileundescribed/'probablyBrown' notevidence; no newgroupinvented.",
+      "full_prompt": "Use case precise-object-edit. Edit #144 Ninox spilocephala v5 plate. Make the adult ear-covert/cheek feather extensions visibly longer and finer on BOTH adult owls, extending gently sideways/back from the outer cheeks, as loose slender brown feather filaments. They are ear-coverts, NOT pointed ear tufts, horns or cat whiskers; keep crown rounded/earless. Retain all adult crownspots, eyes/bill/pigments/bodypatterns/feet/size, juvenile sleeping on supported branch with plain brown crown/weakbuffcollar, environment/layout. Preserve existing labels and exacttitle, add small v6 and a clear narrow bottom caption: \"CONCEPT · SCIENCE PENDING · AGE / FLIGHT / SEX RATIO UNVERIFIED\". Do not alter juvenile feathers or transfer adult filaments to it. No other changes.",
+      "source_ids": [
+        "LZBO-RASMUSSEN-2012-LEAD",
+        "WHSO-MIKKOLA-2013"
+      ],
+      "new_sources": 0,
+      "image_metadata": {
+        "bytes": 2454262,
+        "sha256": "8c11db76a79960e66af514ff939af3113617d1babc41c6c815b36b881fb0a2ee",
+        "gitblob": "bcef54ccca52f23694a1b23256a03da1691d7b76",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-7059d2a6-d12f-4c1b-97e8-82ae82737d05.png",
+      "imagegen_wait_seconds": 39.365,
+      "editing_wait_seconds": 0,
+      "review_result": "PASS_WITH_LIMITS",
+      "review": "Actualv6 viewed: adult cheek/ear-covert extensions now longfinefilaments, roundhead remains without horn/ear tufts; youngcrownplain/sleeping/support unchanged. Footer sciencepending/ageflightsexratio addedreadable. Featurepresence/annotation localPASS_WITH_LIMITS; filament exactlength/splaynotquantifiedby source, possiblyexaggerated render, notclaimedanatomicalcalibration. Bareparts/pattern preserved; adultbellynotchangedbasedonoversimplifiedguide because primarydocumentsvaryingstreaks. Juvenileageflightunknown; no newnest. Lesson: primaryDiagnosis/tableversusguideconflict preventsblindmorphologyedit; qualitativeverylongisnotameasuredratio. Crosscheck75 patterncontextlikewisekeptregional/variable. Sciencefalse; fullfacecolour, feathertexture andquantifiedfilamentlength awaitactualfieldphotoassessment.",
+      "reviewed_at": "2026-11-28T09:40:43.501Z",
+      "archived_at": "2026-11-28T09:40:49.515Z",
+      "archive_commit": "f2f079edd32690b8a1c1dd5c7fd39b5d52eb306e",
+      "ended_at": "2026-11-28T09:41:05.707Z",
+      "verification_exit_code": 0,
+      "commit_sha": "6976bcae2a2760e4216c3c5e62c5c78d22622925",
+      "credit_commit": "1ecb4cb79108845c525465f468e48ce9594d5193"
+    },
+    {
+      "run_id": "20261128T0929Z-165-ninox-punctulata-v9",
+      "batch_id": "20261128T0929Z",
+      "cycle": 2,
+      "target": "165-ninox-punctulata-v9",
+      "action": "REVISION",
+      "started_at": "2026-11-28T09:41:29.353Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T09:41:29.391Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T09:42:01.074Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T09:44:14.343Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T09:44:19.560Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T09:44:24.430Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T09:44:46.106Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0929Z-cycle2-20261128T0929Z-165-ninox-punctulata-v9.json",
+      "stage": "VERIFIED",
+      "research": "Access2026-11-28. Reuse MIKKOLA-2013 HeimoMikkola2013 uploadedprinted485/PDF487 actualread: adult darkbrowniris/greenyellowbill/darkbrownface/whitebrows+throat; yellowgraytoes/darkhornclaws. Sexsizepoorlysampled, noheightfraction. Darkbrownmesoptile differentfromadult; adultwing/tailtype mentioned butindividualdevelopmentnotdated. V8adultiris warmamberinrender, boundedpigmentdarkeningonly adults. Reuse SPBO-OCONNELL-ETAL-2022-P291-292 DarrenP.O'Connelletal2022 BBOC142(3):278–301 DOI10.25226/bboc.v142i3.2022.a2 actualauthorfulltext https://www.academia.edu/87339609/Breeding_records_of_the_birds_of_south_east_Sulawesi_Indonesia_a_collation_of_observations_encompassing_nearly_20_years_of_research_in_Wallacea speciesparagraphprinted291/Fig3Acaption292read: Buton8Aug2013young at treebase/possiblyfallen, village thenreturnedsameday. Notadultiris corroboration, notpicturedage or nesttype. Historicalphoto166retainsnotfreshpixelclaim. OldNoctuapunctulata→Ninoxpunctulata. JoelSartore BIR07000356 https://www.joelsartore.com/bir070-00356/ metadataactualreadcaption20 only privatecollectionIndonesia; age/dateunknown/pixelsnotviewed, notirisvalidation, noimagecopied. Genericsearchyelloweyeclaims fromlowqualitysitesnotadopted overguide. New0/reuse2 biologicalsources; Sartoremetadataonlyleadexcludednewcount. Youngiris/bill/flight remainunverified, noadultpigmenttransfer.",
+      "full_prompt": "Precise-object-edit: #165 Ninox punctulata v8 plate. Change ONLY the visible iris pigment of BOTH ADULT owls from warm amber/orange-brown to very dark chocolate brown. Keep black pupil, eye shape and small natural catchlight, make iris distinguishable as dark brown without glowing yellow/orange. Do not change centre juvenile eyes/bill/body or its age uncertainty. Preserve adultwhitepatterns, bill, anatomy, sizes, feet, juvenile/root support, environment/type/layout/labels and all uncertainty text. Update titlev8 to v9. No other changes.",
+      "source_ids": [
+        "MIKKOLA-2013",
+        "SPBO-OCONNELL-ETAL-2022-P291-292"
+      ],
+      "new_sources": 0,
+      "image_metadata": {
+        "bytes": 2585918,
+        "sha256": "35af036a38bed6f3def9bbf0d40f4d2e043d9a8d400f69901e81713fd831830c",
+        "gitblob": "679b873dcfbe76ab1b7aaf5ce72cecaa8e2f8c62",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-9dc4c39d-1229-49bd-b902-b999b42c9011.png",
+      "imagegen_wait_seconds": 92.683,
+      "editing_wait_seconds": 0,
+      "review_result": "PASS_WITH_LIMITS",
+      "review": "Actualv9 viewed versusv8: adultirises nowdarkchocolatebrownwithretainedpupil/catchlights, brightamberringremoved. Young eyes/palette preservednotadulttransfer. LocaladultiriscolourPASS_WITH_LIMITS only; no absoluteRGB or agedjuvenileinference. Whitepatterns/bill/feet/tarsalboundary/forestrootcontact/textv9/uncertaintyfooter intact. Juvenilefuzzylooptexture and chronologicalbareparts remainunresolved, no nest/flightclaim. Lesson: constrain pigmentareaandageclass, ratherwholeeyedarkeningor specieswidejuvenilefill. Appliedandvisiblethispair; other Ninoxyelloweyedtaxa notchanged. Originalsource guide's sparse sexsizemeasurement notbasisfornewratio. Priorv8 retained.",
+      "reviewed_at": "2026-11-28T09:44:19.540Z",
+      "archived_at": "2026-11-28T09:44:24.406Z",
+      "archive_commit": "721cc54675de2dd3c9a50570d3b4020c9b97c985",
+      "ended_at": "2026-11-28T09:44:46.082Z",
+      "verification_exit_code": 0,
+      "commit_sha": "9df8d2422f641c78c2bdab8125292c3695114c6f",
+      "credit_commit": "8892678c00f394d22ec6c0107ad96f17f8d245c1"
+    },
+    {
+      "run_id": "20261128T0929Z-236-ninox-reyi-v4",
+      "batch_id": "20261128T0929Z",
+      "cycle": 3,
+      "target": "236-ninox-reyi-v4",
+      "action": "REVISION",
+      "started_at": "2026-11-28T09:45:11.305Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T09:45:11.345Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T09:45:45.620Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T09:47:08.960Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T09:47:13.647Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T09:47:19.069Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T09:47:41.533Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0929Z-cycle3-20261128T0929Z-236-ninox-reyi-v4.json",
+      "stage": "VERIFIED",
+      "research": "Access2026-11-28. Reuse NREY-RASMUSSEN-2012-P17 (same2012paper as LZBO-RASMUSSEN-2012-LEAD, dedupnotnewpublication), P.C.Rasmussenetal2012 Forktail28:1–20 https://static1.squarespace.com/static/5c1a9e03f407b482a158da87/t/5c2122546d2a7362341520d4/1545675354149/Philippine-owls.pdf actualN.reyiDiagnosisprinted17read: tinywhitebrows, largebrightwell-definedwhitethroat visibleonperchedlookingdownbirds; evenlybarredbreast/variablelowerparts; billdullgreenyellow, blackclawspalebases. YounglowerpatternmayresembleN.spilocephala butnotasregular, noageorbarepartsequence. Reuse MIKKOLA-2013 HeimoMikkola2013uploadedprinted479/PDF481actualread agreeswellmarkedwhitethroat/tinywhitebrow, unknownsexsizeandguidejuvenileundescribed. V3whitethroat is relativelysmalltuckedtuft; target strongercontinuouspatchoutline withouta measured sizeclaim, keepbarredbreast. OldNphilippensisreyi/Ninoxeveretti→Nreyi, notOtuseveretti. Staticbranch/forestedgeplausiblebutnotobservednest. New0/reuse2IDscopes (=book+sameprimaryas144). Currentwebsearchmuseumholotypelead unreadpixelsnotnewmorphologyproof. Uncertaintiesjuvenileiris/bill/age/flight remain, nosexsizeformula.",
+      "full_prompt": "Precise-object-edit, #236 Ninox reyi v3 concept. Improve only the white throat patch on BOTH ADULTS. It should be a conspicuous clean bright-white feather patch immediately below the bill, well-defined from surrounding brown barred feathers, visible clearly in the seated pose rather than a small hidden tuft. Extend its continuity modestly across the upper throat, with natural feather edges, do NOT turn it into a huge bib across the barred breast. Preserve tinywhiteeyebrows, barredcrown/breast/lowerbody, mustardeyes/dullgreenyellowbill, feet, proportions and juvenile exactly. Keep forest/branchsupports/type/layout/uncertaintylabels; updatev3→v4. No age/flight/newscientificpassclaim.",
+      "source_ids": [
+        "NREY-RASMUSSEN-2012-P17",
+        "MIKKOLA-2013"
+      ],
+      "new_sources": 0,
+      "image_metadata": {
+        "bytes": 2548352,
+        "sha256": "5bd7b4355bf2db9ea930c16ff93f0bbfaa8148600db6ab5e196ef7510f7f0790",
+        "gitblob": "1627e67a5eb2cc7f9d1946ecd7823bf194a99c3d",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-0787e828-9ba1-47a7-9160-df4b978d5c10.png",
+      "imagegen_wait_seconds": 36.459,
+      "editing_wait_seconds": 0,
+      "review_result": "PASS_WITH_LIMITS",
+      "review": "Actualv4 viewed: adultwhitethroatnowcontinuousbrightandclearlyvisiblebelowbill, barredbreaststaysintact; no oversizedbib added. Smallbrows/crownbarspattern/feet/youngposition retained, titlev4uncertaintyfooterreadable. LocalfeaturevisibilityPASS_WITH_LIMITS; exactpatchdimensionsnotmeasured/photocalibrated, notscientificpass. No adultthroatcolourtransferredtoyoung, ageiris/billflightremainunknown. Existingformedolderjuvenilewingretainedwithout claimingknownage. Lesson: distinguishthroatpatchvisibilityfromgenericwhitebreast; hypothesisimplementedandvisuallyeffectiveforthisdisplay, notdiagnosticmeasurement. Compare144 narrowwhite/streakedthroat: notenlargedbecauseitsprimarysaysnarrow, preventsuniformspeciesrecipe.",
+      "reviewed_at": "2026-11-28T09:47:13.630Z",
+      "archived_at": "2026-11-28T09:47:19.051Z",
+      "archive_commit": "db70c75224ec40b3020ea3fe619df7920431c545",
+      "ended_at": "2026-11-28T09:47:41.511Z",
+      "verification_exit_code": 0,
+      "commit_sha": "1f2b51e7e1be285c8fb0d45de0c907620db04881",
+      "credit_commit": "cebe9d4629b5cc7100dc863d07e4c8335289b75a"
+    },
+    {
+      "run_id": "20261128T0929Z-221-ninox-meeki-v5",
+      "batch_id": "20261128T0929Z",
+      "cycle": 4,
+      "target": "221-ninox-meeki-v5",
+      "action": "REVISION",
+      "started_at": "2026-11-28T09:47:51.052Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T09:47:51.104Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T09:48:13.356Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T09:49:39.228Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T09:49:44.473Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T09:49:49.183Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T09:50:12.209Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0929Z-cycle4-20261128T0929Z-221-ninox-meeki-v5.json",
+      "stage": "VERIFIED",
+      "research": "Access2026-11-28. Reuse NMEE-MIKKOLA-2013-P496 HeimoMikkola2013 uploadedprinted496/PDF498 actualcompletepage read thisinvocation: adult horn-colouredclawswithDARKER TIPS, creamyellowtoes/bristledlowertarsi, slatebluebill/palertip/whiterictalbristles/yelloweyes. Claimmalesrufouscap/femalefinemarksandslightlysmaller butnosexedmeasurements: retainnearequaldisplay, notnewsexratio. Youngnearlywhitethroat/plainbrownbreast/heavierwhitecovertbars/narrowerlowerstreaks; exactage/iris/bill/flight notknown. Reuse NMEE-ITIS-555488 institutionlive https://itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=555488&source=to_print actualtaxonomy/referencebody read: valid N.meeki originalcombinationunchanged, nameonlynotclawcolour. Priorread DeaneLewis2020-11-07 https://www.owlpages.com/owls/species.php?s=3430 freshlyreadIntroduction/Distribution/OriginalDescription, Manus/noear-tufts and1914BBOC33p105citation only, notprimarymorphology orjuvenilechrono. Original1914 paper stillnotread; searchcitationAukreviewonlynotoriginalbody, excluded. V4adultclawtips verypalegray inimage, localdarkdistalpigmentcorrectionwhilekeepinghornbase. Noautomaticallblackclawtemplate. New0/reuse2indexedfreshIDs, priorOPsameexistingdocumentnotnewsource. Naturalbranchsupportnotnest, juvenileuntouched.",
+      "full_prompt": "Precise-object-edit #221 Ninox meeki v4 concept. Change only distal claw tips on BOTH ADULTS to darker horn/near-black, with the proximal claw body remaining lighter horn-gray. Make the dark tips clearly visible and connected naturally, not black-painted whole claws or changed yellow toes. Keep claw shape, toe anatomy, feathered tarsi, branchgrip, all plumage/eyes/slatebluebill/palertip and adultdisplay proportions. Do not change juvenileclaws/bareparts, whitecovertbars, sleepingpose orstage. Preserve all labels/forest/layout, add v5 beside title, retain scientificcalibrationpendingfooter. No new age/flightclaim.",
+      "source_ids": [
+        "NMEE-MIKKOLA-2013-P496",
+        "NMEE-ITIS-555488"
+      ],
+      "new_sources": 0,
+      "image_metadata": {
+        "bytes": 2517222,
+        "sha256": "a03ba60d900cbb4fc761f8abfa5a5c7ee809a4b34446f7fd78bdea825aceed2c",
+        "gitblob": "aaa3ec9f119d7dcbafdb7d1840469b17da43e4ca",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-5470e506-91aa-43d8-a179-176bb20af1df.png",
+      "imagegen_wait_seconds": 36.716,
+      "editing_wait_seconds": 0,
+      "review_result": "PASS_WITH_LIMITS",
+      "review": "Actualv5 viewed: adults have darker distal horn/nearlyblackclawtips with lighterproximalhorn bodies retained, notwholeclawblack. Toe skin/shape/grips unchanged; juvenileclaws/palette untouched. LocaladultdistalpigmentPASS_WITH_LIMITS, sourcequalitativecolournotmeasuredRGB/tipfraction. Youngplainbreast/whitecovertbars/closedeye support retained, notflight ordayageclaimed. Textv5/pendingfooter intact. Lesson: specifyproximal/distalclawregions and taxon/age; universalblackclawswouldincorrectlyoverrulethisguide. Appliedvisiblyhere, compare165 darkhornclaws unchangednoautomatictransfer. Billreflectivity/fullplumagegeometry and exactjuvenilechrono remainuncalibrated; sciencefalse.",
+      "reviewed_at": "2026-11-28T09:49:44.452Z",
+      "archived_at": "2026-11-28T09:49:49.164Z",
+      "archive_commit": "0a8cd80bb798f40c5ce184e6034c9034ec4c37bd",
+      "ended_at": "2026-11-28T09:50:12.186Z",
+      "verification_exit_code": 0,
+      "commit_sha": "8f59cf3e777657790795f34902ebe628cd424dfa",
+      "credit_commit": "43a6f67b5b91a7dd345d337d0c111377bd574df9"
+    }
+  ],
+  "errors": [
+    "GitHub fetch BATCH_STATE400 too large; urllib immutable raw file read succeeded, not connector connection failure",
+    "108 first/edited attempts still looplike; no solved claim",
+    "fd9d70d GitHubGET422 no commit; existing25images not regenerated"
+  ],
+  "scope_changes": "Only owl-pet. No radio/automation/3D changes.",
+  "platform_limit_telemetry": "No fixed platform timeout or forced deadline observed/claimed"
+}

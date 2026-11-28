@@ -1,7 +1,7 @@
 # Owl pet production status
 
-Updated 2026-11-28T08:59:17.644Z. Latest production invocation 20261128T0833Z: six complete serial production cycles, 0new species / 6revisions. Canonical archived species207/251; numbered imageversions1496. Science approval remains pending; local checks4PASS_WITH_LIMITS,108v20/75v8NEEDS_REVISION. Historical version/scoped user confirmations preserved, no new confirmation.
+Updated2026-11-28T09:51:18.917Z. Latest20261128T0929Z:6actualserialcycles,0new species/6revisions:75v9,108v21,144v6,165v9,236v4,221v5. Canonical archived207/251, numberedconcepts1502. Scientificverifiednew0;5localPASS_WITH_LIMITS,108NEEDS_REVISION. Historicalspecificuserconfirmationspreserved, no newconfirmation.
 
-[本轮6张原图、研究、复查、逐轮commit集中入口](production/batches/20261128T0833Z-six-cycle-review.md)
+[全部6组原图、来源、提示、逐轮SHA及真实复查](production/batches/20261128T0929Z-six-cycle-review.md)
 
-Batch20261128T0725Z closed6/6 across triggers. Current20261128T0833Z4/6 next5; other unfinishedbatch0. No activelease and no backgrounddrawing claim. [Batchledger](production/BATCH_STATE.json). Next prioritize108/75 evidence-based repairs and missing-species development gaps. Scope251 unchanged; unified fullcurrenttaxonomymachinecatalog remains a gap.
+Old20261128T0833Z closed6/6 across triggers. Current20261128T0929Z4/6,next5; otherunfinishedbatch0; noactivelease/backgrounddrawingclaim. [Ledger](production/BATCH_STATE.json). Missing44scopegapnotunifiedcurrentlist; full251/collectivescientificreviewunfinished. Nextprioritize108andmissing-speciesdevelopmentalevidence, no repeated smoothing-as-success.

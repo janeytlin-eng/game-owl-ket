@@ -25,11 +25,15 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-28T10:34:33.124Z"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-28T10:34:45.888Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0929Z-cycle5-20261128T1028Z-144-ninox-spilocephala-v7.json",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "research": "复用 LZBO-RASMUSSEN-2012-LEAD / NPH-RASMUSSEN-2012（同一出版物，非两个新来源）：Rasmussen et al. 2012, Forktail 28:1–20, 原始URL https://static1.squarespace.com/static/5c1a9e03f407b482a158da87/t/5c2122546d2a7362341520d4/1545675354149/Philippine-owls.pdf ，2026-11-28读取全文相关p14诊断和p12 Fig6b实物照片（R.O.Hutchinson，PICOP Mindanao，2011-02），并实际渲染查看。成鸟耳羽长且丰满为事实；照片轮廓没有上一版横向硬刺扇的形态。修改柔软贴颊轮廓为设计推断，不测量照片长度、不得外推羽长性差。旧名N.philippensis spilocephala→N.spilocephala。复用 MIKKOLA-2013 / WHSO-MIKKOLA-2013（同书）printed475/PDF477；幼鸟只依据plain crown/weak collar older immature，不赋日龄、首飞或初生羽被。雌雄外观与相对高度未验证；枝上支撑与森林情境为概念构图，非巢位观察。图片v6耳羽过度硬刺为本次问题。可靠性：原始分类论文+有定位实物照；单张照片无年龄性别证明。来源新增0、复用2出版物；照片访问范围升级，不新增重复ID。完整阶段计时见run。",
   "full_prompt": "Edit the supplied 144 v6 triptych, preserving its confirmed warm softly rendered 3D owl-pet concept style, three birds, composition, forest branch, supported feet and labels. PRIMARY CORRECTION ONLY: both adults' cheek/auricular extensions must look like soft fine feather filaments integrated into the rounded cheek contour, not long rigid porcupine quills, whisker fans, or sideways hair spikes. Use the Figure 6b Mindanao bird photograph on the accompanying scientific plate as a qualitative contour reference ONLY (top centre panel b); the plate's other birds are DIFFERENT species, don't copy them. Preserve a visibly full soft auricular fringe but reduce excessive horizontal splay. No measured filament length is claimed. Preserve spotted adult crowns, mixed streaks/bars breast and longitudinal irregular belly marks, yellow eyes, olive-yellow bills and yellow feet with dark claw tips. Keep the central older immature plain crown, closed eyes and two feet on branch; do not introduce neonatal down or flying poses. Male/female are design slots with equal nominal scale; do not imply proved dimorphism. Keep bottom text '144 MINDANAO BOOBOOK · Ninox spilocephala v7'; footer 'CONCEPT · SCIENCE PENDING · AGE / FLIGHT / SEX RATIO UNVERIFIED'. No nest, no new birds.",
   "source_ids": [
@@ -52,5 +56,8 @@
   "review_result": "PASS_WITH_LIMITATIONS",
   "review": "实际查看v7完整1536×1024图：两成鸟横向长硬刺扇已收束为沿面颊向下的柔软细羽，保留丰满耳羽；与p12 Fig6b定性轮廓比照，仅硬刺问题局部通过，不证明羽长精确。冠斑、黄眼、橄榄喙、胸部混合纹与腹纵纹仍在，脚趾落枝接触可见，幼鸟未增成熟张翼/初生绒羽，保留older immature标签。成鸟色调仍高度艺术化，腹纹与真实变异范围、幼鸟羽片/精确阶段、成年性别比例未全面校准。问题→诊断的very long被模型放大成硬刺；证据→原论文p14及p12 Fig6b；修改→约束柔软轮廓并引用正确panel；复查→此局部有效。后续规则：长羽特征同时说明羽质与轮廓，不能仅用length夸张词。已回查v6并保留原版；不对其他物种套同样羽长。scientifically_verified=false。",
   "reviewed_at": "2026-11-28T10:34:28.618Z",
-  "archived_at": "2026-11-28T10:34:33.109Z"
+  "archived_at": "2026-11-28T10:34:33.109Z",
+  "archive_commit": "2f61271434323cf9b1bb849efd8bd4ec4e65ab33",
+  "ended_at": "2026-11-28T10:34:45.864Z",
+  "verification_exit_code": 0
 }

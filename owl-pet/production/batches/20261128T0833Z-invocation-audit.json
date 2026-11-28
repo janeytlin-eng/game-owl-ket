@@ -1,0 +1,623 @@
+{
+  "invocation": "20261128T0833Z",
+  "status": "PRODUCTION_COMPLETED_SCIENCE_PARTIAL",
+  "started_at": "2026-11-28T08:35:52.204Z",
+  "ended_at": "2026-11-28T08:59:17.644Z",
+  "baseline": "3f995adbe22ac72651a24361b1763fca2ecbd2d1",
+  "completed_this_invocation": 6,
+  "old_batch_closed_across_triggers": "20261128T0725Z",
+  "current_batch": {
+    "id": "20261128T0833Z",
+    "completed": 4,
+    "next_cycle": 5
+  },
+  "new_species": 0,
+  "revisions": 6,
+  "concept_species": 207,
+  "contract_total": 251,
+  "counts": {
+    "old_images": 1490,
+    "final_images": 1496,
+    "canonical_species": 207,
+    "old_images_unchanged": true
+  },
+  "source_index": {
+    "path": "owl-pet/research/SOURCE_INDEX.md",
+    "new_canonical_sources": 2,
+    "new_ids": [
+      "NOCH-OWLPAGES-2020-3310",
+      "JAP-BSS-IDENTIFICATION-WEB"
+    ],
+    "reused_id_citations": 16,
+    "source_id_citations_total": 18,
+    "distinct_source_ids_after_alias_dedup": 16,
+    "distinct_documents_after_book_page_dedup": 11,
+    "identity_corrections": 1,
+    "identity_correction": "NIOS-MADIKA-2011-P98 -> NOCH-MADIKA-2011-P98",
+    "note": "Guide page-specific IDs are one book; mirrors not independent sources; historical-only Sharpe not counted fresh."
+  },
+  "imagegen": {
+    "calls": 8,
+    "finals": 6,
+    "first_attempts_saved": 2,
+    "builtin": true
+  },
+  "scientific": {
+    "new_verified_species": 0,
+    "local_checks_pass_with_limits": 4,
+    "needs_revision": [
+      "108-otus-rutilus-v20",
+      "75-ninox-scutulata-v8"
+    ],
+    "global_needs_revision_count": "unknown; nonuniform historical statuses",
+    "historical_user_approved_species": 16,
+    "approval_scope": "Specific earlier versions/scopes only; no new user confirmation"
+  },
+  "errors": [
+    "fd9d70d GitHub commit GET422 No commit found; notremoteevidence",
+    "PBBO historical ArchiveOCR searchopen inaccessible; nofreshoriginalreadclaimed",
+    "108 first and edited output residual loops/furstyle unresolved",
+    "75 first output graphicstickers edited; subsequent comparative-source review reopened speciespattern"
+  ],
+  "timings": [
+    {
+      "target": "108-otus-rutilus-v20",
+      "research_design_seconds": 183.242,
+      "imagegen_wait_seconds": 47.634,
+      "editing_wait_seconds": 39.175,
+      "archive_commit_seconds_excludes_upload": 4.582,
+      "archive_readback_seconds": 13.178,
+      "original_blob_upload_seconds": "not separately instrumented"
+    },
+    {
+      "target": "208-ninox-affinis-v5",
+      "research_design_seconds": 22.701,
+      "imagegen_wait_seconds": 35.223,
+      "editing_wait_seconds": 0,
+      "archive_commit_seconds_excludes_upload": 4.861,
+      "archive_readback_seconds": 14.283,
+      "original_blob_upload_seconds": "not separately instrumented"
+    },
+    {
+      "target": "232-ninox-ochracea-v4",
+      "research_design_seconds": 45.372,
+      "imagegen_wait_seconds": 34.203,
+      "editing_wait_seconds": 0,
+      "archive_commit_seconds_excludes_upload": 5.124,
+      "archive_readback_seconds": 13.393,
+      "original_blob_upload_seconds": "not separately instrumented"
+    },
+    {
+      "target": "202-ninox-theomacha-v7",
+      "research_design_seconds": 26.22,
+      "imagegen_wait_seconds": 39.378,
+      "editing_wait_seconds": 0,
+      "archive_commit_seconds_excludes_upload": 5.333,
+      "archive_readback_seconds": 17.647,
+      "original_blob_upload_seconds": "not separately instrumented"
+    },
+    {
+      "target": "75-ninox-scutulata-v8",
+      "research_design_seconds": 29.988,
+      "imagegen_wait_seconds": 42.839,
+      "editing_wait_seconds": 40.233,
+      "archive_commit_seconds_excludes_upload": 4.659,
+      "archive_readback_seconds": 17.042,
+      "original_blob_upload_seconds": "not separately instrumented"
+    },
+    {
+      "target": "92-ninox-japonica-v8",
+      "research_design_seconds": 46.292,
+      "imagegen_wait_seconds": 39.83,
+      "editing_wait_seconds": 0,
+      "archive_commit_seconds_excludes_upload": 4.29,
+      "archive_readback_seconds": 17.338,
+      "original_blob_upload_seconds": "not separately instrumented"
+    }
+  ],
+  "first_attempts": [
+    {
+      "target": "108-otus-rutilus-v20",
+      "path": "owl-pet/production/intermediates/20261128T0833Z-108-v20-first.png",
+      "bytes": 2727609,
+      "sha256": "e1174fc275d6e3883367e0b686546345199e888ff88ef077942a62b6f660e188",
+      "gitblob": "8e4d3eb686f079a6f5f7eeb0370996e87831972b",
+      "size": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "target": "75-ninox-scutulata-v8",
+      "path": "owl-pet/production/intermediates/20261128T0833Z-75-v8-first.png",
+      "bytes": 2717030,
+      "sha256": "3efe32962ae9d47bc236cbf7984b7f41833ecbe85b1d215d683903593f4bdd29",
+      "gitblob": "7d56598a718140635fdd4144069c1767d3939cfe",
+      "size": [
+        1536,
+        1024
+      ]
+    }
+  ],
+  "results": [
+    {
+      "run_id": "20261128T0833Z-108-otus-rutilus-v20",
+      "batch_id": "20261128T0725Z",
+      "cycle": 5,
+      "target": "108-otus-rutilus-v20",
+      "action": "REVISION",
+      "started_at": "2026-11-28T08:35:52.204Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T08:35:52.251Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T08:38:50.716Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T08:38:55.446Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T08:40:23.074Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T08:41:41.580Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T08:41:46.760Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T08:41:51.342Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T08:42:04.520Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0725Z-cycle5-20261128T0833Z-108-otus-rutilus-v20.json",
+      "stage": "VERIFIED",
+      "research": "Access2026-11-28. Reuse RUT-VASSEN-2013-ANDASIBE-JUV, Frank Vassen, photograph4Dec2013 Andasibe, original https://www.flickr.com/photos/42244964@N03/12038858063/ and Commons mirror https://commons.wikimedia.org/wiki/File:Juvenile_Madagascar_Scops_Owl_(Otus_rutilus),_Andasibe,_Madagascar.jpg . Actual external page113–136 read and cached field photo viewed this cycle. CC BY2.0 https://creativecommons.org/licenses/by/2.0/ ; adapted generated concept, not endorsed by photographer. Observed fluffy oval brown-buff juvenile, dark small mask, upright supported perch/profile; age/sex/flight not stated. Reuse MIKKOLA-2013 Heimo Mikkola2013 uploaded guide printed143/PDF145 actually read: adult yellow iris, gray-brown bill/cere, tarsi feathered to toe bases; female average18g heavier MASS, no height ratio; juvenile undescribed. Old Scops rutilus→Otus rutilus. Current design experiment reworks whole juvenile surface/pose rather than repeated smoothing of loops. Source fact is fine irregular down; absence of all curved barbs is a prompt strategy, not biological rule. Nest location/exact juvenile age and flight unknown. Adults retained as established concept, not newly scientifically approved. New0/reuse2 for target.\nPreflight new negative-evidence record NIOS-MADIKA-2011-P98: Buttu Madika, Dadang Dwi Putra, J.B.C.Harris, DingLiYong, F.N.Mallo, A.Rahman, D.M.Prawiradilaga & P.C.Rasmussen2011, An undescribed Ninox hawk owl from the highlands of Central Sulawesi, Indonesia?, BullBOC131(2):94–102, original text mirror https://www.academia.edu/84923280/An_undescribed_Ninox_hawk_owl_from_the_highlands_of_Central_Sulawesi_Indonesia actually read p98. No N.ios juvenile data known to authors; the unknown spotted Central Sulawesi taxon cannot be adopted as juvenile N.ios. Historical evidence gap, not proof no newer observations exist. Current search did not close gap; no N.ios image produced.\nN.obscura preflight: Mikkola printed469/PDF471 actually read juvenile undescribed, sex differences unknown. 2018 DynamicNature blog search lead is unverified/secondary and excluded from design facts. No young figure invented.",
+      "full_prompt": "Use case: precise-object-edit. Input1 is the edit target, #108 Otus rutilus v19 concept plate. Input2 is a supporting biological reference photograph by Frank Vassen, 4 Dec2013 Andasibe (CC BY2.0), juvenile age and flight unknown. Rebuild ONLY the centre juvenile and its immediate foot contact, using the photograph's real proportions: tall oval fluffy body, head turned in three-quarter profile right, brown-buff subtly mottled fine down filaments with sparse straight wisps, a darker small facial mask, yellow iris with dark pupil and discreet pink eyelid. Replace the entire artificial looped/woolly feather surface, not just blur it: fine irregular straight feather barbs, NO circles, loops, repeated curls or knitted yarn. Small partly concealed wings, no invented exposed mature primaries, secure two feet on branch. Photo is morphology/pose reference only; do not paste photograph or bring extra objects. Retain established polished stylized 3D pet-art visual language, adults, adult size relationship, forest, gold plaques, typography/layout and support branch. The adult female's average extra mass does not imply a new linear height difference. Header version v20. Bottom text remains CONCEPT · PERCH ONLY · FLIGHT UNVERIFIED · SCIENCE PENDING. Centre label JUVENILE AGE UNKNOWN. No hatchling claim. Preserve other text verbatim.",
+      "source_ids": [
+        "RUT-VASSEN-2013-ANDASIBE-JUV",
+        "MIKKOLA-2013",
+        "NIOS-MADIKA-2011-P98"
+      ],
+      "new_sources": 1,
+      "reused_source_ids": [
+        "RUT-VASSEN-2013-ANDASIBE-JUV",
+        "MIKKOLA-2013"
+      ],
+      "negative_evidence_only": [
+        "NIOS-MADIKA-2011-P98"
+      ],
+      "first_attempt": {
+        "bytes": 2727609,
+        "sha256": "e1174fc275d6e3883367e0b686546345199e888ff88ef077942a62b6f660e188",
+        "gitblob": "8e4d3eb686f079a6f5f7eeb0370996e87831972b",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "first_review": "Actual view: pose/profile improved but repeated circular loop units still apparent over juvenile. NEEDS_REVISION. Repaint entire down surface, no claimed science pass.",
+      "followup_prompt": "Edit only the central juvenile of this #108 v20 owl plate. The visible repeated circular ring/loop texture over its entire body is a rendering error. Replace it completely with a soft matte down surface made of countless SHORT FINE STRAIGHT irregular feather filaments, like the viewed real field photograph; retain the fluff volume but remove every outlined loop. NO yarn, wool, curls, noodles, circular scallops, glossy 3D scales or netting anywhere on the juvenile. Do not simulate by merely blurring existing rings. Repaint its surface and silhouette from scratch, with natural finer brown-buff mottling and small dark facial area. Preserve head direction, yellow iris, dark beak, supported feet/branch, adults, layout, exact labels, header v20 and science-pending footer unchanged.",
+      "image_metadata": {
+        "bytes": 2704044,
+        "sha256": "e25756fa883d4439613892064d6f3988c5ef8384d1a01eaf7ae9277e4e7a8d8b",
+        "gitblob": "d99c0e746899bc92059a0cf69346eababd16ad33",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-52bbd6f0-a829-42d8-940a-b8f681d9d36e.png",
+      "imagegen_wait_seconds": 47.634,
+      "editing_wait_seconds": 39.175,
+      "review_result": "NEEDS_REVISION",
+      "review": "Actual first and edited output viewed against Vassen field photo. Second edit replaces many ring units with straighter filaments, preserves three birds, supported perch, labels/unknown age and flight. Remaining juvenile surface too uniform and mammal-fur-like, with residual hook/loop units especially upper breast; photo shows fine mottled down, so whole-surface biological calibration unresolved. Header v20 readable; adult orange glossy scaled styling retained from target, not scientifically approved. Female size relationship unchanged, no new height inference. No nest/hatchling/flight invention. Result NEEDS_REVISION, scientifically_verified=false. Problem/evidence/modification/recheck recorded; whole-body repaint improved rendering locally but not validated as general rule. Future: avoid repeated smoothing; use photo-derived irregular mottled patches and spot-check adults as well. Known affected108 previousversions remain historical, no retroactive pass.",
+      "reviewed_at": "2026-11-28T08:41:46.749Z",
+      "archived_at": "2026-11-28T08:41:51.327Z",
+      "archive_commit": "3217276cef5d0c2d57d1986f7346176f3aa31414",
+      "ended_at": "2026-11-28T08:42:04.501Z",
+      "verification_exit_code": 0,
+      "commit_sha": "bfbe4c7c02c9faa5b20e445acda70f387c4f20b5",
+      "credit_commit": "659573cca1b1e7ac4fc80e807bff35187580fa9b",
+      "source_count_addendum": {
+        "at": "2026-11-28T08:59:17.644Z",
+        "new_sources_after_dedup": 0,
+        "alias": "NIOS-MADIKA-2011-P98",
+        "canonical": "NOCH-MADIKA-2011-P98",
+        "reason": "Same paper already indexed; retain original note and correct invocation totals."
+      }
+    },
+    {
+      "run_id": "20261128T0833Z-208-ninox-affinis-v5",
+      "batch_id": "20261128T0725Z",
+      "cycle": 6,
+      "target": "208-ninox-affinis-v5",
+      "action": "REVISION",
+      "started_at": "2026-11-28T08:42:45.083Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T08:42:45.117Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T08:43:07.784Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T08:44:17.613Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T08:44:24.030Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T08:44:28.891Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T08:44:43.174Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0725Z-cycle6-20261128T0833Z-208-ninox-affinis-v5.json",
+      "stage": "VERIFIED",
+      "research": "Access2026-11-28. Reuse NAFF-MIKKOLA-2013-P470, HeimoMikkola2013 uploaded printed470/PDF472, actual page read: facialdisc grayish, yelloweyes, white eyebrows/throat in photo caption; plain brown crown fine indistinct ochre vermiculations, bright rufous longitudinal underparts stripes, toesyellowish/darkhornclaws; sex size/colour unknown. Juvenile fluffy mesoptile less distinct streaks; no exact age/flight/nest evidence. Reuse NAFF-OWLPAGES-2021 DeaneLewis updated2021-04-26 https://www.owlpages.com/owls/species.php?s=3220 actualDescription64–76read: grayishdisc, dullgreencere, palehornbill, scant breedingknowledge/lowlandsecondaryforest. Reuse NAFF-OISEAUX-2015 DanielLeDantec/FrédéricCiszek2015-12-29 https://www.oiseaux.net/oiseaux/ninoxe.des.andaman.html actualIdentification144–146read agrees grayishdisc but darkbillwithgreenishculmen and fluffy less-streakedyoung. Secondary accounts overlap guide; not independent developmental field corroboration. Bill conflict remains. Athene affinis→Ninox affinis, monotypic scope. Existingv4 cheeks/eye surrounds warmbrown, need bounded coolgraydisc correction; retain supported juvenile, no young-eye or sex-height inference. New0/reuse3. New historic illustration metadata lead (not biological corroboration): Keulemans1874 viaWaldenIbis127–149 https://commons.wikimedia.org/wiki/File:NinoxAffinisIbis.jpg actualcatalogpage119–123read, pixels not viewed, no morphology claim. Do not add source ID unless actual illustration read later.",
+      "full_prompt": "Use case precise-object-edit. Edit target #208 Ninox affinis v4 owl concept. Change ONLY the facial disc feather ground colour on both adult owls, currently warm brown: make the eye-surround and cheeks subtle cool ash gray, consistent with species descriptions. Preserve white eyebrows and white throat, brown crown and mantle, yellow irises, dark bill with paler ridge/tip, rufous longitudinal breast stripes, adult size relationship, feet, supported juvenile (do not alter its unknown iris/age), forest, gold type/layout. Gray is feather pigment, not gray eye or gray skin; keep fine feather definition and natural lighting. Keep brown head crown above white brows. Preserve all wording; add small v5 after the title. Bill colour conflict, juvenile iris/age unverified and science pending labels retained. No other changes.",
+      "source_ids": [
+        "NAFF-MIKKOLA-2013-P470",
+        "NAFF-OWLPAGES-2021",
+        "NAFF-OISEAUX-2015"
+      ],
+      "new_sources": 0,
+      "image_metadata": {
+        "bytes": 2619107,
+        "sha256": "dd5fa84a3d48cca2a5b948fa1c1e6a3c9a6c6dc3745d88e598709874c69624f9",
+        "gitblob": "a92728d4fe38cdbf0d9975d92ee8e8a2f0ee6124",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-80ff4422-7a17-4a46-8948-88e585dd823c.png",
+      "imagegen_wait_seconds": 35.223,
+      "editing_wait_seconds": 0,
+      "review_result": "PASS_WITH_LIMITS",
+      "review": "Actual generated v5 viewed against v4 and actual guide/account text: both adult cheek/eye-surround ground now ash-gray, white eyebrows/throat retained, crown brown, yellow irises, bill/rufous chest streaks/supports and labels intact. Bounded facial-disc colour correction PASS WITH LIMITS, no further edit needed for this scope. Juvenile still highly stylized with some loop-like feather units, exact iris/age/flight unsupported; no scientific pass. Bill colour conflict retained. Adult sexes stay display pair without inferred size dimorphism. Lowland forest plausibility only; no nest depicted. Lesson: separately specify gray disc ground versus white brow/throat, preventing mistaken removal of species white brow. Applied and visibly effective here only; other Ninox gray-disc concepts require separate evidence and image review, no automatic retroactive correction.",
+      "reviewed_at": "2026-11-28T08:44:24.018Z",
+      "archived_at": "2026-11-28T08:44:28.874Z",
+      "archive_commit": "de93aecf0613b673e6690de211844653f07a9bc8",
+      "ended_at": "2026-11-28T08:44:43.153Z",
+      "verification_exit_code": 0,
+      "commit_sha": "2df2d98701051d9664696d18dd9784510e37c626",
+      "credit_commit": "267f846adeaf5586bde9bdb4359b8cde04dc8cd8"
+    },
+    {
+      "run_id": "20261128T0833Z-232-ninox-ochracea-v4",
+      "batch_id": "20261128T0833Z",
+      "cycle": 1,
+      "target": "232-ninox-ochracea-v4",
+      "action": "REVISION",
+      "started_at": "2026-11-28T08:45:27.540Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T08:45:27.574Z"
+        },
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T08:45:35.451Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T08:46:05.659Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T08:46:12.912Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T08:47:23.637Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T08:47:28.817Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T08:47:33.941Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T08:47:47.334Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0833Z-cycle1-20261128T0833Z-232-ninox-ochracea-v4.json",
+      "stage": "VERIFIED",
+      "source_identity_corrections": 1,
+      "research": "Access2026-11-28. Reuse NOCH-MIKKOLA-2013-P480, HeimoMikkola2013 uploaded printed480/PDF482 actuallyread: adult yellowish-gray toes below feathered-to-base tarsi, light-horn claws; brown face narrow pale eyebrows/whitethroat whencalling; female usually smaller, no numericalratio; humidprimary/maturesecondary/riverineforest. Juvenile undescribed in guide. External targeted search and actual DeaneLewis2020-11-07 OwlPages Description64–77 https://www.owlpages.com/owls/species.php?s=3310 read: agrees yellowish-gray bristled toes but says DARKhornclaws and yellowishhornbill versus guide lighthornclaws/bluishhornbill. Therefore do not 'correct' adult claw pigment using just guide; retain conflict. Reuse NOCH-MADIKA-2011-P98 same primary paper actuallyread this invocation p98, juvenile adultlike fluffier/slightlyduller; noexactageflight/nest. Noctua ochracea→Ninox ochracea. V3 adult toes vividgold/yellow, target only muted yellowishgray toe skin. Claw/bill conflict and young stage unknown retained. Displaycalling angle inference, notspecieskinematicmeasurement. New source-ID NOCH-OWLPAGES-2020-3310 if absent: secondary species account, author DeaneLewis, updated2020-11-07, URLabove, accessed2026-11-28, Description/Size/Breeding/Habitat; overlappingsynthesisnotindependentstudy; supports toe pigment and records conflict, notyoungdevelopment. StablemappingN.ochracea / adult bareparts & conflicts.",
+      "full_prompt": "Use case precise-object-edit. Edit target #232 Ninox ochracea v3 concept plate. Change only the exposed toe skin on both adults from vivid golden yellow to subdued yellowish gray, retaining a slight yellow/olive cast. Leave claw colour as it is: sources conflict on light versus dark horn, so do not assert a resolution. Keep feathered tarsi, toe anatomy/grip, adult calling pose/white throat, brown face/narrow pale brows, ochre body, current male/female display proportions, juvenile asleep on supported branch, eyes/wing/tail/forest/layout and all existing labels. Add small v4 after title. Do not apply adult colours to juvenile. Preserve scientific calibration pending footer.",
+      "source_ids": [
+        "NOCH-MIKKOLA-2013-P480",
+        "NOCH-MADIKA-2011-P98",
+        "NOCH-OWLPAGES-2020-3310"
+      ],
+      "new_sources": 1,
+      "conflicts": [
+        "adult claw light horn guide vs dark horn OwlPages",
+        "adult bill bluish-horn guide vs yellowish-horn OwlPages"
+      ],
+      "image_metadata": {
+        "bytes": 2435952,
+        "sha256": "b74e65804151676c37512cde98b1f8e92d2245d8776a10dec76847cf55c7ad4f",
+        "gitblob": "d9a7f6361ef219d9dc3903167f82f09e95cbeb87",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-1d791b75-2f2e-4090-84fe-28590ebb1cae.png",
+      "imagegen_wait_seconds": 34.203,
+      "editing_wait_seconds": 0,
+      "review_result": "PASS_WITH_LIMITS",
+      "review": "Actualv4 viewed: both adults' toe skin now muted yellow-gray; tarsi feather boundary/toe grip retained. Claws retained and not declared corrected because sources conflict light vs dark horn. Juvenile resting with closed eyes/supportedbranch unchanged; noflightorhatchlingclaim. Callingadultwhitethroat/ochrebody/narrowbrows/labels v4 visible. Local toe-colour correction PASS_WITH_LIMITS; overall science pending, bill/claw conflicts and young exactage/iris/flight unresolved. Lesson: cross-reading prevented a false claw correction based on one guide. Record conflict separately from agreed toe colour; applied here, not generalized across other species. This does not make previous claw versions wrong by default.",
+      "reviewed_at": "2026-11-28T08:47:28.806Z",
+      "archived_at": "2026-11-28T08:47:33.925Z",
+      "archive_commit": "e47d45fb27bf66390882358457412b529d49ef48",
+      "ended_at": "2026-11-28T08:47:47.315Z",
+      "verification_exit_code": 0,
+      "commit_sha": "938e7dc6be3ec8aeee115c85ec505c96aa863e68",
+      "credit_commit": "3f25de72f35c5e3e4f68ed9420d8ea6d6cdc82d7"
+    },
+    {
+      "run_id": "20261128T0833Z-202-ninox-theomacha-v7",
+      "batch_id": "20261128T0833Z",
+      "cycle": 2,
+      "target": "202-ninox-theomacha-v7",
+      "action": "REVISION",
+      "started_at": "2026-11-28T08:48:19.341Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T08:48:19.379Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T08:48:40.995Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T08:48:45.561Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T08:50:01.964Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T08:50:07.483Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T08:50:12.816Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T08:50:30.463Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0833Z-cycle2-20261128T0833Z-202-ninox-theomacha-v7.json",
+      "stage": "VERIFIED",
+      "research": "Access2026-11-28. Reuse PBBO-MIKKOLA-2013-P484 HeimoMikkola2013 uploaded printed484/PDF486 actualpage read: nominate darkbrown crown/dorsum, blackishbrown facialdisc withsomewhiteforehead, yellow/goldeneyes, darkyellowishbill/green-graycere, uniformchestnutunderparts, reddishfeatheredtarsi/yellowbrown toes/blackclaws; sexes similar female slightlylarger, no linearratio. Gray nataldown and fluffy dullbrownmesoptile different stages. Reuse PBBO-OWLPAGES-2020 DeaneLewis updated2020-11-07 https://www.owlpages.com/owls/species.php?s=3360 actualexternalIntroduction/Distribution/OriginalDescriptionread: no tufts and NewGuineaislands, no facemorphology or youngtiming text; not corroboration of disc pigment. PBBO-SHARPE-1878-P359 R.B.Sharpe1878 existing original-read record Andei1873 immature chocolate/graydown/rufousbelly retained as history only; current ArchiveOCR URL https://archive.org/download/mittheilungenaus31878kzoo/mittheilungenaus31878kzoo_djvu.txt returned notaccessible through searchtool, nofreshoriginalreadclaimed. Spiloglaux theomacha→Ninox theomacha mainlandnominate scope; do notborrow goldii/rosseliana whitemottling. V6 face similar warmbrown to crown; bounded target blackishbrown facialdisc tonalcontrast with browncrown and chestnutbelow, not208graydisc rule. Juvenileexactage/billiris/flight/nest unknown. New0/reuse2actuallyreadIDs plus1historyonly, originalretrievalerror recorded.",
+      "full_prompt": "Use case precise-object-edit. Edit target #202 Ninox theomacha v6 concept plate. Correct ONLY the adult facial disc ground pigment, both adult owls: distinguish a very dark blackish chocolate-brown facial disc around eyes and cheeks from the slightly lighter dark brown crown. Keep small white forehead feathers, gold-yellow eyes and greenish-gray cere/dark yellow bill unchanged. The disc should read dark brown feathers, not pitch-black skin or gray mask; retain delicate feather details/light. Keep crown/back dark brown and underbody chestnut, current slight female fullness, blackclaws/featheredtarsi, young individual's original face and body (young bareparts unknown), perches, forest, all text/layout. Update v6→v7. Preserve nomination and juvenile uncertainty/sciencepending labels. Do not apply the adult disc colour to juvenile or add cross-species gray.",
+      "source_ids": [
+        "PBBO-MIKKOLA-2013-P484",
+        "PBBO-OWLPAGES-2020"
+      ],
+      "new_sources": 0,
+      "retrieval_errors": [
+        "Archive original OCR not accessible through search tool; historical existing source retained as history only"
+      ],
+      "image_metadata": {
+        "bytes": 2220390,
+        "sha256": "f8cf22aa92b30d13faba7c345dd926c1a72bb83487a784f6b6918545d3031e3c",
+        "gitblob": "8e23041044f8f8600c4ca2a0031fdf85a75fc8e7",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-6a21a36a-c5d5-4cd6-b21c-3c6509f60843.png",
+      "imagegen_wait_seconds": 39.378,
+      "editing_wait_seconds": 0,
+      "review_result": "PASS_WITH_LIMITS",
+      "review": "Actual v7 compared to v6: adults' disc now blackish chocolate-brown, visibly darker than crown while golden eyes/small white forehead/cere/bill remain. This is a local pigment-zone correction PASS_WITH_LIMITS, not absolute photo colour measurement. Retained chestnutunderparts/mainlandscope/blackclaws/foot supports. Juvenile unchanged, iris/bill/age/flight not verified, residual toy-like feather texture not calibrated. No nest shown. Lesson: gray facial-disc rule for208 must not be propagated to202; source requires blackish-brown. Applied and effective visually here; not a cross-genus colour rule. Reviewed208v5 comparison: remains gray as its own evidence says, no rollback needed. Scientifically_verifiedfalse.",
+      "reviewed_at": "2026-11-28T08:50:07.472Z",
+      "archived_at": "2026-11-28T08:50:12.798Z",
+      "archive_commit": "0ca77e75ab03579358834442cd6d59741c58db60",
+      "ended_at": "2026-11-28T08:50:30.441Z",
+      "verification_exit_code": 0,
+      "commit_sha": "91a8e53d622e350ae5f046e9c84930fcb0e5efc1",
+      "credit_commit": "3b4f283210122e346617e67e5de3c6e633ab8993"
+    },
+    {
+      "run_id": "20261128T0833Z-75-ninox-scutulata-v8",
+      "batch_id": "20261128T0833Z",
+      "cycle": 3,
+      "target": "75-ninox-scutulata-v8",
+      "action": "REVISION",
+      "started_at": "2026-11-28T08:50:52.863Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T08:50:52.897Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T08:51:22.851Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T08:52:45.836Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T08:54:09.306Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T08:54:13.985Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T08:54:18.644Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T08:54:35.686Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0833Z-cycle3-20261128T0833Z-75-ninox-scutulata-v8.json",
+      "stage": "VERIFIED",
+      "research": "Access2026-11-28. Reuse WHSO-MIKKOLA-2013 uploadedHeimoMikkola2013 printed464/PDF466 actualread: adult lowerunderparts whitish with large drop-like reddishbrown streaks, upperthroatfore-neck streaked, whiteforehead/narrowdarkeyearea/virtuallyabsentdisc/yelloweyes/blueblackbill/dullgreencere/yellowor greenyellowtoes/darkhornclaws. Guidefemale slightlylarger notmeasuredheight; photographedsexratio remainsunverified. Reuse NOCH-MADIKA-2011-P98 p98–99 comparison actuallyread thisinvocation: N.scutulata sensulatohas heart/chevron-shaped lowerfeathermarks onwhite and breastshaftstreaks, historicalcomplexincludesnowseparatespecies so localitynotuniversalplumageformula. Reuse SCU-BESG-2024-PHOTOS AndyChew/BESG14Jun2024 https://besgroup.org/2024/06/14/brown-hawk-owl-juveniles/ actualexternalobserverbodyread thiscycle; previousactualphoto-based supportedwingstretch retained, notnewphotogrammetricvalidation. Singapore13Junfamily activeyoung; exactage/sex/firstflight unknown, noJapanesecriteria transferred. Strixscutulata→Ninoxscutulata. V7adultunderbodylongthinstripes can confuse N.affinisdiagnosticlongstripes; target separated broader drop-like lowerbodymarks, notuniformdots. Juvenile unchangedexactage/flight/irisuncertain. New0/reuse3. Nparkswebread result handled separately below; no Nparksmorphologyclaim before successfulbodyread.\nSCU-NPARKS-2025 existing NationalParksBoard Singapore article6Feb2025 https://www.nparks.gov.sg/publications-resources/articles/in-the-lonely--owl actuallyreadBrownHawkOwl129–131: roundedhead/yelloweyes/darkupperparts/whitishstreakedunderparts/forestcanopy; broad confirmation only, not specific drop shapes/young stage. Intro genericowl shorttail/roundedwing NOT applied to longtailedhawkowl.",
+      "full_prompt": "Use case precise-object-edit. Edit target #75 Ninox scutulata v7 concept plate. Correct the adult LOWER breast and belly markings on BOTH adults from uninterrupted thin longitudinal stripes into individually separated reddish-brown elongated DROP/TEARDROP-shaped markings on a whitish ground, with broad rounded lower ends and tapered upper ends, irregular natural spacing. Retain somewhat narrower streaks on upper chest/throat. Do not convert to round polka dots, horizontal bars, or a solid brown chest. Preserve white forehead, narrow dark eye area/yellow eyes, bluish-black bill/greenishcere, adult size relationship, claws/tarsi and posed supported juvenile with already formed partly stretched wing/barredtail and residual down. Do not change young to hatchling or remove formed feathers merely because exactageunknown. Keep forest/layout/labels/uncertaintyfooter. Add small v8 beside title.",
+      "source_ids": [
+        "WHSO-MIKKOLA-2013",
+        "NOCH-MADIKA-2011-P98",
+        "SCU-BESG-2024-PHOTOS",
+        "SCU-NPARKS-2025"
+      ],
+      "new_sources": 0,
+      "first_attempt": {
+        "bytes": 2717030,
+        "sha256": "3efe32962ae9d47bc236cbf7984b7f41833ecbe85b1d215d683903593f4bdd29",
+        "gitblob": "7d56598a718140635fdd4144069c1767d3939cfe",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "first_review": "Actual first v8 viewed: teardrop marks are overly smooth, regular graphic stickers and white ground too clean. Needs edit for feather-integrated irregularity; not scientific pass.",
+      "followup_prompt": "Correct the two adults' belly markings only. Current v8 has artificial neatly separated teardrop stickers on a too-clean white belly. Replace these with NATURAL IRREGULAR brown feather-centre markings, softly edged and broken by overlapping feather barbs. Each mark should be an irregular elongated drop, some joining narrow shaft streaks, varied length/width, dense but with ivory feather ground visible. No smooth graphic droplet outlines or regularly spaced dots. Restore realistic feather volume/shadow/individual barb texture over the belly while retaining irregular drop-like markings rather than all long thin stripes. Keep juvenile, wings, adults' face/feet/size, forest/layout, title v8 and footer exactly as present.",
+      "image_metadata": {
+        "bytes": 2767280,
+        "sha256": "6a2e7b430a04ca638cc8c08dff0f11518fa9272d9bcea02628ab7d940cd369cd",
+        "gitblob": "495c2e87cbdd3ad69d19db5daf60f5e6b971b50b",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-095510ee-f11b-4ca7-a94b-5c5e772adbe0.png",
+      "imagegen_wait_seconds": 42.839,
+      "editing_wait_seconds": 40.233,
+      "review_result": "NEEDS_REVISION",
+      "review": "Actually viewed both first and edited v8. First had smooth isolated graphic droplets/blankwhitebelly, rejected and persisted. Followup creates overlapping feather-integrated irregular elongated brown drop/shaft centres and broken ivory ground; obvious sticker effect removed. Local rendering-integration improvement PASS_WITH_LIMITS; lower markings still highly stylized/oversized, exact density/subspecies morphology needs photographic calibration, no whole-image science pass. Supporteddependent juvenileformedwing/barredtail retained per preexisting Singaporephotostage, not hatchling; exactage/firstflight/ratio remainexplicitlyunverified, looplikejuveniledown unresolved. Adults' yelloweyes/blueblackbill/feet stable, labels v8 readable. Lesson: 'teardrop' alone prompts graphicstickers; specify pigmentwithinbarbedoverlappingfeathers at firstgeneration. This followup worked locally for integration, not proven correct natural species pattern. Graydisc208 rule not transferred to75. Alloldversionspreserved.",
+      "reviewed_at": "2026-11-28T08:54:13.973Z",
+      "archived_at": "2026-11-28T08:54:18.628Z",
+      "archive_commit": "08d3fac21bb35b88cafc1d3e75f2d697dc223bdb",
+      "ended_at": "2026-11-28T08:54:35.667Z",
+      "verification_exit_code": 0,
+      "commit_sha": "5c0750b28060f67fe9fcac17be45f93e7ea99559",
+      "credit_commit": "67441c93ed1a3e67db649ef8ca58a6608fb52379",
+      "post_verification_addendum": {
+        "at": "2026-11-28T08:55:32.229Z",
+        "source": "JAP-BSS-IDENTIFICATION-WEB",
+        "finding": "Current adultBrownvsNorthern comparative diagnostic emphasizes Brownrounderheartmarks; generated75elongateddrops need photo-based recalibration. Localintegration improved does not settle identity.",
+        "status": "NEEDS_REVISION"
+      }
+    },
+    {
+      "run_id": "20261128T0833Z-92-ninox-japonica-v8",
+      "batch_id": "20261128T0833Z",
+      "cycle": 4,
+      "target": "92-ninox-japonica-v8",
+      "action": "REVISION",
+      "started_at": "2026-11-28T08:54:45.970Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T08:54:46.013Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T08:55:26.322Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T08:55:32.262Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T08:56:54.689Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T08:56:59.942Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T08:57:04.232Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T08:57:21.570Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0833Z-cycle4-20261128T0833Z-92-ninox-japonica-v8.json",
+      "stage": "VERIFIED",
+      "research": "Access2026-11-28. Reuse JAP-MIK2013-466 HeimoMikkola2013 uploaded printed466/PDF468 actuallyread: adult face dark with only small white patch betweenyelloweyes; darkgraybill; broadlongitudinalstreaks; grayclaws; northernfemale tendency differs from Taiwan no significantsexsize. Reuse JAP-LIN-LIN-TSENG-2012-PP164-166 WenLoungLin/SiMinLin/HuiYunTseng2012 Forktail28:164–166, https://web.ntnu.edu.tw/~treehopper/lib/publications_lib_pdf/nonox_et_al_2012.pdf actualoriginalPDF164–165 Methods/Resultsread: subtropicalhardwoodwoodland/cavitynest and Taiwansexmorphology overlap; this doesnotdatepicturedindividual, generalnestlingperiodnotageproof. Preserve age/firstflight/sexratiounverified.\nNew JAP-BSS-IDENTIFICATION-WEB BirdSocietyofSingapore, NorthernBoobook, undated currentwebpage https://singaporebirds.com/species/northern-boobook actualIdentification18–23read28Nov2026. Secondary localdiagnosticaccount: smallwhitepatchabovebill, adultNorthernelongatedteardropvsBrownrounderheart-shapedlowerbodymarks; overlap/flankexceptionswarned. Supports reducing broadwhitebrows onadult92; notjuvenilewhitepatch/billcolourproof. Sourcefacts differinmarkingshapeemphasisfromguidebroadstreaks/75dropdescription, retainedascross-source nuance notinflexibleformula. N.scutulatajaponica/totogo oldcomplex→N.japonica; populationsexratio cannotbeuniversal. Current92v7whitebrowstoolaterallyextended; localreduceadultwhiteextent, youngunchanged/supportretained.\nCross-review75v8: todayBSScomparison raises concern elongateddropmarksgeneratedcouldoverlapNorthern pattern; renderintegration improved but speciesdiagnosticshape unresolved. Reopen75v8 biologicalpattern review, do notcallscientificpass or proved whole-image improvement. Next75revision shouldusecurrentBrown adultfieldphotofromSingapore, compareheartmarksandavoidstampgeometries. New1/reuse2 for thiscycle, newsourcealso applied75withoutduplicatingID.",
+      "full_prompt": "Use case precise-object-edit. Edit target #92 Ninox japonica v7 concept plate. Change ONLY the extent of white feathers on BOTH adult foreheads: replace the broad white eyebrow extensions over both eyes with dark brown feathering, retaining a SMALL irregular white central patch immediately above the bill between the eyes. Preserve eye colour/yellow iris, dark face/bill, fine feather texture, brown head and underparts, adult display proportions, feet, tails. Do NOT edit young forehead/iris/bill/pose, cavity or branch/habitat, all bodypatterns, labels and exact uncertaintyfooter. Add small v8 beside title. The small central patch must not become broad white supercilia or bright spectacles. Keep existing composition/style exactly.",
+      "source_ids": [
+        "JAP-MIK2013-466",
+        "JAP-LIN-LIN-TSENG-2012-PP164-166",
+        "JAP-BSS-IDENTIFICATION-WEB"
+      ],
+      "new_sources": 1,
+      "post_review_affected": [
+        "75-ninox-scutulata-v8"
+      ],
+      "image_metadata": {
+        "bytes": 2823563,
+        "sha256": "17150e05a204784010efccc4dfb90d3c4d5ac74fcc5769952dced712357da584",
+        "gitblob": "46e616d8e01f876784c15ecff7830170a17cca7b",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-d2052e1a-e86f-4903-bd57-da2672799564.png",
+      "imagegen_wait_seconds": 39.83,
+      "editing_wait_seconds": 0,
+      "review_result": "PASS_WITH_LIMITS",
+      "review": "Actualv8 viewed: both adult white forehead areas now confined to small central irregularpatch abovebill, broad lateralwhitebrows removed. Yelloweyes/darkbill/headtone/feet/adultscale remain; juvenile beggingpose/whitebrow left unchanged without adult-to-youngtransfer; bothfeet supported, noflightclaim. Titlev8/unknownageandfirstflight/sexratiofooter retained. Local adultwhitepatchextent correction PASS_WITH_LIMITS, fullsciencepending; juvenile chronology/bareparts and adultfullplumage density need separatecalibration. Treecavity/woodland display plausible forTaiwanstudy but illustrationnotmeasurednestgeometry. Lesson: specifyextentandtaxonscope, notgenerichawkowlwhitebrows. Appliedhere; actualcross-review75v8 reopened because comparative markingdiagnosis conflicts with elongateddrops, failurequeue persisted. Renderingskill improvement75doesnotestablishspeciesaccuracy. All6productioncycles are archiveverified, not6scientificpasses.",
+      "reviewed_at": "2026-11-28T08:56:59.931Z",
+      "archived_at": "2026-11-28T08:57:04.216Z",
+      "archive_commit": "4394b40d56f661154ca9e9ea45ed2bb4d00e0d15",
+      "ended_at": "2026-11-28T08:57:21.547Z",
+      "verification_exit_code": 0,
+      "commit_sha": "903952a103d6495ab2bb554f5e8b32b16f7c638b",
+      "credit_commit": "7cff6f2403180081c2ce0d00c3d1e4ba69eca051"
+    }
+  ],
+  "scope": "Only owl-pet; no automation/radio/3D changes",
+  "platform_limits": "No fixed platform timeout telemetry claimed; invocation delivered six serial complete production cycles."
+}

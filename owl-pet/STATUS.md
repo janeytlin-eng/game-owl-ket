@@ -1,7 +1,7 @@
-# 猫头鹰原型生产现状 · 2026-11-28
+# Owl pet production status
 
-本次6轮，新增0种、修订6组；去重207/251，原图1490版本。206仍待修；211冠顶与222/212成鸟趾色局部PWL，214展示设计、210说明修订；科学通过/新用户确认0。
+Updated 2026-11-28T08:59:17.644Z. Latest production invocation 20261128T0833Z: six complete serial production cycles, 0new species / 6revisions. Canonical archived species207/251; numbered imageversions1496. Science approval remains pending; local checks4PASS_WITH_LIMITS,108v20/75v8NEEDS_REVISION. Historical version/scoped user confirmations preserved, no new confirmation.
 
-旧0628批次跨触发补齐6/6；当前0725批次4/6、next5，其他未完0、lease已释放。
+[本轮6张原图、研究、复查、逐轮commit集中入口](production/batches/20261128T0833Z-six-cycle-review.md)
 
-[本次全部编号原图、完整提示、研究、实际审查、真实提交](production/batches/20261128T0725Z-six-cycle-review.md) · [账本](production/BATCH_STATE.json) · [资料索引](research/SOURCE_INDEX.md)。全251及集中最终审查尚未完成，整体PARTIAL；无后台执行或完成时间承诺。
+Batch20261128T0725Z closed6/6 across triggers. Current20261128T0833Z4/6 next5; other unfinishedbatch0. No activelease and no backgrounddrawing claim. [Batchledger](production/BATCH_STATE.json). Next prioritize108/75 evidence-based repairs and missing-species development gaps. Scope251 unchanged; unified fullcurrenttaxonomymachinecatalog remains a gap.

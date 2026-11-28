@@ -1,0 +1,830 @@
+{
+  "run_id": "20261128T0329Z",
+  "baseline": "6329ea470cc3c9bac20af0273ca02089a148c518",
+  "evidence_head": "d5c99d97f5fde3c5cdbaf93a3104fb9b4b9663d9",
+  "started_at": "2026-11-28T03:31:50.266Z",
+  "ended_at": "2026-11-28T03:50:49.329Z",
+  "start_scope": "first persisted production cycle; preflight not separately timed",
+  "completed_this_invocation": 6,
+  "current_batch_completed": 4,
+  "next_cycle": 5,
+  "other_partial_batches": 0,
+  "new_species": 0,
+  "revised_species": 6,
+  "unique_species": 207,
+  "total": 251,
+  "numbered_before": 1460,
+  "numbered_after": 1466,
+  "baseline_numbered_blobs_unchanged": true,
+  "imagegen_calls": 8,
+  "actual_output_views": 8,
+  "targeted_second_edits": 2,
+  "local_pass_with_limitations": 5,
+  "needs_revision": 1,
+  "scientific_pass": 0,
+  "new_user_confirmation": 0,
+  "source_counts": {
+    "new_metadata_resource": 1,
+    "new_biological_source": 0,
+    "reused_ids": 13,
+    "reused_citations": 14,
+    "reused_families": 8,
+    "access_boundary_update": 1
+  },
+  "results": [
+    {
+      "run_id": "20261128T0329Z-108-otus-rutilus-v17",
+      "batch_id": "20261128T0304Z",
+      "cycle": 5,
+      "target": "108-otus-rutilus-v17",
+      "action": "REVISION",
+      "started_at": "2026-11-28T03:31:50.266Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T03:31:50.315Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T03:31:54.808Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T03:34:38.633Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T03:34:43.239Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T03:34:47.680Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T03:35:53.909Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0304Z-cycle5-20261128T0329Z-108-otus-rutilus-v17.json",
+      "stage": "VERIFIED",
+      "research": "Access2026-11-28Shanghai. RUT-VASSEN-2013-ANDASIBE-JUV FrankVassen https://www.flickr.com/photos/42244964@N03/12038858063/ freshbodyread: taken4Dec2013Andasibe, upload19Jan2014, explicitjuvenile. Samecachedactualphotoandcurrentv16actuallyviewed. Photojuvenilethreequarterprofilecompactbrown-bufffinelymottledfeathers,darkmask/yellowbrowniris/pinklid/darkbill, perchedbranch; notexactage/sex/flight. MIKKOLA-2013 HeimoMikkola2013uploaded143/PDF145freshactualtextread: adultmorphs/yelloweyes/graybrownbill-toes/darkclaws/tarsifeatheredtobase; femaleavg18gnotheight. Juvenilebookunknown. OldScopsrutilus→Otusrutilus. V16innerplaneeditfailed; NEWexperiment wholejuvenilereconstructioninphoto-basedthreequarterpose, sourcephotoFIRSTinput/oldplateSECONDadultlayoutonly, activelydiscardoldjuvenilegeometryrathertextureonlyedit. Poseanatomicaldesignboundbyperchedphoto, noflight/age/newnest. New0/reuse2, sciencefalse.",
+      "full_prompt": "Usecase compositing / scientific-educational concept. Image1 real juvenile PHOTO is the ONLY biological reference for NEW CENTRE JUVENILE: recreate that bird in warm gentle3Dpetstyle, threequarter PROFILE torso with head slightly turned toward viewer, close fine brown/buff irregular mottled down, darkmask/yellowbrowniris/pinklid/darkbill, compact folded immature wings concealed, no longears. Different body pose from old plate. Image2 old #108v16 plate is ONLY reference for TWO ADULTS/layout/forest/labels. Completely DISCARD its old centre juvenile body geometry and curls; build a NEW juvenile from PHOTO, with both feet naturally gripping the same broad limb and belly supported, quietperch. Keep oldplateADULTS/anatomy/bills/feet/tufts/scale/forest identical. No photoreal cutout, keep coherent establishedillustrationstyle. Titlev16→v17. Preserveageunknown/flightunverifiedfooter. No newborn/flying/longadultremiges or exactage claims.",
+      "source_ids": [
+        "RUT-VASSEN-2013-ANDASIBE-JUV",
+        "MIKKOLA-2013"
+      ],
+      "new_sources": 0,
+      "first_attempt_file": "/workspace/scratch/96400dc71dac/generated_images/exec-29642382-e5b3-4936-9422-0f9e487349c9.png",
+      "retry_prompt": "Correct #108v17 newcentrejuvenile ONLY: currentloopedbody remains wrong. Preserve the new threequarterpose and allanatomy/feet/face/adults/text. Reconstruct visible feathers directly as the FINE CLOSE SHORT irregular horizontal brown-buff mottling of PHOTO2, tenfold finer than the currently traced strands; no individually raised loops or outlinedleaves. Keep soft denseplumage, no baldskin, no maturewingtail.",
+      "image_metadata": {
+        "bytes": 2694340,
+        "sha256": "586b239fd74f2ca0d617005aa3d6710435f5e12432d17a063d8d392241db8df2",
+        "gitblob": "3c89f42faddfd4f4992a2eb3b45595064b08f074",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-431f6288-e837-484f-a05d-10068f9bfd16.png",
+      "imagegen_wait_seconds": 39.84,
+      "editing_wait_seconds": 37.427,
+      "review_result": "NEEDS_REVISION",
+      "review": "Actualv16/firstv17/retryv17/photoallviewed. Photo-firstwholejuvenilereconstruction changespose/headprofileandfootgripsnaturally, butbodyremainsloopedraisedwiresratherfinephotoplumes. Secondmaterialeditstillfails. NEEDS_REVISION/sciencefalse; poseisnewdesignnotproofage/flight/materialsuccess. Adults/labels/footerinvariantsretained; youngnovisibletuft/longadultremiges/nestinvented. FullreconstructionexperimentNOTvalidated; do not repeat its wording as new methodnexttime. Sourcebook143/PDF145actuallyread; fieldpagefreshbodyandcachedphotoactualviewed. Noextraagesexclaim.",
+      "reviewed_at": "2026-11-28T03:34:43.215Z",
+      "archived_at": "2026-11-28T03:34:47.652Z",
+      "archive_commit": "0d32f9825f0d6bd7581409da4ab10b3bfb8a598a",
+      "ended_at": "2026-11-28T03:35:53.882Z",
+      "verification_exit_code": 0,
+      "commit_sha": "4a3cb9cd4d61a6668c412f504b01b4b4da0aa888",
+      "credit_commit": "14a68e91954f97906457d242f90052ad72dffea0"
+    },
+    {
+      "run_id": "20261128T0329Z-130-megascops-koepckeae-v23",
+      "batch_id": "20261128T0304Z",
+      "cycle": 6,
+      "target": "130-megascops-koepckeae-v23",
+      "action": "REVISION",
+      "started_at": "2026-11-28T03:36:04.988Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T03:36:05.062Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T03:36:10.214Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T03:38:34.983Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T03:38:39.393Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T03:38:43.683Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T03:39:13.709Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0304Z-cycle6-20261128T0329Z-130-megascops-koepckeae-v23.json",
+      "stage": "VERIFIED",
+      "research": "Access2026-11-28Shanghai new0/reuse2. KOEP-MIK2013-222 HeimoMikkola2013 uploadedprinted222/PDF224freshtextread: ADULTblackishbrownCROWN finepalebrownspeckling/ochrewhitishtowardFOREHEAD, shorttufts. V22adultsraisedlargewhiteoutlinedcrownunits unlikefinepigment. Localadultcrowncorrection only, juvenilefailedmaterialnotredone. NoRSDdata, bluegreenhornbill/graybrowntoes/darkclawstobepreserved. KOEP-ALARCON-2023 IbethPAlarconetal2023 NeotropicalBiodiversity9:93–114 DOI10.1080/23766808.2023.2237229 https://biologia.uazuay.edu.ec/sites/biologia.uazuay.edu.ec/files/public/ReproductiveeventsofbirdsfromSouthernEcuador.pdf freshweb400tooLarge; cachedactualoriginalp104/PDF13read: 23Apr2019Loja2dependentfledglingswithnessoptilesallbody/graywhitebars/brownchest/blackdiscwhitebrowsyellowiris/Podocarpus3–4m. Exactage/flightunknown; entireyoungunchanged. OldOtuskoepckeae→Megascopskoepckeae. Sciencefalse.",
+      "full_prompt": "Precise-object-edit #130v22. ONLY BOTH ADULT CROWN PIGMENT above forehead: blackish/darkbrown ground with FINE pale-brown speckling, slightly more ochre-whitish toward forehead. Replace large shiny white-outlined helmet units with tiny diffuse pale speckles; retain crownfeathergeometry/shorttufts and recognizablepalesupercilium. Do not alteradultfaces/iris/bills/bodies/legs/toes/claws/size/background. EntireRIGHTYOUNGUNCHANGED includingknownunresolvedbodytexture/formedwingtail/ageunknown, don'tclaimfix. v22→v23; roles/footerunchanged. No addedjuvpattern orsexratio.",
+      "source_ids": [
+        "KOEP-MIK2013-222",
+        "KOEP-ALARCON-2023"
+      ],
+      "new_sources": 0,
+      "first_attempt_file": "/workspace/scratch/96400dc71dac/generated_images/exec-8b2013dd-ec04-4c5a-be3a-7f9b0a91e522.png",
+      "retry_prompt": "Fix the two ADULT CROWN SURFACES in #130v23: currently too flat like a dark cap. Restore softly rounded natural tiny overlapping crown feathers under the fine diffuse pale-brown speckling, with low soft feather relief following head curvature. No large shiny white outlines, no flat black painted panel, no beads. Preserve crownoutline/shorttufts/forehead/eyes/faces/restofbirds/wholeyoung/supports/text/v23 exactly. This is surface texture correction, not new plumage.",
+      "image_metadata": {
+        "bytes": 2357626,
+        "sha256": "c9f2865810557672650c87b5d06a9a5d590440213a2f77dedd9a23e70cb40fb2",
+        "gitblob": "1a597b1a4638bce67a6309593e61394709558754",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-20711e57-f04f-47f9-9162-c364de9e4d67.png",
+      "imagegen_wait_seconds": 33.207,
+      "editing_wait_seconds": 35.326,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "review": "Actualv22/firstv23/retryv23viewed: crownpigmentfinerpalespeckling, largebrightwhitehelmetunitoutlinesreduced. Firstv23lookedflatpaintedpanel; necessarysurfaceeditrestoredroundedtinyoverlaprelief. LocalcrownfinessePWLonly; exactRGB/featherunitsnotcalibrated. Earstufts/forehead/iris/bill/adultbody/toes/supportsandentirerightyoungunchanged. YoungbodymaterialSTILLunresolved; wholeimage sciencefalse and speciesstillnotfullycorrected. Book222/PDF224supportsadulttract, originalp104supportsunchangedolderyoungscope. Do notcountadultcrownfixasjuvenileproblemresolved.",
+      "reviewed_at": "2026-11-28T03:38:39.374Z",
+      "archived_at": "2026-11-28T03:38:43.661Z",
+      "archive_commit": "2ebb0ce4ee408fd713b3b67f03a21829b7630359",
+      "ended_at": "2026-11-28T03:39:13.678Z",
+      "verification_exit_code": 0,
+      "commit_sha": "e1d88eb865024c49d3ad4d49743fe00a1be6ec4c",
+      "credit_commit": "c116f84d067c031c157663b9e065709e3ef6fe3b"
+    },
+    {
+      "run_id": "20261128T0329Z-129-megascops-hoyi-v8",
+      "batch_id": "20261128T0329Z",
+      "cycle": 1,
+      "target": "129-megascops-hoyi-v8",
+      "action": "REVISION",
+      "started_at": "2026-11-28T03:39:24.123Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T03:39:24.193Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T03:39:28.599Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T03:40:56.048Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T03:41:00.879Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T03:41:06.326Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T03:41:41.064Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0329Z-cycle1-20261128T0329Z-129-megascops-hoyi-v8.json",
+      "stage": "VERIFIED",
+      "research": "Access2026-11-28Shanghai new0/reuse2. HOY-MIK2013-228 HeimoMikkola2013uploadedprinted228/PDF230actualtextread: ADULTgreyishbrownfacialdiscFINELYDARKVERMICULATED, prominentblackruff, palebrowsusuallynotched, yelloweyes/greenishyellowbill, yellowgraytoes/darkhornclaws/tarsifeathered. Femaleavg>20gMASSnotheight. V7adultdisclargelyplainpalegraycreamcoarsefringe; localfinepigmentvermicrefinement. Fledgedyoungadultlikefluffy/novisibletufts, no timedbarepartcolourseries; youngiris/bill/toecolourprovisionalunchangedandlabelledunverified. HOY-SIB-ARG ArgentinaAdministraciondeParquesNacionalesSIB https://sib.gob.ar/especies/megascops-hoyi freshactualbody11–25/46–48readname/KoenigStraneck1989/oldOtushoyi; institutiondoesNOTsupportfacepatternorjuvenilebareparts. Targetedfreshinternetfacevermicqueryothersecondaryhitsnotadopted, primarytypepaperhistoricalnotclaimedfresh. Same251unit, no newnest/age/flight/sexscale. Sourcecolourqualitativeonly, sciencefalse.",
+      "full_prompt": "Precise-object-edit #129v7. ONLY BOTH ADULT FACIAL DISCS: mutedgreyishbrown with VERY FINE dark irregular vermiculations acrosscheeks ratherplainpalefield/coarsefringe. Preserve prominentblackruff, pale eyebrows andtheircurrentshape, eyes/bill/tufts/outline andallotheranatomy exactly. Keepentireyoungincludingprovisionaliris/bill/toecolours andexportuncertaintyline unchanged, allfeet/supports/forest/bodyplumage/near-equaladultheight unchanged. v7→v8; roles/footerexact. No blacknewlinesinyoung, nosex-sizeguess.",
+      "source_ids": [
+        "HOY-MIK2013-228",
+        "HOY-SIB-ARG"
+      ],
+      "new_sources": 0,
+      "image_metadata": {
+        "bytes": 2287383,
+        "sha256": "11f4344e67f2c6f83f37cd0656b2f92c35abd5e68b82c1086df04a492d62b57e",
+        "gitblob": "a8c4e7110bb9c97f6f919ae8dc2d0a4fa7a3aead",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-1a7e4989-b9e3-48ce-a4df-fbae014e7595.png",
+      "imagegen_wait_seconds": 43.373,
+      "editing_wait_seconds": 0,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "review": "Actualv7/v8fullimagesviewed: bothadultcheeksnowfinebrokendarkvermiculationsongraybrownratherlargelyplaincream. Blackruff/brows/eyes/bills/tufts/wingtail/toes/claws/sexdisplayscale/forestpreserved. Entireyoungandiris-bill-toeuncertaintylabelunchanged. LocalpigmentPWLonly, stylizedlinear marksnotexactnaturalmicrostructure. Female20gmassnotheight/no newratio. No firstflight/nest/dayclaim. SourceSIBfreshnamebodyreadnotfacemorphologyproof; actualguide228/PDF230supportsadultfacepattern. Don'ttransferadultvermicstojuvenilewithoutstageevidence.",
+      "reviewed_at": "2026-11-28T03:41:00.861Z",
+      "archived_at": "2026-11-28T03:41:06.294Z",
+      "archive_commit": "c78bc5b101727d7e5710e811f1ab39efa97ca8a6",
+      "ended_at": "2026-11-28T03:41:41.031Z",
+      "verification_exit_code": 0,
+      "commit_sha": "3b833ef919816913c87835fa06d0708a777dfd10",
+      "credit_commit": "23eb9863d11a3e9849296f32fbd00746bdc3d8ba"
+    },
+    {
+      "run_id": "20261128T0329Z-131-megascops-watsonii-v9",
+      "batch_id": "20261128T0329Z",
+      "cycle": 2,
+      "target": "131-megascops-watsonii-v9",
+      "action": "REVISION",
+      "started_at": "2026-11-28T03:41:53.316Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T03:41:53.389Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T03:41:57.933Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T03:43:11.199Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T03:43:16.423Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T03:43:21.798Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T03:43:56.685Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0329Z-cycle2-20261128T0329Z-131-megascops-watsonii-v9.json",
+      "stage": "VERIFIED",
+      "research": "Access2026-11-28Shanghai new0/reuse3. WAT-MIK2013-235 existingID forHeimoMikkola2013uploadedprinted236–237/PDF238–239actualtextread (preflightPDF236wasMarshalli, correctedBEFOREedit; noMarshallitraitsadopted). UstaADULTBLACKISHmediumratherprominenttufts; V8tuftsurfacesmainlyrusset withdarkcentres, localdarkpigmentcalibrationnotshapeoradultscalerule. Warmbrowniris/greenyellowbrownbill/baregrayyellowbrowntoes/darkhornclaws, nosexsizedata; mesoptilebarredheadmantleunderpartsunchanged. WAT-MENQ-2018-USTA WillianMenqFeb2018 https://avesderapinabrasil.com/megascops_usta.htm freshoriginalpage21–29actualread: variableadultplumage/brownamberiris/featheredtarsitobases; 2013nestage secondaryreportNOTnewtimedyoungproof. WAT-DANTAS-2021 SidneiDantas/JasonWeckstein/JohnBates/JoicianeOliveira/ThereseCatanach/AlexandreAleixo2021 Zootaxa4949(3):401–444 DOI10.11646/zootaxa.4949.3.1 https://www.mapress.com/zt/article/download/zootaxa.4949.3.1/43285 freshactualabstract401read: highwithinclademorphvariation, morphologyaloneunsafe. No claimnewp428readthisrun. KeepcurrentregionalMegascopswatsoniiusta/oldScopsusta mappingwithout251rankchange. Adulttuftcolourfromguidequalitativeunderartlight, noRGBmetric/sciencefalse.",
+      "full_prompt": "Precise-object-edit #131v8 usta regional concept. ONLY BOTH ADULT EAR-TUFT FEATHER PIGMENT: predominantly dark blackish-brown ratherbrightredorange, preserving a few subtle mutedrusset flecks. Keep mediumtuftlength/width/positions/feathergeometry EXACT. No enlarging or uniformblackplastic. Preserveadultcrown/forehead/faces/warmbrownirises/bills/allbodypatterns/feet/claws/near-equalheight; wholecentralrestingMESOPTILE/closedeyes/bodybars/hiddenwingtail/bellyandfeet support EXACTUNCHANGED. Allforest/labels/usta regionaltaxonomyfooterunchanged; v8→v9. Nojuvenileage/sex/flightclaims.",
+      "source_ids": [
+        "WAT-MIK2013-235",
+        "WAT-MENQ-2018-USTA",
+        "WAT-DANTAS-2021"
+      ],
+      "new_sources": 0,
+      "image_metadata": {
+        "bytes": 2680804,
+        "sha256": "1a9a6a52bac9a315fec327cf0b9afc49a6b8c9d5c693e97e062f880ef58c2050",
+        "gitblob": "b1b1dce2a8c28c12c78faf0381f0a79761dda7b1",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-47f8b06f-0ae2-489f-8a0c-7327982561e7.png",
+      "imagegen_wait_seconds": 38.576,
+      "editing_wait_seconds": 0,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "review": "Actualv8/v9wholeimagesviewed. Bothadulttuftsurfacesnowpredominantlyblackishbrownwithmutedrussetflecks, ratherorange; mediumtuftgeometry/positionretained. Adultfaces/irises/bills/bodyshafts/wingtail/toes/claws/scaleforestunchanged. Centreageunknownmesoptile/restingclosedeyes/bodybars/hiddenwingtail/bellyandfeetnaturalsupportunchanged. LocaltuftpigmentPWLnotmicrostructure/RGB/sexratio validation. Sourceguide236/PDF238explicitblackishtufts; Menq2018andDantas2021p401actualbodyfreshread, no youngtimelinededuced. Sciencefalse/taxonregionalboundaryretainedwithoutrecount.",
+      "reviewed_at": "2026-11-28T03:43:16.400Z",
+      "archived_at": "2026-11-28T03:43:21.772Z",
+      "archive_commit": "2f8a4053415d909f4e4134d9f0060357fcc58520",
+      "ended_at": "2026-11-28T03:43:56.656Z",
+      "verification_exit_code": 0,
+      "commit_sha": "c26ba4c78ff33a2a860e60417da1a5600a2fcdde",
+      "credit_commit": "1d07f519afc5ee803594937f4a655851440acc94"
+    },
+    {
+      "run_id": "20261128T0329Z-133-megascops-atricapilla-v10",
+      "batch_id": "20261128T0329Z",
+      "cycle": 3,
+      "target": "133-megascops-atricapilla-v10",
+      "action": "REVISION",
+      "started_at": "2026-11-28T03:44:06.205Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T03:44:06.274Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T03:44:10.413Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T03:45:26.353Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T03:45:30.999Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T03:45:36.657Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T03:46:12.826Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0329Z-cycle3-20261128T0329Z-133-megascops-atricapilla-v10.json",
+      "stage": "VERIFIED",
+      "research": "Access2026-11-28Shanghai new0/reuse3. MIKKOLA-2013 HeimoMikkola2013actualuploaded238/PDF240freshread: ADULTdirtybrownfacialdiscFINELYDARKVERMICULATED/darkbrownblackruff, lightbrowsbrownvermiculated; darkcap/palelowerbreastfinevermics/branchedshafts/browngraytoes/darkhornclaws. Femaleupto25gMASSnotheight; juvenileunknownbook. BCSO-OWLPAGES-2020 DeaneLewis2020-10-24 https://www.owlpages.com/owls/species.php?s=1030 freshactualbody67–72read sameadultfacialpattern/morphvariation; secondaryguide-notindependentmeasurement. BCSO-DANTAS-2021 Dantas/Weckstein/Bates/Oliveira/Catanach/Aleixo2021 Zootaxa4949(3):401–444 DOI10.11646/zootaxa.4949.3.1 https://www.mapress.com/zt/article/download/zootaxa.4949.3.1/43285 freshactualprinted427/PDF27lines923–926read explicitlybrown-eyedatricapillaredmorphsalsoexist; adjacentALAGOENSISholotypeNOTatricapillaorjuvenilefact. Wholepaperabstract401alsoactualreadthisrun. V9adultcheekscoarseorangeplainpatches, localbrownfinevermicrefinement. Preserveexistingyounganduncertaintynotfreshphotoproof(knownWA2019052historynotfreshpixels). OldStrix/Otusatricapillus→Megascopsatricapilla; no251rankchange; exactyoungage/flight/sexratiounknown. Sciencefalse.",
+      "full_prompt": "Precise-object-edit #133v9. ONLY BOTH ADULT FACIAL DISCS inside darkruff: muteddirtybrown with veryfine darkirregularmeanderingvermiculation; soften coarsebrightorangeplainpatches andlargepointedcheekplates into fine naturalfacialfeathers. Keep darkruff/palebrownvermiculatedbrows/blackishCAP/tufts/actualbrownirises/green-yellowbills andalladultbodies/featherpatterns/feet/claws/scale/forest EXACT. CENTREYOUNGENTIRELYUNCHANGED yellowiris/formedwingtail/pose/feet/ageunknown. Titlev9→v10; exactrolelabels/footer. No iris-as-sex rule, no newnest/age/flight.",
+      "source_ids": [
+        "MIKKOLA-2013",
+        "BCSO-OWLPAGES-2020",
+        "BCSO-DANTAS-2021"
+      ],
+      "new_sources": 0,
+      "image_metadata": {
+        "bytes": 2508204,
+        "sha256": "c8e0935658bc4afed9faeceaa47f07d1cbb9c3192213ddb92d3a6c20c5681eca",
+        "gitblob": "85b494f7e0e03f33cc4030e90e4ae1191ff9812f",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-a50dec01-b056-49d1-bb22-bdfd463406e4.png",
+      "imagegen_wait_seconds": 36.089,
+      "editing_wait_seconds": 0,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "review": "Actualv9/v10wholeimagesviewed. Bothadultdirtybrownfacesnowfinerdarkvermiculations/softfeathergrainratherbrightcoarseplaincheekplates. Blackcap/blackruff/palebrow/browniris/greenishbill/bodyshaftpatterns/feet/claws/scale/forestretained. Wholejuvenileyellowiris/formedwingtail/pose/supportunchanged; no youngphotoorontogenyfreshvalidation. LocaladultfacePWL, somegraphiclineorganizationstillstylizednotexactmap. Dantas2021p427explicitbrown-eyedatricapillaredmorphexceptionssupportsnotusingirisassexmarker, adjacentalagoensisholotypenotused. Guide238/PDF240andOWLpagesbodyactualfreshread. Sciencefalse.",
+      "reviewed_at": "2026-11-28T03:45:30.982Z",
+      "archived_at": "2026-11-28T03:45:36.637Z",
+      "archive_commit": "bbc10ea477fa152bb7bdfbe41ec6108dcb0fa4e7",
+      "ended_at": "2026-11-28T03:46:12.791Z",
+      "verification_exit_code": 0,
+      "commit_sha": "feb380e6ab70fdad1277b2b9fe28b392f86555b4",
+      "credit_commit": "1d2689542890fe812c18bdc7dd82eb1bcd24b960"
+    },
+    {
+      "run_id": "20261128T0329Z-112-asio-abyssinicus-v16",
+      "batch_id": "20261128T0329Z",
+      "cycle": 4,
+      "target": "112-asio-abyssinicus-v16",
+      "action": "REVISION",
+      "started_at": "2026-11-28T03:46:22.450Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T03:46:22.515Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T03:46:27.608Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T03:48:19.204Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T03:48:24.029Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T03:48:28.763Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T03:49:03.499Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0329Z-cycle4-20261128T0329Z-112-asio-abyssinicus-v16.json",
+      "stage": "VERIFIED",
+      "research": "Access2026-11-28Shanghai new0/reuse2. WHSO-MIKKOLA-2013 HeimoMikkola2013uploaded508/PDF510freshtextread: ADULTprominentDARKtufts, richTAWNYBROWNface/shortinconspicuousbrows/orangeyellowiris/blackbill/graybrowncere/fullyfeatheredtarsiANDtoes/darkhornclaws, onlyslightlyfemaleRSDnotquantifiedlinearheight. V15adulttuftsgoldorangeheavilyedged, localdarktuftpigmentcalibration, keeprecentfaceandtuftpositions. ABY-OWLPAGES-2020-3560 DeaneLewis2020-11-08 https://www.owlpages.com/owls/species.php?s=3560 freshactualbody58–62read supportsdarktuftsclosetoforeheadcentre/barepartinvariants; secondarysharedliteraturenotindependentmeasurement. OldAsiootusabyssinicus→Asioabyssinicus. Wholeolderjuvenileformedwingtail/unknownage retainedandnotnewlyvalidated, looptexturestillunresolved; bookjuvenileUNDESCRIBEDprobablysimilarAotus explicitlyNOTadopted. No age/firstflight/nest/sexcolour invented. Sciencefalse, sourcecolourqualitativeunderillustrativelight.",
+      "full_prompt": "Precise-object-edit #112v15. ONLY TWO ADULT EAR-TUFT FEATHER PIGMENT: predominantly dark brown to blackish-brown, with a few subtle tawny edges/tips, reducing large golden-orange surfaces. Keep exacttuftlength/width/foreheadcentreposition, feathergeometry andnaturalrelief, no solidplasticblack. Preserve recentfine tawnybrown adultfacialdiscs/eyebrows/eyes/bills/cere/allbodies/wingtail/fullyfeatheredtoes/claws/relativeheight/forest/branch. ENTIRE CENTRAL OLDER JUVENILE UNCHANGED, knowntextureproblem remains. v15→v16 andallroles/footerretained. No newstage/nest/flight claim.",
+      "source_ids": [
+        "WHSO-MIKKOLA-2013",
+        "ABY-OWLPAGES-2020-3560"
+      ],
+      "new_sources": 0,
+      "image_metadata": {
+        "bytes": 2591463,
+        "sha256": "a3b5efc7b8e3396e7a457f093662b8a5ce9b8bc590815ac7c5dc47eeb415ccfa",
+        "gitblob": "9eb1a7c99cedffffd52a306bf46c72084bdf5d7e",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-29c9ba23-afba-4230-9a0b-3e1188478465.png",
+      "imagegen_wait_seconds": 40.928,
+      "editing_wait_seconds": 0,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "review": "Actualv15/v16wholeimagesviewed. Bothadulttuftpigmentnowdarkbrown/blackbrownwithmutedtawnyedges, geometricposition/lengthpreserved. Recentfineadultfaces/orangeeyes/blackbills/graycere/bodyshafts/wingtail/fullyfeatheredtoes/claws/near-equaldisplay/forest/branchpreserved. Olderjuvenileentirelyunchangedinclformedwingtail/ageunknownandunresolvedlooptexture. LocaladulttuftpigmentPWLnotfullspeciesorjuvenilerepair, qualitativecolourunderartlightingnotRGBmeasurement. Actualguide508/PDF510andfreshOWLpages58–62read; bookAsiootusjuvenilespeculationnotused, sciencefalse.",
+      "reviewed_at": "2026-11-28T03:48:24.010Z",
+      "archived_at": "2026-11-28T03:48:28.735Z",
+      "archive_commit": "ffd3e6def6dac474a7ea1526b461db51d8ae8881",
+      "ended_at": "2026-11-28T03:49:03.468Z",
+      "verification_exit_code": 0,
+      "commit_sha": "2178f3f4b7b4f29ee0a5c38a4cc07fc32a536a86",
+      "credit_commit": "0a9de0fc55abcb55991b34fa8a5f24d8ccfa95fa"
+    }
+  ],
+  "intermediates": [
+    {
+      "bytes": 2733401,
+      "sha256": "96f017ebccf60f552d39efcca0cfcb8afc0a4d95ceed8d466f9d895733977c43",
+      "gitblob": "80fb7c92423fbe2e2df3f8f0240676cd1a127ee1",
+      "size": [
+        1536,
+        1024
+      ],
+      "path": "owl-pet/production/intermediates/20261128T0329Z-108-otus-rutilus-v17-first-attempt.png",
+      "target": "108-otus-rutilus-v17",
+      "local": "/workspace/scratch/96400dc71dac/generated_images/exec-29642382-e5b3-4936-9422-0f9e487349c9.png"
+    },
+    {
+      "bytes": 2391442,
+      "sha256": "db6fe5fc3520e608516fa69d3b394cee7eebc1c0009da6cb934c054bc3c11277",
+      "gitblob": "b7b1ffce532e12acbface65aeb2fe83d55d4b4d8",
+      "size": [
+        1536,
+        1024
+      ],
+      "path": "owl-pet/production/intermediates/20261128T0329Z-130-megascops-koepckeae-v23-first-attempt.png",
+      "target": "130-megascops-koepckeae-v23",
+      "local": "/workspace/scratch/96400dc71dac/generated_images/exec-8b2013dd-ec04-4c5a-be3a-7f9b0a91e522.png"
+    }
+  ],
+  "timing": [
+    {
+      "target": "108-otus-rutilus-v17",
+      "start": "2026-11-28T03:31:50.266Z",
+      "end": "2026-11-28T03:35:53.882Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T03:31:50.315Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T03:31:54.808Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T03:34:38.633Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T03:34:43.239Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T03:34:47.680Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T03:35:53.909Z"
+        }
+      ],
+      "generation_wait_seconds": 39.84,
+      "editing_wait_seconds": 37.427,
+      "stage_intervals_seconds": [
+        {
+          "from": "STARTED",
+          "to": "RESEARCH_READY",
+          "seconds": 4.493
+        },
+        {
+          "from": "RESEARCH_READY",
+          "to": "IMAGE_GENERATED",
+          "seconds": 163.825
+        },
+        {
+          "from": "IMAGE_GENERATED",
+          "to": "REVIEWED",
+          "seconds": 4.606
+        },
+        {
+          "from": "REVIEWED",
+          "to": "ARCHIVED",
+          "seconds": 4.441
+        },
+        {
+          "from": "ARCHIVED",
+          "to": "VERIFIED",
+          "seconds": 66.229
+        }
+      ]
+    },
+    {
+      "target": "130-megascops-koepckeae-v23",
+      "start": "2026-11-28T03:36:04.988Z",
+      "end": "2026-11-28T03:39:13.678Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T03:36:05.062Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T03:36:10.214Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T03:38:34.983Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T03:38:39.393Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T03:38:43.683Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T03:39:13.709Z"
+        }
+      ],
+      "generation_wait_seconds": 33.207,
+      "editing_wait_seconds": 35.326,
+      "stage_intervals_seconds": [
+        {
+          "from": "STARTED",
+          "to": "RESEARCH_READY",
+          "seconds": 5.152
+        },
+        {
+          "from": "RESEARCH_READY",
+          "to": "IMAGE_GENERATED",
+          "seconds": 144.769
+        },
+        {
+          "from": "IMAGE_GENERATED",
+          "to": "REVIEWED",
+          "seconds": 4.41
+        },
+        {
+          "from": "REVIEWED",
+          "to": "ARCHIVED",
+          "seconds": 4.29
+        },
+        {
+          "from": "ARCHIVED",
+          "to": "VERIFIED",
+          "seconds": 30.026
+        }
+      ]
+    },
+    {
+      "target": "129-megascops-hoyi-v8",
+      "start": "2026-11-28T03:39:24.123Z",
+      "end": "2026-11-28T03:41:41.031Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T03:39:24.193Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T03:39:28.599Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T03:40:56.048Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T03:41:00.879Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T03:41:06.326Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T03:41:41.064Z"
+        }
+      ],
+      "generation_wait_seconds": 43.373,
+      "editing_wait_seconds": 0,
+      "stage_intervals_seconds": [
+        {
+          "from": "STARTED",
+          "to": "RESEARCH_READY",
+          "seconds": 4.406
+        },
+        {
+          "from": "RESEARCH_READY",
+          "to": "IMAGE_GENERATED",
+          "seconds": 87.449
+        },
+        {
+          "from": "IMAGE_GENERATED",
+          "to": "REVIEWED",
+          "seconds": 4.831
+        },
+        {
+          "from": "REVIEWED",
+          "to": "ARCHIVED",
+          "seconds": 5.447
+        },
+        {
+          "from": "ARCHIVED",
+          "to": "VERIFIED",
+          "seconds": 34.738
+        }
+      ]
+    },
+    {
+      "target": "131-megascops-watsonii-v9",
+      "start": "2026-11-28T03:41:53.316Z",
+      "end": "2026-11-28T03:43:56.656Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T03:41:53.389Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T03:41:57.933Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T03:43:11.199Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T03:43:16.423Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T03:43:21.798Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T03:43:56.685Z"
+        }
+      ],
+      "generation_wait_seconds": 38.576,
+      "editing_wait_seconds": 0,
+      "stage_intervals_seconds": [
+        {
+          "from": "STARTED",
+          "to": "RESEARCH_READY",
+          "seconds": 4.544
+        },
+        {
+          "from": "RESEARCH_READY",
+          "to": "IMAGE_GENERATED",
+          "seconds": 73.266
+        },
+        {
+          "from": "IMAGE_GENERATED",
+          "to": "REVIEWED",
+          "seconds": 5.224
+        },
+        {
+          "from": "REVIEWED",
+          "to": "ARCHIVED",
+          "seconds": 5.375
+        },
+        {
+          "from": "ARCHIVED",
+          "to": "VERIFIED",
+          "seconds": 34.887
+        }
+      ]
+    },
+    {
+      "target": "133-megascops-atricapilla-v10",
+      "start": "2026-11-28T03:44:06.205Z",
+      "end": "2026-11-28T03:46:12.791Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T03:44:06.274Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T03:44:10.413Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T03:45:26.353Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T03:45:30.999Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T03:45:36.657Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T03:46:12.826Z"
+        }
+      ],
+      "generation_wait_seconds": 36.089,
+      "editing_wait_seconds": 0,
+      "stage_intervals_seconds": [
+        {
+          "from": "STARTED",
+          "to": "RESEARCH_READY",
+          "seconds": 4.139
+        },
+        {
+          "from": "RESEARCH_READY",
+          "to": "IMAGE_GENERATED",
+          "seconds": 75.94
+        },
+        {
+          "from": "IMAGE_GENERATED",
+          "to": "REVIEWED",
+          "seconds": 4.646
+        },
+        {
+          "from": "REVIEWED",
+          "to": "ARCHIVED",
+          "seconds": 5.658
+        },
+        {
+          "from": "ARCHIVED",
+          "to": "VERIFIED",
+          "seconds": 36.169
+        }
+      ]
+    },
+    {
+      "target": "112-asio-abyssinicus-v16",
+      "start": "2026-11-28T03:46:22.450Z",
+      "end": "2026-11-28T03:49:03.468Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T03:46:22.515Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T03:46:27.608Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T03:48:19.204Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T03:48:24.029Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T03:48:28.763Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T03:49:03.499Z"
+        }
+      ],
+      "generation_wait_seconds": 40.928,
+      "editing_wait_seconds": 0,
+      "stage_intervals_seconds": [
+        {
+          "from": "STARTED",
+          "to": "RESEARCH_READY",
+          "seconds": 5.093
+        },
+        {
+          "from": "RESEARCH_READY",
+          "to": "IMAGE_GENERATED",
+          "seconds": 111.596
+        },
+        {
+          "from": "IMAGE_GENERATED",
+          "to": "REVIEWED",
+          "seconds": 4.825
+        },
+        {
+          "from": "REVIEWED",
+          "to": "ARCHIVED",
+          "seconds": 4.734
+        },
+        {
+          "from": "ARCHIVED",
+          "to": "VERIFIED",
+          "seconds": 34.736
+        }
+      ]
+    }
+  ],
+  "errors": [
+    "108 photo-first whole juvenile reconstruction and follow-up still looped; retained NEEDS_REVISION",
+    "130 firstadultcrowneditflattenedcap;actualfollow-up restoredroundedfeatherrelief; youngunchangedunresolved",
+    "First guide locatorPDF236 was Marshalli; correctedtoPDF238–239before131edit; no wrongtraitsused",
+    "Alarconweb400tooLarge; cachedoriginalbodyactualread",
+    "AVC2023frontpackwebpartiallyread; latepageswebtimeout/executordownload503; noowlbiologyadopted",
+    "HEAD_CHANGED protective check rejected intermediate commit while own112RESEARCH_READY advanced; awaited cell, confirmed owncommitmessage, latestref==storedhead, retried nonforce after cyclecredit",
+    "fd9d70d connector422 no commit; #25v6 paths preserved"
+  ],
+  "no_platform_timeout_telemetry": true
+}

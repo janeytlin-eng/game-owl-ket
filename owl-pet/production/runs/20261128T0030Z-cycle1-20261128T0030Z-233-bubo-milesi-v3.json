@@ -13,15 +13,32 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T00:40:09.989Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T00:41:48.551Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0030Z-cycle1-20261128T0030Z-233-bubo-milesi-v3.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "New0/reuse1 primaryBMIL-BABBINGTON-2018-TANOUMAH JemBabbington5Oct2018 https://www.birdsofsaudiarabia.com/2018/10/arbabian-spotted-eagle-owl-young.html freshbodyactualread: JulyTanoumah two young lefttree andflewnearbyrockface, clearadvancedformedfeather/flight-observedstage, notmeasuredfirstflightday. CurrentBubomilesi oldBafricanusmilesi same251unit; no transferbroadAfricansexualmass/newborndown. v2actualimagealreadyhas formedwingtail andsubduedbarredcrown; no newpatternerrorclaimed. Newdesignposevariety cautioussupportedrockstep is inferenceconsistentolderdocumentedstage, not observedstep/biomechanicmeasurement. Retainall6contacts exceptonebriefraisedyoungfoot withcenterofmassoverplantedfoot/continuousrocknoperchgap. Exactyoungage/sex/featherchronology andadulttoeextentunresolved. UploadedMikkolaactual280/PDF282and281/PDF283read asbackground broadoldafricanus includesmilesi but notadoptednewtoe/sex/natalphenotype: species-specificboundaryinsufficient. Sciencefalse, poseconceptnotcalibration.",
   "full_prompt": "Precise-object-edit #233 Bubo milesi v2. Change ONLY RIGHT OLDER JUVENILE POSE, preserving species plumage/face/age stage. Give it a small cautious step to the LEFT along this same broad continuous rock shelf: body inclined very slightly forward, left foot planted securely flat gripping rock, right foot lifted just a little and reaching toward a nearby level rock surface. Wings remain FOLDED with the same formed barred remiges andtail, no flapping/flying. Turn head slightly towardadults, lookingcuriously, keepyelloweyes/darkbill/lowflattufts/subduedbarredcrown/noadultcrownspots andbarredloosebody. Wholebodycenterofmass over plantedfoot; natural support, no floating feet or cliffgap. Bothadults entirelyunchanged inclallfeet/tufts/patterns, wholeenvironment/title/roles/sciencependingfooter unchanged; addv3totitle. This is olderflight-observed fieldstage, NOT hatchling; exactageunknown and specificsteppingmotion a designinference, not a dateddevelopmentmilestone.",
   "source_ids": [
     "BMIL-BABBINGTON-2018-TANOUMAH"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "image_metadata": {
+    "bytes": 2751258,
+    "sha256": "0f77c2ac42760b39e4b7fae328cb692f93d642b79131a34ac5c31996a397818d",
+    "gitblob": "e820803f71a1735c03aa97c831fec363b0a72e74",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-0cb1b636-565a-4a96-aa66-0fbfb201a8c3.png",
+  "imagegen_wait_seconds": 38.78,
+  "editing_wait_seconds": 0,
+  "review_result": "PASS_WITH_LIMITATIONS"
 }

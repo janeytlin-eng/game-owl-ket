@@ -1,0 +1,3 @@
+# Actual review
+Actualoutputviewed: longprofuserufousadultbristleswithdarkertips replacewhite; lengthschematic/exaggeratedandnotmeasurementaccurate, localpigmentPWLonly. Adultdarkrimnotadded, recentbelly/whitediamonds/crown/side-neckscales/yellowbareparts preserved; entirejuvenile/formedwingtail/historicalmale/ageunknown/grip unchanged. Reviewcomparisonv10supportscolourchange notnewanatomy. Negative juveniletexturequeue108/130/112unchanged; rulepigmentcorrectiononlysourceapplicablespecies.
+{"bytes":2541292,"sha256":"1421ac7f5bea29106c003aa986c6abc95752b2c9a56c5d22f3eff286793d2205","gitblob":"ce35949a812d30388ad5e6c6f495b1ab3b81ef4a","size":[1536,1024]}

@@ -1139,3 +1139,7 @@ Actualoutputviewed: longprofuserufousadultbristleswithdarkertips replacewhite; l
 
 ## 20261128T0533Z 85-otus-semitorques-v14
 Actualoutputviewed: adults scapularwhite row muted/intERRUPTEDwithbrown-gaps; smallpalepatchesremain rather continuousstripe. LocalpigmentPWL; some lightwingpatches stillstylized but continuouswhitebandnotpresent. Existingface/tufts/orangeiris/grayhornbill/featheredtoes/abdominalherringbone preserved; entireyoungunchanged includingknowncurltexturelimitation/shadowedunverifiedeyes/developingwingtail/lowmovementstage/notnewborn. Nestunknown, forestCryptomeriasupport unchanged. Guide/paperirisdifference notsilentlyresolved; original2025orangeadult evidence retained. Notfullspeciespass.
+
+
+## 20261128T0533Z 95-pulsatrix-melanota-v12
+Actualoutputviewed: brownupperbreastbandnow has subduedpale mottles/indistinctcentralbreak, remainsbroadbrown no whitebib. LocalpigmentPWL, distributionstylizednotmeasured. Throatcollar/spectacles/irises/bill/cere/recenttailbands/youngwhiteheadblackmaskcinnamonbody/support/scale preserved. Youngbodyoverlongfluffytexture remainslimitation; no natalstageorAlbiziaforkassignments. Differentstagefacts stayseparate. Wholegroup scientificfalse/userapprovalnotinherited.

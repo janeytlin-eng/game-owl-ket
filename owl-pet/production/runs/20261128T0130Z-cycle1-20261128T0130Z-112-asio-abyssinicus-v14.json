@@ -13,11 +13,15 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T01:38:15.877Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T01:39:39.269Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0130Z-cycle1-20261128T0130Z-112-asio-abyssinicus-v14.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Access28Nov2026Shanghai. New0/reuse3. ABY-OWLPAGES-2020-3560 DeaneLewis2020-11-08 https://www.owlpages.com/owls/species.php?s=3560 actualfreshbody58–62read: prominentdarktufts setclosetocentreofforehead, tarsi/toesfeathered, femalesslightlylarger; secondaryguide notindependentprimarymeasurement. WHSO-MIKKOLA-2013 HeimoMikkola2013 printed508/PDF510actuallyreadnow: darkprominenttufts, orange-yelloweyes/blackbill/tarsiANDtoesfullyfeathered, juniper/Podocarpusforest, femaleonlyslightlylarger; no quantifiedtuftspacing. ABY-MATON-1989-JUV PeterMaton https://www.flickr.com/photos/34579661@N04/5424426357/ actualfreshbody42read: Ethiopia1989scannedslide, not2011fielddate; cachedphotoactuallyviewednow olderformedwingtail/darkface/orangeiris/palecrown. Juvenileage/flight unknown, guide'sspeculationAotusjuvenileNOTadopted. Actualv13adulttufts widelysplayedoutercrown; modestinwardplacement isdesigninterpretationofadulttext, notnewmeasurement. Youngcurlmaterialstillunresolved, untouchedratherthanclaimnewmethod. OldAsiootusabyssinicus=currentAabyssinicus;251unchanged. Sciencefalse.",
   "full_prompt": "Precise-object-edit #112 v13. BOTH ADULTS EAR-TUFT BASE PLACEMENT ONLY: bring the two dark ear-tuft bases nearer together toward the middle of the forehead/top of crown, rather than their current widely splayed outer-crown positions. Tufts remain tall, dark golden-brown mottled, two on each adult, natural feather attachments on cranial surface, not horns. Moderate inward relocation, do not merge tufts, no extreme newheight. Preserve eyes/face/blackbill/crownpigment/headshape/body/fullyfeatheredtoes/darkclaws andalljuvenileincludingunknownagecurlproblem, wingtail and sixsupports/forest/roles/footer. v13→v14. Same gentle stylizedpetstyle. This is adult placement clarification from textualdescription, not quantitative anatomical calibration.",
   "source_ids": [
@@ -25,5 +29,18 @@
     "WHSO-MIKKOLA-2013",
     "ABY-MATON-1989-JUV"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "image_metadata": {
+    "bytes": 2642134,
+    "sha256": "ec83d2dbea68e9c33a99d7d6450a7239b94865ed2efe4d9fd5a82e2eec284f09",
+    "gitblob": "edf638832583ca0a880c13121e05df92d189a3f5",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-908e20ca-2ec3-4cb7-885f-619174ce1eb6.png",
+  "imagegen_wait_seconds": 36.648,
+  "editing_wait_seconds": 0,
+  "review_result": "PASS_WITH_LIMITATIONS"
 }

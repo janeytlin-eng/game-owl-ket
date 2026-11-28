@@ -25,11 +25,15 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-28T09:44:24.430Z"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-28T09:44:46.106Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0929Z-cycle2-20261128T0929Z-165-ninox-punctulata-v9.json",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "research": "Access2026-11-28. Reuse MIKKOLA-2013 HeimoMikkola2013 uploadedprinted485/PDF487 actualread: adult darkbrowniris/greenyellowbill/darkbrownface/whitebrows+throat; yellowgraytoes/darkhornclaws. Sexsizepoorlysampled, noheightfraction. Darkbrownmesoptile differentfromadult; adultwing/tailtype mentioned butindividualdevelopmentnotdated. V8adultiris warmamberinrender, boundedpigmentdarkeningonly adults. Reuse SPBO-OCONNELL-ETAL-2022-P291-292 DarrenP.O'Connelletal2022 BBOC142(3):278–301 DOI10.25226/bboc.v142i3.2022.a2 actualauthorfulltext https://www.academia.edu/87339609/Breeding_records_of_the_birds_of_south_east_Sulawesi_Indonesia_a_collation_of_observations_encompassing_nearly_20_years_of_research_in_Wallacea speciesparagraphprinted291/Fig3Acaption292read: Buton8Aug2013young at treebase/possiblyfallen, village thenreturnedsameday. Notadultiris corroboration, notpicturedage or nesttype. Historicalphoto166retainsnotfreshpixelclaim. OldNoctuapunctulata→Ninoxpunctulata. JoelSartore BIR07000356 https://www.joelsartore.com/bir070-00356/ metadataactualreadcaption20 only privatecollectionIndonesia; age/dateunknown/pixelsnotviewed, notirisvalidation, noimagecopied. Genericsearchyelloweyeclaims fromlowqualitysitesnotadopted overguide. New0/reuse2 biologicalsources; Sartoremetadataonlyleadexcludednewcount. Youngiris/bill/flight remainunverified, noadultpigmenttransfer.",
   "full_prompt": "Precise-object-edit: #165 Ninox punctulata v8 plate. Change ONLY the visible iris pigment of BOTH ADULT owls from warm amber/orange-brown to very dark chocolate brown. Keep black pupil, eye shape and small natural catchlight, make iris distinguishable as dark brown without glowing yellow/orange. Do not change centre juvenile eyes/bill/body or its age uncertainty. Preserve adultwhitepatterns, bill, anatomy, sizes, feet, juvenile/root support, environment/type/layout/labels and all uncertainty text. Update titlev8 to v9. No other changes.",
   "source_ids": [
@@ -52,5 +56,8 @@
   "review_result": "PASS_WITH_LIMITS",
   "review": "Actualv9 viewed versusv8: adultirises nowdarkchocolatebrownwithretainedpupil/catchlights, brightamberringremoved. Young eyes/palette preservednotadulttransfer. LocaladultiriscolourPASS_WITH_LIMITS only; no absoluteRGB or agedjuvenileinference. Whitepatterns/bill/feet/tarsalboundary/forestrootcontact/textv9/uncertaintyfooter intact. Juvenilefuzzylooptexture and chronologicalbareparts remainunresolved, no nest/flightclaim. Lesson: constrain pigmentareaandageclass, ratherwholeeyedarkeningor specieswidejuvenilefill. Appliedandvisiblethispair; other Ninoxyelloweyedtaxa notchanged. Originalsource guide's sparse sexsizemeasurement notbasisfornewratio. Priorv8 retained.",
   "reviewed_at": "2026-11-28T09:44:19.540Z",
-  "archived_at": "2026-11-28T09:44:24.406Z"
+  "archived_at": "2026-11-28T09:44:24.406Z",
+  "archive_commit": "721cc54675de2dd3c9a50570d3b4020c9b97c985",
+  "ended_at": "2026-11-28T09:44:46.082Z",
+  "verification_exit_code": 0
 }

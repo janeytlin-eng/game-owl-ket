@@ -13,16 +13,33 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T05:42:30.704Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T05:43:35.986Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0533Z-cycle1-20261128T0533Z-137-otus-alfredi-v11.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Access2026-11-28. FLO-WIDODO-1999 WidodoW/CoxJH/RasmussenPC1999 Forktail15:15–23 original https://static1.squarespace.com/static/5c1a9e03f407b482a158da87/t/5c1fc23b2b6a282c991de675/1545585212532/Widodo-Flores.pdf freshactualexternalbodyread pp15/17/Table2pp18–19: rictalbristleslongprofuse RUF OUSdarkertips; sourcefacts also supportscalyneck/whitediamonds/whitefinevermicbelly,noblackshafts. V10adultstrandslight/white; boundedbristlepigmentrepair only. MIKKOLA-2013 uploadedHeimoMikkola2013printed184/PDF186actualread nosexsizedata/longauriculars/cinnamonface/orangeyellowbillandpaleclaws; juvenilestagealreadyformedwingtail preserved, book1995vsprimary1994/quartervsprimarythirdtarsusconflictretainednotedited. OldPisorhinaalfredi→Otusalfredi. New0/reuse2, no newageflightnest orsexsizeclaim.",
   "full_prompt": "Precise-object-edit #137v10→v11 scientificpetconcept. ONLY BOTH ADULT long rictal bristles/auricular filaments near beak and cheeks: change brightwhitish strands to R U F O U S with subtly darkerbrown TIPS, preservinglongprofusefilamentlengthandpositions. Do notaddblackfacialrim. Keep alladultotherpigment/whitebrow/crownwhitevermics/side-neckscalefeathers/upperbreastwhitediamonds/recentwhitebellyfinevermics/yellowiris-pinkrim/orangeyellowbill-feet-claws SAME. Entire centraljuvenile untouched includingformedwingtail/sexhistorical/ageunknown. Forest/branch/feetcontacts/labels exceptversion unchanged. No sexsizeguess.",
   "source_ids": [
     "FLO-WIDODO-1999",
     "MIKKOLA-2013"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "image_metadata": {
+    "bytes": 2541292,
+    "sha256": "1421ac7f5bea29106c003aa986c6abc95752b2c9a56c5d22f3eff286793d2205",
+    "gitblob": "ce35949a812d30388ad5e6c6f495b1ab3b81ef4a",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-70ad9f52-6e29-4ebb-a313-651a04290e9f.png",
+  "imagegen_wait_seconds": 34.61,
+  "editing_wait_seconds": 0,
+  "review_result": "PASS_WITH_LIMITATIONS"
 }

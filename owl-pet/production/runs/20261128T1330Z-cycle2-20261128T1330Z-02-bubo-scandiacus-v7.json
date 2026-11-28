@@ -33,11 +33,15 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-28T13:47:33.818Z"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-28T13:47:49.925Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T1330Z-cycle2-20261128T1330Z-02-bubo-scandiacus-v7.json",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "research": "复用SNO-HOLT-GRAY-MAPLES-KORTE-2016 DOI10.3356/rapt-50-02-131-143.1，2016JRR50:131–143；本轮外部检索原论文Table3/摘要线索，全文PDF未新读，不把搜索当全文。复用SNO-ORI-2022GUIDE https://www.owlresearchinstitute.org/snowy-owl-photo-guide 本轮实际打开原机构照片指南Stage3/4正文：灰mesoptile、14d羽管起、15–21d飞羽出鞘/尾羽管出现/eggtooth消失，时序区间非固定日。历史图鉴SNO-MIK2013-258-261成人白雄斑雌/羽趾/黑喙爪方向沿用，不新读图鉴冒充本轮新证据。旧Nycteascandiaca→Buboscandiacus。v6实际看中央明显闭环卷毛；本轮限定材质/保守低伏姿态设计、不增加成熟翼羽、不推幼鸟性别。撤数值日龄避免生成断龄。新0复用2主来源+1历史图鉴。",
   "full_prompt": "Use case precise-object-edit. #02 Snowy Owl Bubo scandiacus v7. Edit ONLY central nestling texture and subtle resting posture, preserve both adults and open arctic tundra mound. Replace conspicuous closed curly yarn/oval loop shapes with naturally irregular short gray mesoptile down filaments. Keep charcoalgray juvenile body, open eyes with iris uncalibrated, white developing footfeathers, tiny short sheathed wingprimaries only, no adultwhitewing panels or long remiges/tail. Chick leans gently forward with head slightly lower but alert, belly and heels touching same firm ground both feet stable, not walking/jumping/flying. No extremeheadtilt. Adult male mostlywhite and female barred/near equal height unchanged; blackbill whitefeatheredfeet and claws. Replace numerical15–21day label with 'GRAY MESOPTILE NESTLING · AGE NOT CALIBRATED'. Header '#02 SNOWY OWL · v7', scientificname same. Footer 'CONCEPT · SCIENCE PENDING'. No nestconstruction/extra birds.",
   "source_ids": [
@@ -73,5 +77,8 @@
   "review_result": "NEEDS_REVISION",
   "review": "实际初图/二编整图查看：低伏支撑及非数值年龄标签落实，成人白雄斑雌/白羽趾/黑喙爪不变，幼鸟灰mesoptile/短sheath无成熟翼/无飞行仍在。但二编后长丝变短部分，闭环/曲纤维仍遍布冠与胸，材质目标未完成，NEEDS_REVISION/sciencefalse；图像不能证实羽管长度/精确阶段/虹膜时序。问题—继承target的卷毛；证据—ORI阶段正文不能证明此卷毛；修改—两次限定短直绒；复查—失败保留，不宣称有效。下一轮应先看本种阶段实物像素再排除旧target重建，不能把108/130成功当02已成功。",
   "reviewed_at": "2026-11-28T13:47:28.336Z",
-  "archived_at": "2026-11-28T13:47:33.799Z"
+  "archived_at": "2026-11-28T13:47:33.799Z",
+  "archive_commit": "b8645a4df6ecec3a6031d85fa58cf84e006cb7d6",
+  "ended_at": "2026-11-28T13:47:49.898Z",
+  "verification_exit_code": 0
 }

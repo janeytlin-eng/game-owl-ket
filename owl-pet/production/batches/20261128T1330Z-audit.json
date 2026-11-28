@@ -1,6 +1,5 @@
 {
   "owner": "20261128T1330Z",
-  "evidence_head": "aa7e4733c6dfc0654af2712f035cb58140a709d1",
   "results": [
     {
       "run_id": "20261128T1232Z-130-megascops-koepckeae-v27",
@@ -453,11 +452,8 @@
       "credit_commit": "aa7e4733c6dfc0654af2712f035cb58140a709d1"
     }
   ],
-  "status": "AWAITING_FINAL_READBACK",
-  "source_counts": {
-    "new": 0,
-    "reused_ids": 14,
-    "reference_uses": 15,
-    "corrections": 2
-  }
+  "status": "PASS",
+  "scientific_status": "PARTIAL",
+  "final_receipt": "owl-pet/production/batches/20261128T1330Z-final-readback-receipt.json",
+  "verified_evidence_head": "e52a4cdad161170b1d628a6a46e8ba9225e138e7"
 }

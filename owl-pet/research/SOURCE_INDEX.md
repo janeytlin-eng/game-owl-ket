@@ -9401,3 +9401,8 @@ Access2026-11-28. Reuse NMEE-MIKKOLA-2013-P496 HeimoMikkola2013 uploadedprinted4
 ## 20261128T1028Z 147-ninox-leventisi-v7
 CAMBOO-RASMUSSEN-2012-FORKTAIL 复用：Rasmussen et al.2012 Forktail28:1–20，https://www.asianscientist.com/wp-content/uploads/2012/08/Vocal-divergence-and-new-species.pdf ，访问2026-11-28；本轮针对N.leventisi duet/claws/iris网络检索，实际本地读取原PDF printed15–16/PDF16–17，及p12 Fig6e照片（Hutchinson，Camiguin Sur，2011-06-08）。p16 Remarks报道靠近、相对、前倾，白喉鼓动、翅垂下的低沉快速对唱；本次v6静止正面但白喉膨大，改为有来源的成鸟对唱姿态。原文成年虹膜灰白或极浅黄绿，喙脚芥黄、喙基橄榄，爪主体浅色仅尖深，腹粗横斑。原名广义N.philippensis spilonota（仅Camiguin种群）→N.leventisi。两个博物馆标本均雌，不能据此规定雌雄高度比例。幼鸟资料缺口仍在：中鸟为未核实重建，不宣称科学通过、不赋年龄、飞行或巢位。森林枝上支撑是概念舞台。照片不提供性别或幼鸟发育。来源类型原始分类与野外行为研究，章节Remarks/Diagnosis；新增0/复用1出版物；此次行为应用新验证而非新来源。
 [Research/prompt](species/147-ninox-leventisi-v7.md) · [Review](reviews/147-ninox-leventisi-v7-review.md)
+
+
+## 20261128T1028Z 148-ninox-rumseyi-v7
+复用 CEB-RASMUSSEN-2012-FORKTAIL：Rasmussen et al.2012 Forktail28:1–20，https://www.asianscientist.com/wp-content/uploads/2012/08/Vocal-divergence-and-new-species.pdf ，2026-11-28本地实际读取printed16/PDF17完整Diagnosis及p12 Fig6f（Christian Artuso，Cebu2012-01-03）并查看。成人短白眉、暗耳羽，明显白喉两侧及下方深色边界是原文事实；v6实际图白喉接近横向白项圈，暗侧界偏弱，改为中央边界明确的喉斑。分布旧名N.philippensis spilonota仅Cebu种群→N.rumseyi。成鸟体型中大、腿长来自单模式标本不支持性别比例；腹纹弱斑/短断条可变不统一粗横斑。针对幼鸟羽被及遥测论文外检未取得羽被照片支持：Jakosalem/Collar/Gill旧遥测命中一juvenile仅研究线索，本轮未读正文，不据此推断羽被；旧CEB-JAKOSALEM-COLLAR-GILL-2012不计本轮复用。中央幼鸟保留未核实标记而不新增初生细节；年龄/首飞/巢位未知。枝上为设计支撑。来源原始分类论文/野外影像，p16/p12Fig6f；本次新增0复用1，喉斑形状为有边界的设计应用非毫米还原。
+[Research/prompt](species/148-ninox-rumseyi-v7.md) · [Review](reviews/148-ninox-rumseyi-v7-review.md)

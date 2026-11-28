@@ -17,11 +17,15 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T08:48:45.561Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T08:50:01.964Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0833Z-cycle2-20261128T0833Z-202-ninox-theomacha-v7.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Access2026-11-28. Reuse PBBO-MIKKOLA-2013-P484 HeimoMikkola2013 uploaded printed484/PDF486 actualpage read: nominate darkbrown crown/dorsum, blackishbrown facialdisc withsomewhiteforehead, yellow/goldeneyes, darkyellowishbill/green-graycere, uniformchestnutunderparts, reddishfeatheredtarsi/yellowbrown toes/blackclaws; sexes similar female slightlylarger, no linearratio. Gray nataldown and fluffy dullbrownmesoptile different stages. Reuse PBBO-OWLPAGES-2020 DeaneLewis updated2020-11-07 https://www.owlpages.com/owls/species.php?s=3360 actualexternalIntroduction/Distribution/OriginalDescriptionread: no tufts and NewGuineaislands, no facemorphology or youngtiming text; not corroboration of disc pigment. PBBO-SHARPE-1878-P359 R.B.Sharpe1878 existing original-read record Andei1873 immature chocolate/graydown/rufousbelly retained as history only; current ArchiveOCR URL https://archive.org/download/mittheilungenaus31878kzoo/mittheilungenaus31878kzoo_djvu.txt returned notaccessible through searchtool, nofreshoriginalreadclaimed. Spiloglaux theomacha→Ninox theomacha mainlandnominate scope; do notborrow goldii/rosseliana whitemottling. V6 face similar warmbrown to crown; bounded target blackishbrown facialdisc tonalcontrast with browncrown and chestnutbelow, not208graydisc rule. Juvenileexactage/billiris/flight/nest unknown. New0/reuse2actuallyreadIDs plus1historyonly, originalretrievalerror recorded.",
   "full_prompt": "Use case precise-object-edit. Edit target #202 Ninox theomacha v6 concept plate. Correct ONLY the adult facial disc ground pigment, both adult owls: distinguish a very dark blackish chocolate-brown facial disc around eyes and cheeks from the slightly lighter dark brown crown. Keep small white forehead feathers, gold-yellow eyes and greenish-gray cere/dark yellow bill unchanged. The disc should read dark brown feathers, not pitch-black skin or gray mask; retain delicate feather details/light. Keep crown/back dark brown and underbody chestnut, current slight female fullness, blackclaws/featheredtarsi, young individual's original face and body (young bareparts unknown), perches, forest, all text/layout. Update v6→v7. Preserve nomination and juvenile uncertainty/sciencepending labels. Do not apply the adult disc colour to juvenile or add cross-species gray.",
   "source_ids": [
@@ -31,5 +35,18 @@
   "new_sources": 0,
   "retrieval_errors": [
     "Archive original OCR not accessible through search tool; historical existing source retained as history only"
-  ]
+  ],
+  "image_metadata": {
+    "bytes": 2220390,
+    "sha256": "f8cf22aa92b30d13faba7c345dd926c1a72bb83487a784f6b6918545d3031e3c",
+    "gitblob": "8e23041044f8f8600c4ca2a0031fdf85a75fc8e7",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-6a21a36a-c5d5-4cd6-b21c-3c6509f60843.png",
+  "imagegen_wait_seconds": 39.378,
+  "editing_wait_seconds": 0,
+  "review_result": "PASS_WITH_LIMITS"
 }

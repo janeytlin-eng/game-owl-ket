@@ -1143,3 +1143,7 @@ Actualoutputviewed: adults scapularwhite row muted/intERRUPTEDwithbrown-gaps; sm
 
 ## 20261128T0533Z 95-pulsatrix-melanota-v12
 Actualoutputviewed: brownupperbreastbandnow has subduedpale mottles/indistinctcentralbreak, remainsbroadbrown no whitebib. LocalpigmentPWL, distributionstylizednotmeasured. Throatcollar/spectacles/irises/bill/cere/recenttailbands/youngwhiteheadblackmaskcinnamonbody/support/scale preserved. Youngbodyoverlongfluffytexture remainslimitation; no natalstageorAlbiziaforkassignments. Differentstagefacts stayseparate. Wholegroup scientificfalse/userapprovalnotinherited.
+
+
+## 20261128T0533Z 112-asio-abyssinicus-v18
+First and secondactualoutputsviewed. Smallgraybrownbasepatch suggested, but atplateview cannot confidentlydistinguish truecerepigmentfromlight/shadow; twoeditattempts notverifiedeffective. NEEDS_REVISION rather falsePWL. Blackhookedbill/eyes/shortbrows/darktufts/fullyfeatheredtoes/relativeadultscale/forest/grip preserved. Entirejuvenileage/flightunknown/formedwingtail/knownlooptexture remains. Sourcefactgraybrowncere valid, implementationinspectioninsufficient. Future closeupreviewandregionalmaskdesignbeforemorefullplateedits; discoveredrule notyettested. Do notcallwholeadult/youngsciencepass.

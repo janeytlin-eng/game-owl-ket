@@ -86314,7 +86314,7 @@
     }
   ],
   "ledger_credit_pending": false,
-  "last_verified_commit": "e0c07cf2c75f930004fb0b5381871a819ed6bdc3",
+  "last_verified_commit": "fe9502965d5dbf1cd13cdfbd7042d7a2c7232ad2",
   "completed_cycles": [
     {
       "cycle": 1,
@@ -88482,20 +88482,13 @@
     "next_cycle": 3
   },
   "latest_delivery": {
-    "owner": "20261128T1330Z",
-    "production_cycles": 6,
-    "new_species": 0,
-    "revised_species": 6,
-    "report": "owl-pet/production/batches/20261128T1330Z-six-cycle-review.md",
-    "evidence_head": "aa7e4733c6dfc0654af2712f035cb58140a709d1",
-    "audit": "owl-pet/production/batches/20261128T1330Z-audit.json",
-    "scientific_status": "PARTIAL",
-    "source_new": 0,
-    "source_reused_ids": 14,
-    "source_reference_uses": 15,
-    "source_corrections": 2,
-    "receipt": "owl-pet/production/batches/20261128T1330Z-final-readback-receipt.json",
-    "checked_files": 41
+    "owner": "20261128T1530Z",
+    "report": "owl-pet/production/batches/20261128T1530Z-six-cycle-review.md",
+    "completed_this_invocation": 6,
+    "canonical_species": 207,
+    "concepts": 1536,
+    "readback_head": "fe9502965d5dbf1cd13cdfbd7042d7a2c7232ad2",
+    "at": "2026-11-28T15:50:47.928Z"
   },
   "final_readback_at": "2026-11-28T13:52:24.530Z",
   "last_delivery": {

@@ -955,3 +955,7 @@ Scope: observed application only, not universal validation.
 
 ## 20261128T0000Z 108-otus-rutilus-v13
 Actualv12/v13andlocalfieldphoto viewed. Newbodyrepaint removes most bellyloopgeometry but replacesit with too-long pointed strawlikefilaments versus finecompactsourcegrain. NEEDS_REVISION, not materialrepairpass. Face/iris/lowerlid/darkbill/bodyovality/headfluff/concealedwingtail/support retained, adults/scene/titlev13/footer retained. No knownage/flight/nest/sexratio. SourcefreshFlickrimage403, localcachedphotoactuallyviewed andCommonscaption/date/license corroborated, samephoto notindependent. Lesson changingcurvature alone canlengthen straightfilaments; nextstep mustbound filamentscale anddiffusebase, not claimloopremoval sufficient. Sciencefalse.
+
+
+## 20261128T0000Z 108-otus-rutilus-v14
+Actualv13/v14 viewed: longsharpstrawfilamentsreduced but roundedloop/woollikegeometryreturns onbelly, so NEEDS_REVISION notverifiedgrainrepair. Adultfaces/herringbone/scapularstripe/graybrownbills-feet/darkclaws andunknownstageyoungface/wingtailconcealment/sixfootcontacts/forest/labels retained. Two opposite materialinstructions oscillate longstraightvslooped; stopidenticalmaterialtrial and leaveexplicitqueue, sourceexactmicrogeometry/youngageflightunknown. Thisarchivecyclecomplete doesnotmean speciesbiologypass. Sciencefalse.

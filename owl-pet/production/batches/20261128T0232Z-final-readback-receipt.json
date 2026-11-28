@@ -1,0 +1,595 @@
+{
+  "run_id": "20261128T0232Z",
+  "evidence_head": "cddb559eceac6355d22ae5716714f6dd792607da",
+  "baseline": "3628992f0ec48ead24ff95b092e60e717d94141f",
+  "verified_at": "2026-11-28T03:00:27.628939+00:00",
+  "checked_files": 47,
+  "checks": [
+    {
+      "path": "owl-pet/production/originals/134-megascops-sanctaecatarinae-v14.png",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "196130b5f15c2696c58c063024df9eb28bb0aecf",
+      "bytes": 3042365,
+      "sha256": "e7c962913664e9a77fa5288d70b1e7572c9d222a8d83ee86c603befa59f32068",
+      "actual_bytes": 3042365,
+      "actual_gitblob": "196130b5f15c2696c58c063024df9eb28bb0aecf",
+      "attempts": 1,
+      "status": "PASS",
+      "decoded_size": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/design/concepts/134-megascops-sanctaecatarinae-v14.png",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "196130b5f15c2696c58c063024df9eb28bb0aecf",
+      "bytes": 3042365,
+      "sha256": "e7c962913664e9a77fa5288d70b1e7572c9d222a8d83ee86c603befa59f32068",
+      "actual_bytes": 3042365,
+      "actual_gitblob": "196130b5f15c2696c58c063024df9eb28bb0aecf",
+      "attempts": 1,
+      "status": "PASS",
+      "decoded_size": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/research/species/134-megascops-sanctaecatarinae-v14.md",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "e84ef028df9728ca55f01ea3352fc82d26328853",
+      "bytes": 2540,
+      "actual_bytes": 2540,
+      "actual_gitblob": "e84ef028df9728ca55f01ea3352fc82d26328853",
+      "sha256": "43ca001d51da4a53995e05cff479e7d779aeb2b502004809392d863132c89b94",
+      "attempts": 1,
+      "status": "PASS"
+    },
+    {
+      "path": "owl-pet/research/reviews/134-megascops-sanctaecatarinae-v14-review.md",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "06ee4ceed44798417ffe5b2a4f644590c29f8e4e",
+      "bytes": 887,
+      "actual_bytes": 887,
+      "actual_gitblob": "06ee4ceed44798417ffe5b2a4f644590c29f8e4e",
+      "sha256": "a753cb357c613dc068aa7633dfd89c58af24c06e27e6bd14407aa8646e5117eb",
+      "attempts": 1,
+      "status": "PASS"
+    },
+    {
+      "path": "owl-pet/production/runs/20261128T0130Z-cycle5-20261128T0232Z-134-megascops-sanctaecatarinae-v14.json",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "f735f5f80c99389bdbc17b37a76d492403d35b7f",
+      "bytes": 5188,
+      "actual_bytes": 5188,
+      "actual_gitblob": "f735f5f80c99389bdbc17b37a76d492403d35b7f",
+      "sha256": "d9bace831f44712dbdc7d2797d650843a479b79c4e011537d62b2375175272a1",
+      "attempts": 1,
+      "status": "PASS"
+    },
+    {
+      "path": "owl-pet/production/runs/20261128T0130Z-cycle5-20261128T0232Z-134-megascops-sanctaecatarinae-v14.json",
+      "ref": "fca62629f9e1afdbfda0bd8252999b8ad8012766",
+      "historical_run": true,
+      "target": "134-megascops-sanctaecatarinae-v14",
+      "actual_bytes": 5128,
+      "actual_gitblob": "8a04f9b76125daf09cc2716b921d2a68aad6f829",
+      "sha256": "5cebc86567f81f9cedd44f8210882bc8f09bfc5041ed61003e05b09834e09d44",
+      "attempts": 1,
+      "status": "PASS"
+    },
+    {
+      "path": "owl-pet/production/originals/136-megascops-petersoni-v9.png",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "7ee781513a2158675859d83fa47d038f4e679205",
+      "bytes": 2674207,
+      "sha256": "bd3f89a9df1d570924f60386ae1da539989eccfc6e71e4fd157b97ece517e627",
+      "actual_bytes": 2674207,
+      "actual_gitblob": "7ee781513a2158675859d83fa47d038f4e679205",
+      "attempts": 1,
+      "status": "PASS",
+      "decoded_size": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/design/concepts/136-megascops-petersoni-v9.png",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "7ee781513a2158675859d83fa47d038f4e679205",
+      "bytes": 2674207,
+      "sha256": "bd3f89a9df1d570924f60386ae1da539989eccfc6e71e4fd157b97ece517e627",
+      "actual_bytes": 2674207,
+      "actual_gitblob": "7ee781513a2158675859d83fa47d038f4e679205",
+      "attempts": 1,
+      "status": "PASS",
+      "decoded_size": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/research/species/136-megascops-petersoni-v9.md",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "6c44306c1cf701fbc6966787e318e414f97735f4",
+      "bytes": 2065,
+      "actual_bytes": 2065,
+      "actual_gitblob": "6c44306c1cf701fbc6966787e318e414f97735f4",
+      "sha256": "9887b47b1ed429ac04dedfb7f3aa51ebc7d5931ab537d79c51296b7097192c5d",
+      "attempts": 1,
+      "status": "PASS"
+    },
+    {
+      "path": "owl-pet/research/reviews/136-megascops-petersoni-v9-review.md",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "972e8f239d349fdb07c297ea4859569089970a5d",
+      "bytes": 788,
+      "actual_bytes": 788,
+      "actual_gitblob": "972e8f239d349fdb07c297ea4859569089970a5d",
+      "sha256": "819ba48c845209731a0496aa6a84caa750cf9ff1acb0d27bd3b0adf6b099b822",
+      "attempts": 1,
+      "status": "PASS"
+    },
+    {
+      "path": "owl-pet/production/runs/20261128T0130Z-cycle6-20261128T0232Z-136-megascops-petersoni-v9.json",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "b4543d32bb6159a8deca67774c117abbfeca6324",
+      "bytes": 4407,
+      "actual_bytes": 4407,
+      "actual_gitblob": "b4543d32bb6159a8deca67774c117abbfeca6324",
+      "sha256": "07d5513414ce26e13f95ae7633977492d7e9863639d1ee2770e40e49828d2662",
+      "attempts": 1,
+      "status": "PASS"
+    },
+    {
+      "path": "owl-pet/production/runs/20261128T0130Z-cycle6-20261128T0232Z-136-megascops-petersoni-v9.json",
+      "ref": "704e849ff7b0035cb446bb7518d73ede28f6542a",
+      "historical_run": true,
+      "target": "136-megascops-petersoni-v9",
+      "actual_bytes": 4347,
+      "actual_gitblob": "42f0200c306bd938478d50fbdc8e736b2ca87df8",
+      "sha256": "06bb98be8071158808d7d564f2c5a2dccb22a99a81f7d0cad9cdef0b90b51abf",
+      "attempts": 1,
+      "status": "PASS"
+    },
+    {
+      "path": "owl-pet/production/originals/137-otus-alfredi-v9.png",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "7fefaedc62aa878c2fa73872a8ccd33c3077fa15",
+      "bytes": 2485167,
+      "sha256": "91e209487c620b5f4dea7a0648ad01647d95a51d81d8395fc23761f6f656c721",
+      "actual_bytes": 2485167,
+      "actual_gitblob": "7fefaedc62aa878c2fa73872a8ccd33c3077fa15",
+      "attempts": 1,
+      "status": "PASS",
+      "decoded_size": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/design/concepts/137-otus-alfredi-v9.png",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "7fefaedc62aa878c2fa73872a8ccd33c3077fa15",
+      "bytes": 2485167,
+      "sha256": "91e209487c620b5f4dea7a0648ad01647d95a51d81d8395fc23761f6f656c721",
+      "actual_bytes": 2485167,
+      "actual_gitblob": "7fefaedc62aa878c2fa73872a8ccd33c3077fa15",
+      "attempts": 1,
+      "status": "PASS",
+      "decoded_size": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/research/species/137-otus-alfredi-v9.md",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "cf4eaf0e35c1dd84ea5995c2176a55a2afa827ca",
+      "bytes": 1949,
+      "actual_bytes": 1949,
+      "actual_gitblob": "cf4eaf0e35c1dd84ea5995c2176a55a2afa827ca",
+      "sha256": "e93a16373552208d0813408aa3cd22660a21a4cef50f29c2dcf1b7a57cf015ec",
+      "attempts": 1,
+      "status": "PASS"
+    },
+    {
+      "path": "owl-pet/research/reviews/137-otus-alfredi-v9-review.md",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "9e043d17054907591224b292d557fb834793cab8",
+      "bytes": 814,
+      "actual_bytes": 814,
+      "actual_gitblob": "9e043d17054907591224b292d557fb834793cab8",
+      "sha256": "34bc0217e7575601a3a1dc16dbe1d1a88f7d23b97464908c71063d218b5cd20a",
+      "attempts": 1,
+      "status": "PASS"
+    },
+    {
+      "path": "owl-pet/production/runs/20261128T0232Z-cycle1-20261128T0232Z-137-otus-alfredi-v9.json",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "51d5ca8a339fa9beeff9431ac420fcad090de0ff",
+      "bytes": 4777,
+      "actual_bytes": 4777,
+      "actual_gitblob": "51d5ca8a339fa9beeff9431ac420fcad090de0ff",
+      "sha256": "8040ec90ddf26cc2d5e42f59855fa947f1e8832cfde1a4bf39cfb48738107c6b",
+      "attempts": 1,
+      "status": "PASS"
+    },
+    {
+      "path": "owl-pet/production/runs/20261128T0232Z-cycle1-20261128T0232Z-137-otus-alfredi-v9.json",
+      "ref": "6d8c10998473021bf34dabaf7912a27241439a09",
+      "historical_run": true,
+      "target": "137-otus-alfredi-v9",
+      "actual_bytes": 4717,
+      "actual_gitblob": "95847c5d4a9b40df11b6ebc70aa4183c7a93e86e",
+      "sha256": "8d79d2736cf1c3ca7fea7760cdf0f9e4b888e41fd4faabc0eb4a6c92d8aa6929",
+      "attempts": 1,
+      "status": "PASS"
+    },
+    {
+      "path": "owl-pet/production/originals/132-strix-davidi-v8.png",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "c2a07060b4dfdab551c4fd041739f0785a38954e",
+      "bytes": 2538644,
+      "sha256": "229f2e297f4ddd3a8298d9cfc7a10b9024687752376e3cf9d9a14711eb50741a",
+      "actual_bytes": 2538644,
+      "actual_gitblob": "c2a07060b4dfdab551c4fd041739f0785a38954e",
+      "attempts": 1,
+      "status": "PASS",
+      "decoded_size": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/design/concepts/132-strix-davidi-v8.png",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "c2a07060b4dfdab551c4fd041739f0785a38954e",
+      "bytes": 2538644,
+      "sha256": "229f2e297f4ddd3a8298d9cfc7a10b9024687752376e3cf9d9a14711eb50741a",
+      "actual_bytes": 2538644,
+      "actual_gitblob": "c2a07060b4dfdab551c4fd041739f0785a38954e",
+      "attempts": 1,
+      "status": "PASS",
+      "decoded_size": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/research/species/132-strix-davidi-v8.md",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "4118017676fc1ef8754b9a3368a81183a87c2f67",
+      "bytes": 2699,
+      "actual_bytes": 2699,
+      "actual_gitblob": "4118017676fc1ef8754b9a3368a81183a87c2f67",
+      "sha256": "263cfa8b990a14ea7378359a669d4a169a1629579fe61e7abda076730e0ccfd4",
+      "attempts": 1,
+      "status": "PASS"
+    },
+    {
+      "path": "owl-pet/research/reviews/132-strix-davidi-v8-review.md",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "f24d64f68c61bff6447effee411c1469d9f09c1a",
+      "bytes": 940,
+      "actual_bytes": 940,
+      "actual_gitblob": "f24d64f68c61bff6447effee411c1469d9f09c1a",
+      "sha256": "0e6b048cd839e0f236ac1cd1c610448f4511f0a2c1e1497e04eb9c4fcbac84a3",
+      "attempts": 1,
+      "status": "PASS"
+    },
+    {
+      "path": "owl-pet/production/runs/20261128T0232Z-cycle2-20261128T0232Z-132-strix-davidi-v8.json",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "4d67db5d936faba549f3dc1d5ce830240ae447d8",
+      "bytes": 5209,
+      "actual_bytes": 5209,
+      "actual_gitblob": "4d67db5d936faba549f3dc1d5ce830240ae447d8",
+      "sha256": "ebb8f92e2fa1f66a8bfc86c511a51139eb23db90d3a3c612bcafb0f01d031a1c",
+      "attempts": 1,
+      "status": "PASS"
+    },
+    {
+      "path": "owl-pet/production/runs/20261128T0232Z-cycle2-20261128T0232Z-132-strix-davidi-v8.json",
+      "ref": "f3cfbc4d97aa38b221948ae7717e65e3316630c1",
+      "historical_run": true,
+      "target": "132-strix-davidi-v8",
+      "actual_bytes": 5149,
+      "actual_gitblob": "cf720575ca9e1dd8f90367fdf748d6ed1f2dbfe5",
+      "sha256": "49e7c9e042887dd3aeeec6ebc2f56fb9127a044c758b1a571feb81abb22353f8",
+      "attempts": 1,
+      "status": "PASS"
+    },
+    {
+      "path": "owl-pet/production/originals/95-pulsatrix-melanota-v10.png",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "71a36c0df0c9c883a9a2ead497ba4adf82f504d6",
+      "bytes": 2349151,
+      "sha256": "b514a2f8d445a47c77d2685bf575059d3beb63195628f77318f274eb57b7e4d1",
+      "actual_bytes": 2349151,
+      "actual_gitblob": "71a36c0df0c9c883a9a2ead497ba4adf82f504d6",
+      "attempts": 1,
+      "status": "PASS",
+      "decoded_size": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/design/concepts/95-pulsatrix-melanota-v10.png",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "71a36c0df0c9c883a9a2ead497ba4adf82f504d6",
+      "bytes": 2349151,
+      "sha256": "b514a2f8d445a47c77d2685bf575059d3beb63195628f77318f274eb57b7e4d1",
+      "actual_bytes": 2349151,
+      "actual_gitblob": "71a36c0df0c9c883a9a2ead497ba4adf82f504d6",
+      "attempts": 1,
+      "status": "PASS",
+      "decoded_size": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/research/species/95-pulsatrix-melanota-v10.md",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "16d12efd71aca1ed70deaa658e5929bd94b5a275",
+      "bytes": 2355,
+      "actual_bytes": 2355,
+      "actual_gitblob": "16d12efd71aca1ed70deaa658e5929bd94b5a275",
+      "sha256": "34a0cea3bd11b948ff1a8ece99e9a0942ec448baf4f61ab04df13141f61ef04d",
+      "attempts": 1,
+      "status": "PASS"
+    },
+    {
+      "path": "owl-pet/research/reviews/95-pulsatrix-melanota-v10-review.md",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "647afb00bba93e628b1d35e16d428575ecf79b4c",
+      "bytes": 909,
+      "actual_bytes": 909,
+      "actual_gitblob": "647afb00bba93e628b1d35e16d428575ecf79b4c",
+      "sha256": "b4e58844ee868d47f22b19217e65b24bb8bd35de3ddf5324e8bf94ab19463351",
+      "attempts": 1,
+      "status": "PASS"
+    },
+    {
+      "path": "owl-pet/production/runs/20261128T0232Z-cycle3-20261128T0232Z-95-pulsatrix-melanota-v10.json",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "63286b7552a83e55d0826c27ae93de0cabbea3a0",
+      "bytes": 4824,
+      "actual_bytes": 4824,
+      "actual_gitblob": "63286b7552a83e55d0826c27ae93de0cabbea3a0",
+      "sha256": "79156dc1ebf4b6d1abe442c801d4508c6f46d96655cb83d453471c8e4923986c",
+      "attempts": 1,
+      "status": "PASS"
+    },
+    {
+      "path": "owl-pet/production/runs/20261128T0232Z-cycle3-20261128T0232Z-95-pulsatrix-melanota-v10.json",
+      "ref": "d22546bc63c291e344ea4202721a1f31e38d0c59",
+      "historical_run": true,
+      "target": "95-pulsatrix-melanota-v10",
+      "actual_bytes": 4764,
+      "actual_gitblob": "ee45339b2cc086f3a6ebed683a581afd03db6840",
+      "sha256": "0f980c2c156dbea3ae944be76337c4ce0f6676359e09c2fc4feb7f38f56a5dd0",
+      "attempts": 1,
+      "status": "PASS"
+    },
+    {
+      "path": "owl-pet/production/originals/85-otus-semitorques-v12.png",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "a0d79daac7d9949fb94a937f197dbd506a610958",
+      "bytes": 2776913,
+      "sha256": "9442cc35a6069244b20f78f94ae18cc145b0eca7a0e1fb124cce52fe5f8b2b9b",
+      "actual_bytes": 2776913,
+      "actual_gitblob": "a0d79daac7d9949fb94a937f197dbd506a610958",
+      "attempts": 1,
+      "status": "PASS",
+      "decoded_size": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/design/concepts/85-otus-semitorques-v12.png",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "a0d79daac7d9949fb94a937f197dbd506a610958",
+      "bytes": 2776913,
+      "sha256": "9442cc35a6069244b20f78f94ae18cc145b0eca7a0e1fb124cce52fe5f8b2b9b",
+      "actual_bytes": 2776913,
+      "actual_gitblob": "a0d79daac7d9949fb94a937f197dbd506a610958",
+      "attempts": 1,
+      "status": "PASS",
+      "decoded_size": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/research/species/85-otus-semitorques-v12.md",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "10aeb98d32aa7dbb49f6bf3aa40d8c953a8ef193",
+      "bytes": 2325,
+      "actual_bytes": 2325,
+      "actual_gitblob": "10aeb98d32aa7dbb49f6bf3aa40d8c953a8ef193",
+      "sha256": "a5ebbb4c30f012f9386a47df106896cbe9e4d16c68e4e7993ddfa7d2be12791e",
+      "attempts": 1,
+      "status": "PASS"
+    },
+    {
+      "path": "owl-pet/research/reviews/85-otus-semitorques-v12-review.md",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "068bb3c6ad610d8b13d6960f282e5c5570fc1176",
+      "bytes": 984,
+      "actual_bytes": 984,
+      "actual_gitblob": "068bb3c6ad610d8b13d6960f282e5c5570fc1176",
+      "sha256": "64ef1c76ef94788a9c6816dbd7e648da5416325d71b74ab8471ba8f1890d3bce",
+      "attempts": 1,
+      "status": "PASS"
+    },
+    {
+      "path": "owl-pet/production/runs/20261128T0232Z-cycle4-20261128T0232Z-85-otus-semitorques-v12.json",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "08525d08274993cd2f91e953851d01e76f525262",
+      "bytes": 4855,
+      "actual_bytes": 4855,
+      "actual_gitblob": "08525d08274993cd2f91e953851d01e76f525262",
+      "sha256": "2ebe7e33e9f01020393c9e8ddc8ef4758cf5677b14b7c755b5317a1ff01d140c",
+      "attempts": 1,
+      "status": "PASS"
+    },
+    {
+      "path": "owl-pet/production/runs/20261128T0232Z-cycle4-20261128T0232Z-85-otus-semitorques-v12.json",
+      "ref": "b2f565b220d5bc9104ad2dc12a2249c23f85e785",
+      "historical_run": true,
+      "target": "85-otus-semitorques-v12",
+      "actual_bytes": 4795,
+      "actual_gitblob": "c479674ec35f01d52a7a821bafcd4135c5545d65",
+      "sha256": "511b9712dec27e7089a05ab88e82074fd53947c0769e8dbab05ff3d15c20d5ed",
+      "attempts": 1,
+      "status": "PASS"
+    },
+    {
+      "path": "owl-pet/production/BATCH_STATE.json",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "42674daf008a871541535d89c22f2a30100b2aab",
+      "bytes": 4041611,
+      "actual_bytes": 4041611,
+      "actual_gitblob": "42674daf008a871541535d89c22f2a30100b2aab",
+      "sha256": "1803845540a2d24180c97c858daf3d68512823eafeea7d54e214bedf89f971e5",
+      "attempts": 1,
+      "status": "PASS"
+    },
+    {
+      "path": "owl-pet/design/manifest.json",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "c9e9645a934a7fdbf38473ded0f5a488ae025d34",
+      "bytes": 2321964,
+      "actual_bytes": 2321964,
+      "actual_gitblob": "c9e9645a934a7fdbf38473ded0f5a488ae025d34",
+      "sha256": "7321533a680c48a28e9d572eb759b129cf1a112cc550c1f973f402cf8a424f3a",
+      "attempts": 1,
+      "status": "PASS"
+    },
+    {
+      "path": "owl-pet/research/SOURCE_INDEX.md",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "591c12aac625b166a17febcf6b4c744cc1d8c9c3",
+      "bytes": 1409943,
+      "actual_bytes": 1409943,
+      "actual_gitblob": "591c12aac625b166a17febcf6b4c744cc1d8c9c3",
+      "sha256": "6f5b352ebdb7d15b0fbbf144893f4d11979c7203485a7e7f1fc7a351b655c40d",
+      "attempts": 1,
+      "status": "PASS"
+    },
+    {
+      "path": "owl-pet/production/WORKFLOW_LESSONS.md",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "313c0272d8b44a24f65aea47c3935af7ba06333e",
+      "bytes": 199898,
+      "actual_bytes": 199898,
+      "actual_gitblob": "313c0272d8b44a24f65aea47c3935af7ba06333e",
+      "sha256": "4836a97f96709a4dbd8f9c177eb3254a55c8c3911075258215d35133bef801b5",
+      "attempts": 1,
+      "status": "PASS"
+    },
+    {
+      "path": "owl-pet/production/batches/20261128T0232Z-six-cycle-review.md",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "944a3a1a7824eeb1cf356cb6d3f5a5fb246ed40c",
+      "bytes": 7796,
+      "actual_bytes": 7796,
+      "actual_gitblob": "944a3a1a7824eeb1cf356cb6d3f5a5fb246ed40c",
+      "sha256": "15199c91e4c2c0916aba211cbac9d4327bde39f8ffa551b8259b737a8ec7bb24",
+      "attempts": 1,
+      "status": "PASS"
+    },
+    {
+      "path": "owl-pet/production/batches/20261128T0232Z-audit.json",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "367b3b68296a90fba0a23ede7db3f6db7351e90a",
+      "bytes": 40266,
+      "actual_bytes": 40266,
+      "actual_gitblob": "367b3b68296a90fba0a23ede7db3f6db7351e90a",
+      "sha256": "9195bd2e817e3c3d6e73866542bc902d516430d7174c9c3bd5f9bbab9f460ce1",
+      "attempts": 1,
+      "status": "PASS"
+    },
+    {
+      "path": "owl-pet/design/concepts/25-glaucidium-brasilianum-cactorum-v6.png",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "10508841ef5f6184e8658664615302909765c1dd",
+      "bytes": 2864437,
+      "actual_bytes": 2864437,
+      "actual_gitblob": "10508841ef5f6184e8658664615302909765c1dd",
+      "sha256": "729c187af12da587305c0c701c07440464896f5a6ada74431dfa3e7b19616ca1",
+      "attempts": 1,
+      "status": "PASS",
+      "decoded_size": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/design/originals/25-glaucidium-brasilianum-cactorum-v6.png",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "10508841ef5f6184e8658664615302909765c1dd",
+      "bytes": 2864437,
+      "actual_bytes": 2864437,
+      "actual_gitblob": "10508841ef5f6184e8658664615302909765c1dd",
+      "sha256": "729c187af12da587305c0c701c07440464896f5a6ada74431dfa3e7b19616ca1",
+      "attempts": 1,
+      "status": "PASS",
+      "decoded_size": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/production/intermediates/20261128T0232Z-137-otus-alfredi-v9-first-attempt.png",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "2cdf3f5473e7908bad14b9e672685aace679336c",
+      "bytes": 2535179,
+      "actual_bytes": 2535179,
+      "actual_gitblob": "2cdf3f5473e7908bad14b9e672685aace679336c",
+      "sha256": "46d9a5a920ac885816afdbe0ed43524282ff59ef2b46c4cf855278b43347bc89",
+      "attempts": 1,
+      "status": "PASS",
+      "decoded_size": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/research/gaps/20261128T0232Z-missing-species.md",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "06bba5be5c8ed4fe0b3dc5062f03059bd4284b7c",
+      "bytes": 2388,
+      "actual_bytes": 2388,
+      "actual_gitblob": "06bba5be5c8ed4fe0b3dc5062f03059bd4284b7c",
+      "sha256": "7c100fa2d16a12fbc39a7a1fbb31d6e02f90b306ea53283d324bae34ff40cee1",
+      "attempts": 1,
+      "status": "PASS"
+    },
+    {
+      "path": "owl-pet/production/intermediates/20261128T0232Z-137-first-attempt.json",
+      "ref": "cddb559eceac6355d22ae5716714f6dd792607da",
+      "gitblob": "58d7d6c053011038de46a90d845ca891d341bb2f",
+      "bytes": 524,
+      "actual_bytes": 524,
+      "actual_gitblob": "58d7d6c053011038de46a90d845ca891d341bb2f",
+      "sha256": "909747b7f440c3c17cf75b2ea9f5ef099b24e981dd7474da6b234c49b8623417",
+      "attempts": 1,
+      "status": "PASS"
+    }
+  ],
+  "status": "PASS",
+  "unique_species": 207,
+  "total": 251,
+  "completed_this_invocation": 6,
+  "current_batch_completed": 4,
+  "next_cycle": 5,
+  "other_partial_batches": 0,
+  "baseline_1448_numbered_concept_blobs_unchanged": true,
+  "verifier_recovery": "legacy entries optional id; exact original manifest prefix preserved"
+}

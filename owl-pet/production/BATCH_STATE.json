@@ -65488,7 +65488,7 @@
   ],
   "active_batch_id": "20261128T0232Z",
   "active_cycle": 5,
-  "current_stage": "VERIFIED",
+  "current_stage": "IDLE",
   "next_cycle": 5,
   "unique_species_count": 207,
   "total_species": 251,
@@ -85571,7 +85571,7 @@
     }
   ],
   "ledger_credit_pending": false,
-  "last_verified_commit": "94a02bef224b98ed769f546e1a0df36c3fca8251",
+  "last_verified_commit": "b2f565b220d5bc9104ad2dc12a2249c23f85e785",
   "completed_cycles": [
     {
       "cycle": 1,
@@ -85618,7 +85618,7 @@
     "revised_species_count": 6,
     "scientifically_verified": false
   },
-  "last_verification_commit": "94a02bef224b98ed769f546e1a0df36c3fca8251",
+  "last_verification_commit": "b2f565b220d5bc9104ad2dc12a2249c23f85e785",
   "timestamps": {
     "RESEARCH_READY": "2026-11-08T03:43:01+08:00",
     "IMAGE_GENERATED": "2026-11-08T03:44:43+08:00",
@@ -86792,7 +86792,7 @@
       }
     }
   ],
-  "last_archive_commit": "b6aafe7bf42f1a87e30f84dea871dca468108d84",
+  "last_archive_commit": "401d0e1b76bff763f967a2f787ab2cd411b0b1d9",
   "active": false,
   "phase_events": [
     {
@@ -87727,31 +87727,33 @@
     },
     "rule": "first two scientificnamefields; versions/duplicateIDs/subspeciesnotnew species"
   },
-  "next_action": "Resume20261128T0030Zcycle5; evidence-specificcorrections/gaps/251roster, avoididenticalfailedmaterialedits.",
+  "next_action": "Resume 20261128T0232Z cycle5; 207/251 coverage, two cycles remain in current batch.",
   "last_invocation": {
     "run_id": "20261128T0232Z",
     "started_at": "2026-11-28T02:31:59Z",
-    "ended_at": "2026-11-28T02:57:41.158Z",
+    "ended_at": "2026-11-28T03:00:56.717Z",
     "completed_cycles": 6,
     "report": "owl-pet/production/batches/20261128T0232Z-six-cycle-review.md",
-    "next_cycle": 5
+    "next_cycle": 5,
+    "final_readback_at": "2026-11-28T03:00:27.628939+00:00"
   },
   "latest_delivery": {
-    "report": "owl-pet/production/batches/20261128T0030Z-six-cycle-review.md",
-    "audit": "owl-pet/production/batches/20261128T0030Z-audit.json",
-    "completed_this_invocation": 6,
-    "new_species": 0,
-    "revised_versions": 6,
-    "revised_species": 6,
-    "science_passes": 0,
-    "receipt": "owl-pet/production/batches/20261128T0030Z-final-readback-receipt.json"
+    "run_id": "20261128T0232Z",
+    "completed_cycles": 6,
+    "receipt": "owl-pet/production/batches/20261128T0232Z-final-readback-receipt.json",
+    "evidence_head": "cddb559eceac6355d22ae5716714f6dd792607da",
+    "verification": "PASS",
+    "checked_files": 47,
+    "verified_at": "2026-11-28T03:00:27.628939+00:00"
   },
-  "final_readback_at": "2026-11-28T01:51:09.581337+00:00",
+  "final_readback_at": "2026-11-28T03:00:27.628939+00:00",
   "last_delivery": {
     "run_id": "20261128T0232Z",
     "completed_cycles": 6,
     "receipt": "owl-pet/production/batches/20261128T0232Z-final-readback-receipt.json",
-    "evidence_head": "ac7009f7bccbec89e286beac17b3d67f0cdd448a",
-    "verification": "final readback pending"
+    "evidence_head": "cddb559eceac6355d22ae5716714f6dd792607da",
+    "verification": "PASS",
+    "checked_files": 47,
+    "verified_at": "2026-11-28T03:00:27.628939+00:00"
   }
 }

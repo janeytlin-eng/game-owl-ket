@@ -17,11 +17,15 @@
     {
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-28T17:41:41.430Z"
+    },
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-28T17:41:46.493Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T1632Z-cycle6-20261128T1725Z-24-glaucidium-californicum-v7.json",
-  "stage": "IMAGE_GENERATED",
+  "stage": "RESEARCH_READY",
   "research": "Reuse NPO-ORI-BROAD-2026 actualFacts/Size/Habitat/Nesting https://www.owlresearchinstitute.org/northern-pygmy-owl read2026-11-29 aftertargetedsearch: broadGlaucidiumgnoma account includesCalifornia/Mountainnames, forestedge/cavitycontext; genericyoungspotting conflictsselectedplainmesoptile; no recolour/spotreset. NPO-SCCP-FACTSHEET webopenfailed, searchhitonlythisrun, nofreshbodyclaim; historicalregionalfactsnotnewsource. ReuseMIKKOLA-2013 actualprinted372/PDF374: grayishyellow sparselybristledtoes, dark-tippedgrayishhornclaws, offwhitefeatheredtarsi. Actualv6claws look uniformlyblack; localizedadultclawbasecorrection, notyoungcolorinference. CurrentGlaucidiumcalifornicum vs oldbroadG.gnoma/swarthiregion preserved, no taxonomiccountchange. Femaleaveragewing/masslonger/heaviernotfixedheight; sameexistingdisplayretained. New0/reused2verifiedfamilies, SCCPonlyunverifiedfreshaccess. Exactage/youngiris/flight/feathermap/sexratio/tailbarfinegeometryunknown. Priorcrown/tailcorrectionsretained. Primaryyoungdetailgap notfilledusing adultfacts.",
   "full_prompt": "Precise-object-edit #24 Glaucidium californicum v6. Change ONLY the visible claws on BOTH ADULTS: proximal curved claw material grayish horn, keep sharply dark blackish distal tips. Retain all claw outlines, toe scaly skin, toe counts, bristles and branch gripping locations. Do NOT alter juvenile claws or any other juvenile feature, crown plain, eyes/formedfoldedwings/shorttail/pose unchanged. Preserve both adult entire plumage/falseeyes/tails and incompletewhitebar pattern, eyes/bills/tarsalfeathers/body sizes, forest and mountains/all text/scientificpendingfooter. Exactly3birds same1536x1024 warm naturalhistory style. Do not make claw tips yellow or pale, no geometry or sexratio changes.",
   "source_ids": [
@@ -49,5 +53,6 @@
       ]
     },
     "review": "Full view adultclaws remain nearlyblack, graybase transition too weak to verify."
-  }
+  },
+  "second_edit_prompt": "Local edit only BOTH ADULT owls' visible claws on left/right branches, NOT central young. Make proximal two-thirds of each adult claw a clearly visible medium pale gray-brown horn material, with only distal third blackish pointed tip. Matte horn, not glossy uniform black. Keep every clawoutline/toe contact fixed, yellow toe skin unchanged, no extra digits. Preserve exactly every other part of picture including juvenile, plumage, tails, branches, text, scene, body sizes. Same fieldguide painterlystyle."
 }

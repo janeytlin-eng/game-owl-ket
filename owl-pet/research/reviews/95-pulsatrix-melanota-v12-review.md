@@ -1,0 +1,3 @@
+# Actual review
+Actualoutputviewed: brownupperbreastbandnow has subduedpale mottles/indistinctcentralbreak, remainsbroadbrown no whitebib. LocalpigmentPWL, distributionstylizednotmeasured. Throatcollar/spectacles/irises/bill/cere/recenttailbands/youngwhiteheadblackmaskcinnamonbody/support/scale preserved. Youngbodyoverlongfluffytexture remainslimitation; no natalstageorAlbiziaforkassignments. Differentstagefacts stayseparate. Wholegroup scientificfalse/userapprovalnotinherited.
+{"bytes":2263007,"sha256":"4908ee2074ebf39a397eb13a2012ae3a72c691f5f28c69074ecf5bf466ccaafb","gitblob":"c59a2916f04b2a704e954beaeb00b4931aa934e2","size":[1536,1024]}

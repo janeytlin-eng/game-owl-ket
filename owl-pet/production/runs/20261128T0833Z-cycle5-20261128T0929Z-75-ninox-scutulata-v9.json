@@ -13,6 +13,10 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T09:31:58.303Z"
+    },
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-28T09:32:04.700Z"
     }
   ],
   "scientifically_verified": false,
@@ -25,5 +29,8 @@
     "WHSO-MIKKOLA-2013",
     "SCU-NPARKS-2025"
   ],
-  "new_sources": 0
+  "new_sources": 1,
+  "preflight_errors": [
+    "GitHub fetch raw BATCH_STATE400 too large; successfully read same immutable file via urllib, not connection failure"
+  ]
 }

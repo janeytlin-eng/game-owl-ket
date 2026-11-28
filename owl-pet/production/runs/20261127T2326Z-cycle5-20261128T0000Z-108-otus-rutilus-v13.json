@@ -21,11 +21,15 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T00:02:04.943Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T00:03:37.090Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261127T2326Z-cycle5-20261128T0000Z-108-otus-rutilus-v13.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "2026-11-28 access. Reuse RUT-VASSEN-2013-ANDASIBE-JUV FrankVassen4Dec2013 photo/upload19Jan2014 https://www.flickr.com/photos/42244964@N03/12038858063/ actualfreshcaption/datebodyread and imageopened; easternAndasibe Otusrutilus notsimilarlynamedAsiomadagascariensis, CC BY2 attributionretained. Existingv12 bellycurlswool differfinephotofeathergrain; newstrategybodymaterialrepaintwithoutjustshortening loops. MIKKOLA-2013 HeimoMikkola2013 printed143/PDF145 uploadedactualread: adultbrownmorphherringbone/whiteblackscapularrow/yelloweyes/graybrownbill-feet/darkclaws/featheredtarsi; female+18gmassnotheight, juvenileunknowninthebook. Sourcephotoalreadyidentifiedyoung, noexactday/sex/flight/nestproof; do notinventneonatalfeathersorremoveformedfeatherstagebyrule. OldScopsrutilus→Otusrutilus same251unit. Priorv11/v12failurechecked, this freshrepainttrialnotyetvalidated. New0/reuse2 sourceIDs, sciencefalse.",
   "full_prompt": "Precise-object-edit #108 Otus rutilus v12. Completely repaint ONLY CENTRAL JUVENILE BODY PLUMAGE MATERIAL below its cheeks, from neck to belly. Replace tangled curly wool/rings with dense soft diffuse brown feather mass, composed of fine overlapping short STRAIGHT feather filaments in small irregular downward and outward strokes. No loops, U-shaped scallops, repeated curly outlines, crimped wool or knitted texture. Preserve brown tone and subtle irregular pigment, body volume and oval silhouette, all eye/bill/face pixels, headfluff, concealed folded wings/tail, both supportedfeet. Do not just blur or shorten existing curls: build fresh irregular feather strokes. Bothadult birds and allother scene/labels unchanged, titlev12→v13. Existing documented older unknown-stage juvenile, not newborn. Exact age/flight unknown. This is material repaint, not age change.",
   "source_ids": [
@@ -34,5 +38,18 @@
   ],
   "new_sources": 0,
   "source_access_correction": "FreshFlickrbody/date read but imageURL403; nofreshphotopixelverificationyet. Priorphoto interpretation retained aspriorrecord, notfresh evidence; must resolve via localsource or mirror beforeclaim.",
-  "source_access_resolution": "Actualviewed local cachedproduction1931nov27/108-field.jpg now; Commonsmirror metadata/caption/CCBY2 originalFlickr attribution read at https://commons.wikimedia.org/wiki/File:Juvenile_Madagascar_Scops_Owl_(Otus_rutilus),_Andasibe,_Madagascar.jpg . Samephoto notindependentsource. FreshFlickrimage403 retained. Correctionsappendnoterase priorclaim."
+  "source_access_resolution": "Actualviewed local cachedproduction1931nov27/108-field.jpg now; Commonsmirror metadata/caption/CCBY2 originalFlickr attribution read at https://commons.wikimedia.org/wiki/File:Juvenile_Madagascar_Scops_Owl_(Otus_rutilus),_Andasibe,_Madagascar.jpg . Samephoto notindependentsource. FreshFlickrimage403 retained. Correctionsappendnoterase priorclaim.",
+  "image_metadata": {
+    "bytes": 2653120,
+    "sha256": "b9ba86d7bb3f61807ee4ab33e5ec96202ad11fea3d42da9c8b2fbef645b1699e",
+    "gitblob": "24bfdd31027fc594e3df0ed5c2d010dda3284b6d",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-93f388e9-c731-4217-9e5b-dc1e4bf9bff9.png",
+  "imagegen_wait_seconds": 27.225,
+  "editing_wait_seconds": 0,
+  "review_result": "NEEDS_REVISION"
 }

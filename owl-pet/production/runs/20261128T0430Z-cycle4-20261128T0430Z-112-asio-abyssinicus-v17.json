@@ -17,11 +17,15 @@
     {
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-28T04:46:38.822Z"
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-28T04:46:43.324Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0430Z-cycle4-20261128T0430Z-112-asio-abyssinicus-v17.json",
-  "stage": "IMAGE_GENERATED",
+  "stage": "REVIEWED",
   "research": "Access2026-11-28. Reuse WHSO-MIKKOLA-2013 HeimoMikkola2013actualuploaded508/PDF510 freshread: adult rich tawnybrownface blackbrownruff INCONSPICUOUS SHORT paleeyebrows. V16 pale arcs broad; shortenpigmentonly. Prominentdarktufts/orangeyellowiris/blackbill/graybrowncere/fullyfeatheredtarsiANDtoes/darkhornclaws; onlyslightlyfemaleRSDnotlinearheight. ABY-OWLPAGES-2020-3560 DeaneLewis2020-11-08 https://www.owlpages.com/owls/species.php?s=3560 freshtargetsearchandbodyread58–62, supportsotheradultinvariants, noindependentmeasurement. Sourceconflict: guide sayswithoutdistinctwhitescapulars whileLewismentionsindistinctwhitishrow; doNOTeditshoulder or claimresolved. Juvenilebookundescribed/probablyAotus NOTadopted. OldAsiootusabyssinicus→Asioabyssinicus; olderyoungage/sexflightunknown/looptextureunresolved. New0/reuse2, sciencefalse.",
   "full_prompt": "Precise-object-edit scientificpetconcept #112v16→v17. ONLY BOTH ADULT pale eyebrow pigment: make pale brow marks SHORT and inconspicuous within tawnybrown facialdisc, rather broad creamy sweeping pale arcs aboveeyes. Reduce pale arcs to short mutedbuff smallbrowflecks; keep allfeathergeometry/tuftpositions/darktuftpigment/orangeyelloweyes/blackbill/graybrowncere/darkruff/recenttawnyface unchanged. Entireolderjuvenile including unresolvedbodytexture/formedwingtail/ageunknown exactlyunchanged. Adultfullyfeatheredtoes/feetgrip/claws/relativeheight/forest/labels unchanged, onlyversiontext. No scapularpatchchange, no other-species juvenile borrowing.",
   "source_ids": [
@@ -41,5 +45,7 @@
   "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-a338354b-0444-46fb-abac-aba167d88517.png",
   "imagegen_wait_seconds": 32.547,
   "editing_wait_seconds": 0,
-  "review_result": "PASS_WITH_LIMITATIONS"
+  "review_result": "PASS_WITH_LIMITATIONS",
+  "review": "Actualoutputviewed: adultcreamybrowarcsreduced to shortsubduedbuffmarks, tawnyface/darkruff/darktufts/irises/bill/feetfeathers retained. LocalbrowpigmentPWL, notwholeplumagevalidated. Juvenileentiregeometry/formedwingtail/ageunknown and unresolvedloopmaterialunchanged, notborrowAotus. Forestsupport/naturalgrip/scale preserved. Scapularsourceconflict explicitlyretained unchanged. Revisitv16confirmationonlylocalbrowissue; do notconvertadultsuccessintoyoungrepair.",
+  "reviewed_at": "2026-11-28T04:46:43.309Z"
 }

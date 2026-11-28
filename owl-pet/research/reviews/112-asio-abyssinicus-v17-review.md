@@ -1,0 +1,3 @@
+# Actual review
+Actualoutputviewed: adultcreamybrowarcsreduced to shortsubduedbuffmarks, tawnyface/darkruff/darktufts/irises/bill/feetfeathers retained. LocalbrowpigmentPWL, notwholeplumagevalidated. Juvenileentiregeometry/formedwingtail/ageunknown and unresolvedloopmaterialunchanged, notborrowAotus. Forestsupport/naturalgrip/scale preserved. Scapularsourceconflict explicitlyretained unchanged. Revisitv16confirmationonlylocalbrowissue; do notconvertadultsuccessintoyoungrepair.
+{"bytes":2591856,"sha256":"c9a7f21b215052d80ef44650f5ed34f51104f3ab14a85825c4eafc4928201b8b","gitblob":"70f300988d4620f1d4e89053c9328016dca8bcdb","size":[1536,1024]}

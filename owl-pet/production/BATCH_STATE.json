@@ -65486,8 +65486,8 @@
       }
     }
   ],
-  "active_batch_id": "20261128T0030Z",
-  "active_cycle": 4,
+  "active_batch_id": "20261128T0232Z",
+  "active_cycle": 5,
   "current_stage": "VERIFIED",
   "next_cycle": 5,
   "unique_species_count": 207,
@@ -76155,7 +76155,7 @@
     }
   ],
   "last_completed_batch_id": "20261128T0000Z",
-  "active_batch": "20261128T0030Z",
+  "active_batch": "20261128T0232Z",
   "events": [
     {
       "batch_id": "20261105T183434+0800",
@@ -87717,9 +87717,9 @@
   },
   "unique_species_count_recomputed": 207,
   "unique_species_count_recomputed_basis": {
-    "head": "3b2a52a6b94ea7af39941ae3efb76da6bbd8c5c3",
+    "head": "ac7009f7bccbec89e286beac17b3d67f0cdd448a",
     "truncated": false,
-    "numbered_png_jpg_versions": 1412,
+    "numbered_png_jpg_versions": 1454,
     "unique": 207,
     "total": 251,
     "aliases": {
@@ -87729,13 +87729,12 @@
   },
   "next_action": "Resume20261128T0030Zcycle5; evidence-specificcorrections/gaps/251roster, avoididenticalfailedmaterialedits.",
   "last_invocation": {
-    "run_id": "20261128T0030Z",
-    "started_at": "2026-11-28T00:29:33Z",
-    "ended_at": "2026-11-28T00:51:47.751Z",
+    "run_id": "20261128T0232Z",
+    "started_at": "2026-11-28T02:31:59Z",
+    "ended_at": "2026-11-28T02:57:41.158Z",
     "completed_cycles": 6,
-    "report": "owl-pet/production/batches/20261128T0030Z-six-cycle-review.md",
-    "next_cycle": 5,
-    "final_readback_at": "2026-11-28T00:53:08.370567+00:00"
+    "report": "owl-pet/production/batches/20261128T0232Z-six-cycle-review.md",
+    "next_cycle": 5
   },
   "latest_delivery": {
     "report": "owl-pet/production/batches/20261128T0030Z-six-cycle-review.md",
@@ -87749,9 +87748,10 @@
   },
   "final_readback_at": "2026-11-28T01:51:09.581337+00:00",
   "last_delivery": {
-    "run_id": "20261128T0130Z",
+    "run_id": "20261128T0232Z",
     "completed_cycles": 6,
-    "receipt": "owl-pet/production/batches/20261128T0130Z-final-readback-receipt.json",
-    "evidence_head": "041cdbc10f6b0cd67995b003c87694ef4c5be60f"
+    "receipt": "owl-pet/production/batches/20261128T0232Z-final-readback-receipt.json",
+    "evidence_head": "ac7009f7bccbec89e286beac17b3d67f0cdd448a",
+    "verification": "final readback pending"
   }
 }

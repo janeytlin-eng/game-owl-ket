@@ -13,15 +13,32 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T06:43:07.699Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T06:44:25.022Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0628Z-cycle2-20261128T0628Z-201-otus-mantananensis-v15.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "2026-11-28 active external search for O. mantananensis feet/juveniles; actually read Commons photo page https://commons.wikimedia.org/wiki/File:Otus_mantananensis_mantanensis.jpg (Allan Barredo attribution, uploader Chetatata; date9Sep2021, Palawan caption, CC BY-SA4.0). New lead MANT-BARREDO-2021-COMMONS: METADATA ONLY, source pixels download403; no visual foot-color corroboration claimed. Fresh Marshall monograph URL https://sora.unm.edu/sites/default/files/journals/om/om025.pdf redirects to generic SORA, does not expose article; existing MANT-MARSHALL-1978-P14-15 retained as prior-read record, not fresh article. Reused MANT-MIKKOLA-2013-P199-200-MIRROR (same uploaded Mikkola2013 printed199–200/PDF201–202 actually reread): adult heavily feathered tarsus, narrow bare zone and light grey-brown toes with dark horn claws, yellow eyes/gray-horn bill/dark ruff; no sexual size data/young unknown. Actualv14 has conspicuous pink tint in adult bare toe skin, proposed gray-brown instead, unlike119yellow toes. This is source-specific muted hue not calibrated RGB. Preserve mixed-population warning nominate adults/romblonis young and all unsupported juvenile age/iris/plumage/flight caveats; no parenthood claim. Old Scops mantananensis maps Otus mantananensis. New verified0, reused1 freshlyread, new unverified-photo-pixels lead1 with actual metadata and403; source limitation recorded rather than filling young gap.",
   "full_prompt": "Edit #201 Mantanani Scops Owl v14 trio plate. ONLY BOTH ADULTS' bare toe and narrow exposed ankle skin: remove their rose-pink blush and give a muted light grayish-brown taupe natural scaled skin. Keep all scales and toe geometry/blackish horn claws and exact branch grips; no yellow/orange/bright pink toes. Heavily feathered tarsi and narrow bare transition remain unchanged. Entire central sleeping juvenile unchanged including its feet; no adult-to-young color extrapolation. Preserve right adult 3/4 back pose and yellow eye/gray-horn bill, both adults' plumage and size, all labels and island forest. Title v14 -> v15. Retain ADULTS NOMINATE · YOUNG REFERENCE ROMBLONIS and SCIENTIFIC CALIBRATION PENDING · YOUNG AGE / PLUMAGE / IRIS / FLIGHT UNVERIFIED. Same3Dpetstyle; not new species/sexsizeclaim.",
   "source_ids": [
     "MANT-MIKKOLA-2013-P199-200-MIRROR"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "image_metadata": {
+    "bytes": 2462015,
+    "sha256": "325aa46acd4fca3625b29c52314497f734c61dab81d6ee106ba510f877794c37",
+    "gitblob": "e87dbba800d900503422b782280a3dedba15851e",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-1d7978aa-9d23-4707-8c6d-14d0eab07d60.png",
+  "imagegen_wait_seconds": 32.52,
+  "editing_wait_seconds": 0,
+  "review_result": "PASS_WITH_LIMITATIONS"
 }

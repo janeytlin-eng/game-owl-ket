@@ -1,0 +1,3 @@
+# Actual review
+完整实际查看v7：三鸟趾背由长裸灰鳞指变连续短淡brown/buff羽被，趾端角质爪仍裸露、握枝与原趾数/接触保留；adult mosttoe覆盖及youngwellfeathered局部相符。脚底遮挡无法完全判断、不毫米量化羽密度。年龄unknown/粉眼睑暗眼/年轻闭翼/成人羽色近等高/木洞环境保留，未新增日龄飞行断言。整体幼鸟曲丝与羽序未知仍在，科学false，PWL仅趾羽修正。问题—旧review文字wellfeathered但图实际裸趾；证据—BOT对比表及图鉴adultmosttoes；修改—限定趾背，不套Barn裸趾；复查—可见短羽落实。回查v6保留历史错误不追溯通过，后续05系足部需看像素不能只复用摘要。
+{"bytes":2485571,"sha256":"a9750cbf960384e87b7111d953b802a012bfc9e5589bc11afff5a0897c9d1d2f","gitblob":"efb8044a476bce678be245f89e417975d7b00d70","size":[1536,1024]}

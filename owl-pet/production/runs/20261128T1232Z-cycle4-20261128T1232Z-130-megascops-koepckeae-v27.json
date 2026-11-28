@@ -17,11 +17,15 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T13:32:25.442Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T13:33:46.308Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T1232Z-cycle4-20261128T1232Z-130-megascops-koepckeae-v27.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "recovery": {
     "previous_owner": "20261128T1232Z",
     "new_owner": "20261128T1330Z",
@@ -36,5 +40,18 @@
     "KOEP-ALARCON-2023",
     "KOEP-MIK2013-222"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "image_metadata": {
+    "bytes": 2821141,
+    "sha256": "2ee1c7d16859bf198adc1c2897d9351753a2aaa56b7800f1db5822f80c37de45",
+    "gitblob": "b771b2f714acbd807ee00cd5227d0389c595a41a",
+    "size": [
+      1774,
+      887
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-769f3a89-94be-4755-852c-0de83c03834d.png",
+  "imagegen_wait_seconds": 39.223,
+  "editing_wait_seconds": 0,
+  "review_result": "PASS_WITH_LIMITATIONS"
 }

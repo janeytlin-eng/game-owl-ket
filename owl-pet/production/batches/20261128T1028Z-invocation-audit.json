@@ -492,6 +492,12 @@
       "error": "AssertionError STATUS.md due executor audit script Git blob header delimiter escaping",
       "blocking": false,
       "recovery": "Replace ambiguous escaped delimiter with bytes([0]); rerun all45 files, no repository content fault asserted"
+    },
+    {
+      "step": "final_metadata_readback_tracking",
+      "error": "functions.store rejected undefined exit_code while readback exec still running",
+      "blocking": false,
+      "recovery": "existing session5702 polled exit0; report/receipt/audit/ledger all finalreadback PASS at a383c9e565993d7a0437a9f9c298f002bedae801; no repeated generation or cycle credit"
     }
   ],
   "uncertainties": [

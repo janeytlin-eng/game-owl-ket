@@ -52,3 +52,5 @@
 证据提交 [8c78e2ca9cd12f7c449b7ce390e9ecfde38860e5](https://github.com/janeytlin-eng/game-owl-ket/commit/8c78e2ca9cd12f7c449b7ce390e9ecfde38860e5)：45项完整字节读取通过，包括14个PNG路径解码/SHA256、6条历史VERIFIED运行记录。1502旧编号图同blob全部保留，manifest历史1457条完整保留；新编号图1508、规范学名前两段并合pseudoscops-grammicus→asio-grammicus且亚种不重计后207独立物种，非编号数量。非owl-pet修改0。第25组双路径原图2,864,437bytes同blob10508841ef5f6184e8658664615302909765c1dd可访问，未重复制作。
 
 首次集中审计执行脚本误用了Git blob头分隔符的转义，STATUS.md断言失败；改bytes([0])后全部45项重跑通过，属于执行者脚本错误，不是仓库文件故障。没有把失败尝试计成完成。详细校验：[receipt](20261128T1028Z-final-readback-receipt.json)；计时与完整run：[audit](20261128T1028Z-invocation-audit.json)。
+
+最终元数据回读跟踪曾尝试保存尚未返回的exit_code(undefined)，存储拒绝；原回读进程继续完成，已轮询exit0，4份元数据回读通过，未重复出图/计数。此说明增量保留实际错误。

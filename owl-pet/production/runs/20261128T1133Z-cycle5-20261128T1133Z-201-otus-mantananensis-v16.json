@@ -17,11 +17,15 @@
     {
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-28T11:56:03.062Z"
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-28T11:56:09.431Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T1133Z-cycle5-20261128T1133Z-201-otus-mantananensis-v16.json",
-  "stage": "IMAGE_GENERATED",
+  "stage": "REVIEWED",
   "research": "复用MANT-MIKKOLA-2013-P199-200-MIRROR（同上传Mikkola2013）：printed199–200/PDF201–202本轮实际全文相关段和p199成人对照照片读取，IanMerrill Rasa Philippines February nominatepair，细黑雀斑/白肩/胸暗腹淡/黑ruff/灰角喙/羽跗窄裸区灰褐趾，性差无数据；幼鸟Unknown，不替本种补初生。旧Scopsmantananensis→Otusmantananensis。现图成人和耳簇仍塑料碎片，本轮限定成人材质重建及胸腹明暗；中央romblonis未知幼鸟不改，不把不同种群拼图当亲子照片。主动外检及重新读Commons https://commons.wikimedia.org/wiki/File:Otus_mantananensis_mantanensis.jpg （MANT-BARREDO-2021-COMMONS）元数据/许可，未取到本轮照片像素，不用作足色/幼鸟证据，仅线索不计已验证复用；Marshall1978原文前轮重定向失败不声称新读。新增0复用1有效图鉴证据，单书幼鸟缺口仍需原始发育研究；图注保留混种群、未核实羽被/虹膜/年龄/飞行。枝是概念支撑无巢，sciencefalse。",
   "full_prompt": "Use case precise-object-edit. Edit #201 Otus mantananensis v15 to v16, retaining warm polished3D pet concept. REBUILD BOTH OUTER ADULT feather surfaces ONLY as coherent MATTE soft feather VANES, replacing shiny rubber shards/ribbon fragments. Ear tufts are irregular small upright feather bunches, not chunky cut rubber horns. Adult diagnostic pattern from Mikkola nominate pair: graybrown upperparts finely black freckled and mottled, white outer scapular shoulder row, pale underparts finely black peppered, UPPER BREAST noticeably DARKER mottled than pale belly, dark facial ruff, yellow eyes, gray horn bill, heavily feathered tarsi with NARROW bare strip above graybrown toes, dark horn claws. Keep original adult poses/relative sizes/securegrips; no invented female-large ratio. Entire CENTER JUVENILE unchanged including its unknown plumage: this edit does not validate juvenile. Preserve mixed-geography warning 'ADULTS: NOMINATE · YOUNG REFERENCE: ROMBLONIS · COMPARISON CONCEPT, NOT A FAMILY'. Explicit center label 'UNVERIFIED JUVENILE · AGE UNKNOWN'. Adult labels 'ADULT MALE · SEX INFERRED', 'ADULT FEMALE · SEX INFERRED'; title 'MANTANANI SCOPS OWL #201 v16 · Otus mantananensis'. Footer 'SCIENCE PENDING · JUVENILE PLUMAGE / IRIS / AGE / FLIGHT UNVERIFIED'. No nest, no new juvenile ability. Branch support remains.",
   "source_ids": [
@@ -40,5 +44,7 @@
   "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-98f59867-d428-40c0-9318-4a0db6816b51.png",
   "imagegen_wait_seconds": 43.856,
   "editing_wait_seconds": 0,
-  "review_result": "PASS_WITH_LIMITATIONS"
+  "review_result": "PASS_WITH_LIMITATIONS",
+  "review": "实际查看v16：两成人碎胶片面基本替换连续哑光羽片，耳簇是羽束、上胸暗斑比下腹浓、黄眼灰角喙黑ruff和支撑保留；此成人材质/胸腹区域局部改善。中央旧绒羽不改，羽被年龄虹膜/飞行仍UNVERIFIED，保留nominate成人/romblonis幼体混地域对照NOT A FAMILY，不称同家庭实物。枝条仍有旧材料颗粒未解决；成人羽长、性别线性比例非测量，近等大不称事实。新图uncertainty标签准确。问题→成人塑料耳簇羽片；证据→图鉴文字及nominate实物对；修改→仅成人重建；复查→局部有效，中央/环境材质未验证。PWL仅成人，不是整组科学通过，sciencefalse。原v15保留。后续需本种/亚种幼鸟原始证据，不能以成人重建代替发育研究；本轮Commons仅元数据非像素已排除形态证据。",
+  "reviewed_at": "2026-11-28T11:56:09.412Z"
 }

@@ -25,11 +25,15 @@
     {
       "stage": "REVIEWED",
       "at": "2026-11-28T15:43:20.362Z"
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-28T15:43:24.571Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T1435Z-cycle6-20261128T1530Z-14-bubo-virginianus-v7.json",
-  "stage": "REVIEWED",
+  "stage": "ARCHIVED",
   "research": "GHOW-KEEGAN-2020-ARNOLD new stable ID, Brendan Keegan2020-04-30, Life in the Landscape: Great Horned Owls, Harvard Arnold Arboretum, https://arboretum.harvard.edu/stories/life-in-the-landscape-great-horned-owls/ accessed2026-11-28. Originalbodyandcaptionsactuallyread: first-hand2020Bostonartificialnest monitoring, 3wkcontourfeathers/brownwingbars, 4wkyoungexercisepartlysheathedwingsunablefly; notknowncandidateage andnotliteralsticknestgeometry. Photo https://arboretum.harvard.edu/wp-content/uploads/2020/06/DSCN0265-scaled-1.jpg clickreturnedlinkbutlocal403/webimageinaccessible; noactualphotopixelsread. requests alternative unavailable ModuleNotFoundError. Reused Mikkola2013 printed262/PDF264 actuallyread: pale brown/dullyellowmesoptile, faintunderbars/smalltufts; adultdensefeatheredfeet/yelloweyes, sexsimilarplumage/noheightmultiplier. CurrentBubovirginianus/oldStrixvirginiana. Primary1947Gutenbergreopen503 notfreshread. New1/reused1. Designinference: remove conspicuous closedwoolstrings fromyoungcoat, shorter graycream down/emergingpalecontours/faintbars, ageunknown, preserve shortimmaturewing and nestsupport. Exactage/region/sexratio/continuousfeatheratlasunknown, sciencefalse. IfloopsremainmarkNEEDS rather than claimsuccess.",
   "full_prompt": "Precise-object-edit, target #14 Great Horned Owl v6. Change ONLY right nestling coat: replace obvious cream corkscrew/closed wool loops with short natural graycream fluff, soft pale brown emerging contourfeathers and faintsubtle transverse underbars, nonrepeating tinyfeatherbarbs. Roundedhead, barely smalltufts/yelloweyes/darkbill, same tiny developing wing and tail. Preserve feet and lowbody/nestcontact in same sticknest. Keep bothadultbirds entirely unchanged, exactthreebirds, allscales/title/rolelabels/branchgrips/forest/lighting and existing scientificpending/ageunknownfooter. Do not give adultwings/longtail or flightpose.1536x1024 same painterlystyle.",
   "source_ids": [
@@ -61,5 +65,6 @@
   "editing_wait_seconds": 42.078,
   "review_result": "PASS_WITH_LIMITATIONS",
   "review": "Initial/edited1/edited2fullactuallyviewed. Edit1 looptexture retained→secondeditwholecoatrequest: clear closedwoolloopsremovedfromyoungchest/belly, nowshortcontourtufts/faintbars, tinywing/ageunknownlabels/feetnest support preserved. Somefeatheredgetufts repeatedleaflike, naturalmicrotexture/feathersequence notvalidated, no freshsourcephotopixels due403. PASS_WITH_LIMITATIONS grossloopremoval only/sciencefalse; nextscientificreviewneedsrealstagephotocompare. Adultyellowiris/darkbill/tufts/bars/featherfeet/proportions unchanged. Problem→targetloopinheritance; evidence→actualHarvardbodyandguide; edits→1ineffective+1effectivegrosscontour; recheck→macrochangevisiblebutnotknownage/anatomycalibration. Primary503/photo403/localrequestsModuleNotFoundError saved, nottoolwideblock. Lesson: specifycoatstructure replacementratherthanmerelysoftening, appliedhere visuallyeffectiveonce, notuniversalproof.",
-  "reviewed_at": "2026-11-28T15:43:20.351Z"
+  "reviewed_at": "2026-11-28T15:43:20.351Z",
+  "archived_at": "2026-11-28T15:43:24.560Z"
 }

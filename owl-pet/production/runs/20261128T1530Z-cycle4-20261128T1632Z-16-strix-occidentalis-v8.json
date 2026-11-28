@@ -21,11 +21,15 @@
     {
       "stage": "REVIEWED",
       "at": "2026-11-28T16:39:47.605Z"
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-28T16:39:51.910Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T1530Z-cycle4-20261128T1632Z-16-strix-occidentalis-v8.json",
-  "stage": "REVIEWED",
+  "stage": "ARCHIVED",
   "research": "Reuse NSO-FORSMAN EricForsman1976, A Preliminary Investigation of the Spotted Owl in Oregon, OSU MSc thesis (presented1975/published1976), https://andrewsforest.oregonstate.edu/sites/default/files/lter/pubs/pdf/pub1760.pdf accessed2026-11-29. Actual PDF downloaded/textprinted78/PDF108, Fig8–10printed79/PDF109 viewed, Table15printed82/PDF112 read. Source0–10dpostfledgegroup buffbrownmesoptile/nataldownretained, small darkbrown-blackfacialdisc, pinkcere/greenbluebill; Fig8real10dpostfledge42–46dknownreportedreference, notthisgeneratedindividual'sage. B&W figure scan heavilythresholded/notvalidcolor orfinebarbcalibration; pixelsaccess upgrade notnewsource. Juvenileformedremiges coexistmesoptile; no genericwingstripping. Reuse Mikkola2013 printed342/PDF344 actuallyread: adultdarkeyes/graybrownbill/yellowhorncere, bodyspotted/lightbars; juvenilemesoptile faintbars, noheadtufts, adultfemaleaverage80gheavier notheightformula. Adultbillaccountconflictretained fromearlierrecords, notresolvedbyyoungfaceedit. CurrentSoccidentaliscaurina Oregoncontext; oldSyrniumoccidentale. Actualv7youngdisc comparativelylarge/warmadultlike; edit onlyyoungmask tocompactsmalldarkerface surroundedbymesoptile, preserveallwing/footstance/twosupportcontacts andexistingageunknownlabel. Targetratioandcoloruncalibrated; longcurlydownelsewhereremainsunknown/notpassed. New0/reused2families; no sciencepass.",
   "full_prompt": "Precise-object-edit. Image1 target #16 Northern Spotted Owl v7 triptych. Image2 historical researchpage, use ONLY left Fig8 toinform younger small dark facialdisc, not layout/colorphotometry. Change ONLY juvenile right face mask: facialdisc more compact/narrower darkbrown-black around eyes and bill, surrounded by fluffybuffbrown head/cheekmesoptile, less broad warmadultlikepaledisc. Preserve both existing dark eyes/pupils and eyeplacements, green-bluebill andpinkcere, roundedhead/noear-tufts, no resizebody. Leave entirebody coat/formedfoldedflightfeathers/tail/footgrips/bothyoungsupportcontacts unchanged. Bothadults allcolor/proportions/feathers/feet unchanged, alltitles/ageunknownscientificpendinglabels/branch/oldgrowthforest/style unchanged. Exactlythreebirds, subtleanatomicallycoherentface alteration only, no exactage.",
   "source_ids": [
@@ -56,5 +60,6 @@
   "editing_wait_seconds": 0,
   "review_result": "PASS_WITH_LIMITATIONS",
   "review": "Fullactualview: rightyoungface morecompact/darkbrown-blackaroundeyes, rim surroundbuffmesoptile, pinkcere/greenbluebill/darkeyes retained; wingformed/tail/twofeetdifferentheightbranchgrips remain, noflightclaim. Adultbody/eyes/bills/feet/scale/oldgrowthscene/ageunknownfooter preserved. PASS_WITH_LIMITATIONS face-directiononly/sciencefalse. Bodylongcurleddown stillunresolved, adultbillgrey-vs-yellowaccountconflict notcorrected, exactage/ratio/naturaltextureunknown. Problem→adultlikebroadpaledisc; evidence→ForsmanTable15+Fig8actualscanview; edit→youngfaceonly; recheck→darkermaskvisible, unable tomeasureareaorcomparecolorfromthresholdedscan. Evidenceaccessupgrade notnewpaper. Lesson: primarytimingtable andphoto supportlimitedface/phasechanges, cannotconvertB&Wscanintocolormicrotexturevalidation orportraitknownage.",
-  "reviewed_at": "2026-11-28T16:39:47.578Z"
+  "reviewed_at": "2026-11-28T16:39:47.578Z",
+  "archived_at": "2026-11-28T16:39:51.885Z"
 }

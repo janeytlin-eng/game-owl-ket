@@ -1343,3 +1343,7 @@ v21整图实际查看：成年及枝条大片塑料碎片已转连续哑光羽�
 
 ## 20261128T1435Z 05-strix-aluco-v7
 完整实际查看v7：三鸟趾背由长裸灰鳞指变连续短淡brown/buff羽被，趾端角质爪仍裸露、握枝与原趾数/接触保留；adult mosttoe覆盖及youngwellfeathered局部相符。脚底遮挡无法完全判断、不毫米量化羽密度。年龄unknown/粉眼睑暗眼/年轻闭翼/成人羽色近等高/木洞环境保留，未新增日龄飞行断言。整体幼鸟曲丝与羽序未知仍在，科学false，PWL仅趾羽修正。问题—旧review文字wellfeathered但图实际裸趾；证据—BOT对比表及图鉴adultmosttoes；修改—限定趾背，不套Barn裸趾；复查—可见短羽落实。回查v6保留历史错误不追溯通过，后续05系足部需看像素不能只复用摘要。
+
+
+## 20261128T1435Z 04-athene-noctua-v7
+初版二编完整实际查看：28day数值撤为ageunknown、male/female sexinferred标签二编恢复；未改变两成人不同脚位的身高/低腹少纹、中央较大young折翼/六脚枝支撑。中央冠顶淡点弱化有限，闭合毛线圈在冠顶/body仍明显，不符合原研究plaincrown的自然微材质期待；NEEDS_REVISION/sciencefalse。不把图鉴mesoptile/环志juvenile混为精确28day，已有formedwing未删。问题—原图年级/数值龄超证据且loop；证据—Blascop1–2及图鉴；修改—crown两次/label；复查—标签修复有效、纹理未解。仅文字边界成功非形态校准成功；下轮需排除旧target/独立本种幼鸟全身参考，不能重复相同词声称迭代有效。

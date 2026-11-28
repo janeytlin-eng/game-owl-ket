@@ -13,11 +13,15 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T07:43:31.973Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T07:44:47.387Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0725Z-cycle4-20261128T0725Z-210-athene-superciliaris-v4.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Access2026-11-28 activewebsearch Athene/Ninox superciliaris bill andyoung; actual original body reads. Reuse ASUP-MIKKOLA-2013-P471 uploaded HeimoMikkola2013 printed471/PDF473 actualpage read: identification whitish-hornbill/paleyellowcere, samepagephoto captiongreenish-yellowbill. Darkbrown adultiris/whiteeyebrows/featheredtarsi/bareyellowwhitetoes/hornclaws; nosexmeasurements. Guidejuvenileundescribed. Reuse ASUP-BOUGLOUAN-WEB NicoleBouglouan undated https://www.oiseaux-birds.com/card-white-browed-hawk-owl.html actualDescription80–89/Reproduction104–110 read: hornbill/paleyellowbrowncere, olderjuvenilenarrowerunderbodybars/brownwhitebarredtail narrowwhitetips/primarytipwhitishfringe. Guide-derived not independent primarydevelopment; its barelegs/plainadulttail statements conflictguide and NOT applied. Reuse ASUP-MNHN-2010-265 MNHNParistypecatalog https://science.mnhn.fr/institution/mnhn/collection/zo/item/2010-265 actualspecimen/determination fieldsread: Strixsuperciliaris1817/Ninoxlabel/currentAthene; sexandageindeterminate/Madagascarbefore1818. Nophotopixelsread orsoftpart calibrationfromdriedspecimen. New0/reuse3. Actualv3 adultbillsyellowgreenwithin onecaption, sourcewordingvaries; do NOT declaregreenwrongorforcehornrepaint. Add 'ADULT BILL COLOUR UNCALIBRATED' and 'SEX SIZE UNKNOWN' toexpose unresolvedcolor/scale boundaries. Disclosureonly, notmorphologicalcorrection/sciencepass. Retainolderimmaturebody/formedwing/whitetips/footgrips, ageiris/billflightunknown; no newnestoractionproof. Sourcefactversusdesign explicit.",
   "full_prompt": "Use case text-localization / annotation-only. Edit #210 White-browed Owl Athene superciliaris v3 trio. Preserve allthreebirds/plumage/anatomy/eye/billcolors, poses, scale, feet and branch grips, tails, woodland and existing roles/footer. Add v4 to main title. Add one clearly readable modest line beneath scientific name within top dark title panel: SEX SIZE UNKNOWN · ADULT BILL COLOUR UNCALIBRATED. Expand panel slightly downward only into empty header space if needed, don't cover any crown. Do NOT repaint adult bills: descriptions vary and exact color not calibrated. Keep existing lowerfooter CONCEPT · SCIENTIFIC CALIBRATION PENDING / OLDER JUVENILE: SECONDARY DESCRIPTION ONLY / JUVENILE AGE / IRIS / BILL / FLIGHT UNVERIFIED readable with all three rolelabels. No new phenotype/dimorphism/juvenileage/flight claim. Same established3Dpet plate look.",
   "source_ids": [
@@ -25,5 +29,18 @@
     "ASUP-BOUGLOUAN-WEB",
     "ASUP-MNHN-2010-265"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "image_metadata": {
+    "bytes": 2684019,
+    "sha256": "00e0dfdee79fa78dc1c75f9882af5ab3f779946f371f3f676bdb50e735d3fc42",
+    "gitblob": "9b3fffa48de1d580922843bbb8a92318a4c3c1a8",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-43e203e8-0db1-4e89-a63a-2361441bb91e.png",
+  "imagegen_wait_seconds": 35.306,
+  "editing_wait_seconds": 0,
+  "review_result": "PASS_WITH_LIMITATIONS"
 }

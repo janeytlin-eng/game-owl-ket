@@ -17,11 +17,15 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T08:38:55.446Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T08:40:23.074Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0725Z-cycle5-20261128T0833Z-108-otus-rutilus-v20.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Access2026-11-28. Reuse RUT-VASSEN-2013-ANDASIBE-JUV, Frank Vassen, photograph4Dec2013 Andasibe, original https://www.flickr.com/photos/42244964@N03/12038858063/ and Commons mirror https://commons.wikimedia.org/wiki/File:Juvenile_Madagascar_Scops_Owl_(Otus_rutilus),_Andasibe,_Madagascar.jpg . Actual external page113–136 read and cached field photo viewed this cycle. CC BY2.0 https://creativecommons.org/licenses/by/2.0/ ; adapted generated concept, not endorsed by photographer. Observed fluffy oval brown-buff juvenile, dark small mask, upright supported perch/profile; age/sex/flight not stated. Reuse MIKKOLA-2013 Heimo Mikkola2013 uploaded guide printed143/PDF145 actually read: adult yellow iris, gray-brown bill/cere, tarsi feathered to toe bases; female average18g heavier MASS, no height ratio; juvenile undescribed. Old Scops rutilus→Otus rutilus. Current design experiment reworks whole juvenile surface/pose rather than repeated smoothing of loops. Source fact is fine irregular down; absence of all curved barbs is a prompt strategy, not biological rule. Nest location/exact juvenile age and flight unknown. Adults retained as established concept, not newly scientifically approved. New0/reuse2 for target.\nPreflight new negative-evidence record NIOS-MADIKA-2011-P98: Buttu Madika, Dadang Dwi Putra, J.B.C.Harris, DingLiYong, F.N.Mallo, A.Rahman, D.M.Prawiradilaga & P.C.Rasmussen2011, An undescribed Ninox hawk owl from the highlands of Central Sulawesi, Indonesia?, BullBOC131(2):94–102, original text mirror https://www.academia.edu/84923280/An_undescribed_Ninox_hawk_owl_from_the_highlands_of_Central_Sulawesi_Indonesia actually read p98. No N.ios juvenile data known to authors; the unknown spotted Central Sulawesi taxon cannot be adopted as juvenile N.ios. Historical evidence gap, not proof no newer observations exist. Current search did not close gap; no N.ios image produced.\nN.obscura preflight: Mikkola printed469/PDF471 actually read juvenile undescribed, sex differences unknown. 2018 DynamicNature blog search lead is unverified/secondary and excluded from design facts. No young figure invented.",
   "full_prompt": "Use case: precise-object-edit. Input1 is the edit target, #108 Otus rutilus v19 concept plate. Input2 is a supporting biological reference photograph by Frank Vassen, 4 Dec2013 Andasibe (CC BY2.0), juvenile age and flight unknown. Rebuild ONLY the centre juvenile and its immediate foot contact, using the photograph's real proportions: tall oval fluffy body, head turned in three-quarter profile right, brown-buff subtly mottled fine down filaments with sparse straight wisps, a darker small facial mask, yellow iris with dark pupil and discreet pink eyelid. Replace the entire artificial looped/woolly feather surface, not just blur it: fine irregular straight feather barbs, NO circles, loops, repeated curls or knitted yarn. Small partly concealed wings, no invented exposed mature primaries, secure two feet on branch. Photo is morphology/pose reference only; do not paste photograph or bring extra objects. Retain established polished stylized 3D pet-art visual language, adults, adult size relationship, forest, gold plaques, typography/layout and support branch. The adult female's average extra mass does not imply a new linear height difference. Header version v20. Bottom text remains CONCEPT · PERCH ONLY · FLIGHT UNVERIFIED · SCIENCE PENDING. Centre label JUVENILE AGE UNKNOWN. No hatchling claim. Preserve other text verbatim.",
   "source_ids": [
@@ -36,5 +40,16 @@
   ],
   "negative_evidence_only": [
     "NIOS-MADIKA-2011-P98"
-  ]
+  ],
+  "first_attempt": {
+    "bytes": 2727609,
+    "sha256": "e1174fc275d6e3883367e0b686546345199e888ff88ef077942a62b6f660e188",
+    "gitblob": "8e4d3eb686f079a6f5f7eeb0370996e87831972b",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "first_review": "Actual view: pose/profile improved but repeated circular loop units still apparent over juvenile. NEEDS_REVISION. Repaint entire down surface, no claimed science pass.",
+  "followup_prompt": "Edit only the central juvenile of this #108 v20 owl plate. The visible repeated circular ring/loop texture over its entire body is a rendering error. Replace it completely with a soft matte down surface made of countless SHORT FINE STRAIGHT irregular feather filaments, like the viewed real field photograph; retain the fluff volume but remove every outlined loop. NO yarn, wool, curls, noodles, circular scallops, glossy 3D scales or netting anywhere on the juvenile. Do not simulate by merely blurring existing rings. Repaint its surface and silhouette from scratch, with natural finer brown-buff mottling and small dark facial area. Preserve head direction, yellow iris, dark beak, supported feet/branch, adults, layout, exact labels, header v20 and science-pending footer unchanged."
 }

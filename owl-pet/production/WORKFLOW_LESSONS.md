@@ -1123,3 +1123,7 @@ First actualoutput heavy diagonal strokes, secondedit actuallyviewed finer short
 
 ## 20261128T0430Z 112-asio-abyssinicus-v17
 Actualoutputviewed: adultcreamybrowarcsreduced to shortsubduedbuffmarks, tawnyface/darkruff/darktufts/irises/bill/feetfeathers retained. LocalbrowpigmentPWL, notwholeplumagevalidated. Juvenileentiregeometry/formedwingtail/ageunknown and unresolvedloopmaterialunchanged, notborrowAotus. Forestsupport/naturalgrip/scale preserved. Scapularsourceconflict explicitlyretained unchanged. Revisitv16confirmationonlylocalbrowissue; do notconvertadultsuccessintoyoungrepair.
+
+
+## 20261128T0533Z 108-otus-rutilus-v19
+First and secondactualoutputsviewed: finerbodyfilaments aftersecondedit, but repeatedoutlinedloops stillremain onneck/belly. NEEDS_REVISION, notvalidatedvolumetricbarbmethod. Photoactualsource muchfiner mottledfeatherplane. Adults/eye/bill/stage/silhouette/threequarterpose/feetgrip/forest/labels preserved visually; no matureflightfeathers or newnest. Unknownage/flight retained. Negative rule: changing surfaceprimitive words did not remove learned leafunits; do not repeat as proven improvement;108/130/112 unresolved.

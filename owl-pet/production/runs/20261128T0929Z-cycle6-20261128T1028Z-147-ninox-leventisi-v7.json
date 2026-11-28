@@ -17,11 +17,15 @@
     {
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-28T10:37:11.466Z"
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-28T10:37:16.466Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0929Z-cycle6-20261128T1028Z-147-ninox-leventisi-v7.json",
-  "stage": "IMAGE_GENERATED",
+  "stage": "REVIEWED",
   "research": "CAMBOO-RASMUSSEN-2012-FORKTAIL 复用：Rasmussen et al.2012 Forktail28:1–20，https://www.asianscientist.com/wp-content/uploads/2012/08/Vocal-divergence-and-new-species.pdf ，访问2026-11-28；本轮针对N.leventisi duet/claws/iris网络检索，实际本地读取原PDF printed15–16/PDF16–17，及p12 Fig6e照片（Hutchinson，Camiguin Sur，2011-06-08）。p16 Remarks报道靠近、相对、前倾，白喉鼓动、翅垂下的低沉快速对唱；本次v6静止正面但白喉膨大，改为有来源的成鸟对唱姿态。原文成年虹膜灰白或极浅黄绿，喙脚芥黄、喙基橄榄，爪主体浅色仅尖深，腹粗横斑。原名广义N.philippensis spilonota（仅Camiguin种群）→N.leventisi。两个博物馆标本均雌，不能据此规定雌雄高度比例。幼鸟资料缺口仍在：中鸟为未核实重建，不宣称科学通过、不赋年龄、飞行或巢位。森林枝上支撑是概念舞台。照片不提供性别或幼鸟发育。来源类型原始分类与野外行为研究，章节Remarks/Diagnosis；新增0/复用1出版物；此次行为应用新验证而非新来源。",
   "full_prompt": "Edit #147 Ninox leventisi v6 into v7 as a scientifically bounded ADULT DUET BEHAVIOUR study, same warm polished 3D pet concept style and forest branch. The primary paper reports duet partners close together, facing and LEANING toward each other with their white throats puffed and pulsating, wings drooped. Repose BOTH OUTER ADULTS to turn their heads and upper bodies inward toward each other, slight forward lean, visibly puffed white throats, subtly lowered/drooped folded wings with coherent feather anatomy, bills slightly open in calling. Preserve stable branch grips, no flight, no hovering. Keep the central unverified young completely unchanged and visually below their line of sight; do not have the adult collide with it. Maintain adult grayish / very pale greenish irises, mustard bill olive base, heavy broad dark-brown/buff underpart BARRING, largely pale claws with DARK TIPS and sparse bristles on yellow lower legs. Adults nearly equal nominal size, no exaggerated female size. Title '#147 · NINOX LEVENTISI v7 — CAMIGUIN BOOBOOK'. Labels 'ADULT MALE · SEX INFERRED', 'JUVENILE RECONSTRUCTION · AGE / PLUMAGE UNVERIFIED', 'ADULT FEMALE · SEX INFERRED'. Footer 'ADULT DUET CONCEPT · SCIENCE PENDING · JUVENILE / SEX RATIO / NEST UNVERIFIED'. Do not depict a nest or extrapolate juvenile development. The displayed throat shape is an artistic instant of documented calling behaviour, not measured pulsation animation.",
   "source_ids": [
@@ -40,5 +44,7 @@
   "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-0fec16be-cb1d-4f8a-bc45-8fe84eec6a49.png",
   "imagegen_wait_seconds": 44.199,
   "editing_wait_seconds": 0,
-  "review_result": "PASS_WITH_LIMITATIONS"
+  "review_result": "PASS_WITH_LIMITATIONS",
+  "review": "实际查看v7：左右成鸟相向前倾张喙，白喉膨起、翼贴体下垂，六脚均接触枝面，未飞行/巢内姿态。冠横斑、灰浅绿虹膜、芥黄喙脚、粗横腹斑、浅爪深尖保留。对唱方向/前倾/喉膨/张喙局部通过；单静图无法验证喉部脉动或歌声，翼下垂幅度非测量，标注行为概念。中央幼鸟仍毛绒重建，无物种专属发育支持，不能科学通过；其闭眼/抓枝不证明日龄或飞行能力。性别为设计槽位inferred，近等大不称实测。经验：把夸张喉膨与真实行为语境绑定，保留静图不能验证的动态项；回查147v6正面静止白喉，已保留旧版。实际应用本轮对唱场景，局部复查有效，但科学整图仍false。",
+  "reviewed_at": "2026-11-28T10:37:16.449Z"
 }

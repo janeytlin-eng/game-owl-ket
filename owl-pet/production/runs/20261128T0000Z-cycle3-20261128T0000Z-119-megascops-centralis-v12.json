@@ -13,16 +13,33 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T00:11:48.122Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T00:13:14.722Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0000Z-cycle3-20261128T0000Z-119-megascops-centralis-v12.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "New0/reuse2. CHSO-JORDAN-2012-ADULT RaphaelJordan SanTadeoPichinchaEcuadorOct2012 https://www.oiseaux.net/photos/raphael.jordan/petit-duc.du.choco.1.html originalmetadata74–92freshread/ISO3200noflash, local1024x682photographactuallyviewednow; fineflatfacialfeathers notraisedregularrims. NoabsoluteRGB/sex/juvenileclaim fromthisadultphoto; copyrightedphoto linkedonlynotrepublished. CHSO-MIKKOLA-2013-P242-243 HeimoMikkola2013 actualuploaded242–243/PDF244–245read: weakbrows/outerdiscvirtuallynoedge/blackorbitalring/lemoniris/greenyellowbill/graywhitevermiculatedventrum/shorttufts/nosexsize, juvenileundescribed. OldOtusguatemalaecentralis/Mvermiculatuscentralis→Mcentralis currentsameunit251. Actualv11 retainsraisedsideheadfeatherunits afterearliertopcrownfix; targetgeometrynotcolour/speciesmorphreassignment. Youngunchangedunknownage/flight/iris andexistingcavitydisplaynotnewnestdata. Materialinferenceboundednotnewscience.",
   "full_prompt": "Precise-object-edit #119 Megascops centralis v11. BOTH ADULT SIDE-HEAD/CHEEK feather surfaces only: flatten raised regularly outlined pointed/scalloped feather rims into smooth short close-lying fine graybrown/rufousbrown speckled contour feathers. Retain current face/crown colour and irregular pigment, weakbrows, virtually unbordered outerfacialdisc, blackorbitalring, lemoneyes/green-yellowbill/shorttufts. No blanketdarkening fromone lowlightphoto. Preserve topcrownpreviousfix, adultgraywhitevermiculatedbellyfix, whitecoverts/yellowbuffbars/shorttail/paletoes/hornclaws, wholecentralolderjuvenile andallfootcontacts/cavitysill/forest/labels. v11→v12. Change raised cheek geometry only, no newage/nest/sexsize/flight claim.",
   "source_ids": [
     "CHSO-JORDAN-2012-ADULT",
     "CHSO-MIKKOLA-2013-P242-243"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "image_metadata": {
+    "bytes": 2624711,
+    "sha256": "51307fd7f254385d79767764554f4cf264e8d3859c70672ad36b7c7ab6960ea3",
+    "gitblob": "abcbfa5e28e0b063e559709bf75106fb5647e467",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-2584c580-231b-494c-8676-6d312687cef2.png",
+  "imagegen_wait_seconds": 38.683,
+  "editing_wait_seconds": 0,
+  "review_result": "PASS_WITH_LIMITATIONS"
 }

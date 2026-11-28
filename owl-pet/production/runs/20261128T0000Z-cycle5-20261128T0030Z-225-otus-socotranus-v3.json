@@ -13,16 +13,33 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T00:34:02.872Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T00:36:05.309Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0000Z-cycle5-20261128T0030Z-225-otus-socotranus-v3.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Access2026-11-28Shanghai. Reuse2/new0. OSOC-MIKKOLA-2013-P132 HeimoMikkola2013 uploadedprinted132/PDF134 actuallyread: adultunderparts shaftstreaksupperbreaststronger, lowerabdomen nearlyplainpalegrey; yellowiris/blackishhornbill/veryshortblunttufts/indistinctruff/palegraybrowntoes/grayhornclaws/tarsitotoebase; massfemalealittleheaviernotstandingratio. Actualv2 retainsfewdarklonglines onlowerabdomen; modestlocaldensityreduction designinference fromtractcontrast, notgrossspeciesdefect/no exactRGB. OSOC-PORTER-SULEIMAN-2013-P65-66 RFPorter/ASSuleiman2013 Sandgrouse35:43–81 original https://www.osme.org/wp-content/uploads/2019/10/I-Porter-Suleiman-Sandgrouse-35-1-2013.pdf actualbody65–66/PDF23–24 read, Plate16captionrecentlyfledgedMarch2011 on66; screenshotrequestedforvisualcheck, bodypalms/maturetrees/20dayestimatedNESTyoung separatefromrecentfledglingphoto/nohatchage/flightthreshold. Preserveknownolderstageformedwing, notusingbookyoungunknownasguesstobirth. OldOsenegalensissocotranus currentOsocotranus same251unit. PriorPons2013billshapeandunresolvedsexdirection retainedwithoutfreshpaperclaim. Sciencefalse, no newuserconfirmation.",
   "full_prompt": "Precise-object-edit #225 Otus socotranus v2. BOTH ADULTS lower abdomen ONLY: keep upperbreast darkshaftstreaks, but thin and fade the few long darkshaftlines that continue onto lower belly, so the lower belly is NEARLY PLAIN PALE GREY with a slight sandy cast and very faint fine irregular vermiculation. Preserve natural feathertexture, not blankwhite, no wholebodysmoothing. Keep flank/upperbreast markings, yelloweyes/blackishhornbroaderbill, veryshorttufts/indistinctruff, scapulars andflightbars, featheredtarsi/palegraybrowntoes/grayhornclaws, youngentirely unchanged includingformedwing/unknownexactage andsixfootcontacts. Keep landscape/palms/labels/status, addsmallv3totitle. One local pigment-density correction from adulttractdescription, no broadcolourcalibrationornewsex/age/flightclaim.",
   "source_ids": [
     "OSOC-MIKKOLA-2013-P132",
     "OSOC-PORTER-SULEIMAN-2013-P65-66"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "image_metadata": {
+    "bytes": 2607343,
+    "sha256": "dcf5722df9475a511afd63bc8a0c07c02eb14d6d6aed935764b32924d598773b",
+    "gitblob": "dd984d6d5edfad1ea86e1354b3f27a17d4ae3f7f",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-3b283b8c-359e-4e8b-aebf-d7e9a156ba01.png",
+  "imagegen_wait_seconds": 52.217,
+  "editing_wait_seconds": 0,
+  "review_result": "PASS_WITH_LIMITATIONS"
 }

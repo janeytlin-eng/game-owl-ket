@@ -13,16 +13,35 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T03:36:10.214Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T03:38:34.983Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0304Z-cycle6-20261128T0329Z-130-megascops-koepckeae-v23.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Access2026-11-28Shanghai new0/reuse2. KOEP-MIK2013-222 HeimoMikkola2013 uploadedprinted222/PDF224freshtextread: ADULTblackishbrownCROWN finepalebrownspeckling/ochrewhitishtowardFOREHEAD, shorttufts. V22adultsraisedlargewhiteoutlinedcrownunits unlikefinepigment. Localadultcrowncorrection only, juvenilefailedmaterialnotredone. NoRSDdata, bluegreenhornbill/graybrowntoes/darkclawstobepreserved. KOEP-ALARCON-2023 IbethPAlarconetal2023 NeotropicalBiodiversity9:93–114 DOI10.1080/23766808.2023.2237229 https://biologia.uazuay.edu.ec/sites/biologia.uazuay.edu.ec/files/public/ReproductiveeventsofbirdsfromSouthernEcuador.pdf freshweb400tooLarge; cachedactualoriginalp104/PDF13read: 23Apr2019Loja2dependentfledglingswithnessoptilesallbody/graywhitebars/brownchest/blackdiscwhitebrowsyellowiris/Podocarpus3–4m. Exactage/flightunknown; entireyoungunchanged. OldOtuskoepckeae→Megascopskoepckeae. Sciencefalse.",
   "full_prompt": "Precise-object-edit #130v22. ONLY BOTH ADULT CROWN PIGMENT above forehead: blackish/darkbrown ground with FINE pale-brown speckling, slightly more ochre-whitish toward forehead. Replace large shiny white-outlined helmet units with tiny diffuse pale speckles; retain crownfeathergeometry/shorttufts and recognizablepalesupercilium. Do not alteradultfaces/iris/bills/bodies/legs/toes/claws/size/background. EntireRIGHTYOUNGUNCHANGED includingknownunresolvedbodytexture/formedwingtail/ageunknown, don'tclaimfix. v22→v23; roles/footerunchanged. No addedjuvpattern orsexratio.",
   "source_ids": [
     "KOEP-MIK2013-222",
     "KOEP-ALARCON-2023"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "first_attempt_file": "/workspace/scratch/96400dc71dac/generated_images/exec-8b2013dd-ec04-4c5a-be3a-7f9b0a91e522.png",
+  "retry_prompt": "Fix the two ADULT CROWN SURFACES in #130v23: currently too flat like a dark cap. Restore softly rounded natural tiny overlapping crown feathers under the fine diffuse pale-brown speckling, with low soft feather relief following head curvature. No large shiny white outlines, no flat black painted panel, no beads. Preserve crownoutline/shorttufts/forehead/eyes/faces/restofbirds/wholeyoung/supports/text/v23 exactly. This is surface texture correction, not new plumage.",
+  "image_metadata": {
+    "bytes": 2357626,
+    "sha256": "c9f2865810557672650c87b5d06a9a5d590440213a2f77dedd9a23e70cb40fb2",
+    "gitblob": "1a597b1a4638bce67a6309593e61394709558754",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-20711e57-f04f-47f9-9162-c364de9e4d67.png",
+  "imagegen_wait_seconds": 33.207,
+  "editing_wait_seconds": 35.326,
+  "review_result": "PASS_WITH_LIMITATIONS"
 }

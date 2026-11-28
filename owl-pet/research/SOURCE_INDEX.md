@@ -9442,3 +9442,8 @@ CAMBOO-RASMUSSEN-2012-FORKTAIL 复用：Rasmussen et al.2012 Forktail28:1–20�
 ## 20261128T1133Z 206-glaucidium-castanopterum-v12
 复用GCAS-MIKKOLA-2013-P407，HeimoMikkola2013上传图鉴printed407/PDF409实际文字/照片读取：成人头颈细横条无簇、栗上部白肩/中央白腹栗侧纵纹；tarsi羽、olive-yellow趾有稀鬃，幼鸟初绒白与adultlike but duller fledgling分开。本轮仅采用后者，不虚构初生。复用GCAS-VERONESI-2016-29030338883，FrancescoVeronesi2016-08-14CaritaJava成人实物 https://flickr.com/photos/30818542@N04/29030338883 ，Commons https://commons.wikimedia.org/wiki/File:Javan_Owlet_-_Carita_-_Java_MG_3575_(29030338883).jpg 本轮外检及原元数据/本地照片实际查看；闪光不支持绝对RGB/年龄/性别。v11全图塑料碎片，头顶网格，故重建哑光羽片并分区羽纹，幼鸟不因成人照获得额外证明。旧Taenioglauxcastanoptera/Strixcastanoptera→G.castanopterum非G.castanotum。性差无数据，身高设计not-to-scale；幼鸟虹膜喙时序/首飞未知，无巢室。错误线索OwlPages?s2090实际是ChacoPygmyOwl，已读取并排除，不作此种证据。新增0复用2，局部材质/羽纹设计，整图sciencefalse。
 [Research/prompt](species/206-glaucidium-castanopterum-v12.md) · [Review](reviews/206-glaucidium-castanopterum-v12-review.md)
+
+
+## 20261128T1133Z 119-megascops-centralis-v15
+复用CHSO-MIKKOLA-2013-P242-243：Mikkola2013图鉴printed242–243/PDF244–245本轮实际读取；小短耳簇，面盘近无黑界，白眉弱，灰白腹蠕纹、浅黄趾、雌雄大小未知，juvenile undescribed，不提供本种巢室尺寸。复用CHSO-JORDAN-2012-ADULT：RaphaelJordan https://www.oiseaux.net/photos/raphael.jordan/petit-duc.du.choco.1.html ，2026-11-28外部针对检索并实际读成人元数据，2012-10 SanTadeo Ecuador无闪光；不是幼鸟/巢位证据。旧Otusguatemalaecentralis/M.vermiculatuscentralis→M.centralis。v14实际图中央幼鸟坐树洞中，暗示未核实巢室，本次去洞和巢室材料，改为明确设计舞台枝支撑，中央羽被/能否枝栖仍标未核实重建，不称物种行为事实。成年比例性别为槽位，无统一雌大雄小。未获得幼鸟新证据不新增编造，不借成人照片推幼鸟裸部。新增0复用2来源，来源局限/未验证遥测繁殖线索继续保留，sciencefalse。
+[Research/prompt](species/119-megascops-centralis-v15.md) · [Review](reviews/119-megascops-centralis-v15-review.md)

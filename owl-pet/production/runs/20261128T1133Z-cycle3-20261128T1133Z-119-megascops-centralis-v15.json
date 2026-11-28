@@ -9,9 +9,20 @@
     {
       "stage": "STARTED",
       "at": "2026-11-28T11:46:22.883Z"
+    },
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-28T11:46:28.581Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T1133Z-cycle3-20261128T1133Z-119-megascops-centralis-v15.json",
-  "stage": "STARTED"
+  "stage": "RESEARCH_READY",
+  "research": "复用CHSO-MIKKOLA-2013-P242-243：Mikkola2013图鉴printed242–243/PDF244–245本轮实际读取；小短耳簇，面盘近无黑界，白眉弱，灰白腹蠕纹、浅黄趾、雌雄大小未知，juvenile undescribed，不提供本种巢室尺寸。复用CHSO-JORDAN-2012-ADULT：RaphaelJordan https://www.oiseaux.net/photos/raphael.jordan/petit-duc.du.choco.1.html ，2026-11-28外部针对检索并实际读成人元数据，2012-10 SanTadeo Ecuador无闪光；不是幼鸟/巢位证据。旧Otusguatemalaecentralis/M.vermiculatuscentralis→M.centralis。v14实际图中央幼鸟坐树洞中，暗示未核实巢室，本次去洞和巢室材料，改为明确设计舞台枝支撑，中央羽被/能否枝栖仍标未核实重建，不称物种行为事实。成年比例性别为槽位，无统一雌大雄小。未获得幼鸟新证据不新增编造，不借成人照片推幼鸟裸部。新增0复用2来源，来源局限/未验证遥测繁殖线索继续保留，sciencefalse。",
+  "full_prompt": "Use case precise-object-edit. Edit #119 Megascops centralis v14 to v15. Remove the ENTIRE apparent nesting CAVITY behind/around central juvenile: replace dark hole, circular hollow rim, cavity floor/debris with continuous natural CLOSED solid tree bark, and a clearly visible thick branch in FRONT supporting the central bird's existing two feet. No hole, no nest chamber, no cup or bedding. Continue branch structurally to both adults' existing perch support without floating feet; do not enlarge toe counts. Preserve all three birds and current warm polished3D style/lighting/forest, adult feather colors/eye/bill and mostlyunbordered face, near equal adult proportions. Central bird is an UNVERIFIED RECONSTRUCTION, not biologically calibrated; do not introduce any feather change or new developmental ability. Exact labels 'ADULT MALE · SEX INFERRED', 'UNVERIFIED JUVENILE RECONSTRUCTION', 'ADULT FEMALE · SEX INFERRED'. Title 'CHOCO SCREECH OWL · Megascops centralis #119 v15'. Footer 'CONCEPT · SCIENCE PENDING · JUVENILE PLUMAGE / AGE / PERCH ABILITY UNVERIFIED'. No implied nest location or breeding observation.",
+  "source_ids": [
+    "CHSO-MIKKOLA-2013-P242-243",
+    "CHSO-JORDAN-2012-ADULT"
+  ],
+  "new_sources": 0
 }

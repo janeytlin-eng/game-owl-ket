@@ -1,0 +1,504 @@
+{
+  "owner": "20261128T1028Z",
+  "baseline": "40a790ef74739c72904456de9de9c323f2aeda31",
+  "ended_at": "2026-11-28T10:49:35.486Z",
+  "cycles": 6,
+  "results": [
+    {
+      "run_id": "20261128T1028Z-144-ninox-spilocephala-v7",
+      "batch_id": "20261128T0929Z",
+      "cycle": 5,
+      "target": "144-ninox-spilocephala-v7",
+      "action": "REVISION",
+      "started_at": "2026-11-28T10:30:03.190Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T10:30:03.229Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T10:33:04.829Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T10:34:23.673Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T10:34:28.633Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T10:34:33.124Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T10:34:45.888Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0929Z-cycle5-20261128T1028Z-144-ninox-spilocephala-v7.json",
+      "stage": "VERIFIED",
+      "research": "复用 LZBO-RASMUSSEN-2012-LEAD / NPH-RASMUSSEN-2012（同一出版物，非两个新来源）：Rasmussen et al. 2012, Forktail 28:1–20, 原始URL https://static1.squarespace.com/static/5c1a9e03f407b482a158da87/t/5c2122546d2a7362341520d4/1545675354149/Philippine-owls.pdf ，2026-11-28读取全文相关p14诊断和p12 Fig6b实物照片（R.O.Hutchinson，PICOP Mindanao，2011-02），并实际渲染查看。成鸟耳羽长且丰满为事实；照片轮廓没有上一版横向硬刺扇的形态。修改柔软贴颊轮廓为设计推断，不测量照片长度、不得外推羽长性差。旧名N.philippensis spilocephala→N.spilocephala。复用 MIKKOLA-2013 / WHSO-MIKKOLA-2013（同书）printed475/PDF477；幼鸟只依据plain crown/weak collar older immature，不赋日龄、首飞或初生羽被。雌雄外观与相对高度未验证；枝上支撑与森林情境为概念构图，非巢位观察。图片v6耳羽过度硬刺为本次问题。可靠性：原始分类论文+有定位实物照；单张照片无年龄性别证明。来源新增0、复用2出版物；照片访问范围升级，不新增重复ID。完整阶段计时见run。",
+      "full_prompt": "Edit the supplied 144 v6 triptych, preserving its confirmed warm softly rendered 3D owl-pet concept style, three birds, composition, forest branch, supported feet and labels. PRIMARY CORRECTION ONLY: both adults' cheek/auricular extensions must look like soft fine feather filaments integrated into the rounded cheek contour, not long rigid porcupine quills, whisker fans, or sideways hair spikes. Use the Figure 6b Mindanao bird photograph on the accompanying scientific plate as a qualitative contour reference ONLY (top centre panel b); the plate's other birds are DIFFERENT species, don't copy them. Preserve a visibly full soft auricular fringe but reduce excessive horizontal splay. No measured filament length is claimed. Preserve spotted adult crowns, mixed streaks/bars breast and longitudinal irregular belly marks, yellow eyes, olive-yellow bills and yellow feet with dark claw tips. Keep the central older immature plain crown, closed eyes and two feet on branch; do not introduce neonatal down or flying poses. Male/female are design slots with equal nominal scale; do not imply proved dimorphism. Keep bottom text '144 MINDANAO BOOBOOK · Ninox spilocephala v7'; footer 'CONCEPT · SCIENCE PENDING · AGE / FLIGHT / SEX RATIO UNVERIFIED'. No nest, no new birds.",
+      "source_ids": [
+        "LZBO-RASMUSSEN-2012-LEAD",
+        "MIKKOLA-2013"
+      ],
+      "new_sources": 0,
+      "image_metadata": {
+        "bytes": 2457670,
+        "sha256": "3d91af9fd01f130addd6d00594fff6f4822e8b6ab7f11f1b5eb9baf69d424b20",
+        "gitblob": "718331e3ce145366b3c57ed48f1b58e38deb8377",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-f84ade31-b695-4e33-b659-a036e4da9074.png",
+      "imagegen_wait_seconds": 40.868,
+      "editing_wait_seconds": 0,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "review": "实际查看v7完整1536×1024图：两成鸟横向长硬刺扇已收束为沿面颊向下的柔软细羽，保留丰满耳羽；与p12 Fig6b定性轮廓比照，仅硬刺问题局部通过，不证明羽长精确。冠斑、黄眼、橄榄喙、胸部混合纹与腹纵纹仍在，脚趾落枝接触可见，幼鸟未增成熟张翼/初生绒羽，保留older immature标签。成鸟色调仍高度艺术化，腹纹与真实变异范围、幼鸟羽片/精确阶段、成年性别比例未全面校准。问题→诊断的very long被模型放大成硬刺；证据→原论文p14及p12 Fig6b；修改→约束柔软轮廓并引用正确panel；复查→此局部有效。后续规则：长羽特征同时说明羽质与轮廓，不能仅用length夸张词。已回查v6并保留原版；不对其他物种套同样羽长。scientifically_verified=false。",
+      "reviewed_at": "2026-11-28T10:34:28.618Z",
+      "archived_at": "2026-11-28T10:34:33.109Z",
+      "archive_commit": "2f61271434323cf9b1bb849efd8bd4ec4e65ab33",
+      "ended_at": "2026-11-28T10:34:45.864Z",
+      "verification_exit_code": 0,
+      "commit_sha": "99bba30b55e1610c13406557681e62b61b0d1f84",
+      "credit_commit": "638928493f087d8c0a1f7d8b273af9357621cb92"
+    },
+    {
+      "run_id": "20261128T1028Z-147-ninox-leventisi-v7",
+      "batch_id": "20261128T0929Z",
+      "cycle": 6,
+      "target": "147-ninox-leventisi-v7",
+      "action": "REVISION",
+      "started_at": "2026-11-28T10:35:41.095Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T10:35:41.129Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T10:35:45.242Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T10:37:11.466Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T10:37:16.466Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T10:37:20.654Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T10:37:37.660Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0929Z-cycle6-20261128T1028Z-147-ninox-leventisi-v7.json",
+      "stage": "VERIFIED",
+      "research": "CAMBOO-RASMUSSEN-2012-FORKTAIL 复用：Rasmussen et al.2012 Forktail28:1–20，https://www.asianscientist.com/wp-content/uploads/2012/08/Vocal-divergence-and-new-species.pdf ，访问2026-11-28；本轮针对N.leventisi duet/claws/iris网络检索，实际本地读取原PDF printed15–16/PDF16–17，及p12 Fig6e照片（Hutchinson，Camiguin Sur，2011-06-08）。p16 Remarks报道靠近、相对、前倾，白喉鼓动、翅垂下的低沉快速对唱；本次v6静止正面但白喉膨大，改为有来源的成鸟对唱姿态。原文成年虹膜灰白或极浅黄绿，喙脚芥黄、喙基橄榄，爪主体浅色仅尖深，腹粗横斑。原名广义N.philippensis spilonota（仅Camiguin种群）→N.leventisi。两个博物馆标本均雌，不能据此规定雌雄高度比例。幼鸟资料缺口仍在：中鸟为未核实重建，不宣称科学通过、不赋年龄、飞行或巢位。森林枝上支撑是概念舞台。照片不提供性别或幼鸟发育。来源类型原始分类与野外行为研究，章节Remarks/Diagnosis；新增0/复用1出版物；此次行为应用新验证而非新来源。",
+      "full_prompt": "Edit #147 Ninox leventisi v6 into v7 as a scientifically bounded ADULT DUET BEHAVIOUR study, same warm polished 3D pet concept style and forest branch. The primary paper reports duet partners close together, facing and LEANING toward each other with their white throats puffed and pulsating, wings drooped. Repose BOTH OUTER ADULTS to turn their heads and upper bodies inward toward each other, slight forward lean, visibly puffed white throats, subtly lowered/drooped folded wings with coherent feather anatomy, bills slightly open in calling. Preserve stable branch grips, no flight, no hovering. Keep the central unverified young completely unchanged and visually below their line of sight; do not have the adult collide with it. Maintain adult grayish / very pale greenish irises, mustard bill olive base, heavy broad dark-brown/buff underpart BARRING, largely pale claws with DARK TIPS and sparse bristles on yellow lower legs. Adults nearly equal nominal size, no exaggerated female size. Title '#147 · NINOX LEVENTISI v7 — CAMIGUIN BOOBOOK'. Labels 'ADULT MALE · SEX INFERRED', 'JUVENILE RECONSTRUCTION · AGE / PLUMAGE UNVERIFIED', 'ADULT FEMALE · SEX INFERRED'. Footer 'ADULT DUET CONCEPT · SCIENCE PENDING · JUVENILE / SEX RATIO / NEST UNVERIFIED'. Do not depict a nest or extrapolate juvenile development. The displayed throat shape is an artistic instant of documented calling behaviour, not measured pulsation animation.",
+      "source_ids": [
+        "CAMBOO-RASMUSSEN-2012-FORKTAIL"
+      ],
+      "new_sources": 0,
+      "image_metadata": {
+        "bytes": 2581252,
+        "sha256": "51d184c55564038e6d634859e57b864bc9dbbde77380ca95c8dcb85af7a1d990",
+        "gitblob": "bbfc9522aaf281c294006a0a89ebf8e96e11751a",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-0fec16be-cb1d-4f8a-bc45-8fe84eec6a49.png",
+      "imagegen_wait_seconds": 44.199,
+      "editing_wait_seconds": 0,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "review": "实际查看v7：左右成鸟相向前倾张喙，白喉膨起、翼贴体下垂，六脚均接触枝面，未飞行/巢内姿态。冠横斑、灰浅绿虹膜、芥黄喙脚、粗横腹斑、浅爪深尖保留。对唱方向/前倾/喉膨/张喙局部通过；单静图无法验证喉部脉动或歌声，翼下垂幅度非测量，标注行为概念。中央幼鸟仍毛绒重建，无物种专属发育支持，不能科学通过；其闭眼/抓枝不证明日龄或飞行能力。性别为设计槽位inferred，近等大不称实测。经验：把夸张喉膨与真实行为语境绑定，保留静图不能验证的动态项；回查147v6正面静止白喉，已保留旧版。实际应用本轮对唱场景，局部复查有效，但科学整图仍false。",
+      "reviewed_at": "2026-11-28T10:37:16.449Z",
+      "archived_at": "2026-11-28T10:37:20.637Z",
+      "archive_commit": "f0f810149b125390cac373fe97c56194560f6dce",
+      "ended_at": "2026-11-28T10:37:37.639Z",
+      "verification_exit_code": 0,
+      "commit_sha": "49abc1b6c15d26d4d13b31b9a16584141f274f58",
+      "credit_commit": "44416e88fc06693a3839843a24ab83ac22360381"
+    },
+    {
+      "run_id": "20261128T1028Z-148-ninox-rumseyi-v7",
+      "batch_id": "20261128T1028Z",
+      "cycle": 1,
+      "target": "148-ninox-rumseyi-v7",
+      "action": "REVISION",
+      "started_at": "2026-11-28T10:38:14.050Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T10:38:14.084Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T10:38:19.516Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T10:39:42.551Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T10:39:47.202Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T10:39:51.529Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T10:40:04.324Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T1028Z-cycle1-20261128T1028Z-148-ninox-rumseyi-v7.json",
+      "stage": "VERIFIED",
+      "research": "复用 CEB-RASMUSSEN-2012-FORKTAIL：Rasmussen et al.2012 Forktail28:1–20，https://www.asianscientist.com/wp-content/uploads/2012/08/Vocal-divergence-and-new-species.pdf ，2026-11-28本地实际读取printed16/PDF17完整Diagnosis及p12 Fig6f（Christian Artuso，Cebu2012-01-03）并查看。成人短白眉、暗耳羽，明显白喉两侧及下方深色边界是原文事实；v6实际图白喉接近横向白项圈，暗侧界偏弱，改为中央边界明确的喉斑。分布旧名N.philippensis spilonota仅Cebu种群→N.rumseyi。成鸟体型中大、腿长来自单模式标本不支持性别比例；腹纹弱斑/短断条可变不统一粗横斑。针对幼鸟羽被及遥测论文外检未取得羽被照片支持：Jakosalem/Collar/Gill旧遥测命中一juvenile仅研究线索，本轮未读正文，不据此推断羽被；旧CEB-JAKOSALEM-COLLAR-GILL-2012不计本轮复用。中央幼鸟保留未核实标记而不新增初生细节；年龄/首飞/巢位未知。枝上为设计支撑。来源原始分类论文/野外影像，p16/p12Fig6f；本次新增0复用1，喉斑形状为有边界的设计应用非毫米还原。",
+      "full_prompt": "Edit #148 Ninox rumseyi v6 to v7, retain confirmed warm 3D owl-pet look and composition. Correct ONLY BOTH ADULT THROAT PATCHES and surrounding adult facial-to-throat pattern: current narrow white neck-collar-like stripe must become a distinct central WHITE THROAT PATCH under the bill, bounded on each SIDE and BELOW by conspicuous DARK BROWN feathers. This is a bounded irregular throat area, not a full white necklace, not a huge puffed beard or a black chest bib. Follow Ninox rumseyi primary diagnosis and Figure6f (bottom-left photograph on supplied plate) qualitatively: white throat with dark margins, short distinct white eyebrows and plain dark ear coverts. Preserve weak breast speckles and mostly plain fulvous belly, yellow irises, dull olive bill yellow tip, half-feathered long tarsi and mostly black claws. Do not transfer any field photograph age or sex. Keep center juvenile reconstruction unchanged: no new evidence for its plumage/age/iris or flight. Keep its two feet secure and all branch geometry. Adult design slots same existing proportions without verified dimorphism claim. Keep all uncertainty labels; footer additionally 'THROAT PATTERN STUDY · SCIENCE PENDING · SEX RATIO / JUVENILE UNVERIFIED'. Title '#148 NINOX RUMSEYI v7 · CEBU BOOBOOK'. Exact three birds.",
+      "source_ids": [
+        "CEB-RASMUSSEN-2012-FORKTAIL"
+      ],
+      "new_sources": 0,
+      "image_metadata": {
+        "bytes": 2789586,
+        "sha256": "48490878eeb0cfd88027fe6c110f0caa17b08ff618fae244122bae91a8d169d3",
+        "gitblob": "5bd2f7775119ec815c86908d507011d903601b92",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-d947c545-d259-4256-91e7-8b4b1b48860d.png",
+      "imagegen_wait_seconds": 40.393,
+      "editing_wait_seconds": 0,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "review": "实际查看v7：成人白喉收为中央不规则斑，两侧及下缘明显深棕羽界，不再只有窄白横项圈；黄眼/橄榄喙/冠斑/弱短胸斑/淡赭腹/半羽长跗及黑爪保留，三鸟六脚落枝无悬空。依据p16及Fig6f局部喉斑通过，暗边宽度未测、不得整图校准。幼鸟卷绒、虹膜、比例及腿部阶段仍缺物种专属证据，保留UNVERIFIED；成鸟性别inferred非照片判性。无新巢位或首飞主张。问题→通用白项圈误替诊断喉斑；证据→原始诊断同时要求白喉与深侧/下界；修改→中央白斑加边；复查→局部有效。新规则在文字特征之外指定区域拓扑边界，回查148v6已保留；不能外推147/236的白喉边界。sciencefalse。",
+      "reviewed_at": "2026-11-28T10:39:47.185Z",
+      "archived_at": "2026-11-28T10:39:51.513Z",
+      "archive_commit": "870dbf90c9dd178024e49094a110319c52938bc7",
+      "ended_at": "2026-11-28T10:40:04.300Z",
+      "verification_exit_code": 0,
+      "commit_sha": "2d6a1f57c01d4341cfa50a991738db8af06f473e",
+      "credit_commit": "acd5f45bc555e5f528b9ba6df2809f3d151282a7"
+    },
+    {
+      "run_id": "20261128T1028Z-145-ninox-philippensis-v6",
+      "batch_id": "20261128T1028Z",
+      "cycle": 2,
+      "target": "145-ninox-philippensis-v6",
+      "action": "REVISION",
+      "started_at": "2026-11-28T10:40:44.707Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T10:40:44.742Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T10:40:50.037Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T10:41:57.228Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T10:42:20.552Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T10:42:25.116Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T10:42:29.387Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T10:42:44.306Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T1028Z-cycle2-20261128T1028Z-145-ninox-philippensis-v6.json",
+      "stage": "VERIFIED",
+      "research": "复用NPH-RASMUSSEN-2012 / LZBO-RASMUSSEN-2012-P13-14（同一论文）Rasmussen et al.2012 Forktail28:1–20，原文URL https://www.asianscientist.com/wp-content/uploads/2012/08/Vocal-divergence-and-new-species.pdf ，2026-11-28实际读取printed13/PDF14 Diagnosis及Table7、p12Fig6a（R.J.Quisumbing，Dolores Quezon2012-01-16），并针对adult unspotted crown外部检索。原文成鸟crown到rump纯棕、无横斑/点斑，larger outer wing-coverts大白斑而无横斑，尾浅条弱且窄。v5实际看成鸟上翼散布较多小浅短线/羽缘装饰，可混同其他菲律宾种，故本轮集中成年上部羽纹清理，保留诊断大白肩/翼斑。复用MIKKOLA-2013 printed473/PDF475实际读取（同书非新增），同意plain upperparts；幼鸟p473旧汇总不足以给当前拆分后N.philippensis精确虹膜序列。原N.philippensis广义七种拆分，当前145限定Luzon型；不把其他岛种纹样套用。大小方向未证实，构图不测量；中央较成熟young保持，年龄/飞行/巢位未知，未画巢；森林枝作为支撑。来源新增0、复用2出版物；本次纠正成鸟纹理指令，不宣称幼鸟或整图科学通过。\n补充准确性：Mikkola printed473实际明确写males a little larger than females，故不能笼统说方向未知；该二手定性说法支持避免统一雌大雄小，但未给成鸟高度比例，本轮保留雄稍高设计槽位不称测量。Juvenile条有白初生绒及离巢羽描述，本轮未利用其构造新初生/首飞状态，也不把当前中央成图视为校准。",
+      "full_prompt": "Edit #145 Ninox philippensis v5 to v6, preserve warm polished 3D owl pet triptych. Correct ADULT UPPERPART PATTERN ONLY: both outer adults' crown, nape, mantle and most wing-coverts must read UNIFORM dark earth-brown, without conspicuous buff speckles or transverse buff bars. These are Luzon Boobooks, not spotted-crown Mindanao nor barred Camiguin. Retain separate large WHITE spots on larger OUTER wing-coverts and larger pale scapular patch with brown edges; do NOT erase these diagnostic limited white patches. Remove the small repeated pale dash-like or band-like marks spread over adult upper wings/back/head. Keep natural individual feather structure without decorative pale feather tips. Also keep adult tail pale bands narrow and weak compared with broad dark intervals, not zebra bars. Preserve yellow eyes, small white-buff eyebrows, soft ear-covert feather fringe, olive-yellow bill, streaked whitish/rufous ventrum, yellow feet/dark claws. CENTER AGE-UNKNOWN YOUNG unchanged, no adult-pattern transfer. Same three supported birds/branch/forest/proportions, no nest or flight. Title '#145 NINOX PHILIPPENSIS v6 · LUZON BOOBOOK'; adult labels add 'SEX INFERRED'; young label 'YOUNG · AGE / IRIS CHRONOLOGY UNVERIFIED'; footer 'CHARACTER CONCEPT · NOT TO SCALE · SCIENTIFIC CALIBRATION PENDING'.",
+      "source_ids": [
+        "NPH-RASMUSSEN-2012",
+        "MIKKOLA-2013"
+      ],
+      "new_sources": 0,
+      "source_correction": "\n补充准确性：Mikkola printed473实际明确写males a little larger than females，故不能笼统说方向未知；该二手定性说法支持避免统一雌大雄小，但未给成鸟高度比例，本轮保留雄稍高设计槽位不称测量。Juvenile条有白初生绒及离巢羽描述，本轮未利用其构造新初生/首飞状态，也不把当前中央成图视为校准。",
+      "image_metadata": {
+        "bytes": 2438855,
+        "sha256": "cd662c2bfa5b832c0fe68669577dfb43ce50936bcc4ae7cc257d2d16ea0c01b0",
+        "gitblob": "1cdb38ed15a016f49ac42e234322131631b6dbbd",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-3516d070-54bb-41a7-b0f7-541fabf0a32c.png",
+      "imagegen_wait_seconds": 38.847,
+      "editing_wait_seconds": 0,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "review": "实际查看v6：成鸟冠背和大部上翼为连续深棕，原v5许多浅短羽缘装饰去除；保留两侧大白肩斑及外翼大白点，弱窄尾横条仍可见，符合p13限定。黄眼、小白眉、细柔耳羽、橄榄黄喙、纵纹腹与落脚保留；中央young未套成鸟羽纹，标签虹膜序列/年龄未核实。整体实际羽片仍艺术化，局部通过非整种科学通过。Mikkola明确雄略大，未给高度比；当前雄较高不称实测。问题→通用羽缘装饰引入不应有斑纹；证据→原文无横斑点斑但有局限大白翼斑；修改→分区域保留/移除；复查→大白斑与纯棕面并存有效。回查145v5并保留，不能把无斑规则套144/147/148。young阶段、巢位、飞行仍未验证，sciencefalse。",
+      "reviewed_at": "2026-11-28T10:42:25.101Z",
+      "archived_at": "2026-11-28T10:42:29.374Z",
+      "archive_commit": "d7d9fefecb2c4814f2d68d767e30c841ebbb7a71",
+      "ended_at": "2026-11-28T10:42:44.284Z",
+      "verification_exit_code": 0,
+      "commit_sha": "f77236033560a9fec03b91848747b55014d456bd",
+      "credit_commit": "415c8b6fcb14aa0339ca4af952369ec119177093"
+    },
+    {
+      "run_id": "20261128T1028Z-146-ninox-mindorensis-v6",
+      "batch_id": "20261128T1028Z",
+      "cycle": 3,
+      "target": "146-ninox-mindorensis-v6",
+      "action": "REVISION",
+      "started_at": "2026-11-28T10:43:26.297Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T10:43:26.332Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T10:43:31.904Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T10:44:49.720Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T10:44:53.945Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T10:44:58.157Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T10:45:13.326Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T1028Z-cycle3-20261128T1028Z-146-ninox-mindorensis-v6.json",
+      "stage": "VERIFIED",
+      "research": "复用 MINDBOO-RASMUSSEN-2012-P13-14（原文准确诊断printed14/PDF15，而不是历史条误写printed13；本轮更正页码）：Rasmussen etal2012 Forktail28:1–20 https://www.asianscientist.com/wp-content/uploads/2012/08/Vocal-divergence-and-new-species.pdf ，2026-11-28实际读取诊断全段、p12Fig6c（James Eaton，Sablayan Mindoro2008-12）及针对性网络检索。事实：小、短白眉、耳羽较短；喉浅buff且不很清楚、整个复合群最细窄横斑，有下部白纵纹变异，不等于上胸长白/黑纵矛。v5实际看上胸白长纵纹及暗矛过强，本轮改浅buff软界喉到细横斑上胸，保留已合适下腹细斑。复用MIKKOLA-2013 printed474/PDF476已实际读取：颈至腹细横斑，幼鸟undescribed；与原文色调变化不冲突，不借spilocephala immature段套此种。旧N.philippensis mindorensis→N.mindorensis。雌雄羽色相似/比例无可靠量化，性别设计inferred。中央未核实重建不增年龄、初生、首飞、巢位主张；枝支撑为概念结构。来源新增0复用2出版物；更正1页码定位，来源事实与设计局部修订分开，整图sciencefalse。",
+      "full_prompt": "Edit #146 Ninox mindorensis v5 to v6 in the same confirmed warm realistic 3D owl-pet concept style. Correct ONLY BOTH ADULTS' throat and UPPER BREAST. Current strong long white/dark longitudinal chest daggers and separated bright white throat streaks read too much like Luzon Boobook. Replace them with a subdued PALE BUFF throat patch with soft indistinct edges, transitioning to FINE narrow DARK BROWN TRANSVERSE BARS on warm buff/orange-rufous upper breast. Maintain fine barring through existing lower breast and belly. No bright white bib, no black bib, no necklace, no thick Camiguin bars. Some pale feather centres below are allowed; do not erase natural variation or turn into plain orange chest. Preserve short white brows, yellow irises, greenish pale bill, finely speckle-barred crown, white scapular spots, mostly feathered tarsi/lower bare portion and yellow-gray bristled toes, black claws with pale bases. Keep central UNVERIFIED juvenile reconstruction exactly as is, no inferred new plumage/flight/age. All feet naturally gripping same branch; exact three birds and original forest. Adult labels 'ADULT MALE · SEX INFERRED' and 'ADULT FEMALE · SEX INFERRED', central uncertainty text preserved, title '#146 NINOX MINDORENSIS v6 · MINDORO BOOBOOK', footer 'CONCEPT · SCIENTIFIC CALIBRATION PENDING · AGE / SEX RATIO / NEST UNVERIFIED'.",
+      "source_ids": [
+        "MINDBOO-RASMUSSEN-2012-P13-14",
+        "MIKKOLA-2013"
+      ],
+      "new_sources": 0,
+      "image_metadata": {
+        "bytes": 2478490,
+        "sha256": "e259987c3c504dd31fb0dd1d3ca801a57a3634ec485a8e7aeb5a27c1c4f3a8e8",
+        "gitblob": "0a370d822f04edc2932f80819f935aa1bf064d9b",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-c52b8fbf-3fd5-40e2-aa5e-570ab45126b2.png",
+      "imagegen_wait_seconds": 35.525,
+      "editing_wait_seconds": 0,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "review": "实际完整查看v6：两成鸟原胸部白/黑长矛状纵纹被浅buff柔边喉及细窄横斑替代，下腹细横斑保留，未变成Camiguin粗横条，黄眼/绿喙/小白眉/白肩斑及抓枝仍在。局部成鸟喉上胸通过，横斑间距不作测量；原文允许下部白纵纹变异，本轮不宣称唯一羽型。中央绒羽重建未知仍明显标注，未增成熟翼羽/飞行动作，无巢。性别槽位inferred、不用雌大雄小。问题→通用Ninox把Luzon纵胸纹带入Mindoro；证据→p14小浅buff喉/最细横斑与Mikkola474一致；修改→局部替纹；复查→局部有效。历史页码定位13纠正为14，旧ID保留映射；回看146v5并保留。后续规则：同复合群至少并排对照胸纹方向与喉边界，不把全群同羽型。sciencefalse，幼鸟资料仍阻塞整组科学校准。",
+      "reviewed_at": "2026-11-28T10:44:53.928Z",
+      "archived_at": "2026-11-28T10:44:58.141Z",
+      "archive_commit": "609e117cd4ca8b969dbf83a083e632c8345c30ca",
+      "ended_at": "2026-11-28T10:45:13.304Z",
+      "verification_exit_code": 0,
+      "commit_sha": "768d3ba0179699e1ebc76093a5ca77d1bd8b4e3b",
+      "credit_commit": "cfb4f827c15853ec44772cb8e7ae21fb365fdc2e"
+    },
+    {
+      "run_id": "20261128T1028Z-75-ninox-scutulata-v10",
+      "batch_id": "20261128T1028Z",
+      "cycle": 4,
+      "target": "75-ninox-scutulata-v10",
+      "action": "REVISION",
+      "started_at": "2026-11-28T10:45:49.949Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T10:45:50.002Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T10:45:54.673Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T10:47:12.678Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T10:47:17.306Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T10:47:22.667Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T10:47:36.637Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T1028Z-cycle4-20261128T1028Z-75-ninox-scutulata-v10.json",
+      "stage": "VERIFIED",
+      "research": "复用 SCU-BSS-WEB，Bird Society of Singapore，Brown Boobook，undated机构物种页 https://singaporebirds.com/species/brown-boobook ，2026-11-28实际打开正文Identification/Habitat/Behaviour与针对性white patch网络检索，并实际查看该页Venus Drive实物照片 https://singaporebirds.com/photos/species/149/image83938920-cbd9-49ba-aecf-36f3fa7f7466-a15cee85-ce63-4f58-abfe-cd380e903d9e/large.webp （摄影者/拍摄日未取得，不猜；同页照片不是独立来源）。事实small white patch above bill/yellow eyes/heart-like blotches；照片额前白斑局限、脸盘对比弱，不测具体面积。v9成人白额上伸呈火焰，本轮限成人面部缩为小喙上斑；不反复修腹斑，不把照片两鸟当已知性别。复用MIKKOLA-2013 printed464–465/PDF466–467实际读取；白额、虚弱脸盘、蓝黑喙/绿蜡膜、雌略大定性，未给高度比；mesoptile较蓬松少纵纹但不支持现有卷绒和展翼精确阶段。N.scutulata保留现用名，旧broad Brown Hawk Owl范围含已拆其他种，不借Northern/Hume/Andaman羽型。Singapore地理范围专属，不把当地生境绝对化为全球。幼鸟年龄/首飞/展开翼成熟度仍待科学校对，原有动作不因成人修订获得通过；不画巢。新增0复用2出版物，设计推断只patch extent/弱脸盘，sciencefalse。",
+      "full_prompt": "Edit Brown Boobook #75 Ninox scutulata v9 into v10, keep the confirmed warm polished 3D pet concept layout. Refine ONLY both OUTER ADULT FACES: reduce the large tall bright white forehead BLAZE into a SMALL modest off-white patch immediately above the cere/bill between the eyes. Most forehead/crown remain dark brown. No tall white flame reaching high onto crown, no broad white eyebrows or full pale facial disc; retain dark narrow periocular area and yellow irises. Use supplied Venus Drive Brown Boobook field photo as qualitative guide to SMALL ABOVE-BILL PATCH and weak facial-disc contrast; do not infer sex/age/size from that photo, and do NOT photorealistically paste photo feathers. Keep dark blue-black bill/dull green cere, rounded brown heart-like ventral blotches already corrected v9, adult bodies/sex display proportions/branch grips/tails/environment unchanged. Do not change CENTRAL DEPENDENT JUVENILE: its existing curly down and extended wing are not validated by this face edit; retain explicit age/firstflight unverified. No new nest or flight demonstration. Adult labels add SEX INFERRED, center label remains dependent juvenile age unverified. Title '75 BROWN BOOBOOK v10 · Ninox scutulata'. Footer 'CONCEPT · SCIENTIFIC CALIBRATION PENDING · JUVENILE / FIRST FLIGHT / SEX DISPLAY RATIO UNVERIFIED'. Exact three birds and six securely supported feet.",
+      "source_ids": [
+        "SCU-BSS-WEB",
+        "MIKKOLA-2013"
+      ],
+      "new_sources": 0,
+      "image_metadata": {
+        "bytes": 2699914,
+        "sha256": "c1982ec5e5cc15651fbcf85a7d6f6185f2a54b761bc40134f41e4cd879f62f42",
+        "gitblob": "e130be6d3848b739b7997b975d1f222f6abb57c8",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-74510c2a-e1fe-4aca-871d-06ad005878f1.png",
+      "imagegen_wait_seconds": 36.096,
+      "editing_wait_seconds": 0,
+      "review_result": "NEEDS_REVISION",
+      "review": "实际查看v10：两成鸟白额火焰缩为小喙上白斑，多数额冠深棕，黄眼周暗圈、蓝黑喙/绿蜡膜保留；局部白斑通过，局限实物照与文字不支持精确面积。腹部前轮心形棕斑保留，六脚支撑不变，成人性别明确inferred。中央幼鸟卷绒/展开翼阶段相容性仍未解决，现有成熟状翼羽不能靠标签变为科学通过；本轮没有新的发育证据，禁止凭空改成更早日龄；75进入后续优先科学修正队列，整体NEEDS_REVISION，即使成人面部局部有效也不是整组通过。问题→小喙上斑被扩成白焰；证据→机构物种正文/同页实物照片+图鉴；修改→局限白斑；复查→有效。已回查75v9，保留；经验为面斑同时约束位置与面积类别，不能将small理解成全额装饰。后续75需带可靠幼鸟阶段影像重新界定羽被/翼姿，而非继续无证据微调卷绒。年龄/首飞/性比/巢位未知，sciencefalse。",
+      "reviewed_at": "2026-11-28T10:47:17.289Z",
+      "archived_at": "2026-11-28T10:47:22.651Z",
+      "archive_commit": "34575d7bed22649363a14a32e11eeb8791850385",
+      "ended_at": "2026-11-28T10:47:36.614Z",
+      "verification_exit_code": 0,
+      "commit_sha": "e0c07cf2c75f930004fb0b5381871a819ed6bdc3",
+      "credit_commit": "97da5165a39f6717091113d09b4a29653bf31478"
+    }
+  ],
+  "first_attempts": [],
+  "counts": {
+    "new_species": 0,
+    "revised_species": 6,
+    "canonical_before": 207,
+    "canonical_after": 207,
+    "scope": 251,
+    "numbered_images_before": 1502,
+    "numbered_images_after_expected": 1508,
+    "scientifically_verified_new": 0,
+    "new_user_confirmations": 0,
+    "local_pass_with_limitations": 5,
+    "needs_revision": 1
+  },
+  "sources": {
+    "new": 0,
+    "reused_citations": 10,
+    "unique_record_ids": 7,
+    "normalized_publications": 3,
+    "corrections": 2,
+    "corrections_detail": [
+      "145图鉴明确雄略大，补充定性方向而不称高度测量",
+      "146旧记录printed13更正printed14，保留稳定ID"
+    ]
+  },
+  "timing": [
+    {
+      "target": "144-ninox-spilocephala-v7",
+      "preparation_after_start_seconds": 181.639,
+      "imagegen_edit_call_wait_seconds": 40.868,
+      "additional_imagegen_wait_seconds": 0,
+      "archive_commit_seconds": 4.491,
+      "archive_readback_seconds": 12.764
+    },
+    {
+      "target": "147-ninox-leventisi-v7",
+      "preparation_after_start_seconds": 4.147,
+      "imagegen_edit_call_wait_seconds": 44.199,
+      "additional_imagegen_wait_seconds": 0,
+      "archive_commit_seconds": 4.188,
+      "archive_readback_seconds": 17.006
+    },
+    {
+      "target": "148-ninox-rumseyi-v7",
+      "preparation_after_start_seconds": 5.466,
+      "imagegen_edit_call_wait_seconds": 40.393,
+      "additional_imagegen_wait_seconds": 0,
+      "archive_commit_seconds": 4.327,
+      "archive_readback_seconds": 12.795
+    },
+    {
+      "target": "145-ninox-philippensis-v6",
+      "preparation_after_start_seconds": 5.33,
+      "imagegen_edit_call_wait_seconds": 38.847,
+      "additional_imagegen_wait_seconds": 0,
+      "archive_commit_seconds": 4.271,
+      "archive_readback_seconds": 14.919
+    },
+    {
+      "target": "146-ninox-mindorensis-v6",
+      "preparation_after_start_seconds": 5.607,
+      "imagegen_edit_call_wait_seconds": 35.525,
+      "additional_imagegen_wait_seconds": 0,
+      "archive_commit_seconds": 4.212,
+      "archive_readback_seconds": 15.169
+    },
+    {
+      "target": "75-ninox-scutulata-v10",
+      "preparation_after_start_seconds": 4.724,
+      "imagegen_edit_call_wait_seconds": 36.096,
+      "additional_imagegen_wait_seconds": 0,
+      "archive_commit_seconds": 5.361,
+      "archive_readback_seconds": 13.97
+    }
+  ],
+  "timing_limits": "Start→first RESEARCH_READY only is post-start preparation; preliminary read/search before STARTED is not measured. 145 repeated RESEARCH_READY is post-generation bibliographic correction and does not count as another cycle. All six calls edited existing images; no additional retry edit call. archive_commit excludes PNG blob upload time. No platform timeout telemetry.",
+  "errors": [
+    {
+      "step": "recover_fd9d70d",
+      "error": "GitHub GET422 No commit found",
+      "blocking": false,
+      "recovery": "第25组两远端原图已有同blob，将在集中字节回读验证；不重绘"
+    },
+    {
+      "step": "tool_output",
+      "error": "早期合并输出超出上下文截断",
+      "blocking": false,
+      "recovery": "检查实际c/head后不重启STARTED；重新单独查看Fig6照片与来源相关页"
+    }
+  ],
+  "uncertainties": [
+    "75juvenilecurl/extendedwingstage not calibrated; prioritized revision",
+    "108v21 previousNEEDS_REVISION not redrawn this invocation",
+    "147/148/146juvenileappearanceunsupported",
+    "alllatesttriptychs sciencefalse",
+    "44scopegap unifiedcurrent251machinecatalog remains incomplete"
+  ],
+  "next": {
+    "batch_id": "20261128T1028Z",
+    "completed": 4,
+    "next_cycle": 5
+  },
+  "outside_owl_changes": 0
+}

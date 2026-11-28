@@ -1,0 +1,447 @@
+{
+  "run_id": "20261128T0000Z",
+  "started_at": "2026-11-27T23:58:42Z",
+  "ended_at": "2026-11-28T00:17:56.236Z",
+  "completed_cycles": 6,
+  "new_species": 0,
+  "revised_versions": 6,
+  "revised_species": 5,
+  "counts": {
+    "baseline_images": 1430,
+    "final_images": 1436,
+    "historical_changed": 0,
+    "unique_species": 207
+  },
+  "science_passes": 0,
+  "local_pass_with_limitations": 2,
+  "needs_revision_versions": 4,
+  "source_counts": {
+    "new": 0,
+    "reuse_citations": 12,
+    "stable_ids": 10,
+    "document_families": 6,
+    "access_corrections": 1
+  },
+  "results": [
+    {
+      "run_id": "20261128T0000Z-108-otus-rutilus-v13",
+      "batch_id": "20261127T2326Z",
+      "cycle": 5,
+      "target": "108-otus-rutilus-v13",
+      "action": "REVISION",
+      "started_at": "2026-11-28T00:00:57.361Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T00:00:57.412Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T00:01:36.135Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T00:01:47.985Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T00:02:04.943Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T00:03:37.090Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T00:03:41.883Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T00:03:46.771Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T00:04:12.250Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T2326Z-cycle5-20261128T0000Z-108-otus-rutilus-v13.json",
+      "stage": "VERIFIED",
+      "research": "2026-11-28 access. Reuse RUT-VASSEN-2013-ANDASIBE-JUV FrankVassen4Dec2013 photo/upload19Jan2014 https://www.flickr.com/photos/42244964@N03/12038858063/ actualfreshcaption/datebodyread and imageopened; easternAndasibe Otusrutilus notsimilarlynamedAsiomadagascariensis, CC BY2 attributionretained. Existingv12 bellycurlswool differfinephotofeathergrain; newstrategybodymaterialrepaintwithoutjustshortening loops. MIKKOLA-2013 HeimoMikkola2013 printed143/PDF145 uploadedactualread: adultbrownmorphherringbone/whiteblackscapularrow/yelloweyes/graybrownbill-feet/darkclaws/featheredtarsi; female+18gmassnotheight, juvenileunknowninthebook. Sourcephotoalreadyidentifiedyoung, noexactday/sex/flight/nestproof; do notinventneonatalfeathersorremoveformedfeatherstagebyrule. OldScopsrutilus→Otusrutilus same251unit. Priorv11/v12failurechecked, this freshrepainttrialnotyetvalidated. New0/reuse2 sourceIDs, sciencefalse.",
+      "full_prompt": "Precise-object-edit #108 Otus rutilus v12. Completely repaint ONLY CENTRAL JUVENILE BODY PLUMAGE MATERIAL below its cheeks, from neck to belly. Replace tangled curly wool/rings with dense soft diffuse brown feather mass, composed of fine overlapping short STRAIGHT feather filaments in small irregular downward and outward strokes. No loops, U-shaped scallops, repeated curly outlines, crimped wool or knitted texture. Preserve brown tone and subtle irregular pigment, body volume and oval silhouette, all eye/bill/face pixels, headfluff, concealed folded wings/tail, both supportedfeet. Do not just blur or shorten existing curls: build fresh irregular feather strokes. Bothadult birds and allother scene/labels unchanged, titlev12→v13. Existing documented older unknown-stage juvenile, not newborn. Exact age/flight unknown. This is material repaint, not age change.",
+      "source_ids": [
+        "RUT-VASSEN-2013-ANDASIBE-JUV",
+        "MIKKOLA-2013"
+      ],
+      "new_sources": 0,
+      "source_access_correction": "FreshFlickrbody/date read but imageURL403; nofreshphotopixelverificationyet. Priorphoto interpretation retained aspriorrecord, notfresh evidence; must resolve via localsource or mirror beforeclaim.",
+      "source_access_resolution": "Actualviewed local cachedproduction1931nov27/108-field.jpg now; Commonsmirror metadata/caption/CCBY2 originalFlickr attribution read at https://commons.wikimedia.org/wiki/File:Juvenile_Madagascar_Scops_Owl_(Otus_rutilus),_Andasibe,_Madagascar.jpg . Samephoto notindependentsource. FreshFlickrimage403 retained. Correctionsappendnoterase priorclaim.",
+      "image_metadata": {
+        "bytes": 2653120,
+        "sha256": "b9ba86d7bb3f61807ee4ab33e5ec96202ad11fea3d42da9c8b2fbef645b1699e",
+        "gitblob": "24bfdd31027fc594e3df0ed5c2d010dda3284b6d",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-93f388e9-c731-4217-9e5b-dc1e4bf9bff9.png",
+      "imagegen_wait_seconds": 27.225,
+      "editing_wait_seconds": 0,
+      "review_result": "NEEDS_REVISION",
+      "review": "Actualv12/v13andlocalfieldphoto viewed. Newbodyrepaint removes most bellyloopgeometry but replacesit with too-long pointed strawlikefilaments versus finecompactsourcegrain. NEEDS_REVISION, not materialrepairpass. Face/iris/lowerlid/darkbill/bodyovality/headfluff/concealedwingtail/support retained, adults/scene/titlev13/footer retained. No knownage/flight/nest/sexratio. SourcefreshFlickrimage403, localcachedphotoactuallyviewed andCommonscaption/date/license corroborated, samephoto notindependent. Lesson changingcurvature alone canlengthen straightfilaments; nextstep mustbound filamentscale anddiffusebase, not claimloopremoval sufficient. Sciencefalse.",
+      "reviewed_at": "2026-11-28T00:03:41.870Z",
+      "archived_at": "2026-11-28T00:03:46.756Z",
+      "archive_commit": "0be238daabf27e596643255052c3327e6856e1bd",
+      "ended_at": "2026-11-28T00:04:12.227Z",
+      "verification_exit_code": 0,
+      "commit_sha": "4d4306dab0cd83e912a67ef320a9b1f7ee059c6d",
+      "credit_commit": "40268a20709f5e7300200aeea0f31331ed153b4d"
+    },
+    {
+      "run_id": "20261128T0000Z-108-otus-rutilus-v14",
+      "batch_id": "20261127T2326Z",
+      "cycle": 6,
+      "target": "108-otus-rutilus-v14",
+      "action": "REVISION",
+      "started_at": "2026-11-28T00:04:22.642Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T00:04:22.687Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T00:04:28.744Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T00:05:50.634Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T00:05:55.486Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T00:06:00.403Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T00:06:24.216Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261127T2326Z-cycle6-20261128T0000Z-108-otus-rutilus-v14.json",
+      "stage": "VERIFIED",
+      "research": "Reuse RUT-VASSEN-2013-ANDASIBE-JUV FrankVassen2013 sameFlickr/Commons image actuallyviewed priorcycle andnowreused, notnewphoto; noexactage/flight/sexclaim. MIKKOLA-2013 printed143 freshprecedingcycle nojuvenilephenotype inbook, reuseadultscopeonly. Freshactiveplumagequery and OwlPagesDescription/Breeding/Habitat bodyread https://www.owlpages.com/owls/species.php?s=440 DeaneLewis2020 (existingindexedsource check; notnewjuveniledevelopment evidence): adultsoftparts/brownmorphandhumidforest, reproductiongeneraldoesnotfixindividualage. Indexreuse2 countedproductionfacts; ancillarysecondaryreadnotindependentphoto. Actualv13changedloopsintolongstraw, correctionnowshortdiffusefilaments, compareoriginalphoto. Exactfeathermicrogeometryremains designinference, notnewscientificfact. FreshFlickrimage403 isrecorded, localcachedimageactualviewvalid; precedingready's imageopenedphrase correctedbyrunaccessnote. OldScops/currentOtusrutilus sameunit251, no sexheightmassconversion. New0/reuse2 sciencefalse.",
+      "full_prompt": "Precise-object-edit #108 Otus rutilus v13. CENTRAL JUVENILE torso only: replace long sharp strawlike protruding feather filaments with extremely SHORT, soft, fine feather fuzz merging into a dense diffuse brown undercoat. Filament length less than one fifth current length; very fine barely individually visible tips, no sculpted sharp straw spikes, no curls/loops, no U scallops. Keep natural irregular mottledbrown colour and originalovalbodysize; do not shrinkbody, erase down, or make plastic. Preserve entirehead/face/yellowbrowniris/pinklowerlid/darkbill, wings/tail concealed, twofoot support, alladultbiology/forest/rolelabels/footer. Titlev13→v14. A bounded length/material refinement, unknownage andflight unchanged.",
+      "source_ids": [
+        "RUT-VASSEN-2013-ANDASIBE-JUV",
+        "MIKKOLA-2013"
+      ],
+      "new_sources": 0,
+      "image_metadata": {
+        "bytes": 2563988,
+        "sha256": "b99f10e88961887fa1c02e5de51f5ff4c18b612d22b43fc13c8fb8ec3ebe90c5",
+        "gitblob": "ad58cde864a1b8e154b464a92961e469af833824",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-d3d9a164-7504-435f-83e4-c39a363b739e.png",
+      "imagegen_wait_seconds": 37.383,
+      "editing_wait_seconds": 0,
+      "review_result": "NEEDS_REVISION",
+      "review": "Actualv13/v14 viewed: longsharpstrawfilamentsreduced but roundedloop/woollikegeometryreturns onbelly, so NEEDS_REVISION notverifiedgrainrepair. Adultfaces/herringbone/scapularstripe/graybrownbills-feet/darkclaws andunknownstageyoungface/wingtailconcealment/sixfootcontacts/forest/labels retained. Two opposite materialinstructions oscillate longstraightvslooped; stopidenticalmaterialtrial and leaveexplicitqueue, sourceexactmicrogeometry/youngageflightunknown. Thisarchivecyclecomplete doesnotmean speciesbiologypass. Sciencefalse.",
+      "reviewed_at": "2026-11-28T00:05:55.470Z",
+      "archived_at": "2026-11-28T00:06:00.387Z",
+      "archive_commit": "c897ae5759ce49925518f7658a27864e10b40eff",
+      "ended_at": "2026-11-28T00:06:24.194Z",
+      "verification_exit_code": 0,
+      "commit_sha": "d24a9e088b46cf84b42d47c3169694e13150826a",
+      "credit_commit": "8a4a09fbf5f2c069700b94611e81088021ab05d7"
+    },
+    {
+      "run_id": "20261128T0000Z-130-megascops-koepckeae-v20",
+      "batch_id": "20261128T0000Z",
+      "cycle": 1,
+      "target": "130-megascops-koepckeae-v20",
+      "action": "REVISION",
+      "started_at": "2026-11-28T00:06:34.663Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T00:06:34.712Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T00:07:01.659Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T00:08:17.167Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T00:08:22.792Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T00:08:27.616Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T00:08:48.487Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0000Z-cycle1-20261128T0000Z-130-megascops-koepckeae-v20.json",
+      "stage": "VERIFIED",
+      "research": "New0/reuse2. KOEP-ALARCON-2023 IbethPAlarconetal2023 NeotropicalBiodiversity9:93–114 DOI10.1080/23766808.2023.2237229 universityoriginalURL https://biologia.uazuay.edu.ec/sites/biologia.uazuay.edu.ec/files/public/ReproductiveeventsofbirdsfromSouthernEcuador.pdf freshopen400tooLarge34951163; cachedoriginal actualprinted104/PDF13bodyread andFig1c printed95/PDF4cropactuallyviewednow. 23Apr2019Loja two parentaldependentfledglings graywhitebarred/brownchest/blackdiscrim/whitebrow/yelloweye/remainingnessoptiles onPodocarpus3–4m, noindividualhatchage/sex/firstflight. No adjacentotherbirddevelopmenttext transferred. KOEP-MIK2013-222 HeimoMikkola2013 uploadedprinted222/PDF224 actualread adultshorttufts/branchedstreaks/bluegreenhornbill/graybrowntoesdarkclaws/nosexsize data. Earlypalegraynestlingseparatefromolderfieldyoung. OldOtus→Megascopskoepckeae same251unit. Actualv19 andphoto showregularraisedUunits unlikefinebarredsurface; remove unitgeometryretainpigmentbars andformedwing. Scopeunknownexactmicrotexture, newtrialnotproven. Allsciencefalse.",
+      "full_prompt": "Precise-object-edit #130 Megascops koepckeae v19. CENTRAL? NO: juvenile is RIGHT. Repaint RIGHT juvenile chest and belly only: existing repeated raised U-shaped scalloped feather units look like loops. Replace their GEOMETRY with fine overlapping small irregular flat feather strokes following the body contour, unevenly spaced and partly down-veiled. Preserve gray and white horizontal PIGMENT barring and slight brown upperchest wash; bars should cross a continuous feather surface, not trace repeating U feather rims. No parallel ordered tile rows, no curly wool or long straw. Keep head/whitebrows/blackdiscrim/yelloweyes/bluishhornbill, compact formed foldedwing/tailhidden/feet/support entirely. Adults and habitat unchanged. v19→v20. Preserve older dependentfledgling, no newborn, no exactage/flight/prey/nest. One local geometry trial, no new scientificapproval.",
+      "source_ids": [
+        "KOEP-ALARCON-2023",
+        "KOEP-MIK2013-222"
+      ],
+      "new_sources": 0,
+      "image_metadata": {
+        "bytes": 2381420,
+        "sha256": "5e0a46ea460f183f772122fbaf39a06e1b21dfe6f35ff74c775fcd1c7601202a",
+        "gitblob": "fe1751e9346c64954d8025f7e67bf70f51268f63",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-f9e91454-48fa-4225-8b0c-0e2dc1f8224e.png",
+      "imagegen_wait_seconds": 37.585,
+      "editing_wait_seconds": 0,
+      "review_result": "NEEDS_REVISION",
+      "review": "Actualv19/v20andFig1c viewed: juvenilebodychangedUscallopsinto leaf-shapedoutlinedunits withfinecurvedstrands; still regularunits andnotsource-likefinebarrednessoptiles. NEEDS_REVISION; no materialrepairclaim. Evidencegraywhitebars/brownchest/whitebrows/yelloweyes/blackdisc/compactformedwing/no prey/ageunknown/support retained, adultsunchanged. Lesson flatstrokerepaint still retainedunitrepeatgrammar; repeatingsoftening notproven. Sciencefalse.",
+      "reviewed_at": "2026-11-28T00:08:22.778Z",
+      "archived_at": "2026-11-28T00:08:27.602Z",
+      "archive_commit": "afe0ed5ad78715c753730db5b0e1f8197adac37a",
+      "ended_at": "2026-11-28T00:08:48.466Z",
+      "verification_exit_code": 0,
+      "commit_sha": "62036d3e6c5182030542fd00fe12a5e9bd0faaa6",
+      "credit_commit": "b95bde3a34f001026810792fd2831cd07ee28fb1"
+    },
+    {
+      "run_id": "20261128T0000Z-206-glaucidium-castanopterum-v8",
+      "batch_id": "20261128T0000Z",
+      "cycle": 2,
+      "target": "206-glaucidium-castanopterum-v8",
+      "action": "REVISION",
+      "started_at": "2026-11-28T00:08:59.722Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T00:08:59.768Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T00:09:21.818Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T00:10:37.352Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T00:10:43.558Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T00:10:48.377Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T00:11:11.991Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0000Z-cycle2-20261128T0000Z-206-glaucidium-castanopterum-v8.json",
+      "stage": "VERIFIED",
+      "research": "Reuse2/new0. GCAS-VERONESI-2016-29030338883 FrancescoVeronesi CaritaJava14Aug2016 originalmetadata/licenseactualfreshbody https://commons.wikimedia.org/wiki/File:Javan_Owlet_-_Carita_-_Java_MG_3575_(29030338883).jpg read; cached749x1092photoactuallyviewed. Thinpalebrowonroundflathead vs LEFTv7raisedangularinnerbrowflaps, rightadultalreadyflatter. CCBYSA2 attributionretained, flashunsexedindividual noexactnaturalRGBorpopulationbrowratio. GCAS-MIKKOLA-2013-P407 HeimoMikkola2013 uploaded407/PDF409actualread yelloweye/greenyellowbill/olivecere/roundno-tufthead/chestnut-whitebody/olivetoe/darkclaw/nosexsizeevidence. Dulleradultlikefledglingnotwhitishdownbirthstage, keepyoungunchangedeye/billchronologyunknown. OldTaenioglauxcastanoptera/Strixcastanoptera→Glaucidiumcastanopterum same251unit. Localleftbrowprojectioncorrectiononly,no newscientificapproval. Activeexternalphotosearchfoundotherimagesbutnotusedunreadphotosasfacts.",
+      "full_prompt": "Precise-object-edit #206 Glaucidium castanopterum v7. LEFT adult male eyebrow ridge ONLY: remove the two sharply lifted pointed pale feather flaps over inner eye corners. Replace with flat short fine pale buff-brown feathering aligned smoothly with round head curvature; keep a subtle thin pale eye ring/brow pigment, not a protruding triangular 'angry' ridge. Preserve exact eye size/direction/yellowiris, olivecere/green-yellowbill, allcrown pigmentbars/noear-tufts. Do not alter centraladultfemale alreadyflatter brow, entire rightfledgling, bodyplumage, feet/support/scene/alllabels. v7→v8. No biologicalage/sexchange; localshape correction toward originalphoto's smoothbrow only.",
+      "source_ids": [
+        "GCAS-VERONESI-2016-29030338883",
+        "GCAS-MIKKOLA-2013-P407"
+      ],
+      "new_sources": 0,
+      "image_metadata": {
+        "bytes": 2457789,
+        "sha256": "5e1dea3a7826b32b52e74be691a0cfd7805c517aa554baac5b1faf9768b04583",
+        "gitblob": "72c4bb91dbf4674db7e6643920c5d8385161fb79",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-9ba5bcc4-e0ff-4d12-bc45-94ce9e69a8d4.png",
+      "imagegen_wait_seconds": 34.381,
+      "editing_wait_seconds": 0,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "review": "Actualv7/v8andVeronesioriginalphoto viewed. Leftinnerbrowedge slightlylower/flatter, but someangularsculptedridge remains; onlymodestlocalPWL, nofullphotoequivalence/scientificpass. Thinpalepigment/orbitaledgeretained, noerasedeyering; roundcrown/noear-tufts/yellowiris/olivecere/greenyellowbill/chestnut-whitebody/olivetoesdarkclaws andsixbranchgrips unchanged. Entireageunknownfledglingandrightadultscopepreserved. Lesson localizedleft-onlyshapeeditavoidsundoingrightadultpriorfix, effectmodest/notuniversalproof. Sciencefalse.",
+      "reviewed_at": "2026-11-28T00:10:43.544Z",
+      "archived_at": "2026-11-28T00:10:48.361Z",
+      "archive_commit": "3c2b64b8e828f2136168c6d9dd6aca13e5f09686",
+      "ended_at": "2026-11-28T00:11:11.966Z",
+      "verification_exit_code": 0,
+      "commit_sha": "0309b8f5228026420d6656361b00d0998c975110",
+      "credit_commit": "98e5743d5feeaf5a2dc9e9c1b484e0955cbfd636"
+    },
+    {
+      "run_id": "20261128T0000Z-119-megascops-centralis-v12",
+      "batch_id": "20261128T0000Z",
+      "cycle": 3,
+      "target": "119-megascops-centralis-v12",
+      "action": "REVISION",
+      "started_at": "2026-11-28T00:11:24.340Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T00:11:24.387Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T00:11:48.122Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T00:13:14.722Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T00:13:20.495Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T00:13:25.808Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T00:14:02.750Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0000Z-cycle3-20261128T0000Z-119-megascops-centralis-v12.json",
+      "stage": "VERIFIED",
+      "research": "New0/reuse2. CHSO-JORDAN-2012-ADULT RaphaelJordan SanTadeoPichinchaEcuadorOct2012 https://www.oiseaux.net/photos/raphael.jordan/petit-duc.du.choco.1.html originalmetadata74–92freshread/ISO3200noflash, local1024x682photographactuallyviewednow; fineflatfacialfeathers notraisedregularrims. NoabsoluteRGB/sex/juvenileclaim fromthisadultphoto; copyrightedphoto linkedonlynotrepublished. CHSO-MIKKOLA-2013-P242-243 HeimoMikkola2013 actualuploaded242–243/PDF244–245read: weakbrows/outerdiscvirtuallynoedge/blackorbitalring/lemoniris/greenyellowbill/graywhitevermiculatedventrum/shorttufts/nosexsize, juvenileundescribed. OldOtusguatemalaecentralis/Mvermiculatuscentralis→Mcentralis currentsameunit251. Actualv11 retainsraisedsideheadfeatherunits afterearliertopcrownfix; targetgeometrynotcolour/speciesmorphreassignment. Youngunchangedunknownage/flight/iris andexistingcavitydisplaynotnewnestdata. Materialinferenceboundednotnewscience.",
+      "full_prompt": "Precise-object-edit #119 Megascops centralis v11. BOTH ADULT SIDE-HEAD/CHEEK feather surfaces only: flatten raised regularly outlined pointed/scalloped feather rims into smooth short close-lying fine graybrown/rufousbrown speckled contour feathers. Retain current face/crown colour and irregular pigment, weakbrows, virtually unbordered outerfacialdisc, blackorbitalring, lemoneyes/green-yellowbill/shorttufts. No blanketdarkening fromone lowlightphoto. Preserve topcrownpreviousfix, adultgraywhitevermiculatedbellyfix, whitecoverts/yellowbuffbars/shorttail/paletoes/hornclaws, wholecentralolderjuvenile andallfootcontacts/cavitysill/forest/labels. v11→v12. Change raised cheek geometry only, no newage/nest/sexsize/flight claim.",
+      "source_ids": [
+        "CHSO-JORDAN-2012-ADULT",
+        "CHSO-MIKKOLA-2013-P242-243"
+      ],
+      "new_sources": 0,
+      "image_metadata": {
+        "bytes": 2624711,
+        "sha256": "51307fd7f254385d79767764554f4cf264e8d3859c70672ad36b7c7ab6960ea3",
+        "gitblob": "abcbfa5e28e0b063e559709bf75106fb5647e467",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-2584c580-231b-494c-8676-6d312687cef2.png",
+      "imagegen_wait_seconds": 38.683,
+      "editing_wait_seconds": 0,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "review": "Actualv11/v12fullandJordanadultphoto viewed: sidehead/cheekssmoothflatfinefeatherstrokes nowreplace prominentpointedoverlaprims, visuallyclearlocalPWL. Weakbrows/plainouterdisc/blackorbitalring/lemoniris/greenyellowbill/shorttufts unchanged, topcrown andgraywhitevermiculatedbellypriorfix retained. Allthreebirds/sixsupports/cavitysill/titlev12/footer intact; centralolderyoungunchanged. No allmorphdarkening fromISO3200photo, no preciseRGB/sex/youngage/flight/nestvalidation. Lesson changingrestrictedcontourgeometry canretainpigmentandseparateearlierfixes; oneactualcaseonly, notfuturemethodproof. Sciencefalse.",
+      "reviewed_at": "2026-11-28T00:13:20.481Z",
+      "archived_at": "2026-11-28T00:13:25.792Z",
+      "archive_commit": "d80219e7f12c0ebf0b9479450557175f2e5d837f",
+      "ended_at": "2026-11-28T00:14:02.729Z",
+      "verification_exit_code": 0,
+      "commit_sha": "e297c3cdea31ac8e3fe35982e8f5f8b498585cc2",
+      "credit_commit": "db69412669a66802fd33daa4e20fca2792d09f4e"
+    },
+    {
+      "run_id": "20261128T0000Z-112-asio-abyssinicus-v13",
+      "batch_id": "20261128T0000Z",
+      "cycle": 4,
+      "target": "112-asio-abyssinicus-v13",
+      "action": "REVISION",
+      "started_at": "2026-11-28T00:14:13.584Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T00:14:13.629Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T00:14:20.397Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T00:15:58.028Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T00:16:04.199Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T00:16:10.076Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T00:16:34.891Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0000Z-cycle4-20261128T0000Z-112-asio-abyssinicus-v13.json",
+      "stage": "VERIFIED",
+      "research": "New0/reuse2. ABY-MATON-1989-JUV PeterMatonEthiopia1989scannedslide https://www.flickr.com/photos/34579661@N04/5424426357/ freshoriginalcaption/bodyopened, localcachedphotoactuallyviewednow: olderformedwing/barredtail/darkmask/orangeeye/palecrownpatch retained; scanresolution cannotcalibrateindividualdownbarbs or absoluteRGB. Existingv12 torso containsobviouslargecurlyloops, chooseartisticfinegrainrefinementONLYnotnewscientificdownchronology. WHSO-MIKKOLA-2013 HeimoMikkola2013 uploadedprinted508/PDF510actualtextread adultslegANDtoesfullyfeathered/blackishhornclaws/femalesonlyslightlylarger/mountainforest; no transferadulttoecoverontounknownyoung, bookAotusyoungspeculationnotadopted. OldAsiootusabyssinicus currentAabyssinicus same251unit. Exactyoungage/firstflight/continuousfeathers/sexunknown. Recheckadulttoefixaftermaterialedit; sourcegrainnotcertified. No newnest details.",
+      "full_prompt": "Precise-object-edit #112 Asio abyssinicus v12. ONLY central olderjuvenile torso down material: reduce conspicuous large looping curlywool outlines to a diffuse fine irregular charcoal-brown soft feather texture. Short granular and tiny straight-fuzz tips, no long strawspikes and no repeating U curls or knittedrings. Preserve darksoftbodyvolume/colour, and never erase documented formedbarredwing andbarredtail. Keepexacthead/paleforeheadpatch/darkmask/orangeiris/blackbill/youngfeet/branchsupport, wholeadults includingfullyfeatheredtoetops/darkclaws andalladulttufts/patterns/scene/roles/pendingfooter. v12→v13. Pure bounded materialdesignrefinement fromolderfieldyoung, not a newborn or knownage/flight reconstruction; no changeadulttoes.",
+      "source_ids": [
+        "ABY-MATON-1989-JUV",
+        "WHSO-MIKKOLA-2013"
+      ],
+      "new_sources": 0,
+      "image_metadata": {
+        "bytes": 2674809,
+        "sha256": "3e603aac736cd1b632fee15a17dc2c45baf5872dcc1acfd4b1bab190a97dd3db",
+        "gitblob": "4faee0c0bed9573ca24191a84604218beae59062",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-0d32511c-0fc0-42e4-9492-23c39339eaf9.png",
+      "imagegen_wait_seconds": 48.151,
+      "editing_wait_seconds": 0,
+      "review_result": "NEEDS_REVISION",
+      "review": "Actualv12/v13fullandMatonscannedyoung viewed. Juveniletorso stillprominentcurlyloops; no confident materialimprovement, NEEDS_REVISION. Headpalecrownpatch/darkmask/orangeiris/blackbill/formedbarredwing/barredtail/youngfeet andsixsupports retained; adultfullyfeatheredtoes/darkclaws andadultplumage/tufts/roles/v13/footer preserved. Do notremoveformedyoungwingbecausecharcoaldown remains. Sourcecaption1989 takesprecedenceoverFlickr2011digitaltimestamp, scan cannotproveindividualbarbgeometry. Lesson material-onlygrainrequestfailedhereand108/130; no methodimprovementclaimed, prioritize differentrenderstrategy nexttime ratherthan identicaledits. Sciencefalse.",
+      "reviewed_at": "2026-11-28T00:16:04.183Z",
+      "archived_at": "2026-11-28T00:16:10.055Z",
+      "archive_commit": "9256ddd7c50103a852a76ccaca16850d4a476289",
+      "ended_at": "2026-11-28T00:16:34.869Z",
+      "verification_exit_code": 0,
+      "commit_sha": "32a14ba0d1f7c32e58d55c811bd63726f2539837",
+      "credit_commit": "7d0f75a4acb429d237de4ece65292654777bc6cc"
+    }
+  ],
+  "source_errors": [
+    {
+      "step": "Flickrsourceimage",
+      "error": "403",
+      "recovery": "localcachedphoto actuallyviewed; Commonsmetadataread"
+    },
+    {
+      "step": "universityprimaryPDF",
+      "error": "400tooLarge34951163",
+      "recovery": "cachedoriginalfullPDFpage104 andFig1c read"
+    }
+  ],
+  "platform_timeout_telemetry": null,
+  "unmeasured": "Independentbinaryuploadstopwatch; no inventedpurestagedurations",
+  "recovery25": {
+    "old_commit": "fd9d70d",
+    "error422": true,
+    "local_unavailable": true,
+    "remote_blob": "10508841ef5f6184e8658664615302909765c1dd"
+  }
+}

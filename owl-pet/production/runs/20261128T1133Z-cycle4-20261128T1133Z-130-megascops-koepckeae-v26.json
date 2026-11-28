@@ -17,6 +17,10 @@
     {
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-28T11:51:21.178Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T11:52:48.912Z"
     }
   ],
   "scientifically_verified": false,
@@ -39,5 +43,18 @@
     ]
   },
   "first_attempt_review": "材质改善但成人槽位标签丢失male/female，需要二编文字；幼鸟U纹仍偏规则不科学通过。",
-  "followup_prompt": "Edit TEXT ONLY on #130 v26. Left adult plaque must say 'ADULT MALE · SEX INFERRED', middle adult plaque 'ADULT FEMALE · SEX INFERRED'. Preserve every bird/feather/foot/branch/pixel composition, title v26, juvenile label and footer. These are design slots, not photographic sex identification. Do not otherwise change the image."
+  "followup_prompt": "Edit TEXT ONLY on #130 v26. Left adult plaque must say 'ADULT MALE · SEX INFERRED', middle adult plaque 'ADULT FEMALE · SEX INFERRED'. Preserve every bird/feather/foot/branch/pixel composition, title v26, juvenile label and footer. These are design slots, not photographic sex identification. Do not otherwise change the image.",
+  "image_metadata": {
+    "bytes": 2727383,
+    "sha256": "8762536db113c1c8bd9f97ebc8955c370db3e569ee7a7a6303d14436966a131a",
+    "gitblob": "c91b36608a34797190abb69246db4e0f1238703d",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-ea646f6f-0d1e-4443-8940-fa29dec0535a.png",
+  "imagegen_wait_seconds": 46.189,
+  "editing_wait_seconds": 33.87,
+  "review_result": "NEEDS_REVISION"
 }

@@ -959,3 +959,7 @@ Actualv12/v13andlocalfieldphoto viewed. Newbodyrepaint removes most bellyloopgeo
 
 ## 20261128T0000Z 108-otus-rutilus-v14
 Actualv13/v14 viewed: longsharpstrawfilamentsreduced but roundedloop/woollikegeometryreturns onbelly, so NEEDS_REVISION notverifiedgrainrepair. Adultfaces/herringbone/scapularstripe/graybrownbills-feet/darkclaws andunknownstageyoungface/wingtailconcealment/sixfootcontacts/forest/labels retained. Two opposite materialinstructions oscillate longstraightvslooped; stopidenticalmaterialtrial and leaveexplicitqueue, sourceexactmicrogeometry/youngageflightunknown. Thisarchivecyclecomplete doesnotmean speciesbiologypass. Sciencefalse.
+
+
+## 20261128T0000Z 130-megascops-koepckeae-v20
+Actualv19/v20andFig1c viewed: juvenilebodychangedUscallopsinto leaf-shapedoutlinedunits withfinecurvedstrands; still regularunits andnotsource-likefinebarrednessoptiles. NEEDS_REVISION; no materialrepairclaim. Evidencegraywhitebars/brownchest/whitebrows/yelloweyes/blackdisc/compactformedwing/no prey/ageunknown/support retained, adultsunchanged. Lesson flatstrokerepaint still retainedunitrepeatgrammar; repeatingsoftening notproven. Sciencefalse.

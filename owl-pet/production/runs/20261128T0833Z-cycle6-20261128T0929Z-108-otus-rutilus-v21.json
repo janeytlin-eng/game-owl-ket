@@ -21,11 +21,15 @@
     {
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-28T09:37:30.947Z"
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-28T09:37:37.357Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0833Z-cycle6-20261128T0929Z-108-otus-rutilus-v21.json",
-  "stage": "IMAGE_GENERATED",
+  "stage": "REVIEWED",
   "research": "Access2026-11-28. Reuse RUT-VASSEN-2013-ANDASIBE-JUV FrankVassen4Dec2013 Andasibe, original https://www.flickr.com/photos/42244964@N03/12038858063/ via https://commons.wikimedia.org/wiki/File:Juvenile_Madagascar_Scops_Owl_(Otus_rutilus),_Andasibe,_Madagascar.jpg actualfreshpage113–136read and cachedfieldphoto viewed: fine short uneven brown-buff down, mottled shade/loosebar-like tonalpatches, darkmask/yellowiris/pinkeyelid, grippingnaturalbranch; sex/preciseage/flightunknown. CC BY2.0 https://creativecommons.org/licenses/by/2.0/ attributionforphoto-derived adaptation, photographerdoesnotendorse. Reuse MIKKOLA-2013 HeimoMikkola2013 uploadedprinted143/PDF145actualread: guidejuvenileunknown, notinvalidatinglaterfieldphoto; femalemassavg18gmore notheight; adultyelloweyes/graybrownbill/tarsitotoebase. OldScopsrutilus→Otusrutilus. Earlier whole-surface de-loop smoothing inadequate; newexperiment closerphoto-derived tonalpatches/shortdownmatte ratheruniformlongfur. Sourcephotoisoneindividual/unknownage/sex, cannotassignhatchlingorwingability. Retainadultconceptstyle/size/nonnestforestdisplay; no scientificpassimplied. Search discovered secondVassenphoto11786459974same2013date, searchmetadataonly notfreshread/pixels; notnewsource/independentbroodproof. New0/reuse2.",
   "full_prompt": "Use case precise-object-edit. Image1 edit target #108 Otus rutilus v20 plate. Image2 supporting juvenile fieldphoto by Frank Vassen (Andasibe4Dec2013; CC BY2.0; unknown exactage/sex/flight). Replace ONLY the central juvenile's entire feather surface using the photo as the primary material reference. Currentjuvenile is too uniform orange mammal fur with long strands. Desired: MUCH shorter matte fine brown-buff down, uneven gray-brown shaded mottling and subtle broken crosswise tonal patches as in photo, loose fine wisps only around silhouette. No uniform longhair coat, no knotted/woolly loops, no outlined overlapping leaf/scales. Preserve fluffy oval owl volume, small darkface/yellowiris/pinklid/darkbill, original3/4rightheadposition and supportedfeet. Do not paste photograph or change the adults, their display size/style, plaques/forest/branch/composition. Do not add exposed mature primary/tailfeathers under this fluffy stage, or invent exactage. Keepalltext and scientificuncertaintylabels, updatev20→v21.",
   "source_ids": [
@@ -56,5 +60,7 @@
   "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-e08bc6d4-d0ac-4231-b294-85906c3c5293.png",
   "imagegen_wait_seconds": 40.77,
   "editing_wait_seconds": 38.191,
-  "review_result": "NEEDS_REVISION"
+  "review_result": "NEEDS_REVISION",
+  "review": "Actualfirst+edit viewed against Vassenphoto: edit softened overly strong chestband and shortenedlowerbodyhair somewhat, but repetitive tiny loop/ringpattern remains overuniformbody. NEEDS_REVISION, not scientificpass. Supportedfeet/headprofile/unknownageflightlabels preserved, adults unchangedconceptstyling. Do notcallmethodvalidated orresolved. Lesson: shorterdown/stipple instructions plus oldtarget still inheritloops; repeatedminor rewording haslowbenefit. Futuretest shouldchange representation/material strategy withsource, notkeepclaimingsmoothingworks. Fieldphotooneindividual retainsage/sex/flightuncertainty; guideadultmassnotheight. Prior108versionskeptandremainunapproved; no automaticretroactivepass.",
+  "reviewed_at": "2026-11-28T09:37:37.343Z"
 }

@@ -1135,3 +1135,7 @@ Firstactualfacepolygonoutlinesfailed. Secondactualview finegray-white radiatingf
 
 ## 20261128T0533Z 137-otus-alfredi-v11
 Actualoutputviewed: longprofuserufousadultbristleswithdarkertips replacewhite; lengthschematic/exaggeratedandnotmeasurementaccurate, localpigmentPWLonly. Adultdarkrimnotadded, recentbelly/whitediamonds/crown/side-neckscales/yellowbareparts preserved; entirejuvenile/formedwingtail/historicalmale/ageunknown/grip unchanged. Reviewcomparisonv10supportscolourchange notnewanatomy. Negative juveniletexturequeue108/130/112unchanged; rulepigmentcorrectiononlysourceapplicablespecies.
+
+
+## 20261128T0533Z 85-otus-semitorques-v14
+Actualoutputviewed: adults scapularwhite row muted/intERRUPTEDwithbrown-gaps; smallpalepatchesremain rather continuousstripe. LocalpigmentPWL; some lightwingpatches stillstylized but continuouswhitebandnotpresent. Existingface/tufts/orangeiris/grayhornbill/featheredtoes/abdominalherringbone preserved; entireyoungunchanged includingknowncurltexturelimitation/shadowedunverifiedeyes/developingwingtail/lowmovementstage/notnewborn. Nestunknown, forestCryptomeriasupport unchanged. Guide/paperirisdifference notsilentlyresolved; original2025orangeadult evidence retained. Notfullspeciespass.

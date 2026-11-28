@@ -13,16 +13,33 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T00:09:21.818Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T00:10:37.352Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0000Z-cycle2-20261128T0000Z-206-glaucidium-castanopterum-v8.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Reuse2/new0. GCAS-VERONESI-2016-29030338883 FrancescoVeronesi CaritaJava14Aug2016 originalmetadata/licenseactualfreshbody https://commons.wikimedia.org/wiki/File:Javan_Owlet_-_Carita_-_Java_MG_3575_(29030338883).jpg read; cached749x1092photoactuallyviewed. Thinpalebrowonroundflathead vs LEFTv7raisedangularinnerbrowflaps, rightadultalreadyflatter. CCBYSA2 attributionretained, flashunsexedindividual noexactnaturalRGBorpopulationbrowratio. GCAS-MIKKOLA-2013-P407 HeimoMikkola2013 uploaded407/PDF409actualread yelloweye/greenyellowbill/olivecere/roundno-tufthead/chestnut-whitebody/olivetoe/darkclaw/nosexsizeevidence. Dulleradultlikefledglingnotwhitishdownbirthstage, keepyoungunchangedeye/billchronologyunknown. OldTaenioglauxcastanoptera/Strixcastanoptera→Glaucidiumcastanopterum same251unit. Localleftbrowprojectioncorrectiononly,no newscientificapproval. Activeexternalphotosearchfoundotherimagesbutnotusedunreadphotosasfacts.",
   "full_prompt": "Precise-object-edit #206 Glaucidium castanopterum v7. LEFT adult male eyebrow ridge ONLY: remove the two sharply lifted pointed pale feather flaps over inner eye corners. Replace with flat short fine pale buff-brown feathering aligned smoothly with round head curvature; keep a subtle thin pale eye ring/brow pigment, not a protruding triangular 'angry' ridge. Preserve exact eye size/direction/yellowiris, olivecere/green-yellowbill, allcrown pigmentbars/noear-tufts. Do not alter centraladultfemale alreadyflatter brow, entire rightfledgling, bodyplumage, feet/support/scene/alllabels. v7→v8. No biologicalage/sexchange; localshape correction toward originalphoto's smoothbrow only.",
   "source_ids": [
     "GCAS-VERONESI-2016-29030338883",
     "GCAS-MIKKOLA-2013-P407"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "image_metadata": {
+    "bytes": 2457789,
+    "sha256": "5e1dea3a7826b32b52e74be691a0cfd7805c517aa554baac5b1faf9768b04583",
+    "gitblob": "72c4bb91dbf4674db7e6643920c5d8385161fb79",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-9ba5bcc4-e0ff-4d12-bc45-94ce9e69a8d4.png",
+  "imagegen_wait_seconds": 34.381,
+  "editing_wait_seconds": 0,
+  "review_result": "PASS_WITH_LIMITATIONS"
 }

@@ -13,16 +13,41 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T17:32:32.557Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T17:33:51.718Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T1632Z-cycle4-20261128T1725Z-22-gymnasio-nudipes-v7.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Reuse PRO-BIRDSCARIB-2021, BirdsCaribbean From the Nest Day66 (2021-05-14), https://www.birdscaribbean.org/2021/0/page/2/ actual species text section opened2026-11-29; barelegs, similarsexes/slightmassdirection, small alarmfeathers, cavitycontext. No iriscolor attribution: earlier correction remains. Reuse MIKKOLA-2013 printed246/PDF248 actuallyreadlocal uploadedguide: bare tarsal/toe parts grayishyellow, hornclaws blackishtipped; no quantifiedsexsize. Currentv6 adults have distinctlypink tarsi/toes; limited adultbarepart palette correction toward dullgrayyellow, preserve uppermostfeathering/shape/darkclaws. Keep wholeunknownyoung and existingiriscolours provisional, no new juvenilefacts/flight/day. CurrentGymnasionudipes=oldMegascopsnudipes/Otusnudipes. Oldyelloweyedescription conflicts currentdarkiris; not resolved from institution silence. All subspecies/youngplumage/nestgeometry/sexratio unverified. New0/reused2; ABCnewsearchlead opened but not used for design, avoid duplicate indexing without useful newfact. Lesson: adultbarepartsource cannot validate juvenile colour or use mass as heightformula.",
   "full_prompt": "Use case: precise-object-edit. Edit #22 Gymnasio nudipes v6, ONLY adult male and adult female visible bare tarsi and toes: change pink flesh tone to subdued grayish-yellow / dull yellow-gray scaly skin. Retain exactly same leg lengths, anatomy, toe number and branch-gripping contacts, feather border at uppermost tarsus, horn claws with black tips. Do not alter juvenile ANYWHERE, especially unknown iris/youngwings/feathering/pose. Preserve both entire adults beyond skin hue, reddish-brown eyes provisional, green-gray bills, plumage, near-equal proportions, low alertcorners, all labels/footer, hollow and forest. Exactly3owls, same1536x1024 warm naturalhistory style. No universal sex multiplier or scientificapproval.",
   "source_ids": [
     "PRO-BIRDSCARIB-2021",
     "MIKKOLA-2013"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "archive_transfers": [
+    {
+      "started_at": "2026-11-28T17:33:29.871Z",
+      "ended_at": "2026-11-28T17:33:51.697Z",
+      "elapsed_seconds": 21.826,
+      "scope": "base64 preparation+blob transfer+hash validation"
+    }
+  ],
+  "image_metadata": {
+    "bytes": 2775103,
+    "sha256": "5f96d76f2eb1319f13debd6d295dc57c21ed4b6b3bd4614a1d1c703ad99155f9",
+    "gitblob": "2e10b74274c78fcc2d3181cc0889bcc1f0ffed9e",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-ab14b383-3f50-427c-9e3c-2e29c128893b.png",
+  "imagegen_wait_seconds": 39.17,
+  "editing_wait_seconds": 0,
+  "review_result": "PASS_WITH_LIMITATIONS adult barepart hue only; science pending"
 }

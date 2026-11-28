@@ -1099,3 +1099,7 @@ Actualv15/v16wholeimagesviewed. Bothadulttuftpigmentnowdarkbrown/blackbrownwithm
 
 ## 20261128T0329Z orchestration recovery evidence
 Observed once: a second exec attempted an intermediate-image commit before the earlier long exec's RESEARCH_READY commit had settled in the shared store; expected-head guard rejected HEAD_CHANGED. Actual remote advanced commit was our own112RESEARCH_READY. Recovery applied: wait for original exec completion, freshly read remote/store equality and commit message, then serially archive/credit/retry using latestbase and expected_sha nonforce. Verified successfulreadback; no overwrite. Rule: don't perform a second Git mutation while an earlier mutatingexec is stillrunning; independentread-only work is fine. This is one observedrecovery, notconcurrencystresstest or guarantee.
+
+
+## 20261128T0430Z 108-otus-rutilus-v18
+Actual first and second generated images visually inspected. Second head filaments straighter/shorter, but repetitive bright edged leaf surfaces persist on body. NEEDS_REVISION, scientifically false. Adults/scale/eyes/bill/toes/forest/support remain visually consistent. Juvenile stage unchanged unknown age, flightunverified, no mature spreadwings or invented nest. Proposed unoutlined shortvane construction not validated effective; no third nearly identical attempt this cycle. Sourcephoto actually seen is finer flatter mottling; keep unresolved queue108/130/112 and do not transfer adult fixes to juvenile success.

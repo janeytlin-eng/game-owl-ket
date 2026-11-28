@@ -13,16 +13,35 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T03:09:38.429Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T03:12:00.101Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0232Z-cycle6-20261128T0304Z-130-megascops-koepckeae-v22.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Access2026-11-28Shanghai new0/reuse2. KOEP-ALARCON-2023 IbethPAlarconetal2023 NeotropicalBiodiversity9:93–114 DOI10.1080/23766808.2023.2237229, https://biologia.uazuay.edu.ec/sites/biologia.uazuay.edu.ec/files/public/ReproductiveeventsofbirdsfromSouthernEcuador.pdf freshwebopen400tooLarge34951163; cachedoriginalactualbodyp104/PDF13readandp95/PDF4Fig1cactuallyviewed.23Apr2019Loja2dependentfledglings nessoptilesallbody graywhitebarred/brownchest/blackdiscwhitebrowsyellowiris, Podocarpus3–4m. Exactage/sex/firstflightunknown; nofrogadded. KOEP-MIK2013-222 HeimoMikkola2013uploaded222/PDF224actuallyreadthisrun: adultsbroadilldefinedshaftbranches/shorttufts/bluegreenhornbill/graybrowntoes/darkclaws/noRSDdata. Palegraynestlingdifferentstage. Otuskoepckeae→Megascopskoepckeae sameunit. V21regularoutlinedleafunits unfaithful; newmethod reducecontrastedfeatherunitoutlineswhilepreservepigmentbars andformedwing; notregressage. Sourcecannotvalidatemicrobarbs.",
   "full_prompt": "Precise-object-edit #130 v21. Right juvenile BODY: remove bright outlined leaf-shaped units; make bar pigments soft irregular grey/white transverse broken bands on a matte low-relief feather surface. Feather unit boundaries must not be separately bright outlined. Retain brown chest wash and fine marginal fluff. Do NOT change formed folded wing length, head/blackdisc/whitebrows/yelloweyes/bill, feetgrips or age. Both adults, scenery, geometry, labels and footer unchanged. v21→v22. Reference image2 ONLY bodypattern, no frog/prey added. No skin, newborn regression or inventedflight.",
   "source_ids": [
     "KOEP-ALARCON-2023",
     "KOEP-MIK2013-222"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "first_attempt_file": "/workspace/scratch/96400dc71dac/generated_images/exec-26543f1f-7d98-492c-8e34-c5f49f62c982.png",
+  "retry_prompt": "Correct only right juvenile LOWER BREAST AND BELLY in v22. Current pale loops still trace individual leaf shapes. Replace those WHITE OUTLINES with broad soft diffuse horizontal GREY-WHITE PIGMENT BARS crossing feather boundaries; no raised loops, no separate V or teardrop edges. Keep body outline/head/formed wing/tail/feet/adults/branch/text exactly fixed. Do not add adult black shaft streaks. Same source photo brown chest/grey white barred dependency stage; retainv22.",
+  "image_metadata": {
+    "bytes": 2419236,
+    "sha256": "bb32d00c0c8c70b70aaf1082f91a01bb510fb81fde534644b735fa8e3a6fdc3e",
+    "gitblob": "70d9fc5273e485560c72bbd88a2c86861cf40abf",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-1a7c836f-899d-4e9d-82c0-e0b808c6bdf8.png",
+  "imagegen_wait_seconds": 35.796,
+  "editing_wait_seconds": 46.764,
+  "review_result": "NEEDS_REVISION"
 }

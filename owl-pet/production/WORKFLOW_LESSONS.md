@@ -1347,3 +1347,7 @@ v21整图实际查看：成年及枝条大片塑料碎片已转连续哑光羽�
 
 ## 20261128T1435Z 04-athene-noctua-v7
 初版二编完整实际查看：28day数值撤为ageunknown、male/female sexinferred标签二编恢复；未改变两成人不同脚位的身高/低腹少纹、中央较大young折翼/六脚枝支撑。中央冠顶淡点弱化有限，闭合毛线圈在冠顶/body仍明显，不符合原研究plaincrown的自然微材质期待；NEEDS_REVISION/sciencefalse。不把图鉴mesoptile/环志juvenile混为精确28day，已有formedwing未删。问题—原图年级/数值龄超证据且loop；证据—Blascop1–2及图鉴；修改—crown两次/label；复查—标签修复有效、纹理未解。仅文字边界成功非形态校准成功；下轮需排除旧target/独立本种幼鸟全身参考，不能重复相同词声称迭代有效。
+
+
+## 20261128T1435Z 06-asio-otus-v6
+完整实际查看v6：右young轮廓由松蓬圆躯变明显收窄直立，眼开放、白眉/嘴周羽稍竖、短未成熟耳绒较竖；双足原枝抓握不悬空，形成折翼/尾仍保留，不以有飞羽就声称可飞。adult橙眼黑喙羽趾黑爪/尺寸保留，不套北美yelloweye。PWL仅与研究文字姿态方向一致的设计，单帧不证明真实诱发/效果或25日断龄；young裸趾/细微羽序/iris时序未校准，sciencefalse。问题—genericjuvenile标签且姿态单一；证据—Seidensticker2006详细描述thin upright而非crouch；修改—限定young压羽细长pose/证据标注；复查—轮廓和落脚实际可见。新规则应用仅本图，与别种不可类推；原v5不是羽毛发育已通过，不追溯批准。

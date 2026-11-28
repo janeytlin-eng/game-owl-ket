@@ -17,11 +17,15 @@
     {
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-28T03:08:43.776Z"
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-28T03:08:49.678Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0232Z-cycle5-20261128T0304Z-108-otus-rutilus-v16.json",
-  "stage": "IMAGE_GENERATED",
+  "stage": "REVIEWED",
   "research": "Access2026-11-28Shanghai. Reuse RUT-VASSEN-2013-ANDASIBE-JUV FrankVassen fieldphoto https://www.flickr.com/photos/42244964@N03/12038858063/ actualfreshbodyread taken4Dec2013/upload19Jan2014/Andasibe/juvenile. Cachedsamephotoactuallyviewed. Surface dense short brown-buff mottling, notv15longtangledhair. Exactage/sex/flightunknown. MIKKOLA-2013 HeimoMikkola2013 printed143/PDF145 reusedadultconstraints: herringboneshafts/yellowiris/graybrownbill-toes/darkclaws/featheredtarsitobase/femaleavg18gheaviernotheight; juvenilebookunknown. OldScopsrutilus=currentOtusrutilus. Designexperiment separatelymodelcompactinnerfeatherplaneandshortmarginalwisps, notjustshortencurls; sourcecannotvalidatemicrobarbs. Actualproblemv15hairgeometry, new0/reuse2. No age/flight/nestguess.",
   "full_prompt": "Use case precise-object-edit. Image1 edit target #108 v15; image2 field photo ONLY juvenile texture evidence. REPLACE centre juvenile visible inner-body feather surface: compact, softly diffuse fine brown/buff mottled feather PLANE with tiny broken transverse colour marks and matte low relief. No individually traced hair inside body, no long strands, no curls, no coils, no wire grain. Only outer silhouette may have sparse short wisps. This deliberately separates interior plumage plane from edge down. Preserve exact juvenile silhouette, dark face/yellowbrowniris/pinklid/darkbill, same stage/concealedwingtail/twofootgrips. BOTHADULTS andbranch/environment/labels/footer identical. v15→v16. Keep confirmed gentle3Dstyle, do notcopyfieldphoto layout or inventageflight.",
   "source_ids": [
@@ -43,5 +47,7 @@
   "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-fc060411-d319-4eda-b842-839f720483cc.png",
   "imagegen_wait_seconds": 27.303,
   "editing_wait_seconds": 38.86,
-  "review_result": "NEEDS_REVISION"
+  "review_result": "NEEDS_REVISION",
+  "review": "Actualv15/firstv16/retryv16andfieldphotoseen. Inner-body-versus-edgeexperiment did NOT eliminate repeatedleafloopunits. Retryreducedsomecontrast/formedtransverserows butstilltooregularcurlymaterialvsfinephoto. NEEDS_REVISION/sciencefalse, notscientificpass. Eyes/bill/feet/support/wingtailconcealment/adults/forest/versionretained. Evidence→attempt→negativefindingssaved. Don'trepeatthisexactmatteplaneinstructionasvalidatedrule; requireothermethodorbetterphotometricreference. Sameissuemayaffect130/112; checkseparately, no blanketallwoolwrongrule. Guide143/PDF145actuallyreadthisrunafterready; female18gnotheight.",
+  "reviewed_at": "2026-11-28T03:08:49.658Z"
 }

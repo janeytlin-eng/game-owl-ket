@@ -13,16 +13,30 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T15:40:35.694Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T15:41:52.844Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T1435Z-cycle6-20261128T1530Z-14-bubo-virginianus-v7.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "GHOW-KEEGAN-2020-ARNOLD new stable ID, Brendan Keegan2020-04-30, Life in the Landscape: Great Horned Owls, Harvard Arnold Arboretum, https://arboretum.harvard.edu/stories/life-in-the-landscape-great-horned-owls/ accessed2026-11-28. Originalbodyandcaptionsactuallyread: first-hand2020Bostonartificialnest monitoring, 3wkcontourfeathers/brownwingbars, 4wkyoungexercisepartlysheathedwingsunablefly; notknowncandidateage andnotliteralsticknestgeometry. Photo https://arboretum.harvard.edu/wp-content/uploads/2020/06/DSCN0265-scaled-1.jpg clickreturnedlinkbutlocal403/webimageinaccessible; noactualphotopixelsread. requests alternative unavailable ModuleNotFoundError. Reused Mikkola2013 printed262/PDF264 actuallyread: pale brown/dullyellowmesoptile, faintunderbars/smalltufts; adultdensefeatheredfeet/yelloweyes, sexsimilarplumage/noheightmultiplier. CurrentBubovirginianus/oldStrixvirginiana. Primary1947Gutenbergreopen503 notfreshread. New1/reused1. Designinference: remove conspicuous closedwoolstrings fromyoungcoat, shorter graycream down/emergingpalecontours/faintbars, ageunknown, preserve shortimmaturewing and nestsupport. Exactage/region/sexratio/continuousfeatheratlasunknown, sciencefalse. IfloopsremainmarkNEEDS rather than claimsuccess.",
   "full_prompt": "Precise-object-edit, target #14 Great Horned Owl v6. Change ONLY right nestling coat: replace obvious cream corkscrew/closed wool loops with short natural graycream fluff, soft pale brown emerging contourfeathers and faintsubtle transverse underbars, nonrepeating tinyfeatherbarbs. Roundedhead, barely smalltufts/yelloweyes/darkbill, same tiny developing wing and tail. Preserve feet and lowbody/nestcontact in same sticknest. Keep bothadultbirds entirely unchanged, exactthreebirds, allscales/title/rolelabels/branchgrips/forest/lighting and existing scientificpending/ageunknownfooter. Do not give adultwings/longtail or flightpose.1536x1024 same painterlystyle.",
   "source_ids": [
     "GHOW-KEEGAN-2020-ARNOLD",
     "MIKKOLA2013-GHOW-P262"
   ],
-  "new_sources": 0
+  "new_sources": 1,
+  "first_attempt_metadata": {
+    "bytes": 2692718,
+    "sha256": "cd4863c94bf84558f700fad05dc1440c7b62ec4a2bbc008f8505942325d58c1b",
+    "gitblob": "bdb1c62b9c5419b1162f825465719e8f81adaba4",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "edit_prompt": "Replace entire right nestling feathercoat, not just soften it: show short smooth palegray feather tufts with a few faint brown crossbars and fine wispy down at edges, NO LONG CURVED STRINGS OR CLOSED LOOPS. Keep young shape/eyes/bill/short immaturewings/tail/feet/support exactly, keep adults/nest/environment/labels completely unchanged. Do not draw woollike spirals or repetitive curls. This is contourfeather emergence, not bald skin."
 }

@@ -9,9 +9,21 @@
     {
       "stage": "STARTED",
       "at": "2026-11-28T09:31:04.928Z"
+    },
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-28T09:31:58.303Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0833Z-cycle5-20261128T0929Z-75-ninox-scutulata-v9.json",
-  "stage": "STARTED"
+  "stage": "RESEARCH_READY",
+  "research": "Access2026-11-28. New SCU-BSS-WEB: BirdSocietyofSingapore, BrownBoobook (undated webpage), https://singaporebirds.com/species/brown-boobook actualIdentification19–25read; linked VenusDrive fieldphoto https://singaporebirds.com/photos/species/149/image83938920-cbd9-49ba-aecf-36f3fa7f7466-a15cee85-ce63-4f58-abfe-cd380e903d9e/large.webp actuallydownloaded/viewed: broad round brown underbodycentres with irregular offwhite gaps, not thinlong daggers. Imagephotographer/date/individualsexandage not supplied in readablepage, unknown; no pair-sexratio inference. Speciesaccount comparesBrownrounderheart-like versusNorthernlongerteardrops, exceptionsnotexclusivekey. Page/photo same source record, nottwoindependentsources. Supportsadultpatternrebuild only; no thirdpartyphoto copiedintoGitHub, link+summaryonly.\nReuse WHSO-MIKKOLA-2013 HeimoMikkola2013 uploadedprinted464/PDF466 actualread: describes large drop-like reddishbrownstreaks, narrowerupperthroatstreaks, yelloweyes/blueblackbill/dullgreencere; female slightlylarger withoutheightdata; whitishnataldown vs fluffierlessstriatedmesoptile. Guidehistorical8racecomplex differscurrenttaxa, do notborrowlugubrisphotoontoSingaporeyoung. Reuse SCU-NPARKS-2025 CharlynNg/NParks6Feb2025 https://www.nparks.gov.sg/publications-resources/articles/in-the-lonely--owl actualBrownHawkOwl129–131read: darkupperparts/whitishbrownstreakedunderparts/forestcanopy, notheartdefinitionorjuvenilechrono. Strixscutulata→Ninoxscutulata. Existing SCU-BESG-2024-PHOTOS youngstage retainedfromprioractualphotoevidence, notfreshreadthiscycle. Juvenileage/firstflight/sexdisplayratio remainunknown. V8 diagnostic riskprioritized; coarseheartshapevisualstrategy notexactstereotypedglyph. New1/reused2freshsources; younghistorynotcountedfresh.",
+  "full_prompt": "Use case precise-object-edit. Image1 is edit target #75 Brown Boobook Ninox scutulata v8 pet concept plate. Image2 is a supporting field photograph from Bird Society of Singapore Brown Boobook page at Venus Drive, used for ADULT lower-body plumage only; photographed individuals' age/sex unknown. Rebuild the lower chest and belly pigment on BOTH ADULTS to match the field photo: irregular broad rounded chocolate-brown heart-like feather-centre blotches, often with a slight central indentation and broad shoulders, on broken off-white ground, overlapping in uneven columns. Brown area should occupy substantially more of the feather than thin long pointed stripes; no elongated leaf/dagger drops, no smooth heart symbols or printed stickers. Integrate pigment into natural feather barbs, retain stylized pet render and lighting. Upper chest can remain more longitudinally streaked. Preserve adults' anatomy and current display sizes, faces/yellow eyes/blueblackbill/feet; do not infer actual photographed sexes. Do not change the centre dependent juvenile, its partly stretched formed wing/barred tail/down or branch grips. Preserve rainforest, type/layout, and uncertainty footer; change header v8 to v9. No new age, flight or scientific pass claim.",
+  "source_ids": [
+    "SCU-BSS-WEB",
+    "WHSO-MIKKOLA-2013",
+    "SCU-NPARKS-2025"
+  ],
+  "new_sources": 0
 }

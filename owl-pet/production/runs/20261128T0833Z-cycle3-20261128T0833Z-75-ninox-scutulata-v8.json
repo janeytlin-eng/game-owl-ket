@@ -13,11 +13,15 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T08:51:22.851Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T08:52:45.836Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0833Z-cycle3-20261128T0833Z-75-ninox-scutulata-v8.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Access2026-11-28. Reuse WHSO-MIKKOLA-2013 uploadedHeimoMikkola2013 printed464/PDF466 actualread: adult lowerunderparts whitish with large drop-like reddishbrown streaks, upperthroatfore-neck streaked, whiteforehead/narrowdarkeyearea/virtuallyabsentdisc/yelloweyes/blueblackbill/dullgreencere/yellowor greenyellowtoes/darkhornclaws. Guidefemale slightlylarger notmeasuredheight; photographedsexratio remainsunverified. Reuse NOCH-MADIKA-2011-P98 p98–99 comparison actuallyread thisinvocation: N.scutulata sensulatohas heart/chevron-shaped lowerfeathermarks onwhite and breastshaftstreaks, historicalcomplexincludesnowseparatespecies so localitynotuniversalplumageformula. Reuse SCU-BESG-2024-PHOTOS AndyChew/BESG14Jun2024 https://besgroup.org/2024/06/14/brown-hawk-owl-juveniles/ actualexternalobserverbodyread thiscycle; previousactualphoto-based supportedwingstretch retained, notnewphotogrammetricvalidation. Singapore13Junfamily activeyoung; exactage/sex/firstflight unknown, noJapanesecriteria transferred. Strixscutulata→Ninoxscutulata. V7adultunderbodylongthinstripes can confuse N.affinisdiagnosticlongstripes; target separated broader drop-like lowerbodymarks, notuniformdots. Juvenile unchangedexactage/flight/irisuncertain. New0/reuse3. Nparkswebread result handled separately below; no Nparksmorphologyclaim before successfulbodyread.\nSCU-NPARKS-2025 existing NationalParksBoard Singapore article6Feb2025 https://www.nparks.gov.sg/publications-resources/articles/in-the-lonely--owl actuallyreadBrownHawkOwl129–131: roundedhead/yelloweyes/darkupperparts/whitishstreakedunderparts/forestcanopy; broad confirmation only, not specific drop shapes/young stage. Intro genericowl shorttail/roundedwing NOT applied to longtailedhawkowl.",
   "full_prompt": "Use case precise-object-edit. Edit target #75 Ninox scutulata v7 concept plate. Correct the adult LOWER breast and belly markings on BOTH adults from uninterrupted thin longitudinal stripes into individually separated reddish-brown elongated DROP/TEARDROP-shaped markings on a whitish ground, with broad rounded lower ends and tapered upper ends, irregular natural spacing. Retain somewhat narrower streaks on upper chest/throat. Do not convert to round polka dots, horizontal bars, or a solid brown chest. Preserve white forehead, narrow dark eye area/yellow eyes, bluish-black bill/greenishcere, adult size relationship, claws/tarsi and posed supported juvenile with already formed partly stretched wing/barredtail and residual down. Do not change young to hatchling or remove formed feathers merely because exactageunknown. Keep forest/layout/labels/uncertaintyfooter. Add small v8 beside title.",
   "source_ids": [
@@ -26,5 +30,16 @@
     "SCU-BESG-2024-PHOTOS",
     "SCU-NPARKS-2025"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "first_attempt": {
+    "bytes": 2717030,
+    "sha256": "3efe32962ae9d47bc236cbf7984b7f41833ecbe85b1d215d683903593f4bdd29",
+    "gitblob": "7d56598a718140635fdd4144069c1767d3939cfe",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "first_review": "Actual first v8 viewed: teardrop marks are overly smooth, regular graphic stickers and white ground too clean. Needs edit for feather-integrated irregularity; not scientific pass.",
+  "followup_prompt": "Correct the two adults' belly markings only. Current v8 has artificial neatly separated teardrop stickers on a too-clean white belly. Replace these with NATURAL IRREGULAR brown feather-centre markings, softly edged and broken by overlapping feather barbs. Each mark should be an irregular elongated drop, some joining narrow shaft streaks, varied length/width, dense but with ivory feather ground visible. No smooth graphic droplet outlines or regularly spaced dots. Restore realistic feather volume/shadow/individual barb texture over the belly while retaining irregular drop-like markings rather than all long thin stripes. Keep juvenile, wings, adults' face/feet/size, forest/layout, title v8 and footer exactly as present."
 }

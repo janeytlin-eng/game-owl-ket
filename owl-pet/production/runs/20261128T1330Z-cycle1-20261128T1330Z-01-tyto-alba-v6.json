@@ -25,11 +25,15 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T13:42:55.165Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T13:43:17.984Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T1330Z-cycle1-20261128T1330Z-01-tyto-alba-v6.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "复用WBO-EILAM-HAGBI-2024，DavidEilam/ZoharHagbi2024-10-17, Biology13:834 DOI10.3390/biology13100834 https://pmc.ncbi.nlm.nih.gov/articles/PMC11504010/ 本轮主动外检、原文打开并定位3.1.2/3.1.3及Fig3–4；开眼后11–20日低坐/视觉探索与横向头动，20–30日多跟跗段支撑，30日起成人直立，50–60日初飞是研究圈养样本非全球阈值。v5实际看支撑基本合理，不虚报原图错误；本轮设计迭代选择安静侧向peering姿态，并撤数值日龄标签避免生成像断龄。复用WBO-KOEPPL-2005原研究历史羽管证据(本轮未新读全篇)及WBO-MIK2013-78-80历史成人确认方向，非新源。头转设计推断受姿态研究支持但不是照片复刻；不把开放眼颜色/羽管长度说精确15日。保留原v3确认范围，不扩大科学审批。新0复用3。",
   "full_prompt": "Use case precise-object-edit. #01 Western Barn Owl Tyto alba v6. Preserve existing two adults, their plumage/size/support, barn wood/debris habitat and warm dimensional pet style. ONLY adjust central young pose and age annotation: keep low belly and heels/tarsometatarsal segments on broad wooden floor, both feet supported, head raised, translated a little to the left while continuing to face forward, neck naturally supported, a quiet visual peering pose (not angular turning or sideways head tilt). Preserve loose white down/dark open eyes/pink eyelids/pale bill, incomplete adult heartdisc, tiny emerging short sheaths only, no mature remiges/tall standing/flight. Don't change young age stage, body mass or add wings. Replace exact central label '~15-DAY NESTLING' with 'EARLY OPEN-EYED NESTLING' and footer 'AGE NOT CALIBRATED · CONCEPT · SCIENCE PENDING'. Title add '#01 · v6'. Adults label SEX INFERRED. Subtle posture diversity supported by captive study, not extreme neck rotation.",
   "source_ids": [
@@ -50,5 +54,18 @@
       1536,
       1024
     ]
-  }
+  },
+  "image_metadata": {
+    "bytes": 2342157,
+    "sha256": "eaf101f6c0c9eb279a29ac684c7e762b7d9e68160ab0bb68ea479e6d96754da3",
+    "gitblob": "9d6fa2244bf3474343766b2dea76fcd9ca03af2b",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-4394788a-fe30-4aa6-aa38-73004903786f.png",
+  "imagegen_wait_seconds": 40.21,
+  "editing_wait_seconds": 28.592,
+  "review_result": "PASS_WITH_LIMITATIONS"
 }

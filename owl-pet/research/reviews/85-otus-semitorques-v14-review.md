@@ -1,0 +1,3 @@
+# Actual review
+Actualoutputviewed: adults scapularwhite row muted/intERRUPTEDwithbrown-gaps; smallpalepatchesremain rather continuousstripe. LocalpigmentPWL; some lightwingpatches stillstylized but continuouswhitebandnotpresent. Existingface/tufts/orangeiris/grayhornbill/featheredtoes/abdominalherringbone preserved; entireyoungunchanged includingknowncurltexturelimitation/shadowedunverifiedeyes/developingwingtail/lowmovementstage/notnewborn. Nestunknown, forestCryptomeriasupport unchanged. Guide/paperirisdifference notsilentlyresolved; original2025orangeadult evidence retained. Notfullspeciespass.
+{"bytes":2590740,"sha256":"05d7356d789907cc48e9015933d3529662cb0c64fdd454a3f3e7ecabfbbb7fba","gitblob":"2188517408200bc78596ac9d493295aae719b5bc","size":[1536,1024]}

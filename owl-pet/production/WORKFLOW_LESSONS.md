@@ -1235,3 +1235,7 @@ Actualv6 viewed: adult cheek/ear-covert extensions now longfinefilaments, roundh
 
 ## 20261128T0929Z 165-ninox-punctulata-v9
 Actualv9 viewed versusv8: adultirises nowdarkchocolatebrownwithretainedpupil/catchlights, brightamberringremoved. Young eyes/palette preservednotadulttransfer. LocaladultiriscolourPASS_WITH_LIMITS only; no absoluteRGB or agedjuvenileinference. Whitepatterns/bill/feet/tarsalboundary/forestrootcontact/textv9/uncertaintyfooter intact. Juvenilefuzzylooptexture and chronologicalbareparts remainunresolved, no nest/flightclaim. Lesson: constrain pigmentareaandageclass, ratherwholeeyedarkeningor specieswidejuvenilefill. Appliedandvisiblethispair; other Ninoxyelloweyedtaxa notchanged. Originalsource guide's sparse sexsizemeasurement notbasisfornewratio. Priorv8 retained.
+
+
+## 20261128T0929Z 236-ninox-reyi-v4
+Actualv4 viewed: adultwhitethroatnowcontinuousbrightandclearlyvisiblebelowbill, barredbreaststaysintact; no oversizedbib added. Smallbrows/crownbarspattern/feet/youngposition retained, titlev4uncertaintyfooterreadable. LocalfeaturevisibilityPASS_WITH_LIMITS; exactpatchdimensionsnotmeasured/photocalibrated, notscientificpass. No adultthroatcolourtransferredtoyoung, ageiris/billflightremainunknown. Existingformedolderjuvenilewingretainedwithout claimingknownage. Lesson: distinguishthroatpatchvisibilityfromgenericwhitebreast; hypothesisimplementedandvisuallyeffectiveforthisdisplay, notdiagnosticmeasurement. Compare144 narrowwhite/streakedthroat: notenlargedbecauseitsprimarysaysnarrow, preventsuniformspeciesrecipe.

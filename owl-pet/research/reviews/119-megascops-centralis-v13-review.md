@@ -1,0 +1,3 @@
+# Actual review
+Actualv12/v13wholeplatescompared: adultlowerbellynowfinerirregularmeanderingbrownvermiculations,reducedcoarsechevrons, graywhitegroundanddensityretained. LocalqualitativepigmentPWL, notquantitativeindividualfeathermap. Head/crown/weakbrows/noouterblackdisc/blackorbitalrings/lemonyelloweyes/greenyellowbill/yellowtoes/supports andentireolderjuvenile/formedwing/cavityunchanged. Juvenileexactstage/cavitydimensionsnotnewlyvalidated; new2017paperonlybibliographiclead, notreadbody. Lesson localpigmentstrokeeditworkshereseparatelyfromfailedgeometry108/130, no generalrule. Sciencefalse.
+{"bytes":2600386,"sha256":"b6400bc5088ec87a38c5d6a55cc40d0b4c750b70055d8d36dd6da2818ced6ef0","gitblob":"0de8a349dedf74db24f6344a6e9c429c22e9351a","size":[1536,1024]}

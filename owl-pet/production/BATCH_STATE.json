@@ -88095,18 +88095,32 @@
     "next_cycle": 5
   },
   "latest_delivery": {
-    "run_id": "20261128T0725Z",
+    "run_id": "20261128T0833Z",
     "status": "PASS",
-    "receipt": "owl-pet/production/batches/20261128T0725Z-final-readback-receipt.json",
-    "evidence_head": "4aa884ebe5c47998c0b0570332e3bbcc619158df",
-    "checked_files": 46
+    "receipt": "owl-pet/production/batches/20261128T0833Z-final-readback-receipt.json",
+    "evidence_head": "4a24a496b29f3274f4dba308030f4737a15214e8",
+    "checked_files": 47,
+    "png_paths": 16,
+    "production_completed": 6,
+    "scientific_status": "PARTIAL",
+    "needs_revision": [
+      "108-otus-rutilus-v20",
+      "75-ninox-scutulata-v8"
+    ]
   },
-  "final_readback_at": "2026-11-28T07:48:19.517814+00:00",
+  "final_readback_at": "2026-11-28T09:00:49.962Z",
   "last_delivery": {
-    "run_id": "20261128T0725Z",
+    "run_id": "20261128T0833Z",
     "status": "PASS",
-    "receipt": "owl-pet/production/batches/20261128T0725Z-final-readback-receipt.json",
-    "evidence_head": "4aa884ebe5c47998c0b0570332e3bbcc619158df",
-    "checked_files": 46
+    "receipt": "owl-pet/production/batches/20261128T0833Z-final-readback-receipt.json",
+    "evidence_head": "4a24a496b29f3274f4dba308030f4737a15214e8",
+    "checked_files": 47,
+    "png_paths": 16,
+    "production_completed": 6,
+    "scientific_status": "PARTIAL",
+    "needs_revision": [
+      "108-otus-rutilus-v20",
+      "75-ninox-scutulata-v8"
+    ]
   }
 }

@@ -619,5 +619,22 @@
     }
   ],
   "scope": "Only owl-pet; no automation/radio/3D changes",
-  "platform_limits": "No fixed platform timeout telemetry claimed; invocation delivered six serial complete production cycles."
+  "platform_limits": "No fixed platform timeout telemetry claimed; invocation delivered six serial complete production cycles.",
+  "final_readback": {
+    "run_id": "20261128T0833Z",
+    "status": "PASS",
+    "receipt": "owl-pet/production/batches/20261128T0833Z-final-readback-receipt.json",
+    "evidence_head": "4a24a496b29f3274f4dba308030f4737a15214e8",
+    "checked_files": 47,
+    "png_paths": 16,
+    "production_completed": 6,
+    "scientific_status": "PARTIAL",
+    "needs_revision": [
+      "108-otus-rutilus-v20",
+      "75-ninox-scutulata-v8"
+    ],
+    "verifier_recovered_errors": [
+      "Final-readback script first attempt NameError true from JS JSON literal in Python; corrected to json.loads before actual checks. No source/image changed."
+    ]
+  }
 }

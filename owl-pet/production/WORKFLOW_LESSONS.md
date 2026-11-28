@@ -1291,3 +1291,7 @@ Actualv5 viewed: adults have darker distal horn/nearlyblackclawtips with lighter
 
 ## 20261128T1133Z 130-megascops-koepckeae-v26
 首稿与二编完整看图：成人与枝条碎塑料片基本消除，羽片自然哑光、灰白脸/黑ruff/黄眼/蓝绿角喙、纵纹腹保存；标签首稿丢male/female后二编补回sex inferred。幼鸟比实物照仍过规则U层状羽缘，虽然色灰褐、白眉黑面缘、闭翼与足支撑相容，微羽面仍NEEDS_REVISION/sciencefalse，不以adult材料改善宣称幼体完全校准。图注未给年龄/性别/首飞；Loja照片不用于亚种或身高测量。问题→全图塑料材料及幼体U纹；证据→图鉴与原始幼鸟观察；修改→整张羽片重建+文字二编；复查→成人材料有效、幼体部分未解。失败首稿保留，完整提示/run保存；下轮优先换源约束或独立幼体重建，不再对旧U层只换形容词。v25原图保留。
+
+
+## 20261128T1133Z 201-otus-mantananensis-v16
+实际查看v16：两成人碎胶片面基本替换连续哑光羽片，耳簇是羽束、上胸暗斑比下腹浓、黄眼灰角喙黑ruff和支撑保留；此成人材质/胸腹区域局部改善。中央旧绒羽不改，羽被年龄虹膜/飞行仍UNVERIFIED，保留nominate成人/romblonis幼体混地域对照NOT A FAMILY，不称同家庭实物。枝条仍有旧材料颗粒未解决；成人羽长、性别线性比例非测量，近等大不称事实。新图uncertainty标签准确。问题→成人塑料耳簇羽片；证据→图鉴文字及nominate实物对；修改→仅成人重建；复查→局部有效，中央/环境材质未验证。PWL仅成人，不是整组科学通过，sciencefalse。原v15保留。后续需本种/亚种幼鸟原始证据，不能以成人重建代替发育研究；本轮Commons仅元数据非像素已排除形态证据。

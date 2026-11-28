@@ -21,11 +21,15 @@
     {
       "stage": "REVIEWED",
       "at": "2026-11-28T04:37:03.506Z"
+    },
+    {
+      "stage": "ARCHIVED",
+      "at": "2026-11-28T04:37:09.174Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0329Z-cycle6-20261128T0430Z-130-megascops-koepckeae-v24.json",
-  "stage": "REVIEWED",
+  "stage": "ARCHIVED",
   "research": "Access2026-11-28. KOEP-ALARCON-2023 IbethPAlarconetal2023 Reproductive events of birds from Southern Ecuador NeotropicalBiodiversity9:93–114 DOI10.1080/23766808.2023.2237229 https://biologia.uazuay.edu.ec/sites/biologia.uazuay.edu.ec/files/public/ReproductiveeventsofbirdsfromSouthernEcuador.pdf actualcachedoriginal p104/PDF13 freshread; targetedexternalquery reconfirms target section, publisheropen403 not claimed read. Two parentalcare fledglings23Apr2019Loja2131m, fullbodynessoptiles graywhitebars BROWN CHEST blackdisc whitebrowsyelloweyes, Podocarpus3–4m. Exactage/flight/sex unknown; notnestobserved. V23upperchestcurrentlygray, bounded pigment repair only. Do not claim unresolved leafgeometry fixed. OldOtuskoepckeae→Megascopskoepckeae, adultsizeunknown/keepscale. Reuse KOEP-MIK2013-222 existingadultboundaries, notnewbookreadthiscycle. New0/reuse2.",
   "full_prompt": "Precise-object-edit scientific-educational concept #130v23→v24. Change ONLY dependent fledgling breast pigment: original field study describes gray-white bars with BROWN ON CHEST. Add subtle diffuse warm brown to UPPER CHEST between neck and upper belly while preserving gray-white transverse bars and wholebody fluffy nessoptiles. Keep lower belly graywhite. No golden/yellowchest or new darkshaft adult streaks. Keep feather geometry/formed folded wing/tail/yelloweyes/blackdisc/whitebrows/feet/branch/pose SAME. Adultbirds completely unchanged including crown fromv23. Preserve alltextlabels/footer except version. Do not claimjuveniletexturefixed; it is still stylized. No sexsize claim, age or flight.",
   "source_ids": [
@@ -47,5 +51,6 @@
   "editing_wait_seconds": 0,
   "review_result": "PASS_WITH_LIMITATIONS",
   "review": "Actual output viewed: upper breast now diffuse brown, lower graywhitebars retained, blackdisc/whitebrows/yelloweyes/formedfoldedwingtail/perch grip/adults/crown unchanged visually. Bounded chestpigment PASS_WITH_LIMITATIONS only; bright outlined feather units remain unresolved, notwholejuvenilesciencepass. Age/sex/flightunknown retained. Problem→evidence→chestpigment→localvisualpass; notmaterialrepair. Existing108/112 similarly unresolved, no untestedgeneralization.",
-  "reviewed_at": "2026-11-28T04:37:03.484Z"
+  "reviewed_at": "2026-11-28T04:37:03.484Z",
+  "archived_at": "2026-11-28T04:37:09.153Z"
 }

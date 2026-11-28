@@ -1103,3 +1103,7 @@ Observed once: a second exec attempted an intermediate-image commit before the e
 
 ## 20261128T0430Z 108-otus-rutilus-v18
 Actual first and second generated images visually inspected. Second head filaments straighter/shorter, but repetitive bright edged leaf surfaces persist on body. NEEDS_REVISION, scientifically false. Adults/scale/eyes/bill/toes/forest/support remain visually consistent. Juvenile stage unchanged unknown age, flightunverified, no mature spreadwings or invented nest. Proposed unoutlined shortvane construction not validated effective; no third nearly identical attempt this cycle. Sourcephoto actually seen is finer flatter mottling; keep unresolved queue108/130/112 and do not transfer adult fixes to juvenile success.
+
+
+## 20261128T0430Z 130-megascops-koepckeae-v24
+Actual output viewed: upper breast now diffuse brown, lower graywhitebars retained, blackdisc/whitebrows/yelloweyes/formedfoldedwingtail/perch grip/adults/crown unchanged visually. Bounded chestpigment PASS_WITH_LIMITATIONS only; bright outlined feather units remain unresolved, notwholejuvenilesciencepass. Age/sex/flightunknown retained. Problem→evidence→chestpigment→localvisualpass; notmaterialrepair. Existing108/112 similarly unresolved, no untestedgeneralization.

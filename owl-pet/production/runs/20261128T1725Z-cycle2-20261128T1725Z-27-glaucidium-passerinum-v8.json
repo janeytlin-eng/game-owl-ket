@@ -21,11 +21,15 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T17:49:23.235Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T17:50:43.573Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T1725Z-cycle2-20261128T1725Z-27-glaucidium-passerinum-v8.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Reuse EUPO-EGE-2024-FLEDGING GesellschaftzurErhaltungderEulen, DerSperlingskauz (page2024-11-24), https://egeeulen.de/eulenarten/der-sperlingskauz-glaucidium-passerinum/ targetedexternalquery+actualKennzeichen/Lebensraum/Fortpflanzung read2026-11-29: structuredoldconifer/mixedwoodland/woodpeckercavities, youngdepart with someflightability beforefullflightfeathergrowth; notproof thisconceptindividualflies or exactday. ReuseEUPO-MIKKOLA-2013 same2013publication actualprinted364/PDF366 text and printed365/PDF367 photosviewed: plainmesoptilecrown/darkface/whitebrows/whitechin, whitebrowadultalso; sourcephotoplatesnotexactageatlas. Femalemassvariesbreedingcondition notfixedstandingheight. CurrentGlaucidiumpasserinum; historicalStrixpasserina mappingalreadyrepositoryconvention, no taxonomychange. Actualv7formedfoldedwings/shorttail and twobranchgrips retained. Designvariantonly: gentle young head turn towardleftadult, body/feetunchanged, no flight/running/jumping, notclaim previousposewrong. New0/reused2, existinguploadedphotoaccessrenewednotnewsource. Exactiris/age/youngsex/flightability/featherdensity/nestgeometryunknown, no juvenile color or textureguess.",
   "full_prompt": "Precise-object-edit #27 Glaucidium passerinum v7. Change ONLY central young's head orientation: turn head modestly toward the adult on image LEFT, as if quietly attending to it, head remains naturally joined to same neck and body. Preserve dark plain crown, prominent pale brows and white chin, same dark provisional iris and yellow-horn bill, round low head/no ear horns. Keep entire young body, formed folded wings, shorttail, both feet gripping mossy sprucebranch unchanged. Both adults entirely unchanged, body sizes/feathers/eyes/beaks/legs, hollow/coniferlandscape/alltext/pendingfooter preserved. Title v8. Exactly3birds same1536x1024 warm naturalhistory style. No flight/raisedwing/extra neck or invented day age; resting headturn design only.",
   "source_ids": [
@@ -38,6 +42,12 @@
       "started_at": "2026-11-28T17:48:58.008Z",
       "ended_at": "2026-11-28T17:49:17.919Z",
       "elapsed_seconds": 19.911,
+      "scope": "base64 preparation+blob transfer+hash validation"
+    },
+    {
+      "started_at": "2026-11-28T17:50:24.401Z",
+      "ended_at": "2026-11-28T17:50:43.552Z",
+      "elapsed_seconds": 19.152,
       "scope": "base64 preparation+blob transfer+hash validation"
     }
   ],
@@ -54,5 +64,18 @@
     },
     "review": "Headturnsupported; title ignoredv8 andstillv7, fixonlyversiontext."
   },
-  "second_edit_prompt": "Text localization ONLY: at very top title change the final 'v7' to 'v8'. Exact title '27 EURASIAN PYGMY-OWL v8'. Preserve every pixel appearance of all3birds including young's new leftwardheadturn, all plumage/feet/support/forest, scientificname, rolelabels and footer. No other changes."
+  "second_edit_prompt": "Text localization ONLY: at very top title change the final 'v7' to 'v8'. Exact title '27 EURASIAN PYGMY-OWL v8'. Preserve every pixel appearance of all3birds including young's new leftwardheadturn, all plumage/feet/support/forest, scientificname, rolelabels and footer. No other changes.",
+  "image_metadata": {
+    "bytes": 2469331,
+    "sha256": "10504d7ce31076424e13adc1eaa86632724b2cdb20c80b1adb891db774e6564e",
+    "gitblob": "0a17b026b91e8d79383c37803e4d7ac18b97c6a5",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-65ece53d-d572-4abc-bac0-dbf725a8a828.png",
+  "imagegen_wait_seconds": 31.903,
+  "editing_wait_seconds": 40.938,
+  "review_result": "PASS_WITH_LIMITATIONS supported head-turn design; scientific pending"
 }

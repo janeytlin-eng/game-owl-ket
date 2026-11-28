@@ -1,0 +1,3 @@
+# Actual review
+Actualv15/v16wholeimagesviewed. Bothadulttuftpigmentnowdarkbrown/blackbrownwithmutedtawnyedges, geometricposition/lengthpreserved. Recentfineadultfaces/orangeeyes/blackbills/graycere/bodyshafts/wingtail/fullyfeatheredtoes/claws/near-equaldisplay/forest/branchpreserved. Olderjuvenileentirelyunchangedinclformedwingtail/ageunknownandunresolvedlooptexture. LocaladulttuftpigmentPWLnotfullspeciesorjuvenilerepair, qualitativecolourunderartlightingnotRGBmeasurement. Actualguide508/PDF510andfreshOWLpages58–62read; bookAsiootusjuvenilespeculationnotused, sciencefalse.
+{"bytes":2591463,"sha256":"a3b5efc7b8e3396e7a457f093662b8a5ce9b8bc590815ac7c5dc47eeb415ccfa","gitblob":"9eb1a7c99cedffffd52a306bf46c72084bdf5d7e","size":[1536,1024]}

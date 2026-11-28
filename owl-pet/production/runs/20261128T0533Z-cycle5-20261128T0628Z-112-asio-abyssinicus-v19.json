@@ -13,16 +13,30 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T06:32:51.028Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T06:34:01.527Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0533Z-cycle5-20261128T0628Z-112-asio-abyssinicus-v19.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "2026-11-28 actual external read: Deane Lewis, The Owl Pages (updated 2020-11-08), https://www.owlpages.com/owls/species.php?s=3560 description/size/breeding/habitat (ABY-OWLPAGES-2020-3560). Reused WHSO-MIKKOLA-2013, uploaded Mikkola 2013 printed p508 / PDF510 actually reread. Sources agree on gray-brown cere, blackish bill, yellow-orange eyes, feathered toes, only slightly larger female without a justified numerical height ratio. Guide juvenile explicitly undescribed; no borrowing A. otus developmental details. Scapular wording conflict retained. Old A. otus abyssinicus maps to A. abyssinicus. Actual enlarged v18 male head shows muted gray-brown cere above black bill: previous uncertainty resolved by inspection, no further cere repaint justified. Proposed revision is visual feather-surface cleanup ONLY, not a scientific reconstruction: keep older juvenile existing formed wing/tail and supported perch, no age or flight claim; stage/young color remain unverified. No new source IDs; reuse 2; no new confirmed species. Observation: repeated full-plate edits were difficult to assess; actual enlarged inspection now used before choosing an edit. Preserve all versions and approval history.",
   "full_prompt": "Edit this existing owl pet concept plate, preserve the established rounded high quality 3D stylized owls, same composition, three owls, branch support, background, adult birds unchanged including gray brown cere and black bill. Version title change v18 to v19. Modify ONLY the CENTRAL older juvenile's brown body feather surface, from neck through breast and belly and flanks: remove the repetitive closed curlicue rings, wool loops, interlocking outlined leaf tiles and decorative scale pattern. Replace them with a smoothly coherent irregularly mottled brown feather surface composed of many fine short tapering straight or slightly wavy individual filament tips, loosely aligned down the body and irregularly crossing, no enclosed units, no sharp outlined cells. Soft bird plumage with natural varied small strands, not fur curls or knit wool. Do NOT alter its folded feathered wing, tail, feet, posture, eyes, facial markings, or relative dimensions. Do not invent a younger developmental stage. Adults remain unchanged. Preserve clear caption OLDER JUVENILE – AGE UNKNOWN and footer CONCEPT · SCIENTIFIC CALIBRATION PENDING · YOUNG AGE / FLIGHT UNVERIFIED. This edit is visual texture cleanup only, not a verified species-specific young reconstruction.",
   "source_ids": [
     "ABY-OWLPAGES-2020-3560",
     "WHSO-MIKKOLA-2013"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "first_attempt_metadata": {
+    "bytes": 2687839,
+    "sha256": "799057e009255b58ffd34b0cad385e1dfe891bfbe8c5768d0d196c926fd29f68",
+    "gitblob": "3be729e605c14086a28890bb306c1ab42475d84b",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "first_review": "Actual full-plate inspection: closed loops greatly reduced, but dense long unbranched hairlike strands now dominate juvenile breast. Edit needed to shorten and soften them. Adult head and supported feet preserved. Young science remains unverified."
 }

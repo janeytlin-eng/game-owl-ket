@@ -13,16 +13,33 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T05:44:49.032Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T05:45:51.756Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0533Z-cycle2-20261128T0533Z-85-otus-semitorques-v14.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Access2026-11-28. ReuseMIKKOLA-2013 uploadedHeimoMikkola2013printed158/PDF160actualread: adults SMALLpalerscapularouterwebareas NOdistinctscapularstripe. V13adultshoulderrowlargewhiteconnectedspots → boundedreducepigmentcontinuityonly. Longtufts/browtoearfinefleckface/herringboneunderparts/grayhornbill/featheredtoes retain; nosexsizedata. SEM-NOHARA-HONDA-2025-P75-78 NoharaK/HondaR2025 DOI10.24715/smnh.19.0_75 https://www.jstage.jst.go.jp/article/smnh/19/0/19_75/_pdf/-char/ja actualcachep75–76freshread: adultorangeiris, youngwholebodydown/developingnotfullyelongatedwingtail/littlemovement/nestnotfound, youngirisNOTvisible; preservestageunknownlabel andpose. Externaltargetedquery+actualLewis2020page https://www.owlpages.com/owls/species.php?s=770 readONLYgeneralname/prominenttufts/distribution, NOTscapularmorphologysource/no newIDcreatedforthissparsepage. OldObakkamoenasemitorques/Olempijisemitorques→Osemitorques. New0/reuse2.",
   "full_prompt": "Precise-object-edit #85v13→v14 scientificpetconcept. ONLY BOTH ADULT scapular pale patch pigment on shoulders/outer folded wings: small isolated PALE areas on outerwebs, with brown/gray gaps between them, no conspicuous continuous white scapular stripe. Reduce connectedbrightwhite shoulderrow into scattered dullbuffgray spots; retain samewingfeathergeometry and all flighttailbars/bodyherringbone/face/brows/tufts/orangeadultiris/grayhornbill/featheredtoes/claws/scale. Entirecentreyoungunchanged including shortdevelopingwingtail/shadowedunverifiedeyes/knowncurltextureproblem. Forestbranch/feetcontact/labels/footerunchanged onlyv14.",
   "source_ids": [
     "MIKKOLA-2013",
     "SEM-NOHARA-HONDA-2025-P75-78"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "image_metadata": {
+    "bytes": 2590740,
+    "sha256": "05d7356d789907cc48e9015933d3529662cb0c64fdd454a3f3e7ecabfbbb7fba",
+    "gitblob": "2188517408200bc78596ac9d493295aae719b5bc",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-9bc020ca-26c3-4cc9-8e59-7a62522b360f.png",
+  "imagegen_wait_seconds": 32.363,
+  "editing_wait_seconds": 0,
+  "review_result": "PASS_WITH_LIMITATIONS"
 }

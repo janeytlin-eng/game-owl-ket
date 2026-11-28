@@ -17,11 +17,15 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T16:42:18.173Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T16:42:43.062Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T1530Z-cycle5-20261128T1632Z-17-megascops-asio-v9.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Reuse EASO-SMITH-DEVINE-2003-P98-103, Smith & Devine2003 EasternScreechOwl fieldobservations, TheConnecticutWarbler23(3):98–103, https://ctbirding.org/wp-content/uploads/2017/01/CTWarblerVolume23.pdf accessed2026-11-29, actualPDFdownload/printed101–102 PDF111–112 read (FeedingofFledgedYoung). Firstdaysperchedbranches near nest, firstflightsshort/landingpoor, scramblingclingingclimbing tosupport. Broodsroostedhuddled, no natalcavityreturn; singletriptychyoung iscomparativecomposition, no inventedfamilyevent. No exactage/wingmap fromthisstudy. Reuse EASO-TPWD-SPECIES-2026 TexasParksWildlife https://tpwd.texas.gov/huntwild/wild/species/screech/ originalDescription/LifeHistory/Habitat actuallyread; morphnotsex/agecode, treecavity/woodland. Reuse Mikkola2013 printed207/PDF209 actuallyread, thinbarredmesoptile/yelloweyes/olivebill/yellowtip, adultfeatheredtarsi tograybrowntoes/yellowhornblacktipclaws; femaleavg30gheavier notheightformula. CurrentMegascopsasio oldOtusasio. Currentv8alreadysharedgrayadults andclawcorrection, no newerrorclaimed. Designposturevariant: loweryoungbodycautiouslytowardbranch andfoldbalancewing, bothfeetgrip sameperch, crouch-bracedclamber/rest boundary notflight/stillnotactualobservedmotionreconstruction. Exactday/ratio/tuftemergence unknown; sciencefalse. New0/reused3, no newlydiscovered source.\nBibliographic locator clarification from actualtitlepage printed98/PDF108: DwightG.Smith andArnoldDevine, Eastern Screech-Owl Nesting Cycle: Care and Feeding of Young. Same existing source, no new paper or factual correction; printed102 concludes climbing then uprightperching. Crouch is designed transitionalbrace, not photographedspecificstage.",
   "full_prompt": "Precise-object-edit target #17 Eastern Screech Owl v8 illustratedtrio. Change ONLY RIGHT age-unknown fledgling from one-wingraisedupright to cautiously crouch-braced against SAME branch: gently lower torso center of gravity, slight forwardlean, bothfeet securelywrapexistingbranch atoriginalcontacts, fold raised immaturewing alongbody whilepreserving its formedjuvenilefeathers. Keep roundedyounghead/yelloweyes/olivebill/buffgraythinbarredmesoptile/smallimmaturetufts andshorttail. No flight/leap/hover/no limp or injuredappearance, no extralimbs. Bothadultsallfeathers/colors/sizes/eyes/bills/claws/feetgrips unchanged, exactlythreebirds, cavity/forest/title/adultroles/ageunknownscientificpendingfooter unchanged. Samewarm naturalhistory1536x1024. Supportedlowcrouch only, no invented exactage or posturefunction.",
   "source_ids": [
@@ -29,5 +33,27 @@
     "EASO-TPWD-SPECIES-2026",
     "MIKKOLA2013-EASO-P207"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "archive_transfers": [
+    {
+      "file": "/workspace/scratch/96400dc71dac/generated_images/exec-3ab87262-9815-442f-9c75-29867ad2f6d6.png",
+      "started_at": "2026-11-28T16:42:24.329Z",
+      "ended_at": "2026-11-28T16:42:43.037Z",
+      "elapsed_seconds": 18.708,
+      "scope": "base64 preparation+connector blob transfer+hash validation"
+    }
+  ],
+  "image_metadata": {
+    "bytes": 2580313,
+    "sha256": "27290adb113c4e1afef1ed74f8ad23415c13a2dc4573a6c851b61aa3dd717406",
+    "gitblob": "2d4975dc3c86736c6c2c24d640c5b82f702cd83c",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-3ab87262-9815-442f-9c75-29867ad2f6d6.png",
+  "imagegen_wait_seconds": 38.938,
+  "editing_wait_seconds": 0,
+  "review_result": "PASS_WITH_LIMITATIONS"
 }

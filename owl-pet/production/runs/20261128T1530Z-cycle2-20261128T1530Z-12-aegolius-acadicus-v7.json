@@ -13,16 +13,33 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T15:46:47.401Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T15:47:59.353Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T1530Z-cycle2-20261128T1530Z-12-aegolius-acadicus-v7.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Reuse NSWO-PROJECTOWLNET-HY-2026, ProjectOwlnet HatchingYear Northern Saw-whet Owls, undatedmethods page https://www.projectowlnet.org/methods/age-determination/northern-saw-whet-owl-2/hatching-year-northern-saw-whet-owls/ accessed2026-11-28; actual paragraphs44–50 originalread. Firstfulvous/chocolate plumage acquired cavity, prebasicbodymolt doesn'treplaceflightfeathers; youngformedunwornflightfeathers canremain. Not knownhatchday, notindividualfirstflight, no actualrestposturemeasurement. Reuse NSW-MIKKOLA-2013-P444, uploadedguide2013 printed444/PDF446 actuallyreadthisinvocation beforecycle: juvenileyellowishiris/chocolatemesoptile/paleXbrow; adultorange-yelloweyes/blackbillandcere/slightlyfeatheredtoes/darkhornclaws. CurrentAegoliusacadicus mainlandnominate, oldStrixacadica; no brookside taxontransfer. Designiteration ratherthanclaim priorerror: ageunknown fullysupportedfledgling, closeeyeslightrestingheadtilt, bothfeetoriginalgrip, preserveformedjuvenalwing/body/paleX. Restingpose is conservative artisticinference, notstudiedspecies-specificmovement or exactageassertion. Adultsexheightrelationunchanged/notmeasured; darkfreshwingretained rather than treatingalljuvenileremiges asadultmistake. Exactage/sexratio/feathermapping/nestgeometryunknown; sciencefalse. New0/reused2, researchcompleted2026-11-28T15:46:47.378Z",
   "full_prompt": "Use case precise-object-edit. #12 Northern Saw-whet Owl v6 triptych, image1 edit target. Design restingvariant of RIGHT age-unknown fledgling ONLY: gently close both eyelids, slight relaxed headtilt about8degrees while body stays upright comfortably, neck natural and connected. Keep bothyoungfeet gripping samebranch exactly, no floating/oneleg/falling pose, preservebodybrownfulvousjuvenalplumage/creamforeheadX/blackbill, samefullyformedfreshdarkfoldedflightfeathers and shorttail. Do not remove or shorten youngwing. Keep adultmale/adultfemale entireanatomy/eyes/proportions/feet/colors, nestcavity/branchsupport/forest/lighting/title/rolelabels/pendingreviewfooter unchanged; exactly3birds, warm naturalhistory1536x1024 style. This is restfulclosedeyes not injury or specificage/flightdisplay.",
   "source_ids": [
     "NSWO-PROJECTOWLNET-HY-2026",
     "NSW-MIKKOLA-2013-P444"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "image_metadata": {
+    "bytes": 3128463,
+    "sha256": "659f664c0b6c825b75dae2c2488d26238a81064dd7b82ff41787439926672c0c",
+    "gitblob": "b5ab805804229ce58145b0e90d71d3081cb21c0f",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-49b0bd9a-9d68-4147-8524-b9127d919437.png",
+  "imagegen_wait_seconds": 28.224,
+  "editing_wait_seconds": 0,
+  "review_result": "PASS_WITH_LIMITATIONS"
 }

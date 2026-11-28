@@ -13,16 +13,36 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T02:41:53.256Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T02:44:55.280Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0232Z-cycle1-20261128T0232Z-137-otus-alfredi-v9.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Access28Nov2026Shanghai new0/reuse2. FLO-WIDODO-1999 WahyuWidodo/JackHCox/PamelaCRasmussen1999 Rediscovery...Forktail15:15–23, original https://static1.squarespace.com/static/5c1a9e03f407b482a158da87/t/5c1fc23b2b6a282c991de675/1545585212532/Widodo-Flores.pdf actualfreshabstract15/Table2pp18–19/PDF4–5bodyread: adultAMNH/MZByoung/deFretesadultphotosallforeheadFINEWHITEVERMICULATION abovebrow/no blackstreaks-barring, shortbroadroundedtufts, orangenyellowbill/feet/claws, unbandeduppertail NOTblanketventraltailbarremoval. Currentv8adultforeheadbrightregularbeadedUrowscoarserthanqualitativefinepattern; refinepigmentnotwholeanatomy. JuvenileMay1994specimenformedwingtail retained, noiris/day/flightinference. MIKKOLA2013 samebookactualuploaded184/PDF186readnow supportsfinepalevermic/yelloweyes-pinkrims/orangeyellowbill/whitebellywithoutdarkshafts andpaleclaws; exactbarequartervsprimarythirdunresolvednochange; historical1995versusprimary1994 retainprimary. OldPisorhinaalfredi=currentOtusalfredi, no251change. Designinferencewhitepatternwidthplacementnotmeasured, pending scientific calibration; keepolderyoung/bothadultsamepatternnotsexlinked.",
   "full_prompt": "Precise-object-edit #137 Otus alfredi v8. BOTH ADULT FOREHEAD WHITE PIGMENT ONLY (small area between billbase/supercilium and upperforehead, not eartufts): replace conspicuous thickwhite beadlike/U-shaped rows with very fine WHITE VERMICULATIONS, thin irregular short meandering white filaments of pigment on same solid rufous ground, naturally broken ratherthan repeatedtiles. No black shafts or darkbarring added. Keep feathergeometry/outline asfaraspossible, white supercilium retained but not a large broadwhitepatch. Entirejuvenile and allotheradultpattern/bills/iris/pinkrims/roundedtufts/feet/paleclaws/supports/forest/statuslabels unchanged. v8→v9. This is local pattern finesse from Table2, no exactmicrometry, age/flight/sexheight claim.",
   "source_ids": [
     "FLO-WIDODO-1999",
     "MIKKOLA2013"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "retry_prompt": "Text-localization only: in the top parchment title '#137 v8 · FLORES SCOPS-OWL', replace 'v8' with 'v9'. All bird feathers/colour/eyes/feet/anatomy, background and all other text remain exactly unchanged. No additional edits.",
+  "first_attempt_file": "/workspace/scratch/96400dc71dac/generated_images/exec-fee0fc99-28e8-4108-929e-6b3dc0aa0ef3.png",
+  "actual_error": "first output retained title v8; imagegen text-only correction to v9 and actual re-view passed",
+  "image_metadata": {
+    "bytes": 2485167,
+    "sha256": "91e209487c620b5f4dea7a0648ad01647d95a51d81d8395fc23761f6f656c721",
+    "gitblob": "7fefaedc62aa878c2fa73872a8ccd33c3077fa15",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-4c29117d-efdc-4cee-b1f1-5379d90dde63.png",
+  "imagegen_wait_seconds": 37.066,
+  "editing_wait_seconds": 30.447,
+  "review_result": "PASS_WITH_LIMITATIONS"
 }

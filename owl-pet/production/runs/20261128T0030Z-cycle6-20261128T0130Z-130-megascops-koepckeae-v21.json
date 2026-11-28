@@ -13,16 +13,34 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T01:34:53.040Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T01:37:06.087Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0030Z-cycle6-20261128T0130Z-130-megascops-koepckeae-v21.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Access2026-11-28Shanghai new0/reuse2. KOEP-ALARCON-2023 IbethPAlarconetal2023 NeotropicalBiodiversity9:93–114 DOI10.1080/23766808.2023.2237229 original https://biologia.uazuay.edu.ec/sites/biologia.uazuay.edu.ec/files/public/ReproductiveeventsofbirdsfromSouthernEcuador.pdf freshnetworkquery/open returned400tooLarge34951163; actualcachedoriginalPDF printed104/PDF13 bodyread now andprinted95/PDF4 Fig1ccropactuallyviewed. 23Apr2019Loja two dependentfledglings withnessoptilesallbody gray-whitebarred/brownchest/blackdiscwhitebrowsyelloweyes, perchedPodocarpus3–4m; noexactage/sex/firstflight. Sourcevisibleirregulartransversegraywhitebars versus v20outlinedleafrows. Changepigmentpatternorganization not universaldowngeometry. KOEP-MIK2013-222 HeimoMikkola2013 uploadedprinted222/PDF224readnow: adultbroadilldefinedshaftbranches/shorttufts/bluegreenhornbill/graybrowntoes/darkclaws; sexdifferenceunknown; palegraynestlingearlierstage NOTfledglingregression. OldOtuskoepckeae=currentMegascopskoepckeae. Keepformedwing/ageunknown/no prey/nestguess. Sciencefalse.",
   "full_prompt": "Use case precise-object-edit. Image1 target #130 v20; image2 actual Alarcon Fig1c juvenile reference, used ONLY for juvenile plumage pigment and surface pattern. Right juvenile body: replace orderly rows of outlined pale leaf/scallop feather units with irregular narrow GRAY AND WHITISH TRANSVERSE WAVY BARRING, crossing several adjacent feather surfaces with broken uneven spacing, diffuse fine down grain. Brown chest wash retained. Pattern like photo (but NO frog/prey added). Keep formed folded wing length/tail silhouette, head and white eyebrows/black facial rim/yelloweyes/bill and all feet/grips/branch, adults entirely fixed. Do not flatten all bars into plain gray and do not regress fledgling into newborn. Title v20→v21, all three roles/footer exact unchanged. Same warmpetstyle. This corrects pigment band organization from source, not measured microbarb shape.",
   "source_ids": [
     "KOEP-ALARCON-2023",
     "KOEP-MIK2013-222"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "retry_prompt": "#130 v21 correction on RIGHT JUVENILE TORSO ONLY. Existing pale outlined leaf rims remain too prominent. Paint irregular narrow dark-grey transverse WAVY pigment lines across the torso from chest to lower belly, between paler gray-white fields; lines must traverse several feather units rather than outline individual leaves. Keep faint brown chest wash. Reference is Alarcon Fig1c: narrow irregular bars, not white-lipped scallops. Do NOT change wing length or head, adults, feet, support, text v21/footer or add prey. Pigment correction ONLY, no newborn transformation.",
+  "image_metadata": {
+    "bytes": 2440214,
+    "sha256": "40867bf4cd6a6ba3bd64878bbb1862e63232c61e6a569eb279b91b45d5a66e83",
+    "gitblob": "dc9d4806faf62f0aab3509f02d41e3137692db47",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-c7a23d52-6230-4d2e-81fb-4b23bbeb2b78.png",
+  "imagegen_wait_seconds": 40.208,
+  "editing_wait_seconds": 38.72,
+  "review_result": "NEEDS_REVISION"
 }

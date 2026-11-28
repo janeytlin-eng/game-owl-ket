@@ -17,11 +17,15 @@
     {
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-28T11:41:45.539Z"
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-28T11:41:52.765Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T1133Z-cycle1-20261128T1133Z-112-asio-abyssinicus-v20.json",
-  "stage": "IMAGE_GENERATED",
+  "stage": "REVIEWED",
   "research": "复用ABY-OWLPAGES-2020-3560：Deane Lewis,2020-11-08, Abyssinian Owl https://www.owlpages.com/owls/species.php?s=3560 ，2026-11-28本轮外部toe检索并实际读取Description/Breeding/Habitat。复用WHSO-MIKKOLA-2013同书printed508/PDF510本地实际读取。二者成年跗趾均有羽、黑角色爪，雌仅稍大非高度实测。v19实际图成人趾背大片裸橙鳞片，故成人趾背至爪基补短羽，不把成人事实套幼鸟。旧A.otus abyssinicus→A.abyssinicus。图鉴juvenile undescribed/'most likely like Long-eared'为推测，拒绝当发育证据。现中央olderjuvenile年龄羽序飞行仍未知，不因足趾修订获得通过。来源肩白斑措辞冲突保留不改；高山林枝栖而非新巢室，已有贴脚结构保留。新增0复用2来源，成人覆盖边界局部核查，整组sciencefalse。",
   "full_prompt": "Use case precise-object-edit. Edit #112 Asio abyssinicus v19 to v20. ONLY correct BOTH ADULTS' FEATHER COVERAGE ON TOES. Existing conspicuous bare orange scaled toe tops conflict with feathered toes. Cover dorsal/top and side surfaces of all adult toes down to claw bases with short soft buff-brown feathering, coherent individual tiny feather vanes, NO huge fur boots. Keep gripping underside/soles plausible and claws exposed blackish horn. Preserve exact digit count, curved claws and branch contact points, no floating feet. Do NOT change central age-unknown older juvenile, its feet, wings or tail; its development remains unverified. Keep adult dark bill graybrown cere/yelloworange eyes/ear tufts/plumage/proportions and entire forest/background. Add sex-inferred adult labels. Title '112 ABYSSINIAN OWL · Asio abyssinicus v20'; footer 'CONCEPT · SCIENCE PENDING · JUVENILE AGE / FLIGHT / SEX RATIO UNVERIFIED'. Toe feather coverage only, not general texture smoothing.",
   "source_ids": [
@@ -41,5 +45,7 @@
   "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-724fe4ba-f1bf-40c4-bef4-695365948764.png",
   "imagegen_wait_seconds": 43.671,
   "editing_wait_seconds": 0,
-  "review_result": "NEEDS_REVISION"
+  "review_result": "NEEDS_REVISION",
+  "review": "实际完整看图v20：两成鸟趾背原裸橙鳞片已覆盖短buff羽至爪基、黑爪仍露并抓枝；此解剖覆盖问题局部通过，不评羽长精确。中央旧幼鸟未改，长翼尾/灰头/阶段未知，整体仍NEEDS_REVISION；成人身体纹理塑料感和中央毛皮感未解决，不能称全图校准。生成未按提示显示SEX INFERRED而用了性符号，身份仅设计槽位，审查明确不据此实证性别；此遗漏与比例待下轮整体图注处理，未当科学通过。问题→裸趾与二来源冲突；证据→成人toe feathered；修改→趾背覆盖；复查→有效。回查v19并保留；后续规则将跗羽与趾羽分开检查，不以跗有羽代替趾有羽，不向幼鸟外推。",
+  "reviewed_at": "2026-11-28T11:41:52.738Z"
 }

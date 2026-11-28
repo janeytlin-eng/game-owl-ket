@@ -9609,3 +9609,4 @@ WHSO-CORNELL-LIFEHISTORY new indexed source family (URL not in existingindex aft
 [Research/prompt](species/19-megascops-trichopsis-v8.md) · [Review](reviews/19-megascops-trichopsis-v8-review.md)
 
 Photo lead finalresult: direct forumHTML timed out at35s; web403. No photographedyoungpixelclaim, excluded fromverifiedsourcecount.
+Accesserror correction before credit: direct forumHTML actualexception HTTP403 Forbidden (not35stimeout). Prior note's timeout wording was inaccurate, now corrected; webpageanddirect403, noimage.

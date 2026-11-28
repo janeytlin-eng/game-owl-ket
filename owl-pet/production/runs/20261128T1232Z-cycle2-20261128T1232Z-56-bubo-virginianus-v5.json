@@ -9,9 +9,20 @@
     {
       "stage": "STARTED",
       "at": "2026-11-28T12:43:34.350Z"
+    },
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-28T12:43:41.308Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T1232Z-cycle2-20261128T1232Z-56-bubo-virginianus-v5.json",
-  "stage": "STARTED"
+  "stage": "RESEARCH_READY",
+  "research": "复用GHO-IOC-AGECHART-2017，InternationalOwlCenter, GreatHornedOwlAgeChart（出版年未注明，2017是最新样本年而非出版年），https://www.internationalowlcenter.org/uploads/1/0/3/1/103197186/great_horned_owl_age_chart.pdf ，本轮2026-11-28外检/实际下载原PDF读p1概述和p14并看照片：已知龄38/42/44/48日龄圈养nominate资料，6–7周有长成翼羽+头体残绒+短尾，不能等同图中精确日龄或所有野外种群。v4幼鸟奶油碎棉/卷纹明显，本轮仅整只young重建细buffgray羽被，闭翼安静枝栖减少未验证展翼能力暗示；双脚抓枝，不称首飞。复用WHSO-MIKKOLA-2013同书printed262–263/PDF264–265成人类似羽色/黄眼灰喙白喉/密脚羽、幼鸟buff较小簇，质量雌大非实测高度。旧Strixvirginiana→Bubovirginianus；#56与#14同物种不计新。成人已适当保留不借幼照改成人。枝巢仍为此种可用大鸟枝巢概念非这张照片巢址证明；无新的巢尺寸事实。新增0复用2证据。规则试验：依阶段照片改整体幼体材质/闭翼，而非压短已知阶段可有的成熟翼羽。sciencefalse。",
+  "full_prompt": "Use case precise-object-edit. Edit #56 Bubo virginianus v4 to v5; same warm polished3D owl pet style, preserve both adult birds. Replace the ENTIRE RIGHT older juvenile using supplied International Owl Center known-age 6–7-week photo page as stage reference: down still on head/body but fine soft buff-gray and brown feather texture, irregular subtle down feather clumps, NOT cream curly wool or shredded cotton. Coherent well-grown FOLDED wing feathers are allowed for this stage, tail shorter than adult. Change pose from raised-wing balancing to QUIET CLOSED-WING perch, head turned gently toward adults, two firmly gripping feet on same slanted branch, no hovering or flight. Match the page's older young appearance rather than a neonatal white chick; no exact age claim or universal wild chronology. Retain age/flight uncertainty; do not infer sex of juvenile from page. Preserve adult eyes/bills/ear tufts/white throat/barring/feet/body size/forest and nest structure except branch contact needed for changed young stance. Title '#56 BUBO VIRGINIANUS v5 · GREAT HORNED OWL'; adult labels add SEX INFERRED; young label 'OLDER JUVENILE · AGE UNKNOWN'; footer 'CONCEPT · SCIENCE PENDING · STAGE REFERENCE: CAPTIVE KNOWN-AGE SERIES · FLIGHT UNVERIFIED'. No fourth bird. Adult linear sex ratio remains illustrative.",
+  "source_ids": [
+    "GHO-IOC-AGECHART-2017",
+    "WHSO-MIKKOLA-2013"
+  ],
+  "new_sources": 0
 }

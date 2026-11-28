@@ -9467,3 +9467,8 @@ CAMBOO-RASMUSSEN-2012-FORKTAIL 复用：Rasmussen et al.2012 Forktail28:1–20�
 ## 20261128T1232Z 53-strix-nebulosa-v5
 复用WHSO-MIKKOLA-2013上传图鉴printed353/PDF355本轮实际读Identification/Juvenile：成人灰暗斑密趾羽、爪相对弱且仅略弯、黑色；非强烈钩爪。v4实际看两成人前趾爪长而急弯，本轮限定爪曲率/长度与抓枝接触，不把成人角质形态传幼鸟。复用GGO-USFS-FEIS-2007，ElenaD.Ulev2007-03机构综述 DOI10.2737/feis-species-review-stne，https://research.fs.usda.gov/feis/species-reviews/stne ，2026-11-28主动web关键词检索/实际读Development/Fledging与Habitat；幼鸟用bill/wings/talons攀斜树有文献依据，但不证明图中个体精确年龄、首飞；既有姿态不扩增动作。#53与#08均Strixnebulosa不重复计数；雌平均重300g质量不直接定高度比。成年身份是设计槽位，既有林地/倾斜枝有支撑，无新增巢室或幼鸟阶段。新0复用2文献；相对短/弱曲设计推断非毫米测量，整体sciencefalse。
 [Research/prompt](species/53-strix-nebulosa-v5.md) · [Review](reviews/53-strix-nebulosa-v5-review.md)
+
+
+## 20261128T1232Z 56-bubo-virginianus-v5
+复用GHO-IOC-AGECHART-2017，InternationalOwlCenter, GreatHornedOwlAgeChart（出版年未注明，2017是最新样本年而非出版年），https://www.internationalowlcenter.org/uploads/1/0/3/1/103197186/great_horned_owl_age_chart.pdf ，本轮2026-11-28外检/实际下载原PDF读p1概述和p14并看照片：已知龄38/42/44/48日龄圈养nominate资料，6–7周有长成翼羽+头体残绒+短尾，不能等同图中精确日龄或所有野外种群。v4幼鸟奶油碎棉/卷纹明显，本轮仅整只young重建细buffgray羽被，闭翼安静枝栖减少未验证展翼能力暗示；双脚抓枝，不称首飞。复用WHSO-MIKKOLA-2013同书printed262–263/PDF264–265成人类似羽色/黄眼灰喙白喉/密脚羽、幼鸟buff较小簇，质量雌大非实测高度。旧Strixvirginiana→Bubovirginianus；#56与#14同物种不计新。成人已适当保留不借幼照改成人。枝巢仍为此种可用大鸟枝巢概念非这张照片巢址证明；无新的巢尺寸事实。新增0复用2证据。规则试验：依阶段照片改整体幼体材质/闭翼，而非压短已知阶段可有的成熟翼羽。sciencefalse。
+[Research/prompt](species/56-bubo-virginianus-v5.md) · [Review](reviews/56-bubo-virginianus-v5-review.md)

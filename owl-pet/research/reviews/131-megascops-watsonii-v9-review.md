@@ -1,0 +1,3 @@
+# Actual review
+Actualv8/v9wholeimagesviewed. Bothadulttuftsurfacesnowpredominantlyblackishbrownwithmutedrussetflecks, ratherorange; mediumtuftgeometry/positionretained. Adultfaces/irises/bills/bodyshafts/wingtail/toes/claws/scaleforestunchanged. Centreageunknownmesoptile/restingclosedeyes/bodybars/hiddenwingtail/bellyandfeetnaturalsupportunchanged. LocaltuftpigmentPWLnotmicrostructure/RGB/sexratio validation. Sourceguide236/PDF238explicitblackishtufts; Menq2018andDantas2021p401actualbodyfreshread, no youngtimelinededuced. Sciencefalse/taxonregionalboundaryretainedwithoutrecount.
+{"bytes":2680804,"sha256":"1a9a6a52bac9a315fec327cf0b9afc49a6b8c9d5c693e97e062f880ef58c2050","gitblob":"b1b1dce2a8c28c12c78faf0381f0a79761dda7b1","size":[1536,1024]}

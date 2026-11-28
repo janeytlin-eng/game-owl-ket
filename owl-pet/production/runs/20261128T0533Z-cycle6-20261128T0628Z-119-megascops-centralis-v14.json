@@ -13,16 +13,33 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T06:36:48.796Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T06:37:53.121Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0533Z-cycle6-20261128T0628Z-119-megascops-centralis-v14.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Access 2026-11-28. Reused CHSO-MIKKOLA-2013-P242-243 (Heimo Mikkola 2013 uploaded printed242–243/PDF244–245, actually reread): adult bare toes very pale yellowish, horn claws; yellow-green bill/lemon eyes; short tufts, weak eyebrows, nearly unbordered facial disc; sexual size difference unknown, young undescribed. Reused CHSO-JORDAN-2012-ADULT, Raphael Jordan https://www.oiseaux.net/photos/raphael.jordan/petit-duc.du.choco.1.html actual external photographer page read: adult, San Tadeo Ecuador Oct2012, ISO3200/no flash. Portrait metadata does not independently establish absolute foot RGB; do not claim cross-confirmed toe color from a hidden foot. Active search original 2017 DOI10.1676/16-019.1 again yielded bibliography/abstract leads, not read full text; CHSO-REYES-ASTUDILLO-2017 remains UNVERIFIED CONTENT for young. Actual v13 plate bare adult feet rose-pink at bases and digits: propose desaturate pink and make very pale yellow skin per guide, preserving joints/claws/support. Do not extrapolate adult color to juvenile. Old Otus guatemalae centralis / M. vermiculatus centralis maps to M. centralis. Greywhite adult belly vermiculations retained. Juvenile stage/age/flight/cavity dimensions remain unverified. Source IDs reused2, new validated0, no morphology/sex-ratio claim from photograph pose.",
   "full_prompt": "Edit existing Choco Screech-Owl #119 v13 plate, preserve exact three owls, rounded stylized 3D pet style, proportions, background cavity and all plumage. ONLY BOTH ADULTS' BARE FOOT SKIN: replace the conspicuous pink/rose coloration of upper bare ankle patches and all toe skin with a very pale muted warm straw yellow/ivory yellow. Keep scales, joints and fingers anatomically identical, same exact grips and toe count, horn colored claws unchanged. Not saturated orange, not pink, not pure white. Juvenile's feet and entire juvenile remain unchanged because adult bare part evidence cannot be transferred to young. All adult head/eyes/bill/plumage/pose unchanged. Title #119 v13 -> #119 v14. Preserve concept/science pending and young age/flight unverified captions. Do not alter relative male/female size or infer different sex colors.",
   "source_ids": [
     "CHSO-MIKKOLA-2013-P242-243",
     "CHSO-JORDAN-2012-ADULT"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "image_metadata": {
+    "bytes": 2616551,
+    "sha256": "9fdc50c01b493daa72600668fe07c3a5f4e817216a8702f7e031de4113675569",
+    "gitblob": "5194d95c0910a1af1e24f1b618622a16280ec4cf",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-ca2e199e-0ba6-40c7-a84b-f6864e0afe9c.png",
+  "imagegen_wait_seconds": 31.043,
+  "editing_wait_seconds": 0,
+  "review_result": "PASS_WITH_LIMITATIONS"
 }

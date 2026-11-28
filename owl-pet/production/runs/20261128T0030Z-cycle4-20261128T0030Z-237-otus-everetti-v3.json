@@ -13,16 +13,33 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T00:48:06.008Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T00:49:46.287Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0030Z-cycle4-20261128T0030Z-237-otus-everetti-v3.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "New0/reuse2. LLSO-MIRANDA-2011-P446-450 HCMirandaJr/DMBrooks/RSKennedy2011 WilsonJOrnith123:441–453 DOI10.1676/10-185.1 primarymuseumPDF https://blog.hmns.org/wp-content/uploads/2023/10/PhilippineScopsEprint.pdf actualbodyprinted450/PDF12 readnow, adultspecimencomparison: everetti darkestdarkbrownunderparts/nearlyblacknape; megalotis conspicuousscapularstripes/upperfootfeathers absenteveretti/nigrorum. No juvenileage/livebarepart/sexratio proof. MIKKOLA-2013 HeimoMikkola2013 actualuploadedprinted171/PDF173readthisrun/reused: graywhiteunderpartswithshafts andyellowishtoes/darkbrowniris/pinkorbitalring/darkgrey-yellowtingebill/longtufts/female+25gmassnotheight; juvenileundescribed. Adultunderparttoneconflictprimarydarkbrownversusguidegraywhite unresolved, currentgraytoes versusguideyellowish notindependentlycalibrated. Existingv2 andhistoricaladult2025photo/2022immaturescope retained but notnewlyreadorphoto-verifiedthiscycle; cannotclaimcolourresolved. Olderimmaturealreadyproperuncertaintyfooter, missingadulttoe/underpartconflictnotice. ANNOTATIONONLYexplicitadultuncertaintytoimage, no freshmorphologicaldefectrepair. OldScopseveretti/Omegalotiseveretti→Oeveretti NOT Ninoxeveretti(=Nreyi). Same251unit,no newborn/flight/nestguess. Sciencefalse.",
   "full_prompt": "Text-localization edit #237 Otus everetti v2 trio only. Add small 'v3' to title. Keep existing 'CONCEPT · SCIENTIFIC CALIBRATION PENDING' and 'IMMATURE AGE / FLIGHT / IRIS UNVERIFIED'. Add one clearly readable discreet line beneath them in loweremptygreen margin: 'ADULT TOE COLOUR / UNDERPART TONE UNRESOLVED'. Do not cover birdfeet/branches/rolelabels. Preserve all threebirds exactly in visualterms, theirdarkeyes/pinkorbitalrims/tufts/palebrows/darkbills/subduedscapulars/ventralpattern/graytoes/hornclaws, whole rightsleepingolderimmature andallperchcontacts/background. Do NOT resolve sourceconflict by recolouring anything. This is explicit adult evidence-limit export only, not anatomical correction or scienceapproval.",
   "source_ids": [
     "LLSO-MIRANDA-2011-P446-450",
     "MIKKOLA-2013"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "image_metadata": {
+    "bytes": 2556880,
+    "sha256": "3650441c4fdcbca99c1e5198e0ba88552ad66118c302ed92497fbf3d0f697345",
+    "gitblob": "b2fe182b27d55cdcd629e562787849330a1f9142",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-81901a86-8fc6-417d-8e75-4f220e5e4071.png",
+  "imagegen_wait_seconds": 33.779,
+  "editing_wait_seconds": 0,
+  "review_result": "PASS_WITH_LIMITATIONS"
 }

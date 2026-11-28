@@ -25,11 +25,15 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-28T08:44:28.891Z"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-28T08:44:43.174Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0725Z-cycle6-20261128T0833Z-208-ninox-affinis-v5.json",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "research": "Access2026-11-28. Reuse NAFF-MIKKOLA-2013-P470, HeimoMikkola2013 uploaded printed470/PDF472, actual page read: facialdisc grayish, yelloweyes, white eyebrows/throat in photo caption; plain brown crown fine indistinct ochre vermiculations, bright rufous longitudinal underparts stripes, toesyellowish/darkhornclaws; sex size/colour unknown. Juvenile fluffy mesoptile less distinct streaks; no exact age/flight/nest evidence. Reuse NAFF-OWLPAGES-2021 DeaneLewis updated2021-04-26 https://www.owlpages.com/owls/species.php?s=3220 actualDescription64–76read: grayishdisc, dullgreencere, palehornbill, scant breedingknowledge/lowlandsecondaryforest. Reuse NAFF-OISEAUX-2015 DanielLeDantec/FrédéricCiszek2015-12-29 https://www.oiseaux.net/oiseaux/ninoxe.des.andaman.html actualIdentification144–146read agrees grayishdisc but darkbillwithgreenishculmen and fluffy less-streakedyoung. Secondary accounts overlap guide; not independent developmental field corroboration. Bill conflict remains. Athene affinis→Ninox affinis, monotypic scope. Existingv4 cheeks/eye surrounds warmbrown, need bounded coolgraydisc correction; retain supported juvenile, no young-eye or sex-height inference. New0/reuse3. New historic illustration metadata lead (not biological corroboration): Keulemans1874 viaWaldenIbis127–149 https://commons.wikimedia.org/wiki/File:NinoxAffinisIbis.jpg actualcatalogpage119–123read, pixels not viewed, no morphology claim. Do not add source ID unless actual illustration read later.",
   "full_prompt": "Use case precise-object-edit. Edit target #208 Ninox affinis v4 owl concept. Change ONLY the facial disc feather ground colour on both adult owls, currently warm brown: make the eye-surround and cheeks subtle cool ash gray, consistent with species descriptions. Preserve white eyebrows and white throat, brown crown and mantle, yellow irises, dark bill with paler ridge/tip, rufous longitudinal breast stripes, adult size relationship, feet, supported juvenile (do not alter its unknown iris/age), forest, gold type/layout. Gray is feather pigment, not gray eye or gray skin; keep fine feather definition and natural lighting. Keep brown head crown above white brows. Preserve all wording; add small v5 after the title. Bill colour conflict, juvenile iris/age unverified and science pending labels retained. No other changes.",
   "source_ids": [
@@ -53,5 +57,8 @@
   "review_result": "PASS_WITH_LIMITS",
   "review": "Actual generated v5 viewed against v4 and actual guide/account text: both adult cheek/eye-surround ground now ash-gray, white eyebrows/throat retained, crown brown, yellow irises, bill/rufous chest streaks/supports and labels intact. Bounded facial-disc colour correction PASS WITH LIMITS, no further edit needed for this scope. Juvenile still highly stylized with some loop-like feather units, exact iris/age/flight unsupported; no scientific pass. Bill colour conflict retained. Adult sexes stay display pair without inferred size dimorphism. Lowland forest plausibility only; no nest depicted. Lesson: separately specify gray disc ground versus white brow/throat, preventing mistaken removal of species white brow. Applied and visibly effective here only; other Ninox gray-disc concepts require separate evidence and image review, no automatic retroactive correction.",
   "reviewed_at": "2026-11-28T08:44:24.018Z",
-  "archived_at": "2026-11-28T08:44:28.874Z"
+  "archived_at": "2026-11-28T08:44:28.874Z",
+  "archive_commit": "de93aecf0613b673e6690de211844653f07a9bc8",
+  "ended_at": "2026-11-28T08:44:43.153Z",
+  "verification_exit_code": 0
 }

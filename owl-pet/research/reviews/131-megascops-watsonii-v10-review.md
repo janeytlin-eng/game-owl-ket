@@ -1,0 +1,3 @@
+# Actual review
+Actual visualreview: adults now distinctdark lateralruff/softedges, browninnerdisc/irises/bills/darktufts/bodypattern preserved; juvenileclosedeyes/bars/bellyrest/feetgrip unchanged. LocalruffpigmentPWL only, no preciseplumage/scienceapproval. Retain usta regionalboundary; externalMenqname splitdoesnotautomaticallyrecount251 orreassignspecies. Existingjuveniledevelopmentunknown, no agedrawing. Applied boundedpigmentruffrule to131 only, do not apply tootherowlssanssource.
+{"bytes":2589838,"sha256":"32c9acabcf9a14011c38d6ad1020f749c4ce0373e393bc7f6155bf656efb7b21","gitblob":"9c7586eff43fa6d95be3c30de3471f8bfb814be8","size":[1536,1024]}

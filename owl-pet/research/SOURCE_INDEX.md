@@ -9496,3 +9496,8 @@ WHSO-MIKKOLA-2013, BUO-JOHNSON-AGING-2019, BUOW-SDZ-2017, BUOW-SMITHSONIAN-2012 
 ## 20261128T1330Z 112-asio-abyssinicus-v21
 复用ABY-OWLPAGES-2020-3560 DeaneLewis2020-11-08 https://www.owlpages.com/owls/species.php?s=3560 本轮外检后实际打开Description/Breeding/Habitat原正文；复用WHSO-MIKKOLA-2013 printed508/PDF510实际读。成人跗趾羽覆盖、黑角爪/暗喙灰棕蜡膜/黄橙眼/格纹；性差仅稍大不测高比。A.otusabyssinicus旧名对应。adultfield来源Oiseaux/CatherineetBernardLanneluc照片已实际看，本轮只作成人纹理参考不新增源，不凭照片估性别年龄。原v20实际查看成人仍塑料碎羽，本轮仅成人材质；中央幼鸟保留原状且UNVERIFIED，图鉴juvenileundescribed及类似Aotus是推测不能当本种事实。搜索新增Guichard/2016旅行报告为未读线索不作事实。新0复用2主要来源，成人修改不替幼鸟验收。
 [Research/prompt](species/112-asio-abyssinicus-v21.md) · [Review](reviews/112-asio-abyssinicus-v21-review.md)
+
+
+## 20261128T1330Z 01-tyto-alba-v6
+复用WBO-EILAM-HAGBI-2024，DavidEilam/ZoharHagbi2024-10-17, Biology13:834 DOI10.3390/biology13100834 https://pmc.ncbi.nlm.nih.gov/articles/PMC11504010/ 本轮主动外检、原文打开并定位3.1.2/3.1.3及Fig3–4；开眼后11–20日低坐/视觉探索与横向头动，20–30日多跟跗段支撑，30日起成人直立，50–60日初飞是研究圈养样本非全球阈值。v5实际看支撑基本合理，不虚报原图错误；本轮设计迭代选择安静侧向peering姿态，并撤数值日龄标签避免生成像断龄。复用WBO-KOEPPL-2005原研究历史羽管证据(本轮未新读全篇)及WBO-MIK2013-78-80历史成人确认方向，非新源。头转设计推断受姿态研究支持但不是照片复刻；不把开放眼颜色/羽管长度说精确15日。保留原v3确认范围，不扩大科学审批。新0复用3。
+[Research/prompt](species/01-tyto-alba-v6.md) · [Review](reviews/01-tyto-alba-v6-review.md)

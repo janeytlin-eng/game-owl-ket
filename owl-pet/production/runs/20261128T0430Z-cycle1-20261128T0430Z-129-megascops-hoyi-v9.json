@@ -25,11 +25,15 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-28T04:39:12.563Z"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-28T04:39:27.961Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0430Z-cycle1-20261128T0430Z-129-megascops-hoyi-v9.json",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "research": "Access2026-11-28. Reuse HOY-MIK2013-228 uploadedHeimoMikkola2013 printed228/PDF230 actualread: ADULT paleeyebrowsusuallynotchedaboveeyes so palelinebroken; blackruff/graybrownfinevermicdisc/yellowiris/greenishyellowbill/yellowgraytoes/darkhornclaws. Femaleavg>20g MASSnotheight. Fledgedyoungadultlikefluffy/novisibletufts; nojuvenilebareparttimeseries. V8adultbrowsappearcontinuous; boundedadultpigmentnotchonly. HOY-SIB-ARG https://sib.gob.ar/especies/megascops-hoyi freshtargetsearch/bodyread11–25/46–48 KoenigStraneck1989/oldOtushoyi; institutionpage NOT brow or juvenilecolour source. New0/reuse2. Preserve juvenileunverifiedcolours/unknownage/flight/nest; original3adultroles/near-equaladultheight.",
   "full_prompt": "Precise-object-edit #129v8→v9, scientificpetconcept. Change ONLY pale eyebrow pigment of BOTH ADULTS: make a modest dark notch interrupt each pale eyebrow just above eye, so pale browline is visibly broken as species account describes. Preserve ruff/facial fine vermiculations/brightyelloweyes/greenishyellowbill/tufts/scale and all other anatomy. Keep entire centre fledged juvenile, including its ageunknown and colourunverified footer unchanged. Keep all scenery/poses/feet contact/lighting/type exceptversion. This is subtle pigment gap, no physical gash and no removedfeathers.",
   "source_ids": [
@@ -52,5 +56,8 @@
   "review_result": "PASS_WITH_LIMITATIONS",
   "review": "Actual output viewed: adult pale brows have dark interruptions above eyes, subtler on rightadult; facevermic/blackruff preserved. Localpigment PWL, exactnotchshape notscientificplate. Young barepartunknownfooter and unchangedjuvenile/wingtail/feet supported, adultscale/forest preserved. Rule observed/applied only this target: correct pigment interruption without carving anatomy; notgeneralallMegascopsbrowrule. Wholegroup scientificallyfalse; historical approvals notinherited.",
   "reviewed_at": "2026-11-28T04:39:07.841Z",
-  "archived_at": "2026-11-28T04:39:12.542Z"
+  "archived_at": "2026-11-28T04:39:12.542Z",
+  "archive_commit": "2f4e269ee0cdc57f1808b7b943a79efca6befc08",
+  "ended_at": "2026-11-28T04:39:27.936Z",
+  "verification_exit_code": 0
 }

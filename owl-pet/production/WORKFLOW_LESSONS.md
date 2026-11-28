@@ -1131,3 +1131,7 @@ First and secondactualoutputsviewed: finerbodyfilaments aftersecondedit, but rep
 
 ## 20261128T0533Z 130-megascops-koepckeae-v25
 Firstactualfacepolygonoutlinesfailed. Secondactualview finegray-white radiatingfacialfeathers withdarkflecks, cracked-whiteunitsremoved, blackruff/eyes/bill/crown/body/youngbrownchest/barrednessoptiles unchanged. LocaladultfacePWL only; featherfilaments stillstylized notexactfacialpattern. Juvenileleafgeometryunresolved, agesexflightunknown. ExactreuseIDcorrection KOEP-FJELDSA-2012-P180-191, same2012source notnewentry; holotypeadult/hockingi lowerbellynottransferred. Finefaceprimitivechange locallyhelpedadult, didNOTvalidate108juvenilemethod.
+
+
+## 20261128T0533Z 137-otus-alfredi-v11
+Actualoutputviewed: longprofuserufousadultbristleswithdarkertips replacewhite; lengthschematic/exaggeratedandnotmeasurementaccurate, localpigmentPWLonly. Adultdarkrimnotadded, recentbelly/whitediamonds/crown/side-neckscales/yellowbareparts preserved; entirejuvenile/formedwingtail/historicalmale/ageunknown/grip unchanged. Reviewcomparisonv10supportscolourchange notnewanatomy. Negative juveniletexturequeue108/130/112unchanged; rulepigmentcorrectiononlysourceapplicablespecies.

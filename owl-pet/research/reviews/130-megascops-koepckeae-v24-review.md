@@ -1,0 +1,3 @@
+# Actual review
+Actual output viewed: upper breast now diffuse brown, lower graywhitebars retained, blackdisc/whitebrows/yelloweyes/formedfoldedwingtail/perch grip/adults/crown unchanged visually. Bounded chestpigment PASS_WITH_LIMITATIONS only; bright outlined feather units remain unresolved, notwholejuvenilesciencepass. Age/sex/flightunknown retained. Problem→evidence→chestpigment→localvisualpass; notmaterialrepair. Existing108/112 similarly unresolved, no untestedgeneralization.
+{"bytes":2363188,"sha256":"1fc43c4ed6ab0afec8b00c94a173aaedc3daf480cec620ad2770e61fc4553d90","gitblob":"f8484c4511e86d27f00b9b9a66493f7e78c8ae61","size":[1536,1024]}

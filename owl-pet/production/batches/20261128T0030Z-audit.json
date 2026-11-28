@@ -1,0 +1,442 @@
+{
+  "run_id": "20261128T0030Z",
+  "started_at": "2026-11-28T00:29:33Z",
+  "ended_at": "2026-11-28T00:51:47.751Z",
+  "completed_cycles": 6,
+  "new_species": 0,
+  "revised_versions": 6,
+  "revised_species": 6,
+  "counts": {
+    "baseline_images": 1436,
+    "final_images": 1442,
+    "historical_changed": 0,
+    "canonical_species": 207
+  },
+  "scientifically_verified": false,
+  "science_passes": 0,
+  "actions": [
+    "成年下腹纵纹局部淡化，保留上胸纵纹",
+    "成年冠顶恢复显著横斑，幼鸟不变",
+    "较大幼鸟岩面低抬足小步姿态；动作属设计推断",
+    "成年雌鸟侧背展示，肩纹保持不显著",
+    "成年雄鸟侧背展示白色后颈领带，不作雌雄羽色差异",
+    "仅增加成年趾色/腹面色调未解决提示，不改色"
+  ],
+  "source_counts": {
+    "new": 0,
+    "reuse_citations": 11,
+    "stable_ids": 11,
+    "document_families": 7,
+    "access_upgrades": 1
+  },
+  "results": [
+    {
+      "run_id": "20261128T0030Z-225-otus-socotranus-v3",
+      "batch_id": "20261128T0000Z",
+      "cycle": 5,
+      "target": "225-otus-socotranus-v3",
+      "action": "REVISION",
+      "started_at": "2026-11-28T00:33:36.485Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T00:33:36.528Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T00:34:02.872Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T00:36:05.309Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T00:36:10.009Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T00:36:15.576Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T00:36:34.306Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0000Z-cycle5-20261128T0030Z-225-otus-socotranus-v3.json",
+      "stage": "VERIFIED",
+      "research": "Access2026-11-28Shanghai. Reuse2/new0. OSOC-MIKKOLA-2013-P132 HeimoMikkola2013 uploadedprinted132/PDF134 actuallyread: adultunderparts shaftstreaksupperbreaststronger, lowerabdomen nearlyplainpalegrey; yellowiris/blackishhornbill/veryshortblunttufts/indistinctruff/palegraybrowntoes/grayhornclaws/tarsitotoebase; massfemalealittleheaviernotstandingratio. Actualv2 retainsfewdarklonglines onlowerabdomen; modestlocaldensityreduction designinference fromtractcontrast, notgrossspeciesdefect/no exactRGB. OSOC-PORTER-SULEIMAN-2013-P65-66 RFPorter/ASSuleiman2013 Sandgrouse35:43–81 original https://www.osme.org/wp-content/uploads/2019/10/I-Porter-Suleiman-Sandgrouse-35-1-2013.pdf actualbody65–66/PDF23–24 read, Plate16captionrecentlyfledgedMarch2011 on66; screenshotrequestedforvisualcheck, bodypalms/maturetrees/20dayestimatedNESTyoung separatefromrecentfledglingphoto/nohatchage/flightthreshold. Preserveknownolderstageformedwing, notusingbookyoungunknownasguesstobirth. OldOsenegalensissocotranus currentOsocotranus same251unit. PriorPons2013billshapeandunresolvedsexdirection retainedwithoutfreshpaperclaim. Sciencefalse, no newuserconfirmation.",
+      "full_prompt": "Precise-object-edit #225 Otus socotranus v2. BOTH ADULTS lower abdomen ONLY: keep upperbreast darkshaftstreaks, but thin and fade the few long darkshaftlines that continue onto lower belly, so the lower belly is NEARLY PLAIN PALE GREY with a slight sandy cast and very faint fine irregular vermiculation. Preserve natural feathertexture, not blankwhite, no wholebodysmoothing. Keep flank/upperbreast markings, yelloweyes/blackishhornbroaderbill, veryshorttufts/indistinctruff, scapulars andflightbars, featheredtarsi/palegraybrowntoes/grayhornclaws, youngentirely unchanged includingformedwing/unknownexactage andsixfootcontacts. Keep landscape/palms/labels/status, addsmallv3totitle. One local pigment-density correction from adulttractdescription, no broadcolourcalibrationornewsex/age/flightclaim.",
+      "source_ids": [
+        "OSOC-MIKKOLA-2013-P132",
+        "OSOC-PORTER-SULEIMAN-2013-P65-66"
+      ],
+      "new_sources": 0,
+      "image_metadata": {
+        "bytes": 2607343,
+        "sha256": "dcf5722df9475a511afd63bc8a0c07c02eb14d6d6aed935764b32924d598773b",
+        "gitblob": "dd984d6d5edfad1ea86e1354b3f27a17d4ae3f7f",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-3b283b8c-359e-4e8b-aebf-d7e9a156ba01.png",
+      "imagegen_wait_seconds": 52.217,
+      "editing_wait_seconds": 0,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "review": "Actualv2/v3wholeimages compared: adultlowerabdomenlongdarkshaftsfadedwhileupperbreaststreaksretained, nownearlyplainpalefieldwithfinefeathergrain. LocalPWLpigmenttractcontrastonly, lightingstillwarm/nocolorimetriccalibration. Broadblackishhornbills/yelloweyes/shorttufts/graybrowntoes-grayhornclaws andnear-equaldisplay/youngformedwing/sixcontacts/palms/labels/v3 retained. Youngpreciseage/flight/sexunverified; paperPlate16screenshotreturnedtextimageplaceholderonly,nofreshpixelviewclaimed. Originalbody/captionread supportsstagebutnotexactdays. Lesson don'tremovevalidupperbreaststreakswhenclearinglowerbelly, oneactualtracteditnotuniversalrule. Sciencefalse.",
+      "reviewed_at": "2026-11-28T00:36:09.995Z",
+      "archived_at": "2026-11-28T00:36:15.563Z",
+      "archive_commit": "897aa67e2d4fd24b112f7e6eb9d39ba74d392006",
+      "ended_at": "2026-11-28T00:36:34.286Z",
+      "verification_exit_code": 0,
+      "commit_sha": "0049328c2eecea9844ec8debd4474c9a5f9f2d36",
+      "credit_commit": "40976f930717fbcc7d033ec0fbca4f5418571a3f"
+    },
+    {
+      "run_id": "20261128T0030Z-236-ninox-reyi-v3",
+      "batch_id": "20261128T0000Z",
+      "cycle": 6,
+      "target": "236-ninox-reyi-v3",
+      "action": "REVISION",
+      "started_at": "2026-11-28T00:37:03.398Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T00:37:03.432Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T00:37:26.827Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T00:38:58.059Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T00:39:02.830Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T00:39:07.339Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T00:39:51.205Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0000Z-cycle6-20261128T0030Z-236-ninox-reyi-v3.json",
+      "stage": "VERIFIED",
+      "research": "New0/reuse2. NREY-RASMUSSEN-2012-P17 PCRasmussenetal2012 Forktail28:1–20 Vocaldivergenceandnewspecies... original https://static1.squarespace.com/static/5c1a9e03f407b482a158da87/t/5c2122546d2a7362341520d4/1545675354149/Philippine-owls.pdf freshbody/diagnosisprinted17 read: pronouncedevenheadbreastbarring/tinywhitesupercilia/brightwhitethroat/dullgreenyellowbill/mustardtoes/blackclawspalerbase. Lowerpartsvariable andyoungnotdistinctregularstreaks; no age/youngsoftpartchronology borrowed. MIKKOLA2013 HeimoMikkola2013 actualuploadedprinted479/PDF481read: narrowadultdarkbrownhead/upperpartbars onwhitish-buffground, breastbanded/lowerpartsvariable; oldNphilippensisreyi/Ninoxeveretti synonym NOT Otuseveretti. Sexsizeunknown/notheightformula. Actualv2adultcrownrenderedaspalecrescent/scallopunits withseveralirregularspots, localpigmentmapshift totransversebars only, notremovewhiteeyebrowsorundertreatyoung. Formedolderyoungwing retained, stage/flightunknown. CurrentNreyi same251unit. Speciesadultpatternfactstrong; exactbarwidth/placement isdesigninference notphotometricproof. Sciencefalse.",
+      "full_prompt": "Precise-object-edit #236 Ninox reyi v2. BOTH ADULTS crown/head PIGMENT PATTERN ONLY. Replace the discrete pale-edged scalloped spotlike crown patches with distinct narrow evenly spaced DARK BROWN TRANSVERSE BARS on a lighter brown/buffy ground. Bars follow headcurvature acrosscrown andnape, broken naturally by featheroverlap but recognizably transverse barring ratherthan isolatedscalepatches. Preserve feather relief as far aspossible; this is pigment placement not a fluffy-material experiment. Keep tinywhitesupercilia/brightwhitethroat/yellowiris/dullgreenyellowbill, alladultbreastbands/lowerparts/blackclawspalerbases/mustardtoes, entireageunknownyoung anditsunverifiedsoftparts, sixcontacts/forest/labels/footer. Addv3totitle. No extraear-tufts or newsexheight/age/flight/nest claim.",
+      "source_ids": [
+        "NREY-RASMUSSEN-2012-P17",
+        "MIKKOLA2013"
+      ],
+      "new_sources": 0,
+      "image_metadata": {
+        "bytes": 2598329,
+        "sha256": "08720b359e20c485d36081b37bf4ee218571bb9f50859793414d9a7276fa0440",
+        "gitblob": "35515e291a6f960db216772b5896de0e4d32757d",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-6ab2a3da-e8ef-4b33-b714-6f6395b3bb20.png",
+      "imagegen_wait_seconds": 33.347,
+      "editing_wait_seconds": 0,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "review": "Actualv2/v3fullimages andprimaryp17diagnosis compared. Adultcrownsnowdistincttransversebrownbarsonpalergroundratherthanmostlycrescentpatches; localPWLpatternplacementonly, barspacing/widthnotquantitativelycalibrated. Tinybrows/whitethroat/yelloweyes/greenyellowbills/blackclawspalerbases/mustardtoes retained. Breastbands/lowerpartsunchanged, entireyoungincludingunverifieddarkiris/softparts/formedwing/ageunknown andall6grips/forest/footer/v3 retained. Primaryconcentric earcovertsbarringmustnotbeconvertedintoplaindisc; face retained. Lesson specify pigmentbarsseparatelyfromfeatherrelief toavoidrepeatingfailedgenericdownmaterialrequests. Sciencefalse.",
+      "reviewed_at": "2026-11-28T00:39:02.816Z",
+      "archived_at": "2026-11-28T00:39:07.325Z",
+      "archive_commit": "f3085faa500780f5587e08f5532a6e0250ccb215",
+      "ended_at": "2026-11-28T00:39:51.185Z",
+      "verification_exit_code": 0,
+      "commit_sha": "98d2004111168255f0283b38ce38c2406665b525",
+      "credit_commit": "ae1661d7deef436c6b877f4cfe93d1564040fb94"
+    },
+    {
+      "run_id": "20261128T0030Z-233-bubo-milesi-v3",
+      "batch_id": "20261128T0030Z",
+      "cycle": 1,
+      "target": "233-bubo-milesi-v3",
+      "action": "REVISION",
+      "started_at": "2026-11-28T00:40:01.836Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T00:40:01.880Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T00:40:09.989Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T00:41:48.551Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T00:41:52.939Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T00:41:57.615Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T00:42:43.676Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0030Z-cycle1-20261128T0030Z-233-bubo-milesi-v3.json",
+      "stage": "VERIFIED",
+      "research": "New0/reuse1 primaryBMIL-BABBINGTON-2018-TANOUMAH JemBabbington5Oct2018 https://www.birdsofsaudiarabia.com/2018/10/arbabian-spotted-eagle-owl-young.html freshbodyactualread: JulyTanoumah two young lefttree andflewnearbyrockface, clearadvancedformedfeather/flight-observedstage, notmeasuredfirstflightday. CurrentBubomilesi oldBafricanusmilesi same251unit; no transferbroadAfricansexualmass/newborndown. v2actualimagealreadyhas formedwingtail andsubduedbarredcrown; no newpatternerrorclaimed. Newdesignposevariety cautioussupportedrockstep is inferenceconsistentolderdocumentedstage, not observedstep/biomechanicmeasurement. Retainall6contacts exceptonebriefraisedyoungfoot withcenterofmassoverplantedfoot/continuousrocknoperchgap. Exactyoungage/sex/featherchronology andadulttoeextentunresolved. UploadedMikkolaactual280/PDF282and281/PDF283read asbackground broadoldafricanus includesmilesi but notadoptednewtoe/sex/natalphenotype: species-specificboundaryinsufficient. Sciencefalse, poseconceptnotcalibration.",
+      "full_prompt": "Precise-object-edit #233 Bubo milesi v2. Change ONLY RIGHT OLDER JUVENILE POSE, preserving species plumage/face/age stage. Give it a small cautious step to the LEFT along this same broad continuous rock shelf: body inclined very slightly forward, left foot planted securely flat gripping rock, right foot lifted just a little and reaching toward a nearby level rock surface. Wings remain FOLDED with the same formed barred remiges andtail, no flapping/flying. Turn head slightly towardadults, lookingcuriously, keepyelloweyes/darkbill/lowflattufts/subduedbarredcrown/noadultcrownspots andbarredloosebody. Wholebodycenterofmass over plantedfoot; natural support, no floating feet or cliffgap. Bothadults entirelyunchanged inclallfeet/tufts/patterns, wholeenvironment/title/roles/sciencependingfooter unchanged; addv3totitle. This is olderflight-observed fieldstage, NOT hatchling; exactageunknown and specificsteppingmotion a designinference, not a dateddevelopmentmilestone.",
+      "source_ids": [
+        "BMIL-BABBINGTON-2018-TANOUMAH"
+      ],
+      "new_sources": 0,
+      "image_metadata": {
+        "bytes": 2751258,
+        "sha256": "0f77c2ac42760b39e4b7fae328cb692f93d642b79131a34ac5c31996a397818d",
+        "gitblob": "e820803f71a1735c03aa97c831fec363b0a72e74",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-0cb1b636-565a-4a96-aa66-0fbfb201a8c3.png",
+      "imagegen_wait_seconds": 38.78,
+      "editing_wait_seconds": 0,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "review": "Actualv2/v3wholeimagesviewed: olderjuvenileonefootliftedlowtowardcontinuousrock, plantedfootunderbodyandsufficientcontact, slightforwardlean/headtowardadults, closedformedwings/barredtailretained. LocalPWLpose/supportdesignonly; steppingnotdirectlyobservedintheprimaryfieldaccount(whichdidobserveolderyoungflight). Sourceage/sex/chronologyunknown, nodayorfirstflightthresholdclaim. Crownsubduedbarred/lowtufts/yellowiris/darkbill retained, bothadultsunchangedandv3/footer/roles legible. Lesson capabilitygate permitsadvancedolderstageposes withoutregressingformedremiges; actualsupportcheckedvisuallynotkinematicmeasurement. Adulttoefeatherextentunresolveduntouched. Sciencefalse.",
+      "reviewed_at": "2026-11-28T00:41:52.925Z",
+      "archived_at": "2026-11-28T00:41:57.602Z",
+      "archive_commit": "de985f37188505175208fbfc9bfe918771f351a8",
+      "ended_at": "2026-11-28T00:42:43.656Z",
+      "verification_exit_code": 0,
+      "commit_sha": "91d4f2a48a3e910bb5dffbe386b93320f631434b",
+      "credit_commit": "bc3ab625cc97daf371d0a6e15b3de0bd272b1afa"
+    },
+    {
+      "run_id": "20261128T0030Z-235-otus-pamelae-v3",
+      "batch_id": "20261128T0030Z",
+      "cycle": 2,
+      "target": "235-otus-pamelae-v3",
+      "action": "REVISION",
+      "started_at": "2026-11-28T00:42:52.731Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T00:42:52.775Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T00:42:57.912Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T00:44:28.570Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T00:44:33.782Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T00:44:38.680Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T00:45:18.438Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0030Z-cycle2-20261128T0030Z-235-otus-pamelae-v3.json",
+      "stage": "VERIFIED",
+      "research": "New0/reuse2. OPAM-SOUNDAPPROACH-2019 TheSoundApproach ArabianScopsOwl https://books.soundapproach.co.uk/species/arabian-scops-owl/ freshbodyread; paleArabianplumage/lessbreaststreaks andsubduedscapularrowvsAfrican, adultOmanpairrecords notsexsizebiometrics, nojuvenilesounds/feathersequence. OPAM-MIKKOLA-2013-P128 HeimoMikkola2013 actualuploaded128/PDF130read: palebrowngraymottledback/rufousbuffcoverts/paleflightbars/indistinctscapularareas NOconspicuousstripe/smallrectiletufts/paledisc/thindarkruff/goldeneye/darktippedgraybill. Currentv2frontpatterncorrectionalreadyvalid; no freshmorphologicalerrorclaimed. Newfemale¾backpose illustrates taxondiagnosticmutedshoulder insteadallfronttrio, adultmotorpose designinference notmeasuredrotation. No sex-specificcolourinferred; near-equaldisplayuncalibrated. OldOsenegalensispamelae currentOpamelae same251unit. Keepolderfeatheredyoungsupportedpose/irisflightageunknown, Bateshistoricalrecordv1readforcontext notclaimedfreshoriginalthiscycle. Tarsalextentconflictuntouched/no preciseboundaryinvented. Sciencefalse.",
+      "full_prompt": "Precise-object-edit #235 Otus pamelae v2. Change ONLY CENTER ADULT FEMALE body pose to a gentle three-quarter BACK view, head turned naturally toward the left adult with one goldeneye and pale dirtywhite sideface visible. Reveal mantle/upperback/scapulars/closedwings: pale earthy gray-brown with fine indistinct dark mottling and short shafts; modest rufous-buff coverts, pale flightbars; scapulars onlysmall muted buffgreyflecks with NO prominent white stripe. Not a180degree headtwist, body-and-neck pose connectednaturally. Same adultsize/notsexualplumagecontrast; same gray darktippedbill/smalltufts/feet & allfouradultgrips preciselyonbranch. Keep leftadult previouslysubduedfrontstreaks, entire rightsleepingolderjuvenile anditsunknownage/softparts, allforestwadi/background/rolelabels/sciencependingfooters unchanged. Addv3totitle. Adultpose variant for diagnosticbackview, no newbiology/sexratio/youngflightclaim.",
+      "source_ids": [
+        "OPAM-SOUNDAPPROACH-2019",
+        "OPAM-MIKKOLA-2013-P128"
+      ],
+      "new_sources": 0,
+      "image_metadata": {
+        "bytes": 2648630,
+        "sha256": "b59618324fce84274eb2e58ad91b7b16d935b8e9b35960c65296651e2b20ce16",
+        "gitblob": "4108ff68b783bc3b929acf2b9cbdd6e5e1381c41",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-78ec1dc4-93bc-471e-86e5-5ca5288e81ba.png",
+      "imagegen_wait_seconds": 38.392,
+      "editing_wait_seconds": 0,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "review": "Actualv2/v3fullimages viewed. Centralfemale¾back/headleft naturalneckconnection andonegoldeneye/palediscsides, fouradultfeet secureonbranch; mantle/scapularareasfineindistinctmottles/notboldwhitestripe, pale flightbars/grey-darkbill/smalltufts retained. Leftadultventralstreakfix andentiresleepingolderjuvenile/age-colours-flightunverified untouched. PWLadultpose/diagnosticbackview only, not freshbiologicaldefectrepair/sexcolourinference orvalidatedindividualfeathermap. Viewpoint changes perceivedsize, no quantifiedsexratio. Lesson adultfront-backrolevariationcanrevealdiagnosticlackofscapularstripewithoutinventingrareyoungdata; oneactualvisualresult notscientificsignoff. Sciencefalse.",
+      "reviewed_at": "2026-11-28T00:44:33.769Z",
+      "archived_at": "2026-11-28T00:44:38.667Z",
+      "archive_commit": "37906367bc60fa4242de397fc32416bad449d001",
+      "ended_at": "2026-11-28T00:45:18.418Z",
+      "verification_exit_code": 0,
+      "commit_sha": "da6852446db685ccd58557071427a32cd45e8795",
+      "credit_commit": "a2bd686d44a3928cd4f74b8603368a662cf0d242"
+    },
+    {
+      "run_id": "20261128T0030Z-230-taenioptynx-sylvaticus-v3",
+      "batch_id": "20261128T0030Z",
+      "cycle": 3,
+      "target": "230-taenioptynx-sylvaticus-v3",
+      "action": "REVISION",
+      "started_at": "2026-11-28T00:45:28.096Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T00:45:28.140Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T00:45:33.239Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T00:47:04.988Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T00:47:09.405Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T00:47:13.997Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T00:47:51.048Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0030Z-cycle3-20261128T0030Z-230-taenioptynx-sylvaticus-v3.json",
+      "stage": "VERIFIED",
+      "research": "New0/reuse2 productionfacts. TSYL-GWEE-2019 ChyiYinGwee/JamesEaton/ElizeNg/FrankRheindt2019 AvianResearch10:36 DOI10.1186/s40657-019-0175-4 https://www.sciopen.com/article/10.1186/s40657-019-0175-4 publisherabstractMethodsResultsread13skins/76recordings; https://link.springer.com/article/10.1186/s40657-019-0175-4 fullbodyopened/findAllspecimens morphology: Sumatran/BorneanWHITEhindneckcollar vscontinental/Taiwanrufous. Do notclaimsexcolourdimorphismorsubspeciesinterchange. TSYL-MIKKOLA-2013-P370 actualuploaded370/PDF372read ownSumatransylvaticumcaptionwhitebelly/centrebreast-rufousbreastband/brownflankspots; oldbroadGbrodiei mass/juvenile facts NOTvalidatedsplitSundafeatherchronology. Actualv2femalealreadyshowswhitecollar/malefrontviewhidesit. Changeadultmalepose toexposetaxondiagnosticwhitecollar, not fix wrongsexspecificcollarorclaimnewmorphology. PriorTSYL-KWAN-2025-KERINCI-JUV fieldyoungrecordv2reusedstageboundarywithoutfreshphotobodyreadthiscycle; preserveformedwing/opengape/barredtail, no mechanicalwingremoval. OldStrixsylvatica/Glaucidiumbrodieisylvaticum currentTsylvaticus same251unit. Exactyoungage/flight/iris andsexsizeratiounknown, sciencefalse.",
+      "full_prompt": "Precise-object-edit #230 Taenioptynx sylvaticus v2. LEFT ADULT MALE ONLY: rotate its BODY to a gentle three-quarter back view, head turned left in natural sideprofile, to reveal the rearneck diagnostic WHITE NUCHAL COLLAR across backofneck. Collarwhitewithnaturalfeatheredge, NOT rufous or orange, do notextendintoentirewhitehead/back or wings. Retain little paired darknape false-eye patches whenvisible. Adultdarkgray-brownbarredhead/whitebelly/rufousupperbreastband/greenhornbill/yellowiris/noear-tufts, samebodysize/feet andtwofootgriponthickbranch. Centralfemale alreadyshowingwhitecollar retainedexactly; collaris TAXONfeature notsexlinked. Entire rightphoto-supportedolderjuvenile opengape/formedspottedwing/barredtail/ageunknown andallotherbirds/forest/text/uncertaintyfooter unchanged. Addv3totitle. Adultpose/display-diagnostic editonly, no quantsexratio or immaturedevelopmentclaim.",
+      "source_ids": [
+        "TSYL-GWEE-2019",
+        "TSYL-MIKKOLA-2013-P370"
+      ],
+      "new_sources": 0,
+      "image_metadata": {
+        "bytes": 2644285,
+        "sha256": "1736d06a3db5e2f6b5d3e4759008ac737291bc9ef01615fca977e10b0f1d23ef",
+        "gitblob": "5e93e30cbc78d046b838b459dd4c4c8a16dd0031",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-8ddf1f57-80c2-49de-a591-efcc25677d0c.png",
+      "imagegen_wait_seconds": 35.388,
+      "editing_wait_seconds": 0,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "review": "Actualv2/v3wholeimages viewed: male¾back/sideheadnaturallyconnected, diagnosticwhitehindneckcollarandpairedsmallnapeeyespotsvisible, femaleexistingwhitecollarretained. Notsexlinkedcolour/quantsexsizeratio. Adultfeetbothgripbranch/headsroundnotufts/yellowiris/greenyellowbill/bodypatterns retained; wholephoto-supportedlaterjuvenileformedspottedwings/barredtail/opengape andunknownfooterunchanged. PWLdiagnosticdisplayposeonly notnewspeciescorrectionorwholepatterncalibration. SourceGwee2019fullResults139–148actuallyreadthiscycle upgradesaccessbeyondoldabstract-onlyrecord, samepaper/notnewsource. Lesson avoidfront-onlydisplayhidingdiagnosticnape, sourcewhitecollar is taxon distinction not female-only cue. Sciencefalse.",
+      "reviewed_at": "2026-11-28T00:47:09.392Z",
+      "archived_at": "2026-11-28T00:47:13.983Z",
+      "archive_commit": "ce9e45d80506c186c773b3e92d7dce71ccde063b",
+      "ended_at": "2026-11-28T00:47:51.026Z",
+      "verification_exit_code": 0,
+      "commit_sha": "40d84bab0474157220713b8a33a5e3018fbec2ea",
+      "credit_commit": "f1e7a183be9c5366e261633f596351da01fb6e16"
+    },
+    {
+      "run_id": "20261128T0030Z-237-otus-everetti-v3",
+      "batch_id": "20261128T0030Z",
+      "cycle": 4,
+      "target": "237-otus-everetti-v3",
+      "action": "REVISION",
+      "started_at": "2026-11-28T00:47:59.856Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T00:47:59.901Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T00:48:06.008Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T00:49:46.287Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T00:49:50.752Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T00:49:55.234Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T00:50:24.894Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0030Z-cycle4-20261128T0030Z-237-otus-everetti-v3.json",
+      "stage": "VERIFIED",
+      "research": "New0/reuse2. LLSO-MIRANDA-2011-P446-450 HCMirandaJr/DMBrooks/RSKennedy2011 WilsonJOrnith123:441–453 DOI10.1676/10-185.1 primarymuseumPDF https://blog.hmns.org/wp-content/uploads/2023/10/PhilippineScopsEprint.pdf actualbodyprinted450/PDF12 readnow, adultspecimencomparison: everetti darkestdarkbrownunderparts/nearlyblacknape; megalotis conspicuousscapularstripes/upperfootfeathers absenteveretti/nigrorum. No juvenileage/livebarepart/sexratio proof. MIKKOLA-2013 HeimoMikkola2013 actualuploadedprinted171/PDF173readthisrun/reused: graywhiteunderpartswithshafts andyellowishtoes/darkbrowniris/pinkorbitalring/darkgrey-yellowtingebill/longtufts/female+25gmassnotheight; juvenileundescribed. Adultunderparttoneconflictprimarydarkbrownversusguidegraywhite unresolved, currentgraytoes versusguideyellowish notindependentlycalibrated. Existingv2 andhistoricaladult2025photo/2022immaturescope retained but notnewlyreadorphoto-verifiedthiscycle; cannotclaimcolourresolved. Olderimmaturealreadyproperuncertaintyfooter, missingadulttoe/underpartconflictnotice. ANNOTATIONONLYexplicitadultuncertaintytoimage, no freshmorphologicaldefectrepair. OldScopseveretti/Omegalotiseveretti→Oeveretti NOT Ninoxeveretti(=Nreyi). Same251unit,no newborn/flight/nestguess. Sciencefalse.",
+      "full_prompt": "Text-localization edit #237 Otus everetti v2 trio only. Add small 'v3' to title. Keep existing 'CONCEPT · SCIENTIFIC CALIBRATION PENDING' and 'IMMATURE AGE / FLIGHT / IRIS UNVERIFIED'. Add one clearly readable discreet line beneath them in loweremptygreen margin: 'ADULT TOE COLOUR / UNDERPART TONE UNRESOLVED'. Do not cover birdfeet/branches/rolelabels. Preserve all threebirds exactly in visualterms, theirdarkeyes/pinkorbitalrims/tufts/palebrows/darkbills/subduedscapulars/ventralpattern/graytoes/hornclaws, whole rightsleepingolderimmature andallperchcontacts/background. Do NOT resolve sourceconflict by recolouring anything. This is explicit adult evidence-limit export only, not anatomical correction or scienceapproval.",
+      "source_ids": [
+        "LLSO-MIRANDA-2011-P446-450",
+        "MIKKOLA-2013"
+      ],
+      "new_sources": 0,
+      "image_metadata": {
+        "bytes": 2556880,
+        "sha256": "3650441c4fdcbca99c1e5198e0ba88552ad66118c302ed92497fbf3d0f697345",
+        "gitblob": "b2fe182b27d55cdcd629e562787849330a1f9142",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-81901a86-8fc6-417d-8e75-4f220e5e4071.png",
+      "imagegen_wait_seconds": 33.779,
+      "editing_wait_seconds": 0,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "review": "Actualv2/v3fullimages viewed. Newadulttoe/underpartconflictlineclearbelowexistingimmatureunknownfooter, nofeet/labelscovered; birdsbody/oldsubduedscapulars/darkeyes/pinkorbitalrings/longtufts/palebrows/darkbills/graytoes/hornclaws andrightsleeper/supports preserved. PWLANNOTATIONONLY,no morphologyrepair/scientificapproval. SourceMiranda450adultdarkbrownunderpartsversusbook171graywhite notresolvedbywarmart; greytoesvsbookyellowishmarkedunresolvedratherthanrecolored. Young2022stage/sourcehistorynotfreshreverified, no newborn/flightclaim. Lesson scientificpendingfooteralonehideswhichadulttraitsconflict; explicittraitscopeaidsreviewbutdoesnotresolvebiology. Sciencefalse.",
+      "reviewed_at": "2026-11-28T00:49:50.739Z",
+      "archived_at": "2026-11-28T00:49:55.220Z",
+      "archive_commit": "b6aafe7bf42f1a87e30f84dea871dca468108d84",
+      "ended_at": "2026-11-28T00:50:24.874Z",
+      "verification_exit_code": 0,
+      "commit_sha": "94a02bef224b98ed769f546e1a0df36c3fca8251",
+      "credit_commit": "6b525ba2088830657debf4130fdbb8d146c1e153"
+    }
+  ],
+  "stage_timing_limit": "Stage events and successful imagegen wall waits retained; pure search/upload separate stopwatches not retained. No fixed platform timeout telemetry.",
+  "source_pixel_limits": [
+    "Porter screenshot only text imageplaceholder, notfreshpixelinspection",
+    "237 2022/2025imagehistorynotfreshreverified"
+  ],
+  "tool_errors": [
+    {
+      "step": "preflight4-imageoutput",
+      "error": "2imagesdiscardedbycodeoutputlimit",
+      "recovery": "236and237eachactualview_imageagainbeforeselection"
+    }
+  ],
+  "recovery25": {
+    "commit": "fd9d70d",
+    "remote422": true,
+    "local_artifact_missing": true,
+    "remote_original_blob": "10508841ef5f6184e8658664615302909765c1dd"
+  },
+  "platform_timeout_telemetry": null
+}

@@ -57945,7 +57945,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-28T00:19:38.630Z",
+  "updated_at": "2026-11-28T00:51:47.751Z",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -58780,23 +58780,6 @@
   ],
   "in_progress": false,
   "previous_checkpoint": {
-    "run_id": "20261127T2326Z",
-    "completed_cycles_this_invocation": 6,
-    "new_species": 0,
-    "revised_versions": 6,
-    "revised_species": 5,
-    "unique_species": 207,
-    "total_species": 251,
-    "current_batch_id": "20261127T2326Z",
-    "current_batch_completed": 4,
-    "next_cycle": 5,
-    "other_partial_batches": 0,
-    "report": "owl-pet/production/batches/20261127T2326Z-six-cycle-review.md",
-    "at": "2026-11-27T23:55:29.939Z",
-    "result": "SIX_PRODUCTION_CYCLES_ARCHIVED_VERIFIED_WITH_LIMITATIONS",
-    "scientifically_verified": false
-  },
-  "last_checkpoint": {
     "run_id": "20261128T0000Z",
     "at": "2026-11-28T00:17:56.236Z",
     "completed_cycles_this_invocation": 6,
@@ -58810,6 +58793,22 @@
     "next_cycle": 5,
     "other_partial_batches": 0,
     "report": "owl-pet/production/batches/20261128T0000Z-six-cycle-review.md",
+    "scientifically_verified": false
+  },
+  "last_checkpoint": {
+    "run_id": "20261128T0030Z",
+    "at": "2026-11-28T00:51:47.751Z",
+    "completed_cycles_this_invocation": 6,
+    "new_species": 0,
+    "revised_versions": 6,
+    "revised_species": 6,
+    "unique_species": 207,
+    "total_species": 251,
+    "current_batch_id": "20261128T0030Z",
+    "current_batch_completed": 4,
+    "next_cycle": 5,
+    "other_partial_batches": 0,
+    "report": "owl-pet/production/batches/20261128T0030Z-six-cycle-review.md",
     "scientifically_verified": false
   },
   "history": [
@@ -65385,7 +65384,7 @@
       }
     }
   ],
-  "active_batch_id": "20261128T0000Z",
+  "active_batch_id": "20261128T0030Z",
   "active_cycle": 4,
   "current_stage": "VERIFIED",
   "next_cycle": 5,
@@ -76053,8 +76052,8 @@
       "evidence": "OriginalPNG 2484838bytes SHA256fb50c11a2a2157124b52c7276330726e69a8c7b80e13c6e8b7068b7374027c7e; generation 2026-11-23T16:53:18.078Z → 2026-11-23T16:53:54.400Z; edits1; conceptpass limited. Immutable readback pending."
     }
   ],
-  "last_completed_batch_id": "20261127T2326Z",
-  "active_batch": "20261128T0000Z",
+  "last_completed_batch_id": "20261128T0000Z",
+  "active_batch": "20261128T0030Z",
   "events": [
     {
       "batch_id": "20261105T183434+0800",
@@ -85474,31 +85473,31 @@
   "completed_cycles": [
     {
       "cycle": 1,
-      "species": "130-megascops-koepckeae-v20",
-      "commit_sha": "62036d3e6c5182030542fd00fe12a5e9bd0faaa6",
-      "archive_commit": "afe0ed5ad78715c753730db5b0e1f8197adac37a",
-      "run_record": "owl-pet/production/runs/20261128T0000Z-cycle1-20261128T0000Z-130-megascops-koepckeae-v20.json"
+      "species": "233-bubo-milesi-v3",
+      "commit_sha": "91d4f2a48a3e910bb5dffbe386b93320f631434b",
+      "archive_commit": "de985f37188505175208fbfc9bfe918771f351a8",
+      "run_record": "owl-pet/production/runs/20261128T0030Z-cycle1-20261128T0030Z-233-bubo-milesi-v3.json"
     },
     {
       "cycle": 2,
-      "species": "206-glaucidium-castanopterum-v8",
-      "commit_sha": "0309b8f5228026420d6656361b00d0998c975110",
-      "archive_commit": "3c2b64b8e828f2136168c6d9dd6aca13e5f09686",
-      "run_record": "owl-pet/production/runs/20261128T0000Z-cycle2-20261128T0000Z-206-glaucidium-castanopterum-v8.json"
+      "species": "235-otus-pamelae-v3",
+      "commit_sha": "da6852446db685ccd58557071427a32cd45e8795",
+      "archive_commit": "37906367bc60fa4242de397fc32416bad449d001",
+      "run_record": "owl-pet/production/runs/20261128T0030Z-cycle2-20261128T0030Z-235-otus-pamelae-v3.json"
     },
     {
       "cycle": 3,
-      "species": "119-megascops-centralis-v12",
-      "commit_sha": "e297c3cdea31ac8e3fe35982e8f5f8b498585cc2",
-      "archive_commit": "d80219e7f12c0ebf0b9479450557175f2e5d837f",
-      "run_record": "owl-pet/production/runs/20261128T0000Z-cycle3-20261128T0000Z-119-megascops-centralis-v12.json"
+      "species": "230-taenioptynx-sylvaticus-v3",
+      "commit_sha": "40d84bab0474157220713b8a33a5e3018fbec2ea",
+      "archive_commit": "ce9e45d80506c186c773b3e92d7dce71ccde063b",
+      "run_record": "owl-pet/production/runs/20261128T0030Z-cycle3-20261128T0030Z-230-taenioptynx-sylvaticus-v3.json"
     },
     {
       "cycle": 4,
-      "species": "112-asio-abyssinicus-v13",
-      "commit_sha": "32a14ba0d1f7c32e58d55c811bd63726f2539837",
-      "archive_commit": "9256ddd7c50103a852a76ccaca16850d4a476289",
-      "run_record": "owl-pet/production/runs/20261128T0000Z-cycle4-20261128T0000Z-112-asio-abyssinicus-v13.json"
+      "species": "237-otus-everetti-v3",
+      "commit_sha": "94a02bef224b98ed769f546e1a0df36c3fca8251",
+      "archive_commit": "b6aafe7bf42f1a87e30f84dea871dca468108d84",
+      "run_record": "owl-pet/production/runs/20261128T0030Z-cycle4-20261128T0030Z-237-otus-everetti-v3.json"
     }
   ],
   "updated": "2026-11-27T23:55:29.939Z",
@@ -87622,24 +87621,23 @@
     },
     "rule": "first two scientificnamefields; versions/duplicateIDs/subspeciesnotnew species"
   },
-  "next_action": "Resume20261128T0000Zcycle5; prioritize108/130/112 evidence-specificdifferentmaterialstrategy, notidenticalfailedsoftening",
+  "next_action": "Resume20261128T0030Zcycle5; evidence-specificcorrections/gaps/251roster, avoididenticalfailedmaterialedits.",
   "last_invocation": {
-    "run_id": "20261128T0000Z",
-    "started_at": "2026-11-27T23:58:42Z",
-    "ended_at": "2026-11-28T00:17:56.236Z",
+    "run_id": "20261128T0030Z",
+    "started_at": "2026-11-28T00:29:33Z",
+    "ended_at": "2026-11-28T00:51:47.751Z",
     "completed_cycles": 6,
-    "report": "owl-pet/production/batches/20261128T0000Z-six-cycle-review.md",
-    "next_cycle": 5,
-    "final_readback_at": "2026-11-28T00:19:24.338757+00:00"
+    "report": "owl-pet/production/batches/20261128T0030Z-six-cycle-review.md",
+    "next_cycle": 5
   },
   "latest_delivery": {
-    "report": "owl-pet/production/batches/20261128T0000Z-six-cycle-review.md",
-    "audit": "owl-pet/production/batches/20261128T0000Z-audit.json",
+    "report": "owl-pet/production/batches/20261128T0030Z-six-cycle-review.md",
+    "audit": "owl-pet/production/batches/20261128T0030Z-audit.json",
     "completed_this_invocation": 6,
     "new_species": 0,
     "revised_versions": 6,
-    "revised_species": 5,
+    "revised_species": 6,
     "science_passes": 0,
-    "receipt": "owl-pet/production/batches/20261128T0000Z-final-readback-receipt.json"
+    "receipt": "owl-pet/production/batches/20261128T0030Z-final-readback-receipt.json"
   }
 }

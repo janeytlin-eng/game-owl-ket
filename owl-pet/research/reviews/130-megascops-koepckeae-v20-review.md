@@ -1,0 +1,3 @@
+# Actual review
+Actualv19/v20andFig1c viewed: juvenilebodychangedUscallopsinto leaf-shapedoutlinedunits withfinecurvedstrands; still regularunits andnotsource-likefinebarrednessoptiles. NEEDS_REVISION; no materialrepairclaim. Evidencegraywhitebars/brownchest/whitebrows/yelloweyes/blackdisc/compactformedwing/no prey/ageunknown/support retained, adultsunchanged. Lesson flatstrokerepaint still retainedunitrepeatgrammar; repeatingsoftening notproven. Sciencefalse.
+{"bytes":2381420,"sha256":"5e0a46ea460f183f772122fbaf39a06e1b21dfe6f35ff74c775fcd1c7601202a","gitblob":"fe1751e9346c64954d8025f7e67bf70f51268f63","size":[1536,1024]}

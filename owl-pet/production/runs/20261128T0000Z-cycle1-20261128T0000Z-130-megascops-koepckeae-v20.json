@@ -17,11 +17,15 @@
     {
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-28T00:08:17.167Z"
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-28T00:08:22.792Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0000Z-cycle1-20261128T0000Z-130-megascops-koepckeae-v20.json",
-  "stage": "IMAGE_GENERATED",
+  "stage": "REVIEWED",
   "research": "New0/reuse2. KOEP-ALARCON-2023 IbethPAlarconetal2023 NeotropicalBiodiversity9:93–114 DOI10.1080/23766808.2023.2237229 universityoriginalURL https://biologia.uazuay.edu.ec/sites/biologia.uazuay.edu.ec/files/public/ReproductiveeventsofbirdsfromSouthernEcuador.pdf freshopen400tooLarge34951163; cachedoriginal actualprinted104/PDF13bodyread andFig1c printed95/PDF4cropactuallyviewednow. 23Apr2019Loja two parentaldependentfledglings graywhitebarred/brownchest/blackdiscrim/whitebrow/yelloweye/remainingnessoptiles onPodocarpus3–4m, noindividualhatchage/sex/firstflight. No adjacentotherbirddevelopmenttext transferred. KOEP-MIK2013-222 HeimoMikkola2013 uploadedprinted222/PDF224 actualread adultshorttufts/branchedstreaks/bluegreenhornbill/graybrowntoesdarkclaws/nosexsize data. Earlypalegraynestlingseparatefromolderfieldyoung. OldOtus→Megascopskoepckeae same251unit. Actualv19 andphoto showregularraisedUunits unlikefinebarredsurface; remove unitgeometryretainpigmentbars andformedwing. Scopeunknownexactmicrotexture, newtrialnotproven. Allsciencefalse.",
   "full_prompt": "Precise-object-edit #130 Megascops koepckeae v19. CENTRAL? NO: juvenile is RIGHT. Repaint RIGHT juvenile chest and belly only: existing repeated raised U-shaped scalloped feather units look like loops. Replace their GEOMETRY with fine overlapping small irregular flat feather strokes following the body contour, unevenly spaced and partly down-veiled. Preserve gray and white horizontal PIGMENT barring and slight brown upperchest wash; bars should cross a continuous feather surface, not trace repeating U feather rims. No parallel ordered tile rows, no curly wool or long straw. Keep head/whitebrows/blackdiscrim/yelloweyes/bluishhornbill, compact formed foldedwing/tailhidden/feet/support entirely. Adults and habitat unchanged. v19→v20. Preserve older dependentfledgling, no newborn, no exactage/flight/prey/nest. One local geometry trial, no new scientificapproval.",
   "source_ids": [
@@ -41,5 +45,7 @@
   "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-f9e91454-48fa-4225-8b0c-0e2dc1f8224e.png",
   "imagegen_wait_seconds": 37.585,
   "editing_wait_seconds": 0,
-  "review_result": "NEEDS_REVISION"
+  "review_result": "NEEDS_REVISION",
+  "review": "Actualv19/v20andFig1c viewed: juvenilebodychangedUscallopsinto leaf-shapedoutlinedunits withfinecurvedstrands; still regularunits andnotsource-likefinebarrednessoptiles. NEEDS_REVISION; no materialrepairclaim. Evidencegraywhitebars/brownchest/whitebrows/yelloweyes/blackdisc/compactformedwing/no prey/ageunknown/support retained, adultsunchanged. Lesson flatstrokerepaint still retainedunitrepeatgrammar; repeatingsoftening notproven. Sciencefalse.",
+  "reviewed_at": "2026-11-28T00:08:22.778Z"
 }

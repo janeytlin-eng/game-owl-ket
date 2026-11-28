@@ -13,11 +13,15 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T04:40:04.778Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T04:41:16.773Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0430Z-cycle2-20261128T0430Z-131-megascops-watsonii-v10.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Access2026-11-28. Reuse WAT-MIK2013-235 HeimoMikkola2013uploadedprinted236–237/PDF238–239actualread M.usta adultbrownfacialdisc with distinctblackishruff, warmbrownirises, blackishmediumtufts/yellowbrown-greenbill/featheredtarsibaregrayyellowbrowntoes/darkhornclaws; sexsizedifferencesnotdocumented. V9lateraladultdisc lacksdistinctdarkruff: boundedruffpigmentrepair. Mesoptilebars headmantleunderparts preserved stageunknown/notnewborn. WAT-MENQ-2018-USTA WillianMenq2018 https://avesderapinabrasil.com/megascops_usta.htm freshtargetsearchandbodyactualread21–29: southAmazonusta/variableplumage/brownambereyes; nesttiming secondary NOT directnewdevelopmentproof. WAT-DANTAS-2021 reuseexistingmorphologyvariation/taxonboundaryonly, nofreshfullreadclaimed. OldScopsusta/Megascopsusta→currentMwatsoniiusta regionalconcept unchanged scope251. New0/reuse3.",
   "full_prompt": "Precise-object-edit scientificpetconcept #131v9→v10. ONLY pigment of BOTH ADULT facial-disc RUFF at outer lateral cheeks: make a distinct narrow dark blackish-brown ruff framing brown disc, soft feathered darkband rather metal rim. Keep adult facialinnerbrown/eyeswarmbrown/bill/tufts/crown/bodyfeathers and near-equal size unchanged. Entire centre resting MESOPTILE includingbars/closedeyes/bodyfeetcontact unchanged. All environment/layout/footer/usta regionalconcept remain, onlyversion v10. No iris/juvenileage/sexflightclaims.",
   "source_ids": [
@@ -25,5 +29,18 @@
     "WAT-MENQ-2018-USTA",
     "WAT-DANTAS-2021"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "image_metadata": {
+    "bytes": 2589838,
+    "sha256": "32c9acabcf9a14011c38d6ad1020f749c4ce0373e393bc7f6155bf656efb7b21",
+    "gitblob": "9c7586eff43fa6d95be3c30de3471f8bfb814be8",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-981b3720-56dd-4807-b5de-4e799625c0cf.png",
+  "imagegen_wait_seconds": 41.892,
+  "editing_wait_seconds": 0,
+  "review_result": "PASS_WITH_LIMITATIONS"
 }

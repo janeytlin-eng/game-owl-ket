@@ -58703,17 +58703,19 @@
           "commit_sha": "21ad10e2872bab876b4f4ba8881e079b3f2ed127",
           "archive_commit": "d76db7d2d013a41b7a86f6fba2a528fc37fc02c2",
           "run_record": "owl-pet/production/runs/20261128T1725Z-cycle1-20261128T1725Z-26-glaucidium-siju-v8.json"
+        },
+        {
+          "cycle": 2,
+          "species": "27-glaucidium-passerinum-v8",
+          "commit_sha": "5a5656dd93a55d7c82eea7cb929afb5083b0fb3b",
+          "archive_commit": "975fe98179e58f095c366b94b9bb883b2a8d8909",
+          "run_record": "owl-pet/production/runs/20261128T1725Z-cycle2-20261128T1725Z-27-glaucidium-passerinum-v8.json"
         }
       ],
-      "next_cycle": 2
+      "next_cycle": 3
     }
   ],
-  "lease": {
-    "owner": "20261128T1725Z",
-    "run_id": "20261128T1725Z-27-glaucidium-passerinum-v8",
-    "heartbeat_at": "2026-11-28T17:51:05.103Z",
-    "expires_at": "2026-11-28T18:06:05.103Z"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -58878,12 +58880,7 @@
       "verification_commit": "7ce90fc5a92951b9ff9295bff361e1623c6f9a0a"
     }
   ],
-  "active_lease": {
-    "owner": "20261128T1725Z",
-    "run_id": "20261128T1725Z-27-glaucidium-passerinum-v8",
-    "heartbeat_at": "2026-11-28T17:51:05.103Z",
-    "expires_at": "2026-11-28T18:06:05.103Z"
-  },
+  "active_lease": null,
   "last_updated_at": "2026-11-28T09:51:18.917Z",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
@@ -59728,7 +59725,7 @@
       ]
     }
   ],
-  "in_progress": true,
+  "in_progress": false,
   "previous_checkpoint": {
     "run_id": "20261128T0000Z",
     "at": "2026-11-28T00:17:56.236Z",

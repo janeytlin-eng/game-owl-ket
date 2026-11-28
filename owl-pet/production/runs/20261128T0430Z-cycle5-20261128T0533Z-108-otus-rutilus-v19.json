@@ -21,11 +21,15 @@
     {
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-28T05:37:46.707Z"
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-28T05:37:50.913Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0430Z-cycle5-20261128T0533Z-108-otus-rutilus-v19.json",
-  "stage": "IMAGE_GENERATED",
+  "stage": "REVIEWED",
   "research": "Access2026-11-28. RUT-VASSEN-2013-ANDASIBE-JUV FrankVassen4Dec2013Andasibe photo https://www.flickr.com/photos/42244964@N03/12038858063/ Commonsmirror https://commons.wikimedia.org/wiki/File:Juvenile_Madagascar_Scops_Owl_(Otus_rutilus),_Andasibe,_Madagascar.jpg actualfreshbodyread113–136 andcachedphotoactuallyviewed: juvenile perched/finebrown-buffmottling/darkmask/yellowbrowniris/darkbill, no age/sex/flight metadata. MIKKOLA-2013 HeimoMikkola2013uploadedprinted143/PDF145actualread adultyelloweyes/graybrownbill/tarsifeatheredtotoebase/femaleavg18gMASSnotheight; juvenileunknown. OldScopsrutilus→Otusrutilus. V18repeatedoutlinedunits unresolved; newtestvolumetricindividualstraightbarbsratherflatfeatherunits. Notnewbiologicalfact/knownsuccess. New0/reuse2; ageflightnestunknown retained.",
   "full_prompt": "Scientific-educational petplate compositing experiment. Image1 #108v18 is edit target, preserve TWO ADULTS/environment/text/supports. Image2 real juvenile is biologicalreference. Rebuild ONLY centrejuvenile's surface using dense tiny STRAIGHT soft feather filaments emerging from continuous volume, brown and buff finely irregular mottled clouds. At image scale individual feathers should NOT be discrete outlined leaves; no geometric rows or bright rims, no yarnloops. Model individual fuzzy barbs with low contrast stochastic texture rather overlapfeatherunits. This is changeofsurfaceprimitive, not just smoothing oldfeathers. Keep samejuvenilestage/pose/head/eye/darkbill/feet/grip/silhouette, preserve darkmask. No new age/flight/nest. v18→v19, samegentle3Dpetstyle and footer. Do notuse sourcephotorealcutout.",
   "source_ids": [
@@ -56,5 +60,7 @@
   "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-b8adfe35-30d7-4fd3-bf4c-de791f33bb4b.png",
   "imagegen_wait_seconds": 35.893,
   "editing_wait_seconds": 47.4,
-  "review_result": "NEEDS_REVISION"
+  "review_result": "NEEDS_REVISION",
+  "review": "First and secondactualoutputsviewed: finerbodyfilaments aftersecondedit, but repeatedoutlinedloops stillremain onneck/belly. NEEDS_REVISION, notvalidatedvolumetricbarbmethod. Photoactualsource muchfiner mottledfeatherplane. Adults/eye/bill/stage/silhouette/threequarterpose/feetgrip/forest/labels preserved visually; no matureflightfeathers or newnest. Unknownage/flight retained. Negative rule: changing surfaceprimitive words did not remove learned leafunits; do not repeat as proven improvement;108/130/112 unresolved.",
+  "reviewed_at": "2026-11-28T05:37:50.903Z"
 }

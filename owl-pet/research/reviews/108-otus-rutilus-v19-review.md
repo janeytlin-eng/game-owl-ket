@@ -1,0 +1,3 @@
+# Actual review
+First and secondactualoutputsviewed: finerbodyfilaments aftersecondedit, but repeatedoutlinedloops stillremain onneck/belly. NEEDS_REVISION, notvalidatedvolumetricbarbmethod. Photoactualsource muchfiner mottledfeatherplane. Adults/eye/bill/stage/silhouette/threequarterpose/feetgrip/forest/labels preserved visually; no matureflightfeathers or newnest. Unknownage/flight retained. Negative rule: changing surfaceprimitive words did not remove learned leafunits; do not repeat as proven improvement;108/130/112 unresolved.
+{"bytes":2694910,"sha256":"7b08ac3c484345996f9fcee06290563583c72bb4e29bf19fd6b9c1d832efbd35","gitblob":"415d214fa2ff6b15eaaaabb9b9b9437bf6053390","size":[1536,1024]}

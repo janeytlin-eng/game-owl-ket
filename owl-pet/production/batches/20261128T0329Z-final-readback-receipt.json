@@ -1,0 +1,562 @@
+{
+  "status": "PASS",
+  "run_id": "20261128T0329Z",
+  "evidence_head": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+  "baseline": "6329ea470cc3c9bac20af0273ca02089a148c518",
+  "verified_at": "2026-11-28T03:52:05.179789+00:00",
+  "checked_files": 48,
+  "checks": [
+    {
+      "path": "owl-pet/production/originals/108-otus-rutilus-v17.png",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "3c89f42faddfd4f4992a2eb3b45595064b08f074",
+      "bytes": 2694340,
+      "sha256": "586b239fd74f2ca0d617005aa3d6710435f5e12432d17a063d8d392241db8df2",
+      "actual_bytes": 2694340,
+      "actual_blob": "3c89f42faddfd4f4992a2eb3b45595064b08f074",
+      "PASS": true,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/design/concepts/108-otus-rutilus-v17.png",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "3c89f42faddfd4f4992a2eb3b45595064b08f074",
+      "bytes": 2694340,
+      "sha256": "586b239fd74f2ca0d617005aa3d6710435f5e12432d17a063d8d392241db8df2",
+      "actual_bytes": 2694340,
+      "actual_blob": "3c89f42faddfd4f4992a2eb3b45595064b08f074",
+      "PASS": true,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/research/species/108-otus-rutilus-v17.md",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "c3ffbeae83d88e033b9f838af554e64a205de628",
+      "bytes": 1905,
+      "actual_bytes": 1905,
+      "actual_blob": "c3ffbeae83d88e033b9f838af554e64a205de628",
+      "sha256": "1ef0954843451130f0270e85bf7a5a14efc16b036197b4e112498a4e60a3324d",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/research/reviews/108-otus-rutilus-v17-review.md",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "9ea53e81e58527b2f2dc5f203b58498d7554763a",
+      "bytes": 755,
+      "actual_bytes": 755,
+      "actual_blob": "9ea53e81e58527b2f2dc5f203b58498d7554763a",
+      "sha256": "00f5acd21f839502b9ea311c46675a795497bc13dc5bed7626c013db8fbc94b3",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/runs/20261128T0304Z-cycle5-20261128T0329Z-108-otus-rutilus-v17.json",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "389b9632702fdd72e435bc849886651071bbddbb",
+      "bytes": 4752,
+      "actual_bytes": 4752,
+      "actual_blob": "389b9632702fdd72e435bc849886651071bbddbb",
+      "sha256": "af2f843baeb2415cf7abbfbe65a9e860267f351792b8ea3ae4146cb6311cafa8",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/runs/20261128T0304Z-cycle5-20261128T0329Z-108-otus-rutilus-v17.json",
+      "ref": "4a3cb9cd4d61a6668c412f504b01b4b4da0aa888",
+      "historical": true,
+      "target": "108-otus-rutilus-v17",
+      "actual_bytes": 4692,
+      "actual_blob": "a94407c1322ee51222600131ef8164f54b9a8c2e",
+      "sha256": "85e7d7fc38af6b33734a6a2273768a744efb9e6e86a8b53aec0e5630f4b4d466",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/originals/130-megascops-koepckeae-v23.png",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "1a597b1a4638bce67a6309593e61394709558754",
+      "bytes": 2357626,
+      "sha256": "c9f2865810557672650c87b5d06a9a5d590440213a2f77dedd9a23e70cb40fb2",
+      "actual_bytes": 2357626,
+      "actual_blob": "1a597b1a4638bce67a6309593e61394709558754",
+      "PASS": true,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/design/concepts/130-megascops-koepckeae-v23.png",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "1a597b1a4638bce67a6309593e61394709558754",
+      "bytes": 2357626,
+      "sha256": "c9f2865810557672650c87b5d06a9a5d590440213a2f77dedd9a23e70cb40fb2",
+      "actual_bytes": 2357626,
+      "actual_blob": "1a597b1a4638bce67a6309593e61394709558754",
+      "PASS": true,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/research/species/130-megascops-koepckeae-v23.md",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "535bd052e79de55245978978cb036cc6a9f376cb",
+      "bytes": 1534,
+      "actual_bytes": 1534,
+      "actual_blob": "535bd052e79de55245978978cb036cc6a9f376cb",
+      "sha256": "d27d5531739dfcf13b852ad9ad66cb0f9c538482037456b81ce0f2970f86f8ed",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/research/reviews/130-megascops-koepckeae-v23-review.md",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "7c075add2165e010fa1ed766db99878d6b7aa87a",
+      "bytes": 745,
+      "actual_bytes": 745,
+      "actual_blob": "7c075add2165e010fa1ed766db99878d6b7aa87a",
+      "sha256": "35f0389533bdec3439f3b7e9b74a278d2f029e879f2b2ccc4347d021c58c331a",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/runs/20261128T0304Z-cycle6-20261128T0329Z-130-megascops-koepckeae-v23.json",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "ad49d2ac85d9f1c95175f5c44e2761ebf8c25141",
+      "bytes": 4444,
+      "actual_bytes": 4444,
+      "actual_blob": "ad49d2ac85d9f1c95175f5c44e2761ebf8c25141",
+      "sha256": "d28543475955d52f4612ab189a3b1ae90239d96f0c01194b7bcd025e37a34500",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/runs/20261128T0304Z-cycle6-20261128T0329Z-130-megascops-koepckeae-v23.json",
+      "ref": "e1d88eb865024c49d3ad4d49743fe00a1be6ec4c",
+      "historical": true,
+      "target": "130-megascops-koepckeae-v23",
+      "actual_bytes": 4384,
+      "actual_blob": "02aab4c6383672170ece653a5fe8398ddecfd590",
+      "sha256": "4653fd35c24b08829a2040f439b1ef27e9082190ef406163737a583ac7410334",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/originals/129-megascops-hoyi-v8.png",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "a8c4e7110bb9c97f6f919ae8dc2d0a4fa7a3aead",
+      "bytes": 2287383,
+      "sha256": "11f4344e67f2c6f83f37cd0656b2f92c35abd5e68b82c1086df04a492d62b57e",
+      "actual_bytes": 2287383,
+      "actual_blob": "a8c4e7110bb9c97f6f919ae8dc2d0a4fa7a3aead",
+      "PASS": true,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/design/concepts/129-megascops-hoyi-v8.png",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "a8c4e7110bb9c97f6f919ae8dc2d0a4fa7a3aead",
+      "bytes": 2287383,
+      "sha256": "11f4344e67f2c6f83f37cd0656b2f92c35abd5e68b82c1086df04a492d62b57e",
+      "actual_bytes": 2287383,
+      "actual_blob": "a8c4e7110bb9c97f6f919ae8dc2d0a4fa7a3aead",
+      "PASS": true,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/research/species/129-megascops-hoyi-v8.md",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "b451eaf2877375d42676c383d85d93aae0d0f427",
+      "bytes": 1525,
+      "actual_bytes": 1525,
+      "actual_blob": "b451eaf2877375d42676c383d85d93aae0d0f427",
+      "sha256": "86fce4d65bb702ace30b2d88d039cf55ee879bea9c25264b2f853322e0838546",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/research/reviews/129-megascops-hoyi-v8-review.md",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "46de7451613a252ea085ac95b0b66d43cc8f6af4",
+      "bytes": 724,
+      "actual_bytes": 724,
+      "actual_blob": "46de7451613a252ea085ac95b0b66d43cc8f6af4",
+      "sha256": "a079297478681156ec53d960a36a88892e1decb4c9eda618d88087813a10d9de",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/runs/20261128T0329Z-cycle1-20261128T0329Z-129-megascops-hoyi-v8.json",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "c8e809863799d74ecc63353e75671325c6e272d0",
+      "bytes": 3777,
+      "actual_bytes": 3777,
+      "actual_blob": "c8e809863799d74ecc63353e75671325c6e272d0",
+      "sha256": "8abfd57aa337fca41e216e28776d793d613ef134504de1bcbc3deaf00f7dfb01",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/runs/20261128T0329Z-cycle1-20261128T0329Z-129-megascops-hoyi-v8.json",
+      "ref": "3b833ef919816913c87835fa06d0708a777dfd10",
+      "historical": true,
+      "target": "129-megascops-hoyi-v8",
+      "actual_bytes": 3717,
+      "actual_blob": "20455e4f651bf42d4ebb796f3d50e976be49a5ab",
+      "sha256": "1662313f6141037734ca80827735df18c133535c81f38037c9fc13fe88a6283f",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/originals/131-megascops-watsonii-v9.png",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "b1b1dce2a8c28c12c78faf0381f0a79761dda7b1",
+      "bytes": 2680804,
+      "sha256": "1a9a6a52bac9a315fec327cf0b9afc49a6b8c9d5c693e97e062f880ef58c2050",
+      "actual_bytes": 2680804,
+      "actual_blob": "b1b1dce2a8c28c12c78faf0381f0a79761dda7b1",
+      "PASS": true,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/design/concepts/131-megascops-watsonii-v9.png",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "b1b1dce2a8c28c12c78faf0381f0a79761dda7b1",
+      "bytes": 2680804,
+      "sha256": "1a9a6a52bac9a315fec327cf0b9afc49a6b8c9d5c693e97e062f880ef58c2050",
+      "actual_bytes": 2680804,
+      "actual_blob": "b1b1dce2a8c28c12c78faf0381f0a79761dda7b1",
+      "PASS": true,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/research/species/131-megascops-watsonii-v9.md",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "a8f6b968a3958631bd9baca4ee03fa3bcaec6078",
+      "bytes": 1860,
+      "actual_bytes": 1860,
+      "actual_blob": "a8f6b968a3958631bd9baca4ee03fa3bcaec6078",
+      "sha256": "22453f389f6fe8e506cf97a2187684bc86c9d057b52d4c6b128c806265ab6c01",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/research/reviews/131-megascops-watsonii-v9-review.md",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "d75a6fd539b0434e2b06e2486b177e17e88be3d9",
+      "bytes": 752,
+      "actual_bytes": 752,
+      "actual_blob": "d75a6fd539b0434e2b06e2486b177e17e88be3d9",
+      "sha256": "43425bbe99eca83b40d8d6426418bac6b00f107a503ce91d423d563cba773f47",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/runs/20261128T0329Z-cycle2-20261128T0329Z-131-megascops-watsonii-v9.json",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "702aa2947743656ef898f2768d8c1aec5e272ba6",
+      "bytes": 4178,
+      "actual_bytes": 4178,
+      "actual_blob": "702aa2947743656ef898f2768d8c1aec5e272ba6",
+      "sha256": "d0bcbef7d43f80c5a6dd502bd0ad1e75a9e94f47bdd7bdaed0a97674148abf8c",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/runs/20261128T0329Z-cycle2-20261128T0329Z-131-megascops-watsonii-v9.json",
+      "ref": "c26ba4c78ff33a2a860e60417da1a5600a2fcdde",
+      "historical": true,
+      "target": "131-megascops-watsonii-v9",
+      "actual_bytes": 4118,
+      "actual_blob": "fced52822b589e20e7f62ef067442166e8e820a5",
+      "sha256": "7cbcf070eaad1331b5224bfcda25685eb46516a58a7d194bcd74c10a06cb15bd",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/originals/133-megascops-atricapilla-v10.png",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "85b494f7e0e03f33cc4030e90e4ae1191ff9812f",
+      "bytes": 2508204,
+      "sha256": "c8e0935658bc4afed9faeceaa47f07d1cbb9c3192213ddb92d3a6c20c5681eca",
+      "actual_bytes": 2508204,
+      "actual_blob": "85b494f7e0e03f33cc4030e90e4ae1191ff9812f",
+      "PASS": true,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/design/concepts/133-megascops-atricapilla-v10.png",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "85b494f7e0e03f33cc4030e90e4ae1191ff9812f",
+      "bytes": 2508204,
+      "sha256": "c8e0935658bc4afed9faeceaa47f07d1cbb9c3192213ddb92d3a6c20c5681eca",
+      "actual_bytes": 2508204,
+      "actual_blob": "85b494f7e0e03f33cc4030e90e4ae1191ff9812f",
+      "PASS": true,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/research/species/133-megascops-atricapilla-v10.md",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "235ed05c41e614c8cde568318f289d62cd5f0d6b",
+      "bytes": 1807,
+      "actual_bytes": 1807,
+      "actual_blob": "235ed05c41e614c8cde568318f289d62cd5f0d6b",
+      "sha256": "bd63ca277b902223f1edf60bdbd381e43fcd934e9dfbc918080b3dc3d3d3488d",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/research/reviews/133-megascops-atricapilla-v10-review.md",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "4796cca36fad6eabe8f1c42b6a642936f10ff18c",
+      "bytes": 781,
+      "actual_bytes": 781,
+      "actual_blob": "4796cca36fad6eabe8f1c42b6a642936f10ff18c",
+      "sha256": "52265836fbd36413a0cb08f5c6978649d6421be095f814f1f86833b2acff82a1",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/runs/20261128T0329Z-cycle3-20261128T0329Z-133-megascops-atricapilla-v10.json",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "951dcbc84ad2fb2eedfa29ad7cb013d249558083",
+      "bytes": 4160,
+      "actual_bytes": 4160,
+      "actual_blob": "951dcbc84ad2fb2eedfa29ad7cb013d249558083",
+      "sha256": "055d7f535f374ff6d3a3d8274f27b5c4c433e59d3ee49949bdd1a5b813ee40a3",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/runs/20261128T0329Z-cycle3-20261128T0329Z-133-megascops-atricapilla-v10.json",
+      "ref": "feb380e6ab70fdad1277b2b9fe28b392f86555b4",
+      "historical": true,
+      "target": "133-megascops-atricapilla-v10",
+      "actual_bytes": 4100,
+      "actual_blob": "c7385af02bdb8e61fbb244dfe1dc242ec2374597",
+      "sha256": "eca580f6327f69c522e1fcb8978223392c63f0f5d92d7fc085774e4814292347",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/originals/112-asio-abyssinicus-v16.png",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "9eb1a7c99cedffffd52a306bf46c72084bdf5d7e",
+      "bytes": 2591463,
+      "sha256": "a3b5efc7b8e3396e7a457f093662b8a5ce9b8bc590815ac7c5dc47eeb415ccfa",
+      "actual_bytes": 2591463,
+      "actual_blob": "9eb1a7c99cedffffd52a306bf46c72084bdf5d7e",
+      "PASS": true,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/design/concepts/112-asio-abyssinicus-v16.png",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "9eb1a7c99cedffffd52a306bf46c72084bdf5d7e",
+      "bytes": 2591463,
+      "sha256": "a3b5efc7b8e3396e7a457f093662b8a5ce9b8bc590815ac7c5dc47eeb415ccfa",
+      "actual_bytes": 2591463,
+      "actual_blob": "9eb1a7c99cedffffd52a306bf46c72084bdf5d7e",
+      "PASS": true,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/research/species/112-asio-abyssinicus-v16.md",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "7ed000627b096cff3c196572c69dfaa2e53ba6de",
+      "bytes": 1583,
+      "actual_bytes": 1583,
+      "actual_blob": "7ed000627b096cff3c196572c69dfaa2e53ba6de",
+      "sha256": "2d392a0c67777ea7aa9486f69eb55c794fbf88e02cecdf8f27ccb0edb3c53b7e",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/research/reviews/112-asio-abyssinicus-v16-review.md",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "1d693e460a89b9edb97d14c7b5b27676a684c48b",
+      "bytes": 748,
+      "actual_bytes": 748,
+      "actual_blob": "1d693e460a89b9edb97d14c7b5b27676a684c48b",
+      "sha256": "490bc952114ad378d7e3d133d1895f05e654368b7465639a9841203751715c95",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/runs/20261128T0329Z-cycle4-20261128T0329Z-112-asio-abyssinicus-v16.json",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "e8e90015c7be0a40b572dbb9e5db0e115786b2f6",
+      "bytes": 3878,
+      "actual_bytes": 3878,
+      "actual_blob": "e8e90015c7be0a40b572dbb9e5db0e115786b2f6",
+      "sha256": "3b5af1789bd224f1f487f92bcc1f8f680a525907a38f1ba16b8513090c39f467",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/runs/20261128T0329Z-cycle4-20261128T0329Z-112-asio-abyssinicus-v16.json",
+      "ref": "2178f3f4b7b4f29ee0a5c38a4cc07fc32a536a86",
+      "historical": true,
+      "target": "112-asio-abyssinicus-v16",
+      "actual_bytes": 3818,
+      "actual_blob": "270f1a9167b9401f26ae7312bfb74f0931db628e",
+      "sha256": "06a074be0d9d2ac4fff9fa04baadfebdef1e18ba126d0ccfa8080b23b956c776",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/BATCH_STATE.json",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "8f0f0f4bfed3d670990111f70f468e439adb8c00",
+      "bytes": 4046093,
+      "actual_bytes": 4046093,
+      "actual_blob": "8f0f0f4bfed3d670990111f70f468e439adb8c00",
+      "sha256": "c6468ef985bfb93f3cb8a3a627f5429145a5ca32765757fffa5c822ba36fde86",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/design/manifest.json",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "cd0ce3d79581bb4b1c6322dfbe51e05a610cdbac",
+      "bytes": 2328567,
+      "actual_bytes": 2328567,
+      "actual_blob": "cd0ce3d79581bb4b1c6322dfbe51e05a610cdbac",
+      "sha256": "77d9d8e82fe0fe026d914b9036963af3dbc57c41a9ddfcbbb6e0f3212dfbe0cc",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/research/SOURCE_INDEX.md",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "1e3edef8c831de18bad79788b0fecf68701616d0",
+      "bytes": 1425436,
+      "actual_bytes": 1425436,
+      "actual_blob": "1e3edef8c831de18bad79788b0fecf68701616d0",
+      "sha256": "7f5882d9e03736c14f657605bdedc1cf96362f75ba8c85ec89fe4e3ab922e78a",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/WORKFLOW_LESSONS.md",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "bf2e90f9f2e70354c1efcf781faf7008cabc7f72",
+      "bytes": 207736,
+      "actual_bytes": 207736,
+      "actual_blob": "bf2e90f9f2e70354c1efcf781faf7008cabc7f72",
+      "sha256": "a5df5992bb45790c5c12811a605ad7664ecfa7e3e88db699ee43c837a238b757",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/STATUS.md",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "c2e65b7cce818a99f45fe5551b07a70730da77bd",
+      "bytes": 558217,
+      "actual_bytes": 558217,
+      "actual_blob": "c2e65b7cce818a99f45fe5551b07a70730da77bd",
+      "sha256": "8fb401c119170eb7c368ce7c16dce23992f8a3e6ce4819a99f6cec4db71d4e2b",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/batches/20261128T0329Z-six-cycle-review.md",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "b0eddfaccc5dc006cb266f604ffc0d816a1782dd",
+      "bytes": 7062,
+      "actual_bytes": 7062,
+      "actual_blob": "b0eddfaccc5dc006cb266f604ffc0d816a1782dd",
+      "sha256": "8d0caa0c56db877af5bd8d3dd5fd49475b805494bf7cc32a596ba38f5b2f9a23",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/batches/20261128T0329Z-audit.json",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "99e6068441e8b89bf819f09df6ee1baa1c79b248",
+      "bytes": 38579,
+      "actual_bytes": 38579,
+      "actual_blob": "99e6068441e8b89bf819f09df6ee1baa1c79b248",
+      "sha256": "13c39f27629b70d73ffea51d483ce5b0a7b256813ba5199fb2bc75e75f323ae9",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/research/gaps/20261128T0329Z-access-frontier.md",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "1c854930ef5380d4e9623e0fe2ae413d07a114c7",
+      "bytes": 2495,
+      "actual_bytes": 2495,
+      "actual_blob": "1c854930ef5380d4e9623e0fe2ae413d07a114c7",
+      "sha256": "358308ecfb0699af9fe6567c711bd90e56bfbdc0e0486e59300bd7325aa9b1eb",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/design/originals/25-glaucidium-brasilianum-cactorum-v6.png",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "10508841ef5f6184e8658664615302909765c1dd",
+      "bytes": 2864437,
+      "actual_bytes": 2864437,
+      "actual_blob": "10508841ef5f6184e8658664615302909765c1dd",
+      "sha256": "729c187af12da587305c0c701c07440464896f5a6ada74431dfa3e7b19616ca1",
+      "PASS": true,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/design/concepts/25-glaucidium-brasilianum-cactorum-v6.png",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "10508841ef5f6184e8658664615302909765c1dd",
+      "bytes": 2864437,
+      "actual_bytes": 2864437,
+      "actual_blob": "10508841ef5f6184e8658664615302909765c1dd",
+      "sha256": "729c187af12da587305c0c701c07440464896f5a6ada74431dfa3e7b19616ca1",
+      "PASS": true,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/production/intermediates/20261128T0329Z-108-otus-rutilus-v17-first-attempt.png",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "80fb7c92423fbe2e2df3f8f0240676cd1a127ee1",
+      "bytes": 2733401,
+      "actual_bytes": 2733401,
+      "actual_blob": "80fb7c92423fbe2e2df3f8f0240676cd1a127ee1",
+      "sha256": "96f017ebccf60f552d39efcca0cfcb8afc0a4d95ceed8d466f9d895733977c43",
+      "PASS": true,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/production/intermediates/20261128T0329Z-130-megascops-koepckeae-v23-first-attempt.png",
+      "ref": "77f55c4152affe1a8ac0ef525a283aed3be1da57",
+      "blob": "b7b1ffce532e12acbface65aeb2fe83d55d4b4d8",
+      "bytes": 2391442,
+      "actual_bytes": 2391442,
+      "actual_blob": "b7b1ffce532e12acbface65aeb2fe83d55d4b4d8",
+      "sha256": "db6fe5fc3520e608516fa69d3b394cee7eebc1c0009da6cb934c054bc3c11277",
+      "PASS": true,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ],
+  "baseline1460_numbered_blobs_unchanged": true,
+  "numbered_versions": 1466,
+  "unique_species": 207,
+  "total": 251,
+  "completed_this_invocation": 6,
+  "current_batch_completed": 4,
+  "next_cycle": 5,
+  "other_partial_batches": 0
+}

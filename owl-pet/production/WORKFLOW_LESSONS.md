@@ -1095,3 +1095,7 @@ Actualv9/v10wholeimagesviewed. Bothadultdirtybrownfacesnowfinerdarkvermiculation
 
 ## 20261128T0329Z 112-asio-abyssinicus-v16
 Actualv15/v16wholeimagesviewed. Bothadulttuftpigmentnowdarkbrown/blackbrownwithmutedtawnyedges, geometricposition/lengthpreserved. Recentfineadultfaces/orangeeyes/blackbills/graycere/bodyshafts/wingtail/fullyfeatheredtoes/claws/near-equaldisplay/forest/branchpreserved. Olderjuvenileentirelyunchangedinclformedwingtail/ageunknownandunresolvedlooptexture. LocaladulttuftpigmentPWLnotfullspeciesorjuvenilerepair, qualitativecolourunderartlightingnotRGBmeasurement. Actualguide508/PDF510andfreshOWLpages58–62read; bookAsiootusjuvenilespeculationnotused, sciencefalse.
+
+
+## 20261128T0329Z orchestration recovery evidence
+Observed once: a second exec attempted an intermediate-image commit before the earlier long exec's RESEARCH_READY commit had settled in the shared store; expected-head guard rejected HEAD_CHANGED. Actual remote advanced commit was our own112RESEARCH_READY. Recovery applied: wait for original exec completion, freshly read remote/store equality and commit message, then serially archive/credit/retry using latestbase and expected_sha nonforce. Verified successfulreadback; no overwrite. Rule: don't perform a second Git mutation while an earlier mutatingexec is stillrunning; independentread-only work is fine. This is one observedrecovery, notconcurrencystresstest or guarantee.

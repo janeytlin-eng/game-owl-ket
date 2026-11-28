@@ -13,16 +13,41 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T17:39:26.061Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T17:41:41.430Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T1632Z-cycle6-20261128T1725Z-24-glaucidium-californicum-v7.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Reuse NPO-ORI-BROAD-2026 actualFacts/Size/Habitat/Nesting https://www.owlresearchinstitute.org/northern-pygmy-owl read2026-11-29 aftertargetedsearch: broadGlaucidiumgnoma account includesCalifornia/Mountainnames, forestedge/cavitycontext; genericyoungspotting conflictsselectedplainmesoptile; no recolour/spotreset. NPO-SCCP-FACTSHEET webopenfailed, searchhitonlythisrun, nofreshbodyclaim; historicalregionalfactsnotnewsource. ReuseMIKKOLA-2013 actualprinted372/PDF374: grayishyellow sparselybristledtoes, dark-tippedgrayishhornclaws, offwhitefeatheredtarsi. Actualv6claws look uniformlyblack; localizedadultclawbasecorrection, notyoungcolorinference. CurrentGlaucidiumcalifornicum vs oldbroadG.gnoma/swarthiregion preserved, no taxonomiccountchange. Femaleaveragewing/masslonger/heaviernotfixedheight; sameexistingdisplayretained. New0/reused2verifiedfamilies, SCCPonlyunverifiedfreshaccess. Exactage/youngiris/flight/feathermap/sexratio/tailbarfinegeometryunknown. Priorcrown/tailcorrectionsretained. Primaryyoungdetailgap notfilledusing adultfacts.",
   "full_prompt": "Precise-object-edit #24 Glaucidium californicum v6. Change ONLY the visible claws on BOTH ADULTS: proximal curved claw material grayish horn, keep sharply dark blackish distal tips. Retain all claw outlines, toe scaly skin, toe counts, bristles and branch gripping locations. Do NOT alter juvenile claws or any other juvenile feature, crown plain, eyes/formedfoldedwings/shorttail/pose unchanged. Preserve both adult entire plumage/falseeyes/tails and incompletewhitebar pattern, eyes/bills/tarsalfeathers/body sizes, forest and mountains/all text/scientificpendingfooter. Exactly3birds same1536x1024 warm naturalhistory style. Do not make claw tips yellow or pale, no geometry or sexratio changes.",
   "source_ids": [
     "NPO-ORI-BROAD-2026",
     "MIKKOLA-2013"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "archive_transfers": [
+    {
+      "started_at": "2026-11-28T17:41:21.086Z",
+      "ended_at": "2026-11-28T17:41:41.394Z",
+      "elapsed_seconds": 20.308,
+      "scope": "base64 preparation+blob transfer+hash validation"
+    }
+  ],
+  "attempt1": {
+    "file": "/workspace/scratch/96400dc71dac/generated_images/exec-0ee72857-b9d8-4c24-b54e-037d27c9a552.png",
+    "metadata": {
+      "bytes": 2660580,
+      "sha256": "277260816b008e352d87e69291855350b0d0d170771bbacfb4a55ec51908c1bb",
+      "gitblob": "2b932f3e682fd5e25c0d877ca208b7fb7876b49c",
+      "size": [
+        1536,
+        1024
+      ]
+    },
+    "review": "Full view adultclaws remain nearlyblack, graybase transition too weak to verify."
+  }
 }

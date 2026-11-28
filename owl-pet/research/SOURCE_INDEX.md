@@ -9427,3 +9427,8 @@ CAMBOO-RASMUSSEN-2012-FORKTAIL 复用：Rasmussen et al.2012 Forktail28:1–20�
 ## 20261128T1100Z 75-ninox-scutulata-v11
 新增 SCU-KHOO-2025-MBR：Siew-Yoong Khoo (Connie),2025, Unusual Nesting Site for the Brown Boobook, Malaysian Bird Report1/2025 March:9–13. 原URL https://malaysianbird.report/wp-content/uploads/Malaysian-Bird-Report-March-2025-Final-31Mar2025-High-Res-3.pdf ，访问2026-11-28。网页读取因23,865,034bytes过大失败，直接下载PDF后实际读取p9–13及渲染p12Plate4–5；不是只看摘要。原始观察2021-03 Taiping Perak Malaysia，三日两夜，幼鸟离巢后灰头/灰底弱棕纵纹/深棕上部/浅橙脚/较浅黄眼，喙上白斑，照片p12Plate5左幼右成。p11目睹离巢、返回巢及亲鸟喂食；非具体日龄或各个体首飞时间证明。p9–10鸟巢蕨基部约8m为该地点个案，不泛化所有种群。本轮选有资料离巢幼鸟、不编初生细节，闭翼枝栖支撑有照片。旧Brown Hawk Owl→N.scutulata现名，当前图不进一步指定未鉴亚种。成年/性别比例仍用既有SCU-BSS-WEB与MIKKOLA-2013(printed464–465/PDF466–467)旧索引，不把新照成鸟判定性别；本轮主要新读为1新来源。设计推断：近似3/4高非实测、选择闭翼而非还原首飞。v10卷绒及展开翼问题→重建中央整体，保留成鸟用户风格。局限单地点有限个体、照片不提供羽毛时序；sciencefalse待复查。
 [Research/prompt](species/75-ninox-scutulata-v11.md) · [Review](reviews/75-ninox-scutulata-v11-review.md)
+
+
+## 20261128T1133Z 108-otus-rutilus-v22
+复用 RUT-VASSEN-2013-ANDASIBE-JUV：Frank Vassen 2013-12-04 Andasibe，实物照片 https://commons.wikimedia.org/wiki/File:Juvenile_Madagascar_Scops_Owl_(Otus_rutilus),_Andasibe,_Madagascar.jpg ，Flickr原链 https://www.flickr.com/photos/42244964@N03/12038858063/ ，CCBY2.0；2026-11-28本轮主动关键词检索/打开元数据并实际查看本地照片，细不规则棕buff短绒/深脸/黄眼/枝栖支撑；无日龄性别首飞结论。复用MIKKOLA-2013 printed143/PDF145实际全文相关段及成人PeteMorris Masoala11月照片：成鸟小耳簇、黄眼灰棕喙蜡膜、白黑肩条、羽至趾基、爪黑褐；雌平均18g更重是质量非高度；juvenile unknown不覆盖有物种标注照片但单照不足发育序列。旧Scops rutilus→Otus rutilus。v21成人已明显破碎塑料片且幼鸟仍卷圈，本轮改变整张材质表征，重新构建成人与幼鸟而非重复柔化。无巢场景，湿林枝支撑设计；年龄/飞行/性比未知。新增0复用2出版物/照片，照片可支持所见羽被而非成熟翼序。不得借75灰头羽型给108。
+[Research/prompt](species/108-otus-rutilus-v22.md) · [Review](reviews/108-otus-rutilus-v22-review.md)

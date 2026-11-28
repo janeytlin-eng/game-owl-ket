@@ -9,9 +9,20 @@
     {
       "stage": "STARTED",
       "at": "2026-11-28T11:34:56.478Z"
+    },
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-28T11:35:28.150Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T1028Z-cycle6-20261128T1133Z-108-otus-rutilus-v22.json",
-  "stage": "STARTED"
+  "stage": "RESEARCH_READY",
+  "research": "复用 RUT-VASSEN-2013-ANDASIBE-JUV：Frank Vassen 2013-12-04 Andasibe，实物照片 https://commons.wikimedia.org/wiki/File:Juvenile_Madagascar_Scops_Owl_(Otus_rutilus),_Andasibe,_Madagascar.jpg ，Flickr原链 https://www.flickr.com/photos/42244964@N03/12038858063/ ，CCBY2.0；2026-11-28本轮主动关键词检索/打开元数据并实际查看本地照片，细不规则棕buff短绒/深脸/黄眼/枝栖支撑；无日龄性别首飞结论。复用MIKKOLA-2013 printed143/PDF145实际全文相关段及成人PeteMorris Masoala11月照片：成鸟小耳簇、黄眼灰棕喙蜡膜、白黑肩条、羽至趾基、爪黑褐；雌平均18g更重是质量非高度；juvenile unknown不覆盖有物种标注照片但单照不足发育序列。旧Scops rutilus→Otus rutilus。v21成人已明显破碎塑料片且幼鸟仍卷圈，本轮改变整张材质表征，重新构建成人与幼鸟而非重复柔化。无巢场景，湿林枝支撑设计；年龄/飞行/性比未知。新增0复用2出版物/照片，照片可支持所见羽被而非成熟翼序。不得借75灰头羽型给108。",
+  "full_prompt": "Use case precise-object-edit: REBUILD the entire #108 Otus rutilus v21 triptych into v22. Keep confirmed warm polished 3D pet illustration and three birds on a supported mossy branch in eastern humid Madagascar forest, male left, juvenile centre, female right at equal nominal adult scale. DO NOT inherit v21's corrupted bright orange plastic/ribbon feather material. Both adults brown-morph Madagascar Scops Owls: small ear tufts, pale brown/ochre mottled upperparts, black shaft-streaks giving herringbone texture, black-edged white scapular stripe, whitish-brown disc dark ruff, yellow iris, grayish-brown bill/cere, tarsi feathered to toe base, graybrown toes dark claws. Feathers are fine soft matte contiguous feather vanes, NO geometric shards, NO rubber chunks, NO noodles, NO shiny foil. Use the supplied book photo as adult morphology evidence only. REPLACE central juvenile completely using supplied Vassen field photo: compact dark brown facial area, yellow eye, tan-brown irregular fine SHORT down with subtle broken darker feather mottling, no looped fibers or curly wool. Juvenile stands angled partly side-on with both feet gripping branch, wings concealed in body down, no mature flight feathers exposed, no hovering. No neonatal or exact-age inference. Body matte soft and irregular, not fur carpet. Labels 'ADULT MALE · SEX INFERRED', 'JUVENILE · AGE UNKNOWN', 'ADULT FEMALE · SEX INFERRED'; title '#108 MADAGASCAR SCOPS OWL v22 · Otus rutilus'; footer 'CONCEPT · PERCH ONLY · FLIGHT / SEX RATIO UNVERIFIED · SCIENCE PENDING'.",
+  "source_ids": [
+    "RUT-VASSEN-2013-ANDASIBE-JUV",
+    "MIKKOLA-2013"
+  ],
+  "new_sources": 0
 }

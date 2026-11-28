@@ -1,0 +1,3 @@
+# Actual review
+Actual output viewed: adult pale brows have dark interruptions above eyes, subtler on rightadult; facevermic/blackruff preserved. Localpigment PWL, exactnotchshape notscientificplate. Young barepartunknownfooter and unchangedjuvenile/wingtail/feet supported, adultscale/forest preserved. Rule observed/applied only this target: correct pigment interruption without carving anatomy; notgeneralallMegascopsbrowrule. Wholegroup scientificallyfalse; historical approvals notinherited.
+{"bytes":2250701,"sha256":"f7d3e7a4410f5a5b2dbb86c4ced41dc6c79c30be10ec15055d163f5dc62f9193","gitblob":"970c8f1357eda453f0486f26582d7c1432d62a40","size":[1536,1024]}

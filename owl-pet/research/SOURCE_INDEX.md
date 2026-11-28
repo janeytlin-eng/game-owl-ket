@@ -9447,3 +9447,8 @@ CAMBOO-RASMUSSEN-2012-FORKTAIL 复用：Rasmussen et al.2012 Forktail28:1–20�
 ## 20261128T1133Z 119-megascops-centralis-v15
 复用CHSO-MIKKOLA-2013-P242-243：Mikkola2013图鉴printed242–243/PDF244–245本轮实际读取；小短耳簇，面盘近无黑界，白眉弱，灰白腹蠕纹、浅黄趾、雌雄大小未知，juvenile undescribed，不提供本种巢室尺寸。复用CHSO-JORDAN-2012-ADULT：RaphaelJordan https://www.oiseaux.net/photos/raphael.jordan/petit-duc.du.choco.1.html ，2026-11-28外部针对检索并实际读成人元数据，2012-10 SanTadeo Ecuador无闪光；不是幼鸟/巢位证据。旧Otusguatemalaecentralis/M.vermiculatuscentralis→M.centralis。v14实际图中央幼鸟坐树洞中，暗示未核实巢室，本次去洞和巢室材料，改为明确设计舞台枝支撑，中央羽被/能否枝栖仍标未核实重建，不称物种行为事实。成年比例性别为槽位，无统一雌大雄小。未获得幼鸟新证据不新增编造，不借成人照片推幼鸟裸部。新增0复用2来源，来源局限/未验证遥测繁殖线索继续保留，sciencefalse。
 [Research/prompt](species/119-megascops-centralis-v15.md) · [Review](reviews/119-megascops-centralis-v15-review.md)
+
+
+## 20261128T1133Z 130-megascops-koepckeae-v26
+复用KOEP-ALARCON-2023：IbethPAlarcon etal2023 Reproductive events of birds from Southern Ecuador, NeotropicalBiodiversity9:93–114 DOI10.1080/23766808.2023.2237229，原始大学URL https://biologia.uazuay.edu.ec/sites/biologia.uazuay.edu.ec/files/public/ReproductiveeventsofbirdsfromSouthernEcuador.pdf ，2026-11-28定向外检并实际本地原PDFprinted104/PDF13及Fig1c p95/PDF4照片读取。2019-04-23 Loja两亲鸟依赖幼鸟/灰白暗条/brownchest/黑面缘白眉黄眼/剩余mesoptile/Podocarpus3–4m枝，未给日龄/性/首飞。复用KOEP-MIK2013-222：图鉴printed222/PDF224实际读取成人短簇/灰白细暗斑脸黑ruff/蓝绿角喙/灰褐趾/黑角爪/无性差数据。旧Otus→Megascopskoepckeae，Ecuador未据此指定hockingi。v25成鸟及环境仍塑料碎片、幼鸟U羽层过规则，本轮整张材质重建，保留原依据羽色方向。KOEP-FJELDSA-2012-P180-191本轮外部正文打开仅补分类/成鸟对比上下文，不计新源且不以其hockingi模式标本羽色套Loja幼鸟。新增0复用2主要证据源；设计尺度/枝摆放非实测，无巢，sciencefalse。
+[Research/prompt](species/130-megascops-koepckeae-v26.md) · [Review](reviews/130-megascops-koepckeae-v26-review.md)

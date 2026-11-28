@@ -1,0 +1,3 @@
+# Actual review
+完整实际查看v6：右young轮廓由松蓬圆躯变明显收窄直立，眼开放、白眉/嘴周羽稍竖、短未成熟耳绒较竖；双足原枝抓握不悬空，形成折翼/尾仍保留，不以有飞羽就声称可飞。adult橙眼黑喙羽趾黑爪/尺寸保留，不套北美yelloweye。PWL仅与研究文字姿态方向一致的设计，单帧不证明真实诱发/效果或25日断龄；young裸趾/细微羽序/iris时序未校准，sciencefalse。问题—genericjuvenile标签且姿态单一；证据—Seidensticker2006详细描述thin upright而非crouch；修改—限定young压羽细长pose/证据标注；复查—轮廓和落脚实际可见。新规则应用仅本图，与别种不可类推；原v5不是羽毛发育已通过，不追溯批准。
+{"bytes":2515623,"sha256":"93d147badf54dd816e4e316f3febc70a48417268ed835a474b0a0385789174d8","gitblob":"e7e356e047557652cbcaa4d39ac1963f6d6433dd","size":[1536,1024]}

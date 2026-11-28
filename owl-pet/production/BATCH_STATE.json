@@ -65639,9 +65639,9 @@
       }
     }
   ],
-  "active_batch_id": "20261128T0329Z",
+  "active_batch_id": "20261128T0430Z",
   "active_cycle": 5,
-  "current_stage": "IDLE",
+  "current_stage": "VERIFIED",
   "next_cycle": 5,
   "unique_species_count": 207,
   "total_species": 251,
@@ -76308,7 +76308,7 @@
     }
   ],
   "last_completed_batch_id": "20261128T0000Z",
-  "active_batch": "20261128T0232Z",
+  "active_batch": "20261128T0430Z",
   "events": [
     {
       "batch_id": "20261105T183434+0800",
@@ -87880,15 +87880,13 @@
     },
     "rule": "first two scientificnamefields; versions/duplicateIDs/subspeciesnotnew species"
   },
-  "next_action": "Resume 20261128T0329Z cycle5; 207/251,108/130/112 young limitations unresolved.",
+  "next_action": "Resume 20261128T0430Z cycle5; juvenile108/130/112materialunresolved",
   "last_invocation": {
-    "run_id": "20261128T0329Z",
-    "started_at": "2026-11-28T03:31:50.266Z",
-    "ended_at": "2026-11-28T03:52:43.986Z",
+    "run_id": "20261128T0430Z",
     "completed_cycles": 6,
-    "report": "owl-pet/production/batches/20261128T0329Z-six-cycle-review.md",
-    "next_cycle": 5,
-    "final_readback_at": "2026-11-28T03:52:05.179789+00:00"
+    "new_species": 0,
+    "revisions": 6,
+    "ended_at": "2026-11-28T04:48:40.742Z"
   },
   "latest_delivery": {
     "run_id": "20261128T0329Z",

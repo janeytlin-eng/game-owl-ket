@@ -1,3 +1,17 @@
+# 2026-11-28 本次6生产子轮完成，整体PARTIAL
+
+Run 20261128T0430Z；基线b37a51aa739aee74e2204d459a198e1cbe9d5300。旧0329Z跨次补齐6/6，本次只补第5–6轮；新0430Z完成第1–4轮。当前4/6、next5，其他PARTIAL0、lease释放。新增0种/修订6版本6种；207/251不变、尚差44；编号图1466→1472。新用户确认0/科学通过0，1 NEEDS_REVISION、5局部PWL，不是六项科学修复成功。
+
+|本次轮|版本|批次轮|实际结论|证据|VERIFIED提交|
+|---|---|---|---|---|---|
+|1|108-otus-rutilus-v18|20261128T0329Z 5/6|NEEDS_REVISION|[原图](../originals/108-otus-rutilus-v18.png) · [研究/完整提示](../../research/species/108-otus-rutilus-v18.md) · [实际审查](../../research/reviews/108-otus-rutilus-v18-review.md)|[15f51deb](https://github.com/janeytlin-eng/game-owl-ket/commit/15f51deba09a85f7480a187b61246e27ba0026f2)|
+|2|130-megascops-koepckeae-v24|20261128T0329Z 6/6|PASS_WITH_LIMITATIONS|[原图](../originals/130-megascops-koepckeae-v24.png) · [研究/完整提示](../../research/species/130-megascops-koepckeae-v24.md) · [实际审查](../../research/reviews/130-megascops-koepckeae-v24-review.md)|[1b42038c](https://github.com/janeytlin-eng/game-owl-ket/commit/1b42038ca08c23ac16c154ed01f2817cb14b06c1)|
+|3|129-megascops-hoyi-v9|20261128T0430Z 1/6|PASS_WITH_LIMITATIONS|[原图](../originals/129-megascops-hoyi-v9.png) · [研究/完整提示](../../research/species/129-megascops-hoyi-v9.md) · [实际审查](../../research/reviews/129-megascops-hoyi-v9-review.md)|[c3c31a2e](https://github.com/janeytlin-eng/game-owl-ket/commit/c3c31a2ed40eaecdbdebcaa7bc9257d51d0fb5f3)|
+|4|131-megascops-watsonii-v10|20261128T0430Z 2/6|PASS_WITH_LIMITATIONS|[原图](../originals/131-megascops-watsonii-v10.png) · [研究/完整提示](../../research/species/131-megascops-watsonii-v10.md) · [实际审查](../../research/reviews/131-megascops-watsonii-v10-review.md)|[0c2aa1c2](https://github.com/janeytlin-eng/game-owl-ket/commit/0c2aa1c21c8048664bc54cfca5a4510a050db956)|
+|5|133-megascops-atricapilla-v11|20261128T0430Z 3/6|PASS_WITH_LIMITATIONS|[原图](../originals/133-megascops-atricapilla-v11.png) · [研究/完整提示](../../research/species/133-megascops-atricapilla-v11.md) · [实际审查](../../research/reviews/133-megascops-atricapilla-v11-review.md)|[d2bf7684](https://github.com/janeytlin-eng/game-owl-ket/commit/d2bf7684f31eb9509ac530f1126a27df6d93ff85)|
+|6|112-asio-abyssinicus-v17|20261128T0430Z 4/6|PASS_WITH_LIMITATIONS|[原图](../originals/112-asio-abyssinicus-v17.png) · [研究/完整提示](../../research/species/112-asio-abyssinicus-v17.md) · [实际审查](../../research/reviews/112-asio-abyssinicus-v17-review.md)|[417b50b8](https://github.com/janeytlin-eng/game-owl-ket/commit/417b50b85c7a94daf6938ee1b09c33a9fefd21f0)|
+
+
 ## 2026-11-28 本次六轮：207/251不变
 
 新增0/修订6：108v17整鸟重建+二编仍NEEDS_REVISION，130v23成年冠顶二编、129v8/133v10成年面盘细纹、131v9/112v16成年耳羽为5局部PWL。130和112幼鸟纹理仍未解，科学通过/新确认0。8次实际imagegen/看图、逐轮双路径全字节哈希解码和研究审查回读后计账；1460旧图blob保留。源新增机构元数据资源1（非幼鸟证据）/生物学新0/复用13ID合并8资料家族/访问边界更新1。旧0304Z跨次6/6；当前0329Z4/6,next5，其他PARTIAL0/lease空。[六原图、真实SHA、完整提示、实际负结果与计时](production/batches/20261128T0329Z-six-cycle-review.md)。曾因本任务阶段提交推进触发HEAD_CHANGED保护，读回后按最新main重试，未覆盖成果。最终48文件全字节/Gitblob和16PNG完整解码回读通过；全251/整批科学审查未完，未改其他任务/API。

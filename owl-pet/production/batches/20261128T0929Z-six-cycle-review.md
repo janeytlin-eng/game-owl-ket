@@ -41,3 +41,9 @@ N.randi预查图鉴468页幼鸟未描述/'可能像Brown'，未凭推测绘新�
 下一接续点20261128T0929Z第5/6轮；108下一修订应改变表示策略/验证来源，避免只做同类柔化；缺图物种继续补有资料的发育阶段。未修改AI Research Radio、3D或其他自动化，未声称后台正在生产或预计完工。
 
 [完整运行审计](20261128T0929Z-invocation-audit.json)包含完整提示、实际阶段、逐轮commit、失败与计时。最终整轮不可变SHA字节核验收据稍后追加；六轮归档推进前已经逐轮核验。
+
+## 最终整轮字节核验
+
+2026-11-28T09:52:51.438435+00:00 不可变证据提交[7f4b406cda55aff0b37d918e9ca705fbd552a93c](https://github.com/janeytlin-eng/game-owl-ket/commit/7f4b406cda55aff0b37d918e9ca705fbd552a93c)：46项检查PASS，其中15个PNG路径（6原图、6概念图、108首稿1、第25组已有双路径2）完整下载、Git blob SHA/SHA256比对、PIL解码均成功。6个逐轮VERIFIED提交的run重新读取，完整提示/五阶段均在。旧1496张编号概念图blob全部不变，manifest历史1451行前缀完全不变，owl-pet之外新增/修改blob0。当前20261128T0929Z4/6,next5，lease/active_lease空，其他未完批次0。第25组双路径完整可读，不重复制作/计数。
+
+[完整回读收据](20261128T0929Z-final-readback-receipt.json)。首次启动最终核验进程时exec-server transport disconnected，pwd重试后恢复，再全量核验通过；此真实瞬时错误保留，不宣称权限阻塞或固定平台时限。SCU-BSS-WEB原始URL在本次初始索引出现0次，确为本轮新索引源。

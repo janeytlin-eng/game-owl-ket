@@ -530,8 +530,22 @@
   "errors": [
     "GitHub fetch BATCH_STATE400 too large; urllib immutable raw file read succeeded, not connector connection failure",
     "108 first/edited attempts still looplike; no solved claim",
-    "fd9d70d GitHubGET422 no commit; existing25images not regenerated"
+    "fd9d70d GitHubGET422 no commit; existing25images not regenerated",
+    "Final audit process launch failed once: exec-server transport disconnected. pwd retry succeeded; full audit relaunched."
   ],
   "scope_changes": "Only owl-pet. No radio/automation/3D changes.",
-  "platform_limit_telemetry": "No fixed platform timeout or forced deadline observed/claimed"
+  "platform_limit_telemetry": "No fixed platform timeout or forced deadline observed/claimed",
+  "final_readback": {
+    "run_id": "20261128T0929Z",
+    "status": "PASS",
+    "receipt": "owl-pet/production/batches/20261128T0929Z-final-readback-receipt.json",
+    "evidence_head": "7f4b406cda55aff0b37d918e9ca705fbd552a93c",
+    "checked_files": 46,
+    "png_paths": 15,
+    "production_cycles": 6,
+    "scientific_status": "PARTIAL",
+    "needs_revision": [
+      "108-otus-rutilus-v21"
+    ]
+  }
 }

@@ -963,3 +963,7 @@ Actualv13/v14 viewed: longsharpstrawfilamentsreduced but roundedloop/woollikegeo
 
 ## 20261128T0000Z 130-megascops-koepckeae-v20
 Actualv19/v20andFig1c viewed: juvenilebodychangedUscallopsinto leaf-shapedoutlinedunits withfinecurvedstrands; still regularunits andnotsource-likefinebarrednessoptiles. NEEDS_REVISION; no materialrepairclaim. Evidencegraywhitebars/brownchest/whitebrows/yelloweyes/blackdisc/compactformedwing/no prey/ageunknown/support retained, adultsunchanged. Lesson flatstrokerepaint still retainedunitrepeatgrammar; repeatingsoftening notproven. Sciencefalse.
+
+
+## 20261128T0000Z 206-glaucidium-castanopterum-v8
+Actualv7/v8andVeronesioriginalphoto viewed. Leftinnerbrowedge slightlylower/flatter, but someangularsculptedridge remains; onlymodestlocalPWL, nofullphotoequivalence/scientificpass. Thinpalepigment/orbitaledgeretained, noerasedeyering; roundcrown/noear-tufts/yellowiris/olivecere/greenyellowbill/chestnut-whitebody/olivetoesdarkclaws andsixbranchgrips unchanged. Entireageunknownfledglingandrightadultscopepreserved. Lesson localizedleft-onlyshapeeditavoidsundoingrightadultpriorfix, effectmodest/notuniversalproof. Sciencefalse.

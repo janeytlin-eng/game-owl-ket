@@ -1,0 +1,3 @@
+# Actual review
+Actualv13/v14 viewed: longsharpstrawfilamentsreduced but roundedloop/woollikegeometryreturns onbelly, so NEEDS_REVISION notverifiedgrainrepair. Adultfaces/herringbone/scapularstripe/graybrownbills-feet/darkclaws andunknownstageyoungface/wingtailconcealment/sixfootcontacts/forest/labels retained. Two opposite materialinstructions oscillate longstraightvslooped; stopidenticalmaterialtrial and leaveexplicitqueue, sourceexactmicrogeometry/youngageflightunknown. Thisarchivecyclecomplete doesnotmean speciesbiologypass. Sciencefalse.
+{"bytes":2563988,"sha256":"b99f10e88961887fa1c02e5de51f5ff4c18b612d22b43fc13c8fb8ec3ebe90c5","gitblob":"ad58cde864a1b8e154b464a92961e469af833824","size":[1536,1024]}

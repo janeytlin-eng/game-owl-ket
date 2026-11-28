@@ -9513,3 +9513,8 @@ Correction 01v6: PMC direct open/urllib returned bot wall, not read successfully
 ## 20261128T1330Z 03-bubo-bubo-v13
 复用EEO-MIKKOLA-2013本轮实际读printed268/PDF270(及printed269图片页文本)，成人爪blackishbrown with blacktips、强爪，质量性差不能换站高。v12实际看成人爪几乎全黑，做细微爪基角质色局部校正，不动幼鸟。复用EEO-PENTERIANI-2005，Penteriani/Delgado/Maggio/Aradis/Sergio,Ibis147:155–168 DOI10.1111/j.1474-919x.2004.00381.x，2026-11-28外检并实际打开Wiley原Methods(19chicks8nests)/发育图注上下文；本轮不说新看图像像素，既有v12约10日边界历史保留但撤数值日龄标注。原文西班牙样本不作全球发育阈值。保留原v4用户确认范围，成人爪颜色不迁移幼鸟。新0复用2，设计未变龄，不冒充科学全图验证。
 [Research/prompt](species/03-bubo-bubo-v13.md) · [Review](reviews/03-bubo-bubo-v13-review.md)
+
+
+## 20261128T1435Z 02-bubo-scandiacus-v8
+复用SNO-ORI-2022GUIDE，SolaiSLeFay/ChloeYHernandez/DenverWHolt，2022样本/页面发布日期未定，原始机构 https://www.owlresearchinstitute.org/snowy-owl-photo-guide ;2026-11-28本轮主动检索并实际打开Stage3/4、Photo16caption与实际原图像素 https://static.wixstatic.com/media/78ab91_1157a96b684e4f9ea0a93d9ef2181af0~mv2.jpg 。Photo16=2022-08-13 chick06约16days afterbanding, 单窝估龄不普适；照片灰白头面/较暗灰body/灰角cerebill，非成人黑bill紧密羽基，白羽脚部分皮肤可见/浅角色爪，不把成人黑爪套young。图片为手持环志现场，不证明地面姿态或精确羽数，概念采用保守有支撑低伏。实际click派生图fetch InternalError，改原始media成功，记录恢复非新来源。复用SNO-MIK2013-258-261(同2013上传书)，本轮实读printed258/PDF260及成人图：旧Nycteascandiaca映射Buboscandiacus；白雄斑雌/黑bill/厚白跗趾黑爪，女+300–400g不当高度比。v7旧图卷丝负结果已读/先前实际看，本轮排除旧target，重建非细节猜测。新增0复用2主ID；既有来源照片像素访问升级1、juvenilebarepart参考补查1，科学未通过。
+[Research/prompt](species/02-bubo-scandiacus-v8.md) · [Review](reviews/02-bubo-scandiacus-v8-review.md)

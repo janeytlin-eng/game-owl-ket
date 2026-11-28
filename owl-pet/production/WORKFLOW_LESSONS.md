@@ -1307,3 +1307,7 @@ Actualv5 viewed: adults have darker distal horn/nearlyblackclawtips with lighter
 
 ## 20261128T1232Z 56-bubo-virginianus-v5
 实际完整查看v5：右young改闭翼侧向静栖、双足抓原斜枝，去掉展开翼平衡展示；头体残buff绒与较长闭合翼羽并存，符合已知龄系列阶段原则而非初生样式，尾短。旧奶油碎棉大片明显减轻，但腹部仍有丝状/卷毛感，材质不能称完全科学还原。成人两只及大致场景不变，图注捕圈养参考限制/年龄未知/飞行未知/性别推断准确；羽龄未赋具体日龄。来源p14照片有人工持鸟/翼部显示，本图没有复制手持行为或把照片当枝栖观测；枝支撑是保守概念构图。PWL仅姿态/阶段一致性改善，幼鸟发育细节与成鸟性比sciencefalse。问题→阶段支持但旧图材质/展翼暗示过强；证据→已知龄原始照片+图鉴；修改→整只young细羽/闭翼；复查→闭翼支撑有效、微材质部分未知。回查v4保留；不能见残绒就一律删成熟翼羽。
+
+
+## 20261128T1232Z 09-athene-cunicularia-v5
+Actual full image viewed after first generation and edit. Labels now EARLY EMERGING CHICK / AGE NOT CALIBRATED; adult tarsi long/slender with sparse short covering, feet soil contact; near equal adult scale retained, not sex measurement. Chick wing buds compact, no long adult flight vanes; quiet soil support retained; exact iris/day/wing lengths still uncalibrated. Edit reduced some large loop artifacts but fine curled loops and repetitive chest layers remain on adults/chick. NEEDS_REVISION for material realism, not scientific pass. Next fix should exclude old target texture and use known-aged field/aging imagery as independent reference, as108v23; never erase valid mature wing feathers from older juveniles. Rule discovery versus success: removal of unsupported exact numerical age succeeded; loop-removal via inherited target failed twice. No new hatchling or flight fact.

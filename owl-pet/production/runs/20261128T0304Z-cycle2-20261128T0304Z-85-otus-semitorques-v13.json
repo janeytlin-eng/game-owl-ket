@@ -17,11 +17,15 @@
     {
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-28T03:16:10.488Z"
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-28T03:16:15.220Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0304Z-cycle2-20261128T0304Z-85-otus-semitorques-v13.json",
-  "stage": "IMAGE_GENERATED",
+  "stage": "REVIEWED",
   "research": "Access2026-11-28Shanghai new0/reuse2. MIKKOLA-2013 HeimoMikkola2013 uploadedprinted158/PDF160actuallyread: ADULTunderparts palegraybuff withdarkHERRINGBONEpattern, lightgraybrownminutelyfleckeddisc/whitebrowlongtufts/grayhornbill/featheredtoes/hornclaws/nosexsizedata. Currentv12ventralpigmentmostlyblackfeatheredges; correctionattemptdarkshaftstreakswithshortobliquebranches notcontinuousblackscalerims. Sourcequalitativepattern, notprecisepigmentmap. SEM-NOHARA-HONDA-2025-P75-78 KiyoshiNohara/RinaHonda2025 BullSaitamaMusNatHist19:75–78 DOI10.24715/smnh.19.0_75 https://www.jstage.jst.go.jp/article/smnh/19/0/19_75/_pdf/-char/ja freshactualp75–76bodyread, adultorangeiris/featheredtoes, youngirisNOTvisible/wholebodydown/shortnotfullyelongatedremigestail/lowmovementCryptomeria25–26Jun2024/nestnotfound. Nojuvenilechange; orangeadultirisnotfire-redguideoverride. OldOtuslempijisemitorques/Obakkamoenasemitorques→Otussemitorques notOlettia. Same251unit; sciencefalse.",
   "full_prompt": "Precise-object-edit #85 v12. ONLY ADULT CENTRAL VENTRAL PIGMENT PATTERN on breast/belly: dark slim longitudinal shaft streaks with short irregular oblique branching crossmarks, herringbone-like, on pale greyish-buff. Remove black tracing around every feather's scalloped rim. This is pigment pattern, keep feather shape and 3D volume, not a newplumagestage. Retain bothadultgrey-brownfaces/iris/bill/tufts/wingtail/feet/near-equalscale/scene. Centreyoung ENTIRELY UNCHANGED including shadowedunverifiedeyes, developingwingtail/grey down andsupportedpose. Titlev12→v13. Keepalllabels/sciencependingfooter. Do not inventspeciessexratio.",
   "source_ids": [
@@ -41,5 +45,7 @@
   "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-2c101414-922d-4fa4-b418-787a5574b3cd.png",
   "imagegen_wait_seconds": 36.499,
   "editing_wait_seconds": 0,
-  "review_result": "PASS_WITH_LIMITATIONS"
+  "review_result": "PASS_WITH_LIMITATIONS",
+  "review": "Actualv12/v13wholeimagesviewed. Bothadultcentralventralpigmentnowlongdarkshaftswithshortobliquebranches, ratherblackrimoneachscale. LocalherringbonepatternPWL, precisebranchdensitynotmeasured. Facecorrectionv12preserved; orangeiris/graybill/tufts/wings/toefeathers/claws/near-equaladultdisplay/scene/supports preserved. Entireyoungshadoweye/graydown/shortdevelopingwingtailunchanged. Somefeathergeometryisstylized, wholeimagesciencefalse. Lesson pigmentconnectivitycanbecorrectedforadultventraltractwithoutclaimingjuvenilematerialsuccess. Fonteguide158/PDF160andNoharaHonda2025pp75–76actualread; noRSDquantificationorflightguess.",
+  "reviewed_at": "2026-11-28T03:16:15.204Z"
 }

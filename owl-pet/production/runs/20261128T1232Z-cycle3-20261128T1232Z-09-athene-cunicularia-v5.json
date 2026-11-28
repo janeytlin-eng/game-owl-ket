@@ -21,11 +21,15 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T12:53:57.987Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T12:54:31.165Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T1232Z-cycle3-20261128T1232Z-09-athene-cunicularia-v5.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "## New source BUOW-KLUTE-ETAL-2003-P6\nKlute, Ayers, Green, Howe, Jones, Shaffer, Sheffield & Zimmerman, US Fish and Wildlife Service (2003), Status Assessment and Conservation Plan for the Western Burrowing Owl in the United States, BTP-R6001-2003. Original https://www.fws.gov/sites/default/files/documents/2024-04/1493.pdf ; accessed 2026-11-28. Institutional synthesis, western Athene cunicularia hypugaea, adult and juvenile description. Actual downloaded/read cover, authors, full Description printed p6 (PDF16), distribution pp7–9; not claiming entire120pages. Long slender tarsi short hair-like feathers becoming sparse bristles on feet; juveniles weakly streaked buff below; no reversed sexual size dimorphism. Cites Haug et al.1993, not a new measurement study. Limits: geographic scope, no exact 14day iris/wing timetable from this paragraph. Guide Mikkola2013 printed424/PDF426 was actually read and says female larger/+30g, conflicting with western synthesis and prior Cornell account; do not universalize either population-specific mass or infer height.\n## Reuse and boundaries\nWHSO-MIKKOLA-2013, BUO-JOHNSON-AGING-2019, BUOW-SDZ-2017, BUOW-SMITHSONIAN-2012 reused existing researched stage boundary. v4 research/production/knowledge read; v4.jpg actually viewed (not older v3). First-emergence ~14days is reference window, not generated exact age; remove numerical age label. Cornell ID fresh request returned403, not treated newly read. Existing juveniles' wing-bud correction preserved. New actual visual issue: regular curled yarn loops across body. This is material correction, not new species knowledge. All historical versions and v1 approval preserved. Design inference: near-equal-scale adults and supported quiet chick chosen; drawing is not a metric mass comparison or wild behavior photograph. No exact iris, hatchling or flight claim.\n",
   "full_prompt": "Edit this existing Burrowing Owl triptych conservatively. Preserve title 09 Athene cunicularia, layout adult male left, adult female right, chick center, realistic soft dimensional owl pet style, warm prairie burrow environment, all existing physically supported feet and closed wings. PRIMARY FIX: remove conspicuous regular curled yarn loops and repeated embossed oval feather tiles on adults and young; render natural matte short layered feathers on adults, delicate irregular down filaments and patchy developing tracts on chick. Adult long slender tarsi should carry only short hair-like feathers transitioning to sparse bristles on feet, never thick furry boots; retain long thin legs. Sexes approximately equal-scale, no exaggerated female-larger hierarchy (western population synthesis says no reversed size dimorphism). White face margins, yellow adult irises, pale horn bill, buff white bars and chocolate brown spotted upperparts. Preserve chick compact short wing buds without mature spotted long vanes, steady upright near burrow entrance both feet supported soil; no flight/jump. Replace central text with \"EARLY EMERGING CHICK\" and small \"AGE NOT CALIBRATED\" so approximate known-age reference is not asserted for generated anatomy. Its exact eye color/day not scientifically calibrated. Do not add eggs, decoration, new anatomy or flight. Keep labels legible and composition. Natural irregular feather textures must replace loops.",
   "source_ids": [
@@ -48,5 +52,18 @@
       1024
     ]
   },
-  "first_attempt_persistent": "owl-pet/production/originals/09-athene-cunicularia-v5-attempt1.png"
+  "first_attempt_persistent": "owl-pet/production/originals/09-athene-cunicularia-v5-attempt1.png",
+  "image_metadata": {
+    "bytes": 2755163,
+    "sha256": "e16aca89a340fd0060d91f497962534292cde7f349151e13b01c3cefc8cd85a7",
+    "gitblob": "b030d457f38946304a7a48382702a277699283ba",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-46667cfc-904d-4438-b250-8b9f545b250d.png",
+  "imagegen_wait_seconds": 44.699,
+  "editing_wait_seconds": 34.977,
+  "review_result": "NEEDS_REVISION"
 }

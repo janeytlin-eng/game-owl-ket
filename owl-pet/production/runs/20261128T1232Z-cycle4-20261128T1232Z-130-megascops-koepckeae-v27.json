@@ -9,9 +9,21 @@
     {
       "stage": "STARTED",
       "at": "2026-11-28T12:55:40.696Z"
+    },
+    {
+      "stage": "STARTED",
+      "at": "2026-11-28T13:31:59.911Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T1232Z-cycle4-20261128T1232Z-130-megascops-koepckeae-v27.json",
-  "stage": "STARTED"
+  "stage": "STARTED",
+  "recovery": {
+    "previous_owner": "20261128T1232Z",
+    "new_owner": "20261128T1330Z",
+    "reason": "Prior STARTED only; expired lease; no v27 image. Resume same run."
+  },
+  "actual_errors": [
+    "Local JSON.parse on connector already-parsed object failed before mutation; corrected using parsed object."
+  ]
 }

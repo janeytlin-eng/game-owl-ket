@@ -21,11 +21,15 @@
     {
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-28T11:52:48.912Z"
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-28T11:52:54.798Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T1133Z-cycle4-20261128T1133Z-130-megascops-koepckeae-v26.json",
-  "stage": "IMAGE_GENERATED",
+  "stage": "REVIEWED",
   "research": "复用KOEP-ALARCON-2023：IbethPAlarcon etal2023 Reproductive events of birds from Southern Ecuador, NeotropicalBiodiversity9:93–114 DOI10.1080/23766808.2023.2237229，原始大学URL https://biologia.uazuay.edu.ec/sites/biologia.uazuay.edu.ec/files/public/ReproductiveeventsofbirdsfromSouthernEcuador.pdf ，2026-11-28定向外检并实际本地原PDFprinted104/PDF13及Fig1c p95/PDF4照片读取。2019-04-23 Loja两亲鸟依赖幼鸟/灰白暗条/brownchest/黑面缘白眉黄眼/剩余mesoptile/Podocarpus3–4m枝，未给日龄/性/首飞。复用KOEP-MIK2013-222：图鉴printed222/PDF224实际读取成人短簇/灰白细暗斑脸黑ruff/蓝绿角喙/灰褐趾/黑角爪/无性差数据。旧Otus→Megascopskoepckeae，Ecuador未据此指定hockingi。v25成鸟及环境仍塑料碎片、幼鸟U羽层过规则，本轮整张材质重建，保留原依据羽色方向。KOEP-FJELDSA-2012-P180-191本轮外部正文打开仅补分类/成鸟对比上下文，不计新源且不以其hockingi模式标本羽色套Loja幼鸟。新增0复用2主要证据源；设计尺度/枝摆放非实测，无巢，sciencefalse。",
   "full_prompt": "Use case precise-object-edit. Rebuild #130 Megascops koepckeae v25 into v26, same warm high quality3D pet concept style and three-bird composition on thick supported branch in Andean woodland. Replace corrupted PLASTIC/RIBBON/SHARD feather material over birds AND branch with real coherent matte soft FEATHER VANES and natural bark/moss, no shiny confetti, polygons or embossed loops. Adults left/centre: small short ear-tufts, graywhite face finely dark mottled within black ruff, yellow iris, bluegreen horn bill, graywhite underparts broad brown shaft streaks with irregular lateral branches, darkbrown upperparts narrow pale forehead speckles/white scapular marks; graybrown toes dark claws; keep near equal size as artistic not measurement. Right juvenile is DEPENDENT FLEDGLING, follow actual Alarcon Fig1c photo only for stage: graywhitish soft partly mesoptile feather covering, irregular narrow dark bars and brown chest wash, yellow eyes, black face rim/white brow, coherent FOLDED formed wings, no exposed mature flight pose. Fine soft mass, no layered repeated U-shaped sculpted curls or hard loops, no baby white fluff. Retain two-foot grip. No hatchage/sex/firstflight or subspecies inference. Labels adults SEX INFERRED; title '#130 KOEPCKE’S SCREECH OWL v26 · Megascops koepckeae'; footer 'CONCEPT · SCIENCE PENDING · JUVENILE AGE / SEX / FLIGHT UNKNOWN'. No nest.",
   "source_ids": [
@@ -56,5 +60,7 @@
   "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-ea646f6f-0d1e-4443-8940-fa29dec0535a.png",
   "imagegen_wait_seconds": 46.189,
   "editing_wait_seconds": 33.87,
-  "review_result": "NEEDS_REVISION"
+  "review_result": "NEEDS_REVISION",
+  "review": "首稿与二编完整看图：成人与枝条碎塑料片基本消除，羽片自然哑光、灰白脸/黑ruff/黄眼/蓝绿角喙、纵纹腹保存；标签首稿丢male/female后二编补回sex inferred。幼鸟比实物照仍过规则U层状羽缘，虽然色灰褐、白眉黑面缘、闭翼与足支撑相容，微羽面仍NEEDS_REVISION/sciencefalse，不以adult材料改善宣称幼体完全校准。图注未给年龄/性别/首飞；Loja照片不用于亚种或身高测量。问题→全图塑料材料及幼体U纹；证据→图鉴与原始幼鸟观察；修改→整张羽片重建+文字二编；复查→成人材料有效、幼体部分未解。失败首稿保留，完整提示/run保存；下轮优先换源约束或独立幼体重建，不再对旧U层只换形容词。v25原图保留。",
+  "reviewed_at": "2026-11-28T11:52:54.779Z"
 }

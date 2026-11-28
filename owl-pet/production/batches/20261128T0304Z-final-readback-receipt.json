@@ -1,0 +1,576 @@
+{
+  "status": "PASS",
+  "run_id": "20261128T0304Z",
+  "evidence_head": "975beaa1338ae67239bf72330bb319a33e97e413",
+  "baseline": "580fbbe187e876fce14047fde57cd6bcbe3dff22",
+  "verified_at": "2026-11-28T03:27:09.842083+00:00",
+  "checked_files": 49,
+  "checks": [
+    {
+      "path": "owl-pet/production/originals/108-otus-rutilus-v16.png",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "149c29b19072ac49301d311ca6697ed1f422dc92",
+      "bytes": 2572197,
+      "sha256": "e024a5936e5ca6e74f79cf62067cf4d1f74222abc6d4409bc594a63c706d8b59",
+      "actual_bytes": 2572197,
+      "actual_blob": "149c29b19072ac49301d311ca6697ed1f422dc92",
+      "PASS": true,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/design/concepts/108-otus-rutilus-v16.png",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "149c29b19072ac49301d311ca6697ed1f422dc92",
+      "bytes": 2572197,
+      "sha256": "e024a5936e5ca6e74f79cf62067cf4d1f74222abc6d4409bc594a63c706d8b59",
+      "actual_bytes": 2572197,
+      "actual_blob": "149c29b19072ac49301d311ca6697ed1f422dc92",
+      "PASS": true,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/research/species/108-otus-rutilus-v16.md",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "dede4324a4749f17ffddf70252b5c52af8e148d2",
+      "bytes": 1591,
+      "actual_bytes": 1591,
+      "actual_blob": "dede4324a4749f17ffddf70252b5c52af8e148d2",
+      "sha256": "716144239c4525ab0ddc2ff7f3178fa45ded97f70baaa592a3bf7e5b8e0db757",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/research/reviews/108-otus-rutilus-v16-review.md",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "e4580b896737e93239d03e07a6435e0293c2e65a",
+      "bytes": 801,
+      "actual_bytes": 801,
+      "actual_blob": "e4580b896737e93239d03e07a6435e0293c2e65a",
+      "sha256": "1d8c77ea0b4c737c476066254eec80e68dffda9b32d93db39d2c96cf73a07913",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/runs/20261128T0232Z-cycle5-20261128T0304Z-108-otus-rutilus-v16.json",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "8a43f20990176b9cab7d3f3802b5dc46dcbe4293",
+      "bytes": 4494,
+      "actual_bytes": 4494,
+      "actual_blob": "8a43f20990176b9cab7d3f3802b5dc46dcbe4293",
+      "sha256": "0ccde3098bfe093669aaeccf34954e0e9705000d6e8b6bb90a85b9368a244782",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/runs/20261128T0232Z-cycle5-20261128T0304Z-108-otus-rutilus-v16.json",
+      "ref": "777269c4078e15a1c79fc975696d9c6f366df634",
+      "historical": true,
+      "target": "108-otus-rutilus-v16",
+      "actual_bytes": 4434,
+      "actual_blob": "2e4f7b78a16b02a4aade31ed6dd9a322ea9f4794",
+      "sha256": "29398ac37d238bd0fe13034d78e3a21243399b6ed05ca4108cccf893756472c9",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/originals/130-megascops-koepckeae-v22.png",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "70d9fc5273e485560c72bbd88a2c86861cf40abf",
+      "bytes": 2419236,
+      "sha256": "bb32d00c0c8c70b70aaf1082f91a01bb510fb81fde534644b735fa8e3a6fdc3e",
+      "actual_bytes": 2419236,
+      "actual_blob": "70d9fc5273e485560c72bbd88a2c86861cf40abf",
+      "PASS": true,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/design/concepts/130-megascops-koepckeae-v22.png",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "70d9fc5273e485560c72bbd88a2c86861cf40abf",
+      "bytes": 2419236,
+      "sha256": "bb32d00c0c8c70b70aaf1082f91a01bb510fb81fde534644b735fa8e3a6fdc3e",
+      "actual_bytes": 2419236,
+      "actual_blob": "70d9fc5273e485560c72bbd88a2c86861cf40abf",
+      "PASS": true,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/research/species/130-megascops-koepckeae-v22.md",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "4ba1b5e8a1dd31e0d339622cb6d2a792e158f79a",
+      "bytes": 1606,
+      "actual_bytes": 1606,
+      "actual_blob": "4ba1b5e8a1dd31e0d339622cb6d2a792e158f79a",
+      "sha256": "48b9c9254f8697290f7ac2208f6c619802f798ecd8da5ba38590514804529c6e",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/research/reviews/130-megascops-koepckeae-v22-review.md",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "76edbc1aff2ce6b1d15f0a15c7a9ceb6fe01998b",
+      "bytes": 807,
+      "actual_bytes": 807,
+      "actual_blob": "76edbc1aff2ce6b1d15f0a15c7a9ceb6fe01998b",
+      "sha256": "be3ac0f7bd6e24bc11b9586db501fce5868d601e72a1bfb5bc4ebb6707554b66",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/runs/20261128T0232Z-cycle6-20261128T0304Z-130-megascops-koepckeae-v22.json",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "7d5343382ccf96044c24f92e4dee758318949cb3",
+      "bytes": 4576,
+      "actual_bytes": 4576,
+      "actual_blob": "7d5343382ccf96044c24f92e4dee758318949cb3",
+      "sha256": "ebc0618e9cb90a324d853d8890b930f8868ca2c240e7e4c0f3841b41548efdc1",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/runs/20261128T0232Z-cycle6-20261128T0304Z-130-megascops-koepckeae-v22.json",
+      "ref": "ea0ea1b6c5381c29160d52f63fa40007a2a8b82f",
+      "historical": true,
+      "target": "130-megascops-koepckeae-v22",
+      "actual_bytes": 4516,
+      "actual_blob": "ec87387d93d73f0627597c2da113fb9fbedd6e03",
+      "sha256": "0999a967aca6b7227f0019d5e0eac6c0cb885f4f45b5d5b14756a8f5daf4d261",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/originals/112-asio-abyssinicus-v15.png",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "d3186b4daa42c2df82083792db1630362f2dafea",
+      "bytes": 2623731,
+      "sha256": "b5fd5758e8f4b0cb8463e854f356c5b7f28abffe3589ee00c4eaecdadd83b0dc",
+      "actual_bytes": 2623731,
+      "actual_blob": "d3186b4daa42c2df82083792db1630362f2dafea",
+      "PASS": true,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/design/concepts/112-asio-abyssinicus-v15.png",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "d3186b4daa42c2df82083792db1630362f2dafea",
+      "bytes": 2623731,
+      "sha256": "b5fd5758e8f4b0cb8463e854f356c5b7f28abffe3589ee00c4eaecdadd83b0dc",
+      "actual_bytes": 2623731,
+      "actual_blob": "d3186b4daa42c2df82083792db1630362f2dafea",
+      "PASS": true,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/research/species/112-asio-abyssinicus-v15.md",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "6cbb12780f79f7318a05cfa8164dd137bb1f063b",
+      "bytes": 1667,
+      "actual_bytes": 1667,
+      "actual_blob": "6cbb12780f79f7318a05cfa8164dd137bb1f063b",
+      "sha256": "6ab7bf4c84daf28881fe906c632f1923eb7759785f01ab9b1f79a65fc82e3845",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/research/reviews/112-asio-abyssinicus-v15-review.md",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "423bccd699fb044fb46ce0bc3ff44ad73e80d4b2",
+      "bytes": 842,
+      "actual_bytes": 842,
+      "actual_blob": "423bccd699fb044fb46ce0bc3ff44ad73e80d4b2",
+      "sha256": "e0ba414b1d50fe3a6076c99d04cb48803e61dcd1e403d5221327b1878a05369d",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/runs/20261128T0304Z-cycle1-20261128T0304Z-112-asio-abyssinicus-v15.json",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "b0ad5dc9167e623373778f0393c733e4b3da83ae",
+      "bytes": 4056,
+      "actual_bytes": 4056,
+      "actual_blob": "b0ad5dc9167e623373778f0393c733e4b3da83ae",
+      "sha256": "5468205390a3b5b448811367c1ec5914db174f7d1721853b78913654d6304dee",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/runs/20261128T0304Z-cycle1-20261128T0304Z-112-asio-abyssinicus-v15.json",
+      "ref": "2dac07a04e4db8c4fa2eb2be1ff4f21e87dcdb36",
+      "historical": true,
+      "target": "112-asio-abyssinicus-v15",
+      "actual_bytes": 3996,
+      "actual_blob": "a3593d06f7b708587f5d0fd0b1d7a1cf6407ecba",
+      "sha256": "454f4bd8f27eb73963e10f56ef811345b00bc344effa6a31f4459d6b599c306d",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/originals/85-otus-semitorques-v13.png",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "386edbec4125b68d95f3cd19de88432b009b4c44",
+      "bytes": 2698216,
+      "sha256": "8b673134669cce0bf5b4ce10442cddcdff4515f6b701f04788cef0054dc48c08",
+      "actual_bytes": 2698216,
+      "actual_blob": "386edbec4125b68d95f3cd19de88432b009b4c44",
+      "PASS": true,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/design/concepts/85-otus-semitorques-v13.png",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "386edbec4125b68d95f3cd19de88432b009b4c44",
+      "bytes": 2698216,
+      "sha256": "8b673134669cce0bf5b4ce10442cddcdff4515f6b701f04788cef0054dc48c08",
+      "actual_bytes": 2698216,
+      "actual_blob": "386edbec4125b68d95f3cd19de88432b009b4c44",
+      "PASS": true,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/research/species/85-otus-semitorques-v13.md",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "bd2585982c6a107cd4362dd0e428afded21c2c99",
+      "bytes": 1663,
+      "actual_bytes": 1663,
+      "actual_blob": "bd2585982c6a107cd4362dd0e428afded21c2c99",
+      "sha256": "8cdfbce7643496e2c0b9d9298ee59c1ff88ee8e2fa80412024e8ae88394052d3",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/research/reviews/85-otus-semitorques-v13-review.md",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "a0c393141b4838504cab34ba892c8eb5f80867ae",
+      "bytes": 813,
+      "actual_bytes": 813,
+      "actual_blob": "a0c393141b4838504cab34ba892c8eb5f80867ae",
+      "sha256": "05cce7ec1822dd1f0f9e51a093a67efac28f562e5de029ef18cc416744518166",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/runs/20261128T0304Z-cycle2-20261128T0304Z-85-otus-semitorques-v13.json",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "c335240294d4935fff2a74d47bc7d04b14376032",
+      "bytes": 4022,
+      "actual_bytes": 4022,
+      "actual_blob": "c335240294d4935fff2a74d47bc7d04b14376032",
+      "sha256": "9ef342d0f4815644c5710301df39aaf030fbd0e870a3b3b52f91e4d8ed813ce7",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/runs/20261128T0304Z-cycle2-20261128T0304Z-85-otus-semitorques-v13.json",
+      "ref": "cdbe5b2d328ee6de5244e8eeb652c9b777ee08d7",
+      "historical": true,
+      "target": "85-otus-semitorques-v13",
+      "actual_bytes": 3962,
+      "actual_blob": "226a7553642bf0c4370e32326ba307be2777b8a1",
+      "sha256": "9ff5f4a12203b16d696fcf281a8e3cf36ca1ed2c59d4976fc163f844e69dbfbd",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/originals/95-pulsatrix-melanota-v11.png",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "30eb4f007d2f9bd9812d8232c8f528ab7dda491a",
+      "bytes": 2268179,
+      "sha256": "4923c7e84ff26d3f777f1a13d7083f6ef36f2403c2d4c5223c03a4ecb8e00f93",
+      "actual_bytes": 2268179,
+      "actual_blob": "30eb4f007d2f9bd9812d8232c8f528ab7dda491a",
+      "PASS": true,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/design/concepts/95-pulsatrix-melanota-v11.png",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "30eb4f007d2f9bd9812d8232c8f528ab7dda491a",
+      "bytes": 2268179,
+      "sha256": "4923c7e84ff26d3f777f1a13d7083f6ef36f2403c2d4c5223c03a4ecb8e00f93",
+      "actual_bytes": 2268179,
+      "actual_blob": "30eb4f007d2f9bd9812d8232c8f528ab7dda491a",
+      "PASS": true,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/research/species/95-pulsatrix-melanota-v11.md",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "4691a8985c685c398b56e456438b79560d968f41",
+      "bytes": 1791,
+      "actual_bytes": 1791,
+      "actual_blob": "4691a8985c685c398b56e456438b79560d968f41",
+      "sha256": "ca75ec831010aa34fc9d494612f1692d5e521a87b70ca78a91ba18c33dd5159b",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/research/reviews/95-pulsatrix-melanota-v11-review.md",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "5ba52b2989e9b3c07e9b2e8832b411bc08eea8da",
+      "bytes": 830,
+      "actual_bytes": 830,
+      "actual_blob": "5ba52b2989e9b3c07e9b2e8832b411bc08eea8da",
+      "sha256": "567e699e325e759c9a134545a4e38ad5946b17e92eb63bcab9661dee0e99358c",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/runs/20261128T0304Z-cycle3-20261128T0304Z-95-pulsatrix-melanota-v11.json",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "8f6259c2bd5dc8b11737707196ac9e1daeaa736f",
+      "bytes": 4181,
+      "actual_bytes": 4181,
+      "actual_blob": "8f6259c2bd5dc8b11737707196ac9e1daeaa736f",
+      "sha256": "13276e95f6e2b1bee2415e72b7215a8cb281f1223bde92d1c4d3645b65d0120a",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/runs/20261128T0304Z-cycle3-20261128T0304Z-95-pulsatrix-melanota-v11.json",
+      "ref": "531be4cf7f8468aeb53c76321b5105b1757159eb",
+      "historical": true,
+      "target": "95-pulsatrix-melanota-v11",
+      "actual_bytes": 4121,
+      "actual_blob": "2f2fa7d324e9ca4ce9312cc0e8dcfa5d6d8de98f",
+      "sha256": "26e6906773b0fa93ad7e22ffd018ff4c95a6a292fc1448f7b6dc57e90db9d2f5",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/originals/137-otus-alfredi-v10.png",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "f52409df63229ff93430f9f204cd537d130901be",
+      "bytes": 2528716,
+      "sha256": "d32e03780690c1be818d02b417f7ee25aeeecad319042296e455076ce054df4b",
+      "actual_bytes": 2528716,
+      "actual_blob": "f52409df63229ff93430f9f204cd537d130901be",
+      "PASS": true,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/design/concepts/137-otus-alfredi-v10.png",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "f52409df63229ff93430f9f204cd537d130901be",
+      "bytes": 2528716,
+      "sha256": "d32e03780690c1be818d02b417f7ee25aeeecad319042296e455076ce054df4b",
+      "actual_bytes": 2528716,
+      "actual_blob": "f52409df63229ff93430f9f204cd537d130901be",
+      "PASS": true,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/research/species/137-otus-alfredi-v10.md",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "93b1aa9ab40ed21a6df8ed8010ab0293cf9d1ed4",
+      "bytes": 1726,
+      "actual_bytes": 1726,
+      "actual_blob": "93b1aa9ab40ed21a6df8ed8010ab0293cf9d1ed4",
+      "sha256": "5810489257826b7e8cf0a2af75c2434364c546d14e5aad208be61c9dbf022122",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/research/reviews/137-otus-alfredi-v10-review.md",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "00315d1644b0c1325e2d563c5140f36bb884affa",
+      "bytes": 875,
+      "actual_bytes": 875,
+      "actual_blob": "00315d1644b0c1325e2d563c5140f36bb884affa",
+      "sha256": "a5855794892dd82917aa2cac4e4785d8cfafa0f3df0d2971e94903c37ca5c015",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/runs/20261128T0304Z-cycle4-20261128T0304Z-137-otus-alfredi-v10.json",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "16f9aa3eb25503dda3d2a1e308c497c91defdd6f",
+      "bytes": 4702,
+      "actual_bytes": 4702,
+      "actual_blob": "16f9aa3eb25503dda3d2a1e308c497c91defdd6f",
+      "sha256": "86215ea11b4f4aa3db3b4e9c56297c6612e06d0dab69e3937cf451ac45b96ba8",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/runs/20261128T0304Z-cycle4-20261128T0304Z-137-otus-alfredi-v10.json",
+      "ref": "42f95654beec5b56a3bfefe88b201b4b4dfb3e1d",
+      "historical": true,
+      "target": "137-otus-alfredi-v10",
+      "actual_bytes": 4642,
+      "actual_blob": "12df916b6b4089824895c0fb4764506c6e3f9715",
+      "sha256": "d0fc638c520c207810134ffb6026815c594d9c2ea1ec91cb8ab7363b0ad82836",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/BATCH_STATE.json",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "e5fd7f2a36d78b31d997bb3f3df4160fcb3f7a71",
+      "bytes": 4043780,
+      "actual_bytes": 4043780,
+      "actual_blob": "e5fd7f2a36d78b31d997bb3f3df4160fcb3f7a71",
+      "sha256": "aff8645e99365359b1787a75a5ae02f0a1abbf2a958689c3b8a685bdb1e64769",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/design/manifest.json",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "abf8908fea0960c16d064f068694cd3283c39b24",
+      "bytes": 2325248,
+      "actual_bytes": 2325248,
+      "actual_blob": "abf8908fea0960c16d064f068694cd3283c39b24",
+      "sha256": "cdb180176327c27373ea688a52a3f2fcbcfb1d658ffb3aedc9c51b7456b305ec",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/research/SOURCE_INDEX.md",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "7b23761a26bbfa906c4094de5197ed083564ffc3",
+      "bytes": 1417451,
+      "actual_bytes": 1417451,
+      "actual_blob": "7b23761a26bbfa906c4094de5197ed083564ffc3",
+      "sha256": "fd0a3b919222e7a4ab7edda93776530839eca47fc6d49f727654d05337c8b6d8",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/WORKFLOW_LESSONS.md",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "eef14ac6041249cb65fdaed29e1710f0b871dbd2",
+      "bytes": 204045,
+      "actual_bytes": 204045,
+      "actual_blob": "eef14ac6041249cb65fdaed29e1710f0b871dbd2",
+      "sha256": "a098e5e1d1203b99218e60b4e77721dd37d7874dd386d452646e43306c792bf0",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/STATUS.md",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "183fc1df97d6e495485827e0160cdb126853f6ba",
+      "bytes": 557284,
+      "actual_bytes": 557284,
+      "actual_blob": "183fc1df97d6e495485827e0160cdb126853f6ba",
+      "sha256": "909d3d17a286bfe998ffd9119123549a15115aa54b72962a63cd1526ac45625e",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/batches/20261128T0304Z-six-cycle-review.md",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "d06150d4703d21926e067d6fb1349acf7b76da30",
+      "bytes": 6788,
+      "actual_bytes": 6788,
+      "actual_blob": "d06150d4703d21926e067d6fb1349acf7b76da30",
+      "sha256": "41606a080a0f1f2ebb037afddd80d6d16fc6b11ca426678d28c972e6a883084a",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/production/batches/20261128T0304Z-audit.json",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "1c0254d7e309011f0438e09592a26ea57b56b59f",
+      "bytes": 39646,
+      "actual_bytes": 39646,
+      "actual_blob": "1c0254d7e309011f0438e09592a26ea57b56b59f",
+      "sha256": "e04062c0569ac00841fb06a934ad31f8d5c4fc605a648e0d8cba542d1967d18b",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/research/gaps/20261128T0304Z-frontier-and-id-correction.md",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "c3cc9bd37c148b4297019dc6c602861c088f57ff",
+      "bytes": 1537,
+      "actual_bytes": 1537,
+      "actual_blob": "c3cc9bd37c148b4297019dc6c602861c088f57ff",
+      "sha256": "9e8c40f09d14573482a7ed6d7663937ed5bc33e5363fa9a7b679dbd22504851b",
+      "PASS": true
+    },
+    {
+      "path": "owl-pet/design/originals/25-glaucidium-brasilianum-cactorum-v6.png",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "10508841ef5f6184e8658664615302909765c1dd",
+      "bytes": 2864437,
+      "actual_bytes": 2864437,
+      "actual_blob": "10508841ef5f6184e8658664615302909765c1dd",
+      "sha256": "729c187af12da587305c0c701c07440464896f5a6ada74431dfa3e7b19616ca1",
+      "PASS": true,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/design/concepts/25-glaucidium-brasilianum-cactorum-v6.png",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "10508841ef5f6184e8658664615302909765c1dd",
+      "bytes": 2864437,
+      "actual_bytes": 2864437,
+      "actual_blob": "10508841ef5f6184e8658664615302909765c1dd",
+      "sha256": "729c187af12da587305c0c701c07440464896f5a6ada74431dfa3e7b19616ca1",
+      "PASS": true,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/production/intermediates/20261128T0304Z-108-otus-rutilus-v16-first-attempt.png",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "cc52b995c7768ecd259c5623050b75976b840721",
+      "bytes": 2587411,
+      "actual_bytes": 2587411,
+      "actual_blob": "cc52b995c7768ecd259c5623050b75976b840721",
+      "sha256": "330e610679abd7b384f3ba83176266a57aebb4fefa1f9581e38ea1c7762263a1",
+      "PASS": true,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/production/intermediates/20261128T0304Z-130-megascops-koepckeae-v22-first-attempt.png",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "1c8f734a67ea49e7dbb473a8d0ce1dcc0579cfc9",
+      "bytes": 2434922,
+      "actual_bytes": 2434922,
+      "actual_blob": "1c8f734a67ea49e7dbb473a8d0ce1dcc0579cfc9",
+      "sha256": "265db38fbba82d37afb4298c97973ae62f5ceeca35ea79145d374f4e1ae71cfd",
+      "PASS": true,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "owl-pet/production/intermediates/20261128T0304Z-137-otus-alfredi-v10-first-attempt.png",
+      "ref": "975beaa1338ae67239bf72330bb319a33e97e413",
+      "blob": "dae3612d87dff12403649016c378a420f529cb5d",
+      "bytes": 2544844,
+      "actual_bytes": 2544844,
+      "actual_blob": "dae3612d87dff12403649016c378a420f529cb5d",
+      "sha256": "70661970dd0c2eb2f4904186e396f1eaa2497666efcd3ca73a0af15e5c060e96",
+      "PASS": true,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ],
+  "baseline1454_numbered_blobs_unchanged": true,
+  "numbered_versions": 1460,
+  "unique_species": 207,
+  "total": 251,
+  "completed_this_invocation": 6,
+  "current_batch_completed": 4,
+  "next_cycle": 5,
+  "other_partial_batches": 0
+}

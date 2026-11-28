@@ -9486,3 +9486,8 @@ WHSO-MIKKOLA-2013, BUO-JOHNSON-AGING-2019, BUOW-SDZ-2017, BUOW-SMITHSONIAN-2012 
 ## 20261128T1330Z 130-megascops-koepckeae-v27
 复用KOEP-ALARCON-2023，Ibeth P Alarcón et al2023, Reproductive events of birds from Southern Ecuador, Neotropical Biodiversity9:93–114 DOI10.1080/23766808.2023.2237229, https://biologia.uazuay.edu.ec/sites/biologia.uazuay.edu.ec/files/public/ReproductiveeventsofbirdsfromSouthernEcuador.pdf ;2026-11-28重新外部检索并实际读本地原PDF printed104/PDF13、Fig1c/PDF4照片。2019-04-23 Loja2131m,亲鸟依赖幼鸟灰白细横斑/棕胸/黑面缘白眉黄眼,Podocarpus3–4m枝；没有日龄性别首飞。复用KOEP-MIK2013-222=同Mikkola2013图鉴 printed222/PDF224，本轮实际原页读取/看成人照片，成人短簇/蓝绿角喙/灰褐趾黑角爪，无性差数据；旧Otus→Megascops对应保留；不据幼鸟Loja地点强指定hockingi。v26实际已查看且幼鸟反复U羽层未解决。本轮不输入旧生成图，仅独立野外照片+图鉴重建，检验错误纹理继承。巢/精确发育仍未知，艺术尺度不等于测量。新源0复用2，先前开始记录保留、过期lease接续不重复计轮。
 [Research/prompt](species/130-megascops-koepckeae-v27.md) · [Review](reviews/130-megascops-koepckeae-v27-review.md)
+
+
+## 20261128T1330Z 09-athene-cunicularia-v6
+复用BUO-JOHNSON-AGING-2019：DavidHJohnson etal,2019-11-17 Aging Key for Juvenile Burrowing Owls, BC ConservationSociety/GlobalOwlProject, unpublished34pp, https://burrowingowlalliance.ca/wp-content/uploads/2025/08/Johnson-et-al.-2019.-Aging-Key-for-Juvenile-Burrowing-Owls-Athene-cunicularia.pdf 。本轮外检、机构原PDF新下载，实际读p1摘要/生长差异限制及p13四张knownage13–14日照片；有个体营养差异，不能以体重或体长单一断龄。实际照片显示斑驳棕色新羽/羽管与稀疏灰buff绒并存，并非均匀奶油白圆球。因此纠正v4/v5提示中过度统一白绒倾向：新图按具体照片重建，年龄仍不作标定。复用BUOW-KLUTE-ETAL-2003-P6及WHSO-MIKKOLA-2013 printed424/PDF426本轮实际读，成人稀疏长跗羽/橄榄灰趾，图鉴female较大与西部FWS无逆体差冲突保留，近等尺度非实测。图鉴成人照片grallaria不套hypugaea。本轮直接参考knownage照片无旧图target，保持v1确认范围历史不扩张；新源0复用3，证据解读更正1。巢内初生/确切虹膜/动作时序未凭照片猜测，早期出洞支撑沿用已索引SDZ阶段，不新增科学通过。
+[Research/prompt](species/09-athene-cunicularia-v6.md) · [Review](reviews/09-athene-cunicularia-v6-review.md)

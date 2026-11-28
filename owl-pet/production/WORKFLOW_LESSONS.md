@@ -1127,3 +1127,7 @@ Actualoutputviewed: adultcreamybrowarcsreduced to shortsubduedbuffmarks, tawnyfa
 
 ## 20261128T0533Z 108-otus-rutilus-v19
 First and secondactualoutputsviewed: finerbodyfilaments aftersecondedit, but repeatedoutlinedloops stillremain onneck/belly. NEEDS_REVISION, notvalidatedvolumetricbarbmethod. Photoactualsource muchfiner mottledfeatherplane. Adults/eye/bill/stage/silhouette/threequarterpose/feetgrip/forest/labels preserved visually; no matureflightfeathers or newnest. Unknownage/flight retained. Negative rule: changing surfaceprimitive words did not remove learned leafunits; do not repeat as proven improvement;108/130/112 unresolved.
+
+
+## 20261128T0533Z 130-megascops-koepckeae-v25
+Firstactualfacepolygonoutlinesfailed. Secondactualview finegray-white radiatingfacialfeathers withdarkflecks, cracked-whiteunitsremoved, blackruff/eyes/bill/crown/body/youngbrownchest/barrednessoptiles unchanged. LocaladultfacePWL only; featherfilaments stillstylized notexactfacialpattern. Juvenileleafgeometryunresolved, agesexflightunknown. ExactreuseIDcorrection KOEP-FJELDSA-2012-P180-191, same2012source notnewentry; holotypeadult/hockingi lowerbellynottransferred. Finefaceprimitivechange locallyhelpedadult, didNOTvalidate108juvenilemethod.

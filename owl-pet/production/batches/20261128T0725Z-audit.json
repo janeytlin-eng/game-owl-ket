@@ -1,0 +1,512 @@
+{
+  "run_id": "20261128T0725Z",
+  "baseline": "0601e0bdc39eda8c8369f88100ccd92e9d0848cb",
+  "started_at": "2026-11-28T07:27:08.611Z",
+  "ended_at": "2026-11-28T07:47:09.951Z",
+  "status": "PARTIAL",
+  "completed_this_invocation": 6,
+  "new_species": 0,
+  "revisions": 6,
+  "canonical_species": 207,
+  "total_species": 251,
+  "initial_versions": 1484,
+  "final_versions": 1490,
+  "new_sources": 1,
+  "new_sources_scope": "historical museum catalog metadata only; not developmental morphology",
+  "reused_ids": 14,
+  "citations": 15,
+  "deduplicated_works": 10,
+  "corrected_source_records": 1,
+  "results": [
+    {
+      "run_id": "20261128T0725Z-206-glaucidium-castanopterum-v11",
+      "batch_id": "20261128T0628Z",
+      "cycle": 5,
+      "target": "206-glaucidium-castanopterum-v11",
+      "action": "REVISION",
+      "started_at": "2026-11-28T07:27:08.611Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T07:27:08.660Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T07:27:42.475Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T07:28:55.968Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T07:29:13.114Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T07:30:21.417Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T07:30:26.848Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T07:30:31.013Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T07:30:54.639Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0628Z-cycle5-20261128T0725Z-206-glaucidium-castanopterum-v11.json",
+      "stage": "VERIFIED",
+      "research": "Access2026-11-28. Reuse GCAS-MIKKOLA-2013-P407 actual uploaded Mikkola2013 printed407/PDF409 read: fine dark/pale head crossbarring, no tufts, yellowiris/green-yellow bill/olivecere, chestnut upperparts/white scapular webs, feathered tarsi and sparsely bristled olive-yellow toes, darkhornclaws/blacktips. No sex-sizedata. Downy chick whitish is distinct from dull adult-like fledgling; juvenile age/iris/bill remain unverified. Reuse GCAS-VERONESI-2016-29030338883, FrancescoVeronesi14Aug2016 CaritaJava, original https://flickr.com/photos/30818542@N04/29030338883 and Commons mirror https://commons.wikimedia.org/wiki/File:Javan_Owlet_-_Carita_-_Java_MG_3575_(29030338883).jpg actual external metadata/body reread and same749x1092source photograph actually viewed. Fine short crosslines on close-fitting crown, not connected polygon-net. Photo flash prevents exactRGB; no young/sex inference. Old Taenioglaux castanoptera/Strix castanoptera maps G.castanopterum, not G.castanotum. v10 still net-like after two prompts; new experiment uses photograph as auxiliary morphological reference, full stylized plate as edit target. Not a new source/mirror count or whole science approval. New0/reuse2. Habitat dense lowland rainforest/bamboo, branch support retained, no inferred nest.",
+      "full_prompt": "Use case precise-object-edit. Input1 EDIT TARGET: #206 Javan Owlet v10 three-bird stylized pet plate. Input2 AUXILIARY MORPHOLOGY reference: live Javan Owlet photo, use only qualitative small crown barring, do not copy entire photo/style/pose. Change ONLY BOTH ADULTS' crown/forehead feather pattern in target. Remove the closed connected polygonal mesh and embossed tan outlines. Render dark brown close-fitting soft tiny feathers with many thin short pale buff nearly-horizontal crossbars, irregular broken delicate lines that DO NOT enclose cells, no net, scales, braids, brick tracks. Closely observe input2 fine crossbarring at this location. Keep target's rounded3Dpet style, exact adult head outline/eyes/bill/cheeks, all bodies/feet/sparse toe bristles/claws/branch contacts, entire right juvenile, landscape and labels. Title v10 becomes v11. Juvenile iris/bill unverified, sex size unknown, scientific calibration pending captions retained. Do not repaint adult throat/body or borrow adult pattern onto young.",
+      "source_ids": [
+        "GCAS-MIKKOLA-2013-P407",
+        "GCAS-VERONESI-2016-29030338883"
+      ],
+      "new_sources": 0,
+      "first_attempt_metadata": {
+        "bytes": 2502913,
+        "sha256": "9b68bda77efce4e9bc81b7f48dfa6389d7af76b0e7874fdc10db972b20b8d3af",
+        "gitblob": "95ce45425c1b3729132098b3cea73c88b753622e",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "first_review": "Actually viewed first v11: auxiliary photograph did not remove crown mesh. Existing interconnected outlines persist. Negative result, needs targeted stronger repaint.",
+      "followup_prompt": "In this v11 Javan Owlet plate, repaint ONLY adult crown forehead background. The bright interlinked polygon outlines are wrong. Erase the whole mesh first. The adult crown should be predominantly dark chocolate brown, with faint sparse very short thin sandy cross-dashes, tiny marks about 3 to 6 pixels long scattered in loosely horizontal irregular rows, separated by clear dark gaps; NO long connected lines or closed polygons anywhere. Very low relief and low contrast, matte tiny feather surface. Considerably subtler than current bright tan network. Keep head silhouettes/faces/body/young/footer/background untouched. This is a local scientific-pattern correction, not a new layout.",
+      "image_metadata": {
+        "bytes": 2471885,
+        "sha256": "283b565abe52a05798abf2b41e48c0675a1999321eb02d7cf48d545adc95d2d7",
+        "gitblob": "904c7f21a8b8c7b7b0117b2c1eb4d5fcfc5530b2",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-47097d2e-dca7-4277-a99b-2ea567fde823.png",
+      "imagegen_wait_seconds": 35.198,
+      "editing_wait_seconds": 32.916,
+      "review_result": "NEEDS_REVISION",
+      "review": "Actual v10/firstv11/editedv11 plus live Veronesi photograph viewed: first auxiliary-reference edit did not remove connected mesh. Stronger second edit dims lines substantially but crowns now overly dark/uniform, fine connected polygon outlines remain rather than natural fine crossbarring. NEEDS_REVISION, experiment not successful or generalizable. Keep failure history and next repair should address crown field not merely dim contrast. Adult head shape/eyes/green-yellow bill/olivecere/white cheeks, chestnut shoulders/white central belly, sparse toe bristles and claw grips retained. Whole right age-unknown fledgling unchanged; exact youngiris/bill/flight not inferred, no nest. Same three-bird composition/roles/sciencepending labels, sex-size unknown near-equal display not measurements. No scientific/user approval. Did not transfer failed crown method to other species; followup queue stays open.",
+      "reviewed_at": "2026-11-28T07:30:26.833Z",
+      "archived_at": "2026-11-28T07:30:30.995Z",
+      "archive_commit": "bfe054971eea8e49f3b66c580aaf3521558cfd1b",
+      "ended_at": "2026-11-28T07:30:54.613Z",
+      "verification_exit_code": 0,
+      "commit_sha": "adea8bd65964f644b4ff9dd6f6e40ac847449659",
+      "credit_commit": "5db56c3b4ce2c1e6d0c065f54590c37f01b3903f"
+    },
+    {
+      "run_id": "20261128T0725Z-211-megascops-roboratus-v4",
+      "batch_id": "20261128T0628Z",
+      "cycle": 6,
+      "target": "211-megascops-roboratus-v4",
+      "action": "REVISION",
+      "started_at": "2026-11-28T07:31:03.714Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T07:31:03.773Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T07:31:27.910Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T07:32:51.696Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T07:32:57.651Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T07:33:02.088Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T07:33:24.205Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0628Z-cycle6-20261128T0725Z-211-megascops-roboratus-v4.json",
+      "stage": "VERIFIED",
+      "research": "Access2026-11-28. Reuse MROB-MIKKOLA-2013-P224 uploaded HeimoMikkola2013 printed224–225/PDF226–227 actually reread: adult short tufts/grayolive bill+cere/yellow-to-goldeniris/darkruff/white crown fringe/tarsifeathered to brown toe bases/darkhornclaws; female said slightlylarger without linearscale. Mesoptile crown NOT prominently marked, densely barred below, paleolive-yellow eyes. Nominate concept only; book monotypy outdated versus current two-subspecies records. Reuse MROB-OWLPAGES-2020 DeaneLewis2020-10-24 https://www.owlpages.com/owls/species.php?s=940 actual external original body read supports shorttufts/distribution/1918description, not juvenile crown. Initial guessed s1250 URL excluded; no content from unrelated taxon used. Targeted websearch roboratus juvenile/mesoptile did not find a newly read primary development study; choliba/other taxa hits excluded, bibliography notjuvenileproof. Actualv3 central juvenile forehead/cap has numerous bright raised pale leaf/shaft motifs, competing with understated cap described by guide; revise only cap pigment contrast and simplify decorative highlights, notstageanatomy. Keep denseunderbodybars/paleoliveyellowiris/shortsoftwings and belly+feet root support. New0/reuse2; exactage/flight/tuftontogeny/subspeciespatterns beyondnominate unknown. Old Otus roboratus maps Megascops roboratus.",
+      "full_prompt": "Use case precise-object-edit. Edit #211 Peruvian Screech Owl v3 trio, RIGHT JUVENILE CROWN/FOREHEAD ONLY. Reduce conspicuous bright white pointed shaft streaks/leaf-shaped highlights on juvenile top of head to a subdued almost plain pale grey-brown soft mesoptile cap with only faint fine mottling; keep down soft irregular texture, not scaly leaves, not a new adult-like patterned cap. No invented dense dark crown bars. Preserve juvenile eye color/paleoliveyellow, face/bill, shortsoftfoldedwings, dense fine ventral barring, seated body/feet root support and head direction. BOTH ADULTS unchanged especially fine feathered tarsi to toe bases, bare brown toes and darkhornclaws, white crown fringe and shoulderrow. Exact layout/background/roles/captions unchanged except title add v4. AGE/FLIGHT UNVERIFIED and CONCEPT SCIENTIFIC CALIBRATION PENDING remain. Nominate bounded concept, no new juvenile age or flight claim.",
+      "source_ids": [
+        "MROB-MIKKOLA-2013-P224",
+        "MROB-OWLPAGES-2020"
+      ],
+      "new_sources": 0,
+      "image_metadata": {
+        "bytes": 2948445,
+        "sha256": "c35df9cffcf5f789dbf2a378bdc6e5079dbbd273e1b060ad52ca996cf67edfa8",
+        "gitblob": "7ab3773bbb414b0189e4f1c71572ee8f776f1250",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-40f273f3-c0e9-48fd-8ccb-b0697911cf79.png",
+      "imagegen_wait_seconds": 36.392,
+      "editing_wait_seconds": 0,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "review": "Actually viewed v3 andv4 whole images. Juvenile top cap highlights reduced to muted pale grey-brown rather than bright pale shaft/leaf motifs; small forehead crest-like wisps remain part of stylized material. Local qualitative pigment PWL only, not resolved feather microstructure or biological tuft chronology. Dense fine lower-body bars/paleoliveyellowiris/shortsoftwing and belly+feet root support preserved, no adultlongprimary replacement/neonatal conversion. Adults white crown fringe/golden eyes/grayolivebill, feathered tarsi to barebrown toe bases/darkhornclaws and original branch grips retained. Three roles and age/flight-unverified footer/titlev4 readable. Guide supports lessmarked crown, external species page no juvenile facts. Exactdayage/flight/current subspecies phenotype beyondnominate unknown. Lesson actual application effective for cap contrast but not validating general texture cleanup; do not transfer to heavily barred young of Otus balli.",
+      "reviewed_at": "2026-11-28T07:32:57.633Z",
+      "archived_at": "2026-11-28T07:33:02.070Z",
+      "archive_commit": "814f522e467beb13a7972d037b3d8a8fd200d7f5",
+      "ended_at": "2026-11-28T07:33:24.178Z",
+      "verification_exit_code": 0,
+      "commit_sha": "b46ea5a9edc68a77548f8eedcc9f7ade6c056807",
+      "credit_commit": "0e72c412c45c98b96275e196b74d26d26e467a57"
+    },
+    {
+      "run_id": "20261128T0725Z-222-ninox-sumbaensis-v4",
+      "batch_id": "20261128T0725Z",
+      "cycle": 1,
+      "target": "222-ninox-sumbaensis-v4",
+      "action": "REVISION",
+      "started_at": "2026-11-28T07:33:54.172Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T07:33:54.215Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T07:34:42.100Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T07:35:58.728Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T07:36:03.339Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T07:36:08.222Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T07:36:25.555Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0725Z-cycle1-20261128T0725Z-222-ninox-sumbaensis-v4.json",
+      "stage": "VERIFIED",
+      "research": "Access2026-11-28. Reuse NSUM-MIKKOLA-2013-P493 HeimoMikkola uploaded printed493/PDF495 actually reread: grayish-yellow bristled toes/yellowish claws with gray-black tips, feathered tarsi; no sexmeasurements, young palerreddish/noVchevrons. Reuse NSUM-OLSEN-2002-P225-230 JerryOlsen/MichaelWink/HeidiSauer-Gurth/SusanTrost2002 Emu102:223–231 DOI10.1071/MU02006 original https://www.biologicaldiversity.org/campaigns/global_owl_project/descriptions/Ninox/Ninox%20sumbaensis%20%28Olsen%2C%20Wink%2C%20Sauer-Gurth%20%26%20Trost%29%202002%2C%20Emu%2C%20102%2C%20pages%20223-231..pdf actual published PDF description printed225/PDF4 and continuation229/PDF8 read: adult/adultlike specimen yellowfeet/yellowclaws darktips, fronttarsusfeathered/bristledtoes/backtarsusbare; no sexdimorphism from one unknown-sex type. 2001 fledgedyoung lighterrufous/no ventralchevrons. Reuse NSUM-OLSEN-TROST-MYERS-2009-P10-11 Owls ontheIslandofSumba AFO26:2–14 https://afo.birdlife.org.au/afo/index.php/afo/article/viewFile/505/489 actual webPDFbody pp10–11 read: Dec24,2001young watched torch-lit insects/headwinding/begging, family independent movement; hunting event explicitlyadult notyoung. Local PDFdownload403, actualwebbody accessible, no false full localPDFclaim. Old/current Ninoxsumbaensis same2002name, notrudolfi whose nearby sex-sizeparagraph excluded. Actualv3 pink adult bare toe skin conflicts yellow-range evidence; recolor muted gray-yellow, keep yellowhornclaw/darktips and young feet unchanged. Guidegrayyellow vsprimaryyellow descriptive nuance notexactRGB; no sexheight orjuvenileageirisbill/flightthreshold inferred. New0/reuse3, adultbareparts only.",
+      "full_prompt": "Use case precise-object-edit. #222 Least Boobook Ninox sumbaensis v3 trio. ONLY BOTH ADULTS' bare toe and exposed ankle SKIN: replace rosy pink/skin-flesh blush with muted grayish-yellow/ochre-yellow scaled bird skin, low saturation, not pink. Keep a few sparse short bristles on toe upper sides, not fullfeathered mittens. Existing yellowish horn claws with grayblacktips unchanged; same exact toe counts/geometry/twofeetbranchgrips, tarsal feathers unchanged. Entire right reddish fledgedyoung and its feet/plumage/insectwatching head direction unchanged; do not borrow adultfeet ontoyoung. Adult heads/eyes/bill/chevronunderparts/near-equalsize and forest/title/roles/footer preserved, add v4 to title. No sexratio or preciseage/flightclaim, concept/sciencepending retained.",
+      "source_ids": [
+        "NSUM-MIKKOLA-2013-P493",
+        "NSUM-OLSEN-2002-P225-230",
+        "NSUM-OLSEN-TROST-MYERS-2009-P10-11"
+      ],
+      "new_sources": 0,
+      "image_metadata": {
+        "bytes": 2568853,
+        "sha256": "a7d55e08865546978afaf80a42070b791958ea7f817b166dd942260f0ffe6e12",
+        "gitblob": "0ae6c3871d351c3a3eb6ebc052334777f46ccd44",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-6a4238e0-f5d9-495f-af30-9a9417bdef0b.png",
+      "imagegen_wait_seconds": 37.723,
+      "editing_wait_seconds": 0,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "review": "Actual wholev3/v4 comparison: adult exposed scaled skin now muted ochre/gray-yellow, conspicuous rose blush removed; yellowhornclaws/darktips and branchgrip retained. Local skin hue PWL, not absolute calibration; scale outlines became more conspicuous and somewhat decorative, bristle density not quantified. Not fullfeathered toes. Young feet/body/compactformedwing/plainrufousventrum/headwinding-inspired supported pose unchanged, no newborn/flight/hunting claim. Adultwhitebrows/yellowiris/finechevronunderparts/near-equal display retained; sex-sizedata absent. Primary adultlike type and guide agree yellowrange versuspink, descriptive grayyellow/yellow nuance retained; bill/tail conflicts not adjudicated thiscycle. Lesson actually effective locally: mask bare-skin hue without recoloring claws/young; do not infer sexsize from N.rudolfi adjacent paragraph. Sciencefalse; youngiris/bill/age/flight/nest unknown.",
+      "reviewed_at": "2026-11-28T07:36:03.323Z",
+      "archived_at": "2026-11-28T07:36:08.204Z",
+      "archive_commit": "88f593bb2659eadaba5531580630f7ffd0007ced",
+      "ended_at": "2026-11-28T07:36:25.531Z",
+      "verification_exit_code": 0,
+      "commit_sha": "9c39db0b7d2f1c5120a8b9f86c089f99ffca8394",
+      "credit_commit": "18eefb215136d6b14203a9ca0758f8740adaab8f"
+    },
+    {
+      "run_id": "20261128T0725Z-212-megascops-seductus-v4",
+      "batch_id": "20261128T0725Z",
+      "cycle": 2,
+      "target": "212-megascops-seductus-v4",
+      "action": "REVISION",
+      "started_at": "2026-11-28T07:36:35.071Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T07:36:35.123Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T07:36:59.089Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T07:37:42.038Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T07:39:09.219Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T07:39:13.861Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T07:39:18.225Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T07:39:40.257Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0725Z-cycle2-20261128T0725Z-212-megascops-seductus-v4.json",
+      "stage": "VERIFIED",
+      "research": "Access2026-11-28. Reuse MSED-MIKKOLA-2013-P216 HeimoMikkola uploaded printed216/PDF218 actualcompletepage read: adult grey-green bill+cere, tobacco/goldenbrowniris, gray-brown toes below feathered-to-base tarsi/hornclaws, two pale upperwingbands; females averageupto15g heavier notlinearheight. Youngundescribed in guide. Reuse MSED-RAMIREZ-JIMENEZ-2018 DavidRamirez-Adame/CesarD.Jimenez-Piedragil2018 First nesting record Balsas Screech Owl DOI10.28947/hrmo.2018.19.1.313 https://mexorn.org/index.php/huitzil/article/view/313 ; actualexternal full SciELO original body https://www.scielo.org.mx/scielo.php?pid=S1870-74592018000100109&script=sci_arttext_plus read now, Figure3b/d pp111–112: estimatedtwoweekmesoptile2015 vsapproxoneweekdown2016, PVC drainagecavity/stonewall atXochicalco/no addednestlining. These separate ages notinterchangeable; sexparentroles hypothesis notproof. Current youngapprox2week shortbarredwing/PVCfloor retained; noadulttoe extrapolation. Actualv3 adulttoe skin pinkish; correct towardmutedgraybrown perguide without altering hornclaw/grip/young. Old Otus/vinaceusseductus maps Megascopsseductus. New0/reuse2. Absolute footRGB/juvenile chronology/nest-generalization/sexheight unknown; colorcorrectionnotwhole sciencepass.\nAccess correction before generation: direct SciELO fullHTML andPDF opens timed out, so the preceding 'actual SciELO body read now' statement was premature. Publisher abstract https://mexorn.org/index.php/huitzil/article/view/313 and its linked original PDF https://mexorn.org/index.php/huitzil/article/download/313/273 now actually read pp111–112 Results/young/cavity/Fig3b,d. Those ORIGINAL paragraphs support the retained facts above. Publisher online date2017-12-15 vs volume19(1)2018: preserve sourceID MSED-RAMIREZ-JIMENEZ-2018, distinguish online publication from issueyear. This is an access-scope correction and bibliographic-year clarification, not a new source or new juvenile stage. Correction committed before generating.",
+      "full_prompt": "Use case precise-object-edit. Edit #212 Balsas Screech Owl v3 trio ONLY BOTH ADULTS' bare toe and very small ankle SKIN: reduce rosy pink flesh tint, use muted grayish-brown taupe scaled skin. Existing horn claws, exact scales/toe geometry/grip, feathered tarsi reaching toe bases preserved. Not yellow feet, not feathered toe socks. Entire right approximate2week mesoptile including its feet/wing/eyes/bill/barredbody/PVCfloorcontact unchanged; adult skin evidence must not be imposed on young. Preserve both adultheads/graygreenbill/tobaccoeyes/pinkwineplumage/two whitishwingbands/relative sizes, all cavity/background local-case captions and sciencependingfooter. Add v4 to title. Local adultskincolor only, no exactRGB/age/sexratio/nestgeneralization claims.",
+      "source_ids": [
+        "MSED-MIKKOLA-2013-P216",
+        "MSED-RAMIREZ-JIMENEZ-2018"
+      ],
+      "new_sources": 0,
+      "access_correction": "\nAccess correction before generation: direct SciELO fullHTML andPDF opens timed out, so the preceding 'actual SciELO body read now' statement was premature. Publisher abstract https://mexorn.org/index.php/huitzil/article/view/313 and its linked original PDF https://mexorn.org/index.php/huitzil/article/download/313/273 now actually read pp111–112 Results/young/cavity/Fig3b,d. Those ORIGINAL paragraphs support the retained facts above. Publisher online date2017-12-15 vs volume19(1)2018: preserve sourceID MSED-RAMIREZ-JIMENEZ-2018, distinguish online publication from issueyear. This is an access-scope correction and bibliographic-year clarification, not a new source or new juvenile stage. Correction committed before generating.",
+      "image_metadata": {
+        "bytes": 2796072,
+        "sha256": "48bb3a44130b999c26af27faddf367cd1f0b036244b5e8cf166d6d805c308077",
+        "gitblob": "2596692cb8feb2a11c03bd1c745a6dfac40e3a68",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-280ac3ab-9aae-48af-a91f-c7281784fce9.png",
+      "imagegen_wait_seconds": 39.429,
+      "editing_wait_seconds": 0,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "review": "Actual v3/v4 whole comparisons: adult bare toes less rose-tinted/more muted taupe-graybrown, with warm lighting still visible; local color-direction PWL, not absolute foot RGB calibration. Exact skin folds/toe counts/hornclaws and grips retained, tarsal feathers to toe bases maintained. Wine-pink adult body plumage intentionally NOT desaturated because species description supports that overlay. Entire juvenile/pale shortbarredwing/browniris/greybase-yellowtipbill/PVCfloorcontact unchanged; no addednestlining/flight pose/neonate substitution. Two whitishwing bands still readable. New source-access statement corrected and committed beforegeneration: SciELO timeout, actualpublisherPDFpp111–112 read; online2017-12-15 vsissue2018 clarified, stableIDretained. Sexmass15g notheight ratio. Lesson effective locally: separate skin from naturally pink body feathering, retain unknown colorcalibration. Whole sciencefalse; approximateageandlocalcavity cannotgeneralize.",
+      "reviewed_at": "2026-11-28T07:39:13.843Z",
+      "archived_at": "2026-11-28T07:39:18.208Z",
+      "archive_commit": "ee8aa63189b4afd6a3fa3bf7c3a313afa08cfda6",
+      "ended_at": "2026-11-28T07:39:40.227Z",
+      "verification_exit_code": 0,
+      "commit_sha": "a21bd875b66f7ba51560ea426e41630304b2b094",
+      "credit_commit": "b3f3d48250e89825e9b8631e14cc494f14e33982"
+    },
+    {
+      "run_id": "20261128T0725Z-214-otus-balli-v4",
+      "batch_id": "20261128T0725Z",
+      "cycle": 3,
+      "target": "214-otus-balli-v4",
+      "action": "REVISION",
+      "started_at": "2026-11-28T07:39:49.087Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T07:39:49.146Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T07:40:46.700Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T07:41:09.087Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T07:42:21.094Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T07:42:25.742Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T07:42:30.879Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T07:42:49.107Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0725Z-cycle3-20261128T0725Z-214-otus-balli-v4.json",
+      "stage": "VERIFIED",
+      "research": "Access2026-11-28 targetedspecieswebsearch + actual institutionmetadata read. Reuse OBAL-MIKKOLA-2013-P181 uploaded Mikkola2013 printed181/PDF183 actualpage read: adultbrown/rufousmorph, smalltufts/yelloweyes/yellowhornbill, mottledcrown/nape, mantle pale spots darktips, darkedgedpale scapularouterwebs, barredflight/tail; underbodywhitespotsblackarrowheadedloweredges/notlongshaftstreaks. Adult tarsuspartfeathered/distalthirdbare, dirtyyellowtoes/darktippedhornclaws; nosexsize data. Juvenilefineclosebarscrown/breast/coverts, exactageiris/bill/flightnotgiven. Reuse OBAL-ITIS-555366 original Nomenclature/Taxonomy actualexternalread currentO.balliofAndamanIslands, oldEphialtesballi; source taxonomyonly. Smithsonian https://library.si.edu/image-gallery/75302 actualmetadatap73–81 read Sharpe1891 imageSIL-39088006988810_0219 captionScopsBalli mapsO.ball i; no livephoto/youngsource. JoTT DOI10.11609/jott.7339.13.11.19500-19508 rediscovered alreadyindexed OBAL-SURESHMARIMUTHU-2021-JOTT7339, notnew; publisherretryandPDF403, notfreshfullstudyread and nojuvenilefactborrowed. Actualv3 adultsfront views obscuremantle; diagnostic3/4backdisplay is designvariation, NOTdiscovered biologicalerror orfemale-specificpattern. Retainnear-equalscale/unknownsexsize/juvenileand supports. Newvalidated0/reuse2freshsources, metadata museumlead notusedasmorphology; oldScops/Ephialtes→Otuscrosswalk retained.\nSource-count refinement before generation: new verified museum catalog metadata1 (OBAL-SI-SHARPE-1891-75302), not a morphological source; original illustration pixels not viewed. The earlier 'newvalidated0' refers to developmental/morphology sources.",
+      "full_prompt": "Use case precise-object-edit. #214 Andaman Scops Owl v3 trio. Change ONLY MIDDLE ADULT FEMALE display pose to gentle three-quarter BACK view on SAME branch. Keep body scale near equal to male, same two feet positions and firm toe/claw grips; natural neck head turned back left so a yellow eye/yellowhornbill and shorttufts visible. Show brown mantle with irregular black-tipped pale buff/white spots, pale dark-edged outer scapular webs and barred brown closed flightfeathers/tail. Match existing adult brown morph color, no invented female-specific plumage. No arbitrary dark shaft stripes on body underside. Existing partial tarsal feathering/narrow barelowerzone and dirtyyellowtoes/darktippedhornclaws retained, not newmeasurements. Left male frontview and entire right mesoptile unchanged includingclosebars/shortsoftwing/footcontacts/unknownageirisflight. Forest/layout/allcaptions preserved except add v4. Same stylized3Dpet look. This is diagnostic display variation, not new scientificapproval.",
+      "source_ids": [
+        "OBAL-MIKKOLA-2013-P181",
+        "OBAL-ITIS-555366",
+        "OBAL-SI-SHARPE-1891-75302"
+      ],
+      "new_sources": 1,
+      "image_metadata": {
+        "bytes": 2751015,
+        "sha256": "058766729add78615c5e49d03e3056732c98c127e4f3ccbbb01a7b1cec758b4b",
+        "gitblob": "63741bf52fa078827384597443aa81562a619f35",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-1ed7a6cf-b057-4178-b6cb-bfb8da118b0c.png",
+      "imagegen_wait_seconds": 31.004,
+      "editing_wait_seconds": 0,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "review": "Actual v3/v4 compared: middle adult now3/4back with head naturally turnedleft, yellow eye/yellowhornbill/shorttufts retained; mottled brown mantle/darkedgedpale shoulder patches and barred folded flightfeathers more inspectable. Tail mostly occluded, not claimed newly validated. Both feet firmly on samebranch, individual dirtyyellowtoes/darktippedhornclaws visible; scale preserved qualitatively but perspective cannot measure sexheight or distalbaretarsal fraction. Left male/whole right mesoptile remains, no neonate/age/flight validation or youngplain-cap rule transferred from #211. Small white/buff pattern geometry artistic; PWL design-display only, not discovered anatomy repair. Museum catalog metadata supports old-name search, NOT imagepixels/young biology. JoTT retries403 nofreshpaperbodyclaim. Lesson displayvariation can expose hidden diagnostic areas but does not prove exact feather map or female-specific appearance. Sciencefalse/sexsizeunknown and youngunverifiedfooter retained.",
+      "reviewed_at": "2026-11-28T07:42:25.725Z",
+      "archived_at": "2026-11-28T07:42:30.860Z",
+      "archive_commit": "1a9ed0d85ec4339ef1d2f60107fc3e2f79faea78",
+      "ended_at": "2026-11-28T07:42:49.080Z",
+      "verification_exit_code": 0,
+      "commit_sha": "449a9e443f91a1f0ba9c4a71990cfcb6c888dff4",
+      "credit_commit": "6eef476f97aa23abc7a9b1328bd6dd54e4862f31"
+    },
+    {
+      "run_id": "20261128T0725Z-210-athene-superciliaris-v4",
+      "batch_id": "20261128T0725Z",
+      "cycle": 4,
+      "target": "210-athene-superciliaris-v4",
+      "action": "REVISION",
+      "started_at": "2026-11-28T07:42:58.046Z",
+      "stages": [
+        {
+          "stage": "STARTED",
+          "at": "2026-11-28T07:42:58.106Z"
+        },
+        {
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-28T07:43:31.973Z"
+        },
+        {
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-28T07:44:47.387Z"
+        },
+        {
+          "stage": "REVIEWED",
+          "at": "2026-11-28T07:44:52.310Z"
+        },
+        {
+          "stage": "ARCHIVED",
+          "at": "2026-11-28T07:44:56.541Z"
+        },
+        {
+          "stage": "VERIFIED",
+          "at": "2026-11-28T07:45:32.797Z"
+        }
+      ],
+      "scientifically_verified": false,
+      "run_record": "owl-pet/production/runs/20261128T0725Z-cycle4-20261128T0725Z-210-athene-superciliaris-v4.json",
+      "stage": "VERIFIED",
+      "research": "Access2026-11-28 activewebsearch Athene/Ninox superciliaris bill andyoung; actual original body reads. Reuse ASUP-MIKKOLA-2013-P471 uploaded HeimoMikkola2013 printed471/PDF473 actualpage read: identification whitish-hornbill/paleyellowcere, samepagephoto captiongreenish-yellowbill. Darkbrown adultiris/whiteeyebrows/featheredtarsi/bareyellowwhitetoes/hornclaws; nosexmeasurements. Guidejuvenileundescribed. Reuse ASUP-BOUGLOUAN-WEB NicoleBouglouan undated https://www.oiseaux-birds.com/card-white-browed-hawk-owl.html actualDescription80–89/Reproduction104–110 read: hornbill/paleyellowbrowncere, olderjuvenilenarrowerunderbodybars/brownwhitebarredtail narrowwhitetips/primarytipwhitishfringe. Guide-derived not independent primarydevelopment; its barelegs/plainadulttail statements conflictguide and NOT applied. Reuse ASUP-MNHN-2010-265 MNHNParistypecatalog https://science.mnhn.fr/institution/mnhn/collection/zo/item/2010-265 actualspecimen/determination fieldsread: Strixsuperciliaris1817/Ninoxlabel/currentAthene; sexandageindeterminate/Madagascarbefore1818. Nophotopixelsread orsoftpart calibrationfromdriedspecimen. New0/reuse3. Actualv3 adultbillsyellowgreenwithin onecaption, sourcewordingvaries; do NOT declaregreenwrongorforcehornrepaint. Add 'ADULT BILL COLOUR UNCALIBRATED' and 'SEX SIZE UNKNOWN' toexpose unresolvedcolor/scale boundaries. Disclosureonly, notmorphologicalcorrection/sciencepass. Retainolderimmaturebody/formedwing/whitetips/footgrips, ageiris/billflightunknown; no newnestoractionproof. Sourcefactversusdesign explicit.",
+      "full_prompt": "Use case text-localization / annotation-only. Edit #210 White-browed Owl Athene superciliaris v3 trio. Preserve allthreebirds/plumage/anatomy/eye/billcolors, poses, scale, feet and branch grips, tails, woodland and existing roles/footer. Add v4 to main title. Add one clearly readable modest line beneath scientific name within top dark title panel: SEX SIZE UNKNOWN · ADULT BILL COLOUR UNCALIBRATED. Expand panel slightly downward only into empty header space if needed, don't cover any crown. Do NOT repaint adult bills: descriptions vary and exact color not calibrated. Keep existing lowerfooter CONCEPT · SCIENTIFIC CALIBRATION PENDING / OLDER JUVENILE: SECONDARY DESCRIPTION ONLY / JUVENILE AGE / IRIS / BILL / FLIGHT UNVERIFIED readable with all three rolelabels. No new phenotype/dimorphism/juvenileage/flight claim. Same established3Dpet plate look.",
+      "source_ids": [
+        "ASUP-MIKKOLA-2013-P471",
+        "ASUP-BOUGLOUAN-WEB",
+        "ASUP-MNHN-2010-265"
+      ],
+      "new_sources": 0,
+      "image_metadata": {
+        "bytes": 2684019,
+        "sha256": "00e0dfdee79fa78dc1c75f9882af5ab3f779946f371f3f676bdb50e735d3fc42",
+        "gitblob": "9b3fffa48de1d580922843bbb8a92318a4c3c1a8",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-43e203e8-0db1-4e89-a63a-2361441bb91e.png",
+      "imagegen_wait_seconds": 35.306,
+      "editing_wait_seconds": 0,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "review": "Actually compared v3/v4 whole: titlev4 and top SEX SIZE UNKNOWN / ADULT BILL COLOUR UNCALIBRATED readable, no crown obscured; lower existing sciencepending/secondary-only youngdescription/youngageiris billflightunverifiedfooter preserved. No anatomical recolor claimed. Three birds/allwhitebrows/darkbrown eyes/creamcentralbelly/brownupperbodybars/near-equaladultdisplay and alltoegrips/olderyoungshortformedwing/tailwhitetips retained qualitatively. Descriptive whitishhorn versusgreenishyellow not resolved by sourcevote; preserved original color with limitation. Museum holotype age/sex indeterminate cannot adjudicate juvenile or sexratio, no liveRGBfromdriedskin. Label-only PWL, sciencefalse; not a new morphology repair. Lesson verified on actualimage: uncertainty disclosure can be added without repainting within documented range; sourceconflict remains for future realphotocalibration.",
+      "reviewed_at": "2026-11-28T07:44:52.295Z",
+      "archived_at": "2026-11-28T07:44:56.521Z",
+      "archive_commit": "2df259952d00a7e1e9a1d409ea506f8eef045c89",
+      "ended_at": "2026-11-28T07:45:32.770Z",
+      "verification_exit_code": 0,
+      "commit_sha": "76c3618fb7f9b4fe7589a8f9a2a07f5a9addc1fb",
+      "credit_commit": "38c4ab26bc1f279f8c05abb44b8a2caa39d3f0b6"
+    }
+  ],
+  "first_attempts": [
+    {
+      "target": "206-glaucidium-castanopterum-v11",
+      "bytes": 2502913,
+      "sha256": "9b68bda77efce4e9bc81b7f48dfa6389d7af76b0e7874fdc10db972b20b8d3af",
+      "gitblob": "95ce45425c1b3729132098b3cea73c88b753622e",
+      "size": [
+        1536,
+        1024
+      ],
+      "path": "owl-pet/production/intermediates/20261128T0725Z-206-v11-first.png"
+    }
+  ],
+  "timing": [
+    {
+      "target": "206-glaucidium-castanopterum-v11",
+      "research_design_seconds": 33.815,
+      "imagegen_wait_seconds": 35.198,
+      "editing_wait_seconds": 32.916,
+      "archive_commit_seconds": 4.165,
+      "archive_readback_seconds": 23.626,
+      "original_blob_upload_separately_instrumented": false
+    },
+    {
+      "target": "211-megascops-roboratus-v4",
+      "research_design_seconds": 24.137,
+      "imagegen_wait_seconds": 36.392,
+      "editing_wait_seconds": 0,
+      "archive_commit_seconds": 4.437,
+      "archive_readback_seconds": 22.117,
+      "original_blob_upload_separately_instrumented": false
+    },
+    {
+      "target": "222-ninox-sumbaensis-v4",
+      "research_design_seconds": 47.885,
+      "imagegen_wait_seconds": 37.723,
+      "editing_wait_seconds": 0,
+      "archive_commit_seconds": 4.883,
+      "archive_readback_seconds": 17.333,
+      "original_blob_upload_separately_instrumented": false
+    },
+    {
+      "target": "212-megascops-seductus-v4",
+      "research_design_seconds": 66.915,
+      "imagegen_wait_seconds": 39.429,
+      "editing_wait_seconds": 0,
+      "archive_commit_seconds": 4.364,
+      "archive_readback_seconds": 22.032,
+      "original_blob_upload_separately_instrumented": false
+    },
+    {
+      "target": "214-otus-balli-v4",
+      "research_design_seconds": 79.941,
+      "imagegen_wait_seconds": 31.004,
+      "editing_wait_seconds": 0,
+      "archive_commit_seconds": 5.137,
+      "archive_readback_seconds": 18.228,
+      "original_blob_upload_separately_instrumented": false
+    },
+    {
+      "target": "210-athene-superciliaris-v4",
+      "research_design_seconds": 33.867,
+      "imagegen_wait_seconds": 35.306,
+      "editing_wait_seconds": 0,
+      "archive_commit_seconds": 4.231,
+      "archive_readback_seconds": 36.256,
+      "original_blob_upload_separately_instrumented": false
+    }
+  ]
+}

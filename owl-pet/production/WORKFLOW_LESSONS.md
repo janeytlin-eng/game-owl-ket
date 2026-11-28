@@ -1107,3 +1107,7 @@ Actual first and second generated images visually inspected. Second head filamen
 
 ## 20261128T0430Z 130-megascops-koepckeae-v24
 Actual output viewed: upper breast now diffuse brown, lower graywhitebars retained, blackdisc/whitebrows/yelloweyes/formedfoldedwingtail/perch grip/adults/crown unchanged visually. Bounded chestpigment PASS_WITH_LIMITATIONS only; bright outlined feather units remain unresolved, notwholejuvenilesciencepass. Age/sex/flightunknown retained. Problem→evidence→chestpigment→localvisualpass; notmaterialrepair. Existing108/112 similarly unresolved, no untestedgeneralization.
+
+
+## 20261128T0430Z 129-megascops-hoyi-v9
+Actual output viewed: adult pale brows have dark interruptions above eyes, subtler on rightadult; facevermic/blackruff preserved. Localpigment PWL, exactnotchshape notscientificplate. Young barepartunknownfooter and unchangedjuvenile/wingtail/feet supported, adultscale/forest preserved. Rule observed/applied only this target: correct pigment interruption without carving anatomy; notgeneralallMegascopsbrowrule. Wholegroup scientificallyfalse; historical approvals notinherited.

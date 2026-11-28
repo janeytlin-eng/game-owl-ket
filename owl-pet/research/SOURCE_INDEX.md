@@ -9127,3 +9127,8 @@ Access28Nov2026Shanghai. Reuse SEM-NOHARA-HONDA-2025-P75-78: KiyoshiNohara/RinaH
 
 ## 20261128T0232Z source identity/access reconciliation
 LTSC-PAGANO-2021-P55 is a page-scope working alias of already indexed LTSC-PAGANO-2021, NOT a new publication. Canonical identity Pagano etal2021 ElHornero36(2):51–64 DOI10.56178/eh.v36i2.370; actual p55 read. MIKKOLA2013 and CIN-MIK2013-232 are existing page/spelling IDs of MIKKOLA-2013, one uploaded2013book, not three sources. New publication DAV-SCHERZINGER-ETAL-2021-AIRO29 is actually read pp367/370–372/376 with Fig5; original programme overlaps2014, not independent cohort. Access2026-11-28Shanghai; new1/existing10IDs→8existingfamilies/canonicalmappingcorrection1. [Batch evidence](../production/batches/20261128T0232Z-six-cycle-review.md)
+
+
+## 20261128T0304Z 108-otus-rutilus-v16
+Access2026-11-28Shanghai. Reuse RUT-VASSEN-2013-ANDASIBE-JUV FrankVassen fieldphoto https://www.flickr.com/photos/42244964@N03/12038858063/ actualfreshbodyread taken4Dec2013/upload19Jan2014/Andasibe/juvenile. Cachedsamephotoactuallyviewed. Surface dense short brown-buff mottling, notv15longtangledhair. Exactage/sex/flightunknown. MIKKOLA-2013 HeimoMikkola2013 printed143/PDF145 reusedadultconstraints: herringboneshafts/yellowiris/graybrownbill-toes/darkclaws/featheredtarsitobase/femaleavg18gheaviernotheight; juvenilebookunknown. OldScopsrutilus=currentOtusrutilus. Designexperiment separatelymodelcompactinnerfeatherplaneandshortmarginalwisps, notjustshortencurls; sourcecannotvalidatemicrobarbs. Actualproblemv15hairgeometry, new0/reuse2. No age/flight/nestguess.
+[Research/prompt](species/108-otus-rutilus-v16.md) · [Review](reviews/108-otus-rutilus-v16-review.md)

@@ -9437,3 +9437,8 @@ CAMBOO-RASMUSSEN-2012-FORKTAIL 复用：Rasmussen et al.2012 Forktail28:1–20�
 ## 20261128T1133Z 112-asio-abyssinicus-v20
 复用ABY-OWLPAGES-2020-3560：Deane Lewis,2020-11-08, Abyssinian Owl https://www.owlpages.com/owls/species.php?s=3560 ，2026-11-28本轮外部toe检索并实际读取Description/Breeding/Habitat。复用WHSO-MIKKOLA-2013同书printed508/PDF510本地实际读取。二者成年跗趾均有羽、黑角色爪，雌仅稍大非高度实测。v19实际图成人趾背大片裸橙鳞片，故成人趾背至爪基补短羽，不把成人事实套幼鸟。旧A.otus abyssinicus→A.abyssinicus。图鉴juvenile undescribed/'most likely like Long-eared'为推测，拒绝当发育证据。现中央olderjuvenile年龄羽序飞行仍未知，不因足趾修订获得通过。来源肩白斑措辞冲突保留不改；高山林枝栖而非新巢室，已有贴脚结构保留。新增0复用2来源，成人覆盖边界局部核查，整组sciencefalse。
 [Research/prompt](species/112-asio-abyssinicus-v20.md) · [Review](reviews/112-asio-abyssinicus-v20-review.md)
+
+
+## 20261128T1133Z 206-glaucidium-castanopterum-v12
+复用GCAS-MIKKOLA-2013-P407，HeimoMikkola2013上传图鉴printed407/PDF409实际文字/照片读取：成人头颈细横条无簇、栗上部白肩/中央白腹栗侧纵纹；tarsi羽、olive-yellow趾有稀鬃，幼鸟初绒白与adultlike but duller fledgling分开。本轮仅采用后者，不虚构初生。复用GCAS-VERONESI-2016-29030338883，FrancescoVeronesi2016-08-14CaritaJava成人实物 https://flickr.com/photos/30818542@N04/29030338883 ，Commons https://commons.wikimedia.org/wiki/File:Javan_Owlet_-_Carita_-_Java_MG_3575_(29030338883).jpg 本轮外检及原元数据/本地照片实际查看；闪光不支持绝对RGB/年龄/性别。v11全图塑料碎片，头顶网格，故重建哑光羽片并分区羽纹，幼鸟不因成人照获得额外证明。旧Taenioglauxcastanoptera/Strixcastanoptera→G.castanopterum非G.castanotum。性差无数据，身高设计not-to-scale；幼鸟虹膜喙时序/首飞未知，无巢室。错误线索OwlPages?s2090实际是ChacoPygmyOwl，已读取并排除，不作此种证据。新增0复用2，局部材质/羽纹设计，整图sciencefalse。
+[Research/prompt](species/206-glaucidium-castanopterum-v12.md) · [Review](reviews/206-glaucidium-castanopterum-v12-review.md)

@@ -1,0 +1,3 @@
+# Actual review
+v20/firstv21/secondv21 actualviewed againstFig1cphoto. Twoeditsfocusingtransversepigmentratherthanfilaments didnotremoveorderedpalescallopedleafrims; torsostilldominatedbyoverlappingoutlinedunits, notsourcefineirregulargraywhitebars. NEEDS_REVISION. Brownchest/whitebrows/blackdisc/yelloweyes/formedshortwing/feetbranchsupports/adults/labelsretained. No prey/day/flight/nestadded. Lesson pigmentinstructionalonefailedtopreventedgegeometrybias evenwithsourceimage; notvalidatedgeneralrule. Juvenileolderstage retained, no newbornregression. Sciencefalse.
+{"bytes":2440214,"sha256":"40867bf4cd6a6ba3bd64878bbb1862e63232c61e6a569eb279b91b45d5a66e83","gitblob":"dc9d4806faf62f0aab3509f02d41e3137692db47","size":[1536,1024]}

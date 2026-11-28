@@ -17,11 +17,15 @@
     {
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-28T01:37:06.087Z"
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-28T01:37:11.236Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0030Z-cycle6-20261128T0130Z-130-megascops-koepckeae-v21.json",
-  "stage": "IMAGE_GENERATED",
+  "stage": "REVIEWED",
   "research": "Access2026-11-28Shanghai new0/reuse2. KOEP-ALARCON-2023 IbethPAlarconetal2023 NeotropicalBiodiversity9:93–114 DOI10.1080/23766808.2023.2237229 original https://biologia.uazuay.edu.ec/sites/biologia.uazuay.edu.ec/files/public/ReproductiveeventsofbirdsfromSouthernEcuador.pdf freshnetworkquery/open returned400tooLarge34951163; actualcachedoriginalPDF printed104/PDF13 bodyread now andprinted95/PDF4 Fig1ccropactuallyviewed. 23Apr2019Loja two dependentfledglings withnessoptilesallbody gray-whitebarred/brownchest/blackdiscwhitebrowsyelloweyes, perchedPodocarpus3–4m; noexactage/sex/firstflight. Sourcevisibleirregulartransversegraywhitebars versus v20outlinedleafrows. Changepigmentpatternorganization not universaldowngeometry. KOEP-MIK2013-222 HeimoMikkola2013 uploadedprinted222/PDF224readnow: adultbroadilldefinedshaftbranches/shorttufts/bluegreenhornbill/graybrowntoes/darkclaws; sexdifferenceunknown; palegraynestlingearlierstage NOTfledglingregression. OldOtuskoepckeae=currentMegascopskoepckeae. Keepformedwing/ageunknown/no prey/nestguess. Sciencefalse.",
   "full_prompt": "Use case precise-object-edit. Image1 target #130 v20; image2 actual Alarcon Fig1c juvenile reference, used ONLY for juvenile plumage pigment and surface pattern. Right juvenile body: replace orderly rows of outlined pale leaf/scallop feather units with irregular narrow GRAY AND WHITISH TRANSVERSE WAVY BARRING, crossing several adjacent feather surfaces with broken uneven spacing, diffuse fine down grain. Brown chest wash retained. Pattern like photo (but NO frog/prey added). Keep formed folded wing length/tail silhouette, head and white eyebrows/black facial rim/yelloweyes/bill and all feet/grips/branch, adults entirely fixed. Do not flatten all bars into plain gray and do not regress fledgling into newborn. Title v20→v21, all three roles/footer exact unchanged. Same warmpetstyle. This corrects pigment band organization from source, not measured microbarb shape.",
   "source_ids": [
@@ -42,5 +46,7 @@
   "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-c7a23d52-6230-4d2e-81fb-4b23bbeb2b78.png",
   "imagegen_wait_seconds": 40.208,
   "editing_wait_seconds": 38.72,
-  "review_result": "NEEDS_REVISION"
+  "review_result": "NEEDS_REVISION",
+  "review": "v20/firstv21/secondv21 actualviewed againstFig1cphoto. Twoeditsfocusingtransversepigmentratherthanfilaments didnotremoveorderedpalescallopedleafrims; torsostilldominatedbyoverlappingoutlinedunits, notsourcefineirregulargraywhitebars. NEEDS_REVISION. Brownchest/whitebrows/blackdisc/yelloweyes/formedshortwing/feetbranchsupports/adults/labelsretained. No prey/day/flight/nestadded. Lesson pigmentinstructionalonefailedtopreventedgegeometrybias evenwithsourceimage; notvalidatedgeneralrule. Juvenileolderstage retained, no newbornregression. Sciencefalse.",
+  "reviewed_at": "2026-11-28T01:37:11.215Z"
 }

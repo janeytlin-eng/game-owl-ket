@@ -1,0 +1,3 @@
+Run437 archive verification, 2026-11-28
+
+Artifact commit eed19908edfd748d7d01e3d0f03d32fcc957bd88. README exact text readback passed. Script and metrics remote readback had expected blob SHAs and lengths (7238, 1287 characters). Native GLB remote base64 fully decoded to 1039288 bytes, GLB magic and declared length valid; 21622 position and color vertices, 129720 indices, all buffer views within declared buffer. PNG uploaded and visually inspected before commit; remote fetch returned correct blob SHA 8e9d1b06aac6eca94e208f9f84eaa877cfb2958f but empty base64 content (size limit), so remote pixel readback not verified. ART_REJECTED / NO_RELEASE remains. No paid service or main changes.

@@ -46,3 +46,8 @@
 ## 接续点与最终核验
 
 下一子轮：20261128T0628Z 第5/6；优先112/206未解决纹理或其他具明确证据的缺口，不能复制未验证稀有幼鸟细节。保留原batch_id及全部历史版本/确认记录。最终文件级回读核验稍后以独立receipt增量保存；当前逐轮4文件全文回读均PASS。第25组恢复原图与fd9d70d将并入最终检查。
+
+
+### 最终文件级核验已完成
+
+证据快照 [cf23a38a32fc5e5fbb121c18f3bcfc7a29116e76](https://github.com/janeytlin-eng/game-owl-ket/commit/cf23a38a32fc5e5fbb121c18f3bcfc7a29116e76)；独立[回读receipt](./20261128T0628Z-final-readback-receipt.json)记录47文件全部PASS（16个PNG路径全文/Gitblob SHA1/PIL解码；含2首稿、6最终original+concept各2路径及第25组2路径）。全部旧1478编号图blob不变，历史manifest1433行前缀完全保留，仅新增6条；owl-pet外改动0。第25组两个恢复原图均10508841ef5f6184e8658664615302909765c1dd、2864437字节/1536×1024，可访问。fd9d70d通过connector实际GET仍422 No commit found，未计远端成果；当前有效归档以上述真实VERIFIED提交为准。完毕时仍207/251、1484版本；当前0628批次4/6/next5，其他PARTIAL0，无有效lease。核验时点2026-11-28T06:52:47.433168+00:00。

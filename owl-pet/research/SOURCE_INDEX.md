@@ -9536,3 +9536,8 @@ MathewTSeidensticker,DTTylerFlockhart,DenverWHolt,KathyGray,2006, Growth and plu
 ## Reuse
 LEO-MIKKOLA-2013-P504 shared2013 guide printed504/PDF506 actuallyreadthiscycle, European orangeadult eyes/buffface/graycere/featheredtarsitoesblackclaws; mesoptilecanhaveformedflight/tailfeathers. CurrentAsiootus, oldStrixotus; nosexheight ratio. v5 fullview: juvenilelabel unqualified and no sciencepending; designiteration of posture, not invented priorbiologicalerror. Existing young baretoe surface unresolved because no age-specificfoot evidence retrieved; not applyadulttoe fact to unknown young. Newsource1/reused1, unverifiedpreciseage/iris/flight remain. Concealfunction interpretation inpapernotuniversalmeasuredsurvivalproof.
 [Research/prompt](species/06-asio-otus-v6.md) · [Review](reviews/06-asio-otus-v6-review.md)
+
+
+## 20261128T1435Z 07-asio-flammeus-v6
+复用SEO-OWLPAGES-3590 DeaneLewis,ShortearedOwl https://www.owlpages.com/owls/species.php?s=3590 ，原发布日期未核实，2026-11-28本轮外检且原Description/Breeding/Habits实际读。成年grayhornwithdarkertips/toefeatherpalecream，地巢草茎等不能套树巢。复用SEO-MIKKOLA-2013-P512实际printed512/PDF514 Identification/Juvenile读取，adultgrayhornclaws/creamfeatheredtarsi/toes，youngblackface/yelloweyes/whitebrows与paleochrebuff方向；精确iris时序/羽管阶段未知。旧Strixflammea对应Asioflammeus，北方/nominate方向不套岛型。v5实际看成鸟露爪偏全黑，做局部灰角爪基深尖修正，年轻个体不改；70gmass不测高比。新0复用2；改genericjuvenile为ageunknown，formedwing保留不靠成人源验收。
+[Research/prompt](species/07-asio-flammeus-v6.md) · [Review](reviews/07-asio-flammeus-v6-review.md)

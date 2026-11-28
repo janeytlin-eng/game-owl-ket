@@ -1,0 +1,3 @@
+# Actual review
+Actualv16/firstv17/retryv17/photoallviewed. Photo-firstwholejuvenilereconstruction changespose/headprofileandfootgripsnaturally, butbodyremainsloopedraisedwiresratherfinephotoplumes. Secondmaterialeditstillfails. NEEDS_REVISION/sciencefalse; poseisnewdesignnotproofage/flight/materialsuccess. Adults/labels/footerinvariantsretained; youngnovisibletuft/longadultremiges/nestinvented. FullreconstructionexperimentNOTvalidated; do not repeat its wording as new methodnexttime. Sourcebook143/PDF145actuallyread; fieldpagefreshbodyandcachedphotoactualviewed. Noextraagesexclaim.
+{"bytes":2694340,"sha256":"586b239fd74f2ca0d617005aa3d6710435f5e12432d17a063d8d392241db8df2","gitblob":"3c89f42faddfd4f4992a2eb3b45595064b08f074","size":[1536,1024]}

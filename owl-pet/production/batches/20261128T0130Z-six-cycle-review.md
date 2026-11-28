@@ -29,3 +29,5 @@
 
 
 最终收据构建曾报MISSING undefined：初稿remote_path未回存到内存元数据；两张远端初稿已真实存在，非上传失败。已按目录重建路径并重新核对树，随后执行完整读回；不提前声称收据成功。
+
+最终验收：47份不可变文件完整字节读回/JSON校验，所有PNG全解码/预期SHA256与Gitblob匹配，六历史VERIFIED run也实际读回。收据见20261128T0130Z-final-readback-receipt.json。该收据锚定041cdbc10f6b0cd67995b003c87694ef4c5be60f；收据自身及最终账本在后续提交单独回读。

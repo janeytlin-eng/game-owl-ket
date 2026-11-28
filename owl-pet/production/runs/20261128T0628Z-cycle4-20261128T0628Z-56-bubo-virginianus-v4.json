@@ -13,16 +13,33 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T06:47:52.228Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T06:48:58.917Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0628Z-cycle4-20261128T0628Z-56-bubo-virginianus-v4.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "2026-11-28 active external query and actual original institutional PDF read: GHO-IOC-AGECHART-2017, International Owl Center, Great Horned Owl Age Chart (publication date not stated; underlying broods2013/2014/2017), https://www.internationalowlcenter.org/uploads/1/0/3/1/103197186/great_horned_owl_age_chart.pdf . Overview PDF1 and 6–7week PDF14 text and actual rendered photo page viewed: captive nominate broods/sex blood tests/idealfood; strong face margin/substantial flight feathers during 5–6weekrange, wings near grown but tail still short in followingrange. PDF14 known-age owl photos demonstrate down-covered body alongside well-developed wings; source supports older-young stage concept, not universal wilddayage or flight diagnosis. Reused WHSO-MIKKOLA-2013 (uploaded printed262–263/PDF264–265 actually read): adult sexes similar plumage, female greater average mass not exact height; yellow eyes/graybill/white throat, densely feathered feet, smallertufts/softbuffyoung. Old Strix virginiana to Bubo virginianus, #56 duplicates #14, no new taxon. Actualv3 has correct explanatory sidecar but original says merely JUVENILE and lacks sciencepending; fix disclosure so mature-looking wings are not interpreted as neonatal or flight-certified. No anatomical repaint justified this cycle; exact dayage, population generalization, sex ratio and flight remain unknown. New0/reuse2; sourceID stable2017 retained despite publicationdate unknown (year describes latest cohort).",
   "full_prompt": "Edit #56 Great Horned Owl v3 trio plate. TEXT ONLY; preserve every bird pixel appearance, anatomy, adult relative sizes/plumage/eyes, supported older juvenile balance-wing pose, short tail/down overlap and feet gripping inclined branch, nest sticks and woodland. Add v4 after top #56 species title. Replace bottom right label JUVENILE with OLDER JUVENILE on first line and SUPPORTED BALANCE on smaller second line. Add a clean readable elegant bottom footer below role labels in the spare lower edge: CONCEPT · SCIENTIFIC CALIBRATION PENDING · YOUNG AGE / FLIGHT UNVERIFIED. Slightly extend canvas downward if necessary to fit without covering any foot/nest/role label. Keep ADULT MALE and ADULT FEMALE. Do not label an exact age, neonatal chick or demonstrated flight. Same established3Dowlpet concept style; this is review-disclosure correction only, no newly claimed physical reconstruction.",
   "source_ids": [
     "GHO-IOC-AGECHART-2017",
     "WHSO-MIKKOLA-2013"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "image_metadata": {
+    "bytes": 3103952,
+    "sha256": "5225a0eef7f4383c0781f42a1697959ab0315db60d6c8dd019df50594f337a68",
+    "gitblob": "bc5be8dff19fb41ab13c5c4ce24d7738d6b076b5",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-7d300414-e29e-4af4-838f-3207b28c1e20.png",
+  "imagegen_wait_seconds": 29.183,
+  "editing_wait_seconds": 0,
+  "review_result": "PASS_WITH_LIMITATIONS"
 }

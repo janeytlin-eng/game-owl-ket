@@ -13,16 +13,33 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T09:48:13.356Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T09:49:39.228Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0929Z-cycle4-20261128T0929Z-221-ninox-meeki-v5.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Access2026-11-28. Reuse NMEE-MIKKOLA-2013-P496 HeimoMikkola2013 uploadedprinted496/PDF498 actualcompletepage read thisinvocation: adult horn-colouredclawswithDARKER TIPS, creamyellowtoes/bristledlowertarsi, slatebluebill/palertip/whiterictalbristles/yelloweyes. Claimmalesrufouscap/femalefinemarksandslightlysmaller butnosexedmeasurements: retainnearequaldisplay, notnewsexratio. Youngnearlywhitethroat/plainbrownbreast/heavierwhitecovertbars/narrowerlowerstreaks; exactage/iris/bill/flight notknown. Reuse NMEE-ITIS-555488 institutionlive https://itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=555488&source=to_print actualtaxonomy/referencebody read: valid N.meeki originalcombinationunchanged, nameonlynotclawcolour. Priorread DeaneLewis2020-11-07 https://www.owlpages.com/owls/species.php?s=3430 freshlyreadIntroduction/Distribution/OriginalDescription, Manus/noear-tufts and1914BBOC33p105citation only, notprimarymorphology orjuvenilechrono. Original1914 paper stillnotread; searchcitationAukreviewonlynotoriginalbody, excluded. V4adultclawtips verypalegray inimage, localdarkdistalpigmentcorrectionwhilekeepinghornbase. Noautomaticallblackclawtemplate. New0/reuse2indexedfreshIDs, priorOPsameexistingdocumentnotnewsource. Naturalbranchsupportnotnest, juvenileuntouched.",
   "full_prompt": "Precise-object-edit #221 Ninox meeki v4 concept. Change only distal claw tips on BOTH ADULTS to darker horn/near-black, with the proximal claw body remaining lighter horn-gray. Make the dark tips clearly visible and connected naturally, not black-painted whole claws or changed yellow toes. Keep claw shape, toe anatomy, feathered tarsi, branchgrip, all plumage/eyes/slatebluebill/palertip and adultdisplay proportions. Do not change juvenileclaws/bareparts, whitecovertbars, sleepingpose orstage. Preserve all labels/forest/layout, add v5 beside title, retain scientificcalibrationpendingfooter. No new age/flightclaim.",
   "source_ids": [
     "NMEE-MIKKOLA-2013-P496",
     "NMEE-ITIS-555488"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "image_metadata": {
+    "bytes": 2517222,
+    "sha256": "a03ba60d900cbb4fc761f8abfa5a5c7ee809a4b34446f7fd78bdea825aceed2c",
+    "gitblob": "aaa3ec9f119d7dcbafdb7d1840469b17da43e4ca",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-5470e506-91aa-43d8-a179-176bb20af1df.png",
+  "imagegen_wait_seconds": 36.716,
+  "editing_wait_seconds": 0,
+  "review_result": "PASS_WITH_LIMITS"
 }

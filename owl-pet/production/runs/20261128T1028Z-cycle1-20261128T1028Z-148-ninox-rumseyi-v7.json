@@ -17,11 +17,15 @@
     {
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-28T10:39:42.551Z"
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-28T10:39:47.202Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T1028Z-cycle1-20261128T1028Z-148-ninox-rumseyi-v7.json",
-  "stage": "IMAGE_GENERATED",
+  "stage": "REVIEWED",
   "research": "复用 CEB-RASMUSSEN-2012-FORKTAIL：Rasmussen et al.2012 Forktail28:1–20，https://www.asianscientist.com/wp-content/uploads/2012/08/Vocal-divergence-and-new-species.pdf ，2026-11-28本地实际读取printed16/PDF17完整Diagnosis及p12 Fig6f（Christian Artuso，Cebu2012-01-03）并查看。成人短白眉、暗耳羽，明显白喉两侧及下方深色边界是原文事实；v6实际图白喉接近横向白项圈，暗侧界偏弱，改为中央边界明确的喉斑。分布旧名N.philippensis spilonota仅Cebu种群→N.rumseyi。成鸟体型中大、腿长来自单模式标本不支持性别比例；腹纹弱斑/短断条可变不统一粗横斑。针对幼鸟羽被及遥测论文外检未取得羽被照片支持：Jakosalem/Collar/Gill旧遥测命中一juvenile仅研究线索，本轮未读正文，不据此推断羽被；旧CEB-JAKOSALEM-COLLAR-GILL-2012不计本轮复用。中央幼鸟保留未核实标记而不新增初生细节；年龄/首飞/巢位未知。枝上为设计支撑。来源原始分类论文/野外影像，p16/p12Fig6f；本次新增0复用1，喉斑形状为有边界的设计应用非毫米还原。",
   "full_prompt": "Edit #148 Ninox rumseyi v6 to v7, retain confirmed warm 3D owl-pet look and composition. Correct ONLY BOTH ADULT THROAT PATCHES and surrounding adult facial-to-throat pattern: current narrow white neck-collar-like stripe must become a distinct central WHITE THROAT PATCH under the bill, bounded on each SIDE and BELOW by conspicuous DARK BROWN feathers. This is a bounded irregular throat area, not a full white necklace, not a huge puffed beard or a black chest bib. Follow Ninox rumseyi primary diagnosis and Figure6f (bottom-left photograph on supplied plate) qualitatively: white throat with dark margins, short distinct white eyebrows and plain dark ear coverts. Preserve weak breast speckles and mostly plain fulvous belly, yellow irises, dull olive bill yellow tip, half-feathered long tarsi and mostly black claws. Do not transfer any field photograph age or sex. Keep center juvenile reconstruction unchanged: no new evidence for its plumage/age/iris or flight. Keep its two feet secure and all branch geometry. Adult design slots same existing proportions without verified dimorphism claim. Keep all uncertainty labels; footer additionally 'THROAT PATTERN STUDY · SCIENCE PENDING · SEX RATIO / JUVENILE UNVERIFIED'. Title '#148 NINOX RUMSEYI v7 · CEBU BOOBOOK'. Exact three birds.",
   "source_ids": [
@@ -40,5 +44,7 @@
   "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-d947c545-d259-4256-91e7-8b4b1b48860d.png",
   "imagegen_wait_seconds": 40.393,
   "editing_wait_seconds": 0,
-  "review_result": "PASS_WITH_LIMITATIONS"
+  "review_result": "PASS_WITH_LIMITATIONS",
+  "review": "实际查看v7：成人白喉收为中央不规则斑，两侧及下缘明显深棕羽界，不再只有窄白横项圈；黄眼/橄榄喙/冠斑/弱短胸斑/淡赭腹/半羽长跗及黑爪保留，三鸟六脚落枝无悬空。依据p16及Fig6f局部喉斑通过，暗边宽度未测、不得整图校准。幼鸟卷绒、虹膜、比例及腿部阶段仍缺物种专属证据，保留UNVERIFIED；成鸟性别inferred非照片判性。无新巢位或首飞主张。问题→通用白项圈误替诊断喉斑；证据→原始诊断同时要求白喉与深侧/下界；修改→中央白斑加边；复查→局部有效。新规则在文字特征之外指定区域拓扑边界，回查148v6已保留；不能外推147/236的白喉边界。sciencefalse。",
+  "reviewed_at": "2026-11-28T10:39:47.185Z"
 }

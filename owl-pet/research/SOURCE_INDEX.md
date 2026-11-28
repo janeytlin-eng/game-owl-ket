@@ -9508,3 +9508,8 @@ Correction 01v6: PMC direct open/urllib returned bot wall, not read successfully
 ## 20261128T1330Z 02-bubo-scandiacus-v7
 复用SNO-HOLT-GRAY-MAPLES-KORTE-2016 DOI10.3356/rapt-50-02-131-143.1，2016JRR50:131–143；本轮外部检索原论文Table3/摘要线索，全文PDF未新读，不把搜索当全文。复用SNO-ORI-2022GUIDE https://www.owlresearchinstitute.org/snowy-owl-photo-guide 本轮实际打开原机构照片指南Stage3/4正文：灰mesoptile、14d羽管起、15–21d飞羽出鞘/尾羽管出现/eggtooth消失，时序区间非固定日。历史图鉴SNO-MIK2013-258-261成人白雄斑雌/羽趾/黑喙爪方向沿用，不新读图鉴冒充本轮新证据。旧Nycteascandiaca→Buboscandiacus。v6实际看中央明显闭环卷毛；本轮限定材质/保守低伏姿态设计、不增加成熟翼羽、不推幼鸟性别。撤数值日龄避免生成断龄。新0复用2主来源+1历史图鉴。
 [Research/prompt](species/02-bubo-scandiacus-v7.md) · [Review](reviews/02-bubo-scandiacus-v7-review.md)
+
+
+## 20261128T1330Z 03-bubo-bubo-v13
+复用EEO-MIKKOLA-2013本轮实际读printed268/PDF270(及printed269图片页文本)，成人爪blackishbrown with blacktips、强爪，质量性差不能换站高。v12实际看成人爪几乎全黑，做细微爪基角质色局部校正，不动幼鸟。复用EEO-PENTERIANI-2005，Penteriani/Delgado/Maggio/Aradis/Sergio,Ibis147:155–168 DOI10.1111/j.1474-919x.2004.00381.x，2026-11-28外检并实际打开Wiley原Methods(19chicks8nests)/发育图注上下文；本轮不说新看图像像素，既有v12约10日边界历史保留但撤数值日龄标注。原文西班牙样本不作全球发育阈值。保留原v4用户确认范围，成人爪颜色不迁移幼鸟。新0复用2，设计未变龄，不冒充科学全图验证。
+[Research/prompt](species/03-bubo-bubo-v13.md) · [Review](reviews/03-bubo-bubo-v13-review.md)

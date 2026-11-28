@@ -9396,3 +9396,8 @@ Access2026-11-28. Reuse NMEE-MIKKOLA-2013-P496 HeimoMikkola2013 uploadedprinted4
 ## 20261128T1028Z 144-ninox-spilocephala-v7
 复用 LZBO-RASMUSSEN-2012-LEAD / NPH-RASMUSSEN-2012（同一出版物，非两个新来源）：Rasmussen et al. 2012, Forktail 28:1–20, 原始URL https://static1.squarespace.com/static/5c1a9e03f407b482a158da87/t/5c2122546d2a7362341520d4/1545675354149/Philippine-owls.pdf ，2026-11-28读取全文相关p14诊断和p12 Fig6b实物照片（R.O.Hutchinson，PICOP Mindanao，2011-02），并实际渲染查看。成鸟耳羽长且丰满为事实；照片轮廓没有上一版横向硬刺扇的形态。修改柔软贴颊轮廓为设计推断，不测量照片长度、不得外推羽长性差。旧名N.philippensis spilocephala→N.spilocephala。复用 MIKKOLA-2013 / WHSO-MIKKOLA-2013（同书）printed475/PDF477；幼鸟只依据plain crown/weak collar older immature，不赋日龄、首飞或初生羽被。雌雄外观与相对高度未验证；枝上支撑与森林情境为概念构图，非巢位观察。图片v6耳羽过度硬刺为本次问题。可靠性：原始分类论文+有定位实物照；单张照片无年龄性别证明。来源新增0、复用2出版物；照片访问范围升级，不新增重复ID。完整阶段计时见run。
 [Research/prompt](species/144-ninox-spilocephala-v7.md) · [Review](reviews/144-ninox-spilocephala-v7-review.md)
+
+
+## 20261128T1028Z 147-ninox-leventisi-v7
+CAMBOO-RASMUSSEN-2012-FORKTAIL 复用：Rasmussen et al.2012 Forktail28:1–20，https://www.asianscientist.com/wp-content/uploads/2012/08/Vocal-divergence-and-new-species.pdf ，访问2026-11-28；本轮针对N.leventisi duet/claws/iris网络检索，实际本地读取原PDF printed15–16/PDF16–17，及p12 Fig6e照片（Hutchinson，Camiguin Sur，2011-06-08）。p16 Remarks报道靠近、相对、前倾，白喉鼓动、翅垂下的低沉快速对唱；本次v6静止正面但白喉膨大，改为有来源的成鸟对唱姿态。原文成年虹膜灰白或极浅黄绿，喙脚芥黄、喙基橄榄，爪主体浅色仅尖深，腹粗横斑。原名广义N.philippensis spilonota（仅Camiguin种群）→N.leventisi。两个博物馆标本均雌，不能据此规定雌雄高度比例。幼鸟资料缺口仍在：中鸟为未核实重建，不宣称科学通过、不赋年龄、飞行或巢位。森林枝上支撑是概念舞台。照片不提供性别或幼鸟发育。来源类型原始分类与野外行为研究，章节Remarks/Diagnosis；新增0/复用1出版物；此次行为应用新验证而非新来源。
+[Research/prompt](species/147-ninox-leventisi-v7.md) · [Review](reviews/147-ninox-leventisi-v7-review.md)

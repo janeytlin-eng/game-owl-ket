@@ -25,11 +25,15 @@
     {
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-28T14:48:23.327Z"
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-28T14:48:28.029Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T1330Z-cycle6-20261128T1435Z-04-athene-noctua-v7.json",
-  "stage": "IMAGE_GENERATED",
+  "stage": "REVIEWED",
   "research": "复用LIO-BLASCO-HEINZE-07570，JavierBlascoZumeta/GerdMichaelHeinze undated,原环志鉴龄guide https://www.blascozumeta.com/specie_files/07570_ENG_Athene_noctua_aranzadi.pdf ,2026-11-28本轮外检/新下原PDF实际p1ID/Sexing/Ageing及p2crown/headcomparison照片实际查看，juvenileplainbrowncrown/loosedownbody且有freshflight/tail,非初生；尺寸重叠不可单凭体型辨性。复用LIO-MIKKOLA-2013-P427本轮实际printed427/PDF429读取adultbellyrelativelyunmarked/green-graybill/olivecere/bristledtoes及mesoptilediffuse。当前旧名Strixnoctua对应Athene。v6实际图中央冠顶有明显淡圈样强调且28day标签未经测量，本轮限定淡圈减弱及撤数值龄，不改变已形成翼羽/年龄阶段，不虚报成人嘴色错误。物种资料不能给生成图定28day；图鉴与agingguide适用年龄不同保留边界。新0复用2，后续精确羽龄/iris/动作能力未知。",
   "full_prompt": "Use case precise-object-edit. #04 Little Owl Athene noctua v7. Change ONLY central young crown and ageannotation: crown should read plain brown with loose/downy texture rather than conspicuous pale round/loop-shaped feather marks. Reduce pale closed-ring/spotgrid highlights specifically across topcrown while keeping natural soft irregular shortdown; don't erase white eyebrow or alter face/eyes/bill. Do not alter its formed foldedwing feathers (older downyjuvenile can have fresh flightfeathers); do not convert to hatchling. Keep all bodies/proportions/footing heights, adults corrected lowbelly, all sixfeet andbranchcontact, cavity orchard scene exactly. Replace uncalibrated ABOUT28DAY label with 'DOWNY DEPENDENT YOUNG · AGE NOT CALIBRATED'; footer CONCEPT · SCIENCE PENDING. Title add '#04 · v7'. Adult labels SEX INFERRED. No new developmental timing or flightclaim.",
   "source_ids": [
@@ -61,5 +65,7 @@
   "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-f80d11ac-52d7-4630-8242-43eaf326bc70.png",
   "imagegen_wait_seconds": 40.078,
   "editing_wait_seconds": 42.387,
-  "review_result": "NEEDS_REVISION"
+  "review_result": "NEEDS_REVISION",
+  "review": "初版二编完整实际查看：28day数值撤为ageunknown、male/female sexinferred标签二编恢复；未改变两成人不同脚位的身高/低腹少纹、中央较大young折翼/六脚枝支撑。中央冠顶淡点弱化有限，闭合毛线圈在冠顶/body仍明显，不符合原研究plaincrown的自然微材质期待；NEEDS_REVISION/sciencefalse。不把图鉴mesoptile/环志juvenile混为精确28day，已有formedwing未删。问题—原图年级/数值龄超证据且loop；证据—Blascop1–2及图鉴；修改—crown两次/label；复查—标签修复有效、纹理未解。仅文字边界成功非形态校准成功；下轮需排除旧target/独立本种幼鸟全身参考，不能重复相同词声称迭代有效。",
+  "reviewed_at": "2026-11-28T14:48:28.019Z"
 }

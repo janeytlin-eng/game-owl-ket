@@ -1,0 +1,3 @@
+# Actual review
+初版二编完整实际查看：28day数值撤为ageunknown、male/female sexinferred标签二编恢复；未改变两成人不同脚位的身高/低腹少纹、中央较大young折翼/六脚枝支撑。中央冠顶淡点弱化有限，闭合毛线圈在冠顶/body仍明显，不符合原研究plaincrown的自然微材质期待；NEEDS_REVISION/sciencefalse。不把图鉴mesoptile/环志juvenile混为精确28day，已有formedwing未删。问题—原图年级/数值龄超证据且loop；证据—Blascop1–2及图鉴；修改—crown两次/label；复查—标签修复有效、纹理未解。仅文字边界成功非形态校准成功；下轮需排除旧target/独立本种幼鸟全身参考，不能重复相同词声称迭代有效。
+{"bytes":2886735,"sha256":"7a2ec0b86ea0164d3e07a8d0a7035a10c970b576e293f1d996c2c5aefa521b1a","gitblob":"107fdd8671f68836cd57e66be58e6a7ab5d0aa6d","size":[1536,1024]}

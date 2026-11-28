@@ -13,16 +13,35 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T03:06:34.932Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T03:08:43.776Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0232Z-cycle5-20261128T0304Z-108-otus-rutilus-v16.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Access2026-11-28Shanghai. Reuse RUT-VASSEN-2013-ANDASIBE-JUV FrankVassen fieldphoto https://www.flickr.com/photos/42244964@N03/12038858063/ actualfreshbodyread taken4Dec2013/upload19Jan2014/Andasibe/juvenile. Cachedsamephotoactuallyviewed. Surface dense short brown-buff mottling, notv15longtangledhair. Exactage/sex/flightunknown. MIKKOLA-2013 HeimoMikkola2013 printed143/PDF145 reusedadultconstraints: herringboneshafts/yellowiris/graybrownbill-toes/darkclaws/featheredtarsitobase/femaleavg18gheaviernotheight; juvenilebookunknown. OldScopsrutilus=currentOtusrutilus. Designexperiment separatelymodelcompactinnerfeatherplaneandshortmarginalwisps, notjustshortencurls; sourcecannotvalidatemicrobarbs. Actualproblemv15hairgeometry, new0/reuse2. No age/flight/nestguess.",
   "full_prompt": "Use case precise-object-edit. Image1 edit target #108 v15; image2 field photo ONLY juvenile texture evidence. REPLACE centre juvenile visible inner-body feather surface: compact, softly diffuse fine brown/buff mottled feather PLANE with tiny broken transverse colour marks and matte low relief. No individually traced hair inside body, no long strands, no curls, no coils, no wire grain. Only outer silhouette may have sparse short wisps. This deliberately separates interior plumage plane from edge down. Preserve exact juvenile silhouette, dark face/yellowbrowniris/pinklid/darkbill, same stage/concealedwingtail/twofootgrips. BOTHADULTS andbranch/environment/labels/footer identical. v15→v16. Keep confirmed gentle3Dstyle, do notcopyfieldphoto layout or inventageflight.",
   "source_ids": [
     "RUT-VASSEN-2013-ANDASIBE-JUV",
     "MIKKOLA-2013"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "first_attempt_file": "/workspace/scratch/96400dc71dac/generated_images/exec-5d868e08-ec98-40ec-94f2-76febf814484.png",
+  "retry_prompt": "Correct failed v16 juvenile texture. The centre young is still covered in individual loop-shaped wires, unlike source. Remove those interior loop contours entirely; paint a SOFT MATTE, LOW-RELIEF brown/buff feather field with irregular fine horizontal pigment dashes and no traceable strands. Keep face/iris/outline/feet, adults and all text absolutely unchanged. Do not add mature wing feathers or bare skin; retain v16.",
+  "image_metadata": {
+    "bytes": 2572197,
+    "sha256": "e024a5936e5ca6e74f79cf62067cf4d1f74222abc6d4409bc594a63c706d8b59",
+    "gitblob": "149c29b19072ac49301d311ca6697ed1f422dc92",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-fc060411-d319-4eda-b842-839f720483cc.png",
+  "imagegen_wait_seconds": 27.303,
+  "editing_wait_seconds": 38.86,
+  "review_result": "NEEDS_REVISION"
 }

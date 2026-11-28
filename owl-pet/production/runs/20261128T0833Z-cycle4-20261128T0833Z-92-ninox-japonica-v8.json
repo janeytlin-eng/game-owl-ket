@@ -21,11 +21,15 @@
     {
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-28T08:56:54.689Z"
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-28T08:56:59.942Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0833Z-cycle4-20261128T0833Z-92-ninox-japonica-v8.json",
-  "stage": "IMAGE_GENERATED",
+  "stage": "REVIEWED",
   "research": "Access2026-11-28. Reuse JAP-MIK2013-466 HeimoMikkola2013 uploaded printed466/PDF468 actuallyread: adult face dark with only small white patch betweenyelloweyes; darkgraybill; broadlongitudinalstreaks; grayclaws; northernfemale tendency differs from Taiwan no significantsexsize. Reuse JAP-LIN-LIN-TSENG-2012-PP164-166 WenLoungLin/SiMinLin/HuiYunTseng2012 Forktail28:164–166, https://web.ntnu.edu.tw/~treehopper/lib/publications_lib_pdf/nonox_et_al_2012.pdf actualoriginalPDF164–165 Methods/Resultsread: subtropicalhardwoodwoodland/cavitynest and Taiwansexmorphology overlap; this doesnotdatepicturedindividual, generalnestlingperiodnotageproof. Preserve age/firstflight/sexratiounverified.\nNew JAP-BSS-IDENTIFICATION-WEB BirdSocietyofSingapore, NorthernBoobook, undated currentwebpage https://singaporebirds.com/species/northern-boobook actualIdentification18–23read28Nov2026. Secondary localdiagnosticaccount: smallwhitepatchabovebill, adultNorthernelongatedteardropvsBrownrounderheart-shapedlowerbodymarks; overlap/flankexceptionswarned. Supports reducing broadwhitebrows onadult92; notjuvenilewhitepatch/billcolourproof. Sourcefacts differinmarkingshapeemphasisfromguidebroadstreaks/75dropdescription, retainedascross-source nuance notinflexibleformula. N.scutulatajaponica/totogo oldcomplex→N.japonica; populationsexratio cannotbeuniversal. Current92v7whitebrowstoolaterallyextended; localreduceadultwhiteextent, youngunchanged/supportretained.\nCross-review75v8: todayBSScomparison raises concern elongateddropmarksgeneratedcouldoverlapNorthern pattern; renderintegration improved but speciesdiagnosticshape unresolved. Reopen75v8 biologicalpattern review, do notcallscientificpass or proved whole-image improvement. Next75revision shouldusecurrentBrown adultfieldphotofromSingapore, compareheartmarksandavoidstampgeometries. New1/reuse2 for thiscycle, newsourcealso applied75withoutduplicatingID.",
   "full_prompt": "Use case precise-object-edit. Edit target #92 Ninox japonica v7 concept plate. Change ONLY the extent of white feathers on BOTH adult foreheads: replace the broad white eyebrow extensions over both eyes with dark brown feathering, retaining a SMALL irregular white central patch immediately above the bill between the eyes. Preserve eye colour/yellow iris, dark face/bill, fine feather texture, brown head and underparts, adult display proportions, feet, tails. Do NOT edit young forehead/iris/bill/pose, cavity or branch/habitat, all bodypatterns, labels and exact uncertaintyfooter. Add small v8 beside title. The small central patch must not become broad white supercilia or bright spectacles. Keep existing composition/style exactly.",
   "source_ids": [
@@ -49,5 +53,7 @@
   "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-d2052e1a-e86f-4903-bd57-da2672799564.png",
   "imagegen_wait_seconds": 39.83,
   "editing_wait_seconds": 0,
-  "review_result": "PASS_WITH_LIMITS"
+  "review_result": "PASS_WITH_LIMITS",
+  "review": "Actualv8 viewed: both adult white forehead areas now confined to small central irregularpatch abovebill, broad lateralwhitebrows removed. Yelloweyes/darkbill/headtone/feet/adultscale remain; juvenile beggingpose/whitebrow left unchanged without adult-to-youngtransfer; bothfeet supported, noflightclaim. Titlev8/unknownageandfirstflight/sexratiofooter retained. Local adultwhitepatchextent correction PASS_WITH_LIMITS, fullsciencepending; juvenile chronology/bareparts and adultfullplumage density need separatecalibration. Treecavity/woodland display plausible forTaiwanstudy but illustrationnotmeasurednestgeometry. Lesson: specifyextentandtaxonscope, notgenerichawkowlwhitebrows. Appliedhere; actualcross-review75v8 reopened because comparative markingdiagnosis conflicts with elongateddrops, failurequeue persisted. Renderingskill improvement75doesnotestablishspeciesaccuracy. All6productioncycles are archiveverified, not6scientificpasses.",
+  "reviewed_at": "2026-11-28T08:56:59.931Z"
 }

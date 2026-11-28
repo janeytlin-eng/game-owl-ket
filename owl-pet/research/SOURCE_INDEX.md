@@ -9452,3 +9452,8 @@ CAMBOO-RASMUSSEN-2012-FORKTAIL 复用：Rasmussen et al.2012 Forktail28:1–20�
 ## 20261128T1133Z 130-megascops-koepckeae-v26
 复用KOEP-ALARCON-2023：IbethPAlarcon etal2023 Reproductive events of birds from Southern Ecuador, NeotropicalBiodiversity9:93–114 DOI10.1080/23766808.2023.2237229，原始大学URL https://biologia.uazuay.edu.ec/sites/biologia.uazuay.edu.ec/files/public/ReproductiveeventsofbirdsfromSouthernEcuador.pdf ，2026-11-28定向外检并实际本地原PDFprinted104/PDF13及Fig1c p95/PDF4照片读取。2019-04-23 Loja两亲鸟依赖幼鸟/灰白暗条/brownchest/黑面缘白眉黄眼/剩余mesoptile/Podocarpus3–4m枝，未给日龄/性/首飞。复用KOEP-MIK2013-222：图鉴printed222/PDF224实际读取成人短簇/灰白细暗斑脸黑ruff/蓝绿角喙/灰褐趾/黑角爪/无性差数据。旧Otus→Megascopskoepckeae，Ecuador未据此指定hockingi。v25成鸟及环境仍塑料碎片、幼鸟U羽层过规则，本轮整张材质重建，保留原依据羽色方向。KOEP-FJELDSA-2012-P180-191本轮外部正文打开仅补分类/成鸟对比上下文，不计新源且不以其hockingi模式标本羽色套Loja幼鸟。新增0复用2主要证据源；设计尺度/枝摆放非实测，无巢，sciencefalse。
 [Research/prompt](species/130-megascops-koepckeae-v26.md) · [Review](reviews/130-megascops-koepckeae-v26-review.md)
+
+
+## 20261128T1133Z 201-otus-mantananensis-v16
+复用MANT-MIKKOLA-2013-P199-200-MIRROR（同上传Mikkola2013）：printed199–200/PDF201–202本轮实际全文相关段和p199成人对照照片读取，IanMerrill Rasa Philippines February nominatepair，细黑雀斑/白肩/胸暗腹淡/黑ruff/灰角喙/羽跗窄裸区灰褐趾，性差无数据；幼鸟Unknown，不替本种补初生。旧Scopsmantananensis→Otusmantananensis。现图成人和耳簇仍塑料碎片，本轮限定成人材质重建及胸腹明暗；中央romblonis未知幼鸟不改，不把不同种群拼图当亲子照片。主动外检及重新读Commons https://commons.wikimedia.org/wiki/File:Otus_mantananensis_mantanensis.jpg （MANT-BARREDO-2021-COMMONS）元数据/许可，未取到本轮照片像素，不用作足色/幼鸟证据，仅线索不计已验证复用；Marshall1978原文前轮重定向失败不声称新读。新增0复用1有效图鉴证据，单书幼鸟缺口仍需原始发育研究；图注保留混种群、未核实羽被/虹膜/年龄/飞行。枝是概念支撑无巢，sciencefalse。
+[Research/prompt](species/201-otus-mantananensis-v16.md) · [Review](reviews/201-otus-mantananensis-v16-review.md)

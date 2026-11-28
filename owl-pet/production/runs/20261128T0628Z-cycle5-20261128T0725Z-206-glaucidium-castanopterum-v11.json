@@ -13,16 +13,30 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T07:27:42.475Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T07:28:55.968Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0628Z-cycle5-20261128T0725Z-206-glaucidium-castanopterum-v11.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Access2026-11-28. Reuse GCAS-MIKKOLA-2013-P407 actual uploaded Mikkola2013 printed407/PDF409 read: fine dark/pale head crossbarring, no tufts, yellowiris/green-yellow bill/olivecere, chestnut upperparts/white scapular webs, feathered tarsi and sparsely bristled olive-yellow toes, darkhornclaws/blacktips. No sex-sizedata. Downy chick whitish is distinct from dull adult-like fledgling; juvenile age/iris/bill remain unverified. Reuse GCAS-VERONESI-2016-29030338883, FrancescoVeronesi14Aug2016 CaritaJava, original https://flickr.com/photos/30818542@N04/29030338883 and Commons mirror https://commons.wikimedia.org/wiki/File:Javan_Owlet_-_Carita_-_Java_MG_3575_(29030338883).jpg actual external metadata/body reread and same749x1092source photograph actually viewed. Fine short crosslines on close-fitting crown, not connected polygon-net. Photo flash prevents exactRGB; no young/sex inference. Old Taenioglaux castanoptera/Strix castanoptera maps G.castanopterum, not G.castanotum. v10 still net-like after two prompts; new experiment uses photograph as auxiliary morphological reference, full stylized plate as edit target. Not a new source/mirror count or whole science approval. New0/reuse2. Habitat dense lowland rainforest/bamboo, branch support retained, no inferred nest.",
   "full_prompt": "Use case precise-object-edit. Input1 EDIT TARGET: #206 Javan Owlet v10 three-bird stylized pet plate. Input2 AUXILIARY MORPHOLOGY reference: live Javan Owlet photo, use only qualitative small crown barring, do not copy entire photo/style/pose. Change ONLY BOTH ADULTS' crown/forehead feather pattern in target. Remove the closed connected polygonal mesh and embossed tan outlines. Render dark brown close-fitting soft tiny feathers with many thin short pale buff nearly-horizontal crossbars, irregular broken delicate lines that DO NOT enclose cells, no net, scales, braids, brick tracks. Closely observe input2 fine crossbarring at this location. Keep target's rounded3Dpet style, exact adult head outline/eyes/bill/cheeks, all bodies/feet/sparse toe bristles/claws/branch contacts, entire right juvenile, landscape and labels. Title v10 becomes v11. Juvenile iris/bill unverified, sex size unknown, scientific calibration pending captions retained. Do not repaint adult throat/body or borrow adult pattern onto young.",
   "source_ids": [
     "GCAS-MIKKOLA-2013-P407",
     "GCAS-VERONESI-2016-29030338883"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "first_attempt_metadata": {
+    "bytes": 2502913,
+    "sha256": "9b68bda77efce4e9bc81b7f48dfa6389d7af76b0e7874fdc10db972b20b8d3af",
+    "gitblob": "95ce45425c1b3729132098b3cea73c88b753622e",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "first_review": "Actually viewed first v11: auxiliary photograph did not remove crown mesh. Existing interconnected outlines persist. Negative result, needs targeted stronger repaint."
 }

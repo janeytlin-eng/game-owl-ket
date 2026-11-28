@@ -13,16 +13,35 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T03:19:20.018Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T03:22:00.785Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0304Z-cycle4-20261128T0304Z-137-otus-alfredi-v10.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Access2026-11-28Shanghai new0/reuse2. FLO-WIDODO-1999 WahyuWidodo/JackHCox/PamelaCRasmussen1999 Forktail15:15–23 RediscoveryoftheFloresScopsOwlOtusalfredi... https://static1.squarespace.com/static/5c1a9e03f407b482a158da87/t/5c1fc23b2b6a282c991de675/1545585212532/Widodo-Flores.pdf freshtargetedsearch/originalbodyp15andTABLE2pp18–19actuallyread especiallyp19lowerunderpartsWHITEbackground/FINErufousbrownVERMICULATIONS/somenarrowbars/NOblackshafts. Upperbreastwhitediamonds/whiteshaftvalid, side-neckscalyfeathersvalidNOTglobaldescale. Currentv9adultlowerbellymostlyorangeoutlinedscallops. Correctpigmentonlylowerunderpartsnotforeheadagain. MIKKOLA-2013 actualuploaded184/PDF186readconfirmsdirtywhite/fineyellowbrownvermics/no darkshafts; distalquartervsprimarythirdtarsusconflictuntouched, book1995vsprimary1994retainprimary. YoungMZBspecimenMay1994formedwing137/tail69/retainednataldown doesn'tproveflightornewborndetails; entireyoung/labelsexevidencehistoricnotreassigned. SameOtusalfredi251unit. No newRSD/nest/day claims; sciencefalse.",
   "full_prompt": "Precise-object-edit #137 v9. ONLY TWO ADULT LOWER UNDERPARTS below mid-breast: white/dirty-white ground with FINE irregular rufous-brown meandering vermiculations and a few narrow broken transverse bars. Replace orange outlines tracing every scalloped feather rim with fine interior pigment marks. NO black shaft-streaks. Preserve upperbreast white diamonds/whiteshafts and SIDE-NECK scaly pattern (source-valid), foreheadv9 whitevermics/faces/ear tufts/bills/eyes/feet/claws/wingtail/scale/scene. Entirejuvenileandstageunchanged. v9→v10. Keeplabels/footer. This is lowerbellypigmentcorrection, notfullbodydescale ornewjuvenilestage.",
   "source_ids": [
     "FLO-WIDODO-1999",
     "MIKKOLA-2013"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "first_attempt_file": "/workspace/scratch/96400dc71dac/generated_images/exec-2c4db25f-737f-4be0-ad2f-3f7b314390ed.png",
+  "retry_prompt": "v10 correction: BOTH ADULT LOWER BELLY pigment still follows feather rims. Keep the white ground but make the rufous-brown marking a VERY FINE broken wavy stipple across feather interiors, much less connected and less repetitive, not scalloped outlines. Upperbreast diamonds/side-neck valid scales/forehead/faces/tufts/eyes/bills/feet/wingtail/young/environment/labels/v10 unchanged. No black shaft-streaks or solid brownwash.",
+  "image_metadata": {
+    "bytes": 2528716,
+    "sha256": "d32e03780690c1be818d02b417f7ee25aeeecad319042296e455076ce054df4b",
+    "gitblob": "f52409df63229ff93430f9f204cd537d130901be",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-7a8c2142-7932-49af-b96e-35adc3ef804a.png",
+  "imagegen_wait_seconds": 39.086,
+  "editing_wait_seconds": 31.85,
+  "review_result": "PASS_WITH_LIMITATIONS"
 }

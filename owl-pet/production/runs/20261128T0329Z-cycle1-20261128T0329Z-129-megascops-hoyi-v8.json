@@ -17,11 +17,15 @@
     {
       "stage": "IMAGE_GENERATED",
       "at": "2026-11-28T03:40:56.048Z"
+    },
+    {
+      "stage": "REVIEWED",
+      "at": "2026-11-28T03:41:00.879Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0329Z-cycle1-20261128T0329Z-129-megascops-hoyi-v8.json",
-  "stage": "IMAGE_GENERATED",
+  "stage": "REVIEWED",
   "research": "Access2026-11-28Shanghai new0/reuse2. HOY-MIK2013-228 HeimoMikkola2013uploadedprinted228/PDF230actualtextread: ADULTgreyishbrownfacialdiscFINELYDARKVERMICULATED, prominentblackruff, palebrowsusuallynotched, yelloweyes/greenishyellowbill, yellowgraytoes/darkhornclaws/tarsifeathered. Femaleavg>20gMASSnotheight. V7adultdisclargelyplainpalegraycreamcoarsefringe; localfinepigmentvermicrefinement. Fledgedyoungadultlikefluffy/novisibletufts, no timedbarepartcolourseries; youngiris/bill/toecolourprovisionalunchangedandlabelledunverified. HOY-SIB-ARG ArgentinaAdministraciondeParquesNacionalesSIB https://sib.gob.ar/especies/megascops-hoyi freshactualbody11–25/46–48readname/KoenigStraneck1989/oldOtushoyi; institutiondoesNOTsupportfacepatternorjuvenilebareparts. Targetedfreshinternetfacevermicqueryothersecondaryhitsnotadopted, primarytypepaperhistoricalnotclaimedfresh. Same251unit, no newnest/age/flight/sexscale. Sourcecolourqualitativeonly, sciencefalse.",
   "full_prompt": "Precise-object-edit #129v7. ONLY BOTH ADULT FACIAL DISCS: mutedgreyishbrown with VERY FINE dark irregular vermiculations acrosscheeks ratherplainpalefield/coarsefringe. Preserve prominentblackruff, pale eyebrows andtheircurrentshape, eyes/bill/tufts/outline andallotheranatomy exactly. Keepentireyoungincludingprovisionaliris/bill/toecolours andexportuncertaintyline unchanged, allfeet/supports/forest/bodyplumage/near-equaladultheight unchanged. v7→v8; roles/footerexact. No blacknewlinesinyoung, nosex-sizeguess.",
   "source_ids": [
@@ -41,5 +45,7 @@
   "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-1a7e4989-b9e3-48ce-a4df-fbae014e7595.png",
   "imagegen_wait_seconds": 43.373,
   "editing_wait_seconds": 0,
-  "review_result": "PASS_WITH_LIMITATIONS"
+  "review_result": "PASS_WITH_LIMITATIONS",
+  "review": "Actualv7/v8fullimagesviewed: bothadultcheeksnowfinebrokendarkvermiculationsongraybrownratherlargelyplaincream. Blackruff/brows/eyes/bills/tufts/wingtail/toes/claws/sexdisplayscale/forestpreserved. Entireyoungandiris-bill-toeuncertaintylabelunchanged. LocalpigmentPWLonly, stylizedlinear marksnotexactnaturalmicrostructure. Female20gmassnotheight/no newratio. No firstflight/nest/dayclaim. SourceSIBfreshnamebodyreadnotfacemorphologyproof; actualguide228/PDF230supportsadultfacepattern. Don'ttransferadultvermicstojuvenilewithoutstageevidence.",
+  "reviewed_at": "2026-11-28T03:41:00.861Z"
 }

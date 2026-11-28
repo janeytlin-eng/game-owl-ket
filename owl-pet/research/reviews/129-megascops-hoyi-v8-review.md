@@ -1,0 +1,3 @@
+# Actual review
+Actualv7/v8fullimagesviewed: bothadultcheeksnowfinebrokendarkvermiculationsongraybrownratherlargelyplaincream. Blackruff/brows/eyes/bills/tufts/wingtail/toes/claws/sexdisplayscale/forestpreserved. Entireyoungandiris-bill-toeuncertaintylabelunchanged. LocalpigmentPWLonly, stylizedlinear marksnotexactnaturalmicrostructure. Female20gmassnotheight/no newratio. No firstflight/nest/dayclaim. SourceSIBfreshnamebodyreadnotfacemorphologyproof; actualguide228/PDF230supportsadultfacepattern. Don'ttransferadultvermicstojuvenilewithoutstageevidence.
+{"bytes":2287383,"sha256":"11f4344e67f2c6f83f37cd0656b2f92c35abd5e68b82c1086df04a492d62b57e","gitblob":"a8c4e7110bb9c97f6f919ae8dc2d0a4fa7a3aead","size":[1536,1024]}

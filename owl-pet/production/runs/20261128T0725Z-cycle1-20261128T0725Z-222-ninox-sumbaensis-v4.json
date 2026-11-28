@@ -13,11 +13,15 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T07:34:42.100Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T07:35:58.728Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0725Z-cycle1-20261128T0725Z-222-ninox-sumbaensis-v4.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Access2026-11-28. Reuse NSUM-MIKKOLA-2013-P493 HeimoMikkola uploaded printed493/PDF495 actually reread: grayish-yellow bristled toes/yellowish claws with gray-black tips, feathered tarsi; no sexmeasurements, young palerreddish/noVchevrons. Reuse NSUM-OLSEN-2002-P225-230 JerryOlsen/MichaelWink/HeidiSauer-Gurth/SusanTrost2002 Emu102:223–231 DOI10.1071/MU02006 original https://www.biologicaldiversity.org/campaigns/global_owl_project/descriptions/Ninox/Ninox%20sumbaensis%20%28Olsen%2C%20Wink%2C%20Sauer-Gurth%20%26%20Trost%29%202002%2C%20Emu%2C%20102%2C%20pages%20223-231..pdf actual published PDF description printed225/PDF4 and continuation229/PDF8 read: adult/adultlike specimen yellowfeet/yellowclaws darktips, fronttarsusfeathered/bristledtoes/backtarsusbare; no sexdimorphism from one unknown-sex type. 2001 fledgedyoung lighterrufous/no ventralchevrons. Reuse NSUM-OLSEN-TROST-MYERS-2009-P10-11 Owls ontheIslandofSumba AFO26:2–14 https://afo.birdlife.org.au/afo/index.php/afo/article/viewFile/505/489 actual webPDFbody pp10–11 read: Dec24,2001young watched torch-lit insects/headwinding/begging, family independent movement; hunting event explicitlyadult notyoung. Local PDFdownload403, actualwebbody accessible, no false full localPDFclaim. Old/current Ninoxsumbaensis same2002name, notrudolfi whose nearby sex-sizeparagraph excluded. Actualv3 pink adult bare toe skin conflicts yellow-range evidence; recolor muted gray-yellow, keep yellowhornclaw/darktips and young feet unchanged. Guidegrayyellow vsprimaryyellow descriptive nuance notexactRGB; no sexheight orjuvenileageirisbill/flightthreshold inferred. New0/reuse3, adultbareparts only.",
   "full_prompt": "Use case precise-object-edit. #222 Least Boobook Ninox sumbaensis v3 trio. ONLY BOTH ADULTS' bare toe and exposed ankle SKIN: replace rosy pink/skin-flesh blush with muted grayish-yellow/ochre-yellow scaled bird skin, low saturation, not pink. Keep a few sparse short bristles on toe upper sides, not fullfeathered mittens. Existing yellowish horn claws with grayblacktips unchanged; same exact toe counts/geometry/twofeetbranchgrips, tarsal feathers unchanged. Entire right reddish fledgedyoung and its feet/plumage/insectwatching head direction unchanged; do not borrow adultfeet ontoyoung. Adult heads/eyes/bill/chevronunderparts/near-equalsize and forest/title/roles/footer preserved, add v4 to title. No sexratio or preciseage/flightclaim, concept/sciencepending retained.",
   "source_ids": [
@@ -25,5 +29,18 @@
     "NSUM-OLSEN-2002-P225-230",
     "NSUM-OLSEN-TROST-MYERS-2009-P10-11"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "image_metadata": {
+    "bytes": 2568853,
+    "sha256": "a7d55e08865546978afaf80a42070b791958ea7f817b166dd942260f0ffe6e12",
+    "gitblob": "0ae6c3871d351c3a3eb6ebc052334777f46ccd44",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-6a4238e0-f5d9-495f-af30-9a9417bdef0b.png",
+  "imagegen_wait_seconds": 37.723,
+  "editing_wait_seconds": 0,
+  "review_result": "PASS_WITH_LIMITATIONS"
 }

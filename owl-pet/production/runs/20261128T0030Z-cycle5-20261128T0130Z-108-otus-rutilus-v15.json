@@ -9,9 +9,20 @@
     {
       "stage": "STARTED",
       "at": "2026-11-28T01:31:02.446Z"
+    },
+    {
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-28T01:31:36.575Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0030Z-cycle5-20261128T0130Z-108-otus-rutilus-v15.json",
-  "stage": "STARTED"
+  "stage": "RESEARCH_READY",
+  "research": "Access2026-11-28Shanghai. New0/reuse2. RUT-VASSEN-2013-ANDASIBE-JUV FrankVassen, original Flickr https://www.flickr.com/photos/42244964@N03/12038858063/ body freshly read: taken4Dec2013, uploaded19Jan2014, Andasibe Madagascar, juvenile. Existing cached same photo production1931nov27/108-field.jpg actually viewed now; no successful freshphoto download claimed. Photo dense fine brown/buff irregular horizontal mottling, darkmask/pinklowerlid/yellowbrowniris/darkbill, perched; exactage/sex/flight unknown. MIKKOLA-2013 HeimoMikkola2013 printed143/PDF145 actuallyread now: adultbrownmorph herringbone shafts/black-edgedwhitescapulars/yelloweyes/graybrownbill-toes/darkclaws/featheredtarsitobase; females average18gheavier notheight; bookjuvenileunknown. OldScopsrutilus=currentOtusrutilus. Existingv14actualviewed coilgeometryonheadandbelly despitepreviousshortening. Differentmethod: source-image-guided fulljuvenilefeathersurfacerebuild withirregularlowcontrastsurfacepatterns, preservinganatomy/unknownstage. Exactmicrobarbs sourceimagecannotquantify. No nest/flight/day/sex invented, sciencefalse.",
+  "full_prompt": "Use case: precise-object-edit. Edit target Image1 #108 Otus rutilus v14 trio; Image2 supporting actual Frank Vassen 2013 Andasibe juvenile photo. Rebuild ONLY centre juvenile feather material using the PHOTO'S low-contrast fine, irregular horizontal brown/buff mottling over dense fine feather grain. Match this mottled photographic feather-surface impression rather than simply shortening curls. No wool curls, spiral loops, rope strands, repeated scallop units, broad dark adult barring, or long straight hair. Keep current juvenile outline, dark mask, pink lower eyelid/yellowbrown eye, dark bill, absent ear tufts, concealed wing/tail and same two foot grips/age-unknown stage. Keep BOTH ADULTS and all adult anatomy/plumage/feet, all environment, camera, three role labels, footer unchanged. Adult size is display only, no biological height ratio. Change v14 to v15. Same confirmed gentle stylized 3D pet style overall; only juvenile's surface must become finer irregular mottled plumage, not change anatomy, age or add flight feathers.",
+  "source_ids": [
+    "RUT-VASSEN-2013-ANDASIBE-JUV",
+    "MIKKOLA-2013"
+  ],
+  "new_sources": 0
 }

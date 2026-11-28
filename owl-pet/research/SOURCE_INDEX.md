@@ -9523,3 +9523,8 @@ Correction 01v6: PMC direct open/urllib returned bot wall, not read successfully
 ## 20261128T1435Z 05-strix-aluco-v7
 复用TAO-MIKKOLA-2013-P315 HeimoMikkola2013,本轮实际上传原PDF printed315/PDF317：成人tarsi及most grey toes feathered, hornclaws；female质量差不换高度；幼鸟pinkrim/palefleshy裸部但不是全部裸趾。复用TAO-BOT-OWLET BarnOwlTrust undated https://www.barnowltrust.org.uk/barn-owl-facts/owlet-identification-age/ 本轮主动外检后实际读原Tawny/Barn比较Toes/eyelids/down，Tawny wellfeathered与Barn unfeathered应区别，不能搜摘要看到unfeathered就套Tawny。v6实际完整查看，两成人和右olderyoung均长灰色裸鳞趾，故局部补趾背短羽、掌底可裸，不改羽龄。松散灰褐横纹mesoptile和粉眼睑保留；现young姿态两足枝支撑，确切龄/翼羽序未标定。新0复用2，先前v6'wellfeatheredtoe'口头通过与实际裸趾矛盾，本轮记录并实际修订，不追溯篡旧review。
 [Research/prompt](species/05-strix-aluco-v7.md) · [Review](reviews/05-strix-aluco-v7-review.md)
+
+
+## 20261128T1435Z 04-athene-noctua-v7
+复用LIO-BLASCO-HEINZE-07570，JavierBlascoZumeta/GerdMichaelHeinze undated,原环志鉴龄guide https://www.blascozumeta.com/specie_files/07570_ENG_Athene_noctua_aranzadi.pdf ,2026-11-28本轮外检/新下原PDF实际p1ID/Sexing/Ageing及p2crown/headcomparison照片实际查看，juvenileplainbrowncrown/loosedownbody且有freshflight/tail,非初生；尺寸重叠不可单凭体型辨性。复用LIO-MIKKOLA-2013-P427本轮实际printed427/PDF429读取adultbellyrelativelyunmarked/green-graybill/olivecere/bristledtoes及mesoptilediffuse。当前旧名Strixnoctua对应Athene。v6实际图中央冠顶有明显淡圈样强调且28day标签未经测量，本轮限定淡圈减弱及撤数值龄，不改变已形成翼羽/年龄阶段，不虚报成人嘴色错误。物种资料不能给生成图定28day；图鉴与agingguide适用年龄不同保留边界。新0复用2，后续精确羽龄/iris/动作能力未知。
+[Research/prompt](species/04-athene-noctua-v7.md) · [Review](reviews/04-athene-noctua-v7-review.md)

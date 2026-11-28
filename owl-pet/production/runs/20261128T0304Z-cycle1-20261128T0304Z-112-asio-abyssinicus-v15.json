@@ -13,16 +13,33 @@
     {
       "stage": "RESEARCH_READY",
       "at": "2026-11-28T03:12:52.050Z"
+    },
+    {
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-28T03:14:10.466Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0304Z-cycle1-20261128T0304Z-112-asio-abyssinicus-v15.json",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "research": "Access2026-11-28Shanghai new0/reuse2. ABY-OWLPAGES-2020-3560 DeaneLewis updated2020-11-08 https://www.owlpages.com/owls/species.php?s=3560 freshactualbody58–62read: ADULTface tawnyBROWN/blackbrownrim/orangeyellowiris/blackishbill/graybrowncere/featheredtoes/darkhornclaws/onlyslightfemaleRSD. Guide W H S O MIKKOLA2013 printed508/PDF510actualuploadedtextreadthisrun corroboratesrichTAWNYBROWNface/shortinconspicuouspalebrows. Secondarydescriptionsnotindependentprimarymeasurement/RGB. Currentv14adultfaceslargegoldorangeplates withbroadpalecheekpatches; locallyreduceexaggeratedcontrast/retainfinebrownmottling. JuvenileMaton1989metadatafreshread https://www.flickr.com/photos/34579661@N04/5424426357/ saysEthiopia1989scannedslide not2011fielddate; nopixelsnewlyreadtoday, noyoungedit/newstagefactsused. Entireolderformedwingtail/unknownageyoungunchanged; bookjuvenileundescribed notborrowAsiootus. OldAsiootusabyssinicus→Asioabyssinicus. Sourcefactqualitativefacecolour; designinterpretationtoneunderillustrativelight. Sciencefalse.",
   "full_prompt": "Precise-object-edit #112 v14. ONLY TWO ADULT FACIAL DISCS: natural rich tawny-BROWN fine mottled face, blackish-brown narrow ruff, inconspicuous SHORT pale eyebrow. Reduce neon golden-orange and broad cream patches in cheeks to quieter tawny-brown fine down. Keep orange-yellow eyes, blackish bill/grey cere, long dark tufts/position, proportions/bodies/feet/toefeathers/claws/scene EXACT. Entire centre older juvenile and formed wing/tail unchanged including unresolved texture. v14→v15. Keep three roles/footer. No universalfemaleenlargement, no juvenile age/flight invented.",
   "source_ids": [
     "ABY-OWLPAGES-2020-3560",
     "WHSO-MIKKOLA-2013"
   ],
-  "new_sources": 0
+  "new_sources": 0,
+  "image_metadata": {
+    "bytes": 2623731,
+    "sha256": "b5fd5758e8f4b0cb8463e854f356c5b7f28abffe3589ee00c4eaecdadd83b0dc",
+    "gitblob": "d3186b4daa42c2df82083792db1630362f2dafea",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "local_image": "/workspace/scratch/96400dc71dac/generated_images/exec-85d72dcb-340d-4648-80d0-1a644ccba8ce.png",
+  "imagegen_wait_seconds": 45.759,
+  "editing_wait_seconds": 0,
+  "review_result": "PASS_WITH_LIMITATIONS"
 }

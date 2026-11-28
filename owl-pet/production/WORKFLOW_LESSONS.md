@@ -1355,3 +1355,7 @@ v21整图实际查看：成年及枝条大片塑料碎片已转连续哑光羽�
 
 ## 20261128T1435Z 07-asio-flammeus-v6
 v6整图实际查看：成年可见爪基有灰角/灰褐中间调、尖仍暗黑，原奶油趾羽及草地支撑/趾数保留；部分爪被草羽遮挡不能完整量化。成人黄眼黑面眼周/短簇黑喙灰褐蜡膜、羽色近等尺度未变；年轻只改证据标签，groundedolderyoung翼和iris/foot时序仍unknown未批准。PWL仅adult角质色/annotation局部，全sciencefalse。问题—全黑爪与grayhorn方向偏差；证据—图鉴adult+Lewis互证；修改—成年爪色限定；复查—局部可见不声称整组科学通过。规则应用限定role，不能adultgrayhorn去校准早期youngclaw。
+
+
+## 20261128T1530Z 10-surnia-ulula-v6
+Recovered candidate full actually viewed this invocation. Adult proximal claw keratin now dark brown with black tips locally visible, feathers/gripping preserved; partly-open young formedwing, graycrown/darkface/goldeneye/twofoot support kept, no unsupported wing removal. Exactday/subspecies/remex measurements and toe timing unknown. Small painterly claws not colorimetric validation. Footer scientificpending added. PASS_WITH_LIMITATIONS adultclaw/annotation only, sciencefalse. Problem→v5 charcoal claw; evidence→Mikkolaprinted360; modification→previous imagegen localizededit; recheck→visiblebrownbase, no broad scientificapproval. Recovery reuses prior generated PNG, not a second production credit; prior c.stage RESEARCH_READY no archive existed. Prompt-rule role-specific adultbareparts applies here only.

@@ -1,0 +1,3 @@
+# Actual review
+v6整图实际查看：成年可见爪基有灰角/灰褐中间调、尖仍暗黑，原奶油趾羽及草地支撑/趾数保留；部分爪被草羽遮挡不能完整量化。成人黄眼黑面眼周/短簇黑喙灰褐蜡膜、羽色近等尺度未变；年轻只改证据标签，groundedolderyoung翼和iris/foot时序仍unknown未批准。PWL仅adult角质色/annotation局部，全sciencefalse。问题—全黑爪与grayhorn方向偏差；证据—图鉴adult+Lewis互证；修改—成年爪色限定；复查—局部可见不声称整组科学通过。规则应用限定role，不能adultgrayhorn去校准早期youngclaw。
+{"bytes":2533704,"sha256":"0ac8728427a0a523b83d714f2a66a067eab86a6e22dcbe9323be5931f0d71359","gitblob":"eda657551a64278ec4cbdd89737c5b08b36b457e","size":[1536,1024]}

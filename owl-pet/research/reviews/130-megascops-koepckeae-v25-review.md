@@ -1,0 +1,3 @@
+# Actual review
+Firstactualfacepolygonoutlinesfailed. Secondactualview finegray-white radiatingfacialfeathers withdarkflecks, cracked-whiteunitsremoved, blackruff/eyes/bill/crown/body/youngbrownchest/barrednessoptiles unchanged. LocaladultfacePWL only; featherfilaments stillstylized notexactfacialpattern. Juvenileleafgeometryunresolved, agesexflightunknown. ExactreuseIDcorrection KOEP-FJELDSA-2012-P180-191, same2012source notnewentry; holotypeadult/hockingi lowerbellynottransferred. Finefaceprimitivechange locallyhelpedadult, didNOTvalidate108juvenilemethod.
+{"bytes":2412211,"sha256":"7294eda321d29f9ab8a54ecf7c5ed170c6dff7f955d29618269f53b624f33341","gitblob":"cab1e9ee90763ff8e044329bb9691c54b25ed5bd","size":[1536,1024]}

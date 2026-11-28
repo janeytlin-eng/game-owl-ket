@@ -9406,3 +9406,8 @@ CAMBOO-RASMUSSEN-2012-FORKTAIL 复用：Rasmussen et al.2012 Forktail28:1–20�
 ## 20261128T1028Z 148-ninox-rumseyi-v7
 复用 CEB-RASMUSSEN-2012-FORKTAIL：Rasmussen et al.2012 Forktail28:1–20，https://www.asianscientist.com/wp-content/uploads/2012/08/Vocal-divergence-and-new-species.pdf ，2026-11-28本地实际读取printed16/PDF17完整Diagnosis及p12 Fig6f（Christian Artuso，Cebu2012-01-03）并查看。成人短白眉、暗耳羽，明显白喉两侧及下方深色边界是原文事实；v6实际图白喉接近横向白项圈，暗侧界偏弱，改为中央边界明确的喉斑。分布旧名N.philippensis spilonota仅Cebu种群→N.rumseyi。成鸟体型中大、腿长来自单模式标本不支持性别比例；腹纹弱斑/短断条可变不统一粗横斑。针对幼鸟羽被及遥测论文外检未取得羽被照片支持：Jakosalem/Collar/Gill旧遥测命中一juvenile仅研究线索，本轮未读正文，不据此推断羽被；旧CEB-JAKOSALEM-COLLAR-GILL-2012不计本轮复用。中央幼鸟保留未核实标记而不新增初生细节；年龄/首飞/巢位未知。枝上为设计支撑。来源原始分类论文/野外影像，p16/p12Fig6f；本次新增0复用1，喉斑形状为有边界的设计应用非毫米还原。
 [Research/prompt](species/148-ninox-rumseyi-v7.md) · [Review](reviews/148-ninox-rumseyi-v7-review.md)
+
+
+## 20261128T1028Z 145-ninox-philippensis-v6
+复用NPH-RASMUSSEN-2012 / LZBO-RASMUSSEN-2012-P13-14（同一论文）Rasmussen et al.2012 Forktail28:1–20，原文URL https://www.asianscientist.com/wp-content/uploads/2012/08/Vocal-divergence-and-new-species.pdf ，2026-11-28实际读取printed13/PDF14 Diagnosis及Table7、p12Fig6a（R.J.Quisumbing，Dolores Quezon2012-01-16），并针对adult unspotted crown外部检索。原文成鸟crown到rump纯棕、无横斑/点斑，larger outer wing-coverts大白斑而无横斑，尾浅条弱且窄。v5实际看成鸟上翼散布较多小浅短线/羽缘装饰，可混同其他菲律宾种，故本轮集中成年上部羽纹清理，保留诊断大白肩/翼斑。复用MIKKOLA-2013 printed473/PDF475实际读取（同书非新增），同意plain upperparts；幼鸟p473旧汇总不足以给当前拆分后N.philippensis精确虹膜序列。原N.philippensis广义七种拆分，当前145限定Luzon型；不把其他岛种纹样套用。大小方向未证实，构图不测量；中央较成熟young保持，年龄/飞行/巢位未知，未画巢；森林枝作为支撑。来源新增0、复用2出版物；本次纠正成鸟纹理指令，不宣称幼鸟或整图科学通过。
+[Research/prompt](species/145-ninox-philippensis-v6.md) · [Review](reviews/145-ninox-philippensis-v6-review.md)

@@ -33,11 +33,15 @@
     {
       "stage": "ARCHIVED",
       "at": "2026-11-28T04:34:47.597Z"
+    },
+    {
+      "stage": "VERIFIED",
+      "at": "2026-11-28T04:35:04.579Z"
     }
   ],
   "scientifically_verified": false,
   "run_record": "owl-pet/production/runs/20261128T0329Z-cycle5-20261128T0430Z-108-otus-rutilus-v18.json",
-  "stage": "ARCHIVED",
+  "stage": "VERIFIED",
   "research": "Access2026-11-28. Reuse RUT-VASSEN-2013-ANDASIBE-JUV FrankVassen2013 photo original https://www.flickr.com/photos/42244964@N03/12038858063/ via Commons https://commons.wikimedia.org/wiki/File:Juvenile_Madagascar_Scops_Owl_(Otus_rutilus),_Andasibe,_Madagascar.jpg actual page fresh read and original/cache viewed, photo4Dec2013Andasibe: perched juvenile fine mottled close feathers, not wool loops; age/sex/flight not given. Same photograph/mirror, no new source. MIKKOLA-2013 printed143/PDF145 actual uploaded text read: juvenile unknown, femaleavg18g heavier not height; adultyellowiris/graybrownbill/tarsifeatheredtobase. OldScopsrutilus→Otusrutilus. Test flat feather vanes rather additional de-curl smoothing; unknown juvenile age/flight/nest retained. New0/reuse2.",
   "full_prompt": "Use case precise-object-edit, scientific-educational stylized pet concept. Edit target image2 #108v17. Image1 is real biological reference ONLY for centre juvenile. Replace only centre juvenile plumage with short, softly overlapping flat feather vanes, irregular brown buff flecks and fine diffuse transverse mottling visible in photo. NEW surface construction: feather vanes lie close to torso like tiny flat brushstrokes, with no raised cords, loops, curly yarn, or repeated scalloped bright outlines. Preserve juvenile threequarter pose/head/eyes/darkbill, both feet/grip, exact developmental stage unknown, wings folded/concealed. Keep TWO adults and all environment/layout/scale unchanged. Coherent gentle3Dpet style. Title v17→v18. Preserve sciencepending/flightunverified/ageunknown. No new hatchling or mature wings. Do not smooth into bald plush/felt.",
   "source_ids": [
@@ -63,5 +67,8 @@
   "review_result": "NEEDS_REVISION",
   "review": "Actual first and second generated images visually inspected. Second head filaments straighter/shorter, but repetitive bright edged leaf surfaces persist on body. NEEDS_REVISION, scientifically false. Adults/scale/eyes/bill/toes/forest/support remain visually consistent. Juvenile stage unchanged unknown age, flightunverified, no mature spreadwings or invented nest. Proposed unoutlined shortvane construction not validated effective; no third nearly identical attempt this cycle. Sourcephoto actually seen is finer flatter mottling; keep unresolved queue108/130/112 and do not transfer adult fixes to juvenile success.",
   "reviewed_at": "2026-11-28T04:34:42.672Z",
-  "archived_at": "2026-11-28T04:34:47.576Z"
+  "archived_at": "2026-11-28T04:34:47.576Z",
+  "archive_commit": "f302e5eade76ac0b7539197e1f22530f2f28706f",
+  "ended_at": "2026-11-28T04:35:04.558Z",
+  "verification_exit_code": 0
 }
